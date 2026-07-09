@@ -3,7 +3,7 @@ title: IBaseChartValue
 second_title: Aspose.Sildes for .NET API リファレンス
 description: チャートの値を表します。
 type: docs
-weight: 1710
+weight: 1730
 url: /ja/aspose.slides.charts/ibasechartvalue/
 ---
 ## IBaseChartValue インターフェイス
@@ -18,8 +18,8 @@ public interface IBaseChartValue
 
 | 名前 | 説明 |
 | --- | --- |
-| [Data](../../aspose.slides.charts/ibasechartvalue/data) { get; set; } | 読み取り/書き込み Object. |
-| [DataSourceType](../../aspose.slides.charts/ibasechartvalue/datasourcetype) { get; set; } | AsCell または AsLiteralString または AsLiteralDouble プロパティが実際であるかを指定します。言い換えれば、Data プロパティの値のタイプを指定します。このプロパティは読み取り専用です。 このプロパティの値を変更するには、ChartDataPointCollection.DataSourceTypeFor&lt;...&gt; プロパティのいずれかを使用できます。 読み取り/書き込み [`DataSourceType`](./datasourcetype). |
+| [Data](../../aspose.slides.charts/ibasechartvalue/data) { get; set; } | 読み取り/書き込み Object。 |
+| [DataSourceType](../../aspose.slides.charts/ibasechartvalue/datasourcetype) { get; set; } | AsCell、AsLiteralString、または AsLiteralDouble プロパティが実際に使用されているかを指定します。別の言い方をすれば、Data プロパティの値の型を指定します。このプロパティは読み取り専用です。このプロパティの値を変更するには、ChartDataPointCollection.DataSourceTypeFor&lt;...&gt; プロパティのいずれかを使用できます。読み取り/書き込み [`DataSourceType`](./datasourcetype)。 |
 
 ### 参照
 

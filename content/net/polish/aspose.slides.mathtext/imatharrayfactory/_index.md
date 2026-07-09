@@ -1,14 +1,14 @@
 ---
 title: IMathArrayFactory
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Umożliwia tworzenie macierzy matematycznej
+second_title: Aspose.Sildes dla .NET Referencja API
+description: Umożliwia tworzenie tablicy matematycznej
 type: docs
-weight: 8090
+weight: 8110
 url: /pl/aspose.slides.mathtext/imatharrayfactory/
 ---
 ## IMathArrayFactory interfejs
 
-Umożliwia tworzenie macierzy matematycznej
+Umożliwia tworzenie tablicy matematycznej
 
 ```csharp
 public interface IMathArrayFactory
@@ -18,14 +18,14 @@ public interface IMathArrayFactory
 
 | Nazwa | Opis |
 | --- | --- |
-| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray)(IMathElement) | Tworzy macierz matematyczną i umieszcza w niej określony element |
-| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray_1)(IMathElementCollection) | Tworzy macierz matematyczną i umieszcza w niej określone elementy |
+| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray)(IMathElement) | Tworzy tablicę matematyczną i umieszcza w niej określony element |
+| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray_1)(IMathElementCollection) | Tworzy tablicę matematyczną i umieszcza w niej określone elementy |
 
 ### Uwagi
 
 Dla zgodności z COM
 
-### Zobacz też
+### Zobacz także
 
 * przestrzeń nazw [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * zestaw [Aspose.Slides](../../)

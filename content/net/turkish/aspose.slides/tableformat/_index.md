@@ -3,10 +3,10 @@ title: TableFormat
 second_title: Aspose.Sildes için .NET API Referansı
 description: Bir tablonun biçimini temsil eder.
 type: docs
-weight: 10850
+weight: 10870
 url: /tr/aspose.slides/tableformat/
 ---
-## TableFormat sınıfı
+## TableFormat sınıf
 
 Bir tablonun biçimini temsil eder.
 
@@ -18,8 +18,8 @@ public sealed class TableFormat : DomObject<Table>, ITableFormat
 
 | Ad | Açıklama |
 | --- | --- |
-| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | Bir tablo dolgu özellikleri nesnesi döndürür. Salt okunur [`IFillFormat`](../ifillformat). |
-| [Transparency](../../aspose.slides/tableformat/transparency) { get; set; } | Dolgu renginin saydamlığını alır veya ayarlar. Okunur/yazılır Single. |
+| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | Bir tablo doldurma özellikleri nesnesi döndürür. Yalnızca okunabilir [`IFillFormat`](../ifillformat). |
+| [Transparency](../../aspose.slides/tableformat/transparency) { get; set; } | Doldurma renginin şeffaflığını alır veya ayarlar. Okunabilir/Yazılabilir Single. |
 
 ## Yöntemler
 
@@ -27,7 +27,7 @@ public sealed class TableFormat : DomObject<Table>, ITableFormat
 | --- | --- |
 | [GetEffective](../../aspose.slides/tableformat/geteffective)() | Kalıtım ve tablo stilleri uygulanmış etkili tablo biçimlendirme özelliklerini alır. |
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
 * sınıf [DomObject&lt;TParent&gt;](../domobject-1)
 * sınıf [Table](../table)

@@ -1,14 +1,14 @@
 ---
 title: IChartTextFormat
-second_title: Aspose.Sildes for .NET API referencia
-description: A diagram korlátozott szövegformázási tulajdonságok halmazával működik. Az IChartTextFormat IChartTextBlockFormat IChartParagraphFormat IChartPortionFormat interfészek leírják ezt a korlátozott halmazt.
+second_title: Aspose.Sildes a .NET API hivatkozás
+description: A Chart korlátozott halmazú szövegformátum-tulajdonságokkal működik. Az IChartTextFormat IChartTextBlockFormat IChartParagraphFormat IChartPortionFormat interfészek leírják ezt a korlátozott halmazt.
 type: docs
-weight: 1970
+weight: 1990
 url: /hu/aspose.slides.charts/icharttextformat/
 ---
 ## IChartTextFormat interfész
 
-A diagram korlátozott szövegformázási tulajdonságok halmazával működik. IChartTextFormat, IChartTextBlockFormat, IChartParagraphFormat, IChartPortionFormat interfészek leírják ezt a korlátozott halmazt.
+A Chart korlátozott halmazú szövegformátum tulajdonságokkal működik. Az IChartTextFormat, IChartTextBlockFormat, IChartParagraphFormat, IChartPortionFormat interfészek leírják ezt a korlátozott halmazt.
 
 ```csharp
 public interface IChartTextFormat
@@ -20,14 +20,14 @@ public interface IChartTextFormat
 | --- | --- |
 | [ParagraphFormat](../../aspose.slides.charts/icharttextformat/paragraphformat) { get; } | Visszaadja a bekezdés formátumát. Csak olvasható [`IChartParagraphFormat`](../ichartparagraphformat). |
 | [PortionFormat](../../aspose.slides.charts/icharttextformat/portionformat) { get; } | Visszaadja a részlet formátumát. Csak olvasható [`IChartPortionFormat`](../ichartportionformat). |
-| [TextBlockFormat](../../aspose.slides.charts/icharttextformat/textblockformat) { get; } | Visszaadja a diagram szövegelemek formátumát. Csak olvasható [`IChartTextBlockFormat`](../icharttextblockformat). |
+| [TextBlockFormat](../../aspose.slides.charts/icharttextformat/textblockformat) { get; } | Visszaadja a diagram szöveg elemeinek formátumát. Csak olvasható [`IChartTextBlockFormat`](../icharttextblockformat). |
 
 ## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [CopyFrom](../../aspose.slides.charts/icharttextformat/copyfrom)(ITextFrame) | Másolja a szövegformátumot a megadott szövegkeretből. |
-| [CopyTo](../../aspose.slides.charts/icharttextformat/copyto)(ITextFrame) | Másolja a szövegformátumot a megadott szövegkeretbe. |
+| [CopyFrom](../../aspose.slides.charts/icharttextformat/copyfrom)(ITextFrame) | Másolja a szövegformátumot a megadott ITextFrame-ból. |
+| [CopyTo](../../aspose.slides.charts/icharttextformat/copyto)(ITextFrame) | Másolja a szövegformátumot a megadott ITextFrame-ba. |
 
 ### Lásd még
 

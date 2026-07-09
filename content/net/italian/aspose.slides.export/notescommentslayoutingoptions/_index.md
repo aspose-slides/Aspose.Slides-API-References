@@ -3,7 +3,7 @@ title: NotesCommentsLayoutingOptions
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Fornisce opzioni che controllano l'aspetto del layout di note e commenti nel documento esportato.
 type: docs
-weight: 4270
+weight: 4290
 url: /it/aspose.slides.export/notescommentslayoutingoptions/
 ---
 ## NotesCommentsLayoutingOptions classe
@@ -24,11 +24,11 @@ public class NotesCommentsLayoutingOptions : ISlidesLayoutOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [CommentsAreaColor](../../aspose.slides.export/notescommentslayoutingoptions/commentsareacolor) { get; set; } | Ottiene o imposta il colore dell'area dei commenti (Vale solo se i commenti sono visualizzati a destra). |
-| [CommentsAreaWidth](../../aspose.slides.export/notescommentslayoutingoptions/commentsareawidth) { get; set; } | Ottiene o imposta la larghezza dell'area di output dei commenti in pixel (Vale solo se i commenti sono visualizzati a destra). |
+| [CommentsAreaColor](../../aspose.slides.export/notescommentslayoutingoptions/commentsareacolor) { get; set; } | Ottiene o imposta il colore dell'area dei commenti (vale solo se i commenti sono visualizzati a destra). |
+| [CommentsAreaWidth](../../aspose.slides.export/notescommentslayoutingoptions/commentsareawidth) { get; set; } | Ottiene o imposta la larghezza dell'area di output dei commenti in pixel (vale solo se i commenti sono visualizzati a destra). |
 | [CommentsPosition](../../aspose.slides.export/notescommentslayoutingoptions/commentsposition) { get; set; } | Ottiene o imposta la posizione dei commenti nella pagina. |
 | [NotesPosition](../../aspose.slides.export/notescommentslayoutingoptions/notesposition) { get; set; } | Ottiene o imposta la posizione delle note nella pagina. |
-| [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | Ottiene o imposta la visibilità dei commenti senza autore. Se vero, i commenti verranno visualizzati. (Vale solo se i commenti sono visualizzati). |
+| [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | Ottiene o imposta la visibilità dei commenti che non hanno un autore. Se vero, i commenti saranno visualizzati. (Vale solo se i commenti sono visualizzati). |
 
 ### Vedi anche
 

@@ -1,14 +1,14 @@
 ---
 title: BehaviorAccumulateType
 second_title: Aspose.Sildes per .NET API Reference
-description: Rappresenta i tipi di accumulazione dei comportamenti di effetto.
+description: Rappresenta i tipi di accumulazione dei comportamenti dell'effetto.
 type: docs
-weight: 130
+weight: 150
 url: /it/aspose.slides.animation/behavioraccumulatetype/
 ---
 ## BehaviorAccumulateType enumerazione
 
-Rappresenta i tipi di accumulazione dei comportamenti di effetto.
+Rappresenta i tipi di accumulazione dei comportamenti dell'effetto.
 
 ```csharp
 public enum BehaviorAccumulateType

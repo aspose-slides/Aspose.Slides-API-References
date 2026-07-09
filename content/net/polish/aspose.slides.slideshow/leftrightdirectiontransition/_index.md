@@ -1,9 +1,9 @@
 ---
 title: LeftRightDirectionTransition
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Efekt przejścia slajdu w kierunku lewo-prawo.
 type: docs
-weight: 10220
+weight: 10240
 url: /pl/aspose.slides.slideshow/leftrightdirectiontransition/
 ---
 ## LeftRightDirectionTransition klasa
@@ -24,8 +24,8 @@ public class LeftRightDirectionTransition : TransitionValueBase, ILeftRightDirec
 
 | Nazwa | Opis |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Określa, czy dwa wystąpienia TransitionValueBase są równe. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Służy jako funkcja skrótu dla określonego typu, odpowiednia do użycia w algorytmach haszujących i strukturach danych, takich jak tablica skrótów. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Określa, czy dwie instancje TransitionValueBase są równe. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Służy jako funkcja mieszająca dla określonego typu, nadająca się do użycia w algorytmach mieszających i strukturach danych, takich jak tablica mieszająca. |
 
 ### Zobacz także
 

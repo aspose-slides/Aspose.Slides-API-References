@@ -1,9 +1,9 @@
 ---
 title: InvalidPasswordException
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Pengecualian yang dilempar ketika format file presentasi tidak didukung.
 type: docs
-weight: 7600
+weight: 7620
 url: /id/aspose.slides/invalidpasswordexception/
 ---
 ## InvalidPasswordException kelas

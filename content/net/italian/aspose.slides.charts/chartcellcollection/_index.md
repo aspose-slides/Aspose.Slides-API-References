@@ -3,7 +3,7 @@ title: ChartCellCollection
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta una collezione di celle con dati.
 type: docs
-weight: 1280
+weight: 1300
 url: /it/aspose.slides.charts/chartcellcollection/
 ---
 ## ChartCellCollection classe
@@ -18,7 +18,7 @@ public class ChartCellCollection : IChartCellCollection
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartcellcollection/count) { get; } | Ottiene il numero di celle nella collezione. Solo lettura Int32. |
+| [Count](../../aspose.slides.charts/chartcellcollection/count) { get; } | Ottiene il conteggio delle celle nella collezione. Int32 di sola lettura. |
 | [Item](../../aspose.slides.charts/chartcellcollection/item) { get; } | Restituisce una cella (IChartDataCell) per indice. |
 
 ## Metodi
@@ -28,7 +28,7 @@ public class ChartCellCollection : IChartCellCollection
 | [Add](../../aspose.slides.charts/chartcellcollection/add#add)(IChartDataCell) | Aggiunge una nuova cella alla collezione. |
 | [Add](../../aspose.slides.charts/chartcellcollection/add#add_1)(object) | Crea [`ChartDataCell`](../chartdatacell) dal valore specificato e lo aggiunge alla collezione. |
 | [GetCellsAddress](../../aspose.slides.charts/chartcellcollection/getcellsaddress)() | Restituisce l'indirizzo del set di celle nella cartella di lavoro. |
-| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells)() | Stringa di concatenazione dei valori stringa di tutte le celle. |
+| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells)() | Stringa di concatenazione di tutti i valori stringa delle celle. |
 | [GetEnumerator](../../aspose.slides.charts/chartcellcollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la collezione. |
 | [RemoveAt](../../aspose.slides.charts/chartcellcollection/removeat)(int) | Rimuove una cella dalla collezione per indice. |
 

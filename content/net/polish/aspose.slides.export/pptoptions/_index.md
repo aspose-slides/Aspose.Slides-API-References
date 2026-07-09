@@ -1,14 +1,14 @@
 ---
 title: PptOptions
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Udostępnia opcje kontrolujące, jak prezentacja jest zapisywana w formacie PPT.
+second_title: Referencja API Aspose.Sildes dla .NET
+description: Udostępnia opcje kontrolujące sposób zapisywania prezentacji w formacie PPT.
 type: docs
-weight: 4340
+weight: 4360
 url: /pl/aspose.slides.export/pptoptions/
 ---
 ## PptOptions klasa
 
-Udostępnia opcje kontrolujące, jak prezentacja jest zapisywana w formacie PPT.
+Udostępnia opcje kontrolujące sposób zapisywania prezentacji w formacie PPT.
 
 ```csharp
 public class PptOptions : SaveOptions, IPptOptions
@@ -24,14 +24,14 @@ public class PptOptions : SaveOptions, IPptOptions
 
 | Nazwa | Opis |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Zwraca lub ustawia czcionkę używaną, gdy nie zostanie odnaleziona czcionka źródłowa. Odczyt/zapis String. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Zwraca lub ustawia styl wizualny gradientu. Odczyt/zapis [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Reprezentuje obiekt zwrotny do aktualizacji postępu zapisywania w procentach. Zobacz [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [RootDirectoryClsid](../../aspose.slides.export/pptoptions/rootdirectoryclsid) { get; set; } | Reprezentuje GUID klasy obiektu (CLSID) przechowywany w głównym wpisie katalogu. Może być używany do aktywacji COM aplikacji dokumentu. Domyślna wartość to '64818D11-4F9B-11CF-86EA-00AA00B929E8', która odpowiada 'Microsoft Powerpoint.Slide.8'. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Określa, czy pomijać hiperlinki z wywołaniami JavaScript podczas zapisywania prezentacji. Odczyt/zapis Boolean. Domyślna wartość to **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Zwraca lub ustawia obiekt, który otrzymuje ostrzeżenia i decyduje, czy proces ładowania będzie kontynuowany lub przerwany. Odczyt/zapis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Zwraca lub ustawia czcionkę używaną, gdy nie odnaleziono czcionki źródłowej. Odczyt-zapis String. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Zwraca lub ustawia styl wizualny gradientu. Odczyt-zapis [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Reprezentuje obiekt wywołania zwrotnego dla aktualizacji postępu zapisu w procentach. Zobacz [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [RootDirectoryClsid](../../aspose.slides.export/pptoptions/rootdirectoryclsid) { get; set; } | Reprezentuje GUID klasy obiektu (CLSID) przechowywany w wpisie katalogu głównego. Może być używany do aktywacji COM aplikacji dokumentu. Domyślna wartość to '64818D11-4F9B-11CF-86EA-00AA00B929E8', która odpowiada 'Microsoft Powerpoint.Slide.8'. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Określa, czy pomijać hiperłącza z wywołaniami JavaScript przy zapisywaniu prezentacji. Odczyt-zapis Boolean. Domyślna wartość to **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Zwraca lub ustawia obiekt, który otrzymuje ostrzeżenia i decyduje, czy proces ładowania będzie kontynuowany, czy zostanie przerwany. Odczyt-zapis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
-### Zobacz również
+### Zobacz także
 
 * klasa [SaveOptions](../saveoptions)
 * interfejs [IPptOptions](../ipptoptions)

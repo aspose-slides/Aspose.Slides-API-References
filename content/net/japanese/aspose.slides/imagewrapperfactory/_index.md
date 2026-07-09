@@ -1,20 +1,20 @@
 ---
 title: ImageWrapperFactory
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: このクラスは IBitmapWrapper を初期化できます。
 type: docs
-weight: 7430
+weight: 7450
 url: /ja/aspose.slides/imagewrapperfactory/
 ---
 ## ImageWrapperFactory クラス
 
-このクラスは IBitmapWrapper を初期化できます。
+このクラスは IBitmapWrapper の初期化を可能にします。
 
 ```csharp
 public class ImageWrapperFactory : IImageWrapperFactory
 ```
 
-## コンストラクタ
+## コンストラクター
 
 | 名前 | 説明 |
 | --- | --- |

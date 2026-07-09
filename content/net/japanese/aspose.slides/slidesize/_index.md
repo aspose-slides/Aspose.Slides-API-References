@@ -3,7 +3,7 @@ title: SlideSize
 second_title: Aspose.Sildes の .NET API リファレンス
 description: スライドのサイズと向きを表します。
 type: docs
-weight: 10480
+weight: 10500
 url: /ja/aspose.slides/slidesize/
 ---
 ## SlideSize クラス
@@ -19,17 +19,17 @@ public class SlideSize : DomObject<Presentation>, ISlideSize
 | 名前 | 説明 |
 | --- | --- |
 | [Orientation](../../aspose.slides/slidesize/orientation) { get; set; } | スライドの向きを取得または設定します。 |
-| [Size](../../aspose.slides/slidesize/size) { get; } | スライドのサイズ（ポイント単位）を取得します。 |
+| [Size](../../aspose.slides/slidesize/size) { get; } | スライドの寸法をポイントで取得します。 |
 | [Type](../../aspose.slides/slidesize/type) { get; } | スライドのサイズタイプを取得します。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [SetSize](../../aspose.slides/slidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | タイプでスライドサイズを設定し、既存のコンテンツをスケーリングします。 |
-| [SetSize](../../aspose.slides/slidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | スライドのサイズを明示的に設定し、既存のコンテンツをスケーリングします。 |
+| [SetSize](../../aspose.slides/slidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | スライドサイズをタイプで設定し、既存のコンテンツをスケーリングします。 |
+| [SetSize](../../aspose.slides/slidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | スライドの寸法を明示的に設定し、既存のコンテンツをスケーリングします。 |
 
-### 関連項目
+### 参照
 
 * クラス [DomObject&lt;TParent&gt;](../domobject-1)
 * クラス [Presentation](../presentation)

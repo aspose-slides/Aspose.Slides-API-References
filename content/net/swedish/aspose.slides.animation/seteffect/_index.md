@@ -1,20 +1,20 @@
 ---
 title: SetEffect
-second_title: Aspose.Slides för .NET API-referens
-description: Representerar en uppsättningseffekt för ett animeringsbeteende.
+second_title: Aspose.Sildes för .NET API-referens
+description: Representerar en set-effekt för ett animationsbeteende.
 type: docs
-weight: 790
+weight: 810
 url: /sv/aspose.slides.animation/seteffect/
 ---
 ## SetEffect klass
 
-Representerar en uppsättningseffekt för ett animeringsbeteende.
+Representerar en set-effekt för ett animationsbeteende.
 
 ```csharp
 public class SetEffect : Behavior, ISetEffect
 ```
 
-## Konstruktorer
+## Konstruktörer
 
 | Namn | Beskrivning |
 | --- | --- |
@@ -24,13 +24,13 @@ public class SetEffect : Behavior, ISetEffect
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Representerar huruvida animeringsbeteenden ackumuleras. Läs/skriv [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Representerar huruvida det aktuella animeringsbeteendet kombineras med andra pågående animationer. Läs/skriv [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Representerar egenskaper för beteendet. Endast läs [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Representerar tidsinställningar för effektbeteendet. Läs/skriv [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/seteffect/to) { get; set; } | Specificerar ett visst attribut för en effekt efter en animeringseffekt. Representerar punktvärde. Endast: bool, ColorFormat, float, int, string. Läs/skriv Object. |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Anger om animationsbeteenden ackumuleras. Läs/skriv [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Anger om det aktuella animationsbeteendet kombineras med andra pågående animationer. Läs/skriv [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Representerar egenskaper för beteendet. Skrivskyddad [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Representerar tidsrelaterade egenskaper för effektsbeteendet. Läs/skriv [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/seteffect/to) { get; set; } | Specificerar ett visst attribut för en effekt efter en animationseffekt. Representerar punktvärde. Endast: bool, ColorFormat, float, int, string. Läs/skriv Object. |
 
-### Se också
+### Se även
 
 * klass [Behavior](../behavior)
 * gränssnitt [ISetEffect](../iseteffect)

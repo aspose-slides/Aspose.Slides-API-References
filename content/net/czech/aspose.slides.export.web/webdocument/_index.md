@@ -1,14 +1,14 @@
 ---
 title: WebDocument
 second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje přechodovou formu prezentace pro uložení do webového formátu.
+description: Představuje přechodovou formu prezentace pro uložení do webového formátu.
 type: docs
-weight: 4660
+weight: 4680
 url: /cs/aspose.slides.export.web/webdocument/
 ---
 ## WebDocument třída
 
-Representuje přechodovou formu prezentace pro uložení do webového formátu.
+Představuje přechodnou formu prezentace pro uložení ve webovém formátu.
 
 ```csharp
 public class WebDocument

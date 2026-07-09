@@ -1,14 +1,14 @@
 ---
 title: BiLevel
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili efek Bi-Level hitam/putih. Warna masukan yang luminansinya kurang dari nilai ambang batas yang ditentukan diubah menjadi hitam. Warna masukan yang luminansinya lebih besar atau sama dengan nilai yang ditentukan diatur menjadi putih. Nilai efek alfa tidak terpengaruh oleh efek ini.
+description: Mewakili efek Bi-Level hitam/putih. Warna masukan yang luminansnya kurang dari nilai ambang batas yang ditentukan diubah menjadi hitam. Warna masukan yang luminansnya lebih besar atau sama dengan nilai yang ditentukan diatur menjadi putih. Nilai efek alfa tidak terpengaruh oleh efek ini.
 type: docs
-weight: 2890
+weight: 2910
 url: /id/aspose.slides.effects/bilevel/
 ---
 ## Kelas BiLevel
 
-Mewakili efek Bi-Level (hitam/putih). Warna masukan yang luminansinya kurang dari nilai ambang batas yang ditentukan diubah menjadi hitam. Warna masukan yang luminansinya lebih besar atau sama dengan nilai yang ditentukan diatur menjadi putih. Nilai efek alfa tidak terpengaruh oleh efek ini.
+Mewakili efek Bi-Level (hitam/putih). Warna masukan yang luminansnya kurang dari nilai ambang batas yang ditentukan diubah menjadi hitam. Warna masukan yang luminansnya lebih besar atau sama dengan nilai yang ditentukan diatur menjadi putih. Nilai efek alfa tidak terpengaruh oleh efek ini.
 
 ```csharp
 public sealed class BiLevel : ImageTransformOperation, IBiLevel
@@ -24,7 +24,7 @@ public sealed class BiLevel : ImageTransformOperation, IBiLevel
 
 | Nama | Deskripsi |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/bilevel/equals)(object) | Menentukan apakah [`BiLevel`](../bilevel) yang ditentukan sama dengan [`BiLevel`](../bilevel) yang sedang berlaku. |
+| override [Equals](../../aspose.slides.effects/bilevel/equals)(object) | Menentukan apakah [`BiLevel`](../bilevel) yang ditentukan sama dengan [`BiLevel`](../bilevel) saat ini. |
 | [GetEffective](../../aspose.slides.effects/bilevel/geteffective)() | Mendapatkan data efek Bi-Level yang efektif dengan pewarisan yang diterapkan. |
 | override [GetHashCode](../../aspose.slides.effects/bilevel/gethashcode)() | Berfungsi sebagai fungsi hash untuk tipe tertentu. |
 

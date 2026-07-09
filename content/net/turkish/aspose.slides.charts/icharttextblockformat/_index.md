@@ -3,10 +3,10 @@ title: IChartTextBlockFormat
 second_title: Aspose.Sildes için .NET API Referansı
 description: Grafik metin öğeleri için biçimlendirme özelliklerini temsil eder.
 type: docs
-weight: 1960
+weight: 1980
 url: /tr/aspose.slides.charts/icharttextblockformat/
 ---
-## IChartTextBlockFormat arayüzü
+## IChartTextBlockFormat arayüz
 
 Grafik metin öğeleri için biçimlendirme özelliklerini temsil eder.
 
@@ -18,18 +18,18 @@ public interface IChartTextBlockFormat
 
 | Ad | Açıklama |
 | --- | --- |
-| [AnchoringType](../../aspose.slides.charts/icharttextblockformat/anchoringtype) { get; set; } | Bir TextFrame içinde dikey tutma metnini döndürür veya ayarlar. Okuma/Yazma [`TextAnchorType`](../../aspose.slides/textanchortype). |
-| [AutofitType](../../aspose.slides.charts/icharttextblockformat/autofittype) { get; set; } | Metnin otomatik sığdırma modunu döndürür veya ayarlar. Bu özelliğin değiştirilmesi yalnızca şu grafik bölümleri için belirli bir etki oluşturabilir: DataLabel ve DataLabelFormat (PowerPoint 2013'te tam destek; PowerPoint 2007'de render için etkisi yoktur). Okuma/Yazma [`TextAutofitType`](../../aspose.slides/textautofittype). |
-| [CenterText](../../aspose.slides.charts/icharttextblockformat/centertext) { get; set; } | NullableBool.True ise metin kutuda yatay olarak ortalanmalıdır. Okuma/Yazma [`NullableBool`](../../aspose.slides/nullablebool). |
-| [MarginBottom](../../aspose.slides.charts/icharttextblockformat/marginbottom) { get; set; } | Bir TextFrame içinde alt kenar boşluğunu (puan) döndürür veya ayarlar. Bu özelliğin değiştirilmesi yalnızca şu grafik bölümleri için belirli bir etki oluşturabilir: DataLabel ve DataLabelFormat (PowerPoint 2013'te tam destek; PowerPoint 2007'de render için etkisi yoktur). Okuma/Yazma Double. |
-| [MarginLeft](../../aspose.slides.charts/icharttextblockformat/marginleft) { get; set; } | Bir TextFrame içinde sol kenar boşluğunu (puan) döndürür veya ayarlar. Bu özelliğin değiştirilmesi yalnızca şu grafik bölümleri için belirli bir etki oluşturabilir: DataLabel ve DataLabelFormat (PowerPoint 2013'te tam destek; PowerPoint 2007'de render için etkisi yoktur). Okuma/Yazma Double. |
-| [MarginRight](../../aspose.slides.charts/icharttextblockformat/marginright) { get; set; } | Bir TextFrame içinde sağ kenar boşluğunu (puan) döndürür veya ayarlar. Bu özelliğin değiştirilmesi yalnızca şu grafik bölümleri için belirli bir etki oluşturabilir: DataLabel ve DataLabelFormat (PowerPoint 2013'te tam destek; PowerPoint 2007'de render için etkisi yoktur). Okuma/Yazma Double. |
-| [MarginTop](../../aspose.slides.charts/icharttextblockformat/margintop) { get; set; } | Bir TextFrame içinde üst kenar boşluğunu (puan) döndürür veya ayarlar. Bu özelliğin değiştirilmesi yalnızca şu grafik bölümleri için belirli bir etki oluşturabilir: DataLabel ve DataLabelFormat (PowerPoint 2013'te tam destek; PowerPoint 2007'de render için etkisi yoktur). Okuma/Yazma Double. |
-| [RotationAngle](../../aspose.slides.charts/icharttextblockformat/rotationangle) { get; set; } | Sınır kutusundaki metne uygulanacak özel dönüşümleri belirler. Belirtilmezse, ilgili şeklin dönüşümü kullanılır. Belirtilirse, şekilden bağımsız olarak uygulanır. Yani şekil ek bir dönüşüm alabilir ve metin de kendi dönüşümüne sahip olur. Bu özelliğin ve TextVerticalType özelliğinin önceden tanımlı dikey tipinin birleşiminden oluşan görsel metin dönüşümünün sonuç değeri. Okuma/Yazma Single. |
-| [TextVerticalType](../../aspose.slides.charts/icharttextblockformat/textverticaltype) { get; set; } | Metin yönelimini belirler. Bu özelliğin ve RotationAngle özelliğindeki özel açının birleşiminden oluşan görsel metin dönüşümünün sonuç değeri. Okuma/Yazma [`TextVerticalType`](../../aspose.slides/textverticaltype). |
-| [WrapText](../../aspose.slides.charts/icharttextblockformat/wraptext) { get; set; } | **True** ise metin, TextFrame kenar boşluklarında kaydırılır. Bu özelliğin değiştirilmesi yalnızca şu grafik bölümleri için belirli bir etki oluşturabilir: DataLabel ve DataLabelFormat (PowerPoint 2007/2013'te tam destek). Okuma/Yazma [`NullableBool`](../../aspose.slides/nullablebool). |
+| [AnchoringType](../../aspose.slides.charts/icharttextblockformat/anchoringtype) { get; set; } | Bir TextFrame içinde dikey çapa metnini döndürür veya ayarlar. Okunur/Yazılır [`TextAnchorType`](../../aspose.slides/textanchortype). |
+| [AutofitType](../../aspose.slides.charts/icharttextblockformat/autofittype) { get; set; } | Metnin otomatik sığdırma modunu döndürür veya ayarlar. Bu özelliğin değiştirilmesi yalnızca şunlar için belirli bir etki yaratabilir: DataLabel ve DataLabelFormat (PowerPoint 2013'te tam destek; PowerPoint 2007'de render etme için etkisi yoktur). Okunur/Yazılır [`TextAutofitType`](../../aspose.slides/textautofittype). |
+| [CenterText](../../aspose.slides.charts/icharttextblockformat/centertext) { get; set; } | NullableBool.True ise metin kutunun içinde yatay olarak ortalanmalıdır. Okunur/Yazılır [`NullableBool`](../../aspose.slides/nullablebool). |
+| [MarginBottom](../../aspose.slides.charts/icharttextblockformat/marginbottom) { get; set; } | Bir TextFrame içinde alt kenar boşluğunu (nokta) döndürür veya ayarlar. Bu özelliğin değiştirilmesi yalnızca şunlar için belirli bir etki yaratabilir: DataLabel ve DataLabelFormat (PowerPoint 2013'te tam destek; PowerPoint 2007'de render etme için etkisi yoktur). Okunur/Yazılır Double. |
+| [MarginLeft](../../aspose.slides.charts/icharttextblockformat/marginleft) { get; set; } | Bir TextFrame içinde sol kenar boşluğunu (nokta) döndürür veya ayarlar. Bu özelliğin değiştirilmesi yalnızca şunlar için belirli bir etki yaratabilir: DataLabel ve DataLabelFormat (PowerPoint 2013'te tam destek; PowerPoint 2007'de render etme için etkisi yoktur). Okunur/Yazılır Double. |
+| [MarginRight](../../aspose.slides.charts/icharttextblockformat/marginright) { get; set; } | Bir TextFrame içinde sağ kenar boşluğunu (nokta) döndürür veya ayarlar. Bu özelliğin değiştirilmesi yalnızca şunlar için belirli bir etki yaratabilir: DataLabel ve DataLabelFormat (PowerPoint 2013'te tam destek; PowerPoint 2007'de render etme için etkisi yoktur). Okunur/Yazılır Double. |
+| [MarginTop](../../aspose.slides.charts/icharttextblockformat/margintop) { get; set; } | Bir TextFrame içinde üst kenar boşluğunu (nokta) döndürür veya ayarlar. Bu özelliğin değiştirilmesi yalnızca şunlar için belirli bir etki yaratabilir: DataLabel ve DataLabelFormat (PowerPoint 2013'te tam destek; PowerPoint 2007'de render etme için etkisi yoktur). Okunur/Yazılır Double. |
+| [RotationAngle](../../aspose.slides.charts/icharttextblockformat/rotationangle) { get; set; } | Belirli bir çerçeve içinde metne uygulanan özelleştirilmiş döndürmeyi belirtir. Belirtilmemişse, ilişkili şeklin döndürmesi kullanılır. Belirtilmişse, bu şekilden bağımsız olarak uygulanır. Yani şekil, metnin kendisinin de bir döndürmeye sahip olmasının yanı sıra bir döndürme alabilir. Bu özelliktenden ve TextVerticalType özelliğindeki önceden tanımlı dikey türden özetlenen görsel metin döndürmesinin sonuç değeri. Okunur/Yazılır Single. |
+| [TextVerticalType](../../aspose.slides.charts/icharttextblockformat/textverticaltype) { get; set; } | Metin yönelimini belirler. Bu özelliğin ve RotationAngle özelliğindeki özel açının özetlenmesiyle elde edilen görsel metin döndürmesinin sonucu. Okunur/Yazılır [`TextVerticalType`](../../aspose.slides/textverticaltype). |
+| [WrapText](../../aspose.slides.charts/icharttextblockformat/wraptext) { get; set; } | Metin TextFrame kenar boşluklarında sarılıyorsa **True**. Bu özelliğin değiştirilmesi yalnızca şunlar için belirli bir etki yaratabilir: DataLabel ve DataLabelFormat (PowerPoint 2007/2013'te tam destek). Okunur/Yazılır [`NullableBool`](../../aspose.slides/nullablebool). |
 
-### Ayrıca Bakınız
+### Bkz
 
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)
 * derleme [Aspose.Slides](../../)

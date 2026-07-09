@@ -1,14 +1,14 @@
 ---
 title: ITint
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir Tint etkisini temsil eder. Etki renk değerlerini belirtilen miktarda ton yönüne doğru/tersine kaydırır.
+description: Bir Tint etkisini temsil eder. Etki renk değerlerini belirtilen miktarda renk tonuna doğru/tersine kaydırır.
 type: docs
-weight: 3520
+weight: 3540
 url: /tr/aspose.slides.effects/itint/
 ---
 ## ITint arayüz
 
-Temsil eder bir Tint etkisini. Etki renk değerlerini belirtilen miktarda ton yönüne doğru/tersine kaydırır.
+Bir Tint etkisini temsil eder. Etki renk değerlerini belirtilen miktarda renk tonuna doğru/tersine kaydırır.
 
 ```csharp
 public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransformOperation
@@ -18,10 +18,10 @@ public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransfo
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/itint/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arayüzünü almayı sağlar. Yalnızca okuma [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/itint/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arayüzünü almayı sağlar. Yalnızca okuma [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/itint/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arayüzünü almaya izin verir. Yalnızca okunabilir [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/itint/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arayüzünü almaya izin verir. Yalnızca okunabilir [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### Ayrıca Bakınız
+### İlgili
 
 * arayüz [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * arayüz [ITintEffectiveData](../itinteffectivedata)

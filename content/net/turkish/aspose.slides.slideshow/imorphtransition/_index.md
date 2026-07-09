@@ -1,14 +1,14 @@
 ---
 title: IMorphTransition
 second_title: Aspose.Sildes için .NET API Referansı
-description: Dalgalı slayt geçiş efekti.
+description: Ripple slayt geçiş efekti.
 type: docs
-weight: 10110
+weight: 10130
 url: /tr/aspose.slides.slideshow/imorphtransition/
 ---
-## IMorphTransition arabirimi
+## IMorphTransition arayüzü
 
-Dalgalı slayt geçiş efekti.
+Ripple slayt geçiş efekti.
 
 ```csharp
 public interface IMorphTransition : ITransitionValueBase
@@ -18,12 +18,12 @@ public interface IMorphTransition : ITransitionValueBase
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/imorphtransition/asitransitionvaluebase) { get; } | Temel ITransitionValueBase arabirimine erişim sağlar. Sadece okunabilir [`ITransitionValueBase`](../itransitionvaluebase). |
-| [MorphType](../../aspose.slides.slideshow/imorphtransition/morphtype) { get; set; } | Morph geçişinin türü. Okunabilir/Yazılabilir [`TransitionMorphType`](../transitionmorphtype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/imorphtransition/asitransitionvaluebase) { get; } | Temel ITransitionValueBase arayüzünü almaya izin verir. Salt okunur [`ITransitionValueBase`](../itransitionvaluebase). |
+| [MorphType](../../aspose.slides.slideshow/imorphtransition/morphtype) { get; set; } | Morph geçişinin türü. Okunur/Yazılabilir [`TransitionMorphType`](../transitionmorphtype). |
 
 ### Ayrıca Bakınız
 
-* arabirim [ITransitionValueBase](../itransitionvaluebase)
+* arayüz [ITransitionValueBase](../itransitionvaluebase)
 * ad alanı [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * derleme [Aspose.Slides](../../)
 

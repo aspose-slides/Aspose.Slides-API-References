@@ -1,12 +1,12 @@
 ---
 title: IAccessiblePVIObjectT
-second_title: Aspose.Sildes per .NET API Reference
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta un tipo che può restituire i dati effettivi corrispondenti con l'ereditarietà applicata.
 type: docs
-weight: 5150
+weight: 5170
 url: /it/aspose.slides/iaccessiblepviobject-1/
 ---
-## IAccessiblePVIObject&lt;T&gt; interfaccia
+## IAccessiblePVIObject<T> interfaccia
 
 Rappresenta un tipo che può restituire i dati effettivi corrispondenti con l'ereditarietà applicata.
 
@@ -17,13 +17,13 @@ public interface IAccessiblePVIObject<T>
 
 | Parametro | Descrizione |
 | --- | --- |
-| T | Tipo di dati effettivi. |
+| T | Tipo dei dati effettivi. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetEffective](../../aspose.slides/iaccessiblepviobject`1/geteffective)() | Ottiene i dati effettivi con l'ereditarietà applicata. |
+| [GetEffective](../../aspose.slides/iaccessiblepviobject`1/geteffective)() | Restituisce i dati effettivi con l'ereditarietà applicata. |
 
 ### Vedi anche
 

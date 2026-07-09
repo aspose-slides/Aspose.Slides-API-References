@@ -1,14 +1,14 @@
 ---
 title: IGlobalLayoutSlideCollection
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Reprezentuje kolekcję wszystkich slajdów układu w prezentacji. Rozszerza interfejs ILayoutSlideCollection metodami umożliwiającymi dodawanie/klonowanie slajdów układu w kontekście łączenia poszczególnych kolekcji slajdów układu głównych.
+second_title: Aspose.Sildes dla .NET API Reference
+description: Reprezentuje kolekcję wszystkich slajdów układu w prezentacji. Rozszerza interfejs ILayoutSlideCollection metodami dodawania/klonowania slajdów układu w kontekście łączenia poszczególnych kolekcji slajdów układu mastera.
 type: docs
-weight: 5970
+weight: 5990
 url: /pl/aspose.slides/igloballayoutslidecollection/
 ---
-## IGlobalLayoutSlideCollection interfejs
+## interfejs IGlobalLayoutSlideCollection
 
-Reprezentuje kolekcję wszystkich slajdów układu w prezentacji. Rozszerza interfejs ILayoutSlideCollection metodami umożliwiającymi dodawanie/klonowanie slajdów układu w kontekście łączenia poszczególnych kolekcji slajdów układu głównego.
+Reprezentuje kolekcję wszystkich slajdów układu w prezentacji. Rozszerza interfejs ILayoutSlideCollection metodami dodawania/klonowania slajdów układu w kontekście łączenia poszczególnych kolekcji slajdów układu mastera.
 
 ```csharp
 public interface IGlobalLayoutSlideCollection : ILayoutSlideCollection

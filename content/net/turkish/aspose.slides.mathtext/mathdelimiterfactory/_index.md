@@ -1,14 +1,14 @@
 ---
 title: MathDelimiterFactory
-second_title: Aspose.Sildes .NET API Referansı
-description: Bir matematik sınırlayıcı oluşturmayı sağlar
+second_title: Aspose.Sildes için .NET API Referansı
+description: Matematik ayırıcı oluşturmayı sağlar
 type: docs
-weight: 8640
+weight: 8660
 url: /tr/aspose.slides.mathtext/mathdelimiterfactory/
 ---
-## MathDelimiterFactory sınıf
+## MathDelimiterFactory sınıfı
 
-Bir matematik sınırlayıcı oluşturmayı sağlar
+Matematik ayırıcı oluşturmayı sağlar
 
 ```csharp
 public class MathDelimiterFactory : IMathDelimiterFactory
@@ -24,14 +24,14 @@ public class MathDelimiterFactory : IMathDelimiterFactory
 
 | Ad | Açıklama |
 | --- | --- |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | Elemanına uygulanarak bir matematik sınırlayıcı oluşturur |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | Elemanına uygulanarak bir matematik sınırlayıcı oluşturur |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | Öğeye uygulayarak bir matematik ayırıcı oluşturur |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | Öğeye uygulayarak bir matematik ayırıcı oluşturur |
 
 ### Açıklamalar
 
 COM uyumluluğu için
 
-### Ayrıca Bakınız
+### İlgili Bağlantılar
 
 * arayüz [IMathDelimiterFactory](../imathdelimiterfactory)
 * ad alanı [Aspose.Slides.MathText](../../aspose.slides.mathtext)

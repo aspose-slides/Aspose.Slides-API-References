@@ -1,15 +1,14 @@
 ---
 title: MathParagraph
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Mathematischer Absatz, der ein Container für mathematische Blöcke IMathBlock ist
+description: Mathematischer Absatz, der ein Container für mathematische Blöcke IMathBlock ist.
 type: docs
-weight: 8640
+weight: 8900
 url: /de/aspose.slides.mathtext/mathparagraph/
 ---
+## MathParagraph Klasse
 
-## MathParagraph-Klasse
-
-Mathematischer Absatz, der ein Container für mathematische Blöcke (IMathBlock) ist
+Mathematischer Absatz, der ein Container für mathematische Blöcke (IMathBlock) ist.
 
 ```csharp
 public class MathParagraph : IMathParagraph
@@ -17,32 +16,32 @@ public class MathParagraph : IMathParagraph
 
 ## Konstruktoren
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [MathParagraph](mathparagraph#constructor)() | Initialisiert eine neue Instanz der MathParagraph-Klasse. |
-| [MathParagraph](mathparagraph#constructor_1)(IMathBlock) | Initialisiert eine neue Instanz der MathParagraph-Klasse. |
+| [MathParagraph](mathparagraph#constructor)() | Initialisiert eine neue Instanz der MathParagraph Klasse. |
+| [MathParagraph](mathparagraph#constructor_1)(IMathBlock) | Initialisiert eine neue Instanz der MathParagraph Klasse. |
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides.mathtext/mathparagraph/count) { get; } | Gibt die Anzahl der tatsächlich in der Sammlung enthaltenen Elemente zurück. Nur-Lese Int32. |
-| [Item](../../aspose.slides.mathtext/mathparagraph/item) { get; set; } | Gibt das Element am angegebenen Index zurück. Nur-Lese [`IMathBlock`](../imathblock). |
-| [Justification](../../aspose.slides.mathtext/mathparagraph/justification) { get; set; } | Absatzjustierung Standardwert: CenteredAsGroup |
+| [Count](../../aspose.slides.mathtext/mathparagraph/count) { get; } | Liefert die tatsächlich in der Sammlung enthaltene Anzahl von Elementen. Nur lesbar Int32. |
+| [Item](../../aspose.slides.mathtext/mathparagraph/item) { get; set; } | Gibt das Element am angegebenen Index zurück. Nur lesbar [`IMathBlock`](../imathblock). |
+| [Justification](../../aspose.slides.mathtext/mathparagraph/justification) { get; set; } | Absatzausrichtung Standardwert: CenteredAsGroup |
 
 ## Methoden
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides.mathtext/mathparagraph/add)(IMathBlock) | Fügt IMathBlock am Ende der Sammlung hinzu. |
 | [Clear](../../aspose.slides.mathtext/mathparagraph/clear)() | Entfernt alle Elemente aus der Sammlung. |
-| [Contains](../../aspose.slides.mathtext/mathparagraph/contains)(IMathBlock) | Bestimmt, ob die Sammlung einen bestimmten Wert enthält. |
-| [IndexOf](../../aspose.slides.mathtext/mathparagraph/indexof)(IMathBlock) | Bestimmt den Index eines bestimmten IMathBlock in der Sammlung. |
-| [Insert](../../aspose.slides.mathtext/mathparagraph/insert)(int, IMathBlock) | Fügt IMathBlock an dem angegebenen Index in die Sammlung ein. |
-| [Remove](../../aspose.slides.mathtext/mathparagraph/remove)(IMathBlock) | Entfernt das erste Vorkommen eines bestimmten Objekts aus der Sammlung/&gt;. |
-| [RemoveAt](../../aspose.slides.mathtext/mathparagraph/removeat)(int) | Entfernt ein Element am angegebenen Index der Sammlung. |
-| [ToLatex](../../aspose.slides.mathtext/mathparagraph/tolatex)() | Gibt mathematische Gleichung im LaTeX-Format zurück |
-| [WriteAsMathMl](../../aspose.slides.mathtext/mathparagraph/writeasmathml)(Stream) | Speichert den Inhalt dieses [`MathParagraph`](../mathparagraph) als MathML |
+| [Contains](../../aspose.slides.mathtext/mathparagraph/contains)(IMathBlock) | Ermittelt, ob die Sammlung einen bestimmten Wert enthält. |
+| [IndexOf](../../aspose.slides.mathtext/mathparagraph/indexof)(IMathBlock) | Ermittelt den Index eines bestimmten IMMathBlock in der Sammlung. |
+| [Insert](../../aspose.slides.mathtext/mathparagraph/insert)(int, IMathBlock) | Fügt IMathBlock an der angegebenen Position in die Sammlung ein. |
+| [Remove](../../aspose.slides.mathtext/mathparagraph/remove)(IMathBlock) | Entfernt das erste Vorkommen eines bestimmten Objekts aus der Sammlung. |
+| [RemoveAt](../../aspose.slides.mathtext/mathparagraph/removeat)(int) | Entfernt ein Element am angegebenen Index aus der Sammlung. |
+| [ToLatex](../../aspose.slides.mathtext/mathparagraph/tolatex)() | Gibt die mathematische Gleichung im LaTeX-Format zurück. |
+| [WriteAsMathMl](../../aspose.slides.mathtext/mathparagraph/writeasmathml)(Stream) | Speichert den Inhalt dieses [`MathParagraph`](../mathparagraph) als MathML. |
 
 ### Beispiele
 
@@ -57,8 +56,8 @@ mathParagraph.Justification = MathJustification.LeftJustified;
 
 ### Siehe auch
 
-* Schnittstelle [IMathParagraph](../imathparagraph)
-* Namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)
-* Assembly [Aspose.Slides](../../)
+* Schnittstelle [IMathParagraph](../imathparagraph)
+* Namensraum [Aspose.Slides.MathText](../../aspose.slides.mathtext)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -3,7 +3,7 @@ title: IExtraColorSchemeCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 追加のカラースキームのコレクションを表します。
 type: docs
-weight: 11200
+weight: 11220
 url: /ja/aspose.slides.theme/iextracolorschemecollection/
 ---
 ## IExtraColorSchemeCollection インターフェイス
@@ -18,7 +18,7 @@ public interface IExtraColorSchemeCollection : IGenericCollection<IExtraColorSch
 
 | 名前 | 説明 |
 | --- | --- |
-| [Item](../../aspose.slides.theme/iextracolorschemecollection/item) { get; } | インデックスでカラー スキームを返します。読み取り専用 [`IExtraColorScheme`](../iextracolorscheme). |
+| [Item](../../aspose.slides.theme/iextracolorschemecollection/item) { get; } | インデックスでカラースキームを返します。 読み取り専用 [`IExtraColorScheme`](../iextracolorscheme). |
 
 ### 参照
 

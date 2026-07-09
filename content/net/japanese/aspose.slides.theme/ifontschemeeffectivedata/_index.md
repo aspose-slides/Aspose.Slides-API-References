@@ -1,14 +1,14 @@
 ---
 title: IFontSchemeEffectiveData
-second_title: Aspose.Sildes の .NET API リファレンス
-description: 有効なフォントスキーム プロパティを含む不変オブジェクトです。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: 効果的なフォント スキーム プロパティを含む不変オブジェクトです。
 type: docs
-weight: 11240
+weight: 11260
 url: /ja/aspose.slides.theme/ifontschemeeffectivedata/
 ---
 ## IFontSchemeEffectiveData インターフェイス
 
-有効なフォント スキーム プロパティを含む不変オブジェクトです。
+効果的なフォント スキーム プロパティを含む不変オブジェクトです。
 
 ```csharp
 public interface IFontSchemeEffectiveData
@@ -18,9 +18,9 @@ public interface IFontSchemeEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | スライドの「heading」部分のフォント コレクションを返します。読み取り専用 [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata)。 |
-| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | スライドの「body」部分のフォント コレクションを返します。読み取り専用 [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata)。 |
-| [Name](../../aspose.slides.theme/ifontschemeeffectivedata/name) { get; } | フォント スキーム名を返します。読み取り専用 String。 |
+| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | スライドの「heading」部分のフォントコレクションを返します。読み取り専用 [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
+| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | スライドの「body」部分のフォントコレクションを返します。読み取り専用 [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
+| [Name](../../aspose.slides.theme/ifontschemeeffectivedata/name) { get; } | フォントスキーム名を返します。読み取り専用 String. |
 
 ### 備考
 

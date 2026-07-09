@@ -1,9 +1,9 @@
 ---
 title: RotationEffect
-second_title: Aspose.Sildes για .NET API Αναφορά
+second_title: Aspose.Slides για .NET Αναφορά API
 description: Αναπαριστά τη συμπεριφορά περιστροφής του εφέ.
 type: docs
-weight: 750
+weight: 770
 url: /el/aspose.slides.animation/rotationeffect/
 ---
 ## RotationEffect κλάση
@@ -16,26 +16,26 @@ public class RotationEffect : Behavior, IRotationEffect
 
 ## Κατασκευαστές
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
 | [RotationEffect](rotationeffect)() | Ο προεπιλεγμένος κατασκευαστής. |
 
 ## Ιδιότητες
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Αναπαριστά αν οι συμπεριφορές ανίμασης συσσωρεύονται. Ανάγνωση/Εγγραφή [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Αναπαριστά αν η τρέχουσα συμπεριφορά ανίμασης συνδυάζεται με άλλες ενεργές ανίμασης. Ανάγνωση/Εγγραφή [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [By](../../aspose.slides.animation/rotationeffect/by) { get; set; } | Περιγράφει τη σχετική τιμή μετατόπισης για την ανίμαση. Ανάγνωση/Εγγραφή Single. |
-| [From](../../aspose.slides.animation/rotationeffect/from) { get; set; } | Περιγράφει την αρχική τιμή για την ανίμαση. Ανάγνωση/Εγγραφή Single. |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Αναπαριστά τις ιδιότητες της συμπεριφοράς. Μόνο για ανάγνωση [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Αναπαριστά τις ιδιότητες χρονισμού για τη συμπεριφορά του εφέ. Ανάγνωση/Εγγραφή [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/rotationeffect/to) { get; set; } | Περιγράφει την τελική τιμή για την ανίμαση. Ανάγνωση/Εγγραφή Single. |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Αντιπροσωπεύει το αν οι συμπεριφορές κίνησης είναι συσσωρευμένες. Ανάγνωση/εγγραφή [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Αντιπροσωπεύει το αν η τρέχουσα συμπεριφορά κίνησης συνδυάζεται με άλλες εκτελούμενες κινήσεις. Ανάγνωση/εγγραφή [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [By](../../aspose.slides.animation/rotationeffect/by) { get; set; } | Περιγράφει τη σχετική τιμή μετατόπισης για την κίνηση. Ανάγνωση/εγγραφή Single. |
+| [From](../../aspose.slides.animation/rotationeffect/from) { get; set; } | Περιγράφει την αρχική τιμή για την κίνηση. Ανάγνωση/εγγραφή Single. |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Αντιπροσωπεύει τις ιδιότητες της συμπεριφοράς. Μόνο για ανάγνωση [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Αντιπροσωπεύει τις ιδιότητες χρονισμού για τη συμπεριφορά του εφέ. Ανάγνωση/εγγραφή [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/rotationeffect/to) { get; set; } | Περιγράφει την τελική τιμή για την κίνηση. Ανάγνωση/εγγραφή Single. |
 
 ### Δείτε επίσης
 
 * κλάση [Behavior](../behavior)
-* διασύνδεση [IRotationEffect](../irotationeffect)
+* διεπαφή [IRotationEffect](../irotationeffect)
 * χώρο ονομάτων [Aspose.Slides.Animation](../../aspose.slides.animation)
 * συγκρότημα [Aspose.Slides](../../)
 

@@ -1,14 +1,14 @@
 ---
 title: PresentationHeaderFooterManager
-second_title: Aspose.Sildes dla .NET – Referencja API
-description: Reprezentuje menedżera, który utrzymuje zachowanie wszystkich pól zastępczych stopki, daty-czasu i numeru strony w prezentacji.
+second_title: Aspose.Sildes dla .NET - dokumentacja API
+description: Reprezentuje menedżer, który przechowuje zachowanie wszystkich symboli zastępczych stopki, daty i godziny oraz numeru strony w prezentacji.
 type: docs
-weight: 9590
+weight: 9610
 url: /pl/aspose.slides/presentationheaderfootermanager/
 ---
 ## PresentationHeaderFooterManager klasa
 
-Reprezentuje menedżer, który zawiera zachowanie wszystkich pól zastępczych stopki, daty-czasu i numeru strony w prezentacji.
+Reprezentuje menedżer, który przechowuje zachowanie wszystkich symboli zastępczych stopki, daty i godziny oraz numeru strony w prezentacji.
 
 ```csharp
 public class PresentationHeaderFooterManager : BaseHeaderFooterManager, 
@@ -19,20 +19,20 @@ public class PresentationHeaderFooterManager : BaseHeaderFooterManager,
 
 | Nazwa | Opis |
 | --- | --- |
-| [SetAllDateTimesText](../../aspose.slides/presentationheaderfootermanager/setalldatetimestext)(string) | Ustawia tekst we wszystkich polach zastępczych daty-czasu, w tym slajdy główne, slajdy układu, slajdy, master notatek, slajdy notatek i master materiału rozdawniczego. |
-| [SetAllDateTimesVisibility](../../aspose.slides/presentationheaderfootermanager/setalldatetimesvisibility)(bool) | Zmienia widoczność wszystkich pól zastępczych daty-czasu, w tym slajdy główne, slajdy układu, slajdy, master notatek, slajdy notatek i master materiału rozdawniczego. |
-| [SetAllFootersText](../../aspose.slides/presentationheaderfootermanager/setallfooterstext)(string) | Ustawia tekst we wszystkich polach zastępczych stopki, w tym slajdy główne, slajdy układu, slajdy, master notatek, slajdy notatek i master materiału rozdawniczego. |
-| [SetAllFootersVisibility](../../aspose.slides/presentationheaderfootermanager/setallfootersvisibility)(bool) | Zmienia widoczność wszystkich pól zastępczych stopki, w tym slajdy główne, slajdy układu, slajdy, master notatek, slajdy notatek i master materiału rozdawniczego. |
-| [SetAllHeadersText](../../aspose.slides/presentationheaderfootermanager/setallheaderstext)(string) | Ustawia tekst we wszystkich polach zastępczych nagłówka, w tym master notatek, slajdy notatek i master materiału rozdawniczego. |
-| [SetAllHeadersVisibility](../../aspose.slides/presentationheaderfootermanager/setallheadersvisibility)(bool) | Zmienia widoczność wszystkich pól zastępczych nagłówka, w tym master notatek, slajdy notatek i master materiału rozdawniczego. |
-| [SetAllSlideNumbersVisibility](../../aspose.slides/presentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Zmienia widoczność wszystkich pól zastępczych numeru strony, w tym slajdy główne, slajdy układu, slajdy, master notatek, slajdy notatek i master materiału rozdawniczego. |
-| [SetVisibilityOnAllTitleSlides](../../aspose.slides/presentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Zmienia widoczność pól zastępczych stopki, daty-czasu i numeru strony dla wszystkich slajdów tytułowych oraz pierwszego slajdu układu. Slajdy tytułowe – slajdy oparte na pierwszym slajdzie układu (niezależnie od typu tego pierwszego układu). |
+| [SetAllDateTimesText](../../aspose.slides/presentationheaderfootermanager/setalldatetimestext)(string) | Ustawia tekst we wszystkich symbolach zastępczych daty i godziny, w tym w slajdach głównych, slajdach układu, slajdach, notatniku głównym, slajdach notatek i w notatniku rozdawnym. |
+| [SetAllDateTimesVisibility](../../aspose.slides/presentationheaderfootermanager/setalldatetimesvisibility)(bool) | Zmienia widoczność wszystkich symboli zastępczych daty i godziny, w tym w slajdach głównych, slajdach układu, slajdach, notatniku głównym, slajdach notatek i w notatniku rozdawnym. |
+| [SetAllFootersText](../../aspose.slides/presentationheaderfootermanager/setallfooterstext)(string) | Ustawia tekst we wszystkich symbolach zastępczych stopki, w tym w slajdach głównych, slajdach układu, slajdach, notatniku głównym, slajdach notatek i w notatniku rozdawnym. |
+| [SetAllFootersVisibility](../../aspose.slides/presentationheaderfootermanager/setallfootersvisibility)(bool) | Zmienia widoczność wszystkich symboli zastępczych stopki, w tym w slajdach głównych, slajdach układu, slajdach, notatniku głównym, slajdach notatek i w notatniku rozdawnym. |
+| [SetAllHeadersText](../../aspose.slides/presentationheaderfootermanager/setallheaderstext)(string) | Ustawia tekst we wszystkich symbolach zastępczych nagłówka, w tym w notatniku głównym, slajdach notatek i w notatniku rozdawnym. |
+| [SetAllHeadersVisibility](../../aspose.slides/presentationheaderfootermanager/setallheadersvisibility)(bool) | Zmienia widoczność wszystkich symboli zastępczych nagłówka, w tym w notatniku głównym, slajdach notatek i w notatniku rozdawnym. |
+| [SetAllSlideNumbersVisibility](../../aspose.slides/presentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Zmienia widoczność wszystkich symboli zastępczych numeru strony, w tym w slajdach głównych, slajdach układu, slajdach, notatniku głównym, slajdach notatek i w notatniku rozdawnym. |
+| [SetVisibilityOnAllTitleSlides](../../aspose.slides/presentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Zmienia widoczność symboli zastępczych stopki, daty i godziny oraz numeru strony dla wszystkich slajdów tytułowych oraz pierwszego slajdu układu. Slajdy tytułowe – slajdy oparte na pierwszym slajdzie układu (niezależnie od typu tego pierwszego układu). |
 
 ### Zobacz także
 
 * klasa [BaseHeaderFooterManager](../baseheaderfootermanager)
 * interfejs [IPresentationHeaderFooterManager](../ipresentationheaderfootermanager)
 * przestrzeń nazw [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* zbiór [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -3,7 +3,7 @@ title: HtmlGenerator
 second_title: Aspose.Sildes para .NET Referência da API
 description: Gerador HTML.
 type: docs
-weight: 3860
+weight: 3880
 url: /pt/aspose.slides.export/htmlgenerator/
 ---
 ## HtmlGenerator classe
@@ -16,18 +16,18 @@ public sealed class HtmlGenerator : IHtmlGenerator
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [NextSlideIndex](../../aspose.slides.export/htmlgenerator/nextslideindex) { get; } | Retorna o índice de um slide, que será renderizado após o slide atual ou -1 se estiver renderizando o último slide. Somente leitura Int32. |
-| [PreviousSlideIndex](../../aspose.slides.export/htmlgenerator/previousslideindex) { get; } | Retorna o índice do slide previamente renderizado ou -1 se o primeiro slide estiver sendo renderizado. Somente leitura Int32. |
+| [PreviousSlideIndex](../../aspose.slides.export/htmlgenerator/previousslideindex) { get; } | Retorna o índice do slide renderizado anteriormente ou -1 se o primeiro slide está sendo renderizado. Somente leitura Int32. |
 | [SlideImageSize](../../aspose.slides.export/htmlgenerator/slideimagesize) { get; } | Retorna o tamanho da imagem do slide. Somente leitura SizeF. |
 | [SlideImageSizeUnit](../../aspose.slides.export/htmlgenerator/slideimagesizeunit) { get; } | Retorna a unidade na qual o tamanho da imagem do slide é especificado. Somente leitura [`SvgCoordinateUnit`](../svgcoordinateunit). |
-| [SlideImageSizeUnitCode](../../aspose.slides.export/htmlgenerator/slideimagesizeunitcode) { get; } | Retorna o código CSS da unidade na qual o tamanho da imagem do slide é especificado. Somente leitura String. |
+| [SlideImageSizeUnitCode](../../aspose.slides.export/htmlgenerator/slideimagesizeunitcode) { get; } | Retorna um código CSS da unidade na qual o tamanho da imagem do slide é especificado. Somente leitura String. |
 | [SlideIndex](../../aspose.slides.export/htmlgenerator/slideindex) { get; } | Retorna o índice do slide que está sendo renderizado atualmente. Somente leitura Int32. |
 
 ## Métodos
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue)(char[]) | Cita o valor do atributo e o adiciona ao arquivo html. |
 | [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_2)(string) | Cita o valor do atributo e o adiciona ao arquivo html. |

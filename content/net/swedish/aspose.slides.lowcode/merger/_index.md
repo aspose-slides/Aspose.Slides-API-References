@@ -1,14 +1,14 @@
 ---
 title: Merger
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en grupp metoder för att slå samman PowerPoint-presentationer av samma format till en fil.
+description: Representerar en grupp metoder för att sammanslå PowerPoint-presentationer av samma format till en fil.
 type: docs
-weight: 7950
+weight: 7970
 url: /sv/aspose.slides.lowcode/merger/
 ---
-## Merger klass
+## Merger-klass
 
-Representerar en grupp metoder för att sammanfoga PowerPoint-presentationer av samma format till en fil.
+Representerar en grupp metoder för att sammanslå PowerPoint-presentationer av samma format till en fil.
 
 ```csharp
 public static class Merger
@@ -23,7 +23,7 @@ public static class Merger
 | static [Process](../../aspose.slides.lowcode/merger/process#process_1)(string[], Stream, ISaveOptions) | Sammanfogar flera PowerPoint-presentationer av samma format till en enda presentationsfil. |
 | static [Process](../../aspose.slides.lowcode/merger/process#process_3)(string[], string, ISaveOptions) | Sammanfogar flera PowerPoint-presentationer av samma format till en enda presentationsfil. |
 
-### Se även
+### Se också
 
 * namnrymd [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
 * samling [Aspose.Slides](../../)

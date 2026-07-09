@@ -1,14 +1,14 @@
 ---
 title: BaseChartValue
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili nilai sebuah diagram.
 type: docs
-weight: 1200
+weight: 1220
 url: /id/aspose.slides.charts/basechartvalue/
 ---
 ## BaseChartValue kelas
 
-Mewakili nilai dari sebuah diagram.
+Mewakili nilai sebuah diagram.
 
 ```csharp
 public abstract class BaseChartValue : IBaseChartValue
@@ -19,7 +19,7 @@ public abstract class BaseChartValue : IBaseChartValue
 | Nama | Deskripsi |
 | --- | --- |
 | abstract [Data](../../aspose.slides.charts/basechartvalue/data) { get; set; } | Data. Baca/tulis Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Menentukan apakah AsCell, AsCells, AsLiteralString atau AsLiteralDouble properti aktual pada turunan. Dengan kata lain, menentukan tipe nilai dari properti Data. Baca/tulis [`DataSourceType`](../datasourcetype). |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Menentukan apakah properti AsCell, AsCells, AsLiteralString, atau AsLiteralDouble aktual pada turunan. Dengan kata lain, ini menentukan tipe nilai dari properti Data. Baca/tulis [`DataSourceType`](../datasourcetype). |
 
 ### Lihat Juga
 

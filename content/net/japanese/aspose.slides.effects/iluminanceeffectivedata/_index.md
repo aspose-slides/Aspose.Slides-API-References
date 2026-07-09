@@ -1,9 +1,9 @@
 ---
 title: ILuminanceEffectiveData
 second_title: Aspose.Sildes の .NET API リファレンス
-description: Luminance エフェクトを表します。Brightness はすべての色を線形に白または黒に近づけます。Contrast はすべての色の間隔を拡大または縮小します。
+description: Luminance 効果を表します。Brightness はすべての色を白または黒に向かって線形にシフトします。Contrast はすべての色をより近く、または離れるようにスケールします。
 type: docs
-weight: 3430
+weight: 3450
 url: /ja/aspose.slides.effects/iluminanceeffectivedata/
 ---
 ## ILuminanceEffectiveData インターフェイス
@@ -18,9 +18,9 @@ public interface ILuminanceEffectiveData : IEffectEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iluminanceeffectivedata/asieffecteffectivedata) { get; } | ベースの IEffectEffectiveData インターフェイスを取得できます。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
-| [Brightness](../../aspose.slides.effects/iluminanceeffectivedata/brightness) { get; } | Brightness. 読み取り専用 Single. |
-| [Contrast](../../aspose.slides.effects/iluminanceeffectivedata/contrast) { get; } | Contrast. 読み取り専用 Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iluminanceeffectivedata/asieffecteffectivedata) { get; } | ベース IEffectEffectiveData インターフェイスを取得できます。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
+| [Brightness](../../aspose.slides.effects/iluminanceeffectivedata/brightness) { get; } | 明るさ。読み取り専用 Single。 |
+| [Contrast](../../aspose.slides.effects/iluminanceeffectivedata/contrast) { get; } | コントラスト。読み取り専用 Single。 |
 
 ### 参照
 

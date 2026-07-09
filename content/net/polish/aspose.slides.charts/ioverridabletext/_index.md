@@ -1,14 +1,14 @@
 ---
 title: IOverridableText
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Reprezentuje nadpisywany tekst dla wykresu.
+second_title: Aspose.Sildes dla .NET – referencja API
+description: Reprezentuje nadpisywalny tekst dla wykresu.
 type: docs
-weight: 2160
+weight: 2180
 url: /pl/aspose.slides.charts/ioverridabletext/
 ---
-## IOverridableText interfejs
+## interfejs IOverridableText
 
-Reprezentuje nadpisywany tekst dla wykresu.
+Reprezentuje nadpisywalny tekst wykresu.
 
 ```csharp
 public interface IOverridableText : IFormattedTextContainer
@@ -19,13 +19,13 @@ public interface IOverridableText : IFormattedTextContainer
 | Nazwa | Opis |
 | --- | --- |
 | [AsIFormattedTextContainer](../../aspose.slides.charts/ioverridabletext/asiformattedtextcontainer) { get; } | Umożliwia pobranie bazowego interfejsu IFormattedTextContainer. Tylko do odczytu [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | Może zawierać bogato formatowany tekst. Jeśli ta właściwość nie jest równa null, wartość tego formatowanego tekstu zastępuje automatycznie generowany tekst. Automatycznie generowany tekst jest właściwością domyślną etykiety danych, etykiety jednostki wyświetlania osi wartości, tytułu osi, tytułu wykresu, etykiety linii trendu. Automatycznie generowany tekst jest formatowany przy użyciu właściwości IFormattedTextContainer.TextFormat. Tylko do odczytu [`ITextFrame`](../../aspose.slides/itextframe). |
+| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | Może zawierać bogato sformatowany tekst. Jeśli ta właściwość nie jest równa null, jej wartość zastępuje automatycznie generowany tekst. Automatycznie generowany tekst jest domyślną właściwością etykiety danych, etykiety jednostki wyświetlania osi wartości, tytułu osi, tytułu wykresu, etykiety linii trendu. Automatycznie generowany tekst jest formatowany przy użyciu właściwości IFormattedTextContainer.TextFormat. Tylko do odczytu [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/addtextframeforoverriding)(string) | Zainicjalizuj TextFrameForOverriding tekstem podanym w parametrze "text". Jeśli TextFrameForOverriding jest już zainicjalizowany, po prostu zmienia jego tekst. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/addtextframeforoverriding)(string) | Inicjalizuje TextFrameForOverriding tekstem przekazanym w parametrze "text". Jeśli TextFrameForOverriding jest już zainicjowany, po prostu zmienia jego tekst. |
 
 ### Zobacz także
 

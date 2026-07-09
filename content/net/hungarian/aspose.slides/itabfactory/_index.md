@@ -3,7 +3,7 @@ title: ITabFactory
 second_title: Aspose.Sildes .NET API referencia
 description: Lehetővé teszi ITab példányok létrehozását
 type: docs
-weight: 7200
+weight: 7220
 url: /hu/aspose.slides/itabfactory/
 ---
 ## ITabFactory interfész
@@ -14,15 +14,15 @@ Lehetővé teszi ITab példányok létrehozását
 public interface ITabFactory
 ```
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [CreateTab](../../aspose.slides/itabfactory/createtab)(double, TabAlignment) | Új ITab példányt hoz létre. |
+| [CreateTab](../../aspose.slides/itabfactory/createtab)(double, TabAlignment) | Létrehoz egy új ITab példányt. |
 
 ### Megjegyzés
 
-COM kompatibilitás miatt.
+A COM kompatibilitás érdekében.
 
 ### Lásd még
 

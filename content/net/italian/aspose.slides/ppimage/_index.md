@@ -1,9 +1,9 @@
 ---
 title: PPImage
-second_title: Aspose.Sildes per .NET API Reference
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta un'immagine in una presentazione.
 type: docs
-weight: 9230
+weight: 9250
 url: /it/aspose.slides/ppimage/
 ---
 ## PPImage classe
@@ -18,14 +18,14 @@ public class PPImage : IDisposable, IPPImage
 
 | Nome | Descrizione |
 | --- | --- |
-| [BinaryData](../../aspose.slides/ppimage/binarydata) { get; } | Restituisce una copia dei dati di un'immagine. Solo lettura Byte[]. |
-| [ContentType](../../aspose.slides/ppimage/contenttype) { get; } | Restituisce un tipo MIME di un'immagine, codificato in [`BinaryData`](./binarydata). Solo lettura String. |
-| [Height](../../aspose.slides/ppimage/height) { get; } | Restituisce l'altezza di un'immagine. Solo lettura Int32. |
-| [Image](../../aspose.slides/ppimage/image) { get; } | Restituisce una copia di un'immagine. Solo lettura [`IImage`](../iimage). |
+| [BinaryData](../../aspose.slides/ppimage/binarydata) { get; } | Restituisce una copia dei dati di un'immagine. Sola lettura Byte[]. |
+| [ContentType](../../aspose.slides/ppimage/contenttype) { get; } | Restituisce un tipo MIME di un'immagine, codificato in [`BinaryData`](./binarydata). Sola lettura String. |
+| [Height](../../aspose.slides/ppimage/height) { get; } | Restituisce l'altezza di un'immagine. Sola lettura Int32. |
+| [Image](../../aspose.slides/ppimage/image) { get; } | Restituisce una copia di un'immagine. Sola lettura [`IImage`](../iimage). |
 | [SvgImage](../../aspose.slides/ppimage/svgimage) { get; set; } | Restituisce o imposta l'oggetto ISvgImage [`ISvgImage`](../isvgimage) |
-| [Width](../../aspose.slides/ppimage/width) { get; } | Restituisce la larghezza di un'immagine. Solo lettura Int32. |
-| [X](../../aspose.slides/ppimage/x) { get; } | Restituisce l'offset X di un'immagine. Solo lettura Int32. |
-| [Y](../../aspose.slides/ppimage/y) { get; } | Restituisce l'offset Y di un'immagine. Solo lettura Int32. |
+| [Width](../../aspose.slides/ppimage/width) { get; } | Restituisce la larghezza di un'immagine. Sola lettura Int32. |
+| [X](../../aspose.slides/ppimage/x) { get; } | Restituisce lo scostamento X di un'immagine. Sola lettura Int32. |
+| [Y](../../aspose.slides/ppimage/y) { get; } | Restituisce lo scostamento Y di un'immagine. Sola lettura Int32. |
 
 ## Metodi
 
@@ -34,7 +34,7 @@ public class PPImage : IDisposable, IPPImage
 | [Dispose](../../aspose.slides/ppimage/dispose)() | Rilascia l'oggetto. |
 | override [GetHashCode](../../aspose.slides/ppimage/gethashcode)() | Restituisce il codice hash di un'immagine. |
 | [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_2)(byte[]) | Sostituisce i dati dell'immagine. I dati della nuova immagine. Quando il parametro newImageData è null. |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage)(IImage) | Sostituisce i dati dell'immagine. Attenzione: quando Image è metafile verrà rasterizzata. Usa ReplaceImage(byte[]) invece. La nuova immagine. Quando il parametro newImage è null. |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage)(IImage) | Sostituisce i dati dell'immagine. Attenzione: quando Image è metafile - verrà rasterizzata. Usa ReplaceImage(byte[]) invece. La nuova immagine. Quando il parametro newImage è null. |
 | [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_1)(IPPImage) | Sostituisce i dati dell'immagine. Il nuovo IPPImage. Quando il parametro newImage è null. |
 
 ### Vedi anche

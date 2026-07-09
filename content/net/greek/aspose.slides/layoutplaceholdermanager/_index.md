@@ -1,14 +1,14 @@
 ---
 title: LayoutPlaceholderManager
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει διαχειριστή που σάς επιτρέπει να προσθέσετε placeholders στη διαφάνεια διάταξης.
+description: Αντιπροσωπεύει διαχειριστή που σας επιτρέπει να προσθέτετε placeholders στη διαφάνεια διάταξης.
 type: docs
-weight: 7610
+weight: 7630
 url: /el/aspose.slides/layoutplaceholdermanager/
 ---
 ## LayoutPlaceholderManager κλάση
 
-Αναπαριστά έναν διαχειριστή που σάς επιτρέπει να προσθέσετε placeholders στη διαφάνεια διάταξης.
+Αντιπροσωπεύει έναν διαχειριστή που επιτρέπει την προσθήκη placeholders στη διαφάνεια διάταξης.
 
 ```csharp
 public class LayoutPlaceholderManager : ILayoutPlaceholderManager
@@ -16,23 +16,23 @@ public class LayoutPlaceholderManager : ILayoutPlaceholderManager
 
 ## Μέθοδοι
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
-| [AddChartPlaceholder](../../aspose.slides/layoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | Προσθέτει ένα νέο σχήμα placeholder στη διαφάνεια διάταξης για να φιλοξενήσει ένα γράφημα. |
-| [AddContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | Προσθέτει ένα νέο σχήμα placeholder στη διαφάνεια διάταξης για να φιλοξενήσει περιεχόμενο, όπως εικόνα, πίνακα, πολυμέσα ή κείμενο. |
-| [AddMediaPlaceholder](../../aspose.slides/layoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | Προσθέτει ένα νέο σχήμα placeholder στη διαφάνεια διάταξης για να φιλοξενήσει ένα αντικείμενο πολυμέσων. |
-| [AddOnlineImagePlaceholder](../../aspose.slides/layoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | Προσθέτει ένα νέο σχήμα placeholder στη διαφάνεια διάταξης για να φιλοξενήσει μια εικόνα από το διαδίκτυο. |
-| [AddPicturePlaceholder](../../aspose.slides/layoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | Προσθέτει ένα νέο σχήμα placeholder στη διαφάνεια διάταξης για να φιλοξενήσει μια εικόνα. |
-| [AddSmartArtPlaceholder](../../aspose.slides/layoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | Προσθέτει ένα νέο σχήμα placeholder στη διαφάνεια διάταξης για να φιλοξενήσει ένα διάγραμμα SmartArt. |
-| [AddTablePlaceholder](../../aspose.slides/layoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | Προσθέτει ένα νέο σχήμα placeholder στη διαφάνεια διάταξης για να φιλοξενήσει έναν πίνακα. |
-| [AddTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | Προσθέτει ένα νέο σχήμα placeholder στη διαφάνεια διάταξης για να φιλοξενήσει κειμενικό περιεχόμενο. |
-| [AddVerticalContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Προσθέτει ένα νέο σχήμα placeholder στη διαφάνεια διάταξης για να φιλοξενήσει περιεχόμενο, όπως εικόνα, πίνακα, πολυμέσα ή κείμενο, κάθετα. |
-| [AddVerticalTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Προσθέτει ένα νέο σχήμα placeholder στη διαφάνεια διάταξης για να φιλοξενήσει κειμενικό περιεχόμενο κάθετα. |
+| [AddChartPlaceholder](../../aspose.slides/layoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | Προσθέτει ένα νέο σχήμα placeholder στη διαφάνεια διάταξης για να περιέχει ένα γράφημα. |
+| [AddContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | Προσθέτει ένα νέο σχήμα placeholder στη διαφάνεια διάταξης για να περιέχει περιεχόμενο, όπως εικόνα, πίνακα, πολυμέσα ή κείμενο. |
+| [AddMediaPlaceholder](../../aspose.slides/layoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | Προσθέτει ένα νέο σχήμα placeholder στη διαφάνεια διάταξης για να περιέχει ένα αντικείμενο πολυμέσων. |
+| [AddOnlineImagePlaceholder](../../aspose.slides/layoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | Προσθέτει ένα νέο σχήμα placeholder στη διαφάνεια διάταξης για να περιέχει μια διαδικτυακή εικόνα. |
+| [AddPicturePlaceholder](../../aspose.slides/layoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | Προσθέτει ένα νέο σχήμα placeholder στη διαφάνεια διάταξης για να περιέχει μια εικόνα. |
+| [AddSmartArtPlaceholder](../../aspose.slides/layoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | Προσθέτει ένα νέο σχήμα placeholder στη διαφάνεια διάταξης για να περιέχει ένα διάγραμμα SmartArt. |
+| [AddTablePlaceholder](../../aspose.slides/layoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | Προσθέτει ένα νέο σχήμα placeholder στη διαφάνεια διάταξης για να περιέχει έναν πίνακα. |
+| [AddTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | Προσθέτει ένα νέο σχήμα placeholder στη διαφάνεια διάταξης για να περιέχει περιεχόμενο κειμένου. |
+| [AddVerticalContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Προσθέτει ένα νέο σχήμα placeholder στη διαφάνεια διάταξης για να περιέχει περιεχόμενο, όπως εικόνα, πίνακα, πολυμέσα ή κείμενο, σε κάθετη κατεύθυνση. |
+| [AddVerticalTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Προσθέτει ένα νέο σχήμα placeholder στη διαφάνεια διάταξης για να περιέχει περιεχόμενο κειμένου σε κάθετη κατεύθυνση. |
 
-### Δες επίσης
+### Δείτε επίσης
 
 * διασύνδεση [ILayoutPlaceholderManager](../ilayoutplaceholdermanager)
-* χώρος ονομάτων [Aspose.Slides](../../aspose.slides)
-* συναρμολόγηση [Aspose.Slides](../../)
+* χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
+* μονάδα [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

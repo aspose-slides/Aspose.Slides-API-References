@@ -1,9 +1,9 @@
 ---
 title: INotesSlide
-second_title: Aspose.Slides pro .NET API referenci
+second_title: Aspose.Sildes pro .NET API Reference
 description: Představuje snímek poznámek v prezentaci.
 type: docs
-weight: 6480
+weight: 6500
 url: /cs/aspose.slides/inotesslide/
 ---
 ## INotesSlide rozhraní
@@ -18,11 +18,11 @@ public interface INotesSlide : IBaseSlide, IOverrideThemeable
 
 | Název | Popis |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/inotesslide/asibaseslide) { get; } | Umožňuje získat základní rozhraní IBaseSlide. Pouze ke čtení [`IBaseSlide`](../ibaseslide). |
-| [AsIOverrideThemeable](../../aspose.slides/inotesslide/asioverridethemeable) { get; } | Vrací rozhraní IOverrideThemeable. Pouze ke čtení [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [HeaderFooterManager](../../aspose.slides/inotesslide/headerfootermanager) { get; } | Vrací správce HeaderFooter poznámkového snímku. Pouze ke čtení [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
-| [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | Vrací TextFrame s textem poznámek, pokud existuje. Pouze ke čtení [`ITextFrame`](../itextframe). |
-| [ParentSlide](../../aspose.slides/inotesslide/parentslide) { get; } | Vrací ParentSlide. Pouze ke čtení [`ISlide`](../islide). |
+| [AsIBaseSlide](../../aspose.slides/inotesslide/asibaseslide) { get; } | Umožňuje získat základní rozhraní IBaseSlide. Pouze pro čtení [`IBaseSlide`](../ibaseslide). |
+| [AsIOverrideThemeable](../../aspose.slides/inotesslide/asioverridethemeable) { get; } | Vrací rozhraní IOverrideThemeable. Pouze pro čtení [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
+| [HeaderFooterManager](../../aspose.slides/inotesslide/headerfootermanager) { get; } | Vrací správce HeaderFooter pro snímek poznámek. Pouze pro čtení [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
+| [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | Vrací TextFrame s textem poznámek, pokud existuje. Pouze pro čtení [`ITextFrame`](../itextframe). |
+| [ParentSlide](../../aspose.slides/inotesslide/parentslide) { get; } | Vrací ParentSlide. Pouze pro čtení [`ISlide`](../islide). |
 
 ### Viz také
 

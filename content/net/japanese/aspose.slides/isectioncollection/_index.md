@@ -1,14 +1,14 @@
 ---
 title: ISectionCollection
-second_title: Aspose.Sildes .NET 用 API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: セクションのコレクションを表します。
 type: docs
-weight: 6880
+weight: 6900
 url: /ja/aspose.slides/isectioncollection/
 ---
 ## ISectionCollection インターフェイス
 
-コレクションのセクションを表します。
+Represents a collection of sections.
 
 ```csharp
 public interface ISectionCollection : IGenericCollection<ISection>
@@ -18,20 +18,20 @@ public interface ISectionCollection : IGenericCollection<ISection>
 
 | 名前 | 説明 |
 | --- | --- |
-| [Item](../../aspose.slides/isectioncollection/item) { get; } | 指定されたインデックスの要素を取得します。読み取り専用 [`ISection`](../isection). |
+| [Item](../../aspose.slides/isectioncollection/item) { get; } | 指定されたインデックスの要素を取得します。読み取り専用 [`ISection`](../isection)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
 | [AddEmptySection](../../aspose.slides/isectioncollection/addemptysection)(string, int) | コレクションの指定された位置に空のセクションを追加します。 |
-| [AddSection](../../aspose.slides/isectioncollection/addsection)(string, ISlide) | 特定のスライドから始まる新しいセクションを追加します。 |
+| [AddSection](../../aspose.slides/isectioncollection/addsection)(string, ISlide) | 特定のスライドから開始する新しいセクションを追加します。 |
 | [AppendEmptySection](../../aspose.slides/isectioncollection/appendemptysection)(string) | コレクションの末尾に空のセクションを追加します。 |
 | [Clear](../../aspose.slides/isectioncollection/clear)() | コレクションからすべてのセクションを削除します。 |
 | [IndexOf](../../aspose.slides/isectioncollection/indexof)(ISection) | コレクション内の指定されたセクションのインデックスを返します。 |
 | [RemoveSection](../../aspose.slides/isectioncollection/removesection)(ISection) | セクションを削除します。セクションに含まれるスライドは前のセクションに結合されます。 |
 | [RemoveSectionWithSlides](../../aspose.slides/isectioncollection/removesectionwithslides)(ISection) | セクションとその中に含まれるスライドを削除します。 |
-| [ReorderSectionWithSlides](../../aspose.slides/isectioncollection/reordersectionwithslides)(ISection, int) | コレクション内のセクションとそのスライドを指定された位置に移動します。 |
+| [ReorderSectionWithSlides](../../aspose.slides/isectioncollection/reordersectionwithslides)(ISection, int) | コレクション内のセクションとそのスライドを指定された位置に移動させます。 |
 
 ### 参照
 

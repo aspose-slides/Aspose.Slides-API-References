@@ -3,7 +3,7 @@ title: MathFunctionFactory
 second_title: Aspose.Sildes för .NET API-referens
 description: Tillåter att skapa en matematisk funktion
 type: docs
-weight: 8710
+weight: 8730
 url: /sv/aspose.slides.mathtext/mathfunctionfactory/
 ---
 ## MathFunctionFactory klass
@@ -14,7 +14,7 @@ Tillåter att skapa en matematisk funktion
 public class MathFunctionFactory : IMathFunctionFactory
 ```
 
-## Konstruktörer
+## Konstruktorer
 
 | Namn | Beskrivning |
 | --- | --- |
@@ -24,8 +24,8 @@ public class MathFunctionFactory : IMathFunctionFactory
 
 | Namn | Beskrivning |
 | --- | --- |
-| [CreateMathFunction](../../aspose.slides.mathtext/mathfunctionfactory/createmathfunction#createmathfunction)(IMathElement, IMathElement) | Skapar en matematisk funktion |
-| [CreateMathFunction](../../aspose.slides.mathtext/mathfunctionfactory/createmathfunction#createmathfunction_1)(string, IMathElement) | Skapar en matematisk funktion |
+| [CreateMathFunction](../../aspose.slides.mathtext/mathfunctionfactory/createmathfunction#createmathfunction)(IMathElement, IMathElement) | Skapar matematisk funktion |
+| [CreateMathFunction](../../aspose.slides.mathtext/mathfunctionfactory/createmathfunction#createmathfunction_1)(string, IMathElement) | Skapar matematisk funktion |
 
 ### Anmärkningar
 

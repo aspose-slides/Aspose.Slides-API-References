@@ -1,14 +1,14 @@
 ---
 title: LoadingStreamBehavior
-second_title: Aspose.Sildes a .NET API referencia
-description: A metódusnak átadott Stream-et bináris nagy objektumnak (BLOB) tekintik, lásd IBlobManagementOptions./iblobmanagementoptions leírását. Ennek a felsorolásnak az értékei határozzák meg, hogyan kell kezelni a Stream-et, amikor átadjuk a metódusnak. A követelményektől függően különböző döntések hozhatók a lehető leghatékonyabb viselkedés biztosítása érdekében.
+second_title: Aspose.Sildes .NET API Referencia
+description: A metódusnak átadott Stream-et bináris nagy objektum BLOB-ként tekintik, lásd az IBlobManagementOptions./iblobmanagementoptions leírását. Ennek a felsorolásnak az értékei meghatározzák, hogyan kell kezelni a Stream-et, amikor átadják a metódusnak. A követelményektől függően különböző döntések hozhatók a leghatékonyabb viselkedés biztosítása érdekében.
 type: docs
-weight: 7830
+weight: 7850
 url: /hu/aspose.slides/loadingstreambehavior/
 ---
-## LoadingStreamBehavior enumeráció
+## LoadingStreamBehavior felsorolás
 
-A metódusnak átadott Stream-et bináris nagy objektumnak (Binary Large Object, BLOB) tekintik (lásd [`IBlobManagementOptions`](../iblobmanagementoptions) leírását). Ennek a felsorolásnak az értékei határozzák meg, hogyan kell kezelni a Stream-et, amikor átadjuk a metódusnak. A követelményektől függően különböző döntések hozhatók a lehető leghatékonyabb viselkedés biztosítása érdekében.
+A metódusnak átadott Stream-et bináris nagy objektumnak (BLOB) tekintik (lásd [`IBlobManagementOptions`](../iblobmanagementoptions) leírás). Ennek a felsorolásnak az értékei azt határozzák meg, hogyan kell kezelni a Stream-et, amikor átadják a metódusnak. A követelményektől függően különböző döntéseket lehet hozni a leghatékonyabb viselkedés biztosítása érdekében.
 
 ```csharp
 public enum LoadingStreamBehavior
@@ -18,8 +18,8 @@ public enum LoadingStreamBehavior
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| ReadStreamAndRelease | `0` | A stream-et a végéig olvassák, majd elengedik – vagyis garantált lesz, hogy ezt a stream-et a jövőben a [`IPresentation`](../ipresentation) példány nem fogja használni. Lezárható az ügyfélkód által, vagy bármilyen más módon felhasználható. |
-| KeepLocked | `1` | A stream-et a [`IPresentation`](../ipresentation) objektumon belül lezárják, vagyis a stream tulajdonjoga átkerül. A [`IPresentation`](../ipresentation) objektum felelős majd a stream helyes felszabadításáért, amikor ez az objektum magát is felszabadul. Ez a viselkedés különösen hasznos, ha nagy BLOB fájlt (például nagy videót vagy hangot – lásd [`IBlobManagementOptions`](../iblobmanagementoptions) leírását) kell sorosítani, és meg akarja előzni a fájl memóriába töltését vagy egyéb teljesítményproblémákat. Egyszerűen megnyithatja a FileStream-et ehhez a fájlhoz, és átadhatja egy metódusnak, a KeepLocked LoadingStreamBehavior-t választva. |
+| ReadStreamAndRelease | `0` | A stream-et a végéig olvassák, majd felszabadítják – vagyis garantált, hogy ez a stream a jövőben nem lesz használva a [`IPresentation`](../ipresentation) példány által. Lezárható a klienskód által vagy bármilyen más módon felhasználható. |
+| KeepLocked | `1` | A stream a [`IPresentation`](../ipresentation) objektumban lesz zárolva, vagyis a stream tulajdonjoga átadódik. A [`IPresentation`](../ipresentation) objektum felelős a stream helyes felszabadításáért, amikor maga az objektum el lesz dobva. Ez a viselkedés rendkívül hasznos, ha nagy BLOB fájlt kell sorosítani (például nagy videót vagy hangot – lásd [`IBlobManagementOptions`](../iblobmanagementoptions) leírás), és meg akarja akadályozni a fájl memóriába töltését vagy egyéb teljesítményproblémákat. Egyszerűen megnyithatja a FileStream-et a fájlhoz, és átadhatja egy metódusnak, a KeepLocked LoadingStreamBehavior kiválasztásával. |
 
 ### Lásd még
 

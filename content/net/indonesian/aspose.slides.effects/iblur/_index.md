@@ -1,12 +1,12 @@
 ---
 title: IBlur
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili efek Blur yang diterapkan pada seluruh bentuk termasuk isinya. Semua saluran warna termasuk alfa terpengaruh.
 type: docs
-weight: 3160
+weight: 3180
 url: /id/aspose.slides.effects/iblur/
 ---
-## IBlur antarmuka
+## IBlur interface
 
 Mewakili efek Blur yang diterapkan pada seluruh bentuk, termasuk isinya. Semua saluran warna, termasuk alfa, terpengaruh.
 
@@ -18,9 +18,9 @@ public interface IBlur : IAccessiblePVIObject<IBlurEffectiveData>, IImageTransfo
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iblur/asiaccessiblepviobject) { get; } | Mengizinkan untuk mendapatkan antarmuka IAccessiblePVIObject dasar. Hanya-baca [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iblur/asiimagetransformoperation) { get; } | Mengizinkan untuk mendapatkan antarmuka IImageTransformOperation dasar. Hanya-baca [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Grow](../../aspose.slides.effects/iblur/grow) { get; set; } | Menentukan apakah batas objek harus diperluas sebagai hasil dari blur. True menunjukkan batas diperluas sementara false menunjukkan bahwa tidak. Baca/tulis Boolean. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iblur/asiaccessiblepviobject) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar IAccessiblePVIObject. Baca-saja [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iblur/asiimagetransformoperation) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar IImageTransformOperation. Baca-saja [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Grow](../../aspose.slides.effects/iblur/grow) { get; set; } | Menentukan apakah batas objek harus diperluas sebagai hasil dari efek blur. True menunjukkan bahwa batas diperluas sementara false menunjukkan bahwa tidak. Baca/tulis Boolean. |
 | [Radius](../../aspose.slides.effects/iblur/radius) { get; set; } | Mengembalikan atau mengatur radius blur. Baca/tulis Double. |
 
 ### Lihat Juga

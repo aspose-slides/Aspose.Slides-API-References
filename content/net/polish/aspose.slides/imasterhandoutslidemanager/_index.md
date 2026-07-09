@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlideManager
-second_title: Aspose.Sildes dla .NET - referencja API
-description: Menedżer slajdu materiału pomocniczego głównego.
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Menedżer głównego slajdu notatek.
 type: docs
-weight: 6350
+weight: 6370
 url: /pl/aspose.slides/imasterhandoutslidemanager/
 ---
 ## IMasterHandoutSlideManager interfejs
 
-Menedżer slajdu materiału pomocniczego głównego.
+Menedżer głównego slajdu notatek.
 
 ```csharp
 public interface IMasterHandoutSlideManager
@@ -24,8 +24,8 @@ public interface IMasterHandoutSlideManager
 
 | Nazwa | Opis |
 | --- | --- |
-| [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | Usuwa slajd materiału pomocniczego głównego. |
-| [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | Ustawia domyślny slajd materiału pomocniczego głównego na powiązany slajd materiału pomocniczego. |
+| [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | Usuwa główny slajd notatek. |
+| [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | Ustawia domyślny główny slajd notatek na powiązany slajd notatek. |
 
 ### Zobacz także
 

@@ -1,13 +1,12 @@
 ---
 title: IParagraphCollection
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Sammlung von Absätzen dar.
 type: docs
-weight: 6370
+weight: 6570
 url: /de/aspose.slides/iparagraphcollection/
 ---
-
-## IParagraphCollection-Schnittstelle
+## IParagraphCollection Schnittstelle
 
 Stellt eine Sammlung von Absätzen dar.
 
@@ -19,31 +18,31 @@ public interface IParagraphCollection : IEnumerable<IParagraph>, ISlideComponent
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides/iparagraphcollection/asienumerable) { get; } | Gibt die IEnumerable-Schnittstelle zurück. Nur-Lese IEnumerable. |
-| [AsISlideComponent](../../aspose.slides/iparagraphcollection/asislidecomponent) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle ISlideComponent. Nur-Lese [`ISlideComponent`](../islidecomponent). |
-| [Count](../../aspose.slides/iparagraphcollection/count) { get; } | Gibt die Anzahl der tatsächlich in der Sammlung enthaltenen Elemente zurück. Nur-Lese Int32. |
-| [Item](../../aspose.slides/iparagraphcollection/item) { get; } | Gibt das Element am angegebenen Index zurück. |
+| [AsIEnumerable](../../aspose.slides/iparagraphcollection/asienumerable) { get; } | Gibt IEnumerable-Schnittstelle zurück. Nur-Lese IEnumerable. |
+| [AsISlideComponent](../../aspose.slides/iparagraphcollection/asislidecomponent) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle ISlideComponent. Nur-Lese [`ISlideComponent`](../islidecomponent). |
+| [Count](../../aspose.slides/iparagraphcollection/count) { get; } | Ermittelt die tatsächlich in der Sammlung enthaltene Anzahl von Elementen. Nur-Lese Int32. |
+| [Item](../../aspose.slides/iparagraphcollection/item) { get; } | Ermittelt das Element am angegebenen Index. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.slides/iparagraphcollection/add#add_1)(IParagraph) | Fügt einen Absatz am Ende der Sammlung hinzu. |
-| [Add](../../aspose.slides/iparagraphcollection/add#add)(IParagraphCollection) | Fügt den Inhalt der ParagraphCollection am Ende der Sammlung hinzu. |
-| [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml)(string) | Fügt den Text aus dem angegebenen HTML-String in die Sammlung ein. |
-| [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | Fügt den Text aus dem angegebenen HTML-String in die Sammlung ein. |
+| [Add](../../aspose.slides/iparagraphcollection/add#add_1)(IParagraph) | Fügt ein Paragraph-Objekt am Ende der Sammlung hinzu. |
+| [Add](../../aspose.slides/iparagraphcollection/add#add)(IParagraphCollection) | Fügt den Inhalt einer ParagraphCollection am Ende der Sammlung hinzu. |
+| [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml)(string) | Fügt Text aus der angegebenen HTML-Zeichenfolge zur Sammlung hinzu. |
+| [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | Fügt Text aus der angegebenen HTML-Zeichenfolge zur Sammlung hinzu. |
 | [Clear](../../aspose.slides/iparagraphcollection/clear)() | Entfernt alle Elemente aus der Sammlung. |
-| [ExportToHtml](../../aspose.slides/iparagraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | Konvertiert die angegebenen Absätze in HTML und gibt sie als String-Objekt zurück. |
-| [Insert](../../aspose.slides/iparagraphcollection/insert#insert)(int, IParagraph) | Fügt einen Absatz an der angegebenen Stelle in die Sammlung ein. |
-| [Insert](../../aspose.slides/iparagraphcollection/insert#insert_1)(int, IParagraphCollection) | Fügt den Inhalt der ParagraphCollection an der angegebenen Stelle in die Sammlung ein. |
-| [Remove](../../aspose.slides/iparagraphcollection/remove)(IParagraph) | Entfernt die erste Vorkommen eines bestimmten Absatzes. |
-| [RemoveAt](../../aspose.slides/iparagraphcollection/removeat)(int) | Entfernt das Element am angegebenen Index der Sammlung. |
+| [ExportToHtml](../../aspose.slides/iparagraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | Konvertiert angegebene Absätze zu HTML und gibt das Ergebnis als String-Objekt zurück. |
+| [Insert](../../aspose.slides/iparagraphcollection/insert#insert)(int, IParagraph) | Fügt ein Paragraph-Objekt an der angegebenen Position in die Sammlung ein. |
+| [Insert](../../aspose.slides/iparagraphcollection/insert#insert_1)(int, IParagraphCollection) | Fügt den Inhalt einer ParagraphCollection an der angegebenen Position in die Sammlung ein. |
+| [Remove](../../aspose.slides/iparagraphcollection/remove)(IParagraph) | Entfernt das erste Vorkommen eines bestimmten Paragraphs. |
+| [RemoveAt](../../aspose.slides/iparagraphcollection/removeat)(int) | Entfernt das Element an der angegebenen Position der Sammlung. |
 
 ### Siehe Auch
 
-* Schnittstelle [IParagraph](../iparagraph)
-* Schnittstelle [ISlideComponent](../islidecomponent)
-* Namensraum [Aspose.Slides](../../aspose.slides)
-* Assembly [Aspose.Slides](../../)
+* interface [IParagraph](../iparagraph)
+* interface [ISlideComponent](../islidecomponent)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

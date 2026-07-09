@@ -1,14 +1,14 @@
 ---
 title: BiLevel
-second_title: Aspose.Sildes pro .NET - referenční příručka API
-description: Reprezentuje černobílý Bi-Level efekt. Vstupní barvy, jejichž luminance je menší než zadaná prahová hodnota, jsou změněny na černou. Vstupní barvy, jejichž luminance je větší nebo rovna zadané hodnotě, jsou nastaveny na bílou. Hodnoty alfa efektu tímto efektem nejsou ovlivněny.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Reprezentuje Bi-Level (černobílý) efekt. Vstupní barvy, jejichž luminance je menší než zadaná prahová hodnota, jsou změněny na černou. Vstupní barvy, jejichž luminance je větší nebo rovna zadané hodnotě, jsou nastaveny na bílou. Hodnoty alfa efektu nejsou tímto efektem ovlivněny.
 type: docs
-weight: 2890
+weight: 2910
 url: /cs/aspose.slides.effects/bilevel/
 ---
-## BiLevel třída
+## Třída BiLevel
 
-Reprezentuje Bi-Level (černá/bílá) efekt. Vstupní barvy, jejichž jas je menší než zadaná prahová hodnota, jsou změněny na černou. Vstupní barvy, jejichž jas je větší než nebo rovna zadané hodnotě, jsou nastaveny na bílou. Hodnoty alfa efektu nejsou tímto efektem ovlivněny.
+Reprezentuje efekt Bi-Level (černobílý). Vstupní barvy, jejichž luminance je menší než zadaná prahová hodnota, jsou změněny na černou. Vstupní barvy, jejichž luminance je větší nebo rovna zadané hodnotě, jsou nastaveny na bílou. Hodnoty alfa efektu nejsou tímto efektem ovlivněny.
 
 ```csharp
 public sealed class BiLevel : ImageTransformOperation, IBiLevel
@@ -18,7 +18,7 @@ public sealed class BiLevel : ImageTransformOperation, IBiLevel
 
 | Název | Popis |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPPresentationComponent. Pouze pro čtení [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze pro čtení [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metody
 
@@ -26,7 +26,7 @@ public sealed class BiLevel : ImageTransformOperation, IBiLevel
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/bilevel/equals)(object) | Určuje, zda je zadaný [`BiLevel`](../bilevel) roven aktuálnímu [`BiLevel`](../bilevel). |
 | [GetEffective](../../aspose.slides.effects/bilevel/geteffective)() | Získá efektivní data Bi-Level efektu s aplikovaným děděním. |
-| override [GetHashCode](../../aspose.slides.effects/bilevel/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ. |
+| override [GetHashCode](../../aspose.slides.effects/bilevel/gethashcode)() | Slouží jako hash funkce pro konkrétní typ. |
 
 ### Viz také
 

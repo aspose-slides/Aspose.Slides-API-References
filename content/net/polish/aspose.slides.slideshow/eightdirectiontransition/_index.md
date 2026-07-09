@@ -1,9 +1,9 @@
 ---
 title: EightDirectionTransition
-second_title: Aspose.Sildes dla .NET API Reference
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Efekt przejścia slajdu w ośmiu kierunkach.
 type: docs
-weight: 10000
+weight: 10020
 url: /pl/aspose.slides.slideshow/eightdirectiontransition/
 ---
 ## EightDirectionTransition klasa
@@ -25,9 +25,9 @@ public class EightDirectionTransition : TransitionValueBase, IEightDirectionTran
 | Nazwa | Opis |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Określa, czy dwa wystąpienia TransitionValueBase są równe. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Służy jako funkcja skrótu dla określonego typu, odpowiednia do użycia w algorytmach haszujących i strukturach danych takich jak tabela hash. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Służy jako funkcja skrótu dla określonego typu, odpowiednia do użycia w algorytmach haszujących i strukturach danych, takich jak tablica mieszająca. |
 
-### Zobacz również
+### Zobacz także
 
 * klasa [TransitionValueBase](../transitionvaluebase)
 * interfejs [IEightDirectionTransition](../ieightdirectiontransition)

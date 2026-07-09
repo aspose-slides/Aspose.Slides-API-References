@@ -1,14 +1,14 @@
 ---
 title: IMathBlockCollection
-second_title: Aspose.Sildes for .NET API リファレンス
-description: IMathBlock の数式ブロックのコレクション
+second_title: Aspose.Sildes の .NET 用 API リファレンス
+description: 数式ブロック IMathBlock のコレクション
 type: docs
-weight: 8130
+weight: 8150
 url: /ja/aspose.slides.mathtext/imathblockcollection/
 ---
 ## IMathBlockCollection インターフェイス
 
-数学ブロック (IMathBlock) のコレクション
+数式ブロックのコレクション (IMathBlock)
 
 ```csharp
 public interface IMathBlockCollection : IEnumerable<IMathBlock>
@@ -18,9 +18,9 @@ public interface IMathBlockCollection : IEnumerable<IMathBlock>
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.mathtext/imathblockcollection/asienumerable) { get; } | ベースの IEnumerable インターフェイス IEnumerable を取得できます |
+| [AsIEnumerable](../../aspose.slides.mathtext/imathblockcollection/asienumerable) { get; } | 基底 IEnumerable インターフェイス IEnumerable を取得できます |
 | [Count](../../aspose.slides.mathtext/imathblockcollection/count) { get; } | コレクションに実際に含まれる要素数を取得します。読み取り専用 Int32。 |
-| [Item](../../aspose.slides.mathtext/imathblockcollection/item) { get; set; } | 指定したインデックスの項目を取得します。読み取り専用 [`IMathBlock`](../imathblock)。 |
+| [Item](../../aspose.slides.mathtext/imathblockcollection/item) { get; set; } | 指定されたインデックスの項目を取得します。読み取り専用 [`IMathBlock`](../imathblock)。 |
 
 ## メソッド
 
@@ -28,11 +28,11 @@ public interface IMathBlockCollection : IEnumerable<IMathBlock>
 | --- | --- |
 | [Add](../../aspose.slides.mathtext/imathblockcollection/add)(IMathBlock) | IMathBlock をコレクションの末尾に追加します。 |
 | [Clear](../../aspose.slides.mathtext/imathblockcollection/clear)() | コレクションからすべての要素を削除します。 |
-| [Contains](../../aspose.slides.mathtext/imathblockcollection/contains)(IMathBlock) | コレクションが特定の値を含むかどうかを判断します。 |
-| [IndexOf](../../aspose.slides.mathtext/imathblockcollection/indexof)(IMathBlock) | コレクション内の特定の IMathBlock のインデックスを決定します。 |
-| [Insert](../../aspose.slides.mathtext/imathblockcollection/insert)(int, IMathBlock) | 指定したインデックスに IMathBlock を挿入します。 |
-| [Remove](../../aspose.slides.mathtext/imathblockcollection/remove)(IMathBlock) | コレクションから特定のオブジェクトの最初の出現を削除します。 |
-| [RemoveAt](../../aspose.slides.mathtext/imathblockcollection/removeat)(int) | 指定したインデックスの項目をコレクションから削除します。 |
+| [Contains](../../aspose.slides.mathtext/imathblockcollection/contains)(IMathBlock) | コレクションに特定の値が含まれているかどうかを判断します。 |
+| [IndexOf](../../aspose.slides.mathtext/imathblockcollection/indexof)(IMathBlock) | コレクション内の特定の IMathBlock のインデックスを取得します。 |
+| [Insert](../../aspose.slides.mathtext/imathblockcollection/insert)(int, IMathBlock) | 指定されたインデックスに IMathBlock をコレクションに挿入します。 |
+| [Remove](../../aspose.slides.mathtext/imathblockcollection/remove)(IMathBlock) | コレクションから特定のオブジェクトの最初の出現を削除します/&gt;。 |
+| [RemoveAt](../../aspose.slides.mathtext/imathblockcollection/removeat)(int) | コレクションの指定されたインデックスの項目を削除します。 |
 
 ### 例
 
@@ -43,7 +43,7 @@ public interface IMathBlockCollection : IEnumerable<IMathBlock>
 IMathBlockCollection blockCollection = new MathParagraph();
 ```
 
-### 参照
+### 関連項目
 
 * インターフェイス [IMathBlock](../imathblock)
 * 名前空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

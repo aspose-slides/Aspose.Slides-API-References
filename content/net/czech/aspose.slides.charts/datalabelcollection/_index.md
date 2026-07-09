@@ -1,14 +1,14 @@
 ---
 title: DataLabelCollection
-second_title: Aspose.Sildes pro .NET referenční příručka API
-description: Reprezentuje popisky řady.
+second_title: Aspose.Sildes pro .NET referenci API
+description: Představuje popisky řady.
 type: docs
-weight: 1540
+weight: 1560
 url: /cs/aspose.slides.charts/datalabelcollection/
 ---
 ## DataLabelCollection třída
 
-Reprezentuje popisky řady.
+Představuje popisky řady.
 
 ```csharp
 public class DataLabelCollection : DomObject<ChartSeries>, IDataLabelCollection
@@ -19,21 +19,21 @@ public class DataLabelCollection : DomObject<ChartSeries>, IDataLabelCollection
 | Název | Popis |
 | --- | --- |
 | [Chart](../../aspose.slides.charts/datalabelcollection/chart) { get; } | Vrací nadřazený graf. Pouze pro čtení [`IChart`](../ichart). |
-| [Count](../../aspose.slides.charts/datalabelcollection/count) { get; } | Vrací počet všech popisků dat v kolekci. Pouze pro čtení Int32. |
-| [CountOfVisibleDataLabels](../../aspose.slides.charts/datalabelcollection/countofvisibledatalabels) { get; } | Vrací počet viditelných popisků dat v kolekci. Pouze pro čtení Int32. |
-| [DefaultDataLabelFormat](../../aspose.slides.charts/datalabelcollection/defaultdatalabelformat) { get; } | Vrací výchozí formát popisku dat. Pouze pro čtení [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/datalabelcollection/isvisible) { get; } | False znamená, že popisek dat není ve výchozím nastavení viditelný (a proto jsou všechna příznaky Show* (ShowValue, ...) vlastnosti DefaultDataLabelFormat nastavená na false). Pouze pro čtení Boolean. |
-| [Item](../../aspose.slides.charts/datalabelcollection/item) { get; } | Vrací popisek dat pro datový bod se zadaným indexem. |
-| [LeaderLinesFormat](../../aspose.slides.charts/datalabelcollection/leaderlinesformat) { get; } | Reprezentuje formát linií spojujících popisky dat. Pouze pro čtení [`IChartLinesFormat`](../ichartlinesformat). |
-| [ParentSeries](../../aspose.slides.charts/datalabelcollection/parentseries) { get; } | Vrací nadřazenou sérii. Pouze pro čtení [`IChartSeries`](../ichartseries). |
+| [Count](../../aspose.slides.charts/datalabelcollection/count) { get; } | Získá počet všech popisků dat ve sbírce. Pouze pro čtení Int32. |
+| [CountOfVisibleDataLabels](../../aspose.slides.charts/datalabelcollection/countofvisibledatalabels) { get; } | Získá počet viditelných popisků dat ve sbírce. Pouze pro čtení Int32. |
+| [DefaultDataLabelFormat](../../aspose.slides.charts/datalabelcollection/defaultdatalabelformat) { get; } | Získá výchozí formát popisku dat. Pouze pro čtení [`IDataLabelFormat`](../idatalabelformat). |
+| [IsVisible](../../aspose.slides.charts/datalabelcollection/isvisible) { get; } | Hodnota False znamená, že popisek dat není ve výchozím nastavení viditelný (a proto jsou všechny příznaky Show* (ShowValue, ...) vlastnosti DefaultDataLabelFormat nastaveny na false). Pouze pro čtení Boolean. |
+| [Item](../../aspose.slides.charts/datalabelcollection/item) { get; } | Získá popisek dat pro datový bod se zadaným indexem. |
+| [LeaderLinesFormat](../../aspose.slides.charts/datalabelcollection/leaderlinesformat) { get; } | Představuje formát čar ukazatelů popisků dat. Pouze pro čtení [`IChartLinesFormat`](../ichartlinesformat). |
+| [ParentSeries](../../aspose.slides.charts/datalabelcollection/parentseries) { get; } | Získá nadřazenou řadu. Pouze pro čtení [`IChartSeries`](../ichartseries). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [GetEnumerator](../../aspose.slides.charts/datalabelcollection/getenumerator)() | Vrací enumerátor, který prochází kolekcí. |
-| [Hide](../../aspose.slides.charts/datalabelcollection/hide)() | Skryje popisek dat ve výchozím nastavení nastavením všech příznaků Show* (ShowValue, ...) vlastnosti DefaultDataLabelFormat na hodnotu false. IsVisible bude po tomto nastavení false. |
-| [IndexOf](../../aspose.slides.charts/datalabelcollection/indexof)(IDataLabel) | Vrací index zadaného DataLabel v kolekci. |
+| [GetEnumerator](../../aspose.slides.charts/datalabelcollection/getenumerator)() | Vrací enumerátor, který prochází sbírku. |
+| [Hide](../../aspose.slides.charts/datalabelcollection/hide)() | Způsobí, že popisek dat bude ve výchozím nastavení skrytý nastavením všech příznaků Show* (ShowValue, ...) vlastnosti DefaultDataLabelFormat do stavu false. IsVisible bude po tomto nastavení false. |
+| [IndexOf](../../aspose.slides.charts/datalabelcollection/indexof)(IDataLabel) | Vrací index zadaného DataLabel ve sbírce. |
 
 ### Viz také
 

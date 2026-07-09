@@ -1,20 +1,20 @@
 ---
 title: IFontDataFactory
-second_title: Aspose.Sildes için .NET API Referansı
-description: FontData üretici arayüzü
+second_title: Aspose.Sildes .NET için API Referansı
+description: FontData fabrikası arayüzü
 type: docs
-weight: 5820
+weight: 5840
 url: /tr/aspose.slides/ifontdatafactory/
 ---
-## IFontDataFactory arayüz
+## IFontDataFactory arayüzü
 
-FontData üretici arayüzü
+FontData fabrikası arayüzü
 
 ```csharp
 public interface IFontDataFactory
 ```
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |

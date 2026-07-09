@@ -3,7 +3,7 @@ title: ChartThemeManager
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Fornisce l'accesso al tema del grafico sovrascritto.
 type: docs
-weight: 11040
+weight: 11060
 url: /it/aspose.slides.theme/chartthememanager/
 ---
 ## ChartThemeManager classe
@@ -18,7 +18,7 @@ public class ChartThemeManager : BaseOverrideThemeManager
 
 | Nome | Descrizione |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Determina se OverrideTheme sovrascrive il tema effettivo ereditato o no. Per abilitare OverrideTheme per la sovrascrittura usare i metodi OverrideTheme.Init*(). Per disabilitare OverrideTheme dalla sovrascrittura usare il metodo OverrideTheme.Clear(). Solo lettura Boolean. |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Determina se OverrideTheme sovrascrive o meno il tema effettivo ereditato. Per abilitare OverrideTheme per la sovrascrittura, utilizzare i metodi OverrideTheme.Init*(). Per disabilitare OverrideTheme dalla sovrascrittura, utilizzare il metodo OverrideTheme.Clear(). Booleano di sola lettura. |
 | [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Restituisce l'oggetto tema di sovrascrittura. Lettura/scrittura [`IOverrideTheme`](../ioverridetheme). |
 
 ## Metodi

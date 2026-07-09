@@ -1,14 +1,14 @@
 ---
 title: HandoutLayoutingOptions
-second_title: Referência da API Aspose.Sildes para .NET
-description: Representa o modo de layout de apresentação de folhetos para exportação.
+second_title: Aspose.Sildes para Referência de API .NET
+description: Representa o modo de layout da apresentação de folheto para exportação.
 type: docs
-weight: 3820
+weight: 3840
 url: /pt/aspose.slides.export/handoutlayoutingoptions/
 ---
 ## HandoutLayoutingOptions classe
 
-Representa o modo de layout de apresentação de folhetos para exportação.
+Representa o modo de layout da apresentação de folheto para exportação.
 
 ```csharp
 public class HandoutLayoutingOptions : ISlidesLayoutOptions
@@ -24,9 +24,9 @@ public class HandoutLayoutingOptions : ISlidesLayoutOptions
 
 | Nome | Descrição |
 | --- | --- |
-| [Handout](../../aspose.slides.export/handoutlayoutingoptions/handout) { get; set; } | Especifica quantos slides e em que sequência serão colocados na página [`HandoutType`](../handouttype). |
+| [Handout](../../aspose.slides.export/handoutlayoutingoptions/handout) { get; set; } | Especifica quantas slides e em que sequência serão colocados na página [`HandoutType`](../handouttype). |
 | [PrintComments](../../aspose.slides.export/handoutlayoutingoptions/printcomments) { get; set; } | Especifica se deve ou não exibir comentários nos slides |
-| [PrintFrameSlide](../../aspose.slides.export/handoutlayoutingoptions/printframeslide) { get; set; } | Especifica se deve ou não desenhar quadros ao redor dos slides exibidos. |
+| [PrintFrameSlide](../../aspose.slides.export/handoutlayoutingoptions/printframeslide) { get; set; } | Especifica se deve desenhar quadros ao redor dos slides exibidos ou não. |
 | [PrintSlideNumbers](../../aspose.slides.export/handoutlayoutingoptions/printslidenumbers) { get; set; } | Especifica se deve ou não imprimir os números dos slides exibidos. |
 
 ### Veja Também

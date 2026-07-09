@@ -1,9 +1,9 @@
 ---
 title: SmartArtNodeCollection
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa uma coleção de nós SmartArt.
 type: docs
-weight: 10620
+weight: 10640
 url: /pt/aspose.slides.smartart/smartartnodecollection/
 ---
 ## SmartArtNodeCollection classe
@@ -27,14 +27,14 @@ public sealed class SmartArtNodeCollection : ISmartArtNodeCollection
 
 | Nome | Descrição |
 | --- | --- |
-| [AddNode](../../aspose.slides.smartart/smartartnodecollection/addnode)() | Adiciona um novo nó SmartArt ou subnó. |
+| [AddNode](../../aspose.slides.smartart/smartartnodecollection/addnode)() | Adiciona um novo nó smart art ou subnó. |
 | [AddNodeByPosition](../../aspose.slides.smartart/smartartnodecollection/addnodebyposition)(int) | Adiciona um novo nó na posição selecionada da coleção de nós |
 | [CopyTo](../../aspose.slides.smartart/smartartnodecollection/copyto)(Array, int) | Copia todos os elementos da coleção para o array especificado. |
-| [GetEnumerator](../../aspose.slides.smartart/smartartnodecollection/getenumerator)() | Retorna um enumerador que itera através da coleção. |
+| [GetEnumerator](../../aspose.slides.smartart/smartartnodecollection/getenumerator)() | Retorna um enumerador que itera pela coleção. |
 | [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode_1)(int) | Remove nó ou subnó por índice |
 | [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode)(ISmartArtNode) | Remove nó ou subnó |
 
-### Ver Também
+### Ver também
 
 * interface [ISmartArtNodeCollection](../ismartartnodecollection)
 * namespace [Aspose.Slides.SmartArt](../../aspose.slides.smartart)

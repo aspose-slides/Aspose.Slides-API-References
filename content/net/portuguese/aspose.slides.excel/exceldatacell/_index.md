@@ -3,7 +3,7 @@ title: ExcelDataCell
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa uma única célula em uma pasta de trabalho do Excel.
 type: docs
-weight: 3660
+weight: 3680
 url: /pt/aspose.slides.excel/exceldatacell/
 ---
 ## ExcelDataCell classe
@@ -23,7 +23,7 @@ public class ExcelDataCell : IExcelDataCell
 | [Row](../../aspose.slides.excel/exceldatacell/row) { get; } | Obtém o índice baseado em zero da linha na planilha onde a célula está localizada. Somente leitura Int32. |
 | [Value](../../aspose.slides.excel/exceldatacell/value) { get; } | Obtém o valor contido na célula do Excel. |
 
-### Ver também
+### Veja Também
 
 * interface [IExcelDataCell](../iexceldatacell)
 * namespace [Aspose.Slides.Excel](../../aspose.slides.excel)

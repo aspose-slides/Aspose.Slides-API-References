@@ -1,14 +1,14 @@
 ---
 title: CompressionLevel
-second_title: Aspose.Sildes .NET API Referansı
-description: OpenXML dosyası için ZIP sıkıştırma seviyelerini belirtir. Daha yüksek seviyeler, daha yavaş işleme maliyeti karşılığında daha iyi sıkıştırma sağlar.
+second_title: Aspose.Sildes için .NET API Referansı
+description: OpenXML dosyası için ZIP sıkıştırma seviyelerini belirtir. Daha yüksek seviyeler, daha yavaş işleme karşılığında daha iyi sıkıştırma sağlar.
 type: docs
-weight: 3720
+weight: 3740
 url: /tr/aspose.slides.export/compressionlevel/
 ---
-## CompressionLevel enum'ı
+## CompressionLevel sayımı
 
-OpenXML dosyası için ZIP sıkıştırma seviyelerini belirtir. Daha yüksek seviyeler, daha yavaş işleme maliyeti karşılığında daha iyi sıkıştırma sağlar.
+OpenXML dosyası için ZIP sıkıştırma seviyelerini belirtir. Daha yüksek seviyeler, daha yavaş işleme karşılığında daha iyi sıkıştırma sağlar.
 
 ```csharp
 public enum CompressionLevel
@@ -18,14 +18,14 @@ public enum CompressionLevel
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| None | `0` | Sıkıştırma uygulanmaz. Dosyalar olduğu gibi saklanır. |
+| None | `0` | Hiç sıkıştırma uygulanmaz. Dosyalar olduğu gibi saklanır. |
 | Level1 | `1` | En düşük sıkıştırma oranıyla en hızlı sıkıştırma. |
-| Level2 | `2` | Level1'den biraz daha iyi sıkıştırma oranı ile daha hızlı sıkıştırma. |
-| Level3 | `3` | Orta düzey performans etkisiyle Level2'den daha iyi sıkıştırma sağlar. |
+| Level2 | `2` | Level1'den biraz daha iyi sıkıştırma oranıyla daha hızlı sıkıştırma. |
+| Level3 | `3` | Orta düzeyde performans etkisiyle Level2'den daha iyi sıkıştırma sağlar. |
 | Level4 | `4` | Level3'ten daha iyi sıkıştırma sağlar. |
-| Level5 | `5` | Ek işleme süresi ile Level4'ten geliştirilmiş sıkıştırma sağlar. |
-| Level6 | `6` | Sıkıştırma hızı ile dosya boyutu arasında iyi bir denge sunan standart sıkıştırma. Varsayılan sıkıştırma seviyesi. |
-| Level7 | `7` | Level6'dan daha yüksek sıkıştırma sağlar, ancak işlem daha yavaştır. |
+| Level5 | `5` | Level4'ün üzerinde geliştirilmiş sıkıştırma sağlar, ancak ek işleme süresi gerektirir. |
+| Level6 | `6` | Standart sıkıştırma, sıkıştırma hızı ve dosya boyutu arasında iyi bir denge sunar. Varsayılan sıkıştırma seviyesidir. |
+| Level7 | `7` | Level6'dan daha yüksek sıkıştırma sağlar, ancak daha yavaş işleme. |
 | Level8 | `8` | Level7'den daha yüksek sıkıştırma sağlar. |
 | Level9 | `9` | Maksimum sıkıştırma. En yavaş işleme hızıyla en küçük dosya boyutunu üretir. |
 

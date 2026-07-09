@@ -3,10 +3,10 @@ title: SummaryZoomSectionCollection
 second_title: Aspose.Sildes .NET API referencia
 description: A Summary Zoom Section objektumok gyűjteményét képviseli.
 type: docs
-weight: 10770
+weight: 10790
 url: /hu/aspose.slides/summaryzoomsectioncollection/
 ---
-## SummaryZoomSectionCollection osztály
+## SummaryZoomSection osztály
 
 A Summary Zoom Section objektumok gyűjteményét képviseli.
 
@@ -20,21 +20,21 @@ public sealed class SummaryZoomSectionCollection : DomObject<SummaryZoomFrame>,
 | Név | Leírás |
 | --- | --- |
 | [Count](../../aspose.slides/summaryzoomsectioncollection/count) { get; } | A gyűjteményben ténylegesen lévő elemek számát adja vissza. Csak olvasható Int32. |
-| [IsSynchronized](../../aspose.slides/summaryzoomsectioncollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált (szálbiztos)-e. Csak olvasható Boolean. |
+| [IsSynchronized](../../aspose.slides/summaryzoomsectioncollection/issynchronized) { get; } | Értéket ad vissza, amely jelzi, hogy a gyűjtemény hozzáférése szinkronizált-e (szálbiztos). Csak olvasható Boolean. |
 | [Item](../../aspose.slides/summaryzoomsectioncollection/item) { get; } | A megadott indexű elemet adja vissza. Csak olvasható [`ISummaryZoomSection`](../isummaryzoomsection). |
-| [SyncRoot](../../aspose.slides/summaryzoomsectioncollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökeret. Csak olvasható Object. |
+| [SyncRoot](../../aspose.slides/summaryzoomsectioncollection/syncroot) { get; } | Szinkronizációs gyökér. Csak olvasható Object. |
 
 ## Módszerek
 
 | Név | Leírás |
 | --- | --- |
 | [AddSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/addsummaryzoomsection)(ISection) | Új Summary Zoom Section objektumot hoz létre, és hozzáadja a gyűjteményhez |
-| [Clear](../../aspose.slides/summaryzoomsectioncollection/clear)() | Az összes SummaryZoomSection objektumot eltávolítja a gyűjteményből. |
-| [CopyTo](../../aspose.slides/summaryzoomsectioncollection/copyto)(Array, int) | Az egész gyűjteményt átmásolja a megadott tömbbe. |
-| [GetEnumerator](../../aspose.slides/summaryzoomsectioncollection/getenumerator)() | Visszaad egy felsorolót, amely végigiterál a gyűjteményen. |
-| [GetSummarySection](../../aspose.slides/summaryzoomsectioncollection/getsummarysection)(ISection) | Visszaad egy Summary Zoom Section elemet a megadott szekcióhoz. |
-| [IndexOf](../../aspose.slides/summaryzoomsectioncollection/indexof)(ISummaryZoomSection) | Visszaad a megadott SummaryZoomSection objektum indexét. |
-| [RemoveSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/removesummaryzoomsection)(ISection) | Eltávolítja a Summary Zoom Section objektumot a gyűjteményből. |
+| [Clear](../../aspose.slides/summaryzoomsectioncollection/clear)() | eltávolítja az összes SummaryZoomSection objektumot a gyűjteményből. |
+| [CopyTo](../../aspose.slides/summaryzoomsectioncollection/copyto)(Array, int) | Az egész gyűjteményt a megadott tömbbe másolja. |
+| [GetEnumerator](../../aspose.slides/summaryzoomsectioncollection/getenumerator)() | Egy enumerátort ad vissza, amely végig iterál a gyűjteményen. |
+| [GetSummarySection](../../aspose.slides/summaryzoomsectioncollection/getsummarysection)(ISection) | A megadott szekcióhoz tartozó Summary Zoom Section elemet ad vissza. |
+| [IndexOf](../../aspose.slides/summaryzoomsectioncollection/indexof)(ISummaryZoomSection) | A megadott SummaryZoomSection objektum indexét adja vissza. |
+| [RemoveSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/removesummaryzoomsection)(ISection) | Eltávolítja a Summary Zoom Section objektumot a gyűteményből. |
 
 ### Lásd még
 

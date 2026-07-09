@@ -3,7 +3,7 @@ title: IOutputFile
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 出力ファイルを表します。
 type: docs
-weight: 4580
+weight: 4600
 url: /ja/aspose.slides.export.web/ioutputfile/
 ---
 ## IOutputFile インターフェイス
@@ -20,7 +20,7 @@ public interface IOutputFile
 | --- | --- |
 | [Write](../../aspose.slides.export.web/ioutputfile/write)(Stream) | ファイルの内容をストリームに書き込みます。 |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * アセンブリ [Aspose.Slides](../../)

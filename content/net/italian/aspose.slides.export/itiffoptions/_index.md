@@ -3,10 +3,10 @@ title: ITiffOptions
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Fornisce opzioni che controllano come una presentazione viene salvata in formato TIFF.
 type: docs
-weight: 4150
+weight: 4170
 url: /it/aspose.slides.export/itiffoptions/
 ---
-## ITiffOptions interfaccia
+## Interfaccia ITiffOptions
 
 Fornisce opzioni che controllano come una presentazione viene salvata in formato TIFF.
 
@@ -19,15 +19,15 @@ public interface ITiffOptions : ISaveOptions
 | Nome | Descrizione |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/itiffoptions/asisaveoptions) { get; } | Restituisce l'interfaccia ISaveOptions. Solo lettura [`ISaveOptions`](../isaveoptions). |
-| [BwConversionMode](../../aspose.slides.export/itiffoptions/bwconversionmode) { get; set; } | Specifica l'algoritmo per convertire un'immagine a colori in un'immagine in bianco e nero. Questa opzione verrà applicata solo se [`CompressionType`](./compressiontype) è impostato su CCITT4 o CCITT3 Lettura/scrittura [`BlackWhiteConversionMode`](../blackwhiteconversionmode). Il valore predefinito è Default. |
-| [CompressionType](../../aspose.slides.export/itiffoptions/compressiontype) { get; set; } | Specifica il tipo di compressione. Lettura/scrittura [`TiffCompressionTypes`](../tiffcompressiontypes). |
-| [DpiX](../../aspose.slides.export/itiffoptions/dpix) { get; set; } | Specifica la risoluzione orizzontale in punti per pollice. Lettura/scrittura UInt32. |
-| [DpiY](../../aspose.slides.export/itiffoptions/dpiy) { get; set; } | Specifica la risoluzione verticale in punti per pollice. Lettura/scrittura UInt32. |
-| [ImageSize](../../aspose.slides.export/itiffoptions/imagesize) { get; set; } | Specifica la dimensione di un'immagine TIFF generata. Il valore predefinito è 0x0, il che significa che le dimensioni dell'immagine generata saranno calcolate in base al valore della dimensione della diapositiva della presentazione. Lettura/scrittura Size. |
+| [BwConversionMode](../../aspose.slides.export/itiffoptions/bwconversionmode) { get; set; } | Specifica l'algoritmo per convertire un'immagine a colori in un'immagine in bianco e nero. Questa opzione verrà applicata solo se [`CompressionType`](./compressiontype) è impostata su CCITT4 o CCITT3 Lettura/Scrittura [`BlackWhiteConversionMode`](../blackwhiteconversionmode). Il valore predefinito è Default. |
+| [CompressionType](../../aspose.slides.export/itiffoptions/compressiontype) { get; set; } | Specifica il tipo di compressione. Lettura/Scrittura [`TiffCompressionTypes`](../tiffcompressiontypes). |
+| [DpiX](../../aspose.slides.export/itiffoptions/dpix) { get; set; } | Specifica la risoluzione orizzontale in punti per pollice. Lettura/Scrittura UInt32. |
+| [DpiY](../../aspose.slides.export/itiffoptions/dpiy) { get; set; } | Specifica la risoluzione verticale in punti per pollice. Lettura/Scrittura UInt32. |
+| [ImageSize](../../aspose.slides.export/itiffoptions/imagesize) { get; set; } | Specifica le dimensioni di un'immagine TIFF generata. Il valore predefinito è 0x0, il che significa che le dimensioni dell'immagine generata saranno calcolate in base al valore delle dimensioni delle diapositive della presentazione. Lettura/Scrittura Size. |
 | [InkOptions](../../aspose.slides.export/itiffoptions/inkoptions) { get; } | Fornisce opzioni che controllano l'aspetto degli oggetti Ink nel documento esportato. Solo lettura [`IInkOptions`](../iinkoptions) |
-| [PixelFormat](../../aspose.slides.export/itiffoptions/pixelformat) { get; set; } | Specifica il formato pixel per le immagini generate. Lettura/scrittura [`ImagePixelFormat`](../imagepixelformat). |
-| [ShowHiddenSlides](../../aspose.slides.export/itiffoptions/showhiddenslides) { get; set; } | Specifica se il documento generato deve includere diapositive nascoste o meno. Il valore predefinito è `false`. |
-| [SlidesLayoutOptions](../../aspose.slides.export/itiffoptions/slideslayoutoptions) { get; set; } | Ottiene o imposta la modalità in cui le diapositive sono posizionate sulla pagina durante l'esportazione di una presentazione [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [PixelFormat](../../aspose.slides.export/itiffoptions/pixelformat) { get; set; } | Specifica il formato pixel per le immagini generate. Lettura/Scrittura [`ImagePixelFormat`](../imagepixelformat). |
+| [ShowHiddenSlides](../../aspose.slides.export/itiffoptions/showhiddenslides) { get; set; } | Specifica se il documento generato deve includere o meno diapositive nascoste. Il valore predefinito è `false`. |
+| [SlidesLayoutOptions](../../aspose.slides.export/itiffoptions/slideslayoutoptions) { get; set; } | Ottiene o imposta la modalità con cui le diapositive vengono posizionate sulla pagina durante l'esportazione di una presentazione [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### Vedi anche
 

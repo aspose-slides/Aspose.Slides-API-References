@@ -1,14 +1,14 @@
 ---
 title: GradientStop
 second_title: Aspose.Sildes .NET API Referansı
-description: Bir gradient biçimini temsil eder.
+description: Bir degrade biçimini temsil eder.
 type: docs
-weight: 5000
+weight: 5020
 url: /tr/aspose.slides/gradientstop/
 ---
-## GradientStop sınıf
+## GradientStop sınıfı
 
-Bir gradient biçimini temsil eder.
+Bir degrade biçimini temsil eder.
 
 ```csharp
 public sealed class GradientStop : PVIObject, IGradientStop
@@ -18,9 +18,9 @@ public sealed class GradientStop : PVIObject, IGradientStop
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almayı sağlar. Salt okunur [`IPresentationComponent`](../ipresentationcomponent). |
-| [Color](../../aspose.slides/gradientstop/color) { get; } | Bir gradient durağının rengini döndürür. Salt okunur [`IColorFormat`](../icolorformat). |
-| [Position](../../aspose.slides/gradientstop/position) { get; set; } | Bir gradient durağının konumunu (0..1) döndürür veya ayarlar. Okunur/yazılabilir Single. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzüne erişim sağlar. Salt okunur [`IPresentationComponent`](../ipresentationcomponent). |
+| [Color](../../aspose.slides/gradientstop/color) { get; } | Bir degrade durağının rengini döndürür. Salt okunur [`IColorFormat`](../icolorformat). |
+| [Position](../../aspose.slides/gradientstop/position) { get; set; } | Bir degrade durağının konumunu (0..1) döndürür veya ayarlar. Okunur/yazılır Single. |
 
 ## Yöntemler
 
@@ -29,7 +29,7 @@ public sealed class GradientStop : PVIObject, IGradientStop
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Belirtilen nesneyle karşılaştırır. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Karma kodunu döndürür. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * sınıf [PVIObject](../pviobject)
 * arayüz [IGradientStop](../igradientstop)

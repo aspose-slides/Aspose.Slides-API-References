@@ -1,14 +1,14 @@
 ---
 title: TiffCompressionTypes
 second_title: Aspose.Sildes .NET API referencia
-description: Lehetőségeket biztosít a prezentáció TIFF formátumban történő tömörítésének szabályozásához.
+description: Lehetőségeket biztosít, amelyek szabályozzák, hogyan tömörítik a prezentációt TIFF formátumban.
 type: docs
-weight: 4540
+weight: 4560
 url: /hu/aspose.slides.export/tiffcompressiontypes/
 ---
 ## TiffCompressionTypes enumeráció
 
-Lehetőségeket biztosít a prezentáció TIFF formátumban való tömörítésének szabályozásához.
+Lehetőségeket biztosít, amelyek szabályozzák, hogyan tömörítik a prezentációt TIFF formátumban.
 
 ```csharp
 public enum TiffCompressionTypes
@@ -18,12 +18,12 @@ public enum TiffCompressionTypes
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Default | `0` | Specifies the default compression scheme (LZW). |
-| None | `1` | Specifies no compression. |
-| CCITT3 | `2` | Specifies the CCITT3 compression scheme. |
-| CCITT4 | `3` | Specifies the CCITT4 compression scheme. |
-| LZW | `4` | Specifies the LZW compression scheme (Default). |
-| RLE | `5` | Specifies the RLE compression scheme. |
+| Default | `0` | Megadja az alapértelmezett tömörítési sémát (LZW). |
+| None | `1` | Megadja, hogy nincs tömörítés. |
+| CCITT3 | `2` | Megadja a CCITT3 tömörítési sémát. |
+| CCITT4 | `3` | Megadja a CCITT4 tömörítési sémát. |
+| LZW | `4` | Megadja az LZW tömörítési sémát (Alapértelmezett). |
+| RLE | `5` | Megadja az RLE tömörítési sémát. |
 
 ### Lásd még
 

@@ -3,7 +3,7 @@ title: IParagraphFormatEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
 description: Oföränderligt objekt som innehåller effektiva styckeformateringsegenskaper.
 type: docs
-weight: 6580
+weight: 6600
 url: /sv/aspose.slides/iparagraphformateffectivedata/
 ---
 ## IParagraphFormatEffectiveData gränssnitt
@@ -16,29 +16,29 @@ public interface IParagraphFormatEffectiveData
 
 ## Egenskaper
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
 | [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | Returnerar textjusteringen i ett stycke. Skrivskyddad [`TextAlignment`](../textalignment). |
 | [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | Returnerar ett punktformat för ett stycke. Skrivskyddad [`IBulletFormatEffectiveData`](../ibulletformateffectivedata). |
 | [DefaultPortionFormat](../../aspose.slides/iparagraphformateffectivedata/defaultportionformat) { get; } | Returnerar standarddelformat för ett stycke. Skrivskyddad [`IPortionFormatEffectiveData`](../iportionformateffectivedata). |
 | [DefaultTabSize](../../aspose.slides/iparagraphformateffectivedata/defaulttabsize) { get; } | Returnerar standardtabuleringsstorlek. Skrivskyddad Single. |
 | [Depth](../../aspose.slides/iparagraphformateffectivedata/depth) { get; } | Returnerar djupet för ett stycke. Skrivskyddad Int16. |
-| [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | Bestämmer om radbrytning för östasiatiska språk används i ett stycke. Skrivskyddad Boolean. |
-| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | Returnerar teckensnittsjustering i ett stycke. Skrivskyddad [`FontAlignment`](../fontalignment). |
+| [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | Bestämmer om radbrytning för östasiatiskt språk används i ett stycke. Skrivskyddad Boolean. |
+| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | Returnerar en teckensnittjustering i ett stycke. Skrivskyddad [`FontAlignment`](../fontalignment). |
 | [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | Bestämmer om hängande interpunktion används i ett stycke. Skrivskyddad Boolean. |
-| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | Returnerar stycke First Line Indent/Hanging Indent. Hanging Indent kan definieras med negativa värden. Skrivskyddad Single. |
-| [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | Bestämmer om latinsk radbrytning används i ett stycke. Skrivskyddad Boolean. |
+| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | Returnerar styckets Första rad-indrag/Hängande indrag. Hängande indrag kan definieras med negativa värden. Skrivskyddad Single. |
+| [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | Bestämmer om radbrytning för latinska språk används i ett stycke. Skrivskyddad Boolean. |
 | [MarginLeft](../../aspose.slides/iparagraphformateffectivedata/marginleft) { get; } | Returnerar vänstermarginalen i ett stycke. Skrivskyddad Single. |
 | [MarginRight](../../aspose.slides/iparagraphformateffectivedata/marginright) { get; } | Returnerar högermarginalen i ett stycke. Skrivskyddad Single. |
-| [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | Bestämmer om Right to Left-skrivning används i ett stycke. Skrivskyddad Boolean. |
-| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | Returnerar mängden utrymme efter den sista raden i ett stycke. Skrivskyddad Single. |
-| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | Returnerar mängden utrymme före den första raden i ett stycke. Skrivskyddad Single. |
-| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | Returnerar mängden utrymme mellan baslinjer i ett stycke. Skrivskyddad Single. |
-| [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | Returnerar tabuleringar för ett stycke. Skrivskyddad [`ITabEffectiveData`](../itabeffectivedata)[]. |
+| [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | Bestämmer om högre-till-vänster-skrivning används i ett stycke. Skrivskyddad Boolean. |
+| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | Returnerar mängden avstånd efter den sista raden i ett stycke. Skrivskyddad Single. |
+| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | Returnerar mängden avstånd före den första raden i ett stycke. Skrivskyddad Single. |
+| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | Returnerar avståndet mellan baslinjer i ett stycke. Skrivskyddad Single. |
+| [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | Returnerar tabuleringar i ett stycke. Skrivskyddad [`ITabEffectiveData`](../itabeffectivedata)[]. |
 
 ### Anmärkningar
 
-Detta gränssnitt används tillsammans med [`IParagraphFormat`](../iparagraphformat) gränssnitt för att returnera effektiva formatvärden med ärftlighet tillämpad.
+Detta gränssnitt används tillsammans med [`IParagraphFormat`](../iparagraphformat)-gränssnittet för att returnera effektiva formateringsvärden med ärftlighet tillämpad.
 
 ### Se även
 

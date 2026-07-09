@@ -1,25 +1,25 @@
 ---
 title: ForEach.ForEachSlideCallback
-second_title: Aspose.Sildes for .NET API リファレンス
-description: Presentation の中で各 Slide./foreach/slide に対して呼び出されるコールバックです。../aspose.slides/presentation.
+second_title: Aspose.Sildes の .NET API リファレンス
+description: Presentation の各 Slide./foreach/slide に対して呼び出されるコールバックです../aspose.slides/presentation.
 type: docs
-weight: 7940
+weight: 7960
 url: /ja/aspose.slides.lowcode/foreach.foreachslidecallback/
 ---
 ## ForEach.ForEachSlideCallback delegate
 
-各 [`Slide`](../foreach/slide) に対して、[`Presentation`](../../aspose.slides/presentation) 内で呼び出されるコールバックです。
+各[`Slide`](../foreach/slide)に対して、[`Presentation`](../../aspose.slides/presentation)内で呼び出されるコールバック。
 
 ```csharp
 public delegate void ForEachSlideCallback(Slide slide, int index);
 ```
 
-| パラメーター | 型 | 説明 |
+| パラメータ | 型 | 説明 |
 | --- | --- | --- |
 | slide | Slide | 現在反復されているスライド |
 | index | Int32 | 現在のスライドのインデックス |
 
-### 参照
+### 関連項目
 
 * クラス [Slide](../../aspose.slides/slide)
 * クラス [ForEach](../foreach)

@@ -1,14 +1,14 @@
 ---
 title: OpenAIWebClient
-second_title: Aspose.Sildes .NET API referencia
-description: Létrehozza az OpenAI Web kliens egy példányát.
+second_title: Aspose.Sildes .NET-hez API hivatkozás
+description: Létrehozza az OpenAI webkliens egy példányát.
 type: docs
 weight: 10
 url: /hu/aspose.slides.ai/openaiwebclient/openaiwebclient/
 ---
 ## OpenAIWebClient(string, string, string) {#constructor}
 
-Létrehozza az OpenAI Web kliens egy példányát.
+Létrehoz egy példányt az OpenAI webkliensből.
 
 ```csharp
 public OpenAIWebClient(string model, string apiKey, string organizationId)
@@ -17,15 +17,15 @@ public OpenAIWebClient(string model, string apiKey, string organizationId)
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
 | model | String | OpenAI nyelvi modell. Lehetséges értékek: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
-| apiKey | String | OpenAI API kulcs |
-| organizationId | String | Szervezet azonosító (opcionális) |
+| apiKey | String | OpenAI API kulcs. |
+| organizationId | String | Szervezet azonosító (opcionális). |
 
 ### Kivételek
 
 | kivétel | feltétel |
 | --- | --- |
-| ArgumentException | API kulcs értéke nem lehet null vagy üres |
-| ArgumentException | Szövegmodell értéke nem lehet null vagy üres |
+| ArgumentException | Az API kulcs értéke nem lehet null vagy üres. |
+| ArgumentException | A szövegmodell értéke nem lehet null vagy üres. |
 
 ### Lásd még
 
@@ -37,7 +37,7 @@ public OpenAIWebClient(string model, string apiKey, string organizationId)
 
 ## OpenAIWebClient(string, string, string, HttpClient) {#constructor_1}
 
-Létrehozza az OpenAI Web kliens egy példányát.
+Létrehoz egy példányt az OpenAI webkliensből, amely egy külsőleg kezelt `HttpClient`-et használ. A megadott `HttpClient` nem kerül lezárásra ezzel a példánnyal, és a hívó tulajdonában marad.
 
 ```csharp
 public OpenAIWebClient(string model, string apiKey, string organizationId, HttpClient httpClient)
@@ -48,14 +48,15 @@ public OpenAIWebClient(string model, string apiKey, string organizationId, HttpC
 | model | String | OpenAI nyelvi modell. Lehetséges értékek: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
 | apiKey | String | OpenAI API kulcs |
 | organizationId | String | Szervezet azonosító (opcionális) |
-| httpClient | HttpClient | Egy külsőleg kezelt `HttpClient` példány. |
+| httpClient | HttpClient | Külsőleg kezelt `HttpClient` példány |
 
 ### Kivételek
 
 | kivétel | feltétel |
 | --- | --- |
-| ArgumentException | API kulcs értéke nem lehet null vagy üres |
-| ArgumentException | Szövegmodell értéke nem lehet null vagy üres |
+| ArgumentException | Az API kulcs értéke nem lehet null vagy üres |
+| ArgumentException | A szövegmodell értéke nem lehet null vagy üres |
+| ArgumentNullException | A `HttpClient` nem lehet null |
 
 ### Lásd még
 

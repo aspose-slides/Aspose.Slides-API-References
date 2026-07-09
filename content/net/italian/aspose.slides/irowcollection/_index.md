@@ -1,14 +1,14 @@
 ---
 title: IRowCollection
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta la raccolta di righe della tabella.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta la collezione di righe della tabella.
 type: docs
-weight: 6840
+weight: 6860
 url: /it/aspose.slides/irowcollection/
 ---
 ## IRowCollection interfaccia
 
-Rappresenta la raccolta di righe della tabella.
+Rappresenta la collezione di righe di una tabella.
 
 ```csharp
 public interface IRowCollection : IGenericCollection<IRow>
@@ -24,9 +24,9 @@ public interface IRowCollection : IGenericCollection<IRow>
 
 | Nome | Descrizione |
 | --- | --- |
-| [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | Crea una copia della riga modello specificata e la inserisce in fondo a una tabella. |
-| [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | Crea una copia della riga modello specificata e la inserisce nella posizione specificata in una tabella. |
-| [RemoveAt](../../aspose.slides/irowcollection/removeat)(int, bool) | Rimuove una riga alla posizione specificata da una tabella. |
+| [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | Crea una copia della riga modello specificata e la inserisce alla fine di una tabella. |
+| [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | Crea una copia della riga modello specificata e la inserisce nella posizione specificata di una tabella. |
+| [RemoveAt](../../aspose.slides/irowcollection/removeat)(int, bool) | Rimuove una riga nella posizione specificata da una tabella. |
 
 ### Vedi anche
 

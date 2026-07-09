@@ -1,9 +1,9 @@
 ---
 title: IThreeDFormat
-second_title: Aspose.Sildes para .NET – Referência da API
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa propriedades 3-D.
 type: docs
-weight: 7310
+weight: 7330
 url: /pt/aspose.slides/ithreedformat/
 ---
 ## IThreeDFormat interface
@@ -19,8 +19,8 @@ public interface IThreeDFormat : IThreeDParamSource
 | Nome | Descrição |
 | --- | --- |
 | [AsIThreeDParamSource](../../aspose.slides/ithreedformat/asithreedparamsource) { get; } | Permite obter a interface base IThreeDParamSource. Somente leitura [`IThreeDParamSource`](../ithreedparamsource). |
-| [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | Retorna ou define o tipo de um chanfro 3D inferior. Somente leitura [`IShapeBevel`](../ishapebevel). |
-| [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | Retorna ou define o tipo de um chanfro 3D superior. Somente leitura [`IShapeBevel`](../ishapebevel). |
+| [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | Retorna ou define o tipo de bisel 3D inferior. Somente leitura [`IShapeBevel`](../ishapebevel). |
+| [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | Retorna ou define o tipo de bisel 3D superior. Somente leitura [`IShapeBevel`](../ishapebevel). |
 | [Camera](../../aspose.slides/ithreedformat/camera) { get; } | Retorna ou define as configurações de uma câmera. Somente leitura [`ICamera`](../icamera). |
 | [ContourColor](../../aspose.slides/ithreedformat/contourcolor) { get; } | Retorna ou define a cor de um contorno. Somente leitura [`IColorFormat`](../icolorformat). |
 | [ContourWidth](../../aspose.slides/ithreedformat/contourwidth) { get; set; } | Retorna ou define a largura de um contorno 3D. Leitura/Gravação Double. |
@@ -36,7 +36,7 @@ public interface IThreeDFormat : IThreeDParamSource
 | --- | --- |
 | [GetEffective](../../aspose.slides/ithreedformat/geteffective)() | Obtém os dados de formatação 3-D efetivos com a herança aplicada. |
 
-### Ver Também
+### Ver também
 
 * interface [IThreeDParamSource](../ithreedparamsource)
 * namespace [Aspose.Slides](../../aspose.slides)

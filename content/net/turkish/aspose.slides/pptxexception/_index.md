@@ -1,14 +1,14 @@
 ---
 title: PptxException
-second_title: Aspose.Sildes için .NET API Referansı
-description: Standart bir iç istisna tipini temsil eder.
+second_title: Aspose.Sildes .NET API Referansı
+description: Standart bir iç istisna türünü temsil eder.
 type: docs
-weight: 9540
+weight: 9560
 url: /tr/aspose.slides/pptxexception/
 ---
-## PptxException sınıfı
+## PptxException sınıf
 
-Standart bir iç istisna tipini temsil eder.
+Standart bir iç istisna türünü temsil eder.
 
 ```csharp
 public class PptxException : OOXMLException
@@ -16,11 +16,11 @@ public class PptxException : OOXMLException
 
 ## Yapıcılar
 
-| İsim | Açıklama |
+| Ad | Açıklama |
 | --- | --- |
 | [PptxException](pptxexception#constructor)() | Varsayılan yapıcı. |
-| [PptxException](pptxexception#constructor_1)(string) | Bu istisna için bir mesaj eklenmesine izin veren yapıcı. |
-| [PptxException](pptxexception#constructor_2)(string, Exception) | Bir mesaj ve gömülü bir istisna içeren istisna için yapıcı. |
+| [PptxException](pptxexception#constructor_1)(string) | Bu istisna için bir ileti eklenmesini sağlayan yapıcı. |
+| [PptxException](pptxexception#constructor_2)(string, Exception) | İleti ve gömülü bir istisna içeren bir istisna için yapıcı. |
 
 ### Ayrıca Bakınız
 

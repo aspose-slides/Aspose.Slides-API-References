@@ -3,10 +3,10 @@ title: ImagePixelFormat
 second_title: Aspose.Sildes för .NET API-referens
 description: Anger pixelformatet för de genererade bilderna.
 type: docs
-weight: 4190
+weight: 4210
 url: /sv/aspose.slides.export/imagepixelformat/
 ---
-## ImagePixelFormat uppräkning
+## ImagePixelFormat enum
 
 Anger pixelformatet för de genererade bilderna.
 
@@ -18,13 +18,13 @@ public enum ImagePixelFormat
 
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Format1bppIndexed | `1` | 1 bit per pixel, indexerat. |
-| Format4bppIndexed | `4` | 4 bit per pixel, indexerat. |
-| Format8bppIndexed | `8` | 8 bit per pixel, indexerat. |
-| Format24bppRgb | `24` | 24 bit per pixel, RGB. |
-| Format32bppArgb | `32` | 32 bit per pixel, ARGB. |
+| Format1bppIndexed | `1` | 1 bit per pixel, indexerad. |
+| Format4bppIndexed | `4` | 4 bitar per pixel, indexerad. |
+| Format8bppIndexed | `8` | 8 bitar per pixel, indexerad. |
+| Format24bppRgb | `24` | 24 bitar per pixel, RGB. |
+| Format32bppArgb | `32` | 32 bitar per pixel, ARGB. |
 
-### Se även
+### Se också
 
 * namnrymd [Aspose.Slides.Export](../../aspose.slides.export)
 * assembly [Aspose.Slides](../../)

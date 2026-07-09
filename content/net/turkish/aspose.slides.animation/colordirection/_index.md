@@ -3,10 +3,10 @@ title: ColorDirection
 second_title: Aspose.Sildes için .NET API Referansı
 description: Renk efekti davranışı için renk yönünü temsil eder.
 type: docs
-weight: 200
+weight: 220
 url: /tr/aspose.slides.animation/colordirection/
 ---
-## ColorDirection enum
+## ColorDirection sayımı
 
 Renk efekti davranışı için renk yönünü temsil eder.
 

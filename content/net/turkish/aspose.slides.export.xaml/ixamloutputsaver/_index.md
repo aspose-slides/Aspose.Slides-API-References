@@ -1,14 +1,14 @@
 ---
 title: IXamlOutputSaver
 second_title: Aspose.Sildes for .NET API Referansı
-description: Harici depolamaya veri aktarımı için bir çıktı kaydedici uygulamasını temsil eder.
+description: Harici depolamaya veri transferi için bir çıktı kaydedici uygulamasını temsil eder.
 type: docs
-weight: 4690
+weight: 4710
 url: /tr/aspose.slides.export.xaml/ixamloutputsaver/
 ---
 ## IXamlOutputSaver arayüz
 
-Harici depolamaya veri aktarımı için bir çıktı kaydedici uygulamasını temsil eder.
+Harici depolamaya veri transferi için bir çıktı kaydedici uygulamasını temsil eder.
 
 ```csharp
 public interface IXamlOutputSaver
@@ -20,7 +20,7 @@ public interface IXamlOutputSaver
 | --- | --- |
 | [Save](../../aspose.slides.export.xaml/ixamloutputsaver/save)(string, byte[]) | Bir bayt dizisini hedef konuma kaydeder. |
 
-### Diğer
+### Diğer Bağlantılar
 
 * ad alanı [Aspose.Slides.Export.Xaml](../../aspose.slides.export.xaml)
 * derleme [Aspose.Slides](../../)

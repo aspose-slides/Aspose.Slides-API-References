@@ -1,9 +1,9 @@
 ---
 title: ITransitionValueBase
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
 description: Reprezentuje klasę bazową dla efektów przejścia slajdów.
 type: docs
-weight: 10190
+weight: 10210
 url: /pl/aspose.slides.slideshow/itransitionvaluebase/
 ---
 ## ITransitionValueBase interfejs
@@ -14,7 +14,7 @@ Reprezentuje klasę bazową dla efektów przejścia slajdów.
 public interface ITransitionValueBase
 ```
 
-### Zobacz także
+### Zobacz też
 
 * przestrzeń nazw [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * zestaw [Aspose.Slides](../../)

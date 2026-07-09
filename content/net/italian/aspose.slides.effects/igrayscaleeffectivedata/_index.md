@@ -1,14 +1,14 @@
 ---
 title: IGrayScaleEffectiveData
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Oggetto immutabile che rappresenta un effetto Scala di Grigi. Converte tutti i valori di colore dell'effetto in una sfumatura di grigio corrispondente alla loro luminanza. I valori alfa di opacità dell'effetto non sono modificati.
+description: Oggetto immutabile che rappresenta un effetto scala di grigi. Converte tutti i valori di colore dell'effetto in una tonalità di grigio corrispondente alla loro luminanza. I valori alpha di opacità dell'effetto non sono modificati.
 type: docs
-weight: 3330
+weight: 3350
 url: /it/aspose.slides.effects/igrayscaleeffectivedata/
 ---
 ## IGrayScaleEffectiveData interfaccia
 
-Oggetto immutabile che rappresenta un effetto Scala di Grigi. Converte tutti i valori di colore dell'effetto in una sfumatura di grigio, corrispondente alla loro luminanza. I valori alfa (opacità) dell'effetto non sono modificati.
+Oggetto immutabile che rappresenta un effetto scala di grigi. Converte tutti i valori di colore dell'effetto in una tonalità di grigio, corrispondente alla loro luminanza. I valori alpha (opacità) dell'effetto non sono modificati.
 
 ```csharp
 public interface IGrayScaleEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IGrayScaleEffectiveData : IEffectEffectiveData
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/igrayscaleeffectivedata/asieffecteffectivedata) { get; } | Consente di ottenere l'interfaccia base IEffectEffectiveData. Solo lettura [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/igrayscaleeffectivedata/asieffecteffectivedata) { get; } | Consente di ottenere l'interfaccia base IEffectEffectiveData. Sola lettura [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Vedi anche
 

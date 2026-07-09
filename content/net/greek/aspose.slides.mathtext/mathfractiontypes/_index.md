@@ -3,10 +3,10 @@ title: MathFractionTypes
 second_title: Aspose.Sildes για .NET API Αναφορά
 description: Τύποι Κλασμάτων
 type: docs
-weight: 8690
+weight: 8710
 url: /el/aspose.slides.mathtext/mathfractiontypes/
 ---
-## MathFractionTypes απαρίθμηση
+## Απαρίθμηση MathFractionTypes
 
 Τύποι Κλασμάτων
 
@@ -18,10 +18,10 @@ public enum MathFractionTypes
 
 | Όνομα | Τιμή | Περιγραφή |
 | --- | --- | --- |
-| Bar | `1` | Κλάσμα μπάρας |
-| Skewed | `2` | Καμπυλωμένο |
-| Linear | `3` | Γραμμικό Κλάσμα |
-| NoBar | `4` | Κλάσμα χωρίς μπάρα (Στοίβα) |
+| Bar | `1` | Bar Κλάσμα |
+| Skewed | `2` | Λοξό |
+| Linear | `3` | Linear Κλάσμα |
+| NoBar | `4` | No-Bar Κλάσμα (Στοίβα) |
 
 ### Δείτε επίσης
 

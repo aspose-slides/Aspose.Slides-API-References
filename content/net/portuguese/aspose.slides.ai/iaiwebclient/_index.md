@@ -1,14 +1,14 @@
 ---
 title: IAIWebClient
-second_title: Aspose.Sildes para a Referência da API .NET
-description: Interface de cliente AI Web. Esta interface permite substituir diferentes modelos de linguagem AI. As classes que implementam esta interface devem ser usadas juntamente com SlidesAIAgent.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Interface de cliente web de IA. Esta interface permite substituir diferentes modelos de linguagem de IA. As classes que implementam esta interface devem ser usadas junto com SlidesAIAgent.
 type: docs
-weight: 20
+weight: 30
 url: /pt/aspose.slides.ai/iaiwebclient/
 ---
-## IAIWebClient interface
+## interface IIAWebClient
 
-Interface de cliente AI Web. Esta interface permite substituir diferentes modelos de linguagem AI. As classes que implementam esta interface devem ser usadas juntamente com `SlidesAIAgent`.
+Interface de cliente web de IA. Esta interface permite substituir diferentes modelos de linguagem de IA. As classes que implementam esta interface devem ser usadas junto com `SlidesAIAgent`.
 
 ```csharp
 public interface IAIWebClient
@@ -18,10 +18,10 @@ public interface IAIWebClient
 
 | Nome | Descrição |
 | --- | --- |
-| [CallChatAsync](../../aspose.slides.ai/iaiwebclient/callchatasync)(string) | Envia uma instrução de chat ao modelo AI usando uma instância `HttpClient` fornecida e retorna a mensagem de resposta à instrução dada. |
-| [CreateConversation](../../aspose.slides.ai/iaiwebclient/createconversation)() | Cria uma instância de conversa. Diferentemente das chamadas AI regulares, as conversas mantêm todo o contexto. |
+| [CallChatAsync](../../aspose.slides.ai/iaiwebclient/callchatasync)(string) | Envia uma instrução de chat para o modelo de IA usando uma instância `HttpClient` fornecida e retorna a mensagem de resposta à instrução dada. |
+| [CreateConversation](../../aspose.slides.ai/iaiwebclient/createconversation)() | Cria uma instância de conversa. Ao contrário das chamadas de IA regulares, as conversas mantêm todo o contexto. |
 
-### Ver Também
+### Veja Também
 
 * namespace [Aspose.Slides.AI](../../aspose.slides.ai)
 * assembly [Aspose.Slides](../../)

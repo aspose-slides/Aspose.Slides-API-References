@@ -3,7 +3,7 @@ title: ILegendEntryProperties
 second_title: Aspose.Sildes for .NET API リファレンス
 description: チャートの凡例プロパティを表します。
 type: docs
-weight: 2130
+weight: 2150
 url: /ja/aspose.slides.charts/ilegendentryproperties/
 ---
 ## ILegendEntryProperties インターフェイス
@@ -16,10 +16,10 @@ public interface ILegendEntryProperties : IFormattedTextContainer
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegendentryproperties/asiformattedtextcontainer) { get; } | ベースの IFormattedTextContainer インターフェイスを取得できます。 読み取り専用 [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [Hide](../../aspose.slides.charts/ilegendentryproperties/hide) { get; set; } | 凡例エントリの非表示フラグを取得または設定します。 読み書き Boolean. |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegendentryproperties/asiformattedtextcontainer) { get; } | ベース IFormattedTextContainer インターフェイスを取得できます。読み取り専用 [`IFormattedTextContainer`](../iformattedtextcontainer)。 |
+| [Hide](../../aspose.slides.charts/ilegendentryproperties/hide) { get; set; } | 凡例エントリの非表示フラグを取得または設定します。読み書き可能な Boolean。 |
 
 ### 参照
 

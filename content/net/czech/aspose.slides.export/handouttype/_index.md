@@ -1,9 +1,9 @@
 ---
 title: HandoutType
-second_title: Aspose.Sildes pro .NET referenci API
+second_title: Aspose.Sildes pro .NET API Reference
 description: Určuje, kolik snímků a v jakém pořadí bude umístěno na stránku.
 type: docs
-weight: 3830
+weight: 3850
 url: /cs/aspose.slides.export/handouttype/
 ---
 ## HandoutType výčet

@@ -3,7 +3,7 @@ title: PPImage
 second_title: Aspose.Sildes for .NET API リファレンス
 description: プレゼンテーション内の画像を表します。
 type: docs
-weight: 9230
+weight: 9250
 url: /ja/aspose.slides/ppimage/
 ---
 ## PPImage クラス
@@ -18,8 +18,8 @@ public class PPImage : IDisposable, IPPImage
 
 | 名前 | 説明 |
 | --- | --- |
-| [BinaryData](../../aspose.slides/ppimage/binarydata) { get; } | 画像データのコピーを返します。読み取り専用 Byte[]. |
-| [ContentType](../../aspose.slides/ppimage/contenttype) { get; } | 画像の MIME タイプ ([`BinaryData`](./binarydata) でエンコード) を返します。読み取り専用 String。 |
+| [BinaryData](../../aspose.slides/ppimage/binarydata) { get; } | 画像データのコピーを返します。読み取り専用 Byte[]。 |
+| [ContentType](../../aspose.slides/ppimage/contenttype) { get; } | 画像の MIME タイプを [`BinaryData`](./binarydata) でエンコードしたものを返します。読み取り専用 String。 |
 | [Height](../../aspose.slides/ppimage/height) { get; } | 画像の高さを返します。読み取り専用 Int32。 |
 | [Image](../../aspose.slides/ppimage/image) { get; } | 画像のコピーを返します。読み取り専用 [`IImage`](../iimage)。 |
 | [SvgImage](../../aspose.slides/ppimage/svgimage) { get; set; } | ISvgImage オブジェクト [`ISvgImage`](../isvgimage) を取得または設定します。 |
@@ -33,13 +33,13 @@ public class PPImage : IDisposable, IPPImage
 | --- | --- |
 | [Dispose](../../aspose.slides/ppimage/dispose)() | オブジェクトを破棄します。 |
 | override [GetHashCode](../../aspose.slides/ppimage/gethashcode)() | 画像のハッシュコードを返します。 |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_2)(byte[]) | 画像データを置き換えます。新しい画像のデータです。newImageData パラメータが null の場合。 |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage)(IImage) | 画像データを置き換えます。注意: Image がメタファイルの場合、ラスタライズされます。代わりに ReplaceImage(byte[]) を使用してください。新しい画像です。newImage パラメータが null の場合。 |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_1)(IPPImage) | 画像データを置き換えます。新しい IPPImage です。newImage パラメータが null の場合。 |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_2)(byte[]) | 画像データを置き換えます。新しい画像のデータ。newImageData パラメーターが null の場合。 |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage)(IImage) | 画像データを置き換えます。注意: Image がメタファイルの場合、ラスター化されます。代わりに ReplaceImage(byte[]) を使用してください。新しい画像。newImage パラメーターが null の場合。 |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_1)(IPPImage) | 画像データを置き換えます。新しい IPPImage。newImage パラメーターが null の場合。 |
 
 ### 参照
 
-* インターフェース [IPPImage](../ippimage)
+* インターフェイス [IPPImage](../ippimage)
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)
 

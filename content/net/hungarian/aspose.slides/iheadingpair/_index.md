@@ -1,14 +1,14 @@
 ---
 title: IHeadingPair
-second_title: Aspose.Sildes a .NET API hivatkozás
-description: A dokumentum 'Heading pair' tulajdonságát képviseli. Jelzi a dokumentum részeinek csoportnevét és a csoportban lévő részek számát.
+second_title: Aspose.Sildes a .NET API referencia
+description: A dokumentum Heading pair tulajdonságát képviseli. Megadja a dokumentum részeinek csoportnevét és a csoportban lévő részek számát.
 type: docs
-weight: 6080
+weight: 6100
 url: /hu/aspose.slides/iheadingpair/
 ---
 ## IHeadingPair interfész
 
-Egy 'Heading pair' tulajdonságot képvisel a dokumentumban. Jelzi a dokumentum részeinek csoportnevét és a csoportban lévő részek számát.
+A dokumentum ‘Heading pair’ tulajdonságát képviseli. Jelzi a dokumentum részeinek csoportnevét és a csoportban lévő részek számát.
 
 ```csharp
 public interface IHeadingPair

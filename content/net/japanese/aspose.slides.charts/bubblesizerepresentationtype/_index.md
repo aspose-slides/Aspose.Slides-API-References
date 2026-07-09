@@ -1,14 +1,14 @@
 ---
 title: BubbleSizeRepresentationType
-second_title: Aspose.Sildes の .NET API リファレンス
-description: バブルチャートのサイズとしてデータを表す可能な方法を指定します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: データをバブルチャートのサイズとして表現する可能な方法を指定します。
 type: docs
-weight: 1210
+weight: 1230
 url: /ja/aspose.slides.charts/bubblesizerepresentationtype/
 ---
 ## BubbleSizeRepresentationType 列挙型
 
-バブル チャートのサイズとしてデータを表す可能な方法を指定します。
+バブルチャートのサイズとしてデータを表現する可能な方法を指定します。
 
 ```csharp
 public enum BubbleSizeRepresentationType
@@ -18,8 +18,8 @@ public enum BubbleSizeRepresentationType
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| Area | `0` | バブルの面積がバブルサイズ値に比例することを指定します。 |
-| Width | `1` | バブルの半径がバブルサイズ値に比例することを指定します。 |
+| Area | `0` | バブルの面積がバブルサイズの値に比例するように指定します。 |
+| Width | `1` | バブルの半径がバブルサイズの値に比例するように指定します。 |
 
 ### 参照
 

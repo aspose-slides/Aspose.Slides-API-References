@@ -1,14 +1,14 @@
 ---
 title: NormalViewRestoredProperties
 second_title: Aspose.Sildes için .NET API Referansı
-description: Normal görünümde, bölge değişken bir geri yüklenmiş boyutta (ne küçültülmüş ne de büyütülmüş) olduğunda, restoredTop çocuğu ise genişlik, restoredLeft çocuğu ise yükseklik olmak üzere slayt bölgesinin boyutlandırılmasını belirler.
+description: Normal görünümde, bölge değişken bir restored boyutunda (ne küçültülmüş ne de büyütülmüş) iken, slayt bölgesinin genişliğini (restoredTop çocuğu olduğunda) ve yüksekliğini (restoredLeft çocuğu olduğunda) belirler.
 type: docs
-weight: 9100
+weight: 9120
 url: /tr/aspose.slides/normalviewrestoredproperties/
 ---
 ## NormalViewRestoredProperties sınıfı
 
-Normal görünümdeki slayt bölgesinin boyutlandırılmasını (restoredTop çocuğu olduğunda genişlik, restoredLeft çocuğu olduğunda yükseklik) belirtir, bölge değişken bir geri yüklenmiş boyutta (ne küçültülmüş ne de büyütülmüş) olduğunda.
+Normal görünümde, bölge değişken bir restored boyutunda (küçültülmemiş ve büyütülmemiş) olduğunda, slayt bölgesinin boyutlandırmasını belirtir ((width when a child of restoredTop, height when a child of restoredLeft) of the normal view, when the region is of a variable restored size(neither minimized nor maximized).
 
 ```csharp
 public class NormalViewRestoredProperties : INormalViewRestoredProperties
@@ -18,8 +18,8 @@ public class NormalViewRestoredProperties : INormalViewRestoredProperties
 
 | Ad | Açıklama |
 | --- | --- |
-| [AutoAdjust](../../aspose.slides/normalviewrestoredproperties/autoadjust) { get; set; } | Pencere içinde görünümü içeren uygulamaya ait pencereyi yeniden boyutlandırırken yan içerik bölgesinin yeni boyuta göre telafi edilip edilmeyeceğini belirtir. Okunabilir/Yazılabilir Boolean. |
-| [DimensionSize](../../aspose.slides/normalviewrestoredproperties/dimensionsize) { get; set; } | Slayt bölgesinin boyutunu (RestoredTop çocuğu olduğunda genişlik, RestoredLeft çocuğu olduğunda yükseklik) belirtir. Okunabilir/Yazılabilir Single. |
+| [AutoAdjust](../../aspose.slides/normalviewrestoredproperties/autoadjust) { get; set; } | Uygulama içinde görünümü içeren pencereyi yeniden boyutlandırırken, yan içerik bölgesinin boyutunun yeni boyuta göre telafi edilip edilmemesi gerektiğini belirtir Okunabilir/Yazılabilir Boolean. |
+| [DimensionSize](../../aspose.slides/normalviewrestoredproperties/dimensionsize) { get; set; } | Slayt bölgesinin boyutunu belirtir (width when a child of RestoredTop, height when a child of RestoredLeft). Okunabilir/Yazılabilir Single. |
 
 ### Ayrıca Bakınız
 

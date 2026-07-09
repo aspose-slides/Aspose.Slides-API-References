@@ -1,14 +1,14 @@
 ---
 title: Captions
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar WebVTT:s stängda undertexter.
+description: Representerar de stängda WebVTT-bildtexterna.
 type: docs
-weight: 1090
+weight: 1110
 url: /sv/aspose.slides/captions/
 ---
 ## Captions klass
 
-Representerar WebVTT:s stängda undertexter.
+Representerar de stängda WebVTT-bildtexterna.
 
 ```csharp
 public class Captions : ICaptions
@@ -18,10 +18,10 @@ public class Captions : ICaptions
 
 | Namn | Beskrivning |
 | --- | --- |
-| [BinaryData](../../aspose.slides/captions/binarydata) { get; } | Returnerar den binära datan för de stängda undertexterna. Skrivskyddad Byte[]. |
-| [CaptionId](../../aspose.slides/captions/captionid) { get; } | Returnerar den globalt unika identifieraren (GUID) för de stängda undertexterna. Skrivskyddad Guid. |
-| [DataAsString](../../aspose.slides/captions/dataasstring) { get; } | Returnerar data för de stängda undertexterna som en UTF-8-kodad sträng. Skrivskyddad String. |
-| [Label](../../aspose.slides/captions/label) { get; set; } | Returnerar eller anger etiketten för de stängda undertexterna. Läs/skriv String. |
+| [BinaryData](../../aspose.slides/captions/binarydata) { get; } | Returnerar de binära data för de stängda bildtexterna. Skrivskyddad Byte[]. |
+| [CaptionId](../../aspose.slides/captions/captionid) { get; } | Returnerar den globalt unika identifieraren (GUID) för de stängda bildtexterna. Skrivskyddad Guid. |
+| [DataAsString](../../aspose.slides/captions/dataasstring) { get; } | Returnerar data för de stängda bildtexterna som UTF-8-kodad sträng. Skrivskyddad String. |
+| [Label](../../aspose.slides/captions/label) { get; set; } | Returnerar eller anger etiketten för de stängda bildtexterna. Läs/skriv String. |
 
 ### Se även
 

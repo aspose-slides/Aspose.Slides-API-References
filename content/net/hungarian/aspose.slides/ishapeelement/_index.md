@@ -1,14 +1,14 @@
 ---
 title: IShapeElement
-second_title: Aspose.Sildes .NET API referencia
-description: Egy alakzat olyan részét jelöli, amelynek ugyanazok a körvonal- és kitöltési tulajdonságai vannak.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Az alakzat egy olyan részét képviseli, amelynek a körvonal- és kitöltéstulajdonságai azonosak.
 type: docs
-weight: 6970
+weight: 6990
 url: /hu/aspose.slides/ishapeelement/
 ---
 ## IShapeElement interfész
 
-Egy alakzat egy olyan részét jelöli, amelynek ugyanazok a körvonal- és kitöltési tulajdonságai vannak.
+Egy alak azon részét képviseli, amelynek a körvonal- és kitöltéstulajdonságai azonosak.
 
 ```csharp
 public interface IShapeElement

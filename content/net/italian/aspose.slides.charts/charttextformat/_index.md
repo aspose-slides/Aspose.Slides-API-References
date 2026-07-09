@@ -1,14 +1,14 @@
 ---
 title: ChartTextFormat
-second_title: Riferimento API di Aspose.Sildes per .NET
-description: Specifica la formattazione di testo predefinita per gli elementi di testo del grafico.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Specifica la formattazione predefinita del testo per gli elementi di testo del grafico.
 type: docs
-weight: 1460
+weight: 1480
 url: /it/aspose.slides.charts/charttextformat/
 ---
 ## ChartTextFormat classe
 
-Specifica la formattazione di testo predefinita per gli elementi di testo del grafico.
+Specifica la formattazione del testo predefinita per gli elementi di testo del grafico.
 
 ```csharp
 public class ChartTextFormat : IChartTextFormat

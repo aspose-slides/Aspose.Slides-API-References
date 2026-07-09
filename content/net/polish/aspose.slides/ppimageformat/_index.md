@@ -1,14 +1,14 @@
 ---
 title: PPImageFormat
-second_title: Aspose.Sildes dla .NET - dokumentacja API
-description: Formaty obrazu. To wyliczenie jest zamiennikiem klasy System.Drawing.Imaging.ImageFormat. Jest potrzebny do zgodności z COM.
+second_title: Aspose.Sildes dla .NET – Referencja API
+description: Formaty obrazów. To wyliczenie jest zamiennikiem klasy System.Drawing.Imaging.ImageFormat. Jest wymagane dla zgodności z COM.
 type: docs
-weight: 9240
+weight: 9260
 url: /pl/aspose.slides/ppimageformat/
 ---
-## PPImageFormat enumeracja
+## PPImageFormat wyliczenie
 
-Formaty obrazu. To wyliczenie jest zamiennikiem klasy `System.Drawing.Imaging.ImageFormat`. Jest potrzebne do zgodności z COM.
+Formaty obrazów. To wyliczenie jest zamiennikiem dla klasy `System.Drawing.Imaging.ImageFormat`. Jest wymagane dla zgodności z COM.
 
 ```csharp
 public enum PPImageFormat
@@ -19,15 +19,15 @@ public enum PPImageFormat
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
 | Bmp | `0` | Zwraca format obrazu bitmapowego (BMP). |
-| Emf | `1` | Zwraca format obrazu rozszerzonego metafilu (EMF). |
-| Exif | `2` | Zwraca format wymiennego pliku obrazu (Exif). |
+| Emf | `1` | Zwraca format obrazu rozszerzonego metafila (EMF). |
+| Exif | `2` | Zwraca format pliku wymiennego obrazu (Exif). |
 | Gif | `3` | Zwraca format obrazu Graphics Interchange Format (GIF). |
 | Icon | `4` | Zwraca format obrazu ikony Windows. |
 | Jpeg | `5` | Zwraca format obrazu Joint Photographic Experts Group (JPEG). |
 | MemoryBmp | `6` | Zwraca format bitmapy w pamięci. |
 | Png | `7` | Zwraca format obrazu W3C Portable Network Graphics (PNG). |
 | Tiff | `8` | Zwraca format obrazu Tagged Image File Format (TIFF). |
-| Wmf | `9` | Zwraca format obrazu metafilu Windows (WMF). |
+| Wmf | `9` | Zwraca format obrazu Windows metafile (WMF). |
 
 ### Zobacz także
 

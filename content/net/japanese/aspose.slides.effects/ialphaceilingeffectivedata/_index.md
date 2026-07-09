@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeilingEffectiveData
-second_title: Aspose.Sildes の .NET API リファレンス
-description: Alpha Ceiling 効果を表す不変オブジェクトです。Alpha の不透明度がゼロより大きい値は 100 に変更されます。言い換えれば、部分的に不透明なものはすべて完全に不透明になります。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: アルファシーリング効果を表す不変オブジェクトです。アルファ不透明度が0より大きい値は100に変更されます。言い換えれば、部分的に不透明なものはすべて完全に不透明になります。
 type: docs
-weight: 3030
+weight: 3050
 url: /ja/aspose.slides.effects/ialphaceilingeffectivedata/
 ---
 ## IAlphaCeilingEffectiveData インターフェイス
 
-不変オブジェクトで、Alpha Ceiling 効果を表します。Alpha（不透明度）の値が 0 より大きい場合は 100% に変更されます。言い換えれば、部分的に不透明なものはすべて完全に不透明になります。
+アルファシーリング効果を表す不変オブジェクトです。アルファ（不透明度）の値が0より大きい場合、100%に変更されります。言い換えれば、部分的に不透明なものはすべて完全に不透明になります。
 
 ```csharp
 public interface IAlphaCeilingEffectiveData : IEffectEffectiveData

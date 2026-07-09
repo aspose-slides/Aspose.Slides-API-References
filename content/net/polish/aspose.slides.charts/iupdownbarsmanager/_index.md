@@ -1,14 +1,14 @@
 ---
 title: IUpDownBarsManager
-second_title: Aspose.Sildes dla .NET API
-description: Zapewnia dostęp do pasków górnych/dolnych wykresu liniowego lub giełdowego.
+second_title: Aspose.Sildes dla .NET - Dokumentacja API
+description: Udostępnia dostęp do pasków górnych i dolnych wykresu liniowego lub giełdowego.
 type: docs
-weight: 2240
+weight: 2260
 url: /pl/aspose.slides.charts/iupdownbarsmanager/
 ---
 ## IUpDownBarsManager interfejs
 
-Zapewnia dostęp do pasków górnych/dolnych wykresu liniowego lub giełdowego.
+Zapewnia dostęp do pasków górnych i dolnych wykresu liniowego lub giełdowego.
 
 ```csharp
 public interface IUpDownBarsManager
@@ -18,10 +18,10 @@ public interface IUpDownBarsManager
 
 | Nazwa | Opis |
 | --- | --- |
-| [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | Zwraca format dolnych pasków. Tylko do odczytu [`IFormat`](../iformat). |
+| [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | Zwraca format pasków dolnych. Tylko do odczytu [`IFormat`](../iformat). |
 | [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | Zwraca lub ustawia szerokość przerwy. Odczyt/zapis Int32. |
-| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | Określa, czy wykres posiada paski górne/dolne. Odczyt/zapis Boolean. |
-| [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | Zwraca format górnych pasków. Tylko do odczytu [`IFormat`](../iformat). |
+| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | Określa, czy wykres ma paski górne i dolne. Odczyt/zapis Boolean. |
+| [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | Zwraca format pasków górnych. Tylko do odczytu [`IFormat`](../iformat). |
 
 ### Zobacz także
 

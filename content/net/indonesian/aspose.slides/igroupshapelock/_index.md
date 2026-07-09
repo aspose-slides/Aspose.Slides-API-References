@@ -1,9 +1,9 @@
 ---
 title: IGroupShapeLock
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Menentukan operasi mana yang dinonaktifkan pada GroupShape induk.
 type: docs
-weight: 6070
+weight: 6090
 url: /id/aspose.slides/igroupshapelock/
 ---
 ## IGroupShapeLock antarmuka
@@ -18,14 +18,14 @@ public interface IGroupShapeLock : IBaseShapeLock
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIBaseShapeLock](../../aspose.slides/igroupshapelock/asibaseshapelock) { get; } | Memungkinkan mendapatkan antarmuka dasar IBaseShapeLock. Hanya baca [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/igroupshapelock/aspectratiolocked) { get; set; } | Menentukan apakah shape harus mempertahankan rasio aspek saat diubah ukuran. Baca/tulis Boolean. |
-| [GroupingLocked](../../aspose.slides/igroupshapelock/groupinglocked) { get; set; } | Menentukan apakah menambahkan shape ini ke grup dilarang. Baca/tulis Boolean. |
-| [PositionLocked](../../aspose.slides/igroupshapelock/positionlocked) { get; set; } | Menentukan apakah memindahkan shape ini dilarang. Baca/tulis Boolean. |
-| [RotationLocked](../../aspose.slides/igroupshapelock/rotationlocked) { get; set; } | Menentukan apakah mengubah sudut rotasi shape ini dilarang. Baca/tulis Boolean. |
-| [SelectLocked](../../aspose.slides/igroupshapelock/selectlocked) { get; set; } | Menentukan apakah memilih shape ini dilarang. Baca/tulis Boolean. |
-| [SizeLocked](../../aspose.slides/igroupshapelock/sizelocked) { get; set; } | Menentukan apakah mengubah ukuran shape ini dilarang. Baca/tulis Boolean. |
-| [UngroupingLocked](../../aspose.slides/igroupshapelock/ungroupinglocked) { get; set; } | Menentukan apakah memecah grup shape ini dilarang. Baca/tulis Boolean. |
+| [AsIBaseShapeLock](../../aspose.slides/igroupshapelock/asibaseshapelock) { get; } | Mengizinkan mendapatkan antarmuka dasar IBaseShapeLock. Hanya Baca [`IBaseShapeLock`](../ibaseshapelock). |
+| [AspectRatioLocked](../../aspose.slides/igroupshapelock/aspectratiolocked) { get; set; } | Menentukan apakah shape harus mempertahankan rasio aspek saat mengubah ukuran. Baca/Tulis Boolean. |
+| [GroupingLocked](../../aspose.slides/igroupshapelock/groupinglocked) { get; set; } | Menentukan apakah menambahkan shape ini ke grup dilarang. Baca/Tulis Boolean. |
+| [PositionLocked](../../aspose.slides/igroupshapelock/positionlocked) { get; set; } | Menentukan apakah memindahkan shape ini dilarang. Baca/Tulis Boolean. |
+| [RotationLocked](../../aspose.slides/igroupshapelock/rotationlocked) { get; set; } | Menentukan apakah mengubah sudut rotasi shape ini dilarang. Baca/Tulis Boolean. |
+| [SelectLocked](../../aspose.slides/igroupshapelock/selectlocked) { get; set; } | Menentukan apakah memilih shape ini dilarang. Baca/Tulis Boolean. |
+| [SizeLocked](../../aspose.slides/igroupshapelock/sizelocked) { get; set; } | Menentukan apakah mengubah ukuran shape ini dilarang. Baca/Tulis Boolean. |
+| [UngroupingLocked](../../aspose.slides/igroupshapelock/ungroupinglocked) { get; set; } | Menentukan apakah memisahkan groupshape ini dilarang. Baca/Tulis Boolean. |
 
 ### Lihat Juga
 

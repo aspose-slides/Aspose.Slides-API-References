@@ -1,9 +1,9 @@
 ---
 title: CommentCollection
-second_title: Aspose.Sildes için .NET API Referansı
-description: Tek bir yazarın yorumlarından oluşan bir koleksiyonu temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Bir yazarın yorumlarının koleksiyonunu temsil eder.
 type: docs
-weight: 2630
+weight: 2650
 url: /tr/aspose.slides/commentcollection/
 ---
 ## CommentCollection sınıfı
@@ -16,31 +16,31 @@ public sealed class CommentCollection : DomObject<CommentAuthor>, ICommentCollec
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides/commentcollection/count) { get; } | Koleksiyonda gerçekten bulunan öğe sayısını alır. Salt okunur Int32. |
+| [Count](../../aspose.slides/commentcollection/count) { get; } | Koleksiyonda gerçekten bulunan öğelerin sayısını alır. Salt okunur Int32. |
 | [IsSynchronized](../../aspose.slides/commentcollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını gösteren bir değer döndürür. Salt okunur Boolean. |
 | [Item](../../aspose.slides/commentcollection/item) { get; } | Belirtilen indeksteki öğeyi alır. Salt okunur [`Comment`](../comment). |
 | [SyncRoot](../../aspose.slides/commentcollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt okunur Object. |
 
 ## Yöntemler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
 | [AddComment](../../aspose.slides/commentcollection/addcomment)(string, ISlide, PointF, DateTime) | Koleksiyonun sonuna yeni bir yorum ekler. |
-| [AddModernComment](../../aspose.slides/commentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | Koleksiyonun sonuna yeni modern bir yorum ekler. |
+| [AddModernComment](../../aspose.slides/commentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | Koleksiyonun sonuna yeni bir modern yorum ekler. |
 | [Clear](../../aspose.slides/commentcollection/clear)() | Koleksiyondaki tüm yorumları kaldırır. |
 | [CopyTo](../../aspose.slides/commentcollection/copyto)(Array, int) | Koleksiyondaki tüm öğeleri belirtilen diziye kopyalar. |
-| [FindCommentByIdx](../../aspose.slides/commentcollection/findcommentbyidx)(int) | Koleksiyonda indekse göre bir yorumu bulur. |
-| [GetEnumerator](../../aspose.slides/commentcollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
-| [InsertComment](../../aspose.slides/commentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | Belirtilen indekse yeni bir yorum ekler. |
-| [InsertModernComment](../../aspose.slides/commentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | Belirtilen indekse yeni modern bir yorum ekler. |
-| [Remove](../../aspose.slides/commentcollection/remove)(IComment) | Koleksiyondaki belirtilen yorumun ilk oluşumunu kaldırır. |
+| [FindCommentByIdx](../../aspose.slides/commentcollection/findcommentbyidx)(int) | Koleksiyonda bir yorumu indeksine göre bulur. |
+| [GetEnumerator](../../aspose.slides/commentcollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir dizinleyici döndürür. |
+| [InsertComment](../../aspose.slides/commentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | Belirtilen indekste koleksiyona yeni bir yorum ekler. |
+| [InsertModernComment](../../aspose.slides/commentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | Belirtilen indekste koleksiyona yeni bir modern yorum ekler. |
+| [Remove](../../aspose.slides/commentcollection/remove)(IComment) | Koleksiyonda belirtilen yorumun ilk oluşumunu kaldırır. |
 | [RemoveAt](../../aspose.slides/commentcollection/removeat)(int) | Koleksiyonda belirtilen indeksteki öğeyi kaldırır. |
 | [ToArray](../../aspose.slides/commentcollection/toarray#toarray)() | Tüm yorumları içeren bir dizi oluşturur ve döndürür. |
 | [ToArray](../../aspose.slides/commentcollection/toarray#toarray_1)(int, int) | Belirtilen aralıktaki tüm yorumları içeren bir dizi oluşturur ve döndürür. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * sınıf [DomObject&lt;TParent&gt;](../domobject-1)
 * sınıf [CommentAuthor](../commentauthor)

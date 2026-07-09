@@ -1,9 +1,9 @@
 ---
 title: IFormattedTextContainer
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes 用 .NET API リファレンス
 description: チャートのテキスト形式を表します。
 type: docs
-weight: 2090
+weight: 2110
 url: /ja/aspose.slides.charts/iformattedtextcontainer/
 ---
 ## IFormattedTextContainer インターフェイス

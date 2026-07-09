@@ -1,14 +1,14 @@
 ---
 title: BulletType
 second_title: Referência da API Aspose.Sildes para .NET
-description: Representa o tipo de marcadores estendidos.
+description: Representa o tipo dos marcadores estendidos.
 type: docs
-weight: 1060
+weight: 1080
 url: /pt/aspose.slides/bullettype/
 ---
-## enumeração BulletType
+## Enumeração BulletType
 
-Representa o tipo de marcadores estendidos.
+Representa o tipo dos marcadores estendidos.
 
 ```csharp
 public enum BulletType : sbyte
@@ -20,7 +20,7 @@ public enum BulletType : sbyte
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | None | `0` |  |
-| Symbol | `1` | Marcadores de símbolos. |
+| Symbol | `1` | Marcadores de símbolo. |
 | Numbered | `2` | Marcadores numerados. |
 | Picture | `3` | Marcadores de imagem. |
 

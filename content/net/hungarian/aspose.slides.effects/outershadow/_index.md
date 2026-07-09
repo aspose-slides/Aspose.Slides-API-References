@@ -1,14 +1,14 @@
 ---
 title: OuterShadow
-second_title: Aspose.Sildes .NET API Referencia
-description: Képviseli a külső árnyék hatást.
+second_title: Aspose.Sildes .NET API referenciája
+description: Külső árnyék hatást képvisel.
 type: docs
-weight: 3600
+weight: 3620
 url: /hu/aspose.slides.effects/outershadow/
 ---
 ## OuterShadow osztály
 
-Képviseli a külső árnyék hatást.
+Represents an Outer Shadow effect.
 
 ```csharp
 public sealed class OuterShadow : IOuterShadow
@@ -18,24 +18,24 @@ public sealed class OuterShadow : IOuterShadow
 
 | Név | Leírás |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | Elmosódási sugár, pontban. Alapértelmezett érték – 0 pt. Olvasás/írás Double. |
+| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | Elmosódási sugár, pontokban. Alapértelmezett érték – 0 pt. Olvasás/írás Double. |
 | [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | Az árnyék iránya fokban. Alapértelmezett érték – 0 ° (balról jobbra). Olvasás/írás Single. |
-| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | Az árnyék távolsága az objektumtól, pontban. Alapértelmezett érték – 0 pt. Olvasás/írás Double. |
-| [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | Téglalap igazítás. Alapértelmezett érték – Bottom. Olvasás/írás [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | Jelzi, hogy az árnyék a formával együtt forog-e. Alapértelmezett érték – true. Olvasás/írás Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | Vízszintes méretezési tényező, az eredeti méret százalékában. Negatív méretezés esetén tükröződik. Alapértelmezett érték – 100 %. Olvasás/írás Double. |
-| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | Függőleges méretezési tényező, az eredeti méret százalékában. Negatív méretezés esetén tükröződik. Alapértelmezett érték – 100 %. Olvasás/írás Double. |
+| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | Az árnyék távolsága az objektumtól pontokban. Alapértelmezett érték – 0 pt. Olvasás/írás Double. |
+| [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | Téglalap igazítása. Alapértelmezett érték – Bottom. Olvasás/írás [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | Azt jelzi, hogy az árnyék együtt forog-e az alakzattal. Alapértelmezett érték – true. Olvasás/írás Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | Vízszintes méretezési tényező, az eredeti méret százalékában. Negatív méretezés tükrözést okoz. Alapértelmezett érték – 100 %. Olvasás/írás Double. |
+| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | Függőleges méretezési tényező, az eredeti méret százalékában. Negatív méretezés tükrözést okoz. Alapértelmezett érték – 100 %. Olvasás/írás Double. |
 | [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | Az árnyék színe. Alapértelmezett érték – automatikus fekete (témafüggő). Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | Vízszintes ferdeségi szög, fokban. Alapértelmezett érték – 0 °. Olvasás/írás Double. |
-| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | Függőleges ferdeségi szög, fokban. Alapértelmezett érték – 0 °. Olvasás/írás Double. |
+| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | Vízszintes ferdeségi szög fokban. Alapértelmezett érték – 0 °. Olvasás/írás Double. |
+| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | Függőleges ferdeségi szög fokban. Alapértelmezett érték – 0 °. Olvasás/írás Double. |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | Meghatározza, hogy a megadott [`OuterShadow`](../outershadow) egyenlő-e a jelenlegi [`OuterShadow`](../outershadow). |
-| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | Lekéri a hatékony Outer Shadow hatás adatát az öröklődés alkalmazásával. |
-| override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | Hash-függvényként szolgál egy adott típushoz. |
+| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | Lekéri a hatékony Outer Shadow hatás adatokat az öröklődés alkalmazásával. |
+| override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | Hash függvényként szolgál egy adott típushoz. |
 
 ### Lásd még
 

@@ -1,14 +1,14 @@
 ---
 title: IMathGroupingCharacterFactory
-second_title: Aspose.Sildes pro .NET API Reference
-description: Umožňuje vytvořit znak pro seskupování matematických výrazů
+second_title: Aspose.Sildes pro .NET – referenční dokumentace
+description: Umožňuje vytvořit matematický znak pro seskupování
 type: docs
-weight: 8280
+weight: 8300
 url: /cs/aspose.slides.mathtext/imathgroupingcharacterfactory/
 ---
 ## IMathGroupingCharacterFactory rozhraní
 
-Umožňuje vytvořit znak pro seskupování matematických výrazů
+Umožňuje vytvořit matematický znak pro seskupování
 
 ```csharp
 public interface IMathGroupingCharacterFactory
@@ -18,8 +18,8 @@ public interface IMathGroupingCharacterFactory
 
 | Název | Popis |
 | --- | --- |
-| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter)(IMathElement) | Vytvoří znak pro seskupování matematických výrazů |
-| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter_1)(IMathElement, char, MathTopBotPositions, MathTopBotPositions) | Vytvoří znak pro seskupování matematických výrazů |
+| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter)(IMathElement) | Vytvoří matematický znak pro seskupování |
+| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter_1)(IMathElement, char, MathTopBotPositions, MathTopBotPositions) | Vytvoří matematický znak pro seskupování |
 
 ### Poznámky
 

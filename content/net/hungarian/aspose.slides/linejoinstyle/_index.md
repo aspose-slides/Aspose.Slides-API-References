@@ -1,14 +1,14 @@
 ---
 title: LineJoinStyle
-second_title: Aspose.Sildes a .NET API referencia
-description: A vonalak csatlakozási stílusát képviseli.
+second_title: Aspose.Sildes .NET API Referenciája
+description: A vonalak csatlakozási stílusát jelöli.
 type: docs
-weight: 7780
+weight: 7800
 url: /hu/aspose.slides/linejoinstyle/
 ---
 ## LineJoinStyle enumeráció
 
-A vonalak csatlakozási stílusát képviseli.
+A vonalak csatlakozási stílusát jelöli.
 
 ```csharp
 public enum LineJoinStyle : sbyte

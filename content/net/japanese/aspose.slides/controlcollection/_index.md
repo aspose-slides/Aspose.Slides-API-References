@@ -3,7 +3,7 @@ title: ControlCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: ActiveX コントロールのコレクションです。
 type: docs
-weight: 2680
+weight: 2700
 url: /ja/aspose.slides/controlcollection/
 ---
 ## ControlCollection クラス
@@ -19,22 +19,22 @@ public class ControlCollection : IControlCollection
 | 名前 | 説明 |
 | --- | --- |
 | [Count](../../aspose.slides/controlcollection/count) { get; } | コレクション内のオブジェクトの数を返します。読み取り専用 Int32。 |
-| [IsSynchronized](../../aspose.slides/controlcollection/issynchronized) { get; } | コレクションへのアクセスが同期されているかどうかを示す値を返します（スレッドセーフ）。読み取り専用 Boolean。 |
-| [Item](../../aspose.slides/controlcollection/item) { get; } | 指定された位置のコントロールを返します。 |
-| [SyncRoot](../../aspose.slides/controlcollection/syncroot) { get; } | 同期ルートを返します。読み取り専用 Object。 |
+| [IsSynchronized](../../aspose.slides/controlcollection/issynchronized) { get; } | コレクションへのアクセスが同期化されているか（スレッド セーフ）を示す値を返します。読み取り専用 Boolean。 |
+| [Item](../../aspose.slides/controlcollection/item) { get; } | 指定された位置にあるコントロールを返します。 |
+| [SyncRoot](../../aspose.slides/controlcollection/syncroot) { get; } | 同期のルートオブジェクトを返します。読み取り専用 Object。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [AddControl](../../aspose.slides/controlcollection/addcontrol)(ControlType, float, float, float, float) | コレクションに新しいコントロールを作成して追加します。 |
-| [Clear](../../aspose.slides/controlcollection/clear)() | コレクションからすべてのコントロールを削除します。 |
+| [AddControl](../../aspose.slides/controlcollection/addcontrol)(ControlType, float, float, float, float) | 新しいコントロールを作成し、コレクションに追加します。 |
+| [Clear](../../aspose.slides/controlcollection/clear)() | コレクション内のすべてのコントロールを削除します。 |
 | [CopyTo](../../aspose.slides/controlcollection/copyto)(Array, int) | コレクション全体を指定された配列にコピーします。 |
 | [GetEnumerator](../../aspose.slides/controlcollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
 | [Remove](../../aspose.slides/controlcollection/remove)(IControl) | コレクションから ActiveX コントロールを削除します。 |
-| [RemoveAt](../../aspose.slides/controlcollection/removeat)(int) | 指定された位置に保存されている ActiveX コントロールをコレクションから削除します。 |
+| [RemoveAt](../../aspose.slides/controlcollection/removeat)(int) | コレクション内の指定された位置に格納されている ActiveX コントロールを削除します。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [IControlCollection](../icontrolcollection)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

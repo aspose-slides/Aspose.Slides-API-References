@@ -1,9 +1,9 @@
 ---
 title: IEffectStyleCollectionEffectiveData
-second_title: Aspose.Sildes .NET API Referencia
-description: Változtathatatlan objektum, amely egy csak olvasható hatékony effektusstílus-gyűjteményt képvisel.
+second_title: Aspose.Sildes .NET API referencia
+description: Immutable objektum, amely egy csak olvasható gyűjteményt képvisel a hatékony effektusstílusokból.
 type: docs
-weight: 11170
+weight: 11190
 url: /hu/aspose.slides.theme/ieffectstylecollectioneffectivedata/
 ---
 ## IEffectStyleCollectionEffectiveData interfész
@@ -14,15 +14,15 @@ Immutable object that represents a readonly collection of effective effect style
 public interface IEffectStyleCollectionEffectiveData : IGenericCollection<IEffectStyleEffectiveData>
 ```
 
-## Tulajdonságok
+## Properties
 
 | Név | Leírás |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ieffectstylecollectioneffectivedata/item) { get; } | Visszaadja a megadott indexű elemet. Csak olvasható [`IEffectStyleEffectiveData`](../ieffectstyleeffectivedata). |
+| [Item](../../aspose.slides.theme/ieffectstylecollectioneffectivedata/item) { get; } | Visszaadja az elemet a megadott indexen. Csak olvasható [`IEffectStyleEffectiveData`](../ieffectstyleeffectivedata). |
 
-### Megjegyzés
+### Megjegyzések
 
-Ez az interfész a [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata) részeként használható.
+Ez az interfész a(z) [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata) részeként használatos.
 
 ### Lásd még
 

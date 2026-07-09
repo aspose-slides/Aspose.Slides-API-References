@@ -1,12 +1,12 @@
 ---
 title: ScaleEffect
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Animasyon ölçek etkisini temsil eder.
 type: docs
-weight: 760
+weight: 780
 url: /tr/aspose.slides.animation/scaleeffect/
 ---
-## ScaleEffect sınıf
+## ScaleEffect sınıfı
 
 Animasyon ölçek etkisini temsil eder.
 
@@ -16,22 +16,22 @@ public class ScaleEffect : Behavior, IScaleEffect
 
 ## Yapıcılar
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
 | [ScaleEffect](scaleeffect)() | Varsayılan yapıcı. |
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Animasyon davranışlarının birikip birikmediğini temsil eder. Okuma/yazma [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Geçerli animasyon davranışının diğer çalışan animasyonlarla birleştirilip birleştirilmediğini temsil eder. Okuma/yazma [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [By](../../aspose.slides.animation/scaleeffect/by) { get; set; } | Animasyon için göreceli ofset değerini (yüzde olarak) tanımlar. Okuma/yazma PointF. |
-| [From](../../aspose.slides.animation/scaleeffect/from) { get; set; } | Animasyonun başlayacağı x/y koordinatını (yüzde olarak) belirtir. Okuma/yazma PointF. |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Davranışın özelliklerini temsil eder. Salt-okunur [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Etki davranışı için zamanlama özelliklerini temsil eder. Okuma/yazma [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/scaleeffect/to) { get; set; } | Bir animasyon ölçek etkisi için hedef konumu (yüzde olarak) belirtir. Okuma/yazma PointF. |
-| [ZoomContent](../../aspose.slides.animation/scaleeffect/zoomcontent) { get; set; } | İçeriğin yaklaştırılıp yaklaştırılmayacağını belirler. Okuma/yazma [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Animasyon davranışlarının birikip birikmediğini temsil eder. Okunur/yazılabilir [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Mevcut animasyon davranışının diğer çalışan animasyonlarla birleştirilip birleştirilmeyeceğini temsil eder. Okunur/yazılabilir [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [By](../../aspose.slides.animation/scaleeffect/by) { get; set; } | Animasyon için göreceli offset değerini (yüzde olarak) tanımlar. Okunur/yazılabilir PointF. |
+| [From](../../aspose.slides.animation/scaleeffect/from) { get; set; } | Animasyonu başlatmak için bir x/y koordinatı (yüzde olarak) belirtir. Okunur/yazılabilir PointF. |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Davranışın özelliklerini temsil eder. Salt okunur [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Efekt davranışı için zamanlama özelliklerini temsil eder. Okunur/yazılabilir [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/scaleeffect/to) { get; set; } | Animasyon ölçek etkisi için hedef konumu (yüzde olarak) belirtir. Okunur/yazılabilir PointF. |
+| [ZoomContent](../../aspose.slides.animation/scaleeffect/zoomcontent) { get; set; } | İçeriğin yakınlaştırılıp yakınlaştırılmayacağını belirler. Okunur/yazılabilir [`NullableBool`](../../aspose.slides/nullablebool). |
 
 ### Ayrıca Bakınız
 

@@ -1,14 +1,14 @@
 ---
 title: TextAnimation
-second_title: Aspose.Sildes a .NET API hivatkozás
-description: A szöveganimációt ábrázolja.
+second_title: Aspose.Sildes .NET API referencia
+description: Szöveg animációt reprezentál.
 type: docs
-weight: 800
+weight: 820
 url: /hu/aspose.slides.animation/textanimation/
 ---
 ## TextAnimation osztály
 
-A szöveganimációt ábrázolja.
+A szöveg animációját reprezentálja.
 
 ```csharp
 public class TextAnimation : ITextAnimation
@@ -16,24 +16,24 @@ public class TextAnimation : ITextAnimation
 
 ## Konstruktorok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
 | [TextAnimation](textanimation)() | Az alapértelmezett konstruktor. |
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [BuildType](../../aspose.slides.animation/textanimation/buildtype) { get; set; } | A szöveganimáció építési típusának listája (pl. Paragraph 1,2,3, All at Once). Olvasás/írás [`BuildType`](../buildtype). |
-| [EffectAnimateBackgroundShape](../../aspose.slides.animation/textanimation/effectanimatebackgroundshape) { get; set; } | Kapcsolt alakhatás csoporttal vagy anélkül (null). Olvasás/írás [`IEffect`](../ieffect). |
+| [BuildType](../../aspose.slides.animation/textanimation/buildtype) { get; set; } | A szöveg animáció építési típusának listája (pl. Paragraph 1,2,3, All at Once). Olvasás/írás [`BuildType`](../buildtype). |
+| [EffectAnimateBackgroundShape](../../aspose.slides.animation/textanimation/effectanimatebackgroundshape) { get; set; } | Kapcsolt alakzateffektus csoporttal vagy anélkül (null). Olvasás/írás [`IEffect`](../ieffect). |
 
 ## Metódusok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [AddEffect](../../aspose.slides.animation/textanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | Új effektust ad hozzá az aktuális sorozat végéhez a csoportos szöveganimációk végéhez. Csak akkor érvényes, ha a szövegparagrafusok száma egyenlő vagy nagyobb, mint a csoport effektusainak száma! |
+| [AddEffect](../../aspose.slides.animation/textanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | Új effektus hozzáadása az aktuális sorozat végéhez a csoport szöveg animációinak végéhez. Csak akkor érvényes, ha a szöveges bekezdések száma egyenlő vagy nagyobb a csoport effektusainak számával! |
 
-### Kapcsolódó elemek
+### Lásd még
 
 * interfész [ITextAnimation](../itextanimation)
 * névtér [Aspose.Slides.Animation](../../aspose.slides.animation)

@@ -3,7 +3,7 @@ title: IImageTransformOperationCollection
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa uma coleção de efeitos aplicados a uma imagem.
 type: docs
-weight: 3380
+weight: 3400
 url: /pt/aspose.slides.effects/iimagetransformoperationcollection/
 ---
 ## IImageTransformOperationCollection interface
@@ -32,7 +32,7 @@ public interface IImageTransformOperationCollection : ICollection<IImageTransfor
 | [AddAlphaModulateEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulateeffect)() | Adiciona o novo efeito Alpha Modulate ao final de uma coleção. |
 | [AddAlphaModulateFixedEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulatefixedeffect)(float) | Adiciona o novo efeito Alpha Modulate Fixed ao final de uma coleção. |
 | [AddAlphaReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphareplaceeffect)(float) | Adiciona o novo efeito Alpha Replace ao final de uma coleção. |
-| [AddBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbileveleffect)(float) | Adiciona o novo efeito Bi-Level (preto/branco) ao final de uma coleção. |
+| [AddBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbileveleffect)(float) | Adiciona o novo efeito Bi-Level (black/white) ao final de uma coleção. |
 | [AddBlurEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addblureffect)(double, bool) | Adiciona o novo efeito Blur ao final de uma coleção. |
 | [AddBrightnessContrastEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbrightnesscontrasteffect)(float, float) | Adiciona o novo efeito BrightnessContrast ao final de uma coleção. |
 | [AddColorChangeEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorchangeeffect)() | Adiciona o novo efeito Color Change ao final de uma coleção. |

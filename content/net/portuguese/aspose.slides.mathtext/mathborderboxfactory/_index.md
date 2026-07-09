@@ -3,7 +3,7 @@ title: MathBorderBoxFactory
 second_title: Referência da API Aspose.Sildes para .NET
 description: Permite criar uma caixa de borda matemática
 type: docs
-weight: 8600
+weight: 8620
 url: /pt/aspose.slides.mathtext/mathborderboxfactory/
 ---
 ## MathBorderBoxFactory classe
@@ -31,7 +31,7 @@ public class MathBorderBoxFactory : IMathBorderBoxFactory
 
 Para compatibilidade COM
 
-### Veja Também
+### Ver Também
 
 * interface [IMathBorderBoxFactory](../imathborderboxfactory)
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

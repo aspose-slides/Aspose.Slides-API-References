@@ -1,14 +1,14 @@
 ---
 title: LayoutSlideThemeManager
 second_title: Aspose.Sildes for .NET API Referansı
-description: Düzen slayt teması üzerine yazma erişimi sağlar.
+description: Düzen slayt teması geçersiz kılınmasına erişim sağlar.
 type: docs
-weight: 11390
+weight: 11410
 url: /tr/aspose.slides.theme/layoutslidethememanager/
 ---
-## LayoutSlideThemeManager sınıfı
+## LayoutSlideThemeManager sınıf
 
-Düzen slayt teması üzerine yazma erişimi sağlar.
+Provides access to layout slide theme overriden.
 
 ```csharp
 public class LayoutSlideThemeManager : BaseOverrideThemeManager
@@ -16,16 +16,16 @@ public class LayoutSlideThemeManager : BaseOverrideThemeManager
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | OverrideTheme'in kalıtılmış etkin temayı geçersiz kılıp kilmeyeceğini belirler. OverrideTheme'i geçersiz kılma için OverrideTheme.Init*() yöntemlerini kullanın. OverrideTheme'in geçersiz kılmasını devre dışı bırakmak için OverrideTheme.Clear() yöntemini kullanın. Yalnızca okunur Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Geçersiz kılma tema nesnesini döndürür. Okunur/yazılabilir [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | OverrideTheme'in kalıtılan geçerli temayı geçersiz kılıp kılılamadığını belirler. OverrideTheme'i geçersiz kılmak için OverrideTheme.Init*() yöntemlerini kullanın. OverrideTheme'i geçersiz kılmaktan kaldırmak için OverrideTheme.Clear() yöntemini kullanın. Salt okunur Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Geçersiz kılan tema nesnesini döndürür. Okunur/yazılabilir [`IOverrideTheme`](../ioverridetheme). |
 
-## Yöntemler
+## Metotlar
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Bir slayta ek renk şemasını uygular. |
+| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Bir slayta ekstra renk şeması uygular. |
 | [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Tema nesnesini döndürür. |
 
 ### Ayrıca Bakınız

@@ -1,12 +1,12 @@
 ---
 title: EffectFillType
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET – reference API
 description: Reprezentuje typy výplní.
 type: docs
-weight: 290
+weight: 310
 url: /cs/aspose.slides.animation/effectfilltype/
 ---
-## Výčet EffectFillType
+## enumerace EffectFillType
 
 Reprezentuje typy výplní.
 

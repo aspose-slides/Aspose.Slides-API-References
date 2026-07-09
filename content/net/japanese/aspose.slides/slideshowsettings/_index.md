@@ -1,9 +1,9 @@
 ---
 title: SlideShowSettings
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: プレゼンテーションのスライドショー設定を表します。
 type: docs
-weight: 10460
+weight: 10480
 url: /ja/aspose.slides/slideshowsettings/
 ---
 ## SlideShowSettings クラス
@@ -19,15 +19,15 @@ public class SlideShowSettings
 | 名前 | 説明 |
 | --- | --- |
 | [Loop](../../aspose.slides/slideshowsettings/loop) { get; set; } | スライドショーをループ |
-| [PenColor](../../aspose.slides/slideshowsettings/pencolor) { get; } | スライドショー用のペンの色 |
+| [PenColor](../../aspose.slides/slideshowsettings/pencolor) { get; } | スライドショーのペンカラー |
 | [ShowAnimation](../../aspose.slides/slideshowsettings/showanimation) { get; set; } | スライドショーでアニメーションを表示 |
 | [ShowMediaControls](../../aspose.slides/slideshowsettings/showmediacontrols) { get; set; } | メディアコントロールを表示 |
 | [ShowNarration](../../aspose.slides/slideshowsettings/shownarration) { get; set; } | スライドショーでナレーションを表示 |
 | [Slides](../../aspose.slides/slideshowsettings/slides) { get; set; } | スライド範囲 |
-| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | スライドショーのタイプを取得または設定します。次の [`SlideShowType`](./slideshowtype) の祖先で表されます: [`BrowsedAtKiosk`](../browsedatkiosk), [`PresentedBySpeaker`](../presentedbyspeaker) および [`BrowsedByIndividual`](../browsedbyindividual) |
+| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | スライドショーのタイプを取得または設定します。次の [`SlideShowType`](./slideshowtype) の先祖で表されます: [`BrowsedAtKiosk`](../browsedatkiosk), [`PresentedBySpeaker`](../presentedbyspeaker) および [`BrowsedByIndividual`](../browsedbyindividual) |
 | [UseTimings](../../aspose.slides/slideshowsettings/usetimings) { get; set; } | スライドショーでタイミングを使用 |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

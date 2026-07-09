@@ -1,14 +1,14 @@
 ---
 title: GlitterTransition
 second_title: Aspose.Sildes için .NET API Referansı
-description: Parıltı slayt geçiş efekti.
+description: Glitter slayt geçiş efekti.
 type: docs
-weight: 10030
+weight: 10050
 url: /tr/aspose.slides.slideshow/glittertransition/
 ---
-## GlitterTransition sınıf
+## GlitterTransition sınıfı
 
-Parıltı slayt geçiş efekti.
+Glitter slayt geçiş efekti.
 
 ```csharp
 public class GlitterTransition : TransitionValueBase, IGlitterTransition
@@ -18,17 +18,17 @@ public class GlitterTransition : TransitionValueBase, IGlitterTransition
 
 | Ad | Açıklama |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/glittertransition/direction) { get; set; } | Geçişin yönü. Okunur/yazılabilir [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/glittertransition/pattern) { get; set; } | Geçiş sırasında kullanılan görsellerin şeklini belirtir. Okunur/yazılabilir [`TransitionPattern`](../transitionpattern). |
+| [Direction](../../aspose.slides.slideshow/glittertransition/direction) { get; set; } | Geçiş yönü. Okunabilir/Yazılabilir [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
+| [Pattern](../../aspose.slides.slideshow/glittertransition/pattern) { get; set; } | Geçiş sırasında kullanılan görsellerin şeklini belirtir. Okunabilir/Yazılabilir [`TransitionPattern`](../transitionpattern). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | İki TransitionValueBase örneğinin eşit olup olmadığını belirler. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Belirli bir tip için bir karma fonksiyonu sağlar; karma algoritmaları ve karma tablosu gibi veri yapılarında kullanılmaya uygundur. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Belirli bir tip için bir karma işlevi olarak hizmet eder ve karma algoritmaları ve karma tablosu gibi veri yapılarında kullanılmaya uygundur. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * sınıf [TransitionValueBase](../transitionvaluebase)
 * arayüz [IGlitterTransition](../iglittertransition)

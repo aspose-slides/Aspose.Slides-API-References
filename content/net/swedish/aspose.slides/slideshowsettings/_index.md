@@ -3,7 +3,7 @@ title: SlideShowSettings
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar bildspelsinställningarna för presentationen.
 type: docs
-weight: 10460
+weight: 10480
 url: /sv/aspose.slides/slideshowsettings/
 ---
 ## SlideShowSettings klass
@@ -18,16 +18,16 @@ public class SlideShowSettings
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Loop](../../aspose.slides/slideshowsettings/loop) { get; set; } | Loopa bildspel |
-| [PenColor](../../aspose.slides/slideshowsettings/pencolor) { get; } | Penfärg för bildspel |
+| [Loop](../../aspose.slides/slideshowsettings/loop) { get; set; } | Upprepa bildspel |
+| [PenColor](../../aspose.slides/slideshowsettings/pencolor) { get; } | Penna färg för bildspel |
 | [ShowAnimation](../../aspose.slides/slideshowsettings/showanimation) { get; set; } | Visa animation i bildspel |
-| [ShowMediaControls](../../aspose.slides/slideshowsettings/showmediacontrols) { get; set; } | Visa mediakontroller |
-| [ShowNarration](../../aspose.slides/slideshowsettings/shownarration) { get; set; } | Visa uppläsning i bildspel |
-| [Slides](../../aspose.slides/slideshowsettings/slides) { get; set; } | Bildintervall |
+| [ShowMediaControls](../../aspose.slides/slideshowsettings/showmediacontrols) { get; set; } | Visa mediekontroller |
+| [ShowNarration](../../aspose.slides/slideshowsettings/shownarration) { get; set; } | Visa berättarröst i bildspel |
+| [Slides](../../aspose.slides/slideshowsettings/slides) { get; set; } | Bildspelsintervall |
 | [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | Hämtar eller anger bildspels-typen. Representeras av följande [`SlideShowType`](./slideshowtype) förfäder: [`BrowsedAtKiosk`](../browsedatkiosk), [`PresentedBySpeaker`](../presentedbyspeaker) och [`BrowsedByIndividual`](../browsedbyindividual) |
 | [UseTimings](../../aspose.slides/slideshowsettings/usetimings) { get; set; } | Använd tidsinställningar i bildspel |
 
-### Se också
+### Se även
 
 * namnutrymme [Aspose.Slides](../../aspose.slides)
 * samling [Aspose.Slides](../../)

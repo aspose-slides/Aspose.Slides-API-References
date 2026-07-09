@@ -1,14 +1,14 @@
 ---
 title: LegendDataLabelPosition
-second_title: Odwołanie do API Aspose.Sildes dla .NET
-description: Określa położenie etykiet danych.
+second_title: Aspose.Sildes dla .NET – referencja API
+description: Określa pozycję etykiet danych.
 type: docs
-weight: 2270
+weight: 2290
 url: /pl/aspose.slides.charts/legenddatalabelposition/
 ---
-## LegendDataLabelPosition enumeration
+## LegendDataLabelPosition enumeracja
 
-Określa położenie etykiet danych.
+Determines position of data labels.
 
 ```csharp
 public enum LegendDataLabelPosition
@@ -19,15 +19,15 @@ public enum LegendDataLabelPosition
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
 | NotDefined | `-1` | Pozycja nie jest określona. |
-| Bottom | `0` | Określa, że etykiety danych będą wyświetlane poniżej znacznika danych. |
-| BestFit | `1` | Określa, że etykiety danych będą wyświetlane w najlepszej pozycji. |
-| Center | `2` | Określa, że etykiety danych będą wyświetlane wyśrodkowane na znaczniku danych. |
-| InsideBase | `3` | Określa, że etykiety danych będą wyświetlane wewnątrz podstawy znacznika danych. |
-| InsideEnd | `4` | Określa, że etykiety danych będą wyświetlane wewnątrz końca znacznika danych. |
-| Left | `5` | Określa, że etykiety danych będą wyświetlane po lewej stronie znacznika danych. |
-| OutsideEnd | `6` | Określa, że etykiety danych będą wyświetlane na zewnątrz końca znacznika danych. |
-| Right | `7` | Określa, że etykiety danych będą wyświetlane po prawej stronie znacznika danych. |
-| Top | `8` | Określa, że etykiety danych będą wyświetlane nad znacznikiem danych. |
+| Bottom | `0` | Określa, że etykiety danych powinny być wyświetlane pod znacznikiem danych. |
+| BestFit | `1` | Określa, że etykiety danych powinny być wyświetlane w najlepszej pozycji. |
+| Center | `2` | Określa, że etykiety danych powinny być wyświetlane wyśrodkowane na znaczniku danych. |
+| InsideBase | `3` | Określa, że etykiety danych powinny być wyświetlane wewnątrz podstawy znacznika danych. |
+| InsideEnd | `4` | Określa, że etykiety danych powinny być wyświetlane wewnątrz końca znacznika danych. |
+| Left | `5` | Określa, że etykiety danych powinny być wyświetlane po lewej stronie znacznika danych. |
+| OutsideEnd | `6` | Określa, że etykiety danych powinny być wyświetlane na zewnątrz końca znacznika danych. |
+| Right | `7` | Określa, że etykiety danych powinny być wyświetlane po prawej stronie znacznika danych. |
+| Top | `8` | Określa, że etykiety danych powinny być wyświetlane powyżej znacznika danych. |
 
 ### Zobacz także
 

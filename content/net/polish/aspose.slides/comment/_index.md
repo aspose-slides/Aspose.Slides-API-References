@@ -1,9 +1,9 @@
 ---
 title: Comment
-second_title: Aspose.Sildes dla .NET Referencja API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje komentarz na slajdzie.
 type: docs
-weight: 2600
+weight: 2620
 url: /pl/aspose.slides/comment/
 ---
 ## Klasa Comment
@@ -16,20 +16,20 @@ public class Comment : IComment
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [Author](../../aspose.slides/comment/author) { get; } | Zwraca autora komentarza. Tylko do odczytu [`ICommentAuthor`](../icommentauthor). |
 | [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Zwraca lub ustawia czas utworzenia komentarza. Ustawienie tej właściwości na MinValue oznacza, że nie ustawiono czasu komentarza. Odczyt/zapis DateTime. |
-| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Zwraca lub ustawia nadrzędny komentarz. Odczyt/zapis [`IComment`](../icomment). |
+| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Zwraca lub ustawia komentarz nadrzędny. Odczyt/zapis [`IComment`](../icomment). |
 | [Position](../../aspose.slides/comment/position) { get; set; } | Zwraca lub ustawia pozycję komentarza na slajdzie. Odczyt/zapis PointF. |
-| [Slide](../../aspose.slides/comment/slide) { get; } | Zwraca lub ustawia slajd nadrzędny komentarza. Tylko do odczytu [`ISlide`](../islide). |
+| [Slide](../../aspose.slides/comment/slide) { get; } | Zwraca slajd nadrzędny komentarza. Tylko do odczytu [`ISlide`](../islide). |
 | [Text](../../aspose.slides/comment/text) { get; set; } | Zwraca lub ustawia zwykły tekst komentarza na slajdzie. Odczyt/zapis String. |
 
 ## Metody
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
-| [Remove](../../aspose.slides/comment/remove)() | Usuwa komentarz i wszystkie jego odpowiedzi z kolekcji nadrzędnej. |
+| [Remove](../../aspose.slides/comment/remove)() | Usuwa komentarz wraz ze wszystkimi jego odpowiedziami z kolekcji nadrzędnej. |
 
 ### Przykłady
 
@@ -64,11 +64,11 @@ Ten przykład pokazuje, jak uzyskać dostęp do istniejącego komentarza na slaj
 // Tworzy instancję klasy Presentation
 using (Presentation presentation = new Presentation("Comments1.pptx"))
 {
-	// Iteruj po autorach komentarzy
+	// Iteruj CommentAuthors
     foreach (var commentAuthor in presentation.CommentAuthors)
     {
         var author = (CommentAuthor) commentAuthor;
-		// Iteruj po komentarzach
+		// Iteruj Comments
         foreach (var comment1 in author.Comments)
         {
             var comment = (Comment) comment1;
@@ -78,7 +78,7 @@ using (Presentation presentation = new Presentation("Comments1.pptx"))
 }
 ```
 
-Ten przykład pokazuje, jak dodać komentarze i uzyskać odpowiedzi na nie.
+Ten przykład pokazuje, jak dodać komentarze i pobrać odpowiedzi na nie.
 
 ```csharp
 [C#]

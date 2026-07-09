@@ -3,7 +3,7 @@ title: ICustomData
 second_title: Aspose.Sildes for .NET API リファレンス
 description: カスタム データのコンテナを表します。
 type: docs
-weight: 5640
+weight: 5660
 url: /ja/aspose.slides/icustomdata/
 ---
 ## ICustomData インターフェイス
@@ -18,8 +18,8 @@ public interface ICustomData
 
 | 名前 | 説明 |
 | --- | --- |
-| [CustomXmlParts](../../aspose.slides/icustomdata/customxmlparts) { get; } | カスタム XML パーツ コレクションを返します。 読み取り専用 [`ICustomXmlPartCollection`](../icustomxmlpartcollection)。 |
-| [Tags](../../aspose.slides/icustomdata/tags) { get; } | カスタマー データ タグ コレクションを返します。 読み取り専用 [`ITagCollection`](../itagcollection)。 |
+| [CustomXmlParts](../../aspose.slides/icustomdata/customxmlparts) { get; } | カスタム XML パーツ コレクションを返します。読み取り専用 [`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
+| [Tags](../../aspose.slides/icustomdata/tags) { get; } | Customer Data Tags コレクションを返します。読み取り専用 [`ITagCollection`](../itagcollection). |
 
 ### 参照
 

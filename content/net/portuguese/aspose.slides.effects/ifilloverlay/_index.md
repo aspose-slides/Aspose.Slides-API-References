@@ -1,14 +1,14 @@
 ---
 title: IFillOverlay
-second_title: Aspose.Sildes para .NET API Reference
-description: Representa um efeito de Fill Overlay. Um Fill Overlay pode ser usado para especificar um preenchimento adicional para um objeto e mesclar os dois preenchimentos juntos.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Representa um efeito de preenchimento sobreposto. Um preenchimento sobreposto pode ser usado para especificar um preenchimento adicional para um objeto e mesclar os dois preenchimentos juntos.
 type: docs
-weight: 3280
+weight: 3300
 url: /pt/aspose.slides.effects/ifilloverlay/
 ---
 ## IFillOverlay interface
 
-Representa um efeito de Fill Overlay. Uma Fill Overlay pode ser usada para especificar um preenchimento adicional para um objeto e mesclar os dois preenchimentos juntos.
+Representa um efeito de preenchimento sobreposto. Um preenchimento sobreposto pode ser usado para especificar um preenchimento adicional para um objeto e mesclar os dois preenchimentos juntos.
 
 ```csharp
 public interface IFillOverlay : IAccessiblePVIObject<IFillOverlayEffectiveData>, 
@@ -24,7 +24,7 @@ public interface IFillOverlay : IAccessiblePVIObject<IFillOverlayEffectiveData>,
 | [Blend](../../aspose.slides.effects/ifilloverlay/blend) { get; set; } | FillBlendMode. Leitura/gravação [`FillBlendMode`](../../aspose.slides/fillblendmode). |
 | [FillFormat](../../aspose.slides.effects/ifilloverlay/fillformat) { get; } | Formato de preenchimento. Somente leitura [`IFillFormat`](../../aspose.slides/ifillformat). |
 
-### Veja Também
+### Ver também
 
 * interface [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * interface [IFillOverlayEffectiveData](../ifilloverlayeffectivedata)

@@ -1,14 +1,14 @@
 ---
 title: IRippleTransition
-second_title: Aspose.Sildes pro .NET API Reference
-description: Efekt vlnitého přechodu snímku.
+second_title: Aspose.Sildes pro .NET - referenční příručka API
+description: Efekt přechodu snímku vlnou.
 type: docs
-weight: 10150
+weight: 10170
 url: /cs/aspose.slides.slideshow/irippletransition/
 ---
 ## IRippleTransition rozhraní
 
-Efekt vlnitého přechodu snímku.
+Efekt přechodu snímku vlnou.
 
 ```csharp
 public interface IRippleTransition : ITransitionValueBase
@@ -18,7 +18,7 @@ public interface IRippleTransition : ITransitionValueBase
 
 | Název | Popis |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/irippletransition/asitransitionvaluebase) { get; } | Umožňuje získat základní rozhraní ITransitionValueBase. Pouze ke čtení [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/irippletransition/asitransitionvaluebase) { get; } | Umožňuje získat základní rozhraní ITransitionValueBase. Pouze pro čtení [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/irippletransition/direction) { get; set; } | Směr přechodu. Čtení/zápis [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
 
 ### Viz také

@@ -1,9 +1,9 @@
 ---
 title: ImageCollection
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta una collezione di PPImage.
 type: docs
-weight: 7400
+weight: 7420
 url: /it/aspose.slides/imagecollection/
 ---
 ## ImageCollection classe
@@ -16,24 +16,24 @@ public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/imagecollection/count) { get; } | Restituisce il numero di immagini nella collezione. Solo lettura Int32. |
-| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla collezione è sincronizzato (thread-safe). Solo lettura Boolean. |
-| [Item](../../aspose.slides/imagecollection/item) { get; } | Ottiene l'elemento all'indice specificato. Solo lettura [`IPPImage`](../ippimage). |
-| [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Solo lettura Object. |
+| [Count](../../aspose.slides/imagecollection/count) { get; } | Restituisce un numero di immagini nella collezione. Sola lettura Int32. |
+| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla collezione è sincronizzato (thread-safe). Sola lettura Boolean. |
+| [Item](../../aspose.slides/imagecollection/item) { get; } | Ottiene l'elemento all'indice specificato. Sola lettura [`IPPImage`](../ippimage). |
+| [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Sola lettura Object. |
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_3)(byte[]) | Aggiunge un'immagine a una presentazione da un buffer specificato. |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage)(IImage) | Aggiunge un'immagine a una presentazione. |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_1)(IPPImage) | Aggiunge una copia di un'immagine da un'altra presentazione. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_2)(ISvgImage) | Aggiunge un'immagine a una presentazione da un oggetto Svg. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_4)(MemoryStream) | Aggiunge un'immagine a una presentazione da uno stream. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_5)(Stream) | Aggiunge un'immagine a una presentazione da uno stream. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | Crea e aggiunge un'immagine a una presentazione da uno stream. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_2)(ISvgImage) | Aggiunge un'immagine a una presentazione da oggetto Svg. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_4)(MemoryStream) | Aggiunge un'immagine a una presentazione da stream. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_5)(Stream) | Aggiunge un'immagine a una presentazione da stream. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | Crea e aggiunge un'immagine a una presentazione da stream. |
 | [CopyTo](../../aspose.slides/imagecollection/copyto)(Array, int) | Copia tutti gli elementi della collezione nell'array specificato. |
 | [GetEnumerator](../../aspose.slides/imagecollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la collezione. |
 

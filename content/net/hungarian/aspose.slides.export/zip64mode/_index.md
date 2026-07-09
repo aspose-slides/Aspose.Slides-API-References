@@ -1,14 +1,14 @@
 ---
 title: Zip64Mode
-second_title: Aspose.Sildes .NET API hivatkozás
+second_title: Aspose.Sildes .NET API referencia
 description: Megadja, hogy mikor kell használni a ZIP64 formátum kiterjesztéseket az OpenXML fájlhoz.
 type: docs
-weight: 4720
+weight: 4740
 url: /hu/aspose.slides.export/zip64mode/
 ---
-## Zip64Mode enumeráció
+## Zip64Mode felsorolás
 
-Specifies when to use ZIP64 format extensions for OpenXML file.
+Megadja, hogy mikor kell használni a ZIP64 formátum kiterjesztéseket az OpenXML fájlhoz.
 
 ```csharp
 public enum Zip64Mode
@@ -18,13 +18,13 @@ public enum Zip64Mode
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Never | `0` | Ne használja a ZIP64 formátum kiterjesztéseket. |
+| Never | `0` | Ne használjon ZIP64 formátum kiterjesztéseket. |
 | IfNecessary | `1` | Használja a ZIP64 formátum kiterjesztéseket, ha szükséges. |
 | Always | `2` | Mindig használja a ZIP64 formátum kiterjesztéseket. |
 
-### Megjegyzések
+### Megjegyzés
 
-Az OpenXML fájl egy ZIP-archívum, amelynek 4 GB (2^32 bájt) korlátja van a fájl tömörítetlen méretére, a fájl tömörített méretére és az archívum teljes méretére, valamint 65 535 (2^16-1) fájlra vonatkozó korlátja van az archívumban. A ZIP64 formátum kiterjesztések növelik a korlátokat 2^64-re.
+Az OpenXML fájl egy ZIP-archívum, amelynek 4 GB (2^32 bájt) limitje van a fájl kitömörített méretére, a fájl tömörített méretére és az archívum teljes méretére, valamint 65 535 (2^16-1) fájlra korlátozva van az archívumban. A ZIP64 formátum kiterjesztések a korlátokat 2^64-re növelik.
 
 ### Lásd még
 

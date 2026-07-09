@@ -1,9 +1,9 @@
 ---
 title: PropertyEffect
-second_title: Aspose.Sildes .NET API referenciája
+second_title: Aspose.Sildes .NET API-referencia
 description: A tulajdonsághatás viselkedését reprezentálja.
 type: docs
-weight: 730
+weight: 750
 url: /hu/aspose.slides.animation/propertyeffect/
 ---
 ## PropertyEffect osztály
@@ -24,14 +24,14 @@ public class PropertyEffect : Behavior, IPropertyEffect
 
 | Név | Leírás |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Azt jelzi, hogy az animációs viselkedések összegyűlnek-e. Olvasás/írás [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Azt jelzi, hogy a jelenlegi animációs viselkedés össze van-e kombinálva más futó animációkkal. Olvasás/írás [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [By](../../aspose.slides.animation/propertyeffect/by) { get; set; } | Megad egy relatív eltolási értéket az animációhoz a kezdés előtti pozíciójához képest. Olvasás/írás String. |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Azt jelzi, hogy az animációs viselkedések felhalmozódnak-e. Olvasás/írás [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Azt jelzi, hogy az aktuális animációs viselkedés kombinálva van-e más futó animációkkal. Olvasás/írás [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [By](../../aspose.slides.animation/propertyeffect/by) { get; set; } | Megadja az animáció relatív eltolási értékét a kezdés előtti pozícióhoz képest. Olvasás/írás String. |
 | [CalcMode](../../aspose.slides.animation/propertyeffect/calcmode) { get; set; } | Megadja az animáció interpolációs módját. Olvasás/írás [`PropertyCalcModeType`](../propertycalcmodetype). |
-| [From](../../aspose.slides.animation/propertyeffect/from) { get; set; } | Megadja az animáció kezdeti értékét. Olvasás/írás String. |
+| [From](../../aspose.slides.animation/propertyeffect/from) { get; set; } | Megadja az animáció kezdőértékét. Olvasás/írás String. |
 | [Points](../../aspose.slides.animation/propertyeffect/points) { get; set; } | Megadja az animáció pontjait. Olvasás/írás [`IPointCollection`](../ipointcollection). |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | A viselkedés tulajdonságait jelenti. Csak olvasható [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | A hatás viselkedés időzítési tulajdonságait jelenti. Olvasás/írás [`ITiming`](../itiming). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | A viselkedés tulajdonságait képviseli. Csak olvasható [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Az effektus viselkedés időzítési tulajdonságait képviseli. Olvasás/írás [`ITiming`](../itiming). |
 | [To](../../aspose.slides.animation/propertyeffect/to) { get; set; } | Megadja az animáció befejező értékét. Olvasás/írás String. |
 | [ValueType](../../aspose.slides.animation/propertyeffect/valuetype) { get; set; } | Megadja egy tulajdonság értékének típusát. Olvasás/írás [`PropertyValueType`](../propertyvaluetype). |
 

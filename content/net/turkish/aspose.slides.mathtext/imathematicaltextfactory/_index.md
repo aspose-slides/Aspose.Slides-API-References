@@ -1,14 +1,14 @@
 ---
 title: IMathematicalTextFactory
 second_title: Aspose.Sildes için .NET API Referansı
-description: MathematicalText öğesi oluşturulmasını sağlar
+description: MathematicalText öğesi oluşturmayı sağlar
 type: docs
-weight: 8500
+weight: 8520
 url: /tr/aspose.slides.mathtext/imathematicaltextfactory/
 ---
-## IMathematicalTextFactory arayüz
+## IMathematicalTextFactory arayüzü
 
-MathematicalText öğesi oluşturulmasını sağlar
+MathematicalText öğesi oluşturmayı sağlar
 
 ```csharp
 public interface IMathematicalTextFactory
@@ -18,10 +18,10 @@ public interface IMathematicalTextFactory
 
 | Ad | Açıklama |
 | --- | --- |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Boş bir MathematicalText öğesi oluştur |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Belirtilen değerle bir MathematicalText öğesi oluştur |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Belirtilen değerle boş bir MathematicalText öğesi oluştur |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Belirtilen değer ve IPortionFormat özellikleriyle boş bir MathematicalText öğesi oluştur |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Boş matematiksel metin öğesi oluştur |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Belirtilen değere sahip matematiksel metin öğesi oluştur |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Belirtilen değere sahip boş matematiksel metin öğesi oluştur |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Belirtilen değer ve biçimlendirme özelliklerine sahip boş matematiksel metin öğesi oluştur |
 
 ### Açıklamalar
 

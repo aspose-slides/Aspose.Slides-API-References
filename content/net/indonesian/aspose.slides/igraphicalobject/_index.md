@@ -3,7 +3,7 @@ title: IGraphicalObject
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili objek grafis abstrak.
 type: docs
-weight: 6040
+weight: 6060
 url: /id/aspose.slides/igraphicalobject/
 ---
 ## IGraphicalObject antarmuka
@@ -18,9 +18,9 @@ public interface IGraphicalObject : IShape
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIShape](../../aspose.slides/igraphicalobject/asishape) { get; } | Mengizinkan untuk mendapatkan antarmuka IShape dasar. Hanya-baca [`IShape`](../ishape). |
-| [GraphicalObjectLock](../../aspose.slides/igraphicalobject/graphicalobjectlock) { get; } | Mengembalikan kunci shape. Hanya-baca [`IGraphicalObjectLock`](../igraphicalobjectlock). |
-| [ShapeLock](../../aspose.slides/igraphicalobject/shapelock) { get; } | Mengembalikan kunci shape. Hanya-baca [`IGraphicalObjectLock`](../igraphicalobjectlock). |
+| [AsIShape](../../aspose.slides/igraphicalobject/asishape) { get; } | Memungkinkan mendapatkan antarmuka IShape dasar. Hanya baca [`IShape`](../ishape). |
+| [GraphicalObjectLock](../../aspose.slides/igraphicalobject/graphicalobjectlock) { get; } | Mengembalikan kunci shape. Hanya baca [`IGraphicalObjectLock`](../igraphicalobjectlock). |
+| [ShapeLock](../../aspose.slides/igraphicalobject/shapelock) { get; } | Mengembalikan kunci shape. Hanya baca [`IGraphicalObjectLock`](../igraphicalobjectlock). |
 
 ### Lihat Juga
 

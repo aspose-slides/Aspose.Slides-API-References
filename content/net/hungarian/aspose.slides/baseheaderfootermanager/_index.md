@@ -1,14 +1,14 @@
 ---
 title: BaseHeaderFooterManager
-second_title: Aspose.Sildes .NET API referencia
-description: Olyan menedzsert képvisel, amely kezeli a lábléc, dátum-idő és oldalszám helyőrzőinek viselkedését minden diatípushoz.
+second_title: Aspose.Sildes a .NET API-referencia
+description: Képviseli azt a kezelőt, amely a lábléc, a dátum-idő és az oldalszám helyőrzőinek viselkedését tartja az összes diatípushoz.
 type: docs
-weight: 940
+weight: 960
 url: /hu/aspose.slides/baseheaderfootermanager/
 ---
 ## BaseHeaderFooterManager osztály
 
-A manager-t reprezentálja, amely a lábléc, dátum-idő és oldalszám helyőrzőinek viselkedését kezeli minden diatípushoz.
+Képviseli a kezelőt, amely a lábléc, a dátum-idő és az oldalszám helyőrzőinek viselkedését tartja az összes diatípushoz.
 
 ```csharp
 public abstract class BaseHeaderFooterManager : IBaseHeaderFooterManager

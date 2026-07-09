@@ -1,9 +1,9 @@
 ---
 title: IHyperlinkQueries
-second_title: Aspose.Sildes for .NET APIリファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: 含まれるハイパーリンクへの簡単なアクセスを提供します。
 type: docs
-weight: 6120
+weight: 6140
 url: /ja/aspose.slides/ihyperlinkqueries/
 ---
 ## IHyperlinkQueries インターフェイス
@@ -18,10 +18,10 @@ public interface IHyperlinkQueries
 
 | 名前 | 説明 |
 | --- | --- |
-| [GetAnyHyperlinks](../../aspose.slides/ihyperlinkqueries/getanyhyperlinks)() | nullでない HyperlinkMouseOver を含むすべての IHyperlinkContainer サブオブジェクトを取得します。指定された IHyperlinkContainer オブジェクトを使用して、そのハイパーリンクを管理できます（読み取り、更新、または削除）。IHyperlinkContainer インターフェイスを参照してください。 |
-| [GetHyperlinkClicks](../../aspose.slides/ihyperlinkqueries/gethyperlinkclicks)() | nullでない HyperlinkClick を含むすべての IHyperlinkContainer サブオブジェクトを取得します。指定された IHyperlinkContainer オブジェクトを使用して、そのハイパーリンクを管理できます（読み取り、更新、または削除）。IHyperlinkContainer インターフェイスを参照してください。 |
-| [GetHyperlinkMouseOvers](../../aspose.slides/ihyperlinkqueries/gethyperlinkmouseovers)() | nullでない HyperlinkMouseOver を含むすべての IHyperlinkContainer サブオブジェクトを取得します。指定された IHyperlinkContainer オブジェクトを使用して、そのハイパーリンクを管理できます（読み取り、更新、または削除）。IHyperlinkContainer インターフェイスを参照してください。 |
-| [RemoveAllHyperlinks](../../aspose.slides/ihyperlinkqueries/removeallhyperlinks)() | すべての IHyperlinkContainer サブオブジェクト内の含まれる HyperlinkClick と HyperlinkMouseOver ハイパーリンクをすべて削除します。 |
+| [GetAnyHyperlinks](../../aspose.slides/ihyperlinkqueries/getanyhyperlinks)() | null でない HyperlinkMouseOver を含むすべての IHyperlinkContainer サブオブジェクトを取得します。指定された IHyperlinkContainer オブジェクトを使用して、そのハイパーリンクを管理できます（読み取り、更新、または削除）。IHyperlinkContainer インターフェイスを参照してください。 |
+| [GetHyperlinkClicks](../../aspose.slides/ihyperlinkqueries/gethyperlinkclicks)() | null でない HyperlinkClick を含むすべての IHyperlinkContainer サブオブジェクトを取得します。指定された IHyperlinkContainer オブジェクトを使用して、そのハイパーリンクを管理できます（読み取り、更新、または削除）。IHyperlinkContainer インターフェイスを参照してください。 |
+| [GetHyperlinkMouseOvers](../../aspose.slides/ihyperlinkqueries/gethyperlinkmouseovers)() | null でない HyperlinkMouseOver を含むすべての IHyperlinkContainer サブオブジェクトを取得します。指定された IHyperlinkContainer オブジェクトを使用して、そのハイパーリンクを管理できます（読み取り、更新、または削除）。IHyperlinkContainer インターフェイスを参照してください。 |
+| [RemoveAllHyperlinks](../../aspose.slides/ihyperlinkqueries/removeallhyperlinks)() | すべての IHyperlinkContainer サブオブジェクト内に含まれる HyperlinkClick および HyperlinkMouseOver ハイパーリンクをすべて削除します。 |
 
 ### 参照
 

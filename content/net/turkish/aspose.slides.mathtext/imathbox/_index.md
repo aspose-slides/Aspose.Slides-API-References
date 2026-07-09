@@ -1,14 +1,14 @@
 ---
 title: IMathBox
-second_title: Aspose.Sildes için .NET API Referansı
-description: Matematiksel öğenin mantıksal kutulanmasını (paketlenmesini) belirtir. Örneğin, bir kutulanmış nesne, hizalama noktasına sahip ya da sahip olmadan bir operatör emülatörü olarak hizmet edebilir, bir satır sonu noktası olarak kullanılabilir veya satır sonlarına izin vermeyecek şekilde gruplanabilir. Örneğin, operatör satır sonlarını önlemek için kutulanmalıdır.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Mantıksal kutulama paketlemesini matematiksel öğe için belirtir. Örneğin, kutulu bir nesne bir hizalama noktasına sahip ya da sahip olmadan bir operatör emülatörü olarak, bir satır sonu noktası olarak hizmet edebilir veya içinde satır sonlarına izin vermeyecek şekilde gruplanabilir. Örneğin, satır sonlarını önlemek için operatör kutulanmalıdır.
 type: docs
-weight: 8170
+weight: 8190
 url: /tr/aspose.slides.mathtext/imathbox/
 ---
 ## IMathBox arayüz
 
-Matematiksel öğenin mantıksal kutulanmasını (paketlenmesini) belirtir. Örneğin, bir kutulanmış nesne, hizalama noktasıyla veya olmadan bir operatör emülatörü olarak hizmet edebilir, bir satır sonu noktası olarak kullanılabilir veya satır sonlarına izin verilmeyecek şekilde gruplanabilir. Örneğin, "==" operatörü satır sonlarını önlemek için kutulanmalıdır.
+Mantıksal kutulama (paketleme) tanımlar. Örneğin, kutulu bir nesne bir hizalama noktasıyla veya hizalama noktasız bir operatör emülatörü olarak, bir satır sonu noktası olarak hizmet edebilir veya satır sonlarına izin vermeyecek şekilde gruplanabilir. Örneğin, "==" operatörü satır sonlarını önlemek için kutulanmalıdır.
 
 ```csharp
 public interface IMathBox : IMathElement
@@ -18,13 +18,13 @@ public interface IMathBox : IMathElement
 
 | Ad | Açıklama |
 | --- | --- |
-| [AlignmentPoint](../../aspose.slides.mathtext/imathbox/alignmentpoint) { get; set; } | Doğru olduğunda, bu operatör emülatörü bir hizalama noktası olarak hizmet verir; yani diğer denklemlerde belirlenen hizalama noktaları onunla hizalanabilir. Varsayılan: false |
-| [AsIMathElement](../../aspose.slides.mathtext/imathbox/asimathelement) { get; } | Temel IMathElement arayüzünü almayı sağlar [`IMathElement`](../imathelement) |
+| [AlignmentPoint](../../aspose.slides.mathtext/imathbox/alignmentpoint) { get; set; } | Doğru olduğunda, bu operatör emülatörü bir hizalama noktası olarak hizmet eder; yani diğer denklemlerde belirlenen hizalama noktaları onunla hizalanabilir. Varsayılan: false |
+| [AsIMathElement](../../aspose.slides.mathtext/imathbox/asimathelement) { get; } | Temel IMathElement arayüzünü [`IMathElement`](../imathelement) almayı sağlar |
 | [Base](../../aspose.slides.mathtext/imathbox/base) { get; } | Temel argüman |
 | [Differential](../../aspose.slides.mathtext/imathbox/differential) { get; set; } | Diferansiyel. Doğru olduğunda, kutu bir diferansiyel olarak davranır (ör. integrand içinde 𝑑𝑥) ve matematiksel diferansiyel için uygun yatay boşluğu alır. Varsayılan: false |
-| [ExplicitBreak](../../aspose.slides.mathtext/imathbox/explicitbreak) { get; set; } | Açık kesme, Box nesnesinin başında bir satır sonu olup olmadığını belirtir; böylece satır, kutu nesnesinin başında kayar. Geçerli satırdaki matematiksel metin için hizalama noktası olarak kullanılacak, önceki satırdaki operatörün numarasını belirtir. Olası değerler: 1..255 Varsayılan: 0 (no explicit break) |
-| [NoBreak](../../aspose.slides.mathtext/imathbox/nobreak) { get; set; } | No break. Bu özellik, nesne kutusundaki "unbreakable" özelliğini belirtir. Doğru olduğunda, kutu içinde satır sonları oluşamaz. Bu, birden fazla ikili operatörden oluşan operatör emülatörleri için önemli olabilir. Bu öğe belirtilmediğinde, kutu içinde kesmeler oluşabilir. Varsayılan: true |
-| [OperatorEmulator](../../aspose.slides.mathtext/imathbox/operatoremulator) { get; set; } | Operatör Emülatörü. Doğru olduğunda, kutu ve içeriği tek bir operatör gibi davranır ve bir operatörün özelliklerini miras alır. Bu, örneğin, karakterin bir satır sonu noktası olarak hizmet edebileceği ve diğer operatörlere hizalanabileceği anlamına gelir. Operatör Emülatörleri, '==' gibi bir veya daha fazla glifin birleşerek bir operatör oluşturduğu durumlarda sıkça kullanılır. Varsayılan değer: false |
+| [ExplicitBreak](../../aspose.slides.mathtext/imathbox/explicitbreak) { get; set; } | Açık kesme, Box nesnesinin başlangıcında bir satır sonu olup olmadığını belirler; böylece satır kutunun başlangıcında sarar. Matematiksel metnin önceki satırındaki operatörün sayısını belirler; bu sayı mevcut satırın hizalama noktası olarak kullanılacaktır. Olası değerler: 1..255 Varsayılan: 0 (açık kesme yok) |
+| [NoBreak](../../aspose.slides.mathtext/imathbox/nobreak) { get; set; } | Kesme yok. Bu özellik, nesne kutusundaki “kesilemez” özelliğini belirler. Doğru olduğunda, kutu içinde satır sonları oluşamaz. Bu, birden fazla ikili operatör içeren operatör emülatörleri için önemli olabilir. Bu öğe belirtilmediğinde, kutu içinde kesmeler gerçekleşebilir. Varsayılan: true |
+| [OperatorEmulator](../../aspose.slides.mathtext/imathbox/operatoremulator) { get; set; } | Operatör Emülatörü. Doğru olduğunda, kutu ve içeriği tek bir operatör gibi davranır ve bir operatörün özelliklerini devralır. Bu, örneğin, karakterin bir satır sonu noktası olarak hizmet edebileceği ve diğer operatörlerle hizalanabileceği anlamına gelir. Operatör Emülatörleri, bir veya daha fazla glifin '==' gibi bir operatör oluşturmak için birleştirildiğinde sıklıkla kullanılır. Varsayılan değer: false |
 
 ### Örnekler
 

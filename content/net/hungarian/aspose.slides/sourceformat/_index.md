@@ -1,9 +1,9 @@
 ---
 title: SourceFormat
-second_title: Aspose.Sildes .NET API hivatkozás
+second_title: Aspose.Sildes .NET API referencia
 description: A forrásfájl formátumát jelöli.
 type: docs
-weight: 10660
+weight: 10680
 url: /hu/aspose.slides/sourceformat/
 ---
 ## SourceFormat felsorolás

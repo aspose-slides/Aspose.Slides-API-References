@@ -1,9 +1,9 @@
 ---
 title: CommandEffect
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa um efeito de comando para um comportamento de animação.
 type: docs
-weight: 240
+weight: 260
 url: /pt/aspose.slides.animation/commandeffect/
 ---
 ## CommandEffect classe
@@ -16,23 +16,23 @@ public class CommandEffect : Behavior, ICommandEffect
 
 ## Construtores
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [CommandEffect](commandeffect)() | Cria uma nova instância. |
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Representa se os comportamentos de animação são acumulados. Leitura/Gravação [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Representa se o comportamento de animação atual está combinado com outras animações em execução. Leitura/Gravação [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [CommandString](../../aspose.slides.animation/commandeffect/commandstring) { get; set; } | Define a string de comando. Leitura/Gravação String. |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Representa propriedades do comportamento. Somente leitura [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [ShapeTarget](../../aspose.slides.animation/commandeffect/shapetarget) { get; set; } | Define o alvo da forma do efeito de comando. Leitura/Gravação [`IShape`](../../aspose.slides/ishape). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Representa propriedades de temporização para o comportamento do efeito. Leitura/Gravação [`ITiming`](../itiming). |
-| [Type](../../aspose.slides.animation/commandeffect/type) { get; set; } | Define o tipo de efeito de comando do comportamento. Leitura/Gravação [`CommandEffectType`](../commandeffecttype). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Representa se os comportamentos de animação são acumulados. Leitura/gravação [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Representa se o comportamento de animação atual é combinado com outras animações em execução. Leitura/gravação [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [CommandString](../../aspose.slides.animation/commandeffect/commandstring) { get; set; } | Define a string de comando. Leitura/gravação String. |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Representa as propriedades do comportamento. Somente leitura [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [ShapeTarget](../../aspose.slides.animation/commandeffect/shapetarget) { get; set; } | Define o alvo de forma do efeito de comando. Leitura/gravação [`IShape`](../../aspose.slides/ishape). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Representa as propriedades de tempo para o comportamento do efeito. Leitura/gravação [`ITiming`](../itiming). |
+| [Type](../../aspose.slides.animation/commandeffect/type) { get; set; } | Define o tipo de efeito de comando do comportamento. Leitura/gravação [`CommandEffectType`](../commandeffecttype). |
 
-### Veja Também
+### Ver Também
 
 * classe [Behavior](../behavior)
 * interface [ICommandEffect](../icommandeffect)

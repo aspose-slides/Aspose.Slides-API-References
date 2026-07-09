@@ -1,9 +1,9 @@
 ---
 title: SmartArtShapeCollection
-second_title: Aspose.Sildes for .NET Referência da API
+second_title: Aspose.Sildes para a referência da API .NET
 description: Representa uma coleção de formas SmartArt
 type: docs
-weight: 10650
+weight: 10670
 url: /pt/aspose.slides.smartart/smartartshapecollection/
 ---
 ## SmartArtShapeCollection classe
@@ -19,7 +19,7 @@ public class SmartArtShapeCollection : ISmartArtShapeCollection
 | Nome | Descrição |
 | --- | --- |
 | [Count](../../aspose.slides.smartart/smartartshapecollection/count) { get; } | Obtém o número de elementos realmente contidos na coleção. Somente leitura Int32. |
-| [IsSynchronized](../../aspose.slides.smartart/smartartshapecollection/issynchronized) { get; } | Retorna um valor indicando se o acesso à coleção é sincronizado (thread-safe). Somente leitura Boolean. |
+| [IsSynchronized](../../aspose.slides.smartart/smartartshapecollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção é sincronizado (thread-safe). Somente leitura Boolean. |
 | [Item](../../aspose.slides.smartart/smartartshapecollection/item) { get; } | Obtém o elemento no índice especificado. Somente leitura [`SmartArtShape`](../smartartshape).&gt;. |
 | [SyncRoot](../../aspose.slides.smartart/smartartshapecollection/syncroot) { get; } | Retorna uma raiz de sincronização. Somente leitura Object. |
 
@@ -27,8 +27,8 @@ public class SmartArtShapeCollection : ISmartArtShapeCollection
 
 | Nome | Descrição |
 | --- | --- |
-| [CopyTo](../../aspose.slides.smartart/smartartshapecollection/copyto)(Array, int) | Copia todos os elementos da coleção para a matriz especificada. |
-| [GetEnumerator](../../aspose.slides.smartart/smartartshapecollection/getenumerator)() | Retorna um enumerador que itera pela coleção. |
+| [CopyTo](../../aspose.slides.smartart/smartartshapecollection/copyto)(Array, int) | Copia todos os elementos da coleção para o array especificado. |
+| [GetEnumerator](../../aspose.slides.smartart/smartartshapecollection/getenumerator)() | Retorna um enumerador que itera sobre a coleção. |
 
 ### Ver também
 

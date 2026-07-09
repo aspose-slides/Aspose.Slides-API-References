@@ -1,14 +1,14 @@
 ---
 title: IProtectionManager
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Zarządzanie ochroną prezentacji przy użyciu hasła.
+second_title: Aspose.Sildes dla .NET - referencja API
+description: Zarządzanie ochroną prezentacji hasłem.
 type: docs
-weight: 6800
+weight: 6820
 url: /pl/aspose.slides/iprotectionmanager/
 ---
 ## IProtectionManager interfejs
 
-Zarządzanie zabezpieczeniami prezentacji przy użyciu hasła.
+Zarządzanie ochroną hasłem prezentacji.
 
 ```csharp
 public interface IProtectionManager
@@ -18,22 +18,22 @@ public interface IProtectionManager
 
 | Nazwa | Opis |
 | --- | --- |
-| [EncryptDocumentProperties](../../aspose.slides/iprotectionmanager/encryptdocumentproperties) { get; set; } | Ta właściwość ma sens, jeśli prezentacja jest zabezpieczona hasłem. Jeśli jest true, to właściwości dokumentu są szyfrowane w pliku prezentacji. Jeśli jest false, to właściwości dokumentu są publiczne, podczas gdy prezentacja jest szyfrowana. Odczyt/zapis Boolean. |
-| [EncryptionPassword](../../aspose.slides/iprotectionmanager/encryptionpassword) { get; } | Zwraca hasło szyfrowania. Tylko do odczytu String. |
-| [IsEncrypted](../../aspose.slides/iprotectionmanager/isencrypted) { get; } | Zwraca wartość wskazującą, czy ta instancja jest zaszyfrowana. Tylko do odczytu Boolean. |
-| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/iprotectionmanager/isonlydocumentpropertiesloaded) { get; } | Ta właściwość ma sens, jeśli plik prezentacji jest zabezpieczony hasłem i właściwości dokumentu tego pliku są publiczne. Wartość true oznacza, że z zaszyfrowanego pliku prezentacji ładowane są tylko właściwości dokumentu bez użycia hasła. Wartość false oznacza, że cała zaszyfrowana prezentacja jest ładowana przy użyciu właściwego hasła, a nie tylko właściwości dokumentu. Jeśli prezentacja nie jest zaszyfrowana, wartość właściwości jest zawsze false. Jeśli właściwości dokumentu zaszyfrowanego pliku nie są publiczne, wartość właściwości jest zawsze false. Jeśli PresentationEx.EncryptDocumentProperties jest true, to wartość właściwości IsOnlyDocumentPropertiesLoaded jest zawsze false. Tylko do odczytu Boolean. |
-| [IsWriteProtected](../../aspose.slides/iprotectionmanager/iswriteprotected) { get; } | Zwraca wartość wskazującą, czy ta prezentacja jest zabezpieczona przed zapisem. Tylko do odczytu Boolean. |
-| [ReadOnlyRecommended](../../aspose.slides/iprotectionmanager/readonlyrecommended) { get; set; } | Zwraca lub ustawia zalecenie tylko do odczytu. Odczyt/zapis Boolean. |
+| [EncryptDocumentProperties](../../aspose.slides/iprotectionmanager/encryptdocumentproperties) { get; set; } | Ta właściwość ma sens, jeśli prezentacja jest chroniona hasłem. Jeśli true, to właściwości dokumentu są szyfrowane w pliku prezentacji. Jeśli false, to właściwości dokumentu są publiczne, podczas gdy prezentacja jest zaszyfrowana. Odczyt/zapis Boolean. |
+| [EncryptionPassword](../../aspose.slides/iprotectionmanager/encryptionpassword) { get; } | Zwraca hasło szyfrowania. Tylko odczyt String. |
+| [IsEncrypted](../../aspose.slides/iprotectionmanager/isencrypted) { get; } | Zwraca wartość wskazującą, czy ta instancja jest zaszyfrowana. Tylko odczyt Boolean. |
+| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/iprotectionmanager/isonlydocumentpropertiesloaded) { get; } | Ta właściwość ma sens, jeśli plik prezentacji jest chroniony hasłem i właściwości dokumentu tego pliku są publiczne. Wartość true oznacza, że jedynie właściwości dokumentu są ładowane z zaszyfrowanego pliku prezentacji bez użycia hasła. Wartość false oznacza, że cała zaszyfrowana prezentacja jest ładowana przy użyciu właściwego hasła, a nie tylko właściwości dokumentu są ładowane. Jeśli prezentacja nie jest zaszyfrowana, wartość właściwości jest zawsze false. Jeśli właściwości dokumentu zaszyfrowanego pliku nie są publiczne, wartość właściwości jest zawsze false. Jeśli PresentationEx.EncryptDocumentProperties jest true, wartość właściwości IsOnlyDocumentPropertiesLoaded jest zawsze false. Tylko odczyt Boolean. |
+| [IsWriteProtected](../../aspose.slides/iprotectionmanager/iswriteprotected) { get; } | Zwraca wartość wskazującą, czy ta prezentacja jest chroniona przed zapisem. Tylko odczyt Boolean. |
+| [ReadOnlyRecommended](../../aspose.slides/iprotectionmanager/readonlyrecommended) { get; set; } | Zwraca lub ustawia rekomendację tylko do odczytu. Odczyt/zapis Boolean. |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [CheckWriteProtection](../../aspose.slides/iprotectionmanager/checkwriteprotection)(string) | Określa, czy prezentacja jest zabezpieczona hasłem przed modyfikacją. |
-| [Encrypt](../../aspose.slides/iprotectionmanager/encrypt)(string) | Szyfruje prezentację przy użyciu określonego hasła. |
+| [CheckWriteProtection](../../aspose.slides/iprotectionmanager/checkwriteprotection)(string) | Określa, czy prezentacja jest chroniona hasłem przed modyfikacją. |
+| [Encrypt](../../aspose.slides/iprotectionmanager/encrypt)(string) | Szyfruje prezentację przy użyciu podanego hasła. |
 | [RemoveEncryption](../../aspose.slides/iprotectionmanager/removeencryption)() | Usuwa szyfrowanie. |
-| [RemoveWriteProtection](../../aspose.slides/iprotectionmanager/removewriteprotection)() | Usuwa zabezpieczenie przed zapisem tej prezentacji. |
-| [SetWriteProtection](../../aspose.slides/iprotectionmanager/setwriteprotection)(string) | Ustawia zabezpieczenie przed zapisem tej prezentacji przy użyciu określonego hasła. |
+| [RemoveWriteProtection](../../aspose.slides/iprotectionmanager/removewriteprotection)() | Usuwa ochronę przed zapisem tej prezentacji. |
+| [SetWriteProtection](../../aspose.slides/iprotectionmanager/setwriteprotection)(string) | Ustawia ochronę przed zapisem tej prezentacji przy użyciu podanego hasła. |
 
 ### Zobacz także
 

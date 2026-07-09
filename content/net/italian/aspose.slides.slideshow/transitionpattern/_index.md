@@ -1,14 +1,14 @@
 ---
 title: TransitionPattern
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Specifica un modello geometrico che si dispone a tasselli per riempire un'area più grande.
+description: Specifica un modello geometrico che si combina per riempire un'area più grande.
 type: docs
-weight: 10380
+weight: 10400
 url: /it/aspose.slides.slideshow/transitionpattern/
 ---
-## Enumerazione TransitionPattern
+## TransitionPattern enumerazione
 
-Specifica un modello geometrico che si dispone a tasselli per riempire un'area più grande.
+Specifica un modello geometrico che si combina per riempire un'area più grande.
 
 ```csharp
 public enum TransitionPattern
@@ -18,8 +18,8 @@ public enum TransitionPattern
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Diamond | `0` | Modello di tassello a diamante |
-| Hexagon | `1` | Modello di tassello esagonale |
+| Diamond | `0` | Modello piastrella Diamond |
+| Hexagon | `1` | Modello piastrella Hexagon |
 
 ### Vedi anche
 

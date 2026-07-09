@@ -3,7 +3,7 @@ title: IFindResultCallback
 second_title: Aspose.Sildes .NET API referencia
 description: Visszahívási interfész a keresési szöveg eredményének lekéréséhez.
 type: docs
-weight: 5800
+weight: 5820
 url: /hu/aspose.slides/ifindresultcallback/
 ---
 ## IFindResultCallback interfész
@@ -18,7 +18,7 @@ public interface IFindResultCallback
 
 | Név | Leírás |
 | --- | --- |
-| [FoundResult](../../aspose.slides/ifindresultcallback/foundresult)(ITextFrame, string, string, int) | Callback metódus, amely a megtalált szövegre vonatkozó adatokat fogadja. |
+| [FoundResult](../../aspose.slides/ifindresultcallback/foundresult)(ITextFrame, string, string, int) | Visszahívási metódus, amely a megtalált szövegről kap adatokat. |
 
 ### Lásd még
 

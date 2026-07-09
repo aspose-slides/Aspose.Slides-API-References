@@ -1,14 +1,14 @@
 ---
 title: SlideLayoutType
-second_title: Aspose.Sildes .NET API hivatkozás
-description: A diaelrendezés típusát jelöli.
+second_title: Aspose.Sildes .NET API referencia
+description: A diaelrendezés típusát reprezentálja.
 type: docs
-weight: 9970
+weight: 9990
 url: /hu/aspose.slides/slidelayouttype/
 ---
 ## SlideLayoutType enumeráció
 
-A diaelrendezés típust jelöli.
+A diaelrendezés típusát reprezentálja.
 
 ```csharp
 public enum SlideLayoutType : sbyte
@@ -18,42 +18,42 @@ public enum SlideLayoutType : sbyte
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Custom | `-1` | Custom |
-| Title | `0` | Title |
-| Text | `1` | Text |
-| TwoColumnText | `2` | Two Column Text |
-| Table | `3` | Table |
-| TextAndChart | `4` | Text and Chart |
-| ChartAndText | `5` | Chart and Text |
+| Custom | `-1` | Egyedi |
+| Title | `0` | Cím |
+| Text | `1` | Szöveg |
+| TwoColumnText | `2` | Kétoszlopos szöveg |
+| Table | `3` | Táblázat |
+| TextAndChart | `4` | Szöveg és diagram |
+| ChartAndText | `5` | Diagram és szöveg |
 | Diagram | `6` | Diagram |
-| Chart | `7` | Chart |
-| TextAndClipArt | `8` | Text and Clip Art |
-| ClipArtAndText | `9` | Clip Art and Text |
-| TitleOnly | `10` | Title Only |
-| Blank | `11` | Blank |
-| TextAndObject | `12` | Text and Object |
-| ObjectAndText | `13` | Object and Text |
-| Object | `14` | Object |
-| TitleAndObject | `15` | Title and Object |
-| TextAndMedia | `16` | Text and Media |
-| MediaAndText | `17` | Media and Text |
-| ObjectOverText | `18` | Object over Text |
-| TextOverObject | `19` | Text over Object |
-| TextAndTwoObjects | `20` | Text and Two Objects |
-| TwoObjectsAndText | `21` | Two Objects and Text |
-| TwoObjectsOverText | `22` | Two Objects over Text |
-| FourObjects | `23` | Four Objects |
-| VerticalText | `24` | Vertical Text |
-| ClipArtAndVerticalText | `25` | Clip Art and Vertical Text |
-| VerticalTitleAndText | `26` | Vertical Title and Text |
-| VerticalTitleAndTextOverChart | `27` | Vertical Title and Text Over Chart |
-| TwoObjects | `28` | Two Objects |
-| ObjectAndTwoObject | `29` | Object and Two Object |
-| TwoObjectsAndObject | `30` | Two Objects and Object |
-| SectionHeader | `31` | Section Header |
-| TwoTextAndTwoObjects | `32` | Two Text and Two Objects |
-| TitleObjectAndCaption | `33` | Title, Object, and Caption |
-| PictureAndCaption | `34` | Picture and Caption |
+| Chart | `7` | Diagram |
+| TextAndClipArt | `8` | Szöveg és Clip Art |
+| ClipArtAndText | `9` | Clip Art és Szöveg |
+| TitleOnly | `10` | Csak cím |
+| Blank | `11` | Üres |
+| TextAndObject | `12` | Szöveg és objektum |
+| ObjectAndText | `13` | Objektum és szöveg |
+| Object | `14` | Objektum |
+| TitleAndObject | `15` | Cím és objektum |
+| TextAndMedia | `16` | Szöveg és média |
+| MediaAndText | `17` | Média és szöveg |
+| ObjectOverText | `18` | Objektum a szöveg felett |
+| TextOverObject | `19` | Szöveg az objektum felett |
+| TextAndTwoObjects | `20` | Szöveg és két objektum |
+| TwoObjectsAndText | `21` | Két objektum és szöveg |
+| TwoObjectsOverText | `22` | Két objektum a szöveg felett |
+| FourObjects | `23` | Négy objektum |
+| VerticalText | `24` | Függőleges szöveg |
+| ClipArtAndVerticalText | `25` | Clip Art és függőleges szöveg |
+| VerticalTitleAndText | `26` | Függőleges cím és szöveg |
+| VerticalTitleAndTextOverChart | `27` | Függőleges cím és szöveg a diagram felett |
+| TwoObjects | `28` | Két objektum |
+| ObjectAndTwoObject | `29` | Objektum és két objektum |
+| TwoObjectsAndObject | `30` | Két objektum és objektum |
+| SectionHeader | `31` | Szakaszfejléc |
+| TwoTextAndTwoObjects | `32` | Két szöveg és két objektum |
+| TitleObjectAndCaption | `33` | Cím, objektum és felirat |
+| PictureAndCaption | `34` | Kép és felirat |
 
 ### Lásd még
 

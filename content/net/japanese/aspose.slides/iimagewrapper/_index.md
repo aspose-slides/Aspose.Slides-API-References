@@ -1,14 +1,14 @@
 ---
 title: IImageWrapper
 second_title: Aspose.Sildes for .NET API リファレンス
-description: COMインターフェイス用の System.Drawing.Image ラッパー。
+description: COM インターフェイス用の System.Drawing.Image ラッパーです。
 type: docs
-weight: 6150
+weight: 6170
 url: /ja/aspose.slides/iimagewrapper/
 ---
 ## IImageWrapper インターフェイス
 
-System.Drawing.Image の COM インターフェイス用ラッパー。
+COM インターフェイス用の System.Drawing.Image ラッパーです。
 
 ```csharp
 public interface IImageWrapper : IDisposable
@@ -19,16 +19,16 @@ public interface IImageWrapper : IDisposable
 | 名前 | 説明 |
 | --- | --- |
 | [AsIDisposable](../../aspose.slides/iimagewrapper/asidisposable) { get; } | IDisposable インターフェイスを返します。読み取り専用 IDisposable。 |
-| [ImageSource](../../aspose.slides/iimagewrapper/imagesource) { get; } | 画像を取得します。読み取り専用 Image。 |
-| [Size](../../aspose.slides/iimagewrapper/size) { get; } | Image の幅と高さをピクセル単位で取得します。読み取り専用 [`Size`](./size)。 |
+| [ImageSource](../../aspose.slides/iimagewrapper/imagesource) { get; } | Image を取得します。読み取り専用 Image。 |
+| [Size](../../aspose.slides/iimagewrapper/size) { get; } | Image の幅と高さ（ピクセル単位）を取得します。読み取り専用 [`Size`](./size)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
 | [Save](../../aspose.slides/iimagewrapper/save#save_1)(string) | 指定されたファイルに Image を保存します。 |
-| [Save](../../aspose.slides/iimagewrapper/save#save)(Stream, PPImageFormat) | 指定された形式で、指定されたストリームに Image を保存します。 |
-| [Save](../../aspose.slides/iimagewrapper/save#save_2)(string, PPImageFormat) | 指定された形式で、指定されたファイルに Image を保存します。 |
+| [Save](../../aspose.slides/iimagewrapper/save#save)(Stream, PPImageFormat) | 指定されたストリームに、指定された形式で Image を保存します。 |
+| [Save](../../aspose.slides/iimagewrapper/save#save_2)(string, PPImageFormat) | 指定されたファイルに、指定された形式で Image を保存します。 |
 
 ### 参照
 

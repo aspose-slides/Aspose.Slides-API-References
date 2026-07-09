@@ -1,12 +1,12 @@
 ---
 title: ITextAnimationCollection
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta una collezione di animazioni di testo.
 type: docs
-weight: 610
+weight: 630
 url: /it/aspose.slides.animation/itextanimationcollection/
 ---
-## ITextAnimationCollection interfaccia
+## ITextAnimationCollection interface
 
 Rappresenta una collezione di animazioni di testo.
 
@@ -16,7 +16,7 @@ public interface ITextAnimationCollection : IGenericCollection<ITextAnimation>
 
 ## Proprietà
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
 | [Item](../../aspose.slides.animation/itextanimationcollection/item) { get; } | Restituisce l'elemento per indice. (2 indicizzatori) |
 

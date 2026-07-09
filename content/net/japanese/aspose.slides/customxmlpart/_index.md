@@ -1,9 +1,9 @@
 ---
 title: CustomXmlPart
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: カスタム XML パートを表します。
 type: docs
-weight: 2720
+weight: 2740
 url: /ja/aspose.slides/customxmlpart/
 ---
 ## CustomXmlPart クラス
@@ -18,10 +18,10 @@ public class CustomXmlPart : ICustomXmlPart
 
 | 名前 | 説明 |
 | --- | --- |
-| [ItemId](../../aspose.slides/customxmlpart/itemid) { get; set; } | グローバルに一意な識別子 (GUID) を指定します。この GUID は Office Open XML ドキュメント内の単一カスタム XML パートを一意に識別します。読み取り専用 Guid。 |
-| [NamespaceSchemas](../../aspose.slides/customxmlpart/namespaceschemas) { get; } | カスタム XML パートに関連付けられているコレクション XML スキーマを返します。読み取り専用 String[]。 |
-| [XmlAsString](../../aspose.slides/customxmlpart/xmlasstring) { get; set; } | XML データを UTF-8 文字列として取得または設定します。読み書き可能 String。値が `null` の場合。値が空、または xml-data が無効な場合。 |
-| [XmlData](../../aspose.slides/customxmlpart/xmldata) { get; set; } | XML データを取得または設定します。読み書き可能 Byte[]。値が `null` の場合。値が空、または xml-data が無効な場合。 |
+| [ItemId](../../aspose.slides/customxmlpart/itemid) { get; set; } | Office Open XML ドキュメント内の単一のカスタム XML パートを一意に識別するグローバルに一意な識別子 (GUID) を指定します。読み取り専用 Guid。 |
+| [NamespaceSchemas](../../aspose.slides/customxmlpart/namespaceschemas) { get; } | カスタム XML パートに関連付けられたコレクション XML スキーマを返します。読み取り専用 String[]。 |
+| [XmlAsString](../../aspose.slides/customxmlpart/xmlasstring) { get; set; } | XML データを UTF-8 文字列として取得または設定します。読み書き可能 String。値が `null` の場合。値が空または xml データが無効な場合。 |
+| [XmlData](../../aspose.slides/customxmlpart/xmldata) { get; set; } | XML データを取得または設定します。読み書き可能 Byte[]。値が `null` の場合。値が空または xml データが無効な場合。 |
 
 ## メソッド
 

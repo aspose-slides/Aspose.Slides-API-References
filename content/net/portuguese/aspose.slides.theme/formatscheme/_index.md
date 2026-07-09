@@ -1,9 +1,9 @@
 ---
 title: FormatScheme
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes for .NET
 description: Armazena formatos definidos pelo tema para as formas.
 type: docs
-weight: 11120
+weight: 11140
 url: /pt/aspose.slides.theme/formatscheme/
 ---
 ## FormatScheme classe

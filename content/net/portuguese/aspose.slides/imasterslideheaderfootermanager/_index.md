@@ -1,14 +1,14 @@
 ---
 title: IMasterSlideHeaderFooterManager
 second_title: Aspose.Sildes para .NET Referência da API
-description: Representa o gerenciador que controla o comportamento dos marcadores de rodapé, data/hora e número de página do slide mestre e de todos os marcadores filhos. Marcadores filhos significam que os marcadores estão contidos em slides de layout dependentes e em slides dependentes. Slides de layout dependentes e slides utilizam e dependem do slide mestre.
+description: Representa o gerenciador que contém o comportamento dos marcadores de rodapé, data/hora e número da página do slide mestre e de todos os marcadores filhos. Marcadores filhos significam que os marcadores estão contidos em slides de layout dependentes e em slides dependentes. Slides de layout dependentes e slides utilizam e dependem do slide mestre.
 type: docs
-weight: 6420
+weight: 6440
 url: /pt/aspose.slides/imasterslideheaderfootermanager/
 ---
 ## IMasterSlideHeaderFooterManager interface
 
-Representa o gerenciador que controla o comportamento dos marcadores de rodapé, data/hora e número de página do slide mestre e de todos os marcadores filhos. Marcadores filhos significam que os marcadores estão contidos em slides de layout dependentes e em slides dependentes. Slides de layout dependentes e slides utilizam e dependem do slide mestre.
+Representa o gerenciador que contém o comportamento dos marcadores de rodapé do slide mestre, data/hora, número da página e todos os marcadores filhos. Marcadores filhos significam que os marcadores estão contidos em slides de layout dependentes e em slides dependentes. Slides de layout dependentes e slides utilizam e dependem do slide mestre.
 
 ```csharp
 public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager

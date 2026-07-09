@@ -3,7 +3,7 @@ title: ColorScheme
 second_title: Aspose.Sildes for .NET API リファレンス
 description: テーマで定義された色を格納します。
 type: docs
-weight: 11050
+weight: 11070
 url: /ja/aspose.slides.theme/colorscheme/
 ---
 ## ColorScheme クラス
@@ -18,21 +18,21 @@ public class ColorScheme : IColorScheme
 
 | 名前 | 説明 |
 | --- | --- |
-| [Accent1](../../aspose.slides.theme/colorscheme/accent1) { get; } | スキーム内の最初のアクセント色。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [Accent2](../../aspose.slides.theme/colorscheme/accent2) { get; } | スキーム内の2番目のアクセント色。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [Accent3](../../aspose.slides.theme/colorscheme/accent3) { get; } | スキーム内の3番目のアクセント色。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [Accent4](../../aspose.slides.theme/colorscheme/accent4) { get; } | スキーム内の4番目のアクセント色。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [Accent5](../../aspose.slides.theme/colorscheme/accent5) { get; } | スキーム内の5番目のアクセント色。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [Accent6](../../aspose.slides.theme/colorscheme/accent6) { get; } | スキーム内の6番目のアクセント色。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [Dark1](../../aspose.slides.theme/colorscheme/dark1) { get; } | スキーム内の最初の暗い色。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [Dark2](../../aspose.slides.theme/colorscheme/dark2) { get; } | スキーム内の2番目の暗い色。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [FollowedHyperlink](../../aspose.slides.theme/colorscheme/followedhyperlink) { get; } | 訪問済みハイパーリンクの色。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [Hyperlink](../../aspose.slides.theme/colorscheme/hyperlink) { get; } | ハイパーリンクの色。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [Item](../../aspose.slides.theme/colorscheme/item) { get; } | 指定されたインデックスの要素を取得します。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [Light1](../../aspose.slides.theme/colorscheme/light1) { get; } | スキーム内の最初の明るい色。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [Light2](../../aspose.slides.theme/colorscheme/light2) { get; } | スキーム内の2番目の明るい色。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [Presentation](../../aspose.slides.theme/colorscheme/presentation) { get; } | 親プレゼンテーションを返します。読み取り専用 [`IPresentation`](../../aspose.slides/ipresentation)。 |
-| [Slide](../../aspose.slides.theme/colorscheme/slide) { get; } | 親スライドを返します。読み取り専用 [`IBaseSlide`](../../aspose.slides/ibaseslide)。 |
+| [Accent1](../../aspose.slides.theme/colorscheme/accent1) { get; } | スキームの最初のアクセントカラー。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent2](../../aspose.slides.theme/colorscheme/accent2) { get; } | スキームの2番目のアクセントカラー。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent3](../../aspose.slides.theme/colorscheme/accent3) { get; } | スキームの3番目のアクセントカラー。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent4](../../aspose.slides.theme/colorscheme/accent4) { get; } | スキームの4番目のアクセントカラー。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent5](../../aspose.slides.theme/colorscheme/accent5) { get; } | スキームの5番目のアクセントカラー。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent6](../../aspose.slides.theme/colorscheme/accent6) { get; } | スキームの6番目のアクセントカラー。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Dark1](../../aspose.slides.theme/colorscheme/dark1) { get; } | スキームの最初の暗い色。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Dark2](../../aspose.slides.theme/colorscheme/dark2) { get; } | スキームの2番目の暗い色。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [FollowedHyperlink](../../aspose.slides.theme/colorscheme/followedhyperlink) { get; } | 訪問済みハイパーリンクの色。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Hyperlink](../../aspose.slides.theme/colorscheme/hyperlink) { get; } | ハイパーリンクの色。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Item](../../aspose.slides.theme/colorscheme/item) { get; } | 指定されたインデックスの要素を取得します。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light1](../../aspose.slides.theme/colorscheme/light1) { get; } | スキームの最初の明るい色。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light2](../../aspose.slides.theme/colorscheme/light2) { get; } | スキームの2番目の明るい色。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Presentation](../../aspose.slides.theme/colorscheme/presentation) { get; } | 親プレゼンテーションを返します。読み取り専用 [`IPresentation`](../../aspose.slides/ipresentation). |
+| [Slide](../../aspose.slides.theme/colorscheme/slide) { get; } | 親スライドを返します。読み取り専用 [`IBaseSlide`](../../aspose.slides/ibaseslide). |
 
 ### 参照
 

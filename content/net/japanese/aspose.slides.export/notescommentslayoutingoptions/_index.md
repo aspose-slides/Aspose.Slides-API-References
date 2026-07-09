@@ -1,14 +1,14 @@
 ---
 title: NotesCommentsLayoutingOptions
 second_title: Aspose.Sildes for .NET API リファレンス
-description: エクスポートされたドキュメントにおけるノートとコメントのレイアウト外観を制御するオプションを提供します。
+description: エクスポートされたドキュメントのノートとコメントのレイアウトの外観を制御するオプションを提供します。
 type: docs
-weight: 4270
+weight: 4290
 url: /ja/aspose.slides.export/notescommentslayoutingoptions/
 ---
 ## NotesCommentsLayoutingOptions クラス
 
-Provides options that control the look of layouting of notes and comments in exported document.
+エクスポートされたドキュメントのノートとコメントのレイアウトの外観を制御するオプションを提供します。
 
 ```csharp
 public class NotesCommentsLayoutingOptions : ISlidesLayoutOptions
@@ -24,13 +24,13 @@ public class NotesCommentsLayoutingOptions : ISlidesLayoutOptions
 
 | 名前 | 説明 |
 | --- | --- |
-| [CommentsAreaColor](../../aspose.slides.export/notescommentslayoutingoptions/commentsareacolor) { get; set; } | コメント領域の色を取得または設定します (コメントが右側に表示される場合にのみ適用されます)。 |
-| [CommentsAreaWidth](../../aspose.slides.export/notescommentslayoutingoptions/commentsareawidth) { get; set; } | コメント出力領域の幅をピクセル単位で取得または設定します (コメントが右側に表示される場合にのみ適用されます)。 |
+| [CommentsAreaColor](../../aspose.slides.export/notescommentslayoutingoptions/commentsareacolor) { get; set; } | コメント領域の色を取得または設定します（コメントが右側に表示されている場合にのみ適用されます）。 |
+| [CommentsAreaWidth](../../aspose.slides.export/notescommentslayoutingoptions/commentsareawidth) { get; set; } | コメント出力領域の幅（ピクセル単位）を取得または設定します（コメントが右側に表示されている場合にのみ適用されます）。 |
 | [CommentsPosition](../../aspose.slides.export/notescommentslayoutingoptions/commentsposition) { get; set; } | ページ上のコメントの位置を取得または設定します。 |
 | [NotesPosition](../../aspose.slides.export/notescommentslayoutingoptions/notesposition) { get; set; } | ページ上のノートの位置を取得または設定します。 |
-| [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | 著者のないコメントの表示可否を取得または設定します。true の場合、コメントが表示されます。 (コメントが表示されている場合にのみ適用されます)。 |
+| [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | 著者が設定されていないコメントの表示可否を取得または設定します。true の場合、コメントが表示されます（コメントが表示されている場合にのみ適用されます）。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [ISlidesLayoutOptions](../islideslayoutoptions)
 * 名前空間 [Aspose.Slides.Export](../../aspose.slides.export)

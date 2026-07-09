@@ -1,14 +1,14 @@
 ---
 title: CommonSlideViewProperties
-second_title: Aspose.Sildes dla .NET – referencja API
-description: Reprezentuje wspólne właściwości widoku slajdu.
+second_title: Aspose.Sildes dla .NET API Reference
+description: Reprezentuje wspólne własności widoku slajdu.
 type: docs
-weight: 2640
+weight: 2660
 url: /pl/aspose.slides/commonslideviewproperties/
 ---
 ## CommonSlideViewProperties klasa
 
-Reprezentuje wspólne właściwości widoku slajdu.
+Reprezentuje wspólne własności widoku slajdu.
 
 ```csharp
 public class CommonSlideViewProperties : ICommonSlideViewProperties
@@ -20,11 +20,11 @@ public class CommonSlideViewProperties : ICommonSlideViewProperties
 | --- | --- |
 | [DrawingGuides](../../aspose.slides/commonslideviewproperties/drawingguides) { get; } | Zwraca kolekcję prowadnic rysowania. Tylko do odczytu [`IDrawingGuidesCollection`](../idrawingguidescollection) |
 | [Scale](../../aspose.slides/commonslideviewproperties/scale) { get; set; } | Określa współczynnik skalowania widoku w procentach. Odczyt/zapis Int32. |
-| [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | Określa, że zawartość widoku powinna automatycznie skalować się, aby najlepiej pasować do bieżącego rozmiaru okna. Odczyt/zapis Boolean. |
+| [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | Określa, że zawartość widoku powinna automatycznie skalować się, aby najlepiej dopasować do bieżącego rozmiaru okna. Odczyt/zapis Boolean. |
 
 ### Przykłady
 
-Poniższy przykład pokazuje, jak ustawić wartość powiększenia dla slajdu prezentacji PowerPoint.
+Poniższy przykład pokazuje, jak ustawić wartość powiększenia slajdu prezentacji PowerPoint.
 
 ```csharp
 [C#]

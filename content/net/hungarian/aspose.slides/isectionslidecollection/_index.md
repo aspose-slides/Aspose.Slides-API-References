@@ -1,14 +1,14 @@
 ---
 title: ISectionSlideCollection
-second_title: Aspose.Sildes .NET API referencia
-description: Egy szekcióban lévő diák gyűjteményét reprezentálja.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: A szekcióban lévő diák gyűjteményét reprezentálja.
 type: docs
-weight: 6890
+weight: 6910
 url: /hu/aspose.slides/isectionslidecollection/
 ---
 ## ISectionSlideCollection interfész
 
-Egy szekcióban lévő diák gyűjteményét reprezentálja.
+A szekcióban lévő diák gyűjteményét reprezentálja.
 
 ```csharp
 public interface ISectionSlideCollection : IGenericCollection<ISlide>
@@ -18,7 +18,7 @@ public interface ISectionSlideCollection : IGenericCollection<ISlide>
 
 | Név | Leírás |
 | --- | --- |
-| [Item](../../aspose.slides/isectionslidecollection/item) { get; } | Visszaadja az elemet a megadott indexnél. Írásvédett [`ISlide`](../islide). |
+| [Item](../../aspose.slides/isectionslidecollection/item) { get; } | Lekéri az elemet a megadott indexen. Csak olvasható [`ISlide`](../islide). |
 
 ### Lásd még
 

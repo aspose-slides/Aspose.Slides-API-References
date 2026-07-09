@@ -1,12 +1,12 @@
 ---
 title: IMasterSlide
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa um slide mestre em uma apresentação.
 type: docs
-weight: 6400
+weight: 6420
 url: /pt/aspose.slides/imasterslide/
 ---
-## interface IMasterSlide
+## IMasterSlide interface
 
 Representa um slide mestre em uma apresentação.
 
@@ -22,21 +22,21 @@ public interface IMasterSlide : IBaseSlide, IMasterThemeable
 | [AsIMasterThemeable](../../aspose.slides/imasterslide/asimasterthemeable) { get; } | Retorna a interface IMasterThemeable. Somente leitura [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
 | [BodyStyle](../../aspose.slides/imasterslide/bodystyle) { get; } | Retorna o estilo de um texto de corpo. Somente leitura [`ITextStyle`](../itextstyle). |
 | [DrawingGuides](../../aspose.slides/imasterslide/drawingguides) { get; } | Retorna uma coleção de guias de desenho para o slide mestre. Somente leitura [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HasDependingSlides](../../aspose.slides/imasterslide/hasdependingslides) { get; } | Retorna verdadeiro se existir pelo menos um slide que dependa deste slide mestre. Somente leitura Boolean. |
+| [HasDependingSlides](../../aspose.slides/imasterslide/hasdependingslides) { get; } | Retorna verdadeiro se existir ao menos um slide que dependa deste slide mestre. Somente leitura Boolean. |
 | [HeaderFooterManager](../../aspose.slides/imasterslide/headerfootermanager) { get; } | Retorna o gerenciador HeaderFooter do slide mestre. Somente leitura [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager). |
-| [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | Retorna a coleção de slides de layout filhos para este slide mestre. Somente leitura [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection). |
+| [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | Retorna a coleção de slides de layout filho para este slide mestre. Somente leitura [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection). |
 | [OtherStyle](../../aspose.slides/imasterslide/otherstyle) { get; } | Retorna o estilo de outro texto. Somente leitura [`ITextStyle`](../itextstyle). |
-| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | Determina se o mestre correspondente é excluído quando todos os slides que o seguem são excluídos. Observação: Aspose.Slides nunca removerá nenhum mestre não usado por si só; para realmente remover mestres não usados, chame [`RemoveUnused`](../imasterslidecollection/removeunused) Leitura/gravação Boolean. |
+| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | Determina se o mestre correspondente é excluído quando todos os slides que seguem esse mestre são excluídos. Observação: Aspose.Slides nunca removerá nenhum mestre não utilizado por conta própria; para realmente remover mestres não utilizados chame [`RemoveUnused`](../imasterslidecollection/removeunused) Leitura/gravação Boolean. |
 | [TitleStyle](../../aspose.slides/imasterslide/titlestyle) { get; } | Retorna o estilo de um texto de título. Somente leitura [`ITextStyle`](../itextstyle). |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
-| [ApplyExternalThemeToDependingSlides](../../aspose.slides/imasterslide/applyexternalthemetodependingslides)(string) | Cria um novo slide mestre baseado no atual, aplicando um tema externo a ele e aplica o slide mestre criado a todos os slides dependentes. |
+| [ApplyExternalThemeToDependingSlides](../../aspose.slides/imasterslide/applyexternalthemetodependingslides)(string) | Cria um novo slide mestre com base no atual, aplicando um tema externo a ele e aplica o slide mestre criado a todos os slides dependentes. |
 | [GetDependingSlides](../../aspose.slides/imasterslide/getdependingslides)() | Retorna um array com todos os slides que dependem deste slide mestre. |
 
-### Veja também
+### Ver também
 
 * interface [IBaseSlide](../ibaseslide)
 * interface [IMasterThemeable](../../aspose.slides.theme/imasterthemeable)

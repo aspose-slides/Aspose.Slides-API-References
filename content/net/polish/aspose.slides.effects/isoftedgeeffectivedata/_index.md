@@ -1,14 +1,14 @@
 ---
 title: ISoftEdgeEffectiveData
-second_title: Aspose.Sildes dla .NET – referencja API
-description: Obiekt niezmienny, który reprezentuje efekt miękkiej krawędzi. Krawędzie kształtu są rozmyte, podczas gdy wypełnienie nie jest zmienione.
+second_title: Aspose.Sildes – dokumentacja API .NET
+description: Niezmienny obiekt, który reprezentuje efekt miękkich krawędzi. Krawędzie kształtu są rozmyte, podczas gdy wypełnienie nie jest zmienione.
 type: docs
-weight: 3510
+weight: 3530
 url: /pl/aspose.slides.effects/isoftedgeeffectivedata/
 ---
 ## ISoftEdgeEffectiveData interfejs
 
-Obiekt niezmienny, który reprezentuje efekt miękkiej krawędzi. Krawędzie kształtu są rozmyte, natomiast wypełnienie pozostaje niezmienione.
+Niezmienny obiekt, który reprezentuje efekt miękkich krawędzi. Krawędzie kształtu są rozmyte, podczas gdy wypełnienie nie jest zmienione.
 
 ```csharp
 public interface ISoftEdgeEffectiveData : IEffectEffectiveData
@@ -16,12 +16,12 @@ public interface ISoftEdgeEffectiveData : IEffectEffectiveData
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata) { get; } | Umożliwia pobranie bazowego interfejsu IEffectEffectiveData. Tylko do odczytu [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | Określa promień rozmycia stosowanego do krawędzi. Tylko do odczytu Double. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata) { get; } | Umożliwia pobranie podstawowego interfejsu IEffectEffectiveData. tylko do odczytu [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | Określa promień rozmycia stosowanego do krawędzi. tylko do odczytu Double. |
 
-### Zobacz także
+### Zobacz również
 
 * interfejs [IEffectEffectiveData](../ieffecteffectivedata)
 * przestrzeń nazw [Aspose.Slides.Effects](../../aspose.slides.effects)

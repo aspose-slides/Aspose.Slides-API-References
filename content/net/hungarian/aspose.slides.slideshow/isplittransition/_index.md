@@ -1,14 +1,14 @@
 ---
 title: ISplitTransition
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Dia felosztási átmenet hatása.
+second_title: Aspose.Sildes .NET API referencia
+description: Dia felosztási átmeneti hatás.
 type: docs
-weight: 10180
+weight: 10200
 url: /hu/aspose.slides.slideshow/isplittransition/
 ---
 ## ISplitTransition interfész
 
-Dia felosztási átmenet hatása.
+Dia felosztási átmeneti hatás.
 
 ```csharp
 public interface ISplitTransition : ITransitionValueBase
@@ -16,11 +16,11 @@ public interface ISplitTransition : ITransitionValueBase
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/isplittransition/asitransitionvaluebase) { get; } | Lehetővé teszi az ITransitionValueBase alap interfész lekérését. Csak olvasható [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/isplittransition/direction) { get; set; } | A átmenet felosztásának iránya. Olvasható/írható [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Orientation](../../aspose.slides.slideshow/isplittransition/orientation) { get; set; } | A átmenet felosztásának tájolása. Olvasható/írható [`Orientation`](../../aspose.slides/orientation). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/isplittransition/asitransitionvaluebase) { get; } | Lehetővé teszi a bázis ITransitionValueBase interfész lekérését. Csak olvasható [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/isplittransition/direction) { get; set; } | Az átmenet felosztásának iránya. Olvasás/írás [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Orientation](../../aspose.slides.slideshow/isplittransition/orientation) { get; set; } | Az átmenet felosztásának tájolása. Olvasás/írás [`Orientation`](../../aspose.slides/orientation). |
 
 ### Lásd még
 

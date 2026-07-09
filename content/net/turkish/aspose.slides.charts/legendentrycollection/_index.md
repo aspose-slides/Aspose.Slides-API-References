@@ -1,14 +1,14 @@
 ---
 title: LegendEntryCollection
-second_title: Aspose.Sildes için .NET API Referansı
-description: Efsane girişlerinin koleksiyonunu temsil eder.
+second_title: Aspose.Sildes .NET için API Referansı
+description: Lejant koleksiyonunu temsil eder.
 type: docs
-weight: 2280
+weight: 2300
 url: /tr/aspose.slides.charts/legendentrycollection/
 ---
 ## LegendEntryCollection sınıfı
 
-Efsane girişlerinin koleksiyonunu temsil eder.
+Lejant koleksiyonunu temsil eder.
 
 ```csharp
 public class LegendEntryCollection : ILegendEntryCollection
@@ -18,8 +18,8 @@ public class LegendEntryCollection : ILegendEntryCollection
 
 | Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides.charts/legendentrycollection/count) { get; } | Legend girişlerinin sayısını alır. Yalnızca okuma Int32. |
-| [Item](../../aspose.slides.charts/legendentrycollection/item) { get; } | Çizelge türü bu listeden biri olduğunda Chart.ChartData.Series[0].DataPoints[index] ile eşleşen legend girişinin özelliklerini alır: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; veya diğer çizelge türleri için Chart.ChartData.Series[index] ile eşleşen. |
+| [Count](../../aspose.slides.charts/legendentrycollection/count) { get; } | Lejant girişlerinin sayısını alır. Salt okunur Int32. |
+| [Item](../../aspose.slides.charts/legendentrycollection/item) { get; } | Chart.ChartData.Series[0].DataPoints[index] ile ilişkili lejant girişinin özelliklerini, aşağıdaki grafik tiplerinden birine sahip olduğunda alır: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; ya da diğer grafik tipleri için Chart.ChartData.Series[index] ile ilişkili olarak alır. |
 
 ### Ayrıca Bakınız
 

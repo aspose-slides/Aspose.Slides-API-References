@@ -1,14 +1,14 @@
 ---
 title: ChartType
 second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje typ grafu.
+description: Představuje typ grafu.
 type: docs
-weight: 1480
+weight: 1500
 url: /cs/aspose.slides.charts/charttype/
 ---
-## Výčet ChartType
+## ChartType enumerace
 
-Reprezentuje typ grafu.
+Představuje typ grafu.
 
 ```csharp
 public enum ChartType
@@ -18,92 +18,92 @@ public enum ChartType
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| ClusteredColumn | `0` | Reprezentuje seskupený sloupcový graf. |
-| StackedColumn | `1` | Reprezentuje skládaný sloupcový graf. |
-| PercentsStackedColumn | `2` | Reprezentuje 100% skládaný sloupcový graf. |
-| ClusteredColumn3D | `3` | Reprezentuje 3D seskupený sloupcový graf. |
-| StackedColumn3D | `4` | Reprezentuje 3D skládaný sloupcový graf. |
-| PercentsStackedColumn3D | `5` | Reprezentuje 3D 100% skládaný sloupcový graf. |
-| Column3D | `6` | Reprezentuje 3D sloupcový graf. |
-| ClusteredCylinder | `7` | Reprezentuje cylindrický graf. |
-| StackedCylinder | `8` | Reprezentuje skládaný cylindrický graf. |
-| PercentsStackedCylinder | `9` | Reprezentuje 100% skládaný cylindrický graf. |
-| Cylinder3D | `10` | Reprezentuje 3D cylindrický sloupcový graf. |
-| ClusteredCone | `11` | Reprezentuje kuželový graf. |
-| StackedCone | `12` | Reprezentuje skládaný kuželový graf. |
-| PercentsStackedCone | `13` | Reprezentuje 100% skládaný kuželový graf. |
-| Cone3D | `14` | Reprezentuje 3D kuželový sloupcový graf. |
-| ClusteredPyramid | `15` | Reprezentuje pyramidový graf. |
-| StackedPyramid | `16` | Reprezentuje skládaný pyramidový graf. |
-| PercentsStackedPyramid | `17` | Reprezentuje 100% skládaný pyramidový graf. |
-| Pyramid3D | `18` | Reprezentuje 3D pyramidový sloupcový graf. |
-| Line | `19` | Reprezentuje čárový graf. |
-| StackedLine | `20` | Reprezentuje skládaný čárový graf. |
-| PercentsStackedLine | `21` | Reprezentuje 100% skládaný čárový graf. |
-| LineWithMarkers | `22` | Reprezentuje čárový graf s datovými značkami. |
-| StackedLineWithMarkers | `23` | Reprezentuje skládaný čárový graf s datovými značkami. |
-| PercentsStackedLineWithMarkers | `24` | Reprezentuje 100% skládaný čárový graf s datovými značkami. |
-| Line3D | `25` | Reprezentuje 3D čárový graf. |
-| Pie | `26` | Reprezentuje koláčový graf. |
-| Pie3D | `27` | Reprezentuje 3D koláčový graf. |
-| PieOfPie | `28` | Reprezentuje graf Pie of Pie. |
-| ExplodedPie | `29` | Reprezentuje rozdělený koláčový graf. |
-| ExplodedPie3D | `30` | Reprezentuje 3D rozdělený koláčový graf. |
-| BarOfPie | `31` | Reprezentuje graf Bar of Pie. |
-| PercentsStackedBar | `32` | Reprezentuje 100% skládaný pruhový graf. |
-| ClusteredBar3D | `33` | Reprezentuje 3D seskupený pruhový graf. |
-| ClusteredBar | `34` | Reprezentuje seskupený pruhový graf. |
-| StackedBar | `35` | Reprezentuje skládaný pruhový graf. |
-| StackedBar3D | `36` | Reprezentuje 3D skládaný pruhový graf. |
-| PercentsStackedBar3D | `37` | Reprezentuje 3D 100% skládaný pruhový graf. |
-| ClusteredHorizontalCylinder | `38` | Reprezentuje cylindrický pruhový graf. |
-| StackedHorizontalCylinder | `39` | Reprezentuje skládaný cylindrický pruhový graf. |
-| PercentsStackedHorizontalCylinder | `40` | Reprezentuje 100% skládaný cylindrický pruhový graf. |
-| ClusteredHorizontalCone | `41` | Reprezentuje kuželový pruhový graf. |
-| StackedHorizontalCone | `42` | Reprezentuje skládaný kuželový pruhový graf. |
-| PercentsStackedHorizontalCone | `43` | Reprezentuje 100% skládaný kuželový pruhový graf. |
-| ClusteredHorizontalPyramid | `44` | Reprezentuje pyramidový pruhový graf. |
-| StackedHorizontalPyramid | `45` | Reprezentuje skládaný pyramidový pruhový graf. |
-| PercentsStackedHorizontalPyramid | `46` | Reprezentuje 100% skládaný pyramidový pruhový graf. |
-| Area | `47` | Reprezentuje plošný graf. |
-| StackedArea | `48` | Reprezentuje skládaný plošný graf. |
-| PercentsStackedArea | `49` | Reprezentuje 100% skládaný plošný graf. |
-| Area3D | `50` | Reprezentuje 3D plošný graf. |
-| StackedArea3D | `51` | Reprezentuje 3D skládaný plošný graf. |
-| PercentsStackedArea3D | `52` | Reprezentuje 3D 100% skládaný plošný graf. |
-| ScatterWithMarkers | `53` | Reprezentuje bodový graf. |
-| ScatterWithSmoothLinesAndMarkers | `54` | Reprezentuje bodový graf spojený křivkami, s datovými značkami. |
-| ScatterWithSmoothLines | `55` | Reprezentuje bodový graf spojený křivkami, bez datových značek. |
-| ScatterWithStraightLinesAndMarkers | `56` | Reprezentuje bodový graf spojený čarami, s datovými značkami. |
-| ScatterWithStraightLines | `57` | Reprezentuje bodový graf spojený čarami, bez datových značek. |
-| HighLowClose | `58` | Reprezentuje graf High-Low-Close akcií. |
-| OpenHighLowClose | `59` | Reprezentuje graf Open-High-Low-Close akcií. |
-| VolumeHighLowClose | `60` | Reprezentuje graf Volume-High-Low-Close akcií. |
-| VolumeOpenHighLowClose | `61` | Reprezentuje graf Volume-Open-High-Low-Close akcií. |
-| Surface3D | `62` | Reprezentuje 3D povrchový graf. |
-| WireframeSurface3D | `63` | Reprezentuje drátěný 3D povrchový graf. |
-| Contour | `64` | Reprezentuje konturový graf. |
-| WireframeContour | `65` | Reprezentuje drátěný konturový graf. |
-| Doughnut | `66` | Reprezentuje prstencový graf. |
-| ExplodedDoughnut | `67` | Reprezentuje rozšířený prstencový graf. |
-| Bubble | `68` | Reprezentuje bublinový graf. |
-| BubbleWith3D | `69` | Reprezentuje 3D bublinový graf. |
-| Radar | `70` | Reprezentuje radarový graf. |
-| RadarWithMarkers | `71` | Reprezentuje radarový graf s datovými značkami. |
-| FilledRadar | `72` | Reprezentuje vyplněný radarový graf. |
-| SeriesOfMixedTypes | `73` | Tato hodnota může být vrácena pouze vlastností ChartEx.Type. Znamená, že graf má sérii smíšených typů. |
-| Treemap | `74` | Reprezentuje graf Treemap. |
-| Sunburst | `75` | Reprezentuje graf Sunburst. |
-| Histogram | `76` | Reprezentuje graf Histogram. |
-| ParetoLine | `77` | Reprezentuje typ řady Pareto line (graf Histogram Pareto). |
-| BoxAndWhisker | `78` | Reprezentuje graf BoxAndWhisker. |
-| Waterfall | `79` | Reprezentuje graf Waterfall. |
-| Funnel | `80` | Reprezentuje graf Funnel. |
-| Map | `81` | Reprezentuje graf Map. |
+| ClusteredColumn | `0` | Představuje Clustered Column Chart. |
+| StackedColumn | `1` | Představuje Stacked Column Chart. |
+| PercentsStackedColumn | `2` | Představuje 100% Stacked Column Chart. |
+| ClusteredColumn3D | `3` | Představuje 3D Colustered Column Chart. |
+| StackedColumn3D | `4` | Představuje 3D Stacked Column Chart. |
+| PercentsStackedColumn3D | `5` | Představuje 3D 100% Stacked Column Chart. |
+| Column3D | `6` | Představuje 3D Column Chart. |
+| ClusteredCylinder | `7` | Představuje Cylinder Chart. |
+| StackedCylinder | `8` | Představuje Stacked Cylinder Chart. |
+| PercentsStackedCylinder | `9` | Představuje 100% Stacked Cylinder Chart. |
+| Cylinder3D | `10` | Představuje 3D Cylindrical Column Chart. |
+| ClusteredCone | `11` | Představuje Cone Chart. |
+| StackedCone | `12` | Představuje Stacked Cone Chart. |
+| PercentsStackedCone | `13` | Představuje 100% Stacked Cone Chart. |
+| Cone3D | `14` | Představuje 3D Conical Column Chart. |
+| ClusteredPyramid | `15` | Představuje Pyramid Chart. |
+| StackedPyramid | `16` | Představuje Stacked Pyramid Chart. |
+| PercentsStackedPyramid | `17` | Představuje 100% Stacked Pyramid Chart. |
+| Pyramid3D | `18` | Představuje 3D Pyramid Column Chart. |
+| Line | `19` | Představuje Line Chart. |
+| StackedLine | `20` | Představuje Stacked Line Chart. |
+| PercentsStackedLine | `21` | Představuje 100% Stacked Line Chart. |
+| LineWithMarkers | `22` | Představuje Line Chart with data markers. |
+| StackedLineWithMarkers | `23` | Představuje Stacked Line Chart with data markers. |
+| PercentsStackedLineWithMarkers | `24` | Představuje 100% Stacked Line Chart with data markers. |
+| Line3D | `25` | Představuje 3D Line Chart. |
+| Pie | `26` | Představuje Pie Chart. |
+| Pie3D | `27` | Představuje 3D Pie Chart. |
+| PieOfPie | `28` | Představuje Pie of Pie Chart. |
+| ExplodedPie | `29` | Představuje Exploded Pie Chart. |
+| ExplodedPie3D | `30` | Představuje 3D Exploded Pie Chart. |
+| BarOfPie | `31` | Představuje Bar of Pie Chart. |
+| PercentsStackedBar | `32` | Představuje 100% Stacked Bar Chart. |
+| ClusteredBar3D | `33` | Představuje 3D Colustered Bar Chart. |
+| ClusteredBar | `34` | Představuje Clustered Bar Chart. |
+| StackedBar | `35` | Představuje Stacked Bar Chart. |
+| StackedBar3D | `36` | Představuje 3D Stacked Bar Chart. |
+| PercentsStackedBar3D | `37` | Představuje 3D 100% Stacked Bar Chart. |
+| ClusteredHorizontalCylinder | `38` | Představuje Cylindrical Bar Chart. |
+| StackedHorizontalCylinder | `39` | Představuje Stacked Cylindrical Bar Chart. |
+| PercentsStackedHorizontalCylinder | `40` | Představuje 100% Stacked Cylindrical Bar Chart. |
+| ClusteredHorizontalCone | `41` | Představuje Conical Bar Chart. |
+| StackedHorizontalCone | `42` | Představuje Stacked Conical Bar Chart. |
+| PercentsStackedHorizontalCone | `43` | Představuje 100% Stacked Conical Bar Chart. |
+| ClusteredHorizontalPyramid | `44` | Představuje Pyramid Bar Chart. |
+| StackedHorizontalPyramid | `45` | Představuje Stacked Pyramid Bar Chart. |
+| PercentsStackedHorizontalPyramid | `46` | Představuje 100% Stacked Pyramid Bar Chart. |
+| Area | `47` | Představuje Area Chart. |
+| StackedArea | `48` | Představuje Stacked Area Chart. |
+| PercentsStackedArea | `49` | Představuje 100% Stacked Area Chart. |
+| Area3D | `50` | Představuje 3D Area Chart. |
+| StackedArea3D | `51` | Představuje 3D Stacked Area Chart. |
+| PercentsStackedArea3D | `52` | Představuje 3D 100% Stacked Area Chart. |
+| ScatterWithMarkers | `53` | Představuje Scatter Chart. |
+| ScatterWithSmoothLinesAndMarkers | `54` | Představuje Scatter Chart connected by curves, with data markers. |
+| ScatterWithSmoothLines | `55` | Představuje Scatter Chart connected by curves, without data markers. |
+| ScatterWithStraightLinesAndMarkers | `56` | Představuje Scatter Chart connected by lines, with data markers. |
+| ScatterWithStraightLines | `57` | Představuje Scatter Chart connected by lines, without data markers. |
+| HighLowClose | `58` | Představuje High-Low-Close Stock Chart. |
+| OpenHighLowClose | `59` | Představuje Open-High-Low-Close Stock Chart. |
+| VolumeHighLowClose | `60` | Představuje Volume-High-Low-Close Stock Chart. |
+| VolumeOpenHighLowClose | `61` | Představuje Volume-Open-High-Low-Close Stock Chart. |
+| Surface3D | `62` | Představuje 3D Surface Chart. |
+| WireframeSurface3D | `63` | Představuje Wireframe 3D Surface Chart. |
+| Contour | `64` | Představuje Contour Chart. |
+| WireframeContour | `65` | Představuje Wireframe Contour Chart. |
+| Doughnut | `66` | Představuje Doughnut Chart. |
+| ExplodedDoughnut | `67` | Představuje Exploded Doughnut Chart. |
+| Bubble | `68` | Představuje Bubble Chart. |
+| BubbleWith3D | `69` | Představuje 3D Bubble Chart. |
+| Radar | `70` | Představuje Radar Chart. |
+| RadarWithMarkers | `71` | Představuje Radar Chart with data markers. |
+| FilledRadar | `72` | Představuje Filled Radar Chart. |
+| SeriesOfMixedTypes | `73` | Tato hodnota může být vrácena pouze vlastností ChartEx.Type. Znamená to, že graf má řadu smíšených typů. |
+| Treemap | `74` | Představuje Treemap chart. |
+| Sunburst | `75` | Představuje Sunburst chart. |
+| Histogram | `76` | Představuje Histogram chart. |
+| ParetoLine | `77` | Představuje Pareto line series type (Histogram Pareto chart). |
+| BoxAndWhisker | `78` | Představuje BoxAndWhisker chart. |
+| Waterfall | `79` | Představuje Waterfall chart. |
+| Funnel | `80` | Představuje Funnel chart. |
+| Map | `81` | Představuje Map chart. |
 
 ### Viz také
 
 * jmenný prostor [Aspose.Slides.Charts](../../aspose.slides.charts)
-* sestava [Aspose.Slides](../../)
+* sestavení [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

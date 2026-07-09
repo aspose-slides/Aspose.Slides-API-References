@@ -1,12 +1,12 @@
 ---
 title: IBehavior
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili perilaku kelas dasar dari efek.
 type: docs
-weight: 390
+weight: 410
 url: /id/aspose.slides.animation/ibehavior/
 ---
-## antarmuka IBehavior
+## IBehavior antarmuka
 
 Mewakili perilaku kelas dasar dari efek.
 
@@ -18,10 +18,10 @@ public interface IBehavior
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/ibehavior/accumulate) { get; set; } | Mewakili apakah perilaku animasi dikumpulkan. Baca/tulis [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Accumulate](../../aspose.slides.animation/ibehavior/accumulate) { get; set; } | Mewakili apakah perilaku animasi diakumulasi. Baca/tulis [`NullableBool`](../../aspose.slides/nullablebool). |
 | [Additive](../../aspose.slides.animation/ibehavior/additive) { get; set; } | Mewakili apakah perilaku animasi saat ini digabungkan dengan animasi lain yang sedang berjalan. Baca/tulis [`BehaviorAdditiveType`](../behavioradditivetype). |
 | [Properties](../../aspose.slides.animation/ibehavior/properties) { get; } | Mewakili properti perilaku. Baca-saja [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/ibehavior/timing) { get; set; } | Mewakili properti penjadwalan untuk perilaku efek. Baca/tulis [`ITiming`](../itiming). |
+| [Timing](../../aspose.slides.animation/ibehavior/timing) { get; set; } | Mewakili properti waktu untuk perilaku efek. Baca/tulis [`ITiming`](../itiming). |
 
 ### Lihat Juga
 

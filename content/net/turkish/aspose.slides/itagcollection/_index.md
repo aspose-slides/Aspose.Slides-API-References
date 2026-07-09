@@ -1,14 +1,14 @@
 ---
 title: ITagCollection
 second_title: Aspose.Sildes için .NET API Referansı
-description: Kullanıcı tanımlı dize çiftlerinden oluşan etiket koleksiyonunu temsil eder.
+description: Etiketlerin, kullanıcı tanımlı dize çiftlerinden oluşan koleksiyonunu temsil eder
 type: docs
-weight: 7240
+weight: 7260
 url: /tr/aspose.slides/itagcollection/
 ---
 ## ITagCollection arayüz
 
-Etiketlerin (kullanıcı tanımlı dize çiftleri) koleksiyonunu temsil eder.
+Etiketlerin (kullanıcı tanımlı string çiftleri) koleksiyonunu temsil eder.
 
 ```csharp
 public interface ITagCollection : IGenericCollection<KeyValuePair<string, string>>
@@ -30,7 +30,7 @@ public interface ITagCollection : IGenericCollection<KeyValuePair<string, string
 | [GetNameByIndex](../../aspose.slides/itagcollection/getnamebyindex)(int) | Belirtilen indeksteki bir etiketin anahtarını döndürür. |
 | [GetNamesOfTags](../../aspose.slides/itagcollection/getnamesoftags)() | Etiketlerin adlarını döndürür. |
 | [GetValueByIndex](../../aspose.slides/itagcollection/getvaluebyindex)(int) | Belirtilen indeksteki bir etiketin değerini döndürür. |
-| [IndexOfName](../../aspose.slides/itagcollection/indexofname)(string) | Koleksiyonda belirtilen anahtarın sıfır tabanlı indeksini döndürür. |
+| [IndexOfName](../../aspose.slides/itagcollection/indexofname)(string) | Koleksiyondaki belirtilen anahtarın sıfır tabanlı indeksini döndürür. |
 | [Remove](../../aspose.slides/itagcollection/remove)(string) | Koleksiyondan belirtilen ada sahip etiketi kaldırır. |
 | [RemoveAt](../../aspose.slides/itagcollection/removeat)(int) | Belirtilen indeksteki etiketi kaldırır. |
 

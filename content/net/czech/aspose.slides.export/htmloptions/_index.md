@@ -1,14 +1,14 @@
 ---
 title: HtmlOptions
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje možnosti exportu HTML.
+second_title: Aspose.Sildes pro .NET referenční příručka API
+description: Představuje možnosti exportu HTML.
 type: docs
-weight: 3870
+weight: 3890
 url: /cs/aspose.slides.export/htmloptions/
 ---
 ## HtmlOptions třída
 
-Representuje možnosti exportu HTML.
+Představuje možnosti exportu HTML.
 
 ```csharp
 public class HtmlOptions : SaveOptions, IHtmlOptions
@@ -18,34 +18,34 @@ public class HtmlOptions : SaveOptions, IHtmlOptions
 
 | Název | Popis |
 | --- | --- |
-| [HtmlOptions](htmloptions#constructor)() | Vytvoří nový objekt HtmlOptions pro uložení do jediného souboru HTML. |
+| [HtmlOptions](htmloptions#constructor)() | Vytvoří nový objekt HtmlOptions pro uložení do jediného HTML souboru. |
 | [HtmlOptions](htmloptions#constructor_1)(ILinkEmbedController) | Vytvoří nový objekt HtmlOptions specifikující zpětné volání. |
 
 ## Vlastnosti
 
 | Název | Popis |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Vrací nebo nastavuje písmo použité v případě, že výchozí písmo není nalezeno. Číst/psát String. |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/htmloptions/deletepicturescroppedareas) { get; set; } | Boolean příznak, který určuje, zda oříznuté části zůstávají součástí dokumentu. Pokud je true, oříznuté části budou odstraněny, pokud je false, budou v dokumentu serializovány (což může vést k většímu souboru). |
-| [DisableFontLigatures](../../aspose.slides.export/htmloptions/disablefontligatures) { get; set; } | Vrací nebo nastavuje hodnotu určující, zda je text vykreslen bez použití ligatur. Pokud je nastavena na `true`, ligatury budou v renderovaném výstupu zakázány. Ve výchozím nastavení je tato vlastnost nastavena na `false`. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Vrací nebo nastavuje vizuální styl gradientu. Číst/psát [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [HtmlFormatter](../../aspose.slides.export/htmloptions/htmlformatter) { get; set; } | Vrací nebo nastavuje HTML šablonu. Číst/psát [`IHtmlFormatter`](../ihtmlformatter). |
-| [InkOptions](../../aspose.slides.export/htmloptions/inkoptions) { get; } | Poskytuje možnosti, které řídí vzhled Ink objektů v exportovaném dokumentu. Pouze pro čtení [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/htmloptions/jpegquality) { get; set; } | Vrací nebo nastavuje hodnotu určující kvalitu JPEG obrázků v PDF dokumentu. Číst/psát Byte. |
-| [PicturesCompression](../../aspose.slides.export/htmloptions/picturescompression) { get; set; } | Reprezentuje úroveň komprese obrázků |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Reprezentuje objekt zpětného volání pro ukládání průběžných aktualizací v procentech. Viz [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [ShowHiddenSlides](../../aspose.slides.export/htmloptions/showhiddenslides) { get; set; } | Určuje, zda vygenerovaný dokument má zahrnovat skryté snímky, nebo ne. Výchozí hodnota je `false`. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Určuje, zda při ukládání prezentace přeskočit hypertextové odkazy s voláním JavaScriptu. Číst/psát Boolean. Výchozí hodnota je **false**. |
-| [SlideImageFormat](../../aspose.slides.export/htmloptions/slideimageformat) { get; set; } | Vrací nebo nastavuje možnosti formátu obrázku snímku. Číst/psát [`ISlideImageFormat`](../islideimageformat). |
-| [SlidesLayoutOptions](../../aspose.slides.export/htmloptions/slideslayoutoptions) { get; set; } | Vrací nebo nastavuje režim, ve kterém jsou snímky umístěny na stránce při exportu prezentace [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [SvgResponsiveLayout](../../aspose.slides.export/htmloptions/svgresponsivelayout) { get; set; } | True pro vyloučení atributů šířky a výšky z kontejneru svg – to způsobí responzivní rozvržení. False – v opačném případě. Číst/psát Boolean. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Vrací nebo nastavuje objekt, který přijímá varování a rozhoduje, zda bude načítací proces pokračovat, nebo bude přerušen. Číst/psát [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Vrací nebo nastavuje písmo použité v případě, že zdrojové písmo není nalezeno. Čtení-zápis String. |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/htmloptions/deletepicturescroppedareas) { get; set; } | Boolean příznak určuje, zda oříznuté části zůstávají součástí dokumentu. Pokud je true, oříznuté části budou odstraněny, pokud je false, budou v dokumentu serializovány (což může vést k většímu souboru). |
+| [DisableFontLigatures](../../aspose.slides.export/htmloptions/disablefontligatures) { get; set; } | Vrací nebo nastavuje hodnotu určující, zda je text vykreslen bez použití ligatur. Pokud je nastavena na `true`, ligatury budou ve výstupu zakázány. Ve výchozím nastavení je tato vlastnost nastavena na `false`. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Vrací nebo nastavuje vizuální styl gradientu. Čtení-zápis [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [HtmlFormatter](../../aspose.slides.export/htmloptions/htmlformatter) { get; set; } | Vrací nebo nastavuje HTML šablonu. Čtení-zápis [`IHtmlFormatter`](../ihtmlformatter). |
+| [InkOptions](../../aspose.slides.export/htmloptions/inkoptions) { get; } | Poskytuje možnosti, které řídí vzhled objektů Ink v exportovaném dokumentu. Pouze pro čtení [`IInkOptions`](../iinkoptions) |
+| [JpegQuality](../../aspose.slides.export/htmloptions/jpegquality) { get; set; } | Vrací nebo nastavuje hodnotu určující kvalitu JPEG obrázků v PDF dokumentu. Čtení-zápis Byte. |
+| [PicturesCompression](../../aspose.slides.export/htmloptions/picturescompression) { get; set; } | Představuje úroveň komprese obrázků |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Představuje objekt zpětného volání pro ukládání aktualizací průběhu v procentech. Viz [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [ShowHiddenSlides](../../aspose.slides.export/htmloptions/showhiddenslides) { get; set; } | Určuje, zda vygenerovaný dokument má zahrnovat skryté snímky nebo ne. Výchozí hodnota je `false`. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Určuje, zda při ukládání prezentace přeskočit hypertextové odkazy s voláním JavaScriptu. Čtení-zápis Boolean. Výchozí hodnota je **false**. |
+| [SlideImageFormat](../../aspose.slides.export/htmloptions/slideimageformat) { get; set; } | Vrací nebo nastavuje možnosti formátu obrázku snímku. Čtení-zápis [`ISlideImageFormat`](../islideimageformat). |
+| [SlidesLayoutOptions](../../aspose.slides.export/htmloptions/slideslayoutoptions) { get; set; } | Vrací nebo nastavuje režim, ve kterém jsou snímky umístěny na stránku při exportu prezentace [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [SvgResponsiveLayout](../../aspose.slides.export/htmloptions/svgresponsivelayout) { get; set; } | True pro vyloučení atributů šířka a výška ze SVG kontejneru – tím se layout stane responzivním. False – v opačném případě. Čtení-zápis Boolean. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Vrací nebo nastavuje objekt, který přijímá varování a rozhoduje, zda proces načítání bude pokračovat nebo bude přerušen. Čtení-zápis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Viz také
 
 * třída [SaveOptions](../saveoptions)
 * rozhraní [IHtmlOptions](../ihtmloptions)
 * jmenný prostor [Aspose.Slides.Export](../../aspose.slides.export)
-* sestavení [Aspose.Slides](../../)
+* sestava [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

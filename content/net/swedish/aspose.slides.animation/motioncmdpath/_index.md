@@ -3,7 +3,7 @@ title: MotionCmdPath
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar ett kommando i en bana.
 type: docs
-weight: 630
+weight: 650
 url: /sv/aspose.slides.animation/motioncmdpath/
 ---
 ## MotionCmdPath klass
@@ -21,7 +21,7 @@ public class MotionCmdPath : IMotionCmdPath
 | [CommandType](../../aspose.slides.animation/motioncmdpath/commandtype) { get; set; } | Anger kommandotyp. Läs/skriv [`MotionCommandPathType`](../motioncommandpathtype). |
 | [IsRelative](../../aspose.slides.animation/motioncmdpath/isrelative) { get; set; } | Bestämmer om kommandokoordinaterna är relativa eller inte. Läs/skriv Boolean. |
 | [Points](../../aspose.slides.animation/motioncmdpath/points) { get; set; } | Anger kommandopunkter. Läs/skriv PointF[]. |
-| [PointsType](../../aspose.slides.animation/motioncmdpath/pointstype) { get; set; } | Anger kommandopunkttyp Läs/skriv [`MotionPathPointsType`](../motionpathpointstype). |
+| [PointsType](../../aspose.slides.animation/motioncmdpath/pointstype) { get; set; } | Anger kommandopunktstyp Läs/skriv [`MotionPathPointsType`](../motionpathpointstype). |
 
 ### Se även
 

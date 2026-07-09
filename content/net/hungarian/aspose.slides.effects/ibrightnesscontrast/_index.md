@@ -1,14 +1,14 @@
 ---
 title: IBrightnessContrast
-second_title: Aspose.Sildes a .NET-hez API-referencia
+second_title: Aspose.Sildes .NET API-referencia
 description: Egy BrightnessContrast effektust képvisel. Módosítja a fényerőt és a kontrasztot
 type: docs
-weight: 3180
+weight: 3200
 url: /hu/aspose.slides.effects/ibrightnesscontrast/
 ---
 ## IBrightnessContrast interfész
 
-Egy BrightnessContrast effektust képvisel. Módosítja a fényerőt és a kontrasztot
+Egy BrightnessContrast hatást képvisel. Módosítja a fényerőt és a kontrasztot
 
 ```csharp
 public interface IBrightnessContrast : IAccessiblePVIObject<IBrightnessContrastEffectiveData>, 

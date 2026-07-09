@@ -1,12 +1,12 @@
 ---
 title: IChartDataCell
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili sel untuk data diagram.
 type: docs
-weight: 1790
+weight: 1810
 url: /id/aspose.slides.charts/ichartdatacell/
 ---
-## IChartDataCell antarmuka
+## antarmuka IChartDataCell
 
 Mewakili sel untuk data diagram.
 
@@ -16,21 +16,21 @@ public interface IChartDataCell
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [ChartDataWorksheet](../../aspose.slides.charts/ichartdatacell/chartdataworksheet) { get; } | Mengambil lembar kerja. Hanya-baca [`IChartDataWorksheet`](../ichartdataworksheet). |
-| [Column](../../aspose.slides.charts/ichartdatacell/column) { get; } | Mengembalikan indeks kolom lembar kerja tempat sel berada. Hanya-baca Int32. |
+| [ChartDataWorksheet](../../aspose.slides.charts/ichartdatacell/chartdataworksheet) { get; } | Mengambil lembar kerja. Hanya baca [`IChartDataWorksheet`](../ichartdataworksheet). |
+| [Column](../../aspose.slides.charts/ichartdatacell/column) { get; } | Mengembalikan indeks kolom lembar kerja tempat sel berada. Hanya baca Int32. |
 | [CustomNumberFormat](../../aspose.slides.charts/ichartdatacell/customnumberformat) { get; set; } | Mengambil atau mengatur format tampilan khusus untuk angka dan tanggal. Jika nilai kosong, nilai PresetNumberFormat akan digunakan. Baca/tulis String. |
 | [Formula](../../aspose.slides.charts/ichartdatacell/formula) { get; set; } | Mengambil atau mengatur rumus dalam gaya A1. |
-| [IsHidden](../../aspose.slides.charts/ichartdatacell/ishidden) { get; } | Menentukan apakah sel disembunyikan. Hanya-baca Boolean. |
+| [IsHidden](../../aspose.slides.charts/ichartdatacell/ishidden) { get; } | Menentukan apakah sel disembunyikan. Hanya baca Boolean. |
 | [PresetNumberFormat](../../aspose.slides.charts/ichartdatacell/presetnumberformat) { get; set; } | Mengambil atau mengatur format tampilan bawaan untuk angka dan tanggal. Nomor preset harus berada dalam [0..22] atau [37..49]. Baca/tulis Byte. |
 | [R1C1Formula](../../aspose.slides.charts/ichartdatacell/r1c1formula) { get; set; } | Mengambil atau mengatur rumus dalam gaya R1C1. |
-| [Row](../../aspose.slides.charts/ichartdatacell/row) { get; } | Mengembalikan indeks baris lembar kerja tempat sel berada. Hanya-baca Int32. |
-| [Value](../../aspose.slides.charts/ichartdatacell/value) { get; set; } | Mengambil atau mengatur nilai sebuah sel. Baca/tulis Object. |
+| [Row](../../aspose.slides.charts/ichartdatacell/row) { get; } | Mengembalikan indeks baris lembar kerja tempat sel berada. Hanya baca Int32. |
+| [Value](../../aspose.slides.charts/ichartdatacell/value) { get; set; } | Mengambil atau mengatur nilai sel. Baca/tulis Object. |
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [Calculate](../../aspose.slides.charts/ichartdatacell/calculate)(bool) | Jika sel berisi rumus, nilai akan diperbarui berdasarkan rumus tersebut. |
 

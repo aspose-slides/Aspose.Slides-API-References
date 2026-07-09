@@ -1,12 +1,12 @@
 ---
 title: BrowsedAtKiosk
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Kiosk'ta tam ekran görüntülendi
 type: docs
-weight: 1020
+weight: 1040
 url: /tr/aspose.slides/browsedatkiosk/
 ---
-## BrowsedAtKiosk sınıfı
+## BrowsedAtKiosk sınıf
 
 Kiosk'ta görüntülendi (tam ekran)
 

@@ -1,14 +1,14 @@
 ---
 title: TransitionShredPattern
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Specifica una forma geometrica che si dispone a tasselli per riempire un'area più ampia.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Specifica una forma geometrica che si combina per riempire un'area più grande.
 type: docs
-weight: 10390
+weight: 10410
 url: /it/aspose.slides.slideshow/transitionshredpattern/
 ---
-## Enumerazione TransitionShredPattern
+## enumerazione TransitionShredPattern
 
-Specifica una forma geometrica che si dispone a tasselli per riempire un'area più ampia.
+Specifica una forma geometrica che si combina per riempire un'area più grande.
 
 ```csharp
 public enum TransitionShredPattern

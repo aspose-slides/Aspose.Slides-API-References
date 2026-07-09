@@ -3,7 +3,7 @@ title: IDigitalSignature
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Firma digitale nel file firmato.
 type: docs
-weight: 5670
+weight: 5690
 url: /it/aspose.slides/idigitalsignature/
 ---
 ## IDigitalSignature interfaccia
@@ -18,10 +18,10 @@ public interface IDigitalSignature
 
 | Nome | Descrizione |
 | --- | --- |
-| [Certificate](../../aspose.slides/idigitalsignature/certificate) { get; } | Oggetto certificato che è stato usato per firmare il documento. Solo lettura X509Certificate2. |
+| [Certificate](../../aspose.slides/idigitalsignature/certificate) { get; } | Oggetto certificato usato per firmare il documento. Sola lettura X509Certificate2. |
 | [Comments](../../aspose.slides/idigitalsignature/comments) { get; set; } | Lo scopo della firma. Lettura/scrittura String. |
-| [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | Se questa firma digitale è valida e il documento non è stato manomesso, questo valore sarà true. Solo lettura Boolean. |
-| [SignTime](../../aspose.slides/idigitalsignature/signtime) { get; } | Il momento in cui il documento è stato firmato. Solo lettura DateTime. |
+| [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | Se questa firma digitale è valida e il documento non è stato manomesso, questo valore sarà vero. Sola lettura Boolean. |
+| [SignTime](../../aspose.slides/idigitalsignature/signtime) { get; } | Il momento in cui il documento è stato firmato. Sola lettura DateTime. |
 
 ### Vedi anche
 

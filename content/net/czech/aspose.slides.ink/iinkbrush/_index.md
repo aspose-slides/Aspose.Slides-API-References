@@ -1,14 +1,14 @@
 ---
 title: IInkBrush
-second_title: Aspose.Sildes pro .NET API referenci
-description: Představuje kreslicí štětec.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Reprezentuje stopovací štětec.
 type: docs
-weight: 7510
+weight: 7530
 url: /cs/aspose.slides.ink/iinkbrush/
 ---
 ## IInkBrush rozhraní
 
-Představuje kreslicí štětec.
+Reprezentuje stopovací štětec.
 
 ```csharp
 public interface IInkBrush
@@ -19,7 +19,7 @@ public interface IInkBrush
 | Název | Popis |
 | --- | --- |
 | [Color](../../aspose.slides.ink/iinkbrush/color) { get; set; } | Získá nebo nastaví barvu štětce pro čáru. |
-| [InkEffect](../../aspose.slides.ink/iinkbrush/inkeffect) { get; } | Získá typ efektu inkoustu (např. Galaxy, Gold, Silver), který určuje vizuální styl tahu inkoustu. Hodnota je načtena z vlastnosti štětce "inkEffects". Pokud není zadán žádný rozpoznaný efekt, vrací se NotDefined. |
+| [InkEffect](../../aspose.slides.ink/iinkbrush/inkeffect) { get; } | Získá typ efektu inkoustu (např. Galaxy, Gold, Silver), který určuje vizuální styl tahů inkoustu. Hodnota je získána z vlastnosti štětce "inkEffects". Pokud není zadán žádný rozpoznaný efekt, vrátí se NotDefined. |
 | [Size](../../aspose.slides.ink/iinkbrush/size) { get; set; } | Získá nebo nastaví velikost štětce pro čáru v bodech. |
 
 ### Viz také

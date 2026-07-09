@@ -1,14 +1,14 @@
 ---
 title: PresentationAnimationsGenerator
 second_title: Aspose.Sildes for .NET API リファレンス
-description: Presentation../aspose.slides/presentation 内のアニメーションのジェネレータを表します。
+description: Presentation../aspose.slides/presentation のアニメーション ジェネレーターを表します。
 type: docs
-weight: 4360
+weight: 4380
 url: /ja/aspose.slides.export/presentationanimationsgenerator/
 ---
 ## PresentationAnimationsGenerator クラス
 
-[`Presentation`](../../aspose.slides/presentation) のアニメーションのジェネレータを表します。
+[`Presentation`](../../aspose.slides/presentation) のアニメーション ジェネレーターを表します。
 
 ```csharp
 public class PresentationAnimationsGenerator : IDisposable
@@ -25,8 +25,8 @@ public class PresentationAnimationsGenerator : IDisposable
 
 | 名前 | 説明 |
 | --- | --- |
-| [DefaultDelay](../../aspose.slides.export/presentationanimationsgenerator/defaultdelay) { get; set; } | デフォルトの遅延時間（ミリ秒）を取得または設定します。 |
-| [ExportedSlides](../../aspose.slides.export/presentationanimationsgenerator/exportedslides) { get; } | エクスポートされたスライド数を取得します。 |
+| [DefaultDelay](../../aspose.slides.export/presentationanimationsgenerator/defaultdelay) { get; set; } | デフォルトの遅延時間 [ms] を取得または設定します。 |
+| [ExportedSlides](../../aspose.slides.export/presentationanimationsgenerator/exportedslides) { get; } | エクスポートされたスライドの数を取得します。 |
 | [IncludeHiddenSlides](../../aspose.slides.export/presentationanimationsgenerator/includehiddenslides) { get; set; } | 非表示スライドを含めるかどうかを取得または設定します。 |
 
 ## メソッド
@@ -34,8 +34,8 @@ public class PresentationAnimationsGenerator : IDisposable
 | 名前 | 説明 |
 | --- | --- |
 | [Dispose](../../aspose.slides.export/presentationanimationsgenerator/dispose)() | [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) のインスタンスを破棄します。 |
-| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run)(IEnumerable&lt;ISlide&gt;) | 各スライドのアニメーションイベント生成を実行します。 |
-| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run_1)(IEnumerable&lt;ISlide&gt;, int, FrameTickHandler) | 各スライドのアニメーションイベント生成を実行します。 |
+| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run)(IEnumerable&lt;ISlide&gt;) | 各スライドのアニメーション イベント生成を実行します。 |
+| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run_1)(IEnumerable&lt;ISlide&gt;, int, FrameTickHandler) | 各スライドのアニメーション イベント生成を実行します。 |
 
 ## フィールド
 
@@ -49,7 +49,7 @@ public class PresentationAnimationsGenerator : IDisposable
 | --- | --- |
 | event [NewAnimation](../../aspose.slides.export/presentationanimationsgenerator/newanimation) | 新しいアニメーションが生成されたことを表すイベントです。 |
 
-### 使用例
+### 例
 
 ```csharp
 [C#]

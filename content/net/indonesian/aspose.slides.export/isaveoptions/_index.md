@@ -3,10 +3,10 @@ title: ISaveOptions
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Opsi yang mengontrol bagaimana presentasi disimpan.
 type: docs
-weight: 4050
+weight: 4070
 url: /id/aspose.slides.export/isaveoptions/
 ---
-## ISaveOptions antarmuka
+## ISaveOptions interface
 
 Opsi yang mengontrol bagaimana presentasi disimpan.
 
@@ -19,9 +19,9 @@ public interface ISaveOptions
 | Nama | Deskripsi |
 | --- | --- |
 | [DefaultRegularFont](../../aspose.slides.export/isaveoptions/defaultregularfont) { get; set; } | Mengembalikan atau mengatur font yang digunakan jika font sumber tidak ditemukan. Baca-tulis String. |
-| [GradientStyle](../../aspose.slides.export/isaveoptions/gradientstyle) { get; set; } | Mengembalikan atau mengatur gaya visual gradasi. Baca/tulis [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/isaveoptions/progresscallback) { get; set; } | Mewakili objek callback untuk memperbarui kemajuan penyimpanan dalam persentase. Lihat [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/isaveoptions/skipjavascriptlinks) { get; set; } | Menentukan apakah akan melewati hyperlink dengan panggilan JavaScript saat menyimpan presentasi. Baca/tulis Boolean. Nilai default adalah **false**. |
+| [GradientStyle](../../aspose.slides.export/isaveoptions/gradientstyle) { get; set; } | Mengembalikan atau mengatur gaya visual dari gradasi. Baca/tulis [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/isaveoptions/progresscallback) { get; set; } | Mewakili objek callback untuk pembaruan kemajuan penyimpanan dalam persentase. Lihat [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/isaveoptions/skipjavascriptlinks) { get; set; } | Menentukan apakah akan melewatkan hyperlink dengan pemanggilan JavaScript saat menyimpan presentasi. Baca/tulis Boolean. Nilai defaultnya adalah **false**. |
 | [WarningCallback](../../aspose.slides.export/isaveoptions/warningcallback) { get; set; } | Mengembalikan atau mengatur objek yang menerima peringatan dan memutuskan apakah proses pemuatan akan dilanjutkan atau dibatalkan. Baca/tulis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Lihat Juga

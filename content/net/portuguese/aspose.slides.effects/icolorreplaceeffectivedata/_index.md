@@ -1,9 +1,9 @@
 ---
 title: IColorReplaceEffectiveData
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Aspose.Sildes para Referência de API .NET
 description: Objeto imutável que representa um efeito de Substituição de Cor. Todas as cores do efeito são alteradas para uma cor fixa. Os valores alfa não são afetados.
 type: docs
-weight: 3230
+weight: 3250
 url: /pt/aspose.slides.effects/icolorreplaceeffectivedata/
 ---
 ## IColorReplaceEffectiveData interface
@@ -21,7 +21,7 @@ public interface IColorReplaceEffectiveData : IEffectEffectiveData
 | [AsIEffectEffectiveData](../../aspose.slides.effects/icolorreplaceeffectivedata/asieffecteffectivedata) { get; } | Permite obter a interface base IEffectEffectiveData. Somente leitura [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Color](../../aspose.slides.effects/icolorreplaceeffectivedata/color) { get; } | Retorna o formato de cor que substituirá a cor de cada pixel. Somente leitura Color. |
 
-### Veja Também
+### Ver também
 
 * interface [IEffectEffectiveData](../ieffecteffectivedata)
 * namespace [Aspose.Slides.Effects](../../aspose.slides.effects)

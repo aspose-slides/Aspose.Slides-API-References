@@ -1,24 +1,24 @@
 ---
 title: MathSuperscriptElementFactory
-second_title: Aspose.Sildes .NET API Referansı
-description: IMathSuperscriptElement oluşturmayı sağlar
+second_title: Aspose.Sildes için .NET API Referansı
+description: IMathSuperscriptElement oluşturulmasına izin verir
 type: docs
-weight: 9010
+weight: 9030
 url: /tr/aspose.slides.mathtext/mathsuperscriptelementfactory/
 ---
 ## MathSuperscriptElementFactory sınıfı
 
-IMathSuperscriptElement oluşturmayı sağlar
+IMathSuperscriptElement oluşturulmasına izin verir
 
 ```csharp
 public class MathSuperscriptElementFactory : IMathSuperscriptElementFactory
 ```
 
-## Yapılandırıcılar
+## Yapıcılar
 
 | Ad | Açıklama |
 | --- | --- |
-| [MathSuperscriptElementFactory](mathsuperscriptelementfactory)() | Varsayılan yapılandırıcı. |
+| [MathSuperscriptElementFactory](mathsuperscriptelementfactory)() | Varsayılan yapıcı. |
 
 ## Yöntemler
 
@@ -30,7 +30,7 @@ public class MathSuperscriptElementFactory : IMathSuperscriptElementFactory
 
 COM uyumluluğu için
 
-### Ayrıca Bakınız
+### Ayrıca bakınız
 
 * arayüz [IMathSuperscriptElementFactory](../imathsuperscriptelementfactory)
 * ad alanı [Aspose.Slides.MathText](../../aspose.slides.mathtext)

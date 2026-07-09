@@ -3,7 +3,7 @@ title: IShapeStyle
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje odkaz na styl tvarů.
 type: docs
-weight: 6990
+weight: 7010
 url: /cs/aspose.slides/ishapestyle/
 ---
 ## IShapeStyle rozhraní
@@ -19,13 +19,13 @@ public interface IShapeStyle
 | Název | Popis |
 | --- | --- |
 | [EffectColor](../../aspose.slides/ishapestyle/effectcolor) { get; } | Vrací barvu efektu tvaru. Pouze pro čtení [`IColorFormat`](../icolorformat). |
-| [EffectStyleIndex](../../aspose.slides/ishapestyle/effectstyleindex) { get; set; } | Vrací nebo nastavuje sloupcový index efektu tvaru v matici stylu. Čtení/Zápis UInt32. |
+| [EffectStyleIndex](../../aspose.slides/ishapestyle/effectstyleindex) { get; set; } | Vrací nebo nastavuje index sloupce efektu tvaru ve stylové matici. Čtení/zápis UInt32. |
 | [FillColor](../../aspose.slides/ishapestyle/fillcolor) { get; } | Vrací barvu výplně tvaru. Pouze pro čtení [`IColorFormat`](../icolorformat). |
-| [FillStyleIndex](../../aspose.slides/ishapestyle/fillstyleindex) { get; set; } | Vrací nebo nastavuje sloupcový index výplně tvaru v maticích stylu. 0 znamená žádnou výplň, kladná hodnota – index ve stylu výplně motivu, záporná hodnota – index ve stylu pozadí motivu. Čtení/Zápis Int16. |
-| [FontCollectionIndex](../../aspose.slides/ishapestyle/fontcollectionindex) { get; set; } | Vrací nebo nastavuje index písma tvaru v kolekci písem. Čtení/Zápis [`FontCollectionIndex`](../fontcollectionindex). |
+| [FillStyleIndex](../../aspose.slides/ishapestyle/fillstyleindex) { get; set; } | Vrací nebo nastavuje index sloupce výplně tvaru ve stylových maticích. 0 znamená žádnou výplň, kladná hodnota – index ve stylu výplně motivu, záporná hodnota – index ve stylu pozadí motivu. Čtení/zápis Int16. |
+| [FontCollectionIndex](../../aspose.slides/ishapestyle/fontcollectionindex) { get; set; } | Vrací nebo nastavuje index písma tvaru v kolekci písem. Čtení/zápis [`FontCollectionIndex`](../fontcollectionindex). |
 | [FontColor](../../aspose.slides/ishapestyle/fontcolor) { get; } | Vrací barvu písma tvaru. Pouze pro čtení [`IColorFormat`](../icolorformat). |
 | [LineColor](../../aspose.slides/ishapestyle/linecolor) { get; } | Vrací barvu obrysu tvaru. Pouze pro čtení [`IColorFormat`](../icolorformat). |
-| [LineStyleIndex](../../aspose.slides/ishapestyle/linestyleindex) { get; set; } | Vrací nebo nastavuje sloupcový index čáry v matici stylu. Čtení/Zápis UInt16. |
+| [LineStyleIndex](../../aspose.slides/ishapestyle/linestyleindex) { get; set; } | Vrací nebo nastavuje index sloupce čáry ve stylové matici. Čtení/zápis UInt16. |
 
 ### Viz také
 

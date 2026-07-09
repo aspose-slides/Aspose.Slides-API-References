@@ -3,10 +3,10 @@ title: ILightRig
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar LightRig.
 type: docs
-weight: 6250
+weight: 6270
 url: /sv/aspose.slides/ilightrig/
 ---
-## ILightRig interface
+## ILightRig gränssnitt
 
 Representerar LightRig.
 
@@ -19,14 +19,14 @@ public interface ILightRig
 | Namn | Beskrivning |
 | --- | --- |
 | [Direction](../../aspose.slides/ilightrig/direction) { get; set; } | Ljusriktning. Läs/skriv [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | Representerar en förinställd ljusriktning som kan tillämpas på en form. Light rig representerar en grupp av ljus som är orienterade på ett specifikt sätt i förhållande till en 3D-scen. Läs/skriv [`LightRigPresetType`](../lightrigpresettype). |
+| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | Representerar en förinställd ljusriktning som kan tillämpas på en form. Ljusriggen representerar en grupp ljus som är orienterade på ett specifikt sätt i förhållande till en 3D-scen. Läs/skriv [`LightRigPresetType`](../lightrigpresettype). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | En rotation definieras genom användning av en latitudkoordinat, en longitudkoordinat och en rotation kring axeln som latitud- och longitudkoordinaterna. första element i returarray - latitud, andra - longitud, tredje - rotation. |
-| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | En rotation definieras genom användning av en latitudkoordinat, en longitudkoordinat och en rotation kring axeln som latitud- och longitudkoordinaterna. |
+| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | En rotation definieras genom användning av en latitudkoordinat, en longitudkoordinat och en rotation kring axeln som latitud- och longitudkoordinater. första elementet i returarrayen – latitud, andra – longitud, tredje – rotation. |
+| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | En rotation definieras genom användning av en latitudkoordinat, en longitudkoordinat och en rotation kring axeln som latitud- och longitudkoordinater. |
 
 ### Se även
 

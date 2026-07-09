@@ -1,14 +1,14 @@
 ---
 title: TransitionValueBase
-second_title: Aspose.Sildes for .NET API リファレンス
-description: スライド トランジション効果の基底クラス。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: スライド遷移効果の基本クラスです。
 type: docs
-weight: 10440
+weight: 10460
 url: /ja/aspose.slides.slideshow/transitionvaluebase/
 ---
 ## TransitionValueBase クラス
 
-スライド トランジション効果の基底クラス。
+スライド遷移効果の基本クラスです。
 
 ```csharp
 public class TransitionValueBase : ITransitionValueBase
@@ -18,8 +18,8 @@ public class TransitionValueBase : ITransitionValueBase
 
 | 名前 | 説明 |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 2 つの TransitionValueBase インスタンスが等しいかどうかを判断します。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 特定の型に対するハッシュ関数として機能し、ハッシュアルゴリズムやハッシュテーブルなどのデータ構造での使用に適しています。 |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 2つの TransitionValueBase インスタンスが等しいかどうかを判断します。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 特定の型に対するハッシュ関数として機能し、ハッシュアルゴリズムやハッシュテーブルのようなデータ構造での使用に適しています。 |
 
 ### 参照
 

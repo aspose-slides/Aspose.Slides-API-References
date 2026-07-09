@@ -1,14 +1,14 @@
 ---
 title: RotationEffect
-second_title: Aspose.Sildes .NET API Referenciája
-description: Az effekt forgatási viselkedését reprezentálja.
+second_title: Aspose.Sildes a .NET API referenciához
+description: Az effektus forgatási viselkedését képviseli.
 type: docs
-weight: 750
+weight: 770
 url: /hu/aspose.slides.animation/rotationeffect/
 ---
 ## RotationEffect osztály
 
-Az effekt forgatási viselkedését reprezentálja.
+Az effektus forgatási viselkedését képviseli.
 
 ```csharp
 public class RotationEffect : Behavior, IRotationEffect
@@ -24,12 +24,12 @@ public class RotationEffect : Behavior, IRotationEffect
 
 | Név | Leírás |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Képviseli, hogy az animációs viselkedések összegyűlnek-e. Olvasás/írás [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Képviseli, hogy a jelenlegi animációs viselkedés kombinálva van-e más futó animációkkal. Olvasás/írás [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [By](../../aspose.slides.animation/rotationeffect/by) { get; set; } | Leírja az animáció relatív eltolás értékét. Olvasás/írás Single. |
-| [From](../../aspose.slides.animation/rotationeffect/from) { get; set; } | Leírja az animáció kiinduló értékét. Olvasás/írás Single. |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Képviseli a viselkedés tulajdonságait. Csak olvasható [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Képviseli az effekt viselkedés időzítési tulajdonságait. Olvasás/írás [`ITiming`](../itiming). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Jelzi, hogy az animáció viselkedései felhalmozódnak-e. Olvasás/írás [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Jelzi, hogy az aktuális animáció viselkedése össze van-e kombinálva más futó animációkkal. Olvasás/írás [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [By](../../aspose.slides.animation/rotationeffect/by) { get; set; } | Leírja az animáció relatív eltolási értékét. Olvasás/írás Single. |
+| [From](../../aspose.slides.animation/rotationeffect/from) { get; set; } | Leírja az animáció kezdőértékét. Olvasás/írás Single. |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Jelzi a viselkedés tulajdonságait. Csak olvasható [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Jelzi az effektus viselkedésének időzítési tulajdonságait. Olvasás/írás [`ITiming`](../itiming). |
 | [To](../../aspose.slides.animation/rotationeffect/to) { get; set; } | Leírja az animáció befejező értékét. Olvasás/írás Single. |
 
 ### Lásd még

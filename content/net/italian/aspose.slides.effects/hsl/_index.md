@@ -1,14 +1,14 @@
 ---
 title: HSL
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta un effetto Hue/Saturation/Luminance. Hue, saturation e luminance possono essere regolati in modo relativo al loro valore corrente.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta un effetto di tonalità/saturazione/luminanza. La tonalità, la saturazione e la luminanza possono essere regolate individualmente rispetto al loro valore corrente.
 type: docs
-weight: 2990
+weight: 3010
 url: /it/aspose.slides.effects/hsl/
 ---
-## Classe HSL
+## classe HSL
 
-Rappresenta un effetto Hue/Saturation/Luminance. Hue, saturation e luminance possono essere regolati in modo relativo al loro valore corrente.
+Rappresenta un effetto di tonalità/saturazione/luminanza. La tonalità, la saturazione e la luminanza possono essere regolate ciascuna rispetto al valore corrente.
 
 ```csharp
 public sealed class HSL : ImageTransformOperation, IHSL
@@ -25,8 +25,8 @@ public sealed class HSL : ImageTransformOperation, IHSL
 | Nome | Descrizione |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/hsl/equals)(object) | Determina se il [`HSL`](../hsl) specificato è uguale al [`HSL`](../hsl) corrente. |
-| [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | Ottiene i dati dell'effetto Hue/Saturation/Luminance effettivo con l'ereditarietà applicata. |
-| override [GetHashCode](../../aspose.slides.effects/hsl/gethashcode)() | Funziona come funzione hash per un tipo specifico. |
+| [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | Ottiene i dati dell'effetto di tonalità/saturazione/luminanza effettivo con l'ereditarietà applicata. |
+| override [GetHashCode](../../aspose.slides.effects/hsl/gethashcode)() | Funziona come funzione hash per un tipo particolare. |
 
 ### Vedi anche
 

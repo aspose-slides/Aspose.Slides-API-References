@@ -1,14 +1,14 @@
 ---
 title: IInOutTransition
-second_title: Aspose.Sildes dla .NET Referencja API
-description: Efekt przejścia slajdu In-Out.
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Efekt przejścia slajdu w trybie wejścia i wyjścia.
 type: docs
-weight: 10090
+weight: 10110
 url: /pl/aspose.slides.slideshow/iinouttransition/
 ---
 ## IInOutTransition interfejs
 
-Efekt przejścia slajdu In-Out.
+Efekt przejścia slajdu w trybie wejścia-wyjścia.
 
 ```csharp
 public interface IInOutTransition : ITransitionValueBase

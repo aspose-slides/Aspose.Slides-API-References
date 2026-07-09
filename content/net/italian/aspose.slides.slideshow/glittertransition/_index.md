@@ -1,9 +1,9 @@
 ---
 title: GlitterTransition
-second_title: Riferimento API Aspose.Slides per .NET
-description: Effetto di transizione della diapositiva glitter.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Effetto di transizione glitter della diapositiva.
 type: docs
-weight: 10030
+weight: 10050
 url: /it/aspose.slides.slideshow/glittertransition/
 ---
 ## GlitterTransition classe
@@ -18,15 +18,15 @@ public class GlitterTransition : TransitionValueBase, IGlitterTransition
 
 | Nome | Descrizione |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/glittertransition/direction) { get; set; } | Direzione della transizione. Lettura/Scrittura [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/glittertransition/pattern) { get; set; } | Specifica la forma delle visualizzazioni utilizzate durante la transizione. Lettura/Scrittura [`TransitionPattern`](../transitionpattern). |
+| [Direction](../../aspose.slides.slideshow/glittertransition/direction) { get; set; } | Direzione della transizione. Lettura/scrittura [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
+| [Pattern](../../aspose.slides.slideshow/glittertransition/pattern) { get; set; } | Specifica la forma degli elementi visivi usati durante la transizione. Lettura/scrittura [`TransitionPattern`](../transitionpattern). |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina se le due istanze di TransitionValueBase sono uguali. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funziona come funzione hash per un tipo specifico, adatta all'uso in algoritmi di hashing e strutture dati come una tabella hash. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funge da funzione hash per un tipo specifico, adatta per l'uso in algoritmi di hashing e strutture dati come una tabella hash. |
 
 ### Vedi anche
 

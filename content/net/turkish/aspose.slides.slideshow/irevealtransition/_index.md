@@ -1,14 +1,14 @@
 ---
 title: IRevealTransition
-second_title: Aspose.Sildes için .NET API Referansı
-description: Slayt geçiş efekti ortaya çıkar.
+second_title: Aspose.Sildes .NET için API Referansı
+description: Slayt geçiş efektini ortaya çıkarır.
 type: docs
-weight: 10140
+weight: 10160
 url: /tr/aspose.slides.slideshow/irevealtransition/
 ---
 ## IRevealTransition arayüz
 
-Slayt geçiş efekti ortaya çıkar.
+Slayt geçiş efektini ortaya çıkarır.
 
 ```csharp
 public interface IRevealTransition : ITransitionValueBase
@@ -18,9 +18,9 @@ public interface IRevealTransition : ITransitionValueBase
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/irevealtransition/asitransitionvaluebase) { get; } | Temel ITransitionValueBase arayüzünü almayı sağlar. Yalnızca okunur [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/irevealtransition/direction) { get; set; } | Geçiş yönü. Okuma/yazma [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
-| [ThroughBlack](../../aspose.slides.slideshow/irevealtransition/throughblack) { get; set; } | Geçişin siyah üzerinden solup kaybolup kaybolmayacağını belirler. Okuma/yazma Boolean. |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/irevealtransition/asitransitionvaluebase) { get; } | Temel ITransitionValueBase arabirimini almayı sağlar. Salt okunur [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/irevealtransition/direction) { get; set; } | Geçişin yönü. Okunur/yazılabilir [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
+| [ThroughBlack](../../aspose.slides.slideshow/irevealtransition/throughblack) { get; set; } | Geçişin siyah üzerinden solup solmadığını belirler. Okunur/yazılabilir Boolean. |
 
 ### Diğer Bağlantılar
 

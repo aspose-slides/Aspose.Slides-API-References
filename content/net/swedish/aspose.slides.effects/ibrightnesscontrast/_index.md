@@ -1,9 +1,9 @@
 ---
 title: IBrightnessContrast
-second_title: Aspose.Sildes för .NET API-referens
+second_title: Aspose.Slides för .NET API-referens
 description: Representerar en BrightnessContrast-effekt. Justerar ljusstyrka och kontrast
 type: docs
-weight: 3180
+weight: 3200
 url: /sv/aspose.slides.effects/ibrightnesscontrast/
 ---
 ## IBrightnessContrast gränssnitt
@@ -14,6 +14,7 @@ Representerar en BrightnessContrast-effekt. Justerar ljusstyrka och kontrast
 public interface IBrightnessContrast : IAccessiblePVIObject<IBrightnessContrastEffectiveData>, 
     IImageTransformOperation
 ```
+
 
 ### Se även
 

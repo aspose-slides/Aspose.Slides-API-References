@@ -1,14 +1,14 @@
 ---
 title: PathFillModeType
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir yolun nasıl doldurulacağını belirtir
+description: Bir yolun nasıl doldurulacağını belirler
 type: docs
-weight: 9310
+weight: 9330
 url: /tr/aspose.slides/pathfillmodetype/
 ---
-## PathFillModeType enum
+## PathFillModeType numaralandırması
 
-Bir yolun nasıl doldurulacağını belirtir
+Bir yolun nasıl doldurulacağını belirler
 
 ```csharp
 public enum PathFillModeType : byte
@@ -16,14 +16,14 @@ public enum PathFillModeType : byte
 
 ### Değerler
 
-| İsim | Değer | Açıklama |
+| Ad | Değer | Açıklama |
 | --- | --- | --- |
-| None | `0` | Yol Doldurması Yok. Bu, ilgili yolun doldurulmayacağını belirtir. |
-| Normal | `1` | Normal Yol Doldurması. Bu, ilgili yolun doldurulmasına normal gölgeli bir renk uygulanacağını belirtir. |
-| Lighten | `2` | Yumuşak Yol Doldurması. Bu, ilgili yolun doldurulmasına hafif gölgeli bir renk uygulanacağını belirtir. |
-| LightenLess | `3` | Daha Az Yumuşak Yol Doldurması. Bu, ilgili yolun doldurulmasına biraz daha açık gölgeli bir renk uygulanacağını belirtir. |
-| Darken | `4` | Koyu Yol Doldurması. Bu, ilgili yolun doldurulmasına daha koyu gölgeli bir renk uygulanacağını belirtir. |
-| DarkenLess | `5` | Daha Az Koyu Yol Doldurması. Bu, ilgili yolun doldurulmasına biraz daha koyu gölgeli bir renk uygulanacağını belirtir. |
+| None | `0` | Yol doldurulmaz. Bu, ilgili yolun doldurulmayacağını belirtir. |
+| Normal | `1` | Normal Yol Doldurması. Bu, ilgili yolun doldurmasına normal gölgeli bir renk uygulanacağını belirtir. |
+| Lighten | `2` | Açıklaştırılmış Yol Doldurması. Bu, ilgili yolun doldurmasına hafif gölgeli bir renk uygulanacağını belirtir. |
+| LightenLess | `3` | Daha Az Açıklaştırılmış Yol Doldurması. Bu, ilgili yolun doldurmasına biraz daha açık gölgeli bir renk uygulanacağını belirtir. |
+| Darken | `4` | Koyulaştırılmış Yol Doldurması. Bu, ilgili yolun doldurmasına daha koyu gölgeli bir renk uygulanacağını belirtir. |
+| DarkenLess | `5` | Daha Az Koyulaştırılmış Yol Doldurması. Bu, ilgili yolun doldurmasına biraz daha koyu gölgeli bir renk uygulanacağını belirtir. |
 
 ### Ayrıca Bakınız
 

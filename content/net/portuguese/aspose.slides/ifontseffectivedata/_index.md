@@ -1,9 +1,9 @@
 ---
 title: IFontsEffectiveData
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Aspose.Sildes para .NET Referência de API
 description: Objeto imutável que contém o conjunto de fontes efetivas.
 type: docs
-weight: 5890
+weight: 5910
 url: /pt/aspose.slides/ifontseffectivedata/
 ---
 ## IFontsEffectiveData interface
@@ -24,9 +24,9 @@ public interface IFontsEffectiveData
 
 ### Observações
 
-Esta interface é usada como parte de [`IBasePortionFormatEffectiveData`](../ibaseportionformateffectivedata) e [`IFontSchemeEffectiveData`](../../aspose.slides.theme/ifontschemeeffectivedata) interfaces.
+Esta interface é usada como parte das interfaces [`IBasePortionFormatEffectiveData`](../ibaseportionformateffectivedata) e [`IFontSchemeEffectiveData`](../../aspose.slides.theme/ifontschemeeffectivedata).
 
-### Veja Também
+### Veja também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

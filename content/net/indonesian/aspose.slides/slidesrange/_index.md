@@ -3,7 +3,7 @@ title: SlidesRange
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Rentang slide
 type: docs
-weight: 10510
+weight: 10530
 url: /id/aspose.slides/slidesrange/
 ---
 ## SlidesRange kelas

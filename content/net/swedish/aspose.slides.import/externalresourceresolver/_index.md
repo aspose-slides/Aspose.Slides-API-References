@@ -1,24 +1,24 @@
 ---
 title: ExternalResourceResolver
 second_title: Aspose.Sildes för .NET API-referens
-description: Callback-klass som används för att lösa externa resurser vid import av Html och Svg dokument. Att använda denna resolver kan skapa en sårbarhet när en klient-tillhandahållen HTML eller SVG fil får serverprogramvaran att hämta lokal eller nätverksfil. Använd med försiktighet. Det rekommenderas att inte ange ExternalResourceResolver alls; endast inbäddade objekt kommer att läsas eller att skapa en underklass som kontrollerar om den angivna uri är giltig.
+description: Callback-klass som används för att lösa externa resurser under import av Html- och Svg-dokument. Att använda denna resolver kan skapa en sårbarhet när en klienttillhandahållen HTML- eller SVG-fil får serverprogramvaran att hämta en lokal eller nätverksfil. Använd med försiktighet. Det rekommenderas att inte ange ExternalResourceResolver alls; endast inbäddade objekt kommer att läsas eller att skapa en underklass som kontrollerar om den angivna uri:n är giltig.
 type: docs
-weight: 7460
+weight: 7480
 url: /sv/aspose.slides.import/externalresourceresolver/
 ---
 ## ExternalResourceResolver klass
 
-Callback-klass som används för att lösa externa resurser vid import av Html- och Svg-dokument. Att använda denna resolver kan skapa en sårbarhet när en klient-tillhandahållen HTML- eller SVG-fil får serverprogramvaran att hämta lokala eller nätverksfiler. Använd med försiktighet. Det rekommenderas att inte ange ExternalResourceResolver alls (endast inbäddade objekt kommer att läsas) eller att skapa en underklass som kontrollerar om den angivna URI:n är giltig.
+Callback-klass som används för att lösa externa resurser under import av HTML- och SVG-dokument. Att använda denna resolver kan skapa en sårbarhet när en klienttillhandahållen HTML- eller SVG-fil får serverprogramvaran att hämta en lokal eller nätverksfil. Använd med försiktighet. Det rekommenderas att inte ange ExternalResourceResolver alls (endast inbäddade objekt läses) eller att skapa en underklass som kontrollerar om den angivna URI:n är giltig.
 
 ```csharp
 public class ExternalResourceResolver : IExternalResourceResolver
 ```
 
-## Konstruktorer
+## Konstruktörer
 
 | Namn | Beskrivning |
 | --- | --- |
-| [ExternalResourceResolver](externalresourceresolver)() | Standardkonstruktorn. |
+| [ExternalResourceResolver](externalresourceresolver)() | Standardkonstruktören. |
 
 ## Metoder
 

@@ -1,9 +1,9 @@
 ---
 title: ColorSchemeIndex
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: 色スキーム内のインデックスを表します。
 type: docs
-weight: 2530
+weight: 2550
 url: /ja/aspose.slides/colorschemeindex/
 ---
 ## ColorSchemeIndex 列挙体
@@ -18,18 +18,18 @@ public enum ColorSchemeIndex : byte
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| Dark1 | `0` | 暗い 1. |
-| Light1 | `1` | 明るい 1. |
-| Dark2 | `2` | 暗い 2. |
-| Light2 | `3` | 明るい 2. |
-| Accent1 | `4` | アクセント 1. |
-| Accent2 | `5` | アクセント 2. |
-| Accent3 | `6` | アクセント 3. |
-| Accent4 | `7` | アクセント 4. |
-| Accent5 | `8` | アクセント 5. |
-| Accent6 | `9` | アクセント 6. |
-| Hyperlink | `10` | ハイパーリンク. |
-| FollowedHyperlink | `11` | 訪問済みハイパーリンク. |
+| Dark1 | `0` | 暗い 1。 |
+| Light1 | `1` | 明るい 1。 |
+| Dark2 | `2` | 暗い 2。 |
+| Light2 | `3` | 明るい 2。 |
+| Accent1 | `4` | アクセント 1。 |
+| Accent2 | `5` | アクセント 2。 |
+| Accent3 | `6` | アクセント 3。 |
+| Accent4 | `7` | アクセント 4。 |
+| Accent5 | `8` | アクセント 5。 |
+| Accent6 | `9` | アクセント 6。 |
+| Hyperlink | `10` | ハイパーリンク。 |
+| FollowedHyperlink | `11` | フォローされたハイパーリンク。 |
 
 ### 参照
 

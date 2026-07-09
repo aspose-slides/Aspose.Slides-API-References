@@ -1,14 +1,12 @@
 ---
 title: IColorOffset
-second_title: Aspose.Sildes .NET API-referencia
-description: Képviseli a színeltolást.
+second_title: Aspose.Sildes .NET API referencia
+description: Színeltolást reprezentál.
 type: docs
-weight: 450
+weight: 470
 url: /hu/aspose.slides.animation/icoloroffset/
 ---
 ## IColorOffset interfész
-
-Képviseli a színeltolást.
 
 ```csharp
 public interface IColorOffset

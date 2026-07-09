@@ -1,20 +1,20 @@
 ---
 title: BaseHeaderFooterManager
 second_title: Aspose.Sildes .NET API Referansı
-description: Tüm slayt türleri için alt bilgi, tarih-saat ve sayfa numarası yer tutucularının davranışını tutan yöneticiyi temsil eder.
+description: Tüm slayt türleri için footer, tarih-zaman ve sayfa numarası yer tutucularının davranışını tutan yöneticiyi temsil eder.
 type: docs
-weight: 940
+weight: 960
 url: /tr/aspose.slides/baseheaderfootermanager/
 ---
-## BaseHeaderFooterManager sınıfı
+## BaseHeaderFooterManager sınıf
 
-Tüm slayt türleri için alt bilgi, tarih-saat ve sayfa numarası yer tutucularının davranışını tutan yöneticiyi temsil eder.
+Footer, tarih-zaman ve sayfa numarası yer tutucularının davranışını tutan yöneticiyi temsil eder ve tüm slayt türleri için geçerlidir.
 
 ```csharp
 public abstract class BaseHeaderFooterManager : IBaseHeaderFooterManager
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * arayüz [IBaseHeaderFooterManager](../ibaseheaderfootermanager)
 * ad alanı [Aspose.Slides](../../aspose.slides)

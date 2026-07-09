@@ -1,14 +1,14 @@
 ---
 title: LayoutTargetType
 second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Jeśli układ obszaru wykresu jest definiowany ręcznie, ta właściwość określa, czy układać obszar wykresu od wewnątrz (bez osi i etykiet osi) czy od zewnątrz (z uwzględnieniem osi i etykiet osi).
+description: Jeśli układ obszaru wykresu jest definiowany ręcznie, ta właściwość określa, czy układać obszar wykresu od wewnątrz, nie uwzględniając osi i etykiet osi, czy od zewnątrz, uwzględniając oś i etykiety osi.
 type: docs
-weight: 2250
+weight: 2270
 url: /pl/aspose.slides.charts/layouttargettype/
 ---
-## LayoutTargetType enumeracja
+## enumeracja LayoutTargetType
 
-Jeśli układ obszaru wykresu jest definiowany ręcznie, ta właściwość określa, czy układać obszar wykresu od wewnątrz (bez osi i etykiet osi) czy od zewnątrz (zawierając oś i etykiety osi).
+Jeśli układ obszaru wykresu jest definiowany ręcznie, ta właściwość określa, czy układać obszar wykresu od wewnątrz (bez osi i etykiet osi) czy od zewnątrz (z osiami i etykietami osi).
 
 ```csharp
 public enum LayoutTargetType
@@ -18,8 +18,8 @@ public enum LayoutTargetType
 
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
-| Inner | `0` | Określa, że rozmiar obszaru wykresu określa rozmiar obszaru wykresu, nie uwzględniając kresek podziałki i etykiet osi. |
-| Outer | `1` | Określa, że rozmiar obszaru wykresu określa rozmiar obszaru wykresu, kresek podziałki i etykiet osi. |
+| Inner | `0` | Określa, że rozmiar obszaru wykresu określa rozmiar samego obszaru wykresu, nie uwzględniając znaczników i etykiet osi. |
+| Outer | `1` | Określa, że rozmiar obszaru wykresu określa rozmiar obszaru wykresu, znaczników i etykiet osi. |
 
 ### Zobacz także
 

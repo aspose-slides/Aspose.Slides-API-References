@@ -1,9 +1,9 @@
 ---
 title: TextAnimationCollection
-second_title: Riferimento API di Aspose.Sildes per .NET
-description: Rappresenta una collezione di animazioni di testo.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta una raccolta di animazioni di testo.
 type: docs
-weight: 810
+weight: 830
 url: /it/aspose.slides.animation/textanimationcollection/
 ---
 ## TextAnimationCollection classe
@@ -16,13 +16,13 @@ public class TextAnimationCollection : ITextAnimationCollection
 
 ## Costruttori
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
 | [TextAnimationCollection](textanimationcollection)() | Il costruttore predefinito. |
 
 ## Proprietà
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
 | [Count](../../aspose.slides.animation/textanimationcollection/count) { get; } | Restituisce il numero di elementi nella raccolta. Solo lettura Int32. |
 | [IsSynchronized](../../aspose.slides.animation/textanimationcollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla raccolta è sincronizzato (thread-safe). Solo lettura Boolean. |
@@ -31,7 +31,7 @@ public class TextAnimationCollection : ITextAnimationCollection
 
 ## Metodi
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
 | [Add](../../aspose.slides.animation/textanimationcollection/add)() | Aggiunge una nuova animazione di testo alla raccolta. |
 | [CopyTo](../../aspose.slides.animation/textanimationcollection/copyto)(Array, int) | Copia tutti gli elementi dalla raccolta nell'array specificato. |

@@ -1,15 +1,14 @@
 ---
 title: IMathBorderBox
-second_title: Aspose.Sildes для .NET API Справочник
-description: Рисует прямоугольную или другую границу вокруг IMathElement.
+second_title: Aspose.Sildes для .NET справка API
+description: Рисует прямоугольную или другую рамку вокруг IMathElement.
 type: docs
-weight: 7920
+weight: 8170
 url: /ru/aspose.slides.mathtext/imathborderbox/
 ---
+## IMathBorderBox интерфейс
 
-## Интерфейс IMathBorderBox
-
-Рисует прямоугольную или другую границу вокруг IMathElement.
+Рисует прямоугольную или другую рамку вокруг IMMathElement.
 
 ```csharp
 public interface IMathBorderBox : IMathElement
@@ -17,18 +16,18 @@ public interface IMathBorderBox : IMathElement
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathborderbox/asimathelement) { get; } | Позволяет получить базовый интерфейс IMathElement [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathborderbox/base) { get; } | Базовый аргумент |
-| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | Скрыть нижнюю грань (по умолчанию false) - указывает скрытое или видимое состояние нижней грани границы. |
-| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | Скрыть левую грань (по умолчанию false) - указывает скрытое или видимое состояние левой грани границы. |
-| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | Скрыть правую грань (по умолчанию false) - указывает скрытое или видимое состояние правой грани границы. |
-| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | Скрыть верхнюю грань (по умолчанию false) - указывает скрытое или видимое состояние верхней грани границы. |
-| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | Перечеркнуто снизу слева вверх направо (по умолчанию false). Указывает скрытое или видимое состояние перечеркнутой диагональной линии от нижнего левого угла до верхнего правого угла границы. |
-| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | Перечеркнуто по горизонтали (по умолчанию false) - указывает скрытое или видимое состояние перечеркнутой горизонтальной линии. |
-| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | Перечеркнуто сверху слева вниз направо (по умолчанию false). Указывает скрытое или видимое состояние перечеркнутой диагональной линии от верхнего левого угла до нижнего правого угла границы. |
-| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | Перечеркнуто по вертикали (по умолчанию false) - указывает скрытое или видимое состояние перечеркнутой вертикальной линии. |
+| [AsIMathElement](../../aspose.slides.mathtext/imathborderbox/asimathelement) { get; } | Позволяет получить базовый интерфейс IMathElement [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathborderbox/base) { get; } | Базовый аргумент |
+| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | Скрыть нижний край (по умолчанию false) — указывает скрытое или показанное состояние нижнего края рамки. |
+| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | Скрыть левый край (по умолчанию false) — указывает скрытое или показанное состояние левого края рамки. |
+| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | Скрыть правый край (по умолчанию false) — указывает скрытое или показанное состояние правого края рамки. |
+| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | Скрыть верхний край (по умолчанию false) — указывает скрытое или показанное состояние верхнего края рамки. |
+| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | Зачёркивание по диагонали снизу-слева вверх-справа (по умолчанию false). Указывает скрытое или показанное состояние диагональной линии зачёркивания от нижнего левого угла к верхнему правому. |
+| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | Зачёркивание горизонтальное (по умолчанию false) — указывает скрытое или показанное состояние горизонтальной линии зачёркивания. |
+| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | Зачёркивание по диагонали сверху-слева вниз-справа (по умолчанию false). Указывает скрытое или показанное состояние диагональной линии зачёркивания от верхнего левого угла к нижнему правому. |
+| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | Зачёркивание вертикальное (по умолчанию false) — указывает скрытое или показанное состояние вертикальной линии зачёркивания. |
 
 ### Примеры
 
@@ -39,10 +38,10 @@ public interface IMathBorderBox : IMathElement
 IMathBorderBox borderBox = new MathematicalText("x+y+z").ToBorderBox();
 ```
 
-### См. Также
+### См. также
 
-* интерфейс [IMathElement](../imathelement)
-* пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
-* сборка [Aspose.Slides](../../)
+* интерфейс [IMathElement](../imathelement)
+* пространство имён [Aspose.Slides.MathText](../../aspose.slides.mathtext)
+* сборка [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

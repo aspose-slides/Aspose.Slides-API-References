@@ -1,14 +1,14 @@
 ---
 title: IOuterShadowEffectiveData
-second_title: Aspose.Sildes .NET API referencia
-description: Megváltoztathatatlan objektum, amely egy külső árnyék hatást ábrázol.
+second_title: Aspose.Sildes .NET API referenciája
+description: Módosíthatatlan objektum, amely egy külső árnyék hatást képvisel.
 type: docs
-weight: 3450
+weight: 3470
 url: /hu/aspose.slides.effects/ioutershadoweffectivedata/
 ---
 ## IOuterShadowEffectiveData interfész
 
-Megváltoztathatatlan objektum, amely egy külső árnyék hatást ábrázol.
+Módosíthatatlan objektum, amely egy külső árnyék hatást képvisel.
 
 ```csharp
 public interface IOuterShadowEffectiveData : IEffectEffectiveData
@@ -16,19 +16,19 @@ public interface IOuterShadowEffectiveData : IEffectEffectiveData
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ioutershadoweffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi az IEffectEffectiveData alap interfész lekérését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ioutershadoweffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi a base IEffectEffectiveData interfész lekérését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [BlurRadius](../../aspose.slides.effects/ioutershadoweffectivedata/blurradius) { get; } | Elmosódás sugara. Csak olvasható Double. |
 | [Direction](../../aspose.slides.effects/ioutershadoweffectivedata/direction) { get; } | Árnyék iránya. Csak olvasható Single. |
-| [Distance](../../aspose.slides.effects/ioutershadoweffectivedata/distance) { get; } | Az árnyék távolsága. Csak olvasható Double. |
-| [RectangleAlign](../../aspose.slides.effects/ioutershadoweffectivedata/rectanglealign) { get; } | Téglalap igazítás. Csak olvasható [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape) { get; } | Megadja, hogy az árnyék a formával együtt forog-e, ha a forma el van forgatva. Csak olvasható Boolean. |
+| [Distance](../../aspose.slides.effects/ioutershadoweffectivedata/distance) { get; } | Árnyék távolsága. Csak olvasható Double. |
+| [RectangleAlign](../../aspose.slides.effects/ioutershadoweffectivedata/rectanglealign) { get; } | Téglalap igazítása. Csak olvasható [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape) { get; } | Megadja, hogy az árnyékot a forma forgatáshoz kell-e igazítani, ha a forma el van forgatva. Csak olvasható Boolean. |
 | [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | Megadja a vízszintes méretezési tényezőt, a negatív méretezés tükrözést okoz. Csak olvasható Double. |
 | [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | Megadja a függőleges méretezési tényezőt, a negatív méretezés tükrözést okoz. Csak olvasható Double. |
-| [ShadowColor](../../aspose.slides.effects/ioutershadoweffectivedata/shadowcolor) { get; } | Az árnyék színe. Csak olvasható Color. |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal) { get; } | Megadja a vízszintes ferdeségi szöget (fokban). Csak olvasható Double. |
-| [SkewVertical](../../aspose.slides.effects/ioutershadoweffectivedata/skewvertical) { get; } | Megadja a függőleges ferdeségi szöget (fokban). Csak olvasható Double. |
+| [ShadowColor](../../aspose.slides.effects/ioutershadoweffectivedata/shadowcolor) { get; } | Árnyék színe. Csak olvasható Color. |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal) { get; } | Megadja a vízszintes elferdülési szöget (fokban). Csak olvasható Double. |
+| [SkewVertical](../../aspose.slides.effects/ioutershadoweffectivedata/skewvertical) { get; } | Megadja a függőleges elferdülési szöget (fokban). Csak olvasható Double. |
 
 ### Lásd még
 

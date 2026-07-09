@@ -1,14 +1,14 @@
 ---
 title: UpDownBarsManager
-second_title: Aspose.Sildes per il riferimento API .NET
-description: Fornisce l'accesso alle barre su/giù dei grafici a linee o di borsa.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Fornisce l'accesso alle barre su/giù di grafico a linee o a barre.
 type: docs
-weight: 2480
+weight: 2500
 url: /it/aspose.slides.charts/updownbarsmanager/
 ---
 ## UpDownBarsManager classe
 
-Fornisce l'accesso alle barre su/giù dei grafici a linee o di borsa.
+Fornisce l'accesso alle barre su/giù di grafico a linee o a barre.
 
 ```csharp
 public class UpDownBarsManager : DomObject<ChartSeriesGroup>, IUpDownBarsManager
@@ -18,10 +18,10 @@ public class UpDownBarsManager : DomObject<ChartSeriesGroup>, IUpDownBarsManager
 
 | Nome | Descrizione |
 | --- | --- |
-| [DownBarsFormat](../../aspose.slides.charts/updownbarsmanager/downbarsformat) { get; } | Restituisce il formato DownBars. Solo lettura [`IFormat`](../iformat). |
+| [DownBarsFormat](../../aspose.slides.charts/updownbarsmanager/downbarsformat) { get; } | Restituisce il formato DownBars. Sola lettura [`IFormat`](../iformat). |
 | [GapWidth](../../aspose.slides.charts/updownbarsmanager/gapwidth) { get; set; } | GapWidth. Lettura/scrittura Int32. |
 | [HasUpDownBars](../../aspose.slides.charts/updownbarsmanager/hasupdownbars) { get; set; } | HasUpDownBars. Lettura/scrittura Boolean. |
-| [UpBarsFormat](../../aspose.slides.charts/updownbarsmanager/upbarsformat) { get; } | Restituisce il formato UpBars. Solo lettura [`IFormat`](../iformat). |
+| [UpBarsFormat](../../aspose.slides.charts/updownbarsmanager/upbarsformat) { get; } | Restituisce il formato UpBars. Sola lettura [`IFormat`](../iformat). |
 
 ### Vedi anche
 

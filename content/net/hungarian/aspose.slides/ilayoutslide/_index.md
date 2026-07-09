@@ -1,14 +1,14 @@
 ---
 title: ILayoutSlide
-second_title: Aspose.Sildes .NET API Referencia
-description: Egy elrendezési diát képvisel.
+second_title: Aspose.Sildes a .NET API referencia
+description: Egy elrendezés diát képvisel.
 type: docs
-weight: 6200
+weight: 6220
 url: /hu/aspose.slides/ilayoutslide/
 ---
 ## ILayoutSlide interfész
 
-Képviseli egy elrendezési diát.
+Egy elrendezés diát képvisel.
 
 ```csharp
 public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
@@ -18,20 +18,20 @@ public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
 
 | Név | Leírás |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/ilayoutslide/asibaseslide) { get; } | Lehetővé teszi a base IBaseSlide interfész lekérdezését. Csak-olvasású [`IBaseSlide`](../ibaseslide). |
-| [AsIOverrideThemeable](../../aspose.slides/ilayoutslide/asioverridethemeable) { get; } | Visszaadja az IOverrideThemeable interfészt. Csak-olvasású [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [DrawingGuides](../../aspose.slides/ilayoutslide/drawingguides) { get; } | Visszaadja a layout dia rajzolási útmutatók gyűjteményét. Csak-olvasású [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | Visszaadja, hogy igaz-e, ha létezik legalább egy dia, amely ettől a layout diától függ. Csak-olvasású Boolean. |
-| [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | Visszaadja a HeaderFooter kezelőt a layout dián. Csak-olvasású [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |
-| [LayoutType](../../aspose.slides/ilayoutslide/layouttype) { get; } | Visszaadja ennek a layout diáknak a layout típusát. Csak-olvasású [`SlideLayoutType`](../slidelayouttype). |
-| [MasterSlide](../../aspose.slides/ilayoutslide/masterslide) { get; set; } | Visszaadja vagy beállítja a master diát egy layouthoz. Olvasás/írás [`IMasterSlide`](../imasterslide). |
-| [PlaceholderManager](../../aspose.slides/ilayoutslide/placeholdermanager) { get; } | Visszaadja a placeholder kezelőt a layout dián. Csak-olvasású [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager). |
+| [AsIBaseSlide](../../aspose.slides/ilayoutslide/asibaseslide) { get; } | Lehetővé teszi az alap IBaseSlide interfész lekérését. Csak olvasható [`IBaseSlide`](../ibaseslide). |
+| [AsIOverrideThemeable](../../aspose.slides/ilayoutslide/asioverridethemeable) { get; } | Visszaadja az IOverrideThemeable interfészt. Csak olvasható [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
+| [DrawingGuides](../../aspose.slides/ilayoutslide/drawingguides) { get; } | Visszaadja a layout dia rajzolósegédek gyűjteményét. Csak olvasható [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | Igaz értéket ad vissza, ha létezik legalább egy dia, amely függ ettől az elrendezésdiától. Csak olvasható Boolean. |
+| [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | Visszaadja a layout dia HeaderFooter-kezelőjét. Csak olvasható [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |
+| [LayoutType](../../aspose.slides/ilayoutslide/layouttype) { get; } | Visszaadja ennek a layout diának a layout típusát. Csak olvasható [`SlideLayoutType`](../slidelayouttype). |
+| [MasterSlide](../../aspose.slides/ilayoutslide/masterslide) { get; set; } | Visszaadja vagy beállítja a layouthoz tartozó master diát. Olvasás/írás [`IMasterSlide`](../imasterslide). |
+| [PlaceholderManager](../../aspose.slides/ilayoutslide/placeholdermanager) { get; } | Visszaadja a layout dia helyőrző-kezelőjét. Csak olvasható [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager). |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [GetDependingSlides](../../aspose.slides/ilayoutslide/getdependingslides)() | Visszaad egy tömböt az összes diával, amely ettől a layout diától függ. |
+| [GetDependingSlides](../../aspose.slides/ilayoutslide/getdependingslides)() | Visszaad egy tömböt az összes diákkal, amelyek függnek ettől a layout diától. |
 | [Remove](../../aspose.slides/ilayoutslide/remove)() | Eltávolítja a layoutot a prezentációból. |
 
 ### Lásd még

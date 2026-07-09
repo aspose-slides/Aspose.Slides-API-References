@@ -3,12 +3,12 @@ title: IMasterTheme
 second_title: Aspose.Sildes for .NET API リファレンス
 description: マスターテーマを表します。
 type: docs
-weight: 11290
+weight: 11310
 url: /ja/aspose.slides.theme/imastertheme/
 ---
 ## IMasterTheme インターフェイス
 
-マスターテーマを表します。
+ベースとなるマスターテーマを表します。
 
 ```csharp
 public interface IMasterTheme : ITheme
@@ -18,9 +18,9 @@ public interface IMasterTheme : ITheme
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsITheme](../../aspose.slides.theme/imastertheme/asitheme) { get; } | 基本 ITheme インターフェイスを取得できます。読み取り専用 [`ITheme`](../itheme)。 |
-| [ExtraColorSchemes](../../aspose.slides.theme/imastertheme/extracolorschemes) { get; } | 追加のカラースキームのコレクションを返します。これらのスキームはプレゼンテーションの外観に影響せず、スライドのメインカラースキームとして選択できます。読み取り専用 [`IExtraColorSchemeCollection`](../iextracolorschemecollection)。 |
-| [Name](../../aspose.slides.theme/imastertheme/name) { get; set; } | テーマの名前を返します。読み書き String。 |
+| [AsITheme](../../aspose.slides.theme/imastertheme/asitheme) { get; } | ベース ITheme インターフェイスを取得できます。 読み取り専用 [`ITheme`](../itheme)。 |
+| [ExtraColorSchemes](../../aspose.slides.theme/imastertheme/extracolorschemes) { get; } | 追加のカラースキームのコレクションを返します。これらのスキームはプレゼンテーションの外観に影響せず、スライドのメインカラースキームとして選択できます。 読み取り専用 [`IExtraColorSchemeCollection`](../iextracolorschemecollection)。 |
+| [Name](../../aspose.slides.theme/imastertheme/name) { get; set; } | テーマの名前を返します。 読み書き String。 |
 
 ### 参照
 

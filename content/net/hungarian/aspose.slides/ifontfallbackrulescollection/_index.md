@@ -1,9 +1,9 @@
 ---
 title: IFontFallBackRulesCollection
-second_title: Aspose.Sildes .NET API Referencia
+second_title: Aspose.Sildes a .NET API referencia
 description: A felhasználó által meghatározott FontFallBack szabályok gyűjteményét képviseli
 type: docs
-weight: 5840
+weight: 5860
 url: /hu/aspose.slides/ifontfallbackrulescollection/
 ---
 ## IFontFallBackRulesCollection interfész
@@ -18,14 +18,14 @@ public interface IFontFallBackRulesCollection : IGenericCollection<IFontFallBack
 
 | Név | Leírás |
 | --- | --- |
-| [Item](../../aspose.slides/ifontfallbackrulescollection/item) { get; } | Lekéri a szabályt a megadott indexnél. Csak olvasható [`IFontFallBackRule`](../ifontfallbackrule). |
+| [Item](../../aspose.slides/ifontfallbackrulescollection/item) { get; } | A megadott indexű szabályt adja vissza. Írásvédett [`IFontFallBackRule`](../ifontfallbackrule). |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [Add](../../aspose.slides/ifontfallbackrulescollection/add)(IFontFallBackRule) | Új FallBack szabályt ad a gyűjtemény végéhez. |
-| [Remove](../../aspose.slides/ifontfallbackrulescollection/remove)(IFontFallBackRule) | Eltávolítja egy adott FallBack szabály első előfordulását a gyűjteményből. |
+| [Add](../../aspose.slides/ifontfallbackrulescollection/add)(IFontFallBackRule) | Új FallBack szabály hozzáadása a gyűjtemény végéhez. |
+| [Remove](../../aspose.slides/ifontfallbackrulescollection/remove)(IFontFallBackRule) | Eltávolítja az első előfordulását egy adott FallBack szabálynak a gyűjteményből. |
 
 ### Lásd még
 

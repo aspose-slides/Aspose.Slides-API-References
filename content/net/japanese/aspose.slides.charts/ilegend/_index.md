@@ -3,7 +3,7 @@ title: ILegend
 second_title: Aspose.Sildes for .NET API リファレンス
 description: チャートの凡例プロパティを表します。
 type: docs
-weight: 2110
+weight: 2130
 url: /ja/aspose.slides.charts/ilegend/
 ---
 ## ILegend インターフェイス
@@ -21,9 +21,9 @@ public interface ILegend : IActualLayout, IFormattedTextContainer, ILayoutable
 | [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | ベース IFormattedTextContainer インターフェイスを取得できます。読み取り専用 [`IFormattedTextContainer`](../iformattedtextcontainer)。 |
 | [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | ベース ILayoutable インターフェイスを取得できます。読み取り専用 [`ILayoutable`](../ilayoutable)。 |
 | [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | 凡例エントリを取得します。読み取り専用 [`ILegendEntryCollection`](../ilegendentrycollection)。 |
-| [Format](../../aspose.slides.charts/ilegend/format) { get; } | 凡例の形式を返します。読み取り専用 [`IFormat`](../iformat)。 |
-| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | 他のチャート要素が凡例と重なることを許可するかどうかを決定します。読み書き可能な Boolean。 |
-| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | チャート上の凡例の位置を指定します。X、Y、Width、Heigt プロパティの非 NaN 値はこのプロパティの効果を上書きします。読み書き可能な [`LegendPositionType`](../legendpositiontype)。 |
+| [Format](../../aspose.slides.charts/ilegend/format) { get; } | 凡例の書式を返します。読み取り専用 [`IFormat`](../iformat)。 |
+| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | 他のチャート要素が凡例と重なることを許可するかどうかを決定します。読み書き Boolean。 |
+| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | チャート上の凡例の位置を指定します。X、Y、Width、Heigt プロパティの非 NaN 値はこのプロパティの効果を上書きします。読み書き [`LegendPositionType`](../legendpositiontype)。 |
 
 ### 参照
 

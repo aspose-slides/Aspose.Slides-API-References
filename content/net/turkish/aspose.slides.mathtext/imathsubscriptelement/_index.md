@@ -1,14 +1,14 @@
 ---
 title: IMathSubscriptElement
-second_title: Aspose.Sildes için .NET API Referansı
-description: Alt simge nesnesini tanımlar; bu nesne bir temel ve aşağıda ve sağda yer alan, boyutu azaltılmış bir alt simgeden oluşur.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Alt simge nesnesini belirtir; bu nesne bir temel ve aşağıya ve sağa konumlandırılmış, küçültülmüş boyutta bir alt simge içerir.
 type: docs
-weight: 8450
+weight: 8470
 url: /tr/aspose.slides.mathtext/imathsubscriptelement/
 ---
-## IMathSubscriptElement arabirimi
+## IMathSubscriptElement arayüz
 
-Alt simge nesnesini tanımlar; bu nesne bir temel ve aşağıda ve sağda yer alan, boyutu azaltılmış bir alt simgeden oluşur.
+Alt simge nesnesini belirtir; bu nesne bir temel ve aşağıya ve sağa konumlandırılmış, küçültülmüş boyutta bir alt simge içerir.
 
 ```csharp
 public interface IMathSubscriptElement : IMathElement
@@ -18,7 +18,7 @@ public interface IMathSubscriptElement : IMathElement
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathsubscriptelement/asimathelement) { get; } | Temel IMathElement arabirimini almaya izin verir [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathsubscriptelement/asimathelement) { get; } | Temel IMathElement arayüzünü almaya izin verir [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathsubscriptelement/base) { get; } | Temel argüman |
 | [Subscript](../../aspose.slides.mathtext/imathsubscriptelement/subscript) { get; } | Alt simge |
 
@@ -33,7 +33,7 @@ IMathSubscriptElement subscriptElement = new MathematicalText("N").SetSubscript(
 
 ### Ayrıca Bakınız
 
-* arabirim [IMathElement](../imathelement)
+* arayüz [IMathElement](../imathelement)
 * ad alanı [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * derleme [Aspose.Slides](../../)
 

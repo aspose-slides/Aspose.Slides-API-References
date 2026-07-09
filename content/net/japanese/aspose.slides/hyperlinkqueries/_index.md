@@ -1,9 +1,9 @@
 ---
 title: HyperlinkQueries
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: 含まれるハイパーリンクへの簡単なアクセスを提供します。
 type: docs
-weight: 5140
+weight: 5160
 url: /ja/aspose.slides/hyperlinkqueries/
 ---
 ## HyperlinkQueries クラス
@@ -18,9 +18,9 @@ public sealed class HyperlinkQueries : IHyperlinkQueries
 
 | 名前 | 説明 |
 | --- | --- |
-| [GetAnyHyperlinks](../../aspose.slides/hyperlinkqueries/getanyhyperlinks)() | null でない HyperlinkMouseOver を含むすべての IHyperlinkContainer サブオブジェクトを取得します。指定された IHyperlinkContainer オブジェクトを使用して、そのハイパーリンクを管理できます（読み取り、更新、または削除）。IHyperlinkContainer インターフェイスを参照してください。 |
-| [GetHyperlinkClicks](../../aspose.slides/hyperlinkqueries/gethyperlinkclicks)() | null でない HyperlinkClick を含むすべての IHyperlinkContainer サブオブジェクトを取得します。指定された IHyperlinkContainer オブジェクトを使用して、そのハイパーリンクを管理できます（読み取り、更新、または削除）。IHyperlinkContainer インターフェイスを参照してください。 |
-| [GetHyperlinkMouseOvers](../../aspose.slides/hyperlinkqueries/gethyperlinkmouseovers)() | null でない HyperlinkMouseOver を含むすべての IHyperlinkContainer サブオブジェクトを取得します。指定された IHyperlinkContainer オブジェクトを使用して、そのハイパーリンクを管理できます（読み取り、更新、または削除）。IHyperlinkContainer インターフェイスを参照してください。 |
+| [GetAnyHyperlinks](../../aspose.slides/hyperlinkqueries/getanyhyperlinks)() | null ではない HyperlinkMouseOver を含むすべての IHyperlinkContainer サブオブジェクトを取得します。指定された IHyperlinkContainer オブジェクトで、そのハイパーリンクを管理できます（読み取り、更新、または削除）。IHyperlinkContainer インターフェイスをご参照ください。 |
+| [GetHyperlinkClicks](../../aspose.slides/hyperlinkqueries/gethyperlinkclicks)() | null ではない HyperlinkClick を含むすべての IHyperlinkContainer サブオブジェクトを取得します。指定された IHyperlinkContainer オブジェクトで、そのハイパーリンクを管理できます（読み取り、更新、または削除）。IHyperlinkContainer インターフェイスをご参照ください。 |
+| [GetHyperlinkMouseOvers](../../aspose.slides/hyperlinkqueries/gethyperlinkmouseovers)() | null ではない HyperlinkMouseOver を含むすべての IHyperlinkContainer サブオブジェクトを取得します。指定された IHyperlinkContainer オブジェクトで、そのハイパーリンクを管理できます（読み取り、更新、または削除）。IHyperlinkContainer インターフェイスをご参照ください。 |
 | [RemoveAllHyperlinks](../../aspose.slides/hyperlinkqueries/removeallhyperlinks)() | すべての IHyperlinkContainer サブオブジェクトに含まれる HyperlinkClick と HyperlinkMouseOver のハイパーリンクをすべて削除します。 |
 
 ### 参照

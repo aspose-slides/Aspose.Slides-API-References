@@ -1,14 +1,14 @@
 ---
 title: IEffectStyleEffectiveData
-second_title: Aspose.Sildes untuk .NET Referensi API
-description: Objek tak dapat diubah yang berisi properti gaya efek yang efektif.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Objek tak dapat diubah yang berisi properti gaya efek efektif.
 type: docs
-weight: 11180
+weight: 11200
 url: /id/aspose.slides.theme/ieffectstyleeffectivedata/
 ---
 ## IEffectStyleEffectiveData antarmuka
 
-Objek tak dapat diubah yang berisi properti gaya efek yang efektif.
+Objek tak dapat diubah yang berisi properti gaya efek efektif.
 
 ```csharp
 public interface IEffectStyleEffectiveData
@@ -18,8 +18,8 @@ public interface IEffectStyleEffectiveData
 
 | Nama | Deskripsi |
 | --- | --- |
-| [EffectFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/effectformat) { get; } | Mengembalikan format efek. Hanya baca [`IEffectFormatEffectiveData`](../../aspose.slides/ieffectformateffectivedata). |
-| [ThreeDFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/threedformat) { get; } | Mengembalikan format 3d. Hanya baca [`IThreeDFormatEffectiveData`](../../aspose.slides/ithreedformateffectivedata). |
+| [EffectFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/effectformat) { get; } | Mengembalikan format efek. Hanya Baca [`IEffectFormatEffectiveData`](../../aspose.slides/ieffectformateffectivedata). |
+| [ThreeDFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/threedformat) { get; } | Mengembalikan format 3d. Hanya Baca [`IThreeDFormatEffectiveData`](../../aspose.slides/ithreedformateffectivedata). |
 
 ### Catatan
 

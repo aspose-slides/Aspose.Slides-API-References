@@ -1,32 +1,32 @@
 ---
 title: BuildType
-second_title: Αναφορά API Aspose.Sildes για .NET
-description: Καθορίζει πώς το κείμενο θα εμφανίζεται σε ένα σχήμα κατά τη διάρκεια της animation.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Καθορίζει πώς θα εμφανίζεται το κείμενο σε ένα σχήμα κατά τη διάρκεια της κίνησης.
 type: docs
-weight: 190
+weight: 210
 url: /el/aspose.slides.animation/buildtype/
 ---
 ## Απαρίθμηση BuildType
 
-Καθορίζει πώς θα εμφανίζεται το κείμενο σε ένα σχήμα κατά τη διάρκεια της animation.
+Καθορίζει πώς θα εμφανίζεται το κείμενο σε ένα σχήμα κατά τη διάρκεια της κίνησης.
 
 ```csharp
 public enum BuildType
 ```
 
-### Values
+### Τιμές
 
 | Όνομα | Τιμή | Περιγραφή |
 | --- | --- | --- |
-| AsOneObject | `0` | Με το σχήμα που το περιέχει. |
+| AsOneObject | `0` | Με το περιέχον σχήμα. |
 | AllParagraphsAtOnce | `1` | Όλες οι παράγραφοι. |
-| ByLevelParagraphs1 | `2` | Κατά ομάδες παραγράφων βάθους 1. |
-| ByLevelParagraphs2 | `3` | Κατά ομάδες παραγράφων βάθους 2. |
-| ByLevelParagraphs3 | `4` | Κατά ομάδες παραγράφων βάθους 3. |
-| ByLevelParagraphs4 | `5` | Κατά ομάδες παραγράφων βάθους 4. |
-| ByLevelParagraphs5 | `6` | Κατά ομάδες παραγράφων βάθους 5. |
+| ByLevelParagraphs1 | `2` | Ανά ομάδες παραγράφων βάθους 1. |
+| ByLevelParagraphs2 | `3` | Ανά ομάδες παραγράφων βάθους 2. |
+| ByLevelParagraphs3 | `4` | Ανά ομάδες παραγράφων βάθους 3. |
+| ByLevelParagraphs4 | `5` | Ανά ομάδες παραγράφων βάθους 4. |
+| ByLevelParagraphs5 | `6` | Ανά ομάδες παραγράφων βάθους 5. |
 
-### See Also
+### Δείτε επίσης
 
 * χώρος ονομάτων [Aspose.Slides.Animation](../../aspose.slides.animation)
 * συγκρότηση [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: TextFrameFormat
 second_title: Aspose.Sildes för .NET API-referens
-description: Innehåller TextFrames formatTextFrameFormatting egenskaper.
+description: Innehåller TextFrames formatTextFrameFormatting-egenskaper.
 type: docs
-weight: 10940
+weight: 10960
 url: /sv/aspose.slides/textframeformat/
 ---
 ## TextFrameFormat klass
 
-Innehåller TextFrames formatTextFrameFormatting-egenskaper.
+Contains the TextFrame's formatTextFrameFormatting properties.
 
 ```csharp
 public sealed class TextFrameFormat : PVIObject, IChartTextBlockFormat, ITextFrameFormat
@@ -18,36 +18,36 @@ public sealed class TextFrameFormat : PVIObject, IChartTextBlockFormat, ITextFra
 
 | Namn | Beskrivning |
 | --- | --- |
-| [TextFrameFormat](textframeformat)() | Initialiserar en ny instans av [`TextFrameFormat`](../textframeformat) klass. |
+| [TextFrameFormat](textframeformat)() | Initializes a new instance of [`TextFrameFormat`](../textframeformat) class. |
 
 ## Egenskaper
 
 | Namn | Beskrivning |
 | --- | --- |
 | [AnchoringType](../../aspose.slides/textframeformat/anchoringtype) { get; set; } | Returnerar eller anger vertikal ankaretext i en TextFrame. Läs/skriv [`TextAnchorType`](../textanchortype). |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas-IPresentationComponent-gränssnittet. Endast läs [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas-IPresentationComponent-gränssnittet. Skrivskyddad [`IPresentationComponent`](../ipresentationcomponent). |
 | [AutofitType](../../aspose.slides/textframeformat/autofittype) { get; set; } | Returnerar eller anger textens autofit-läge. Läs/skriv [`TextAutofitType`](../textautofittype). |
-| [CenterText](../../aspose.slides/textframeformat/centertext) { get; set; } | Om NullableBool.True är sant ska texten centreras horisontellt i rutan. Läs/skriv [`NullableBool`](../nullablebool). |
+| [CenterText](../../aspose.slides/textframeformat/centertext) { get; set; } | Om NullableBool.True så ska texten centreras horisontellt i rutan. Läs/skriv [`NullableBool`](../nullablebool). |
 | [ColumnCount](../../aspose.slides/textframeformat/columncount) { get; set; } | Returnerar eller anger antalet kolumner i textområdet. Detta värde måste vara ett positivt tal. Annars sätts värdet till noll. Värde 0 betyder odefinierat värde. Läs/skriv Int32. |
-| [ColumnSpacing](../../aspose.slides/textframeformat/columnspacing) { get; set; } | Returnerar eller anger avståndet mellan textkolumner i textområdet (i punkter). Detta bör endast tillämpas när mer än 1 kolumn finns. Detta värde måste vara ett positivt tal. Annars sätts värdet till noll. Läs/skriv Double. |
-| [KeepTextFlat](../../aspose.slides/textframeformat/keeptextflat) { get; set; } | Hämtar eller anger att hålla texten platt även om en 3-D-rotations-effekt har tillämpats. Läs/skriv Boolean. |
+| [ColumnSpacing](../../aspose.slides/textframeformat/columnspacing) { get; set; } | Returnerar eller anger avståndet mellan textkolumner i textområdet (i punkter). Detta bör endast gälla när mer än 1 kolumn finns. Detta värde måste vara ett positivt tal. Annars sätts värdet till noll. Läs/skriv Double. |
+| [KeepTextFlat](../../aspose.slides/textframeformat/keeptextflat) { get; set; } | Returnerar eller anger att hålla texten plan även om en 3-D-rotations-effekt har applicerats. Läs/skriv Boolean. |
 | [MarginBottom](../../aspose.slides/textframeformat/marginbottom) { get; set; } | Returnerar eller anger den nedre marginalen (punkter) i en TextFrame. Läs/skriv Double. |
 | [MarginLeft](../../aspose.slides/textframeformat/marginleft) { get; set; } | Returnerar eller anger den vänstra marginalen (punkter) i en TextFrame. Läs/skriv Double. |
 | [MarginRight](../../aspose.slides/textframeformat/marginright) { get; set; } | Returnerar eller anger den högra marginalen (punkter) i en TextFrame. Läs/skriv Double. |
 | [MarginTop](../../aspose.slides/textframeformat/margintop) { get; set; } | Returnerar eller anger den övre marginalen (punkter) i en TextFrame. Läs/skriv Double. |
-| [RotationAngle](../../aspose.slides/textframeformat/rotationangle) { get; set; } | Anger en anpassad rotation som tillämpas på texten inom den omgivande rutan. Om den inte anges används rotationen för den medföljande formen. Om den anges tillämpas den oberoende av formen. Det innebär att formen kan ha en rotation utöver att texten själv har en rotation. Det resulterande visuella textrotationsvärdet summeras från denna egenskap och den fördefinierade vertikala typen i egenskapen TextVerticalType. Läs/skriv Single. |
-| [TextVerticalType](../../aspose.slides/textframeformat/textverticaltype) { get; set; } | Fastställer textorientering. Det resulterande visuella textrotationsvärdet summeras från denna egenskap och anpassad vinkel i egenskapen RotationAngle. Läs/skriv [`TextVerticalType`](../textverticaltype). |
-| [ThreeDFormat](../../aspose.slides/textframeformat/threedformat) { get; } | Returnerar ThreeDFormat-objektet som representerar 3D-effektegenskaper för en text. Endast läs [`IThreeDFormat`](../ithreedformat). |
-| [Transform](../../aspose.slides/textframeformat/transform) { get; set; } | Hämtar eller anger textombrytningsform. Läs/skriv [`TextShapeType`](../textshapetype). |
-| [WrapText](../../aspose.slides/textframeformat/wraptext) { get; set; } | Sant om texten omsluts vid TextFrames marginaler. Läs/skriv [`NullableBool`](../nullablebool). |
+| [RotationAngle](../../aspose.slides/textframeformat/rotationangle) { get; set; } | Anger anpassad rotation som appliceras på texten inom begränsningsrutan. Om den inte anges används rotationen för den medföljande formen. Om den anges appliceras den oberoende av formen. Det innebär att formen kan ha en rotation utöver att texten själv har en rotation. Det resulterande värdet av visuell textrotation sammanfattas från denna egendom och fördefinierad vertikal typ i egenskapen TextVerticalType. Läs/skriv Single. |
+| [TextVerticalType](../../aspose.slides/textframeformat/textverticaltype) { get; set; } | Bestämmer textorientering. Det resulterande värdet av visuell textrotation sammanfattas från denna egendom och anpassad vinkel i egenskapen RotationAngle. Läs/skriv [`TextVerticalType`](../textverticaltype). |
+| [ThreeDFormat](../../aspose.slides/textframeformat/threedformat) { get; } | Returnerar ThreeDFormat-objektet som representerar 3D-effektegenskaper för en text. Skrivskyddad [`IThreeDFormat`](../ithreedformat). |
+| [Transform](../../aspose.slides/textframeformat/transform) { get; set; } | Returnerar eller anger textomslutningsformen. Läs/skriv [`TextShapeType`](../textshapetype). |
+| [WrapText](../../aspose.slides/textframeformat/wraptext) { get; set; } | **Sant** om texten omsluts vid TextFrames marginaler. Läs/skriv [`NullableBool`](../nullablebool). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Jämför med angivet objekt. |
-| [GetEffective](../../aspose.slides/textframeformat/geteffective)() | Hämtar effektiv textramformateringsdata med den ärvda inställningen tillämpad. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returnerar hashkod. |
+| [GetEffective](../../aspose.slides/textframeformat/geteffective)() | Returnerar effektiv textramformateringsdata med ärvd egenskap tillämpad. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returnerar hash-kod. |
 
 ### Se även
 
@@ -55,6 +55,6 @@ public sealed class TextFrameFormat : PVIObject, IChartTextBlockFormat, ITextFra
 * gränssnitt [IChartTextBlockFormat](../../aspose.slides.charts/icharttextblockformat)
 * gränssnitt [ITextFrameFormat](../itextframeformat)
 * namnrymd [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* montering [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

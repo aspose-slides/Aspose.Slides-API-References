@@ -1,9 +1,9 @@
 ---
 title: ImageTransformOCollectionEffectiveData
-second_title: Aspose.Sildes para a Referência de API .NET
+second_title: Referência da API Aspose.Sildes para .NET
 description: Objeto imutável que representa uma coleção somente leitura de efeitos de transformação de imagem efetivos.
 type: docs
-weight: 3540
+weight: 3560
 url: /pt/aspose.slides.effects/imagetransformocollectioneffectivedata/
 ---
 ## ImageTransformOCollectionEffectiveData classe
@@ -25,7 +25,7 @@ public class ImageTransformOCollectionEffectiveData : IImageTransformOCollection
 | Nome | Descrição |
 | --- | --- |
 | [Count](../../aspose.slides.effects/imagetransformocollectioneffectivedata/count) { get; } | Retorna o número de efeitos de imagem em uma coleção. Somente leitura Int32. |
-| [IsSynchronized](../../aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized) { get; } | Retorna um valor indicando se o acesso à coleção está sincronizado (thread-safe). Somente leitura Boolean. |
+| [IsSynchronized](../../aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized) { get; } | Retorna um valor indicando se o acesso à coleção é sincronizado (thread-safe). Somente leitura Boolean. |
 | [Item](../../aspose.slides.effects/imagetransformocollectioneffectivedata/item) { get; } | Retorna o elemento por índice. |
 | [SyncRoot](../../aspose.slides.effects/imagetransformocollectioneffectivedata/syncroot) { get; } | Retorna uma raiz de sincronização. Somente leitura Object. |
 
@@ -33,16 +33,16 @@ public class ImageTransformOCollectionEffectiveData : IImageTransformOCollection
 
 | Nome | Descrição |
 | --- | --- |
-| [CopyTo](../../aspose.slides.effects/imagetransformocollectioneffectivedata/copyto)(Array, int) | Copia todos os elementos da coleção para o array especificado. |
+| [CopyTo](../../aspose.slides.effects/imagetransformocollectioneffectivedata/copyto)(Array, int) | Copia todos os elementos da coleção para a matriz especificada. |
 | override [Equals](../../aspose.slides.effects/imagetransformocollectioneffectivedata/equals)(object) | Determina se o objeto especificado é igual ao objeto atual. |
-| [GetEnumerator](../../aspose.slides.effects/imagetransformocollectioneffectivedata/getenumerator)() | Retorna um enumerador que itera através da coleção. |
-| override [GetHashCode](../../aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode)() | Serve como função hash para um tipo específico, adequada para uso em algoritmos de hash e estruturas de dados como uma tabela hash. |
+| [GetEnumerator](../../aspose.slides.effects/imagetransformocollectioneffectivedata/getenumerator)() | Retorna um enumerador que itera pela coleção. |
+| override [GetHashCode](../../aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode)() | Atua como uma função de hash para um tipo específico, adequada para uso em algoritmos de hashing e estruturas de dados como uma tabela de hash. |
 
 ### Observações
 
-O nome IImageTransformOperationCollectionEffectiveData foi truncado para IImageTransformOCollectionEffectiveData porque o comprimento dos nomes COM não pode ser maior que 39.
+Nome IImageTransformOperationCollectionEffectiveData truncado para IImageTransformOCollectionEffectiveData porque o comprimento dos nomes COM não pode ser maior que 39.
 
-### Ver Também
+### Veja Também
 
 * interface [IImageTransformOCollectionEffectiveData](../iimagetransformocollectioneffectivedata)
 * namespace [Aspose.Slides.Effects](../../aspose.slides.effects)

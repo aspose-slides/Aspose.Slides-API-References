@@ -3,10 +3,10 @@ title: IGradientStopCollectionEffectiveData
 second_title: Aspose.Sildes για .NET API Αναφορά
 description: Αντιπροσωπεύει μια συλλογή αντικειμένων GradientStopDataEx.
 type: docs
-weight: 6020
+weight: 6040
 url: /el/aspose.slides/igradientstopcollectioneffectivedata/
 ---
-## Διεπαφή IGradientStopCollectionEffectiveData
+## IGradientStopCollectionEffectiveData διασύνδεση
 
 Αντιπροσωπεύει μια συλλογή αντικειμένων GradientStopDataEx.
 
@@ -23,8 +23,8 @@ public interface IGradientStopCollectionEffectiveData :
 
 ### Δείτε επίσης
 
-* διεπαφή [IGenericCollection&lt;T&gt;](../igenericcollection-1)
-* διεπαφή [IGradientStopEffectiveData](../igradientstopeffectivedata)
+* διασύνδεση [IGenericCollection&lt;T&gt;](../igenericcollection-1)
+* διασύνδεση [IGradientStopEffectiveData](../igradientstopeffectivedata)
 * χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
 * συγκρότηση [Aspose.Slides](../../)
 

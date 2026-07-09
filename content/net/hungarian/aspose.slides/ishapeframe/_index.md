@@ -1,14 +1,14 @@
 ---
 title: IShapeFrame
 second_title: Aspose.Sildes .NET API referenciája
-description: A shape frame tulajdonságait képviseli.
+description: A shape frame tulajdonságait reprezentálja.
 type: docs
-weight: 6980
+weight: 7000
 url: /hu/aspose.slides/ishapeframe/
 ---
 ## IShapeFrame interfész
 
-A shape frame tulajdonságait képviseli.
+A shape frame tulajdonságait reprezentálja.
 
 ```csharp
 public interface IShapeFrame : IGenericCloneable<IShapeFrame>
@@ -20,14 +20,14 @@ public interface IShapeFrame : IGenericCloneable<IShapeFrame>
 | --- | --- |
 | [CenterX](../../aspose.slides/ishapeframe/centerx) { get; } | Visszaadja a keret középpontjának X koordinátáját. Csak olvasható Single. |
 | [CenterY](../../aspose.slides/ishapeframe/centery) { get; } | Visszaadja a keret középpontjának Y koordinátáját. Csak olvasható Single. |
-| [FlipH](../../aspose.slides/ishapeframe/fliph) { get; } | Megállapítja, hogy a keret vízszintesen tükrözött-e. Csak olvasható [`NullableBool`](../nullablebool). |
-| [FlipV](../../aspose.slides/ishapeframe/flipv) { get; } | Megállapítja, hogy a keret függőlegesen tükrözött-e. Csak olvasható [`NullableBool`](../nullablebool). |
+| [FlipH](../../aspose.slides/ishapeframe/fliph) { get; } | Meghatározza, hogy a keret vízszintesen tükrözött-e. Csak olvasható [`NullableBool`](../nullablebool). |
+| [FlipV](../../aspose.slides/ishapeframe/flipv) { get; } | Meghatározza, hogy a keret függőlegesen tükrözött-e. Csak olvasható [`NullableBool`](../nullablebool). |
 | [Height](../../aspose.slides/ishapeframe/height) { get; } | Visszaadja a keret magasságát. Csak olvasható Single. |
 | [Rectangle](../../aspose.slides/ishapeframe/rectangle) { get; } | Visszaadja a keret koordinátáit. Csak olvasható RectangleF. |
-| [Rotation](../../aspose.slides/ishapeframe/rotation) { get; } | Visszaadja a keret z-tengely körül elfordított fokok számát. A pozitív érték az óramutató járásával megegyező forgást jelzi; a negatív érték az óramutató járásával ellentétes forgást jelzi. Csak olvasható Single. |
+| [Rotation](../../aspose.slides/ishapeframe/rotation) { get; } | Visszaadja a keret a z-tengely körül forgatott fokszámát. A pozitív érték az óramutató irányú forgást jelzi; a negatív érték az óramutatóval ellentétes forgást jelzi. Csak olvasható Single. |
 | [Width](../../aspose.slides/ishapeframe/width) { get; } | Visszaadja a keret szélességét. Csak olvasható Single. |
-| [X](../../aspose.slides/ishapeframe/x) { get; } | Visszaadja a keret bal felső sarok X koordinátáját. Csak olvasható Single. |
-| [Y](../../aspose.slides/ishapeframe/y) { get; } | Visszaadja a keret bal felső sarok Y koordinátáját. Csak olvasható Single. |
+| [X](../../aspose.slides/ishapeframe/x) { get; } | Visszaadja a keret bal felső sarkának X koordinátáját. Csak olvasható Single. |
+| [Y](../../aspose.slides/ishapeframe/y) { get; } | Visszaadja a keret bal felső sarkának Y koordinátáját. Csak olvasható Single. |
 
 ### Lásd még
 

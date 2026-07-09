@@ -1,14 +1,14 @@
 ---
 title: IMathBox
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Specifica il confezionamento logico (boxing) di un elemento matematico. Ad esempio, un oggetto boxed può fungere da emulatore di operatore con o senza un punto di allineamento, fungere da punto di interruzione di riga o essere raggruppato in modo da non consentire interruzioni di riga all'interno. Ad esempio, l'operatore dovrebbe essere boxed per impedire interruzioni di riga.
+description: Specifica il packaging logico di boxing di un elemento matematico. Per esempio, un oggetto racchiuso può servire da emulatore di operatore con o senza punto di allineamento, fungere da punto di interruzione di riga o essere raggruppato in modo da non consentire interruzioni di riga al suo interno. Per esempio, l'operatore dovrebbe essere racchiuso per evitare interruzioni di riga.
 type: docs
-weight: 8170
+weight: 8190
 url: /it/aspose.slides.mathtext/imathbox/
 ---
 ## IMathBox interfaccia
 
-Specifica il confezionamento logico (boxing) di un elemento matematico. Ad esempio, un oggetto boxed può fungere da emulatore di operatore con o senza un punto di allineamento, può fungere da punto di interruzione di riga, o può essere raggruppato in modo da non consentire interruzioni di riga all'interno. Per esempio, l'operatore "==" dovrebbe essere boxed per impedire interruzioni di riga.
+Specifica il raggruppamento logico (packaging) di un elemento matematico. Per esempio, un oggetto racchiuso può fungere da emulatore di operatore con o senza punto di allineamento, fungere da punto di interruzione di riga, o essere raggruppato in modo da non consentire interruzioni di riga all’interno. Per esempio, l’operatore "==" dovrebbe essere racchiuso per evitare interruzioni di riga.
 
 ```csharp
 public interface IMathBox : IMathElement
@@ -18,13 +18,13 @@ public interface IMathBox : IMathElement
 
 | Nome | Descrizione |
 | --- | --- |
-| [AlignmentPoint](../../aspose.slides.mathtext/imathbox/alignmentpoint) { get; set; } | Quando è true, questo emulatore di operatore funge da punto di allineamento; i punti di allineamento designati in altre equazioni possono essere allineati con esso. Predefinito: false |
+| [AlignmentPoint](../../aspose.slides.mathtext/imathbox/alignmentpoint) { get; set; } | Quando true, questo emulatore di operatore funge da punto di allineamento; cioè, i punti di allineamento designati in altre equazioni possono essere allineati con esso. Predefinito: false |
 | [AsIMathElement](../../aspose.slides.mathtext/imathbox/asimathelement) { get; } | Consente di ottenere l'interfaccia base IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathbox/base) { get; } | Argomento base |
-| [Differential](../../aspose.slides.mathtext/imathbox/differential) { get; set; } | Differential. Quando è true, il box agisce come un differenziale (ad esempio, 𝑑𝑥 in un integrando) e riceve la spaziatura orizzontale appropriata per il differenziale matematico. Predefinito: false |
-| [ExplicitBreak](../../aspose.slides.mathtext/imathbox/explicitbreak) { get; set; } | Explicit break specifica se esiste un'interruzione di riga all'inizio dell'oggetto Box, in modo che la riga si interroghi all'inizio dell'oggetto box. Specifica il numero dell'operatore nella riga precedente del testo matematico che deve essere utilizzato come punto di allineamento per la riga corrente del testo matematico. Valori possibili: 1..255. Predefinito: 0 (nessuna interruzione esplicita) |
-| [NoBreak](../../aspose.slides.mathtext/imathbox/nobreak) { get; set; } | No break. Questa proprietà specifica la proprietà "unbreakable" sull'oggetto box. Quando è true, non possono verificarsi interruzioni di riga all'interno del box. Questo può essere importante per gli emulatori di operatore che consistono in più di un operatore binario. Quando questo elemento non è specificato, le interruzioni possono verificarsi all'interno del box. Predefinito: true |
-| [OperatorEmulator](../../aspose.slides.mathtext/imathbox/operatoremulator) { get; set; } | Operator Emulator. Quando è true, il box e il suo contenuto si comportano come un singolo operatore e eredita le proprietà di un operatore. Ciò significa, ad esempio, che il carattere può fungere da punto di interruzione di riga e può essere allineato ad altri operatori. Gli Emulatori di Operatore sono spesso usati quando uno o più glifi si combinano per formare un operatore, come '=='. Valore predefinito: false |
+| [Differential](../../aspose.slides.mathtext/imathbox/differential) { get; set; } | Differenziale. Quando true, la casella agisce come un differenziale (ad es., 𝑑𝑥 in un integrando) e riceve la spaziatura orizzontale appropriata per il differenziale matematico. Predefinito: false |
+| [ExplicitBreak](../../aspose.slides.mathtext/imathbox/explicitbreak) { get; set; } | Interruzione esplicita specifica se esiste un'interruzione di riga all'inizio dell'oggetto Box, in modo che la riga vada a capo all'inizio dell'oggetto box. Specifica il numero dell'operatore nella riga precedente del testo matematico che deve essere usato come punto di allineamento per la riga corrente del testo matematico. Valori possibili: 1..255 Predefinito: 0 (nessuna interruzione esplicita) |
+| [NoBreak](../../aspose.slides.mathtext/imathbox/nobreak) { get; set; } | Nessuna interruzione. Questa proprietà specifica la proprietà "unbreakable" sull'oggetto box. Quando true, non possono verificarsi interruzioni di riga all'interno della casella. Questo può essere importante per gli emulatori di operatori che consistono in più di un operatore binario. Quando questo elemento non è specificato, le interruzioni possono verificarsi all'interno della casella. Predefinito: true |
+| [OperatorEmulator](../../aspose.slides.mathtext/imathbox/operatoremulator) { get; set; } | Emulatore di operatore. Quando true, la casella e i suoi contenuti si comportano come un singolo operatore e ereditano le proprietà di un operatore. Ciò significa, ad esempio, che il carattere può servire come punto per un'interruzione di riga e può essere allineato ad altri operatori. Gli emulatori di operatori sono spesso usati quando uno o più glifi si combinano per formare un operatore, come '=='. Valore predefinito: false |
 
 ### Esempi
 

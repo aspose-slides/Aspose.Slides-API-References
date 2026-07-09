@@ -1,9 +1,9 @@
 ---
 title: IChartCategory
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per la Riferimento API .NET
 description: Rappresenta le categorie del grafico.
 type: docs
-weight: 1730
+weight: 1750
 url: /it/aspose.slides.charts/ichartcategory/
 ---
 ## IChartCategory interfaccia
@@ -16,17 +16,17 @@ public interface IChartCategory
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/ichartcategory/ascell) { get; set; } | Restituisce o imposta l'oggetto IChartDataCell. Se la categoria è a più livelli allora viene usato l'oggetto IChartDataCell per il livello "0". Lettura/scrittura [`IChartDataCell`](../ichartdatacell). |
-| [AsLiteral](../../aspose.slides.charts/ichartcategory/asliteral) { get; set; } | Restituisce o imposta AsLiteral se UseCell è false. Lettura/scrittura Object. |
-| [GroupingLevels](../../aspose.slides.charts/ichartcategory/groupinglevels) { get; } | Contenitore gestito dei valori dei livelli di raggruppamento della categoria del grafico. Una categoria a più livelli contiene più di un livello di raggruppamento. L'indicizzazione dei livelli di raggruppamento è a base zero. Solo lettura [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
-| [UseCell](../../aspose.slides.charts/ichartcategory/usecell) { get; } | Se true allora la proprietà AsCell è effettiva. In altre parole, il foglio di lavoro è usato per memorizzare la categoria (questo caso supporta una categoria a più livelli). Se false allora la proprietà AsLiteral è effettiva. In altre parole, il foglio di lavoro NON è usato per memorizzare la categoria (e questo caso non supporta categorie a più livelli). Solo lettura Boolean. |
-| [Value](../../aspose.slides.charts/ichartcategory/value) { get; set; } | Se UseCell è true allora questa proprietà rappresenta la proprietà AsCell.Value. Se UseCell è false allora questa proprietà rappresenta la proprietà AsLiteral. Lettura/scrittura Object. |
+| [AsCell](../../aspose.slides.charts/ichartcategory/ascell) { get; set; } | Restituisce o imposta l'oggetto IChartDataCell. Se la categoria è a più livelli allora si usa l'oggetto IChartDataCell per il livello "0". Lettura/Scrittura [`IChartDataCell`](../ichartdatacell). |
+| [AsLiteral](../../aspose.slides.charts/ichartcategory/asliteral) { get; set; } | Restituisce o imposta AsLiteral se UseCell è falso. Lettura/Scrittura Object. |
+| [GroupingLevels](../../aspose.slides.charts/ichartcategory/groupinglevels) { get; } | Contenitore gestito dei valori dei livelli di raggruppamento della categoria del grafico. Una categoria a più livelli contiene più di un livello di raggruppamento. L'indicizzazione dei livelli di raggruppamento parte da zero. Solo lettura [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
+| [UseCell](../../aspose.slides.charts/ichartcategory/usecell) { get; } | Se vero, la proprietà AsCell è effettiva. In altre parole, il foglio di lavoro è usato per memorizzare la categoria (questo caso supporta una categoria a più livelli). Se falso, la proprietà AsLiteral è effettiva. In altre parole, il foglio di lavoro NON è usato per memorizzare la categoria (e questo caso non supporta categorie a più livelli). Solo lettura Boolean. |
+| [Value](../../aspose.slides.charts/ichartcategory/value) { get; set; } | Se UseCell è vero, questa proprietà rappresenta la proprietà AsCell.Value. Se UseCell è falso, questa proprietà rappresenta la proprietà AsLiteral. Lettura/Scrittura Object. |
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [Remove](../../aspose.slides.charts/ichartcategory/remove)() | Rimuove la categoria dal grafico. |
 

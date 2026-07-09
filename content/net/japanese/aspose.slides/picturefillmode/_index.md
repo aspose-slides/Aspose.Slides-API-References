@@ -1,9 +1,9 @@
 ---
 title: PictureFillMode
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes for .NET APIリファレンス
 description: 画像が領域をどのように埋めるかを決定します。
 type: docs
-weight: 9380
+weight: 9400
 url: /ja/aspose.slides/picturefillmode/
 ---
 ## PictureFillMode 列挙型

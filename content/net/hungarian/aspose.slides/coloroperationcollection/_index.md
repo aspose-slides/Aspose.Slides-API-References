@@ -1,14 +1,14 @@
 ---
 title: ColorOperationCollection
-second_title: Aspose.Sildes .NET API Referenciája
-description: A színtranszformációs műveletek gyűjteményét képviseli.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Színátalakítási műveletek gyűjteményét képviseli.
 type: docs
-weight: 2520
+weight: 2540
 url: /hu/aspose.slides/coloroperationcollection/
 ---
 ## ColorOperationCollection osztály
 
-A színtranszformációs műveletek gyűjteményét képviseli.
+Színátalakítási műveletek gyűjteményét képviseli.
 
 ```csharp
 public sealed class ColorOperationCollection : IColorOperationCollection
@@ -18,10 +18,10 @@ public sealed class ColorOperationCollection : IColorOperationCollection
 
 | Név | Leírás |
 | --- | --- |
-| [Count](../../aspose.slides/coloroperationcollection/count) { get; } | Visszaadja a gyűjteményben lévő műveletek számát. Csak olvasható Int32. |
-| [IsSynchronized](../../aspose.slides/coloroperationcollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjtemény hozzáférése szinkronizált (szálbiztos). Csak olvasható Boolean. |
+| [Count](../../aspose.slides/coloroperationcollection/count) { get; } | Visszaadja a műveletek számát a gyűjteményben. Csak olvasható Int32. |
+| [IsSynchronized](../../aspose.slides/coloroperationcollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált (szálbiztos). Csak olvasható Boolean. |
 | [Item](../../aspose.slides/coloroperationcollection/item) { get; set; } | Visszaadja vagy beállítja a megadott indexű műveletet. Olvasás/írás [`ColorOperation`](../coloroperation). |
-| [SyncRoot](../../aspose.slides/coloroperationcollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökér objektumot. Csak olvasható Object. |
+| [SyncRoot](../../aspose.slides/coloroperationcollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökeret. Csak olvasható Object. |
 
 ## Módszerek
 
@@ -30,12 +30,12 @@ public sealed class ColorOperationCollection : IColorOperationCollection
 | [Add](../../aspose.slides/coloroperationcollection/add#add)(ColorTransformOperation) | Új műveletet ad a gyűjtemény végéhez. |
 | [Add](../../aspose.slides/coloroperationcollection/add#add_1)(ColorTransformOperation, float) | Új műveletet ad a gyűjtemény végéhez. |
 | [Clear](../../aspose.slides/coloroperationcollection/clear)() | Eltávolítja az összes színműveletet. |
-| [Clone](../../aspose.slides/coloroperationcollection/clone)() | Létrehoz egy másolatot egy ColorOperationCollection gyűjteményről. |
+| [Clone](../../aspose.slides/coloroperationcollection/clone)() | Létrehoz egy másolatot a ColorOperationCollection gyűjteményről. |
 | [CloneT](../../aspose.slides/coloroperationcollection/clonet)() | Klónozza a jelenlegi objektumot |
 | [CopyTo](../../aspose.slides/coloroperationcollection/copyto)(Array, int) | Átmásolja a gyűjtemény összes elemét a megadott tömbbe. |
-| [GetEnumerator](../../aspose.slides/coloroperationcollection/getenumerator)() | Visszaad egy enumerátort, amely bejárja a gyűjteményt. |
-| [Insert](../../aspose.slides/coloroperationcollection/insert#insert)(int, ColorTransformOperation) | Beszúrja az új műveletet a gyűjteménybe. |
-| [Insert](../../aspose.slides/coloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | Beszúrja az új műveletet a gyűjteménybe. |
+| [GetEnumerator](../../aspose.slides/coloroperationcollection/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |
+| [Insert](../../aspose.slides/coloroperationcollection/insert#insert)(int, ColorTransformOperation) | Beszúr egy új műveletet a gyűjteménybe. |
+| [Insert](../../aspose.slides/coloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | Beszúr egy új műveletet a gyűjteménybe. |
 | [RemoveAt](../../aspose.slides/coloroperationcollection/removeat)(int) | Eltávolítja a színműveletet a gyűjteményből. |
 
 ### Lásd még

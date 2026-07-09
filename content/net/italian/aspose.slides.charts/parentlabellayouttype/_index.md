@@ -1,14 +1,14 @@
 ---
 title: ParentLabelLayoutType
-second_title: Riferimento API di Aspose.Sildes per .NET
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta il layout delle etichette dei dati di categoria. Utilizzato solo con le serie Treemap.
 type: docs
-weight: 2330
+weight: 2350
 url: /it/aspose.slides.charts/parentlabellayouttype/
 ---
-## Enumerazione ParentLabelLayoutType
+## ParentLabelLayoutType enumerazione
 
-Rappresenta il layout delle etichette dei dati di categoria. Utilizzato solo con le serie Treemap.
+Rappresenta il layout delle etichette dei dati di categoria. Utilizzato solo con la serie Treemap.
 
 ```csharp
 public enum ParentLabelLayoutType
@@ -18,9 +18,9 @@ public enum ParentLabelLayoutType
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Banner | `0` | Specifica che le etichette della categoria genitore sono mostrate come banner |
-| None | `1` | Specifica che le etichette della categoria genitore non sono disegnate |
-| Overlapping | `2` | Specifica che le etichette della categoria genitore sono mostrate come sovrapposte |
+| Banner | `0` | Specifica che le etichette di categoria padre sono visualizzate come banner |
+| None | `1` | Specifica che le etichette di categoria padre non vengono disegnate |
+| Overlapping | `2` | Specifica che le etichette di categoria padre sono visualizzate in sovrapposizione |
 
 ### Vedi anche
 

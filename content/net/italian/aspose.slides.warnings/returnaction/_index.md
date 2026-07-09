@@ -1,14 +1,14 @@
 ---
 title: ReturnAction
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta le opzioni di decisione del callback di avviso.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta le opzioni di decisione della callback di avviso.
 type: docs
-weight: 11800
+weight: 11820
 url: /it/aspose.slides.warnings/returnaction/
 ---
-## Enumerazione ReturnAction
+## ReturnAction enumerazione
 
-Rappresenta le opzioni di decisione del callback di avviso.
+Rappresenta le opzioni di decisione della callback di avviso.
 
 ```csharp
 public enum ReturnAction
@@ -19,7 +19,7 @@ public enum ReturnAction
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | Continue | `0` | L'operazione dovrebbe continuare. |
-| Abort | `1` | L'operazione dovrebbe essere interrotta. |
+| Abort | `1` | L'operazione dovrebbe essere annullata. |
 
 ### Vedi anche
 

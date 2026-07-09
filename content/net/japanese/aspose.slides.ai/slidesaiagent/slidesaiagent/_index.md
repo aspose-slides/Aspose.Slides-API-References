@@ -1,32 +1,54 @@
 ---
 title: SlidesAIAgent
-second_title: Aspose.Sildes for .NET API リファレンス
-description: SlidesAIAgent コンストラクター
+second_title: Aspose.Sildes の .NET API リファレンス
+description: SlidesAIAgentaspose.slides.ai/slidesaiagent の新しいインスタンスをカスタム AI クライアントで初期化します。このオーバーロードを使用して AI プロバイダーを指定したり、独自の LLM を提供したり、たとえば独自の HttpClient を提供することで接続をカスタマイズしたりできます。IAIWebClientaspose.slides.ai/iaiwebclient の任意の実装を使用できます。
 type: docs
 weight: 10
 url: /ja/aspose.slides.ai/slidesaiagent/slidesaiagent/
 ---
-## SlidesAIAgent コンストラクター
+## SlidesAIAgent(IAIWebClient) {#constructor_1}
 
-SlidesAIAgent コンストラクター
+カスタム AI クライアントを使用して [`SlidesAIAgent`](../../slidesaiagent) の新しいインスタンスを初期化します。このオーバーロードを使用すると、AI プロバイダーを指定したり、独自の LLM を提供したり、接続をカスタマイズしたりできます（例として、独自の `HttpClient` を提供することができます）。[`IAIWebClient`](../../iaiwebclient) の任意の実装を使用できます。以下を含む：
+
+* [`AsposeAIWebClient`](../../asposeaiwebclient)
+* [`OpenAIWebClient`](../../openaiwebclient)
+* [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
+
+デフォルト構成の組み込み [`AsposeAIWebClient`](../../asposeaiwebclient) を使用するには、代わりに [`SlidesAIAgent`](../slidesaiagent) オーバーロードを使用してください。
 
 ```csharp
 public SlidesAIAgent(IAIWebClient aiClient)
 ```
 
-| パラメータ | 型 | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| aiClient | IAIWebClient |  |
+| aiClient | IAIWebClient | AI クライアント インスタンス。[`IAIWebClient`](../../iaiwebclient) の任意の実装を使用できます。 |
 
 ### 例外
 
 | 例外 | 条件 |
 | --- | --- |
-| ArgumentNullException | AI クライアント インスタンスが提供されていません |
+| ArgumentNullException | AI クライアント インスタンスが提供されていません。 |
 
 ### 参照
 
 * インターフェイス [IAIWebClient](../../iaiwebclient)
+* クラス [SlidesAIAgent](../../slidesaiagent)
+* 名前空間 [Aspose.Slides.AI](../../slidesaiagent)
+* アセンブリ [Aspose.Slides](../../../)
+
+---
+
+## SlidesAIAgent() {#constructor}
+
+組み込み [`AsposeAIWebClient`](../../asposeaiwebclient) のデフォルト構成を使用して [`SlidesAIAgent`](../../slidesaiagent) の新しいインスタンスを初期化します。クライアントは Aspose の独自 LLM に接続し、追加の構成は不要です。別の AI クライアントを使用するには、代わりに [`SlidesAIAgent`](../slidesaiagent) オーバーロードを使用してください。
+
+```csharp
+public SlidesAIAgent()
+```
+
+### 参照
+
 * クラス [SlidesAIAgent](../../slidesaiagent)
 * 名前空間 [Aspose.Slides.AI](../../slidesaiagent)
 * アセンブリ [Aspose.Slides](../../../)

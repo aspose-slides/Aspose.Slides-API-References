@@ -1,14 +1,14 @@
 ---
 title: IPieSplitCustomPointCollection
-second_title: Referência da API Aspose.Sildes para .NET
-description: Representa uma coleção de pontos que devem ser desenhados no segundo segmento de pizza ou barra em um gráfico de barra-em-pizza ou pizza-em-pizza com uma divisão personalizada.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Representa uma coleção de pontos que devem ser desenhados no segundo setor ou barra em um gráfico de barra-em-setor ou setor-em-setor com uma divisão personalizada.
 type: docs
-weight: 2170
+weight: 2190
 url: /pt/aspose.slides.charts/ipiesplitcustompointcollection/
 ---
 ## IPieSplitCustomPointCollection interface
 
-Representa uma coleção de pontos que devem ser desenhados no segundo segmento de pizza ou barra em um gráfico de barra em pizza ou pizza em pizza com uma divisão personalizada.
+Representa uma coleção de pontos que devem ser desenhados no segundo setor ou barra em um gráfico de barra-em-setor ou setor-em-setor com uma divisão personalizada.
 
 ```csharp
 public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
@@ -18,8 +18,8 @@ public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
 
 | Nome | Descrição |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.charts/ipiesplitcustompointcollection/asienumerable) { get; } | Retorna a interface IEnumerable. |
-| [Item](../../aspose.slides.charts/ipiesplitcustompointcollection/item) { get; } | Retorna o ponto de dados do gráfico por índice. |
+| [AsIEnumerable](../../aspose.slides.charts/ipiesplitcustompointcollection/asienumerable) { get; } | Retorna interface IEnumerable. |
+| [Item](../../aspose.slides.charts/ipiesplitcustompointcollection/item) { get; } | Retorna ponto de dados do gráfico por índice. |
 
 ## Métodos
 
@@ -28,7 +28,7 @@ public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
 | [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | Adiciona ponto de dados pelo seu índice na coleção de pontos da série pai. |
 | [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | Remove item da coleção pelo seu índice na coleção de pontos da série pai. |
 
-### Veja Também
+### Ver também
 
 * interface [IChartDataPoint](../ichartdatapoint)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)

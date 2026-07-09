@@ -1,14 +1,14 @@
 ---
 title: IMathLeftSubSuperscriptElement
 second_title: Aspose.Sildes for .NET API リファレンス
-description: ベースの左側に配置された下標および上標からなるサブスーパースクリプトオブジェクトを指定します。
+description: ベースの左側に配置された、ベースと下付文字および上付文字から構成されるサブ・上付オブジェクトを指定します。
 type: docs
-weight: 8290
+weight: 8310
 url: /ja/aspose.slides.mathtext/imathleftsubsuperscriptelement/
 ---
 ## IMathLeftSubSuperscriptElement インターフェイス
 
-ベースと、ベースの左側に配置された下標および上標からなるサブスーパースクリプトオブジェクトを指定します。
+ベースの左側に配置された、ベースと下付文字および上付文字から構成されるサブ・上付オブジェクトを指定します。
 
 ```csharp
 public interface IMathLeftSubSuperscriptElement : IMathElement
@@ -18,10 +18,10 @@ public interface IMathLeftSubSuperscriptElement : IMathElement
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/asimathelement) { get; } | 基底 IMathElement インターフェイス [`IMathElement`](../imathelement) を取得できます |
-| [Base](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/base) { get; } | 基底引数 |
-| [Subscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/subscript) { get; } | 下標 |
-| [Superscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/superscript) { get; } | 上標 |
+| [AsIMathElement](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/asimathelement) { get; } | ベースの IMathElement インターフェイス [`IMathElement`](../imathelement) を取得できます |
+| [Base](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/base) { get; } | ベース引数 |
+| [Subscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/subscript) { get; } | 下付文字 |
+| [Superscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/superscript) { get; } | 上付文字 |
 
 ### 例
 

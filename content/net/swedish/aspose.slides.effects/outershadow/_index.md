@@ -3,12 +3,12 @@ title: OuterShadow
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en Outer Shadow-effekt.
 type: docs
-weight: 3600
+weight: 3620
 url: /sv/aspose.slides.effects/outershadow/
 ---
-## OuterShadow klass
+## OuterShadow-klass
 
-Representerar en Outer Shadow-effekt.
+Representerar en yttre skuggningseffekt.
 
 ```csharp
 public sealed class OuterShadow : IOuterShadow
@@ -18,26 +18,26 @@ public sealed class OuterShadow : IOuterShadow
 
 | Namn | Beskrivning |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | Blur radius, i punkter. Standardvärde – 0 pt. Läs/skriv Double. |
-| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | Direction of the shadow, i grader. Standardvärde – 0 ° (left-to-right). Läs/skriv Single. |
-| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | Distance of the shadow from the object, i punkter. Standardvärde – 0 pt. Läs/skriv Double. |
-| [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | Rectangle alignment. Standardvärde – Bottom. Läs/skriv [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | Indicates whether the shadow rotates together with the shape. Standardvärde – true. Läs/skriv Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | Horizontal scaling factor, i procent av originalstorleken. Negativ skalning orsakar en flip. Standardvärde – 100 %. Läs/skriv Double. |
-| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | Vertical scaling factor, i procent av originalstorleken. Negativ skalning orsakar en flip. Standardvärde – 100 %. Läs/skriv Double. |
-| [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | Color of the shadow. Standardvärde – automatic black (theme-dependent). Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | Horizontal skew angle, i grader. Standardvärde – 0 °. Läs/skriv Double. |
-| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | Vertical skew angle, i grader. Standardvärde – 0 °. Läs/skriv Double. |
+| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | Oskarphetsradie, i punkter. Standardvärde – 0 pt. Läs/skriv Double. |
+| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | Skuggans riktning, i grader. Standardvärde – 0 ° (vänster till höger). Läs/skriv Single. |
+| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | Avståndet för skuggan från objektet, i punkter. Standardvärde – 0 pt. Läs/skriv Double. |
+| [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | Rektangeljustering. Standardvärde – Bottom. Läs/skriv [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | Anger om skuggan roterar tillsammans med formen. Standardvärde – true. Läs/skriv Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | Horisontell skalningsfaktor, i procent av originalstorleken. Negativ skalning orsakar en spegling. Standardvärde – 100 %. Läs/skriv Double. |
+| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | Vertikal skalningsfaktor, i procent av originalstorleken. Negativ skalning orsakar en spegling. Standardvärde – 100 %. Läs/skriv Double. |
+| [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | Skuggans färg. Standardvärde – automatisk svart (tema-beroende). Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | Horisontell snedvinkel, i grader. Standardvärde – 0 °. Läs/skriv Double. |
+| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | Vertikal snedvinkel, i grader. Standardvärde – 0 °. Läs/skriv Double. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | Bestämmer om den angivna [`OuterShadow`](../outershadow) är lika med den aktuella [`OuterShadow`](../outershadow). |
-| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | Hämtar effektiv Outer Shadow-effektsdata med arv tillämpat. |
+| override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | Avgör om det angivna [`OuterShadow`](../outershadow) är lika med det aktuella [`OuterShadow`](../outershadow). |
+| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | Hämtar effektiv Outer Shadow-effektdata med ärftlighet tillämpad. |
 | override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | Fungerar som en hash-funktion för en viss typ. |
 
-### Se även
+### Se också
 
 * gränssnitt [IOuterShadow](../ioutershadow)
 * namnrymd [Aspose.Slides.Effects](../../aspose.slides.effects)

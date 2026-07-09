@@ -3,7 +3,7 @@ title: EffectSubtype
 second_title: Aspose.Sildes for .NET API リファレンス
 description: アニメーション効果のサブタイプを表します。
 type: docs
-weight: 320
+weight: 340
 url: /ja/aspose.slides.animation/effectsubtype/
 ---
 ## EffectSubtype 列挙体

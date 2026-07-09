@@ -1,14 +1,14 @@
 ---
 title: ISequenceCollection
-second_title: Aspose.Sildes .NET için API Referansı
-description: Etkileşimli sekansların koleksiyonunu temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Etkileşimli dizilerin koleksiyonunu temsil eder.
 type: docs
-weight: 580
+weight: 600
 url: /tr/aspose.slides.animation/isequencecollection/
 ---
 ## ISequenceCollection arayüz
 
-Etkileşimli sekansların koleksiyonunu temsil eder.
+Etkileşimli dizilerin koleksiyonunu temsil eder.
 
 ```csharp
 public interface ISequenceCollection : IEnumerable<ISequence>
@@ -18,18 +18,18 @@ public interface ISequenceCollection : IEnumerable<ISequence>
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/isequencecollection/asienumerable) { get; } | IEnumerable arayüzünü döndürür. Yalnızca okuma IEnumerable. |
-| [Count](../../aspose.slides.animation/isequencecollection/count) { get; } | Bir koleksiyondaki öğe sayısını döndürür. Yalnızca okuma Int32. |
-| [Item](../../aspose.slides.animation/isequencecollection/item) { get; } | Belirtilen dizinde bir sekans döndürür. |
+| [AsIEnumerable](../../aspose.slides.animation/isequencecollection/asienumerable) { get; } | IEnumerable arabirimini döndürür. Yalnızca okunabilir IEnumerable. |
+| [Count](../../aspose.slides.animation/isequencecollection/count) { get; } | Koleksiyondaki öğelerin sayısını döndürür. Yalnızca okunabilir Int32. |
+| [Item](../../aspose.slides.animation/isequencecollection/item) { get; } | Belirtilen indekste bir sıra döndürür. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [Add](../../aspose.slides.animation/isequencecollection/add)(IShape) | Yeni bir etkileşimli sekans ekler. |
-| [Clear](../../aspose.slides.animation/isequencecollection/clear)() | Bir koleksiyondan tüm sekansları kaldırır. |
-| [Remove](../../aspose.slides.animation/isequencecollection/remove)(ISequence) | Bir koleksiyondan belirtilen sekansı kaldırır. |
-| [RemoveAt](../../aspose.slides.animation/isequencecollection/removeat)(int) | Belirtilen dizindeki sekansı kaldırır. |
+| [Add](../../aspose.slides.animation/isequencecollection/add)(IShape) | Yeni bir etkileşimli dizi ekler. |
+| [Clear](../../aspose.slides.animation/isequencecollection/clear)() | Bir koleksiyondan tüm dizileri kaldırır. |
+| [Remove](../../aspose.slides.animation/isequencecollection/remove)(ISequence) | Belirtilen diziyi bir koleksiyondan kaldırır. |
+| [RemoveAt](../../aspose.slides.animation/isequencecollection/removeat)(int) | Belirtilen indeksdeki diziyi kaldırır. |
 
 ### Ayrıca Bakınız
 

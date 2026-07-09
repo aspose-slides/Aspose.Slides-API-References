@@ -1,26 +1,26 @@
 ---
 title: OdpReadException
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar ett undantag som kastas vid fel i läsning av en presentation.
+description: Representerar ett undantag som kastas vid fel vid läsning av presentationer.
 type: docs
-weight: 9200
+weight: 9220
 url: /sv/aspose.slides/odpreadexception/
 ---
 ## OdpReadException klass
 
-Representerar ett exception som kastas vid fel i läsning av presentationen.
+Representerar ett undantag som kastas vid fel vid läsning av presentationer.
 
 ```csharp
 public class OdpReadException : OdpException
 ```
 
-## Konstruktorer
+## Konstruktörer
 
 | Namn | Beskrivning |
 | --- | --- |
 | [OdpReadException](odpreadexception#constructor)() | Standardkonstruktor |
-| [OdpReadException](odpreadexception#constructor_1)(string) | Konstruktor som möjliggör att ett meddelande läggs till i detta exception. |
-| [OdpReadException](odpreadexception#constructor_2)(string, Exception) | Konstruktor för ett exception som innehåller ett meddelande och ett inbäddat exception. |
+| [OdpReadException](odpreadexception#constructor_1)(string) | Konstruktor som tillåter ett meddelande att läggas till i detta undantag. |
+| [OdpReadException](odpreadexception#constructor_2)(string, Exception) | Konstruktor för ett undantag som innehåller ett meddelande och ett inbäddat undantag. |
 
 ### Se även
 

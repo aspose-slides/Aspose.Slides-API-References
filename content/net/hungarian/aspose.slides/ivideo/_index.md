@@ -1,14 +1,14 @@
 ---
 title: IVideo
-second_title: Aspose.Sildes .NET API Referencia
-description: Egy prezentációba beágyazott videót képvisel.
+second_title: Aspose.Sildes .NET API referenciája
+description: Egy prezentációba ágyazott videót képvisel.
 type: docs
-weight: 7340
+weight: 7360
 url: /hu/aspose.slides/ivideo/
 ---
 ## IVideo interfész
 
-Represents a video embedded into a presentation.
+Egy prezentációba ágyazott videót képvisel.
 
 ```csharp
 public interface IVideo
@@ -16,16 +16,16 @@ public interface IVideo
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [BinaryData](../../aspose.slides/ivideo/binarydata) { get; } | Visszaadja a hang adatainak másolatát. Nagy mennyiségű adat esetén fontolja meg a [`GetStream`](./getstream) metódus használatát, hogy megelőzze a videó adatainak felesleges betöltését a memóriába, vagy akár az OutOfMemoryException kivételt. Csak olvasható Byte[]. |
-| [ContentType](../../aspose.slides/ivideo/contenttype) { get; } | Visszaadja a videó MIME típusát, amely [`BinaryData`](./binarydata) kóddal van kódolva. Csak olvasható String. |
+| [BinaryData](../../aspose.slides/ivideo/binarydata) { get; } | Visszaadja egy hang adatmásolatát. Nagy mennyiségű adat esetén fontolja a [`GetStream`](./getstream) metódus használatát, hogy megakadályozza a videó adatainak felesleges betöltését a memóriába, vagy akár OutOfMemoryException kivételt. Csak olvasható Byte[]. |
+| [ContentType](../../aspose.slides/ivideo/contenttype) { get; } | Visszaadja egy videó MIME típusát, amely [`BinaryData`](./binarydata)-ben van kódolva. Csak olvasható String. |
 
 ## Módszerek
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [GetStream](../../aspose.slides/ivideo/getstream)() | Visszaad egy Stream áramlatot olvasáshoz. Használja a 'using' szerkezetet, vagy zárja be az áramlatot a használat után. |
+| [GetStream](../../aspose.slides/ivideo/getstream)() | Visszaad egy Stream objektumot olvasáshoz. Használjon 'using'-ot, vagy zárja be a stream-et a használat után. |
 
 ### Lásd még
 

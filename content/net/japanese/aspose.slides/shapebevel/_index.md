@@ -1,14 +1,14 @@
 ---
 title: ShapeBevel
-second_title: Aspose.Sildes for .NET API リファレンス
-description: シェイプの主要な面のリリーフのプロパティを含みます。
+second_title: Aspose.Sildes for .NET APIリファレンス
+description: シェイプの主面リリーフのプロパティを含みます。
 type: docs
-weight: 9830
+weight: 9850
 url: /ja/aspose.slides/shapebevel/
 ---
 ## ShapeBevel クラス
 
-形状の主要な面のリリーフのプロパティを含みます。
+シェイプの主面リリーフのプロパティを含みます。
 
 ```csharp
 public sealed class ShapeBevel : PVIObject, IShapeBevel
@@ -16,22 +16,22 @@ public sealed class ShapeBevel : PVIObject, IShapeBevel
 
 ## コンストラクター
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [ShapeBevel](shapebevel)(bool) | 新しいインスタンスを作成します。 |
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。 Read-only [`IPresentationComponent`](../ipresentationcomponent). |
-| [BevelType](../../aspose.slides/shapebevel/beveltype) { get; set; } | ベベルタイプ。 Read/write [`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/shapebevel/height) { get; set; } | ベベルの高さ。 Read/write Double. |
-| [Width](../../aspose.slides/shapebevel/width) { get; set; } | ベベルの幅。 Read/write Double. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
+| [BevelType](../../aspose.slides/shapebevel/beveltype) { get; set; } | ベベルの種類。読み書き [`BevelPresetType`](../bevelpresettype)。 |
+| [Height](../../aspose.slides/shapebevel/height) { get; set; } | ベベルの高さ。読み書き Double。 |
+| [Width](../../aspose.slides/shapebevel/width) { get; set; } | ベベルの幅。読み書き Double。 |
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | override [Equals](../../aspose.slides/shapebevel/equals)(object) |  |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | ハッシュコードを返します。 |

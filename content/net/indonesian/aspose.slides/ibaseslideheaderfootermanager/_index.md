@@ -3,12 +3,12 @@ title: IBaseSlideHeaderFooterManager
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili manajer yang mengelola perilaku placeholder footer, tanggal-waktu, dan nomor halaman untuk semua jenis slide.
 type: docs
-weight: 5330
+weight: 5350
 url: /id/aspose.slides/ibaseslideheaderfootermanager/
 ---
-## IBaseSlideHeaderFooterManager antarmuka
+## antarmuka IBaseSlideHeaderFooterManager
 
-Represents manager which holds behavior of the footer, date-time, page number placeholders for all slide types.
+Mewakili manajer yang memegang perilaku placeholder footer, tanggal-waktu, nomor halaman untuk semua jenis slide.
 
 ```csharp
 public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
@@ -27,9 +27,9 @@ public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
 
 | Nama | Deskripsi |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimetext)(string) | Mengatur teks ke placeholder tanggal-waktu slide. |
+| [SetDateTimeText](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimetext)(string) | Menetapkan teks ke placeholder tanggal-waktu slide. |
 | [SetDateTimeVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimevisibility)(bool) | Mengubah visibilitas placeholder tanggal-waktu slide. |
-| [SetFooterText](../../aspose.slides/ibaseslideheaderfootermanager/setfootertext)(string) | Mengatur teks ke placeholder footer slide. |
+| [SetFooterText](../../aspose.slides/ibaseslideheaderfootermanager/setfootertext)(string) | Menetapkan teks ke placeholder footer slide. |
 | [SetFooterVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setfootervisibility)(bool) | Mengubah visibilitas placeholder footer slide. |
 | [SetSlideNumberVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setslidenumbervisibility)(bool) | Mengubah visibilitas placeholder nomor halaman slide. |
 

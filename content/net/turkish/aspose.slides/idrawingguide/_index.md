@@ -1,14 +1,14 @@
 ---
 title: IDrawingGuide
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Ayarlanabilir bir çizim kılavuzunu temsil eder.
 type: docs
-weight: 5700
+weight: 5720
 url: /tr/aspose.slides/idrawingguide/
 ---
-## IDrawingGuide arayüz
+## IDrawingGuide arayüzü
 
-Ayarlanabilir bir çizim kılavuzunu temsil eder.
+Represents an adjustable drawing guide.
 
 ```csharp
 public interface IDrawingGuide
@@ -18,9 +18,9 @@ public interface IDrawingGuide
 
 | Ad | Açıklama |
 | --- | --- |
-| [Color](../../aspose.slides/idrawingguide/color) { get; set; } | Çizim kılavuzunun rengini döndürür veya ayarlar. Okunur/yazılır Color. |
-| [Orientation](../../aspose.slides/idrawingguide/orientation) { get; set; } | Çizim kılavuzunun yönünü döndürür veya ayarlar. Okunur/yazılır [`Orientation`](../orientation). |
-| [Position](../../aspose.slides/idrawingguide/position) { get; set; } | Çizim kılavuzunun konumunu slaytın üst sol köşesinden puan cinsinden döndürür veya ayarlar. Okunur/yazılır Single. |
+| [Color](../../aspose.slides/idrawingguide/color) { get; set; } | Çizim kılavuzunun rengini döndürür veya ayarlar. Okunur/Yazılır Color. |
+| [Orientation](../../aspose.slides/idrawingguide/orientation) { get; set; } | Çizim kılavuzunun yönünü döndürür veya ayarlar. Okunur/Yazılır [`Orientation`](../orientation). |
+| [Position](../../aspose.slides/idrawingguide/position) { get; set; } | Çizim kılavuzunun konumunu slaytın sol üst köşesinden nokta cinsinden döndürür veya ayarlar. Okunur/Yazılır Single. |
 
 ### Ayrıca Bakınız
 

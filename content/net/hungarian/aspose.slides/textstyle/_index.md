@@ -1,14 +1,14 @@
 ---
 title: TextStyle
-second_title: Aspose.Sildes a .NET API referencia
-description: Ez az osztály tartalmazza a szövegstílus formázási tulajdonságait.
+second_title: Aspose.Sildes a .NET API-referencia
+description: Ez az osztály a szövegtípus formázási tulajdonságait tartalmazza.
 type: docs
-weight: 10980
+weight: 11000
 url: /hu/aspose.slides/textstyle/
 ---
 ## TextStyle osztály
 
-Ez az osztály a szövegstílus formázási tulajdonságait tartalmazza.
+Ez az osztály a szövegtípus formázási tulajdonságait tartalmazza.
 
 ```csharp
 public sealed class TextStyle : PVIObject, ITextStyle
@@ -18,7 +18,7 @@ public sealed class TextStyle : PVIObject, ITextStyle
 
 | Név | Leírás |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interface lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
 | [DefaultParagraphFormat](../../aspose.slides/textstyle/defaultparagraphformat) { get; } | Alapértelmezett bekezdés tulajdonságok. Csak olvasható [`IParagraphFormat`](../iparagraphformat). |
 
 ## Módszerek
@@ -26,9 +26,9 @@ public sealed class TextStyle : PVIObject, ITextStyle
 | Név | Leírás |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Összehasonlítja a megadott objektummal. |
-| [GetEffective](../../aspose.slides/textstyle/geteffective)() | Lekéri a hatékony szövegstílus formázási adatokat az öröklődés alkalmazásával. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Visszaadja a hash kódot. |
-| [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | Ha a stílus szintje létezik, visszaadja, különben null értéket ad vissza. |
+| [GetEffective](../../aspose.slides/textstyle/geteffective)() | Megkapja a hatékony szövegtípus formázási adatokat az öröklődés alkalmazásával. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Visszaadja a hashkódot. |
+| [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | Ha a stílus szint létezik, visszaadja, egyébként null értéket ad vissza. |
 
 ### Lásd még
 

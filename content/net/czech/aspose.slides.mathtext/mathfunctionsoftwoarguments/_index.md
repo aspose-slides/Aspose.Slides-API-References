@@ -1,14 +1,14 @@
 ---
 title: MathFunctionsOfTwoArguments
-second_title: Aspose.Sildes pro .NET – referenční příručka API
-description: Společné matematické funkce se dvěma argumenty
+second_title: Aspose.Sildes pro .NET API Reference
+description: Obecné matematické funkce dvou argumentů
 type: docs
-weight: 8730
+weight: 8750
 url: /cs/aspose.slides.mathtext/mathfunctionsoftwoarguments/
 ---
-## Výčet MathFunctionsOfTwoArguments
+## MathFunctionsOfTwoArguments enumerace
 
-Společné matematické funkce se dvěma argumenty
+Obecné matematické funkce dvou argumentů
 
 ```csharp
 public enum MathFunctionsOfTwoArguments

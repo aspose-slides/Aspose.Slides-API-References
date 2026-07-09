@@ -1,14 +1,14 @@
 ---
 title: LoadingStreamBehavior
 second_title: Aspose.Sildes .NET API Referansı
-description: Bir metoda geçirilen Stream, Binary Large Object (BLOB) olarak kabul edilir; IBlobManagementOptions./iblobmanagementoptions açıklamasına bakınız. Bu sayının değerleri, Stream'in metoda geçirilirken nasıl ele alınacağını belirler. Gereksinimlere bağlı olarak, en verimli davranışı sağlamak için farklı kararlar alınabilir.
+description: Bir metoda iletilen Stream, Binary Large Object (BLOB) olarak kabul edilir, bkz. IBlobManagementOptions./iblobmanagementoptions açıklaması. Bu enum'un değerleri, Stream'in metoda iletildiğinde nasıl ele alınacağını belirler. Gereksinimlere bağlı olarak, en verimli davranışı sağlamak için farklı kararlar alınabilir.
 type: docs
-weight: 7830
+weight: 7850
 url: /tr/aspose.slides/loadingstreambehavior/
 ---
-## LoadingStreamBehavior enumeration
+## LoadingStreamBehavior enum'ı
 
-Bir metoda geçirilen Stream, Binary Large Object (BLOB) olarak kabul edilir (bkz. [`IBlobManagementOptions`](../iblobmanagementoptions) açıklama). Bu sayının değerleri, Stream'in metoda geçirilirken nasıl ele alınacağını belirler. Gereksinimlere bağlı olarak, en verimli davranışı sağlamak için farklı kararlar alınabilir.
+Bir metoda iletilen Stream, Binary Large Object (BLOB) olarak kabul edilir (bkz. [`IBlobManagementOptions`](../iblobmanagementoptions) açıklaması). Bu enum değerleri, Stream'in metoda iletildiğinde nasıl ele alınacağını belirler. Gereksinimlere bağlı olarak, en verimli davranışı sağlamak için farklı kararlar alınabilir.
 
 ```csharp
 public enum LoadingStreamBehavior
@@ -16,12 +16,12 @@ public enum LoadingStreamBehavior
 
 ### Değerler
 
-| Ad | Değer | Açıklama |
+| Name | Value | Description |
 | --- | --- | --- |
-| ReadStreamAndRelease | `0` | Stream, sonuna kadar okunacak ve ardından serbest bırakılacak - yani gelecekte bu stream'in [`IPresentation`](../ipresentation) örneği tarafından kullanılmayacağı garanti edilir. İstemci kodu tarafından kapatılabilir veya başka bir şekilde kullanılabilir. |
-| KeepLocked | `1` | Stream, [`IPresentation`](../ipresentation) nesnesi içinde kilitlenecek, yani stream'in sahipliği devredilecektir. [`IPresentation`](../ipresentation) nesnesi, bu nesne kendisi yok edildiğinde stream'i doğru şekilde elden çıkarmaktan sorumlu olacaktır. Bu davranış, büyük bir BLOB dosyasını (örneğin büyük bir video veya ses - bkz. [`IBlobManagementOptions`](../iblobmanagementoptions) açıklama) serileştirmeniz gerektiğinde ve bu dosyanın belleğe yüklenmesini veya diğer performans sorunlarını önlemek istediğinizde son derece faydalıdır. Yalnızca bu dosya için bir FileStream açıp bir metoda geçebilir, KeepLocked LoadingStreamBehavior'i seçebilirsiniz. |
+| ReadStreamAndRelease | `0` | Stream sonuna kadar okunacak ve ardından serbest bırakılacaktır – yani bu Stream'in gelecekte [`IPresentation`](../ipresentation) örneği tarafından kullanılmayacağı garanti edilecektir. İstemci kodu tarafından kapatılabilir veya başka bir şekilde kullanılabilir. |
+| KeepLocked | `1` | Stream, [`IPresentation`](../ipresentation) nesnesi içinde kilitlenir, yani akışın sahipliği devredilir. [`IPresentation`](../ipresentation) nesnesi, bu nesne kendisi yenildiğinde akışı doğru şekilde temizlemekten sorumlu olacaktır. Bu davranış, büyük bir BLOB dosyasını (örneğin büyük bir video veya ses - bkz. [`IBlobManagementOptions`](../iblobmanagementoptions) açıklaması) serileştirmeniz gerektiğinde ve bu dosyanın belleğe yüklenmesini veya diğer performans sorunlarını önlemek istediğinizde son derece faydalıdır. Dosya için bir FileStream açıp bir metoda iletebilir, KeepLocked LoadingStreamBehavior seçeneğini tercih edebilirsiniz. |
 
-### Ayrıca Bakınız
+### Ayrıca bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

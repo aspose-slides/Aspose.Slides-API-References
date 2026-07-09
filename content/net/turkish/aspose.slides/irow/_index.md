@@ -1,14 +1,14 @@
 ---
 title: IRow
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Slides için .NET API Referansı
 description: Bir tabloda bir satırı temsil eder.
 type: docs
-weight: 6830
+weight: 6850
 url: /tr/aspose.slides/irow/
 ---
-## IRow arayüzü
+## IRow arayüz
 
-Bir tabloda bir satırı temsil eder.
+Bir tablodaki satırı temsil eder.
 
 ```csharp
 public interface IRow : IBulkTextFormattable, ICellCollection
@@ -18,10 +18,10 @@ public interface IRow : IBulkTextFormattable, ICellCollection
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/irow/asibulktextformattable) { get; } | Temel IBulkTextFormattable arayüzüne erişim sağlar. Yalnızca okuma [`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsICellCollection](../../aspose.slides/irow/asicellcollection) { get; } | Temel ICellCollection arayüzüne erişim sağlar. Yalnızca okuma [`ICellCollection`](../icellcollection). |
+| [AsIBulkTextFormattable](../../aspose.slides/irow/asibulktextformattable) { get; } | Base IBulkTextFormattable arabirimini almayı sağlar. Yalnızca okuma [`IBulkTextFormattable`](../ibulktextformattable). |
+| [AsICellCollection](../../aspose.slides/irow/asicellcollection) { get; } | Base ICellCollection arabirimini almayı sağlar. Yalnızca okuma [`ICellCollection`](../icellcollection). |
 | [Height](../../aspose.slides/irow/height) { get; } | Bir satırın yüksekliğini döndürür. Yalnızca okuma Double. |
-| [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | Bir satırın alabileceği en düşük yüksekliği döndürür veya ayarlar. Okuma/yazma Double. |
+| [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | Bir satırın alabileceği en düşük yüksekliği döndürür veya ayarlar. Okuma/Yazma Double. |
 | [RowFormat](../../aspose.slides/irow/rowformat) { get; } | Bu satır için biçimlendirme özelliklerini içeren RowFormat nesnesini döndürür. Yalnızca okuma [`IRowFormat`](../irowformat). |
 
 ### Ayrıca Bakınız

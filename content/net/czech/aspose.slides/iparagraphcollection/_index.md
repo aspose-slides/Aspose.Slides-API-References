@@ -1,14 +1,14 @@
 ---
 title: IParagraphCollection
-second_title: Aspose.Sildes pro .NET API referenci
+second_title: Aspose.Sildes pro .NET API Reference
 description: Representuje kolekci odstavců.
 type: docs
-weight: 6550
+weight: 6570
 url: /cs/aspose.slides/iparagraphcollection/
 ---
-## IParagraphCollection interface
+## IParagraphCollection rozhraní
 
-Representuje kolekci odstavců.
+Reprezentuje kolekci odstavců.
 
 ```csharp
 public interface IParagraphCollection : IEnumerable<IParagraph>, ISlideComponent
@@ -16,27 +16,27 @@ public interface IParagraphCollection : IEnumerable<IParagraph>, ISlideComponent
 
 ## Vlastnosti
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides/iparagraphcollection/asienumerable) { get; } | Vrací rozhraní IEnumerable. Pouze pro čtení IEnumerable. |
 | [AsISlideComponent](../../aspose.slides/iparagraphcollection/asislidecomponent) { get; } | Umožňuje získat základní rozhraní ISlideComponent. Pouze pro čtení [`ISlideComponent`](../islidecomponent). |
-| [Count](../../aspose.slides/iparagraphcollection/count) { get; } | Získá počet skutečně obsažených položek v kolekci. Pouze pro čtení Int32. |
+| [Count](../../aspose.slides/iparagraphcollection/count) { get; } | Získá počet prvků skutečně obsažených v kolekci. Pouze pro čtení Int32. |
 | [Item](../../aspose.slides/iparagraphcollection/item) { get; } | Získá prvek na zadaném indexu. |
 
 ## Metody
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
 | [Add](../../aspose.slides/iparagraphcollection/add#add_1)(IParagraph) | Přidá Paragraph na konec kolekce. |
 | [Add](../../aspose.slides/iparagraphcollection/add#add)(IParagraphCollection) | Přidá obsah ParagraphCollection na konec kolekce. |
 | [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml)(string) | Přidá text ze zadaného řetězce html do kolekce. |
 | [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | Přidá text ze zadaného řetězce html do kolekce. |
 | [Clear](../../aspose.slides/iparagraphcollection/clear)() | Odstraní všechny prvky z kolekce. |
-| [ExportToHtml](../../aspose.slides/iparagraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | Převede určené odstavce do HTML a vrátí je jako objekt String. |
+| [ExportToHtml](../../aspose.slides/iparagraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | Převede určené odstavce do HTML a vrátí jej jako objekt String. |
 | [Insert](../../aspose.slides/iparagraphcollection/insert#insert)(int, IParagraph) | Vloží Paragraph do kolekce na zadaném indexu. |
 | [Insert](../../aspose.slides/iparagraphcollection/insert#insert_1)(int, IParagraphCollection) | Vloží obsah ParagraphCollection do kolekce na zadaném indexu. |
 | [Remove](../../aspose.slides/iparagraphcollection/remove)(IParagraph) | Odstraní první výskyt konkrétního odstavce. |
-| [RemoveAt](../../aspose.slides/iparagraphcollection/removeat)(int) | Odstraní prvek na zadaném indexu v kolekci. |
+| [RemoveAt](../../aspose.slides/iparagraphcollection/removeat)(int) | Odstraní prvek na zadaném indexu kolekce. |
 
 ### Viz také
 

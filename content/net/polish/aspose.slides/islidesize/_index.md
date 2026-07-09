@@ -1,9 +1,9 @@
 ---
 title: ISlideSize
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje rozmiar i orientację slajdu.
 type: docs
-weight: 7070
+weight: 7090
 url: /pl/aspose.slides/islidesize/
 ---
 ## ISlideSize interfejs
@@ -26,8 +26,8 @@ public interface ISlideSize
 
 | Nazwa | Opis |
 | --- | --- |
-| [SetSize](../../aspose.slides/islidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | Ustawia rozmiar slajdu według typu i skalowuje istniejącą zawartość. |
-| [SetSize](../../aspose.slides/islidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | Ustawia wymiary slajdu wyraźnie i skalowuje istniejącą zawartość. |
+| [SetSize](../../aspose.slides/islidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | Ustawia rozmiar slajdu według typu i skaluje istniejącą zawartość. |
+| [SetSize](../../aspose.slides/islidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | Ustawia wymiary slajdu jawnie i skaluje istniejącą zawartość. |
 
 ### Zobacz także
 

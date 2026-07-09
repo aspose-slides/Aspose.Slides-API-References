@@ -1,14 +1,14 @@
 ---
 title: TimeUnitType
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili unit dasar untuk sumbu kategori
+description: Mewakili satuan dasar untuk sumbu kategori
 type: docs
-weight: 2440
+weight: 2460
 url: /id/aspose.slides.charts/timeunittype/
 ---
-## Enumerasi TimeUnitType
+## TimeUnitType enumerasi
 
-Mewakili unit dasar untuk sumbu kategori
+Mewakili satuan dasar untuk sumbu kategori
 
 ```csharp
 public enum TimeUnitType
@@ -16,12 +16,12 @@ public enum TimeUnitType
 
 ### Nilai
 
-| Name | Value | Deskripsi |
+| Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| None | `0` | Nilai akan ditampilkan sebagaimana adanya. |
-| Days | `1` | Menentukan bahwa data diagram akan ditampilkan dalam hari. |
-| Months | `2` | Menentukan bahwa data diagram akan ditampilkan dalam bulan. |
-| Years | `3` | Menentukan bahwa data diagram akan ditampilkan dalam tahun. |
+| None | `0` | Nilai akan ditampilkan apa adanya. |
+| Days | `1` | Menentukan data diagram akan ditampilkan dalam hari. |
+| Months | `2` | Menentukan data diagram akan ditampilkan dalam bulan. |
+| Years | `3` | Menentukan data diagram akan ditampilkan dalam tahun. |
 
 ### Lihat Juga
 

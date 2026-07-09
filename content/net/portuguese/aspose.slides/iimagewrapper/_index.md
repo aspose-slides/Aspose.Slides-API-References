@@ -1,9 +1,9 @@
 ---
 title: IImageWrapper
-second_title: Aspose.Sildes para .NET Referência de API
+second_title: Aspose.Sildes para referência da API .NET
 description: Wrapper System.Drawing.Image para interface COM.
 type: docs
-weight: 6150
+weight: 6170
 url: /pt/aspose.slides/iimagewrapper/
 ---
 ## IImageWrapper interface
@@ -19,15 +19,15 @@ public interface IImageWrapper : IDisposable
 | Nome | Descrição |
 | --- | --- |
 | [AsIDisposable](../../aspose.slides/iimagewrapper/asidisposable) { get; } | Retorna a interface IDisposable. Somente leitura IDisposable. |
-| [ImageSource](../../aspose.slides/iimagewrapper/imagesource) { get; } | Obtém a imagem Somente leitura Image. |
-| [Size](../../aspose.slides/iimagewrapper/size) { get; } | Obtém a largura e altura, em pixels, da Image Somente leitura [`Size`](./size). |
+| [ImageSource](../../aspose.slides/iimagewrapper/imagesource) { get; } | Obtém a imagem. Somente leitura Image. |
+| [Size](../../aspose.slides/iimagewrapper/size) { get; } | Obtém a largura e a altura, em pixels, da Image. Somente leitura [`Size`](./size). |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
 | [Save](../../aspose.slides/iimagewrapper/save#save_1)(string) | Salva Image no arquivo especificado |
-| [Save](../../aspose.slides/iimagewrapper/save#save)(Stream, PPImageFormat) | Salva a Image no Stream especificado no formato especificado. |
+| [Save](../../aspose.slides/iimagewrapper/save#save)(Stream, PPImageFormat) | Salva a Image no fluxo especificado no formato especificado. |
 | [Save](../../aspose.slides/iimagewrapper/save#save_2)(string, PPImageFormat) | Salva a Image no arquivo especificado no formato especificado. |
 
 ### Veja Também

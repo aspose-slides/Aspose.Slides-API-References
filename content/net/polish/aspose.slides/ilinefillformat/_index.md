@@ -1,9 +1,9 @@
 ---
 title: ILineFillFormat
-second_title: Aspose.Sildes dla .NET API Reference
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje właściwości wypełniania linii.
 type: docs
-weight: 6270
+weight: 6290
 url: /pl/aspose.slides/ilinefillformat/
 ---
 ## ILineFillFormat interfejs
@@ -18,10 +18,10 @@ public interface ILineFillFormat : IFillParamSource
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ilinefillformat/asifillparamsource) { get; } | Pozwala uzyskać podstawowy interfejs IFillParamSource. Tylko do odczytu [`IFillParamSource`](../ifillparamsource). |
+| [AsIFillParamSource](../../aspose.slides/ilinefillformat/asifillparamsource) { get; } | Umożliwia pobranie podstawowego interfejsu IFillParamSource. Tylko do odczytu [`IFillParamSource`](../ifillparamsource). |
 | [FillType](../../aspose.slides/ilinefillformat/filltype) { get; set; } | Zwraca lub ustawia typ wypełnienia. Odczyt/zapis [`FillType`](../filltype). |
 | [GradientFormat](../../aspose.slides/ilinefillformat/gradientformat) { get; } | Zwraca format wypełnienia gradientowego. Tylko do odczytu [`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/ilinefillformat/patternformat) { get; } | Zwraca format wypełnienia wzorcowego. Tylko do odczytu [`IPatternFormat`](../ipatternformat). |
+| [PatternFormat](../../aspose.slides/ilinefillformat/patternformat) { get; } | Zwraca format wypełnienia wzoru. Tylko do odczytu [`IPatternFormat`](../ipatternformat). |
 | [RotateWithShape](../../aspose.slides/ilinefillformat/rotatewithshape) { get; set; } | Określa, czy wypełnienie powinno być obracane razem z kształtem. Odczyt/zapis [`NullableBool`](../nullablebool). |
 | [SolidFillColor](../../aspose.slides/ilinefillformat/solidfillcolor) { get; } | Zwraca kolor jednolitego wypełnienia. Tylko do odczytu [`IColorFormat`](../icolorformat). |
 

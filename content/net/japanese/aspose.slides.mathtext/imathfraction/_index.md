@@ -1,14 +1,14 @@
 ---
 title: IMathFraction
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 分子と分母が分数バーで区切られた分数オブジェクトを指定します。分数バーは、分数プロパティに応じて水平または対角にすることができます。分数オブジェクトは、分数バーなしで要素を上に配置するスタック関数を表すためにも使用されます。
+description: 分子と分母が分数バーで区切られた分数オブジェクトを指定します。分数バーは分数プロパティに応じて水平または対角に設定できます。また、分数オブジェクトは分数バーなしで一方の要素を別の要素の上に配置するスタック機能を表すためにも使用されます。
 type: docs
-weight: 8230
+weight: 8250
 url: /ja/aspose.slides.mathtext/imathfraction/
 ---
 ## IMathFraction インターフェイス
 
-分子と分母が分数バーで区切られた分数オブジェクトを指定します。分数バーは、分数プロパティに応じて水平または対角にすることができます。分数オブジェクトは、分数バーなしで要素を上に配置するスタック関数を表すためにも使用されます。
+分子と分母が分数バーで区切られた分数オブジェクトを指定します。分数バーは分数プロパティに応じて水平または対角にすることができます。分数オブジェクトは、分数バーなしで 1 つの要素を別の要素の上に配置するスタック関数を表すためにも使用されます。
 
 ```csharp
 public interface IMathFraction : IMathElement
@@ -18,7 +18,7 @@ public interface IMathFraction : IMathElement
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathfraction/asimathelement) { get; } | 基本 IMathElement インターフェイス [`IMathElement`](../imathelement) を取得できます |
+| [AsIMathElement](../../aspose.slides.mathtext/imathfraction/asimathelement) { get; } | ベース IMathElement インターフェイスを取得できます [`IMathElement`](../imathelement) |
 | [Denominator](../../aspose.slides.mathtext/imathfraction/denominator) { get; } | 分母 |
 | [FractionType](../../aspose.slides.mathtext/imathfraction/fractiontype) { get; set; } | 分数タイプ デフォルト: Bar |
 | [Numerator](../../aspose.slides.mathtext/imathfraction/numerator) { get; } | 分子 |
@@ -33,7 +33,7 @@ IMathFraction mathFraction = new MathematicalText("x").Divide("y");
 IMathFraction mathFraction2 = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes.Linear);
 ```
 
-### 関連項目
+### 参照
 
 * インターフェイス [IMathElement](../imathelement)
 * 名前空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

@@ -1,14 +1,14 @@
 ---
 title: EffectRestartType
-second_title: Aspose.Sildes .NET API referencia
-description: Az időzítéshez kapcsolódó újraindítási típusokat képviseli.
+second_title: Aspose.Sildes .NET API referenciája
+description: Az időzítéshez tartozó újraindítási típusokat képviseli.
 type: docs
-weight: 310
+weight: 330
 url: /hu/aspose.slides.animation/effectrestarttype/
 ---
-## EffectRestartType felsorolás
+## EffectRestartType enumeráció
 
-A visszaindítási típusokat képviseli az időzítéshez.
+Az időzítéshez tartozó újraindítási típusokat képviseli.
 
 ```csharp
 public enum EffectRestartType

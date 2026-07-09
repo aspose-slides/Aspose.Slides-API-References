@@ -1,9 +1,9 @@
 ---
 title: BaseChartValue
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje wartość wykresu.
 type: docs
-weight: 1200
+weight: 1220
 url: /pl/aspose.slides.charts/basechartvalue/
 ---
 ## BaseChartValue klasa
@@ -18,10 +18,10 @@ public abstract class BaseChartValue : IBaseChartValue
 
 | Nazwa | Opis |
 | --- | --- |
-| abstract [Data](../../aspose.slides.charts/basechartvalue/data) { get; set; } | Dane. Odczyt/zapis Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Określa, czy właściwość AsCell, AsCells, AsLiteralString lub AsLiteralDouble jest aktualna w potomkach. Inaczej mówiąc, określa typ wartości właściwości Data. Odczyt/zapis [`DataSourceType`](../datasourcetype). |
+| abstract [Data](../../aspose.slides.charts/basechartvalue/data) { get; set; } | Dane. Odczyt/zapis Obiekt. |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Określa, czy właściwość AsCell, AsCells, AsLiteralString lub AsLiteralDouble jest aktualna w pochodnych. Innymi słowy określa typ wartości właściwości Data. Odczyt/zapis [`DataSourceType`](../datasourcetype). |
 
-### Zobacz też
+### Zobacz także
 
 * interfejs [IBaseChartValue](../ibasechartvalue)
 * przestrzeń nazw [Aspose.Slides.Charts](../../aspose.slides.charts)

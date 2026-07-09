@@ -3,10 +3,10 @@ title: DataLabel
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili label seri.
 type: docs
-weight: 1530
+weight: 1550
 url: /id/aspose.slides.charts/datalabel/
 ---
-## Kelas DataLabel
+## kelas DataLabel
 
 Mewakili label seri.
 
@@ -24,19 +24,19 @@ public class DataLabel : IDataLabel
 
 | Nama | Deskripsi |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/datalabel/actualheight) { get; } | Menentukan tinggi aktual elemen chart. Panggil metode IChart.ValidateChartLayout() terlebih dulu untuk mendapatkan nilai aktual. Baca Single. |
-| [ActualWidth](../../aspose.slides.charts/datalabel/actualwidth) { get; } | Menentukan lebar aktual elemen chart. Panggil metode IChart.ValidateChartLayout() terlebih dulu untuk mendapatkan nilai aktual. Baca Single. |
-| [ActualX](../../aspose.slides.charts/datalabel/actualx) { get; } | Menentukan lokasi x aktual (kiri) elemen chart relatif terhadap sudut kiri atas chart. Panggil metode IChart.ValidateChartLayout() terlebih dulu untuk mendapatkan nilai aktual. Baca Single. |
-| [ActualY](../../aspose.slides.charts/datalabel/actualy) { get; } | Menentukan posisi atas aktual elemen chart relatif terhadap sudut kiri atas chart. Panggil metode IChart.ValidateChartLayout() terlebih dulu untuk mendapatkan nilai aktual. Baca Single. |
-| [Bottom](../../aspose.slides.charts/datalabel/bottom) { get; } | Bawah. Hanya-baca Single. |
-| [Chart](../../aspose.slides.charts/datalabel/chart) { get; } | Mengembalikan chart induk. Hanya-baca [`IChart`](../ichart). |
-| [DataLabelFormat](../../aspose.slides.charts/datalabel/datalabelformat) { get; } | Mengembalikan format label data. Hanya-baca [`IDataLabelFormat`](../idatalabelformat). |
+| [ActualHeight](../../aspose.slides.charts/datalabel/actualheight) { get; } | Menentukan tinggi aktual elemen chart. Panggil metode IChart.ValidateChartLayout() terlebih dahulu untuk mendapatkan nilai aktual. Baca Single. |
+| [ActualWidth](../../aspose.slides.charts/datalabel/actualwidth) { get; } | Menentukan lebar aktual elemen chart. Panggil metode IChart.ValidateChartLayout() terlebih dahulu untuk mendapatkan nilai aktual. Baca Single. |
+| [ActualX](../../aspose.slides.charts/datalabel/actualx) { get; } | Menentukan lokasi x aktual (kiri) elemen chart relatif terhadap sudut kiri atas chart. Panggil metode IChart.ValidateChartLayout() terlebih dahulu untuk mendapatkan nilai aktual. Baca Single. |
+| [ActualY](../../aspose.slides.charts/datalabel/actualy) { get; } | Menentukan bagian atas aktual elemen chart relatif terhadap sudut kiri atas chart. Panggil metode IChart.ValidateChartLayout() terlebih dahulu untuk mendapatkan nilai aktual. Baca Single. |
+| [Bottom](../../aspose.slides.charts/datalabel/bottom) { get; } | Bawah. Baca-saja Single. |
+| [Chart](../../aspose.slides.charts/datalabel/chart) { get; } | Mengembalikan chart induk. Baca-saja [`IChart`](../ichart). |
+| [DataLabelFormat](../../aspose.slides.charts/datalabel/datalabelformat) { get; } | Mengembalikan format label data. Baca-saja [`IDataLabelFormat`](../idatalabelformat). |
 | [Height](../../aspose.slides.charts/datalabel/height) { get; set; } | Mengembalikan atau mengatur tinggi judul sebagai fraksi dari tinggi chart. Baca/tulis Single. |
-| [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | False berarti label data tidak terlihat (dan semua flag Show* (ShowValue, ...) menjadi false). Hanya-baca Boolean. |
-| [Right](../../aspose.slides.charts/datalabel/right) { get; } | Kanan. Hanya-baca Single. |
-| [TextFormat](../../aspose.slides.charts/datalabel/textformat) { get; } | Mengembalikan format teks. Hanya-baca [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | Dapat berisi teks berformat kaya. Jika properti ini tidak null maka nilai teks berformat ini akan menimpa teks yang dihasilkan secara otomatis dari label data. Teks yang dihasilkan secara otomatis dari label data berarti teks yang dikelola oleh properti ShowSeriesName, ShowValue, ... dan diformat dengan properti TextFormatManager.TextFormat. Hanya-baca [`ITextFrame`](../../aspose.slides/itextframe). |
-| [ValueFromCell](../../aspose.slides.charts/datalabel/valuefromcell) { get; set; } | Mengambil atau mengatur sel data workbook. Diterapkan jika properti IDataLabelFormat.ShowLabelValueFromCell bernilai true. |
+| [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | False berarti label data tidak terlihat (dan semua flag Show* (ShowValue, ...) menjadi false). Baca-saja Boolean. |
+| [Right](../../aspose.slides.charts/datalabel/right) { get; } | Kanan. Baca-saja Single. |
+| [TextFormat](../../aspose.slides.charts/datalabel/textformat) { get; } | Mengembalikan format teks. Baca-saja [`IChartTextFormat`](../icharttextformat). |
+| [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | Dapat berisi teks terformat kaya. Jika properti ini tidak null maka nilai teks terformat ini menggantikan teks otomatis label data. Teks otomatis label data berarti teks yang dikelola oleh properti ShowSeriesName, ShowValue, ... dan diformat dengan properti TextFormatManager.TextFormat. Baca-saja [`ITextFrame`](../../aspose.slides/itextframe). |
+| [ValueFromCell](../../aspose.slides.charts/datalabel/valuefromcell) { get; set; } | Mengambil atau mengatur sel data buku kerja. Diterapkan jika properti IDataLabelFormat.ShowLabelValueFromCell bernilai true. |
 | [Width](../../aspose.slides.charts/datalabel/width) { get; set; } | Mengembalikan atau mengatur lebar judul sebagai fraksi dari lebar chart. Baca/tulis Single. |
 | [X](../../aspose.slides.charts/datalabel/x) { get; set; } | Mengembalikan atau mengatur koordinat x judul sebagai fraksi dari lebar chart. Baca/tulis Single. |
 | [Y](../../aspose.slides.charts/datalabel/y) { get; set; } | Mengembalikan atau mengatur koordinat y judul sebagai fraksi dari tinggi chart. Baca/tulis Single. |
@@ -45,14 +45,14 @@ public class DataLabel : IDataLabel
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/datalabel/addtextframeforoverriding)(string) | Inisialisasi TextFrameForOverriding dengan teks pada parameter "text". Jika TextFrameForOverriding sudah diinisialisasi maka cukup mengubah teksnya. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/datalabel/addtextframeforoverriding)(string) | Menginisialisasi TextFrameForOverriding dengan teks pada parameter "text". Jika TextFrameForOverriding sudah diinisialisasi maka cukup mengubah teksnya. |
 | [GetActualLabelText](../../aspose.slides.charts/datalabel/getactuallabeltext)() | Mengembalikan teks label aktual berdasarkan pengaturan DataLabelFormat atau nilai TextFrameForOverriding.Text. |
-| [Hide](../../aspose.slides.charts/datalabel/hide)() | Menyembunyikan label data dengan mengatur semua flag Show* (ShowValue, ...) menjadi false. IsVisible akan menjadi false setelah ini. |
+| [Hide](../../aspose.slides.charts/datalabel/hide)() | Menyembunyikan label data dengan mengatur semua flag Show* (ShowValue, ...) ke keadaan false. IsVisible akan menjadi false setelah ini. |
 
 ### Lihat Juga
 
 * antarmuka [IDataLabel](../idatalabel)
 * ruang nama [Aspose.Slides.Charts](../../aspose.slides.charts)
-* assembly [Aspose.Slides](../../)
+* rakitan [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

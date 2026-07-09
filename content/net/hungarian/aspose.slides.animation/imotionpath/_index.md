@@ -1,14 +1,12 @@
 ---
 title: IMotionPath
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Mozgási útvonalat reprezentál.
+second_title: Aspose.Sildes .NET API referencia
+description: Ábrázolja a mozgási útvonalat.
 type: docs
-weight: 510
+weight: 530
 url: /hu/aspose.slides.animation/imotionpath/
 ---
 ## IMotionPath interfész
-
-Represent motion path.
 
 ```csharp
 public interface IMotionPath : IEnumerable<IMotionCmdPath>
@@ -18,11 +16,11 @@ public interface IMotionPath : IEnumerable<IMotionCmdPath>
 
 | Név | Leírás |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/imotionpath/asienumerable) { get; } | Lehetővé teszi az alap IBehavior interfész lekérését. Csak olvasható IEnumerable. |
+| [AsIEnumerable](../../aspose.slides.animation/imotionpath/asienumerable) { get; } | Lehetővé teszi a base IBehavior interfész lekérését. Csak olvasható IEnumerable. |
 | [Count](../../aspose.slides.animation/imotionpath/count) { get; } | Visszaadja az útvonalak számát a gyűjteményben. Csak olvasható Int32. |
-| [Item](../../aspose.slides.animation/imotionpath/item) { get; } | Visszaad egy parancsot a megadott indexnél. |
+| [Item](../../aspose.slides.animation/imotionpath/item) { get; } | Visszaad egy parancsot a megadott indexen. |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
@@ -30,7 +28,7 @@ public interface IMotionPath : IEnumerable<IMotionCmdPath>
 | [Clear](../../aspose.slides.animation/imotionpath/clear)() | Eltávolítja az összes parancsot a gyűjteményből. |
 | [Insert](../../aspose.slides.animation/imotionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Új parancs beszúrása az úthoz |
 | [Remove](../../aspose.slides.animation/imotionpath/remove)(IMotionCmdPath) | Eltávolítja a megadott parancsokat a gyűjteményből. |
-| [RemoveAt](../../aspose.slides.animation/imotionpath/removeat)(int) | Eltávolít egy parancsot a megadott indexnél. |
+| [RemoveAt](../../aspose.slides.animation/imotionpath/removeat)(int) | Eltávolít egy parancsot a megadott indexen. |
 
 ### Lásd még
 

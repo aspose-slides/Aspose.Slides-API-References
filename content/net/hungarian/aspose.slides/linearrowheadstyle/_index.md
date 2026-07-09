@@ -1,13 +1,15 @@
 ---
 title: LineArrowheadStyle
-second_title: Aspose.Sildes .NET API referencia
-description: Az íjszárny stílusát jelöli.
+second_title: Aspose.Slides .NET API Referencia
+description: A nyílfej stílusát reprezentálja.
 type: docs
-weight: 7720
+weight: 7740
 url: /hu/aspose.slides/linearrowheadstyle/
 ---
-## LineArrowheadStyle enumeráció
-Az íjszárny stílusát jelöli.
+## LineArrowheadStyle felsorolás
+
+A nyílhegy stílusát reprezentálja.
+
 ```csharp
 public enum LineArrowheadStyle : sbyte
 ```
@@ -24,7 +26,7 @@ public enum LineArrowheadStyle : sbyte
 | Oval | `4` |  |
 | Open | `5` |  |
 
-### Lásd még
+### Továbbiak
 
 * névtér [Aspose.Slides](../../aspose.slides)
 * összeállítás [Aspose.Slides](../../)

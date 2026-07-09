@@ -1,14 +1,14 @@
 ---
 title: ColorOffset
-second_title: Aspose.Sildes için .NET API Referansı
-description: Renk ofsetini temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Renk offsetini temsil eder.
 type: docs
-weight: 220
+weight: 240
 url: /tr/aspose.slides.animation/coloroffset/
 ---
 ## ColorOffset sınıfı
 
-Renk ofsetini temsil eder.
+Renk offsetini temsil eder.
 
 ```csharp
 public class ColorOffset : IColorOffset
@@ -24,9 +24,9 @@ public class ColorOffset : IColorOffset
 
 | Ad | Açıklama |
 | --- | --- |
-| [Value0](../../aspose.slides.animation/coloroffset/value0) { get; set; } | Ofsetin ilk değerini tanımlar. Okuma/Yazma Single. |
-| [Value1](../../aspose.slides.animation/coloroffset/value1) { get; set; } | Ofsetin ikinci değerini tanımlar. Okuma/Yazma Single. |
-| [Value2](../../aspose.slides.animation/coloroffset/value2) { get; set; } | Ofsetin üçüncü değerini tanımlar. Okuma/Yazma Single. |
+| [Value0](../../aspose.slides.animation/coloroffset/value0) { get; set; } | Offset'in ilk değerini tanımlar. Okuma/Yazma Single. |
+| [Value1](../../aspose.slides.animation/coloroffset/value1) { get; set; } | Offset'in ikinci değerini tanımlar. Okuma/Yazma Single. |
+| [Value2](../../aspose.slides.animation/coloroffset/value2) { get; set; } | Offset'in üçüncü değerini tanımlar. Okuma/Yazma Single. |
 
 ### Ayrıca Bakınız
 

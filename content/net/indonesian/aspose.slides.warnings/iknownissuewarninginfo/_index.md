@@ -3,7 +3,7 @@ title: IKnownIssueWarningInfo
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili peringatan tentang masalah yang diketahui yang tidak akan diperbaiki dalam waktu dekat.
 type: docs
-weight: 11740
+weight: 11760
 url: /id/aspose.slides.warnings/iknownissuewarninginfo/
 ---
 ## IKnownIssueWarningInfo antarmuka
@@ -18,7 +18,7 @@ public interface IKnownIssueWarningInfo : IWarningInfo
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/iknownissuewarninginfo/asiwarninginfo) { get; } | Mengembalikan antarmuka IWarningInfo. Hanya baca [`IWarningInfo`](../iwarninginfo). |
+| [AsIWarningInfo](../../aspose.slides.warnings/iknownissuewarninginfo/asiwarninginfo) { get; } | Mengembalikan antarmuka IWarningInfo. Hanya-baca [`IWarningInfo`](../iwarninginfo). |
 
 ### Lihat Juga
 

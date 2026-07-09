@@ -1,14 +1,14 @@
 ---
 title: ExcelWorkbookImporter
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Menyediakan fungsionalitas untuk mengimpor konten dari buku kerja Excel ke dalam presentasi.
 type: docs
-weight: 7450
+weight: 7470
 url: /id/aspose.slides.import/excelworkbookimporter/
 ---
 ## ExcelWorkbookImporter kelas
 
-Menyediakan fungsi untuk mengimpor konten dari buku kerja Excel ke dalam presentasi.
+Menyediakan fungsionalitas untuk mengimpor konten dari buku kerja Excel ke dalam presentasi.
 
 ```csharp
 public static class ExcelWorkbookImporter
@@ -18,13 +18,13 @@ public static class ExcelWorkbookImporter
 
 | Nama | Deskripsi |
 | --- | --- |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, int, bool) | Retrieves a chart from the specified Excel workbook and adds it to the end of the given shape collection at the specified coordinates. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_1)(IShapeCollection, float, float, IExcelDataWorkbook, string, string, bool) | Retrieves a chart from the specified Excel workbook and adds it to the end of the given shape collection at the specified coordinates. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_2)(IShapeCollection, float, float, Stream, string, string, bool) | Retrieves a chart from the specified Excel workbook and adds it to the end of the given shape collection at the specified coordinates. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_3)(IShapeCollection, float, float, string, string, string, bool) | Retrieves a chart from the specified Excel workbook and adds it to the end of the given shape collection at the specified coordinates. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, string) | Retrieves a table from the specified Excel workbook and adds it to the end of the given shape collection at the specified coordinates. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_1)(IShapeCollection, float, float, Stream, string, string) | Retrieves a table from the specified Excel workbook file and adds it to the end of the given shape collection at the specified coordinates. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_2)(IShapeCollection, float, float, string, string, string) | Retrieves a table from the specified Excel workbook file and adds it to the end of the given shape collection at the specified coordinates. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, int, bool) | Mengambil diagram dari buku kerja Excel yang ditentukan dan menambahkannya ke akhir koleksi shape yang diberikan pada koordinat yang ditentukan. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_1)(IShapeCollection, float, float, IExcelDataWorkbook, string, string, bool) | Mengambil diagram dari buku kerja Excel yang ditentukan dan menambahkannya ke akhir koleksi shape yang diberikan pada koordinat yang ditentukan. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_2)(IShapeCollection, float, float, Stream, string, string, bool) | Mengambil diagram dari buku kerja Excel yang ditentukan dan menambahkannya ke akhir koleksi shape yang diberikan pada koordinat yang ditentukan. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_3)(IShapeCollection, float, float, string, string, string, bool) | Mengambil diagram dari buku kerja Excel yang ditentukan dan menambahkannya ke akhir koleksi shape yang diberikan pada koordinat yang ditentukan. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, string) | Mengambil tabel dari buku kerja Excel yang ditentukan dan menambahkannya ke akhir koleksi shape yang diberikan pada koordinat yang ditentukan. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_1)(IShapeCollection, float, float, Stream, string, string) | Mengambil tabel dari file buku kerja Excel yang ditentukan dan menambahkannya ke akhir koleksi shape yang diberikan pada koordinat yang ditentukan. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_2)(IShapeCollection, float, float, string, string, string) | Mengambil tabel dari file buku kerja Excel yang ditentukan dan menambahkannya ke akhir koleksi shape yang diberikan pada koordinat yang ditentukan. |
 
 ### Lihat Juga
 

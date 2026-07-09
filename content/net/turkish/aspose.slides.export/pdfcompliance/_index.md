@@ -1,9 +1,9 @@
 ---
 title: PdfCompliance
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: PDF standartları uyumluluk seviyesini tanımlayan sabitler.
 type: docs
-weight: 4300
+weight: 4320
 url: /tr/aspose.slides.export/pdfcompliance/
 ---
 ## PdfCompliance enum
@@ -18,19 +18,19 @@ public enum PdfCompliance
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Pdf15 | `0` | Çıktı dosyası PDF 1.5 standardına uyacaktır. |
-| Pdf16 | `1` | Çıktı dosyası PDF 1.6 standardına uyacaktır. |
-| Pdf17 | `2` | Çıktı dosyası PDF 1.7 standardına uyacaktır. |
-| PdfA1b | `3` | Çıktı dosyası PDF/A-1b standardına uyacaktır. |
-| PdfA1a | `4` | Çıktı dosyası PDF/A-1a standardına uyacaktır. |
-| PdfA2b | `5` | Çıktı dosyası PDF/A-2b standardına uyacaktır. |
-| PdfA2a | `6` | Çıktı dosyası PDF/A-2a standardına uyacaktır. |
-| PdfA3b | `7` | Çıktı dosyası PDF/A-3b standardına uyacaktır. |
-| PdfA3a | `8` | Çıktı dosyası PDF/A-3a standardına uyacaktır. |
-| PdfUa | `9` | Çıktı dosyası PDF/UA standardına uyacaktır. |
-| PdfA2u | `10` | Çıktı dosyası PDF/A-2u standardına uyacaktır. |
+| Pdf15 | `0` | Çıktı dosyası PDF 1.5 standardına uygun olacaktır. |
+| Pdf16 | `1` | Çıktı dosyası PDF 1.6 standardına uygun olacaktır. |
+| Pdf17 | `2` | Çıktı dosyası PDF 1.7 standardına uygun olacaktır. |
+| PdfA1b | `3` | Çıktı dosyası PDF/A-1b standardına uygun olacaktır. |
+| PdfA1a | `4` | Çıktı dosyası PDF/A-1a standardına uygun olacaktır. |
+| PdfA2b | `5` | Çıktı dosyası PDF/A-2b standardına uygun olacaktır. |
+| PdfA2a | `6` | Çıktı dosyası PDF/A-2a standardına uygun olacaktır. |
+| PdfA3b | `7` | Çıktı dosyası PDF/A-3b standardına uygun olacaktır. |
+| PdfA3a | `8` | Çıktı dosyası PDF/A-3a standardına uygun olacaktır. |
+| PdfUa | `9` | Çıktı dosyası PDF/UA standardına uygun olacaktır. |
+| PdfA2u | `10` | Çıktı dosyası PDF/A-2u standardına uygun olacaktır. |
 
-### Ayrıca bakınız
+### Diğer Bağlantılar
 
 * ad alanı [Aspose.Slides.Export](../../aspose.slides.export)
 * derleme [Aspose.Slides](../../)

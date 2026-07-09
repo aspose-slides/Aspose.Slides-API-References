@@ -3,10 +3,10 @@ title: TableStylePreset
 second_title: Aspose.Sildes için .NET API Referansı
 description: Yerleşik tablo stillerini temsil eder.
 type: docs
-weight: 10860
+weight: 10880
 url: /tr/aspose.slides/tablestylepreset/
 ---
-## TableStylePreset enum
+## TableStylePreset enumerasyonu
 
 Yerleşik tablo stillerini temsil eder.
 
@@ -18,48 +18,48 @@ public enum TableStylePreset
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Custom | `-1` | Tablo özel bir stile sahiptir. Bu sadece dönüş değeri. |
+| Custom | `-1` | Tablonun özel bir stili vardır. Bu yalnızca dönüş değeri. |
 | None | `0` | Stil yok. |
 | MediumStyle2Accent1 | `1` | Orta Stil 2 - Vurgu 1. |
 | MediumStyle2 | `2` | Orta Stil 2. |
-| NoStyleNoGrid | `3` | Stil Yok, Izgara Yok. |
-| ThemedStyle1Accent1 | `4` | Temalı Stil 1 - Vurgu 1. |
-| ThemedStyle1Accent2 | `5` | Temalı Stil 1 - Vurgu 2. |
-| ThemedStyle1Accent3 | `6` | Temalı Stil 1 - Vurgu 3. |
-| ThemedStyle1Accent4 | `7` | Temalı Stil 1 - Vurgu 4. |
-| ThemedStyle1Accent5 | `8` | Temalı Stil 1 - Vurgu 5. |
-| ThemedStyle1Accent6 | `9` | Temalı Stil 1 - Vurgu 6. |
-| NoStyleTableGrid | `10` | Stil Yok, Tablo Izgarası. |
-| ThemedStyle2Accent1 | `11` | Temalı Stil 2 - Vurgu 1. |
-| ThemedStyle2Accent2 | `12` | Temalı Stil 2 - Vurgu 2. |
-| ThemedStyle2Accent3 | `13` | Temalı Stil 2 - Vurgu 3. |
-| ThemedStyle2Accent4 | `14` | Temalı Stil 2 - Vurgu 4. |
-| ThemedStyle2Accent5 | `15` | Temalı Stil 2 - Vurgu 5. |
-| ThemedStyle2Accent6 | `16` | Temalı Stil 2 - Vurgu 6. |
-| LightStyle1 | `17` | Hafif Stil 1 |
-| LightStyle1Accent1 | `18` | Hafif Stil 1 - Vurgu 1. |
-| LightStyle1Accent2 | `19` | Hafif Stil 1 - Vurgu 2. |
-| LightStyle1Accent3 | `20` | Hafif Stil 1 - Vurgu 3. |
-| LightStyle1Accent4 | `21` | Hafif Stil 1 - Vurgu 4. |
-| LightStyle2Accent5 | `22` | Hafif Stil 2 - Vurgu 5. |
-| LightStyle1Accent6 | `23` | Hafif Stil 1 - Vurgu 6. |
-| LightStyle2 | `24` | Hafif Stil 2. |
-| LightStyle2Accent1 | `25` | Hafif Stil 2 - Vurgu 1. |
-| LightStyle2Accent2 | `26` | Hafif Stil 2 - Vurgu 2. |
-| LightStyle2Accent3 | `27` | Hafif Stil 2 - Vurgu 3. |
+| NoStyleNoGrid | `3` | Stil yok, Izgara yok. |
+| ThemedStyle1Accent1 | `4` | Tema Stili 1 - Vurgu 1. |
+| ThemedStyle1Accent2 | `5` | Tema Stili 1 - Vurgu 2. |
+| ThemedStyle1Accent3 | `6` | Tema Stili 1 - Vurgu 3. |
+| ThemedStyle1Accent4 | `7` | Tema Stili 1 - Vurgu 4. |
+| ThemedStyle1Accent5 | `8` | Tema Stili 1 - Vurgu 5. |
+| ThemedStyle1Accent6 | `9` | Tema Stili 1 - Vurgu 6. |
+| NoStyleTableGrid | `10` | Stil yok, Tablo Izgarası. |
+| ThemedStyle2Accent1 | `11` | Tema Stili 2 - Vurgu 1. |
+| ThemedStyle2Accent2 | `12` | Tema Stili 2 - Vurgu 2. |
+| ThemedStyle2Accent3 | `13` | Tema Stili 2 - Vurgu 3. |
+| ThemedStyle2Accent4 | `14` | Tema Stili 2 - Vurgu 4. |
+| ThemedStyle2Accent5 | `15` | Tema Stili 2 - Vurgu 5. |
+| ThemedStyle2Accent6 | `16` | Tema Stili 2 - Vurgu 6. |
+| LightStyle1 | `17` | Açık Stil 1 |
+| LightStyle1Accent1 | `18` | Açık Stil 1 - Vurgu 1. |
+| LightStyle1Accent2 | `19` | Açık Stil 1 - Vurgu 2. |
+| LightStyle1Accent3 | `20` | Açık Stil 1 - Vurgu 3. |
+| LightStyle1Accent4 | `21` | Açık Stil 1 - Vurgu 4. |
+| LightStyle2Accent5 | `22` | Açık Stil 2 - Vurgu 5. |
+| LightStyle1Accent6 | `23` | Açık Stil 1 - Vurgu 6. |
+| LightStyle2 | `24` | Açık Stil 2. |
+| LightStyle2Accent1 | `25` | Açık Stil 2 - Vurgu 1. |
+| LightStyle2Accent2 | `26` | Açık Stil 2 - Vurgu 2. |
+| LightStyle2Accent3 | `27` | Açık Stil 2 - Vurgu 3. |
 | MediumStyle2Accent3 | `28` | Orta Stil 2 - Vurgu 3. |
 | MediumStyle2Accent4 | `29` | Orta Stil 2 - Vurgu 4. |
 | MediumStyle2Accent5 | `30` | Orta Stil 2 - Vurgu 5. |
-| LightStyle2Accent6 | `31` | Hafif Stil 2 - Vurgu 6. |
-| LightStyle2Accent4 | `32` | Hafif Stil 2 - Vurgu 4. |
-| LightStyle3 | `33` | Hafif Stil 3. |
-| LightStyle3Accent1 | `34` | Hafif Stil 3 - Vurgu 1. |
+| LightStyle2Accent6 | `31` | Açık Stil 2 - Vurgu 6. |
+| LightStyle2Accent4 | `32` | Açık Stil 2 - Vurgu 4. |
+| LightStyle3 | `33` | Açık Stil 3. |
+| LightStyle3Accent1 | `34` | Açık Stil 3 - Vurgu 1. |
 | MediumStyle2Accent2 | `35` | Orta Stil 2 - Vurgu 2. |
-| LightStyle3Accent2 | `36` | Hafif Stil 3 - Vurgu 2. |
-| LightStyle3Accent3 | `37` | Hafif Stil 3 - Vurgu 3. |
-| LightStyle3Accent4 | `38` | Hafif Stil 3 - Vurgu 4. |
-| LightStyle3Accent5 | `39` | Hafif Stil 3 - Vurgu 5. |
-| LightStyle3Accent6 | `40` | Hafif Stil 3 - Vurgu 6. |
+| LightStyle3Accent2 | `36` | Açık Stil 3 - Vurgu 2. |
+| LightStyle3Accent3 | `37` | Açık Stil 3 - Vurgu 3. |
+| LightStyle3Accent4 | `38` | Açık Stil 3 - Vurgu 4. |
+| LightStyle3Accent5 | `39` | Açık Stil 3 - Vurgu 5. |
+| LightStyle3Accent6 | `40` | Açık Stil 3 - Vurgu 6. |
 | MediumStyle1 | `41` | Orta Stil 1. |
 | MediumStyle1Accent1 | `42` | Orta Stil 1 - Vurgu 1. |
 | MediumStyle1Accent2 | `43` | Orta Stil 1 - Vurgu 2. |
@@ -93,9 +93,9 @@ public enum TableStylePreset
 | DarkStyle2Accent1Accent2 | `71` | Koyu Stil 2 - Vurgu 1/Vurgu 2. |
 | DarkStyle2Accent3Accent4 | `72` | Koyu Stil 2 - Vurgu 3/Vurgu 4. |
 | DarkStyle2Accent5Accent6 | `73` | Koyu Stil 2 - Vurgu 5/Vurgu 6. |
-| LightStyle1Accent5 | `74` | Hafif Stil 1 - Vurgu 5. |
+| LightStyle1Accent5 | `74` | Açık Stil 1 - Vurgu 5. |
 
-### İlgili
+### Diğer Bağlantılar
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

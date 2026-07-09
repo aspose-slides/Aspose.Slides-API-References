@@ -1,14 +1,14 @@
 ---
 title: AudioVolumeMode
-second_title: Aspose.Sildes .NET API referenciája
-description: Állandók, amelyek meghatározzák a hanghangerőt.
+second_title: Aspose.Sildes .NET API referencia
+description: Az audio hangerőt meghatározó konstansok.
 type: docs
-weight: 870
+weight: 890
 url: /hu/aspose.slides/audiovolumemode/
 ---
-## AudioVolumeMode enumeráció
+## AudioVolumeMode felsorolás
 
-A hanghangerő meghatározó konstansai.
+Konstansok, amelyek meghatározzák az audio hangerőt.
 
 ```csharp
 public enum AudioVolumeMode
@@ -19,10 +19,10 @@ public enum AudioVolumeMode
 | Név | Érték | Leírás |
 | --- | --- | --- |
 | Mixed | `-1` |  |
-| Mute | `0` | Nulla hanghangerő. |
+| Mute | `0` | Zéró hanghangerő. |
 | Low | `1` | Alacsony hanghangerő. |
 | Medium | `2` | Közepes hanghangerő. |
-| Loud | `3` | Hangos hanghangerő. |
+| Loud | `3` | Magas hanghangerő. |
 
 ### Lásd még
 

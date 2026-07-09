@@ -1,9 +1,9 @@
 ---
 title: IDrawingGuide
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili panduan gambar yang dapat disesuaikan.
 type: docs
-weight: 5700
+weight: 5720
 url: /id/aspose.slides/idrawingguide/
 ---
 ## IDrawingGuide antarmuka

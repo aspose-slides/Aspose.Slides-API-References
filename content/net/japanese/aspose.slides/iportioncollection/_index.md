@@ -1,9 +1,9 @@
 ---
 title: IPortionCollection
-second_title: Aspose.Sildes の .NET 用 API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: ポーションのコレクションを表します。
 type: docs
-weight: 6690
+weight: 6710
 url: /ja/aspose.slides/iportioncollection/
 ---
 ## IPortionCollection インターフェイス
@@ -18,21 +18,21 @@ public interface IPortionCollection : IEnumerable<IPortion>
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides/iportioncollection/asienumerable) { get; } | IEnumerable インターフェイスを返します。読み取り専用 IEnumerable。 |
-| [Count](../../aspose.slides/iportioncollection/count) { get; } | コレクションに実際に含まれる要素数を取得します。読み取り専用 Int32。 |
-| [Item](../../aspose.slides/iportioncollection/item) { get; } | 指定されたインデックスの要素を取得します。 |
+| [AsIEnumerable](../../aspose.slides/iportioncollection/asienumerable) { get; } | 読み取り専用の IEnumerable。 |
+| [Count](../../aspose.slides/iportioncollection/count) { get; } | コレクションに実際に含まれる要素数を取得します。読み取り専用の Int32。 |
+| [Item](../../aspose.slides/iportioncollection/item) { get; } | 指定されたインデックスにある要素を取得します。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [Add](../../aspose.slides/iportioncollection/add)(IPortion) | Portion をコレクションの末尾に追加します。 |
+| [Add](../../aspose.slides/iportioncollection/add)(IPortion) | コレクションの末尾に Portion を追加します。 |
 | [Clear](../../aspose.slides/iportioncollection/clear)() | コレクションからすべての要素を削除します。 |
 | [Contains](../../aspose.slides/iportioncollection/contains)(IPortion) | ICollection が特定の値を含むかどうかを判断します。 |
 | [IndexOf](../../aspose.slides/iportioncollection/indexof)(IPortion) | コレクション内の特定の Portion のインデックスを判断します。 |
-| [Insert](../../aspose.slides/iportioncollection/insert)(int, IPortion) | 指定されたインデックスに Portion をコレクションに挿入します。 |
+| [Insert](../../aspose.slides/iportioncollection/insert)(int, IPortion) | 指定されたインデックスに Portion を挿入します。 |
 | [Remove](../../aspose.slides/iportioncollection/remove)(IPortion) | ICollection から特定のオブジェクトの最初の出現を削除します。 |
-| [RemoveAt](../../aspose.slides/iportioncollection/removeat)(int) | コレクションの指定されたインデックスの要素を削除します。 |
+| [RemoveAt](../../aspose.slides/iportioncollection/removeat)(int) | コレクションの指定されたインデックスにある要素を削除します。 |
 
 ### 参照
 

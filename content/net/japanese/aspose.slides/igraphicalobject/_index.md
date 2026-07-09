@@ -1,14 +1,14 @@
 ---
 title: IGraphicalObject
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 抽象的なグラフィカルオブジェクトを表します。
+description: 抽象的なグラフィカル オブジェクトを表します。
 type: docs
-weight: 6040
+weight: 6060
 url: /ja/aspose.slides/igraphicalobject/
 ---
 ## IGraphicalObject インターフェイス
 
-抽象的なグラフィカルオブジェクトを表します。
+抽象的なグラフィカル オブジェクトを表します。
 
 ```csharp
 public interface IGraphicalObject : IShape
@@ -18,9 +18,9 @@ public interface IGraphicalObject : IShape
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIShape](../../aspose.slides/igraphicalobject/asishape) { get; } | ベース IShape インターフェイスを取得できます。読み取り専用 [`IShape`](../ishape). |
-| [GraphicalObjectLock](../../aspose.slides/igraphicalobject/graphicalobjectlock) { get; } | シェイプのロックを返します。読み取り専用 [`IGraphicalObjectLock`](../igraphicalobjectlock). |
-| [ShapeLock](../../aspose.slides/igraphicalobject/shapelock) { get; } | シェイプのロックを返します。読み取り専用 [`IGraphicalObjectLock`](../igraphicalobjectlock). |
+| [AsIShape](../../aspose.slides/igraphicalobject/asishape) { get; } | ベースの IShape インターフェイスを取得できます。読み取り専用 [`IShape`](../ishape)。 |
+| [GraphicalObjectLock](../../aspose.slides/igraphicalobject/graphicalobjectlock) { get; } | シェイプのロックを返します。読み取り専用 [`IGraphicalObjectLock`](../igraphicalobjectlock)。 |
+| [ShapeLock](../../aspose.slides/igraphicalobject/shapelock) { get; } | シェイプのロックを返します。読み取り専用 [`IGraphicalObjectLock`](../igraphicalobjectlock)。 |
 
 ### 参照
 

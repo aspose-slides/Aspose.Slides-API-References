@@ -1,14 +1,14 @@
 ---
 title: PatternStyle
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta lo stile del modello.
+second_title: Aspose.Sildes per il riferimento API .NET
+description: Rappresenta lo stile del motivo.
 type: docs
-weight: 9340
+weight: 9360
 url: /it/aspose.slides/patternstyle/
 ---
-## Enumerazione PatternStyle
+## enumerazione PatternStyle
 
-Rappresenta lo stile del modello.
+Rappresenta lo stile del motivo.
 
 ```csharp
 public enum PatternStyle : sbyte

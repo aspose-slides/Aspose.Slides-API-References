@@ -1,9 +1,9 @@
 ---
 title: IGeometryShape
-second_title: Aspose.Sildes .NET API Referencia
+second_title: Aspose.Sildes .NET API hivatkozás
 description: Az összes geometriai alakzat szülőosztályát képviseli.
 type: docs
-weight: 5960
+weight: 5980
 url: /hu/aspose.slides/igeometryshape/
 ---
 ## IGeometryShape interfész
@@ -18,21 +18,21 @@ public interface IGeometryShape : IShape
 
 | Név | Leírás |
 | --- | --- |
-| [Adjustments](../../aspose.slides/igeometryshape/adjustments) { get; } | Visszaadja a forma igazítási értékeinek gyűjteményét. Csak olvasható [`IAdjustValueCollection`](../iadjustvaluecollection). |
-| [AsIShape](../../aspose.slides/igeometryshape/asishape) { get; } | Lehetővé teszi az alap IShape interfész lekérését. Csak olvasható [`IShape`](../ishape). |
-| [ShapeStyle](../../aspose.slides/igeometryshape/shapestyle) { get; } | Visszaadja a forma stílusobjektumát. Csak olvasható [`IShapeStyle`](../ishapestyle). |
-| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | Visszaadja vagy beállítja a geometriai előre beállított típust. Megjegyzés: az érték módosításakor az összes igazítási érték alapértelmezett értékére kerül visszaállításra. Olvasás/írás [`ShapeType`](../shapetype). |
+| [Adjustments](../../aspose.slides/igeometryshape/adjustments) { get; } | Visszaadja az alakzat beállítási értékeinek gyűjteményét. Csak olvasható [`IAdjustValueCollection`](../iadjustvaluecollection). |
+| [AsIShape](../../aspose.slides/igeometryshape/asishape) { get; } | Lehetővé teszi a base IShape interfész lekérését. Csak olvasható [`IShape`](../ishape). |
+| [ShapeStyle](../../aspose.slides/igeometryshape/shapestyle) { get; } | Visszaadja az alakzat stílusobjektumát. Csak olvasható [`IShapeStyle`](../ishapestyle). |
+| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | Visszaadja vagy beállítja a geometriai előre beállított típust. Megjegyzés: értékváltozáskor minden beállítási érték visszaáll az alapértelmezett értékére. Olvasás/írás [`ShapeType`](../shapetype). |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [CreateShapeElements](../../aspose.slides/igeometryshape/createshapeelements)() | Létrehozza és visszaadja a forma elemeinek tömbjét. |
-| [GetGeometryPaths](../../aspose.slides/igeometryshape/getgeometrypaths)() | Visszaadja a geometriai forma útvonalának másolatát. A koordináták a forma bal felső sarkához képest relatívak. |
-| [SetGeometryPath](../../aspose.slides/igeometryshape/setgeometrypath)(IGeometryPath) | Frissíti a forma geometriáját a [`IGeometryPath`](../igeometrypath) objektum alapján. A koordináták a forma bal felső sarkához képest relatívak kell legyenek. A forma típusát ([`ShapeType`](./shapetype)) Custom-ra változtatja. |
-| [SetGeometryPaths](../../aspose.slides/igeometryshape/setgeometrypaths)(IGeometryPath[]) | Frissíti a forma geometriáját a [`IGeometryPath`](../igeometrypath) tömbből. A koordináták a forma bal felső sarkához képest relatívak kell legyenek. A forma típusát ([`ShapeType`](./shapetype)) Custom-ra változtatja. |
+| [CreateShapeElements](../../aspose.slides/igeometryshape/createshapeelements)() | Létrehozza és visszaadja az alakzat elemeinek tömbjét. |
+| [GetGeometryPaths](../../aspose.slides/igeometryshape/getgeometrypaths)() | Visszaadja a geometriai alakzat útvonalának másolatát. A koordináták az alakzat bal felső sarkához viszonyítva vannak. |
+| [SetGeometryPath](../../aspose.slides/igeometryshape/setgeometrypath)(IGeometryPath) | Frissíti az alakzat geometriáját a [`IGeometryPath`](../igeometrypath) objektumból. A koordinátáknak az alakzat bal felső sarkához kell viszonyulniuk. Megváltoztatja az alakzat típusát ([`ShapeType`](./shapetype)) Custom-ra. |
+| [SetGeometryPaths](../../aspose.slides/igeometryshape/setgeometrypaths)(IGeometryPath[]) | Frissíti az alakzat geometriáját a [`IGeometryPath`](../igeometrypath) tömbjéből. A koordinátáknak az alakzat bal felső sarkához kell viszonyulniuk. Megváltoztatja az alakzat típusát ([`ShapeType`](./shapetype)) Custom-ra. |
 
-### Lásd még
+### További hivatkozások
 
 * interfész [IShape](../ishape)
 * névtér [Aspose.Slides](../../aspose.slides)

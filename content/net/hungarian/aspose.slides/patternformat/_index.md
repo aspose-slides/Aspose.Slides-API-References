@@ -1,14 +1,14 @@
 ---
 title: PatternFormat
-second_title: Aspose.Sildes a .NET API referencia
-description: Egy mintát képvisel, amely egy alakzat kitöltésére szolgál.
+second_title: Aspose.Sildes .NET API referencia
+description: Egy mintát reprezentál egy alakzat kitöltéséhez.
 type: docs
-weight: 9330
+weight: 9350
 url: /hu/aspose.slides/patternformat/
 ---
 ## PatternFormat osztály
 
-Egy mintát képvisel, amely egy alakzat kitöltésére szolgál.
+Egy mintát reprezentál az alakzat kitöltéséhez.
 
 ```csharp
 public sealed class PatternFormat : PVIObject, IPatternFormat
@@ -18,19 +18,19 @@ public sealed class PatternFormat : PVIObject, IPatternFormat
 
 | Név | Leírás |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
-| [BackColor](../../aspose.slides/patternformat/backcolor) { get; } | Visszaadja a háttér mintázat színét. Csak olvasható [`IColorFormat`](../icolorformat). |
-| [ForeColor](../../aspose.slides/patternformat/forecolor) { get; } | Visszaadja az előtér mintázat színét. Csak olvasható [`IColorFormat`](../icolorformat). |
-| [PatternStyle](../../aspose.slides/patternformat/patternstyle) { get; set; } | Visszaadja vagy beállítja a mintázat stílusát. Olvasás/írás [`PatternStyle`](../patternstyle). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi az alap IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
+| [BackColor](../../aspose.slides/patternformat/backcolor) { get; } | Visszaadja a háttérminta színét. Csak olvasható [`IColorFormat`](../icolorformat). |
+| [ForeColor](../../aspose.slides/patternformat/forecolor) { get; } | Visszaadja az előtérminta színét. Csak olvasható [`IColorFormat`](../icolorformat). |
+| [PatternStyle](../../aspose.slides/patternformat/patternstyle) { get; set; } | Visszaadja vagy beállítja a minta stílusát. Olvasás/írás [`PatternStyle`](../patternstyle). |
 
 ## Módszerek
 
 | Név | Leírás |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Összehasonlítja a megadott objektummal. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Visszaadja a hash kódot. |
-| [GetTile](../../aspose.slides/patternformat/gettile#gettile)(Color) | Létrehoz egy csempe képet a mintázat kitöltéséhez. |
-| [GetTile](../../aspose.slides/patternformat/gettile#gettile_1)(Color, Color) | Létrehoz egy csempe képet a mintázat kitöltéséhez a megadott színekkel. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Visszaadja a hashkódot. |
+| [GetTile](../../aspose.slides/patternformat/gettile#gettile)(Color) | Létrehoz egy csempézett képet a minta kitöltéséhez. |
+| [GetTile](../../aspose.slides/patternformat/gettile#gettile_1)(Color, Color) | Létrehoz egy csempézett képet a minta kitöltéséhez megadott színekkel. |
 
 ### Lásd még
 

@@ -1,14 +1,14 @@
 ---
 title: IParagraphFormatEffectiveData
 second_title: Aspose.Sildes pro .NET API Reference
-description: Neměnný objekt, který obsahuje účinné vlastnosti formátování odstavců.
+description: Neměnný objekt, který obsahuje efektivní vlastnosti formátování odstavců.
 type: docs
-weight: 6580
+weight: 6600
 url: /cs/aspose.slides/iparagraphformateffectivedata/
 ---
 ## IParagraphFormatEffectiveData rozhraní
 
-Neměnný objekt, který obsahuje účinné vlastnosti formátování odstavců.
+Neměnný objekt, který obsahuje efektivní formátovací vlastnosti odstavce.
 
 ```csharp
 public interface IParagraphFormatEffectiveData
@@ -18,31 +18,31 @@ public interface IParagraphFormatEffectiveData
 
 | Název | Popis |
 | --- | --- |
-| [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | Vrací zarovnání textu v odstavci. Pouze pro čtení [`TextAlignment`](../textalignment). |
-| [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | Vrací formát odrážky odstavce. Pouze pro čtení [`IBulletFormatEffectiveData`](../ibulletformateffectivedata). |
-| [DefaultPortionFormat](../../aspose.slides/iparagraphformateffectivedata/defaultportionformat) { get; } | Vrací výchozí formát úryvku odstavce. Pouze pro čtení [`IPortionFormatEffectiveData`](../iportionformateffectivedata). |
-| [DefaultTabSize](../../aspose.slides/iparagraphformateffectivedata/defaulttabsize) { get; } | Vrací výchozí velikost tabulátoru. Pouze pro čtení Single. |
-| [Depth](../../aspose.slides/iparagraphformateffectivedata/depth) { get; } | Vrací hloubku odstavce. Pouze pro čtení Int16. |
-| [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | Určuje, zda je v odstavci použit východoasijský zalomení řádku. Pouze pro čtení Boolean. |
-| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | Vrací zarovnání písma v odstavci. Pouze pro čtení [`FontAlignment`](../fontalignment). |
-| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | Určuje, zda je v odstavci použita visící interpunkce. Pouze pro čtení Boolean. |
-| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | Vrací první řádek odsazení/visící odsazení odstavce. Visící odsazení lze definovat zápornými hodnotami. Pouze pro čtení Single. |
-| [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | Určuje, zda je v odstavci použito latinské zalomení řádku. Pouze pro čtení Boolean. |
-| [MarginLeft](../../aspose.slides/iparagraphformateffectivedata/marginleft) { get; } | Vrací levý okraj v odstavci. Pouze pro čtení Single. |
-| [MarginRight](../../aspose.slides/iparagraphformateffectivedata/marginright) { get; } | Vrací pravý okraj v odstavci. Pouze pro čtení Single. |
-| [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | Určuje, zda je v odstavci použito psaní zprava doleva. Pouze pro čtení Boolean. |
-| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | Vrací množství prostoru po posledním řádku v odstavci. Pouze pro čtení Single. |
-| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | Vrací množství prostoru před prvním řádkem v odstavci. Pouze pro čtení Single. |
-| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | Vrací množství prostoru mezi základními řádky v odstavci. Pouze pro čtení Single. |
-| [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | Vrací tabulátory odstavce. Pouze pro čtení [`ITabEffectiveData`](../itabeffectivedata)[]. |
+| [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | Vrací zarovnání textu v odstavci. Pouze ke čtení [`TextAlignment`](../textalignment). |
+| [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | Vrací formát odrážky odstavce. Pouze ke čtení [`IBulletFormatEffectiveData`](../ibulletformateffectivedata). |
+| [DefaultPortionFormat](../../aspose.slides/iparagraphformateffectivedata/defaultportionformat) { get; } | Vrací výchozí formát části odstavce. Pouze ke čtení [`IPortionFormatEffectiveData`](../iportionformateffectivedata). |
+| [DefaultTabSize](../../aspose.slides/iparagraphformateffectivedata/defaulttabsize) { get; } | Vrací výchozí velikost tabulátoru. Pouze ke čtení Single. |
+| [Depth](../../aspose.slides/iparagraphformateffectivedata/depth) { get; } | Vrací hloubku odstavce. Pouze ke čtení Int16. |
+| [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | Určuje, zda se v odstavci používá východněasijské zalomení řádku. Pouze ke čtení Boolean. |
+| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | Vrací zarovnání písma v odstavci. Pouze ke čtení [`FontAlignment`](../fontalignment). |
+| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | Určuje, zda se v odstavci používá visící interpunkce. Pouze ke čtení Boolean. |
+| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | Vrací první řádek odsazení / visící odsazení odstavce. Visící odsazení může být definováno zápornými hodnotami. Pouze ke čtení Single. |
+| [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | Určuje, zda se v odstavci používá latinské zalomení řádku. Pouze ke čtení Boolean. |
+| [MarginLeft](../../aspose.slides/iparagraphformateffectivedata/marginleft) { get; } | Vrací levý okraj v odstavci. Pouze ke čtení Single. |
+| [MarginRight](../../aspose.slides/iparagraphformateffectivedata/marginright) { get; } | Vrací pravý okraj v odstavci. Pouze ke čtení Single. |
+| [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | Určuje, zda se v odstavci používá zápis zprava doleva. Pouze ke čtení Boolean. |
+| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | Vrací množství prostoru po posledním řádku v odstavci. Pouze ke čtení Single. |
+| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | Vrací množství prostoru před prvním řádkem v odstavci. Pouze ke čtení Single. |
+| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | Vrací množství prostoru mezi základními řádky v odstavci. Pouze ke čtení Single. |
+| [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | Vrací tabulátory odstavce. Pouze ke čtení [`ITabEffectiveData`](../itabeffectivedata)[]. |
 
 ### Poznámky
 
-Toto rozhraní se používá spolu s rozhraním [`IParagraphFormat`](../iparagraphformat) k vrácení účinných hodnot formátování s aplikovaným děděním.
+Toto rozhraní se používá společně s rozhraním [`IParagraphFormat`](../iparagraphformat) k vrácení efektivních hodnot formátování s aplikovaným děděním.
 
 ### Viz také
 
 * jmenný prostor [Aspose.Slides](../../aspose.slides)
-* sestavení [Aspose.Slides](../../)
+* sestava [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

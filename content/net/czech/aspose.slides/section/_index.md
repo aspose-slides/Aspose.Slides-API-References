@@ -3,12 +3,12 @@ title: Section
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje sekci snímků.
 type: docs
-weight: 9730
+weight: 9750
 url: /cs/aspose.slides/section/
 ---
 ## Section třída
 
-Reprezentuje sekci snímků.
+Representuje sekci snímků.
 
 ```csharp
 public class Section : DomObject<SectionCollection>, ISection
@@ -19,7 +19,7 @@ public class Section : DomObject<SectionCollection>, ISection
 | Název | Popis |
 | --- | --- |
 | [Name](../../aspose.slides/section/name) { get; set; } | Název sekce. |
-| [SectionId](../../aspose.slides/section/sectionid) { get; } | Identifikátor sekce. |
+| [SectionId](../../aspose.slides/section/sectionid) { get; } | ID sekce. |
 | [StartedFromSlide](../../aspose.slides/section/startedfromslide) { get; } | Vrací první snímek sekce. |
 
 ## Metody

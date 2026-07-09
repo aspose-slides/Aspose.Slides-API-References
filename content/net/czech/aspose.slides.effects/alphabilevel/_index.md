@@ -1,9 +1,9 @@
 ---
 title: AlphaBiLevel
-second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje efekt Alpha Bi-Level. Hodnoty Alpha Opacity menší než práh jsou změněny na 0 (zcela průhledné) a hodnoty alpha větší nebo rovné prahu jsou změněny na 100 (zcela neprůhledné).
+second_title: Aspose.Sildes pro .NET API
+description: Representuje efekt Alpha Bi-Level. Alpha Opacity hodnoty menší než práh jsou změněny na 0 plně průhledné a hodnoty alfa větší nebo rovné prahu jsou změněny na 100 plně neprůhledné.
 type: docs
-weight: 2820
+weight: 2840
 url: /cs/aspose.slides.effects/alphabilevel/
 ---
 ## AlphaBiLevel třída
@@ -19,14 +19,14 @@ public sealed class AlphaBiLevel : ImageTransformOperation, IAlphaBiLevel
 | Název | Popis |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze pro čtení [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Threshold](../../aspose.slides.effects/alphabilevel/threshold) { get; set; } | Vrací prahovou hodnotu efektu. Čtení/zápis Single. |
+| [Threshold](../../aspose.slides.effects/alphabilevel/threshold) { get; set; } | Vrací práh efektu. Čtení/zápis Single. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphabilevel/equals)(object) | Určuje, zda je zadaný [`AlphaBiLevel`](../alphabilevel) roven aktuálnímu [`AlphaBiLevel`](../alphabilevel). |
-| [GetEffective](../../aspose.slides.effects/alphabilevel/geteffective)() | Získá efektivní data Alpha Bi-Level efektu s aplikovaným děděním. |
+| [GetEffective](../../aspose.slides.effects/alphabilevel/geteffective)() | Získá data efektu Alpha Bi-Level s aplikovaným děděním. |
 | override [GetHashCode](../../aspose.slides.effects/alphabilevel/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ. |
 
 ### Viz také

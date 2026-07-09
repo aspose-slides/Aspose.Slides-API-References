@@ -1,9 +1,9 @@
 ---
 title: ThreeDFormat
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa propriedades 3-D.
 type: docs
-weight: 11470
+weight: 11490
 url: /pt/aspose.slides/threedformat/
 ---
 ## ThreeDFormat classe
@@ -16,11 +16,11 @@ public sealed class ThreeDFormat : PVIObject, IThreeDFormat
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obter a interface base IPresentationComponent. Somente leitura [`IPresentationComponent`](../ipresentationcomponent). |
-| [BevelBottom](../../aspose.slides/threedformat/bevelbottom) { get; } | Retorna ou define o tipo de um chanfrado 3D inferior. Somente leitura [`IShapeBevel`](../ishapebevel). |
-| [BevelTop](../../aspose.slides/threedformat/beveltop) { get; } | Retorna ou define o tipo de um chanfrado 3D superior. Somente leitura [`IShapeBevel`](../ishapebevel). |
+| [BevelBottom](../../aspose.slides/threedformat/bevelbottom) { get; } | Retorna ou define o tipo de um chanfro 3D inferior. Somente leitura [`IShapeBevel`](../ishapebevel). |
+| [BevelTop](../../aspose.slides/threedformat/beveltop) { get; } | Retorna ou define o tipo de um chanfro 3D superior. Somente leitura [`IShapeBevel`](../ishapebevel). |
 | [Camera](../../aspose.slides/threedformat/camera) { get; } | Retorna ou define as configurações de uma câmera. Somente leitura [`ICamera`](../icamera). |
 | [ContourColor](../../aspose.slides/threedformat/contourcolor) { get; } | Retorna ou define a cor de um contorno. Somente leitura [`IColorFormat`](../icolorformat). |
 | [ContourWidth](../../aspose.slides/threedformat/contourwidth) { get; set; } | Retorna ou define a largura de um contorno 3D. Leitura/gravação Double. |
@@ -32,7 +32,7 @@ public sealed class ThreeDFormat : PVIObject, IThreeDFormat
 
 ## Métodos
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compara com o objeto especificado. |
 | [GetEffective](../../aspose.slides/threedformat/geteffective)() | Obtém os dados de formatação 3-D efetivos com a herança aplicada. |
@@ -49,10 +49,10 @@ using (Presentation pres = new Presentation())
 {
 	// Adicione uma forma usando o método AddAutoShape
     IAutoShape shape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 200, 150, 200, 200);
-	// Defina o TextFrame e suas propriedades
+	// Defina TextFrame e suas propriedades
     shape.TextFrame.Text = "3D";
     shape.TextFrame.Paragraphs[0].ParagraphFormat.DefaultPortionFormat.FontHeight = 64;
-	// Defina as propriedades ThreeDFormat
+	// Defina as propriedades de ThreeDFormat
     shape.ThreeDFormat.Camera.CameraType = CameraPresetType.OrthographicFront;
     shape.ThreeDFormat.Camera.SetRotation(20, 30, 40);
     shape.ThreeDFormat.LightRig.LightType = LightRigPresetType.Flat;
@@ -66,7 +66,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-O exemplo a seguir mostra como aplicar o efeito Gradiente a uma forma 3D em uma Apresentação do PowerPoint.
+O exemplo a seguir mostra como aplicar efeito de gradiente a uma forma 3D em uma Apresentação do PowerPoint.
 
 ```csharp
 [C#]
@@ -75,14 +75,14 @@ using (Presentation pres = new Presentation())
 {
 	// Adicione uma forma usando o método AddAutoShape
      IAutoShape shape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 200, 150, 250, 250);
-	// Defina o TextFrame e suas propriedades
+	// Defina TextFrame e suas propriedades
     shape.TextFrame.Text = "3D Gradient";
     shape.TextFrame.Paragraphs[0].ParagraphFormat.DefaultPortionFormat.FontHeight = 64;
 	// Configure FillFormat.FillType como FillType.Gradient e defina as propriedades do gradiente
 	shape.FillFormat.FillType = FillType.Gradient;
     shape.FillFormat.GradientFormat.GradientStops.Add(0, Color.Blue);
     shape.FillFormat.GradientFormat.GradientStops.Add(100, Color.Orange);
-	// Defina as propriedades ThreeDFormat
+	// Defina as propriedades de ThreeDFormat
     shape.ThreeDFormat.Camera.CameraType = CameraPresetType.OrthographicFront;
     shape.ThreeDFormat.Camera.SetRotation(20, 30, 40);
     shape.ThreeDFormat.LightRig.LightType = LightRigPresetType.Flat;
@@ -96,7 +96,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-O exemplo a seguir mostra como aplicar efeito 3D ao texto. Para criar um texto 3D é possível usar o efeito de transformação WordArt.
+O exemplo a seguir mostra como aplicar efeito 3D em texto. Para criar um texto 3D é possível usar o efeito de transformação WordArt.
 
 ```csharp
 [C#]
@@ -105,12 +105,12 @@ using (Presentation pres = new Presentation())
 {
 	// Adicione uma forma usando o método AddAutoShape
      IAutoShape shape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 200, 150, 250, 250);
-	// Defina o TextFrame e suas propriedades
+	// Defina TextFrame e suas propriedades
     shape.TextFrame.Text = "3D Text";
 	// Configure FillFormat.FillType como FillType.NoFill
 	shape.FillFormat.FillType = FillType.NoFill;
     shape.LineFormat.FillFormat.FillType = FillType.NoFill;
-	// Configure a Portion do TextFrame e configure as propriedades de PortionFormat
+	// Configure Porção de TextFrame e configure as propriedades de PortionFormat
 	Portion portion = (Portion)shape.TextFrame.Paragraphs[0].Portions[0];
     portion.PortionFormat.FillFormat.FillType = FillType.Pattern;
     portion.PortionFormat.FillFormat.PatternFormat.ForeColor.Color = Color.DarkOrange;
@@ -120,7 +120,7 @@ using (Presentation pres = new Presentation())
     ITextFrame textFrame = shape.TextFrame;
     // configure o efeito de transformação WordArt "Arch Up"
     textFrame.TextFrameFormat.Transform = TextShapeType.ArchUp;
-	// Defina as propriedades ThreeDFormat de ITextFrame
+	// Defina as propriedades de ThreeDFormat de ITextFrame
 	textFrame.TextFrameFormat.ThreeDFormat.ExtrusionHeight = 3.5f;
     textFrame.TextFrameFormat.ThreeDFormat.Depth = 3;
     textFrame.TextFrameFormat.ThreeDFormat.Material = MaterialPresetType.Plastic;
@@ -134,9 +134,9 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Ver Também
+### Veja Também
 
-* class [PVIObject](../pviobject)
+* classe [PVIObject](../pviobject)
 * interface [IThreeDFormat](../ithreedformat)
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

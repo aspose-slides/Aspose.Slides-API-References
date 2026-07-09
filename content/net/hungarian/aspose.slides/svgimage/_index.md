@@ -1,14 +1,14 @@
 ---
 title: SvgImage
-second_title: Aspose.Sildes .NET API referencia
-description: SVG képet reprezentál.
+second_title: Aspose.Sildes .NET API Referencia
+description: SVG képet képvisel.
 type: docs
-weight: 10780
+weight: 10800
 url: /hu/aspose.slides/svgimage/
 ---
 ## SvgImage osztály
 
-SVG képet reprezentál.
+SVG képet képvisel.
 
 ```csharp
 public class SvgImage : ISvgImage
@@ -29,10 +29,10 @@ public class SvgImage : ISvgImage
 
 | Név | Leírás |
 | --- | --- |
-| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | Visszaadja a megadott SVG alap URI-ját. Relatív hivatkozások feloldására használható. Csak olvasható String. |
-| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | Visszaadja a visszahívási interfészt, amelyet a SVG dokumentumok importálása során a külső erőforrások feloldására használnak. Csak olvasható [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
+| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | Visszaadja a megadott Svg alap URI-ját. Relatív hivatkozások feloldásához használják. Csak olvasható String. |
+| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | Visszaadja a visszahívási interfészt, amelyet a külső erőforrások feloldásához használnak az Svg dokumentumok importálása során. Csak olvasható [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
 | [SvgContent](../../aspose.slides/svgimage/svgcontent) { get; } | Visszaadja az SVG tartalmat. Csak olvasható String. |
-| [SvgData](../../aspose.slides/svgimage/svgdata) { get; } | Visszaadja az SVG adatot. Csak olvasható Byte[]. |
+| [SvgData](../../aspose.slides/svgimage/svgdata) { get; } | Visszaadja az SVG adatokat. Csak olvasható Byte[]. |
 
 ## Metódusok
 
@@ -40,7 +40,7 @@ public class SvgImage : ISvgImage
 | --- | --- |
 | [WriteAsEmf](../../aspose.slides/svgimage/writeasemf)(Stream) | Elmenti az SVG képet EMF fájlként. |
 
-### Kapcsolódó
+### Lásd még
 
 * interfész [ISvgImage](../isvgimage)
 * névtér [Aspose.Slides](../../aspose.slides)

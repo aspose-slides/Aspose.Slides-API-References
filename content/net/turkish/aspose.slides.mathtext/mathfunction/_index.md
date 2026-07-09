@@ -1,14 +1,14 @@
 ---
 title: MathFunction
-second_title: Aspose.Sildes for .NET API Referansı
-description: Bir argümanın fonksiyonunu belirtir.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bir argümanın işlevini belirtir.
 type: docs
-weight: 8700
+weight: 8720
 url: /tr/aspose.slides.mathtext/mathfunction/
 ---
 ## MathFunction sınıfı
 
-Bir argümanın fonksiyonunu belirtir.
+Bir argümanın işlevini belirtir.
 
 ```csharp
 public sealed class MathFunction : MathElementBase, IMathFunction
@@ -26,41 +26,41 @@ public sealed class MathFunction : MathElementBase, IMathFunction
 | Ad | Açıklama |
 | --- | --- |
 | [Base](../../aspose.slides.mathtext/mathfunction/base) { get; } | Fonksiyon Argümanı |
-| [Name](../../aspose.slides.mathtext/mathfunction/name) { get; } | Fonksiyon adı Örneğin, fonksiyon adları sin ve cos'tur |
+| [Name](../../aspose.slides.mathtext/mathfunction/name) { get; } | Fonksiyon adı. Örneğin, fonksiyon adları sin ve cos'dur |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [Accent](../../aspose.slides.mathtext/mathelementbase/accent)(char) | Bu öğenin üstüne bir aksan işareti (bu öğenin üzerindeki bir karakter) ayarlar |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(IMathElement) | Bu örneği argüman olarak kullanarak belirtilen fonksiyonu alır |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfOneArgument) | Bu örneği argüman olarak kullanarak belirtilen fonksiyonu alır |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(string) | Bu örneği argüman olarak kullanarak belirtilen fonksiyonu alır |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfTwoArguments, IMathElement) | Bu örneği argüman olarak ve belirtilen ek argümanı kullanarak belirtilen fonksiyonu alır |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfTwoArguments, string) | Bu örneği argüman olarak ve belirtilen ek argümanı kullanarak belirtilen fonksiyonu alır |
-| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(IMathElement) | Bu payı ve belirtilen paydayı kullanarak bir kesir oluşturur |
-| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(string) | Bu payı ve belirtilen paydayı kullanarak bir kesir oluşturur |
-| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(IMathElement, MathFractionTypes) | Bu payı ve belirtilen paydayı, belirtilen türde bir kesir oluşturur |
-| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(string, MathFractionTypes) | Bu payı ve belirtilen paydayı, belirtilen türde bir kesir oluşturur |
+| [Accent](../../aspose.slides.mathtext/mathelementbase/accent)(char) | Bu öğenin üst kısmına aksan işareti (bir karakter) ekler |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(IMathElement) | Bu örneği argüman olarak kullanarak belirtilen işlevi alır |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfOneArgument) | Bu örneği argüman olarak kullanarak belirtilen işlevi alır |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(string) | Bu örneği argüman olarak kullanarak belirtilen işlevi alır |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfTwoArguments, IMathElement) | Bu örneği argüman ve ek belirtilen argüman olarak kullanarak belirtilen işlevi alır |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfTwoArguments, string) | Bu örneği argüman ve ek belirtilen argüman olarak kullanarak belirtilen işlevi alır |
+| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(IMathElement) | Bu payı ve belirtilen payda ile bir kesir oluşturur |
+| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(string) | Bu payı ve belirtilen payda ile bir kesir oluşturur |
+| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(IMathElement, MathFractionTypes) | Belirtilen tipte bir kesir oluşturur; bu pay ve belirtilen payda kullanılır |
+| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(string, MathFractionTypes) | Belirtilen tipte bir kesir oluşturur; bu pay ve belirtilen payda kullanılır |
 | [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)() | Bir matematik öğesini parantez içine alır |
-| virtual [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)(char, char) | Bir matematik öğesini, parantez gibi belirli karakterler ya da çerçeveleme amaçlı diğer karakterlerle kapsar |
+| virtual [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)(char, char) | Matematik öğesini, parantez gibi veya başka çerçeve karakterleriyle belirtilen karakterler içinde kapsar |
 | [Function](../../aspose.slides.mathtext/mathelementbase/function)(IMathElement) | Bu örneği fonksiyon adı olarak kullanarak bir argümanın fonksiyonunu alır |
 | [Function](../../aspose.slides.mathtext/mathelementbase/function)(string) | Bu örneği fonksiyon adı olarak kullanarak bir argümanın fonksiyonunu alır |
 | [GetChildren](../../aspose.slides.mathtext/mathfunction/getchildren)() | Alt öğeleri alır |
-| [Group](../../aspose.slides.mathtext/mathelementbase/group)() | Bu öğeyi alt köşeli parantez kullanarak bir gruba yerleştirir |
-| [Group](../../aspose.slides.mathtext/mathelementbase/group)(char, MathTopBotPositions, MathTopBotPositions) | Bu öğeyi alt köşeli parantez gibi bir gruplama karakteriyle bir gruba yerleştirir |
-| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes) | Sınırsız integral alır |
-| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, IMathElement, IMathElement) | Integrali alır |
-| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, string, string) | Integrali alır |
-| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, IMathElement, IMathElement, MathLimitLocations) | Integrali alır |
-| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, string, string, MathLimitLocations) | Integrali alır |
+| [Group](../../aspose.slides.mathtext/mathelementbase/group)() | Bu öğeyi alt köşeli ayraç kullanarak bir grupta konumlandırır |
+| [Group](../../aspose.slides.mathtext/mathelementbase/group)(char, MathTopBotPositions, MathTopBotPositions) | Bu öğeyi alt köşeli ayraç gibi bir gruplama karakteri kullanarak bir grupta konumlandırır |
+| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes) | Sınırları olmadan integral alır |
+| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, IMathElement, IMathElement) | İntegral alır |
+| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, string, string) | İntegral alır |
+| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, IMathElement, IMathElement, MathLimitLocations) | İntegral alır |
+| [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, string, string, MathLimitLocations) | İntegral alır |
 | virtual [Join](../../aspose.slides.mathtext/mathelementbase/join)(IMathElement) | Bir matematik öğesini birleştirir ve bir matematik bloğu oluşturur |
-| virtual [Join](../../aspose.slides.mathtext/mathelementbase/join)(string) | Matematik metnini birleştirir ve bir matematik bloğu oluşturur |
-| [Nary](../../aspose.slides.mathtext/mathelementbase/nary)(MathNaryOperatorTypes, IMathElement, IMathElement) | N-arlı bir operatör oluşturur |
-| [Nary](../../aspose.slides.mathtext/mathelementbase/nary)(MathNaryOperatorTypes, string, string) | N-arlı bir operatör oluşturur |
-| [Overbar](../../aspose.slides.mathtext/mathelementbase/overbar)() | Bu öğenin üstüne bir çubuk ekler |
-| [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(IMathElement) | Belirtilen argümandan verilen dereceye ilişkin matematiksel kökü belirtir. |
-| [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(string) | Belirtilen argümandan verilen dereceye ilişkin matematiksel kökü belirtir. |
+| virtual [Join](../../aspose.slides.mathtext/mathelementbase/join)(string) | Bir matematik metnini birleştirir ve bir matematik bloğu oluşturur |
+| [Nary](../../aspose.slides.mathtext/mathelementbase/nary)(MathNaryOperatorTypes, IMathElement, IMathElement) | N-ary operatör oluşturur |
+| [Nary](../../aspose.slides.mathtext/mathelementbase/nary)(MathNaryOperatorTypes, string, string) | N-ary operatör oluşturur |
+| [Overbar](../../aspose.slides.mathtext/mathelementbase/overbar)() | Bu öğenin üst kısmına bir çubuk ekler |
+| [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(IMathElement) | Verilen dereceden kökü, belirtilen argümandan alır |
+| [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(string) | Verilen dereceden kökü, belirtilen argümandan alır |
 | [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit)(IMathElement) | Alt sınırı alır |
 | [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit)(string) | Alt sınırı alır |
 | [SetSubscript](../../aspose.slides.mathtext/mathelementbase/setsubscript)(IMathElement) | Alt simge oluşturur |
@@ -75,9 +75,9 @@ public sealed class MathFunction : MathElementBase, IMathFunction
 | [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit)(string) | Üst sınırı alır |
 | [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)() | Bu öğeyi bir kenarlık kutusuna yerleştirir |
 | [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)(bool, bool, bool, bool, bool, bool, bool, bool) | Bu öğeyi bir kenarlık kutusuna yerleştirir |
-| [ToBox](../../aspose.slides.mathtext/mathelementbase/tobox)() | Bu öğeyi, bir denklem veya başka bir matematik metni bileşenlerini gruplamak için kullanılan görsel olmayan bir kutuya (mantıksal grup) yerleştirir. Kutulu bir nesne, örneğin bir hizalama noktasıyla veya olmadan bir operatör taklidi görevi görebilir, satır sonu noktası olarak hizmet edebilir veya satır sonlarına izin vermeyecek şekilde gruplanabilir. |
-| virtual [ToMathArray](../../aspose.slides.mathtext/mathelementbase/tomatharray)() | Dikey bir dizi içine koyar |
-| [Underbar](../../aspose.slides.mathtext/mathelementbase/underbar)() | Bu öğenin altına bir çubuk ekler |
+| [ToBox](../../aspose.slides.mathtext/mathelementbase/tobox)() | Bu öğeyi, bir denklemin bileşenlerini veya başka bir matematik metni örneğini gruplamak için kullanılan görsel olmayan bir kutuya (mantıksal grup) yerleştirir. Kutulu bir nesne, örneğin bir hizalama noktasıyla veya olmadan bir operatör öykünücüsü, satır sonu noktası görevi görebilir veya satır sonlarına izin vermeyecek şekilde gruplanabilir. |
+| virtual [ToMathArray](../../aspose.slides.mathtext/mathelementbase/tomatharray)() | Dikey bir diziye koyar |
+| [Underbar](../../aspose.slides.mathtext/mathelementbase/underbar)() | Bu öğenin alt kısmına bir çubuk ekler |
 
 ### Örnekler
 

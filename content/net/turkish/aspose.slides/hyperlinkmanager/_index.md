@@ -1,14 +1,14 @@
 ---
 title: HyperlinkManager
-second_title: Aspose.Sildes .NET API Referansı
-description: Köprü yönetimi, ekleme ve kaldırma sağlar.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Hiperlink yönetimini sağlar, ekleme ve kaldırma.
 type: docs
-weight: 5130
+weight: 5150
 url: /tr/aspose.slides/hyperlinkmanager/
 ---
 ## HyperlinkManager sınıfı
 
-Köprü yönetimi (ekleme, kaldırma) sağlar.
+Hiperlink yönetimini sağlar (ekleme, kaldırma).
 
 ```csharp
 public sealed class HyperlinkManager : IHyperlinkManager
@@ -18,15 +18,15 @@ public sealed class HyperlinkManager : IHyperlinkManager
 
 | Ad | Açıklama |
 | --- | --- |
-| [RemoveHyperlinkClick](../../aspose.slides/hyperlinkmanager/removehyperlinkclick)() | Tıklamada köprüyü kaldırır. |
-| [RemoveHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/removehyperlinkmouseover)() | Fare üzerine geldiğinde köprüyü kaldırır. |
-| [SetExternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkclick)(string) | Tıklamada dış köprü ayarlar. |
-| [SetExternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkmouseover)(string) | Fare üzerine geldiğinde dış köprü ayarlar. |
-| [SetInternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkclick)(ISlide) | Tıklamada iç köprü ayarlar. |
-| [SetInternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | Fare üzerine geldiğinde iç köprü ayarlar. |
-| [SetMacroHyperlinkClick](../../aspose.slides/hyperlinkmanager/setmacrohyperlinkclick)(string) | Tıklamada Makro köprüsü ayarlar. |
+| [RemoveHyperlinkClick](../../aspose.slides/hyperlinkmanager/removehyperlinkclick)() | Tıklama sırasında hiperlinki kaldırır. |
+| [RemoveHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/removehyperlinkmouseover)() | Fareyle üzerine gelindiğinde hiperlinki kaldırır. |
+| [SetExternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkclick)(string) | Tıklama sırasında harici hiperlinki ayarlar. |
+| [SetExternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkmouseover)(string) | Fareyle üzerine gelindiğinde harici hiperlinki ayarlar. |
+| [SetInternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkclick)(ISlide) | Tıklama sırasında dahili hiperlinki ayarlar. |
+| [SetInternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | Fareyle üzerine gelindiğinde dahili hiperlinki ayarlar. |
+| [SetMacroHyperlinkClick](../../aspose.slides/hyperlinkmanager/setmacrohyperlinkclick)(string) | Tıklama sırasında Makro hiperlinki ayarlar. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * arayüz [IHyperlinkManager](../ihyperlinkmanager)
 * ad alanı [Aspose.Slides](../../aspose.slides)

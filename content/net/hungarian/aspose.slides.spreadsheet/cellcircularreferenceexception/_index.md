@@ -1,14 +1,14 @@
 ---
 title: CellCircularReferenceException
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Az a kivétel, amely akkor keletkezik, amikor egy vagy több körkörös hivatkozás kerül észlelésre, ahol egy képlet közvetlenül vagy közvetve a saját cellájára hivatkozik.
+second_title: Aspose.Sildes .NET API Referencia
+description: Az a kivétel, amely akkor dobódik, amikor egy vagy több körkörös hivatkozást észlelnek, ahol egy képlet közvetlenül vagy közvetve a saját cellájára hivatkozik.
 type: docs
-weight: 10680
+weight: 10700
 url: /hu/aspose.slides.spreadsheet/cellcircularreferenceexception/
 ---
 ## CellCircularReferenceException osztály
 
-Az a kivétel, amelyet akkor dobnak, amikor egy vagy több körkörös hivatkozás kerül észlelésre, ahol egy képlet közvetlenül vagy közvetve a saját cellájára hivatkozik.
+A kivétel, amely akkor dobódik, amikor egy vagy több körkörös hivatkozást észlelnek, ahol egy képlet közvetlenül vagy közvetve a saját cellájára hivatkozik.
 
 ```csharp
 public class CellCircularReferenceException : PptxEditException
@@ -18,16 +18,16 @@ public class CellCircularReferenceException : PptxEditException
 
 | Név | Leírás |
 | --- | --- |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor)() | Létrehoz egy új példányt a [`CellCircularReferenceException`](../cellcircularreferenceexception) osztályból. |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor_1)(string) | Létrehoz egy új példányt a [`CellCircularReferenceException`](../cellcircularreferenceexception) osztályból a megadott hibaüzenettel. |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor_2)(string, Exception) | Létrehoz egy új példányt a [`CellCircularReferenceException`](../cellcircularreferenceexception) osztályból a megadott hibaüzenettel és egy hivatkozással a belső kivételre, amely ennek a kivételnek az okát képezi. |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor_3)(string, string) | Létrehoz egy új példányt a [`CellCircularReferenceException`](../cellcircularreferenceexception) osztályból a megadott hibaüzenettel és körkörös cellahivatkozással. |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor)() | Új példányt hoz létre a [`CellCircularReferenceException`](../cellcircularreferenceexception) osztályból. |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor_1)(string) | Új példányt hoz létre a [`CellCircularReferenceException`](../cellcircularreferenceexception) osztályból megadott hibaüzenettel. |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor_2)(string, Exception) | Új példányt hoz létre a [`CellCircularReferenceException`](../cellcircularreferenceexception) osztályból megadott hibaüzenettel és egy hivatkozással a belső kivételre, amely ennek a kivételnek az oka. |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor_3)(string, string) | Új példányt hoz létre a [`CellCircularReferenceException`](../cellcircularreferenceexception) osztályból megadott hibaüzenettel és körkörös cellahivatkozással. |
 
 ## Tulajdonságok
 
 | Név | Leírás |
 | --- | --- |
-| [Reference](../../aspose.slides.spreadsheet/cellcircularreferenceexception/reference) { get; } | Lekéri egy körkörös cellahivatkozást. |
+| [Reference](../../aspose.slides.spreadsheet/cellcircularreferenceexception/reference) { get; } | Eléri a körkörös cellahivatkozást. |
 
 ### Lásd még
 

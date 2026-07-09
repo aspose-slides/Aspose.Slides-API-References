@@ -3,7 +3,7 @@ title: IPoint
 second_title: Aspose.Sildes için .NET API Referansı
 description: Animasyon noktasını temsil eder.
 type: docs
-weight: 520
+weight: 540
 url: /tr/aspose.slides.animation/ipoint/
 ---
 ## IPoint arayüz
@@ -18,11 +18,11 @@ public interface IPoint
 
 | Ad | Açıklama |
 | --- | --- |
-| [Formula](../../aspose.slides.animation/ipoint/formula) { get; set; } | Değerler, from, to, by özniteliklerindeki formüller şunlardan oluşabilir: Standart aritmetik operatörler: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Sabitler: ‘pi’ ‘e’ Koşullu operatörler: ‘abs’, ‘min’, ‘max’, ‘?’ (if) Karşılaştırma operatörleri: '==', '&gt;=', '', '!=', '!' Trigonometrik operatörler: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Doğal logaritma ‘ln()’ Özellik referansları (host desteklenen özellikler) örnek: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Okuma/yazma String. |
-| [Time](../../aspose.slides.animation/ipoint/time) { get; set; } | Zaman değerini temsil eder. Okuma/yazma Single. |
-| [Value](../../aspose.slides.animation/ipoint/value) { get; set; } | Nokta değerini temsil eder. Yalnız: bool, ColorFormat, float, int, string. Okuma/yazma Object. |
+| [Formula](../../aspose.slides.animation/ipoint/formula) { get; set; } | Değerler, from, to, by öznitelikleri içindeki formüller aşağıdakilerden oluşabilir: Standart aritmetik operatörler: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Sabitler: ‘pi’ ‘e’ Koşul operatörleri: ‘abs’, ‘min’, ‘max’, ‘?’ (if) Karşılaştırma operatörleri: '==', '&gt;=', '', '!=', '!' Trigonometrik operatörler: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Doğal logaritma ‘ln()’ Özellik referansları (ana bilgisayar destekli özellikler) örnek: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Okunabilir/Yazılabilir String. |
+| [Time](../../aspose.slides.animation/ipoint/time) { get; set; } | Zaman değerini temsil eder. Okunabilir/Yazılabilir Single. |
+| [Value](../../aspose.slides.animation/ipoint/value) { get; set; } | Nokta değerini temsil eder. Yalnızca: bool, ColorFormat, float, int, string. Okunabilir/Yazılabilir Object. |
 
-### Ayrıca Bakınız
+### Diğer Bağlantılar
 
 * ad alanı [Aspose.Slides.Animation](../../aspose.slides.animation)
 * derleme [Aspose.Slides](../../)

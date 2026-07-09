@@ -1,20 +1,20 @@
 ---
 title: ForEach.ForEachShapeCallback
 second_title: Aspose.Sildes の .NET API リファレンス
-description: Presentation の中の各 Shape./foreach/shape に対して呼び出されるコールバックです。
+description: プレゼンテーション内の各 Shape に対して呼び出されるコールバックです。/foreach/shape /aspose.slides/presentation.
 type: docs
-weight: 7930
+weight: 7950
 url: /ja/aspose.slides.lowcode/foreach.foreachshapecallback/
 ---
 ## ForEach.ForEachShapeCallback デリゲート
 
-各 [`Shape`](../foreach/shape) に対して、[`Presentation`](../../aspose.slides/presentation) 内で呼び出されるコールバックです。
+[`Presentation`](../../aspose.slides/presentation)内の各[`Shape`](../foreach/shape)に対して呼び出されるコールバックです。
 
 ```csharp
 public delegate void ForEachShapeCallback(Shape shape, BaseSlide slide, int index);
 ```
 
-| パラメーター | 説明 |
+| パラメータ | 説明 |
 | --- | --- |
 | slide |  |
 | index |  |

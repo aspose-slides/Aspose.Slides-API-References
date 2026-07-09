@@ -1,14 +1,14 @@
 ---
 title: IAlphaInverse
-second_title: Aspose.Sildes pro .NET API Referenci
-description: Representuje efekt Alpha Inverse. Hodnoty průhlednosti Alpha jsou invertovány odečtením od 100.
+second_title: Aspose.Sildes pro .NET – referenční dokumentace API
+description: Představuje efekt Alpha Inverse. Hodnoty průhlednosti Alpha jsou invertovány odečtením od 100.
 type: docs
-weight: 3060
+weight: 3080
 url: /cs/aspose.slides.effects/ialphainverse/
 ---
 ## IAlphaInverse rozhraní
 
-Representuje efekt Alpha Inverse. Hodnoty Alpha (průhlednost) jsou invertovány odečtením od 100 %.
+Představuje efekt Alpha Inverse. Hodnoty Alpha (průhlednost) jsou invertovány odečtením od 100%.
 
 ```csharp
 public interface IAlphaInverse : IAccessiblePVIObject<IAlphaInverseEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaInverse : IAccessiblePVIObject<IAlphaInverseEffectiveData
 
 | Název | Popis |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphainverse/asiaccessiblepviobject) { get; } | Umožňuje získat základní rozhraní IAccessiblePVIObject. Pouze pro čtení [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphainverse/asiimagetransformoperation) { get; } | Umožňuje získat základní rozhraní IImageTransformOperation. Pouze pro čtení [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphainverse/asiaccessiblepviobject) { get; } | Umožňuje získat základní rozhraní IAccessiblePVIObject. Pouze ke čtení [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphainverse/asiimagetransformoperation) { get; } | Umožňuje získat základní rozhraní IImageTransformOperation. Pouze ke čtení [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Viz také
 

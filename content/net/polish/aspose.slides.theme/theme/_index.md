@@ -1,12 +1,12 @@
 ---
 title: Theme
-second_title: Aspose.Sildes dla .NET - dokumentacja API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje motyw.
 type: docs
-weight: 11460
+weight: 11480
 url: /pl/aspose.slides.theme/theme/
 ---
-## Klasa Theme
+## Theme klasa
 
 Reprezentuje motyw.
 
@@ -19,9 +19,9 @@ public abstract class Theme : ITheme
 | Nazwa | Opis |
 | --- | --- |
 | abstract [ColorScheme](../../aspose.slides.theme/theme/colorscheme) { get; } | Zwraca schemat kolorów. Tylko do odczytu [`IColorScheme`](../icolorscheme). |
-| abstract [FontScheme](../../aspose.slides.theme/theme/fontscheme) { get; } | Zwraca schemat czcionki. Tylko do odczytu [`IFontScheme`](../ifontscheme). |
+| abstract [FontScheme](../../aspose.slides.theme/theme/fontscheme) { get; } | Zwraca schemat czcionek. Tylko do odczytu [`IFontScheme`](../ifontscheme). |
 | abstract [FormatScheme](../../aspose.slides.theme/theme/formatscheme) { get; } | Zwraca schemat formatu kształtu. Tylko do odczytu [`IFormatScheme`](../iformatscheme). |
-| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Zwraca prezentację nadrzędną. Tylko do odczytu [`IPresentation`](../../aspose.slides/ipresentation). |
+| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Zwraca nadrzędną prezentację. Tylko do odczytu [`IPresentation`](../../aspose.slides/ipresentation). |
 
 ## Metody
 

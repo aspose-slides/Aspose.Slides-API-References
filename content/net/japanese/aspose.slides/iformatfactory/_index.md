@@ -1,14 +1,14 @@
 ---
 title: IFormatFactory
-second_title: Aspose.Sildes for .NET API リファレンス
-description: COM インターフェイスを使用してフォーマットを作成できます。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: COM インターフェイスを介してフォーマットを作成できます。
 type: docs
-weight: 5920
+weight: 5940
 url: /ja/aspose.slides/iformatfactory/
 ---
 ## IFormatFactory インターフェイス
 
-COM インターフェイスを使用してフォーマットを作成できます。
+COM インターフェイスを介してフォーマットを作成できます。
 
 ```csharp
 public interface IFormatFactory

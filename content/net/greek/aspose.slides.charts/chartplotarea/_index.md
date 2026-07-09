@@ -1,14 +1,14 @@
 ---
 title: ChartPlotArea
 second_title: Aspose.Sildes για .NET Αναφορά API
-description: Αντιπροσωπεύει το ορθογώνιο όπου πρέπει να σχεδιαστεί το διάγραμμα.
+description: Αναπαριστά το ορθογώνιο όπου πρέπει να σχεδιαστεί το διάγραμμα.
 type: docs
-weight: 1400
+weight: 1420
 url: /el/aspose.slides.charts/chartplotarea/
 ---
 ## ChartPlotArea κλάση
 
-Δηλώνει το ορθογώνιο όπου πρέπει να σχεδιαστεί το διάγραμμα.
+Αναπαριστά το ορθογώνιο όπου πρέπει να σχεδιαστεί το διάγραμμα.
 
 ```csharp
 public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
@@ -18,20 +18,20 @@ public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | Καθορίζει το πραγματικό ύψος του στοιχείου του διαγράμματος. Καλέστε τη μέθοδο IChart.ValidateChartLayout() πριν για να λάβετε τις πραγματικές τιμές. Ανάγνωση Single. |
-| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | Καθορίζει το πραγματικό πλάτος του στοιχείου του διαγράμματος. Καλέστε τη μέθοδο IChart.ValidateChartLayout() πριν για να λάβετε τις πραγματικές τιμές. Ανάγνωση Single. |
-| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | Καθορίζει την πραγματική θέση x (αριστερά) του στοιχείου του διαγράμματος σε σχέση με την αριστερή άνω γωνία του διαγράμματος. Καλέστε τη μέθοδο IChart.ValidateChartLayout() πριν για να λάβετε τις πραγματικές τιμές. Ανάγνωση Single. |
-| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | Καθορίζει το πραγματικό πάνω μέρος του στοιχείου του διαγράμματος σε σχέση με την αριστερή άνω γωνία του διαγράμματος. Καλέστε τη μέθοδο IChart.ValidateChartLayout() πριν για να λάβετε τις πραγματικές τιμές. Ανάγνωση Single. |
-| [Bottom](../../aspose.slides.charts/chartplotarea/bottom) { get; } | Κάτω. Μόνο ανάγνωση Single. |
-| [Chart](../../aspose.slides.charts/chartplotarea/chart) { get; } | Διάγραμμα. Μόνο ανάγνωση [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | Επιστρέφει τη μορφή μιας περιοχής σχεδίασης. Μόνο ανάγνωση [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | Επιστρέφει ή ορίζει το ύψος του οριοθετημένου πλαισίου της περιοχής σχεδίασης ως κλάσμα του ύψους του διαγράμματος (από 0 έως 1). Ανάγνωση/εγγραφή Single. |
-| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | Καθορίζει πώς πρέπει να υπολογίζεται η θέση: true – υπολογίζεται αυτόματα· ορίζεται από τις ιδιότητες X, Y, Width, Height. Μόνο ανάγνωση Boolean. |
-| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | Εάν η διάταξη της περιοχής σχεδίασης ορίζεται χειροκίνητα, αυτή η ιδιότητα καθορίζει εάν η περιοχή σχεδίασης θα διαταχθεί κατά τη μέσα της (χωρίς άξονες και ετικέτες άξονα) ή έξω της (συμπεριλαμβανομένων των αξόνων και των ετικετών άξονα). Ανάγνωση/εγγραφή [`LayoutTargetType`](./layouttargettype). |
-| [Right](../../aspose.slides.charts/chartplotarea/right) { get; } | Δεξιά. Μόνο ανάγνωση Single. |
-| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | Επιστρέφει ή ορίζει το πλάτος του οριοθετημένου πλαισίου της περιοχής σχεδίασης ως κλάσμα του πλάτους του διαγράμματος (από 0 έως 1). Ανάγνωση/εγγραφή Single. |
-| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | Επιστρέφει ή ορίζει τη συντεταγμένη x της επάνω αριστερής γωνίας του οριοθετημένου πλαισίου της περιοχής σχεδίασης ως κλάσμα του πλάτους του διαγράμματος (από 0 έως 1). Ανάγνωση/εγγραφή Single. |
-| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | Επιστρέφει ή ορίζει τη συντεταγμένη y της επάνω αριστερής γωνίας του οριοθετημένου πλαισίου της περιοχής σχεδίασης ως κλάσμα του ύψους του διαγράμματος (από 0 έως 1). Ανάγνωση/εγγραφή Single. |
+| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | Καθορίζει το πραγματικό ύψος του στοιχείου διαγράμματος. Καλέστε τη μέθοδο IChart.ValidateChartLayout() πριν για να λάβετε τις πραγματικές τιμές. Ανάγνωση Single. |
+| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | Καθορίζει το πραγματικό πλάτος του στοιχείου διαγράμματος. Καλέστε τη μέθοδο IChart.ValidateChartLayout() πριν για να λάβετε τις πραγματικές τιμές. Ανάγνωση Single. |
+| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | Καθορίζει την πραγματική θέση x (αριστερά) του στοιχείου διαγράμματος σε σχέση με την αριστερή άνω γωνία του διαγράμματος. Καλέστε τη μέθοδο IChart.ValidateChartLayout() πριν για να λάβετε τις πραγματικές τιμές. Ανάγνωση Single. |
+| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | Καθορίζει το πραγματικό πάνω μέρος του στοιχείου διαγράμματος σε σχέση με την αριστερή άνω γωνία του διαγράμματος. Καλέστε τη μέθοδο IChart.ValidateChartLayout() πριν για να λάβετε τις πραγματικές τιμές. Ανάγνωση Single. |
+| [Bottom](../../aspose.slides.charts/chartplotarea/bottom) { get; } | Κάτω. Μόνο για ανάγνωση Single. |
+| [Chart](../../aspose.slides.charts/chartplotarea/chart) { get; } | Διάγραμμα. Μόνο για ανάγνωση [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | Επιστρέφει τη μορφή μιας περιοχής σχεδίασης. Μόνο για ανάγνωση [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | Επιστρέφει ή ορίζει το ύψος του πλαισίου περιοχής σχεδίασης ως κλάσμα του ύψους του διαγράμματος (από 0 έως 1). Ανάγνωση/εγγραφή Single. |
+| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | Ορίζει πώς θα υπολογίζεται η θέση: true – υπολογίζεται αυτόματα· ορίζεται από τις ιδιότητες X, Y, Width, Height. Μόνο για ανάγνωση Boolean. |
+| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | Εάν η διάταξη της περιοχής σχεδίασης ορίζεται μη αυτόματα, αυτή η ιδιότητα καθορίζει αν η διάταξη γίνεται από το εσωτερικό της περιοχής (χωρίς άξονες και ετικέτες αξόνων) ή από το εξωτερικό (με άξονες και ετικέτες αξόνων). Ανάγνωση/εγγραφή [`LayoutTargetType`](./layouttargettype). |
+| [Right](../../aspose.slides.charts/chartplotarea/right) { get; } | Δεξιά. Μόνο για ανάγνωση Single. |
+| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | Επιστρέφει ή ορίζει το πλάτος του πλαισίου περιοχής σχεδίασης ως κλάσμα του πλάτους του διαγράμματος (από 0 έως 1). Ανάγνωση/εγγραφή Single. |
+| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | Επιστρέφει ή ορίζει τη συντεταγμένη x της επάνω αριστερής γωνίας του πλαισίου περιοχής σχεδίασης ως κλάσμα του πλάτους του διαγράμματος (από 0 έως 1). Ανάγνωση/εγγραφή Single. |
+| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | Επιστρέφει ή ορίζει τη συντεταγμένη y της επάνω αριστερής γωνίας του πλαισίου περιοχής σχεδίασης ως κλάσμα του ύψους του διαγράμματος (από 0 έως 1). Ανάγνωση/εγγραφή Single. |
 
 ### Δείτε επίσης
 
@@ -39,6 +39,6 @@ public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
 * κλάση [Chart](../chart)
 * διασύνδεση [IChartPlotArea](../ichartplotarea)
 * χώρο ονομάτων [Aspose.Slides.Charts](../../aspose.slides.charts)
-* συναρμολόγηση [Aspose.Slides](../../)
+* συγκρότημα [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: IMasterSlideCollection
 second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta una raccolta di diapositive master.
+description: Rappresenta una raccolta di master slide.
 type: docs
-weight: 6410
+weight: 6430
 url: /it/aspose.slides/imasterslidecollection/
 ---
 ## IMasterSlideCollection interfaccia
 
-Rappresenta una raccolta di diapositive master.
+Rappresenta una raccolta di master slide.
 
 ```csharp
 public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
@@ -18,17 +18,17 @@ public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Item](../../aspose.slides/imasterslidecollection/item) { get; } | Ottiene l'elemento all'indice specificato. Sola lettura [`IMasterSlide`](../imasterslide). |
+| [Item](../../aspose.slides/imasterslidecollection/item) { get; } | Ottiene l'elemento all'indice specificato. Solo lettura [`IMasterSlide`](../imasterslide). |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | Aggiunge una copia di una diapositiva master specificata alla fine della raccolta. Le diapositive layout collegate verranno copiate anch'esse. |
-| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Inserisce una copia di una diapositiva master specificata nella posizione specificata della raccolta. Le diapositive layout collegate verranno copiate anch'esse. |
+| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | Aggiunge una copia di una master slide specificata alla fine della raccolta. Le slide di layout collegate verranno copiate anch'esse. |
+| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Inserisce una copia di una master slide specificata nella posizione indicata della raccolta. Le slide di layout collegate verranno copiate anch'esse. |
 | [Remove](../../aspose.slides/imasterslidecollection/remove)(IMasterSlide) | Rimuove la prima occorrenza di un oggetto specifico dalla raccolta. |
 | [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | Rimuove l'elemento all'indice specificato della raccolta. |
-| [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | Rimuove le diapositive master inutilizzate. |
+| [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | Rimuove le master slide non utilizzate. |
 
 ### Vedi anche
 

@@ -3,10 +3,10 @@ title: BackgroundType
 second_title: Aspose.Sildes dla .NET API Reference
 description: Definiuje źródło wypełnienia tła slajdu.
 type: docs
-weight: 920
+weight: 940
 url: /pl/aspose.slides/backgroundtype/
 ---
-## BackgroundType wyliczenie
+## enumeracja BackgroundType
 
 Definiuje źródło wypełnienia tła slajdu.
 

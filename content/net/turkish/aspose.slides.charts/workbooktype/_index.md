@@ -1,14 +1,14 @@
 ---
 title: WorkbookType
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Open XML çalışma kitabı dosyasının türünü belirtir.
 type: docs
-weight: 2490
+weight: 2510
 url: /tr/aspose.slides.charts/workbooktype/
 ---
-## WorkbookType enum
+## WorkbookType enum'ı
 
-Specifies the type of Open XML workbook file.
+Open XML çalışma kitabı dosyasının türünü belirler.
 
 ```csharp
 public enum WorkbookType
@@ -25,7 +25,7 @@ public enum WorkbookType
 | TemplateMacro | `3` | Makro etkin Excel şablonu (*.xltm). |
 | WorkbookBinaryMacro | `4` | Makro etkin ikili Excel çalışma kitabı (*.xlsb). |
 
-### Ayrıca Bakınız
+### İlgili
 
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)
 * derleme [Aspose.Slides](../../)

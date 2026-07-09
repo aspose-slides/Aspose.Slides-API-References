@@ -1,12 +1,12 @@
 ---
 title: ISetEffect
-second_title: Aspose.Slides için .NET API Referansı
-description: Bir animasyon davranışı için set etkisini temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bir animasyon davranışı için bir set efekti temsil eder.
 type: docs
-weight: 590
+weight: 610
 url: /tr/aspose.slides.animation/iseteffect/
 ---
-## ISetEffect arabirimi
+## ISetEffect arayüzü
 
 Bir animasyon davranışı için bir set efekti temsil eder.
 
@@ -18,12 +18,12 @@ public interface ISetEffect : IBehavior
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/iseteffect/asibehavior) { get; } | Temel IBehavior arabirimini almaya izin verir. Salt-okunur [`IBehavior`](../ibehavior). |
-| [To](../../aspose.slides.animation/iseteffect/to) { get; set; } | Bir animasyon efektinden sonra bir etkinin belirli özniteliğini belirtir. Nokta değerini temsil eder. Sadece: bool, ColorFormat, float, int, string. Okunabilir/yazılabilir Object. |
+| [AsIBehavior](../../aspose.slides.animation/iseteffect/asibehavior) { get; } | Temel IBehavior arayüzünü almayı sağlar. Salt okunur [`IBehavior`](../ibehavior). |
+| [To](../../aspose.slides.animation/iseteffect/to) { get; set; } | Bir animasyon etkisinden sonraki bir etkinin belirli özelliğini belirtir. Nokta değerini temsil eder. Sadece: bool, ColorFormat, float, int, string. Okunur/yazılır Object. |
 
 ### Ayrıca Bakınız
 
-* arabirimi [IBehavior](../ibehavior)
+* arayüz [IBehavior](../ibehavior)
 * ad alanı [Aspose.Slides.Animation](../../aspose.slides.animation)
 * derleme [Aspose.Slides](../../)
 

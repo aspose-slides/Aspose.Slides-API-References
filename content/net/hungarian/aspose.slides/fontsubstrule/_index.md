@@ -1,14 +1,14 @@
 ---
 title: FontSubstRule
-second_title: Aspose.Sildes .NET API referencia
-description: A betűtípushelyettesítési információkat képviseli
+second_title: Aspose.Sildes .NET API Referencia
+description: Betűtípus helyettesítési információkat képvisel
 type: docs
-weight: 4870
+weight: 4890
 url: /hu/aspose.slides/fontsubstrule/
 ---
 ## FontSubstRule osztály
 
-A betűtípushelyettesítési információkat képviseli
+A betűtípus helyettesítési információkat képviseli
 
 ```csharp
 public class FontSubstRule : IFontSubstRule
@@ -25,9 +25,9 @@ public class FontSubstRule : IFontSubstRule
 
 | Név | Leírás |
 | --- | --- |
-| [DestFont](../../aspose.slides/fontsubstrule/destfont) { get; } | A helyettesítéshez használandó Font. Read-only [`IFontData`](../ifontdata). |
-| [ReplaceFontCondition](../../aspose.slides/fontsubstrule/replacefontcondition) { get; } | A helyettesítéshez alkalmazandó Rule. Read-only [`FontSubstCondition`](../fontsubstcondition). |
-| [SourceFont](../../aspose.slides/fontsubstrule/sourcefont) { get; } | A helyettesítendő Font. Read-only [`IFontData`](../ifontdata). |
+| [DestFont](../../aspose.slides/fontsubstrule/destfont) { get; } | A helyettesítéshez használandó betűtípus. Csak olvasható [`IFontData`](../ifontdata). |
+| [ReplaceFontCondition](../../aspose.slides/fontsubstrule/replacefontcondition) { get; } | A helyettesítéshez alkalmazandó szabály. Csak olvasható [`FontSubstCondition`](../fontsubstcondition). |
+| [SourceFont](../../aspose.slides/fontsubstrule/sourcefont) { get; } | A helyettesítendő betűtípus. Csak olvasható [`IFontData`](../ifontdata). |
 
 ### Lásd még
 

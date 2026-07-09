@@ -1,9 +1,9 @@
 ---
 title: PdfCompliance
-second_title: Aspose.Sildes para referência da API .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Constantes que definem o nível de conformidade com os padrões PDF.
 type: docs
-weight: 4300
+weight: 4320
 url: /pt/aspose.slides.export/pdfcompliance/
 ---
 ## Enumeração PdfCompliance
@@ -30,7 +30,7 @@ public enum PdfCompliance
 | PdfUa | `9` | O arquivo de saída estará em conformidade com o padrão PDF/UA. |
 | PdfA2u | `10` | O arquivo de saída estará em conformidade com o padrão PDF/A-2u. |
 
-### Veja também
+### Veja Também
 
 * espaço de nomes [Aspose.Slides.Export](../../aspose.slides.export)
 * assembly [Aspose.Slides](../../)

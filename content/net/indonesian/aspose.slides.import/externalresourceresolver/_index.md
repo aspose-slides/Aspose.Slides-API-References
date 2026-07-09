@@ -1,14 +1,14 @@
 ---
 title: ExternalResourceResolver
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Kelas callback yang digunakan untuk menyelesaikan sumber daya eksternal saat mengimpor dokumen Html dan Svg. Menggunakan resolver ini dapat menimbulkan kerentanan ketika file HTML atau SVG yang disediakan klien menyebabkan perangkat lunak server memperoleh file lokal atau jaringan. Gunakan dengan hati-hati. Disarankan untuk tidak menentukan ExternalResourceResolver sama sekali; hanya objek terbenam yang akan dibaca atau buat subclass yang memeriksa apakah URI yang ditentukan valid.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Kelas callback yang digunakan untuk menyelesaikan sumber daya eksternal selama impor dokumen Html dan Svg. Menggunakan resolver ini dapat menimbulkan kerentanan ketika file HTML atau SVG yang disediakan klien membuat perangkat lunak server memperoleh file lokal atau jaringan. Gunakan dengan hati-hati. Disarankan untuk tidak menentukan ExternalResourceResolver sama sekali; hanya objek yang disematkan yang akan dibaca atau buat subclass yang memeriksa apakah uri yang ditentukan valid.
 type: docs
-weight: 7460
+weight: 7480
 url: /id/aspose.slides.import/externalresourceresolver/
 ---
-## Kelas ExternalResourceResolver
+## ExternalResourceResolver kelas
 
-Kelas callback yang digunakan untuk menyelesaikan sumber daya eksternal saat mengimpor dokumen Html, Svg. Menggunakan resolver ini dapat menimbulkan kerentanan ketika file HTML atau SVG yang disediakan klien membuat perangkat lunak server memperoleh file lokal atau jaringan. Gunakan dengan hati-hati. Disarankan untuk tidak menentukan ExternalResourceResolver sama sekali (hanya objek tertanam yang akan dibaca) atau membuat subclass yang memeriksa apakah URI yang diberikan valid.
+Kelas callback yang digunakan untuk menyelesaikan sumber daya eksternal selama impor dokumen Html, Svg. Menggunakan resolver ini dapat menyebabkan kerentanan ketika file HTML atau SVG yang disediakan klien membuat perangkat lunak server memperoleh file lokal atau jaringan. Gunakan dengan hati-hati. Disarankan untuk tidak menentukan ExternalResourceResolver sama sekali (hanya objek yang disematkan yang akan dibaca) atau membuat subclass yang memeriksa apakah uri yang ditentukan valid.
 
 ```csharp
 public class ExternalResourceResolver : IExternalResourceResolver

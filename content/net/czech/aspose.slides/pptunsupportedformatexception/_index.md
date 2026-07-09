@@ -3,7 +3,7 @@ title: PptUnsupportedFormatException
 second_title: Aspose.Sildes pro .NET API Reference
 description: Výjimka, která je vyvolána, když formát souboru prezentace není podporován.
 type: docs
-weight: 9520
+weight: 9540
 url: /cs/aspose.slides/pptunsupportedformatexception/
 ---
 ## PptUnsupportedFormatException třída

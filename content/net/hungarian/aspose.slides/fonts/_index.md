@@ -1,9 +1,9 @@
 ---
 title: Fonts
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes .NET API Referencia
 description: Betűtípusok gyűjteménye.
 type: docs
-weight: 4900
+weight: 4920
 url: /hu/aspose.slides/fonts/
 ---
 ## Fonts osztály
@@ -26,10 +26,10 @@ public class Fonts : IFonts
 
 | Név | Leírás |
 | --- | --- |
-| [GetScriptFont](../../aspose.slides/fonts/getscriptfont)(string) | Lekéri a betűtípus nevét, amely egy adott szkript címkéhez kapcsolódik a bemutató témájából. |
-| [GetScriptFontMap](../../aspose.slides/fonts/getscriptfontmap)() | Visszaad egy szótárat az összes szkript betűtípus definícióról a bemutatóban. |
-| [RemoveScriptFont](../../aspose.slides/fonts/removescriptfont)(string) | Eltávolítja a betűtípus beállítást, amely egy adott szkript címkéhez kapcsolódik a téma betűtípus gyűjteményéből. |
-| [SetScriptFont](../../aspose.slides/fonts/setscriptfont)(string, string) | Kijelöl egy betűtípus nevet egy adott szkript címkéhez, amely meghatározza, hogyan jelenik meg a szkript szövege a bemutatóban. |
+| [GetScriptFont](../../aspose.slides/fonts/getscriptfont)(string) | Megkapja a prezentáció témájában egy adott szkript címkéhez kapcsolódó betűtípus nevét. |
+| [GetScriptFontMap](../../aspose.slides/fonts/getscriptfontmap)() | Visszaad egy szótárat a prezentációban lévő összes szkript betűtípus definícióról. |
+| [RemoveScriptFont](../../aspose.slides/fonts/removescriptfont)(string) | Eltávolítja a témában egy adott szkript címkéhez kapcsolódó betűtípus beállítást a betűtípusgyűjteményből. |
+| [SetScriptFont](../../aspose.slides/fonts/setscriptfont)(string, string) | Egy betűtípus nevet rendel egy adott szkript címkéhez, amely meghatározza, hogyan lesz a szkript szövege renderelve a prezentációban. |
 
 ### Lásd még
 

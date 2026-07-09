@@ -1,14 +1,14 @@
 ---
 title: ColorChange
-second_title: Aspose.Sildes pro .NET – referenční příručka API
+second_title: Aspose.Sildes pro .NET – API reference
 description: Představuje efekt změny barvy. Instance FromColor jsou nahrazeny instancemi ToColor.
 type: docs
-weight: 2920
+weight: 2940
 url: /cs/aspose.slides.effects/colorchange/
 ---
-## třída ColorChange
+## ColorChange třída
 
-Představuje efekt změny barvy. Instance FromColor jsou nahrazeny instancemi ToColor.
+Represents a Color Change effect. Instances of FromColor are replaced with instances of ToColor.
 
 ```csharp
 public sealed class ColorChange : ImageTransformOperation, IColorChange
@@ -27,7 +27,7 @@ public sealed class ColorChange : ImageTransformOperation, IColorChange
 | Název | Popis |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/colorchange/equals)(object) | Určuje, zda je zadaný [`ColorChange`](../colorchange) roven aktuálnímu [`ColorChange`](../colorchange). |
-| [GetEffective](../../aspose.slides.effects/colorchange/geteffective)() | Získá efektivní data efektu Color Change s aplikovaným děděním. |
+| [GetEffective](../../aspose.slides.effects/colorchange/geteffective)() | Získá efektivní data Color Change s aplikovaným děděním. |
 | override [GetHashCode](../../aspose.slides.effects/colorchange/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ. |
 
 ### Viz také

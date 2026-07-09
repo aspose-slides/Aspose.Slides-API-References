@@ -3,7 +3,7 @@ title: IRow
 second_title: Aspose.Sildes dla .NET - odniesienie API
 description: Reprezentuje wiersz w tabeli.
 type: docs
-weight: 6830
+weight: 6850
 url: /pl/aspose.slides/irow/
 ---
 ## IRow interfejs

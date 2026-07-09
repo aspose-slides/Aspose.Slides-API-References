@@ -3,12 +3,12 @@ title: LineSketchType
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar vilken skiss-typ eller effekt en form har tilldelats.
 type: docs
-weight: 7790
+weight: 7810
 url: /sv/aspose.slides/linesketchtype/
 ---
-## LineSketchType enumeration
+## LineSketchType-enumeration
 
-Anger vilken skiss-typ eller effekt en form har tilldelats.
+Representerar vilken skiss-typ eller effekt en form har tilldelats.
 
 ```csharp
 public enum LineSketchType
@@ -18,11 +18,11 @@ public enum LineSketchType
 
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
-| NotDefined | `-1` | Anger att en formens Sketch-effekt är odefinierad. |
-| None | `0` | Anger att en form inte har någon Sketch-effekt. Detta motsvarar att egenskapen är tom. |
-| Curved | `1` | Anger att en form har Curved-effekten, som gör varje kant på formen till en stor mjuk kurva. |
-| Freehand | `2` | Anger att en form har Freehand-effekten, som mest liknar en oregelbundet ritad linje. |
-| Scribble | `3` | Anger att en form har Scribble-effekten, som har överdriven svängning som om den ritas avsiktligt rörig. |
+| NotDefined | `-1` | Anger att en forms Sketch-effekt är odefinierad. |
+| None | `0` | Anger att en form inte har någon Sketch-effekt. Detta är likvärdigt med att denna egenskap är tom. |
+| Curved | `1` | Anger att en form har den Kurvade effekten, vilket gör varje kant på formen till en stor mjuk kurva. |
+| Freehand | `2` | Anger att en form har den Friform-effekten, vilket mest liknar en ojämnt ritad linje. |
+| Scribble | `3` | Anger att en form har den Kladd-effekten, som har överdriven svängning som om den ritats avsiktligt rörig. |
 
 ### Se även
 

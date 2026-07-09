@@ -1,14 +1,14 @@
 ---
 title: ISvgImage
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje obrázek SVG.
+second_title: Aspose.Sildes pro .NET – referenční příručka API
+description: Reprezentuje SVG obrázek.
 type: docs
-weight: 7160
+weight: 7180
 url: /cs/aspose.slides/isvgimage/
 ---
-## ISvgImage rozhraní
+## rozhraní ISvgImage
 
-Reprezentuje obrázek SVG.
+Reprezentuje SVG obrázek.
 
 ```csharp
 public interface ISvgImage
@@ -16,18 +16,18 @@ public interface ISvgImage
 
 ## Vlastnosti
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
-| [BaseUri](../../aspose.slides/isvgimage/baseuri) { get; } | Vrací základní URI určeného SVG. Používá se k rozlišení relativních odkazů. String pouze pro čtení. |
-| [ExternalResourceResolver](../../aspose.slides/isvgimage/externalresourceresolver) { get; } | Vrací rozhraní zpětného volání použité k řešení externích zdrojů během importu dokumentů SVG. Pouze pro čtení [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
-| [SvgContent](../../aspose.slides/isvgimage/svgcontent) { get; } | Vrací obsah SVG. String pouze pro čtení. |
-| [SvgData](../../aspose.slides/isvgimage/svgdata) { get; } | Vrací data SVG. Byte[] pouze pro čtení. |
+| [BaseUri](../../aspose.slides/isvgimage/baseuri) { get; } | Vrací základní URI zadaného SVG. Používá se k řešení relativních odkazů. Pouze pro čtení String. |
+| [ExternalResourceResolver](../../aspose.slides/isvgimage/externalresourceresolver) { get; } | Vrací rozhraní zpětného volání použité k řešení externích zdrojů během importu SVG dokumentů. Pouze pro čtení [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
+| [SvgContent](../../aspose.slides/isvgimage/svgcontent) { get; } | Vrací obsah SVG. Pouze pro čtení String. |
+| [SvgData](../../aspose.slides/isvgimage/svgdata) { get; } | Vrací data SVG. Pouze pro čtení Byte[]. |
 
 ## Metody
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
-| [WriteAsEmf](../../aspose.slides/isvgimage/writeasemf)(Stream) | Uloží obrázek SVG jako soubor EMF. |
+| [WriteAsEmf](../../aspose.slides/isvgimage/writeasemf)(Stream) | Uloží SVG obrázek jako soubor EMF. |
 
 ### Viz také
 

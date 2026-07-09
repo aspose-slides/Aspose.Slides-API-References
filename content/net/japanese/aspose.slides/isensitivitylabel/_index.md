@@ -1,9 +1,9 @@
 ---
 title: ISensitivityLabel
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: Microsoft Purview Information Protection からの感度ラベルを表します。
 type: docs
-weight: 6910
+weight: 6930
 url: /ja/aspose.slides/isensitivitylabel/
 ---
 ## ISensitivityLabel インターフェイス
@@ -18,12 +18,12 @@ public interface ISensitivityLabel
 
 | 名前 | 説明 |
 | --- | --- |
-| [AssignmentMethodType](../../aspose.slides/isensitivitylabel/assignmentmethodtype) { get; set; } | 感度ラベルの割り当て方法を取得または設定します。読み取り/書き込み [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
-| [ContentMarkTypes](../../aspose.slides/isensitivitylabel/contentmarktypes) { get; } | ファイルに適用すべきコンテンツマーキングのタイプの一覧を取得します。 |
-| [Id](../../aspose.slides/isensitivitylabel/id) { get; set; } | 感度ラベルの ID を取得または設定します。読み取り/書き込み String. |
+| [AssignmentMethodType](../../aspose.slides/isensitivitylabel/assignmentmethodtype) { get; set; } | 感度ラベルの割り当て方法を取得または設定します。読み取り/書き込み [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype)。 |
+| [ContentMarkTypes](../../aspose.slides/isensitivitylabel/contentmarktypes) { get; } | ファイルに適用すべきコンテンツマーキングのタイプの一覧を返します。 |
+| [Id](../../aspose.slides/isensitivitylabel/id) { get; set; } | 感度ラベルの ID を取得または設定します。読み取り/書き込み String。 |
 | [IsEnabled](../../aspose.slides/isensitivitylabel/isenabled) { get; set; } | 感度ラベルが有効かどうかを示します。 |
 | [IsRemoved](../../aspose.slides/isensitivitylabel/isremoved) { get; set; } | 感度ラベルが削除されたかどうかを示します。 |
-| [SiteId](../../aspose.slides/isensitivitylabel/siteid) { get; set; } | 感度ラベルを記述する感度ラベル ポリシーに対応する Azure Active Directory (Azure AD) サイト識別子を取得または設定します。読み取り/書き込み Guid. |
+| [SiteId](../../aspose.slides/isensitivitylabel/siteid) { get; set; } | 感度ラベルを記述する感度ラベル ポリシーに対応する Azure Active Directory (Azure AD) サイト識別子を取得または設定します。読み取り/書き込み Guid。 |
 
 ### 参照
 

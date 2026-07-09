@@ -1,14 +1,14 @@
 ---
 title: IChartWall
-second_title: Aspose.Sildes a .NET API hivatkozásához
-description: A falakat képviseli 3D diagramokon.
+second_title: Aspose.Sildes .NET API referencia
+description: A 3D diagramok falait reprezentálja.
 type: docs
-weight: 1990
+weight: 2010
 url: /hu/aspose.slides.charts/ichartwall/
 ---
 ## IChartWall interfész
 
-3D diagramokon a falakat képviseli.
+A 3D diagramokon a falakat reprezentálja.
 
 ```csharp
 public interface IChartWall
@@ -18,9 +18,9 @@ public interface IChartWall
 
 | Név | Leírás |
 | --- | --- |
-| [Format](../../aspose.slides.charts/ichartwall/format) { get; } | Visszaadja a fal kitöltését, vonalát, effektjét, 3D stílusait. Csak olvasható [`IFormat`](../iformat). |
-| [PictureType](../../aspose.slides.charts/ichartwall/picturetype) { get; set; } | Visszaadja vagy beállítja a kép típusát. Olvasás/írás [`PictureType`](./picturetype). |
-| [Thickness](../../aspose.slides.charts/ichartwall/thickness) { get; set; } | Visszaadja vagy beállítja a falak vastagságát a ábra térfogatának legnagyobb dimenziója százalékában. Olvasás/írás Int32. |
+| [Format](../../aspose.slides.charts/ichartwall/format) { get; } | Visszaadja a fal kitöltését, vonalát, effektjét, 3D-stílusait. Csak olvasható [`IFormat`](../iformat). |
+| [PictureType](../../aspose.slides.charts/ichartwall/picturetype) { get; set; } | Visszaadja vagy beállítja a kép típusát. Olvasható/írható [`PictureType`](./picturetype). |
+| [Thickness](../../aspose.slides.charts/ichartwall/thickness) { get; set; } | Visszaadja vagy beállítja a falak vastagságát a diagram térfogatának legnagyobb dimenziójának százalékaként. Olvasható/írható Int32. |
 
 ### Lásd még
 

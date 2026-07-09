@@ -1,14 +1,14 @@
 ---
 title: MotionCommandPathType
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar typer av kommando för animeringsrörelseeffektbeteende.
+description: Representerar typer av kommandon för animationens rörelseeffektbeteende.
 type: docs
-weight: 640
+weight: 660
 url: /sv/aspose.slides.animation/motioncommandpathtype/
 ---
-## MotionCommandPathType-enumeration
+## MotionCommandPathType-uppräkning
 
-Representerar typer av kommando för animeringsrörelseeffektbeteende.
+Representerar typer av kommandon för animationens rörelseeffektbeteende.
 
 ```csharp
 public enum MotionCommandPathType

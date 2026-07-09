@@ -1,12 +1,12 @@
 ---
 title: TextVerticalType
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Menentukan mode penulisan vertikal untuk teks.
 type: docs
-weight: 11010
+weight: 11030
 url: /id/aspose.slides/textverticaltype/
 ---
-## enumerasi TextVerticalType
+## Enumerasi TextVerticalType
 
 Menentukan mode penulisan vertikal untuk teks.
 
@@ -18,14 +18,14 @@ public enum TextVerticalType : sbyte
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| NotDefined | `-1` | Tidak didefinisikan. |
+| NotDefined | `-1` | Tidak terdefinisi. |
 | Horizontal | `0` | Teks horizontal. |
 | Vertical | `1` | Teks vertikal. |
 | Vertical270 | `2` | Teks vertikal 270 derajat. |
 | WordArtVertical | `3` | Teks vertikal WordArt. |
 | EastAsianVertical | `4` | Teks vertikal Asia Timur. |
 | MongolianVertical | `5` | Teks vertikal Mongolia. |
-| WordArtVerticalRightToLeft | `6` | Teks vertikal WordArt kanan ke kiri. |
+| WordArtVerticalRightToLeft | `6` | Teks vertikal WordArt dari kanan ke kiri. |
 
 ### Lihat Juga
 

@@ -1,14 +1,14 @@
 ---
 title: IFilterEffect
-second_title: Aspose.Sildes a .NET API hivatkozás
-description: Ábrázolja a viselkedés szűrőhatását.
+second_title: Aspose.Sildes .NET API referencia
+description: A viselkedés szűrőhatását reprezentálja.
 type: docs
-weight: 480
+weight: 500
 url: /hu/aspose.slides.animation/ifiltereffect/
 ---
 ## IFilterEffect interfész
 
-Ábrázolja a viselkedés szűrőhatását.
+A viselkedés szűrőhatását reprezentálja.
 
 ```csharp
 public interface IFilterEffect : IBehavior
@@ -18,10 +18,10 @@ public interface IFilterEffect : IBehavior
 
 | Név | Leírás |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/ifiltereffect/asibehavior) { get; } | Lehetővé teszi az alap IBehavior interfész lekérdezését. Csak olvasható [`IBehavior`](../ibehavior). |
-| [Reveal](../../aspose.slides.animation/ifiltereffect/reveal) { get; set; } | Ábrázolja azt a hatást, amely a viselkedéshez kapcsolódik, és (in/out) Olvasható/írható [`FilterEffectRevealType`](../filtereffectrevealtype). |
-| [Subtype](../../aspose.slides.animation/ifiltereffect/subtype) { get; set; } | Ábrázolja a szűrőhatás altípusát. Olvasható/írható [`FilterEffectSubtype`](../filtereffectsubtype). |
-| [Type](../../aspose.slides.animation/ifiltereffect/type) { get; set; } | Ábrázolja a szűrőhatás típusát. Olvasható/írható [`FilterEffectType`](../filtereffecttype). |
+| [AsIBehavior](../../aspose.slides.animation/ifiltereffect/asibehavior) { get; } | Lehetővé teszi a bázis IBehavior interfész lekérését. Csak olvasható [`IBehavior`](../ibehavior). |
+| [Reveal](../../aspose.slides.animation/ifiltereffect/reveal) { get; set; } | Jelenti, hogy a hatás a viselkedéssel együtt (in/out) Olvasás/írás [`FilterEffectRevealType`](../filtereffectrevealtype). |
+| [Subtype](../../aspose.slides.animation/ifiltereffect/subtype) { get; set; } | Jelenti a szűrőhatás altípusát. Olvasás/írás [`FilterEffectSubtype`](../filtereffectsubtype). |
+| [Type](../../aspose.slides.animation/ifiltereffect/type) { get; set; } | Jelenti a szűrőhatás típusát. Olvasás/írás [`FilterEffectType`](../filtereffecttype). |
 
 ### Lásd még
 

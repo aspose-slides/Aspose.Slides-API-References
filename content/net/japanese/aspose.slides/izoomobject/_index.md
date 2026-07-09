@@ -1,9 +1,9 @@
 ---
 title: IZoomObject
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: スライド内の Zoom オブジェクトを表します。
 type: docs
-weight: 7390
+weight: 7410
 url: /ja/aspose.slides/izoomobject/
 ---
 ## IZoomObject インターフェイス
@@ -19,11 +19,11 @@ public interface IZoomObject : IGraphicalObject
 | 名前 | 説明 |
 | --- | --- |
 | [AsIGraphicalObject](../../aspose.slides/izoomobject/asigraphicalobject) { get; } | ベース IGraphicalObject インターフェイスを取得できます。読み取り専用 [`IGraphicalObject`](../igraphicalobject)。 |
-| [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | ズーム オブジェクトの画像タイプを取得または設定します。読み書き [`ZoomImageType`](../zoomimagetype)。デフォルト値: Preview |
-| [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | スライドショーでのナビゲーション動作を取得または設定します。読み書き Boolean。デフォルト値: false |
-| [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | Zoom が目的のスライドの背景を使用するかどうかを指定する値を取得または設定します。読み書き Boolean。デフォルト値: true |
-| [TransitionDuration](../../aspose.slides/izoomobject/transitionduration) { get; set; } | Zoom とスライド間の遷移時間を取得または設定します。読み書き Single。デフォルト値: 1.0f |
-| [ZoomImage](../../aspose.slides/izoomobject/zoomimage) { get; set; } | ズーム オブジェクト用の画像を取得または設定します。読み書き [`IPPImage`](../ippimage)。 |
+| [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | 画像タイプを取得または設定します。読み書き [`ZoomImageType`](../zoomimagetype)。既定値: Preview |
+| [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | スライドショーでのナビゲーション動作を取得または設定します。読み書き Boolean。既定値: false |
+| [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | Zoom が宛先スライドの背景を使用するかどうかを指定する値を取得または設定します。読み書き Boolean。既定値: true |
+| [TransitionDuration](../../aspose.slides/izoomobject/transitionduration) { get; set; } | Zoom とスライド間の遷移の期間を取得または設定します。読み書き Single。既定値: 1.0f |
+| [ZoomImage](../../aspose.slides/izoomobject/zoomimage) { get; set; } | ズーム オブジェクトの画像を取得または設定します。読み書き [`IPPImage`](../ippimage)。 |
 
 ### 参照
 

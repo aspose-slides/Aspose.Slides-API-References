@@ -1,9 +1,9 @@
 ---
 title: OutputFile
-second_title: Aspose.Sildes pro .NET - referenční příručka API
+second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje výstupní soubor.
 type: docs
-weight: 4630
+weight: 4650
 url: /cs/aspose.slides.export.web/outputfile/
 ---
 ## OutputFile třída

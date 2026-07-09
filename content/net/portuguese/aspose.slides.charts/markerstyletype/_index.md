@@ -1,12 +1,12 @@
 ---
 title: MarkerStyleType
-second_title: Aspose.Sildes para a referência de API .NET
-description: Determina a forma do marcador no ponto de dados dos gráficos.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Determina a forma do marcador nos pontos de dados dos gráficos.
 type: docs
-weight: 2320
+weight: 2340
 url: /pt/aspose.slides.charts/markerstyletype/
 ---
-## Enumeração MarkerStyleType
+## MarkerStyleType enumeração
 
 Determina a forma do marcador no ponto de dados do gráfico.
 
@@ -16,12 +16,12 @@ public enum MarkerStyleType
 
 ### Valores
 
-| Name | Value | Description |
+| Nome | Valor | Descrição |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Circle | `0` | Especifica que um círculo deve ser desenhado em cada ponto de dados. |
 | Dash | `1` | Especifica que um traço deve ser desenhado em cada ponto de dados. |
-| Diamond | `2` | Especifica que um losango deve ser desenhado em cada ponto de dados. |
+| Diamond | `2` | Especifica que um diamante deve ser desenhado em cada ponto de dados. |
 | Dot | `3` | Especifica que um ponto deve ser desenhado em cada ponto de dados. |
 | None | `4` | Especifica que nada deve ser desenhado em cada ponto de dados. |
 | Picture | `5` | Especifica que uma imagem deve ser desenhada em cada ponto de dados. |
@@ -31,7 +31,7 @@ public enum MarkerStyleType
 | Triangle | `9` | Especifica que um triângulo deve ser desenhado em cada ponto de dados. |
 | X | `10` | Especifica que um X deve ser desenhado em cada ponto de dados. |
 
-### Ver Também
+### Veja também
 
 * espaço de nomes [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

@@ -3,7 +3,7 @@ title: ISensitivityLabelCollection
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta una raccolta di etichette di sensibilità applicate al documento.
 type: docs
-weight: 6920
+weight: 6940
 url: /it/aspose.slides/isensitivitylabelcollection/
 ---
 ## ISensitivityLabelCollection interfaccia
@@ -18,16 +18,16 @@ public interface ISensitivityLabelCollection : IEnumerable<ISensitivityLabel>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides/isensitivitylabelcollection/count) { get; } | Ottiene il numero di tutti gli elementi nella collezione. Sola lettura Int32. |
-| [Item](../../aspose.slides/isensitivitylabelcollection/item) { get; } | Restituisce l'etichetta di sensibilità per indice. Sola lettura [`ISensitivityLabel`](../isensitivitylabel). |
+| [Count](../../aspose.slides/isensitivitylabelcollection/count) { get; } | Ottiene il numero di tutti gli elementi nella raccolta. Solo lettura Int32. |
+| [Item](../../aspose.slides/isensitivitylabelcollection/item) { get; } | Restituisce l'etichetta di sensibilità per indice. Solo lettura [`ISensitivityLabel`](../isensitivitylabel). |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.slides/isensitivitylabelcollection/add#add_1)(ISensitivityLabel) | Aggiunge una SensitivityLabel alla collezione. |
-| [Add](../../aspose.slides/isensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | Aggiunge l'etichetta di sensibilità alla fine della collezione. |
-| [Clear](../../aspose.slides/isensitivitylabelcollection/clear)() | Rimuove tutti gli elementi dalla collezione. |
+| [Add](../../aspose.slides/isensitivitylabelcollection/add#add_1)(ISensitivityLabel) | Aggiunge una SensitivityLabel alla raccolta. |
+| [Add](../../aspose.slides/isensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | Aggiunge l'etichetta di sensibilità alla fine della raccolta. |
+| [Clear](../../aspose.slides/isensitivitylabelcollection/clear)() | Rimuove tutti gli elementi dalla raccolta. |
 | [RemoveAt](../../aspose.slides/isensitivitylabelcollection/removeat)(int) | Rimuove l'etichetta di sensibilità all'indice specificato. |
 
 ### Vedi anche

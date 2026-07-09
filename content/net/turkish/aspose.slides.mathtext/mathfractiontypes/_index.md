@@ -1,12 +1,12 @@
 ---
 title: MathFractionTypes
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Kesir Türleri
 type: docs
-weight: 8690
+weight: 8710
 url: /tr/aspose.slides.mathtext/mathfractiontypes/
 ---
-## MathFractionTypes enumeration
+## MathFractionTypes enumerasyonu
 
 Kesir Türleri
 
@@ -19,7 +19,7 @@ public enum MathFractionTypes
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
 | Bar | `1` | Bar Kesir |
-| Skewed | `2` | Eğik |
+| Skewed | `2` | Skewed |
 | Linear | `3` | Linear Kesir |
 | NoBar | `4` | No-Bar Kesir (Yığın) |
 

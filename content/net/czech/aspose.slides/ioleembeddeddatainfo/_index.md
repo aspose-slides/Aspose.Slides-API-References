@@ -1,14 +1,14 @@
 ---
 title: IOleEmbeddedDataInfo
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje informace o vložených datech OLE objektu.
+description: Reprezentuje informace o vložených datech pro objekt OLE.
 type: docs
-weight: 6510
+weight: 6530
 url: /cs/aspose.slides/ioleembeddeddatainfo/
 ---
 ## IOleEmbeddedDataInfo rozhraní
 
-Reprezentuje informace o vložených datech OLE objektu.
+Reprezentuje informace o vložených datech pro objekt OLE.
 
 ```csharp
 public interface IOleEmbeddedDataInfo
@@ -18,8 +18,8 @@ public interface IOleEmbeddedDataInfo
 
 | Název | Popis |
 | --- | --- |
-| [EmbeddedFileData](../../aspose.slides/ioleembeddeddatainfo/embeddedfiledata) { get; } | Vrací data souboru vloženého OLE objektu Pouze pro čtení Byte[]. |
-| [EmbeddedFileExtension](../../aspose.slides/ioleembeddeddatainfo/embeddedfileextension) { get; } | Vrací příponu souboru pro aktuální vložený OLE objekt Pouze pro čtení String. |
+| [EmbeddedFileData](../../aspose.slides/ioleembeddeddatainfo/embeddedfiledata) { get; } | Vrací data souboru vloženého OLE objektu pouze pro čtení Byte[]. |
+| [EmbeddedFileExtension](../../aspose.slides/ioleembeddeddatainfo/embeddedfileextension) { get; } | Vrací příponu souboru pro aktuální vložený OLE objekt pouze pro čtení String. |
 
 ### Viz také
 

@@ -1,14 +1,14 @@
 ---
 title: IFindResultCallback
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Διεπαφή Callback που χρησιμοποιείται για την απόκτηση αποτελέσματος αναζήτησης κειμένου.
+description: Διεπαφή callback που χρησιμοποιείται για λήψη αποτελεσμάτων αναζήτησης κειμένου.
 type: docs
-weight: 5800
+weight: 5820
 url: /el/aspose.slides/ifindresultcallback/
 ---
-## IFindResultCallback διεπαφή
+## IFindResultCallback διασύνδεση
 
-Διεπαφή Callback που χρησιμοποιείται για την απόκτηση του αποτελέσματος της αναζήτησης κειμένου.
+Διεπαφή callback που χρησιμοποιείται για λήψη αποτελεσμάτων αναζήτησης κειμένου.
 
 ```csharp
 public interface IFindResultCallback
@@ -16,9 +16,9 @@ public interface IFindResultCallback
 
 ## Μέθοδοι
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [FoundResult](../../aspose.slides/ifindresultcallback/foundresult)(ITextFrame, string, string, int) | Μέθοδος Callback που λαμβάνει δεδομένα σχετικά με το ευρεθέν κείμενο. |
+| [FoundResult](../../aspose.slides/ifindresultcallback/foundresult)(ITextFrame, string, string, int) | Μέθοδος callback που λαμβάνει δεδομένα σχετικά με το ευρεθέν κείμενο. |
 
 ### Δείτε επίσης
 

@@ -1,14 +1,14 @@
 ---
 title: IEmbeddedEotFontsHtmlController
-second_title: Aspose.Sildes for .NET API hivatkozás
-description: Beágyazott Eot betűtípusok HTML vezérlője.
+second_title: Aspose.Sildes .NET API Referenciája
+description: Beágyazott Eot betűkészletek HTML vezérlője.
 type: docs
-weight: 3880
+weight: 3900
 url: /hu/aspose.slides.export/iembeddedeotfontshtmlcontroller/
 ---
 ## IEmbeddedEotFontsHtmlController interfész
 
-Beágyazott Eot betűtípusok HTML vezérlője.
+Beágyazott Eot betűkészletek HTML vezérlője.
 
 ```csharp
 public interface IEmbeddedEotFontsHtmlController : IHtmlFormattingController
@@ -18,7 +18,7 @@ public interface IEmbeddedEotFontsHtmlController : IHtmlFormattingController
 
 | Név | Leírás |
 | --- | --- |
-| [AsIHtmlFormattingController](../../aspose.slides.export/iembeddedeotfontshtmlcontroller/asihtmlformattingcontroller) { get; } | Visszaadja az IHtmlFormattingController interfészt. |
+| [AsIHtmlFormattingController](../../aspose.slides.export/iembeddedeotfontshtmlcontroller/asihtmlformattingcontroller) { get; } | Visszaadja IHtmlFormattingController interfész. |
 
 ### Lásd még
 

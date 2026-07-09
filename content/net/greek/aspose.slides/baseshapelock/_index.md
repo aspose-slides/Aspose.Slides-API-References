@@ -1,9 +1,9 @@
 ---
 title: BaseShapeLock
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Αντιπροσωπεύει μια βασική κλάση για κλειδώματα (απενεργοποιημένη λειτουργία).
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Αντιπροσωπεύει μια βασική κλάση για κλειδώματα με απενεργοποιημένη λειτουργία.
 type: docs
-weight: 960
+weight: 980
 url: /el/aspose.slides/baseshapelock/
 ---
 ## BaseShapeLock κλάση
@@ -18,7 +18,7 @@ public class BaseShapeLock : IBaseShapeLock
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Επιστρέφει true εάν όλες οι σημαίες κλειδώματος είναι απενεργοποιημένες. Μόνο για ανάγνωση Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Επιστρέφει true εάν όλες οι σημαίες κλειδώματος είναι απενεργοποιημένες. Μόνο-ανάγνωση Boolean. |
 
 ### Δείτε επίσης
 

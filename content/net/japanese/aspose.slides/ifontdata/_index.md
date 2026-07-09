@@ -3,7 +3,7 @@ title: IFontData
 second_title: Aspose.Sildes for .NET API リファレンス
 description: フォント定義を表します。
 type: docs
-weight: 5810
+weight: 5830
 url: /ja/aspose.slides/ifontdata/
 ---
 ## IFontData インターフェイス
@@ -18,13 +18,13 @@ public interface IFontData
 
 | 名前 | 説明 |
 | --- | --- |
-| [FontName](../../aspose.slides/ifontdata/fontname) { get; } | フォント名を返します。読み取り専用の String。 |
+| [FontName](../../aspose.slides/ifontdata/fontname) { get; } | フォント名を返します。読み取り専用 String。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [GetFontName](../../aspose.slides/ifontdata/getfontname)(IThemeEffectiveData) | フォント名を返します。テーマ参照を実際に使用されているフォントに置き換えます。 |
+| [GetFontName](../../aspose.slides/ifontdata/getfontname)(IThemeEffectiveData) | フォント名を返します。テーマ参照を実際に使用されるフォントに置き換えます。 |
 
 ### 参照
 

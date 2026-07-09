@@ -1,14 +1,14 @@
 ---
 title: IBaseTableFormatEffectiveData
 second_title: Aspose.Sildes pro .NET API Reference
-description: Základní rozhraní pro neměnitelné objekty, které obsahují efektivní vlastnosti formátování tabulky.
+description: Základní rozhraní pro neměnné objekty, které obsahují efektivní vlastnosti formátování tabulky.
 type: docs
-weight: 5340
+weight: 5360
 url: /cs/aspose.slides/ibasetableformateffectivedata/
 ---
 ## IBaseTableFormatEffectiveData rozhraní
 
-Základní rozhraní pro neměnitelné objekty, které obsahují efektivní vlastnosti formátování tabulky.
+Základní rozhraní pro neměnné objekty, které obsahují efektivní vlastnosti formátování tabulky.
 
 ```csharp
 public interface IBaseTableFormatEffectiveData
@@ -18,13 +18,13 @@ public interface IBaseTableFormatEffectiveData
 
 | Název | Popis |
 | --- | --- |
-| [BorderBottom](../../aspose.slides/ibasetableformateffectivedata/borderbottom) { get; } | Vrací efektivní hodnotu formátu spodní čáry ohraničení. Pouze ke čtení [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | Vrací efektivní hodnotu formátu úhlopříčky směrem dolů. Pouze ke čtení [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | Vrací efektivní hodnotu formátu úhlopříčky směrem nahoru. Pouze ke čtení [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderLeft](../../aspose.slides/ibasetableformateffectivedata/borderleft) { get; } | Vrací efektivní hodnotu formátu levé čáry ohraničení. Pouze ke čtení [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderRight](../../aspose.slides/ibasetableformateffectivedata/borderright) { get; } | Vrací efektivní hodnotu formátu pravé čáry ohraničení. Pouze ke čtení [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderTop](../../aspose.slides/ibasetableformateffectivedata/bordertop) { get; } | Vrací efektivní hodnotu formátu horní čáry ohraničení. Pouze ke čtení [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [FillFormat](../../aspose.slides/ibasetableformateffectivedata/fillformat) { get; } | Vrací efektivní hodnotu formátu výplně. Pouze ke čtení [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [BorderBottom](../../aspose.slides/ibasetableformateffectivedata/borderbottom) { get; } | Vrací efektivní hodnotu formátu spodní ohraničující čáry. Pouze pro čtení [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | Vrací efektivní hodnotu formátu dolní úhlopříčné čáry. Pouze pro čtení [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | Vrací efektivní hodnotu formátu horní úhlopříčné čáry. Pouze pro čtení [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderLeft](../../aspose.slides/ibasetableformateffectivedata/borderleft) { get; } | Vrací efektivní hodnotu formátu levé ohraničující čáry. Pouze pro čtení [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderRight](../../aspose.slides/ibasetableformateffectivedata/borderright) { get; } | Vrací efektivní hodnotu formátu pravé ohraničující čáry. Pouze pro čtení [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderTop](../../aspose.slides/ibasetableformateffectivedata/bordertop) { get; } | Vrací efektivní hodnotu formátu horní ohraničující čáry. Pouze pro čtení [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [FillFormat](../../aspose.slides/ibasetableformateffectivedata/fillformat) { get; } | Vrací efektivní hodnotu formátu výplně. Pouze pro čtení [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 
 ### Viz také
 

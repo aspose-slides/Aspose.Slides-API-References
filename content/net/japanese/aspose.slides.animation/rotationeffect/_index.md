@@ -3,7 +3,7 @@ title: RotationEffect
 second_title: Aspose.Sildes for .NET API リファレンス
 description: エフェクトの回転動作を表します。
 type: docs
-weight: 750
+weight: 770
 url: /ja/aspose.slides.animation/rotationeffect/
 ---
 ## RotationEffect クラス
@@ -14,25 +14,25 @@ url: /ja/aspose.slides.animation/rotationeffect/
 public class RotationEffect : Behavior, IRotationEffect
 ```
 
-## コンストラクタ
+## コンストラクター
 
 | 名前 | 説明 |
 | --- | --- |
-| [RotationEffect](rotationeffect)() | デフォルトコンストラクタです。 |
+| [RotationEffect](rotationeffect)() | 既定のコンストラクターです。 |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | アニメーション動作が蓄積されるかどうかを表します。読み取り/書き込み [`NullableBool`](../../aspose.slides/nullablebool)。 |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | 現在のアニメーション動作が他の実行中アニメーションと結合されるかどうかを表します。読み取り/書き込み [`BehaviorAdditiveType`](../behavioradditivetype)。 |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | アニメーション動作が累積されるかどうかを表します。読み取り/書き込み [`NullableBool`](../../aspose.slides/nullablebool)。 |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | 現在のアニメーション動作が他の実行中のアニメーションと結合されるかどうかを表します。読み取り/書き込み [`BehaviorAdditiveType`](../behavioradditivetype)。 |
 | [By](../../aspose.slides.animation/rotationeffect/by) { get; set; } | アニメーションの相対オフセット値を示します。読み取り/書き込み Single。 |
 | [From](../../aspose.slides.animation/rotationeffect/from) { get; set; } | アニメーションの開始値を示します。読み取り/書き込み Single。 |
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | 動作のプロパティを表します。読み取り専用 [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection)。 |
 | [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | エフェクト動作のタイミングプロパティを表します。読み取り/書き込み [`ITiming`](../itiming)。 |
 | [To](../../aspose.slides.animation/rotationeffect/to) { get; set; } | アニメーションの終了値を示します。読み取り/書き込み Single。 |
 
-### 関連項目
+### 参照
 
 * クラス [Behavior](../behavior)
 * インターフェイス [IRotationEffect](../irotationeffect)

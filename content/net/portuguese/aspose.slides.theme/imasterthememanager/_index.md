@@ -1,12 +1,12 @@
 ---
 title: IMasterThemeManager
-second_title: Aspose.Sildes for .NET Referência da API
+second_title: Aspose.Sildes para .NET Referência da API
 description: Fornece acesso ao tema mestre da apresentação.
 type: docs
-weight: 11300
-url: /pt/aspose.slides.theme/imasterthememanager/
+weight: 11320
+url: /pt/aspose.slides/theme/imasterthememanager/
 ---
-## IMasterThemeManager interface
+## interface IMasterThemeManager
 
 Fornece acesso ao tema mestre da apresentação.
 
@@ -19,10 +19,10 @@ public interface IMasterThemeManager : IThemeManager
 | Nome | Descrição |
 | --- | --- |
 | [AsIThemeManager](../../aspose.slides.theme/imasterthememanager/asithememanager) { get; } | Permite obter a interface base IThemeManager. Somente leitura [`IThemeManager`](../ithememanager). |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/imasterthememanager/isoverridethemeenabled) { get; set; } | Determina se OverrideTheme substitui o tema efetivo herdado (Presentation.MasterTheme) ou não. Leitura/Gravação Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/imasterthememanager/overridetheme) { get; set; } | Retorna o objeto de tema de substituição. Leitura/Gravação [`IMasterTheme`](../imastertheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/imasterthememanager/isoverridethemeenabled) { get; set; } | Determina se OverrideTheme substitui o tema efetivo herdado (Presentation.MasterTheme) ou não. Leitura/gravação Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/imasterthememanager/overridetheme) { get; set; } | Retorna o objeto de tema de substituição. Leitura/gravação [`IMasterTheme`](../imastertheme). |
 
-### Veja Também
+### Ver Também
 
 * interface [IThemeManager](../ithememanager)
 * namespace [Aspose.Slides.Theme](../../aspose.slides.theme)

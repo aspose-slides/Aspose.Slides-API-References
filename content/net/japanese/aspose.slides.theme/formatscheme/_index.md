@@ -1,14 +1,14 @@
 ---
 title: FormatScheme
 second_title: Aspose.Sildes for .NET API リファレンス
-description: シェイプのテーマ定義フォーマットを格納します。
+description: シェイプのテーマ定義されたフォーマットを格納します。
 type: docs
-weight: 11120
+weight: 11140
 url: /ja/aspose.slides.theme/formatscheme/
 ---
 ## FormatScheme クラス
 
-シェイプのテーマ定義フォーマットを格納します。
+シェイプのテーマで定義されたフォーマットを格納します。
 
 ```csharp
 public class FormatScheme : IFormatScheme
@@ -18,12 +18,12 @@ public class FormatScheme : IFormatScheme
 
 | 名前 | 説明 |
 | --- | --- |
-| [BackgroundFillStyles](../../aspose.slides.theme/formatscheme/backgroundfillstyles) { get; } | テーマで定義された背景塗りつぶしスタイルのコレクションを返します。読み取り専用 [`IFillFormatCollection`](../ifillformatcollection). |
-| [EffectStyles](../../aspose.slides.theme/formatscheme/effectstyles) { get; } | テーマで定義されたエフェクトスタイルのコレクションを返します。読み取り専用 [`IEffectStyleCollection`](../ieffectstylecollection). |
-| [FillStyles](../../aspose.slides.theme/formatscheme/fillstyles) { get; } | テーマで定義された塗りつぶしスタイルのコレクションを返します。読み取り専用 [`IFillFormatCollection`](../ifillformatcollection). |
-| [LineStyles](../../aspose.slides.theme/formatscheme/linestyles) { get; } | テーマで定義された線スタイルのコレクションを返します。読み取り専用 [`ILineFormatCollection`](../ilineformatcollection). |
-| [Presentation](../../aspose.slides.theme/formatscheme/presentation) { get; } | 親プレゼンテーションを返します。読み取り専用 [`IPresentation`](../../aspose.slides/ipresentation). |
-| [Slide](../../aspose.slides.theme/formatscheme/slide) { get; } | 親スライドを返します。読み取り専用 [`IBaseSlide`](../../aspose.slides/ibaseslide). |
+| [BackgroundFillStyles](../../aspose.slides.theme/formatscheme/backgroundfillstyles) { get; } | テーマで定義された背景塗りつぶしスタイルのコレクションを返します。読み取り専用 [`IFillFormatCollection`](../ifillformatcollection)。 |
+| [EffectStyles](../../aspose.slides.theme/formatscheme/effectstyles) { get; } | テーマで定義されたエフェクトスタイルのコレクションを返します。読み取り専用 [`IEffectStyleCollection`](../ieffectstylecollection)。 |
+| [FillStyles](../../aspose.slides.theme/formatscheme/fillstyles) { get; } | テーマで定義された塗りつぶしスタイルのコレクションを返します。読み取り専用 [`IFillFormatCollection`](../ifillformatcollection)。 |
+| [LineStyles](../../aspose.slides.theme/formatscheme/linestyles) { get; } | テーマで定義された線スタイルのコレクションを返します。読み取り専用 [`ILineFormatCollection`](../ilineformatcollection)。 |
+| [Presentation](../../aspose.slides.theme/formatscheme/presentation) { get; } | 親プレゼンテーションを返します。読み取り専用 [`IPresentation`](../../aspose.slides/ipresentation)。 |
+| [Slide](../../aspose.slides.theme/formatscheme/slide) { get; } | 親スライドを返します。読み取り専用 [`IBaseSlide`](../../aspose.slides/ibaseslide)。 |
 
 ### 参照
 

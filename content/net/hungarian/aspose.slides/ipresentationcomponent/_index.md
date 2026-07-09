@@ -1,14 +1,14 @@
 ---
 title: IPresentationComponent
-second_title: Aspose.Sildes .NET API hivatkozás
-description: A prezentáció egy komponensét képviseli.
+second_title: Aspose.Sildes .NET API referencia
+description: Egy prezentáció komponensét képviseli.
 type: docs
-weight: 6740
+weight: 6760
 url: /hu/aspose.slides/ipresentationcomponent/
 ---
 ## IPresentationComponent interfész
 
-A prezentáció egy komponensét képviseli.
+Egy prezentáció komponensét képviseli.
 
 ```csharp
 public interface IPresentationComponent

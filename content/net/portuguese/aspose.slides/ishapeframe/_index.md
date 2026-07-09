@@ -1,14 +1,14 @@
 ---
 title: IShapeFrame
 second_title: Referência da API Aspose.Sildes para .NET
-description: Representa as propriedades das molduras de forma.
+description: Representa as propriedades de quadros de forma.
 type: docs
-weight: 6980
+weight: 7000
 url: /pt/aspose.slides/ishapeframe/
 ---
-## interface IShapeFrame
+## IShapeFrame interface
 
-Representa as propriedades da moldura de forma.
+Representa as propriedades de um frame de forma.
 
 ```csharp
 public interface IShapeFrame : IGenericCloneable<IShapeFrame>
@@ -18,16 +18,16 @@ public interface IShapeFrame : IGenericCloneable<IShapeFrame>
 
 | Nome | Descrição |
 | --- | --- |
-| [CenterX](../../aspose.slides/ishapeframe/centerx) { get; } | Retorna a coordenada X do centro de um quadro. Somente leitura Single. |
-| [CenterY](../../aspose.slides/ishapeframe/centery) { get; } | Retorna a coordenada Y do centro de um quadro. Somente leitura Single. |
-| [FlipH](../../aspose.slides/ishapeframe/fliph) { get; } | Determina se um quadro está invertido horizontalmente. Somente leitura [`NullableBool`](../nullablebool). |
-| [FlipV](../../aspose.slides/ishapeframe/flipv) { get; } | Determina se um quadro está invertido verticalmente. Somente leitura [`NullableBool`](../nullablebool). |
-| [Height](../../aspose.slides/ishapeframe/height) { get; } | Retorna a altura de um quadro. Somente leitura Single. |
-| [Rectangle](../../aspose.slides/ishapeframe/rectangle) { get; } | Retorna as coordenadas de um quadro. Somente leitura RectangleF. |
-| [Rotation](../../aspose.slides/ishapeframe/rotation) { get; } | Retorna o número de graus que um quadro está rotacionado em torno do eixo z. Um valor positivo indica rotação no sentido horário; um valor negativo indica rotação no sentido anti-horário. Somente leitura Single. |
-| [Width](../../aspose.slides/ishapeframe/width) { get; } | Retorna a largura de um quadro. Somente leitura Single. |
-| [X](../../aspose.slides/ishapeframe/x) { get; } | Retorna a coordenada X do canto superior esquerdo de um quadro. Somente leitura Single. |
-| [Y](../../aspose.slides/ishapeframe/y) { get; } | Retorna a coordenada Y do canto superior esquerdo de um quadro. Somente leitura Single. |
+| [CenterX](../../aspose.slides/ishapeframe/centerx) { get; } | Retorna a coordenada X do centro de um frame. Somente leitura Single. |
+| [CenterY](../../aspose.slides/ishapeframe/centery) { get; } | Retorna a coordenada Y do centro de um frame. Somente leitura Single. |
+| [FlipH](../../aspose.slides/ishapeframe/fliph) { get; } | Determina se um frame está invertido horizontalmente. Somente leitura [`NullableBool`](../nullablebool). |
+| [FlipV](../../aspose.slides/ishapeframe/flipv) { get; } | Determina se um frame está invertido verticalmente. Somente leitura [`NullableBool`](../nullablebool). |
+| [Height](../../aspose.slides/ishapeframe/height) { get; } | Retorna a altura de um frame. Somente leitura Single. |
+| [Rectangle](../../aspose.slides/ishapeframe/rectangle) { get; } | Retorna as coordenadas de um frame. Somente leitura RectangleF. |
+| [Rotation](../../aspose.slides/ishapeframe/rotation) { get; } | Retorna o número de graus que um frame é girado ao redor do eixo z. Um valor positivo indica rotação no sentido horário; um valor negativo indica rotação no sentido anti-horário. Somente leitura Single. |
+| [Width](../../aspose.slides/ishapeframe/width) { get; } | Retorna a largura de um frame. Somente leitura Single. |
+| [X](../../aspose.slides/ishapeframe/x) { get; } | Retorna a coordenada X do canto superior esquerdo de um frame. Somente leitura Single. |
+| [Y](../../aspose.slides/ishapeframe/y) { get; } | Retorna a coordenada Y do canto superior esquerdo de um frame. Somente leitura Single. |
 
 ### Veja Também
 

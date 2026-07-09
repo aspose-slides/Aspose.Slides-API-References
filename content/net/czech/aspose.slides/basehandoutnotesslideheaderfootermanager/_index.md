@@ -1,14 +1,14 @@
 ---
 title: BaseHandoutNotesSlideHeaderFooterManager
-second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje správce, který určuje chování zástupných symbolů, včetně zástupného symbolu záhlaví pro všechny typy podkladových a poznámkových snímků.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Reprezentuje správce, který obsahuje chování zástupných objektů, včetně zástupného objektu záhlaví pro všechny typy výstupních a poznámkových snímků.
 type: docs
-weight: 930
+weight: 950
 url: /cs/aspose.slides/basehandoutnotesslideheaderfootermanager/
 ---
 ## BaseHandoutNotesSlideHeaderFooterManager třída
 
-Představuje správce, který zachycuje chování zástupných symbolů, včetně zástupného symbolu záhlaví pro všechny typy podkladových a poznámkových snímků.
+Reprezentuje správce, který obsahuje chování zástupných objektů, včetně zástupného objektu záhlaví pro všechny typy výstupních a poznámkových snímků.
 
 ```csharp
 public abstract class BaseHandoutNotesSlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
@@ -19,28 +19,28 @@ public abstract class BaseHandoutNotesSlideHeaderFooterManager : BaseSlideHeader
 
 | Název | Popis |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Vrací hodnotu, která naznačuje, že je přítomen zástupný symbol data a času. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Vrací hodnotu, která naznačuje, že je přítomen zástupný symbol zápatí. Read Boolean. |
-| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Vrací hodnotu, která naznačuje, že je přítomen zástupný symbol záhlaví. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Vrací hodnotu, která naznačuje, že je přítomen zástupný symbol čísla stránky. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Získá hodnotu indikující, že je přítomen zástupný objekt data a času. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Získá hodnotu indikující, že je přítomen zástupný objekt zápatí. Read Boolean. |
+| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Získá hodnotu indikující, že je přítomen zástupný objekt záhlaví. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Získá hodnotu indikující, že je přítomen zástupný objekt čísla stránky. ReadBoolean. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Nastaví text do zástupného symbolu data a času snímku. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Změní viditelnost zástupného symbolu data a času snímku. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Nastaví text do zástupného symbolu zápatí snímku. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Změní viditelnost zástupného symbolu zápatí snímku. |
-| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Nastaví text do zástupného symbolu záhlaví snímku. |
-| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Změní viditelnost zástupného symbolu záhlaví snímku. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Změní viditelnost zástupného symbolu čísla stránky snímku. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Nastaví text do zástupného objektu data a času snímku. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Změní viditelnost zástupného objektu data a času snímku. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Nastaví text do zástupného objektu zápatí snímku. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Změní viditelnost zástupného objektu zápatí snímku. |
+| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Nastaví text do zástupného objektu záhlaví snímku. |
+| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Změní viditelnost zástupného objektu záhlaví snímku. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Změní viditelnost zástupného objektu čísla stránky snímku. |
 
 ### Viz také
 
 * třída [BaseSlideHeaderFooterManager](../baseslideheaderfootermanager)
 * rozhraní [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
 * jmenný prostor [Aspose.Slides](../../aspose.slides)
-* sestava [Aspose.Slides](../../)
+* sestavení [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: Output
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje kolekci výstupních prvků pro IWebDocument.
+description: Representuje kolekci výstupních prvků pro IWebDocument.
 type: docs
-weight: 4620
+weight: 4640
 url: /cs/aspose.slides.export.web/output/
 ---
-## Output třída
+## Výstupní třída
 
-Represents a collection of output elements for !:IWebDocument.
+Reprezentuje kolekci výstupních prvků pro !:IWebDocument.
 
 ```csharp
 public sealed class Output
@@ -24,8 +24,8 @@ public sealed class Output
 | [Add](../../aspose.slides.export.web/output/add#add_4)(string, string) | Přidá výstupní prvek pro textový obsah. |
 | [Add](../../aspose.slides.export.web/output/add#add)(string, IFontData, FontStyleType) | Vytvoří a přidá výstupní souborový prvek pro zadané písmo. |
 | [Add&lt;TContextObject&gt;](../../aspose.slides.export.web/output/add#add_5)(string, string, TContextObject) | Přidá výstupní prvek pro kontextový objekt. |
-| [BindResource](../../aspose.slides.export.web/output/bindresource)(IOutputFile, object) | Sváže zdroj s výstupním souborem. |
-| [GetResourcePath](../../aspose.slides.export.web/output/getresourcepath)(object) | Vrátí cestu pro daný zdroj. |
+| [BindResource](../../aspose.slides.export.web/output/bindresource)(IOutputFile, object) | Váže zdroj k výstupnímu souboru. |
+| [GetResourcePath](../../aspose.slides.export.web/output/getresourcepath)(object) | Vrací cestu k danému zdroji. |
 
 ### Viz také
 

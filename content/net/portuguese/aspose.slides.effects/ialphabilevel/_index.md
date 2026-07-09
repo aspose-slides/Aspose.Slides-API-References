@@ -1,14 +1,14 @@
 ---
 title: IAlphaBiLevel
-second_title: Aspose.Sildes para .NET - Referência da API
-description: Representa um efeito Alpha Bi-Level. Valores de opacidade Alpha menores que o limiar são alterados para 0 totalmente transparente e valores de alpha maiores ou iguais ao limiar são alterados para 100 totalmente opaco.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Representa um efeito Alpha Bi-Level. Valores de Opacidade Alpha menores que o limiar são alterados para 0 totalmente transparente e valores alpha maiores ou iguais ao limiar são alterados para 100 totalmente opaco.
 type: docs
-weight: 3000
+weight: 3020
 url: /pt/aspose.slides.effects/ialphabilevel/
 ---
-## IAlphaBiLevel interface
+## interface IAlphaBiLevel
 
-Representa um efeito Alpha Bi-Level. Valores de Alpha (Opacidade) menores que o limiar são alterados para 0 (totalmente transparente) e valores de alpha maiores ou iguais ao limiar são alterados para 100 % (totalmente opaco).
+Representa um efeito Alpha Bi-Level. Valores Alpha (Opacidade) menores que o limiar são alterados para 0 (totalmente transparente) e valores alpha maiores ou iguais ao limiar são alterados para 100% (totalmente opaco).
 
 ```csharp
 public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData>, 
@@ -27,7 +27,7 @@ public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData
 
 Use ImageTransformOperationFactory para criar instâncias em COM.
 
-### Veja Também
+### Ver Também
 
 * interface [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * interface [IAlphaBiLevelEffectiveData](../ialphabileveleffectivedata)

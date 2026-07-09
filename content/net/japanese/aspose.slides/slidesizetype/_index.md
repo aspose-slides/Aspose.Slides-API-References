@@ -1,9 +1,9 @@
 ---
 title: SlideSizeType
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: スライドサイズのプリセットを表します。
 type: docs
-weight: 10500
+weight: 10520
 url: /ja/aspose.slides/slidesizetype/
 ---
 ## SlideSizeType 列挙体
@@ -18,25 +18,25 @@ public enum SlideSizeType
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| OnScreen | `0` | 画面上 4x3 |
+| OnScreen | `0` | 画面 4x3 |
 | LetterPaper | `1` | レター |
 | A4Paper | `2` | A4 |
-| Slide35mm | `3` | スライド 35mm |
+| Slide35mm | `3` | 35mm スライド |
 | Overhead | `4` | オーバーヘッド |
 | Banner | `5` | バナー |
 | Custom | `6` | カスタムサイズ |
-| Ledger | `7` | レッジャー |
+| Ledger | `7` | Ledger |
 | A3Paper | `8` | A3 |
 | B4IsoPaper | `9` | B4 ISO |
 | B5IsoPaper | `10` | B5 ISO |
 | B4JisPaper | `11` | B4 JIS |
 | B5JisPaper | `12` | B5 JIS |
 | HagakiCard | `13` | はがきカード |
-| OnScreen16x9 | `14` | 画面上 16x9 |
-| OnScreen16x10 | `15` | 画面上 16x10 |
+| OnScreen16x9 | `14` | 画面 16x9 |
+| OnScreen16x10 | `15` | 画面 16x10 |
 | Widescreen | `16` | ワイドスクリーン |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

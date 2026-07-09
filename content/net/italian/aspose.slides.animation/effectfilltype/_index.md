@@ -1,12 +1,12 @@
 ---
 title: EffectFillType
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET - Riferimento API
 description: Rappresenta i tipi di riempimento.
 type: docs
-weight: 290
+weight: 310
 url: /it/aspose.slides.animation/effectfilltype/
 ---
-## Enumerazione EffectFillType
+## EffectFillType enumerazione
 
 Rappresenta i tipi di riempimento.
 

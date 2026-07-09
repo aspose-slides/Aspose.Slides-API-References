@@ -1,9 +1,9 @@
 ---
 title: IAxisFormat
-second_title: Aspose.Sildes dla .NET – Referencja API
+second_title: Aspose.Sildes dla .NET Referencja API
 description: Reprezentuje właściwości formatu wykresu.
 type: docs
-weight: 1700
+weight: 1720
 url: /pl/aspose.slides.charts/iaxisformat/
 ---
 ## IAxisFormat interfejs
@@ -22,7 +22,7 @@ public interface IAxisFormat
 | [Fill](../../aspose.slides.charts/iaxisformat/fill) { get; } | Zwraca właściwości stylu wypełnienia osi. Tylko do odczytu [`IFillFormat`](../../aspose.slides/ifillformat). |
 | [Line](../../aspose.slides.charts/iaxisformat/line) { get; } | Zwraca właściwości stylu linii osi. Tylko do odczytu [`ILineFormat`](../../aspose.slides/ilineformat). |
 
-### Zobacz również
+### Zobacz także
 
 * przestrzeń nazw [Aspose.Slides.Charts](../../aspose.slides.charts)
 * zestaw [Aspose.Slides](../../)

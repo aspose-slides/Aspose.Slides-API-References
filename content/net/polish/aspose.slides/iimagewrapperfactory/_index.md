@@ -1,14 +1,14 @@
 ---
 title: IImageWrapperFactory
-second_title: Aspose.Sildes dla odniesienia API .NET
-description: Ten interfejs umożliwia zainicjowanie IBitmapWrapper.
+second_title: Aspose.Sildes dla .NET Referencja API
+description: Ten interfejs umożliwia inicjalizację IBitmapWrapper.
 type: docs
-weight: 6160
+weight: 6180
 url: /pl/aspose.slides/iimagewrapperfactory/
 ---
-## interfejs IImageWrapperFactory
+## IImageWrapperFactory interfejs
 
-Ten interfejs umożliwia zainicjowanie IBitmapWrapper.
+This interface allows to initialize IBitmapWrapper.
 
 ```csharp
 public interface IImageWrapperFactory
@@ -18,7 +18,7 @@ public interface IImageWrapperFactory
 
 | Nazwa | Opis |
 | --- | --- |
-| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | Inicjalizuje nową instancję klasy ImageWrapper z podanego istniejącego obrazu. |
+| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | Inicjalizuje nową instancję klasy ImageWrapper z określonego istniejącego obrazu. |
 | [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | Inicjalizuje nową instancję klasy ImageWrapper z określonego strumienia danych. |
 | [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | Inicjalizuje nową instancję klasy ImageWrapper z określonego pliku. |
 

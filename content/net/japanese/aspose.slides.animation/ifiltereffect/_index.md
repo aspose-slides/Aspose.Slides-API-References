@@ -1,14 +1,14 @@
 ---
 title: IFilterEffect
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 動作のフィルター効果を表します。
+description: 動作のフィルター エフェクトを表します。
 type: docs
-weight: 480
+weight: 500
 url: /ja/aspose.slides.animation/ifiltereffect/
 ---
 ## IFilterEffect インターフェイス
 
-Represent filter effect of behavior.
+動作のフィルター エフェクトを表します。
 
 ```csharp
 public interface IFilterEffect : IBehavior
@@ -18,10 +18,10 @@ public interface IFilterEffect : IBehavior
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/ifiltereffect/asibehavior) { get; } | ベース IBehavior インターフェイスを取得できます。 読み取り専用 [`IBehavior`](../ibehavior)。 |
-| [Reveal](../../aspose.slides.animation/ifiltereffect/reveal) { get; set; } | 動作とともに効果が明らかになる必要があることを表します (in/out)。 読み取り/書き込み [`FilterEffectRevealType`](../filtereffectrevealtype)。 |
-| [Subtype](../../aspose.slides.animation/ifiltereffect/subtype) { get; set; } | フィルター効果のサブタイプを表します。 読み取り/書き込み [`FilterEffectSubtype`](../filtereffectsubtype)。 |
-| [Type](../../aspose.slides.animation/ifiltereffect/type) { get; set; } | フィルター効果のタイプを表します。 読み取り/書き込み [`FilterEffectType`](../filtereffecttype)。 |
+| [AsIBehavior](../../aspose.slides.animation/ifiltereffect/asibehavior) { get; } | ベース IBehavior インターフェイスを取得できます。読み取り専用 [`IBehavior`](../ibehavior)。 |
+| [Reveal](../../aspose.slides.animation/ifiltereffect/reveal) { get; set; } | 動作とともにエフェクトが表す (in/out) は読み書き可能です [`FilterEffectRevealType`](../filtereffectrevealtype)。 |
+| [Subtype](../../aspose.slides.animation/ifiltereffect/subtype) { get; set; } | フィルター エフェクトのサブタイプを表します。読み書き可能 [`FilterEffectSubtype`](../filtereffectsubtype)。 |
+| [Type](../../aspose.slides.animation/ifiltereffect/type) { get; set; } | フィルター エフェクトのタイプを表します。読み書き可能 [`FilterEffectType`](../filtereffecttype)。 |
 
 ### 参照
 

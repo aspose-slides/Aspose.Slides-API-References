@@ -1,9 +1,9 @@
 ---
 title: IExternalResourceResolver
-second_title: Aspose.Sildes para Referência de API .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Interface de retorno de chamada usada para resolver recursos externos durante a importação de documentos Html e Svg.
 type: docs
-weight: 7470
+weight: 7490
 url: /pt/aspose.slides.import/iexternalresourceresolver/
 ---
 ## IExternalResourceResolver interface
@@ -16,12 +16,12 @@ public interface IExternalResourceResolver
 
 ## Métodos
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [GetEntity](../../aspose.slides.import/iexternalresourceresolver/getentity)(string) | Mapeia um URI para um objeto que contém o recurso real. |
-| [ResolveUri](../../aspose.slides.import/iexternalresourceresolver/resolveuri)(string, string) | Resolve o URI absoluto a partir dos URIs base e relativo. |
+| [ResolveUri](../../aspose.slides.import/iexternalresourceresolver/resolveuri)(string, string) | Resolve o URI absoluto a partir do URI base e dos URIs relativos. |
 
-### Ver Também
+### Veja Também
 
 * namespace [Aspose.Slides.Import](../../aspose.slides.import)
 * assembly [Aspose.Slides](../../)

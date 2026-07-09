@@ -1,14 +1,14 @@
 ---
 title: ISketchFormatEffectiveData
 second_title: Aspose.Sildes için .NET API Referansı
-description: Etkili çizgi taslak özelliklerini içeren değişmez nesne.
+description: Etkili çizgi eskiz özelliklerini içeren değiştirilemez nesne.
 type: docs
-weight: 7010
+weight: 7030
 url: /tr/aspose.slides/isketchformateffectivedata/
 ---
-## ISketchFormatEffectiveData arayüzü
+## ISketchFormatEffectiveData interface
 
-Etkili çizgi taslak özelliklerini içeren değişmez nesne.
+Etkili çizgi eskiz özelliklerini içeren değiştirilemez nesne.
 
 ```csharp
 public interface ISketchFormatEffectiveData
@@ -18,13 +18,13 @@ public interface ISketchFormatEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [SketchType](../../aspose.slides/isketchformateffectivedata/sketchtype) { get; } | Çizim türünü döndürür. Salt okunur [`LineSketchType`](../linesketchtype). |
+| [SketchType](../../aspose.slides/isketchformateffectivedata/sketchtype) { get; } | Eskiz türünü döndürür. Salt okunur [`LineSketchType`](../linesketchtype). |
 
 ### Açıklamalar
 
-Bu arayüz [`ILineFormatEffectiveData`](../ilineformateffectivedata) bir parçası olarak kullanılır.
+Bu arayüz, [`ILineFormatEffectiveData`](../ilineformateffectivedata)'nin bir parçası olarak kullanılır.
 
-### Ayrıca Bakınız
+### İlgili
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

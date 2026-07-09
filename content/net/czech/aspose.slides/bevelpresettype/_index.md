@@ -1,9 +1,9 @@
 ---
 title: BevelPresetType
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET referenční příručku API
 description: Konstanty, které definují 3D zkosení tvaru.
 type: docs
-weight: 990
+weight: 1010
 url: /cs/aspose.slides/bevelpresettype/
 ---
 ## BevelPresetType výčet

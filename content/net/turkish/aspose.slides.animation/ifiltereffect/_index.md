@@ -1,9 +1,9 @@
 ---
 title: IFilterEffect
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Davranışın filtre etkisini temsil eder.
 type: docs
-weight: 480
+weight: 500
 url: /tr/aspose.slides.animation/ifiltereffect/
 ---
 ## IFilterEffect arayüz
@@ -18,10 +18,10 @@ public interface IFilterEffect : IBehavior
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/ifiltereffect/asibehavior) { get; } | Temel IBehavior arayüzünü almayı sağlar. Sadece okuma [`IBehavior`](../ibehavior). |
-| [Reveal](../../aspose.slides.animation/ifiltereffect/reveal) { get; set; } | Davranışa sahip bu etkinin açığa çıkması gerektiğini (in/out) temsil eder. Okuma/Yazma [`FilterEffectRevealType`](../filtereffectrevealtype). |
-| [Subtype](../../aspose.slides.animation/ifiltereffect/subtype) { get; set; } | Filtre etkisinin alt türünü temsil eder. Okuma/Yazma [`FilterEffectSubtype`](../filtereffectsubtype). |
-| [Type](../../aspose.slides.animation/ifiltereffect/type) { get; set; } | Filtre etkisinin türünü temsil eder. Okuma/Yazma [`FilterEffectType`](../filtereffecttype). |
+| [AsIBehavior](../../aspose.slides.animation/ifiltereffect/asibehavior) { get; } | Temel IBehavior arayüzünü almayı sağlar. Salt okunur [`IBehavior`](../ibehavior). |
+| [Reveal](../../aspose.slides.animation/ifiltereffect/reveal) { get; set; } | Davranış ile birlikte bu etkinin (giriş/çıkış) ortaya çıkmasını temsil eder. Okuma/yazma [`FilterEffectRevealType`](../filtereffectrevealtype). |
+| [Subtype](../../aspose.slides.animation/ifiltereffect/subtype) { get; set; } | Filtre etkisinin alt türünü temsil eder. Okuma/yazma [`FilterEffectSubtype`](../filtereffectsubtype). |
+| [Type](../../aspose.slides.animation/ifiltereffect/type) { get; set; } | Filtre etkisinin türünü temsil eder. Okuma/yazma [`FilterEffectType`](../filtereffecttype). |
 
 ### Ayrıca Bakınız
 

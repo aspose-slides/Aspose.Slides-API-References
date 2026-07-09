@@ -1,12 +1,12 @@
 ---
 title: ColorSchemeIndex
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
 description: Reprezentuje indeks w schemacie kolorów.
 type: docs
-weight: 2530
+weight: 2550
 url: /pl/aspose.slides/colorschemeindex/
 ---
-## enumeracja ColorSchemeIndex
+## ColorSchemeIndex wyliczenie
 
 Reprezentuje indeks w schemacie kolorów.
 

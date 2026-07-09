@@ -1,14 +1,14 @@
 ---
 title: ISvgShape
-second_title: Aspose.Sildes .NET API referenciája
-description: Az SVG alakzat beállításait képviseli.
+second_title: Aspose.Sildes .NET API Referencia
+description: Az SVG alakzat opcióit képviseli.
 type: docs
-weight: 4090
+weight: 4110
 url: /hu/aspose.slides.export/isvgshape/
 ---
 ## ISvgShape interfész
 
-Az SVG alakzat beállításait képviseli.
+Az SVG alakzatra vonatkozó beállításokat képviseli.
 
 ```csharp
 public interface ISvgShape
@@ -20,13 +20,13 @@ public interface ISvgShape
 | --- | --- |
 | [Id](../../aspose.slides.export/isvgshape/id) { get; set; } | Beállítja vagy lekéri az alakzat azonosítóját |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [SetEventHandler](../../aspose.slides.export/isvgshape/seteventhandler)(SvgEvent, string) | Beállítja az eseménykezelőt az alakzathoz |
+| [SetEventHandler](../../aspose.slides.export/isvgshape/seteventhandler)(SvgEvent, string) | Beállítja az alakzat eseménykezelőjét |
 
-### Lásd még
+### Kapcsolódó
 
 * névtér [Aspose.Slides.Export](../../aspose.slides.export)
 * összeállítás [Aspose.Slides](../../)

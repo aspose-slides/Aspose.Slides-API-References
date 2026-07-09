@@ -1,14 +1,14 @@
 ---
 title: AdjustValueCollection
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes a .NET API hivatkozáshoz
 description: Egy alakzatok beállításainak gyűjteményét képviseli.
 type: docs
-weight: 80
+weight: 100
 url: /hu/aspose.slides/adjustvaluecollection/
 ---
 ## AdjustValueCollection osztály
 
-A forma beállításainak gyűjteményét képviseli.
+Egy alakzat állításainak gyűjteményét képviseli.
 
 ```csharp
 public sealed class AdjustValueCollection : DomObject<GeometryShape>, IAdjustValueCollection
@@ -19,15 +19,15 @@ public sealed class AdjustValueCollection : DomObject<GeometryShape>, IAdjustVal
 | Név | Leírás |
 | --- | --- |
 | [Count](../../aspose.slides/adjustvaluecollection/count) { get; } | Visszaadja a beállítások számát. Csak olvasható Int32. |
-| [IsSynchronized](../../aspose.slides/adjustvaluecollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált (szálbiztonságú). Csak olvasható Boolean. |
-| [Item](../../aspose.slides/adjustvaluecollection/item) { get; } | Visszaadja a beállítást index szerint. |
-| [SyncRoot](../../aspose.slides/adjustvaluecollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökeret. Csak olvasható Object. |
+| [IsSynchronized](../../aspose.slides/adjustvaluecollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált-e (szálbiztos). Csak olvasható Boolean. |
+| [Item](../../aspose.slides/adjustvaluecollection/item) { get; } | Visszaadja az adott indexű beállítást. |
+| [SyncRoot](../../aspose.slides/adjustvaluecollection/syncroot) { get; } | Visszaadja a szinkronizáció gyökérobjektumát. Csak olvasható Object. |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [CopyTo](../../aspose.slides/adjustvaluecollection/copyto)(Array, int) | Lemásolja a gyűjtemény összes elemét a megadott tömbbe. |
+| [CopyTo](../../aspose.slides/adjustvaluecollection/copyto)(Array, int) | Átmásolja a gyűjtemény összes elemét a megadott tömbbe. |
 
 ### Lásd még
 

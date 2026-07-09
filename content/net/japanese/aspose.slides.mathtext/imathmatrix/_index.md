@@ -1,14 +1,14 @@
 ---
 title: IMathMatrix
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 子要素が 1 つ以上の行と列に配置された Matrix オブジェクトを指定します。行列には組み込みの区切り記号がないことに注意してください。行列を括弧で囲むには、区切りオブジェクト IMathDelimiter を使用する必要があります。null 引数を使用して行列内に空白を作成できます。
+description: 子要素が 1 行または複数列に配置された Matrix オブジェクトを指定します。マトリックスには組み込みの区切り記号がないことに注意してください。マトリックスを括弧で囲むには、区切りオブジェクト IMathDelimiter を使用する必要があります。Null 引数を使用してマトリックス内に空白を作成できます。
 type: docs
-weight: 8320
+weight: 8340
 url: /ja/aspose.slides.mathtext/imathmatrix/
 ---
-## IMathMatrix interface
+## IMathMatrix インターフェイス
 
-行や列が 1 つ以上配置された子要素からなる Matrix オブジェクトを指定します。行列には組み込みの区切り記号がないことに注意してください。行列を括弧で囲むには区切りオブジェクト (IMathDelimiter) を使用してください。null 引数を使用して行列内に空白を作ることができます。
+Matrix オブジェクトを指定します。子要素が 1 行以上または複数列に配置されます。マトリックスには組み込みの区切り記号がないことに注意してください。マトリックスを括弧で囲むには区切りオブジェクト (IMathDelimiter) を使用する必要があります。Null 引数を使用してマトリックス内に空白を作成できます。
 
 ```csharp
 public interface IMathMatrix : IMathElement
@@ -18,35 +18,33 @@ public interface IMathMatrix : IMathElement
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathmatrix/asimathelement) { get; } | ベースの IMathElement インターフェイス [`IMathElement`](../imathelement) を取得できます |
-| [BaseJustification](../../aspose.slides.mathtext/imathmatrix/basejustification) { get; set; } | 周囲のテキストに対する垂直方向の配置を指定します。可能な値は top、bottom、center です。デフォルト: Center |
-| [ColumnCount](../../aspose.slides.mathtext/imathmatrix/columncount) { get; } | 行列の列数 |
-| [ColumnGap](../../aspose.slides.mathtext/imathmatrix/columngap) { get; set; } | 行列の列間の水平間隔の値です。ColumnGapRule が 3 (\"Exactly\") に設定されている場合、単位はツイップ (ポイントの 1/20) と解釈されます。ColumnGapRule が 4 (\"Multiple\") に設定されている場合、単位は 0.5 em の増分数として解釈されます。その他の場合は無視されます。デフォルト: 0 |
-| [ColumnGapRule](../../aspose.slides.mathtext/imathmatrix/columngaprule) { get; set; } | 行列の列間の水平間隔の種類です。水平間隔の単位は em またはポイント (ツイップとして保存) です。デフォルト: SingleSpacingGap (0) |
-| [HidePlaceholders](../../aspose.slides.mathtext/imathmatrix/hideplaceholders) { get; set; } | 空の行列要素のプレースホルダーを非表示にします。デフォルト: false |
-| [Item](../../aspose.slides.mathtext/imathmatrix/item) { get; set; } | 行列の要素 |
-| [MinColumnWidth](../../aspose.slides.mathtext/imathmatrix/mincolumnwidth) { get; set; } | ツイップ (ポイントの 1/20) 単位の最小列幅です。ギャップ間隔 (「Column Gap」または「Gap Width」とも呼ばれます) は MinColumnWidth に加算され、行列全体の列間隔 (異なる列の同じエッジ間の距離) を決定します。デフォルト: 0. |
-| [RowCount](../../aspose.slides.mathtext/imathmatrix/rowcount) { get; } | 行列の行数 |
-| [RowGap](../../aspose.slides.mathtext/imathmatrix/rowgap) { get; set; } | 行列の行間の垂直間隔の値です。RowGapRule が 3 (\"Exactly\") に設定されている場合、単位はツイップ (ポイントの 1/20) と解釈されます。RowGapRule が 4 (\"Multiple\") に設定されている場合、単位はハーフラインとして解釈されます。デフォルト: 0 |
-| [RowGapRule](../../aspose.slides.mathtext/imathmatrix/rowgaprule) { get; set; } | 行列の行間の垂直間隔の種類です。垂直間隔の単位は行またはポイント (ツイップとして保存) です。デフォルト: SingleSpacingGap (0) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathmatrix/asimathelement) { get; } | ベースの IMathElement インターフェイスを取得できます [`IMathElement`](../imathelement) |
+| [BaseJustification](../../aspose.slides.mathtext/imathmatrix/basejustification) { get; set; } | 周囲のテキストに対する垂直方向の揃えを指定します。可能な値は top、bottom、center です。デフォルト: Center |
+| [ColumnCount](../../aspose.slides.mathtext/imathmatrix/columncount) { get; } | マトリックスの列数 |
+| [ColumnGap](../../aspose.slides.mathtext/imathmatrix/columngap) { get; set; } | マトリックスの列間の水平間隔の値です。ColumnGapRule が 3 ("Exactly") に設定されている場合、単位は twips (ポイントの 1/20) と解釈されます。ColumnGapRule が 4 ("Multiple") に設定されている場合、単位は 0.5 em 増分の数として解釈されます。その他の場合は無視されます。デフォルト: 0 |
+| [ColumnGapRule](../../aspose.slides.mathtext/imathmatrix/columngaprule) { get; set; } | マトリックスの列間の水平間隔の種類です。水平間隔の単位は em またはポイント (twips で保存) です。デフォルト: SingleSpacingGap (0) |
+| [HidePlaceholders](../../aspose.slides.mathtext/imathmatrix/hideplaceholders) { get; set; } | 空のマトリックス要素のプレースホルダーを非表示にします。デフォルト: false |
+| [Item](../../aspose.slides.mathtext/imathmatrix/item) { get; set; } | マトリックスの要素 |
+| [MinColumnWidth](../../aspose.slides.mathtext/imathmatrix/mincolumnwidth) { get; set; } | twips (ポイントの 1/20) 単位の最小列幅です。ギャップ間隔（「Column Gap」または「Gap Width」とも呼ばれます）は MinColumnWidth に加算され、合計のマトリックス列間隔（異なる列の同じエッジ間の距離）を決定します。デフォルト: 0. |
+| [RowCount](../../aspose.slides.mathtext/imathmatrix/rowcount) { get; } | マトリックスの行数 |
+| [RowGap](../../aspose.slides.mathtext/imathmatrix/rowgap) { get; set; } | マトリックスの行間の垂直間隔の値です。RowGapRule が 3 ("Exactly") に設定されている場合、単位は twips (ポイントの 1/20) と解釈されます。RowGapRule が 4 ("Multiple") に設定されている場合、単位は半行として解釈されます。デフォルト: 0 |
+| [RowGapRule](../../aspose.slides.mathtext/imathmatrix/rowgaprule) { get; set; } | マトリックスの行間の垂直間隔の種類です。垂直間隔の単位は行またはポイント (twips で保存) です。デフォルト: SingleSpacingGap (0) |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [DeleteColumn](../../aspose.slides.mathtext/imathmatrix/deletecolumn)(int) | 指定された列を削除します |
-| [DeleteRow](../../aspose.slides.mathtext/imathmatrix/deleterow)(int) | 指定された行を削除します |
-| [GetColumnAlignment](../../aspose.slides.mathtext/imathmatrix/getcolumnalignment)(int) | 指定された列の水平揃えを取得します |
-| [InsertColumnAfter](../../aspose.slides.mathtext/imathmatrix/insertcolumnafter)(int) | 指定された列の後に新しい列を挿入します。新しい列のすべての要素は最初 null です。 |
-| [InsertColumnBefore](../../aspose.slides.mathtext/imathmatrix/insertcolumnbefore)(int) | 指定された列の前に新しい列を挿入します。新しい列のすべての要素は最初 nullです。 |
-| [InsertRowAfter](../../aspose.slides.mathtext/imathmatrix/insertrowafter)(int) | 指定された行の後に新しい行を挿入します。新しい行のすべての要素は最初 nullです。 |
-| [InsertRowBefore](../../aspose.slides.mathtext/imathmatrix/insertrowbefore)(int) | 指定された行の前に新しい行を挿入します。新しい行のすべての要素は最初 nullです。 |
-| [SetColumnAlignment](../../aspose.slides.mathtext/imathmatrix/setcolumnalignment)(int, MathHorizontalAlignment) | 指定された列の水平揃えを設定します |
-| [SetColumnsAlignment](../../aspose.slides.mathtext/imathmatrix/setcolumnsalignment)(int, uint, MathHorizontalAlignment) | 指定された列の水平揃えを設定します |
+| [DeleteColumn](../../aspose.slides.mathtext/imathmatrix/deletecolumn)(int) | 指定した列を削除します |
+| [DeleteRow](../../aspose.slides.mathtext/imathmatrix/deleterow)(int) | 指定した行を削除します |
+| [GetColumnAlignment](../../aspose.slides.mathtext/imathmatrix/getcolumnalignment)(int) | 指定した列の水平揃えを取得します |
+| [InsertColumnAfter](../../aspose.slides.mathtext/imathmatrix/insertcolumnafter)(int) | 指定した列の後に新しい列を挿入します。新しい列のすべての要素は最初 null になります。 |
+| [InsertColumnBefore](../../aspose.slides.mathtext/imathmatrix/insertcolumnbefore)(int) | 指定した列の前に新しい列を挿入します。新しい列のすべての要素は最初 null になります。 |
+| [InsertRowAfter](../../aspose.slides.mathtext/imathmatrix/insertrowafter)(int) | 指定した行の後に新しい行を挿入します。新しい行のすべての要素は最初 null になります。 |
+| [InsertRowBefore](../../aspose.slides.mathtext/imathmatrix/insertrowbefore)(int) | 指定した行の前に新しい行を挿入します。新しい行のすべての要素は最初 null になります。 |
+| [SetColumnAlignment](../../aspose.slides.mathtext/imathmatrix/setcolumnalignment)(int, MathHorizontalAlignment) | 指定した列の水平揃えを設定します |
+| [SetColumnsAlignment](../../aspose.slides.mathtext/imathmatrix/setcolumnsalignment)(int, uint, MathHorizontalAlignment) | 指定した列の水平揃えを設定します |
 
 ### 例
-
-例:
 
 ```csharp
 [C#]
@@ -54,7 +52,7 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix[0, 0] = new MathematicalText("item.1.1");
 ```
 
-### 関連項目
+### 参照
 
 * インターフェイス [IMathElement](../imathelement)
 * 名前空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

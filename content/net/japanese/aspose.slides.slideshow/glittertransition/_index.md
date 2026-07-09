@@ -3,12 +3,12 @@ title: GlitterTransition
 second_title: Aspose.Sildes for .NET API リファレンス
 description: Glitter スライド遷移効果。
 type: docs
-weight: 10030
+weight: 10050
 url: /ja/aspose.slides.slideshow/glittertransition/
 ---
 ## GlitterTransition クラス
 
-Glitter スライド遷移効果。
+Glitter スライド遷移効果です。
 
 ```csharp
 public class GlitterTransition : TransitionValueBase, IGlitterTransition
@@ -18,15 +18,15 @@ public class GlitterTransition : TransitionValueBase, IGlitterTransition
 
 | 名前 | 説明 |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/glittertransition/direction) { get; set; } | 遷移の方向。読み取り/書き込み [`TransitionSideDirectionType`](../transitionsidedirectiontype)。 |
-| [Pattern](../../aspose.slides.slideshow/glittertransition/pattern) { get; set; } | 遷移中に使用されるビジュアルの形状を指定します。読み取り/書き込み [`TransitionPattern`](../transitionpattern)。 |
+| [Direction](../../aspose.slides.slideshow/glittertransition/direction) { get; set; } | 遷移の方向。読み書き [`TransitionSideDirectionType`](../transitionsidedirectiontype)。 |
+| [Pattern](../../aspose.slides.slideshow/glittertransition/pattern) { get; set; } | 遷移中に使用されるビジュアルの形状を指定します。読み書き [`TransitionPattern`](../transitionpattern)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 二つの TransitionValueBase インスタンスが等しいかどうかを判断します。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 特定の型に対するハッシュ関数として機能し、ハッシュアルゴリズムやハッシュテーブルのようなデータ構造での使用に適しています。 |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 2つの TransitionValueBase インスタンスが等しいかどうかを判定します。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 特定の型に対するハッシュ関数として機能し、ハッシュアルゴリズムやハッシュテーブルなどのデータ構造での使用に適しています。 |
 
 ### 参照
 

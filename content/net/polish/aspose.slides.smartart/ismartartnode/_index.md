@@ -1,9 +1,9 @@
 ---
 title: ISmartArtNode
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje węzeł diagramu SmartArt.
 type: docs
-weight: 10530
+weight: 10550
 url: /pl/aspose.slides.smartart/ismartartnode/
 ---
 ## ISmartArtNode interfejs
@@ -18,12 +18,12 @@ public interface ISmartArtNode
 
 | Nazwa | Opis |
 | --- | --- |
-| [BulletFillFormat](../../aspose.slides.smartart/ismartartnode/bulletfillformat) { get; } | Zwraca obiekt FillFormat, który zawiera właściwości formatowania wypełnienia dla wypunktowania węzła. Uwaga: może zwrócić null dla niektórych typów układu SmartArt, które nie zapewniają wypunktowania dla węzłów. Tylko do odczytu [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [ChildNodes](../../aspose.slides.smartart/ismartartnode/childnodes) { get; } | Zwraca kolekcje wszystkich węzłów podrzędnych bieżącego węzła. Tylko do odczytu [`ISmartArtNodeCollection`](../ismartartnodecollection). |
+| [BulletFillFormat](../../aspose.slides.smartart/ismartartnode/bulletfillformat) { get; } | Zwraca obiekt FillFormat, który zawiera właściwości formatowania wypełnienia dla wypunktowania węzła. Uwaga: może zwrócić wartość null dla niektórych typów układu SmartArt, które nie zapewniają wypunktowań dla węzłów. Tylko do odczytu [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [ChildNodes](../../aspose.slides.smartart/ismartartnode/childnodes) { get; } | Zwraca kolekcje wszystkich węzłów potomnych bieżącego węzła. Tylko do odczytu [`ISmartArtNodeCollection`](../ismartartnodecollection). |
 | [IsAssistant](../../aspose.slides.smartart/ismartartnode/isassistant) { get; set; } | Zwraca lub ustawia węzeł jako asystenta. Odczyt/zapis Boolean. |
 | [IsHidden](../../aspose.slides.smartart/ismartartnode/ishidden) { get; } | Zwraca true, jeśli ten węzeł jest ukrytym węzłem w modelu danych. Tylko do odczytu Boolean. |
 | [Level](../../aspose.slides.smartart/ismartartnode/level) { get; } | Zwraca poziom zagnieżdżenia węzła. Tylko do odczytu Int32. |
-| [OrganizationChartLayout](../../aspose.slides.smartart/ismartartnode/organizationchartlayout) { get; set; } | Zwraca lub ustawia typ układu wykresu organizacyjnego powiązany z bieżącym węzłem. Odczyt/zapis [`OrganizationChartLayoutType`](../organizationchartlayouttype). |
+| [OrganizationChartLayout](../../aspose.slides.smartart/ismartartnode/organizationchartlayout) { get; set; } | Zwraca lub ustawia typ układu wykresu organizacji powiązany z bieżącym węzłem. Odczyt/zapis [`OrganizationChartLayoutType`](../organizationchartlayouttype). |
 | [Position](../../aspose.slides.smartart/ismartartnode/position) { get; set; } | Zwraca lub ustawia pozycję zerową węzła wśród węzłów siostrzanych. Odczyt/zapis Int32. |
 | [Shapes](../../aspose.slides.smartart/ismartartnode/shapes) { get; } | Zwraca kolekcje wszystkich kształtów powiązanych z węzłem. Tylko do odczytu [`ISmartArtShapeCollection`](../ismartartshapecollection). |
 | [TextFrame](../../aspose.slides.smartart/ismartartnode/textframe) { get; } | Zwraca lub ustawia tekst węzła. Tylko do odczytu [`ITextFrame`](../../aspose.slides/itextframe). |

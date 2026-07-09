@@ -1,14 +1,14 @@
 ---
 title: PicturesCompression
 second_title: Aspose.Sildes .NET API hivatkozás
-description: A képek tömörítési szintjének reprezentálása
+description: A képek tömörítési szintjét reprezentálja
 type: docs
-weight: 4330
+weight: 4350
 url: /hu/aspose.slides.export/picturescompression/
 ---
 ## PicturesCompression enumeráció
 
-A képek tömörítési szintjének reprezentálása
+A képek tömörítési szintjét reprezentálja
 
 ```csharp
 public enum PicturesCompression

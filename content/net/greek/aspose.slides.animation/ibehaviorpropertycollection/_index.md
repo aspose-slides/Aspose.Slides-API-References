@@ -1,14 +1,14 @@
 ---
 title: IBehaviorPropertyCollection
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αναπαριστά τις ιδιότητες χρονολόγησης για τη συμπεριφορά του εφέ.
+description: Αντιπροσωπεύει τις ιδιότητες χρονισμού για τη συμπεριφορά του εφέ.
 type: docs
-weight: 430
+weight: 450
 url: /el/aspose.slides.animation/ibehaviorpropertycollection/
 ---
-## Διεπαφή IBehaviorPropertyCollection
+## IBehaviorPropertyCollection διεπαφή
 
-Αναπαριστά τις ιδιότητες χρονολόγησης για τη συμπεριφορά του εφέ.
+Αντιπροσωπεύει ιδιότητες χρονισμού για τη συμπεριφορά του εφέ.
 
 ```csharp
 public interface IBehaviorPropertyCollection : IList<IBehaviorProperty>
@@ -18,21 +18,21 @@ public interface IBehaviorPropertyCollection : IList<IBehaviorProperty>
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/ibehaviorpropertycollection/asienumerable) { get; } | Επιστρέφει διεπαφές IEnumerable. Μόνο-ανάγνωση IEnumerable. |
+| [AsIEnumerable](../../aspose.slides.animation/ibehaviorpropertycollection/asienumerable) { get; } | Επιστρέφει διεπαφές IEnumerable. Μόνο για ανάγνωση IEnumerable. |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [Add](../../aspose.slides.animation/ibehaviorpropertycollection/add)(string) | Προσθέτει μια νέα ιδιότητα στη συλλογή. |
-| [Contains](../../aspose.slides.animation/ibehaviorpropertycollection/contains)(string) | Καθορίζει εάν το ICollection περιέχει μια συγκεκριμένη τιμή. |
-| [IndexOf](../../aspose.slides.animation/ibehaviorpropertycollection/indexof)(string) | Καθορίζει το δείκτη ενός συγκεκριμένου στοιχείου με την τιμή ιδιότητας στο IList. |
-| [Insert](../../aspose.slides.animation/ibehaviorpropertycollection/insert)(int, string) | Εισάγει μια νέα ιδιότητα (με την καθορισμένη τιμή ιδιότητας) στη συλλογή στον καθορισμένο δείκτη. |
+| [Contains](../../aspose.slides.animation/ibehaviorpropertycollection/contains)(string) | Καθορίζει εάν η ICollection περιέχει μια συγκεκριμένη τιμή. |
+| [IndexOf](../../aspose.slides.animation/ibehaviorpropertycollection/indexof)(string) | Καθορίζει το ευρετήριο ενός συγκεκριμένου στοιχείου με βάση την τιμή ιδιότητας στο IList. |
+| [Insert](../../aspose.slides.animation/ibehaviorpropertycollection/insert)(int, string) | Εισάγει μια νέα ιδιότητα (με την καθορισμένη τιμή ιδιότητας) στη συλλογή στο καθορισμένο ευρετήριο. |
 | [Remove](../../aspose.slides.animation/ibehaviorpropertycollection/remove)(string) | Αφαιρεί την καθορισμένη ιδιότητα από τη συλλογή. |
 
 ### Δείτε επίσης
 
-* διεπαφή [IBehaviorProperty](../ibehaviorproperty)
+* διασύνδεση [IBehaviorProperty](../ibehaviorproperty)
 * χώρος ονομάτων [Aspose.Slides.Animation](../../aspose.slides.animation)
 * συναρμολόγηση [Aspose.Slides](../../)
 

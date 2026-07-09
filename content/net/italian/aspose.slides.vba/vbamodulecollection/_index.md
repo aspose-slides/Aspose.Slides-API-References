@@ -1,14 +1,14 @@
 ---
 title: VbaModuleCollection
-second_title: Riferimento API di Aspose.Sildes per .NET
-description: Rappresenta una collezione di moduli di un progetto VBA.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta una raccolta di moduli di un progetto VBA.
 type: docs
-weight: 11620
+weight: 11640
 url: /it/aspose.slides.vba/vbamodulecollection/
 ---
 ## VbaModuleCollection classe
 
-Rappresenta una collezione di moduli di un progetto VBA.
+Rappresenta una raccolta di moduli di un progetto VBA.
 
 ```csharp
 public sealed class VbaModuleCollection : IVbaModuleCollection
@@ -16,21 +16,21 @@ public sealed class VbaModuleCollection : IVbaModuleCollection
 
 ## Proprietà
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides.vba/vbamodulecollection/count) { get; } | Ottiene il numero di elementi effettivamente contenuti nella collezione. Sola lettura Int32. |
-| [IsSynchronized](../../aspose.slides.vba/vbamodulecollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla collezione è sincronizzato (thread-safe). Sola lettura Boolean. |
+| [Count](../../aspose.slides.vba/vbamodulecollection/count) { get; } | Ottiene il numero di elementi effettivamente contenuti nella raccolta. Solo lettura Int32. |
+| [IsSynchronized](../../aspose.slides.vba/vbamodulecollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla raccolta è sincronizzato (thread-safe). Solo lettura Boolean. |
 | [Item](../../aspose.slides.vba/vbamodulecollection/item) { get; } | Ottiene l'elemento all'indice specificato. |
-| [SyncRoot](../../aspose.slides.vba/vbamodulecollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Sola lettura Object. |
+| [SyncRoot](../../aspose.slides.vba/vbamodulecollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Solo lettura Object. |
 
 ## Metodi
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
 | [AddEmptyModule](../../aspose.slides.vba/vbamodulecollection/addemptymodule)(string) | Aggiunge un nuovo modulo vuoto al progetto VBA. |
-| [CopyTo](../../aspose.slides.vba/vbamodulecollection/copyto)(Array, int) | Copia tutti gli elementi dalla collezione nell'array specificato. |
-| [GetEnumerator](../../aspose.slides.vba/vbamodulecollection/getenumerator)() | Restituisce un enumeratore che scorre la collezione. |
-| [Remove](../../aspose.slides.vba/vbamodulecollection/remove)(IVbaModule) | Rimuove la prima occorrenza di un oggetto specifico dalla collezione. |
+| [CopyTo](../../aspose.slides.vba/vbamodulecollection/copyto)(Array, int) | Copia tutti gli elementi dalla raccolta nell'array specificato. |
+| [GetEnumerator](../../aspose.slides.vba/vbamodulecollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
+| [Remove](../../aspose.slides.vba/vbamodulecollection/remove)(IVbaModule) | Rimuove la prima occorrenza di un oggetto specifico dalla raccolta. |
 
 ### Vedi anche
 

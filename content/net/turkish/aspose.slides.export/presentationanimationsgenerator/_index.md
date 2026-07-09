@@ -1,14 +1,14 @@
 ---
 title: PresentationAnimationsGenerator
-second_title: Aspose.Sildes .NET API Referansı
-description: Presentation../aspose.slides/presentation içindeki animasyonların bir oluşturucusunu temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Presentation içindeki animasyonların bir üreticisini temsil eder../aspose.slides/presentation.
 type: docs
-weight: 4360
+weight: 4380
 url: /tr/aspose.slides.export/presentationanimationsgenerator/
 ---
 ## PresentationAnimationsGenerator sınıfı
 
-Belirtilen [`Presentation`](../../aspose.slides/presentation) içindeki animasyonların bir oluşturucusunu temsil eder.
+[`Presentation`](../../aspose.slides/presentation) içinde animasyonların bir üreticisini temsil eder.
 
 ```csharp
 public class PresentationAnimationsGenerator : IDisposable
@@ -18,24 +18,24 @@ public class PresentationAnimationsGenerator : IDisposable
 
 | Ad | Açıklama |
 | --- | --- |
-| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor)(Presentation) | Yeni bir [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) örneği oluşturur. |
-| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor_1)(Size) | Yeni bir [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) örneği oluşturur. |
+| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor)(Presentation) | [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) yeni bir örnek oluşturur. |
+| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor_1)(Size) | [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) yeni bir örnek oluşturur. |
 
 ## Özellikler
 
 | Ad | Açıklama |
 | --- | --- |
 | [DefaultDelay](../../aspose.slides.export/presentationanimationsgenerator/defaultdelay) { get; set; } | Varsayılan gecikme süresini [ms] alır veya ayarlar. |
-| [ExportedSlides](../../aspose.slides.export/presentationanimationsgenerator/exportedslides) { get; } | Dışa aktarılan slayt sayısını alır. |
-| [IncludeHiddenSlides](../../aspose.slides.export/presentationanimationsgenerator/includehiddenslides) { get; set; } | Gizli slaytların dahil edilip edilmemesini alır veya ayarlar. |
+| [ExportedSlides](../../aspose.slides.export/presentationanimationsgenerator/exportedslides) { get; } | Dışa aktarılan slayt sayısını al. |
+| [IncludeHiddenSlides](../../aspose.slides.export/presentationanimationsgenerator/includehiddenslides) { get; set; } | Gizli slaytların dahil edilip edilmeyeceğini alır veya ayarlar. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [Dispose](../../aspose.slides.export/presentationanimationsgenerator/dispose)() | [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) örneğini serbest bırakır. |
-| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run)(IEnumerable&lt;ISlide&gt;) | Her slayt için animasyon olaylarının oluşturulmasını çalıştırır. |
-| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run_1)(IEnumerable&lt;ISlide&gt;, int, FrameTickHandler) | Her slayt için animasyon olaylarının oluşturulmasını çalıştırır. |
+| [Dispose](../../aspose.slides.export/presentationanimationsgenerator/dispose)() | [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) örneğini yok eder. |
+| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run)(IEnumerable&lt;ISlide&gt;) | Her slayt için animasyon olayları oluşturulmasını çalıştırır. |
+| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run_1)(IEnumerable&lt;ISlide&gt;, int, FrameTickHandler) | Her slayt için animasyon olayları oluşturulmasını çalıştırır. |
 
 ## Alanlar
 
@@ -47,7 +47,7 @@ public class PresentationAnimationsGenerator : IDisposable
 
 | Ad | Açıklama |
 | --- | --- |
-| event [NewAnimation](../../aspose.slides.export/presentationanimationsgenerator/newanimation) | Yeni bir animasyonun oluşturulduğunu temsil eden bir olay. |
+| event [NewAnimation](../../aspose.slides.export/presentationanimationsgenerator/newanimation) | Bir olay, yeni bir animasyonun oluşturulduğunu gösterir. |
 
 ### Örnekler
 

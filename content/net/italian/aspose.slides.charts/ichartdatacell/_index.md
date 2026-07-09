@@ -3,7 +3,7 @@ title: IChartDataCell
 second_title: Riferimento API di Aspose.Sildes per .NET
 description: Rappresenta una cella per i dati del grafico.
 type: docs
-weight: 1790
+weight: 1810
 url: /it/aspose.slides.charts/ichartdatacell/
 ---
 ## IChartDataCell interfaccia
@@ -18,21 +18,21 @@ public interface IChartDataCell
 
 | Nome | Descrizione |
 | --- | --- |
-| [ChartDataWorksheet](../../aspose.slides.charts/ichartdatacell/chartdataworksheet) { get; } | Restituisce il foglio di lavoro. Sola lettura [`IChartDataWorksheet`](../ichartdataworksheet). |
-| [Column](../../aspose.slides.charts/ichartdatacell/column) { get; } | Restituisce l'indice della colonna del foglio di lavoro in cui si trova la cella. Sola lettura Int32. |
-| [CustomNumberFormat](../../aspose.slides.charts/ichartdatacell/customnumberformat) { get; set; } | Ottiene o imposta il formato di visualizzazione personalizzato di numeri e date. Se il valore è vuoto verrà utilizzato il valore PresetNumberFormat. Lettura/Scrittura String. |
+| [ChartDataWorksheet](../../aspose.slides.charts/ichartdatacell/chartdataworksheet) { get; } | Ottiene il foglio di lavoro. Solo lettura [`IChartDataWorksheet`](../ichartdataworksheet). |
+| [Column](../../aspose.slides.charts/ichartdatacell/column) { get; } | Restituisce l'indice della colonna del foglio di lavoro in cui si trova la cella. Solo lettura Int32. |
+| [CustomNumberFormat](../../aspose.slides.charts/ichartdatacell/customnumberformat) { get; set; } | Ottiene o imposta il formato di visualizzazione personalizzato di numeri e date. Se il valore è vuoto sarà utilizzato il valore PresetNumberFormat. Lettura/scrittura String. |
 | [Formula](../../aspose.slides.charts/ichartdatacell/formula) { get; set; } | Ottiene o imposta la formula in stile A1. |
-| [IsHidden](../../aspose.slides.charts/ichartdatacell/ishidden) { get; } | Determina se la cella è nascosta. Sola lettura Boolean. |
-| [PresetNumberFormat](../../aspose.slides.charts/ichartdatacell/presetnumberformat) { get; set; } | Ottiene o imposta il formato di visualizzazione integrato di numeri e date. Il numero predefinito deve essere in [0..22] o [37..49]. Lettura/Scrittura Byte. |
+| [IsHidden](../../aspose.slides.charts/ichartdatacell/ishidden) { get; } | Determina se la cella è nascosta. Solo lettura Boolean. |
+| [PresetNumberFormat](../../aspose.slides.charts/ichartdatacell/presetnumberformat) { get; set; } | Ottiene o imposta il formato di visualizzazione integrato di numeri e date. Il numero predefinito deve essere in [0..22] o [37..49]. Lettura/scrittura Byte. |
 | [R1C1Formula](../../aspose.slides.charts/ichartdatacell/r1c1formula) { get; set; } | Ottiene o imposta la formula in stile R1C1. |
-| [Row](../../aspose.slides.charts/ichartdatacell/row) { get; } | Restituisce l'indice della riga del foglio di lavoro in cui si trova la cella. Sola lettura Int32. |
-| [Value](../../aspose.slides.charts/ichartdatacell/value) { get; set; } | Ottiene o imposta il valore di una cella. Lettura/Scrittura Object. |
+| [Row](../../aspose.slides.charts/ichartdatacell/row) { get; } | Restituisce l'indice della riga del foglio di lavoro in cui si trova la cella. Solo lettura Int32. |
+| [Value](../../aspose.slides.charts/ichartdatacell/value) { get; set; } | Ottiene o imposta il valore di una cella. Lettura/scrittura Object. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Calculate](../../aspose.slides.charts/ichartdatacell/calculate)(bool) | Se la cella contiene una formula, il valore sarà aggiornato in base a quella formula. |
+| [Calculate](../../aspose.slides.charts/ichartdatacell/calculate)(bool) | Se la cella contiene una formula, il valore verrà aggiornato in base a quella formula. |
 
 ### Vedi anche
 

@@ -1,14 +1,14 @@
 ---
 title: PresentedBySpeaker
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Ditampilkan oleh pembicara layar penuh
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Ditampilkan oleh pembicara dalam layar penuh
 type: docs
-weight: 9630
+weight: 9650
 url: /id/aspose.slides/presentedbyspeaker/
 ---
 ## PresentedBySpeaker kelas
 
-Disajikan oleh pembicara (layar penuh)
+Ditampilkan oleh presenter (layar penuh)
 
 ```csharp
 public class PresentedBySpeaker : SlideShowType

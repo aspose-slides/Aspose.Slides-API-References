@@ -1,12 +1,12 @@
 ---
 title: TransitionType
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET API Referenci
 description: Reprezentuje typ přechodu prezentace.
 type: docs
-weight: 10430
+weight: 10450
 url: /cs/aspose.slides.slideshow/transitiontype/
 ---
-## Výčet TransitionType
+## TransitionType výčet
 
 Reprezentuje typ přechodu prezentace.
 
@@ -16,30 +16,30 @@ public enum TransitionType
 
 ### Hodnoty
 
-| Název | Hodnota | Popis |
+| Name | Value | Description |
 | --- | --- | --- |
 | None | `0` |  |
 | Blinds | `1` |  |
 | Checker | `2` |  |
-| Circle | `3` | Souvisí s přechodem Shape (s volbou Circle) v PowerPoint 2010. |
+| Circle | `3` | Odkazuje na přechod Shape (s možností Circle) v PowerPoint 2010. |
 | Comb | `4` |  |
 | Cover | `5` |  |
 | Cut | `6` |  |
-| Diamond | `7` | Souvisí s přechodem Shape (s volbou Diamond) v PowerPoint 2010. |
+| Diamond | `7` | Odkazuje na přechod Shape (s možností Diamond) v PowerPoint 2010. |
 | Dissolve | `8` |  |
 | Fade | `9` |  |
 | Newsflash | `10` |  |
-| Plus | `11` | Souvisí s přechodem Shape (s volbou Plus) v PowerPoint 2010. |
+| Plus | `11` | Odkazuje na přechod Shape (s možností Plus) v PowerPoint 2010. |
 | Pull | `12` |  |
 | Push | `13` |  |
 | Random | `14` |  |
 | RandomBar | `15` |  |
-| Split | `16` | Ekvivalentní přechodu Wipe v PowerPoint 2010. |
+| Split | `16` | Ekvivalentní k přechodu Wipe v PowerPoint 2010. |
 | Strips | `17` |  |
-| Wedge | `18` | Souvisí s přechodem Clock (s volbou Wedge) v PowerPoint 2010. |
-| Wheel | `19` | Souvisí s přechodem Clock (s volbou Clockwise) v PowerPoint 2010. |
+| Wedge | `18` | Odkazuje na přechod Clock (s možností Wedge) v PowerPoint 2010. |
+| Wheel | `19` | Odkazuje na přechod Clock (s možností Clockwise) v PowerPoint 2010. |
 | Wipe | `20` |  |
-| Zoom | `21` | Souvisí s přechodem Shape (s volbami In/Out) v PowerPoint 2010. Viz také Warp, který souvisí s přechodem Zoom v PowerPoint 2010. |
+| Zoom | `21` | Odkazuje na přechod Shape (s možností In/Out) v PowerPoint 2010. Viz také Warp, který se vztahuje k přechodu Zoom v PowerPoint 2010. |
 | Vortex | `22` | K dispozici v PowerPoint 2010. |
 | Switch | `23` | K dispozici v PowerPoint 2010. |
 | Flip | `24` | K dispozici v PowerPoint 2010. |
@@ -51,30 +51,30 @@ public enum TransitionType
 | Orbit | `30` | K dispozici v PowerPoint 2010. |
 | Doors | `31` | K dispozici v PowerPoint 2010. |
 | Window | `32` | K dispozici v PowerPoint 2010. |
-| Ferris | `33` | K dispozici v PowerPoint 2010. |
-| Gallery | `34` | K dispozici v PowerPoint 2010. |
-| Conveyor | `35` | K dispozici v PowerPoint 2010. |
-| Pan | `36` | K dispozici v PowerPoint 2010. |
-| Glitter | `37` | K dispozici v PowerPoint 2010. |
-| Warp | `38` | Souvisí s přechodem Zoom v PowerPoint 2010. K dispozici v PowerPoint 2010. |
-| Flythrough | `39` | K dispozici v PowerPoint 2010. |
-| Flash | `40` | K dispozici v PowerPoint 2010. |
-| Shred | `41` | K dispozici v PowerPoint 2010. |
-| Reveal | `42` | K dispozici v PowerPoint 2010. |
-| WheelReverse | `43` | Souvisí s přechodem Clock (s volbou Counterclockwise) v PowerPoint 2010. K dispozici v PowerPoint 2010. |
-| FallOver | `44` | K dispozici v PowerPoint 2013. |
-| Drape | `45` | K dispozici v PowerPoint 2013. |
-| Curtains | `46` | K dispozici v PowerPoint 2013. |
-| Wind | `47` | K dispozici v PowerPoint 2013. |
-| Prestige | `48` | K dispozici v PowerPoint 2013. |
-| Fracture | `49` | K dispozici v PowerPoint 2013. |
-| Crush | `50` | K dispozici v PowerPoint 2013. |
-| PeelOff | `51` | K dispozici v PowerPoint 2013. |
-| PageCurlDouble | `52` | K dispozici v PowerPoint 2013. |
-| PageCurlSingle | `53` | K dispozici v PowerPoint 2013. |
-| Airplane | `54` | K dispozici v PowerPoint 2013. |
-| Origami | `55` | K dispozici v PowerPoint 2013. |
-| Morph | `56` | Souvisí s přechodem Morph (s volbou Type) v PowerPoint 2019. |
+| Ferris | `33` | K disponici v PowerPoint 2010. |
+| Gallery | `34` | K disponici v PowerPoint 2010. |
+| Conveyor | `35` | K disponici v PowerPoint 2010. |
+| Pan | `36` | K disponici v PowerPoint 2010. |
+| Glitter | `37` | K disponici v PowerPoint 2010. |
+| Warp | `38` | Odkazuje na přechod Zoom v PowerPoint 2010. K dispozici v PowerPoint 2010. |
+| Flythrough | `39` | K disponici v PowerPoint 2010. |
+| Flash | `40` | K disponici v PowerPoint 2010. |
+| Shred | `41` | K disponici v PowerPoint 2010. |
+| Reveal | `42` | K disponici v PowerPoint 2010. |
+| WheelReverse | `43` | Odkazuje na přechod Clock (s možností Counterclockwise) v PowerPoint 2010. K disponici v PowerPoint 2010. |
+| FallOver | `44` | K disponici v PowerPoint 2013. |
+| Drape | `45` | K disponici v PowerPoint 2013. |
+| Curtains | `46` | K disponici v PowerPoint 2013. |
+| Wind | `47` | K disponici v PowerPoint 2013. |
+| Prestige | `48` | K disponici v PowerPoint 2013. |
+| Fracture | `49` | K disponici v PowerPoint 2013. |
+| Crush | `50` | K disponici v PowerPoint 2013. |
+| PeelOff | `51` | K disponici v PowerPoint 2013. |
+| PageCurlDouble | `52` | K disponici v PowerPoint 2013. |
+| PageCurlSingle | `53` | K disponici v PowerPoint 2013. |
+| Airplane | `54` | K disponici v PowerPoint 2013. |
+| Origami | `55` | K disponici v PowerPoint 2013. |
+| Morph | `56` | Odkazuje na přechod Morph (s možností Type) v PowerPoint 2019. |
 
 ### Viz také
 

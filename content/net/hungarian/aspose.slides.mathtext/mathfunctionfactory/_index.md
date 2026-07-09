@@ -1,9 +1,9 @@
 ---
 title: MathFunctionFactory
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Lehetővé teszi egy matematikai függvény létrehozását
+second_title: Aspose.Sildes a .NET API hivatkozáshoz
+description: Lehetővé teszi a matematikai függvény létrehozását
 type: docs
-weight: 8710
+weight: 8730
 url: /hu/aspose.slides.mathtext/mathfunctionfactory/
 ---
 ## MathFunctionFactory osztály
@@ -20,14 +20,14 @@ public class MathFunctionFactory : IMathFunctionFactory
 | --- | --- |
 | [MathFunctionFactory](mathfunctionfactory)() | Az alapértelmezett konstruktor. |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [CreateMathFunction](../../aspose.slides.mathtext/mathfunctionfactory/createmathfunction#createmathfunction)(IMathElement, IMathElement) | Létrehoz egy matematikai függvényt |
-| [CreateMathFunction](../../aspose.slides.mathtext/mathfunctionfactory/createmathfunction#createmathfunction_1)(string, IMathElement) | Létrehoz egy matematikai függvényt |
+| [CreateMathFunction](../../aspose.slides.mathtext/mathfunctionfactory/createmathfunction#createmathfunction)(IMathElement, IMathElement) | Létrehozza a matematikai függvényt |
+| [CreateMathFunction](../../aspose.slides.mathtext/mathfunctionfactory/createmathfunction#createmathfunction_1)(string, IMathElement) | Létrehozza a matematikai függvényt |
 
-### Megjegyzések
+### Megjegyzés
 
 A COM kompatibilitáshoz
 

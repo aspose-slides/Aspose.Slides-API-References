@@ -1,12 +1,12 @@
 ---
 title: NewLineType
-second_title: Aspose.Sildes pro .NET referenční dokumentace API
+second_title: Aspose.Sildes pro .NET API referenci
 description: Typ nového řádku, který bude použit v generovaném dokumentu.
 type: docs
-weight: 4260
+weight: 4280
 url: /cs/aspose.slides.export/newlinetype/
 ---
-## NewLineType enumerace
+## NewLineType výčet
 
 Typ nového řádku, který bude použit v generovaném dokumentu.
 

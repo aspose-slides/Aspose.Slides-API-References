@@ -3,7 +3,7 @@ title: AudioCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 埋め込みオーディオファイルのコレクションを表します。
 type: docs
-weight: 840
+weight: 860
 url: /ja/aspose.slides/audiocollection/
 ---
 ## AudioCollection クラス
@@ -18,20 +18,20 @@ public class AudioCollection : DomObject<Presentation>, IAudioCollection
 
 | 名前 | 説明 |
 | --- | --- |
-| [Count](../../aspose.slides/audiocollection/count) { get; } | コレクション内のオーディオ ファイルの数を返します。 読み取り専用 Int32. |
-| [IsSynchronized](../../aspose.slides/audiocollection/issynchronized) { get; } | コレクションへのアクセスが同期 (スレッド セーフ) されているかどうかを示す値を返します。 読み取り専用 Boolean. |
-| [Item](../../aspose.slides/audiocollection/item) { get; } | 指定されたインデックスの要素を取得します。 読み取り専用 [`IAudio`](../iaudio). |
-| [SyncRoot](../../aspose.slides/audiocollection/syncroot) { get; } | 同期ルートを返します。 読み取り専用 Object. |
+| [Count](../../aspose.slides/audiocollection/count) { get; } | コレクション内のオーディオファイル数を返します。読み取り専用 Int32. |
+| [IsSynchronized](../../aspose.slides/audiocollection/issynchronized) { get; } | コレクションへのアクセスが同期化されているか（スレッド セーフ）を示す値を返します。読み取り専用 Boolean. |
+| [Item](../../aspose.slides/audiocollection/item) { get; } | 指定されたインデックスの要素を取得します。読み取り専用 [`IAudio`](../iaudio). |
+| [SyncRoot](../../aspose.slides/audiocollection/syncroot) { get; } | 同期ルートを返します。読み取り専用 Object. |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_1)(byte[]) | バイト配列からプレゼンテーションにオーディオを作成し追加します。 |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_1)(byte[]) | バイト配列からプレゼンテーションにオーディオを作成して追加します。 |
 | [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio)(IAudio) | 別のプレゼンテーションからオーディオ ファイルのコピーを追加します。 |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_2)(Stream) | ストリームからプレゼンテーションにオーディオを作成し追加します。 |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | ストリームからプレゼンテーションにオーディオを作成し追加します。 |
-| [CopyTo](../../aspose.slides/audiocollection/copyto)(Array, int) | 指定されたインデックスから開始して、オーディオを指定された配列にコピーします。 |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_2)(Stream) | ストリームからプレゼンテーションにオーディオを作成して追加します。 |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | ストリームと LoadingStreamBehavior からプレゼンテーションにオーディオを作成して追加します。 |
+| [CopyTo](../../aspose.slides/audiocollection/copyto)(Array, int) | 指定されたインデックスから開始して、指定された配列にオーディオをコピーします。 |
 | [GetEnumerator](../../aspose.slides/audiocollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
 
 ### 参照

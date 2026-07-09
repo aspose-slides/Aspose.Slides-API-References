@@ -1,14 +1,14 @@
 ---
 title: MathBorderBoxFactory
 second_title: Aspose.Sildes för .NET API-referens
-description: Tillåter att skapa en matematisk kantbox
+description: Tillåter att skapa en matematisk kantlåda
 type: docs
-weight: 8600
+weight: 8620
 url: /sv/aspose.slides.mathtext/mathborderboxfactory/
 ---
 ## MathBorderBoxFactory klass
 
-Tillåter att skapa en matematiskt kantbox
+Tillåter att skapa en matematisk kantlåda
 
 ```csharp
 public class MathBorderBoxFactory : IMathBorderBoxFactory
@@ -18,14 +18,14 @@ public class MathBorderBoxFactory : IMathBorderBoxFactory
 
 | Namn | Beskrivning |
 | --- | --- |
-| [MathBorderBoxFactory](mathborderboxfactory)() | Standardkonstruktorn. |
+| [MathBorderBoxFactory](mathborderboxfactory)() | Standardkonstruktören. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Skapa en matematiskt kantbox genom att tillämpa på elementet |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Skapa en matematiskt kantbox genom att tillämpa på elementet |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Skapa en matematisk kantlåda genom att applicera på elementet |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Skapa en matematisk kantlåda genom att applicera på elementet |
 
 ### Anmärkningar
 

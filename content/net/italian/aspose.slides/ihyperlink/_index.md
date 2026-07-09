@@ -1,9 +1,9 @@
 ---
 title: IHyperlink
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un collegamento ipertestuale.
 type: docs
-weight: 6090
+weight: 6110
 url: /it/aspose.slides/ihyperlink/
 ---
 ## IHyperlink interfaccia
@@ -18,17 +18,17 @@ public interface IHyperlink
 
 | Nome | Descrizione |
 | --- | --- |
-| [ActionType](../../aspose.slides/ihyperlink/actiontype) { get; } | Restituisce il tipo dell'azione di HyperLinkEx. Solo lettura [`HyperlinkActionType`](../hyperlinkactiontype). |
-| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | Rappresenta la sorgente del colore del collegamento ipertestuale - o gli stili o il formato della porzione. Lettura/scrittura [`HyperlinkColorSource`](../hyperlinkcolorsource). |
-| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | Specifica l'URL esterno. Se questa proprietà diventa non nulla, allora la proprietà TargetSlide diventa nulla. Solo lettura String. |
-| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | Rappresenta un collegamento ipertestuale impostato per questa porzione senza considerare il contenuto effettivo della porzione. PowerPoint si comporta in modo specifico per i collegamenti e il loro testo corrispondente in una porzione. Consente di creare testo per il collegamento ipertestuale sotto forma di URL valido, diverso dall'indirizzo reale del collegamento. In questo caso, quando si visualizza il collegamento nella finestra di modifica, verrà modificato per corrispondere alla porzione di testo. Questa proprietà rappresenta il valore originale del collegamento ipertestuale. |
-| [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | Determina se il collegamento ipertestuale deve essere evidenziato al clic. Lettura/scrittura Boolean. |
-| [History](../../aspose.slides/ihyperlink/history) { get; set; } | Determina se il target del collegamento ipertestuale genitore deve essere aggiunto a un elenco di collegamenti ipertestuali visualizzati quando viene invocato. Lettura/scrittura Boolean. |
-| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | Rappresenta il suono in riproduzione del collegamento ipertestuale. Lettura/scrittura [`IAudio`](../iaudio). |
-| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | Determina se il suono deve essere interrotto al clic del collegamento ipertestuale. Lettura/scrittura Boolean. |
-| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | Restituisce il frame all'interno del frameset HTML genitore per il target del collegamento ipertestuale genitore, quando esiste. Lettura/scrittura String. |
-| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | Se HyperlinkEx punta a una diapositiva specifica, restituisce questa diapositiva. Se la proprietà diventa non nulla, allora la proprietà ExternalUrl diventa nulla. Solo lettura [`ISlide`](../islide). |
-| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | Restituisce la stringa che può essere visualizzata in un'interfaccia utente associata al collegamento ipertestuale genitore. Lettura/scrittura String. |
+| [ActionType](../../aspose.slides/ihyperlink/actiontype) { get; } | Restituisce il tipo dell'azione di HyperLinkEx. Sola lettura [`HyperlinkActionType`](../hyperlinkactiontype). |
+| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | Rappresenta l'origine del colore del hyperlink - o stili o formato della porzione. Lettura/Scrittura [`HyperlinkColorSource`](../hyperlinkcolorsource). |
+| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | Specifica l'URL esterno. Se questa proprietà diventa non nulla, allora la proprietà TargetSlide diventa nulla. Sola lettura String. |
+| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | Rappresenta un hyperlink impostato per questa porzione senza considerare il contenuto reale della porzione. PowerPoint si comporta in modo specifico per i link e il loro testo corrispondente in una porzione. Consente di creare testo per il hyperlink sotto forma di URL valido, diverso dall'indirizzo reale del link. In questo caso, quando visualizzi il link nella finestra di modifica, verrà modificato per corrispondere alla porzione di testo. Questa proprietà rappresenta il valore originale del hyperlink. |
+| [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | Determina se il hyperlink deve essere evidenziato al clic. Lettura/Scrittura Boolean. |
+| [History](../../aspose.slides/ihyperlink/history) { get; set; } | Determina se il target del hyperlink genitore deve essere aggiunto a un elenco di hyperlink visualizzati quando viene invocato. Lettura/Scrittura Boolean. |
+| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | Rappresenta il suono in riproduzione del hyperlink. Lettura/Scrittura [`IAudio`](../iaudio). |
+| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | Determina se il suono deve essere interrotto al clic del hyperlink. Lettura/Scrittura Boolean. |
+| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | Restituisce il frame all'interno del frameset HTML genitore per il target del hyperlink genitore quando esiste. Lettura/Scrittura String. |
+| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | Se HyperLinkEx punta a una diapositiva specifica, restituisce questa diapositiva. Se la proprietà diventa non nulla, allora la proprietà ExternalUrl diventa nulla. Sola lettura [`ISlide`](../islide). |
+| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | Restituisce la stringa che può essere visualizzata in un'interfaccia utente associata al hyperlink genitore. Lettura/Scrittura String. |
 
 ## Metodi
 

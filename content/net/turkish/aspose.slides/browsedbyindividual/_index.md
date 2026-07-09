@@ -1,14 +1,14 @@
 ---
 title: BrowsedByIndividual
-second_title: Aspose.Sildes for .NET API Referansı
-description: Bireysel pencereyle göz atılan
+second_title: Aspose.Sildes .NET için API Referansı
+description: Bireysel pencerede göz atıldı
 type: docs
-weight: 1030
+weight: 1050
 url: /tr/aspose.slides/browsedbyindividual/
 ---
 ## BrowsedByIndividual sınıfı
 
-Kişi tarafından göz atılan (pencere)
+Bireysel olarak göz atıldı (pencere)
 
 ```csharp
 public class BrowsedByIndividual : SlideShowType
@@ -24,7 +24,7 @@ public class BrowsedByIndividual : SlideShowType
 
 | Ad | Açıklama |
 | --- | --- |
-| [ShowScrollbar](../../aspose.slides/browsedbyindividual/showscrollbar) { get; set; } | Pencere içinde Kaydırma Çubuğunu göster |
+| [ShowScrollbar](../../aspose.slides/browsedbyindividual/showscrollbar) { get; set; } | Pencere içinde Kaydırma Çubuğunu Göster |
 
 ### Örnekler
 
@@ -37,7 +37,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
 * sınıf [SlideShowType](../slideshowtype)
 * ad alanı [Aspose.Slides](../../aspose.slides)

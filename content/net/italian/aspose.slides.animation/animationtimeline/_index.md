@@ -3,7 +3,7 @@ title: AnimationTimeLine
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta la timeline dell'animazione.
 type: docs
-weight: 110
+weight: 130
 url: /it/aspose.slides.animation/animationtimeline/
 ---
 ## AnimationTimeLine classe
@@ -18,9 +18,9 @@ public class AnimationTimeLine : DomObject<BaseSlide>, IAnimationTimeLine
 
 | Nome | Descrizione |
 | --- | --- |
-| [InteractiveSequences](../../aspose.slides.animation/animationtimeline/interactivesequences) { get; } | Restituisce la raccolta di sequenze interattive. Queste sequenze possono contenere solo effetti con “clic sul forma” che specificano la forma di destinazione. Solo lettura [`ISequenceCollection`](../isequencecollection). |
-| [MainSequence](../../aspose.slides.animation/animationtimeline/mainsequence) { get; } | Restituisce la sequenza principale che può contenere solo la raccolta di effetti principali. Solo lettura [`ISequence`](../isequence). |
-| [TextAnimationCollection](../../aspose.slides.animation/animationtimeline/textanimationcollection) { get; } | Restituisce la raccolta di animazioni di testo. Solo lettura [`ITextAnimationCollection`](../itextanimationcollection). |
+| [InteractiveSequences](../../aspose.slides.animation/animationtimeline/interactivesequences) { get; } | Restituisce la raccolta di sequenze interattive. Queste sequenze possono contenere solo effetti tramite "clic sulla forma" con forma di destinazione specificata. Sola lettura [`ISequenceCollection`](../isequencecollection). |
+| [MainSequence](../../aspose.slides.animation/animationtimeline/mainsequence) { get; } | Restituisce la sequenza principale che può contenere solo la raccolta di effetti principali. Sola lettura [`ISequence`](../isequence). |
+| [TextAnimationCollection](../../aspose.slides.animation/animationtimeline/textanimationcollection) { get; } | Restituisce la raccolta di animazioni di testo. Sola lettura [`ITextAnimationCollection`](../itextanimationcollection). |
 
 ### Vedi anche
 

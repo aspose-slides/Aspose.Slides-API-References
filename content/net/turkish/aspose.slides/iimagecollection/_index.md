@@ -1,12 +1,12 @@
 ---
 title: IImageCollection
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: PPImage koleksiyonunu temsil eder.
 type: docs
-weight: 6140
+weight: 6160
 url: /tr/aspose.slides/iimagecollection/
 ---
-## IImageCollection arayüzü
+## IImageCollection arayüz
 
 PPImage koleksiyonunu temsil eder.
 
@@ -18,19 +18,19 @@ public interface IImageCollection : IGenericCollection<IPPImage>
 
 | Ad | Açıklama |
 | --- | --- |
-| [Item](../../aspose.slides/iimagecollection/item) { get; } | İndeksine göre görüntüyü döndürür. |
+| [Item](../../aspose.slides/iimagecollection/item) { get; } | İndeksine göre resmi döndürür. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_3)(byte[]) | Belirtilen tampondan bir sunuma görüntü ekler. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage)(IImage) | Bir sunuma görüntü ekle. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_1)(IPPImage) | Başka bir sunumdan görüntünün bir kopyasını ekler. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_2)(ISvgImage) | SVG nesnesinden bir sunuma görüntü ekler. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_4)(MemoryStream) | Bellek akışından görüntü ekler. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_5)(Stream) | Akıştan bir sunuma görüntü ekler. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | Akıştan bir sunuma görüntü oluşturur ve ekler. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_3)(byte[]) | Belirtilen tampondan sunuma bir resim ekler. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage)(IImage) | Sunuma bir resim ekler. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_1)(IPPImage) | Başka bir sunumdan bir resmin kopyasını ekler. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_2)(ISvgImage) | SVG nesnesinden sunuma bir resim ekler. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_4)(MemoryStream) | Bir bellek akışından resim ekler. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_5)(Stream) | Akıştan sunuma bir resim ekler. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | Akıştan bir resim oluşturur ve sunuma ekler. |
 
 ### Ayrıca Bakınız
 

@@ -1,24 +1,24 @@
 ---
 title: RowFormat
 second_title: Aspose.Sildes .NET API referencia
-description: A táblasor formátumát reprezentálja.
+description: A táblázatsor formátumát reprezentálja.
 type: docs
-weight: 9710
+weight: 9730
 url: /hu/aspose.slides/rowformat/
 ---
 ## RowFormat osztály
 
-A táblasor formátumát reprezentálja.
+A táblázatsor formátumát reprezentálja.
 
 ```csharp
 public sealed class RowFormat : DomObject<Row>, IRowFormat
 ```
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [GetEffective](../../aspose.slides/rowformat/geteffective)() | Lekérdezi a hatékony táblasor formázási tulajdonságait öröklődéssel és a táblázatstílusok alkalmazásával. |
+| [GetEffective](../../aspose.slides/rowformat/geteffective)() | Lekéri a hatékony táblázatsor formázási tulajdonságokat, figyelembe véve az öröklődést és az alkalmazott táblastílusokat. |
 
 ### Lásd még
 

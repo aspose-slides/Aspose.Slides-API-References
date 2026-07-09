@@ -1,14 +1,14 @@
 ---
 title: LayoutSlideHeaderFooterManager
-second_title: Aspose.Sildes dla .NET Referencja API
-description: Reprezentuje menedżera, który kontroluje zachowanie placeholderów stopki układu slajdu, daty i godziny, numeru strony oraz wszystkich podrzędnych placeholderów. Podrzędne placeholdery oznaczają placeholdery zawarte na slajdach zależnych. Slajdy zależne używają i zależą od slajdu układu.
+second_title: Aspose.Sildes dla .NET - dokumentacja API
+description: Reprezentuje menedżera, który przechowuje zachowanie placeholderów stopki slajdu układu, daty-czasu, numeru strony oraz wszystkich podrzędnych placeholderów. Podrzędne placeholdery oznaczają placeholdery zawarte w zależnych slajdach. Zależne slajdy używają i zależą od slajdu układu.
 type: docs
-weight: 7640
+weight: 7660
 url: /pl/aspose.slides/layoutslideheaderfootermanager/
 ---
 ## LayoutSlideHeaderFooterManager klasa
 
-Reprezentuje menedżera, który kontroluje zachowanie placeholderów stopki układu slajdu, daty i godziny oraz numeru strony oraz wszystkich podrzędnych placeholderów. Podrzędne placeholdery oznaczają placeholdery zawarte na slajdach zależnych. Slajdy zależne używają i zależą od slajdu układu.
+Reprezentuje menedżer, który przechowuje zachowanie placeholders stopki slajdu układu, daty-czasu, numeru strony oraz wszystkich podrzędnych placeholders. Podrzędne placeholders oznaczają placeholders zawarte na zależnych slajdach. Zależne slajdy używają i zależą od slajdu układu.
 
 ```csharp
 public sealed class LayoutSlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
@@ -19,24 +19,24 @@ public sealed class LayoutSlideHeaderFooterManager : BaseSlideHeaderFooterManage
 
 | Nazwa | Opis |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Zwraca wartość wskazującą, że placeholder daty i godziny jest obecny. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Zwraca wartość wskazującą, że placeholder stopki jest obecny. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Zwraca wartość wskazującą, że placeholder numeru strony jest obecny. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Pobiera wartość wskazującą, że znacznik daty i czasu jest obecny. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Pobiera wartość wskazującą, że znacznik stopki jest obecny. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Pobiera wartość wskazującą, że znacznik numeru strony jest obecny. ReadBoolean. |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Ustawia tekst w placeholderze daty i godziny slajdu układu oraz we wszystkich podrzędnych placeholderach daty i godziny. Podrzędne placeholdery oznaczają placeholdery zawarte na slajdach zależnych. Slajdy zależne używają i zależą od slajdu układu. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Zmienia widoczność placeholdera daty i godziny slajdu układu oraz wszystkich podrzędnych placeholderów daty i godziny. Podrzędne placeholdery oznaczają placeholdery zawarte na slajdach zależnych. Slajdy zależne używają i zależą od slajdu układu. |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Ustawia tekst w placeholderze daty i godziny slajdu. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Zmienia widoczność placeholdera daty i godziny slajdu. |
-| [SetFooterAndChildFootersText](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | Ustawia tekst w placeholderze stopki slajdu układu oraz we wszystkich podrzędnych placeholderach stopki. Podrzędne placeholdery oznaczają placeholdery zawarte na slajdach zależnych. Slajdy zależne używają i zależą od slajdu układu. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Zmienia widoczność placeholdera stopki slajdu układu oraz wszystkich podrzędnych placeholderów stopki. Podrzędne placeholdery oznaczają placeholdery zawarte na slajdach zależnych. Slajdy zależne używają i zależą od slajdu podstawowego. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Ustawia tekst w placeholderze stopki slajdu. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Zmienia widoczność placeholdera stopki slajdu. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Zmienia widoczność placeholdera numeru strony slajdu układu oraz wszystkich podrzędnych placeholderów numeru strony. Podrzędne placeholdery oznaczają placeholdery zawarte na slajdach zależnych. Slajdy zależne używają i zależą od slajdu układu. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Zmienia widoczność placeholdera numeru strony slajdu. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Ustawia tekst w znaczniku daty i czasu układu slajdu oraz we wszystkich podrzędnych znacznikach daty i czasu. Znaczniki podrzędne oznaczają znaczniki zawarte w zależnych slajdach. Zależne slajdy używają i zależą od slajdu układu. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Zmienia widoczność znacznika daty i czasu układu slajdu oraz wszystkich podrzędnych znaczników daty i czasu. Znaczniki podrzędne oznaczają znaczniki zawarte w zależnych slajdach. Zależne slajdy używają i zależą od slajdu układu. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Ustawia tekst w znaczniku daty i czasu slajdu. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Zmienia widoczność znacznika daty i czasu slajdu. |
+| [SetFooterAndChildFootersText](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | Ustawia tekst w znaczniku stopki układu slajdu oraz we wszystkich podrzędnych znacznikach stopki. Znaczniki podrzędne oznaczają znaczniki zawarte w zależnych slajdach. Zależne slajdy używają i zależą od slajdu układu. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Zmienia widoczność znacznika stopki układu slajdu oraz wszystkich podrzędnych znaczników stopki. Znaczniki podrzędne oznaczają znaczniki zawarte w zależnych slajdach. Zależne slajdy używają i zależą od slajdu nadrzędnego. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Ustawia tekst w znaczniku stopki slajdu. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Zmienia widoczność znacznika stopki slajdu. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Zmienia widoczność znacznika numeru strony układu slajdu oraz wszystkich podrzędnych znaczników numeru strony. Znaczniki podrzędne oznaczają znaczniki zawarte w zależnych slajdach. Zależne slajdy używają i zależą od slajdu układu. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Zmienia widoczność znacznika numeru strony slajdu. |
 
 ### Zobacz także
 

@@ -3,7 +3,7 @@ title: LineJoinStyle
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 線の結合スタイルを表します。
 type: docs
-weight: 7780
+weight: 7800
 url: /ja/aspose.slides/linejoinstyle/
 ---
 ## LineJoinStyle 列挙型
@@ -23,7 +23,7 @@ public enum LineJoinStyle : sbyte
 | Bevel | `1` |  |
 | Miter | `2` |  |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

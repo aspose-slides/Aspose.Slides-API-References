@@ -1,14 +1,14 @@
 ---
 title: IPresentationText
-second_title: Aspose.Sildes για .NET API Reference
-description: Αντιπροσωπεύει το κείμενο που εξάγεται από τη διαφάνεια
+second_title: Αναφορά API Aspose.Sildes για .NET
+description: Αναπαριστά το κείμενο που εξάγεται από τη διαφάνεια
 type: docs
-weight: 6780
+weight: 6800
 url: /el/aspose.slides/ipresentationtext/
 ---
-## IPresentationText διασύνδεση
+## IPresentationText διεπαφή
 
-Represents the text extracted from the slide
+Αναπαριστά το κείμενο που εξάγεται από τη διαφάνεια
 
 ```csharp
 public interface IPresentationText
@@ -18,7 +18,7 @@ public interface IPresentationText
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [SlidesText](../../aspose.slides/ipresentationtext/slidestext) { get; } | Ένας πίνακας των [`SlideText`](../islidetext) περιέχει το κείμενο μιας παρουσίασης. |
+| [SlidesText](../../aspose.slides/ipresentationtext/slidestext) { get; } | Ένας πίνακας του [`SlideText`](../islidetext) περιέχει το κείμενο μιας παρουσίασης. |
 
 ### Δείτε επίσης
 

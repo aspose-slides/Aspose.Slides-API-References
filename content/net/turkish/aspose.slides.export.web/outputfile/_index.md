@@ -3,7 +3,7 @@ title: OutputFile
 second_title: Aspose.Sildes için .NET API Referansı
 description: Bir çıktı dosyasını temsil eder.
 type: docs
-weight: 4630
+weight: 4650
 url: /tr/aspose.slides.export.web/outputfile/
 ---
 ## OutputFile sınıf
@@ -14,7 +14,7 @@ Bir çıktı dosyasını temsil eder.
 public abstract class OutputFile : IOutputFile
 ```
 
-## Yöntemler
+## Metotlar
 
 | Ad | Açıklama |
 | --- | --- |

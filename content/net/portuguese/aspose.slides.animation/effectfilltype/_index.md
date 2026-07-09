@@ -1,14 +1,14 @@
 ---
 title: EffectFillType
-second_title: Referência da API Aspose.Sildes para .NET
-description: Representa os tipos de preenchimento.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Representa tipos de preenchimento.
 type: docs
-weight: 290
+weight: 310
 url: /pt/aspose.slides.animation/effectfilltype/
 ---
 ## Enumeração EffectFillType
 
-Representa os tipos de preenchimento.
+Representa tipos de preenchimento.
 
 ```csharp
 public enum EffectFillType
@@ -24,7 +24,7 @@ public enum EffectFillType
 | Hold | `2` |  |
 | Transition | `3` |  |
 
-### Veja Também
+### Ver Também
 
 * espaço de nomes [Aspose.Slides.Animation](../../aspose.slides.animation)
 * assembly [Aspose.Slides](../../)

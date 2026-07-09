@@ -1,9 +1,9 @@
 ---
 title: IOverridableText
-second_title: Aspose.Sildes pro .NET API Referenci
+second_title: Aspose.Sildes pro .NET API Reference
 description: Představuje přepisovatelný text pro graf.
 type: docs
-weight: 2160
+weight: 2180
 url: /cs/aspose.slides.charts/ioverridabletext/
 ---
 ## IOverridableText rozhraní
@@ -18,14 +18,14 @@ public interface IOverridableText : IFormattedTextContainer
 
 | Název | Popis |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ioverridabletext/asiformattedtextcontainer) { get; } | Umožňuje získat základní rozhraní IFormattedTextContainer. Pouze ke čtení [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | Může obsahovat bohatě formátovaný text. Pokud tato vlastnost není null, pak tato hodnota formátovaného textu přepíše automaticky generovaný text. Automaticky generovaný text je implicitní vlastností datového popisku, popisku jednotky zobrazení osy hodnot, názvu osy, názvu grafu, popisku regresní čáry. Automaticky generovaný text je formátován pomocí vlastnosti IFormattedTextContainer.TextFormat. Pouze ke čtení [`ITextFrame`](../../aspose.slides/itextframe). |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ioverridabletext/asiformattedtextcontainer) { get; } | Umožňuje získat základní rozhraní IFormattedTextContainer. Pouze pro čtení [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | Může obsahovat bohatě formátovaný text. Pokud není tato vlastnost null, pak tato hodnota formátovaného textu přepíše automaticky generovaný text. Automaticky generovaný text je implicitní vlastností popisku dat, popisku jednotky zobrazení osy hodnot, názvu osy, názvu grafu, popisku trendové křivky. Automaticky generovaný text je formátován pomocí vlastnosti IFormattedTextContainer.TextFormat. Pouze pro čtení [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/addtextframeforoverriding)(string) | Inicializuje TextFrameForOverriding textem z parametru „text“. Pokud je TextFrameForOverriding již inicializován, jednoduše změní jeho text. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/addtextframeforoverriding)(string) | Inicializuje TextFrameForOverriding textem z parametru "text". Pokud je TextFrameForOverriding již inicializován, pak jednoduše změní jeho text. |
 
 ### Viz také
 

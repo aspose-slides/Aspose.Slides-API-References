@@ -1,14 +1,14 @@
 ---
 title: IPieSplitCustomPointCollection
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Reprezentuje kolekcję punktów, które mają być rysowane w drugim cieście lub słupku na wykresie słupkowo-pie lub pie-pie z niestandardowym podziałem.
+second_title: Aspose.Sildes dla .NET - dokumentacja API
+description: Reprezentuje kolekcję punktów, które mają być rysowane w drugim wykresie kołowym lub słupkowym w diagramie słupkowo-kołowym lub kołowo-kołowym z niestandardowym podziałem.
 type: docs
-weight: 2170
+weight: 2190
 url: /pl/aspose.slides.charts/ipiesplitcustompointcollection/
 ---
 ## IPieSplitCustomPointCollection interfejs
 
-Reprezentuje kolekcję punktów, które mają być rysowane w drugim cieście lub słupku na wykresie słupkowo-pie lub pie-pie z niestandardowym podziałem.
+Reprezentuje kolekcję punktów, które mają być rysowane w drugim wykresie kołowym lub słupkowym w diagramie słupkowo-kołowym lub kołowo-kołowym z niestandardowym podziałem.
 
 ```csharp
 public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>

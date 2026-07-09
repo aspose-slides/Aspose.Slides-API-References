@@ -1,12 +1,12 @@
 ---
 title: RectangleAlignment
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Define o alinhamento bidimensional.
 type: docs
-weight: 9670
+weight: 9690
 url: /pt/aspose.slides/rectanglealignment/
 ---
-## Enumeração RectangleAlignment
+## RectangleAlignment enumeração
 
 Define o alinhamento bidimensional.
 

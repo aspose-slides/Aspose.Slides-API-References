@@ -1,9 +1,9 @@
 ---
 title: FontSubstRuleCollection
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa a coleção de substituição de fontes.
 type: docs
-weight: 4880
+weight: 4900
 url: /pt/aspose.slides/fontsubstrulecollection/
 ---
 ## FontSubstRuleCollection classe
@@ -25,20 +25,20 @@ public class FontSubstRuleCollection : IFontSubstRuleCollection
 | Nome | Descrição |
 | --- | --- |
 | [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | Obtém o número de elementos realmente contidos na coleção. Somente leitura Int32. |
-| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | Retorna um valor indicando se o acesso à coleção é sincronizado (thread-safe). Somente leitura Boolean. |
+| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção está sincronizado (thread-safe). Somente leitura Boolean. |
 | [Item](../../aspose.slides/fontsubstrulecollection/item) { get; } | Obtém o elemento no índice especificado. |
-| [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | Retorna a raiz de sincronização. Somente leitura Object. |
+| [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | Retorna uma raiz de sincronização. Somente leitura Object. |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
-| [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | Adiciona a nova regra de substituição de fontes à coleção |
-| [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | Copia todos os elementos da coleção para o array especificado. |
-| [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | Retorna um enumerador que itera sobre a coleção. |
+| [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | Adiciona a nova regra de substituição de fonte à coleção |
+| [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | Copia todos os elementos da coleção para a matriz especificada. |
+| [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | Retorna um enumerador que itera pela coleção. |
 | [Remove](../../aspose.slides/fontsubstrulecollection/remove)(IFontSubstRule) | Remove a primeira ocorrência de um objeto específico da coleção. |
 
-### Ver Também
+### Veja Também
 
 * interface [IFontSubstRuleCollection](../ifontsubstrulecollection)
 * namespace [Aspose.Slides](../../aspose.slides)

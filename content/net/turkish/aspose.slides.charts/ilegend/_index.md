@@ -1,14 +1,14 @@
 ---
 title: ILegend
 second_title: Aspose.Slides için .NET API Referansı
-description: Grafik lejand özelliklerini temsil eder.
+description: Grafik lejandının özelliklerini temsil eder.
 type: docs
-weight: 2110
+weight: 2130
 url: /tr/aspose.slides.charts/ilegend/
 ---
 ## ILegend arayüz
 
-Grafiğin lejand özelliklerini temsil eder.
+Grafiğin lejandının özelliklerini temsil eder.
 
 ```csharp
 public interface ILegend : IActualLayout, IFormattedTextContainer, ILayoutable
@@ -20,10 +20,10 @@ public interface ILegend : IActualLayout, IFormattedTextContainer, ILayoutable
 | --- | --- |
 | [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | Temel IFormattedTextContainer arayüzünü almayı sağlar. Salt okunur [`IFormattedTextContainer`](../iformattedtextcontainer). |
 | [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | Temel ILayoutable arayüzünü almayı sağlar. Salt okunur [`ILayoutable`](../ilayoutable). |
-| [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | Lejand girişlerini alır. Salt okunur [`ILegendEntryCollection`](../ilegendentrycollection). |
-| [Format](../../aspose.slides.charts/ilegend/format) { get; } | Bir lejandın biçimini döndürür. Salt okunur [`IFormat`](../iformat). |
-| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | Diğer grafik öğelerinin lejandın üzerine çakışmasına izin verilip verilmeyeceğini belirler. Okunabilir/Yazılabilir Boolean. |
-| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Lejandın bir grafikteki konumunu belirtir. X, Y, Width, Height özelliklerinin NaN olmayan değerleri bu özelliğin etkisini geçersiz kılar. Okunabilir/Yazılabilir [`LegendPositionType`](../legendpositiontype). |
+| [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | Lejant girişlerini alır. Salt okunur [`ILegendEntryCollection`](../ilegendentrycollection). |
+| [Format](../../aspose.slides.charts/ilegend/format) { get; } | Bir lejantın biçimini döndürür. Salt okunur [`IFormat`](../iformat). |
+| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | Diğer grafik öğelerinin lejantın üzerine gelmesine izin verilip verilmeyeceğini belirler. Okunabilir/Yazılabilir Boolean. |
+| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Lejantın bir grafik üzerindeki konumunu belirler. X, Y, Width, Heigt özelliklerinin NaN olmayan değerleri bu özelliğin etkisini geçersiz kılar. Okunabilir/Yazılabilir [`LegendPositionType`](../legendpositiontype). |
 
 ### Ayrıca Bakınız
 

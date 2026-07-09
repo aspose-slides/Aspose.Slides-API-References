@@ -1,14 +1,14 @@
 ---
 title: IOverridableText
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili teks yang dapat ditimpa untuk diagram.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili teks yang dapat ditimpa untuk sebuah bagan.
 type: docs
-weight: 2160
+weight: 2180
 url: /id/aspose.slides.charts/ioverridabletext/
 ---
 ## IOverridableText antarmuka
 
-Mewakili teks yang dapat ditimpa untuk sebuah diagram.
+Mewakili teks yang dapat ditimpa untuk sebuah bagan.
 
 ```csharp
 public interface IOverridableText : IFormattedTextContainer
@@ -18,8 +18,8 @@ public interface IOverridableText : IFormattedTextContainer
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ioverridabletext/asiformattedtextcontainer) { get; } | Memungkinkan untuk mendapatkan antarmuka IFormattedTextContainer dasar. Hanya-baca [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | Dapat berisi teks format kaya. Jika properti ini tidak null maka nilai teks format ini menimpa teks yang dibuat secara otomatis. Teks yang dibuat secara otomatis adalah properti implisit dari label data, label satuan tampilan pada sumbu nilai, judul sumbu, judul diagram, label garis tren. Teks yang dibuat secara otomatis diformat dengan properti IFormattedTextContainer.TextFormat. Hanya-baca [`ITextFrame`](../../aspose.slides/itextframe). |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ioverridabletext/asiformattedtextcontainer) { get; } | Mengizinkan untuk mendapatkan antarmuka IFormattedTextContainer dasar. Hanya-baca [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | Dapat berisi teks berformat kaya. Jika properti ini tidak null maka nilai teks berformat ini menimpa teks yang dihasilkan secara otomatis. Teks yang dihasilkan secara otomatis adalah properti implisit dari label data, label satuan tampilan sumbu nilai, judul sumbu, judul bagan, label garis tren. Teks yang dihasilkan secara otomatis diformat dengan IFormattedTextContainer.TextFormat properti. Hanya-baca [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ## Metode
 

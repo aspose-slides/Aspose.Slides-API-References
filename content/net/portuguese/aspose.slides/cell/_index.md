@@ -1,12 +1,12 @@
 ---
 title: Cell
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa uma célula de uma tabela.
 type: docs
-weight: 1110
+weight: 1130
 url: /pt/aspose.slides/cell/
 ---
-## Cell classe
+## classe Cell
 
 Representa uma célula de uma tabela.
 
@@ -20,26 +20,26 @@ public class Cell : ICell
 | --- | --- |
 | [AnchorCenter](../../aspose.slides/cell/anchorcenter) { get; set; } | Determina se a caixa de texto está centralizada dentro de uma célula. Leitura/gravação Boolean. |
 | [CellFormat](../../aspose.slides/cell/cellformat) { get; } | Retorna o objeto CellFormat que contém propriedades de formatação para esta célula. Somente leitura [`ICellFormat`](../icellformat). |
-| [ColSpan](../../aspose.slides/cell/colspan) { get; } | Retorna o número de colunas da grade na grade da tabela pai que deve ser abrangido pela célula atual. Esta propriedade permite que as células pareçam mescladas, pois cobrem limites verticais de outras células na tabela. Somente leitura Int32. |
+| [ColSpan](../../aspose.slides/cell/colspan) { get; } | Retorna o número de colunas da grade na tabela pai que devem ser abrangidas pela célula atual. Esta propriedade permite que as células tenham a aparência de estar mescladas, pois abrangem limites verticais de outras células na tabela. Somente leitura Int32. |
 | [FirstColumn](../../aspose.slides/cell/firstcolumn) { get; } | Obtém a primeira coluna da célula. Somente leitura [`IColumn`](../icolumn). |
 | [FirstColumnIndex](../../aspose.slides/cell/firstcolumnindex) { get; } | Retorna o índice da primeira coluna coberta pela célula. Somente leitura Int32. |
 | [FirstRow](../../aspose.slides/cell/firstrow) { get; } | Obtém a primeira linha da célula. Somente leitura [`IRow`](../irow). |
 | [FirstRowIndex](../../aspose.slides/cell/firstrowindex) { get; } | Retorna o índice da primeira linha coberta pela célula. Somente leitura Int32. |
 | [Height](../../aspose.slides/cell/height) { get; } | Retorna a altura da célula. Somente leitura Double. |
-| [IsMergedCell](../../aspose.slides/cell/ismergedcell) { get; } | Retorna verdadeiro se a célula estiver mesclada com alguma célula ajustada, falso caso contrário. Somente leitura Boolean. |
+| [IsMergedCell](../../aspose.slides/cell/ismergedcell) { get; } | Retorna verdadeiro se a célula está mesclada com alguma célula ajustada, falso caso contrário. Somente leitura Boolean. |
 | [MarginBottom](../../aspose.slides/cell/marginbottom) { get; set; } | Retorna ou define a margem inferior em um TextFrame. Leitura/gravação Double. |
 | [MarginLeft](../../aspose.slides/cell/marginleft) { get; set; } | Retorna ou define a margem esquerda em um TextFrame. Leitura/gravação Double. |
 | [MarginRight](../../aspose.slides/cell/marginright) { get; set; } | Retorna ou define a margem direita em um TextFrame. Leitura/gravação Double. |
 | [MarginTop](../../aspose.slides/cell/margintop) { get; set; } | Retorna ou define a margem superior em um TextFrame. Leitura/gravação Double. |
 | [MinimalHeight](../../aspose.slides/cell/minimalheight) { get; } | Retorna a altura mínima de uma célula. Esta é a soma das alturas mínimas de todas as linhas cobertas pela célula. Somente leitura Double. |
-| [OffsetX](../../aspose.slides/cell/offsetx) { get; } | Retorna a distância do lado esquerdo de uma tabela ao lado esquerdo de uma célula. Somente leitura Double. |
-| [OffsetY](../../aspose.slides/cell/offsety) { get; } | Retorna a distância do lado superior de uma tabela ao lado superior de uma célula. Somente leitura Double. |
+| [OffsetX](../../aspose.slides/cell/offsetx) { get; } | Retorna a distância do lado esquerdo da tabela ao lado esquerdo da célula. Somente leitura Double. |
+| [OffsetY](../../aspose.slides/cell/offsety) { get; } | Retorna a distância do lado superior da tabela ao lado superior da célula. Somente leitura Double. |
 | [Presentation](../../aspose.slides/cell/presentation) { get; } | Retorna a apresentação pai de uma célula. Somente leitura [`IPresentation`](../ipresentation). |
-| [RowSpan](../../aspose.slides/cell/rowspan) { get; } | Retorna o número de linhas que uma célula mesclada abrange. Isso é usado em combinação com o atributo vMerge em outras células para especificar a célula inicial de uma mesclagem horizontal. Somente leitura Int32. |
+| [RowSpan](../../aspose.slides/cell/rowspan) { get; } | Retorna o número de linhas que uma célula mesclada abrange. Isto é usado em combinação com o atributo vMerge em outras células para especificar a célula inicial de uma mesclagem horizontal. Somente leitura Int32. |
 | [Slide](../../aspose.slides/cell/slide) { get; } | Retorna o slide pai de uma célula. Somente leitura [`IBaseSlide`](../ibaseslide). |
 | [Table](../../aspose.slides/cell/table) { get; } | Retorna o objeto Table pai de uma célula. Somente leitura [`ITable`](../itable). |
 | [TextAnchorType](../../aspose.slides/cell/textanchortype) { get; set; } | Retorna ou define o tipo de âncora de texto. Leitura/gravação [`TextAnchorType`](../textanchortype). |
-| [TextFrame](../../aspose.slides/cell/textframe) { get; } | Retorna o quadro de texto de uma célula. Somente leitura [`ITextFrame`](../itextframe). |
+| [TextFrame](../../aspose.slides/cell/textframe) { get; } | Retorna o frame de texto de uma célula. Somente leitura [`ITextFrame`](../itextframe). |
 | [TextVerticalType](../../aspose.slides/cell/textverticaltype) { get; set; } | Retorna ou define o tipo de texto vertical. Leitura/gravação [`TextVerticalType`](../textverticaltype). |
 | [Width](../../aspose.slides/cell/width) { get; } | Retorna a largura da célula. Somente leitura Double. |
 
@@ -47,10 +47,10 @@ public class Cell : ICell
 
 | Nome | Descrição |
 | --- | --- |
-| [SplitByColSpan](../../aspose.slides/cell/splitbycolspan)(int) | Divide a célula em duas células por índice de coluna. |
-| [SplitByHeight](../../aspose.slides/cell/splitbyheight)(double) | Divide a célula por altura. |
-| [SplitByRowSpan](../../aspose.slides/cell/splitbyrowspan)(int) | Divide a célula em duas células por índice de linha. |
-| [SplitByWidth](../../aspose.slides/cell/splitbywidth)(double) | Divide a célula por largura. |
+| [SplitByColSpan](../../aspose.slides/cell/splitbycolspan)(int) | Divide a célula em duas células pelo índice da coluna. |
+| [SplitByHeight](../../aspose.slides/cell/splitbyheight)(double) | Divide a célula pela altura. |
+| [SplitByRowSpan](../../aspose.slides/cell/splitbyrowspan)(int) | Divide a célula em duas células pelo índice da linha. |
+| [SplitByWidth](../../aspose.slides/cell/splitbywidth)(double) | Divide a célula pela largura. |
 
 ### Veja Também
 

@@ -1,24 +1,24 @@
 ---
 title: IAIConversation
-second_title: Aspose.Sildes .NET API Referenciája
-description: Egy beszélgetéspéldányt reprezentál. A rendszeres AI hívásoktól eltérően a beszélgetések megőrzik a teljes kontextust.
+second_title: Aspose.Sildes .NET API referencia
+description: A beszélgetéspéldányt képviseli. A szabályos AI hívásoktól eltérően a beszélgetések megőrzik a teljes kontextust.
 type: docs
-weight: 10
+weight: 20
 url: /hu/aspose.slides.ai/iaiconversation/
 ---
 ## IAIConversation interfész
 
-Egy beszélgetés példányt reprezentál. A rendszeres AI hívásoktól eltérően a beszélgetések megőrzik a teljes kontextust.
+Egy beszélgetéspéldányt képvisel. A szabályos AI hívásoktól eltérően a beszélgetések megtartják a teljes kontextust.
 
 ```csharp
 public interface IAIConversation
 ```
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [GetResponseAsync](../../aspose.slides.ai/iaiconversation/getresponseasync)(string) | Elküldi a beszélgetés kérésüzenetét a teljes kontextussal, és visszaküldi a választ. |
+| [GetResponseAsync](../../aspose.slides.ai/iaiconversation/getresponseasync)(string) | Elküldi a beszélgetés kérése üzenetét, amely tartalmazza a teljes kontextust, és visszaadja a választ. |
 
 ### Lásd még
 

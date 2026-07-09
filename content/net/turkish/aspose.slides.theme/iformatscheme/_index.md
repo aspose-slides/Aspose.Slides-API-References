@@ -1,14 +1,14 @@
 ---
 title: IFormatScheme
 second_title: Aspose.Sildes için .NET API Referansı
-description: Şekiller için tema tanımlı biçimleri depolar.
+description: Şekiller için tema tanımlı formatları depolar.
 type: docs
-weight: 11250
+weight: 11270
 url: /tr/aspose.slides.theme/iformatscheme/
 ---
 ## IFormatScheme arayüz
 
-Şekiller için tema tanımlı biçimleri depolar.
+Şekiller için tema tanımlı formatları depolar.
 
 ```csharp
 public interface IFormatScheme : ISlideComponent
@@ -18,11 +18,11 @@ public interface IFormatScheme : ISlideComponent
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides.theme/iformatscheme/asislidecomponent) { get; } | Temel ISlideComponent arayüzünü almayı sağlar. Yalnızca okuma [`ISlideComponent`](../../aspose.slides/islidecomponent). |
-| [BackgroundFillStyles](../../aspose.slides.theme/iformatscheme/backgroundfillstyles) { get; } | Tema tanımlı arka plan doldurma stillerinin koleksiyonunu döndürür. Yalnızca okuma [`IFillFormatCollection`](../ifillformatcollection). |
-| [EffectStyles](../../aspose.slides.theme/iformatscheme/effectstyles) { get; } | Tema tanımlı efekt stillerinin koleksiyonunu döndürür. Yalnızca okuma [`IEffectStyleCollection`](../ieffectstylecollection). |
-| [FillStyles](../../aspose.slides.theme/iformatscheme/fillstyles) { get; } | Tema tanımlı doldurma stillerinin koleksiyonunu döndürür. Yalnızca okuma [`IFillFormatCollection`](../ifillformatcollection). |
-| [LineStyles](../../aspose.slides.theme/iformatscheme/linestyles) { get; } | Tema tanımlı çizgi stillerinin koleksiyonunu döndürür. Yalnızca okuma [`ILineFormatCollection`](../ilineformatcollection). |
+| [AsISlideComponent](../../aspose.slides.theme/iformatscheme/asislidecomponent) { get; } | Temel ISlideComponent arayüzünü almayı sağlar. Salt okunur [`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [BackgroundFillStyles](../../aspose.slides.theme/iformatscheme/backgroundfillstyles) { get; } | Tema tanımlı arka plan dolgu stillerinin bir koleksiyonunu döndürür. Salt okunur [`IFillFormatCollection`](../ifillformatcollection). |
+| [EffectStyles](../../aspose.slides.theme/iformatscheme/effectstyles) { get; } | Tema tanımlı efekt stillerinin bir koleksiyonunu döndürür. Salt okunur [`IEffectStyleCollection`](../ieffectstylecollection). |
+| [FillStyles](../../aspose.slides.theme/iformatscheme/fillstyles) { get; } | Tema tanımlı dolgu stillerinin bir koleksiyonunu döndürür. Salt okunur [`IFillFormatCollection`](../ifillformatcollection). |
+| [LineStyles](../../aspose.slides.theme/iformatscheme/linestyles) { get; } | Tema tanımlı çizgi stillerinin bir koleksiyonunu döndürür. Salt okunur [`ILineFormatCollection`](../ilineformatcollection). |
 
 ### Ayrıca Bakınız
 

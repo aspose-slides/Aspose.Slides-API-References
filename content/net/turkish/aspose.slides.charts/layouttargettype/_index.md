@@ -1,14 +1,14 @@
 ---
 title: LayoutTargetType
 second_title: Aspose.Sildes .NET API Referansı
-description: Eğer çizim alanının yerleşimi manuel olarak tanımlanmışsa, bu özellik çizim alanını eksen ve eksen etiketlerini içermeyen iç kısmına mı yoksa eksen ve eksen etiketlerini içeren dış kısmına mı yerleştirileceğini belirtir.
+description: Çizim alanının düzeni manuel olarak tanımlanmışsa, bu özellik çizim alanının iç kısmına (eksen ve eksen etiketleri hariç) mi yoksa dış kısmına (eksen ve eksen etiketleri dahil) mi yerleştirileceğini belirtir.
 type: docs
-weight: 2250
+weight: 2270
 url: /tr/aspose.slides.charts/layouttargettype/
 ---
 ## LayoutTargetType enum
 
-Eğer çizim alanının yerleşimi manuel olarak tanımlanmışsa, bu özellik çizim alanının iç kısmına (eksen ve eksen etiketlerini içermeyen) ya da dış kısmına (eksen ve eksen etiketlerini içeren) yerleştirileceğini belirtir.
+Eğer çizim alanının düzeni manuel olarak tanımlanmışsa, bu özellik çizim alanını iç kısmına (eksen ve eksen etiketleri hariç) mı yoksa dış kısmına (eksen ve eksen etiketleri dahil) mı yerleştirileceğini belirtir.
 
 ```csharp
 public enum LayoutTargetType
@@ -18,8 +18,8 @@ public enum LayoutTargetType
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Inner | `0` | Çizim alanı boyutunun, çizim alanının boyutunu belirleyeceğini, tik işaretleri ve eksen etiketlerini içermeyeceğini belirtir. |
-| Outer | `1` | Çizim alanı boyutunun, çizim alanının, tik işaretlerinin ve eksen etiketlerinin boyutunu belirleyeceğini belirtir. |
+| Inner | `0` | Çizim alanı boyutunun çizim alanının boyutunu belirleyeceğini, tik işaretleri ve eksen etiketlerini içermeyeceğini belirtir. |
+| Outer | `1` | Çizim alanı boyutunun, çizim alanının boyutunu, tik işaretlerini ve eksen etiketlerini belirleyeceğini belirtir. |
 
 ### Ayrıca Bakınız
 

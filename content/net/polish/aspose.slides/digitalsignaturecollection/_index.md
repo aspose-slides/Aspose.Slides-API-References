@@ -1,14 +1,14 @@
 ---
 title: DigitalSignatureCollection
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Reprezentuje kolekcję cyfrowych podpisów dołączonych do dokumentu.
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Reprezentuje kolekcję podpisów cyfrowych dołączonych do dokumentu.
 type: docs
-weight: 2760
+weight: 2780
 url: /pl/aspose.slides/digitalsignaturecollection/
 ---
 ## DigitalSignatureCollection klasa
 
-Reprezentuje kolekcję cyfrowych podpisów dołączonych do dokumentu.
+Reprezentuje kolekcję podpisów cyfrowych dołączonych do dokumentu.
 
 ```csharp
 public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSignatureCollection
@@ -16,16 +16,16 @@ public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSigna
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides/digitalsignaturecollection/count) { get; } | Zwraca liczbę elementów w kolekcji. Tylko do odczytu Int32. |
-| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest zsynchronizowany (bezpieczny dla wątków). Tylko do odczytu Boolean. |
+| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest synchronizowany (thread-safe). Tylko do odczytu Boolean. |
 | [Item](../../aspose.slides/digitalsignaturecollection/item) { get; } | Zwraca podpis według indeksu. |
 | [SyncRoot](../../aspose.slides/digitalsignaturecollection/syncroot) { get; } | Zwraca korzeń synchronizacji. Tylko do odczytu Object. |
 
 ## Metody
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/digitalsignaturecollection/add)(IDigitalSignature) | Dodaje podpis na końcu kolekcji. |
 | [Clear](../../aspose.slides/digitalsignaturecollection/clear)() | Usuwa wszystkie podpisy z kolekcji. |

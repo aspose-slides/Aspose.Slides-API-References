@@ -1,14 +1,14 @@
 ---
 title: MathDelimiterShape
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Η θέση και το μέγεθος των οριοθετών σχετικά με το περιεχόμενο των τελεστών
+description: Η θέση και το μέγεθος των διαχωριστών σε σχέση με το περιεχόμενο των τελεστών
 type: docs
-weight: 8650
+weight: 8670
 url: /el/aspose.slides.mathtext/mathdelimitershape/
 ---
-## Απαρίθμηση MathDelimiterShape
+## MathDelimiterShape απάριθμηση
 
-Η θέση και το μέγεθος των οριοθετών σχετικά με το περιεχόμενο των τελεστών
+Η θέση και το μέγεθος των διαχωριστών σε σχέση με το περιεχόμενο των τελεστών
 
 ```csharp
 public enum MathDelimiterShape
@@ -18,8 +18,8 @@ public enum MathDelimiterShape
 
 | Όνομα | Τιμή | Περιγραφή |
 | --- | --- | --- |
-| Centered | `0` | Στο κέντρο του μαθηματικού άξονα |
-| Match | `1` | Συμφωνία με το περιεχόμενο |
+| Centered | `0` | Κεντραρισμένο στο μαθηματικό άξονα |
+| Match | `1` | Αντιστοιχία με το περιεχόμενο |
 
 ### Δείτε επίσης
 

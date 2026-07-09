@@ -1,14 +1,14 @@
 ---
 title: IAIConversation
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Reprezentuje instancję konwersacji. W przeciwieństwie do zwykłych wywołań AI, rozmowy zachowują cały kontekst.
+second_title: Aspose.Sildes dla .NET - Dokumentacja API
+description: Reprezentuje instancję rozmowy. W przeciwieństwie do zwykłych wywołań AI, rozmowy zachowują cały kontekst.
 type: docs
-weight: 10
+weight: 20
 url: /pl/aspose.slides.ai/iaiconversation/
 ---
 ## IAIConversation interfejs
 
-Reprezentuje instancję konwersacji. W przeciwieństwie do zwykłych wywołań AI, rozmowy zachowują cały kontekst.
+Reprezentuje instancję rozmowy. W przeciwieństwie do zwykłych wywołań AI, rozmowy zachowują cały kontekst.
 
 ```csharp
 public interface IAIConversation
@@ -18,7 +18,7 @@ public interface IAIConversation
 
 | Nazwa | Opis |
 | --- | --- |
-| [GetResponseAsync](../../aspose.slides.ai/iaiconversation/getresponseasync)(string) | Wysyła wiadomość żądania konwersacji, obejmującą cały kontekst i zwraca odpowiedź. |
+| [GetResponseAsync](../../aspose.slides.ai/iaiconversation/getresponseasync)(string) | Wysyła wiadomość żądania rozmowy, obejmującą cały kontekst i zwraca odpowiedź. |
 
 ### Zobacz także
 

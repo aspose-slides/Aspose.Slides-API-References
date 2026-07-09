@@ -1,9 +1,9 @@
 ---
 title: Row
-second_title: Aspose.Sildes pro .NET – referenční příručka API
+second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje řádek v tabulce.
 type: docs
-weight: 9690
+weight: 9710
 url: /cs/aspose.slides/row/
 ---
 ## Row třída
@@ -18,25 +18,25 @@ public sealed class Row : CellCollection, IRow
 
 | Název | Popis |
 | --- | --- |
-| [Count](../../aspose.slides/cellcollection/count) { get; } | Vrací počet buněk ve sbírce. Pouze pro čtení Int32. |
+| [Count](../../aspose.slides/cellcollection/count) { get; } | Vrací počet buněk v kolekci. Pouze pro čtení Int32. |
 | [Height](../../aspose.slides/row/height) { get; } | Vrací výšku řádku. Pouze pro čtení Double. |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Vrací hodnotu, která určuje, zda je přístup ke sbírce synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Vrací hodnotu udávající, zda je přístup ke kolekci synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
 | [Item](../../aspose.slides/cellcollection/item) { get; } | Vrací buňku podle její pozice. Pouze pro čtení [`Cell`](../cell). |
-| [MinimalHeight](../../aspose.slides/row/minimalheight) { get; set; } | Vrací nebo nastavuje minimální možnou výšku řádku. Čtení/zápis Double. |
-| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Vrací nadřazenou prezentaci CellCollection. Pouze pro čtení [`IPresentation`](../ipresentation). |
-| [RowFormat](../../aspose.slides/row/rowformat) { get; } | Vrací objekt RowFormat, který obsahuje vlastnosti formátování pro tento řádek. Pouze pro čtení [`IRowFormat`](../irowformat). |
-| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Vrací nadřazený snímek CellCollection. Pouze pro čtení [`IBaseSlide`](../ibaseslide). |
+| [MinimalHeight](../../aspose.slides/row/minimalheight) { get; set; } | Vrací nebo nastavuje minimální možnou výšku řádku. Čtení/Zápis Double. |
+| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Vrací nadřazenou prezentaci objektu CellCollection. Pouze pro čtení [`IPresentation`](../ipresentation). |
+| [RowFormat](../../aspose.slides/row/rowformat) { get; } | Vrací objekt RowFormat, který obsahuje formátovací vlastnosti pro tento řádek. Pouze pro čtení [`IRowFormat`](../irowformat). |
+| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Vrací nadřazený snímek objektu CellCollection. Pouze pro čtení [`IBaseSlide`](../ibaseslide). |
 | [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Vrací kořen synchronizace. Pouze pro čtení Object. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Kopíruje všechny prvky ze sbírky do určeného pole. |
-| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Vrací enumerátor, který iteruje přes sbírku. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat)(IParagraphFormat) | Nastavuje definované vlastnosti formátu odstavců všech odstavců buněk řádku. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_1)(IPortionFormat) | Nastavuje definované vlastnosti formátu částí všech částí buněk řádku. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_2)(ITextFrameFormat) | Nastavuje definované vlastnosti formátu textových rámečků všech textových rámečků buněk řádku. |
+| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Zkopíruje všechny prvky z kolekce do zadaného pole. |
+| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Vrací enumerátor, který prochází kolekcí. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat)(IParagraphFormat) | Nastavuje definované vlastnosti formátování odstavců pro odstavce všech buněk řádku. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_1)(IPortionFormat) | Nastavuje definované vlastnosti formátování částí pro všechny části buněk řádku. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_2)(ITextFrameFormat) | Nastavuje definované vlastnosti formátování textových rámců pro textové rámečky všech buněk řádku. |
 
 ### Viz také
 

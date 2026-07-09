@@ -1,9 +1,9 @@
 ---
 title: TransitionMorphType
-second_title: Aspose.Sildes a .NET API referencia
+second_title: Aspose.Sildes .NET API referencia
 description: Egy morph átmenet típusát képviseli.
 type: docs
-weight: 10370
+weight: 10390
 url: /hu/aspose.slides.slideshow/transitionmorphtype/
 ---
 ## TransitionMorphType enumeráció
@@ -18,9 +18,9 @@ public enum TransitionMorphType
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| ByObject | `0` | A Morph átmenet úgy lesz végrehajtva, hogy az alakzatokat oszthatatlan objektumokként veszi figyelembe. |
-| ByWord | `1` | A Morph átmenet úgy lesz végrehajtva, hogy ahol lehetséges, a szöveget szavanként továbbítja. |
-| ByChar | `2` | A Morph átmenet úgy lesz végrehajtva, hogy ahol lehetséges, a szöveget karakterenként továbbítja. |
+| ByObject | `0` | A morph átmenet úgy kerül végrehajtásra, hogy a formákat oszthatatlan objektumokként veszi figyelembe. |
+| ByWord | `1` | A morph átmenet úgy kerül végrehajtásra, hogy ahol lehetséges, a szöveget szavanként továbbítja. |
+| ByChar | `2` | A morph átmenet úgy kerül végrehajtásra, hogy ahol lehetséges, a szöveget karakterenként továbbítja. |
 
 ### Lásd még
 

@@ -3,12 +3,12 @@ title: DataLabel
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta le etichette di una serie.
 type: docs
-weight: 1530
+weight: 1550
 url: /it/aspose.slides.charts/datalabel/
 ---
 ## classe DataLabel
 
-Rappresenta le etichette di una serie.
+Rappresenta le etichette della serie.
 
 ```csharp
 public class DataLabel : IDataLabel
@@ -24,18 +24,18 @@ public class DataLabel : IDataLabel
 
 | Nome | Descrizione |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/datalabel/actualheight) { get; } | Specifica l'altezza effettiva dell'elemento del grafico. Chiamare il metodo IChart.ValidateChartLayout() prima per ottenere i valori effettivi. Solo lettura Single. |
-| [ActualWidth](../../aspose.slides.charts/datalabel/actualwidth) { get; } | Specifica la larghezza effettiva dell'elemento del grafico. Chiamare il metodo IChart.ValidateChartLayout() prima per ottenere i valori effettivi. Solo lettura Single. |
+| [ActualHeight](../../aspose.slides.charts/datalabel/actualheight) { get; } | Specifica l'altezza reale dell'elemento del grafico. Chiamare il metodo IChart.ValidateChartLayout() prima per ottenere i valori effettivi. Solo lettura Single. |
+| [ActualWidth](../../aspose.slides.charts/datalabel/actualwidth) { get; } | Specifica la larghezza reale dell'elemento del grafico. Chiamare il metodo IChart.ValidateChartLayout() prima per ottenere i valori effettivi. Solo lettura Single. |
 | [ActualX](../../aspose.slides.charts/datalabel/actualx) { get; } | Specifica la posizione x reale (sinistra) dell'elemento del grafico rispetto all'angolo superiore sinistro del grafico. Chiamare il metodo IChart.ValidateChartLayout() prima per ottenere i valori effettivi. Solo lettura Single. |
 | [ActualY](../../aspose.slides.charts/datalabel/actualy) { get; } | Specifica la parte superiore reale dell'elemento del grafico rispetto all'angolo superiore sinistro del grafico. Chiamare il metodo IChart.ValidateChartLayout() prima per ottenere i valori effettivi. Solo lettura Single. |
 | [Bottom](../../aspose.slides.charts/datalabel/bottom) { get; } | Inferiore. Solo lettura Single. |
 | [Chart](../../aspose.slides.charts/datalabel/chart) { get; } | Restituisce il grafico padre. Solo lettura [`IChart`](../ichart). |
 | [DataLabelFormat](../../aspose.slides.charts/datalabel/datalabelformat) { get; } | Restituisce il formato dell'etichetta dati. Solo lettura [`IDataLabelFormat`](../idatalabelformat). |
 | [Height](../../aspose.slides.charts/datalabel/height) { get; set; } | Restituisce o imposta l'altezza di un titolo come frazione dell'altezza del grafico. Lettura/scrittura Single. |
-| [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | False indica che l'etichetta dati non è visibile (e quindi tutti i flag Show* (ShowValue, ...) sono false). Solo lettura Boolean. |
+| [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | False indica che l'etichetta dati non è visibile (e quindi tutti i flag Show*- (ShowValue, ...) sono false). Solo lettura Boolean. |
 | [Right](../../aspose.slides.charts/datalabel/right) { get; } | Destra. Solo lettura Single. |
 | [TextFormat](../../aspose.slides.charts/datalabel/textformat) { get; } | Restituisce il formato del testo. Solo lettura [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | Può contenere un testo formattato riccamente. Se questa proprietà non è null, il valore di testo formattato sovrascrive il testo generato automaticamente dell'etichetta dati. Il testo generato automaticamente dell'etichetta dati indica il testo gestito dalle proprietà ShowSeriesName, ShowValue, ... e formattato con la proprietà TextFormatManager.TextFormat. Solo lettura [`ITextFrame`](../../aspose.slides/itextframe). |
+| [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | Può contenere un testo formattato riccamente. Se questa proprietà non è null, questo valore di testo formattato sovrascrive il testo generato automaticamente dell'etichetta dati. Il testo generato automaticamente dell'etichetta dati è il testo gestito dalle proprietà ShowSeriesName, ShowValue, ... e formattato con la proprietà TextFormatManager.TextFormat. Solo lettura [`ITextFrame`](../../aspose.slides/itextframe). |
 | [ValueFromCell](../../aspose.slides.charts/datalabel/valuefromcell) { get; set; } | Ottiene o imposta la cella dati della cartella di lavoro. Applicato se la proprietà IDataLabelFormat.ShowLabelValueFromCell è true. |
 | [Width](../../aspose.slides.charts/datalabel/width) { get; set; } | Restituisce o imposta la larghezza di un titolo come frazione della larghezza del grafico. Lettura/scrittura Single. |
 | [X](../../aspose.slides.charts/datalabel/x) { get; set; } | Restituisce o imposta la coordinata x di un titolo come frazione della larghezza del grafico. Lettura/scrittura Single. |
@@ -47,12 +47,12 @@ public class DataLabel : IDataLabel
 | --- | --- |
 | [AddTextFrameForOverriding](../../aspose.slides.charts/datalabel/addtextframeforoverriding)(string) | Inizializza TextFrameForOverriding con il testo nel parametro "text". Se TextFrameForOverriding è già inizializzato, cambia semplicemente il suo testo. |
 | [GetActualLabelText](../../aspose.slides.charts/datalabel/getactuallabeltext)() | Restituisce il testo effettivo dell'etichetta basato sulle impostazioni di DataLabelFormat o sul valore TextFrameForOverriding.Text. |
-| [Hide](../../aspose.slides.charts/datalabel/hide)() | Nasconde l'etichetta dati impostando tutti i flag Show* (ShowValue, ...) allo stato false. IsVisible sarà false dopo questa operazione. |
+| [Hide](../../aspose.slides.charts/datalabel/hide)() | Rende l'etichetta dati nascosta impostando tutti i flag Show*- (ShowValue, ...) allo stato false. IsVisible sarà false dopo questa operazione. |
 
 ### Vedi anche
 
-* interface [IDataLabel](../idatalabel)
-* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
+* interfaccia [IDataLabel](../idatalabel)
+* spazio dei nomi [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

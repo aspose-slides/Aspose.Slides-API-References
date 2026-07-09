@@ -1,14 +1,14 @@
 ---
 title: IPlaceholder
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Bir slayttaki yer tutucuyu temsil eder.
 type: docs
-weight: 6670
+weight: 6690
 url: /tr/aspose.slides/iplaceholder/
 ---
-## IPlaceholder arabirimi
+## IPlaceholder arayüz
 
-Bir slayttaki yer tutucuyu temsil eder.
+Bir slaytta yer tutucuyu temsil eder.
 
 ```csharp
 public interface IPlaceholder
@@ -19,11 +19,11 @@ public interface IPlaceholder
 | Ad | Açıklama |
 | --- | --- |
 | [Index](../../aspose.slides/iplaceholder/index) { get; } | Bir yer tutucunun dizinini alır. Salt okunur UInt32. |
-| [Orientation](../../aspose.slides/iplaceholder/orientation) { get; } | Bir yer tutucunun yönünü alır. Salt okunur [`Orientation`](../orientation). |
+| [Orientation](../../aspose.slides/iplaceholder/orientation) { get; } | Bir yer tutucunun yönelimini alır. Salt okunur [`Orientation`](../orientation). |
 | [Size](../../aspose.slides/iplaceholder/size) { get; } | Bir yer tutucunun boyutunu alır. Salt okunur [`PlaceholderSize`](../placeholdersize). |
-| [Type](../../aspose.slides/iplaceholder/type) { get; } | Bir yer tutucunun tipini alır. Salt okunur [`PlaceholderType`](../placeholdertype). |
+| [Type](../../aspose.slides/iplaceholder/type) { get; } | Bir yer tutucunun türünü alır. Salt okunur [`PlaceholderType`](../placeholdertype). |
 
-### Ayrıca Bakınız
+### İlgili
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

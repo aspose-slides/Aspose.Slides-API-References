@@ -1,14 +1,14 @@
 ---
 title: IMathFractionFactory
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 数学分数を作成できます
+description: 数式分数を作成できます
 type: docs
-weight: 8240
+weight: 8260
 url: /ja/aspose.slides.mathtext/imathfractionfactory/
 ---
 ## IMathFractionFactory インターフェイス
 
-数学分数を作成できます
+数式分数を作成できるようにします
 
 ```csharp
 public interface IMathFractionFactory
@@ -18,14 +18,14 @@ public interface IMathFractionFactory
 
 | 名前 | 説明 |
 | --- | --- |
-| [CreateMathFraction](../../aspose.slides.mathtext/imathfractionfactory/createmathfraction#createmathfraction)(IMathElement, IMathElement) | 数学分数を作成します |
-| [CreateMathFraction](../../aspose.slides.mathtext/imathfractionfactory/createmathfraction#createmathfraction_1)(IMathElement, IMathElement, MathFractionTypes) | 数学分数を作成します |
+| [CreateMathFraction](../../aspose.slides.mathtext/imathfractionfactory/createmathfraction#createmathfraction)(IMathElement, IMathElement) | 数式分数を作成します |
+| [CreateMathFraction](../../aspose.slides.mathtext/imathfractionfactory/createmathfraction#createmathfraction_1)(IMathElement, IMathElement, MathFractionTypes) | 数式分数を作成します |
 
 ### 備考
 
 COM 互換性のため
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * アセンブリ [Aspose.Slides](../../)

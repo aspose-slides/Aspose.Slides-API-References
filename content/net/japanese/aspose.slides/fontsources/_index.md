@@ -1,9 +1,9 @@
 ---
 title: FontSources
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 外部フォント用のファイルおよびメモリ ソースを提供します。
+description: 外部フォント用のファイルとメモリソースを提供します。
 type: docs
-weight: 4840
+weight: 4860
 url: /ja/aspose.slides/fontsources/
 ---
 ## FontSources クラス
@@ -14,18 +14,18 @@ url: /ja/aspose.slides/fontsources/
 public class FontSources : IFontSources
 ```
 
-## コンストラクター
+## コンストラクタ
 
 | 名前 | 説明 |
 | --- | --- |
-| [FontSources](fontsources)() | 新しいデフォルト フォントオプションを作成します。 |
+| [FontSources](fontsources)() | 新しいデフォルトフォントオプションを作成します。 |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [FontFolders](../../aspose.slides/fontsources/fontfolders) { get; set; } | フォント ファイルを含むフォルダー。これらのフォルダーにあるすべてのフォント ファイルがコレクションに含まれます。再帰的に検索されるフォルダー。 |
-| [MemoryFonts](../../aspose.slides/fontsources/memoryfonts) { get; set; } | バイト配列として表されるフォントのコレクション。 |
+| [FontFolders](../../aspose.slides/fontsources/fontfolders) { get; set; } | フォントファイルを含むフォルダー。これらのフォルダーにあるすべてのフォントファイルがコレクションに含まれます。再帰的に検索されるフォルダー。 |
+| [MemoryFonts](../../aspose.slides/fontsources/memoryfonts) { get; set; } | バイト配列として表現されたフォントのコレクションです。 |
 
 ### 参照
 

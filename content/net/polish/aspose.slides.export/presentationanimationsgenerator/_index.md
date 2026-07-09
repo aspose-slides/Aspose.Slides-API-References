@@ -1,9 +1,9 @@
 ---
 title: PresentationAnimationsGenerator
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
-description: Reprezentuje generator animacji w prezentacji../aspose.slides/presentation.
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Reprezentuje generator animacji w prezentacji Presentation../aspose.slides/presentation.
 type: docs
-weight: 4360
+weight: 4380
 url: /pl/aspose.slides.export/presentationanimationsgenerator/
 ---
 ## PresentationAnimationsGenerator klasa
@@ -27,7 +27,7 @@ public class PresentationAnimationsGenerator : IDisposable
 | --- | --- |
 | [DefaultDelay](../../aspose.slides.export/presentationanimationsgenerator/defaultdelay) { get; set; } | Pobiera lub ustawia domyślny czas opóźnienia [ms]. |
 | [ExportedSlides](../../aspose.slides.export/presentationanimationsgenerator/exportedslides) { get; } | Pobiera liczbę wyeksportowanych slajdów. |
-| [IncludeHiddenSlides](../../aspose.slides.export/presentationanimationsgenerator/includehiddenslides) { get; set; } | Pobiera lub ustawia, czy ukryte slajdy powinny być uwzględniane. |
+| [IncludeHiddenSlides](../../aspose.slides.export/presentationanimationsgenerator/includehiddenslides) { get; set; } | Pobiera lub ustawia, czy ukryte slajdy powinny być uwzględnione. |
 
 ## Metody
 
@@ -41,13 +41,13 @@ public class PresentationAnimationsGenerator : IDisposable
 
 | Nazwa | Opis |
 | --- | --- |
-| readonly [FrameSize](../../aspose.slides.export/presentationanimationsgenerator/framesize) | Pobiera rozmiar ramki. |
+| readonly [FrameSize](../../aspose.slides.export/presentationanimationsgenerator/framesize) | Pobiera rozmiar klatki. |
 
 ## Zdarzenia
 
 | Nazwa | Opis |
 | --- | --- |
-| event [NewAnimation](../../aspose.slides.export/presentationanimationsgenerator/newanimation) | Zdarzenie wskazuje, że została wygenerowana nowa animacja. |
+| event [NewAnimation](../../aspose.slides.export/presentationanimationsgenerator/newanimation) | Zdarzenie oznacza, że nowa animacja została wygenerowana. |
 
 ### Przykłady
 

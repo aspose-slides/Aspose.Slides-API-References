@@ -1,14 +1,14 @@
 ---
 title: GlobalLayoutSlideCollection
-second_title: Aspose.Sildes a .NET API referencia
-description: A prezentáció összes elrendezési diáját tartalmazó gyűjteményt reprezentálja. Kiterjeszti a LayoutSlideCollection osztályt olyan metódusokkal, amelyek az egyes mesterelrendezési diák gyűjteményeinek egyesítése kontextusában adnak hozzá vagy klónoznak elrendezési diát.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: A prezentáció összes elrendezési diájának gyűjteményét képviseli. Kiterjeszti a LayoutSlideCollection osztályt olyan metódusokkal, amelyek az egyes mesterelrendezési diák gyűjteményeinek egyesítése kontextusában történő elrendezési diák hozzáadását/klónozását teszik lehetővé.
 type: docs
-weight: 4960
+weight: 4980
 url: /hu/aspose.slides/globallayoutslidecollection/
 ---
 ## GlobalLayoutSlideCollection osztály
 
-A bemutató összes elrendezési diáját tartalmazó gyűjteményt reprezentálja. Kiterjeszti a LayoutSlideCollection osztályt olyan metódusokkal, amelyek az egyes mesterelrendezési diák gyűjteményeinek egyesítése kontextusában adnak hozzá vagy klónoznak elrendezési diát.
+Az összes elrendezési dia gyűjteményét képviseli a prezentációban. Kiterjeszti a LayoutSlideCollection osztályt olyan metódusokkal, amelyek elrendezési diák hozzáadását/klónozását teszik lehetővé a mesterelrendezési diák egyéni gyűjteményeinek egyesítése kontextusában.
 
 ```csharp
 public sealed class GlobalLayoutSlideCollection : LayoutSlideCollection, 
@@ -17,25 +17,25 @@ public sealed class GlobalLayoutSlideCollection : LayoutSlideCollection,
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Visszaadja a gyűjteményben lévő elrendezési diák számát. Csak olvasható Int32. |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált (szálbiztos). Csak olvasható Boolean. |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált-e (szálbiztos). Csak olvasható Boolean. |
 | [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Visszaadja az elrendezési diát index alapján. Csak olvasható [`LayoutSlide`](../layoutslide). |
-| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökérobjektumot. Csak olvasható Object. |
+| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökér. Csak olvasható Object. |
 
 ## Metódusok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/globallayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | Új elrendezési diát ad hozzá a bemutatóhoz. |
-| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone)(ILayoutSlide) | A megadott elrendezési diának egy másolatát adja hozzá a bemutatóhoz. |
-| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | A megadott elrendezési diának egy másolatát adja hozzá a bemutatóhoz. |
-| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Az összes elemet átmásolja a gyűjteményből a megadott tömbbe. |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Visszaadja az első megadott típusú elrendezési diát. A keresendő elrendezési dia típusa.[`LayoutSlide`](../layoutslide) a megadott típussal, vagy null, ha nincs elrendezés. |
-| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Visszaad egy enumerátort, amely iterál a gyűjteményen. |
+| [Add](../../aspose.slides/globallayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | Új elrendezési diát ad a prezentációhoz. |
+| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone)(ILayoutSlide) | Másolatot ad a megadott elrendezési diáról a prezentációhoz. |
+| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | Másolatot ad a megadott elrendezési diáról a prezentációhoz. |
+| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Másolja az összes elemet a gyűjteményből a megadott tömbbe. |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Visszaadja az első megadott típusú elrendezési diát. A keresendő elrendezési dia típusa.[`LayoutSlide`](../layoutslide) a megadott típussal vagy null, ha nem található elrendezés. |
+| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |
 | [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Eltávolít egy elrendezést a gyűjteményből. |
-| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Eltávolítja a nem használt elrendezési diát (azokat az elrendezési diát, amelyeknél a HasDependingSlides hamis). |
+| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Eltávolítja a nem használt elrendezési diákat (azokat a diákat, amelyeknek a HasDependingSlides hamis). |
 
 ### Lásd még
 

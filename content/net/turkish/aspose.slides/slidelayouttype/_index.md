@@ -1,14 +1,14 @@
 ---
 title: SlideLayoutType
-second_title: Aspose.Sildes for .NET API Referansı
-description: Slayt düzeni tipini temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Slayt düzeni türünü temsil eder.
 type: docs
-weight: 9970
+weight: 9990
 url: /tr/aspose.slides/slidelayouttype/
 ---
-## SlideLayoutType enum
+## SlideLayoutType enum'ı
 
-Slayt düzeni tipini temsil eder.
+Slayt düzeni türünü temsil eder.
 
 ```csharp
 public enum SlideLayoutType : sbyte
@@ -18,44 +18,44 @@ public enum SlideLayoutType : sbyte
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Custom | `-1` | Özel |
-| Title | `0` | Başlık |
-| Text | `1` | Metin |
-| TwoColumnText | `2` | İki Sütun Metni |
-| Table | `3` | Tablo |
-| TextAndChart | `4` | Metin ve Grafik |
-| ChartAndText | `5` | Grafik ve Metin |
-| Diagram | `6` | Diyagram |
-| Chart | `7` | Grafik |
+| Custom | `-1` | Custom |
+| Title | `0` | Title |
+| Text | `1` | Text |
+| TwoColumnText | `2` | İki Sütun Metin |
+| Table | `3` | Table |
+| TextAndChart | `4` | Metin ve Chart |
+| ChartAndText | `5` | Chart ve Metin |
+| Diagram | `6` | Diagram |
+| Chart | `7` | Chart |
 | TextAndClipArt | `8` | Metin ve Clip Art |
 | ClipArtAndText | `9` | Clip Art ve Metin |
-| TitleOnly | `10` | Yalnızca Başlık |
-| Blank | `11` | Boş |
-| TextAndObject | `12` | Metin ve Nesne |
-| ObjectAndText | `13` | Nesne ve Metin |
-| Object | `14` | Nesne |
-| TitleAndObject | `15` | Başlık ve Nesne |
-| TextAndMedia | `16` | Metin ve Medya |
-| MediaAndText | `17` | Medya ve Metin |
-| ObjectOverText | `18` | Nesne, Metnin Üzerinde |
-| TextOverObject | `19` | Metin, Nesnenin Üzerinde |
-| TextAndTwoObjects | `20` | Metin ve İki Nesne |
-| TwoObjectsAndText | `21` | İki Nesne ve Metin |
-| TwoObjectsOverText | `22` | İki Nesne, Metnin Üzerinde |
-| FourObjects | `23` | Dört Nesne |
-| VerticalText | `24` | Dikey Metin |
-| ClipArtAndVerticalText | `25` | Clip Art ve Dikey Metin |
-| VerticalTitleAndText | `26` | Dikey Başlık ve Metin |
-| VerticalTitleAndTextOverChart | `27` | Dikey Başlık ve Metin, Grafik Üzerinde |
-| TwoObjects | `28` | İki Nesne |
-| ObjectAndTwoObject | `29` | Nesne ve İki Nesne |
-| TwoObjectsAndObject | `30` | İki Nesne ve Nesne |
-| SectionHeader | `31` | Bölüm Başlığı |
-| TwoTextAndTwoObjects | `32` | İki Metin ve İki Nesne |
-| TitleObjectAndCaption | `33` | Başlık, Nesne ve Alt Yazı |
-| PictureAndCaption | `34` | Resim ve Alt Yazı |
+| TitleOnly | `10` | Title Only |
+| Blank | `11` | Blank |
+| TextAndObject | `12` | Metin ve Object |
+| ObjectAndText | `13` | Object ve Metin |
+| Object | `14` | Object |
+| TitleAndObject | `15` | Title ve Object |
+| TextAndMedia | `16` | Metin ve Media |
+| MediaAndText | `17` | Media ve Metin |
+| ObjectOverText | `18` | Object over Text |
+| TextOverObject | `19` | Text over Object |
+| TextAndTwoObjects | `20` | Metin ve Two Objects |
+| TwoObjectsAndText | `21` | Two Objects ve Metin |
+| TwoObjectsOverText | `22` | Two Objects over Text |
+| FourObjects | `23` | Four Objects |
+| VerticalText | `24` | Vertical Text |
+| ClipArtAndVerticalText | `25` | Clip Art ve Vertical Text |
+| VerticalTitleAndText | `26` | Vertical Title ve Text |
+| VerticalTitleAndTextOverChart | `27` | Vertical Title ve Text Over Chart |
+| TwoObjects | `28` | Two Objects |
+| ObjectAndTwoObject | `29` | Object ve Two Object |
+| TwoObjectsAndObject | `30` | Two Objects ve Object |
+| SectionHeader | `31` | Section Header |
+| TwoTextAndTwoObjects | `32` | Two Text ve Two Objects |
+| TitleObjectAndCaption | `33` | Title, Object ve Caption |
+| PictureAndCaption | `34` | Picture ve Caption |
 
-### Ayrıca Bakınız
+### İlgili
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

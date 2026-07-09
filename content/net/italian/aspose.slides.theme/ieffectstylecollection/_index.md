@@ -1,14 +1,14 @@
 ---
 title: IEffectStyleCollection
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta una raccolta di stili di effetto.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta una collezione di stili di effetto.
 type: docs
-weight: 11160
+weight: 11180
 url: /it/aspose.slides.theme/ieffectstylecollection/
 ---
-## IEffectStyleCollection interface
+## IEffectStyleCollection interfaccia
 
-Rappresenta una raccolta di stili di effetto.
+Rappresenta una collezione di stili di effetto.
 
 ```csharp
 public interface IEffectStyleCollection : IGenericCollection<IEffectStyle>
@@ -18,7 +18,7 @@ public interface IEffectStyleCollection : IGenericCollection<IEffectStyle>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ieffectstylecollection/item) { get; } | Restituisce un elemento nella posizione specificata. Solo lettura [`IEffectStyle`](../ieffectstyle). |
+| [Item](../../aspose.slides.theme/ieffectstylecollection/item) { get; } | Restituisce un elemento alla posizione specificata. Solo lettura [`IEffectStyle`](../ieffectstyle). |
 
 ### Vedi anche
 

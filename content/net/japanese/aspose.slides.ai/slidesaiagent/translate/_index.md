@@ -1,14 +1,14 @@
 ---
 title: Translate
 second_title: Aspose.Sildes for .NET API リファレンス
-description: AI を使用してプレゼンテーションを指定された言語に変換します（同期バージョン）。
+description: AI を使用して、プレゼンテーションを指定された言語に同期的に変換します。
 type: docs
 weight: 40
 url: /ja/aspose.slides.ai/slidesaiagent/translate/
 ---
 ## SlidesAIAgent.Translate メソッド
 
-AI を使用してプレゼンテーションを指定された言語に変換します（同期バージョン）。
+AI を使用して、プレゼンテーションを指定された言語に変換します（同期バージョン）。
 
 ```csharp
 public void Translate(IPresentation presentation, string language)
@@ -25,6 +25,14 @@ public void Translate(IPresentation presentation, string language)
 | --- | --- |
 | ArgumentNullException | プレゼンテーション インスタンスが提供されていません |
 | ArgumentException | 言語の値は null または空にできません |
+
+### 備考
+
+以下の例はデフォルトの [`AsposeAIWebClient`](../../asposeaiwebclient) を使用します。これはパラメータなしの [`SlidesAIAgent`](../slidesaiagent) コンストラクターで作成され、Aspose の独自 LLM に接続します。別の AI プロバイダーを使用するには、独自の LLM を提供するか、接続をカスタマイズ（例: 独自の `HttpClient` を提供する）し、[`SlidesAIAgent`](../slidesaiagent) コンストラクターに [`IAIWebClient`](../../iaiwebclient) 実装を渡します。利用可能な実装は次のとおりです：
+
+* [`AsposeAIWebClient`](../../asposeaiwebclient)
+* [`OpenAIWebClient`](../../openaiwebclient)
+* [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
 
 ### 関連項目
 

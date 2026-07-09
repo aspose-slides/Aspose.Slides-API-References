@@ -1,15 +1,14 @@
 ---
 title: PdfAccessPermissions
-second_title: Aspose.Sildes für .NET API Referenz
-description: Enthält eine Reihe von Flags, die angeben, welche Zugriffsberechtigungen gewährt werden sollen, wenn das Dokument mit Benutzerzugriff geöffnet wird.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Enthält eine Menge von Flags, die angeben, welche Zugriffsberechtigungen beim Öffnen des Dokuments mit Benutzerzugriff gewährt werden sollen.
 type: docs
-weight: 4120
+weight: 4310
 url: /de/aspose.slides.export/pdfaccesspermissions/
 ---
-
 ## PdfAccessPermissions Aufzählung
 
-Enthält eine Reihe von Flags, die angeben, welche Zugriffsberechtigungen gewährt werden sollen, wenn das Dokument mit Benutzerzugriff geöffnet wird.
+Enthält eine Menge von Flags, die angeben, welche Zugriffsberechtigungen beim Öffnen des Dokuments mit Benutzerzugriff gewährt werden sollen.
 
 ```csharp
 [Flags]
@@ -18,21 +17,21 @@ public enum PdfAccessPermissions
 
 ### Werte
 
-| Name | Wert | Beschreibung |
+| Name | Value | Description |
 | --- | --- | --- |
 | None | `0` | Gibt an, dass ein Benutzer keine Zugriffsberechtigungen hat. |
-| PrintDocument | `4` | Gibt an, ob ein Benutzer das Dokument drucken darf (möglicherweise nicht in der höchsten Qualität, abhängig davon, ob das Bit HighQualityPrint ebenfalls gesetzt ist). |
-| ModifyContent | `8` | Gibt an, ob ein Benutzer den Inhalt des Dokuments durch Operationen, die nicht durch die Bits AddOrModifyFields, FillExistingFields, AssembleDocument gesteuert werden, ändern darf. |
-| CopyTextAndGraphics | `10` | Gibt an, ob ein Benutzer Text und Grafiken aus dem Dokument durch Operationen, die nicht durch das Bit ExtractTextAndGraphics gesteuert werden, kopieren oder extrahieren darf. |
-| AddOrModifyFields | `20` | Gibt an, ob ein Benutzer Textanmerkungen hinzufügen oder ändern, interaktive Formularfelder ausfüllen und, wenn das Bit ModifyContent ebenfalls gesetzt ist, interaktive Formularfelder (einschließlich Unterschriftfelder) erstellen oder ändern darf. |
-| FillExistingFields | `100` | Gibt an, ob ein Benutzer vorhandene interaktive Formularfelder (einschließlich Unterschriftfelder) ausfüllen darf, selbst wenn das Bit AddOrModifyFields nicht gesetzt ist. |
-| ExtractTextAndGraphics | `200` | Gibt an, ob ein Benutzer Text und Grafiken zur Unterstützung der Zugänglichkeit für Benutzer mit Behinderungen oder für andere Zwecke extrahieren darf. |
-| AssembleDocument | `400` | Gibt an, ob ein Benutzer das Dokument zusammenstellen darf (Seiten einfügen, drehen oder löschen und Lesezeichen oder Thumbnail-Bilder erstellen), selbst wenn das Bit ModifyContent nicht gesetzt ist. |
-| HighQualityPrint | `800` | Gibt an, ob ein Benutzer das Dokument so drucken darf, dass eine treue digitale Kopie des PDF-Inhalts erstellt werden kann. Wenn dieses Bit nicht gesetzt ist (und das Bit PrintDocument gesetzt ist), ist das Drucken auf eine niedrigere Darstellung des Erscheinungsbilds mit möglicherweise verminderter Qualität beschränkt. |
+| PrintDocument | `4` | Gibt an, ob ein Benutzer das Dokument drucken darf (möglicherweise nicht in höchster Qualität, abhängig davon, ob das Bit HighQualityPrint ebenfalls gesetzt ist). |
+| ModifyContent | `8` | Gibt an, ob ein Benutzer den Inhalt des Dokuments durch andere Vorgänge als die von den Bits AddOrModifyFields, FillExistingFields, AssembleDocument gesteuerten ändern darf. |
+| CopyTextAndGraphics | `10` | Gibt an, ob ein Benutzer Text und Grafiken aus dem Dokument kopieren oder anderweitig extrahieren darf, durch Vorgänge, die nicht vom Bit ExtractTextAndGraphics gesteuert werden. |
+| AddOrModifyFields | `20` | Gibt an, ob ein Benutzer Textanmerkungen hinzufügen oder ändern, interaktive Formularfelder ausfüllen und, wenn das Bit ModifyContent ebenfalls gesetzt ist, interaktive Formularfelder (einschließlich Signaturfelder) erstellen oder ändern darf. |
+| FillExistingFields | `100` | Gibt an, ob ein Benutzer vorhandene interaktive Formularfelder (einschließlich Signaturfelder) ausfüllen darf, selbst wenn das Bit AddOrModifyFields nicht gesetzt ist. |
+| ExtractTextAndGraphics | `200` | Gibt an, ob ein Benutzer Text und Grafiken zur Barrierefreiheit für Benutzer mit Behinderungen oder zu anderen Zwecken extrahieren darf. |
+| AssembleDocument | `400` | Gibt an, ob ein Benutzer das Dokument zusammenstellen darf (Seiten einfügen, drehen oder löschen und Lesezeichen oder Miniaturbilder erstellen), selbst wenn das Bit ModifyContent nicht gesetzt ist. |
+| HighQualityPrint | `800` | Gibt an, ob ein Benutzer das Dokument so drucken darf, dass daraus eine getreue digitale Kopie des PDF-Inhalts erzeugt werden kann. Ist dieses Bit nicht gesetzt (und das Bit PrintDocument ist gesetzt), ist der Druck auf eine niedrigstufige Darstellung des Aussehens beschränkt, möglicherweise in reduzierter Qualität. |
 
-### Siehe Auch
+### Siehe auch
 
-* namespace [Aspose.Slides.Export](../../aspose.slides.export)
-* assembly [Aspose.Slides](../../)
+* Namensraum [Aspose.Slides.Export](../../aspose.slides.export)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

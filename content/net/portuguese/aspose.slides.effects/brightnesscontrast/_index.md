@@ -1,9 +1,9 @@
 ---
 title: BrightnessContrast
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa um efeito BrightnessContrast. Ajusta brilho e contraste
 type: docs
-weight: 2910
+weight: 2930
 url: /pt/aspose.slides.effects/brightnesscontrast/
 ---
 ## BrightnessContrast classe
@@ -26,9 +26,9 @@ public sealed class BrightnessContrast : ImageTransformOperation, IBrightnessCon
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/brightnesscontrast/equals)(object) | Determina se o [`BrightnessContrast`](../brightnesscontrast) especificado é igual ao [`BrightnessContrast`](../brightnesscontrast) atual. |
 | [GetEffective](../../aspose.slides.effects/brightnesscontrast/geteffective)() | Obtém os dados efetivos do efeito BrightnessContrast com a herança aplicada. |
-| override [GetHashCode](../../aspose.slides.effects/brightnesscontrast/gethashcode)() | Serve como função hash para um tipo específico. |
+| override [GetHashCode](../../aspose.slides.effects/brightnesscontrast/gethashcode)() | Funciona como uma função hash para um tipo específico. |
 
-### Veja Também
+### Ver também
 
 * classe [ImageTransformOperation](../imagetransformoperation)
 * interface [IBrightnessContrast](../ibrightnesscontrast)

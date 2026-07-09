@@ -1,14 +1,14 @@
 ---
 title: ISoftEdgeEffectiveData
 second_title: Aspose.Sildes pro .NET API Reference
-description: Neměnný objekt, který představuje efekt měkkých okrajů. Okraje tvaru jsou rozmazány, zatímco výplň není ovlivněna.
+description: Neměnný objekt, který představuje efekt měkkých hran. Hrany tvaru jsou rozmazané, zatímco výplň není ovlivněna.
 type: docs
-weight: 3510
+weight: 3530
 url: /cs/aspose.slides.effects/isoftedgeeffectivedata/
 ---
-## rozhraní ISoftEdgeEffectiveData
+## ISoftEdgeEffectiveData rozhraní
 
-Neměnný objekt, který představuje efekt měkkých okrajů. Okraje tvaru jsou rozmazané, zatímco výplň není ovlivněna.
+Neměnný objekt, který představuje efekt měkkých hran. Hrany tvaru jsou rozmazané, zatímco výplň není ovlivněna.
 
 ```csharp
 public interface ISoftEdgeEffectiveData : IEffectEffectiveData
@@ -19,7 +19,7 @@ public interface ISoftEdgeEffectiveData : IEffectEffectiveData
 | Název | Popis |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata) { get; } | Umožňuje získat základní rozhraní IEffectEffectiveData. Pouze ke čtení [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | Určuje poloměr rozostření aplikovaný na okraje. Pouze ke čtení Double. |
+| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | Určuje poloměr rozostření, který se má použít na okraje. Pouze ke čtení Double. |
 
 ### Viz také
 

@@ -1,14 +1,14 @@
 ---
 title: IGroupShape
-second_title: Aspose.Sildes for .NET API Referansı
-description: Bir slayttaki şekil grubunu temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bir slayttaki şekillerin grubunu temsil eder.
 type: docs
-weight: 6060
+weight: 6080
 url: /tr/aspose.slides/igroupshape/
 ---
-## IGroupShape arayüz
+## IGroupShape arayüzü
 
-Bir slaytta şekillerin grubunu temsil eder.
+Bir slayttaki şekillerin grubunu temsil eder.
 
 ```csharp
 public interface IGroupShape : IShape
@@ -18,10 +18,10 @@ public interface IGroupShape : IShape
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIShape](../../aspose.slides/igroupshape/asishape) { get; } | Temel IShape arayüzünü almayı sağlar. Yalnızca okunur [`IShape`](../ishape). |
-| [GroupShapeLock](../../aspose.slides/igroupshape/groupshapelock) { get; } | Şeklin kilitlerini döndürür. Yalnızca okunur [`IGroupShapeLock`](../igroupshapelock). |
-| [ShapeLock](../../aspose.slides/igroupshape/shapelock) { get; } | Şeklin kilitlerini döndürür. Yalnızca okunur [`IGroupShapeLock`](../igroupshapelock). |
-| [Shapes](../../aspose.slides/igroupshape/shapes) { get; } | Grubun içindeki şekiller koleksiyonunu döndürür. Yalnızca okunur [`IShapeCollection`](../ishapecollection). |
+| [AsIShape](../../aspose.slides/igroupshape/asishape) { get; } | Temel IShape arayüzünü almaya izin verir. Salt okunur [`IShape`](../ishape). |
+| [GroupShapeLock](../../aspose.slides/igroupshape/groupshapelock) { get; } | Şeklin kilitlerini döndürür. Salt okunur [`IGroupShapeLock`](../igroupshapelock). |
+| [ShapeLock](../../aspose.slides/igroupshape/shapelock) { get; } | Şeklin kilitlerini döndürür. Salt okunur [`IGroupShapeLock`](../igroupshapelock). |
+| [Shapes](../../aspose.slides/igroupshape/shapes) { get; } | Grup içindeki şekillerin koleksiyonunu döndürür. Salt okunur [`IShapeCollection`](../ishapecollection). |
 
 ### Ayrıca Bakınız
 

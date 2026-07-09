@@ -1,14 +1,14 @@
 ---
 title: IMasterNotesSlideHeaderFooterManager
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Reprezentuje menedżera, który przechowuje zachowanie pól zastępczych stopki slajdu notatek głównych, daty i godziny, numeru strony oraz wszystkich pól zastępczych podrzędnych. Pola zastępcze podrzędne oznaczają, że pola zastępcze są zawarte na zależnych slajdach notatek. Zależne slajdy notatek używają i zależą od slajdu notatek głównych.
+second_title: Aspose.Sildes dla .NET odniesienie API
+description: Reprezentuje menedżera, który utrzymuje zachowanie stopki slajdu notatek master, znacznika daty i czasu, numeru strony oraz wszystkich znaczników podrzędnych. Znaczniki podrzędne oznaczają znaczniki znajdujące się na zależnych slajdach notatek. Zależne slajdy notatek używają i zależą od slajdu notatek master.
 type: docs
-weight: 6380
+weight: 6400
 url: /pl/aspose.slides/imasternotesslideheaderfootermanager/
 ---
 ## IMasterNotesSlideHeaderFooterManager interfejs
 
-Reprezentuje menedżera, który przechowuje zachowanie stopki slajdu notatek głównych, pól zastępczych daty i godziny, numeru strony oraz wszystkich pól zastępczych podrzędnych. Pola zastępcze podrzędne oznaczają, że pola zastępcze są zawarte na zależnych slajdach notatek. Zależne slajdy notatek używają i zależą od slajdu notatek głównych.
+Reprezentuje menedżera, który utrzymuje zachowanie stopki slajdu notatek master, znacznika daty i czasu, numeru strony oraz wszystkich znaczników podrzędnych. Znaczniki podrzędne oznaczają znaczniki znajdujące się na zależnych slajdach notatek. Zależne slajdy notatek używają i zależą od slajdu notatek master.
 
 ```csharp
 public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -24,13 +24,13 @@ public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHe
 
 | Nazwa | Opis |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Ustawia tekst w polu zastępczym daty i godziny slajdu notatek głównych oraz we wszystkich polach zastępczych daty i godziny podrzędnych. Pola zastępcze podrzędne oznaczają, że pola zastępcze są zawarte na zależnych slajdach notatek. Zależne slajdy notatek używają i zależą od slajdu notatek głównych. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Zmienia widoczność pola zastępczego daty i godziny slajdu notatek głównych oraz wszystkich pól zastępczych daty i godziny podrzędnych. Pola zastępcze podrzędne oznaczają, że pola zastępcze są zawarte na zależnych slajdach notatek. Zależne slajdy notatek używają i zależą od slajdu notatek głównych. |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | Ustawia tekst w polu zastępczym stopki slajdu notatek głównych oraz we wszystkich polach zastępczych stopki podrzędnych. Pola zastępcze podrzędne oznaczają, że pola zastępcze są zawarte na zależnych slajdach notatek. Zależne slajdy notatek używają i zależą od slajdu notatek głównych. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Zmienia widoczność pola zastępczego stopki slajdu notatek głównych oraz wszystkich pól zastępczych stopki podrzędnych. Pola zastępcze podrzędne oznaczają, że pola zastępcze są zawarte na zależnych slajdach notatek. Zależne slajdy notatek używają i zależą od slajdu notatek głównych. |
-| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | Ustawia tekst w polu zastępczym nagłówka slajdu notatek głównych oraz we wszystkich polach zastępczych nagłówka podrzędnych. Pola zastępcze podrzędne oznaczają, że pola zastępcze są zawarte na zależnych slajdach notatek. Zależne slajdy notatek używają i zależą od slajdu notatek głównych. |
-| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | Zmienia widoczność pola zastępczego nagłówka slajdu notatek głównych oraz wszystkich pól zastępczych nagłówka podrzędnych. Pola zastępcze podrzędne oznaczają, że pola zastępcze są zawarte na zależnych slajdach notatek. Zależne slajdy notatek używają i zależą od slajdu notatek głównych. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Zmienia widoczność pola zastępczego numeru strony slajdu notatek głównych oraz wszystkich pól zastępczych numeru strony podrzędnych. Pola zastępcze podrzędne oznaczają, że pola zastępcze są zawarte na zależnych slajdach notatek. Zależne slajdy notatek używają i zależą od slajdu notatek głównych. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Ustawia tekst w znaczniku daty i czasu slajdu notatek master oraz we wszystkich znacznikach daty i czasu podrzędnych. Znaczniki podrzędne oznaczają znaczniki znajdujące się na zależnych slajdach notatek. Zależne slajdy notatek używają i zależą od slajdu notatek master. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Zmienia widoczność znacznika daty i czasu slajdu notatek master oraz wszystkich znaczników daty i czasu podrzędnych. Znaczniki podrzędne oznaczają znaczniki znajdujące się na zależnych slajdach notatek. Zależne slajdy notatek używają i zależą od slajdu notatek master. |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | Ustawia tekst w znaczniku stopki slajdu notatek master oraz we wszystkich znacznikach stopki podrzędnych. Znaczniki podrzędne oznaczają znaczniki znajdujące się na zależnych slajdach notatek. Zależne slajdy notatek używają i zależą od slajdu notatek master. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Zmienia widoczność znacznika stopki slajdu notatek master oraz wszystkich znaczników stopki podrzędnych. Znaczniki podrzędne oznaczają znaczniki znajdujące się na zależnych slajdach notatek. Zależne slajdy notatek używają i zależą od slajdu notatek master. |
+| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | Ustawia tekst w znaczniku nagłówka slajdu notatek master oraz we wszystkich znacznikach nagłówka podrzędnych. Znaczniki podrzędne oznaczają znaczniki znajdujące się na zależnych slajdach notatek. Zależne slajdy notatek używają i zależą od slajdu notatek master. |
+| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | Zmienia widoczność znacznika nagłówka slajdu notatek master oraz wszystkich znaczników nagłówka podrzędnych. Znaczniki podrzędne oznaczają znaczniki znajdujące się na zależnych slajdach notatek. Zależne slajdy notatek używają i zależą od slajdu notatek master. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Zmienia widoczność znacznika numeru strony slajdu notatek master oraz wszystkich znaczników numeru strony podrzędnych. Znaczniki podrzędne oznaczają znaczniki znajdujące się na zależnych slajdach notatek. Zależne slajdy notatek używają i zależą od slajdu notatek master. |
 
 ### Zobacz także
 

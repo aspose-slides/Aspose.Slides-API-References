@@ -1,14 +1,14 @@
 ---
 title: IColorReplace
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta un effetto di sostituzione del colore.
+second_title: Riferimento API di Aspose.Sildes per .NET
+description: Rappresenta un effetto di sostituzione colore.
 type: docs
-weight: 3220
+weight: 3240
 url: /it/aspose.slides.effects/icolorreplace/
 ---
 ## IColorReplace interfaccia
 
-Rappresenta un effetto di sostituzione del colore.
+Rappresenta un effetto di sostituzione colore.
 
 ```csharp
 public interface IColorReplace : IAccessiblePVIObject<IColorReplaceEffectiveData>, 

@@ -1,12 +1,12 @@
 ---
 title: LineStyle
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: 線のスタイルを表します。
 type: docs
-weight: 7800
+weight: 7820
 url: /ja/aspose.slides/linestyle/
 ---
-## LineStyle 列挙型
+## LineStyle 列挙体
 
 線のスタイルを表します。
 
@@ -25,7 +25,7 @@ public enum LineStyle : sbyte
 | ThinThick | `3` |  |
 | ThickBetweenThin | `4` |  |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

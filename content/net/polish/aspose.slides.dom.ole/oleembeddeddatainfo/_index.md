@@ -1,9 +1,9 @@
 ---
 title: OleEmbeddedDataInfo
-second_title: Aspose.Sildes dla .NET API Reference
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje informacje o osadzonych danych dla obiektu OLE.
 type: docs
-weight: 2740
+weight: 2760
 url: /pl/aspose.slides.dom.ole/oleembeddeddatainfo/
 ---
 ## OleEmbeddedDataInfo klasa
@@ -14,19 +14,19 @@ Reprezentuje informacje o osadzonych danych dla obiektu OLE.
 public class OleEmbeddedDataInfo : IOleEmbeddedDataInfo
 ```
 
-## Konstruktorzy
+## Konstruktory
 
 | Nazwa | Opis |
 | --- | --- |
-| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor)() | Tworzy nową informację o osadzonych danych dla obiektu OLE. |
-| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor_1)(byte[], string) | Tworzy nową instancję informacji o osadzonych danych dla obiektu OLE. Dane pliku osadzonego obiektu OLE Byte[]. Rozszerzenie pliku bieżącego osadzonego obiektu OLE String. |
+| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor)() | Tworzy nowe informacje o osadzonych danych dla obiektu OLE. |
+| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor_1)(byte[], string) | Tworzy nową instancję informacji o osadzonych danych dla obiektu OLE. Dane pliku osadzonego obiektu OLE Byte[]. Rozszerzenie pliku dla bieżącego osadzonego obiektu OLE String. |
 
 ## Właściwości
 
 | Nazwa | Opis |
 | --- | --- |
 | [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | Zwraca dane pliku osadzonego obiektu OLE. Tylko do odczytu Byte[]. |
-| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | Zwraca rozszerzenie pliku bieżącego osadzonego obiektu OLE. Tylko do odczytu String. |
+| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | Zwraca rozszerzenie pliku dla bieżącego osadzonego obiektu OLE. Tylko do odczytu String. |
 
 ### Zobacz także
 

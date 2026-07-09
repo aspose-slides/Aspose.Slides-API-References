@@ -3,10 +3,10 @@ title: AnimateTextType
 second_title: Aspose.Sildes for .NET API リファレンス
 description: アニメーション効果のテキスト アニメーション タイプを表します。
 type: docs
-weight: 100
+weight: 120
 url: /ja/aspose.slides.animation/animatetexttype/
 ---
-## AnimateTextType 列挙体
+## AnimateTextType 列挙
 
 アニメーション効果のテキスト アニメーション タイプを表します。
 

@@ -1,14 +1,14 @@
 ---
 title: CaptionsCollection
-second_title: Aspose.Sildes for .NET API Referansı
-description: Kapalı altyazıların bir koleksiyonunu temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Kapanmış altyazıların bir koleksiyonunu temsil eder.
 type: docs
-weight: 1100
+weight: 1120
 url: /tr/aspose.slides/captionscollection/
 ---
 ## CaptionsCollection sınıfı
 
-Kapalı altyazıların bir koleksiyonunu temsil eder.
+Kapanmış altyazıların bir koleksiyonunu temsil eder.
 
 ```csharp
 public sealed class CaptionsCollection : ICaptionsCollection
@@ -18,21 +18,21 @@ public sealed class CaptionsCollection : ICaptionsCollection
 
 | Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides/captionscollection/count) { get; } | Koleksiyondaki öğelerin sayısını döndürür. Salt okunur Int32. |
-| [Item](../../aspose.slides/captionscollection/item) { get; } | Belirtilen dizindeki kapalı altyazıyı döndürür. Salt okunur [`ICaptions`](../icaptions). |
+| [Count](../../aspose.slides/captionscollection/count) { get; } | Koleksiyondaki öğelerin sayısını döndürür. Salt-okunur Int32. |
+| [Item](../../aspose.slides/captionscollection/item) { get; } | Belirtilen indeksteki kapanmış altyazıyı döndürür. Salt-okunur [`ICaptions`](../icaptions). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [Add](../../aspose.slides/captionscollection/add#add)(string, Stream) | Bir akıştan koleksiyonun sonuna WebVTT kapalı altyazıları ekler. |
-| [Add](../../aspose.slides/captionscollection/add#add_1)(string, string) | Koleksiyonun sonuna WebVTT kapalı altyazıları ekler. |
-| [Clear](../../aspose.slides/captionscollection/clear)() | Koleksiyondan tüm kapalı altyazıları kaldırır. |
-| [GetEnumerator](../../aspose.slides/captionscollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
-| [Remove](../../aspose.slides/captionscollection/remove)(ICaptions) | Koleksiyondan belirtilen kapalı altyazıyı kaldırır. |
-| [RemoveAt](../../aspose.slides/captionscollection/removeat)(int) | Belirtilen dizindeki kapalı altyazıları kaldırır. |
+| [Add](../../aspose.slides/captionscollection/add#add)(string, Stream) | WebVTT kapanmış altyazıları bir akıştan koleksiyonun sonuna ekler. |
+| [Add](../../aspose.slides/captionscollection/add#add_1)(string, string) | WebVTT kapanmış altyazıları koleksiyonun sonuna ekler. |
+| [Clear](../../aspose.slides/captionscollection/clear)() | Koleksiyondan tüm kapanmış altyazıları kaldırır. |
+| [GetEnumerator](../../aspose.slides/captionscollection/getenumerator)() | Koleksiyon içinde yineleme yapabilen bir enumeratör döndürür. |
+| [Remove](../../aspose.slides/captionscollection/remove)(ICaptions) | Belirtilen kapanmış altyazıyı koleksiyondan kaldırır. |
+| [RemoveAt](../../aspose.slides/captionscollection/removeat)(int) | Belirtilen indeksteki kapanmış altyazıyı kaldırır. |
 
-### Bakınız
+### İlgili
 
 * arayüz [ICaptionsCollection](../icaptionscollection)
 * ad alanı [Aspose.Slides](../../aspose.slides)

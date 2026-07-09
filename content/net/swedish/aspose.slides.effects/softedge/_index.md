@@ -3,12 +3,12 @@ title: SoftEdge
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en mjuk kant-effekt. Formens kanter är suddiga medan fyllningen inte påverkas.
 type: docs
-weight: 3630
+weight: 3650
 url: /sv/aspose.slides.effects/softedge/
 ---
 ## SoftEdge klass
 
-Representerar en mjuk kant-effekt. Formens kanter är suddiga, medan fyllningen inte påverkas.
+Representerar en mjuk kant-effekt. Formens kanter är suddiga, men fyllningen påverkas inte.
 
 ```csharp
 public sealed class SoftEdge : ISoftEdge
@@ -18,17 +18,17 @@ public sealed class SoftEdge : ISoftEdge
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | Anger radien på suddet som ska appliceras på kanterna. Läs/skriv Double. |
+| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | Anger radien för suddigheten som ska tillämpas på kanterna. Läs/skriv Double. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/softedge/equals)(object) | Bestämmer om den angivna [`SoftEdge`](../softedge) är lika med den aktuella [`SoftEdge`](../softedge). |
-| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | Hämtar effektiva Soft Edge-effektsdata med ärvd egenskap tillämpad. |
+| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | Hämtar effektiv Soft Edge-effektsdata med ärvning tillämpad. |
 | override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | Fungerar som en hash-funktion för en specifik typ. |
 
-### Se även
+### Se också
 
 * gränssnitt [ISoftEdge](../isoftedge)
 * namnrymd [Aspose.Slides.Effects](../../aspose.slides.effects)

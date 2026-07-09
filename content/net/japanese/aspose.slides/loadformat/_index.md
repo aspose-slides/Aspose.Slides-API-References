@@ -1,14 +1,14 @@
 ---
 title: LoadFormat
-second_title: Aspose.Sildes for .NET API リファレンス
-description: ロードされるドキュメントの形式を示します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: ロードするドキュメントの形式を示します。
 type: docs
-weight: 7810
+weight: 7830
 url: /ja/aspose.slides/loadformat/
 ---
-## LoadFormat 列挙体
+## LoadFormat 列挙型
 
-ロードされるドキュメントの形式を示します。
+ロードするドキュメントの形式を示します。
 
 ```csharp
 public enum LoadFormat
@@ -25,16 +25,16 @@ public enum LoadFormat
 | Ppsx | `4` | Microsoft Office Open XML PresentationML スライドショー。 |
 | Odp | `5` | OpenOffice ODF プレゼンテーション。 |
 | Potx | `6` | Microsoft Office Open XML PresentationML テンプレート。 |
-| Pptm | `7` | Microsoft Office Open XML PresentationML マクロ対応ドキュメント。 |
-| Ppsm | `8` | Microsoft Office Open XML PresentationML マクロ対応スライドショー。 |
-| Potm | `9` | Microsoft Office Open XML PresentationML マクロ対応テンプレート。 |
+| Pptm | `7` | Microsoft Office Open XML PresentationML マクロ有効ドキュメント。 |
+| Ppsm | `8` | Microsoft Office Open XML PresentationML マクロ有効スライドショー。 |
+| Potm | `9` | Microsoft Office Open XML PresentationML マクロ有効テンプレート。 |
 | Otp | `10` | OpenOffice OTP プレゼンテーションテンプレート。 |
 | Ppt95 | `11` | Microsoft PowerPoint 95 プレゼンテーション。 |
 | Pot | `12` | Microsoft PowerPoint 97-2003 プレゼンテーションテンプレート。 |
-| Fodp | `13` | フラット XML ODF プレゼンテーション。 |
+| Fodp | `13` | Flat XML ODF プレゼンテーション。 |
 | Unknown | `255` | 不明なファイル形式 |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

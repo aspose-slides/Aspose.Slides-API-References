@@ -1,14 +1,14 @@
 ---
 title: IMathArray
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Denklemlerin veya herhangi bir matematiksel nesnenin dikey bir dizisini belirtir
 type: docs
-weight: 8080
+weight: 8100
 url: /tr/aspose.slides.mathtext/imatharray/
 ---
-## IMathArray arayüzü
+## IMathArray arayüz
 
-Dikey bir denklemler dizisini veya herhangi bir matematiksel nesneyi belirtir
+Denklemlerin veya diğer matematiksel nesnelerin dikey bir dizisini belirtir
 
 ```csharp
 public interface IMathArray : IMathElement
@@ -16,14 +16,14 @@ public interface IMathArray : IMathElement
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [Arguments](../../aspose.slides.mathtext/imatharray/arguments) { get; } | Dizideki öğe kümesi |
-| [AsIMathElement](../../aspose.slides.mathtext/imatharray/asimathelement) { get; } | Temel IMathElement arayüzünü almaya izin verir [`IMathElement`](../imathelement) |
-| [BaseJustification](../../aspose.slides.mathtext/imatharray/basejustification) { get; set; } | Dizinin çevredeki metne göre hizalamasını belirtir. Dizinin dışındaki metin, dizi nesnesinin altına, üstüne ya da merkezine hizalanabilir. Varsayılan değer: Center |
-| [MaximumDistribution](../../aspose.slides.mathtext/imatharray/maximumdistribution) { get; set; } | Maximum Distribution: Doğru olduğunda, dizi içerdiği öğenin (sayfa, sütun, hücre, vb.) maksimum genişliğine yayılır. |
-| [ObjectDistribution](../../aspose.slides.mathtext/imatharray/objectdistribution) { get; set; } | Object Distribution: Doğru olduğunda, dizi içeriği dizi nesnesinin maksimum genişliğine yayılır. |
-| [RowSpacing](../../aspose.slides.mathtext/imatharray/rowspacing) { get; set; } | Dizideki satırlar arasındaki boşluk. Yalnızca RowSpacingRule 3 olarak ayarlandığında kullanılır. Bu durumda ölçü birimi puan, Multiple olduğunda ölçü birimi yarım satırdır. Varsayılan: 0 |
+| [Arguments](../../aspose.slides.mathtext/imatharray/arguments) { get; } | Dizinin öğe kümesi |
+| [AsIMathElement](../../aspose.slides.mathtext/imatharray/asimathelement) { get; } | Temel IMathElement arayüzünü almayı sağlar [`IMathElement`](../imathelement) |
+| [BaseJustification](../../aspose.slides.mathtext/imatharray/basejustification) { get; set; } | Dizinin çevresindeki metne göre hizalamasını belirtir. Dizinin dışındaki metin, bir dizi nesnesinin altına, üstüne veya ortasına hizalanabilir. Varsayılan değer: Center |
+| [MaximumDistribution](../../aspose.slides.mathtext/imatharray/maximumdistribution) { get; set; } | Maksimum Dağıtım. True olduğunda, dizi içeren öğenin (sayfa, sütun, hücre vb.) maksimum genişliğine göre boşluklandırılır. |
+| [ObjectDistribution](../../aspose.slides.mathtext/imatharray/objectdistribution) { get; set; } | Nesne Dağıtımı. True olduğunda, dizinin içeriği dizi nesnesinin maksimum genişliğine göre boşluklandırılır. |
+| [RowSpacing](../../aspose.slides.mathtext/imatharray/rowspacing) { get; set; } | Bir dizinin satırları arasındaki boşluk. Yalnızca RowSpacingRule 3 olarak ayarlandığında kullanılır; bu durumda ölçü birimi puan, Multiple olarak ayarlandığında ise yarım satırdır. Varsayılan: 0 |
 | [RowSpacingRule](../../aspose.slides.mathtext/imatharray/rowspacingrule) { get; set; } | Dizi öğeleri arasındaki dikey boşluk türü |
 
 ### Örnekler
@@ -35,7 +35,7 @@ public interface IMathArray : IMathElement
 IMathArray mathArray = new MathArray(new MathematicalText("item1"));
 ```
 
-### Ayrıca Bakınız
+### Diğer
 
 * arayüz [IMathElement](../imathelement)
 * ad alanı [Aspose.Slides.MathText](../../aspose.slides.mathtext)

@@ -1,9 +1,9 @@
 ---
 title: ICaptionsCollection
-second_title: Aspose.Sildes の .NET 用 API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: クローズドキャプションのコレクションを表します。
 type: docs
-weight: 5420
+weight: 5440
 url: /ja/aspose.slides/icaptionscollection/
 ---
 ## ICaptionsCollection インターフェイス
@@ -16,14 +16,14 @@ public interface ICaptionsCollection : IEnumerable<ICaptions>
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/icaptionscollection/count) { get; } | コレクション内の要素数を返します。読み取り専用 Int32。 |
-| [Item](../../aspose.slides/icaptionscollection/item) { get; } | 指定されたインデックスのクローズドキャプションを返します。読み取り専用 [`ICaptions`](../icaptions)。 |
+| [Count](../../aspose.slides/icaptionscollection/count) { get; } | コレクション内の要素数を返します。読み取り専用 Int32. |
+| [Item](../../aspose.slides/icaptionscollection/item) { get; } | 指定されたインデックスのクローズドキャプションを返します。読み取り専用 [`ICaptions`](../icaptions). |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/icaptionscollection/add#add)(string, Stream) | ストリームからコレクションの末尾に WebVTT クローズドキャプションを追加します。 |
 | [Add](../../aspose.slides/icaptionscollection/add#add_1)(string, string) | コレクションの末尾に WebVTT クローズドキャプションを追加します。 |

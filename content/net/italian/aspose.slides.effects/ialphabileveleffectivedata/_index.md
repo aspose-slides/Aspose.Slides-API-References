@@ -1,14 +1,14 @@
 ---
 title: IAlphaBiLevelEffectiveData
 second_title: Aspose.Sildes per .NET API Reference
-description: Oggetto immutabile che rappresenta un effetto Alpha Bi-Level. I valori Alpha Opacity inferiori alla soglia vengono cambiati a 0 (completamente trasparente) e i valori alpha maggiori o uguali alla soglia vengono cambiati a 100 (completamente opaco).
+description: Oggetto immutabile che rappresenta un effetto Alpha Bi-Level. I valori di Opacità Alpha inferiori alla soglia vengono modificati a 0 (completamente trasparente) e i valori alpha maggiori o uguali alla soglia vengono modificati a 100 (completamente opaco).
 type: docs
-weight: 3010
+weight: 3030
 url: /it/aspose.slides.effects/ialphabileveleffectivedata/
 ---
 ## IAlphaBiLevelEffectiveData interfaccia
 
-Oggetto immutabile che rappresenta un effetto Alpha Bi-Level. I valori Alpha (Opacity) inferiori alla soglia vengono impostati a 0 (completamente trasparenti) e i valori alpha maggiori o uguali alla soglia vengono impostati al 100 % (completamente opachi).
+Oggetto immutabile che rappresenta un effetto Alpha Bi-Level. I valori Alpha (Opacità) inferiori alla soglia vengono modificati a 0 (completamente trasparente) e i valori alpha maggiori o uguali alla soglia vengono modificati al 100% (completamente opaco).
 
 ```csharp
 public interface IAlphaBiLevelEffectiveData : IEffectEffectiveData
@@ -18,8 +18,8 @@ public interface IAlphaBiLevelEffectiveData : IEffectEffectiveData
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphabileveleffectivedata/asieffecteffectivedata) { get; } | Consente di ottenere l'interfaccia base IEffectEffectiveData. Solo lettura [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Threshold](../../aspose.slides.effects/ialphabileveleffectivedata/threshold) { get; } | Restituisce la soglia dell'effetto. Solo lettura Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphabileveleffectivedata/asieffecteffectivedata) { get; } | Consente di ottenere l'interfaccia base IEffectEffectiveData. sola lettura [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Threshold](../../aspose.slides.effects/ialphabileveleffectivedata/threshold) { get; } | Restituisce la soglia dell'effetto. sola lettura Single. |
 
 ### Vedi anche
 

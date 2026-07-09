@@ -3,10 +3,10 @@ title: ControlType
 second_title: Referência da API Aspose.Sildes para .NET
 description: Define um tipo de controle que deve ser incorporado por AddControl./icontrolcollection/addcontrol.
 type: docs
-weight: 2700
+weight: 2720
 url: /pt/aspose.slides/controltype/
 ---
-## ControlType enumeração
+## Enumeração ControlType
 
 Define um tipo de controle que deve ser incorporado por [`AddControl`](../icontrolcollection/addcontrol).
 
@@ -18,7 +18,7 @@ public enum ControlType
 
 | Nome | Valor | Descrição |
 | --- | --- | --- |
-| WindowsMediaPlayer | `0` | controle do Windows Media Player. |
+| WindowsMediaPlayer | `0` | controle Windows Media Player. |
 
 ### Ver também
 

@@ -3,12 +3,12 @@ title: IMotionPath
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar rörelsebana.
 type: docs
-weight: 510
+weight: 530
 url: /sv/aspose.slides.animation/imotionpath/
 ---
 ## IMotionPath gränssnitt
 
-Represent motion path.
+Representerar rörelsebana.
 
 ```csharp
 public interface IMotionPath : IEnumerable<IMotionCmdPath>
@@ -16,21 +16,21 @@ public interface IMotionPath : IEnumerable<IMotionCmdPath>
 
 ## Egenskaper
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/imotionpath/asienumerable) { get; } | Tillåter att hämta bas IBehavior gränssnittet. Skrivskyddad IEnumerable. |
-| [Count](../../aspose.slides.animation/imotionpath/count) { get; } | Returnerar antalet sökvägar i samlingen. Skrivskyddad Int32. |
-| [Item](../../aspose.slides.animation/imotionpath/item) { get; } | Returnerar ett kommando på angivet index. |
+| [AsIEnumerable](../../aspose.slides.animation/imotionpath/asienumerable) { get; } | Möjliggör att hämta grundläggande IBehavior-gränssnitt. Skrivskyddad IEnumerable. |
+| [Count](../../aspose.slides.animation/imotionpath/count) { get; } | Returnerar antalet vägar i samlingen. Skrivskyddad Int32. |
+| [Item](../../aspose.slides.animation/imotionpath/item) { get; } | Returnerar ett kommando på det angivna indexet. |
 
 ## Metoder
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.slides.animation/imotionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Lägg till ett nytt kommando till sökvägen |
+| [Add](../../aspose.slides.animation/imotionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Lägg till nytt kommando till banan |
 | [Clear](../../aspose.slides.animation/imotionpath/clear)() | Tar bort alla kommandon från samlingen. |
-| [Insert](../../aspose.slides.animation/imotionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Infoga ett nytt kommando till sökvägen |
+| [Insert](../../aspose.slides.animation/imotionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Infoga nytt kommando i banan |
 | [Remove](../../aspose.slides.animation/imotionpath/remove)(IMotionCmdPath) | Tar bort angivna kommandon från samlingen. |
-| [RemoveAt](../../aspose.slides.animation/imotionpath/removeat)(int) | Tar bort ett kommando på angivet index. |
+| [RemoveAt](../../aspose.slides.animation/imotionpath/removeat)(int) | Tar bort ett kommando på det angivna indexet. |
 
 ### Se även
 

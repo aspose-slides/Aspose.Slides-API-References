@@ -1,9 +1,9 @@
 ---
 title: LightingDirection
-second_title: Aspose.Sildes a .NET API hivatkozáshoz
+second_title: Aspose.Sildes .NET API Referenciája
 description: A fényirányokat meghatározó konstansok.
 type: docs
-weight: 7690
+weight: 7710
 url: /hu/aspose.slides/lightingdirection/
 ---
 ## LightingDirection enumeráció

@@ -1,14 +1,14 @@
 ---
 title: IBackgroundEffectiveData
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Objek tak dapat diubah yang berisi properti latar belakang yang efektif.
+description: Objek tidak dapat diubah yang berisi properti latar belakang yang efektif.
 type: docs
-weight: 5260
+weight: 5280
 url: /id/aspose.slides/ibackgroundeffectivedata/
 ---
 ## IBackgroundEffectiveData antarmuka
 
-Objek tak dapat diubah yang berisi properti latar belakang yang efektif.
+Objek tidak dapat diubah yang berisi properti latar belakang yang efektif.
 
 ```csharp
 public interface IBackgroundEffectiveData : IFillParamSource
@@ -19,12 +19,12 @@ public interface IBackgroundEffectiveData : IFillParamSource
 | Nama | Deskripsi |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ibackgroundeffectivedata/asifillparamsource) { get; } | Mengembalikan antarmuka IFillParamSource. |
-| [EffectFormat](../../aspose.slides/ibackgroundeffectivedata/effectformat) { get; } | Mengembalikan format efek yang efektif. Hanya-baca [`IEffectFormatEffectiveData`](../ieffectformateffectivedata). |
-| [FillFormat](../../aspose.slides/ibackgroundeffectivedata/fillformat) { get; } | Mengembalikan format pengisian yang efektif. Hanya-baca [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [EffectFormat](../../aspose.slides/ibackgroundeffectivedata/effectformat) { get; } | Mengembalikan format efek efektif. Hanya baca [`IEffectFormatEffectiveData`](../ieffectformateffectivedata). |
+| [FillFormat](../../aspose.slides/ibackgroundeffectivedata/fillformat) { get; } | Mengembalikan format pengisian efektif. Hanya baca [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 
 ### Catatan
 
-Antarmuka ini digunakan bersama dengan antarmuka [`IBackground`](../ibackground) untuk mengembalikan nilai format yang efektif dengan pewarisan yang diterapkan.
+Antarmuka ini digunakan bersama dengan antarmuka [`IBackground`](../ibackground) untuk mengembalikan nilai format efektif dengan pewarisan yang diterapkan.
 
 ### Lihat Juga
 

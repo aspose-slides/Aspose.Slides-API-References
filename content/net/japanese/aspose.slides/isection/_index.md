@@ -1,9 +1,9 @@
 ---
 title: ISection
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: スライドのセクションを表します。
 type: docs
-weight: 6870
+weight: 6890
 url: /ja/aspose.slides/isection/
 ---
 ## ISection インターフェイス
@@ -18,17 +18,17 @@ public interface ISection
 
 | 名前 | 説明 |
 | --- | --- |
-| [Name](../../aspose.slides/isection/name) { get; set; } | セクションの名前です。 |
-| [SectionId](../../aspose.slides/isection/sectionid) { get; } | セクション IDです。 |
+| [Name](../../aspose.slides/isection/name) { get; set; } | セクションの名前。 |
+| [SectionId](../../aspose.slides/isection/sectionid) { get; } | セクション ID。 |
 | [StartedFromSlide](../../aspose.slides/isection/startedfromslide) { get; } | セクションの最初のスライドを返します。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [GetSlidesListOfSection](../../aspose.slides/isection/getslideslistofsection)() | セクション内のスライドのリストを返します。 |
+| [GetSlidesListOfSection](../../aspose.slides/isection/getslideslistofsection)() | セクション内のスライドの一覧を返します。 |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

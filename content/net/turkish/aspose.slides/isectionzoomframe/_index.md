@@ -1,9 +1,9 @@
 ---
 title: ISectionZoomFrame
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET için API Referansı
 description: Bir slayttaki Section Zoom nesnesini temsil eder.
 type: docs
-weight: 6900
+weight: 6920
 url: /tr/aspose.slides/isectionzoomframe/
 ---
 ## ISectionZoomFrame arayüzü
@@ -18,8 +18,8 @@ public interface ISectionZoomFrame : IZoomObject
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIZoomObject](../../aspose.slides/isectionzoomframe/asizoomobject) { get; } | Döndürür IZoomObject arayüzü. |
-| [TargetSection](../../aspose.slides/isectionzoomframe/targetsection) { get; set; } | Section Zoom nesnesinin bağlı olduğu bölüm nesnesini alır veya ayarlar. Okunur/yazılır [`ISection`](../isection). |
+| [AsIZoomObject](../../aspose.slides/isectionzoomframe/asizoomobject) { get; } | IZoomObject arayüzünü döndürür. |
+| [TargetSection](../../aspose.slides/isectionzoomframe/targetsection) { get; set; } | Section Zoom nesnesinin bağlı olduğu bölüm nesnesini alır veya ayarlar. Okuma/yazma [`ISection`](../isection). |
 
 ### Ayrıca Bakınız
 

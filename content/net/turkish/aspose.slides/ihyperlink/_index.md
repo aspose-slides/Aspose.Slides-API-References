@@ -1,14 +1,14 @@
 ---
 title: IHyperlink
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir hipermetin bağlantısını temsil eder.
+description: Bir köprüyü temsil eder.
 type: docs
-weight: 6090
+weight: 6110
 url: /tr/aspose.slides/ihyperlink/
 ---
 ## IHyperlink arayüzü
 
-Bir hipermetin bağlantısını temsil eder.
+Bir köprüyü temsil eder.
 
 ```csharp
 public interface IHyperlink
@@ -18,25 +18,25 @@ public interface IHyperlink
 
 | Ad | Açıklama |
 | --- | --- |
-| [ActionType](../../aspose.slides/ihyperlink/actiontype) { get; } | HyperLinkEx'in eyleminin türünü döndürür. Salt okunur [`HyperlinkActionType`](../hyperlinkactiontype). |
-| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | Hipermetin bağlantısı renginin kaynağını temsil eder – ya stiller ya da bölüm biçimi. Okunur/yazılır [`HyperlinkColorSource`](../hyperlinkcolorsource). |
-| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | Harici URL'yi belirtir. Bu özellik null değilse TargetSlide özelliği null olur. Salt okunur String. |
-| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | Bu bölüm için içerikten bağımsız olarak ayarlanmış bir hipermetin bağlantısını temsil eder. PowerPoint, bir bağlantı ve bölümdeki karşılık gelen metin için özel davranır. Bağlantının gerçek adresinden farklı geçerli bir URL biçiminde metin oluşturulmasına izin verir. Bu durumda, düzenleme penceresinde bağlantıyı görüntülediğinizde, metin bölümüyle eşleşecek şekilde değiştirilir. Bu özellik, hipermetin bağlantısının orijinal değerini temsil eder. |
-| [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | Bağlantının tıklandığında vurgulanıp vurgulanmayacağını belirler. Okunur/yazılır Boolean. |
-| [History](../../aspose.slides/ihyperlink/history) { get; set; } | Üst hipermetin bağlantısının hedefinin, çağrıldığında görüntülenen hipermetin bağlantıları listesine eklenip eklenmeyeceğini belirler. Okunur/yazılır Boolean. |
-| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | Hipermetin bağlantısının çalan sesini temsil eder. Okunur/yazılır [`IAudio`](../iaudio). |
-| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | Bağlantı tıklandığında sesin durdurulup durdurulmayacağını belirler. Okunur/yazılır Boolean. |
-| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | Üst HTML frameset içinde, üst hipermetin bağlantısının hedefi için çerçeveyi döndürür, var olduğunda. Okunur/yazılır String. |
-| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | HyperLinkEx belirli bir slaytı hedefliyorsa bu slaytı döndürür. Özellik null değilse ExternalUrl özelliği null olur. Salt okunur [`ISlide`](../islide). |
-| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | Üst hipermetin bağlantısıyla ilişkili olarak kullanıcı arayüzünde görüntülenebilecek dizeyi döndürür. Okunur/yazılır String. |
+| [ActionType](../../aspose.slides/ihyperlink/actiontype) { get; } | HyperLinkEx'in eyleminin türünü döndürür. Salt-okunur [`HyperlinkActionType`](../hyperlinkactiontype). |
+| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | Köprü renginin kaynağını temsil eder – ya stiller ya da bölüm biçimi. Okunur/yazılabilir [`HyperlinkColorSource`](../hyperlinkcolorsource). |
+| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | Harici URL'yi belirtir. Bu özellik null olmayan bir değere sahip olursa TargetSlide özelliği null olur. Salt-okunur String. |
+| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | Bu bölüm için ayarlanan köprüyü, bölümün gerçek içeriği dikkate alınmadan temsil eder. PowerPoint, bağlantılar ve bölümdeki ilgili metin için özel davranır. Geçerli bir URL biçiminde köprü metni oluşturulmasına izin verir, bu gerçek bağlantı adresinden farklıdır. Bu durumda, bağlantıyı düzenleme penceresinde görüntülediğinizde, metin bölümüyle eşleşecek şekilde değiştirilir. Bu özellik, köprünün orijinal değerini temsil eder. |
+| [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | Köprünün tıklandığında vurgulanıp vurgulanmayacağını belirler. Okunur/yazılabilir Boolean. |
+| [History](../../aspose.slides/ihyperlink/history) { get; set; } | Üst köprünün hedefinin, çağrıldığında görüntülenen köprüler listesine eklenip eklenmeyeceğini belirler. Okunur/yazılabilir Boolean. |
+| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | Köprünün çalan sesini temsil eder. Okunur/yazılabilir [`IAudio`](../iaudio). |
+| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | Köprü tıklandığında sesin durdurulup durdurulmayacağını belirler. Okunur/yazılabilir Boolean. |
+| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | Üst HTML çerçeve kümesindeki hedef için çerçeveyi döndürür, mevcutsa. Okunur/yazılabilir String. |
+| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | HyperlinkEx belirli bir slaytı hedefliyorsa bu slaytı döndürür. Özellik null olmayan bir değere sahip olursa ExternalUrl özelliği null olur. Salt-okunur [`ISlide`](../islide). |
+| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | Üst köprü ile ilişkili olarak kullanıcı arayüzünde gösterilebilecek dizeyi döndürür. Okunur/yazılabilir String. |
 
-## Yöntemler
+## Metotlar
 
 | Ad | Açıklama |
 | --- | --- |
 | [Equals](../../aspose.slides/ihyperlink/equals)(IHyperlink) | İki Hyperlink örneğinin eşit olup olmadığını belirler. |
 
-### Bakınız
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

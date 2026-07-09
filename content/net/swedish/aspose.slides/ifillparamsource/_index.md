@@ -1,14 +1,14 @@
 ---
 title: IFillParamSource
 second_title: Aspose.Sildes för .NET API-referens
-description: Gränssnitt för hjälpfyllningsparametrar.
+description: Hjälpgränssnitt för fyllningsparametrar.
 type: docs
-weight: 5790
+weight: 5810
 url: /sv/aspose.slides/ifillparamsource/
 ---
 ## IFillParamSource gränssnitt
 
-Gränssnitt för hjälpfyllningsparametrar.
+Hjälpgränssnitt för fyllningsparametrar.
 
 ```csharp
 public interface IFillParamSource

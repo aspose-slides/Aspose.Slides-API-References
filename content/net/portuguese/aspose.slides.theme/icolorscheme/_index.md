@@ -1,9 +1,9 @@
 ---
 title: IColorScheme
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Armazena cores definidas pelo tema.
 type: docs
-weight: 11130
+weight: 11150
 url: /pt/aspose.slides.theme/icolorscheme/
 ---
 ## IColorScheme interface
@@ -27,13 +27,13 @@ public interface IColorScheme : ISlideComponent
 | [AsISlideComponent](../../aspose.slides.theme/icolorscheme/asislidecomponent) { get; } | Retorna a interface ISlideComponent. Somente leitura [`ISlideComponent`](../../aspose.slides/islidecomponent). |
 | [Dark1](../../aspose.slides.theme/icolorscheme/dark1) { get; } | Primeira cor escura no esquema. Somente leitura [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Dark2](../../aspose.slides.theme/icolorscheme/dark2) { get; } | Segunda cor escura no esquema. Somente leitura [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [FollowedHyperlink](../../aspose.slides.theme/icolorscheme/followedhyperlink) { get; } | Cor para os hiperlinks visitados. Somente leitura [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Hyperlink](../../aspose.slides.theme/icolorscheme/hyperlink) { get; } | Cor para os hiperlinks. Somente leitura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [FollowedHyperlink](../../aspose.slides.theme/icolorscheme/followedhyperlink) { get; } | Cor para os links visitados. Somente leitura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Hyperlink](../../aspose.slides.theme/icolorscheme/hyperlink) { get; } | Cor para os links. Somente leitura [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Item](../../aspose.slides.theme/icolorscheme/item) { get; } | Obtém o elemento no índice especificado. Somente leitura [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Light1](../../aspose.slides.theme/icolorscheme/light1) { get; } | Primeira cor clara no esquema. Somente leitura [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Light2](../../aspose.slides.theme/icolorscheme/light2) { get; } | Segunda cor clara no esquema. Somente leitura [`IColorFormat`](../../aspose.slides/icolorformat). |
 
-### Ver também
+### Veja Também
 
 * interface [ISlideComponent](../../aspose.slides/islidecomponent)
 * namespace [Aspose.Slides.Theme](../../aspose.slides.theme)

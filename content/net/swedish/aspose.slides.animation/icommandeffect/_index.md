@@ -1,14 +1,14 @@
 ---
 title: ICommandEffect
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en kommandoeffekt för ett animationsbeteende.
+description: Representerar en kommandoeffekt för ett animeringsbeteende.
 type: docs
-weight: 460
+weight: 480
 url: /sv/aspose.slides.animation/icommandeffect/
 ---
 ## ICommandEffect gränssnitt
 
-Representerar en kommandoeffekt för en animationsbeteende.
+Representerar en kommandoeffekt för ett animeringsbeteende.
 
 ```csharp
 public interface ICommandEffect : IBehavior
@@ -18,10 +18,10 @@ public interface ICommandEffect : IBehavior
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/icommandeffect/asibehavior) { get; } | Tillåter att hämta bas-IBehavior-gränssnittet. Endast läsning [`IBehavior`](../ibehavior). |
-| [CommandString](../../aspose.slides.animation/icommandeffect/commandstring) { get; set; } | Definierar kommandosträng. Läsa/skriva String. |
-| [ShapeTarget](../../aspose.slides.animation/icommandeffect/shapetarget) { get; set; } | Definierar formmål för kommandoeffekt. Läsa/skriva [`IShape`](../../aspose.slides/ishape). |
-| [Type](../../aspose.slides.animation/icommandeffect/type) { get; set; } | Definierar typ av kommandoeffekt för beteende. Läsa/skriva [`CommandEffectType`](../commandeffecttype). |
+| [AsIBehavior](../../aspose.slides.animation/icommandeffect/asibehavior) { get; } | Tillåter att hämta bas IBehavior-gränssnittet. Skrivskyddad [`IBehavior`](../ibehavior). |
+| [CommandString](../../aspose.slides.animation/icommandeffect/commandstring) { get; set; } | Definierar kommandosträng. Läs/skriv String. |
+| [ShapeTarget](../../aspose.slides.animation/icommandeffect/shapetarget) { get; set; } | Definierar formmål för kommandoeffekten. Läs/skriv [`IShape`](../../aspose.slides/ishape). |
+| [Type](../../aspose.slides.animation/icommandeffect/type) { get; set; } | Definierar kommandoeffekttyp för beteende. Läs/skriv [`CommandEffectType`](../commandeffecttype). |
 
 ### Se även
 

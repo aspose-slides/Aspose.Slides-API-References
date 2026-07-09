@@ -1,14 +1,14 @@
 ---
 title: BaseShapeLock
-second_title: Aspose.Sildes dla .NET Dokumentacja API
-description: Reprezentuje bazową klasę dla wyłączonych operacji blokad.
+second_title: Aspose.Sildes dla .NET API Reference
+description: Reprezentuje klasę bazową dla blokad (operacja wyłączona).
 type: docs
-weight: 960
+weight: 980
 url: /pl/aspose.slides/baseshapelock/
 ---
 ## BaseShapeLock klasa
 
-Reprezentuje bazową klasę dla blokad (wyłączona operacja).
+Reprezentuje klasę bazową dla blokad (operacja wyłączona).
 
 ```csharp
 public class BaseShapeLock : IBaseShapeLock
@@ -18,7 +18,7 @@ public class BaseShapeLock : IBaseShapeLock
 
 | Nazwa | Opis |
 | --- | --- |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Zwraca true, jeśli wszystkie flagi blokady są wyłączone. Tylko do odczytu Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Zwraca true, jeśli wszystkie flagi blokad są wyłączone. Tylko do odczytu Boolean. |
 
 ### Zobacz także
 

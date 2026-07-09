@@ -3,7 +3,7 @@ title: NumberedBulletStyle
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili gaya bullet bernomor.
 type: docs
-weight: 9160
+weight: 9180
 url: /id/aspose.slides/numberedbulletstyle/
 ---
 ## NumberedBulletStyle enumerasi
@@ -14,32 +14,32 @@ Mewakili gaya bullet bernomor.
 public enum NumberedBulletStyle : sbyte
 ```
 
-### Nilai
+### Values
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
 | NotDefined | `-1` | Tidak didefinisikan. |
 | BulletAlphaLCPeriod | `0` | Karakter alfabet huruf kecil dengan titik. Contoh: a., b., c., ... |
 | BulletAlphaUCPeriod | `1` | Karakter alfabet huruf besar dengan titik. Contoh: A., B., C., ... |
-| BulletArabicParenRight | `2` | Angka Arab dengan tanda kurung tutup. Contoh: 1), 2), 3), ... |
+| BulletArabicParenRight | `2` | Angka Arab dengan tutup kurung. Contoh: 1), 2), 3), ... |
 | BulletArabicPeriod | `3` | Angka Arab dengan titik. Contoh: 1., 2., 3., ... |
-| BulletRomanLCParenBoth | `4` | Angka Romawi huruf kecil dengan kedua tanda kurung. Contoh: (i), (ii), (iii), ... |
-| BulletRomanLCParenRight | `5` | Angka Romawi huruf kecil dengan tanda kurung tutup. Contoh: i), ii), iii), ... |
+| BulletRomanLCParenBoth | `4` | Angka Romawi huruf kecil dengan kedua kurung. Contoh: (i), (ii), (iii), ... |
+| BulletRomanLCParenRight | `5` | Angka Romawi huruf kecil dengan tutup kurung. Contoh: i), ii), iii), ... |
 | BulletRomanLCPeriod | `6` | Angka Romawi huruf kecil dengan titik. Contoh: i., ii., iii., ... |
 | BulletRomanUCPeriod | `7` | Angka Romawi huruf besar dengan titik. Contoh: I., II., III., ... |
-| BulletAlphaLCParenBoth | `8` | Karakter alfabet huruf kecil dengan kedua tanda kurung. Contoh: (a), (b), (c), ... |
-| BulletAlphaLCParenRight | `9` | Karakter alfabet huruf kecil dengan tanda kurung tutup. Contoh: a), b), c), ... |
-| BulletAlphaUCParenBoth | `10` | Karakter alfabet huruf besar dengan kedua tanda kurung. Contoh: (A), (B), (C), ... |
-| BulletAlphaUCParenRight | `11` | Karakter alfabet huruf besar dengan tanda kurung tutup. Contoh: A), B), C), ... |
-| BulletArabicParenBoth | `12` | Angka Arab dengan kedua tanda kurung. Contoh: (1), (2), (3), ... |
+| BulletAlphaLCParenBoth | `8` | Karakter alfabet huruf kecil dengan kedua kurung. Contoh: (a), (b), (c), ... |
+| BulletAlphaLCParenRight | `9` | Karakter alfabet huruf kecil dengan tutup kurung. Contoh: a), b), c), ... |
+| BulletAlphaUCParenBoth | `10` | Karakter alfabet huruf besar dengan kedua kurung. Contoh: (A), (B), (C), ... |
+| BulletAlphaUCParenRight | `11` | Karakter alfabet huruf besar dengan tutup kurung. Contoh: A), B), C), ... |
+| BulletArabicParenBoth | `12` | Angka Arab dengan kedua kurung. Contoh: (1), (2), (3), ... |
 | BulletArabicPlain | `13` | Angka Arab. Contoh: 1, 2, 3, ... |
-| BulletRomanUCParenBoth | `14` | Angka Romawi huruf besar dengan kedua tanda kurung. Contoh: (I), (II), (III), ... |
-| BulletRomanUCParenRight | `15` | Angka Romawi huruf besar dengan tanda kurung tutup. Contoh: I), II), III), ... |
+| BulletRomanUCParenBoth | `14` | Angka Romawi huruf besar dengan kedua kurung. Contoh: (I), (II), (III), ... |
+| BulletRomanUCParenRight | `15` | Angka Romawi huruf besar dengan tutup kurung. Contoh: I), II), III), ... |
 | BulletSimpChinPlain | `16` | Cina Sederhana tanpa titik. |
 | BulletSimpChinPeriod | `17` | Cina Sederhana dengan titik. |
-| BulletCircleNumDBPlain | `18` | Nomor melingkar double-byte untuk nilai hingga 10, dari 11 - angka Arab. |
-| BulletCircleNumWDWhitePlain | `19` | Nomor berwarna teks dengan lingkaran berwarna yang sama di sekelilingnya (angka lingkaran putih Wingdings). Dari 11 - angka Arab. |
-| BulletCircleNumWDBlackPlain | `20` | Nomor warna bayangan dengan latar belakang melingkar berwarna teks standar (angka lingkaran hitam Wingdings). |
+| BulletCircleNumDBPlain | `18` | Nomor berlingkar double-byte untuk nilai hingga 10, sejak 11 - angka Arab. |
+| BulletCircleNumWDWhitePlain | `19` | Nomor berwarna teks dengan lingkaran berwarna sama di sekelilingnya (nomor lingkar putih Wingdings). Dari 11 - angka Arab. |
+| BulletCircleNumWDBlackPlain | `20` | Nomor warna bayangan dengan latar belakang bulat berwarna teks normal (nomor lingkar hitam Wingdings). |
 | BulletTradChinPlain | `21` | Cina Tradisional tanpa titik. |
 | BulletTradChinPeriod | `22` | Cina Tradisional dengan titik. |
 | BulletArabicAlphaDash | `23` | Karakter alfabet bahasa Arab dengan tanda hubung. |
@@ -50,20 +50,20 @@ public enum NumberedBulletStyle : sbyte
 | BulletArabicDBPlain | `28` | Skema penomoran Arab double-byte (tanpa tanda baca). |
 | BulletArabicDBPeriod | `29` | Skema penomoran Arab double-byte dengan titik double-byte. |
 | BulletThaiAlphaPeriod | `30` | Alfabet Thai dengan titik. |
-| BulletThaiAlphaParenRight | `31` | Tanda kurung alfabet Thai - kanan. |
-| BulletThaiAlphaParenBoth | `32` | Tanda kurung alfabet Thai - kedua. |
+| BulletThaiAlphaParenRight | `31` | Alfabet Thai dengan kurung tutup. |
+| BulletThaiAlphaParenBoth | `32` | Alfabet Thai dengan kedua kurung. |
 | BulletThaiNumPeriod | `33` | Angka Thai dengan titik. |
-| BulletThaiNumParenRight | `34` | Tanda kurung angka Thai - kanan. |
-| BulletThaiNumParenBoth | `35` | Tanda kurung angka Thai - kedua. |
+| BulletThaiNumParenRight | `34` | Angka Thai dengan kurung tutup. |
+| BulletThaiNumParenBoth | `35` | Angka Thai dengan kedua kurung. |
 | BulletHindiAlphaPeriod | `36` | Alfabet Hindi dengan titik - vokal. |
 | BulletHindiNumPeriod | `37` | Angka Hindi dengan titik. |
 | BulletKanjiSimpChinDBPeriod | `38` | Kanji Cina Sederhana DBPeriod. |
-| BulletHindiNumParenRight | `39` | Tanda kurung angka Hindi - kanan. |
+| BulletHindiNumParenRight | `39` | Angka Hindi dengan kurung tutup. |
 | BulletHindiAlpha1Period | `40` | Alfabet Hindi dengan titik - konsonan. |
 
 ### Lihat Juga
 
 * ruang nama [Aspose.Slides](../../aspose.slides)
-* rakitan [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

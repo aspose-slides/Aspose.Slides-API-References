@@ -1,14 +1,14 @@
 ---
 title: ILineFormatEffectiveData
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes .NET için API Referansı
 description: Etkili çizgi biçimlendirme özelliklerini içeren değiştirilemez nesne.
 type: docs
-weight: 6300
+weight: 6320
 url: /tr/aspose.slides/ilineformateffectivedata/
 ---
 ## ILineFormatEffectiveData arayüzü
 
-Etkili çizgi biçimlendirme özelliklerini içeren değiştirilemez nesne.
+Değiştirilemez nesne, etkili çizgi biçimlendirme özelliklerini içerir.
 
 ```csharp
 public interface ILineFormatEffectiveData : ILineParamSource
@@ -18,25 +18,25 @@ public interface ILineFormatEffectiveData : ILineParamSource
 
 | Ad | Açıklama |
 | --- | --- |
-| [Alignment](../../aspose.slides/ilineformateffectivedata/alignment) { get; } | Çizgi hizalamasını döndürür. Yalnızca okunabilir [`LineAlignment`](../linealignment). |
-| [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | Temel ILineParamSource arayüzünü almaya izin verir. Yalnızca okunabilir [`ILineParamSource`](../ilineparamsource). |
-| [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | Bir çizginin başlangıcındaki ok başı uzunluğunu döndürür. Yalnızca okunabilir [`LineArrowheadLength`](../linearrowheadlength). |
-| [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | Bir çizginin başlangıcındaki ok başı stilini döndürür. Yalnızca okunabilir [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | Bir çizginin başlangıcındaki ok başı genişliğini döndürür. Yalnızca okunabilir [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | Çizgi kapak stilini döndürür. Yalnızca okunabilir [`LineCapStyle`](../linecapstyle). |
-| [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | Özel kesik desenini döndürür. Yalnızca okunabilir Single[]. |
-| [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | Çizgi kesik stilini döndürür. Yalnızca okunabilir [`LineDashStyle`](../linedashstyle). |
-| [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | Bir çizginin sonundaki ok başı uzunluğunu döndürür. Yalnızca okunabilir [`LineArrowheadLength`](../linearrowheadlength). |
-| [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | Bir çizginin sonundaki ok başı stilini döndürür. Yalnızca okunabilir [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | Bir çizginin sonundaki ok başı genişliğini döndürür. Yalnızca okunabilir [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | Bir çizginin doldurma biçimini döndürür. Yalnızca okunabilir [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata). |
-| [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | Çizgi birleşim stilini döndürür. Yalnızca okunabilir [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | Bir çizginin açı sınırını döndürür. Yalnızca okunabilir Single. |
-| [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | Bir çizginin taslak biçimini döndürür. Yalnızca okunabilir [`ISketchFormatEffectiveData`](../isketchformateffectivedata). |
-| [Style](../../aspose.slides/ilineformateffectivedata/style) { get; } | Çizgi stilini döndürür. Yalnızca okunabilir [`LineStyle`](../linestyle). |
-| [Width](../../aspose.slides/ilineformateffectivedata/width) { get; } | Bir çizginin genişliğini döndürür. Yalnızca okunabilir Double. |
+| [Alignment](../../aspose.slides/ilineformateffectivedata/alignment) { get; } | Çizgi hizalamasını döndürür. Salt okunur [`LineAlignment`](../linealignment). |
+| [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | Temel ILineParamSource arayüzünü almayı sağlar. Salt okunur [`ILineParamSource`](../ilineparamsource). |
+| [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | Çizginin başlangıcındaki ok başı uzunluğunu döndürür. Salt okunur [`LineArrowheadLength`](../linearrowheadlength). |
+| [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | Çizginin başlangıcındaki ok başı stilini döndürür. Salt okunur [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | Çizginin başlangıcındaki ok başı genişliğini döndürür. Salt okunur [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | Çizgi uç cap stilini döndürür. Salt okunur [`LineCapStyle`](../linecapstyle). |
+| [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | Özel tire desenini döndürür. Salt okunur Single[]. |
+| [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | Çizgi tire stilini döndürür. Salt okunur [`LineDashStyle`](../linedashstyle). |
+| [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | Çizginin sonundaki ok başı uzunluğunu döndürür. Salt okunur [`LineArrowheadLength`](../linearrowheadlength). |
+| [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | Çizginin sonundaki ok başı stilini döndürür. Salt okunur [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | Çizginin sonundaki ok başı genişliğini döndürür. Salt okunur [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | Çizginin dolgu biçimini döndürür. Salt okunur [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata). |
+| [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | Çizgilerin birleşim stilini döndürür. Salt okunur [`LineJoinStyle`](../linejoinstyle). |
+| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | Çizginin makas sınırını döndürür. Salt okunur Single. |
+| [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | Çizginin taslak biçimini döndürür. Salt okunur [`ISketchFormatEffectiveData`](../isketchformateffectivedata). |
+| [Style](../../aspose.slides/ilineformateffectivedata/style) { get; } | Çizgi stilini döndürür. Salt okunur [`LineStyle`](../linestyle). |
+| [Width](../../aspose.slides/ilineformateffectivedata/width) { get; } | Çizgi genişliğini döndürür. Salt okunur Double. |
 
-## Yöntemler
+## Metotlar
 
 | Ad | Açıklama |
 | --- | --- |
@@ -46,7 +46,7 @@ public interface ILineFormatEffectiveData : ILineParamSource
 
 Bu arayüz, [`ILineFormat`](../ilineformat) arayüzüyle birlikte, kalıtım uygulanmış etkili biçimlendirme değerlerini döndürmek için kullanılır.
 
-### İlgili
+### Ayrıca Bakınız
 
 * arayüz [ILineParamSource](../ilineparamsource)
 * ad alanı [Aspose.Slides](../../aspose.slides)

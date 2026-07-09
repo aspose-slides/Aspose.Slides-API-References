@@ -1,14 +1,14 @@
 ---
 title: ImageTransformOCollectionEffectiveData
-second_title: Aspose.Sildes .NET API referenciája
-description: Megváltoztathatatlan objektum, amely egy csak olvasható gyűjteményt reprezentál a hatékony képtranszformációs hatások számára.
+second_title: Aspose.Sildes .NET API referencia
+description: Módosíthatatlan objektum, amely egy csak olvasható hatékony képet transzformáló hatások gyűjteményét képviseli.
 type: docs
-weight: 3540
+weight: 3560
 url: /hu/aspose.slides.effects/imagetransformocollectioneffectivedata/
 ---
 ## ImageTransformOCollectionEffectiveData osztály
 
-Megváltoztathatatlan objektum, amely egy csak olvasható gyűjteményt reprezentál a hatékony képtranszformációs hatások számára.
+Módosíthatatlan objektum, amely egy csak olvasható hatékony képet transzformáló hatások gyűjteményét reprezentálja.
 
 ```csharp
 public class ImageTransformOCollectionEffectiveData : IImageTransformOCollectionEffectiveData
@@ -24,23 +24,23 @@ public class ImageTransformOCollectionEffectiveData : IImageTransformOCollection
 
 | Név | Leírás |
 | --- | --- |
-| [Count](../../aspose.slides.effects/imagetransformocollectioneffectivedata/count) { get; } | Visszaadja a gyűjteményben lévő képhatások számát. Csak olvasható Int32. |
-| [IsSynchronized](../../aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált-e (szálbiztos). Csak olvasható Boolean. |
-| [Item](../../aspose.slides.effects/imagetransformocollectioneffectivedata/item) { get; } | Visszaadja az elemet index szerint. |
-| [SyncRoot](../../aspose.slides.effects/imagetransformocollectioneffectivedata/syncroot) { get; } | Visszaad egy szinkronizációs gyökérobjektumot. Csak olvasható Object. |
+| [Count](../../aspose.slides.effects/imagetransformocollectioneffectivedata/count) { get; } | Visszaadja a gyűjteményben lévő képeffektusok számát. Csak olvasható Int32. |
+| [IsSynchronized](../../aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált (szálbiztos)-e. Csak olvasható Boolean. |
+| [Item](../../aspose.slides.effects/imagetransformocollectioneffectivedata/item) { get; } | Visszaad egy elemet index alapján. |
+| [SyncRoot](../../aspose.slides.effects/imagetransformocollectioneffectivedata/syncroot) { get; } | Visszaad egy szinkronizációs gyökeret. Csak olvasható Object. |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
 | [CopyTo](../../aspose.slides.effects/imagetransformocollectioneffectivedata/copyto)(Array, int) | Átmásolja a gyűjtemény összes elemét a megadott tömbbe. |
 | override [Equals](../../aspose.slides.effects/imagetransformocollectioneffectivedata/equals)(object) | Megállapítja, hogy a megadott objektum egyenlő-e a jelenlegi objektummal. |
-| [GetEnumerator](../../aspose.slides.effects/imagetransformocollectioneffectivedata/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |
-| override [GetHashCode](../../aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode)() | Hash függvényként szolgál egy adott típushoz, amely alkalmas hash algoritmusokban és adatstruktúrákban, például hash táblában való használatra. |
+| [GetEnumerator](../../aspose.slides.effects/imagetransformocollectioneffectivedata/getenumerator)() | Visszaad egy felsorolót, amely végigiterál a gyűjcollection. |
+| override [GetHashCode](../../aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode)() | Hash függvényként szolgál egy adott típushoz, amely alkalmas hash-algoritmusok és adatstruktúrák, például hash-tábla használatához. |
 
 ### Megjegyzések
 
-Az IImageTransformOperationCollectionEffectiveData név rövidítve lett IImageTransformOCollectionEffectiveData névre a COM nevek hossza miatt, amely nem haladhatja meg a 39 karaktert.
+Az IImageTransformOperationCollectionEffectiveData név le lett rövidítve IImageTransformOCollectionEffectiveData-re, mivel a COM nevek hossza nem haladhatja meg a 39 karaktert.
 
 ### Lásd még
 

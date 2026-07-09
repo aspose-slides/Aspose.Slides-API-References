@@ -3,7 +3,7 @@ title: GradientStop
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa um formato de gradiente.
 type: docs
-weight: 5000
+weight: 5020
 url: /pt/aspose.slides/gradientstop/
 ---
 ## GradientStop classe
@@ -29,7 +29,7 @@ public sealed class GradientStop : PVIObject, IGradientStop
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compara com o objeto especificado. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Retorna o código hash. |
 
-### Ver Também
+### Ver também
 
 * classe [PVIObject](../pviobject)
 * interface [IGradientStop](../igradientstop)

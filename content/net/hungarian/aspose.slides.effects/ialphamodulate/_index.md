@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulate
-second_title: Aspose.Sildes .NET API Referencia
-description: Alpha Modulate hatást képviseli. A hatás alfa (átlátszóság) értékeit egy rögzített százalékkal szorozzák. A hatástartó meghatározza azt a hatást, amely alfa értékeket tartalmaz a moduláláshoz.
+second_title: Aspose.Sildes a .NET API referenciához
+description: Alpha Modulate hatást reprezentál. A hatás alfa átlátszósági értékeit egy rögzített százalékkal szorozzák. A hatástartó egy olyan hatást határoz meg, amely alfa értékeket tartalmaz a moduláláshoz.
 type: docs
-weight: 3080
+weight: 3100
 url: /hu/aspose.slides.effects/ialphamodulate/
 ---
 ## IAlphaModulate interfész
 
-Az Alpha Modulate hatást képviseli. A hatás alfa (átlátszóság) értékeit egy rögzített százalékkal szorozzák. A hatástartó meghatározza azt a hatást, amely alfa értékeket tartalmaz a moduláláshoz.
+Alpha Modulate hatást reprezentál. A hatás alfa (átlátszóság) értékeit egy rögzített százalékkal szorozzák. A hatástartó egy olyan hatást határoz meg, amely alfa értékeket tartalmaz a moduláláshoz.
 
 ```csharp
 public interface IAlphaModulate : IAccessiblePVIObject<IAlphaModulateEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaModulate : IAccessiblePVIObject<IAlphaModulateEffectiveDa
 
 | Név | Leírás |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulate/asiaccessiblepviobject) { get; } | Lehetővé teszi az alap IAccessiblePVIObject interfész lekérdezését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulate/asiimagetransformoperation) { get; } | Lehetővé teszi az alap IImageTransformOperation interfész lekérdezését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulate/asiaccessiblepviobject) { get; } | Lehetővé teszi a bázis IAccessiblePVIObject interfész lekérését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulate/asiimagetransformoperation) { get; } | Lehetővé teszi a bázis IImageTransformOperation interfész lekérését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Lásd még
 

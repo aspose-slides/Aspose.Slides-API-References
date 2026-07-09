@@ -1,14 +1,14 @@
 ---
 title: PointCollection
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Az animációs pontok gyűjteményét képviseli.
+second_title: Aspose.Sildes .NET API referencia
+description: Animációs pontok gyűjteményét képviseli.
 type: docs
-weight: 710
+weight: 730
 url: /hu/aspose.slides.animation/pointcollection/
 ---
 ## PointCollection osztály
 
-Az animációs pontok gyűjteményét ábrázolja.
+Animációs pontok gyűjteményét képviseli.
 
 ```csharp
 public class PointCollection : IPointCollection

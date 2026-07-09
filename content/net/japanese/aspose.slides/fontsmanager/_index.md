@@ -1,9 +1,9 @@
 ---
 title: FontsManager
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: プレゼンテーション全体のフォントを管理します。
 type: docs
-weight: 4920
+weight: 4940
 url: /ja/aspose.slides/fontsmanager/
 ---
 ## FontsManager クラス
@@ -18,29 +18,29 @@ public class FontsManager : IFontsManager
 
 | 名前 | 説明 |
 | --- | --- |
-| [FontFallBackRulesCollection](../../aspose.slides/fontsmanager/fontfallbackrulescollection) { get; set; } | ユーザーの FontFallBack ルールのコレクションを表し、フォントのコレクションを管理してフォールバック機能による適切な置換を行います。読み取り/書き込み [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection)。 |
-| [FontSubstRuleList](../../aspose.slides/fontsmanager/fontsubstrulelist) { get; set; } | レンダリング時に使用するフォント置換です。読み取り/書き込み [`IFontSubstRuleCollection`](../ifontsubstrulecollection)。 |
+| [FontFallBackRulesCollection](../../aspose.slides/fontsmanager/fontfallbackrulescollection) { get; set; } | フォントの代替機能による適切な置換を管理するための、ユーザーの FontFallBack ルール コレクションを表します。読み取り/書き込み [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection)。 |
+| [FontSubstRuleList](../../aspose.slides/fontsmanager/fontsubstrulelist) { get; set; } | レンダリング時に使用するフォント置換。読み取り/書き込み [`IFontSubstRuleCollection`](../ifontsubstrulecollection)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | 埋め込みフォントを追加します。フォントをコピーする際は、ほとんどのフォントが著作権で保護されていることに留意してください。まずフォントのライセンスを確認し、別のマシンに自由に転送できるかどうかを確認してください。フォントデータが null の場合やすでに埋め込まれている場合、ArgumentException がスローされることがあります。 |
-| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | 埋め込みフォントを追加します。フォントをコピーする際は、ほとんどのフォントが著作権で保護されていることに留意してください。まずフォントのライセンスを確認し、別のマシンに自由に転送できるかどうかを確認してください。フォントデータが null の場合やすでに埋め込まれている場合、ArgumentException がスローされることがあります。 |
+| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | 埋め込みフォントを追加します。フォントをコピーする際は、ほとんどのフォントが著作権で保護されていることに留意してください。事前にフォントのライセンスを確認し、別のマシンに自由に転送できるかどうかを確認します。フォントデータが null の場合や、既に埋め込まれている場合は ArgumentException がスローされることがあります。 |
+| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | 埋め込みフォントを追加します。フォントをコピーする際は、ほとんどのフォントが著作権で保護されていることに留意してください。事前にフォントのライセンスを確認し、別のマシンに自由に転送できるかどうかを確認します。フォントデータが null の場合や、既に埋め込まれている場合は ArgumentException がスローされることがあります。 |
 | [GetEmbeddedFonts](../../aspose.slides/fontsmanager/getembeddedfonts)() | プレゼンテーションに埋め込まれているフォントを返します。 |
 | [GetFontBytes](../../aspose.slides/fontsmanager/getfontbytes)(IFontData, FontStyleType) | 指定されたフォントスタイルとフォントデータに対応するフォントデータのバイト配列を取得します。 |
 | [GetFontEmbeddingLevel](../../aspose.slides/fontsmanager/getfontembeddinglevel)(byte[], string) | 指定されたバイト配列とフォント名からフォントの埋め込みレベルを判定します。 |
 | [GetFonts](../../aspose.slides/fontsmanager/getfonts)() | プレゼンテーションで使用されているフォントを返します。 |
 | [GetSubstitutions](../../aspose.slides/fontsmanager/getsubstitutions#getsubstitutions)() | プレゼンテーションのレンダリング時に置き換えられるフォントに関する情報を取得します。 |
-| [GetSubstitutions](../../aspose.slides/fontsmanager/getsubstitutions#getsubstitutions_1)(int[]) | 指定されたスライドのレンダリング時に置き換えられるフォントに関する情報を取得します。 |
+| [GetSubstitutions](../../aspose.slides/fontsmanager/getsubstitutions#getsubstitutions_1)(int[]) | 指定されたスライドのレンダリング中に置き換えられるフォントに関する情報を取得します。 |
 | [RemoveEmbeddedFont](../../aspose.slides/fontsmanager/removeembeddedfont)(IFontData) | 埋め込みフォントを削除します。 |
-| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_1)(IFontSubstRule) | [`FontSubstRule`](../fontsubstrule) で提供される情報を使用して、プレゼンテーション内のフォントを置換します。 |
-| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | [`FontSubstRule`](../fontsubstrule) のコレクションで提供される情報を使用して、プレゼンテーション内のフォントを置換します。 |
-| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont)(IFontData, IFontData) | プレゼンテーション内のフォントを置換します。 |
+| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_1)(IFontSubstRule) | [`FontSubstRule`](../fontsubstrule) で提供される情報を使用して、プレゼンテーションのフォントを置き換えます。 |
+| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | [`FontSubstRule`](../fontsubstrule) のコレクションで提供される情報を使用して、プレゼンテーションのフォントを置き換えます。 |
+| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont)(IFontData, IFontData) | プレゼンテーションのフォントを置き換えます。 |
 
 ### 例
 
-次の例は、PowerPoint プレゼンテーションに埋め込みフォントを追加する方法を示します。
+次の例は、PowerPoint プレゼンテーションに埋め込みフォントを追加する方法を示しています。
 
 ```csharp
 [C#]

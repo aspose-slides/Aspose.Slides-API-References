@@ -1,14 +1,14 @@
 ---
 title: INotesSlideHeaderFooterManager
-second_title: Aspose.Sildes .NET API referencia
-description: Olyan menedzsert képvisel, amely a jegyzet diák helyőrzőinek viselkedését tartalmazza, beleértve a fejléc helyőrzőt.
+second_title: Aspose.Sildes .NET API Referencia
+description: Képviseli azt a kezelőt, amely a jegyzet diára vonatkozó helyőrzők viselkedését tartalmazza, beleértve a fejléc helyőrzőt.
 type: docs
-weight: 6490
+weight: 6510
 url: /hu/aspose.slides/inotesslideheaderfootermanager/
 ---
 ## INotesSlideHeaderFooterManager interfész
 
-A menedzsert jeleníti meg, amely a jegyzet diák helyőrzőinek viselkedését tartalmazza, beleértve a fejléc helyőrzőt.
+Képviseli azt a kezelőt, amely a jegyzet diára vonatkozó helyőrzők viselkedését tartalmazza, beleértve a fejléc helyőrzőt.
 
 ```csharp
 public interface INotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -18,9 +18,9 @@ public interface INotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFo
 
 | Név | Leírás |
 | --- | --- |
-| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/inotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Visszaadja az IBaseHandoutNotesSlideHeaderFooterManag interfész. |
+| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/inotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Visszaadja az IBaseHandoutNotesSlideHeaderFooterManag interfészt. |
 
-### További hivatkozások
+### Lásd még
 
 * interfész [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
 * névtér [Aspose.Slides](../../aspose.slides)

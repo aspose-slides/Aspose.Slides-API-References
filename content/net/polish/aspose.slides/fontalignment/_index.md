@@ -1,12 +1,12 @@
 ---
 title: FontAlignment
-second_title: Aspose.Sildes dla .NET Referencja API
+second_title: Aspose.Sildes dla .NET - referencja API
 description: Reprezentuje pionowe wyrównanie czcionki.
 type: docs
-weight: 4780
+weight: 4800
 url: /pl/aspose.slides/fontalignment/
 ---
-## FontAlignment enumeracja
+## FontAlignment wyliczenie
 
 Reprezentuje pionowe wyrównanie czcionki.
 

@@ -3,7 +3,7 @@ title: IMathParagraphFactory
 second_title: Aspose.Sildes pro .NET API Reference
 description: Umožňuje vytvořit matematický odstavec
 type: docs
-weight: 8380
+weight: 8400
 url: /cs/aspose.slides.mathtext/imathparagraphfactory/
 ---
 ## IMathParagraphFactory rozhraní

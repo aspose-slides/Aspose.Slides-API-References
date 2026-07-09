@@ -1,9 +1,9 @@
 ---
 title: IMathPhantom
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa um objeto matemático fantasma ltmphantgt que afeta o layout de seu elemento filho sem necessariamente exibi-lo. Um fantasma pode ocultar sua expressão base enquanto preserva sua largura, altura ou profundidade para alinhar fórmulas ou reservar espaço. A visibilidade e o comportamento geométrico são controlados por propriedades como Show, ZeroWid, ZeroAsc, ZeroDesc e Transp.
 type: docs
-weight: 8390
+weight: 8410
 url: /pt/aspose.slides.mathtext/imathphantom/
 ---
 ## IMathPhantom interface
@@ -14,7 +14,7 @@ Representa um objeto matemático fantasma (&lt;m:phant&gt;) que afeta o layout d
 public interface IMathPhantom : IMathElement
 ```
 
-## Properties
+## Propriedades
 
 | Nome | Descrição |
 | --- | --- |
@@ -25,7 +25,7 @@ public interface IMathPhantom : IMathElement
 | [ZeroDesc](../../aspose.slides.mathtext/imathphantom/zerodesc) { get; set; } | Obtém ou define um valor que indica se a descida (profundidade abaixo da linha de base) do elemento base deve ser tratada como zero. |
 | [ZeroWidth](../../aspose.slides.mathtext/imathphantom/zerowidth) { get; set; } | Obtém ou define um valor que indica se a largura do elemento base deve ser tratada como zero. |
 
-### Examples
+### Exemplos
 
 Exemplo:
 
@@ -36,7 +36,7 @@ phantom.Show = false;          // Ocultar o conteúdo
 phantom.ZeroWidth = false;     // Manter a largura
 ```
 
-### See Also
+### Veja Também
 
 * interface [IMathElement](../imathelement)
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

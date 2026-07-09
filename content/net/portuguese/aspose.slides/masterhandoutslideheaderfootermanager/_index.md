@@ -1,14 +1,15 @@
 ---
 title: MasterHandoutSlideHeaderFooterManager
 second_title: Referência da API Aspose.Sildes para .NET
-description: Representa o gerenciador que mantém o comportamento dos espaços reservados do slide mestre de folheto, incluindo o espaço reservado para cabeçalho.
+description: Representa o gerenciador que mantém o comportamento dos marcadores de espaço reservado do slide mestre de folheto, incluindo o marcador de cabeçalho.
 type: docs
-weight: 7970
+weight: 7990
 url: /pt/aspose.slides/masterhandoutslideheaderfootermanager/
 ---
-## MasterHandoutSlideHeaderFooterManager classe
 
-Representa o gerenciador que contém o comportamento dos espaços reservados do slide mestre de folheto, incluindo o espaço reservado para cabeçalho.
+## classe MasterHandoutSlideHeaderFooterManager
+
+Representa o gerenciador que contém o comportamento dos marcadores de espaço reservado do slide mestre de folhetos, incluindo o marcador de cabeçalho.
 
 ```csharp
 public class MasterHandoutSlideHeaderFooterManager : BaseHandoutNotesSlideHeaderFooterManager, 
@@ -17,30 +18,30 @@ public class MasterHandoutSlideHeaderFooterManager : BaseHandoutNotesSlideHeader
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Obtém o valor que indica que um espaço reservado para data e hora está presente. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Obtém o valor que indica que um espaço reservado para rodapé está presente. Read Boolean. |
-| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Obtém o valor que indica que um espaço reservado para cabeçalho está presente. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Obtém o valor que indica que um espaço reservado para número de página está presente. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Obtém o valor que indica que um espaço reservado de data e hora está presente. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Obtém o valor que indica que um espaço reservado de rodapé está presente. Read Boolean. |
+| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Obtém o valor que indica que um espaço reservado de cabeçalho está presente. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Obtém o valor que indica que um espaço reservado de número de página está presente. ReadBoolean. |
 
 ## Métodos
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Define o texto do espaço reservado para data e hora do slide. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Altera a visibilidade do espaço reservado para data e hora do slide. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Define o texto do espaço reservado para rodapé do slide. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Altera a visibilidade do espaço reservado para rodapé do slide. |
-| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Define o texto do espaço reservado para cabeçalho do slide. |
-| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Altera a visibilidade do espaço reservado para cabeçalho do slide. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Altera a visibilidade do espaço reservado para número de página do slide. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Define o texto no espaço reservado de data e hora do slide. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Altera a visibilidade do espaço reservado de data e hora do slide. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Define o texto no espaço reservado de rodapé do slide. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Altera a visibilidade do espaço reservado de rodapé do slide. |
+| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Define o texto no espaço reservado de cabeçalho do slide. |
+| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Altera a visibilidade do espaço reservado de cabeçalho do slide. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Altera a visibilidade do espaço reservado de número de página do slide. |
 
-### Veja Também
+### Veja também
 
 * classe [BaseHandoutNotesSlideHeaderFooterManager](../basehandoutnotesslideheaderfootermanager)
 * interface [IMasterHandoutSlideHeaderFooterManager](../imasterhandoutslideheaderfootermanager)
-* espaço de nomes [Aspose.Slides](../../aspose.slides)
+* namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -3,10 +3,10 @@ title: PlaceholderSize
 second_title: Aspose.Sildes için .NET API Referansı
 description: Bir yer tutucunun boyutunu temsil eder.
 type: docs
-weight: 9420
+weight: 9440
 url: /tr/aspose.slides/placeholdersize/
 ---
-## PlaceholderSize sayım tipi
+## PlaceholderSize enum
 
 Bir yer tutucunun boyutunu temsil eder.
 
@@ -19,7 +19,7 @@ public enum PlaceholderSize : sbyte
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
 | Full | `0` | Tam. |
-| Half | `1` | Yarı. |
+| Half | `1` | Yarım. |
 | Quarter | `2` | Çeyrek. |
 
 ### Ayrıca Bakınız

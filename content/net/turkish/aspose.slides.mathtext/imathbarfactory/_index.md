@@ -1,20 +1,20 @@
 ---
 title: IMathBarFactory
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir matematik çubuğu oluşturmayı sağlar
+description: Matematik çubuğu oluşturmayı sağlar
 type: docs
-weight: 8110
+weight: 8130
 url: /tr/aspose.slides.mathtext/imathbarfactory/
 ---
-## IMathBarFactory arayüz
+## IMathBarFactory arayüzü
 
-Matematik çubuğu oluşturmayı sağlar
+Bir matematik çubuğu oluşturmayı sağlar
 
 ```csharp
 public interface IMathBarFactory
 ```
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |

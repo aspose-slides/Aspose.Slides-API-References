@@ -4,33 +4,33 @@ type: docs
 weight: 10
 url: /hu/
 keywords: "Aspose.Slides for .NET, Aspose Slides, Aspose PowerPoint, Aspose PPT, Aspose API Reference."
-description: Az Aspose.Slides egy Microsoft PowerPoint® kezelő API, amely lehetővé teszi a szoftveralkalmazások számára, hogy a Microsoft PowerPoint® használata nélkül olvassanak és írjanak PowerPoint® dokumentumokat.
+description: Az Aspose.Slides Microsoft PowerPoint® kezelő API-k, amelyek lehetővé teszik a szoftveralkalmazások számára a PowerPoint® dokumentumok olvasását és írását a Microsoft PowerPoint® használata nélkül.
 is_root: true
 ---
 ## Névterek
 
 | Névtér | Leírás |
 | --- | --- |
-| [Aspose.Slides](./aspose.slides) | Osztályokat tartalmaz a Microsoft PowerPoint prezentációkkal való munka érdekében, anélkül, hogy a Microsoft PowerPointot használná. |
-| [Aspose.Slides.AI](./aspose.slides.ai) | Osztályokat tartalmaz, amelyek mesterséges intelligencia alapú funkciókat kínálnak a PowerPoint prezentációk elemzéséhez és feldolgozásához. |
-| [Aspose.Slides.Animation](./aspose.slides.animation) | Osztályokat tartalmaz a Microsoft PowerPoint prezentációk animációjának kezelésére. |
-| [Aspose.Slides.Charts](./aspose.slides.charts) | Osztályokat tartalmaz a Microsoft PowerPoint prezentációk diagramjaival való munkához. |
-| [Aspose.Slides.DOM.Ole](./aspose.slides.dom.ole) | Osztályokat tartalmaz a Microsoft PowerPoint prezentációk OLE-objektumaival való munkához. |
-| [Aspose.Slides.Effects](./aspose.slides.effects) | Osztályokat tartalmaz a Microsoft PowerPoint prezentációk különböző effektusaival való munkához. |
-| [Aspose.Slides.Excel](./aspose.slides.excel) | Osztályokat tartalmaz külső Microsoft Excel táblázatokkal való munkához. |
-| [Aspose.Slides.Export](./aspose.slides.export) | Osztályokat tartalmaz a Microsoft PowerPoint prezentációk exportálásához különböző formátumokba, például Html, Pdf, Svg, Xps és egyebek. |
-| [Aspose.Slides.Export.Web](./aspose.slides.export.web) | Osztályokat tartalmaz a Microsoft PowerPoint prezentációk HTML-re történő exportálásához kiterjesztési projektek segítségével. |
-| [Aspose.Slides.Export.Xaml](./aspose.slides.export.xaml) | Osztályokat tartalmaz a Microsoft PowerPoint prezentációk XAML-re exportálásához. |
-| [Aspose.Slides.Import](./aspose.slides.import) | Osztályokat tartalmaz adatok Microsoft PowerPoint prezentációkba történő importálásához. |
-| [Aspose.Slides.Ink](./aspose.slides.ink) | Osztályokat tartalmaz az Ink használatához. |
-| [Aspose.Slides.LowCode](./aspose.slides.lowcode) | Osztályokat és metódusokat tartalmaz összetett általános műveletek alacsony kódolási szinten történő kezeléséhez. |
-| [Aspose.Slides.MathText](./aspose.slides.mathtext) | Osztályokat tartalmaz a Microsoft PowerPoint prezentációk matematikai szövegének kezeléséhez. |
-| [Aspose.Slides.SlideShow](./aspose.slides.slideshow) | Osztályokat tartalmaz diavetítések és diaátmenetek kezeléséhez. |
-| [Aspose.Slides.SmartArt](./aspose.slides.smartart) | Osztályokat tartalmaz SmartArt objektumokkal való munkához. |
-| [Aspose.Slides.Spreadsheet](./aspose.slides.spreadsheet) | Osztályokat tartalmaz a Microsoft PowerPoint prezentációk táblázatobjektumaival való munkához. |
-| [Aspose.Slides.Theme](./aspose.slides.theme) | Osztályokat tartalmaz különböző típusú témákkal való munkához. |
-| [Aspose.Slides.Util](./aspose.slides.util) | Hasznos osztályokat tartalmaz, amelyek segítenek a prezentációkkal való munkában. |
-| [Aspose.Slides.Vba](./aspose.slides.vba) | Osztályokat tartalmaz VBA makrókkal való munkához. |
-| [Aspose.Slides.Warnings](./aspose.slides.warnings) | Osztályokat tartalmaz, amelyek különféle figyelmeztetéseket reprezentálnak. |
+| [Aspose.Slides](./aspose.slides) | Olyan osztályokat tartalmaz, amelyek a Microsoft PowerPoint prezentációkkal való munkához használhatók a Microsoft PowerPoint program nélkül. |
+| [Aspose.Slides.AI](./aspose.slides.ai) | Olyan osztályokat tartalmaz, amelyek AI-alapú funkciókat biztosítanak a PowerPoint prezentációk elemzéséhez és feldolgozásához. |
+| [Aspose.Slides.Animation](./aspose.slides.animation) | Olyan osztályokat tartalmaz, amelyek a Microsoft PowerPoint prezentációk animációival való munkát segítik. |
+| [Aspose.Slides.Charts](./aspose.slides.charts) | Olyan osztályokat tartalmaz, amelyek a Microsoft PowerPoint prezentációk diagramjaival való munkát segítik. |
+| [Aspose.Slides.DOM.Ole](./aspose.slides.dom.ole) | Olyan osztályokat tartalmaz, amelyek a Microsoft PowerPoint prezentációk OLE objektumaival való munkát segítik. |
+| [Aspose.Slides.Effects](./aspose.slides.effects) | Olyan osztályokat tartalmaz, amelyek a Microsoft PowerPoint prezentációk különféle effektusaival való munkát segítik. |
+| [Aspose.Slides.Excel](./aspose.slides.excel) | Olyan osztályokat tartalmaz, amelyek külső Microsoft Excel táblázatokkal való munkát segítik. |
+| [Aspose.Slides.Export](./aspose.slides.export) | Olyan osztályokat tartalmaz, amelyek a Microsoft PowerPoint prezentációk exportálását különböző formátumokba, például Html, Pdf, Svg, Xps és egyebekba teszik lehetővé. |
+| [Aspose.Slides.Export.Web](./aspose.slides.export.web) | Olyan osztályokat tartalmaz, amelyek a Microsoft PowerPoint prezentációk Html-be történő exportálását kiegészítő projektek segítségével teszik lehetővé. |
+| [Aspose.Slides.Export.Xaml](./aspose.slides.export.xaml) | Olyan osztályokat tartalmaz, amelyek a Microsoft PowerPoint prezentációk XAML-be történő exportálását teszik lehetővé. |
+| [Aspose.Slides.Import](./aspose.slides.import) | Olyan osztályokat tartalmaz, amelyek adat importálását a Microsoft PowerPoint prezentációkba biztosítják. |
+| [Aspose.Slides.Ink](./aspose.slides.ink) | Olyan osztályokat tartalmaz, amelyek az Ink használatával kapcsolatos munkát segítik. |
+| [Aspose.Slides.LowCode](./aspose.slides.lowcode) | Olyan osztályokat és metódusokat tartalmaz, amelyek alacsony kódszintű módon kezelik a komplex általános műveleteket. |
+| [Aspose.Slides.MathText](./aspose.slides.mathtext) | Olyan osztályokat tartalmaz, amelyek a Microsoft PowerPoint prezentációk matematikai szövegével való munkát segítik. |
+| [Aspose.Slides.SlideShow](./aspose.slides.slideshow) | Olyan osztályokat tartalmaz, amelyek a diavetítések és diaátmenetek kezelését teszik lehetővé. |
+| [Aspose.Slides.SmartArt](./aspose.slides.smartart) | Olyan osztályokat tartalmaz, amelyek a SmartArt objektumokkal való munkát segítik. |
+| [Aspose.Slides.Spreadsheet](./aspose.slides.spreadsheet) | Olyan osztályokat tartalmaz, amelyek a Microsoft PowerPoint prezentációk táblázatobjektumaival való munkát segítik. |
+| [Aspose.Slides.Theme](./aspose.slides.theme) | Olyan osztályokat tartalmaz, amelyek a különböző típusú témákkal való munkát segítik. |
+| [Aspose.Slides.Util](./aspose.slides.util) | Olyan segédosztályokat tartalmaz, amelyek a prezentációkkal való munkát segítik. |
+| [Aspose.Slides.Vba](./aspose.slides.vba) | Olyan osztályokat tartalmaz, amelyek a VBA makrókkal való munkát segítik. |
+| [Aspose.Slides.Warnings](./aspose.slides.warnings) | Olyan osztályokat tartalmaz, amelyek különféle figyelmeztetéseket reprezentálnak. |
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

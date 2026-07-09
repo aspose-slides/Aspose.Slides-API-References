@@ -1,14 +1,14 @@
 ---
 title: MathJustification
-second_title: Aspose.Sildes para Referência de API .NET
-description: Especifica a justificação do parágrafo de matemática, uma série de instâncias adjacentes de texto matemático dentro do mesmo parágrafo
+second_title: Referência da API Aspose.Sildes para .NET
+description: Especifica o justificado do parágrafo matemático, uma série de instâncias adjacentes de texto matemático dentro do mesmo parágrafo
 type: docs
-weight: 8780
+weight: 8800
 url: /pt/aspose.slides.mathtext/mathjustification/
 ---
 ## Enumeração MathJustification
 
-Especifica a justificação do parágrafo de matemática (uma série de instâncias adjacentes de texto matemático dentro do mesmo parágrafo)
+Especifica o justificado do parágrafo matemático (uma série de ocorrências adjacentes de texto matemático dentro do mesmo parágrafo)
 
 ```csharp
 public enum MathJustification
@@ -21,7 +21,7 @@ public enum MathJustification
 | LeftJustified | `1` | Alinha o texto matemático à esquerda |
 | RightJustified | `2` | Alinha o texto matemático à direita |
 | Centered | `3` | Alinha o texto matemático ao centro |
-| CenteredAsGroup | `4` | Centraliza na página todo o grupo de blocos de matemática como uma única unidade. Isso significa que as instâncias de texto matemático podem ser alinhadas entre si, mas o grupo completo de texto matemático é centralizado como um todo. |
+| CenteredAsGroup | `4` | Centraliza na página todo o grupo de blocos de matemática como uma única unidade. Isso significa que as ocorrências de texto matemático podem ser alinhadas entre si, mas todo o grupo de texto matemático é centralizado como um todo. |
 
 ### Veja Também
 

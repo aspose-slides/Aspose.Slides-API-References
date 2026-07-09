@@ -1,14 +1,14 @@
 ---
 title: AlphaFloor
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje efekt Alpha Floor. Hodnoty alfa průhlednosti menší než 100 jsou změněny na nulu. Jinými slovy, vše, co je částečně průhledné, se stane zcela průhledným.
+description: Reprezentuje efekt Alpha Floor. Hodnoty průhlednosti Alpha menší než 100 jsou změněny na nulu. Jinými slovy, vše částečně průhledné se stane zcela průhledným.
 type: docs
-weight: 2840
+weight: 2860
 url: /cs/aspose.slides.effects/alphafloor/
 ---
-## AlphaFloor třída
+## třída AlphaFloor
 
-Reprezentuje efekt Alpha Floor. Hodnoty Alpha (průhlednost) menší než 100% jsou změněny na nulu. Jinými slovy, vše, co je částečně průhledné, se stane zcela průhledným.
+Reprezentuje efekt Alpha Floor. Hodnoty Alpha (průhlednost) menší než 100 % jsou změněny na nulu. Jinými slovy, vše částečně průhledné se stane zcela průhledným.
 
 ```csharp
 public sealed class AlphaFloor : ImageTransformOperation, IAlphaFloor
@@ -24,8 +24,8 @@ public sealed class AlphaFloor : ImageTransformOperation, IAlphaFloor
 
 | Název | Popis |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphafloor/equals)(object) | Určuje, zda je určený [`AlphaFloor`](../alphafloor) roven aktuálnímu [`AlphaFloor`](../alphafloor). |
-| [GetEffective](../../aspose.slides.effects/alphafloor/geteffective)() | Získá efektivní data efektu Alpha Floor s aplikovaným děděním. |
+| override [Equals](../../aspose.slides.effects/alphafloor/equals)(object) | Určuje, zda je zadaný [`AlphaFloor`](../alphafloor) roven aktuálnímu [`AlphaFloor`](../alphafloor). |
+| [GetEffective](../../aspose.slides.effects/alphafloor/geteffective)() | Získá data efektivního Alpha Floor efektu s aplikovaným děděním. |
 | override [GetHashCode](../../aspose.slides.effects/alphafloor/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ. |
 
 ### Viz také

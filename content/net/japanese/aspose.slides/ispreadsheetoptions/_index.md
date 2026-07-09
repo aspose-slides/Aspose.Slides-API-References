@@ -1,14 +1,14 @@
 ---
 title: ISpreadsheetOptions
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 追加のスプレッドシート動作を指定するために使用できるオプションを表します。
+description: スプレッドシートの追加動作を指定するために使用できるオプションを表します。
 type: docs
-weight: 7100
+weight: 7120
 url: /ja/aspose.slides/ispreadsheetoptions/
 ---
 ## ISpreadsheetOptions インターフェイス
 
-追加のスプレッドシート動作を指定するために使用できるオプションを表します。
+スプレッドシートの追加動作を指定するために使用できるオプションを表します。
 
 ```csharp
 public interface ISpreadsheetOptions
@@ -18,8 +18,8 @@ public interface ISpreadsheetOptions
 
 | 名前 | 説明 |
 | --- | --- |
-| [PreferredCulture](../../aspose.slides/ispreadsheetoptions/preferredculture) { get; set; } | ダブルバイト文字セット（DBCS）を使用する言語向けの関数の計算に使用される、優先文化情報を取得または設定します。 |
-| [RecoverWorkbookFromChartCache](../../aspose.slides/ispreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | チャートのデータ ソースが外部のワークブックで利用できない場合、チャート キャッシュから復元されます。 |
+| [PreferredCulture](../../aspose.slides/ispreadsheetoptions/preferredculture) { get; set; } | ダブルバイト文字セット (DBCS) を使用する言語向けの関数計算に使用される優先カルチャ情報を取得または設定します。 |
+| [RecoverWorkbookFromChartCache](../../aspose.slides/ispreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | グラフのデータ ソースが外部ブックで利用できない場合、グラフ キャッシュから復元されます。 |
 
 ### 参照
 

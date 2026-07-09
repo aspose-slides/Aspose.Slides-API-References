@@ -1,9 +1,9 @@
 ---
 title: ICell
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Referência da API Aspose.Slides para .NET
 description: Representa uma célula em uma tabela.
 type: docs
-weight: 5430
+weight: 5450
 url: /pt/aspose.slides/icell/
 ---
 ## ICell interface
@@ -20,14 +20,14 @@ public interface ICell : ISlideComponent
 | --- | --- |
 | [AnchorCenter](../../aspose.slides/icell/anchorcenter) { get; set; } | Determina se a caixa de texto está centralizada dentro de uma célula. Leitura/gravação Boolean. |
 | [AsISlideComponent](../../aspose.slides/icell/asislidecomponent) { get; } | Permite obter a interface base ISlideComponent. Somente leitura [`ISlideComponent`](../islidecomponent). |
-| [CellFormat](../../aspose.slides/icell/cellformat) { get; } | Retorna o objeto CellFormat que contém propriedades de formatação para esta célula. Somente leitura [`ICellFormat`](../icellformat). |
-| [ColSpan](../../aspose.slides/icell/colspan) { get; } | Retorna o número de colunas da grade da tabela pai que serão abrangidas pela célula atual. Esta propriedade permite que as células tenham a aparência de mescladas, pois abrangem limites verticais de outras células na tabela. Somente leitura Int32. |
+| [CellFormat](../../aspose.slides/icell/cellformat) { get; } | Retorna o objeto CellFormat que contém as propriedades de formatação desta célula. Somente leitura [`ICellFormat`](../icellformat). |
+| [ColSpan](../../aspose.slides/icell/colspan) { get; } | Retorna o número de colunas da grade na grade da tabela pai que deve ser abrangida pela célula atual. Essa propriedade permite que as células tenham a aparência de mescladas, pois abrangem limites verticais de outras células na tabela. Somente leitura Int32. |
 | [FirstColumn](../../aspose.slides/icell/firstcolumn) { get; } | Obtém a primeira coluna da célula. Somente leitura [`IColumn`](../icolumn). |
 | [FirstColumnIndex](../../aspose.slides/icell/firstcolumnindex) { get; } | Retorna o índice da primeira coluna coberta pela célula. Somente leitura Int32. |
 | [FirstRow](../../aspose.slides/icell/firstrow) { get; } | Obtém a primeira linha da célula. Somente leitura [`IRow`](../irow). |
 | [FirstRowIndex](../../aspose.slides/icell/firstrowindex) { get; } | Retorna o índice da primeira linha coberta pela célula. Somente leitura Int32. |
 | [Height](../../aspose.slides/icell/height) { get; } | Retorna a altura da célula. Somente leitura Double. |
-| [IsMergedCell](../../aspose.slides/icell/ismergedcell) { get; } | Retorna true se a célula estiver mesclada com qualquer célula adjacente, false caso contrário. Somente leitura Boolean. |
+| [IsMergedCell](../../aspose.slides/icell/ismergedcell) { get; } | Retorna verdadeiro se a célula estiver mesclada com alguma célula adjacente, falso caso contrário. Somente leitura Boolean. |
 | [MarginBottom](../../aspose.slides/icell/marginbottom) { get; set; } | Retorna ou define a margem inferior em um TextFrame. Leitura/gravação Double. |
 | [MarginLeft](../../aspose.slides/icell/marginleft) { get; set; } | Retorna ou define a margem esquerda em um TextFrame. Leitura/gravação Double. |
 | [MarginRight](../../aspose.slides/icell/marginright) { get; set; } | Retorna ou define a margem direita em um TextFrame. Leitura/gravação Double. |
@@ -38,7 +38,7 @@ public interface ICell : ISlideComponent
 | [RowSpan](../../aspose.slides/icell/rowspan) { get; } | Retorna o número de linhas que uma célula mesclada abrange. Isso é usado em combinação com o atributo vMerge em outras células para especificar a célula inicial de uma mesclagem horizontal. Somente leitura Int32. |
 | [Table](../../aspose.slides/icell/table) { get; } | Retorna o objeto Table pai da célula. Somente leitura [`ITable`](../itable). |
 | [TextAnchorType](../../aspose.slides/icell/textanchortype) { get; set; } | Retorna ou define o tipo de âncora de texto. Leitura/gravação [`TextAnchorType`](../textanchortype). |
-| [TextFrame](../../aspose.slides/icell/textframe) { get; } | Retorna o frame de texto de uma célula. Somente leitura [`ITextFrame`](../itextframe). |
+| [TextFrame](../../aspose.slides/icell/textframe) { get; } | Retorna o quadro de texto de uma célula. Somente leitura [`ITextFrame`](../itextframe). |
 | [TextVerticalType](../../aspose.slides/icell/textverticaltype) { get; set; } | Retorna ou define o tipo de texto vertical. Leitura/gravação [`TextVerticalType`](../textverticaltype). |
 | [Width](../../aspose.slides/icell/width) { get; } | Retorna a largura da célula. Somente leitura Double. |
 
@@ -47,11 +47,11 @@ public interface ICell : ISlideComponent
 | Nome | Descrição |
 | --- | --- |
 | [SplitByColSpan](../../aspose.slides/icell/splitbycolspan)(int) | Divide a célula em duas células pelo índice da coluna. |
-| [SplitByHeight](../../aspose.slides/icell/splitbyheight)(double) | Divide a célula pela altura. |
+| [SplitByHeight](../../aspose.slides/icell/splitbyheight)(double) | Divide a célula por altura. |
 | [SplitByRowSpan](../../aspose.slides/icell/splitbyrowspan)(int) | Divide a célula em duas células pelo índice da linha. |
-| [SplitByWidth](../../aspose.slides/icell/splitbywidth)(double) | Divide a célula pela largura. |
+| [SplitByWidth](../../aspose.slides/icell/splitbywidth)(double) | Divide a célula por largura. |
 
-### Ver também
+### Ver Também
 
 * interface [ISlideComponent](../islidecomponent)
 * namespace [Aspose.Slides](../../aspose.slides)

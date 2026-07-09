@@ -1,14 +1,14 @@
 ---
 title: MotionPathPointsType
 second_title: Aspose.Sildes for .NET API リファレンス
-description: アニメーションのモーション パスにおけるポイントのタイプを表します。
+description: アニメーションモーションパスにおけるポイントのタイプを表します。
 type: docs
-weight: 690
+weight: 710
 url: /ja/aspose.slides.animation/motionpathpointstype/
 ---
-## MotionPathPointsType 列挙体
+## MotionPathPointsType 列挙型
 
-アニメーションのモーション パスにおけるポイントのタイプを表します。
+アニメーションのモーションパス内のポイントのタイプを表します。
 
 ```csharp
 public enum MotionPathPointsType
@@ -28,7 +28,7 @@ public enum MotionPathPointsType
 | CurveStraight | `7` |  |
 | CurveSmooth | `8` |  |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * アセンブリ [Aspose.Slides](../../)

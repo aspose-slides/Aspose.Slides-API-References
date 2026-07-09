@@ -3,7 +3,7 @@ title: Hyperlink
 second_title: Aspose.Sildes for .NET API リファレンス
 description: ハイパーリンクを表します。
 type: docs
-weight: 5100
+weight: 5120
 url: /ja/aspose.slides/hyperlink/
 ---
 ## Hyperlink クラス
@@ -18,9 +18,9 @@ public sealed class Hyperlink : PVIObject, IHyperlink
 
 | 名前 | 説明 |
 | --- | --- |
-| [Hyperlink](hyperlink#constructor_1)(ISlide) | 特定のスライドを指すハイパーリンクのインスタンスを作成します。注意: 作成されたハイパーリンクは同じプレゼンテーションのオブジェクトに割り当てる必要があり、そうでない場合はリンクが NoAction として保存されます。 |
+| [Hyperlink](hyperlink#constructor_1)(ISlide) | 特定のスライドを指すハイパーリンクのインスタンスを作成します。注: 作成されたハイパーリンクは同じプレゼンテーションのオブジェクトに割り当てる必要があります。割り当てられない場合、リンクは NoAction として保存されます。 |
 | [Hyperlink](hyperlink#constructor_2)(string) | ハイパーリンクのインスタンスを作成します。 |
-| [Hyperlink](hyperlink#constructor)(Hyperlink, string, string, bool, bool, bool) | 別のハイパーリンクをソースとして使用し、二次的プロパティを上書きしてハイパーリンクのインスタンスを作成します。 |
+| [Hyperlink](hyperlink#constructor)(Hyperlink, string, string, bool, bool, bool) | 別のハイパーリンクをソースとして使用し、二次プロパティを上書きしてハイパーリンクのインスタンスを作成します。 |
 
 ## プロパティ
 
@@ -30,34 +30,34 @@ public sealed class Hyperlink : PVIObject, IHyperlink
 | static [FirstSlide](../../aspose.slides/hyperlink/firstslide) { get; } | プレゼンテーションの最初のスライドへのハイパーリンクを返します。読み取り専用 [`Hyperlink`](../hyperlink)。 |
 | static [LastSlide](../../aspose.slides/hyperlink/lastslide) { get; } | プレゼンテーションの最後のスライドへのハイパーリンクを返します。読み取り専用 [`Hyperlink`](../hyperlink)。 |
 | static [LastVievedSlide](../../aspose.slides/hyperlink/lastvievedslide) { get; } | 最後に表示されたスライドへのハイパーリンクを返します。読み取り専用 [`Hyperlink`](../hyperlink)。 |
-| static [Media](../../aspose.slides/hyperlink/media) { get; } | 特別な「メディアファイル再生」ハイパーリンクを返します。AudioFrame と VideoFrame で使用されます。読み取り専用 [`Hyperlink`](../hyperlink)。 |
+| static [Media](../../aspose.slides/hyperlink/media) { get; } | 特殊な「メディアファイル再生」ハイパーリンクを返します。AudioFrame と VideoFrame で使用されます。読み取り専用 [`Hyperlink`](../hyperlink)。 |
 | static [NextSlide](../../aspose.slides/hyperlink/nextslide) { get; } | 次のスライドへのハイパーリンクを返します。読み取り専用 [`Hyperlink`](../hyperlink)。 |
-| static [NoAction](../../aspose.slides/hyperlink/noaction) { get; } | 特別な「何もしない」ハイパーリンクを返します。読み取り専用 [`Hyperlink`](../hyperlink)。 |
+| static [NoAction](../../aspose.slides/hyperlink/noaction) { get; } | 特殊な「何もしない」ハイパーリンクを返します。読み取り専用 [`Hyperlink`](../hyperlink)。 |
 | static [PreviousSlide](../../aspose.slides/hyperlink/previousslide) { get; } | 前のスライドへのハイパーリンクを返します。読み取り専用 [`Hyperlink`](../hyperlink)。 |
-| [ActionType](../../aspose.slides/hyperlink/actiontype) { get; } | ハイパーリンクのアクションのタイプを返します。読み取り専用 [`HyperlinkActionType`](../hyperlinkactiontype)。 |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [ColorSource](../../aspose.slides/hyperlink/colorsource) { get; set; } | ハイパーリンクの色のソースを表します。スタイルまたは部分書式のどちらかです。読み書き [`HyperlinkColorSource`](../hyperlinkcolorsource)。 |
+| [ActionType](../../aspose.slides/hyperlink/actiontype) { get; } | ハイパーリンクのアクションの種類を返します。読み取り専用 [`HyperlinkActionType`](../hyperlinkactiontype)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 基本的な IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
+| [ColorSource](../../aspose.slides/hyperlink/colorsource) { get; set; } | ハイパーリンクの色のソース（スタイルまたは部分フォーマット）を表します。読み書き可能 [`HyperlinkColorSource`](../hyperlinkcolorsource)。 |
 | [ExternalUrl](../../aspose.slides/hyperlink/externalurl) { get; } | 外部 URL を指定します。読み取り専用 String。 |
-| [ExternalUrlOriginal](../../aspose.slides/hyperlink/externalurloriginal) { get; } | この部分の実際の内容に関係なく設定されたハイパーリンクを表します。PowerPoint はリンクとそれに対応するテキストに対して特別な動作を行います。有効な URL の形式でハイパーリンクのテキストを作成でき、リンクの実際のアドレスとは異なるものにできます。この場合、編集ウィンドウでリンクを表示すると、テキスト部分に合わせて変更されます。このプロパティはハイパーリンクの元の値を表します。 |
-| [HighlightClick](../../aspose.slides/hyperlink/highlightclick) { get; set; } | クリック時にハイパーリンクをハイライト表示するかどうかを決定します。読み書き Boolean。 |
-| [History](../../aspose.slides/hyperlink/history) { get; set; } | 親ハイパーリンクのターゲットが呼び出されたときに、閲覧されたハイパーリンクのリストに追加されるかどうかを決定します。読み書き Boolean。 |
-| [Sound](../../aspose.slides/hyperlink/sound) { get; set; } | ハイパーリンクの再生音を表します。読み書き [`IAudio`](../iaudio)。 |
-| [StopSoundOnClick](../../aspose.slides/hyperlink/stopsoundonclick) { get; set; } | ハイパーリンクのクリック時に音を停止するかどうかを決定します。読み書き Boolean。 |
-| [TargetFrame](../../aspose.slides/hyperlink/targetframe) { get; set; } | 親ハイパーリンクのターゲットが存在する場合、親 HTML フレームセット内のフレームを返します。読み書き String。 |
+| [ExternalUrlOriginal](../../aspose.slides/hyperlink/externalurloriginal) { get; } | この部分に設定されたハイパーリンクを表します（実際の部分の内容に関係なく）。PowerPoint は部分内のリンクとそれに対応するテキストに対して特別な動作をします。実際のリンク先とは異なる有効な URL 形式でハイパーリンクのテキストを作成できます。この場合、編集ウィンドウでリンクを表示すると、テキスト部分に合わせて変更されます。このプロパティはハイパーリンクの元の値を表します。 |
+| [HighlightClick](../../aspose.slides/hyperlink/highlightclick) { get; set; } | クリック時にハイパーリンクをハイライト表示するかどうかを決定します。読み書き可能 Boolean。 |
+| [History](../../aspose.slides/hyperlink/history) { get; set; } | 親ハイパーリンクが呼び出されたときに、そのターゲットを表示されたハイパーリンクの一覧に追加するかどうかを決定します。読み書き可能 Boolean。 |
+| [Sound](../../aspose.slides/hyperlink/sound) { get; set; } | ハイパーリンクの再生サウンドを表します。読み書き可能 [`IAudio`](../iaudio)。 |
+| [StopSoundOnClick](../../aspose.slides/hyperlink/stopsoundonclick) { get; set; } | ハイパーリンクのクリック時にサウンドを停止するかどうかを決定します。読み書き可能 Boolean。 |
+| [TargetFrame](../../aspose.slides/hyperlink/targetframe) { get; set; } | 親ハイパーリンクのターゲットが存在する場合、親 HTML フレームセット内のフレームを返します。読み書き可能 String。 |
 | [TargetSlide](../../aspose.slides/hyperlink/targetslide) { get; } | ハイパーリンクが特定のスライドを対象としている場合、そのスライドを返します。読み取り専用 [`ISlide`](../islide)。 |
-| [Tooltip](../../aspose.slides/hyperlink/tooltip) { get; set; } | 親ハイパーリンクに関連付けられたユーザーインターフェイスに表示される可能性のある文字列を返します。読み書き String。 |
+| [Tooltip](../../aspose.slides/hyperlink/tooltip) { get; set; } | 親ハイパーリンクに関連付けられたユーザーインターフェイスに表示される可能性のある文字列を返します。読み書き可能 String。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [Equals](../../aspose.slides/hyperlink/equals#equals)(IHyperlink) | 2 つの Hyperlink インスタンスが等しいかどうかを判断します。 |
-| override [Equals](../../aspose.slides/hyperlink/equals#equals_1)(object) | 2 つの Hyperlink インスタンスが等しいかどうかを判断します。 |
-| override [GetHashCode](../../aspose.slides/hyperlink/gethashcode)() | 特定の型に対するハッシュ関数として機能し、ハッシュアルゴリズムやハッシュテーブルなどのデータ構造で使用できます。 |
-| [operator ==](../../aspose.slides/hyperlink/op_equality) | 2 つのハイパーリンクが等しいかテストします。 |
-| [operator !=](../../aspose.slides/hyperlink/op_inequality) | 2 つのハイパーリンクが等しくないかテストします。 |
+| [Equals](../../aspose.slides/hyperlink/equals#equals)(IHyperlink) | 2つの Hyperlink インスタンスが等しいかどうかを判断します。 |
+| override [Equals](../../aspose.slides/hyperlink/equals#equals_1)(object) | 2つの Hyperlink インスタンスが等しいかどうかを判断します。 |
+| override [GetHashCode](../../aspose.slides/hyperlink/gethashcode)() | 特定の型に対するハッシュ関数として機能し、ハッシュアルゴリズムやハッシュテーブルのようなデータ構造での使用に適しています。 |
+| [operator ==](../../aspose.slides/hyperlink/op_equality) | 2つのハイパーリンクが等しいかテストします。 |
+| [operator !=](../../aspose.slides/hyperlink/op_inequality) | 2つのハイパーリンクが等しくないかテストします。 |
 
-### 関連項目
+### 参照
 
 * クラス [PVIObject](../pviobject)
 * インターフェイス [IHyperlink](../ihyperlink)

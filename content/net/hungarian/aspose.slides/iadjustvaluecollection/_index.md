@@ -1,14 +1,14 @@
 ---
 title: IAdjustValueCollection
-second_title: Aspose.Sildes .NET API referencia
-description: A formák módosításainak gyűjteményét képviseli.
+second_title: Aspose.Sildes .NET API Referenciája
+description: A alakzatok módosításainak gyűjteményét képviseli.
 type: docs
-weight: 5170
+weight: 5190
 url: /hu/aspose.slides/iadjustvaluecollection/
 ---
 ## IAdjustValueCollection interfész
 
-A forma módosításainak gyűjteményét képviseli.
+A shape módosításainak gyűjteményét képviseli.
 
 ```csharp
 public interface IAdjustValueCollection : ICollection
@@ -18,9 +18,9 @@ public interface IAdjustValueCollection : ICollection
 
 | Név | Leírás |
 | --- | --- |
-| [AsICollection](../../aspose.slides/iadjustvaluecollection/asicollection) { get; } | Lehetővé teszi a base ICollection interfész elérését. Írásvédett ICollection. |
-| [AsIEnumerable](../../aspose.slides/iadjustvaluecollection/asienumerable) { get; } | Visszaadja az IEnumerable interfészt. Írásvédett IEnumerable. |
-| [Item](../../aspose.slides/iadjustvaluecollection/item) { get; } | Visszaadja a módosítást index szerint. |
+| [AsICollection](../../aspose.slides/iadjustvaluecollection/asicollection) { get; } | Lehetővé teszi a bázis ICollection interfész lekérését. Csak olvasható ICollection. |
+| [AsIEnumerable](../../aspose.slides/iadjustvaluecollection/asienumerable) { get; } | Visszaadja az IEnumerable interfészt. Csak olvasható IEnumerable. |
+| [Item](../../aspose.slides/iadjustvaluecollection/item) { get; } | Visszaadja a módosítást index alapján. |
 
 ### Lásd még
 

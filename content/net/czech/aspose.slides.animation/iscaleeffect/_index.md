@@ -1,14 +1,14 @@
 ---
 title: IScaleEffect
-second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje efekt měřítka animace.
+second_title: Aspose.Sildes pro .NET – reference API
+description: Reprezentuje efekt měřítka animace.
 type: docs
-weight: 560
+weight: 580
 url: /cs/aspose.slides.animation/iscaleeffect/
 ---
 ## IScaleEffect rozhraní
 
-Representuje efekt měřítka animace.
+Reprezentuje efekt měřítka animace.
 
 ```csharp
 public interface IScaleEffect : IBehavior
@@ -18,11 +18,11 @@ public interface IScaleEffect : IBehavior
 
 | Název | Popis |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/iscaleeffect/asibehavior) { get; } | Umožňuje získat základní rozhraní IBehavior. Pouze ke čtení [`IBehavior`](../ibehavior). |
-| [By](../../aspose.slides.animation/iscaleeffect/by) { get; set; } | popisuje relativní hodnotu offsetu pro animaci (v procentech). Čtení/Zápis PointF. |
-| [From](../../aspose.slides.animation/iscaleeffect/from) { get; set; } | Určuje souřadnici x/y, odkud animace začíná (v procentech). Čtení/Zápis PointF. |
-| [To](../../aspose.slides.animation/iscaleeffect/to) { get; set; } | Určuje cílovou polohu pro animaci měřítka (v procentech). Čtení/Zápis PointF. |
-| [ZoomContent](../../aspose.slides.animation/iscaleeffect/zoomcontent) { get; set; } | Určuje, zda by měl být obsah zvětšen. Čtení/Zápis [`NullableBool`](../../aspose.slides/nullablebool). |
+| [AsIBehavior](../../aspose.slides.animation/iscaleeffect/asibehavior) { get; } | Umožňuje získat základní rozhraní IBehavior. Pouze pro čtení [`IBehavior`](../ibehavior). |
+| [By](../../aspose.slides.animation/iscaleeffect/by) { get; set; } | popisuje relativní hodnotu posunu pro animaci (v procentech). Čtení/zápis PointF. |
+| [From](../../aspose.slides.animation/iscaleeffect/from) { get; set; } | Určuje souřadnici x/y, odkud animaci zahájit (v procentech). Čtení/zápis PointF. |
+| [To](../../aspose.slides.animation/iscaleeffect/to) { get; set; } | Určuje cílovou polohu pro efekt měřítka animace (v procentech). Čtení/zápis PointF. |
+| [ZoomContent](../../aspose.slides.animation/iscaleeffect/zoomcontent) { get; set; } | Určuje, zda by měl být obsah přiblížen. Čtení/zápis [`NullableBool`](../../aspose.slides/nullablebool). |
 
 ### Viz také
 

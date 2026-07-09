@@ -1,14 +1,14 @@
 ---
 title: IBlur
-second_title: Aspose.Sildes .NET API referencia
-description: Ábrázolja a Blur effektet, amely az egész alakzatra, beleértve a kitöltést is, alkalmazva van. Minden színcsatorna, beleértve az alfát, érintett.
+second_title: Aspose.Sildes .NET API referenciája
+description: Egy Blur effektust képvisel, amely az egész alakzatra, a kitöltésével együtt, alkalmazva van. Minden színcsatorna, beleértve az alfát is, érintett.
 type: docs
-weight: 3160
+weight: 3180
 url: /hu/aspose.slides.effects/iblur/
 ---
 ## IBlur interfész
 
-Ábrázolja a Blur effektet, amely az egész alakzatra, beleértve a kitöltést is, alkalmazva van. Minden színcsatorna, beleértve az alfát, érintett.
+Egy Blur effektust képvisel, amely az egész alakzatra, beleértve a kitöltését is, alkalmazva van. Minden színcsatorna, beleértve az alfát is, érintett.
 
 ```csharp
 public interface IBlur : IAccessiblePVIObject<IBlurEffectiveData>, IImageTransformOperation
@@ -18,10 +18,10 @@ public interface IBlur : IAccessiblePVIObject<IBlurEffectiveData>, IImageTransfo
 
 | Név | Leírás |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iblur/asiaccessiblepviobject) { get; } | Lehetővé teszi a base IAccessiblePVIObject interfész lekérését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iblur/asiimagetransformoperation) { get; } | Lehetővé teszi a base IImageTransformOperation interfész lekérését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Grow](../../aspose.slides.effects/iblur/grow) { get; set; } | Meghatározza, hogy az objektum határai a elmosás eredményeként növekedjenek-e. A true jelzi, hogy a határok növekednek, míg a false jelzi, hogy nem növekednek. Olvasás/írás Boolean. |
-| [Radius](../../aspose.slides.effects/iblur/radius) { get; set; } | Visszaadja vagy beállítja az elmosási sugár értékét. Olvasás/írás Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iblur/asiaccessiblepviobject) { get; } | Lehetővé teszi az alap IAccessiblePVIObject interface lekérését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iblur/asiimagetransformoperation) { get; } | Lehetővé teszi az alap IImageTransformOperation interface lekérését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Grow](../../aspose.slides.effects/iblur/grow) { get; set; } | Meghatározza, hogy az objektum határai a elmosódás eredményeként növekedjenek-e. A true jelzi, hogy a határok növekednek, míg a false jelzi, hogy nem növekednek. Olvasás/írás Boolean. |
+| [Radius](../../aspose.slides.effects/iblur/radius) { get; set; } | Visszaadja vagy beállítja a blur radius értékét. Olvasás/írás Double. |
 
 ### Lásd még
 

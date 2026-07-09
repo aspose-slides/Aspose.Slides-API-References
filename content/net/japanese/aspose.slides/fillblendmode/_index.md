@@ -1,12 +1,12 @@
 ---
 title: FillBlendMode
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: ブレンドモードを決定します。
 type: docs
-weight: 4750
+weight: 4770
 url: /ja/aspose.slides/fillblendmode/
 ---
-## FillBlendMode 列挙体
+## FillBlendMode 列挙型
 
 ブレンドモードを決定します。
 
@@ -18,11 +18,11 @@ public enum FillBlendMode
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| Darken | `0` | 暗くするブレンドモード。 |
-| Lighten | `1` | 明るくするブレンドモード。 |
-| Multiply | `2` | 乗算ブレンドモード。 |
-| Overlay | `3` | オーバーレイブレンドモード。 |
-| Screen | `4` | スクリーンブレンドモード。 |
+| Darken | `0` | Darken ブレンドモード。 |
+| Lighten | `1` | Lighten ブレンドモード。 |
+| Multiply | `2` | Multiply ブレンドモード。 |
+| Overlay | `3` | Overlay ブレンドモード。 |
+| Screen | `4` | Screen ブレンドモード。 |
 
 ### 参照
 

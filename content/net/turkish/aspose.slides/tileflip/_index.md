@@ -1,14 +1,14 @@
 ---
 title: TileFlip
-second_title: Aspose.Sildes for .NET API Referansı
-description: Karoların döndürülme modunu tanımlar.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Döşeme çevirme modunu tanımlar.
 type: docs
-weight: 11480
+weight: 11500
 url: /tr/aspose.slides/tileflip/
 ---
-## TileFlip enum
+## TileFlip enumerasyon
 
-Karoların döndürülme modunu tanımlar.
+Döşeme çevirme modunu tanımlar.
 
 ```csharp
 public enum TileFlip
@@ -16,7 +16,7 @@ public enum TileFlip
 
 ### Değerler
 
-| Ad | Değer | Açıklama |
+| Name | Value | Açıklama |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | NoFlip | `0` |  |
@@ -24,7 +24,7 @@ public enum TileFlip
 | FlipY | `2` |  |
 | FlipBoth | `3` |  |
 
-### İlgili
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

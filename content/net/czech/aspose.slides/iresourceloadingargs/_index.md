@@ -1,9 +1,9 @@
 ---
 title: IResourceLoadingArgs
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET API referenci
 description: Rozhraní pro argumenty načítání externích zdrojů.
 type: docs
-weight: 6810
+weight: 6830
 url: /cs/aspose.slides/iresourceloadingargs/
 ---
 ## IResourceLoadingArgs rozhraní
@@ -19,13 +19,13 @@ public interface IResourceLoadingArgs
 | Název | Popis |
 | --- | --- |
 | [OriginalUri](../../aspose.slides/iresourceloadingargs/originaluri) { get; } | Původní URI zdroje, jak je uvedeno v importované prezentaci. |
-| [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | URI zdroje, které se používá pro stahování, pokud [`ResourceLoading`](../iresourceloadingcallback/resourceloading) vrací Default. Původně je nastaveno na původní URI zdroje, ale může být změněno na libovolnou hodnotu. |
+| [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | URI zdroje, které se používá pro stažení, pokud [`ResourceLoading`](../iresourceloadingcallback/resourceloading) vrátí Default. Na začátku je nastaveno na původní URI zdroje, ale může být předefinováno na libovolnou hodnotu. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [SetData](../../aspose.slides/iresourceloadingargs/setdata)(byte[]) | Nastaví uživatelem poskytnutá data zdroje, která se použijí, pokud [`ResourceLoading`](../iresourceloadingcallback/resourceloading) vrací UserProvided. |
+| [SetData](../../aspose.slides/iresourceloadingargs/setdata)(byte[]) | Nastaví uživatelem poskytnutá data zdroje, která se používají, pokud [`ResourceLoading`](../iresourceloadingcallback/resourceloading) vrátí UserProvided. |
 
 ### Viz také
 

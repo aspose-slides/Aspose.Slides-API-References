@@ -1,14 +1,14 @@
 ---
 title: IXamlOutputSaver
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Képviseli egy kimeneti mentő implementációját az adatok külső tárolóba történő átviteléhez.
+second_title: Aspose.Sildes .NET API-re vonatkozó hivatkozás
+description: Kimeneti mentő megvalósítást képvisel az adatok külső tárolóba való átviteléhez.
 type: docs
-weight: 4690
+weight: 4710
 url: /hu/aspose.slides.export.xaml/ixamloutputsaver/
 ---
 ## IXamlOutputSaver interfész
 
-Képviseli egy kimeneti mentő implementációját az adatok külső tárolóba történő átviteléhez.
+Képviseli a kimeneti mentő megvalósítását az adatok külső tárolóba történő átviteléhez.
 
 ```csharp
 public interface IXamlOutputSaver
@@ -18,7 +18,7 @@ public interface IXamlOutputSaver
 
 | Név | Leírás |
 | --- | --- |
-| [Save](../../aspose.slides.export.xaml/ixamloutputsaver/save)(string, byte[]) | Elment egy byte tömböt egy célhelyre. |
+| [Save](../../aspose.slides.export.xaml/ixamloutputsaver/save)(string, byte[]) | Ment egy bájt tömböt egy célhelyre. |
 
 ### Lásd még
 

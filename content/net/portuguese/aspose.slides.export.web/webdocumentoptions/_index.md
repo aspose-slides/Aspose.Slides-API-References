@@ -1,9 +1,9 @@
 ---
 title: WebDocumentOptions
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET - Referência da API
 description: Representa um conjunto de opções para salvar WebDocument./webdocument.
 type: docs
-weight: 4670
+weight: 4690
 url: /pt/aspose.slides.export.web/webdocumentoptions/
 ---
 ## WebDocumentOptions classe
@@ -24,11 +24,11 @@ public class WebDocumentOptions
 
 | Nome | Descrição |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export.web/webdocumentoptions/animateshapes) { get; set; } | Retorna ou define a opção de animação de formas. Leitura/gravação Boolean. |
-| [AnimateTransitions](../../aspose.slides.export.web/webdocumentoptions/animatetransitions) { get; set; } | Retorna ou define a opção de animação de transições. Leitura/gravação Boolean. |
-| [EmbedImages](../../aspose.slides.export.web/webdocumentoptions/embedimages) { get; set; } | Retorna ou define a opção de incorporação de imagens. Leitura/gravação Boolean. |
-| [OutputSaver](../../aspose.slides.export.web/webdocumentoptions/outputsaver) { get; set; } | Retorna ou define o salvador de saída. Leitura/gravação [`IOutputSaver`](../ioutputsaver). |
-| [TemplateEngine](../../aspose.slides.export.web/webdocumentoptions/templateengine) { get; set; } | Retorna ou define o motor de modelos. Leitura/gravação [`ITemplateEngine`](../itemplateengine). |
+| [AnimateShapes](../../aspose.slides.export.web/webdocumentoptions/animateshapes) { get; set; } | Obtém ou define a opção de animação de formas. Leitura/gravação Boolean. |
+| [AnimateTransitions](../../aspose.slides.export.web/webdocumentoptions/animatetransitions) { get; set; } | Obtém ou define a opção de animação de transições. Leitura/gravação Boolean. |
+| [EmbedImages](../../aspose.slides.export.web/webdocumentoptions/embedimages) { get; set; } | Obtém ou define a opção de incorporação de imagens. Leitura/gravação Boolean. |
+| [OutputSaver](../../aspose.slides.export.web/webdocumentoptions/outputsaver) { get; set; } | Obtém ou define o gravador de saída. Leitura/gravação [`IOutputSaver`](../ioutputsaver). |
+| [TemplateEngine](../../aspose.slides.export.web/webdocumentoptions/templateengine) { get; set; } | Obtém ou define o mecanismo de modelos. Leitura/gravação [`ITemplateEngine`](../itemplateengine). |
 
 ### Veja Também
 

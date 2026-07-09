@@ -1,14 +1,14 @@
 ---
 title: IFlyThroughTransition
 second_title: Aspose.Sildes för .NET API-referens
-description: Fly-through bildövergångseffekt.
+description: Fly-genom-bildövergångseffekt.
 type: docs
-weight: 10070
+weight: 10090
 url: /sv/aspose.slides.slideshow/iflythroughtransition/
 ---
 ## IFlyThroughTransition gränssnitt
 
-Fly-through-bildövergångseffekt.
+Fly-genom-bildövergångseffekt.
 
 ```csharp
 public interface IFlyThroughTransition : ITransitionValueBase
@@ -16,11 +16,11 @@ public interface IFlyThroughTransition : ITransitionValueBase
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iflythroughtransition/asitransitionvaluebase) { get; } | Tillåter att hämta bas-ITransitionValueBase-gränssnittet. Skrivskyddad [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/iflythroughtransition/direction) { get; set; } | Övergångens riktning. Läs/skriv [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [HasBounce](../../aspose.slides.slideshow/iflythroughtransition/hasbounce) { get; set; } | Anger att rörelsen av bildspelslides under övergången inkluderar ett studs. Läs/skriv Boolean. |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iflythroughtransition/asitransitionvaluebase) { get; } | Tillåter att hämta bas-ITransitionValueBase-gränssnittet. Endast läsning [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/iflythroughtransition/direction) { get; set; } | Riktning för övergången. Läs/skriv [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [HasBounce](../../aspose.slides.slideshow/iflythroughtransition/hasbounce) { get; set; } | Anger att rörelsen av presentationsbilderna under övergången inkluderar en studs. Läs/skriv Boolean. |
 
 ### Se även
 

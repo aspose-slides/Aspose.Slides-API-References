@@ -1,14 +1,14 @@
 ---
 title: IPortion
-second_title: Aspose.Sildes for .NET API Referansı
-description: Bir metin paragrafı içinde bir metin parçacığını temsil eder.
+second_title: Aspose.Sildes .NET için API Referansı
+description: Metin paragrafı içinde bir metin parçasını temsil eder.
 type: docs
-weight: 6680
+weight: 6700
 url: /tr/aspose.slides/iportion/
 ---
-## IPortion arayüzü
+## IPortion arayüz
 
-Bir metin paragrafı içinde bir metin parçacığını temsil eder.
+Metin paragrafı içinde bir metin parçasını temsil eder.
 
 ```csharp
 public interface IPortion : ISlideComponent
@@ -18,20 +18,20 @@ public interface IPortion : ISlideComponent
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/iportion/asislidecomponent) { get; } | Temel ISlideComponent arayüzünü almayı sağlar. Salt okunur [`ISlideComponent`](../islidecomponent). |
-| [Field](../../aspose.slides/iportion/field) { get; } | Bu parçacığın bir alanını döndürür. Salt okunur [`IField`](../ifield). |
-| [PortionFormat](../../aspose.slides/iportion/portionformat) { get; } | Kalıtım uygulanmadan metin parçacığının açıkça ayarlanmış biçimlendirme özelliklerini içeren biçimlendirme nesnesini döndürür. Salt okunur [`IPortionFormat`](../iportionformat). |
-| [Text](../../aspose.slides/iportion/text) { get; set; } | Bir parçacığın düz metnini alır veya ayarlar. Okunur/yazılabilir String. |
+| [AsISlideComponent](../../aspose.slides/iportion/asislidecomponent) { get; } | Temel ISlideComponent arayüzünü almayı sağlar. Yalnızca okunabilir [`ISlideComponent`](../islidecomponent). |
+| [Field](../../aspose.slides/iportion/field) { get; } | Bu parçanın bir alanını döndürür. Yalnızca okunabilir [`IField`](../ifield). |
+| [PortionFormat](../../aspose.slides/iportion/portionformat) { get; } | Kalıtım uygulanmadan açıkça ayarlanmış biçimlendirme özelliklerini içeren biçimlendirme nesnesini döndürür. Yalnızca okunabilir [`IPortionFormat`](../iportionformat). |
+| [Text](../../aspose.slides/iportion/text) { get; set; } | Bir parçanın düz metnini alır veya ayarlar. Okunur/yazılır String. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [AddField](../../aspose.slides/iportion/addfield#addfield)(IFieldType) | Bu parçacığı otomatik olarak güncellenen bir alana dönüştürür. |
-| [AddField](../../aspose.slides/iportion/addfield#addfield_1)(string) | Bu parçacığı otomatik olarak güncellenen bir alana dönüştürür. |
-| [GetCoordinates](../../aspose.slides/iportion/getcoordinates)() | Parçacığın başlangıcının koordinatlarını alır. Noktanın X koordinatı, sol kenar boşluğu dahil ilk karakterden başlayan parçacık başlangıcını temsil eder. Y koordinatı üst kenar boşluğunu içerir. |
-| [GetRect](../../aspose.slides/iportion/getrect)() | Parçacığı sınırlayan dikdörtgenin koordinatlarını alır. Dikdörtgen, boş olanlar dahil, parçacıktaki tüm metin satırlarını içerir. |
-| [RemoveField](../../aspose.slides/iportion/removefield)() | Bu alan parçacığını basit bir parçacığa dönüştürür. |
+| [AddField](../../aspose.slides/iportion/addfield#addfield)(IFieldType) | Bu parçayı otomatik olarak güncellenen alana dönüştürür. |
+| [AddField](../../aspose.slides/iportion/addfield#addfield_1)(string) | Bu parçayı otomatik olarak güncellenen alana dönüştürür. |
+| [GetCoordinates](../../aspose.slides/iportion/getcoordinates)() | Parçanın başlangıç koordinatlarını al. Noktanın X koordinatı, sol yan boşluk dahil ilk karakterden başlayan parçanın başlangıcını temsil eder. Y koordinatı üst yan boşluğu içerir. |
+| [GetRect](../../aspose.slides/iportion/getrect)() | Parçayı sınırlayan dikdörtgenin koordinatlarını al. Dikdörtgen, boş olanlar da dahil, parçadaki tüm metin satırlarını içerir. |
+| [RemoveField](../../aspose.slides/iportion/removefield)() | Bu alan parçasını basit bir parçaya dönüştürür. |
 
 ### Ayrıca Bakınız
 

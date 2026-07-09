@@ -3,7 +3,7 @@ title: IMathLimitFactory
 second_title: Aspose.Sildes för .NET API-referens
 description: Tillåter att skapa IMathLimit
 type: docs
-weight: 8310
+weight: 8330
 url: /sv/aspose.slides.mathtext/imathlimitfactory/
 ---
 ## IMathLimitFactory gränssnitt
@@ -18,14 +18,14 @@ public interface IMathLimitFactory
 
 | Namn | Beskrivning |
 | --- | --- |
-| [CreateMathLimit](../../aspose.slides.mathtext/imathlimitfactory/createmathlimit#createmathlimit)(IMathElement, IMathElement) | Skapar IMathLimit med gräns längst ner |
+| [CreateMathLimit](../../aspose.slides.mathtext/imathlimitfactory/createmathlimit#createmathlimit)(IMathElement, IMathElement) | Skapar IMathLimit med gräns i botten |
 | [CreateMathLimit](../../aspose.slides.mathtext/imathlimitfactory/createmathlimit#createmathlimit_1)(IMathElement, IMathElement, bool) | Skapar IMathLimit |
 
 ### Anmärkningar
 
 För COM-kompatibilitet
 
-### Se också
+### Se även
 
 * namnrymd [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * samling [Aspose.Slides](../../)

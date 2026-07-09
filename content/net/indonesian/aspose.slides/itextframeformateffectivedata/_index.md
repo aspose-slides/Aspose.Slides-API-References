@@ -1,14 +1,14 @@
 ---
 title: ITextFrameFormatEffectiveData
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Objek tak dapat diubah yang berisi properti pemformatan frame teks yang efektif.
+description: Objek tak dapat diubah yang berisi properti format bingkai teks yang efektif.
 type: docs
-weight: 7270
+weight: 7290
 url: /id/aspose.slides/itextframeformateffectivedata/
 ---
-## antarmuka ITextFrameFormatEffectiveData
+## ITextFrameFormatEffectiveData antarmuka
 
-Objek tak dapat diubah yang berisi properti pemformatan TextFrame yang efektif.
+Objek tak dapat diubah yang berisi properti format bingkai teks yang efektif.
 
 ```csharp
 public interface ITextFrameFormatEffectiveData
@@ -18,26 +18,26 @@ public interface ITextFrameFormatEffectiveData
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AnchoringType](../../aspose.slides/itextframeformateffectivedata/anchoringtype) { get; } | Mengembalikan teks jangkar vertikal dalam TextFrame. Baca-saja [`TextAnchorType`](../textanchortype). |
-| [AutofitType](../../aspose.slides/itextframeformateffectivedata/autofittype) { get; } | Mengembalikan mode penyesuaian otomatis teks. Baca-saja [`TextAutofitType`](../textautofittype). |
-| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | Mengembalikan apakah teks harus dipusatkan secara horizontal di dalam kotak. Baca-saja Boolean. |
-| [ColumnCount](../../aspose.slides/itextframeformateffectivedata/columncount) { get; } | Menentukan jumlah kolom teks dalam persegi panjang pembatas. Baca-saja Int32. |
-| [ColumnSpacing](../../aspose.slides/itextframeformateffectivedata/columnspacing) { get; } | Menentukan ruang antar kolom teks di area teks (dalam poin). Baca-saja Single. |
-| [MarginBottom](../../aspose.slides/itextframeformateffectivedata/marginbottom) { get; } | Mengembalikan margin bawah (poin) dalam TextFrame. Baca-saja Double. |
-| [MarginLeft](../../aspose.slides/itextframeformateffectivedata/marginleft) { get; } | Mengembalikan margin kiri (poin) dalam TextFrame. Baca-saja Double. |
-| [MarginRight](../../aspose.slides/itextframeformateffectivedata/marginright) { get; } | Mengembalikan margin kanan (poin) dalam TextFrame. Baca-saja Double. |
-| [MarginTop](../../aspose.slides/itextframeformateffectivedata/margintop) { get; } | Mengembalikan margin atas (poin) dalam TextFrame. Baca-saja Double. |
-| [TextStyle](../../aspose.slides/itextframeformateffectivedata/textstyle) { get; } | Mengembalikan gaya teks yang efektif. Baca-saja [`ITextStyleEffectiveData`](../itextstyleeffectivedata). |
-| [TextVerticalType](../../aspose.slides/itextframeformateffectivedata/textverticaltype) { get; } | Mengembalikan orientasi teks. Baca-saja [`TextVerticalType`](../textverticaltype). |
-| [WrapText](../../aspose.slides/itextframeformateffectivedata/wraptext) { get; } | Mengembalikan apakah teks dibungkus pada margin TextFrame. Baca-saja Boolean. |
+| [AnchoringType](../../aspose.slides/itextframeformateffectivedata/anchoringtype) { get; } | Mengembalikan teks jangkar vertikal dalam TextFrame. Hanya-baca [`TextAnchorType`](../textanchortype). |
+| [AutofitType](../../aspose.slides/itextframeformateffectivedata/autofittype) { get; } | Mengembalikan mode autofit teks. Hanya-baca [`TextAutofitType`](../textautofittype). |
+| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | Mengembalikan apakah teks harus ditengah secara horizontal dalam kotak. Hanya-baca Boolean. |
+| [ColumnCount](../../aspose.slides/itextframeformateffectivedata/columncount) { get; } | Menentukan jumlah kolom teks dalam persegi pembatas. Hanya-baca Int32. |
+| [ColumnSpacing](../../aspose.slides/itextframeformateffectivedata/columnspacing) { get; } | Menentukan jarak antar kolom teks di area teks (dalam poin). Hanya-baca Single. |
+| [MarginBottom](../../aspose.slides/itextframeformateffectivedata/marginbottom) { get; } | Mengembalikan margin bawah (poin) dalam TextFrame. Hanya-baca Double. |
+| [MarginLeft](../../aspose.slides/itextframeformateffectivedata/marginleft) { get; } | Mengembalikan margin kiri (poin) dalam TextFrame. Hanya-baca Double. |
+| [MarginRight](../../aspose.slides/itextframeformateffectivedata/marginright) { get; } | Mengembalikan margin kanan (poin) dalam TextFrame. Hanya-baca Double. |
+| [MarginTop](../../aspose.slides/itextframeformateffectivedata/margintop) { get; } | Mengembalikan margin atas (poin) dalam TextFrame. Hanya-baca Double. |
+| [TextStyle](../../aspose.slides/itextframeformateffectivedata/textstyle) { get; } | Mengembalikan gaya teks efektif. Hanya-baca [`ITextStyleEffectiveData`](../itextstyleeffectivedata). |
+| [TextVerticalType](../../aspose.slides/itextframeformateffectivedata/textverticaltype) { get; } | Mengembalikan orientasi teks. Hanya-baca [`TextVerticalType`](../textverticaltype). |
+| [WrapText](../../aspose.slides/itextframeformateffectivedata/wraptext) { get; } | Mengembalikan apakah teks dibungkus pada margin TextFrame. Hanya-baca Boolean. |
 
 ### Catatan
 
-Antarmuka ini digunakan bersama dengan antarmuka [`ITextFrameFormat`](../itextframeformat) untuk mengembalikan nilai pemformatan efektif dengan pewarisan diterapkan.
+Antarmuka ini digunakan bersama dengan antarmuka [`ITextFrameFormat`](../itextframeformat) untuk mengembalikan nilai format efektif dengan pewarisan yang diterapkan.
 
 ### Lihat Juga
 
 * ruang nama [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* rakitan [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

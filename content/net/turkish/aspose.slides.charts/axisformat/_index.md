@@ -1,9 +1,9 @@
 ---
 title: AxisFormat
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Grafik formatı özelliklerini temsil eder.
 type: docs
-weight: 1180
+weight: 1200
 url: /tr/aspose.slides.charts/axisformat/
 ---
 ## AxisFormat sınıfı
@@ -18,11 +18,11 @@ public sealed class AxisFormat : DomObject<Axis>, IAxisFormat
 
 | Ad | Açıklama |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/axisformat/effect) { get; } | Bir eksende kullanılan efektleri döndürür. Yalnızca okunabilir [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Fill](../../aspose.slides.charts/axisformat/fill) { get; } | Bir eksenin doldurma stili özelliklerini döndürür. Yalnızca okunabilir [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [Line](../../aspose.slides.charts/axisformat/line) { get; } | Bir eksenin çizgi stili özelliklerini döndürür. Yalnızca okunabilir [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/axisformat/effect) { get; } | Bir eksende kullanılan efektleri döndürür. Salt-okunur [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Fill](../../aspose.slides.charts/axisformat/fill) { get; } | Bir eksenin dolgu stil özelliklerini döndürür. Salt-okunur [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Line](../../aspose.slides.charts/axisformat/line) { get; } | Bir eksenin çizgi stil özelliklerini döndürür. Salt-okunur [`ILineFormat`](../../aspose.slides/ilineformat). |
 
-### İlgili
+### Ayrıca Bakınız
 
 * sınıf [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * sınıf [Axis](../axis)

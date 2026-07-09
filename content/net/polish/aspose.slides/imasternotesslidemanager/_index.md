@@ -1,9 +1,9 @@
 ---
 title: IMasterNotesSlideManager
-second_title: Aspose.Sildes dla .NET API Reference
+second_title: Aspose.Sildes dla .NET Referencja API
 description: Menedżer slajdów notatek głównych.
 type: docs
-weight: 6390
+weight: 6410
 url: /pl/aspose.slides/imasternotesslidemanager/
 ---
 ## IMasterNotesSlideManager interfejs
@@ -18,16 +18,16 @@ public interface IMasterNotesSlideManager
 
 | Nazwa | Opis |
 | --- | --- |
-| [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | Zwraca główny slajd notatek dla całej prezentacji, jeśli istnieje, w przeciwnym razie zwraca null. Tylko do odczytu [`IMasterNotesSlide`](../imasternotesslide). |
+| [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | Zwraca master dla wszystkich slajdów notatek tej prezentacji, jeśli istnieje, w przeciwnym razie zwraca null. Tylko do odczytu [`IMasterNotesSlide`](../imasternotesslide). |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [RemoveMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/removemasternotesslide)() | Usuwa główny slajd notatek. |
-| [SetDefaultMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide)() | Ustawia domyślny główny slajd notatek dla powiązanego slajdu notatek. |
+| [RemoveMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/removemasternotesslide)() | Usuwa slajd notatek master. |
+| [SetDefaultMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide)() | Ustawia domyślny slajd notatek master dla powiązanego slajdu notatek. |
 
-### Zobacz również
+### Zobacz także
 
 * przestrzeń nazw [Aspose.Slides](../../aspose.slides)
 * zbiór [Aspose.Slides](../../)

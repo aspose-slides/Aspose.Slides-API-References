@@ -3,12 +3,12 @@ title: OleObjectFrame
 second_title: Aspose.Sildes için .NET API Referansı
 description: Bir slayt üzerindeki OLE nesnesini temsil eder.
 type: docs
-weight: 9210
+weight: 9230
 url: /tr/aspose.slides/oleobjectframe/
 ---
 ## OleObjectFrame sınıfı
 
-Bir slaytta OLE nesnesini temsil eder.
+Bir slayt üzerindeki OLE nesnesini temsil eder.
 
 ```csharp
 public class OleObjectFrame : GraphicalObject, IOleObjectFrame
@@ -18,65 +18,65 @@ public class OleObjectFrame : GraphicalObject, IOleObjectFrame
 
 | Ad | Açıklama |
 | --- | --- |
-| [AlternativeText](../../aspose.slides/shape/alternativetext) { get; set; } | Bir şekille ilişkili alternatif metni alır veya ayarlar. Okunur/Yazılabilir String. |
-| [AlternativeTextTitle](../../aspose.slides/shape/alternativetexttitle) { get; set; } | Bir şekille ilişkili alternatif metnin başlığını alır veya ayarlar. Okunur/Yazılabilir String. |
-| [AsIGraphicalObject](../../aspose.slides/oleobjectframe/asigraphicalobject) { get; } | Temel IGraphicalObject arayüzünü almayı sağlar. Yalnızca-okunur [`IGraphicalObject`](../igraphicalobject). |
-| [BlackWhiteMode](../../aspose.slides/shape/blackwhitemode) { get; set; } | Şeklin siyah-beyaz görüntü modunda nasıl render edileceğini belirten özelliktir. Okunur/Yazılabilir [`BlackWhiteMode`](../blackwhitemode). |
-| [ConnectionSiteCount](../../aspose.slides/shape/connectionsitecount) { get; } | Şeklin bağlantı noktası sayısını döndürür. Yalnızca-okunur Int32. |
-| [CustomData](../../aspose.slides/shape/customdata) { get; } | Şeklin özel verilerini döndürür. Yalnızca-okunur [`ICustomData`](../icustomdata). |
-| virtual [EffectFormat](../../aspose.slides/shape/effectformat) { get; } | Bir şekle uygulanmış piksel efektlerini içeren EffectFormat nesnesini döndürür. Not: efekt özelliği olmayan bazı şekil türleri için null dönebilir. Yalnızca-okunur [`IEffectFormat`](../ieffectformat). |
-| [EmbeddedData](../../aspose.slides/oleobjectframe/embeddeddata) { get; } | OLE gömülü verileriyle ilgili bilgileri alır veya ayarlar. Okunur/Yazılabilir [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo). |
+| [AlternativeText](../../aspose.slides/shape/alternativetext) { get; set; } | Bir şekille ilişkili alternatif metni alır veya ayarlar. Okuma/yazma String. |
+| [AlternativeTextTitle](../../aspose.slides/shape/alternativetexttitle) { get; set; } | Bir şekille ilişkili alternatif metnin başlığını alır veya ayarlar. Okuma/yazma String. |
+| [AsIGraphicalObject](../../aspose.slides/oleobjectframe/asigraphicalobject) { get; } | Temel IGraphicalObject arayüzünü almayı sağlar. Yalnızca okuma [`IGraphicalObject`](../igraphicalobject). |
+| [BlackWhiteMode](../../aspose.slides/shape/blackwhitemode) { get; set; } | Bu özellik, bir şeklin siyah-beyaz görüntü modunda nasıl render edileceğini belirtir. Okuma/yazma [`BlackWhiteMode`](../blackwhitemode). |
+| [ConnectionSiteCount](../../aspose.slides/shape/connectionsitecount) { get; } | Şekildeki bağlantı noktalarının sayısını döndürür. Yalnızca okuma Int32. |
+| [CustomData](../../aspose.slides/shape/customdata) { get; } | Şeklin özel verisini döndürür. Yalnızca okuma [`ICustomData`](../icustomdata). |
+| virtual [EffectFormat](../../aspose.slides/shape/effectformat) { get; } | Bir şekle uygulanan piksel efektlerini içeren EffectFormat nesnesini döndürür. Not: efekt özellikleri olmayan bazı şekil türleri için null döndürebilir. Yalnızca okuma [`IEffectFormat`](../ieffectformat). |
+| [EmbeddedData](../../aspose.slides/oleobjectframe/embeddeddata) { get; } | OLE gömülü verileriyle ilgili bilgileri alır veya ayarlar. Okuma/yazma [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo). |
 | [EmbeddedFileLabel](../../aspose.slides/oleobjectframe/embeddedfilelabel) { get; } | Gömülü OLE nesnesinin dosya adını döndürür. |
 | [EmbeddedFileName](../../aspose.slides/oleobjectframe/embeddedfilename) { get; } | Gömülü OLE nesnesinin yolunu döndürür. |
-| virtual [FillFormat](../../aspose.slides/shape/fillformat) { get; } | Bir şeklin dolgu biçimlendirme özelliklerini içeren FillFormat nesnesini döndürür. Not: dolgu özelliği olmayan bazı şekil türleri için null dönebilir. Yalnızca-okunur [`IFillFormat`](../ifillformat). |
-| [Frame](../../aspose.slides/shape/frame) { get; set; } | Şekil çerçevesinin özelliklerini alır veya ayarlar. Okunur/Yazılabilir [`IShapeFrame`](../ishapeframe). |
-| [GraphicalObjectLock](../../aspose.slides/graphicalobject/graphicalobjectlock) { get; } | Şeklin kilitlerini döndürür. Yalnızca-okunur [`IGraphicalObjectLock`](../igraphicalobjectlock). |
-| [Height](../../aspose.slides/shape/height) { get; set; } | Şeklin yüksekliğini, nokta cinsinden alır veya ayarlar. Okunur/Yazılabilir Single. |
-| [Hidden](../../aspose.slides/shape/hidden) { get; set; } | Şeklin gizli olup olmadığını belirler. Okunur/Yazılabilir Boolean. |
-| [HyperlinkClick](../../aspose.slides/shape/hyperlinkclick) { get; set; } | Fare tıklamasına tanımlı köprüyi alır veya ayarlar. Okunur/Yazılabilir [`IHyperlink`](../ihyperlink). |
-| [HyperlinkManager](../../aspose.slides/shape/hyperlinkmanager) { get; } | Köprü yöneticisini döndürür. Yalnızca-okunur [`IHyperlinkManager`](../ihyperlinkmanager). |
-| [HyperlinkMouseOver](../../aspose.slides/shape/hyperlinkmouseover) { get; set; } | Fare üzerindeyken tanımlı köprüyü alır veya ayarlar. Okunur/Yazılabilir [`IHyperlink`](../ihyperlink). |
-| [IsDecorative](../../aspose.slides/shape/isdecorative) { get; set; } | ‘Dekoratif olarak işaretle’ seçeneğini alır veya ayarlar. Okunur/Yazılabilir Boolean. |
-| [IsGrouped](../../aspose.slides/shape/isgrouped) { get; } | Şeklin gruplanıp gruplanmadığını belirler. Yalnızca-okunur Boolean. |
-| [IsObjectIcon](../../aspose.slides/oleobjectframe/isobjecticon) { get; set; } | Nesnenin simge olarak görünüp görünmediğini belirler. Okunur/Yazılabilir Boolean. |
-| [IsObjectLink](../../aspose.slides/oleobjectframe/isobjectlink) { get; } | Nesnenin harici bir dosyaya bağlı olup olmadığını belirler. Yalnızca-okunur Boolean. |
-| [IsTextHolder](../../aspose.slides/shape/istextholder) { get; } | Şeklin TextHolder_PPT olup olmadığını belirler. Yalnızca-okunur Boolean. |
-| virtual [LineFormat](../../aspose.slides/shape/lineformat) { get; } | Bir şeklin çizgi biçimlendirme özelliklerini içeren LineFormat nesnesini döndürür. Not: çizgi özelliği olmayan bazı şekil türleri için null dönebilir. Yalnızca-okunur [`ILineFormat`](../ilineformat). |
-| [LinkFileName](../../aspose.slides/oleobjectframe/linkfilename) { get; } | Bağlı bir dosyanın tam yolunu döndürür. Kısa dosya adı kullanılacaktır. Yalnızca-okunur String. |
-| [LinkPathLong](../../aspose.slides/oleobjectframe/linkpathlong) { get; set; } | Bağlı bir dosyanın tam yolunu döndürür. Uzun dosya adı kullanılacaktır. Okunur/Yazılabilir String. |
-| [LinkPathRelative](../../aspose.slides/oleobjectframe/linkpathrelative) { get; } | Bağlı bir dosyanın göreli yolunu döndürür; yoksa boş dize döner. Yalnızca-okunur String. |
-| [Name](../../aspose.slides/shape/name) { get; set; } | Şeklin adını alır veya ayarlar. Boş olmayacak şekilde ayarlanmalıdır. Gerekirse boş dize kullanılabilir. Okunur/Yazılabilir String. |
-| [ObjectName](../../aspose.slides/oleobjectframe/objectname) { get; set; } | Nesnenin adını alır veya ayarlar. Okunur/Yazılabilir String. |
-| [ObjectProgId](../../aspose.slides/oleobjectframe/objectprogid) { get; set; } | Nesnenin ProgID’sini döndürür. Yalnızca-okunur String. |
-| [OfficeInteropShapeId](../../aspose.slides/shape/officeinteropshapeid) { get; } | Şekil ömür boyu sabit kalan, slayt kapsamlı benzersiz tanımlayıcısını döndürür; böylece PowerPoint veya interop kodu şekle her yerden güvenilir biçimde başvurabilir. Yalnızca-okunur UInt32. Ayrıca bakınız [`UniqueId`](../shape/uniqueid). |
-| [ParentGroup](../../aspose.slides/shape/parentgroup) { get; } | Şekil gruplanmışsa üst GroupShape nesnesini döndürür. Aksi takdirde null döner. Yalnızca-okunur [`IGroupShape`](../igroupshape). |
-| [Placeholder](../../aspose.slides/shape/placeholder) { get; } | Şeklin yer tutucusunu döndürür. Yer tutucu yoksa null döner. Yalnızca-okunur [`IPlaceholder`](../iplaceholder). |
-| [Presentation](../../aspose.slides/shape/presentation) { get; } | Slayın ana sunum nesnesini döndürür. Yalnızca-okunur [`IPresentation`](../ipresentation). |
-| [RawFrame](../../aspose.slides/shape/rawframe) { get; set; } | Ham şekil çerçevesinin özelliklerini alır veya ayarlar. Okunur/Yazılabilir [`IShapeFrame`](../ishapeframe). |
-| [Rotation](../../aspose.slides/shape/rotation) { get; set; } | Belirtilen şeklin z-ekseni etrafında döndürüldüğü derece sayısını alır veya ayarlar. Pozitif değer saat yönünde, negatif değer saat yönünün tersine döndürür. Okunur/Yazılabilir Single. |
-| [ShapeLock](../../aspose.slides/graphicalobject/shapelock) { get; } | Şeklin kilitlerini döndürür. Yalnızca-okunur [`IGraphicalObjectLock`](../igraphicalobjectlock). (2 özellik) |
-| [Slide](../../aspose.slides/shape/slide) { get; } | Şeklin üst slaydını döndürür. Yalnızca-okunur [`IBaseSlide`](../ibaseslide). |
-| [SubstitutePictureFormat](../../aspose.slides/oleobjectframe/substitutepictureformat) { get; } | OleObject resim dolgu özellikleri nesnesini döndürür. Yalnızca-okunur [`IPictureFillFormat`](../ipicturefillformat). |
-| [SubstitutePictureTitle](../../aspose.slides/oleobjectframe/substitutepicturetitle) { get; set; } | OleObject simgesi için başlığı alır veya ayarlar. Okunur/Yazılabilir String. |
-| virtual [ThreeDFormat](../../aspose.slides/shape/threedformat) { get; } | Şeklin 3D efekt özelliklerini içeren ThreeDFormat nesnesini döndürür. Not: 3D özelliği olmayan bazı şekil türleri için null dönebilir. Yalnızca-okunur [`IThreeDFormat`](../ithreedformat). |
-| [UniqueId](../../aspose.slides/shape/uniqueid) { get; } | Eklentiler veya diğer kodlar tarafından kullanılmak üzere, sunuma özgü iç kimliği döndürür. Bu değer kullanıcı veya program tarafından yeniden atanabileceği için kalıcı bir benzersiz anahtar olarak kullanılmamalıdır. Yalnızca-okunur UInt32. Ayrıca bakınız [`OfficeInteropShapeId`](../shape/officeinteropshapeid). |
-| [UpdateAutomatic](../../aspose.slides/oleobjectframe/updateautomatic) { get; set; } | Bağlı gömülü nesnenin sunum açıldığında veya yazdırıldığında otomatik olarak güncellenip güncellenmeyeceğini belirler. Okunur/Yazılabilir Boolean. |
-| [Width](../../aspose.slides/shape/width) { get; set; } | Şeklin genişliğini, nokta cinsinden alır veya ayarlar. Okunur/Yazılabilir Single. |
-| [X](../../aspose.slides/shape/x) { get; set; } | Şeklin sol-üst köşesinin x koordinatını, nokta cinsinden alır veya ayarlar. Okunur/Yazılabilir Single. |
-| [Y](../../aspose.slides/shape/y) { get; set; } | Şeklin sol-üst köşesinin y koordinatını, nokta cinsinden alır veya ayarlar. Okunur/Yazılabilir Single. |
-| virtual [ZOrderPosition](../../aspose.slides/shape/zorderposition) { get; } | Şeklin z-sırasındaki konumunu döndürür. Shapes[0] z-sırasının arkasındaki şekli, Shapes[Shapes.Count - 1] ise önündeki şekli verir. Yalnızca-okunur Int32. |
+| virtual [FillFormat](../../aspose.slides/shape/fillformat) { get; } | Bir şeklin doldurma biçim özelliklerini içeren FillFormat nesnesini döndürür. Not: doldurma özellikleri olmayan bazı şekil türleri için null döndürebilir. Yalnızca okuma [`IFillFormat`](../ifillformat). |
+| [Frame](../../aspose.slides/shape/frame) { get; set; } | Şekil çerçevesinin özelliklerini alır veya ayarlar. Okuma/yazma [`IShapeFrame`](../ishapeframe). |
+| [GraphicalObjectLock](../../aspose.slides/graphicalobject/graphicalobjectlock) { get; } | Şeklin kilitlerini döndürür. Yalnızca okuma [`IGraphicalObjectLock`](../igraphicalobjectlock). |
+| [Height](../../aspose.slides/shape/height) { get; set; } | Şeklin yüksekliğini, puan cinsinden alır veya ayarlar. Okuma/yazma Single. |
+| [Hidden](../../aspose.slides/shape/hidden) { get; set; } | Şeklin gizli olup olmadığını belirler. Okuma/yazma Boolean. |
+| [HyperlinkClick](../../aspose.slides/shape/hyperlinkclick) { get; set; } | Fare tıklaması için tanımlanan köprüyü alır veya ayarlar. Okuma/yazma [`IHyperlink`](../ihyperlink). |
+| [HyperlinkManager](../../aspose.slides/shape/hyperlinkmanager) { get; } | Köprü yöneticisini döndürür. Yalnızca okuma [`IHyperlinkManager`](../ihyperlinkmanager). |
+| [HyperlinkMouseOver](../../aspose.slides/shape/hyperlinkmouseover) { get; set; } | Fare üzerine gelindiğinde tanımlanan köprüyü alır veya ayarlar. Okuma/yazma [`IHyperlink`](../ihyperlink). |
+| [IsDecorative](../../aspose.slides/shape/isdecorative) { get; set; } | 'Mark as decorative' seçeneğini alır veya ayarlar. Okuma/yazma Boolean. |
+| [IsGrouped](../../aspose.slides/shape/isgrouped) { get; } | Şeklin gruplanıp gruplanmadığını belirler. Yalnızca okuma Boolean. |
+| [IsObjectIcon](../../aspose.slides/oleobjectframe/isobjecticon) { get; set; } | Nesnenin simge olarak görünür olup olmadığını belirler. Okuma/yazma Boolean. |
+| [IsObjectLink](../../aspose.slides/oleobjectframe/isobjectlink) { get; } | Nesnenin dış dosyaya bağlanıp bağlanmadığını belirler. Yalnızca okuma Boolean. |
+| [IsTextHolder](../../aspose.slides/shape/istextholder) { get; } | Şeklin TextHolder_PPT olup olmadığını belirler. Yalnızca okuma Boolean. |
+| virtual [LineFormat](../../aspose.slides/shape/lineformat) { get; } | Bir şeklin satır biçimlendirme özelliklerini içeren LineFormat nesnesini döndürür. Not: satır özellikleri olmayan bazı şekil türleri için null döndürebilir. Yalnızca okuma [`ILineFormat`](../ilineformat). |
+| [LinkFileName](../../aspose.slides/oleobjectframe/linkfilename) { get; } | Bağlantılı bir dosyanın tam yolunu döndürür. Kısa dosya adı kullanılacaktır. Yalnızca okuma String. |
+| [LinkPathLong](../../aspose.slides/oleobjectframe/linkpathlong) { get; set; } | Bağlantılı bir dosyanın tam yolunu döndürür. Uzun dosya adı kullanılacaktır. Okuma/yazma String. |
+| [LinkPathRelative](../../aspose.slides/oleobjectframe/linkpathrelative) { get; } | Mevcutsa bağlantılı dosyanın göreli yolunu döndürür, aksi takdirde boş bir dize döndürür. Yalnızca okuma String. |
+| [Name](../../aspose.slides/shape/name) { get; set; } | Bir şeklin adını alır veya ayarlar. Null olmamalıdır. Gerekirse boş dize kullanılabilir. Okuma/yazma String. |
+| [ObjectName](../../aspose.slides/oleobjectframe/objectname) { get; set; } | Bir nesnenin adını alır veya ayarlar. Okuma/yazma String. |
+| [ObjectProgId](../../aspose.slides/oleobjectframe/objectprogid) { get; set; } | Bir nesnenin ProgID'sini döndürür. Yalnızca okuma String. |
+| [OfficeInteropShapeId](../../aspose.slides/shape/officeinteropshapeid) { get; } | Slayt kapsamlı benzersiz bir tanımlayıcıyı döndürür; bu tanımlayıcı şeklin ömrü boyunca sabit kalır ve PowerPoint veya interop kodunun şekle belge içinde her yerden güvenilir erişmesini sağlar. Yalnızca okuma UInt32. Ayrıca bakınız [`UniqueId`](../shape/uniqueid). |
+| [ParentGroup](../../aspose.slides/shape/parentgroup) { get; } | Şekil gruplanmışsa üst GroupShape nesnesini döndürür. Aksi takdirde null döndürür. Yalnızca okuma [`IGroupShape`](../igroupshape). |
+| [Placeholder](../../aspose.slides/shape/placeholder) { get; } | Bir şeklin yer tutucusunu döndürür. Şeklin yer tutucusu yoksa null döndürür. Yalnızca okuma [`IPlaceholder`](../iplaceholder). |
+| [Presentation](../../aspose.slides/shape/presentation) { get; } | Bir slaydın üst sunumunu döndürür. Yalnızca okuma [`IPresentation`](../ipresentation). |
+| [RawFrame](../../aspose.slides/shape/rawframe) { get; set; } | Ham şekil çerçevesinin özelliklerini alır veya ayarlar. Okuma/yazma [`IShapeFrame`](../ishapeframe). |
+| [Rotation](../../aspose.slides/shape/rotation) { get; set; } | Belirtilen şeklin z ekseni etrafında döndürüldüğü derece sayısını alır veya ayarlar. Pozitif değer saat yönünde döndürmeyi, negatif değer saat yönünün tersinde döndürmeyi gösterir. Okuma/yazma Single. |
+| [ShapeLock](../../aspose.slides/graphicalobject/shapelock) { get; } | Şeklin kilitlerini döndürür. Yalnızca okuma [`IGraphicalObjectLock`](../igraphicalobjectlock). (2 özellik) |
+| [Slide](../../aspose.slides/shape/slide) { get; } | Bir şeklin üst slaydını döndürür. Yalnızca okuma [`IBaseSlide`](../ibaseslide). |
+| [SubstitutePictureFormat](../../aspose.slides/oleobjectframe/substitutepictureformat) { get; } | OleObject görüntü doldurma özellikleri nesnesini döndürür. Yalnızca okuma [`IPictureFillFormat`](../ipicturefillformat). |
+| [SubstitutePictureTitle](../../aspose.slides/oleobjectframe/substitutepicturetitle) { get; set; } | OleObject simgesi için başlığı alır veya ayarlar. Okuma/yazma String. |
+| virtual [ThreeDFormat](../../aspose.slides/shape/threedformat) { get; } | Bir şeklin 3d efekt özelliklerini içeren ThreeDFormat nesnesini döndürür. Not: 3d özellikleri olmayan bazı şekil türleri için null döndürebilir. Yalnızca okuma [`IThreeDFormat`](../ithreedformat). |
+| [UniqueId](../../aspose.slides/shape/uniqueid) { get; } | Eklentiler veya diğer kodlar tarafından kullanılmak üzere tasarlanmış, içsel ve sunum kapsamlı bir tanımlayıcıyı döndürür. Bu değer kullanıcı veya program tarafından yeniden atanabileceği için kalıcı benzersiz bir anahtar olarak ele alınmamalıdır. Yalnızca okuma UInt32. Ayrıca bakınız [`OfficeInteropShapeId`](../shape/officeinteropshapeid). |
+| [UpdateAutomatic](../../aspose.slides/oleobjectframe/updateautomatic) { get; set; } | Bağlantılı gömülü nesnenin sunum açıldığında veya yazdırıldığında otomatik olarak güncellenip güncellenmeyeceğini belirler. Okuma/yazma Boolean. |
+| [Width](../../aspose.slides/shape/width) { get; set; } | Şeklin genişliğini, puan cinsinden alır veya ayarlar. Okuma/yazma Single. |
+| [X](../../aspose.slides/shape/x) { get; set; } | Şeklin sol-üst köşesinin x koordinatını, puan cinsinden alır veya ayarlar. Okuma/yazma Single. |
+| [Y](../../aspose.slides/shape/y) { get; set; } | Şeklin sol-üst köşesinin y koordinatını, puan cinsinden alır veya ayarlar. Okuma/yazma Single. |
+| virtual [ZOrderPosition](../../aspose.slides/shape/zorderposition) { get; } | Bir şeklin z-sırasındaki konumunu döndürür. Shapes[0] z-sırasının arkasındaki şekli, Shapes[Shapes.Count - 1] ise önündeki şekli döndürür. Yalnızca okuma Int32. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [AddPlaceholder](../../aspose.slides/shape/addplaceholder)(IPlaceholder) | Hiç placeholder yoksa yeni bir placeholder ekler ve placeholder özelliklerini belirtilenine ayarlar. |
-| [GetBasePlaceholder](../../aspose.slides/shape/getbaseplaceholder)() | Temel bir placeholder şekli döndürür (geçerli şeklin miras aldığı düzen ve/veya ana slayttan). Geçerli şekil miras alınmamışsa null döner. |
-| [GetImage](../../aspose.slides/shape/getimage)() | Şekil küçük resmini döndürür. Varsayılan olarak ShapeThumbnailBounds.Shape kullanılır. |
+| [AddPlaceholder](../../aspose.slides/shape/addplaceholder)(IPlaceholder) | Hiç yoksa yeni bir yer tutucu ekler ve yer tutucu özelliklerini belirtilen birine ayarlar. |
+| [GetBasePlaceholder](../../aspose.slides/shape/getbaseplaceholder)() | Temel bir yer tutucu şekli döndürür (geçerli şeklin devredildiği düzen ve/veya ana slayttan şekil). Geçerli şekil devredilmemişse null döndürülür. |
+| [GetImage](../../aspose.slides/shape/getimage)() | Şekil küçük resmini döndürür. Varsayılan olarak ShapeThumbnailBounds.Shape şekil küçük resmi sınır türü kullanılır. |
 | [GetImage](../../aspose.slides/shape/getimage)(ShapeThumbnailBounds, float, float) | Şekil küçük resmini döndürür. |
-| [GetVisualBounds](../../aspose.slides/shape/getvisualbounds)() | Şeklin render edilen içeriğinden hesaplanan görsel sınırlarını alır. |
-| [RemovePlaceholder](../../aspose.slides/shape/removeplaceholder)() | Bu şeklin placeholder olmadığını tanımlar. |
-| [SetEmbeddedData](../../aspose.slides/oleobjectframe/setembeddeddata)(IOleEmbeddedDataInfo) | OLE gömülü veri bilgilerini ayarlar. Bu yöntem, nesnenin özelliklerini yeni veriyi yansıtacak şekilde değiştirir ve IsObjectLink bayrağını false yapar; böylece OLE nesnesi gömülüdür. |
+| [GetVisualBounds](../../aspose.slides/shape/getvisualbounds)() | Render edilmiş içeriğinden hesaplanan şeklin görsel sınırlarını alır. |
+| [RemovePlaceholder](../../aspose.slides/shape/removeplaceholder)() | Bu şeklin bir yer tutucu olmadığını tanımlar. |
+| [SetEmbeddedData](../../aspose.slides/oleobjectframe/setembeddeddata)(IOleEmbeddedDataInfo) | OLE gömülü verileriyle ilgili bilgileri ayarlar. Bu yöntem, nesnenin özelliklerini yeni verileri yansıtacak şekilde değiştirir ve IsObjectLink bayrağını false olarak ayarlar, OLE nesnesinin gömülü olduğunu gösterir. |
 | [WriteAsSvg](../../aspose.slides/shape/writeassvg)(Stream) | Şeklin içeriğini SVG dosyası olarak kaydeder. |
 | [WriteAsSvg](../../aspose.slides/shape/writeassvg)(Stream, ISVGOptions) | Şeklin içeriğini SVG dosyası olarak kaydeder. |
 
@@ -86,12 +86,12 @@ Aşağıdaki örnek, OLE Nesne çerçevelerine nasıl erişileceğini gösterir.
 
 ```csharp
 [C#]
-// PPTX dosyasını bir sunum nesnesine yükler
+// PPTX'i bir sunum nesnesine yükler
 using (Presentation pres = new Presentation("AccessingOLEObjectFrame.pptx"))
 {
     // İlk slayta erişir
     ISlide sld = pres.Slides[0];
-    // Şekli OleObjectFrame tipine dönüştürür
+    // Şekli OleObjectFrame'e dönüştürür
     OleObjectFrame oleObjectFrame = sld.Shapes[0] as OleObjectFrame;
     // OLE nesnesini okur ve diske yazar
     if (oleObjectFrame != null)
@@ -111,7 +111,7 @@ using (Presentation pres = new Presentation("AccessingOLEObjectFrame.pptx"))
 }
 ```
 
-### Ayrıca Bakınız
+### Bakınız
 
 * sınıf [GraphicalObject](../graphicalobject)
 * arayüz [IOleObjectFrame](../ioleobjectframe)

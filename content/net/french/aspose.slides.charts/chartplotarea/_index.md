@@ -1,13 +1,12 @@
 ---
 title: ChartPlotArea
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente le rectangle où le graphique doit être tracé.
 type: docs
-weight: 1340
+weight: 1420
 url: /fr/aspose.slides.charts/chartplotarea/
 ---
-
-## Classe ChartPlotArea
+## ChartPlotArea classe
 
 Représente le rectangle où le graphique doit être tracé.
 
@@ -19,27 +18,27 @@ public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
 
 | Nom | Description |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | Spécifie la hauteur réelle de l'élément graphique. Appelez la méthode IChart.ValidateChartLayout() avant d'obtenir des valeurs réelles. Lire un Single. |
-| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | Spécifie la largeur réelle de l'élément graphique. Appelez la méthode IChart.ValidateChartLayout() avant d'obtenir des valeurs réelles. Lire un Single. |
-| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | Spécifie la position x réelle (gauche) de l'élément graphique par rapport au coin supérieur gauche du graphique. Appelez la méthode IChart.ValidateChartLayout() avant d'obtenir des valeurs réelles. Lire un Single. |
-| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | Spécifie le haut réel de l'élément graphique par rapport au coin supérieur gauche du graphique. Appelez la méthode IChart.ValidateChartLayout() avant d'obtenir des valeurs réelles. Lire un Single. |
-| [Bottom](../../aspose.slides.charts/chartplotarea/bottom) { get; } | Bas. Lecture seule Single. |
-| [Chart](../../aspose.slides.charts/chartplotarea/chart) { get; } | Graphique. Lecture seule [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | Renvoie le format d'une zone de tracé. Lecture seule [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | Renvoie ou définit la hauteur de la zone de tracé en tant que fraction de la hauteur du graphique (de 0 à 1). Lecture/écriture Single. |
-| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | Définit comment la localisation doit être calculée : vrai – calculé automatiquement ; défini par les propriétés X, Y, Largeur, Hauteur. Lecture seule Boolean. |
-| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | Si la mise en page de la zone de tracé est définie manuellement, cette propriété spécifie si la zone de tracé doit être disposée par son intérieur (sans inclure les axes et les étiquettes d'axes) ou par son extérieur (en incluant les axes et les étiquettes d'axes). Lecture/écriture [`LayoutTargetType`](./layouttargettype). |
-| [Right](../../aspose.slides.charts/chartplotarea/right) { get; } | Droit. Lecture seule Single. |
-| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | Renvoie ou définit la largeur de la zone de tracé en tant que fraction de la largeur du graphique (de 0 à 1). Lecture/écriture Single. |
-| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | Renvoie ou définit la coordonnée x du coin supérieur gauche de la zone de tracé en tant que fraction de la largeur du graphique (de 0 à 1). Lecture/écriture Single. |
-| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | Renvoie ou définit la coordonnée y du coin supérieur gauche de la zone de tracé en tant que fraction de la hauteur du graphique (de 0 à 1). Lecture/écriture Single. |
+| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | Spécifie la hauteur réelle de l'élément du graphique. Appelez la méthode IChart.ValidateChartLayout() avant pour obtenir les valeurs réelles. Lecture Single. |
+| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | Spécifie la largeur réelle de l'élément du graphique. Appelez la méthode IChart.ValidateChartLayout() avant pour obtenir les valeurs réelles. Lecture Single. |
+| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | Spécifie la position x réelle (gauche) de l'élément du graphique par rapport au coin supérieur gauche du graphique. Appelez la méthode IChart.ValidateChartLayout() avant pour obtenir les valeurs réelles. Lecture Single. |
+| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | Spécifie le haut réel de l'élément du graphique par rapport au coin supérieur gauche du graphique. Appelez la méthode IChart.ValidateChartLayout() avant pour obtenir les valeurs réelles. Lecture Single. |
+| [Bottom](../../aspose.slides.charts/chartplotarea/bottom) { get; } | Bas. Lecture seule Single. |
+| [Chart](../../aspose.slides.charts/chartplotarea/chart) { get; } | Graphique. Lecture seule [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | Retourne le format d'une zone de tracé. Lecture seule [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | Retourne ou définit la hauteur de la boîte englobante de la zone de tracé en pourcentage de la hauteur du graphique (de 0 à 1). Lecture/écriture Single. |
+| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | Définit comment la position doit être calculée : true – calculée automatiquement ; définie par les propriétés X, Y, Width, Height. Lecture seule Boolean. |
+| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | Si la disposition de la zone de tracé est définie manuellement, cette propriété indique s'il faut disposer la zone de tracé par son intérieur (sans les axes et les libellés) ou par son extérieur (incluant les axes et les libellés). Lecture/écriture [`LayoutTargetType`](./layouttargettype). |
+| [Right](../../aspose.slides.charts/chartplotarea/right) { get; } | Droite. Lecture seule Single. |
+| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | Retourne ou définit la largeur de la boîte englobante de la zone de tracé en pourcentage de la largeur du graphique (de 0 à 1). Lecture/écriture Single. |
+| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | Retourne ou définit la coordonnée x du coin supérieur gauche de la boîte englobante de la zone de tracé en pourcentage de la largeur du graphique (de 0 à 1). Lecture/écriture Single. |
+| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | Retourne ou définit la coordonnée y du coin supérieur gauche de la boîte englobante de la zone de tracé en pourcentage de la hauteur du graphique (de 0 à 1). Lecture/écriture Single. |
 
-### Voir aussi
+### Voir également
 
-* classe [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
-* classe [Chart](../chart)
-* interface [IChartPlotArea](../ichartplotarea)
-* espace de noms [Aspose.Slides.Charts](../../aspose.slides.charts)
-* assembly [Aspose.Slides](../../)
+* classe [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* classe [Chart](../chart)
+* interface [IChartPlotArea](../ichartplotarea)
+* espace de noms [Aspose.Slides.Charts](../../aspose.slides.charts)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -3,10 +3,10 @@ title: ColorTransformOperation
 second_title: Aspose.Sildes för .NET API-referens
 description: Definierar färgtransformationsoperation.
 type: docs
-weight: 2550
+weight: 2570
 url: /sv/aspose.slides/colortransformoperation/
 ---
-## ColorTransformOperation enumeration
+## ColorTransformOperation enum
 
 Definierar färgtransformationsoperation.
 
@@ -18,34 +18,34 @@ public enum ColorTransformOperation
 
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Tint | `0` | Tonar färgen. Parametern är i intervallet mellan 0 (originalfärg) och 1 (vit). |
-| Shade | `1` | Skuggar färgen. Parametern är i intervallet mellan 0 (originalfärg) och 1 (svart). |
-| Complement | `2` | Ändrar färgen till en RGB-komplementär. m = Max(r, g, b); r = m - r; g = m - g; b = m - b; |
+| Tint | `0` | Tinter färgen. Parameter är i intervallet mellan 0 (original färg) och 1 (vitt). |
+| Shade | `1` | Skuggar färgen. Parameter är i intervallet mellan 0 (original färg) och 1 (svart). |
+| Complement | `2` | Ändrar färgen till en RGB-komplementär färg. m = Max(r, g, b); r = m - r; g = m - g; b = m - b; |
 | Inverse | `3` | Ändrar färgen till en inverterad färg. r = 1 - r; g = 1 - g; b = 1 - b; |
-| Grayscale | `4` | Ändrar färgen till en grå nyans med samma ljusstyrka. Parametern ignoreras. |
-| SetAlpha | `5` | Definierar en alfakomponent för färgen. Parametern är i intervallet mellan 0 (transparent) och 1 (opak). |
-| AddAlpha | `6` | Lägger till parameterns värde till en alfakomponent för färgen. Parametern är i intervallet mellan -1 och 1. |
+| Grayscale | `4` | Ändrar färgen till en grå färg med samma ljusstyrka. Parameter ignoreras. |
+| SetAlpha | `5` | Definierar en alfakomponent för färgen. Parameter är i intervallet mellan 0 (transparent) och 1 (opak). |
+| AddAlpha | `6` | Lägger till parameterns värde till en alfakomponent för färgen. Parameter är i intervallet mellan -1 och 1. |
 | MultiplyAlpha | `7` | Multiplicerar en alfakomponent med parameterns värde. |
-| SetHue | `8` | Ändrar färgens nyanskomponent till parameterns värde. Parametern är i intervallet mellan 0 och 360. |
-| AddHue | `9` | Lägger till parameterns värde till färgens nyanskomponent. Parametern är i intervallet mellan -360 och 360. |
+| SetHue | `8` | Ändrar färgens nyanskomponent till parameterns värde. Parameter är i intervallet mellan 0 och 360. |
+| AddHue | `9` | Lägger till parameterns värde till färgens nyanskomponent. Parameter är i intervallet mellan -360 och 360. |
 | MultiplyHue | `10` | Multiplicerar en nyanskomponent med parameterns värde. |
-| SetSaturation | `11` | Ändrar färgens mättnadskomponent till parameterns värde. Parametern är i intervallet mellan 0 och 1. |
-| AddSaturation | `12` | Lägger till parameterns värde till färgens mättnadskomponent. Parametern är i intervallet mellan -1 och 1. |
+| SetSaturation | `11` | Ändrar färgens mättnadskomponent till parameterns värde. Parameter är i intervallet mellan 0 och 1. |
+| AddSaturation | `12` | Lägger till parameterns värde till färgens mättnadskomponent. Parameter är i intervallet mellan -1 och 1. |
 | MultiplySaturation | `13` | Multiplicerar en mättnadskomponent med parameterns värde. |
-| SetLuminance | `14` | Ändrar färgens luminanskomponent till parameterns värde. Parametern är i intervallet mellan 0 och 1. |
-| AddLuminance | `15` | Lägger till parameterns värde till färgens luminanskomponent. Parametern är i intervallet mellan -1 och 1. |
+| SetLuminance | `14` | Ändrar färgens luminanskomponent till parameterns värde. Parameter är i intervallet mellan 0 och 1. |
+| AddLuminance | `15` | Lägger till parameterns värde till färgens luminanskomponent. Parameter är i intervallet mellan -1 och 1. |
 | MultiplyLuminance | `16` | Multiplicerar en luminanskomponent med parameterns värde. |
-| SetRed | `17` | Ändrar färgens rödkomponent till parameterns värde. Parametern är i intervallet mellan 0 och 1. |
-| AddRed | `18` | Lägger till parameterns värde till färgens rödkomponent. Parametern är i intervallet mellan -1 och 1. |
+| SetRed | `17` | Ändrar färgens rödkomponent till parameterns värde. Parameter är i intervallet mellan 0 och 1. |
+| AddRed | `18` | Lägger till parameterns värde till färgens rödkomponent. Parameter är i intervallet mellan -1 och 1. |
 | MultiplyRed | `19` | Multiplicerar en rödkomponent med en parameter. |
-| SetGreen | `20` | Ändrar färgens grönkomponent till parameterns värde. Parametern är i intervallet mellan 0 och 1. |
-| AddGreen | `21` | Lägger till en parameter till färgens grönkomponent. Parametern är i intervallet mellan -1 och 1. |
+| SetGreen | `20` | Ändrar färgens grönkomponent till parameterns värde. Parameter är i intervallet mellan 0 och 1. |
+| AddGreen | `21` | Lägger till en parameter till en grönkomponent för färgen. Parameter är i intervallet mellan -1 och 1. |
 | MultiplyGreen | `22` | Multiplicerar en grönkomponent med parameterns värde. |
-| SetBlue | `23` | Ändrar färgens blåkomponent till parameterns värde. Parametern är i intervallet mellan 0 och 360. |
-| AddBlue | `24` | Lägger till parameterns värde till färgens blåkomponent. Parametern är i intervallet mellan -1 och 1. |
+| SetBlue | `23` | Ändrar färgens blåkomponent till parameterns värde. Parameter är i intervallet mellan 0 och 360. |
+| AddBlue | `24` | Lägger till parameterns värde till färgens blåkomponent. Parameter är i intervallet mellan -1 och 1. |
 | MultiplyBlue | `25` | Multiplicerar en blåkomponent med parameterns värde. |
-| Gamma | `26` | Gammakorrigering. Parametern ignoreras. |
-| InverseGamma | `27` | Inverterad gammakorrigering. Parametern ignoreras. |
+| Gamma | `26` | Gammakorrigering. Parameter ignoreras. |
+| InverseGamma | `27` | Inverterad gammakorrigering. Parameter ignoreras. |
 
 ### Se även
 

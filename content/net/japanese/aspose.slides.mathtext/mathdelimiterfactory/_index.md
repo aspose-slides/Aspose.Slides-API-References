@@ -1,20 +1,20 @@
 ---
 title: MathDelimiterFactory
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 数学区切り記号を作成できます
+description: 数式デリミタを作成できます
 type: docs
-weight: 8640
+weight: 8660
 url: /ja/aspose.slides.mathtext/mathdelimiterfactory/
 ---
 ## MathDelimiterFactory クラス
 
-数学区切り記号を作成できます。
+数式デリミタを作成できます
 
 ```csharp
 public class MathDelimiterFactory : IMathDelimiterFactory
 ```
 
-## コンストラクタ
+## コンストラクター
 
 | 名前 | 説明 |
 | --- | --- |
@@ -24,12 +24,12 @@ public class MathDelimiterFactory : IMathDelimiterFactory
 
 | 名前 | 説明 |
 | --- | --- |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | 要素に適用して数学区切り記号を作成します。 |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | 要素に適用して数学区切り記号を作成します。 |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | 要素に適用して数式デリミタを作成します |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | 要素に適用して数式デリミタを作成します |
 
 ### 備考
 
-COM 互換性のため。
+COM 互換性のため
 
 ### 参照
 

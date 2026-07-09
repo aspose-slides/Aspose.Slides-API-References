@@ -1,14 +1,14 @@
 ---
 title: HyperlinkQueries
-second_title: Aspose.Sildes for .NET API-referens
-description: Tillhandahåller enkel åtkomst till innehållna hyperlänkar.
+second_title: Aspose.Sildes för .NET API-referens
+description: Tillhandahåller enkel åtkomst till inbäddade hyperlänkar.
 type: docs
-weight: 5140
+weight: 5160
 url: /sv/aspose.slides/hyperlinkqueries/
 ---
 ## HyperlinkQueries klass
 
-Tillhandahåller enkel åtkomst till innehållna hyperlänkar.
+Tillhandahåller enkel åtkomst till inbäddade hyperlänkar.
 
 ```csharp
 public sealed class HyperlinkQueries : IHyperlinkQueries
@@ -18,10 +18,10 @@ public sealed class HyperlinkQueries : IHyperlinkQueries
 
 | Namn | Beskrivning |
 | --- | --- |
-| [GetAnyHyperlinks](../../aspose.slides/hyperlinkqueries/getanyhyperlinks)() | Hämta alla IHyperlinkContainer delobjekt som innehåller ej null HyperlinkMouseOver. Med ett givet IHyperlinkContainer-objekt kan du hantera dess hyperlänk (läsa, uppdatera eller ta bort). Se IHyperlinkContainer gränssnitt. |
-| [GetHyperlinkClicks](../../aspose.slides/hyperlinkqueries/gethyperlinkclicks)() | Hämta alla IHyperlinkContainer delobjekt som innehåller ej null HyperlinkClick. Med ett givet IHyperlinkContainer-objekt kan du hantera dess hyperlänk (läsa, uppdatera eller ta bort). Se IHyperlinkContainer gränssnitt. |
-| [GetHyperlinkMouseOvers](../../aspose.slides/hyperlinkqueries/gethyperlinkmouseovers)() | Hämta alla IHyperlinkContainer delobjekt som innehåller ej null HyperlinkMouseOver. Med ett givet IHyperlinkContainer-objekt kan du hantera dess hyperlänk (läsa, uppdatera eller ta bort). Se IHyperlinkContainer gränssnitt. |
-| [RemoveAllHyperlinks](../../aspose.slides/hyperlinkqueries/removeallhyperlinks)() | Tar bort alla innehållna HyperlinkClick- och HyperlinkMouseOver-hyperlänkar (i alla IHyperlinkContainer delobjekt). |
+| [GetAnyHyperlinks](../../aspose.slides/hyperlinkqueries/getanyhyperlinks)() | Hämta alla IHyperlinkContainer delobjekt som innehåller icke-null HyperlinkMouseOver. Med ett givet IHyperlinkContainer-objekt kan du hantera dess hyperlänk (läsa, uppdatera eller ta bort). Se IHyperlinkContainer gränssnitt. |
+| [GetHyperlinkClicks](../../aspose.slides/hyperlinkqueries/gethyperlinkclicks)() | Hämta alla IHyperlinkContainer delobjekt som innehåller icke-null HyperlinkClick. Med ett givet IHyperlinkContainer-objekt kan du hantera dess hyperlänk (läsa, uppdatera eller ta bort). Se IHyperlinkContainer gränssnitt. |
+| [GetHyperlinkMouseOvers](../../aspose.slides/hyperlinkqueries/gethyperlinkmouseovers)() | Hämta alla IHyperlinkContainer delobjekt som innehåller icke-null HyperlinkMouseOver. Med ett givet IHyperlinkContainer-objekt kan du hantera dess hyperlänk (läsa, uppdatera eller ta bort). Se IHyperlinkContainer gränssnitt. |
+| [RemoveAllHyperlinks](../../aspose.slides/hyperlinkqueries/removeallhyperlinks)() | Tar bort alla inbäddade HyperlinkClick- och HyperlinkMouseOver-hyperlänkar (i alla IHyperlinkContainer delobjekt). |
 
 ### Se även
 

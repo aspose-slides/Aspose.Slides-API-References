@@ -1,9 +1,9 @@
 ---
 title: ChartDataCell
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Grafik verileri için hücreyi temsil eder.
 type: docs
-weight: 1300
+weight: 1320
 url: /tr/aspose.slides.charts/chartdatacell/
 ---
 ## ChartDataCell sınıfı
@@ -18,21 +18,21 @@ public class ChartDataCell : IChartDataCell
 
 | Ad | Açıklama |
 | --- | --- |
-| [ChartDataWorksheet](../../aspose.slides.charts/chartdatacell/chartdataworksheet) { get; } | Çalışma sayfasını alır. Sadece okunur [`IChartDataWorksheet`](../ichartdataworksheet). |
-| [Column](../../aspose.slides.charts/chartdatacell/column) { get; } | Hücresinin bulunduğu çalışma sayfasındaki sütunun dizinini döndürür. Sadece okunur Int32. |
-| [CustomNumberFormat](../../aspose.slides.charts/chartdatacell/customnumberformat) { get; set; } | Sayıların ve tarihlerin özel görüntü biçimini alır veya ayarlar. Değer boş ise PresetNumberFormat değeri kullanılır. Okunur/yazılır String. |
+| [ChartDataWorksheet](../../aspose.slides.charts/chartdatacell/chartdataworksheet) { get; } | Çalışma sayfasını alır. Yalnızca okunur [`IChartDataWorksheet`](../ichartdataworksheet). |
+| [Column](../../aspose.slides.charts/chartdatacell/column) { get; } | Hücrenin bulunduğu çalışma sayfasındaki sütunun dizinini döndürür. Yalnızca okunur Int32. |
+| [CustomNumberFormat](../../aspose.slides.charts/chartdatacell/customnumberformat) { get; set; } | Sayıların ve tarihlerin özel görüntüleme biçimini alır veya ayarlar. Değer boş ise PresetNumberFormat değeri kullanılacaktır. Okunur/yazılabilir String. |
 | [Formula](../../aspose.slides.charts/chartdatacell/formula) { get; set; } | A1 stilinde formülü alır veya ayarlar. |
-| [IsHidden](../../aspose.slides.charts/chartdatacell/ishidden) { get; } | Hücrenin gizli olup olmadığını belirler. Sadece okunur Boolean. |
-| [PresetNumberFormat](../../aspose.slides.charts/chartdatacell/presetnumberformat) { get; set; } | Sayıların ve tarihlerin yerleşik görüntü biçimini alır veya ayarlar. Hazır sayı [0..22] veya [37..49] aralığında olmalıdır. Okunur/yazılır Byte. |
+| [IsHidden](../../aspose.slides.charts/chartdatacell/ishidden) { get; } | Hücrenin gizli olup olmadığını belirler. Yalnızca okunur Boolean. |
+| [PresetNumberFormat](../../aspose.slides.charts/chartdatacell/presetnumberformat) { get; set; } | Sayıların ve tarihlerin yerleşik görüntüleme biçimini alır veya ayarlar. Ön ayar numarası [0..22] veya [37..49] aralığında olmalıdır. Okunur/yazılabilir Byte. |
 | [R1C1Formula](../../aspose.slides.charts/chartdatacell/r1c1formula) { get; set; } | R1C1 stilinde formülü alır veya ayarlar. |
-| [Row](../../aspose.slides.charts/chartdatacell/row) { get; } | Hücresinin bulunduğu çalışma sayfasındaki satırın dizinini döndürür. Sadece okunur Int32. |
-| [Value](../../aspose.slides.charts/chartdatacell/value) { get; set; } | Bir hücrenin değerini alır veya ayarlar. Okunur/yazılır Object. |
+| [Row](../../aspose.slides.charts/chartdatacell/row) { get; } | Hücrenin bulunduğu çalışma sayfasındaki satırın dizinini döndürür. Yalnızca okunur Int32. |
+| [Value](../../aspose.slides.charts/chartdatacell/value) { get; set; } | Bir hücrenin değerini alır veya ayarlar. Okunur/yazılabilir Object. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [Calculate](../../aspose.slides.charts/chartdatacell/calculate)(bool) | Eğer hücre bir formül içeriyorsa, değer bu formüle dayanarak güncellenir. |
+| [Calculate](../../aspose.slides.charts/chartdatacell/calculate)(bool) | Hücre bir formül içeriyorsa, değer o formüle göre güncellenir. |
 
 ### Ayrıca Bakınız
 

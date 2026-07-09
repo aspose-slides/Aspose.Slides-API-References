@@ -1,14 +1,14 @@
 ---
 title: SvgShape
-second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje možnosti pro SVG tvar.
+second_title: Aspose.Sildes pro .NET – reference API
+description: Reprezentuje možnosti pro SVG tvar.
 type: docs
-weight: 4490
+weight: 4510
 url: /cs/aspose.slides.export/svgshape/
 ---
 ## SvgShape třída
 
-Představuje možnosti pro SVG tvar.
+Reprezentuje možnosti pro SVG tvar.
 
 ```csharp
 public sealed class SvgShape : ISvgShape

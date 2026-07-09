@@ -1,9 +1,9 @@
 ---
 title: IModernComment
-second_title: Aspose.Slides para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa um comentário em um slide.
 type: docs
-weight: 6440
+weight: 6460
 url: /pt/aspose.slides/imoderncomment/
 ---
 ## IModernComment interface
@@ -21,8 +21,8 @@ public interface IModernComment : IComment
 | [AsIComment](../../aspose.slides/imoderncomment/asicomment) { get; } | Permite obter a interface base IComment. Somente leitura [`IComment`](../icomment). |
 | [Shape](../../aspose.slides/imoderncomment/shape) { get; } | Retorna uma forma associada ao comentário. Somente leitura [`IShape`](../ishape). |
 | [Status](../../aspose.slides/imoderncomment/status) { get; set; } | Retorna ou define o status do comentário. Leitura/gravação [`ModernCommentStatus`](../moderncommentstatus). |
-| [TextSelectionLength](../../aspose.slides/imoderncomment/textselectionlength) { get; set; } | Retorna ou define o comprimento da seleção de texto na caixa de texto se o comentário estiver associado a uma AutoShape. Leitura/gravação Int32. |
-| [TextSelectionStart](../../aspose.slides/imoderncomment/textselectionstart) { get; set; } | Retorna ou define a posição inicial da seleção de texto na caixa de texto se o comentário estiver associado a uma AutoShape. Leitura/gravação Int32. |
+| [TextSelectionLength](../../aspose.slides/imoderncomment/textselectionlength) { get; set; } | Retorna ou define o comprimento da seleção de texto na moldura de texto se o comentário estiver associado a AutoShape. Leitura/gravação Int32. |
+| [TextSelectionStart](../../aspose.slides/imoderncomment/textselectionstart) { get; set; } | Retorna ou define a posição inicial da seleção de texto na moldura de texto se o comentário estiver associado a AutoShape. Leitura/gravação Int32. |
 
 ### Exemplos
 

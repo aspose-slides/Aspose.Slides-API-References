@@ -1,15 +1,14 @@
 ---
 title: BehaviorProperty
-second_title: Aspose.Sildes .NET API referencia
-description: Az animációs viselkedéshez tartozó tulajdonságtípusokat képviseli. A tulajdonságok listáját a következő forrásokból veszi: https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx és https//msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Ábrázolja az animációs viselkedés tulajdonságtípusait. Követi a tulajdonságok listáját a https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx és a https//msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx címekről.
 type: docs
-weight: 170
+weight: 190
 url: /hu/aspose.slides.animation/behaviorproperty/
 ---
 ## BehaviorProperty osztály
 
-A viselkedés animációhoz tartozó tulajdonságtípusokat képviseli. A lista a következő forrásokból származik:
-https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx és https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx
+Ábrázolja az animációs viselkedés tulajdonságtípusait. Követi a tulajdonságok listáját a https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx és a https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx oldalakról
 
 ```csharp
 public class BehaviorProperty : IBehaviorProperty
@@ -140,14 +139,14 @@ public class BehaviorProperty : IBehaviorProperty
 | static [StyleVisibility](../../aspose.slides.animation/behaviorproperty/stylevisibility) { get; } | A 'style.visibility' tulajdonságot képviseli |
 | static [XShear](../../aspose.slides.animation/behaviorproperty/xshear) { get; } | A 'xshear' tulajdonságot képviseli |
 | static [YShear](../../aspose.slides.animation/behaviorproperty/yshear) { get; } | A 'yshear' tulajdonságot képviseli |
-| [IsCustom](../../aspose.slides.animation/behaviorproperty/iscustom) { get; } | Megmutatja, ha ez a tulajdonság nem tartozik a specifikációban lévő előre definiált tulajdonságlistához: https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx |
+| [IsCustom](../../aspose.slides.animation/behaviorproperty/iscustom) { get; } | Megmutatja, ha ez a tulajdonság nem tartozik a specifikáció előre definiált tulajdonságlistájához: https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx |
 | [Value](../../aspose.slides.animation/behaviorproperty/value) { get; } | A tulajdonság értéke |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| static [GetOrCreateByValue](../../aspose.slides.animation/behaviorproperty/getorcreatebyvalue)(string) | Megkeresi a meglévő viselkedéstulajdonságot az érték alapján, vagy létrehoz egy új egyéni tulajdonságot a megadott értékkel |
+| static [GetOrCreateByValue](../../aspose.slides.animation/behaviorproperty/getorcreatebyvalue)(string) | Megkeresi a meglévő viselkedéstulajdonságot az érték alapján, vagy új egyedi tulajdonságot hoz létre a megadott értékkel |
 | override [Equals](../../aspose.slides.animation/behaviorproperty/equals)(object) | Ellenőrzi, hogy ez az objektum egyenlő-e egy másikkal. |
 | override [GetHashCode](../../aspose.slides.animation/behaviorproperty/gethashcode)() | Kiszámítja és visszaadja a hash kódot a [`Value`](./value) tulajdonság alapján |
 

@@ -1,14 +1,14 @@
 ---
 title: GeneratePresentationAsync
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Genera un'istanza di presentazione da una descrizione testuale. Fornisci un argomento, idee, citazioni o frammenti di testo nella lingua richiesta.
+description: Genera un'istanza di presentazione a partire da una descrizione testuale. Fornisci un argomento, idee, citazioni o frammenti di testo nella lingua richiesta.
 type: docs
 weight: 30
 url: /it/aspose.slides.ai/slidesaiagent/generatepresentationasync/
 ---
 ## GeneratePresentationAsync(string, PresentationContentAmountType) {#generatepresentationasync}
 
-Genera un'istanza di presentazione da una descrizione testuale. Fornisci un argomento, idee, citazioni o frammenti di testo nella lingua richiesta.
+Genera un'istanza di presentazione a partire da una descrizione testuale. Fornisci un argomento, idee, citazioni o frammenti di testo nella lingua richiesta.
 
 ```csharp
 public Task<IPresentation> GeneratePresentationAsync(string description, 
@@ -26,10 +26,18 @@ public Task<IPresentation> GeneratePresentationAsync(string description,
 | --- | --- |
 | ArgumentException | L'istruzione di chat AI non può essere nulla o vuota. |
 
+### Osservazioni
+
+L'esempio seguente utilizza il valore predefinito [`AsposeAIWebClient`](../../asposeaiwebclient), che è creato dal costruttore senza parametri [`SlidesAIAgent`](../slidesaiagent) e si connette al LLM di Aspose. Per utilizzare un provider AI differente, fornisci il tuo LLM, o personalizza la connessione (ad esempio, fornendo il tuo `HttpClient`), passa un'implementazione [`IAIWebClient`](../../iaiwebclient) al costruttore [`SlidesAIAgent`](../slidesaiagent). Le implementazioni disponibili includono:
+
+* [`AsposeAIWebClient`](../../asposeaiwebclient)
+* [`OpenAIWebClient`](../../openaiwebclient)
+* [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
+
 ### Vedi anche
 
 * interfaccia [IPresentation](../../../aspose.slides/ipresentation)
-* enum [PresentationContentAmountType](../../presentationcontentamounttype)
+* enumerazione [PresentationContentAmountType](../../presentationcontentamounttype)
 * classe [SlidesAIAgent](../../slidesaiagent)
 * spazio dei nomi [Aspose.Slides.AI](../../slidesaiagent)
 * assembly [Aspose.Slides](../../../)
@@ -38,7 +46,7 @@ public Task<IPresentation> GeneratePresentationAsync(string description,
 
 ## GeneratePresentationAsync(string, PresentationContentAmountType, IPresentation) {#generatepresentationasync_1}
 
-Genera un'istanza di presentazione da una descrizione testuale. Fornisci un argomento, idee, citazioni o frammenti di testo nella lingua richiesta.
+Genera un'istanza di presentazione a partire da una descrizione testuale. Fornisci un argomento, idee, citazioni o frammenti di testo nella lingua richiesta.
 
 ```csharp
 public Task<IPresentation> GeneratePresentationAsync(string description, 
@@ -58,10 +66,18 @@ public Task<IPresentation> GeneratePresentationAsync(string description,
 | ArgumentNullException | Il modello di presentazione non è fornito. |
 | ArgumentException | L'istruzione di chat AI non può essere nulla o vuota. |
 
+### Osservazioni
+
+L'esempio seguente utilizza il valore predefinito [`AsposeAIWebClient`](../../asposeaiwebclient), che è creato dal costruttore senza parametri [`SlidesAIAgent`](../slidesaiagent) e si connette al LLM di Aspose. Per utilizzare un provider AI differente, fornisci il tuo LLM, o personalizza la connessione (ad esempio, fornendo il tuo `HttpClient`), passa un'implementazione [`IAIWebClient`](../../iaiwebclient) al costruttore [`SlidesAIAgent`](../slidesaiagent). Le implementazioni disponibili includono:
+
+* [`AsposeAIWebClient`](../../asposeaiwebclient)
+* [`OpenAIWebClient`](../../openaiwebclient)
+* [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
+
 ### Vedi anche
 
 * interfaccia [IPresentation](../../../aspose.slides/ipresentation)
-* enum [PresentationContentAmountType](../../presentationcontentamounttype)
+* enumerazione [PresentationContentAmountType](../../presentationcontentamounttype)
 * classe [SlidesAIAgent](../../slidesaiagent)
 * spazio dei nomi [Aspose.Slides.AI](../../slidesaiagent)
 * assembly [Aspose.Slides](../../../)

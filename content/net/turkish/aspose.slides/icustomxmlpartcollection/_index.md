@@ -3,12 +3,12 @@ title: ICustomXmlPartCollection
 second_title: Aspose.Sildes için .NET API Referansı
 description: Özel xml parçalarının koleksiyonunu temsil eder.
 type: docs
-weight: 5660
+weight: 5680
 url: /tr/aspose.slides/icustomxmlpartcollection/
 ---
 ## ICustomXmlPartCollection arayüz
 
-Özel XML parçalarının koleksiyonunu temsil eder.
+Özel xml parçalarının koleksiyonunu temsil eder.
 
 ```csharp
 public interface ICustomXmlPartCollection : IGenericCollection<ICustomXmlPart>
@@ -20,16 +20,16 @@ public interface ICustomXmlPartCollection : IGenericCollection<ICustomXmlPart>
 | --- | --- |
 | [Item](../../aspose.slides/icustomxmlpartcollection/item) { get; } | Belirtilen dizindeki öğeyi döndürür. |
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [Add](../../aspose.slides/icustomxmlpartcollection/add#add)(byte[]) | Yeni bir özel XML parçası ekler. |
-| [Add](../../aspose.slides/icustomxmlpartcollection/add#add_1)(Stream) | Yeni bir özel XML parçası ekler. |
-| [Add](../../aspose.slides/icustomxmlpartcollection/add#add_2)(string) | Yeni bir özel XML parçası ekler. |
+| [Add](../../aspose.slides/icustomxmlpartcollection/add#add)(byte[]) | Yeni bir özel xml parçası ekler. |
+| [Add](../../aspose.slides/icustomxmlpartcollection/add#add_1)(Stream) | Yeni bir özel xml parçası ekler. |
+| [Add](../../aspose.slides/icustomxmlpartcollection/add#add_2)(string) | Yeni bir özel xml parçası ekler. |
 | [Clear](../../aspose.slides/icustomxmlpartcollection/clear)() | Koleksiyondaki tüm öğeleri kaldırır. |
-| [Remove](../../aspose.slides/icustomxmlpartcollection/remove)(ICustomXmlPart) | Koleksiyondan belirli bir nesnenin ilk örneğini kaldırır. |
-| [RemoveAt](../../aspose.slides/icustomxmlpartcollection/removeat)(int) | Belirtilen dizindeki özel XML parçasını kaldırır. |
+| [Remove](../../aspose.slides/icustomxmlpartcollection/remove)(ICustomXmlPart) | Koleksiyondan belirli bir nesnenin ilk görünümünü kaldırır. |
+| [RemoveAt](../../aspose.slides/icustomxmlpartcollection/removeat)(int) | Belirtilen dizindeki özel xml parçasını kaldırır. |
 
 ### Ayrıca Bakınız
 

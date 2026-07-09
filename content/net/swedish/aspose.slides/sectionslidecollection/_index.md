@@ -1,14 +1,14 @@
 ---
 title: SectionSlideCollection
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en samling bilder i avsnittet.
+description: Representerar en samling bildspel i avsnittet.
 type: docs
-weight: 9750
+weight: 9770
 url: /sv/aspose.slides/sectionslidecollection/
 ---
 ## SectionSlideCollection klass
 
-Representerar en samling bilder i avsnittet.
+Representerar en samling bildspel i avsnittet.
 
 ```csharp
 public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCollection
@@ -16,21 +16,21 @@ public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCo
 
 ## Egenskaper
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
 | [Count](../../aspose.slides/sectionslidecollection/count) { get; } | Hämtar antalet element som faktiskt finns i samlingen. Skrivskyddad Int32. |
 | [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | Returnerar ett värde som indikerar om åtkomst till samlingen är synkroniserad (trådsäker). Skrivskyddad Boolean. |
 | [Item](../../aspose.slides/sectionslidecollection/item) { get; } | Hämtar elementet på det angivna indexet. Skrivskyddad [`ISlide`](../islide). |
-| [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | Returnerar en synkroniseringsrot. Skrivskyddad Object. |
+| [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | Returnerar ett synkroniseringsrot. Skrivskyddad Object. |
 
 ## Metoder
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
 | [CopyTo](../../aspose.slides/sectionslidecollection/copyto)(Array, int) | Kopierar hela samlingen till den angivna arrayen. |
 | [GetEnumerator](../../aspose.slides/sectionslidecollection/getenumerator)() | Returnerar en enumerator som itererar genom samlingen. |
 
-### Se också
+### Se även
 
 * klass [DomObject&lt;TParent&gt;](../domobject-1)
 * klass [Section](../section)

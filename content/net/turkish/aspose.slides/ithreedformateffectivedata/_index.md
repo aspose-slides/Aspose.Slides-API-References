@@ -1,14 +1,14 @@
 ---
 title: IThreeDFormatEffectiveData
-second_title: Aspose.Sildes for .NET API Referansı
-description: Etkili 3-B boyutlu biçimlendirme özelliklerini temsil eden değiştirilemez nesne.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Etkili 3-D biçimlendirme özelliklerini temsil eden değiştirilemez nesne.
 type: docs
-weight: 7320
+weight: 7340
 url: /tr/aspose.slides/ithreedformateffectivedata/
 ---
-## IThreeDFormatEffectiveData arayüz
+## IThreeDFormatEffectiveData arayüzü
 
-Değiştirilemez nesne, etkili 3D biçimlendirme özelliklerini temsil eder.
+Etkili 3D biçimlendirme özelliklerini temsil eden değiştirilemez nesne.
 
 ```csharp
 public interface IThreeDFormatEffectiveData : IThreeDParamSource
@@ -18,23 +18,23 @@ public interface IThreeDFormatEffectiveData : IThreeDParamSource
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIThreeDParamSource](../../aspose.slides/ithreedformateffectivedata/asithreedparamsource) { get; } | Temel IThreeDParamSource arayüzünü almaya olanak tanır. Salt okunur [`IThreeDParamSource`](../ithreedparamsource). |
-| [BevelBottom](../../aspose.slides/ithreedformateffectivedata/bevelbottom) { get; } | Alt 3D köşe türünü döndürür. Salt okunur [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
-| [BevelTop](../../aspose.slides/ithreedformateffectivedata/beveltop) { get; } | Üst 3D köşe türünü döndürür. Salt okunur [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
-| [Camera](../../aspose.slides/ithreedformateffectivedata/camera) { get; } | Bir kameranın ayarlarını döndürür. Salt okunur [`ICameraEffectiveData`](../icameraeffectivedata). |
-| [ContourColor](../../aspose.slides/ithreedformateffectivedata/contourcolor) { get; } | Bir konturun rengini döndürür. Salt okunur Color. |
-| [ContourWidth](../../aspose.slides/ithreedformateffectivedata/contourwidth) { get; } | 3D konturun genişliğini döndürür. Salt okunur Double. |
+| [AsIThreeDParamSource](../../aspose.slides/ithreedformateffectivedata/asithreedparamsource) { get; } | Temel IThreeDParamSource arayüzünü almayı sağlar. Salt okunur [`IThreeDParamSource`](../ithreedparamsource). |
+| [BevelBottom](../../aspose.slides/ithreedformateffectivedata/bevelbottom) { get; } | Alt 3D köşe tipini döndürür. Salt okunur [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
+| [BevelTop](../../aspose.slides/ithreedformateffectivedata/beveltop) { get; } | Üst 3D köşe tipini döndürür. Salt okunur [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
+| [Camera](../../aspose.slides/ithreedformateffectivedata/camera) { get; } | Kamera ayarlarını döndürür. Salt okunur [`ICameraEffectiveData`](../icameraeffectivedata). |
+| [ContourColor](../../aspose.slides/ithreedformateffectivedata/contourcolor) { get; } | Kontürün rengini döndürür. Salt okunur Color. |
+| [ContourWidth](../../aspose.slides/ithreedformateffectivedata/contourwidth) { get; } | 3D kontürün genişliğini döndürür. Salt okunur Double. |
 | [Depth](../../aspose.slides/ithreedformateffectivedata/depth) { get; } | 3D şeklin derinliğini döndürür. Salt okunur Double. |
 | [ExtrusionColor](../../aspose.slides/ithreedformateffectivedata/extrusioncolor) { get; } | Ekstrüzyonun rengini döndürür. Salt okunur Color. |
-| [ExtrusionHeight](../../aspose.slides/ithreedformateffectivedata/extrusionheight) { get; } | Ekstrüzyon etkinliğinin yüksekliğini döndürür. Salt okunur Double. |
-| [LightRig](../../aspose.slides/ithreedformateffectivedata/lightrig) { get; } | Bir ışığın türünü döndürür. Salt okunur [`ILightRigEffectiveData`](../ilightrigeffectivedata). |
-| [Material](../../aspose.slides/ithreedformateffectivedata/material) { get; } | Bir malzemenin türünü döndürür. Salt okunur [`MaterialPresetType`](../materialpresettype). |
+| [ExtrusionHeight](../../aspose.slides/ithreedformateffectivedata/extrusionheight) { get; } | Ekstrüzyon etkisinin yüksekliğini döndürür. Salt okunur Double. |
+| [LightRig](../../aspose.slides/ithreedformateffectivedata/lightrig) { get; } | Işığın tipini döndürür. Salt okunur [`ILightRigEffectiveData`](../ilightrigeffectivedata). |
+| [Material](../../aspose.slides/ithreedformateffectivedata/material) { get; } | Malzemenin tipini döndürür. Salt okunur [`MaterialPresetType`](../materialpresettype). |
 
 ### Açıklamalar
 
-Bu arayüz, [`IThreeDFormat`](../ithreedformat) arayüzü ile birlikte, kalıtım uygulanmış etkili biçimlendirme değerlerini döndürmek için kullanılır.
+Bu arayüz, [`IThreeDFormat`](../ithreedformat) arayüzüyle birlikte, kalıtım uygulanmış etkili biçimlendirme değerlerini döndürmek için kullanılır.
 
-### Ayrıca Bakınız
+### İlgili
 
 * arayüz [IThreeDParamSource](../ithreedparamsource)
 * ad alanı [Aspose.Slides](../../aspose.slides)

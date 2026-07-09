@@ -1,9 +1,9 @@
 ---
 title: IColorOffset
-second_title: Aspose.Sildes dla .NET Dokumentacja API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje offset koloru.
 type: docs
-weight: 450
+weight: 470
 url: /pl/aspose.slides.animation/icoloroffset/
 ---
 ## IColorOffset interfejs
@@ -18,9 +18,9 @@ public interface IColorOffset
 
 | Nazwa | Opis |
 | --- | --- |
-| [Value0](../../aspose.slides.animation/icoloroffset/value0) { get; set; } | Definiuje pierwszą wartość offsetu. Odczyt/zapis Single. |
-| [Value1](../../aspose.slides.animation/icoloroffset/value1) { get; set; } | Definiuje drugą wartość offsetu. Odczyt/zapis Single. |
-| [Value2](../../aspose.slides.animation/icoloroffset/value2) { get; set; } | Definiuje trzecią wartość offsetu. Odczyt/zapis Single. |
+| [Value0](../../aspose.slides.animation/icoloroffset/value0) { get; set; } | Określa pierwszą wartość offsetu. Odczyt/zapis Single. |
+| [Value1](../../aspose.slides.animation/icoloroffset/value1) { get; set; } | Określa drugą wartość offsetu. Odczyt/zapis Single. |
+| [Value2](../../aspose.slides.animation/icoloroffset/value2) { get; set; } | Określa trzecią wartość offsetu. Odczyt/zapis Single. |
 
 ### Zobacz także
 

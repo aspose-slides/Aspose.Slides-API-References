@@ -3,7 +3,7 @@ title: CommentAuthorCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: コメント作成者のコレクションを表します。
 type: docs
-weight: 2620
+weight: 2640
 url: /ja/aspose.slides/commentauthorcollection/
 ---
 ## CommentAuthorCollection クラス
@@ -16,26 +16,26 @@ public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentA
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [Count](../../aspose.slides/commentauthorcollection/count) { get; } | コレクションに実際に含まれる要素数を取得します。 読み取り専用 Int32。 |
-| [IsSynchronized](../../aspose.slides/commentauthorcollection/issynchronized) { get; } | コレクションへのアクセスが同期化されているか（スレッド セーフ）を示す値を返します。 読み取り専用 Boolean。 |
-| [Item](../../aspose.slides/commentauthorcollection/item) { get; } | 指定されたインデックスの要素を取得します。 読み取り専用 [`ICommentAuthor`](../icommentauthor)。 |
-| [SyncRoot](../../aspose.slides/commentauthorcollection/syncroot) { get; } | 同期ルートを返します。 読み取り専用 Object。 |
+| [Count](../../aspose.slides/commentauthorcollection/count) { get; } | コレクションに実際に含まれる要素数を取得します。読み取り専用 Int32。 |
+| [IsSynchronized](../../aspose.slides/commentauthorcollection/issynchronized) { get; } | コレクションへのアクセスが同期化されているか（スレッドセーフ）を示す値を返します。読み取り専用 Boolean。 |
+| [Item](../../aspose.slides/commentauthorcollection/item) { get; } | 指定されたインデックスの要素を取得します。読み取り専用 [`ICommentAuthor`](../icommentauthor)。 |
+| [SyncRoot](../../aspose.slides/commentauthorcollection/syncroot) { get; } | 同期ルートを返します。読み取り専用 Object。 |
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [AddAuthor](../../aspose.slides/commentauthorcollection/addauthor)(string, string) | コレクションの末尾に新しい作成者を追加します。 |
 | [Clear](../../aspose.slides/commentauthorcollection/clear)() | コレクションからすべての作成者を削除します。 |
-| [CopyTo](../../aspose.slides/commentauthorcollection/copyto)(Array, int) | コレクション内のすべての要素を指定された配列にコピーします。 |
+| [CopyTo](../../aspose.slides/commentauthorcollection/copyto)(Array, int) | コレクションのすべての要素を指定された配列にコピーします。 |
 | [FindByName](../../aspose.slides/commentauthorcollection/findbyname)(string) | 名前でコレクション内の作成者を検索します。 |
 | [FindByNameAndInitials](../../aspose.slides/commentauthorcollection/findbynameandinitials)(string, string) | 名前とイニシャルでコレクション内の作成者を検索します。 |
 | [GetEnumerator](../../aspose.slides/commentauthorcollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
-| [Remove](../../aspose.slides/commentauthorcollection/remove)(ICommentAuthor) | コレクション内の指定された作成者の最初の出現を削除します。 |
+| [Remove](../../aspose.slides/commentauthorcollection/remove)(ICommentAuthor) | コレクション内で指定された作成者の最初の出現を削除します。 |
 | [RemoveAt](../../aspose.slides/commentauthorcollection/removeat)(int) | コレクションの指定されたインデックスにある作成者を削除します。 |
-| [ToArray](../../aspose.slides/commentauthorcollection/toarray)() | すべての作成者を含む配列を作成して返します。 |
+| [ToArray](../../aspose.slides/commentauthorcollection/toarray)() | すべての作成者を含む配列を作成し、返します。 |
 
 ### 参照
 

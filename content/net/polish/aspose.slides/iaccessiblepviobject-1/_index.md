@@ -1,14 +1,14 @@
 ---
 title: IAccessiblePVIObjectT
-second_title: Aspose.Sildes dla .NET API Reference
-description: Reprezentuje typ, który może zwrócić odpowiednie efektywne dane z zastosowanym dziedziczeniem.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Reprezentuje typ, który może zwracać odpowiednie skuteczne dane z zastosowanym dziedziczeniem.
 type: docs
-weight: 5150
+weight: 5170
 url: /pl/aspose.slides/iaccessiblepviobject-1/
 ---
-## IAccessiblePVIObject<T> interfejs
+## IAccessiblePVIObject&lt;T&gt; interfejs
 
-Reprezentuje typ, który może zwrócić odpowiednie efektywne dane z zastosowanym dziedziczeniem.
+Reprezentuje typ, który może zwracać odpowiednie skuteczne dane z zastosowanym dziedziczeniem.
 
 ```csharp
 public interface IAccessiblePVIObject<T>
@@ -17,13 +17,13 @@ public interface IAccessiblePVIObject<T>
 
 | Parametr | Opis |
 | --- | --- |
-| T | Typ efektywnych danych. |
+| T | Typ skutecznych danych. |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [GetEffective](../../aspose.slides/iaccessiblepviobject`1/geteffective)() | Pobiera efektywne dane z zastosowanym dziedziczeniem. |
+| [GetEffective](../../aspose.slides/iaccessiblepviobject`1/geteffective)() | Zwraca skuteczne dane z zastosowanym dziedziczeniem. |
 
 ### Zobacz także
 

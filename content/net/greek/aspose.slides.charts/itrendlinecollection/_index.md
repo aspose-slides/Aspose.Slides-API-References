@@ -1,14 +1,14 @@
 ---
 title: ITrendlineCollection
-second_title: Aspose.Sildes για την αναφορά API του .NET
-description: Αντιπροσωπεύει μια συλλογή των TrendlineEx
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Αναπαριστά μια συλλογή από TrendlineEx
 type: docs
-weight: 2230
+weight: 2250
 url: /el/aspose.slides.charts/itrendlinecollection/
 ---
 ## ITrendlineCollection διεπαφή
 
-Αντιπροσωπεύει μια συλλογή των TrendlineEx
+Αναπαριστά μια συλλογή από TrendlineEx
 
 ```csharp
 public interface ITrendlineCollection : IEnumerable<ITrendline>
@@ -18,15 +18,15 @@ public interface ITrendlineCollection : IEnumerable<ITrendline>
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.charts/itrendlinecollection/asienumerable) { get; } | Επιτρέπει την πρόσβαση στη βασική διεπαφή IEnumerable. Μόνο για ανάγνωση IEnumerable. |
-| [Count](../../aspose.slides.charts/itrendlinecollection/count) { get; } | Επιστρέφει τον αριθμό των στοιχείων που περιέχονται πραγματικά στη συλλογή. Μόνο για ανάγνωση Int32. |
-| [Item](../../aspose.slides.charts/itrendlinecollection/item) { get; } | Επιστρέφει το στοιχείο στον καθορισμένο δείκτη. Μόνο για ανάγνωση [`ITrendline`](../itrendline). |
+| [AsIEnumerable](../../aspose.slides.charts/itrendlinecollection/asienumerable) { get; } | Επιτρέπει την λήψη της βασικής διεπαφής IEnumerable. Μόνο για ανάγνωση IEnumerable. |
+| [Count](../../aspose.slides.charts/itrendlinecollection/count) { get; } | Επιστρέφει τον αριθμό των στοιχείων που περιέχονται στην συλλογή. Μόνο για ανάγνωση Int32. |
+| [Item](../../aspose.slides.charts/itrendlinecollection/item) { get; } | Επιστρέφει το στοιχείο στο καθορισμένο δείκτη. Μόνο για ανάγνωση [`ITrendline`](../itrendline). |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Add](../../aspose.slides.charts/itrendlinecollection/add)(TrendlineType) | Προσθέτει το νέο Trendline στο τέλος μιας συλλογής και το επιστρέφει. |
+| [Add](../../aspose.slides.charts/itrendlinecollection/add)(TrendlineType) | Προσθέτει τη νέα Trendline στο τέλος μιας συλλογής και την επιστρέφει. |
 | [Remove](../../aspose.slides.charts/itrendlinecollection/remove)(ITrendline) | Αφαιρεί την καθορισμένη τιμή. |
 
 ### Δείτε επίσης

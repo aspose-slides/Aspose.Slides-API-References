@@ -1,14 +1,14 @@
 ---
 title: ICustomXmlPart
 second_title: Aspose.Sildes .NET API Referenciája
-description: Egy egyéni XML részt képvisel.
+description: Egyedi XML részt képviseli.
 type: docs
-weight: 5650
+weight: 5670
 url: /hu/aspose.slides/icustomxmlpart/
 ---
 ## ICustomXmlPart interfész
 
-Egy egyéni XML részt képvisel.
+A saját XML rész képviseli.
 
 ```csharp
 public interface ICustomXmlPart
@@ -18,16 +18,16 @@ public interface ICustomXmlPart
 
 | Név | Leírás |
 | --- | --- |
-| [ItemId](../../aspose.slides/icustomxmlpart/itemid) { get; set; } | Megad egy globálisan egyedi azonosítót (GUID), amely egyetlen egyéni XML részt egy Office Open XML dokumentumban egyértelműen azonosít. Csak olvasható Guid. |
-| [NamespaceSchemas](../../aspose.slides/icustomxmlpart/namespaceschemas) { get; } | Visszaadja az egyéni XML részhez kapcsolódó XML sémák gyűjteményét. Csak olvasható String[]. |
-| [XmlAsString](../../aspose.slides/icustomxmlpart/xmlasstring) { get; set; } | Visszaadja vagy beállítja az xml adatot UTF-8 karakterláncként. Olvasható/írható String. az érték `null`. az érték üres vagy az xml-adat érvénytelen. |
-| [XmlData](../../aspose.slides/icustomxmlpart/xmldata) { get; set; } | Visszaadja vagy beállítja az xml adatot. Olvasható/írható Byte[]. az érték `null`. az érték üres vagy az xml-adat érvénytelen. |
+| [ItemId](../../aspose.slides/icustomxmlpart/itemid) { get; set; } | Megad egy globálisan egyedi azonosítót (GUID), amely egyetlen saját XML részt egyedileg azonosít egy Office Open XML dokumentumban. Csak olvasható Guid. |
+| [NamespaceSchemas](../../aspose.slides/icustomxmlpart/namespaceschemas) { get; } | Visszaadja az egyedi XML részhez kapcsolódó XML séma gyűjteményt. Csak olvasható String[]. |
+| [XmlAsString](../../aspose.slides/icustomxmlpart/xmlasstring) { get; set; } | Visszaadja vagy beállítja az xml adatot UTF-8 karakterláncként. Olvasás/írás String. az érték `null`.az érték üres vagy az xml-adat érvénytelen. |
+| [XmlData](../../aspose.slides/icustomxmlpart/xmldata) { get; set; } | Visszaadja vagy beállítja az xml adatot. Olvasás/írás Byte[]. az érték `null`.az érték üres vagy az xml-adat érvénytelen. |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [Remove](../../aspose.slides/icustomxmlpart/remove)() | Eltávolítja az egyéni xml részt a prezentációból. |
+| [Remove](../../aspose.slides/icustomxmlpart/remove)() | Eltávolítja a saját xml részt a bemutatóból. |
 
 ### Lásd még
 

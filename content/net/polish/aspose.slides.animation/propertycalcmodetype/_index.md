@@ -1,9 +1,9 @@
 ---
 title: PropertyCalcModeType
-second_title: Aspose.Sildes dla .NET Referencja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje tryb obliczeń dla właściwości animacji.
 type: docs
-weight: 720
+weight: 740
 url: /pl/aspose.slides.animation/propertycalcmodetype/
 ---
 ## PropertyCalcModeType enumeracja

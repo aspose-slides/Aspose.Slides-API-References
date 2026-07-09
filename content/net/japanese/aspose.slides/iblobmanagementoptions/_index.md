@@ -1,14 +1,14 @@
 ---
 title: IBlobManagementOptions
-second_title: "Aspose.Sildes for .NET API リファレンス"
-description: "Binary Large Object（BLOB）は単一のエンティティとして格納されるバイナリ データであり、つまり BLOB は音声、動画、あるいはプレゼンテーション自体になることがあります。BLOB はプレゼンテーションに既に格納されている場合や後からプログラムで追加される場合があり、作業中のメモリ使用量を最適化するためにさまざまな手法が利用されます。IBlobManagementOptions./iblobmanagementoptions を使用すると、IPresentation./ipresentation インスタンスの存続期間中に BLOB の取り扱いに関するさまざまな動作側面を変更できます。"
+second_title: Aspose.Sildes for .NET API リファレンス
+description: Binary Large Object (BLOB) は単一のエンティティとして保存されるバイナリデータです。つまり、BLOB はオーディオ、ビデオ、またはプレゼンテーション自体になることがあります。BLOB の操作中にメモリ消費を最適化するために多数の手法が使用されます。これらはプレゼンテーションに既に保存されているか、後からプログラムで追加されるものです。IBlobManagementOptions./iblobmanagementoptions を使用すると、IPresentation./ipresentation インスタンスのライフタイムにおける BLOB 処理のさまざまな動作側面を変更できます。
 type: docs
-weight: 5350
+weight: 5370
 url: /ja/aspose.slides/iblobmanagementoptions/
 ---
 ## IBlobManagementOptions インターフェイス
 
-Binary Large Object（BLOB）とは、1つのエンティティとして格納されるバイナリ データです。つまり、BLOB はオーディオ、ビデオ、あるいはプレゼンテーション自体になることがあります。BLOB はプレゼンテーションにすでに格納されている場合や、後からプログラムで追加される場合があり、作業中のメモリ使用量を最適化するためにさまざまな手法が使用されます。[`IBlobManagementOptions`](../iblobmanagementoptions) を使用すると、[`IPresentation`](../ipresentation) インスタンスの存続期間中の BLOB 処理に関するさまざまな動作側面を変更できます。
+Binary Large Object (BLOB) は単一のエンティティとして保存されるバイナリデータです。つまり、BLOB はオーディオ、ビデオ、またはプレゼンテーション自体になることがあります。BLOB を操作する際のメモリ消費を最適化するために多数の手法が使用されます。これらはプレゼンテーションに既に保存されているか、プログラムで後から追加される場合があります。[`IBlobManagementOptions`](../iblobmanagementoptions) を使用すると、[`IPresentation`](../ipresentation) インスタンスのライフタイムに対する BLOB 処理のさまざまな動作側面を変更できます。
 
 ```csharp
 public interface IBlobManagementOptions
@@ -18,10 +18,10 @@ public interface IBlobManagementOptions
 
 | 名前 | 説明 |
 | --- | --- |
-| [IsTemporaryFilesAllowed](../../aspose.slides/iblobmanagementoptions/istemporaryfilesallowed) { get; set; } | このプロパティは、BLOB を操作中に一時ファイルを作成できるかどうかを定義します。一時ファイルの作成によりメモリ使用量が大幅に減少しますが、ファイル作成の権限が必要です。すべてのファイルは、プレゼンテーションの作業が完了した後に削除されます。 |
-| [MaxBlobsBytesInMemory](../../aspose.slides/iblobmanagementoptions/maxblobsbytesinmemory) { get; set; } | このプロパティは、すべての BLOB がメモリ内で占有できる最大合計サイズ（バイト）を定義します。既定では、すべての BLOB がメモリにロードされます。この上限に達した場合にのみ、一時ファイルなどの代替メカニズムが使用されます。BLOB をメモリに保持することでパフォーマンスは最大化されますが、メモリ使用量が増加する可能性があります。このプロパティを使用して、環境や要件に合わせて動作を調整してください。 |
-| [PresentationLockingBehavior](../../aspose.slides/iblobmanagementoptions/presentationlockingbehavior) { get; set; } | このプロパティは、Presentation クラスのインスタンスがインスタンスの存続期間中にソース（ファイルまたはストリーム）の所有者になれるかどうかを定義します。所有者である場合、ソースはロックされます。これにより BLOB を操作する際のメモリ使用量とパフォーマンスが向上しますが、Presentation のインスタンス存続期間中はソース（ストリームまたはファイル）を変更できません。以下は例です： |
-| [TempFilesRootPath](../../aspose.slides/iblobmanagementoptions/tempfilesrootpath) { get; set; } | このプロパティは、一時ファイルが作成されるルート パスを指定します。既定ではシステムの一時ディレクトリが使用されます。ホスティング プロセスは、そこにファイルやフォルダーを作成する権限を持っている必要があります。 |
+| [IsTemporaryFilesAllowed](../../aspose.slides/iblobmanagementoptions/istemporaryfilesallowed) { get; set; } | このプロパティは、BLOB を操作中に一時ファイルを作成できるかどうかを定義します。一時ファイルを使用するとメモリ消費が大幅に減少しますが、ファイル作成の権限が必要です。すべてのファイルはプレゼンテーションの処理が完了した後に削除されます。 |
+| [MaxBlobsBytesInMemory](../../aspose.slides/iblobmanagementoptions/maxblobsbytesinmemory) { get; set; } | すべての BLOB がメモリ上で占めることができる最大合計サイズ（バイト単位）を定義します。デフォルトでは、すべての BLOB がメモリにロードされます。この制限に達したときのみ、一時ファイルなどの代替メカニズムが使用されます。BLOB をメモリに保持するとパフォーマンスが最大化されますが、メモリ使用量が増加する可能性があります。環境や要件に合わせてこのプロパティで動作を調整してください。 |
+| [PresentationLockingBehavior](../../aspose.slides/iblobmanagementoptions/presentationlockingbehavior) { get; set; } | このプロパティは、Presentation クラスのインスタンスがインスタンスのライフタイム中にソース（ファイルまたはストリーム）の所有者になるかどうかを定義します。インスタンスが所有者である場合、ソースがロックされます。これにより BLOB の処理中のメモリ消費とパフォーマンスが向上しますが、Presentation のインスタンスのライフタイム中はソース（ストリームまたはファイル）を変更できなくなります。以下は例です： |
+| [TempFilesRootPath](../../aspose.slides/iblobmanagementoptions/tempfilesrootpath) { get; set; } | 一時ファイルが作成されるルートパスです。デフォルトではシステムの一時ディレクトリが使用されます。ホスティングプロセスはそこにファイルやフォルダーを作成する権限を持っている必要があります。 |
 
 ### 参照
 

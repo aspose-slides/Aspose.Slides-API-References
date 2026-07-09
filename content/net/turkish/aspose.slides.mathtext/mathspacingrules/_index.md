@@ -1,12 +1,12 @@
 ---
 title: MathSpacingRules
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir matrisin sütunları arasındaki boşluk (yatay aralık) türleri
+description: Bir matrisin sütunları arasındaki boşluk yatay aralığının türleri
 type: docs
-weight: 8970
+weight: 8990
 url: /tr/aspose.slides.mathtext/mathspacingrules/
 ---
-## MathSpacingRules enum
+## MathSpacingRules enum'ı
 
 Bir matrisin sütunları arasındaki boşluk (yatay aralık) türleri
 
@@ -14,17 +14,17 @@ Bir matrisin sütunları arasındaki boşluk (yatay aralık) türleri
 public enum MathSpacingRules
 ```
 
-### Değerler
+### Values
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
 | SingleSpacingGap | `0` | Tek (sütunlar için 1 em veya satırlar için 1 satır) |
-| OneAndHalfSpacingGap | `1` | Bir buçuk (sütunlar için 1,5 em veya satırlar için 1,5 satır) |
+| OneAndHalfSpacingGap | `1` | Bir buçuk (sütunlar için 1.5 em veya satırlar için 1.5 satır) |
 | DoubleSpacingGap | `2` | Çift aralık (sütunlar için 2 em veya satırlar için 2 satır) |
-| Exactly | `3` | Tam değer Sütunlar için, ColumnGap değerine dayanır, twip cinsinden ölçülür Satırlar için, RowGap değerine dayanır, twip cinsinden ölçülür |
-| Multiple | `4` | Çoklu Sütunlar için, ColumnGap değerine dayanır, 0.5 em artışlarıyla ölçülür Satırlar için, RowGap değerine dayanır, satır olarak ölçülür |
+| Exactly | `3` | Tam değer. Sütunlar için ColumnGap değerine dayanır, twip cinsinden ölçülür. Satırlar için RowGap değerine dayanır, twip cinsinden ölçülür. |
+| Multiple | `4` | Çoklu. Sütunlar için ColumnGap değerine dayanır, 0.5 em artışlarıyla ölçülür. Satırlar için RowGap değerine dayanır, satırlarla ölçülür. |
 
-### Ayrıca Bakınız
+### Bakınız
 
 * ad alanı [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * derleme [Aspose.Slides](../../)

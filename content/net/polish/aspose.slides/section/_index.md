@@ -1,9 +1,9 @@
 ---
 title: Section
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje sekcję slajdów.
 type: docs
-weight: 9730
+weight: 9750
 url: /pl/aspose.slides/section/
 ---
 ## Section klasa

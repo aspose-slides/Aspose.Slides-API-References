@@ -3,7 +3,7 @@ title: Html5Options
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili opsi ekspor HTML5.
 type: docs
-weight: 3840
+weight: 3860
 url: /id/aspose.slides.export/html5options/
 ---
 ## Html5Options kelas
@@ -27,12 +27,13 @@ public class Html5Options : SaveOptions, IHtml5Options
 | [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | Mengembalikan atau mengatur opsi animasi bentuk. Baca/tulis Boolean. |
 | [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | Mengembalikan atau mengatur opsi animasi transisi. Baca/tulis Boolean. |
 | [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Mengembalikan atau mengatur font yang digunakan jika font sumber tidak ditemukan. Baca/tulis String. |
-| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | Mengambil atau mengatur nilai yang menunjukkan apakah teks dirender tanpa menggunakan ligatur. Ketika diset ke `true`, ligatur akan dinonaktifkan dalam output yang dirender. Secara default, properti ini diset ke `false`. |
+| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | Mengambil atau mengatur nilai yang menunjukkan apakah teks dirender tanpa menggunakan ligatur. Ketika diatur ke `true`, ligatur akan dinonaktifkan dalam output yang dirender. Secara default, properti ini diatur ke `false`. |
 | [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | Mengembalikan atau mengatur opsi penyematan gambar. Baca/tulis Boolean. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Mengembalikan atau mengatur gaya visual gradasi. Baca/tulis [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Mengembalikan atau mengatur gaya visual gradien. Baca/tulis [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | Menentukan dimana sumber daya eksternal harus disimpan. Baca/tulis String. |
+| [PicturesCompression](../../aspose.slides.export/html5options/picturescompression) { get; set; } | Mewakili tingkat kompresi gambar |
 | [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Mewakili objek callback untuk menyimpan pembaruan kemajuan dalam persentase. Lihat [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Menentukan apakah akan melewatkan hyperlink dengan panggilan JavaScript saat menyimpan presentasi. Baca/tulis Boolean. Nilai default adalah **false**. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Menentukan apakah akan melewatkan hyperlink dengan pemanggilan JavaScript saat menyimpan presentasi. Baca/tulis Boolean. Nilai default adalah **false**. |
 | [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | Mengambil atau mengatur mode penempatan slide pada halaman saat mengekspor presentasi [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 | [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Mengembalikan atau mengatur objek yang menerima peringatan dan memutuskan apakah proses pemuatan akan dilanjutkan atau dibatalkan. Baca/tulis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 

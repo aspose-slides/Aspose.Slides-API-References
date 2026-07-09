@@ -1,9 +1,9 @@
 ---
 title: TextAutofitType
-second_title: Aspose.Sildes a .NET API referenciához
-description: A szöveg automatikus illesztés módját reprezentálja.
+second_title: Aspose.Sildes .NET API referencia
+description: A szöveg automatikus illesztési módját reprezentálja.
 type: docs
-weight: 10900
+weight: 10920
 url: /hu/aspose.slides/textautofittype/
 ---
 ## TextAutofitType enumeráció
@@ -20,8 +20,8 @@ public enum TextAutofitType : sbyte
 | --- | --- | --- |
 | NotDefined | `-1` | Nincs definiálva. |
 | None | `0` | Nincs automatikus illesztés. |
-| Normal | `1` | Normál automatikus illesztés. A betűméret és a sorköz csökken, hogy illeszkedjen a formához. |
-| Shape | `2` | Forma automatikus illesztés. A forma mérete megváltozik, hogy illeszkedjen a szöveghez. |
+| Normal | `1` | Normál automatikus illesztés. A betűméret és a sorköz csökkenni fog, hogy illeszkedjen a formához. |
+| Shape | `2` | Alakzat automatikus illesztés. Az alakzat mérete módosulni fog, hogy illeszkedjen a szöveghez. |
 
 ### Lásd még
 

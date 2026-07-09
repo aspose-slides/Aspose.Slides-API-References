@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeiling
-second_title: Aspose.Sildes .NET API Referenciája
-description: Alpha Ceiling hatást reprezentálja. A nulla fölötti alfa átlátszóság értékek 100-ra változnak. Más szóval, minden részben átlátszó teljesen átlátszatlanná válik.
+second_title: Aspose.Sildes .NET API referencia
+description: Alpha Ceiling hatást reprezentál. A nulla feletti alfa átlátszatlanság értékek 100-ra változnak. Más szóval, minden részben átlátszatlan teljesen átlátszatlanná válik.
 type: docs
-weight: 3020
+weight: 3040
 url: /hu/aspose.slides.effects/ialphaceiling/
 ---
 ## IAlphaCeiling interfész
 
-Az Alpha Ceiling hatást reprezentálja. A nulla fölötti alfa (átlátszóság) értékek 100%-ra változnak. Más szóval, minden részben átlátszó teljesen átlátszatlanná válik.
+Az Alpha Ceiling effektust reprezentálja. Az nulla feletti Alpha (átlátszatlanság) értékek 100%-ra változnak. Más szóval, minden részben átlátszatlan teljesen átlátszatlanná válik.
 
 ```csharp
 public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphaceiling/asiaccessiblepviobject) { get; } | Lehetővé teszi az alap IAccessiblePVIObject interfész lekérését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphaceiling/asiimagetransformoperation) { get; } | Lehetővé teszi az alap IImageTransformOperationEx interfész lekérését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphaceiling/asiaccessiblepviobject) { get; } | Lehetővé teszi az alap IAccessiblePVIObject interfész lekérdezését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphaceiling/asiimagetransformoperation) { get; } | Lehetővé teszi az alap IImageTransformOperationEx interfész lekérdezését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Lásd még
 

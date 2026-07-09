@@ -1,14 +1,14 @@
 ---
 title: IBlobManagementOptions
 second_title: Aspose.Sildes için .NET API Referansı
-description: Binary Large Object (BLOB), tek bir varlık olarak depolanan ikili veridir – yani BLOB bir ses, video veya sunumun kendisi olabilir. BLOB'larla çalışırken bellek tüketimini optimize etmek için çeşitli teknikler kullanılır – bu BLOB'lar zaten sunumda depolanmış ya da daha sonra programlı olarak eklenebilir. IBlobManagementOptions./iblobmanagementoptions kullanarak IPresentation./ipresentation örnek ömrü boyunca BLOB işleme ile ilgili farklı davranış yönlerini değiştirebilirsiniz.
+description: Binary Large Object (BLOB), tek bir varlık olarak depolanan ikili veridir; yani BLOB bir ses, video veya sunumun kendisi olabilir. BLOB'larla çalışırken bellek tüketimini optimize etmek için bir dizi teknik kullanılır; bu BLOB'lar zaten sunuma depolanmış olabilir veya programatik olarak sonradan eklenebilir. IBlobManagementOptions./iblobmanagementoptions kullanarak, IPresentation./ipresentation örnek ömrü boyunca BLOB işleme ile ilgili farklı davranış yönlerini değiştirebilirsiniz.
 type: docs
-weight: 5350
+weight: 5370
 url: /tr/aspose.slides/iblobmanagementoptions/
 ---
-## IBlobManagementOptions arayüzü
+## IBlobManagementOptions arayüz
 
-Binary Large Object (BLOB), tek bir varlık olarak depolanan ikili veridir; yani BLOB bir ses, video veya sunum kendisi olabilir. BLOB'larla çalışırken bellek tüketimini optimize etmek için çeşitli teknikler kullanılır – bu BLOB'lar zaten sunumda depolanmış ya da programlı olarak daha sonra eklenebilir. [`IBlobManagementOptions`](../iblobmanagementoptions) kullanarak [`IPresentation`](../ipresentation) örnek ömrü boyunca BLOB işleme ile ilgili farklı davranış yönlerini değiştirebilirsiniz.
+Binary Large Object (BLOB), tek bir varlık olarak depolanan ikili veridir - yani BLOB bir ses, video veya sunum kendisi olabilir. BLOB'larla çalışırken bellek tüketimini optimize etmek için çeşitli teknikler kullanılır - bunlar zaten sunumda depolanmış olabilir veya programatik olarak sonradan eklenebilir. [`IBlobManagementOptions`](../iblobmanagementoptions) kullanarak, [`IPresentation`](../ipresentation) örnek ömrü süresince BLOB'ların işlenmesiyle ilgili farklı davranış yönlerini değiştirebilirsiniz.
 
 ```csharp
 public interface IBlobManagementOptions
@@ -16,16 +16,16 @@ public interface IBlobManagementOptions
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [IsTemporaryFilesAllowed](../../aspose.slides/iblobmanagementoptions/istemporaryfilesallowed) { get; set; } | Bu özellik, BLOB'larla çalışırken geçici dosyaların oluşturulup oluşturulamayacağını belirler; bu, bellek tüketimini önemli ölçüde azaltır ancak dosya oluşturma izinleri gerektirir. Sunumla çalışma tamamlandıktan sonra tüm dosyalar silinecektir. |
-| [MaxBlobsBytesInMemory](../../aspose.slides/iblobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Tüm BLOB'ların bellekte kaplayabileceği maksimum toplam boyutu (bayt cinsinden) tanımlar. Varsayılan olarak, tüm BLOB'lar belleğe yüklenir; yalnızca bu sınır aşıldığında geçici dosyalar gibi alternatif mekanizmalar devreye alınır. BLOB'ları bellekte tutmak performansı en üst düzeye çıkarır ancak yüksek bellek kullanımına yol açabilir. Bu özelliği ortamınıza veya gereksinimlerinize göre davranışı özelleştirmek için kullanın. |
-| [PresentationLockingBehavior](../../aspose.slides/iblobmanagementoptions/presentationlockingbehavior) { get; set; } | Bu özellik, Presentation sınıfının bir örneğinin yaşam süresi boyunca kaynağın (dosya veya akış) sahibi olup olamayacağını belirler. Örnek sahibi ise kaynağı kilitler. Bu, BLOB'larla çalışırken bellek tüketimini ve performansı iyileştirmeye yardımcı olur, ancak kaynak (akış veya dosya) Presentation örneğinin yaşam süresi boyunca değiştirilemez. Bu bir örnektir: |
-| [TempFilesRootPath](../../aspose.slides/iblobmanagementoptions/tempfilesrootpath) { get; set; } | Geçici dosyaların oluşturulacağı kök yol. Varsayılan olarak sistem geçici dizini kullanılacaktır. Barındırma sürecinin burada dosya ve klasör oluşturma izinlerine sahip olması gerekir. |
+| [IsTemporaryFilesAllowed](../../aspose.slides/iblobmanagementoptions/istemporaryfilesallowed) { get; set; } | Bu özellik, BLOB'larla çalışırken geçici dosyaların oluşturulup oluşturulamayacağını belirler; bu, bellek tüketimini büyük ölçüde azaltır ancak dosya oluşturma izinleri gerektirir. Sunum üzerindeki çalışma tamamlandığında tüm dosyalar silinecektir. |
+| [MaxBlobsBytesInMemory](../../aspose.slides/iblobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Tüm BLOB'ların bellekte kaplayabileceği azami toplam boyutu (bayt cinsinden) tanımlar. Varsayılan olarak, tüm BLOB'lar belleğe yüklenir; bu sınır aşıldığında yalnızca geçici dosyalar gibi alternatif mekanizmalar devreye girer. BLOB'ları bellek içinde tutmak performansı en üst düzeye çıkarır ancak yüksek bellek kullanımına yol açabilir. Bu özelliği ortamınıza veya gereksinimlerinize göre davranışı özelleştirmek için kullanın. |
+| [PresentationLockingBehavior](../../aspose.slides/iblobmanagementoptions/presentationlockingbehavior) { get; set; } | Bu özellik, Presentation sınıfının bir örneğinin kaynak - dosya veya akışın örnek ömrü boyunca sahibi olup olamayacağını tanımlar. Örnek bir sahibi ise, kaynağı kilitler. Bu, BLOB'larla çalışırken bellek tüketimini ve performansı artırmaya yardımcı olur, ancak kaynak (akış veya dosya) Presentation örnek ömrü boyunca değiştirilemez. İşte bir örnek: |
+| [TempFilesRootPath](../../aspose.slides/iblobmanagementoptions/tempfilesrootpath) { get; set; } | Geçici dosyaların oluşturulacağı kök yol. Varsayılan olarak sistem geçici dizini kullanılır. Barındırma sürecinin burada dosya ve klasör oluşturma izinlerine sahip olması gerekir. |
 
-### İlgili
+### Ayrıca Bakınız
 
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* ad alanı [Aspose.Slides](../../aspose.slides)
+* derleme [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

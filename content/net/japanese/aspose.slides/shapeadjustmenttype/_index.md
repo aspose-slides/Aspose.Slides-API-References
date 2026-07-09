@@ -1,14 +1,14 @@
 ---
 title: ShapeAdjustmentType
-second_title: Aspose.Sildes for .NET API リファレンス
-description: シェイプ調整値のさまざまなタイプを指定します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: シェイプの調整値のさまざまなタイプを指定します。
 type: docs
-weight: 9820
+weight: 9840
 url: /ja/aspose.slides/shapeadjustmenttype/
 ---
 ## ShapeAdjustmentType 列挙型
 
-シェイプ調整値のさまざまなタイプを指定します。
+シェイプの調整値のさまざまなタイプを指定します。
 
 ```csharp
 public enum ShapeAdjustmentType
@@ -20,22 +20,22 @@ public enum ShapeAdjustmentType
 | --- | --- | --- |
 | Custom | `0` | カスタムタイプ（不明な調整） |
 | CornerSize | `1` | コーナーのサイズを制御します。 |
-| LeftUpCorner | `2` | 左上隅を制御します。 |
-| RightUpCorner | `3` | 右上隅を制御します。 |
+| LeftUpCorner | `2` | 左上コーナーを制御します。 |
+| RightUpCorner | `3` | 右上コーナーを制御します。 |
 | UpCorners | `4` | 上部のコーナーを制御します。 |
 | DownCorners | `5` | 下部のコーナーを制御します。 |
 | Thickness | `6` | 図形の厚さを制御します。 |
 | ArrowTailThickness | `7` | 矢印の尾部の厚さを制御します。 |
-| ArrowheadLength | `8` | 矢尻の長さを制御します。 |
-| ArrowheadWidth | `9` | 矢尻の幅を制御します。 |
+| ArrowheadLength | `8` | 矢じりの長さを制御します。 |
+| ArrowheadWidth | `9` | 矢じりの幅を制御します。 |
 | Radius | `10` | シェイプまたはその一部の半径のサイズを制御します。 |
-| Depth | `11` | 歯車の歯の深さまたはベベル効果を制御します。 |
-| ShapePartOffset | `12` | 図形のある部分が他の部分に対して持つオフセットを制御します。 |
-| Angle | `13` | 図形またはその部品の角度を制御します。 |
-| StartAngle | `14` | 円形および円弧形状の開始角度を制御します。 |
-| EndAngle | `15` | 円形および円弧形状の終了角度を制御します。 |
-| StartPointX | `16` | コールアウト開始点の X 位置を制御します。 |
-| StartPointY | `17` | コールアウト開始点の Y 位置を制御します。 |
+| Depth | `11` | ギアの歯またはベベル効果の深さを制御します。 |
+| ShapePartOffset | `12` | 図形のある部分と別の部分との相対的なオフセットを制御します。 |
+| Angle | `13` | 図形またはその部分の角度を制御します。 |
+| StartAngle | `14` | 円グラフや円弧シェイプの開始角度です。 |
+| EndAngle | `15` | 円グラフや円弧シェイプの終了角度です。 |
+| StartPointX | `16` | コールアウトの開始点 X 位置を制御します。 |
+| StartPointY | `17` | コールアウトの開始点 Y 位置を制御します。 |
 | ConnectorPoint1X | `18` | コールアウト角度調整点の水平位置を制御します。 |
 | ConnectorPoint1Y | `19` | コールアウト角度調整点の垂直位置を制御します。 |
 | ConnectorPoint2X | `20` | コールアウト角度調整点の水平位置を制御します。 |
@@ -47,9 +47,9 @@ public enum ShapeAdjustmentType
 | CalloutHeight | `26` | コールアウトの垂直サイズを制御します。 |
 | CalloutWidth | `27` | コールアウトの水平サイズを制御します。 |
 | CalloutSize | `28` | コールアウトのサイズを制御します。 |
-| Curvature | `29` | 曲がった形状、ブレース、曲線矢印またはシェイプの曲率。 |
-| HorizontalThickness | `30` | コーナー形状の水平厚さを制御します。 |
-| VerticalThickness | `31` | コーナー形状の垂直厚さを制御します。 |
+| Curvature | `29` | 曲がった形、ブレース、曲線矢印またはシェイプの曲率です。 |
+| HorizontalThickness | `30` | コーナーシェイプの水平厚さを制御します。 |
+| VerticalThickness | `31` | コーナーシェイプの垂直厚さを制御します。 |
 | VerticalSize | `32` | シェイプの垂直サイズを制御します。 |
 | HorizontalSize | `33` | シェイプの水平サイズを制御します。 |
 | Top | `34` | シェイプの上側を制御します。 |

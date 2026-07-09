@@ -1,14 +1,14 @@
 ---
 title: IFillOverlayEffectiveData
-second_title: Aspose.Sildes pro .NET API Reference
-description: Neměnný objekt, který představuje efekt překrytí výplní. Překrytí výplní může být použito k určení další výplně pro objekt a ke smíchání obou výplní dohromady.
+second_title: Aspose.Sildes pro .NET – reference API
+description: Neměnný objekt, který představuje efekt Fill Overlay. Fill Overlay může být použit k určení dodatečné výplně pro objekt a k jejich smíchání.
 type: docs
-weight: 3290
+weight: 3310
 url: /cs/aspose.slides.effects/ifilloverlayeffectivedata/
 ---
-## IFillOverlayEffectiveData interface
+## IFillOverlayEffectiveData rozhraní
 
-Neměnný objekt, který představuje efekt překrytí výplní. Překrytí výplní může být použito k určení další výplně pro objekt a ke smíchání obou výplní dohromady.
+Neměnný objekt, který představuje efekt Fill Overlay. Fill Overlay může být použit k určení dodatečné výplně pro objekt a k jejich smíchání.
 
 ```csharp
 public interface IFillOverlayEffectiveData : IEffectEffectiveData

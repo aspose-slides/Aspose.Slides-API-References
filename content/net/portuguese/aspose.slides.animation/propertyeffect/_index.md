@@ -1,12 +1,12 @@
 ---
 title: PropertyEffect
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa o comportamento do efeito de propriedade.
 type: docs
-weight: 730
+weight: 750
 url: /pt/aspose.slides.animation/propertyeffect/
 ---
-## classe PropertyEffect
+## Classe PropertyEffect
 
 Representa o comportamento do efeito de propriedade.
 
@@ -35,7 +35,7 @@ public class PropertyEffect : Behavior, IPropertyEffect
 | [To](../../aspose.slides.animation/propertyeffect/to) { get; set; } | Especifica o valor final da animação. Leitura/gravação String. |
 | [ValueType](../../aspose.slides.animation/propertyeffect/valuetype) { get; set; } | Especifica o tipo de um valor de propriedade. Leitura/gravação [`PropertyValueType`](../propertyvaluetype). |
 
-### Veja Também
+### Veja também
 
 * classe [Behavior](../behavior)
 * interface [IPropertyEffect](../ipropertyeffect)

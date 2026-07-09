@@ -1,14 +1,14 @@
 ---
 title: IInk
-second_title: Aspose.Sildes pro .NET API dokumentaci
-description: Představuje objekt ink na snímku.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Reprezentuje ink objekt na snímku.
 type: docs
-weight: 7490
+weight: 7510
 url: /cs/aspose.slides.ink/iink/
 ---
 ## IInk rozhraní
 
-Představuje objekt ink na snímku.
+Representuje ink objekt na snímku.
 
 ```csharp
 public interface IInk : IGraphicalObject
@@ -19,7 +19,7 @@ public interface IInk : IGraphicalObject
 | Název | Popis |
 | --- | --- |
 | [AsIGraphicalObject](../../aspose.slides.ink/iink/asigraphicalobject) { get; } | Umožňuje získat základní rozhraní IGraphicalObject. Pouze pro čtení [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
-| [Traces](../../aspose.slides.ink/iink/traces) { get; } | Získá všechny stopy obsažené v elementu IInk [`IInkTrace`](../iinktrace). Pouze pro čtení. |
+| [Traces](../../aspose.slides.ink/iink/traces) { get; } | Získává všechny stopy obsažené v prvku IInk [`IInkTrace`](../iinktrace). Pouze pro čtení. |
 
 ### Viz také
 

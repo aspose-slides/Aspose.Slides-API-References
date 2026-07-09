@@ -1,9 +1,9 @@
 ---
 title: ITable
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: スライド上のテーブルを表します。
 type: docs
-weight: 7210
+weight: 7230
 url: /ja/aspose.slides/itable/
 ---
 ## ITable インターフェイス
@@ -16,26 +16,26 @@ public interface ITable : IBulkTextFormattable, IGraphicalObject
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | ベースの IBulkTextFormattable インターフェイスを取得できます。読み取り専用 [`IBulkTextFormattable`](../ibulktextformattable)。 |
 | [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | ベースの IGraphicalObject インターフェイスを取得できます。読み取り専用 [`IGraphicalObject`](../igraphicalobject)。 |
 | [Columns](../../aspose.slides/itable/columns) { get; } | 列のコレクションを返します。読み取り専用 [`IColumnCollection`](../icolumncollection)。 |
-| [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | テーブルの最初の列が特別な書式で描画されるかどうかを決定します。読み取り/書き込み Boolean。 |
-| [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | テーブルの最初の行が特別な書式で描画されるかどうかを決定します。読み取り/書き込み Boolean。 |
-| [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | 偶数行が異なる書式で描画されるかどうかを決定します。読み取り/書き込み Boolean。 |
-| [Item](../../aspose.slides/itable/item) { get; } | 指定された列と行のインデックスのセルを返します。読み取り専用 [`ICell`](../icell)。 |
-| [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | テーブルの最後の列が特別な書式で描画されるかどうかを決定します。読み取り/書き込み Boolean。 |
-| [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | テーブルの最後の行が特別な書式で描画されるかどうかを決定します。読み取り/書き込み Boolean。 |
-| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | テーブルが右から左への読み順を持つかどうかを決定します。読み取り/書き込み Boolean。 |
+| [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | テーブルの最初の列を特別な書式で描画するかどうかを決定します。読み書き可能な Boolean。 |
+| [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | テーブルの最初の行を特別な書式で描画するかどうかを決定します。読み書き可能な Boolean。 |
+| [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | 偶数行を異なる書式で描画するかどうかを決定します。読み書き可能な Boolean。 |
+| [Item](../../aspose.slides/itable/item) { get; } | 指定された列と行のインデックスにあるセルを返します。読み取り専用 [`ICell`](../icell)。 |
+| [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | テーブルの最後の列を特別な書式で描画するかどうかを決定します。読み書き可能な Boolean。 |
+| [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | テーブルの最後の行を特別な書式で描画するかどうかを決定します。読み書き可能な Boolean。 |
+| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | テーブルが右から左への読み順を持つかどうかを決定します。読み書き可能な Boolean。 |
 | [Rows](../../aspose.slides/itable/rows) { get; } | 行のコレクションを返します。読み取り専用 [`IRowCollection`](../irowcollection)。 |
-| [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | 組み込みテーブルスタイルを取得または設定します。読み取り/書き込み [`TableStylePreset`](../tablestylepreset)。 |
+| [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | 組み込みテーブルスタイルを取得または設定します。読み書き可能な [`TableStylePreset`](../tablestylepreset)。 |
 | [TableFormat](../../aspose.slides/itable/tableformat) { get; } | このテーブルの書式設定プロパティを含む TableFormat オブジェクトを返します。読み取り専用 [`ITableFormat`](../itableformat)。 |
-| [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | 偶数列が異なる書式で描画されるかどうかを決定します。読み取り/書き込み Boolean。 |
+| [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | 偶数列を異なる書式で描画するかどうかを決定します。読み書き可能な Boolean。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [MergeCells](../../aspose.slides/itable/mergecells)(ICell, ICell, bool) | 隣接するセルを結合します。 |
 

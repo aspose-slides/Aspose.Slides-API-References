@@ -1,9 +1,9 @@
 ---
 title: ILayoutSlide
-second_title: Aspose.Sildes para .NET - Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa um slide de layout.
 type: docs
-weight: 6200
+weight: 6220
 url: /pt/aspose.slides/ilayoutslide/
 ---
 ## ILayoutSlide interface
@@ -24,8 +24,8 @@ public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
 | [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | Retorna true se existir ao menos um slide que dependa deste slide de layout. Somente leitura Boolean. |
 | [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | Retorna o gerenciador HeaderFooter do slide de layout. Somente leitura [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |
 | [LayoutType](../../aspose.slides/ilayoutslide/layouttype) { get; } | Retorna o tipo de layout deste slide de layout. Somente leitura [`SlideLayoutType`](../slidelayouttype). |
-| [MasterSlide](../../aspose.slides/ilayoutslide/masterslide) { get; set; } | Retorna ou define o slide mestre para um layout. Leitura/gravação [`IMasterSlide`](../imasterslide). |
-| [PlaceholderManager](../../aspose.slides/ilayoutslide/placeholdermanager) { get; } | Retorna o gerenciador de placeholders do slide de layout. Somente leitura [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager). |
+| [MasterSlide](../../aspose.slides/ilayoutslide/masterslide) { get; set; } | Retorna ou define o slide mestre para um layout. Leitura/Gravação [`IMasterSlide`](../imasterslide). |
+| [PlaceholderManager](../../aspose.slides/ilayoutslide/placeholdermanager) { get; } | Retorna o gerenciador de espaço reservado do slide de layout. Somente leitura [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager). |
 
 ## Métodos
 
@@ -34,7 +34,7 @@ public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
 | [GetDependingSlides](../../aspose.slides/ilayoutslide/getdependingslides)() | Retorna um array com todos os slides que dependem deste slide de layout. |
 | [Remove](../../aspose.slides/ilayoutslide/remove)() | Remove o layout da apresentação. |
 
-### Ver também
+### Veja Também
 
 * interface [IBaseSlide](../ibaseslide)
 * interface [IOverrideThemeable](../../aspose.slides.theme/ioverridethemeable)

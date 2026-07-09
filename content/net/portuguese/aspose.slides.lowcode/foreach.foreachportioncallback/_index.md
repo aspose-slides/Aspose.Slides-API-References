@@ -3,12 +3,12 @@ title: ForEach.ForEachPortionCallback
 second_title: Referência da API Aspose.Sildes para .NET
 description: Callback que será invocado para cada Portion./foreach/portion no Paragraph./foreach/paragraph no BaseSlide../aspose.slides/baseslide.
 type: docs
-weight: 7920
+weight: 7940
 url: /pt/aspose.slides.lowcode/foreach.foreachportioncallback/
 ---
 ## ForEach.ForEachPortionCallback delegate
 
-Callback que será invocado para cada [`Portion`](../foreach/portion) no [`Paragraph`](../foreach/paragraph) na [`BaseSlide`](../../aspose.slides/baseslide).
+Callback que será invocado para cada [`Portion`](../foreach/portion) no [`Paragraph`](../foreach/paragraph) no [`BaseSlide`](../../aspose.slides/baseslide).
 
 ```csharp
 public delegate void ForEachPortionCallback(Portion portion, Paragraph para, BaseSlide slide, 

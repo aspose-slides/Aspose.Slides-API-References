@@ -3,7 +3,7 @@ title: ILegend
 second_title: Aspose.Sildes .NET API referencia
 description: A diagramok jelmagyarázatának tulajdonságait képviseli.
 type: docs
-weight: 2110
+weight: 2130
 url: /hu/aspose.slides.charts/ilegend/
 ---
 ## ILegend interfész
@@ -18,12 +18,12 @@ public interface ILegend : IActualLayout, IFormattedTextContainer, ILayoutable
 
 | Név | Leírás |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | Lehetővé teszi a base IFormattedTextContainer interfész lekérdezését. Csak olvasható [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | Lehetővé teszi a base ILayoutable interfész lekérdezését. Csak olvasható [`ILayoutable`](../ilayoutable). |
-| [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | Lekérdezi a jelmagyarázat bejegyzéseit. Csak olvasható [`ILegendEntryCollection`](../ilegendentrycollection). |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | Lehetővé teszi a bázis IFormattedTextContainer interfész elérését. Csak olvasható [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | Lehetővé teszi a bázis ILayoutable interfész elérését. Csak olvasható [`ILayoutable`](../ilayoutable). |
+| [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | Visszaadja a jelmagyarázat bejegyzéseit. Csak olvasható [`ILegendEntryCollection`](../ilegendentrycollection). |
 | [Format](../../aspose.slides.charts/ilegend/format) { get; } | Visszaadja a jelmagyarázat formátumát. Csak olvasható [`IFormat`](../iformat). |
 | [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | Meghatározza, hogy a diagram egyéb elemei átfedhetik-e a jelmagyarázatot. Olvasás/írás Boolean. |
-| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Meghatározza a jelmagyarázat helyzetét a diagramon. A X, Y, Width, Heigt tulajdonságok nem-NaN értékei felülírják ennek a tulajdonságnak a hatását. Olvasás/írás [`LegendPositionType`](../legendpositiontype). |
+| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Meghatározza a jelmagyarázat pozícióját a diagramon. A X, Y, Width, Heigt tulajdonságok nem-NaN értékei felülírják ennek a tulajdonságnak a hatását. Olvasás/írás [`LegendPositionType`](../legendpositiontype). |
 
 ### Lásd még
 

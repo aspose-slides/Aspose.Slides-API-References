@@ -1,14 +1,14 @@
 ---
 title: ImageTransformOCollectionEffectiveData
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Oggetto immutabile che rappresenta una collezione di sola lettura di effetti di trasformazione immagine efficaci.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Oggetto immutabile che rappresenta una collezione di sola lettura di effetti di trasformazione immagine effettivi.
 type: docs
-weight: 3540
+weight: 3560
 url: /it/aspose.slides.effects/imagetransformocollectioneffectivedata/
 ---
 ## ImageTransformOCollectionEffectiveData classe
 
-Oggetto immutabile che rappresenta una collezione di sola lettura di effetti di trasformazione immagine efficaci.
+Oggetto immutabile che rappresenta una collezione di sola lettura di effetti di trasformazione immagine effettivi.
 
 ```csharp
 public class ImageTransformOCollectionEffectiveData : IImageTransformOCollectionEffectiveData
@@ -16,31 +16,31 @@ public class ImageTransformOCollectionEffectiveData : IImageTransformOCollection
 
 ## Costruttori
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [ImageTransformOCollectionEffectiveData](imagetransformocollectioneffectivedata)() | Il costruttore predefinito. |
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides.effects/imagetransformocollectioneffectivedata/count) { get; } | Restituisce il numero di effetti immagine in una collezione. Sola lettura Int32. |
-| [IsSynchronized](../../aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla collezione è sincronizzato (thread-safe). Sola lettura Boolean. |
+| [Count](../../aspose.slides.effects/imagetransformocollectioneffectivedata/count) { get; } | Restituisce il numero di effetti immagine in una collezione. Int32 di sola lettura. |
+| [IsSynchronized](../../aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla collezione è sincronizzato (thread-safe). Boolean di sola lettura. |
 | [Item](../../aspose.slides.effects/imagetransformocollectioneffectivedata/item) { get; } | Restituisce l'elemento per indice. |
-| [SyncRoot](../../aspose.slides.effects/imagetransformocollectioneffectivedata/syncroot) { get; } | Restituisce una radice di sincronizzazione. Sola lettura Object. |
+| [SyncRoot](../../aspose.slides.effects/imagetransformocollectioneffectivedata/syncroot) { get; } | Restituisce la radice di sincronizzazione. Object di sola lettura. |
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [CopyTo](../../aspose.slides.effects/imagetransformocollectioneffectivedata/copyto)(Array, int) | Copia tutti gli elementi della collezione nell'array specificato. |
+| [CopyTo](../../aspose.slides.effects/imagetransformocollectioneffectivedata/copyto)(Array, int) | Copia tutti gli elementi dalla collezione nell'array specificato. |
 | override [Equals](../../aspose.slides.effects/imagetransformocollectioneffectivedata/equals)(object) | Determina se l'oggetto specificato è uguale all'oggetto corrente. |
 | [GetEnumerator](../../aspose.slides.effects/imagetransformocollectioneffectivedata/getenumerator)() | Restituisce un enumeratore che itera attraverso la collezione. |
-| override [GetHashCode](../../aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode)() | Funge da funzione hash per un tipo particolare, adatta all'uso in algoritmi di hashing e strutture dati come una tabella hash. |
+| override [GetHashCode](../../aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode)() | Funge da funzione hash per un tipo specifico, adatta all'uso in algoritmi di hashing e strutture dati come una tabella hash. |
 
 ### Osservazioni
 
-Il nome IImageTransformOperationCollectionEffectiveData è stato troncato a IImageTransformOCollectionEffectiveData a causa della lunghezza massima dei nomi COM, che non può superare i 39 caratteri.
+Il nome IImageTransformOperationCollectionEffectiveData è stato troncato in IImageTransformOCollectionEffectiveData perché la lunghezza dei nomi COM non può superare i 39 caratteri.
 
 ### Vedi anche
 

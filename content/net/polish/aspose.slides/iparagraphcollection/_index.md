@@ -1,9 +1,9 @@
 ---
 title: IParagraphCollection
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
 description: Reprezentuje kolekcję akapitów.
 type: docs
-weight: 6550
+weight: 6570
 url: /pl/aspose.slides/iparagraphcollection/
 ---
 ## IParagraphCollection interfejs
@@ -20,7 +20,7 @@ public interface IParagraphCollection : IEnumerable<IParagraph>, ISlideComponent
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides/iparagraphcollection/asienumerable) { get; } | Zwraca interfejs IEnumerable. Tylko do odczytu IEnumerable. |
 | [AsISlideComponent](../../aspose.slides/iparagraphcollection/asislidecomponent) { get; } | Umożliwia pobranie podstawowego interfejsu ISlideComponent. Tylko do odczytu [`ISlideComponent`](../islidecomponent). |
-| [Count](../../aspose.slides/iparagraphcollection/count) { get; } | Zwraca liczbę elementów rzeczywiście zawartych w kolekcji. Tylko do odczytu Int32. |
+| [Count](../../aspose.slides/iparagraphcollection/count) { get; } | Zwraca liczbę elementów faktycznie zawartych w kolekcji. Tylko do odczytu Int32. |
 | [Item](../../aspose.slides/iparagraphcollection/item) { get; } | Zwraca element o określonym indeksie. |
 
 ## Metody
@@ -29,16 +29,16 @@ public interface IParagraphCollection : IEnumerable<IParagraph>, ISlideComponent
 | --- | --- |
 | [Add](../../aspose.slides/iparagraphcollection/add#add_1)(IParagraph) | Dodaje Paragraph na koniec kolekcji. |
 | [Add](../../aspose.slides/iparagraphcollection/add#add)(IParagraphCollection) | Dodaje zawartość ParagraphCollection na koniec kolekcji. |
-| [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml)(string) | Dodaje tekst z określonego ciągu HTML do kolekcji. |
-| [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | Dodaje tekst z określonego ciągu HTML do kolekcji. |
+| [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml)(string) | Dodaje tekst z określonego ciągu html do kolekcji. |
+| [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | Dodaje tekst z określonego ciągu html do kolekcji. |
 | [Clear](../../aspose.slides/iparagraphcollection/clear)() | Usuwa wszystkie elementy z kolekcji. |
-| [ExportToHtml](../../aspose.slides/iparagraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | Konwertuje określone paragrafy do HTML i zwraca je jako obiekt String. |
-| [Insert](../../aspose.slides/iparagraphcollection/insert#insert)(int, IParagraph) | Wstawia Paragraph do kolekcji w określonym indeksie. |
-| [Insert](../../aspose.slides/iparagraphcollection/insert#insert_1)(int, IParagraphCollection) | Wstawia zawartość ParagraphCollection do kolekcji w określonym indeksie. |
-| [Remove](../../aspose.slides/iparagraphcollection/remove)(IParagraph) | Usuwa pierwsze wystąpienie określonego paragrafu. |
+| [ExportToHtml](../../aspose.slides/iparagraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | Konwertuje określone akapity do HTML i zwraca je jako obiekt String. |
+| [Insert](../../aspose.slides/iparagraphcollection/insert#insert)(int, IParagraph) | Wstawia Paragraph do kolekcji pod określonym indeksem. |
+| [Insert](../../aspose.slides/iparagraphcollection/insert#insert_1)(int, IParagraphCollection) | Wstawia zawartość ParagraphCollection do kolekcji pod określonym indeksem. |
+| [Remove](../../aspose.slides/iparagraphcollection/remove)(IParagraph) | Usuwa pierwsze wystąpienie określonego akapitu. |
 | [RemoveAt](../../aspose.slides/iparagraphcollection/removeat)(int) | Usuwa element o określonym indeksie w kolekcji. |
 
-### Zobacz także
+### Zobacz też
 
 * interfejs [IParagraph](../iparagraph)
 * interfejs [ISlideComponent](../islidecomponent)

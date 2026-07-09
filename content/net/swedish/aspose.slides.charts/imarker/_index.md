@@ -3,12 +3,12 @@ title: IMarker
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en markör för ett diagram.
 type: docs
-weight: 2140
+weight: 2160
 url: /sv/aspose.slides.charts/imarker/
 ---
 ## IMarker gränssnitt
 
-Representerar en markör för ett diagram.
+Representerar markör för ett diagram.
 
 ```csharp
 public interface IMarker
@@ -18,11 +18,11 @@ public interface IMarker
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Format](../../aspose.slides.charts/imarker/format) { get; } | Hämtar markörens fyllning. Skrivskyddad [`IFormat`](../iformat). |
+| [Format](../../aspose.slides.charts/imarker/format) { get; } | Hämtar markörfyllnaden. Skrivskyddad [`IFormat`](../iformat). |
 | [Size](../../aspose.slides.charts/imarker/size) { get; set; } | Representerar markörens storlek i ett linjediagram, spridningsdiagram eller radardiagram. Läs/skriv Int32. |
 | [Symbol](../../aspose.slides.charts/imarker/symbol) { get; set; } | Representerar markörens stil i ett linjediagram, spridningsdiagram eller radardiagram. Läs/skriv [`MarkerStyleType`](../markerstyletype). |
 
-### Se även
+### Se också
 
 * namnrymd [Aspose.Slides.Charts](../../aspose.slides.charts)
 * samling [Aspose.Slides](../../)

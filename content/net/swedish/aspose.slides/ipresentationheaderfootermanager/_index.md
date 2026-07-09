@@ -1,14 +1,14 @@
 ---
 title: IPresentationHeaderFooterManager
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en manager som håller beteendet för alla sidfot-datum-tid- och sidnummer-platshållare i en presentation.
+description: Representerar en manager som hanterar beteendet för alla sidfot-datum-tid- och sidnummer-platshållare i en presentation.
 type: docs
-weight: 6760
+weight: 6780
 url: /sv/aspose.slides/ipresentationheaderfootermanager/
 ---
 ## IPresentationHeaderFooterManager gränssnitt
 
-Representerar en manager som håller beteendet för alla sidfot-, datum-tid- och sidnummer-platshållare i en presentation.
+Representerar en manager som har beteendet för alla sidfot-, datum-tid- och sidnummer-platshållare i en presentation.
 
 ```csharp
 public interface IPresentationHeaderFooterManager : IBaseHeaderFooterManager
@@ -16,24 +16,24 @@ public interface IPresentationHeaderFooterManager : IBaseHeaderFooterManager
 
 ## Egenskaper
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
 | [AsIBaseHeaderFooterManager](../../aspose.slides/ipresentationheaderfootermanager/asibaseheaderfootermanager) { get; } | Returnerar IBaseHeaderFooterManager gränssnitt. |
 
 ## Metoder
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
-| [SetAllDateTimesText](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimestext)(string) | Ställer in text för alla datum-tid-platshållare, inklusive masterbilder, layoutbilder och bilder. |
-| [SetAllDateTimesVisibility](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimesvisibility)(bool) | Ändrar synligheten för alla datum-tid-platshållare, inklusive masterbilder, layoutbilder och bilder. |
-| [SetAllFootersText](../../aspose.slides/ipresentationheaderfootermanager/setallfooterstext)(string) | Ställer in text för alla sidfot-platshållare, inklusive masterbilder, layoutbilder och bilder. |
-| [SetAllFootersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallfootersvisibility)(bool) | Ändrar synligheten för alla sidfot-platshållare, inklusive masterbilder, layoutbilder och bilder. |
-| [SetAllHeadersText](../../aspose.slides/ipresentationheaderfootermanager/setallheaderstext)(string) | Ställer in text för alla sidhuvud-platshållare, inklusive antecknings-master, antecknings-bilder och handout-master. |
-| [SetAllHeadersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallheadersvisibility)(bool) | Ändrar synligheten för alla sidhuvud-platshållare, inklusive antecknings-master, antecknings-bilder och handout-master. |
-| [SetAllSlideNumbersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Ändrar synligheten för alla sidnummer-platshållare, inklusive masterbilder, layoutbilder och bilder. |
-| [SetVisibilityOnAllTitleSlides](../../aspose.slides/ipresentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Ändrar synligheten för sidfot-, datum-tid- och sidnummer-platshållare för alla titelslides och för den första layout-sliden. Titelslides – bilder baserade på den första layout-sliden (oavsett vilken typ den första layouten har). |
+| [SetAllDateTimesText](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimestext)(string) | Ställer in text för alla datum-tid-platshållare, inklusive huvudsidor, layout-sidor och vanliga sidor. |
+| [SetAllDateTimesVisibility](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimesvisibility)(bool) | Ändrar synligheten för alla datum-tid-platshållare, inklusive huvudsidor, layout-sidor och vanliga sidor. |
+| [SetAllFootersText](../../aspose.slides/ipresentationheaderfootermanager/setallfooterstext)(string) | Ställer in text för alla sidfot-platshållare, inklusive huvudsidor, layout-sidor och vanliga sidor. |
+| [SetAllFootersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallfootersvisibility)(bool) | Ändrar synligheten för alla sidfot-platshållare, inklusive huvudsidor, layout-sidor och vanliga sidor. |
+| [SetAllHeadersText](../../aspose.slides/ipresentationheaderfootermanager/setallheaderstext)(string) | Ställer in text för alla sidhuvud-platshållare, inklusive not-mästare, not-sidor och handout-mästare. |
+| [SetAllHeadersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallheadersvisibility)(bool) | Ändrar synligheten för alla sidhuvud-platshållare, inklusive not-mästare, not-sidor och handout-mästare. |
+| [SetAllSlideNumbersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Ändrar synligheten för alla sidnummer-platshållare, inklusive huvudsidor, layout-sidor och vanliga sidor. |
+| [SetVisibilityOnAllTitleSlides](../../aspose.slides/ipresentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Ändrar synligheten för sidfot-, datum-tid- och sidnummer-platshållare för alla titelsidor och för den första layout-sidan. Titelsidor – sidor baserade på den första layout-sidan (oavsett typ av denna första layout). |
 
-### Se också
+### Se även
 
 * gränssnitt [IBaseHeaderFooterManager](../ibaseheaderfootermanager)
 * namnrymd [Aspose.Slides](../../aspose.slides)

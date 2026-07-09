@@ -1,9 +1,9 @@
 ---
 title: IThreeDParamSource
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Pomocniczy interfejs źródła właściwości 3D
 type: docs
-weight: 7330
+weight: 7350
 url: /pl/aspose.slides/ithreedparamsource/
 ---
 ## IThreeDParamSource interfejs

@@ -1,14 +1,14 @@
 ---
 title: BehaviorAdditiveType
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar additiv typ för effektbeteende.
+description: Representerar den additiva typen för effektbeteende.
 type: docs
-weight: 140
+weight: 160
 url: /sv/aspose.slides.animation/behavioradditivetype/
 ---
-## BehaviorAdditiveType uppräkning
+## BehaviorAdditiveType enumeration
 
-Representerar additive typ för effektbeteende.
+Representerar den additiva typen för effektbeteende.
 
 ```csharp
 public enum BehaviorAdditiveType

@@ -1,14 +1,14 @@
 ---
 title: IChartCellCollection
 second_title: Aspose.Sildes for .NET API リファレンス
-description: データを含むセルのコレクションを表します。
+description: データを持つセルのコレクションを表します。
 type: docs
-weight: 1760
+weight: 1780
 url: /ja/aspose.slides.charts/ichartcellcollection/
 ---
 ## IChartCellCollection インターフェイス
 
-データを含むセルのコレクションを表します。
+データを持つセルのコレクションを表します。
 
 ```csharp
 public interface IChartCellCollection : IEnumerable<IChartDataCell>
@@ -28,8 +28,8 @@ public interface IChartCellCollection : IEnumerable<IChartDataCell>
 | --- | --- |
 | [Add](../../aspose.slides.charts/ichartcellcollection/add#add)(IChartDataCell) | コレクションに新しいセルを追加します。 |
 | [Add](../../aspose.slides.charts/ichartcellcollection/add#add_1)(object) | 指定された値から [`IChartDataCell`](../ichartdatacell) を作成し、コレクションに追加します。 |
-| [GetCellsAddress](../../aspose.slides.charts/ichartcellcollection/getcellsaddress)() | ワークブック内のセル集合のアドレスを返します。 |
-| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | すべてのセルの string 値を連結した文字列を返します。 |
+| [GetCellsAddress](../../aspose.slides.charts/ichartcellcollection/getcellsaddress)() | ワークブック内のセルセットのアドレスを返します。 |
+| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | すべてのセルの文字列値を連結した文字列を返します。 |
 | [RemoveAt](../../aspose.slides.charts/ichartcellcollection/removeat)(int) | インデックスでコレクションからセルを削除します。 |
 
 ### 参照

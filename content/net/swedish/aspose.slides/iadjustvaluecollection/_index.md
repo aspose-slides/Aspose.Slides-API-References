@@ -1,14 +1,14 @@
 ---
 title: IAdjustValueCollection
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en samling av formjusteringar.
+description: Representerar en samling av figurjusteringar.
 type: docs
-weight: 5170
+weight: 5190
 url: /sv/aspose.slides/iadjustvaluecollection/
 ---
 ## IAdjustValueCollection gränssnitt
 
-Representerar en samling av formens justeringar.
+Representerar en samling av figurens justeringar.
 
 ```csharp
 public interface IAdjustValueCollection : ICollection
@@ -20,7 +20,7 @@ public interface IAdjustValueCollection : ICollection
 | --- | --- |
 | [AsICollection](../../aspose.slides/iadjustvaluecollection/asicollection) { get; } | Tillåter att hämta bas-ICollection-gränssnittet. Skrivskyddad ICollection. |
 | [AsIEnumerable](../../aspose.slides/iadjustvaluecollection/asienumerable) { get; } | Returnerar IEnumerable-gränssnittet. Skrivskyddad IEnumerable. |
-| [Item](../../aspose.slides/iadjustvaluecollection/item) { get; } | Returnerar justering efter index. |
+| [Item](../../aspose.slides/iadjustvaluecollection/item) { get; } | Returnerar justering enligt index. |
 
 ### Se även
 

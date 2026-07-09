@@ -14,18 +14,18 @@ OpenAI Web クライアントのインスタンスを作成します。
 public OpenAIWebClient(string model, string apiKey, string organizationId)
 ```
 
-| パラメーター | 型 | 説明 |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | model | String | OpenAI 言語モデル。可能な値: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
-| apiKey | String | OpenAI API キー |
-| organizationId | String | 組織 ID（オプション） |
+| apiKey | String | OpenAI API キー。 |
+| organizationId | String | 組織 ID（オプション）。 |
 
 ### 例外
 
 | 例外 | 条件 |
 | --- | --- |
-| ArgumentException | API キーの値は null または空にできません |
-| ArgumentException | テキストモデルの値は null または空にできません |
+| ArgumentException | API キーの値が null または空にできません。 |
+| ArgumentException | テキストモデルの値が null または空にできません。 |
 
 ### 参照
 
@@ -37,25 +37,26 @@ public OpenAIWebClient(string model, string apiKey, string organizationId)
 
 ## OpenAIWebClient(string, string, string, HttpClient) {#constructor_1}
 
-OpenAI Web クライアントのインスタンスを作成します。
+外部で管理されている HttpClient を使用する OpenAI Web クライアントのインスタンスを作成します。提供された HttpClient はこのインスタンスによって破棄されず、呼び出し元が所有し続けます。
 
 ```csharp
 public OpenAIWebClient(string model, string apiKey, string organizationId, HttpClient httpClient)
 ```
 
-| パラメーター | 型 | 説明 |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | model | String | OpenAI 言語モデル。可能な値: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
 | apiKey | String | OpenAI API キー |
 | organizationId | String | 組織 ID（オプション） |
-| httpClient | HttpClient | 外部で管理される `HttpClient` インスタンス。 |
+| httpClient | HttpClient | 外部で管理されている `HttpClient` インスタンス |
 
 ### 例外
 
 | 例外 | 条件 |
 | --- | --- |
-| ArgumentException | API キーの値は null または空にできません |
-| ArgumentException | テキストモデルの値は null または空にできません |
+| ArgumentException | API キーの値が null または空にできません |
+| ArgumentException | テキストモデルの値が null または空にできません |
+| ArgumentNullException | HttpClient が null にできません |
 
 ### 参照
 

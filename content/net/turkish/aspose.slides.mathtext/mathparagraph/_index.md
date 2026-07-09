@@ -1,9 +1,9 @@
 ---
 title: MathParagraph
-second_title: Aspose.Sildes for .NET API Referansı
-description: Matematik blokları için bir kapsayıcı olan matematiksel paragraf IMathBlock
+second_title: Aspose.Slides için .NET API Referansı
+description: Matematik blokları IMathBlock için bir kapsayıcı olan matematiksel paragraf
 type: docs
-weight: 8880
+weight: 8900
 url: /tr/aspose.slides.mathtext/mathparagraph/
 ---
 ## MathParagraph sınıfı
@@ -25,22 +25,22 @@ public class MathParagraph : IMathParagraph
 
 | Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides.mathtext/mathparagraph/count) { get; } | Koleksiyonda gerçekte bulunan öğelerin sayısını alır. Salt-okunur Int32. |
-| [Item](../../aspose.slides.mathtext/mathparagraph/item) { get; set; } | Belirtilen indeksteki öğeyi alır. Salt-okunur [`IMathBlock`](../imathblock). |
+| [Count](../../aspose.slides.mathtext/mathparagraph/count) { get; } | Koleksiyonda gerçekten bulunan öğe sayısını alır. Salt okunur Int32. |
+| [Item](../../aspose.slides.mathtext/mathparagraph/item) { get; set; } | Belirtilen indeksteki öğeyi alır. Salt okunur [`IMathBlock`](../imathblock). |
 | [Justification](../../aspose.slides.mathtext/mathparagraph/justification) { get; set; } | Paragraf Hizalama Varsayılan değer: CenteredAsGroup |
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | [Add](../../aspose.slides.mathtext/mathparagraph/add)(IMathBlock) | IMathBlock'u koleksiyonun sonuna ekler. |
 | [Clear](../../aspose.slides.mathtext/mathparagraph/clear)() | Koleksiyondaki tüm öğeleri kaldırır. |
 | [Contains](../../aspose.slides.mathtext/mathparagraph/contains)(IMathBlock) | Koleksiyonun belirli bir değeri içerip içermediğini belirler. |
-| [IndexOf](../../aspose.slides.mathtext/mathparagraph/indexof)(IMathBlock) | Koleksiyonda belirli bir IMathBlock'un indeksini belirler. |
-| [Insert](../../aspose.slides.mathtext/mathparagraph/insert)(int, IMathBlock) | IMathBlock'u koleksiyona belirtilen indekste ekler. |
-| [Remove](../../aspose.slides.mathtext/mathparagraph/remove)(IMathBlock) | Belirli bir nesnenin koleksiyondaki ilk oluşumunu kaldırır. |
-| [RemoveAt](../../aspose.slides.mathtext/mathparagraph/removeat)(int) | Koleksiyonun belirtilen indeksindeki öğeyi kaldırır. |
-| [ToLatex](../../aspose.slides.mathtext/mathparagraph/tolatex)() | Matematiksel denklemi LaTeX biçiminde alır. |
+| [IndexOf](../../aspose.slides.mathtext/mathparagraph/indexof)(IMathBlock) | Koleksiyondaki belirli bir IMathBlock'un indeksini belirler. |
+| [Insert](../../aspose.slides.mathtext/mathparagraph/insert)(int, IMathBlock) | Belirtilen indekste koleksiyona IMathBlock ekler. |
+| [Remove](../../aspose.slides.mathtext/mathparagraph/remove)(IMathBlock) | Koleksiyondan belirli bir nesnenin ilk oluşumunu kaldırır. |
+| [RemoveAt](../../aspose.slides.mathtext/mathparagraph/removeat)(int) | Koleksiyondaki belirtilen indeksteki öğeyi kaldırır. |
+| [ToLatex](../../aspose.slides.mathtext/mathparagraph/tolatex)() | Matematiksel denklemi LaTeX formatında alır. |
 | [WriteAsMathMl](../../aspose.slides.mathtext/mathparagraph/writeasmathml)(Stream) | Bu [`MathParagraph`](../mathparagraph) içeriğini MathML olarak kaydeder. |
 
 ### Örnekler

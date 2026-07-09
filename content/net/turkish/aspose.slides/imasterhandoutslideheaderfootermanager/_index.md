@@ -1,12 +1,12 @@
 ---
 title: IMasterHandoutSlideHeaderFooterManager
 second_title: Aspose.Sildes için .NET API Referansı
-description: Ana el ilanı slayt yer tutucularının davranışını tutan yöneticiyi temsil eder, başlık yer tutucusu dahil.
+description: Ana el ilanı slayt yer tutucularının davranışını tutan yöneticiyi, başlık yer tutucusu dahil, temsil eder.
 type: docs
-weight: 6340
+weight: 6360
 url: /tr/aspose.slides/imasterhandoutslideheaderfootermanager/
 ---
-## IMasterHandoutSlideHeaderFooterManager arayüz
+## IMasterHandoutSlideHeaderFooterManager arabirimi
 
 Ana el ilanı slayt yer tutucularının davranışını tutan yöneticiyi temsil eder, başlık yer tutucusu dahil.
 
@@ -18,11 +18,11 @@ public interface IMasterHandoutSlideHeaderFooterManager : IBaseHandoutNotesSlide
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasterhandoutslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | IBaseHandoutNotesSlideHeaderFooterManag arayüzünü döndürür. |
+| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasterhandoutslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Iade eder IBaseHandoutNotesSlideHeaderFooterManag arabirimi. |
 
-### Ayrıca bakınız
+### İlgili
 
-* arayüz [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
+* arabirim [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)
 

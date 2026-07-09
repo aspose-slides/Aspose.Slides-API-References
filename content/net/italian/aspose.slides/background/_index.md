@@ -1,14 +1,14 @@
 ---
 title: Background
-second_title: Aspose.Sildes per il riferimento API di .NET
-description: Rappresenta lo sfondo di una diapositiva.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta lo sfondo di una slide.
 type: docs
-weight: 910
+weight: 930
 url: /it/aspose.slides/background/
 ---
-## Classe Background
+## Background classe
 
-Rappresenta lo sfondo di una diapositiva.
+Rappresenta lo sfondo di una slide.
 
 ```csharp
 public sealed class Background : PVIObject, IBackground
@@ -16,20 +16,20 @@ public sealed class Background : PVIObject, IBackground
 
 ## Proprietà
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Solo lettura [`IPresentationComponent`](../ipresentationcomponent). |
-| [EffectFormat](../../aspose.slides/background/effectformat) { get; } | Restituisce un EffectFormat per il riempimento BackgroundType.OwnBackground. Solo lettura [`IEffectFormat`](../ieffectformat). |
-| [FillFormat](../../aspose.slides/background/fillformat) { get; } | Restituisce un FillFormat per il riempimento BackgroundType.OwnBackground. Solo lettura [`IFillFormat`](../ifillformat). |
-| [Presentation](../../aspose.slides/background/presentation) { get; } | Restituisce la presentazione principale di una diapositiva. Solo lettura [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/background/slide) { get; } | Restituisce la diapositiva principale di una forma. Solo lettura [`IBaseSlide`](../ibaseslide). |
-| [StyleColor](../../aspose.slides/background/stylecolor) { get; } | Restituisce un ColorFormat per un riempimento BackgroundType.Themed. Solo lettura [`IColorFormat`](../icolorformat). |
-| [StyleIndex](../../aspose.slides/background/styleindex) { get; set; } | Restituisce un indice del riempimento BackgroundType.Themed nella collezione del tema di sfondo. 0 indica nessun riempimento. 1..999 - indice. Lettura/scrittura UInt16. |
-| [Type](../../aspose.slides/background/type) { get; set; } | Restituisce un tipo di riempimento dello sfondo. Lettura/scrittura [`BackgroundType`](../backgroundtype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Sola lettura [`IPresentationComponent`](../ipresentationcomponent). |
+| [EffectFormat](../../aspose.slides/background/effectformat) { get; } | Restituisce un EffectFormat per il riempimento BackgroundType.OwnBackground. Sola lettura [`IEffectFormat`](../ieffectformat). |
+| [FillFormat](../../aspose.slides/background/fillformat) { get; } | Restituisce un FillFormat per il riempimento BackgroundType.OwnBackground. Sola lettura [`IFillFormat`](../ifillformat). |
+| [Presentation](../../aspose.slides/background/presentation) { get; } | Restituisce la presentazione padre di una slide. Sola lettura [`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/background/slide) { get; } | Restituisce la slide padre di una forma. Sola lettura [`IBaseSlide`](../ibaseslide). |
+| [StyleColor](../../aspose.slides/background/stylecolor) { get; } | Restituisce un ColorFormat per un riempimento BackgroundType.Themed. Sola lettura [`IColorFormat`](../icolorformat). |
+| [StyleIndex](../../aspose.slides/background/styleindex) { get; set; } | Restituisce un indice del riempimento BackgroundType.Themed nella raccolta del tema di sfondo. 0 indica nessun riempimento. 1..999 - indice. Lettura/scrittura UInt16. |
+| [Type](../../aspose.slides/background/type) { get; set; } | Restituisce un tipo di riempimento di sfondo. Lettura/scrittura [`BackgroundType`](../backgroundtype). |
 
 ## Metodi
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Confronta con l'oggetto specificato. |
 | [GetEffective](../../aspose.slides/background/geteffective)() | Ottiene i dati di sfondo effettivi con l'ereditarietà applicata. |

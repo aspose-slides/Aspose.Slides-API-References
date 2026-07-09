@@ -1,14 +1,14 @@
 ---
 title: IPieSplitCustomPointCollection
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en samling av punkter som ska ritas i den andra pajen eller stapeln i ett bar-of-pie- eller pie-of-pie-diagram med en anpassad delning.
+description: Representerar en samling av punkter som ska ritas i den andra pajen eller stapeln i ett bar-of-pie- eller pie-of-pie-diagram med en anpassad uppdelning.
 type: docs
-weight: 2170
+weight: 2190
 url: /sv/aspose.slides.charts/ipiesplitcustompointcollection/
 ---
 ## IPieSplitCustomPointCollection gränssnitt
 
-Representerar en samling punkter som ska ritas i den andra pajen eller stapeln i ett bar-of-pie- eller pie-of-pie-diagram med en anpassad delning.
+Representerar en samling av punkter som ska ritas i den andra pie eller bar på ett bar-of-pie eller pie-of-pie diagram med en custom split.
 
 ```csharp
 public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
@@ -18,17 +18,17 @@ public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.charts/ipiesplitcustompointcollection/asienumerable) { get; } | Returnerar IEnumerable-gränssnittet. |
+| [AsIEnumerable](../../aspose.slides.charts/ipiesplitcustompointcollection/asienumerable) { get; } | Returnerar IEnumerable gränssnitt. |
 | [Item](../../aspose.slides.charts/ipiesplitcustompointcollection/item) { get; } | Returnerar diagramdatapunkt efter index. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | Lägger till datapunkt efter dess index i föräldraserien punktsamling. |
-| [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | Tar bort objekt från samlingen efter dess index i föräldraserien punktsamling. |
+| [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | Lägger till datapunkt efter dess index i föräldra seriernas punktssamling. |
+| [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | Tar bort objekt från samlingen efter dess index i föräldra seriernas punktssamling. |
 
-### Se också
+### Se även
 
 * gränssnitt [IChartDataPoint](../ichartdatapoint)
 * namnrymd [Aspose.Slides.Charts](../../aspose.slides.charts)

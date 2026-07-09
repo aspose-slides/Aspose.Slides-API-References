@@ -3,7 +3,7 @@ title: ITextAnimationCollection
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en samling textanimationer.
 type: docs
-weight: 610
+weight: 630
 url: /sv/aspose.slides.animation/itextanimationcollection/
 ---
 ## ITextAnimationCollection gränssnitt
@@ -18,7 +18,7 @@ public interface ITextAnimationCollection : IGenericCollection<ITextAnimation>
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Item](../../aspose.slides.animation/itextanimationcollection/item) { get; } | Returnerar element efter index. (2 indexerare) |
+| [Item](../../aspose.slides.animation/itextanimationcollection/item) { get; } | Returnerar elementet efter index. (2 indexerare) |
 
 ### Se även
 

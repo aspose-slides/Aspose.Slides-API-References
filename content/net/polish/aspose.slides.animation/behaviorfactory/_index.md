@@ -1,9 +1,9 @@
 ---
 title: BehaviorFactory
-second_title: Aspose.Sildes dla .NET – Referencja API
+second_title: Aspose.Sildes – referencja API .NET
 description: Umożliwia tworzenie efektów animacji
 type: docs
-weight: 160
+weight: 180
 url: /pl/aspose.slides.animation/behaviorfactory/
 ---
 ## BehaviorFactory klasa
@@ -16,26 +16,26 @@ public class BehaviorFactory : IBehaviorFactory
 
 ## Konstruktory
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
 | [BehaviorFactory](behaviorfactory)() | Domyślny konstruktor. |
 
 ## Metody
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
 | [CreateColorEffect](../../aspose.slides.animation/behaviorfactory/createcoloreffect)() | Tworzy efekt koloru. |
 | [CreateCommandEffect](../../aspose.slides.animation/behaviorfactory/createcommandeffect)() | Tworzy efekt polecenia. |
-| [CreateFilterEffect](../../aspose.slides.animation/behaviorfactory/createfiltereffect)() | Tworzy efekt filtra. |
+| [CreateFilterEffect](../../aspose.slides.animation/behaviorfactory/createfiltereffect)() | Tworzy efekt filtru. |
 | [CreateMotionEffect](../../aspose.slides.animation/behaviorfactory/createmotioneffect)() | Tworzy efekt ruchu. |
-| [CreatePropertyEffect](../../aspose.slides.animation/behaviorfactory/createpropertyeffect)() | Tworzy efekt właściwości. |
+| [CreatePropertyEffect](../../aspose.slides.animation/behaviorfactory/createpropertyeffect)() | Tworzy efekt własności. |
 | [CreateRotationEffect](../../aspose.slides.animation/behaviorfactory/createrotationeffect)() | Tworzy efekt obrotu. |
 | [CreateScaleEffect](../../aspose.slides.animation/behaviorfactory/createscaleeffect)() | Tworzy efekt skalowania. |
-| [CreateSetEffect](../../aspose.slides.animation/behaviorfactory/createseteffect)() | Tworzy efekt ustawienia. |
+| [CreateSetEffect](../../aspose.slides.animation/behaviorfactory/createseteffect)() | Tworzy efekt zestawu. |
 
 ### Uwagi
 
-Dla zgodności z COM.
+Dla kompatybilności z COM.
 
 ### Zobacz także
 

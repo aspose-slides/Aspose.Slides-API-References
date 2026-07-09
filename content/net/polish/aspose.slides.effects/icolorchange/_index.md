@@ -1,9 +1,9 @@
 ---
 title: IColorChange
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – referencja API
 description: Reprezentuje efekt zmiany koloru. Instancje FromColor są zastępowane instancjami ToColor.
 type: docs
-weight: 3200
+weight: 3220
 url: /pl/aspose.slides.effects/icolorchange/
 ---
 ## IColorChange interfejs
@@ -14,7 +14,6 @@ Reprezentuje efekt zmiany koloru. Instancje FromColor są zastępowane instancja
 public interface IColorChange : IAccessiblePVIObject<IColorChangeEffectiveData>, 
     IImageTransformOperation
 ```
-
 
 ## Właściwości
 

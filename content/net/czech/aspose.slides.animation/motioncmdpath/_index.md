@@ -1,9 +1,9 @@
 ---
 title: MotionCmdPath
-second_title: Aspose.Sildes pro .NET - referenční příručka API
+second_title: Aspose.Sildes pro .NET – referenční příručka API
 description: Reprezentuje jeden příkaz cesty.
 type: docs
-weight: 630
+weight: 650
 url: /cs/aspose.slides.animation/motioncmdpath/
 ---
 ## MotionCmdPath třída
@@ -21,7 +21,7 @@ public class MotionCmdPath : IMotionCmdPath
 | [CommandType](../../aspose.slides.animation/motioncmdpath/commandtype) { get; set; } | Určuje typ příkazu. Čtení/zápis [`MotionCommandPathType`](../motioncommandpathtype). |
 | [IsRelative](../../aspose.slides.animation/motioncmdpath/isrelative) { get; set; } | Určuje, zda jsou souřadnice příkazu relativní nebo ne. Čtení/zápis Boolean. |
 | [Points](../../aspose.slides.animation/motioncmdpath/points) { get; set; } | Určuje body příkazu. Čtení/zápis PointF[]. |
-| [PointsType](../../aspose.slides.animation/motioncmdpath/pointstype) { get; set; } | Určuje typ bodů příkazu Čtení/zápis [`MotionPathPointsType`](../motionpathpointstype). |
+| [PointsType](../../aspose.slides.animation/motioncmdpath/pointstype) { get; set; } | Určuje typ bodů příkazu. Čtení/zápis [`MotionPathPointsType`](../motionpathpointstype). |
 
 ### Viz také
 

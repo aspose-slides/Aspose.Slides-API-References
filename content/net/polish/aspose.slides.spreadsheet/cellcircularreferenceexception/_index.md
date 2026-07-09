@@ -1,14 +1,14 @@
 ---
 title: CellCircularReferenceException
-second_title: Aspose.Sildes dla .NET - referencja API
-description: Wyjątek rzucany, gdy wykryte zostanie jedno lub więcej cyklicznych odwołań, w których formuła odwołuje się do własnej komórki bezpośrednio lub pośrednio.
+second_title: Aspose.Sildes dla .NET – referencja API
+description: Wyjątek zgłaszany, gdy wykryto jedną lub więcej odwołań cyklicznych, w których formuła odwołuje się do własnej komórki bezpośrednio lub pośrednio.
 type: docs
-weight: 10680
+weight: 10700
 url: /pl/aspose.slides.spreadsheet/cellcircularreferenceexception/
 ---
 ## CellCircularReferenceException klasa
 
-Wyjątek rzucany, gdy wykryte zostanie jedno lub więcej cyklicznych odwołań, w których formuła odwołuje się do własnej komórki bezpośrednio lub pośrednio.
+Wyjątek, który jest zgłaszany, gdy wykryto jedną lub więcej odwołań cyklicznych, w których formuła odwołuje się do własnej komórki bezpośrednio lub pośrednio.
 
 ```csharp
 public class CellCircularReferenceException : PptxEditException
@@ -19,15 +19,15 @@ public class CellCircularReferenceException : PptxEditException
 | Nazwa | Opis |
 | --- | --- |
 | [CellCircularReferenceException](cellcircularreferenceexception#constructor)() | Inicjalizuje nową instancję klasy [`CellCircularReferenceException`](../cellcircularreferenceexception). |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor_1)(string) | Inicjalizuje nową instancję klasy [`CellCircularReferenceException`](../cellcircularreferenceexception) z określonym komunikatem błędu. |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor_2)(string, Exception) | Inicjalizuje nową instancję klasy [`CellCircularReferenceException`](../cellcircularreferenceexception) z określonym komunikatem błędu i odwołaniem do wewnętrznego wyjątku, który jest przyczyną tego wyjątku. |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor_3)(string, string) | Inicjalizuje nową instancję klasy [`CellCircularReferenceException`](../cellcircularreferenceexception) z określonym komunikatem błędu i odniesieniem do cyklicznego odwołania komórki. |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor_1)(string) | Inicjalizuje nową instancję klasy [`CellCircularReferenceException`](../cellcircularreferenceexception) z określonym komunikatem o błędzie. |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor_2)(string, Exception) | Inicjalizuje nową instancję klasy [`CellCircularReferenceException`](../cellcircularreferenceexception) z określonym komunikatem o błędzie oraz odwołaniem do wewnętrznego wyjątku, który jest przyczyną tego wyjątku. |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor_3)(string, string) | Inicjalizuje nową instancję klasy [`CellCircularReferenceException`](../cellcircularreferenceexception) z określonym komunikatem o błędzie i odwołaniem do komórki cyklicznej. |
 
 ## Właściwości
 
 | Nazwa | Opis |
 | --- | --- |
-| [Reference](../../aspose.slides.spreadsheet/cellcircularreferenceexception/reference) { get; } | Zwraca odwołanie do cyklicznej komórki. |
+| [Reference](../../aspose.slides.spreadsheet/cellcircularreferenceexception/reference) { get; } | Zwraca odwołanie do komórki cyklicznej. |
 
 ### Zobacz także
 

@@ -1,14 +1,14 @@
 ---
 title: IBlobManagementOptions
 second_title: Aspose.Sildes per .NET Riferimento API
-description: Un Binary Large Object (BLOB) è un dato binario memorizzato come un'entità singola - cioè il BLOB può essere un audio, un video o la presentazione stessa. Diverse tecniche sono utilizzate per ottimizzare il consumo di memoria durante il lavoro con i BLOB, che sono già memorizzati nella presentazione o possono essere aggiunti successivamente in modo programmatico. Utilizzando IBlobManagementOptions./iblobmanagementoptions è possibile modificare diversi aspetti del comportamento nella gestione dei BLOB per la durata dell'istanza IPresentation./ipresentation.
+description: Un Binary Large Object (BLOB) è un dato binario memorizzato come un'unica entità, cioè il BLOB può essere un audio, un video o la presentazione stessa. Vengono utilizzate numerose tecniche per ottimizzare il consumo di memoria durante il lavoro con i BLOB, sia quando sono già memorizzati nella presentazione sia quando vengono aggiunti successivamente in modo programmatico. Utilizzando IBlobManagementOptions./iblobmanagementoptions è possibile modificare diversi aspetti del comportamento nella gestione dei BLOB per la durata dell'istanza IPresentation./ipresentation.
 type: docs
-weight: 5350
+weight: 5370
 url: /it/aspose.slides/iblobmanagementoptions/
 ---
 ## IBlobManagementOptions interfaccia
 
-A Binary Large Object (BLOB) is a binary data stored as a single entity - i.e. BLOB can be an audio, video or presentation itself. A number of techniques are used to optimize memory consumption while working with BLOBs - which was already stored in the presentation or be added later programmatically. Using [`IBlobManagementOptions`](../iblobmanagementoptions) you can change a different behavior aspects regarding BLOBs handling for the [`IPresentation`](../ipresentation) instance lifetime.
+Un Binary Large Object (BLOB) è un dato binario memorizzato come un'unica entità, ad esempio un BLOB può essere un audio, un video o una presentazione stessa. Vengono utilizzate numerose tecniche per ottimizzare il consumo di memoria durante il lavoro con i BLOB, sia quando sono già memorizzati nella presentazione sia quando vengono aggiunti successivamente in modo programmatico. Utilizzando [`IBlobManagementOptions`](../iblobmanagementoptions) è possibile modificare diversi aspetti del comportamento nella gestione dei BLOB per la durata dell'istanza [`IPresentation`](../ipresentation).
 
 ```csharp
 public interface IBlobManagementOptions
@@ -16,12 +16,12 @@ public interface IBlobManagementOptions
 
 ## Proprietà
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
 | [IsTemporaryFilesAllowed](../../aspose.slides/iblobmanagementoptions/istemporaryfilesallowed) { get; set; } | Questa proprietà definisce se è possibile creare file temporanei durante il lavoro con i BLOB, il che riduce notevolmente il consumo di memoria ma richiede i permessi per creare file. Tutti i file verranno eliminati al termine del lavoro con la presentazione. |
-| [MaxBlobsBytesInMemory](../../aspose.slides/iblobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Definisce la dimensione totale massima (in byte) che tutti i BLOB possono occupare in memoria. Per impostazione predefinita, tutti i BLOB vengono caricati in memoria; solo quando questo limite è raggiunto vengono utilizzati meccanismi alternativi (come i file temporanei). Mantenere i BLOB in memoria massimizza le prestazioni ma può comportare un elevato utilizzo di memoria. Usa questa proprietà per adattare il comportamento al tuo ambiente o ai requisiti. |
-| [PresentationLockingBehavior](../../aspose.slides/iblobmanagementoptions/presentationlockingbehavior) { get; set; } | Questa proprietà definisce se un'istanza della classe Presentation può essere proprietaria della sorgente — file o stream — durante la durata dell'istanza. Se l'istanza è proprietaria, blocca la sorgente. Questo aiuta a migliorare il consumo di memoria e le prestazioni durante il lavoro con i BLOB, ma la sorgente (stream o file) non può essere modificata durante la vita dell'istanza di Presentation. Questo è un esempio: |
-| [TempFilesRootPath](../../aspose.slides/iblobmanagementoptions/tempfilesrootpath) { get; set; } | Il percorso radice dove verranno creati i file temporanei. Per impostazione predefinita verrà utilizzata la directory temporanea di sistema. Il processo di hosting deve avere i permessi per creare file e cartelle in quella posizione. |
+| [MaxBlobsBytesInMemory](../../aspose.slides/iblobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Definisce la dimensione massima totale (in byte) che tutti i BLOB possono occupare in memoria. Per impostazione predefinita, tutti i BLOB sono caricati in memoria; solo quando questo limite è raggiunto vengono impiegati meccanismi alternativi (come i file temporanei). Mantenere i BLOB in memoria massimizza le prestazioni ma può comportare un elevato utilizzo della memoria. Utilizza questa proprietà per adattare il comportamento al tuo ambiente o ai requisiti. |
+| [PresentationLockingBehavior](../../aspose.slides/iblobmanagementoptions/presentationlockingbehavior) { get; set; } | Questa proprietà definisce se un'istanza della classe Presentation può essere proprietaria della sorgente – file o stream – durante la durata dell'istanza. Se l'istanza è proprietaria, blocca la sorgente. Questo aiuta a migliorare il consumo di memoria e le prestazioni durante il lavoro con i BLOB, ma la sorgente (stream o file) non può essere modificata durante la durata dell'istanza di Presentation. Questo è un esempio: |
+| [TempFilesRootPath](../../aspose.slides/iblobmanagementoptions/tempfilesrootpath) { get; set; } | Il percorso radice dove verranno creati i file temporanei. Per impostazione predefinita verrà utilizzata la directory temporanea di sistema. Il processo di hosting dovrebbe avere i permessi per creare file e cartelle in quella posizione. |
 
 ### Vedi anche
 

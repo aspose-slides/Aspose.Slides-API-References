@@ -1,28 +1,28 @@
 ---
 title: BehaviorFactory
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Memungkinkan membuat efek animasi
 type: docs
-weight: 160
+weight: 180
 url: /id/aspose.slides.animation/behaviorfactory/
 ---
-## BehaviorFactory kelas
+## Kelas BehaviorFactory
 
-Memungkinkan membuat efek animasi
+Mengizinkan membuat efek animasi
 
 ```csharp
 public class BehaviorFactory : IBehaviorFactory
 ```
 
-## Constructors
+## Konstruktor
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [BehaviorFactory](behaviorfactory)() | Konstruktor default. |
 
-## Methods
+## Metode
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [CreateColorEffect](../../aspose.slides.animation/behaviorfactory/createcoloreffect)() | Membuat efek warna. |
 | [CreateCommandEffect](../../aspose.slides.animation/behaviorfactory/createcommandeffect)() | Membuat efek perintah. |

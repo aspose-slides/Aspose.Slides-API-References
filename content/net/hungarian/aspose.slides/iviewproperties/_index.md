@@ -1,14 +1,14 @@
 ---
 title: IViewProperties
-second_title: Aspose.Sildes a .NET API hivatkozás
-description: Az egész prezentációra kiterjedő nézeti tulajdonságok.
+second_title: Aspose.Sildes a .NET API-referencia
+description: A prezentációra kiterjedő nézet tulajdonságok.
 type: docs
-weight: 7370
+weight: 7390
 url: /hu/aspose.slides/iviewproperties/
 ---
 ## IViewProperties interfész
 
-Az egész prezentációra kiterjedő nézeti tulajdonságok.
+Az egész prezentációra vonatkozó nézet tulajdonságok.
 
 ```csharp
 public interface IViewProperties
@@ -18,12 +18,12 @@ public interface IViewProperties
 
 | Név | Leírás |
 | --- | --- |
-| [GridSpacing](../../aspose.slides/iviewproperties/gridspacing) { get; set; } | Visszaadja vagy beállítja a prezentáció dokumentum alatti rács térközét pontban. Olvasás/írás Single. |
-| [LastView](../../aspose.slides/iviewproperties/lastview) { get; set; } | Megadja a nézet módot, amelyet a prezentációs dokumentum legutóbb mentésekor használtak. Olvasás/írás [`ViewType`](../viewtype). |
-| [NormalViewProperties](../../aspose.slides/iviewproperties/normalviewproperties) { get; } | Képviseli a normál nézet tulajdonságait. A normál nézet három tartalomterületből áll: a dia magjából, egy oldalsó tartalomterületből és egy alsó tartalomterületből. Csak olvasható [`INormalViewProperties`](../inormalviewproperties). |
-| [NotesViewProperties](../../aspose.slides/iviewproperties/notesviewproperties) { get; } | Megadja a jegyzet nézet módhoz kapcsolódó közös nézet tulajdonságait. Csak olvasható [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
-| [ShowComments](../../aspose.slides/iviewproperties/showcomments) { get; set; } | Megadja, hogy a dia megjegyzései megjelenjenek-e. Olvasás/írás [`NullableBool`](../nullablebool). |
-| [SlideViewProperties](../../aspose.slides/iviewproperties/slideviewproperties) { get; } | Megadja a dia nézet módhoz kapcsolódó közös nézet tulajdonságait. Csak olvasható [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [GridSpacing](../../aspose.slides/iviewproperties/gridspacing) { get; set; } | Visszaadja vagy beállítja a prezentációs dokumentum alapjául szolgáló rács távolságát pontban. Olvasás/írás Single. |
+| [LastView](../../aspose.slides/iviewproperties/lastview) { get; set; } | Meghatározza a nézetmódot, amelyet a prezentációs dokumentum legutóbb mentésekor használtak. Olvasás/írás [`ViewType`](../viewtype). |
+| [NormalViewProperties](../../aspose.slides/iviewproperties/normalviewproperties) { get; } | A normál nézet tulajdonságait képviseli. A normál nézet három tartalmi területből áll: a diából, egy oldalsó tartalmi területből és egy alsó tartalmi területből. Csak olvasható [`INormalViewProperties`](../inormalviewproperties). |
+| [NotesViewProperties](../../aspose.slides/iviewproperties/notesviewproperties) { get; } | Meghatározza a jegyzetek nézetmódhoz kapcsolódó közös nézet tulajdonságokat. Csak olvasható [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [ShowComments](../../aspose.slides/iviewproperties/showcomments) { get; set; } | Meghatározza, hogy a diák megjegyzései megjelenjenek-e. Olvasás/írás [`NullableBool`](../nullablebool). |
+| [SlideViewProperties](../../aspose.slides/iviewproperties/slideviewproperties) { get; } | Meghatározza a dia nézetmódhoz kapcsolódó közös nézet tulajdonságokat. Csak olvasható [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
 
 ### Lásd még
 

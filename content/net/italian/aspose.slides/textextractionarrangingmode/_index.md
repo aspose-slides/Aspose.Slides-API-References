@@ -1,9 +1,9 @@
 ---
 title: TextExtractionArrangingMode
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API di Aspose.Sildes per .NET
 description: Rappresenta la modalità da utilizzare durante l'estrazione del testo
 type: docs
-weight: 10920
+weight: 10940
 url: /it/aspose.slides/textextractionarrangingmode/
 ---
 ## TextExtractionArrangingMode enumerazione
@@ -18,7 +18,7 @@ public enum TextExtractionArrangingMode
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Unarranged | `0` | Il testo grezzo senza alcun rispetto per la posizione sulla diapositiva |
+| Unarranged | `0` | Il testo grezzo senza considerare la posizione nella diapositiva |
 | Arranged | `1` | Il testo è posizionato nello stesso ordine della diapositiva |
 
 ### Vedi anche

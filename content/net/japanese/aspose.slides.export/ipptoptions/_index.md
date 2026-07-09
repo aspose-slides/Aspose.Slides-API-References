@@ -1,14 +1,14 @@
 ---
 title: IPptOptions
-second_title: Aspose.Sildes for .NET API リファレンス
-description: プレゼンテーションを PPT 形式で保存する方法を制御するオプションを提供します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: プレゼンテーションが PPT 形式で保存される方法を制御するオプションを提供します。
 type: docs
-weight: 3990
+weight: 4010
 url: /ja/aspose.slides.export/ipptoptions/
 ---
 ## IPptOptions インターフェイス
 
-プレゼンテーションを PPT 形式で保存する方法を制御するオプションを提供します。
+プレゼンテーションが PPT 形式で保存される方法を制御するオプションを提供します。
 
 ```csharp
 public interface IPptOptions : ISaveOptions
@@ -18,10 +18,10 @@ public interface IPptOptions : ISaveOptions
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ipptoptions/asisaveoptions) { get; } | ISaveOptions インターフェイスを返します。読み取り専用 [`ISaveOptions`](../isaveoptions)。 |
-| [RootDirectoryClsid](../../aspose.slides.export/ipptoptions/rootdirectoryclsid) { get; set; } | ルート ディレクトリエントリに格納されるオブジェクト クラス GUID (CLSID) を表します。ドキュメントのアプリケーションの COM アクティベーションに使用できます。デフォルト値は '64818D11-4F9B-11CF-86EA-00AA00B929E8' で、'Microsoft Powerpoint.Slide.8' に対応しています。 |
+| [AsISaveOptions](../../aspose.slides.export/ipptoptions/asisaveoptions) { get; } | ISaveOptions インターフェイスを返します。 読み取り専用 [`ISaveOptions`](../isaveoptions)。 |
+| [RootDirectoryClsid](../../aspose.slides.export/ipptoptions/rootdirectoryclsid) { get; set; } | オブジェクトクラス GUID (CLSID) を表します。この GUID はルート ディレクトリ エントリに格納されます。ドキュメントのアプリケーションの COM アクティベーションに使用できます。デフォルト値は '64818D11-4F9B-11CF-86EA-00AA00B929E8' で、'Microsoft Powerpoint.Slide.8' に対応しています。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [ISaveOptions](../isaveoptions)
 * 名前空間 [Aspose.Slides.Export](../../aspose.slides.export)

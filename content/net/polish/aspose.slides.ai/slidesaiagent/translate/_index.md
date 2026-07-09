@@ -1,6 +1,6 @@
 ---
 title: Translate
-second_title: Aspose.Sildes dla .NET referencja API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Tłumaczy prezentację na określony język przy użyciu AI w wersji synchronicznej.
 type: docs
 weight: 40
@@ -16,15 +16,23 @@ public void Translate(IPresentation presentation, string language)
 
 | Parametr | Typ | Opis |
 | --- | --- | --- |
-| presentation | IPresentation | Docelowa prezentacja |
-| language | String | Docelowy język |
+| presentation | IPresentation | Prezentacja docelowa |
+| language | String | Język docelowy |
 
 ### Wyjątki
 
 | wyjątek | warunek |
 | --- | --- |
-| ArgumentNullException | Instancja prezentacji nie została podana |
-| ArgumentException | Wartość języka nie może być null ani pusta |
+| ArgumentNullException | Nie podano instancji Presentation |
+| ArgumentException | Wartość Language nie może być pusta ani null |
+
+### Uwagi
+
+Poniższy przykład używa domyślnego [`AsposeAIWebClient`](../../asposeaiwebclient), który jest tworzony przez konstruktor [`SlidesAIAgent`](../slidesaiagent) bez parametrów i łączy się z własnym LLM firmy Aspose. Aby użyć innego dostawcy AI, dostarcz własny LLM lub dostosuj połączenie (na przykład, podając własny `HttpClient`), przekaż implementację [`IAIWebClient`](../../iaiwebclient) do konstruktora [`SlidesAIAgent`](../slidesaiagent). Dostępne implementacje to:
+
+* [`AsposeAIWebClient`](../../asposeaiwebclient)
+* [`OpenAIWebClient`](../../openaiwebclient)
+* [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
 
 ### Zobacz także
 

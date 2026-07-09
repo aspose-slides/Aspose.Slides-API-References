@@ -1,14 +1,14 @@
 ---
 title: SplitterBarStateType
 second_title: Aspose.Sildes pro .NET API Reference
-description: Určuje stav, ve kterém by měl být splitter bar zobrazen. Splitter bar odděluje primární a sekundární oblast v rámci zobrazovací oblasti.
+description: Určuje stav, ve kterém by měl být splitter bar zobrazen. Splitter bar odděluje primární a sekundární oblast v rámci zobrazovací plochy.
 type: docs
-weight: 10670
+weight: 10690
 url: /cs/aspose.slides/splitterbarstatetype/
 ---
-## SplitterBarStateType enumerace
+## SplitterBarStateType výčet
 
-Určuje stav, ve kterém by měl být splitter bar zobrazen. Splitter bar odděluje primární a sekundární oblast v rámci zobrazovací oblasti.
+Určuje stav, ve kterém by měl být splitter bar zobrazen. Splitter bar odděluje primární a sekundární oblast v rámci zobrazovací plochy.
 
 ```csharp
 public enum SplitterBarStateType
@@ -18,9 +18,9 @@ public enum SplitterBarStateType
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| Minimized | `0` | Primární oblast zabírá nejmenší část zobrazovací oblasti povolenou aplikací. |
-| Restored | `1` | Primární oblast má specifickou střední velikost. |
-| Maximized | `2` | Primární oblast zabírá největší část zobrazovací oblasti povolenou aplikací. |
+| Minimized | `0` | Primární oblast zabírá nejmenší část zobrazovací plochy povolené aplikací. |
+| Restored | `1` | Primární oblast má konkrétní střední velikost. |
+| Maximized | `2` | Primární oblast zabírá největší část zobrazovací plochy povolené aplikací. |
 
 ### Viz také
 

@@ -1,14 +1,14 @@
 ---
 title: IChartDataPointLevelsManager
-second_title: Aspose.Sildes の .NET API リファレンス
-description: データポイントレベルのコンテナです。Treeamp および Sunburst 系列に適用されます。データポイントレベルのインデックスはゼロベースです。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: データ ポイント レベルのコンテナです。Treeamp および Sunburst 系列に適用されます。データ ポイント レベルのインデックスはゼロベースです。
 type: docs
-weight: 1830
+weight: 1850
 url: /ja/aspose.slides.charts/ichartdatapointlevelsmanager/
 ---
 ## IChartDataPointLevelsManager インターフェイス
 
-データポイントレベルのコンテナです。Treeamp および Sunburst 系列に適用されます。データポイントレベルのインデックスはゼロベースです。
+データ ポイント レベルのコンテナです。Treeamp および Sunburst 系列に適用されます。データ ポイント レベルのインデックスはゼロベースです。
 
 ```csharp
 public interface IChartDataPointLevelsManager
@@ -18,7 +18,7 @@ public interface IChartDataPointLevelsManager
 
 | 名前 | 説明 |
 | --- | --- |
-| [Count](../../aspose.slides.charts/ichartdatapointlevelsmanager/count) { get; } | データポイントレベルの数を返します。 |
+| [Count](../../aspose.slides.charts/ichartdatapointlevelsmanager/count) { get; } | データ ポイント レベルの数を返します。 |
 | [Item](../../aspose.slides.charts/ichartdatapointlevelsmanager/item) { get; } | 定義されたレベルの IChartDataPointLevel オブジェクトを返します。 |
 
 ### 参照

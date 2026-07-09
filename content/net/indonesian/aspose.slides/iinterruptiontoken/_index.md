@@ -1,9 +1,9 @@
 ---
 title: IInterruptionToken
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Kelas ini mewakili token yang digunakan untuk memberi sinyal pada tugas yang berjalan lama apakah interupsi diminta.
 type: docs
-weight: 6170
+weight: 6190
 url: /id/aspose.slides/iinterruptiontoken/
 ---
 ## IInterruptionToken antarmuka
@@ -24,7 +24,7 @@ public interface IInterruptionToken
 
 | Nama | Deskripsi |
 | --- | --- |
-| [ThrowIfInterruptionRequested](../../aspose.slides/iinterruptiontoken/throwifinterruptionrequested)() | Melempar OperationCanceledException jika interupsi diminta. Dilemparkan ketika interupsi diminta. |
+| [ThrowIfInterruptionRequested](../../aspose.slides/iinterruptiontoken/throwifinterruptionrequested)() | Melempar OperationCanceledException jika interupsi diminta. Dilempar ketika interupsi diminta. |
 
 ### Lihat Juga
 

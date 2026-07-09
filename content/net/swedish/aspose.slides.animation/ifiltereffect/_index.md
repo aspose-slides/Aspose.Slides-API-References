@@ -3,12 +3,12 @@ title: IFilterEffect
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar filtereffekt av beteende.
 type: docs
-weight: 480
+weight: 500
 url: /sv/aspose.slides.animation/ifiltereffect/
 ---
-## IFilterEffect gränssnitt
+## IFilterEffect-gränssnitt
 
-Representerar filtereffekt av beteende.
+Representerar filtereffekten av beteende.
 
 ```csharp
 public interface IFilterEffect : IBehavior
@@ -19,11 +19,11 @@ public interface IFilterEffect : IBehavior
 | Namn | Beskrivning |
 | --- | --- |
 | [AsIBehavior](../../aspose.slides.animation/ifiltereffect/asibehavior) { get; } | Tillåter att hämta bas-IBehavior-gränssnittet. Skrivskyddad [`IBehavior`](../ibehavior). |
-| [Reveal](../../aspose.slides.animation/ifiltereffect/reveal) { get; set; } | Representerar att effekten med beteende måste avslöja (in/out) Läs/skriv [`FilterEffectRevealType`](../filtereffectrevealtype). |
+| [Reveal](../../aspose.slides.animation/ifiltereffect/reveal) { get; set; } | Representerar att effekten med beteende måste avslöjas (in/out) Läs/skriv [`FilterEffectRevealType`](../filtereffectrevealtype). |
 | [Subtype](../../aspose.slides.animation/ifiltereffect/subtype) { get; set; } | Representerar undertyp av filtereffekt. Läs/skriv [`FilterEffectSubtype`](../filtereffectsubtype). |
 | [Type](../../aspose.slides.animation/ifiltereffect/type) { get; set; } | Representerar typ av filtereffekt. Läs/skriv [`FilterEffectType`](../filtereffecttype). |
 
-### Se också
+### Se även
 
 * gränssnitt [IBehavior](../ibehavior)
 * namnrymd [Aspose.Slides.Animation](../../aspose.slides.animation)

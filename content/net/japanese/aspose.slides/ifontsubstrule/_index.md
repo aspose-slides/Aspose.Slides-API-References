@@ -3,7 +3,7 @@ title: IFontSubstRule
 second_title: Aspose.Sildes for .NET API リファレンス
 description: フォント置換情報を表します
 type: docs
-weight: 5860
+weight: 5880
 url: /ja/aspose.slides/ifontsubstrule/
 ---
 ## IFontSubstRule インターフェイス
@@ -18,11 +18,11 @@ public interface IFontSubstRule
 
 | 名前 | 説明 |
 | --- | --- |
-| [DestFont](../../aspose.slides/ifontsubstrule/destfont) { get; } | 置換に使用するフォント 読み取り専用 [`IFontData`](../ifontdata). |
-| [ReplaceFontCondition](../../aspose.slides/ifontsubstrule/replacefontcondition) { get; } | 置換に適用するルール 読み取り専用 [`FontSubstCondition`](../fontsubstcondition). |
-| [SourceFont](../../aspose.slides/ifontsubstrule/sourcefont) { get; } | 置換するフォント 読み取り専用 [`IFontData`](../ifontdata). |
+| [DestFont](../../aspose.slides/ifontsubstrule/destfont) { get; } | 置換に使用するフォント 読み取り専用 [`IFontData`](../ifontdata)。 |
+| [ReplaceFontCondition](../../aspose.slides/ifontsubstrule/replacefontcondition) { get; } | 置換に適用するルール 読み取り専用 [`FontSubstCondition`](../fontsubstcondition)。 |
+| [SourceFont](../../aspose.slides/ifontsubstrule/sourcefont) { get; } | 置換するフォント 読み取り専用 [`IFontData`](../ifontdata)。 |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

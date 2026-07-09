@@ -1,14 +1,14 @@
 ---
 title: IMathElementCollection
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili kumpulan elemen matematis MathElement.
+description: Mewakili koleksi elemen matematika MathElement.
 type: docs
-weight: 8220
+weight: 8240
 url: /id/aspose.slides.mathtext/imathelementcollection/
 ---
 ## IMathElementCollection antarmuka
 
-Mewakili koleksi elemen matematis (MathElement).
+Represents a collection of mathematical elements (MathElement).
 
 ```csharp
 public interface IMathElementCollection : IEnumerable<IMathElement>
@@ -16,24 +16,24 @@ public interface IMathElementCollection : IEnumerable<IMathElement>
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.mathtext/imathelementcollection/asienumerable) { get; } | Mengembalikan antarmuka IEnumerable. Hanya baca IEnumerable. |
-| [Count](../../aspose.slides.mathtext/imathelementcollection/count) { get; } | Mendapatkan jumlah elemen yang sebenarnya terdapat dalam koleksi. Hanya baca Int32. |
-| [Item](../../aspose.slides.mathtext/imathelementcollection/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. Hanya baca [`IMathElement`](../imathelement). |
+| [AsIEnumerable](../../aspose.slides.mathtext/imathelementcollection/asienumerable) { get; } | Mengembalikan antarmuka IEnumerable. hanya-baca IEnumerable. |
+| [Count](../../aspose.slides.mathtext/imathelementcollection/count) { get; } | Mendapatkan jumlah elemen yang sebenarnya terdapat dalam koleksi. Int32 hanya-baca. |
+| [Item](../../aspose.slides.mathtext/imathelementcollection/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. hanya-baca [`IMathElement`](../imathelement). |
 
 ## Metode
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [Add](../../aspose.slides.mathtext/imathelementcollection/add)(IMathElement) | Menambahkan elemen matematika ke akhir koleksi. |
 | [Clear](../../aspose.slides.mathtext/imathelementcollection/clear)() | Menghapus semua elemen dari koleksi. |
 | [Contains](../../aspose.slides.mathtext/imathelementcollection/contains)(IMathElement) | Menentukan apakah koleksi berisi nilai tertentu. |
 | [CopyTo](../../aspose.slides.mathtext/imathelementcollection/copyto)(IMathElement[], int) | Menyalin ke array yang ditentukan. |
-| [IndexOf](../../aspose.slides.mathtext/imathelementcollection/indexof)(IMathElement) | Menentukan indeks dari elemen matematika tertentu dalam koleksi. |
+| [IndexOf](../../aspose.slides.mathtext/imathelementcollection/indexof)(IMathElement) | Menentukan indeks elemen matematika tertentu dalam koleksi. |
 | [Insert](../../aspose.slides.mathtext/imathelementcollection/insert)(int, IMathElement) | Menyisipkan elemen matematika ke dalam koleksi pada indeks yang ditentukan. |
-| [Remove](../../aspose.slides.mathtext/imathelementcollection/remove)(IMathElement) | Menghapus kemunculan pertama dari objek tertentu dari koleksi. |
-| [RemoveAt](../../aspose.slides.mathtext/imathelementcollection/removeat)(int) | Menghapus elemen pada indeks yang ditentukan dari koleksi. |
+| [Remove](../../aspose.slides.mathtext/imathelementcollection/remove)(IMathElement) | Menghapus kejadian pertama dari objek tertentu dalam koleksi. |
+| [RemoveAt](../../aspose.slides.mathtext/imathelementcollection/removeat)(int) | Menghapus elemen pada indeks yang ditentukan dalam koleksi. |
 
 ### Contoh
 

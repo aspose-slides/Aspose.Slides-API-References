@@ -1,14 +1,14 @@
 ---
 title: PptUnsupportedFormatException
 second_title: Aspose.Sildes for .NET API リファレンス
-description: プレゼンテーション ファイル形式がサポートされていない場合にスローされる例外です。
+description: プレゼンテーション ファイル形式がサポートされていない場合にスローされる例外。
 type: docs
-weight: 9520
+weight: 9540
 url: /ja/aspose.slides/pptunsupportedformatexception/
 ---
 ## PptUnsupportedFormatException クラス
 
-プレゼンテーション ファイル形式がサポートされていない場合にスローされる例外です。
+プレゼンテーション ファイル形式がサポートされていない場合にスローされる例外。
 
 ```csharp
 public class PptUnsupportedFormatException : PptReadException
@@ -20,7 +20,7 @@ public class PptUnsupportedFormatException : PptReadException
 | --- | --- |
 | [PptUnsupportedFormatException](pptunsupportedformatexception#constructor)() | デフォルトコンストラクタ。 |
 | [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_1)(string) | この例外にメッセージを追加できるコンストラクタ。 |
-| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_2)(string, Exception) | メッセージと埋め込み例外を含む例外用のコンストラクタ。 |
+| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_2)(string, Exception) | メッセージと内部例外を含む例外用のコンストラクタ。 |
 
 ### 参照
 

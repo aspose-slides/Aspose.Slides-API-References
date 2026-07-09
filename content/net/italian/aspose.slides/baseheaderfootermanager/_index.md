@@ -1,14 +1,14 @@
 ---
 title: BaseHeaderFooterManager
 second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta il manager che mantiene il comportamento dei segnaposto di piè di pagina, data-ora e numero di pagina per tutti i tipi di diapositiva.
+description: Rappresenta il manager che mantiene il comportamento dei segnaposto di piè di pagina, data-ora e numero di pagina per tutti i tipi di slide.
 type: docs
-weight: 940
+weight: 960
 url: /it/aspose.slides/baseheaderfootermanager/
 ---
 ## BaseHeaderFooterManager classe
 
-Rappresenta il manager che mantiene il comportamento del segnaposto di piè di pagina, data-ora e numero di pagina per tutti i tipi di diapositiva.
+Rappresenta il manager che mantiene il comportamento dei segnaposto di piè di pagina, data-ora e numero di pagina per tutti i tipi di slide.
 
 ```csharp
 public abstract class BaseHeaderFooterManager : IBaseHeaderFooterManager

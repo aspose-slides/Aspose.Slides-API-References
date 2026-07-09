@@ -1,14 +1,14 @@
 ---
 title: IBulletFormatEffectiveData
-second_title: Aspose.Sildes a .NET API hivatkozáshoz
-description: Változtathatatlan objektum, amely a bekezdés tényleges felsorolásformázási tulajdonságait tartalmazza.
+second_title: Aspose.Sildes .NET API referenciája
+description: Megváltoztathatatlan objektum, amely hatékony bekezdés bullet formázási tulajdonságait tartalmaz.
 type: docs
-weight: 5380
+weight: 5400
 url: /hu/aspose.slides/ibulletformateffectivedata/
 ---
 ## IBulletFormatEffectiveData interfész
 
-Változtathatatlan objektum, amely a bekezdés tényleges felsorolásformázási tulajdonságait tartalmazza.
+Megváltoztathatatlan objektum, amely hatékony bekezdés felsorolás formázási tulajdonságokat tartalmaz.
 
 ```csharp
 public interface IBulletFormatEffectiveData
@@ -16,22 +16,22 @@ public interface IBulletFormatEffectiveData
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
 | [ActualBulletValue](../../aspose.slides/ibulletformateffectivedata/actualbulletvalue) { get; } | Visszaadja a szülő bekezdés tényleges felsorolásértékét. Csak olvasható String. |
-| [Char](../../aspose.slides/ibulletformateffectivedata/char) { get; } | Visszaadja a bekezdés felsorolás karakterét. Csak olvasható Char. |
-| [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | Visszaadja a bekezdés felsorolás kitöltési formátumát. Csak olvasható [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
-| [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | Visszaadja a bekezdés felsorolás betűtípusát. Csak olvasható [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | Visszaadja a bekezdés felsorolás magasságát. Csak olvasható Single. |
-| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | Megállapítja, hogy a felsorolásnak van-e saját színe, vagy örökli azt a bekezdés első részétől. **true** értéket ad vissza, ha a felsorolásnak saját színe van, és **false** értéket, ha a felsorolás a bekezdés első részétől örökli a színt. Csak olvasható Boolean. |
-| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | Megállapítja, hogy a felsorolásnak van-e saját betűtípusa, vagy örökli azt a bekezdés első részétől. **true** értéket ad vissza, ha a felsorolásnak saját betűtípusa van, és **true** értéket, ha a felsorolás a bekezdés első részétől örökli a betűtípust. Csak olvasható Boolean. |
-| [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | Visszaadja az első számot, amely a számozott felsorolások csoportjában használatos. Csak olvasható Int16. |
-| [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | Visszaadja a számozott felsorolás stílusát. Csak olvasható [`NumberedBulletStyle`](../numberedbulletstyle). |
-| [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | Visszaadja a bekezdés felsorolás típusát. Csak olvasható [`BulletType`](../bullettype). |
+| [Char](../../aspose.slides/ibulletformateffectivedata/char) { get; } | Visszaadja egy bekezdés felsorolás karakterét. Csak olvasható Char. |
+| [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | Visszaadja egy bekezdés felsorolás kitöltési formátumát. Csak olvasható [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | Visszaadja egy bekezdés felsorolás betűtípusát. Csak olvasható [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | Visszaadja egy bekezdés felsorolás magasságát. Csak olvasható Single. |
+| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | Megállapítja, hogy a felsorolás saját színnel rendelkezik-e, vagy a bekezdés első szakaszától örökli azt. **true** értéket ad, ha a felsorolás saját színnel bír, és **false** értéket, ha a felsorolás a bekezdés első szakaszától örökli a színt. Csak olvasható Boolean. |
+| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | Megállapítja, hogy a felsorolás saját betűtípussal rendelkezik-e, vagy a bekezdés első szakaszától örökli azt. **true** értéket ad, ha a felsorolás saját betűtípussal bír, és **true** értéket, ha a felsorolás a bekezdés első szakaszától örökli a betűtípust. Csak olvasható Boolean. |
+| [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | Visszaadja az első számot, amely a számozott felsorolások csoportjához van használva. Csak olvasható Int16. |
+| [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | Visszaadja egy számozott felsorolás stílusát. Csak olvasható [`NumberedBulletStyle`](../numberedbulletstyle). |
+| [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | Visszaadja egy bekezdés felsorolás típusát. Csak olvasható [`BulletType`](../bullettype). |
 
-### Megjegyzések
+### Megjegyzés
 
-Ez az interfész a [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) részeként használatos.
+Ez az interfész a(z) [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) részeként használatos.
 
 ### Lásd még
 

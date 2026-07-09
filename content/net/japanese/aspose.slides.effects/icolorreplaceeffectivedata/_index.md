@@ -1,14 +1,14 @@
 ---
 title: IColorReplaceEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
-description: カラー置換効果を表す不変オブジェクトです。すべての効果色は固定色に変更されます。アルファ値は影響を受けません。
+description: カラー置換エフェクトを表すイミュータブルオブジェクトです。すべてのエフェクトカラーは固定色に変更されます。アルファ値は影響を受けません。
 type: docs
-weight: 3230
+weight: 3250
 url: /ja/aspose.slides.effects/icolorreplaceeffectivedata/
 ---
 ## IColorReplaceEffectiveData インターフェイス
 
-カラー置換効果を表す不変オブジェクトです。すべての効果カラーは固定カラーに変更されます。アルファ値は影響を受けません。
+カラー置換エフェクトを表すイミュータブルオブジェクトです。すべてのエフェクトカラーは固定色に変更されます。アルファ値は影響を受けません。
 
 ```csharp
 public interface IColorReplaceEffectiveData : IEffectEffectiveData
@@ -18,8 +18,8 @@ public interface IColorReplaceEffectiveData : IEffectEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorreplaceeffectivedata/asieffecteffectivedata) { get; } | ベースの IEffectEffectiveData インターフェイスを取得できます。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
-| [Color](../../aspose.slides.effects/icolorreplaceeffectivedata/color) { get; } | 各ピクセルの色を置換するカラー形式を返します。読み取り専用 Color. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorreplaceeffectivedata/asieffecteffectivedata) { get; } | ベース IEffectEffectiveData インターフェイスを取得できます。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
+| [Color](../../aspose.slides.effects/icolorreplaceeffectivedata/color) { get; } | すべてのピクセルの色を置き換えるカラーフォーマットを返します。読み取り専用 Color。 |
 
 ### 参照
 

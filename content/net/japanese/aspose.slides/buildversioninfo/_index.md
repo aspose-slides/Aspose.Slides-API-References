@@ -1,9 +1,9 @@
 ---
 title: BuildVersionInfo
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: Aspose.Slides のバージョンに関する情報を含みます。
 type: docs
-weight: 1040
+weight: 1060
 url: /ja/aspose.slides/buildversioninfo/
 ---
 ## BuildVersionInfo クラス
@@ -19,8 +19,8 @@ public static class BuildVersionInfo
 | 名前 | 説明 |
 | --- | --- |
 | const [AssemblyVersion](../../aspose.slides/buildversioninfo/assemblyversion) | Aspose.Slides アセンブリのバージョンです。 |
-| const [FileVersion](../../aspose.slides/buildversioninfo/fileversion) | アセンブリファイルのバージョンです。 |
-| const [Product](../../aspose.slides/buildversioninfo/product) | Aspose.Slides の製品名です |
+| const [FileVersion](../../aspose.slides/buildversioninfo/fileversion) | アセンブリ ファイルのバージョンです。 |
+| const [Product](../../aspose.slides/buildversioninfo/product) | Aspose.Slides の製品名です。 |
 | const [ProductMajor](../../aspose.slides/buildversioninfo/productmajor) | メジャーバージョン番号です。 |
 | const [ProductMinor](../../aspose.slides/buildversioninfo/productminor) | マイナーバージョン番号です。 |
 | static readonly [ReleaseDate](../../aspose.slides/buildversioninfo/releasedate) | アセンブリのリリース日です。 |

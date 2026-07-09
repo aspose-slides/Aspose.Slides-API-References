@@ -1,9 +1,9 @@
 ---
 title: IColumnCollection
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili koleksi kolom dalam sebuah tabel.
 type: docs
-weight: 5510
+weight: 5530
 url: /id/aspose.slides/icolumncollection/
 ---
 ## IColumnCollection antarmuka
@@ -18,7 +18,7 @@ public interface IColumnCollection : IGenericCollection<IColumn>
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Item](../../aspose.slides/icolumncollection/item) { get; } | Mengembalikan kolom pada indeks yang ditentukan. Baca-saja [`IColumn`](../icolumn). |
+| [Item](../../aspose.slides/icolumncollection/item) { get; } | Mengembalikan kolom pada indeks yang ditentukan. Hanya-baca [`IColumn`](../icolumn). |
 
 ## Metode
 

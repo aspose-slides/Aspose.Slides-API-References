@@ -1,12 +1,12 @@
 ---
 title: ITiming
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta il timing dell'animazione.
 type: docs
-weight: 620
+weight: 640
 url: /it/aspose.slides.animation/itiming/
 ---
-## Interfaccia ITiming
+## ITiming interfaccia
 
 Rappresenta il timing dell'animazione.
 
@@ -18,23 +18,23 @@ public interface ITiming
 
 | Nome | Descrizione |
 | --- | --- |
-| [Accelerate](../../aspose.slides.animation/itiming/accelerate) { get; set; } | Descrive la percentuale dell'effetto di accelerazione della durata. Lettura/scrittura Single. |
-| [AutoReverse](../../aspose.slides.animation/itiming/autoreverse) { get; set; } | Descrive se riprodurre automaticamente l'animazione al contrario dopo averla riprodotta nella direzione avanti. Lettura/scrittura Boolean. |
-| [Decelerate](../../aspose.slides.animation/itiming/decelerate) { get; set; } | Descrive la percentuale dell'effetto di decelerazione della durata. Lettura/scrittura Single. |
-| [Duration](../../aspose.slides.animation/itiming/duration) { get; set; } | Descrive la durata dell'effetto di animazione. Lettura/scrittura Single. |
-| [RepeatCount](../../aspose.slides.animation/itiming/repeatcount) { get; set; } | Descrive il numero di volte in cui l'effetto deve ripetersi. Lettura/scrittura Single. |
-| [RepeatDuration](../../aspose.slides.animation/itiming/repeatduration) { get; set; } | Descrive il numero di volte in cui l'effetto deve ripetersi. Lettura/scrittura Single. |
-| [RepeatUntilEndSlide](../../aspose.slides.animation/itiming/repeatuntilendslide) { get; set; } | Questo attributo specifica se l'effetto si ripeterà fino alla fine della diapositiva. Lettura/scrittura Boolean. |
-| [RepeatUntilNextClick](../../aspose.slides.animation/itiming/repeatuntilnextclick) { get; set; } | Questo attributo specifica se l'effetto si ripeterà fino al prossimo clic. Lettura/scrittura Boolean. |
-| [Restart](../../aspose.slides.animation/itiming/restart) { get; set; } | Specifica se un effetto deve riavviarsi dopo il completamento. Lettura/scrittura [`EffectRestartType`](../effectrestarttype). |
-| [Rewind](../../aspose.slides.animation/itiming/rewind) { get; set; } | Questo attributo specifica se l'effetto tornerà indietro al termine della riproduzione. Lettura/scrittura Boolean. |
-| [Speed](../../aspose.slides.animation/itiming/speed) { get; set; } | Specifica la percentuale con cui accelerare (o rallentare) il timing. Lettura/scrittura Single. |
-| [TriggerDelayTime](../../aspose.slides.animation/itiming/triggerdelaytime) { get; set; } | Descrive il tempo di ritardo dopo il trigger. Lettura/scrittura Single. |
-| [TriggerType](../../aspose.slides.animation/itiming/triggertype) { get; set; } | Descrive il tipo di trigger. Lettura/scrittura [`EffectTriggerType`](../effecttriggertype). |
+| [Accelerate](../../aspose.slides.animation/itiming/accelerate) { get; set; } | Descrive la percentuale di durata dell'effetto di accelerazione. Lettura/Scrittura Single. |
+| [AutoReverse](../../aspose.slides.animation/itiming/autoreverse) { get; set; } | Descrive se riprodurre automaticamente l'animazione al contrario dopo averla riprodotta in avanti. Lettura/Scrittura Boolean. |
+| [Decelerate](../../aspose.slides.animation/itiming/decelerate) { get; set; } | Descrive la percentuale di durata dell'effetto di decelerazione. Lettura/Scrittura Single. |
+| [Duration](../../aspose.slides.animation/itiming/duration) { get; set; } | Descrive la durata dell'effetto di animazione. Lettura/Scrittura Single. |
+| [RepeatCount](../../aspose.slides.animation/itiming/repeatcount) { get; set; } | Descrive il numero di volte in cui l'effetto deve essere ripetuto. Lettura/Scrittura Single. |
+| [RepeatDuration](../../aspose.slides.animation/itiming/repeatduration) { get; set; } | Descrive il numero di volte in cui l'effetto deve essere ripetuto. Lettura/Scrittura Single. |
+| [RepeatUntilEndSlide](../../aspose.slides.animation/itiming/repeatuntilendslide) { get; set; } | Questo attributo specifica se l'effetto verrà ripetuto fino alla fine della diapositiva. Lettura/Scrittura Boolean. |
+| [RepeatUntilNextClick](../../aspose.slides.animation/itiming/repeatuntilnextclick) { get; set; } | Questo attributo specifica se l'effetto verrà ripetuto fino al prossimo clic. Lettura/Scrittura Boolean. |
+| [Restart](../../aspose.slides.animation/itiming/restart) { get; set; } | Specifica se un effetto deve ricominciare dopo il completamento. Lettura/Scrittura [`EffectRestartType`](../effectrestarttype). |
+| [Rewind](../../aspose.slides.animation/itiming/rewind) { get; set; } | Questo attributo specifica se l'effetto verrà riportato all'inizio una volta terminata la riproduzione. Lettura/Scrittura Boolean. |
+| [Speed](../../aspose.slides.animation/itiming/speed) { get; set; } | Specifica la percentuale di accelerazione (o rallentamento) del timing. Lettura/Scrittura Single. |
+| [TriggerDelayTime](../../aspose.slides.animation/itiming/triggerdelaytime) { get; set; } | Descrive il tempo di ritardo dopo il trigger. Lettura/Scrittura Single. |
+| [TriggerType](../../aspose.slides.animation/itiming/triggertype) { get; set; } | Descrive il tipo di trigger. Lettura/Scrittura [`EffectTriggerType`](../effecttriggertype). |
 
 ### Vedi anche
 
-* Namespace [Aspose.Slides.Animation](../../aspose.slides.animation)
-* Assembly [Aspose.Slides](../../)
+* spazio dei nomi [Aspose.Slides.Animation](../../aspose.slides.animation)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

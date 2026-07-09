@@ -1,14 +1,14 @@
 ---
 title: TextVerticalType
 second_title: Aspose.Sildes pro .NET API Reference
-description: Určuje režim svislého zápisu textu.
+description: Určuje vertikální režim zápisu textu.
 type: docs
-weight: 11010
+weight: 11030
 url: /cs/aspose.slides/textverticaltype/
 ---
-## TextVerticalType výčet
+## Výčet TextVerticalType
 
-Určuje režim svislého zápisu textu.
+Určuje vertikální režim zápisu textu.
 
 ```csharp
 public enum TextVerticalType : sbyte

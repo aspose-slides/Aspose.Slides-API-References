@@ -3,12 +3,12 @@ title: Camera
 second_title: Aspose.Sildes için .NET API Referansı
 description: Camera'yı temsil eder.
 type: docs
-weight: 1070
+weight: 1090
 url: /tr/aspose.slides/camera/
 ---
 ## Camera sınıfı
 
-Camera'yı temsil eder.
+Camera’yı temsil eder.
 
 ```csharp
 public sealed class Camera : PVIObject, ICamera
@@ -16,21 +16,21 @@ public sealed class Camera : PVIObject, ICamera
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Açıklama |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almayı sağlar. Yalnızca okuma [`IPresentationComponent`](../ipresentationcomponent). |
-| [CameraType](../../aspose.slides/camera/cameratype) { get; set; } | Kamera türü. Okuma/yazma [`CameraPresetType`](../camerapresettype). |
-| [FieldOfViewAngle](../../aspose.slides/camera/fieldofviewangle) { get; set; } | Kamera FOV (0-180 derece, görüş alanı). Okuma/yazma Single. |
-| [Zoom](../../aspose.slides/camera/zoom) { get; set; } | Kamera yakınlaştırması (yüzde olarak pozitif değer). Okuma/yazma Single. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almaya izin verir. Salt okunur [`IPresentationComponent`](../ipresentationcomponent). |
+| [CameraType](../../aspose.slides/camera/cameratype) { get; set; } | Camera tipi. Okunur/yazılabilir [`CameraPresetType`](../camerapresettype). |
+| [FieldOfViewAngle](../../aspose.slides/camera/fieldofviewangle) { get; set; } | Camera FOV (0-180 deg, field of View). Okunur/yazılabilir Single. |
+| [Zoom](../../aspose.slides/camera/zoom) { get; set; } | Camera zoom (positive value in percentage). Okunur/yazılabilir Single. |
 
 ## Yöntemler
 
-| Ad | Açıklama |
+| Name | Açıklama |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Belirtilen nesneyle karşılaştırır. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Karma kodu döndürür. |
-| [GetRotation](../../aspose.slides/camera/getrotation)() | Dönme, enlem koordinatı, boylam koordinatı ve eksen etrafındaki bir devrim kullanılarak tanımlanır. Döndürme dizisinin ilk öğesi – enlem, ikinci – boylam, üçüncü – devrim. Tanımlı bir döndürme yoksa null döndürür. |
-| [SetRotation](../../aspose.slides/camera/setrotation)(float, float, float) | Dönme, enlem koordinatı, boylam koordinatı ve eksen etrafındaki bir devrim kullanılarak tanımlanır. Koordinat değerlerinden biri float.NaN ise, tüm dönme tanımsızdır. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Hash kodunu döndürür. |
+| [GetRotation](../../aspose.slides/camera/getrotation)() | Bir dönüş, enlem koordinatı, boylam koordinatı ve eksen etrafında enlem ve boylam koordinatları olarak bir devrim kullanılarak tanımlanır. Dönen dizinin ilk elemanı - enlem, ikinci - boylam, üçüncü - devrim. Tanımlı dönüş yoksa null döndürür. |
+| [SetRotation](../../aspose.slides/camera/setrotation)(float, float, float) | Bir dönüş, enlem koordinatı, boylam koordinatı ve eksen etrafında enlem ve boylam koordinatları olarak bir devrim kullanılarak tanımlanır. Eğer herhangi bir koordinat değeri float.NaN ise, tüm dönüş tanımsızdır. |
 
 ### Ayrıca Bakınız
 

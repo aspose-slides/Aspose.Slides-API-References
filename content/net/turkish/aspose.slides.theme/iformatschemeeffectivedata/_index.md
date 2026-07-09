@@ -1,33 +1,33 @@
 ---
 title: IFormatSchemeEffectiveData
-second_title: Aspose.Sildes for .NET API Referansı
-description: Etkili biçim şeması özelliklerini içeren değiştirilemez nesne.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Etkili format şeması özelliklerini içeren değişmez nesne.
 type: docs
-weight: 11260
+weight: 11280
 url: /tr/aspose.slides.theme/iformatschemeeffectivedata/
 ---
 ## IFormatSchemeEffectiveData arayüz
 
-Etkili biçim şeması özelliklerini içeren değiştirilemez nesne.
+Etkili format şeması özelliklerini içeren değişmez nesne.
 
 ```csharp
 public interface IFormatSchemeEffectiveData
 ```
 
-## Yöntemler
+## Metotlar
 
 | Ad | Açıklama |
 | --- | --- |
-| [GetBackgroundFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles)(Color) | Tema tarafından tanımlanan arka plan doldurma stillerinin bir koleksiyonunu döndürür. |
+| [GetBackgroundFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles)(Color) | Tema tarafından tanımlanan arka plan dolgu stillerinin bir koleksiyonunu döndürür. |
 | [GetEffectStyles](../../aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles)(Color) | Tema tarafından tanımlanan efekt stillerinin bir koleksiyonunu döndürür. |
-| [GetFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getfillstyles)(Color) | Tema tarafından tanımlanan doldurma stillerinin bir koleksiyonunu döndürür. |
+| [GetFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getfillstyles)(Color) | Tema tarafından tanımlanan dolgu stillerinin bir koleksiyonunu döndürür. |
 | [GetLineStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getlinestyles)(Color) | Tema tarafından tanımlanan çizgi stillerinin bir koleksiyonunu döndürür. |
 
 ### Açıklamalar
 
-Bu arayüz [`IThemeEffectiveData`](../ithemeeffectivedata) adlı yapının bir parçası olarak kullanılır.
+Bu arayüz, [`IThemeEffectiveData`](../ithemeeffectivedata)'ın bir parçası olarak kullanılır.
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.Theme](../../aspose.slides.theme)
 * derleme [Aspose.Slides](../../)

@@ -1,9 +1,9 @@
 ---
 title: EffectFactory
 second_title: Aspose.Sildes for .NET API リファレンス
-description: エフェクトの作成を可能にします
+description: エフェクトを作成できます
 type: docs
-weight: 2950
+weight: 2970
 url: /ja/aspose.slides.effects/effectfactory/
 ---
 ## EffectFactory クラス
@@ -41,7 +41,7 @@ public class EffectFactory : IEffectFactory
 
 COM 互換性のためです。
 
-### 参照
+### 関連項目
 
 * インターフェイス [IEffectFactory](../ieffectfactory)
 * 名前空間 [Aspose.Slides.Effects](../../aspose.slides.effects)

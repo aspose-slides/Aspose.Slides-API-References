@@ -1,15 +1,14 @@
 ---
 title: IMotionPath
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje dráhu pohybu.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Reprezentuje pohybovou dráhu.
 type: docs
-weight: 510
+weight: 530
 url: /cs/aspose.slides.animation/imotionpath/
 ---
-
 ## IMotionPath rozhraní
 
-Reprezentuje trajektorii pohybu.
+Reprezentuje pohybovou dráhu.
 
 ```csharp
 public interface IMotionPath : IEnumerable<IMotionCmdPath>
@@ -27,9 +26,9 @@ public interface IMotionPath : IEnumerable<IMotionCmdPath>
 
 | Název | Popis |
 | --- | --- |
-| [Add](../../aspose.slides.animation/imotionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Přidá nový příkaz do cesty |
+| [Add](../../aspose.slides.animation/imotionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Přidá nový příkaz do dráhy |
 | [Clear](../../aspose.slides.animation/imotionpath/clear)() | Odstraní všechny příkazy ze sbírky. |
-| [Insert](../../aspose.slides.animation/imotionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Vloží nový příkaz do cesty |
+| [Insert](../../aspose.slides.animation/imotionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Vloží nový příkaz do dráhy |
 | [Remove](../../aspose.slides.animation/imotionpath/remove)(IMotionCmdPath) | Odstraní specifikované příkazy ze sbírky. |
 | [RemoveAt](../../aspose.slides.animation/imotionpath/removeat)(int) | Odstraní příkaz na zadaném indexu. |
 

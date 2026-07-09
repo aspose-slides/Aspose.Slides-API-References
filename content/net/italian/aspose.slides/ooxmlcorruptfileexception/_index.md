@@ -1,14 +1,14 @@
 ---
 title: OOXMLCorruptFileException
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Eccezione lanciata quando il formato del file Office Open XML è corrotto.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Eccezione lanciata quando il formato di file Office Open XML è corrotto.
 type: docs
-weight: 9170
+weight: 9190
 url: /it/aspose.slides/ooxmlcorruptfileexception/
 ---
 ## OOXMLCorruptFileException classe
 
-Eccezione lanciata quando il formato del file Office Open XML è corrotto.
+Eccezione lanciata quando il formato di file Office Open XML è corrotto.
 
 ```csharp
 public class OOXMLCorruptFileException : OOXMLException

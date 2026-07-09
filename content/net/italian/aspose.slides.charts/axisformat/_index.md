@@ -1,14 +1,14 @@
 ---
 title: AxisFormat
-second_title: Riferimento API di Aspose.Sildes per .NET
-description: Rappresenta le proprietà di formattazione del grafico.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta le proprietà di formato del grafico.
 type: docs
-weight: 1180
+weight: 1200
 url: /it/aspose.slides.charts/axisformat/
 ---
 ## AxisFormat classe
 
-Rappresenta le proprietà di formattazione del grafico.
+Rappresenta le proprietà di formato del grafico.
 
 ```csharp
 public sealed class AxisFormat : DomObject<Axis>, IAxisFormat
@@ -18,9 +18,9 @@ public sealed class AxisFormat : DomObject<Axis>, IAxisFormat
 
 | Nome | Descrizione |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/axisformat/effect) { get; } | Restituisce gli effetti utilizzati per un asse. Solo lettura [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Fill](../../aspose.slides.charts/axisformat/fill) { get; } | Restituisce le proprietà di stile di riempimento di un asse. Solo lettura [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [Line](../../aspose.slides.charts/axisformat/line) { get; } | Restituisce le proprietà di stile della linea di un asse. Solo lettura [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/axisformat/effect) { get; } | Restituisce gli effetti usati per un asse. Sola lettura [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Fill](../../aspose.slides.charts/axisformat/fill) { get; } | Restituisce le proprietà di stile di riempimento di un asse. Sola lettura [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Line](../../aspose.slides.charts/axisformat/line) { get; } | Restituisce le proprietà di stile di linea di un asse. Sola lettura [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### Vedi anche
 

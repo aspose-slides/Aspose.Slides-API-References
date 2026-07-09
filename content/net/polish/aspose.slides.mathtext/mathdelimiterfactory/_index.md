@@ -1,14 +1,14 @@
 ---
 title: MathDelimiterFactory
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Umożliwia tworzenie delimitera matematycznego
+second_title: Aspose.Sildes dla .NET - odniesienie API
+description: Umożliwia tworzenie ogranicznika matematycznego
 type: docs
-weight: 8640
+weight: 8660
 url: /pl/aspose.slides.mathtext/mathdelimiterfactory/
 ---
 ## MathDelimiterFactory klasa
 
-Umożliwia tworzenie delimitera matematycznego
+Umożliwia tworzenie ogranicznika matematycznego
 
 ```csharp
 public class MathDelimiterFactory : IMathDelimiterFactory
@@ -18,20 +18,20 @@ public class MathDelimiterFactory : IMathDelimiterFactory
 
 | Nazwa | Opis |
 | --- | --- |
-| [MathDelimiterFactory](mathdelimiterfactory)() | Konstruktor domyślny. |
+| [MathDelimiterFactory](mathdelimiterfactory)() | Domyślny konstruktor. |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | Utwórz delimiter matematyczny, stosując do elementu |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | Utwórz delimiter matematyczny, stosując do kolekcji elementów |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | Tworzy ogranicznik matematyczny poprzez zastosowanie do elementu |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | Tworzy ogranicznik matematyczny poprzez zastosowanie do elementu |
 
 ### Uwagi
 
 Dla kompatybilności z COM
 
-### Zobacz również
+### Zobacz także
 
 * interfejs [IMathDelimiterFactory](../imathdelimiterfactory)
 * przestrzeń nazw [Aspose.Slides.MathText](../../aspose.slides.mathtext)

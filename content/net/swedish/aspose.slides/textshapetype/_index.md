@@ -1,14 +1,14 @@
 ---
 title: TextShapeType
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar textomslagningsform.
+description: Representerar textbrytningsform.
 type: docs
-weight: 10960
+weight: 10980
 url: /sv/aspose.slides/textshapetype/
 ---
-## TextShapeType enumeration
+## TextShapeType uppräkning
 
-Representerar textomslagningsform.
+Representerar textbrytningsform.
 
 ```csharp
 public enum TextShapeType : sbyte
@@ -16,46 +16,46 @@ public enum TextShapeType : sbyte
 
 ### Värden
 
-| Name | Value | Description |
+| Namn | Värde | Beskrivning |
 | --- | --- | --- |
-| NotDefined | `-1` | Ej definierad |
+| NotDefined | `-1` | Inte definierad |
 | None | `0` | Ingen form |
-| Plain | `1` | Vanlig |
+| Plain | `1` | Enkel |
 | Stop | `2` | Stoppskylt |
 | Triangle | `3` | Triangel |
-| TriangleInverted | `4` | Inverterad triangel |
+| TriangleInverted | `4` | Omvänd triangel |
 | Chevron | `5` | Chevron |
-| ChevronInverted | `6` | Inverterad Chevron |
-| RingInside | `7` | Innerring |
-| RingOutside | `8` | Utomring |
-| ArchUp | `9` | Uppåtbåge |
-| ArchDown | `10` | Nedåtbåge |
+| ChevronInverted | `6` | Omvänd chevron |
+| RingInside | `7` | Inre ring |
+| RingOutside | `8` | Yttre ring |
+| ArchUp | `9` | Uppåtböjd båge |
+| ArchDown | `10` | Nedåtböjd båge |
 | Circle | `11` | Cirkel |
 | Button | `12` | Knapp |
-| ArchUpPour | `13` | Uppåtbåge med hällning |
-| ArchDownPour | `14` | Nedåtbåge med hällning |
-| CirclePour | `15` | Cirkel med hällning |
-| ButtonPour | `16` | Knapp med hällning |
+| ArchUpPour | `13` | Uppåtpåfyllningsbåge |
+| ArchDownPour | `14` | Nedåtpåfyllningsbåge |
+| CirclePour | `15` | Cirkelpåfyllning |
+| ButtonPour | `16` | Knapppåfyllning |
 | CurveUp | `17` | Uppåtkurva |
 | CurveDown | `18` | Nedåtkurva |
-| CanUp | `19` | Uppåtkann |
-| CanDown | `20` | Nedåtkann |
+| CanUp | `19` | Uppåtkanna |
+| CanDown | `20` | Nedåtkanna |
 | Wave1 | `21` | Våg 1 |
 | Wave2 | `22` | Våg 2 |
 | DoubleWave1 | `23` | Dubbel våg 1 |
 | Wave4 | `24` | Våg 4 |
-| Inflate | `25` | Blåsa upp |
-| Deflate | `26` | Blåsa ner |
-| InflateBottom | `27` | Nedre blåsa upp |
-| DeflateBottom | `28` | Nedre blåsa ner |
-| InflateTop | `29` | Övre blåsa upp |
-| DeflateTop | `30` | Övre blåsa ner |
-| DeflateInflate | `31` | Blåsa ner-upp |
-| DeflateInflateDeflate | `32` | Blåsa ner-upp-ned |
-| FadeRight | `33` | Höger toning |
-| FadeLeft | `34` | Vänster toning |
-| FadeUp | `35` | Uppåtoning |
-| FadeDown | `36` | Nedåtoning |
+| Inflate | `25` | Öka |
+| Deflate | `26` | Minska |
+| InflateBottom | `27` | Bottenökning |
+| DeflateBottom | `28` | Bottenminskning |
+| InflateTop | `29` | Toppökning |
+| DeflateTop | `30` | Toppminskning |
+| DeflateInflate | `31` | Minska-Öka |
+| DeflateInflateDeflate | `32` | Minska-Öka-Minska |
+| FadeRight | `33` | Höger tona ut |
+| FadeLeft | `34` | Vänster tona ut |
+| FadeUp | `35` | Uppåttona ut |
+| FadeDown | `36` | Nedåttona ut |
 | SlantUp | `37` | Uppåtlutning |
 | SlantDown | `38` | Nedåtlutning |
 | CascadeUp | `39` | Uppåtkaskad |

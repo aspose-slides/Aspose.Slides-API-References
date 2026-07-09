@@ -1,14 +1,14 @@
 ---
 title: IPropertyEffect
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili perilaku efek properti.
 type: docs
-weight: 540
+weight: 560
 url: /id/aspose.slides.animation/ipropertyeffect/
 ---
 ## IPropertyEffect antarmuka
 
-Mewakili perilaku efek properti.
+Represent property effect behavior.
 
 ```csharp
 public interface IPropertyEffect : IBehavior
@@ -23,7 +23,7 @@ public interface IPropertyEffect : IBehavior
 | [CalcMode](../../aspose.slides.animation/ipropertyeffect/calcmode) { get; set; } | Menentukan mode interpolasi untuk animasi Baca/tulis [`PropertyCalcModeType`](../propertycalcmodetype). |
 | [From](../../aspose.slides.animation/ipropertyeffect/from) { get; set; } | Menentukan nilai awal animasi. Baca/tulis String. |
 | [Points](../../aspose.slides.animation/ipropertyeffect/points) { get; set; } | Menentukan titik-titik animasi. Baca/tulis [`IPointCollection`](../ipointcollection). |
-| [To](../../aspose.slides.animation/ipropertyeffect/to) { get; set; } | Menentukan nilai akhir animasi. Baca/tulis String. |
+| [To](../../aspose.slides.animation/ipropertyeffect/to) { get; set; } | Menentukan nilai akhir untuk animasi. Baca/tulis String. |
 | [ValueType](../../aspose.slides.animation/ipropertyeffect/valuetype) { get; set; } | Menentukan tipe nilai properti. Baca/tulis [`PropertyValueType`](../propertyvaluetype). |
 
 ### Lihat Juga

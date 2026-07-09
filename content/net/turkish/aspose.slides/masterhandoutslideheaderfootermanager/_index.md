@@ -1,14 +1,14 @@
 ---
 title: MasterHandoutSlideHeaderFooterManager
 second_title: Aspose.Sildes için .NET API Referansı
-description: Başlık yer tutucusu dahil master handout slayt yer tutucularının davranışını tutan yöneticiyi temsil eder.
+description: Üst bilgi yer tutucusunu da içeren ana el ilanı slaytı yer tutucularının davranışını tutan yöneticiyi temsil eder.
 type: docs
-weight: 7970
+weight: 7990
 url: /tr/aspose.slides/masterhandoutslideheaderfootermanager/
 ---
-## MasterHandoutSlideHeaderFooterManager sınıf
+## MasterHandoutSlideHeaderFooterManager sınıfı
 
-Master handout slayt yer tutucularının davranışını, başlık yer tutucusu dahil tutan yöneticiyi temsil eder.
+Üst bilgi yer tutucusunu da içeren ana el ilanı slaytı yer tutucularının davranışını tutan yöneticiyi temsil eder.
 
 ```csharp
 public class MasterHandoutSlideHeaderFooterManager : BaseHandoutNotesSlideHeaderFooterManager, 
@@ -19,24 +19,24 @@ public class MasterHandoutSlideHeaderFooterManager : BaseHandoutNotesSlideHeader
 
 | Ad | Açıklama |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Bir tarih-saat yer tutucunun var olduğunu gösteren değeri alır. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Bir altbilgi yer tutucunun var olduğunu gösteren değeri alır. Read Boolean. |
-| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Bir başlık yer tutucunun var olduğunu gösteren değeri alır. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Bir sayfa numarası yer tutucunun var olduğunu gösteren değeri alır. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Bir tarih-saat yer tutucusunun mevcut olduğunu gösteren değeri alır. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Bir alt bilgi yer tutucusunun mevcut olduğunu gösteren değeri alır. Read Boolean. |
+| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Bir üst bilgi yer tutucusunun mevcut olduğunu gösteren değeri alır. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Bir sayfa numarası yer tutucusunun mevcut olduğunu gösteren değeri alır. ReadBoolean. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Slayt tarih-saat yer tutucusuna metin ayarlar. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Slayt tarih-saat yer tutucu görünürlüğünü değiştirir. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Slayt altbilgi yer tutucusuna metin ayarlar. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Slayt altbilgi yer tutucu görünürlüğünü değiştirir. |
-| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Slayt başlık yer tutucusuna metin ayarlar. |
-| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Slayt başlık yer tutucu görünürlüğünü değiştirir. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Slayt sayfa numarası yer tutucu görünürlüğünü değiştirir. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Slayt tarih-saat yer tutucusunun görünürlüğünü değiştirir. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Slayt alt bilgi yer tutucusuna metin ayarlar. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Slayt alt bilgi yer tutucusunun görünürlüğünü değiştirir. |
+| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Slayt üst bilgi yer tutucusuna metin ayarlar. |
+| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Slayt üst bilgi yer tutucusunun görünürlüğünü değiştirir. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Slayt sayfa numarası yer tutucusunun görünürlüğünü değiştirir. |
 
-### Bakınız
+### Ayrıca Bakınız
 
 * sınıf [BaseHandoutNotesSlideHeaderFooterManager](../basehandoutnotesslideheaderfootermanager)
 * arayüz [IMasterHandoutSlideHeaderFooterManager](../imasterhandoutslideheaderfootermanager)

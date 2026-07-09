@@ -3,10 +3,10 @@ title: ColorType
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar olika färglägen.
 type: docs
-weight: 2560
+weight: 2580
 url: /sv/aspose.slides/colortype/
 ---
-## ColorType uppräkning
+## ColorType enumeration
 
 Representerar olika färglägen.
 
@@ -20,11 +20,11 @@ public enum ColorType
 | --- | --- | --- |
 | NotDefined | `-1` | Färgen är inte definierad alls. |
 | RGB | `0` | Standard 24-bit RGB-färg. |
-| RGBPercentage | `1` | RGB-färg med hög upplösning. |
-| HSL | `2` | HSL-färg med hög upplösning. |
-| Scheme | `3` | Schemafärg. |
-| System | `4` | Systemfärg. |
-| Preset | `5` | Förinställd färg. |
+| RGBPercentage | `1` | RGB-färg med hög definition. |
+| HSL | `2` | HSL-färg med hög definition. |
+| Scheme | `3` | Scheme-färg. |
+| System | `4` | System-färg. |
+| Preset | `5` | Preset-färg. |
 
 ### Se även
 

@@ -1,14 +1,14 @@
 ---
 title: ILegend
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Merepresentasikan properti legenda diagram.
+description: Mewakili properti legenda chart.
 type: docs
-weight: 2110
+weight: 2130
 url: /id/aspose.slides.charts/ilegend/
 ---
 ## ILegend antarmuka
 
-Merepresentasikan properti legenda diagram.
+Mewakili properti legenda chart.
 
 ```csharp
 public interface ILegend : IActualLayout, IFormattedTextContainer, ILayoutable
@@ -18,12 +18,12 @@ public interface ILegend : IActualLayout, IFormattedTextContainer, ILayoutable
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | Mengizinkan untuk mengambil antarmuka dasar IFormattedTextContainer. Hanya-baca [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | Mengizinkan untuk mengambil antarmuka dasar ILayoutable. Hanya-baca [`ILayoutable`](../ilayoutable). |
-| [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | Mengambil entri legenda. Hanya-baca [`ILegendEntryCollection`](../ilegendentrycollection). |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | Mengizinkan mengambil antarmuka IFormattedTextContainer dasar. Hanya-baca [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | Mengizinkan mengambil antarmuka ILayoutable dasar. Hanya-baca [`ILayoutable`](../ilayoutable). |
+| [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | Mendapatkan entri legenda. Hanya-baca [`ILegendEntryCollection`](../ilegendentrycollection). |
 | [Format](../../aspose.slides.charts/ilegend/format) { get; } | Mengembalikan format legenda. Hanya-baca [`IFormat`](../iformat). |
-| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | Menentukan apakah elemen diagram lain diizinkan menumpang legenda. Baca/tulis Boolean. |
-| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Menentukan posisi legenda pada diagram. Nilai non-NaN untuk properti X, Y, Width, Heigt mengesampingkan efek properti ini. Baca/tulis [`LegendPositionType`](../legendpositiontype). |
+| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | Menentukan apakah elemen chart lain diperbolehkan menumpuk legenda. Baca/tulis Boolean. |
+| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Menentukan posisi legenda pada chart. Nilai non-NaN dari properti X, Y, Width, Heigt menggantikan efek properti ini. Baca/tulis [`LegendPositionType`](../legendpositiontype). |
 
 ### Lihat Juga
 

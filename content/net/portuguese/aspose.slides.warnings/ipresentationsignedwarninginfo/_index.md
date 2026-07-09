@@ -1,14 +1,14 @@
 ---
 title: IPresentationSignedWarningInfo
-second_title: Aspose.Sildes para .NET - Referência da API
-description: Este aviso indica que a apresentação que está sendo lida possui a assinatura e essa assinatura será removida durante o processamento.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Este aviso indica que a apresentação que está sendo lida possui a assinatura e que essa assinatura será removida durante o processamento.
 type: docs
-weight: 11770
+weight: 11790
 url: /pt/aspose.slides.warnings/ipresentationsignedwarninginfo/
 ---
-## Interface IPresentationSignedWarningInfo
+## IPresentationSignedWarningInfo interface
 
-Este aviso indica que a apresentação sendo lida tem a assinatura e essa assinatura será removida durante o processamento.
+Este aviso indica que a apresentação sendo lida possui a assinatura e que essa assinatura será removida durante o processamento.
 
 ```csharp
 public interface IPresentationSignedWarningInfo : IWarningInfo
@@ -20,7 +20,7 @@ public interface IPresentationSignedWarningInfo : IWarningInfo
 | --- | --- |
 | [AsIWarningInfo](../../aspose.slides.warnings/ipresentationsignedwarninginfo/asiwarninginfo) { get; } | Retorna a interface IWarningInfo. Somente leitura [`IWarningInfo`](../iwarninginfo). |
 
-### Ver também
+### Veja Também
 
 * interface [IWarningInfo](../iwarninginfo)
 * namespace [Aspose.Slides.Warnings](../../aspose.slides.warnings)

@@ -1,14 +1,14 @@
 ---
 title: IMathFraction
 second_title: Aspose.Sildes pro .NET API Reference
-description: Specifikuje objekt zlomku, který se skládá z čitatele a jmenovatele oddělených čárovým znakem zlomku. Čárový znak zlomku může být vodorovný nebo úhlopříčný v závislosti na vlastnostech zlomku. Objekt zlomku se také používá k reprezentaci funkce stack, která umisťuje jeden prvek nad druhý bez čárového znaku zlomku.
+description: Specifikuje objekt zlomku složený z čitatele a jmenovatele oddělených zlomkovou čarou. Zlomková čára může být vodorovná nebo úhlopříčná v závislosti na vlastnostech zlomku. Objekt zlomku se také používá k reprezentaci funkce stack, která umisťuje jeden prvek nad druhý bez zlomkové čáry.
 type: docs
-weight: 8230
+weight: 8250
 url: /cs/aspose.slides.mathtext/imathfraction/
 ---
 ## IMathFraction rozhraní
 
-Specifikuje objekt zlomku, který se skládá z čitatele a jmenovatele oddělených čárovým znakem zlomku. Čárový znak zlomku může být vodorovný nebo úhlopříčný, v závislosti na vlastnostech zlomku. Objekt zlomku se také používá k reprezentaci funkce stack, která umisťuje jeden prvek nad druhý, bez čárového znaku zlomku.
+Určuje objekt zlomku, který se skládá z čitatele a jmenovatele oddělených zlomkovou čarou. Zlomková čára může být vodorovná nebo úhlopříčná, v závislosti na vlastnostech zlomku. Objekt zlomku se také používá k reprezentaci funkce stack, která umisťuje jeden prvek nad druhý, bez zlomkové čáry.
 
 ```csharp
 public interface IMathFraction : IMathElement
@@ -20,7 +20,7 @@ public interface IMathFraction : IMathElement
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathfraction/asimathelement) { get; } | Umožňuje získat základní rozhraní IMathElement [`IMathElement`](../imathelement) |
 | [Denominator](../../aspose.slides.mathtext/imathfraction/denominator) { get; } | Jmenovatel |
-| [FractionType](../../aspose.slides.mathtext/imathfraction/fractiontype) { get; set; } | Typ zlomku, výchozí: Bar |
+| [FractionType](../../aspose.slides.mathtext/imathfraction/fractiontype) { get; set; } | Typ zlomku Výchozí: Bar |
 | [Numerator](../../aspose.slides.mathtext/imathfraction/numerator) { get; } | Čitatel |
 
 ### Příklady

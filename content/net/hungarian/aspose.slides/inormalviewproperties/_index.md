@@ -1,14 +1,14 @@
 ---
 title: INormalViewProperties
-second_title: Aspose.Sildes .NET API Referenciája
-description: A normál nézet tulajdonságait képviseli. A normál nézet három tartalmi területből áll: a diából, egy oldal tartalmi területből és egy alsó tartalmi területből.
+second_title: Aspose.Sildes .NET API Referencia
+description: A normál nézet tulajdonságait reprezentálja. A normál nézet három tartalmi területből áll: maga a dia, egy oldalsó tartalmi terület és egy alsó tartalmi terület.
 type: docs
-weight: 6450
+weight: 6470
 url: /hu/aspose.slides/inormalviewproperties/
 ---
 ## INormalViewProperties interfész
 
-A normál nézet tulajdonságait képviseli. A normál nézet három tartalmi területből áll: a diából, egy oldal tartalmi területből és az alsó tartalmi területből.
+A normál nézet tulajdonságait reprezentálja. A normál nézet három tartalmi területből áll: maga a dia, egy oldalsó tartalmi terület, és egy alsó tartalmi terület.
 
 ```csharp
 public interface INormalViewProperties
@@ -18,13 +18,13 @@ public interface INormalViewProperties
 
 | Név | Leírás |
 | --- | --- |
-| [HorizontalBarState](../../aspose.slides/inormalviewproperties/horizontalbarstate) { get; set; } | Megadja, hogy melyik állapotban jelenjen meg a vízszintes szeparátor sáv. A vízszintes szeparátor sáv elválasztja a diát a dia alatti tartalmi régiótól. |
-| [PreferSingleView](../../aspose.slides/inormalviewproperties/prefersingleview) { get; set; } | Megadja, hogy a felhasználó a három tartalmi területet tartalmazó szabványos normál nézet helyett teljes ablakos egyetlen tartalmi területet részesít-e előnyben. Engedélyezve a alkalmazás kiválaszthatja, hogy a tartalmi területek egyike az egész ablakban jelenjen meg. Olvasás/írás Boolean. |
-| [RestoredLeft](../../aspose.slides/inormalviewproperties/restoredleft) { get; } | Ez az elem meghatározza a normál nézet oldalsó tartalmi területének méretezését, amikor a terület változó visszaállított mérettel rendelkezik (sem minimalizált, sem maximalizált). Csak olvasható [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [RestoredTop](../../aspose.slides/inormalviewproperties/restoredtop) { get; } | Ez az elem meghatározza a normál nézet felső diaterületének méretezését, amikor a terület változó visszaállított mérettel rendelkezik (sem minimalizált, sem maximalizált). Csak olvasható [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [ShowOutlineIcons](../../aspose.slides/inormalviewproperties/showoutlineicons) { get; set; } | Megadja, hogy az alkalmazás ikonokat jelenítsen-e, ha vázlat tartalmat jelenít meg a normál nézet bármelyik tartalmi régiójában. Olvasás/írás Boolean. |
-| [SnapVerticalSplitter](../../aspose.slides/inormalviewproperties/snapverticalsplitter) { get; set; } | Megadja, hogy a függőleges szeparátor minimális állapotba gördüljön-e, amikor az oldalsó terület elég kicsi. Olvasás/írás Boolean. |
-| [VerticalBarState](../../aspose.slides/inormalviewproperties/verticalbarstate) { get; set; } | Megadja, hogy melyik állapotban jelenjen meg a függőleges szeparátor sáv. A függőleges szeparátor sáv elválasztja a diát az oldalsó tartalmi területtől. |
+| [HorizontalBarState](../../aspose.slides/inormalviewproperties/horizontalbarstate) { get; set; } | Megadja, hogy milyen állapotban jelenjen meg a vízszintes osztóvonal. A vízszintes osztóvonal elválasztja a diát a dia alatti tartalmi területtől. |
+| [PreferSingleView](../../aspose.slides/inormalviewproperties/prefersingleview) { get; set; } | Megadja, hogy a felhasználó a teljes ablakot lefedő egyetlen tartalmi területet részesíti-e előnyben a három tartalmi területet tartalmazó szabványos normál nézettel szemben. Ha engedélyezve van, az alkalmazás úgy dönthet, hogy az egyik tartalmi területet az egész ablakban jeleníti meg. Olvasás/írás Boolean. |
+| [RestoredLeft](../../aspose.slides/inormalviewproperties/restoredleft) { get; } | Ez az elem meghatározza a normál nézet oldalsó tartalmi területének méretét, amikor a terület változó visszaállított méretű (sem minimalizált, sem maximalizált). Csak olvasható [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [RestoredTop](../../aspose.slides/inormalviewproperties/restoredtop) { get; } | Ez az elem meghatározza a normál nézet felső dia területének méretét, amikor a terület változó visszaállított méretű (sem minimalizált, sem maximalizált). Csak olvasható [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [ShowOutlineIcons](../../aspose.slides/inormalviewproperties/showoutlineicons) { get; set; } | Megadja, hogy az alkalmazás ikonokat jelenítsen-e meg, ha vázlat tartalmat jelenít meg a normál nézet bármelyik tartalmi területében. Olvasás/írás Boolean. |
+| [SnapVerticalSplitter](../../aspose.slides/inormalviewproperties/snapverticalsplitter) { get; set; } | Megadja, hogy a függőleges osztóvonal rögzítve legyen-e minimalizált állapotba, ha az oldalsó terület elég kicsi. Olvasás/írás Boolean. |
+| [VerticalBarState](../../aspose.slides/inormalviewproperties/verticalbarstate) { get; set; } | Megadja, hogy milyen állapotban jelenjen meg a függőleges osztóvonal. A függőleges osztóvonal elválasztja a diát az oldalsó tartalmi területtől. |
 
 ### Lásd még
 

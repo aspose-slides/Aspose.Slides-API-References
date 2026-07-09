@@ -1,14 +1,14 @@
 ---
 title: ILuminance
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili efek Luminance. Kecerahan menggeser semua warna secara linier lebih dekat ke putih atau hitam. Kontras mengubah skala semua warna sehingga menjadi lebih dekat atau lebih jauh satu sama lain.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Merepresentasikan efek Luminance. Brightness secara linear menggeser semua warna lebih dekat ke putih atau hitam. Contrast mengskalakan semua warna menjadi lebih dekat atau lebih jauh satu sama lain.
 type: docs
-weight: 3420
+weight: 3440
 url: /id/aspose.slides.effects/iluminance/
 ---
 ## ILuminance antarmuka
 
-Mewakili efek Luminance. Kecerahan menggeser semua warna secara linier lebih mendekati putih atau hitam. Kontras mengubah skala semua warna sehingga menjadi lebih dekat atau lebih jauh satu sama lain.
+Merepresentasikan efek Luminance. Brightness secara linear menggeser semua warna lebih dekat ke putih atau hitam. Contrast mengskalakan semua warna menjadi lebih dekat atau lebih jauh satu sama lain.
 
 ```csharp
 public interface ILuminance : IAccessiblePVIObject<ILuminanceEffectiveData>, 
@@ -19,8 +19,8 @@ public interface ILuminance : IAccessiblePVIObject<ILuminanceEffectiveData>,
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iluminance/asiaccessiblepviobject) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar IAccessiblePVIObject. Hanya-baca [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iluminance/asiimagetransformoperation) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar IImageTransformOperation. Hanya-baca [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iluminance/asiaccessiblepviobject) { get; } | Mengizinkan untuk mendapatkan antarmuka IAccessiblePVIObject dasar. Hanya-baca [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iluminance/asiimagetransformoperation) { get; } | Mengizinkan untuk mendapatkan antarmuka IImageTransformOperation dasar. Hanya-baca [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Lihat Juga
 

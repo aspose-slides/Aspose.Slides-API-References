@@ -1,14 +1,14 @@
 ---
 title: ISVGOptions
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αναπαριστά επιλογές SVG.
+second_title: Αναφορά API Aspose.Sildes για .NET
+description: Αντιπροσωπεύει μια επιλογή SVG.
 type: docs
-weight: 4040
+weight: 4060
 url: /el/aspose.slides.export/isvgoptions/
 ---
-## ISVGOptions διασύνδεση
+## ISVGOptions διεπαφή
 
-Αναπαριστά επιλογές SVG.
+Αντιπροσωπεύει επιλογές SVG.
 
 ```csharp
 public interface ISVGOptions : ISaveOptions
@@ -18,26 +18,26 @@ public interface ISVGOptions : ISaveOptions
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/isvgoptions/asisaveoptions) { get; } | Επιστρέφει το interface ISaveOptions. Μόνο για ανάγνωση [`ISaveOptions`](../isaveoptions). |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/isvgoptions/deletepicturescroppedareas) { get; set; } | Ένδειξη Boolean που υποδεικνύει εάν τα κομμένα τμήματα παραμένουν μέρος του εγγράφου. Εάν είναι true, τα κομμένα τμήματα θα αφαιρεθούν· εάν είναι false, θα σειριακοποιηθούν στο έγγραφο (που μπορεί να οδηγήσει σε μεγαλύτερο αρχείο). Αναγν/Εγγραφή Boolean. |
-| [Disable3DText](../../aspose.slides.export/isvgoptions/disable3dtext) { get; set; } | Καθορίζει εάν το κείμενο 3D είναι απενεργοποιημένο στο SVG. Αναγν/Εγγραφή Boolean. |
-| [DisableFontLigatures](../../aspose.slides.export/isvgoptions/disablefontligatures) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν το κείμενο αποδίδεται χωρίς χρήση συνδέσμων. Όταν οριστεί σε `true`, οι σύνδεσμοι θα απενεργοποιηθούν στην έξοδο απόδοσης. Από προεπιλογή, η ιδιότητα έχει τιμή `false`. |
-| [DisableGradientSplit](../../aspose.slides.export/isvgoptions/disablegradientsplit) { get; set; } | Απενεργοποιεί το διαχωρισμό των gradient FromCornerX και FromCenter. Αναγν/Εγγραφή Boolean. |
-| [DisableLineEndCropping](../../aspose.slides.export/isvgoptions/disablelineendcropping) { get; set; } | Το SVG 1.1 δεν υποστηρίζει τον ορισμό περιθωρίων για markers. Η μηχανή γραφής SVG του Aspose.Slides έχει παράκαμψη: κόβει το άκρο της γραμμής με το βέλο, ώστε η γραμμή να μην επικαλύπτει τους markers. Αυτή η επιλογή απενεργοποιεί αυτή τη συμπεριφορά. Αναγν/Εγγραφή Boolean. |
-| [ExternalFontsHandling](../../aspose.slides.export/isvgoptions/externalfontshandling) { get; set; } | Καθορίζει τρόπο διαχείρισης εξωτερικά φορτωμένων γραμματοσειρών. Αναγν/Εγγραφή [`SvgExternalFontsHandling`](../svgexternalfontshandling). |
-| [InkOptions](../../aspose.slides.export/isvgoptions/inkoptions) { get; } | Παρέχει επιλογές που ελέγχουν την εμφάνιση των αντικειμένων Ink στο εξαγόμενο έγγραφο. Μόνο για ανάγνωση [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/isvgoptions/jpegquality) { get; set; } | Καθορίζει την ποιότητα κωδικοποίησης JPEG. Αναγν/Εγγραφή Int32. |
-| [MetafileRasterizationDpi](../../aspose.slides.export/isvgoptions/metafilerasterizationdpi) { get; set; } | Επιστρέφει ή ορίζει το όριο χαμηλότερης ανάλυσης για rasterization μετααρχείου. Αναγν/Εγγραφή Int32. |
-| [PicturesCompression](../../aspose.slides.export/isvgoptions/picturescompression) { get; set; } | Αναπαριστά το επίπεδο συμπίεσης εικόνων. Αναγν/Εγγραφή [`PicturesCompression`](./picturescompression). |
-| [ShapeFormattingController](../../aspose.slides.export/isvgoptions/shapeformattingcontroller) { get; set; } | Επιστρέφει και ορίζει ένα interface callback που επιτρέπει στον χρήστη να ελέγχει τη μετατροπή σχήματος. Αναγν/Εγγραφή [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
-| [UseFrameRotation](../../aspose.slides.export/isvgoptions/useframerotation) { get; set; } | Καθορίζει εάν θα εκτελεστεί η καθορισμένη περιστροφή του σχήματος κατά την απόδοση ή όχι. Αναγν/Εγγραφή Boolean. Η προεπιλεγμένη τιμή είναι true. |
-| [UseFrameSize](../../aspose.slides.export/isvgoptions/useframesize) { get; set; } | Καθορίζει εάν το πλαίσιο κειμένου θα συμπεριληφθεί στην περιοχή απόδοσης ή όχι. Αναγν/Εγγραφή Boolean. Η προεπιλεγμένη τιμή είναι false. |
-| [VectorizeText](../../aspose.slides.export/isvgoptions/vectorizetext) { get; set; } | Καθορίζει εάν το κείμενο σε μια διαφάνεια θα αποθηκευτεί ως γραφικά. Αναγν/Εγγραφή Boolean. |
+| [AsISaveOptions](../../aspose.slides.export/isvgoptions/asisaveoptions) { get; } | Επιστρέφει τη διεπαφή ISaveOptions. Μόνο για ανάγνωση [`ISaveOptions`](../isaveoptions). |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/isvgoptions/deletepicturescroppedareas) { get; set; } | Ένα λογικό πλαίσιο υποδεικνύει εάν τα περικομμένα τμήματα παραμένουν μέρος του εγγράφου. Εάν είναι true, τα περικομμένα τμήματα θα αφαιρεθούν· εάν είναι false, θα σειριοποιηθούν στο έγγραφο (το οποίο μπορεί ενδεχομένως να οδηγήσει σε μεγαλύτερο αρχείο). Ανάγνωση/εγγραφή Boolean. |
+| [Disable3DText](../../aspose.slides.export/isvgoptions/disable3dtext) { get; set; } | Καθορίζει εάν το κείμενο 3D είναι απενεργοποιημένο σε SVG. Ανάγνωση/εγγραφή Boolean. |
+| [DisableFontLigatures](../../aspose.slides.export/isvgoptions/disablefontligatures) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν το κείμενο αποδίδεται χωρίς χρήση λήξεων. Όταν οριστεί σε `true`, οι λήξεις θα είναι απενεργοποιημένες στην παραγόμενη έξοδο. Από προεπιλογή, αυτή η ιδιότητα είναι ορισμένη σε `false`. |
+| [DisableGradientSplit](../../aspose.slides.export/isvgoptions/disablegradientsplit) { get; set; } | Απενεργοποιεί τον διαχωρισμό διαβαθμίσεων FromCornerX και FromCenter. Ανάγνωση/εγγραφή Boolean. |
+| [DisableLineEndCropping](../../aspose.slides.export/isvgoptions/disablelineendcropping) { get; set; } | Το SVG 1.1 δεν διαθέτει δυνατότητα ορισμού εσωτερικών περιθωρίων για δείκτες. Η μηχανή εγγραφής SVG της Aspose.Slides διαθέτει παράκαμψη: περικόπτει το άκρο της γραμμής με βέλος, ώστε η γραμμή να μην επικαλύπτει τους δείκτες. Αυτή η επιλογή απενεργοποιεί αυτή τη συμπεριφορά. Ανάγνωση/εγγραφή Boolean. |
+| [ExternalFontsHandling](../../aspose.slides.export/isvgoptions/externalfontshandling) { get; set; } | Καθορίζει τρόπο χειρισμού εξωτερικά φορτωμένων γραμματοσειρών. Ανάγνωση/εγγραφή [`SvgExternalFontsHandling`](../svgexternalfontshandling). |
+| [InkOptions](../../aspose.slides.export/isvgoptions/inkoptions) { get; } | Παρέχει επιλογές που ελέγχουν την εμφάνιση αντικειμένων Ink στο εξαγόμενο έγγραφο. Μόνο για ανάγνωση [`IInkOptions`](../iinkoptions) |
+| [JpegQuality](../../aspose.slides.export/isvgoptions/jpegquality) { get; set; } | Καθορίζει την ποιότητα κωδικοποίησης JPEG. Ανάγνωση/εγγραφή Int32. |
+| [MetafileRasterizationDpi](../../aspose.slides.export/isvgoptions/metafilerasterizationdpi) { get; set; } | Επιστρέφει ή ορίζει το όριο χαμηλότερης ανάλυσης για rasterization μετααρχείου. Ανάγνωση/εγγραφή Int32. |
+| [PicturesCompression](../../aspose.slides.export/isvgoptions/picturescompression) { get; set; } | Αποπροσωπεύει το επίπεδο συμπίεσης εικόνων. Ανάγνωση/εγγραφή [`PicturesCompression`](./picturescompression). |
+| [ShapeFormattingController](../../aspose.slides.export/isvgoptions/shapeformattingcontroller) { get; set; } | Επιστρέφει και ορίζει μια διεπαφή callback που επιτρέπει στο χρήστη να ελέγχει τη μετατροπή σχήματος. Ανάγνωση/εγγραφή [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
+| [UseFrameRotation](../../aspose.slides.export/isvgoptions/useframerotation) { get; set; } | Καθορίζει εάν θα εκτελεστεί η καθορισμένη περιστροφή του σχήματος κατά την απόδοση ή όχι. Ανάγνωση/εγγραφή Boolean. Η προεπιλεγμένη τιμή είναι true. |
+| [UseFrameSize](../../aspose.slides.export/isvgoptions/useframesize) { get; set; } | Καθορίζει εάν το πλαίσιο κειμένου θα συμπεριληφθεί στην περιοχή απόδοσης ή όχι. Ανάγνωση/εγγραφή Boolean. Η προεπιλεγμένη τιμή είναι false. |
+| [VectorizeText](../../aspose.slides.export/isvgoptions/vectorizetext) { get; set; } | Καθορίζει εάν το κείμενο σε μια διαφάνεια θα αποθηκευτεί ως γραφικά. Ανάγνωση/εγγραφή Boolean. |
 
 ### Δείτε επίσης
 
-* διασύνδεση [ISaveOptions](../isaveoptions)
-* χωρονομά [Aspose.Slides.Export](../../aspose.slides.export)
-* συγκρότηση [Aspose.Slides](../../)
+* διεπαφή [ISaveOptions](../isaveoptions)
+* χώρο ονομάτων [Aspose.Slides.Export](../../aspose.slides.export)
+* σύγκροτη [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

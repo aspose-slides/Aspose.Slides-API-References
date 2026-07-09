@@ -1,14 +1,14 @@
 ---
 title: BulletFormat
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta le proprietà di formattazione dei punti elenco del paragrafo.
+description: Rappresenta le proprietà di formattazione dei punti elenco di un paragrafo.
 type: docs
-weight: 1050
+weight: 1070
 url: /it/aspose.slides/bulletformat/
 ---
 ## BulletFormat classe
 
-Rappresenta le proprietà di formattazione dei punti elenco del paragrafo.
+Rappresenta le proprietà di formattazione dei punti elenco di un paragrafo.
 
 ```csharp
 public sealed class BulletFormat : PVIObject, IBulletFormat
@@ -18,25 +18,25 @@ public sealed class BulletFormat : PVIObject, IBulletFormat
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Sola lettura [`IPresentationComponent`](../ipresentationcomponent). |
-| [Char](../../aspose.slides/bulletformat/char) { get; set; } | Restituisce o imposta il carattere punto elenco di un paragrafo senza ereditarietà. Lettura/scrittura Char. |
-| [Color](../../aspose.slides/bulletformat/color) { get; } | Restituisce il formato colore di un punto elenco di un paragrafo senza ereditarietà. Sola lettura [`IColorFormat`](../icolorformat). |
-| [Font](../../aspose.slides/bulletformat/font) { get; set; } | Restituisce o imposta il font del punto elenco di un paragrafo senza ereditarietà. Lettura/scrittura [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/bulletformat/height) { get; set; } | Restituisce o imposta l'altezza del punto elenco di un paragrafo senza ereditarietà. Il valore float.NaN indica che il punto elenco eredita l'altezza dalla prima porzione del paragrafo. Lettura/scrittura Single. |
-| [IsBulletHardColor](../../aspose.slides/bulletformat/isbullethardcolor) { get; set; } | Determina se il punto elenco ha un colore proprio o lo eredita dalla prima porzione del paragrafo. **NullableBool.True** se il punto elenco ha un colore proprio e **NullableBool.False** se eredita il colore dalla prima porzione del paragrafo. Lettura/scrittura [`NullableBool`](../nullablebool). |
-| [IsBulletHardFont](../../aspose.slides/bulletformat/isbullethardfont) { get; set; } | Determina se il punto elenco ha un font proprio o lo eredita dalla prima porzione del paragrafo. **NullableBool.True** se il punto elenco ha un font proprio e **NullableBool.False** se eredita il font dalla prima porzione del paragrafo. Lettura/scrittura [`NullableBool`](../nullablebool). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l’interfaccia base IPresentationComponent. Solo lettura [`IPresentationComponent`](../ipresentationcomponent). |
+| [Char](../../aspose.slides/bulletformat/char) { get; set; } | Restituisce o imposta il carattere del punto elenco di un paragrafo senza ereditarietà. Lettura/scrittura Char. |
+| [Color](../../aspose.slides/bulletformat/color) { get; } | Restituisce il formato colore di un punto elenco di un paragrafo senza ereditarietà. Solo lettura [`IColorFormat`](../icolorformat). |
+| [Font](../../aspose.slides/bulletformat/font) { get; set; } | Restituisce o imposta il carattere tipografico del punto elenco di un paragrafo senza ereditarietà. Lettura/scrittura [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/bulletformat/height) { get; set; } | Restituisce o imposta l’altezza del punto elenco di un paragrafo senza ereditarietà. Il valore float.NaN indica che il punto eredita l’altezza dalla prima porzione del paragrafo. Lettura/scrittura Single. |
+| [IsBulletHardColor](../../aspose.slides/bulletformat/isbullethardcolor) { get; set; } | Determina se il punto elenco ha un colore proprio o lo eredita dalla prima porzione del paragrafo. **NullableBool.True** se il punto ha colore proprio e **NullableBool.False** se il punto eredita il colore dalla prima porzione del paragrafo. Lettura/scrittura [`NullableBool`](../nullablebool). |
+| [IsBulletHardFont](../../aspose.slides/bulletformat/isbullethardfont) { get; set; } | Determina se il punto elenco ha un carattere tipografico proprio o lo eredita dalla prima porzione del paragrafo. **NullableBool.True** se il punto ha carattere tipografico proprio e **NullableBool.False** se il punto eredita il carattere tipografico dalla prima porzione del paragrafo. Lettura/scrittura [`NullableBool`](../nullablebool). |
 | [NumberedBulletStartWith](../../aspose.slides/bulletformat/numberedbulletstartwith) { get; set; } | Restituisce o imposta il primo numero usato per il gruppo di punti elenco numerati senza ereditarietà. Lettura/scrittura Int16. |
 | [NumberedBulletStyle](../../aspose.slides/bulletformat/numberedbulletstyle) { get; set; } | Restituisce o imposta lo stile di un punto elenco numerato senza ereditarietà. Lettura/scrittura [`NumberedBulletStyle`](../numberedbulletstyle). |
-| [Picture](../../aspose.slides/bulletformat/picture) { get; } | Restituisce l'immagine usata come punto elenco in un paragrafo senza ereditarietà. Sola lettura [`ISlidesPicture`](../islidespicture). |
+| [Picture](../../aspose.slides/bulletformat/picture) { get; } | Restituisce l’immagine usata come punto elenco in un paragrafo senza ereditarietà. Solo lettura [`ISlidesPicture`](../islidespicture). |
 | [Type](../../aspose.slides/bulletformat/type) { get; set; } | Restituisce o imposta il tipo di punto elenco di un paragrafo senza ereditarietà. Lettura/scrittura [`BulletType`](../bullettype). |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/bulletformat/applydefaultparagraphindentsshifts)() | Imposta gli spostamenti predefiniti diversi da zero per l'Indent e il MarginLeft effettivi del paragrafo quando i punti elenco sono abilitati (come fa PowerPoint se si abilita la numerazione/punti elenco dei paragrafi). Se i punti elenco sono disabilitati, resetta semplicemente l'Indent e il MarginLeft del paragrafo (come fa PowerPoint se si disabilita la numerazione/punti elenco). Gli spostamenti degli indent sono applicati rispetto al contesto corrente del punto elenco – IBulletFormat.Type, .NumberedBulletStyle e FontHeight della prima porzione. Gli spostamenti diversi da zero sono applicati all'Indent e al MarginLeft effettivi del paragrafo corrente (rendendo i valori risultanti valori locali). |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Confronta con l'oggetto specificato. |
-| [GetEffective](../../aspose.slides/bulletformat/geteffective)() | Ottiene i dati di formattazione dei punti elenco effettivi con l'ereditarietà applicata. |
+| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/bulletformat/applydefaultparagraphindentsshifts)() | Imposta gli spostamenti predefiniti non-zero per l’indentazione e il margine sinistro del paragrafo effettivo quando i punti elenco sono attivati (come fa PowerPoint se si abilita la numerazione/elenco puntato). Se i punti elenco sono disattivati, ripristina semplicemente l’indentazione e il margine sinistro del paragrafo (come fa PowerPoint se si disabilita la numerazione/elenco puntato). Gli spostamenti di indentazione sono applicati in base al contesto corrente del punto elenco – IBulletFormat.Type, .NumberedBulletStyle e FontHeight della prima porzione. Gli spostamenti non-zero sono applicati all’indentazione e al margine sinistro effettivi del paragrafo corrente (rendendo i valori risultanti valori locali). |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Confronta con l’oggetto specificato. |
+| [GetEffective](../../aspose.slides/bulletformat/geteffective)() | Ottiene i dati di formattazione del punto elenco effettivo con l’ereditarietà applicata. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Restituisce il codice hash. |
 
 ### Vedi anche

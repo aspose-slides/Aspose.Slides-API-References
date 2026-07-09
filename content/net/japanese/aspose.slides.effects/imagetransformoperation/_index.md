@@ -1,14 +1,14 @@
 ---
 title: ImageTransformOperation
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 抽象的な画像変換エフェクトを表します。
+description: 抽象的な画像変換効果を表します。
 type: docs
-weight: 3550
+weight: 3570
 url: /ja/aspose.slides.effects/imagetransformoperation/
 ---
 ## ImageTransformOperation クラス
 
-抽象的な画像変換エフェクトを表します。
+抽象的な画像変換効果を表します。
 
 ```csharp
 public abstract class ImageTransformOperation : PVIObject, IImageTransformOperation
@@ -18,7 +18,7 @@ public abstract class ImageTransformOperation : PVIObject, IImageTransformOperat
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。 読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
 
 ## メソッド
 

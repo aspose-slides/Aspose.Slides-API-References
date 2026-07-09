@@ -1,9 +1,9 @@
 ---
 title: IVideoPlayerHtmlController
-second_title: Aspose.Sildes para .NET Referência de API
+second_title: Aspose.Sildes para .NET Referência da API
 description: Esta classe permite exportar arquivos de vídeo e áudio para um HTML
 type: docs
-weight: 4160
+weight: 4180
 url: /pt/aspose.slides.export/ivideoplayerhtmlcontroller/
 ---
 ## IVideoPlayerHtmlController interface
@@ -23,7 +23,7 @@ public interface IVideoPlayerHtmlController : IHtmlFormattingController, ILinkEm
 | [AsILinkEmbedController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller) { get; } | Permite obter a interface base ILinkEmbedController. Somente leitura [`ILinkEmbedController`](../ilinkembedcontroller). |
 | [AsISvgShapeFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asisvgshapeformattingcontroller) { get; } | Permite obter a interface base ISvgShapeFormattingController. Somente leitura [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
 
-### Veja também
+### Ver também
 
 * interface [IHtmlFormattingController](../ihtmlformattingcontroller)
 * interface [ILinkEmbedController](../ilinkembedcontroller)

@@ -1,12 +1,12 @@
 ---
 title: HyperlinkQueries
-second_title: Aspose.Sildes pro .NET API Reference
-description: Poskytuje snadný přístup k obsaženým hypertextovým odkazům.
+second_title: Aspose.Sildes pro .NET - reference API
+description: Umožňuje snadný přístup k obsaženým hypertextovým odkazům.
 type: docs
-weight: 5140
+weight: 5160
 url: /cs/aspose.slides/hyperlinkqueries/
 ---
-## Třída HyperlinkQueries
+## HyperlinkQueries třída
 
 Poskytuje snadný přístup k obsaženým hypertextovým odkazům.
 

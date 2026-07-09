@@ -1,14 +1,14 @@
 ---
 title: ForEach
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Αντιπροσωπεύει μια ομάδα μεθόδων που προορίζονται για επανάληψη πάνω σε διαφορετικά αντικείμενα μοντέλου Presentation../aspose.slides/presentation. Αυτές οι μέθοδοι μπορούν να είναι χρήσιμες εάν χρειάζεται να κάνετε επανάληψη και να αλλάξετε τη μορφοποίηση ή το περιεχόμενο ορισμένων στοιχείων του Presentation, π.χ. την αλλαγή της μορφοποίησης κάθε τμήματος.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Αντιπροσωπεύει μια ομάδα μεθόδων που προορίζονται για επανάληψη πάνω σε διαφορετικά αντικείμενα μοντέλου Presentation../aspose.slides/presentation. Αυτές οι μέθοδοι μπορούν να είναι χρήσιμες εάν χρειάζεται να επαναλάβετε και να αλλάξετε τη διαμόρφωση ή το περιεχόμενο ορισμένων στοιχείων του Presentation, π.χ. να αλλάξετε τη διαμόρφωση του κάθε τμήματος.
 type: docs
-weight: 7880
+weight: 7900
 url: /el/aspose.slides.lowcode/foreach/
 ---
-## Κλάση ForEach
+## ForEach κλάση
 
-Αντιπροσωπεύει μια ομάδα μεθόδων που προορίζονται για επανάληψη πάνω σε διαφορετικά [`Presentation`](../../aspose.slides/presentation) μοντέλα αντικειμένων. Αυτές οι μέθοδοι μπορούν να είναι χρήσιμες εάν χρειάζεται να κάνετε επανάληψη και αλλαγή στη μορφοποίηση ή το περιεχόμενο στοιχείων του Presentation, π.χ. αλλαγή της μορφοποίησης κάθε τμήματος.
+Αντιπροσωπεύει μια ομάδα μεθόδων που προορίζονται για επανάληψη πάνω σε διαφορετικά [`Presentation`](../../aspose.slides/presentation) μοντέλο αντικείμενα. Αυτές οι μέθοδοι μπορούν να είναι χρήσιμες εάν χρειάζεται να επαναλάβετε και να αλλάξετε τη διαμόρφωση ή το περιεχόμενο ορισμένων στοιχείων του Presentation, π.χ. να αλλάξετε τη διαμόρφωση κάθε τμήματος.
 
 ```csharp
 public static class ForEach
@@ -20,16 +20,16 @@ public static class ForEach
 | --- | --- |
 | static [LayoutSlide](../../aspose.slides.lowcode/foreach/layoutslide)(Presentation, ForEachLayoutSlideCallback) | Επανάληψη κάθε [`LayoutSlide`](./layoutslide) στο [`Presentation`](../../aspose.slides/presentation). |
 | static [MasterSlide](../../aspose.slides.lowcode/foreach/masterslide)(Presentation, ForEachMasterSlideCallback) | Επανάληψη κάθε [`MasterSlide`](./masterslide) στο [`Presentation`](../../aspose.slides/presentation). |
-| static [Paragraph](../../aspose.slides.lowcode/foreach/paragraph#paragraph_1)(Presentation, ForEachParagraphCallback) | Επανάληψη κάθε [`Paragraph`](./paragraph) στο [`Presentation`](../../aspose.slides/presentation). Τα σχήματα θα επαναληφθούν σε όλους τους τύπους διαφανειών - [`Slide`](./slide), [`MasterSlide`](./masterslide) και [`LayoutSlide`](./layoutslide) |
-| static [Paragraph](../../aspose.slides.lowcode/foreach/paragraph#paragraph)(Presentation, bool, ForEachParagraphCallback) | Επανάληψη κάθε [`Paragraph`](./paragraph) στο [`Presentation`](../../aspose.slides/presentation). Τα σχήματα θα επαναληφθούν σε όλους τους τύπους διαφανειών - [`Slide`](./slide), [`MasterSlide`](./masterslide), [`LayoutSlide`](./layoutslide) και [`NotesSlide`](../../aspose.slides/notesslide) |
-| static [Portion](../../aspose.slides.lowcode/foreach/portion#portion_1)(Presentation, ForEachPortionCallback) | Επανάληψη κάθε [`Portion`](./portion) στο [`Presentation`](../../aspose.slides/presentation). Τα τμήματα θα επαναληφθούν σε όλους τους τύπους διαφανειών - [`Slide`](./slide), [`MasterSlide`](./masterslide) και [`LayoutSlide`](./layoutslide) |
-| static [Portion](../../aspose.slides.lowcode/foreach/portion#portion)(Presentation, bool, ForEachPortionCallback) | Επανάληψη κάθε [`Portion`](./portion) στο [`Presentation`](../../aspose.slides/presentation). Τα τμήματα θα επαναληφθούν σε όλους τους τύπους διαφανειών - [`Slide`](./slide), [`MasterSlide`](./masterslide), [`LayoutSlide`](./layoutslide) και [`NotesSlide`](../../aspose.slides/notesslide) |
-| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape)(BaseSlide, ForEachShapeCallback) | Επανάληψη κάθε [`Shape`](./shape) στη [`BaseSlide`](../../aspose.slides/baseslide). [`BaseSlide`](../../aspose.slides/baseslide) είναι ο βασικός τύπος για [`Slide`](./slide), [`MasterSlide`](./masterslide) και [`LayoutSlide`](./layoutslide) |
-| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape_2)(Presentation, ForEachShapeCallback) | Επανάληψη κάθε [`Shape`](./shape) στο [`Presentation`](../../aspose.slides/presentation). Τα σχήματα θα επαναληφθούν σε όλους τους τύπους διαφανειών - [`Slide`](./slide), [`MasterSlide`](./masterslide) και [`LayoutSlide`](./layoutslide) |
-| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape_1)(Presentation, bool, ForEachShapeCallback) | Επανάληψη κάθε [`Shape`](./shape) στο [`Presentation`](../../aspose.slides/presentation). Τα σχήματα θα επαναληφθούν σε όλους τους τύπους διαφανειών - [`Slide`](./slide), [`MasterSlide`](./masterslide), [`LayoutSlide`](./layoutslide) και [`NotesSlide`](../../aspose.slides/notesslide) εφόσον χρειαστεί. |
+| static [Paragraph](../../aspose.slides.lowcode/foreach/paragraph#paragraph_1)(Presentation, ForEachParagraphCallback) | Επανάληψη κάθε [`Paragraph`](./paragraph) στο [`Presentation`](../../aspose.slides/presentation). Τα σχήματα θα επαναλαμβάνονται σε όλους τους τύπους διαφανειών - [`Slide`](./slide), [`MasterSlide`](./masterslide) και [`LayoutSlide`](./layoutslide) |
+| static [Paragraph](../../aspose.slides.lowcode/foreach/paragraph#paragraph)(Presentation, bool, ForEachParagraphCallback) | Επανάληψη κάθε [`Paragraph`](./paragraph) στο [`Presentation`](../../aspose.slides/presentation). Τα σχήματα θα επαναλαμβάνονται σε όλους τους τύπους διαφανειών - [`Slide`](./slide), [`MasterSlide`](./masterslide), [`LayoutSlide`](./layoutslide) και [`NotesSlide`](../../aspose.slides/notesslide) |
+| static [Portion](../../aspose.slides.lowcode/foreach/portion#portion_1)(Presentation, ForEachPortionCallback) | Επανάληψη κάθε [`Portion`](./portion) στο [`Presentation`](../../aspose.slides/presentation). Τα τμήματα θα επαναλαμβάνονται σε όλους τους τύπους διαφανειών - [`Slide`](./slide), [`MasterSlide`](./masterslide) και [`LayoutSlide`](./layoutslide) |
+| static [Portion](../../aspose.slides.lowcode/foreach/portion#portion)(Presentation, bool, ForEachPortionCallback) | Επανάληψη κάθε [`Portion`](./portion) στο [`Presentation`](../../aspose.slides/presentation). Τα τμήματα θα επαναλαμβάνονται σε όλους τους τύπους διαφανειών - [`Slide`](./slide), [`MasterSlide`](./masterslide), [`LayoutSlide`](./layoutslide) και [`NotesSlide`](../../aspose.slides/notesslide) |
+| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape)(BaseSlide, ForEachShapeCallback) | Επανάληψη κάθε [`Shape`](./shape) στο [`BaseSlide`](../../aspose.slides/baseslide). [`BaseSlide`](../../aspose.slides/baseslide) είναι ο βασικός τύπος για [`Slide`](./slide), [`MasterSlide`](./masterslide) και [`LayoutSlide`](./layoutslide) |
+| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape_2)(Presentation, ForEachShapeCallback) | Επανάληψη κάθε [`Shape`](./shape) στο [`Presentation`](../../aspose.slides/presentation). Τα σχήματα θα επαναλαμβάνονται σε όλους τους τύπους διαφανειών - [`Slide`](./slide), [`MasterSlide`](./masterslide) και [`LayoutSlide`](./layoutslide) |
+| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape_1)(Presentation, bool, ForEachShapeCallback) | Επανάληψη κάθε [`Shape`](./shape) στο [`Presentation`](../../aspose.slides/presentation). Τα σχήματα θα επαναλαμβάνονται σε όλους τους τύπους διαφανειών - [`Slide`](./slide), [`MasterSlide`](./masterslide), [`LayoutSlide`](./layoutslide) και [`NotesSlide`](../../aspose.slides/notesslide) εάν χρειάζεται. |
 | static [Slide](../../aspose.slides.lowcode/foreach/slide)(Presentation, ForEachSlideCallback) | Επανάληψη κάθε [`Slide`](./slide) στο [`Presentation`](../../aspose.slides/presentation). |
 
-## Άλλα μέλη
+## Άλλα Μέλη
 
 | Όνομα | Περιγραφή |
 | --- | --- |
@@ -56,7 +56,7 @@ using (Presentation presentation = new Presentation("pres.pptx"))
 
 ### Δείτε επίσης
 
-* namespace [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
-* assembly [Aspose.Slides](../../)
+* χώρο ονομάτων [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
+* συγκρότημα [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

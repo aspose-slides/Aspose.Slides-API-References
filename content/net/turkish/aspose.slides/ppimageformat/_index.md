@@ -1,14 +1,14 @@
 ---
 title: PPImageFormat
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Görüntü formatları. Bu enum, System.Drawing.Imaging.ImageFormat sınıfının yerine geçer. COM uyumluluğu için gereklidir.
 type: docs
-weight: 9240
+weight: 9260
 url: /tr/aspose.slides/ppimageformat/
 ---
-## PPImageFormat numaralandırması
+## PPImageFormat enum
 
-Görüntü formatları. Bu enum, `System.Drawing.Imaging.ImageFormat` sınıfının yerine geçer. COM uyumluluğu için gereklidir.
+Görüntü biçimleri. Bu enum, `System.Drawing.Imaging.ImageFormat` sınıfının yerine geçer. COM uyumluluğu için gereklidir.
 
 ```csharp
 public enum PPImageFormat
@@ -18,18 +18,18 @@ public enum PPImageFormat
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Bmp | `0` | Bitmap (BMP) görüntü formatını alır. |
-| Emf | `1` | Gelişmiş metafile (EMF) görüntü formatını alır. |
-| Exif | `2` | Değiştirilebilir Görüntü Dosyası (Exif) formatını alır. |
-| Gif | `3` | Grafik Değişim Formatı (GIF) görüntü formatını alır. |
-| Icon | `4` | Windows simge görüntü formatını alır. |
-| Jpeg | `5` | Ortak Fotoğraf Uzmanları Grubu (JPEG) görüntü formatını alır. |
-| MemoryBmp | `6` | Bellekteki bitmap formatını alır. |
-| Png | `7` | W3C Taşınabilir Ağ Grafikleri (PNG) görüntü formatını alır. |
-| Tiff | `8` | Etiketli Görüntü Dosyası Formatı (TIFF) görüntü formatını alır. |
-| Wmf | `9` | Windows metafile (WMF) görüntü formatını alır. |
+| Bmp | `0` | Bitmap (BMP) görüntü biçimini alır. |
+| Emf | `1` | Gelişmiş metafile (EMF) görüntü biçimini alır. |
+| Exif | `2` | Değiştirilebilir Görüntü Dosyası (Exif) biçimini alır. |
+| Gif | `3` | Grafik Değişim Biçimi (GIF) görüntü biçimini alır. |
+| Icon | `4` | Windows simge görüntü biçimini alır. |
+| Jpeg | `5` | Ortak Fotoğraf Uzmanları Grubu (JPEG) görüntü biçimini alır. |
+| MemoryBmp | `6` | Bellekteki bitmap'in biçimini alır. |
+| Png | `7` | W3C Taşınabilir Ağ Grafikleri (PNG) görüntü biçimini alır. |
+| Tiff | `8` | Etiketli Görüntü Dosyası Biçimi (TIFF) görüntü biçimini alır. |
+| Wmf | `9` | Windows metafile (WMF) görüntü biçimini alır. |
 
-### Ayrıca Bakınız
+### Diğer Bağlantılar
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

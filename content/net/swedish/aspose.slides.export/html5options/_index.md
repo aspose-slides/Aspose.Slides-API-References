@@ -1,14 +1,14 @@
 ---
 title: Html5Options
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar ett HTML5-exportalternativ.
+description: Representerar alternativ för HTML5-export.
 type: docs
-weight: 3840
+weight: 3860
 url: /sv/aspose.slides.export/html5options/
 ---
-## Html5Options klass
+## Html5Options-klass
 
-Representerar ett HTML5-exportalternativ.
+Representerar alternativ för HTML5-export.
 
 ```csharp
 public class Html5Options : SaveOptions, IHtml5Options
@@ -18,23 +18,24 @@ public class Html5Options : SaveOptions, IHtml5Options
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Html5Options](html5options)() | Standardkonstruktor. |
+| [Html5Options](html5options)() | Standardkonstruktör. |
 
 ## Egenskaper
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | Returnerar eller anger animeringsalternativ för former. Läs/skriv Boolean. |
-| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | Returnerar eller anger animeringsalternativ för övergångar. Läs/skriv Boolean. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Returnerar eller anger typsnitt som används om källtypsnittet inte finns. Läs/skriv String. |
-| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | Hämtar eller anger ett värde som visar om text renderas utan ligaturer. När den är satt till `true` kommer ligaturer att inaktiveras i den renderade utskriften. Som standard är denna egenskap satt till `false`. |
+| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | Returnerar eller anger alternativ för formanimation. Läs/skriv Boolean. |
+| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | Returnerar eller anger alternativ för övergångsanimation. Läs/skriv Boolean. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Returnerar eller anger teckensnitt som används om källteckensnittet inte hittas. Läs/skriv String. |
+| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | Hämtar eller anger ett värde som indikerar om text renderas utan ligaturer. När den är satt till `true` kommer ligaturer att inaktiveras i den renderade utdata. Som standard är denna egenskap satt till `false`. |
 | [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | Returnerar eller anger alternativ för inbäddning av bilder. Läs/skriv Boolean. |
 | [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Returnerar eller anger den visuella stilen för gradienten. Läs/skriv [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | Bestämmer var externa resurser ska lagras. Läs/skriv String. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Representerar ett återuppringningsobjekt för att spara förloppsuppdateringar i procent. Se [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Anger om hyperlänkar med JavaScript-anrop ska hoppas över vid sparande av presentationen. Läs/skriv Boolean. Standardvärdet är **false**. |
-| [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | Hämtar eller anger det läge i vilket bilder placeras på sidan vid export av en presentation [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Returnerar eller anger ett objekt som tar emot varningar och beslutar om inläsningsprocessen ska fortsätta eller avbrytas. Läs/skriv [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [PicturesCompression](../../aspose.slides.export/html5options/picturescompression) { get; set; } | Representerar komprimeringsnivån för bilder |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Representerar ett återuppringningsobjekt för att spara framstegsuppdateringar i procent. Se [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Anger om hyperlänkar med JavaScript-anrop ska hoppas över när presentationen sparas. Läs/skriv Boolean. Standardvärdet är **false**. |
+| [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | Hämtar eller anger läget i vilket bildspel placeras på sidan vid export av en presentation [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Returnerar eller anger ett objekt som mottar varningar och avgör om laddningsprocessen ska fortsätta eller avbrytas. Läs/skriv [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Exempel
 
@@ -52,11 +53,11 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### Se också
+### Se även
 
 * klass [SaveOptions](../saveoptions)
 * gränssnitt [IHtml5Options](../ihtml5options)
-* namnrymd [Aspose.Slides.Export](../../aspose.slides.export)
+* namnutrymme [Aspose.Slides.Export](../../aspose.slides.export)
 * samling [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

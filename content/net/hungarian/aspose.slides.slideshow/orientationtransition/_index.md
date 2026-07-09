@@ -1,14 +1,14 @@
 ---
 title: OrientationTransition
-second_title: Aspose.Sildes .NET API referencia
-description: Orientációs diák átmeneti effektus.
+second_title: Aspose.Sildes .NET API Referencia
+description: Tájolási diaátmenet hatása.
 type: docs
-weight: 10250
+weight: 10270
 url: /hu/aspose.slides.slideshow/orientationtransition/
 ---
 ## OrientationTransition osztály
 
-Dia orientációs átmeneti effektus.
+Orientation slide transition effect.
 
 ```csharp
 public class OrientationTransition : TransitionValueBase, IOrientationTransition
@@ -24,8 +24,8 @@ public class OrientationTransition : TransitionValueBase, IOrientationTransition
 
 | Név | Leírás |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Meghatározza, hogy a két TransitionValueBase példány egyenlő-e. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Hash függvényként szolgál egy adott típushoz, amely alkalmas hash algoritmusokban és adatstruktúrákban, például hash tábla használatára. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Megállapítja, hogy a két TransitionValueBase példány egyenlő-e. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Hash függvényként szolgál egy adott típushoz, amely alkalmas hash algoritmusokban és olyan adatstruktúrákban, mint a hash tábla, való használatra. |
 
 ### Lásd még
 

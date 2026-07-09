@@ -1,14 +1,14 @@
 ---
 title: PropertyValueType
 second_title: Aspose.Sildes for .NET API リファレンス
-description: プロパティ値の型を表します。
+description: プロパティ値のタイプを表します。
 type: docs
-weight: 740
+weight: 760
 url: /ja/aspose.slides.animation/propertyvaluetype/
 ---
-## PropertyValueType 列挙体
+## PropertyValueType 列挙型
 
-プロパティ値の型を表します。
+プロパティの値のタイプを表します。
 
 ```csharp
 public enum PropertyValueType

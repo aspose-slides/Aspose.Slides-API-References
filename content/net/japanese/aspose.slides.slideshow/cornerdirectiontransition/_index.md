@@ -1,9 +1,9 @@
 ---
 title: CornerDirectionTransition
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: コーナー方向のスライド遷移効果。
 type: docs
-weight: 9990
+weight: 10010
 url: /ja/aspose.slides.slideshow/cornerdirectiontransition/
 ---
 ## CornerDirectionTransition クラス
@@ -18,13 +18,13 @@ public class CornerDirectionTransition : TransitionValueBase, ICornerDirectionTr
 
 | 名前 | 説明 |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/cornerdirectiontransition/direction) { get; set; } | 遷移の方向。読み取り/書き込み [`TransitionCornerDirectionType`](../transitioncornerdirectiontype)。 |
+| [Direction](../../aspose.slides.slideshow/cornerdirectiontransition/direction) { get; set; } | 遷移の方向。 読み書き [`TransitionCornerDirectionType`](../transitioncornerdirectiontype)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 2つの TransitionValueBase インスタンスが等しいかどうかを判定します。 |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 2つの TransitionValueBase インスタンスが等しいかどうかを判断します。 |
 | override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 特定の型に対するハッシュ関数として機能し、ハッシュアルゴリズムやハッシュテーブルのようなデータ構造での使用に適しています。 |
 
 ### 参照

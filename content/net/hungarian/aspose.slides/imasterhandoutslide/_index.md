@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlide
 second_title: Aspose.Sildes .NET API referencia
-description: Kézikönyvekhez tartozó mester diát reprezentál.
+description: A kézbevételek mesterdiáját képviseli.
 type: docs
-weight: 6330
+weight: 6350
 url: /hu/aspose.slides/imasterhandoutslide/
 ---
 ## IMasterHandoutSlide interfész
 
-A kézikönyvekhez tartozó mesterdia.
+A kézbevételek mesterdiáját képviseli.
 
 ```csharp
 public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
@@ -18,10 +18,10 @@ public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
 
 | Név | Leírás |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | Lehetővé teszi az IBaseSlide alaposztály interfész lekérését. Csak olvasható [`IBaseSlide`](../ibaseslide). |
+| [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | Lehetővé teszi az IBaseSlide alap interfész lekérését. Csak olvasható [`IBaseSlide`](../ibaseslide). |
 | [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | Visszaadja az IMasterThemeable interfészt. Csak olvasható [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | Visszaad egy gyűjteményt a mester kézikönyv diák rajzolóvezetőiről. Csak olvasható [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | Visszaadja a HeaderFooter menedzsert a mester kézikönyv dián. Csak olvasható [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
+| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | Visszaadja a mesterhandout dia rajzolási útmutatóinak gyűjteményét. Csak olvasható [`IDrawingGuidesCollection`](../idrawingguidescollection). |
+| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | Visszaadja a mesterhandout dia HeaderFooter kezelőjét. Csak olvasható [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
 
 ### Lásd még
 

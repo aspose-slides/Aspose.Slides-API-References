@@ -1,14 +1,14 @@
 ---
 title: ILayoutPlaceholderManager
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en hanterare som tillåter dig att lägga till platshållare på layoutbilden.
+description: Representerar en hanterare som låter dig lägga till platshållare på layoutbilden.
 type: docs
-weight: 6190
+weight: 6210
 url: /sv/aspose.slides/ilayoutplaceholdermanager/
 ---
 ## ILayoutPlaceholderManager gränssnitt
 
-Representerar en hanterare som tillåter dig att lägga till platshållare på layoutbilden.
+Representerar en hanterare som låter dig lägga till platshållare på layoutbilden.
 
 ```csharp
 public interface ILayoutPlaceholderManager
@@ -18,20 +18,20 @@ public interface ILayoutPlaceholderManager
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AddChartPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | Lägger till en ny platshållarform på layoutbilden för att innehålla ett diagram. |
-| [AddContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | Lägger till en ny platshållarform på layoutbilden för att innehålla innehåll, till exempel en bild, tabell, media eller text. |
-| [AddMediaPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | Lägger till en ny platshållarform på layoutbilden för att innehålla ett mediaobjekt. |
-| [AddOnlineImagePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | Lägger till en ny platshållarform på layoutbilden för att innehålla en online-bild. |
-| [AddPicturePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | Lägger till en ny platshållarform på layoutbilden för att innehålla en bild. |
-| [AddSmartArtPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | Lägger till en ny platshållarform på layoutbilden för att innehålla ett SmartArt-diagram. |
-| [AddTablePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | Lägger till en ny platshållarform på layoutbilden för att innehålla en tabell. |
-| [AddTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | Lägger till en ny platshållarform på layoutbilden för att innehålla textinnehåll. |
-| [AddVerticalContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Lägger till en ny platshållarform på layoutbilden för att innehålla innehåll, till exempel en bild, tabell, media eller text i vertikal riktning. |
-| [AddVerticalTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Lägger till en ny platshållarform på layoutbilden för att innehålla textinnehåll i vertikal riktning. |
+| [AddChartPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | Lägger till en ny platshållarform på layoutbilden för att hålla ett diagram. |
+| [AddContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | Lägger till en ny platshållarform på layoutbilden för att hålla innehåll, till exempel en bild, tabell, media eller text. |
+| [AddMediaPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | Lägger till en ny platshållarform på layoutbilden för att hålla ett mediaobjekt. |
+| [AddOnlineImagePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | Lägger till en ny platshållarform på layoutbilden för att hålla en online-bild. |
+| [AddPicturePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | Lägger till en ny platshållarform på layoutbilden för att hålla en bild. |
+| [AddSmartArtPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | Lägger till en ny platshållarform på layoutbilden för att hålla ett SmartArt-diagram. |
+| [AddTablePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | Lägger till en ny platshållarform på layoutbilden för att hålla en tabell. |
+| [AddTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | Lägger till en ny platshållarform på layoutbilden för att hålla textinnehåll. |
+| [AddVerticalContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Lägger till en ny platshållarform på layoutbilden för att hålla innehåll, till exempel en bild, tabell, media eller text i vertikal riktning. |
+| [AddVerticalTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Lägger till en ny platshållarform på layoutbilden för att hålla textinnehåll i vertikal riktning. |
 
 ### Se även
 
 * namnrymd [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* samling [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

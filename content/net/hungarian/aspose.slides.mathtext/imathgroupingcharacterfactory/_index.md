@@ -1,29 +1,29 @@
 ---
 title: IMathGroupingCharacterFactory
-second_title: Aspose.Sildes .NET API hivatkozás
+second_title: Aspose.Sildes .NET API Referenciája
 description: Lehetővé teszi egy matematikai csoportosító karakter létrehozását
 type: docs
-weight: 8280
+weight: 8300
 url: /hu/aspose.slides.mathtext/imathgroupingcharacterfactory/
 ---
 ## IMathGroupingCharacterFactory interfész
 
-Lehetővé teszi egy matematikai csoportosító karakter létrehozását
+Lehetővé teszi matematikai csoportosító karakter létrehozását
 
 ```csharp
 public interface IMathGroupingCharacterFactory
 ```
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter)(IMathElement) | Létrehozza a matematikai csoportosítási karaktert |
-| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter_1)(IMathElement, char, MathTopBotPositions, MathTopBotPositions) | Létrehozza a matematikai csoportosítási karaktert |
+| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter)(IMathElement) | Létrehoz egy matematikai csoportosító karaktert |
+| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter_1)(IMathElement, char, MathTopBotPositions, MathTopBotPositions) | Létrehoz egy matematikai csoportosító karaktert |
 
-### Megjegyzés
+### Megjegyzések
 
-COM kompatibilitáshoz
+COM kompatibilitás miatt
 
 ### Lásd még
 

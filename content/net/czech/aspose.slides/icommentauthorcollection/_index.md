@@ -1,14 +1,12 @@
 ---
 title: ICommentAuthorCollection
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje kolekci autorů komentářů.
+second_title: Aspose.Sildes pro .NET – reference API
+description: Představuje kolekci autorů komentářů.
 type: docs
-weight: 5560
+weight: 5580
 url: /cs/aspose.slides/icommentauthorcollection/
 ---
 ## ICommentAuthorCollection rozhraní
-
-Reprezentuje kolekci autorů komentářů.
 
 ```csharp
 public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
@@ -18,7 +16,7 @@ public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
 
 | Název | Popis |
 | --- | --- |
-| [Item](../../aspose.slides/icommentauthorcollection/item) { get; } | Získá prvek na zadaném indexu. Pouze ke čtení [`ICommentAuthor`](../icommentauthor). |
+| [Item](../../aspose.slides/icommentauthorcollection/item) { get; } | Získá prvek na zadaném indexu. Pouze pro čtení [`ICommentAuthor`](../icommentauthor). |
 
 ## Metody
 

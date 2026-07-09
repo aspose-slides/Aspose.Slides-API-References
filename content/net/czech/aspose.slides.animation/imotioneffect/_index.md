@@ -1,9 +1,9 @@
 ---
 title: IMotionEffect
-second_title: Aspose.Sildes pro .NET – referenční příručka API
+second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje chování efektu pohybu.
 type: docs
-weight: 500
+weight: 520
 url: /cs/aspose.slides.animation/imotioneffect/
 ---
 ## IMotionEffect rozhraní
@@ -18,15 +18,15 @@ public interface IMotionEffect : IBehavior
 
 | Název | Popis |
 | --- | --- |
-| [Angle](../../aspose.slides.animation/imotioneffect/angle) { get; set; } | Popisuje relativní úhel trajektorie pohybu. Čtení/Zápis Single. |
-| [AsIBehavior](../../aspose.slides.animation/imotioneffect/asibehavior) { get; } | Umožňuje získat základní rozhraní IBehavior. Pouze pro čtení [`IBehavior`](../ibehavior). |
-| [By](../../aspose.slides.animation/imotioneffect/by) { get; set; } | Popisuje relativní hodnotu posunu pro animaci (v procentech). Čtení/Zápis PointF. |
-| [From](../../aspose.slides.animation/imotioneffect/from) { get; set; } | Určuje souřadnici x/y, odkud má animace začít (v procentech). Čtení/Zápis PointF. |
-| [Origin](../../aspose.slides.animation/imotioneffect/origin) { get; set; } | Určuje, vůči čemu je počátek trajektorie pohybu relativní, například k rozvržení snímku nebo rodiči. Čtení/Zápis [`MotionOriginType`](../motionorigintype). |
-| [Path](../../aspose.slides.animation/imotioneffect/path) { get; set; } | Určuje primitivní část cesty následovanou souřadnicemi pro pohyb animace. Čtení/Zápis [`IMotionPath`](../imotionpath). |
-| [PathEditMode](../../aspose.slides.animation/imotioneffect/patheditmode) { get; set; } | Určuje, jak se trajektorie pohybu mění při přesunu tvaru. Čtení/Zápis [`MotionPathEditMode`](../motionpatheditmode). |
-| [RotationCenter](../../aspose.slides.animation/imotioneffect/rotationcenter) { get; set; } | Popisuje střed otáčení používaný k rotaci trajektorie pohybu o úhel X. Čtení/Zápis PointF. |
-| [To](../../aspose.slides.animation/imotioneffect/to) { get; set; } | Určuje cílovou polohu pro efekt pohybu animace (v procentech). Čtení/Zápis PointF. |
+| [Angle](../../aspose.slides.animation/imotioneffect/angle) { get; set; } | Popisuje relativní úhel cesty pohybu. Čtení a zápis Single. |
+| [AsIBehavior](../../aspose.slides.animation/imotioneffect/asibehavior) { get; } | Umožňuje získat základní rozhraní IBehavior. Pouze ke čtení [`IBehavior`](../ibehavior). |
+| [By](../../aspose.slides.animation/imotioneffect/by) { get; set; } | Popisuje relativní hodnotu posunu pro animaci (v procentech). Čtení a zápis PointF. |
+| [From](../../aspose.slides.animation/imotioneffect/from) { get; set; } | Určuje souřadnici x/y, ze které se animace spustí (v procentech). Čtení a zápis PointF. |
+| [Origin](../../aspose.slides.animation/imotioneffect/origin) { get; set; } | Určuje, ke kterému prvku je původ cesty pohybu relativní, například k rozložení snímku nebo k nadřazenému objektu. Čtení a zápis [`MotionOriginType`](../motionorigintype). |
+| [Path](../../aspose.slides.animation/imotioneffect/path) { get; set; } | Určuje primitivum cesty následované souřadnicemi pro pohyb animace. Čtení a zápis [`IMotionPath`](../imotionpath). |
+| [PathEditMode](../../aspose.slides.animation/imotioneffect/patheditmode) { get; set; } | Určuje, jak se cesta pohybu mění, když je tvar přesunut. Čtení a zápis [`MotionPathEditMode`](../motionpatheditmode). |
+| [RotationCenter](../../aspose.slides.animation/imotioneffect/rotationcenter) { get; set; } | Popisuje střed rotace používaný k otáčení cesty pohybu o úhel X. Čtení a zápis PointF. |
+| [To](../../aspose.slides.animation/imotioneffect/to) { get; set; } | Určuje cílové umístění efektu pohybu animace (v procentech). Čtení a zápis PointF. |
 
 ### Viz také
 

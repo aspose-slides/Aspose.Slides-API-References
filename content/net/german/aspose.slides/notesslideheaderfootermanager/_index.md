@@ -1,15 +1,14 @@
 ---
 title: NotesSlideHeaderFooterManager
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt den Manager dar, der das Verhalten der Platzhalter für Notizenfolien, einschließlich des Kopfzeilenplatzhalters, hält.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt den Manager dar, der das Verhalten der Notizfolien-Platzhalter einschließlich des Kopfzeilen-Platzhalters verwaltet.
 type: docs
-weight: 8880
+weight: 9150
 url: /de/aspose.slides/notesslideheaderfootermanager/
 ---
-
 ## NotesSlideHeaderFooterManager Klasse
 
-Stellt den Manager dar, der das Verhalten der Platzhalter für Notizenfolien, einschließlich des Kopfzeilenplatzhalters, hält.
+Stellt den Manager dar, der das Verhalten der Notizfolien-Platzhalter verwaltet, einschließlich des Kopfzeilen-Platzhalters.
 
 ```csharp
 public sealed class NotesSlideHeaderFooterManager : BaseHandoutNotesSlideHeaderFooterManager, 
@@ -20,28 +19,28 @@ public sealed class NotesSlideHeaderFooterManager : BaseHandoutNotesSlideHeaderF
 
 | Name | Beschreibung |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Gibt den Wert an, dass ein Platzhalter für Datum und Uhrzeit vorhanden ist. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Gibt den Wert an, dass ein Fußzeilenplatzhalter vorhanden ist. Read Boolean. |
-| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Gibt den Wert an, dass ein Kopfzeilenplatzhalter vorhanden ist. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Gibt den Wert an, dass ein Seitenzahlplatzhalter vorhanden ist. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Liest den Wert, der anzeigt, dass ein Datum-Uhrzeit-Platzhalter vorhanden ist. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Liest den Wert, der anzeigt, dass ein Fußzeilen-Platzhalter vorhanden ist. Read Boolean. |
+| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Liest den Wert, der anzeigt, dass ein Kopfzeilen-Platzhalter vorhanden ist. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Liest den Wert, der anzeigt, dass ein Seitenzahl-Platzhalter vorhanden ist. ReadBoolean. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Setzt den Text für den Platzhalter Datum und Uhrzeit auf der Folie. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Ändert die Sichtbarkeit des Platzhalters für Datum und Uhrzeit auf der Folie. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Setzt den Text für den Fußzeilenplatzhalter auf der Folie. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Ändert die Sichtbarkeit des Fußzeilenplatzhalters auf der Folie. |
-| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Setzt den Text für den Kopfzeilenplatzhalter auf der Folie. |
-| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Ändert die Sichtbarkeit des Kopfzeilenplatzhalters auf der Folie. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Ändert die Sichtbarkeit des Seitenzahlplatzhalters auf der Folie. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Setzt Text auf den Datum-Uhrzeit-Platzhalter der Folie. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Ändert die Sichtbarkeit des Datum-Uhrzeit-Platzhalters der Folie. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Setzt Text auf den Fußzeilen-Platzhalter der Folie. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Ändert die Sichtbarkeit des Fußzeilen-Platzhalters der Folie. |
+| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Setzt Text auf den Kopfzeilen-Platzhalter der Folie. |
+| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Ändert die Sichtbarkeit des Kopfzeilen-Platzhalters der Folie. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Ändert die Sichtbarkeit des Seitenzahl-Platzhalters der Folie. |
 
 ### Siehe auch
 
-* Klasse [BaseHandoutNotesSlideHeaderFooterManager](../basehandoutnotesslideheaderfootermanager)
-* Schnittstelle [INotesSlideHeaderFooterManager](../inotesslideheaderfootermanager)
-* Namespace [Aspose.Slides](../../aspose.slides)
-* Assembly [Aspose.Slides](../../)
+* Klasse [BaseHandoutNotesSlideHeaderFooterManager](../basehandoutnotesslideheaderfootermanager)
+* Schnittstelle [INotesSlideHeaderFooterManager](../inotesslideheaderfootermanager)
+* Namensraum [Aspose.Slides](../../aspose.slides)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

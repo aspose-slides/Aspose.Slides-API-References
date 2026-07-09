@@ -1,14 +1,14 @@
 ---
 title: Tint
 second_title: Aspose.Sildes for .NET API リファレンス
-description: Tint エフェクトを表します。指定された量だけ、エフェクトの色の値を色相に近づけたり遠ざけたりします。
+description: Tint エフェクトを表します。指定された量だけ効果の色値を色相に向けたり離したりします。
 type: docs
-weight: 3640
+weight: 3660
 url: /ja/aspose.slides.effects/tint/
 ---
 ## Tint クラス
 
-Tint エフェクトを表します。指定された量だけ、エフェクトの色の値を色相に近づけたり遠ざけたりします。
+ベースのカラー値を指定した量だけ色相に近づけたり遠ざけたりする Tint エフェクトを表します。
 
 ```csharp
 public sealed class Tint : ImageTransformOperation, ITint
@@ -25,7 +25,7 @@ public sealed class Tint : ImageTransformOperation, ITint
 | 名前 | 説明 |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/tint/equals)(object) | 指定された [`Tint`](../tint) が現在の [`Tint`](../tint) と等しいかどうかを判断します。 |
-| [GetEffective](../../aspose.slides.effects/tint/geteffective)() | 継承が適用された有効な Tint エフェクトデータを取得します。 |
+| [GetEffective](../../aspose.slides.effects/tint/geteffective)() | 継承が適用された効果的な Tint 効果データを取得します。 |
 | override [GetHashCode](../../aspose.slides.effects/tint/gethashcode)() | 特定の型に対するハッシュ関数として機能します。 |
 
 ### 参照

@@ -1,14 +1,14 @@
 ---
 title: ShapeElementStrokeSource
-second_title: Aspose.Sildes .NET API referencia
-description: Leírja, hogyan kell a shape elemet megjeleníteni.
+second_title: Aspose.Sildes a .NET API referencia
+description: Azt jelöli, hogyan kell megrajzolni a formaelemet.
 type: docs
-weight: 9870
+weight: 9890
 url: /hu/aspose.slides/shapeelementstrokesource/
 ---
-## ShapeElementStrokeSource enumeráció
+## ShapeElementStrokeSource felsorolás
 
-Azt jelzi, hogyan kell a shape elemet megjeleníteni.
+Azt reprezentálja, hogy a formaelem hogyan legyen megrajzolva.
 
 ```csharp
 public enum ShapeElementStrokeSource : byte
@@ -18,8 +18,8 @@ public enum ShapeElementStrokeSource : byte
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| NoStroke | `0` | Ne vonallal rajzolja a primitívet. |
-| Shape | `1` | Használja a shape LineFormat-ját. |
+| NoStroke | `0` | Ne rajzoljon körvonalat a primitíven. |
+| Shape | `1` | Használja a forma LineFormat beállítását. |
 | OwnStroke | `2` | Használja a saját körvonalat. |
 
 ### Lásd még

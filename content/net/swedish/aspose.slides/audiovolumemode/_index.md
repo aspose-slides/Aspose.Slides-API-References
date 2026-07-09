@@ -3,12 +3,12 @@ title: AudioVolumeMode
 second_title: Aspose.Sildes för .NET API-referens
 description: Konstanter som definierar ljudvolym.
 type: docs
-weight: 870
+weight: 890
 url: /sv/aspose.slides/audiovolumemode/
 ---
-## AudioVolumeMode-enumeration
+## AudioVolumeMode enum
 
-Konstanter som definierar ljudvolym.
+Konstanter som definierar ljudvolymen.
 
 ```csharp
 public enum AudioVolumeMode

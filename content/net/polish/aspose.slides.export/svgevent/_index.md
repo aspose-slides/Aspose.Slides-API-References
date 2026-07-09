@@ -1,12 +1,12 @@
 ---
 title: SvgEvent
-second_title: Aspose.Sildes dla .NET – Referencja API
+second_title: Aspose.Sildes dla .NET Referencja API
 description: Reprezentuje opcje dla kształtu SVG.
 type: docs
-weight: 4470
+weight: 4490
 url: /pl/aspose.slides.export/svgevent/
 ---
-## Wyliczenie SvgEvent
+## Enumeracja SvgEvent
 
 Reprezentuje opcje dla kształtu SVG.
 
@@ -18,22 +18,22 @@ public enum SvgEvent
 
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
-| OnFocusIn | `0` | Występuje, gdy element otrzymuje fokus, na przykład gdy tekst zostaje zaznaczony. |
-| OnFocusOut | `1` | Występuje, gdy element traci fokus, na przykład gdy tekst zostaje odznaczony. |
-| OnActivate | `2` | Występuje, gdy element zostaje aktywowany, na przykład poprzez kliknięcie myszy lub naciśnięcie klawisza. |
+| OnFocusIn | `0` | Występuje, gdy element otrzymuje fokus, np. gdy tekst zostaje zaznaczony. |
+| OnFocusOut | `1` | Występuje, gdy element traci fokus, np. gdy tekst przestaje być zaznaczony. |
+| OnActivate | `2` | Występuje, gdy element jest aktywowany, np. przez kliknięcie myszy lub naciśnięcie klawisza. |
 | OnClick | `3` | Występuje, gdy przycisk urządzenia wskazującego jest kliknięty nad elementem. |
-| OnMouseDown | `4` | Występuje, gdy przycisk urządzenia wskazującego jest przyciśnięty nad elementem. |
+| OnMouseDown | `4` | Występuje, gdy przycisk urządzenia wskazującego jest naciśnięty nad elementem. |
 | OnMouseUp | `5` | Występuje, gdy przycisk urządzenia wskazującego jest zwolniony nad elementem. |
-| OnMouseOver | `6` | Występuje, gdy urządzenie wskazujące jest przesunięte na element. |
-| OnMouseMove | `7` | Występuje, gdy urządzenie wskazujące jest przesuwane, gdy znajduje się nad elementem. |
-| OnMouseOut | `8` | Występuje, gdy urządzenie wskazujące jest przesunięte z elementu. |
-| OnLoad | `9` | Występuje, gdy agent użytkownika w pełni przetworzył element oraz jego potomków i wszystkie odniesione zasoby niezbędne do jego renderowania. |
-| OnUnload | `10` | Występuje, gdy implementacja DOM usuwa dokument z okna lub ramki. Dotyczy wyłącznie najbardziej zewnętrznych elementów svg. |
-| OnAbort | `11` | Występuje, gdy ładowanie strony zostaje zatrzymane, zanim element miał możliwość pełnego załadowania. |
-| OnError | `12` | Występuje, gdy element nie ładuje się prawidłowo lub gdy wystąpi błąd podczas wykonywania skryptu. |
-| OnResize | `13` | Występuje, gdy widok dokumentu jest zmieniany rozmiar. Dotyczy wyłącznie najbardziej zewnętrznych elementów svg. |
-| OnScroll | `14` | Występuje, gdy widok dokumentu jest przesuwany wzdłuż osi X, Y lub obu jednocześnie. Dotyczy wyłącznie najbardziej zewnętrznych elementów svg. |
-| OnZoom | `15` | Występuje, gdy poziom powiększenia widoku dokumentu jest zmieniany. Dotyczy wyłącznie najbardziej zewnętrznych elementów svg. |
+| OnMouseOver | `6` | Występuje, gdy urządzenie wskazujące jest przesuwane na element. |
+| OnMouseMove | `7` | Występuje, gdy urządzenie wskazujące jest przesuwane, będąc nad elementem. |
+| OnMouseOut | `8` | Występuje, gdy urządzenie wskazujące jest przesuwane z elementu. |
+| OnLoad | `9` | Występuje, gdy agent użytkownika w pełni przetworzył element oraz jego potomków i wszystkie odwołane zasoby potrzebne do jego renderowania. |
+| OnUnload | `10` | Występuje, gdy implementacja DOM usuwa dokument z okna lub ramki. Dotyczy wyłącznie zewnętrznych elementów svg. |
+| OnAbort | `11` | Występuje, gdy ładowanie strony zostaje przerwane, zanim element zostanie w pełni załadowany. |
+| OnError | `12` | Występuje, gdy element nie ładuje się poprawnie lub gdy wystąpi błąd podczas wykonywania skryptu. |
+| OnResize | `13` | Występuje, gdy widok dokumentu jest zmieniany rozmiarem. Dotyczy wyłącznie zewnętrznych elementów svg. |
+| OnScroll | `14` | Występuje, gdy widok dokumentu jest przesuwany wzdłuż osi X lub Y lub obu jednocześnie. Dotyczy wyłącznie zewnętrznych elementów svg. |
+| OnZoom | `15` | Występuje, gdy poziom przybliżenia widoku dokumentu jest zmieniany. Dotyczy wyłącznie zewnętrznych elementów svg. |
 | OnBegin | `16` | Występuje, gdy element animacji rozpoczyna się. |
 | OnEnd | `17` | Występuje, gdy element animacji kończy się. |
 | OnRepeat | `18` | Występuje, gdy element animacji powtarza się. |

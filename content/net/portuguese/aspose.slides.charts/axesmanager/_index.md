@@ -1,9 +1,9 @@
 ---
 title: AxesManager
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Fornece acesso aos eixos do gráfico.
 type: docs
-weight: 1150
+weight: 1170
 url: /pt/aspose.slides.charts/axesmanager/
 ---
 ## AxesManager classe
@@ -16,7 +16,7 @@ public class AxesManager : DomObject<Chart>, IAxesManager
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [HorizontalAxis](../../aspose.slides.charts/axesmanager/horizontalaxis) { get; } | Obtém o eixo horizontal do gráfico. Somente leitura [`IAxis`](../iaxis). |
 | [SecondaryHorizontalAxis](../../aspose.slides.charts/axesmanager/secondaryhorizontalaxis) { get; } | Obtém o eixo horizontal secundário do gráfico. Somente leitura [`IAxis`](../iaxis). |
@@ -24,10 +24,10 @@ public class AxesManager : DomObject<Chart>, IAxesManager
 | [SeriesAxis](../../aspose.slides.charts/axesmanager/seriesaxis) { get; } | Obtém o eixo de série do gráfico. Somente leitura [`IAxis`](../iaxis). |
 | [VerticalAxis](../../aspose.slides.charts/axesmanager/verticalaxis) { get; } | Obtém o eixo vertical do gráfico. Somente leitura [`IAxis`](../iaxis). |
 
-### Veja também
+### Ver também
 
-* classe [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
-* classe [Chart](../chart)
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [Chart](../chart)
 * interface [IAxesManager](../iaxesmanager)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

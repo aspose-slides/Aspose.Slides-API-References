@@ -3,12 +3,12 @@ title: IPptxOptions
 second_title: Aspose.Sildes for .NET API リファレンス
 description: OpenXml プレゼンテーション（PPTX、PPSX、POTX、PPTM、PPSM、POTM）を保存するためのオプションを表します。
 type: docs
-weight: 4000
+weight: 4020
 url: /ja/aspose.slides.export/ipptxoptions/
 ---
 ## IPptxOptions インターフェイス
 
-OpenXml プレゼンテーション（PPTX、PPSX、POTX、PPTM、PPSM、POTM）を保存するためのオプションを表します。
+OpenXml プレゼンテーション (PPTX, PPSX, POTX, PPTM, PPSM, POTM) を保存するためのオプションを表します。
 
 ```csharp
 public interface IPptxOptions : ISaveOptions
@@ -18,11 +18,11 @@ public interface IPptxOptions : ISaveOptions
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ipptxoptions/asisaveoptions) { get; } | 基本 ISaveOptions インターフェイスを取得できます。読み取り専用 [`ISaveOptions`](../isaveoptions)。 |
-| [CompressionLevel](../../aspose.slides.export/ipptxoptions/compressionlevel) { get; set; } | プレゼンテーション ドキュメントを保存するときに使用される圧縮レベルを指定します。デフォルト値は Level6 です。 |
-| [Conformance](../../aspose.slides.export/ipptxoptions/conformance) { get; set; } | プレゼンテーション ドキュメントが準拠する準拠クラスを指定します。デフォルト値は Ecma376_2006 です。 |
-| [RefreshThumbnail](../../aspose.slides.export/ipptxoptions/refreshthumbnail) { get; set; } | プレゼンテーションのサムネイルを更新するかどうかを指定します。読み書き可能な Boolean。デフォルト値は **true** です。 |
-| [Zip64Mode](../../aspose.slides.export/ipptxoptions/zip64mode) { get; set; } | プレゼンテーション ドキュメントに ZIP64 形式を使用するかどうかを指定します。デフォルト値は IfNecessary です。 |
+| [AsISaveOptions](../../aspose.slides.export/ipptxoptions/asisaveoptions) { get; } | ベースの ISaveOptions インターフェイスを取得できます。読み取り専用 [`ISaveOptions`](../isaveoptions)。 |
+| [CompressionLevel](../../aspose.slides.export/ipptxoptions/compressionlevel) { get; set; } | プレゼンテーション ドキュメントを保存する際に使用される圧縮レベルを指定します。既定値は Level6 です。 |
+| [Conformance](../../aspose.slides.export/ipptxoptions/conformance) { get; set; } | プレゼンテーション ドキュメントが準拠するコンフォーマンス クラスを指定します。既定値は Ecma376_2006 です。 |
+| [RefreshThumbnail](../../aspose.slides.export/ipptxoptions/refreshthumbnail) { get; set; } | プレゼンテーションのサムネイルを更新するかどうかを指定します。読み書き可能な Boolean。既定値は **true** です。 |
+| [Zip64Mode](../../aspose.slides.export/ipptxoptions/zip64mode) { get; set; } | プレゼンテーション ドキュメントで ZIP64 形式を使用するかどうかを指定します。既定値は IfNecessary です。 |
 
 ### 参照
 

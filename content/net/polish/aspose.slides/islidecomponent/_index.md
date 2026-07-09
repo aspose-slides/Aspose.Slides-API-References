@@ -1,12 +1,12 @@
 ---
 title: ISlideComponent
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET - odniesienie API
 description: Reprezentuje komponent slajdu.
 type: docs
-weight: 7040
+weight: 7060
 url: /pl/aspose.slides/islidecomponent/
 ---
-## ISlideComponent interfejs
+## interfejs ISlideComponent
 
 Reprezentuje komponent slajdu.
 

@@ -3,7 +3,7 @@ title: GlitterTransition
 second_title: Aspose.Sildes för .NET API-referens
 description: Glitter-bildövergångseffekt.
 type: docs
-weight: 10030
+weight: 10050
 url: /sv/aspose.slides.slideshow/glittertransition/
 ---
 ## GlitterTransition klass
@@ -16,17 +16,17 @@ public class GlitterTransition : TransitionValueBase, IGlitterTransition
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/glittertransition/direction) { get; set; } | Riktning för övergången. Läs/skriv [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
 | [Pattern](../../aspose.slides.slideshow/glittertransition/pattern) { get; set; } | Anger formen på de visuella element som används under övergången. Läs/skriv [`TransitionPattern`](../transitionpattern). |
 
 ## Metoder
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Avgör om de två TransitionValueBase-instanserna är lika. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Fungerar som en hashfunktion för en viss typ, lämplig för användning i hash-algoritmer och datastrukturer såsom en hash-tabell. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bestämmer om de två TransitionValueBase-instanserna är lika. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Fungerar som en hashfunktion för en viss typ, lämplig för användning i hash-algoritmer och datastrukturer som en hashtabell. |
 
 ### Se även
 

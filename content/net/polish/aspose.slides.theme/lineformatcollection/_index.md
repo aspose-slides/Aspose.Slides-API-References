@@ -1,9 +1,9 @@
 ---
 title: LineFormatCollection
-second_title: Aspose.Sildes dla .NET referencja API
+second_title: Aspose.Sildes dla .NET Referencja API
 description: Reprezentuje kolekcję stylów linii.
 type: docs
-weight: 11400
+weight: 11420
 url: /pl/aspose.slides.theme/lineformatcollection/
 ---
 ## LineFormatCollection klasa
@@ -18,9 +18,9 @@ public sealed class LineFormatCollection : DomObject<FormatScheme>, ILineFormatC
 
 | Nazwa | Opis |
 | --- | --- |
-| [Count](../../aspose.slides.theme/lineformatcollection/count) { get; } | Pobiera liczbę elementów faktycznie zawartych w kolekcji. Tylko do odczytu Int32. |
-| [IsSynchronized](../../aspose.slides.theme/lineformatcollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest synchronizowany (wątkowo bezpieczny). Tylko do odczytu Boolean. |
-| [Item](../../aspose.slides.theme/lineformatcollection/item) { get; } | Pobiera element o określonym indeksie. Tylko do odczytu [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Count](../../aspose.slides.theme/lineformatcollection/count) { get; } | Zwraca liczbę elementów faktycznie zawartych w kolekcji. Tylko do odczytu Int32. |
+| [IsSynchronized](../../aspose.slides.theme/lineformatcollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest zsynchronizowany (wątkowo-bezpieczny). Tylko do odczytu Boolean. |
+| [Item](../../aspose.slides.theme/lineformatcollection/item) { get; } | Zwraca element o podanym indeksie. Tylko do odczytu [`ILineFormat`](../../aspose.slides/ilineformat). |
 | [SyncRoot](../../aspose.slides.theme/lineformatcollection/syncroot) { get; } | Zwraca korzeń synchronizacji. Tylko do odczytu Object. |
 
 ## Metody

@@ -1,14 +1,14 @@
 ---
 title: IBehaviorFactory
-second_title: Aspose.Sildes for .NET API リファレンス
-description: アニメーション効果を作成できます
+second_title: Aspose.Sildes の .NET 用 API リファレンス
+description: アニメーション効果を作成できます。
 type: docs
-weight: 410
+weight: 430
 url: /ja/aspose.slides.animation/ibehaviorfactory/
 ---
 ## IBehaviorFactory インターフェイス
 
-アニメーション効果を作成できます
+アニメーション効果を作成できます。
 
 ```csharp
 public interface IBehaviorFactory
@@ -18,14 +18,14 @@ public interface IBehaviorFactory
 
 | 名前 | 説明 |
 | --- | --- |
-| [CreateColorEffect](../../aspose.slides.animation/ibehaviorfactory/createcoloreffect)() | カラー効果を作成します。 |
-| [CreateCommandEffect](../../aspose.slides.animation/ibehaviorfactory/createcommandeffect)() | コマンド効果を作成します。 |
-| [CreateFilterEffect](../../aspose.slides.animation/ibehaviorfactory/createfiltereffect)() | フィルタ効果を作成します。 |
-| [CreateMotionEffect](../../aspose.slides.animation/ibehaviorfactory/createmotioneffect)() | モーション効果を作成します。 |
-| [CreatePropertyEffect](../../aspose.slides.animation/ibehaviorfactory/createpropertyeffect)() | プロパティ効果を作成します。 |
-| [CreateRotationEffect](../../aspose.slides.animation/ibehaviorfactory/createrotationeffect)() | 回転効果を作成します。 |
-| [CreateScaleEffect](../../aspose.slides.animation/ibehaviorfactory/createscaleeffect)() | スケール効果を作成します。 |
-| [CreateSetEffect](../../aspose.slides.animation/ibehaviorfactory/createseteffect)() | セット効果を作成します。 |
+| [CreateColorEffect](../../aspose.slides.animation/ibehaviorfactory/createcoloreffect)() | カラーエフェクトを作成します。 |
+| [CreateCommandEffect](../../aspose.slides.animation/ibehaviorfactory/createcommandeffect)() | コマンドエフェクトを作成します。 |
+| [CreateFilterEffect](../../aspose.slides.animation/ibehaviorfactory/createfiltereffect)() | フィルターエフェクトを作成します。 |
+| [CreateMotionEffect](../../aspose.slides.animation/ibehaviorfactory/createmotioneffect)() | モーションエフェクトを作成します。 |
+| [CreatePropertyEffect](../../aspose.slides.animation/ibehaviorfactory/createpropertyeffect)() | プロパティエフェクトを作成します。 |
+| [CreateRotationEffect](../../aspose.slides.animation/ibehaviorfactory/createrotationeffect)() | 回転エフェクトを作成します。 |
+| [CreateScaleEffect](../../aspose.slides.animation/ibehaviorfactory/createscaleeffect)() | スケールエフェクトを作成します。 |
+| [CreateSetEffect](../../aspose.slides.animation/ibehaviorfactory/createseteffect)() | セットエフェクトを作成します。 |
 
 ### 備考
 

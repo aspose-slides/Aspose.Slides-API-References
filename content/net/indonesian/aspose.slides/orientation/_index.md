@@ -3,7 +3,7 @@ title: Orientation
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili orientasi sebuah shape.
 type: docs
-weight: 9220
+weight: 9240
 url: /id/aspose.slides/orientation/
 ---
 ## Enumerasi Orientasi
@@ -19,7 +19,7 @@ public enum Orientation : sbyte
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
 | Horizontal | `0` | Horizontal. |
-| Vertical | `1` | Vertical. |
+| Vertical | `1` | Vertikal. |
 
 ### Lihat Juga
 

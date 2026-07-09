@@ -3,10 +3,10 @@ title: TextAlignment
 second_title: Aspose.Sildes için .NET API Referansı
 description: Farklı metin hizalama stillerini temsil eder.
 type: docs
-weight: 10880
+weight: 10900
 url: /tr/aspose.slides/textalignment/
 ---
-## TextAlignment enum'ı
+## TextAlignment enumerasyonu
 
 Farklı metin hizalama stillerini temsil eder.
 
@@ -22,11 +22,11 @@ public enum TextAlignment
 | Left | `0` | Sol hizalama. |
 | Center | `1` | Orta hizalama. |
 | Right | `2` | Sağ hizalama. |
-| Justify | `3` | İki yana yaslı hizalama. |
-| JustifyLow | `4` | Kashida düşük iki yana yaslama. |
-| Distributed | `5` | Dağınık hizalama. |
+| Justify | `3` | İki yana yaslama. |
+| JustifyLow | `4` | Kashida düşük yaslama. |
+| Distributed | `5` | Dağıtılmış hizalama. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

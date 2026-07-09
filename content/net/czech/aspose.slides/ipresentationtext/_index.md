@@ -1,14 +1,14 @@
 ---
 title: IPresentationText
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje text extrahovaný ze snímku
+description: Představuje text extrahovaný ze snímku
 type: docs
-weight: 6780
+weight: 6800
 url: /cs/aspose.slides/ipresentationtext/
 ---
 ## IPresentationText rozhraní
 
-Reprezentuje text extrahovaný ze snímku
+Představuje text extrahovaný ze snímku
 
 ```csharp
 public interface IPresentationText

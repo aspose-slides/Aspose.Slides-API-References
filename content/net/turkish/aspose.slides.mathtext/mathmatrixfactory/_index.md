@@ -1,14 +1,14 @@
 ---
 title: MathMatrixFactory
 second_title: Aspose.Sildes için .NET API Referansı
-description: Matematik matrisi oluşturmayı sağlar
+description: Bir matematik matrisi oluşturmayı sağlar
 type: docs
-weight: 8840
+weight: 8860
 url: /tr/aspose.slides.mathtext/mathmatrixfactory/
 ---
-## MathMatrixFactory sınıfı
+## MathMatrixFactory sınıf
 
-Matematik matrisi oluşturmayı sağlar
+Bir matematik matrisi oluşturmayı sağlar
 
 ```csharp
 public class MathMatrixFactory : IMathMatrixFactory
@@ -24,7 +24,7 @@ public class MathMatrixFactory : IMathMatrixFactory
 
 | Ad | Açıklama |
 | --- | --- |
-| [CreateMathMatrix](../../aspose.slides.mathtext/mathmatrixfactory/createmathmatrix)(int, int) | Matematik matrisi oluşturur |
+| [CreateMathMatrix](../../aspose.slides.mathtext/mathmatrixfactory/createmathmatrix)(int, int) | Bir matematik matrisi oluşturur |
 
 ### Açıklamalar
 

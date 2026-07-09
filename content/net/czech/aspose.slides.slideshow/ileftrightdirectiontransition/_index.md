@@ -1,9 +1,9 @@
 ---
 title: ILeftRightDirectionTransition
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET referenční příručka API
 description: Efekt přechodu snímku zleva doprava.
 type: docs
-weight: 10100
+weight: 10120
 url: /cs/aspose.slides.slideshow/ileftrightdirectiontransition/
 ---
 ## ILeftRightDirectionTransition rozhraní
@@ -19,7 +19,7 @@ public interface ILeftRightDirectionTransition : ITransitionValueBase
 | Název | Popis |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/ileftrightdirectiontransition/asitransitionvaluebase) { get; } | Umožňuje získat základní rozhraní ITransitionValueBase. Pouze pro čtení [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/ileftrightdirectiontransition/direction) { get; set; } | Směr přechodu. Čtení/Zápis [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/ileftrightdirectiontransition/direction) { get; set; } | Směr přechodu. Čtení/zápis [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
 
 ### Viz také
 

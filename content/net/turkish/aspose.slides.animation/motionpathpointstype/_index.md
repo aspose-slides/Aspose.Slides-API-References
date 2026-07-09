@@ -1,14 +1,14 @@
 ---
 title: MotionPathPointsType
 second_title: Aspose.Sildes için .NET API Referansı
-description: Animasyon hareket yolundaki nokta türlerini temsil eder.
+description: Animasyon hareket yolu içindeki nokta türlerini temsil eder.
 type: docs
-weight: 690
+weight: 710
 url: /tr/aspose.slides.animation/motionpathpointstype/
 ---
-## MotionPathPointsType enumerasyon
+## MotionPathPointsType numaralandırması
 
-Animasyon hareket yolundaki nokta türlerini temsil eder.
+Animasyon hareket yolu içindeki nokta türlerini temsil eder.
 
 ```csharp
 public enum MotionPathPointsType

@@ -3,7 +3,7 @@ title: IThemeManager
 second_title: Aspose.Sildes pro .NET – referenční příručka API
 description: Reprezentuje vlastnosti motivu.
 type: docs
-weight: 11370
+weight: 11390
 url: /cs/aspose.slides.theme/ithememanager/
 ---
 ## IThemeManager rozhraní
@@ -18,8 +18,8 @@ public interface IThemeManager
 
 | Název | Popis |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/ithememanager/applycolorscheme)(IExtraColorScheme) | Použije další barevné schéma na snímek. |
-| [CreateThemeEffective](../../aspose.slides.theme/ithememanager/createthemeeffective)() | Vrátí objekt motivu. |
+| [ApplyColorScheme](../../aspose.slides.theme/ithememanager/applycolorscheme)(IExtraColorScheme) | Aplikuje doplňující barevné schéma na snímek. |
+| [CreateThemeEffective](../../aspose.slides.theme/ithememanager/createthemeeffective)() | Vrací objekt motivu. |
 
 ### Viz také
 

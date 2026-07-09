@@ -1,14 +1,14 @@
 ---
 title: ShapeAdjustmentType
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Specifica diversi tipi di valori di regolazione della forma.
+second_title: Aspose.Sildes per .NET API Reference
+description: Specifica i diversi tipi di valori di regolazione della forma.
 type: docs
-weight: 9820
+weight: 9840
 url: /it/aspose.slides/shapeadjustmenttype/
 ---
-## enumerazione ShapeAdjustmentType
+## Enumerazione ShapeAdjustmentType
 
-Specifica diversi tipi di valori di regolazione della forma.
+Specifica i diversi tipi di valori di regolazione della forma.
 
 ```csharp
 public enum ShapeAdjustmentType
@@ -30,24 +30,24 @@ public enum ShapeAdjustmentType
 | ArrowheadWidth | `9` | Controlla la larghezza della punta della freccia. |
 | Radius | `10` | Controlla la dimensione del raggio della forma o della sua parte. |
 | Depth | `11` | Controlla la profondità dei denti dell'ingranaggio o l'effetto smusso. |
-| ShapePartOffset | `12` | Controlla lo spostamento di una parte della figura rispetto a un'altra. |
-| Angle | `13` | Controlla l'angolo per la figura o la sua parte. |
-| StartAngle | `14` | Angolo di partenza per forme a torta e ad arco. |
+| ShapePartOffset | `12` | Controlla lo scostamento di una parte della figura rispetto a un'altra. |
+| Angle | `13` | Controlla l'angolo della figura o della sua parte. |
+| StartAngle | `14` | Angolo iniziale per forme a torta e ad arco. |
 | EndAngle | `15` | Angolo finale per forme a torta e ad arco. |
-| StartPointX | `16` | Controlla la posizione X del punto di inizio del balloon. |
-| StartPointY | `17` | Controlla la posizione Y del punto di inizio del balloon. |
-| ConnectorPoint1X | `18` | Controlla la posizione orizzontale del punto di regolazione dell'angolo del balloon. |
-| ConnectorPoint1Y | `19` | Controlla la posizione verticale del punto di regolazione dell'angolo del balloon. |
-| ConnectorPoint2X | `20` | Controlla la posizione orizzontale del punto di regolazione dell'angolo del balloon. |
-| ConnectorPoint2Y | `21` | Controlla la posizione verticale del punto di regolazione dell'angolo del balloon. |
-| ConnectorBendPositionX | `22` | Controlla la posizione orizzontale della curvatura nel connettore. |
-| ConnectorBendPositionY | `23` | Controlla la posizione verticale della curvatura nel connettore. |
+| StartPointX | `16` | Controlla la posizione X del punto di inizio del commento. |
+| StartPointY | `17` | Controlla la posizione Y del punto di inizio del commento. |
+| ConnectorPoint1X | `18` | Controlla la posizione orizzontale del punto di regolazione dell'angolo del commento. |
+| ConnectorPoint1Y | `19` | Controlla la posizione verticale del punto di regolazione dell'angolo del commento. |
+| ConnectorPoint2X | `20` | Controlla la posizione orizzontale del punto di regolazione dell'angolo del commento. |
+| ConnectorPoint2Y | `21` | Controlla la posizione verticale del punto di regolazione dell'angolo del commento. |
+| ConnectorBendPositionX | `22` | Controlla la posizione orizzontale della curvatura del connettore. |
+| ConnectorBendPositionY | `23` | Controlla la posizione verticale della curvatura del connettore. |
 | AttachY | `24` | Controlla il punto di ancoraggio verticale della figura. |
 | AttachX | `25` | Controlla il punto di ancoraggio orizzontale della figura. |
-| CalloutHeight | `26` | Controlla la dimensione verticale del balloon. |
-| CalloutWidth | `27` | Controlla la dimensione orizzontale del balloon. |
-| CalloutSize | `28` | Controlla la dimensione del balloon. |
-| Curvature | `29` | Curvatura di una forma piegata, parentesi, freccia curva o forma. |
+| CalloutHeight | `26` | Controlla la dimensione verticale del commento. |
+| CalloutWidth | `27` | Controlla la dimensione orizzontale del commento. |
+| CalloutSize | `28` | Controlla la dimensione del commento. |
+| Curvature | `29` | Curvatura di una piega, parentesi graffa, freccia curva o forma. |
 | HorizontalThickness | `30` | Controlla lo spessore orizzontale della forma d'angolo. |
 | VerticalThickness | `31` | Controlla lo spessore verticale della forma d'angolo. |
 | VerticalSize | `32` | Controlla la dimensione verticale della forma. |

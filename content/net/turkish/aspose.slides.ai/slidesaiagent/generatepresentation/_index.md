@@ -1,14 +1,14 @@
 ---
 title: GeneratePresentation
-second_title: Aspose.Sildes için .NET API Referansı
-description: Bir metin açıklamasından bir sunum örneği oluşturur. Gereken dilde bir konu, fikir, alıntı veya metin parçacığı sağlayın.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Metin açıklamasından bir sunum örneği oluşturur. Gerekli dilde bir konu, fikir, alıntı veya metin parçacığı sağlayın.
 type: docs
 weight: 20
 url: /tr/aspose.slides.ai/slidesaiagent/generatepresentation/
 ---
 ## GeneratePresentation(string, PresentationContentAmountType) {#generatepresentation}
 
-Bir metin açıklamasından bir sunum örneği oluşturur. Gereken dilde bir konu, fikir, alıntı veya metin parçacığı sağlayın.
+Metin açıklamasından bir sunum örneği oluşturur. Gerekli dilde bir konu, fikir, alıntı veya metin parçacığı sağlayın.
 
 ```csharp
 public IPresentation GeneratePresentation(string description, 
@@ -18,15 +18,23 @@ public IPresentation GeneratePresentation(string description,
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | description | String | Konu, fikir, alıntı veya metin parçacıkları. |
-| presentationContentAmount | PresentationContentAmountType | Oluşturulan sunumdaki içerik miktarı. |
+| presentationContentAmount | PresentationContentAmountType | Sonuç sunumundaki içerik miktarı. |
 
 ### İstisnalar
 
-| istisna | koşul |
+| İstisna | koşul |
 | --- | --- |
 | ArgumentException | AI sohbet talimatı null veya boş olamaz. |
 
-### Ayrıca Bakınız
+### Açıklamalar
+
+Aşağıdaki örnek, parametresiz [`SlidesAIAgent`](../slidesaiagent) yapıcısı tarafından oluşturulan ve Aspose'un kendi LLM'sine bağlanan varsayılan [`AsposeAIWebClient`](../../asposeaiwebclient)'i kullanır. Farklı bir AI sağlayıcısı kullanmak, kendi LLM'nizi temin etmek veya bağlantıyı özelleştirmek (örneğin kendi `HttpClient`'ınızı sağlayarak) için bir [`IAIWebClient`](../../iaiwebclient) uygulamasını [`SlidesAIAgent`](../slidesaiagent) yapıcısına geçirin. Mevcut uygulamalar şunlardır:
+
+* [`AsposeAIWebClient`](../../asposeaiwebclient)
+* [`OpenAIWebClient`](../../openaiwebclient)
+* [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
+
+### İlgili Bağlantılar
 
 * arayüz [IPresentation](../../../aspose.slides/ipresentation)
 * enum [PresentationContentAmountType](../../presentationcontentamounttype)
@@ -38,7 +46,7 @@ public IPresentation GeneratePresentation(string description,
 
 ## GeneratePresentation(string, PresentationContentAmountType, IPresentation) {#generatepresentation_1}
 
-Bir metin açıklamasından bir sunum örneği oluşturur. Gereken dilde bir konu, fikir, alıntı veya metin parçacığı sağlayın.
+Metin açıklamasından bir sunum örneği oluşturur. Gerekli dilde bir konu, fikir, alıntı veya metin parçacığı sağlayın.
 
 ```csharp
 public IPresentation GeneratePresentation(string description, 
@@ -48,17 +56,25 @@ public IPresentation GeneratePresentation(string description,
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | description | String | Konu, fikir, alıntı veya metin parçacıkları. |
-| presentationContentAmount | PresentationContentAmountType | Oluşturulan sunumdaki içerik miktarı. |
+| presentationContentAmount | PresentationContentAmountType | Sonuç sunumundaki içerik miktarı. |
 | presentationTemplate | IPresentation | Düzen ve tasarım için şablon olarak kullanılacak, varsayılan şablonu değiştiren bir sunum. |
 
 ### İstisnalar
 
-| istisna | koşul |
+| İstisna | koşul |
 | --- | --- |
-| ArgumentNullException | Sunum şablonu sağlanmadı. |
+| ArgumentNullException | Sunum şablonu sağlanmamış. |
 | ArgumentException | AI sohbet talimatı null veya boş olamaz. |
 
-### Ayrıca Bakınız
+### Açıklamalar
+
+Aşağıdaki örnek, parametresiz [`SlidesAIAgent`](../slidesaiagent) yapıcısı tarafından oluşturulan ve Aspose'un kendi LLM'sine bağlanan varsayılan [`AsposeAIWebClient`](../../asposeaiwebclient)'i kullanır. Farklı bir AI sağlayıcısı kullanmak, kendi LLM'nizi temin etmek veya bağlantıyı özelleştirmek (örneğin kendi `HttpClient`'ınızı sağlayarak) için bir [`IAIWebClient`](../../iaiwebclient) uygulamasını [`SlidesAIAgent`](../slidesaiagent) yapıcısına geçirin. Mevcut uygulamalar şunlardır:
+
+* [`AsposeAIWebClient`](../../asposeaiwebclient)
+* [`OpenAIWebClient`](../../openaiwebclient)
+* [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
+
+### İlgili Bağlantılar
 
 * arayüz [IPresentation](../../../aspose.slides/ipresentation)
 * enum [PresentationContentAmountType](../../presentationcontentamounttype)

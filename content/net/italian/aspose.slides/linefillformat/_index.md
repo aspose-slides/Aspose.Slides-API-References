@@ -1,9 +1,9 @@
 ---
 title: LineFillFormat
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Riferimento API di Aspose.Sildes per .NET
 description: Rappresenta le proprietà per il riempimento delle linee.
 type: docs
-weight: 7760
+weight: 7780
 url: /it/aspose.slides/linefillformat/
 ---
 ## LineFillFormat classe
@@ -18,18 +18,18 @@ public sealed class LineFillFormat : PVIObject, ILineFillFormat
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Solo lettura [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l’interfaccia IPresentationComponent di base. Solo lettura [`IPresentationComponent`](../ipresentationcomponent). |
 | [FillType](../../aspose.slides/linefillformat/filltype) { get; set; } | Restituisce o imposta il tipo di riempimento. Lettura/scrittura [`FillType`](../filltype). |
 | [GradientFormat](../../aspose.slides/linefillformat/gradientformat) { get; } | Restituisce il formato di riempimento a gradiente. Solo lettura [`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/linefillformat/patternformat) { get; } | Restituisce il formato di riempimento a pattern. Solo lettura [`IPatternFormat`](../ipatternformat). |
-| [RotateWithShape](../../aspose.slides/linefillformat/rotatewithshape) { get; set; } | Determina se il riempimento deve essere ruotato con una forma. Lettura/scrittura [`NullableBool`](../nullablebool). |
+| [PatternFormat](../../aspose.slides/linefillformat/patternformat) { get; } | Restituisce il formato di riempimento a motivo. Solo lettura [`IPatternFormat`](../ipatternformat). |
+| [RotateWithShape](../../aspose.slides/linefillformat/rotatewithshape) { get; set; } | Determina se il riempimento deve ruotare con la forma. Lettura/scrittura [`NullableBool`](../nullablebool). |
 | [SolidFillColor](../../aspose.slides/linefillformat/solidfillcolor) { get; } | Restituisce il colore di un riempimento solido. Solo lettura [`IColorFormat`](../icolorformat). |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Confronta con l'oggetto specificato. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Confronta con l’oggetto specificato. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Restituisce il codice hash. |
 
 ### Vedi anche

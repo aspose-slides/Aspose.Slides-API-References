@@ -1,9 +1,9 @@
 ---
 title: SlideOrientation
-second_title: Aspose.Sildes dla .NET API Reference
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje orientację slajdu.
 type: docs
-weight: 9980
+weight: 10000
 url: /pl/aspose.slides/slideorientation/
 ---
 ## enumeracja SlideOrientation
@@ -21,7 +21,7 @@ public enum SlideOrientation
 | Landscape | `0` | Orientacja pozioma. |
 | Portrait | `1` | Orientacja pionowa. |
 
-### Zobacz również
+### Zobacz także
 
 * przestrzeń nazw [Aspose.Slides](../../aspose.slides)
 * zestaw [Aspose.Slides](../../)

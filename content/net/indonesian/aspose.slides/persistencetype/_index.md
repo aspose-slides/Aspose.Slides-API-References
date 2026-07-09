@@ -1,12 +1,12 @@
 ---
 title: PersistenceType
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Menentukan metode yang digunakan untuk menyimpan properti kontrol ActiveX.
 type: docs
-weight: 9350
+weight: 9370
 url: /id/aspose.slides/persistencetype/
 ---
-## PersistenceType enumerasi
+## enumerasi PersistenceType
 
 Menentukan metode yang digunakan untuk menyimpan properti kontrol ActiveX.
 

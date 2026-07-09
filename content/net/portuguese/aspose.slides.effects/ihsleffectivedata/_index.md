@@ -1,14 +1,14 @@
 ---
 title: IHSLEffectiveData
-second_title: Aspose.Sildes para .NET Referência de API
-description: Representa um efeito de Matiz/Saturação/Luminância. A matiz, a saturação e a luminância podem ser ajustadas individualmente em relação ao seu valor atual.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Representa um efeito de Matiz/Saturação/Luminosidade. Cada matiz, saturação e luminosidade podem ser ajustados em relação ao seu valor atual.
 type: docs
-weight: 3350
+weight: 3370
 url: /pt/aspose.slides.effects/ihsleffectivedata/
 ---
 ## IHSLEffectiveData interface
 
-Representa um efeito de Matiz/Saturação/Luminância. A matiz, saturação e luminância podem ser ajustadas individualmente em relação ao seu valor atual.
+Representa um efeito de Matiz/Saturação/Luminosidade. Cada matiz, saturação e luminosidade podem ser ajustados em relação ao seu valor atual.
 
 ```csharp
 public interface IHSLEffectiveData : IEffectEffectiveData
@@ -19,11 +19,11 @@ public interface IHSLEffectiveData : IEffectEffectiveData
 | Nome | Descrição |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/ihsleffectivedata/asieffecteffectivedata) { get; } | Permite obter a interface base IEffectEffectiveData. Somente leitura [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Hue](../../aspose.slides.effects/ihsleffectivedata/hue) { get; } | Retorna a porcentagem da matiz. Somente leitura Single. |
-| [Luminance](../../aspose.slides.effects/ihsleffectivedata/luminance) { get; } | Retorna a porcentagem da luminância. Somente leitura Single. |
-| [Saturation](../../aspose.slides.effects/ihsleffectivedata/saturation) { get; } | Retorna a porcentagem da saturação. Somente leitura Single. |
+| [Hue](../../aspose.slides.effects/ihsleffectivedata/hue) { get; } | Retorna a porcentagem de matiz. Somente leitura Single. |
+| [Luminance](../../aspose.slides.effects/ihsleffectivedata/luminance) { get; } | Retorna a porcentagem de luminância. Somente leitura Single. |
+| [Saturation](../../aspose.slides.effects/ihsleffectivedata/saturation) { get; } | Retorna a porcentagem de saturação. Somente leitura Single. |
 
-### Ver também
+### Veja também
 
 * interface [IEffectEffectiveData](../ieffecteffectivedata)
 * namespace [Aspose.Slides.Effects](../../aspose.slides.effects)

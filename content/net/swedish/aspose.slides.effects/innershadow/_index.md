@@ -3,7 +3,7 @@ title: InnerShadow
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en Inner Shadow-effekt.
 type: docs
-weight: 3580
+weight: 3600
 url: /sv/aspose.slides.effects/innershadow/
 ---
 ## InnerShadow klass
@@ -18,18 +18,18 @@ public sealed class InnerShadow : IInnerShadow
 
 | Namn | Beskrivning |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/innershadow/blurradius) { get; set; } | Suddgrad. Läs/skriv Double. |
-| [Direction](../../aspose.slides.effects/innershadow/direction) { get; set; } | Riktning för skugga. Läs/skriv Single. |
-| [Distance](../../aspose.slides.effects/innershadow/distance) { get; set; } | Avstånd för skugga. Läs/skriv Double. |
-| [ShadowColor](../../aspose.slides.effects/innershadow/shadowcolor) { get; } | Färg på skugga. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [BlurRadius](../../aspose.slides.effects/innershadow/blurradius) { get; set; } | Suddighetsradie. Läs/skriv Double. |
+| [Direction](../../aspose.slides.effects/innershadow/direction) { get; set; } | Skuggans riktning. Läs/skriv Single. |
+| [Distance](../../aspose.slides.effects/innershadow/distance) { get; set; } | Skuggans avstånd. Läs/skriv Double. |
+| [ShadowColor](../../aspose.slides.effects/innershadow/shadowcolor) { get; } | Skuggans färg. Endast läs [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/innershadow/equals)(object) | Avgör om den angivna [`InnerShadow`](../innershadow) är lika med den aktuella [`InnerShadow`](../innershadow). |
-| [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | Hämtar effektiva Inner Shadow-effektsdata med arv tillämpat. |
-| override [GetHashCode](../../aspose.slides.effects/innershadow/gethashcode)() | Fungerar som en hashfunktion för en viss typ. |
+| override [Equals](../../aspose.slides.effects/innershadow/equals)(object) | Bestämmer om den angivna [`InnerShadow`](../innershadow) är lika med den aktuella [`InnerShadow`](../innershadow). |
+| [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | Hämtar effektiv Inner Shadow-effektdat med arv tillämpat. |
+| override [GetHashCode](../../aspose.slides.effects/innershadow/gethashcode)() | Fungerar som en hash-funktion för en viss typ. |
 
 ### Se även
 

@@ -3,7 +3,7 @@ title: IHtmlGenerator
 second_title: Aspose.Sildes .NET API referencia
 description: HTML-generátor.
 type: docs
-weight: 3940
+weight: 3960
 url: /hu/aspose.slides.export/ihtmlgenerator/
 ---
 ## IHtmlGenerator interfész
@@ -18,26 +18,26 @@ public interface IHtmlGenerator
 
 | Név | Leírás |
 | --- | --- |
-| [NextSlideIndex](../../aspose.slides.export/ihtmlgenerator/nextslideindex) { get; } | Visszaadja egy dia indexét, amely a jelenlegi dia után lesz renderelve, vagy -1, ha éppen az utolsó dia renderelése folyik. Csak olvasható Int32. |
+| [NextSlideIndex](../../aspose.slides.export/ihtmlgenerator/nextslideindex) { get; } | Visszaadja egy diának az indexét, amely az aktuális dia után kerül renderelésre, vagy -1, ha jelenleg az utolsó diát rendereli. Csak olvasható Int32. |
 | [PreviousSlideIndex](../../aspose.slides.export/ihtmlgenerator/previousslideindex) { get; } | Visszaadja az előzőleg renderelt dia indexét, vagy -1, ha az első dia renderelése zajlik. Csak olvasható Int32. |
 | [SlideImageSize](../../aspose.slides.export/ihtmlgenerator/slideimagesize) { get; } | Visszaadja a dia kép méretét. Csak olvasható SizeF. |
-| [SlideImageSizeUnit](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunit) { get; } | Visszaadja az egységet, amelyben a dia kép mérete meg van adva. Csak olvasható [`SvgCoordinateUnit`](../svgcoordinateunit). |
+| [SlideImageSizeUnit](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunit) { get; } | Visszaadja azt az egységet, amelyben a dia kép mérete meg van adva. Csak olvasható [`SvgCoordinateUnit`](../svgcoordinateunit). |
 | [SlideImageSizeUnitCode](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunitcode) { get; } | Visszaadja az egység CSS kódját, amelyben a dia kép mérete meg van adva. Csak olvasható String. |
-| [SlideIndex](../../aspose.slides.export/ihtmlgenerator/slideindex) { get; } | Visszaadja a jelenleg renderelt dia indexét. Csak olvasható Int32. |
+| [SlideIndex](../../aspose.slides.export/ihtmlgenerator/slideindex) { get; } | Visszaadja az aktuálisan renderelt dia indexét. Csak olvasható Int32. |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue)(char[]) | Idézeteli az attribútum értékét, és hozzáadja a HTML-fájlhoz. |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_2)(string) | Idézeteli az attribútum értékét, és hozzáadja a HTML-fájlhoz. |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | Idézeteli az attribútum értékét, és hozzáadja a HTML-fájlhoz. |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue)(char[]) | Idézőjelekkel veszi körül az attribútum értékét, és hozzáadja a html fájlhoz. |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_2)(string) | Idézőjelekkel veszi körül az attribútum értékét, és hozzáadja a html fájlhoz. |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | Idézőjelekkel veszi körül az attribútum értékét, és hozzáadja a html fájlhoz. |
 | [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml)(char[]) | Formázott HTML szöveget ad hozzá. |
 | [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_2)(string) | Formázott HTML szöveget ad hozzá. |
 | [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_1)(char[], int, int) | Formázott HTML szöveget ad hozzá. |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext)(char[]) | Általános szöveget ad hozzá a HTML-fájlokhoz, speciális karaktereket HTML entitásokkal helyettesítve. Sorvégeket és szóközöket nem helyettesíti. |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_2)(string) | Általános szöveget ad hozzá a HTML-fájlokhoz, speciális karaktereket HTML entitásokkal helyettesítve. Sorvégeket és szóközöket nem helyettesíti. |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_1)(char[], int, int) | Általános szöveget ad hozzá a HTML-fájlokhoz, speciális karaktereket HTML entitásokkal helyettesítve. Sorvégeket és szóközöket nem helyettesíti. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext)(char[]) | Egyszerű szöveget ad a html fájlokhoz, a speciális karaktereket html entitásokkal helyettesítve. A sortöréseket és szóközöket nem helyettesíti. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_2)(string) | Egyszerű szöveget ad a html fájlokhoz, a speciális karaktereket html entitásokkal helyettesítve. A sortöréseket és szóközöket nem helyettesíti. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_1)(char[], int, int) | Egyszerű szöveget ad a html fájlokhoz, a speciális karaktereket html entitásokkal helyettesítve. A sortöréseket és szóközöket nem helyettesíti. |
 
 ### Lásd még
 

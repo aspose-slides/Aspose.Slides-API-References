@@ -1,14 +1,14 @@
 ---
 title: IHyperlink
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει έναν υπερσύνδεσμο.
+description: Αναπαριστά έναν υπερσύνδεσμο.
 type: docs
-weight: 6090
+weight: 6110
 url: /el/aspose.slides/ihyperlink/
 ---
-## Διεπαφή IHyperlink
+## Διασύνδεση IHyperlink
 
-Αντιπροσωπεύει έναν υπερσύνδεσμο.
+Αναπαριστά έναν υπερσύνδεσμο.
 
 ```csharp
 public interface IHyperlink
@@ -19,26 +19,26 @@ public interface IHyperlink
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [ActionType](../../aspose.slides/ihyperlink/actiontype) { get; } | Επιστρέφει τον τύπο της ενέργειας του HyperLinkEx. Μόνο για ανάγνωση [`HyperlinkActionType`](../hyperlinkactiontype). |
-| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | Αντιπροσωπεύει την πηγή του χρώματος του υπερσυνδέσμου – είτε στυλ είτε μορφοποίηση τμήματος. Ανάγνωση/εγγραφή [`HyperlinkColorSource`](../hyperlinkcolorsource). |
+| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | Αντιπροσωπεύει την πηγή του χρώματος του υπερσυνδέσμου – είτε στυλ είτε μορφή τμήματος. Ανάγνωση/εγγραφή [`HyperlinkColorSource`](../hyperlinkcolorsource). |
 | [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | Καθορίζει το εξωτερικό URL. Εάν αυτή η ιδιότητα γίνει μη μηδενική, τότε η ιδιότητα TargetSlide γίνεται μηδενική. Μόνο για ανάγνωση String. |
-| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | Αντιπροσωπεύει έναν υπερσύνδεσμο που έχει οριστεί για αυτό το τμήμα χωρίς να λαμβάνεται υπόψη το πραγματικό περιεχόμενο του τμήματος. Το PowerPoint συμπεριφέρεται ειδικά για συνδέσμους και το αντίστοιχο κείμενό τους σε ένα τμήμα. Επιτρέπει τη δημιουργία κειμένου για τον υπερσύνδεσμο με τη μορφή ενός έγκυρου URL, διαφορετικού από τη πραγματική διεύθυνση του συνδέσμου. Σε αυτήν την περίπτωση, όταν προβάλετε το σύνδεσμο στο παράθυρο επεξεργασίας, θα αλλάξει ώστε να ταιριάζει με το κείμενο του τμήματος. Αυτή η ιδιότητα αντιπροσωπεύει την αρχική τιμή του υπερσυνδέσμου. |
-| [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | Καθορίζει αν ο υπερσύνδεσμος πρέπει να επισημαίνεται κατά το κλικ. Ανάγνωση/εγγραφή Boolean. |
-| [History](../../aspose.slides/ihyperlink/history) { get; set; } | Καθορίζει αν ο προορισμός του γονικού υπερσυνδέσμου θα προστεθεί σε λίστα των προβεβλημένων υπερσυνδέσμων όταν ενεργοποιηθεί. Ανάγνωση/εγγραφή Boolean. |
+| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | Αντιπροσωπεύει έναν υπερσύνδεσμο που ορίζεται για αυτό το τμήμα χωρίς να λαμβάνει υπόψη το πραγματικό περιεχόμενο του τμήματος. Το PowerPoint συμπεριφέρεται ειδικά για συνδέσμους και το αντίστοιχο κείμενό τους σε ένα τμήμα. Επιτρέπει τη δημιουργία κειμένου για τον υπερσύνδεσμο με μορφή έγκυρης διεύθυνσης URL, διαφορετικής από την πραγματική διεύθυνση του συνδέσμου. Σε αυτή την περίπτωση, όταν προβάλετε τον σύνδεσμο στο παράθυρο επεξεργασίας, θα αλλάξει ώστε να ταιριάζει με το κείμενο του τμήματος. Αυτή η ιδιότητα αντιπροσωπεύει την αρχική τιμή του υπερσυνδέσμου. |
+| [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | Καθορίζει εάν ο υπερσύνδεσμος πρέπει να επισημαίνεται με κλικ. Ανάγνωση/εγγραφή Boolean. |
+| [History](../../aspose.slides/ihyperlink/history) { get; set; } | Καθορίζει εάν ο προορισμός του γονικού υπερσυνδέσμου θα προστεθεί σε λίστα προβεβλημένων υπερσυνδέσμων όταν κληθεί. Ανάγνωση/εγγραφή Boolean. |
 | [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | Αντιπροσωπεύει τον ήχο αναπαραγωγής του υπερσυνδέσμου. Ανάγνωση/εγγραφή [`IAudio`](../iaudio). |
-| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | Καθορίζει αν ο ήχος πρέπει να σταματήσει κατά το κλικ στον υπερσύνδεσμο. Ανάγνωση/εγγραφή Boolean. |
-| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | Επιστρέφει το πλαίσιο εντός του γονικού HTML frameset για τον προορισμό του γονικού υπερσυνδέσμου όταν υπάρχει. Ανάγνωση/εγγραφή String. |
+| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | Καθορίζει εάν ο ήχος πρέπει να σταματήσει με κλικ στον υπερσύνδεσμο. Ανάγνωση/εγγραφή Boolean. |
+| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | Επιστρέφει το πλαίσιο μέσα στο γονικό σύνολο πλαισίων HTML για τον προορισμό του γονικού υπερσυνδέσμου όταν υπάρχει. Ανάγνωση/εγγραφή String. |
 | [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | Εάν το HyperlinkEx στοχεύει συγκεκριμένη διαφάνεια, επιστρέφει αυτή τη διαφάνεια. Εάν η ιδιότητα γίνει μη μηδενική, τότε η ιδιότητα ExternalUrl γίνεται μηδενική. Μόνο για ανάγνωση [`ISlide`](../islide). |
-| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | Επιστρέφει το κείμενο που μπορεί να εμφανιστεί σε διεπαφή χρήστη ως συσχετισμένο με τον γονικό υπερσύνδεσμο. Ανάγνωση/εγγραφή String. |
+| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | Επιστρέφει τη συμβολοσειρά που μπορεί να εμφανιστεί σε διεπαφή χρήστη ως συσχετισμένη με τον γονικό υπερσύνδεσμο. Ανάγνωση/εγγραφή String. |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Equals](../../aspose.slides/ihyperlink/equals)(IHyperlink) | Καθορίζει εάν οι δύο αντικείμενα Hyperlink είναι ίσοι. |
+| [Equals](../../aspose.slides/ihyperlink/equals)(IHyperlink) | Καθορίζει εάν τα δύο αντικείμενα Hyperlink είναι ίσα. |
 
 ### Δείτε επίσης
 
-* χώρος ονομάτων [Aspose.Slides](../../aspose.slides)
-* συγκρότημα [Aspose.Slides](../../)
+* χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
+* συλλογή [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

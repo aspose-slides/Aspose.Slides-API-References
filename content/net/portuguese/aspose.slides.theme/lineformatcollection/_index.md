@@ -1,9 +1,9 @@
 ---
 title: LineFormatCollection
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para a referência da API .NET
 description: Representa a coleção de estilos de linha.
 type: docs
-weight: 11400
+weight: 11420
 url: /pt/aspose.slides.theme/lineformatcollection/
 ---
 ## LineFormatCollection classe
@@ -28,7 +28,7 @@ public sealed class LineFormatCollection : DomObject<FormatScheme>, ILineFormatC
 | Nome | Descrição |
 | --- | --- |
 | [CopyTo](../../aspose.slides.theme/lineformatcollection/copyto)(Array, int) | Copia todos os elementos da coleção para o array especificado. |
-| [GetEnumerator](../../aspose.slides.theme/lineformatcollection/getenumerator)() | Retorna um enumerador que itera sobre a coleção. |
+| [GetEnumerator](../../aspose.slides.theme/lineformatcollection/getenumerator)() | Retorna um enumerador que percorre a coleção. |
 
 ### Veja Também
 

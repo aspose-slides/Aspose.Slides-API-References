@@ -1,14 +1,14 @@
 ---
 title: IVideoCollection
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET referenci API
 description: Reprezentuje kolekci objektů Video.
 type: docs
-weight: 7350
+weight: 7370
 url: /cs/aspose.slides/ivideocollection/
 ---
 ## IVideoCollection rozhraní
 
-Represents a collection of Video objects.
+Reprezentuje kolekci objektů Video.
 
 ```csharp
 public interface IVideoCollection : IGenericCollection<IVideo>

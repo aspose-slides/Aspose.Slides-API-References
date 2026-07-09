@@ -1,14 +1,14 @@
 ---
 title: IBasePortionFormatEffectiveData
-second_title: Aspose.Sildes for .NET API リファレンス
-description: 効果的なテキスト部分の書式設定プロパティを含む不変オブジェクトの基本インターフェイスです。
+second_title: Aspose.Slides for .NET API リファレンス
+description: 効果的なテキスト部分の書式プロパティを含む不変オブジェクトの基本インターフェイスです。
 type: docs
-weight: 5300
+weight: 5320
 url: /ja/aspose.slides/ibaseportionformateffectivedata/
 ---
 ## IBasePortionFormatEffectiveData インターフェイス
 
-効果的なテキスト部分の書式設定プロパティを含む不変オブジェクトの基本インターフェイスです。
+効果的なテキスト部分の書式プロパティを含む不変オブジェクトの基底インターフェイスです。
 
 ```csharp
 public interface IBasePortionFormatEffectiveData
@@ -16,30 +16,30 @@ public interface IBasePortionFormatEffectiveData
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [AlternativeLanguageId](../../aspose.slides/ibaseportionformateffectivedata/alternativelanguageid) { get; } | 代替言語の Id を返します。読み取り専用 String。 |
-| [ComplexScriptFont](../../aspose.slides/ibaseportionformateffectivedata/complexscriptfont) { get; } | 複合脚本フォント情報を返します。読み取り専用 [`IFontData`](../ifontdata)。 |
+| [ComplexScriptFont](../../aspose.slides/ibaseportionformateffectivedata/complexscriptfont) { get; } | 複雑なスクリプト フォント情報を返します。読み取り専用 [`IFontData`](../ifontdata)。 |
 | [EastAsianFont](../../aspose.slides/ibaseportionformateffectivedata/eastasianfont) { get; } | 東アジアフォント情報を返します。読み取り専用 [`IFontData`](../ifontdata)。 |
-| [EffectFormat](../../aspose.slides/ibaseportionformateffectivedata/effectformat) { get; } | テキストの EffectFormat プロパティを返します。読み取り専用 [`IEffectFormatEffectiveData`](../ieffectformateffectivedata)。 |
+| [EffectFormat](../../aspose.slides/ibaseportionformateffectivedata/effectformat) { get; } | テキスト EffectFormat プロパティを返します。読み取り専用 [`IEffectFormatEffectiveData`](../ieffectformateffectivedata)。 |
 | [Escapement](../../aspose.slides/ibaseportionformateffectivedata/escapement) { get; } | 上付きまたは下付きテキストを返します。値は -100%（下付き）から 100%（上付き）です。読み取り専用 Single。 |
-| [FillFormat](../../aspose.slides/ibaseportionformateffectivedata/fillformat) { get; } | テキストの FillFormat プロパティを返します。読み取り専用 [`IFillFormatEffectiveData`](../ifillformateffectivedata)。 |
-| [FontBold](../../aspose.slides/ibaseportionformateffectivedata/fontbold) { get; } | フォントが太字かどうかを判定します。読み取り専用 Boolean。 |
-| [FontHeight](../../aspose.slides/ibaseportionformateffectivedata/fontheight) { get; } | テキスト部分のフォント高さ（ポイント単位）を返します。読み取り専用 Single。 |
-| [FontItalic](../../aspose.slides/ibaseportionformateffectivedata/fontitalic) { get; } | フォントが斜体かどうかを判定します。読み取り専用 Boolean。 |
+| [FillFormat](../../aspose.slides/ibaseportionformateffectivedata/fillformat) { get; } | テキスト FillFormat プロパティを返します。読み取り専用 [`IFillFormatEffectiveData`](../ifillformateffectivedata)。 |
+| [FontBold](../../aspose.slides/ibaseportionformateffectivedata/fontbold) { get; } | フォントが太字かどうかを決定します。読み取り専用 Boolean。 |
+| [FontHeight](../../aspose.slides/ibaseportionformateffectivedata/fontheight) { get; } | テキスト部分のフォント高さ（ポイント）を返します。読み取り専用 Single。 |
+| [FontItalic](../../aspose.slides/ibaseportionformateffectivedata/fontitalic) { get; } | フォントがイタリックかどうかを決定します。読み取り専用 Boolean。 |
 | [FontUnderline](../../aspose.slides/ibaseportionformateffectivedata/fontunderline) { get; } | テキストの下線タイプを返します。読み取り専用 [`TextUnderlineType`](../textunderlinetype)。 |
 | [HighlightColor](../../aspose.slides/ibaseportionformateffectivedata/highlightcolor) { get; } | テキストのハイライトに使用される色を返します。読み取り専用 Color。 |
-| [IsHardUnderlineFill](../../aspose.slides/ibaseportionformateffectivedata/ishardunderlinefill) { get; } | 下線スタイルが独自の FillFormat プロパティを持つか、テキストの FillFormat プロパティから継承するかを判定します。読み取り専用 Boolean。 |
-| [IsHardUnderlineLine](../../aspose.slides/ibaseportionformateffectivedata/ishardunderlineline) { get; } | 下線スタイルが独自の LineFormat プロパティを持つか、テキストの LineFormat プロパティから継承するかを判定します。読み取り専用 Boolean。 |
+| [IsHardUnderlineFill](../../aspose.slides/ibaseportionformateffectivedata/ishardunderlinefill) { get; } | 下線スタイルが独自の FillFormat プロパティを持つか、テキストの FillFormat プロパティから継承するかを決定します。読み取り専用 Boolean。 |
+| [IsHardUnderlineLine](../../aspose.slides/ibaseportionformateffectivedata/ishardunderlineline) { get; } | 下線スタイルが独自の LineFormat プロパティを持つか、テキストの LineFormat プロパティから継承するかを決定します。読み取り専用 Boolean。 |
 | [KerningMinimalSize](../../aspose.slides/ibaseportionformateffectivedata/kerningminimalsize) { get; } | カーニングをオンにすべき最小フォントサイズを返します。読み取り専用 Single。 |
-| [Kumimoji](../../aspose.slides/ibaseportionformateffectivedata/kumimoji) { get; } | 数字がテキストの東アジア言語固有の縦書きレイアウトを無視すべきかどうかを判定します。読み取り専用 Boolean。 |
+| [Kumimoji](../../aspose.slides/ibaseportionformateffectivedata/kumimoji) { get; } | 数字がテキストの東アジア言語固有の縦書きレイアウトを無視すべきかどうかを決定します。読み取り専用 Boolean。 |
 | [LanguageId](../../aspose.slides/ibaseportionformateffectivedata/languageid) { get; } | 言語の Id を返します。読み取り専用 String。 |
 | [LatinFont](../../aspose.slides/ibaseportionformateffectivedata/latinfont) { get; } | ラテンフォント情報を返します。読み取り専用 [`IFontData`](../ifontdata)。 |
-| [LineFormat](../../aspose.slides/ibaseportionformateffectivedata/lineformat) { get; } | テキストのアウトライン用 LineFormat プロパティを返します。読み取り専用 [`ILineFormatEffectiveData`](../ilineformateffectivedata)。 |
-| [NormaliseHeight](../../aspose.slides/ibaseportionformateffectivedata/normaliseheight) { get; } | テキストの高さを正規化すべきかどうかを判定します。読み取り専用 Boolean。 |
-| [ProofDisabled](../../aspose.slides/ibaseportionformateffectivedata/proofdisabled) { get; } | テキストが校正されないようにするかどうかを判定します。読み取り専用 Boolean。 |
-| [SmartTagClean](../../aspose.slides/ibaseportionformateffectivedata/smarttagclean) { get; } | スマートタグをクリアすべきかどうかを判定します。読み取り専用 Boolean。 |
-| [Spacing](../../aspose.slides/ibaseportionformateffectivedata/spacing) { get; } | 文字間隔の増分（ポイント単位）を返します。読み取り専用 Single。 |
+| [LineFormat](../../aspose.slides/ibaseportionformateffectivedata/lineformat) { get; } | テキストのアウトラインに使用される LineFormat プロパティを返します。読み取り専用 [`ILineFormatEffectiveData`](../ilineformateffectivedata)。 |
+| [NormaliseHeight](../../aspose.slides/ibaseportionformateffectivedata/normaliseheight) { get; } | テキストの高さを正規化すべきかどうかを決定します。読み取り専用 Boolean。 |
+| [ProofDisabled](../../aspose.slides/ibaseportionformateffectivedata/proofdisabled) { get; } | テキストが校正されないようにすべきかどうかを決定します。読み取り専用 Boolean。 |
+| [SmartTagClean](../../aspose.slides/ibaseportionformateffectivedata/smarttagclean) { get; } | スマートタグをクリアすべきかどうかを決定します。読み取り専用 Boolean。 |
+| [Spacing](../../aspose.slides/ibaseportionformateffectivedata/spacing) { get; } | 文字間隔の増分（ポイント）を返します。読み取り専用 Single。 |
 | [StrikethroughType](../../aspose.slides/ibaseportionformateffectivedata/strikethroughtype) { get; } | テキストの取り消し線タイプを返します。読み取り専用 [`TextStrikethroughType`](../textstrikethroughtype)。 |
 | [SymbolFont](../../aspose.slides/ibaseportionformateffectivedata/symbolfont) { get; } | シンボリックフォント情報を返します。読み取り専用 [`IFontData`](../ifontdata)。 |
 | [TextCapType](../../aspose.slides/ibaseportionformateffectivedata/textcaptype) { get; } | テキストの大文字化タイプを返します。読み取り専用 [`TextCapType`](../textcaptype)。 |

@@ -1,9 +1,9 @@
 ---
 title: IBrightnessContrast
-second_title: Aspose.Slides .NET API Referansı
-description: BrightnessContrast etkisini temsil eder. Parlaklık ve kontrastı ayarlar
+second_title: Aspose.Sildes for .NET API Referansı
+description: BrightnessContrast etkisini temsil eder. Parlaklığı ve kontrastı ayarlar
 type: docs
-weight: 3180
+weight: 3200
 url: /tr/aspose.slides.effects/ibrightnesscontrast/
 ---
 ## IBrightnessContrast arayüz
@@ -15,7 +15,7 @@ public interface IBrightnessContrast : IAccessiblePVIObject<IBrightnessContrastE
     IImageTransformOperation
 ```
 
-### İlgili Bağlantılar
+### Ayrıca Bakınız
 
 * arayüz [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * arayüz [IBrightnessContrastEffectiveData](../ibrightnesscontrasteffectivedata)

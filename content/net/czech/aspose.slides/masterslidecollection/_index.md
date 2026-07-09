@@ -1,14 +1,14 @@
 ---
 title: MasterSlideCollection
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje sbírku master slidů.
+second_title: Aspose.Sildes pro .NET referenční příručku API
+description: Representuje kolekci hlavních snímků.
 type: docs
-weight: 8020
+weight: 8040
 url: /cs/aspose.slides/masterslidecollection/
 ---
 ## MasterSlideCollection třída
 
-Reprezentuje sbírku master slidů.
+Reprezentuje kolekci hlavních snímků.
 
 ```csharp
 public sealed class MasterSlideCollection : DomObject<Presentation>, IMasterSlideCollection
@@ -18,8 +18,8 @@ public sealed class MasterSlideCollection : DomObject<Presentation>, IMasterSlid
 
 | Název | Popis |
 | --- | --- |
-| [Count](../../aspose.slides/masterslidecollection/count) { get; } | Získá počet prvků ve skutečnosti obsažených ve sbírce. Pouze pro čtení Int32. |
-| [IsSynchronized](../../aspose.slides/masterslidecollection/issynchronized) { get; } | Vrací hodnotu určující, zda je přístup ke sbírce synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
+| [Count](../../aspose.slides/masterslidecollection/count) { get; } | Získá počet prvků skutečně obsažených v kolekci. Pouze pro čtení Int32. |
+| [IsSynchronized](../../aspose.slides/masterslidecollection/issynchronized) { get; } | Vrací hodnotu udávající, zda je přístup ke kolekci synchronizován (bezpečný pro vlákna). Pouze pro čtení Boolean. |
 | [Item](../../aspose.slides/masterslidecollection/item) { get; } | Získá prvek na zadaném indexu. Pouze pro čtení [`MasterSlide`](../masterslide). |
 | [SyncRoot](../../aspose.slides/masterslidecollection/syncroot) { get; } | Vrací kořen synchronizace. Pouze pro čtení Object. |
 
@@ -27,13 +27,13 @@ public sealed class MasterSlideCollection : DomObject<Presentation>, IMasterSlid
 
 | Název | Popis |
 | --- | --- |
-| [AddClone](../../aspose.slides/masterslidecollection/addclone)(IMasterSlide) | Přidá kopii určeného master slidu na konec sbírky. Propojené layout slidery budou také zkopírovány. |
-| [CopyTo](../../aspose.slides/masterslidecollection/copyto)(Array, int) | Zkopíruje všechny prvky ze sbírky do určeného pole. |
-| [GetEnumerator](../../aspose.slides/masterslidecollection/getenumerator)() | Vrací enumerátor, který prochází sbírku. |
-| [InsertClone](../../aspose.slides/masterslidecollection/insertclone)(int, IMasterSlide) | Vloží kopii určeného master slidu na určenou pozici ve sbírce. Propojené layout slidery budou také zkopírovány. |
-| [Remove](../../aspose.slides/masterslidecollection/remove)(IMasterSlide) | Odstraní první výskyt konkrétního objektu ze sbírky. |
-| [RemoveAt](../../aspose.slides/masterslidecollection/removeat)(int) | Odstraní prvek na zadaném indexu ve sbírce. |
-| [RemoveUnused](../../aspose.slides/masterslidecollection/removeunused)(bool) | Odstraní nepoužité master slidy. |
+| [AddClone](../../aspose.slides/masterslidecollection/addclone)(IMasterSlide) | Přidá kopii zadaného hlavního snímku na konec kolekce. Propojené snímky rozvržení budou také zkopírovány. |
+| [CopyTo](../../aspose.slides/masterslidecollection/copyto)(Array, int) | Zkopíruje všechny prvky z kolekce do určeného pole. |
+| [GetEnumerator](../../aspose.slides/masterslidecollection/getenumerator)() | Vrací enumerátor, který prochází kolekcí. |
+| [InsertClone](../../aspose.slides/masterslidecollection/insertclone)(int, IMasterSlide) | Vloží kopii zadaného hlavního snímku na určenou pozici v kolekci. Propojené snímky rozvržení budou také zkopírovány. |
+| [Remove](../../aspose.slides/masterslidecollection/remove)(IMasterSlide) | Odstraní první výskyt konkrétního objektu z kolekce. |
+| [RemoveAt](../../aspose.slides/masterslidecollection/removeat)(int) | Odstraní prvek na zadaném indexu v kolekci. |
+| [RemoveUnused](../../aspose.slides/masterslidecollection/removeunused)(bool) | Odstraní nepoužité hlavní snímky. |
 
 ### Viz také
 

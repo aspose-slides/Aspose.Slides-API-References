@@ -1,9 +1,9 @@
 ---
 title: ICommentAuthorCollection
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili koleksi penulis komentar.
+description: Mewakili kumpulan penulis komentar.
 type: docs
-weight: 5560
+weight: 5580
 url: /id/aspose.slides/icommentauthorcollection/
 ---
 ## ICommentAuthorCollection antarmuka
@@ -18,7 +18,7 @@ public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Item](../../aspose.slides/icommentauthorcollection/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. Hanya baca [`ICommentAuthor`](../icommentauthor). |
+| [Item](../../aspose.slides/icommentauthorcollection/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. Hanya-baca [`ICommentAuthor`](../icommentauthor). |
 
 ## Metode
 
@@ -28,9 +28,9 @@ public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
 | [Clear](../../aspose.slides/icommentauthorcollection/clear)() | Menghapus semua penulis dari koleksi. |
 | [FindByName](../../aspose.slides/icommentauthorcollection/findbyname)(string) | Menemukan penulis dalam koleksi berdasarkan nama. |
 | [FindByNameAndInitials](../../aspose.slides/icommentauthorcollection/findbynameandinitials)(string, string) | Menemukan penulis dalam koleksi berdasarkan nama dan inisial. |
-| [Remove](../../aspose.slides/icommentauthorcollection/remove)(ICommentAuthor) | Menghapus kemunculan pertama penulis yang ditentukan dalam koleksi. |
+| [Remove](../../aspose.slides/icommentauthorcollection/remove)(ICommentAuthor) | Menghapus kemunculan pertama dari penulis yang ditentukan dalam koleksi. |
 | [RemoveAt](../../aspose.slides/icommentauthorcollection/removeat)(int) | Menghapus penulis pada indeks yang ditentukan dalam koleksi. |
-| [ToArray](../../aspose.slides/icommentauthorcollection/toarray)() | Membuat dan mengembalikan array dengan semua penulis. |
+| [ToArray](../../aspose.slides/icommentauthorcollection/toarray)() | Membuat dan mengembalikan array berisi semua penulis. |
 
 ### Lihat Juga
 

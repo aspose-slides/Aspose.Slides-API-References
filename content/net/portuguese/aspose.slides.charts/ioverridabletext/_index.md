@@ -1,14 +1,14 @@
 ---
 title: IOverridableText
-second_title: Aspose.Sildes para Referência da API .NET
-description: Representa texto sobrescrevível para um gráfico.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Representa texto substituível para um gráfico.
 type: docs
-weight: 2160
+weight: 2180
 url: /pt/aspose.slides.charts/ioverridabletext/
 ---
 ## IOverridableText interface
 
-Representa texto sobrescrevível para um gráfico.
+Representa texto substituível para um gráfico.
 
 ```csharp
 public interface IOverridableText : IFormattedTextContainer
@@ -19,13 +19,13 @@ public interface IOverridableText : IFormattedTextContainer
 | Nome | Descrição |
 | --- | --- |
 | [AsIFormattedTextContainer](../../aspose.slides.charts/ioverridabletext/asiformattedtextcontainer) { get; } | Permite obter a interface base IFormattedTextContainer. Somente leitura [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | Pode conter um texto formatado rico. Se esta propriedade não for nula, então o valor deste texto formatado substitui o texto gerado automaticamente. O texto gerado automaticamente é uma propriedade implícita do rótulo de dados, do rótulo de unidade de exibição do eixo de valores, do título do eixo, do título do gráfico, do rótulo da linha de tendência. O texto gerado automaticamente é formatado com a propriedade IFormattedTextContainer.TextFormat. Somente leitura [`ITextFrame`](../../aspose.slides/itextframe). |
+| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | Pode conter um texto formatado rico. Se esta propriedade não for nula, esse valor de texto formatado substitui o texto gerado automaticamente. Texto gerado automaticamente é uma propriedade implícita do rótulo de dados, do rótulo da unidade de exibição do eixo de valores, do título do eixo, do título do gráfico, do rótulo da linha de tendência. Texto gerado automaticamente é formatado com a propriedade IFormattedTextContainer.TextFormat. Somente leitura [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/addtextframeforoverriding)(string) | Inicializa TextFrameForOverriding com o texto no parâmetro "text". Se TextFrameForOverriding já estiver inicializado, altera simplesmente seu texto. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/addtextframeforoverriding)(string) | Inicializa TextFrameForOverriding com o texto no parâmetro "text". Se TextFrameForOverriding já estiver inicializado, simplesmente altera seu texto. |
 
 ### Veja Também
 

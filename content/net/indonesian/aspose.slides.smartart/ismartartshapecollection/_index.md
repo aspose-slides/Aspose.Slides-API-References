@@ -1,14 +1,14 @@
 ---
 title: ISmartArtShapeCollection
-second_title: Aspose.Sildes untuk .NET Referensi API
-description: Mewakili kumpulan bentuk SmartArt
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili koleksi bentuk SmartArt
 type: docs
-weight: 10560
+weight: 10580
 url: /id/aspose.slides.smartart/ismartartshapecollection/
 ---
 ## ISmartArtShapeCollection antarmuka
 
-Mewakili kumpulan bentuk SmartArt
+Mewakili koleksi bentuk SmartArt
 
 ```csharp
 public interface ISmartArtShapeCollection : IGenericCollection<ISmartArtShape>
@@ -18,7 +18,7 @@ public interface ISmartArtShapeCollection : IGenericCollection<ISmartArtShape>
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Item](../../aspose.slides.smartart/ismartartshapecollection/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. Baca-saja [`ISmartArtShape`](../ismartartshape). Indeks berbasis nol dari elemen |
+| [Item](../../aspose.slides.smartart/ismartartshapecollection/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. Hanya-baca [`ISmartArtShape`](../ismartartshape). Indeks berbasis nol dari elemen |
 
 ### Lihat Juga
 

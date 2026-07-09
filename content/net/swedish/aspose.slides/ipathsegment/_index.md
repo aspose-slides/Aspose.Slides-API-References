@@ -1,14 +1,14 @@
 ---
 title: IPathSegment
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar segment av grafikväg för GeometryShape
+description: Representerar segment av grafisk bana för GeometryShape
 type: docs
-weight: 6590
+weight: 6610
 url: /sv/aspose.slides/ipathsegment/
 ---
 ## IPathSegment gränssnitt
 
-Representerar segment av grafikväg för GeometryShape
+Representerar segment av grafisk bana för GeometryShape
 
 ```csharp
 public interface IPathSegment
@@ -18,10 +18,10 @@ public interface IPathSegment
 
 | Namn | Beskrivning |
 | --- | --- |
-| [PathCommand](../../aspose.slides/ipathsegment/pathcommand) { get; } | Segmentets Path-typ |
-| [SegmentData](../../aspose.slides/ipathsegment/segmentdata) { get; } | Segmentets Path-data |
+| [PathCommand](../../aspose.slides/ipathsegment/pathcommand) { get; } | Bantyp för segmentet |
+| [SegmentData](../../aspose.slides/ipathsegment/segmentdata) { get; } | Bandedata för segmentet |
 
-### Se även
+### Se också
 
 * namnrymd [Aspose.Slides](../../aspose.slides)
 * samling [Aspose.Slides](../../)

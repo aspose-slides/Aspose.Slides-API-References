@@ -3,12 +3,12 @@ title: PortionFactory
 second_title: Aspose.Sildes .NET API-referencia
 description: Lehetővé teszi teszt részek létrehozását
 type: docs
-weight: 9460
+weight: 9480
 url: /hu/aspose.slides/portionfactory/
 ---
 ## PortionFactory osztály
 
-Lehetővé teszi teszt részletek létrehozását
+Lehetővé teszi teszt részek létrehozását
 
 ```csharp
 public class PortionFactory : IPortionFactory
@@ -25,12 +25,12 @@ public class PortionFactory : IPortionFactory
 | Név | Leírás |
 | --- | --- |
 | [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion)() | Üres szövegrészt hoz létre. |
-| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_1)(IPortion) | Létrehoz egy részt a megadott részadat felhasználásával. |
+| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_1)(IPortion) | Létrehoz egy részt a megadott részadatok felhasználásával. |
 | [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_2)(string) | Létrehoz egy szövegrészt a megadott karakterláncból. |
 
-### Megjegyzés
+### Megjegyzések
 
-COM kompatibilitáshoz
+A COM kompatibilitásért
 
 ### Lásd még
 

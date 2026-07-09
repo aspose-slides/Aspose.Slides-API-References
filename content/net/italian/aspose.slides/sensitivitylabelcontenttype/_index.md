@@ -1,14 +1,14 @@
 ---
 title: SensitivityLabelContentType
 second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta i tipi di contrassegno del contenuto che dovrebbero essere applicati a un documento.
+description: Rappresenta i tipi di marcatura del contenuto che dovrebbero essere applicati a un documento.
 type: docs
-weight: 9800
+weight: 9820
 url: /it/aspose.slides/sensitivitylabelcontenttype/
 ---
 ## Enumerazione SensitivityLabelContentType
 
-Rappresenta i tipi di contrassegno di contenuto che dovrebbero essere applicati a un documento.
+Rappresenta i tipi di marcatura del contenuto che dovrebbero essere applicati a un documento.
 
 ```csharp
 public enum SensitivityLabelContentType
@@ -18,11 +18,11 @@ public enum SensitivityLabelContentType
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| None | `0` | Indica che l'etichetta è applicata per impostazione predefinita o automaticamente. |
-| Header | `1` | Indica che l'etichetta è stata applicata manualmente. Usa per qualsiasi etichetta di sensibilità applicata direttamente dall'utente. |
-| Footer | `2` | Indica che l'etichetta è stata applicata manualmente. Usa per qualsiasi etichetta di sensibilità applicata direttamente dall'utente. |
-| Watermark | `4` | Indica che l'etichetta è stata applicata manualmente. Usa per qualsiasi etichetta di sensibilità applicata direttamente dall'utente. |
-| Encryption | `8` | Indica che l'etichetta è stata applicata manualmente. Usa per qualsiasi etichetta di sensibilità applicata direttamente dall'utente. |
+| None | `0` | Implica che l'etichetta venga applicata per impostazione predefinita o automaticamente. |
+| Header | `1` | Implica che l'etichetta sia stata applicata manualmente. Utilizzare per qualsiasi etichetta di sensibilità che sia stata applicata direttamente dall'utente. |
+| Footer | `2` | Implica che l'etichetta sia stata applicata manualmente. Utilizzare per qualsiasi etichetta di sensibilità che sia stata applicata direttamente dall'utente. |
+| Watermark | `4` | Implica che l'etichetta sia stata applicata manualmente. Utilizzare per qualsiasi etichetta di sensibilità che sia stata applicata direttamente dall'utente. |
+| Encryption | `8` | Implica che l'etichetta sia stata applicata manualmente. Utilizzare per qualsiasi etichetta di sensibilità che sia stata applicata direttamente dall'utente. |
 
 ### Vedi anche
 

@@ -3,7 +3,7 @@ title: IChartCategory
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar diagramkategorier.
 type: docs
-weight: 1730
+weight: 1750
 url: /sv/aspose.slides.charts/ichartcategory/
 ---
 ## IChartCategory gränssnitt
@@ -16,19 +16,19 @@ public interface IChartCategory
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
 | [AsCell](../../aspose.slides.charts/ichartcategory/ascell) { get; set; } | Returnerar eller anger IChartDataCell-objekt. Om kategorin är flernivå används IChartDataCell-objekt för nivå "0". Läs/skriv [`IChartDataCell`](../ichartdatacell). |
-| [AsLiteral](../../aspose.slides.charts/ichartcategory/asliteral) { get; set; } | Returnerar eller anger AsLiteral om UseCell är falskt. Läs/skriv Object. |
-| [GroupingLevels](../../aspose.slides.charts/ichartcategory/groupinglevels) { get; } | Hanterad behållare för värdena i diagramkategorins grupperingnivåer. En flernivåkategori innehåller mer än en grupperingsnivå. Indexeringen av grupperingsnivåer är nollbaserad. Skrivskyddad [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
-| [UseCell](../../aspose.slides.charts/ichartcategory/usecell) { get; } | Om true är AsCell-egenskapen aktuell. Med andra ord används arbetsbladet för att lagra kategori (detta fall stöder en flernivåkategori). Om false är AsLiteral-egenskapen aktuell. Med andra ord används arbetsbladet INTE för att lagra kategori (och detta fall stödjer inte flernivåkategorier). Skrivskyddad Boolean. |
-| [Value](../../aspose.slides.charts/ichartcategory/value) { get; set; } | Om UseCell är true representerar denna egenskap AsCell.Value-egenskapen. Om UseCell är false representerar denna egenskap AsLiteral-egenskapen. Läs/skriv Object. |
+| [AsLiteral](../../aspose.slides.charts/ichartcategory/asliteral) { get; set; } | Returnerar eller anger AsLiteral om UseCell är false. Läs/skriv Object. |
+| [GroupingLevels](../../aspose.slides.charts/ichartcategory/groupinglevels) { get; } | Hanterad behållare för värdena i diagramkategorins grupperingnivåer. En flernivåkategori innehåller mer än en grupperingnivå. Indexering av grupperingnivåer är nollbaserad. Läs/endast [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
+| [UseCell](../../aspose.slides.charts/ichartcategory/usecell) { get; } | Om true är AsCell-egenskapen aktuell. Med andra ord används arbetsbladet för att lagra kategori (detta fall stöder en flernivåkategori). Om false är AsLiteral-egenskapen aktuell. Med andra ord används arbetsbladet INTE för att lagra kategori (och detta fall stödjer inte flernivåkategorier). Läs/endast Boolean. |
+| [Value](../../aspose.slides.charts/ichartcategory/value) { get; set; } | Om UseCell är true representerar egenskapen AsCell.Value-egenskapen. Om UseCell är false representerar egenskapen AsLiteral-egenskapen. Läs/skriv Object. |
 
 ## Metoder
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [Remove](../../aspose.slides.charts/ichartcategory/remove)() | Tar bort kategori från diagrammet. |
+| [Remove](../../aspose.slides.charts/ichartcategory/remove)() | Tar bort kategori från diagram. |
 
 ### Se också
 

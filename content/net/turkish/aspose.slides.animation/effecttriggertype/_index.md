@@ -1,14 +1,14 @@
 ---
 title: EffectTriggerType
 second_title: Aspose.Sildes için .NET API Referansı
-description: Efektin tetikleme tipini temsil eder.
+description: Efektin tetikleme türünü temsil eder.
 type: docs
-weight: 330
+weight: 350
 url: /tr/aspose.slides.animation/effecttriggertype/
 ---
-## EffectTriggerType enum
+## EffectTriggerType enumerasyonu
 
-Efektin tetikleme tipini temsil eder.
+Efektin tetikleyici türünü temsil eder.
 
 ```csharp
 public enum EffectTriggerType

@@ -1,9 +1,9 @@
 ---
 title: BaseOverrideThemeManager
-second_title: Aspose.Sildes pro .NET API Referenci
+second_title: Aspose.Sildes pro .NET API Reference
 description: Základní třída pro třídy, které poskytují přístup k různým typům přepsaných motivů.
 type: docs
-weight: 11020
+weight: 11040
 url: /cs/aspose.slides.theme/baseoverridethememanager/
 ---
 ## BaseOverrideThemeManager třída
@@ -18,15 +18,15 @@ public abstract class BaseOverrideThemeManager : BaseThemeManager, IOverrideThem
 
 | Název | Popis |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Určuje, zda OverrideTheme přepisuje zděděný efektivní motiv nebo ne. Pro povolení přepisování OverrideTheme použijte metody OverrideTheme.Init*(). Pro zakázání přepisování OverrideTheme použijte metodu OverrideTheme.Clear(). Pouze pro čtení Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Vrátí objekt přepisujícího motivu. Čtení/zápis [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Určuje, zda OverrideTheme přepisuje zděděný efektivní motiv, nebo ne. Pro povolení přepisování OverrideTheme použijte metody OverrideTheme.Init*(). Pro zakázání přepisování OverrideTheme použijte metodu OverrideTheme.Clear(). Pouze pro čtení Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Vrací objekt přepisujícího motivu. Čtení/zápis [`IOverrideTheme`](../ioverridetheme). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Použije dodatečnou barevnou schému na snímek. |
-| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Vrátí objekt motivu. |
+| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Použije extra barevné schéma na snímek. |
+| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Vrací objekt motivu. |
 
 ### Viz také
 

@@ -3,7 +3,7 @@ title: FilterEffectSubtype
 second_title: Aspose.Sildes .NET API referencia
 description: A szűrőhatás altípusait reprezentálja.
 type: docs
-weight: 370
+weight: 390
 url: /hu/aspose.slides.animation/filtereffectsubtype/
 ---
 ## FilterEffectSubtype enumeráció

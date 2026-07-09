@@ -3,12 +3,12 @@ title: SlidesLayoutOptions
 second_title: Referência da API Aspose.Sildes para .NET
 description: Obtém ou define o modo como os slides são posicionados na página ao exportar uma apresentação ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions.
 type: docs
-weight: 70
+weight: 80
 url: /pt/aspose.slides.export/html5options/slideslayoutoptions/
 ---
 ## Html5Options.SlidesLayoutOptions propriedade
 
-Obtém ou define o modo em que os slides são posicionados na página ao exportar uma apresentação [`ISlidesLayoutOptions`](../../islideslayoutoptions).
+Obtém ou define o modo como os slides são posicionados na página ao exportar uma apresentação [`ISlidesLayoutOptions`](../../islideslayoutoptions).
 
 ```csharp
 public ISlidesLayoutOptions SlidesLayoutOptions { get; set; }

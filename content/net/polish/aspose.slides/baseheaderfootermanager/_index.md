@@ -1,14 +1,14 @@
 ---
 title: BaseHeaderFooterManager
-second_title: Aspose.Sildes dla .NET – Odniesienie API
-description: Reprezentuje menedżera, który utrzymuje zachowanie symboli stopki, daty-czasu oraz numeru strony dla wszystkich typów slajdów.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Reprezentuje menedżera, który zarządza zachowaniem symboli zastępczych stopki, daty i godziny oraz numeru strony we wszystkich typach slajdów.
 type: docs
-weight: 940
+weight: 960
 url: /pl/aspose.slides/baseheaderfootermanager/
 ---
 ## BaseHeaderFooterManager klasa
 
-Reprezentuje menedżera, który utrzymuje zachowanie symboli stopki, daty-czasu oraz numeru strony dla wszystkich typów slajdów.
+Reprezentuje menedżera, który zarządza zachowaniem symboli zastępczych stopki, daty i godziny oraz numeru strony we wszystkich typach slajdów.
 
 ```csharp
 public abstract class BaseHeaderFooterManager : IBaseHeaderFooterManager

@@ -1,14 +1,14 @@
 ---
 title: VbaModule
-second_title: Aspose.Sildes .NET API referencia
-description: A VBA projektben található modult reprezentálja.
+second_title: Aspose.Sildes a .NET API referencia
+description: A VBA-projektben található modult ábrázol.
 type: docs
-weight: 11610
+weight: 11630
 url: /hu/aspose.slides.vba/vbamodule/
 ---
 ## VbaModule osztály
 
-A VBA projektben szereplő modult képviseli.
+Egy VBA-projektben található modult képvisel.
 
 ```csharp
 public sealed class VbaModule : IVbaModule
@@ -18,10 +18,10 @@ public sealed class VbaModule : IVbaModule
 
 | Név | Leírás |
 | --- | --- |
-| [Name](../../aspose.slides.vba/vbamodule/name) { get; } | Lekéri a modul nevét. Csak olvasható String. |
+| [Name](../../aspose.slides.vba/vbamodule/name) { get; } | Visszaadja a modul nevét. Csak olvasható String. |
 | [SourceCode](../../aspose.slides.vba/vbamodule/sourcecode) { get; set; } | Visszaadja vagy beállítja a modul forráskódját. Olvasás/írás String. |
 
-### Kapcsolódó elemek
+### Lásd még
 
 * interfész [IVbaModule](../ivbamodule)
 * névtér [Aspose.Slides.Vba](../../aspose.slides.vba)

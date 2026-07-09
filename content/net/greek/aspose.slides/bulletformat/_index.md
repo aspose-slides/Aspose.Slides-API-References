@@ -1,14 +1,14 @@
 ---
 title: BulletFormat
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αναπαριστά τις ιδιότητες μορφοποίησης κουκκίδων παραγράφου.
+description: Αντιπροσωπεύει τις ιδιότητες μορφοποίησης κουκκίδων παραγράφου.
 type: docs
-weight: 1050
+weight: 1070
 url: /el/aspose.slides/bulletformat/
 ---
 ## BulletFormat κλάση
 
-Αναπαριστά τις ιδιότητες μορφοποίησης κουκκίδων παραγράφου.
+Αντιπροσωπεύει τις ιδιότητες μορφοποίησης κουκκίδων παραγράφου.
 
 ```csharp
 public sealed class BulletFormat : PVIObject, IBulletFormat
@@ -18,32 +18,32 @@ public sealed class BulletFormat : PVIObject, IBulletFormat
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Επιτρέπει την απόκτηση της βασικής διεπαφής IPPresentationComponent. Μόνο ανάγνωση [`IPresentationComponent`](../ipresentationcomponent). |
-| [Char](../../aspose.slides/bulletformat/char) { get; set; } | Επιστρέφει ή ορίζει το χαρακτήρα της κουκκίδας μιας παραγράφου χωρίς κληρονόμηση. Ανάγνωση/εγγραφή Char. |
-| [Color](../../aspose.slides/bulletformat/color) { get; } | Επιστρέφει τη μορφή χρώματος μιας κουκκίδας μιας παραγράφου χωρίς κληρονόμηση. Μόνο ανάγνωση [`IColorFormat`](../icolorformat). |
-| [Font](../../aspose.slides/bulletformat/font) { get; set; } | Επιστρέφει ή ορίζει τη γραμματοσειρά της κουκκίδας μιας παραγράφου χωρίς κληρονόμηση. Ανάγνωση/εγγραφή [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/bulletformat/height) { get; set; } | Επιστρέφει ή ορίζει το ύψος της κουκκίδας μιας παραγράφου χωρίς κληρονόμηση. Η τιμή float.NaN καθορίζει ότι η κουκκίδα κληρονομεί το ύψος από το πρώτο τμήμα στην παράγραφο. Ανάγνωση/εγγραφή Single. |
-| [IsBulletHardColor](../../aspose.slides/bulletformat/isbullethardcolor) { get; set; } | Καθορίζει εάν η κουκκίδα έχει δικό της χρώμα ή το κληρονομεί από το πρώτο τμήμα στην παράγραφο. **NullableBool.True** εάν η κουκκίδα έχει δικό της χρώμα και **NullableBool.False** εάν η κουκκίδα κληρονομεί το χρώμα από το πρώτο τμήμα στην παράγραφο. Ανάγνωση/εγγραφή [`NullableBool`](../nullablebool). |
-| [IsBulletHardFont](../../aspose.slides/bulletformat/isbullethardfont) { get; set; } | Καθορίζει εάν η κουκκίδα έχει δική της γραμματοσειρά ή την κληρονομεί από το πρώτο τμήμα στην παράγραφο. **NullableBool.True** εάν η κουκκίδα έχει δική της γραμματοσειρά και **NullableBool.False** εάν η κουκκίδα κληρονομεί τη γραμματοσειρά από το πρώτο τμήμα στην παράγραφο. Ανάγνωση/εγγραφή [`NullableBool`](../nullablebool). |
-| [NumberedBulletStartWith](../../aspose.slides/bulletformat/numberedbulletstartwith) { get; set; } | Επιστρέφει ή ορίζει τον πρώτο αριθμό που χρησιμοποιείται για την ομάδα αριθμημένων κουκκίδων χωρίς κληρονόμηση. Ανάγνωση/εγγραφή Int16. |
-| [NumberedBulletStyle](../../aspose.slides/bulletformat/numberedbulletstyle) { get; set; } | Επιστρέφει ή ορίζει το στυλ μιας αριθμημένης κουκκίδας χωρίς κληρονόμηση. Ανάγνωση/εγγραφή [`NumberedBulletStyle`](../numberedbulletstyle). |
-| [Picture](../../aspose.slides/bulletformat/picture) { get; } | Επιστρέφει την εικόνα που χρησιμοποιείται ως κουκκίδα σε μια παράγραφο χωρίς κληρονόμηση. Μόνο ανάγνωση [`ISlidesPicture`](../islidespicture). |
-| [Type](../../aspose.slides/bulletformat/type) { get; set; } | Επιστρέφει ή ορίζει τον τύπο κουκκίδας μιας παραγράφου χωρίς κληρονόμηση. Ανάγνωση/εγγραφή [`BulletType`](../bullettype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Επιτρέπει την απόκτηση της βασικής διεπαφής IPresentationComponent. Μόνο για ανάγνωση [`IPresentationComponent`](../ipresentationcomponent). |
+| [Char](../../aspose.slides/bulletformat/char) { get; set; } | Επιστρέφει ή ορίζει το χαρακτήρα bullet μιας παραγράφου χωρίς κληρονομικότητα. Ανάγνωση/εγγραφή Char. |
+| [Color](../../aspose.slides/bulletformat/color) { get; } | Επιστρέφει τη μορφή χρώματος μιας κουκκίδας μιας παραγράφου χωρίς κληρονομικότητα. Μόνο για ανάγνωση [`IColorFormat`](../icolorformat). |
+| [Font](../../aspose.slides/bulletformat/font) { get; set; } | Επιστρέφει ή ορίζει τη γραμματοσειρά bullet μιας παραγράφου χωρίς κληρονομικότητα. Ανάγνωση/εγγραφή [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/bulletformat/height) { get; set; } | Επιστρέφει ή ορίζει το ύψος bullet μιας παραγράφου χωρίς κληρονομικότητα. Η τιμή float.NaN καθορίζει ότι το bullet κληρονομεί το ύψος από το πρώτο τμήμα της παραγράφου. Ανάγνωση/εγγραφή Single. |
+| [IsBulletHardColor](../../aspose.slides/bulletformat/isbullethardcolor) { get; set; } | Καθορίζει εάν το bullet έχει δικό του χρώμα ή το κληρονομεί από το πρώτο τμήμα στην παράγραφο. **NullableBool.True** εάν το bullet έχει δικό του χρώμα και **NullableBool.False** εάν το bullet κληρονομεί το χρώμα από το πρώτο τμήμα στην παράγραφο. Ανάγνωση/εγγραφή [`NullableBool`](../nullablebool). |
+| [IsBulletHardFont](../../aspose.slides/bulletformat/isbullethardfont) { get; set; } | Καθορίζει εάν το bullet έχει δική του γραμματοσειρά ή την κληρονομεί από το πρώτο τμήμα στην παράγραφο. **NullableBool.True** εάν το bullet έχει δική του γραμματοσειρά και **NullableBool.False** εάν το bullet κληρονομεί τη γραμματοσειρά από το πρώτο τμήμα στην παράγραφο. Ανάγνωση/εγγραφή [`NullableBool`](../nullablebool). |
+| [NumberedBulletStartWith](../../aspose.slides/bulletformat/numberedbulletstartwith) { get; set; } | Επιστρέφει ή ορίζει τον πρώτο αριθμό που χρησιμοποιείται για ομάδα αριθμημένων bullet χωρίς κληρονομικότητα. Ανάγνωση/εγγραφή Int16. |
+| [NumberedBulletStyle](../../aspose.slides/bulletformat/numberedbulletstyle) { get; set; } | Επιστρέφει ή ορίζει το στυλ ενός αριθμημένου bullet χωρίς κληρονομικότητα. Ανάγνωση/εγγραφή [`NumberedBulletStyle`](../numberedbulletstyle). |
+| [Picture](../../aspose.slides/bulletformat/picture) { get; } | Επιστρέφει την εικόνα που χρησιμοποιείται ως bullet σε μια παράγραφο χωρίς κληρονομικότητα. Μόνο για ανάγνωση [`ISlidesPicture`](../islidespicture). |
+| [Type](../../aspose.slides/bulletformat/type) { get; set; } | Επιστρέφει ή ορίζει τον τύπο bullet μιας παραγράφου χωρίς κληρονομικότητα. Ανάγνωση/εγγραφή [`BulletType`](../bullettype). |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/bulletformat/applydefaultparagraphindentsshifts)() | Ορίζει τις προεπιλεγμένες μη μηδενικές μετατοπίσεις για το αποτελεσματικό παραγραμικό Indent και MarginLeft όταν οι κουκκίδες είναι ενεργοποιημένες (όπως κάνει το PowerPoint όταν ενεργοποιεί τις κουκκίδες/αρίθμηση παραγράφου). Εάν οι κουκκίδες είναι απενεργοποιημένες, τότε απλώς επαναφέρει το Indent και MarginLeft της παραγράφου (όπως κάνει το PowerPoint όταν απενεργοποιεί τις κουκκίδες/αρίθμηση παραγράφου). Οι μετατοπίσεις εσοχών εφαρμόζονται σε σχέση με το τρέχον πλαίσιο κουκκίδας - IBulletFormat.Type, .NumberedBulletStyle και FontHeight του πρώτου τμήματος. Οι μη μηδενικές μετατοπίσεις εσοχών εφαρμόζονται στο αποτελεσματικό Indent και MarginLeft της τρέχουσας παραγράφου (κάνει τις τιμές αποτελέσματος τοπικές). |
+| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/bulletformat/applydefaultparagraphindentsshifts)() | Ορίζει τις προεπιλεγμένες μη μηδενικές μετατοπίσεις για το αποτελεσματικό Indent και MarginLeft παραγράφου όταν τα bullets είναι ενεργά (όπως κάνει το PowerPoint εάν ενεργοποιηθεί η σφαίρα/αρίθμηση παραγράφων). Εάν τα bullets είναι απενεργοποιημένα, τότε απλώς επαναφέρει το Indent και MarginLeft της παραγράφου (όπως κάνει το PowerPoint εάν απενεργοποιηθεί η σφαίρα/αρίθμηση παραγράφων). Οι μετατοπίσεις εσοχής εφαρμόζονται σε σχέση με το τρέχον πλαίσιο bullet - IBulletFormat.Type, .NumberedBulletStyle και FontHeight του πρώτου τμήματος. Οι μη μηδενικές μετατοπίσεις εσοχής εφαρμόζονται στο αποτελεσματικό Indent και MarginLeft της τρέχουσας παραγράφου (δημιουργώντας τοπικές τιμές). |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Συγκρίνει με το καθορισμένο αντικείμενο. |
-| [GetEffective](../../aspose.slides/bulletformat/geteffective)() | Λαμβάνει τα δεδομένα αποτελεσματικής μορφοποίησης κουκκίδας με την εφαρμογή κληρονόμησης. |
+| [GetEffective](../../aspose.slides/bulletformat/geteffective)() | Λαμβάνει τα αποτελεσματικά δεδομένα μορφοποίησης bullet με την κληρονομικότητα εφαρμοσμένη. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Επιστρέφει τον κωδικό κατακερματισμού. |
 
 ### Δείτε επίσης
 
 * κλάση [PVIObject](../pviobject)
 * διεπαφή [IBulletFormat](../ibulletformat)
-* χώρος ονομασιών [Aspose.Slides](../../aspose.slides)
-* συστατικό [Aspose.Slides](../../)
+* χώρος ονομάτων [Aspose.Slides](../../aspose.slides)
+* συναρμολόγηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

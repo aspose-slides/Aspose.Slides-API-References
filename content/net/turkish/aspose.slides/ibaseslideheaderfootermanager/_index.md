@@ -1,14 +1,14 @@
 ---
 title: IBaseSlideHeaderFooterManager
-second_title: Aspose.Sildes için .NET API Referansı
-description: Tüm slayt tipleri için altbilgi, tarih-zaman ve sayfa numarası yer tutucularının davranışını tutan yöneticiyi temsil eder.
+second_title: Aspose.Sildes .NET için API Referansı
+description: Tüm slayt türleri için alt bilgi, tarih-saat ve sayfa numarası yer tutucularının davranışını tutan yöneticiyi temsil eder.
 type: docs
-weight: 5330
+weight: 5350
 url: /tr/aspose.slides/ibaseslideheaderfootermanager/
 ---
-## IBaseSlideHeaderFooterManager arayüzü
+## IBaseSlideHeaderFooterManager arayüz
 
-Tüm slayt tipleri için altbilgi, tarih-zaman ve sayfa numarası yer tutucularının davranışını tutan yöneticiyi temsil eder.
+Represents manager which holds behavior of the footer, date-time, page number placeholders for all slide types.
 
 ```csharp
 public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
@@ -19,18 +19,18 @@ public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
 | Ad | Açıklama |
 | --- | --- |
 | [AsIBaseHeaderFooterManager](../../aspose.slides/ibaseslideheaderfootermanager/asibaseheaderfootermanager) { get; } | IBaseHeaderFooterManager arabirimini döndürür. |
-| [IsDateTimeVisible](../../aspose.slides/ibaseslideheaderfootermanager/isdatetimevisible) { get; } | Bir tarih-zaman yer tutucusunun mevcut olduğunu gösteren değeri alır. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/ibaseslideheaderfootermanager/isfootervisible) { get; } | Bir altbilgi yer tutucusunun mevcut olduğunu gösteren değeri alır. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/ibaseslideheaderfootermanager/isslidenumbervisible) { get; } | Bir sayfa numarası yer tutucusunun mevcut olduğunu gösteren değeri alır. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/ibaseslideheaderfootermanager/isdatetimevisible) { get; } | Bir tarih-saat yer tutucusunun var olduğunu gösteren değeri alır. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/ibaseslideheaderfootermanager/isfootervisible) { get; } | Bir alt bilgi yer tutucusunun var olduğunu gösteren değeri alır. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/ibaseslideheaderfootermanager/isslidenumbervisible) { get; } | Bir sayfa numarası yer tutucusunun var olduğunu gösteren değeri alır. ReadBoolean. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimetext)(string) | Slayt tarih-zaman yer tutucusuna metin ayarlar. |
-| [SetDateTimeVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimevisibility)(bool) | Slayt tarih-zaman yer tutucusunun görünürlüğünü değiştirir. |
-| [SetFooterText](../../aspose.slides/ibaseslideheaderfootermanager/setfootertext)(string) | Slayt altbilgi yer tutucusuna metin ayarlar. |
-| [SetFooterVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setfootervisibility)(bool) | Slayt altbilgi yer tutucusunun görünürlüğünü değiştirir. |
+| [SetDateTimeText](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimetext)(string) | Slayt tarih-saat yer tutucusuna metin ayarlar. |
+| [SetDateTimeVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimevisibility)(bool) | Slayt tarih-saat yer tutucusunun görünürlüğünü değiştirir. |
+| [SetFooterText](../../aspose.slides/ibaseslideheaderfootermanager/setfootertext)(string) | Slayt alt bilgi yer tutucusuna metin ayarlar. |
+| [SetFooterVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setfootervisibility)(bool) | Slayt alt bilgi yer tutucusunun görünürlüğünü değiştirir. |
 | [SetSlideNumberVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setslidenumbervisibility)(bool) | Slayt sayfa numarası yer tutucusunun görünürlüğünü değiştirir. |
 
 ### Ayrıca Bakınız

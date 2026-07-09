@@ -3,7 +3,7 @@ title: IDigitalSignatureCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: ドキュメントに添付されたデジタル署名のコレクションを表します。
 type: docs
-weight: 5680
+weight: 5700
 url: /ja/aspose.slides/idigitalsignaturecollection/
 ---
 ## IDigitalSignatureCollection インターフェイス
@@ -18,7 +18,7 @@ public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignat
 
 | 名前 | 説明 |
 | --- | --- |
-| [Item](../../aspose.slides/idigitalsignaturecollection/item) { get; } | インデックスで署名を取得します。 |
+| [Item](../../aspose.slides/idigitalsignaturecollection/item) { get; } | インデックスで署名を返します。 |
 
 ## メソッド
 

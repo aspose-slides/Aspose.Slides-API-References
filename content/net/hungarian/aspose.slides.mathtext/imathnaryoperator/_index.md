@@ -1,14 +1,14 @@
 ---
 title: IMathNaryOperator
-second_title: Aspose.Sildes a .NET API referenciához
-description: Megadja az N-áris matematikai objektumot, például a Summation és az Integral. Operátorból, egy alapból vagy operandusból, valamint opcionális felső és alsó határokból áll. Az N-áris operátorok példái: Summation, Union, Intersection, Integral.
+second_title: Aspose.Sildes .NET API referenciája
+description: Megad egy N-darabos matematikai objektumot, például Summation és Integral. Operátorból, egy alapból vagy operandusból, valamint opcionális felső és alsó határból áll. N-darabos operátor példák: Summation, Union, Intersection, Integral
 type: docs
-weight: 8340
+weight: 8360
 url: /hu/aspose.slides.mathtext/imathnaryoperator/
 ---
 ## IMathNaryOperator interfész
 
-Megadja az N-áris matematikai objektumot, például a Summation és a Integral. Egy operátorból, egy alapból (vagy operandusból) és opcionális felső és alsó határból áll. Az N-áris operátorok példái: Summation, Union, Intersection, Integral
+Egy N-darabos matematikai objektumot határoz meg, például összeadást és integrált. Egy operátorból, egy alapból (vagy operandusból) és opcionális felső és alsó határból áll. N-darabos operátor példák: Összegzés, Unió, Metszet, Integrál
 
 ```csharp
 public interface IMathNaryOperator : IMathElement, IMathNaryOperatorProperties
@@ -16,17 +16,17 @@ public interface IMathNaryOperator : IMathElement, IMathNaryOperatorProperties
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathnaryoperator/asimathelement) { get; } | Lehetővé teszi az alap IMathElement interfész lekérését [`IMathElement`](../imathelement) |
-| [AsIMathNaryOperatorProperties](../../aspose.slides.mathtext/imathnaryoperator/asimathnaryoperatorproperties) { get; } | Lehetővé teszi az alap IMathNaryOperatorProperties interfész lekérését [`IMathNaryOperatorProperties`](../imathnaryoperatorproperties) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathnaryoperator/asimathelement) { get; } | Lehetővé teszi az alap IMathElement interfész [`IMathElement`](../imathelement) lekérését |
+| [AsIMathNaryOperatorProperties](../../aspose.slides.mathtext/imathnaryoperator/asimathnaryoperatorproperties) { get; } | Lehetővé teszi az alap IMathNaryOperatorProperties interfész [`IMathNaryOperatorProperties`](../imathnaryoperatorproperties) lekérését |
 | [Base](../../aspose.slides.mathtext/imathnaryoperator/base) { get; } | Alap argumentum |
-| [Subscript](../../aspose.slides.mathtext/imathnaryoperator/subscript) { get; } | Megadja az alsó index argumentumát, amely például egy integral esetén az alsó határt állítja be |
-| [Superscript](../../aspose.slides.mathtext/imathnaryoperator/superscript) { get; } | Megadja a felső index argumentumát, amely például egy integral esetén a felső határt állítja be |
+| [Subscript](../../aspose.slides.mathtext/imathnaryoperator/subscript) { get; } | Megad egy alsó index argumentumot, amely például integrál esetén a alsó határt állítja be |
+| [Superscript](../../aspose.slides.mathtext/imathnaryoperator/superscript) { get; } | Megad egy felső index argumentumot, amely például integrál esetén a felső határt állítja be |
 
 ### Példák
 
-Example:
+Példa:
 
 ```csharp
 [C#]

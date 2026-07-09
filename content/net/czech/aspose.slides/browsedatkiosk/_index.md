@@ -1,20 +1,20 @@
 ---
 title: BrowsedAtKiosk
 second_title: Aspose.Sildes pro .NET API Reference
-description: Zobrazeno na kiosku na celou obrazovku
+description: Prohlíženo v kiosku na celou obrazovku
 type: docs
-weight: 1020
+weight: 1040
 url: /cs/aspose.slides/browsedatkiosk/
 ---
 ## BrowsedAtKiosk třída
 
-Zobrazeno na kiosku (celá obrazovka)
+Prohlíženo v kiosku (celá obrazovka)
 
 ```csharp
 public class BrowsedAtKiosk : SlideShowType
 ```
 
-## Konstruktory
+## Konstruktor
 
 | Název | Popis |
 | --- | --- |

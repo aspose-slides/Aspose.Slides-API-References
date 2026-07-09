@@ -1,14 +1,14 @@
 ---
 title: TextInheritanceLimit
 second_title: Aspose.Sildes pro .NET API Reference
-description: Řídí hloubku dědičnosti vlastností textu.
+description: Řídí hloubku dědičnosti textových vlastností.
 type: docs
-weight: 4520
+weight: 4540
 url: /cs/aspose.slides.export/textinheritancelimit/
 ---
-## TextInheritanceLimit výčtový typ
+## TextInheritanceLimit výčet
 
-Řídí hloubku dědičnosti vlastností textu.
+Řídí hloubku dědičnosti textových vlastností.
 
 ```csharp
 public enum TextInheritanceLimit
@@ -18,8 +18,8 @@ public enum TextInheritanceLimit
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| All | `0` | Dědit všechny vlastnosti textu. |
-| TextBox | `1` | Dědit pouze ze stylu TextFrame. |
+| All | `0` | Zdědit všechny textové vlastnosti. |
+| TextBox | `1` | Zdědit pouze ze stylu TextFrame. |
 | ParagraphOnly | `2` | Použít pouze vlastnosti definované pro odstavec. |
 
 ### Viz také

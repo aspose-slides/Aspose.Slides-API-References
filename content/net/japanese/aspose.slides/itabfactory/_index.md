@@ -1,14 +1,14 @@
 ---
 title: ITabFactory
-second_title: Aspose.Sildes for .NET API リファレンス
-description: ITab インスタンスの作成を許可します
+second_title: Aspose.Sildes の .NET API リファレンス
+description: ITab インスタンスを作成できるようにします
 type: docs
-weight: 7200
+weight: 7220
 url: /ja/aspose.slides/itabfactory/
 ---
 ## ITabFactory インターフェイス
 
-ITab インスタンスの作成を許可します
+ITab インスタンスを作成できるようにする
 
 ```csharp
 public interface ITabFactory
@@ -24,7 +24,7 @@ public interface ITabFactory
 
 COM 互換性のためです。
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

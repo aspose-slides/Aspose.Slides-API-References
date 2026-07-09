@@ -1,14 +1,14 @@
 ---
 title: Reflection
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje efekt odrazu.
+description: Representuje efekt odrazu.
 type: docs
-weight: 3620
+weight: 3640
 url: /cs/aspose.slides.effects/reflection/
 ---
 ## Třída Reflection
 
-Represents a Reflection effect.
+Representuje efekt odrazu.
 
 ```csharp
 public sealed class Reflection : IReflection
@@ -18,33 +18,33 @@ public sealed class Reflection : IReflection
 
 | Název | Popis |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | Poloměr rozostření. Číst/zapisovat Double. |
-| [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | Směr odrazu. Číst/zapisovat Single. |
-| [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | Vzdálenost odrazu. Číst/zapisovat Double. |
-| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | Určuje koncovou pozici (podél rampy alfa gradientu) koncové alfa hodnoty (procent). Číst/zapisovat Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | Koncová neprůhlednost odrazu. (procent). Číst/zapisovat Single. |
-| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | Určuje směr posunu odrazu. (úhel). Číst/zapisovat Single. |
-| [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | Zarovnání obdélníku. Číst/zapisovat [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | Určuje, zda se odraz má otáčet se tvarem, pokud je tvar otočen. Číst/zapisovat Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | Určuje horizontální škálovací faktor, záporné škálování způsobí převrácení. (procent) Číst/zapisovat Double. |
-| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | Určuje vertikální škálovací faktor, záporné škálování způsobí převrácení. (procent) Číst/zapisovat Double. |
-| [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | Určuje horizontální úhel zkosení. Číst/zapisovat Double. |
-| [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | Určuje vertikální úhel zkosení. Číst/zapisovat Double. |
-| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | Určuje počáteční pozici (podél rampy alfa gradientu) počáteční alfa hodnoty (procent). Číst/zapisovat Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | Počáteční neprůhlednost odrazu. (procent). Číst/zapisovat Single. |
+| [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | Poloměr rozostření. Read/write Double. |
+| [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | Směr odrazu. Read/write Single. |
+| [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | Vzdálenost odrazu. Read/write Double. |
+| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | Určuje koncovou pozici (podél gradientu alfa) koncové hodnoty alfa (procenta). Read/write Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | Koncová neprůhlednost odrazu. (procenta). Read/write Single. |
+| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | Určuje směr posunutí odrazu. (úhel). Read/write Single. |
+| [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | Zarovnání obdélníku. Read/write [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | Určuje, zda by měl odraz rotovat spolu s tvarem, pokud je tvar otočen. Read/write Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | Určuje horizontální škálovací faktor, záporné škálování způsobí převrácení. (procenta) Read/write Double. |
+| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | Určuje vertikální škálovací faktor, záporné škálování způsobí převrácení. (procenta) Read/write Double. |
+| [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | Určuje horizontální úhel zkosení. Read/write Double. |
+| [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | Určuje vertikální úhel zkosení. Read/write Double. |
+| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | Určuje počáteční pozici (podél gradientu alfa) počáteční hodnoty alfa (procenta). Read/write Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | Počáteční neprůhlednost odrazu. (procenta). Read/write Single. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/reflection/equals)(object) | Určuje, zda zadaný [`Reflection`](../reflection) je roven aktuálnímu [`Reflection`](../reflection). |
+| override [Equals](../../aspose.slides.effects/reflection/equals)(object) | Určuje, zda je zadaný [`Reflection`](../reflection) roven aktuálnímu [`Reflection`](../reflection). |
 | [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | Získá efektivní data efektu Reflection s aplikovaným děděním. |
-| override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ. |
+| override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | Slouží jako hašovací funkce pro konkrétní typ. |
 
 ### Viz také
 
 * rozhraní [IReflection](../ireflection)
 * jmenný prostor [Aspose.Slides.Effects](../../aspose.slides.effects)
-* sestavení [Aspose.Slides](../../)
+* sestava [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

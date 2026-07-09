@@ -1,9 +1,9 @@
 ---
 title: ChartLinesFormat
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Izgara çizgileri biçim özelliklerini temsil eder.
 type: docs
-weight: 1390
+weight: 1410
 url: /tr/aspose.slides.charts/chartlinesformat/
 ---
 ## ChartLinesFormat sınıfı
@@ -18,8 +18,8 @@ public class ChartLinesFormat : IChartLinesFormat
 
 | Ad | Açıklama |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/chartlinesformat/effect) { get; } | Bir grafik çizgisi için kullanılan efektleri döndürür. Yalnızca okuma [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Line](../../aspose.slides.charts/chartlinesformat/line) { get; } | Bir grafik çizgisinin çizgi stil özelliklerini döndürür. Yalnızca okuma [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/chartlinesformat/effect) { get; } | Bir grafik çizgisi için kullanılan efektleri döndürür. Salt-okunur [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Line](../../aspose.slides.charts/chartlinesformat/line) { get; } | Bir grafik çizgisinin çizgi stili özelliklerini döndürür. Salt-okunur [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### Ayrıca Bakınız
 

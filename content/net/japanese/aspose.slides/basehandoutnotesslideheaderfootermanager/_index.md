@@ -1,14 +1,14 @@
 ---
 title: BaseHandoutNotesSlideHeaderFooterManager
-second_title: Aspose.Sildes の .NET API リファレンス
-description: プレースホルダーの動作を保持するマネージャーを表します。すべての種類の配布資料およびノートスライドのヘッダープレースホルダーを含みます。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: ヘッダー プレースホルダーを含む、すべての種類の配布資料およびノートスライド用プレースホルダーの動作を保持するマネージャーを表します。
 type: docs
-weight: 930
+weight: 950
 url: /ja/aspose.slides/basehandoutnotesslideheaderfootermanager/
 ---
 ## BaseHandoutNotesSlideHeaderFooterManager クラス
 
-すべての種類の配布資料およびノートスライドのヘッダー プレースホルダーを含む、プレースホルダーの動作を保持するマネージャーを表します。
+すべての種類の配布資料およびノートスライド用のヘッダー プレースホルダーを含む、プレースホルダーの動作を保持するマネージャーを表します。
 
 ```csharp
 public abstract class BaseHandoutNotesSlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
@@ -19,10 +19,10 @@ public abstract class BaseHandoutNotesSlideHeaderFooterManager : BaseSlideHeader
 
 | 名前 | 説明 |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | 日付時刻プレースホルダーが存在するかを示す値を取得します。ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | フッタープレースホルダーが存在するかを示す値を取得します。Read Boolean. |
-| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | ヘッダープレースホルダーが存在するかを示す値を取得します。Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | ページ番号プレースホルダーが存在するかを示す値を取得します。ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | 日時プレースホルダーが存在することを示す値を取得します。ReadBoolean。 |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | フッタープレースホルダーが存在することを示す値を取得します。Read Boolean。 |
+| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | ヘッダープレースホルダーが存在することを示す値を取得します。Read Boolean。 |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | ページ番号プレースホルダーが存在することを示す値を取得します。ReadBoolean。 |
 
 ## メソッド
 
@@ -39,7 +39,7 @@ public abstract class BaseHandoutNotesSlideHeaderFooterManager : BaseSlideHeader
 ### 参照
 
 * クラス [BaseSlideHeaderFooterManager](../baseslideheaderfootermanager)
-* インターフェース [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
+* インターフェイス [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)
 

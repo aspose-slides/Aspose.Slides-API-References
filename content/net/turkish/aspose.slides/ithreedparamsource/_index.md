@@ -1,9 +1,9 @@
 ---
 title: IThreeDParamSource
-second_title: Aspose.Sildes .NET API Referansı için
+second_title: Aspose.Sildes için .NET API Referansı
 description: 3D özellik kaynağı yardımcı arayüz
 type: docs
-weight: 7330
+weight: 7350
 url: /tr/aspose.slides/ithreedparamsource/
 ---
 ## IThreeDParamSource arayüz

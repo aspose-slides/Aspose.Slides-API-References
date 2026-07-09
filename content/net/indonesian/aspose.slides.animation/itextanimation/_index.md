@@ -1,12 +1,12 @@
 ---
 title: ITextAnimation
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili animasi teks.
 type: docs
-weight: 600
+weight: 620
 url: /id/aspose.slides.animation/itextanimation/
 ---
-## Antarmuka ITextAnimation
+## ITextAnimation antarmuka
 
 Mewakili animasi teks.
 
@@ -18,14 +18,14 @@ public interface ITextAnimation
 
 | Nama | Deskripsi |
 | --- | --- |
-| [BuildType](../../aspose.slides.animation/itextanimation/buildtype) { get; set; } | Daftar tipe pembuatan (misalnya Paragraf 1,2,3, Semua Sekaligus) animasi teks. Baca/tulis [`BuildType`](./buildtype). |
-| [EffectAnimateBackgroundShape](../../aspose.slides.animation/itextanimation/effectanimatebackgroundshape) { get; set; } | Efek bentuk terhubung dengan grup atau tidak (null). Baca/tulis [`IEffect`](../ieffect). |
+| [BuildType](../../aspose.slides.animation/itextanimation/buildtype) { get; set; } | Daftar tipe pembuatan (mis. Paragraph 1,2,3, All at Once) animasi teks. Baca/tulis [`BuildType`](./buildtype). |
+| [EffectAnimateBackgroundShape](../../aspose.slides.animation/itextanimation/effectanimatebackgroundshape) { get; set; } | Efek bentuk yang ditautkan dengan grup atau tidak (null). Baca/tulis [`IEffect`](../ieffect). |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AddEffect](../../aspose.slides.animation/itextanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | Tambahkan efek baru ke akhir urutan saat ini hingga akhir animasi teks grup. Hanya valid jika jumlah paragraf teks sama atau lebih besar dari jumlah efek grup ini! |
+| [AddEffect](../../aspose.slides.animation/itextanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | Tambahkan efek baru ke akhir urutan saat ini hingga akhir animasi teks grup. Hanya valid jika jumlah paragraf teks sama atau lebih besar daripada jumlah efek grup ini! |
 
 ### Lihat Juga
 

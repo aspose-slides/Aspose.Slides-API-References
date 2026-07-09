@@ -1,14 +1,14 @@
 ---
 title: IHSL
-second_title: Aspose.Sildes for .NET API Referansı
-description: Bir Ton/Doygunluk/Parlaklık etkisini temsil eder. Ton, doygunluk ve parlaklık, mevcut değerlerine göre ayarlanabilir.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Hue/Saturation/Luminance etkisini temsil eder. Hue, saturation ve luminance değerleri mevcut değerlerine göre ayarlanabilir.
 type: docs
-weight: 3340
+weight: 3360
 url: /tr/aspose.slides.effects/ihsl/
 ---
 ## IHSL arayüz
 
-Ton/Doygunluk/Parlaklık etkisini temsil eder. Ton, doygunluk ve parlaklık, mevcut değerlerine göre ayarlanabilir.
+Hue/Saturation/Luminance etkisini temsil eder. Hue, saturation ve luminance değerleri mevcut değerlerine göre ayarlanabilir.
 
 ```csharp
 public interface IHSL : IAccessiblePVIObject<IHSLEffectiveData>, IImageTransformOperation
@@ -18,8 +18,8 @@ public interface IHSL : IAccessiblePVIObject<IHSLEffectiveData>, IImageTransform
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ihsl/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arayüzünü almayı sağlar. Yalnızca okunabilir [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ihsl/asiimagetransformoperation) { get; } | IImageTransformOperation arayüzünü döndürür. Yalnızca okunabilir [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ihsl/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arayüzünü almayı sağlar. Salt okunur [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ihsl/asiimagetransformoperation) { get; } | IImageTransformOperation arayüzünü döndürür. Salt okunur [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Ayrıca Bakınız
 

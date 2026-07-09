@@ -1,25 +1,25 @@
 ---
 title: EffectChartMinorGroupingType
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes for .NET APIリファレンス
 description: シリーズまたはカテゴリ内のチャート要素に対するアニメーション効果のタイプを表します。
 type: docs
-weight: 280
+weight: 300
 url: /ja/aspose.slides.animation/effectchartminorgroupingtype/
 ---
 ## EffectChartMinorGroupingType 列挙型
 
-チャートの系列またはカテゴリ内の要素に対するアニメーション効果のタイプを表します。
+シリーズまたはカテゴリ内のチャート要素に対するアニメーション効果のタイプを表します。
 
 ```csharp
 public enum EffectChartMinorGroupingType
 ```
 
-### 値
+### Values
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| ByElementInSeries | `0` | 系列内の要素でチャートをアニメーション化 |
-| ByElementInCategory | `1` | カテゴリ内の要素でチャートをアニメーション化 |
+| ByElementInSeries | `0` | シリーズ内の要素ごとにチャートをアニメーション化します |
+| ByElementInCategory | `1` | カテゴリ内の要素ごとにチャートをアニメーション化します |
 
 ### 参照
 

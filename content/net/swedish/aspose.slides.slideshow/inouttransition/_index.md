@@ -1,14 +1,14 @@
 ---
 title: InOutTransition
 second_title: Aspose.Sildes för .NET API-referens
-description: In-Out-diabilövergångseffekt.
+description: In-Out-bildövergångseffekt.
 type: docs
-weight: 10210
+weight: 10230
 url: /sv/aspose.slides.slideshow/inouttransition/
 ---
 ## InOutTransition klass
 
-In-Out-diabilövergångseffekt.
+In-Out-bildövergångseffekt.
 
 ```csharp
 public class InOutTransition : TransitionValueBase, IInOutTransition
@@ -16,16 +16,16 @@ public class InOutTransition : TransitionValueBase, IInOutTransition
 
 ## Egenskaper
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/inouttransition/direction) { get; set; } | Riktning för en övergångseffekt. Läs/skriv [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 
 ## Metoder
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bestämmer om de två TransitionValueBase-instanserna är lika. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Fungerar som en hashfunktion för en viss typ, lämplig för användning i hashalgoritmer och datastrukturer som en hash-tabell. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Avgör om de två TransitionValueBase-instansierna är lika. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Fungerar som en hashfunktion för en specifik typ, lämplig för användning i hashningsalgoritmer och datastrukturer som en hashtabell. |
 
 ### Se även
 

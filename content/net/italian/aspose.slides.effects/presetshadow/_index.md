@@ -3,7 +3,7 @@ title: PresetShadow
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un effetto Preset Shadow.
 type: docs
-weight: 3610
+weight: 3630
 url: /it/aspose.slides.effects/presetshadow/
 ---
 ## PresetShadow classe
@@ -21,15 +21,15 @@ public sealed class PresetShadow : IPresetShadow
 | [Direction](../../aspose.slides.effects/presetshadow/direction) { get; set; } | Direzione dell'ombra. Lettura/scrittura Single. |
 | [Distance](../../aspose.slides.effects/presetshadow/distance) { get; set; } | Distanza dell'ombra. Lettura/scrittura Double. |
 | [Preset](../../aspose.slides.effects/presetshadow/preset) { get; set; } | Preset. Lettura/scrittura [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
-| [ShadowColor](../../aspose.slides.effects/presetshadow/shadowcolor) { get; } | Colore dell'ombra. Sola lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [ShadowColor](../../aspose.slides.effects/presetshadow/shadowcolor) { get; } | Colore dell'ombra. Solo lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/presetshadow/equals)(object) | Determina se il [`PresetShadow`](../presetshadow) specificato è uguale al corrente [`PresetShadow`](../presetshadow). |
-| [GetEffective](../../aspose.slides.effects/presetshadow/geteffective)() | Ottiene i dati dell'effetto Preset Shadow effettivo con l'ereditarietà applicata. |
-| override [GetHashCode](../../aspose.slides.effects/presetshadow/gethashcode)() | Funge da funzione hash per un tipo particolare. |
+| override [Equals](../../aspose.slides.effects/presetshadow/equals)(object) | Determina se il [`PresetShadow`](../presetshadow) specificato è uguale al [`PresetShadow`](../presetshadow) corrente. |
+| [GetEffective](../../aspose.slides.effects/presetshadow/geteffective)() | Ottiene i dati dell'effettivo effetto Preset Shadow con l'ereditarietà applicata. |
+| override [GetHashCode](../../aspose.slides.effects/presetshadow/gethashcode)() | Funge da funzione hash per un tipo specifico. |
 
 ### Vedi anche
 

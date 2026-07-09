@@ -1,14 +1,14 @@
 ---
 title: ICamera
-second_title: Aspose.Sildes for .NET API hivatkozás
-description: Kamerát reprezentál.
+second_title: Aspose.Sildes a .NET API referencia
+description: Kamerát ábrázol.
 type: docs
-weight: 5390
+weight: 5410
 url: /hu/aspose.slides/icamera/
 ---
 ## ICamera interfész
 
-Kamerát reprezentál.
+Kamera képviselője.
 
 ```csharp
 public interface ICamera
@@ -18,16 +18,16 @@ public interface ICamera
 
 | Név | Leírás |
 | --- | --- |
-| [CameraType](../../aspose.slides/icamera/cameratype) { get; set; } | A kamera típusa Olvasás/írás [`CameraPresetType`](../camerapresettype). |
-| [FieldOfViewAngle](../../aspose.slides/icamera/fieldofviewangle) { get; set; } | A kamera FOV (0-180 fok, látótér) Olvasás/írás Single. |
-| [Zoom](../../aspose.slides/icamera/zoom) { get; set; } | A kamera zoom (pozitív érték százalékban) Olvasás/írás Single. |
+| [CameraType](../../aspose.slides/icamera/cameratype) { get; set; } | Kamera típusa Olvasás/írás [`CameraPresetType`](../camerapresettype). |
+| [FieldOfViewAngle](../../aspose.slides/icamera/fieldofviewangle) { get; set; } | Kamera FOV (0-180 fok, látómező) Olvasás/írás Single. |
+| [Zoom](../../aspose.slides/icamera/zoom) { get; set; } | Kamera zoom (pozitív érték százalékban) Olvasás/írás Single. |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icamera/getrotation)() | Egy forgást a szélességi koordináta, a hosszúsági koordináta és az tengely körüli fordulat alapján definiálnak. Az első elem a visszatérő tömbben – szélesség, a második – hosszúság, a harmadik – fordulat. Null értéket ad vissza, ha nincs definiálva forgás. |
-| [SetRotation](../../aspose.slides/icamera/setrotation)(float, float, float) | Egy forgást a szélességi koordináta, a hosszúsági koordináta és az tengely körüli fordulat alapján definiálnak. Ha bármely koordináta értéke float.NaN, a forgás nem definiált. |
+| [GetRotation](../../aspose.slides/icamera/getrotation)() | A forgatás a szélességi koordináta, a hosszúsági koordináta és egy tengely körüli forgás használatával van meghatározva. első elem a visszatérő tömbben – szélesség, második – hosszúság, harmadik – forgás. Null értéket ad vissza, ha nincs definiált forgatás. |
+| [SetRotation](../../aspose.slides/icamera/setrotation)(float, float, float) | A forgatás a szélességi koordináta, a hosszúsági koordináta és egy tengely körüli forgás használatával van meghatározva. Ha bármely koordináta értéke float.NaN, a forgatás nem definiált. |
 
 ### Lásd még
 

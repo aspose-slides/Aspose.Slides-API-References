@@ -1,14 +1,14 @@
 ---
 title: SchemeColor
-second_title: Aspose.Sildes pro .NET – referenční příručka API
-description: Představuje barvy ve schématu barev.
+second_title: Aspose.Sildes pro .NET referenci API
+description: Reprezentuje barvy v barevném schématu.
 type: docs
-weight: 9720
+weight: 9740
 url: /cs/aspose.slides/schemecolor/
 ---
-## SchemeColor výčtový typ
+## Výčet SchemeColor
 
-Představuje barvy ve schématu barev.
+Reprezentuje barvy ve schématu barev.
 
 ```csharp
 public enum SchemeColor

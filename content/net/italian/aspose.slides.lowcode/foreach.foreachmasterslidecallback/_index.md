@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachMasterSlideCallback
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Callback che verrà invocato per ciascun MasterSlide./foreach/masterslide nella Presentation../aspose.slides/presentation.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Callback che verrà invocato per ogni MasterSlide./foreach/masterslide nella Presentazione../aspose.slides/presentation.
 type: docs
-weight: 7900
+weight: 7920
 url: /it/aspose.slides.lowcode/foreach.foreachmasterslidecallback/
 ---
-## ForEach.ForEachMasterSlideCallback delegate
+## ForEach.ForEachMasterSlideCallback delegato
 
-Callback che verrà invocato per ciascuno [`MasterSlide`](../foreach/masterslide) nel [`Presentation`](../../aspose.slides/presentation).
+Callback che verrà invocato per ogni [`MasterSlide`](../foreach/masterslide) nel [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public delegate void ForEachMasterSlideCallback(MasterSlide masterSlide, int index);
@@ -16,8 +16,8 @@ public delegate void ForEachMasterSlideCallback(MasterSlide masterSlide, int ind
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| masterSlide | MasterSlide | Master slide corrente iterata |
-| index | Int32 | Indice della master slide corrente |
+| masterSlide | MasterSlide | Master slide corrente iterato |
+| index | Int32 | Indice del master slide corrente |
 
 ### Vedi anche
 

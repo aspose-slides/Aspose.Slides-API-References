@@ -1,14 +1,14 @@
 ---
 title: AudioVolumeMode
 second_title: Aspose.Sildes için .NET API Referansı
-description: Ses hacmini tanımlayan sabitler.
+description: Ses seviyesini tanımlayan sabitler.
 type: docs
-weight: 870
+weight: 890
 url: /tr/aspose.slides/audiovolumemode/
 ---
-## AudioVolumeMode sayım türü
+## AudioVolumeMode enumerasyonu
 
-Ses hacmini tanımlayan sabitler.
+Ses seviyesini tanımlayan sabitler.
 
 ```csharp
 public enum AudioVolumeMode
@@ -19,10 +19,10 @@ public enum AudioVolumeMode
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
 | Mixed | `-1` |  |
-| Mute | `0` | Sıfır ses hacmi. |
-| Low | `1` | Düşük ses hacmi. |
-| Medium | `2` | Orta ses hacmi. |
-| Loud | `3` | Yüksek ses hacmi. |
+| Mute | `0` | Sıfır ses seviyesi. |
+| Low | `1` | Düşük ses seviyesi. |
+| Medium | `2` | Orta ses seviyesi. |
+| Loud | `3` | Yüksek ses seviyesi. |
 
 ### Ayrıca Bakınız
 

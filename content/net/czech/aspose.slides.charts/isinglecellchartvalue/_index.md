@@ -1,14 +1,14 @@
 ---
 title: ISingleCellChartValue
-second_title: Aspose.Sildes pro .NET referenční příručka API
-description: Reprezentuje buňku dat grafu.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Představuje buňku dat grafu.
 type: docs
-weight: 2190
+weight: 2210
 url: /cs/aspose.slides.charts/isinglecellchartvalue/
 ---
 ## ISingleCellChartValue rozhraní
 
-Reprezentuje buňku dat grafu.
+Představuje buňku dat grafu.
 
 ```csharp
 public interface ISingleCellChartValue : IBaseChartValue
@@ -18,8 +18,8 @@ public interface ISingleCellChartValue : IBaseChartValue
 
 | Název | Popis |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/isinglecellchartvalue/ascell) { get; set; } | Vrací nebo nastavuje buňku dat grafu. Čtení/Zápis [`IChartDataCell`](../ichartdatacell). |
-| [AsIBaseChartValue](../../aspose.slides.charts/isinglecellchartvalue/asibasechartvalue) { get; } | Umožňuje získat základní rozhraní IBaseChartValue. Pouze ke čtení [`IBaseChartValue`](../ibasechartvalue). |
+| [AsCell](../../aspose.slides.charts/isinglecellchartvalue/ascell) { get; set; } | Vrátí nebo nastaví buňku dat grafu. Čtení/zápis [`IChartDataCell`](../ichartdatacell). |
+| [AsIBaseChartValue](../../aspose.slides.charts/isinglecellchartvalue/asibasechartvalue) { get; } | Umožňuje získat základní rozhraní IBaseChartValue. Pouze pro čtení [`IBaseChartValue`](../ibasechartvalue). |
 
 ### Viz také
 

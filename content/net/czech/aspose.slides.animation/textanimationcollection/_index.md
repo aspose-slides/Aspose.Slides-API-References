@@ -1,14 +1,14 @@
 ---
 title: TextAnimationCollection
-second_title: Aspose.Sildes pro .NET – reference API
-description: Představuje kolekci textových animací.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Representuje kolekci textových animací.
 type: docs
-weight: 810
+weight: 830
 url: /cs/aspose.slides.animation/textanimationcollection/
 ---
 ## TextAnimationCollection třída
 
-Představuje kolekci textových animací.
+Representuje kolekci textových animací.
 
 ```csharp
 public class TextAnimationCollection : ITextAnimationCollection
@@ -25,8 +25,8 @@ public class TextAnimationCollection : ITextAnimationCollection
 | Název | Popis |
 | --- | --- |
 | [Count](../../aspose.slides.animation/textanimationcollection/count) { get; } | Vrací počet prvků v kolekci. Pouze pro čtení Int32. |
-| [IsSynchronized](../../aspose.slides.animation/textanimationcollection/issynchronized) { get; } | Vrací hodnotu, která udává, zda je přístup ke kolekci synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
-| [Item](../../aspose.slides.animation/textanimationcollection/item) { get; } | Vrací prvek podle indexu. (2 indexéry) |
+| [IsSynchronized](../../aspose.slides.animation/textanimationcollection/issynchronized) { get; } | Vrací hodnotu indikující, zda je přístup ke kolekci synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
+| [Item](../../aspose.slides.animation/textanimationcollection/item) { get; } | Vrací prvek podle indexu. (2 indexery) |
 | [SyncRoot](../../aspose.slides.animation/textanimationcollection/syncroot) { get; } | Vrací kořen synchronizace. Pouze pro čtení Object. |
 
 ## Metody

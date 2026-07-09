@@ -1,14 +1,14 @@
 ---
 title: IProtectionManager
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Διαχείριση προστασίας παρουσίασης με κωδικό πρόσβασης.
+second_title: Aspose.Sildes για .NET Αναφορά API
+description: Διαχείριση προστασίας κωδικού παρουσίασης.
 type: docs
-weight: 6800
+weight: 6820
 url: /el/aspose.slides/iprotectionmanager/
 ---
-## IProtectionManager διεπαφή
+## IProtectionManager διασύνδεση
 
-Διαχείριση προστασίας παρουσίασης με κωδικό πρόσβασης.
+Presentation password protection management.
 
 ```csharp
 public interface IProtectionManager
@@ -18,26 +18,26 @@ public interface IProtectionManager
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [EncryptDocumentProperties](../../aspose.slides/iprotectionmanager/encryptdocumentproperties) { get; set; } | Αυτή η ιδιότητα έχει νόημα εάν η παρουσίαση είναι προστατευμένη με κωδικό πρόσβασης. Εάν είναι true τότε οι ιδιότητες εγγράφου κρυπτογραφούνται στο αρχείο παρουσίασης. Εάν είναι false τότε οι ιδιότητες εγγράφου είναι δημόσιες ενώ η παρουσίαση είναι κρυπτογραφημένη. Read/write Boolean. |
+| [EncryptDocumentProperties](../../aspose.slides/iprotectionmanager/encryptdocumentproperties) { get; set; } | Αυτή η ιδιότητα έχει νόημα εάν η παρουσίαση είναι προστατευμένη με κωδικό. Εάν true τότε οι ιδιότητες του εγγράφου κρυπτογραφούνται στο αρχείο παρουσίασης. Εάν false τότε οι ιδιότητες του εγγράφου είναι δημόσιες ενώ η παρουσίαση είναι κρυπτογραφημένη. Read/write Boolean. |
 | [EncryptionPassword](../../aspose.slides/iprotectionmanager/encryptionpassword) { get; } | Επιστρέφει τον κωδικό κρυπτογράφησης. Read-only String. |
-| [IsEncrypted](../../aspose.slides/iprotectionmanager/isencrypted) { get; } | Λαμβάνει μια τιμή που υποδεικνύει εάν αυτή η περίπτωση είναι κρυπτογραφημένη. Read-only Boolean. |
-| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/iprotectionmanager/isonlydocumentpropertiesloaded) { get; } | Αυτή η ιδιότητα έχει νόημα εάν το αρχείο παρουσίασης είναι προστατευμένο με κωδικό πρόσβασης και οι ιδιότητες εγγράφου αυτού του αρχείου είναι δημόσιες. Η τιμή true σημαίνει ότι μόνο οι ιδιότητες εγγράφου φορτώνονται από ένα κρυπτογραφημένο αρχείο παρουσίασης χωρίς χρήση κωδικού πρόσβασης. Η τιμή false σημαίνει ότι φορτώνεται ολόκληρη η κρυπτογραφημένη παρουσίαση με τη χρήση του σωστού κωδικού πρόσβασης, όχι μόνο οι ιδιότητες εγγράφου φορτώνονται. Εάν η παρουσίαση δεν είναι κρυπτογραφημένη, η τιμή της ιδιότητας είναι πάντα false. Εάν οι ιδιότητες εγγράφου ενός κρυπτογραφημένου αρχείου δεν είναι δημόσιες, η τιμή της ιδιότητας είναι πάντα false. Εάν το PresentationEx.EncryptDocumentProperties είναι true, τότε η τιμή της ιδιότητας IsOnlyDocumentPropertiesLoaded είναι πάντα false. Read-only Boolean. |
-| [IsWriteProtected](../../aspose.slides/iprotectionmanager/iswriteprotected) { get; } | Λαμβάνει μια τιμή που υποδεικνύει εάν αυτή η παρουσίαση είναι προστατευμένη από εγγραφή. Read-only Boolean. |
-| [ReadOnlyRecommended](../../aspose.slides/iprotectionmanager/readonlyrecommended) { get; set; } | Λαμβάνει ή ορίζει τη σύσταση μόνο για ανάγνωση. Read/write Boolean. |
+| [IsEncrypted](../../aspose.slides/iprotectionmanager/isencrypted) { get; } | Λαμβάνει τιμή που υποδεικνύει εάν αυτή η περίπτωση είναι κρυπτογραφημένη. Read-only Boolean. |
+| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/iprotectionmanager/isonlydocumentpropertiesloaded) { get; } | Αυτή η ιδιότητα έχει νόημα εάν το αρχείο παρουσίασης είναι προστατευμένο με κωδικό και οι ιδιότητες του εγγράφου αυτού του αρχείου είναι δημόσιες. Η τιμή true σημαίνει ότι μόνο οι ιδιότητες του εγγράφου φορτώνονται από ένα κρυπτογραφημένο αρχείο παρουσίασης χωρίς χρήση κωδικού. Η τιμή false σημαίνει ότι ολόκληρη η κρυπτογραφημένη παρουσίαση φορτώνεται με τη χρήση του σωστού κωδικού, όχι μόνο οι ιδιότητες του εγγράφου φορτώνονται. Εάν η παρουσίαση δεν είναι κρυπτογραφημένη τότε η τιμή της ιδιότητας είναι πάντα false. Εάν οι ιδιότητες του εγγράφου ενός κρυπτογραφημένου αρχείου δεν είναι δημόσιες τότε η τιμή της ιδιότητας είναι πάντα false. Εάν PresentationEx.EncryptDocumentProperties είναι true τότε η τιμή της ιδιότητας IsOnlyDocumentPropertiesLoaded είναι πάντα false. Read-only Boolean. |
+| [IsWriteProtected](../../aspose.slides/iprotectionmanager/iswriteprotected) { get; } | Λαμβάνει τιμή που υποδεικνύει εάν αυτή η παρουσίαση είναι προστατευμένη κατά την εγγραφή. Read-only Boolean. |
+| [ReadOnlyRecommended](../../aspose.slides/iprotectionmanager/readonlyrecommended) { get; set; } | Λαμβάνει ή ορίζει σύσταση μόνο για ανάγνωση. Read/write Boolean. |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [CheckWriteProtection](../../aspose.slides/iprotectionmanager/checkwriteprotection)(string) | Καθορίζει αν μια παρουσίαση είναι προστατευμένη με κωδικό πρόσβασης για τροποποίηση. |
-| [Encrypt](../../aspose.slides/iprotectionmanager/encrypt)(string) | Κρυπτογραφεί την Παρουσίαση με τον καθορισμένο κωδικό πρόσβασης. |
-| [RemoveEncryption](../../aspose.slides/iprotectionmanager/removeencryption)() | Καταργεί την κρυπτογράφηση. |
-| [RemoveWriteProtection](../../aspose.slides/iprotectionmanager/removewriteprotection)() | Καταργεί την προστασία εγγραφής για αυτήν την παρουσίαση. |
-| [SetWriteProtection](../../aspose.slides/iprotectionmanager/setwriteprotection)(string) | Ορίζει προστασία εγγραφής για αυτήν την παρουσίαση με τον καθορισμένο κωδικό πρόσβασης. |
+| [CheckWriteProtection](../../aspose.slides/iprotectionmanager/checkwriteprotection)(string) | Καθορίζει εάν μια παρουσίαση είναι προστατευμένη με κωδικό για τροποποίηση. |
+| [Encrypt](../../aspose.slides/iprotectionmanager/encrypt)(string) | Κρυπτογραφεί την Παρουσίαση με τον καθορισμένο κωδικό. |
+| [RemoveEncryption](../../aspose.slides/iprotectionmanager/removeencryption)() | Αφαιρεί την κρυπτογράφηση. |
+| [RemoveWriteProtection](../../aspose.slides/iprotectionmanager/removewriteprotection)() | Αφαιρεί την προστασία εγγραφής για αυτή την παρουσίαση. |
+| [SetWriteProtection](../../aspose.slides/iprotectionmanager/setwriteprotection)(string) | Ορίζει προστασία εγγραφής για αυτή την παρουσίαση με τον καθορισμένο κωδικό. |
 
 ### Δείτε επίσης
 
-* χωροσύνολο [Aspose.Slides](../../aspose.slides)
+* χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
 * συγκρότημα [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

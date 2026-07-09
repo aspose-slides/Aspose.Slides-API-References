@@ -1,14 +1,14 @@
 ---
 title: CellFormat
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET – referenční příručka API
 description: Reprezentuje formát buňky tabulky.
 type: docs
-weight: 1130
+weight: 1150
 url: /cs/aspose.slides/cellformat/
 ---
 ## CellFormat třída
 
-Represents format of a table cell.
+Representuje formát buňky tabulky.
 
 ```csharp
 public sealed class CellFormat : PVIObject, ICellFormat
@@ -19,9 +19,9 @@ public sealed class CellFormat : PVIObject, ICellFormat
 | Název | Popis |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze pro čtení [`IPresentationComponent`](../ipresentationcomponent). |
-| [BorderBottom](../../aspose.slides/cellformat/borderbottom) { get; } | Vrací objekt vlastností spodní okraje. Pouze pro čtení [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalDown](../../aspose.slides/cellformat/borderdiagonaldown) { get; } | Vrací objekt vlastností úhlopříčky z levého horního do pravého dolního rohu. Pouze pro čtení [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalUp](../../aspose.slides/cellformat/borderdiagonalup) { get; } | Vrací objekt vlastností úhlopříčky ze spodního levého do pravého horního rohu. Pouze pro čtení [`ILineFormat`](../ilineformat). |
+| [BorderBottom](../../aspose.slides/cellformat/borderbottom) { get; } | Vrací objekt vlastností spodní ohraničovací čáry. Pouze pro čtení [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalDown](../../aspose.slides/cellformat/borderdiagonaldown) { get; } | Vrací objekt vlastností úhlopříčky z levého horního rohu do pravého dolního rohu. Pouze pro čtení [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalUp](../../aspose.slides/cellformat/borderdiagonalup) { get; } | Vrací objekt vlastností úhlopříčky z levého dolního rohu do pravého horního rohu. Pouze pro čtení [`ILineFormat`](../ilineformat). |
 | [BorderLeft](../../aspose.slides/cellformat/borderleft) { get; } | Vrací objekt vlastností levého okraje. Pouze pro čtení [`ILineFormat`](../ilineformat). |
 | [BorderRight](../../aspose.slides/cellformat/borderright) { get; } | Vrací objekt vlastností pravého okraje. Pouze pro čtení [`ILineFormat`](../ilineformat). |
 | [BorderTop](../../aspose.slides/cellformat/bordertop) { get; } | Vrací objekt vlastností horního okraje. Pouze pro čtení [`ILineFormat`](../ilineformat). |
@@ -33,7 +33,7 @@ public sealed class CellFormat : PVIObject, ICellFormat
 | Název | Popis |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Porovná s určeným objektem. |
-| [GetEffective](../../aspose.slides/cellformat/geteffective)() | Získá účinné vlastnosti formátování buňky tabulky s aplikovaným děděním a styly tabulky. |
+| [GetEffective](../../aspose.slides/cellformat/geteffective)() | Získá efektivní vlastnosti formátování buňky tabulky s aplikovaným děděním a styly tabulky. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Vrací hash kód. |
 
 ### Viz také

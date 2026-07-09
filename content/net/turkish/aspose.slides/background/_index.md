@@ -1,14 +1,14 @@
 ---
 title: Background
-second_title: Aspose.Sildes .NET için API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Bir slaydın arka planını temsil eder.
 type: docs
-weight: 910
+weight: 930
 url: /tr/aspose.slides/background/
 ---
 ## Arka plan sınıfı
 
-Bir slaydın arka planını temsil eder.
+Bir slaytın arka planını temsil eder.
 
 ```csharp
 public sealed class Background : PVIObject, IBackground
@@ -18,24 +18,24 @@ public sealed class Background : PVIObject, IBackground
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almaya izin verir. Yalnızca okunur [`IPresentationComponent`](../ipresentationcomponent). |
-| [EffectFormat](../../aspose.slides/background/effectformat) { get; } | BackgroundType.OwnBackground doldurması için bir EffectFormat döndürür. Yalnızca okunur [`IEffectFormat`](../ieffectformat). |
-| [FillFormat](../../aspose.slides/background/fillformat) { get; } | BackgroundType.OwnBackground doldurması için bir FillFormat döndürür. Yalnızca okunur [`IFillFormat`](../ifillformat). |
-| [Presentation](../../aspose.slides/background/presentation) { get; } | Bir slaydın üst sunumunu döndürür. Yalnızca okunur [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/background/slide) { get; } | Bir şeklin üst slaydını döndürür. Yalnızca okunur [`IBaseSlide`](../ibaseslide). |
-| [StyleColor](../../aspose.slides/background/stylecolor) { get; } | BackgroundType.Themed doldurması için bir ColorFormat döndürür. Yalnızca okunur [`IColorFormat`](../icolorformat). |
-| [StyleIndex](../../aspose.slides/background/styleindex) { get; set; } | Arka plan teması koleksiyonunda BackgroundType.Themed doldurması için bir dizin döndürür. 0 hiçbir doldurma anlamına gelir. 1..999 - dizin. Okuma/yazma UInt16. |
-| [Type](../../aspose.slides/background/type) { get; set; } | Arka plan doldurmasının bir türünü döndürür. Okuma/yazma [`BackgroundType`](../backgroundtype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almaya izin verir. Yalnızca okunabilir [`IPresentationComponent`](../ipresentationcomponent). |
+| [EffectFormat](../../aspose.slides/background/effectformat) { get; } | BackgroundType.OwnBackground doldurması için bir EffectFormat döner. Yalnızca okunabilir [`IEffectFormat`](../ieffectformat). |
+| [FillFormat](../../aspose.slides/background/fillformat) { get; } | BackgroundType.OwnBackground doldurması için bir FillFormat döner. Yalnızca okunabilir [`IFillFormat`](../ifillformat). |
+| [Presentation](../../aspose.slides/background/presentation) { get; } | Bir slaytın üst sunumunu döner. Yalnızca okunabilir [`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/background/slide) { get; } | Bir şeklin üst slaydını döner. Yalnızca okunabilir [`IBaseSlide`](../ibaseslide). |
+| [StyleColor](../../aspose.slides/background/stylecolor) { get; } | BackgroundType.Themed doldurması için bir ColorFormat döner. Yalnızca okunabilir [`IColorFormat`](../icolorformat). |
+| [StyleIndex](../../aspose.slides/background/styleindex) { get; set; } | BackgroundType.Themed doldurması için arka plan tema koleksiyonunda bir dizini döner. 0 dolgu yok anlamına gelir. 1..999 - indeks. Okunabilir/yazılabilir UInt16. |
+| [Type](../../aspose.slides/background/type) { get; set; } | Arka plan dolgusunun tipini döner. Okunabilir/yazılabilir [`BackgroundType`](../backgroundtype). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Belirtilen nesneyle karşılaştırır. |
-| [GetEffective](../../aspose.slides/background/geteffective)() | Uygulanan kalıtımla etkili arka plan verilerini alır. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Karma kodunu döndürür. |
+| [GetEffective](../../aspose.slides/background/geteffective)() | Uygulanan kalıtımla etkin arka plan verilerini alır. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Hash kodunu döner. |
 
-### Ayrıca bakınız
+### İlgili
 
 * sınıf [PVIObject](../pviobject)
 * arayüz [IBackground](../ibackground)

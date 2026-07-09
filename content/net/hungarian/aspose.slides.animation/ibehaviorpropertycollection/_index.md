@@ -1,9 +1,9 @@
 ---
 title: IBehaviorPropertyCollection
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes for .NET API Referencia
 description: Az effektus viselkedésének időzítési tulajdonságait képviseli.
 type: docs
-weight: 430
+weight: 450
 url: /hu/aspose.slides.animation/ibehaviorpropertycollection/
 ---
 ## IBehaviorPropertyCollection interfész
@@ -18,16 +18,16 @@ public interface IBehaviorPropertyCollection : IList<IBehaviorProperty>
 
 | Név | Leírás |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/ibehaviorpropertycollection/asienumerable) { get; } | Visszaad IEnumerable interfészeket. Csak olvasható IEnumerable. |
+| [AsIEnumerable](../../aspose.slides.animation/ibehaviorpropertycollection/asienumerable) { get; } | Visszaadja az IEnumerable interfészeket. Csak olvasható IEnumerable. |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
 | [Add](../../aspose.slides.animation/ibehaviorpropertycollection/add)(string) | Új tulajdonságot ad a gyűjteményhez. |
-| [Contains](../../aspose.slides.animation/ibehaviorpropertycollection/contains)(string) | Meghatározza, hogy a ICollection tartalmaz-e egy konkrét értéket. |
-| [IndexOf](../../aspose.slides.animation/ibehaviorpropertycollection/indexof)(string) | Meghatározza egy adott elem indexét a tulajdonságérték alapján az IList-ben. |
-| [Insert](../../aspose.slides.animation/ibehaviorpropertycollection/insert)(int, string) | Beszúr egy új tulajdonságot (a megadott tulajdonságértékkel) a gyűjteménybe a megadott indexen. |
+| [Contains](../../aspose.slides.animation/ibehaviorpropertycollection/contains)(string) | Megállapítja, hogy a ICollection tartalmaz-e egy adott értéket. |
+| [IndexOf](../../aspose.slides.animation/ibehaviorpropertycollection/indexof)(string) | Megállapítja egy adott elem indexét a tulajdonságérték alapján az IList-ben. |
+| [Insert](../../aspose.slides.animation/ibehaviorpropertycollection/insert)(int, string) | Beszúr egy új tulajdonságot (a megadott tulajdonságértékkel) a gyűjteménybe a megadott indexnél. |
 | [Remove](../../aspose.slides.animation/ibehaviorpropertycollection/remove)(string) | Eltávolítja a megadott tulajdonságot a gyűjteményből. |
 
 ### Lásd még

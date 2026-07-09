@@ -1,15 +1,14 @@
 ---
 title: IMathDelimiter
-second_title: Aspose.Sildes для .NET API Справочник
-description: Указывает объект-разделитель, состоящий из открывающих и закрывающих символов, таких как скобки, фигурные скобки, квадратные скобки и вертикальные полосы, и одного или нескольких математических элементов внутри, разделенных определенным символом. Примеры 2 2x7C2
+second_title: Aspose.Sildes для .NET справочник API
+description: Определяет объект-разделитель, состоящий из открывающих и закрывающих символов, таких как скобки, фигурные скобки, квадратные скобки и вертикальные линии, а также одного или нескольких математических элементов внутри, разделённых указанным символом. Примеры 2 2x7C2
 type: docs
-weight: 7960
+weight: 8210
 url: /ru/aspose.slides.mathtext/imathdelimiter/
 ---
+## IMathDelimiter интерфейс
 
-## Интерфейс IMathDelimiter
-
-Указывает объект-разделитель, состоящий из открывающих и закрывающих символов (таких как скобки, фигурные скобки, квадратные скобки и вертикальные полосы), и одного или нескольких математических элементов внутри, разделенных заданным символом. Примеры: (𝑥2); [𝑥2&#x7C;𝑦2]
+Определяет объект-разделитель, состоящий из открывающих и закрывающих символов (например, скобок, фигурных скобок, квадратных скобок и вертикальных линий) и одного или нескольких математических элементов внутри, разделённых указанным символом. Примеры: (𝑥2); [𝑥2&#x7C;𝑦2]
 
 ```csharp
 public interface IMathDelimiter : IMathElement
@@ -17,25 +16,25 @@ public interface IMathDelimiter : IMathElement
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Arguments](../../aspose.slides.mathtext/imathdelimiter/arguments) { get; } | Один или несколько математических элементов, разделенных символами-разделителями |
-| [AsIMathElement](../../aspose.slides.mathtext/imathdelimiter/asimathelement) { get; } | Позволяет получить базовый интерфейс IMathElement [`IMathElement`](../imathelement) |
-| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | Символ начала разделителя указывает символ начала или открывающий символ разделителя. Математические разделители - это заключающие символы, такие как скобки, квадратные скобки и фигурные скобки. Значение по умолчанию: '('. |
-| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | Указывает форму разделителей в объекте-разделителе. Когда **MathDelimiterShape.Centered**, разделители располагаются по центру относительно математической оси математического текста и могут быть сделаны таким образом, чтобы соответствовать всей высоте их содержимого. Когда **MathDelimiterShape.Match**, их высота и форма изменяются, чтобы точно соответствовать их содержимому. |
-| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | Символ конца разделителя указывает на завершающий или закрывающий символ разделителя. Математические разделители - это заключающие символы, такие как скобки, квадратные скобки и фигурные скобки. Значение по умолчанию: ')'. |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | Указывает рост **BeginningCharacter**, **SeparatorCharacter**, **EndingCharacter**. Когда true, разделители растут вертикально, чтобы соответствовать высоте их операнда. Значение по умолчанию - true. |
-| [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | Символ разделителя указывает символ, который разделяет аргументы в объекте-разделителе. Значение по умолчанию: '&#x7C;'. |
+| [Arguments](../../aspose.slides.mathtext/imathdelimiter/arguments) { get; } | Один или несколько математических элементов, разделённых символами-разделителями |
+| [AsIMathElement](../../aspose.slides.mathtext/imathdelimiter/asimathelement) { get; } | Позволяет получить базовый интерфейс IMathElement [`IMathElement`](../imathelement) |
+| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | Delimiter Beginning Character указывает начальный, то есть открывающий, символ разделителя. Математические разделители — это ограничивающие символы, такие как скобки, квадратные скобки и фигурные скобки. Значение по умолчанию: '('. |
+| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | Указывает форму разделителей в объекте разделителя. Когда значение MathDelimiterShape.Centered, разделители центрируются относительно математической оси текста и могут быть масштабированы, чтобы соответствовать полной высоте их содержимого. Когда значение MathDelimiterShape.Match, их высота и форма изменяются так, чтобы точно соответствовать содержимому. |
+| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | Delimiter Ending Character указывает конечный, то есть закрывающий, символ разделителя. Математические разделители — это ограничивающие символы, такие как скобки, квадратные скобки и фигурные скобки. Значение по умолчанию: ')'. |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | Указывает рост BeginningCharacter, SeparatorCharacter, EndingCharacter. Когда true, разделители растут вертикально, чтобы соответствовать высоте своего операнда. Значение по умолчанию — true |
+| [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | Delimiter Separator Character указывает символ, разделяющий аргументы в объекте разделителя. Значение по умолчанию: '&#x7C;'. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Delimit](../../aspose.slides.mathtext/imathdelimiter/delimit)(char) | Разделяет аргументы с использованием указанного символа разделителя |
+| [Delimit](../../aspose.slides.mathtext/imathdelimiter/delimit)(char) | Разделяет аргументы, используя указанный символ разделителя |
 
 ### Примеры
 
-Пример:
+Example:
 
 ```csharp
 [C#]
@@ -45,8 +44,8 @@ IMathDelimiter delimiter = element.Enclose();
 
 ### См. также
 
-* интерфейс [IMathElement](../imathelement)
-* пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
-* сборка [Aspose.Slides](../../)
+* interface [IMathElement](../imathelement)
+* namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

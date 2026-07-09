@@ -1,14 +1,14 @@
 ---
 title: VbaProjectFactory
 second_title: Aspose.Sildes .NET API Referansı
-description: COM arabirimi üzerinden VBA projesi oluşturmayı sağlar
+description: COM arabirimi aracılığıyla VBA projesi oluşturulmasını sağlar
 type: docs
-weight: 11640
+weight: 11660
 url: /tr/aspose.slides.vba/vbaprojectfactory/
 ---
 ## VbaProjectFactory sınıfı
 
-COM arayüzü üzerinden VBA projesi oluşturmayı sağlar
+COM arabirimi aracılığıyla VBA projesi oluşturulmasını sağlar
 
 ```csharp
 public class VbaProjectFactory : IVbaProjectFactory
@@ -24,14 +24,14 @@ public class VbaProjectFactory : IVbaProjectFactory
 
 | Ad | Açıklama |
 | --- | --- |
-| static [Instance](../../aspose.slides.vba/vbaprojectfactory/instance) { get; } | VBA proje fabrikası static örnek. Salt okunur [`VbaProjectFactory`](../vbaprojectfactory). |
+| static [Instance](../../aspose.slides.vba/vbaprojectfactory/instance) { get; } | VBA proje fabrikası statik örnek. Yalnızca okunur [`VbaProjectFactory`](../vbaprojectfactory). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | [CreateVbaProject](../../aspose.slides.vba/vbaprojectfactory/createvbaproject)() | Yeni bir VBA projesi oluşturur. |
-| [ReadVbaProject](../../aspose.slides.vba/vbaprojectfactory/readvbaproject)(byte[]) | VBA projesini OLE konteynerinden okur. |
+| [ReadVbaProject](../../aspose.slides.vba/vbaprojectfactory/readvbaproject)(byte[]) | OLE konteynerinden VBA projesini okur. |
 
 ### Ayrıca Bakınız
 

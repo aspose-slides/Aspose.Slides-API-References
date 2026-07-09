@@ -1,14 +1,14 @@
 ---
 title: EmbeddedEotFontsHtmlController
-second_title: Aspose.Sildes dla .NET API Reference
-description: Klasa kontrolera formatowania używana do osadzania czcionek w formacie EOT
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Klasa kontrolera formatowania służąca do osadzania czcionek w formacie EOT
 type: docs
-weight: 3760
+weight: 3780
 url: /pl/aspose.slides.export/embeddedeotfontshtmlcontroller/
 ---
 ## EmbeddedEotFontsHtmlController klasa
 
-Klasa kontrolera formatowania używana do osadzania czcionek w formacie EOT
+Klasa kontrolera formatowania służąca do osadzania czcionek w formacie EOT
 
 ```csharp
 public class EmbeddedEotFontsHtmlController : IEmbeddedEotFontsHtmlController

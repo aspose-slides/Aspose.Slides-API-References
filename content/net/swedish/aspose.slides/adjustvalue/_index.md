@@ -1,14 +1,14 @@
 ---
 title: AdjustValue
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar ett geometriskt formjusteringsvärde. Dessa värden påverkar formens utseende.
+description: Representerar ett justeringsvärde för geometriska former. Dessa värden påverkar formens form.
 type: docs
-weight: 70
+weight: 90
 url: /sv/aspose.slides/adjustvalue/
 ---
 ## AdjustValue klass
 
-Representerar ett geometriskt formes justeringsvärde. Dessa värden påverkar formens utseende.
+Representerar ett geometriskt formjusteringsvärde. Dessa värden påverkar formens form.
 
 ```csharp
 public class AdjustValue : IAdjustValue
@@ -18,12 +18,12 @@ public class AdjustValue : IAdjustValue
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AngleValue](../../aspose.slides/adjustvalue/anglevalue) { get; set; } | Returnerar eller anger värdet, tolkar det som en vinkel i grader. Läs/skriv Single. |
-| [Name](../../aspose.slides/adjustvalue/name) { get; } | Returnerar ett namn för detta justeringsvärde. Endast läsning String. |
-| [RawValue](../../aspose.slides/adjustvalue/rawvalue) { get; set; } | Returnerar eller anger justeringsvärdet "as is". Läs/skriv Int64. |
-| [Type](../../aspose.slides/adjustvalue/type) { get; } | Returnerar typen av formjusteringen. Endast läsning [`ShapeAdjustmentType`](../shapeadjustmenttype). |
+| [AngleValue](../../aspose.slides/adjustvalue/anglevalue) { get; set; } | Returnerar eller anger värdet, tolkat som vinkel i grader. Läs/skriv Single. |
+| [Name](../../aspose.slides/adjustvalue/name) { get; } | Returnerar ett namn på detta justeringsvärde. Skrivskyddad String. |
+| [RawValue](../../aspose.slides/adjustvalue/rawvalue) { get; set; } | Returnerar eller anger justeringsvärdet "som det är". Läs/skriv Int64. |
+| [Type](../../aspose.slides/adjustvalue/type) { get; } | Returnerar typen av formjusteringen. Skrivskyddad [`ShapeAdjustmentType`](../shapeadjustmenttype). |
 
-### Se också
+### Se även
 
 * gränssnitt [IAdjustValue](../iadjustvalue)
 * namnrymd [Aspose.Slides](../../aspose.slides)

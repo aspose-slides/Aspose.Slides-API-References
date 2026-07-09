@@ -3,12 +3,12 @@ title: ShapeFrame
 second_title: Aspose.Sildes için .NET API Referansı
 description: Şekil çerçevelerinin özelliklerini temsil eder.
 type: docs
-weight: 9880
+weight: 9900
 url: /tr/aspose.slides/shapeframe/
 ---
 ## ShapeFrame sınıfı
 
-Şekil çerçevesinin özelliklerini temsil eder.
+ShapeFrame çerçevesinin özelliklerini temsil eder.
 
 ```csharp
 public class ShapeFrame : IShapeFrame
@@ -18,34 +18,34 @@ public class ShapeFrame : IShapeFrame
 
 | Ad | Açıklama |
 | --- | --- |
-| [ShapeFrame](shapeframe)(float, float, float, float, NullableBool, NullableBool, float) | Yeni bir şekil çerçevesinin özelliklerini oluşturur. |
+| [ShapeFrame](shapeframe)(float, float, float, float, NullableBool, NullableBool, float) | Yeni bir ShapeFrame özelliği oluşturur. |
 
 ## Özellikler
 
 | Ad | Açıklama |
 | --- | --- |
-| [CenterX](../../aspose.slides/shapeframe/centerx) { get; } | Bir çerçevenin merkezinin X koordinatını döndürür. Yalnızca okunabilir Single. |
-| [CenterY](../../aspose.slides/shapeframe/centery) { get; } | Bir çerçevenin merkezinin Y koordinatını döndürür. Yalnızca okunabilir Single. |
-| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | Bir çerçevenin yatay olarak ters çevrilip çevrilmediğini belirler. Yalnızca okunabilir [`NullableBool`](../nullablebool). |
-| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | Bir çerçevenin dikey olarak ters çevrilip çevrilmediğini belirler. Yalnızca okunabilir [`NullableBool`](../nullablebool). |
-| [Height](../../aspose.slides/shapeframe/height) { get; } | Bir çerçevenin yüksekliğini döndürür. Yalnızca okunabilir Single. |
-| [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | Bir çerçevenin koordinatlarını döndürür. Yalnızca okunabilir RectangleF. |
-| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | Bir çerçevenin z ekseni etrafında döndürüldüğü derece sayısını döndürür. Pozitif bir değer saat yönünde döndürmeyi, negatif bir değer saat yönünün tersine döndürmeyi gösterir. Yalnızca okunabilir Single. |
-| [Width](../../aspose.slides/shapeframe/width) { get; } | Bir çerçevenin genişliğini döndürür. Yalnızca okunabilir Single. |
-| [X](../../aspose.slides/shapeframe/x) { get; } | Bir çerçevenin sol üst köşesinin X koordinatını döndürür. Yalnızca okunabilir Single. |
-| [Y](../../aspose.slides/shapeframe/y) { get; } | Bir çerçevenin sol üst köşesinin Y koordinatını döndürür. Yalnızca okunabilir Single. |
+| [CenterX](../../aspose.slides/shapeframe/centerx) { get; } | Çerçevenin merkezinin X koordinatını döndürür. Salt okunur Single. |
+| [CenterY](../../aspose.slides/shapeframe/centery) { get; } | Çerçevenin merkezinin Y koordinatını döndürür. Salt okunur Single. |
+| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | Bir çerçevenin yatay olarak ters çevrilip çevrilmediğini belirler. Salt okunur [`NullableBool`](../nullablebool). |
+| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | Bir çerçevenin dikey olarak ters çevrilip çevrilmediğini belirler. Salt okunur [`NullableBool`](../nullablebool). |
+| [Height](../../aspose.slides/shapeframe/height) { get; } | Bir çerçevenin yüksekliğini döndürür. Salt okunur Single. |
+| [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | Bir çerçevenin koordinatlarını döndürür. Salt okunur RectangleF. |
+| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | Bir çerçevenin z ekseni etrafında döndürülmüş olduğu derece sayısını döndürür. Pozitif bir değer saat yönünde döndürülmeyi; negatif bir değer saat yönünün tersine döndürülmeyi gösterir. Salt okunur Single. |
+| [Width](../../aspose.slides/shapeframe/width) { get; } | Bir çerçevenin genişliğini döndürür. Salt okunur Single. |
+| [X](../../aspose.slides/shapeframe/x) { get; } | Bir çerçevenin sol üst köşesinin X koordinatını döndürür. Salt okunur Single. |
+| [Y](../../aspose.slides/shapeframe/y) { get; } | Bir çerçevenin sol üst köşesinin Y koordinatını döndürür. Salt okunur Single. |
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | [Clone](../../aspose.slides/shapeframe/clone)() | Klonlar |
 | [CloneT](../../aspose.slides/shapeframe/clonet)() | Klonlar. |
-| override [Equals](../../aspose.slides/shapeframe/equals#equals_1)(object) | Bu örneğin belirtilen nesneye eşit olup olmadığını gösteren bir değer döndürür. |
-| [Equals](../../aspose.slides/shapeframe/equals#equals)(ShapeFrame) | Bu örneğin belirtilen nesneye eşit olup olmadığını gösteren bir değer döndürür. |
+| override [Equals](../../aspose.slides/shapeframe/equals#equals_1)(object) | Bu örneğin belirtilen bir nesneyle eşit olup olmadığını gösteren bir değer döndürür. |
+| [Equals](../../aspose.slides/shapeframe/equals#equals)(ShapeFrame) | Bu örneğin belirtilen bir nesneyle eşit olup olmadığını gösteren bir değer döndürür. |
 | override [GetHashCode](../../aspose.slides/shapeframe/gethashcode)() | Bu nesne için bir karma kodu döndürür. |
 
-### Ayrıca Bakınız
+### Bakınız
 
 * arayüz [IShapeFrame](../ishapeframe)
 * ad alanı [Aspose.Slides](../../aspose.slides)

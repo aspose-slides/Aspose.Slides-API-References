@@ -1,9 +1,9 @@
 ---
 title: SmartArtShapeCollection
-second_title: Aspose.Sildes dla .NET - dokumentacja API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje kolekcję kształtów SmartArt
 type: docs
-weight: 10650
+weight: 10670
 url: /pl/aspose.slides.smartart/smartartshapecollection/
 ---
 ## SmartArtShapeCollection klasa
@@ -20,7 +20,7 @@ public class SmartArtShapeCollection : ISmartArtShapeCollection
 | --- | --- |
 | [Count](../../aspose.slides.smartart/smartartshapecollection/count) { get; } | Zwraca liczbę elementów faktycznie zawartych w kolekcji. Tylko do odczytu Int32. |
 | [IsSynchronized](../../aspose.slides.smartart/smartartshapecollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest synchronizowany (wątkowo bezpieczny). Tylko do odczytu Boolean. |
-| [Item](../../aspose.slides.smartart/smartartshapecollection/item) { get; } | Zwraca element o podanym indeksie. Tylko do odczytu [`SmartArtShape`](../smartartshape).&gt;. |
+| [Item](../../aspose.slides.smartart/smartartshapecollection/item) { get; } | Zwraca element o określonym indeksie. Tylko do odczytu [`SmartArtShape`](../smartartshape).&gt;. |
 | [SyncRoot](../../aspose.slides.smartart/smartartshapecollection/syncroot) { get; } | Zwraca korzeń synchronizacji. Tylko do odczytu Object. |
 
 ## Metody

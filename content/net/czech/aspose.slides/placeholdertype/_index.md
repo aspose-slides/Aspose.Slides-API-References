@@ -1,14 +1,14 @@
 ---
 title: PlaceholderType
 second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje typ zástupného objektu.
+description: Představuje typ zástupce.
 type: docs
-weight: 9430
+weight: 9450
 url: /cs/aspose.slides/placeholdertype/
 ---
 ## PlaceholderType výčet
 
-Representuje typ zástupného objektu.
+Představuje typ zástupce.
 
 ```csharp
 public enum PlaceholderType : sbyte
@@ -29,7 +29,7 @@ public enum PlaceholderType : sbyte
 | Object | `8` | Objekt. |
 | Chart | `9` | Graf. |
 | Table | `10` | Tabulka. |
-| ClipArt | `11` | Clipart. |
+| ClipArt | `11` | Clip Art. |
 | Diagram | `12` | Diagram. |
 | Media | `13` | Média. |
 | SlideImage | `14` | Obrázek snímku. |

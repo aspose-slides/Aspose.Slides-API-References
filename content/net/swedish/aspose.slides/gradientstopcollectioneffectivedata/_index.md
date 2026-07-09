@@ -3,7 +3,7 @@ title: GradientStopCollectionEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en samling av GradientStopData-objekt.
 type: docs
-weight: 5020
+weight: 5040
 url: /sv/aspose.slides/gradientstopcollectioneffectivedata/
 ---
 ## GradientStopCollectionEffectiveData klass
@@ -19,7 +19,7 @@ public class GradientStopCollectionEffectiveData : IGradientStopCollectionEffect
 | Namn | Beskrivning |
 | --- | --- |
 | [Count](../../aspose.slides/gradientstopcollectioneffectivedata/count) { get; } | Returnerar antalet gradientstopp i en samling. Skrivskyddad Int32. |
-| [IsSynchronized](../../aspose.slides/gradientstopcollectioneffectivedata/issynchronized) { get; } | Returnerar ett värde som indikerar om åtkomst till samlingen är synkroniserad (trådsäker). Skrivskyddad Boolean. |
+| [IsSynchronized](../../aspose.slides/gradientstopcollectioneffectivedata/issynchronized) { get; } | Returnerar ett värde som anger om åtkomsten till samlingen är synkroniserad (trådsäker). Skrivskyddad Boolean. |
 | [Item](../../aspose.slides/gradientstopcollectioneffectivedata/item) { get; } | Returnerar gradientstoppet efter index. |
 | [SyncRoot](../../aspose.slides/gradientstopcollectioneffectivedata/syncroot) { get; } | Returnerar ett synkroniseringsrot. Skrivskyddad Object. |
 
@@ -30,7 +30,7 @@ public class GradientStopCollectionEffectiveData : IGradientStopCollectionEffect
 | [CopyTo](../../aspose.slides/gradientstopcollectioneffectivedata/copyto)(Array, int) | Kopierar alla element från samlingen till den angivna arrayen. |
 | [GetEnumerator](../../aspose.slides/gradientstopcollectioneffectivedata/getenumerator)() | Returnerar en enumerator som itererar genom samlingen. |
 
-### Se också
+### Se även
 
 * gränssnitt [IGradientStopCollectionEffectiveData](../igradientstopcollectioneffectivedata)
 * namnrymd [Aspose.Slides](../../aspose.slides)

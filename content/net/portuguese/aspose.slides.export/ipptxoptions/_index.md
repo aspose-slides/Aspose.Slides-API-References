@@ -1,9 +1,9 @@
 ---
 title: IPptxOptions
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa opções para salvar apresentações OpenXml PPTX PPSX POTX PPTM PPSM POTM.
 type: docs
-weight: 4000
+weight: 4020
 url: /pt/aspose.slides.export/ipptxoptions/
 ---
 ## IPptxOptions interface
@@ -19,12 +19,12 @@ public interface IPptxOptions : ISaveOptions
 | Nome | Descrição |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/ipptxoptions/asisaveoptions) { get; } | Permite obter a interface base ISaveOptions. Somente leitura [`ISaveOptions`](../isaveoptions). |
-| [CompressionLevel](../../aspose.slides.export/ipptxoptions/compressionlevel) { get; set; } | Especifica o nível de compressão usado ao salvar o documento de apresentação. O valor padrão é Level6. |
-| [Conformance](../../aspose.slides.export/ipptxoptions/conformance) { get; set; } | Especifica a classe de conformidade à qual o documento Presentation se ajusta. O valor padrão é Ecma376_2006 |
-| [RefreshThumbnail](../../aspose.slides.export/ipptxoptions/refreshthumbnail) { get; set; } | Especifica se a miniatura da apresentação será atualizada. Booleano leitura/gravação. O valor padrão é **true**. |
-| [Zip64Mode](../../aspose.slides.export/ipptxoptions/zip64mode) { get; set; } | Especifica se o formato ZIP64 é usado para o documento Presentation. O valor padrão é IfNecessary |
+| [CompressionLevel](../../aspose.slides.export/ipptxoptions/compressionlevel) { get; set; } | Especifica o nível de compactação usado ao salvar o documento de apresentação. O valor padrão é Level6. |
+| [Conformance](../../aspose.slides.export/ipptxoptions/conformance) { get; set; } | Especifica a classe de conformidade à qual o documento de Apresentação está em conformidade. O valor padrão é Ecma376_2006 |
+| [RefreshThumbnail](../../aspose.slides.export/ipptxoptions/refreshthumbnail) { get; set; } | Especifica se a miniatura da apresentação será atualizada. Boolean de leitura/gravação. O valor padrão é **true**. |
+| [Zip64Mode](../../aspose.slides.export/ipptxoptions/zip64mode) { get; set; } | Especifica se o formato ZIP64 será usado para o documento de Apresentação. O valor padrão é IfNecessary |
 
-### Veja Também
+### Ver também
 
 * interface [ISaveOptions](../isaveoptions)
 * namespace [Aspose.Slides.Export](../../aspose.slides.export)

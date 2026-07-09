@@ -1,14 +1,14 @@
 ---
 title: ITextStyleEffectiveData
 second_title: Aspose.Sildes の .NET API リファレンス
-description: 有効なテキストスタイルプロパティを含む不変オブジェクトです。
+description: 有効なテキストスタイル プロパティを含む不変オブジェクトです。
 type: docs
-weight: 7300
+weight: 7320
 url: /ja/aspose.slides/itextstyleeffectivedata/
 ---
 ## ITextStyleEffectiveData インターフェイス
 
-有効なテキストスタイルプロパティを含む不変オブジェクトです。
+不変オブジェクトで、有効なテキストスタイル プロパティを含みます。
 
 ```csharp
 public interface ITextStyleEffectiveData
@@ -28,9 +28,9 @@ public interface ITextStyleEffectiveData
 
 ### 備考
 
-このインターフェイスは、[`ITextStyle`](../itextstyle) インターフェイスと併せて使用され、継承が適用された有効な書式設定値を返します。
+[`ITextStyle`](../itextstyle) インターフェイスと共に使用され、継承が適用された有効な書式設定値を返します。
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

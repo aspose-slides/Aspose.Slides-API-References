@@ -1,9 +1,9 @@
 ---
 title: MathAccentFactory
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET API Reference
 description: Umożliwia tworzenie akcentu matematycznego
 type: docs
-weight: 8520
+weight: 8540
 url: /pl/aspose.slides.mathtext/mathaccentfactory/
 ---
 ## MathAccentFactory klasa
@@ -18,18 +18,18 @@ public class MathAccentFactory : IMathAccentFactory
 
 | Nazwa | Opis |
 | --- | --- |
-| [MathAccentFactory](mathaccentfactory)() | Konstruktor domyślny. |
+| [MathAccentFactory](mathaccentfactory)() | Domyślny konstruktor. |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | Tworzy akcent matematyczny zastosowany do określonego elementu matematycznego z domyślną wartością znaku akcentu |
-| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | Tworzy akcent matematyczny zastosowany do określonego elementu matematycznego |
+| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | Tworzy akcent matematyczny stosowany do określonego elementu matematycznego IMathElement z domyślną wartością znaku akcentu |
+| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | Tworzy akcent matematyczny stosowany do określonego elementu matematycznego |
 
 ### Uwagi
 
-Dla zgodności z COM
+Dla kompatybilności z COM
 
 ### Zobacz także
 

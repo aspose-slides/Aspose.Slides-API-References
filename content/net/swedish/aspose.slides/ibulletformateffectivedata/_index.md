@@ -1,14 +1,14 @@
 ---
 title: IBulletFormatEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
-description: Oföränderligt objekt som innehåller effektiva formateringsegenskaper för styckepunkter.
+description: Oföränderligt objekt som innehåller effektiva stycke-punktformateringsegenskaper.
 type: docs
-weight: 5380
+weight: 5400
 url: /sv/aspose.slides/ibulletformateffectivedata/
 ---
 ## IBulletFormatEffectiveData gränssnitt
 
-Oföränderligt objekt som innehåller effektiva formateringsegenskaper för styckepunkter.
+Oföränderligt objekt som innehåller effektiva stycke-punktformateringsegenskaper.
 
 ```csharp
 public interface IBulletFormatEffectiveData
@@ -20,11 +20,11 @@ public interface IBulletFormatEffectiveData
 | --- | --- |
 | [ActualBulletValue](../../aspose.slides/ibulletformateffectivedata/actualbulletvalue) { get; } | Returnerar det faktiska punktvärdet för föräldra-stycket. Skrivskyddad String. |
 | [Char](../../aspose.slides/ibulletformateffectivedata/char) { get; } | Returnerar punkttecknet för ett stycke. Skrivskyddad Char. |
-| [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | Returnerar fyllningsformatet för punkten i ett stycke. Skrivskyddad [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | Returnerar punktens fyllningsformat för ett stycke. Skrivskyddad [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 | [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | Returnerar punktens teckensnitt för ett stycke. Skrivskyddad [`IFontData`](../ifontdata). |
 | [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | Returnerar punktens höjd för ett stycke. Skrivskyddad Single. |
-| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | Avgör om punkten har egen färg eller ärver den från den första delen i stycket. Returnerar **true** om punkten har egen färg och **false** om punkten ärver färg från den första delen i stycket. Skrivskyddad Boolean. |
-| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | Avgör om punkten har eget teckensnitt eller ärver det från den första delen i stycket. Returnerar **true** om punkten har eget teckensnitt och **true** om punkten ärver teckensnitt från den första delen i stycket. Skrivskyddad Boolean. |
+| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | Bestämmer om punkten har egen färg eller ärver den från den första delen i stycket. Returnerar **true** om punkten har egen färg och **false** om punkten ärver färg från den första delen i stycket. Skrivskyddad Boolean. |
+| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | Bestämmer om punkten har eget teckensnitt eller ärver det från den första delen i stycket. Returnerar **true** om punkten har eget teckensnitt och **true** om punkten ärver teckensnitt från den första delen i stycket. Skrivskyddad Boolean. |
 | [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | Returnerar det första numret som används för en grupp numrerade punkter. Skrivskyddad Int16. |
 | [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | Returnerar stilen för en numrerad punkt. Skrivskyddad [`NumberedBulletStyle`](../numberedbulletstyle). |
 | [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | Returnerar punktens typ för ett stycke. Skrivskyddad [`BulletType`](../bullettype). |

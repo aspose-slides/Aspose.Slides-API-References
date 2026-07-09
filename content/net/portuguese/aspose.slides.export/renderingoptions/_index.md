@@ -1,12 +1,12 @@
 ---
 title: RenderingOptions
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para referência da API .NET
 description: Fornece opções que controlam como uma apresentação/slide é renderizada.
 type: docs
-weight: 4390
+weight: 4410
 url: /pt/aspose.slides.export/renderingoptions/
 ---
-## classe RenderingOptions
+## RenderingOptions classe
 
 Fornece opções que controlam como uma apresentação/slide é renderizada.
 
@@ -24,14 +24,14 @@ public class RenderingOptions : SaveOptions, IRenderingOptions
 
 | Nome | Descrição |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Retorna ou define a fonte usada caso a fonte de origem não seja encontrada. Leitura/Gravação String. |
-| [DisableFontLigatures](../../aspose.slides.export/renderingoptions/disablefontligatures) { get; set; } | Obtém ou define um valor que indica se o texto é renderizado sem usar ligaduras. Quando definido como `true`, as ligaduras serão desativadas na saída renderizada. Por padrão, esta propriedade é definida como `false`. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Retorna ou define o estilo visual do gradiente. Leitura/Gravação [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Retorna ou define a fonte usada caso a fonte de origem não seja encontrada. Leitura e escrita String. |
+| [DisableFontLigatures](../../aspose.slides.export/renderingoptions/disablefontligatures) { get; set; } | Obtém ou define um valor que indica se o texto é renderizado sem usar ligaturas. Quando definido como `true`, as ligaturas serão desativadas na saída renderizada. Por padrão, esta propriedade está definida como `false`. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Retorna ou define o estilo visual do gradiente. Leitura/gravação [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [InkOptions](../../aspose.slides.export/renderingoptions/inkoptions) { get; } | Fornece opções que controlam a aparência dos objetos Ink em documento exportado. Somente leitura [`IInkOptions`](../iinkoptions) |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Representa um objeto de retorno de chamada para salvar atualizações de progresso em percentual. Veja [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Especifica se deve pular hyperlinks com chamadas JavaScript ao salvar a apresentação. Leitura/Gravação Boolean. O valor padrão é **false**. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Representa um objeto de retorno de chamada para salvar atualizações de progresso em porcentagem. Veja [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Especifica se deve pular hyperlinks com chamadas JavaScript ao salvar a apresentação. Leitura/gravação Boolean. O valor padrão é **false**. |
 | [SlidesLayoutOptions](../../aspose.slides.export/renderingoptions/slideslayoutoptions) { get; set; } | Obtém ou define o modo em que os slides são posicionados na página ao exportar uma apresentação [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Retorna ou define um objeto que recebe avisos e decide se o processo de carregamento continuará ou será abortado. Leitura/Gravação [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Retorna ou define um objeto que recebe avisos e decide se o processo de carregamento continuará ou será abortado. Leitura/gravação [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Exemplos
 

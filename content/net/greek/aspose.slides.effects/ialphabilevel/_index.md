@@ -1,38 +1,37 @@
 ---
 title: IAlphaBiLevel
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει ένα εφέ Alpha Bi-Level. Οι τιμές Alpha Opacity μικρότερες από το όριο μετατρέπονται σε 0 πλήρως διαφανείς και οι τιμές alpha μεγαλύτερες ή ίσες με το όριο μετατρέπονται σε 100 πλήρως αδιαφανείς.
+second_title: Aspose.Sildes για .NET Αναφορά API
+description: Αναπαριστά ένα εφέ Alpha Bi-Level. Οι τιμές Alpha Opacity μικρότερες από το όριο μετατρέπονται σε 0 πλήρως διαφανές και οι τιμές alpha ίσες ή μεγαλύτερες από το όριο μετατρέπονται σε 100 πλήρως αδιαφανές.
 type: docs
-weight: 3000
+weight: 3020
 url: /el/aspose.slides.effects/ialphabilevel/
 ---
-## IAlphaBiLevel διασύνδεση
+## IAlphaBiLevel διεπαφή
 
-Αντιπροσωπεύει ένα εφέ Alpha Bi-Level. Τιμές Alpha (Opacity) μικρότερες από το όριο μετατρέπονται σε 0 (πλήρως διαφανές) και τιμές alpha μεγαλύτερες ή ίσες με το όριο μετατρέπονται σε 100% (πλήρως αδιαφανές).
+Αναπαριστά ένα εφέ Alpha Bi-Level. Οι τιμές Alpha (Διαφάνεια) μικρότερες από το όριο μετατρέπονται σε 0 (πλήρως διαφανές) και οι τιμές alpha ίσες ή μεγαλύτερες από το όριο μετατρέπονται σε 100% (πλήρως αδιαφανές).
 
 ```csharp
 public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData>, 
     IImageTransformOperation
 ```
 
-
 ## Ιδιότητες
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphabilevel/asiaccessiblepviobject) { get; } | Σας επιτρέπει να λάβετε τη βασική διεπαφή IAccessiblePVIObject. Μόνο για ανάγνωση [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphabilevel/asiimagetransformoperation) { get; } | Σας επιτρέπει να λάβετε τη βασική διεπαφή IImageTransformOperation. Μόνο για ανάγνωση [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Threshold](../../aspose.slides.effects/ialphabilevel/threshold) { get; set; } | Επιστρέφει το όριο του εφέ. Ανάγνωση/εγγραφή Single. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphabilevel/asiaccessiblepviobject) { get; } | Επιτρέπει την απόκτηση της βασικής διεπαφής IAccessiblePVIObject. Μόνο για ανάγνωση [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphabilevel/asiimagetransformoperation) { get; } | Επιτρέπει την απόκτηση της βασικής διεπαφής IImageTransformOperation. Μόνο για ανάγνωση [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Threshold](../../aspose.slides.effects/ialphabilevel/threshold) { get; set; } | Επιστρέφει το όριο του εφέ. Ανάγνωση/Εγγραφή Single. |
 
-### Σχόλια
+### Παρατηρήσεις
 
-Χρησιμοποιήστε το ImageTransformOperationFactory για να δημιουργήσετε στιγμές στο COM.
+Χρησιμοποιήστε το ImageTransformOperationFactory για να δημιουργήσετε στιγμιότυπα στο COM.
 
 ### Δείτε επίσης
 
-* διασύνδεση [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
-* διασύνδεση [IAlphaBiLevelEffectiveData](../ialphabileveleffectivedata)
-* διασύνδεση [IImageTransformOperation](../iimagetransformoperation)
+* διεπαφή [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
+* διεπαφή [IAlphaBiLevelEffectiveData](../ialphabileveleffectivedata)
+* διεπαφή [IImageTransformOperation](../iimagetransformoperation)
 * χώρο ονομάτων [Aspose.Slides.Effects](../../aspose.slides.effects)
 * συναρμολόγηση [Aspose.Slides](../../)
 

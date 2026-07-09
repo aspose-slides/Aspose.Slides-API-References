@@ -3,10 +3,10 @@ title: ColorSpace
 second_title: Aspose.Sildes için .NET API Referansı
 description: Renk etkisi davranışı için renk uzayını temsil eder.
 type: docs
-weight: 230
+weight: 250
 url: /tr/aspose.slides.animation/colorspace/
 ---
-## ColorSpace enum
+## ColorSpace numaralandırması
 
 Renk etkisi davranışı için renk uzayını temsil eder.
 

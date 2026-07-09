@@ -1,9 +1,9 @@
 ---
 title: IAlphaCeiling
-second_title: Aspose.Slides for .NET API リファレンス
-description: アルファシーリング効果を表します。アルファの不透明度が0より大きい場合は100に変更されます。つまり、部分的に不透明なものはすべて完全に不透明になります。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: Alpha Ceiling 効果を表します。Alpha の不透明度が 0 より大きい場合は 100 に変更されます。言い換えれば、部分的に不透明なものはすべて完全に不透明になります。
 type: docs
-weight: 3020
+weight: 3040
 url: /ja/aspose.slides.effects/ialphaceiling/
 ---
 ## IAlphaCeiling インターフェイス
@@ -19,10 +19,10 @@ public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphaceiling/asiaccessiblepviobject) { get; } | ベースの IAccessiblePVIObject インターフェイスを取得できます。読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphaceiling/asiimagetransformoperation) { get; } | ベースの IImageTransformOperationEx インターフェイスを取得できます。読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphaceiling/asiaccessiblepviobject) { get; } | ベースの IAccessiblePVIObject インターフェイスを取得することを許可します。読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphaceiling/asiimagetransformoperation) { get; } | ベースの IImageTransformOperationEx インターフェイスを取得することを許可します。読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation)。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * インターフェイス [IAlphaCeilingEffectiveData](../ialphaceilingeffectivedata)

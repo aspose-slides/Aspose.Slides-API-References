@@ -1,22 +1,22 @@
 ---
 title: SvgImage
-second_title: Aspose.Sildes の .NET 用 API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: SVG 画像を表します。
 type: docs
-weight: 10780
+weight: 10800
 url: /ja/aspose.slides/svgimage/
 ---
 ## SvgImage クラス
 
-SVG画像を表します。
+SVG 画像を表します。
 
 ```csharp
 public class SvgImage : ISvgImage
 ```
 
-## コンストラクタ
+## コンストラクター
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [SvgImage](svgimage#constructor)(byte[]) | 新しい SvgImage オブジェクトを作成します。 |
 | [SvgImage](svgimage#constructor_2)(Stream) | 新しい SvgImage オブジェクトを作成します。 |
@@ -27,16 +27,16 @@ public class SvgImage : ISvgImage
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | 指定された Svg の基本 URI を返します。相対リンクの解決に使用されます。読み取り専用 String。 |
-| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | Svg ドキュメントのインポート中に外部リソースを解決するために使用されるコールバック インターフェイスを返します。読み取り専用 [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver)。 |
-| [SvgContent](../../aspose.slides/svgimage/svgcontent) { get; } | SVG コンテンツを返します。読み取り専用 String。 |
+| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | 指定された Svg のベース URI を返します。相対リンクの解決に使用されます。読み取り専用 String. |
+| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | Svg ドキュメントのインポート時に外部リソースを解決するために使用されるコールバックインターフェイスを返します。読み取り専用 [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
+| [SvgContent](../../aspose.slides/svgimage/svgcontent) { get; } | SVG コンテンツを返します。読み取り専用 String. |
 | [SvgData](../../aspose.slides/svgimage/svgdata) { get; } | SVG データを返します。読み取り専用 Byte[]. |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [WriteAsEmf](../../aspose.slides/svgimage/writeasemf)(Stream) | SVG 画像を EMF ファイルとして保存します。 |
 

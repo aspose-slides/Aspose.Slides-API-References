@@ -1,14 +1,14 @@
 ---
 title: IHyperlinkManager
 second_title: Aspose.Sildes pro .NET API Reference
-description: Poskytuje správu hypertextových odkazů, přidávání a odstraňování.
+description: Poskytuje správu hyperodkazů přidávání a odstraňování.
 type: docs
-weight: 6110
+weight: 6130
 url: /cs/aspose.slides/ihyperlinkmanager/
 ---
 ## IHyperlinkManager rozhraní
 
-Poskytuje správu hyperlinků (přidávání, odstraňování).
+Poskytuje správu hyperodkazů (přidávání, odstraňování).
 
 ```csharp
 public interface IHyperlinkManager
@@ -18,13 +18,13 @@ public interface IHyperlinkManager
 
 | Název | Popis |
 | --- | --- |
-| [RemoveHyperlinkClick](../../aspose.slides/ihyperlinkmanager/removehyperlinkclick)() | Odstraňuje hypertextový odkaz po kliknutí. |
-| [RemoveHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/removehyperlinkmouseover)() | Odstraňuje hypertextový odkaz při najetí myší. |
-| [SetExternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkclick)(string) | Nastaví externí hypertextový odkaz po kliknutí. |
-| [SetExternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkmouseover)(string) | Nastaví externí hypertextový odkaz při najetí myší. |
-| [SetInternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkclick)(ISlide) | Nastaví interní hypertextový odkaz po kliknutí. |
-| [SetInternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | Nastaví interní hypertextový odkaz při najetí myší. |
-| [SetMacroHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setmacrohyperlinkclick)(string) | Nastaví hypertextový odkaz na makro po kliknutí. |
+| [RemoveHyperlinkClick](../../aspose.slides/ihyperlinkmanager/removehyperlinkclick)() | Odstraní hyperodkaz po kliknutí. |
+| [RemoveHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/removehyperlinkmouseover)() | Odstraní hyperodkaz při přejetí myší. |
+| [SetExternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkclick)(string) | Nastaví externí hyperodkaz po kliknutí. |
+| [SetExternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkmouseover)(string) | Nastaví externí hyperodkaz při přejetí myší. |
+| [SetInternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkclick)(ISlide) | Nastaví interní hyperodkaz po kliknutí. |
+| [SetInternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | Nastaví interní hyperodkaz při přejetí myší. |
+| [SetMacroHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setmacrohyperlinkclick)(string) | Nastaví hyperodkaz na makro po kliknutí. |
 
 ### Viz také
 

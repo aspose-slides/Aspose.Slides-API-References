@@ -1,9 +1,9 @@
 ---
 title: ControlType
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Definiál egy vezérlő típust, amelyet az AddControl./icontrolcollection/addcontrol be kell ágyazni.
+second_title: Aspose.Sildes .NET API referencia
+description: Meghatároz egy vezérlő típust, amelyet az AddControl./icontrolcollection/addcontrol kell beágyazni.
 type: docs
-weight: 2700
+weight: 2720
 url: /hu/aspose.slides/controltype/
 ---
 ## ControlType enumeráció

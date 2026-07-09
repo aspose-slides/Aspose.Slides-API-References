@@ -3,7 +3,7 @@ title: ITagCollection
 second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje kolekcję tagów będących parami ciągów znaków definiowanych przez użytkownika
 type: docs
-weight: 7240
+weight: 7260
 url: /pl/aspose.slides/itagcollection/
 ---
 ## ITagCollection interfejs
@@ -26,13 +26,13 @@ public interface ITagCollection : IGenericCollection<KeyValuePair<string, string
 | --- | --- |
 | [Add](../../aspose.slides/itagcollection/add)(string, string) | Dodaje nowy tag do kolekcji. |
 | [Clear](../../aspose.slides/itagcollection/clear)() | Usuwa wszystkie tagi z kolekcji. |
-| [Contains](../../aspose.slides/itagcollection/contains)(string) | Sprawdza, czy kolekcja zawiera określoną nazwę. |
-| [GetNameByIndex](../../aspose.slides/itagcollection/getnamebyindex)(int) | Zwraca klucz tagu pod wskazanym indeksem. |
+| [Contains](../../aspose.slides/itagcollection/contains)(string) | Określa, czy kolekcja zawiera określoną nazwę. |
+| [GetNameByIndex](../../aspose.slides/itagcollection/getnamebyindex)(int) | Zwraca klucz tagu pod określonym indeksem. |
 | [GetNamesOfTags](../../aspose.slides/itagcollection/getnamesoftags)() | Zwraca nazwy tagów. |
-| [GetValueByIndex](../../aspose.slides/itagcollection/getvaluebyindex)(int) | Zwraca wartość tagu pod wskazanym indeksem. |
-| [IndexOfName](../../aspose.slides/itagcollection/indexofname)(string) | Zwraca indeks zerowy podanego klucza w kolekcji. |
+| [GetValueByIndex](../../aspose.slides/itagcollection/getvaluebyindex)(int) | Zwraca wartość tagu pod określonym indeksem. |
+| [IndexOfName](../../aspose.slides/itagcollection/indexofname)(string) | Zwraca indeks zerowy określonego klucza w kolekcji. |
 | [Remove](../../aspose.slides/itagcollection/remove)(string) | Usuwa tag o określonej nazwie z kolekcji. |
-| [RemoveAt](../../aspose.slides/itagcollection/removeat)(int) | Usuwa tag pod wskazanym indeksem. |
+| [RemoveAt](../../aspose.slides/itagcollection/removeat)(int) | Usuwa tag pod określonym indeksem. |
 
 ### Zobacz także
 

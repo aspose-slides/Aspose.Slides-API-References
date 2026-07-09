@@ -1,14 +1,14 @@
 ---
 title: BrowsedByIndividual
 second_title: Aspose.Sildes per .NET Riferimento API
-description: Finestra sfogliata per individuo
+description: Finestra visualizzata per singolo
 type: docs
-weight: 1030
+weight: 1050
 url: /it/aspose.slides/browsedbyindividual/
 ---
 ## BrowsedByIndividual classe
 
-Sfogliato da individuo (finestra)
+Visualizzato per singolo (finestra)
 
 ```csharp
 public class BrowsedByIndividual : SlideShowType

@@ -1,15 +1,14 @@
 ---
 title: IDrawingGuide
-second_title: Aspose.Sildes for .NET API Reference
-description: 表示可调节的绘图指南。
+second_title: Aspose.Sildes .NET API 参考
+description: 表示一个可调节的绘图辅助线。
 type: docs
-weight: 5520
+weight: 5720
 url: /zh/aspose.slides/idrawingguide/
 ---
-
 ## IDrawingGuide 接口
 
-表示可调节的绘图指南。
+表示一个可调节的绘图辅助线。
 
 ```csharp
 public interface IDrawingGuide
@@ -19,8 +18,9 @@ public interface IDrawingGuide
 
 | 名称 | 描述 |
 | --- | --- |
-| [Orientation](../../aspose.slides/idrawingguide/orientation) { get; set; } | 返回或设置绘图指南的方向。可读写 [`Orientation`](../orientation)。 |
-| [Position](../../aspose.slides/idrawingguide/position) { get; set; } | 返回或设置绘图指南在幻灯片左上角以点为单位的位置。可读写 Single。 |
+| [Color](../../aspose.slides/idrawingguide/color) { get; set; } | 返回或设置绘图辅助线的颜色。可读/可写 Color. |
+| [Orientation](../../aspose.slides/idrawingguide/orientation) { get; set; } | 返回或设置绘图辅助线的方向。可读/可写 [`Orientation`](../orientation). |
+| [Position](../../aspose.slides/idrawingguide/position) { get; set; } | 返回或设置绘图辅助线相对于幻灯片左上角的点数位置。可读/可写 Single. |
 
 ### 另请参见
 

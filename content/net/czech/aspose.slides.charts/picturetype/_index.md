@@ -1,14 +1,14 @@
 ---
 title: PictureType
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET API referenci
 description: Určuje režim vyplňování obrázku pruhu.
 type: docs
-weight: 2340
+weight: 2360
 url: /cs/aspose.slides.charts/picturetype/
 ---
-## Enumerace PictureType
+## PictureType výčet
 
-Určuje režim vyplnění obrázku pruhu.
+Určuje režim vyplňování obrázku pruhu.
 
 ```csharp
 public enum PictureType
@@ -19,9 +19,9 @@ public enum PictureType
 | Název | Hodnota | Popis |
 | --- | --- | --- |
 | NotDefined | `-1` | Není definováno. |
-| Stack | `0` | Obrázek je nastaven tak, aby se v nejdelším naskládaném pruhu opakoval maximálně 15krát. |
+| Stack | `0` | Obrázek je nastaven tak, aby se opakoval maximálně 15krát v nejdelším vrstveném pruhu. |
 | StackScale | `1` | Obrázek je nastaven na určený počet jednotek a opakuje se po celé délce pruhu. |
-| Stretch | `2` | Obrázek je natažen přes celou délku naskládaného pruhu. |
+| Stretch | `2` | Obrázek je natažený po celé délce vrstveného pruhu. |
 
 ### Viz také
 

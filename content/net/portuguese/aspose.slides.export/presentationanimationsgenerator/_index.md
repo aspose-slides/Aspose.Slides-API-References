@@ -1,9 +1,9 @@
 ---
 title: PresentationAnimationsGenerator
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência de API
 description: Representa um gerador das animações na Presentation../aspose.slides/presentation.
 type: docs
-weight: 4360
+weight: 4380
 url: /pt/aspose.slides.export/presentationanimationsgenerator/
 ---
 ## PresentationAnimationsGenerator classe
@@ -16,22 +16,22 @@ public class PresentationAnimationsGenerator : IDisposable
 
 ## Construtores
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor)(Presentation) | Cria uma nova instância do [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
 | [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor_1)(Size) | Cria uma nova instância do [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [DefaultDelay](../../aspose.slides.export/presentationanimationsgenerator/defaultdelay) { get; set; } | Obtém ou define o tempo de atraso padrão [ms]. |
-| [ExportedSlides](../../aspose.slides.export/presentationanimationsgenerator/exportedslides) { get; } | Obtém o número da contagem de slides exportados. |
-| [IncludeHiddenSlides](../../aspose.slides.export/presentationanimationsgenerator/includehiddenslides) { get; set; } | Obtém ou define se os slides ocultos devem ser incluídos. |
+| [ExportedSlides](../../aspose.slides.export/presentationanimationsgenerator/exportedslides) { get; } | Obtém o número de slides exportados. |
+| [IncludeHiddenSlides](../../aspose.slides.export/presentationanimationsgenerator/includehiddenslides) { get; set; } | Obtém ou define se slides ocultos devem ser incluídos. |
 
 ## Métodos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [Dispose](../../aspose.slides.export/presentationanimationsgenerator/dispose)() | Descarta a instância do [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
 | [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run)(IEnumerable&lt;ISlide&gt;) | Executa a geração de eventos de animação para cada slide. |
@@ -39,13 +39,13 @@ public class PresentationAnimationsGenerator : IDisposable
 
 ## Campos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | readonly [FrameSize](../../aspose.slides.export/presentationanimationsgenerator/framesize) | Obtém o tamanho do quadro. |
 
 ## Eventos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | event [NewAnimation](../../aspose.slides.export/presentationanimationsgenerator/newanimation) | Um evento indica que uma nova animação foi gerada. |
 

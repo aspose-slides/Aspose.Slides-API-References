@@ -3,7 +3,7 @@ title: IHtmlOptions
 second_title: Aspose.Sildes for .NET API Referansı
 description: HTML dışa aktarma seçeneklerini temsil eder.
 type: docs
-weight: 3950
+weight: 3970
 url: /tr/aspose.slides.export/ihtmloptions/
 ---
 ## IHtmlOptions arayüz
@@ -19,18 +19,18 @@ public interface IHtmlOptions : ISaveOptions
 | Ad | Açıklama |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/ihtmloptions/asisaveoptions) { get; } | ISaveOptions arayüzünü döndürür. Salt okunur [`ISaveOptions`](../isaveoptions). |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/ihtmloptions/deletepicturescroppedareas) { get; set; } | Belirli bir Boolean bayrak, kırpılan parçaların belgenin bir parçası olarak kalıp kalmadığını gösterir. Eğer true ise kırpılan parçalar kaldırılır, false ise belgede serileştirilir (bu daha büyük bir dosyaya yol açabilir) Okunur/Yazılabilir Boolean. |
-| [DisableFontLigatures](../../aspose.slides.export/ihtmloptions/disablefontligatures) { get; set; } | Metnin ligatürler kullanılmadan render edilip edilmediğini belirten bir değeri alır veya ayarlar. `true` olarak ayarlandığında, ligatürler render edilen çıktıda devre dışı bırakılır. Varsayılan olarak bu özellik `false` değerine sahiptir. |
-| [HtmlFormatter](../../aspose.slides.export/ihtmloptions/htmlformatter) { get; set; } | HTML şablonunu alır veya ayarlar. Okunur/Yazılabilir [`IHtmlFormatter`](../ihtmlformatter). |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/ihtmloptions/deletepicturescroppedareas) { get; set; } | Kırpılan parçaların belgenin bir parçası olarak kalıp kalmayacağını belirten bir Boolean işareti. true ise kırpılan parçalar kaldırılacak, false ise belgede serileştirilecek (bu daha büyük bir dosyaya yol açabilir). Okunur/Yazılabilir Boolean. |
+| [DisableFontLigatures](../../aspose.slides.export/ihtmloptions/disablefontligatures) { get; set; } | Metnin ligatürler kullanılmadan render edilip edilmediğini gösteren bir değeri alır veya ayarlar. `true` olarak ayarlandığında, ligatürler çıktı içinde devre dışı bırakılır. Varsayılan olarak bu özellik `false` değerindedir. |
+| [HtmlFormatter](../../aspose.slides.export/ihtmloptions/htmlformatter) { get; set; } | HTML şablonunu döndürür veya ayarlar. Okunur/Yazılabilir [`IHtmlFormatter`](../ihtmlformatter). |
 | [InkOptions](../../aspose.slides.export/ihtmloptions/inkoptions) { get; } | Dışa aktarılan belgede Ink nesnelerinin görünümünü kontrol eden seçenekleri sağlar. Salt okunur [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/ihtmloptions/jpegquality) { get; set; } | PDF belgesindeki JPEG görüntülerinin kalitesini belirleyen bir değeri alır veya ayarlar. Okunur/Yazılabilir Byte. |
+| [JpegQuality](../../aspose.slides.export/ihtmloptions/jpegquality) { get; set; } | PDF belgesi içindeki JPEG görüntülerinin kalitesini belirleyen bir değeri döndürür veya ayarlar. Okunur/Yazılabilir Byte. |
 | [PicturesCompression](../../aspose.slides.export/ihtmloptions/picturescompression) { get; set; } | Resim sıkıştırma seviyesini temsil eder. Okunur/Yazılabilir [`PicturesCompression`](./picturescompression). |
-| [ShowHiddenSlides](../../aspose.slides.export/ihtmloptions/showhiddenslides) { get; set; } | Oluşturulan belgenin gizli slaytları içerip içermeyeceğini belirler. Varsayılan `false`. |
-| [SlideImageFormat](../../aspose.slides.export/ihtmloptions/slideimageformat) { get; set; } | Slayt görüntü formatı seçeneklerini alır veya ayarlar. Okunur/Yazılabilir [`ISlideImageFormat`](../islideimageformat). |
+| [ShowHiddenSlides](../../aspose.slides.export/ihtmloptions/showhiddenslides) { get; set; } | Oluşturulan belgenin gizli slaytları içerip içermeyeceğini belirtir. Varsayılan `false`. |
+| [SlideImageFormat](../../aspose.slides.export/ihtmloptions/slideimageformat) { get; set; } | Slayt görüntü formatı seçeneklerini döndürür veya ayarlar. Okunur/Yazılabilir [`ISlideImageFormat`](../islideimageformat). |
 | [SlidesLayoutOptions](../../aspose.slides.export/ihtmloptions/slideslayoutoptions) { get; set; } | Sunumu dışa aktarırken slaytların sayfaya yerleştirildiği modu alır veya ayarlar [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [SvgResponsiveLayout](../../aspose.slides.export/ihtmloptions/svgresponsivelayout) { get; set; } | Genişlik ve yükseklik özniteliklerini SVG konteynerinden çıkarmak için true - bu, tasarımı duyarlı hale getirir. Aksi takdirde false. Okunur/Yazılabilir Boolean. |
+| [SvgResponsiveLayout](../../aspose.slides.export/ihtmloptions/svgresponsivelayout) { get; set; } | SVG kapsayıcısından width ve height özniteliklerini çıkarmak için true - bu düzeni duyarlı yapar. Aksi takdirde false. Okunur/Yazılabilir Boolean. |
 
-### Ayrıca bakınız
+### Diğer
 
 * arayüz [ISaveOptions](../isaveoptions)
 * ad alanı [Aspose.Slides.Export](../../aspose.slides.export)

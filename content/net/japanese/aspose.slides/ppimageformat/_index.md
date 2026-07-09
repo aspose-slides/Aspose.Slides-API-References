@@ -1,14 +1,14 @@
 ---
 title: PPImageFormat
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 画像フォーマット。この enum は System.Drawing.Imaging.ImageFormat クラスの代替です。COM 互換性のために必要です。
+description: 画像形式。この列挙体は System.Drawing.Imaging.ImageFormat クラスの代替です。COM 互換性のために必要です。
 type: docs
-weight: 9240
+weight: 9260
 url: /ja/aspose.slides/ppimageformat/
 ---
-## PPImageFormat 列挙型
+## PPImageFormat 列挙体
 
-画像フォーマット。この enum は `System.Drawing.Imaging.ImageFormat` クラスの代替です。COM 互換性のために必要です。
+画像形式。この列挙体は `System.Drawing.Imaging.ImageFormat` クラスの代替です。COM 互換性のために必要です。
 
 ```csharp
 public enum PPImageFormat
@@ -18,16 +18,16 @@ public enum PPImageFormat
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| Bmp | `0` | ビットマップ (BMP) イメージ形式を取得します。 |
-| Emf | `1` | 拡張メタファイル (EMF) イメージ形式を取得します。 |
+| Bmp | `0` | ビットマップ (BMP) 画像形式を取得します。 |
+| Emf | `1` | 拡張メタファイル (EMF) 画像形式を取得します。 |
 | Exif | `2` | 交換可能画像ファイル (Exif) 形式を取得します。 |
-| Gif | `3` | グラフィックス交換フォーマット (GIF) イメージ形式を取得します。 |
-| Icon | `4` | Windows アイコン イメージ形式を取得します。 |
-| Jpeg | `5` | Joint Photographic Experts Group (JPEG) イメージ形式を取得します。 |
+| Gif | `3` | グラフィックス交換フォーマット (GIF) 画像形式を取得します。 |
+| Icon | `4` | Windows アイコン画像形式を取得します。 |
+| Jpeg | `5` | Joint Photographic Experts Group (JPEG) 画像形式を取得します。 |
 | MemoryBmp | `6` | メモリ内のビットマップ形式を取得します。 |
-| Png | `7` | W3C ポータブルネットワークグラフィックス (PNG) イメージ形式を取得します。 |
-| Tiff | `8` | タグ付き画像ファイル形式 (TIFF) イメージ形式を取得します。 |
-| Wmf | `9` | Windows メタファイル (WMF) イメージ形式を取得します。 |
+| Png | `7` | W3C ポータブルネットワークグラフィックス (PNG) 画像形式を取得します。 |
+| Tiff | `8` | Tagged Image File Format (TIFF) 画像形式を取得します。 |
+| Wmf | `9` | Windows メタファイル (WMF) 画像形式を取得します。 |
 
 ### 参照
 

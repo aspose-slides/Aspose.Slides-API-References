@@ -1,14 +1,14 @@
 ---
 title: IAlphaBiLevel
-second_title: Aspose.Slides için .NET API Referansı
-description: Alfa Bi-Level etkisini temsil eder. Eşik değerinden daha düşük Alpha Opacity değerleri 0 (tamamen şeffaf) ve eşik değerine eşit ya da daha yüksek alpha değerleri 100 (tamamen opak) olarak değiştirilir.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Alfa Bi-Level etkisini temsil eder. Eşik değerinden düşük Alpha Opacity değerleri 0 tamamen şeffaf ve eşik değerine eşit veya daha yüksek Alpha değerleri 100 tamamen opak olarak değiştirilir.
 type: docs
-weight: 3000
+weight: 3020
 url: /tr/aspose.slides.effects/ialphabilevel/
 ---
 ## IAlphaBiLevel arayüzü
 
-Alfa Bi-Level etkisini temsil eder. Eşik değerinden daha düşük Alpha (Opacity) değerleri 0 (tamamen şeffaf) olarak, eşik değerine eşit ya da daha yüksek Alpha değerleri ise %100 (tamamen opak) olarak değiştirilir.
+Alfa Bi-Level etkisini temsil eder. Eşik değerinden düşük Alpha (Opacity) değerleri 0 (tamamen şeffaf) olarak, eşik değerine eşit veya daha yüksek Alpha değerleri ise %100 (tamamen opak) olarak değiştirilir.
 
 ```csharp
 public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData>, 
@@ -19,15 +19,15 @@ public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphabilevel/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arayüzünü almayı sağlar. Yalnızca okuma [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphabilevel/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arayüzünü almayı sağlar. Yalnızca okuma [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Threshold](../../aspose.slides.effects/ialphabilevel/threshold) { get; set; } | Efekt eşiğini döndürür. Okuma/yazma Single. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphabilevel/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arayüzünü almayı sağlar. Salt okunur [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphabilevel/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arayüzünü almayı sağlar. Salt okunur [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Threshold](../../aspose.slides.effects/ialphabilevel/threshold) { get; set; } | Etkinin eşik değerini döndürür. Okunur/Yazılabilir Single. |
 
 ### Açıklamalar
 
 COM içinde örnekler oluşturmak için ImageTransformOperationFactory kullanın.
 
-### Ayrıca Bakınız
+### Diğer Bağlantılar
 
 * arayüz [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * arayüz [IAlphaBiLevelEffectiveData](../ialphabileveleffectivedata)

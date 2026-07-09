@@ -1,14 +1,14 @@
 ---
 title: IVideoPlayerHtmlController
-second_title: Aspose.Sildes for .NET API Referansı
-description: Bu sınıf video ve ses dosyalarını bir HTML'ye dışa aktarmayı sağlar.
+second_title: Aspose.Sildes için .NET API Referansı
+description: "Bu sınıf video ve ses dosyalarının bir HTML'ye aktarılmasını sağlar"
 type: docs
-weight: 4160
+weight: 4180
 url: /tr/aspose.slides.export/ivideoplayerhtmlcontroller/
 ---
-## IVideoPlayerHtmlController arayüz
+## IVideoPlayerHtmlController arayüzü
 
-Bu sınıf, video ve ses dosyalarını bir HTML'ye dışa aktarmayı sağlar.
+Bu sınıf video ve ses dosyalarının bir HTML'ye aktarılmasını sağlar.
 
 ```csharp
 public interface IVideoPlayerHtmlController : IHtmlFormattingController, ILinkEmbedController, 
@@ -19,11 +19,11 @@ public interface IVideoPlayerHtmlController : IHtmlFormattingController, ILinkEm
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIHtmlFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asihtmlformattingcontroller) { get; } | Temel IHtmlFormattingController arayüzünü almayı sağlar. Salt okunur [`IHtmlFormattingController`](../ihtmlformattingcontroller). |
-| [AsILinkEmbedController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller) { get; } | Temel ILinkEmbedController arayüzünü almayı sağlar. Salt okunur [`ILinkEmbedController`](../ilinkembedcontroller). |
-| [AsISvgShapeFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asisvgshapeformattingcontroller) { get; } | Temel ISvgShapeFormattingController arayüzünü almayı sağlar. Salt okunur [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
+| [AsIHtmlFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asihtmlformattingcontroller) { get; } | Temel IHtmlFormattingController arayüzünü almayı sağlar. Yalnızca okunabilir [`IHtmlFormattingController`](../ihtmlformattingcontroller). |
+| [AsILinkEmbedController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller) { get; } | Temel ILinkEmbedController arayüzünü almayı sağlar. Yalnızca okunabilir [`ILinkEmbedController`](../ilinkembedcontroller). |
+| [AsISvgShapeFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asisvgshapeformattingcontroller) { get; } | Temel ISvgShapeFormattingController arayüzünü almayı sağlar. Yalnızca okunabilir [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
 
-### İlgili
+### Ayrıca
 
 * arayüz [IHtmlFormattingController](../ihtmlformattingcontroller)
 * arayüz [ILinkEmbedController](../ilinkembedcontroller)

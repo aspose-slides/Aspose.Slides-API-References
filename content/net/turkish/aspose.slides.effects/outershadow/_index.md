@@ -1,14 +1,14 @@
 ---
 title: OuterShadow
-second_title: Aspose.Sildes .NET API Referansı
-description: Bir Outer Shadow etkisini temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bir Outer Shadow efekti temsil eder.
 type: docs
-weight: 3600
+weight: 3620
 url: /tr/aspose.slides.effects/outershadow/
 ---
 ## OuterShadow sınıfı
 
-Bir Outer Shadow efekti temsil eder.
+Bir Outer Shadow efektini temsil eder.
 
 ```csharp
 public sealed class OuterShadow : IOuterShadow
@@ -18,24 +18,24 @@ public sealed class OuterShadow : IOuterShadow
 
 | Ad | Açıklama |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | Bulanıklık yarıçapı, puan cinsinden. Varsayılan değer – 0 pt. Okunabilir/yazılabilir Double. |
-| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | Gölgenin yönü, derece cinsinden. Varsayılan değer – 0 ° (soldan sağa). Okunabilir/yazılabilir Single. |
-| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | Gölgenin nesneden uzaklığı, puan cinsinden. Varsayılan değer – 0 pt. Okunabilir/yazılabilir Double. |
-| [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | Dikdörtgen hizalaması. Varsayılan değer – Bottom. Okunabilir/yazılabilir [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | Gölgenin şekil ile birlikte dönüp dönmediğini belirtir. Varsayılan değer – true. Okunabilir/yazılabilir Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | Yatay ölçek faktörü, orijinal boyutun yüzde olarak. Negatif ölçekleme bir tersine çevirme oluşturur. Varsayılan değer – 100 %. Okunabilir/yazılabilir Double. |
-| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | Dikey ölçek faktörü, orijinal boyutun yüzde olarak. Negatif ölçekleme bir tersine çevirme oluşturur. Varsayılan değer – 100 %. Okunabilir/yazılabilir Double. |
-| [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | Gölgenin rengi. Varsayılan değer – otomatik siyah (tema bağımlı). Yalnızca okunabilir [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | Yatay eğim açısı, derece cinsinden. Varsayılan değer – 0 °. Okunabilir/yazılabilir Double. |
-| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | Dikey eğim açısı, derece cinsinden. Varsayılan değer – 0 °. Okunabilir/yazılabilir Double. |
+| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | Bulanıklık yarıçapı, puan cinsinden. Varsayılan değer – 0 pt. Okunur/Yazılabilir Double. |
+| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | Gölgenin yönü, dereceler cinsinden. Varsayılan değer – 0 ° (soldan sağa). Okunur/Yazılabilir Single. |
+| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | Gölgenin nesneden uzaklığı, puan cinsinden. Varsayılan değer – 0 pt. Okunur/Yazılabilir Double. |
+| [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | Dikdörtgen hizalaması. Varsayılan değer – Bottom. Okunur/Yazılabilir [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | Gölgenin şekil ile birlikte döndürülüp döndürülmediğini gösterir. Varsayılan değer – true. Okunur/Yazılabilir Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | Yatay ölçekleme faktörü, orijinal boyutun yüzdesi olarak. Negatif ölçekleme bir çevirme yapar. Varsayılan değer – 100 %. Okunur/Yazılabilir Double. |
+| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | Dikey ölçekleme faktörü, orijinal boyutun yüzdesi olarak. Negatif ölçekleme bir çevirme yapar. Varsayılan değer – 100 %. Okunur/Yazılabilir Double. |
+| [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | Gölgenin rengi. Varsayılan değer – otomatik siyah (tema bağımlı). Salt-okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | Yatay eğim açısı, derece cinsinden. Varsayılan değer – 0 °. Okunur/Yazılabilir Double. |
+| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | Dikey eğim açısı, derece cinsinden. Varsayılan değer – 0 °. Okunur/Yazılabilir Double. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | Belirtilen [`OuterShadow`](../outershadow) ile mevcut [`OuterShadow`](../outershadow) eşit olup olmadığını belirler. |
-| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | Uygulanan mirasla etkili Outer Shadow efekti verilerini alır. |
-| override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | Belirli bir tür için hash işlevi olarak hizmet eder. |
+| override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | Belirtilen [`OuterShadow`](../outershadow) mevcut [`OuterShadow`](../outershadow) ile eşit olup olmadığını belirler. |
+| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | Uygulanan kalıtımla birlikte etkili Outer Shadow efekt verilerini alır. |
+| override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | Belirli bir tip için bir karma (hash) işlevi olarak hizmet verir. |
 
 ### Ayrıca Bakınız
 

@@ -1,14 +1,14 @@
 ---
 title: ILayoutSlideCollection
-second_title: Aspose.Sildes .NET için API Referansı
-description: Yerleşim slaytlarının koleksiyonu için bir temel sınıfı temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Düzen slaytları koleksiyonu için temel sınıfı temsil eder.
 type: docs
-weight: 6210
+weight: 6230
 url: /tr/aspose.slides/ilayoutslidecollection/
 ---
-## ILayoutSlideCollection arayüz
+## ILayoutSlideCollection arayüzü
 
-Yerleşim slaytlarının koleksiyonu için bir temel sınıfı temsil eder.
+Düzen slaytları koleksiyonu için temel sınıfı temsil eder.
 
 ```csharp
 public interface ILayoutSlideCollection : IGenericCollection<ILayoutSlide>
@@ -16,19 +16,19 @@ public interface ILayoutSlideCollection : IGenericCollection<ILayoutSlide>
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [Item](../../aspose.slides/ilayoutslidecollection/item) { get; } | İndekse göre yerleşim slaytını döndürür. Salt okunur [`ILayoutSlide`](../ilayoutslide). |
+| [Item](../../aspose.slides/ilayoutslidecollection/item) { get; } | Dizine göre düzen slaytını döndürür. Salt-okunur [`ILayoutSlide`](../ilayoutslide). |
 
 ## Yöntemler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [GetByType](../../aspose.slides/ilayoutslidecollection/getbytype)(SlideLayoutType) | Belirtilen türün ilk yerleşim slaytını döndürür. |
-| [Remove](../../aspose.slides/ilayoutslidecollection/remove)(ILayoutSlide) | Koleksiyondan bir yerleşim siler. |
-| [RemoveUnused](../../aspose.slides/ilayoutslidecollection/removeunused)() | Kullanılmayan yerleşim slaytlarını kaldırır (HasDependingSlides değeri false olan yerleşim slaytları). |
+| [GetByType](../../aspose.slides/ilayoutslidecollection/getbytype)(SlideLayoutType) | Belirtilen türdeki ilk düzen slaytını döndürür. |
+| [Remove](../../aspose.slides/ilayoutslidecollection/remove)(ILayoutSlide) | Koleksiyondan bir düzeni kaldırır. |
+| [RemoveUnused](../../aspose.slides/ilayoutslidecollection/removeunused)() | Kullanılmayan düzen slaytlarını kaldırır (HasDependingSlides değeri false olan düzen slaytları). |
 
-### Ayrıca Bakınız
+### Diğer Bağlantılar
 
 * arayüz [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * arayüz [ILayoutSlide](../ilayoutslide)

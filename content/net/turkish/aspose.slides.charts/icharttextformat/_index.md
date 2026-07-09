@@ -1,14 +1,14 @@
 ---
 title: IChartTextFormat
-second_title: Aspose.Sildes for .NET API Referansı
-description: Chart, sınırlı bir metin biçimi özelliği kümesiyle çalışır. IChartTextFormat, IChartTextBlockFormat, IChartParagraphFormat ve IChartPortionFormat arayüzleri bu sınırlı seti açıklar.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Chart, sınırlı bir metin biçim özellikleri kümesiyle çalışır. IChartTextFormat IChartTextBlockFormat IChartParagraphFormat IChartPortionFormat arayüzleri bu sınırlı kümeyi açıklar.
 type: docs
-weight: 1970
+weight: 1990
 url: /tr/aspose.slides.charts/icharttextformat/
 ---
 ## IChartTextFormat arayüzü
 
-Chart, sınırlı bir metin biçimi özellikleri kümesiyle çalışır. IChartTextFormat, IChartTextBlockFormat, IChartParagraphFormat, IChartPortionFormat arayüzleri bu sınırlı seti tanımlar.
+Chart, sınırlı bir metin biçim özellikleri kümesiyle çalışır. IChartTextFormat, IChartTextBlockFormat, IChartParagraphFormat, IChartPortionFormat arayüzleri bu sınırlı kümeyi açıklar.
 
 ```csharp
 public interface IChartTextFormat
@@ -18,11 +18,11 @@ public interface IChartTextFormat
 
 | Ad | Açıklama |
 | --- | --- |
-| [ParagraphFormat](../../aspose.slides.charts/icharttextformat/paragraphformat) { get; } | Paragraf biçimini döndürür. Yalnızca okuma [`IChartParagraphFormat`](../ichartparagraphformat). |
-| [PortionFormat](../../aspose.slides.charts/icharttextformat/portionformat) { get; } | Bölüm biçimini döndürür. Yalnızca okuma [`IChartPortionFormat`](../ichartportionformat). |
-| [TextBlockFormat](../../aspose.slides.charts/icharttextformat/textblockformat) { get; } | Çart metin öğeleri için biçimi döndürür. Yalnızca okuma [`IChartTextBlockFormat`](../icharttextblockformat). |
+| [ParagraphFormat](../../aspose.slides.charts/icharttextformat/paragraphformat) { get; } | Paragraph biçimini döndürür. Salt okunur [`IChartParagraphFormat`](../ichartparagraphformat). |
+| [PortionFormat](../../aspose.slides.charts/icharttextformat/portionformat) { get; } | Parçacık biçimini döndürür. Salt okunur [`IChartPortionFormat`](../ichartportionformat). |
+| [TextBlockFormat](../../aspose.slides.charts/icharttextformat/textblockformat) { get; } | Grafik metin öğeleri için biçimi döndürür. Salt okunur [`IChartTextBlockFormat`](../icharttextblockformat). |
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |

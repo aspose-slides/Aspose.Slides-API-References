@@ -1,9 +1,9 @@
 ---
 title: ChartDataWorksheetCollection
-second_title: Aspose.Sildes per .NET API Reference
-description: Rappresenta la collezione di fogli di lavoro della cartella di lavoro dei dati del grafico.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta la raccolta di fogli di lavoro della cartella di lavoro dei dati del grafico.
 type: docs
-weight: 1380
+weight: 1400
 url: /it/aspose.slides.charts/chartdataworksheetcollection/
 ---
 ## ChartDataWorksheetCollection classe
@@ -18,10 +18,10 @@ public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartdataworksheetcollection/count) { get; } | Restituisce il conteggio. Solo lettura Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla collezione è sincronizzato (thread-safe). Solo lettura Boolean. |
+| [Count](../../aspose.slides.charts/chartdataworksheetcollection/count) { get; } | Restituisce il conteggio. Sola lettura Int32. |
+| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla collezione è sincronizzato (thread-safe). Sola lettura Boolean. |
 | [Item](../../aspose.slides.charts/chartdataworksheetcollection/item) { get; } | Restituisce il foglio di lavoro per indice. |
-| [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Solo lettura Object. |
+| [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Sola lettura Object. |
 
 ## Metodi
 

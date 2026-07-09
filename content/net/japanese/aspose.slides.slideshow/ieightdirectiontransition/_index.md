@@ -3,12 +3,12 @@ title: IEightDirectionTransition
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 八方向スライド遷移効果。
 type: docs
-weight: 10050
+weight: 10070
 url: /ja/aspose.slides.slideshow/ieightdirectiontransition/
 ---
 ## IEightDirectionTransition インターフェイス
 
-Eight direction slide transition effect.
+八方向スライド遷移効果。
 
 ```csharp
 public interface IEightDirectionTransition : ITransitionValueBase
@@ -18,7 +18,7 @@ public interface IEightDirectionTransition : ITransitionValueBase
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ieightdirectiontransition/asitransitionvaluebase) { get; } | 基底 ITransitionValueBase インターフェイスを取得できます。 読み取り専用 [`ITransitionValueBase`](../itransitionvaluebase)。 |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ieightdirectiontransition/asitransitionvaluebase) { get; } | ベース ITransitionValueBase インターフェイスを取得できます。 読み取り専用 [`ITransitionValueBase`](../itransitionvaluebase)。 |
 | [Direction](../../aspose.slides.slideshow/ieightdirectiontransition/direction) { get; set; } | 遷移の方向。 読み取り/書き込み [`TransitionEightDirectionType`](../transitioneightdirectiontype)。 |
 
 ### 参照

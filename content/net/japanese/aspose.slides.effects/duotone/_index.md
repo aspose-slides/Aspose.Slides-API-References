@@ -3,7 +3,7 @@ title: Duotone
 second_title: Aspose.Sildes for .NET API リファレンス
 description: Duotone エフェクトを表します。各ピクセルについて、Color1 と Color2 を線形補間で組み合わせ、そのピクセルの新しい色を決定します。
 type: docs
-weight: 2940
+weight: 2960
 url: /ja/aspose.slides.effects/duotone/
 ---
 ## Duotone クラス
@@ -16,21 +16,21 @@ public sealed class Duotone : ImageTransformOperation, IDuotone
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベース IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
 | [Color1](../../aspose.slides.effects/duotone/color1) { get; } | 暗いピクセルの対象カラー形式を返します。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
 | [Color2](../../aspose.slides.effects/duotone/color2) { get; } | 明るいピクセルの対象カラー形式を返します。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/duotone/equals)(object) | 指定された [`Duotone`](../duotone) が現在の [`Duotone`](../duotone) と等しいかどうかを判定します。 |
+| override [Equals](../../aspose.slides.effects/duotone/equals)(object) | 指定された [`Duotone`](../duotone) が現在の [`Duotone`](../duotone) と等しいかどうかを判断します。 |
 | [GetEffective](../../aspose.slides.effects/duotone/geteffective)() | 継承が適用された有効な Duotone エフェクトデータを取得します。 |
-| override [GetHashCode](../../aspose.slides.effects/duotone/gethashcode)() | 特定の型に対するハッシュ関数として機能します。 |
+| override [GetHashCode](../../aspose.slides.effects/duotone/gethashcode)() | 特定のタイプに対するハッシュ関数として機能します。 |
 
-### 参照項目
+### 参照
 
 * クラス [ImageTransformOperation](../imagetransformoperation)
 * インターフェイス [IDuotone](../iduotone)

@@ -1,14 +1,14 @@
 ---
 title: IMasterSlideHeaderFooterManager
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta il manager che gestisce il comportamento dei segnaposti del piè di pagina, data-ora, numero di pagina della diapositiva master e di tutti i segnaposti figlio. I segnaposti figlio indicano i segnaposti contenuti nelle diapositive di layout dipendenti e nelle diapositive dipendenti. Le diapositive di layout dipendenti e le diapositive utilizzano e dipendono dalla diapositiva master.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta il gestore che contiene il comportamento dei segnaposti del pié di pagina, data-ora e numero di pagina della diapositiva master e di tutti i segnaposti figlio. I segnaposti figlio indicano i segnaposti contenuti nelle diapositive di layout dipendenti e nelle diapositive dipendenti. Le diapositive di layout dipendenti e le diapositive dipendenti usano e dipendono dalla diapositiva master.
 type: docs
-weight: 6420
+weight: 6440
 url: /it/aspose.slides/imasterslideheaderfootermanager/
 ---
-## IMasterSlideHeaderFooterManager interfaccia
+## Interfaccia IMasterSlideHeaderFooterManager
 
-Rappresenta il manager che gestisce il comportamento del segnaposto del piè di pagina della diapositiva master, del segnaposto data-ora, del segnaposto numero di pagina e di tutti i segnaposti figlio. I segnaposti figlio indicano i segnaposti contenuti nelle diapositive di layout dipendenti e nelle diapositive dipendenti. Le diapositive di layout dipendenti e le diapositive utilizzano e dipendono dalla diapositiva master.
+Rappresenta il gestore che contiene il comportamento del segnaposto piè di pagina della diapositiva master, data-ora, numero di pagina e tutti i segnaposti figlio. I segnaposti figlio indicano i segnaposti contenuti nelle diapositive di layout dipendenti e nelle diapositive dipendenti. Le diapositive di layout dipendenti e le diapositive dipendenti usano e dipendono dalla diapositiva master.
 
 ```csharp
 public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -24,11 +24,11 @@ public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | Nome | Descrizione |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Imposta il testo nel segnaposto data-ora della diapositiva master e in tutti i segnaposti figlio data-ora. I segnaposti figlio indicano i segnaposti contenuti nelle diapositive di layout dipendenti e nelle diapositive dipendenti. Le diapositive di layout dipendenti e le diapositive utilizzano e dipendono dalla diapositiva master. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Cambia la visibilità del segnaposto data-ora della diapositiva master e di tutti i segnaposti figlio data-ora. I segnaposti figlio indicano i segnaposti contenuti nelle diapositive di layout dipendenti e nelle diapositive dipendenti. Le diapositive di layout dipendenti e le diapositive utilizzano e dipendono dalla diapositiva master. |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | Imposta il testo nel segnaposto del piè di pagina della diapositiva master e in tutti i segnaposti figlio del piè di pagina. I segnaposti figlio indicano i segnaposti contenuti nelle diapositive di layout dipendenti e nelle diapositive dipendenti. Le diapositive di layout dipendenti e le diapositive utilizzano e dipendono dalla diapositiva master. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Cambia la visibilità del segnaposto del piè di pagina della diapositiva master e di tutti i segnaposti figlio del piè di pagina. I segnaposti figlio indicano i segnaposti contenuti nelle diapositive di layout dipendenti e nelle diapositive dipendenti. Le diapositive di layout dipendenti e le diapositive utilizzano e dipendono dalla diapositiva master. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Cambia la visibilità del segnaposto numero di pagina della diapositiva master e di tutti i segnaposti figlio numero di pagina. I segnaposti figlio indicano i segnaposti contenuti nelle diapositive di layout dipendenti e nelle diapositive dipendenti. Le diapositive di layout dipendenti e le diapositive utilizzano e dipendono dalla diapositiva master. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Imposta il testo nel segnaposto data-ora della diapositiva master e in tutti i segnaposti figlio data-ora. I segnaposti figlio indicano i segnaposti contenuti nelle diapositive di layout dipendenti e nelle diapositive dipendenti. Le diapositive di layout dipendenti e le diapositive dipendenti usano e dipendono dalla diapositiva master. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Modifica la visibilità del segnaposto data-ora della diapositiva master e di tutti i segnaposti figlio data-ora. I segnaposti figlio indicano i segnaposti contenuti nelle diapositive di layout dipendenti e nelle diapositive dipendenti. Le diapositive di layout dipendenti e le diapositive dipendenti usano e dipendono dalla diapositiva master. |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | Imposta il testo nel segnaposto piè di pagina della diapositiva master e in tutti i segnaposti figlio piè di pagina. I segnaposti figlio indicano i segnaposti contenuti nelle diapositive di layout dipendenti e nelle diapositive dipendenti. Le diapositive di layout dipendenti e le diapositive dipendenti usano e dipendono dalla diapositiva master. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Modifica la visibilità del segnaposto piè di pagina della diapositiva master e di tutti i segnaposti figlio piè di pagina. I segnaposti figlio indicano i segnaposti contenuti nelle diapositive di layout dipendenti e nelle diapositive dipendenti. Le diapositive di layout dipendenti e le diapositive dipendenti usano e dipendono dalla diapositiva master. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Modifica la visibilità del segnaposto numero di pagina della diapositiva master e di tutti i segnaposti figlio numero di pagina. I segnaposti figlio indicano i segnaposti contenuti nelle diapositive di layout dipendenti e nelle diapositive dipendenti. Le diapositive di layout dipendenti e le diapositive dipendenti usano e dipendono dalla diapositiva master. |
 
 ### Vedi anche
 

@@ -1,14 +1,14 @@
 ---
 title: InkEffectType
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Menentukan sekumpulan efek visual yang telah ditentukan sebelumnya untuk rendering tinta. Setiap efek berhubungan dengan tekstur atau gambar yang meniru penampilan tinta bergaya. Nilai-nilai ini dapat digunakan untuk menyesuaikan gaya visual goresan tinta digital selama proses rendering.
+description: Menentukan satu set efek visual yang telah ditentukan sebelumnya untuk rendering tinta. Setiap efek berhubungan dengan tekstur atau gambar yang mensimulasikan tampilan tinta bergaya. Nilai-nilai ini dapat digunakan untuk menyesuaikan gaya visual goresan tinta digital selama proses rendering.
 type: docs
-weight: 7560
+weight: 7580
 url: /id/aspose.slides.ink/inkeffecttype/
 ---
 ## InkEffectType enumerasi
 
-Menentukan sekumpulan efek visual yang telah ditentukan sebelumnya untuk rendering tinta. Setiap efek berhubungan dengan tekstur atau gambar yang meniru penampilan tinta bergaya. Nilai-nilai ini dapat digunakan untuk menyesuaikan gaya visual goresan tinta digital selama proses rendering.
+Menentukan satu set efek visual yang telah ditentukan sebelumnya untuk render tinta. Setiap efek cocok dengan tekstur atau gambar yang mensimulasikan tampilan tinta bergaya. Nilai-nilai ini dapat digunakan untuk menyesuaikan gaya visual goresan tinta digital selama proses render.
 
 ```csharp
 public enum InkEffectType
@@ -19,14 +19,14 @@ public enum InkEffectType
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
 | NotDefined | `-1` | Efek tidak didefinisikan atau tidak diketahui. Nilai ini dapat digunakan sebagai default atau cadangan. |
-| Bronze | `0` | Tekstur logam berwarna hangat coklat yang menyerupai tinta perunggu. |
-| Galaxy | `1` | Tekstur berwarna-warni berkilau yang menyerupai galaksi, dengan nada kosmik. |
+| Bronze | `0` | Tekstur logam hangat berwarna coklat yang menyerupai tinta perunggu. |
+| Galaxy | `1` | Tekstur berwarna-warni berkilau yang menyerupai galaksi, dengan nuansa kosmik. |
 | Gold | `2` | Tekstur emas logam yang cerah yang memberikan tampilan mewah pada goresan tinta. |
 | Lava | `3` | Tekstur berapi yang menyerupai lava cair, dengan nuansa merah dan oranye. |
-| Ocean | `4` | Tekstur berwarna biru dalam yang menyerupai cairan, meniru gelombang laut atau tinta berbasis air. |
-| RainbowGlitter | `5` | Efek glitter pelangi berwarna-warni yang berkilau, digunakan untuk goresan tinta yang meriah atau hidup. |
+| Ocean | `4` | Tekstur biru dalam seperti cairan yang meniru ombak laut atau tinta berbasis air. |
+| RainbowGlitter | `5` | Efek glitter pelangi berwarna-warni berkilau yang digunakan untuk goresan tinta yang meriah atau hidup. |
 | RoseGold | `6` | Campuran pink-emas lembut, mirip rose gold, untuk goresan tinta yang elegan. |
-| Silver | `7` | Tekstur perak logam yang sejuk yang meniru tinta perak klasik. |
+| Silver | `7` | Tekstur perak logam yang sejuk yang mensimulasikan tinta perak klasik. |
 
 ### Lihat Juga
 

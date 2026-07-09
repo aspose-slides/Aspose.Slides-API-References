@@ -3,7 +3,7 @@ title: MathLimitFactory
 second_title: Aspose.Sildes para .NET Referência da API
 description: Permite criar IMathLimit
 type: docs
-weight: 8810
+weight: 8830
 url: /pt/aspose.slides.mathtext/mathlimitfactory/
 ---
 ## MathLimitFactory classe
@@ -16,13 +16,13 @@ public class MathLimitFactory : IMathLimitFactory
 
 ## Construtores
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [MathLimitFactory](mathlimitfactory)() | O construtor padrão. |
 
 ## Métodos
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [CreateMathLimit](../../aspose.slides.mathtext/mathlimitfactory/createmathlimit#createmathlimit)(IMathElement, IMathElement) | Cria IMathLimit com limite na parte inferior |
 | [CreateMathLimit](../../aspose.slides.mathtext/mathlimitfactory/createmathlimit#createmathlimit_1)(IMathElement, IMathElement, bool) | Cria IMathLimit |
@@ -31,7 +31,7 @@ public class MathLimitFactory : IMathLimitFactory
 
 Para compatibilidade COM
 
-### Veja Também
+### Ver Também
 
 * interface [IMathLimitFactory](../imathlimitfactory)
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

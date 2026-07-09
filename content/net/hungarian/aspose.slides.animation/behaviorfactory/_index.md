@@ -1,9 +1,9 @@
 ---
 title: BehaviorFactory
-second_title: Aspose.Sildes .NET API-referencia
+second_title: Aspose.Sildes .NET API Referencia
 description: Lehetővé teszi animációs hatások létrehozását
 type: docs
-weight: 160
+weight: 180
 url: /hu/aspose.slides.animation/behaviorfactory/
 ---
 ## BehaviorFactory osztály
@@ -29,13 +29,13 @@ public class BehaviorFactory : IBehaviorFactory
 | [CreateFilterEffect](../../aspose.slides.animation/behaviorfactory/createfiltereffect)() | Szűrőhatást hoz létre. |
 | [CreateMotionEffect](../../aspose.slides.animation/behaviorfactory/createmotioneffect)() | Mozgáshatást hoz létre. |
 | [CreatePropertyEffect](../../aspose.slides.animation/behaviorfactory/createpropertyeffect)() | Tulajdonsághatást hoz létre. |
-| [CreateRotationEffect](../../aspose.slides.animation/behaviorfactory/createrotationeffect)() | Forgatási hatást hoz létre. |
-| [CreateScaleEffect](../../aspose.slides.animation/behaviorfactory/createscaleeffect)() | Méretezési hatást hoz létre. |
-| [CreateSetEffect](../../aspose.slides.animation/behaviorfactory/createseteffect)() | Beállítási hatást hoz létre. |
+| [CreateRotationEffect](../../aspose.slides.animation/behaviorfactory/createrotationeffect)() | Forgatás hatást hoz létre. |
+| [CreateScaleEffect](../../aspose.slides.animation/behaviorfactory/createscaleeffect)() | Méretezés hatást hoz létre. |
+| [CreateSetEffect](../../aspose.slides.animation/behaviorfactory/createseteffect)() | Halmaz hatást hoz létre. |
 
 ### Megjegyzés
 
-COM-kompatibilitás céljából.
+COM kompatibilitás miatt.
 
 ### Lásd még
 

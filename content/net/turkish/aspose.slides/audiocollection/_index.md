@@ -3,7 +3,7 @@ title: AudioCollection
 second_title: Aspose.Sildes için .NET API Referansı
 description: Gömülü ses dosyalarının bir koleksiyonunu temsil eder.
 type: docs
-weight: 840
+weight: 860
 url: /tr/aspose.slides/audiocollection/
 ---
 ## AudioCollection sınıfı
@@ -16,25 +16,25 @@ public class AudioCollection : DomObject<Presentation>, IAudioCollection
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides/audiocollection/count) { get; } | Koleksiyondaki ses dosyalarının sayısını döndürür. Yalnızca okuma Int32. |
-| [IsSynchronized](../../aspose.slides/audiocollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını gösteren bir değer döndürür. Yalnızca okuma Boolean. |
-| [Item](../../aspose.slides/audiocollection/item) { get; } | Belirtilen indeksteki öğeyi alır. Yalnızca okuma [`IAudio`](../iaudio). |
-| [SyncRoot](../../aspose.slides/audiocollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Yalnızca okuma Object. |
+| [Count](../../aspose.slides/audiocollection/count) { get; } | Koleksiyondaki ses dosyalarının sayısını döndürür. Salt okunur Int32. |
+| [IsSynchronized](../../aspose.slides/audiocollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını belirten bir değeri döndürür. Salt okunur Boolean. |
+| [Item](../../aspose.slides/audiocollection/item) { get; } | Belirtilen indeksteki öğeyi alır. Salt okunur [`IAudio`](../iaudio). |
+| [SyncRoot](../../aspose.slides/audiocollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt okunur Object. |
 
 ## Yöntemler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_1)(byte[]) | Bayt dizisinden bir ses oluşturur ve bir sunuma ekler. |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_1)(byte[]) | Bir bayt dizisinden bir ses oluşturur ve sunuma ekler. |
 | [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio)(IAudio) | Başka bir sunumdan bir ses dosyasının kopyasını ekler. |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_2)(Stream) | Akıştan bir ses oluşturur ve bir sunuma ekler. |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Akıştan bir ses oluşturur ve bir sunuma ekler. |
-| [CopyTo](../../aspose.slides/audiocollection/copyto)(Array, int) | Sesleri belirtilen dizine, belirtilen dizinden başlayarak kopyalar. |
-| [GetEnumerator](../../aspose.slides/audiocollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumeratör döndürür. |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_2)(Stream) | Bir akıştan bir ses oluşturur ve sunuma ekler. |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Bir akıştan bir ses oluşturur ve sunuma ekler. |
+| [CopyTo](../../aspose.slides/audiocollection/copyto)(Array, int) | Sesleri belirtilen dizine, belirtilen indexten başlayarak kopyalar. |
+| [GetEnumerator](../../aspose.slides/audiocollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
 * sınıf [DomObject&lt;TParent&gt;](../domobject-1)
 * sınıf [Presentation](../presentation)

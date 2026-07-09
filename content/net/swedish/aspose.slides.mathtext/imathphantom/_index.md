@@ -1,14 +1,14 @@
 ---
 title: IMathPhantom
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar ett phantom-matematiskt objekt ltmphantgt som påverkar layouten för dess barn utan att nödvändigtvis visas. Ett phantom kan dölja sitt grunduttryck samtidigt som det bevarar dess bredd, höjd eller djup för att justera formler eller reservera utrymme. Synlighet och geometribeteende styrs av egenskaper såsom Show ZeroWid ZeroAsc ZeroDesc och Transp.
+description: Representerar ett fantommatematisk objekt ltmphantgt som påverkar layouten för dess underordnade element utan att nödvändigtvis visa det. Ett fantom kan dölja sitt basuttryck samtidigt som det bevarar sin bredd, höjd eller djup för att justera formler eller reservera utrymme. Synlighet och geometribeteende styrs av egenskaper såsom Show ZeroWid ZeroAsc ZeroDesc och Transp.
 type: docs
-weight: 8390
+weight: 8410
 url: /sv/aspose.slides.mathtext/imathphantom/
 ---
 ## IMathPhantom gränssnitt
 
-Representerar ett phantom-matematisk objekt (&lt;m:phant&gt;) som påverkar layouten för sitt barn utan att nödvändigtvis visas. En phantom kan dölja sitt basuttryck samtidigt som den bevarar sin bredd, höjd eller djup för att justera formler eller reservera utrymme. Synlighet och geometribeteende styrs av egenskaper som Show, ZeroWid, ZeroAsc, ZeroDesc och Transp.
+Representerar ett fantommatematiskt objekt (&lt;m:phant&gt;) som påverkar layouten för dess underordnade element utan att nödvändigtvis visa det. Ett fantom kan dölja sitt grunduttryck samtidigt som det bevarar sin bredd, höjd eller djup för att justera formler eller reservera utrymme. Synlighet och geometri styrs av egenskaper såsom Show, ZeroWid, ZeroAsc, ZeroDesc och Transp.
 
 ```csharp
 public interface IMathPhantom : IMathElement
@@ -18,11 +18,11 @@ public interface IMathPhantom : IMathElement
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Base](../../aspose.slides.mathtext/imathphantom/base) { get; } | Basargument |
+| [Base](../../aspose.slides.mathtext/imathphantom/base) { get; } | Grundargument |
 | [Show](../../aspose.slides.mathtext/imathphantom/show) { get; set; } | Hämtar eller anger ett värde som indikerar om baselementet visas. |
-| [Transp](../../aspose.slides.mathtext/imathphantom/transp) { get; set; } | Hämtar eller anger ett värde som indikerar om fantomen är transparent för klassbaserade avståndsregler. |
-| [ZeroAsc](../../aspose.slides.mathtext/imathphantom/zeroasc) { get; set; } | Hämtar eller anger ett värde som indikerar om ascent (höjd ovanför baslinjen) för baselementet ska behandlas som noll. |
-| [ZeroDesc](../../aspose.slides.mathtext/imathphantom/zerodesc) { get; set; } | Hämtar eller anger ett värde som indikerar om descent (djup under baslinjen) för baselementet ska behandlas som noll. |
+| [Transp](../../aspose.slides.mathtext/imathphantom/transp) { get; set; } | Hämtar eller anger ett värde som indikerar om fantomet är transparent för klassbaserade mellanrumregler. |
+| [ZeroAsc](../../aspose.slides.mathtext/imathphantom/zeroasc) { get; set; } | Hämtar eller anger ett värde som indikerar om höjden (höjd ovanför baslinjen) för baselementet ska behandlas som noll. |
+| [ZeroDesc](../../aspose.slides.mathtext/imathphantom/zerodesc) { get; set; } | Hämtar eller anger ett värde som indikerar om sjunkning (djup under baslinjen) för baselementet ska behandlas som noll. |
 | [ZeroWidth](../../aspose.slides.mathtext/imathphantom/zerowidth) { get; set; } | Hämtar eller anger ett värde som indikerar om bredden på baselementet ska behandlas som noll. |
 
 ### Exempel

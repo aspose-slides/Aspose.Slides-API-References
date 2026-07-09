@@ -3,10 +3,10 @@ title: TransitionSoundMode
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar ljudläget för övergången.
 type: docs
-weight: 10410
+weight: 10430
 url: /sv/aspose.slides.slideshow/transitionsoundmode/
 ---
-## TransitionSoundMode enum
+## TransitionSoundMode enumeration
 
 Representerar ljudläget för övergången.
 

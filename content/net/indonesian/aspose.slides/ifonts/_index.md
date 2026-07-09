@@ -3,7 +3,7 @@ title: IFonts
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili koleksi font.
 type: docs
-weight: 5880
+weight: 5900
 url: /id/aspose.slides/ifonts/
 ---
 ## IFonts antarmuka
@@ -29,7 +29,7 @@ public interface IFonts
 | [GetScriptFont](../../aspose.slides/ifonts/getscriptfont)(string) | Mendapatkan nama font yang terkait dengan tag skrip tertentu dari tema presentasi. |
 | [GetScriptFontMap](../../aspose.slides/ifonts/getscriptfontmap)() | Mengembalikan kamus semua definisi font skrip dalam presentasi. |
 | [RemoveScriptFont](../../aspose.slides/ifonts/removescriptfont)(string) | Menghapus pengaturan font yang terkait dengan tag skrip tertentu dari koleksi font tema. |
-| [SetScriptFont](../../aspose.slides/ifonts/setscriptfont)(string, string) | Menetapkan nama font ke tag skrip tertentu, yang menentukan bagaimana teks skrip tersebut akan dirender dalam presentasi. |
+| [SetScriptFont](../../aspose.slides/ifonts/setscriptfont)(string, string) | Menetapkan nama font ke tag skrip tertentu, yang menentukan bagaimana teks skrip tersebut akan ditampilkan dalam presentasi. |
 
 ### Lihat Juga
 

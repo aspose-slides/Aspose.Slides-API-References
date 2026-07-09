@@ -1,14 +1,14 @@
 ---
 title: LineJoinStyle
-second_title: Aspose.Slides för .NET API-referens
-description: Representerar linjeanslutningsstil.
+second_title: Aspose.Sildes för .NET API-referens
+description: Representerar stil för linjesammanslagning.
 type: docs
-weight: 7780
+weight: 7800
 url: /sv/aspose.slides/linejoinstyle/
 ---
-## LineJoinStyle enumeration
+## LineJoinStyle-enumeration
 
-Representerar stil för linjeanslutning.
+Representerar stil för linjesammanslagning.
 
 ```csharp
 public enum LineJoinStyle : sbyte

@@ -1,14 +1,14 @@
 ---
 title: MathSubscriptElementFactory
 second_title: Aspose.Sildes için .NET API Referansı
-description: IMathSubscriptElement oluşturmayı sağlar
+description: IMathSubscriptElement oluşturulmasını sağlar
 type: docs
-weight: 8990
+weight: 9010
 url: /tr/aspose.slides.mathtext/mathsubscriptelementfactory/
 ---
 ## MathSubscriptElementFactory sınıfı
 
-IMathSubscriptElement oluşturmayı sağlar
+IMathSubscriptElement oluşturulmasını sağlar
 
 ```csharp
 public class MathSubscriptElementFactory : IMathSubscriptElementFactory

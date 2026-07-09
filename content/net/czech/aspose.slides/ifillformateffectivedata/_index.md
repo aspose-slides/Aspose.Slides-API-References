@@ -1,9 +1,9 @@
 ---
 title: IFillFormatEffectiveData
-second_title: Aspose.Slides pro .NET – referenční dokumentace API
+second_title: Aspose.Sildes pro .NET API Reference
 description: Neměnný objekt, který obsahuje efektivní vlastnosti formátování výplně.
 type: docs
-weight: 5780
+weight: 5800
 url: /cs/aspose.slides/ifillformateffectivedata/
 ---
 ## IFillFormatEffectiveData rozhraní
@@ -18,18 +18,18 @@ public interface IFillFormatEffectiveData : IFillParamSource
 
 | Název | Popis |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ifillformateffectivedata/asifillparamsource) { get; } | Vrací rozhraní IFillParamSource. Pouze ke čtení [`IFillParamSource`](../ifillparamsource). |
-| [FillType](../../aspose.slides/ifillformateffectivedata/filltype) { get; } | Vrací typ výplně. Pouze ke čtení [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/ifillformateffectivedata/gradientformat) { get; } | Vrací formát přechodové výplně. Pouze ke čtení [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
-| [PatternFormat](../../aspose.slides/ifillformateffectivedata/patternformat) { get; } | Vrací formát vzorové výplně. Pouze ke čtení [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
-| [PictureFillFormat](../../aspose.slides/ifillformateffectivedata/picturefillformat) { get; } | Vrací formát obrázkové výplně. Pouze ke čtení [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata). |
-| [RotateWithShape](../../aspose.slides/ifillformateffectivedata/rotatewithshape) { get; } | Určuje, zda má být výplň otáčena s tvarem. Pouze ke čtení Boolean. |
-| [SolidFillColor](../../aspose.slides/ifillformateffectivedata/solidfillcolor) { get; } | Vrací barvu výplně. Pouze ke čtení Color. |
-| [SolidFillSchemeColor](../../aspose.slides/ifillformateffectivedata/solidfillschemecolor) { get; } | Získává barvu výplně definovanou barevným schématem. Hodnota NotDefined naznačuje, že [`SolidFillColor`](./solidfillcolor) není barvou schématu. Pouze ke čtení [`SchemeColor`](../schemecolor). |
+| [AsIFillParamSource](../../aspose.slides/ifillformateffectivedata/asifillparamsource) { get; } | Vrací rozhraní IFillParamSource. Pouze pro čtení [`IFillParamSource`](../ifillparamsource). |
+| [FillType](../../aspose.slides/ifillformateffectivedata/filltype) { get; } | Vrací typ výplně. Pouze pro čtení [`FillType`](../filltype). |
+| [GradientFormat](../../aspose.slides/ifillformateffectivedata/gradientformat) { get; } | Vrací formát gradientové výplně. Pouze pro čtení [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
+| [PatternFormat](../../aspose.slides/ifillformateffectivedata/patternformat) { get; } | Vrací formát vzorové výplně. Pouze pro čtení [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
+| [PictureFillFormat](../../aspose.slides/ifillformateffectivedata/picturefillformat) { get; } | Vrací formát výplně obrazu. Pouze pro čtení [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata). |
+| [RotateWithShape](../../aspose.slides/ifillformateffectivedata/rotatewithshape) { get; } | Určuje, zda má být výplň otočena spolu s tvarem. Pouze pro čtení Boolean. |
+| [SolidFillColor](../../aspose.slides/ifillformateffectivedata/solidfillcolor) { get; } | Vrací barvu výplně. Pouze pro čtení Color. |
+| [SolidFillSchemeColor](../../aspose.slides/ifillformateffectivedata/solidfillschemecolor) { get; } | Získává barvu výplně definovanou barevným schématem. Hodnota NotDefined indikuje, že [`SolidFillColor`](./solidfillcolor) není barva schématu. Pouze pro čtení [`SchemeColor`](../schemecolor). |
 
 ### Poznámky
 
-Toto rozhraní se používá spolu s [`IFillFormat`](../ifillformat) rozhraním k vrácení efektivních hodnot formátování s aplikovaným děděním.
+Toto rozhraní se používá spolu s rozhraním [`IFillFormat`](../ifillformat) k vrácení efektivních hodnot formátování s aplikovaným děděním.
 
 ### Viz také
 

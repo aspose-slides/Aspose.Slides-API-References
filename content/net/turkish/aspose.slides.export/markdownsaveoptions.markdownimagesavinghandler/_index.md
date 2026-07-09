@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions.MarkdownImageSavingHandler
 second_title: Aspose.Sildes için .NET API Referansı
-description: Markdown dışa aktarımı sırasında SVG olmayan her bir görüntü (bitmap veya metafile) için çağrılır. Belirtilen bağlantıyı kullanmak için true, varsayılan kaydetme mantığını uygulamak için false döndürün.
+description: Markdown dışa aktarımı sırasında SVG olmayan her görüntü bitmap veya metafile için çağrılır. Belirtilen bağlantıyı kullanmak için true, varsayılan kaydetme mantığını uygulamak için false döndürülür.
 type: docs
-weight: 4240
+weight: 4260
 url: /tr/aspose.slides.export/markdownsaveoptions.markdownimagesavinghandler/
 ---
-## MarkdownSaveOptions.MarkdownImageSavingHandler temsilcisi
+## MarkdownSaveOptions.MarkdownImageSavingHandler delege
 
-Markdown dışa aktarma sırasında her bir SVG olmayan görüntü (bitmap veya metafile) için çağrılır. Belirtilen *link*'i kullanmak için `true` döndürün, ya da varsayılan kaydetme mantığını uygulamak için `false` döndürün.
+Markdown dışa aktarımı sırasında her SVG olmayan görüntü (bitmap veya metafile) için çağrılır. `true` döndürülürse belirtilen *bağlantı* kullanılır, `false` döndürülürse varsayılan kaydetme mantığı uygulanır.
 
 ```csharp
 public delegate bool MarkdownImageSavingHandler(IImage image, ImageFormat format, ref string link);
@@ -17,10 +17,10 @@ public delegate bool MarkdownImageSavingHandler(IImage image, ImageFormat format
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | image | IImage | Dışa aktarılan görüntü (bitmap veya metafile). |
-| format | ImageFormat | Görüntü formatı. |
-| link | String& | `true` döndürüldüğünde kullanılacak Markdown linki. |
+| format | ImageFormat | Görüntü biçimi. |
+| link | String& | `true` döndürülürken kullanılacak Markdown bağlantısı. |
 
-### See Also
+### Ayrıca Bakınız
 
 * arayüz [IImage](../../aspose.slides/iimage)
 * enum [ImageFormat](../../aspose.slides/imageformat)

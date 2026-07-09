@@ -3,7 +3,7 @@ title: IAudioCollection
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en samling av inbäddade ljudfiler.
 type: docs
-weight: 5200
+weight: 5220
 url: /sv/aspose.slides/iaudiocollection/
 ---
 ## IAudioCollection gränssnitt
@@ -24,7 +24,7 @@ public interface IAudioCollection : IGenericCollection<IAudio>
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | Skapar och lägger till ett ljud i en presentation från en byte-array. |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | Skapar och lägger till ett ljud i en presentation från en bytearray. |
 | [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio)(IAudio) | Lägger till en kopia av en ljudfil från en annan presentation. |
 | [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Skapar och lägger till ett ljud i en presentation från en ström. |
 

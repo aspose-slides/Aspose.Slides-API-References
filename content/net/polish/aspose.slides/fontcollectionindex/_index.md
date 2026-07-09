@@ -1,9 +1,9 @@
 ---
 title: FontCollectionIndex
-second_title: Aspose.Sildes dla .NET - dokumentacja API
+second_title: Aspose.Sildes dla .NET API
 description: Reprezentuje indeks czcionek w kolekcji.
 type: docs
-weight: 4790
+weight: 4810
 url: /pl/aspose.slides/fontcollectionindex/
 ---
 ## FontCollectionIndex wyliczenie

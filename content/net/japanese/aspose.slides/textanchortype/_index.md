@@ -1,9 +1,9 @@
 ---
 title: TextAnchorType
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes for .NET APIリファレンス
 description: テキスト領域内のテキストボックスの配置。
 type: docs
-weight: 10890
+weight: 10910
 url: /ja/aspose.slides/textanchortype/
 ---
 ## TextAnchorType 列挙型
@@ -14,7 +14,7 @@ url: /ja/aspose.slides/textanchortype/
 public enum TextAnchorType : sbyte
 ```
 
-### Values
+### 値
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |

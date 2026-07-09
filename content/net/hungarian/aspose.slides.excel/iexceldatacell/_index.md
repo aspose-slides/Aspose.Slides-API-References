@@ -1,14 +1,14 @@
 ---
 title: IExcelDataCell
-second_title: Aspose.Sildes .NET API Referenciája
-description: Egyetlen cellát képvisel egy Excel munkafüzetben.
+second_title: Aspose.Sildes .NET API referencia
+description: Egy Excel munkafüzet egyetlen celláját reprezentálja.
 type: docs
-weight: 3680
+weight: 3700
 url: /hu/aspose.slides.excel/iexceldatacell/
 ---
 ## IExcelDataCell interfész
 
-Egyetlen cellát képvisel egy Excel munkafüzetben.
+Egy Excel munkafüzet egyetlen celláját képviseli.
 
 ```csharp
 public interface IExcelDataCell
@@ -18,10 +18,10 @@ public interface IExcelDataCell
 
 | Név | Leírás |
 | --- | --- |
-| [Column](../../aspose.slides.excel/iexceldatacell/column) { get; } | A cella helyét meghatározó oszlop nulláral kezdődő indexe a munkalapon. Csak olvasható Int32. |
-| [Name](../../aspose.slides.excel/iexceldatacell/name) { get; } | A diagram adatcellájának neve. Csak olvasható String. |
-| [Row](../../aspose.slides.excel/iexceldatacell/row) { get; } | A cella helyét meghatározó sor nulláral kezdődő indexe a munkalapon. Csak olvasható Int32. |
-| [Value](../../aspose.slides.excel/iexceldatacell/value) { get; } | Az Excel cellában tárolt érték. Csak olvasható Object. |
+| [Column](../../aspose.slides.excel/iexceldatacell/column) { get; } | Visszaadja a cella helyét meghatározó munkalapon az oszlop nulla alapú indexét. Csak olvasható Int32. |
+| [Name](../../aspose.slides.excel/iexceldatacell/name) { get; } | Visszaadja a diagram adatcellájának nevét. Csak olvasható String. |
+| [Row](../../aspose.slides.excel/iexceldatacell/row) { get; } | Visszaadja a cella helyét meghatározó munkalapon a sor nulla alapú indexét. Csak olvasható Int32. |
+| [Value](../../aspose.slides.excel/iexceldatacell/value) { get; } | Visszaadja az Excel cellában tárolt értéket. Csak olvasható Object. |
 
 ### Lásd még
 

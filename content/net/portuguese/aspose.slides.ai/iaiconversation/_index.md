@@ -1,9 +1,9 @@
 ---
 title: IAIConversation
-second_title: Aspose.Sildes para referência da API .NET
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa uma instância de conversa. Ao contrário das chamadas regulares de IA, as conversas mantêm todo o contexto.
 type: docs
-weight: 10
+weight: 20
 url: /pt/aspose.slides.ai/iaiconversation/
 ---
 ## IAIConversation interface

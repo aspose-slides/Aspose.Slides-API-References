@@ -1,14 +1,14 @@
 ---
 title: IGlitterTransition
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Effetto di transizione della diapositiva glitter.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Effetto di transizione della diapositiva Glitter.
 type: docs
-weight: 10080
+weight: 10100
 url: /it/aspose.slides.slideshow/iglittertransition/
 ---
 ## IGlitterTransition interfaccia
 
-Glitter slide transition effect.
+Effetto di transizione della diapositiva Glitter.
 
 ```csharp
 public interface IGlitterTransition : ITransitionValueBase

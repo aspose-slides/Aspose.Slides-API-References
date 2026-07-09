@@ -1,14 +1,14 @@
----  
-title: Format  
-second_title: Aspose.Sildes a .NET API hivatkozás  
-description: A diagram formátum tulajdonságait képviseli.  
-type: docs  
-weight: 1660  
-url: /hu/aspose.slides.charts/format/  
 ---
-## Formátum osztály
+title: Format
+second_title: Aspose.Sildes .NET API hivatkozás
+description: A diagram formátumának tulajdonságait képviseli.
+type: docs
+weight: 1680
+url: /hu/aspose.slides.charts/format/
+---
+## Format osztály
 
-A diagram formátum tulajdonságait képviseli.
+A diagram formátumának tulajdonságait képviseli.
 
 ```csharp
 public sealed class Format : PVIObject, IFormat
@@ -18,18 +18,18 @@ public sealed class Format : PVIObject, IFormat
 
 | Név | Leírás |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a bázis IPresentationComponent interfész elérését. Csak olvasható [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 | [Effect](../../aspose.slides.charts/format/effect) { get; } | Visszaadja a diagramhoz használt effektusokat. Csak olvasható [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Effect3D](../../aspose.slides.charts/format/effect3d) { get; } | Visszaadja a diagram 3D formátumát. Csak olvasható [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
-| [Fill](../../aspose.slides.charts/format/fill) { get; } | Visszaadja a diagram kitöltési stílus tulajdonságait. Csak olvasható [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [Line](../../aspose.slides.charts/format/line) { get; } | Visszaadja a diagram vonalstílus tulajdonságait. Csak olvasható [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect3D](../../aspose.slides.charts/format/effect3d) { get; } | Visszaadja egy diagram 3D formátumát. Csak olvasható [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
+| [Fill](../../aspose.slides.charts/format/fill) { get; } | Visszaadja egy diagram kitöltési stílusának tulajdonságait. Csak olvasható [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Line](../../aspose.slides.charts/format/line) { get; } | Visszaadja egy diagram vonalstílusának tulajdonságait. Csak olvasható [`ILineFormat`](../../aspose.slides/ilineformat). |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Összehasonlítja a megadott objektummal. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Visszaadja a hash kódot. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Visszaadja a hashkódot. |
 
 ### Lásd még
 

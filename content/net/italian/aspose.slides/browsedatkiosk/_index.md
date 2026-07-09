@@ -1,14 +1,14 @@
 ---
 title: BrowsedAtKiosk
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Sfogliato su un chiosco a schermo intero
+second_title: Aspose.Sildes per il riferimento API .NET
+description: Navigato su un chiosco a schermo intero
 type: docs
-weight: 1020
+weight: 1040
 url: /it/aspose.slides/browsedatkiosk/
 ---
 ## BrowsedAtKiosk classe
 
-Sfogliato su un chiosco (schermo intero)
+Navigato su un chiosco (schermo intero)
 
 ```csharp
 public class BrowsedAtKiosk : SlideShowType

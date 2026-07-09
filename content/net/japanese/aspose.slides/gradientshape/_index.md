@@ -1,12 +1,12 @@
 ---
 title: GradientShape
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET 用 API リファレンス
 description: グラデーション塗りつぶしの形状を表します。
 type: docs
-weight: 4990
+weight: 5010
 url: /ja/aspose.slides/gradientshape/
 ---
-## GradientShape 列挙体
+## GradientShape 列挙型
 
 グラデーション塗りつぶしの形状を表します。
 
@@ -16,7 +16,7 @@ public enum GradientShape : sbyte
 
 ### 値
 
-| 名前 | 値 | 説明 |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Linear | `0` |  |

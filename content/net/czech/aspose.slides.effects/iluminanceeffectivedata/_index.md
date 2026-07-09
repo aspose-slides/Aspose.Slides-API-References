@@ -1,14 +1,14 @@
 ---
 title: ILuminanceEffectiveData
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje efekt luminance. Jas lineárně posouvá všechny barvy blíže k bílé nebo černé. Kontrast upravuje všechny barvy tak, aby byly buď blíže, nebo dále od sebe.
+description: Representuje efekt svítivosti. Jas lineárně posouvá všechny barvy blíže k bílé nebo černé. Kontrast mění měřítko všech barev tak, aby byly buď blíže k sobě, nebo dále od sebe.
 type: docs
-weight: 3430
+weight: 3450
 url: /cs/aspose.slides.effects/iluminanceeffectivedata/
 ---
 ## ILuminanceEffectiveData rozhraní
 
-Reprezentuje efekt Luminance. Jas lineárně posouvá všechny barvy blíže k bílé nebo černé. Kontrast upravuje všechny barvy tak, aby byly buď blíže, nebo dále od sebe.
+Representuje efekt svítivosti. Jas lineárně posouvá všechny barvy blíže k bílé nebo černé. Kontrast mění měřítko všech barev tak, aby byly buď blíže k sobě, nebo dále od sebe.
 
 ```csharp
 public interface ILuminanceEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface ILuminanceEffectiveData : IEffectEffectiveData
 
 | Název | Popis |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iluminanceeffectivedata/asieffecteffectivedata) { get; } | Umožňuje získat základní rozhraní IEffectEffectiveData. Pouze ke čtení [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Brightness](../../aspose.slides.effects/iluminanceeffectivedata/brightness) { get; } | Jas. Pouze ke čtení Single. |
-| [Contrast](../../aspose.slides.effects/iluminanceeffectivedata/contrast) { get; } | Kontrast. Pouze ke čtení Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iluminanceeffectivedata/asieffecteffectivedata) { get; } | Umožňuje získat základní rozhraní IEffectEffectiveData. Pouze pro čtení [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Brightness](../../aspose.slides.effects/iluminanceeffectivedata/brightness) { get; } | Jas. Pouze pro čtení Single. |
+| [Contrast](../../aspose.slides.effects/iluminanceeffectivedata/contrast) { get; } | Kontrast. Pouze pro čtení Single. |
 
 ### Viz také
 

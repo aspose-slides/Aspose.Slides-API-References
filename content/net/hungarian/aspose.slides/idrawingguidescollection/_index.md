@@ -1,14 +1,14 @@
 ---
 title: IDrawingGuidesCollection
-second_title: Aspose.Sildes .NET API referencia
-description: Az állítható rajzolási útmutatók gyűjteményét képviseli.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: A szabályozható rajzolási segédvonalak gyűjteményét képviseli.
 type: docs
-weight: 5710
+weight: 5730
 url: /hu/aspose.slides/idrawingguidescollection/
 ---
 ## IDrawingGuidesCollection interfész
 
-Az állítható rajzolási útmutatók gyűjteményét képviseli.
+A szabályozható rajzolási segédvonalak gyűjteményét képviseli.
 
 ```csharp
 public interface IDrawingGuidesCollection : IEnumerable<IDrawingGuide>
@@ -16,18 +16,18 @@ public interface IDrawingGuidesCollection : IEnumerable<IDrawingGuide>
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [Count](../../aspose.slides/idrawingguidescollection/count) { get; } | A gyűjteményben lévő összes elem számát adja vissza. Csak olvasható Int32. |
-| [Item](../../aspose.slides/idrawingguidescollection/item) { get; } | Az index szerinti rajzolási útmutatót adja vissza. Csak olvasható [`IDrawingGuide`](../idrawingguide). |
+| [Count](../../aspose.slides/idrawingguidescollection/count) { get; } | Lekéri a gyűjteményben lévő összes elem számát. Csak olvasható Int32. |
+| [Item](../../aspose.slides/idrawingguidescollection/item) { get; } | Visszaadja a rajzolási segédvonalat index szerint. Csak olvasható [`IDrawingGuide`](../idrawingguide). |
 
 ## Metódusok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [Add](../../aspose.slides/idrawingguidescollection/add)(Orientation, float) | A rajzolási útmutatót a gyűjtemény végére adja hozzá. |
+| [Add](../../aspose.slides/idrawingguidescollection/add)(Orientation, float) | Hozzáadja a rajzolási segédvonalat a gyűjtemény végéhez. |
 | [Clear](../../aspose.slides/idrawingguidescollection/clear)() | Eltávolítja a gyűjtemény összes elemét. |
-| [RemoveAt](../../aspose.slides/idrawingguidescollection/removeat)(int) | Eltávolítja a megadott indexű rajzolási útmutatót. |
+| [RemoveAt](../../aspose.slides/idrawingguidescollection/removeat)(int) | Eltávolítja a megadott indexű rajzolási segédvonalat. |
 
 ### Lásd még
 

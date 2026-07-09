@@ -1,14 +1,14 @@
 ---
 title: FontSubstCondition
-second_title: Aspose.Sildes a .NET API Referenciához
-description: A betűtípus helyettesítés szabályát reprezentálja
+second_title: Aspose.Sildes .NET API hivatkozás
+description: A betűtípus helyettesítés szabályát jelöli
 type: docs
-weight: 4860
+weight: 4880
 url: /hu/aspose.slides/fontsubstcondition/
 ---
-## FontSubstCondition enumeration
+## FontSubstCondition enumeráció
 
-A betűtípus helyettesítés szabályát reprezentálja
+A betűtípus helyettesítésének szabályát jelöli
 
 ```csharp
 public enum FontSubstCondition
@@ -18,7 +18,7 @@ public enum FontSubstCondition
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| WhenInaccessible | `0` | Helyettesítés, ha a betűtípus nem található |
+| WhenInaccessible | `0` | Helyettesít, ha a betűtípus nem található |
 | Always | `1` | Mindig helyettesít |
 
 ### Lásd még

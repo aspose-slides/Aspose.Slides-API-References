@@ -1,9 +1,9 @@
 ---
 title: ISlideSize
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: スライドのサイズと向きを表します。
 type: docs
-weight: 7070
+weight: 7090
 url: /ja/aspose.slides/islidesize/
 ---
 ## ISlideSize インターフェイス
@@ -19,15 +19,15 @@ public interface ISlideSize
 | 名前 | 説明 |
 | --- | --- |
 | [Orientation](../../aspose.slides/islidesize/orientation) { get; set; } | スライドの向きを取得または設定します。 |
-| [Size](../../aspose.slides/islidesize/size) { get; } | スライドのサイズをポイント単位で取得します。 |
+| [Size](../../aspose.slides/islidesize/size) { get; } | ポイント単位でスライドの寸法を取得します。 |
 | [Type](../../aspose.slides/islidesize/type) { get; } | スライドのサイズタイプを取得します。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [SetSize](../../aspose.slides/islidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | タイプでスライドサイズを設定し、既存のコンテンツをスケールします。 |
-| [SetSize](../../aspose.slides/islidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | スライドサイズを明示的に設定し、既存のコンテンツをスケールします。 |
+| [SetSize](../../aspose.slides/islidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | タイプでスライドのサイズを設定し、既存のコンテンツをスケーリングします。 |
+| [SetSize](../../aspose.slides/islidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | スライドのサイズを明示的に設定し、既存のコンテンツをスケーリングします。 |
 
 ### 参照
 

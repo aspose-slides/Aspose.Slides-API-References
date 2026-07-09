@@ -1,14 +1,14 @@
 ---
 title: Convert.GetOutPathCallback
 second_title: Aspose.Sildes için .NET API Referansı
-description: Her Slide../aspose.slides/slide için çağrılacak geri dönüş, döndürülmesi beklenen çıkış yolunu sağlar.
+description: Her Slide../aspose.slides/slide için çağrılacak geri çağırma, döndürülmesi beklenen çıktı yolu.
 type: docs
-weight: 7870
+weight: 7890
 url: /tr/aspose.slides.lowcode/convert.getoutpathcallback/
 ---
-## Convert.GetOutPathCallback delegate
+## Convert.GetOutPathCallback delege
 
-Her [`Slide`](../../aspose.slides/slide) için çağrılacak geri çağırma, döndürülmesi beklenen çıkış yolunu sağlar.
+Her [`Slide`](../../aspose.slides/slide) için çağrılacak geri çağırma, döndürülmesi beklenen çıktı yolu.
 
 ```csharp
 public delegate string GetOutPathCallback(Slide slide, int index);
@@ -16,10 +16,10 @@ public delegate string GetOutPathCallback(Slide slide, int index);
 
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| slide | Slide | Mevcut yineleme yapılan slayt |
+| slide | Slide | Şu anda yineleme yapılan slayt |
 | index | Int32 | Mevcut slaydın indeksi |
 
-### Bakınız
+### Ayrıca Bakınız
 
 * sınıf [Slide](../../aspose.slides/slide)
 * sınıf [Convert](../convert)

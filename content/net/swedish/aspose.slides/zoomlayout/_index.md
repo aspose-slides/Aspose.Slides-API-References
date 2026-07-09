@@ -1,14 +1,14 @@
 ---
 title: ZoomLayout
 second_title: Aspose.Sildes för .NET API-referens
-description: Anger sammanfattningens zoom-layout.
+description: Anger den sammanfattande zoomlayouten.
 type: docs
-weight: 11840
+weight: 11860
 url: /sv/aspose.slides/zoomlayout/
 ---
 ## ZoomLayout enumeration
 
-Anger sammanfattningens zoom-layout.
+Anger sammanfattningszoomlayouten.
 
 ```csharp
 public enum ZoomLayout
@@ -18,8 +18,8 @@ public enum ZoomLayout
 
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
-| GridLayout | `0` | Anger layouten som ett rutnätslayout för en lista med objekt. |
-| FixedLayout | `1` | Anger layouten med användardefinierad Zoom-positionering. |
+| GridLayout | `0` | Anger layouten som ett rutnät för en lista med objekt. |
+| FixedLayout | `1` | Anger layouten med användardefinierad zoompositionering. |
 
 ### Se även
 

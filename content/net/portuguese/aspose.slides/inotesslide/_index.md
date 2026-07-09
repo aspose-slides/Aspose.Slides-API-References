@@ -3,10 +3,10 @@ title: INotesSlide
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa um slide de notas em uma apresentação.
 type: docs
-weight: 6480
+weight: 6500
 url: /pt/aspose.slides/inotesslide/
 ---
-## interface INotesSlide
+## INotesSlide interface
 
 Representa um slide de notas em uma apresentação.
 
@@ -24,7 +24,7 @@ public interface INotesSlide : IBaseSlide, IOverrideThemeable
 | [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | Retorna um TextFrame com o texto das notas, se houver. Somente leitura [`ITextFrame`](../itextframe). |
 | [ParentSlide](../../aspose.slides/inotesslide/parentslide) { get; } | Retorna um ParentSlide. Somente leitura [`ISlide`](../islide). |
 
-### Veja Também
+### Ver também
 
 * interface [IBaseSlide](../ibaseslide)
 * interface [IOverrideThemeable](../../aspose.slides.theme/ioverridethemeable)

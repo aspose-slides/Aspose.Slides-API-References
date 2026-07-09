@@ -3,12 +3,12 @@ title: InvalidPasswordException
 second_title: Aspose.Sildes の .NET API リファレンス
 description: プレゼンテーション ファイル形式がサポートされていない場合にスローされる例外です。
 type: docs
-weight: 7600
+weight: 7620
 url: /ja/aspose.slides/invalidpasswordexception/
 ---
 ## InvalidPasswordException クラス
 
-Exception がスローされるのは、プレゼンテーション ファイル形式がサポートされていない場合です。
+プレゼンテーション ファイル形式がサポートされていない場合にスローされる例外です。
 
 ```csharp
 public class InvalidPasswordException : Exception
@@ -18,9 +18,9 @@ public class InvalidPasswordException : Exception
 
 | 名前 | 説明 |
 | --- | --- |
-| [InvalidPasswordException](invalidpasswordexception#constructor)() | 既定のコンストラクタです。 |
+| [InvalidPasswordException](invalidpasswordexception#constructor)() | デフォルトコンストラクタです。 |
 | [InvalidPasswordException](invalidpasswordexception#constructor_1)(string) | この例外にメッセージを追加できるコンストラクタです。 |
-| [InvalidPasswordException](invalidpasswordexception#constructor_2)(string, Exception) | メッセージと埋め込み Exception を含む Exception のコンストラクタです。 |
+| [InvalidPasswordException](invalidpasswordexception#constructor_2)(string, Exception) | メッセージと内部例外を含む例外のためのコンストラクタです。 |
 
 ### 参照
 

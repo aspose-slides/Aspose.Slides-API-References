@@ -1,9 +1,9 @@
 ---
 title: IOrientationTransition
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET API Referenci
 description: Efekt přechodu orientace snímku.
 type: docs
-weight: 10130
+weight: 10150
 url: /cs/aspose.slides.slideshow/iorientationtransition/
 ---
 ## IOrientationTransition rozhraní

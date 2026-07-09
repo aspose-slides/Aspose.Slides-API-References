@@ -1,14 +1,14 @@
 ---
 title: INotesSlide
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en notessida i en presentation.
+description: Representerar en notes slide i en presentation.
 type: docs
-weight: 6480
+weight: 6500
 url: /sv/aspose.slides/inotesslide/
 ---
 ## INotesSlide gränssnitt
 
-Representerar en notessida i en presentation.
+Representerar en notes-slide i en presentation.
 
 ```csharp
 public interface INotesSlide : IBaseSlide, IOverrideThemeable
@@ -18,11 +18,11 @@ public interface INotesSlide : IBaseSlide, IOverrideThemeable
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/inotesslide/asibaseslide) { get; } | Tillåter att hämta bas IBaseSlide-gränssnittet. Skrivskyddad [`IBaseSlide`](../ibaseslide). |
+| [AsIBaseSlide](../../aspose.slides/inotesslide/asibaseslide) { get; } | Tillåter att hämta bas-IBaseSlide-gränssnittet. Skrivskyddad [`IBaseSlide`](../ibaseslide). |
 | [AsIOverrideThemeable](../../aspose.slides/inotesslide/asioverridethemeable) { get; } | Returnerar IOverrideThemeable-gränssnittet. Skrivskyddad [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [HeaderFooterManager](../../aspose.slides/inotesslide/headerfootermanager) { get; } | Returnerar HeaderFooter-hanteraren för notessidan. Skrivskyddad [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
+| [HeaderFooterManager](../../aspose.slides/inotesslide/headerfootermanager) { get; } | Returnerar HeaderFooter-hanteraren för notes-sliden. Skrivskyddad [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
 | [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | Returnerar en TextFrame med noternas text om det finns någon. Skrivskyddad [`ITextFrame`](../itextframe). |
-| [ParentSlide](../../aspose.slides/inotesslide/parentslide) { get; } | Returnerar en ParentSlide skrivskyddad [`ISlide`](../islide). |
+| [ParentSlide](../../aspose.slides/inotesslide/parentslide) { get; } | Returnerar en ParentSlide. Skrivskyddad [`ISlide`](../islide). |
 
 ### Se även
 

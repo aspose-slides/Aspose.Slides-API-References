@@ -1,20 +1,20 @@
 ---
 title: BehaviorAdditiveType
 second_title: Aspose.Sildes の .NET API リファレンス
-description: エフェクトの動作に対する加算タイプを表します。
+description: エフェクトの振る舞いに対する加算タイプを表します。
 type: docs
-weight: 140
+weight: 160
 url: /ja/aspose.slides.animation/behavioradditivetype/
 ---
 ## BehaviorAdditiveType 列挙型
 
-エフェクトの動作の加算タイプを表します。
+エフェクトの振る舞いに対する加算タイプを表します。
 
 ```csharp
 public enum BehaviorAdditiveType
 ```
 
-### 列挙値
+### Values
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
@@ -25,7 +25,7 @@ public enum BehaviorAdditiveType
 | Replace | `3` |  |
 | Multiply | `4` |  |
 
-### 参照
+### See Also
 
 * 名前空間 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * アセンブリ [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IGradientStopCollection
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje kolekci gradientových stop.
+description: Představuje kolekci gradientových zastávek.
 type: docs
-weight: 6010
+weight: 6030
 url: /cs/aspose.slides/igradientstopcollection/
 ---
 ## IGradientStopCollection rozhraní
 
-Reprezentuje kolekci gradientových stop.
+Representuje kolekci gradientových zastávek.
 
 ```csharp
 public interface IGradientStopCollection : IGenericCollection<IGradientStop>
@@ -18,20 +18,20 @@ public interface IGradientStopCollection : IGenericCollection<IGradientStop>
 
 | Název | Popis |
 | --- | --- |
-| [Item](../../aspose.slides/igradientstopcollection/item) { get; } | Vrací gradientový stop podle indexu. |
+| [Item](../../aspose.slides/igradientstopcollection/item) { get; } | Vrací gradientovou zastávku podle indexu. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [Add](../../aspose.slides/igradientstopcollection/add#add_2)(float, Color) | Vytvoří nový gradientový stop a přidá jej na konec kolekce. |
-| [Add](../../aspose.slides/igradientstopcollection/add#add)(float, PresetColor) | Vytvoří nový gradientový stop a přidá jej na konec kolekce. |
-| [Add](../../aspose.slides/igradientstopcollection/add#add_1)(float, SchemeColor) | Vytvoří nový gradientový stop a přidá jej na konec kolekce. |
-| [Clear](../../aspose.slides/igradientstopcollection/clear)() | Odstraní všechny gradientové stopy z kolekce. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_2)(int, float, Color) | Vytvoří nový gradientový stop a vloží jej na zadaný index do kolekce. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert)(int, float, PresetColor) | Vytvoří nový gradientový stop a vloží jej na zadaný index do kolekce. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Vytvoří nový gradientový stop a vloží jej na zadaný index do kolekce. |
-| [RemoveAt](../../aspose.slides/igradientstopcollection/removeat)(int) | Odstraní gradientový stop na zadaném indexu. |
+| [Add](../../aspose.slides/igradientstopcollection/add#add_2)(float, Color) | Vytvoří novou gradientovou zastávku a přidá ji na konec kolekce. |
+| [Add](../../aspose.slides/igradientstopcollection/add#add)(float, PresetColor) | Vytvoří novou gradientovou zastávku a přidá ji na konec kolekce. |
+| [Add](../../aspose.slides/igradientstopcollection/add#add_1)(float, SchemeColor) | Vytvoří novou gradientovou zastávku a přidá ji na konec kolekce. |
+| [Clear](../../aspose.slides/igradientstopcollection/clear)() | Odstraní všechny gradientové zastávky z kolekce. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_2)(int, float, Color) | Vytvoří novou gradientovou zastávku a vloží ji na zadaný index do kolekce. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert)(int, float, PresetColor) | Vytvoří novou gradientovou zastávku a vloží ji na zadaný index do kolekce. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Vytvoří novou gradientovou zastávku a vloží ji na zadaný index do kolekce. |
+| [RemoveAt](../../aspose.slides/igradientstopcollection/removeat)(int) | Odstraní gradientovou zastávku na zadaném indexu. |
 
 ### Viz také
 

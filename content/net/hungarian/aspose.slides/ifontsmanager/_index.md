@@ -1,14 +1,14 @@
 ---
 title: IFontsManager
-second_title: Aspose.Sildes a .NET API Referencia
-description: Kezeli a betűtípusokat a prezentáció során.
+second_title: Aspose.Sildes .NET API-referencia
+description: Kezeli a betűtípusokat az előadás során.
 type: docs
-weight: 5910
+weight: 5930
 url: /hu/aspose.slides/ifontsmanager/
 ---
 ## IFontsManager interfész
 
-Kezeli a betűtípusokat a prezentáció során.
+Kezeli a betűtípusokat az előadás során.
 
 ```csharp
 public interface IFontsManager
@@ -18,29 +18,29 @@ public interface IFontsManager
 
 | Név | Leírás |
 | --- | --- |
-| [FontFallBackRulesCollection](../../aspose.slides/ifontsmanager/fontfallbackrulescollection) { get; set; } | A felhasználó FontFallBack szabályainak gyűjteményét képviseli a betűtípusok gyűjteményeinek kezelésére a helyettesítési funkcionalitás megfelelő működéséhez. Olvasás/írás [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
-| [FontSubstRuleList](../../aspose.slides/ifontsmanager/fontsubstrulelist) { get; set; } | Betűtípus helyettesítések a rendereléshez. Olvasás/írás [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
+| [FontFallBackRulesCollection](../../aspose.slides/ifontsmanager/fontfallbackrulescollection) { get; set; } | Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality Olvasás/írás [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
+| [FontSubstRuleList](../../aspose.slides/ifontsmanager/fontsubstrulelist) { get; set; } | Font substitutions to use when rendering Olvasás/írás [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | Hozzáadja a beágyazott betűtípust. Vegye figyelembe, hogy a legtöbb betűtípus szerzői jogvédelem alatt áll. Először keresse meg a betűtípus licencét, és ellenőrizze, hogy szabadon átvitelre alkalmas-e egy másik gépre. ArgumentException dobható, ha a betűtípus adatai null értékűek vagy a betűtípus már be van ágyazva |
-| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | Hozzáadja a beágyazott betűtípust. Vegye figyelembe, hogy a legtöbb betűtípus szerzői jogvédelem alatt áll. Először keresse meg a betűtípus licencét, és ellenőrizze, hogy szabadon átvitelre alkalmas-e egy másik gépre. ArgumentException dobható, ha a betűtípus adatai null értékűek vagy a betűtípus már be van ágyazva |
-| [GetEmbeddedFonts](../../aspose.slides/ifontsmanager/getembeddedfonts)() | Visszaadja a prezentációban beágyazott betűtípusokat |
-| [GetFontBytes](../../aspose.slides/ifontsmanager/getfontbytes)(IFontData, FontStyleType) | Lekéri a megadott betűtípus-stílus és betűtípus adat byte tömbjét |
-| [GetFontEmbeddingLevel](../../aspose.slides/ifontsmanager/getfontembeddinglevel)(byte[], string) | Meghatározza a betűtípus beágyazási szintjét a megadott byte tömb és betűtípus név alapján |
-| [GetFonts](../../aspose.slides/ifontsmanager/getfonts)() | Visszaadja a prezentációban használt betűtípusokat |
-| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions)() | Lekéri a prezentáció renderelése során cserélésre kerülő betűtípusok információit |
-| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions_1)(int[]) | Lekéri a megadott diák renderelése során cserélésre kerülő betűtípusok információit |
-| [RemoveEmbeddedFont](../../aspose.slides/ifontsmanager/removeembeddedfont)(IFontData) | Eltávolítja a beágyazott betűtípust |
-| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_1)(IFontSubstRule) | Kicseréli a betűtípust a prezentációban a(z) [`IFontSubstRule`](../ifontsubstrule) által megadott információk alapján |
-| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | Kicseréli a betűtípust a prezentációban a(z) [`IFontSubstRule`](../ifontsubstrule) gyűjteményében szereplő információk alapján |
-| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont)(IFontData, IFontData) | Kicseréli a betűtípust a prezentációban |
+| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | Hozzáadja a beágyazott betűtípust. Vegye figyelembe, hogy a legtöbb betűtípus szerzői jogvédelem alatt áll. Először keresse meg a betűtípus licencét, és ellenőrizze, hogy szabadon áthelyezhető-e egy másik gépre. ArgumentException kivétel dobható, ha a betűtípus adatok null értékűek, vagy a betűtípus már be van ágyazva. |
+| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | Hozzáadja a beágyazott betűtípust. Vegye figyelembe, hogy a legtöbb betűtípus szerzői jogvédelem alatt áll. Először keresse meg a betűtípus licencét, és ellenőrizze, hogy szabadon áthelyezhető-e egy másik gépre. ArgumentException kivétel dobható, ha a betűtípus adatok null értékűek, vagy a betűtípus már be van ágyazva. |
+| [GetEmbeddedFonts](../../aspose.slides/ifontsmanager/getembeddedfonts)() | Visszaadja az előadásban beágyazott betűtípusokat. |
+| [GetFontBytes](../../aspose.slides/ifontsmanager/getfontbytes)(IFontData, FontStyleType) | Visszaadja a megadott betűtípus-stílushoz és betűtípus-adataihoz tartozó betűtípus adatokat reprezentáló bájt tömböt. |
+| [GetFontEmbeddingLevel](../../aspose.slides/ifontsmanager/getfontembeddinglevel)(byte[], string) | Meghatározza egy betűtípus beágyazási szintjét a megadott bájt tömb és betűtípusnév alapján. |
+| [GetFonts](../../aspose.slides/ifontsmanager/getfonts)() | Visszaadja az előadásban használt betűtípusokat. |
+| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions)() | Lekéri a megjelenítés során cserélendő betűtípusok információit. |
+| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions_1)(int[]) | Lekéri a megadott diák renderelése során cserélendő betűtípusok információit. |
+| [RemoveEmbeddedFont](../../aspose.slides/ifontsmanager/removeembeddedfont)(IFontData) | Eltávolítja a beágyazott betűtípust. |
+| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_1)(IFontSubstRule) | Betűtípus cseréje az előadásban a(z) [`IFontSubstRule`](../ifontsubstrule) által megadott információk alapján. |
+| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | Betűtípus cseréje az előadásban a(z) [`IFontSubstRule`](../ifontsubstrule) gyűjtemény által megadott információk alapján. |
+| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont)(IFontData, IFontData) | Betűtípus cseréje az előadásban. |
 
 ### Lásd még
 
-* névtér [Aspose.Slides](../../aspose.slides)
+* névtere [Aspose.Slides](../../aspose.slides)
 * összeállítás [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

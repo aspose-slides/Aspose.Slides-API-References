@@ -3,12 +3,12 @@ title: IReflection
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa um efeito de reflexão.
 type: docs
-weight: 3480
+weight: 3500
 url: /pt/aspose.slides.effects/ireflection/
 ---
-## interface IReflection
+## IReflection interface
 
-Representa um efeito de reflexão.
+Represents a reflection effect.
 
 ```csharp
 public interface IReflection : IAccessiblePVIObject<IReflectionEffectiveData>, 
@@ -21,22 +21,22 @@ public interface IReflection : IAccessiblePVIObject<IReflectionEffectiveData>,
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ireflection/asiaccessiblepviobject) { get; } | Permite obter a interface base IAccessiblePVIObject. Somente leitura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ireflection/asiimagetransformoperation) { get; } | Permite obter a interface base IImageTransformOperation. Somente leitura [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/ireflection/blurradius) { get; set; } | Raio de desfoque. Leitura/Gravação Double. |
-| [Direction](../../aspose.slides.effects/ireflection/direction) { get; set; } | Direção da reflexão. Leitura/Gravação Single. |
-| [Distance](../../aspose.slides.effects/ireflection/distance) { get; set; } | Distância da reflexão. Leitura/Gravação Double. |
-| [EndPosAlpha](../../aspose.slides.effects/ireflection/endposalpha) { get; set; } | Especifica a posição final (ao longo da rampa de gradiente alfa) do valor alfa final (porcentagens). Leitura/Gravação Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/ireflection/endreflectionopacity) { get; set; } | Opacidade final da reflexão. (porcentagens). Leitura/Gravação Single. |
-| [FadeDirection](../../aspose.slides.effects/ireflection/fadedirection) { get; set; } | Especifica a direção para deslocar a reflexão. (ângulo). Leitura/Gravação Single. |
-| [RectangleAlign](../../aspose.slides.effects/ireflection/rectanglealign) { get; set; } | Alinhamento do retângulo. Leitura/Gravação [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ireflection/rotateshadowwithshape) { get; set; } | Especifica se a reflexão deve girar com a forma caso a forma seja girada. Leitura/Gravação Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ireflection/scalehorizontal) { get; set; } | Especifica o fator de escala horizontal, escala negativa provoca inversão. (porcentagens) Leitura/Gravação Double. |
-| [ScaleVertical](../../aspose.slides.effects/ireflection/scalevertical) { get; set; } | Especifica o fator de escala vertical, escala negativa provoca inversão. (porcentagens) Leitura/Gravação Double. |
-| [SkewHorizontal](../../aspose.slides.effects/ireflection/skewhorizontal) { get; set; } | Especifica o ângulo de inclinação horizontal. Leitura/Gravação Double. |
-| [SkewVertical](../../aspose.slides.effects/ireflection/skewvertical) { get; set; } | Especifica o ângulo de inclinação vertical. Leitura/Gravação Double. |
-| [StartPosAlpha](../../aspose.slides.effects/ireflection/startposalpha) { get; set; } | Especifica a posição inicial (ao longo da rampa de gradiente alfa) do valor alfa inicial (porcentagens). Leitura/Gravação Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/ireflection/startreflectionopacity) { get; set; } | Opacidade inicial da reflexão. (porcentagens). Leitura/Gravação Single. |
+| [BlurRadius](../../aspose.slides.effects/ireflection/blurradius) { get; set; } | Raio de desfoque. Leitura/gravação Double. |
+| [Direction](../../aspose.slides.effects/ireflection/direction) { get; set; } | Direção da reflexão. Leitura/gravação Single. |
+| [Distance](../../aspose.slides.effects/ireflection/distance) { get; set; } | Distância da reflexão. Leitura/gravação Double. |
+| [EndPosAlpha](../../aspose.slides.effects/ireflection/endposalpha) { get; set; } | Especifica a posição final (ao longo da rampa de gradiente alfa) do valor alfa final (porcentagens). Leitura/gravação Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/ireflection/endreflectionopacity) { get; set; } | Opacidade final da reflexão. (porcentagens). Leitura/gravação Single. |
+| [FadeDirection](../../aspose.slides.effects/ireflection/fadedirection) { get; set; } | Especifica a direção para deslocar a reflexão. (ângulo). Leitura/gravação Single. |
+| [RectangleAlign](../../aspose.slides.effects/ireflection/rectanglealign) { get; set; } | Alinhamento do retângulo. Leitura/gravação [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflection/rotateshadowwithshape) { get; set; } | Especifica se a reflexão deve girar com a forma caso a forma seja girada. Leitura/gravação Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ireflection/scalehorizontal) { get; set; } | Especifica o fator de escala horizontal, escala negativa causa inversão. (porcentagens) Leitura/gravação Double. |
+| [ScaleVertical](../../aspose.slides.effects/ireflection/scalevertical) { get; set; } | Especifica o fator de escala vertical, escala negativa causa inversão. (porcentagens) Leitura/gravação Double. |
+| [SkewHorizontal](../../aspose.slides.effects/ireflection/skewhorizontal) { get; set; } | Especifica o ângulo de distorção horizontal. Leitura/gravação Double. |
+| [SkewVertical](../../aspose.slides.effects/ireflection/skewvertical) { get; set; } | Especifica o ângulo de distorção vertical. Leitura/gravação Double. |
+| [StartPosAlpha](../../aspose.slides.effects/ireflection/startposalpha) { get; set; } | Especifica a posição inicial (ao longo da rampa de gradiente alfa) do valor alfa inicial (porcentagens). Leitura/gravação Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/ireflection/startreflectionopacity) { get; set; } | Opacidade inicial da reflexão. (porcentagens). Leitura/gravação Single. |
 
-### Veja Também
+### Ver também
 
 * interface [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * interface [IReflectionEffectiveData](../ireflectioneffectivedata)

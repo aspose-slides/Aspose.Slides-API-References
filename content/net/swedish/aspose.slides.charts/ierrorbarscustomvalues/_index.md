@@ -1,14 +1,14 @@
 ---
 title: IErrorBarsCustomValues
 second_title: Aspose.Sildes för .NET API-referens
-description: Anger värdena för felstaplar. Den ska endast användas när felstaplarnas värdetyp är Custom.
+description: Anger felstaplarnas värden. Den ska endast användas när felstaplarnas värdetyp är Custom.
 type: docs
-weight: 2060
+weight: 2080
 url: /sv/aspose.slides.charts/ierrorbarscustomvalues/
 ---
 ## IErrorBarsCustomValues gränssnitt
 
-Anger värdena för felstaplar. Den ska endast användas när felstaplarna har värdetypen Custom.
+Anger felstaplarnas värden. Den ska endast användas när felstaplarnas värdetyp är Custom.
 
 ```csharp
 public interface IErrorBarsCustomValues
@@ -16,12 +16,12 @@ public interface IErrorBarsCustomValues
 
 ## Egenskaper
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
-| [XMinus](../../aspose.slides.charts/ierrorbarscustomvalues/xminus) { get; } | Anger felstapelsvärdet i negativ riktning. Tillgänglig om felstaplarna har värdetypen Custom och ErrorBarsXFormat är tillåten. I annat fall returnerar denna egenskap null. Skrivskyddad [`IDoubleChartValue`](../idoublechartvalue). |
-| [XPlus](../../aspose.slides.charts/ierrorbarscustomvalues/xplus) { get; } | Anger felstapelsvärdet i positiv riktning. Tillgänglig om felstaplarna har värdetypen Custom och ErrorBarsXFormat är tillåten. I annat fall returnerar denna egenskap null. Skrivskyddad [`IDoubleChartValue`](../idoublechartvalue). |
-| [YMinus](../../aspose.slides.charts/ierrorbarscustomvalues/yminus) { get; } | Anger felstapelsvärdet i negativ riktning. Tillgänglig om felstaplarna har värdetypen Custom och ErrorBarsYFormat är tillåten. I annat fall returnerar denna egenskap null. Skrivskyddad [`IDoubleChartValue`](../idoublechartvalue). |
-| [YPlus](../../aspose.slides.charts/ierrorbarscustomvalues/yplus) { get; } | Anger felstapelsvärdet i positiv riktning. Tillgänglig om felstaplarna har värdetypen Custom och ErrorBarsYFormat är tillåten. I annat fall returnerar denna egenskap null. Skrivskyddad [`IDoubleChartValue`](../idoublechartvalue). |
+| [XMinus](../../aspose.slides.charts/ierrorbarscustomvalues/xminus) { get; } | Anger felstaplarvärdet i den negativa riktningen. Tillgänglig om felstaplarnas värdetyp är Custom och ErrorBarsXFormat är tillåtet. I alla andra fall returnerar denna egenskap null. Skrivskyddad [`IDoubleChartValue`](../idoublechartvalue). |
+| [XPlus](../../aspose.slides.charts/ierrorbarscustomvalues/xplus) { get; } | Anger felstaplarvärdet i den positiva riktningen. Tillgänglig om felstaplarnas värdetyp är Custom och ErrorBarsXFormat är tillåtet. I alla andra fall returnerar denna egenskap null. Skrivskyddad [`IDoubleChartValue`](../idoublechartvalue). |
+| [YMinus](../../aspose.slides.charts/ierrorbarscustomvalues/yminus) { get; } | Anger felstaplarvärdet i den negativa riktningen. Tillgänglig om felstaplarnas värdetyp är Custom och ErrorBarsYFormat är tillåtet. I alla andra fall returnerar denna egenskap null. Skrivskyddad [`IDoubleChartValue`](../idoublechartvalue). |
+| [YPlus](../../aspose.slides.charts/ierrorbarscustomvalues/yplus) { get; } | Anger felstaplarvärdet i den positiva riktningen. Tillgänglig om felstaplarnas värdetyp är Custom och ErrorBarsYFormat är tillåtet. I alla andra fall returnerar denna egenskap null. Skrivskyddad [`IDoubleChartValue`](../idoublechartvalue). |
 
 ### Se också
 

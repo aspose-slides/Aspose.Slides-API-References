@@ -1,9 +1,9 @@
 ---
 title: IPortionFactory
-second_title: Aspose.Sildes pro .NET API referenci
+second_title: Aspose.Sildes pro .NET API Reference
 description: Umožňuje vytvářet testovací části
 type: docs
-weight: 6700
+weight: 6720
 url: /cs/aspose.slides/iportionfactory/
 ---
 ## IPortionFactory rozhraní
@@ -19,7 +19,7 @@ public interface IPortionFactory
 | Název | Popis |
 | --- | --- |
 | [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion)() | Vytvoří prázdnou textovou část. |
-| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_1)(IPortion) | Vytvoří část za použití specifikovaných dat části. |
+| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_1)(IPortion) | Vytvoří část s použitím určených dat části. |
 | [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_2)(string) | Vytvoří textovou část ze zadaného řetězce. |
 
 ### Poznámky

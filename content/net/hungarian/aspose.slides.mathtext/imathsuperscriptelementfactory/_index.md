@@ -1,9 +1,9 @@
 ---
 title: IMathSuperscriptElementFactory
-second_title: Aspose.Sildes a .NET API hivatkozáshoz
+second_title: Aspose.Sildes .NET API referencia
 description: Lehetővé teszi az IMathSuperscriptElement létrehozását
 type: docs
-weight: 8480
+weight: 8500
 url: /hu/aspose.slides.mathtext/imathsuperscriptelementfactory/
 ---
 ## IMathSuperscriptElementFactory interfész
@@ -20,9 +20,9 @@ public interface IMathSuperscriptElementFactory
 | --- | --- |
 | [CreateMathSuperscriptElement](../../aspose.slides.mathtext/imathsuperscriptelementfactory/createmathsuperscriptelement)(IMathElement, IMathElement) | Létrehozza az IMathSuperscriptElement |
 
-### Megjegyzés
+### Megjegyzések
 
-A COM kompatibilitáshoz
+COM kompatibilitás miatt
 
 ### Lásd még
 

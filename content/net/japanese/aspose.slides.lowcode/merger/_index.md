@@ -1,14 +1,14 @@
 ---
 title: Merger
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 同じ形式の PowerPoint プレゼンテーションを 1 つのファイルに結合するためのメソッドのグループを表します。
+description: 同じ形式の PowerPoint プレゼンテーションを 1 つのファイルに結合するためのメソッド群を表します。
 type: docs
-weight: 7950
+weight: 7970
 url: /ja/aspose.slides.lowcode/merger/
 ---
 ## Merger クラス
 
-同じ形式の PowerPoint プレゼンテーションを 1 つのファイルに結合するためのメソッドのグループを表します。
+同じ形式の PowerPoint プレゼンテーションを 1 つのファイルに結合するためのメソッド群を表します。
 
 ```csharp
 public static class Merger
@@ -18,10 +18,10 @@ public static class Merger
 
 | 名前 | 説明 |
 | --- | --- |
-| static [Process](../../aspose.slides.lowcode/merger/process#process)(string[], Stream) | 同じ形式の複数の PowerPoint プレゼンテーションを単一のプレゼンテーション ファイルに結合します。 |
-| static [Process](../../aspose.slides.lowcode/merger/process#process_2)(string[], string) | 同じ形式の複数の PowerPoint プレゼンテーションを単一のプレゼンテーション ファイルに結合します。 |
-| static [Process](../../aspose.slides.lowcode/merger/process#process_1)(string[], Stream, ISaveOptions) | 同じ形式の複数の PowerPoint プレゼンテーションを単一のプレゼンテーション ファイルに結合します。 |
-| static [Process](../../aspose.slides.lowcode/merger/process#process_3)(string[], string, ISaveOptions) | 同じ形式の複数の PowerPoint プレゼンテーションを単一のプレゼンテーション ファイルに結合します。 |
+| static [Process](../../aspose.slides.lowcode/merger/process#process)(string[], Stream) | 同じ形式の複数の PowerPoint プレゼンテーションを 1 つのプレゼンテーションファイルに結合します。 |
+| static [Process](../../aspose.slides.lowcode/merger/process#process_2)(string[], string) | 同じ形式の複数の PowerPoint プレゼンテーションを 1 つのプレゼンテーションファイルに結合します。 |
+| static [Process](../../aspose.slides.lowcode/merger/process#process_1)(string[], Stream, ISaveOptions) | 同じ形式の複数の PowerPoint プレゼンテーションを 1 つのプレゼンテーションファイルに結合します。 |
+| static [Process](../../aspose.slides.lowcode/merger/process#process_3)(string[], string, ISaveOptions) | 同じ形式の複数の PowerPoint プレゼンテーションを 1 つのプレゼンテーションファイルに結合します。 |
 
 ### 参照
 

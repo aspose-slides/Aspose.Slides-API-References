@@ -1,14 +1,14 @@
 ---
 title: DataTable
-second_title: Aspose.Sildes .NET API hivatkozás
-description: A data táblázat tulajdonságait képviseli.
+second_title: Aspose.Sildes .NET API referencia
+description: Az adat táblázat tulajdonságait képviseli.
 type: docs
-weight: 1580
+weight: 1600
 url: /hu/aspose.slides.charts/datatable/
 ---
 ## DataTable osztály
 
-A DataTable tulajdonságait képviseli.
+Az adat táblázat tulajdonságait képviseli.
 
 ```csharp
 public class DataTable : DomObject<Chart>, IDataTable
@@ -19,11 +19,11 @@ public class DataTable : DomObject<Chart>, IDataTable
 | Név | Leírás |
 | --- | --- |
 | [Chart](../../aspose.slides.charts/datatable/chart) { get; } | Visszaadja a diagramot. Csak olvasható [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/datatable/format) { get; } | Visszaadja egy objektum vonal-, kitöltés- és effektus-stílusait. Csak olvasható [`IFormat`](../iformat). |
-| [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | Igaz, ha a diagram adat táblázatának vízszintes cellaéllei vannak. Olvasás/írás Boolean. |
-| [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | Igaz, ha a diagram adat táblázatának körvonalazó élei vannak. Olvasás/írás Boolean. |
-| [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | Igaz, ha a diagram adat táblázatának függőleges cellaéllei vannak. Olvasás/írás Boolean. |
-| [ShowLegendKey](../../aspose.slides.charts/datatable/showlegendkey) { get; set; } | Igaz, ha az adatcímke legendakulcsa látható. Olvasás/írás Boolean. |
+| [Format](../../aspose.slides.charts/datatable/format) { get; } | Visszaadja egy objektum vonal-, kitöltés- és effektstílusait. Csak olvasható [`IFormat`](../iformat). |
+| [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | Igaz, ha a diagram adat táblájának vízszintes cellaszegélyei vannak. Olvasás/írás Boolean. |
+| [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | Igaz, ha a diagram adat táblájának körvonal szegélyei vannak. Olvasás/írás Boolean. |
+| [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | Igaz, ha a diagram adat táblájának függőleges cellaszegélyei vannak. Olvasás/írás Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/datatable/showlegendkey) { get; set; } | Igaz, ha az adatcímke jelmagyarázat kulcsa látható. Olvasás/írás Boolean. |
 | [TextFormat](../../aspose.slides.charts/datatable/textformat) { get; } | Visszaadja a szövegformátumot. Csak olvasható [`IChartTextFormat`](../icharttextformat). |
 
 ### Lásd még

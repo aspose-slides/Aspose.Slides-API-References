@@ -1,14 +1,14 @@
 ---
 title: MotionPathEditMode
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 対象シェイプが移動したときに、モーションパスがどのように動くかを指定します
+description: 対象のシェイプが移動したときに、モーションパスがどのように移動するかを指定します
 type: docs
-weight: 680
+weight: 700
 url: /ja/aspose.slides.animation/motionpatheditmode/
 ---
 ## MotionPathEditMode 列挙型
 
-対象シェイプが移動したときに、モーションパスがどのように動くかを指定します
+対象のシェイプが移動したときに、モーションパスがどのように移動するかを指定します
 
 ```csharp
 public enum MotionPathEditMode
@@ -22,7 +22,7 @@ public enum MotionPathEditMode
 | Relative | `0` |  |
 | Fixed | `1` |  |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * アセンブリ [Aspose.Slides](../../)

@@ -1,9 +1,9 @@
 ---
 title: NotesSlideManager
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – referencja API
 description: Menedżer slajdów notatek.
 type: docs
-weight: 9140
+weight: 9160
 url: /pl/aspose.slides/notesslidemanager/
 ---
 ## NotesSlideManager klasa
@@ -29,7 +29,7 @@ public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
 
 ### Przykłady
 
-Poniższy przykład pokazuje, jak dodać notatki do konkretnego slajdu prezentacji PowerPoint.
+Poniższy przykład pokazuje, jak dodać notatki do określonego slajdu prezentacji PowerPoint.
 
 ```csharp
 [C#]
@@ -44,7 +44,7 @@ Poniższy przykład pokazuje, jak dodać notatki do konkretnego slajdu prezentac
 	}
 ```
 
-Poniższy przykład pokazuje, jak usunąć notatki z konkretnego slajdu prezentacji PowerPoint.
+Poniższy przykład pokazuje, jak usunąć notatki z określonego slajdu prezentacji PowerPoint.
 
 ```csharp
 [C#]

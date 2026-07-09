@@ -1,14 +1,14 @@
 ---
 title: SlideSizeType
-second_title: Aspose.Sildes a .NET API hivatkozáshoz
-description: A dia méret előbeállítását reprezentálja.
+second_title: Aspose.Sildes .NET API referencia
+description: A dia méretének előre definiált beállítását jelenti.
 type: docs
-weight: 10500
+weight: 10520
 url: /hu/aspose.slides/slidesizetype/
 ---
 ## SlideSizeType enumeráció
 
-A dia méret előbeállítását reprezentálja.
+A dia méretének előre definiált beállítása.
 
 ```csharp
 public enum SlideSizeType
@@ -24,7 +24,7 @@ public enum SlideSizeType
 | Slide35mm | `3` | Dia 35mm |
 | Overhead | `4` | Overhead |
 | Banner | `5` | Banner |
-| Custom | `6` | Egyéni méret |
+| Custom | `6` | Egyedi méret |
 | Ledger | `7` | Ledger |
 | A3Paper | `8` | A3 |
 | B4IsoPaper | `9` | B4 ISO |
@@ -32,9 +32,9 @@ public enum SlideSizeType
 | B4JisPaper | `11` | B4 JIS |
 | B5JisPaper | `12` | B5 JIS |
 | HagakiCard | `13` | Hagaki kártya |
-| OnScreen16x9 | `14` | Képernyő 16x9 |
-| OnScreen16x10 | `15` | Képernyő 16x10 |
-| Widescreen | `16` | Szélesképernyő |
+| OnScreen16x9 | `14` | Képernyőn 16x9 |
+| OnScreen16x10 | `15` | Képernyőn 16x10 |
+| Widescreen | `16` | Szélesvásznú |
 
 ### Lásd még
 

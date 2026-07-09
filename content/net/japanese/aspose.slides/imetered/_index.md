@@ -1,14 +1,14 @@
 ---
 title: IMetered
 second_title: Aspose.Sildes for .NET API リファレンス
-description: メータ化されたキーを設定するためのメソッドを提供します。
+description: メーター付きキーを設定するメソッドを提供します。
 type: docs
-weight: 6430
+weight: 6450
 url: /ja/aspose.slides/imetered/
 ---
-## IMetered インタフェース
+## IMetered インターフェイス
 
-メータ化されたキーを設定するためのメソッドを提供します。
+メーター付きキーを設定するメソッドを提供します。
 
 ```csharp
 public interface IMetered
@@ -18,9 +18,9 @@ public interface IMetered
 
 | 名前 | 説明 |
 | --- | --- |
-| [SetMeteredKey](../../aspose.slides/imetered/setmeteredkey)(string, string) | メータ化された公開キーと秘密キーを設定します。 |
+| [SetMeteredKey](../../aspose.slides/imetered/setmeteredkey)(string, string) | メーター化された公開キーとプライベートキーを設定します。 |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

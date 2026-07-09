@@ -1,9 +1,9 @@
 ---
 title: RowFormat
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili format baris tabel.
 type: docs
-weight: 9710
+weight: 9730
 url: /id/aspose.slides/rowformat/
 ---
 ## RowFormat kelas
@@ -18,7 +18,7 @@ public sealed class RowFormat : DomObject<Row>, IRowFormat
 
 | Nama | Deskripsi |
 | --- | --- |
-| [GetEffective](../../aspose.slides/rowformat/geteffective)() | Mengambil properti pemformatan baris tabel yang efektif dengan pewarisan dan gaya tabel yang diterapkan. |
+| [GetEffective](../../aspose.slides/rowformat/geteffective)() | Mendapatkan properti pemformatan baris tabel yang efektif dengan pewarisan dan gaya tabel yang diterapkan. |
 
 ### Lihat Juga
 

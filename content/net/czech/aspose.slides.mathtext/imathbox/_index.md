@@ -1,14 +1,14 @@
 ---
 title: IMathBox
-second_title: Aspose.Sildes pro .NET - referenční příručka API
-description: Specifikuje logické zabalení (balení) matematického prvku. Například zabalený objekt může sloužit jako emulátor operátoru s bodem zarovnání nebo bez něj, jako bod zalomení řádku nebo být seskupen tak, aby nepovoloval zalomení řádku uvnitř. Například operátor by měl být zabalen, aby se zabránilo zalomení řádku.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Specifikuje logické balení (boxování) matematického prvku. Například objekt v krabici může sloužit jako emulátor operátoru s nebo bez zarovnávacího bodu, může sloužit jako bod zalomení řádku nebo může být seskupen tak, aby neumožňoval zalamování řádků uvnitř. Například operátor by měl být zabalen, aby se zabránilo zalomení řádku.
 type: docs
-weight: 8170
+weight: 8190
 url: /cs/aspose.slides.mathtext/imathbox/
 ---
-## Rozhraní IMathBox
+## IMathBox rozhraní
 
-Určuje logické zabalení (balení) matematického prvku. Například objekt v krabici může sloužit jako emulátor operátoru s bodem zarovnání nebo bez něj, jako bod zalomení řádku, nebo být seskupen tak, aby neumožňoval zalomení řádku uvnitř. Například operátor "==" by měl být zabalen, aby se zabránilo zalomení řádku.
+Specifikuje logické zabalení (balení) matematického prvku. Například objekt v krabici může fungovat jako emulátor operátoru s nebo bez zarovnávacího bodu, může sloužit jako bod zalomení řádku nebo může být seskupen tak, aby neumožňoval zalamování řádků uvnitř. Například operátor "==" by měl být zabalen, aby se zabránilo zalomení řádku.
 
 ```csharp
 public interface IMathBox : IMathElement
@@ -18,17 +18,17 @@ public interface IMathBox : IMathElement
 
 | Název | Popis |
 | --- | --- |
-| [AlignmentPoint](../../aspose.slides.mathtext/imathbox/alignmentpoint) { get; set; } | Když je hodnota true, tento emulátor operátoru slouží jako zarovnávací bod; tj. určené zarovnávací body v jiných rovnicích lze s ním sladit. Výchozí: false |
+| [AlignmentPoint](../../aspose.slides.mathtext/imathbox/alignmentpoint) { get; set; } | Když je true, tento emulátor operátoru slouží jako zarovnávací bod; tj. určené zarovnávací body v jiných rovnicích mohou být s ním zarovnány. Výchozí: false |
 | [AsIMathElement](../../aspose.slides.mathtext/imathbox/asimathelement) { get; } | Umožňuje získat základní rozhraní IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathbox/base) { get; } | Základní argument |
-| [Differential](../../aspose.slides.mathtext/imathbox/differential) { get; set; } | Diferenciál. Když je hodnota true, krabice funguje jako diferenciál (např. 𝑑𝑥 v integrandu) a získává odpovídající vodorovné mezery pro matematický diferenciál. Výchozí: false |
-| [ExplicitBreak](../../aspose.slides.mathtext/imathbox/explicitbreak) { get; set; } | Explicitní zalomení určuje, zda je na začátku objektu Box zalomení řádku, takže řádek se zalamuje na začátku objektu Box. Určuje číslo operátoru na předchozím řádku matematického textu, které má být použito jako zarovnávací bod pro aktuální řádek matematického textu. Možné hodnoty: 1..255 Výchozí: 0 (žádné explicitní zalomení) |
-| [NoBreak](../../aspose.slides.mathtext/imathbox/nobreak) { get; set; } | Žádné zalomení. Tato vlastnost určuje vlastnost „nepřerušitelné“ na objektu krabice. Když je hodnota true, v rámci krabice nemohou nastat žádná zalomení řádku. To může být důležité pro emulátory operátorů, které se skládají z více než jednoho binárního operátoru. Pokud není tento prvek specifikován, mohou se v krabici vyskytovat zalomení. Výchozí: true |
-| [OperatorEmulator](../../aspose.slides.mathtext/imathbox/operatoremulator) { get; set; } | Emulátor operátoru. Když je hodnota true, krabice a její obsah se chovají jako jediný operátor a dědí vlastnosti operátoru. To znamená například, že znak může sloužit jako bod pro zalomení řádku a může být zarovnán s ostatními operátory. Emulátory operátorů se často používají, když se jeden nebo více glify spojují a tvoří operátor, např. '=='. Výchozí hodnota: false |
+| [Differential](../../aspose.slides.mathtext/imathbox/differential) { get; set; } | Diferenciál. Když je true, krabice funguje jako diferenciál (např. 𝑑𝑥 v integrandu) a získává odpovídající vodorovné mezery pro matematický diferenciál. Výchozí: false |
+| [ExplicitBreak](../../aspose.slides.mathtext/imathbox/explicitbreak) { get; set; } | Explicitní zalomení určuje, zda na začátku objektu Box existuje zalomení řádku, takže řádek se zalamuje na začátku objektu box. Udává číslo operátoru na předchozím řádku matematického textu, který má být použit jako zarovnávací bod pro aktuální řádek matematického textu. Možné hodnoty: 1..255. Výchozí: 0 (žádné explicitní zalomení) |
+| [NoBreak](../../aspose.slides.mathtext/imathbox/nobreak) { get; set; } | Žádné zalomení. Tato vlastnost určuje vlastnost „neporušitelnosti“ na objektu box. Když je true, žádná zalomení řádku se nemohou objevit uvnitř boxu. To může být důležité pro emulátory operátorů, které se skládají z více než jednoho binárního operátoru. Když tento prvek není specifikován, mohou se v boxu objevit zalomení. Výchozí: true |
+| [OperatorEmulator](../../aspose.slides.mathtext/imathbox/operatoremulator) { get; set; } | Emulátor operátoru. Když je true, box a jeho obsah se chovají jako jednoprvkový operátor a dědí vlastnosti operátoru. To znamená například, že znak může sloužit jako bod pro zalomení řádku a může být zarovnán k dalším operátorům. Emulátory operátorů se často používají, když se jeden nebo více glifů spojuje do operátoru, například '=='. Výchozí hodnota: false |
 
 ### Příklady
 
-Example:
+Příklad:
 
 ```csharp
 [C#]

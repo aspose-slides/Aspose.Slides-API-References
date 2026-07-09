@@ -1,14 +1,14 @@
 ---
 title: IMathFraction
-second_title: Aspose.Sildes .NET API Referenciája
-description: Meghatározza a tört objektumát, amely egy számlálóból és egy nevezőből áll, és egy törtvonal választja el őket. A törtvonal lehet vízszintes vagy átlós a tört tulajdonságaitól függően. A tört objektumot a stack függvény ábrázolására is használják, amely egy elemet egy másik fölé helyez, törtvonal nélkül.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Meghatározza a tört objektumot, amely számláló és nevezőből áll, egy törtvonallal elválasztva. A törtvonal lehet vízszintes vagy átlós a tört tulajdonságaitól függően. A tört objektumot a stack függvény ábrázolására is használják, amely egy elemet egy másik fölé helyez törtvonal nélkül.
 type: docs
-weight: 8230
+weight: 8250
 url: /hu/aspose.slides.mathtext/imathfraction/
 ---
 ## IMathFraction interfész
 
-Meghatározza a tört objektumát, amely egy számláló és egy nevezőből áll, amelyeket egy törtvonal választ el. A törtvonal lehet vízszintes vagy átlós, a tört tulajdonságaitól függően. A tört objektumot a stack függvény ábrázolására is használják, amely egy elemet egy másik fölé helyez, törtvonal nélkül.
+Meghatározza a tört objektumot, amely számláló és nevezőből áll, amelyet egy törtvonal választ el. A törtvonal lehet vízszintes vagy átlós, a tört tulajdonságaitól függően. A tört objektumot a stack függvény ábrázolására is használják, amely egy elemet helyez egy másik fölé, törtvonal nélkül.
 
 ```csharp
 public interface IMathFraction : IMathElement
@@ -18,10 +18,10 @@ public interface IMathFraction : IMathElement
 
 | Név | Leírás |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathfraction/asimathelement) { get; } | Lehetővé teszi a base IMathElement interfész lekérdezését [`IMathElement`](../imathelement) |
-| [Denominator](../../aspose.slides.mathtext/imathfraction/denominator) { get; } | Nevező |
-| [FractionType](../../aspose.slides.mathtext/imathfraction/fractiontype) { get; set; } | Tört típus Alapértelmezett: Bar |
-| [Numerator](../../aspose.slides.mathtext/imathfraction/numerator) { get; } | Számláló |
+| [AsIMathElement](../../aspose.slides.mathtext/imathfraction/asimathelement) { get; } | Lehetővé teszi a base IMathElement interfész [`IMathElement`](../imathelement) lekérését |
+| [Denominator](../../aspose.slides.mathtext/imathfraction/denominator) { get; } | Denominátor |
+| [FractionType](../../aspose.slides.mathtext/imathfraction/fractiontype) { get; set; } | Törttípus Alapértelmezett: Bar |
+| [Numerator](../../aspose.slides.mathtext/imathfraction/numerator) { get; } | Numerátor |
 
 ### Példák
 

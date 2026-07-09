@@ -1,9 +1,9 @@
 ---
 title: OuterShadow
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje efekt zewnętrznego cienia.
 type: docs
-weight: 3600
+weight: 3620
 url: /pl/aspose.slides.effects/outershadow/
 ---
 ## OuterShadow klasa
@@ -18,29 +18,29 @@ public sealed class OuterShadow : IOuterShadow
 
 | Nazwa | Opis |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | Promień rozmycia w punktach. Domyślna wartość – 0 pt. Odczyt/zapis Double. |
-| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | Kierunek cienia w stopniach. Domyślna wartość – 0 ° (od lewej do prawej). Odczyt/zapis Single. |
-| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | Odległość cienia od obiektu w punktach. Domyślna wartość – 0 pt. Odczyt/zapis Double. |
+| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | Promień rozmycia, w punktach. Domyślna wartość – 0 pt. Odczyt/zapis Double. |
+| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | Kierunek cienia, w stopniach. Domyślna wartość – 0 ° (od lewej do prawej). Odczyt/zapis Single. |
+| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | Odległość cienia od obiektu, w punktach. Domyślna wartość – 0 pt. Odczyt/zapis Double. |
 | [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | Wyrównanie prostokąta. Domyślna wartość – Bottom. Odczyt/zapis [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | Określa, czy cień obraca się razem z kształtem. Domyślna wartość – true. Odczyt/zapis Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | Poziomy współczynnik skalowania, w procentach pierwotnego rozmiaru. Negatywne skalowanie powoduje odbicie. Domyślna wartość – 100 %. Odczyt/zapis Double. |
-| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | Pionowy współczynnik skalowania, w procentach pierwotnego rozmiaru. Negatywne skalowanie powoduje odbicie. Domyślna wartość – 100 %. Odczyt/zapis Double. |
-| [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | Kolor cienia. Domyślna wartość – automatyczna czern (zależna od motywu). Tylko do odczytu [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | Poziomy kąt nachylenia w stopniach. Domyślna wartość – 0 °. Odczyt/zapis Double. |
-| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | Pionowy kąt nachylenia w stopniach. Domyślna wartość – 0 °. Odczyt/zapis Double. |
+| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | Wskazuje, czy cień obraca się razem z kształtem. Domyślna wartość – true. Odczyt/zapis Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | Poziomy współczynnik skalowania, w procentach pierwotnego rozmiaru. Ujemne skalowanie powoduje odbicie. Domyślna wartość – 100 %. Odczyt/zapis Double. |
+| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | Pionowy współczynnik skalowania, w procentach pierwotnego rozmiaru. Ujemne skalowanie powoduje odbicie. Domyślna wartość – 100 %. Odczyt/zapis Double. |
+| [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | Kolor cienia. Domyślna wartość – automatyczna czerń (zależna od motywu). Tylko do odczytu [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | Kąt pochylenia w poziomie, w stopniach. Domyślna wartość – 0 °. Odczyt/zapis Double. |
+| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | Kąt pochylenia w pionie, w stopniach. Domyślna wartość – 0 °. Odczyt/zapis Double. |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | Określa, czy podany [`OuterShadow`](../outershadow) jest równy bieżącemu [`OuterShadow`](../outershadow). |
+| override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | Określa, czy określony [`OuterShadow`](../outershadow) jest równy bieżącemu [`OuterShadow`](../outershadow). |
 | [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | Pobiera efektywne dane efektu Outer Shadow z zastosowanym dziedziczeniem. |
 | override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | Służy jako funkcja skrótu dla określonego typu. |
 
 ### Zobacz także
 
-* interfejs [IOuterShadow](../ioutershadow)
-* przestrzeń nazw [Aspose.Slides.Effects](../../aspose.slides.effects)
-* zestaw [Aspose.Slides](../../)
+* interface [IOuterShadow](../ioutershadow)
+* namespace [Aspose.Slides.Effects](../../aspose.slides.effects)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

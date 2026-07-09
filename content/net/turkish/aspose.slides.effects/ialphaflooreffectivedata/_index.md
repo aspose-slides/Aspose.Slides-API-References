@@ -1,14 +1,14 @@
 ---
 title: IAlphaFloorEffectiveData
-second_title: Aspose.Sildes .NET API Referansı
-description: Alfa Katı etkisini temsil eden değiştirilemez nesne. %100'den düşük alfa opaklık değerleri sıfıra ayarlanır. Başka bir deyişle, kısmen saydam olan her şey tamamen saydam olur.
+second_title: Aspose.Slides için .NET API Referansı
+description: Değiştirilemez nesne, Alpha Floor etkisini temsil eder. Alpha opaklık değerleri %100'den az ise sıfıra dönüştürülür. Başka bir deyişle, kısmen şeffaf olan her şey tamamen şeffaf olur.
 type: docs
-weight: 3050
+weight: 3070
 url: /tr/aspose.slides.effects/ialphaflooreffectivedata/
 ---
 ## IAlphaFloorEffectiveData arayüz
 
-Değiştirilemeyen nesne, Alpha Floor etkisini temsil eder. Alpha (opaklık) değerleri %100'den düşükse sıfıra ayarlanır. Başka bir deyişle, kısmen saydam olan her şey tamamen saydam olur.
+Değiştirilemez nesne, Alpha Floor etkisini temsil eder. %100'den düşük Alpha (opaklık) değerleri sıfıra dönüştürülür. Başka bir deyişle, kısmen şeffaf olan her şey tamamen şeffaf olur.
 
 ```csharp
 public interface IAlphaFloorEffectiveData : IEffectEffectiveData
@@ -16,9 +16,9 @@ public interface IAlphaFloorEffectiveData : IEffectEffectiveData
 
 ## Özellikler
 
-| Ad | Açıklama |
+| İsim | Açıklama |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaflooreffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzünü almayı sağlar. Yalnızca okunabilir [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaflooreffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzünü almayı sağlar. Salt okunur [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Ayrıca Bakınız
 

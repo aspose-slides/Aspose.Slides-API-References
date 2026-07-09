@@ -1,9 +1,9 @@
 ---
 title: MathParagraphFactory
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Permite criar um parágrafo matemático
 type: docs
-weight: 8890
+weight: 8910
 url: /pt/aspose.slides.mathtext/mathparagraphfactory/
 ---
 ## MathParagraphFactory classe
@@ -16,13 +16,13 @@ public class MathParagraphFactory : IMathParagraphFactory
 
 ## Construtores
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [MathParagraphFactory](mathparagraphfactory)() | O construtor padrão. |
 
 ## Métodos
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [CreateMathParagraph](../../aspose.slides.mathtext/mathparagraphfactory/createmathparagraph#createmathparagraph)() | Cria um parágrafo matemático vazio |
 | [CreateMathParagraph](../../aspose.slides.mathtext/mathparagraphfactory/createmathparagraph#createmathparagraph_1)(IMathBlock) | Cria um parágrafo matemático e coloca o bloco matemático especificado nele |
@@ -31,7 +31,7 @@ public class MathParagraphFactory : IMathParagraphFactory
 
 Para compatibilidade COM
 
-### Ver também
+### Ver Também
 
 * interface [IMathParagraphFactory](../imathparagraphfactory)
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

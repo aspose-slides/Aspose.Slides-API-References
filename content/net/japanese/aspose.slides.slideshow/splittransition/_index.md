@@ -1,14 +1,14 @@
 ---
 title: SplitTransition
 second_title: Aspose.Sildes for .NET API リファレンス
-description: スライドの分割トランジション効果。
+description: スライドの分割遷移効果。
 type: docs
-weight: 10310
+weight: 10330
 url: /ja/aspose.slides.slideshow/splittransition/
 ---
 ## SplitTransition クラス
 
-スライドの分割トランジション効果。
+スライドの分割遷移効果。
 
 ```csharp
 public class SplitTransition : TransitionValueBase, ISplitTransition
@@ -16,17 +16,17 @@ public class SplitTransition : TransitionValueBase, ISplitTransition
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/splittransition/direction) { get; set; } | トランジション分割の方向。読み書き可能 [`TransitionInOutDirectionType`](../transitioninoutdirectiontype)。 |
-| [Orientation](../../aspose.slides.slideshow/splittransition/orientation) { get; set; } | トランジション分割の向き。読み書き可能 [`Orientation`](../../aspose.slides/orientation)。 |
+| [Direction](../../aspose.slides.slideshow/splittransition/direction) { get; set; } | トランジション分割の方向。読み取り/書き込み [`TransitionInOutDirectionType`](../transitioninoutdirectiontype)。 |
+| [Orientation](../../aspose.slides.slideshow/splittransition/orientation) { get; set; } | トランジション分割の向き。読み取り/書き込み [`Orientation`](../../aspose.slides/orientation)。 |
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 2つの TransitionValueBase インスタンスが等しいかどうかを判断します。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 特定の型のハッシュ関数として機能し、ハッシュアルゴリズムやハッシュテーブルなどのデータ構造で使用できます。 |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 2 つの TransitionValueBase インスタンスが等しいかどうかを決定します。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 特定の型に対するハッシュ関数として機能し、ハッシュアルゴリズムやハッシュテーブルなどのデータ構造での使用に適しています。 |
 
 ### 参照
 

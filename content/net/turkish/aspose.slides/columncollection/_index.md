@@ -1,9 +1,9 @@
 ---
 title: ColumnCollection
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Bir tabloda sütunların koleksiyonunu temsil eder.
 type: docs
-weight: 2580
+weight: 2600
 url: /tr/aspose.slides/columncollection/
 ---
 ## ColumnCollection sınıfı
@@ -18,20 +18,20 @@ public sealed class ColumnCollection : DomObject<RowCollection>, IColumnCollecti
 
 | Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides/columncollection/count) { get; } | Koleksiyondaki sütun sayısını döndürür. Sadece okunabilir Int32. |
-| [IsSynchronized](../../aspose.slides/columncollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını gösteren bir değer döndürür. Sadece okunabilir Boolean. |
-| [Item](../../aspose.slides/columncollection/item) { get; } | Belirtilen indeksteki sütunu döndürür. Sadece okunabilir [`Column`](../column). |
-| [SyncRoot](../../aspose.slides/columncollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Sadece okunabilir Object. |
+| [Count](../../aspose.slides/columncollection/count) { get; } | Koleksiyondaki sütun sayısını döndürür. Yalnızca okuma Int32. |
+| [IsSynchronized](../../aspose.slides/columncollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (çok iş parçacıklı) olup olmadığını belirten bir değer döndürür. Yalnızca okuma Boolean. |
+| [Item](../../aspose.slides/columncollection/item) { get; } | Belirtilen dizindeki sütunu döndürür. Yalnızca okuma [`Column`](../column). |
+| [SyncRoot](../../aspose.slides/columncollection/syncroot) { get; } | Senkronizasyon kökünü döndürür. Yalnızca okuma Object. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [AddClone](../../aspose.slides/columncollection/addclone)(IColumn, bool) | Belirtilen şablon satırının bir kopyasını oluşturur ve tabloyun altına ekler. |
+| [AddClone](../../aspose.slides/columncollection/addclone)(IColumn, bool) | Belirtilen şablon satırının bir kopyasını oluşturur ve bir tablonun altına ekler. |
 | [CopyTo](../../aspose.slides/columncollection/copyto)(Array, int) | Koleksiyondaki tüm öğeleri belirtilen diziye kopyalar. |
-| [GetEnumerator](../../aspose.slides/columncollection/getenumerator)() | Koleksiyonun içinde yineleme yapan bir yineleyici döndürür. |
-| [InsertClone](../../aspose.slides/columncollection/insertclone)(int, IColumn, bool) | Belirtilen şablon sütununun bir kopyasını oluşturur ve tablo içinde belirtilen konuma ekler. |
-| [RemoveAt](../../aspose.slides/columncollection/removeat)(int, bool) | Tablodan belirtilen konumdaki bir sütunu kaldırır. |
+| [GetEnumerator](../../aspose.slides/columncollection/getenumerator)() | Koleksiyon boyunca yineleme yapan bir enumeratör döndürür. |
+| [InsertClone](../../aspose.slides/columncollection/insertclone)(int, IColumn, bool) | Belirtilen şablon sütununun bir kopyasını oluşturur ve bir tablonun belirtilen konumuna ekler. |
+| [RemoveAt](../../aspose.slides/columncollection/removeat)(int, bool) | Bir tablodan belirtilen konumdaki sütunu kaldırır. |
 
 ### Ayrıca Bakınız
 

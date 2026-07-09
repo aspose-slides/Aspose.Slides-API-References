@@ -1,27 +1,27 @@
 ---
 title: BubbleSizeRepresentationType
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Specifica i possibili modi per rappresentare i dati come dimensioni nei grafici a bolle.
+description: Specifica i possibili modi per rappresentare i dati come dimensioni dei grafici a bolle.
 type: docs
-weight: 1210
+weight: 1230
 url: /it/aspose.slides.charts/bubblesizerepresentationtype/
 ---
-## Enumerazione BubbleSizeRepresentationType
+## BubbleSizeRepresentationType enumeration
 
-Specifica i possibili modi per rappresentare i dati come dimensioni di grafico a bolle.
+Specifica i possibili modi per rappresentare i dati come dimensioni dei grafici a bolle.
 
 ```csharp
 public enum BubbleSizeRepresentationType
 ```
 
-### Valori
+### Values
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | Area | `0` | Specifica che l'area delle bolle deve essere proporzionale al valore della dimensione della bolla. |
 | Width | `1` | Specifica che il raggio delle bolle deve essere proporzionale al valore della dimensione della bolla. |
 
-### Vedi anche
+### See Also
 
 * spazio dei nomi [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

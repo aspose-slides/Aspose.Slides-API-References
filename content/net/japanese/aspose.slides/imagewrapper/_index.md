@@ -3,12 +3,12 @@ title: ImageWrapper
 second_title: Aspose.Sildes for .NET API リファレンス
 description: COM インターフェイス用の System.Drawing.Image ラッパー。
 type: docs
-weight: 7420
+weight: 7440
 url: /ja/aspose.slides/imagewrapper/
 ---
 ## ImageWrapper クラス
 
-System.Drawing.Image wrapper for COM interface.
+COM インターフェイス用の System.Drawing.Image ラッパー。
 
 ```csharp
 public class ImageWrapper : IImageWrapper
@@ -26,9 +26,9 @@ public class ImageWrapper : IImageWrapper
 | 名前 | 説明 |
 | --- | --- |
 | [Dispose](../../aspose.slides/imagewrapper/dispose)() | ImageWrapper を破棄します |
-| [Save](../../aspose.slides/imagewrapper/save#save_1)(string) | 指定されたファイルに Image を保存します |
-| [Save](../../aspose.slides/imagewrapper/save#save)(Stream, PPImageFormat) | 指定された形式で、指定されたストリームに Image を保存します |
-| [Save](../../aspose.slides/imagewrapper/save#save_2)(string, PPImageFormat) | 指定された形式で、指定されたファイルに Image を保存します |
+| [Save](../../aspose.slides/imagewrapper/save#save_1)(string) | Image を指定されたファイルに保存します |
+| [Save](../../aspose.slides/imagewrapper/save#save)(Stream, PPImageFormat) | Image を指定された形式で指定されたストリームに保存します |
+| [Save](../../aspose.slides/imagewrapper/save#save_2)(string, PPImageFormat) | Image を指定された形式で指定されたファイルに保存します |
 
 ### 参照
 

@@ -1,14 +1,14 @@
 ---
 title: LayoutSlideHeaderFooterManager
-second_title: Aspose.Sildes .NET API referencia
-description: Olyan menedzsert képvisel, amely a elrendezésdia lábléc, dátum-idő és oldalszám helyőrzőinek viselkedését és az összes gyermekhelyőrzőt tartalmazza. A gyermekhelyőrzők azt jelentik, hogy a helyőrzők a függő diákon találhatók. A függő diákok az elrendezésdiát használják és attól függnek.
+second_title: Aspose.Sildes a .NET API hivatkozás
+description: Olyan kezelőt képvisel, amely az elrendezés diák láblécének, dátum-időjének és oldalszám helyőrzőinek, valamint az összes gyermek helyőrző viselkedését kezeli. A gyermek helyőrzők azok a helyőrzők, amelyek függő diákon találhatók. A függő diák használják és az elrendezés diára támaszkodnak.
 type: docs
-weight: 7640
+weight: 7660
 url: /hu/aspose.slides/layoutslideheaderfootermanager/
 ---
 ## LayoutSlideHeaderFooterManager osztály
 
-Olyan menedzsert képviseli, amely a elrendezésdiák lábléc, dátum-idő és oldalszám helyőrzőinek, valamint az összes gyermekhelyőrzőnek a viselkedését tartalmazza. A gyermekhelyőrzők azt jelentik, hogy a helyőrzők a függő diákon találhatók. A függő diákok az elrendezésdiát használják és attól függnek.
+Az elrendezés dia lábléc, dátum-idő, oldalszám helyőrzőit és az összes gyermek helyőrzőt kezelő manager. A gyermek helyőrzők azok a helyőrzők, amelyeket a függő diák tartalmaznak. A függő diák az elrendezés diára támaszkodnak.
 
 ```csharp
 public sealed class LayoutSlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
@@ -19,24 +19,24 @@ public sealed class LayoutSlideHeaderFooterManager : BaseSlideHeaderFooterManage
 
 | Név | Leírás |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Lekéri azt az értéket, amely jelzi, hogy egy dátum-idő helyőrző jelen van. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Lekéri azt az értéket, amely jelzi, hogy egy lábléc helyőrző jelen van. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Lekéri azt az értéket, amely jelzi, hogy egy oldalszám helyőrző jelen van. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Visszaadja azt az értéket, amely azt jelzi, hogy egy dátum-idő helyőrző jelen van. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Visszaadja azt az értéket, amely azt jelzi, hogy egy lábléc helyőrző jelen van. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Visszaadja azt az értéket, amely azt jelzi, hogy egy oldalszám helyőrző jelen van. ReadBoolean. |
 
 ## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Beállítja a szöveget az elrendezésdiák dátum-idő helyőrzőjére és az összes gyermekdátum-idő helyőrzőre. A gyermekhelyőrzők azt jelentik, hogy a helyőrzők a függő diákon találhatók. A függő diákok az elrendezésdiát használják és attól függnek. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Megváltoztatja az elrendezésdiák dátum-idő helyőrzőjének és az összes gyermekdátum-idő helyőrző láthatóságát. A gyermekhelyőrzők azt jelentik, hogy a helyőrzők a függő diákon találhatók. A függő diákok az elrendezésdiát használják és attól függnek. |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Beállítja a szöveget a dia dátum-idő helyőrzőjére. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Megváltoztatja a dia dátum-idő helyőrzőjének láthatóságát. |
-| [SetFooterAndChildFootersText](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | Beállítja a szöveget az elrendezésdiák lábléc helyőrzőjére és az összes gyermeklábléc helyőrzőre. A gyermekhelyőrzők azt jelentik, hogy a helyőrzők a függő diákon találhatók. A függő diákok az elrendezésdiát használják és attól függnek. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Megváltoztatja az elrendezésdiák lábléc helyőrzőjének és az összes gyermeklábléc helyőrző láthatóságát. A gyermekhelyőrzők azt jelentik, hogy a helyőrzők a függő diákon találhatók. A függő diákok a mesterdiát használják és attól függnek. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Beállítja a szöveget a dia lábléc helyőrzőjére. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Megváltoztatja a dia lábléc helyőrzőjének láthatóságát. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Megváltoztatja az elrendezésdiák oldalszám helyőrzőjének és az összes gyermekoldalszám helyőrző láthatóságát. A gyermekhelyőrzők azt jelentik, hogy a helyőrzők a függő diákon találhatók. A függő diákok az elrendezésdiát használják és attól függnek. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Megváltoztatja a dia oldalszám helyőrzőjének láthatóságát. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Beállítja a szöveget az elrendezés dia dátum-idő helyőrzőjéhez és az összes gyermek dátum-idő helyőrzőhöz. A gyermek helyőrzők azt jelentik, hogy a helyőrzők a függő diákon vannak. A függő diák használják és a layout slide-re támaszkodnak. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Módosítja az elrendezés dia dátum-idő helyőrzőjének és az összes gyermek dátum-idő helyőrzőnek a láthatóságát. A gyermek helyőrzők azt jelentik, hogy a helyőrzők a függő diákon vannak. A függő diák használják és a layout slide-re támaszkodnak. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Beállítja a szöveget a dia dátum-idő helyőrzőjéhez. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Módosítja a dia dátum-idő helyőrző láthatóságát. |
+| [SetFooterAndChildFootersText](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | Beállítja a szöveget az elrendezés dia lábléc helyőrzőjéhez és az összes gyermek lábléc helyőrzőhöz. A gyermek helyőrzők azt jelentik, hogy a helyőrzők a függő diákon vannak. A függő diák használják és a layout slide-re támaszkodnak. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Módosítja az elrendezés dia lábléc helyőrzőjének és az összes gyermek lábléc helyőrzőnek a láthatóságát. A gyermek helyőrzők azt jelentik, hogy a helyőrzők a függő diákon vannak. A függő diák használják és a master slide-re támaszkodnak. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Beállítja a szöveget a dia lábléc helyőrzőjéhez. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Módosítja a dia lábléc helyőrző láthatóságát. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Módosítja az elrendezés dia oldalszám helyőrzőjének és az összes gyermek oldalszám helyőrzőnek a láthatóságát. A gyermek helyőrzők azt jelentik, hogy a helyőrzők a függő diákon vannak. A függő diák használják és a layout slide-re támaszkodnak. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Módosítja a dia oldalszám helyőrző láthatóságát. |
 
 ### Lásd még
 

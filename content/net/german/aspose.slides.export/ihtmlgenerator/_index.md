@@ -1,15 +1,14 @@
 ---
 title: IHtmlGenerator
-second_title: Aspose.Slides für .NET API-Referenz
-description: Html-Generator.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: HTML-Generator.
 type: docs
-weight: 3790
+weight: 3960
 url: /de/aspose.slides.export/ihtmlgenerator/
 ---
+## IHtmlGenerator Schnittstelle
 
-## IHtmlGenerator-Schnittstelle
-
-Html-Generator.
+HTML-Generator.
 
 ```csharp
 public interface IHtmlGenerator
@@ -19,30 +18,30 @@ public interface IHtmlGenerator
 
 | Name | Beschreibung |
 | --- | --- |
-| [NextSlideIndex](../../aspose.slides.export/ihtmlgenerator/nextslideindex) { get; } | Gibt den Index einer Folie zurück, die nach der aktuellen Folie gerendert wird, oder -1, wenn die letzte Folie gerendert wird. Nur-Lese Int32. |
-| [PreviousSlideIndex](../../aspose.slides.export/ihtmlgenerator/previousslideindex) { get; } | Gibt den Index der zuvor gerenderten Folie zurück oder -1, wenn die erste Folie gerendert wird. Nur-Lese Int32. |
-| [SlideImageSize](../../aspose.slides.export/ihtmlgenerator/slideimagesize) { get; } | Gibt die Bildgröße der Folie zurück. Nur-Lese SizeF. |
-| [SlideImageSizeUnit](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunit) { get; } | Gibt eine Einheit zurück, in der die Bildgröße der Folie angegeben ist. Nur-Lese [`SvgCoordinateUnit`](../svgcoordinateunit). |
-| [SlideImageSizeUnitCode](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunitcode) { get; } | Gibt einen CSS-Code der Einheit zurück, in der die Bildgröße der Folie angegeben ist. Nur-Lese String. |
-| [SlideIndex](../../aspose.slides.export/ihtmlgenerator/slideindex) { get; } | Gibt den Index der aktuell renderten Folie zurück. Nur-Lese Int32. |
+| [NextSlideIndex](../../aspose.slides.export/ihtmlgenerator/nextslideindex) { get; } | Gibt den Index einer Folie zurück, die nach der aktuellen Folie gerendert wird, oder -1, wenn die aktuelle Folie die letzte ist. Nur lesbar Int32. |
+| [PreviousSlideIndex](../../aspose.slides.export/ihtmlgenerator/previousslideindex) { get; } | Gibt den Index der zuvor gerenderten Folie zurück oder -1, wenn die erste Folie gerendert wird. Nur lesbar Int32. |
+| [SlideImageSize](../../aspose.slides.export/ihtmlgenerator/slideimagesize) { get; } | Gibt die Größe des Folienbildes zurück. Nur lesbar SizeF. |
+| [SlideImageSizeUnit](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunit) { get; } | Gibt die Einheit zurück, in der die Folienbildgröße angegeben ist. Nur lesbar [`SvgCoordinateUnit`](../svgcoordinateunit). |
+| [SlideImageSizeUnitCode](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunitcode) { get; } | Gibt den CSS-Code der Einheit zurück, in der die Folienbildgröße angegeben ist. Nur lesbar String. |
+| [SlideIndex](../../aspose.slides.export/ihtmlgenerator/slideindex) { get; } | Gibt den Index der aktuell gerenderten Folie zurück. Nur lesbar Int32. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue)(char[]) | Zitiert den Attributwert und fügt ihn der HTML-Datei hinzu. |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_2)(string) | Zitiert den Attributwert und fügt ihn der HTML-Datei hinzu. |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | Zitiert den Attributwert und fügt ihn der HTML-Datei hinzu. |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue)(char[]) | Setzt Anführungszeichen um den Attributwert und fügt ihn der HTML-Datei hinzu. |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_2)(string) | Setzt Anführungszeichen um den Attributwert und fügt ihn der HTML-Datei hinzu. |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | Setzt Anführungszeichen um den Attributwert und fügt ihn der HTML-Datei hinzu. |
 | [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml)(char[]) | Fügt formatierten HTML-Text hinzu. |
 | [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_2)(string) | Fügt formatierten HTML-Text hinzu. |
-| [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_1)(char[], int, int) | Fügt formatierten HTML-Text hinzu. |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext)(char[]) | Fügt einfachen Text zu den HTML-Dateien hinzu und ersetzt Sonderzeichen durch HTML-Entitäten. Zeilenumbrüche und Leerzeichen werden nicht ersetzt. |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_2)(string) | Fügt einfachen Text zu den HTML-Dateien hinzu und ersetzt Sonderzeichen durch HTML-Entitäten. Zeilenumbrüche und Leerzeichen werden nicht ersetzt. |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_1)(char[], int, int) | Fügt einfachen Text zu den HTML-Dateien hinzu und ersetzt Sonderzeichen durch HTML-Entitäten. Zeilenumbrüche und Leerzeichen werden nicht ersetzt. |
+| [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_1)(char[], int, int) | Fügt formatierten HTML-Text hinzu. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext)(char[]) | Fügt Klartext zu den HTML-Dateien hinzu und ersetzt Sonderzeichen durch HTML-Entitäten. Zeilenumbrüche und Leerzeichen werden nicht ersetzt. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_2)(string) | Fügt Klartext zu den HTML-Dateien hinzu und ersetzt Sonderzeichen durch HTML-Entitäten. Zeilenumbrüche und Leerzeichen werden nicht ersetzt. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_1)(char[], int, int) | Fügt Klartext zu den HTML-Dateien hinzu und ersetzt Sonderzeichen durch HTML-Entitäten. Zeilenumbrüche und Leerzeichen werden nicht ersetzt. |
 
 ### Siehe auch
 
-* Namensraum [Aspose.Slides.Export](../../aspose.slides.export)
-* Assembly [Aspose.Slides](../../)
+* Namensraum [Aspose.Slides.Export](../../aspose.slides.export)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

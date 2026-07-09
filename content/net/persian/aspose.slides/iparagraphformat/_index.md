@@ -1,0 +1,56 @@
+---
+title: IParagraphFormat
+second_title: Aspose.Sildes برای .NET مرجع API
+description: این کلاس شامل ویژگی‌های قالب‌بندی پاراگراف است. برخلاف IParagraphFormatEffectiveData./iparagraphformateffectivedata تمام ویژگی‌های این کلاس قابل‌نوشتن هستند.
+type: docs
+weight: 6590
+url: /fa/aspose.slides/iparagraphformat/
+---
+## IParagraphFormat رابط
+
+این کلاس شامل ویژگی‌های قالب‌بندی پاراگراف است. بر خلاف [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata)، تمام ویژگی‌های این کلاس قابل‌نوشتن هستند.
+
+```csharp
+public interface IParagraphFormat
+```
+
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [Alignment](../../aspose.slides/iparagraphformat/alignment) { get; set; } | مقدار یا تنظیم تراز متن در یک پاراگراف بدون ارث‌بری. [`TextAlignment`](../textalignment) قابل‌خواندن/قابل‌نوشتن. |
+| [Bullet](../../aspose.slides/iparagraphformat/bullet) { get; } | مقدار یا تنظیم قالب گلوله در پاراگراف. [`IBulletFormat`](../ibulletformat) فقط‌خواندنی. |
+| [DefaultPortionFormat](../../aspose.slides/iparagraphformat/defaultportionformat) { get; } | مقدار یا تنظیم قالب بخش پیش‌فرض یک پاراگراف. بدون ارث‌بری اعمال می‌شود. [`IPortionFormat`](../iportionformat) فقط‌خواندنی. |
+| [DefaultTabSize](../../aspose.slides/iparagraphformat/defaulttabsize) { get; set; } | مقدار یا تنظیم اندازه تب پیش‌فرض بدون ارث‌بری. Single قابل‌خواندن/قابل‌نوشتن. |
+| [Depth](../../aspose.slides/iparagraphformat/depth) { get; set; } | مقدار یا تنظیم عمق پاراگراف. مقدار 0 به معنی مقدار نامشخص است. Int16 قابل‌خواندن/قابل‌نوشتن. |
+| [EastAsianLineBreak](../../aspose.slides/iparagraphformat/eastasianlinebreak) { get; set; } | تعیین می‌کند که آیا شکست خط آسیای شرقی در پاراگراف استفاده می‌شود یا خیر. بدون ارث‌بری اعمال می‌شود. [`NullableBool`](../nullablebool) قابل‌خواندن/قابل‌نوشتن. |
+| [FontAlignment](../../aspose.slides/iparagraphformat/fontalignment) { get; set; } | مقدار یا تنظیم تراز قلم در پاراگراف بدون ارث‌بری. [`FontAlignment`](../fontalignment) قابل‌خواندن/قابل‌نوشتن. |
+| [HangingPunctuation](../../aspose.slides/iparagraphformat/hangingpunctuation) { get; set; } | تعیین می‌کند که آیا نقطه‌گذاری معلق در پاراگراف استفاده می‌شود یا خیر. بدون ارث‌بری. [`NullableBool`](../nullablebool) قابل‌خواندن/قابل‌نوشتن. |
+| [Indent](../../aspose.slides/iparagraphformat/indent) { get; set; } | مقدار یا تنظیم تورفتگی خط اول/تورفتگی معلق پاراگراف بدون ارث‌بری. تورفتگی معلق می‌تواند با مقادیر منفی تعریف شود. Single قابل‌خواندن/قابل‌نوشتن. |
+| [LatinLineBreak](../../aspose.slides/iparagraphformat/latinlinebreak) { get; set; } | تعیین می‌کند که آیا شکست خط لاتین در پاراگراف استفاده می‌شود یا خیر. بدون ارث‌بری. [`NullableBool`](../nullablebool) قابل‌خواندن/قابل‌نوشتن. |
+| [MarginLeft](../../aspose.slides/iparagraphformat/marginleft) { get; set; } | مقدار یا تنظیم حاشیه چپ در پاراگراف بدون ارث‌بری. Single قابل‌خواندن/قابل‌نوشتن. |
+| [MarginRight](../../aspose.slides/iparagraphformat/marginright) { get; set; } | مقدار یا تنظیم حاشیه راست در پاراگراف بدون ارث‌بری. Single قابل‌خواندن/قابل‌نوشتن. |
+| [RightToLeft](../../aspose.slides/iparagraphformat/righttoleft) { get; set; } | تعیین می‌کند که آیا نوشتار راست به چپ در پاراگراف استفاده می‌شود یا خیر. بدون ارث‌بری. [`NullableBool`](../nullablebool) قابل‌خواندن/قابل‌نوشتن. |
+| [SpaceAfter](../../aspose.slides/iparagraphformat/spaceafter) { get; set; } | مقدار یا تنظیم مقدار فضای پس از آخرین خط در پاراگراف بدون ارث‌بری. مقدار مثبت درصد اندازهٔ قلم را تعیین می‌کند؛ مقدار منفی اندازهٔ فضای سفید را به پوینت تعیین می‌کند. Single قابل‌خواندن/قابل‌نوشتن. |
+| [SpaceBefore](../../aspose.slides/iparagraphformat/spacebefore) { get; set; } | مقدار یا تنظیم مقدار فضای قبل از اولین خط در پاراگراف بدون ارث‌بری. مقدار مثبت درصد اندازهٔ قلم را تعیین می‌کند؛ مقدار منفی اندازهٔ فضای سفید را به پوینت تعیین می‌کند. Single قابل‌خواندن/قابل‌نوشتن. |
+| [SpaceWithin](../../aspose.slides/iparagraphformat/spacewithin) { get; set; } | مقدار یا تنظیم فاصله بین خطوط پایه در پاراگراف. مقدار مثبت به درصد، مقدار منفی به پوینت. بدون ارث‌بری. Single قابل‌خواندن/قابل‌نوشتن. |
+| [Tabs](../../aspose.slides/iparagraphformat/tabs) { get; } | مقدار یا تنظیم تب‌های پاراگراف. بدون ارث‌بری. [`ITabCollection`](../itabcollection) فقط‌خواندنی. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [GetEffective](../../aspose.slides/iparagraphformat/geteffective)() | دریافت داده‌های قالب‌بندی مؤثر پاراگراف با اعمال ارث‌بری. |
+
+### Remarks
+
+این کلاس برای برگرداندن و دستکاری ویژگی‌های قالب‌بندی پاراگرف تعریف‌شده برای پاراگراف خاص استفاده می‌شود. این بدان معناست که هنگام دریافت مقادیر هیچ ارث‌بری‌ای اعمال نمی‌شود و در اکثر موارد مقادیر «نامشخص» دریافت می‌کنید.
+
+برای دریافت مقادیر مؤثر پارامترهای قالب‌بندی شامل مقادیر ارث‌بری شده، باید از روش [`GetEffective`](./geteffective) استفاده کنید که یک نمونهٔ [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) را برمی‌گرداند.
+
+### See Also
+
+* فضای‌نام [Aspose.Slides](../../aspose.slides)
+* مجوعه [Aspose.Slides](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

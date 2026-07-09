@@ -1,14 +1,14 @@
 ---
 title: CameraPresetType
 second_title: Aspose.Sildes for .NET API リファレンス
-description: カメラのプリセットタイプを定義する定数。
+description: カメラプリセットタイプを定義する定数。
 type: docs
-weight: 1080
+weight: 1100
 url: /ja/aspose.slides/camerapresettype/
 ---
-## CameraPresetType 列挙体
+## CameraPresetType 列挙型
 
-カメラのプリセットタイプを定義する定数。
+カメラプリセットタイプを定義する定数。
 
 ```csharp
 public enum CameraPresetType

@@ -3,12 +3,12 @@ title: MarkdownSaveOptions
 second_title: Aspose.Sildes için .NET API Referansı
 description: Sunumun markdown olarak kaydedilmesini kontrol eden seçenekleri temsil eder.
 type: docs
-weight: 4230
+weight: 4250
 url: /tr/aspose.slides.export/markdownsaveoptions/
 ---
 ## MarkdownSaveOptions sınıfı
 
-Sunumun markdown olarak nasıl kaydedileceğini kontrol eden seçenekleri temsil eder.
+Belirtilen seçenekler, sunumun markdown olarak kaydedilmesini kontrol eder.
 
 ```csharp
 public class MarkdownSaveOptions : SaveOptions
@@ -24,22 +24,22 @@ public class MarkdownSaveOptions : SaveOptions
 
 | Ad | Açıklama |
 | --- | --- |
-| [BasePath](../../aspose.slides.export/markdownsaveoptions/basepath) { get; set; } | Kaynaklarla birlikte belgenin kaydedileceği temel yolu belirtir. Varsayılan, uygulamanın geçerli dizinidir. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Kaynak yazı tipi bulunamadığında kullanılan yazı tipini döndürür veya ayarlar. Okunabilir-yazılabilir String. |
-| [ExportType](../../aspose.slides.export/markdownsaveoptions/exporttype) { get; set; } | Sunumu dönüştürmek için markdown belirtimini belirler. Varsayılan `TextOnly`. |
-| [Flavor](../../aspose.slides.export/markdownsaveoptions/flavor) { get; set; } | Sunumu dönüştürmek için markdown belirtimini belirler. Varsayılan `Multi-markdown`. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Gradyanın görsel stilini döndürür veya ayarlar. Okunabilir/yazılabilir [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [BasePath](../../aspose.slides.export/markdownsaveoptions/basepath) { get; set; } | Belge ve kaynakların kaydedileceği temel yolu belirtir. Varsayılan, uygulamanın mevcut dizinidir. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Kaynak yazı tipi bulunamadığında kullanılan yazı tipini alır veya ayarlar. Okuma-yazma String. |
+| [ExportType](../../aspose.slides.export/markdownsaveoptions/exporttype) { get; set; } | Sunumu dönüştürmek için markdown spesifikasyonunu belirtir. Varsayılan `TextOnly`. |
+| [Flavor](../../aspose.slides.export/markdownsaveoptions/flavor) { get; set; } | Sunumu dönüştürmek için markdown spesifikasyonunu belirtir. Varsayılan `Multi-markdown`. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Gradyanın görsel stilini alır veya ayarlar. Okuma-yazma [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [HandleRepeatedSpaces](../../aspose.slides.export/markdownsaveoptions/handlerepeatedspaces) { get; set; } |  |
-| [ImagesSaveFolderName](../../aspose.slides.export/markdownsaveoptions/imagessavefoldername) { get; set; } | Görüntülerin kaydedileceği klasör adını belirtir. Varsayılan `Images`. |
-| [NewLineType](../../aspose.slides.export/markdownsaveoptions/newlinetype) { get; set; } | Oluşturulan belgenin \\r(Macintosh), \\n(Unix) veya \\r\\n(Windows) satır sonu karakterlerinden hangisine sahip olacağını belirtir. Varsayılan `Unix`. |
+| [ImagesSaveFolderName](../../aspose.slides.export/markdownsaveoptions/imagessavefoldername) { get; set; } | Görüntüleri kaydetmek için klasör adını belirtir. Varsayılan `Images`. |
+| [NewLineType](../../aspose.slides.export/markdownsaveoptions/newlinetype) { get; set; } | Oluşturulan belgenin yeni satır karakteri olarak \\r (Macintosh), \\n (Unix) veya \\r\\n (Windows) kullanıp kullanmayacağını belirtir. Varsayılan `Unix`. |
 | [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Yüzde olarak kaydetme ilerleme güncellemeleri için bir geri çağırma nesnesini temsil eder. Bakınız [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [RemoveEmptyLines](../../aspose.slides.export/markdownsaveoptions/removeemptylines) { get; set; } | `true` olarak ayarlanırsa, nihai Markdown çıktısından boş veya sadece boşluk içeren satırları kaldırır. Varsayılan `false`. |
+| [RemoveEmptyLines](../../aspose.slides.export/markdownsaveoptions/removeemptylines) { get; set; } | `true` olarak ayarlanırsa, son Markdown çıktısındaki boş veya yalnızca boşluk içeren satırları kaldırır. Varsayılan `false`. |
 | [ShowComments](../../aspose.slides.export/markdownsaveoptions/showcomments) { get; set; } | Oluşturulan belgenin yorumları gösterip göstermeyeceğini belirtir. Varsayılan `false`. |
 | [ShowHiddenSlides](../../aspose.slides.export/markdownsaveoptions/showhiddenslides) { get; set; } | Oluşturulan belgenin gizli slaytları içerip içermeyeceğini belirtir. Varsayılan `false`. |
 | [ShowSlideNumber](../../aspose.slides.export/markdownsaveoptions/showslidenumber) { get; set; } | Oluşturulan belgenin her slaytın numarasını gösterip göstermeyeceğini belirtir. Varsayılan `false`. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Sunumu kaydederken JavaScript çağrıları içeren köprüleri atlayıp atlamayacağını belirtir. Okunabilir/yazılabilir Boolean. Varsayılan değer **false**. |
-| [SlideNumberFormat](../../aspose.slides.export/markdownsaveoptions/slidenumberformat) { get; set; } | Markdown çıktısındaki slayt numarası başlıkları için kullanılan format dizesini alır veya ayarlar. Format, dışa aktarım sırasında slayt indeksine yerleştirilecek \"{0}\" yer tutucusunu içermelidir. Örnek: \"# Slide {0}\" çıktıda \"# Slide 1\", \"# Slide 2\" vb. üretir. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Uyarıları alan ve yükleme işleminin devam edip etmeyeceğine karar veren bir nesneyi döndürür veya ayarlar. Okunabilir/yazılabilir [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Sunumu kaydederken JavaScript çağrısı içeren hiperlinklerin atlanıp atlanmayacağını belirtir. Okuma-yazma Boolean. Varsayılan değer **false**. |
+| [SlideNumberFormat](../../aspose.slides.export/markdownsaveoptions/slidenumberformat) { get; set; } | Markdown çıktısında slayt numarası başlıkları için kullanılan biçim dizesini alır veya ayarlar. Biçim, dışa aktarım sırasında slayt indeksine yerleştirilecek "{0}" yer tutucusunu içermelidir. Örnek: "# Slide {0}" "# Slide 1", "# Slide 2" vb. üretir. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Uyarıları alan ve yükleme işleminin devam edip etmeyeceğine karar veren bir nesneyi alır veya ayarlar. Okuma-yazma [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Örnekler
 

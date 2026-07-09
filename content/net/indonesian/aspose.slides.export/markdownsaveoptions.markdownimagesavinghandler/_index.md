@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions.MarkdownImageSavingHandler
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Dipanggil untuk setiap gambar non-SVG bitmap atau metafile selama ekspor Markdown. Kembalikan true untuk menggunakan tautan yang ditentukan atau false untuk menerapkan logika penyimpanan default.
 type: docs
-weight: 4240
+weight: 4260
 url: /id/aspose.slides.export/markdownsaveoptions.markdownimagesavinghandler/
 ---
 ## MarkdownSaveOptions.MarkdownImageSavingHandler delegate
 
-Dipanggil untuk setiap gambar non-SVG (bitmap atau metafile) selama ekspor Markdown. Kembalikan `true` untuk menggunakan *link* yang ditentukan, atau `false` untuk menerapkan logika penyimpanan default.
+Dipanggil untuk setiap gambar non-SVG (bitmap atau metafile) selama ekspor Markdown. Kembalikan `true` untuk menggunakan *tautan* yang ditentukan, atau `false` untuk menerapkan logika penyimpanan default.
 
 ```csharp
 public delegate bool MarkdownImageSavingHandler(IImage image, ImageFormat format, ref string link);
@@ -18,7 +18,7 @@ public delegate bool MarkdownImageSavingHandler(IImage image, ImageFormat format
 | --- | --- | --- |
 | image | IImage | Gambar yang sedang diekspor (bitmap atau metafile). |
 | format | ImageFormat | Format gambar. |
-| link | String& | Tautan Markdown yang akan digunakan ketika mengembalikan `true`. |
+| link | String& | Tautan Markdown yang digunakan ketika mengembalikan `true`. |
 
 ### Lihat Juga
 

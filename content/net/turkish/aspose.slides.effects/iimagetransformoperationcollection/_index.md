@@ -1,14 +1,14 @@
 ---
 title: IImageTransformOperationCollection
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Bir görüntüye uygulanan efektlerin koleksiyonunu temsil eder.
 type: docs
-weight: 3380
+weight: 3400
 url: /tr/aspose.slides.effects/iimagetransformoperationcollection/
 ---
-## IImageTransformOperationCollection arayüz
+## IImageTransformOperationCollection arayüzü
 
-Bir görüntüye uygulanan efektlerin koleksiyonunu temsil eder.
+Bir görüntüye uygulanmış efektlerin koleksiyonunu temsil eder.
 
 ```csharp
 public interface IImageTransformOperationCollection : ICollection<IImageTransformOperation>
@@ -18,34 +18,34 @@ public interface IImageTransformOperationCollection : ICollection<IImageTransfor
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.effects/iimagetransformoperationcollection/asienumerable) { get; } | IEnumerable arabirimini döndürür. Salt-okunur IEnumerable. |
-| [Item](../../aspose.slides.effects/iimagetransformoperationcollection/item) { get; } | Koleksiyondan indeksine göre bir [`IImageTransformOperation`](../iimagetransformoperation) döndürür. |
+| [AsIEnumerable](../../aspose.slides.effects/iimagetransformoperationcollection/asienumerable) { get; } | IEnumerable arayüzünü döndürür. Salt okunur IEnumerable. |
+| [Item](../../aspose.slides.effects/iimagetransformoperationcollection/item) { get; } | Koleksiyondan [`IImageTransformOperation`](../iimagetransformoperation) öğesini indeksine göre döndürür. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [AddAlphaBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphabileveleffect)(float) | Yeni Alpha Bi-Level etkisini koleksiyonun sonuna ekler. |
-| [AddAlphaCeilingEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaceilingeffect)() | Yeni Alpha Ceiling etkisini koleksiyonun sonuna ekler. |
-| [AddAlphaFloorEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaflooreffect)() | Yeni Alpha Floor etkisini koleksiyonun sonuna ekler. |
-| [AddAlphaInverseEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphainverseeffect)() | Yeni Alpha Inverse etkisini koleksiyonun sonuna ekler. |
-| [AddAlphaModulateEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulateeffect)() | Yeni Alpha Modulate etkisini koleksiyonun sonuna ekler. |
-| [AddAlphaModulateFixedEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulatefixedeffect)(float) | Yeni Alpha Modulate Fixed etkisini koleksiyonun sonuna ekler. |
-| [AddAlphaReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphareplaceeffect)(float) | Yeni Alpha Replace etkisini koleksiyonun sonuna ekler. |
-| [AddBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbileveleffect)(float) | Yeni Bi-Level (black/white) etkisini koleksiyonun sonuna ekler. |
-| [AddBlurEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addblureffect)(double, bool) | Yeni Blur etkisini koleksiyonun sonuna ekler. |
-| [AddBrightnessContrastEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbrightnesscontrasteffect)(float, float) | Yeni BrightnessContrast etkisini koleksiyonun sonuna ekler. |
-| [AddColorChangeEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorchangeeffect)() | Yeni Color Change etkisini koleksiyonun sonuna ekler. |
-| [AddColorReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorreplaceeffect)() | Yeni Color Replacement etkisini koleksiyonun sonuna ekler. |
-| [AddDuotoneEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addduotoneeffect)() | Yeni Duotone etkisini koleksiyonun sonuna ekler. |
-| [AddFillOverlayEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addfilloverlayeffect)() | Yeni Fill Overlay etkisini koleksiyonun sonuna ekler. |
-| [AddGrayScaleEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addgrayscaleeffect)() | Yeni Gray Scale etkisini koleksiyonun sonuna ekler. |
-| [AddHSLEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addhsleffect)(float, float, float) | Yeni Hue/Saturation/Luminance etkisini koleksiyonun sonuna ekler. |
-| [AddLuminanceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addluminanceeffect)(float, float) | Yeni Luminance etkisini koleksiyonun sonuna ekler. |
-| [AddTintEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addtinteffect)(float, float) | Yeni Tint etkisini koleksiyonun sonuna ekler. |
-| [RemoveAt](../../aspose.slides.effects/iimagetransformoperationcollection/removeat)(int) | Belirtilen indeksteki bir görüntü efektini koleksiyondan kaldırır. |
+| [AddAlphaBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphabileveleffect)(float) | Koleksiyonun sonuna yeni Alpha Bi-Level etkisini ekler. |
+| [AddAlphaCeilingEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaceilingeffect)() | Koleksiyonun sonuna yeni Alpha Ceiling etkisini ekler. |
+| [AddAlphaFloorEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaflooreffect)() | Koleksiyonun sonuna yeni Alpha Floor etkisini ekler. |
+| [AddAlphaInverseEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphainverseeffect)() | Koleksiyonun sonuna yeni Alpha Inverse etkisini ekler. |
+| [AddAlphaModulateEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulateeffect)() | Koleksiyonun sonuna yeni Alpha Modulate etkisini ekler. |
+| [AddAlphaModulateFixedEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulatefixedeffect)(float) | Koleksiyonun sonuna yeni Alpha Modulate Fixed etkisini ekler. |
+| [AddAlphaReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphareplaceeffect)(float) | Koleksiyonun sonuna yeni Alpha Replace etkisini ekler. |
+| [AddBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbileveleffect)(float) | Koleksiyonun sonuna yeni Bi-Level (black/white) etkisini ekler. |
+| [AddBlurEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addblureffect)(double, bool) | Koleksiyonun sonuna yeni Blur etkisini ekler. |
+| [AddBrightnessContrastEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbrightnesscontrasteffect)(float, float) | Koleksiyonun sonuna yeni BrightnessContrast etkisini ekler. |
+| [AddColorChangeEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorchangeeffect)() | Koleksiyonun sonuna yeni Color Change etkisini ekler. |
+| [AddColorReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorreplaceeffect)() | Koleksiyonun sonuna yeni Color Replacement etkisini ekler. |
+| [AddDuotoneEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addduotoneeffect)() | Koleksiyonun sonuna yeni Duotone etkisini ekler. |
+| [AddFillOverlayEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addfilloverlayeffect)() | Koleksiyonun sonuna yeni Fill Overlay etkisini ekler. |
+| [AddGrayScaleEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addgrayscaleeffect)() | Koleksiyonun sonuna yeni Gray Scale etkisini ekler. |
+| [AddHSLEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addhsleffect)(float, float, float) | Koleksiyonun sonuna yeni Hue/Saturation/Luminance etkisini ekler. |
+| [AddLuminanceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addluminanceeffect)(float, float) | Koleksiyonun sonuna yeni Luminance etkisini ekler. |
+| [AddTintEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addtinteffect)(float, float) | Koleksiyonun sonuna yeni Tint etkisini ekler. |
+| [RemoveAt](../../aspose.slides.effects/iimagetransformoperationcollection/removeat)(int) | Belirtilen indeksde bir görüntü etkisini koleksiyondan kaldırır. |
 
-### Bakınız
+### Bkz
 
 * arayüz [IImageTransformOperation](../iimagetransformoperation)
 * ad alanı [Aspose.Slides.Effects](../../aspose.slides.effects)

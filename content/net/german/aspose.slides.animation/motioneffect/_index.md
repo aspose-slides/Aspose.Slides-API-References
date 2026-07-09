@@ -1,15 +1,14 @@
 ---
 title: MotionEffect
-second_title: Aspose.Slides für .NET API Referenz
-description: Repräsentiert das Verhalten von Bewegungseffekten.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt das Verhalten des Bewegungseffekts dar.
 type: docs
-weight: 590
+weight: 670
 url: /de/aspose.slides.animation/motioneffect/
 ---
+## MotionEffect Klasse
 
-## MotionEffect-Klasse
-
-Repräsentiert das Verhalten von Bewegungseffekten.
+Stellt das Verhalten des Bewegungseffekts dar.
 
 ```csharp
 public class MotionEffect : Behavior, IMotionEffect
@@ -25,24 +24,24 @@ public class MotionEffect : Behavior, IMotionEffect
 
 | Name | Beschreibung |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Gibt an, ob Animationseffekte akkumuliert werden. Lese-/Schreibzugriff [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Gibt an, ob der aktuelle Animationseffekt mit anderen laufenden Animationen kombiniert wird. Lese-/Schreibzugriff [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [Angle](../../aspose.slides.animation/motioneffect/angle) { get; set; } | Beschreibt den relativen Winkel des Bewegungspfades. Lese-/Schreibzugriff Single. |
-| [By](../../aspose.slides.animation/motioneffect/by) { get; set; } | Beschreibt den relativen Versatzwert für die Animation (in Prozent). Lese-/Schreibzugriff PointF. |
-| [From](../../aspose.slides.animation/motioneffect/from) { get; set; } | Gibt eine x/y-Koordinate an, von der die Animation starten soll (in Prozent). Lese-/Schreibzugriff PointF. |
-| [Origin](../../aspose.slides.animation/motioneffect/origin) { get; set; } | Gibt an, was der Ursprung des Bewegungspfades im Verhältnis zu anderen Elementen wie dem Layout der Folie oder dem übergeordneten Element ist. Lese-/Schreibzugriff [`MotionOriginType`](../motionorigintype). |
-| [Path](../../aspose.slides.animation/motioneffect/path) { get; set; } | Gibt die Pfadprimitive an, die von den Koordinaten für die Animationsbewegung gefolgt wird. Lese-/Schreibzugriff [`IMotionPath`](../imotionpath). |
-| [PathEditMode](../../aspose.slides.animation/motioneffect/patheditmode) { get; set; } | Gibt an, wie sich der Bewegungspfad bewegt, wenn die Form verschoben wird. Lese-/Schreibzugriff [`MotionPathEditMode`](../motionpatheditmode). |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Repräsentiert die Eigenschaften des Verhaltens. Nur Lesezugriff [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [RotationCenter](../../aspose.slides.animation/motioneffect/rotationcenter) { get; set; } | Beschreibt das Zentrum der Rotation, das verwendet wird, um einen Bewegungspfad um den X-Winkel zu drehen. Lese-/Schreibzugriff PointF. |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Repräsentiert die Timing-Eigenschaften für das Verhaltens-Effect. Lese-/Schreibzugriff [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/motioneffect/to) { get; set; } | Gibt den Zielort für einen Bewegungseffekt der Animation an (in Prozent). Lese-/Schreibzugriff PointF. |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Stellt dar, ob Animationsverhalten akkumuliert wird. Lese-/Schreibzugriff [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Stellt dar, ob das aktuelle Animationsverhalten mit anderen laufenden Animationen kombiniert wird. Lese-/Schreibzugriff [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Angle](../../aspose.slides.animation/motioneffect/angle) { get; set; } | Beschreibt den relativen Winkel des Bewegungspfads. Lese-/Schreibzugriff Single. |
+| [By](../../aspose.slides.animation/motioneffect/by) { get; set; } | Beschreibt den relativen Versatzwert für die Animation (in Prozent). Lese-/Schreibzugriff PointF. |
+| [From](../../aspose.slides.animation/motioneffect/from) { get; set; } | Gibt eine x/y-Koordinate an, von der die Animation gestartet wird (in Prozent). Lese-/Schreibzugriff PointF. |
+| [Origin](../../aspose.slides.animation/motioneffect/origin) { get; set; } | Gibt an, worauf sich der Ursprung des Bewegungspfads bezieht, z. B. das Folienlayout oder das übergeordnete Element. Lese-/Schreibzugriff [`MotionOriginType`](../motionorigintype). |
+| [Path](../../aspose.slides.animation/motioneffect/path) { get; set; } | Gibt das Pfadprimitive an, gefolgt von Koordinaten für die Animationsbewegung. Lese-/Schreibzugriff [`IMotionPath`](../imotionpath). |
+| [PathEditMode](../../aspose.slides.animation/motioneffect/patheditmode) { get; set; } | Gibt an, wie sich der Bewegungspfad bewegt, wenn die Form verschoben wird. Lese-/Schreibzugriff [`MotionPathEditMode`](../motionpatheditmode). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Stellt Eigenschaften des Verhaltens dar. Nur lesbar [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [RotationCenter](../../aspose.slides.animation/motioneffect/rotationcenter) { get; set; } | Beschreibt den Rotationsmittelpunkt, der verwendet wird, um einen Bewegungspfad um X Winkel zu drehen. Lese-/Schreibzugriff PointF. |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Stellt Zeiteigenschaften für das Effektverhalten dar. Lese-/Schreibzugriff [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/motioneffect/to) { get; set; } | Gibt den Zielort für einen bewegten Animationseffekt an (in Prozent). Lese-/Schreibzugriff PointF. |
 
 ### Siehe auch
 
-* Klasse [Behavior](../behavior)
-* Schnittstelle [IMotionEffect](../imotioneffect)
-* Namespace [Aspose.Slides.Animation](../../aspose.slides.animation)
-* Assembly [Aspose.Slides](../../)
+* Klasse [Behavior](../behavior)
+* Schnittstelle [IMotionEffect](../imotioneffect)
+* Namensraum [Aspose.Slides.Animation](../../aspose.slides.animation)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

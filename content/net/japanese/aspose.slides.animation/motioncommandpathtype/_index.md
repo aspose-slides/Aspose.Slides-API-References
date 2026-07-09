@@ -1,14 +1,14 @@
 ---
 title: MotionCommandPathType
-second_title: Aspose.Sildes の .NET API リファレンス
-description: アニメーションのモーションエフェクトの動作に対するコマンドの種類を表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: アニメーションのモーション エフェクトの動作に対するコマンドのタイプを表します。
 type: docs
-weight: 640
+weight: 660
 url: /ja/aspose.slides.animation/motioncommandpathtype/
 ---
 ## MotionCommandPathType 列挙型
 
-アニメーションのモーションエフェクトの動作に対するコマンドの種類を表します。
+アニメーションのモーション エフェクトの動作に対するコマンドのタイプを表します。
 
 ```csharp
 public enum MotionCommandPathType
@@ -24,7 +24,7 @@ public enum MotionCommandPathType
 | CloseLoop | `3` |  |
 | End | `4` |  |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * アセンブリ [Aspose.Slides](../../)

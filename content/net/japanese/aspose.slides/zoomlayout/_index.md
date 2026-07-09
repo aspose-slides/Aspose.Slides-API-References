@@ -1,14 +1,14 @@
 ---
 title: ZoomLayout
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 要約ズームレイアウトを指定します。
+description: 概要ズームレイアウトを指定します。
 type: docs
-weight: 11840
+weight: 11860
 url: /ja/aspose.slides/zoomlayout/
 ---
 ## ZoomLayout 列挙型
 
-要約ズームレイアウトを指定します。
+概要ズームレイアウトを指定します。
 
 ```csharp
 public enum ZoomLayout
@@ -18,8 +18,8 @@ public enum ZoomLayout
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| GridLayout | `0` | オブジェクトのリストに対して、レイアウトをグリッドレイアウトとして指定します。 |
-| FixedLayout | `1` | ユーザー定義のズーム位置でレイアウトを指定します。 |
+| GridLayout | `0` | オブジェクトのリストに対してグリッドレイアウトとして配置することを指定します。 |
+| FixedLayout | `1` | ユーザー定義のズーム位置指定によるレイアウトを指定します。 |
 
 ### 参照
 

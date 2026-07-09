@@ -1,14 +1,14 @@
 ---
 title: IStringChartValue
-second_title: Aspose.Sildes para .NET Referência da API
-description: Representa um valor de string que pode ser armazenado em um documento de apresentação pptx de duas maneiras: 1) em célula(s) da pasta de trabalho relacionada ao gráfico; 2) como valor literal.
+second_title: "Aspose.Sildes para .NET Referência de API"
+description: "Representa valor de string que pode ser armazenado em documento de apresentação pptx de duas maneiras: 1) em célula(s) da pasta de trabalho relacionada ao gráfico; 2) como valor literal."
 type: docs
-weight: 2200
+weight: 2220
 url: /pt/aspose.slides.charts/istringchartvalue/
 ---
 ## IStringChartValue interface
 
-Representa um valor de string que pode ser armazenado em um documento de apresentação pptx de duas maneiras: 1) em célula(s) da pasta de trabalho relacionada ao gráfico; 2) como valor literal.
+Representa valor de texto que pode ser armazenado em documento de apresentação pptx de duas maneiras: 1) em célula(s) da planilha relacionada ao gráfico; 2) como valor literal.
 
 ```csharp
 public interface IStringChartValue : IMultipleCellChartValue
@@ -25,11 +25,11 @@ public interface IStringChartValue : IMultipleCellChartValue
 
 | Nome | Descrição |
 | --- | --- |
-| [GetCellsAddressInWorkbook](../../aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook)() | Se a propriedade DataSourceType for DataSourceType.Worksheet, então este método retorna o endereço das células na pasta de trabalho que representam os dados de string. Caso contrário, retorna uma string vazia. |
+| [GetCellsAddressInWorkbook](../../aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook)() | Se a propriedade DataSourceType for DataSourceType.Worksheet, então este método devolve o endereço das células na planilha que representam os dados de texto. Caso contrário, devolve uma string vazia. |
 | [SetFromOneCell](../../aspose.slides.charts/istringchartvalue/setfromonecell)(IChartDataCell) | Define o valor a partir da célula especificada. |
-| [ToString](../../aspose.slides.charts/istringchartvalue/tostring)() | Retorna a representação da string. |
+| [ToString](../../aspose.slides.charts/istringchartvalue/tostring)() | Retorna a representação em texto. |
 
-### Veja Também
+### Ver Também
 
 * interface [IMultipleCellChartValue](../imultiplecellchartvalue)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)

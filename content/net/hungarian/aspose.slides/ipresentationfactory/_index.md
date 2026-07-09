@@ -1,14 +1,14 @@
 ---
 title: IPresentationFactory
-second_title: Aspose.Sildes .NET API Referencia
-description: Lehetővé teszi a prezentáció létrehozását COM interfészen keresztül
+second_title: Aspose.Sildes .NET API referencia
+description: Lehetővé teszi a prezentáció létrehozását COM felületen keresztül
 type: docs
-weight: 6750
+weight: 6770
 url: /hu/aspose.slides/ipresentationfactory/
 ---
 ## IPresentationFactory interfész
 
-Lehetővé teszi a prezentáció létrehozását COM interfészen keresztül
+Lehetővé teszi a prezentáció létrehozását COM felületen keresztül
 
 ```csharp
 public interface IPresentationFactory
@@ -20,11 +20,11 @@ public interface IPresentationFactory
 | --- | --- |
 | [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation)() | Új prezentációt hoz létre. |
 | [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Új prezentációt hoz létre további betöltési beállításokkal |
-| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Információt kér a prezentációról a megadott streamben. |
-| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Információt kér a prezentációról a megadott fájlban. |
-| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Kinyeri a nyers szöveget a diákból |
-| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Kinyeri a nyers szöveget a diákból |
-| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Kinyeri a nyers szöveget a diákból |
+| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Információkat kap a prezentációról a megadott streamen. |
+| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Információkat kap a prezentációról a megadott fájlban. |
+| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Lekéri a nyers szöveget a diákról |
+| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Lekéri a nyers szöveget a diákról |
+| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Lekéri a nyers szöveget a diákról |
 | [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation)(byte[]) | Beolvas egy meglévő prezentációt tömbből |
 | [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_2)(Stream) | Beolvas egy meglévő prezentációt streamből |
 | [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_4)(string) | Beolvas egy meglévő prezentációt fájlból |

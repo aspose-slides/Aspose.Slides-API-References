@@ -1,14 +1,14 @@
 ---
 title: ITextFrameFormatEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 効果的なテキストフレーム書式設定プロパティを含む不変オブジェクトです。
+description: 有効なテキストフレームの書式設定プロパティを含む不変オブジェクトです。
 type: docs
-weight: 7270
+weight: 7290
 url: /ja/aspose.slides/itextframeformateffectivedata/
 ---
 ## ITextFrameFormatEffectiveData インターフェイス
 
-効果的なテキストフレームの書式設定プロパティを含む不変オブジェクトです。
+有効なテキスト フレームの書式設定プロパティを含む不変オブジェクトです。
 
 ```csharp
 public interface ITextFrameFormatEffectiveData
@@ -19,21 +19,21 @@ public interface ITextFrameFormatEffectiveData
 | 名前 | 説明 |
 | --- | --- |
 | [AnchoringType](../../aspose.slides/itextframeformateffectivedata/anchoringtype) { get; } | TextFrame の垂直アンカー テキストを返します。読み取り専用 [`TextAnchorType`](../textanchortype)。 |
-| [AutofitType](../../aspose.slides/itextframeformateffectivedata/autofittype) { get; } | テキストの自動調整モードを返します。読み取り専用 [`TextAutofitType`](../textautofittype)。 |
-| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | テキストを水平方向にボックスの中心に配置すべきかどうかを返します。読み取り専用 Boolean。 |
+| [AutofitType](../../aspose.slides/itextframeformateffectivedata/autofittype) { get; } | テキスト自動調整モードを返します。読み取り専用 [`TextAutofitType`](../textautofittype)。 |
+| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | テキストを水平にボックスの中央に配置すべきかどうかを返します。読み取り専用 Boolean。 |
 | [ColumnCount](../../aspose.slides/itextframeformateffectivedata/columncount) { get; } | バウンディング矩形内のテキスト列数を指定します。読み取り専用 Int32。 |
 | [ColumnSpacing](../../aspose.slides/itextframeformateffectivedata/columnspacing) { get; } | テキスト領域内のテキスト列間のスペース（ポイント単位）を指定します。読み取り専用 Single。 |
-| [MarginBottom](../../aspose.slides/itextframeformateffectivedata/marginbottom) { get; } | TextFrame の下部マージン（ポイント）を返します。読み取り専用 Double。 |
-| [MarginLeft](../../aspose.slides/itextframeformateffectivedata/marginleft) { get; } | TextFrame の左マージン（ポイント）を返します。読み取り専用 Double。 |
-| [MarginRight](../../aspose.slides/itextframeformateffectivedata/marginright) { get; } | TextFrame の右マージン（ポイント）を返します。読み取り専用 Double。 |
-| [MarginTop](../../aspose.slides/itextframeformateffectivedata/margintop) { get; } | TextFrame の上部マージン（ポイント）を返します。読み取り専用 Double。 |
-| [TextStyle](../../aspose.slides/itextframeformateffectivedata/textstyle) { get; } | 効果的なテキストのスタイルを返します。読み取り専用 [`ITextStyleEffectiveData`](../itextstyleeffectivedata)。 |
+| [MarginBottom](../../aspose.slides/itextframeformateffectivedata/marginbottom) { get; } | TextFrame の下余白（ポイント）を返します。読み取り専用 Double。 |
+| [MarginLeft](../../aspose.slides/itextframeformateffectivedata/marginleft) { get; } | TextFrame の左余白（ポイント）を返します。読み取り専用 Double。 |
+| [MarginRight](../../aspose.slides/itextframeformateffectivedata/marginright) { get; } | TextFrame の右余白（ポイント）を返します。読み取り専用 Double。 |
+| [MarginTop](../../aspose.slides/itextframeformateffectivedata/margintop) { get; } | TextFrame の上余白（ポイント）を返します。読み取り専用 Double。 |
+| [TextStyle](../../aspose.slides/itextframeformateffectivedata/textstyle) { get; } | 有効なテキストのスタイルを返します。読み取り専用 [`ITextStyleEffectiveData`](../itextstyleeffectivedata)。 |
 | [TextVerticalType](../../aspose.slides/itextframeformateffectivedata/textverticaltype) { get; } | テキストの向きを返します。読み取り専用 [`TextVerticalType`](../textverticaltype)。 |
 | [WrapText](../../aspose.slides/itextframeformateffectivedata/wraptext) { get; } | テキストが TextFrame の余白で折り返されるかどうかを返します。読み取り専用 Boolean。 |
 
 ### 備考
 
-このインターフェイスは [`ITextFrameFormat`](../itextframeformat) インターフェイスと共に使用され、継承が適用された効果的な書式設定値を返します。
+[`ITextFrameFormat`](../itextframeformat) インターフェイスと共に使用され、継承が適用された有効な書式設定値を返します。
 
 ### 参照
 

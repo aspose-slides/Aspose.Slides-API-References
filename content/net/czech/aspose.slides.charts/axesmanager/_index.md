@@ -3,7 +3,7 @@ title: AxesManager
 second_title: Aspose.Sildes pro .NET API Reference
 description: Poskytuje přístup k osám grafu.
 type: docs
-weight: 1150
+weight: 1170
 url: /cs/aspose.slides.charts/axesmanager/
 ---
 ## AxesManager třída

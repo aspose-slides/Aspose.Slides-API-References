@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulateFixedEffectiveData
-second_title: Aspose.Sildes .NET API Referansı
-description: Alfa Modüle Sabit etkisini temsil eden değişmez nesne. Etki alfa opaklık değerleri sabit bir yüzde ile çarpılır.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Alpha Modulate Fixed etkisini temsil eden değiştirilemez nesne. Etki alfa saydamlık değerleri sabit bir yüzdeyle çarpılır.
 type: docs
-weight: 3110
+weight: 3130
 url: /tr/aspose.slides.effects/ialphamodulatefixedeffectivedata/
 ---
-## IAlphaModulateFixedEffectiveData arayüz
+## IAlphaModulateFixedEffectiveData arayüzü
 
-Değişmez nesne ve bir Alpha Modulate Fixed etkisini temsil eder. Etki alfa (opaklık) değerleri sabit bir yüzde ile çarpılır.
+Değiştirilemez nesne, Alpha Modulate Fixed etkisini temsil eder. Etki alfa (saydamlık) değerleri sabit bir yüzdeyle çarpılır.
 
 ```csharp
 public interface IAlphaModulateFixedEffectiveData : IEffectEffectiveData
@@ -18,8 +18,8 @@ public interface IAlphaModulateFixedEffectiveData : IEffectEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/amount) { get; } | Etki miktarını yüzde olarak döndürür. Yalnızca okuma Single. |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzünü almaya izin verir. Yalnızca okuma [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Amount](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/amount) { get; } | Etkinin miktarını yüzde olarak döndürür. Yalnızca okuma Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzünü almayı sağlar. Yalnızca okuma [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Ayrıca Bakınız
 

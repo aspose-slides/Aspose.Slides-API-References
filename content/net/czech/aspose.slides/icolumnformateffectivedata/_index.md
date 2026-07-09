@@ -1,14 +1,14 @@
 ---
 title: IColumnFormatEffectiveData
 second_title: Aspose.Sildes pro .NET API Reference
-description: Neměnný objekt, který obsahuje efektivní vlastnosti formátování sloupců tabulky.
+description: Neměnný objekt, který obsahuje efektivní formátovací vlastnosti sloupce tabulky.
 type: docs
-weight: 5530
+weight: 5550
 url: /cs/aspose.slides/icolumnformateffectivedata/
 ---
 ## IColumnFormatEffectiveData rozhraní
 
-Neměnný objekt, který obsahuje efektivní vlastnosti formátování sloupců tabulky.
+Neměnný objekt, který obsahuje efektivní formátovací vlastnosti sloupce tabulky.
 
 ```csharp
 public interface IColumnFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -18,11 +18,11 @@ public interface IColumnFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | Název | Popis |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icolumnformateffectivedata/asibasetableformateffectivedata) { get; } | Umožňuje získat základní rozhraní IBaseTableFormatEffectiveData. Pouze pro čtení [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icolumnformateffectivedata/asibasetableformateffectivedata) { get; } | Umožňuje získat základní IBaseTableFormatEffectiveData rozhraní. Pouze ke čtení [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
 
 ### Poznámky
 
-Toto rozhraní se používá spolu s rozhraním [`IColumnFormat`](../icolumnformat) k vrácení efektivních hodnot formátování s aplikovaným děděním a styly tabulky.
+Toto rozhraní se používá společně s rozhraním [`IColumnFormat`](../icolumnformat) k vrácení efektivních hodnot formátování s aplikovaným děděním a styly tabulky.
 
 ### Viz také
 

@@ -1,9 +1,9 @@
 ---
 title: EffectFormat
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Şeklin efekt özelliklerini temsil eder.
 type: docs
-weight: 2810
+weight: 2830
 url: /tr/aspose.slides/effectformat/
 ---
 ## EffectFormat sınıfı
@@ -18,42 +18,42 @@ public sealed class EffectFormat : PVIObject, IEffectFormat
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almaya izin verir. Salt okunur [`IPresentationComponent`](../ipresentationcomponent). |
-| [BlurEffect](../../aspose.slides/effectformat/blureffect) { get; set; } | Bulanık efekt. Okunur/yazılabilir [`IBlur`](../../aspose.slides.effects/iblur). |
-| [FillOverlayEffect](../../aspose.slides/effectformat/filloverlayeffect) { get; set; } | Dolgu kaplama efekti. Okunur/yazılabilir [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
-| [GlowEffect](../../aspose.slides/effectformat/gloweffect) { get; set; } | Parlama efekti. Okunur/yazılabilir [`IGlow`](../../aspose.slides.effects/iglow). |
-| [InnerShadowEffect](../../aspose.slides/effectformat/innershadoweffect) { get; set; } | İç gölge. Okunur/yazılabilir [`IInnerShadow`](../../aspose.slides.effects/iinnershadow). |
-| [IsNoEffects](../../aspose.slides/effectformat/isnoeffects) { get; } | Tüm efektler devre dışı bırakıldıysa (yeni oluşturulmuş, varsayılan EffectFormat nesnesi gibi) true döndürür. Salt okunur Boolean. |
-| [OuterShadowEffect](../../aspose.slides/effectformat/outershadoweffect) { get; set; } | Dış gölge. Okunur/yazılabilir [`IOuterShadow`](../../aspose.slides.effects/ioutershadow). |
-| [PresetShadowEffect](../../aspose.slides/effectformat/presetshadoweffect) { get; set; } | Önceden ayarlanmış gölge. Okunur/yazılabilir [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow). |
-| [ReflectionEffect](../../aspose.slides/effectformat/reflectioneffect) { get; set; } | Yansıma. Okunur/yazılabilir [`IReflection`](../../aspose.slides.effects/ireflection). |
-| [SoftEdgeEffect](../../aspose.slides/effectformat/softedgeeffect) { get; set; } | Yumuşak kenar. Okunur/yazılabilir [`ISoftEdge`](../../aspose.slides.effects/isoftedge). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almayı sağlar. Yalnızca okunabilir [`IPresentationComponent`](../ipresentationcomponent). |
+| [BlurEffect](../../aspose.slides/effectformat/blureffect) { get; set; } | Bulanıklaştırma efekti. Okunabilir/Yazılabilir [`IBlur`](../../aspose.slides.effects/iblur). |
+| [FillOverlayEffect](../../aspose.slides/effectformat/filloverlayeffect) { get; set; } | Dolgu bindirme efekti. Okunabilir/Yazılabilir [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
+| [GlowEffect](../../aspose.slides/effectformat/gloweffect) { get; set; } | Parıltı efekti. Okunabilir/Yazılabilir [`IGlow`](../../aspose.slides.effects/iglow). |
+| [InnerShadowEffect](../../aspose.slides/effectformat/innershadoweffect) { get; set; } | İç gölge. Okunabilir/Yazılabilir [`IInnerShadow`](../../aspose.slides.effects/iinnershadow). |
+| [IsNoEffects](../../aspose.slides/effectformat/isnoeffects) { get; } | Tüm efektler devre dışı bırakılmışsa (yeni oluşturulmuş, varsayılan EffectFormat nesnesi) true döndürür. Yalnızca okunabilir Boolean. |
+| [OuterShadowEffect](../../aspose.slides/effectformat/outershadoweffect) { get; set; } | Dış gölge. Okunabilir/Yazılabilir [`IOuterShadow`](../../aspose.slides.effects/ioutershadow). |
+| [PresetShadowEffect](../../aspose.slides/effectformat/presetshadoweffect) { get; set; } | Ön ayar gölge. Okunabilir/Yazılabilir [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow). |
+| [ReflectionEffect](../../aspose.slides/effectformat/reflectioneffect) { get; set; } | Yansıma. Okunabilir/Yazılabilir [`IReflection`](../../aspose.slides.effects/ireflection). |
+| [SoftEdgeEffect](../../aspose.slides/effectformat/softedgeeffect) { get; set; } | Yumuşak kenar. Okunabilir/Yazılabilir [`ISoftEdge`](../../aspose.slides.effects/isoftedge). |
 
-## Metodlar
+## Metotlar
 
 | Ad | Açıklama |
 | --- | --- |
-| [DisableBlurEffect](../../aspose.slides/effectformat/disableblureffect)() | Bulanık efekti devre dışı bırakır. |
-| [DisableFillOverlayEffect](../../aspose.slides/effectformat/disablefilloverlayeffect)() | Dolgu kaplama efektini devre dışı bırakır. |
-| [DisableGlowEffect](../../aspose.slides/effectformat/disablegloweffect)() | Parlama efektini devre dışı bırakır. |
-| [DisableInnerShadowEffect](../../aspose.slides/effectformat/disableinnershadoweffect)() | İç gölge efektini devre dışı bırakır. |
-| [DisableOuterShadowEffect](../../aspose.slides/effectformat/disableoutershadoweffect)() | Dış gölge efektini devre dışı bırakır. |
-| [DisablePresetShadowEffect](../../aspose.slides/effectformat/disablepresetshadoweffect)() | Önceden ayarlanmış gölge efektini devre dışı bırakır. |
-| [DisableReflectionEffect](../../aspose.slides/effectformat/disablereflectioneffect)() | Yansıma efektini devre dışı bırakır. |
-| [DisableSoftEdgeEffect](../../aspose.slides/effectformat/disablesoftedgeeffect)() | Yumuşak kenar efektini devre dışı bırakır. |
-| [EnableFillOverlayEffect](../../aspose.slides/effectformat/enablefilloverlayeffect)() | Dolgu kaplama efektini etkinleştirir. |
-| [EnableGlowEffect](../../aspose.slides/effectformat/enablegloweffect)() | Parlama efektini etkinleştirir. |
-| [EnableInnerShadowEffect](../../aspose.slides/effectformat/enableinnershadoweffect)() | İç gölge efektini etkinleştirir. |
-| [EnableOuterShadowEffect](../../aspose.slides/effectformat/enableoutershadoweffect)() | Dış gölge efektini etkinleştirir. |
-| [EnablePresetShadowEffect](../../aspose.slides/effectformat/enablepresetshadoweffect)() | Önceden ayarlanmış gölge efektlerini etkinleştirir. |
-| [EnableReflectionEffect](../../aspose.slides/effectformat/enablereflectioneffect)() | Yansıma efektini etkinleştirir. |
-| [EnableSoftEdgeEffect](../../aspose.slides/effectformat/enablesoftedgeeffect)() | Yumuşak kenar efektini etkinleştirir. |
+| [DisableBlurEffect](../../aspose.slides/effectformat/disableblureffect)() | Bulanıklaştırma etkisini devre dışı bırakır. |
+| [DisableFillOverlayEffect](../../aspose.slides/effectformat/disablefilloverlayeffect)() | Dolgu bindirme etkisini devre dışı bırakır. |
+| [DisableGlowEffect](../../aspose.slides/effectformat/disablegloweffect)() | Parıltı etkisini devre dışı bırakır. |
+| [DisableInnerShadowEffect](../../aspose.slides/effectformat/disableinnershadoweffect)() | İç gölge etkisini devre dışı bırakır. |
+| [DisableOuterShadowEffect](../../aspose.slides/effectformat/disableoutershadoweffect)() | Dış gölge etkisini devre dışı bırakır. |
+| [DisablePresetShadowEffect](../../aspose.slides/effectformat/disablepresetshadoweffect)() | Ön ayar gölge etkisini devre dışı bırakır. |
+| [DisableReflectionEffect](../../aspose.slides/effectformat/disablereflectioneffect)() | Yansıma etkisini devre dışı bırakır. |
+| [DisableSoftEdgeEffect](../../aspose.slides/effectformat/disablesoftedgeeffect)() | Yumuşak kenar etkisini devre dışı bırakır. |
+| [EnableFillOverlayEffect](../../aspose.slides/effectformat/enablefilloverlayeffect)() | Dolgu bindirme etkisini etkinleştirir. |
+| [EnableGlowEffect](../../aspose.slides/effectformat/enablegloweffect)() | Parıltı etkisini etkinleştirir. |
+| [EnableInnerShadowEffect](../../aspose.slides/effectformat/enableinnershadoweffect)() | İç gölge etkisini etkinleştirir. |
+| [EnableOuterShadowEffect](../../aspose.slides/effectformat/enableoutershadoweffect)() | Dış gölge etkisini etkinleştirir. |
+| [EnablePresetShadowEffect](../../aspose.slides/effectformat/enablepresetshadoweffect)() | Ön ayar gölgeleri etkinleştirir. |
+| [EnableReflectionEffect](../../aspose.slides/effectformat/enablereflectioneffect)() | Yansıma etkisini etkinleştirir. |
+| [EnableSoftEdgeEffect](../../aspose.slides/effectformat/enablesoftedgeeffect)() | Yumuşak kenar etkisini etkinleştirir. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Belirtilen nesneyle karşılaştırır. |
 | [GetEffective](../../aspose.slides/effectformat/geteffective)() | Uygulanan miras ile etkili efekt biçimlendirme verilerini alır. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Hash kodunu döndürür. |
-| [SetBlurEffect](../../aspose.slides/effectformat/setblureffect)(double, bool) | Bulanık efekti ayarlar. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Karma kod döndürür. |
+| [SetBlurEffect](../../aspose.slides/effectformat/setblureffect)(double, bool) | Bulanıklaştırma etkisini ayarlar. |
 
-### Diğerlerine Bak
+### Diğer Bağlantılar
 
 * sınıf [PVIObject](../pviobject)
 * arayüz [IEffectFormat](../ieffectformat)

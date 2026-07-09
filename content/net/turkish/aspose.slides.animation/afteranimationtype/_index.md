@@ -1,14 +1,14 @@
 ---
 title: AfterAnimationType
-second_title: Aspose.Sildes for .NET API Referansı
-description: Bir animasyon etkisinin ardından gelen animasyon tipini temsil eder.
+second_title: Aspose.Sildes .NET API Referansı
+description: Bir animasyon etkisinin sonraki animasyon tipini temsil eder.
 type: docs
-weight: 90
+weight: 110
 url: /tr/aspose.slides.animation/afteranimationtype/
 ---
-## AfterAnimationType enum'ı
+## AfterAnimationType enum
 
-Bir animasyon etkisinin ardından gelen animasyon tipini temsil eder.
+Bir animasyon etkisinin sonraki animasyon tipini temsil eder.
 
 ```csharp
 public enum AfterAnimationType
@@ -18,12 +18,12 @@ public enum AfterAnimationType
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| DoNotDim | `0` | Animasyon tipinden sonra karartma yapılmaz. |
-| Color | `1` | Animasyon tipinden sonra renk. |
-| HideAfterAnimation | `2` | Animasyon tipinden sonra gizle. |
-| HideOnNextMouseClick | `3` | Animasyon tipinden sonra bir sonraki fare tıklamasında gizle. |
+| DoNotDim | `0` | Animasyondan sonra karartma yapılmaz. |
+| Color | `1` | Animasyondan sonra renk uygulanır. |
+| HideAfterAnimation | `2` | Animasyondan sonra gizle. |
+| HideOnNextMouseClick | `3` | Animasyondan sonra bir sonraki fare tıklamasında gizle. |
 
-### Ayrıca
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.Animation](../../aspose.slides.animation)
 * derleme [Aspose.Slides](../../)

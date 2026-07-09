@@ -1,14 +1,14 @@
 ---
 title: LeftRightDirectionTransition
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Effetto di transizione della diapositiva da sinistra a destra.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Effetto di transizione della diapositiva in direzione sinistra-destra.
 type: docs
-weight: 10220
+weight: 10240
 url: /it/aspose.slides.slideshow/leftrightdirectiontransition/
 ---
 ## LeftRightDirectionTransition classe
 
-Left-right direction slide transition effect.
+Effetto di transizione della diapositiva in direzione sinistra-destra.
 
 ```csharp
 public class LeftRightDirectionTransition : TransitionValueBase, ILeftRightDirectionTransition
@@ -25,7 +25,7 @@ public class LeftRightDirectionTransition : TransitionValueBase, ILeftRightDirec
 | Nome | Descrizione |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina se le due istanze di TransitionValueBase sono uguali. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funge da funzione hash per un tipo particolare, adatta per l'uso in algoritmi di hashing e strutture dati come una tabella hash. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funziona come una funzione hash per un tipo specifico, adatta all'uso in algoritmi di hashing e strutture dati come una tabella hash. |
 
 ### Vedi anche
 

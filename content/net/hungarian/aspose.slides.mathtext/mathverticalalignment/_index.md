@@ -1,14 +1,14 @@
 ---
 title: MathVerticalAlignment
 second_title: Aspose.Sildes .NET API referencia
-description: Vertikális igazítás
+description: Függőleges igazítás
 type: docs
-weight: 9030
+weight: 9050
 url: /hu/aspose.slides.mathtext/mathverticalalignment/
 ---
 ## MathVerticalAlignment enumeráció
 
-Vertikális igazítás
+Függőleges igazítás
 
 ```csharp
 public enum MathVerticalAlignment
@@ -21,7 +21,7 @@ public enum MathVerticalAlignment
 | NotDefined | `0` | Az érték nincs definiálva |
 | Top | `1` | Fent |
 | Center | `2` | Közép |
-| Bottom | `3` | Alul |
+| Bottom | `3` | Lent |
 
 ### Lásd még
 

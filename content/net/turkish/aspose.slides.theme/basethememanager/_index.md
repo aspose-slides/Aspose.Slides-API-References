@@ -3,12 +3,12 @@ title: BaseThemeManager
 second_title: Aspose.Sildes için .NET API Referansı
 description: Farklı tema türlerine erişim sağlayan sınıflar için temel sınıf.
 type: docs
-weight: 11030
+weight: 11050
 url: /tr/aspose.slides.theme/basethememanager/
 ---
-## BaseThemeManager sınıf
+## BaseThemeManager sınıfı
 
-Farklı tema türlerine erişim sağlayan sınıflar için temel sınıf.
+Temalarin farklı türlerine erişim sağlayan sınıflar için temel sınıf.
 
 ```csharp
 public abstract class BaseThemeManager

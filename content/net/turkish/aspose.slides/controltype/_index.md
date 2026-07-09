@@ -1,14 +1,14 @@
 ---
 title: ControlType
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: AddControl./icontrolcollection/addcontrol tarafından gömülmesi gereken bir kontrol türünü tanımlar.
 type: docs
-weight: 2700
+weight: 2720
 url: /tr/aspose.slides/controltype/
 ---
-## ControlType enum
+## ControlType numaralandırması
 
-İlgili [`AddControl`](../icontrolcollection/addcontrol) tarafından gömülmesi gereken bir kontrol türünü tanımlar.
+[`AddControl`](../icontrolcollection/addcontrol) tarafından gömülmesi gereken bir kontrol türünü tanımlar.
 
 ```csharp
 public enum ControlType
@@ -18,9 +18,9 @@ public enum ControlType
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| WindowsMediaPlayer | `0` | Windows Media Player kontrolü. |
+| WindowsMediaPlayer | `0` | Windows Media Player denetimi. |
 
-### Ayrıca
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

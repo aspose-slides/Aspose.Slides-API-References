@@ -3,10 +3,10 @@ title: MathFunctionsOfTwoArguments
 second_title: Aspose.Sildes för .NET API-referens
 description: Vanliga matematiska funktioner med två argument
 type: docs
-weight: 8730
+weight: 8750
 url: /sv/aspose.slides.mathtext/mathfunctionsoftwoarguments/
 ---
-## MathFunctionsOfTwoArguments uppräkning
+## MathFunctionsOfTwoArguments enum
 
 Vanliga matematiska funktioner med två argument
 
@@ -18,8 +18,8 @@ public enum MathFunctionsOfTwoArguments
 
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Log | `0` | Logg |
-| Lim | `1` | Gräns |
+| Log | `0` | Log |
+| Lim | `1` | Limit |
 | Min | `2` | Minimum |
 | Max | `3` | Maximum |
 

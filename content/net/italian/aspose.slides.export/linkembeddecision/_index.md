@@ -3,12 +3,12 @@ title: LinkEmbedDecision
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Determina come l'oggetto verrà elaborato durante il salvataggio.
 type: docs
-weight: 4210
+weight: 4230
 url: /it/aspose.slides.export/linkembeddecision/
 ---
-## LinkEmbedDecision enumerazione
+## enumerazione LinkEmbedDecision
 
-Determina come l'oggetto verrà elaborato durante il salvataggio.
+Determina come l'oggetto sarà elaborato durante il salvataggio.
 
 ```csharp
 public enum LinkEmbedDecision
@@ -18,9 +18,9 @@ public enum LinkEmbedDecision
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Link | `0` | L'oggetto verrà memorizzato esternamente, referenziato tramite URL |
-| Embed | `1` | L'oggetto dovrebbe essere incorporato in un file generato, se possibile. Se l'incorporamento è impossibile, verrà chiamato GetUrl e, a seconda del risultato, l'oggetto verrà referenziato tramite URL o ignorato. |
-| Ignore | `2` | L'oggetto verrà ignorato. |
+| Link | `0` | L'oggetto sarà memorizzato esternamente, referenziato tramite URL |
+| Embed | `1` | L'oggetto dovrebbe essere incorporato in un file generato, se possibile. Se l'incorporamento è impossibile, verrà chiamato GetUrl e, a seconda del risultato, l'oggetto sarà referenziato tramite URL o ignorato. |
+| Ignore | `2` | L'oggetto sarà ignorato. |
 
 ### Vedi anche
 

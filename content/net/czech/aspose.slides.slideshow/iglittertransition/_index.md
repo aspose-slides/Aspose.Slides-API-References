@@ -1,14 +1,14 @@
 ---
 title: IGlitterTransition
-second_title: Aspose.Sildes pro .NET – reference API
-description: Efekt přechodu snímku Glitter.
+second_title: Aspose.Sildes pro .NET referenční příručka API
+description: Efekt přechodu slide s třpytem.
 type: docs
-weight: 10080
+weight: 10100
 url: /cs/aspose.slides.slideshow/iglittertransition/
 ---
 ## IGlitterTransition rozhraní
 
-Efekt přechodu snímku Glitter.
+Glitter slide transition effect.
 
 ```csharp
 public interface IGlitterTransition : ITransitionValueBase
@@ -18,9 +18,9 @@ public interface IGlitterTransition : ITransitionValueBase
 
 | Název | Popis |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iglittertransition/asitransitionvaluebase) { get; } | Umožňuje získat základní rozhraní ITransitionValueBase. Pouze ke čtení [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/iglittertransition/direction) { get; set; } | Směr přechodu. Čtení/zápis [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/iglittertransition/pattern) { get; set; } | Určuje tvar vizuálů používaných během přechodu. Čtení/zápis [`TransitionPattern`](../transitionpattern). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iglittertransition/asitransitionvaluebase) { get; } | Umožňuje získat základní rozhraní ITransitionValueBase. Jen ke čtení [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/iglittertransition/direction) { get; set; } | Směr přechodu. Čtení a zápis [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
+| [Pattern](../../aspose.slides.slideshow/iglittertransition/pattern) { get; set; } | Určuje tvar vizuálů použité během přechodu. Čtení a zápis [`TransitionPattern`](../transitionpattern). |
 
 ### Viz také
 

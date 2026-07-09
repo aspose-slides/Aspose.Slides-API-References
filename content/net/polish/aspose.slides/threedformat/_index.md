@@ -1,14 +1,14 @@
 ---
 title: ThreeDFormat
-second_title: Aspose.Sildes dla .NET - odniesienie API
-description: Reprezentuje właściwości 3-D.
+second_title: Aspose.Sildes dla .NET - Dokumentacja API
+description: Reprezentuje własności 3-D.
 type: docs
-weight: 11470
+weight: 11490
 url: /pl/aspose.slides/threedformat/
 ---
 ## ThreeDFormat klasa
 
-Reprezentuje właściwości 3-D.
+Reprezentuje własności 3-D.
 
 ```csharp
 public sealed class ThreeDFormat : PVIObject, IThreeDFormat
@@ -19,8 +19,8 @@ public sealed class ThreeDFormat : PVIObject, IThreeDFormat
 | Nazwa | Opis |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umożliwia pobranie podstawowego interfejsu IPresentationComponent. Tylko do odczytu [`IPresentationComponent`](../ipresentationcomponent). |
-| [BevelBottom](../../aspose.slides/threedformat/bevelbottom) { get; } | Zwraca lub ustawia typ dolnego 3-D bevel. Tylko do odczytu [`IShapeBevel`](../ishapebevel). |
-| [BevelTop](../../aspose.slides/threedformat/beveltop) { get; } | Zwraca lub ustawia typ górnego 3-D bevel. Tylko do odczytu [`IShapeBevel`](../ishapebevel). |
+| [BevelBottom](../../aspose.slides/threedformat/bevelbottom) { get; } | Zwraca lub ustawia typ dolnego 3D bevel. Tylko do odczytu [`IShapeBevel`](../ishapebevel). |
+| [BevelTop](../../aspose.slides/threedformat/beveltop) { get; } | Zwraca lub ustawia typ górnego 3D bevel. Tylko do odczytu [`IShapeBevel`](../ishapebevel). |
 | [Camera](../../aspose.slides/threedformat/camera) { get; } | Zwraca lub ustawia ustawienia kamery. Tylko do odczytu [`ICamera`](../icamera). |
 | [ContourColor](../../aspose.slides/threedformat/contourcolor) { get; } | Zwraca lub ustawia kolor konturu. Tylko do odczytu [`IColorFormat`](../icolorformat). |
 | [ContourWidth](../../aspose.slides/threedformat/contourwidth) { get; set; } | Zwraca lub ustawia szerokość konturu 3D. Odczyt/zapis Double. |
@@ -35,8 +35,8 @@ public sealed class ThreeDFormat : PVIObject, IThreeDFormat
 | Nazwa | Opis |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Porównuje z określonym obiektem. |
-| [GetEffective](../../aspose.slides/threedformat/geteffective)() | Uzyskuje efektywne dane formatowania 3-D z zastosowanym dziedziczeniem. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Zwraca kod skrótu. |
+| [GetEffective](../../aspose.slides/threedformat/geteffective)() | Pobiera efektywne dane formatowania 3D z zastosowanym dziedziczeniem. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Zwraca kod hash. |
 
 ### Przykłady
 
@@ -47,12 +47,12 @@ Poniższy przykład pokazuje, jak dodać kształt 3D w prezentacji PowerPoint.
 // Utwórz instancję klasy Presentation.
 using (Presentation pres = new Presentation())
 {
-	// Dodaj kształt za pomocą metody AddAutoShape.
+	// Dodaj kształt używając metody AddAutoShape
     IAutoShape shape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 200, 150, 200, 200);
-	// Zdefiniuj TextFrame i jego właściwości.
+	// Zdefiniuj TextFrame i jego właściwości
     shape.TextFrame.Text = "3D";
     shape.TextFrame.Paragraphs[0].ParagraphFormat.DefaultPortionFormat.FontHeight = 64;
-	// Zdefiniuj właściwości ThreeDFormat.
+	// Zdefiniuj właściwości ThreeDFormat
     shape.ThreeDFormat.Camera.CameraType = CameraPresetType.OrthographicFront;
     shape.ThreeDFormat.Camera.SetRotation(20, 30, 40);
     shape.ThreeDFormat.LightRig.LightType = LightRigPresetType.Flat;
@@ -61,7 +61,7 @@ using (Presentation pres = new Presentation())
     shape.ThreeDFormat.ExtrusionHeight = 100;
     shape.ThreeDFormat.ExtrusionColor.Color = Color.Blue;
     pres.Slides[0].GetThumbnail(2, 2).Save("sample_3d.png");
-	// Zapisz plik prezentacji.
+	// Zapisz plik prezentacji
     pres.Save("sandbox_3d.pptx", SaveFormat.Pptx);
 }
 ```
@@ -73,7 +73,7 @@ Poniższy przykład pokazuje, jak zastosować efekt gradientu do kształtu 3D w 
 // Utwórz instancję klasy Presentation.
 using (Presentation pres = new Presentation())
 {
-	// Dodaj kształt za pomocą metody AddAutoShape
+	// Dodaj kształt używając metody AddAutoShape
      IAutoShape shape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 200, 150, 250, 250);
 	// Zdefiniuj TextFrame i jego właściwości
     shape.TextFrame.Text = "3D Gradient";
@@ -96,21 +96,21 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-Poniższy przykład pokazuje, jak zastosować efekt 3D na tekście. Do tworzenia tekstu 3D można użyć efektu przekształcenia WordArt.
+Poniższy przykład pokazuje, jak zastosować efekt 3D na tekście. Do stworzenia tekstu 3D można użyć efektu transformacji WordArt.
 
 ```csharp
 [C#]
 // Utwórz instancję klasy Presentation.
 using (Presentation pres = new Presentation())
 {
-	// Dodaj kształt za pomocą metody AddAutoShape method
+	// Dodaj kształt używając metody AddAutoShape
      IAutoShape shape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 200, 150, 250, 250);
 	// Zdefiniuj TextFrame i jego właściwości
     shape.TextFrame.Text = "3D Text";
 	// Skonfiguruj FillFormat.FillType jako FillType.NoFill
 	shape.FillFormat.FillType = FillType.NoFill;
     shape.LineFormat.FillFormat.FillType = FillType.NoFill;
-	// Skonfiguruj Portion w TextFrame i właściwości PortionFormat
+	// Skonfiguruj porcję TextFrame i właściwości PortionFormat
 	Portion portion = (Portion)shape.TextFrame.Paragraphs[0].Portions[0];
     portion.PortionFormat.FillFormat.FillType = FillType.Pattern;
     portion.PortionFormat.FillFormat.PatternFormat.ForeColor.Color = Color.DarkOrange;
@@ -118,7 +118,7 @@ using (Presentation pres = new Presentation())
     portion.PortionFormat.FillFormat.PatternFormat.PatternStyle = PatternStyle.LargeGrid;
 	shape.TextFrame.Paragraphs[0].ParagraphFormat.DefaultPortionFormat.FontHeight = 128;
     ITextFrame textFrame = shape.TextFrame;
-    // skonfiguruj efekt przekształcenia WordArt "Arch Up"
+    // Ustaw efekt transformacji WordArt "Arch Up"
     textFrame.TextFrameFormat.Transform = TextShapeType.ArchUp;
 	// Zdefiniuj właściwości ThreeDFormat dla ITextFrame
 	textFrame.TextFrameFormat.ThreeDFormat.ExtrusionHeight = 3.5f;

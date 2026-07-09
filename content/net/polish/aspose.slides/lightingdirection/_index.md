@@ -1,14 +1,14 @@
 ---
 title: LightingDirection
-second_title: Aspose.Sildes dla .NET - dokumentacja API
-description: Stałe definiujące kierunki światła.
+second_title: Aspose.Sildes dla .NET API Reference
+description: Stałe określające kierunki światła.
 type: docs
-weight: 7690
+weight: 7710
 url: /pl/aspose.slides/lightingdirection/
 ---
-## enumeracja LightingDirection
+## LightingDirection wyliczenie
 
-Stałe definiujące kierunki światła.
+Stałe określające kierunki światła.
 
 ```csharp
 public enum LightingDirection

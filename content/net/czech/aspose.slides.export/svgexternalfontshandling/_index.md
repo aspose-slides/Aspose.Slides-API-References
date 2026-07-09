@@ -1,14 +1,14 @@
 ---
 title: SvgExternalFontsHandling
 second_title: Aspose.Sildes pro .NET – reference API
-description: Reprezentuje způsob, jak zacházet s externími fonty používanými pro kreslení textu.
+description: Reprezentuje způsob, jak zacházet s externími písmy používanými pro vykreslování textu.
 type: docs
-weight: 4480
+weight: 4500
 url: /cs/aspose.slides.export/svgexternalfontshandling/
 ---
-## SvgExternalFontsHandling výčet
+## SvgExternalFontsHandling enumerace
 
-Reprezentuje způsob, jak zacházet s externími fonty používanými pro kreslení textu.
+Representuje způsob, jakým se zacházejí s externími písmy používanými pro vykreslování textu.
 
 ```csharp
 public enum SvgExternalFontsHandling
@@ -18,9 +18,9 @@ public enum SvgExternalFontsHandling
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| AddLinksToFontFiles | `0` | Přidejte odkazy na samostatné soubory fontů do sekce stylu SVG souboru. |
-| Embed | `1` | Uložte data fontů přímo do SVG souboru. Před použitím této možnosti prosím zkontrolujte všechny licenční smlouvy externích fontů. |
-| Vectorize | `2` | Uložte celý text používající externí fonty jako grafiku. |
+| AddLinksToFontFiles | `0` | Přidá odkazy na samostatné soubory písem do sekce stylu souboru SVG. |
+| Embed | `1` | Uloží data písem přímo do souboru SVG. Před použitím této volby zkontrolujte všechny licenční smlouvy pro externí písma. |
+| Vectorize | `2` | Uloží celý text používající externí písma jako grafiku. |
 
 ### Viz také
 

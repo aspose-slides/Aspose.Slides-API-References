@@ -1,14 +1,14 @@
 ---
 title: IObsoletePresLockingBehaviorWarningInfo
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Bu uyarı, eski bir sunum kilitleme davranışının kullanıldığını gösterir.
 type: docs
-weight: 11760
+weight: 11780
 url: /tr/aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/
 ---
 ## IObsoletePresLockingBehaviorWarningInfo arayüz
 
-Bu uyarı, eski bir sunum kilitleme davranışının kullanıldığını gösterir.
+Bu uyarı eski bir sunum kilitleme davranışının kullanıldığını gösterir.
 
 ```csharp
 public interface IObsoletePresLockingBehaviorWarningInfo : IWarningInfo
@@ -18,9 +18,9 @@ public interface IObsoletePresLockingBehaviorWarningInfo : IWarningInfo
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/asiwarninginfo) { get; } | IWarningInfo arayüzünü döndürür. Salt okunur [`IWarningInfo`](../iwarninginfo). |
+| [AsIWarningInfo](../../aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/asiwarninginfo) { get; } | Döndürür IWarningInfo arayüz. Yalnızca okuma [`IWarningInfo`](../iwarninginfo). |
 
-### Bakınız
+### Ayrıca bakınız
 
 * arayüz [IWarningInfo](../iwarninginfo)
 * ad alanı [Aspose.Slides.Warnings](../../aspose.slides.warnings)

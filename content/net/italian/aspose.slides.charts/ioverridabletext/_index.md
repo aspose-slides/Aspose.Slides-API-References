@@ -3,7 +3,7 @@ title: IOverridableText
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta il testo sovrascrivibile per un grafico.
 type: docs
-weight: 2160
+weight: 2180
 url: /it/aspose.slides.charts/ioverridabletext/
 ---
 ## IOverridableText interfaccia
@@ -18,14 +18,14 @@ public interface IOverridableText : IFormattedTextContainer
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ioverridabletext/asiformattedtextcontainer) { get; } | Consente di ottenere l'interfaccia IFormattedTextContainer di base. Solo lettura [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | Può contenere un testo riccamente formattato. Se questa proprietà non è nulla, allora il valore di testo formattato sovrascrive il testo generato automaticamente. Il testo generato automaticamente è una proprietà implicita dell'etichetta dati, dell'etichetta dell'unità di visualizzazione dell'asse dei valori, del titolo dell'asse, del titolo del grafico, dell'etichetta della linea di tendenza. Il testo generato automaticamente è formattato con la proprietà IFormattedTextContainer.TextFormat. Solo lettura [`ITextFrame`](../../aspose.slides/itextframe). |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ioverridabletext/asiformattedtextcontainer) { get; } | Consente di ottenere l'interfaccia base IFormattedTextContainer. Sola lettura [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | Può contenere un testo formattato ricco. Se questa proprietà è null allora questo valore di testo formattato sovrascrive il testo auto-generato. Il testo auto-generato è una proprietà implicita dell'etichetta dei dati, dell'etichetta dell'unità di visualizzazione dell'asse dei valori, del titolo dell'asse, del titolo del grafico, dell'etichetta della linea di tendenza. Il testo auto-generato è formattato con la proprietà IFormattedTextContainer.TextFormat. Sola lettura [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/addtextframeforoverriding)(string) | Inizializza TextFrameForOverriding con il testo nel parametro "text". Se TextFrameForOverriding è già inizializzato, cambia semplicemente il suo testo. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/addtextframeforoverriding)(string) | Inizializza TextFrameForOverriding con il testo nel parametro "text". Se TextFrameForOverriding è già inizializzato, allora cambia semplicemente il suo testo. |
 
 ### Vedi anche
 

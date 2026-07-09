@@ -3,7 +3,7 @@ title: IRotationEffect
 second_title: Aspose.Sildes para .NET Referência da API
 description: Representa o comportamento de rotação do efeito.
 type: docs
-weight: 550
+weight: 570
 url: /pt/aspose.slides.animation/irotationeffect/
 ---
 ## IRotationEffect interface
@@ -23,7 +23,7 @@ public interface IRotationEffect : IBehavior
 | [From](../../aspose.slides.animation/irotationeffect/from) { get; set; } | Descreve o valor inicial para a animação. Leitura/gravação Single. |
 | [To](../../aspose.slides.animation/irotationeffect/to) { get; set; } | Descreve o valor final para a animação. Leitura/gravação Single. |
 
-### See Also
+### Veja Também
 
 * interface [IBehavior](../ibehavior)
 * namespace [Aspose.Slides.Animation](../../aspose.slides.animation)

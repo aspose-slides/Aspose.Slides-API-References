@@ -3,20 +3,20 @@ title: BulletType
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 拡張箇条書きのタイプを表します。
 type: docs
-weight: 1060
+weight: 1080
 url: /ja/aspose.slides/bullettype/
 ---
 ## BulletType 列挙型
 
-拡張された箇条書きの種類を表します。
+拡張箇条書きのタイプを表します。
 
 ```csharp
 public enum BulletType : sbyte
 ```
 
-### Values
+### 値
 
-| Name | Value | Description |
+| 名前 | 値 | 説明 |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | None | `0` |  |

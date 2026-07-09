@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions.MarkdownImageSavingHandler
-second_title: Aspose.Sildes pro .NET API referenci
-description: Volán pro každý obrázek, který není SVG (bitmapa nebo metafile), během exportu do Markdown. Vraťte true pro použití určeného odkazu nebo false pro použití výchozí logiky ukládání.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Vyvoláno pro každý ne-SVG obrázek bitmap nebo metafile během exportu Markdown. Vrátí true k použití zadaného odkazu nebo false k použití výchozí logiky ukládání.
 type: docs
-weight: 4240
+weight: 4260
 url: /cs/aspose.slides.export/markdownsaveoptions.markdownimagesavinghandler/
 ---
 ## MarkdownSaveOptions.MarkdownImageSavingHandler delegát
 
-Voláno pro každý obrázek, který není SVG (bitmapa nebo metafile), během exportu do Markdown. Vraťte `true` pro použití určeného *link*, nebo `false` pro použití výchozí logiky ukládání.
+Vyvoláno pro každý ne-SVG obrázek (bitmapa nebo metafile) během exportu Markdown. Vrátí `true`, pokud chcete použít zadaný *link*, nebo `false` pro použití výchozí logiky ukládání.
 
 ```csharp
 public delegate bool MarkdownImageSavingHandler(IImage image, ImageFormat format, ref string link);
@@ -23,7 +23,7 @@ public delegate bool MarkdownImageSavingHandler(IImage image, ImageFormat format
 ### Viz také
 
 * rozhraní [IImage](../../aspose.slides/iimage)
-* výčet [ImageFormat](../../aspose.slides/imageformat)
+* enum [ImageFormat](../../aspose.slides/imageformat)
 * třída [MarkdownSaveOptions](../markdownsaveoptions)
 * jmenný prostor [Aspose.Slides.Export](../../aspose.slides.export)
 * sestavení [Aspose.Slides](../../)

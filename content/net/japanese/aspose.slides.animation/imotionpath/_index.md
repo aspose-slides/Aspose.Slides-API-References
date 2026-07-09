@@ -1,14 +1,14 @@
 ---
 title: IMotionPath
 second_title: Aspose.Sildes for .NET API リファレンス
-description: モーション パスを表します。
+description: モーションパスを表します。
 type: docs
-weight: 510
+weight: 530
 url: /ja/aspose.slides.animation/imotionpath/
 ---
 ## IMotionPath インターフェイス
 
-モーション パスを表します。
+モーションパスを表します。
 
 ```csharp
 public interface IMotionPath : IEnumerable<IMotionCmdPath>
@@ -18,8 +18,8 @@ public interface IMotionPath : IEnumerable<IMotionCmdPath>
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/imotionpath/asienumerable) { get; } | ベースの IBehavior インターフェイスを取得できます。読み取り専用 IEnumerable。 |
-| [Count](../../aspose.slides.animation/imotionpath/count) { get; } | コレクション内のパスの数を返します。読み取り専用 Int32。 |
+| [AsIEnumerable](../../aspose.slides.animation/imotionpath/asienumerable) { get; } | ベース IBehavior インターフェイスを取得できます。読み取り専用 IEnumerable。 |
+| [Count](../../aspose.slides.animation/imotionpath/count) { get; } | コレクション内のパス数を返します。読み取り専用 Int32。 |
 | [Item](../../aspose.slides.animation/imotionpath/item) { get; } | 指定されたインデックスのコマンドを返します。 |
 
 ## メソッド
@@ -32,7 +32,7 @@ public interface IMotionPath : IEnumerable<IMotionCmdPath>
 | [Remove](../../aspose.slides.animation/imotionpath/remove)(IMotionCmdPath) | コレクションから指定されたコマンドを削除します。 |
 | [RemoveAt](../../aspose.slides.animation/imotionpath/removeat)(int) | 指定されたインデックスのコマンドを削除します。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [IMotionCmdPath](../imotioncmdpath)
 * 名前空間 [Aspose.Slides.Animation](../../aspose.slides.animation)

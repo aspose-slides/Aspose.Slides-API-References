@@ -1,14 +1,14 @@
 ---
 title: SlideImageFormat
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Meghatározza, hogy a diakép milyen formátumban lesz mentve a prezentáció HTML exportjához.
+second_title: Aspose.Sildes a .NET API hivatkozás
+description: Meghatározza a formátumot, amelyben a dia kép mentésre kerül a HTML exportáláshoz.
 type: docs
-weight: 4450
+weight: 4470
 url: /hu/aspose.slides.export/slideimageformat/
 ---
 ## SlideImageFormat osztály
 
-Meghatározza, hogy melyik formátumban kerül a diakép mentésre a prezentáció HTML exportjához.
+Meghatározza a formátumot, amelyben a dia képe mentésre kerül a HTML-exportáláshoz.
 
 ```csharp
 public class SlideImageFormat : ISlideImageFormat
@@ -20,12 +20,12 @@ public class SlideImageFormat : ISlideImageFormat
 | --- | --- |
 | [SlideImageFormat](slideimageformat)() | Az alapértelmezett konstruktor. |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| static [Bitmap](../../aspose.slides.export/slideimageformat/bitmap)(float, ImageFormat) | A diákokat raszteres képbe kell konvertálni. |
-| static [Svg](../../aspose.slides.export/slideimageformat/svg)(SVGOptions) | A diákokat SVG formátumba kell konvertálni. |
+| static [Bitmap](../../aspose.slides.export/slideimageformat/bitmap)(float, ImageFormat) | A diák raszteres képpé konvertálhatók. |
+| static [Svg](../../aspose.slides.export/slideimageformat/svg)(SVGOptions) | A diák SVG formátumba konvertálhatók. |
 
 ### Lásd még
 

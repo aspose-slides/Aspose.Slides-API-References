@@ -3,7 +3,7 @@ title: LeftRightDirectionTransition
 second_title: Aspose.Sildes pro .NET API Reference
 description: Efekt přechodu snímku ve směru zleva doprava.
 type: docs
-weight: 10220
+weight: 10240
 url: /cs/aspose.slides.slideshow/leftrightdirectiontransition/
 ---
 ## LeftRightDirectionTransition třída
@@ -18,7 +18,7 @@ public class LeftRightDirectionTransition : TransitionValueBase, ILeftRightDirec
 
 | Název | Popis |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/leftrightdirectiontransition/direction) { get; set; } | Směr přechodu. Číst/zapisovat [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/leftrightdirectiontransition/direction) { get; set; } | Směr přechodu. Čtení/Zápis [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
 
 ## Metody
 

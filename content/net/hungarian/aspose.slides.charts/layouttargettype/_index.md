@@ -1,14 +1,14 @@
 ---
 title: LayoutTargetType
-second_title: "Aspose.Sildes .NET API referencia"
-description: "Ha a diagramterület elrendezése manuálisan van meghatározva, ez a tulajdonság azt határozza meg, hogy a diagramterületet a belseje (a tengelyek és tengelycímkék kizárásával) vagy a külseje (a tengelyek és tengelycímkék beleértésével) szerint rendezzék el."
+second_title: Aspose.Sildes .NET API referencia
+description: Ha a diagramterület elrendezése manuálisan van meghatározva, ez a tulajdonság megadja, hogy a diagramterületet a belső (a tengelyeket és tengelycímkéket nem tartalmazó) vagy a külső (a tengelyeket és tengelycímkéket tartalmazó) szerint kell-e elrendezni.
 type: docs
-weight: 2250
+weight: 2270
 url: /hu/aspose.slides.charts/layouttargettype/
 ---
-## LayoutTargetType felsorolás
+## LayoutTargetType enumeration
 
-Ha a diagramterület elrendezését kézzel definiálják, ez a tulajdonság megadja, hogy a diagramterületet a belseje (a tengelyeket és tengelycímkéket kizárva) vagy a külseje (tengelyeket és tengelycímkéket beleértve) szerint rendezzék el.
+Ha a diagramterület elrendezése manuálisan van definiálva, ez a tulajdonság meghatározza, hogy a diagramterületet a belső (a tengelyeket és tengelycímkéket nem tartalmazó) vagy külső (a tengelyeket és tengelycímkéket is tartalmazó) rész alapján kell-e elrendezni.
 
 ```csharp
 public enum LayoutTargetType
@@ -18,10 +18,10 @@ public enum LayoutTargetType
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Inner | `0` | Megadja, hogy a diagramterület mérete határozza meg a diagramterület méretét, a jelölőket és a tengelycímkéket kizárva. |
-| Outer | `1` | Megadja, hogy a diagramterület mérete határozza meg a diagramterület, a jelölők és a tengelycímkék méretét. |
+| Inner | `0` | A diagramterület mérete határozza meg a diagramterület méretét, a jelölőpontok és tengelycímkék nélkül. |
+| Outer | `1` | A diagramterület mérete határozza meg a diagramterület méretét, a jelölőpontokkal és a tengelycímkékkel együtt. |
 
-### Lásd még
+### Kapcsolódó
 
 * névtér [Aspose.Slides.Charts](../../aspose.slides.charts)
 * összeállítás [Aspose.Slides](../../)

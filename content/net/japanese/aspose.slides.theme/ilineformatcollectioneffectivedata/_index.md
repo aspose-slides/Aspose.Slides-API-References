@@ -1,14 +1,14 @@
 ---
 title: ILineFormatCollectionEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 効果的な線フォーマットの読み取り専用コレクションを表す不変オブジェクトです。
+description: 有効なライン形式の読み取り専用コレクションを表す不変オブジェクトです。
 type: docs
-weight: 11280
+weight: 11300
 url: /ja/aspose.slides.theme/ilineformatcollectioneffectivedata/
 ---
 ## ILineFormatCollectionEffectiveData インターフェイス
 
-Immutable object that represents a readonly collection of effective line formats.
+有効なライン形式の読み取り専用コレクションを表す不変オブジェクトです。
 
 ```csharp
 public interface ILineFormatCollectionEffectiveData : IGenericCollection<ILineFormatEffectiveData>

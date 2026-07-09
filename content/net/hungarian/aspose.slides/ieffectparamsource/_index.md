@@ -1,14 +1,14 @@
 ---
 title: IEffectParamSource
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Kiegészítő effektusparaméterek interfésze.
+second_title: Aspose.Sildes .NET API Referenciája
+description: Kiegészítő hatásparaméterek interfésze.
 type: docs
-weight: 5740
+weight: 5760
 url: /hu/aspose.slides/ieffectparamsource/
 ---
 ## IEffectParamSource interfész
 
-Kiegészítő effektus paraméterek interfésze.
+Kiegészítő hatásparaméterek interfésze.
 
 ```csharp
 public interface IEffectParamSource

@@ -3,7 +3,7 @@ title: IXpsOptions
 second_title: Aspose.Sildes para .NET Referência da API
 description: Fornece opções que controlam como uma apresentação é salva no formato XPS.
 type: docs
-weight: 4180
+weight: 4200
 url: /pt/aspose.slides.export/ixpsoptions/
 ---
 ## IXpsOptions interface
@@ -16,11 +16,11 @@ public interface IXpsOptions : ISaveOptions
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/ixpsoptions/asisaveoptions) { get; } | Retorna a interface ISaveOptions. Somente leitura [`ISaveOptions`](../isaveoptions). |
-| [DrawSlidesFrame](../../aspose.slides.export/ixpsoptions/drawslidesframe) { get; set; } | Verdadeiro para desenhar uma moldura preta ao redor de cada slide. Leitura/gravação Boolean. |
-| [SaveMetafilesAsPng](../../aspose.slides.export/ixpsoptions/savemetafilesaspng) { get; set; } | Verdadeiro para converter todos os metafiles usados em uma apresentação em imagens PNG. Leitura/gravação Boolean. |
+| [DrawSlidesFrame](../../aspose.slides.export/ixpsoptions/drawslidesframe) { get; set; } | Verdadeiro para desenhar uma moldura preta ao redor de cada slide. Leitura/Gravação Boolean. |
+| [SaveMetafilesAsPng](../../aspose.slides.export/ixpsoptions/savemetafilesaspng) { get; set; } | Verdadeiro para converter todos os metafiles usados em uma apresentação para imagens PNG. Leitura/Gravação Boolean. |
 | [ShowHiddenSlides](../../aspose.slides.export/ixpsoptions/showhiddenslides) { get; set; } | Especifica se o documento gerado deve incluir slides ocultos ou não. O padrão é `false`. |
 
 ### Veja Também

@@ -3,10 +3,10 @@ title: HyperlinkActionType
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa um tipo de ação de hyperlink.
 type: docs
-weight: 5110
+weight: 5130
 url: /pt/aspose.slides/hyperlinkactiontype/
 ---
-## Enumeração HyperlinkActionType
+## HyperlinkActionType enumeração
 
 Representa um tipo de ação de hiperlink.
 
@@ -29,13 +29,13 @@ public enum HyperlinkActionType
 | JumpLastViewedSlide | `7` | Ir para o último slide visualizado. |
 | JumpSpecificSlide | `8` | Ir para o slide específico, referenciado pela propriedade [`TargetSlide`](../ihyperlink/targetslide). |
 | StartCustomSlideShow | `9` | Iniciar apresentação de slides personalizada. |
-| OpenFile | `10` | Abrir o arquivo referenciado. |
-| OpenPresentation | `11` | Abrir a apresentação referenciada. |
-| StartStopMedia | `12` | Iniciar/parar a reprodução do arquivo de mídia. |
-| StartMacro | `13` | Iniciar a execução do script de macro. |
+| OpenFile | `10` | Abrir arquivo referenciado. |
+| OpenPresentation | `11` | Abrir apresentação referenciada. |
+| StartStopMedia | `12` | Iniciar/parar reprodução de arquivo de mídia. |
+| StartMacro | `13` | Iniciar execução de script de macro. |
 | StartProgram | `14` | Iniciar programa. |
 
-### Veja Também
+### Veja também
 
 * espaço de nomes [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

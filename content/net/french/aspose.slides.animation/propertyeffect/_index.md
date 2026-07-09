@@ -1,15 +1,14 @@
 ---
 title: PropertyEffect
-second_title: Aspose.Sildes pour .NET API Référence
-description: Représente le comportement de l'effet de propriété.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Représente le comportement d'effet de propriété.
 type: docs
-weight: 670
+weight: 750
 url: /fr/aspose.slides.animation/propertyeffect/
 ---
+## classe PropertyEffect
 
-## PropertyEffect class
-
-Représente le comportement de l'effet de propriété.
+Représente le comportement d'effet de propriété.
 
 ```csharp
 public class PropertyEffect : Behavior, IPropertyEffect
@@ -25,22 +24,22 @@ public class PropertyEffect : Behavior, IPropertyEffect
 
 | Nom | Description |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Représente si les comportements d'animation sont accumulés. Lecture/écriture [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Représente si le comportement d'animation actuel est combiné avec d'autres animations en cours. Lecture/écriture [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [By](../../aspose.slides.animation/propertyeffect/by) { get; set; } | Spécifie une valeur de décalage relative pour l'animation par rapport à sa position avant le début de l'animation. Lecture/écriture String. |
-| [CalcMode](../../aspose.slides.animation/propertyeffect/calcmode) { get; set; } | Spécifie le mode d'interpolation pour l'animation. Lecture/écriture [`PropertyCalcModeType`](../propertycalcmodetype). |
-| [From](../../aspose.slides.animation/propertyeffect/from) { get; set; } | Spécifie la valeur de départ de l'animation. Lecture/écriture String. |
-| [Points](../../aspose.slides.animation/propertyeffect/points) { get; set; } | Spécifie les points de l'animation. Lecture/écriture [`IPointCollection`](../ipointcollection). |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Représente les propriétés du comportement. Lecture seule [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Représente les propriétés de timing pour le comportement de l'effet. Lecture/écriture [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/propertyeffect/to) { get; set; } | Spécifie la valeur finale pour l'animation. Lecture/écriture String. |
-| [ValueType](../../aspose.slides.animation/propertyeffect/valuetype) { get; set; } | Spécifie le type d'une valeur de propriété. Lecture/écriture [`PropertyValueType`](../propertyvaluetype). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Représente si les comportements d'animation sont accumulés. Lecture/écriture [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Représente si le comportement d'animation actuel est combiné avec d'autres animations en cours. Lecture/écriture [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [By](../../aspose.slides.animation/propertyeffect/by) { get; set; } | Spécifie une valeur de décalage relative pour l'animation par rapport à sa position avant le début de l'animation. Lecture/écriture String. |
+| [CalcMode](../../aspose.slides.animation/propertyeffect/calcmode) { get; set; } | Spécifie le mode d'interpolation pour l'animation. Lecture/écriture [`PropertyCalcModeType`](../propertycalcmodetype). |
+| [From](../../aspose.slides.animation/propertyeffect/from) { get; set; } | Spécifie la valeur de départ de l'animation. Lecture/écriture String. |
+| [Points](../../aspose.slides.animation/propertyeffect/points) { get; set; } | Spécifie les points de l'animation. Lecture/écriture [`IPointCollection`](../ipointcollection). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Représente les propriétés du comportement. Lecture seule [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Représente les propriétés de synchronisation pour le comportement d'effet. Lecture/écriture [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/propertyeffect/to) { get; set; } | Spécifie la valeur finale de l'animation. Lecture/écriture String. |
+| [ValueType](../../aspose.slides.animation/propertyeffect/valuetype) { get; set; } | Spécifie le type d'une valeur de propriété. Lecture/écriture [`PropertyValueType`](../propertyvaluetype). |
 
 ### Voir aussi
 
-* class [Behavior](../behavior)
-* interface [IPropertyEffect](../ipropertyeffect)
-* namespace [Aspose.Slides.Animation](../../aspose.slides.animation)
-* assembly [Aspose.Slides](../../)
+* classe [Behavior](../behavior)
+* interface [IPropertyEffect](../ipropertyeffect)
+* espace de noms [Aspose.Slides.Animation](../../aspose.slides.animation)
+* assemblage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

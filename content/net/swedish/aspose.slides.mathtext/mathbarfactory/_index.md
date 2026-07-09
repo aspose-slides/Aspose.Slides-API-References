@@ -1,14 +1,14 @@
 ---
 title: MathBarFactory
 second_title: Aspose.Sildes för .NET API-referens
-description: Tillåter att skapa en matematisk stapel
+description: Tillåter att skapa en math bar
 type: docs
-weight: 8560
+weight: 8580
 url: /sv/aspose.slides.mathtext/mathbarfactory/
 ---
 ## MathBarFactory klass
 
-Tillåter att skapa en matematisk stapel
+Tillåter att skapa en math bar
 
 ```csharp
 public class MathBarFactory : IMathBarFactory
@@ -16,16 +16,16 @@ public class MathBarFactory : IMathBarFactory
 
 ## Konstruktörer
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [MathBarFactory](mathbarfactory)() | Den standardkonstruktören. |
+| [MathBarFactory](mathbarfactory)() | Standardkonstruktorn. |
 
 ## Metoder
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar)(IMathElement) | Skapa en matematisk stapel genom att applicera på elementet |
-| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | Skapa en matematisk stapel genom att applicera på elementet |
+| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar)(IMathElement) | Skapa en math bar genom att tillämpa på elementet |
+| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | Skapa en math bar genom att tillämpa på elementet |
 
 ### Anmärkningar
 

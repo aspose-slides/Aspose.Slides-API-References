@@ -1,14 +1,14 @@
 ---
 title: EffectPresetClassType
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar typer av effektklasser.
+description: Representerar effektklass-typer.
 type: docs
-weight: 300
+weight: 320
 url: /sv/aspose.slides.animation/effectpresetclasstype/
 ---
-## EffectPresetClassType uppräkning
+## EffectPresetClassType enumeration
 
-Representerar typer av effektklasser.
+Representerar effektklass-typer.
 
 ```csharp
 public enum EffectPresetClassType
@@ -18,11 +18,11 @@ public enum EffectPresetClassType
 
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Entrance | `0` | Entrance effektklass. |
-| Exit | `1` | Exit effektklass. |
-| Emphasis | `2` | Emphasis effektklass. |
-| Path | `3` | Motion Paths klass. |
-| MediaCall | `4` | Mediaeffektklass. |
+| Entrance | `0` | Entrance-effektsklass. |
+| Exit | `1` | Exit-effektsklass. |
+| Emphasis | `2` | Emphasis-effektsklass. |
+| Path | `3` | Motion-Paths-klass. |
+| MediaCall | `4` | Media-effektsklass. |
 | OLEActionVerbs | `5` | OLE Action Verbs klass. |
 
 ### Se även

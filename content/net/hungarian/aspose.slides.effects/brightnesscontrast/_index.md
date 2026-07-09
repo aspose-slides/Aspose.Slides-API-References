@@ -1,14 +1,14 @@
 ---
 title: BrightnessContrast
-second_title: Aspose.Sildes a .NET API referenciához
-description: Egy BrightnessContrast effektust képvisel. Állítja a fényerőt és a kontrasztot
+second_title: Aspose.Sildes .NET API referenciája
+description: A BrightnessContrast hatást reprezentálja. Állítja a fényerőt és a kontrasztot
 type: docs
-weight: 2910
+weight: 2930
 url: /hu/aspose.slides.effects/brightnesscontrast/
 ---
 ## BrightnessContrast osztály
 
-Egy BrightnessContrast effektust képvisel. Állítja a fényerőt és a kontrasztot
+A BrightnessContrast hatást reprezentálja. Állítja a fényerőt és a kontrasztot.
 
 ```csharp
 public sealed class BrightnessContrast : ImageTransformOperation, IBrightnessContrast
@@ -18,15 +18,15 @@ public sealed class BrightnessContrast : ImageTransformOperation, IBrightnessCon
 
 | Név | Leírás |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi az alap IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/brightnesscontrast/equals)(object) | Megállapítja, hogy a megadott [`BrightnessContrast`](../brightnesscontrast) egyenlő-e a jelenlegi [`BrightnessContrast`](../brightnesscontrast). |
+| override [Equals](../../aspose.slides.effects/brightnesscontrast/equals)(object) | Meghatározza, hogy a megadott [`BrightnessContrast`](../brightnesscontrast) egyenlő-e a jelenlegi [`BrightnessContrast`](../brightnesscontrast). |
 | [GetEffective](../../aspose.slides.effects/brightnesscontrast/geteffective)() | Lekéri a hatékony BrightnessContrast effektus adatokat az öröklődés alkalmazásával. |
-| override [GetHashCode](../../aspose.slides.effects/brightnesscontrast/gethashcode)() | Hash függvényként szolgál egy adott típushoz. |
+| override [GetHashCode](../../aspose.slides.effects/brightnesscontrast/gethashcode)() | Hash függvényként szolgál egy adott típus számára. |
 
 ### Lásd még
 

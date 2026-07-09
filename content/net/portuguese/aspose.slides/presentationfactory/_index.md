@@ -1,9 +1,9 @@
 ---
 title: PresentationFactory
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para referência de API .NET
 description: Permite criar apresentações via interface COM
 type: docs
-weight: 9580
+weight: 9600
 url: /pt/aspose.slides/presentationfactory/
 ---
 ## classe PresentationFactory
@@ -32,17 +32,17 @@ public class PresentationFactory : IPresentationFactory
 | --- | --- |
 | [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation)() | Cria uma nova apresentação. |
 | [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Cria uma nova apresentação com opções de carregamento adicionais |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Cria um objeto PresentationInfo a partir de um stream e associa a apresentação a ele. Obtém informações sobre a apresentação no stream especificado. |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Cria um objeto PresentationInfo a partir de um arquivo e associa a apresentação a ele. |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Cria um objeto PresentationInfo a partir de um fluxo e vincula a apresentação a ele. Obtém informações sobre a apresentação no fluxo especificado. |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Cria um objeto PresentationInfo a partir de um arquivo e vincula a apresentação a ele. |
 | [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Recupera o texto bruto dos slides |
 | [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Recupera o texto bruto dos slides |
 | [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Recupera o texto bruto dos slides |
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation)(byte[]) | Lê uma apresentação existente a partir de um array |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_2)(Stream) | Lê uma apresentação existente a partir de um stream |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_2)(Stream) | Lê uma apresentação existente a partir de um fluxo |
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_4)(string) | Lê uma apresentação existente a partir de um arquivo |
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | Lê uma apresentação existente a partir de um array com opções de carregamento adicionais |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | Lê uma apresentação existente a partir de um stream com opções de carregamento adicionais |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Lê uma apresentação existente a partir de um stream com opções de carregamento adicionais |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | Lê uma apresentação existente a partir de um fluxo com opções de carregamento adicionais |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Lê uma apresentação existente a partir de um fluxo com opções de carregamento adicionais |
 
 ### Exemplos
 
@@ -62,7 +62,7 @@ O exemplo a seguir mostra como obter as propriedades de uma apresentação.
 
 ```csharp
 [C#]
-IPPresentationInfo info = PresentationFactory.Instance.GetPresentationInfo("pres.pptx");
+IPresentationInfo info = PresentationFactory.Instance.GetPresentationInfo("pres.pptx");
 IDocumentProperties props = info.ReadDocumentProperties();
 Console.WriteLine(props.CreatedTime);
 Console.WriteLine(props.Subject);

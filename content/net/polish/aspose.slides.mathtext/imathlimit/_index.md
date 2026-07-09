@@ -1,14 +1,14 @@
 ---
 title: IMathLimit
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Określa obiekt Limit składający się z tekstu na linii bazowej oraz tekstu zmniejszonego rozmiaru umieszczonego bezpośrednio powyżej lub poniżej niej.
+second_title: Aspose.Slides dla .NET – dokumentacja API
+description: Określa obiekt Limit składający się z tekstu na linii bazowej oraz tekstu o zmniejszonym rozmiarze bezpośrednio powyżej lub poniżej niego.
 type: docs
-weight: 8300
+weight: 8320
 url: /pl/aspose.slides.mathtext/imathlimit/
 ---
-## Interfejs IMathLimit
+## IMathLimit interfejs
 
-Specifies the Limit object, consisting of text on the baseline and reduced-size text immediately above or below it.
+Określa obiekt Limit, składający się z tekstu na linii bazowej oraz tekstu o zmniejszonym rozmiarze bezpośrednio powyżej lub poniżej niego.
 
 ```csharp
 public interface IMathLimit : IMathElement
@@ -18,21 +18,21 @@ public interface IMathLimit : IMathElement
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathlimit/asimathelement) { get; } | Umożliwia pobranie podstawowego interfejsu IMMathElement [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathlimit/asimathelement) { get; } | Umożliwia pobranie podstawowego interfejsu IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathlimit/base) { get; } | Argument bazowy |
-| [Limit](../../aspose.slides.mathtext/imathlimit/limit) { get; } | Argument limitu |
+| [Limit](../../aspose.slides.mathtext/imathlimit/limit) { get; } | Argument Limit |
 | [UpperLimit](../../aspose.slides.mathtext/imathlimit/upperlimit) { get; set; } | Określa górny lub dolny limit |
 
 ### Przykłady
 
-Example:
+Przykład:
 
 ```csharp
 [C#]
 IMathLimit limitElement = new MathLimit(new MathematicalText("lim"), new MathematicalText("𝑛→∞"));
 ```
 
-### Zobacz także
+### Zobacz również
 
 * interfejs [IMathElement](../imathelement)
 * przestrzeń nazw [Aspose.Slides.MathText](../../aspose.slides.mathtext)

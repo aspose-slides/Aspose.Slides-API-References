@@ -1,14 +1,14 @@
 ---
 title: TransitionSideDirectionType
-second_title: Aspose.Sildes dla .NET API Reference
-description: Reprezentuje typy przejść kierunku boków.
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
+description: Reprezentuje typy przejść w kierunku boków.
 type: docs
-weight: 10400
+weight: 10420
 url: /pl/aspose.slides.slideshow/transitionsidedirectiontype/
 ---
 ## TransitionSideDirectionType enumeracja
 
-Reprezentuje typy przejść kierunku boków.
+Reprezentuje typy przejść w kierunku boków.
 
 ```csharp
 public enum TransitionSideDirectionType

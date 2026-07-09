@@ -3,10 +3,10 @@ title: TransitionPattern
 second_title: Aspose.Sildes dla .NET Referencja API
 description: Określa geometryczny wzór, który układa się w kafelki, aby wypełnić większy obszar.
 type: docs
-weight: 10380
+weight: 10400
 url: /pl/aspose.slides.slideshow/transitionpattern/
 ---
-## Wyliczenie TransitionPattern
+## TransitionPattern enumeracja
 
 Określa geometryczny wzór, który układa się w kafelki, aby wypełnić większy obszar.
 
@@ -18,8 +18,8 @@ public enum TransitionPattern
 
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
-| Diamond | `0` | Wzór kafelkowy Diamond |
-| Hexagon | `1` | Wzór kafelkowy Hexagon |
+| Diamond | `0` | Wzór kafelka Diamond |
+| Hexagon | `1` | Wzór kafelka Hexagon |
 
 ### Zobacz także
 

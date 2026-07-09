@@ -3,7 +3,7 @@ title: ModernComment
 second_title: Aspose.Sildes for .NET API リファレンス
 description: スライド上のコメントを表します。
 type: docs
-weight: 9070
+weight: 9090
 url: /ja/aspose.slides/moderncomment/
 ---
 ## ModernComment クラス
@@ -18,22 +18,22 @@ public sealed class ModernComment : Comment, IModernComment
 
 | 名前 | 説明 |
 | --- | --- |
-| [Author](../../aspose.slides/comment/author) { get; } | コメントの作成者を返します。 読み取り専用 [`ICommentAuthor`](../icommentauthor)。 |
-| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | コメント作成時刻を取得または設定します。このプロパティに MinValue を設定すると、コメント時刻が設定されていないことを意味します。 読み書き DateTime。 |
-| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | 親コメントを取得または設定します。 読み書き [`IComment`](../icomment)。 |
-| [Position](../../aspose.slides/comment/position) { get; set; } | スライド上のコメントの位置を取得または設定します。 読み書き PointF。 |
-| [Shape](../../aspose.slides/moderncomment/shape) { get; } | コメントに関連付けられたシェイプを返します。 読み取り専用 [`IShape`](../ishape)。 |
-| [Slide](../../aspose.slides/comment/slide) { get; } | コメントの親スライドを取得または設定します。 読み取り専用 [`ISlide`](../islide)。 |
-| [Status](../../aspose.slides/moderncomment/status) { get; set; } | コメントのステータスを取得または設定します。 読み書き [`ModernCommentStatus`](../moderncommentstatus)。 |
-| [Text](../../aspose.slides/comment/text) { get; set; } | スライドコメントのプレーンテキストを取得または設定します。 読み書き String。 |
-| [TextSelectionLength](../../aspose.slides/moderncomment/textselectionlength) { get; set; } | AutoShape に関連付けられたコメントの場合、テキストフレーム内のテキスト選択長さを取得または設定します。 読み書き Int32。 |
-| [TextSelectionStart](../../aspose.slides/moderncomment/textselectionstart) { get; set; } | AutoShape に関連付けられたコメントの場合、テキストフレーム内のテキスト選択開始位置を取得または設定します。 読み書き Int32。 |
+| [Author](../../aspose.slides/comment/author) { get; } | コメントの作成者を取得します。読み取り専用 [`ICommentAuthor`](../icommentauthor)。 |
+| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | コメントの作成時刻を取得または設定します。このプロパティに MinValue を設定すると、コメント時刻が設定されていないことを意味します。読み取り/書き込み DateTime。 |
+| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | 親コメントを取得または設定します。読み取り/書き込み [`IComment`](../icomment)。 |
+| [Position](../../aspose.slides/comment/position) { get; set; } | スライド上のコメントの位置を取得または設定します。読み取り/書き込み PointF。 |
+| [Shape](../../aspose.slides/moderncomment/shape) { get; } | コメントに関連付けられたシェイプを取得します。読み取り専用 [`IShape`](../ishape)。 |
+| [Slide](../../aspose.slides/comment/slide) { get; } | コメントの親スライドを取得または設定します。読み取り専用 [`ISlide`](../islide)。 |
+| [Status](../../aspose.slides/moderncomment/status) { get; set; } | コメントのステータスを取得または設定します。読み取り/書き込み [`ModernCommentStatus`](../moderncommentstatus)。 |
+| [Text](../../aspose.slides/comment/text) { get; set; } | スライドコメントのプレーンテキストを取得または設定します。読み取り/書き込み String。 |
+| [TextSelectionLength](../../aspose.slides/moderncomment/textselectionlength) { get; set; } | コメントが AutoShape に関連付けられている場合、テキストフレーム内のテキスト選択範囲の長さを取得または設定します。読み取り/書き込み Int32。 |
+| [TextSelectionStart](../../aspose.slides/moderncomment/textselectionstart) { get; set; } | コメントが AutoShape に関連付けられている場合、テキストフレーム内のテキスト選択の開始位置を取得または設定します。読み取り/書き込み Int32。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [Remove](../../aspose.slides/comment/remove)() | 親コレクションからコメントとそのすべての返信を削除します。 |
+| [Remove](../../aspose.slides/comment/remove)() | コメントとそのすべての返信を親コレクションから削除します。 |
 
 ### 例
 

@@ -1,9 +1,9 @@
 ---
 title: ITab
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk .NET Referensi API
 description: Mewakili tabulasi untuk teks.
 type: docs
-weight: 7170
+weight: 7190
 url: /id/aspose.slides/itab/
 ---
 ## ITab antarmuka
@@ -18,8 +18,8 @@ public interface ITab : IComparable
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Alignment](../../aspose.slides/itab/alignment) { get; set; } | Mengembalikan atau mengatur gaya penyelarasan tab. Baca/tulis [`TabAlignment`](../tabalignment). |
-| [AsIComparable](../../aspose.slides/itab/asicomparable) { get; } | Mengembalikan antarmuka IComparable. Baca-saja IComparable. |
+| [Alignment](../../aspose.slides/itab/alignment) { get; set; } | Mengembalikan atau mengatur gaya perataan tab. Baca/tulis [`TabAlignment`](../tabalignment). |
+| [AsIComparable](../../aspose.slides/itab/asicomparable) { get; } | Mengembalikan antarmuka IComparable. Hanya-baca IComparable. |
 | [Position](../../aspose.slides/itab/position) { get; set; } | Mengembalikan atau mengatur posisi tab. Menetapkan properti ini dapat mengubah indeks tab dalam koleksi dan membuat Enumerator tidak valid. Baca/tulis Double. |
 
 ### Lihat Juga

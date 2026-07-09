@@ -1,14 +1,14 @@
 ---
 title: AlphaInverse
-second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje efekt Alpha Inverse. Hodnoty alfa (průhlednosti) jsou invertovány odečtením od 100.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Reprezentuje efekt Alpha Inverse. Hodnoty průhlednosti Alpha jsou invertovány odečtením od 100.
 type: docs
-weight: 2850
+weight: 2870
 url: /cs/aspose.slides.effects/alphainverse/
 ---
-## AlphaInverse třída
+## třída AlphaInverse
 
-Představuje efekt Alpha Inverse. Hodnoty alfa (průhlednosti) jsou invertovány odečtením od 100 %.
+Representuje efekt Alpha Inverse. Hodnoty alfa (průhlednosti) jsou invertovány odečtením od 100 %.
 
 ```csharp
 public sealed class AlphaInverse : ImageTransformOperation, IAlphaInverse
@@ -18,13 +18,13 @@ public sealed class AlphaInverse : ImageTransformOperation, IAlphaInverse
 
 | Název | Popis |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze pro čtení [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze ke čtení [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphainverse/equals)(object) | Určuje, zda je zadaný [`AlphaInverse`](../alphainverse) roven aktuálnímu [`AlphaInverse`](../alphainverse). |
+| override [Equals](../../aspose.slides.effects/alphainverse/equals)(object) | Určuje, zda zadaný [`AlphaInverse`](../alphainverse) je roven aktuálnímu [`AlphaInverse`](../alphainverse). |
 | [GetEffective](../../aspose.slides.effects/alphainverse/geteffective)() | Získá efektivní data efektu Alpha Inverse s aplikovaným děděním. |
 | override [GetHashCode](../../aspose.slides.effects/alphainverse/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ. |
 

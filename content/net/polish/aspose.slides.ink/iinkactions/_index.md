@@ -1,14 +1,14 @@
 ---
 title: IInkActions
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Reprezentuje obiekt atramentu na slajdzie.
+second_title: Aspose.Sildes dla dokumentacji API .NET
+description: Reprezentuje obiekt tuszu na slajdzie.
 type: docs
-weight: 7500
+weight: 7520
 url: /pl/aspose.slides.ink/iinkactions/
 ---
-## IInkActions interfejs
+## interfejs IInkActions
 
-Reprezentuje obiekt atramentu na slajdzie.
+Reprezentuje obiekt tuszu na slajdzie.
 
 ```csharp
 public interface IInkActions : IGraphicalObject
@@ -18,7 +18,7 @@ public interface IInkActions : IGraphicalObject
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides.ink/iinkactions/asigraphicalobject) { get; } | Umożliwia pobranie podstawowego interfejsu IGraphicalObject. Tylko do odczytu [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [AsIGraphicalObject](../../aspose.slides.ink/iinkactions/asigraphicalobject) { get; } | Umożliwia pobranie bazowego interfejsu IGraphicalObject. Tylko do odczytu [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
 
 ### Zobacz także
 

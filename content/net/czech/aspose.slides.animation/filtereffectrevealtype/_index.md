@@ -3,10 +3,10 @@ title: FilterEffectRevealType
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje typ odhalení filtru.
 type: docs
-weight: 360
+weight: 380
 url: /cs/aspose.slides.animation/filtereffectrevealtype/
 ---
-## Výčet FilterEffectRevealType
+## FilterEffectRevealType výčet
 
 Reprezentuje typ odhalení filtru.
 

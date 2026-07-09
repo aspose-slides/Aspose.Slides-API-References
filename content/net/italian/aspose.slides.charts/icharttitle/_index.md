@@ -1,12 +1,12 @@
 ---
 title: IChartTitle
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta le proprietà del titolo del grafico.
 type: docs
-weight: 1980
+weight: 2000
 url: /it/aspose.slides.charts/icharttitle/
 ---
-## Interfaccia IChartTitle
+## IChartTitle interface
 
 Rappresenta le proprietà del titolo del grafico.
 
@@ -20,8 +20,8 @@ public interface IChartTitle : IActualLayout, ILayoutable, IOverridableText
 | --- | --- |
 | [AsILayoutable](../../aspose.slides.charts/icharttitle/asilayoutable) { get; } | Consente di ottenere l'interfaccia base ILayoutable. Solo lettura [`ILayoutable`](../ilayoutable). |
 | [AsIOverridableText](../../aspose.slides.charts/icharttitle/asioverridabletext) { get; } | Consente di ottenere l'interfaccia base IOverridableText. Solo lettura [`IOverridableText`](../ioverridabletext). |
-| [Format](../../aspose.slides.charts/icharttitle/format) { get; } | Restituisce gli stili di riempimento, linea ed effetto di un titolo. Solo lettura [`IFormat`](../iformat). |
-| [Overlay](../../aspose.slides.charts/icharttitle/overlay) { get; set; } | Determina se altri elementi del grafico devono poter sovrapporsi al titolo. Lettura/scrittura Boolean. |
+| [Format](../../aspose.slides.charts/icharttitle/format) { get; } | Restituisce gli stili di riempimento, contorno ed effetto di un titolo. Solo lettura [`IFormat`](../iformat). |
+| [Overlay](../../aspose.slides.charts/icharttitle/overlay) { get; set; } | Determina se altri elementi del grafico devono poter sovrapporre il titolo. Lettura/scrittura Boolean. |
 
 ### Vedi anche
 

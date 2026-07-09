@@ -1,14 +1,14 @@
 ---
 title: PortionCollection
 second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje kolekci úseků.
+description: Representuje kolekci částí.
 type: docs
-weight: 9450
+weight: 9470
 url: /cs/aspose.slides/portioncollection/
 ---
 ## PortionCollection třída
 
-Representuje kolekci úseků.
+Representuje sbírku částí.
 
 ```csharp
 public sealed class PortionCollection : DomObject<Paragraph>, IPortionCollection
@@ -18,23 +18,23 @@ public sealed class PortionCollection : DomObject<Paragraph>, IPortionCollection
 
 | Název | Popis |
 | --- | --- |
-| [Count](../../aspose.slides/portioncollection/count) { get; } | Získá počet skutečně obsažených prvků v kolekci. Pouze ke čtení Int32. |
-| [IsReadOnly](../../aspose.slides/portioncollection/isreadonly) { get; } | Získá hodnotu, která určuje, zda je ICollection pouze ke čtení. Pouze ke čtení Boolean. |
+| [Count](../../aspose.slides/portioncollection/count) { get; } | Získá počet prvků skutečně obsažených ve sbírce. Pouze pro čtení Int32. |
+| [IsReadOnly](../../aspose.slides/portioncollection/isreadonly) { get; } | Získá hodnotu indikující, zda je ICollection pouze pro čtení. Pouze pro čtení Boolean. |
 | [Item](../../aspose.slides/portioncollection/item) { get; set; } | Získá prvek na zadaném indexu. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [Add](../../aspose.slides/portioncollection/add)(IPortion) | Přidá Portion na konec kolekce. |
-| [Clear](../../aspose.slides/portioncollection/clear)() | Odstraní všechny prvky z kolekce. |
+| [Add](../../aspose.slides/portioncollection/add)(IPortion) | Přidá objekt Portion na konec sbírky. |
+| [Clear](../../aspose.slides/portioncollection/clear)() | Odstraní všechny prvky ze sbírky. |
 | [Contains](../../aspose.slides/portioncollection/contains)(IPortion) | Určuje, zda ICollection obsahuje konkrétní hodnotu. |
-| [CopyTo](../../aspose.slides/portioncollection/copyto)(IPortion[], int) | Zkopíruje prvky ICollection do Array, počínaje konkrétním indexem Array. |
-| [GetEnumerator](../../aspose.slides/portioncollection/getenumerator)() | Vrací enumerátor, který prochází kolekcí. |
+| [CopyTo](../../aspose.slides/portioncollection/copyto)(IPortion[], int) | Zkopíruje prvky ICollection do pole Array, počínaje konkrétním indexem pole. |
+| [GetEnumerator](../../aspose.slides/portioncollection/getenumerator)() | Vrací enumerátor, který prochází sbírkou. |
 | [IndexOf](../../aspose.slides/portioncollection/indexof)(IPortion) | Určuje index konkrétní položky v IList. |
-| [Insert](../../aspose.slides/portioncollection/insert)(int, IPortion) | Vloží Portion do kolekce na zadaný index. |
-| [Remove](../../aspose.slides/portioncollection/remove)(IPortion) | Odstraní první výskyt specifického objektu z ICollection. |
-| [RemoveAt](../../aspose.slides/portioncollection/removeat)(int) | Odstraní prvek na zadaném indexu kolekce. |
+| [Insert](../../aspose.slides/portioncollection/insert)(int, IPortion) | Vloží objekt Portion do sbírky na zadaném indexu. |
+| [Remove](../../aspose.slides/portioncollection/remove)(IPortion) | Odstraní první výskyt konkrétního objektu z ICollection. |
+| [RemoveAt](../../aspose.slides/portioncollection/removeat)(int) | Odstraní prvek na zadaném indexu sbírky. |
 
 ### Viz také
 

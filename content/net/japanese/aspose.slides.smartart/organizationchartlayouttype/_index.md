@@ -1,14 +1,14 @@
 ---
 title: OrganizationChartLayoutType
-second_title: Aspose.Sildes for .NET API リファレンス
-description: 組織図の子ノードの書式設定タイプを表します
+second_title: Aspose.Sildes の .NET API リファレンス
+description: 組織図における子ノードの書式設定タイプを表します
 type: docs
-weight: 10570
+weight: 10590
 url: /ja/aspose.slides.smartart/organizationchartlayouttype/
 ---
-## OrganizationChartLayoutType 列挙体
+## OrganizationChartLayoutType 列挙型
 
-組織図の子ノードの書式設定タイプを表します
+組織図における子ノードの書式設定タイプを表します
 
 ```csharp
 public enum OrganizationChartLayoutType
@@ -19,10 +19,10 @@ public enum OrganizationChartLayoutType
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
 | Initial | `0` | 初期レイアウトタイプ |
-| Standart | `1` | 子ノードを親ノードの下に水平に配置します。 |
-| BothHanging | `2` | 子ノードを親ノードの左右両側の下に垂直に配置します。 |
-| LeftHanging | `3` | 子ノードを親ノードの左側の下に垂直に配置します。 |
-| RightHanging | `4` | 子ノードを親ノードの右側の下に垂直に配置します。 |
+| Standart | `1` | 子ノードを水平方向に、親ノードの下に配置します。 |
+| BothHanging | `2` | 子ノードを垂直方向に、左側と右側の両方で親ノードの下に配置します。 |
+| LeftHanging | `3` | 子ノードを垂直方向に、左側で親ノードの下に配置します。 |
+| RightHanging | `4` | 子ノードを垂直方向に、右側で親ノードの下に配置します。 |
 
 ### 参照
 

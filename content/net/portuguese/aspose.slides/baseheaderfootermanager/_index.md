@@ -1,14 +1,14 @@
 ---
 title: BaseHeaderFooterManager
-second_title: Aspose.Sildes para .NET Referência da API
-description: Representa o gerenciador que mantém o comportamento dos marcadores de rodapé, data/hora e número da página para todos os tipos de slide.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Representa o gerenciador que mantém o comportamento dos marcadores de rodapé, data/hora e número de página para todos os tipos de slide.
 type: docs
-weight: 940
+weight: 960
 url: /pt/aspose.slides/baseheaderfootermanager/
 ---
 ## BaseHeaderFooterManager classe
 
-Representa o gerenciador que mantém o comportamento dos marcadores de rodapé, data/hora e número da página para todos os tipos de slide.
+Representa o gerenciador que mantém o comportamento dos marcadores de rodapé, data/hora e número de página para todos os tipos de slide.
 
 ```csharp
 public abstract class BaseHeaderFooterManager : IBaseHeaderFooterManager

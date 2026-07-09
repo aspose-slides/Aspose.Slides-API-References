@@ -3,7 +3,7 @@ title: IRowFormat
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta il formato di una riga di tabella.
 type: docs
-weight: 6850
+weight: 6870
 url: /it/aspose.slides/irowformat/
 ---
 ## IRowFormat interfaccia
@@ -18,7 +18,7 @@ public interface IRowFormat
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetEffective](../../aspose.slides/irowformat/geteffective)() | Ottiene le proprietà di formattazione della riga della tabella effettive con ereditarietà e stili della tabella applicati. |
+| [GetEffective](../../aspose.slides/irowformat/geteffective)() | Ottiene le proprietà di formattazione della riga di tabella effettive con ereditarietà e stili di tabella applicati. |
 
 ### Vedi anche
 

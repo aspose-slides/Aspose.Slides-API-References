@@ -1,14 +1,14 @@
 ---
 title: ICameraEffectiveData
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Objek tidak dapat diubah yang berisi properti kamera yang efektif.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Objek tidak dapat diubah yang berisi properti kamera efektif.
 type: docs
-weight: 5400
+weight: 5420
 url: /id/aspose.slides/icameraeffectivedata/
 ---
 ## ICameraEffectiveData antarmuka
 
-Objek tidak dapat diubah yang berisi properti kamera yang efektif.
+Objek tidak dapat diubah yang berisi properti kamera efektif.
 
 ```csharp
 public interface ICameraEffectiveData
@@ -26,7 +26,7 @@ public interface ICameraEffectiveData
 
 | Nama | Deskripsi |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | Rotasi didefinisikan melalui penggunaan koordinat latitude, koordinat longitude, dan revolusi tentang sumbu sebagai koordinat latitude dan longitude. elemen pertama dalam array hasil - latitude, kedua - longitude, ketiga - revolusi. Mengembalikan null jika tidak ada rotasi yang didefinisikan. |
+| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | Rotasi didefinisikan melalui penggunaan koordinat lintang, koordinat bujur, dan revolusi sekitar sumbu sebagai koordinat lintang dan bujur. elemen pertama dalam array hasil - lintang, kedua - bujur, ketiga - revolusi. Mengembalikan null jika tidak ada rotasi yang didefinisikan. |
 
 ### Catatan
 

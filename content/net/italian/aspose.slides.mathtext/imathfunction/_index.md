@@ -1,12 +1,12 @@
 ---
 title: IMathFunction
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Aspose.Sildes per il riferimento API .NET
 description: Specifica una funzione di un argomento.
 type: docs
-weight: 8250
+weight: 8270
 url: /it/aspose.slides.mathtext/imathfunction/
 ---
-## IMathFunction interfaccia
+## IMathFunction interface
 
 Specifica una funzione di un argomento.
 
@@ -14,15 +14,15 @@ Specifica una funzione di un argomento.
 public interface IMathFunction : IMathElement
 ```
 
-## Proprietà
+## Properties
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathfunction/asimathelement) { get; } | Consente di ottenere l'interfaccia base IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathfunction/base) { get; } | Argomento della funzione |
-| [Name](../../aspose.slides.mathtext/imathfunction/name) { get; } | Nome della funzione Ad esempio, i nomi delle funzioni sono sin e cos |
+| [Name](../../aspose.slides.mathtext/imathfunction/name) { get; } | Nome della funzione. Ad esempio, i nomi delle funzioni sono sin e cos |
 
-### Esempi
+### Examples
 
 Esempio:
 
@@ -31,7 +31,7 @@ Esempio:
 IMathFunction sinX = new MathematicalText("sin").Function("x");
 ```
 
-### Vedi anche
+### See Also
 
 * interfaccia [IMathElement](../imathelement)
 * spazio dei nomi [Aspose.Slides.MathText](../../aspose.slides.mathtext)

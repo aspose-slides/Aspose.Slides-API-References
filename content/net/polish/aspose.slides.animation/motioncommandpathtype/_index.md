@@ -1,12 +1,12 @@
 ---
 title: MotionCommandPathType
-second_title: Aspose.Sildes dla .NET – Referencja API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje typy poleceń dla zachowania efektu ruchu animacji.
 type: docs
-weight: 640
+weight: 660
 url: /pl/aspose.slides.animation/motioncommandpathtype/
 ---
-## MotionCommandPathType wyliczenie
+## Wyliczenie MotionCommandPathType
 
 Reprezentuje typy poleceń dla zachowania efektu ruchu animacji.
 

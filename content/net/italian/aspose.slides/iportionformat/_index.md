@@ -1,9 +1,9 @@
 ---
 title: IPortionFormat
-second_title: Riferimento API Aspose.Slides per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Questa classe contiene le proprietà di formattazione della porzione di testo. Diversamente da IPortionFormatEffectiveData./iportionformateffectivedata tutte le proprietà di questa classe sono scrivibili.
 type: docs
-weight: 6710
+weight: 6730
 url: /it/aspose.slides/iportionformat/
 ---
 ## IPortionFormat interfaccia
@@ -16,24 +16,24 @@ public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [AsIBasePortionFormat](../../aspose.slides/iportionformat/asibaseportionformat) { get; } | Restituisce l'interfaccia IBasePortionFormat. Solo lettura [`IBasePortionFormat`](../ibaseportionformat). |
-| [AsIHyperlinkContainer](../../aspose.slides/iportionformat/asihyperlinkcontainer) { get; } | Consente di ottenere l'interfaccia base IHyperlinkContainer. Solo lettura [`IHyperlinkContainer`](../ihyperlinkcontainer). |
-| [BookmarkId](../../aspose.slides/iportionformat/bookmarkid) { get; set; } | Restituisce o imposta l'identificatore del segnalibro. Lettura/scrittura String. |
-| [SmartTagClean](../../aspose.slides/iportionformat/smarttagclean) { get; set; } | Determina se il tag intelligente deve essere pulito. Nessuna eredità applicata. Lettura/scrittura Boolean. |
+| [AsIBasePortionFormat](../../aspose.slides/iportionformat/asibaseportionformat) { get; } | Restituisce l’interfaccia IBasePortionFormat. Solo lettura [`IBasePortionFormat`](../ibaseportionformat). |
+| [AsIHyperlinkContainer](../../aspose.slides/iportionformat/asihyperlinkcontainer) { get; } | Consente di ottenere l’interfaccia base IHyperlinkContainer. Solo lettura [`IHyperlinkContainer`](../ihyperlinkcontainer). |
+| [BookmarkId](../../aspose.slides/iportionformat/bookmarkid) { get; set; } | Restituisce o imposta l’identificatore del segnalibro. Lettura/scrittura String. |
+| [SmartTagClean](../../aspose.slides/iportionformat/smarttagclean) { get; set; } | Determina se il tag intelligente deve essere pulito. Nessuna ereditarietà applicata. Lettura/scrittura Boolean. |
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [GetEffective](../../aspose.slides/iportionformat/geteffective)() | Ottiene i dati di formattazione della porzione effettiva con l'eredità applicata. |
+| [GetEffective](../../aspose.slides/iportionformat/geteffective)() | Ottiene i dati di formattazione della porzione effective con l’eredità applicata. |
 
 ### Osservazioni
 
-Questa classe è usata per restituire e manipolare le proprietà di formattazione della porzione di testo definite per la specifica porzione. Ciò significa che nessuna eredità è applicata durante il recupero dei valori, quindi nella maggior parte dei casi otterrai valori che significano "non definito".
+Questa classe è utilizzata per restituire e manipolare le proprietà di formattazione della porzione di testo definite per la porzione specifica. Ciò significa che nessuna ereditarietà è applicata quando si ottengono i valori, quindi nella maggior parte dei casi si otterranno valori che indicano “non definito”.
 
-Per ottenere i valori dei parametri di formattazione effettivi, inclusi quelli ereditati, è necessario usare il metodo [`GetEffective`](./geteffective) che restituisce un'istanza [`IPortionFormatEffectiveData`](../iportionformateffectivedata).
+Per ottenere i valori dei parametri di formattazione effective, inclusi quelli ereditati, è necessario utilizzare il metodo [`GetEffective`](./geteffective) che restituisce un’istanza [`IPortionFormatEffectiveData`](../iportionformateffectivedata).
 
 ### Vedi anche
 

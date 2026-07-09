@@ -1,14 +1,14 @@
 ---
 title: ShapeType
-second_title: Aspose.Sildes for .NET API リファレンス
-description: ジオメトリシェイプの事前定義されたジオメトリを表します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: ジオメトリ シェイプの事前定義されたジオメトリを表します。
 type: docs
-weight: 9910
+weight: 9930
 url: /ja/aspose.slides/shapetype/
 ---
 ## ShapeType 列挙型
 
-ジオメトリシェイプの事前定義されたジオメトリを表します。
+ジオメトリ シェイプのプリセット形状を表します。
 
 ```csharp
 public enum ShapeType
@@ -18,199 +18,199 @@ public enum ShapeType
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| NotDefined | `-1` | 定義されていません。 |
-| Custom | `0` | カスタムシェイプです。これは返却専用の値です。 |
-| Line | `1` | ラインシェイプ。 |
-| LineInverse | `2` | 逆ラインシェイプ。 |
-| Triangle | `3` | 三角形シェイプ。 |
-| RightTriangle | `4` | 直角三角形シェイプ。 |
-| Rectangle | `5` | 矩形シェイプ。 |
-| Diamond | `6` | ダイヤモンドシェイプ。 |
-| Parallelogram | `7` | 平行四辺形シェイプ。 |
-| Trapezoid | `8` | 台形シェイプ。 |
-| NonIsoscelesTrapezoid | `9` | 非二等辺台形シェイプ。 |
-| Pentagon | `10` | 五角形シェイプ。 |
-| Hexagon | `11` | 六角形シェイプ。 |
-| Heptagon | `12` | 七角形シェイプ。 |
-| Octagon | `13` | 八角形シェイプ。 |
-| Decagon | `14` | 十角形シェイプ。 |
-| Dodecagon | `15` | 十二角形シェイプ。 |
-| FourPointedStar | `16` | 四角星シェイプ。 |
-| FivePointedStar | `17` | 五角星シェイプ。 |
-| SixPointedStar | `18` | 六角星シェイプ。 |
-| SevenPointedStar | `19` | 七角星シェイプ。 |
-| EightPointedStar | `20` | 八角星シェイプ。 |
-| TenPointedStar | `21` | 十角星シェイプ。 |
-| TwelvePointedStar | `22` | 十二角星シェイプ。 |
-| SixteenPointedStar | `23` | 十六角星シェイプ。 |
-| TwentyFourPointedStar | `24` | 二十四角星シェイプ。 |
-| ThirtyTwoPointedStar | `25` | 三十二角星シェイプ。 |
-| RoundCornerRectangle | `26` | 角丸矩形シェイプ。 |
-| OneRoundCornerRectangle | `27` | 角丸1矩形シェイプ。 |
-| TwoSamesideRoundCornerRectangle | `28` | 同側2角丸矩形シェイプ。 |
-| TwoDiagonalRoundCornerRectangle | `29` | 対角2角丸矩形シェイプ。 |
-| OneSnipOneRoundCornerRectangle | `30` | 1カット1角丸矩形シェイプ。 |
-| OneSnipCornerRectangle | `31` | 1カットコーナー矩形シェイプ。 |
-| TwoSamesideSnipCornerRectangle | `32` | 同側2カットコーナー矩形シェイプ。 |
-| TwoDiagonalSnipCornerRectangle | `33` | 対角2カットコーナー矩形シェイプ。 |
-| Plaque | `34` | プレートシェイプ。 |
-| Ellipse | `35` | 楕円シェイプ。 |
-| Teardrop | `36` | 泪滴シェイプ。 |
-| HomePlate | `37` | ホームプレートシェイプ。 |
-| Chevron | `38` | シェブロンシェイプ。 |
-| PieWedge | `39` | パイくさびシェイプ。 |
-| Pie | `40` | パイシェイプ。 |
-| BlockArc | `41` | ブロックアークシェイプ。 |
-| Donut | `42` | ドーナツシェイプ。 |
-| NoSmoking | `43` | 禁煙シェイプ。 |
-| RightArrow | `44` | 右矢印シェイプ。 |
-| LeftArrow | `45` | 左矢印シェイプ。 |
-| UpArrow | `46` | 上矢印シェイプ。 |
-| DownArrow | `47` | 下矢印シェイプ。 |
-| StripedRightArrow | `48` | 縞模様の右矢印シェイプ。 |
-| NotchedRightArrow | `49` | 切り込み付き右矢印シェイプ。 |
-| BentUpArrow | `50` | 曲がった上矢印シェイプ。 |
-| LeftRightArrow | `51` | 左右矢印シェイプ。 |
-| UpDownArrow | `52` | 上下矢印シェイプ。 |
-| LeftUpArrow | `53` | 左上矢印シェイプ。 |
-| LeftRightUpArrow | `54` | 左右上矢印シェイプ。 |
-| QuadArrow | `55` | 四方向矢印シェイプ。 |
-| CalloutLeftArrow | `56` | コールアウト左矢印シェイプ。 |
-| CalloutRightArrow | `57` | コールアウト右矢印シェイプ。 |
-| CalloutUpArrow | `58` | コールアウト上矢印シェイプ。 |
-| CalloutDownArrow | `59` | コールアウト下矢印シェイプ。 |
-| CalloutLeftRightArrow | `60` | コールアウト左右矢印シェイプ。 |
-| CalloutUpDownArrow | `61` | コールアウト上下矢印シェイプ。 |
-| CalloutQuadArrow | `62` | コールアウト四方向矢印シェイプ。 |
-| BentArrow | `63` | 曲がった矢印シェイプ。 |
-| UTurnArrow | `64` | Uターン矢印シェイプ。 |
-| CircularArrow | `65` | 円形矢印シェイプ。 |
-| LeftCircularArrow | `66` | 左円形矢印シェイプ。 |
-| LeftRightCircularArrow | `67` | 左右円形矢印シェイプ。 |
-| CurvedRightArrow | `68` | 曲線右矢印シェイプ。 |
-| CurvedLeftArrow | `69` | 曲線左矢印シェイプ。 |
-| CurvedUpArrow | `70` | 曲線上矢印シェイプ。 |
-| CurvedDownArrow | `71` | 曲線下矢印シェイプ。 |
-| SwooshArrow | `72` | スウッシュ矢印シェイプ。 |
-| Cube | `73` | 立方体シェイプ。 |
-| Can | `74` | 缶シェイプ。 |
-| LightningBolt | `75` | 稲妻シェイプ。 |
-| Heart | `76` | ハートシェイプ。 |
-| Sun | `77` | 太陽シェイプ。 |
-| Moon | `78` | 月シェイプ。 |
-| SmileyFace | `79` | スマイリーフェイスシェイプ。 |
-| IrregularSeal1 | `80` | 不規則シール1シェイプ。 |
-| IrregularSeal2 | `81` | 不規則シール2シェイプ。 |
-| FoldedCorner | `82` | 折りたたみコーナーシェイプ。 |
-| Bevel | `83` | ベベルシェイプ。 |
-| Frame | `84` | フレームシェイプ。 |
-| HalfFrame | `85` | ハーフフレームシェイプ。 |
-| Corner | `86` | コーナーシェイプ。 |
-| DiagonalStripe | `87` | 対角ストライプシェイプ。 |
-| Chord | `88` | コードシェイプ。 |
-| CurvedArc | `89` | 曲線アークシェイプ。 |
-| LeftBracket | `90` | 左括弧シェイプ。 |
-| RightBracket | `91` | 右括弧シェイプ。 |
-| LeftBrace | `92` | 左ブレースシェイプ。 |
-| RightBrace | `93` | 右ブレースシェイプ。 |
-| BracketPair | `94` | 括弧ペアシェイプ。 |
-| BracePair | `95` | ブレースペアシェイプ。 |
-| StraightConnector1 | `96` | 直線コネクタ1シェイプ。 |
-| BentConnector2 | `97` | 曲がったコネクタ2シェイプ。 |
-| BentConnector3 | `98` | 曲がったコネクタ3シェイプ。 |
-| BentConnector4 | `99` | 曲がったコネクタ4シェイプ。 |
-| BentConnector5 | `100` | 曲がったコネクタ5シェイプ。 |
-| CurvedConnector2 | `101` | 曲線コネクタ2シェイプ。 |
-| CurvedConnector3 | `102` | 曲線コネクタ3シェイプ。 |
-| CurvedConnector4 | `103` | 曲線コネクタ4シェイプ。 |
-| CurvedConnector5 | `104` | 曲線コネクタ5シェイプ。 |
-| Callout1 | `105` | コールアウト1シェイプ。 |
-| Callout2 | `106` | コールアウト2シェイプ。 |
-| Callout3 | `107` | コールアウト3シェイプ。 |
-| Callout1WithAccent | `108` | アクセント付きコールアウト1シェイプ。 |
-| Callout2WithAccent | `109` | アクセント付きコールアウト2シェイプ。 |
-| Callout3WithAccent | `110` | アクセント付きコールアウト3シェイプ。 |
-| Callout1WithBorder | `111` | 枠付きコールアウト1シェイプ。 |
-| Callout2WithBorder | `112` | 枠付きコールアウト2シェイプ。 |
-| Callout3WithBorder | `113` | 枠付きコールアウト3シェイプ。 |
-| Callout1WithBorderAndAccent | `114` | 枠とアクセント付きコールアウト1シェイプ。 |
-| Callout2WithBorderAndAccent | `115` | 枠とアクセント付きコールアウト2シェイプ。 |
-| Callout3WithBorderAndAccent | `116` | 枠とアクセント付きコールアウト3シェイプ。 |
-| CalloutWedgeRectangle | `117` | コールアウトくさび矩形シェイプ。 |
-| CalloutWedgeRoundRectangle | `118` | コールアウトくさび丸矩形シェイプ。 |
-| CalloutWedgeEllipse | `119` | コールアウトくさび楕円シェイプ。 |
-| CalloutCloud | `120` | コールアウトクラウドシェイプ。 |
-| Cloud | `121` | クラウドシェイプ。 |
-| Ribbon | `122` | リボンシェイプ。 |
-| Ribbon2 | `123` | リボン2シェイプ。 |
-| EllipseRibbon | `124` | 楕円リボンシェイプ。 |
-| EllipseRibbon2 | `125` | 楕円リボン2シェイプ。 |
-| LeftRightRibbon | `126` | 左右リボンシェイプ。 |
-| VerticalScroll | `127` | 垂直スクロールシェイプ。 |
-| HorizontalScroll | `128` | 水平スクロールシェイプ。 |
-| Wave | `129` | 波形シェイプ。 |
-| DoubleWave | `130` | 二重波形シェイプ。 |
-| Plus | `131` | プラスシェイプ。 |
-| ProcessFlow | `132` | プロセスフローシェイプ。 |
-| DecisionFlow | `133` | 判断フローシェイプ。 |
-| InputOutputFlow | `134` | 入出力フローシェイプ。 |
-| PredefinedProcessFlow | `135` | 事前定義プロセスフローシェイプ。 |
-| InternalStorageFlow | `136` | 内部ストレージフローシェイプ。 |
-| DocumentFlow | `137` | ドキュメントフローシェイプ。 |
-| MultiDocumentFlow | `138` | マルチドキュメントフローシェイプ。 |
-| TerminatorFlow | `139` | ターミネーターフローシェイプ。 |
-| PreparationFlow | `140` | 準備フローシェイプ。 |
-| ManualInputFlow | `141` | 手動入力フローシェイプ。 |
-| ManualOperationFlow | `142` | 手動操作フローシェイプ。 |
-| ConnectorFlow | `143` | コネクターフローシェイプ。 |
-| PunchedCardFlow | `144` | パンチカードフローシェイプ。 |
-| PunchedTapeFlow | `145` | パンチテープフローシェイプ。 |
-| SummingJunctionFlow | `146` | 合算ジャンクションフローシェイプ。 |
-| OrFlow | `147` | ORフローシェイプ。 |
-| CollateFlow | `148` | 整列フローシェイプ。 |
-| SortFlow | `149` | ソートフローシェイプ。 |
-| ExtractFlow | `150` | 抽出フローシェイプ。 |
-| MergeFlow | `151` | マージフローシェイプ。 |
-| OfflineStorageFlow | `152` | オフラインストレージフローシェイプ。 |
-| OnlineStorageFlow | `153` | オンラインストレージフローシェイプ。 |
-| MagneticTapeFlow | `154` | 磁気テープフローシェイプ。 |
-| MagneticDiskFlow | `155` | 磁気ディスクフローシェイプ。 |
-| MagneticDrumFlow | `156` | 磁気ドラムフローシェイプ。 |
-| DisplayFlow | `157` | ディスプレイフローシェイプ。 |
-| DelayFlow | `158` | 遅延フローシェイプ。 |
-| AlternateProcessFlow | `159` | 代替プロセスフローシェイプ。 |
-| OffPageConnectorFlow | `160` | オフページコネクターフローシェイプ。 |
-| BlankButton | `161` | 空白ボタンシェイプ。 |
-| HomeButton | `162` | ホームボタンシェイプ。 |
-| HelpButton | `163` | ヘルプボタンシェイプ。 |
-| InformationButton | `164` | 情報ボタンシェイプ。 |
-| ForwardOrNextButton | `165` | 前進または次へボタンシェイプ。 |
-| BackOrPreviousButton | `166` | 戻るまたは前のボタンシェイプ。 |
-| EndButton | `167` | 終了ボタンシェイプ。 |
-| BeginningButton | `168` | 開始ボタンシェイプ。 |
-| ReturnButton | `169` | 戻りボタンシェイプ。 |
-| DocumentButton | `170` | ドキュメントボタンシェイプ。 |
-| SoundButton | `171` | サウンドボタンシェイプ。 |
-| MovieButton | `172` | ムービーボタンシェイプ。 |
-| Gear6 | `173` | ギア6シェイプ。 |
-| Gear9 | `174` | ギア9シェイプ。 |
-| Funnel | `175` | ファンネルシェイプ。 |
-| PlusMath | `176` | プラス数学シェイプ。 |
-| MinusMath | `177` | マイナス数学シェイプ。 |
-| MultiplyMath | `178` | 掛け算数学シェイプ。 |
-| DivideMath | `179` | 除算数学シェイプ。 |
-| EqualMath | `180` | 等価数学シェイプ。 |
-| NotEqualMath | `181` | 非等価数学シェイプ。 |
-| CornerTabs | `182` | コーナータブシェイプ。 |
-| SquareTabs | `183` | スクエアタブシェイプ。 |
-| PlaqueTabs | `184` | プレートタブシェイプ。 |
-| ChartX | `185` | チャートXシェイプ。 |
-| ChartStar | `186` | チャート星形シェイプ。 |
-| ChartPlus | `187` | チャートプラスシェイプ。 |
+| NotDefined | `-1` | 未定義です。 |
+| Custom | `0` | カスタム シェイプです。この値は戻り値専用です。 |
+| Line | `1` | 線シェイプです。 |
+| LineInverse | `2` | 逆方向線シェイプです。 |
+| Triangle | `3` | 三角形シェイプです。 |
+| RightTriangle | `4` | 直角三角形シェイプです。 |
+| Rectangle | `5` | 四角形シェイプです。 |
+| Diamond | `6` | 菱形シェイプです。 |
+| Parallelogram | `7` | 平行四辺形シェイプです。 |
+| Trapezoid | `8` | 台形シェイプです。 |
+| NonIsoscelesTrapezoid | `9` | 非等辺台形シェイプです。 |
+| Pentagon | `10` | 五角形シェイプです。 |
+| Hexagon | `11` | 六角形シェイプです。 |
+| Heptagon | `12` | 七角形シェイプです。 |
+| Octagon | `13` | 八角形シェイプです。 |
+| Decagon | `14` | 十角形シェイプです。 |
+| Dodecagon | `15` | 十二角形シェイプです。 |
+| FourPointedStar | `16` | 四つのポイントを持つ星形シェイプです。 |
+| FivePointedStar | `17` | 五つのポイントを持つ星形シェイプです。 |
+| SixPointedStar | `18` | 六つのポイントを持つ星形シェイプです。 |
+| SevenPointedStar | `19` | 七つのポイントを持つ星形シェイプです。 |
+| EightPointedStar | `20` | 八つのポイントを持つ星形シェイプです。 |
+| TenPointedStar | `21` | 十のポイントを持つ星形シェイプです。 |
+| TwelvePointedStar | `22` | 十二のポイントを持つ星形シェイプです。 |
+| SixteenPointedStar | `23` | 十六のポイントを持つ星形シェイプです。 |
+| TwentyFourPointedStar | `24` | 二十四のポイントを持つ星形シェイプです。 |
+| ThirtyTwoPointedStar | `25` | 三十二のポイントを持つ星形シェイプです。 |
+| RoundCornerRectangle | `26` | 角が丸い四角形シェイプです。 |
+| OneRoundCornerRectangle | `27` | 角が一つだけ丸い四角形シェイプです。 |
+| TwoSamesideRoundCornerRectangle | `28` | 同じ側に二つの丸い角を持つ四角形シェイプです。 |
+| TwoDiagonalRoundCornerRectangle | `29` | 対角に二つの丸い角を持つ四角形シェイプです。 |
+| OneSnipOneRoundCornerRectangle | `30` | 一つ切れ込みと一つ丸い角を持つ四角形シェイプです。 |
+| OneSnipCornerRectangle | `31` | 一つ切れ込みのある四角形シェイプです。 |
+| TwoSamesideSnipCornerRectangle | `32` | 同じ側に二つの切れ込みを持つ四角形シェイプです。 |
+| TwoDiagonalSnipCornerRectangle | `33` | 対角に二つの切れ込みを持つ四角形シェイプです。 |
+| Plaque | `34` | プレートシェイプです。 |
+| Ellipse | `35` | 楕円シェイプです。 |
+| Teardrop | `36` | 雫形シェイプです。 |
+| HomePlate | `37` | ホームプレートシェイプです。 |
+| Chevron | `38` | シェブロン形シェイプです。 |
+| PieWedge | `39` | パイウェッジシェイプです。 |
+| Pie | `40` | パイシェイプです。 |
+| BlockArc | `41` | ブロックアークシェイプです。 |
+| Donut | `42` | ドーナツシェイプです。 |
+| NoSmoking | `43` | 禁煙シェイプです。 |
+| RightArrow | `44` | 右向き矢印シェイプです。 |
+| LeftArrow | `45` | 左向き矢印シェイプです。 |
+| UpArrow | `46` | 上向き矢印シェイプです。 |
+| DownArrow | `47` | 下向き矢印シェイプです。 |
+| StripedRightArrow | `48` | 縞模様の右向き矢印シェイプです。 |
+| NotchedRightArrow | `49` | 切れ込み付き右向き矢印シェイプです。 |
+| BentUpArrow | `50` | 曲がった上向き矢印シェイプです。 |
+| LeftRightArrow | `51` | 左右矢印シェイプです。 |
+| UpDownArrow | `52` | 上下矢印シェイプです。 |
+| LeftUpArrow | `53` | 左上向き矢印シェイプです。 |
+| LeftRightUpArrow | `54` | 左右上向き矢印シェイプです。 |
+| QuadArrow | `55` | 四方向矢印シェイプです。 |
+| CalloutLeftArrow | `56` | コールアウト左矢印シェイプです。 |
+| CalloutRightArrow | `57` | コールアウト右矢印シェイプです。 |
+| CalloutUpArrow | `58` | コールアウト上矢印シェイプです。 |
+| CalloutDownArrow | `59` | コールアウト下矢印シェイプです。 |
+| CalloutLeftRightArrow | `60` | コールアウト左右矢印シェイプです。 |
+| CalloutUpDownArrow | `61` | コールアウト上下矢印シェイプです。 |
+| CalloutQuadArrow | `62` | コールアウト四方向矢印シェイプです。 |
+| BentArrow | `63` | 曲がった矢印シェイプです。 |
+| UTurnArrow | `64` | U字矢印シェイプです。 |
+| CircularArrow | `65` | 円形矢印シェイプです。 |
+| LeftCircularArrow | `66` | 左向き円形矢印シェイプです。 |
+| LeftRightCircularArrow | `67` | 左右円形矢印シェイプです。 |
+| CurvedRightArrow | `68` | 曲線右矢印シェイプです。 |
+| CurvedLeftArrow | `69` | 曲線左矢印シェイプです。 |
+| CurvedUpArrow | `70` | 曲線上矢印シェイプです。 |
+| CurvedDownArrow | `71` | 曲線下矢印シェイプです。 |
+| SwooshArrow | `72` | スウッシュ矢印シェイプです。 |
+| Cube | `73` | 立方体シェイプです。 |
+| Can | `74` | 缶シェイプです。 |
+| LightningBolt | `75` | 稲妻シェイプです。 |
+| Heart | `76` | ハートシェイプです。 |
+| Sun | `77` | 太陽シェイプです。 |
+| Moon | `78` | 月シェイプです。 |
+| SmileyFace | `79` | スマイリーフェイスシェイプです。 |
+| IrregularSeal1 | `80` | 不規則シール 1 シェイプです。 |
+| IrregularSeal2 | `81` | 不規則シール 2 シェイプです。 |
+| FoldedCorner | `82` | 折りたたみコーナーシェイプです。 |
+| Bevel | `83` | ベベルシェイプです。 |
+| Frame | `84` | フレームシェイプです。 |
+| HalfFrame | `85` | 半フレームシェイプです。 |
+| Corner | `86` | コーナーシェイプです。 |
+| DiagonalStripe | `87` | 斜めストライプシェイプです。 |
+| Chord | `88` | コードシェイプです。 |
+| CurvedArc | `89` | 曲線アークシェイプです。 |
+| LeftBracket | `90` | 左かっこシェイプです。 |
+| RightBracket | `91` | 右かっこシェイプです。 |
+| LeftBrace | `92` | 左波かっこシェイプです。 |
+| RightBrace | `93` | 右波かっこシェイプです。 |
+| BracketPair | `94` | かっこペアシェイプです。 |
+| BracePair | `95` | 波かっこペアシェイプです。 |
+| StraightConnector1 | `96` | 直線コネクタ 1 シェイプです。 |
+| BentConnector2 | `97` | 曲がったコネクタ 2 シェイプです。 |
+| BentConnector3 | `98` | 曲がったコネクタ 3 シェイプです。 |
+| BentConnector4 | `99` | 曲がったコネクタ 4 シェイプです。 |
+| BentConnector5 | `100` | 曲がったコネクタ 5 シェイプです。 |
+| CurvedConnector2 | `101` | 曲線コネクタ 2 シェイプです。 |
+| CurvedConnector3 | `102` | 曲線コネクタ 3 シェイプです。 |
+| CurvedConnector4 | `103` | 曲線コネクタ 4 シェイプです。 |
+| CurvedConnector5 | `104` | 曲線コネクタ 5 シェイプです。 |
+| Callout1 | `105` | コールアウト 1 シェイプです。 |
+| Callout2 | `106` | コールアウト 2 シェイプです。 |
+| Callout3 | `107` | コールアウト 3 シェイプです。 |
+| Callout1WithAccent | `108` | アクセント付きコールアウト 1 シェイプです。 |
+| Callout2WithAccent | `109` | アクセント付きコールアウト 2 シェイプです。 |
+| Callout3WithAccent | `110` | アクセント付きコールアウト 3 シェイプです。 |
+| Callout1WithBorder | `111` | 境界付きコールアウト 1 シェイプです。 |
+| Callout2WithBorder | `112` | 境界付きコールアウト 2 シェイプです。 |
+| Callout3WithBorder | `113` | 境界付きコールアウト 3 シェイプです。 |
+| Callout1WithBorderAndAccent | `114` | 境界とアクセント付きコールアウト 1 シェイプです。 |
+| Callout2WithBorderAndAccent | `115` | 境界とアクセント付きコールアウト 2 シェイプです。 |
+| Callout3WithBorderAndAccent | `116` | 境界とアクセント付きコールアウト 3 シェイプです。 |
+| CalloutWedgeRectangle | `117` | ワッジ矩形コールアウトシェイプです。 |
+| CalloutWedgeRoundRectangle | `118` | ワッジ丸角矩形コールアウトシェイプです。 |
+| CalloutWedgeEllipse | `119` | ワッジ楕円コールアウトシェイプです。 |
+| CalloutCloud | `120` | 雲型コールアウトシェイプです。 |
+| Cloud | `121` | 雲シェイプです。 |
+| Ribbon | `122` | リボンシェイプです。 |
+| Ribbon2 | `123` | リボン 2 シェイプです。 |
+| EllipseRibbon | `124` | 楕円リボンシェイプです。 |
+| EllipseRibbon2 | `125` | 楕円リボン 2 シェイプです。 |
+| LeftRightRibbon | `126` | 左右リボンシェイプです。 |
+| VerticalScroll | `127` | 縦スクロールシェイプです。 |
+| HorizontalScroll | `128` | 横スクロールシェイプです。 |
+| Wave | `129` | 波形シェイプです。 |
+| DoubleWave | `130` | 二重波形シェイプです。 |
+| Plus | `131` | プラスシェイプです。 |
+| ProcessFlow | `132` | プロセスフローシェイプです。 |
+| DecisionFlow | `133` | 判断フローシェイプです。 |
+| InputOutputFlow | `134` | 入出力フローシェイプです。 |
+| PredefinedProcessFlow | `135` | 事前定義プロセスフローシェイプです。 |
+| InternalStorageFlow | `136` | 内部ストレージフローシェイプです。 |
+| DocumentFlow | `137` | 文書フローシェイプです。 |
+| MultiDocumentFlow | `138` | 複数文書フローシェイプです。 |
+| TerminatorFlow | `139` | 終端フローシェイプです。 |
+| PreparationFlow | `140` | 準備フローシェイプです。 |
+| ManualInputFlow | `141` | 手動入力フローシェイプです。 |
+| ManualOperationFlow | `142` | 手動操作フローシェイプです。 |
+| ConnectorFlow | `143` | コネクターフローシェイプです。 |
+| PunchedCardFlow | `144` | パンチカードフローシェイプです。 |
+| PunchedTapeFlow | `145` | パンチテープフローシェイプです。 |
+| SummingJunctionFlow | `146` | 加算結合点フローシェイプです。 |
+| OrFlow | `147` | OR フローシェイプです。 |
+| CollateFlow | `148` | コラテートフローシェイプです。 |
+| SortFlow | `149` | ソートフローシェイプです。 |
+| ExtractFlow | `150` | 抽出フローシェイプです。 |
+| MergeFlow | `151` | マージフローシェイプです。 |
+| OfflineStorageFlow | `152` | オフラインストレージフローシェイプです。 |
+| OnlineStorageFlow | `153` | オンラインストレージフローシェイプです。 |
+| MagneticTapeFlow | `154` | 磁気テープフローシェイプです。 |
+| MagneticDiskFlow | `155` | 磁気ディスクフローシェイプです。 |
+| MagneticDrumFlow | `156` | 磁気ドラムフローシェイプです。 |
+| DisplayFlow | `157` | 表示フローシェイプです。 |
+| DelayFlow | `158` | 遅延フローシェイプです。 |
+| AlternateProcessFlow | `159` | 代替プロセスフローシェイプです。 |
+| OffPageConnectorFlow | `160` | ページ外コネクターフローシェイプです。 |
+| BlankButton | `161` | 空白ボタンシェイプです。 |
+| HomeButton | `162` | ホームボタンシェイプです。 |
+| HelpButton | `163` | ヘルプボタンシェイプです。 |
+| InformationButton | `164` | 情報ボタンシェイプです。 |
+| ForwardOrNextButton | `165` | 前進または次へボタンシェイプです。 |
+| BackOrPreviousButton | `166` | 戻るまたは前へボタンシェイプです。 |
+| EndButton | `167` | 終了ボタンシェイプです。 |
+| BeginningButton | `168` | 開始ボタンシェイプです。 |
+| ReturnButton | `169` | 戻るボタンシェイプです。 |
+| DocumentButton | `170` | 文書ボタンシェイプです。 |
+| SoundButton | `171` | サウンドボタンシェイプです。 |
+| MovieButton | `172` | ムービーボタンシェイプです。 |
+| Gear6 | `173` | ギア 6 シェイプです。 |
+| Gear9 | `174` | ギア 9 シェイプです。 |
+| Funnel | `175` | ファンネルシェイプです。 |
+| PlusMath | `176` | プラス演算シェイプです。 |
+| MinusMath | `177` | マイナス演算シェイプです。 |
+| MultiplyMath | `178` | 乗算演算シェイプです。 |
+| DivideMath | `179` | 除算演算シェイプです。 |
+| EqualMath | `180` | 等号演算シェイプです。 |
+| NotEqualMath | `181` | 不等号演算シェイプです。 |
+| CornerTabs | `182` | コーナータブシェイプです。 |
+| SquareTabs | `183` | 四角タブシェイプです。 |
+| PlaqueTabs | `184` | プレートタブシェイプです。 |
+| ChartX | `185` | X 軸チャートシェイプです。 |
+| ChartStar | `186` | 星形チャートシェイプです。 |
+| ChartPlus | `187` | プラスチャートシェイプです。 |
 
 ### 参照
 
-* 名前空間 [Aspose.Slides](../../aspose.slides)
-* アセンブリ [Aspose.Slides](../../)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

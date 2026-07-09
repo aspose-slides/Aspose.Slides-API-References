@@ -1,14 +1,14 @@
 ---
 title: Video
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje obrázek vložený do prezentace.
+second_title: Aspose.Sildes pro .NET – reference API
+description: Representuje obrázek vložený do prezentace.
 type: docs
-weight: 11680
+weight: 11700
 url: /cs/aspose.slides/video/
 ---
-## třída Video
+## Video třída
 
-Reprezentuje obrázek vložený do prezentace.
+Representuje obrázek vložený do prezentace.
 
 ```csharp
 public class Video : IVideo
@@ -18,14 +18,14 @@ public class Video : IVideo
 
 | Název | Popis |
 | --- | --- |
-| [BinaryData](../../aspose.slides/video/binarydata) { get; } | Vrací kopii dat zvuku. V případě velkého množství dat zvažte použití metody [`GetStream`](./getstream) k zabránění zbytečnému načítání dat videa do paměti nebo dokonce výjimky OutOfMemoryException. Pouze pro čtení Byte[]. |
-| [ContentType](../../aspose.slides/video/contenttype) { get; } | Vrací typ MIME videa, zakódovaný v [`BinaryData`](./binarydata). Pouze pro čtení String. |
+| [BinaryData](../../aspose.slides/video/binarydata) { get; } | Vrací kopii dat audia. V případě velkého množství dat zvažte použití metody [`GetStream`](./getstream) k zabránění zbytečnému načítání dat videa do paměti nebo dokonce výjimky OutOfMemoryException. Jen pro čtení Byte[]. |
+| [ContentType](../../aspose.slides/video/contenttype) { get; } | Vrací MIME typ videa zakódovaný v [`BinaryData`](./binarydata). Jen pro čtení String. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [GetStream](../../aspose.slides/video/getstream)() | Vrací Stream stream pro čtení. Použijte 'using' nebo po použití stream uzavřete. |
+| [GetStream](../../aspose.slides/video/getstream)() | Vrací Stream stream pro čtení. Použijte 'using' nebo uzavřete stream po použití. |
 
 ### Viz také
 

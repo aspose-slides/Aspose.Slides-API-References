@@ -1,14 +1,14 @@
 ---
 title: IGenericCloneableT
-second_title: Aspose.Sildes .NET API Referenciája
+second_title: Aspose.Sildes a .NET API referencia
 description: Az ICloneable általános változatát képviseli
 type: docs
-weight: 5930
+weight: 5950
 url: /hu/aspose.slides/igenericcloneable-1/
 ---
 ## IGenericCloneable<T> interfész
 
-A ICloneable generikus változatát képviseli
+Az ICloneable általános változatát képviseli
 
 ```csharp
 public interface IGenericCloneable<T> : ICloneable
@@ -16,19 +16,19 @@ public interface IGenericCloneable<T> : ICloneable
 
 | Paraméter | Leírás |
 | --- | --- |
-| T | A klónozandó objektum típusa |
+| T | A másolandó objektum típusa |
 
 ## Tulajdonságok
 
 | Név | Leírás |
 | --- | --- |
-| [AsICloneable](../../aspose.slides/igenericcloneable`1/asicloneable) { get; } | Visszaadja az ICloneable interfészt. |
+| [AsICloneable](../../aspose.slides/igenericcloneable`1/asicloneable) { get; } | Az ICloneable interfészét adja vissza. |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [CloneT](../../aspose.slides/igenericcloneable`1/clonet)() | Létrehoz egy új objektumot, amely a jelenlegi példány másolata. |
+| [CloneT](../../aspose.slides/igenericcloneable`1/clonet)() | Új objektumot hoz létre, amely a jelenlegi példány másolata. |
 
 ### Lásd még
 

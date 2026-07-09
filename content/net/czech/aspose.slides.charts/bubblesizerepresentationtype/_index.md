@@ -1,14 +1,14 @@
 ---
 title: BubbleSizeRepresentationType
-second_title: Aspose.Sildes pro .NET API Reference
-description: Určuje možné způsoby, jak představit data jako velikosti bublinových grafů.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Určuje možné způsoby, jak představovat data jako velikosti bublin v bublinovém grafu.
 type: docs
-weight: 1210
+weight: 1230
 url: /cs/aspose.slides.charts/bubblesizerepresentationtype/
 ---
-## enumerace BubbleSizeRepresentationType
+## BubbleSizeRepresentationType výčtový typ
 
-Určuje možné způsoby, jak představit data jako velikosti bublinových grafů.
+Určuje možné způsoby, jak představovat data jako velikosti bublin v bublinovém grafu.
 
 ```csharp
 public enum BubbleSizeRepresentationType

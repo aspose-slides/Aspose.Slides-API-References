@@ -1,14 +1,14 @@
 ---
 title: ImageTransformOperation
-second_title: Aspose.Sildes .NET API referencia
-description: Absztrakt képátalakítási hatást képvisel.
+second_title: Aspose.Sildes .NET API-referencia
+description: Absztrakt képattranszformációs effektust képvisel.
 type: docs
-weight: 3550
+weight: 3570
 url: /hu/aspose.slides.effects/imagetransformoperation/
 ---
 ## ImageTransformOperation osztály
 
-Az absztrakt képek átalakítási hatást képviseli.
+Absztrakt képatranszformációs effektust képvisel.
 
 ```csharp
 public abstract class ImageTransformOperation : PVIObject, IImageTransformOperation
@@ -18,9 +18,9 @@ public abstract class ImageTransformOperation : PVIObject, IImageTransformOperat
 
 | Név | Leírás |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a bázis IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi az alap IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |

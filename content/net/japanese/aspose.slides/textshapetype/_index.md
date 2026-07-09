@@ -1,14 +1,14 @@
 ---
 title: TextShapeType
-second_title: Aspose.Sildes の .NET API リファレンス
-description: テキスト折り返し形状を表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: テキストラッピング形状を表します。
 type: docs
-weight: 10960
+weight: 10980
 url: /ja/aspose.slides/textshapetype/
 ---
-## TextShapeType 列挙型
+## TextShapeType 列挙体
 
-テキストの折り返し形状を表します。
+テキストラッピング形状を表します。
 
 ```csharp
 public enum TextShapeType : sbyte
@@ -21,11 +21,11 @@ public enum TextShapeType : sbyte
 | NotDefined | `-1` | 未定義 |
 | None | `0` | 形状なし |
 | Plain | `1` | プレーン |
-| Stop | `2` | 停止サイン |
+| Stop | `2` | 停止標識 |
 | Triangle | `3` | 三角形 |
-| TriangleInverted | `4` | 逆さ三角形 |
+| TriangleInverted | `4` | 逆三角形 |
 | Chevron | `5` | シェブロン |
-| ChevronInverted | `6` | 逆さシェブロン |
+| ChevronInverted | `6` | 逆シェブロン |
 | RingInside | `7` | 内側リング |
 | RingOutside | `8` | 外側リング |
 | ArchUp | `9` | 上向きアーチ |
@@ -38,16 +38,16 @@ public enum TextShapeType : sbyte
 | ButtonPour | `16` | ボタン注ぎ |
 | CurveUp | `17` | 上向き曲線 |
 | CurveDown | `18` | 下向き曲線 |
-| CanUp | `19` | 上向きキャン |
-| CanDown | `20` | 下向きキャン |
+| CanUp | `19` | 上向き缶 |
+| CanDown | `20` | 下向き缶 |
 | Wave1 | `21` | 波 1 |
 | Wave2 | `22` | 波 2 |
 | DoubleWave1 | `23` | 二重波 1 |
 | Wave4 | `24` | 波 4 |
 | Inflate | `25` | 膨張 |
 | Deflate | `26` | 収縮 |
-| InflateBottom | `27` | 底部膨張 |
-| DeflateBottom | `28` | 底部収縮 |
+| InflateBottom | `27` | 下部膨張 |
+| DeflateBottom | `28` | 下部収縮 |
 | InflateTop | `29` | 上部膨張 |
 | DeflateTop | `30` | 上部収縮 |
 | DeflateInflate | `31` | 収縮-膨張 |
@@ -56,13 +56,13 @@ public enum TextShapeType : sbyte
 | FadeLeft | `34` | 左フェード |
 | FadeUp | `35` | 上向きフェード |
 | FadeDown | `36` | 下向きフェード |
-| SlantUp | `37` | 上向き斜め |
-| SlantDown | `38` | 下向き斜め |
+| SlantUp | `37` | 上向き傾き |
+| SlantDown | `38` | 下向き傾き |
 | CascadeUp | `39` | 上向きカスケード |
 | CascadeDown | `40` | 下向きカスケード |
 | Custom | `41` | カスタム |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

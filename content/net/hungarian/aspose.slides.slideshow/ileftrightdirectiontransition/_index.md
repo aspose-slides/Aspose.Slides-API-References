@@ -3,7 +3,7 @@ title: ILeftRightDirectionTransition
 second_title: Aspose.Sildes .NET API referencia
 description: Bal-jobb irányú diaátmeneti hatás.
 type: docs
-weight: 10100
+weight: 10120
 url: /hu/aspose.slides.slideshow/ileftrightdirectiontransition/
 ---
 ## ILeftRightDirectionTransition interfész
@@ -18,8 +18,8 @@ public interface ILeftRightDirectionTransition : ITransitionValueBase
 
 | Név | Leírás |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ileftrightdirectiontransition/asitransitionvaluebase) { get; } | Lehetővé teszi az alap ITransitionValueBase interfész lekérését. Csak olvasható [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/ileftrightdirectiontransition/direction) { get; set; } | Az átmenet iránya. Olvasás/írás [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ileftrightdirectiontransition/asitransitionvaluebase) { get; } | Lehetővé teszi az ITransitionValueBase alap interfész lekérését. Csak olvasható [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/ileftrightdirectiontransition/direction) { get; set; } | Az átmenet iránya. Olvasható/írható [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
 
 ### Lásd még
 

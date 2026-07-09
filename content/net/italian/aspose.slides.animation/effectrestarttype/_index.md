@@ -1,14 +1,14 @@
 ---
 title: EffectRestartType
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta i tipi di riavvio per il timing.
+second_title: Aspose.Sildes per la documentazione API .NET
+description: Rappresenta i tipi di riavvio per la temporizzazione.
 type: docs
-weight: 310
+weight: 330
 url: /it/aspose.slides.animation/effectrestarttype/
 ---
-## enumerazione EffectRestartType
+## EffectRestartType enumerazione
 
-Rappresenta i tipi di riavvio per il timing.
+Rappresenta i tipi di riavvio per la temporizzazione.
 
 ```csharp
 public enum EffectRestartType

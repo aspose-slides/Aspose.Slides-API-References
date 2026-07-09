@@ -1,14 +1,14 @@
 ---
 title: IFillOverlay
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Αντιπροσωπεύει ένα εφέ Fill Overlay. Ένα Fill Overlay μπορεί να χρησιμοποιηθεί για να καθορίσει μια πρόσθετη γέμιση για ένα αντικείμενο και να συγχωνεύσει τις δύο γεμίσεις μεταξύ τους.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Αναπαριστά ένα εφέ γεμίσματος επικάλυψης. Μια επικάλυψη γεμίσματος μπορεί να χρησιμοποιηθεί για να καθορίσει ένα πρόσθετο γέμισμα για ένα αντικείμενο και να συνδυάσει τα δύο γέμισμα μαζί.
 type: docs
-weight: 3280
+weight: 3300
 url: /el/aspose.slides.effects/ifilloverlay/
 ---
-## IFillOverlay διασύνδεση
+## IFillOverlay διεπαφή
 
-Αντιπροσωπεύει ένα εφέ Fill Overlay. Μια Fill Overlay μπορεί να χρησιμοποιηθεί για να καθορίσει μια πρόσθετη συμπλήρωση για ένα αντικείμενο και να συγχωνεύσει τις δύο συμπληρώσεις μεταξύ τους.
+Αναπαριστά ένα εφέ γεμίσματος επικάλυψης. Μια επικάλυψη γεμίσματος μπορεί να χρησιμοποιηθεί για να προσδιορίσει ένα επιπλέον γέμισμα για ένα αντικείμενο και να συνδυάσει τα δύο γέμισμα μαζί.
 
 ```csharp
 public interface IFillOverlay : IAccessiblePVIObject<IFillOverlayEffectiveData>, 
@@ -19,16 +19,16 @@ public interface IFillOverlay : IAccessiblePVIObject<IFillOverlayEffectiveData>,
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ifilloverlay/asiaccessiblepviobject) { get; } | Επιτρέπει την λήψη της βασικής διασύνδεσης IAccessiblePVIObject. Μόνο για ανάγνωση [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ifilloverlay/asiimagetransformoperation) { get; } | Επιτρέπει την λήψη της βασικής διασύνδεσης IImageTransformOperation. Μόνο για ανάγνωση [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ifilloverlay/asiaccessiblepviobject) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής IAccessiblePVIObject. Μόνο για ανάγνωση [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ifilloverlay/asiimagetransformoperation) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής IImageTransformOperation. Μόνο για ανάγνωση [`IImageTransformOperation`](../iimagetransformoperation). |
 | [Blend](../../aspose.slides.effects/ifilloverlay/blend) { get; set; } | FillBlendMode. Ανάγνωση/εγγραφή [`FillBlendMode`](../../aspose.slides/fillblendmode). |
-| [FillFormat](../../aspose.slides.effects/ifilloverlay/fillformat) { get; } | Μορφή γέμισης. Μόνο για ανάγνωση [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [FillFormat](../../aspose.slides.effects/ifilloverlay/fillformat) { get; } | Μορφή γεμίσματος. Μόνο για ανάγνωση [`IFillFormat`](../../aspose.slides/ifillformat). |
 
-### Βλέπε επίσης
+### Δείτε επίσης
 
-* διασύνδεση [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
-* διασύνδεση [IFillOverlayEffectiveData](../ifilloverlayeffectivedata)
-* διασύνδεση [IImageTransformOperation](../iimagetransformoperation)
+* διεπαφή [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
+* διεπαφή [IFillOverlayEffectiveData](../ifilloverlayeffectivedata)
+* διεπαφή [IImageTransformOperation](../iimagetransformoperation)
 * χώρο ονομάτων [Aspose.Slides.Effects](../../aspose.slides.effects)
 * συναρμολόγηση [Aspose.Slides](../../)
 

@@ -1,14 +1,14 @@
 ---
 title: ColorStringFormat
-second_title: Aspose.Sildes dla .NET API Reference
-description: Reprezentuje typ akcji hiperłącza.
+second_title: Aspose.Sildes dla .NET - Dokumentacja API
+description: Reprezentuje typ działania hiperłącza.
 type: docs
-weight: 2540
+weight: 2560
 url: /pl/aspose.slides/colorstringformat/
 ---
 ## ColorStringFormat enumeracja
 
-Reprezentuje typ akcji hiperłącza.
+Reprezentuje typ działania hiperłącza.
 
 ```csharp
 public enum ColorStringFormat
@@ -18,7 +18,7 @@ public enum ColorStringFormat
 
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
-| Vml | `0` | Format ciągu kolorów VML. |
+| Vml | `0` | format łańcucha kolorów VML. |
 
 ### Zobacz także
 

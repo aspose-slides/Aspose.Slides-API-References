@@ -1,14 +1,14 @@
 ---
 title: Placeholder
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Egy helyőrzőt ábrázol egy dián.
+second_title: Aspose.Sildes .NET API Referencia
+description: Egy helyőrzőt reprezentál egy dián.
 type: docs
-weight: 9410
+weight: 9430
 url: /hu/aspose.slides/placeholder/
 ---
 ## Helyőrző osztály
 
-Egy helyőrzőt ábrázol egy dián.
+Egy helyőrzőt reprezentál egy dián.
 
 ```csharp
 public class Placeholder : IPlaceholder
@@ -19,7 +19,7 @@ public class Placeholder : IPlaceholder
 | Név | Leírás |
 | --- | --- |
 | [Index](../../aspose.slides/placeholder/index) { get; } | Lekéri vagy beállítja a helyőrző indexét. Csak olvasható UInt32. |
-| [Orientation](../../aspose.slides/placeholder/orientation) { get; } | Lekéri vagy beállítja a helyőrző tájolását. Csak olvasható [`Orientation`](../orientation). |
+| [Orientation](../../aspose.slides/placeholder/orientation) { get; } | Lekéri vagy beállítja a helyőrző orientációját. Csak olvasható [`Orientation`](../orientation). |
 | [Size](../../aspose.slides/placeholder/size) { get; } | Lekéri vagy beállítja a helyőrző méretét. Csak olvasható [`PlaceholderSize`](../placeholdersize). |
 | [Type](../../aspose.slides/placeholder/type) { get; } | Lekéri vagy beállítja a helyőrző típusát. Csak olvasható [`PlaceholderType`](../placeholdertype). |
 

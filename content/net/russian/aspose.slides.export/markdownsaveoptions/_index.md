@@ -1,15 +1,14 @@
 ---
 title: MarkdownSaveOptions
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет параметры, которые контролируют, как презентация должна быть сохранена в markdown.
+second_title: Aspose.Sildes для .NET справочник API
+description: Представляет параметры, которые управляют тем, как презентация должна быть сохранена в markdown.
 type: docs
-weight: 4080
+weight: 4250
 url: /ru/aspose.slides.export/markdownsaveoptions/
 ---
+## MarkdownSaveOptions класс
 
-## Класс MarkdownSaveOptions
-
-Представляет параметры, которые контролируют, как презентация должна быть сохранена в markdown.
+Представляет параметры, управляющие тем, как презентация сохраняется в markdown.
 
 ```csharp
 public class MarkdownSaveOptions : SaveOptions
@@ -25,22 +24,22 @@ public class MarkdownSaveOptions : SaveOptions
 
 | Имя | Описание |
 | --- | --- |
-| [BasePath](../../aspose.slides.export/markdownsaveoptions/basepath) { get; set; } | Указывает базовый путь, где документ с ресурсами будет сохранен. По умолчанию - текущий каталог приложения. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или устанавливает шрифт, используемый в случае, если исходный шрифт не найден. Читаемый и записываемый тип String. |
-| [ExportType](../../aspose.slides.export/markdownsaveoptions/exporttype) { get; set; } | Указывает спецификацию markdown для преобразования презентации. По умолчанию - `TextOnly`. |
-| [Flavor](../../aspose.slides.export/markdownsaveoptions/flavor) { get; set; } | Указывает спецификацию markdown для преобразования презентации. По умолчанию - `Multi-markdown`. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Возвращает или устанавливает визуальный стиль градиента. Читаемый и записываемый тип [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [HandleRepeatedSpaces](../../aspose.slides.export/markdownsaveoptions/handlerepeatedspaces) { get; set; } |  |
-| [ImagesSaveFolderName](../../aspose.slides.export/markdownsaveoptions/imagessavefoldername) { get; set; } | Указывает имя папки для сохранения изображений. По умолчанию - `Images`. |
-| [NewLineType](../../aspose.slides.export/markdownsaveoptions/newlinetype) { get; set; } | Указывает, должны ли в сгенерированном документе быть новые строки \\r(Macintosh) или \\n(Unix) или \\r\\n(Windows). По умолчанию - `Unix`. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для обновлений прогресса сохранения в процентах. См. [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [RemoveEmptyLines](../../aspose.slides.export/markdownsaveoptions/removeemptylines) { get; set; } | Если установлено в `true`, удаляет пустые или состоящие только из пробелов строки из итогового Markdown-вывода. По умолчанию - `false`. |
-| [ShowComments](../../aspose.slides.export/markdownsaveoptions/showcomments) { get; set; } | Указывает, нужно ли сгенерированному документу отображать комментарии или нет. По умолчанию - `false`. |
-| [ShowHiddenSlides](../../aspose.slides.export/markdownsaveoptions/showhiddenslides) { get; set; } | Указывает, должны ли быть скрытые слайды в сгенерированном документе. По умолчанию - `false`. |
-| [ShowSlideNumber](../../aspose.slides.export/markdownsaveoptions/showslidenumber) { get; set; } | Указывает, должен ли сгенерированный документ показывать номер каждого слайда или нет. По умолчанию - `false`. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Указывает, следует ли пропускать гиперссылки с вызовами JavaScript при сохранении презентации. Читаемый и записываемый тип Boolean. Значение по умолчанию - **false**. |
-| [SlideNumberFormat](../../aspose.slides.export/markdownsaveoptions/slidenumberformat) { get; set; } | Получает или устанавливает строку формата, используемую для заголовков номеров слайдов в Markdown-выводе. Формат должен включать заполнитель "{0}", который будет заменен на индекс слайда во время экспорта. Пример: "# Slide {0}" создаст "# Slide 1", "# Slide 2" и т.д. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает или устанавливает объект, который получает предупреждения и решает, продолжится ли процесс загрузки или будет завершен. Читаемый и записываемый тип [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [BasePath](../../aspose.slides.export/markdownsaveoptions/basepath) { get; set; } | Указывает базовый путь, где будет сохранён документ с ресурсами. По умолчанию — текущий каталог приложения. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или задаёт шрифт, используемый в случае, если исходный шрифт не найден. Чтение/запись String. |
+| [ExportType](../../aspose.slides.export/markdownsaveoptions/exporttype) { get; set; } | Указывает спецификацию markdown для преобразования презентации. По умолчанию — `TextOnly`. |
+| [Flavor](../../aspose.slides.export/markdownsaveoptions/flavor) { get; set; } | Указывает спецификацию markdown для преобразования презентации. По умолчанию — `Multi-markdown`. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Возвращает или задаёт визуальный стиль градиента. Чтение/запись [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [HandleRepeatedSpaces](../../aspose.slides.export/markdownsaveoptions/handlerepeatedspaces) { get; set; } |  |
+| [ImagesSaveFolderName](../../aspose.slides.export/markdownsaveoptions/imagessavefoldername) { get; set; } | Указывает имя папки для сохранения изображений. По умолчанию — `Images`. |
+| [NewLineType](../../aspose.slides.export/markdownsaveoptions/newlinetype) { get; set; } | Указывает, должны ли сгенерированные документы иметь новые строки \r(Macintosh), \n(Unix) или \r\n(Windows). По умолчанию — `Unix`. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для обновления прогресса сохранения в процентах. См. [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [RemoveEmptyLines](../../aspose.slides.export/markdownsaveoptions/removeemptylines) { get; set; } | Если установлено в `true`, удаляет пустые строки или строки, содержащие только пробелы, из окончательного вывода Markdown. По умолчанию — `false`. |
+| [ShowComments](../../aspose.slides.export/markdownsaveoptions/showcomments) { get; set; } | Указывает, должны ли сгенерированные документы отображать комментарии. По умолчанию — `false`. |
+| [ShowHiddenSlides](../../aspose.slides.export/markdownsaveoptions/showhiddenslides) { get; set; } | Указывает, должны ли сгенерированные документы включать скрытые слайды. По умолчанию — `false`. |
+| [ShowSlideNumber](../../aspose.slides.export/markdownsaveoptions/showslidenumber) { get; set; } | Указывает, должны ли сгенерированные документы показывать номер каждого слайда. По умолчанию — `false`. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Указывает, следует ли пропускать гиперссылки с вызовами JavaScript при сохранении презентации. Чтение/запись Boolean. Значение по умолчанию — **false**. |
+| [SlideNumberFormat](../../aspose.slides.export/markdownsaveoptions/slidenumberformat) { get; set; } | Возвращает или задаёт строку формата, используемую для заголовков номеров слайдов в выводе Markdown. Формат должен включать заполнитель \"{0}\", который будет заменён индексом слайда при экспорте. Пример: \"# Slide {0}\" даст \"# Slide 1\", \"# Slide 2\" и т.д. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает или задаёт объект, получающий предупреждения и решающий, будет ли процесс загрузки продолжен или прерван. Чтение/запись [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Примеры
 
@@ -63,10 +62,10 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [SaveOptions](../saveoptions)
-* пространство имен [Aspose.Slides.Export](../../aspose.slides.export)
-* сборка [Aspose.Slides](../../)
+* класс [SaveOptions](../saveoptions)
+* пространство имён [Aspose.Slides.Export](../../aspose.slides.export)
+* сборка [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,12 +1,12 @@
 ---
 title: FillBlendMode
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Określa tryb mieszania.
 type: docs
-weight: 4750
+weight: 4770
 url: /pl/aspose.slides/fillblendmode/
 ---
-## FillBlendMode wyliczenie
+## FillBlendMode enumeracja
 
 Określa tryb mieszania.
 
@@ -18,11 +18,11 @@ public enum FillBlendMode
 
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
-| Darken | `0` | Darken tryb mieszania. |
-| Lighten | `1` | Lighten tryb mieszania. |
-| Multiply | `2` | Multiply tryb mieszania. |
-| Overlay | `3` | Overlay tryb mieszania. |
-| Screen | `4` | Screen tryb mieszania. |
+| Darken | `0` | Tryb mieszania Darken. |
+| Lighten | `1` | Tryb mieszania Lighten. |
+| Multiply | `2` | Tryb mieszania Multiply. |
+| Overlay | `3` | Tryb mieszania Overlay. |
+| Screen | `4` | Tryb mieszania Screen. |
 
 ### Zobacz także
 

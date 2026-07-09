@@ -3,7 +3,7 @@ title: IStreamWrapper
 second_title: Aspose.Sildes för .NET API-referens
 description: Aspose.IO.Stream-omslag för COM-gränssnitt.
 type: docs
-weight: 7110
+weight: 7130
 url: /sv/aspose.slides/istreamwrapper/
 ---
 ## IStreamWrapper gränssnitt
@@ -18,11 +18,11 @@ public interface IStreamWrapper : IDisposable
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIDisposable](../../aspose.slides/istreamwrapper/asidisposable) { get; } | Tillåter att hämta bas- IDisposable-gränssnittet. Skrivskyddad IDisposable. |
+| [AsIDisposable](../../aspose.slides/istreamwrapper/asidisposable) { get; } | Tillåter att hämta det grundläggande IDisposable-gränssnittet. Skrivskyddad IDisposable. |
 | [CanRead](../../aspose.slides/istreamwrapper/canread) { get; } | Hämtar ett värde som indikerar om den aktuella strömmen stöder läsning. Skrivskyddad Boolean. |
 | [CanSeek](../../aspose.slides/istreamwrapper/canseek) { get; } | Hämtar ett värde som indikerar om den aktuella strömmen stöder sökning. Skrivskyddad Boolean. |
 | [CanWrite](../../aspose.slides/istreamwrapper/canwrite) { get; } | Hämtar ett värde som indikerar om den aktuella strömmen stöder skrivning. Skrivskyddad Boolean. |
-| [Length](../../aspose.slides/istreamwrapper/length) { get; } | Hämtar längden i byte för strömmen. Skrivskyddad Int64. |
+| [Length](../../aspose.slides/istreamwrapper/length) { get; } | Hämtar strömmens längd i byte. Skrivskyddad Int64. |
 | [Position](../../aspose.slides/istreamwrapper/position) { get; } | Hämtar positionen i den aktuella strömmen. Skrivskyddad Int64. |
 | [Stream](../../aspose.slides/istreamwrapper/stream) { get; } | Hämtar en ström. Skrivskyddad Stream. |
 
@@ -30,13 +30,13 @@ public interface IStreamWrapper : IDisposable
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Close](../../aspose.slides/istreamwrapper/close)() | Stänger den aktuella strömmen och frigör alla resurser. |
-| [Flush](../../aspose.slides/istreamwrapper/flush)() | Rensar alla buffertar för den här strömmen och får all buffrad data att skrivas till den underliggande enheten. |
-| [Read](../../aspose.slides/istreamwrapper/read)(byte[], int, int) | Läser en sekvens av byte från den aktuella strömmen och flyttar positionen i strömmen framåt med antalet lästa byte. |
-| [ReadByte](../../aspose.slides/istreamwrapper/readbyte)() | Läser en byte från strömmen och flyttar positionen i strömmen framåt med en byte, eller returnerar -1 om slutet av strömmen har nåtts. |
+| [Close](../../aspose.slides/istreamwrapper/close)() | Stänger den aktuella strömmen och frigör eventuella resurser. |
+| [Flush](../../aspose.slides/istreamwrapper/flush)() | Rensar alla buffertar för denna ström och får all buffrad data att skrivas till den underliggande enheten. |
+| [Read](../../aspose.slides/istreamwrapper/read)(byte[], int, int) | Läser en sekvens av byte från den aktuella strömmen och flyttar positionen i strömmen med antalet lästa byte. |
+| [ReadByte](../../aspose.slides/istreamwrapper/readbyte)() | Läser en byte från strömmen och flyttar positionen i strömmen med en byte, eller returnerar -1 om slutet av strömmen har nåtts. |
 | [Seek](../../aspose.slides/istreamwrapper/seek)(long, SeekOrigin) | Ställer in positionen i den aktuella strömmen |
-| [Write](../../aspose.slides/istreamwrapper/write)(byte[], int, int) | skriver en sekvens av byte till den aktuella strömmen och flyttar den aktuella positionen i denna ström framåt med antalet skrivna byte. |
-| [WriteByte](../../aspose.slides/istreamwrapper/writebyte)(byte) | Skriver en byte till den aktuella positionen i strömmen och flyttar positionen i strömmen framåt med en byte. |
+| [Write](../../aspose.slides/istreamwrapper/write)(byte[], int, int) | Skriver en sekvens av byte till den aktuella strömmen och flyttar den aktuella positionen i denna ström med antalet skrivna byte. |
+| [WriteByte](../../aspose.slides/istreamwrapper/writebyte)(byte) | Skriver en byte till den aktuella positionen i strömmen och flyttar positionen i strömmen med en byte. |
 
 ### Se också
 

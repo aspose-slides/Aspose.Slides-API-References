@@ -3,10 +3,10 @@ title: IPortionFactory
 second_title: Aspose.Sildes για .NET Αναφορά API
 description: Επιτρέπει τη δημιουργία δοκιμαστικών τμημάτων
 type: docs
-weight: 6700
+weight: 6720
 url: /el/aspose.slides/iportionfactory/
 ---
-## IPortionFactory Διεπαφή
+## IPortionFactory διασύνδεση
 
 Επιτρέπει τη δημιουργία δοκιμαστικών τμημάτων
 
@@ -19,10 +19,10 @@ public interface IPortionFactory
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion)() | Δημιουργεί ένα κενό τμήμα κειμένου. |
-| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_1)(IPortion) | Δημιουργεί ένα τμήμα χρησιμοποιώντας τα καθορισμένα δεδομένα τμήματος. |
-| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_2)(string) | Δημιουργεί ένα τμήμα κειμένου από το καθορισμένο συμβολοσειρά. |
+| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_1)(IPortion) | Δημιουργεί ένα τμήμα με τη χρήση δεδομένων ενός καθορισμένου τμήματος. |
+| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_2)(string) | Δημιουργεί ένα τμήμα κειμένου από συγκεκριμένη συμβολοσειρά. |
 
-### Σχόλια
+### Παρατηρήσεις
 
 Για συμβατότητα με COM
 

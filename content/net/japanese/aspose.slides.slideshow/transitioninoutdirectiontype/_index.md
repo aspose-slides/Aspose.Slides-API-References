@@ -1,9 +1,9 @@
 ---
 title: TransitionInOutDirectionType
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: インまたはアウト方向の遷移タイプを表します。
 type: docs
-weight: 10350
+weight: 10370
 url: /ja/aspose.slides.slideshow/transitioninoutdirectiontype/
 ---
 ## TransitionInOutDirectionType 列挙型

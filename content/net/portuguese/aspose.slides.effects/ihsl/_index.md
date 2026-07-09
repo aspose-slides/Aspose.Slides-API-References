@@ -1,14 +1,14 @@
 ---
 title: IHSL
-second_title: Referência da API Aspose.Sildes para .NET
-description: Representa um efeito Hue/Saturation/Luminance. A matiz, a saturação e a luminância podem ser ajustadas individualmente em relação ao seu valor atual.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Representa um efeito de Matiz/Saturação/Luminância. Cada matiz, saturação e luminância pode ser ajustado em relação ao seu valor atual.
 type: docs
-weight: 3340
+weight: 3360
 url: /pt/aspose.slides.effects/ihsl/
 ---
 ## IHSL interface
 
-Representa um efeito Hue/Saturation/Luminance. A matiz, a saturação e a luminância podem ser ajustadas individualmente em relação ao seu valor atual.
+Representa um efeito de Matiz/Saturação/Luminância. Cada matiz, saturação e luminância pode ser ajustado em relação ao seu valor atual.
 
 ```csharp
 public interface IHSL : IAccessiblePVIObject<IHSLEffectiveData>, IImageTransformOperation
@@ -21,7 +21,7 @@ public interface IHSL : IAccessiblePVIObject<IHSLEffectiveData>, IImageTransform
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ihsl/asiaccessiblepviobject) { get; } | Permite obter a interface base IAccessiblePVIObject. Somente leitura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ihsl/asiimagetransformoperation) { get; } | Retorna a interface IImageTransformOperation. Somente leitura [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### Veja também
+### Veja Também
 
 * interface [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * interface [IHSLEffectiveData](../ihsleffectivedata)

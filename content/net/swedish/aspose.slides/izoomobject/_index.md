@@ -3,7 +3,7 @@ title: IZoomObject
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar ett Zoom-objekt i en bild.
 type: docs
-weight: 7390
+weight: 7410
 url: /sv/aspose.slides/izoomobject/
 ---
 ## IZoomObject gränssnitt
@@ -18,10 +18,10 @@ public interface IZoomObject : IGraphicalObject
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/izoomobject/asigraphicalobject) { get; } | Tillåter att hämta bas-IGraphicalObject-gränssnittet. Skrivskyddad [`IGraphicalObject`](../igraphicalobject). |
+| [AsIGraphicalObject](../../aspose.slides/izoomobject/asigraphicalobject) { get; } | Tillåter att hämta grundläggande IGraphicalObject-gränssnitt. Skrivskyddad [`IGraphicalObject`](../igraphicalobject). |
 | [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | Hämtar eller anger bildtypen för ett zoom-objekt. Läs/skriv [`ZoomImageType`](../zoomimagetype). Standardvärde: Preview |
 | [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | Hämtar eller anger navigeringsbeteendet i bildspelet. Läs/skriv Boolean. Standardvärde: false |
-| [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | Hämtar eller anger värdet som anger om Zoom ska använda bakgrunden på målbilden. Läs/skriv Boolean. Standardvärde: true |
+| [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | Hämtar eller anger värdet som specificerar om Zoom ska använda bakgrunden på målbilden. Läs/skriv Boolean. Standardvärde: true |
 | [TransitionDuration](../../aspose.slides/izoomobject/transitionduration) { get; set; } | Hämtar eller anger varaktigheten för övergången mellan Zoom och bild. Läs/skriv Single. Standardvärde: 1.0f |
 | [ZoomImage](../../aspose.slides/izoomobject/zoomimage) { get; set; } | Hämtar eller anger bild för zoom-objektet. Läs/skriv [`IPPImage`](../ippimage). |
 

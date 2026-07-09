@@ -3,7 +3,7 @@ title: ColumnCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: テーブル内の列のコレクションを表します。
 type: docs
-weight: 2580
+weight: 2600
 url: /ja/aspose.slides/columncollection/
 ---
 ## ColumnCollection クラス
@@ -18,22 +18,22 @@ public sealed class ColumnCollection : DomObject<RowCollection>, IColumnCollecti
 
 | 名前 | 説明 |
 | --- | --- |
-| [Count](../../aspose.slides/columncollection/count) { get; } | コレクション内の列の数を返します。読み取り専用 Int32。 |
-| [IsSynchronized](../../aspose.slides/columncollection/issynchronized) { get; } | コレクションへのアクセスが同期 (スレッドセーフ) されているかどうかを示す値を返します。読み取り専用 Boolean。 |
-| [Item](../../aspose.slides/columncollection/item) { get; } | 指定されたインデックスの列を返します。読み取り専用 [`Column`](../column)。 |
-| [SyncRoot](../../aspose.slides/columncollection/syncroot) { get; } | 同期のルートオブジェクトを返します。読み取り専用 Object。 |
+| [Count](../../aspose.slides/columncollection/count) { get; } | コレクション内の列数を返します。読み取り専用の Int32。 |
+| [IsSynchronized](../../aspose.slides/columncollection/issynchronized) { get; } | コレクションへのアクセスが同期化されているか（スレッドセーフ）を示す値を返します。読み取り専用の Boolean。 |
+| [Item](../../aspose.slides/columncollection/item) { get; } | 指定されたインデックスの列を返します。読み取り専用の [`Column`](../column)。 |
+| [SyncRoot](../../aspose.slides/columncollection/syncroot) { get; } | 同期ルートを返します。読み取り専用の Object。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [AddClone](../../aspose.slides/columncollection/addclone)(IColumn, bool) | 指定されたテンプレート行のコピーを作成し、テーブルの最後に挿入します。 |
+| [AddClone](../../aspose.slides/columncollection/addclone)(IColumn, bool) | 指定されたテンプレート行のコピーを作成し、テーブルの末尾に挿入します。 |
 | [CopyTo](../../aspose.slides/columncollection/copyto)(Array, int) | コレクションのすべての要素を指定された配列にコピーします。 |
-| [GetEnumerator](../../aspose.slides/columncollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
+| [GetEnumerator](../../aspose.slides/columncollection/getenumerator)() | コレクションを反復する列挙子を返します。 |
 | [InsertClone](../../aspose.slides/columncollection/insertclone)(int, IColumn, bool) | 指定されたテンプレート列のコピーを作成し、テーブルの指定位置に挿入します。 |
 | [RemoveAt](../../aspose.slides/columncollection/removeat)(int, bool) | テーブルの指定位置から列を削除します。 |
 
-### 参照
+### 関連項目
 
 * クラス [DomObject&lt;TParent&gt;](../domobject-1)
 * クラス [RowCollection](../rowcollection)

@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulate
 second_title: Aspose.Sildes for .NET API リファレンス
-description: Alpha Modulate 効果を表します。効果のアルファ（不透明度）値は固定パーセンテージで乗算されます。効果コンテナは、モジュレートするアルファ値を含む効果を指定します。
+description: Alpha Modulate エフェクトを表します。エフェクトのアルファ（不透明度）値は固定パーセンテージで乗算されます。エフェクト コンテナは、アルファ値を変調するエフェクトを指定します。
 type: docs
-weight: 3080
+weight: 3100
 url: /ja/aspose.slides.effects/ialphamodulate/
 ---
 ## IAlphaModulate インターフェイス
 
-アルファモジュレート効果を表します。効果のアルファ（不透明度）値は固定パーセンテージで乗算されます。効果コンテナは、モジュレートするアルファ値を含む効果を指定します。
+Alpha Modulate エフェクトを表します。エフェクトのアルファ (不透明度) 値は固定パーセンテージで乗算されます。エフェクト コンテナは、アルファ値を変調するエフェクトを指定します。
 
 ```csharp
 public interface IAlphaModulate : IAccessiblePVIObject<IAlphaModulateEffectiveData>, 

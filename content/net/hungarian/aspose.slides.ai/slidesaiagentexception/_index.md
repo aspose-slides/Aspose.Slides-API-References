@@ -1,14 +1,14 @@
 ---
 title: SlidesAIAgentException
-second_title: Aspose.Sildes .NET API referenciája
-description: A Slides AI Agenthez kapcsolódó kivételeket reprezentál.
+second_title: Aspose.Sildes .NET API Referencia
+description: A Slides AI Agent-hez kapcsolódó kivételeket képviseli.
 type: docs
-weight: 60
+weight: 80
 url: /hu/aspose.slides.ai/slidesaiagentexception/
 ---
 ## SlidesAIAgentException osztály
 
-A Slides AI Agenthez kapcsolódó kivételeket reprezentál.
+A Slides AI Agent-hez kapcsolódó kivételeket képviseli.
 
 ```csharp
 public class SlidesAIAgentException : Exception
@@ -18,8 +18,8 @@ public class SlidesAIAgentException : Exception
 
 | Név | Leírás |
 | --- | --- |
-| [SlidesAIAgentException](slidesaiagentexception#constructor)(string) | Konstruktor, amely lehetővé teszi üzenet hozzáadását ehhez a kivételhez. |
-| [SlidesAIAgentException](slidesaiagentexception#constructor_1)(string, Exception) | Konstruktor egy olyan kivételhez, amely üzenetet és beágyazott kivételt tartalmaz. |
+| [SlidesAIAgentException](slidesaiagentexception#constructor)(string) | Konstruktor, amely lehetővé teszi egy üzenet hozzáadását ehhez a kivételhez. |
+| [SlidesAIAgentException](slidesaiagentexception#constructor_1)(string, Exception) | Konstruktor egy olyan kivételhez, amely üzenetet és egy beágyazott kivételt tartalmaz. |
 
 ### Lásd még
 

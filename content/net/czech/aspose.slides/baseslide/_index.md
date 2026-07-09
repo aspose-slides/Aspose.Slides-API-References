@@ -3,12 +3,12 @@ title: BaseSlide
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje společná data pro všechny typy snímků.
 type: docs
-weight: 970
+weight: 990
 url: /cs/aspose.slides/baseslide/
 ---
 ## BaseSlide třída
 
-Represents common data for all slide types.
+Reprezentuje společná data pro všechny typy snímků.
 
 ```csharp
 public abstract class BaseSlide : IBaseSlide
@@ -18,27 +18,27 @@ public abstract class BaseSlide : IBaseSlide
 
 | Název | Popis |
 | --- | --- |
-| [Background](../../aspose.slides/baseslide/background) { get; } | Vrací pozadí snímku. Pouze ke čtení [`IBackground`](../ibackground). |
-| [Controls](../../aspose.slides/baseslide/controls) { get; } | Vrací kolekci ovládacích prvků ActiveX na snímku. Pouze ke čtení [`IControlCollection`](../icontrolcollection). |
-| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Vrací vlastní data snímku. Pouze ke čtení [`ICustomData`](../icustomdata). |
-| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Poskytuje snadný přístup k obsaženým hypertextovým odkazům. Pouze ke čtení [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Vrací nebo nastavuje název snímku. Čtení/Zápis String. |
-| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Vrací rozhraní IPresentation. Pouze ke čtení [`IPresentation`](../ipresentation). |
-| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Vrací tvary snímku. Pouze ke čtení [`IShapeCollection`](../ishapecollection). |
-| abstract [ShowMasterShapes](../../aspose.slides/baseslide/showmastershapes) { get; set; } | Určuje, zda se tvary na hlavním snímku mají zobrazovat na snímcích nebo ne. Pro hlavní snímek tato vlastnost vždy vrací `false`. Čtení/Zápis Boolean. |
-| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Vrací ID snímku. Pouze ke čtení UInt32. |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Vrací objekt Transition, který obsahuje informace o tom, jak se určený snímek posouvá během prezentace. Pouze ke čtení [`ISlideShowTransition`](../islideshowtransition). |
-| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Vrací objekt časové osy animace. Pouze ke čtení [`IAnimationTimeLine`](../ianimationtimeline). |
+| [Background](../../aspose.slides/baseslide/background) { get; } | Vrací pozadí snímku. Pouze pro čtení [`IBackground`](../ibackground). |
+| [Controls](../../aspose.slides/baseslide/controls) { get; } | Vrací kolekci ovládacích prvků ActiveX na snímku. Pouze pro čtení [`IControlCollection`](../icontrolcollection). |
+| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Vrací vlastní data snímku. Pouze pro čtení [`ICustomData`](../icustomdata). |
+| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Poskytuje snadný přístup k obsaženým hypertextovým odkazům. Pouze pro čtení [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Vrací nebo nastavuje název snímku. Čtení/zápis String. |
+| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Vrací rozhraní IPresentation. Pouze pro čtení [`IPresentation`](../ipresentation). |
+| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Vrací tvary snímku. Pouze pro čtení [`IShapeCollection`](../ishapecollection). |
+| abstract [ShowMasterShapes](../../aspose.slides/baseslide/showmastershapes) { get; set; } | Určuje, zda mají být tvary na hlavním snímku zobrazeny na snímcích nebo ne. Pro samotný hlavní snímek tato vlastnost vždy vrací `false`. Čtení/zápis Boolean. |
+| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Vrací ID snímku. Pouze pro čtení UInt32. |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Vrací objekt Transition, který obsahuje informace o tom, jak se určený snímek posouvá během prezentace. Pouze pro čtení [`ISlideShowTransition`](../islideshowtransition). |
+| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Vrací objekt časové osy animace. Pouze pro čtení [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
 | [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | Vrací efektivní téma pro tento snímek. |
-| [Equals](../../aspose.slides/baseslide/equals#equals)(IBaseSlide) | Určuje, zda jsou dvě instance IBaseSlide si rovny. Návratová hodnota je vypočítána na základě struktury snímku a statického obsahu. Dvě snímky jsou si rovny, pokud jsou všechny tvary, styly, texty, animace a další nastavení atd. rovny. Porovnání nebere v úvahu jedinečné hodnoty identifikátorů, např. SlideId, ani dynamický obsah, např. aktuální hodnotu data v záložce Date Placeholder. |
+| [Equals](../../aspose.slides/baseslide/equals#equals)(IBaseSlide) | Určuje, zda jsou dvě instance IBaseSlide rovny. Návratová hodnota je vypočtena na základě struktury snímku a statického obsahu. Dva snímky jsou rovny, pokud jsou všechny tvary, styly, texty, animace a další nastavení atd. rovny. Porovnání nebere v úvahu jedinečné hodnoty identifikátorů, např. SlideId a dynamický obsah, např. aktuální hodnotu data v Date Placeholder. |
 | [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Najde první výskyt tvaru s určeným alternativním textem. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting#joinportionswithsameformatting)() | Spojí úseky se stejným formátováním ve všech odstavcích všech přijatelné tvary. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting#joinportionswithsameformatting_1)(IShapeCollection) | Spojí úseky se stejným formátováním ve všech odstavcích ve všech přijatelné tvary. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting#joinportionswithsameformatting)() | Spojí úseky se stejným formátováním ve všech odstavcích ve všech vhodných tvarech. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting#joinportionswithsameformatting_1)(IShapeCollection) | Spojí úseky se stejným formátováním ve všech odstavcích ve všech vhodných tvarech. |
 
 ### Viz také
 

@@ -1,12 +1,12 @@
 ---
 title: IControl
-second_title: Aspose.Slides per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un controllo ActiveX.
 type: docs
-weight: 5610
+weight: 5630
 url: /it/aspose.slides/icontrol/
 ---
-## IControl interfaccia
+## Interfaccia IControl
 
 Rappresenta un controllo ActiveX.
 
@@ -16,16 +16,16 @@ public interface IControl : ISlideComponent
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [ActiveXControlBinary](../../aspose.slides/icontrol/activexcontrolbinary) { get; } | Specifica la persistenza di un controllo ActiveX quando il metodo usato per persistere è PersistStream, PersistStreamInit o PersistStorage. |
+| [ActiveXControlBinary](../../aspose.slides/icontrol/activexcontrolbinary) { get; } | Specifica la persistenza di un controllo ActiveX quando il metodo utilizzato per la persistenza è PersistStream, PersistStreamInit o PersistStorage. |
 | [AsISlideComponent](../../aspose.slides/icontrol/asislidecomponent) { get; } | Consente di ottenere l'interfaccia base ISlideComponent. Solo lettura [`ISlideComponent`](../islidecomponent). |
-| [ClassId](../../aspose.slides/icontrol/classid) { get; } | Ottiene l'ID di classe di questo controllo. Solo lettura Guid. |
-| [Frame](../../aspose.slides/icontrol/frame) { get; set; } | Restituisce o imposta il frame del controllo. Lettura/scrittura [`IShapeFrame`](../ishapeframe). |
-| [Name](../../aspose.slides/icontrol/name) { get; set; } | Restituisce il nome di questo controllo. Lettura/scrittura String. |
-| [Persistence](../../aspose.slides/icontrol/persistence) { get; } | Ottiene il metodo usato per memorizzare le proprietà del controllo ActiveX. Solo lettura [`PersistenceType`](../persistencetype). |
+| [ClassId](../../aspose.slides/icontrol/classid) { get; } | Ottiene l'ID della classe di questo controllo. Solo lettura Guid. |
+| [Frame](../../aspose.slides/icontrol/frame) { get; set; } | Restituisce o imposta il frame del controllo. Lettura/Scrittura [`IShapeFrame`](../ishapeframe). |
+| [Name](../../aspose.slides/icontrol/name) { get; set; } | Restituisce il nome di questo controllo. Lettura/Scrittura String. |
+| [Persistence](../../aspose.slides/icontrol/persistence) { get; } | Ottiene il metodo utilizzato per memorizzare le proprietà del controllo ActiveX. Solo lettura [`PersistenceType`](../persistencetype). |
 | [Properties](../../aspose.slides/icontrol/properties) { get; } | Restituisce una collezione di proprietà ActiveX. Solo lettura [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
-| [SubstitutePictureFormat](../../aspose.slides/icontrol/substitutepictureformat) { get; } | Restituisce l'oggetto di proprietà di riempimento immagine ControlEx. Solo lettura [`IPictureFillFormat`](../ipicturefillformat). |
+| [SubstitutePictureFormat](../../aspose.slides/icontrol/substitutepictureformat) { get; } | Restituisce l'oggetto delle proprietà di riempimento immagine di ControlEx. Solo lettura [`IPictureFillFormat`](../ipicturefillformat). |
 
 ### Vedi anche
 

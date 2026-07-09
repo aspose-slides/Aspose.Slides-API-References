@@ -1,14 +1,14 @@
 ---
 title: IComment
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Egy diára vonatkozó megjegyzést képvisel.
+second_title: Aspose.Sildes a .NET API hivatkozáshoz
+description: Egy dián lévő megjegyzést képvisel.
 type: docs
-weight: 5540
+weight: 5560
 url: /hu/aspose.slides/icomment/
 ---
 ## IComment interfész
 
-Egy diára vonatkozó megjegyzést képvisel.
+Egy dián lévő megjegyzést képvisel.
 
 ```csharp
 public interface IComment
@@ -19,7 +19,7 @@ public interface IComment
 | Név | Leírás |
 | --- | --- |
 | [Author](../../aspose.slides/icomment/author) { get; } | Visszaadja a megjegyzés szerzőjét. Csak olvasható [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/icomment/createdtime) { get; set; } | Visszaadja vagy beállítja egy megjegyzés létrehozásának időpontját. Ennek a tulajdonságnak a MinValue értékre állítása azt jelenti, hogy nincs beállítva a megjegyzés időpontja. Olvasás/írás DateTime. |
+| [CreatedTime](../../aspose.slides/icomment/createdtime) { get; set; } | Visszaadja vagy beállítja egy megjegyzés létrehozásának időpontját. Ennek a tulajdonságnak MinValue értékre állítása azt jelenti, hogy nincs beállítva megjegyzés időpontja. Olvasás/írás DateTime. |
 | [ParentComment](../../aspose.slides/icomment/parentcomment) { get; set; } | Visszaadja vagy beállítja a szülő megjegyzést. Olvasás/írás [`IComment`](../icomment). |
 | [Position](../../aspose.slides/icomment/position) { get; set; } | Visszaadja vagy beállítja egy megjegyzés pozícióját a dián. Olvasás/írás PointF. |
 | [Slide](../../aspose.slides/icomment/slide) { get; } | Visszaadja vagy beállítja a megjegyzés szülő diáját. Csak olvasható [`ISlide`](../islide). |
@@ -29,7 +29,7 @@ public interface IComment
 
 | Név | Leírás |
 | --- | --- |
-| [Remove](../../aspose.slides/icomment/remove)() | Eltávolítja a megjegyzést és annak összes válaszát a szülő gyűjteményből. |
+| [Remove](../../aspose.slides/icomment/remove)() | Eltávolítja a megjegyzést és annak minden válaszát a szülő gyűjteményből. |
 
 ### Lásd még
 

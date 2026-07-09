@@ -1,14 +1,14 @@
 ---
 title: IImageWrapper
 second_title: Aspose.Sildes pro .NET API Reference
-description: Obal System.Drawing.Image pro COM rozhraní.
+description: Obal System.Drawing.Image pro rozhraní COM.
 type: docs
-weight: 6150
+weight: 6170
 url: /cs/aspose.slides/iimagewrapper/
 ---
 ## IImageWrapper rozhraní
 
-System.Drawing.Image obal pro COM rozhraní.
+System.Drawing.Image obal pro rozhraní COM.
 
 ```csharp
 public interface IImageWrapper : IDisposable
@@ -18,17 +18,17 @@ public interface IImageWrapper : IDisposable
 
 | Název | Popis |
 | --- | --- |
-| [AsIDisposable](../../aspose.slides/iimagewrapper/asidisposable) { get; } | Vrací IDisposable rozhraní. Pouze pro čtení IDisposable. |
-| [ImageSource](../../aspose.slides/iimagewrapper/imagesource) { get; } | Získá obrázek Pouze pro čtení Image. |
-| [Size](../../aspose.slides/iimagewrapper/size) { get; } | Získá šířku a výšku v pixelech obrázku Pouze pro čtení [`Size`](./size). |
+| [AsIDisposable](../../aspose.slides/iimagewrapper/asidisposable) { get; } | Vrací rozhraní IDisposable. Pouze pro čtení IDisposable. |
+| [ImageSource](../../aspose.slides/iimagewrapper/imagesource) { get; } | Získá obrázek. Pouze pro čtení Image. |
+| [Size](../../aspose.slides/iimagewrapper/size) { get; } | Získá šířku a výšku v pixelech obrázku Image. Pouze pro čtení [`Size`](./size). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [Save](../../aspose.slides/iimagewrapper/save#save_1)(string) | Uloží Image do určeného souboru |
-| [Save](../../aspose.slides/iimagewrapper/save#save)(Stream, PPImageFormat) | Uloží Image do určeného Streamu ve zvoleném formátu. |
-| [Save](../../aspose.slides/iimagewrapper/save#save_2)(string, PPImageFormat) | Uloží Image do určeného souboru ve zvoleném formátu. |
+| [Save](../../aspose.slides/iimagewrapper/save#save_1)(string) | Uloží obrázek do zadaného souboru |
+| [Save](../../aspose.slides/iimagewrapper/save#save)(Stream, PPImageFormat) | Uloží obrázek do zadaného proudu ve specifikovaném formátu. |
+| [Save](../../aspose.slides/iimagewrapper/save#save_2)(string, PPImageFormat) | Uloží obrázek do zadaného souboru ve specifikovaném formátu. |
 
 ### Viz také
 

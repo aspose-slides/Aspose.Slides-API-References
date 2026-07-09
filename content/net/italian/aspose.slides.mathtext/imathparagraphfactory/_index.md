@@ -1,9 +1,9 @@
 ---
 title: IMathParagraphFactory
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Consente di creare un paragrafo matematico
 type: docs
-weight: 8380
+weight: 8400
 url: /it/aspose.slides.mathtext/imathparagraphfactory/
 ---
 ## IMathParagraphFactory interfaccia

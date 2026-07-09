@@ -1,26 +1,26 @@
 ---
 title: HtmlFormatter
-second_title: Aspose.Sildes a .NET API referencia
-description: HTML fájlsablont képvisel.
+second_title: Aspose.Sildes .NET API referencia
+description: HTML fájlsablont reprezentál.
 type: docs
-weight: 3850
+weight: 3870
 url: /hu/aspose.slides.export/htmlformatter/
 ---
 ## HtmlFormatter osztály
 
-HTML fájlsablont képvisel.
+HTML fájlsablont reprezentál.
 
 ```csharp
 public sealed class HtmlFormatter : IHtmlFormatter
 ```
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| static [CreateCustomFormatter](../../aspose.slides.export/htmlformatter/createcustomformatter)(IHtmlFormattingController) | Létrehozza és visszaadja a HTML formázót egy egyedi, callback-alapú HTML generáláshoz. |
+| static [CreateCustomFormatter](../../aspose.slides.export/htmlformatter/createcustomformatter)(IHtmlFormattingController) | Létrehozza és visszaadja a HTML formázót egyedi visszahíváson alapuló html generáláshoz. |
 | static [CreateDocumentFormatter](../../aspose.slides.export/htmlformatter/createdocumentformatter)(string, bool) | Létrehozza és visszaadja a HTML formázót egy egyszerű dokumentumnézethez, amely egymás alatti diák sorozatából áll. |
-| static [CreateSlideShowFormatter](../../aspose.slides.export/htmlformatter/createslideshowformatter)(string, bool) | Létrehozza és visszaadja a HTML formázót egy egyszerű diavetítés HTML-hez, amely a diákat egymás után mutatja. |
+| static [CreateSlideShowFormatter](../../aspose.slides.export/htmlformatter/createslideshowformatter)(string, bool) | Létrehozza és visszaadja a HTML formázót egy egyszerű diavetítés html-hez, amely a diákat egymás után mutatja. |
 
 ### Lásd még
 

@@ -1,14 +1,14 @@
 ---
 title: ChartDataPointLevelsManager
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET referenci API
 description: Kontejner úrovní datových bodů. Používá se pro řady Treeamp a Sunburst. Indexování úrovní datových bodů je nulové.
 type: docs
-weight: 1340
+weight: 1360
 url: /cs/aspose.slides.charts/chartdatapointlevelsmanager/
 ---
 ## ChartDataPointLevelsManager třída
 
-Kontejner úrovní datových bodů. Používá se pro řady Treeamp a Sunburst. Indexování úrovní datových bodů je nulové.
+Kontejner úrovní datových bodů. Používá se pro řady Treeamp a Sunburst. Indexování úrovní datových bodů je založeno na nulovém základu.
 
 ```csharp
 public class ChartDataPointLevelsManager : DomObject<ChartDataPoint>, IChartDataPointLevelsManager

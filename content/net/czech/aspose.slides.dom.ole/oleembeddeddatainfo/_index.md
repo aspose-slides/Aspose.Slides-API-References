@@ -1,14 +1,14 @@
 ---
 title: OleEmbeddedDataInfo
 second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje informace o vložených datech pro objekt OLE.
+description: Representuje informaci o vložených datech pro OLE objekt.
 type: docs
-weight: 2740
+weight: 2760
 url: /cs/aspose.slides.dom.ole/oleembeddeddatainfo/
 ---
 ## OleEmbeddedDataInfo třída
 
-Representuje informace o vložených datech pro objekt OLE.
+Reprezentuje informaci o vložených datech pro OLE objekt.
 
 ```csharp
 public class OleEmbeddedDataInfo : IOleEmbeddedDataInfo
@@ -18,15 +18,15 @@ public class OleEmbeddedDataInfo : IOleEmbeddedDataInfo
 
 | Název | Popis |
 | --- | --- |
-| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor)() | Vytvoří nové informace o vložených datech pro objekt OLE. |
-| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor_1)(byte[], string) | Vytvoří novou instanci informací o vložených datech pro objekt OLE. Data souboru vloženého objektu OLE Byte[]. Rozšíření souboru pro aktuální vložený objekt OLE String. |
+| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor)() | Vytvoří novou informaci o vložených datech pro OLE objekt. |
+| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor_1)(byte[], string) | Vytvoří novou instanci informace o vložených datech pro OLE objekt. Data souboru vloženého OLE objektu Byte[]. Přípona souboru pro aktuální vložený OLE objekt String. |
 
 ## Vlastnosti
 
 | Název | Popis |
 | --- | --- |
-| [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | Vrací data souboru vloženého objektu OLE. Pouze pro čtení Byte[]. |
-| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | Vrací rozšíření souboru pro aktuální vložený objekt OLE. Pouze pro čtení String. |
+| [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | Vrací data souboru vloženého OLE objektu Pouze pro čtení Byte[]. |
+| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | Vrací příponu souboru pro aktuální vložený OLE objekt Pouze pro čtení String. |
 
 ### Viz také
 

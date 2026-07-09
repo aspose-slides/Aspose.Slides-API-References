@@ -1,9 +1,9 @@
 ---
 title: IColorEffect
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili efek warna untuk perilaku animasi.
 type: docs
-weight: 440
+weight: 460
 url: /id/aspose.slides.animation/icoloreffect/
 ---
 ## IColorEffect antarmuka
@@ -18,7 +18,7 @@ public interface IColorEffect : IBehavior
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/icoloreffect/asibehavior) { get; } | Mengizinkan untuk mendapatkan antarmuka IBehavior dasar. Hanya baca [`IBehavior`](../ibehavior). |
+| [AsIBehavior](../../aspose.slides.animation/icoloreffect/asibehavior) { get; } | Mengizinkan untuk mendapatkan antarmuka IBehavior dasar. Baca-saja [`IBehavior`](../ibehavior). |
 | [By](../../aspose.slides.animation/icoloreffect/by) { get; set; } | Menjelaskan nilai offset relatif untuk animasi warna. Baca/tulis [`IColorOffset`](../icoloroffset). |
 | [ColorSpace](../../aspose.slides.animation/icoloreffect/colorspace) { get; set; } | Mewakili ruang warna perilaku. Baca/tulis [`ColorSpace`](./colorspace). |
 | [Direction](../../aspose.slides.animation/icoloreffect/direction) { get; set; } | Menentukan arah siklus hue di sekitar roda warna. Baca/tulis [`ColorDirection`](../colordirection). |

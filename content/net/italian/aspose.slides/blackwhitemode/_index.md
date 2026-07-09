@@ -1,14 +1,14 @@
 ---
 title: BlackWhiteMode
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Determina come una forma colorata debba essere trasformata in bianco e nero.
+second_title: Aspose.Sildes per .NET API Reference
+description: Determina come una forma colorata dovrebbe essere trasformata in bianco e nero.
 type: docs
-weight: 1000
+weight: 1020
 url: /it/aspose.slides/blackwhitemode/
 ---
-## Enumerazione BlackWhiteMode
+## BlackWhiteMode enumerazione
 
-Determina come una forma colorata deve essere trasformata in bianco e nero.
+Determina come una forma colorata debba essere trasformata in bianco e nero.
 
 ```csharp
 public enum BlackWhiteMode : sbyte
@@ -19,17 +19,17 @@ public enum BlackWhiteMode : sbyte
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | NotDefined | `-1` | La proprietà non è impostata |
-| Color | `0` | L'oggetto viene renderizzato con colorazione normale |
-| Automatic | `1` | L'oggetto viene renderizzato con colorazione automatica |
-| Gray | `2` | L'oggetto viene renderizzato con colorazione grigia |
-| LightGray | `3` | L'oggetto viene renderizzato con colorazione grigio chiaro |
-| InverseGray | `4` | L'oggetto viene renderizzato con colorazione grigio inverso |
-| GrayWhite | `5` | L'oggetto viene renderizzato con colorazione grigia e bianca |
-| BlackGray | `6` | L'oggetto viene renderizzato con colorazione nera e grigia |
-| BlackWhite | `7` | L'oggetto viene renderizzato con colorazione nera e bianca |
-| Black | `8` | L'oggetto viene renderizzato solo con colorazione nera |
-| White | `9` | L'oggetto viene renderizzato con colorazione bianca |
-| Hidden | `10` | L'oggetto non viene renderizzato |
+| Color | `0` | L'oggetto è renderizzato con colorazione normale |
+| Automatic | `1` | L'oggetto è renderizzato con colorazione automatica |
+| Gray | `2` | L'oggetto è renderizzato con colorazione grigia |
+| LightGray | `3` | L'oggetto è renderizzato con colorazione grigio chiaro |
+| InverseGray | `4` | L'oggetto è renderizzato con colorazione grigia inversa |
+| GrayWhite | `5` | L'oggetto è renderizzato con colorazione grigia e bianca |
+| BlackGray | `6` | L'oggetto è renderizzato con colorazione nera e grigia |
+| BlackWhite | `7` | L'oggetto è renderizzato con colorazione nera e bianca |
+| Black | `8` | L'oggetto è renderizzato solo con colorazione nera |
+| White | `9` | L'oggetto è renderizzato con colorazione bianca |
+| Hidden | `10` | L'oggetto non è renderizzato |
 
 ### Vedi anche
 

@@ -3,12 +3,12 @@ title: SlideThemeManager
 second_title: Aspose.Sildes for .NET API リファレンス
 description: スライドテーマのオーバーライドへのアクセスを提供します。
 type: docs
-weight: 11450
+weight: 11470
 url: /ja/aspose.slides.theme/slidethememanager/
 ---
 ## SlideThemeManager クラス
 
-スライドテーマのオーバーライドされたものへのアクセスを提供します。
+スライドテーマのオーバーライドへのアクセスを提供します。
 
 ```csharp
 public class SlideThemeManager : BaseOverrideThemeManager
@@ -16,17 +16,17 @@ public class SlideThemeManager : BaseOverrideThemeManager
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | OverrideTheme が継承された有効なテーマをオーバーライドするかどうかを決定します。OverrideTheme のオーバーライドを有効にするには OverrideTheme.Init*() メソッドを使用します。OverrideTheme のオーバーライドを無効にするには OverrideTheme.Clear() メソッドを使用します。読み取り専用 Boolean。 |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | オーバーライドされたテーマオブジェクトを返します。読み取り/書き込み [`IOverrideTheme`](../ioverridetheme)。 |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | オーバーライドされたテーマ オブジェクトを返します。読み取り/書き込み [`IOverrideTheme`](../ioverridetheme)。 |
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | スライドに追加のカラースキームを適用します。 |
-| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | テーマオブジェクトを返します。 |
+| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | スライドに余分なカラースキームを適用します。 |
+| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | テーマ オブジェクトを返します。 |
 
 ### 参照
 

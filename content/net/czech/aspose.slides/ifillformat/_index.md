@@ -1,14 +1,14 @@
 ---
 title: IFillFormat
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje možnosti formátování výplně.
+description: Představuje možnosti formátování výplně.
 type: docs
-weight: 5770
+weight: 5790
 url: /cs/aspose.slides/ifillformat/
 ---
 ## IFillFormat rozhraní
 
-Reprezentuje možnosti formátování výplně.
+Představuje možnosti formátování výplně.
 
 ```csharp
 public interface IFillFormat : IFillParamSource
@@ -23,7 +23,7 @@ public interface IFillFormat : IFillParamSource
 | [GradientFormat](../../aspose.slides/ifillformat/gradientformat) { get; } | Vrací formát gradientové výplně. Pouze pro čtení [`IGradientFormat`](../igradientformat). |
 | [PatternFormat](../../aspose.slides/ifillformat/patternformat) { get; } | Vrací formát vzorové výplně. Pouze pro čtení [`IPatternFormat`](../ipatternformat). |
 | [PictureFillFormat](../../aspose.slides/ifillformat/picturefillformat) { get; } | Vrací formát obrázkové výplně. Pouze pro čtení [`IPictureFillFormat`](../ipicturefillformat). |
-| [RotateWithShape](../../aspose.slides/ifillformat/rotatewithshape) { get; set; } | Určuje, zda má být výplň otáčena spolu s tvarem. Čtení/zápis [`NullableBool`](../nullablebool). |
+| [RotateWithShape](../../aspose.slides/ifillformat/rotatewithshape) { get; set; } | Určuje, zda by měla být výplň otáčena společně s tvarem. Čtení/zápis [`NullableBool`](../nullablebool). |
 | [SolidFillColor](../../aspose.slides/ifillformat/solidfillcolor) { get; } | Vrací barvu výplně. Pouze pro čtení [`IColorFormat`](../icolorformat). |
 
 ## Metody

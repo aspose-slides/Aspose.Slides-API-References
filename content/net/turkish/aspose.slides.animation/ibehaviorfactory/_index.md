@@ -1,9 +1,9 @@
 ---
 title: IBehaviorFactory
-second_title: Aspose.Sildes .NET için API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Animasyon efektleri oluşturmayı sağlar
 type: docs
-weight: 410
+weight: 430
 url: /tr/aspose.slides.animation/ibehaviorfactory/
 ---
 ## IBehaviorFactory arayüzü
@@ -18,14 +18,14 @@ public interface IBehaviorFactory
 
 | Ad | Açıklama |
 | --- | --- |
-| [CreateColorEffect](../../aspose.slides.animation/ibehaviorfactory/createcoloreffect)() | Renk etkisi oluşturur. |
-| [CreateCommandEffect](../../aspose.slides.animation/ibehaviorfactory/createcommandeffect)() | Komut etkisi oluşturur. |
-| [CreateFilterEffect](../../aspose.slides.animation/ibehaviorfactory/createfiltereffect)() | Filtre etkisi oluşturur. |
-| [CreateMotionEffect](../../aspose.slides.animation/ibehaviorfactory/createmotioneffect)() | Hareket etkisi oluşturur. |
-| [CreatePropertyEffect](../../aspose.slides.animation/ibehaviorfactory/createpropertyeffect)() | Özellik etkisi oluşturur. |
-| [CreateRotationEffect](../../aspose.slides.animation/ibehaviorfactory/createrotationeffect)() | Dönme etkisi oluşturur. |
-| [CreateScaleEffect](../../aspose.slides.animation/ibehaviorfactory/createscaleeffect)() | Ölçek etkisi oluşturur. |
-| [CreateSetEffect](../../aspose.slides.animation/ibehaviorfactory/createseteffect)() | Ayar etkisi oluşturur. |
+| [CreateColorEffect](../../aspose.slides.animation/ibehaviorfactory/createcoloreffect)() | Renk efekti oluşturur. |
+| [CreateCommandEffect](../../aspose.slides.animation/ibehaviorfactory/createcommandeffect)() | Komut efekti oluşturur. |
+| [CreateFilterEffect](../../aspose.slides.animation/ibehaviorfactory/createfiltereffect)() | Filtre efekti oluşturur. |
+| [CreateMotionEffect](../../aspose.slides.animation/ibehaviorfactory/createmotioneffect)() | Hareket efekti oluşturur. |
+| [CreatePropertyEffect](../../aspose.slides.animation/ibehaviorfactory/createpropertyeffect)() | Özellik efekti oluşturur. |
+| [CreateRotationEffect](../../aspose.slides.animation/ibehaviorfactory/createrotationeffect)() | Döndürme efekti oluşturur. |
+| [CreateScaleEffect](../../aspose.slides.animation/ibehaviorfactory/createscaleeffect)() | Ölçek efekti oluşturur. |
+| [CreateSetEffect](../../aspose.slides.animation/ibehaviorfactory/createseteffect)() | Set efekti oluşturur. |
 
 ### Açıklamalar
 

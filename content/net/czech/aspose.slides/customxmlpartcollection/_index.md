@@ -1,14 +1,14 @@
 ---
 title: CustomXmlPartCollection
-second_title: Aspose.Sildes pro .NET referenční příručku API
+second_title: Aspose.Sildes pro .NET API Reference
 description: Representuje kolekci vlastních xml částí.
 type: docs
-weight: 2730
+weight: 2750
 url: /cs/aspose.slides/customxmlpartcollection/
 ---
 ## CustomXmlPartCollection třída
 
-Reprezentuje sbírku vlastních xml částí.
+Represents collection of custom xml parts.
 
 ```csharp
 public class CustomXmlPartCollection : ICustomXmlPartCollection
@@ -32,7 +32,7 @@ public class CustomXmlPartCollection : ICustomXmlPartCollection
 | [Add](../../aspose.slides/customxmlpartcollection/add#add_2)(string) | Přidá novou vlastní xml část. |
 | [Clear](../../aspose.slides/customxmlpartcollection/clear)() | Odstraní všechny položky ze sbírky. |
 | [CopyTo](../../aspose.slides/customxmlpartcollection/copyto)(Array, int) | Zkopíruje do určeného pole. |
-| [GetEnumerator](../../aspose.slides/customxmlpartcollection/getenumerator)() | Vrací enumerátor, který prochází sbírku. |
+| [GetEnumerator](../../aspose.slides/customxmlpartcollection/getenumerator)() | Vrací enumerátor, který prochází sbírkou. |
 | [Remove](../../aspose.slides/customxmlpartcollection/remove)(ICustomXmlPart) | Odstraní první výskyt konkrétního objektu ze sbírky. |
 | [RemoveAt](../../aspose.slides/customxmlpartcollection/removeat)(int) | Odstraní vlastní xml část na zadaném indexu. |
 

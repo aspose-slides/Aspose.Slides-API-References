@@ -1,9 +1,9 @@
 ---
 title: FillFormatCollection
-second_title: Aspose.Sildes a .NET API referencia
+second_title: Aspose.Sildes .NET API referenciája
 description: A kitöltési stílusok gyűjteményét képviseli.
 type: docs
-weight: 11100
+weight: 11120
 url: /hu/aspose.slides.theme/fillformatcollection/
 ---
 ## FillFormatCollection osztály
@@ -18,17 +18,17 @@ public sealed class FillFormatCollection : DomObject<FormatScheme>, IFillFormatC
 
 | Név | Leírás |
 | --- | --- |
-| [Count](../../aspose.slides.theme/fillformatcollection/count) { get; } | A gyűjteményben ténylegesen található elemek számát adja vissza. Csak olvasható Int32. |
-| [IsSynchronized](../../aspose.slides.theme/fillformatcollection/issynchronized) { get; } | Visszaad egy értéket, amely azt jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált-e (szálbiztos). Csak olvasható Boolean. |
-| [Item](../../aspose.slides.theme/fillformatcollection/item) { get; } | A megadott indexű elemet adja vissza. Csak olvasható [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Count](../../aspose.slides.theme/fillformatcollection/count) { get; } | Lekéri a gyűjteményben ténylegesen tárolt elemek számát. Csak olvasható Int32. |
+| [IsSynchronized](../../aspose.slides.theme/fillformatcollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjtemény elérése szinkronizált (szálbiztos)-e. Csak olvasható Boolean. |
+| [Item](../../aspose.slides.theme/fillformatcollection/item) { get; } | Lekéri a megadott indexű elemet. Csak olvasható [`IFillFormat`](../../aspose.slides/ifillformat). |
 | [SyncRoot](../../aspose.slides.theme/fillformatcollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökeret. Csak olvasható Object. |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [CopyTo](../../aspose.slides.theme/fillformatcollection/copyto)(Array, int) | Az összes elemet a gyűjteményből a megadott tömbbe másolja. |
-| [GetEnumerator](../../aspose.slides.theme/fillformatcollection/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |
+| [CopyTo](../../aspose.slides.theme/fillformatcollection/copyto)(Array, int) | Átmásolja a gyűjtemény összes elemét a megadott tömbbe. |
+| [GetEnumerator](../../aspose.slides.theme/fillformatcollection/getenumerator)() | Visszaad egy felsorolót, amely végigjárja a gyűjteményt. |
 
 ### Lásd még
 

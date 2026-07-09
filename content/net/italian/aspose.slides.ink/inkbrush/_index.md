@@ -1,9 +1,9 @@
 ---
 title: InkBrush
-second_title: Aspose.Sildes per il riferimento API .NET
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un oggetto inkBrush.
 type: docs
-weight: 7550
+weight: 7570
 url: /it/aspose.slides.ink/inkbrush/
 ---
 ## InkBrush classe
@@ -19,7 +19,7 @@ public class InkBrush : IInkBrush
 | Nome | Descrizione |
 | --- | --- |
 | [Color](../../aspose.slides.ink/inkbrush/color) { get; set; } | Ottiene o imposta il colore del pennello per una linea. |
-| [InkEffect](../../aspose.slides.ink/inkbrush/inkeffect) { get; } | Ottiene il tipo di effetto inchiostro (ad es., Galaxy, Gold, Silver) che definisce lo stile visivo della traccia di inchiostro. Il valore è analizzato dalla proprietà del pennello "inkEffects". Se non viene specificato alcun effetto riconosciuto, viene restituito NotDefined. |
+| [InkEffect](../../aspose.slides.ink/inkbrush/inkeffect) { get; } | Ottiene il tipo di effetto inchiostro (ad es., Galaxy, Gold, Silver) che definisce lo stile visivo del tratto di inchiostro. Il valore è analizzato dalla proprietà del pennello "inkEffects". Se non viene specificato alcun effetto riconosciuto, viene restituito NotDefined. |
 | [Size](../../aspose.slides.ink/inkbrush/size) { get; set; } | Ottiene o imposta la dimensione del pennello per una linea in punti. |
 
 ### Vedi anche

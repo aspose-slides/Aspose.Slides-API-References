@@ -1,9 +1,9 @@
 ---
 title: TextAnimation
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes .NET için API Referansı
 description: Metin animasyonunu temsil eder.
 type: docs
-weight: 800
+weight: 820
 url: /tr/aspose.slides.animation/textanimation/
 ---
 ## TextAnimation sınıfı
@@ -16,24 +16,24 @@ public class TextAnimation : ITextAnimation
 
 ## Yapıcılar
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
 | [TextAnimation](textanimation)() | Varsayılan yapıcı. |
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [BuildType](../../aspose.slides.animation/textanimation/buildtype) { get; set; } | Metin animasyonunun yapı türü listesi (örn. Paragraph 1,2,3, All at Once). Okuma/Yazma [`BuildType`](../buildtype). |
-| [EffectAnimateBackgroundShape](../../aspose.slides.animation/textanimation/effectanimatebackgroundshape) { get; set; } | Grup ile bağlı şekil efekti veya değil (null). Okuma/Yazma [`IEffect`](../ieffect). |
+| [BuildType](../../aspose.slides.animation/textanimation/buildtype) { get; set; } | Metin animasyonunun oluşturma türünün listesi (örn. Paragraph 1,2,3, All at Once). Okuma/yazma [`BuildType`](../buildtype). |
+| [EffectAnimateBackgroundShape](../../aspose.slides.animation/textanimation/effectanimatebackgroundshape) { get; set; } | Grup ile ya da olmadan bağlanmış şekil efekti (null). Okuma/yazma [`IEffect`](../ieffect). |
 
 ## Yöntemler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [AddEffect](../../aspose.slides.animation/textanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | Yeni bir efekti mevcut sıranın sonuna, grup metin animasyonlarının sonuna ekler. Yalnızca bu grubun efekt sayısı kadar veya daha fazla metin paragrafı olduğunda geçerlidir! |
+| [AddEffect](../../aspose.slides.animation/textanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | Yeni bir efekti mevcut dizinin sonuna, grup metin animasyonlarının sonuna ekler. Yalnızca bu grubun efekt sayısı kadar veya daha fazla metin paragrafı varsa geçerlidir! |
 
-### Ayrıca Bakınız
+### İlgili
 
 * arayüz [ITextAnimation](../itextanimation)
 * ad alanı [Aspose.Slides.Animation](../../aspose.slides.animation)

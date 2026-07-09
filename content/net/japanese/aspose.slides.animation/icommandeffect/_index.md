@@ -1,14 +1,14 @@
 ---
 title: ICommandEffect
 second_title: Aspose.Sildes for .NET API リファレンス
-description: アニメーション ビヘイビアのコマンド エフェクトを表します。
+description: アニメーション ビヘイビアのコマンドエフェクトを表します。
 type: docs
-weight: 460
+weight: 480
 url: /ja/aspose.slides.animation/icommandeffect/
 ---
 ## ICommandEffect インターフェイス
 
-アニメーション ビヘイビアのコマンド エフェクトを表します。
+アニメーション ビヘイビア用のコマンド エフェクトを表します。
 
 ```csharp
 public interface ICommandEffect : IBehavior
@@ -19,11 +19,11 @@ public interface ICommandEffect : IBehavior
 | 名前 | 説明 |
 | --- | --- |
 | [AsIBehavior](../../aspose.slides.animation/icommandeffect/asibehavior) { get; } | ベース IBehavior インターフェイスを取得できます。読み取り専用 [`IBehavior`](../ibehavior)。 |
-| [CommandString](../../aspose.slides.animation/icommandeffect/commandstring) { get; set; } | コマンド文字列を定義します。読み書き可能 String。 |
-| [ShapeTarget](../../aspose.slides.animation/icommandeffect/shapetarget) { get; set; } | コマンド エフェクトのシェイプ ターゲットを定義します。読み書き可能 [`IShape`](../../aspose.slides/ishape)。 |
-| [Type](../../aspose.slides.animation/icommandeffect/type) { get; set; } | ビヘイビアのコマンド エフェクト タイプを定義します。読み書き可能 [`CommandEffectType`](../commandeffecttype)。 |
+| [CommandString](../../aspose.slides.animation/icommandeffect/commandstring) { get; set; } | コマンド文字列を定義します。読み書き可能な String。 |
+| [ShapeTarget](../../aspose.slides.animation/icommandeffect/shapetarget) { get; set; } | コマンド エフェクトのシェイプ ターゲットを定義します。読み書き可能な [`IShape`](../../aspose.slides/ishape)。 |
+| [Type](../../aspose.slides.animation/icommandeffect/type) { get; set; } | ビヘイビアのコマンド エフェクト タイプを定義します。読み書き可能な [`CommandEffectType`](../commandeffecttype)。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IBehavior](../ibehavior)
 * 名前空間 [Aspose.Slides.Animation](../../aspose.slides.animation)

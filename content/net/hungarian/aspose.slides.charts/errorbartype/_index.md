@@ -1,14 +1,14 @@
 ---
 title: ErrorBarType
-second_title: Aspose.Sildes .NET API hivatkozás
-description: A hibasáv típusát jelöli
+second_title: Aspose.Sildes .NET API referencia
+description: A hibasáv típusát reprezentálja
 type: docs
-weight: 1620
+weight: 1640
 url: /hu/aspose.slides.charts/errorbartype/
 ---
 ## ErrorBarType enumeráció
 
-Az hibasáv típusát jelöli
+A hibasáv típusát reprezentálja
 
 ```csharp
 public enum ErrorBarType
@@ -18,9 +18,9 @@ public enum ErrorBarType
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Both | `0` | Megadja, hogy a hibasávok a pozitív és negatív irányban jelenjenek meg. |
-| Minus | `1` | Megadja, hogy a hibasávok csak a negatív irányban jelenjenek meg. |
-| Plus | `2` | Megadja, hogy a hibasávok csak a pozitív irányban jelenjenek meg. |
+| Both | `0` | Meghatározza, hogy a hibasávok a pozitív és negatív irányban legyenek megjelenítve. |
+| Minus | `1` | Meghatározza, hogy a hibasávok csak a negatív irányban legyenek megjelenítve. |
+| Plus | `2` | Meghatározza, hogy a hibasávok csak a pozitív irányban legyenek megjelenítve. |
 
 ### Lásd még
 

@@ -1,14 +1,14 @@
 ---
 title: ILayoutSlideHeaderFooterManager
-second_title: Aspose.Sildes dla .NET – odwołanie API
-description: Reprezentuje menedżera, który przechowuje zachowanie pól zastępczych stopki slajdu układu, daty i godziny, numeru strony oraz wszystkich podrzędnych pól zastępczych. Podrzędne pola zastępcze oznaczają pola, które znajdują się na zależnych slajdach. Zależne slajdy używają i zależą od slajdu układu.
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Reprezentuje menedżera, który zarządza zachowaniem pól zastępczych stopki slajdu układu, daty i czasu, numeru strony oraz wszystkich pól podrzędnych. Pola podrzędne oznaczają pola zastępcze zawarte na slajdach zależnych. Slajdy zależne używają i zależą od slajdu układu.
 type: docs
-weight: 6220
+weight: 6240
 url: /pl/aspose.slides/ilayoutslideheaderfootermanager/
 ---
 ## ILayoutSlideHeaderFooterManager interfejs
 
-Reprezentuje menedżera, który zawiera zachowanie pól zastępczych stopki slajdu układu, daty i godziny, numeru strony oraz wszystkich podrzędnych pól zastępczych. Podrzędne pola zastępcze oznaczają pola, które znajdują się na zależnych slajdach. Zależne slajdy używają i zależą od slajdu układu.
+Reprezentuje menedżera, który zarządza zachowaniem stopki slajdu układu, pola zastępczego daty i czasu, pola numeru strony oraz wszystkich pól podrzędnych. Pola podrzędne oznaczają pola zastępcze znajdujące się na slajdach zależnych. Slajdy zależne używają i zależą od slajdu układu.
 
 ```csharp
 public interface ILayoutSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -24,11 +24,11 @@ public interface ILayoutSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | Nazwa | Opis |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Ustawia tekst w polu zastępczym daty i godziny slajdu układu oraz we wszystkich podrzędnych polach zastępczych daty i godziny. Podrzędne pola zastępcze oznaczają pola, które znajdują się na zależnych slajdach. Zależne slajdy używają i zależą od slajdu układu. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Zmienia widoczność pola zastępczego daty i godziny slajdu układu oraz wszystkich podrzędnych pól zastępczych daty i godziny. Podrzędne pola zastępcze oznaczają pola, które znajdują się na zależnych slajdach. Zależne slajdy używają i zależą od slajdu układu. |
-| [SetFooterAndChildFootersText](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | Ustawia tekst w polu zastępczym stopki slajdu układu oraz we wszystkich podrzędnych polach zastępczych stopki. Podrzędne pola zastępcze oznaczają pola, które znajdują się na zależnych slajdach. Zależne slajdy używają i zależą od slajdu układu. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Zmienia widoczność pola zastępczego stopki slajdu układu oraz wszystkich podrzędnych pól zastępczych stopki. Podrzędne pola zastępcze oznaczają pola, które znajdują się na zależnych slajdach. Zależne slajdy używają i zależą od slajdu głównego. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Zmienia widoczność pola zastępczego numeru strony slajdu układu oraz wszystkich podrzędnych pól zastępczych numeru strony. Podrzędne pola zastępcze oznaczają pola, które znajdują się na zależnych slajdach. Zależne slajdy używają i zależą od slajdu układu. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Ustawia tekst w polu zastępczym daty i czasu slajdu układu oraz we wszystkich podrzędnych polach daty i czasu. Pola podrzędne oznaczają pola zastępcze znajdujące się na slajdach zależnych. Slajdy zależne używają i zależą od slajdu układu. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Zmienia widoczność pola zastępczego daty i czasu slajdu układu oraz wszystkich podrzędnych pól daty i czasu. Pola podrzędne oznaczają pola zastępcze znajdujące się na slajdach zależnych. Slajdy zależne używają i zależą od slajdu układu. |
+| [SetFooterAndChildFootersText](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | Ustawia tekst w polu zastępczym stopki slajdu układu oraz we wszystkich podrzędnych polach stopki. Pola podrzędne oznaczają pola zastępcze znajdujące się na slajdach zależnych. Slajdy zależne używają i zależą od slajdu układu. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Zmienia widoczność pola zastępczego stopki slajdu układu oraz wszystkich podrzędnych pól stopki. Pola podrzędne oznaczają pola zastępcze znajdujące się na slajdach zależnych. Slajdy zależne używają i zależą od slajdu głównego. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Zmienia widoczność pola zastępczego numeru strony slajdu układu oraz wszystkich podrzędnych pól numeru strony. Pola podrzędne oznaczają pola zastępcze znajdujące się na slajdach zależnych. Slajdy zależne używają i zależą od slajdu układu. |
 
 ### Zobacz także
 

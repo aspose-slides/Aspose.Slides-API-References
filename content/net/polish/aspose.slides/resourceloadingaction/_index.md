@@ -1,14 +1,14 @@
 ---
 title: ResourceLoadingAction
-second_title: Aspose.Sildes dla .NET API Reference
-description: Określa tryb ładowania zewnętrznych zasobów.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Określa tryb ładowania zasobów zewnętrznych.
 type: docs
-weight: 9680
+weight: 9700
 url: /pl/aspose.slides/resourceloadingaction/
 ---
-## enumeracja ResourceLoadingAction
+## ResourceLoadingAction wyliczenie
 
-Określa tryb ładowania zewnętrznych zasobów.
+Określa tryb ładowania zasobów zewnętrznych.
 
 ```csharp
 public enum ResourceLoadingAction
@@ -18,8 +18,8 @@ public enum ResourceLoadingAction
 
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
-| Default | `0` | Aspose.Slides załaduje zewnętrzny zasób w sposób standardowy. |
-| Skip | `1` | Aspose.Slides pominie ładowanie zewnętrznego zasobu. Tylko link bez danych zostanie zapisany dla obrazu. |
+| Default | `0` | Aspose.Slides załaduje zasób zewnętrzny w zwyczajny sposób. |
+| Skip | `1` | Aspose.Slides pominie ładowanie zasobu zewnętrznego. Dla obrazu zostanie zachowany jedynie odnośnik bez danych. |
 | UserProvided | `2` | Aspose.Slides użyje tablicy bajtów dostarczonej przez użytkownika w [`SetData`](../iresourceloadingargs/setdata) jako danych obrazu. |
 
 ### Zobacz także

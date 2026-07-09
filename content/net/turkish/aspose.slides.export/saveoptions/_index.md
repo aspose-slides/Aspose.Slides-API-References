@@ -1,14 +1,14 @@
 ---
 title: SaveOptions
 second_title: Aspose.Sildes için .NET API Referansı
-description: Sunumun nasıl kaydedileceğini kontrol eden seçeneklere sahip soyut sınıf.
+description: Sunumun nasıl kaydedileceğini kontrol eden seçenekleri içeren soyut sınıf.
 type: docs
-weight: 4430
+weight: 4450
 url: /tr/aspose.slides.export/saveoptions/
 ---
 ## SaveOptions sınıfı
 
-Bir sunumun nasıl kaydedileceğini kontrol eden seçeneklere sahip soyut sınıf.
+Sunumun nasıl kaydedileceğini kontrol eden seçenekleri içeren soyut sınıf.
 
 ```csharp
 public abstract class SaveOptions : ISaveOptions
@@ -19,12 +19,12 @@ public abstract class SaveOptions : ISaveOptions
 | Ad | Açıklama |
 | --- | --- |
 | [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Kaynak yazı tipi bulunamadığında kullanılan yazı tipini döndürür veya ayarlar. Okuma-yazma String. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Gradyenin görsel stilini döndürür veya ayarlar. Okuma/yazma [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Yüzde olarak kaydetme ilerleme güncellemeleri için bir geri arama nesnesini temsil eder. Bakınız [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Sunumu kaydederken JavaScript çağrıları içeren köprülerin atlanıp atlanmayacağını belirler. Okuma/yazma Boolean. Varsayılan değer **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Uyarıları alan ve yükleme işleminin devam edip etmeyeceğine karar veren bir nesneyi döndürür veya ayarlar. Okuma/yazma [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Gradyanın görsel stilini döndürür veya ayarlar. Okuma-yazma [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Yüzde olarak kaydetme ilerleme güncellemeleri için bir geri çağırma nesnesini temsil eder. Bkz. [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Sunumu kaydederken JavaScript çağrıları içeren köprüleri atlayıp atlamayacağını belirtir. Okuma-yazma Boolean. Varsayılan değer **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Uyarıları alan ve yükleme işleminin devam edip etmeyeceğine veya iptal edileceğine karar veren bir nesneyi döndürür veya ayarlar. Okuma-yazma [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
 * arayüz [ISaveOptions](../isaveoptions)
 * ad alanı [Aspose.Slides.Export](../../aspose.slides.export)

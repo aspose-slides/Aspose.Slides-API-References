@@ -1,14 +1,14 @@
 ---
 title: MathRowSpacingRule
 second_title: Aspose.Sildes for .NET API Referansı
-description: Matris veya dizi içindeki sütunlar arasındaki dikey boşluk tipi
+description: Bir matris veya dizi içinde sütunlar arasındaki dikey boşluk türü
 type: docs
-weight: 8960
+weight: 8980
 url: /tr/aspose.slides.mathtext/mathrowspacingrule/
 ---
-## MathRowSpacingRule enumerasyonu
+## MathRowSpacingRule enum
 
-Matris veya dizi içindeki sütunlar arasındaki dikey boşluk tipi
+Bir matris veya dizi içinde sütunlar arasındaki dikey boşluk tipi
 
 ```csharp
 public enum MathRowSpacingRule
@@ -21,8 +21,8 @@ public enum MathRowSpacingRule
 | SingleLineGap | `0` | tek satır boşluğu |
 | OneAndAHalfLineGap | `1` | bir buçuk satır boşluğu |
 | TwoLineGap | `2` | iki satır boşluğu |
-| Exactly | `3` | Exactly (RowSpacing özelliğinin değerine dayanır, puan cinsinden ölçülür) |
-| Multiple | `4` | Multiple (RowSpacing özelliğinin değerine dayanır, satır cinsinden ölçülür) |
+| Exactly | `3` | Tam olarak (RowSpacing özelliğinin değerine dayanır, puan cinsinden ölçülür) |
+| Multiple | `4` | Birden çok (RowSpacing özelliğinin değerine dayanır, satır cinsinden ölçülür) |
 
 ### Ayrıca Bakınız
 

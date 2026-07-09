@@ -1,12 +1,12 @@
 ---
 title: ICameraEffectiveData
-second_title: Aspose.Sildes per la documentazione di riferimento API .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Oggetto immutabile che contiene le proprietà effettive della fotocamera.
 type: docs
-weight: 5400
+weight: 5420
 url: /it/aspose.slides/icameraeffectivedata/
 ---
-## ICameraEffectiveData interface
+## ICameraEffectiveData interfaccia
 
 Oggetto immutabile che contiene le proprietà effettive della fotocamera.
 
@@ -19,18 +19,18 @@ public interface ICameraEffectiveData
 | Nome | Descrizione |
 | --- | --- |
 | [CameraType](../../aspose.slides/icameraeffectivedata/cameratype) { get; } | Tipo di fotocamera. Solo lettura [`CameraPresetType`](../camerapresettype). |
-| [FieldOfViewAngle](../../aspose.slides/icameraeffectivedata/fieldofviewangle) { get; } | FOV della fotocamera (0-180 deg, campo visivo). Solo lettura Single. |
+| [FieldOfViewAngle](../../aspose.slides/icameraeffectivedata/fieldofviewangle) { get; } | FOV della fotocamera (0-180 gradi, campo visivo). Solo lettura Single. |
 | [Zoom](../../aspose.slides/icameraeffectivedata/zoom) { get; } | Zoom della fotocamera (valore positivo in percentuale). Solo lettura Single. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | Una rotazione è definita mediante l'uso di una coordinata di latitudine, una coordinata di longitudine e una rivoluzione intorno all'asse come coordinate di latitudine e longitudine. Primo elemento nell'array restituito – latitudine, secondo – longitudine, terzo – rivoluzione. Restituisce null se nessuna rotazione è definita. |
+| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | Una rotazione è definita mediante l'uso di una coordinata di latitudine, una coordinata di longitudine e una rivoluzione attorno all'asse come le coordinate di latitudine e longitudine. Primo elemento nell'array restituito – latitudine, secondo – longitudine, terzo – rivoluzione. Restituisce null se nessuna rotazione è definita. |
 
 ### Osservazioni
 
-Questa interfaccia è utilizzata come parte di [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata).
+Questa interfaccia è usata come parte di [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata).
 
 ### Vedi anche
 

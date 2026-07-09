@@ -3,7 +3,7 @@ title: PathCommandType
 second_title: Aspose.Sildes para .NET Referência da API
 description: Representa comandos de caminho gráfico
 type: docs
-weight: 9300
+weight: 9320
 url: /pt/aspose.slides/pathcommandtype/
 ---
 ## Enumeração PathCommandType
@@ -18,12 +18,12 @@ public enum PathCommandType : byte
 
 | Nome | Valor | Descrição |
 | --- | --- | --- |
-| Close | `0` | Fecha o caminho geométrico |
-| MoveTo | `1` | Define a posição do próximo ponto do caminho geométrico |
-| LineTo | `2` | Anexa uma linha ao caminho geométrico |
-| ArcTo | `3` | Anexa o arco especificado ao caminho geométrico. |
-| QuadBezierTo | `4` | Anexa curva Bézier quadrática ao caminho geométrico |
-| CubicBezierTo | `5` | Anexa curva Bézier cúbica ao caminho geométrico |
+| Close | `0` | Fecha o caminho de geometria |
+| MoveTo | `1` | Define a posição do próximo ponto do caminho de geometria |
+| LineTo | `2` | Adiciona linha ao caminho de geometria |
+| ArcTo | `3` | Adiciona o arco especificado ao caminho de geometria. |
+| QuadBezierTo | `4` | Adiciona curva de Bézier quadrática ao caminho de geometria |
+| CubicBezierTo | `5` | Adiciona curva de Bézier cúbica ao caminho de geometria |
 
 ### Veja Também
 

@@ -1,14 +1,14 @@
 ---
 title: IPropertyEffect
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar beteendet för en egenskapseffekt.
+description: Representerar egenskapseffektbeteende.
 type: docs
-weight: 540
+weight: 560
 url: /sv/aspose.slides.animation/ipropertyeffect/
 ---
 ## IPropertyEffect gränssnitt
 
-Representerar beteendet för en egenskapseffekt.
+Represent property effect behavior.
 
 ```csharp
 public interface IPropertyEffect : IBehavior
@@ -16,13 +16,13 @@ public interface IPropertyEffect : IBehavior
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/ipropertyeffect/asibehavior) { get; } | Tillåter att hämta bas IBehavior gränssnittet. Endast läsning [`IBehavior`](../ibehavior). |
+| [AsIBehavior](../../aspose.slides.animation/ipropertyeffect/asibehavior) { get; } | Tillåter att hämta bas-IBehavior-gränssnittet. Skrivskyddad [`IBehavior`](../ibehavior). |
 | [By](../../aspose.slides.animation/ipropertyeffect/by) { get; set; } | Anger ett relativt förskjutningsvärde för animationen i förhållande till dess position före animationens start. Läs/skriv String. |
 | [CalcMode](../../aspose.slides.animation/ipropertyeffect/calcmode) { get; set; } | Anger interpolationsläget för animationen Läs/skriv [`PropertyCalcModeType`](../propertycalcmodetype). |
 | [From](../../aspose.slides.animation/ipropertyeffect/from) { get; set; } | Anger startvärdet för animationen. Läs/skriv String. |
-| [Points](../../aspose.slides.animation/ipropertyeffect/points) { get; set; } | Anger animationens punkter. Läs/skriv [`IPointCollection`](../ipointcollection). |
+| [Points](../../aspose.slides.animation/ipropertyeffect/points) { get; set; } | Anger animeringspunkterna. Läs/skriv [`IPointCollection`](../ipointcollection). |
 | [To](../../aspose.slides.animation/ipropertyeffect/to) { get; set; } | Anger slutvärdet för animationen. Läs/skriv String. |
 | [ValueType](../../aspose.slides.animation/ipropertyeffect/valuetype) { get; set; } | Anger typen av ett egenskapsvärde. Läs/skriv [`PropertyValueType`](../propertyvaluetype). |
 

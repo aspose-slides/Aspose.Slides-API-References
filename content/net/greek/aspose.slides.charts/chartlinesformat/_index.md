@@ -1,14 +1,14 @@
 ---
 title: ChartLinesFormat
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αναπαριστά τις ιδιότητες μορφοποίησης των γραμμών πλέγματος.
+second_title: Aspose.Sildes για .NET API Reference
+description: Αντιπροσωπεύει τις ιδιότητες μορφοποίησης των γραμμών πλέγματος.
 type: docs
-weight: 1390
+weight: 1410
 url: /el/aspose.slides.charts/chartlinesformat/
 ---
 ## ChartLinesFormat κλάση
 
-Αντιπροσωπεύει τις ιδιότητες μορφοποίησης γραμμών πλέγματος.
+Αντιπροσωπεύει τις ιδιότητες μορφοποίησης των γραμμών πλέγματος.
 
 ```csharp
 public class ChartLinesFormat : IChartLinesFormat
@@ -16,14 +16,14 @@ public class ChartLinesFormat : IChartLinesFormat
 
 ## Ιδιότητες
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
 | [Effect](../../aspose.slides.charts/chartlinesformat/effect) { get; } | Επιστρέφει τα εφέ που χρησιμοποιούνται για μια γραμμή διαγράμματος. Μόνο για ανάγνωση [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Line](../../aspose.slides.charts/chartlinesformat/line) { get; } | Επιστρέφει τις ιδιότητες του στυλ γραμμής ενός διαγράμματος. Μόνο για ανάγνωση [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Line](../../aspose.slides.charts/chartlinesformat/line) { get; } | Επιστρέφει ιδιότητες στυλ γραμμής ενός διαγράμματος. Μόνο για ανάγνωση [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### Δείτε επίσης
 
-* διεπαφή [IChartLinesFormat](../ichartlinesformat)
+* διασύνδεση [IChartLinesFormat](../ichartlinesformat)
 * χώρο ονομάτων [Aspose.Slides.Charts](../../aspose.slides.charts)
 * συγκρότηση [Aspose.Slides](../../)
 

@@ -3,10 +3,10 @@ title: IPptxOptions
 second_title: Aspose.Sildes için .NET API Referansı
 description: OpenXml sunumlarını (PPTX, PPSX, POTX, PPTM, PPSM, POTM) kaydetmek için seçenekleri temsil eder.
 type: docs
-weight: 4000
+weight: 4020
 url: /tr/aspose.slides.export/ipptxoptions/
 ---
-## IPptxOptions arayüzü
+## IPptxOptions arayüz
 
 OpenXml sunumlarını (PPTX, PPSX, POTX, PPTM, PPSM, POTM) kaydetmek için seçenekleri temsil eder.
 
@@ -18,11 +18,11 @@ public interface IPptxOptions : ISaveOptions
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ipptxoptions/asisaveoptions) { get; } | Temel ISaveOptions arayüzünü almayı sağlar. Yalnızca okuma [`ISaveOptions`](../isaveoptions). |
-| [CompressionLevel](../../aspose.slides.export/ipptxoptions/compressionlevel) { get; set; } | Sunum belgesi kaydedilirken kullanılan sıkıştırma seviyesini belirtir. Varsayılan değer Level6. |
-| [Conformance](../../aspose.slides.export/ipptxoptions/conformance) { get; set; } | Sunum belgesinin uyduğu uygunluk sınıfını belirtir. Varsayılan değer Ecma376_2006 |
-| [RefreshThumbnail](../../aspose.slides.export/ipptxoptions/refreshthumbnail) { get; set; } | Sunum küçük resminin yenilenip yenilenmeyeceğini belirtir. Okuma/yazma Boolean. Varsayılan değer **true**. |
-| [Zip64Mode](../../aspose.slides.export/ipptxoptions/zip64mode) { get; set; } | Sunum belgesi için ZIP64 formatının kullanılıp kullanılmayacağını belirtir. Varsayılan değer IfNecessary |
+| [AsISaveOptions](../../aspose.slides.export/ipptxoptions/asisaveoptions) { get; } | Temel ISaveOptions arayüzünü almaya izin verir. Salt okunur [`ISaveOptions`](../isaveoptions). |
+| [CompressionLevel](../../aspose.slides.export/ipptxoptions/compressionlevel) { get; set; } | Sunum belgesi kaydedilirken kullanılan sıkıştırma seviyesini belirtir. Varsayılan değer Level6'dır. |
+| [Conformance](../../aspose.slides.export/ipptxoptions/conformance) { get; set; } | Sunum belgesinin uyduğu uyumluluk sınıfını belirtir. Varsayılan değer Ecma376_2006'dır. |
+| [RefreshThumbnail](../../aspose.slides.export/ipptxoptions/refreshthumbnail) { get; set; } | Sunum küçük resminin yenilenip yenilenmeyeceğini belirtir. Okunabilir/Yazılabilir Boolean. Varsayılan değer **true**'dır. |
+| [Zip64Mode](../../aspose.slides.export/ipptxoptions/zip64mode) { get; set; } | Sunum belgesi için ZIP64 formatının kullanılıp kullanılmayacağını belirtir. Varsayılan değer IfNecessary'dur. |
 
 ### Ayrıca Bakınız
 

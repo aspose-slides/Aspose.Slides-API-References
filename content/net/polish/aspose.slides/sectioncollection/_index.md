@@ -3,7 +3,7 @@ title: SectionCollection
 second_title: Aspose.Sildes dla .NET - odniesienie API
 description: Reprezentuje kolekcję sekcji.
 type: docs
-weight: 9740
+weight: 9760
 url: /pl/aspose.slides/sectioncollection/
 ---
 ## SectionCollection klasa
@@ -20,23 +20,23 @@ public sealed class SectionCollection : DomObject<Presentation>, ISectionCollect
 | --- | --- |
 | [Count](../../aspose.slides/sectioncollection/count) { get; } | Zwraca liczbę elementów faktycznie znajdujących się w kolekcji. Tylko do odczytu Int32. |
 | [IsSynchronized](../../aspose.slides/sectioncollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest zsynchronizowany (wątkowo bezpieczny). Tylko do odczytu Boolean. |
-| [Item](../../aspose.slides/sectioncollection/item) { get; } | Zwraca element o określonym indeksie. Tylko do odczytu [`ISection`](../isection). |
+| [Item](../../aspose.slides/sectioncollection/item) { get; } | Zwraca element pod określonym indeksem. Tylko do odczytu [`ISection`](../isection). |
 | [SyncRoot](../../aspose.slides/sectioncollection/syncroot) { get; } | Zwraca korzeń synchronizacji. Tylko do odczytu Object. |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [AddEmptySection](../../aspose.slides/sectioncollection/addemptysection)(string, int) | Dodaje pustą sekcję na określone położenie w kolekcji. |
-| [AddSection](../../aspose.slides/sectioncollection/addsection)(string, ISlide) | Dodaje sekcję slajdów rozpoczętą od określonego slajdu. |
+| [AddEmptySection](../../aspose.slides/sectioncollection/addemptysection)(string, int) | Dodaje pustą sekcję na określone pozycje w kolekcji. |
+| [AddSection](../../aspose.slides/sectioncollection/addsection)(string, ISlide) | Dodaje sekcję slajdów rozpoczynającą się od określonego slajdu. |
 | [AppendEmptySection](../../aspose.slides/sectioncollection/appendemptysection)(string) | Dodaje pustą sekcję na koniec kolekcji. |
 | [Clear](../../aspose.slides/sectioncollection/clear)() | Usuwa wszystkie sekcje z kolekcji. |
 | [CopyTo](../../aspose.slides/sectioncollection/copyto)(Array, int) | Kopiuje całą kolekcję do określonej tablicy. |
 | [GetEnumerator](../../aspose.slides/sectioncollection/getenumerator)() | Zwraca enumerator, który iteruje po kolekcji. |
 | [IndexOf](../../aspose.slides/sectioncollection/indexof)(ISection) | Zwraca indeks określonej sekcji w kolekcji. |
-| [RemoveSection](../../aspose.slides/sectioncollection/removesection)(ISection) | Usuwa sekcję. Slajdy znajdujące się w sekcji zostaną połączone z poprzednią sekcją. |
-| [RemoveSectionWithSlides](../../aspose.slides/sectioncollection/removesectionwithslides)(ISection) | Usuwa sekcję oraz slajdy znajdujące się w sekcji. |
-| [ReorderSectionWithSlides](../../aspose.slides/sectioncollection/reordersectionwithslides)(ISection, int) | Przenosi sekcję i jej slajdy z kolekcji na określone położenie. |
+| [RemoveSection](../../aspose.slides/sectioncollection/removesection)(ISection) | Usuwa sekcję. Slajdy zawarte w sekcji zostaną połączone z poprzednią sekcją. |
+| [RemoveSectionWithSlides](../../aspose.slides/sectioncollection/removesectionwithslides)(ISection) | Usuwa sekcję oraz slajdy zawarte w sekcji. |
+| [ReorderSectionWithSlides](../../aspose.slides/sectioncollection/reordersectionwithslides)(ISection, int) | Przenosi sekcję i jej slajdy z kolekcji na określoną pozycję. |
 
 ### Zobacz także
 

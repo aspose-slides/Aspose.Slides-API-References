@@ -1,9 +1,9 @@
 ---
 title: GifOptions
-second_title: Aspose.Sildes for .NET API hivatkozás
+second_title: Aspose.Sildes a .NET API referenciához
 description: A GIF exportálási beállításokat képviseli.
 type: docs
-weight: 3800
+weight: 3820
 url: /hu/aspose.slides.export/gifoptions/
 ---
 ## GifOptions osztály
@@ -16,27 +16,27 @@ public class GifOptions : SaveOptions, IGifOptions
 
 ## Konstruktorok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [GifOptions](gifoptions)() | Új példányt hoz létre a GifOptions osztályból. |
+| [GifOptions](gifoptions)() | Inicializál egy új GifOptions osztálypéldányt. |
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [DefaultDelay](../../aspose.slides.export/gifoptions/defaultdelay) { get; set; } | Lekéri vagy beállítja az alapértelmezett késleltetési időt [ms]. Ez az érték kerül felhasználásra, ha [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) nincs beállítva. Az alapértelmezett érték 1000. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Lekéri vagy beállítja a betűkészletet, amelyet akkor használ, ha a forrás betűkészlet nem található. Olvasás-írás String. |
-| [ExportHiddenSlides](../../aspose.slides.export/gifoptions/exporthiddenslides) { get; set; } | Meghatározza, hogy a rejtett diák exportálásra kerülnek-e. Az alapértelmezett érték false. |
-| [FrameSize](../../aspose.slides.export/gifoptions/framesize) { get; set; } | Lekéri vagy beállítja a képkocka méretét. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Lekéri vagy beállítja a gradient vizuális stílusát. Olvasás/írás [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Egy visszahívási objektumot képvisel a mentés folyamatának százalékos frissítéseihez. Lásd [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Megadja, hogy a prezentáció mentésekor kihagyja-e a JavaScript hívásokat tartalmazó hiperhivatkozásokat. Olvasás/írás Boolean. Az alapértelmezett érték **false**. |
-| [TransitionFps](../../aspose.slides.export/gifoptions/transitionfps) { get; set; } | Lekéri vagy beállítja az átmenet FPS [frames/sec] értékét. Az alapértelmezett érték 25. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Lekéri vagy beállítja azt az objektumot, amely figyelmeztetéseket kap, és eldönti, hogy a betöltési folyamat folytatódik-e vagy megszakad. Olvasás/írás [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultDelay](../../aspose.slides.export/gifoptions/defaultdelay) { get; set; } | Megkapja vagy beállítja az alapértelmezett késleltetési időt [ms]. Ez az érték lesz használva, ha a [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) nincs beállítva. Az alapértelmezett érték 1000. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Visszaadja vagy beállítja a betűtípust, amely akkor használatos, ha a forrás betűtípus nem található. Olvasás/írás String. |
+| [ExportHiddenSlides](../../aspose.slides.export/gifoptions/exporthiddenslides) { get; set; } | Meghatározza, hogy a rejtett diák exportálva legyenek-e. Az alapértelmezett érték false. |
+| [FrameSize](../../aspose.slides.export/gifoptions/framesize) { get; set; } | Megkapja vagy beállítja a keret méretét. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Visszaadja vagy beállítja a gradient vizuális stílusát. Olvasás/írás [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Egy callback objektumot képvisel a mentési előrehaladás százalékos frissítéseihez. Lásd [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Megadja, hogy a prezentáció mentésekor kihagyja-e a JavaScript hívású hiperhivatkozásokat. Olvasás/írás Boolean. Az alapértelmezett érték **false**. |
+| [TransitionFps](../../aspose.slides.export/gifoptions/transitionfps) { get; set; } | Megkapja vagy beállítja az átmenet FPS értékét [frames/sec]. Az alapértelmezett érték 25. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Visszaadja vagy beállítja azt az objektumot, amely figyelmeztetéseket kap, és eldönti, hogy a betöltési folyamat folytatódjon-e vagy megszakadjon. Olvasás/írás [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Példák
 
-Az alábbi példa bemutatja, hogyan lehet animált GIF-et készíteni egyéni beállításokkal.
+A következő példa bemutatja, hogyan konvertálhatók a prezentációk animált GIF formátumba egyéni beállítások használatával.
 
 ```csharp
 [C#]
@@ -45,8 +45,8 @@ using (Presentation pres = new Presentation("pres.pptx"))
     pres.Save("pres.gif", SaveFormat.Gif, new GifOptions
     {
         FrameSize = new Size(960, 720), // a létrehozott GIF mérete
-        DefaultDelay = 2000, // hogy mennyi ideig jelenik meg minden dia, amíg a következőre vált
-        TransitionFps = 35 // növelje az FPS-t a jobb átmeneti animáció minőségért
+        DefaultDelay = 2000, // mennyi ideig jelenik meg minden dia, amíg a következőre nem vált
+        TransitionFps = 35 // növelje az FPS-t a jobb átmeneti animáció minősége érdekében
     });
 }
 ```

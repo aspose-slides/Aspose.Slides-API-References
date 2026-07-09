@@ -3,12 +3,12 @@ title: IBulletFormat
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar paragrafens bulletformateringsegenskaper.
 type: docs
-weight: 5370
+weight: 5390
 url: /sv/aspose.slides/ibulletformat/
 ---
 ## IBulletFormat gränssnitt
 
-Representerar paragrafens bullet-formateringsegenskaper.
+Representerar egenskaper för stycke-bulletformatering.
 
 ```csharp
 public interface IBulletFormat
@@ -18,27 +18,27 @@ public interface IBulletFormat
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Char](../../aspose.slides/ibulletformat/char) { get; set; } | Returnerar eller anger bullet-tecknet för ett stycke utan arv. Läs/skriv Char. |
-| [Color](../../aspose.slides/ibulletformat/color) { get; } | Returnerar färgformatet för en bullet i ett stycke utan arv. Skrivskyddad [`IColorFormat`](../icolorformat). |
-| [Font](../../aspose.slides/ibulletformat/font) { get; set; } | Returnerar eller anger bullet-typsnittet för ett stycke utan arv. Läs/skriv [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/ibulletformat/height) { get; set; } | Returnerar eller anger bullet-höjden för ett stycke utan arv. Värdet float.NaN betyder att bullet ärver höjden från den första delen i stycket. Läs/skriv Single. |
-| [IsBulletHardColor](../../aspose.slides/ibulletformat/isbullethardcolor) { get; set; } | Avgör om bullet har egen färg eller ärver den från den första delen i stycket. **NullableBool.True** om bullet har egen färg och **NullableBool.False** om bullet ärver färgen från den första delen i stycket. Läs/skriv [`NullableBool`](../nullablebool). |
-| [IsBulletHardFont](../../aspose.slides/ibulletformat/isbullethardfont) { get; set; } | Avgör om bullet har eget typsnitt eller ärver det från den första delen i stycket. **NullableBool.True** om bullet har eget typsnitt och **NullableBool.False** om bullet ärver typsnittet från den första delen i stycket. Läs/skriv [`NullableBool`](../nullablebool). |
-| [NumberedBulletStartWith](../../aspose.slides/ibulletformat/numberedbulletstartwith) { get; set; } | Returnerar eller anger det första numret som används för en grupp numrerade bullets utan arv. Läs/skriv Int16. |
-| [NumberedBulletStyle](../../aspose.slides/ibulletformat/numberedbulletstyle) { get; set; } | Returnerar eller anger stilen för en numrerad bullet utan arv. Läs/skriv [`NumberedBulletStyle`](./numberedbulletstyle). |
-| [Picture](../../aspose.slides/ibulletformat/picture) { get; } | Returnerar bilden som används som bullet i ett stycke utan arv. Skrivskyddad [`ISlidesPicture`](../islidespicture). |
-| [Type](../../aspose.slides/ibulletformat/type) { get; set; } | Returnerar eller anger bullet-typen för ett stycke utan arv. Läs/skriv [`BulletType`](../bullettype). |
+| [Char](../../aspose.slides/ibulletformat/char) { get; set; } | Returnerar eller anger bullet-tecknet för ett stycke utan ärvning. Läs/skriv Char. |
+| [Color](../../aspose.slides/ibulletformat/color) { get; } | Returnerar färgformatet för en bullet i ett stycke utan ärvning. Endast läs [`IColorFormat`](../icolorformat). |
+| [Font](../../aspose.slides/ibulletformat/font) { get; set; } | Returnerar eller anger bullet-typsnittet för ett stycke utan ärvning. Läs/skriv [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/ibulletformat/height) { get; set; } | Returnerar eller anger bullet-höjden för ett stycke utan ärvning. Värdet float.NaN bestämmer att bullet ärver höjd från den första delen i stycket. Läs/skriv Single. |
+| [IsBulletHardColor](../../aspose.slides/ibulletformat/isbullethardcolor) { get; set; } | Bestämmer om bullet har egen färg eller ärver den från den första delen i stycket. **NullableBool.True** om bullet har egen färg och **NullableBool.False** om bullet ärver färg från den första delen i stycket. Läs/skriv [`NullableBool`](../nullablebool). |
+| [IsBulletHardFont](../../aspose.slides/ibulletformat/isbullethardfont) { get; set; } | Bestämmer om bullet har eget typsnitt eller ärver det från den första delen i stycket. **NullableBool.True** om bullet har eget typsnitt och **NullableBool.False** om bullet ärver typsnitt från den första delen i stycket. Läs/skriv [`NullableBool`](../nullablebool). |
+| [NumberedBulletStartWith](../../aspose.slides/ibulletformat/numberedbulletstartwith) { get; set; } | Returnerar eller anger det första numret som används för en grupp numrerade bullets utan ärvning. Läs/skriv Int16. |
+| [NumberedBulletStyle](../../aspose.slides/ibulletformat/numberedbulletstyle) { get; set; } | Returnerar eller anger stilen för en numrerad bullet utan ärvning. Läs/skriv [`NumberedBulletStyle`](./numberedbulletstyle). |
+| [Picture](../../aspose.slides/ibulletformat/picture) { get; } | Returnerar bilden som används som bullet i ett stycke utan ärvning. Endast läs [`ISlidesPicture`](../islidespicture). |
+| [Type](../../aspose.slides/ibulletformat/type) { get; set; } | Returnerar eller anger bullet-typen för ett stycke utan ärvning. Läs/skriv [`BulletType`](../bullettype). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/ibulletformat/applydefaultparagraphindentsshifts)() | Ställer in standard icke-noll förskjutningar för effektiv stycke-Indent och MarginLeft när bullets är aktiverade (som PowerPoint gör om man aktiverar styckebullets/numrering i det). Om bullets är inaktiverade återställs bara stycke-Indent och MarginLeft (som PowerPoint gör om man inaktiverar styckebullets/numrering i det). Indent-förskjutningar tillämpas i förhållande till den aktuella bullet-kontexten – IBulletFormat.Type, .NumberedBulletStyle och FontHeight för den första delen. Icke-noll indent-förskjutningar tillämpas på effektiv Indent och MarginLeft för det aktuella stycket (gör resultatvärdena lokala). |
-| [GetEffective](../../aspose.slides/ibulletformat/geteffective)() | Returnerar effektiv bullet-formateringsdata med arv tillämpat. |
+| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/ibulletformat/applydefaultparagraphindentsshifts)() | Ställer in standard icke-nollförskjutningar för effektiv stycke-Indent och MarginLeft när bullets är aktiverade (som PowerPoint gör om du aktiverar styckebullets/nummerering). Om bullets är inaktiverade återställs bara stycke-Indent och MarginLeft (som PowerPoint gör om du inaktiverar styckebullets/nummerering). Indragförskjutningar tillämpas med hänsyn till aktuellt bullet-sammanhang – IBulletFormat.Type, .NumberedBulletStyle och FontHeight för den första delen. Icke-noll förskjutningar tillämpas på effektiv Indent och MarginLeft för det aktuella stycket (gör resultatvärdena till lokala värden). |
+| [GetEffective](../../aspose.slides/ibulletformat/geteffective)() | Hämtar effektiv bullet-formateringsdata med ärvning tillämpad. |
 
 ### Se även
 
 * namnrymd [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* samling [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

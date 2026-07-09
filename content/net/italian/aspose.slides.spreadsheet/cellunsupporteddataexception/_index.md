@@ -1,14 +1,14 @@
 ---
 title: CellUnsupportedDataException
-second_title: Riferimento API Aspose.Sildes per .NET
-description: L'eccezione che viene generata quando viene incontrato un dato non supportato in una cella di un foglio di calcolo.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: L'eccezione che viene lanciata quando viene incontrato un dato non supportato in una cella di foglio di calcolo.
 type: docs
-weight: 10710
+weight: 10730
 url: /it/aspose.slides.spreadsheet/cellunsupporteddataexception/
 ---
 ## CellUnsupportedDataException classe
 
-L'eccezione che viene generata quando viene incontrato un dato non supportato in una cella di un foglio di calcolo.
+L'eccezione che viene lanciata quando viene incontrato un dato non supportato in una cella di foglio di calcolo.
 
 ```csharp
 public class CellUnsupportedDataException : PptxEditException

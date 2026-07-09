@@ -1,9 +1,9 @@
 ---
 title: IParagraphFactory
-second_title: Aspose.Sildes の .NET API リファレンス
-description: 段落を作成することができます
+second_title: Aspose.Sildes for .NET API リファレンス
+description: 段落の作成を可能にします
 type: docs
-weight: 6560
+weight: 6580
 url: /ja/aspose.slides/iparagraphfactory/
 ---
 ## IParagraphFactory インターフェイス

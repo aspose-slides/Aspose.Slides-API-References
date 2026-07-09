@@ -1,9 +1,9 @@
 ---
 title: SlidesRange
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET API Referencja
 description: Zakres slajdów
 type: docs
-weight: 10510
+weight: 10530
 url: /pl/aspose.slides/slidesrange/
 ---
 ## SlidesRange klasa
@@ -18,7 +18,7 @@ public class SlidesRange
 
 | Nazwa | Opis |
 | --- | --- |
-| [SlidesRange](slidesrange)() | Domyślny konstruktor. |
+| [SlidesRange](slidesrange)() | Konstruktor domyślny. |
 
 ## Właściwości
 

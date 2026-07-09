@@ -1,14 +1,14 @@
 ---
 title: IEffectFormat
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar formens effektsegenskaper.
+description: Representerar effektegenskaper för form.
 type: docs
-weight: 5720
+weight: 5740
 url: /sv/aspose.slides/ieffectformat/
 ---
 ## IEffectFormat gränssnitt
 
-Representerar formens effektsegenskaper.
+Representerar effektegenskaper för form.
 
 ```csharp
 public interface IEffectFormat : IEffectParamSource
@@ -16,40 +16,40 @@ public interface IEffectFormat : IEffectParamSource
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
 | [AsIEffectParamSource](../../aspose.slides/ieffectformat/asieffectparamsource) { get; } | Tillåter att hämta bas-IEffectParamSource-gränssnittet. Skrivskyddad [`IEffectParamSource`](../ieffectparamsource). |
-| [BlurEffect](../../aspose.slides/ieffectformat/blureffect) { get; set; } | Oskärpeffekt. Läs/skriv [`IBlur`](../../aspose.slides.effects/iblur). |
-| [FillOverlayEffect](../../aspose.slides/ieffectformat/filloverlayeffect) { get; set; } | Fyllnadsöverlappningseffekt. Läs/skriv [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
-| [GlowEffect](../../aspose.slides/ieffectformat/gloweffect) { get; set; } | Glödseffekt. Läs/skriv [`IGlow`](../../aspose.slides.effects/iglow). |
+| [BlurEffect](../../aspose.slides/ieffectformat/blureffect) { get; set; } | Oskärpeeffekt. Läs/skriv [`IBlur`](../../aspose.slides.effects/iblur). |
+| [FillOverlayEffect](../../aspose.slides/ieffectformat/filloverlayeffect) { get; set; } | Fill overlay-effekt. Läs/skriv [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
+| [GlowEffect](../../aspose.slides/ieffectformat/gloweffect) { get; set; } | Glow-effekt. Läs/skriv [`IGlow`](../../aspose.slides.effects/iglow). |
 | [InnerShadowEffect](../../aspose.slides/ieffectformat/innershadoweffect) { get; set; } | Inre skugga. Läs/skriv [`IInnerShadow`](../../aspose.slides.effects/iinnershadow). |
 | [IsNoEffects](../../aspose.slides/ieffectformat/isnoeffects) { get; } | Returnerar true om alla effekter är inaktiverade (som precis skapad, standard EffectFormat-objekt). Skrivskyddad Boolean. |
 | [OuterShadowEffect](../../aspose.slides/ieffectformat/outershadoweffect) { get; set; } | Yttre skugga. Läs/skriv [`IOuterShadow`](../../aspose.slides.effects/ioutershadow). |
 | [PresetShadowEffect](../../aspose.slides/ieffectformat/presetshadoweffect) { get; set; } | Förinställd skugga. Läs/skriv [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow). |
-| [ReflectionEffect](../../aspose.slides/ieffectformat/reflectioneffect) { get; set; } | Reflektion. Läs/skriv [`IReflection`](../../aspose.slides.effects/ireflection). |
+| [ReflectionEffect](../../aspose.slides/ieffectformat/reflectioneffect) { get; set; } | Reflexion. Läs/skriv [`IReflection`](../../aspose.slides.effects/ireflection). |
 | [SoftEdgeEffect](../../aspose.slides/ieffectformat/softedgeeffect) { get; set; } | Mjuk kant. Läs/skriv [`ISoftEdge`](../../aspose.slides.effects/isoftedge). |
 
 ## Metoder
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [DisableBlurEffect](../../aspose.slides/ieffectformat/disableblureffect)() | Inaktiverar oskärpeffekt. |
-| [DisableFillOverlayEffect](../../aspose.slides/ieffectformat/disablefilloverlayeffect)() | Inaktiverar fyllnadsöverlappningseffekt. |
-| [DisableGlowEffect](../../aspose.slides/ieffectformat/disablegloweffect)() | Inaktiverar glödseffekt. |
+| [DisableBlurEffect](../../aspose.slides/ieffectformat/disableblureffect)() | Inaktiverar oskärpeeffekt. |
+| [DisableFillOverlayEffect](../../aspose.slides/ieffectformat/disablefilloverlayeffect)() | Inaktiverar fill overlay-effekt. |
+| [DisableGlowEffect](../../aspose.slides/ieffectformat/disablegloweffect)() | Inaktiverar glow-effekt. |
 | [DisableInnerShadowEffect](../../aspose.slides/ieffectformat/disableinnershadoweffect)() | Inaktiverar inre skuggeffekt. |
 | [DisableOuterShadowEffect](../../aspose.slides/ieffectformat/disableoutershadoweffect)() | Inaktiverar yttre skuggeffekt. |
 | [DisablePresetShadowEffect](../../aspose.slides/ieffectformat/disablepresetshadoweffect)() | Inaktiverar förinställd skuggeffekt. |
-| [DisableReflectionEffect](../../aspose.slides/ieffectformat/disablereflectioneffect)() | Inaktiverar reflektionseffekt. |
-| [DisableSoftEdgeEffect](../../aspose.slides/ieffectformat/disablesoftedgeeffect)() | Inaktiverar mjuk kantseffekt. |
-| [EnableFillOverlayEffect](../../aspose.slides/ieffectformat/enablefilloverlayeffect)() | Aktiverar fyllnadsöverlappningseffekt. |
-| [EnableGlowEffect](../../aspose.slides/ieffectformat/enablegloweffect)() | Aktiverar glödseffekt. |
+| [DisableReflectionEffect](../../aspose.slides/ieffectformat/disablereflectioneffect)() | Inaktiverar reflektions-effekt. |
+| [DisableSoftEdgeEffect](../../aspose.slides/ieffectformat/disablesoftedgeeffect)() | Inaktiverar mjuk kant-effekt. |
+| [EnableFillOverlayEffect](../../aspose.slides/ieffectformat/enablefilloverlayeffect)() | Aktiverar fill overlay-effekt. |
+| [EnableGlowEffect](../../aspose.slides/ieffectformat/enablegloweffect)() | Aktiverar glow-effekt. |
 | [EnableInnerShadowEffect](../../aspose.slides/ieffectformat/enableinnershadoweffect)() | Aktiverar inre skuggeffekt. |
 | [EnableOuterShadowEffect](../../aspose.slides/ieffectformat/enableoutershadoweffect)() | Aktiverar yttre skuggeffekt. |
 | [EnablePresetShadowEffect](../../aspose.slides/ieffectformat/enablepresetshadoweffect)() | Aktiverar förinställda skuggor. |
-| [EnableReflectionEffect](../../aspose.slides/ieffectformat/enablereflectioneffect)() | Aktiverar reflektionseffekt. |
-| [EnableSoftEdgeEffect](../../aspose.slides/ieffectformat/enablesoftedgeeffect)() | Aktiverar mjuk kantseffekt. |
-| [GetEffective](../../aspose.slides/ieffectformat/geteffective)() | Hämtar effektiv effektformateringsdata med arv tillämpat. |
-| [SetBlurEffect](../../aspose.slides/ieffectformat/setblureffect)(double, bool) | Ställer in oskärpeffekt. |
+| [EnableReflectionEffect](../../aspose.slides/ieffectformat/enablereflectioneffect)() | Aktiverar reflektions-effekt. |
+| [EnableSoftEdgeEffect](../../aspose.slides/ieffectformat/enablesoftedgeeffect)() | Aktiverar mjuk kant-effekt. |
+| [GetEffective](../../aspose.slides/ieffectformat/geteffective)() | Hämtar effektiv effektformateringsdata med ärftlighet tillämpad. |
+| [SetBlurEffect](../../aspose.slides/ieffectformat/setblureffect)(double, bool) | Ställer in oskärpeeffekt. |
 
 ### Se även
 

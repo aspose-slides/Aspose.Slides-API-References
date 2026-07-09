@@ -1,14 +1,14 @@
 ---
 title: IBaseHandoutNotesSlideHeaderFooterManag
-second_title: Aspose.Sildes pro .NET – referenční dokumentace API
-description: Představuje správce, který obsahuje chování zástupných symbolů, včetně zástupného symbolu záhlaví pro všechny typy handout a notes snímků.
+second_title: Aspose.Sildes pro .NET API
+description: Představuje správce, který obsahuje chování zástupných symbolů, včetně zástupného symbolu záhlaví pro všechny typy podkladových a poznámkových snímků.
 type: docs
-weight: 5270
+weight: 5290
 url: /cs/aspose.slides/ibasehandoutnotesslideheaderfootermanag/
 ---
 ## IBaseHandoutNotesSlideHeaderFooterManag rozhraní
 
-Představuje správce, který obsahuje chování zástupných symbolů, včetně zástupného symbolu záhlaví pro všechny typy handout a notes snímků.
+Představuje správce, který drží chování zástupných symbolů, včetně zástupného symbolu záhlaví pro všechny typy podkladových a poznámkových snímků.
 
 ```csharp
 public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFooterManager
@@ -16,21 +16,21 @@ public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFoote
 
 ## Vlastnosti
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
 | [AsIBaseSlideHeaderFooterManager](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/asibaseslideheaderfootermanager) { get; } | Vrací rozhraní IBaseSlideHeaderFooterManager. |
-| [IsHeaderVisible](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible) { get; } | Získá hodnotu, která označuje, že zástupný symbol záhlaví je přítomen. Čte Boolean. |
+| [IsHeaderVisible](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible) { get; } | Získává hodnotu indikující, že je přítomen zástupný symbol záhlaví. Čte Boolean. |
 
 ## Metody
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
 | [SetHeaderText](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadertext)(string) | Nastaví text do zástupného symbolu záhlaví snímku. |
 | [SetHeaderVisibility](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadervisibility)(bool) | Změní viditelnost zástupného symbolu záhlaví snímku. |
 
 ### Poznámky
 
-Původní název rozhraní „IBaseHandoutNotesSlideHeaderFooterManager“ byl zkrácen na „IBaseHandoutNotesSlideHeaderFooterManag“ kvůli kompatibilitě s COM (délka názvu typu nesmí být delší než 39).
+Původní název rozhraní "IBaseHandoutNotesSlideHeaderFooterManager" byl zkrácen na "IBaseHandoutNotesSlideHeaderFooterManag" pro kompatibilitu s COM (délka názvu typu nesmí být delší než 39).
 
 ### Viz také
 

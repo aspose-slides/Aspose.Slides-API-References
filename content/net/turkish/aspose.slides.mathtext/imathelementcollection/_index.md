@@ -1,14 +1,14 @@
 ---
 title: IMathElementCollection
-second_title: Aspose.Slides için .NET API Referansı
-description: Matematiksel öğelerin bir koleksiyonunu temsil eder MathElement.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Matematik öğeleri MathElement'in bir koleksiyonunu temsil eder.
 type: docs
-weight: 8220
+weight: 8240
 url: /tr/aspose.slides.mathtext/imathelementcollection/
 ---
 ## IMathElementCollection arayüzü
 
-Matematiksel öğeler (MathElement) koleksiyonunu temsil eder.
+Matematik öğelerinin (MathElement) bir koleksiyonunu temsil eder.
 
 ```csharp
 public interface IMathElementCollection : IEnumerable<IMathElement>
@@ -16,28 +16,28 @@ public interface IMathElementCollection : IEnumerable<IMathElement>
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.mathtext/imathelementcollection/asienumerable) { get; } | IEnumerable arabirimini döndürür. Yalnızca okuma IEnumerable. |
-| [Count](../../aspose.slides.mathtext/imathelementcollection/count) { get; } | Koleksiyonda gerçekten bulunan öğe sayısını alır. Yalnızca okuma Int32. |
-| [Item](../../aspose.slides.mathtext/imathelementcollection/item) { get; } | Belirtilen indeksdeki öğeyi alır. Yalnızca okuma [`IMathElement`](../imathelement). |
+| [AsIEnumerable](../../aspose.slides.mathtext/imathelementcollection/asienumerable) { get; } | IEnumerable arabirimini döndürür. Salt-okunur IEnumerable. |
+| [Count](../../aspose.slides.mathtext/imathelementcollection/count) { get; } | Koleksiyonda gerçekten bulunan öğe sayısını alır. Salt-okunur Int32. |
+| [Item](../../aspose.slides.mathtext/imathelementcollection/item) { get; } | Belirtilen indeksteki öğeyi alır. Salt-okunur [`IMathElement`](../imathelement). |
 
 ## Yöntemler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [Add](../../aspose.slides.mathtext/imathelementcollection/add)(IMathElement) | Bir matematik öğesini koleksiyonun sonuna ekler. |
+| [Add](../../aspose.slides.mathtext/imathelementcollection/add)(IMathElement) | Koleksiyonun sonuna bir matematik öğesi ekler. |
 | [Clear](../../aspose.slides.mathtext/imathelementcollection/clear)() | Koleksiyondaki tüm öğeleri kaldırır. |
 | [Contains](../../aspose.slides.mathtext/imathelementcollection/contains)(IMathElement) | Koleksiyonun belirli bir değeri içerip içermediğini belirler. |
 | [CopyTo](../../aspose.slides.mathtext/imathelementcollection/copyto)(IMathElement[], int) | Belirtilen diziye kopyalar. |
-| [IndexOf](../../aspose.slides.mathtext/imathelementcollection/indexof)(IMathElement) | Koleksiyonda belirli bir matematik öğesinin dizinini belirler. |
+| [IndexOf](../../aspose.slides.mathtext/imathelementcollection/indexof)(IMathElement) | Koleksiyonda belirli bir matematik öğesinin indeksini belirler. |
 | [Insert](../../aspose.slides.mathtext/imathelementcollection/insert)(int, IMathElement) | Belirtilen indekste bir matematik öğesini koleksiyona ekler. |
 | [Remove](../../aspose.slides.mathtext/imathelementcollection/remove)(IMathElement) | Koleksiyondan belirli bir nesnenin ilk oluşumunu kaldırır. |
-| [RemoveAt](../../aspose.slides.mathtext/imathelementcollection/removeat)(int) | Koleksiyonun belirtilen indeksindeki öğeyi kaldırır. |
+| [RemoveAt](../../aspose.slides.mathtext/imathelementcollection/removeat)(int) | Koleksiyondaki belirtilen indeksteki öğeyi kaldırır. |
 
 ### Örnekler
 
-Örnek:
+Example:
 
 ```csharp
 [C#]

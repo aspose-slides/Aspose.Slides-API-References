@@ -1,14 +1,14 @@
 ---
 title: TextCapType
-second_title: Aspose.Sildes for .NET API リファレンス
-description: テキストの大文字化タイプを表します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: テキストの大文字化のタイプを表します。
 type: docs
-weight: 10910
+weight: 10930
 url: /ja/aspose.slides/textcaptype/
 ---
 ## TextCapType 列挙型
 
-テキストの大文字化タイプを表します。
+テキストの大文字化のタイプを表します。
 
 ```csharp
 public enum TextCapType : sbyte

@@ -1,25 +1,25 @@
 ---
 title: PptReadException
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar ett undantag som kastas vid läsfel i presentationer.
+description: Representerar ett undantag som kastas vid fel vid läsning av presentation.
 type: docs
-weight: 9510
+weight: 9530
 url: /sv/aspose.slides/pptreadexception/
 ---
 ## PptReadException klass
 
-Representerar ett undantag som kastas vid läsfel i presentationer.
+Representerar ett undantag som kastas vid fel vid läsning av presentation.
 
 ```csharp
 public class PptReadException : PptException
 ```
 
-## Konstruktörer
+## Konstruktorer
 
 | Namn | Beskrivning |
 | --- | --- |
-| [PptReadException](pptreadexception#constructor)() | Standardkonstruktör. |
-| [PptReadException](pptreadexception#constructor_1)(string) | Konstruktor som tillåter ett meddelande att läggas till i detta undantag. |
+| [PptReadException](pptreadexception#constructor)() | Standardkonstruktor. |
+| [PptReadException](pptreadexception#constructor_1)(string) | Konstruktor som tillåter att ett meddelande läggs till i detta undantag. |
 | [PptReadException](pptreadexception#constructor_2)(string, Exception) | Konstruktor för ett undantag som innehåller ett meddelande och ett inbäddat undantag. |
 
 ### Se även

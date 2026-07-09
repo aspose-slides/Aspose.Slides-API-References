@@ -1,14 +1,14 @@
 ---
 title: ISummaryZoomSection
-second_title: Aspose.Sildes dla .NET Dokumentacja API
-description: Reprezentuje obiekt sekcji podsumowania powiększenia w ramce podsumowania powiększenia.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Reprezentuje obiekt Summary Zoom Section w ramce Summary Zoom.
 type: docs
-weight: 7140
+weight: 7160
 url: /pl/aspose.slides/isummaryzoomsection/
 ---
 ## ISummaryZoomSection interfejs
 
-Reprezentuje obiekt sekcji podsumowania powiększenia w ramce podsumowania powiększenia.
+Reprezentuje obiekt Summary Zoom Section w ramce Summary Zoom.
 
 ```csharp
 public interface ISummaryZoomSection : ISectionZoomFrame
@@ -19,8 +19,8 @@ public interface ISummaryZoomSection : ISectionZoomFrame
 | Nazwa | Opis |
 | --- | --- |
 | [AsISectionZoomFrame](../../aspose.slides/isummaryzoomsection/asisectionzoomframe) { get; } | Zwraca interfejs ISectionZoomFrame. |
-| [Description](../../aspose.slides/isummaryzoomsection/description) { get; set; } | Zwraca opis tekstowy obiektu sekcji podsumowania powiększenia. |
-| [Title](../../aspose.slides/isummaryzoomsection/title) { get; set; } | Zwraca tytuł tekstowy obiektu sekcji podsumowania powiększenia. |
+| [Description](../../aspose.slides/isummaryzoomsection/description) { get; set; } | Zwraca opis tekstowy obiektu Summary Zoom Section. |
+| [Title](../../aspose.slides/isummaryzoomsection/title) { get; set; } | Zwraca tytuł tekstowy obiektu Summary Zoom Section. |
 
 ### Zobacz także
 

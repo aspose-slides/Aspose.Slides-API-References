@@ -1,14 +1,14 @@
 ---
 title: RenderingOptions
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Menyediakan opsi yang mengontrol cara presentasi/slide dirender.
+description: Menyediakan opsi yang mengontrol bagaimana presentasi/slide dirender.
 type: docs
-weight: 4390
+weight: 4410
 url: /id/aspose.slides.export/renderingoptions/
 ---
 ## RenderingOptions kelas
 
-Memberikan opsi yang mengontrol cara presentasi/slide dirender.
+Menyediakan opsi yang mengontrol bagaimana presentasi/slide dirender.
 
 ```csharp
 public class RenderingOptions : SaveOptions, IRenderingOptions
@@ -16,22 +16,22 @@ public class RenderingOptions : SaveOptions, IRenderingOptions
 
 ## Konstruktor
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [RenderingOptions](renderingoptions)() | Konstruktor default. |
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Mengembalikan atau mengatur font yang digunakan jika font sumber tidak ditemukan. Baca-tulis String. |
-| [DisableFontLigatures](../../aspose.slides.export/renderingoptions/disablefontligatures) { get; set; } | Mendapatkan atau mengatur nilai yang menunjukkan apakah teks dirender tanpa menggunakan ligatur. Ketika disetel ke `true`, ligatur akan dinonaktifkan dalam keluaran yang dirender. Secara default, properti ini disetel ke `false`. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Mengembalikan atau mengatur gaya visual gradien. Baca/tulis [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [InkOptions](../../aspose.slides.export/renderingoptions/inkoptions) { get; } | Memberikan opsi yang mengontrol tampilan objek Ink dalam dokumen yang diekspor. Hanya-baca [`IInkOptions`](../iinkoptions) |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Mengembalikan atau mengatur font yang digunakan bila font sumber tidak ditemukan. Baca-tulis String. |
+| [DisableFontLigatures](../../aspose.slides.export/renderingoptions/disablefontligatures) { get; set; } | Mengambil atau mengatur nilai yang menunjukkan apakah teks dirender tanpa menggunakan ligatur. Ketika diatur ke `true`, ligatur akan dinonaktifkan dalam output yang dirender. Secara default, properti ini diatur ke `false`. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Mengembalikan atau mengatur gaya visual gradien. Baca-tulis [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [InkOptions](../../aspose.slides.export/renderingoptions/inkoptions) { get; } | Menyediakan opsi yang mengontrol tampilan objek Ink dalam dokumen yang diekspor. Hanya-baca [`IInkOptions`](../iinkoptions) |
 | [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Mewakili objek callback untuk menyimpan pembaruan kemajuan dalam persentase. Lihat [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Menentukan apakah akan melewatkan hyperlink dengan panggilan JavaScript saat menyimpan presentasi. Baca/tulis Boolean. Nilai default adalah **false**. |
-| [SlidesLayoutOptions](../../aspose.slides.export/renderingoptions/slideslayoutoptions) { get; set; } | Mendapatkan atau mengatur mode penempatan slide pada halaman saat mengekspor presentasi [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Mengembalikan atau mengatur objek yang menerima peringatan dan memutuskan apakah proses pemuatan akan dilanjutkan atau dibatalkan. Baca/tulis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Menentukan apakah akan melewatkan hyperlink dengan panggilan JavaScript saat menyimpan presentasi. Baca-tulis Boolean. Nilai default adalah **false**. |
+| [SlidesLayoutOptions](../../aspose.slides.export/renderingoptions/slideslayoutoptions) { get; set; } | Mengambil atau mengatur mode di mana slide ditempatkan pada halaman saat mengekspor presentasi [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Mengembalikan atau mengatur objek yang menerima peringatan dan memutuskan apakah proses pemuatan akan dilanjutkan atau dibatalkan. Baca-tulis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Contoh
 
@@ -56,7 +56,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 * kelas [SaveOptions](../saveoptions)
 * antarmuka [IRenderingOptions](../irenderingoptions)
-* ruangnama [Aspose.Slides.Export](../../aspose.slides.export)
+* ruang nama [Aspose.Slides.Export](../../aspose.slides.export)
 * rakitan [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

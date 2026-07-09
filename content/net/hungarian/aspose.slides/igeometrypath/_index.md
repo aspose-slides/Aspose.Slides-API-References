@@ -1,14 +1,14 @@
 ---
 title: IGeometryPath
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes .NET API Referenciája
 description: A GeometryShape geometriai útvonalát reprezentálja
 type: docs
-weight: 5950
+weight: 5970
 url: /hu/aspose.slides/igeometrypath/
 ---
 ## IGeometryPath interfész
 
-A GeometryShape geometriai útvonalát reprezentálja
+Represents geometry path of GeometryShape
 
 ```csharp
 public interface IGeometryPath
@@ -16,33 +16,33 @@ public interface IGeometryPath
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
 | [FillMode](../../aspose.slides/igeometrypath/fillmode) { get; set; } | Beállítja a kitöltési módot |
-| [PathData](../../aspose.slides/igeometrypath/pathdata) { get; } | Visszaadja a GeometryShape geometriai útvonalát útvonal szegmensek tömbjeként. |
+| [PathData](../../aspose.slides/igeometrypath/pathdata) { get; } | Visszaadja a GeometryShape geometriai útvonalát útvonal-szegmensek tömbjeként. |
 | [Stroke](../../aspose.slides/igeometrypath/stroke) { get; set; } | Beállítja a vonal megjelenését |
 
-## Metódusok
+## Módszerek
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
 | [ArcTo](../../aspose.slides/igeometrypath/arcto)(float, float, float, float) | A megadott ívet hozzáfűzi az útvonalhoz. |
-| [CloseFigure](../../aspose.slides/igeometrypath/closefigure)() | Lezárja az útvonal jelenlegi alakzatát |
+| [CloseFigure](../../aspose.slides/igeometrypath/closefigure)() | Bezárja a jelenlegi alakzatot ezen az útvonalon |
 | [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | Köbös Bézier-görbét ad hozzá az útvonal végéhez |
-| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | Köbös Bézier-görbét ad a megadott helyen az útvonalhoz |
+| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | Köbös Bézier-görbét ad a megadott helyre az útvonalon |
 | [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | Köbös Bézier-görbét ad hozzá az útvonal végéhez |
-| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | Köbös Bézier-görbét ad a megadott helyen az útvonalhoz |
+| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | Köbös Bézier-görbét ad a megadott helyre az útvonalon |
 | [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_2)(PointF) | Vonalat ad hozzá az útvonal végéhez |
 | [LineTo](../../aspose.slides/igeometrypath/lineto#lineto)(float, float) | Vonalat ad hozzá az útvonal végéhez |
-| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_3)(PointF, uint) | Vonalat ad a megadott helyen az útvonalhoz |
-| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_1)(float, float, uint) | Vonalat ad a megadott helyen az útvonalhoz |
+| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_3)(PointF, uint) | Vonalat ad a megadott helyre az útvonalon |
+| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_1)(float, float, uint) | Vonalat ad a megadott helyre az útvonalon |
 | [MoveTo](../../aspose.slides/igeometrypath/moveto#moveto_1)(PointF) | Beállítja a következő pont pozícióját. |
 | [MoveTo](../../aspose.slides/igeometrypath/moveto#moveto)(float, float) | Beállítja a következő pont pozícióját. |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | Kétfokú Bézier-görbét ad hozzá az útvonal végéhez |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | Kétfokú Bézier-görbét ad a megadott helyen az útvonalhoz |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | Kétfokú Bézier-görbét ad hozzá az útvonal végéhez |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | Kétfokú Bézier-görbét ad a megadott helyen az útvonalhoz |
-| [RemoveAt](../../aspose.slides/igeometrypath/removeat)(int) | Eltávolítja a szegmenyt a geometriai útvonal megadott indexén. |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | Kvadratikus Bézier-görbét ad hozzá az útvonal végéhez |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | Kvadratikus Bézier-görbét ad a megadott helyre az útvonalon |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | Kvadratikus Bézier-görbét ad hozzá az útvonal végéhez |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | Kvadratikus Bézier-görbét ad a megadott helyre az útvonalon |
+| [RemoveAt](../../aspose.slides/igeometrypath/removeat)(int) | Eltávolítja a szegmenst a geometriai útvonal megadott indexén. |
 
 ### Lásd még
 

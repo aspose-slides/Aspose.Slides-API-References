@@ -1,14 +1,14 @@
 ---
 title: BubbleSizeRepresentationType
-second_title: Aspose.Sildes a .NET API hivatkozáshoz
-description: Megadja az adat buborékdiagramméretekként történő ábrázolásának lehetséges módjait.
+second_title: Aspose.Sildes .NET API referencia
+description: Megadja az adat buborékdiagram-méretekként való ábrázolásának lehetséges módjait.
 type: docs
-weight: 1210
+weight: 1230
 url: /hu/aspose.slides.charts/bubblesizerepresentationtype/
 ---
-## BubbleSizeRepresentationType enumeráció
+## BubbleSizeRepresentationType felsorolás
 
-Meghatározza a lehetséges módokat az adatok buborékdiagramméreteként való ábrázolásra.
+Megadja az adat buborékdiagram-méretekként való ábrázolásának lehetséges módjait.
 
 ```csharp
 public enum BubbleSizeRepresentationType
@@ -18,8 +18,8 @@ public enum BubbleSizeRepresentationType
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Area | `0` | Meghatározza, hogy a buborékok területe arányos legyen a buborékméret értékkel. |
-| Width | `1` | Meghatározza, hogy a buborékok sugara arányos legyen a buborékméret értékkel. |
+| Area | `0` | Megadja, hogy a buborékok területe arányos legyen a buborékméret értékével. |
+| Width | `1` | Megadja, hogy a buborékok sugara arányos legyen a buborékméret értékével. |
 
 ### Lásd még
 

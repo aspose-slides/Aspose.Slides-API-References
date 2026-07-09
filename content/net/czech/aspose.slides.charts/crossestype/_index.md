@@ -1,14 +1,14 @@
 ---
 title: CrossesType
 second_title: Aspose.Sildes pro .NET API Reference
-description: Určuje, kde osa protne.
+description: Určuje, kde se osa protne.
 type: docs
-weight: 1520
+weight: 1540
 url: /cs/aspose.slides.charts/crossestype/
 ---
-## enumerace CrossesType
+## CrossesType výčet
 
-Určuje, kde osa protne.
+Určuje, kde se osa protne.
 
 ```csharp
 public enum CrossesType
@@ -18,8 +18,8 @@ public enum CrossesType
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| AxisCrossesAtZero | `0` | Osa kategorie protne v nulovém bodě osy hodnot (pokud je to možné), nebo v minimální hodnotě (pokud je minimum větší než nula) nebo v maximální hodnotě (pokud je maximum menší než nula). |
-| Maximum | `1` | Osa protne v maximální hodnotě. |
+| AxisCrossesAtZero | `0` | Osou kategorií se protne v nule hodnotové osy (pokud je to možné), nebo v minimální hodnotě (pokud je minimum vyšší než nula) nebo v maximální (pokud je maximum menší než nula). |
+| Maximum | `1` | Osa se protne v maximální hodnotě. |
 | Custom | `2` | Vlastní hodnota z vlastnosti CrossAt |
 
 ### Viz také

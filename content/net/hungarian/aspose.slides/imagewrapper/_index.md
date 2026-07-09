@@ -1,14 +1,14 @@
 ---
 title: ImageWrapper
-second_title: Aspose.Sildes .NET API Referencia
-description: System.Drawing.Image burkoló a COM interfészhez.
+second_title: Aspose.Sildes .NET API referencia
+description: System.Drawing.Image wrapper a COM interfészhez.
 type: docs
-weight: 7420
+weight: 7440
 url: /hu/aspose.slides/imagewrapper/
 ---
 ## ImageWrapper osztály
 
-System.Drawing.Image burkoló a COM interfészhez.
+System.Drawing.Image wrapper for COM interface.
 
 ```csharp
 public class ImageWrapper : IImageWrapper
@@ -18,17 +18,17 @@ public class ImageWrapper : IImageWrapper
 
 | Név | Leírás |
 | --- | --- |
-| [ImageSource](../../aspose.slides/imagewrapper/imagesource) { get; } | Lekéri az Image-t. Csak olvasható [`IImage`](../iimage). |
+| [ImageSource](../../aspose.slides/imagewrapper/imagesource) { get; } | Lekéri az Image-et. Csak olvasható [`IImage`](../iimage). |
 | [Size](../../aspose.slides/imagewrapper/size) { get; } | Lekéri az Image szélességét és magasságát pixelben. Csak olvasható [`Size`](./size). |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [Dispose](../../aspose.slides/imagewrapper/dispose)() | Felszabadítja az ImageWrapper-t |
-| [Save](../../aspose.slides/imagewrapper/save#save_1)(string) | Elmenti az Image-et a megadott fájlba |
-| [Save](../../aspose.slides/imagewrapper/save#save)(Stream, PPImageFormat) | Elmenti az Image-et a megadott adatfolyamra a megadott formátumban. |
-| [Save](../../aspose.slides/imagewrapper/save#save_2)(string, PPImageFormat) | Elmenti az Image-et a megadott fájlba a megadott formátumban. |
+| [Dispose](../../aspose.slides/imagewrapper/dispose)() | Elpusztítja az ImageWrapper-t |
+| [Save](../../aspose.slides/imagewrapper/save#save_1)(string) | Mentse az Image-et a megadott fájlba |
+| [Save](../../aspose.slides/imagewrapper/save#save)(Stream, PPImageFormat) | Mentse az Image-et a megadott folyamra a megadott formátumban. |
+| [Save](../../aspose.slides/imagewrapper/save#save_2)(string, PPImageFormat) | Mentse az Image-et a megadott fájlba a megadott formátumban. |
 
 ### Lásd még
 

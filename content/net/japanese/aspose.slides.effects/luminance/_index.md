@@ -1,14 +1,14 @@
 ---
 title: Luminance
 second_title: Aspose.Sildes for .NET API リファレンス
-description: Luminance エフェクトを表します。Brightness はすべての色を白または黒に線形にシフトします。Contrast はすべての色を互いに近づけたり離れたりさせます。
+description: Luminance 効果を表します。Brightness はすべての色を線形に白または黒に近づけます。Contrast はすべての色をより近くまたは遠くなるようにスケーリングします。
 type: docs
-weight: 3590
+weight: 3610
 url: /ja/aspose.slides.effects/luminance/
 ---
 ## Luminance クラス
 
-Luminance エフェクトを表します。Brightness はすべての色を白または黒に線形にシフトします。Contrast はすべての色を互いに近づけたり離れたりさせます。
+Luminance 効果を表します。Brightness はすべての色を線形に白または黒に近づけます。Contrast はすべての色をより近くまたは遠くなるようにスケーリングします。
 
 ```csharp
 public sealed class Luminance : ImageTransformOperation, ILuminance
@@ -18,14 +18,14 @@ public sealed class Luminance : ImageTransformOperation, ILuminance
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベース IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/luminance/equals)(object) | 指定された [`Luminance`](../luminance) が現在の [`Luminance`](../luminance) と等しいかどうかを判断します。 |
-| [GetEffective](../../aspose.slides.effects/luminance/geteffective)() | 継承が適用された有効な Luminance エフェクト データを取得します。 |
+| [GetEffective](../../aspose.slides.effects/luminance/geteffective)() | 継承が適用された有効な Luminance 効果データを取得します。 |
 | override [GetHashCode](../../aspose.slides.effects/luminance/gethashcode)() | 特定の型に対するハッシュ関数として機能します。 |
 
 ### 参照

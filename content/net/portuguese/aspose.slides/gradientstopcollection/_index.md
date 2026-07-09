@@ -1,14 +1,14 @@
 ---
 title: GradientStopCollection
-second_title: Aspose.Sildes para .NET Referência da API
-description: Representa uma coleção de paradas de gradiente.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Representa uma coleção de pontos de gradiente.
 type: docs
-weight: 5010
+weight: 5030
 url: /pt/aspose.slides/gradientstopcollection/
 ---
-## GradientStopCollection classe
+## GradientStopCollection class
 
-Representa uma coleção de paradas de gradiente.
+Representa uma coleção de pontos de gradiente.
 
 ```csharp
 public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
@@ -19,29 +19,29 @@ public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
 | Nome | Descrição |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obter a interface base IPresentationComponent. Somente leitura [`IPresentationComponent`](../ipresentationcomponent). |
-| [Count](../../aspose.slides/gradientstopcollection/count) { get; } | Retorna o número de paradas de gradiente em uma coleção. Somente leitura Int32. |
-| [IsSynchronized](../../aspose.slides/gradientstopcollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção é sincronizado (thread-safe). Somente leitura Boolean. |
-| [Item](../../aspose.slides/gradientstopcollection/item) { get; } | Retorna a parada de gradiente pelo índice. |
-| [SyncRoot](../../aspose.slides/gradientstopcollection/syncroot) { get; } | Retorna uma raiz de sincronização. Somente leitura Object. |
+| [Count](../../aspose.slides/gradientstopcollection/count) { get; } | Retorna o número de pontos de gradiente em uma coleção. Somente leitura Int32. |
+| [IsSynchronized](../../aspose.slides/gradientstopcollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção está sincronizado (thread-safe). Somente leitura Boolean. |
+| [Item](../../aspose.slides/gradientstopcollection/item) { get; } | Retorna o ponto de gradiente pelo índice. |
+| [SyncRoot](../../aspose.slides/gradientstopcollection/syncroot) { get; } | Retorna a raiz de sincronização. Somente leitura Object. |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
-| [Add](../../aspose.slides/gradientstopcollection/add#add_2)(float, Color) | Cria a nova parada de gradiente e a adiciona ao final da coleção. |
-| [Add](../../aspose.slides/gradientstopcollection/add#add)(float, PresetColor) | Cria a nova parada de gradiente e a adiciona ao final da coleção. |
-| [Add](../../aspose.slides/gradientstopcollection/add#add_1)(float, SchemeColor) | Cria a nova parada de gradiente e a adiciona ao final da coleção. |
-| [Clear](../../aspose.slides/gradientstopcollection/clear)() | Remove todas as paradas de gradiente de uma coleção. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add_2)(float, Color) | Cria um novo ponto de gradiente e o adiciona ao final da coleção. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add)(float, PresetColor) | Cria um novo ponto de gradiente e o adiciona ao final da coleção. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add_1)(float, SchemeColor) | Cria um novo ponto de gradiente e o adiciona ao final da coleção. |
+| [Clear](../../aspose.slides/gradientstopcollection/clear)() | Remove todos os pontos de gradiente de uma coleção. |
 | [CopyTo](../../aspose.slides/gradientstopcollection/copyto)(Array, int) | Copia todos os elementos da coleção para o array especificado. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compara com o objeto especificado. |
-| [GetEnumerator](../../aspose.slides/gradientstopcollection/getenumerator)() | Retorna um enumerador que itera pela coleção. |
+| [GetEnumerator](../../aspose.slides/gradientstopcollection/getenumerator)() | Retorna um enumerador que itera através da coleção. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Retorna o código hash. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | Cria a nova parada de gradiente e a insere no índice especificado na coleção. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | Cria a nova parada de gradiente e a insere no índice especificado na coleção. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Cria a nova parada de gradiente e a insere no índice especificado na coleção. |
-| [RemoveAt](../../aspose.slides/gradientstopcollection/removeat)(int) | Remove uma parada de gradiente no índice especificado. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | Cria um novo ponto de gradiente e o insere no índice especificado da coleção. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | Cria um novo ponto de gradiente e o insere no índice especificado da coleção. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Cria um novo ponto de gradiente e o insere no índice especificado da coleção. |
+| [RemoveAt](../../aspose.slides/gradientstopcollection/removeat)(int) | Remove um ponto de gradiente no índice especificado. |
 
-### Ver Também
+### Veja Também
 
 * classe [PVIObject](../pviobject)
 * interface [IGradientStopCollection](../igradientstopcollection)

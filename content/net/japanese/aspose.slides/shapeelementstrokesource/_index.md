@@ -1,12 +1,12 @@
 ---
 title: ShapeElementStrokeSource
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: シェイプ要素の描画方法を表します。
 type: docs
-weight: 9870
+weight: 9890
 url: /ja/aspose.slides/shapeelementstrokesource/
 ---
-## ShapeElementStrokeSource 列挙型
+## ShapeElementStrokeSource 列挙体
 
 シェイプ要素の描画方法を表します。
 

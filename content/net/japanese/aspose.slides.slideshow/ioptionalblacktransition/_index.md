@@ -1,9 +1,9 @@
 ---
 title: IOptionalBlackTransition
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET 用 API リファレンス
 description: オプションの黒スライド遷移効果。
 type: docs
-weight: 10120
+weight: 10140
 url: /ja/aspose.slides.slideshow/ioptionalblacktransition/
 ---
 ## IOptionalBlackTransition インターフェイス
@@ -18,10 +18,10 @@ public interface IOptionalBlackTransition : ITransitionValueBase
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ioptionalblacktransition/asitransitionvaluebase) { get; } | ベースの ITransitionValueBase インターフェイスを取得できます。読み取り専用 [`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | この属性は、遷移が黒い画面から開始するかどうかを指定します（その後、黒い画面上で新しいスライドに遷移します）。読み書き可能な Boolean。 |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ioptionalblacktransition/asitransitionvaluebase) { get; } | ベース ITransitionValueBase インターフェイスを取得できます。読み取り専用 [`ITransitionValueBase`](../itransitionvaluebase)。 |
+| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | この属性は、遷移が黒い画面から開始され（その後、新しいスライドが黒の上で遷移します）かどうかを指定します。読み書き可能な Boolean。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [ITransitionValueBase](../itransitionvaluebase)
 * 名前空間 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

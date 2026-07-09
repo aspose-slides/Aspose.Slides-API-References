@@ -1,9 +1,9 @@
 ---
 title: IChartTitle
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET 用 API リファレンス
 description: チャートタイトルのプロパティを表します。
 type: docs
-weight: 1980
+weight: 2000
 url: /ja/aspose.slides.charts/icharttitle/
 ---
 ## IChartTitle インターフェイス
@@ -18,10 +18,10 @@ public interface IChartTitle : IActualLayout, ILayoutable, IOverridableText
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsILayoutable](../../aspose.slides.charts/icharttitle/asilayoutable) { get; } | ベースの ILayoutable インターフェイスを取得できます。読み取り専用 [`ILayoutable`](../ilayoutable)。 |
-| [AsIOverridableText](../../aspose.slides.charts/icharttitle/asioverridabletext) { get; } | ベースの IOverridableText インターフェイスを取得できます。読み取り専用 [`IOverridableText`](../ioverridabletext)。 |
-| [Format](../../aspose.slides.charts/icharttitle/format) { get; } | タイトルの塗りつぶし、線、効果スタイルを返します。読み取り専用 [`IFormat`](../iformat)。 |
-| [Overlay](../../aspose.slides.charts/icharttitle/overlay) { get; set; } | 他のチャート要素がタイトルと重なることを許可するかどうかを決定します。読み取り/書き込み Boolean。 |
+| [AsILayoutable](../../aspose.slides.charts/icharttitle/asilayoutable) { get; } | ベース ILayoutable インターフェイスを取得できます。読み取り専用 [`ILayoutable`](../ilayoutable). |
+| [AsIOverridableText](../../aspose.slides.charts/icharttitle/asioverridabletext) { get; } | ベース IOverridableText インターフェイスを取得できます。読み取り専用 [`IOverridableText`](../ioverridabletext). |
+| [Format](../../aspose.slides.charts/icharttitle/format) { get; } | タイトルの塗りつぶし、線、効果スタイルを返します。読み取り専用 [`IFormat`](../iformat). |
+| [Overlay](../../aspose.slides.charts/icharttitle/overlay) { get; set; } | 他のチャート要素がタイトルと重なることを許可するかどうかを決定します。読み書き可能な Boolean. |
 
 ### 参照
 

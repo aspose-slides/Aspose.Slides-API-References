@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions.MarkdownSvgImageSavingHandler
 second_title: Aspose.Sildes pro .NET API Reference
-description: Voláno pro každý SVG obrázek během exportu Markdown. Vraťte true, chcete-li použít specifikovaný odkaz, nebo false, chcete-li použít výchozí logiku ukládání.
+description: Vyvoláno pro každý SVG obrázek během exportu Markdown. Vrátí true pro použití určeného odkazu nebo false pro použití výchozí logiky ukládání.
 type: docs
-weight: 4250
+weight: 4270
 url: /cs/aspose.slides.export/markdownsaveoptions.markdownsvgimagesavinghandler/
 ---
 ## MarkdownSaveOptions.MarkdownSvgImageSavingHandler delegát
 
-Voláno pro každý SVG obrázek během exportu Markdown. Vraťte `true`, chcete-li použít specifikovaný *link*, nebo `false`, chcete-li použít výchozí logiku ukládání.
+Vyvoláno pro každý SVG obrázek během exportu Markdown. Vrátí `true`, pokud má být použit určený *odkaz*, nebo `false` pro použití výchozí logiky ukládání.
 
 ```csharp
 public delegate bool MarkdownSvgImageSavingHandler(ISvgImage svgImage, ref string link);

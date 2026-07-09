@@ -1,9 +1,9 @@
 ---
 title: IComment
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Slides için .NET API Referansı
 description: Bir slayttaki yorumu temsil eder.
 type: docs
-weight: 5540
+weight: 5560
 url: /tr/aspose.slides/icomment/
 ---
 ## IComment arayüzü
@@ -18,12 +18,12 @@ public interface IComment
 
 | Ad | Açıklama |
 | --- | --- |
-| [Author](../../aspose.slides/icomment/author) { get; } | Bir yorumun yazarını döndürür. Salt-okunur [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/icomment/createdtime) { get; set; } | Bir yorumun oluşturulma zamanını döndürür veya ayarlar. Bu özelliği MinValue olarak ayarlamak, yorum zamanının ayarlanmadığını ifade eder. Okunur/yazılır DateTime. |
-| [ParentComment](../../aspose.slides/icomment/parentcomment) { get; set; } | Üst yorumu alır veya ayarlar. Okunur/yazılır [`IComment`](../icomment). |
-| [Position](../../aspose.slides/icomment/position) { get; set; } | Bir slayttaki yorumun konumunu döndürür veya ayarlar. Okunur/yazılır PointF. |
-| [Slide](../../aspose.slides/icomment/slide) { get; } | Bir yorumun üst slaytını döndürür veya ayarlar. Salt-okunur [`ISlide`](../islide). |
-| [Text](../../aspose.slides/icomment/text) { get; set; } | Bir slayt yorumunun düz metnini döndürür veya ayarlar. Okunur/yazılır String. |
+| [Author](../../aspose.slides/icomment/author) { get; } | Bir yorumun yazarını döndürür. Salt okunur [`ICommentAuthor`](../icommentauthor). |
+| [CreatedTime](../../aspose.slides/icomment/createdtime) { get; set; } | Bir yorumun oluşturulma zamanını döndürür veya ayarlar. Bu özelliği MinValue'ye ayarlamak yorum zamanının ayarlanmadığını gösterir. Okunur/yazılabilir DateTime. |
+| [ParentComment](../../aspose.slides/icomment/parentcomment) { get; set; } | Üst yorumu alır veya ayarlar. Okunur/yazılabilir [`IComment`](../icomment). |
+| [Position](../../aspose.slides/icomment/position) { get; set; } | Bir slayttaki yorumun konumunu döndürür veya ayarlar. Okunur/yazılabilir PointF. |
+| [Slide](../../aspose.slides/icomment/slide) { get; } | Bir yorumun üst slaydını döndürür. Salt okunur [`ISlide`](../islide). |
+| [Text](../../aspose.slides/icomment/text) { get; set; } | Bir slayt yorumunun düz metnini döndürür veya ayarlar. Okunur/yazılabilir String. |
 
 ## Metotlar
 
@@ -31,7 +31,7 @@ public interface IComment
 | --- | --- |
 | [Remove](../../aspose.slides/icomment/remove)() | Yorumu ve tüm yanıtlarını üst koleksiyondan kaldırır. |
 
-### Ayrıca bakınız
+### İlgili
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

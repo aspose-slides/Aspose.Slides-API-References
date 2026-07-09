@@ -1,14 +1,14 @@
 ---
 title: BaseShapeLock
-second_title: Aspose.Sildes .NET API referencia
-description: Egy alap osztályt képvisel a zárolások letiltott műveletéhez.
+second_title: Aspose.Sildes a .NET API Referencia
+description: A zárolások letiltott működéséhez tartozó alaposztályt képviseli.
 type: docs
-weight: 960
+weight: 980
 url: /hu/aspose.slides/baseshapelock/
 ---
 ## BaseShapeLock osztály
 
-Egy alap osztályt képvisel a zárolásokhoz (letiltott művelet).
+Egy olyan alaposztályt képvisel a zárolásokhoz (letiltott művelet).
 
 ```csharp
 public class BaseShapeLock : IBaseShapeLock
@@ -20,7 +20,7 @@ public class BaseShapeLock : IBaseShapeLock
 | --- | --- |
 | [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Igaz értéket ad vissza, ha az összes lock-flag le van tiltva. Csak olvasható Boolean. |
 
-### Lásd még
+### Kapcsolódó információk
 
 * interfész [IBaseShapeLock](../ibaseshapelock)
 * névtér [Aspose.Slides](../../aspose.slides)

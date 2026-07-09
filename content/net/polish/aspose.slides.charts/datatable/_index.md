@@ -1,9 +1,9 @@
 ---
 title: DataTable
-second_title: Aspose.Sildes dla .NET Referencji API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje właściwości tabeli danych.
 type: docs
-weight: 1580
+weight: 1600
 url: /pl/aspose.slides.charts/datatable/
 ---
 ## DataTable klasa
@@ -18,13 +18,13 @@ public class DataTable : DomObject<Chart>, IDataTable
 
 | Nazwa | Opis |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/datatable/chart) { get; } | Zwraca chart. Tylko do odczytu [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/datatable/format) { get; } | Zwraca line, fill i effect styles obiektu. Tylko do odczytu [`IFormat`](../iformat). |
-| [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | Prawda, jeśli chart data table ma poziome obramowania komórek. Odczyt/zapis Boolean. |
-| [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | Prawda, jeśli chart data table ma obramowania konturu. Odczyt/zapis Boolean. |
-| [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | Prawda, jeśli chart data table ma pionowe obramowania komórek. Odczyt/zapis Boolean. |
-| [ShowLegendKey](../../aspose.slides.charts/datatable/showlegendkey) { get; set; } | Prawda, jeśli data label legend key jest widoczny. Odczyt/zapis Boolean. |
-| [TextFormat](../../aspose.slides.charts/datatable/textformat) { get; } | Zwraca text format. Tylko do odczytu [`IChartTextFormat`](../icharttextformat). |
+| [Chart](../../aspose.slides.charts/datatable/chart) { get; } | Zwraca wykres. Tylko do odczytu [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/datatable/format) { get; } | Zwraca style linii, wypełnienia i efektów obiektu. Tylko do odczytu [`IFormat`](../iformat). |
+| [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | Prawda, jeśli tabela danych wykresu ma poziome obramowania komórek. Odczyt/zapis Boolean. |
+| [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | Prawda, jeśli tabela danych wykresu ma obramowanie konturu. Odczyt/zapis Boolean. |
+| [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | Prawda, jeśli tabela danych wykresu ma pionowe obramowania komórek. Odczyt/zapis Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/datatable/showlegendkey) { get; set; } | Prawda, jeśli klucz legendy etykiety danych jest widoczny. Odczyt/zapis Boolean. |
+| [TextFormat](../../aspose.slides.charts/datatable/textformat) { get; } | Zwraca format tekstu. Tylko do odczytu [`IChartTextFormat`](../icharttextformat). |
 
 ### Zobacz także
 

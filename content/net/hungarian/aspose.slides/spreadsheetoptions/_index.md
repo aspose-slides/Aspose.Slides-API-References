@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetOptions
-second_title: Aspose.Sildes .NET API hivatkozás
-description: A táblázatok további viselkedését meghatározó beállításokat képviseli.
+second_title: Aspose.Sildes for .NET API Referencia
+description: Olyan beállításokat képvisel, amelyekkel további táblázatok viselkedése meghatározható.
 type: docs
-weight: 10720
+weight: 10740
 url: /hu/aspose.slides/spreadsheetoptions/
 ---
 ## SpreadsheetOptions osztály
 
-A táblázatok viselkedését befolyásoló további beállításokat képviseli.
+A további táblázatok viselkedésének megadására használható beállításokat képviseli.
 
 ```csharp
 public class SpreadsheetOptions : ISpreadsheetOptions
@@ -18,14 +18,14 @@ public class SpreadsheetOptions : ISpreadsheetOptions
 
 | Név | Leírás |
 | --- | --- |
-| [SpreadsheetOptions](spreadsheetoptions)() | Új példányt hoz létre a [`SpreadsheetOptions`](../spreadsheetoptions) osztályból. |
+| [SpreadsheetOptions](spreadsheetoptions)() | Új példányt inicializál a(z) [`SpreadsheetOptions`](../spreadsheetoptions) osztályból. |
 
 ## Tulajdonságok
 
 | Név | Leírás |
 | --- | --- |
-| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | Megadja vagy lekéri a kétsoros karakterkészletet (DBCS) használó nyelvekhez szánt egyes függvények számításához használt preferált kultúrinformációt. |
-| [RecoverWorkbookFromChartCache](../../aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Ha a diagram adatforrása egy külső munkafüzet, és az nem érhető el, akkor a diagram gyorsítótárából kerül visszaállításra. |
+| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | Lekérdezi vagy beállítja a double-byte karakterkészletet (DBCS) használó nyelvekhez szánt néhány függvény számításához használt előnyben részesített kultúrainformációt. |
+| [RecoverWorkbookFromChartCache](../../aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Ha a diagram adatforrása egy külső munkafüzet, és az nem érhető el, akkor a diagram gyorsítótárából lesz helyreállítva. |
 
 ### Lásd még
 

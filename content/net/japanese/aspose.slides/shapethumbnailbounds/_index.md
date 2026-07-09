@@ -1,14 +1,14 @@
 ---
 title: ShapeThumbnailBounds
-second_title: Aspose.Sildes for .NET API リファレンス
-description: シェイプサムネイル境界の種類を列挙したものです。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: shapeサムネイル境界の種類の列挙です。
 type: docs
-weight: 9900
+weight: 9920
 url: /ja/aspose.slides/shapethumbnailbounds/
 ---
-## ShapeThumbnailBounds 列挙体
+## ShapeThumbnailBounds 列挙
 
-シェイプサムネイルの境界サイズの種類を列挙します。
+shapeサムネイル境界の種類の列挙です。
 
 ```csharp
 public enum ShapeThumbnailBounds
@@ -18,9 +18,9 @@ public enum ShapeThumbnailBounds
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| Slide | `0` | シェイプサムネイルのサイズはスライドのサイズと同じになります。シェイプの位置は保存されます。 |
-| Shape | `1` | シェイプサムネイルのサイズは、シェイプのアウトライン設定を考慮したシェイプ境界矩形と同じになります。 |
-| Appearance | `2` | シェイプサムネイルのサイズはシェイプの外観（スライドの境界内）と同じになります。シェイプの外観がシェイプ境界に収まらない場合があります。例えば、回転、鋭角のミタージョイン、3D 効果などです。 |
+| Slide | `0` | Shapeサムネイルはslideサイズと同じサイズになり、Shapeの位置は保存されます。 |
+| Shape | `1` | Shapeサムネイルはshapeの境界矩形と同じサイズになり、shapeの輪郭設定を考慮します。 |
+| Appearance | `2` | Shapeサムネイルはshapeの外観（slideの境界内）と同じサイズになります。shapeの外観がshapeの境界に収まらない場合があります。例: 回転、鋭角のミタージョイン、3D効果など。 |
 
 ### 参照
 

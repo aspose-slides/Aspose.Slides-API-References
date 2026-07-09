@@ -3,7 +3,7 @@ title: IPictureFrame
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en ram med en bild inuti.
 type: docs
-weight: 6650
+weight: 6670
 url: /sv/aspose.slides/ipictureframe/
 ---
 ## IPictureFrame gränssnitt
@@ -18,12 +18,12 @@ public interface IPictureFrame : IGeometryShape
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides/ipictureframe/asigeometryshape) { get; } | Tillåter att hämta bas IGeometryShape gränssnitt. Skrivskyddad [`IGeometryShape`](../igeometryshape). |
+| [AsIGeometryShape](../../aspose.slides/ipictureframe/asigeometryshape) { get; } | Tillåter att hämta bas-IGeometryShape-gränssnittet. Skrivskyddad [`IGeometryShape`](../igeometryshape). |
 | [PictureFormat](../../aspose.slides/ipictureframe/pictureformat) { get; } | Returnerar PictureFillFormat-objektet för en bildram. Skrivskyddad [`IPictureFillFormat`](../ipicturefillformat). |
-| [PictureFrameLock](../../aspose.slides/ipictureframe/pictureframelock) { get; } | Returnerar bildramens lås. Skrivskyddad [`IPictureFrameLock`](../ipictureframelock). |
-| [RelativeScaleHeight](../../aspose.slides/ipictureframe/relativescaleheight) { get; set; } | Returnerar eller anger skalan för höjden (relativt originalbildens storlek) på bildramen. Värde 1.0 motsvarar 100%. Läs/skriv Single. |
-| [RelativeScaleWidth](../../aspose.slides/ipictureframe/relativescalewidth) { get; set; } | Returnerar eller anger skalan för bredden (relativt originalbildens storlek) på bildramen. Värde 1.0 motsvarar 100%. Läs/skriv Single. |
-| [ShapeLock](../../aspose.slides/ipictureframe/shapelock) { get; } | Returnerar figurens lås. Skrivskyddad [`IPictureFrameLock`](../ipictureframelock). |
+| [PictureFrameLock](../../aspose.slides/ipictureframe/pictureframelock) { get; } | Returnerar PictureFrames lås. Skrivskyddad [`IPictureFrameLock`](../ipictureframelock). |
+| [RelativeScaleHeight](../../aspose.slides/ipictureframe/relativescaleheight) { get; set; } | Returnerar eller anger skalan för höjd (relativt originalbildens storlek) för bildramen. Värdet 1.0 motsvarar 100%. Läs/skriv Single. |
+| [RelativeScaleWidth](../../aspose.slides/ipictureframe/relativescalewidth) { get; set; } | Returnerar eller anger skalan för bredd (relativt originalbildens storlek) för bildramen. Värdet 1.0 motsvarar 100%. Läs/skriv Single. |
+| [ShapeLock](../../aspose.slides/ipictureframe/shapelock) { get; } | Returnerar formens lås. Skrivskyddad [`IPictureFrameLock`](../ipictureframelock). |
 
 ### Se även
 

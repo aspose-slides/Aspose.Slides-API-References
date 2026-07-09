@@ -1,14 +1,14 @@
 ---
 title: EffectStyle
-second_title: Aspose.Sildes .NET API referenciája
+second_title: Aspose.Sildes .NET API referencia
 description: Egy effektus stílust képvisel.
 type: docs
-weight: 11060
+weight: 11080
 url: /hu/aspose.slides.theme/effectstyle/
 ---
 ## EffectStyle osztály
 
-Egy effekt stílust képvisel.
+Egy effektus stílust képvisel.
 
 ```csharp
 public class EffectStyle : DomObject<EffectStyleCollection>, IEffectStyle
@@ -16,7 +16,7 @@ public class EffectStyle : DomObject<EffectStyleCollection>, IEffectStyle
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
 | [EffectFormat](../../aspose.slides.theme/effectstyle/effectformat) { get; } | Visszaad egy effekt formátumot. Csak olvasható [`IEffectFormat`](../../aspose.slides/ieffectformat). |
 | [ThreeDFormat](../../aspose.slides.theme/effectstyle/threedformat) { get; } | Visszaad egy 3D formátumot. Csak olvasható [`IThreeDFormat`](../../aspose.slides/ithreedformat). |

@@ -3,12 +3,12 @@ title: IImageTransformOperation
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje abstraktní efekt transformace obrazu.
 type: docs
-weight: 3370
+weight: 3390
 url: /cs/aspose.slides.effects/iimagetransformoperation/
 ---
 ## IImageTransformOperation rozhraní
 
-Reprezentuje abstraktní efekt transformace obrazu.
+Představuje abstraktní efekt transformace obrazu.
 
 ```csharp
 public interface IImageTransformOperation

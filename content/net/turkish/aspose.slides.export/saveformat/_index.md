@@ -1,14 +1,14 @@
 ---
 title: SaveFormat
-second_title: Aspose.Sildes için .NET API Referansı
-description: Kaydedilen bir sunumun biçimini tanımlayan sabitler.
+second_title: Aspose.Sildes .NET için API Referansı
+description: Kaydedilen bir sunumun formatını tanımlayan sabitler.
 type: docs
-weight: 4420
+weight: 4440
 url: /tr/aspose.slides.export/saveformat/
 ---
 ## SaveFormat enum
 
-Kaydedilen sunumun formatını tanımlayan sabitler.
+Kaydedilen bir sunumun formatını tanımlayan sabitler.
 
 ```csharp
 public enum SaveFormat
@@ -18,27 +18,27 @@ public enum SaveFormat
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Ppt | `0` | Sunumu PPT formatında kaydeder. |
-| Pdf | `1` | Sunumu PDF formatında kaydeder. |
-| Xps | `2` | Sunumu XPS formatında kaydeder. |
-| Pptx | `3` | Sunumu PPTX formatında kaydeder. |
-| Ppsx | `4` | Sunumu PPSX (slayt gösterisi) formatında kaydeder. |
-| Tiff | `5` | Sunumu çok sayfalı TIFF görüntüsü olarak kaydeder. |
-| Odp | `6` | Sunumu ODP formatında kaydeder. |
-| Pptm | `7` | Sunumu PPTM (makro etkin sunum) formatında kaydeder. |
-| Ppsm | `9` | Sunumu PPSM (makro etkin slayt gösterisi) formatında kaydeder. |
-| Potx | `10` | Sunumu POTX (şablon) formatında kaydeder. |
-| Potm | `11` | Sunumu POTM (makro etkin şablon) formatında kaydeder. |
-| Html | `13` | Sunumu HTML formatında kaydeder. |
-| Swf | `15` | Sunumu SWF formatında kaydeder. |
-| Otp | `17` | Sunumu OTP (sunum şablonu) formatında kaydeder. |
-| Pps | `19` | Sunumu PPS formatında kaydeder. |
-| Pot | `20` | Sunumu POT formatında kaydeder. |
-| Fodp | `21` | Sunumu FODP formatında kaydeder. |
-| Gif | `22` | Sunumu GIF formatında kaydeder. |
-| Html5 | `23` | Sunumu yeni HTML5 şablonlama sistemi kullanarak HTML formatında kaydeder. |
-| Md | `24` | Sunumu Markdown formatında kaydeder. |
-| Xml | `25` | Sunumu PowerPoint XML Sunum formatında kaydeder. |
+| Ppt | `0` | Sunumu PPT formatında kaydet. |
+| Pdf | `1` | Sunumu PDF formatında kaydet. |
+| Xps | `2` | Sunumu XPS formatında kaydet. |
+| Pptx | `3` | Sunumu PPTX formatında kaydet. |
+| Ppsx | `4` | Sunumu PPSX (slayt gösterisi) formatında kaydet. |
+| Tiff | `5` | Sunumu çok sayfalı TIFF resmi olarak kaydet. |
+| Odp | `6` | Sunumu ODP formatında kaydet. |
+| Pptm | `7` | Sunumu PPTM (makro-etkin sunum) formatında kaydet. |
+| Ppsm | `9` | Sunumu PPSM (makro-etkin slayt gösterisi) formatında kaydet. |
+| Potx | `10` | Sunumu POTX (şablon) formatında kaydet. |
+| Potm | `11` | Sunumu POTM (makro-etkin şablon) formatında kaydet. |
+| Html | `13` | Sunumu HTML formatında kaydet. |
+| Swf | `15` | Sunumu SWF formatında kaydet. |
+| Otp | `17` | Sunumu OTP (sunum şablonu) formatında kaydet. |
+| Pps | `19` | Sunumu PPS formatında kaydet. |
+| Pot | `20` | Sunumu POT formatında kaydet. |
+| Fodp | `21` | Sunumu FODP formatında kaydet. |
+| Gif | `22` | Sunumu GIF formatında kaydet. |
+| Html5 | `23` | Sunumu yeni HTML5 şablonlama sistemi kullanarak HTML formatında kaydet. |
+| Md | `24` | Sunumu Markdown formatında kaydet |
+| Xml | `25` | Sunumu PowerPoint XML Sunum formatında kaydet. |
 
 ### Ayrıca Bakınız
 

@@ -1,14 +1,14 @@
 ---
 title: IFlyThroughTransition
-second_title: Aspose.Sildes for .NET API Referansı
-description: Uçuş geçişi slayt efekti.
+second_title: Aspose.Sildes .NET için API Referansı
+description: Uçuş tarzı slayt geçiş efekti.
 type: docs
-weight: 10070
+weight: 10090
 url: /tr/aspose.slides.slideshow/iflythroughtransition/
 ---
 ## IFlyThroughTransition arayüz
 
-Uçuş geçişi slayt efekti.
+Uçuş tarzı slayt geçiş efekti.
 
 ```csharp
 public interface IFlyThroughTransition : ITransitionValueBase
@@ -18,11 +18,11 @@ public interface IFlyThroughTransition : ITransitionValueBase
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iflythroughtransition/asitransitionvaluebase) { get; } | Temel ITransitionValueBase arayüzüne erişim sağlar. Yalnızca okuma [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iflythroughtransition/asitransitionvaluebase) { get; } | Temel ITransitionValueBase arabirimini almaya izin verir. Sadece okuma [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/iflythroughtransition/direction) { get; set; } | Geçiş yönü. Okuma/yazma [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [HasBounce](../../aspose.slides.slideshow/iflythroughtransition/hasbounce) { get; set; } | Geçiş sırasında sunum slaytlarının hareketinin bir sıçrama içerdiğini belirtir. Okuma/yazma Boolean. |
+| [HasBounce](../../aspose.slides.slideshow/iflythroughtransition/hasbounce) { get; set; } | Geçiş sırasında sunum slaytlarının hareketinin bir sekme içereceğini belirtir. Okuma/yazma Boolean. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * arayüz [ITransitionValueBase](../itransitionvaluebase)
 * ad alanı [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

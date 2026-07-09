@@ -1,12 +1,12 @@
 ---
 title: LineDashStyle
-second_title: Aspose.Sildes dla .NET API Reference
+second_title: Aspose.Sildes dla .NET Referencja API
 description: Reprezentuje styl kreski linii.
 type: docs
-weight: 7750
+weight: 7770
 url: /pl/aspose.slides/linedashstyle/
 ---
-## Wyliczenie LineDashStyle
+## LineDashStyle enumeracja
 
 Reprezentuje styl kreski linii.
 

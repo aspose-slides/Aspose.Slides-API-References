@@ -1,14 +1,14 @@
 ---
 title: IParagraph
 second_title: Aspose.Sildes .NET API Referencia
-description: Egy szöveg bekezdését képviseli.
+description: Egy szöveg bekezdését ábrázolja.
 type: docs
-weight: 6540
+weight: 6560
 url: /hu/aspose.slides/iparagraph/
 ---
 ## IParagraph interfész
 
-Egy szövegrész bekezdését képviseli.
+Egy szöveg bekezdését ábrázolja.
 
 ```csharp
 public interface IParagraph : ISlideComponent
@@ -16,21 +16,21 @@ public interface IParagraph : ISlideComponent
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/iparagraph/asislidecomponent) { get; } | Lehetővé teszi az alap ISlideComponent interfész lekérdezését. Csak olvasás [`ISlideComponent`](../islidecomponent). |
-| [EndParagraphPortionFormat](../../aspose.slides/iparagraph/endparagraphportionformat) { get; set; } | Meghatározza a szövegrész tulajdonságait, amelyeket akkor használnak, ha egy új rész kerül beszúrásra az utolsó után. |
-| [ParagraphFormat](../../aspose.slides/iparagraph/paragraphformat) { get; } | Visszaadja ennek a bekezdésnek a formázási objektumát. Csak olvasás [`IParagraphFormat`](../iparagraphformat). |
-| [Portions](../../aspose.slides/iparagraph/portions) { get; } | Visszaadja a szövegrészek gyűjteményét. Csak olvasás [`IPortionCollection`](../iportioncollection). |
-| [Text](../../aspose.slides/iparagraph/text) { get; set; } | Lekérdezi vagy beállítja a bekezdés egyszerű szövegét. Olvasás/írás String. |
+| [AsISlideComponent](../../aspose.slides/iparagraph/asislidecomponent) { get; } | Lehetővé teszi az alap ISlideComponent interfész lekérdezését. Csak olvasható [`ISlideComponent`](../islidecomponent). |
+| [EndParagraphPortionFormat](../../aspose.slides/iparagraph/endparagraphportionformat) { get; set; } | Megadja a szövegrész tulajdonságait, amelyeket akkor kell használni, ha egy másik szövegrész kerül beillesztésre az utolsó után. |
+| [ParagraphFormat](../../aspose.slides/iparagraph/paragraphformat) { get; } | Visszaadja ennek a bekezdésnek a formázási objektumát. Csak olvasható [`IParagraphFormat`](../iparagraphformat). |
+| [Portions](../../aspose.slides/iparagraph/portions) { get; } | Visszaadja a szövegrészek gyűjteményét. Csak olvasható [`IPortionCollection`](../iportioncollection). |
+| [Text](../../aspose.slides/iparagraph/text) { get; set; } | Lekéri vagy beállítja egy bekezdés egyszerű szövegét. Olvasható/írható String. |
 
-## Metódusok
+## Módszerek
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
 | [GetLinesCount](../../aspose.slides/iparagraph/getlinescount)() | Visszaadja a bekezdés sorainak számát. |
 | [GetRect](../../aspose.slides/iparagraph/getrect)() | Visszaadja a bekezdést körülvevő téglalap koordinátáit. A téglalap tartalmazza a bekezdés összes szövegsorát, beleértve az üres sorokat is. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/iparagraph/joinportionswithsameformatting)() | Összevonja az azonos formázású futamokat. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/iparagraph/joinportionswithsameformatting)() | Összefűzi az azonos formázású szövegelemeket. |
 
 ### Lásd még
 

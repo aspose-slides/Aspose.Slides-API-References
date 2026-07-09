@@ -3,10 +3,10 @@ title: PresetColor
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa predefinições de cores.
 type: docs
-weight: 9640
+weight: 9660
 url: /pt/aspose.slides/presetcolor/
 ---
-## PresetColor enumeração
+## Enumeração PresetColor
 
 Representa predefinições de cores.
 
@@ -160,7 +160,7 @@ public enum PresetColor
 | Yellow | `138` |  |
 | YellowGreen | `139` |  |
 
-### Veja também
+### Veja Também
 
 * espaço de nomes [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

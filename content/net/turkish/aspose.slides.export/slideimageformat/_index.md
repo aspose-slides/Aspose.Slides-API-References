@@ -1,14 +1,14 @@
 ---
 title: SlideImageFormat
-second_title: Aspose.Sildes for .NET API Referansı
-description: Sunumun HTML dışa aktarımı için slayt görselinin kaydedileceği formatı belirler.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Sunumun HTML dışa aktarımı için slayt görüntüsünün kaydedileceği formatı belirler.
 type: docs
-weight: 4450
+weight: 4470
 url: /tr/aspose.slides.export/slideimageformat/
 ---
 ## SlideImageFormat sınıfı
 
-Sunumun HTML dışa aktarımı için slayt görselinin kaydedileceği formatı belirler.
+Sunumun HTML dışa aktarımı için slayt görüntüsünün kaydedileceği formatı belirler.
 
 ```csharp
 public class SlideImageFormat : ISlideImageFormat
@@ -16,18 +16,18 @@ public class SlideImageFormat : ISlideImageFormat
 
 ## Yapıcılar
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
 | [SlideImageFormat](slideimageformat)() | Varsayılan yapıcı. |
 
-## Yöntemler
+## Metodlar
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| static [Bitmap](../../aspose.slides.export/slideimageformat/bitmap)(float, ImageFormat) | Slaytların raster görüntüye dönüştürülmesi gerekir. |
-| static [Svg](../../aspose.slides.export/slideimageformat/svg)(SVGOptions) | Slaytların SVG formatına dönüştürülmesi gerekir. |
+| static [Bitmap](../../aspose.slides.export/slideimageformat/bitmap)(float, ImageFormat) | Slaytların raster görüntüye dönüştürülmelidir. |
+| static [Svg](../../aspose.slides.export/slideimageformat/svg)(SVGOptions) | Slaytların SVG formatına dönüştürülmelidir. |
 
-### Ayrıca Bakınız
+### Diğer Bağlantılar
 
 * arayüz [ISlideImageFormat](../islideimageformat)
 * ad alanı [Aspose.Slides.Export](../../aspose.slides.export)

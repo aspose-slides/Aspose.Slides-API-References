@@ -1,14 +1,14 @@
 ---
 title: Tab
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET – referenční příručka API
 description: Představuje tabulaci pro text.
 type: docs
-weight: 10800
+weight: 10820
 url: /cs/aspose.slides/tab/
 ---
-## Třída Tab
+## Tab třída
 
-Představuje tabulátor pro text.
+Representuje tabulaci pro text.
 
 ```csharp
 public sealed class Tab : PVIObject, ITab
@@ -26,14 +26,14 @@ public sealed class Tab : PVIObject, ITab
 | --- | --- |
 | [Alignment](../../aspose.slides/tab/alignment) { get; set; } | Vrací nebo nastavuje styl zarovnání tabulátoru. Čtení/zápis [`TabAlignment`](../tabalignment). |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze pro čtení [`IPresentationComponent`](../ipresentationcomponent). |
-| [Position](../../aspose.slides/tab/position) { get; set; } | Vrací nebo nastavuje pozici tabulátoru. Přiřazení této vlastnosti může změnit index tabulátoru ve sbírce a neplatnit enumerátor. Čtení/zápis Double. |
+| [Position](../../aspose.slides/tab/position) { get; set; } | Vrací nebo nastavuje pozici tabulátoru. Přiřazením této vlastnosti může dojít ke změně indexu tabulátoru ve sbírce a neplatnosti Enumeratoru. Čtení/zápis Double. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [CompareTo](../../aspose.slides/tab/compareto)(object) | Porovnává aktuální instanci s jiným objektem stejného typu. |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Porovnává se zadaným objektem. |
+| [CompareTo](../../aspose.slides/tab/compareto)(object) | Porovnává aktuální instance s jiným objektem stejného typu. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Porovnává se se zadaným objektem. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Vrací hash kód. |
 
 ### Viz také

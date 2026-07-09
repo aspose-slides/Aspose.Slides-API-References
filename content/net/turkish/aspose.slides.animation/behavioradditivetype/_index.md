@@ -1,14 +1,14 @@
 ---
 title: BehaviorAdditiveType
 second_title: Aspose.Sildes için .NET API Referansı
-description: Etki davranışı için ekleme tipini temsil eder.
+description: Efekt davranışı için ekleme türünü temsil eder.
 type: docs
-weight: 140
+weight: 160
 url: /tr/aspose.slides.animation/behavioradditivetype/
 ---
-## BehaviorAdditiveType sayım türü
+## BehaviorAdditiveType enum
 
-Etki davranışı için ekleme tipini temsil eder.
+Efekt davranışı için ekleme türünü temsil eder.
 
 ```csharp
 public enum BehaviorAdditiveType
@@ -25,7 +25,7 @@ public enum BehaviorAdditiveType
 | Replace | `3` |  |
 | Multiply | `4` |  |
 
-### Ayrıca bakınız
+### Ayrıca
 
 * ad alanı [Aspose.Slides.Animation](../../aspose.slides.animation)
 * derleme [Aspose.Slides](../../)

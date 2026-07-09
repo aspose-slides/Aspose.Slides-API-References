@@ -1,14 +1,14 @@
 ---
 title: BaseShapeLock
-second_title: Aspose.Sildes の .NET API リファレンス
-description: ロックが無効化された操作の基底クラスを表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: ロックが無効化された操作のための基底クラスを表します。
 type: docs
-weight: 960
+weight: 980
 url: /ja/aspose.slides/baseshapelock/
 ---
 ## BaseShapeLock クラス
 
-ロック（無効化された操作）の基底クラスを表します。
+ロック（無効化操作）の基底クラスを表します。
 
 ```csharp
 public class BaseShapeLock : IBaseShapeLock
@@ -18,9 +18,9 @@ public class BaseShapeLock : IBaseShapeLock
 
 | 名前 | 説明 |
 | --- | --- |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | すべてのロックフラグが無効な場合は true を返します。読み取り専用の Boolean。 |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | すべてのロックフラグが無効な場合に true を返します。読み取り専用 Boolean。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [IBaseShapeLock](../ibaseshapelock)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

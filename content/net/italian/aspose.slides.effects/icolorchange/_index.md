@@ -1,9 +1,9 @@
 ---
 title: IColorChange
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta un effetto di Cambio colore. Le istanze di FromColor vengono sostituite con le istanze di ToColor.
+description: Rappresenta un effetto di cambio colore. Le istanze di FromColor vengono sostituite con le istanze di ToColor.
 type: docs
-weight: 3200
+weight: 3220
 url: /it/aspose.slides.effects/icolorchange/
 ---
 ## IColorChange interfaccia
@@ -19,10 +19,10 @@ public interface IColorChange : IAccessiblePVIObject<IColorChangeEffectiveData>,
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorchange/asiaccessiblepviobject) { get; } | Consente di ottenere l'interfaccia base IAccessiblePVIObject. Solo lettura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/icolorchange/asiimagetransformoperation) { get; } | Consente di ottenere l'interfaccia base IImageTransformOperation. Solo lettura [`IImageTransformOperation`](../iimagetransformoperation). |
-| [FromColor](../../aspose.slides.effects/icolorchange/fromcolor) { get; } | Colore che verrà sostituito. Solo lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [ToColor](../../aspose.slides.effects/icolorchange/tocolor) { get; } | Colore che sostituirà. Solo lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorchange/asiaccessiblepviobject) { get; } | Consente di ottenere l'interfaccia base IAccessiblePVIObject. Sola lettura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/icolorchange/asiimagetransformoperation) { get; } | Consente di ottenere l'interfaccia base IImageTransformOperation. Sola lettura [`IImageTransformOperation`](../iimagetransformoperation). |
+| [FromColor](../../aspose.slides.effects/icolorchange/fromcolor) { get; } | Colore che sarà sostituito. Sola lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [ToColor](../../aspose.slides.effects/icolorchange/tocolor) { get; } | Colore che sostituirà. Sola lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Vedi anche
 

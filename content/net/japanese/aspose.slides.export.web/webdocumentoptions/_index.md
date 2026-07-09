@@ -1,14 +1,14 @@
 ---
 title: WebDocumentOptions
 second_title: Aspose.Sildes for .NET API リファレンス
-description: WebDocument./webdocument の保存用オプションセットを表します。
+description: WebDocument./webdocument の保存のためのオプション セットを表します。
 type: docs
-weight: 4670
+weight: 4690
 url: /ja/aspose.slides.export.web/webdocumentoptions/
 ---
 ## WebDocumentOptions クラス
 
-[`WebDocument`](../webdocument) の保存用オプションセットを表します。
+[`WebDocument`](../webdocument) の保存のためのオプション セットを表します。
 
 ```csharp
 public class WebDocumentOptions
@@ -16,19 +16,19 @@ public class WebDocumentOptions
 
 ## コンストラクター
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [WebDocumentOptions](webdocumentoptions)() | デフォルトコンストラクターです。 |
+| [WebDocumentOptions](webdocumentoptions)() | デフォルト コンストラクターです。 |
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export.web/webdocumentoptions/animateshapes) { get; set; } | シェイプのアニメーションオプションを取得または設定します。読み取り/書き込み Boolean。 |
-| [AnimateTransitions](../../aspose.slides.export.web/webdocumentoptions/animatetransitions) { get; set; } | トランジションのアニメーションオプションを取得または設定します。読み取り/書き込み Boolean。 |
+| [AnimateShapes](../../aspose.slides.export.web/webdocumentoptions/animateshapes) { get; set; } | シェイプのアニメーション オプションを取得または設定します。読み取り/書き込み Boolean。 |
+| [AnimateTransitions](../../aspose.slides.export.web/webdocumentoptions/animatetransitions) { get; set; } | トランジション アニメーション オプションを取得または設定します。読み取り/書き込み Boolean。 |
 | [EmbedImages](../../aspose.slides.export.web/webdocumentoptions/embedimages) { get; set; } | 画像の埋め込みオプションを取得または設定します。読み取り/書き込み Boolean。 |
 | [OutputSaver](../../aspose.slides.export.web/webdocumentoptions/outputsaver) { get; set; } | 出力セーバーを取得または設定します。読み取り/書き込み [`IOutputSaver`](../ioutputsaver)。 |
-| [TemplateEngine](../../aspose.slides.export.web/webdocumentoptions/templateengine) { get; set; } | テンプレートエンジンを取得または設定します。読み取り/書き込み [`ITemplateEngine`](../itemplateengine)。 |
+| [TemplateEngine](../../aspose.slides.export.web/webdocumentoptions/templateengine) { get; set; } | テンプレート エンジンを取得または設定します。読み取り/書き込み [`ITemplateEngine`](../itemplateengine)。 |
 
 ### 関連項目
 

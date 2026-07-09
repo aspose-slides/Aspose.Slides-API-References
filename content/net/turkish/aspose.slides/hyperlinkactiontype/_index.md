@@ -1,14 +1,14 @@
 ---
 title: HyperlinkActionType
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir hiperlink eylemi türünü temsil eder.
+description: Bir hiperbağlantı eylemi türünü temsil eder.
 type: docs
-weight: 5110
+weight: 5130
 url: /tr/aspose.slides/hyperlinkactiontype/
 ---
 ## HyperlinkActionType enum
 
-Bir hiperlink eylemi türünü temsil eder.
+Bir hiperbağlantı eylemi türünü temsil eder.
 
 ```csharp
 public enum HyperlinkActionType
@@ -18,24 +18,24 @@ public enum HyperlinkActionType
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Unknown | `-1` | Tanımsız eylem türü. |
+| Unknown | `-1` | Tanımlanamayan eylem türü. |
 | NoAction | `0` | Eylem yok. |
-| Hyperlink | `1` | Normal hiperlink. |
+| Hyperlink | `1` | Normal hiperbağlantı. |
 | JumpFirstSlide | `2` | Sunumun ilk slaytına atla. |
-| JumpPreviousSlide | `3` | Bir önceki slayta atla. |
+| JumpPreviousSlide | `3` | Önceki slayta atla. |
 | JumpNextSlide | `4` | Sonraki slayta atla. |
 | JumpLastSlide | `5` | Sunumun son slaytına atla. |
 | JumpEndShow | `6` | Slayt gösterisinin sonuna atla. |
 | JumpLastViewedSlide | `7` | Son görüntülenen slayta atla. |
-| JumpSpecificSlide | `8` | Belirli bir slayta atla, [`TargetSlide`](../ihyperlink/targetslide) özelliğiyle belirtilen. |
+| JumpSpecificSlide | `8` | Belirli bir slayta atla, [`TargetSlide`](../ihyperlink/targetslide) özelliği tarafından referans edilir. |
 | StartCustomSlideShow | `9` | Özel slayt gösterisini başlat. |
-| OpenFile | `10` | Başvurulan dosyayı aç. |
-| OpenPresentation | `11` | Başvurulan sunumu aç. |
-| StartStopMedia | `12` | Medya dosyasını başlat/durdur. |
+| OpenFile | `10` | Referans verilen dosyayı aç. |
+| OpenPresentation | `11` | Referans verilen sunumu aç. |
+| StartStopMedia | `12` | Medya dosyasını oynatmaya başla/durdur. |
 | StartMacro | `13` | Makro betiğini çalıştırmaya başla. |
 | StartProgram | `14` | Programı başlat. |
 
-### Ayrıca Bakınız
+### Diğer Bağlantılar
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

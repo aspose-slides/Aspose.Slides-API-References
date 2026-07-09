@@ -1,14 +1,14 @@
 ---
 title: TickMarkType
 second_title: Aspose.Sildes .NET API Referansı
-description: Belirtilen eksen için işaret çizgisi türünü temsil eder.
+description: Belirtilen eksen için işaret tipini temsil eder.
 type: docs
-weight: 2430
+weight: 2450
 url: /tr/aspose.slides.charts/tickmarktype/
 ---
-## TickMarkType enumerasyonu
+## TickMarkType enum
 
-Belirtilen eksen için işaret çizgisi türünü temsil eder.
+Belirtilen eksen için işaret tipini temsil eder.
 
 ```csharp
 public enum TickMarkType
@@ -18,12 +18,12 @@ public enum TickMarkType
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Cross | `0` | İşaret çizgilerinin ekseni kesmesi gerektiğini belirtir. |
-| Inside | `1` | İşaret çizgilerinin çizim alanının içinde olması gerektiğini belirtir. |
-| None | `2` | İşaret çizgilerinin olmamasını belirtir. |
-| Outside | `3` | İşaret çizgilerinin çizim alanının dışında olması gerektiğini belirtir. |
+| Cross | `0` | İşaretlerin ekseni kesmesini belirtir. |
+| Inside | `1` | İşaretlerin çizim alanının içinde olmasını belirtir. |
+| None | `2` | İşaretlerin olmamasını belirtir. |
+| Outside | `3` | İşaretlerin çizim alanının dışında olmasını belirtir. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)
 * derleme [Aspose.Slides](../../)

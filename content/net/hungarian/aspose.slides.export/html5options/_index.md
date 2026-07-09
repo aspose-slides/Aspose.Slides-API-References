@@ -1,9 +1,9 @@
 ---
 title: Html5Options
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes .NET API Referencia
 description: HTML5 exportálási beállításokat képvisel.
 type: docs
-weight: 3840
+weight: 3860
 url: /hu/aspose.slides.export/html5options/
 ---
 ## Html5Options osztály
@@ -25,16 +25,17 @@ public class Html5Options : SaveOptions, IHtml5Options
 | Név | Leírás |
 | --- | --- |
 | [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | Visszaadja vagy beállítja a formák animációs beállítását. Olvasás/írás Boolean. |
-| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | Visszaadja vagy beállítja a átmenetek animációs beállítását. Olvasás/írás Boolean. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Visszaadja vagy beállítja a forrás betűkészlet hiányában használandó betűtípust. Olvasás/írás String. |
-| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | Megkapja vagy beállítja azt az értéket, amely azt jelzi, hogy a szöveg ligatúrák használata nélkül van-e renderelve. Ha `true` értékre van állítva, a ligatúrák le lesznek tiltva a megjelenített kimenetben. Alapértelmezés szerint ez a tulajdonság `false` értékre van állítva. |
-| [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | Visszaadja vagy beállítja a képek beágyazási beállítását. Olvasás/írás Boolean. |
+| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | Visszaadja vagy beállítja az átmenetek animációs beállítását. Olvasás/írás Boolean. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Visszaadja vagy beállítja a betűkészletet, amely akkor kerül felhasználásra, ha a forrás betűkészlet nem található. Olvasás/írás String. |
+| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | Visszaadja vagy beállítja azt az értéket, amely jelzi, hogy a szöveg ligatúrák használata nélkül kerül-e megjelenítésre. Ha `true` értékre van állítva, a ligatúrák a megjelenített kimenetben le lesznek tiltva. Alapértelmezés szerint ez a tulajdonság `false` értékre van állítva. |
+| [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | Visszaadja vagy beállítja a képek beágyazásának beállítását. Olvasás/írás Boolean. |
 | [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Visszaadja vagy beállítja a színátmenet vizuális stílusát. Olvasás/írás [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | Meghatározza, hogy a külső erőforrások hol legyenek tárolva. Olvasás/írás String. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Egy visszahívási objektumot képvisel a mentési folyamat százalékos frissítéseihez. Lásd [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Megadja, hogy a prezentáció mentésekor kihagyja-e a JavaScript hívásokat tartalmazó hiperhivatkozásokat. Olvasás/írás Boolean. Az alapértelmezett érték **false**. |
-| [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | Megkapja vagy beállítja azt a módot, ahogyan a diák az oldalon helyezkednek el a prezentáció [`ISlidesLayoutOptions`](../islideslayoutoptions) exportálásakor. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Visszaadja vagy beállítja azt az objektumot, amely figyelmeztetéseket kap, és eldönti, hogy a betöltési folyamat folytatódjon-e vagy megszakadjon. Olvasás/írás [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [PicturesCompression](../../aspose.slides.export/html5options/picturescompression) { get; set; } | A képek tömörítési szintjét képviseli |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Egy visszahívási objektumot képvisel a mentési folyamat előrehaladásának százalékos frissítéséhez. Lásd [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Megadja, hogy a prezentáció mentésekor kihagyandók-e a JavaScript hívásokat tartalmazó hiperhivatkozások. Olvasás/írás Boolean. Az alapértelmezett érték **false**. |
+| [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | Visszaadja vagy beállítja azt a módot, amelyben a diák elhelyezésre kerülnek az oldalon, amikor egy prezentációt exportálunk [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Visszaadja vagy beállítja azt az objektumot, amely figyelmeztetéseket kap, és eldönti, hogy a betöltési folyamat folytatódik-e vagy megszakad-e. Olvasás/írás [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Példák
 
@@ -57,6 +58,6 @@ using (Presentation pres = new Presentation("demo.pptx"))
 * osztály [SaveOptions](../saveoptions)
 * interfész [IHtml5Options](../ihtml5options)
 * névtér [Aspose.Slides.Export](../../aspose.slides.export)
-* összeállítás [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

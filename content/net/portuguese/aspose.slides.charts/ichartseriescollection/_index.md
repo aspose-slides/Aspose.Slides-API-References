@@ -1,9 +1,9 @@
 ---
 title: IChartSeriesCollection
-second_title: Aspose.Sildes para .NET - Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa a coleção de IChartSeries./ichartseries
 type: docs
-weight: 1920
+weight: 1940
 url: /pt/aspose.slides.charts/ichartseriescollection/
 ---
 ## IChartSeriesCollection interface
@@ -29,12 +29,12 @@ public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
 | [Add](../../aspose.slides.charts/ichartseriescollection/add#add_2)(IChartDataCell, ChartType) | Cria uma nova série de gráfico a partir de [`IChartDataCell`](../ichartdatacell) e a adiciona à coleção. |
 | [Add](../../aspose.slides.charts/ichartseriescollection/add#add_3)(string, ChartType) | Cria uma nova série de gráfico a partir do valor e a adiciona à coleção. |
 | [Clear](../../aspose.slides.charts/ichartseriescollection/clear)() | Remove todos os elementos (incluindo o estilo do gráfico) da coleção. |
-| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | Procura o [`IChartSeries`](../ichartseries) especificado e retorna o índice baseado em zero da primeira ocorrência dentro de toda a Collection |
+| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | Pesquisa o [`IChartSeries`](../ichartseries) especificado e retorna o índice baseado em zero da primeira ocorrência dentro de toda a Collection |
 | [Insert](../../aspose.slides.charts/ichartseriescollection/insert)(int, ChartType) | Cria uma nova série de gráfico e a insere na coleção. |
 | [Remove](../../aspose.slides.charts/ichartseriescollection/remove)(IChartSeries) | Remove o valor especificado. |
-| [RemoveAt](../../aspose.slides.charts/ichartseriescollection/removeat)(int) | Remove o elemento no índice especificado |
+| [RemoveAt](../../aspose.slides.charts/ichartseriescollection/removeat)(int) | Remove o elemento no índice especificado. |
 
-### Ver também
+### Veja Também
 
 * interface [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * interface [IChartSeries](../ichartseries)

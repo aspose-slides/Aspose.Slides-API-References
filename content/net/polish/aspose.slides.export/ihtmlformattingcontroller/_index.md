@@ -1,14 +1,14 @@
 ---
 title: IHtmlFormattingController
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Steruje generowaniem pliku HTML.
+second_title: Aspose.Sildes dla .NET API Reference
+description: Kontroluje generowanie pliku html.
 type: docs
-weight: 3930
+weight: 3950
 url: /pl/aspose.slides.export/ihtmlformattingcontroller/
 ---
 ## IHtmlFormattingController interfejs
 
-Steruje generowaniem pliku html.
+Kontroluje generowanie pliku html.
 
 ```csharp
 public interface IHtmlFormattingController
@@ -20,8 +20,8 @@ public interface IHtmlFormattingController
 | --- | --- |
 | [WriteDocumentEnd](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | Wywoływana w celu zapisania stopki dokumentu html. Wywoływana raz na konwersję prezentacji. |
 | [WriteDocumentStart](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | Wywoływana w celu zapisania nagłówka dokumentu html. Wywoływana raz na konwersję prezentacji. |
-| [WriteShapeEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeshapeend)(IHtmlGenerator, IShape) | Wywoływana przed renderowaniem kształtu. Wywoływana raz dla każdego kształtu. Jeśli ta funkcja zapisze cokolwiek do generatora, bieżące generowanie obrazu slajdu zostanie zakończone, dodany fragment html zostanie wstawiony, a nowy obraz zostanie rozpoczęty na wierzchu poprzedniego. |
-| [WriteShapeStart](../../aspose.slides.export/ihtmlformattingcontroller/writeshapestart)(IHtmlGenerator, IShape) | Wywoływana przed renderowaniem kształtu. Wywoływana raz dla każdego kształtu. Jeśli ta funkcja zapisze cokolwiek do generatora, bieżące generowanie obrazu slajdu zostanie zakończone, dodany fragment html zostanie wstawiony, a nowy obraz zostanie rozpoczęty na wierzchu poprzedniego. |
+| [WriteShapeEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeshapeend)(IHtmlGenerator, IShape) | Wywoływana przed renderowaniem kształtu. Wywoływana raz dla każdego kształtu. Jeśli ta funkcja zapisze cokolwiek do generatora, bieżące generowanie obrazu slajdu zostanie zakończone, dodany fragment html zostanie wstawiony, a nowy obraz zostanie rozpoczęty na górze poprzedniego. |
+| [WriteShapeStart](../../aspose.slides.export/ihtmlformattingcontroller/writeshapestart)(IHtmlGenerator, IShape) | Wywoływana przed renderowaniem kształtu. Wywoływana raz dla każdego kształtu. Jeśli ta funkcja zapisze cokolwiek do generatora, bieżące generowanie obrazu slajdu zostanie zakończone, dodany fragment html zostanie wstawiony, a nowy obraz zostanie rozpoczęty na górze poprzedniego. |
 | [WriteSlideEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeslideend)(IHtmlGenerator, ISlide) | Wywoływana w celu zapisania stopki slajdu html. Wywoływana raz dla każdego slajdu. |
 | [WriteSlideStart](../../aspose.slides.export/ihtmlformattingcontroller/writeslidestart)(IHtmlGenerator, ISlide) | Wywoływana w celu zapisania nagłówka slajdu html. Wywoływana raz dla każdego slajdu. |
 

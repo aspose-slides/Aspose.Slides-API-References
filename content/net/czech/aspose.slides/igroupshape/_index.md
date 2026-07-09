@@ -1,14 +1,14 @@
 ---
 title: IGroupShape
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje skupinu tvarů na snímku.
+description: Představuje skupinu tvarů na snímku.
 type: docs
-weight: 6060
+weight: 6080
 url: /cs/aspose.slides/igroupshape/
 ---
 ## IGroupShape rozhraní
 
-Reprezentuje skupinu tvarů na snímku.
+Představuje skupinu tvarů na snímku.
 
 ```csharp
 public interface IGroupShape : IShape
@@ -18,10 +18,10 @@ public interface IGroupShape : IShape
 
 | Název | Popis |
 | --- | --- |
-| [AsIShape](../../aspose.slides/igroupshape/asishape) { get; } | Umožňuje získat základní rozhraní IShape. Jen pro čtení [`IShape`](../ishape). |
-| [GroupShapeLock](../../aspose.slides/igroupshape/groupshapelock) { get; } | Vrací zámky tvaru. Jen pro čtení [`IGroupShapeLock`](../igroupshapelock). |
-| [ShapeLock](../../aspose.slides/igroupshape/shapelock) { get; } | Vrací zámky tvaru. Jen pro čtení [`IGroupShapeLock`](../igroupshapelock). |
-| [Shapes](../../aspose.slides/igroupshape/shapes) { get; } | Vrací kolekci tvarů uvnitř skupiny. Jen pro čtení [`IShapeCollection`](../ishapecollection). |
+| [AsIShape](../../aspose.slides/igroupshape/asishape) { get; } | Umožňuje získat základní rozhraní IShape. Pouze ke čtení [`IShape`](../ishape). |
+| [GroupShapeLock](../../aspose.slides/igroupshape/groupshapelock) { get; } | Vrací zámky tvaru. Pouze ke čtení [`IGroupShapeLock`](../igroupshapelock). |
+| [ShapeLock](../../aspose.slides/igroupshape/shapelock) { get; } | Vrací zámky tvaru. Pouze ke čtení [`IGroupShapeLock`](../igroupshapelock). |
+| [Shapes](../../aspose.slides/igroupshape/shapes) { get; } | Vrací kolekci tvarů uvnitř skupiny. Pouze ke čtení [`IShapeCollection`](../ishapecollection). |
 
 ### Viz také
 

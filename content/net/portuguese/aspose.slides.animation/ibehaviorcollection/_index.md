@@ -1,14 +1,14 @@
 ---
 title: IBehaviorCollection
-second_title: Referência da API Aspose.Sildes para .NET
-description: Representa uma coleção de efeitos de comportamento.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Representa coleção de efeitos de comportamento.
 type: docs
-weight: 400
+weight: 420
 url: /pt/aspose.slides.animation/ibehaviorcollection/
 ---
 ## IBehaviorCollection interface
 
-Representa uma coleção de efeitos de comportamento.
+Representa coleção de efeitos de comportamento.
 
 ```csharp
 public interface IBehaviorCollection : IEnumerable<IBehavior>
@@ -18,19 +18,19 @@ public interface IBehaviorCollection : IEnumerable<IBehavior>
 
 | Nome | Descrição |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/ibehaviorcollection/asienumerable) { get; } | Retorna a interface IEnumerable. Somente leitura IEnumerable. |
-| [Count](../../aspose.slides.animation/ibehaviorcollection/count) { get; } | Retorna o número de comportamentos em uma coleção. Somente leitura Int32. |
+| [AsIEnumerable](../../aspose.slides.animation/ibehaviorcollection/asienumerable) { get; } | Retorna a interface IEnumerable. IEnumerable somente leitura. |
+| [Count](../../aspose.slides.animation/ibehaviorcollection/count) { get; } | Retorna o número de comportamentos em uma coleção. Int32 somente leitura. |
 | [Item](../../aspose.slides.animation/ibehaviorcollection/item) { get; set; } | Retorna um comportamento no índice especificado. |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
-| [Add](../../aspose.slides.animation/ibehaviorcollection/add)(IBehavior) | Adiciona um novo comportamento a uma coleção. |
+| [Add](../../aspose.slides.animation/ibehaviorcollection/add)(IBehavior) | Adiciona novo comportamento a uma coleção. |
 | [Clear](../../aspose.slides.animation/ibehaviorcollection/clear)() | Remove todos os comportamentos de uma coleção. |
 | [Contains](../../aspose.slides.animation/ibehaviorcollection/contains)(IBehavior) | Determina se a ICollection contém um valor específico. |
 | [IndexOf](../../aspose.slides.animation/ibehaviorcollection/indexof)(IBehavior) | Determina o índice de um item específico na IList. |
-| [Insert](../../aspose.slides.animation/ibehaviorcollection/insert)(int, IBehavior) | Insere um novo comportamento em uma coleção no índice especificado. |
+| [Insert](../../aspose.slides.animation/ibehaviorcollection/insert)(int, IBehavior) | Insere novo comportamento em uma coleção no índice especificado. |
 | [Remove](../../aspose.slides.animation/ibehaviorcollection/remove)(IBehavior) | Remove o comportamento especificado de uma coleção. |
 | [RemoveAt](../../aspose.slides.animation/ibehaviorcollection/removeat)(int) | Remove o comportamento de uma coleção no índice especificado. |
 

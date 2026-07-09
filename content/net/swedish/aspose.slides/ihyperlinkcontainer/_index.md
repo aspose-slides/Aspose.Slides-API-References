@@ -3,7 +3,7 @@ title: IHyperlinkContainer
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar hyperlänksobjekt.
 type: docs
-weight: 6100
+weight: 6120
 url: /sv/aspose.slides/ihyperlinkcontainer/
 ---
 ## IHyperlinkContainer gränssnitt
@@ -19,10 +19,10 @@ public interface IHyperlinkContainer
 | Namn | Beskrivning |
 | --- | --- |
 | [HyperlinkClick](../../aspose.slides/ihyperlinkcontainer/hyperlinkclick) { get; set; } | Returnerar eller anger hyperlänken som definierats för musklick. Läs/skriv [`IHyperlink`](../ihyperlink). |
-| [HyperlinkManager](../../aspose.slides/ihyperlinkcontainer/hyperlinkmanager) { get; } | Hyperlänkhanteerare Endast läsning [`IHyperlinkManager`](../ihyperlinkmanager). |
-| [HyperlinkMouseOver](../../aspose.slides/ihyperlinkcontainer/hyperlinkmouseover) { get; set; } | Returnerar eller anger hyperlänken som definierats för muspekning. Läs/skriv [`IHyperlink`](../ihyperlink). |
+| [HyperlinkManager](../../aspose.slides/ihyperlinkcontainer/hyperlinkmanager) { get; } | Hyperlänshanterare Endast läs [`IHyperlinkManager`](../ihyperlinkmanager). |
+| [HyperlinkMouseOver](../../aspose.slides/ihyperlinkcontainer/hyperlinkmouseover) { get; set; } | Returnerar eller anger hyperlänken som definierats för muspekare över. Läs/skriv [`IHyperlink`](../ihyperlink). |
 
-### Se också
+### Se även
 
 * namnrymd [Aspose.Slides](../../aspose.slides)
 * samling [Aspose.Slides](../../)

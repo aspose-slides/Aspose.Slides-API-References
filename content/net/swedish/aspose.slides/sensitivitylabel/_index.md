@@ -3,7 +3,7 @@ title: SensitivityLabel
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar känslighetsetiketten från Microsoft Purview Information Protection.
 type: docs
-weight: 9770
+weight: 9790
 url: /sv/aspose.slides/sensitivitylabel/
 ---
 ## SensitivityLabel klass
@@ -19,13 +19,13 @@ public sealed class SensitivityLabel : ISensitivityLabel
 | Namn | Beskrivning |
 | --- | --- |
 | [AssignmentMethodType](../../aspose.slides/sensitivitylabel/assignmentmethodtype) { get; set; } | Returnerar eller anger tilldelningsmetoden för känslighetsetiketten. Läs/skriv [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
-| [ContentMarkTypes](../../aspose.slides/sensitivitylabel/contentmarktypes) { get; } | Returnerar listan med typer av innehållsmärkning som ska tillämpas på en fil. |
+| [ContentMarkTypes](../../aspose.slides/sensitivitylabel/contentmarktypes) { get; } | Returnerar listan med typer av innehållsmarkering som bör tillämpas på en fil. |
 | [Id](../../aspose.slides/sensitivitylabel/id) { get; set; } | Returnerar eller anger id för känslighetsetiketten. Läs/skriv String. |
-| [IsEnabled](../../aspose.slides/sensitivitylabel/isenabled) { get; set; } | Anger om känslighetsetiketten är aktiverad. |
-| [IsRemoved](../../aspose.slides/sensitivitylabel/isremoved) { get; set; } | Anger om känslighetsetiketten har tagits bort. |
-| [SiteId](../../aspose.slides/sensitivitylabel/siteid) { get; set; } | Returnerar eller anger identifieraren för Azure Active Directory (Azure AD)-platsen som motsvarar känslighetsetikettspolicyn som beskriver känslighetsetiketten. Läs/skriv Guid. |
+| [IsEnabled](../../aspose.slides/sensitivitylabel/isenabled) { get; set; } | Indikerar om känslighetsetiketten är aktiverad. |
+| [IsRemoved](../../aspose.slides/sensitivitylabel/isremoved) { get; set; } | Indikerar om känslighetsetiketten har tagits bort. |
+| [SiteId](../../aspose.slides/sensitivitylabel/siteid) { get; set; } | Returnerar eller anger Azure Active Directory (Azure AD)-platsidentifieraren som motsvarar känslighetsetikettpolicyn som beskriver känslighetsetiketten. Läs/skriv Guid. |
 
-### Se även
+### Se också
 
 * gränssnitt [ISensitivityLabel](../isensitivitylabel)
 * namnrymd [Aspose.Slides](../../aspose.slides)

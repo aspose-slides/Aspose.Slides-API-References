@@ -1,9 +1,9 @@
 ---
 title: IHtmlGenerator
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Aspose.Sildes para .NET API Reference
 description: Gerador HTML.
 type: docs
-weight: 3940
+weight: 3960
 url: /pt/aspose.slides.export/ihtmlgenerator/
 ---
 ## IHtmlGenerator interface
@@ -18,11 +18,11 @@ public interface IHtmlGenerator
 
 | Nome | Descrição |
 | --- | --- |
-| [NextSlideIndex](../../aspose.slides.export/ihtmlgenerator/nextslideindex) { get; } | Retorna o índice de um slide, que será renderizado após o slide atual ou -1 se estiver renderizando o último slide. Somente leitura Int32. |
-| [PreviousSlideIndex](../../aspose.slides.export/ihtmlgenerator/previousslideindex) { get; } | Retorna o índice do slide previamente renderizado ou -1 se o primeiro slide estiver sendo renderizado. Somente leitura Int32. |
+| [NextSlideIndex](../../aspose.slides.export/ihtmlgenerator/nextslideindex) { get; } | Retorna o índice de um slide que será renderizado após o slide atual ou -1 se estiver renderizando o último slide. Somente leitura Int32. |
+| [PreviousSlideIndex](../../aspose.slides.export/ihtmlgenerator/previousslideindex) { get; } | Retorna o índice do slide anteriormente renderizado ou -1 se o primeiro slide estiver sendo renderizado. Somente leitura Int32. |
 | [SlideImageSize](../../aspose.slides.export/ihtmlgenerator/slideimagesize) { get; } | Retorna o tamanho da imagem do slide. Somente leitura SizeF. |
-| [SlideImageSizeUnit](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunit) { get; } | Retorna a unidade na qual o tamanho da imagem do slide é especificado. Somente leitura [`SvgCoordinateUnit`](../svgcoordinateunit). |
-| [SlideImageSizeUnitCode](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunitcode) { get; } | Retorna um código CSS da unidade na qual o tamanho da imagem do slide é especificado. Somente leitura String. |
+| [SlideImageSizeUnit](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunit) { get; } | Retorna a unidade em que o tamanho da imagem do slide é especificado. Somente leitura [`SvgCoordinateUnit`](../svgcoordinateunit). |
+| [SlideImageSizeUnitCode](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunitcode) { get; } | Retorna o código CSS da unidade em que o tamanho da imagem do slide é especificado. Somente leitura String. |
 | [SlideIndex](../../aspose.slides.export/ihtmlgenerator/slideindex) { get; } | Retorna o índice do slide que está sendo renderizado no momento. Somente leitura Int32. |
 
 ## Métodos
@@ -35,9 +35,9 @@ public interface IHtmlGenerator
 | [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml)(char[]) | Adiciona texto HTML formatado. |
 | [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_2)(string) | Adiciona texto HTML formatado. |
 | [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_1)(char[], int, int) | Adiciona texto HTML formatado. |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext)(char[]) | Adiciona texto simples aos arquivos html, substituindo caracteres especiais por entidades html. Quebras de linha e espaços em branco não são substituídos. |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_2)(string) | Adiciona texto simples aos arquivos html, substituindo caracteres especiais por entidades html. Quebras de linha e espaços em branco não são substituídos. |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_1)(char[], int, int) | Adiciona texto simples aos arquivos html, substituindo caracteres especiais por entidades html. Quebras de linha e espaços em branco não são substituídos. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext)(char[]) | Adiciona texto sem formatação aos arquivos html, substituindo caracteres especiais por entidades html. Quebras de linha e espaços em branco não são substituídos. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_2)(string) | Adiciona texto sem formatação aos arquivos html, substituindo caracteres especiais por entidades html. Quebras de linha e espaços em branco não são substituídos. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_1)(char[], int, int) | Adiciona texto sem formatação aos arquivos html, substituindo caracteres especiais por entidades html. Quebras de linha e espaços em branco não são substituídos. |
 
 ### Veja Também
 

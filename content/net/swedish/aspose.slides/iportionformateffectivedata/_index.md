@@ -1,31 +1,31 @@
 ---
 title: IPortionFormatEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
-description: Oföränderligt objekt som innehåller effektiva formateringsegenskaper för textdelar.
+description: Oföränderligt objekt som innehåller effektiva formatinställningar för textdelar.
 type: docs
-weight: 6720
+weight: 6740
 url: /sv/aspose.slides/iportionformateffectivedata/
 ---
-## IPortionFormatEffectiveData interface
+## IPortionFormatEffectiveData gränssnitt
 
-Oföränderligt objekt som innehåller effektiva formateringsegenskaper för textdelar.
+Oföränderligt objekt som innehåller effektiva formatinställningar för textdelar.
 
 ```csharp
 public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
 ```
 
-## Properties
+## Egenskaper
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIBasePortionFormatEffectiveData](../../aspose.slides/iportionformateffectivedata/asibaseportionformateffectivedata) { get; } | Returnerar IBasePortionFormatEffectiveData-gränssnittet. |
+| [AsIBasePortionFormatEffectiveData](../../aspose.slides/iportionformateffectivedata/asibaseportionformateffectivedata) { get; } | Returnerar IBasePortionFormatEffectiveData gränssnitt. |
 | [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | Returnerar bokmärkesidentifierare. Skrivskyddad String. |
-| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | Returnerar hyperlänken som definierats för mus-klick. Skrivskyddad [`IHyperlink`](../ihyperlink). |
-| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | Returnerar hyperlänken som definierats för mus-over. Skrivskyddad [`IHyperlink`](../ihyperlink). |
+| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | Returnerar hyperlänken som definierats för musklick. Skrivskyddad [`IHyperlink`](../ihyperlink). |
+| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | Returnerar hyperlänken som definierats för muspekning. Skrivskyddad [`IHyperlink`](../ihyperlink). |
 
 ### Anmärkningar
 
-Detta gränssnitt används tillsammans med [`IPortionFormat`](../iportionformat)-gränssnittet för att returnera effektiva formateringsvärden med arv tillämpat.
+Detta gränssnitt används tillsammans med [`IPortionFormat`](../iportionformat) gränssnitt för att returnera effektiva formateringsvärden med arv tillämpat.
 
 ### Se även
 

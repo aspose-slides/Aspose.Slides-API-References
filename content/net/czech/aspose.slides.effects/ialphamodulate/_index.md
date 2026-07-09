@@ -1,19 +1,20 @@
 ---
 title: IAlphaModulate
-second_title: Aspose.Sildes pro .NET – referenční příručka API
-description: Representuje efekt Alpha Modulate. Hodnoty alfa (průhlednost) efektu jsou násobeny pevnou procentuální hodnotou. Kontejner efektu určuje efekt obsahující alfa hodnoty k modulaci.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Representuje efekt Alpha Modulate. Hodnoty alfa (průhlednosti) efektu jsou násobeny pevnou procentuální hodnotou. Kontejner efektu určuje efekt obsahující alfa hodnoty, které mají být modulovány.
 type: docs
-weight: 3080
+weight: 3100
 url: /cs/aspose.slides.effects/ialphamodulate/
 ---
 ## IAlphaModulate rozhraní
 
-Reprezentuje efekt Alpha Modulate. Hodnoty alfa (průhlednost) efektu jsou vynásobeny pevnou procentuální částí. Kontejner efektu specifikuje efekt obsahující alfa hodnoty k modulaci.
+Reprezentuje efekt Alpha Modulate. Hodnoty alfa (průhlednost) efektu jsou násobeny pevnou procentuální hodnotou. Kontejner efektu určuje efekt obsahující alfa hodnoty, které se mají modulovat.
 
 ```csharp
 public interface IAlphaModulate : IAccessiblePVIObject<IAlphaModulateEffectiveData>, 
     IImageTransformOperation
 ```
+
 
 ## Vlastnosti
 

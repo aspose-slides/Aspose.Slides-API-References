@@ -3,10 +3,10 @@ title: ISketchFormat
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 線のスケッチ形式のプロパティを表します。
 type: docs
-weight: 7000
+weight: 7020
 url: /ja/aspose.slides/isketchformat/
 ---
-## ISketchFormat インターフェイス
+## ISketchFormat interface
 
 線のスケッチ形式のプロパティを表します。
 
@@ -18,9 +18,9 @@ public interface ISketchFormat
 
 | 名前 | 説明 |
 | --- | --- |
-| [SketchType](../../aspose.slides/isketchformat/sketchtype) { get; set; } | スケッチ タイプを取得または設定します。 読み取り/書き込み [`LineSketchType`](../linesketchtype)。 |
+| [SketchType](../../aspose.slides/isketchformat/sketchtype) { get; set; } | スケッチタイプを取得または設定します。 読み取り/書き込み [`LineSketchType`](../linesketchtype). |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

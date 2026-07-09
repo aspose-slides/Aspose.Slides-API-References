@@ -1,14 +1,14 @@
 ---
 title: PPImageFormat
 second_title: Referência da API Aspose.Sildes para .NET
-description: Formatos de imagem. Este enum substitui a classe System.Drawing.Imaging.ImageFormat. É necessário para compatibilidade COM.
+description: Formatos de imagem. Esta enumeração substitui a classe System.Drawing.Imaging.ImageFormat. É necessária para compatibilidade COM.
 type: docs
-weight: 9240
+weight: 9260
 url: /pt/aspose.slides/ppimageformat/
 ---
 ## enumeração PPImageFormat
 
-Formatos de imagem. Este enum substitui a classe `System.Drawing.Imaging.ImageFormat`. É necessário para compatibilidade COM.
+Formatos de imagem. Esta enumeração substitui a classe `System.Drawing.Imaging.ImageFormat`. É necessária para compatibilidade COM.
 
 ```csharp
 public enum PPImageFormat
@@ -19,17 +19,17 @@ public enum PPImageFormat
 | Nome | Valor | Descrição |
 | --- | --- | --- |
 | Bmp | `0` | Obtém o formato de imagem bitmap (BMP). |
-| Emf | `1` | Obtém o formato de imagem Enhanced Metafile (EMF). |
+| Emf | `1` | Obtém o formato de imagem metafile aprimorado (EMF). |
 | Exif | `2` | Obtém o formato Exchangeable Image File (Exif). |
 | Gif | `3` | Obtém o formato de imagem Graphics Interchange Format (GIF). |
-| Icon | `4` | Obtém o formato de imagem de ícone do Windows. |
+| Icon | `4` | Obtém o formato de imagem ícone do Windows. |
 | Jpeg | `5` | Obtém o formato de imagem Joint Photographic Experts Group (JPEG). |
-| MemoryBmp | `6` | Obtém o formato de um bitmap em memória. |
-| Png | `7` | Obtém o formato de imagem Portable Network Graphics (PNG) da W3C. |
+| MemoryBmp | `6` | Obtém o formato de um bitmap na memória. |
+| Png | `7` | Obtém o formato de imagem W3C Portable Network Graphics (PNG). |
 | Tiff | `8` | Obtém o formato de imagem Tagged Image File Format (TIFF). |
-| Wmf | `9` | Obtém o formato de imagem Windows Metafile (WMF). |
+| Wmf | `9` | Obtém o formato de imagem metafile do Windows (WMF). |
 
-### Ver também
+### Veja Também
 
 * espaço de nomes [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: BrowsedAtKiosk
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Kioszkban megtekintve teljes képernyőn
+second_title: Aspose.Sildes a .NET API referencia
+description: Kioszkban böngészve teljes képernyőn
 type: docs
-weight: 1020
+weight: 1040
 url: /hu/aspose.slides/browsedatkiosk/
 ---
 ## BrowsedAtKiosk osztály
 
-Kioszkban megtekintve (teljes képernyő)
+Kioszkban böngészve (teljes képernyő)
 
 ```csharp
 public class BrowsedAtKiosk : SlideShowType
@@ -18,7 +18,7 @@ public class BrowsedAtKiosk : SlideShowType
 
 | Név | Leírás |
 | --- | --- |
-| [BrowsedAtKiosk](browsedatkiosk)() | Egy új BrowsedAtKiosk osztálypéldány inicializálása. |
+| [BrowsedAtKiosk](browsedatkiosk)() | Új példányt hoz létre a BrowsedAtKiosk osztályban. |
 
 ### Példák
 

@@ -1,12 +1,12 @@
 ---
 title: LineArrowheadStyle
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET - dokumentacja API
 description: Reprezentuje styl grotu strzałki.
 type: docs
-weight: 7720
+weight: 7740
 url: /pl/aspose.slides/linearrowheadstyle/
 ---
-## LineArrowheadStyle enumeracja
+## LineArrowheadStyle wyliczenie
 
 Reprezentuje styl grotu strzałki.
 

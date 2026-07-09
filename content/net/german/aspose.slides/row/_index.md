@@ -3,11 +3,10 @@ title: Row
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Zeile in einer Tabelle dar.
 type: docs
-weight: 9440
+weight: 9710
 url: /de/aspose.slides/row/
 ---
-
-## Row class
+## Row-Klasse
 
 Stellt eine Zeile in einer Tabelle dar.
 
@@ -19,31 +18,31 @@ public sealed class Row : CellCollection, IRow
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides/cellcollection/count) { get; } | Gibt die Anzahl der Zellen in einer Sammlung zurück. Nur-Lesen Int32. |
-| [Height](../../aspose.slides/row/height) { get; } | Gibt die Höhe einer Zeile zurück. Nur-Lesen Double. |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert ist (thread-sicher). Nur-Lesen Boolean. |
-| [Item](../../aspose.slides/cellcollection/item) { get; } | Gibt eine Zelle nach ihrer Position zurück. Nur-Lesen [`Cell`](../cell). |
-| [MinimalHeight](../../aspose.slides/row/minimalheight) { get; set; } | Gibt die minimal mögliche Höhe einer Zeile zurück oder legt sie fest. Lesen/Schreiben Double. |
-| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Gibt die übergeordnete Präsentation einer CellCollection zurück. Nur-Lesen [`IPresentation`](../ipresentation). |
-| [RowFormat](../../aspose.slides/row/rowformat) { get; } | Gibt das RowFormat-Objekt zurück, das Formatierungs Eigenschaften für diese Zeile enthält. Nur-Lesen [`IRowFormat`](../irowformat). |
-| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Gibt die übergeordnete Folie einer CellCollection zurück. Nur-Lesen [`IBaseSlide`](../ibaseslide). |
-| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Gibt eine Synchronisierungswurzel zurück. Nur-Lesen Object. |
+| [Count](../../aspose.slides/cellcollection/count) { get; } | Gibt die Anzahl der Zellen in einer Sammlung zurück. Nur lesbar Int32. |
+| [Height](../../aspose.slides/row/height) { get; } | Gibt die Höhe einer Zeile zurück. Nur lesbar Double. |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (Thread-sicher) ist. Nur lesbar Boolean. |
+| [Item](../../aspose.slides/cellcollection/item) { get; } | Gibt eine Zelle nach ihrer Position zurück. Nur lesbar [`Cell`](../cell). |
+| [MinimalHeight](../../aspose.slides/row/minimalheight) { get; set; } | Gibt die minimal mögliche Höhe einer Zeile zurück oder legt sie fest. Lesen/Schreiben Double. |
+| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Gibt die übergeordnete Präsentation einer CellCollection zurück. Nur lesbar [`IPresentation`](../ipresentation). |
+| [RowFormat](../../aspose.slides/row/rowformat) { get; } | Gibt das RowFormat-Objekt zurück, das Formatierungseigenschaften für diese Zeile enthält. Nur lesbar [`IRowFormat`](../irowformat). |
+| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Gibt die übergeordnete Folie einer CellCollection zurück. Nur lesbar [`IBaseSlide`](../ibaseslide). |
+| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Gibt ein Synchronisations-Root zurück. Nur lesbar Object. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Kopiert alle Elemente aus der Sammlung in das angegebene Array. |
-| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Gibt einen Enumerator zurück, der über die Sammlung iteriert. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat)(IParagraphFormat) | Legt die definierten Absatzformat Eigenschaften für die Absätze aller Zellen in der Zeile fest. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_1)(IPortionFormat) | Legt die definierten Portionsformat Eigenschaften für die Portionen aller Zellen in der Zeile fest. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_2)(ITextFrameFormat) | Legt die definierten Textfeldformat Eigenschaften für die Textfelder aller Zellen in der Zeile fest. |
+| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Kopiert alle Elemente der Sammlung in das angegebene Array. |
+| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Gibt einen Enumerator zurück, der die Sammlung durchläuft. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat)(IParagraphFormat) | Setzt definierte Absatzformat-Eigenschaften für alle Absätze der Zeilenzellen. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_1)(IPortionFormat) | Setzt definierte Portionenformat-Eigenschaften für alle Portionen der Zeilenzellen. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_2)(ITextFrameFormat) | Setzt definierte Textfeldformat-Eigenschaften für alle Textfelder der Zeilenzellen. |
 
 ### Siehe auch
 
-* Klasse [CellCollection](../cellcollection)
-* Schnittstelle [IRow](../irow)
-* Namensraum [Aspose.Slides](../../aspose.slides)
-* Assembly [Aspose.Slides](../../)
+* Klasse [CellCollection](../cellcollection)
+* Schnittstelle [IRow](../irow)
+* Namensraum [Aspose.Slides](../../aspose.slides)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

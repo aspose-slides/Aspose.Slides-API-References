@@ -1,14 +1,14 @@
 ---
 title: ChartThemeManager
-second_title: Aspose.Sildes for .NET API リファレンス
-description: チャートテーマの上書きにアクセスする機能を提供します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: チャートテーマの上書きへのアクセスを提供します。
 type: docs
-weight: 11040
+weight: 11060
 url: /ja/aspose.slides.theme/chartthememanager/
 ---
 ## ChartThemeManager クラス
 
-チャートテーマの上書きにアクセスする機能を提供します。
+Provides access to chart theme overriden.
 
 ```csharp
 public class ChartThemeManager : BaseOverrideThemeManager
@@ -16,16 +16,16 @@ public class ChartThemeManager : BaseOverrideThemeManager
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | OverrideTheme が継承された有効なテーマを上書きするかどうかを決定します。OverrideTheme による上書きを有効にするには OverrideTheme.Init*() メソッドを使用します。OverrideTheme の上書きを無効にするには OverrideTheme.Clear() メソッドを使用します。読み取り専用 Boolean。 |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | 上書きされるテーマオブジェクトを返します。読み書き可能 [`IOverrideTheme`](../ioverridetheme)。 |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | OverrideTheme が継承された有効なテーマを上書きするかどうかを決定します。OverrideTheme の上書きを有効にするには OverrideTheme.Init*() メソッドを使用します。OverrideTheme の上書きを無効にするには OverrideTheme.Clear() メソッドを使用します。読み取り専用 Boolean。 |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | 上書きされるテーマオブジェクトを返します。読み書き [`IOverrideTheme`](../ioverridetheme)。 |
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | スライドに余分なカラースキームを適用します。 |
+| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | スライドに追加のカラースキームを適用します。 |
 | [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | テーマオブジェクトを返します。 |
 
 ### 参照

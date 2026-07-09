@@ -1,9 +1,9 @@
 ---
 title: Blur
-second_title: Aspose.Sildes .NET için API Referansı
-description: Tam şekle, dolgu dahil, uygulanan bir Blur etkisini temsil eder. Alfa dahil tüm renk kanalları etkilenir.
+second_title: Aspose.Sildes .NET API Referansı
+description: Dolgu dahil tüm şekle uygulanan bir Blur etkisini temsil eder. Alfa dahil tüm renk kanalları etkilenir.
 type: docs
-weight: 2900
+weight: 2920
 url: /tr/aspose.slides.effects/blur/
 ---
 ## Blur sınıfı
@@ -16,21 +16,21 @@ public sealed class Blur : ImageTransformOperation, IBlur
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arabirimini almaya izin verir. Salt okunur [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | Bulanıklaştırma sonucunda nesnenin sınırlarının genişletilip genişletilmeyeceğini belirler. True, sınırların genişletildiğini, false ise genişletilmediğini gösterir. Okunabilir/Yazılabilir Boolean. |
-| [Radius](../../aspose.slides.effects/blur/radius) { get; set; } | Bulanıklık yarıçapını döndürür veya ayarlar. Okunabilir/Yazılabilir Double. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almaya izin verir. Yalnızca-okunur [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | Objenin sınırlarının bulanıklaştırma sonucunda genişletilip genişletilmeyeceğini belirler. True sınırların genişletildiğini, false ise genişletilmediğini gösterir. Okunabilir/yazılabilir Boolean. |
+| [Radius](../../aspose.slides.effects/blur/radius) { get; set; } | Bulanıklaştırma yarıçapını döndürür veya ayarlar. Okunabilir/yazılabilir Double. |
 
-## Metotlar
+## Yöntemler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/blur/equals)(object) | Belirtilen [`Blur`](../blur)'nin geçerli [`Blur`](../blur) ile eşit olup olmadığını belirler. |
-| [GetEffective](../../aspose.slides.effects/blur/geteffective)() | Uygulanan kalıtımla etkili Blur efekt verilerini alır. |
-| override [GetHashCode](../../aspose.slides.effects/blur/gethashcode)() | Belirli bir tip için bir hash işlevi olarak hizmet eder. |
+| override [Equals](../../aspose.slides.effects/blur/equals)(object) | Belirtilen [`Blur`](../blur) öğesinin mevcut [`Blur`](../blur) ile eşit olup olmadığını belirler. |
+| [GetEffective](../../aspose.slides.effects/blur/geteffective)() | Kalıtım uygulanmış etkili Blur efekti verisini alır. |
+| override [GetHashCode](../../aspose.slides.effects/blur/gethashcode)() | Belirli bir tip için hash işlevi olarak hizmet eder. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * sınıf [ImageTransformOperation](../imagetransformoperation)
 * arayüz [IBlur](../iblur)

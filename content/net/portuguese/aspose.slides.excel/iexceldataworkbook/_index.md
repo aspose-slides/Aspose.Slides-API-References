@@ -1,9 +1,9 @@
 ---
 title: IExcelDataWorkbook
-second_title: Aspose.Sildes para .NET Referência de API
-description: Representa uma pasta de trabalho que fornece acesso aos dados do Excel para uso geral.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Representa uma pasta de trabalho que fornece acesso a dados do Excel para uso geral.
 type: docs
-weight: 3690
+weight: 3710
 url: /pt/aspose.slides.excel/iexceldataworkbook/
 ---
 ## IExcelDataWorkbook interface
@@ -23,8 +23,8 @@ public interface IExcelDataWorkbook
 | [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell)(int, int, int) | Recupera uma célula da planilha especificada usando seu índice e as coordenadas da célula. |
 | [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_2)(string, int, int) | Recupera uma célula da planilha especificada usando seu nome e as coordenadas da célula. |
 | [GetCells](../../aspose.slides.excel/iexceldataworkbook/getcells)(string, bool) | Recupera uma coleção de células da pasta de trabalho que correspondem à fórmula especificada. |
-| [GetChartsFromWorksheet](../../aspose.slides.excel/iexceldataworkbook/getchartsfromworksheet)(string) | Recupera um dicionário contendo os índices e nomes de todos os gráficos na planilha especificada de uma pasta de trabalho Excel. |
-| [GetWorksheetNames](../../aspose.slides.excel/iexceldataworkbook/getworksheetnames)() | Recupera os nomes de todas as planilhas contidas na pasta de trabalho Excel. |
+| [GetChartsFromWorksheet](../../aspose.slides.excel/iexceldataworkbook/getchartsfromworksheet)(string) | Recupera um dicionário contendo os índices e nomes de todos os gráficos na planilha especificada de uma pasta de trabalho do Excel. |
+| [GetWorksheetNames](../../aspose.slides.excel/iexceldataworkbook/getworksheetnames)() | Recupera os nomes de todas as planilhas contidas na pasta de trabalho do Excel. |
 
 ### Veja Também
 

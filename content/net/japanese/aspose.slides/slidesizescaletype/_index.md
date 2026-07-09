@@ -1,9 +1,9 @@
 ---
 title: SlideSizeScaleType
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: スライド コンテンツのスケール タイプを表します。
 type: docs
-weight: 10490
+weight: 10510
 url: /ja/aspose.slides/slidesizescaletype/
 ---
 ## SlideSizeScaleType 列挙型
@@ -22,7 +22,7 @@ public enum SlideSizeScaleType
 | EnsureFit | `1` | フィットするようにスケールします。 |
 | Maximize | `2` | コンテンツのサイズを最大化します。 |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

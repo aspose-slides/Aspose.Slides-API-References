@@ -1,12 +1,12 @@
 ---
 title: IWarningCallback
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET Referencja API
 description: Interfejs dla klas, które otrzymują ostrzeżenia
 type: docs
-weight: 11780
+weight: 11800
 url: /pl/aspose.slides.warnings/iwarningcallback/
 ---
-## IWarningCallback interfejs
+## Interfejs IWarningCallback
 
 Interfejs dla klas, które otrzymują ostrzeżenie
 
@@ -18,7 +18,7 @@ public interface IWarningCallback
 
 | Nazwa | Opis |
 | --- | --- |
-| [Warning](../../aspose.slides.warnings/iwarningcallback/warning)(IWarningInfo) | Metoda wywołania zwrotnego, która otrzymuje ostrzeżenie i decyduje, czy operacja powinna zostać przerwana. |
+| [Warning](../../aspose.slides.warnings/iwarningcallback/warning)(IWarningInfo) | Metoda zwrotna, która odbiera ostrzeżenie i decyduje, czy operacja ma zostać przerwana. |
 
 ### Zobacz także
 

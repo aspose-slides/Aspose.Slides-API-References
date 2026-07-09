@@ -1,9 +1,9 @@
 ---
 title: AnimationTimeLine
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Animasyonun zaman çizelgesini temsil eder.
 type: docs
-weight: 110
+weight: 130
 url: /tr/aspose.slides.animation/animationtimeline/
 ---
 ## AnimationTimeLine sınıfı
@@ -18,8 +18,8 @@ public class AnimationTimeLine : DomObject<BaseSlide>, IAnimationTimeLine
 
 | Ad | Açıklama |
 | --- | --- |
-| [InteractiveSequences](../../aspose.slides.animation/animationtimeline/interactivesequences) { get; } | Etkileşimli sekansların koleksiyonunu döndürür. Bu sekanslar yalnızca belirtilen hedef şekle “şekle tıklama” etkileri içerebilir. Salt okunur [`ISequenceCollection`](../isequencecollection). |
-| [MainSequence](../../aspose.slides.animation/animationtimeline/mainsequence) { get; } | Yalnızca ana efekt koleksiyonunu içerebilen ana sekansı döndürür. Salt okunur [`ISequence`](../isequence). |
+| [InteractiveSequences](../../aspose.slides.animation/animationtimeline/interactivesequences) { get; } | Etkin etkileşimli dizilerin koleksiyonunu döndürür. Bu diziler yalnızca "click on shape" ile belirtilen hedef şekil tarafından başlatılan efektleri içerebilir. Salt okunur [`ISequenceCollection`](../isequencecollection). |
+| [MainSequence](../../aspose.slides.animation/animationtimeline/mainsequence) { get; } | Yalnızca ana efekt koleksiyonunu içerebilecek ana diziyi döndürür. Salt okunur [`ISequence`](../isequence). |
 | [TextAnimationCollection](../../aspose.slides.animation/animationtimeline/textanimationcollection) { get; } | Metin animasyonlarının koleksiyonunu döndürür. Salt okunur [`ITextAnimationCollection`](../itextanimationcollection). |
 
 ### Ayrıca Bakınız

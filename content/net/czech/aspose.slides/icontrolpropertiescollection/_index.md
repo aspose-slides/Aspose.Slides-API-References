@@ -1,14 +1,14 @@
 ---
 title: IControlPropertiesCollection
-second_title: Aspose.Sildes pro .NET referenci API
-description: Sbírka ActiveX ovládacích prvků.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Sbírka ovládacích prvků ActiveX.
 type: docs
-weight: 5630
+weight: 5650
 url: /cs/aspose.slides/icontrolpropertiescollection/
 ---
 ## IControlPropertiesCollection rozhraní
 
-Sbírka ActiveX ovládacích prvků.
+Sbírka ovládacích prvků ActiveX.
 
 ```csharp
 public interface IControlPropertiesCollection : IEnumerable<KeyValuePair<string, string>>
@@ -18,10 +18,10 @@ public interface IControlPropertiesCollection : IEnumerable<KeyValuePair<string,
 
 | Název | Popis |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides/icontrolpropertiescollection/asienumerable) { get; } | Vrací rozhraní IEnumerable. Pouze pro čtení IEnumerable. |
-| [Count](../../aspose.slides/icontrolpropertiescollection/count) { get; } | Vrací počet vlastností ve sbírce. Pouze pro čtení Int32. |
+| [AsIEnumerable](../../aspose.slides/icontrolpropertiescollection/asienumerable) { get; } | Vrací rozhraní IEnumerable. Pouze ke čtení IEnumerable. |
+| [Count](../../aspose.slides/icontrolpropertiescollection/count) { get; } | Vrací počet vlastností ve sbírce. Pouze ke čtení Int32. |
 | [Item](../../aspose.slides/icontrolpropertiescollection/item) { get; set; } | Vrací nebo nastavuje vlastnost. |
-| [NamesOfProperties](../../aspose.slides/icontrolpropertiescollection/namesofproperties) { get; } | Vrací počet vlastností ve sbírce. Pouze pro čtení ICollection. |
+| [NamesOfProperties](../../aspose.slides/icontrolpropertiescollection/namesofproperties) { get; } | Vrací počet vlastností ve sbírce. Pouze ke čtení ICollection. |
 
 ## Metody
 

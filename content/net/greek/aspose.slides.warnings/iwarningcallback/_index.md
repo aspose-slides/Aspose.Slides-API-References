@@ -1,14 +1,14 @@
 ---
 title: IWarningCallback
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Διασύνδεση για κλάσεις που λαμβάνουν προειδοποίηση
+second_title: Aspose.Sildes για .NET Αναφορά API
+description: Διεπαφή για κλάσεις που λαμβάνουν προειδοποίηση
 type: docs
-weight: 11780
+weight: 11800
 url: /el/aspose.slides.warnings/iwarningcallback/
 ---
-## IWarningCallback διασύνδεση
+## Διεπαφή IWarningCallback
 
-Διασύνδεση για κλάσεις που λαμβάνουν προειδοποίηση
+Διεπαφή για κλάσεις που λαμβάνουν προειδοποίηση
 
 ```csharp
 public interface IWarningCallback
@@ -18,7 +18,7 @@ public interface IWarningCallback
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Warning](../../aspose.slides.warnings/iwarningcallback/warning)(IWarningInfo) | Μέθοδος callback που λαμβάνει προειδοποίηση και αποφασίζει αν η λειτουργία πρέπει να τερματιστεί. |
+| [Warning](../../aspose.slides.warnings/iwarningcallback/warning)(IWarningInfo) | Μέθοδος επανάκλησης που λαμβάνει προειδοποίηση και αποφασίζει αν η λειτουργία πρέπει να ματαιωθεί. |
 
 ### Δείτε επίσης
 

@@ -1,14 +1,14 @@
 ---
 title: FontAlignment
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: 垂直方向のフォント配置を表します。
 type: docs
-weight: 4780
+weight: 4800
 url: /ja/aspose.slides/fontalignment/
 ---
-## FontAlignment 列挙型
+## FontAlignment 列挙
 
-垂直フォント配置を表します。
+垂直方向のフォント配置を表します。
 
 ```csharp
 public enum FontAlignment

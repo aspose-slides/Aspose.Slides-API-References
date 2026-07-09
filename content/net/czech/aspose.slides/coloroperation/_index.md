@@ -1,14 +1,14 @@
 ---
 title: ColorOperation
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje různé operace barev používané pro transformace barev. Neměnný objekt.
+description: Reprezentuje různé operace barev používané pro transformace barev. Neměnný objekt.
 type: docs
-weight: 2510
+weight: 2530
 url: /cs/aspose.slides/coloroperation/
 ---
 ## ColorOperation třída
 
-Představuje různé operace barev používané pro transformace barev. Neměnný objekt.
+Reprezentuje různé operace barev používané pro transformace barev. Neměnný objekt.
 
 ```csharp
 public class ColorOperation : IColorOperation
@@ -18,8 +18,8 @@ public class ColorOperation : IColorOperation
 
 | Název | Popis |
 | --- | --- |
-| [ColorOperation](coloroperation#constructor)(ColorTransformOperation) | Vytvoří novou operaci transformace barev. |
-| [ColorOperation](coloroperation#constructor_1)(ColorTransformOperation, float) | Vytvoří novou operaci transformace barev. |
+| [ColorOperation](coloroperation#constructor)(ColorTransformOperation) | Vytváří novou operaci transformace barev. |
+| [ColorOperation](coloroperation#constructor_1)(ColorTransformOperation, float) | Vytváří novou operaci transformace barev. |
 
 ## Vlastnosti
 

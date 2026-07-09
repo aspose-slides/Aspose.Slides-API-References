@@ -1,14 +1,14 @@
 ---
 title: OptionalBlackTransition
 second_title: Aspose.Sildes for .NET API リファレンス
-description: オプションの黒スライド遷移効果。
+description: オプションの黒いスライド遷移効果。
 type: docs
-weight: 10240
+weight: 10260
 url: /ja/aspose.slides.slideshow/optionalblacktransition/
 ---
 ## OptionalBlackTransition クラス
 
-オプションの黒スライド遷移効果。
+オプションの黒いスライド遷移効果。
 
 ```csharp
 public class OptionalBlackTransition : TransitionValueBase, IOptionalBlackTransition
@@ -18,19 +18,19 @@ public class OptionalBlackTransition : TransitionValueBase, IOptionalBlackTransi
 
 | 名前 | 説明 |
 | --- | --- |
-| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | この属性は、遷移が黒い画面から開始されるかどうか（その後、新しいスライドが黒の上で遷移します）を指定します。読み取り/書き込み可能な Boolean。 |
+| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | この属性は、遷移が黒い画面から開始するかどうかを指定します（その後、黒を通して新しいスライドに遷移します）。読み書き可能な Boolean。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 2つの TransitionValueBase インスタンスが等しいかどうかを判断します。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 特定の型のハッシュ関数として機能し、ハッシュテーブルなどのハッシュアルゴリズムやデータ構造で使用できるようにします。 |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 2 つの TransitionValueBase インスタンスが等しいかどうかを判断します。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 特定の型に対するハッシュ関数として機能し、ハッシュアルゴリズムやハッシュテーブルなどのデータ構造で使用できるようにします。 |
 
-### 参照
+### 関連項目
 
 * クラス [TransitionValueBase](../transitionvaluebase)
-* インターフェース [IOptionalBlackTransition](../ioptionalblacktransition)
+* インターフェイス [IOptionalBlackTransition](../ioptionalblacktransition)
 * 名前空間 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * アセンブリ [Aspose.Slides](../../)
 

@@ -1,14 +1,14 @@
 ---
 title: IChartSeriesGroupCollection
-second_title: Aspose.Sildes .NET API hivatkozás
-description: A kombinálható sorozatok csoportjainak gyűjteményét képviseli.
+second_title: Aspose.Sildes .NET API referencia
+description: Képviseli a kombinálható sorozatcsoportok gyűjteményét.
 type: docs
-weight: 1940
+weight: 1960
 url: /hu/aspose.slides.charts/ichartseriesgroupcollection/
 ---
 ## IChartSeriesGroupCollection interfész
 
-A kombinálható sorozatok csoportjainak gyűjteményét képviseli.
+Képviseli a kombinálható sorozatcsoportok gyűjteményét.
 
 ```csharp
 public interface IChartSeriesGroupCollection : IGenericCollection<IChartSeriesGroup>
@@ -18,12 +18,13 @@ public interface IChartSeriesGroupCollection : IGenericCollection<IChartSeriesGr
 
 | Név | Leírás |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartseriesgroupcollection/item) { get; } | A sorozat alapján lekéri a sorozatcsoportot. (2 indexers) |
+| [Item](../../aspose.slides.charts/ichartseriesgroupcollection/item) { get; } | Lekéri a sorozatcsoportot sorozat alapján. (2 indexer) |
 
-### Megjegyzések
+### Megjegyzés
 
-1) Minden sorozatcsoport olyan sorozatokat tartalmaz, amelyek kombinálható típusúak. A kombinálható sorozattípusok csoportjait a CombinableSeriesTypesGroup enum határozza meg és írja le. Továbbá minden sorozatcsoport olyan sorozatokat tartalmaz, amelyek vagy elsődleges, vagy másodlagos tengelyeken vannak ábrázolva (nem mindkét eset egy csoportban). Így a sorozatok csoportosításának elve a fent említett típuscsoportok szerinti és az elsődleges/másodlagos ábrázolási típus szerinti csoportosítás.  
-2) A sorozatcsoport néhány sorozattulajdonságot tartalmaz, amelyek közösek a csoport minden sorozata számára („series group properties”). A „Series group properties” a ChartSeriesGroup osztályban olvasás/írás. Minden „series group properties” csak-olvasású vetületet kaphat a ChartSeries osztályban.
+1) Minden sorozatcsoport olyan sorozatokat tartalmaz, amelyek kombinálható típusúak. A kombinálható sorozattípusok csoportjai a **CombinableSeriesTypesGroup** enum-mal vannak definiálva és leírva. Emellett minden sorozatcsoport olyan sorozatokat tartalmaz, amelyek vagy az elsődleges tengelyen, vagy a másodlagos tengelyen vannak ábrázolva (nem mindkét eset egyszerre egy csoportban). Így a sorozatcsoportosítás elve a fent említett típuscsoportok és az elsődleges/másodlagos ábrázolási típus szerinti csoportosítás.
+
+2) A sorozatcsoport néhány sorozat tulajdonságot tartalmaz, amelyek közösek a csoport összes sorozata számára („sorozatcsoport tulajdonságok”). A „sorozatcsoport tulajdonságok” a **ChartSeriesGroup** osztályban olvasható/írható. Minden „sorozatcsoport tulajdonság” rendelkezhet csak olvasható nézettel a **ChartSeries** osztályban.
 
 ### Lásd még
 

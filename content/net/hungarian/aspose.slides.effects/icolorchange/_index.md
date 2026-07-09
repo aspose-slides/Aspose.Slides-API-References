@@ -1,14 +1,14 @@
 ---
 title: IColorChange
-second_title: Aspose.Sildes .NET-hez API referenciája
-description: Színmódosító hatást képvisel. A FromColor példányait a ToColor példányok helyettesítik.
+second_title: Aspose.Sildes .NET API referencia
+description: Színváltoztatási hatást képvisel. A FromColor példányait a ToColor példáulai helyettesítik.
 type: docs
-weight: 3200
+weight: 3220
 url: /hu/aspose.slides.effects/icolorchange/
 ---
 ## IColorChange interfész
 
-A Color Change hatást képviseli. A FromColor példányait a ToColor példányai helyettesítik.
+Színváltoztatási hatást képvisel. A FromColor példányait a ToColor példányai helyettesítik.
 
 ```csharp
 public interface IColorChange : IAccessiblePVIObject<IColorChangeEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IColorChange : IAccessiblePVIObject<IColorChangeEffectiveData>,
 
 | Név | Leírás |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorchange/asiaccessiblepviobject) { get; } | Lehetővé teszi a bázis IAccessiblePVIObject interfész lekérését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/icolorchange/asiimagetransformoperation) { get; } | Lehetővé teszi a bázis IImageTransformOperation interfész lekérését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorchange/asiaccessiblepviobject) { get; } | Lehetővé teszi az alap IAccessiblePVIObject interfész elérését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/icolorchange/asiimagetransformoperation) { get; } | Lehetővé teszi az alap IImageTransformOperation interfész elérését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
 | [FromColor](../../aspose.slides.effects/icolorchange/fromcolor) { get; } | A cserélendő szín. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [ToColor](../../aspose.slides.effects/icolorchange/tocolor) { get; } | A helyettesítő szín. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
 

@@ -1,14 +1,14 @@
 ---
 title: CombinableSeriesTypesGroup
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Wyliczenie grup łączonych typów serii. Każdy element odnosi się do grupy typów serii wykresu, które mogą współistnieć jednocześnie w jednej ChartSeriesGroup. Na przykład seria ChartType.PercentsStackedArea nie może współistnieć z serią ChartType.StackedArea w jednej ChartSeriesGroup. Jednak dwie lub więcej serii ChartType.PercentsStackedArea mogą znajdować się jednocześnie w jednej ChartSeriesGroup (CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea). A seria ChartType.Line może być jednocześnie z serią ChartType.LineWithMarkers w jednej CombinableSeriesTypesGroup.LineChart_Line ChartSeriesGroup.
+second_title: Aspose.Sildes dla .NET - odniesienie API
+description: Enumeracja grup kombinowalnych typów serii. Każdy element odnosi się do grupy typów serii wykresu, które mogą współistnieć jednocześnie w jednej ChartSeriesGroup. Na przykład serie ChartType.PercentsStackedArea nie mogą jednocześnie występować z seriami ChartType.StackedArea w jednej ChartSeriesGroup. Jednak dwie lub więcej serii ChartType.PercentsStackedArea mogą znajdować się w jednej ChartSeriesGroup jednocześnie CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea. I serie ChartType.Line mogą być jednocześnie z seriami ChartType.LineWithMarkers w jednej CombinableSeriesTypesGroup.LineChart_Line ChartSeriesGroup.
 type: docs
-weight: 1510
+weight: 1530
 url: /pl/aspose.slides.charts/combinableseriestypesgroup/
 ---
 ## CombinableSeriesTypesGroup enumeracja
 
-Wyliczenie grup łączonych typów serii. Każdy element odnosi się do grupy typów serii wykresu, które mogą współistnieć jednocześnie w jednej ChartSeriesGroup. Na przykład: seria ChartType.PercentsStackedArea nie może współistnieć z serią ChartType.StackedArea w jednej ChartSeriesGroup. Jednak dwie lub więcej serii ChartType.PercentsStackedArea mogą znajdować się jednocześnie w jednej ChartSeriesGroup (CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea). A seria ChartType.Line może być jednocześnie z serią ChartType.LineWithMarkers w jednej CombinableSeriesTypesGroup.LineChart_Line ChartSeriesGroup.
+Enumeracja grup kombinowalnych typów serii. Każdy element odnosi się do grupy typów serii wykresu, które mogą współistnieć jednocześnie w jednej ChartSeriesGroup. Na przykład serie ChartType.PercentsStackedArea nie mogą jednocześnie występować z serią ChartType.StackedArea w jednej ChartSeriesGroup. Natomiast dwie lub więcej serii ChartType.PercentsStackedArea mogą znajdować się w jednej ChartSeriesGroup jednocześnie (CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea). Seria ChartType.Line może być jednocześnie z serią ChartType.LineWithMarkers w jednej CombinableSeriesTypesGroup.LineChart_Line ChartSeriesGroup.
 
 ```csharp
 public enum CombinableSeriesTypesGroup

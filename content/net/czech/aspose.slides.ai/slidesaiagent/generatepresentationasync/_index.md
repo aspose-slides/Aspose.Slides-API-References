@@ -1,14 +1,14 @@
 ---
 title: GeneratePresentationAsync
-second_title: Aspose.Sildes pro .NET – reference API
-description: Generuje instanci prezentace z textového popisu. Poskytněte téma, nápady, citáty nebo úryvky textu v požadovaném jazyce.
+second_title: Aspose.Sildes pro .NET – referenční příručka API
+description: Vytvoří instanci prezentace z textového popisu. Zadejte téma, nápady, citáty nebo úryvky textu v požadovaném jazyce.
 type: docs
 weight: 30
 url: /cs/aspose.slides.ai/slidesaiagent/generatepresentationasync/
 ---
 ## GeneratePresentationAsync(string, PresentationContentAmountType) {#generatepresentationasync}
 
-Vytváří instanci prezentace z textového popisu. Poskytněte téma, nápady, citáty nebo úryvky textu v požadovaném jazyce.
+Vytvoří instanci prezentace z textového popisu. Zadejte téma, nápady, citáty nebo úryvky textu v požadovaném jazyce.
 
 ```csharp
 public Task<IPresentation> GeneratePresentationAsync(string description, 
@@ -24,12 +24,20 @@ public Task<IPresentation> GeneratePresentationAsync(string description,
 
 | výjimka | podmínka |
 | --- | --- |
-| ArgumentException | AI chat instruction can't be null or empty. |
+| ArgumentException | Instrukce AI chatu nesmí být null nebo prázdná. |
+
+### Poznámky
+
+Níže uvedený příklad používá výchozí [`AsposeAIWebClient`](../../asposeaiwebclient), který je vytvořen bezparametrovým [`SlidesAIAgent`](../slidesaiagent) konstruktorem a připojuje se k vlastní LLM společnosti Aspose. Chcete-li použít jiného poskytovatele AI, dodat vlastní LLM nebo přizpůsobit připojení (například poskytnutím vlastního `HttpClient`), předáte implementaci [`IAIWebClient`](../../iaiwebclient) konstruktoru [`SlidesAIAgent`](../slidesaiagent). Dostupné implementace zahrnují:
+
+* [`AsposeAIWebClient`](../../asposeaiwebclient)
+* [`OpenAIWebClient`](../../openaiwebclient)
+* [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
 
 ### Viz také
 
 * rozhraní [IPresentation](../../../aspose.slides/ipresentation)
-* výčtový typ [PresentationContentAmountType](../../presentationcontentamounttype)
+* výčet [PresentationContentAmountType](../../presentationcontentamounttype)
 * třída [SlidesAIAgent](../../slidesaiagent)
 * jmenný prostor [Aspose.Slides.AI](../../slidesaiagent)
 * sestavení [Aspose.Slides](../../../)
@@ -38,7 +46,7 @@ public Task<IPresentation> GeneratePresentationAsync(string description,
 
 ## GeneratePresentationAsync(string, PresentationContentAmountType, IPresentation) {#generatepresentationasync_1}
 
-Vytváří instanci prezentace z textového popisu. Poskytněte téma, nápady, citáty nebo úryvky textu v požadovaném jazyce.
+Vytvoří instanci prezentace z textového popisu. Zadejte téma, nápady, citáty nebo úryvky textu v požadovaném jazyce.
 
 ```csharp
 public Task<IPresentation> GeneratePresentationAsync(string description, 
@@ -55,13 +63,21 @@ public Task<IPresentation> GeneratePresentationAsync(string description,
 
 | výjimka | podmínka |
 | --- | --- |
-| ArgumentNullException | Presentation template is not provided. |
-| ArgumentException | AI chat instruction can't be null or empty. |
+| ArgumentNullException | Šablona prezentace není zadána. |
+| ArgumentException | Instrukce AI chatu nesmí být null nebo prázdná. |
+
+### Poznámky
+
+Níže uvedený příklad používá výchozí [`AsposeAIWebClient`](../../asposeaiwebclient), který je vytvořen bezparametrovým [`SlidesAIAgent`](../slidesaiagent) konstruktorem a připojuje se k vlastní LLM společnosti Aspose. Chcete-li použít jiného poskytovatele AI, dodat vlastní LLM nebo přizpůsobit připojení (například poskytnutím vlastního `HttpClient`), předáte implementaci [`IAIWebClient`](../../iaiwebclient) konstruktoru [`SlidesAIAgent`](../slidesaiagent). Dostupné implementace zahrnují:
+
+* [`AsposeAIWebClient`](../../asposeaiwebclient)
+* [`OpenAIWebClient`](../../openaiwebclient)
+* [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
 
 ### Viz také
 
 * rozhraní [IPresentation](../../../aspose.slides/ipresentation)
-* výčtový typ [PresentationContentAmountType](../../presentationcontentamounttype)
+* výčet [PresentationContentAmountType](../../presentationcontentamounttype)
 * třída [SlidesAIAgent](../../slidesaiagent)
 * jmenný prostor [Aspose.Slides.AI](../../slidesaiagent)
 * sestavení [Aspose.Slides](../../../)

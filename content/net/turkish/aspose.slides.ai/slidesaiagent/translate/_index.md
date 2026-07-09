@@ -1,14 +1,14 @@
 ---
 title: Translate
-second_title: Aspose.Sildes için .NET API Referansı
-description: AI kullanarak bir sunumu belirtilen dile senkron sürümde çevirir.
+second_title: Aspose.Sildes .NET API Referansı
+description: AI kullanarak senkron sürümde bir sunumu belirtilen dile çevirir.
 type: docs
 weight: 40
 url: /tr/aspose.slides.ai/slidesaiagent/translate/
 ---
 ## SlidesAIAgent.Translate metodu
 
-AI kullanarak bir sunumu belirtilen dile çevirir (senkron sürüm).
+Bir sunumu belirtilen dile AI kullanarak çevirir (senkron sürüm).
 
 ```csharp
 public void Translate(IPresentation presentation, string language)
@@ -21,12 +21,20 @@ public void Translate(IPresentation presentation, string language)
 
 ### İstisnalar
 
-| istisna | koşul |
+| İstisna | Koşul |
 | --- | --- |
-| ArgumentNullException | Presentation örneği sağlanmadı |
-| ArgumentException | language değeri null veya boş olamaz |
+| ArgumentNullException | Sunum örneği sağlanmadı |
+| ArgumentException | Dil değeri null veya boş olamaz |
 
-### Ayrıca Bakınız
+### Açıklamalar
+
+Aşağıdaki örnek varsayılan [`AsposeAIWebClient`](../../asposeaiwebclient) öğesini kullanır; bu, parametresiz [`SlidesAIAgent`](../slidesaiagent) yapıcı tarafından oluşturulur ve Aspose'un kendi LLM'sine bağlanır. Farklı bir AI sağlayıcısı kullanmak, kendi LLM'nizi sağlamak veya bağlantıyı özelleştirmek (örneğin, kendi `HttpClient`'ınızı sağlayarak) için, [`IAIWebClient`](../../iaiwebclient) uygulamasını [`SlidesAIAgent`](../slidesaiagent) yapıcısına geçirin. Mevcut uygulamalar şunları içerir:
+
+* [`AsposeAIWebClient`](../../asposeaiwebclient)
+* [`OpenAIWebClient`](../../openaiwebclient)
+* [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
+
+### Bakınız
 
 * arayüz [IPresentation](../../../aspose.slides/ipresentation)
 * sınıf [SlidesAIAgent](../../slidesaiagent)

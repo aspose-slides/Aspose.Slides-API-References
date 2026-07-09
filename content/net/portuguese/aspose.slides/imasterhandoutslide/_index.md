@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlide
-second_title: Aspose.Sildes para Referência da API .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa o slide mestre para folhetos.
 type: docs
-weight: 6330
+weight: 6350
 url: /pt/aspose.slides/imasterhandoutslide/
 ---
 ## IMasterHandoutSlide interface
 
-Representa o slide mestre para anotações.
+Representa o slide mestre para folhetos.
 
 ```csharp
 public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
@@ -20,8 +20,8 @@ public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
 | --- | --- |
 | [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | Permite obter a interface base IBaseSlide. Somente leitura [`IBaseSlide`](../ibaseslide). |
 | [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | Retorna a interface IMasterThemeable. Somente leitura [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | Retorna uma coleção de guias de desenho para o slide mestre de anotações. Somente leitura [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | Retorna o gerenciador HeaderFooter do slide mestre de anotações. Somente leitura [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
+| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | Retorna uma coleção de guias de desenho para o slide mestre de folheto. Somente leitura [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | Retorna o gerenciador HeaderFooter do slide mestre de folheto. Somente leitura [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
 
 ### Veja Também
 

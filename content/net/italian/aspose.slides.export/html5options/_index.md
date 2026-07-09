@@ -1,12 +1,12 @@
 ---
 title: Html5Options
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta le opzioni di esportazione HTML5.
 type: docs
-weight: 3840
+weight: 3860
 url: /it/aspose.slides.export/html5options/
 ---
-## classe Html5Options
+## Html5Options classe
 
 Rappresenta le opzioni di esportazione HTML5.
 
@@ -24,17 +24,18 @@ public class Html5Options : SaveOptions, IHtml5Options
 
 | Nome | Descrizione |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | Restituisce o imposta l'opzione di animazione delle forme. Lettura/Scrittura Boolean. |
-| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | Restituisce o imposta l'opzione di animazione delle transizioni. Lettura/Scrittura Boolean. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Restituisce o imposta il font utilizzato nel caso in cui il font di origine non sia trovato. Lettura/Scrittura String. |
-| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | Ottiene o imposta un valore che indica se il testo viene renderizzato senza utilizzare le legature. Quando impostato su `true`, le legature saranno disabilitate nell'output renderizzato. Per impostazione predefinita, questa proprietà è impostata su `false`. |
-| [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | Restituisce o imposta l'opzione di incorporamento delle immagini. Lettura/Scrittura Boolean. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Restituisce o imposta lo stile visivo del gradiente. Lettura/Scrittura [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | Determina dove devono essere archiviati le risorse esterne. Lettura/Scrittura String. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Rappresenta un oggetto callback per il salvataggio degli aggiornamenti di avanzamento in percentuale. Vedi [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Specifica se saltare i collegamenti ipertestuali con chiamate JavaScript durante il salvataggio della presentazione. Lettura/Scrittura Boolean. Il valore predefinito è **false**. |
-| [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | Ottiene o imposta la modalità in cui le diapositive sono posizionate sulla pagina durante l'esportazione di una presentazione [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Restituisce o imposta un oggetto che riceve avvisi e decide se il processo di caricamento continuerà o verrà interrotto. Lettura/Scrittura [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | Restituisce o imposta l'opzione di animazione delle forme. Lettura/scrittura Boolean. |
+| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | Restituisce o imposta l'opzione di animazione delle transizioni. Lettura/scrittura Boolean. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Restituisce o imposta il carattere da utilizzare nel caso in cui il carattere di origine non sia trovato. Lettura-scrittura String. |
+| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | Ottiene o imposta un valore che indica se il testo viene visualizzato senza utilizzare le legature. Quando impostato a `true`, le legature saranno disabilitate nell'output renderizzato. Per impostazione predefinita, questa proprietà è impostata su `false`. |
+| [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | Restituisce o imposta l'opzione di incorporamento delle immagini. Lettura/scrittura Boolean. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Restituisce o imposta lo stile visuale del gradiente. Lettura/scrittura [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | Determina dove devono essere archiviate le risorse esterne. Lettura/scrittura String. |
+| [PicturesCompression](../../aspose.slides.export/html5options/picturescompression) { get; set; } | Rappresenta il livello di compressione delle immagini |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Rappresenta un oggetto di callback per gli aggiornamenti di progresso del salvataggio in percentuale. Vedi [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Specifica se saltare i collegamenti ipertestuali con chiamate JavaScript durante il salvataggio della presentazione. Lettura/scrittura Boolean. Il valore predefinito è **false**. |
+| [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | Ottiene o imposta la modalità in cui le diapositive vengono posizionate sulla pagina durante l'esportazione di una presentazione [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Restituisce o imposta un oggetto che riceve avvisi e decide se il processo di caricamento continuerà o sarà interrotto. Lettura/scrittura [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Esempi
 
@@ -52,7 +53,7 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### Vedi anche
+### Vedere anche
 
 * classe [SaveOptions](../saveoptions)
 * interfaccia [IHtml5Options](../ihtml5options)

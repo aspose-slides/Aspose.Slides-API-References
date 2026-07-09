@@ -1,14 +1,14 @@
 ---
 title: AutoShapeLock
-second_title: Aspose.Sildes の .NET API リファレンス
-description: 親 AutoshapeEx 上で無効化されている操作を決定します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: 親 AutoshapeEx で無効化されている操作を決定します。
 type: docs
-weight: 890
+weight: 910
 url: /ja/aspose.slides/autoshapelock/
 ---
 ## AutoShapeLock クラス
 
-親 AutoshapeEx で無効になっている操作を決定します。
+親 AutoshapeEx で無効化されている操作を決定します。
 
 ```csharp
 public class AutoShapeLock : BaseShapeLock, IAutoShapeLock
@@ -18,18 +18,18 @@ public class AutoShapeLock : BaseShapeLock, IAutoShapeLock
 
 | 名前 | 説明 |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/autoshapelock/adjusthandleslocked) { get; set; } | 調整値の変更が禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
-| [ArrowheadsLocked](../../aspose.slides/autoshapelock/arrowheadslocked) { get; set; } | 矢じりの変更が禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
-| [AspectRatioLocked](../../aspose.slides/autoshapelock/aspectratiolocked) { get; set; } | サイズ変更時に形状がアスペクト比を維持する必要があるかどうかを決定します。読み取り/書き込み Boolean。 |
-| [EditPointsLocked](../../aspose.slides/autoshapelock/editpointslocked) { get; set; } | この形状の輪郭を直接変更することが禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
-| [GroupingLocked](../../aspose.slides/autoshapelock/groupinglocked) { get; set; } | この形状をグループに追加することが禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | すべてのロックフラグが無効である場合に true を返します。読み取り専用 Boolean。 |
-| [PositionLocked](../../aspose.slides/autoshapelock/positionlocked) { get; set; } | この形状の移動が禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
-| [RotateLocked](../../aspose.slides/autoshapelock/rotatelocked) { get; set; } | この形状の回転角度の変更が禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
-| [SelectLocked](../../aspose.slides/autoshapelock/selectlocked) { get; set; } | この形状の選択が禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
-| [ShapeTypeLocked](../../aspose.slides/autoshapelock/shapetypelocked) { get; set; } | 形状タイプの変更が禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
-| [SizeLocked](../../aspose.slides/autoshapelock/sizelocked) { get; set; } | この形状のサイズ変更が禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
-| [TextLocked](../../aspose.slides/autoshapelock/textlocked) { get; set; } | テキストの編集が禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
+| [AdjustHandlesLocked](../../aspose.slides/autoshapelock/adjusthandleslocked) { get; set; } | 調整値の変更が禁止されているかどうかを決定します。読み取り/書き込み Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/autoshapelock/arrowheadslocked) { get; set; } | 矢じりの変更が禁止されているかどうかを決定します。読み取り/書き込み Boolean. |
+| [AspectRatioLocked](../../aspose.slides/autoshapelock/aspectratiolocked) { get; set; } | リサイズ時に形状がアスペクト比を維持しなければならないかどうかを決定します。読み取り/書き込み Boolean. |
+| [EditPointsLocked](../../aspose.slides/autoshapelock/editpointslocked) { get; set; } | この形状の輪郭の直接変更が禁止されているかどうかを決定します。読み取り/書き込み Boolean. |
+| [GroupingLocked](../../aspose.slides/autoshapelock/groupinglocked) { get; set; } | この形状をグループに追加することが禁止されているかどうかを決定します。読み取り/書き込み Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | すべてのロックフラグが無効になっている場合に true を返します。読み取り専用 Boolean. |
+| [PositionLocked](../../aspose.slides/autoshapelock/positionlocked) { get; set; } | この形状の移動が禁止されているかどうかを決定します。読み取り/書き込み Boolean. |
+| [RotateLocked](../../aspose.slides/autoshapelock/rotatelocked) { get; set; } | この形状の回転角度の変更が禁止されているかどうかを決定します。読み取り/書き込み Boolean. |
+| [SelectLocked](../../aspose.slides/autoshapelock/selectlocked) { get; set; } | この形状の選択が禁止されているかどうかを決定します。読み取り/書き込み Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/autoshapelock/shapetypelocked) { get; set; } | 形状タイプの変更が禁止されているかどうかを決定します。読み取り/書き込み Boolean. |
+| [SizeLocked](../../aspose.slides/autoshapelock/sizelocked) { get; set; } | この形状のサイズ変更が禁止されているかどうかを決定します。読み取り/書き込み Boolean. |
+| [TextLocked](../../aspose.slides/autoshapelock/textlocked) { get; set; } | テキストの編集が禁止されているかどうかを決定します。読み取り/書き込み Boolean. |
 
 ### 参照
 

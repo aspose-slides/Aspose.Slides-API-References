@@ -1,12 +1,12 @@
 ---
 title: PlaceholderType
-second_title: Aspose.Sildes per .NET API Reference
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta il tipo di un segnaposto.
 type: docs
-weight: 9430
+weight: 9450
 url: /it/aspose.slides/placeholdertype/
 ---
-## enumerazione PlaceholderType
+## PlaceholderType enumerazione
 
 Rappresenta il tipo di un segnaposto.
 

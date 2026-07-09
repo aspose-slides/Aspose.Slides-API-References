@@ -3,7 +3,7 @@ title: IObsoletePresLockingBehaviorWarningInfo
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Peringatan ini menunjukkan bahwa perilaku penguncian presentasi yang usang digunakan.
 type: docs
-weight: 11760
+weight: 11780
 url: /id/aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/
 ---
 ## IObsoletePresLockingBehaviorWarningInfo antarmuka
@@ -18,7 +18,7 @@ public interface IObsoletePresLockingBehaviorWarningInfo : IWarningInfo
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/asiwarninginfo) { get; } | Mengembalikan IWarningInfo antarmuka. Baca-saja [`IWarningInfo`](../iwarninginfo). |
+| [AsIWarningInfo](../../aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/asiwarninginfo) { get; } | Mengembalikan IWarningInfo antarmuka. Hanya-baca [`IWarningInfo`](../iwarninginfo). |
 
 ### Lihat Juga
 

@@ -1,14 +1,14 @@
 ---
 title: IWheelTransition
-second_title: Aspose.Slides för .NET API-referens
-description: Effekt för hjulglidningsövergång.
+second_title: Aspose.Sildes för .NET API-referens
+description: Övergångseffekt för hjulglidning.
 type: docs
-weight: 10200
+weight: 10220
 url: /sv/aspose.slides.slideshow/iwheeltransition/
 ---
 ## IWheelTransition gränssnitt
 
-Hjulglidningsövergångseffekt.
+Övergångseffekt för hjul.
 
 ```csharp
 public interface IWheelTransition : ITransitionValueBase
@@ -18,8 +18,8 @@ public interface IWheelTransition : ITransitionValueBase
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iwheeltransition/asitransitionvaluebase) { get; } | Tillåter att hämta bas ITransitionValueBase-gränssnittet. Skrivskyddad [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Spokes](../../aspose.slides.slideshow/iwheeltransition/spokes) { get; set; } | Antal ekrar i hjulövergången. Läs/skriv UInt32. |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iwheeltransition/asitransitionvaluebase) { get; } | Tillåter att hämta bas-ITransitionValueBase-gränssnittet. Skrivskyddad [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Spokes](../../aspose.slides.slideshow/iwheeltransition/spokes) { get; set; } | Antal ekrar för hjulövergången. Läs/skriv UInt32. |
 
 ### Se även
 

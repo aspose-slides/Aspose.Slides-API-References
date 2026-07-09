@@ -3,10 +3,10 @@ title: Tab
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili tabulasi untuk teks.
 type: docs
-weight: 10800
+weight: 10820
 url: /id/aspose.slides/tab/
 ---
-## Tab kelas
+## Kelas Tab
 
 Mewakili tabulasi untuk teks.
 
@@ -25,7 +25,7 @@ public sealed class Tab : PVIObject, ITab
 | Nama | Deskripsi |
 | --- | --- |
 | [Alignment](../../aspose.slides/tab/alignment) { get; set; } | Mengembalikan atau mengatur gaya perataan tab. Baca/tulis [`TabAlignment`](../tabalignment). |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Mengizinkan mendapatkan antarmuka IPresentationComponent dasar. Hanya-baca [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Memungkinkan untuk mendapatkan antarmuka IPresentationComponent dasar. Baca-saja [`IPresentationComponent`](../ipresentationcomponent). |
 | [Position](../../aspose.slides/tab/position) { get; set; } | Mengembalikan atau mengatur posisi tab. Menetapkan properti ini dapat mengubah indeks tab dalam koleksi dan membuat Enumerator tidak valid. Baca/tulis Double. |
 
 ## Metode

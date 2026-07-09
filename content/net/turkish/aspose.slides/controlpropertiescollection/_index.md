@@ -1,12 +1,12 @@
 ---
 title: ControlPropertiesCollection
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: AcitveX özelliklerinin bir koleksiyonu.
 type: docs
-weight: 2690
+weight: 2710
 url: /tr/aspose.slides/controlpropertiescollection/
 ---
-## ControlPropertiesCollection sınıfı
+## ControlPropertiesCollection sınıf
 
 AcitveX özelliklerinin bir koleksiyonu.
 
@@ -18,9 +18,9 @@ public class ControlPropertiesCollection : IControlPropertiesCollection
 
 | Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides/controlpropertiescollection/count) { get; } | Koleksiyondaki özellik sayısını döndürür. Salt okunur Int32. |
+| [Count](../../aspose.slides/controlpropertiescollection/count) { get; } | Koleksiyondaki özellik sayısını döndürür. Yalnızca okunabilir Int32. |
 | [Item](../../aspose.slides/controlpropertiescollection/item) { get; set; } | Özelliği döndürür veya ayarlar. |
-| [NamesOfProperties](../../aspose.slides/controlpropertiescollection/namesofproperties) { get; } | Özellik adlarının koleksiyonunu döndürür. Salt okunur ICollection. |
+| [NamesOfProperties](../../aspose.slides/controlpropertiescollection/namesofproperties) { get; } | Özellik adlarının koleksiyonunu döndürür. Yalnızca okunabilir ICollection. |
 
 ## Yöntemler
 
@@ -28,7 +28,7 @@ public class ControlPropertiesCollection : IControlPropertiesCollection
 | --- | --- |
 | [Add](../../aspose.slides/controlpropertiescollection/add)(string, string) | Koleksiyona bir özellik ekler. |
 | [Clear](../../aspose.slides/controlpropertiescollection/clear)() | Tüm özellikleri kaldırır. |
-| [GetEnumerator](../../aspose.slides/controlpropertiescollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumeratörü döndürür. |
+| [GetEnumerator](../../aspose.slides/controlpropertiescollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
 | [Remove](../../aspose.slides/controlpropertiescollection/remove)(string) | Belirtilen ada sahip bir özelliği kaldırır. |
 
 ### Ayrıca Bakınız

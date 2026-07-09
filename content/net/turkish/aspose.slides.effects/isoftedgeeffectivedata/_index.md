@@ -1,14 +1,14 @@
 ---
 title: ISoftEdgeEffectiveData
-second_title: Aspose.Sildes için .NET API Referansı
-description: Yumuşak kenar etkisini temsil eden değiştirilemez nesne. Şeklin kenarları bulanıklaştırılır, ancak dolgu etkilenmez.
+second_title: Aspose.Slides için .NET API Referansı
+description: Yumuşak kenar etkisini temsil eden değişmez nesne. Şeklin kenarları bulanıklaştırılırken dolgu etkilenmez.
 type: docs
-weight: 3510
+weight: 3530
 url: /tr/aspose.slides.effects/isoftedgeeffectivedata/
 ---
 ## ISoftEdgeEffectiveData arayüz
 
-Yumuşak kenar etkisini temsil eden değiştirilemez nesne. Şeklin kenarları bulanıklaştırılır, ancak dolgu etkilenmez.
+Değişmez nesne; yumuşak kenar etkisini temsil eder. Şeklin kenarları bulanıklaştırılır, dolgu ise etkilenmez.
 
 ```csharp
 public interface ISoftEdgeEffectiveData : IEffectEffectiveData
@@ -18,10 +18,10 @@ public interface ISoftEdgeEffectiveData : IEffectEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzünü almayı sağlar. Yalnızca okunabilir [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | Kenarlar için uygulanacak bulanıklık yarıçapını belirler. Yalnızca okunabilir Double. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzünü almaya izin verir. Yalnızca okuma [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | Kenarlar için uygulanacak bulanıklaştırma yarıçapını belirtir. Yalnızca okuma Double. |
 
-### Ayrıca Bakınız
+### Ayrıca bakınız
 
 * arayüz [IEffectEffectiveData](../ieffecteffectivedata)
 * ad alanı [Aspose.Slides.Effects](../../aspose.slides.effects)

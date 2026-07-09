@@ -1,14 +1,14 @@
 ---
 title: IFontSubstRuleCollection
-second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje kolekci substitucí fontů.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Představuje kolekci substitucí písem.
 type: docs
-weight: 5870
+weight: 5890
 url: /cs/aspose.slides/ifontsubstrulecollection/
 ---
 ## IFontSubstRuleCollection rozhraní
 
-Představuje kolekci substitucí fontů.
+Představuje kolekci substitucí písem.
 
 ```csharp
 public interface IFontSubstRuleCollection : IGenericCollection<IFontSubstRule>
@@ -24,8 +24,8 @@ public interface IFontSubstRuleCollection : IGenericCollection<IFontSubstRule>
 
 | Název | Popis |
 | --- | --- |
-| [Add](../../aspose.slides/ifontsubstrulecollection/add)(IFontSubstRule) | Přidá nové pravidlo pro substituci fontu do kolekce |
-| [Remove](../../aspose.slides/ifontsubstrulecollection/remove)(IFontSubstRule) | Odstraní první výskyt konkrétního objektu ze sbírky. |
+| [Add](../../aspose.slides/ifontsubstrulecollection/add)(IFontSubstRule) | Přidá nové pravidlo substituce písma do kolekce |
+| [Remove](../../aspose.slides/ifontsubstrulecollection/remove)(IFontSubstRule) | Odstraní první výskyt specifického objektu z kolekce. |
 
 ### Viz také
 

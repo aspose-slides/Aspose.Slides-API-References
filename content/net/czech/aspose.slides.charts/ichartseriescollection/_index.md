@@ -1,14 +1,14 @@
 ---
 title: IChartSeriesCollection
 second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje kolekci IChartSeries./ichartseries
+description: Představuje kolekci IChartSeries./ichartseries
 type: docs
-weight: 1920
+weight: 1940
 url: /cs/aspose.slides.charts/ichartseriescollection/
 ---
 ## IChartSeriesCollection rozhraní
 
-Represents collection of [`IChartSeries`](../ichartseries)
+Představuje kolekci [`IChartSeries`](../ichartseries)
 
 ```csharp
 public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
@@ -24,15 +24,15 @@ public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
 
 | Název | Popis |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add)(ChartType) | Vytvoří novou sérii grafu a přidá ji do kolekce. |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_1)(IChartCellCollection, ChartType) | Vytvoří novou sérii grafu z [`IChartCellCollection`](../ichartcellcollection) a přidá ji do kolekce. |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_2)(IChartDataCell, ChartType) | Vytvoří novou sérii grafu z [`IChartDataCell`](../ichartdatacell) a přidá ji do kolekce. |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_3)(string, ChartType) | Vytvoří novou sérii grafu z hodnoty a přidá ji do kolekce. |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add)(ChartType) | Vytvoří novou řadu grafu a přidá ji do kolekce. |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_1)(IChartCellCollection, ChartType) | Vytvoří novou řadu grafu z [`IChartCellCollection`](../ichartcellcollection) a přidá ji do kolekce. |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_2)(IChartDataCell, ChartType) | Vytvoří novou řadu grafu z [`IChartDataCell`](../ichartdatacell) a přidá ji do kolekce. |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_3)(string, ChartType) | Vytvoří novou řadu grafu z hodnoty a přidá ji do kolekce. |
 | [Clear](../../aspose.slides.charts/ichartseriescollection/clear)() | Odstraní všechny prvky (včetně stylu grafu) z kolekce. |
-| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | Vyhledá zadaný [`IChartSeries`](../ichartseries) a vrátí nulově-založený index první výskyty v celé kolekci. |
-| [Insert](../../aspose.slides.charts/ichartseriescollection/insert)(int, ChartType) | Vytvoří novou sérii grafu a vloží ji do kolekce. |
+| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | Vyhledá zadaný [`IChartSeries`](../ichartseries) a vrátí nulový index první výskytu v celé kolekci |
+| [Insert](../../aspose.slides.charts/ichartseriescollection/insert)(int, ChartType) | Vytvoří novou řadu grafu a vloží ji do kolekce. |
 | [Remove](../../aspose.slides.charts/ichartseriescollection/remove)(IChartSeries) | Odstraní zadanou hodnotu. |
-| [RemoveAt](../../aspose.slides.charts/ichartseriescollection/removeat)(int) | Odstraní prvek na zadaném indexu. |
+| [RemoveAt](../../aspose.slides.charts/ichartseriescollection/removeat)(int) | Odstraní prvek na zadaném indexu |
 
 ### Viz také
 

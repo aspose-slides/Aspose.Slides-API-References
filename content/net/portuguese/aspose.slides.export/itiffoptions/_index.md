@@ -3,7 +3,7 @@ title: ITiffOptions
 second_title: Aspose.Sildes para .NET Referência da API
 description: Fornece opções que controlam como uma apresentação é salva no formato TIFF.
 type: docs
-weight: 4150
+weight: 4170
 url: /pt/aspose.slides.export/itiffoptions/
 ---
 ## ITiffOptions interface
@@ -16,18 +16,18 @@ public interface ITiffOptions : ISaveOptions
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/itiffoptions/asisaveoptions) { get; } | Retorna a interface ISaveOptions. Somente leitura [`ISaveOptions`](../isaveoptions). |
-| [BwConversionMode](../../aspose.slides.export/itiffoptions/bwconversionmode) { get; set; } | Especifica o algoritmo para converter uma imagem colorida em uma imagem em preto e branco. Esta opção será aplicada somente se [`CompressionType`](./compressiontype) estiver definido como CCITT4 ou CCITT3 Leitura/Gravação [`BlackWhiteConversionMode`](../blackwhiteconversionmode). Default is Default. |
-| [CompressionType](../../aspose.slides.export/itiffoptions/compressiontype) { get; set; } | Especifica o tipo de compressão. Leitura/Gravação [`TiffCompressionTypes`](../tiffcompressiontypes). |
-| [DpiX](../../aspose.slides.export/itiffoptions/dpix) { get; set; } | Especifica a resolução horizontal em pontos por polegada. Leitura/Gravação UInt32. |
-| [DpiY](../../aspose.slides.export/itiffoptions/dpiy) { get; set; } | Especifica a resolução vertical em pontos por polegada. Leitura/Gravação UInt32. |
-| [ImageSize](../../aspose.slides.export/itiffoptions/imagesize) { get; set; } | Especifica o tamanho de uma imagem TIFF gerada. O valor padrão é 0x0, o que significa que os tamanhos das imagens geradas serão calculados com base no valor do tamanho do slide da apresentação. Leitura/Gravação Size. |
+| [BwConversionMode](../../aspose.slides.export/itiffoptions/bwconversionmode) { get; set; } | Especifica o algoritmo para converter uma imagem colorida em uma imagem preto e branco. Esta opção será aplicada somente se [`CompressionType`](./compressiontype) estiver definido como CCITT4 ou CCITT3. Leitura/gravação [`BlackWhiteConversionMode`](../blackwhiteconversionmode). O padrão é Default. |
+| [CompressionType](../../aspose.slides.export/itiffoptions/compressiontype) { get; set; } | Especifica o tipo de compressão. Leitura/gravação [`TiffCompressionTypes`](../tiffcompressiontypes). |
+| [DpiX](../../aspose.slides.export/itiffoptions/dpix) { get; set; } | Especifica a resolução horizontal em pontos por polegada. Leitura/gravação UInt32. |
+| [DpiY](../../aspose.slides.export/itiffoptions/dpiy) { get; set; } | Especifica a resolução vertical em pontos por polegada. Leitura/gravação UInt32. |
+| [ImageSize](../../aspose.slides.export/itiffoptions/imagesize) { get; set; } | Especifica o tamanho de uma imagem TIFF gerada. O valor padrão é 0x0, o que significa que os tamanhos das imagens geradas serão calculados com base no tamanho dos slides da apresentação. Leitura/gravação Size. |
 | [InkOptions](../../aspose.slides.export/itiffoptions/inkoptions) { get; } | Fornece opções que controlam a aparência dos objetos Ink no documento exportado. Somente leitura [`IInkOptions`](../iinkoptions) |
-| [PixelFormat](../../aspose.slides.export/itiffoptions/pixelformat) { get; set; } | Especifica o formato de pixel para as imagens geradas. Leitura/Gravação [`ImagePixelFormat`](../imagepixelformat). |
-| [ShowHiddenSlides](../../aspose.slides.export/itiffoptions/showhiddenslides) { get; set; } | Especifica se o documento gerado deve incluir slides ocultos ou não. Default is `false`. |
-| [SlidesLayoutOptions](../../aspose.slides.export/itiffoptions/slideslayoutoptions) { get; set; } | Obtém ou define o modo em que os slides são posicionados na página ao exportar uma apresentação [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [PixelFormat](../../aspose.slides.export/itiffoptions/pixelformat) { get; set; } | Especifica o formato de pixel para as imagens geradas. Leitura/gravação [`ImagePixelFormat`](../imagepixelformat). |
+| [ShowHiddenSlides](../../aspose.slides.export/itiffoptions/showhiddenslides) { get; set; } | Especifica se o documento gerado deve incluir slides ocultos ou não. O padrão é `false`. |
+| [SlidesLayoutOptions](../../aspose.slides.export/itiffoptions/slideslayoutoptions) { get; set; } | Obtém ou define o modo como os slides são posicionados na página ao exportar uma apresentação [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### Veja Também
 

@@ -1,9 +1,9 @@
 ---
 title: ICellFormat
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: テーブルセルの書式を表します。
 type: docs
-weight: 5450
+weight: 5470
 url: /ja/aspose.slides/icellformat/
 ---
 ## ICellFormat インターフェイス
@@ -16,22 +16,22 @@ public interface ICellFormat
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [BorderBottom](../../aspose.slides/icellformat/borderbottom) { get; } | 下部境界線プロパティ オブジェクトを返します。 読み取り専用 [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalDown](../../aspose.slides/icellformat/borderdiagonaldown) { get; } | 左上から右下への対角線プロパティ オブジェクトを返します。 読み取り専用 [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalUp](../../aspose.slides/icellformat/borderdiagonalup) { get; } | 左下から右上への対角線プロパティ オブジェクトを返します。 読み取り専用 [`ILineFormat`](../ilineformat). |
-| [BorderLeft](../../aspose.slides/icellformat/borderleft) { get; } | 左側境界線プロパティ オブジェクトを返します。 読み取り専用 [`ILineFormat`](../ilineformat). |
-| [BorderRight](../../aspose.slides/icellformat/borderright) { get; } | 右側境界線プロパティ オブジェクトを返します。 読み取り専用 [`ILineFormat`](../ilineformat). |
-| [BorderTop](../../aspose.slides/icellformat/bordertop) { get; } | 上部境界線プロパティ オブジェクトを返します。 読み取り専用 [`ILineFormat`](../ilineformat). |
-| [FillFormat](../../aspose.slides/icellformat/fillformat) { get; } | セルの塗りつぶしプロパティ オブジェクトを返します。 読み取り専用 [`IFillFormat`](../ifillformat). |
-| [Transparency](../../aspose.slides/icellformat/transparency) { get; set; } | 塗りつぶし色の透明度を取得または設定します。 読み書き Single. |
+| [BorderBottom](../../aspose.slides/icellformat/borderbottom) { get; } | 下側境界線のプロパティオブジェクトを返します。読み取り専用 [`ILineFormat`](../ilineformat)。 |
+| [BorderDiagonalDown](../../aspose.slides/icellformat/borderdiagonaldown) { get; } | 左上から右下への対角線プロパティオブジェクトを返します。読み取り専用 [`ILineFormat`](../ilineformat)。 |
+| [BorderDiagonalUp](../../aspose.slides/icellformat/borderdiagonalup) { get; } | 左下から右上への対角線プロパティオブジェクトを返します。読み取り専用 [`ILineFormat`](../ilineformat)。 |
+| [BorderLeft](../../aspose.slides/icellformat/borderleft) { get; } | 左側境界線プロパティオブジェクトを返します。読み取り専用 [`ILineFormat`](../ilineformat)。 |
+| [BorderRight](../../aspose.slides/icellformat/borderright) { get; } | 右側境界線プロパティオブジェクトを返します。読み取り専用 [`ILineFormat`](../ilineformat)。 |
+| [BorderTop](../../aspose.slides/icellformat/bordertop) { get; } | 上側境界線プロパティオブジェクトを返します。読み取り専用 [`ILineFormat`](../ilineformat)。 |
+| [FillFormat](../../aspose.slides/icellformat/fillformat) { get; } | セルの塗りつぶしプロパティオブジェクトを返します。読み取り専用 [`IFillFormat`](../ifillformat)。 |
+| [Transparency](../../aspose.slides/icellformat/transparency) { get; set; } | 塗りつぶし色の透明度を取得または設定します。読み書き可能 Single。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [GetEffective](../../aspose.slides/icellformat/geteffective)() | 継承およびテーブル スタイルが適用された有効なテーブルセルの書式設定プロパティを取得します。 |
+| [GetEffective](../../aspose.slides/icellformat/geteffective)() | 継承およびテーブルスタイルが適用された有効なテーブルセルの書式プロパティを取得します。 |
 
 ### 参照
 

@@ -1,14 +1,14 @@
 ---
 title: IBiLevel
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Temel IImageTransformOperation arayüzünü temsil eder.
 type: docs
-weight: 3140
+weight: 3160
 url: /tr/aspose.slides.effects/ibilevel/
 ---
 ## IBiLevel arayüz
 
-IImageTransformOperation temel arayüzünü temsil eder.
+Temel IImageTransformOperation arayüzünü temsil eder.
 
 ```csharp
 public interface IBiLevel : IAccessiblePVIObject<IBiLevelEffectiveData>, IImageTransformOperation

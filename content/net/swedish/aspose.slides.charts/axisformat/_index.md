@@ -3,7 +3,7 @@ title: AxisFormat
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar diagramformatets egenskaper.
 type: docs
-weight: 1180
+weight: 1200
 url: /sv/aspose.slides.charts/axisformat/
 ---
 ## AxisFormat klass
@@ -19,8 +19,8 @@ public sealed class AxisFormat : DomObject<Axis>, IAxisFormat
 | Namn | Beskrivning |
 | --- | --- |
 | [Effect](../../aspose.slides.charts/axisformat/effect) { get; } | Returnerar effekter som används för en axel. Skrivskyddad [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Fill](../../aspose.slides.charts/axisformat/fill) { get; } | Returnerar fyllningsstilegenskaper för en axel. Skrivskyddad [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [Line](../../aspose.slides.charts/axisformat/line) { get; } | Returnerar linjestilegenskaper för en axel. Skrivskyddad [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Fill](../../aspose.slides.charts/axisformat/fill) { get; } | Returnerar fyllnadsstilens egenskaper för en axel. Skrivskyddad [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Line](../../aspose.slides.charts/axisformat/line) { get; } | Returnerar linjestilens egenskaper för en axel. Skrivskyddad [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### Se även
 

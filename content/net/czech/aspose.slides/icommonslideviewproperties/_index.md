@@ -1,14 +1,14 @@
 ---
 title: ICommonSlideViewProperties
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje běžné vlastnosti zobrazení snímku.
+description: Představuje běžné vlastnosti zobrazení snímku.
 type: docs
-weight: 5580
+weight: 5600
 url: /cs/aspose.slides/icommonslideviewproperties/
 ---
 ## ICommonSlideViewProperties rozhraní
 
-Reprezentuje běžné vlastnosti zobrazení snímku.
+Představuje běžné vlastnosti zobrazení snímku.
 
 ```csharp
 public interface ICommonSlideViewProperties
@@ -18,9 +18,9 @@ public interface ICommonSlideViewProperties
 
 | Název | Popis |
 | --- | --- |
-| [DrawingGuides](../../aspose.slides/icommonslideviewproperties/drawingguides) { get; } | Vrací kolekci vodících čar. Pouze pro čtení [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | Určuje poměr měřítka zobrazení v procentech. Čtení/Zápis Int32. |
-| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | Určuje, že obsah zobrazení by se měl automaticky měřítkem přizpůsobit tak, aby nejlépe vyhovoval aktuální velikosti okna. Čtení/Zápis Boolean. |
+| [DrawingGuides](../../aspose.slides/icommonslideviewproperties/drawingguides) { get; } | Vrací kolekci kreslicích vodítek. Pouze pro čtení [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | Určuje měřítko zobrazení v procentech. Čtení/Zápis Int32. |
+| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | Určuje, že obsah zobrazení by se měl automaticky přizpůsobit tak, aby nejlépe vyhovoval aktuální velikosti okna. Čtení/Zápis Boolean. |
 
 ### Viz také
 

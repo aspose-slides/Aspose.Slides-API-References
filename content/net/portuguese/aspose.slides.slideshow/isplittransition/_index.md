@@ -1,14 +1,14 @@
 ---
 title: ISplitTransition
-second_title: Aspose.Sildes para .NET Referência de API
-description: Efeito de transição de slide dividido.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Efeito de transição de divisão de slide.
 type: docs
-weight: 10180
+weight: 10200
 url: /pt/aspose.slides.slideshow/isplittransition/
 ---
 ## ISplitTransition interface
 
-Efeito de transição de slide dividido.
+Efeito de transição de divisão de slide.
 
 ```csharp
 public interface ISplitTransition : ITransitionValueBase
@@ -22,7 +22,7 @@ public interface ISplitTransition : ITransitionValueBase
 | [Direction](../../aspose.slides.slideshow/isplittransition/direction) { get; set; } | Direção da divisão da transição. Leitura/gravação [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 | [Orientation](../../aspose.slides.slideshow/isplittransition/orientation) { get; set; } | Orientação da divisão da transição. Leitura/gravação [`Orientation`](../../aspose.slides/orientation). |
 
-### Veja também
+### Ver também
 
 * interface [ITransitionValueBase](../itransitionvaluebase)
 * namespace [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

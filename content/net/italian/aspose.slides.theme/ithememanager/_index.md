@@ -1,12 +1,12 @@
 ---
 title: IThemeManager
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET API Reference
 description: Rappresenta le proprietà del tema.
 type: docs
-weight: 11370
+weight: 11390
 url: /it/aspose.slides.theme/ithememanager/
 ---
-## Interfaccia IThemeManager
+## IThemeManager interfaccia
 
 Rappresenta le proprietà del tema.
 
@@ -16,9 +16,9 @@ public interface IThemeManager
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Descrizione |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/ithememanager/applycolorscheme)(IExtraColorScheme) | Applica uno schema di colori extra a una diapositiva. |
+| [ApplyColorScheme](../../aspose.slides.theme/ithememanager/applycolorscheme)(IExtraColorScheme) | Applica uno schema di colore extra a una diapositiva. |
 | [CreateThemeEffective](../../aspose.slides.theme/ithememanager/createthemeeffective)() | Restituisce l'oggetto tema. |
 
 ### Vedi anche

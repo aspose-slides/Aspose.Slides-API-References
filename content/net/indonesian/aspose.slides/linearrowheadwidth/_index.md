@@ -3,7 +3,7 @@ title: LineArrowheadWidth
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili lebar ujung panah.
 type: docs
-weight: 7730
+weight: 7750
 url: /id/aspose.slides/linearrowheadwidth/
 ---
 ## enumerasi LineArrowheadWidth

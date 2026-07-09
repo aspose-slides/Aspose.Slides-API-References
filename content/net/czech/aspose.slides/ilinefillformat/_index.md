@@ -1,14 +1,14 @@
 ---
 title: ILineFillFormat
-second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje vlastnosti pro výplň čar.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Reprezentuje vlastnosti pro vyplňování čar.
 type: docs
-weight: 6270
+weight: 6290
 url: /cs/aspose.slides/ilinefillformat/
 ---
 ## ILineFillFormat rozhraní
 
-Represents properties for lines filling.
+Reprezentuje vlastnosti pro vyplňování čar.
 
 ```csharp
 public interface ILineFillFormat : IFillParamSource
@@ -20,9 +20,9 @@ public interface ILineFillFormat : IFillParamSource
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ilinefillformat/asifillparamsource) { get; } | Umožňuje získat základní rozhraní IFillParamSource. Pouze pro čtení [`IFillParamSource`](../ifillparamsource). |
 | [FillType](../../aspose.slides/ilinefillformat/filltype) { get; set; } | Vrací nebo nastavuje typ výplně. Čtení/zápis [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/ilinefillformat/gradientformat) { get; } | Vrací formát gradientové výplně. Pouze pro čtení [`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/ilinefillformat/patternformat) { get; } | Vrací formát výplně vzorem. Pouze pro čtení [`IPatternFormat`](../ipatternformat). |
-| [RotateWithShape](../../aspose.slides/ilinefillformat/rotatewithshape) { get; set; } | Určuje, zda by výplň měla být otáčena spolu s tvarem. Čtení/zápis [`NullableBool`](../nullablebool). |
+| [GradientFormat](../../aspose.slides/ilinefillformat/gradientformat) { get; } | Vrací formát přechodové výplně. Pouze pro čtení [`IGradientFormat`](../igradientformat). |
+| [PatternFormat](../../aspose.slides/ilinefillformat/patternformat) { get; } | Vrací formát vzorové výplně. Pouze pro čtení [`IPatternFormat`](../ipatternformat). |
+| [RotateWithShape](../../aspose.slides/ilinefillformat/rotatewithshape) { get; set; } | Určuje, zda by výplň měla být otáčena s tvarem. Čtení/zápis [`NullableBool`](../nullablebool). |
 | [SolidFillColor](../../aspose.slides/ilinefillformat/solidfillcolor) { get; } | Vrací barvu plné výplně. Pouze pro čtení [`IColorFormat`](../icolorformat). |
 
 ### Viz také

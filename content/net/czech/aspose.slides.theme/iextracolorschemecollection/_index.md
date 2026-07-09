@@ -1,14 +1,14 @@
 ---
 title: IExtraColorSchemeCollection
 second_title: Aspose.Sildes pro .NET API Referenci
-description: Representuje kolekci dalších schémat barev.
+description: Představuje kolekci dalších schémat barev.
 type: docs
-weight: 11200
+weight: 11220
 url: /cs/aspose.slides.theme/iextracolorschemecollection/
 ---
 ## IExtraColorSchemeCollection rozhraní
 
-Representuje kolekci dalších schémat barev.
+Představuje kolekci dalších schémat barev.
 
 ```csharp
 public interface IExtraColorSchemeCollection : IGenericCollection<IExtraColorScheme>
@@ -18,7 +18,7 @@ public interface IExtraColorSchemeCollection : IGenericCollection<IExtraColorSch
 
 | Název | Popis |
 | --- | --- |
-| [Item](../../aspose.slides.theme/iextracolorschemecollection/item) { get; } | Vrací schéma barev podle indexu. Pouze pro čtení [`IExtraColorScheme`](../iextracolorscheme). |
+| [Item](../../aspose.slides.theme/iextracolorschemecollection/item) { get; } | Vrací schéma barev podle indexu. Pouze ke čtení [`IExtraColorScheme`](../iextracolorscheme). |
 
 ### Viz také
 

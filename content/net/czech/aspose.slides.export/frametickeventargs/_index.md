@@ -3,10 +3,10 @@ title: FrameTickEventArgs
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje argumenty události FrameTick./presentationplayer/frametick.
 type: docs
-weight: 3790
+weight: 3810
 url: /cs/aspose.slides.export/frametickeventargs/
 ---
-## FrameTickEventArgs třída
+## třída FrameTickEventArgs
 
 Reprezentuje argumenty události [`FrameTick`](../presentationplayer/frametick).
 
@@ -24,7 +24,7 @@ public class FrameTickEventArgs
 
 | Název | Popis |
 | --- | --- |
-| [GetFrame](../../aspose.slides.export/frametickeventargs/getframe)() | Získá aktuální [`PresentationPlayer`](../presentationplayer) snímek. |
+| [GetFrame](../../aspose.slides.export/frametickeventargs/getframe)() | Získá aktuální [`PresentationPlayer`](../presentationplayer) rámec. |
 
 ### Příklady
 

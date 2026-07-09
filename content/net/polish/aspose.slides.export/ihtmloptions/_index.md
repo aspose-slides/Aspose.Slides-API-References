@@ -1,9 +1,9 @@
 ---
 title: IHtmlOptions
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje opcje eksportu HTML.
 type: docs
-weight: 3950
+weight: 3970
 url: /pl/aspose.slides.export/ihtmloptions/
 ---
 ## IHtmlOptions interfejs
@@ -19,12 +19,12 @@ public interface IHtmlOptions : ISaveOptions
 | Nazwa | Opis |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/ihtmloptions/asisaveoptions) { get; } | Zwraca interfejs ISaveOptions. Tylko do odczytu [`ISaveOptions`](../isaveoptions). |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/ihtmloptions/deletepicturescroppedareas) { get; set; } | Flaga logiczna wskazująca, czy przycięte części pozostają w dokumencie. Jeśli true, przycięte części zostaną usunięte, jeśli false będą serializowane w dokumencie (co może prowadzić do większego pliku). Odczyt/zapis Boolean. |
-| [DisableFontLigatures](../../aspose.slides.export/ihtmloptions/disablefontligatures) { get; set; } | Pobiera lub ustawia wartość określającą, czy tekst jest renderowany bez użycia ligatur. Gdy ustawione na `true`, ligatury zostaną wyłączone w renderowanym wyjściu. Domyślnie właściwość ma wartość `false`. |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/ihtmloptions/deletepicturescroppedareas) { get; set; } | Flaga typu bool wskazuje, czy przycięte części pozostają częścią dokumentu. Jeśli true przycięte części zostaną usunięte, jeśli false zostaną zapisane w dokumencie (co może potencjalnie prowadzić do większego pliku). Odczyt/zapis Boolean. |
+| [DisableFontLigatures](../../aspose.slides.export/ihtmloptions/disablefontligatures) { get; set; } | Pobiera lub ustawia wartość określającą, czy tekst jest renderowany bez użycia ligatur. Gdy ustawione na `true`, ligatury będą wyłączone w renderowanym wyniku. Domyślnie własność jest ustawiona na `false`. |
 | [HtmlFormatter](../../aspose.slides.export/ihtmloptions/htmlformatter) { get; set; } | Zwraca lub ustawia szablon HTML. Odczyt/zapis [`IHtmlFormatter`](../ihtmlformatter). |
 | [InkOptions](../../aspose.slides.export/ihtmloptions/inkoptions) { get; } | Udostępnia opcje kontrolujące wygląd obiektów Ink w wyeksportowanym dokumencie. Tylko do odczytu [`IInkOptions`](../iinkoptions) |
 | [JpegQuality](../../aspose.slides.export/ihtmloptions/jpegquality) { get; set; } | Zwraca lub ustawia wartość określającą jakość obrazów JPEG w dokumencie PDF. Odczyt/zapis Byte. |
-| [PicturesCompression](../../aspose.slides.export/ihtmloptions/picturescompression) { get; set; } | Reprezentuje poziom kompresji obrazów. Odczyt/zapis [`PicturesCompression`](./picturescompression). |
+| [PicturesCompression](../../aspose.slides.export/ihtmloptions/picturescompression) { get; set; } | Reprezentuje poziom kompresji obrazów Odczyt/zapis [`PicturesCompression`](./picturescompression). |
 | [ShowHiddenSlides](../../aspose.slides.export/ihtmloptions/showhiddenslides) { get; set; } | Określa, czy wygenerowany dokument ma zawierać ukryte slajdy. Domyślnie `false`. |
 | [SlideImageFormat](../../aspose.slides.export/ihtmloptions/slideimageformat) { get; set; } | Zwraca lub ustawia opcje formatu obrazu slajdu. Odczyt/zapis [`ISlideImageFormat`](../islideimageformat). |
 | [SlidesLayoutOptions](../../aspose.slides.export/ihtmloptions/slideslayoutoptions) { get; set; } | Pobiera lub ustawia tryb, w którym slajdy są rozmieszczane na stronie podczas eksportu prezentacji [`ISlidesLayoutOptions`](../islideslayoutoptions). |

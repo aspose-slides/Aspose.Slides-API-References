@@ -1,14 +1,14 @@
 ---
 title: ICellCollection
-second_title: Aspose.Sildes .NET API referencia
-description: A cellák egy gyűjteményét képviseli.
+second_title: Aspose.Sildes a .NET API referenciához
+description: A cellák gyűjteményét képviseli.
 type: docs
-weight: 5440
+weight: 5460
 url: /hu/aspose.slides/icellcollection/
 ---
 ## ICellCollection interfész
 
-Egy cellák gyűjteményét képviseli.
+A cellák gyűjteményét képviseli.
 
 ```csharp
 public interface ICellCollection : IGenericCollection<ICell>, ISlideComponent
@@ -18,8 +18,8 @@ public interface ICellCollection : IGenericCollection<ICell>, ISlideComponent
 
 | Név | Leírás |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/icellcollection/asislidecomponent) { get; } | Lehetővé teszi az alap ISlideComponent interfész elérését. Csak olvasható [`ISlideComponent`](../islidecomponent). |
-| [Item](../../aspose.slides/icellcollection/item) { get; } | Visszaad egy cellát a pozíciója szerint. Csak olvasható [`ICell`](../icell). |
+| [AsISlideComponent](../../aspose.slides/icellcollection/asislidecomponent) { get; } | Lehetővé teszi az ISlideComponent alap interfész lekérését. Csak olvasható [`ISlideComponent`](../islidecomponent). |
+| [Item](../../aspose.slides/icellcollection/item) { get; } | Visszaad egy cellát a pozíciója alapján. Csak olvasható [`ICell`](../icell). |
 
 ### Lásd még
 

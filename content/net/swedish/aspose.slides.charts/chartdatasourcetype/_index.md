@@ -3,10 +3,10 @@ title: ChartDataSourceType
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en typ av datakälla för diagrammet
 type: docs
-weight: 1350
+weight: 1370
 url: /sv/aspose.slides.charts/chartdatasourcetype/
 ---
-## ChartDataSourceType uppräkning
+## ChartDataSourceType enum
 
 Representerar en typ av datakälla för diagrammet
 

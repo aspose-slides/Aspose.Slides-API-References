@@ -1,14 +1,14 @@
 ---
 title: ShapeStyle
-second_title: Aspose.Sildes .NET API Referenciája
-description: A formák stílusreferenciáját képviseli.
+second_title: Aspose.Sildes .NET API referencia
+description: A forma stílushivatkozást képviseli.
 type: docs
-weight: 9890
+weight: 9910
 url: /hu/aspose.slides/shapestyle/
 ---
 ## ShapeStyle osztály
 
-A forma stílusreferenciáját képviseli.
+A forma stílus hivatkozását képviseli.
 
 ```csharp
 public class ShapeStyle : DomObject<Shape>, IShapeStyle
@@ -18,11 +18,11 @@ public class ShapeStyle : DomObject<Shape>, IShapeStyle
 
 | Név | Leírás |
 | --- | --- |
-| [EffectColor](../../aspose.slides/shapestyle/effectcolor) { get; } | Visszaadja a forma effektus színét. Csak olvasható [`IColorFormat`](../icolorformat). |
+| [EffectColor](../../aspose.slides/shapestyle/effectcolor) { get; } | Visszaadja a forma effektusszínét. Csak olvasható [`IColorFormat`](../icolorformat). |
 | [EffectStyleIndex](../../aspose.slides/shapestyle/effectstyleindex) { get; set; } | Visszaadja vagy beállítja a forma effektus oszlopindexét egy stílusmátrixban. Olvasás/írás UInt32. |
-| [FillColor](../../aspose.slides/shapestyle/fillcolor) { get; } | Visszaadja a forma kitöltő színét. Csak olvasható [`IColorFormat`](../icolorformat). |
-| [FillStyleIndex](../../aspose.slides/shapestyle/fillstyleindex) { get; set; } | Visszaadja vagy beállítja a forma kitöltő oszlopindexét a stílusmátrixokban. A 0 jelent kitöltés hiányát, a pozitív érték – a téma kitöltési stílusainak indexét, a negatív érték – a téma háttérstílusainak indexét. Olvasás/írás Int16. |
-| [FontCollectionIndex](../../aspose.slides/shapestyle/fontcollectionindex) { get; set; } | Visszaadja vagy beállítja a forma betűtípus-indexét egy betűtípusgyűjteményben. Olvasás/írás [`FontCollectionIndex`](../fontcollectionindex). |
+| [FillColor](../../aspose.slides/shapestyle/fillcolor) { get; } | Visszaadja a forma kitöltési színét. Csak olvasható [`IColorFormat`](../icolorformat). |
+| [FillStyleIndex](../../aspose.slides/shapestyle/fillstyleindex) { get; set; } | Visszaadja vagy beállítja a forma kitöltési oszlopindexét a stílusmátrixokban. 0 jelent kitöltés hiányát, a pozitív érték – a téma kitöltési stílusainak indexe, a negatív érték – a téma háttérstílusainak indexe. Olvasás/írás Int16. |
+| [FontCollectionIndex](../../aspose.slides/shapestyle/fontcollectionindex) { get; set; } | Visszaadja vagy beállítja a forma betűtípus indexét egy betűtípusgyűjteményben. Olvasás/írás [`FontCollectionIndex`](../fontcollectionindex). |
 | [FontColor](../../aspose.slides/shapestyle/fontcolor) { get; } | Visszaadja a forma betűtípus színét. Csak olvasható [`IColorFormat`](../icolorformat). |
 | [LineColor](../../aspose.slides/shapestyle/linecolor) { get; } | Visszaadja a forma körvonal színét. Csak olvasható [`IColorFormat`](../icolorformat). |
 | [LineStyleIndex](../../aspose.slides/shapestyle/linestyleindex) { get; set; } | Visszaadja vagy beállítja a vonal oszlopindexét egy stílusmátrixban. Olvasás/írás UInt16. |

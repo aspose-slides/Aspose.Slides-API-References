@@ -1,37 +1,37 @@
 ---
 title: Point
-second_title: Αναφορά API Aspose.Sildes για .NET
+second_title: Aspose.Sildes για .NET API Reference
 description: Αναπαριστά σημείο animation.
 type: docs
-weight: 700
+weight: 720
 url: /el/aspose.slides.animation/point/
 ---
 ## Point κλάση
 
-Αντιπροσωπεύει ένα σημείο animation.
+Αναπαριστά σημείο animation.
 
 ```csharp
 public class Point : IPoint
 ```
 
-## Κατασκευαστές
+## Κατασκευείς
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
 | [Point](point#constructor)() | Προεπιλεγμένος κατασκευαστής. |
 | [Point](point#constructor_1)(float, object, string) | Δημιουργεί σημείο animation με χρόνο, τιμή και τύπο. |
 
 ## Ιδιότητες
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
-| [Formula](../../aspose.slides.animation/point/formula) { get; set; } | Τύποι μέσα σε τιμές, από, προς, κατά χαρακτηριστικά μπορούν να αποτελούνται από τα εξής: Τυπικοί αριθμητικοί τελεστές: ‘+’, ‘-’, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Σταθερές: ‘pi’ ‘e’ Τελεστές συνθήκης: ‘abs’, ‘min’, ‘max’, ‘?’ (if) Τελεστές σύγκρισης: '==', '&gt;=', '', '!=', '!' Τριγωνομετρικοί τελεστές: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Φυσικός λογάριθμος ‘ln()’ Αναφορές ιδιοτήτων (ιδιότητες που υποστηρίζονται από κεντρικό σύστημα) για παράδειγμα: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Ανάγνωση/εγγραφή String. |
+| [Formula](../../aspose.slides.animation/point/formula) { get; set; } | Οι τύποι εντός τιμών, των χαρακτηριστικών from, to, by, μπορούν να αποτελούνται από τα εξής: Τυπικές αριθμητικές τελεστές: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Σταθερές: ‘pi’ ‘e’ Συνθετικοί τελεστές: ‘abs’, ‘min’, ‘max’, ‘?’ (if) Τελεστές σύγκρισης: '==', '&gt;=', '', '!=', '!' Τριγωνομετρικοί τελεστές: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Φυσικός λογαριθμός ‘ln()’ Αναφορές ιδιοτήτων (ιδιότητες που υποστηρίζονται από τον κεντρικό) για παράδειγμα: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Ανάγνωση/εγγραφή String. |
 | [Time](../../aspose.slides.animation/point/time) { get; set; } | Αναπαριστά την τιμή χρόνου. Ανάγνωση/εγγραφή Single. |
-| [Value](../../aspose.slides.animation/point/value) { get; set; } | Αναπαριστά την τιμή σημείου. Μόνο: bool, ColorFormat, float, int, string. Ανάγνωση/εγγραφή Object. |
+| [Value](../../aspose.slides.animation/point/value) { get; set; } | Αναπαριστά την τιμή του σημείου. Μόνο: bool, ColorFormat, float, int, string. Ανάγνωση/εγγραφή Object. |
 
 ### Δείτε επίσης
 
-* διεπαφή [IPoint](../ipoint)
+* διασύνδεση [IPoint](../ipoint)
 * χώρο ονομάτων [Aspose.Slides.Animation](../../aspose.slides.animation)
 * συναρμολόγηση [Aspose.Slides](../../)
 

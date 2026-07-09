@@ -1,9 +1,9 @@
 ---
 title: IDataTable
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: データテーブルのプロパティを表します。
 type: docs
-weight: 2040
+weight: 2060
 url: /ja/aspose.slides.charts/idatatable/
 ---
 ## IDataTable インターフェイス
@@ -19,11 +19,11 @@ public interface IDataTable : IFormattedTextContainer
 | 名前 | 説明 |
 | --- | --- |
 | [AsIFormattedTextContainer](../../aspose.slides.charts/idatatable/asiformattedtextcontainer) { get; } | ベース IFormattedTextContainer インターフェイスを取得できます。読み取り専用 [`IFormattedTextContainer`](../iformattedtextcontainer)。 |
-| [Format](../../aspose.slides.charts/idatatable/format) { get; } | オブジェクトの線、塗りつぶし、および効果スタイルを返します。読み取り専用 [`IFormat`](../iformat)。 |
-| [HasBorderHorizontal](../../aspose.slides.charts/idatatable/hasborderhorizontal) { get; set; } | チャート データテーブルに水平セル境界がある場合は true。読み書き可能な Boolean。 |
-| [HasBorderOutline](../../aspose.slides.charts/idatatable/hasborderoutline) { get; set; } | チャート データテーブルにアウトライン境界がある場合は true。読み書き可能な Boolean。 |
-| [HasBorderVertical](../../aspose.slides.charts/idatatable/hasbordervertical) { get; set; } | チャート データテーブルに垂直セル境界がある場合は true。読み書き可能な Boolean。 |
-| [ShowLegendKey](../../aspose.slides.charts/idatatable/showlegendkey) { get; set; } | データ ラベルの凡例キーが表示されている場合は true。読み書き可能な Boolean。 |
+| [Format](../../aspose.slides.charts/idatatable/format) { get; } | オブジェクトの線、塗りつぶし、エフェクトスタイルを返します。読み取り専用 [`IFormat`](../iformat)。 |
+| [HasBorderHorizontal](../../aspose.slides.charts/idatatable/hasborderhorizontal) { get; set; } | チャート データテーブルに水平セル境界線がある場合は True です。読み書き可能な Boolean。 |
+| [HasBorderOutline](../../aspose.slides.charts/idatatable/hasborderoutline) { get; set; } | チャート データテーブルにアウトライン境界線がある場合は True です。読み書き可能な Boolean。 |
+| [HasBorderVertical](../../aspose.slides.charts/idatatable/hasbordervertical) { get; set; } | チャート データテーブルに垂直セル境界線がある場合は True です。読み書き可能な Boolean。 |
+| [ShowLegendKey](../../aspose.slides.charts/idatatable/showlegendkey) { get; set; } | データ ラベルの凡例キーが表示されている場合は True です。読み書き可能な Boolean。 |
 
 ### 参照
 

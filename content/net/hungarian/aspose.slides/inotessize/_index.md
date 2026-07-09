@@ -1,14 +1,14 @@
 ---
 title: INotesSize
-second_title: Aspose.Sildes a .NET API hivatkozás
-description: A jegyzetdiák méretét képviseli.
+second_title: Aspose.Sildes .NET API referencia
+description: A jegyzetdia méretét képviseli.
 type: docs
-weight: 6470
+weight: 6490
 url: /hu/aspose.slides/inotessize/
 ---
 ## INotesSize interfész
 
-A jegyzetdiák méretét képviseli.
+A jegyzetdiára vonatkozó méretet képviseli.
 
 ```csharp
 public interface INotesSize
@@ -18,7 +18,7 @@ public interface INotesSize
 
 | Név | Leírás |
 | --- | --- |
-| [Size](../../aspose.slides/inotessize/size) { get; set; } | Visszaadja vagy beállítja a méretet pontokban. Olvasás/írás SizeF. |
+| [Size](../../aspose.slides/inotessize/size) { get; set; } | Visszaadja vagy beállítja a méretet pontokban. Olvasható/írható SizeF. |
 
 ### Lásd még
 

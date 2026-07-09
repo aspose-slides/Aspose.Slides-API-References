@@ -1,14 +1,14 @@
 ---
 title: TransitionShredPattern
 second_title: Aspose.Sildes för .NET API-referens
-description: Anger en geometrisk form som läggs ihop för att fylla ett större område.
+description: Anger en geometrisk form som låter sig sammanfogas för att fylla ett större område.
 type: docs
-weight: 10390
+weight: 10410
 url: /sv/aspose.slides.slideshow/transitionshredpattern/
 ---
-## TransitionShredPattern uppräkning
+## TransitionShredPattern enum
 
-Anger en geometrisk form som läggs ihop för att fylla ett större område.
+Anger en geometrisk form som låter sig sammanfogas för att fylla ett större område.
 
 ```csharp
 public enum TransitionShredPattern

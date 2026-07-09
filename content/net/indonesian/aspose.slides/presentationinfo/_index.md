@@ -3,7 +3,7 @@ title: PresentationInfo
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Informasi tentang file presentasi
 type: docs
-weight: 9600
+weight: 9620
 url: /id/aspose.slides/presentationinfo/
 ---
 ## PresentationInfo kelas
@@ -16,20 +16,20 @@ public sealed class PresentationInfo : IPresentationInfo
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [IsEncrypted](../../aspose.slides/presentationinfo/isencrypted) { get; } | Mengembalikan True jika presentasi yang terikat dienkripsi, jika tidak False. Boolean hanya-baca. |
+| [IsEncrypted](../../aspose.slides/presentationinfo/isencrypted) { get; } | Mengembalikan True jika presentasi yang terikat terenkripsi, jika tidak False. Hanya-baca Boolean. |
 | [IsPasswordProtected](../../aspose.slides/presentationinfo/ispasswordprotected) { get; } | Mengembalikan nilai yang menunjukkan apakah presentasi yang terikat dilindungi oleh kata sandi untuk dibuka. |
-| [IsWriteProtected](../../aspose.slides/presentationinfo/iswriteprotected) { get; } | Mengembalikan nilai yang menunjukkan apakah presentasi yang terikat dilindungi dari penulisan. |
+| [IsWriteProtected](../../aspose.slides/presentationinfo/iswriteprotected) { get; } | Mengembalikan nilai yang menunjukkan apakah presentasi yang terikat dilindungi terhadap penulisan. |
 | [LoadFormat](../../aspose.slides/presentationinfo/loadformat) { get; } | Mengembalikan format presentasi yang terikat. Hanya-baca [`LoadFormat`](../loadformat). |
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [CheckPassword](../../aspose.slides/presentationinfo/checkpassword)(string) | Memeriksa apakah kata sandi benar untuk presentasi yang dilindungi dengan kata sandi buka. |
-| [CheckWriteProtection](../../aspose.slides/presentationinfo/checkwriteprotection)(string) | Memeriksa apakah kata sandi untuk mengubah benar untuk presentasi yang dilindungi dari penulisan. |
-| [ReadDocumentProperties](../../aspose.slides/presentationinfo/readdocumentproperties)() | Mengembalikan properti dokumen dari presentasi yang terikat. |
+| [CheckWriteProtection](../../aspose.slides/presentationinfo/checkwriteprotection)(string) | Memeriksa apakah kata sandi untuk mengubah benar untuk presentasi yang dilindungi terhadap penulisan. |
+| [ReadDocumentProperties](../../aspose.slides/presentationinfo/readdocumentproperties)() | Mengembalikan properti dokumen presentasi yang terikat. |
 | [UpdateDocumentProperties](../../aspose.slides/presentationinfo/updatedocumentproperties)(IDocumentProperties) | Memperbarui properti presentasi yang terikat. |
 | [WriteBindedPresentation](../../aspose.slides/presentationinfo/writebindedpresentation#writebindedpresentation)(Stream) | Menulis presentasi yang terikat ke aliran. |
 | [WriteBindedPresentation](../../aspose.slides/presentationinfo/writebindedpresentation#writebindedpresentation_1)(string) | Menulis presentasi yang terikat ke file. |

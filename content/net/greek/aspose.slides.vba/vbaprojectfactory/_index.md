@@ -3,12 +3,12 @@ title: VbaProjectFactory
 second_title: Aspose.Sildes για .NET API Αναφορά
 description: Επιτρέπει τη δημιουργία έργου VBA μέσω διεπαφής COM
 type: docs
-weight: 11640
+weight: 11660
 url: /el/aspose.slides.vba/vbaprojectfactory/
 ---
 ## VbaProjectFactory κλάση
 
-Επιτρέπει τη δημιουργία έργου VBA μέσω διεπαφής COM
+Επιτρέπει τη δημιουργία έργου VBA μέσω της διεπαφής COM
 
 ```csharp
 public class VbaProjectFactory : IVbaProjectFactory
@@ -24,14 +24,14 @@ public class VbaProjectFactory : IVbaProjectFactory
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| static [Instance](../../aspose.slides.vba/vbaprojectfactory/instance) { get; } | VBA project factory static instance. Μόνο για ανάγνωση [`VbaProjectFactory`](../vbaprojectfactory). |
+| static [Instance](../../aspose.slides.vba/vbaprojectfactory/instance) { get; } | Στατική παρουσία του εργοστασίου VBA. Μόνο-ανάγνωση [`VbaProjectFactory`](../vbaprojectfactory). |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [CreateVbaProject](../../aspose.slides.vba/vbaprojectfactory/createvbaproject)() | Δημιουργεί νέο έργο VBA. |
-| [ReadVbaProject](../../aspose.slides.vba/vbaprojectfactory/readvbaproject)(byte[]) | Διαβάζει έργο VBA από το δοχείο OLE. |
+| [ReadVbaProject](../../aspose.slides.vba/vbaprojectfactory/readvbaproject)(byte[]) | Διαβάζει έργο VBA από δοχείο OLE. |
 
 ### Δείτε επίσης
 

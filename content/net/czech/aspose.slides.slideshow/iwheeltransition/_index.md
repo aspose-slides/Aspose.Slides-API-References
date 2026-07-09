@@ -1,14 +1,14 @@
 ---
 title: IWheelTransition
 second_title: Aspose.Sildes pro .NET API Reference
-description: Efekt přechodu kola.
+description: Efekt přechodu kolečkového snímku.
 type: docs
-weight: 10200
+weight: 10220
 url: /cs/aspose.slides.slideshow/iwheeltransition/
 ---
 ## IWheelTransition rozhraní
 
-Efekt přechodu kola.
+Efekt přechodu kolečkového snímku.
 
 ```csharp
 public interface IWheelTransition : ITransitionValueBase
@@ -18,7 +18,7 @@ public interface IWheelTransition : ITransitionValueBase
 
 | Název | Popis |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iwheeltransition/asitransitionvaluebase) { get; } | Umožňuje získat základní rozhraní ITransitionValueBase. Pouze ke čtení [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iwheeltransition/asitransitionvaluebase) { get; } | Umožňuje získat základní rozhraní ITransitionValueBase. Pouze pro čtení [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Spokes](../../aspose.slides.slideshow/iwheeltransition/spokes) { get; set; } | Počet paprsků přechodu kola. Čtení/zápis UInt32. |
 
 ### Viz také

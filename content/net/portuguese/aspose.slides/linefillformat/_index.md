@@ -3,7 +3,7 @@ title: LineFillFormat
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa propriedades para preenchimento de linhas.
 type: docs
-weight: 7760
+weight: 7780
 url: /pt/aspose.slides/linefillformat/
 ---
 ## LineFillFormat classe
@@ -16,23 +16,23 @@ public sealed class LineFillFormat : PVIObject, ILineFillFormat
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obter a interface base IPresentationComponent. Somente leitura [`IPresentationComponent`](../ipresentationcomponent). |
 | [FillType](../../aspose.slides/linefillformat/filltype) { get; set; } | Retorna ou define o tipo de preenchimento. Leitura/gravação [`FillType`](../filltype). |
 | [GradientFormat](../../aspose.slides/linefillformat/gradientformat) { get; } | Retorna o formato de preenchimento gradiente. Somente leitura [`IGradientFormat`](../igradientformat). |
 | [PatternFormat](../../aspose.slides/linefillformat/patternformat) { get; } | Retorna o formato de preenchimento de padrão. Somente leitura [`IPatternFormat`](../ipatternformat). |
-| [RotateWithShape](../../aspose.slides/linefillformat/rotatewithshape) { get; set; } | Determina se o preenchimento deve ser girado com uma forma. Leitura/gravação [`NullableBool`](../nullablebool). |
+| [RotateWithShape](../../aspose.slides/linefillformat/rotatewithshape) { get; set; } | Determina se o preenchimento deve ser rotacionado com uma forma. Leitura/gravação [`NullableBool`](../nullablebool). |
 | [SolidFillColor](../../aspose.slides/linefillformat/solidfillcolor) { get; } | Retorna a cor de um preenchimento sólido. Somente leitura [`IColorFormat`](../icolorformat). |
 
 ## Métodos
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compara com o objeto especificado. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Retorna o código hash. |
 
-### Veja Também
+### Ver também
 
 * classe [PVIObject](../pviobject)
 * interface [ILineFillFormat](../ilinefillformat)

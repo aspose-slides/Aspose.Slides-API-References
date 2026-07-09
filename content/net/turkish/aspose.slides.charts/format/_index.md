@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: Aspose.Sildes .NET API Referansı
-description: Grafik biçim özelliklerini temsil eder.
+description: Grafik formatı özelliklerini temsil eder.
 type: docs
-weight: 1660
+weight: 1680
 url: /tr/aspose.slides.charts/format/
 ---
 ## Format sınıfı
 
-Grafik biçim özelliklerini temsil eder.
+Grafik format özelliklerini temsil eder.
 
 ```csharp
 public sealed class Format : PVIObject, IFormat
@@ -18,20 +18,20 @@ public sealed class Format : PVIObject, IFormat
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arabirimine erişim sağlar. Salt okunur [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Effect](../../aspose.slides.charts/format/effect) { get; } | Bir grafik için kullanılan efektleri döndürür. Salt okunur [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Effect3D](../../aspose.slides.charts/format/effect3d) { get; } | Bir grafiğin 3D biçimini döndürür. Salt okunur [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
-| [Fill](../../aspose.slides.charts/format/fill) { get; } | Bir grafiğin dolgu stil özelliklerini döndürür. Salt okunur [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [Line](../../aspose.slides.charts/format/line) { get; } | Bir grafiğin çizgi stil özelliklerini döndürür. Salt okunur [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almaya izin verir. Yalnızca okunur [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Effect](../../aspose.slides.charts/format/effect) { get; } | Bir grafik için kullanılan efektleri döndürür. Yalnızca okunur [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Effect3D](../../aspose.slides.charts/format/effect3d) { get; } | Bir grafiğin 3D formatını döndürür. Yalnızca okunur [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
+| [Fill](../../aspose.slides.charts/format/fill) { get; } | Bir grafiğin dolgu stil özelliklerini döndürür. Yalnızca okunur [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Line](../../aspose.slides.charts/format/line) { get; } | Bir grafiğin çizgi stil özelliklerini döndürür. Yalnızca okunur [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Belirtilen nesneyle karşılaştırır. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Karma kodu döndürür. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Belirtilen nesne ile karşılaştırır. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Karma kodunu döndürür. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * sınıf [PVIObject](../../aspose.slides/pviobject)
 * arayüz [IFormat](../iformat)

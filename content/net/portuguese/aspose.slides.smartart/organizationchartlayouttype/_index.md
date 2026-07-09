@@ -1,12 +1,12 @@
 ---
 title: OrganizationChartLayoutType
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência de API
 description: Representa o tipo de formatação dos nós filhos em um organograma
 type: docs
-weight: 10570
+weight: 10590
 url: /pt/aspose.slides.smartart/organizationchartlayouttype/
 ---
-## OrganizationChartLayoutType enumeration
+## OrganizationChartLayoutType enumeração
 
 Representa o tipo de formatação dos nós filhos em um organograma
 
@@ -20,11 +20,11 @@ public enum OrganizationChartLayoutType
 | --- | --- | --- |
 | Initial | `0` | Tipo de layout inicial |
 | Standart | `1` | Posiciona os nós filhos horizontalmente abaixo do nó pai. |
-| BothHanging | `2` | Posiciona os nós filhos verticalmente abaixo do nó pai em ambos os lados esquerdo e direito. |
+| BothHanging | `2` | Posiciona os nós filhos verticalmente abaixo do nó pai, tanto no lado esquerdo quanto no direito. |
 | LeftHanging | `3` | Posiciona os nós filhos verticalmente abaixo do nó pai no lado esquerdo. |
 | RightHanging | `4` | Posiciona os nós filhos verticalmente abaixo do nó pai no lado direito. |
 
-### Ver Também
+### Veja Também
 
 * namespace [Aspose.Slides.SmartArt](../../aspose.slides.smartart)
 * assembly [Aspose.Slides](../../)

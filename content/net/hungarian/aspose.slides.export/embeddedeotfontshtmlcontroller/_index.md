@@ -1,14 +1,14 @@
 ---
 title: EmbeddedEotFontsHtmlController
-second_title: Aspose.Sildes .NET API referencia
-description: Az EOT formátumban betűk beágyazásához használandó formázási vezérlő osztály
+second_title: Aspose.Sildes a .NET API referenciához
+description: A formázási vezérlőosztály a betűtípusok EOT formátumban történő beágyazásához
 type: docs
-weight: 3760
+weight: 3780
 url: /hu/aspose.slides.export/embeddedeotfontshtmlcontroller/
 ---
 ## EmbeddedEotFontsHtmlController osztály
 
-Az EOT formátumú betűk beágyazásához használandó formázási vezérlőosztály
+A formázási vezérlőosztály a betűtípusok EOT formátumban történő beágyazásához használható
 
 ```csharp
 public class EmbeddedEotFontsHtmlController : IEmbeddedEotFontsHtmlController

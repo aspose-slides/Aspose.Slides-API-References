@@ -1,14 +1,14 @@
 ---
 title: IAccessiblePVIObjectT
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili tipe yang dapat mengembalikan data efektif yang sesuai dengan pewarisan yang diterapkan.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili tipe yang dapat mengembalikan data efektif yang sesuai dengan penerapan pewarisan.
 type: docs
-weight: 5150
+weight: 5170
 url: /id/aspose.slides/iaccessiblepviobject-1/
 ---
-## IAccessiblePVIObject&lt;T&gt; antarmuka
+## IAccessiblePVIObject<T> antarmuka
 
-Mewakili tipe yang dapat mengembalikan data efektif yang sesuai dengan pewarisan yang diterapkan.
+Mewakili tipe yang dapat mengembalikan data efektif yang sesuai dengan penerapan pewarisan.
 
 ```csharp
 public interface IAccessiblePVIObject<T>
@@ -23,7 +23,7 @@ public interface IAccessiblePVIObject<T>
 
 | Nama | Deskripsi |
 | --- | --- |
-| [GetEffective](../../aspose.slides/iaccessiblepviobject`1/geteffective)() | Mendapatkan data efektif dengan pewarisan yang diterapkan. |
+| [GetEffective](../../aspose.slides/iaccessiblepviobject`1/geteffective)() | Mengambil data efektif dengan penerapan pewarisan. |
 
 ### Lihat Juga
 

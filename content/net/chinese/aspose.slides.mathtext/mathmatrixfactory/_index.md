@@ -1,12 +1,11 @@
 ---
 title: MathMatrixFactory
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Sildes for .NET API 参考
 description: 允许创建数学矩阵
 type: docs
-weight: 8600
+weight: 8860
 url: /zh/aspose.slides.mathtext/mathmatrixfactory/
 ---
-
 ## MathMatrixFactory 类
 
 允许创建数学矩阵
@@ -25,11 +24,11 @@ public class MathMatrixFactory : IMathMatrixFactory
 
 | 名称 | 描述 |
 | --- | --- |
-| [CreateMathMatrix](../../aspose.slides.mathtext/mathmatrixfactory/createmathmatrix)(int, int) | 创建数学矩阵 |
+| [CreateMathMatrix](../../aspose.slides.mathtext/mathmatrixfactory/createmathmatrix)(int, int) | 创建数学矩阵 |
 
 ### 备注
 
-为了与 COM 兼容
+用于 COM 兼容性
 
 ### 另请参阅
 

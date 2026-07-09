@@ -1,12 +1,12 @@
 ---
 title: IMasterTheme
-second_title: Aspose.Sildes .NET API Referansı
-description: Bir ana temayı temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Ana temayı temsil eder.
 type: docs
-weight: 11290
+weight: 11310
 url: /tr/aspose.slides.theme/imastertheme/
 ---
-## IMasterTheme arayüzü
+## IMasterTheme arayüz
 
 Bir ana tema temsil eder.
 
@@ -20,7 +20,7 @@ public interface IMasterTheme : ITheme
 | --- | --- |
 | [AsITheme](../../aspose.slides.theme/imastertheme/asitheme) { get; } | Temel ITheme arayüzünü almayı sağlar. Salt okunur [`ITheme`](../itheme). |
 | [ExtraColorSchemes](../../aspose.slides.theme/imastertheme/extracolorschemes) { get; } | Ek renk şemalarının koleksiyonunu döndürür. Bu şemalar sunumun görünümünü etkilemez, bir slayt için ana renk şeması olarak seçilebilir. Salt okunur [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
-| [Name](../../aspose.slides.theme/imastertheme/name) { get; set; } | Bir temanın adını döndürür. Okuma/yazma String. |
+| [Name](../../aspose.slides.theme/imastertheme/name) { get; set; } | Bir temanın adını döndürür. Okunabilir/Yazılabilir String. |
 
 ### Ayrıca Bakınız
 

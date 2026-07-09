@@ -1,14 +1,14 @@
 ---
 title: PresentedBySpeaker
-second_title: Aspose.Sildes の .NET API リファレンス
-description: スピーカーが全画面で提示します
+second_title: Aspose.Sildes for .NET API リファレンス
+description: スピーカーによるプレゼンテーション（全画面）
 type: docs
-weight: 9630
+weight: 9650
 url: /ja/aspose.slides/presentedbyspeaker/
 ---
 ## PresentedBySpeaker クラス
 
-スピーカーによって提示されます（全画面）
+スピーカーによるプレゼンテーション（全画面）
 
 ```csharp
 public class PresentedBySpeaker : SlideShowType

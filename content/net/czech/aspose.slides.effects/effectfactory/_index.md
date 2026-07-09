@@ -3,7 +3,7 @@ title: EffectFactory
 second_title: Aspose.Sildes pro .NET API referenci
 description: Umožňuje vytvářet efekty
 type: docs
-weight: 2950
+weight: 2970
 url: /cs/aspose.slides.effects/effectfactory/
 ---
 ## EffectFactory třída
@@ -31,11 +31,11 @@ public class EffectFactory : IEffectFactory
 | Název | Popis |
 | --- | --- |
 | [CreateGlow](../../aspose.slides.effects/effectfactory/createglow)() | Vytváří efekt Glow. |
-| [CreateInnerShadow](../../aspose.slides.effects/effectfactory/createinnershadow)() | Vytváří efekt vnitřního stínu. |
-| [CreateOuterShadow](../../aspose.slides.effects/effectfactory/createoutershadow)() | Vytváří efekt vnějšího stínu. |
-| [CreatePresetShadow](../../aspose.slides.effects/effectfactory/createpresetshadow)() | Vytváří efekt přednastaveného stínu. |
-| [CreateReflection](../../aspose.slides.effects/effectfactory/createreflection)() | Vytváří efekt odrazu. |
-| [CreateSoftEdge](../../aspose.slides.effects/effectfactory/createsoftedge)() | Vytváří efekt měkkého okraje. |
+| [CreateInnerShadow](../../aspose.slides.effects/effectfactory/createinnershadow)() | Vytváří efekt Inner shafow. |
+| [CreateOuterShadow](../../aspose.slides.effects/effectfactory/createoutershadow)() | Vytváří efekt Outer shadow. |
+| [CreatePresetShadow](../../aspose.slides.effects/effectfactory/createpresetshadow)() | Vytváří efekt Preset shadow. |
+| [CreateReflection](../../aspose.slides.effects/effectfactory/createreflection)() | Vytváří efekt Reflection. |
+| [CreateSoftEdge](../../aspose.slides.effects/effectfactory/createsoftedge)() | Vytváří efekt Soft Edge. |
 
 ### Poznámky
 

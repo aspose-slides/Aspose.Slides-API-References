@@ -1,14 +1,14 @@
 ---
 title: IRowCollection
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αναπαριστά τη συλλογή σειρών του πίνακα.
+description: Αντιπροσωπεύει τη συλλογή σειρών πίνακα.
 type: docs
-weight: 6840
+weight: 6860
 url: /el/aspose.slides/irowcollection/
 ---
 ## IRowCollection διασύνδεση
 
-Αναπαριστά τη συλλογή σειρών του πίνακα.
+Αντιπροσωπεύει τη συλλογή σειρών πίνακα.
 
 ```csharp
 public interface IRowCollection : IGenericCollection<IRow>
@@ -18,13 +18,13 @@ public interface IRowCollection : IGenericCollection<IRow>
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Item](../../aspose.slides/irowcollection/item) { get; } | Λαμβάνει το στοιχείο στο καθορισμένο δείκτη. |
+| [Item](../../aspose.slides/irowcollection/item) { get; } | Λαμβάνει το στοιχείο στη συγκεκριμένη θέση. |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | Δημιουργεί ένα αντίγραφο της καθορισμένης γραμμής προτύπου και το εισάγει στο κάτω μέρος ενός πίνακα. |
+| [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | Δημιουργεί ένα αντίγραφο της καθορισμένης γραμμής προτύπου και το εισάγει στο κάτω μέρος του πίνακα. |
 | [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | Δημιουργεί ένα αντίγραφο της καθορισμένης γραμμής προτύπου και το εισάγει στη συγκεκριμένη θέση σε έναν πίνακα. |
 | [RemoveAt](../../aspose.slides/irowcollection/removeat)(int, bool) | Αφαιρεί μια γραμμή στη συγκεκριμένη θέση από έναν πίνακα. |
 

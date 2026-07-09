@@ -1,14 +1,14 @@
 ---
 title: IChartSeriesGroupCollection
-second_title: Aspose.Sildes dla .NET Referencja API
+second_title: Aspose.Sildes dla .NET – Referencja API
 description: Reprezentuje kolekcję grup łączonych serii.
 type: docs
-weight: 1940
+weight: 1960
 url: /pl/aspose.slides.charts/ichartseriesgroupcollection/
 ---
 ## IChartSeriesGroupCollection interfejs
 
-Reprezentuje kolekcję grup łączonych serii.
+Represents the collection of groups of combinable series.
 
 ```csharp
 public interface IChartSeriesGroupCollection : IGenericCollection<IChartSeriesGroup>
@@ -22,7 +22,7 @@ public interface IChartSeriesGroupCollection : IGenericCollection<IChartSeriesGr
 
 ### Uwagi
 
-1) Każda grupa serii zawiera serie o łączonych typach. Grupy łączonych typów serii są definiowane i opisane w enumeracji CombinableSeriesTypesGroup. Ponadto każda grupa serii zawiera serie, które są wykreślane albo na osi podstawowej, albo na osi pomocniczej (nie w obu przypadkach w jednej grupie). Zatem zasada grupowania serii opiera się na grupowaniu według wymienionych wyżej grup typów oraz według typu wykreślania podstawowego/pomocniczego. 2) Grupa serii zawiera niektóre właściwości serii, które są wspólne dla każdej serii w grupie („właściwości grupy serii”). „Właściwości grupy serii” w klasie ChartSeriesGroup są odczyt/zapis. Każda z „właściwości grupy serii” może mieć projekcję tylko do odczytu w klasie ChartSeries.
+1) Każda grupa serii zawiera serie o typach możliwych do połączenia. Grupy typów serii, które można łączyć, są definiowane i opisane przy pomocy wyliczenia CombinableSeriesTypesGroup enum. Ponadto każda grupa serii zawiera serie, które są rysowane albo na osi pierwotnej, albo na osi pomocniczej (nie jednocześnie w jednej grupie). Zatem zasada grupowania serii polega na grupowaniu według wymienionych wyżej grup typów oraz według typu rysowania (pierwotny/pomocniczy). 2) Grupa serii zawiera niektóre właściwości serii, które są wspólne dla każdej serii w grupie ("series group properties"). "Series group properties" w klasie ChartSeriesGroup są read/write. Każda z "series group properties" może mieć projekcję read-only w klasie ChartSeries.
 
 ### Zobacz także
 

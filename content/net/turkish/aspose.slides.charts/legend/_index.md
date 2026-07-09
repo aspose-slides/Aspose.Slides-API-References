@@ -1,14 +1,14 @@
 ---
 title: Legend
-second_title: Aspose.Sildes için .NET API Referansı
-description: Grafik lejand özelliklerini temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Grafiklerin legend özelliklerini temsil eder.
 type: docs
-weight: 2260
+weight: 2280
 url: /tr/aspose.slides.charts/legend/
 ---
 ## Legend sınıfı
 
-Grafiğin lejand özelliklerini temsil eder.
+Grafiğin legend özelliklerini temsil eder.
 
 ```csharp
 public class Legend : DomObject<Chart>, ILegend
@@ -18,24 +18,24 @@ public class Legend : DomObject<Chart>, ILegend
 
 | Ad | Açıklama |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | Grafiğin gerçek yüksekliğini belirtir. Gerçek değerleri almak için önce IChart.ValidateChartLayout() yöntemini çağırın. Read Single. |
-| [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | Grafiğin gerçek genişliğini belirtir. Gerçek değerleri almak için önce IChart.ValidateChartLayout() yöntemini çağırın. Read Single. |
-| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | Grafiğin sol üst köşesine göre gerçek x konumunu (sol) belirtir. Gerçek değerleri almak için önce IChart.ValidateChartLayout() yöntemini çağırın. Read Single. |
-| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | Grafiğin sol üst köşesine göre gerçek üst konumunu belirtir. Gerçek değerleri almak için önce IChart.ValidateChartLayout() yöntemini çağırın. Read Single. |
-| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | Alt. Read-only Single. |
-| [Chart](../../aspose.slides.charts/legend/chart) { get; } | Grafiği döndürür. Read-only [`IChart`](../ichart). |
-| [Entries](../../aspose.slides.charts/legend/entries) { get; } | Lejand girişlerini alır. Read-only [`ILegendEntryCollection`](../ilegendentrycollection). |
-| [Format](../../aspose.slides.charts/legend/format) { get; } | Lejandın biçimini döndürür. Read-only [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/legend/height) { get; set; } | Lejandın yüksekliğini, grafiğin yüksekliğinin bir kesri olarak döndürür veya ayarlar. Read/write Single. |
-| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | Diğer grafik öğelerinin lejandın üzerine çakışmasına izin verilip verilmeyeceğini belirler. Read/write Boolean. |
-| [Position](../../aspose.slides.charts/legend/position) { get; set; } | Lejandın bir grafikteki konumunu belirtir. X, Y, Width, Heigt özelliklerinin NaN olmayan değerleri bu özelliğin etkisini geçersiz kılar. Read/write [`LegendPositionType`](../legendpositiontype). |
-| [Right](../../aspose.slides.charts/legend/right) { get; } | Sağ. Read-only Single. |
-| [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | Metin biçimi. Read-only [`IChartTextFormat`](../icharttextformat). |
-| [Width](../../aspose.slides.charts/legend/width) { get; set; } | Lejandın genişliğini, grafiğin genişliğinin bir kesri olarak döndürür veya ayarlar. Read/write Single. |
-| [X](../../aspose.slides.charts/legend/x) { get; set; } | Lejandın x koordinatını, grafiğin genişliğinin bir kesri olarak döndürür veya ayarlar. Read/write Single. |
-| [Y](../../aspose.slides.charts/legend/y) { get; set; } | Lejandın y koordinatını, grafiğin yüksekliğinin bir kesri olarak döndürür veya ayarlar. Read/write Single. |
+| [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | Grafiğin öğesinin gerçek yüksekliğini belirtir. Gerçek değerleri almak için önceden IChart.ValidateChartLayout() metodunu çağırın. Okuma Single. |
+| [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | Grafiğin öğesinin gerçek genişliğini belirtir. Gerçek değerleri almak için önceden IChart.ValidateChartLayout() metodunu çağırın. Okuma Single. |
+| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | Grafiğin öğesinin gerçek x konumunu (sol) grafiğin sol üst köşesine göre belirtir. Gerçek değerleri almak için önceden IChart.ValidateChartLayout() metodunu çağırın. Okuma Single. |
+| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | Grafiğin öğesinin gerçek üst konumunu grafiğin sol üst köşesine göre belirtir. Gerçek değerleri almak için önceden IChart.ValidateChartLayout() metodunu çağırın. Okuma Single. |
+| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | Alt. Yalnızca okunabilir Single. |
+| [Chart](../../aspose.slides.charts/legend/chart) { get; } | Grafiği döndürür. Yalnızca okunabilir [`IChart`](../ichart). |
+| [Entries](../../aspose.slides.charts/legend/entries) { get; } | Legend girişlerini alır. Yalnızca okunabilir [`ILegendEntryCollection`](../ilegendentrycollection). |
+| [Format](../../aspose.slides.charts/legend/format) { get; } | Legend formatını döndürür. Yalnızca okunabilir [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/legend/height) { get; set; } | Legend yüksekliğini, grafiğin yüksekliğinin bir kesri olarak döndürür veya ayarlar. Okuma/yazma Single. |
+| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | Diğer grafik öğelerinin legendın üzerine çakışmasına izin verilip verilmeyeceğini belirler. Okuma/yazma Boolean. |
+| [Position](../../aspose.slides.charts/legend/position) { get; set; } | Legendın bir grafikteki konumunu belirtir. X, Y, Width, Heigt özelliklerinin NaN olmayan değerleri bu özelliğin etkisini geçersiz kılar. Okuma/yazma [`LegendPositionType`](../legendpositiontype). |
+| [Right](../../aspose.slides.charts/legend/right) { get; } | Sağ. Yalnızca okunabilir Single. |
+| [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | Metin biçimi. Yalnızca okunabilir [`IChartTextFormat`](../icharttextformat). |
+| [Width](../../aspose.slides.charts/legend/width) { get; set; } | Legendın genişliğini, grafiğin genişliğinin bir kesri olarak döndürür veya ayarlar. Okuma/yazma Single. |
+| [X](../../aspose.slides.charts/legend/x) { get; set; } | Legendın x koordinatını, grafiğin genişliğinin bir kesri olarak döndürür veya ayarlar. Okuma/yazma Single. |
+| [Y](../../aspose.slides.charts/legend/y) { get; set; } | Legendın y koordinatını, grafiğin yüksekliğinin bir kesri olarak döndürür veya ayarlar. Okuma/yazma Single. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * sınıf [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * sınıf [Chart](../chart)

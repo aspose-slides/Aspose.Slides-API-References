@@ -1,9 +1,9 @@
 ---
 title: IPatternFormatEffectiveData
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Objeto imutável que contém propriedades efetivas de preenchimento de padrão.
 type: docs
-weight: 6610
+weight: 6630
 url: /pt/aspose.slides/ipatternformateffectivedata/
 ---
 ## IPatternFormatEffectiveData interface
@@ -19,20 +19,20 @@ public interface IPatternFormatEffectiveData
 | Nome | Descrição |
 | --- | --- |
 | [BackColor](../../aspose.slides/ipatternformateffectivedata/backcolor) { get; } | Retorna a cor de fundo do padrão. Somente leitura Color. |
-| [ForeColor](../../aspose.slides/ipatternformateffectivedata/forecolor) { get; } | Retorna a cor de primeiro plano do padrão. Somente leitura Color. |
+| [ForeColor](../../aspose.slides/ipatternformateffectivedata/forecolor) { get; } | Retorna a cor do padrão em primeiro plano. Somente leitura Color. |
 | [PatternStyle](../../aspose.slides/ipatternformateffectivedata/patternstyle) { get; } | Retorna o estilo do padrão. Somente leitura [`PatternStyle`](../patternstyle). |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
-| [GetTileIImage](../../aspose.slides/ipatternformateffectivedata/gettileiimage)(Color, Color) | Cria uma imagem em mosaico para o preenchimento do padrão com cores especificadas. |
+| [GetTileIImage](../../aspose.slides/ipatternformateffectivedata/gettileiimage)(Color, Color) | Cria uma imagem de ladrilho para o preenchimento de padrão com cores especificadas. |
 
 ### Observações
 
 Esta interface é usada como parte de [`IFillFormatEffectiveData`](../ifillformateffectivedata) e [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata).
 
-### Veja Também
+### Ver também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

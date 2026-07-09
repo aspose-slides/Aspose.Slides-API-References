@@ -3,10 +3,10 @@ title: SlidesAIAgentException
 second_title: Aspose.Sildes for .NET API Referansı
 description: Slides AI Agent ile ilgili istisnaları temsil eder.
 type: docs
-weight: 60
+weight: 80
 url: /tr/aspose.slides.ai/slidesaiagentexception/
 ---
-## SlidesAIAgentException sınıf
+## SlidesAIAgentException sınıfı
 
 Slides AI Agent ile ilgili istisnaları temsil eder.
 
@@ -18,8 +18,8 @@ public class SlidesAIAgentException : Exception
 
 | Ad | Açıklama |
 | --- | --- |
-| [SlidesAIAgentException](slidesaiagentexception#constructor)(string) | Bu istisna için bir mesaj eklenmesine izin veren yapıcı. |
-| [SlidesAIAgentException](slidesaiagentexception#constructor_1)(string, Exception) | Bir mesaj ve gömülü bir istisna içeren bir istisna için yapıcı. |
+| [SlidesAIAgentException](slidesaiagentexception#constructor)(string) | Bu istisnaya bir ileti eklenmesini sağlayan yapıcı. |
+| [SlidesAIAgentException](slidesaiagentexception#constructor_1)(string, Exception) | Bir ileti ve gömülü bir istisna içeren bir istisna için yapıcı. |
 
 ### Ayrıca Bakınız
 

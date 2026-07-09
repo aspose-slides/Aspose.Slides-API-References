@@ -1,14 +1,14 @@
 ---
 title: LineFormat
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili format garis.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili format sebuah garis.
 type: docs
-weight: 7770
+weight: 7790
 url: /id/aspose.slides/lineformat/
 ---
 ## LineFormat kelas
 
-Mewakili format garis.
+Mewakili format sebuah garis.
 
 ```csharp
 public sealed class LineFormat : PVIObject, ILineFormat
@@ -18,24 +18,24 @@ public sealed class LineFormat : PVIObject, ILineFormat
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Alignment](../../aspose.slides/lineformat/alignment) { get; set; } | Mengembalikan atau mengatur perataan garis. Baca/tulis [`LineAlignment`](../linealignment). |
+| [Alignment](../../aspose.slides/lineformat/alignment) { get; set; } | Mengembalikan atau mengatur penjajaran garis. Baca/tulis [`LineAlignment`](../linealignment). |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar IPresentationComponent. Baca-saja [`IPresentationComponent`](../ipresentationcomponent). |
-| [BeginArrowheadLength](../../aspose.slides/lineformat/beginarrowheadlength) { get; set; } | Mengembalikan atau mengatur panjang ujung panah di awal garis. Baca/tulis [`LineArrowheadLength`](../linearrowheadlength). |
-| [BeginArrowheadStyle](../../aspose.slides/lineformat/beginarrowheadstyle) { get; set; } | Mengembalikan atau mengatur gaya ujung panah di awal garis. Baca/tulis [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [BeginArrowheadWidth](../../aspose.slides/lineformat/beginarrowheadwidth) { get; set; } | Mengembalikan atau mengatur lebar ujung panah di awal garis. Baca/tulis [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/lineformat/capstyle) { get; set; } | Mengembalikan atau mengatur gaya penutup garis. Baca/tulis [`LineCapStyle`](../linecapstyle). |
+| [BeginArrowheadLength](../../aspose.slides/lineformat/beginarrowheadlength) { get; set; } | Mengembalikan atau mengatur panjang kepala panah di awal garis. Baca/tulis [`LineArrowheadLength`](../linearrowheadlength). |
+| [BeginArrowheadStyle](../../aspose.slides/lineformat/beginarrowheadstyle) { get; set; } | Mengembalikan atau mengatur gaya kepala panah di awal garis. Baca/tulis [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [BeginArrowheadWidth](../../aspose.slides/lineformat/beginarrowheadwidth) { get; set; } | Mengembalikan atau mengatur lebar kepala panah di awal garis. Baca/tulis [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [CapStyle](../../aspose.slides/lineformat/capstyle) { get; set; } | Mengembalikan atau mengatur gaya ujung garis. Baca/tulis [`LineCapStyle`](../linecapstyle). |
 | [CustomDashPattern](../../aspose.slides/lineformat/customdashpattern) { get; set; } | Mengembalikan atau mengatur pola dash khusus. Baca/tulis Single[]. |
 | [DashStyle](../../aspose.slides/lineformat/dashstyle) { get; set; } | Mengembalikan atau mengatur gaya dash garis. Baca/tulis [`LineDashStyle`](../linedashstyle). |
-| [EndArrowheadLength](../../aspose.slides/lineformat/endarrowheadlength) { get; set; } | Mengembalikan atau mengatur panjang ujung panah di akhir garis. Baca/tulis [`LineArrowheadLength`](../linearrowheadlength). |
-| [EndArrowheadStyle](../../aspose.slides/lineformat/endarrowheadstyle) { get; set; } | Mengembalikan atau mengatur gaya ujung panah di akhir garis. Baca/tulis [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [EndArrowheadWidth](../../aspose.slides/lineformat/endarrowheadwidth) { get; set; } | Mengembalikan atau mengatur lebar ujung panah di akhir garis. Baca/tulis [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [FillFormat](../../aspose.slides/lineformat/fillformat) { get; } | Mengembalikan format isian sebuah garis. Baca-saja [`ILineFillFormat`](../ilinefillformat). |
+| [EndArrowheadLength](../../aspose.slides/lineformat/endarrowheadlength) { get; set; } | Mengembalikan atau mengatur panjang kepala panah di akhir garis. Baca/tulis [`LineArrowheadLength`](../linearrowheadlength). |
+| [EndArrowheadStyle](../../aspose.slides/lineformat/endarrowheadstyle) { get; set; } | Mengembalikan atau mengatur gaya kepala panah di akhir garis. Baca/tulis [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [EndArrowheadWidth](../../aspose.slides/lineformat/endarrowheadwidth) { get; set; } | Mengembalikan atau mengatur lebar kepala panah di akhir garis. Baca/tulis [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [FillFormat](../../aspose.slides/lineformat/fillformat) { get; } | Mengembalikan format isi garis. Baca-saja [`ILineFillFormat`](../ilinefillformat). |
 | [IsFormatNotDefined](../../aspose.slides/lineformat/isformatnotdefined) { get; } | Mengembalikan true jika format garis tidak didefinisikan (baru dibuat, default). Baca-saja Boolean. |
 | [JoinStyle](../../aspose.slides/lineformat/joinstyle) { get; set; } | Mengembalikan atau mengatur gaya sambungan garis. Baca/tulis [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/lineformat/miterlimit) { get; set; } | Mengembalikan atau mengatur batas miter sebuah garis. Baca/tulis Single. |
-| [SketchFormat](../../aspose.slides/lineformat/sketchformat) { get; } | Mengembalikan format sketsa sebuah garis. Baca-saja [`ILineFillFormat`](../ilinefillformat). |
+| [MiterLimit](../../aspose.slides/lineformat/miterlimit) { get; set; } | Mengembalikan atau mengatur batas mitra garis. Baca/tulis Single. |
+| [SketchFormat](../../aspose.slides/lineformat/sketchformat) { get; } | Mengembalikan format sketsa garis. Baca-saja [`ILineFillFormat`](../ilinefillformat). |
 | [Style](../../aspose.slides/lineformat/style) { get; set; } | Mengembalikan atau mengatur gaya garis. Baca/tulis [`LineStyle`](../linestyle). |
-| [Width](../../aspose.slides/lineformat/width) { get; set; } | Mengembalikan atau mengatur lebar sebuah garis. Baca/tulis Double. |
+| [Width](../../aspose.slides/lineformat/width) { get; set; } | Mengembalikan atau mengatur lebar garis. Baca/tulis Double. |
 
 ## Metode
 
@@ -43,14 +43,14 @@ public sealed class LineFormat : PVIObject, ILineFormat
 | --- | --- |
 | [Equals](../../aspose.slides/lineformat/equals#equals)(ILineFormat) | Menentukan apakah dua instance LineFormat sama. |
 | override [Equals](../../aspose.slides/lineformat/equals#equals_1)(object) |  |
-| [GetEffective](../../aspose.slides/lineformat/geteffective)() | Mendapatkan data format garis yang efektif dengan pewarisan diterapkan. |
+| [GetEffective](../../aspose.slides/lineformat/geteffective)() | Mendapatkan data format garis efektif dengan pewarisan yang diterapkan. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Mengembalikan kode hash. |
 
 ### Lihat Juga
 
-* kelas [PVIObject](../pviobject)
-* antarmuka [ILineFormat](../ilineformat)
-* ruang nama [Aspose.Slides](../../aspose.slides)
+* class [PVIObject](../pviobject)
+* interface [ILineFormat](../ilineformat)
+* namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

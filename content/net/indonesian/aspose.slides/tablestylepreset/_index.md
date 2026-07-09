@@ -1,12 +1,12 @@
 ---
 title: TableStylePreset
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili gaya tabel bawaan.
 type: docs
-weight: 10860
+weight: 10880
 url: /id/aspose.slides/tablestylepreset/
 ---
-## enumerasi TableStylePreset
+## TableStylePreset enumerasi
 
 Mewakili gaya tabel bawaan.
 
@@ -19,9 +19,9 @@ public enum TableStylePreset
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
 | Custom | `-1` | Tabel memiliki gaya khusus. Ini adalah nilai hanya-baca. |
-| None | `0` | Tidak ada gaya. |
-| MediumStyle2Accent1 | `1` | Gaya Menengah 2 - Aksen 1. |
-| MediumStyle2 | `2` | Gaya Menengah 2. |
+| None | `0` | Tanpa gaya. |
+| MediumStyle2Accent1 | `1` | Gaya Sedang 2 - Aksen 1. |
+| MediumStyle2 | `2` | Gaya Sedang 2. |
 | NoStyleNoGrid | `3` | Tanpa Gaya, Tanpa Kisi. |
 | ThemedStyle1Accent1 | `4` | Gaya Bertema 1 - Aksen 1. |
 | ThemedStyle1Accent2 | `5` | Gaya Bertema 1 - Aksen 2. |
@@ -47,41 +47,41 @@ public enum TableStylePreset
 | LightStyle2Accent1 | `25` | Gaya Ringan 2 - Aksen 1. |
 | LightStyle2Accent2 | `26` | Gaya Ringan 2 - Aksen 2. |
 | LightStyle2Accent3 | `27` | Gaya Ringan 2 - Aksen 3. |
-| MediumStyle2Accent3 | `28` | Gaya Menengah 2 - Aksen 3. |
-| MediumStyle2Accent4 | `29` | Gaya Menengah 2 - Aksen 4. |
-| MediumStyle2Accent5 | `30` | Gaya Menengah 2 - Aksen 5. |
+| MediumStyle2Accent3 | `28` | Gaya Sedang 2 - Aksen 3. |
+| MediumStyle2Accent4 | `29` | Gaya Sedang 2 - Aksen 4. |
+| MediumStyle2Accent5 | `30` | Gaya Sedang 2 - Aksen 5. |
 | LightStyle2Accent6 | `31` | Gaya Ringan 2 - Aksen 6. |
 | LightStyle2Accent4 | `32` | Gaya Ringan 2 - Aksen 4. |
 | LightStyle3 | `33` | Gaya Ringan 3. |
 | LightStyle3Accent1 | `34` | Gaya Ringan 3 - Aksen 1. |
-| MediumStyle2Accent2 | `35` | Gaya Menengah 2 - Aksen 2. |
+| MediumStyle2Accent2 | `35` | Gaya Sedang 2 - Aksen 2. |
 | LightStyle3Accent2 | `36` | Gaya Ringan 3 - Aksen 2. |
 | LightStyle3Accent3 | `37` | Gaya Ringan 3 - Aksen 3. |
 | LightStyle3Accent4 | `38` | Gaya Ringan 3 - Aksen 4. |
 | LightStyle3Accent5 | `39` | Gaya Ringan 3 - Aksen 5. |
 | LightStyle3Accent6 | `40` | Gaya Ringan 3 - Aksen 6. |
-| MediumStyle1 | `41` | Gaya Menengah 1. |
-| MediumStyle1Accent1 | `42` | Gaya Menengah 1 - Aksen 1. |
-| MediumStyle1Accent2 | `43` | Gaya Menengah 1 - Aksen 2. |
-| MediumStyle1Accent3 | `44` | Gaya Menengah 1 - Aksen 3. |
-| MediumStyle1Accent4 | `45` | Gaya Menengah 1 - Aksen 4. |
-| MediumStyle1Accent5 | `46` | Gaya Menengah 1 - Aksen 5. |
-| MediumStyle1Accent6 | `47` | Gaya Menengah 1 - Aksen 6. |
-| MediumStyle2Accent6 | `48` | Gaya Menengah 2 - Aksen 6. |
-| MediumStyle3 | `49` | Gaya Menengah 3. |
-| MediumStyle3Accent1 | `50` | Gaya Menengah 3 - Aksen 1. |
-| MediumStyle3Accent2 | `51` | Gaya Menengah 3 - Aksen 2. |
-| MediumStyle3Accent3 | `52` | Gaya Menengah 3 - Aksen 3. |
-| MediumStyle3Accent4 | `53` | Gaya Menengah 3 - Aksen 4. |
-| MediumStyle3Accent5 | `54` | Gaya Menengah 3 - Aksen 5. |
-| MediumStyle3Accent6 | `55` | Gaya Menengah 3 - Aksen 6. |
-| MediumStyle4 | `56` | Gaya Menengah 4. |
-| MediumStyle4Accent1 | `57` | Gaya Menengah 4 - Aksen 1. |
-| MediumStyle4Accent2 | `58` | Gaya Menengah 4 - Aksen 2. |
-| MediumStyle4Accent3 | `59` | Gaya Menengah 4 - Aksen 3. |
-| MediumStyle4Accent4 | `60` | Gaya Menengah 4 - Aksen 4. |
-| MediumStyle4Accent5 | `61` | Gaya Menengah 4 - Aksen 5. |
-| MediumStyle4Accent6 | `62` | Gaya Menengah 4 - Aksen 6. |
+| MediumStyle1 | `41` | Gaya Sedang 1. |
+| MediumStyle1Accent1 | `42` | Gaya Sedang 1 - Aksen 1. |
+| MediumStyle1Accent2 | `43` | Gaya Sedang 1 - Aksen 2. |
+| MediumStyle1Accent3 | `44` | Gaya Sedang 1 - Aksen 3. |
+| MediumStyle1Accent4 | `45` | Gaya Sedang 1 - Aksen 4. |
+| MediumStyle1Accent5 | `46` | Gaya Sedang 1 - Aksen 5. |
+| MediumStyle1Accent6 | `47` | Gaya Sedang 1 - Aksen 6. |
+| MediumStyle2Accent6 | `48` | Gaya Sedang 2 - Aksen 6. |
+| MediumStyle3 | `49` | Gaya Sedang 3. |
+| MediumStyle3Accent1 | `50` | Gaya Sedang 3 - Aksen 1. |
+| MediumStyle3Accent2 | `51` | Gaya Sedang 3 - Aksen 2. |
+| MediumStyle3Accent3 | `52` | Gaya Sedang 3 - Aksen 3. |
+| MediumStyle3Accent4 | `53` | Gaya Sedang 3 - Aksen 4. |
+| MediumStyle3Accent5 | `54` | Gaya Sedang 3 - Aksen 5. |
+| MediumStyle3Accent6 | `55` | Gaya Sedang 3 - Aksen 6. |
+| MediumStyle4 | `56` | Gaya Sedang 4. |
+| MediumStyle4Accent1 | `57` | Gaya Sedang 4 - Aksen 1. |
+| MediumStyle4Accent2 | `58` | Gaya Sedang 4 - Aksen 2. |
+| MediumStyle4Accent3 | `59` | Gaya Sedang 4 - Aksen 3. |
+| MediumStyle4Accent4 | `60` | Gaya Sedang 4 - Aksen 4. |
+| MediumStyle4Accent5 | `61` | Gaya Sedang 4 - Aksen 5. |
+| MediumStyle4Accent6 | `62` | Gaya Sedang 4 - Aksen 6. |
 | DarkStyle1 | `63` | Gaya Gelap 1. |
 | DarkStyle1Accent1 | `64` | Gaya Gelap 1 - Aksen 1. |
 | DarkStyle1Accent2 | `65` | Gaya Gelap 1 - Aksen 2. |
@@ -98,6 +98,6 @@ public enum TableStylePreset
 ### Lihat Juga
 
 * ruang nama [Aspose.Slides](../../aspose.slides)
-* rakitan [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

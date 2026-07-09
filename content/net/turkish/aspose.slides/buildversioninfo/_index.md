@@ -3,12 +3,12 @@ title: BuildVersionInfo
 second_title: Aspose.Sildes için .NET API Referansı
 description: Aspose.Slides sürümü hakkında bilgi içerir.
 type: docs
-weight: 1040
+weight: 1060
 url: /tr/aspose.slides/buildversioninfo/
 ---
-## BuildVersionInfo sınıf
+## BuildVersionInfo sınıfı
 
-Aspose.Slides sürümü hakkında bilgi içerir.
+Aspose.Slides sürümüne ilişkin bilgileri içerir.
 
 ```csharp
 public static class BuildVersionInfo
@@ -23,7 +23,7 @@ public static class BuildVersionInfo
 | const [Product](../../aspose.slides/buildversioninfo/product) | Aspose.Slides ürün adı |
 | const [ProductMajor](../../aspose.slides/buildversioninfo/productmajor) | Ana sürüm numarası. |
 | const [ProductMinor](../../aspose.slides/buildversioninfo/productminor) | Alt sürüm numarası. |
-| static readonly [ReleaseDate](../../aspose.slides/buildversioninfo/releasedate) | Derlemenin yayınlanma tarihi. |
+| static readonly [ReleaseDate](../../aspose.slides/buildversioninfo/releasedate) | Derlemenin yayın tarihi. |
 
 ### Ayrıca Bakınız
 

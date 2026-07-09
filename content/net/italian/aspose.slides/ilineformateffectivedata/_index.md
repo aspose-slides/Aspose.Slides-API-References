@@ -1,14 +1,14 @@
 ---
 title: ILineFormatEffectiveData
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Oggetto immutabile che contiene le proprietà di formattazione della linea effettiva.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Oggetto immutabile che contiene le proprietà di formattazione effettiva della linea.
 type: docs
-weight: 6300
+weight: 6320
 url: /it/aspose.slides/ilineformateffectivedata/
 ---
-## ILineFormatEffectiveData interfaccia
+## Interfaccia ILineFormatEffectiveData
 
-Oggetto immutabile che contiene le proprietà di formattazione della linea effettiva.
+Oggetto immutabile che contiene le proprietà di formattazione effettiva della linea.
 
 ```csharp
 public interface ILineFormatEffectiveData : ILineParamSource
@@ -16,35 +16,35 @@ public interface ILineFormatEffectiveData : ILineParamSource
 
 ## Proprietà
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
 | [Alignment](../../aspose.slides/ilineformateffectivedata/alignment) { get; } | Restituisce l'allineamento della linea. Solo lettura [`LineAlignment`](../linealignment). |
 | [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | Consente di ottenere l'interfaccia base ILineParamSource. Solo lettura [`ILineParamSource`](../ilineparamsource). |
 | [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | Restituisce la lunghezza della punta della freccia all'inizio di una linea. Solo lettura [`LineArrowheadLength`](../linearrowheadlength). |
 | [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | Restituisce lo stile della punta della freccia all'inizio di una linea. Solo lettura [`LineArrowheadStyle`](../linearrowheadstyle). |
 | [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | Restituisce la larghezza della punta della freccia all'inizio di una linea. Solo lettura [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | Restituisce lo stile di estremità della linea. Solo lettura [`LineCapStyle`](../linecapstyle). |
-| [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | Restituisce il modello di tratteggio personalizzato. Solo lettura Single[]. |
+| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | Restituisce lo stile della fine della linea. Solo lettura [`LineCapStyle`](../linecapstyle). |
+| [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | Restituisce lo schema di tratteggio personalizzato. Solo lettura Single[]. |
 | [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | Restituisce lo stile di tratteggio della linea. Solo lettura [`LineDashStyle`](../linedashstyle). |
 | [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | Restituisce la lunghezza della punta della freccia alla fine di una linea. Solo lettura [`LineArrowheadLength`](../linearrowheadlength). |
 | [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | Restituisce lo stile della punta della freccia alla fine di una linea. Solo lettura [`LineArrowheadStyle`](../linearrowheadstyle). |
 | [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | Restituisce la larghezza della punta della freccia alla fine di una linea. Solo lettura [`LineArrowheadWidth`](../linearrowheadwidth). |
 | [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | Restituisce il formato di riempimento di una linea. Solo lettura [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata). |
 | [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | Restituisce lo stile di unione delle linee. Solo lettura [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | Restituisce il limite di smusso di una linea. Solo lettura Single. |
-| [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | Restituisce il formato di schizzi di una linea. Solo lettura [`ISketchFormatEffectiveData`](../isketchformateffectivedata). |
+| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | Restituisce il limite di spigolo di una linea. Solo lettura Single. |
+| [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | Restituisce il formato di schizzo di una linea. Solo lettura [`ISketchFormatEffectiveData`](../isketchformateffectivedata). |
 | [Style](../../aspose.slides/ilineformateffectivedata/style) { get; } | Restituisce lo stile della linea. Solo lettura [`LineStyle`](../linestyle). |
 | [Width](../../aspose.slides/ilineformateffectivedata/width) { get; } | Restituisce la larghezza di una linea. Solo lettura Double. |
 
 ## Metodi
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
 | [Equals](../../aspose.slides/ilineformateffectivedata/equals)(ILineFormatEffectiveData) | Determina se le due istanze ILineFormatEffectiveData sono uguali. |
 
 ### Osservazioni
 
-Questa interfaccia è usata insieme all'interfaccia [`ILineFormat`](../ilineformat) per restituire i valori di formattazione effettivi con ereditarietà applicata.
+Questa interfaccia è usata insieme all'interfaccia [`ILineFormat`](../ilineformat) per restituire i valori di formattazione effettiva con l'ereditarietà applicata.
 
 ### Vedi anche
 

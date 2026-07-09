@@ -1,14 +1,14 @@
 ---
 title: PVIObject
-second_title: Riferimento API .NET di Aspose.Sildes
-description: Incapsula l'infrastruttura di servizio di base per gli oggetti che possono essere soggetti all'ereditarietà del valore delle proprietà.
+second_title: Aspose.Sildes per .NET API Reference
+description: Incapsula l'infrastruttura di servizio di base per gli oggetti che possono essere soggetti all'ereditarietà dei valori delle proprietà.
 type: docs
-weight: 9250
+weight: 9270
 url: /it/aspose.slides/pviobject/
 ---
 ## PVIObject classe
 
-Incapsula l'infrastruttura di servizio di base per gli oggetti che possono essere soggetti all'ereditarietà del valore delle proprietà.
+Incapsula l'infrastruttura di servizio di base per oggetti che possono essere soggetti all'ereditarietà dei valori delle proprietà.
 
 ```csharp
 public abstract class PVIObject : ISlideComponent
@@ -18,7 +18,7 @@ public abstract class PVIObject : ISlideComponent
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Solo lettura [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Sola lettura [`IPresentationComponent`](../ipresentationcomponent). |
 
 ## Metodi
 

@@ -1,9 +1,9 @@
 ---
 title: PPImage
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET - Referência da API
 description: Representa uma imagem em uma apresentação.
 type: docs
-weight: 9230
+weight: 9250
 url: /pt/aspose.slides/ppimage/
 ---
 ## PPImage classe
@@ -18,11 +18,11 @@ public class PPImage : IDisposable, IPPImage
 
 | Nome | Descrição |
 | --- | --- |
-| [BinaryData](../../aspose.slides/ppimage/binarydata) { get; } | Retorna a cópia dos dados de uma imagem. Somente leitura Byte[]. |
-| [ContentType](../../aspose.slides/ppimage/contenttype) { get; } | Retorna um tipo MIME de uma imagem, codificado em [`BinaryData`](./binarydata). Somente leitura String. |
+| [BinaryData](../../aspose.slides/ppimage/binarydata) { get; } | Retorna uma cópia dos dados da imagem. Somente leitura Byte[]. |
+| [ContentType](../../aspose.slides/ppimage/contenttype) { get; } | Retorna o tipo MIME de uma imagem, codificado em [`BinaryData`](./binarydata). Somente leitura String. |
 | [Height](../../aspose.slides/ppimage/height) { get; } | Retorna a altura de uma imagem. Somente leitura Int32. |
-| [Image](../../aspose.slides/ppimage/image) { get; } | Retorna a cópia de uma imagem. Somente leitura [`IImage`](../iimage). |
-| [SvgImage](../../aspose.slides/ppimage/svgimage) { get; set; } | Retorna ou define o objeto ISvgImage [`ISvgImage`](../isvgimage) |
+| [Image](../../aspose.slides/ppimage/image) { get; } | Retorna uma cópia de uma imagem. Somente leitura [`IImage`](../iimage). |
+| [SvgImage](../../aspose.slides/ppimage/svgimage) { get; set; } | Obtém ou define o objeto ISvgImage [`ISvgImage`](../isvgimage) |
 | [Width](../../aspose.slides/ppimage/width) { get; } | Retorna a largura de uma imagem. Somente leitura Int32. |
 | [X](../../aspose.slides/ppimage/x) { get; } | Retorna o deslocamento X de uma imagem. Somente leitura Int32. |
 | [Y](../../aspose.slides/ppimage/y) { get; } | Retorna o deslocamento Y de uma imagem. Somente leitura Int32. |
@@ -34,10 +34,10 @@ public class PPImage : IDisposable, IPPImage
 | [Dispose](../../aspose.slides/ppimage/dispose)() | Descarta o objeto. |
 | override [GetHashCode](../../aspose.slides/ppimage/gethashcode)() | Retorna o código hash de uma imagem. |
 | [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_2)(byte[]) | Substitui os dados da imagem. Os novos dados da imagem. Quando o parâmetro newImageData for nulo. |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage)(IImage) | Substitui os dados da imagem. Atenção: quando a Image for metafile - será rasterizada. Use ReplaceImage(byte[]) em vez disso. A nova imagem. Quando o parâmetro newImage for nulo. |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage)(IImage) | Substitui os dados da imagem. Atenção: quando a Image for metafile – será rasterizada. Use ReplaceImage(byte[]) em vez disso. A nova imagem. Quando o parâmetro newImage for nulo. |
 | [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_1)(IPPImage) | Substitui os dados da imagem. O novo IPPImage. Quando o parâmetro newImage for nulo. |
 
-### Veja Também
+### Veja também
 
 * interface [IPPImage](../ippimage)
 * namespace [Aspose.Slides](../../aspose.slides)

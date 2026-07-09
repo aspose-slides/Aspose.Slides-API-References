@@ -1,14 +1,14 @@
 ---
 title: IMathRightSubSuperscriptElement
 second_title: Aspose.Sildes pro .NET API Reference
-description: Specifikuje objekt Sub-Superscript, který se skládá ze základny a dolního a horního indexu umístěných napravo od základny.
+description: Určuje objekt Sub-Superscript, který se skládá ze základny a dolního a horního indexu umístěných napravo od základny.
 type: docs
-weight: 8430
+weight: 8450
 url: /cs/aspose.slides.mathtext/imathrightsubsuperscriptelement/
 ---
 ## IMathRightSubSuperscriptElement rozhraní
 
-Specifikuje objekt Sub-Superscript, který se skládá ze základny a dolního a horního indexu umístěných napravo od základny.
+Určuje objekt Sub-Superscript, který se skládá ze základny a dolního a horního indexu umístěných napravo od základny.
 
 ```csharp
 public interface IMathRightSubSuperscriptElement : IMathElement
@@ -18,7 +18,7 @@ public interface IMathRightSubSuperscriptElement : IMathElement
 
 | Název | Popis |
 | --- | --- |
-| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | Určuje zarovnání dolního/horního indexu. Když je pravda, jsou dolní a horní index vodorovně zarovnány k sobě. Když je nepravda, jsou přizpůsobeny tvaru základny. Výchozí hodnota je nepravda. |
+| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | Určuje zarovnání dolního/horního indexu. Když je true, jsou dolní a horní index vodorovně zarovnané vůči sobě. Když je false, jsou přizpůsobeny tvaru základny. Výchozí hodnota je false. |
 | [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | Umožňuje získat základní rozhraní IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/base) { get; } | Argument základny |
 | [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | Argument dolního indexu |
@@ -33,7 +33,7 @@ Příklad:
 IMathRightSubSuperscriptElement subsuperscript = new MathematicalText("N").SetSubSuperscriptOnTheRight("i", "j");
 ```
 
-### Viz také
+## Viz také
 
 * rozhraní [IMathElement](../imathelement)
 * jmenný prostor [Aspose.Slides.MathText](../../aspose.slides.mathtext)

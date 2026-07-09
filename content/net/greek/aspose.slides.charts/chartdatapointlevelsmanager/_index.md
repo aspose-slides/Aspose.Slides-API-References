@@ -1,14 +1,14 @@
 ---
 title: ChartDataPointLevelsManager
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Δοχείο επιπέδων σημείων δεδομένων. Εφαρμόζεται για σειρές Treeamp και Sunburst. Η αρίθμηση των επιπέδων σημείου δεδομένων είναι μηδενική.
+description: Περιέκτης επιπέδων σημείων δεδομένων. Εφαρμόζεται για σειρές Treeamp και Sunburst. Η αρίθμηση των επιπέδων σημείων δεδομένων ξεκινά από το μηδέν.
 type: docs
-weight: 1340
+weight: 1360
 url: /el/aspose.slides.charts/chartdatapointlevelsmanager/
 ---
 ## ChartDataPointLevelsManager κλάση
 
-Δοχείο επιπέδων σημείου δεδομένων. Εφαρμόζεται για σειρές Treeamp και Sunburst. Η αρίθμηση των επιπέδων σημείου δεδομένων είναι μηδενική.
+Περιέκτης επιπέδων σημείων δεδομένων. Εφαρμόζεται για σειρές Treeamp και Sunburst. Η αρίθμηση των επιπέδων σημείων δεδομένων ξεκινά από το μηδέν.
 
 ```csharp
 public class ChartDataPointLevelsManager : DomObject<ChartDataPoint>, IChartDataPointLevelsManager
@@ -18,10 +18,10 @@ public class ChartDataPointLevelsManager : DomObject<ChartDataPoint>, IChartData
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartdatapointlevelsmanager/count) { get; } | Επιστρέφει τον αριθμό των επιπέδων σημείου δεδομένων. |
+| [Count](../../aspose.slides.charts/chartdatapointlevelsmanager/count) { get; } | Επιστρέφει τον αριθμό των επιπέδων σημείων δεδομένων. |
 | [Item](../../aspose.slides.charts/chartdatapointlevelsmanager/item) { get; } | Επιστρέφει το αντικείμενο IChartDataPointLevel για το καθορισμένο επίπεδο. |
 
-### Βλέπε επίσης
+### Δείτε επίσης
 
 * κλάση [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * κλάση [ChartDataPoint](../chartdatapoint)

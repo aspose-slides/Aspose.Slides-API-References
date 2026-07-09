@@ -3,7 +3,7 @@ title: AnimateTextType
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta il tipo di animazione del testo di un effetto di animazione.
 type: docs
-weight: 100
+weight: 120
 url: /it/aspose.slides.animation/animatetexttype/
 ---
 ## Enumerazione AnimateTextType
@@ -19,8 +19,8 @@ public enum AnimateTextType
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | AllAtOnce | `0` | Anima tutto il testo in una volta. |
-| ByWord | `1` | Anima il testo per parola. |
-| ByLetter | `2` | Anima il testo per lettera. |
+| ByWord | `1` | Anima il testo parola per parola. |
+| ByLetter | `2` | Anima il testo lettera per lettera. |
 
 ### Vedi anche
 

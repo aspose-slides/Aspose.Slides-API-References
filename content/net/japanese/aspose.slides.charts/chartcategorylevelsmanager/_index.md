@@ -1,14 +1,14 @@
 ---
 title: ChartCategoryLevelsManager
 second_title: Aspose.Sildes for .NET API リファレンス
-description: チャートのカテゴリレベルの値を管理するコンテナです。
+description: チャートカテゴリーレベルの値を管理するコンテナです。
 type: docs
-weight: 1270
+weight: 1290
 url: /ja/aspose.slides.charts/chartcategorylevelsmanager/
 ---
 ## ChartCategoryLevelsManager クラス
 
-チャートのカテゴリレベルの値を管理するコンテナです。
+チャートカテゴリーレベルの値を管理するコンテナです。
 
 ```csharp
 public class ChartCategoryLevelsManager : IChartCategoryLevelsManager
@@ -16,13 +16,13 @@ public class ChartCategoryLevelsManager : IChartCategoryLevelsManager
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [Item](../../aspose.slides.charts/chartcategorylevelsmanager/item) { get; } | 定義されたレベルに対する IChartDataCell オブジェクトを返します。 |
+| [Item](../../aspose.slides.charts/chartcategorylevelsmanager/item) { get; } | 定義されたレベルの IChartDataCell オブジェクトを返します。 |
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [DeleteGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/deletegroupingitem)(int) | 定義されたレベルのグルーピング項目を削除します。 |
 | [SetGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/setgroupingitem)(int, object) | 定義されたレベルのグルーピング項目を設定します。 |

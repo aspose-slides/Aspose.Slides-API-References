@@ -3,12 +3,12 @@ title: CommandEffect
 second_title: Aspose.Sildes için .NET API Referansı
 description: Bir animasyon davranışı için komut etkisini temsil eder.
 type: docs
-weight: 240
+weight: 260
 url: /tr/aspose.slides.animation/commandeffect/
 ---
 ## CommandEffect sınıfı
 
-Bir animasyon davranışı için komut etkisini temsil eder.
+Animasyon davranışı için bir komut etkisini temsil eder.
 
 ```csharp
 public class CommandEffect : Behavior, ICommandEffect
@@ -24,18 +24,18 @@ public class CommandEffect : Behavior, ICommandEffect
 
 | Ad | Açıklama |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Animasyon davranışlarının birikip birikmediğini temsil eder. Okunur/Yazılır [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Mevcut animasyon davranışının diğer çalışan animasyonlarla birleştirildiğini temsil eder. Okunur/Yazılır [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [CommandString](../../aspose.slides.animation/commandeffect/commandstring) { get; set; } | Komut dizesini tanımlar. Okunur/Yazılır String. |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Davranışın özelliklerini temsil eder. Salt-okunur [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [ShapeTarget](../../aspose.slides.animation/commandeffect/shapetarget) { get; set; } | Komut etkisinin şekil hedefini tanımlar. Okunur/Yazılır [`IShape`](../../aspose.slides/ishape). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Etki davranışı için zamanlama özelliklerini temsil eder. Okunur/Yazılır [`ITiming`](../itiming). |
-| [Type](../../aspose.slides.animation/commandeffect/type) { get; set; } | Davranışın komut etki türünü tanımlar. Okunur/Yazılır [`CommandEffectType`](../commandeffecttype). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Animasyon davranışlarının birikip birikmediğini temsil eder. Okunur/yazılabilir [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Geçerli animasyon davranışının diğer çalışan animasyonlarla birleştirilip birleştirilemediğini temsil eder. Okunur/yazılabilir [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [CommandString](../../aspose.slides.animation/commandeffect/commandstring) { get; set; } | Komut dizesini tanımlar. Okunur/yazılabilir String. |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Davranışın özelliklerini temsil eder. Yalnızca okunabilir [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [ShapeTarget](../../aspose.slides.animation/commandeffect/shapetarget) { get; set; } | Komut etkisinin şekil hedefini tanımlar. Okunur/yazılabilir [`IShape`](../../aspose.slides/ishape). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Etki davranışının zamanlama özelliklerini temsil eder. Okunur/yazılabilir [`ITiming`](../itiming). |
+| [Type](../../aspose.slides.animation/commandeffect/type) { get; set; } | Davranışın komut etkisi türünü tanımlar. Okunur/yazılabilir [`CommandEffectType`](../commandeffecttype). |
 
-### İlgili
+### Ayrıca Bakınız
 
 * sınıf [Behavior](../behavior)
-* arayüz [ICommandEffect](../icommandeffect)
+* arabirim [ICommandEffect](../icommandeffect)
 * ad alanı [Aspose.Slides.Animation](../../aspose.slides.animation)
 * derleme [Aspose.Slides](../../)
 

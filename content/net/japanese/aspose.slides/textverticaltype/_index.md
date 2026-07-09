@@ -1,12 +1,12 @@
 ---
 title: TextVerticalType
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET 用 API リファレンス
 description: テキストの縦書きモードを決定します。
 type: docs
-weight: 11010
+weight: 11030
 url: /ja/aspose.slides/textverticaltype/
 ---
-## TextVerticalType 列挙型
+## TextVerticalType 列挙体
 
 テキストの縦書きモードを決定します。
 
@@ -19,13 +19,13 @@ public enum TextVerticalType : sbyte
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
 | NotDefined | `-1` | 未定義です。 |
-| Horizontal | `0` | 水平テキストです。 |
-| Vertical | `1` | 垂直テキストです。 |
-| Vertical270 | `2` | 270 度の垂直テキストです。 |
-| WordArtVertical | `3` | WordArt 縦テキストです。 |
-| EastAsianVertical | `4` | 東アジア縦テキストです。 |
-| MongolianVertical | `5` | モンゴル語縦テキストです。 |
-| WordArtVerticalRightToLeft | `6` | WordArt 縦方向右から左へのテキストです。 |
+| Horizontal | `0` | 横書きテキストです。 |
+| Vertical | `1` | 縦書きテキストです。 |
+| Vertical270 | `2` | 270 度の縦書きテキストです。 |
+| WordArtVertical | `3` | WordArt 縦書きテキストです。 |
+| EastAsianVertical | `4` | 東アジア縦書きテキストです。 |
+| MongolianVertical | `5` | モンゴル語縦書きテキストです。 |
+| WordArtVerticalRightToLeft | `6` | 右から左への WordArt 縦書きテキストです。 |
 
 ### 参照
 

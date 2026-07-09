@@ -1,14 +1,14 @@
 ---
 title: ForEach
-second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje skupinu metod určených k iteraci přes různé objekty modelu Presentation../aspose.slides/presentation. Tyto metody mohou být užitečné, pokud potřebujete iterovat a měnit formátování nebo obsah některých prvků Presentation, např. změnit formátování každé části.
+second_title: Aspose.Sildes pro .NET referenční příručka API
+description: Zastupuje skupinu metod určených k iteraci přes různé modelové objekty Presentation../aspose.slides/presentation. Tyto metody mohou být užitečné, pokud potřebujete iterovat a měnit formátování nebo obsah některých prvků Presentation, např. změnit formátování každé části.
 type: docs
-weight: 7880
+weight: 7900
 url: /cs/aspose.slides.lowcode/foreach/
 ---
-## ForEach třída
+## Třída ForEach
 
-Represents a group of methods intended to iterate over different [`Presentation`](../../aspose.slides/presentation) model objects. These methods can be useful if you need to iterate and change some Presentation' elements formatting or content, např. change each portion formatting.
+Representuje skupinu metod určených k iteraci přes různé [`Presentation`](../../aspose.slides/presentation) modelové objekty. Tyto metody mohou být užitečné, pokud potřebujete iterovat a měnit formátování nebo obsah některých prvků Presentation, např. změnit formátování každé části.
 
 ```csharp
 public static class ForEach
@@ -18,18 +18,18 @@ public static class ForEach
 
 | Název | Popis |
 | --- | --- |
-| static [LayoutSlide](../../aspose.slides.lowcode/foreach/layoutslide)(Presentation, ForEachLayoutSlideCallback) | Iterujte každou [`LayoutSlide`](./layoutslide) v [`Presentation`](../../aspose.slides/presentation). |
-| static [MasterSlide](../../aspose.slides.lowcode/foreach/masterslide)(Presentation, ForEachMasterSlideCallback) | Iterujte každou [`MasterSlide`](./masterslide) v [`Presentation`](../../aspose.slides/presentation). |
-| static [Paragraph](../../aspose.slides.lowcode/foreach/paragraph#paragraph_1)(Presentation, ForEachParagraphCallback) | Iterujte každou [`Paragraph`](./paragraph) v [`Presentation`](../../aspose.slides/presentation). Shapes will be iterated in all type of slides - [`Slide`](./slide), [`MasterSlide`](./masterslide) and [`LayoutSlide`](./layoutslide) |
-| static [Paragraph](../../aspose.slides.lowcode/foreach/paragraph#paragraph)(Presentation, bool, ForEachParagraphCallback) | Iterujte každou [`Paragraph`](./paragraph) v [`Presentation`](../../aspose.slides/presentation). Shapes will be iterated in all type of slides - [`Slide`](./slide), [`MasterSlide`](./masterslide), [`LayoutSlide`](./layoutslide) and [`NotesSlide`](../../aspose.slides/notesslide) |
-| static [Portion](../../aspose.slides.lowcode/foreach/portion#portion_1)(Presentation, ForEachPortionCallback) | Iterujte každou [`Portion`](./portion) v [`Presentation`](../../aspose.slides/presentation). Portions will be iterated in all type of slides - [`Slide`](./slide), [`MasterSlide`](./masterslide) and [`LayoutSlide`](./layoutslide) |
-| static [Portion](../../aspose.slides.lowcode/foreach/portion#portion)(Presentation, bool, ForEachPortionCallback) | Iterujte každou [`Portion`](./portion) v [`Presentation`](../../aspose.slides/presentation). Portions will be iterated in all type of slides - [`Slide`](./slide), [`MasterSlide`](./masterslide), [`LayoutSlide`](./layoutslide) and [`NotesSlide`](../../aspose.slides/notesslide) |
-| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape)(BaseSlide, ForEachShapeCallback) | Iterujte každou [`Shape`](./shape) v [`BaseSlide`](../../aspose.slides/baseslide). [`BaseSlide`](../../aspose.slides/baseslide) is the base type for [`Slide`](./slide), [`MasterSlide`](./masterslide) and [`LayoutSlide`](./layoutslide) |
-| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape_2)(Presentation, ForEachShapeCallback) | Iterujte každou [`Shape`](./shape) v [`Presentation`](../../aspose.slides/presentation). Shapes will be iterated in all type of slides - [`Slide`](./slide), [`MasterSlide`](./masterslide) and [`LayoutSlide`](./layoutslide) |
-| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape_1)(Presentation, bool, ForEachShapeCallback) | Iterujte každou [`Shape`](./shape) v [`Presentation`](../../aspose.slides/presentation). Shapes will be iterated in all type of slides - [`Slide`](./slide), [`MasterSlide`](./masterslide), [`LayoutSlide`](./layoutslide) and [`NotesSlide`](../../aspose.slides/notesslide) if needed. |
-| static [Slide](../../aspose.slides.lowcode/foreach/slide)(Presentation, ForEachSlideCallback) | Iterujte každou [`Slide`](./slide) v [`Presentation`](../../aspose.slides/presentation). |
+| static [LayoutSlide](../../aspose.slides.lowcode/foreach/layoutslide)(Presentation, ForEachLayoutSlideCallback) | Iterovat každý [`LayoutSlide`](./layoutslide) v [`Presentation`](../../aspose.slides/presentation). |
+| static [MasterSlide](../../aspose.slides.lowcode/foreach/masterslide)(Presentation, ForEachMasterSlideCallback) | Iterovat každý [`MasterSlide`](./masterslide) v [`Presentation`](../../aspose.slides/presentation). |
+| static [Paragraph](../../aspose.slides.lowcode/foreach/paragraph#paragraph_1)(Presentation, ForEachParagraphCallback) | Iterovat každý [`Paragraph`](./paragraph) v [`Presentation`](../../aspose.slides/presentation). Tvary budou iterovány ve všech typech snímků - [`Slide`](./slide), [`MasterSlide`](./masterslide) a [`LayoutSlide`](./layoutslide) |
+| static [Paragraph](../../aspose.slides.lowcode/foreach/paragraph#paragraph)(Presentation, bool, ForEachParagraphCallback) | Iterovat každý [`Paragraph`](./paragraph) v [`Presentation`](../../aspose.slides/presentation). Tvary budou iterovány ve všech typech snímků - [`Slide`](./slide), [`MasterSlide`](./masterslide), [`LayoutSlide`](./layoutslide) a [`NotesSlide`](../../aspose.slides/notesslide) |
+| static [Portion](../../aspose.slides.lowcode/foreach/portion#portion_1)(Presentation, ForEachPortionCallback) | Iterovat každý [`Portion`](./portion) v [`Presentation`](../../aspose.slides/presentation). Části budou iterovány ve všech typech snímků - [`Slide`](./slide), [`MasterSlide`](./masterslide) a [`LayoutSlide`](./layoutslide) |
+| static [Portion](../../aspose.slides.lowcode/foreach/portion#portion)(Presentation, bool, ForEachPortionCallback) | Iterovat každý [`Portion`](./portion) v [`Presentation`](../../aspose.slides/presentation). Části budou iterovány ve všech typech snímků - [`Slide`](./slide), [`MasterSlide`](./masterslide), [`LayoutSlide`](./layoutslide) a [`NotesSlide`](../../aspose.slides/notesslide) |
+| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape)(BaseSlide, ForEachShapeCallback) | Iterovat každý [`Shape`](./shape) v [`BaseSlide`](../../aspose.slides/baseslide). [`BaseSlide`](../../aspose.slides/baseslide) je základní typ pro [`Slide`](./slide), [`MasterSlide`](./masterslide) a [`LayoutSlide`](./layoutslide) |
+| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape_2)(Presentation, ForEachShapeCallback) | Iterovat každý [`Shape`](./shape) v [`Presentation`](../../aspose.slides/presentation). Tvary budou iterovány ve všech typech snímků - [`Slide`](./slide), [`MasterSlide`](./masterslide) a [`LayoutSlide`](./layoutslide) |
+| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape_1)(Presentation, bool, ForEachShapeCallback) | Iterovat každý [`Shape`](./shape) v [`Presentation`](../../aspose.slides/presentation). Tvary budou iterovány ve všech typech snímků - [`Slide`](./slide), [`MasterSlide`](./masterslide), [`LayoutSlide`](./layoutslide) a [`NotesSlide`](../../aspose.slides/notesslide) podle potřeby. |
+| static [Slide](../../aspose.slides.lowcode/foreach/slide)(Presentation, ForEachSlideCallback) | Iterovat každý [`Slide`](./slide) v [`Presentation`](../../aspose.slides/presentation). |
 
-## Další členové
+## Ostatní členové
 
 | Název | Popis |
 | --- | --- |
@@ -57,6 +57,6 @@ using (Presentation presentation = new Presentation("pres.pptx"))
 ### Viz také
 
 * jmenný prostor [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
-* sestavení [Aspose.Slides](../../)
+* sestava [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

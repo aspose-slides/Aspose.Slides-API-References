@@ -1,14 +1,14 @@
 ---
 title: FontSubstRuleCollection
-second_title: Aspose.Sildes dla .NET - referencja API
-description: Reprezentuje kolekcję podstawień czcionek.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Reprezentuje kolekcję substytucji czcionek.
 type: docs
-weight: 4880
+weight: 4900
 url: /pl/aspose.slides/fontsubstrulecollection/
 ---
 ## FontSubstRuleCollection klasa
 
-Reprezentuje kolekcję podstawień czcionek.
+Reprezentuje kolekcję substytucji czcionek.
 
 ```csharp
 public class FontSubstRuleCollection : IFontSubstRuleCollection
@@ -24,16 +24,16 @@ public class FontSubstRuleCollection : IFontSubstRuleCollection
 
 | Nazwa | Opis |
 | --- | --- |
-| [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | Zwraca liczbę elementów faktycznie zawartych w kolekcji. Tylko do odczytu Int32. |
-| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest zsynchronizowany (wątkowo bezpieczny). Tylko do odczytu Boolean. |
-| [Item](../../aspose.slides/fontsubstrulecollection/item) { get; } | Zwraca element o podanym indeksie. |
+| [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | Zwraca liczbę elementów faktycznie znajdujących się w kolekcji. Tylko do odczytu Int32. |
+| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | Zwraca wartość określającą, czy dostęp do kolekcji jest zsynchronizowany (wątkowo bezpieczny). Tylko do odczytu Boolean. |
+| [Item](../../aspose.slides/fontsubstrulecollection/item) { get; } | Zwraca element o określonym indeksie. |
 | [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | Zwraca korzeń synchronizacji. Tylko do odczytu Object. |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | Dodaje nową regułę podstawiania czcionki do kolekcji |
+| [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | Dodaje nową regułę substytucji czcionek do kolekcji |
 | [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | Kopiuje wszystkie elementy z kolekcji do określonej tablicy. |
 | [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | Zwraca enumerator, który iteruje po kolekcji. |
 | [Remove](../../aspose.slides/fontsubstrulecollection/remove)(IFontSubstRule) | Usuwa pierwsze wystąpienie określonego obiektu z kolekcji. |

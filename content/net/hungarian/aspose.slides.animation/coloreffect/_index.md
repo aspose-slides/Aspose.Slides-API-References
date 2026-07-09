@@ -1,14 +1,14 @@
 ---
 title: ColorEffect
-second_title: Aspose.Sildes .NET API Referenciája
-description: Színhatást képvisel egy animációs viselkedéshez.
+second_title: Aspose.Sildes .NET API referenciája
+description: Színhatást ábrázol egy animációs viselkedéshez.
 type: docs
-weight: 210
+weight: 230
 url: /hu/aspose.slides.animation/coloreffect/
 ---
 ## ColorEffect osztály
 
-Színhatást képvisel egy animációs viselkedéshez.
+Színhatást ábrázol egy animációs viselkedéshez.
 
 ```csharp
 public class ColorEffect : Behavior, IColorEffect
@@ -24,15 +24,15 @@ public class ColorEffect : Behavior, IColorEffect
 
 | Név | Leírás |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Jelzi, hogy az animációs viselkedések felhalmozódnak-e. Olvasás/írás [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Jelzi, hogy a jelenlegi animációs viselkedés össze van-e kombinálva más futó animációkkal. Olvasás/írás [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Azt jelzi, hogy az animációs viselkedések felhalmozódnak-e. Olvasás/írás [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Azt jelzi, hogy az aktuális animációs viselkedés össze van-e vonva más futó animációkkal. Olvasás/írás [`BehaviorAdditiveType`](../behavioradditivetype). |
 | [By](../../aspose.slides.animation/coloreffect/by) { get; set; } | Leírja a színanimáció relatív eltolási értékét. Olvasás/írás [`IColorOffset`](../icoloroffset). |
-| [ColorSpace](../../aspose.slides.animation/coloreffect/colorspace) { get; set; } | Ábrázolja a viselkedés színterét. Olvasás/írás [`ColorSpace`](../colorspace). |
-| [Direction](../../aspose.slides.animation/coloreffect/direction) { get; set; } | Megadja, hogy melyik irányba ciklizálja a színt a színkerék körül. Olvasás/írás [`ColorDirection`](../colordirection). |
-| [From](../../aspose.slides.animation/coloreffect/from) { get; set; } | Ez az érték a viselkedés kezdőszínének megadására szolgál. Olvasás/írás [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Jelzi a viselkedés tulajdonságait. Csak olvasható [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Jelzi a hatás viselkedés időzítési tulajdonságait. Olvasás/írás [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/coloreffect/to) { get; set; } | Leírja a színanimáció színváltozásának eredményül kapott színét. Olvasás/írás [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [ColorSpace](../../aspose.slides.animation/coloreffect/colorspace) { get; set; } | A viselkedés színtérét reprezentálja. Olvasás/írás [`ColorSpace`](../colorspace). |
+| [Direction](../../aspose.slides.animation/coloreffect/direction) { get; set; } | Megadja, hogy melyik irányba ciklizálja a árnyalatot a színkeréken. Olvasás/írás [`ColorDirection`](../colordirection). |
+| [From](../../aspose.slides.animation/coloreffect/from) { get; set; } | Ez az érték a viselkedés kiinduló színének meghatározására szolgál. Olvasás/írás [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | A viselkedés tulajdonságait jelöli. Csak olvasható [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Az effektus viselkedés időzítési tulajdonságait jelzi. Olvasás/írás [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/coloreffect/to) { get; set; } | Leírja a színanimáció színváltozásának eredményét. Olvasás/írás [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Lásd még
 

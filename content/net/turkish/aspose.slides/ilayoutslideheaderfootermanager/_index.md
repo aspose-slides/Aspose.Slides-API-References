@@ -1,14 +1,14 @@
 ---
 title: ILayoutSlideHeaderFooterManager
-second_title: Aspose.Sildes for .NET API Referansı
-description: Yerleşim slaytı altbilgi, tarih-saat, sayfa numarası yer tutucularının ve tüm alt yer tutucularının davranışını tutan yöneticiyi temsil eder. Alt yer tutucular, bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı slaytlar yerleşim slaytını kullanır ve ona bağımlıdır.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Yerleşim slaytı altbilgi, tarih-saat ve sayfa numarası yer tutucularının ve tüm alt yer tutucularının davranışını tutan yöneticiyi temsil eder. Alt yer tutucular, bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı slaytlar yerleşim slaytını kullanır ve ona bağımlıdır.
 type: docs
-weight: 6220
+weight: 6240
 url: /tr/aspose.slides/ilayoutslideheaderfootermanager/
 ---
-## ILayoutSlideHeaderFooterManager arayüzü
+## ILayoutSlideHeaderFooterManager arayüz
 
-Düzen slaytı altbilgi, tarih-saat, sayfa numarası yer tutucularının ve tüm çocuk yer tutucularının davranışını tutan yöneticiyi temsil eder. Çocuk yer tutucular, bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı slaytlar düzen slaytını kullanır ve ona bağımlıdır.
+Yerleşim slaytı altbilgi, tarih-saat ve sayfa numarası yer tutucularının ve tüm alt yer tutucularının davranışını tutan yöneticiyi temsil eder. Alt yer tutucular, bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı slaytlar yerleşim slaytını kullanır ve ona bağımlıdır.
 
 ```csharp
 public interface ILayoutSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -16,24 +16,24 @@ public interface ILayoutSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/ilayoutslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | IBaseSlideHeaderFooterManager arabirimini döndürür. |
+| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/ilayoutslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | IBaseSlideHeaderFooterManager arayüzünü döndürür. |
 
-## Yöntemler
+## Metotlar
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Düzen slaytı tarih-saat yer tutucusuna ve tüm alt tarih-saat yer tutucularına metin ayarlar. Alt yer tutucular, bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı slaytlar düzen slaytını kullanır ve ona bağımlıdır. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Düzen slaytı tarih-saat yer tutucusunun ve tüm alt tarih-saat yer tutucularının görünürlüğünü değiştirir. Alt yer tutucular, bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı slaytlar düzen slaytını kullanır ve ona bağımlıdır. |
-| [SetFooterAndChildFootersText](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | Düzen slaytı altbilgi yer tutucusuna ve tüm alt altbilgi yer tutucularına metin ayarlar. Alt yer tutucular, bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı slaytlar düzen slaytını kullanır ve ona bağımlıdır. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Düzen slaytı altbilgi yer tutucusunun ve tüm alt altbilgi yer tutucularının görünürlüğünü değiştirir. Alt yer tutucular, bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı slaytlar master slaytını kullanır ve ona bağımlıdır. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Düzen slaytı sayfa numarası yer tutucusunun ve tüm alt sayfa numarası yer tutucularının görünürlüğünü değiştirir. Alt yer tutucular, bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı slaytlar düzen slaytını kullanır ve ona bağımlıdır. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Metin, yerleşim slaytı tarih-saat yer tutucusuna ve tüm alt tarih-saat yer tutucularına ayarlanır. Alt yer tutucular, bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı slaytlar yerleşim slaytını kullanır ve ona bağımlıdır. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Yerleşim slaytı tarih-saat yer tutucusunun ve tüm alt tarih-saat yer tutucularının görünürlüğünü değiştirir. Alt yer tutucular, bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı slaytlar yerleşim slaytını kullanır ve ona bağımlıdır. |
+| [SetFooterAndChildFootersText](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | Metin, yerleşim slaytı altbilgi yer tutucusuna ve tüm alt altbilgi yer tutucularına ayarlanır. Alt yer tutucular, bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı slaytlar yerleşim slaytını kullanır ve ona bağımlıdır. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Yerleşim slaytı altbilgi yer tutucusunun ve tüm alt altbilgi yer tutucularının görünürlüğünü değiştirir. Alt yer tutucular, bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı slaytlar ana slaytı kullanır ve ona bağımlıdır. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Yerleşim slaytı sayfa numarası yer tutucusunun ve tüm alt sayfa numarası yer tutucularının görünürlüğünü değiştirir. Alt yer tutucular, bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı slaytlar yerleşim slaytını kullanır ve ona bağımlıdır. |
 
-### Ayrıca Bakınız
+### Diğerlerine Bakın
 
-* interface [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* arayüz [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
+* ad alanı [Aspose.Slides](../../aspose.slides)
+* derleme [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

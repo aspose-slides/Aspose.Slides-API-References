@@ -1,14 +1,14 @@
 ---
 title: IAlphaInverseEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
-description: アルファ逆効果を表す不変オブジェクトです。アルファの不透明度の値は 100 から減算することで反転します。
+description: Alpha Inverse 効果を表す不変オブジェクトです。Alpha の不透明度の値は 100 から減算することで反転します。
 type: docs
-weight: 3070
+weight: 3090
 url: /ja/aspose.slides.effects/ialphainverseeffectivedata/
 ---
 ## IAlphaInverseEffectiveData インターフェイス
 
-アルファ逆効果を表す不変オブジェクトです。アルファ（不透明度）値は 100% から減算することで反転します。
+Alpha Inverse 効果を表す不変オブジェクトです。Alpha（不透明度）値は 100% から減算することで反転します。
 
 ```csharp
 public interface IAlphaInverseEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IAlphaInverseEffectiveData : IEffectEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphainverseeffectivedata/asieffecteffectivedata) { get; } | ベース IEffectEffectiveData インターフェイスを取得できます。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphainverseeffectivedata/asieffecteffectivedata) { get; } | ベースの IEffectEffectiveData インターフェイスの取得を許可します。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
 
 ### 参照
 

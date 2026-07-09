@@ -1,14 +1,14 @@
 ---
 title: IGeometryPath
-second_title: Referência da API Aspose.Sildes para .NET
-description: Representa o caminho de geometria do GeometryShape
+second_title: Aspose.Sildes para .NET Referência da API
+description: Representa o caminho geométrico de GeometryShape
 type: docs
-weight: 5950
+weight: 5970
 url: /pt/aspose.slides/igeometrypath/
 ---
 ## IGeometryPath interface
 
-Representa o caminho de geometria do GeometryShape
+Representa o caminho geométrico de GeometryShape
 
 ```csharp
 public interface IGeometryPath
@@ -19,7 +19,7 @@ public interface IGeometryPath
 | Nome | Descrição |
 | --- | --- |
 | [FillMode](../../aspose.slides/igeometrypath/fillmode) { get; set; } | Define o modo de preenchimento |
-| [PathData](../../aspose.slides/igeometrypath/pathdata) { get; } | Retorna o caminho de geometria do GeometryShape como um array de segmentos de caminho. |
+| [PathData](../../aspose.slides/igeometrypath/pathdata) { get; } | Retorna o caminho geométrico de GeometryShape como um array de segmentos de caminho. |
 | [Stroke](../../aspose.slides/igeometrypath/stroke) { get; set; } | Define a aparência do traço |
 
 ## Métodos
@@ -28,21 +28,21 @@ public interface IGeometryPath
 | --- | --- |
 | [ArcTo](../../aspose.slides/igeometrypath/arcto)(float, float, float, float) | Anexa o arco especificado ao caminho. |
 | [CloseFigure](../../aspose.slides/igeometrypath/closefigure)() | Fecha a figura atual deste caminho |
-| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | Adiciona curva cúbica de Bézier ao final do caminho |
-| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | Adiciona curva cúbica de Bézier ao local especificado do caminho |
-| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | Adiciona curva cúbica de Bézier ao final do caminho |
-| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | Adiciona curva cúbica de Bézier ao local especificado do caminho |
+| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | Adiciona curva Bézier cúbica ao final do caminho |
+| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | Adiciona curva Bézier cúbica ao local especificado do caminho |
+| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | Adiciona curva Bézier cúbica ao final do caminho |
+| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | Adiciona curva Bézier cúbica ao local especificado do caminho |
 | [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_2)(PointF) | Adiciona linha ao final do caminho |
 | [LineTo](../../aspose.slides/igeometrypath/lineto#lineto)(float, float) | Adiciona linha ao final do caminho |
 | [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_3)(PointF, uint) | Adiciona linha ao local especificado do caminho |
 | [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_1)(float, float, uint) | Adiciona linha ao local especificado do caminho |
 | [MoveTo](../../aspose.slides/igeometrypath/moveto#moveto_1)(PointF) | Define a posição do próximo ponto. |
 | [MoveTo](../../aspose.slides/igeometrypath/moveto#moveto)(float, float) | Define a posição do próximo ponto. |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | Adiciona curva quadrática de Bézier ao final do caminho |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | Adiciona curva quadrática de Bézier ao local especificado do caminho |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | Adiciona curva quadrática de Bézier ao final do caminho |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | Adiciona curva quadrática de Bézier ao local especificado do caminho |
-| [RemoveAt](../../aspose.slides/igeometrypath/removeat)(int) | Remove o segmento no índice especificado do caminho de geometria. |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | Adiciona curva Bézier quadrática ao final do caminho |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | Adiciona curva Bézier quadrática ao local especificado do caminho |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | Adiciona curva Bézier quadrática ao final do caminho |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | Adiciona curva Bézier quadrática ao local especificado do caminho |
+| [RemoveAt](../../aspose.slides/igeometrypath/removeat)(int) | Remove o segmento no índice especificado do caminho geométrico. |
 
 ### Veja Também
 

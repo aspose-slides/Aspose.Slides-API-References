@@ -1,14 +1,14 @@
 ---
 title: MathRadicalFactory
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 数学ラジカルの作成を可能にします
+description: 数式の根号を作成できます
 type: docs
-weight: 8930
+weight: 8950
 url: /ja/aspose.slides.mathtext/mathradicalfactory/
 ---
 ## MathRadicalFactory クラス
 
-数学ラジカルを作成できます。
+数式の根号を作成できます
 
 ```csharp
 public class MathRadicalFactory : IMathRadicalFactory
@@ -18,19 +18,19 @@ public class MathRadicalFactory : IMathRadicalFactory
 
 | 名前 | 説明 |
 | --- | --- |
-| [MathRadicalFactory](mathradicalfactory)() | デフォルトコンストラクタです。 |
+| [MathRadicalFactory](mathradicalfactory)() | デフォルト コンストラクタです。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [CreateMathRadical](../../aspose.slides.mathtext/mathradicalfactory/createmathradical)(IMathElement, IMathElement) | 数学ラジカルを作成します。 |
+| [CreateMathRadical](../../aspose.slides.mathtext/mathradicalfactory/createmathradical)(IMathElement, IMathElement) | 数式の根号を作成します |
 
-## 備考
+### 備考
 
 COM 互換性のため
 
-## 参照
+### 参照
 
 * インターフェイス [IMathRadicalFactory](../imathradicalfactory)
 * 名前空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

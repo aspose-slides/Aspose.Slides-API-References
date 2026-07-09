@@ -1,14 +1,14 @@
 ---
 title: UpDownBarsManager
 second_title: Aspose.Sildes dla .NET – Dokumentacja API
-description: Udostępnia dostęp do pasków góra/dół wykresu liniowego lub giełdowego.
+description: Zapewnia dostęp do słupków góra/dół wykresu liniowego lub giełdowego.
 type: docs
-weight: 2480
+weight: 2500
 url: /pl/aspose.slides.charts/updownbarsmanager/
 ---
 ## UpDownBarsManager klasa
 
-Udostępnia dostęp do pasków góra/dół wykresu liniowego lub giełdowego.
+Zapewnia dostęp do słupków góra/dół wykresu Liniowego lub Akcji.
 
 ```csharp
 public class UpDownBarsManager : DomObject<ChartSeriesGroup>, IUpDownBarsManager

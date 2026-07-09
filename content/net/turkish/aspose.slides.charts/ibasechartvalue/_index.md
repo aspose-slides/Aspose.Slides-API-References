@@ -3,12 +3,12 @@ title: IBaseChartValue
 second_title: Aspose.Sildes için .NET API Referansı
 description: Bir grafiğin değerini temsil eder.
 type: docs
-weight: 1710
+weight: 1730
 url: /tr/aspose.slides.charts/ibasechartvalue/
 ---
 ## IBaseChartValue arayüz
 
-Bir grafik değerini temsil eder.
+Represents a value of a chart.
 
 ```csharp
 public interface IBaseChartValue
@@ -18,8 +18,8 @@ public interface IBaseChartValue
 
 | Ad | Açıklama |
 | --- | --- |
-| [Data](../../aspose.slides.charts/ibasechartvalue/data) { get; set; } | Okuma/Yazma Nesne. |
-| [DataSourceType](../../aspose.slides.charts/ibasechartvalue/datasourcetype) { get; set; } | AsCell, AsLiteralString veya AsLiteralDouble özelliğinin geçerli olup olmadığını belirler. Başka bir deyişle, Data özelliğinin değer tipini belirler. Bu özellik sadece okunabilir. Bu özelliğin değerini değiştirmek için ChartDataPointCollection.DataSourceTypeFor<...> özelliklerinden birini kullanabilirsiniz. Okuma/Yazma [`DataSourceType`](./datasourcetype). |
+| [Data](../../aspose.slides.charts/ibasechartvalue/data) { get; set; } | Okunur/Yazılabilir Object. |
+| [DataSourceType](../../aspose.slides.charts/ibasechartvalue/datasourcetype) { get; set; } | AsCell, AsLiteralString veya AsLiteralDouble özelliğinin geçerli olup olduğunu belirtir. Diğer bir deyişle, Data özelliğinin değerinin türünü belirtir. Bu özellik salt okunurdur. Bu özelliğin değerini değiştirmek için ChartDataPointCollection.DataSourceTypeFor<...> özelliklerinden birini kullanabilirsiniz. Okunur/Yazılabilir [`DataSourceType`](./datasourcetype). |
 
 ### Ayrıca Bakınız
 

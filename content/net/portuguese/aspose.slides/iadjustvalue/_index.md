@@ -1,12 +1,12 @@
 ---
 title: IAdjustValue
-second_title: Aspose.Sildes para .NET Referência da API
-description: Representa o valor de ajuste de formas geométricas. Esses valores afetam a forma das formas.
+second_title: Aspose.Sildes para Referência da API .NET
+description: Representa um valor de ajuste de formas geométricas. Esses valores afetam a forma das formas.
 type: docs
-weight: 5160
+weight: 5180
 url: /pt/aspose.slides/iadjustvalue/
 ---
-## IAdjustValue interface
+## interface IAdjustValue
 
 Representa o valor de ajuste de uma forma geométrica. Esses valores afetam a forma da forma.
 
@@ -16,11 +16,11 @@ public interface IAdjustValue
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
-| [AngleValue](../../aspose.slides/iadjustvalue/anglevalue) { get; set; } | Retorna ou define o valor, interpretando-o como ângulo em graus. Leitura/gravação Single. |
+| [AngleValue](../../aspose.slides/iadjustvalue/anglevalue) { get; set; } | Retorna ou define o valor, interpretando-o como ângulo em graus. Leitura/Escrita Single. |
 | [Name](../../aspose.slides/iadjustvalue/name) { get; } | Retorna um nome deste valor de ajuste. Somente leitura String. |
-| [RawValue](../../aspose.slides/iadjustvalue/rawvalue) { get; set; } | Retorna ou define o valor de ajuste “como está”. Leitura/gravação Int64. |
+| [RawValue](../../aspose.slides/iadjustvalue/rawvalue) { get; set; } | Retorna ou define o valor de ajuste "as is". Leitura/Escrita Int64. |
 | [Type](../../aspose.slides/iadjustvalue/type) { get; } | Retorna o tipo do ajuste da forma. Somente leitura [`ShapeAdjustmentType`](../shapeadjustmenttype). |
 
 ### Veja Também

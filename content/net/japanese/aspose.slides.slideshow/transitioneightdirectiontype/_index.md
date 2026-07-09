@@ -1,12 +1,12 @@
 ---
 title: TransitionEightDirectionType
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 8 方向の遷移タイプを表します。
+description: 8方向の遷移タイプを表します。
 type: docs
-weight: 10340
+weight: 10360
 url: /ja/aspose.slides.slideshow/transitioneightdirectiontype/
 ---
-## TransitionEightDirectionType 列挙型
+## TransitionEightDirectionType 列挙体
 
 8方向の遷移タイプを表します。
 

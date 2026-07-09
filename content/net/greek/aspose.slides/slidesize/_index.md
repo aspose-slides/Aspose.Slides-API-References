@@ -1,14 +1,14 @@
 ---
 title: SlideSize
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Αντιπροσωπεύει το μέγεθος και τον προσανατολισμό μιας διαφάνειας.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Αναπαριστά το μέγεθος και τον προσανατολισμό μιας διαφάνειας.
 type: docs
-weight: 10480
+weight: 10500
 url: /el/aspose.slides/slidesize/
 ---
 ## SlideSize κλάση
 
-Αντιπροσωπεύει το μέγεθος και τον προσανατολισμό μιας διαφάνειας.
+Αναπαριστά το μέγεθος και τον προσανατολισμό μιας διαφάνειας.
 
 ```csharp
 public class SlideSize : DomObject<Presentation>, ISlideSize
@@ -18,22 +18,22 @@ public class SlideSize : DomObject<Presentation>, ISlideSize
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Orientation](../../aspose.slides/slidesize/orientation) { get; set; } | Λαμβάνει ή ορίζει τον προσανατολισμό της διαφάνειας. |
-| [Size](../../aspose.slides/slidesize/size) { get; } | Λαμβάνει τις διαστάσεις της διαφάνειας σε πόντους. |
-| [Type](../../aspose.slides/slidesize/type) { get; } | Λαμβάνει τον τύπο μεγέθους της διαφάνειας. |
+| [Orientation](../../aspose.slides/slidesize/orientation) { get; set; } | Αποκτά ή ορίζει τον προσανατολισμό της διαφάνειας. |
+| [Size](../../aspose.slides/slidesize/size) { get; } | Αποκτά τις διαστάσεις της διαφάνειας σε σημεία. |
+| [Type](../../aspose.slides/slidesize/type) { get; } | Αποκτά τον τύπο μεγέθους της διαφάνειας. |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [SetSize](../../aspose.slides/slidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | Ορίζει το μέγεθος της διαφάνειας βάσει τύπου και κλιμακώνει το υπάρχον περιεχόμενο. |
+| [SetSize](../../aspose.slides/slidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | Ορίζει το μέγεθος της διαφάνειας με βάση τον τύπο και κλιμακώνει το υπάρχον περιεχόμενο. |
 | [SetSize](../../aspose.slides/slidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | Ορίζει ρητά τις διαστάσεις της διαφάνειας και κλιμακώνει το υπάρχον περιεχόμενο. |
 
 ### Δείτε επίσης
 
 * κλάση [DomObject&lt;TParent&gt;](../domobject-1)
 * κλάση [Presentation](../presentation)
-* διεπαφή [ISlideSize](../islidesize)
+* διασύνδεση [ISlideSize](../islidesize)
 * χώρος ονομάτων [Aspose.Slides](../../aspose.slides)
 * συγκρότημα [Aspose.Slides](../../)
 

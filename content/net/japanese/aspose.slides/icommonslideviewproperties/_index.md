@@ -1,14 +1,14 @@
 ---
 title: ICommonSlideViewProperties
-second_title: Aspose.Sildes for .NET API リファレンス
-description: 共通スライド ビュー プロパティを表します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: 共通スライドビュー プロパティを表します。
 type: docs
-weight: 5580
+weight: 5600
 url: /ja/aspose.slides/icommonslideviewproperties/
 ---
 ## ICommonSlideViewProperties インターフェイス
 
-共通スライド ビュー プロパティを表します。
+共通スライドビュー プロパティを表します。
 
 ```csharp
 public interface ICommonSlideViewProperties
@@ -19,8 +19,8 @@ public interface ICommonSlideViewProperties
 | 名前 | 説明 |
 | --- | --- |
 | [DrawingGuides](../../aspose.slides/icommonslideviewproperties/drawingguides) { get; } | 描画ガイドのコレクションを返します。読み取り専用 [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | ビューのスケーリング比率をパーセンテージで指定します。読み書き Int32. |
-| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | ビューのコンテンツが現在のウィンドウサイズに最適に合わせて自動的にスケーリングされるように指定します。読み書き Boolean. |
+| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | ビューの拡大率をパーセンテージで指定します。読み取り/書き込み Int32. |
+| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | ビューのコンテンツが現在のウィンドウサイズに最適に合わせて自動的にスケールされるよう指定します。読み取り/書き込み Boolean. |
 
 ### 参照
 

@@ -1,14 +1,14 @@
 ---
 title: IBehaviorPropertyCollection
 second_title: Aspose.Sildes for .NET API リファレンス
-description: エフェクトの動作のタイミングプロパティを表します。
+description: エフェクトの動作に対するタイミング プロパティを表します。
 type: docs
-weight: 430
+weight: 450
 url: /ja/aspose.slides.animation/ibehaviorpropertycollection/
 ---
-## IBehaviorPropertyCollection インターフェイス
+## IBehaviorPropertyCollection interface
 
-エフェクトの動作のタイミングプロパティを表します。
+エフェクトの動作に対するタイミング プロパティを表します。
 
 ```csharp
 public interface IBehaviorPropertyCollection : IList<IBehaviorProperty>
@@ -16,17 +16,17 @@ public interface IBehaviorPropertyCollection : IList<IBehaviorProperty>
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.animation/ibehaviorpropertycollection/asienumerable) { get; } | IEnumerable インターフェイスを返します。読み取り専用 IEnumerable。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides.animation/ibehaviorpropertycollection/add)(string) | コレクションに新しいプロパティを追加します。 |
 | [Contains](../../aspose.slides.animation/ibehaviorpropertycollection/contains)(string) | ICollection が特定の値を含むかどうかを判断します。 |
-| [IndexOf](../../aspose.slides.animation/ibehaviorpropertycollection/indexof)(string) | IList でプロパティ値による特定の項目のインデックスを取得します。 |
+| [IndexOf](../../aspose.slides.animation/ibehaviorpropertycollection/indexof)(string) | IList でプロパティ値により特定の項目のインデックスを決定します。 |
 | [Insert](../../aspose.slides.animation/ibehaviorpropertycollection/insert)(int, string) | 指定されたインデックスに、指定されたプロパティ値を持つ新しいプロパティをコレクションに挿入します。 |
 | [Remove](../../aspose.slides.animation/ibehaviorpropertycollection/remove)(string) | コレクションから指定されたプロパティを削除します。 |
 

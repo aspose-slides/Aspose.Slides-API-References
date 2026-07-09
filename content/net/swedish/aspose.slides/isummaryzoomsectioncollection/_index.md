@@ -1,9 +1,9 @@
 ---
 title: ISummaryZoomSectionCollection
-second_title: Aspose.Sildes för .NET API-referens
+second_title: Aspose.Slides för .NET API-referens
 description: Representerar en samling av Summary Zoom Section-objekt.
 type: docs
-weight: 7150
+weight: 7170
 url: /sv/aspose.slides/isummaryzoomsectioncollection/
 ---
 ## ISummaryZoomSectionCollection gränssnitt

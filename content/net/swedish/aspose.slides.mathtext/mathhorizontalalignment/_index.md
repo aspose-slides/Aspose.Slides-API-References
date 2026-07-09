@@ -3,10 +3,10 @@ title: MathHorizontalAlignment
 second_title: Aspose.Sildes för .NET API-referens
 description: Horisontell justering
 type: docs
-weight: 8760
+weight: 8780
 url: /sv/aspose.slides.mathtext/mathhorizontalalignment/
 ---
-## MathHorizontalAlignment uppräkning
+## MathHorizontalAlignment enumeration
 
 Horisontell justering
 
@@ -20,8 +20,8 @@ public enum MathHorizontalAlignment
 | --- | --- | --- |
 | NotDefined | `0` | Värdet är inte definierat |
 | Left | `1` | Vänsterjustering |
-| Center | `2` | Centrering |
-| Right | `3` | Högerjustering |
+| Center | `2` | Center |
+| Right | `3` | Right |
 
 ### Se även
 

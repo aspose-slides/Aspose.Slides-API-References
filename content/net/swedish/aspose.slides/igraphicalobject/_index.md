@@ -1,14 +1,14 @@
 ---
 title: IGraphicalObject
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar ett abstrakt grafiskt objekt.
+description: Representerar abstrakt grafiskt objekt.
 type: docs
-weight: 6040
+weight: 6060
 url: /sv/aspose.slides/igraphicalobject/
 ---
 ## IGraphicalObject gränssnitt
 
-Representerar ett abstrakt grafiskt objekt.
+Representerar abstrakt grafiskt objekt.
 
 ```csharp
 public interface IGraphicalObject : IShape
@@ -18,9 +18,9 @@ public interface IGraphicalObject : IShape
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIShape](../../aspose.slides/igraphicalobject/asishape) { get; } | Tillåter att hämta bas-IShape-gränssnittet. Skrivskyddad [`IShape`](../ishape). |
-| [GraphicalObjectLock](../../aspose.slides/igraphicalobject/graphicalobjectlock) { get; } | Returnerar formens lås. Skrivskyddad [`IGraphicalObjectLock`](../igraphicalobjectlock). |
-| [ShapeLock](../../aspose.slides/igraphicalobject/shapelock) { get; } | Returnerar formens lås. Skrivskyddad [`IGraphicalObjectLock`](../igraphicalobjectlock). |
+| [AsIShape](../../aspose.slides/igraphicalobject/asishape) { get; } | Tillåter att hämta bas IShape gränssnittet. Skrivskyddad [`IShape`](../ishape). |
+| [GraphicalObjectLock](../../aspose.slides/igraphicalobject/graphicalobjectlock) { get; } | Returnerar shape-låsen. Skrivskyddad [`IGraphicalObjectLock`](../igraphicalobjectlock). |
+| [ShapeLock](../../aspose.slides/igraphicalobject/shapelock) { get; } | Returnerar shape-låsen. Skrivskyddad [`IGraphicalObjectLock`](../igraphicalobjectlock). |
 
 ### Se även
 

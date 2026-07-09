@@ -1,14 +1,14 @@
 ---
 title: IChartCellCollection
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αναπαριστά μια συλλογή κελιών με δεδομένα.
+second_title: Aspose.Sildes για .NET Αναφορά API
+description: Αναπαριστά τη συλλογή κελιών με δεδομένα.
 type: docs
-weight: 1760
+weight: 1780
 url: /el/aspose.slides.charts/ichartcellcollection/
 ---
 ## IChartCellCollection διασύνδεση
 
-Αναπαριστά μια συλλογή κελιών με δεδομένα.
+Αναπαριστά τη συλλογή κελιών με δεδομένα.
 
 ```csharp
 public interface IChartCellCollection : IEnumerable<IChartDataCell>
@@ -16,21 +16,21 @@ public interface IChartCellCollection : IEnumerable<IChartDataCell>
 
 ## Ιδιότητες
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.charts/ichartcellcollection/asienumerable) { get; } | Επιστρέφει τη διασύνδεση ICollection. Μόνο για ανάγνωση IEnumerable. |
-| [Count](../../aspose.slides.charts/ichartcellcollection/count) { get; } | Λαμβάνει τον αριθμό των κελιών στη συλλογή. Μόνο για ανάγνωση Int32. |
-| [Item](../../aspose.slides.charts/ichartcellcollection/item) { get; } | Επιστρέφει ένα κελί (IChartDataCell) με βάση το δείκτη. |
+| [Count](../../aspose.slides.charts/ichartcellcollection/count) { get; } | Επιστρέφει τον αριθμό των κελιών στη συλλογή. Μόνο για ανάγνωση Int32. |
+| [Item](../../aspose.slides.charts/ichartcellcollection/item) { get; } | Επιστρέφει ένα κελί (IChartDataCell) με δείκτη. |
 
 ## Μέθοδοι
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides.charts/ichartcellcollection/add#add)(IChartDataCell) | Προσθέτει νέο κελί στη συλλογή. |
 | [Add](../../aspose.slides.charts/ichartcellcollection/add#add_1)(object) | Δημιουργεί [`IChartDataCell`](../ichartdatacell) από την καθορισμένη τιμή και το προσθέτει στη συλλογή. |
 | [GetCellsAddress](../../aspose.slides.charts/ichartcellcollection/getcellsaddress)() | Επιστρέφει τη διεύθυνση του συνόλου των κελιών στο βιβλίο εργασίας. |
-| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | Συμβολοσειρά σύνθεσης από όλες τις τιμές των κελιών. |
-| [RemoveAt](../../aspose.slides.charts/ichartcellcollection/removeat)(int) | Αφαιρεί ένα κελί από τη συλλογή με βάση το δείκτη. |
+| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | Συρραφή συμβολοσειράς από όλες τις τιμές συμβολοσειρών των κελιών. |
+| [RemoveAt](../../aspose.slides.charts/ichartcellcollection/removeat)(int) | Αφαιρεί ένα κελί από τη συλλογή με δείκτη. |
 
 ### Δείτε επίσης
 

@@ -1,14 +1,14 @@
 ---
 title: IOleEmbeddedDataInfo
 second_title: Aspose.Sildes için .NET API Referansı
-description: OLE nesnesi için gömülü veri bilgilerini temsil eder.
+description: OLE nesnesi için gömülü veri bilgisini temsil eder.
 type: docs
-weight: 6510
+weight: 6530
 url: /tr/aspose.slides/ioleembeddeddatainfo/
 ---
 ## IOleEmbeddedDataInfo arayüz
 
-OLE nesnesi için gömülü veri bilgilerini temsil eder.
+OLE nesnesi için gömülü veri bilgisini temsil eder.
 
 ```csharp
 public interface IOleEmbeddedDataInfo
@@ -18,10 +18,10 @@ public interface IOleEmbeddedDataInfo
 
 | Ad | Açıklama |
 | --- | --- |
-| [EmbeddedFileData](../../aspose.slides/ioleembeddeddatainfo/embeddedfiledata) { get; } | Gömülü OLE nesnesinin dosya verilerini döndürür Salt okunur Byte[]. |
-| [EmbeddedFileExtension](../../aspose.slides/ioleembeddeddatainfo/embeddedfileextension) { get; } | Mevcut gömülü OLE nesnesi için dosya uzantısını döndürür Salt okunur String. |
+| [EmbeddedFileData](../../aspose.slides/ioleembeddeddatainfo/embeddedfiledata) { get; } | Gömülü OLE nesnesinin dosya verilerini döndürür. Yalnızca okuma Byte[]. |
+| [EmbeddedFileExtension](../../aspose.slides/ioleembeddeddatainfo/embeddedfileextension) { get; } | Mevcut gömülü OLE nesnesi için dosya uzantısını döndürür. Yalnızca okuma String. |
 
-### Ayrıca
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

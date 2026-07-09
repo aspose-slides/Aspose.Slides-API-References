@@ -1,14 +1,14 @@
 ---
 title: ChartData
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar data som används för att plotta ett diagram.
+description: Representerar data som används för diagramplottning.
 type: docs
-weight: 1290
+weight: 1310
 url: /sv/aspose.slides.charts/chartdata/
 ---
 ## ChartData klass
 
-Representerar data som används för ett diagram.
+Representerar data som används för att plotta ett diagram.
 
 ```csharp
 public class ChartData : DomObject<Chart>, IChartData
@@ -18,34 +18,34 @@ public class ChartData : DomObject<Chart>, IChartData
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Categories](../../aspose.slides.charts/chartdata/categories) { get; } | Hämtar de primära kategorierna (eller både primära och sekundära kategorier om [`UseSecondaryCategories`](./usesecondarycategories) egenskap är falsk). Skrivskyddad [`IChartCategoryCollection`](../ichartcategorycollection). |
-| [ChartDataWorkbook](../../aspose.slides.charts/chartdata/chartdataworkbook) { get; } | Hämtar cellfabriken för att skapa celler som används för diagramserier eller kategorier. Skrivskyddad [`IChartDataWorkbook`](../ichartdataworkbook). |
-| [DataSourceType](../../aspose.slides.charts/chartdata/datasourcetype) { get; } | Representerar sökvägen till extern arbetsbok om extern datakälla, annars null |
-| [EmbeddedWorkbookType](../../aspose.slides.charts/chartdata/embeddedworkbooktype) { get; } | Hämtar typen av den inbäddade arbetsboken. Returnerar NotDefined om [`DataSourceType`](./datasourcetype) är ExternalWorkbook. Skrivskyddad [`WorkbookType`](../workbooktype). |
-| [ExternalWorkbookPath](../../aspose.slides.charts/chartdata/externalworkbookpath) { get; } | Representerar datakällan för diagrammet |
-| [SecondaryCategories](../../aspose.slides.charts/chartdata/secondarycategories) { get; } | Hämtar de sekundära kategorierna om [`UseSecondaryCategories`](./usesecondarycategories) egenskap är sann. Skrivskyddad [`IChartCategoryCollection`](../ichartcategorycollection). |
+| [Categories](../../aspose.slides.charts/chartdata/categories) { get; } | Hämtar de primära kategorierna (eller både primära och sekundära kategorier om [`UseSecondaryCategories`](./usesecondarycategories)-egenskapen är falsk). Skrivskyddad [`IChartCategoryCollection`](../ichartcategorycollection). |
+| [ChartDataWorkbook](../../aspose.slides.charts/chartdata/chartdataworkbook) { get; } | Hämtar cellfabriken för att skapa celler som används för diagramserier eller -kategorier. Skrivskyddad [`IChartDataWorkbook`](../ichartdataworkbook). |
+| [DataSourceType](../../aspose.slides.charts/chartdata/datasourcetype) { get; } | Representerar extern arbetsbokssökväg om extern datakälla, annars null |
+| [EmbeddedWorkbookType](../../aspose.slides.charts/chartdata/embeddedworkbooktype) { get; } | Hämtar typen för den inbäddade arbetsboken. Returnerar NotDefined om [`DataSourceType`](./datasourcetype) är ExternalWorkbook. Skrivskyddad [`WorkbookType`](../workbooktype). |
+| [ExternalWorkbookPath](../../aspose.slides.charts/chartdata/externalworkbookpath) { get; } | Representerar datakälla för diagrammet |
+| [SecondaryCategories](../../aspose.slides.charts/chartdata/secondarycategories) { get; } | Hämtar de sekundära kategorierna om [`UseSecondaryCategories`](./usesecondarycategories)-egenskapen är sann. Skrivskyddad [`IChartCategoryCollection`](../ichartcategorycollection). |
 | [Series](../../aspose.slides.charts/chartdata/series) { get; } | Hämtar serierna. Skrivskyddad [`IChartSeriesCollection`](../ichartseriescollection). |
 | [SeriesGroups](../../aspose.slides.charts/chartdata/seriesgroups) { get; } | Hämtar grupperna av serier. Skrivskyddad [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection). |
-| [UseSecondaryCategories](../../aspose.slides.charts/chartdata/usesecondarycategories) { get; set; } | Om falskt returnerar [`SecondaryCategories`](./secondarycategories) egenskap null och data i [`Categories`](./categories) egenskap används både för primära och sekundära serier. Om sant används data i [`SecondaryCategories`](./secondarycategories) egenskap för sekundära serier och data i [`Categories`](./categories) egenskap för primära serier. Läs/skriv Boolesk. |
+| [UseSecondaryCategories](../../aspose.slides.charts/chartdata/usesecondarycategories) { get; set; } | Om falskt returnerar [`SecondaryCategories`](./secondarycategories)-egenskapen null och data i [`Categories`](./categories)-egenskapen används både för primära och sekundära serier. Om sant används data i [`SecondaryCategories`](./secondarycategories)-egenskapen för sekundära serier och data i [`Categories`](./categories)-egenskapen för primära serier. Läs/skriv Boolean. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
 | [GetRange](../../aspose.slides.charts/chartdata/getrange)() | Hämtar diagrammets dataområde. |
-| [ReadWorkbookStream](../../aspose.slides.charts/chartdata/readworkbookstream)() | Skriver den internt innehållna Excel-arbetsboken till en minnesström. |
-| [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook)(string) | Ställer in extern arbetsbok som datakälla för diagrammet. Diagramdata kommer att uppdateras från målarbetsboken. |
-| [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | Ställer in extern arbetsbok som datakälla för diagrammet. |
-| [SetRange](../../aspose.slides.charts/chartdata/setrange)(string) | Ställer in diagrammets dataområde. Serier och kategorier kommer att uppdateras baserat på det nya dataområdet. Om antalet serier i dataområdet är större än antalet serier i diagramdata läggs ytterligare serier med samma typ som den sista serien i den aktuella samlingen till i slutet av samlingen. |
-| [SwitchRowColumn](../../aspose.slides.charts/chartdata/switchrowcolumn)() | Byt data över axeln. Data som plottas på X-axeln flyttas till Y-axeln och omvänt. |
+| [ReadWorkbookStream](../../aspose.slides.charts/chartdata/readworkbookstream)() | Skriver den internt innehållna Excel-arbetsboken till ett minnesström. |
+| [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook)(string) | Anger extern arbetsbok som datakälla för diagrammet. Diagramdata uppdateras från målarbetsboken. |
+| [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | Anger extern arbetsbok som datakälla för diagrammet. |
+| [SetRange](../../aspose.slides.charts/chartdata/setrange)(string) | Anger diagrammets dataområde. Serier och kategorier uppdateras baserat på det nya dataområdet. Om antalet serier i dataområdet är större än antalet serier i diagramdata läggs ytterligare serier med samma typ som den sista serien i den aktuella samlingen till i slutet av samlingen. |
+| [SwitchRowColumn](../../aspose.slides.charts/chartdata/switchrowcolumn)() | Byter data över axeln. Data som visas på X-axeln flyttas till Y-axeln och vice versa. |
 | [WriteWorkbookStream](../../aspose.slides.charts/chartdata/writeworkbookstream)(MemoryStream) | Initierar den internt innehållna Excel-arbetsboken med ett användarspecificerat värde. |
 
-### Se även
+### Se också
 
 * klass [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * klass [Chart](../chart)
 * gränssnitt [IChartData](../ichartdata)
-* namnrum [Aspose.Slides.Charts](../../aspose.slides.charts)
+* namnrymd [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

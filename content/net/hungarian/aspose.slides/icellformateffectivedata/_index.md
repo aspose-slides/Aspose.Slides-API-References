@@ -1,31 +1,31 @@
 ---
 title: ICellFormatEffectiveData
 second_title: Aspose.Sildes .NET API referencia
-description: Módosíthatatlan objektum, amely a hatékony táblacella formázási tulajdonságokat tartalmaz.
+description: Módosíthatatlan objektum, amely a hatékony táblacellák formázási tulajdonságait tartalmazza.
 type: docs
-weight: 5460
+weight: 5480
 url: /hu/aspose.slides/icellformateffectivedata/
 ---
-## ICellFormatEffectiveData interface
+## ICellFormatEffectiveData interfész
 
-Módosíthatatlan objektum, amely a hatékony táblacella formázási tulajdonságokat tartalmaz.
+Módosíthatatlan objektum, amely a hatékony táblacellák formázási tulajdonságait tartalmazza.
 
 ```csharp
 public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
 ```
 
-## Properties
+## Tulajdonságok
 
 | Név | Leírás |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | Lehetővé teszi az alap IBaseTableFormatEffectiveData interfész lekérését. Csak olvasható [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
-| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | Megkapja a kitöltő szín átlátszóságát. Olvas Single. |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | Lehetővé teszi az IBaseTableFormatEffectiveData alapinterfész lekérését. Csak olvasható [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | A kitöltő szín átlátszóságát adja vissza. Olvasható Single. |
 
-### Remarks
+### Megjegyzések
 
-Ez az interfész a [`ICellFormat`](../icellformat) interfésszel együtt használható, hogy a öröklődést és táblastílusokat alkalmazó hatékony formázási értékeket adja vissza.
+Ez az interfész a [`ICellFormat`](../icellformat) interfésszel együtt használható, hogy visszaadja az örökléssel és a táblázatstílusok alkalmazásával kapott hatékony formázási értékeket.
 
-### See Also
+### Lásd még
 
 * interfész [IBaseTableFormatEffectiveData](../ibasetableformateffectivedata)
 * névtér [Aspose.Slides](../../aspose.slides)

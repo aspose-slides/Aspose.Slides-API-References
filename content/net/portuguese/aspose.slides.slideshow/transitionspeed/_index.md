@@ -1,14 +1,14 @@
 ---
 title: TransitionSpeed
-second_title: Aspose.Sildes para .NET Referência da API
-description: Representa tipos de velocidade de transição.
+second_title: Aspose.Sildes para a Referência da API .NET
+description: Representa os tipos de velocidade de transição.
 type: docs
-weight: 10420
+weight: 10440
 url: /pt/aspose.slides.slideshow/transitionspeed/
 ---
-## Enumeração TransitionSpeed
+## TransitionSpeed enumeração
 
-Representa tipos de velocidade de transição.
+Representa os tipos de velocidade de transição.
 
 ```csharp
 public enum TransitionSpeed
@@ -22,7 +22,7 @@ public enum TransitionSpeed
 | Medium | `1` |  |
 | Slow | `2` |  |
 
-### Ver também
+### Veja Também
 
 * espaço de nomes [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * assembly [Aspose.Slides](../../)

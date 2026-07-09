@@ -1,14 +1,14 @@
 ---
 title: SlidesLayoutOptions
-second_title: Aspose.Sildes for .NET API Referansı
-description: Sunumu dışa aktarırken slaytların sayfada yerleştirildiği modu alır veya ayarlar ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions.
+second_title: Aspose.Sildes .NET API Referansı
+description: Sunumu dışa aktarırken slaytların sayfaya yerleştirildiği modu alır veya ayarlar ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions.
 type: docs
-weight: 70
+weight: 80
 url: /tr/aspose.slides.export/html5options/slideslayoutoptions/
 ---
 ## Html5Options.SlidesLayoutOptions özelliği
 
-Sunumu dışa aktarırken slaytların sayfada yerleştirildiği modu alır veya ayarlar [`ISlidesLayoutOptions`](../../islideslayoutoptions).
+Sunumu dışa aktarırken slaytların sayfaya yerleştirildiği modu alır veya ayarlar [`ISlidesLayoutOptions`](../../islideslayoutoptions).
 
 ```csharp
 public ISlidesLayoutOptions SlidesLayoutOptions { get; set; }

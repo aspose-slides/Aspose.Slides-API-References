@@ -1,14 +1,14 @@
 ---
 title: SaveOptionsFactory
-second_title: Aspose.Sildes pro .NET – API reference
-description: Umožňuje vytvářet instance možností ukládání
+second_title: Aspose.Sildes pro .NET API referenci
+description: Umožňuje vytvářet instance možností uložení
 type: docs
-weight: 4440
+weight: 4460
 url: /cs/aspose.slides.export/saveoptionsfactory/
 ---
 ## SaveOptionsFactory třída
 
-Umožňuje vytvářet instance možností ukládání
+Umožňuje vytvářet instance možností uložení
 
 ```csharp
 public class SaveOptionsFactory : ISaveOptionsFactory
@@ -24,7 +24,7 @@ public class SaveOptionsFactory : ISaveOptionsFactory
 
 | Název | Popis |
 | --- | --- |
-| [CreatePptxOptions](../../aspose.slides.export/saveoptionsfactory/createpptxoptions)() | Vytvoří možnosti ukládání PPTX. |
+| [CreatePptxOptions](../../aspose.slides.export/saveoptionsfactory/createpptxoptions)() | Vytváří možnosti uložení PPTX. |
 
 ### Poznámky
 

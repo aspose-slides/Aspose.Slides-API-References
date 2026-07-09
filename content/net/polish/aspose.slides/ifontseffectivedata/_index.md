@@ -1,14 +1,14 @@
 ---
 title: IFontsEffectiveData
-second_title: Aspose.Sildes dla .NET - odniesienie API
-description: Niemutowalny obiekt zawierający zestaw efektywnych czcionek.
+second_title: Aspose.Sildes for .NET – Dokumentacja API
+description: Niezmienny obiekt, który zawiera zestaw efektywnych czcionek.
 type: docs
-weight: 5890
+weight: 5910
 url: /pl/aspose.slides/ifontseffectivedata/
 ---
-## interfejs IFontsEffectiveData
+## IFontsEffectiveData interfejs
 
-Obiekt niemutowalny, który zawiera zestaw efektywnych czcionek.
+Niezmienny obiekt, który zawiera zestaw efektywnych czcionek.
 
 ```csharp
 public interface IFontsEffectiveData

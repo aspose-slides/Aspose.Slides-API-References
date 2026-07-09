@@ -3,7 +3,7 @@ title: Paragraph
 second_title: Aspose.Sildes for .NET API リファレンス
 description: テキストの段落を表します。
 type: docs
-weight: 9260
+weight: 9280
 url: /ja/aspose.slides/paragraph/
 ---
 ## Paragraph クラス
@@ -16,29 +16,29 @@ public sealed class Paragraph : IParagraph
 
 ## コンストラクタ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [Paragraph](paragraph#constructor)() | デフォルトのプロパティで Paragraph クラスの新しいインスタンスを初期化します。 |
 | [Paragraph](paragraph#constructor_1)(Paragraph) | Paragraph クラスの新しいインスタンスを初期化するコピーコンストラクタです。 |
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [EndParagraphPortionFormat](../../aspose.slides/paragraph/endparagraphportionformat) { get; set; } | 最後の部分の後に別の部分が挿入される場合に使用される部分プロパティを指定します。 |
-| [ParagraphFormat](../../aspose.slides/paragraph/paragraphformat) { get; } | この段落の書式設定オブジェクトを返します。読み取り専用 [`IParagraphFormat`](../iparagraphformat)。 |
-| [Portions](../../aspose.slides/paragraph/portions) { get; } | テキスト部分のコレクションを返します。読み取り専用 [`IPortionCollection`](../iportioncollection)。 |
-| [Text](../../aspose.slides/paragraph/text) { get; set; } | 段落のプレーンテキストを取得または設定します。読み書き可能な String。 |
+| [EndParagraphPortionFormat](../../aspose.slides/paragraph/endparagraphportionformat) { get; set; } | 最後の部分の後に別の部分が挿入された場合に使用される部分プロパティを指定します。 |
+| [ParagraphFormat](../../aspose.slides/paragraph/paragraphformat) { get; } | この段落の書式設定オブジェクトを返します。 読み取り専用 [`IParagraphFormat`](../iparagraphformat)。 |
+| [Portions](../../aspose.slides/paragraph/portions) { get; } | テキスト部分のコレクションを返します。 読み取り専用 [`IPortionCollection`](../iportioncollection)。 |
+| [Text](../../aspose.slides/paragraph/text) { get; set; } | 段落のプレーンテキストを取得または設定します。 読み取り/書き込み String。 |
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [GetLinesCount](../../aspose.slides/paragraph/getlinescount)() | 段落の行数を取得します。 |
-| [GetRect](../../aspose.slides/paragraph/getrect)() | 段落を囲む矩形の座標を取得します。この矩形は段落内のすべてのテキスト行（空の行も含む）を含みます。 |
+| [GetRect](../../aspose.slides/paragraph/getrect)() | 段落を囲む矩形の座標を取得します。矩形には、空白行を含む段落内のすべてのテキスト行が含まれます。 |
 | [JoinPortionsWithSameFormatting](../../aspose.slides/paragraph/joinportionswithsameformatting)() | 同じ書式設定のランを結合します。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [IParagraph](../iparagraph)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

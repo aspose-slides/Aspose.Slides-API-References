@@ -1,14 +1,14 @@
 ---
 title: SlidesAIAgent
-second_title: Aspose.Sildes for .NET API Referencia
+second_title: Aspose.Sildes .NET API hivatkozás
 description: AI-alapú funkciókat biztosít a prezentációk feldolgozásához.
 type: docs
-weight: 50
+weight: 70
 url: /hu/aspose.slides.ai/slidesaiagent/
 ---
 ## SlidesAIAgent osztály
 
-AI-alapú funkciókat biztosít prezentációk feldolgozásához.
+AI-alapú funkciókat biztosít a prezentációk feldolgozásához.
 
 ```csharp
 public class SlidesAIAgent
@@ -18,18 +18,19 @@ public class SlidesAIAgent
 
 | Név | Leírás |
 | --- | --- |
-| [SlidesAIAgent](slidesaiagent)(IAIWebClient) | SlidesAIAgent konstruktor |
+| [SlidesAIAgent](slidesaiagent#constructor)() | Új példányt hoz létre a(z) [`SlidesAIAgent`](../slidesaiagent) osztályból a beépített [`AsposeAIWebClient`](../asposeaiwebclient) alapértelmezett konfigurációjával. A kliens az Aspose saját LLM-jéhez csatlakozik, és nem igényel további konfigurációt. Egy másik AI kliens használatához a(z) [`SlidesAIAgent`](./slidesaiagent) túlterhelést kell használni. |
+| [SlidesAIAgent](slidesaiagent#constructor_1)(IAIWebClient) | Új példányt hoz létre a(z) [`SlidesAIAgent`](../slidesaiagent) osztályból egy egyedi AI klienssel. Ezzel a túlterheléssel adhatja meg az AI szolgáltatót, biztosíthatja saját LLM-jét, vagy testreszabhatja a kapcsolatot (például saját `HttpClient` megadásával). A(z) [`IAIWebClient`](../iaiwebclient) bármely megvalósítása használható, többek között: |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [GeneratePresentation](../../aspose.slides.ai/slidesaiagent/generatepresentation#generatepresentation)(string, PresentationContentAmountType) | Létrehoz egy prezentáció példányt egy szöveges leírás alapján. Adjon meg egy témát, ötleteket, idézeteket vagy szövegrészleteket a szükséges nyelven. |
-| [GeneratePresentation](../../aspose.slides.ai/slidesaiagent/generatepresentation#generatepresentation_1)(string, PresentationContentAmountType, IPresentation) | Létrehoz egy prezentáció példányt egy szöveges leírás alapján. Adjon meg egy témát, ötleteket, idézeteket vagy szövegrészleteket a szükséges nyelven. |
-| [GeneratePresentationAsync](../../aspose.slides.ai/slidesaiagent/generatepresentationasync#generatepresentationasync)(string, PresentationContentAmountType) | Létrehoz egy prezentáció példányt egy szöveges leírás alapján. Adjon meg egy témát, ötleteket, idézeteket vagy szövegrészleteket a szükséges nyelven. |
-| [GeneratePresentationAsync](../../aspose.slides.ai/slidesaiagent/generatepresentationasync#generatepresentationasync_1)(string, PresentationContentAmountType, IPresentation) | Létrehoz egy prezentáció példányt egy szöveges leírás alapján. Adjon meg egy témát, ötleteket, idézeteket vagy szövegrészleteket a szükséges nyelven. |
-| [Translate](../../aspose.slides.ai/slidesaiagent/translate)(IPresentation, string) | Lefordít egy prezentációt a megadott nyelvre AI segítségével (szinkron verzió). |
-| [TranslateAsync](../../aspose.slides.ai/slidesaiagent/translateasync)(IPresentation, string) | Lefordít egy prezentációt a megadott nyelvre AI segítségével. |
+| [GeneratePresentation](../../aspose.slides.ai/slidesaiagent/generatepresentation#generatepresentation)(string, PresentationContentAmountType) | Prezentációpéldányt hoz létre egy szöveges leírás alapján. Adjon meg egy témát, ötleteket, idézeteket vagy szövegrészleteket a szükséges nyelven. |
+| [GeneratePresentation](../../aspose.slides.ai/slidesaiagent/generatepresentation#generatepresentation_1)(string, PresentationContentAmountType, IPresentation) | Prezentációpéldányt hoz létre egy szöveges leírás alapján. Adjon meg egy témát, ötleteket, idézeteket vagy szövegrészleteket a szükséges nyelven. |
+| [GeneratePresentationAsync](../../aspose.slides.ai/slidesaiagent/generatepresentationasync#generatepresentationasync)(string, PresentationContentAmountType) | Prezentációpéldányt hoz létre egy szöveges leírás alapján. Adjon meg egy témát, ötleteket, idézeteket vagy szövegrészleteket a szükséges nyelven. |
+| [GeneratePresentationAsync](../../aspose.slides.ai/slidesaiagent/generatepresentationasync#generatepresentationasync_1)(string, PresentationContentAmountType, IPresentation) | Prezentációpéldányt hoz létre egy szöveges leírás alapján. Adjon meg egy témát, ötleteket, idézeteket vagy szövegrészleteket a szükséges nyelven. |
+| [Translate](../../aspose.slides.ai/slidesaiagent/translate)(IPresentation, string) | AI segítségével lefordít egy prezentációt a megadott nyelvre (szinkron változat). |
+| [TranslateAsync](../../aspose.slides.ai/slidesaiagent/translateasync)(IPresentation, string) | AI segítségével lefordít egy prezentációt a megadott nyelvre. |
 
 ### Lásd még
 

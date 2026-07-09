@@ -3,10 +3,10 @@ title: Picture
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un'immagine in una presentazione.
 type: docs
-weight: 9360
+weight: 9380
 url: /it/aspose.slides/picture/
 ---
-## Picture classe
+## classe Picture
 
 Rappresenta un'immagine in una presentazione.
 
@@ -16,18 +16,18 @@ public sealed class Picture : ISlidesPicture
 
 ## Proprietà
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/picture/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Solo lettura [`IPresentationComponent`](../ipresentationcomponent). |
 | [Image](../../aspose.slides/picture/image) { get; set; } | Restituisce o imposta l'immagine incorporata. Lettura/scrittura [`IPPImage`](../ippimage). |
-| [ImageTransform](../../aspose.slides/picture/imagetransform) { get; } | Restituisce la collezione di effetti di trasformazione dell'immagine. Solo lettura [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
+| [ImageTransform](../../aspose.slides/picture/imagetransform) { get; } | Restituisce la collezione degli effetti di trasformazione dell'immagine. Solo lettura [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
 | [LinkPathLong](../../aspose.slides/picture/linkpathlong) { get; set; } | Restituisce o imposta l'URL dell'immagine collegata. Lettura/scrittura String. |
 | [Presentation](../../aspose.slides/picture/presentation) { get; } | Restituisce la presentazione. Solo lettura [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/picture/slide) { get; } | Restituisce la diapositiva genitore di un'immagine. Solo lettura [`IBaseSlide`](../ibaseslide). |
+| [Slide](../../aspose.slides/picture/slide) { get; } | Restituisce la diapositiva padre dell'immagine. Solo lettura [`IBaseSlide`](../ibaseslide). |
 
 ## Metodi
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
 | override [Equals](../../aspose.slides/picture/equals)(object) | Confronta con l'oggetto specificato. |
 | override [GetHashCode](../../aspose.slides/picture/gethashcode)() | Restituisce l'hash. |

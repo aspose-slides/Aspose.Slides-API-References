@@ -1,14 +1,14 @@
 ---
 title: IImageTransformOCollectionEffectiveData
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Oggetto immutabile che rappresenta una collezione di sola lettura di effetti di trasformazione immagine efficaci.
+description: Oggetto immutabile che rappresenta una raccolta di sola lettura di effetti di trasformazione immagine efficaci.
 type: docs
-weight: 3360
+weight: 3380
 url: /it/aspose.slides.effects/iimagetransformocollectioneffectivedata/
 ---
 ## IImageTransformOCollectionEffectiveData interfaccia
 
-Oggetto immutabile che rappresenta una collezione di sola lettura di effetti di trasformazione immagine efficaci.
+Oggetto immutabile che rappresenta una raccolta di sola lettura di effetti di trasformazione immagine efficaci.
 
 ```csharp
 public interface IImageTransformOCollectionEffectiveData : IGenericCollection<IEffectEffectiveData>
@@ -22,7 +22,7 @@ public interface IImageTransformOCollectionEffectiveData : IGenericCollection<IE
 
 ### Osservazioni
 
-Il nome IImageTransformOperationCollectionEffectiveData è stato troncato in IImageTransformOCollectionEffectiveData perché la lunghezza dei nomi COM non può superare i 39 caratteri.
+Name IImageTransformOperationCollectionEffectiveData truncuted to IImageTransformOCollectionEffectiveData because of COM names length cannot be more then 39.
 
 ### Vedi anche
 

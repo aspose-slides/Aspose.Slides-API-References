@@ -1,9 +1,9 @@
 ---
 title: ILegacyDiagram
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes .NET için API Referansı
 description: Eski bir diyagram nesnesini temsil eder
 type: docs
-weight: 6230
+weight: 6250
 url: /tr/aspose.slides/ilegacydiagram/
 ---
 ## ILegacyDiagram arayüz
@@ -18,13 +18,13 @@ public interface ILegacyDiagram : IGraphicalObject
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/ilegacydiagram/asigraphicalobject) { get; } | Temel IGraphicalObject arayüzünü almayı sağlar. Yalnızca okunabilir [`IGraphicalObject`](../igraphicalobject). |
+| [AsIGraphicalObject](../../aspose.slides/ilegacydiagram/asigraphicalobject) { get; } | Temel IGraphicalObject arayüzüne erişim sağlar. Salt okunur [`IGraphicalObject`](../igraphicalobject). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [ConvertToGroupShape](../../aspose.slides/ilegacydiagram/converttogroupshape)() | Eski diyagramı düzenlenebilir grup şeklinde dönüştürür. Oluşturulan GroupShape nesnesi aynı konumda üst grup şekline eklenir. |
+| [ConvertToGroupShape](../../aspose.slides/ilegacydiagram/converttogroupshape)() | Eski diyagramı düzenlenebilir grup şekline dönüştürür. Oluşturulan GroupShape nesnesi aynı konumda üst grup şekline eklenir. |
 | [ConvertToSmartArt](../../aspose.slides/ilegacydiagram/converttosmartart)() | Eski diyagramı düzenlenebilir SmartArt nesnesine dönüştürür. Oluşturulan SmartArt nesnesi aynı konumda üst grup şekline eklenir. |
 
 ### Ayrıca Bakınız

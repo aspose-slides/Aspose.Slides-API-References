@@ -1,9 +1,9 @@
 ---
 title: IChartData
-second_title: Aspose.Slides dla .NET – Dokumentacja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje dane używane do tworzenia wykresu.
 type: docs
-weight: 1780
+weight: 1800
 url: /pl/aspose.slides.charts/ichartdata/
 ---
 ## IChartData interfejs
@@ -16,29 +16,29 @@ public interface IChartData
 
 ## Właściwości
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
-| [Categories](../../aspose.slides.charts/ichartdata/categories) { get; } | Pobiera podstawowe kategorie (lub zarówno podstawowe, jak i podrzędne kategorie, jeśli właściwość [`UseSecondaryCategories`](./usesecondarycategories) ma wartość false). Tylko do odczytu [`IChartCategoryCollection`](../ichartcategorycollection). |
+| [Categories](../../aspose.slides.charts/ichartdata/categories) { get; } | Pobiera podstawowe kategorie (lub zarówno podstawowe, jak i dodatkowe kategorie, jeśli właściwość [`UseSecondaryCategories`](./usesecondarycategories) jest false). Tylko do odczytu [`IChartCategoryCollection`](../ichartcategorycollection). |
 | [ChartDataWorkbook](../../aspose.slides.charts/ichartdata/chartdataworkbook) { get; } | Pobiera fabrykę komórek służącą do tworzenia komórek używanych w seriach wykresu lub kategoriach. Tylko do odczytu [`IChartDataWorkbook`](../ichartdataworkbook). |
 | [DataSourceType](../../aspose.slides.charts/ichartdata/datasourcetype) { get; } | Reprezentuje źródło danych wykresu |
 | [EmbeddedWorkbookType](../../aspose.slides.charts/ichartdata/embeddedworkbooktype) { get; } | Pobiera typ osadzonego skoroszytu. Zwraca NotDefined, jeśli [`DataSourceType`](./datasourcetype) jest ExternalWorkbook. Tylko do odczytu [`WorkbookType`](../workbooktype). |
-| [ExternalWorkbookPath](../../aspose.slides.charts/ichartdata/externalworkbookpath) { get; } | Reprezentuje ścieżkę do zewnętrznego skoroszytu, jeśli źródło danych jest zewnętrzne, w przeciwnym razie null |
-| [SecondaryCategories](../../aspose.slides.charts/ichartdata/secondarycategories) { get; } | Pobiera podrzędne kategorie, jeśli właściwość [`UseSecondaryCategories`](./usesecondarycategories) ma wartość true. Tylko do odczytu [`IChartCategoryCollection`](../ichartcategorycollection). |
+| [ExternalWorkbookPath](../../aspose.slides.charts/ichartdata/externalworkbookpath) { get; } | Reprezentuje ścieżkę zewnętrznego skoroszytu, jeśli źródło danych jest zewnętrzne, w przeciwnym razie null |
+| [SecondaryCategories](../../aspose.slides.charts/ichartdata/secondarycategories) { get; } | Pobiera dodatkowe kategorie, jeśli właściwość [`UseSecondaryCategories`](./usesecondarycategories) jest true. Tylko do odczytu [`IChartCategoryCollection`](../ichartcategorycollection). |
 | [Series](../../aspose.slides.charts/ichartdata/series) { get; } | Pobiera serie. Tylko do odczytu [`IChartSeriesCollection`](../ichartseriescollection). |
 | [SeriesGroups](../../aspose.slides.charts/ichartdata/seriesgroups) { get; } | Pobiera grupy serii. Tylko do odczytu [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection). |
-| [UseSecondaryCategories](../../aspose.slides.charts/ichartdata/usesecondarycategories) { get; set; } | Jeśli false, właściwość [`SecondaryCategories`](./secondarycategories) zwraca null i dane w właściwości [`Categories`](./categories) są używane zarówno dla serii podstawowych, jak i podrzędnych. Jeśli true, dane w właściwości [`SecondaryCategories`](./secondarycategories) są używane dla serii podrzędnych, a dane w właściwości [`Categories`](./categories) są używane dla serii podstawowych. Odczyt/zapis Boolean. |
+| [UseSecondaryCategories](../../aspose.slides.charts/ichartdata/usesecondarycategories) { get; set; } | Jeśli false, to właściwość [`SecondaryCategories`](./secondarycategories) zwraca null, a dane w właściwości [`Categories`](./categories) są używane zarówno dla serii podstawowych, jak i dodatkowych. Jeśli true, to dane w właściwości [`SecondaryCategories`](./secondarycategories) są używane dla serii dodatkowych, a dane w właściwości [`Categories`](./categories) są używane dla serii podstawowych. Odczyt/zapis Boolean. |
 
 ## Metody
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
 | [GetRange](../../aspose.slides.charts/ichartdata/getrange)() | Pobiera zakres danych wykresu. |
 | [ReadWorkbookStream](../../aspose.slides.charts/ichartdata/readworkbookstream)() | Zapisuje wewnętrznie zawarty skoroszyt Excel do strumienia w pamięci. |
 | [SetExternalWorkbook](../../aspose.slides.charts/ichartdata/setexternalworkbook#setexternalworkbook)(string) | Ustawia zewnętrzny skoroszyt jako źródło danych dla wykresu. Dane wykresu zostaną zaktualizowane z docelowego skoroszytu. |
 | [SetExternalWorkbook](../../aspose.slides.charts/ichartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | Ustawia zewnętrzny skoroszyt jako źródło danych dla wykresu. |
 | [SetRange](../../aspose.slides.charts/ichartdata/setrange)(string) | Ustawia zakres danych wykresu. Serie i kategorie zostaną zaktualizowane na podstawie nowego zakresu danych. Jeśli liczba serii w zakresie danych jest większa niż liczba serii w danych wykresu, dodatkowe serie o tym samym typie co ostatnia seria w bieżącej kolekcji zostaną dodane na koniec kolekcji. |
-| [SwitchRowColumn](../../aspose.slides.charts/ichartdata/switchrowcolumn)() | Zamienia dane między osiami. Dane wykreślone na osi X zostaną przeniesione na oś Y i odwrotnie. |
-| [WriteWorkbookStream](../../aspose.slides.charts/ichartdata/writeworkbookstream)(MemoryStream) | Inicjalizuje wewnętrznie zawarty skoroszyt Excel za pomocą wartości podanej przez użytkownika. |
+| [SwitchRowColumn](../../aspose.slides.charts/ichartdata/switchrowcolumn)() | Zamienia dane na osi. Dane wykreślone na osi X zostaną przeniesione na oś Y i odwrotnie. |
+| [WriteWorkbookStream](../../aspose.slides.charts/ichartdata/writeworkbookstream)(MemoryStream) | Inicjalizuje wewnętrznie zawarty skoroszyt Excel wartością określoną przez użytkownika. |
 
 ### Zobacz także
 

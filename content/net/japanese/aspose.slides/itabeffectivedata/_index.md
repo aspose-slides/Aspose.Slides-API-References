@@ -1,14 +1,14 @@
 ---
 title: ITabEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 有効なテキストのタブ停止プロパティを含む不変オブジェクトです。
+description: 有効なテキストのタブ位置プロパティを含む不変オブジェクトです。
 type: docs
-weight: 7190
+weight: 7210
 url: /ja/aspose.slides/itabeffectivedata/
 ---
 ## ITabEffectiveData インターフェイス
 
-有効なテキストのタブ停止プロパティを含む不変オブジェクトです。
+効果的なテキストのタブ位置属性を含む不変オブジェクトです。
 
 ```csharp
 public interface ITabEffectiveData : IComparable
@@ -20,13 +20,13 @@ public interface ITabEffectiveData : IComparable
 | --- | --- |
 | [Alignment](../../aspose.slides/itabeffectivedata/alignment) { get; } | タブの配置スタイルを返します。読み取り専用 [`TabAlignment`](../tabalignment)。 |
 | [AsIComparable](../../aspose.slides/itabeffectivedata/asicomparable) { get; } | IComparable インターフェイスを返します。読み取り専用 IComparable。 |
-| [Position](../../aspose.slides/itabeffectivedata/position) { get; } | タブの位置を返します。 このプロパティに代入すると、コレクション内のタブのインデックスが変更され、Enumerator が無効になる可能性があります。読み取り専用 Double。 |
+| [Position](../../aspose.slides/itabeffectivedata/position) { get; } | タブの位置を返します。このプロパティに代入すると、コレクション内のタブのインデックスが変更され、列挙子が無効になる可能性があります。読み取り専用 Double。 |
 
 ### 備考
 
 このインターフェイスは [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) の一部として使用されます。
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IShapeBevelEffectiveData
-second_title: Aspose.Sildes .NET API Referencia
-description: Változtathatatlan objektum, amely a hatékony alakzatok felületének domborulatjellemzőit tartalmazza.
+second_title: Aspose.Sildes .NET API referencia
+description: Módosíthatatlan objektum, amely a hatékony alakzatok felületének domborítási tulajdonságait tartalmazza.
 type: docs
-weight: 6950
+weight: 6970
 url: /hu/aspose.slides/ishapebeveleffectivedata/
 ---
 ## IShapeBevelEffectiveData interfész
 
-Immutable object which contains effective shape's face relief properties.
+Módosíthatatlan objektum, amely a hatékony alakzat felületének domborítási tulajdonságait tartalmazza.
 
 ```csharp
 public interface IShapeBevelEffectiveData
@@ -18,11 +18,11 @@ public interface IShapeBevelEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [BevelType](../../aspose.slides/ishapebeveleffectivedata/beveltype) { get; } | Ferde típus. Csak olvasható [`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/ishapebeveleffectivedata/height) { get; } | Ferde magasság. Csak olvasható Double. |
-| [Width](../../aspose.slides/ishapebeveleffectivedata/width) { get; } | Ferde szélesség. Csak olvasható Double. |
+| [BevelType](../../aspose.slides/ishapebeveleffectivedata/beveltype) { get; } | Domborítás típusa. Csak olvasható [`BevelPresetType`](../bevelpresettype). |
+| [Height](../../aspose.slides/ishapebeveleffectivedata/height) { get; } | Domborítás magassága. Csak olvasható Double. |
+| [Width](../../aspose.slides/ishapebeveleffectivedata/width) { get; } | Domborítás szélessége. Csak olvasható Double. |
 
-### Megjegyzés
+### Megjegyzések
 
 Ez az interfész a [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata) részeként használható.
 

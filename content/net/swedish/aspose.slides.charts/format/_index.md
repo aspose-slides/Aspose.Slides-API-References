@@ -3,12 +3,12 @@ title: Format
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar diagramformatets egenskaper.
 type: docs
-weight: 1660
+weight: 1680
 url: /sv/aspose.slides.charts/format/
 ---
-## Format klass
+## Formatklass
 
-Representerar egenskaper för diagramformat.
+Representerar diagramformatets egenskaper.
 
 ```csharp
 public sealed class Format : PVIObject, IFormat
@@ -18,9 +18,9 @@ public sealed class Format : PVIObject, IFormat
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas-IPresentationComponent-gränssnittet. Skrivskyddad [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas-gränssnittet IPresentationComponent. Skrivskyddad [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 | [Effect](../../aspose.slides.charts/format/effect) { get; } | Returnerar effekter som används för ett diagram. Skrivskyddad [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Effect3D](../../aspose.slides.charts/format/effect3d) { get; } | Returnerar 3D-format för ett diagram. Skrivskyddad [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
+| [Effect3D](../../aspose.slides.charts/format/effect3d) { get; } | Returnerar 3D-formatet för ett diagram. Skrivskyddad [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
 | [Fill](../../aspose.slides.charts/format/fill) { get; } | Returnerar fyllningsstilens egenskaper för ett diagram. Skrivskyddad [`IFillFormat`](../../aspose.slides/ifillformat). |
 | [Line](../../aspose.slides.charts/format/line) { get; } | Returnerar linjestilens egenskaper för ett diagram. Skrivskyddad [`ILineFormat`](../../aspose.slides/ilineformat). |
 
@@ -29,9 +29,9 @@ public sealed class Format : PVIObject, IFormat
 | Namn | Beskrivning |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Jämför med specificerat objekt. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returnerar hashkod. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returnerar hash-kod. |
 
-### Se också
+### Se även
 
 * klass [PVIObject](../../aspose.slides/pviobject)
 * gränssnitt [IFormat](../iformat)

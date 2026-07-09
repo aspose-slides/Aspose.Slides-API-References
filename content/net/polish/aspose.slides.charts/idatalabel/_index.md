@@ -1,14 +1,14 @@
 ---
 title: IDataLabel
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – referencja API
 description: Reprezentuje etykiety serii.
 type: docs
-weight: 2000
+weight: 2020
 url: /pl/aspose.slides.charts/idatalabel/
 ---
 ## IDataLabel interfejs
 
-Represents a series labels.
+Reprezentuje etykiety serii.
 
 ```csharp
 public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
@@ -22,7 +22,7 @@ public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
 | [AsILayoutable](../../aspose.slides.charts/idatalabel/asilayoutable) { get; } | Zwraca interfejs ILayoutable. Tylko do odczytu [`ILayoutable`](../ilayoutable). |
 | [AsIOverridableText](../../aspose.slides.charts/idatalabel/asioverridabletext) { get; } | Zwraca interfejs IOverridableText. Tylko do odczytu [`IOverridableText`](../ioverridabletext). |
 | [DataLabelFormat](../../aspose.slides.charts/idatalabel/datalabelformat) { get; } | Zwraca format etykiety danych. Tylko do odczytu [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False oznacza, że etykieta danych nie jest widoczna (i wszystkie flagi Show* (ShowValue, ...) mają wartość false). Tylko do odczytu Boolean. |
+| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False oznacza, że etykieta danych nie jest widoczna (a więc wszystkie flagi Show* (ShowValue, ...) są false). Tylko do odczytu Boolean. |
 | [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | Pobiera lub ustawia komórkę danych skoroszytu. Stosowane, jeśli właściwość IDataLabelFormat.ShowLabelValueFromCell ma wartość true. |
 
 ## Metody
@@ -30,7 +30,7 @@ public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
 | Nazwa | Opis |
 | --- | --- |
 | [GetActualLabelText](../../aspose.slides.charts/idatalabel/getactuallabeltext)() | Zwraca rzeczywisty tekst etykiety na podstawie ustawień DataLabelFormat lub wartości TextFrameForOverriding.Text. |
-| [Hide](../../aspose.slides.charts/idatalabel/hide)() | Ukrywa etykietę danych, ustawiając wszystkie flagi Show* (ShowValue, ...) na stan false. IsVisible będzie false po wykonaniu tej operacji. |
+| [Hide](../../aspose.slides.charts/idatalabel/hide)() | Ukrywa etykietę danych, ustawiając wszystkie flagi Show* (ShowValue, ...) na wartość false. IsVisible będzie false po wykonaniu tej operacji. |
 
 ### Zobacz także
 

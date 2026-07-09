@@ -1,9 +1,9 @@
 ---
 title: FontSubstRuleCollection
-second_title: Aspose.Sildes για .NET Αναφορά API
+second_title: Aspose.Sildes για .NET API Αναφορά
 description: Αναπαριστά τη συλλογή αντικατάστασης γραμματοσειρών.
 type: docs
-weight: 4880
+weight: 4900
 url: /el/aspose.slides/fontsubstrulecollection/
 ---
 ## FontSubstRuleCollection κλάση
@@ -16,31 +16,31 @@ public class FontSubstRuleCollection : IFontSubstRuleCollection
 
 ## Κατασκευαστές
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
 | [FontSubstRuleCollection](fontsubstrulecollection)() | Ο προεπιλεγμένος κατασκευαστής. |
 
 ## Ιδιότητες
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | Επιστρέφει τον αριθμό των στοιχείων που περιέχονται στην συλλογή. Μόνο-ανάγνωση Int32. |
-| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | Επιστρέφει μια τιμή που υποδεικνύει αν η πρόσβαση στη συλλογή είναι συγχρονισμένη (thread-safe). Μόνο-ανάγνωση Boolean. |
-| [Item](../../aspose.slides/fontsubstrulecollection/item) { get; } | Επιστρέφει το στοιχείο στον καθορισμένο δείκτη. |
-| [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | Επιστρέφει τη ρίζα συγχρονισμού. Μόνο-ανάγνωση Object. |
+| [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | Λαμβάνει τον αριθμό των στοιχείων που περιέχονται πραγματικά στη συλλογή. Μόνο για ανάγνωση Int32. |
+| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | Επιστρέφει τιμή που δείχνει εάν η πρόσβαση στη συλλογή είναι συγχρονισμένη (thread-safe). Μόνο για ανάγνωση Boolean. |
+| [Item](../../aspose.slides/fontsubstrulecollection/item) { get; } | Λαμβάνει το στοιχείο στο συγκεκριμένο δείκτη. |
+| [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | Επιστρέφει τη ρίζα συγχρονισμού. Μόνο για ανάγνωση Object. |
 
 ## Μέθοδοι
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
 | [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | Προσθέτει τον νέο κανόνα αντικατάστασης γραμματοσειράς στη συλλογή |
-| [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | Αντιγράφει όλα τα στοιχεία από τη συλλογή στο καθορισμένο array. |
-| [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | Επιστρέφει έναν enumerator που διατρέχει τη συλλογή. |
+| [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | Αντιγράφει όλα τα στοιχεία από τη συλλογή στον καθορισμένο πίνακα. |
+| [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | Επιστρέφει έναν ενομετρητή που διατρέχει τη συλλογή. |
 | [Remove](../../aspose.slides/fontsubstrulecollection/remove)(IFontSubstRule) | Αφαιρεί την πρώτη εμφάνιση ενός συγκεκριμένου αντικειμένου από τη συλλογή. |
 
-### Βλέπτε επίσης
+### Δείτε επίσης
 
-* διασύνδεση [IFontSubstRuleCollection](../ifontsubstrulecollection)
+* διεπαφή [IFontSubstRuleCollection](../ifontsubstrulecollection)
 * χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
 * συναρμολόγηση [Aspose.Slides](../../)
 

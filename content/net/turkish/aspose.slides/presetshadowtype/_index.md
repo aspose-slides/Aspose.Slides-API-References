@@ -1,14 +1,14 @@
 ---
 title: PresetShadowType
-second_title: Aspose.Sildes for .NET API Referansı
-description: Bir gölge efekti için ön ayarı temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Gölge efekti için bir ön ayarı temsil eder.
 type: docs
-weight: 9650
+weight: 9670
 url: /tr/aspose.slides/presetshadowtype/
 ---
 ## PresetShadowType enum
 
-Gölge efekti için bir ön ayarı temsil eder.
+Bir gölge efekti için ön ayarı temsil eder.
 
 ```csharp
 public enum PresetShadowType
@@ -18,28 +18,28 @@ public enum PresetShadowType
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| TopLeftDropShadow | `0` | Top Left Drop Shadow'ı temsil eder. |
-| TopLeftLargeDropShadow | `1` | Top Left Large Drop Shadow'ı temsil eder. |
-| BackLeftLongPerspectiveShadow | `2` | Back Left Long Perspective Shadow'ı temsil eder. |
-| BackRightLongPerspectiveShadow | `3` | Back Right Long Perspective Shadow'ı temsil eder. |
-| TopLeftDoubleDropShadow | `4` | Top Left Double Drop Shadow'ı temsil eder. |
-| BottomRightSmallDropShadow | `5` | Bottom Right Small Drop Shadow'ı temsil eder. |
-| FrontLeftLongPerspectiveShadow | `6` | Front Left Long Perspective Shadow'ı temsil eder. |
-| FrontRightLongPerspectiveShadow | `7` | Front Right Long Perspective Shadow'ı temsil eder. |
-| OuterBoxShadow3D | `8` | Outer Box Shadow 3D'yi temsil eder. |
-| InnerBoxShadow3D | `9` | Inner Box Shadow 3D'yi temsil eder. |
-| BackCenterPerspectiveShadow | `10` | Back Center Perspective Shadow'ı temsil eder. |
-| TopRightDropShadow | `11` | Top Right Drop Shadow'ı temsil eder. |
-| FrontBottomShadow | `12` | Front Bottom Shadow'ı temsil eder. |
-| BackLeftPerspectiveShadow | `13` | Back Left Perspective Shadow'ı temsil eder. |
-| BackRightPerspectiveShadow | `14` | Back Right Perspective Shadow'ı temsil eder. |
-| BottomLeftDropShadow | `15` | Bottom Left Drop Shadow'ı temsil eder. |
-| BottomRightDropShadow | `16` | Bottom Right Drop Shadow'ı temsil eder. |
-| FrontLeftPerspectiveShadow | `17` | Front Left Perspective Shadow'ı temsil eder. |
-| FrontRightPerspectiveShadow | `18` | Front Right Perspective Shadow'ı temsil eder. |
-| TopLeftSmallDropShadow | `19` | Top Left Small Drop Shadow'ı temsil eder. |
+| TopLeftDropShadow | `0` | Top Left Drop Shadow öğesini temsil eder. |
+| TopLeftLargeDropShadow | `1` | Top Left Large Drop Shadow öğesini temsil eder. |
+| BackLeftLongPerspectiveShadow | `2` | Back Left Long Perspective Shadow öğesini temsil eder. |
+| BackRightLongPerspectiveShadow | `3` | Back Right Long Perspective Shadow öğesini temsil eder. |
+| TopLeftDoubleDropShadow | `4` | Top Left Double Drop Shadow öğesini temsil eder. |
+| BottomRightSmallDropShadow | `5` | Bottom Right Small Drop Shadow öğesini temsil eder. |
+| FrontLeftLongPerspectiveShadow | `6` | Front Left Long Perspective Shadow öğesini temsil eder. |
+| FrontRightLongPerspectiveShadow | `7` | Front Right Long Perspective Shadow öğesini temsil eder. |
+| OuterBoxShadow3D | `8` | Outer Box Shadow 3D öğesini temsil eder. |
+| InnerBoxShadow3D | `9` | Inner Box Shadow 3D öğesini temsil eder. |
+| BackCenterPerspectiveShadow | `10` | Back Center Perspective Shadow öğesini temsil eder. |
+| TopRightDropShadow | `11` | Top Right Drop Shadow öğesini temsil eder. |
+| FrontBottomShadow | `12` | Front Bottom Shadow öğesini temsil eder. |
+| BackLeftPerspectiveShadow | `13` | Back Left Perspective Shadow öğesini temsil eder. |
+| BackRightPerspectiveShadow | `14` | Back Right Perspective Shadow öğesini temsil eder. |
+| BottomLeftDropShadow | `15` | Bottom Left Drop Shadow öğesini temsil eder. |
+| BottomRightDropShadow | `16` | Bottom Right Drop Shadow öğesini temsil eder. |
+| FrontLeftPerspectiveShadow | `17` | Front Left Perspective Shadow öğesini temsil eder. |
+| FrontRightPerspectiveShadow | `18` | Front Right Perspective Shadow öğesini temsil eder. |
+| TopLeftSmallDropShadow | `19` | Top Left Small Drop Shadow öğesini temsil eder. |
 
-### İlgili
+### Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

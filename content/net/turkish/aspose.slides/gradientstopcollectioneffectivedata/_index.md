@@ -1,14 +1,14 @@
 ---
 title: GradientStopCollectionEffectiveData
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Slides için .NET API Referansı
 description: GradientStopData nesnelerinin bir koleksiyonunu temsil eder.
 type: docs
-weight: 5020
+weight: 5040
 url: /tr/aspose.slides/gradientstopcollectioneffectivedata/
 ---
 ## GradientStopCollectionEffectiveData sınıfı
 
-GradientStopData nesnelerinin bir koleksiyonunu temsil eder.
+Represents a collection of GradientStopData objects.
 
 ```csharp
 public class GradientStopCollectionEffectiveData : IGradientStopCollectionEffectiveData
@@ -18,10 +18,10 @@ public class GradientStopCollectionEffectiveData : IGradientStopCollectionEffect
 
 | Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides/gradientstopcollectioneffectivedata/count) { get; } | Bir koleksiyondaki gradient duraklarının sayısını döndürür. Yalnızca okunabilir Int32. |
-| [IsSynchronized](../../aspose.slides/gradientstopcollectioneffectivedata/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını gösteren bir değeri döndürür. Yalnızca okunabilir Boolean. |
-| [Item](../../aspose.slides/gradientstopcollectioneffectivedata/item) { get; } | İndekse göre gradient durakını döndürür. |
-| [SyncRoot](../../aspose.slides/gradientstopcollectioneffectivedata/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Yalnızca okunabilir Object. |
+| [Count](../../aspose.slides/gradientstopcollectioneffectivedata/count) { get; } | Bir koleksiyondaki gradient duraklarının sayısını döndürür. Salt okunur Int32. |
+| [IsSynchronized](../../aspose.slides/gradientstopcollectioneffectivedata/issynchronized) { get; } | Erişimin koleksiyona senkronize (iş parçacığı güvenli) olup olmadığını gösteren bir değer döndürür. Salt okunur Boolean. |
+| [Item](../../aspose.slides/gradientstopcollectioneffectivedata/item) { get; } | İndeks ile gradient durakını döndürür. |
+| [SyncRoot](../../aspose.slides/gradientstopcollectioneffectivedata/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt okunur Object. |
 
 ## Yöntemler
 
@@ -32,7 +32,7 @@ public class GradientStopCollectionEffectiveData : IGradientStopCollectionEffect
 
 ### Ayrıca Bakınız
 
-* arabirim [IGradientStopCollectionEffectiveData](../igradientstopcollectioneffectivedata)
+* arayüz [IGradientStopCollectionEffectiveData](../igradientstopcollectioneffectivedata)
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)
 

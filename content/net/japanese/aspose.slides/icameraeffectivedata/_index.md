@@ -1,14 +1,14 @@
 ---
 title: ICameraEffectiveData
 second_title: Aspose.Sildes の .NET API リファレンス
-description: 有効なカメラ プロパティを含む不変オブジェクトです。
+description: 有効なカメラプロパティを含む不変オブジェクトです。
 type: docs
-weight: 5400
+weight: 5420
 url: /ja/aspose.slides/icameraeffectivedata/
 ---
 ## ICameraEffectiveData インターフェイス
 
-有効なカメラ プロパティを含む不変オブジェクトです。
+有効なカメラプロパティを含む不変オブジェクトです。
 
 ```csharp
 public interface ICameraEffectiveData
@@ -18,21 +18,21 @@ public interface ICameraEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [CameraType](../../aspose.slides/icameraeffectivedata/cameratype) { get; } | カメラの種類。読み取り専用 [`CameraPresetType`](../camerapresettype)。 |
-| [FieldOfViewAngle](../../aspose.slides/icameraeffectivedata/fieldofviewangle) { get; } | カメラ FOV（0-180 度、視野）。読み取り専用 Single。 |
-| [Zoom](../../aspose.slides/icameraeffectivedata/zoom) { get; } | カメラ ズーム（パーセンテージでの正の値）。読み取り専用 Single。 |
+| [CameraType](../../aspose.slides/icameraeffectivedata/cameratype) { get; } | カメラタイプ。読み取り専用 [`CameraPresetType`](../camerapresettype)。 |
+| [FieldOfViewAngle](../../aspose.slides/icameraeffectivedata/fieldofviewangle) { get; } | カメラ FOV (0-180 度、視野角)。読み取り専用 Single。 |
+| [Zoom](../../aspose.slides/icameraeffectivedata/zoom) { get; } | カメラズーム (パーセンテージでの正の値)。読み取り専用 Single。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | 緯度座標、経度座標、およびそれらに対する軸周りの回転により回転が定義されます。戻り配列の最初の要素は緯度、2 番目は経度、3 番目は回転です。回転が定義されていない場合は null を返します。 |
+| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | 緯度座標、経度座標、および緯度・経度座標としての軸周りの回転により回転が定義されます。戻り配列の最初の要素は緯度、2番目は経度、3番目は回転です。回転が定義されていない場合は null を返します。 |
 
-### 備考
+### 注釈
 
 このインターフェイスは [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata) の一部として使用されます。
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

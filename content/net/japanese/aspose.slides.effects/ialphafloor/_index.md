@@ -1,14 +1,14 @@
 ---
 title: IAlphaFloor
 second_title: Aspose.Sildes for .NET API リファレンス
-description: Alpha Floor エフェクトを表します。Alpha の不透明度が 100 未満の場合は 0 に変換されます。つまり、部分的に透明なものはすべて完全に透明になります。
+description: Alpha フロア効果を表します。Alpha の不透明度が 100 未満の場合は 0 に変更されます。つまり、部分的に透明なものはすべて完全に透明になります。
 type: docs
-weight: 3040
+weight: 3060
 url: /ja/aspose.slides.effects/ialphafloor/
 ---
 ## IAlphaFloor インターフェイス
 
-Alpha Floor エフェクトを表します。Alpha（opacity）値が 100% 未満の場合、0 に変更されます。つまり、部分的に透明なものはすべて完全に透明になります。
+Alpha フロア効果を表します。Alpha (不透明度) の値が 100% 未満の場合は 0 に変更されます。つまり、部分的に透明なものはすべて完全に透明になります。
 
 ```csharp
 public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>, 
@@ -19,10 +19,10 @@ public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>,
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphafloor/asiaccessiblepviobject) { get; } | ベース IAccessiblePVIObject インターフェイスを取得できます。読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphafloor/asiimagetransformoperation) { get; } | ベース IImageTransformOperation インターフェイスを取得できます。読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphafloor/asiaccessiblepviobject) { get; } | ベースの IAccessiblePVIObject インターフェイスを取得できます。読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphafloor/asiimagetransformoperation) { get; } | ベースの IImageTransformOperation インターフェイスを取得できます。読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * インターフェイス [IAlphaFloorEffectiveData](../ialphaflooreffectivedata)

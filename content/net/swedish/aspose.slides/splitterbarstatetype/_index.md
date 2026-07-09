@@ -1,14 +1,14 @@
 ---
 title: SplitterBarStateType
 second_title: Aspose.Sildes för .NET API-referens
-description: Anger det tillstånd som delningslisten ska visas i. Delningslisten separerar en primär och sekundär region inom ett visningsområde.
+description: Anger det tillstånd som delningsstången ska visas i. Delningsstången separerar en primär och en sekundär region inom ett visningsområde.
 type: docs
-weight: 10670
+weight: 10690
 url: /sv/aspose.slides/splitterbarstatetype/
 ---
 ## SplitterBarStateType uppräkning
 
-Anger det tillstånd som delningslisten ska visas i. Delningslisten separerar en primär och en sekundär region inom ett visningsområde.
+Anger det tillstånd som delningsstången ska visas i. Delningsstången separerar en primär och en sekundär region inom ett visningsområde.
 
 ```csharp
 public enum SplitterBarStateType
@@ -18,11 +18,11 @@ public enum SplitterBarStateType
 
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Minimized | `0` | Den primära regionen upptar den minsta delen av visningsområdet som tillåts av applikationen. |
+| Minimized | `0` | Den primära regionen upptar den minsta mängden av visningsområdet som tillåts av applikationen. |
 | Restored | `1` | Den primära regionen har en specifik mellanstorlek. |
-| Maximized | `2` | Den primära regionen upptar den största delen av visningsområdet som tillåts av applikationen. |
+| Maximized | `2` | Den primära regionen upptar den största mängden av visningsområdet som tillåts av applikationen. |
 
-### Se också
+### Se även
 
 * namnrymd [Aspose.Slides](../../aspose.slides)
 * samling [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: GlitterTransition
-second_title: Aspose.Sildes .NET API referencia
-description: Csillogó diaátmenet hatás.
+second_title: Aspose.Sildes .NET API Referencia
+description: Glitter diaátmeneti effektus.
 type: docs
-weight: 10030
+weight: 10050
 url: /hu/aspose.slides.slideshow/glittertransition/
 ---
 ## GlitterTransition osztály
 
-Csillogó diaátmenet hatás.
+Glitter diaátmeneti effektus.
 
 ```csharp
 public class GlitterTransition : TransitionValueBase, IGlitterTransition
@@ -25,8 +25,8 @@ public class GlitterTransition : TransitionValueBase, IGlitterTransition
 
 | Név | Leírás |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Megállapítja, hogy a két TransitionValueBase példány egyenlő-e. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Hash függvényként szolgál egy adott típushoz, amely alkalmas hash algoritmusokban és adatstruktúrákban, például egy hash táblában való használatra. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Meghatározza, hogy a két TransitionValueBase példány egyenlő-e. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Hash függvényként szolgál egy adott típushoz, amely alkalmas hashelő algoritmusokban és olyan adatstruktúrákban, mint a hash tábla. |
 
 ### Lásd még
 

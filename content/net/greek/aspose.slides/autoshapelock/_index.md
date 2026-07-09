@@ -1,14 +1,14 @@
 ---
 title: AutoShapeLock
-second_title: Aspose.Sildes για .NET API Αναφορά
+second_title: Αναφορά API Aspose.Sildes για .NET
 description: Καθορίζει ποιες λειτουργίες είναι απενεργοποιημένες στο γονικό AutoshapeEx.
 type: docs
-weight: 890
+weight: 910
 url: /el/aspose.slides/autoshapelock/
 ---
 ## AutoShapeLock κλάση
 
-Determines which operations are disabled on the parent AutoshapeEx.
+Καθορίζει ποιες λειτουργίες είναι απενεργοποιημένες στο γονικό AutoshapeEx.
 
 ```csharp
 public class AutoShapeLock : BaseShapeLock, IAutoShapeLock
@@ -18,24 +18,24 @@ public class AutoShapeLock : BaseShapeLock, IAutoShapeLock
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/autoshapelock/adjusthandleslocked) { get; set; } | Καθορίζει εάν η αλλαγή τιμών προσαρμογής απαγορεύεται. Ανάγνωση/εγγραφή Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/autoshapelock/arrowheadslocked) { get; set; } | Καθορίζει εάν η αλλαγή των άκρων βέλους απαγορεύεται. Ανάγνωση/εγγραφή Boolean. |
-| [AspectRatioLocked](../../aspose.slides/autoshapelock/aspectratiolocked) { get; set; } | Καθορίζει εάν το σχήμα πρέπει να διατηρεί την αναλογία διαστάσεων κατά την αλλαγή μεγέθους. Ανάγνωση/εγγραφή Boolean. |
-| [EditPointsLocked](../../aspose.slides/autoshapelock/editpointslocked) { get; set; } | Καθορίζει εάν η άμεση αλλαγή του περιγράμματος αυτού του σχήματος απαγορεύεται. Ανάγνωση/εγγραφή Boolean. |
-| [GroupingLocked](../../aspose.slides/autoshapelock/groupinglocked) { get; set; } | Καθορίζει εάν η προσθήκη αυτού του σχήματος σε ομάδα απαγορεύεται. Ανάγνωση/εγγραφή Boolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Επιστρέφει true εάν όλα τα lock-flags είναι απενεργοποιημένα. Μόνο ανάγνωση Boolean. |
-| [PositionLocked](../../aspose.slides/autoshapelock/positionlocked) { get; set; } | Καθορίζει εάν η μετακίνηση αυτού του σχήματος απαγορεύεται. Ανάγνωση/εγγραφή Boolean. |
-| [RotateLocked](../../aspose.slides/autoshapelock/rotatelocked) { get; set; } | Καθορίζει εάν η αλλαγή γωνίας περιστροφής αυτού του σχήματος απαγορεύεται. Ανάγνωση/εγγραφή Boolean. |
-| [SelectLocked](../../aspose.slides/autoshapelock/selectlocked) { get; set; } | Καθορίζει εάν η επιλογή αυτού του σχήματος απαγορεύεται. Ανάγνωση/εγγραφή Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/autoshapelock/shapetypelocked) { get; set; } | Καθορίζει εάν η αλλαγή τύπου σχήματος απαγορεύεται. Ανάγνωση/εγγραφή Boolean. |
-| [SizeLocked](../../aspose.slides/autoshapelock/sizelocked) { get; set; } | Καθορίζει εάν η αλλαγή μεγέθους αυτού του σχήματος απαγορεύεται. Ανάγνωση/εγγραφή Boolean. |
-| [TextLocked](../../aspose.slides/autoshapelock/textlocked) { get; set; } | Καθορίζει εάν η επεξεργασία κειμένου απαγορεύεται. Ανάγνωση/εγγραφή Boolean. |
+| [AdjustHandlesLocked](../../aspose.slides/autoshapelock/adjusthandleslocked) { get; set; } | Καθορίζει εάν η αλλαγή των τιμών προσαρμογής είναι απαγορευμένη. Ανάγνωση/εγγραφή Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/autoshapelock/arrowheadslocked) { get; set; } | Καθορίζει εάν η αλλαγή των άκρων των βελών είναι απαγορευμένη. Ανάγνωση/εγγραφή Boolean. |
+| [AspectRatioLocked](../../aspose.slides/autoshapelock/aspectratiolocked) { get; set; } | Καθορίζει εάν ένα σχήμα πρέπει να διατηρεί την αναλογία διαστάσεων κατά την αλλαγή μεγέθους. Ανάγνωση/εγγραφή Boolean. |
+| [EditPointsLocked](../../aspose.slides/autoshapelock/editpointslocked) { get; set; } | Καθορίζει εάν η άμεση αλλαγή του περιγράμματος αυτού του σχήματος είναι απαγορευμένη. Ανάγνωση/εγγραφή Boolean. |
+| [GroupingLocked](../../aspose.slides/autoshapelock/groupinglocked) { get; set; } | Καθορίζει εάν η προσθήκη αυτού του σχήματος σε ομάδα είναι απαγορευμένη. Ανάγνωση/εγγραφή Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Επιστρέφει true εάν όλες οι σημαίες κλειδώματος είναι απενεργοποιημένες. Μόνο για ανάγνωση Boolean. |
+| [PositionLocked](../../aspose.slides/autoshapelock/positionlocked) { get; set; } | Καθορίζει εάν η μετακίνηση αυτού του σχήματος είναι απαγορευμένη. Ανάγνωση/εγγραφή Boolean. |
+| [RotateLocked](../../aspose.slides/autoshapelock/rotatelocked) { get; set; } | Καθορίζει εάν η αλλαγή της γωνίας περιστροφής αυτού του σχήματος είναι απαγορευμένη. Ανάγνωση/εγγραφή Boolean. |
+| [SelectLocked](../../aspose.slides/autoshapelock/selectlocked) { get; set; } | Καθορίζει εάν η επιλογή αυτού του σχήματος είναι απαγορευμένη. Ανάγνωση/εγγραφή Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/autoshapelock/shapetypelocked) { get; set; } | Καθορίζει εάν η αλλαγή του τύπου ενός σχήματος είναι απαγορευμένη. Ανάγνωση/εγγραφή Boolean. |
+| [SizeLocked](../../aspose.slides/autoshapelock/sizelocked) { get; set; } | Καθορίζει εάν η αλλαγή μεγέθους αυτού του σχήματος είναι απαγορευμένη. Ανάγνωση/εγγραφή Boolean. |
+| [TextLocked](../../aspose.slides/autoshapelock/textlocked) { get; set; } | Καθορίζει εάν η επεξεργασία κειμένου είναι απαγορευμένη. Ανάγνωση/εγγραφή Boolean. |
 
 ### Δείτε επίσης
 
 * κλάση [BaseShapeLock](../baseshapelock)
-* διασύνδεση [IAutoShapeLock](../iautoshapelock)
+* διεπαφή [IAutoShapeLock](../iautoshapelock)
 * χώρος ονομάτων [Aspose.Slides](../../aspose.slides)
-* συναρμολόγηση [Aspose.Slides](../../)
+* συγκρότηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

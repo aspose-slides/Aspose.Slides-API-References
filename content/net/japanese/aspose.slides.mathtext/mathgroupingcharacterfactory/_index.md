@@ -1,14 +1,14 @@
 ---
 title: MathGroupingCharacterFactory
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 数学のグルーピング文字を作成できます
+description: 数式のグループ化文字を作成できます
 type: docs
-weight: 8750
+weight: 8770
 url: /ja/aspose.slides.mathtext/mathgroupingcharacterfactory/
 ---
 ## MathGroupingCharacterFactory クラス
 
-数学のグルーピング文字を作成できます
+数式のグループ化文字を作成できます
 
 ```csharp
 public class MathGroupingCharacterFactory : IMathGroupingCharacterFactory
@@ -18,20 +18,20 @@ public class MathGroupingCharacterFactory : IMathGroupingCharacterFactory
 
 | 名前 | 説明 |
 | --- | --- |
-| [MathGroupingCharacterFactory](mathgroupingcharacterfactory)() | デフォルトコンストラクタです。 |
+| [MathGroupingCharacterFactory](mathgroupingcharacterfactory)() | 既定のコンストラクタです。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/mathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter)(IMathElement) | 数学のグルーピング文字を作成します |
-| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/mathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter_1)(IMathElement, char, MathTopBotPositions, MathTopBotPositions) | 数学のグルーピング文字を作成します |
+| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/mathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter)(IMathElement) | 数式のグループ化文字を作成します |
+| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/mathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter_1)(IMathElement, char, MathTopBotPositions, MathTopBotPositions) | 数式のグループ化文字を作成します |
 
 ### 備考
 
 COM 互換性のため
 
-### 関連項目
+### 参照
 
 * インターフェイス [IMathGroupingCharacterFactory](../imathgroupingcharacterfactory)
 * 名前空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

@@ -1,14 +1,14 @@
 ---
 title: IXamlOutputSaver
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Αντιπροσωπεύει μια υλοποίηση αποθηκευτή εξόδου για τη μεταφορά δεδομένων στην εξωτερική αποθήκευση.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Αντιπροσωπεύει μια υλοποίηση αποθηκευτή εξόδου για τη μεταφορά δεδομένων στην εξωτερική αποθήκη.
 type: docs
-weight: 4690
+weight: 4710
 url: /el/aspose.slides.export.xaml/ixamloutputsaver/
 ---
-## IXamlOutputSaver διασύνδεση
+## IXamlOutputSaver διεπαφή
 
-Αντιπροσωπεύει μια υλοποίηση αποθηκευτή εξόδου για μεταφορά δεδομένων στην εξωτερική αποθήκευση.
+Αντιπροσωπεύει μια υλοποίηση αποθηκευτή εξόδου για τη μεταφορά δεδομένων στην εξωτερική αποθήκη.
 
 ```csharp
 public interface IXamlOutputSaver
@@ -18,7 +18,7 @@ public interface IXamlOutputSaver
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Save](../../aspose.slides.export.xaml/ixamloutputsaver/save)(string, byte[]) | Αποθηκεύει έναν πίνακα bytes σε θέση προορισμού. |
+| [Save](../../aspose.slides.export.xaml/ixamloutputsaver/save)(string, byte[]) | Αποθηκεύει έναν πίνακα bytes σε τοποθεσία προορισμού. |
 
 ### Δείτε επίσης
 

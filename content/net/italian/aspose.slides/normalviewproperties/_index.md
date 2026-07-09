@@ -1,9 +1,9 @@
 ---
 title: NormalViewProperties
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET API Reference
 description: Rappresenta le proprietà della visualizzazione normale. La visualizzazione normale è composta da tre regioni di contenuto: la diapositiva stessa, una regione di contenuto laterale e una regione di contenuto inferiore.
 type: docs
-weight: 9090
+weight: 9110
 url: /it/aspose.slides/normalviewproperties/
 ---
 ## NormalViewProperties classe
@@ -18,13 +18,13 @@ public class NormalViewProperties : INormalViewProperties
 
 | Nome | Descrizione |
 | --- | --- |
-| [HorizontalBarState](../../aspose.slides/normalviewproperties/horizontalbarstate) { get; set; } | Specifica lo stato in cui deve essere mostrata la barra di divisione orizzontale. Una barra di divisione orizzontale separa la diapositiva dalla regione di contenuto sotto la diapositiva. |
-| [PreferSingleView](../../aspose.slides/normalviewproperties/prefersingleview) { get; set; } | Specifica se l'utente preferisce vedere una regione di contenuto singola a finestra intera rispetto alla visualizzazione normale standard con tre regioni di contenuto. Se abilitato, l'applicazione può scegliere di visualizzare una delle regioni di contenuto nell'intera finestra. Lettura/scrittura Boolean. |
-| [RestoredLeft](../../aspose.slides/normalviewproperties/restoredleft) { get; } | Questo elemento specifica le dimensioni della regione di contenuto laterale della visualizzazione normale, quando la regione è di dimensione ripristinata variabile (né minimizzata né massimizzata). Solo lettura [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [RestoredTop](../../aspose.slides/normalviewproperties/restoredtop) { get; } | Questo elemento specifica le dimensioni della regione superiore della diapositiva nella visualizzazione normale, quando la regione è di dimensione ripristinata variabile (né minimizzata né massimizzata). Solo lettura [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [ShowOutlineIcons](../../aspose.slides/normalviewproperties/showoutlineicons) { get; set; } | Specifica se l'applicazione deve mostrare icone durante la visualizzazione del contenuto di struttura in una qualsiasi delle regioni di contenuto della modalità visualizzazione normale. Lettura/scrittura Boolean. |
-| [SnapVerticalSplitter](../../aspose.slides/normalviewproperties/snapverticalsplitter) { get; set; } | Specifica se il divisore verticale deve agganciarsi a uno stato minimizzato quando la regione laterale è sufficientemente piccola. Lettura/scrittura Boolean. |
-| [VerticalBarState](../../aspose.slides/normalviewproperties/verticalbarstate) { get; set; } | Specifica lo stato in cui deve essere mostrata la barra di divisione verticale. Una barra di divisione verticale separa la diapositiva dalla regione di contenuto laterale. |
+| [HorizontalBarState](../../aspose.slides/normalviewproperties/horizontalbarstate) { get; set; } | Specifica lo stato in cui deve essere visualizzata la barra di divisione orizzontale. Una barra di divisione orizzontale separa la diapositiva dalla regione di contenuto sotto la diapositiva. |
+| [PreferSingleView](../../aspose.slides/normalviewproperties/prefersingleview) { get; set; } | Specifica se l'utente preferisce visualizzare una singola regione di contenuto a finestra intera rispetto alla visualizzazione normale standard con tre regioni di contenuto. Se abilitato, l'applicazione può scegliere di mostrare una delle regioni di contenuto nell'intera finestra. Lettura/scrittura Boolean. |
+| [RestoredLeft](../../aspose.slides/normalviewproperties/restoredleft) { get; } | Questo elemento specifica le dimensioni della regione di contenuto laterale della visualizzazione normale, quando la regione ha una dimensione variabile ripristinata (ne né minimizzata né massimizzata). Solo lettura [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [RestoredTop](../../aspose.slides/normalviewproperties/restoredtop) { get; } | Questo elemento specifica le dimensioni della regione superiore della diapositiva della visualizzazione normale, quando la regione ha una dimensione variabile ripristinata (ne né minimizzata né massimizzata). Solo lettura [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [ShowOutlineIcons](../../aspose.slides/normalviewproperties/showoutlineicons) { get; set; } | Specifica se l'applicazione deve mostrare icone durante la visualizzazione del contenuto della struttura in una qualsiasi delle regioni di contenuto della modalità di visualizzazione normale. Lettura/scrittura Boolean. |
+| [SnapVerticalSplitter](../../aspose.slides/normalviewproperties/snapverticalsplitter) { get; set; } | Specifica se la divisione verticale deve bloccare lo stato minimizzato quando la regione laterale è sufficientemente piccola. Lettura/scrittura Boolean. |
+| [VerticalBarState](../../aspose.slides/normalviewproperties/verticalbarstate) { get; set; } | Specifica lo stato in cui deve essere visualizzata la barra di divisione verticale. Una barra di divisione verticale separa la diapositiva dalla regione di contenuto laterale. |
 
 ### Esempi
 
@@ -32,7 +32,7 @@ Il seguente esempio mostra come configurare le proprietà ViewProperties.NormalV
 
 ```csharp
 [C#]
-//Instanzia un oggetto presentation che rappresenta un file di presentazione
+//Instanzia un oggetto Presentation che rappresenta un file di presentazione
 using (Presentation pres = new Presentation("demo.pptx"))
 {
     pres.ViewProperties.NormalViewProperties.HorizontalBarState = SplitterBarStateType.Restored;

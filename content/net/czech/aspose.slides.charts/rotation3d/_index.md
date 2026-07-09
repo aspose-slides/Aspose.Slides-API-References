@@ -1,9 +1,9 @@
 ---
 title: Rotation3D
-second_title: Aspose.Sildes pro .NET referenční příručka API
+second_title: Aspose.Sildes pro .NET API Reference
 description: Představuje 3D rotaci grafu.
 type: docs
-weight: 2380
+weight: 2400
 url: /cs/aspose.slides.charts/rotation3d/
 ---
 ## Rotation3D třída
@@ -18,12 +18,12 @@ public class Rotation3D : IRotation3D
 
 | Název | Popis |
 | --- | --- |
-| [DepthPercents](../../aspose.slides.charts/rotation3d/depthpercents) { get; set; } | Vrací nebo nastavuje hloubku 3D grafu jako procento šířky grafu (mezi 20 a 2000 procenty). Čtení/Zápis UInt16. |
-| [HeightPercents](../../aspose.slides.charts/rotation3d/heightpercents) { get; set; } | Určuje výšku 3D grafu jako procento šířky grafu (mezi 5 a 500 procenty). Čtení/Zápis UInt16. |
-| [Perspective](../../aspose.slides.charts/rotation3d/perspective) { get; set; } | Vrací nebo nastavuje hodnotu perspektivy (úhel zorného pole) pro 3D grafy (mezi 0 a 240). Ignorováno, pokud je hodnota vlastnosti RightAngleAxes true. Čtení/Zápis Byte. |
-| [RightAngleAxes](../../aspose.slides.charts/rotation3d/rightangleaxes) { get; set; } | Určuje, zda jsou osy grafu v pravém úhlu, místo aby byly vykresleny v perspektivě. Jinými slovy určuje, zda jsou úhly os grafu nezávislé na otáčení nebo elevaci grafu. Čtení/Zápis Boolean. |
-| [RotationX](../../aspose.slides.charts/rotation3d/rotationx) { get; set; } | Vrací nebo nastavuje úhel rotace kolem osy X, tj. ve směru Y pro 3D grafy (mezi -90 a 90 stupni). Vlastnost odpovídá položce 21.2.2.157 rotX (X Rotation) v ECMA-376 a možnosti "Y Rotation" v PowerPoint 2007+. Čtení/Zápis SByte. |
-| [RotationY](../../aspose.slides.charts/rotation3d/rotationy) { get; set; } | Vrací nebo nastavuje úhel rotace kolem osy Y, tj. ve směru X pro 3D grafy (mezi 0 a 360 stupni). Vlastnost odpovídá položce 21.2.2.158 rotY (Y Rotation) v ECMA-376 a možnosti "X Rotation" v PowerPoint 2007+. Čtení/Zápis UInt16. |
+| [DepthPercents](../../aspose.slides.charts/rotation3d/depthpercents) { get; set; } | Vrací nebo nastavuje hloubku 3D grafu jako procento šířky grafu (mezi 20 a 2000 procenty). Čtení/zápis UInt16. |
+| [HeightPercents](../../aspose.slides.charts/rotation3d/heightpercents) { get; set; } | Určuje výšku 3D grafu jako procento šířky grafu (mezi 5 a 500 procenty). Čtení/zápis UInt16. |
+| [Perspective](../../aspose.slides.charts/rotation3d/perspective) { get; set; } | Vrací nebo nastavuje hodnotu perspektivy (úhel zorného pole) pro 3D grafy (mezi 0 a 240). Ignorováno, pokud je hodnota vlastnosti RightAngleAxes pravda. Čtení/zápis Byte. |
+| [RightAngleAxes](../../aspose.slides.charts/rotation3d/rightangleaxes) { get; set; } | Určuje, zda jsou osy grafu pravé úhly, místo aby byly vykresleny v perspektivě. Jinými slovy určuje, zda jsou úhly os grafu nezávislé na rotaci nebo nadvýšce grafu. Čtení/zápis Boolean. |
+| [RotationX](../../aspose.slides.charts/rotation3d/rotationx) { get; set; } | Vrací nebo nastavuje úhel rotace kolem osy X, tj. ve směru Y pro 3D grafy (mezi -90 a 90 stupni). Vlastnost odpovídá položce 21.2.2.157 rotX (X Rotation) v ECMA-376 a volbě „Y Rotation“ v PowerPoint 2007+. Čtení/zápis SByte. |
+| [RotationY](../../aspose.slides.charts/rotation3d/rotationy) { get; set; } | Vrací nebo nastavuje úhel rotace kolem osy Y, tj. ve směru X pro 3D grafy (mezi 0 a 360 stupni). Vlastnost odpovídá položce 21.2.2.158 rotY (Y Rotation) v ECMA-376 a volbě „X Rotation“ v PowerPoint 2007+. Čtení/zápis UInt16. |
 
 ### Viz také
 

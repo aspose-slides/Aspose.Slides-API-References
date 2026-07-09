@@ -1,14 +1,14 @@
 ---
 title: LayoutSlideHeaderFooterManager
-second_title: Aspose.Sildes .NET için API Referansı
-description: Yerleşim slaytı altbilgi, tarih-saat ve sayfa numarası yer tutucularının ve tüm alt yer tutucularının davranışını tutan yöneticiyi temsil eder. Alt yer tutucular, bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı slaytlar, yerleşim slaytını kullanır ve ona bağlıdır.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Düzen slaytı altbilgi, tarih-saat ve sayfa numarası yer tutucularının ve tüm alt yer tutucularının davranışını tutan yöneticiyi temsil eder. Alt yer tutucular, bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı slaytlar, düzen slaytı kullanır ve ona bağlıdır.
 type: docs
-weight: 7640
+weight: 7660
 url: /tr/aspose.slides/layoutslideheaderfootermanager/
 ---
 ## LayoutSlideHeaderFooterManager sınıfı
 
-Düzen slaytı altbilgisi, tarih-saat ve sayfa numarası yer tutucularının ve tüm alt yer tutucularının davranışını tutan yöneticiyi temsil eder. Alt yer tutucular, bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı slaytlar, düzen slaytını kullanır ve ona bağlıdır.
+Düzen slaytı altbilgi, tarih-saat, sayfa numarası yer tutucularının ve tüm alt yer tutucularının davranışını tutan yöneticiyi temsil eder. Alt yer tutucular, bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı slaytlar, düzen slaytını kullanır ve ona bağlıdır.
 
 ```csharp
 public sealed class LayoutSlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
@@ -32,13 +32,13 @@ public sealed class LayoutSlideHeaderFooterManager : BaseSlideHeaderFooterManage
 | [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Slayt tarih-saat yer tutucusuna metin ayarlar. |
 | [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Slayt tarih-saat yer tutucusunun görünürlüğünü değiştirir. |
 | [SetFooterAndChildFootersText](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | Düzen slaytı altbilgi yer tutucusuna ve tüm alt altbilgi yer tutucularına metin ayarlar. Alt yer tutucular, bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı slaytlar, düzen slaytını kullanır ve ona bağlıdır. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Düzen slaytı altbilgi yer tutucusunun ve tüm alt altbilgi yer tutucularının görünürlüğünü değiştirir. Alt yer tutucular, bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı slaytlar, ana slaytı kullanır ve ona bağlıdır. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Düzen slaytı altbilgi yer tutucusunun ve tüm alt altbilgi yer tutucularının görünürlüğünü değiştirir. Alt yer tutucular, bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı slaytlar, ana slayta bağlanır ve ona bağlıdır. |
 | [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Slayt altbilgi yer tutucusuna metin ayarlar. |
 | [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Slayt altbilgi yer tutucusunun görünürlüğünü değiştirir. |
 | [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Düzen slaytı sayfa numarası yer tutucusunun ve tüm alt sayfa numarası yer tutucularının görünürlüğünü değiştirir. Alt yer tutucular, bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı slaytlar, düzen slaytını kullanır ve ona bağlıdır. |
 | [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Slayt sayfa numarası yer tutucusunun görünürlüğünü değiştirir. |
 
-### Diğer Bilgiler
+### Ayrıca Bakınız
 
 * sınıf [BaseSlideHeaderFooterManager](../baseslideheaderfootermanager)
 * arayüz [ILayoutSlideHeaderFooterManager](../ilayoutslideheaderfootermanager)

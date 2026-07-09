@@ -1,9 +1,9 @@
 ---
 title: IShredTransition
-second_title: Aspose.Sildes pro .NET – API reference
+second_title: Aspose.Sildes pro .NET - referenční dokumentace API
 description: Efekt přechodu snímku roztrhání.
 type: docs
-weight: 10160
+weight: 10180
 url: /cs/aspose.slides.slideshow/ishredtransition/
 ---
 ## IShredTransition rozhraní

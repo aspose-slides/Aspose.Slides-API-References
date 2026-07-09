@@ -1,14 +1,14 @@
 ---
 title: IOleObjectFrame
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει ένα αντικείμενο OLE σε μια διαφάνεια.
+description: Αναπαριστά ένα αντικείμενο OLE σε μια διαφάνεια.
 type: docs
-weight: 6520
+weight: 6540
 url: /el/aspose.slides/ioleobjectframe/
 ---
-## IOleObjectFrame διασύνδεση
+## IOleObjectFrame διεπαφή
 
-Αντιπροσωπεύει ένα αντικείμενο OLE σε μια διαφάνεια.
+Αναπαριστά ένα αντικείμενο OLE σε μια διαφάνεια.
 
 ```csharp
 public interface IOleObjectFrame : IGraphicalObject
@@ -18,20 +18,20 @@ public interface IOleObjectFrame : IGraphicalObject
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/ioleobjectframe/asigraphicalobject) { get; } | Επιτρέπει την απόκτηση της βασικής διεπαφής IGraphicalObject. Μόνο-ανάγνωση [`IGraphicalObject`](../igraphicalobject). |
-| [EmbeddedData](../../aspose.slides/ioleobjectframe/embeddeddata) { get; } | Λαμβάνει πληροφορίες σχετικά με τα ενσωματωμένα δεδομένα OLE. Μόνο-ανάγνωση [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo). |
+| [AsIGraphicalObject](../../aspose.slides/ioleobjectframe/asigraphicalobject) { get; } | Επιτρέπει την πρόσβαση στη βασική διεπαφή IGraphicalObject. Μόνο για ανάγνωση [`IGraphicalObject`](../igraphicalobject). |
+| [EmbeddedData](../../aspose.slides/ioleobjectframe/embeddeddata) { get; } | Λαμβάνει πληροφορίες σχετικά με τα ενσωματωμένα δεδομένα OLE. Μόνο για ανάγνωση [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo). |
 | [EmbeddedFileLabel](../../aspose.slides/ioleobjectframe/embeddedfilelabel) { get; } | Επιστρέφει το όνομα αρχείου του ενσωματωμένου αντικειμένου OLE |
 | [EmbeddedFileName](../../aspose.slides/ioleobjectframe/embeddedfilename) { get; } | Επιστρέφει τη διαδρομή του ενσωματωμένου αντικειμένου OLE |
-| [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | Καθορίζει εάν ένα αντικείμενο εμφανίζεται ως εικονίδιο. Ανάγνωση/Εγγραφή Boolean. |
-| [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | Καθορίζει εάν ένα αντικείμενο είναι συνδεδεμένο με εξωτερικό αρχείο. Μόνο-ανάγνωση Boolean. |
-| [LinkFileName](../../aspose.slides/ioleobjectframe/linkfilename) { get; } | Επιστρέφει τη πλήρη διαδρομή σε συνδεδεμένο αρχείο. Θα χρησιμοποιηθεί σύντομο όνομα αρχείου. Μόνο-ανάγνωση String. |
-| [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | Επιστρέφει τη πλήρη διαδρομή σε συνδεδεμένο αρχείο. Θα χρησιμοποιηθεί μακρύ όνομα αρχείου. Ανάγνωση/Εγγραφή String. |
-| [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | Επιστρέφει τη σχετική διαδρομή σε συνδεδεμένο αρχείο αν υπάρχει, διαφορετικά επιστρέφει κενή συμβολοσειρά. Μόνο-ανάγνωση String. |
-| [ObjectName](../../aspose.slides/ioleobjectframe/objectname) { get; set; } | Επιστρέφει ή ορίζει το όνομα ενός αντικειμένου. Ανάγνωση/Εγγραφή String. |
-| [ObjectProgId](../../aspose.slides/ioleobjectframe/objectprogid) { get; set; } | Επιστρέφει το ProgID ενός αντικειμένου. Μόνο-ανάγνωση String. |
-| [SubstitutePictureFormat](../../aspose.slides/ioleobjectframe/substitutepictureformat) { get; } | Επιστρέφει το αντικείμενο ιδιοτήτων γεμίσματος εικόνας OleObject. Μόνο-ανάγνωση [`IPictureFillFormat`](../ipicturefillformat). |
-| [SubstitutePictureTitle](../../aspose.slides/ioleobjectframe/substitutepicturetitle) { get; set; } | Επιστρέφει ή ορίζει τον τίτλο για το εικονίδιο OleObject. Ανάγνωση/Εγγραφή String. |
-| [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | Καθορίζει εάν το συνδεδεμένο ενσωματωμένο αντικείμενο ενημερώνεται αυτόματα όταν ανοίγεται ή εκτυπώνεται η παρουσίαση. Ανάγνωση/Εγγραφή Boolean. |
+| [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | Καθορίζει εάν ένα αντικείμενο εμφανίζεται ως εικονίδιο. Boolean με δυνατότητα ανάγνωσης/εγγραφής. |
+| [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | Καθορίζει εάν ένα αντικείμενο είναι συνδεδεμένο με εξωτερικό αρχείο. Μόνο για ανάγνωση Boolean. |
+| [LinkFileName](../../aspose.slides/ioleobjectframe/linkfilename) { get; } | Επιστρέφει τη πλήρη διαδρομή σε ένα συνδεδεμένο αρχείο. Θα χρησιμοποιηθεί το σύντομο όνομα αρχείου. Μόνο για ανάγνωση String. |
+| [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | Επιστρέφει τη πλήρη διαδρομή σε ένα συνδεδεμένο αρχείο. Θα χρησιμοποιηθεί το πλήρες όνομα αρχείου. Ανάγνωση/εγγραφή String. |
+| [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | Επιστρέφει τη σχετική διαδρομή σε ένα συνδεδεμένο αρχείο εάν υπάρχει, αλλιώς επιστρέφει κενή συμβολοσειρά. Μόνο για ανάγνωση String. |
+| [ObjectName](../../aspose.slides/ioleobjectframe/objectname) { get; set; } | Επιστρέφει ή ορίζει το όνομα ενός αντικειμένου. Ανάγνωση/εγγραφή String. |
+| [ObjectProgId](../../aspose.slides/ioleobjectframe/objectprogid) { get; set; } | Επιστρέφει το ProgID ενός αντικειμένου. Μόνο για ανάγνωση String. |
+| [SubstitutePictureFormat](../../aspose.slides/ioleobjectframe/substitutepictureformat) { get; } | Επιστρέφει το αντικείμενο ιδιοτήτων γεμίσματος εικόνας OleObject. Μόνο για ανάγνωση [`IPictureFillFormat`](../ipicturefillformat). |
+| [SubstitutePictureTitle](../../aspose.slides/ioleobjectframe/substitutepicturetitle) { get; set; } | Επιστρέφει ή ορίζει τον τίτλο για το εικονίδιο OleObject. Ανάγνωση/εγγραφή String. |
+| [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | Καθορίζει εάν το συνδεδεμένο ενσωματωμένο αντικείμενο ενημερώνεται αυτόματα όταν ανοίγεται ή εκτυπώνεται η παρουσίαση. Ανάγνωση/εγγραφή Boolean. |
 
 ## Μέθοδοι
 
@@ -41,8 +41,8 @@ public interface IOleObjectFrame : IGraphicalObject
 
 ### Δείτε επίσης
 
-* διασύνδεση [IGraphicalObject](../igraphicalobject)
+* διεπαφή [IGraphicalObject](../igraphicalobject)
 * χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
-* συγκρότημα [Aspose.Slides](../../)
+* συναρμολόγηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

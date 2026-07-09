@@ -3,7 +3,7 @@ title: ControlPropertiesCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: AcitveX プロパティのコレクションです。
 type: docs
-weight: 2690
+weight: 2710
 url: /ja/aspose.slides/controlpropertiescollection/
 ---
 ## ControlPropertiesCollection クラス
@@ -14,19 +14,19 @@ ActiveX プロパティのコレクションです。
 public class ControlPropertiesCollection : IControlPropertiesCollection
 ```
 
-## プロパティ
+## Properties
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides/controlpropertiescollection/count) { get; } | コレクション内のプロパティの数を返します。読み取り専用 Int32。 |
 | [Item](../../aspose.slides/controlpropertiescollection/item) { get; set; } | プロパティを取得または設定します。 |
 | [NamesOfProperties](../../aspose.slides/controlpropertiescollection/namesofproperties) { get; } | プロパティ名のコレクションを返します。読み取り専用 ICollection。 |
 
-## メソッド
+## Methods
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/controlpropertiescollection/add)(string, string) | コレクションにプロパティを追加します。 |
+| [Add](../../aspose.slides/controlpropertiescollection/add)(string, string) | プロパティをコレクションに追加します。 |
 | [Clear](../../aspose.slides/controlpropertiescollection/clear)() | すべてのプロパティを削除します。 |
 | [GetEnumerator](../../aspose.slides/controlpropertiescollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
 | [Remove](../../aspose.slides/controlpropertiescollection/remove)(string) | 指定された名前のプロパティを削除します。 |

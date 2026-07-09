@@ -1,14 +1,14 @@
 ---
 title: EmbedAllFontsHtmlController
-second_title: Aspose.Sildes pro .NET API referenci
-description: Formátovací řadič třídy, který se používá pro vložení všech písem prezentace do formátu WOFF.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Formátovací řadičová třída používaná k vložení všech písem prezentace ve formátu WOFF.
 type: docs
-weight: 3740
+weight: 3760
 url: /cs/aspose.slides.export/embedallfontshtmlcontroller/
 ---
 ## EmbedAllFontsHtmlController třída
 
-Formátovací řadič třídy, který se používá pro vložení všech písem prezentace do formátu WOFF.
+Formátovací řadičová třída používaná k vložení všech písem prezentace ve formátu WOFF.
 
 ```csharp
 public class EmbedAllFontsHtmlController : IHtmlFormattingController
@@ -26,13 +26,13 @@ public class EmbedAllFontsHtmlController : IHtmlFormattingController
 | Název | Popis |
 | --- | --- |
 | virtual [WriteAllFonts](../../aspose.slides.export/embedallfontshtmlcontroller/writeallfonts)(IHtmlGenerator, IPresentation) | Zapíše všechna písma obsažená v [`Presentation`](../../aspose.slides/presentation). |
-| virtual [WriteDocumentEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | Voláno pro zápis paty HTML dokumentu. Voláno jednou na konverzi prezentace. |
-| virtual [WriteDocumentStart](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | Voláno pro zápis hlavičky HTML dokumentu. Voláno jednou na konverzi prezentace. |
-| virtual [WriteFont](../../aspose.slides.export/embedallfontshtmlcontroller/writefont)(IHtmlGenerator, IFontData, IFontData, string, string, byte[]) | Zapíše data jako base64 přímo do HTML dokumentu. |
-| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | Voláno před vykreslením tvaru. Voláno jednou pro každý tvar. Pokud tato funkce něco zapíše do generátoru, aktuální generování obrázku snímku bude dokončeno, přidaný fragment HTML bude vložen a nový obrázek bude zahájen nad předchozím. |
-| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | Voláno před vykreslením tvaru. Voláno jednou pro každý tvar. Pokud tato funkce něco zapíše do generátoru, aktuální generování obrázku snímku bude dokončeno, přidaný fragment HTML bude vložen a nový obrázek bude zahájen nad předchozím. |
-| virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | Voláno pro zápis paty HTML snímku. Voláno jednou pro každý snímek. |
-| virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | Voláno pro zápis hlavičky HTML snímku. Voláno jednou pro každý snímek. |
+| virtual [WriteDocumentEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | Voláno pro zápis patičky html dokumentu. Voláno jednou při každém převodu prezentace. |
+| virtual [WriteDocumentStart](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | Voláno pro zápis hlavičky html dokumentu. Voláno jednou při každém převodu prezentace. |
+| virtual [WriteFont](../../aspose.slides.export/embedallfontshtmlcontroller/writefont)(IHtmlGenerator, IFontData, IFontData, string, string, byte[]) | Zapíše data jako base64 přímo do HTML dokumentu |
+| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | Voláno před vykreslením tvaru. Voláno jednou pro každý tvar. Pokud tato funkce něco zapíše do generátoru, aktuální generování obrázku snímku bude ukončeno, přidaný html fragment bude vložen a nový obrázek bude zahájen nad předchozím. |
+| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | Voláno před vykreslením tvaru. Voláno jednou pro každý tvar. Pokud tato funkce něco zapíše do generátoru, aktuální generování obrázku snímku bude ukončeno, přidaný html fragment bude vložen a nový obrázek bude zahájen nad předchozím. |
+| virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | Voláno pro zápis patičky html snímku. Voláno jednou pro každý snímek. |
+| virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | Voláno pro zápis hlavičky html snímku. Voláno jednou pro každý snímek. |
 
 ### Viz také
 

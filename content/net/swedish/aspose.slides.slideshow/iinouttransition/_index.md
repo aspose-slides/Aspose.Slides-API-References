@@ -3,7 +3,7 @@ title: IInOutTransition
 second_title: Aspose.Sildes för .NET API-referens
 description: In-Out-bildövergångseffekt.
 type: docs
-weight: 10090
+weight: 10110
 url: /sv/aspose.slides.slideshow/iinouttransition/
 ---
 ## IInOutTransition gränssnitt
@@ -18,10 +18,10 @@ public interface IInOutTransition : ITransitionValueBase
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iinouttransition/asitransitionvaluebase) { get; } | Tillåter att hämta bas-ITransitionValueBase-gränssnittet. Skrivskyddad [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iinouttransition/asitransitionvaluebase) { get; } | Tillåter att hämta bas-ITransitionValueBase-gränssnitt. Läs-endast [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/iinouttransition/direction) { get; set; } | Riktning för en övergångseffekt. Läs/skriv [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 
-### Se även
+### Se också
 
 * gränssnitt [ITransitionValueBase](../itransitionvaluebase)
 * namnrymd [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

@@ -1,9 +1,9 @@
 ---
 title: XpsOptions
-second_title: Aspose.Sildes pro .NET – referenční příručka API
+second_title: Aspose.Sildes pro .NET API Reference
 description: Poskytuje možnosti, které řídí, jak je prezentace uložena ve formátu XPS.
 type: docs
-weight: 4710
+weight: 4730
 url: /cs/aspose.slides.export/xpsoptions/
 ---
 ## XpsOptions třída
@@ -14,7 +14,7 @@ Poskytuje možnosti, které řídí, jak je prezentace uložena ve formátu XPS.
 public class XpsOptions : SaveOptions, IXpsOptions
 ```
 
-## Konstruktory
+## Konstruktor
 
 | Název | Popis |
 | --- | --- |
@@ -24,22 +24,22 @@ public class XpsOptions : SaveOptions, IXpsOptions
 
 | Název | Popis |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Vrací nebo nastavuje písmo použité v případě, že není nalezeno zdrojové písmo. Čtení-zápis String. |
-| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | True, pokud má být okolo každého snímku vykreslen černý rámeček. Čtení-zápis Boolean. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Vrací nebo nastavuje písmo použité, pokud není nalezeno zdrojové písmo. Čtení-zápis String. |
+| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | True pro vykreslení černého rámce kolem každého snímku. Čtení-zápis Boolean. |
 | [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Vrací nebo nastavuje vizuální styl gradientu. Čtení-zápis [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Representuje objekt zpětného volání pro ukládání aktualizací postupu v procentech. Viz [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | True, pokud mají být všechny metafily použité v prezentaci převedeny na PNG obrázky. Čtení-zápis Boolean. |
-| [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | Určuje, zda vygenerovaný dokument má zahrnovat skryté snímky, či ne. Výchozí hodnota je `false`. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Representuje objekt zpětného volání pro ukládání průběhu v procentech. Viz [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | True pro převod všech metafiles používaných v prezentaci na obrázky PNG. Čtení-zápis Boolean. |
+| [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | Určuje, zda vygenerovaný dokument má zahrnovat skryté snímky, či nikoli. Výchozí hodnota je `false`. |
 | [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Určuje, zda při ukládání prezentace přeskočit hypertextové odkazy s voláním JavaScriptu. Čtení-zápis Boolean. Výchozí hodnota je **false**. |
 | [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Vrací nebo nastavuje objekt, který přijímá varování a rozhoduje, zda proces načítání bude pokračovat nebo bude přerušen. Čtení-zápis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Příklady
 
-Následující příklad ukazuje, jak převádět prezentace do XPS pomocí výchozích nastavení.
+Následující příklad ukazuje, jak převádět prezentace do XPS s výchozími nastaveními.
 
 ```csharp
 [C#]
-// Vytvořte objekt Presentation, který představuje soubor prezentace
+// Instancujte objekt Presentation, který představuje soubor prezentace
 using (Presentation pres = new Presentation("Convert_XPS.pptx"))
 {
     // Ukládání prezentace do XPS dokumentu
@@ -47,18 +47,18 @@ using (Presentation pres = new Presentation("Convert_XPS.pptx"))
 }
 ```
 
-Následující příklad ukazuje, jak převádět prezentace do XPS pomocí vlastních nastavení.
+Následující příklad ukazuje, jak převádět prezentace do XPS s vlastním nastavením.
 
 ```csharp
 [C#]
-// Vytvořte objekt Presentation, který představuje soubor prezentace
+// Instancujte objekt Presentation, který představuje soubor prezentace
 using (Presentation pres = new Presentation("Convert_XPS_Options.pptx"))
 {
-    // Vytvořte instanci třídy TiffOptions
+    // Instancujte třídu TiffOptions
     XpsOptions options = new XpsOptions();
-    // Uložit MetaFiles jako PNG
+    // Uložte MetaFiles jako PNG
     options.SaveMetafilesAsPng = true;
-    // Uložit prezentaci do XPS dokumentu
+    // Uložte prezentaci do XPS dokumentu
     pres.Save("XPS_With_Options_out.xps", SaveFormat.Xps, options);
 }
 ```

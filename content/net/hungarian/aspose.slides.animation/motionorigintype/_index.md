@@ -1,14 +1,14 @@
 ---
 title: MotionOriginType
-second_title: Aspose.Sildes .NET API referencia
-description: Megadja, hogy a mozgáspálya eredete mire vonatkozik. Például a dia elrendezésére vagy a szülőre.
+second_title: Aspose.Sildes a .NET API referencia
+description: Megadja, hogy a mozgásútvonal eredete mire vonatkozik. Például a dia elrendezésére vagy a szülőre.
 type: docs
-weight: 660
+weight: 680
 url: /hu/aspose.slides.animation/motionorigintype/
 ---
-## MotionOriginType enumeration
+## MotionOriginType felsorolás
 
-Megadja, hogy a mozgáspálya eredete mire vonatkozik. Például a dia elrendezésére vagy a szülőre.
+Meghatározza, hogy a mozgásútvonal eredete mire vonatkozik. Például a dia elrendezésére vagy a szülőre.
 
 ```csharp
 public enum MotionOriginType

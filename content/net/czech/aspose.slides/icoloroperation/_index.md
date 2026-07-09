@@ -1,14 +1,14 @@
 ---
 title: IColorOperation
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje různé operace barev používané pro transformace barev.
+description: Representuje různé operace barev používané pro transformace barev.
 type: docs
-weight: 5480
+weight: 5500
 url: /cs/aspose.slides/icoloroperation/
 ---
 ## IColorOperation rozhraní
 
-Reprezentuje různé operace barev používané pro transformace barev.
+Představuje různé operace barev používané pro transformace barev.
 
 ```csharp
 public interface IColorOperation

@@ -1,14 +1,14 @@
 ---
 title: ILineFillFormat
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili properti untuk mengisi garis.
+description: Mewakili properti untuk pengisian garis.
 type: docs
-weight: 6270
+weight: 6290
 url: /id/aspose.slides/ilinefillformat/
 ---
 ## ILineFillFormat antarmuka
 
-Mewakili properti untuk mengisi garis.
+Mewakili properti untuk pengisian garis.
 
 ```csharp
 public interface ILineFillFormat : IFillParamSource
@@ -18,12 +18,12 @@ public interface ILineFillFormat : IFillParamSource
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ilinefillformat/asifillparamsource) { get; } | Memungkinkan mengambil antarmuka IFillParamSource dasar. Hanya-baca [`IFillParamSource`](../ifillparamsource). |
+| [AsIFillParamSource](../../aspose.slides/ilinefillformat/asifillparamsource) { get; } | Mengizinkan mendapatkan antarmuka IFillParamSource dasar. Hanya baca [`IFillParamSource`](../ifillparamsource). |
 | [FillType](../../aspose.slides/ilinefillformat/filltype) { get; set; } | Mengembalikan atau mengatur tipe isian. Baca/tulis [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/ilinefillformat/gradientformat) { get; } | Mengembalikan format isian gradien. Hanya-baca [`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/ilinefillformat/patternformat) { get; } | Mengembalikan format isian pola. Hanya-baca [`IPatternFormat`](../ipatternformat). |
-| [RotateWithShape](../../aspose.slides/ilinefillformat/rotatewithshape) { get; set; } | Menentukan apakah isian harus diputar bersama bentuk. Baca/tulis [`NullableBool`](../nullablebool). |
-| [SolidFillColor](../../aspose.slides/ilinefillformat/solidfillcolor) { get; } | Mengembalikan warna isian padat. Hanya-baca [`IColorFormat`](../icolorformat). |
+| [GradientFormat](../../aspose.slides/ilinefillformat/gradientformat) { get; } | Mengembalikan format isian gradien. Hanya baca [`IGradientFormat`](../igradientformat). |
+| [PatternFormat](../../aspose.slides/ilinefillformat/patternformat) { get; } | Mengembalikan format isian pola. Hanya baca [`IPatternFormat`](../ipatternformat). |
+| [RotateWithShape](../../aspose.slides/ilinefillformat/rotatewithshape) { get; set; } | Menentukan apakah isian harus diputar dengan bentuk. Baca/tulis [`NullableBool`](../nullablebool). |
+| [SolidFillColor](../../aspose.slides/ilinefillformat/solidfillcolor) { get; } | Mengembalikan warna isian padat. Hanya baca [`IColorFormat`](../icolorformat). |
 
 ### Lihat Juga
 

@@ -3,7 +3,7 @@ title: FillFormatCollection
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa a coleção de estilos de preenchimento.
 type: docs
-weight: 11100
+weight: 11120
 url: /pt/aspose.slides.theme/fillformatcollection/
 ---
 ## FillFormatCollection classe
@@ -19,7 +19,7 @@ public sealed class FillFormatCollection : DomObject<FormatScheme>, IFillFormatC
 | Nome | Descrição |
 | --- | --- |
 | [Count](../../aspose.slides.theme/fillformatcollection/count) { get; } | Obtém o número de elementos realmente contidos na coleção. Somente leitura Int32. |
-| [IsSynchronized](../../aspose.slides.theme/fillformatcollection/issynchronized) { get; } | Retorna um valor indicando se o acesso à coleção está sincronizado (thread-safe). Somente leitura Boolean. |
+| [IsSynchronized](../../aspose.slides.theme/fillformatcollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção é sincronizado (thread-safe). Somente leitura Boolean. |
 | [Item](../../aspose.slides.theme/fillformatcollection/item) { get; } | Obtém o elemento no índice especificado. Somente leitura [`IFillFormat`](../../aspose.slides/ifillformat). |
 | [SyncRoot](../../aspose.slides.theme/fillformatcollection/syncroot) { get; } | Retorna uma raiz de sincronização. Somente leitura Object. |
 
@@ -28,7 +28,7 @@ public sealed class FillFormatCollection : DomObject<FormatScheme>, IFillFormatC
 | Nome | Descrição |
 | --- | --- |
 | [CopyTo](../../aspose.slides.theme/fillformatcollection/copyto)(Array, int) | Copia todos os elementos da coleção para o array especificado. |
-| [GetEnumerator](../../aspose.slides.theme/fillformatcollection/getenumerator)() | Retorna um enumerador que itera sobre a coleção. |
+| [GetEnumerator](../../aspose.slides.theme/fillformatcollection/getenumerator)() | Retorna um enumerador que itera pela coleção. |
 
 ### Veja Também
 

@@ -1,14 +1,14 @@
 ---
 title: IChartSeriesGroupCollection
-second_title: Aspose.Sildes pro .NET API referenci
+second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje kolekci skupin kombinovatelných řad.
 type: docs
-weight: 1940
+weight: 1960
 url: /cs/aspose.slides.charts/ichartseriesgroupcollection/
 ---
 ## IChartSeriesGroupCollection rozhraní
 
-Represents the collection of groups of combinable series.
+Reprezentuje kolekci skupin kombinovatelných řad.
 
 ```csharp
 public interface IChartSeriesGroupCollection : IGenericCollection<IChartSeriesGroup>
@@ -22,7 +22,7 @@ public interface IChartSeriesGroupCollection : IGenericCollection<IChartSeriesGr
 
 ### Poznámky
 
-1) Každá skupina řad obsahuje řady s kombinovatelnými typy. Skupiny kombinovatelných typů řad jsou definovány a popsány pomocí výčtu CombinableSeriesTypesGroup enum. Také každá skupina řad obsahuje řady, které jsou vykresleny buď na primárních osách, nebo na sekundárních osách (nikoli v obou případech ve stejné skupině). Princip seskupování řad je tedy seskupování podle výše zmíněných typových skupin a podle typu vykreslení na primární/sekundární osu. 2) Skupina řad obsahuje některé vlastnosti řad, které jsou společné pro každou řadu ve skupině („vlastnosti skupiny řad“). „Vlastnosti skupiny řad“ ve třídě ChartSeriesGroup jsou čtení/zápis. Každá z „vlastností skupiny řad“ může mít pouze pro čtení projekci ve třídě ChartSeries.
+1) Každá skupina řad obsahuje řady s kombinovatelnými typy. Skupiny kombinovatelných typů řad jsou definovány a popsány pomocí výčtu CombinableSeriesTypesGroup. Také každá skupina řad obsahuje řady, které jsou vykreslovány buď na hlavní ose, nebo na sekundární ose (nikoli v obou případech v jedné skupině). Princip seskupování řad tedy spočívá ve skupinování podle výše zmíněných typových skupin a podle typu vykreslování – hlavní/sekundární. 2) Skupina řad obsahuje některé vlastnosti řad, které jsou společné pro každou řadu ve skupině („vlastnosti skupiny řad“). „Vlastnosti skupiny řad“ v třídě ChartSeriesGroup jsou čtení/zápis. Každá z „vlastností skupiny řad“ může mít v třídě ChartSeries projekci jen pro čtení.
 
 ### Viz také
 

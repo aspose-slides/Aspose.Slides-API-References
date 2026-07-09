@@ -3,12 +3,12 @@ title: IPropertyEffect
 second_title: Aspose.Sildes için .NET API Referansı
 description: Özellik etkisi davranışını temsil eder.
 type: docs
-weight: 540
+weight: 560
 url: /tr/aspose.slides.animation/ipropertyeffect/
 ---
 ## IPropertyEffect arayüz
 
-Temel IBehavior arayüzünün davranışını temsil eder.
+Özellik etkisi davranışını temsil eder.
 
 ```csharp
 public interface IPropertyEffect : IBehavior
@@ -18,15 +18,15 @@ public interface IPropertyEffect : IBehavior
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/ipropertyeffect/asibehavior) { get; } | Temel IBehavior arayüzünü almayı sağlar. Salt-okunur [`IBehavior`](../ibehavior). |
-| [By](../../aspose.slides.animation/ipropertyeffect/by) { get; set; } | Animasyonun başlangıç öncesi konumuna göre göreceli bir offset değerini belirtir. Okuma/Yazma String. |
-| [CalcMode](../../aspose.slides.animation/ipropertyeffect/calcmode) { get; set; } | Animasyon için enterpolasyon modunu belirtir. Okuma/Yazma [`PropertyCalcModeType`](../propertycalcmodetype). |
-| [From](../../aspose.slides.animation/ipropertyeffect/from) { get; set; } | Animasyonun başlangıç değerini belirtir. Okuma/Yazma String. |
-| [Points](../../aspose.slides.animation/ipropertyeffect/points) { get; set; } | Animasyonun noktalarını belirtir. Okuma/Yazma [`IPointCollection`](../ipointcollection). |
-| [To](../../aspose.slides.animation/ipropertyeffect/to) { get; set; } | Animasyonun bitiş değerini belirtir. Okuma/Yazma String. |
-| [ValueType](../../aspose.slides.animation/ipropertyeffect/valuetype) { get; set; } | Bir özellik değerinin tipini belirtir. Okuma/Yazma [`PropertyValueType`](../propertyvaluetype). |
+| [AsIBehavior](../../aspose.slides.animation/ipropertyeffect/asibehavior) { get; } | Temel IBehavior arayüzünü almayı sağlar. Yalnızca okunabilir [`IBehavior`](../ibehavior). |
+| [By](../../aspose.slides.animation/ipropertyeffect/by) { get; set; } | Animasyonun başlangıç konumuna göre göreli bir ofset değeri belirtir. Okunabilir/yazılabilir String. |
+| [CalcMode](../../aspose.slides.animation/ipropertyeffect/calcmode) { get; set; } | Animasyon için enterpolasyon modunu belirtir. Okunabilir/yazılabilir [`PropertyCalcModeType`](../propertycalcmodetype). |
+| [From](../../aspose.slides.animation/ipropertyeffect/from) { get; set; } | Animasyonun başlangıç değerini belirtir. Okunabilir/yazılabilir String. |
+| [Points](../../aspose.slides.animation/ipropertyeffect/points) { get; set; } | Animasyonun noktalarını belirtir. Okunabilir/yazılabilir [`IPointCollection`](../ipointcollection). |
+| [To](../../aspose.slides.animation/ipropertyeffect/to) { get; set; } | Animasyonun bitiş değerini belirtir. Okunabilir/yazılabilir String. |
+| [ValueType](../../aspose.slides.animation/ipropertyeffect/valuetype) { get; set; } | Bir özellik değerinin tipini belirtir. Okunabilir/yazılabilir [`PropertyValueType`](../propertyvaluetype). |
 
-### Ayrıca Bakınız
+### İlgili
 
 * arayüz [IBehavior](../ibehavior)
 * ad alanı [Aspose.Slides.Animation](../../aspose.slides.animation)

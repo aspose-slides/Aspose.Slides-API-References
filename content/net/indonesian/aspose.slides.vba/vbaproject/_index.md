@@ -3,10 +3,10 @@ title: VbaProject
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili proyek VBA dengan makro presentasi.
 type: docs
-weight: 11630
+weight: 11650
 url: /id/aspose.slides.vba/vbaproject/
 ---
-## VbaProject kelas
+## Kelas VbaProject
 
 Mewakili proyek VBA dengan makro presentasi.
 
@@ -16,25 +16,25 @@ public sealed class VbaProject : IVbaProject
 
 ## Konstruktor
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [VbaProject](vbaproject#constructor)() | Constructor ini membuat proyek VBA baru dari awal. Proyek akan dibuat dalam kode halaman 1252 Windows Latin 1 (ANSI). |
-| [VbaProject](vbaproject#constructor_1)(byte[]) | Constructor ini memuat proyek VBA dari representasi biner kontainer OLE. |
+| [VbaProject](vbaproject#constructor)() | Konstruktor ini membuat proyek VBA baru dari awal. Proyek akan dibuat dalam kode halaman 1252 Windows Latin 1 (ANSI). |
+| [VbaProject](vbaproject#constructor_1)(byte[]) | Konstruktor ini memuat proyek VBA dari representasi biner kontainer OLE. |
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [IsPasswordProtected](../../aspose.slides.vba/vbaproject/ispasswordprotected) { get; } | Menunjukkan apakah VBAProject dilindungi oleh password untuk melihat properti proyek. Boolean Baca-saja. |
-| [Modules](../../aspose.slides.vba/vbaproject/modules) { get; } | Mengembalikan daftar semua modul yang terdapat dalam proyek VBA. Baca-saja [`IVbaModuleCollection`](../ivbamodulecollection). |
-| [Name](../../aspose.slides.vba/vbaproject/name) { get; } | Mengembalikan nama proyek VBA. String Baca-saja. |
-| [References](../../aspose.slides.vba/vbaproject/references) { get; } | Mengembalikan daftar semua referensi yang terdapat dalam proyek VBA. Baca-saja [`IVbaReferenceCollection`](../ivbareferencecollection). |
+| [IsPasswordProtected](../../aspose.slides.vba/vbaproject/ispasswordprotected) { get; } | Menunjukkan apakah VBAProject dilindungi oleh kata sandi untuk melihat properti proyek. Boolean hanya-baca. |
+| [Modules](../../aspose.slides.vba/vbaproject/modules) { get; } | Mengembalikan daftar semua modul yang terdapat dalam proyek VBA. [`IVbaModuleCollection`](../ivbamodulecollection) hanya-baca. |
+| [Name](../../aspose.slides.vba/vbaproject/name) { get; } | Mengembalikan nama proyek VBA. String hanya-baca. |
+| [References](../../aspose.slides.vba/vbaproject/references) { get; } | Mengembalikan daftar semua referensi yang terdapat dalam proyek VBA. [`IVbaReferenceCollection`](../ivbareferencecollection) hanya-baca. |
 
 ## Metode
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [ToBinary](../../aspose.slides.vba/vbaproject/tobinary)() | Mengembalikan representasi biner proyek VBA sebagai kontainer OLE |
+| [ToBinary](../../aspose.slides.vba/vbaproject/tobinary)() | Mengembalikan representasi biner proyek VBA sebagai kontainer OLE. |
 
 ### Lihat Juga
 

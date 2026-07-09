@@ -1,14 +1,14 @@
 ---
 title: IAudioCollection
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 埋め込みオーディオファイルのコレクションを表します。
+description: 埋め込みオーディオ ファイルのコレクションを表します。
 type: docs
-weight: 5200
+weight: 5220
 url: /ja/aspose.slides/iaudiocollection/
 ---
 ## IAudioCollection インターフェイス
 
-埋め込みオーディオファイルのコレクションを表します。
+埋め込みオーディオ ファイルのコレクションを表します。
 
 ```csharp
 public interface IAudioCollection : IGenericCollection<IAudio>
@@ -24,9 +24,9 @@ public interface IAudioCollection : IGenericCollection<IAudio>
 
 | 名前 | 説明 |
 | --- | --- |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | バイト配列からオーディオを作成し、プレゼンテーションに追加します。 |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | バイト配列からプレゼンテーションにオーディオを作成して追加します。 |
 | [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio)(IAudio) | 別のプレゼンテーションからオーディオ ファイルのコピーを追加します。 |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | ストリームからオーディオを作成し、プレゼンテーションに追加します。 |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | ストリームからプレゼンテーションにオーディオを作成して追加します。 |
 
 ### 参照
 

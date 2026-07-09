@@ -1,9 +1,9 @@
 ---
 title: Rotation3D
-second_title: Referensi API .NET Aspose.Sildes
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili rotasi 3D dari sebuah diagram.
 type: docs
-weight: 2380
+weight: 2400
 url: /id/aspose.slides.charts/rotation3d/
 ---
 ## Rotation3D kelas
@@ -20,10 +20,10 @@ public class Rotation3D : IRotation3D
 | --- | --- |
 | [DepthPercents](../../aspose.slides.charts/rotation3d/depthpercents) { get; set; } | Mengembalikan atau mengatur kedalaman diagram 3D sebagai persentase lebar diagram (antara 20 dan 2000 persen). Baca/tulis UInt16. |
 | [HeightPercents](../../aspose.slides.charts/rotation3d/heightpercents) { get; set; } | Menentukan tinggi diagram 3D sebagai persentase lebar diagram (antara 5 dan 500 persen). Baca/tulis UInt16. |
-| [Perspective](../../aspose.slides.charts/rotation3d/perspective) { get; set; } | Mengembalikan atau mengatur nilai perspektif (sudut bidang pandang) untuk diagram 3D (antara 0 dan 240). Diabaikan jika nilai properti RightAngleAxes true. Baca/tulis Byte. |
-| [RightAngleAxes](../../aspose.slides.charts/rotation3d/rightangleaxes) { get; set; } | Menentukan apakah sumbu diagram berada pada sudut kanan, bukan digambar dalam perspektif. Dengan kata lain, menentukan apakah sudut sumbu diagram independen dari rotasi atau elevasi diagram. Baca/tulis Boolean. |
-| [RotationX](../../aspose.slides.charts/rotation3d/rotationx) { get; set; } | Mengembalikan atau mengatur derajat rotasi sekitar sumbu X, yaitu dalam arah Y untuk diagram 3D (antara -90 dan 90 derajat). Properti ini cocok dengan item 21.2.2.157 rotX (X Rotation) dalam ECMA-376 dan dengan opsi "Y Rotation" di PowerPoint 2007+. Baca/tulis SByte. |
-| [RotationY](../../aspose.slides.charts/rotation3d/rotationy) { get; set; } | Mengembalikan atau mengatur derajat rotasi sekitar sumbu Y, yaitu dalam arah X untuk diagram 3D (antara 0 dan 360 derajat). Properti ini cocok dengan item 21.2.2.158 rotY (Y Rotation) dalam ECMA-376 dan dengan opsi "X Rotation" di PowerPoint 2007+. Baca/tulis UInt16. |
+| [Perspective](../../aspose.slides.charts/rotation3d/perspective) { get; set; } | Mengembalikan atau mengatur nilai perspektif (sudut bidang pandang) untuk diagram 3D (antara 0 dan 240). Diabaikan jika nilai properti RightAngleAxes adalah true. Baca/tulis Byte. |
+| [RightAngleAxes](../../aspose.slides.charts/rotation3d/rightangleaxes) { get; set; } | Menentukan apakah sumbu diagram berada pada sudut tegak lurus, bukan digambar dalam perspektif. Dengan kata lain, ini menentukan apakah sudut sumbu diagram independen dari rotasi atau elevasi diagram. Baca/tulis Boolean. |
+| [RotationX](../../aspose.slides.charts/rotation3d/rotationx) { get; set; } | Mengembalikan atau mengatur derajat rotasi di sekitar sumbu X, yaitu arah Y untuk diagram 3D (antara -90 dan 90 derajat). Properti ini sesuai dengan item 21.2.2.157 rotX (X Rotation) dalam ECMA-376 dan dengan opsi "Y Rotation" di PowerPoint 2007+. Baca/tulis SByte. |
+| [RotationY](../../aspose.slides.charts/rotation3d/rotationy) { get; set; } | Mengembalikan atau mengatur derajat rotasi di sekitar sumbu Y, yaitu arah X untuk diagram 3D (antara 0 dan 360 derajat). Properti ini sesuai dengan item 21.2.158 rotY (Y Rotation) dalam ECMA-376 dan dengan opsi "X Rotation" di PowerPoint 2007+. Baca/tulis UInt16. |
 
 ### Lihat Juga
 

@@ -1,14 +1,14 @@
 ---
 title: SectionSlideCollection
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili kumpulan slide dalam bagian.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili koleksi slide dalam bagian.
 type: docs
-weight: 9750
+weight: 9770
 url: /id/aspose.slides/sectionslidecollection/
 ---
 ## SectionSlideCollection kelas
 
-Mewakili kumpulan slide dalam bagian.
+Mewakili koleksi slide dalam bagian.
 
 ```csharp
 public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCollection
@@ -16,19 +16,19 @@ public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCo
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | Mengambil jumlah elemen yang sebenarnya terdapat dalam koleksi. Baca-saja Int32. |
-| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (thread-safe). Baca-saja Boolean. |
-| [Item](../../aspose.slides/sectionslidecollection/item) { get; } | Mengambil elemen pada indeks yang ditentukan. Baca-saja [`ISlide`](../islide). |
-| [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | Mengembalikan akar sinkronisasi. Baca-saja Object. |
+| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | Mendapatkan jumlah elemen yang sebenarnya terkandung dalam koleksi. Hanya-baca Int32. |
+| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (thread-safe). Hanya-baca Boolean. |
+| [Item](../../aspose.slides/sectionslidecollection/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. Hanya-baca [`ISlide`](../islide). |
+| [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | Mengembalikan akar sinkronisasi. Hanya-baca Object. |
 
 ## Metode
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [CopyTo](../../aspose.slides/sectionslidecollection/copyto)(Array, int) | Menyalin seluruh koleksi ke array yang ditentukan. |
-| [GetEnumerator](../../aspose.slides/sectionslidecollection/getenumerator)() | Mengembalikan enumerator yang mengiterasi melalui koleksi. |
+| [GetEnumerator](../../aspose.slides/sectionslidecollection/getenumerator)() | Mengembalikan enumerator yang mengiterasi koleksi. |
 
 ### Lihat Juga
 

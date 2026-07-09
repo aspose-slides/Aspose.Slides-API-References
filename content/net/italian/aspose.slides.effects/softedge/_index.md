@@ -1,9 +1,9 @@
 ---
 title: SoftEdge
-second_title: Aspose.Sildes per .NET API Reference
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un effetto di bordo morbido. I bordi della forma sono sfocati mentre il riempimento non è influenzato.
 type: docs
-weight: 3630
+weight: 3650
 url: /it/aspose.slides.effects/softedge/
 ---
 ## SoftEdge classe
@@ -16,17 +16,17 @@ public sealed class SoftEdge : ISoftEdge
 
 ## Proprietà
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
-| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | Specifica il raggio della sfocatura da applicare ai bordi. Lettura/scrittura Double. |
+| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | Specifica il raggio della sfocatura da applicare ai bordi. Lettura/Scrittura Double. |
 
 ## Metodi
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/softedge/equals)(object) | Determina se il [`SoftEdge`](../softedge) specificato è uguale al corrente [`SoftEdge`](../softedge). |
-| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | Ottiene i dati dell'effetto Soft Edge efficace con l'ereditarietà applicata. |
-| override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | Funge da funzione hash per un tipo particolare. |
+| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | Ottiene i dati dell'effetto Soft Edge effettivo con l'ereditarietà applicata. |
+| override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | Funziona come una funzione hash per un tipo particolare. |
 
 ### Vedi anche
 

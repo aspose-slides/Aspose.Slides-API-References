@@ -3,10 +3,10 @@ title: IVbaProject
 second_title: Aspose.Sildes için .NET API Referansı
 description: Sunum makroları içeren VBA projesini temsil eder.
 type: docs
-weight: 11530
+weight: 11550
 url: /tr/aspose.slides.vba/ivbaproject/
 ---
-## IVbaProject arayüzü
+## IVbaProject arayüz
 
 Sunum makroları içeren VBA projesini temsil eder.
 
@@ -18,7 +18,7 @@ public interface IVbaProject
 
 | Ad | Açıklama |
 | --- | --- |
-| [IsPasswordProtected](../../aspose.slides.vba/ivbaproject/ispasswordprotected) { get; } | VBAProject'in proje özelliklerini görüntülemek için bir şifreyle korunup korunmadığını gösterir. Yalnızca okuma Boolean. |
+| [IsPasswordProtected](../../aspose.slides.vba/ivbaproject/ispasswordprotected) { get; } | VBAProject'in proje özelliklerini görüntülemek için bir parola ile korunup korunmadığını gösterir. Yalnızca okuma Boolean. |
 | [Modules](../../aspose.slides.vba/ivbaproject/modules) { get; } | VBA projesinde bulunan tüm modüllerin listesini döndürür. Yalnızca okuma [`IVbaModuleCollection`](../ivbamodulecollection). |
 | [Name](../../aspose.slides.vba/ivbaproject/name) { get; } | VBA projesinin adını döndürür. Yalnızca okuma String. |
 | [References](../../aspose.slides.vba/ivbaproject/references) { get; } | VBA projesinde bulunan tüm referansların listesini döndürür. Yalnızca okuma [`IVbaReferenceCollection`](../ivbareferencecollection). |

@@ -4,15 +4,15 @@ type: docs
 weight: 10
 url: /it/
 keywords: "Aspose.Slides for .NET, Aspose Slides, Aspose PowerPoint, Aspose PPT, Aspose API Reference."
-description: Aspose.Slides sono API di gestione Microsoft PowerPoint® che consentono alle applicazioni software di leggere e scrivere documenti PowerPoint® senza utilizzare Microsoft PowerPoint®.
+description: "Aspose.Slides sono le API di gestione di Microsoft PowerPoint® che consentono alle applicazioni software di leggere e scrivere documenti PowerPoint® senza utilizzare Microsoft PowerPoint®."
 is_root: true
 ---
 ## Spazi dei nomi
 
-| Spazio dei nomi | Descrizione |
+| Namespace | Descrizione |
 | --- | --- |
 | [Aspose.Slides](./aspose.slides) | Contiene classi per lavorare con presentazioni Microsoft PowerPoint senza utilizzare Microsoft PowerPoint. |
-| [Aspose.Slides.AI](./aspose.slides.ai) | Contiene classi che forniscono funzionalità basate sull'intelligenza artificiale per analizzare e elaborare presentazioni PowerPoint. |
+| [Aspose.Slides.AI](./aspose.slides.ai) | Contiene classi che offrono funzionalità basate sull'IA per l'analisi e l'elaborazione di presentazioni PowerPoint. |
 | [Aspose.Slides.Animation](./aspose.slides.animation) | Contiene classi per lavorare con animazioni in presentazioni Microsoft PowerPoint. |
 | [Aspose.Slides.Charts](./aspose.slides.charts) | Contiene classi per lavorare con grafici in presentazioni Microsoft PowerPoint. |
 | [Aspose.Slides.DOM.Ole](./aspose.slides.dom.ole) | Contiene classi per lavorare con oggetti OLE in presentazioni Microsoft PowerPoint. |
@@ -21,15 +21,15 @@ is_root: true
 | [Aspose.Slides.Export](./aspose.slides.export) | Contiene classi per esportare presentazioni Microsoft PowerPoint in diversi formati come Html, Pdf, Svg, Xps e altri. |
 | [Aspose.Slides.Export.Web](./aspose.slides.export.web) | Contiene classi per esportare presentazioni Microsoft PowerPoint in Html con progetti di estensione. |
 | [Aspose.Slides.Export.Xaml](./aspose.slides.export.xaml) | Contiene classi per esportare presentazioni Microsoft PowerPoint in XAML. |
-| [Aspose.Slides.Import](./aspose.slides.import) | Contiene classi per importare dati in presentazioni Microsoft PowerPoint. |
+| [Aspose.Slides.Import](./aspose.slides.import) | Contiene classi che importano dati nelle presentazioni Microsoft PowerPoint. |
 | [Aspose.Slides.Ink](./aspose.slides.ink) | Contiene classi per lavorare con Ink. |
-| [Aspose.Slides.LowCode](./aspose.slides.lowcode) | Contiene classi e metodi per gestire operazioni generali complesse in modalità low code. |
+| [Aspose.Slides.LowCode](./aspose.slides.lowcode) | Contiene classi e metodi per gestire operazioni generali complesse in modalità low-code. |
 | [Aspose.Slides.MathText](./aspose.slides.mathtext) | Contiene classi per lavorare con testo matematico in presentazioni Microsoft PowerPoint. |
-| [Aspose.Slides.SlideShow](./aspose.slides.slideshow) | Contiene classi per gestire presentazioni e transizioni delle diapositive |
+| [Aspose.Slides.SlideShow](./aspose.slides.slideshow) | Contiene classi per gestire presentazioni e transizioni diapositive |
 | [Aspose.Slides.SmartArt](./aspose.slides.smartart) | Contiene classi per lavorare con oggetti SmartArt |
 | [Aspose.Slides.Spreadsheet](./aspose.slides.spreadsheet) | Contiene classi per lavorare con oggetti foglio di calcolo in presentazioni Microsoft PowerPoint. |
 | [Aspose.Slides.Theme](./aspose.slides.theme) | Contiene classi per lavorare con diversi tipi di temi. |
-| [Aspose.Slides.Util](./aspose.slides.util) | Contiene classi utili che aiutano a lavorare con le presentazioni. |
+| [Aspose.Slides.Util](./aspose.slides.util) | Contiene classi di utilità che aiutano a lavorare con le presentazioni. |
 | [Aspose.Slides.Vba](./aspose.slides.vba) | Contiene classi per lavorare con macro VBA |
 | [Aspose.Slides.Warnings](./aspose.slides.warnings) | Contiene classi che rappresentano vari tipi di avvisi |
 

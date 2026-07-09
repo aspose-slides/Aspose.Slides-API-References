@@ -1,9 +1,9 @@
 ---
 title: IEffectFormat
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET - odniesienie API
 description: Reprezentuje właściwości efektów kształtu.
 type: docs
-weight: 5720
+weight: 5740
 url: /pl/aspose.slides/ieffectformat/
 ---
 ## IEffectFormat interfejs
@@ -19,36 +19,36 @@ public interface IEffectFormat : IEffectParamSource
 | Nazwa | Opis |
 | --- | --- |
 | [AsIEffectParamSource](../../aspose.slides/ieffectformat/asieffectparamsource) { get; } | Umożliwia pobranie podstawowego interfejsu IEffectParamSource. Tylko do odczytu [`IEffectParamSource`](../ieffectparamsource). |
-| [BlurEffect](../../aspose.slides/ieffectformat/blureffect) { get; set; } | Efekt rozmycia. Odczyt/zapis [`IBlur`](../../aspose.slides.effects/iblur). |
-| [FillOverlayEffect](../../aspose.slides/ieffectformat/filloverlayeffect) { get; set; } | Efekt nakładki wypełnienia. Odczyt/zapis [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
-| [GlowEffect](../../aspose.slides/ieffectformat/gloweffect) { get; set; } | Efekt poświaty. Odczyt/zapis [`IGlow`](../../aspose.slides.effects/iglow). |
-| [InnerShadowEffect](../../aspose.slides/ieffectformat/innershadoweffect) { get; set; } | Cień wewnętrzny. Odczyt/zapis [`IInnerShadow`](../../aspose.slides.effects/iinnershadow). |
-| [IsNoEffects](../../aspose.slides/ieffectformat/isnoeffects) { get; } | Zwraca true, jeśli wszystkie efekty są wyłączone (tak jak przy nowo utworzonym, domyślnym obiekcie EffectFormat). Tylko do odczytu Boolean. |
-| [OuterShadowEffect](../../aspose.slides/ieffectformat/outershadoweffect) { get; set; } | Cień zewnętrzny. Odczyt/zapis [`IOuterShadow`](../../aspose.slides.effects/ioutershadow). |
-| [PresetShadowEffect](../../aspose.slides/ieffectformat/presetshadoweffect) { get; set; } | Predefiniowany cień. Odczyt/zapis [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow). |
-| [ReflectionEffect](../../aspose.slides/ieffectformat/reflectioneffect) { get; set; } | Odbicie. Odczyt/zapis [`IReflection`](../../aspose.slides.effects/ireflection). |
-| [SoftEdgeEffect](../../aspose.slides/ieffectformat/softedgeeffect) { get; set; } | Miękka krawędź. Odczyt/zapis [`ISoftEdge`](../../aspose.slides.effects/isoftedge). |
+| [BlurEffect](../../aspose.slides/ieffectformat/blureffect) { get; set; } | Efekt rozmycia. odczyt/zapis [`IBlur`](../../aspose.slides.effects/iblur). |
+| [FillOverlayEffect](../../aspose.slides/ieffectformat/filloverlayeffect) { get; set; } | Efekt wypełnienia nakładką. odczyt/zapis [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
+| [GlowEffect](../../aspose.slides/ieffectformat/gloweffect) { get; set; } | Efekt poświaty. odczyt/zapis [`IGlow`](../../aspose.slides.effects/iglow). |
+| [InnerShadowEffect](../../aspose.slides/ieffectformat/innershadoweffect) { get; set; } | Cień wewnętrzny. odczyt/zapis [`IInnerShadow`](../../aspose.slides.effects/iinnershadow). |
+| [IsNoEffects](../../aspose.slides/ieffectformat/isnoeffects) { get; } | Zwraca true, jeśli wszystkie efekty są wyłączone (tak jak zaraz po utworzeniu, domyślny obiekt EffectFormat). Tylko do odczytu Boolean. |
+| [OuterShadowEffect](../../aspose.slides/ieffectformat/outershadoweffect) { get; set; } | Cień zewnętrzny. odczyt/zapis [`IOuterShadow`](../../aspose.slides.effects/ioutershadow). |
+| [PresetShadowEffect](../../aspose.slides/ieffectformat/presetshadoweffect) { get; set; } | Cień presetowany. odczyt/zapis [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow). |
+| [ReflectionEffect](../../aspose.slides/ieffectformat/reflectioneffect) { get; set; } | Odbicie. odczyt/zapis [`IReflection`](../../aspose.slides.effects/ireflection). |
+| [SoftEdgeEffect](../../aspose.slides/ieffectformat/softedgeeffect) { get; set; } | Miękka krawędź. odczyt/zapis [`ISoftEdge`](../../aspose.slides.effects/isoftedge). |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
 | [DisableBlurEffect](../../aspose.slides/ieffectformat/disableblureffect)() | Wyłącza efekt rozmycia. |
-| [DisableFillOverlayEffect](../../aspose.slides/ieffectformat/disablefilloverlayeffect)() | Wyłącza efekt nakładki wypełnienia. |
+| [DisableFillOverlayEffect](../../aspose.slides/ieffectformat/disablefilloverlayeffect)() | Wyłącza efekt wypełnienia nakładką. |
 | [DisableGlowEffect](../../aspose.slides/ieffectformat/disablegloweffect)() | Wyłącza efekt poświaty. |
 | [DisableInnerShadowEffect](../../aspose.slides/ieffectformat/disableinnershadoweffect)() | Wyłącza efekt cienia wewnętrznego. |
 | [DisableOuterShadowEffect](../../aspose.slides/ieffectformat/disableoutershadoweffect)() | Wyłącza efekt cienia zewnętrznego. |
-| [DisablePresetShadowEffect](../../aspose.slides/ieffectformat/disablepresetshadoweffect)() | Wyłącza predefiniowany efekt cienia. |
+| [DisablePresetShadowEffect](../../aspose.slides/ieffectformat/disablepresetshadoweffect)() | Wyłącza efekt cienia presetowanego. |
 | [DisableReflectionEffect](../../aspose.slides/ieffectformat/disablereflectioneffect)() | Wyłącza efekt odbicia. |
 | [DisableSoftEdgeEffect](../../aspose.slides/ieffectformat/disablesoftedgeeffect)() | Wyłącza efekt miękkiej krawędzi. |
-| [EnableFillOverlayEffect](../../aspose.slides/ieffectformat/enablefilloverlayeffect)() | Włącza efekt nakładki wypełnienia. |
+| [EnableFillOverlayEffect](../../aspose.slides/ieffectformat/enablefilloverlayeffect)() | Włącza efekt wypełnienia nakładką. |
 | [EnableGlowEffect](../../aspose.slides/ieffectformat/enablegloweffect)() | Włącza efekt poświaty. |
 | [EnableInnerShadowEffect](../../aspose.slides/ieffectformat/enableinnershadoweffect)() | Włącza efekt cienia wewnętrznego. |
 | [EnableOuterShadowEffect](../../aspose.slides/ieffectformat/enableoutershadoweffect)() | Włącza efekt cienia zewnętrznego. |
-| [EnablePresetShadowEffect](../../aspose.slides/ieffectformat/enablepresetshadoweffect)() | Włącza predefiniowane cienie. |
+| [EnablePresetShadowEffect](../../aspose.slides/ieffectformat/enablepresetshadoweffect)() | Włącza efekt presetowanych cieni. |
 | [EnableReflectionEffect](../../aspose.slides/ieffectformat/enablereflectioneffect)() | Włącza efekt odbicia. |
 | [EnableSoftEdgeEffect](../../aspose.slides/ieffectformat/enablesoftedgeeffect)() | Włącza efekt miękkiej krawędzi. |
-| [GetEffective](../../aspose.slides/ieffectformat/geteffective)() | Pobiera skuteczne dane formatowania efektu z zastosowanym dziedziczeniem. |
+| [GetEffective](../../aspose.slides/ieffectformat/geteffective)() | Pobiera skuteczne dane formatowania efektów z zastosowanym dziedziczeniem. |
 | [SetBlurEffect](../../aspose.slides/ieffectformat/setblureffect)(double, bool) | Ustawia efekt rozmycia. |
 
 ### Zobacz także

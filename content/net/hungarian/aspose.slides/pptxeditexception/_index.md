@@ -1,14 +1,14 @@
 ---
 title: PptxEditException
-second_title: Aspose.Sildes .NET API-referencia
-description: Olyan kivételt képvisel, amely akkor dobódik, amikor szerkesztési prezentációs hibát észlelnek.
+second_title: Aspose.Sildes a .NET API hivatkozáshoz
+description: Olyan kivételt jelöl, amelyet a prezentáció szerkesztési hibájának észlelésekor dobnak.
 type: docs
-weight: 9530
+weight: 9550
 url: /hu/aspose.slides/pptxeditexception/
 ---
 ## PptxEditException osztály
 
-Kivétel, amely akkor dobódik, amikor szerkesztési prezentációs hibát észlelnek.
+Olyan kivételt jelöl, amelyet a prezentáció szerkesztési hibájának észlelésekor dobnak.
 
 ```csharp
 public class PptxEditException : PptxException

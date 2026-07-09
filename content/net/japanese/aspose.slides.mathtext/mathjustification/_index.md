@@ -1,14 +1,14 @@
 ---
 title: MathJustification
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 同じ段落内の隣接した数式テキストの系列である数式段落の配置を指定します
+description: 数式段落（同じ段落内に隣接する数式テキストの一連）の配置を指定します。
 type: docs
-weight: 8780
+weight: 8800
 url: /ja/aspose.slides.mathtext/mathjustification/
 ---
 ## MathJustification 列挙型
 
-数式段落（同じ段落内の隣接した数式テキストの系列）の配置を指定します
+数式段落の配置を指定します（同じ段落内に隣接する数式テキストの一連）
 
 ```csharp
 public enum MathJustification
@@ -18,10 +18,10 @@ public enum MathJustification
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| LeftJustified | `1` | 数式テキストを左揃えにする |
-| RightJustified | `2` | 数式テキストを右揃えにする |
-| Centered | `3` | 数式テキストを中央揃えにする |
-| CenteredAsGroup | `4` | ページ上で数式ブロック全体のグループを1つの単位として中央に配置します。これは、数式テキストの各インスタンスは互いに揃えることができますが、数式テキスト全体のグループは全体として中央に配置されることを意味します。 |
+| LeftJustified | `1` | 数式テキストを左揃えにします |
+| RightJustified | `2` | 数式テキストを右揃えにします |
+| Centered | `3` | 数式テキストを中央揃えにします |
+| CenteredAsGroup | `4` | ページ上で数式ブロック全体を単一の単位として中央に配置します。これは、数式テキストのインスタンス同士は相互に配置できるが、数式テキスト全体のグループは全体として中央に配置されることを意味します。 |
 
 ### 参照
 

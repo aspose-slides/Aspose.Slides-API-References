@@ -1,9 +1,9 @@
 ---
 title: LoadFormat
-second_title: Aspose.Sildes dla .NET – referencja API
+second_title: Aspose.Sildes dla .NET – Referencja API
 description: Wskazuje format dokumentu, który ma zostać załadowany.
 type: docs
-weight: 7810
+weight: 7830
 url: /pl/aspose.slides/loadformat/
 ---
 ## Wyliczenie LoadFormat
@@ -18,23 +18,23 @@ public enum LoadFormat
 
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
-| Auto | `0` | Poleca Aspose.Slides rozpoznanie formatu automatycznie. |
-| Ppt | `1` | Prezentacja Microsoft PowerPoint 97-2003. |
-| Pps | `2` | Pokaz slajdów Microsoft PowerPoint 97-2003. |
-| Pptx | `3` | Dokument Microsoft Office Open XML PresentationML. |
-| Ppsx | `4` | Pokaz slajdów Microsoft Office Open XML PresentationML. |
-| Odp | `5` | Prezentacja OpenOffice ODF. |
-| Potx | `6` | Szablon Microsoft Office Open XML PresentationML. |
-| Pptm | `7` | Dokument Microsoft Office Open XML PresentationML z obsługą makr. |
-| Ppsm | `8` | Pokaz slajdów Microsoft Office Open XML PresentationML z obsługą makr. |
-| Potm | `9` | Szablon Microsoft Office Open XML PresentationML z obsługą makr. |
-| Otp | `10` | Szablon prezentacji OpenOffice OTP. |
-| Ppt95 | `11` | Prezentacja Microsoft PowerPoint 95. |
-| Pot | `12` | Szablon prezentacji Microsoft PowerPoint 97-2003. |
-| Fodp | `13` | Prezentacja Flat XML ODF. |
+| Auto | `0` | Instrukcje dla Aspose.Slides, aby automatycznie rozpoznawał format. |
+| Ppt | `1` | Microsoft PowerPoint 97-2003 Presentation. |
+| Pps | `2` | Microsoft PowerPoint 97-2003 SlideShow. |
+| Pptx | `3` | Microsoft Office Open XML PresentationML Document. |
+| Ppsx | `4` | Microsoft Office Open XML PresentationML SlideShow. |
+| Odp | `5` | OpenOffice ODF Presentation. |
+| Potx | `6` | Microsoft Office Open XML PresentationML Template. |
+| Pptm | `7` | Microsoft Office Open XML PresentationML Macro-enabled Document. |
+| Ppsm | `8` | Microsoft Office Open XML PresentationML Macro-enabled SlideShow. |
+| Potm | `9` | Microsoft Office Open XML PresentationML Macro-enabled Template. |
+| Otp | `10` | OpenOffice OTP Presentation template. |
+| Ppt95 | `11` | Microsoft PowerPoint 95 Presentation. |
+| Pot | `12` | Microsoft PowerPoint 97-2003 Presentation Template. |
+| Fodp | `13` | Flat XML ODF Presentation. |
 | Unknown | `255` | Nieznany format pliku |
 
-### Patrz także
+### Zobacz także
 
 * przestrzeń nazw [Aspose.Slides](../../aspose.slides)
 * zestaw [Aspose.Slides](../../)

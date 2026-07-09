@@ -1,14 +1,14 @@
 ---
 title: IGlowEffectiveData
-second_title: Aspose.Sildes for .NET API リファレンス
-description: オブジェクトのエッジの外側にカラーのぼかしアウトラインが追加される Glow エフェクトを表す不変オブジェクトです。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: オブジェクトのエッジの外側に、色のぼかし輪郭が追加される Glow 効果を表す不変オブジェクトです。
 type: docs
-weight: 3310
+weight: 3330
 url: /ja/aspose.slides.effects/igloweffectivedata/
 ---
 ## IGlowEffectiveData インターフェイス
 
-オブジェクトのエッジの外側にカラーのぼかしアウトラインが追加される Glow エフェクトを表す不変オブジェクトです。
+オブジェクトのエッジの外側に、色付きのぼかし輪郭が追加される Glow 効果を表す不変オブジェクトです。
 
 ```csharp
 public interface IGlowEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface IGlowEffectiveData : IEffectEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/igloweffectivedata/asieffecteffectivedata) { get; } | IEffectEffectiveData インターフェイスの基本を取得できます。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
-| [Color](../../aspose.slides.effects/igloweffectivedata/color) { get; } | Color. 読み取り専用 Color。 |
-| [Radius](../../aspose.slides.effects/igloweffectivedata/radius) { get; } | Radius. 読み取り専用 Double。 |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/igloweffectivedata/asieffecteffectivedata) { get; } | ベースの IEffectEffectiveData インターフェイスを取得できます。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
+| [Color](../../aspose.slides.effects/igloweffectivedata/color) { get; } | Color. 読み取り専用 Color. |
+| [Radius](../../aspose.slides.effects/igloweffectivedata/radius) { get; } | Radius. 読み取り専用 Double. |
 
 ### 参照
 

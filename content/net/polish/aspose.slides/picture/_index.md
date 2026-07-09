@@ -1,9 +1,9 @@
 ---
 title: Picture
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET API Reference
 description: Reprezentuje obraz w prezentacji.
 type: docs
-weight: 9360
+weight: 9380
 url: /pl/aspose.slides/picture/
 ---
 ## Picture klasa
@@ -16,21 +16,21 @@ public sealed class Picture : ISlidesPicture
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/picture/asipresentationcomponent) { get; } | Umożliwia pobranie podstawowego interfejsu IPresentationComponent. Tylko do odczytu [`IPresentationComponent`](../ipresentationcomponent). |
-| [Image](../../aspose.slides/picture/image) { get; set; } | Zwraca lub ustawia osadzony obraz. Odczyt/zapis [`IPPImage`](../ippimage). |
-| [ImageTransform](../../aspose.slides/picture/imagetransform) { get; } | Zwraca kolekcję efektów przekształceń obrazu. Tylko do odczytu [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
-| [LinkPathLong](../../aspose.slides/picture/linkpathlong) { get; set; } | Zwraca lub ustawia adres URL powiązanego obrazu. Odczyt/zapis String. |
-| [Presentation](../../aspose.slides/picture/presentation) { get; } | Zwraca prezentację. Tylko do odczytu [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/picture/slide) { get; } | Zwraca slajd nadrzędny obrazu. Tylko do odczytu [`IBaseSlide`](../ibaseslide). |
+| [AsIPresentationComponent](../../aspose.slides/picture/asipresentationcomponent) { get; } | Umożliwia pobranie podstawowego interfejsu IPresentationComponent. Read-only [`IPresentationComponent`](../ipresentationcomponent). |
+| [Image](../../aspose.slides/picture/image) { get; set; } | Zwraca lub ustawia osadzony obraz. Read/write [`IPPImage`](../ippimage). |
+| [ImageTransform](../../aspose.slides/picture/imagetransform) { get; } | Zwraca kolekcję efektów transformacji obrazu. Read-only [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
+| [LinkPathLong](../../aspose.slides/picture/linkpathlong) { get; set; } | Zwraca lub ustawia URL powiązanego obrazu. Read/write String. |
+| [Presentation](../../aspose.slides/picture/presentation) { get; } | Zwraca prezentację. Read-only [`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/picture/slide) { get; } | Zwraca slajd nadrzędny obrazu. Read-only [`IBaseSlide`](../ibaseslide). |
 
 ## Metody
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides/picture/equals)(object) | Porównuje z określonym obiektem. |
-| override [GetHashCode](../../aspose.slides/picture/gethashcode)() | Zwraca hasz. |
+| override [Equals](../../aspose.slides/picture/equals)(object) | Porównuje z podanym obiektem. |
+| override [GetHashCode](../../aspose.slides/picture/gethashcode)() | Zwraca hash. |
 
 ### Zobacz także
 

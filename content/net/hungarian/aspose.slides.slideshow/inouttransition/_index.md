@@ -1,14 +1,14 @@
 ---
 title: InOutTransition
-second_title: Aspose.Sildes .NET API referencia
-description: In-Out diaátmeneti effektus.
+second_title: Aspose.Sildes .NET API-referenciája
+description: Be- és kimeneti diaátmenet hatás.
 type: docs
-weight: 10210
+weight: 10230
 url: /hu/aspose.slides.slideshow/inouttransition/
 ---
 ## InOutTransition osztály
 
-In-Out diaátmeneti effektus.
+Be- és kimeneti diaátmenet hatás.
 
 ```csharp
 public class InOutTransition : TransitionValueBase, IInOutTransition
@@ -20,12 +20,12 @@ public class InOutTransition : TransitionValueBase, IInOutTransition
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/inouttransition/direction) { get; set; } | Az átmeneti effektus iránya. Olvasás/írás [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Megállapítja, hogy a két TransitionValueBase példány egyenlő-e. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Hash függvényként szolgál egy adott típushoz, amely alkalmas hash algoritmusokban és adatstruktúrákban, például hash tábla használatára. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Meghatározza, hogy a két TransitionValueBase példány egyenlő-e. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Hash függvényként szolgál egy adott típushoz, amely alkalmas hash algoritmusokban és olyan adatstruktúrákban, mint a hash tábla. |
 
 ### Lásd még
 

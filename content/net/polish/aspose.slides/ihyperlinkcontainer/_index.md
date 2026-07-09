@@ -1,9 +1,9 @@
 ---
 title: IHyperlinkContainer
-second_title: Aspose.Sildes dla referencji API .NET
+second_title: Aspose.Sildes dla .NET – referencja API
 description: Reprezentuje obiekt hiperłącza.
 type: docs
-weight: 6100
+weight: 6120
 url: /pl/aspose.slides/ihyperlinkcontainer/
 ---
 ## IHyperlinkContainer interfejs
@@ -18,11 +18,11 @@ public interface IHyperlinkContainer
 
 | Nazwa | Opis |
 | --- | --- |
-| [HyperlinkClick](../../aspose.slides/ihyperlinkcontainer/hyperlinkclick) { get; set; } | Zwraca lub ustawia hiperłącze zdefiniowane dla kliknięcia myszy. Odczyt/zapis [`IHyperlink`](../ihyperlink). |
+| [HyperlinkClick](../../aspose.slides/ihyperlinkcontainer/hyperlinkclick) { get; set; } | Zwraca lub ustawia hiperłącze zdefiniowane dla kliknięcia myszą. Odczyt/zapis [`IHyperlink`](../ihyperlink). |
 | [HyperlinkManager](../../aspose.slides/ihyperlinkcontainer/hyperlinkmanager) { get; } | Menedżer hiperłączy Tylko do odczytu [`IHyperlinkManager`](../ihyperlinkmanager). |
 | [HyperlinkMouseOver](../../aspose.slides/ihyperlinkcontainer/hyperlinkmouseover) { get; set; } | Zwraca lub ustawia hiperłącze zdefiniowane dla najechania myszą. Odczyt/zapis [`IHyperlink`](../ihyperlink). |
 
-### Zobacz również
+### Zobacz także
 
 * przestrzeń nazw [Aspose.Slides](../../aspose.slides)
 * zestaw [Aspose.Slides](../../)

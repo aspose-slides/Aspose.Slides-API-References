@@ -1,12 +1,12 @@
 ---
 title: TransitionEightDirectionType
 second_title: Aspose.Sildes için .NET API Referansı
-description: Sekiz yön geçiş tipini temsil eder.
+description: Sekiz yön geçiş türlerini temsil eder.
 type: docs
-weight: 10340
+weight: 10360
 url: /tr/aspose.slides.slideshow/transitioneightdirectiontype/
 ---
-## TransitionEightDirectionType enumerasyonu
+## TransitionEightDirectionType sayımı
 
 Sekiz yön geçiş tipini temsil eder.
 
@@ -18,14 +18,14 @@ public enum TransitionEightDirectionType
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| LeftDown | `0` | |
-| LeftUp | `1` | |
-| RightDown | `2` | |
-| RightUp | `3` | |
-| Left | `4` | |
-| Up | `5` | |
-| Down | `6` | |
-| Right | `7` | |
+| LeftDown | `0` |  |
+| LeftUp | `1` |  |
+| RightDown | `2` |  |
+| RightUp | `3` |  |
+| Left | `4` |  |
+| Up | `5` |  |
+| Down | `6` |  |
+| Right | `7` |  |
 
 ### Ayrıca Bakınız
 

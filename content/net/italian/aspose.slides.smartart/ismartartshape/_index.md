@@ -1,9 +1,9 @@
 ---
 title: ISmartArtShape
-second_title: Aspose.Sildes per il riferimento API .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta una forma all'interno del diagramma SmartArt
 type: docs
-weight: 10550
+weight: 10570
 url: /it/aspose.slides.smartart/ismartartshape/
 ---
 ## ISmartArtShape interfaccia

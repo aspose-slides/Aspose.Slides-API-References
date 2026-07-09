@@ -1,14 +1,14 @@
 ---
 title: CellInvalidFormulaException
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 計算された数式が正しくない、または解析できなかったときにスローされる例外です。
+description: 計算された数式が正しくない、または解析できなかった場合にスローされる例外です。
 type: docs
-weight: 10690
+weight: 10710
 url: /ja/aspose.slides.spreadsheet/cellinvalidformulaexception/
 ---
 ## CellInvalidFormulaException クラス
 
-計算された数式が正しくない、または解析できなかったときにスローされる例外です。
+計算された数式が正しくない、または解析できなかった場合にスローされる例外です。
 
 ```csharp
 public class CellInvalidFormulaException : PptxEditException
@@ -18,10 +18,10 @@ public class CellInvalidFormulaException : PptxEditException
 
 | 名前 | 説明 |
 | --- | --- |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor)() | [`CellInvalidFormulaException`](../cellinvalidformulaexception) クラスの新しいインスタンスを初期化します。 |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_1)(string) | [`CellInvalidFormulaException`](../cellinvalidformulaexception) クラスの新しいインスタンスを、指定されたエラーメッセージで初期化します。 |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_2)(string, Exception) | [`CellInvalidFormulaException`](../cellinvalidformulaexception) クラスの新しいインスタンスを、指定されたエラーメッセージと、この例外の原因となる内部例外への参照で初期化します。 |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_3)(string, string) | [`CellInvalidFormulaException`](../cellinvalidformulaexception) クラスの新しいインスタンスを、指定されたエラーメッセージと、無効な数式を含むセル参照で初期化します。 |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor)() | 新しい [`CellInvalidFormulaException`](../cellinvalidformulaexception) クラスのインスタンスを初期化します。 |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_1)(string) | 指定されたエラーメッセージを使用して、新しい [`CellInvalidFormulaException`](../cellinvalidformulaexception) クラスのインスタンスを初期化します。 |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_2)(string, Exception) | 指定されたエラーメッセージと、この例外の原因となる内部例外への参照を使用して、新しい [`CellInvalidFormulaException`](../cellinvalidformulaexception) クラスのインスタンスを初期化します。 |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_3)(string, string) | 指定されたエラーメッセージと、無効な数式を含むセル参照を使用して、新しい [`CellInvalidFormulaException`](../cellinvalidformulaexception) クラスのインスタンスを初期化します。 |
 
 ## プロパティ
 

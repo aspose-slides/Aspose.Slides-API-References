@@ -1,14 +1,14 @@
 ---
 title: PPImageFormat
-second_title: Aspose.Sildes a .NET API referencia
-description: Képpformátumok. Ez az enum a System.Drawing.Imaging.ImageFormat osztály helyettesítője. COM kompatibilitáshoz szükséges.
+second_title: Aspose.Sildes .NET API referencia
+description: Képtípusok. Ez az enum helyettesíti a System.Drawing.Imaging.ImageFormat osztályt. COM kompatibilitáshoz szükséges.
 type: docs
-weight: 9240
+weight: 9260
 url: /hu/aspose.slides/ppimageformat/
 ---
-## PPImageFormat enumeration
+## PPImageFormat enumeráció
 
-Képpformátumok. Ez az enum helyettesíti a `System.Drawing.Imaging.ImageFormat` osztályt. Szükséges a COM kompatibilitáshoz.
+Képtípusok. Ez az enum helyettesíti a `System.Drawing.Imaging.ImageFormat` osztályt. COM kompatibilitáshoz szükséges.
 
 ```csharp
 public enum PPImageFormat
@@ -18,16 +18,16 @@ public enum PPImageFormat
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Bmp | `0` | A bitmap (BMP) képpformátumot adja vissza. |
-| Emf | `1` | A bővített metafájl (EMF) képpformátumot adja vissza. |
+| Bmp | `0` | A bitmap (BMP) képtípust adja vissza. |
+| Emf | `1` | A kibővített metafájl (EMF) képtípust adja vissza. |
 | Exif | `2` | Az Exchangeable Image File (Exif) formátumot adja vissza. |
-| Gif | `3` | A Graphics Interchange Format (GIF) képpformátumot adja vissza. |
-| Icon | `4` | A Windows ikon képpformátumot adja vissza. |
-| Jpeg | `5` | A Joint Photographic Experts Group (JPEG) képpformátumot adja vissza. |
+| Gif | `3` | A Graphics Interchange Format (GIF) képtípust adja vissza. |
+| Icon | `4` | A Windows ikon képtípust adja vissza. |
+| Jpeg | `5` | A Joint Photographic Experts Group (JPEG) képtípust adja vissza. |
 | MemoryBmp | `6` | A memóriában lévő bitmap formátumát adja vissza. |
-| Png | `7` | A W3C Portable Network Graphics (PNG) képpformátumot adja vissza. |
-| Tiff | `8` | A Tagged Image File Format (TIFF) képpformátumot adja vissza. |
-| Wmf | `9` | A Windows metafájl (WMF) képpformátumot adja vissza. |
+| Png | `7` | A W3C Portable Network Graphics (PNG) képtípust adja vissza. |
+| Tiff | `8` | A Tagged Image File Format (TIFF) képtípust adja vissza. |
+| Wmf | `9` | A Windows metafájl (WMF) képtípust adja vissza. |
 
 ### Lásd még
 

@@ -1,9 +1,9 @@
 ---
 title: ITextFrameFormat
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET – reference API
 description: Obsahuje vlastnosti formátování TextFrames.
 type: docs
-weight: 7260
+weight: 7280
 url: /cs/aspose.slides/itextframeformat/
 ---
 ## ITextFrameFormat rozhraní
@@ -16,34 +16,34 @@ public interface ITextFrameFormat
 
 ## Vlastnosti
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
-| [AnchoringType](../../aspose.slides/itextframeformat/anchoringtype) { get; set; } | Vrací nebo nastavuje vertikální kotvu textu v TextFrame. Čtení/zápis [`TextAnchorType`](../textanchortype). |
+| [AnchoringType](../../aspose.slides/itextframeformat/anchoringtype) { get; set; } | Vrací nebo nastavuje vertikální kotevní text v TextFrame. Čtení/zápis [`TextAnchorType`](../textanchortype). |
 | [AutofitType](../../aspose.slides/itextframeformat/autofittype) { get; set; } | Vrací nebo nastavuje režim automatického přizpůsobení textu. Čtení/zápis [`TextAutofitType`](../textautofittype). |
 | [CenterText](../../aspose.slides/itextframeformat/centertext) { get; set; } | Pokud NullableBool.True, text by měl být vodorovně vycentrován v rámečku. Čtení/zápis [`NullableBool`](../nullablebool). |
-| [ColumnCount](../../aspose.slides/itextframeformat/columncount) { get; set; } | Vrací nebo nastavuje počet sloupců v oblasti textu. Tato hodnota musí být kladné číslo. V opačném případě bude hodnota nastavena na nulu. Hodnota 0 znamená nedefinovanou hodnotu. Čtení/zápis Int32. |
-| [ColumnSpacing](../../aspose.slides/itextframeformat/columnspacing) { get; set; } | Vrací nebo nastavuje mezery mezi sloupci textu v oblasti textu (v bodech). Toto by mělo platit jen když je přítomno více než 1 sloupec. Tato hodnota musí být kladné číslo. V opačném případě bude hodnota nastavena na nulu. Čtení/zápis Double. |
-| [KeepTextFlat](../../aspose.slides/itextframeformat/keeptextflat) { get; set; } | Vrací nebo nastavuje, aby byl text zcela mimo scénu 3D. Čtení/zápis Boolean. |
-| [MarginBottom](../../aspose.slides/itextframeformat/marginbottom) { get; set; } | Vrací nebo nastavuje dolní okraj (v bodech) v TextFrame. Čtení/zápis Double. |
+| [ColumnCount](../../aspose.slides/itextframeformat/columncount) { get; set; } | Vrací nebo nastavuje počet sloupců v textové oblasti. Tato hodnota musí být kladné číslo. V opačném případě bude hodnota nastavena na nulu. Hodnota 0 znamená nedefinovanou hodnotu. Čtení/zápis Int32. |
+| [ColumnSpacing](../../aspose.slides/itextframeformat/columnspacing) { get; set; } | Vrací nebo nastavuje mezery mezi sloupci textu v textové oblasti (v bodech). Toto by mělo platit jen když je přítomen více než 1 sloupec. Tato hodnota musí být kladné číslo. V opačném případě bude hodnota nastavena na nulu. Čtení/zápis Double. |
+| [KeepTextFlat](../../aspose.slides/itextframeformat/keeptextflat) { get; set; } | Vrací nebo nastavuje úplné vyloučení textu z 3D scény. Čtení/zápis Boolean. |
+| [MarginBottom](../../aspose.slides/itextframeformat/marginbottom) { get; set; } | Vrací nebo nastavuje spodní okraj (v bodech) v TextFrame. Čtení/zápis Double. |
 | [MarginLeft](../../aspose.slides/itextframeformat/marginleft) { get; set; } | Vrací nebo nastavuje levý okraj (v bodech) v TextFrame. Čtení/zápis Double. |
 | [MarginRight](../../aspose.slides/itextframeformat/marginright) { get; set; } | Vrací nebo nastavuje pravý okraj (v bodech) v TextFrame. Čtení/zápis Double. |
 | [MarginTop](../../aspose.slides/itextframeformat/margintop) { get; set; } | Vrací nebo nastavuje horní okraj (v bodech) v TextFrame. Čtení/zápis Double. |
-| [RotationAngle](../../aspose.slides/itextframeformat/rotationangle) { get; set; } | Určuje vlastní rotaci aplikovanou na text uvnitř ohraničujícího rámečku. Pokud není specifikována, použije se rotace přidruženého tvaru. Pokud je specifikována, použije se nezávisle na tvaru. To znamená, že tvar může mít aplikovanou rotaci navíc k rotaci samotného textu. Výsledná hodnota vizuální rotace textu je shrnuta z této vlastnosti a předdefinovaného vertikálního typu ve vlastnosti TextVerticalType. Čtení/zápis Single. |
+| [RotationAngle](../../aspose.slides/itextframeformat/rotationangle) { get; set; } | Určuje vlastní otočení, které se použije na text uvnitř ohraničujícího rámce. Pokud není specifikováno, použije se otočení odpovídajícího tvaru. Pokud je specifikováno, použije se nezávisle na tvaru. Tvar může mít otočení a zároveň text může mít své vlastní otočení. Výsledná hodnota vizuálního otočení textu je součtem této vlastnosti a předdefinovaného vertikálního typu ve vlastnosti TextVerticalType. Čtení/zápis Single. |
 | [TextStyle](../../aspose.slides/itextframeformat/textstyle) { get; } | Vrací styl textu. Pouze pro čtení [`ITextStyle`](../itextstyle). |
-| [TextVerticalType](../../aspose.slides/itextframeformat/textverticaltype) { get; set; } | Určuje orientaci textu. Výsledná hodnota vizuální rotace textu je shrnuta z této vlastnosti a vlastního úhlu ve vlastnosti RotationAngle. Čtení/zápis [`TextVerticalType`](../textverticaltype). |
+| [TextVerticalType](../../aspose.slides/itextframeformat/textverticaltype) { get; set; } | Určuje orientaci textu. Výsledná hodnota vizuálního otočení textu je součtem této vlastnosti a vlastního úhlu ve vlastnosti RotationAngle. Čtení/zápis [`TextVerticalType`](../textverticaltype). |
 | [ThreeDFormat](../../aspose.slides/itextframeformat/threedformat) { get; } | Vrací objekt ThreeDFormat, který představuje vlastnosti 3D efektu pro text. Pouze pro čtení [`IThreeDFormat`](../ithreedformat). |
-| [Transform](../../aspose.slides/itextframeformat/transform) { get; set; } | Vrací nebo nastavuje tvar obtékání textu. Čtení/zápis [`TextShapeType`](../textshapetype). |
-| [WrapText](../../aspose.slides/itextframeformat/wraptext) { get; set; } | **True** pokud je text obtékán na okrajích TextFrame. Čtení/zápis [`NullableBool`](../nullablebool). |
+| [Transform](../../aspose.slides/itextframeformat/transform) { get; set; } | Vrací nebo nastavuje tvar obalující text. Čtení/zápis [`TextShapeType`](../textshapetype). |
+| [WrapText](../../aspose.slides/itextframeformat/wraptext) { get; set; } | **True** pokud je text zalamován na okrajích TextFrame. Čtení/zápis [`NullableBool`](../nullablebool). |
 
 ## Metody
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
-| [GetEffective](../../aspose.slides/itextframeformat/geteffective)() | Vrací efektivní formátovací data textového rámce s uplatněnou dědičností. |
+| [GetEffective](../../aspose.slides/itextframeformat/geteffective)() | Získá efektivní data formátování textového rámce s aplikovaným děděním. |
 
 ### Viz také
 
 * jmenný prostor [Aspose.Slides](../../aspose.slides)
-* sestava [Aspose.Slides](../../)
+* sestavení [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

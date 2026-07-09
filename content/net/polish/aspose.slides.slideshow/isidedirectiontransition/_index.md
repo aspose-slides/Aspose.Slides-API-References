@@ -1,9 +1,9 @@
 ---
 title: ISideDirectionTransition
-second_title: Aspose.Sildes dla .NET API Reference
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Efekt przejścia slajdu w kierunku bocznym.
 type: docs
-weight: 10170
+weight: 10190
 url: /pl/aspose.slides.slideshow/isidedirectiontransition/
 ---
 ## ISideDirectionTransition interfejs
@@ -18,7 +18,7 @@ public interface ISideDirectionTransition : ITransitionValueBase
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/isidedirectiontransition/asitransitionvaluebase) { get; } | Umożliwia pobranie bazowego interfejsu ITransitionValueBase. Tylko do odczytu [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/isidedirectiontransition/asitransitionvaluebase) { get; } | Umożliwia pobranie podstawowego interfejsu ITransitionValueBase. Tylko do odczytu [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/isidedirectiontransition/direction) { get; set; } | Kierunek przejścia. Odczyt/zapis [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
 
 ### Zobacz także

@@ -1,14 +1,14 @@
 ---
 title: ChartData
-second_title: Aspose.Sildes için .NET API Referansı
-description: Bir grafik çizmeye kullanılan verileri temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Bir grafik çizimi için kullanılan verileri temsil eder.
 type: docs
-weight: 1290
+weight: 1310
 url: /tr/aspose.slides.charts/chartdata/
 ---
 ## ChartData sınıfı
 
-Bir grafik çizmeye kullanılan verileri temsil eder.
+Bir grafik çizimi için kullanılan verileri temsil eder.
 
 ```csharp
 public class ChartData : DomObject<Chart>, IChartData
@@ -18,34 +18,34 @@ public class ChartData : DomObject<Chart>, IChartData
 
 | Ad | Açıklama |
 | --- | --- |
-| [Categories](../../aspose.slides.charts/chartdata/categories) { get; } | Birincil kategorileri alır (veya [`UseSecondaryCategories`](./usesecondarycategories) özelliği false ise birincil ve ikincil kategorileri alır). Yalnızca okunabilir [`IChartCategoryCollection`](../ichartcategorycollection). |
-| [ChartDataWorkbook](../../aspose.slides.charts/chartdata/chartdataworkbook) { get; } | Grafik serileri veya kategorileri için kullanılan hücreleri oluşturmak üzere hücre fabrikasını alır. Yalnızca okunabilir [`IChartDataWorkbook`](../ichartdataworkbook). |
+| [Categories](../../aspose.slides.charts/chartdata/categories) { get; } | Birincil kategorileri alır (veya [`UseSecondaryCategories`](./usesecondarycategories) özelliği false ise hem birincil hem ikincil kategorileri alır). Salt okunur [`IChartCategoryCollection`](../ichartcategorycollection). |
+| [ChartDataWorkbook](../../aspose.slides.charts/chartdata/chartdataworkbook) { get; } | Grafik serileri veya kategorileri için kullanılan hücreleri oluşturmak üzere hücre fabrikasını alır. Salt okunur [`IChartDataWorkbook`](../ichartdataworkbook). |
 | [DataSourceType](../../aspose.slides.charts/chartdata/datasourcetype) { get; } | Harici veri kaynağı ise dış çalışma kitabı yolunu temsil eder, aksi takdirde null. |
-| [EmbeddedWorkbookType](../../aspose.slides.charts/chartdata/embeddedworkbooktype) { get; } | Gömülü çalışma kitabının türünü alır. [`DataSourceType`](./datasourcetype) ExternalWorkbook ise NotDefined döndürür. Yalnızca okunabilir [`WorkbookType`](../workbooktype). |
-| [ExternalWorkbookPath](../../aspose.slides.charts/chartdata/externalworkbookpath) { get; } | Grafiğin veri kaynağını temsil eder |
-| [SecondaryCategories](../../aspose.slides.charts/chartdata/secondarycategories) { get; } | [`UseSecondaryCategories`](./usesecondarycategories) özelliği true ise ikincil kategorileri alır. Yalnızca okunabilir [`IChartCategoryCollection`](../ichartcategorycollection). |
-| [Series](../../aspose.slides.charts/chartdata/series) { get; } | Serileri alır. Yalnızca okunabilir [`IChartSeriesCollection`](../ichartseriescollection). |
-| [SeriesGroups](../../aspose.slides.charts/chartdata/seriesgroups) { get; } | Seri gruplarını alır. Yalnızca okunabilir [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection). |
-| [UseSecondaryCategories](../../aspose.slides.charts/chartdata/usesecondarycategories) { get; set; } | False ise [`SecondaryCategories`](./secondarycategories) özelliği null döndürür ve [`Categories`](./categories) özelliğindeki veri birincil ve ikincil seriler için birlikte kullanılır. True ise [`SecondaryCategories`](./secondarycategories) özelliğindeki veri ikincil seriler için, [`Categories`](./categories) özelliğindeki veri birincil seriler için kullanılır. Okuma/yazma Boolean. |
+| [EmbeddedWorkbookType](../../aspose.slides.charts/chartdata/embeddedworkbooktype) { get; } | Gömülü çalışma kitabının tipini alır. [`DataSourceType`](./datasourcetype) ExternalWorkbook ise NotDefined döndürür. Salt okunur [`WorkbookType`](../workbooktype). |
+| [ExternalWorkbookPath](../../aspose.slides.charts/chartdata/externalworkbookpath) { get; } | Grafiğin veri kaynağını temsil eder. |
+| [SecondaryCategories](../../aspose.slides.charts/chartdata/secondarycategories) { get; } | [`UseSecondaryCategories`](./usesecondarycategories) özelliği true ise ikincil kategorileri alır. Salt okunur [`IChartCategoryCollection`](../ichartcategorycollection). |
+| [Series](../../aspose.slides.charts/chartdata/series) { get; } | Serileri alır. Salt okunur [`IChartSeriesCollection`](../ichartseriescollection). |
+| [SeriesGroups](../../aspose.slides.charts/chartdata/seriesgroups) { get; } | Seri gruplarını alır. Salt okunur [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection). |
+| [UseSecondaryCategories](../../aspose.slides.charts/chartdata/usesecondarycategories) { get; set; } | False ise [`SecondaryCategories`](./secondarycategories) özelliği null döndürür ve [`Categories`](./categories) özelliğindeki veri birincil ve ikincil seriler için kullanılır. True ise [`SecondaryCategories`](./secondarycategories) özelliğindeki veri ikincil seriler için, [`Categories`](./categories) özelliğindeki veri birincil seriler için kullanılır. Okunabilir/Yazılabilir Boolean. |
 
-## Yöntemler
+## Metotlar
 
 | Ad | Açıklama |
 | --- | --- |
 | [GetRange](../../aspose.slides.charts/chartdata/getrange)() | Grafik veri aralığını alır. |
 | [ReadWorkbookStream](../../aspose.slides.charts/chartdata/readworkbookstream)() | İçerdiği Excel çalışma kitabını bellek içi bir akışa yazar. |
-| [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook)(string) | Harici çalışma kitabını grafik için veri kaynağı olarak ayarlar. Grafik verileri hedef çalışma kitabından güncellenecek. |
+| [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook)(string) | Harici çalışma kitabını grafik için veri kaynağı olarak ayarlar. Grafik verileri hedef çalışma kitabından güncellenecektir. |
 | [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | Harici çalışma kitabını grafik için veri kaynağı olarak ayarlar. |
-| [SetRange](../../aspose.slides.charts/chartdata/setrange)(string) | Grafik veri aralığını ayarlar. Seriler ve kategoriler yeni veri aralığına göre güncellenecek. Veri aralığındaki seri sayısı grafik verisindeki seri sayısından fazla ise, mevcut koleksiyondaki son seriye aynı türde ek seriler koleksiyonun sonuna eklenecek. |
-| [SwitchRowColumn](../../aspose.slides.charts/chartdata/switchrowcolumn)() | Verileri eksenler arasında değiştirir. X ekseninde çizilen veriler Y eksenine ve tersine taşınır. |
-| [WriteWorkbookStream](../../aspose.slides.charts/chartdata/writeworkbookstream)(MemoryStream) | İçerdiği Excel çalışma kitabını kullanıcı tarafından belirlenen değerle başlatır. |
+| [SetRange](../../aspose.slides.charts/chartdata/setrange)(string) | Grafik veri aralığını ayarlar. Seriler ve kategoriler yeni veri aralığına göre güncellenecektir. Veri aralığındaki seri sayısı grafik verisindeki seri sayısından büyükse, mevcut koleksiyondaki son seriye aynı tipe sahip ek seriler koleksiyonun sonuna eklenecektir. |
+| [SwitchRowColumn](../../aspose.slides.charts/chartdata/switchrowcolumn)() | Veriyi eksen boyunca değiştirir. X ekseninde çizilen veri Y eksenine ve tersine taşınır. |
+| [WriteWorkbookStream](../../aspose.slides.charts/chartdata/writeworkbookstream)(MemoryStream) | İçerdiği Excel çalışma kitabını kullanıcı tarafından belirtilen değerle başlatır. |
 
-### İlgili
+### Ayrıca Bakınız
 
-* sınıf [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
-* sınıf [Chart](../chart)
-* arayüz [IChartData](../ichartdata)
-* ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)
-* derleme [Aspose.Slides](../../)
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [Chart](../chart)
+* interface [IChartData](../ichartdata)
+* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

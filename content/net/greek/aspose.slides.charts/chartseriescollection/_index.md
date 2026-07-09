@@ -1,9 +1,9 @@
 ---
 title: ChartSeriesCollection
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει τη συλλογή των ChartSeries./chartseries
+description: Αναπαριστά τη συλλογή των ChartSeries./chartseries
 type: docs
-weight: 1430
+weight: 1450
 url: /el/aspose.slides.charts/chartseriescollection/
 ---
 ## ChartSeriesCollection κλάση
@@ -16,28 +16,28 @@ public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollectio
 
 ## Ιδιότητες
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartseriescollection/count) { get; } | Επιστρέφει τον αριθμό των αντικειμένων στη συλλογή. Μόνο-ανάγνωση Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartseriescollection/issynchronized) { get; } | Επιστρέφει τιμή που υποδεικνύει εάν η πρόσβαση στη συλλογή είναι συγχρονισμένη (thread-safe). Μόνο-ανάγνωση Boolean. |
-| [Item](../../aspose.slides.charts/chartseriescollection/item) { get; } | Αποκτά το στοιχείο στον καθορισμένο δείκτη. |
-| [SyncRoot](../../aspose.slides.charts/chartseriescollection/syncroot) { get; } | Επιστρέφει τη ρίζα συγχρονισμού. Μόνο-ανάγνωση Object. |
+| [Count](../../aspose.slides.charts/chartseriescollection/count) { get; } | Επιστρέφει τον αριθμό των αντικειμένων στη συλλογή. Μόνο για ανάγνωση Int32. |
+| [IsSynchronized](../../aspose.slides.charts/chartseriescollection/issynchronized) { get; } | Επιστρέφει μια τιμή που υποδεικνύει εάν η πρόσβαση στη συλλογή είναι συγχρονισμένη (thread-safe). Μόνο για ανάγνωση Boolean. |
+| [Item](../../aspose.slides.charts/chartseriescollection/item) { get; } | Λαμβάνει το στοιχείο στη συγκεκριμένη θέση. |
+| [SyncRoot](../../aspose.slides.charts/chartseriescollection/syncroot) { get; } | Επιστρέφει τη ρίζα συγχρονισμού. Μόνο για ανάγνωση Object. |
 
 ## Μέθοδοι
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides.charts/chartseriescollection/add#add)(ChartType) | Δημιουργεί νέα σειρά διαγράμματος και την προσθέτει στη συλλογή. |
 | [Add](../../aspose.slides.charts/chartseriescollection/add#add_1)(IChartCellCollection, ChartType) | Δημιουργεί νέα σειρά διαγράμματος από [`ChartCellCollection`](../chartcellcollection) και την προσθέτει στη συλλογή. |
 | [Add](../../aspose.slides.charts/chartseriescollection/add#add_2)(IChartDataCell, ChartType) | Δημιουργεί νέα σειρά διαγράμματος από [`ChartDataCell`](../chartdatacell) και την προσθέτει στη συλλογή. |
 | [Add](../../aspose.slides.charts/chartseriescollection/add#add_3)(string, ChartType) | Δημιουργεί νέα σειρά διαγράμματος από τιμή και την προσθέτει στη συλλογή. |
-| [Clear](../../aspose.slides.charts/chartseriescollection/clear)() | Αφαιρεί όλα τα στοιχεία ελέγχου από τη συλλογή. |
+| [Clear](../../aspose.slides.charts/chartseriescollection/clear)() | Αφαιρεί όλα τα controls από τη συλλογή. |
 | [CopyTo](../../aspose.slides.charts/chartseriescollection/copyto)(Array, int) | Αντιγράφει ολόκληρη τη συλλογή στον καθορισμένο πίνακα. |
-| [GetEnumerator](../../aspose.slides.charts/chartseriescollection/getenumerator)() | Επιστρέφει έναν εκναήτορα που διασχίζει τη συλλογή. |
-| [IndexOf](../../aspose.slides.charts/chartseriescollection/indexof)(IChartSeries) | Αναζητεί το καθορισμένο [`ChartSeries`](../chartseries) και επιστρέφει τον μηδενική-βάση δείκτη της πρώτης εμφάνισης μέσα στην ολόκληρη Συλλογή |
+| [GetEnumerator](../../aspose.slides.charts/chartseriescollection/getenumerator)() | Επιστρέφει έναν enumerator που διασχίζει τη συλλογή. |
+| [IndexOf](../../aspose.slides.charts/chartseriescollection/indexof)(IChartSeries) | Αναζητά το καθορισμένο [`ChartSeries`](../chartseries) και επιστρέφει το μηδενικής βάσης δείκτη της πρώτης εμφάνισης στην ολόκληρη συλλογή. |
 | [Insert](../../aspose.slides.charts/chartseriescollection/insert)(int, ChartType) | Δημιουργεί νέα σειρά διαγράμματος και την εισάγει στη συλλογή. |
-| [Remove](../../aspose.slides.charts/chartseriescollection/remove)(IChartSeries) | Αφαιρεί την καθορισμένη τιμή. |
-| [RemoveAt](../../aspose.slides.charts/chartseriescollection/removeat)(int) | Αφαιρεί ένα στοιχείο ελέγχου ActiveX που αποθηκεύεται στην καθορισμένη θέση από τη συλλογή. |
+| [Remove](../../aspose.slides.charts/chartseriescollection/remove)(IChartSeries) | Αφαιρέι την καθορισμένη τιμή. |
+| [RemoveAt](../../aspose.slides.charts/chartseriescollection/removeat)(int) | Αφαιρεί έναν έλεγχο ActiveX που είναι αποθηκευμένος στη συγκεκριμένη θέση από τη συλλογή. |
 
 ### Δείτε επίσης
 

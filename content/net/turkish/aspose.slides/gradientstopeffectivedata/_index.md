@@ -1,14 +1,14 @@
 ---
 title: GradientStopEffectiveData
-second_title: Aspose.Sildes için .NET API Referansı
-description: Gradient durağını temsil eden değiştirilemez nesne.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Gradient durak noktasını temsil eden değiştirilemez nesne.
 type: docs
-weight: 5030
+weight: 5050
 url: /tr/aspose.slides/gradientstopeffectivedata/
 ---
-## GradientStopEffectiveData sınıfı
+## GradientStopEffectiveData sınıf
 
-Bir gradient durağını temsil eden değiştirilemez nesne.
+Gradient durak noktasını temsil eden değiştirilemez nesne.
 
 ```csharp
 public class GradientStopEffectiveData : IGradientStopEffectiveData
@@ -18,14 +18,14 @@ public class GradientStopEffectiveData : IGradientStopEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [Color](../../aspose.slides/gradientstopeffectivedata/color) { get; } | Bir gradient durağının rengini döndürür. Salt-okunur Color. |
-| [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | Bir gradient durağının konumunu (0..1) döndürür. Salt-okunur Single. |
+| [Color](../../aspose.slides/gradientstopeffectivedata/color) { get; } | Gradient durak noktasının rengini döndürür. Salt okunur Color. |
+| [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | Gradient durak noktasının konumunu (0..1) döndürür. Salt okunur Single. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | Belirtilen [`GradientStopEffectiveData`](../gradientstopeffectivedata) mevcut [`GradientStopEffectiveData`](../gradientstopeffectivedata) ile eşit olup olmadığını belirler. |
+| override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | Belirtilen [`GradientStopEffectiveData`](../gradientstopeffectivedata)'nin mevcut [`GradientStopEffectiveData`](../gradientstopeffectivedata) ile eşit olup olmadığını belirler. |
 | override [GetHashCode](../../aspose.slides/gradientstopeffectivedata/gethashcode)() |  |
 
 ### İlgili

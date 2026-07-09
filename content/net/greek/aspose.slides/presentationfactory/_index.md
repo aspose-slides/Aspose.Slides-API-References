@@ -1,14 +1,14 @@
 ---
 title: PresentationFactory
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Επιτρέπει τη δημιουργία παρουσίασης μέσω διεπαφής COM
+description: Επιτρέπει τη δημιουργία παρουσίασης μέσω COM διεπαφής
 type: docs
-weight: 9580
+weight: 9600
 url: /el/aspose.slides/presentationfactory/
 ---
 ## PresentationFactory κλάση
 
-Allows to create presentation via COM interface
+Επιτρέπει τη δημιουργία παρουσίασης μέσω COM διεπαφής
 
 ```csharp
 public class PresentationFactory : IPresentationFactory
@@ -24,7 +24,7 @@ public class PresentationFactory : IPresentationFactory
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | Στατική παρουσία του Presentation factory. Μόνο για ανάγνωση [`PresentationFactory`](../presentationfactory). |
+| static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | Στατική παρουσίαση εργοστασίου instance. Μόνο για ανάγνωση [`PresentationFactory`](../presentationfactory). |
 
 ## Μέθοδοι
 
@@ -32,11 +32,11 @@ public class PresentationFactory : IPresentationFactory
 | --- | --- |
 | [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation)() | Δημιουργεί νέα παρουσίαση. |
 | [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Δημιουργεί νέα παρουσίαση με πρόσθετες επιλογές φόρτωσης |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Δημιουργεί νέο αντικείμενο PresentationInfo από ροή και συνδέει την παρουσίαση σε αυτό. Λαμβάνει πληροφορίες για την παρουσίαση στην καθορισμένη ροή. |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Δημιουργεί νέο αντικείμενο PresentationInfo από αρχείο και συνδέει την παρουσίαση σε αυτό. |
-| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Ανακτά το ακατέργαστο κείμενο από τις διαφάνειες |
-| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Ανακτά το ακατέργαστο κείμενο από τις διαφάνειες |
-| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Ανακτά το ακατέργαστο κείμενο από τις διαφάνειες |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Δημιουργεί νέο αντικείμενο PresentationInfo από ροή και συνδέει την παρουσίαση σʼ αυτήν. Παίρνει πληροφορίες σχετικά με την παρουσίαση στην καθορισμένη ροή. |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Δημιουργεί νέο αντικείμενο PresentationInfo από αρχείο και συνδέει την παρουσίαση σʼ αυτό. |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Ανασύρει το ακατέργαστο κείμενο από τις διαφάνειες |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Ανασύρει το ακατέργαστο κείμενο από τις διαφάνειες |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Ανασύρει το ακατέργαστο κείμενο από τις διαφάνειες |
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation)(byte[]) | Διαβάζει υπάρχουσα παρουσίαση από πίνακα |
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_2)(Stream) | Διαβάζει υπάρχουσα παρουσίαση από ροή |
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_4)(string) | Διαβάζει υπάρχουσα παρουσίαση από αρχείο |
@@ -46,7 +46,7 @@ public class PresentationFactory : IPresentationFactory
 
 ### Παραδείγματα
 
-Το παρακάτω παράδειγμα δείχνει πώς να ελέγξετε μια μορφή παρουσίασης.
+Το παρακάτω παράδειγμα δείχνει πώς να ελέγξετε το Presentation Format.
 
 ```csharp
 [C#]
@@ -58,7 +58,7 @@ IPresentationInfo info3 = PresentationFactory.Instance.GetPresentationInfo("pres
 Console.WriteLine(info3.LoadFormat); // ODP
 ```
 
-Το παρακάτω παράδειγμα δείχνει πώς να λάβετε τις ιδιότητες μιας παρουσίασης.
+Το παρακάτω παράδειγμα δείχνει πώς να λάβετε τις ιδιότητες ενός Presentation.
 
 ```csharp
 [C#]
@@ -70,7 +70,7 @@ Console.WriteLine(props.Title);
 // ..
 ```
 
-Το παρακάτω παράδειγμα δείχνει πώς να ενημερώσετε τις ιδιότητες μιας παρουσίασης.
+Το παρακάτω παράδειγμα δείχνει πώς να ενημερώσετε τις ιδιότητες ενός Presentation.
 
 ```csharp
 [C#]
@@ -82,8 +82,8 @@ info.UpdateDocumentProperties(props);
 
 ### Δείτε επίσης
 
-* interface [IPresentationFactory](../ipresentationfactory)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* διασύνδεση [IPresentationFactory](../ipresentationfactory)
+* χώρος ονομάτων [Aspose.Slides](../../aspose.slides)
+* συγκρότημα [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

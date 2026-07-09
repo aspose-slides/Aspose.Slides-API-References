@@ -1,14 +1,14 @@
 ---
 title: HeadingPair
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en 'Heading pair'-egenskap i dokumentet. Den indikerar gruppnamnet för dokumentdelarna och antalet delar i gruppen.
+description: Representerar en Heading pair-egenskap i dokumentet. Den anger gruppnamnet för dokumentdelarna och antalet delar i gruppen.
 type: docs
-weight: 5090
+weight: 5110
 url: /sv/aspose.slides/headingpair/
 ---
 ## HeadingPair klass
 
-Representerar en 'Heading pair'-egenskap i dokumentet. Den indikerar gruppnamnet för dokumentdelarna och antalet delar i gruppen.
+Representerar en 'Heading pair'-egenskap i dokumentet. Den anger gruppnamnet för dokumentdelarna och antalet delar i gruppen.
 
 ```csharp
 public sealed class HeadingPair : IHeadingPair
@@ -16,7 +16,7 @@ public sealed class HeadingPair : IHeadingPair
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides/headingpair/count) { get; } | Returnerar antalet delar i gruppen. Skrivskyddad Int32. |
 | [Name](../../aspose.slides/headingpair/name) { get; } | Returnerar gruppnamnet för dokumentdelarna. Skrivskyddad String. |

@@ -1,14 +1,14 @@
 ---
 title: IFillFormatEffectiveData
-second_title: Aspose.Sildes için .NET API Referansı
-description: Etkili dolgu biçimlendirme özelliklerini içeren değişmez nesne.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Etkili dolgu biçimlendirme özelliklerini içeren değiştirilemez nesne.
 type: docs
-weight: 5780
+weight: 5800
 url: /tr/aspose.slides/ifillformateffectivedata/
 ---
-## IFillFormatEffectiveData arayüz
+## IFillFormatEffectiveData arabirimi
 
-Etkili dolgu biçimlendirme özelliklerini içeren değişmez nesne.
+Değiştirilemez nesne, etkili dolgu biçimlendirme özelliklerini içerir.
 
 ```csharp
 public interface IFillFormatEffectiveData : IFillParamSource
@@ -18,20 +18,20 @@ public interface IFillFormatEffectiveData : IFillParamSource
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ifillformateffectivedata/asifillparamsource) { get; } | IFillParamSource arayüzünü döndürür. Salt-okunur [`IFillParamSource`](../ifillparamsource). |
-| [FillType](../../aspose.slides/ifillformateffectivedata/filltype) { get; } | Dolgu tipini döndürür. Salt-okunur [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/ifillformateffectivedata/gradientformat) { get; } | Degrade dolgu formatını döndürür. Salt-okunur [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
-| [PatternFormat](../../aspose.slides/ifillformateffectivedata/patternformat) { get; } | Model dolgu formatını döndürür. Salt-okunur [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
-| [PictureFillFormat](../../aspose.slides/ifillformateffectivedata/picturefillformat) { get; } | Resim dolgu formatını döndürür. Salt-okunur [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata). |
-| [RotateWithShape](../../aspose.slides/ifillformateffectivedata/rotatewithshape) { get; } | Dolgunun şekil ile birlikte döndürülüp döndürülmeyeceğini belirler. Salt-okunur Boolean. |
-| [SolidFillColor](../../aspose.slides/ifillformateffectivedata/solidfillcolor) { get; } | Dolgu rengini döndürür. Salt-okunur Color. |
-| [SolidFillSchemeColor](../../aspose.slides/ifillformateffectivedata/solidfillschemecolor) { get; } | Renk şemasının tanımladığı dolgu rengini alır. NotDefined değeri, [`SolidFillColor`](./solidfillcolor)'in bir şema rengi olmadığını gösterir. Salt-okunur [`SchemeColor`](../schemecolor). |
+| [AsIFillParamSource](../../aspose.slides/ifillformateffectivedata/asifillparamsource) { get; } | IFillParamSource arabirimini döndürür. Salt okunur [`IFillParamSource`](../ifillparamsource). |
+| [FillType](../../aspose.slides/ifillformateffectivedata/filltype) { get; } | Dolgu tipini döndürür. Salt okunur [`FillType`](../filltype). |
+| [GradientFormat](../../aspose.slides/ifillformateffectivedata/gradientformat) { get; } | Degrade dolgu biçimini döndürür. Salt okunur [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
+| [PatternFormat](../../aspose.slides/ifillformateffectivedata/patternformat) { get; } | Desen dolgu biçimini döndürür. Salt okunur [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
+| [PictureFillFormat](../../aspose.slides/ifillformateffectivedata/picturefillformat) { get; } | Resim dolgu biçimini döndürür. Salt okunur [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata). |
+| [RotateWithShape](../../aspose.slides/ifillformateffectivedata/rotatewithshape) { get; } | Dolgunun şekil ile döndürülüp döndürülmeyeceğini belirler. Salt okunur Boolean. |
+| [SolidFillColor](../../aspose.slides/ifillformateffectivedata/solidfillcolor) { get; } | Dolgu rengini döndürür. Salt okunur Color. |
+| [SolidFillSchemeColor](../../aspose.slides/ifillformateffectivedata/solidfillschemecolor) { get; } | Bir renk şeması tarafından tanımlanan dolgu rengini alır. NotDefined değeri, [`SolidFillColor`](./solidfillcolor)'in bir şema rengi olmadığını gösterir. Salt okunur [`SchemeColor`](../schemecolor). |
 
 ### Açıklamalar
 
-Bu arayüz, [`IFillFormat`](../ifillformat) arayüzü ile birlikte, kalıtım uygulanmış etkili biçimlendirme değerlerini döndürmek için kullanılır.
+Bu arabirim, [`IFillFormat`](../ifillformat) arabirimi ile birlikte, kalıtım uygulanmış etkili biçimlendirme değerlerini döndürmek için kullanılır.
 
-### İlgili Bağlantılar
+### Bkz
 
 * arayüz [IFillParamSource](../ifillparamsource)
 * ad alanı [Aspose.Slides](../../aspose.slides)

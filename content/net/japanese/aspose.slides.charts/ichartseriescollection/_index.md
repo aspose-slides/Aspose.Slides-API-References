@@ -3,12 +3,12 @@ title: IChartSeriesCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: IChartSeries のコレクションを表します./ichartseries
 type: docs
-weight: 1920
+weight: 1940
 url: /ja/aspose.slides.charts/ichartseriescollection/
 ---
 ## IChartSeriesCollection インターフェイス
 
-コレクションを表します [`IChartSeries`](../ichartseries)
+[`IChartSeries`](../ichartseries) のコレクションを表します
 
 ```csharp
 public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
@@ -24,13 +24,13 @@ public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
 
 | 名前 | 説明 |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add)(ChartType) | 新しいチャートシリーズを作成し、コレクションに追加します。 |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_1)(IChartCellCollection, ChartType) | [`IChartCellCollection`](../ichartcellcollection) から新しいチャートシリーズを作成し、コレクションに追加します。 |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_2)(IChartDataCell, ChartType) | [`IChartDataCell`](../ichartdatacell) から新しいチャートシリーズを作成し、コレクションに追加します。 |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_3)(string, ChartType) | 値から新しいチャートシリーズを作成し、コレクションに追加します。 |
-| [Clear](../../aspose.slides.charts/ichartseriescollection/clear)() | コレクションからすべての要素（チャートスタイルを含む）を削除します。 |
-| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | 指定された [`IChartSeries`](../ichartseries) を検索し、コレクション全体で最初に出現した位置の zero-based インデックスを返します。 |
-| [Insert](../../aspose.slides.charts/ichartseriescollection/insert)(int, ChartType) | 新しいチャートシリーズを作成し、コレクションに挿入します。 |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add)(ChartType) | 新しいチャート系列を作成し、コレクションに追加します。 |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_1)(IChartCellCollection, ChartType) | [`IChartCellCollection`](../ichartcellcollection) から新しいチャート系列を作成し、コレクションに追加します。 |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_2)(IChartDataCell, ChartType) | [`IChartDataCell`](../ichartdatacell) から新しいチャート系列を作成し、コレクションに追加します。 |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_3)(string, ChartType) | 値から新しいチャート系列を作成し、コレクションに追加します。 |
+| [Clear](../../aspose.slides.charts/ichartseriescollection/clear)() | コレクションからすべての要素（チャート スタイルを含む）を削除します。 |
+| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | 指定された [`IChartSeries`](../ichartseries) を検索し、コレクション全体での最初の出現位置のゼロベースインデックスを返します。 |
+| [Insert](../../aspose.slides.charts/ichartseriescollection/insert)(int, ChartType) | 新しいチャート系列を作成し、コレクションに挿入します。 |
 | [Remove](../../aspose.slides.charts/ichartseriescollection/remove)(IChartSeries) | 指定された値を削除します。 |
 | [RemoveAt](../../aspose.slides.charts/ichartseriescollection/removeat)(int) | 指定されたインデックスの要素を削除します。 |
 

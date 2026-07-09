@@ -1,14 +1,14 @@
 ---
 title: EffectTriggerType
-second_title: Aspose.Sildes para .NET Referência da API
-description: Representa o tipo de gatilho do efeito.
+second_title: Aspose.Sildes para .NET Referência de API
+description: Representa o tipo de acionamento do efeito.
 type: docs
-weight: 330
+weight: 350
 url: /pt/aspose.slides.animation/effecttriggertype/
 ---
 ## EffectTriggerType enumeração
 
-Representa o tipo de gatilho do efeito.
+Representa o tipo de acionamento do efeito.
 
 ```csharp
 public enum EffectTriggerType
@@ -22,7 +22,7 @@ public enum EffectTriggerType
 | OnClick | `1` |  |
 | WithPrevious | `2` |  |
 
-### Ver também
+### Veja também
 
 * espaço de nomes [Aspose.Slides.Animation](../../aspose.slides.animation)
 * assembly [Aspose.Slides](../../)

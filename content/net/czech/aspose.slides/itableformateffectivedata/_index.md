@@ -3,7 +3,7 @@ title: ITableFormatEffectiveData
 second_title: Aspose.Sildes pro .NET API Reference
 description: Neměnný objekt, který obsahuje efektivní vlastnosti formátování tabulky.
 type: docs
-weight: 7230
+weight: 7250
 url: /cs/aspose.slides/itableformateffectivedata/
 ---
 ## ITableFormatEffectiveData rozhraní
@@ -19,11 +19,11 @@ public interface ITableFormatEffectiveData : IBaseTableFormatEffectiveData
 | Název | Popis |
 | --- | --- |
 | [AsIBaseTableFormatEffectiveData](../../aspose.slides/itableformateffectivedata/asibasetableformateffectivedata) { get; } | Umožňuje získat základní rozhraní IBaseTableFormatEffectiveData. Pouze pro čtení [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
-| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | Vrací průhlednost výplňové barvy. Čte Single. |
+| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | Získává průhlednost výplňové barvy. Číst Single. |
 
 ### Poznámky
 
-Toto rozhraní se používá spolu s rozhraním [`ITableFormat`](../itableformat) k vrácení efektivních hodnot formátování s aplikovaným děděním a styly tabulky.
+Toto rozhraní se používá společně s rozhraním [`ITableFormat`](../itableformat) k vrácení efektivních hodnot formátování s aplikovaným děděním a styly tabulek.
 
 ### Viz také
 

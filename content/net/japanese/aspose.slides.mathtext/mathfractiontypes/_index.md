@@ -3,10 +3,10 @@ title: MathFractionTypes
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 分数タイプ
 type: docs
-weight: 8690
+weight: 8710
 url: /ja/aspose.slides.mathtext/mathfractiontypes/
 ---
-## MathFractionTypes 列挙体
+## MathFractionTypes 列挙型
 
 分数タイプ
 
@@ -21,7 +21,7 @@ public enum MathFractionTypes
 | Bar | `1` | バー分数 |
 | Skewed | `2` | 斜め |
 | Linear | `3` | 線形分数 |
-| NoBar | `4` | バーなし分数 (スタック) |
+| NoBar | `4` | バーなし分数（スタック） |
 
 ### 関連項目
 

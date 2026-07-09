@@ -1,14 +1,14 @@
 ---
 title: TemplateContextTObject
-second_title: Aspose.Sildes for .NET API Referansı
-description: Şablon motoru için bir model nesnesi arayüzünü temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Şablon motoru için bir model nesnesi arabirimini temsil eder.
 type: docs
-weight: 4650
+weight: 4670
 url: /tr/aspose.slides.export.web/templatecontext-1/
 ---
-## TemplateContext<TObject> sınıf
+## TemplateContext<TObject> sınıfı
 
-Şablon motoru için bir model nesnesi arayüzünü temsil eder.
+Bir şablon motoru için model nesnesi arabirimini temsil eder.
 
 ```csharp
 public sealed class TemplateContext<TObject>
@@ -18,16 +18,16 @@ public sealed class TemplateContext<TObject>
 
 | Ad | Açıklama |
 | --- | --- |
-| [Global](../../aspose.slides.export.web/templatecontext`1/global) { get; } | Ana belgeyin küresel depolamasını döndürür. Salt okunur [`Storage`](../storage). |
-| [Local](../../aspose.slides.export.web/templatecontext`1/local) { get; } | Geçerli şablon bağlamının yerel depolamasını döndürür. Salt okunur [`Storage`](../storage). |
-| [Object](../../aspose.slides.export.web/templatecontext`1/object) { get; } | Model nesnesini döndürür. Salt okunur !:TObject. |
-| [Output](../../aspose.slides.export.web/templatecontext`1/output) { get; } | Ana belgenin çıktı öğeleri koleksiyonunu döndürür. Salt okunur [`Output`](./output). |
+| [Global](../../aspose.slides.export.web/templatecontext`1/global) { get; } | Ana belgenin küresel depolamasını döndürür. Salt-okunur [`Storage`](../storage). |
+| [Local](../../aspose.slides.export.web/templatecontext`1/local) { get; } | Geçerli şablon bağlamının yerel depolamasını döndürür. Salt-okunur [`Storage`](../storage). |
+| [Object](../../aspose.slides.export.web/templatecontext`1/object) { get; } | Model nesnesini döndürür. Salt-okunur !:TObject. |
+| [Output](../../aspose.slides.export.web/templatecontext`1/output) { get; } | Ana belgenin çıktı öğeleri koleksiyonunu döndürür. Salt-okunur [`Output`](./output). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [SubModel&lt;TSubModel&gt;](../../aspose.slides.export.web/templatecontext`1/submodel)(TSubModel) | Bir alt şablon bağlamı oluşturur. |
+| [SubModel&lt;TSubModel&gt;](../../aspose.slides.export.web/templatecontext`1/submodel)(TSubModel) | Alt şablon bağlamı oluşturur. |
 
 ### Ayrıca Bakınız
 

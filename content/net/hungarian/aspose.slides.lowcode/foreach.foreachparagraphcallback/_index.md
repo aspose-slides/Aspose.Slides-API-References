@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachParagraphCallback
-second_title: Aspose.Slides .NET API referencia
-description: Visszahívás, amely minden egyes Paragraph./foreach/paragraph esetén a BaseSlide../aspose.slides/baseslide-on kerül meghívásra.
+second_title: Aspose.Sildes a .NET API referencia
+description: Visszahívás, amely minden Paragraph./foreach/paragraph esetén meghívásra kerül a BaseSlide../aspose.slides/baseslide-on.
 type: docs
-weight: 7910
+weight: 7930
 url: /hu/aspose.slides.lowcode/foreach.foreachparagraphcallback/
 ---
-## ForEach.ForEachParagraphCallback delegátum
+## ForEach.ForEachParagraphCallback delegált
 
-Az a visszahívás, amely minden egyes [`Paragraph`](../foreach/paragraph) esetén a [`BaseSlide`](../../aspose.slides/baseslide)-on meghívásra kerül.
+A visszahívás, amely minden [`Paragraph`](../foreach/paragraph) esetén meghívásra kerül a [`BaseSlide`](../../aspose.slides/baseslide)-on.
 
 ```csharp
 public delegate void ForEachParagraphCallback(Paragraph para, BaseSlide slide, int index);
@@ -16,9 +16,9 @@ public delegate void ForEachParagraphCallback(Paragraph para, BaseSlide slide, i
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| para | Paragraph | Az éppen iterált bekezdés |
-| slide | BaseSlide | Az éppen iterált dia |
-| index | Int32 | Az aktuális bekezdés indexe a dián |
+| para | Paragraph | Az aktuálisan iterált bekezdés |
+| slide | BaseSlide | Az aktuálisan iterált dia |
+| index | Int32 | Az aktuális bekezdés a dián lévő indexe |
 
 ### Lásd még
 

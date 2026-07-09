@@ -1,14 +1,14 @@
 ---
 title: FontCollectionIndex
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes 用 .NET API リファレンス
 description: コレクション内のフォントのインデックスを表します。
 type: docs
-weight: 4790
+weight: 4810
 url: /ja/aspose.slides/fontcollectionindex/
 ---
 ## FontCollectionIndex 列挙型
 
-コレクション内でフォントのインデックスを表します。
+フォントがコレクション内で持つインデックスを表します。
 
 ```csharp
 public enum FontCollectionIndex : byte
@@ -22,7 +22,7 @@ public enum FontCollectionIndex : byte
 | Minor | `1` |  |
 | Major | `2` |  |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

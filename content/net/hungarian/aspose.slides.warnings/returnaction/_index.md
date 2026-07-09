@@ -1,14 +1,14 @@
 ---
 title: ReturnAction
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Figyelmeztető visszahívás döntési lehetőségeit jelenti.
+second_title: Aspose.Sildes a .NET API hivatkozás
+description: A figyelmeztető visszahívási döntési lehetőségeket képviseli.
 type: docs
-weight: 11800
+weight: 11820
 url: /hu/aspose.slides.warnings/returnaction/
 ---
-## ReturnAction enumeráció
+## ReturnAction felsorolás
 
-A figyelmeztető visszahívás döntési lehetőségeit jelenti.
+A figyelmeztető visszahívás döntési lehetőségeit képviseli.
 
 ```csharp
 public enum ReturnAction

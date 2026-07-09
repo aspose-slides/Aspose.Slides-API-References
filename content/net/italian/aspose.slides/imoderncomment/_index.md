@@ -1,9 +1,9 @@
 ---
 title: IModernComment
-second_title: Riferimento API di Aspose.Sildes per .NET
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un commento su una diapositiva.
 type: docs
-weight: 6440
+weight: 6460
 url: /it/aspose.slides/imoderncomment/
 ---
 ## IModernComment interfaccia
@@ -13,6 +13,7 @@ Rappresenta un commento su una diapositiva.
 ```csharp
 public interface IModernComment : IComment
 ```
+
 ## Proprietà
 
 | Nome | Descrizione |
@@ -20,8 +21,8 @@ public interface IModernComment : IComment
 | [AsIComment](../../aspose.slides/imoderncomment/asicomment) { get; } | Consente di ottenere l'interfaccia base IComment. Solo lettura [`IComment`](../icomment). |
 | [Shape](../../aspose.slides/imoderncomment/shape) { get; } | Restituisce una forma associata al commento. Solo lettura [`IShape`](../ishape). |
 | [Status](../../aspose.slides/imoderncomment/status) { get; set; } | Restituisce o imposta lo stato del commento. Lettura/scrittura [`ModernCommentStatus`](../moderncommentstatus). |
-| [TextSelectionLength](../../aspose.slides/imoderncomment/textselectionlength) { get; set; } | Restituisce o imposta la lunghezza della selezione del testo nel frame di testo se il commento è associato a AutoShape. Lettura/scrittura Int32. |
-| [TextSelectionStart](../../aspose.slides/imoderncomment/textselectionstart) { get; set; } | Restituisce o imposta la posizione iniziale della selezione del testo nel frame di testo se il commento è associato a AutoShape. Lettura/scrittura Int32. |
+| [TextSelectionLength](../../aspose.slides/imoderncomment/textselectionlength) { get; set; } | Restituisce o imposta la lunghezza della selezione di testo nel riquadro di testo se il commento è associato a AutoShape. Lettura/scrittura Int32. |
+| [TextSelectionStart](../../aspose.slides/imoderncomment/textselectionstart) { get; set; } | Restituisce o imposta la posizione iniziale della selezione di testo nel riquadro di testo se il commento è associato a AutoShape. Lettura/scrittura Int32. |
 
 ### Esempi
 

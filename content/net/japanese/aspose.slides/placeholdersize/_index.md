@@ -1,12 +1,12 @@
 ---
 title: PlaceholderSize
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: プレースホルダーのサイズを表します。
 type: docs
-weight: 9420
+weight: 9440
 url: /ja/aspose.slides/placeholdersize/
 ---
-## PlaceholderSize 列挙体
+## PlaceholderSize 列挙型
 
 プレースホルダーのサイズを表します。
 
@@ -18,11 +18,11 @@ public enum PlaceholderSize : sbyte
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| Full | `0` | 全体。 |
-| Half | `1` | 半分。 |
-| Quarter | `2` | 4分の1。 |
+| Full | `0` | フル。 |
+| Half | `1` | ハーフ。 |
+| Quarter | `2` | クォータ。 |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

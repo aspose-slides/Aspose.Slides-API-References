@@ -1,14 +1,14 @@
 ---
 title: IBulkTextFormattable
-second_title: Aspose.Sildes dla .NET Referencja API
-description: Reprezentuje obiekt z możliwością masowego ustawiania formatów podrzędnych elementów tekstowych.
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
+description: Reprezentuje obiekt z możliwością masowego ustawiania formatów elementów tekstowych potomnych.
 type: docs
-weight: 5360
+weight: 5380
 url: /pl/aspose.slides/ibulktextformattable/
 ---
 ## IBulkTextFormattable interfejs
 
-Reprezentuje obiekt z możliwością masowego ustawiania formatów podrzędnych elementów tekstowych.
+Reprezentuje obiekt z możliwością masowego ustawiania formatów elementów tekstowych potomnych.
 
 ```csharp
 public interface IBulkTextFormattable
@@ -18,9 +18,9 @@ public interface IBulkTextFormattable
 
 | Nazwa | Opis |
 | --- | --- |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat)(IParagraphFormat) | Ustawia określone właściwości formatu akapitu we wszystkich akapitach elementu. |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_1)(IPortionFormat) | Ustawia określone właściwości formatu części we wszystkich częściach elementu. |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_2)(ITextFrameFormat) | Ustawia określone właściwości formatu ramki tekstowej we wszystkich ramkach tekstowych elementu. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat)(IParagraphFormat) | Ustawia zdefiniowane właściwości formatu akapitu dla wszystkich akapitów elementu. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_1)(IPortionFormat) | Ustawia zdefiniowane właściwości formatu fragmentu dla wszystkich fragmentów elementu. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_2)(ITextFrameFormat) | Ustawia zdefiniowane właściwości formatu ramki tekstowej dla wszystkich ramek tekstowych elementu. |
 
 ### Zobacz także
 

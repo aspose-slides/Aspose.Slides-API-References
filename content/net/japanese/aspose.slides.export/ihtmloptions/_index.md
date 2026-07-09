@@ -1,14 +1,14 @@
 ---
 title: IHtmlOptions
-second_title: Aspose.Sildes for .NET API リファレンス
-description: HTML エクスポートオプションを表します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: HTML エクスポート オプションを表します。
 type: docs
-weight: 3950
+weight: 3970
 url: /ja/aspose.slides.export/ihtmloptions/
 ---
 ## IHtmlOptions インターフェイス
 
-HTML エクスポートオプションを表します。
+HTML エクスポート オプションを表します。
 
 ```csharp
 public interface IHtmlOptions : ISaveOptions
@@ -19,18 +19,18 @@ public interface IHtmlOptions : ISaveOptions
 | 名前 | 説明 |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/ihtmloptions/asisaveoptions) { get; } | ISaveOptions インターフェイスを返します。読み取り専用 [`ISaveOptions`](../isaveoptions)。 |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/ihtmloptions/deletepicturescroppedareas) { get; set; } | 切り取られた部分が文書の一部として残るかどうかを示すブールフラグです。true の場合、切り取られた部分は削除され、false の場合、文書にシリアライズされます（これによりファイルが大きくなる可能性があります）。読み書き可能 Boolean。 |
-| [DisableFontLigatures](../../aspose.slides.export/ihtmloptions/disablefontligatures) { get; set; } | テキストが合字を使用せずにレンダリングされるかどうかを示す値を取得または設定します。`true` に設定すると、レンダリング出力で合字が無効になります。デフォルトでは、このプロパティは `false` に設定されています。 |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/ihtmloptions/deletepicturescroppedareas) { get; set; } | ブール フラグは、切り取られた部分がドキュメントの一部として残るかどうかを示します。true の場合、切り取られた部分は削除され、false の場合はドキュメントにシリアライズされます（ファイルが大きくなる可能性があります）。読み書き可能 Boolean。 |
+| [DisableFontLigatures](../../aspose.slides.export/ihtmloptions/disablefontligatures) { get; set; } | テキストが合字を使用せずにレンダリングされるかどうかを示す値を取得または設定します。`true` に設定すると、レンダリング出力で合字が無効になります。既定では、このプロパティは `false` に設定されています。 |
 | [HtmlFormatter](../../aspose.slides.export/ihtmloptions/htmlformatter) { get; set; } | HTML テンプレートを取得または設定します。読み書き可能 [`IHtmlFormatter`](../ihtmlformatter)。 |
-| [InkOptions](../../aspose.slides.export/ihtmloptions/inkoptions) { get; } | エクスポートされた文書内の Ink オブジェクトの外観を制御するオプションを提供します。読み取り専用 [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/ihtmloptions/jpegquality) { get; set; } | PDF 文書内の JPEG 画像の品質を決定する値を取得または設定します。読み書き可能 Byte。 |
+| [InkOptions](../../aspose.slides.export/ihtmloptions/inkoptions) { get; } | エクスポートされたドキュメント内の Ink オブジェクトの外観を制御するオプションを提供します。読み取り専用 [`IInkOptions`](../iinkoptions) |
+| [JpegQuality](../../aspose.slides.export/ihtmloptions/jpegquality) { get; set; } | PDF ドキュメント内の JPEG 画像の品質を決定する値を取得または設定します。読み書き可能 Byte。 |
 | [PicturesCompression](../../aspose.slides.export/ihtmloptions/picturescompression) { get; set; } | 画像の圧縮レベルを表します。読み書き可能 [`PicturesCompression`](./picturescompression)。 |
-| [ShowHiddenSlides](../../aspose.slides.export/ihtmloptions/showhiddenslides) { get; set; } | 生成された文書に非表示スライドを含めるかどうかを指定します。デフォルトは `false` です。 |
-| [SlideImageFormat](../../aspose.slides.export/ihtmloptions/slideimageformat) { get; set; } | スライド画像フォーマットオプションを取得または設定します。読み書き可能 [`ISlideImageFormat`](../islideimageformat)。 |
-| [SlidesLayoutOptions](../../aspose.slides.export/ihtmloptions/slideslayoutoptions) { get; set; } | プレゼンテーションをエクスポートする際にスライドがページ上に配置されるモードを取得または設定します [`ISlidesLayoutOptions`](../islideslayoutoptions)。 |
-| [SvgResponsiveLayout](../../aspose.slides.export/ihtmloptions/svgresponsivelayout) { get; set; } | `true` の場合、SVG コンテナから幅と高さの属性を除外します。これによりレイアウトがレスポンシブになります。`false` の場合は除外しません。読み書き可能 Boolean。 |
+| [ShowHiddenSlides](../../aspose.slides.export/ihtmloptions/showhiddenslides) { get; set; } | 生成されたドキュメントに非表示スライドを含めるかどうかを指定します。既定は `false` です。 |
+| [SlideImageFormat](../../aspose.slides.export/ihtmloptions/slideimageformat) { get; set; } | スライド画像形式オプションを取得または設定します。読み書き可能 [`ISlideImageFormat`](../islideimageformat)。 |
+| [SlidesLayoutOptions](../../aspose.slides.export/ihtmloptions/slideslayoutoptions) { get; set; } | プレゼンテーションをエクスポートする際に、スライドがページ上に配置されるモードを取得または設定します [`ISlidesLayoutOptions`](../islideslayoutoptions)。 |
+| [SvgResponsiveLayout](../../aspose.slides.export/ihtmloptions/svgresponsivelayout) { get; set; } | SVG コンテナから幅と高さ属性を除外する場合は true に設定します。これによりレイアウトがレスポンシブになります。false の場合は除外しません。読み書き可能 Boolean。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [ISaveOptions](../isaveoptions)
 * 名前空間 [Aspose.Slides.Export](../../aspose.slides.export)

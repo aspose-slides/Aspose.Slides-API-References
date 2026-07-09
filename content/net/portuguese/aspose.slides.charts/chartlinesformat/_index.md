@@ -1,14 +1,14 @@
 ---
 title: ChartLinesFormat
-second_title: Aspose.Sildes para .NET Referência da API
-description: Representa propriedades de formato de linhas de grade.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Representa as propriedades de formato de linhas de grade.
 type: docs
-weight: 1390
+weight: 1410
 url: /pt/aspose.slides.charts/chartlinesformat/
 ---
-## ChartLinesFormat classe
+## classe ChartLinesFormat
 
-Representa propriedades de formato de linhas de grade.
+Representa as propriedades de formato de linhas de grade.
 
 ```csharp
 public class ChartLinesFormat : IChartLinesFormat
@@ -18,8 +18,8 @@ public class ChartLinesFormat : IChartLinesFormat
 
 | Nome | Descrição |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/chartlinesformat/effect) { get; } | Retorna os efeitos usados para uma linha de gráfico. Somente leitura [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Line](../../aspose.slides.charts/chartlinesformat/line) { get; } | Retorna as propriedades de estilo de linha de um gráfico. Somente leitura [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/chartlinesformat/effect) { get; } | Retorna efeitos usados para uma linha de gráfico. Somente leitura [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Line](../../aspose.slides.charts/chartlinesformat/line) { get; } | Retorna propriedades de estilo de linha de um gráfico. Somente leitura [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### Veja Também
 

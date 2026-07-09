@@ -1,9 +1,9 @@
 ---
 title: IMathParagraphFactory
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Umożliwia tworzenie akapitu matematycznego
 type: docs
-weight: 8380
+weight: 8400
 url: /pl/aspose.slides.mathtext/imathparagraphfactory/
 ---
 ## IMathParagraphFactory interfejs
@@ -21,9 +21,9 @@ public interface IMathParagraphFactory
 | [CreateMathParagraph](../../aspose.slides.mathtext/imathparagraphfactory/createmathparagraph#createmathparagraph)() | Utwórz pusty akapit matematyczny |
 | [CreateMathParagraph](../../aspose.slides.mathtext/imathparagraphfactory/createmathparagraph#createmathparagraph_1)(IMathBlock) | Tworzy akapit matematyczny i umieszcza w nim określony blok matematyczny |
 
-### Uwaga
+### Uwagi
 
-Dla zgodności COM
+Dla zgodności z COM
 
 ### Zobacz także
 

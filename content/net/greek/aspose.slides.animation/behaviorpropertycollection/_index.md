@@ -1,14 +1,14 @@
 ---
 title: BehaviorPropertyCollection
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Αναπαριστά τις ιδιότητες χρονισμού για τη συμπεριφορά του εφέ.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Αντιπροσωπεύει τις ιδιότητες χρονισμού για τη συμπεριφορά του εφέ.
 type: docs
-weight: 180
+weight: 200
 url: /el/aspose.slides.animation/behaviorpropertycollection/
 ---
 ## BehaviorPropertyCollection κλάση
 
-Αναπαριστά τις ιδιότητες χρονισμού για τη συμπεριφορά του εφέ.
+Αντιπροσωπεύει ιδιότητες χρονισμού για τη συμπεριφορά του εφέ.
 
 ```csharp
 public class BehaviorPropertyCollection : IBehaviorPropertyCollection
@@ -18,9 +18,9 @@ public class BehaviorPropertyCollection : IBehaviorPropertyCollection
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Count](../../aspose.slides.animation/behaviorpropertycollection/count) { get; } | Επιστρέφει τον αριθμό των ιδιοτήτων που αποθηκεύονται στη συλλογή. Μόνο για ανάγνωση Int32. |
-| [IsReadOnly](../../aspose.slides.animation/behaviorpropertycollection/isreadonly) { get; } | Λαμβάνει μια τιμή που υποδεικνύει εάν το ICollection είναι μόνο για ανάγνωση. Μόνο για ανάγνωση Boolean. |
-| [Item](../../aspose.slides.animation/behaviorpropertycollection/item) { get; set; } | Επιστρέφει μια ιδιότητα στο καθορισμένο δείκτη. |
+| [Count](../../aspose.slides.animation/behaviorpropertycollection/count) { get; } | Επιστρέφει τον αριθμό των ιδιοτήτων που είναι αποθηκευμένες στη συλλογή. Μόνο για ανάγνωση Int32. |
+| [IsReadOnly](../../aspose.slides.animation/behaviorpropertycollection/isreadonly) { get; } | Λαμβάνει μια τιμή που υποδεικνύει εάν η ICollection είναι μόνο για ανάγνωση. Μόνο για ανάγνωση Boolean. |
+| [Item](../../aspose.slides.animation/behaviorpropertycollection/item) { get; set; } | Επιστρέφει μια ιδιότητα στον καθορισμένο δείκτη. |
 
 ## Μέθοδοι
 
@@ -29,17 +29,17 @@ public class BehaviorPropertyCollection : IBehaviorPropertyCollection
 | [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add)(IBehaviorProperty) | Προσθέτει μια νέα ιδιότητα στη συλλογή. |
 | [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add_1)(string) | Προσθέτει μια νέα ιδιότητα στη συλλογή. |
 | [Clear](../../aspose.slides.animation/behaviorpropertycollection/clear)() | Αφαιρεί όλες τις ιδιότητες από τη συλλογή. |
-| [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains)(IBehaviorProperty) | Καθορίζει εάν το ICollection περιέχει μια συγκεκριμένη τιμή. |
-| [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains_1)(string) | Καθορίζει εάν το ICollection περιέχει μια συγκεκριμένη τιμή. |
-| [CopyTo](../../aspose.slides.animation/behaviorpropertycollection/copyto)(IBehaviorProperty[], int) | Αντιγράφει τα στοιχεία του ICollection σε έναν Array, ξεκινώντας σε ένα συγκεκριμένο δείκτη του Array. |
-| [GetEnumerator](../../aspose.slides.animation/behaviorpropertycollection/getenumerator)() | Επιστρέφει έναν enumerator που διαπερνά τη συλλογή. |
-| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof)(IBehaviorProperty) | Καθορίζει το δείκτη ενός συγκεκριμένου στοιχείου στο IList. |
-| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof_1)(string) | Καθορίζει το δείκτη ενός συγκεκριμένου στοιχείου με βάση την τιμή ιδιότητας στο IList. |
-| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert)(int, IBehaviorProperty) | Εισάγει μια νέα ιδιότητα στη συλλογή στο καθορισμένο δείκτη. |
-| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert_1)(int, string) | Εισάγει μια νέα ιδιότητα (με την καθορισμένη τιμή ιδιότητας) στη συλλογή στο καθορισμένο δείκτη. |
+| [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains)(IBehaviorProperty) | Καθορίζει εάν η ICollection περιέχει μια συγκεκριμένη τιμή. |
+| [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains_1)(string) | Καθορίζει εάν η ICollection περιέχει μια συγκεκριμένη τιμή. |
+| [CopyTo](../../aspose.slides.animation/behaviorpropertycollection/copyto)(IBehaviorProperty[], int) | Αντιγράφει τα στοιχεία της ICollection σε έναν Array, ξεκινώντας από έναν συγκεκριμένο δείκτη Array. |
+| [GetEnumerator](../../aspose.slides.animation/behaviorpropertycollection/getenumerator)() | Επιστρέφει έναν απαριθμητή που διατρέχει τη συλλογή. |
+| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof)(IBehaviorProperty) | Καθορίζει τον δείκτη ενός συγκεκριμένου στοιχείου στη IList. |
+| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof_1)(string) | Καθορίζει τον δείκτη ενός συγκεκριμένου στοιχείου με τιμή ιδιότητας στη IList. |
+| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert)(int, IBehaviorProperty) | Εισάγει μια νέα ιδιότητα στη συλλογή στον καθορισμένο δείκτη. |
+| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert_1)(int, string) | Εισάγει μια νέα ιδιότητα (με την καθορισμένη τιμή ιδιότητας) στη συλλογή στον καθορισμένο δείκτη. |
 | [Remove](../../aspose.slides.animation/behaviorpropertycollection/remove#remove)(IBehaviorProperty) | Αφαιρεί την καθορισμένη ιδιότητα από τη συλλογή. |
 | [Remove](../../aspose.slides.animation/behaviorpropertycollection/remove#remove_1)(string) | Αφαιρεί την καθορισμένη ιδιότητα από τη συλλογή. |
-| [RemoveAt](../../aspose.slides.animation/behaviorpropertycollection/removeat)(int) | Αφαιρεί την ιδιότητα στο καθορισμένο δείκτη. |
+| [RemoveAt](../../aspose.slides.animation/behaviorpropertycollection/removeat)(int) | Αφαιρεί την ιδιότητα στον καθορισμένο δείκτη. |
 
 ### Δείτε επίσης
 

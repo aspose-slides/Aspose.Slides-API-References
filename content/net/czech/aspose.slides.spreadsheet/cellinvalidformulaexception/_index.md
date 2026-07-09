@@ -1,14 +1,14 @@
 ---
 title: CellInvalidFormulaException
-second_title: Aspose.Sildes pro .NET API Reference
-description: Výjimka, která je vyhozena, když je vypočítaný vzorec nesprávný nebo nebyl parsován.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Výjimka, která je vyvolána, když vypočítaný vzorec není správný nebo nebyl parsován.
 type: docs
-weight: 10690
+weight: 10710
 url: /cs/aspose.slides.spreadsheet/cellinvalidformulaexception/
 ---
 ## CellInvalidFormulaException třída
 
-Výjimka, která je vyhozena, když je vypočítaný vzorec nesprávný nebo nebyl parsován.
+Výjimka, která je vyvolána, když vypočítaný vzorec není správný nebo nebyl parsován.
 
 ```csharp
 public class CellInvalidFormulaException : PptxEditException
@@ -19,15 +19,15 @@ public class CellInvalidFormulaException : PptxEditException
 | Název | Popis |
 | --- | --- |
 | [CellInvalidFormulaException](cellinvalidformulaexception#constructor)() | Inicializuje novou instanci třídy [`CellInvalidFormulaException`](../cellinvalidformulaexception). |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_1)(string) | Inicializuje novou instanci třídy [`CellInvalidFormulaException`](../cellinvalidformulaexception) se zadanou chybovou zprávou. |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_2)(string, Exception) | Inicializuje novou instanci třídy [`CellInvalidFormulaException`](../cellinvalidformulaexception) se zadanou chybovou zprávou a odkazem na vnitřní výjimku, která je příčinou této výjimky. |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_3)(string, string) | Inicializuje novou instanci třídy [`CellInvalidFormulaException`](../cellinvalidformulaexception) se zadanou chybovou zprávou a odkazem na buňku, která obsahuje neplatný vzorec. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_1)(string) | Inicializuje novou instanci třídy [`CellInvalidFormulaException`](../cellinvalidformulaexception) s určenou chybovou zprávou. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_2)(string, Exception) | Inicializuje novou instanci třídy [`CellInvalidFormulaException`](../cellinvalidformulaexception) s určenou chybovou zprávou a odkazem na vnitřní výjimku Exception, která je příčinou této výjimky. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_3)(string, string) | Inicializuje novou instanci třídy [`CellInvalidFormulaException`](../cellinvalidformulaexception) s určenou chybovou zprávou a odkazem na buňku, která obsahuje neplatný vzorec. |
 
 ## Vlastnosti
 
 | Název | Popis |
 | --- | --- |
-| [Reference](../../aspose.slides.spreadsheet/cellinvalidformulaexception/reference) { get; } | Vrací odkaz na buňku, která obsahuje neplatný vzorec. |
+| [Reference](../../aspose.slides.spreadsheet/cellinvalidformulaexception/reference) { get; } | Získá odkaz na buňku, která obsahuje neplatný vzorec. |
 
 ### Viz také
 

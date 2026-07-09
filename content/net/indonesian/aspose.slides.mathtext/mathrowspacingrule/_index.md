@@ -1,14 +1,14 @@
 ---
 title: MathRowSpacingRule
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Tipe jarak vertikal antara kolom dalam matriks atau array
+second_title: Aspose.Sildes untuk .NET Referensi API
+description: Tipe penjarakan vertikal antar kolom dalam matriks atau array
 type: docs
-weight: 8960
+weight: 8980
 url: /id/aspose.slides.mathtext/mathrowspacingrule/
 ---
 ## MathRowSpacingRule enumerasi
 
-Tipe jarak vertikal antara kolom dalam matriks atau array
+Tipe penjarakan vertikal antar kolom dalam matriks atau array
 
 ```csharp
 public enum MathRowSpacingRule
@@ -21,7 +21,7 @@ public enum MathRowSpacingRule
 | SingleLineGap | `0` | jarak satu baris |
 | OneAndAHalfLineGap | `1` | jarak satu setengah baris |
 | TwoLineGap | `2` | jarak dua baris |
-| Exactly | `3` | Tepat (mengandalkan nilai properti RowSpacing, diukur dalam point) |
+| Exactly | `3` | Exactly (mengandalkan nilai properti RowSpacing, diukur dalam poin) |
 | Multiple | `4` | Multiple (mengandalkan nilai properti RowSpacing, diukur dalam baris) |
 
 ### Lihat Juga

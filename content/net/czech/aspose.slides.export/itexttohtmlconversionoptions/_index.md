@@ -1,14 +1,14 @@
 ---
 title: ITextToHtmlConversionOptions
 second_title: Aspose.Sildes pro .NET API Reference
-description: Možnosti pro extrakci HTML z textu Pptx.
+description: Možnosti extrahování HTML z textu souboru Pptx.
 type: docs
-weight: 4140
+weight: 4160
 url: /cs/aspose.slides.export/itexttohtmlconversionoptions/
 ---
 ## ITextToHtmlConversionOptions rozhraní
 
-Možnosti pro extrakci HTML z textu Pptx.
+Možnosti extrahování HTML z textu souboru Pptx.
 
 ```csharp
 public interface ITextToHtmlConversionOptions
@@ -18,10 +18,10 @@ public interface ITextToHtmlConversionOptions
 
 | Název | Popis |
 | --- | --- |
-| [AddClipboardFragmentHeader](../../aspose.slides.export/itexttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | Vrací nebo nastavuje hodnotu, která udává, zda mají být přidány záhlaví schránky. Čtení/Zápis Boolean. |
-| [EncodingName](../../aspose.slides.export/itexttohtmlconversionoptions/encodingname) { get; set; } | Vrací nebo nastavuje název kódování HTML. Tato hodnota bude uložena do vygenerovaného souboru HTML, ale je na volajícím, aby zajistil, že soubor bude uložen v tomto kódování. Čtení/Zápis String. |
-| [LinkEmbedController](../../aspose.slides.export/itexttohtmlconversionoptions/linkembedcontroller) { get; set; } | Vrací nebo nastavuje zpětný volací objekt, který řídí, jak bude externí objekt uložen. Čtení/Zápis [`ILinkEmbedController`](../ilinkembedcontroller). |
-| [TextInheritanceLimit](../../aspose.slides.export/itexttohtmlconversionoptions/textinheritancelimit) { get; set; } | Vrací nebo nastavuje dědičnou úroveň pro vlastnosti textu. Čtení/Zápis [`TextInheritanceLimit`](./textinheritancelimit). |
+| [AddClipboardFragmentHeader](../../aspose.slides.export/itexttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | Vrací nebo nastavuje hodnotu, která určuje, zda mají být přidány hlavičky Clipboardu. Čtení/zápis Boolean. |
+| [EncodingName](../../aspose.slides.export/itexttohtmlconversionoptions/encodingname) { get; set; } | Vrací nebo nastavuje název kódování html. Tato hodnota bude uložena do generovaného souboru HTML, ale je na volajícím, aby zajistil, že soubor bude uložen v tomto kódování. Čtení/zápis String. |
+| [LinkEmbedController](../../aspose.slides.export/itexttohtmlconversionoptions/linkembedcontroller) { get; set; } | Vrací nebo nastavuje objekt zpětného volání, který řídí, jak bude externí objekt uložen. Čtení/zápis [`ILinkEmbedController`](../ilinkembedcontroller). |
+| [TextInheritanceLimit](../../aspose.slides.export/itexttohtmlconversionoptions/textinheritancelimit) { get; set; } | Vrací nebo nastavuje hloubku dědičnosti pro textové vlastnosti. Čtení/zápis [`TextInheritanceLimit`](./textinheritancelimit). |
 
 ### Viz také
 

@@ -1,14 +1,14 @@
 ---
 title: ITemplateEngine
-second_title: Aspose.Slides dla .NET – dokumentacja API
-description: Reprezentuje silnik szablonów, który przekształca parę szablonu i danych w wynikowy output, zazwyczaj HTML.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Reprezentuje silnik szablonów, który przekształca parę szablon-dane w wynikowe wyjście, zazwyczaj HTML.
 type: docs
-weight: 4600
+weight: 4620
 url: /pl/aspose.slides.export.web/itemplateengine/
 ---
 ## ITemplateEngine interfejs
 
-Reprezentuje silnik szablonów, który przekształca parę szablonu i danych w wynikowy output (zwykle HTML).
+Reprezentuje silnik szablonów, który przekształca parę szablon-dane w wynikowe wyjście (zazwyczaj HTML).
 
 ```csharp
 public interface ITemplateEngine
@@ -19,7 +19,7 @@ public interface ITemplateEngine
 | Nazwa | Opis |
 | --- | --- |
 | [AddTemplate](../../aspose.slides.export.web/itemplateengine/addtemplate)(string, string, Type) | Dodaje szablon do kolekcji szablonów. |
-| [Compile](../../aspose.slides.export.web/itemplateengine/compile)(string, object) | Transformuje szablon przy użyciu podanego klucza i obiektu modelu do wyjścia. |
+| [Compile](../../aspose.slides.export.web/itemplateengine/compile)(string, object) | Przekształca szablon przy użyciu podanego klucza i obiektu modelu do wyjścia. |
 
 ### Zobacz także
 

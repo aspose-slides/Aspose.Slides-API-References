@@ -1,9 +1,9 @@
 ---
 title: ISketchFormat
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili properti untuk format sketsa garis.
 type: docs
-weight: 7000
+weight: 7020
 url: /id/aspose.slides/isketchformat/
 ---
 ## ISketchFormat antarmuka
@@ -18,7 +18,7 @@ public interface ISketchFormat
 
 | Nama | Deskripsi |
 | --- | --- |
-| [SketchType](../../aspose.slides/isketchformat/sketchtype) { get; set; } | Mengembalikan atau mengatur jenis sketsa. Baca/tulis [`LineSketchType`](../linesketchtype). |
+| [SketchType](../../aspose.slides/isketchformat/sketchtype) { get; set; } | Mengembalikan atau mengatur tipe sketsa. Baca/tulis [`LineSketchType`](../linesketchtype). |
 
 ### Lihat Juga
 

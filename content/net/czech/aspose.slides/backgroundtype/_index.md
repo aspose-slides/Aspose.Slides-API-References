@@ -1,12 +1,12 @@
 ---
 title: BackgroundType
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET – reference API
 description: Definuje zdroj výplně pozadí snímku.
 type: docs
-weight: 920
+weight: 940
 url: /cs/aspose.slides/backgroundtype/
 ---
-## BackgroundType enumerace
+## Výčtový typ BackgroundType
 
 Definuje zdroj výplně pozadí snímku.
 

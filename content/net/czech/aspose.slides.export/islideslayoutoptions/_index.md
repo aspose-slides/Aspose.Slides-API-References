@@ -1,14 +1,14 @@
 ---
 title: ISlidesLayoutOptions
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje režim rozvržení prezentace pro export.
+description: Reprezentuje režim rozložení prezentace pro export.
 type: docs
-weight: 4080
+weight: 4100
 url: /cs/aspose.slides.export/islideslayoutoptions/
 ---
 ## ISlidesLayoutOptions rozhraní
 
-Představuje režim rozvržení prezentace pro export.
+Reprezentuje režim rozložení prezentace pro export.
 
 ```csharp
 public interface ISlidesLayoutOptions

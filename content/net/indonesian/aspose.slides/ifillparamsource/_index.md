@@ -3,7 +3,7 @@ title: IFillParamSource
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Antarmuka parameter pengisian tambahan.
 type: docs
-weight: 5790
+weight: 5810
 url: /id/aspose.slides/ifillparamsource/
 ---
 ## IFillParamSource antarmuka

@@ -1,9 +1,9 @@
 ---
 title: IFontFallBackRule
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta la regola di fallback dei font
 type: docs
-weight: 5830
+weight: 5850
 url: /it/aspose.slides/ifontfallbackrule/
 ---
 ## IFontFallBackRule interfaccia
@@ -27,14 +27,14 @@ public interface IFontFallBackRule
 
 | Nome | Descrizione |
 | --- | --- |
-| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Aggiunge un nuovo font all'elenco dei font FallBack. |
-| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Aggiunge nuovi font all'elenco dei font FallBack. |
+| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Aggiunge uno o più nuovi font all'elenco dei font di fallback. |
+| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Aggiunge nuovi font all'elenco dei font di fallback. |
 | [Clear](../../aspose.slides/ifontfallbackrule/clear)() | Rimuove tutti i font dall'elenco. |
-| [IndexOf](../../aspose.slides/ifontfallbackrule/indexof)(string) | Restituisce l'indice della regola specificata nella raccolta. |
-| [Remove](../../aspose.slides/ifontfallbackrule/remove)(string) | Rimuove la prima occorrenza di un font FallBack specifico dall'elenco. |
-| [RemoveAt](../../aspose.slides/ifontfallbackrule/removeat)(int) | Rimuove il font FallBack all'indice specificato dell'elenco. |
-| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray)() | Crea e restituisce un array con tutti i font FallBack per questa regola. |
-| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray_1)(int, int) | Crea e restituisce un array con tutti i font FallBack dall'intervallo specificato nell'elenco. |
+| [IndexOf](../../aspose.slides/ifontfallbackrule/indexof)(string) | Restituisce l'indice della regola specificata nella collezione. |
+| [Remove](../../aspose.slides/ifontfallbackrule/remove)(string) | Rimuove la prima occorrenza di un font di fallback specifico dall'elenco. |
+| [RemoveAt](../../aspose.slides/ifontfallbackrule/removeat)(int) | Rimuove il font di fallback all'indice specificato dell'elenco. |
+| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray)() | Crea e restituisce un array contenente tutti i font di fallback per questa regola. |
+| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray_1)(int, int) | Crea e restituisce un array contenente tutti i font di fallback dall'intervallo specificato nell'elenco. |
 
 ### Vedi anche
 

@@ -1,14 +1,14 @@
 ---
 title: TransitionShredPattern
-second_title: Aspose.Sildes .NET API Referansı
-description: Bir araya gelerek daha büyük bir alanı dolduran geometrik bir şekli belirtir.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Daha büyük bir alanı doldurmak için birlikte döşenen bir geometrik şekli belirtir.
 type: docs
-weight: 10390
+weight: 10410
 url: /tr/aspose.slides.slideshow/transitionshredpattern/
 ---
 ## TransitionShredPattern enum
 
-Geometrik bir şekil tanımlar; bu şekil bir araya gelerek daha büyük bir alanı doldurur.
+Daha büyük bir alanı doldurmak için birlikte döşenen bir geometrik şekli belirtir.
 
 ```csharp
 public enum TransitionShredPattern
@@ -16,12 +16,12 @@ public enum TransitionShredPattern
 
 ### Değerler
 
-| Name | Value | Description |
+| Ad | Değer | Açıklama |
 | --- | --- | --- |
 | Strip | `0` | Dikey şeritler |
 | Rectangle | `1` | Küçük dikdörtgenler |
 
-### İlgili
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * derleme [Aspose.Slides](../../)

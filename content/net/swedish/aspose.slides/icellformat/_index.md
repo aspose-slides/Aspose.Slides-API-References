@@ -1,9 +1,9 @@
 ---
 title: ICellFormat
-second_title: Aspose.Sildes för .NET API-referens
+second_title: Aspose.Slides för .NET API-referens
 description: Representerar formatet för en tabellcell.
 type: docs
-weight: 5450
+weight: 5470
 url: /sv/aspose.slides/icellformat/
 ---
 ## ICellFormat gränssnitt
@@ -16,22 +16,22 @@ public interface ICellFormat
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [BorderBottom](../../aspose.slides/icellformat/borderbottom) { get; } | Returnerar ett objekt med egenskaper för en nedre kantlinje. Skrivskyddad [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalDown](../../aspose.slides/icellformat/borderdiagonaldown) { get; } | Returnerar ett objekt med egenskaper för en diagonal linje från övre vänstra till nedre högra. Skrivskyddad [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalUp](../../aspose.slides/icellformat/borderdiagonalup) { get; } | Returnerar ett objekt med egenskaper för en diagonal linje från nedre vänstra till övre högra. Skrivskyddad [`ILineFormat`](../ilineformat). |
-| [BorderLeft](../../aspose.slides/icellformat/borderleft) { get; } | Returnerar ett objekt med egenskaper för en vänster kantlinje. Skrivskyddad [`ILineFormat`](../ilineformat). |
-| [BorderRight](../../aspose.slides/icellformat/borderright) { get; } | Returnerar ett objekt med egenskaper för en höger kantlinje. Skrivskyddad [`ILineFormat`](../ilineformat). |
-| [BorderTop](../../aspose.slides/icellformat/bordertop) { get; } | Returnerar ett objekt med egenskaper för en övre kantlinje. Skrivskyddad [`ILineFormat`](../ilineformat). |
-| [FillFormat](../../aspose.slides/icellformat/fillformat) { get; } | Returnerar ett objekt med egenskaper för en cellfyllning. Skrivskyddad [`IFillFormat`](../ifillformat). |
+| [BorderBottom](../../aspose.slides/icellformat/borderbottom) { get; } | Returnerar ett objekt för egenskaper för en nedre kantlinje. Skrivskyddad [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalDown](../../aspose.slides/icellformat/borderdiagonaldown) { get; } | Returnerar ett objekt för egenskaper för en diagonal linje från övre vänstra till nedre högra. Skrivskyddad [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalUp](../../aspose.slides/icellformat/borderdiagonalup) { get; } | Returnerar ett objekt för egenskaper för en diagonal linje från nedre vänstra till övre högra. Skrivskyddad [`ILineFormat`](../ilineformat). |
+| [BorderLeft](../../aspose.slides/icellformat/borderleft) { get; } | Returnerar ett objekt för egenskaper för en vänster kantlinje. Skrivskyddad [`ILineFormat`](../ilineformat). |
+| [BorderRight](../../aspose.slides/icellformat/borderright) { get; } | Returnerar ett objekt för egenskaper för en höger kantlinje. Skrivskyddad [`ILineFormat`](../ilineformat). |
+| [BorderTop](../../aspose.slides/icellformat/bordertop) { get; } | Returnerar ett objekt för egenskaper för en övre kantlinje. Skrivskyddad [`ILineFormat`](../ilineformat). |
+| [FillFormat](../../aspose.slides/icellformat/fillformat) { get; } | Returnerar ett objekt för egenskaper för cellfyllning. Skrivskyddad [`IFillFormat`](../ifillformat). |
 | [Transparency](../../aspose.slides/icellformat/transparency) { get; set; } | Hämtar eller anger transparensen för fyllningsfärgen. Läs/skriv Single. |
 
 ## Metoder
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [GetEffective](../../aspose.slides/icellformat/geteffective)() | Hämtar effektiva formateringsegenskaper för en tabellcell med arv och tillämpade tabellstilar. |
+| [GetEffective](../../aspose.slides/icellformat/geteffective)() | Hämtar effektiva formateringsegenskaper för tabellceller med arv och tillämpade tabellstilar. |
 
 ### Se även
 

@@ -1,12 +1,12 @@
 ---
 title: ITiming
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Animasyon zamanlamasını temsil eder.
 type: docs
-weight: 620
+weight: 640
 url: /tr/aspose.slides.animation/itiming/
 ---
-## ITiming arayüzü
+## ITTiming arayüzü
 
 Animasyon zamanlamasını temsil eder.
 
@@ -18,19 +18,19 @@ public interface ITiming
 
 | Ad | Açıklama |
 | --- | --- |
-| [Accelerate](../../aspose.slides.animation/itiming/accelerate) { get; set; } | Süre hızlanma davranışı etkisinin yüzdesini tanımlar. Okunur/yazılır Single. |
-| [AutoReverse](../../aspose.slides.animation/itiming/autoreverse) { get; set; } | İleri yönde oynatıldıktan sonra animasyonun otomatik olarak ters yönde oynatılıp oynatılmayacağını tanımlar. Okunur/yazılır Boolean. |
-| [Decelerate](../../aspose.slides.animation/itiming/decelerate) { get; set; } | Süre yavaşlatma davranışı etkisinin yüzdesini tanımlar. Okunur/yazılır Single. |
-| [Duration](../../aspose.slides.animation/itiming/duration) { get; set; } | Animasyon etkisinin süresini tanımlar. Okunur/yazılır Single. |
-| [RepeatCount](../../aspose.slides.animation/itiming/repeatcount) { get; set; } | Etkinin kaç kez tekrarlanması gerektiğini tanımlar. Okunur/yazılır Single. |
-| [RepeatDuration](../../aspose.slides.animation/itiming/repeatduration) { get; set; } | Etkinin kaç kez tekrarlanması gerektiğini tanımlar. Okunur/yazılır Single. |
-| [RepeatUntilEndSlide](../../aspose.slides.animation/itiming/repeatuntilendslide) { get; set; } | Bu öznitelik, etkinin slayt sonuna kadar tekrarlanıp tekrarlanmayacağını belirtir. Okunur/yazılır Boolean. |
-| [RepeatUntilNextClick](../../aspose.slides.animation/itiming/repeatuntilnextclick) { get; set; } | Bu öznitelik, etkinin bir sonraki tıklamaya kadar tekrarlanıp tekrarlanmayacağını belirtir. Okunur/yazılır Boolean. |
-| [Restart](../../aspose.slides.animation/itiming/restart) { get; set; } | Bir etkinin tamamlandıktan sonra yeniden başlayıp başlayamayacağını belirtir. Okunur/yazılır [`EffectRestartType`](../effectrestarttype). |
-| [Rewind](../../aspose.slides.animation/itiming/rewind) { get; set; } | Bu öznitelik, etkinin oynatımı tamamlandığında geri sarılıp sarılmayacağını belirtir. Okunur/yazılır Boolean. |
-| [Speed](../../aspose.slides.animation/itiming/speed) { get; set; } | Zamanlamanın ne kadar hızlandırılacağını (veya yavaşlatılacağını) yüzde olarak belirtir. Okunur/yazılır Single. |
-| [TriggerDelayTime](../../aspose.slides.animation/itiming/triggerdelaytime) { get; set; } | Tetikleyiciden sonraki gecikme süresini tanımlar. Okunur/yazılır Single. |
-| [TriggerType](../../aspose.slides.animation/itiming/triggertype) { get; set; } | Tetikleme türünü tanımlar. Okunur/yazılır [`EffectTriggerType`](../effecttriggertype). |
+| [Accelerate](../../aspose.slides.animation/itiming/accelerate) { get; set; } | Süre hızlandırma davranışı etkisinin yüzdesini tanımlar. Okunur/Yazılabilir Single. |
+| [AutoReverse](../../aspose.slides.animation/itiming/autoreverse) { get; set; } | Animasyonu ileri yönde çaldıktan sonra ters yönde otomatik olarak oynatılıp oynatılmayacağını tanımlar. Okunur/Yazılabilir Boolean. |
+| [Decelerate](../../aspose.slides.animation/itiming/decelerate) { get; set; } | Süre yavaşlatma davranışı etkisinin yüzdesini tanımlar. Okunur/Yazılabilir Single. |
+| [Duration](../../aspose.slides.animation/itiming/duration) { get; set; } | Animasyon etkisinin süresini tanımlar. Okunur/Yazılabilir Single. |
+| [RepeatCount](../../aspose.slides.animation/itiming/repeatcount) { get; set; } | Etkinin kaç kez tekrarlanması gerektiğini tanımlar. Okunur/Yazılabilir Single. |
+| [RepeatDuration](../../aspose.slides.animation/itiming/repeatduration) { get; set; } | Etkinin kaç kez tekrarlanması gerektiğini tanımlar. Okunur/Yazılabilir Single. |
+| [RepeatUntilEndSlide](../../aspose.slides.animation/itiming/repeatuntilendslide) { get; set; } | Bu öznitelik, etkinin slayt sonuna kadar tekrarlanıp tekrarlanmayacağını belirtir. Okunur/Yazılabilir Boolean. |
+| [RepeatUntilNextClick](../../aspose.slides.animation/itiming/repeatuntilnextclick) { get; set; } | Bu öznitelik, etkinin bir sonraki tıklamaya kadar tekrarlanıp tekrarlanmayacağını belirtir. Okunur/Yazılabilir Boolean. |
+| [Restart](../../aspose.slides.animation/itiming/restart) { get; set; } | Etkinin tamamlandıktan sonra yeniden başlatılıp başlatılmayacağını belirtir. Okunur/Yazılabilir [`EffectRestartType`](../effectrestarttype). |
+| [Rewind](../../aspose.slides.animation/itiming/rewind) { get; set; } | Bu öznitelik, etkinin çalması tamamlandığında geri sarılıp sarılmayacağını belirtir. Okunur/Yazılabilir Boolean. |
+| [Speed](../../aspose.slides.animation/itiming/speed) { get; set; } | Zamanlamanın ne kadar hızlandırılacağını (veya yavaşlatılacağını) belirten yüzdeyi tanımlar. Okunur/Yazılabilir Single. |
+| [TriggerDelayTime](../../aspose.slides.animation/itiming/triggerdelaytime) { get; set; } | Tetikleyiciden sonraki gecikme süresini tanımlar. Okunur/Yazılabilir Single. |
+| [TriggerType](../../aspose.slides.animation/itiming/triggertype) { get; set; } | Tetikleyici tipini tanımlar. Okunur/Yazılabilir [`EffectTriggerType`](../effecttriggertype). |
 
 ### Ayrıca Bakınız
 

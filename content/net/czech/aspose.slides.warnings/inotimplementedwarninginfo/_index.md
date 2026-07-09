@@ -1,14 +1,14 @@
 ---
 title: INotImplementedWarningInfo
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje varování o známé neimplementované funkci, která nebude v blízké budoucnosti implementována.
+second_title: Aspose.Sildes pro .NET referenci API
+description: Představuje varování o známé neimplementované funkci, která nebude v blízké budoucnosti implementována.
 type: docs
-weight: 11750
+weight: 11770
 url: /cs/aspose.slides.warnings/inotimplementedwarninginfo/
 ---
 ## INotImplementedWarningInfo rozhraní
 
-Reprezentuje varování o známé neimplementované funkci, která nebude v blízké budoucnosti implementována.
+Představuje varování o známé neimplementované funkci, která nebude v blízké budoucnosti implementována.
 
 ```csharp
 public interface INotImplementedWarningInfo : IWarningInfo

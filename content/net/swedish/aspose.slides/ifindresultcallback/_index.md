@@ -1,14 +1,14 @@
 ---
 title: IFindResultCallback
 second_title: Aspose.Sildes för .NET API-referens
-description: Callback-gränssnitt som används för att få sökresultat för text.
+description: Callback-gränssnitt som används för att hämta söktextresultat.
 type: docs
-weight: 5800
+weight: 5820
 url: /sv/aspose.slides/ifindresultcallback/
 ---
 ## IFindResultCallback gränssnitt
 
-Callback-gränssnitt som används för att få sökresultatet för text.
+Callback-gränssnitt som används för att hämta söktextresultat.
 
 ```csharp
 public interface IFindResultCallback
@@ -18,7 +18,7 @@ public interface IFindResultCallback
 
 | Namn | Beskrivning |
 | --- | --- |
-| [FoundResult](../../aspose.slides/ifindresultcallback/foundresult)(ITextFrame, string, string, int) | Återuppringningsmetod som tar emot data om den hittade texten. |
+| [FoundResult](../../aspose.slides/ifindresultcallback/foundresult)(ITextFrame, string, string, int) | Callback-metod som tar emot data om den funna texten. |
 
 ### Se även
 

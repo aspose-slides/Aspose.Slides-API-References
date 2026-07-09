@@ -1,14 +1,14 @@
 ---
 title: IOutputSaver
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – referencja API
 description: Reprezentuje usługę zapisywania wyjścia.
 type: docs
-weight: 4590
+weight: 4610
 url: /pl/aspose.slides.export.web/ioutputsaver/
 ---
 ## IOutputSaver interfejs
 
-Represents an output saving service.
+Reprezentuje usługę zapisywania wyjścia.
 
 ```csharp
 public interface IOutputSaver
@@ -18,7 +18,7 @@ public interface IOutputSaver
 
 | Nazwa | Opis |
 | --- | --- |
-| [Save](../../aspose.slides.export.web/ioutputsaver/save)(string, IOutputFile) | Saves the output file to the given path. |
+| [Save](../../aspose.slides.export.web/ioutputsaver/save)(string, IOutputFile) | Zapisuje plik wyjściowy w podanej ścieżce. |
 
 ### Zobacz także
 

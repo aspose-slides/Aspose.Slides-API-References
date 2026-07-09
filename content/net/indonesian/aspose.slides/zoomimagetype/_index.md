@@ -1,12 +1,12 @@
 ---
 title: ZoomImageType
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mendefinisikan apakah objek Zoom menggunakan pratinjau slide atau gambar sampul.
 type: docs
-weight: 11830
+weight: 11850
 url: /id/aspose.slides/zoomimagetype/
 ---
-## enumerasi ZoomImageType
+## ZoomImageType enumerasi
 
 Mendefinisikan apakah objek Zoom menggunakan pratinjau slide atau gambar sampul.
 

@@ -1,15 +1,14 @@
 ---
 title: ShapeFrame
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt die Eigenschaften von Formrahmen dar.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt die Eigenschaften von ShapeFrames dar.
 type: docs
-weight: 9590
+weight: 9900
 url: /de/aspose.slides/shapeframe/
 ---
+## ShapeFrame Klasse
 
-## ShapeFrame-Klasse
-
-Stellt die Eigenschaften von Formrahmen dar.
+Stellt die Eigenschaften des ShapeFrames dar.
 
 ```csharp
 public class ShapeFrame : IShapeFrame
@@ -19,22 +18,22 @@ public class ShapeFrame : IShapeFrame
 
 | Name | Beschreibung |
 | --- | --- |
-| [ShapeFrame](shapeframe)(float, float, float, float, NullableBool, NullableBool, float) | Erstellt neue Eigenschaften für den Formrahmen. |
+| [ShapeFrame](shapeframe)(float, float, float, float, NullableBool, NullableBool, float) | Erstellt neue Eigenschaften des ShapeFrames. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [CenterX](../../aspose.slides/shapeframe/centerx) { get; } | Gibt die X-Koordinate des Zentrums eines Rahmens zurück. Nur-Lesen Single. |
-| [CenterY](../../aspose.slides/shapeframe/centery) { get; } | Gibt die Y-Koordinate des Zentrums eines Rahmens zurück. Nur-Lesen Single. |
-| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | Bestimmt, ob ein Rahmen horizontal gespiegelt ist. Nur-Lesen [`NullableBool`](../nullablebool). |
-| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | Bestimmt, ob ein Rahmen vertikal gespiegelt ist. Nur-Lesen [`NullableBool`](../nullablebool). |
-| [Height](../../aspose.slides/shapeframe/height) { get; } | Gibt die Höhe eines Rahmens zurück. Nur-Lesen Single. |
-| [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | Gibt die Koordinaten eines Rahmens zurück. Nur-Lesen RectangleF. |
-| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | Gibt die Anzahl der Grad zurück, um die ein Rahmen um die Z-Achse gedreht ist. Ein positiver Wert weist auf eine Uhrzeigersinn-Drehung hin; ein negativer Wert weist auf eine gegen den Uhrzeigersinn-Drehung hin. Nur-Lesen Single. |
-| [Width](../../aspose.slides/shapeframe/width) { get; } | Gibt die Breite eines Rahmens zurück. Nur-Lesen Single. |
-| [X](../../aspose.slides/shapeframe/x) { get; } | Gibt die X-Koordinate der oberen linken Ecke eines Rahmens zurück. Nur-Lesen Single. |
-| [Y](../../aspose.slides/shapeframe/y) { get; } | Gibt die Y-Koordinate der oberen linken Ecke eines Rahmens zurück. Nur-Lesen Single. |
+| [CenterX](../../aspose.slides/shapeframe/centerx) { get; } | Gibt die X-Koordinate des Zentrums eines Frames zurück. Nur lesend Single. |
+| [CenterY](../../aspose.slides/shapeframe/centery) { get; } | Gibt die Y-Koordinate des Zentrums eines Frames zurück. Nur lesend Single. |
+| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | Ermittelt, ob ein Frame horizontal gespiegelt ist. Nur lesend [`NullableBool`](../nullablebool). |
+| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | Ermittelt, ob ein Frame vertikal gespiegelt ist. Nur lesend [`NullableBool`](../nullablebool). |
+| [Height](../../aspose.slides/shapeframe/height) { get; } | Gibt die Höhe eines Frames zurück. Nur lesend Single. |
+| [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | Gibt die Koordinaten eines Frames zurück. Nur lesend RectangleF. |
+| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | Gibt die Anzahl der Grad zurück, um die ein Frame um die Z-Achse gedreht ist. Ein positiver Wert bedeutet Drehung im Uhrzeigersinn; ein negativer Wert bedeutet Drehung gegen den Uhrzeigersinn. Nur lesend Single. |
+| [Width](../../aspose.slides/shapeframe/width) { get; } | Gibt die Breite eines Frames zurück. Nur lesend Single. |
+| [X](../../aspose.slides/shapeframe/x) { get; } | Gibt die X-Koordinate der oberen linken Ecke eines Frames zurück. Nur lesend Single. |
+| [Y](../../aspose.slides/shapeframe/y) { get; } | Gibt die Y-Koordinate der oberen linken Ecke eines Frames zurück. Nur lesend Single. |
 
 ## Methoden
 
@@ -42,14 +41,14 @@ public class ShapeFrame : IShapeFrame
 | --- | --- |
 | [Clone](../../aspose.slides/shapeframe/clone)() | Klont |
 | [CloneT](../../aspose.slides/shapeframe/clonet)() | Klont. |
-| override [Equals](../../aspose.slides/shapeframe/equals#equals_1)(object) | Gibt einen Wert zurück, der angibt, ob diese Instanz gleich einem bestimmten Objekt ist. |
-| [Equals](../../aspose.slides/shapeframe/equals#equals)(ShapeFrame) | Gibt einen Wert zurück, der angibt, ob diese Instanz gleich einem bestimmten Objekt ist. |
-| override [GetHashCode](../../aspose.slides/shapeframe/gethashcode)() | Gibt einen Hashcode für dieses Objekt zurück. |
+| override [Equals](../../aspose.slides/shapeframe/equals#equals_1)(object) | Gibt einen Wert zurück, der angibt, ob diese Instanz einem angegebenen Objekt gleich ist. |
+| [Equals](../../aspose.slides/shapeframe/equals#equals)(ShapeFrame) | Gibt einen Wert zurück, der angibt, ob diese Instanz einem angegebenen Objekt gleich ist. |
+| override [GetHashCode](../../aspose.slides/shapeframe/gethashcode)() | Gibt einen Hashcode für dieses Objekt zurück. |
 
-### Siehe Auch
+### Siehe auch
 
-* interface [IShapeFrame](../ishapeframe)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* Schnittstelle [IShapeFrame](../ishapeframe)
+* Namensraum [Aspose.Slides](../../aspose.slides)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: ImageWrapper
-second_title: Aspose.Sildes dla .NET - Dokumentacja API
-description: Opakowanie System.Drawing.Image dla interfejsu COM.
+second_title: Aspose.Sildes dla .NET – Referencja API
+description: Wrapper System.Drawing.Image dla interfejsu COM.
 type: docs
-weight: 7420
+weight: 7440
 url: /pl/aspose.slides/imagewrapper/
 ---
 ## ImageWrapper klasa
 
-Opakowanie System.Drawing.Image dla interfejsu COM.
+Wrapper System.Drawing.Image dla interfejsu COM.
 
 ```csharp
 public class ImageWrapper : IImageWrapper
@@ -16,14 +16,14 @@ public class ImageWrapper : IImageWrapper
 
 ## Właściwości
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
-| [ImageSource](../../aspose.slides/imagewrapper/imagesource) { get; } | Zwraca Image. Tylko do odczytu [`IImage`](../iimage). |
-| [Size](../../aspose.slides/imagewrapper/size) { get; } | Zwraca szerokość i wysokość obrazu Image w pikselach. Tylko do odczytu [`Size`](./size). |
+| [ImageSource](../../aspose.slides/imagewrapper/imagesource) { get; } | Pobiera Image. Tylko do odczytu [`IImage`](../iimage). |
+| [Size](../../aspose.slides/imagewrapper/size) { get; } | Pobiera szerokość i wysokość w pikselach obrazu Image. Tylko do odczytu [`Size`](./size). |
 
 ## Metody
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
 | [Dispose](../../aspose.slides/imagewrapper/dispose)() | Zwalnia ImageWrapper |
 | [Save](../../aspose.slides/imagewrapper/save#save_1)(string) | Zapisuje Image do określonego pliku |

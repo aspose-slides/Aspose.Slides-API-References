@@ -3,12 +3,12 @@ title: MathFractionFactory
 second_title: Aspose.Sildes .NET API referencia
 description: Lehetővé teszi egy matematikai tört létrehozását
 type: docs
-weight: 8680
+weight: 8700
 url: /hu/aspose.slides.mathtext/mathfractionfactory/
 ---
 ## MathFractionFactory osztály
 
-Lehetővé teszi matematikai tört létrehozását
+Lehetővé teszi a matematikai tört létrehozását
 
 ```csharp
 public class MathFractionFactory : IMathFractionFactory
@@ -24,16 +24,16 @@ public class MathFractionFactory : IMathFractionFactory
 
 | Név | Leírás |
 | --- | --- |
-| [CreateMathFraction](../../aspose.slides.mathtext/mathfractionfactory/createmathfraction#createmathfraction)(IMathElement, IMathElement) | Létrehoz egy matematikai tört |
-| [CreateMathFraction](../../aspose.slides.mathtext/mathfractionfactory/createmathfraction#createmathfraction_1)(IMathElement, IMathElement, MathFractionTypes) | Létrehoz egy matematikai tört |
+| [CreateMathFraction](../../aspose.slides.mathtext/mathfractionfactory/createmathfraction#createmathfraction)(IMathElement, IMathElement) | Létrehoz egy matematikai törtet |
+| [CreateMathFraction](../../aspose.slides.mathtext/mathfractionfactory/createmathfraction#createmathfraction_1)(IMathElement, IMathElement, MathFractionTypes) | Létrehoz egy matematikai törtet |
 
-### Megjegyzés
+### Megjegyzések
 
-COM kompatibilitáshoz
+A COM kompatibilitáshoz
 
 ### Lásd még
 
-* interfész [IMathFractionFactory](../imathfractionfactory)
+* interface [IMathFractionFactory](../imathfractionfactory)
 * névtér [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * összeállítás [Aspose.Slides](../../)
 

@@ -1,14 +1,14 @@
 ---
 title: PictureFrameLock
 second_title: Aspose.Sildes för .NET API-referens
-description: Bestämmer vilka operationer som är inaktiverade på den överordnade PictureFrame.
+description: Avgör vilka operationer som är inaktiverade på den överordnade PictureFrame.
 type: docs
-weight: 9400
+weight: 9420
 url: /sv/aspose.slides/pictureframelock/
 ---
 ## PictureFrameLock klass
 
-Bestämmer vilka operationer som är inaktiverade på föräldra-PictureFrame.
+Avgör vilka operationer som är inaktiverade på den överordnade PictureFrame.
 
 ```csharp
 public class PictureFrameLock : BaseShapeLock, IPictureFrameLock
@@ -18,24 +18,24 @@ public class PictureFrameLock : BaseShapeLock, IPictureFrameLock
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/pictureframelock/adjusthandleslocked) { get; set; } | Bestämmer om en förändring av justeringsvärden är förbjuden. Läs/skriv Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/pictureframelock/arrowheadslocked) { get; set; } | Bestämmer om en förändring av pilspetsar är förbjuden. Läs/skriv Boolean. |
-| [AspectRatioLocked](../../aspose.slides/pictureframelock/aspectratiolocked) { get; set; } | Bestämmer om en form måste bevara bildförhållandet vid storleksändring. Läs/skriv Boolean. |
-| [CropLocked](../../aspose.slides/pictureframelock/croplocked) { get; set; } | Bestämmer om en bildbeskärning är förbjuden. Läs/skriv Boolean. |
-| [EditPointsLocked](../../aspose.slides/pictureframelock/editpointslocked) { get; set; } | Bestämmer om en direkt förändring av konturen för denna form är förbjuden. Läs/skriv Boolean. |
-| [GroupingLocked](../../aspose.slides/pictureframelock/groupinglocked) { get; set; } | Bestämmer om en tilläggning av denna form till en grupp är förbjuden. Läs/skriv Boolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Returnerar true om alla låsflaggor är inaktiverade. Skrivskyddad Boolean. |
-| [PositionLocked](../../aspose.slides/pictureframelock/positionlocked) { get; set; } | Bestämmer om en förflyttning av denna form är förbjuden. Läs/skriv Boolean. |
-| [RotationLocked](../../aspose.slides/pictureframelock/rotationlocked) { get; set; } | Bestämmer om en förändring av rotationsvinkeln för denna form är förbjuden. Läs/skriv Boolean. |
-| [SelectLocked](../../aspose.slides/pictureframelock/selectlocked) { get; set; } | Bestämmer om en markering av denna form är förbjuden. Läs/skriv Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/pictureframelock/shapetypelocked) { get; set; } | Bestämmer om en förändring av en formtyp är förbjuden. Läs/skriv Boolean. |
-| [SizeLocked](../../aspose.slides/pictureframelock/sizelocked) { get; set; } | Bestämmer om en storleksändring av denna form är förbjuden. Läs/skriv Boolean. |
+| [AdjustHandlesLocked](../../aspose.slides/pictureframelock/adjusthandleslocked) { get; set; } | Avgör om en ändring av justeringsvärden är förbjuden. Läs/skriv Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/pictureframelock/arrowheadslocked) { get; set; } | Avgör om en förändring av pilspetsar är förbjuden. Läs/skriv Boolean. |
+| [AspectRatioLocked](../../aspose.slides/pictureframelock/aspectratiolocked) { get; set; } | Avgör om en form måste bevara bildförhållandet vid storleksändring. Läs/skriv Boolean. |
+| [CropLocked](../../aspose.slides/pictureframelock/croplocked) { get; set; } | Avgör om beskärning av en bild är förbjuden. Läs/skriv Boolean. |
+| [EditPointsLocked](../../aspose.slides/pictureframelock/editpointslocked) { get; set; } | Avgör om en direkt ändring av konturen för denna form är förbjuden. Läs/skriv Boolean. |
+| [GroupingLocked](../../aspose.slides/pictureframelock/groupinglocked) { get; set; } | Avgör om att lägga till denna form i en grupp är förbjudet. Läs/skriv Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Returnerar true om alla låsflaggor är inaktiverade. Endast läs Boolean. |
+| [PositionLocked](../../aspose.slides/pictureframelock/positionlocked) { get; set; } | Avgör om förflyttning av denna form är förbjuden. Läs/skriv Boolean. |
+| [RotationLocked](../../aspose.slides/pictureframelock/rotationlocked) { get; set; } | Avgör om en förändring av rotationsvinkeln för denna form är förbjuden. Läs/skriv Boolean. |
+| [SelectLocked](../../aspose.slides/pictureframelock/selectlocked) { get; set; } | Avgör om att markera denna form är förbjudet. Läs/skriv Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/pictureframelock/shapetypelocked) { get; set; } | Avgör om en förändring av en formtyp är förbjuden. Läs/skriv Boolean. |
+| [SizeLocked](../../aspose.slides/pictureframelock/sizelocked) { get; set; } | Avgör om storleksändring av denna form är förbjuden. Läs/skriv Boolean. |
 
 ### Se även
 
 * klass [BaseShapeLock](../baseshapelock)
 * gränssnitt [IPictureFrameLock](../ipictureframelock)
 * namnrymd [Aspose.Slides](../../aspose.slides)
-* samling [Aspose.Slides](../../)
+* montering [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

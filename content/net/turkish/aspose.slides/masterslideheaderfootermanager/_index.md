@@ -1,14 +1,14 @@
 ---
 title: MasterSlideHeaderFooterManager
-second_title: Aspose.Sildes for .NET API Referansı
-description: Ana slayt altbilgi, tarih-saat, sayfa numarası yer tutucuları ve tüm alt yer tutucularının davranışını tutan yöneticiyi temsil eder. Alt yer tutucular, bağımlı düzen slaytları ve bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı düzen slaytları ve slaytlar, ana slaytı kullanır ve ona bağlıdır.
+second_title: Aspose.Sildes .NET API Referansı
+description: Ana slayt altbilgi, tarih-saat, sayfa numarası yer tutucularının davranışını tutan yöneticiyi temsil eder ve tüm alt yer tutucuları içerir. Alt yer tutucular, bağımlı düzen slaytları ve bağımlı slaytlar üzerinde bulunan yer tutucular anlamına gelir. Bağımlı düzen slaytları ve slaytlar ana slaytı kullanır ve ona bağlıdır.
 type: docs
-weight: 8030
+weight: 8050
 url: /tr/aspose.slides/masterslideheaderfootermanager/
 ---
-## MasterSlideHeaderFooterManager sınıf
+## MasterSlideHeaderFooterManager sınıfı
 
-Ana slayt altbilgi, tarih-saat, sayfa numarası yer tutucuları ve tüm alt yer tutucuların davranışını tutan yöneticiyi temsil eder. Alt yer tutucular, bağımlı düzen slaytları ve bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı düzen slaytları ve slaytlar, ana slaytı kullanır ve ona bağlıdır.
+Ana slayt altbilgi, tarih-saat, sayfa numarası yer tutucularının davranışını tutan yöneticiyi temsil eder ve tüm alt yer tutucuları içerir. Alt yer tutucular, bağımlı düzen slaytları ve bağımlı slaytlar üzerinde bulunan yer tutucular anlamına gelir. Bağımlı düzen slaytları ve slaytlar ana slaytı kullanır ve ona bağlıdır.
 
 ```csharp
 public sealed class MasterSlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
@@ -19,23 +19,23 @@ public sealed class MasterSlideHeaderFooterManager : BaseSlideHeaderFooterManage
 
 | Ad | Açıklama |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Bir tarih-saat yer tutucusunun var olduğunu gösteren değeri alır. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Bir altbilgi yer tutucusunun var olduğunu gösteren değeri alır. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Bir sayfa numarası yer tutucusunun var olduğunu gösteren değeri alır. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Tarih-saat yer tutucusunun mevcut olduğunu gösteren değeri alır. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Altbilgi yer tutucusunun mevcut olduğunu gösteren değeri alır. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Sayfa numarası yer tutucusunun mevcut olduğunu gösteren değeri alır. ReadBoolean. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/masterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Metni ana slayt tarih-saat yer tutucusuna ve tüm alt tarih-saat yer tutucularına ayarlar. Alt yer tutucular, bağımlı düzen slaytları ve bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı düzen slaytları ve slaytlar, ana slaytı kullanır ve ona bağlıdır. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/masterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Ana slayt tarih-saat yer tutucusunun ve tüm alt tarih-saat yer tutucularının görünürlüğünü değiştirir. Alt yer tutucular, bağımlı düzen slaytları ve bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı düzen slaytları ve slaytlar, ana slaytı kullanır ve ona bağlıdır. |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Metni slayt tarih-saat yer tutucusuna ayarlar. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/masterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Ana slayt tarih-saat yer tutucusuna ve tüm alt tarih-saat yer tutucularına metin ayarlar. Alt yer tutucular, bağımlı düzen slaytları ve bağımlı slaytlar üzerinde bulunan yer tutucular anlamına gelir. Bağımlı düzen slaytları ve slaytlar ana slaytı kullanır ve ona bağlıdır. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/masterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Ana slayt tarih-saat yer tutucusunun ve tüm alt tarih-saat yer tutucularının görünürlüğünü değiştirir. Alt yer tutucular, bağımlı düzen slaytları ve bağımlı slaytlar üzerinde bulunan yer tutucular anlamına gelir. Bağımlı düzen slaytları ve slaytlar ana slaytı kullanır ve ona bağlıdır. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Slayt tarih-saat yer tutucusuna metin ayarlar. |
 | [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Slayt tarih-saat yer tutucusunun görünürlüğünü değiştirir. |
-| [SetFooterAndChildFootersText](../../aspose.slides/masterslideheaderfootermanager/setfooterandchildfooterstext)(string) | Metni ana slayt altbilgi yer tutucusuna ve tüm alt altbilgi yer tutucularına ayarlar. Alt yer tutucular, bağımlı düzen slaytları ve bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı düzen slaytları ve slaytlar, ana slaytı kullanır ve ona bağlıdır. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/masterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Ana slayt altbilgi yer tutucusunun ve tüm alt altbilgi yer tutucularının görünürlüğünü değiştirir. Alt yer tutucular, bağımlı düzen slaytları ve bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı düzen slaytları ve slaytlar, ana slaytı kullanır ve ona bağlıdır. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Metni slayt altbilgi yer tutucusuna ayarlar. |
+| [SetFooterAndChildFootersText](../../aspose.slides/masterslideheaderfootermanager/setfooterandchildfooterstext)(string) | Ana slayt altbilgi yer tutucusuna ve tüm alt altbilgi yer tutucularına metin ayarlar. Alt yer tutucular, bağımlı düzen slaytları ve bağımlı slaytlar üzerinde bulunan yer tutucular anlamına gelir. Bağımlı düzen slaytları ve slaytlar ana slaytı kullanır ve ona bağlıdır. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/masterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Ana slayt altbilgi yer tutucusunun ve tüm alt altbilgi yer tutucularının görünürlüğünü değiştirir. Alt yer tutucular, bağımlı düzen slaytları ve bağımlı slaytlar üzerinde bulunan yer tutucular anlamına gelir. Bağımlı düzen slaytları ve slaytlar ana slaytı kullanır ve ona bağlıdır. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Slayt altbilgi yer tutucusuna metin ayarlar. |
 | [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Slayt altbilgi yer tutucusunun görünürlüğünü değiştirir. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/masterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Ana slayt sayfa numarası yer tutucusunun ve tüm alt sayfa numarası yer tutucularının görünürlüğünü değiştirir. Alt yer tutucular, bağımlı düzen slaytları ve bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı düzen slaytları ve slaytlar, ana slaytı kullanır ve ona bağlıdır. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/masterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Ana slayt sayfa numarası yer tutucusunun ve tüm alt sayfa numarası yer tutucularının görünürlüğünü değiştirir. Alt yer tutucular, bağımlı düzen slaytları ve bağımlı slaytlar üzerinde bulunan yer tutucular anlamına gelir. Bağımlı düzen slaytları ve slaytlar ana slaytı kullanır ve ona bağlıdır. |
 | [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Slayt sayfa numarası yer tutucusunun görünürlüğünü değiştirir. |
 
 ### Ayrıca Bakınız

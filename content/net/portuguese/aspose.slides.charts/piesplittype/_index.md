@@ -1,14 +1,14 @@
 ---
 title: PieSplitType
-second_title: Aspose.Sildes para .NET Referência de API
-description: Representa um tipo de pontos de divisão na segunda torta ou barra em um gráfico de torta-sobre-torta ou barra-sobre-torta.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Representa um tipo de pontos de divisão na segunda pizza ou barra em um gráfico de pizza-de-pizza ou barra-de-pizza.
 type: docs
-weight: 2360
+weight: 2380
 url: /pt/aspose.slides.charts/piesplittype/
 ---
 ## Enumeração PieSplitType
 
-Representa um tipo de pontos de divisão no segundo torta ou barra em um gráfico de torta-sobre-torta ou barra-sobre-torta.
+Representa um tipo de pontos de divisão no segundo pizza ou barra em um gráfico de pizza-de-pizza ou barra-de-pizza.
 
 ```csharp
 public enum PieSplitType
@@ -19,10 +19,10 @@ public enum PieSplitType
 | Nome | Valor | Descrição |
 | --- | --- | --- |
 | Default | `0` | Especifica que os pontos de dados devem ser divididos usando o mecanismo padrão para este tipo de gráfico. |
-| Custom | `1` | Especifica que os pontos de dados devem ser divididos entre a torta e o segundo gráfico de acordo com os valores Custom Split. |
-| ByPercentage | `2` | Especifica que os pontos de dados devem ser divididos entre a torta e o segundo gráfico colocando os pontos com percentual menor que Split Position percent no segundo gráfico. |
-| ByPos | `3` | Especifica que os pontos de dados devem ser divididos entre a torta e o segundo gráfico colocando a última Split Position dos pontos de dados no segundo gráfico. |
-| ByValue | `4` | Especifica que os pontos de dados devem ser divididos entre a torta e o segundo gráfico colocando os pontos de dados com valor menor que Split Position no segundo gráfico. |
+| Custom | `1` | Especifica que os pontos de dados devem ser divididos entre a pizza e o segundo gráfico de acordo com os valores de Divisão Personalizada. |
+| ByPercentage | `2` | Especifica que os pontos de dados devem ser divididos entre a pizza e o segundo gráfico colocando os pontos com percentual inferior a Split Position percent no segundo gráfico. |
+| ByPos | `3` | Especifica que os pontos de dados devem ser divididos entre a pizza e o segundo gráfico colocando a última Split Position dos pontos de dados no segundo gráfico. |
+| ByValue | `4` | Especifica que os pontos de dados devem ser divididos entre a pizza e o segundo gráfico colocando os pontos de dados com valor inferior a Split Position no segundo gráfico. |
 
 ### Veja Também
 

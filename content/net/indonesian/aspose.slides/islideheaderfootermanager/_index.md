@@ -1,14 +1,14 @@
 ---
 title: ISlideHeaderFooterManager
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili manajer yang mengendalikan perilaku placeholder footer slide, tanggal-waktu, dan nomor halaman.
+description: Mewakili manajer yang mengelola perilaku placeholder footer slide, tanggal-waktu, nomor halaman.
 type: docs
-weight: 7050
+weight: 7070
 url: /id/aspose.slides/islideheaderfootermanager/
 ---
 ## ISlideHeaderFooterManager antarmuka
 
-Mewakili manajer yang mengatur perilaku placeholder footer slide, tanggal-waktu, dan nomor halaman.
+Mewakili manajer yang mengelola perilaku placeholder footer slide, tanggal-waktu, nomor halaman.
 
 ```csharp
 public interface ISlideHeaderFooterManager : IBaseSlideHeaderFooterManager

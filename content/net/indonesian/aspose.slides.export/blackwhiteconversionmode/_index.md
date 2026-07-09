@@ -1,9 +1,9 @@
 ---
 title: BlackWhiteConversionMode
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Menyediakan opsi yang mengontrol bagaimana gambar slide akan dikonversi menjadi gambar bitonal.
 type: docs
-weight: 3700
+weight: 3720
 url: /id/aspose.slides.export/blackwhiteconversionmode/
 ---
 ## BlackWhiteConversionMode enumerasi
@@ -21,11 +21,11 @@ public enum BlackWhiteConversionMode
 | Default | `0` | Menentukan tidak ada algoritma konversi. Algoritma yang diimplementasikan dalam codec TIFF akan digunakan. (Default) |
 | Dithering | `1` | Menentukan algoritma dithering (Floyd-Steinberg). |
 | DitheringFloydSteinberg | `2` | Menentukan algoritma dithering Floyd-Steinberg. |
-| Auto | `3` | Menentukan algoritma ambang yang dihitung secara otomatis (Otsu). |
-| AutoOtsu | `4` | Menentukan algoritma ambang Otsu yang dihitung secara otomatis. |
-| Threshold25 | `5` | Menentukan algoritma ambang statis (25%). |
-| Threshold50 | `6` | Menentukan algoritma ambang statis (50%). |
-| Threshold75 | `7` | Menentukan algoritma ambang statis (75%). |
+| Auto | `3` | Menentukan algoritma ambang batas yang dihitung secara otomatis (Otsu). |
+| AutoOtsu | `4` | Menentukan algoritma ambang batas Otsu yang dihitung secara otomatis. |
+| Threshold25 | `5` | Menentukan algoritma ambang batas statis (25%). |
+| Threshold50 | `6` | Menentukan algoritma ambang batas statis (50%). |
+| Threshold75 | `7` | Menentukan algoritma ambang batas statis (75%). |
 
 ### Lihat Juga
 

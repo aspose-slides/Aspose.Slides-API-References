@@ -1,14 +1,14 @@
 ---
 title: MathRowSpacingRule
 second_title: Riferimento API di Aspose.Sildes per .NET
-description: Il tipo di spaziatura verticale tra le colonne in una matrice o array
+description: Il tipo di spaziatura verticale tra le colonne in una matrice o un array
 type: docs
-weight: 8960
+weight: 8980
 url: /it/aspose.slides.mathtext/mathrowspacingrule/
 ---
 ## MathRowSpacingRule enumerazione
 
-Il tipo di spaziatura verticale tra colonne in una matrice o array
+Il tipo di spaziatura verticale tra le colonne in una matrice o un array
 
 ```csharp
 public enum MathRowSpacingRule
@@ -19,10 +19,10 @@ public enum MathRowSpacingRule
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | SingleLineGap | `0` | spazio di una linea |
-| OneAndAHalfLineGap | `1` | spazio di una linea e mezza |
+| OneAndAHalfLineGap | `1` | Spazio di una linea e mezza |
 | TwoLineGap | `2` | spazio di due linee |
-| Exactly | `3` | Esattamente (si basa sul valore della proprietà RowSpacing, misurato in punti) |
-| Multiple | `4` | Multipla (si basa sul valore della proprietà RowSpacing, misurata in linee) |
+| Exactly | `3` | Esattamente (fa riferimento al valore della proprietà RowSpacing, misurato in punti) |
+| Multiple | `4` | Multiplo (fa riferimento al valore della proprietà RowSpacing, misurato in linee) |
 
 ### Vedi anche
 

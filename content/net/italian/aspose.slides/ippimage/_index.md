@@ -1,12 +1,12 @@
 ---
 title: IPPImage
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Riferimento API di Aspose.Sildes per .NET
 description: Rappresenta un'immagine in una presentazione.
 type: docs
-weight: 6530
+weight: 6550
 url: /it/aspose.slides/ippimage/
 ---
-## IPPImage interfaccia
+## interfaccia IPPImage
 
 Rappresenta un'immagine in una presentazione.
 
@@ -24,8 +24,8 @@ public interface IPPImage
 | [Image](../../aspose.slides/ippimage/image) { get; } | Restituisce una copia di un'immagine. Solo lettura [`Image`](./image). |
 | [SvgImage](../../aspose.slides/ippimage/svgimage) { get; set; } | Restituisce o imposta l'oggetto ISvgImage [`ISvgImage`](../isvgimage) |
 | [Width](../../aspose.slides/ippimage/width) { get; } | Restituisce la larghezza di un'immagine. Solo lettura Int32. |
-| [X](../../aspose.slides/ippimage/x) { get; } | Restituisce un offset X di un'immagine. Solo lettura Int32. |
-| [Y](../../aspose.slides/ippimage/y) { get; } | Restituisce un offset Y di un'immagine. Solo lettura Int32. |
+| [X](../../aspose.slides/ippimage/x) { get; } | Restituisce l'offset X di un'immagine. Solo lettura Int32. |
+| [Y](../../aspose.slides/ippimage/y) { get; } | Restituisce l'offset Y di un'immagine. Solo lettura Int32. |
 
 ## Metodi
 

@@ -3,7 +3,7 @@ title: PresentationPlayer
 second_title: Aspose.Sildes için .NET API Referansı
 description: Presentation../aspose.slides/presentation ile ilişkili animasyonların oynatıcısını temsil eder.
 type: docs
-weight: 4370
+weight: 4390
 url: /tr/aspose.slides.export/presentationplayer/
 ---
 ## PresentationPlayer sınıfı
@@ -18,7 +18,7 @@ public class PresentationPlayer : IDisposable
 
 | Ad | Açıklama |
 | --- | --- |
-| [PresentationPlayer](presentationplayer)(PresentationAnimationsGenerator, double) | [`PresentationPlayer`](../presentationplayer) yeni örneğini oluşturur. |
+| [PresentationPlayer](presentationplayer)(PresentationAnimationsGenerator, double) | [`PresentationPlayer`](../presentationplayer)'nin yeni bir örneğini oluşturur. |
 
 ## Özellikler
 
@@ -30,7 +30,7 @@ public class PresentationPlayer : IDisposable
 
 | Ad | Açıklama |
 | --- | --- |
-| [Dispose](../../aspose.slides.export/presentationplayer/dispose)() | [`PresentationPlayer`](../presentationplayer) örneğini yok eder. |
+| [Dispose](../../aspose.slides.export/presentationplayer/dispose)() | [`PresentationPlayer`](../presentationplayer) örneğini temizler. |
 
 ## Diğer Üyeler
 

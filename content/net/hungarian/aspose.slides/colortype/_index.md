@@ -1,12 +1,12 @@
 ---
 title: ColorType
-second_title: Aspose.Sildes .NET API referencia
-description: Különböző színmódokat képvisel.
+second_title: Aspose.Sildes a .NET API Referenciához
+description: Különböző színmódokat reprezentál.
 type: docs
-weight: 2560
+weight: 2580
 url: /hu/aspose.slides/colortype/
 ---
-## ColorType felsoroló
+## ColorType enumeráció
 
 Különböző színmódokat reprezentál.
 
@@ -19,11 +19,11 @@ public enum ColorType
 | Név | Érték | Leírás |
 | --- | --- | --- |
 | NotDefined | `-1` | A szín egyáltalán nincs definiálva. |
-| RGB | `0` | Standard 24 bites RGB szín. |
+| RGB | `0` | Szabványos 24 bites RGB szín. |
 | RGBPercentage | `1` | Nagy felbontású RGB szín. |
 | HSL | `2` | Nagy felbontású HSL szín. |
-| Scheme | `3` | Sémára alapuló szín. |
-| System | `4` | Rendszer szín. |
+| Scheme | `3` | Sémaszín. |
+| System | `4` | Rendszerszín. |
 | Preset | `5` | Előre beállított szín. |
 
 ### Lásd még

@@ -3,10 +3,10 @@ title: IAutoShape
 second_title: Aspose.Sildes için .NET API Referansı
 description: Bir AutoShape'i temsil eder.
 type: docs
-weight: 5220
+weight: 5240
 url: /tr/aspose.slides/iautoshape/
 ---
-## IAutoShape arayüz
+## IAutoShape arayüzü
 
 Bir AutoShape'i temsil eder.
 
@@ -16,20 +16,20 @@ public interface IAutoShape : IGeometryShape
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides/iautoshape/asigeometryshape) { get; } | Temel IGeometryShape arabirimini almayı sağlar. Yalnızca okunur [`IGeometryShape`](../igeometryshape). |
-| [AutoShapeLock](../../aspose.slides/iautoshape/autoshapelock) { get; } | AutoShape'in kilitlerini döndürür. Yalnızca okunur [`IAutoShapeLock`](../iautoshapelock). |
+| [AsIGeometryShape](../../aspose.slides/iautoshape/asigeometryshape) { get; } | Temel IGeometryShape arayüzünü almayı sağlar. Salt okunur [`IGeometryShape`](../igeometryshape). |
+| [AutoShapeLock](../../aspose.slides/iautoshape/autoshapelock) { get; } | AutoShape'in kilitlerini döndürür. Salt okunur [`IAutoShapeLock`](../iautoshapelock). |
 | [IsTextBox](../../aspose.slides/iautoshape/istextbox) { get; } | Şeklin bir metin kutusu olup olmadığını belirtir. |
-| [ShapeLock](../../aspose.slides/iautoshape/shapelock) { get; } | Şeklin kilitlerini döndürür. Yalnızca okunur [`IAutoShapeLock`](../iautoshapelock). |
-| [TextFrame](../../aspose.slides/iautoshape/textframe) { get; } | AutoShape için TextFrame nesnesini döndürür. Yalnızca okunur [`ITextFrame`](../itextframe). |
-| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | Bu otomatik şeklin stil veya doldurma biçimiyle belirtilen yerine slaytın arkaplan dolgusu ile doldurulup doldurulmayacağını belirler. Okunabilir/Yazılabilir Boolean. |
+| [ShapeLock](../../aspose.slides/iautoshape/shapelock) { get; } | Şeklin kilitlerini döndürür. Salt okunur [`IAutoShapeLock`](../iautoshapelock). |
+| [TextFrame](../../aspose.slides/iautoshape/textframe) { get; } | AutoShape için TextFrame nesnesini döndürür. Salt okunur [`ITextFrame`](../itextframe). |
+| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | Bu autoshape'in stil veya dolgu biçimi tarafından belirlenmiş yerine slaytın arka plan dolgusuyla doldurulup doldurulmayacağını belirler. Okunabilir/Yazılabilir Boolean. |
 
 ## Yöntemler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [AddTextFrame](../../aspose.slides/iautoshape/addtextframe)(string) | Şekle yeni bir TextFrame ekler. Şeklin zaten bir TextFrame'i varsa, yalnızca metnini değiştirir. |
+| [AddTextFrame](../../aspose.slides/iautoshape/addtextframe)(string) | Bir şekle yeni bir TextFrame ekler. Şeklin zaten bir TextFrame'i varsa yalnızca metnini değiştirir. |
 
 ### Ayrıca Bakınız
 

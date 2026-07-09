@@ -1,14 +1,14 @@
 ---
 title: ITrendlineCollection
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta una collezione di TrendlineEx
+second_title: Aspose.Sildes per .NET API Reference
+description: Rappresenta una raccolta di TrendlineEx
 type: docs
-weight: 2230
+weight: 2250
 url: /it/aspose.slides.charts/itrendlinecollection/
 ---
 ## ITrendlineCollection interfaccia
 
-Rappresenta una collezione di TrendlineEx
+Rappresenta una raccolta di TrendlineEx
 
 ```csharp
 public interface ITrendlineCollection : IEnumerable<ITrendline>
@@ -16,17 +16,17 @@ public interface ITrendlineCollection : IEnumerable<ITrendline>
 
 ## Proprietà
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.charts/itrendlinecollection/asienumerable) { get; } | Consente di ottenere l’interfaccia base IEnumerable. Solo lettura IEnumerable. |
-| [Count](../../aspose.slides.charts/itrendlinecollection/count) { get; } | Restituisce il numero di elementi effettivamente contenuti nella collezione. Solo lettura Int32. |
-| [Item](../../aspose.slides.charts/itrendlinecollection/item) { get; } | Restituisce l’elemento all’indice specificato. Solo lettura [`ITrendline`](../itrendline). |
+| [AsIEnumerable](../../aspose.slides.charts/itrendlinecollection/asienumerable) { get; } | Consente di ottenere l'interfaccia di base IEnumerable. IEnumerable di sola lettura. |
+| [Count](../../aspose.slides.charts/itrendlinecollection/count) { get; } | Restituisce il numero di elementi effettivamente contenuti nella raccolta. Int32 di sola lettura. |
+| [Item](../../aspose.slides.charts/itrendlinecollection/item) { get; } | Restituisce l'elemento all'indice specificato. [`ITrendline`](../itrendline) di sola lettura. |
 
 ## Metodi
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.slides.charts/itrendlinecollection/add)(TrendlineType) | Aggiunge la nuova Trendline alla fine di una collezione e la restituisce. |
+| [Add](../../aspose.slides.charts/itrendlinecollection/add)(TrendlineType) | Aggiunge il nuovo Trendline alla fine di una raccolta e lo restituisce. |
 | [Remove](../../aspose.slides.charts/itrendlinecollection/remove)(ITrendline) | Rimuove il valore specificato. |
 
 ### Vedi anche

@@ -1,12 +1,12 @@
 ---
 title: Output
-second_title: Aspose.Sildes dla .NET Referencja API
+second_title: Aspose.Sildes for .NET Dokumentacja API
 description: Reprezentuje kolekcję elementów wyjściowych dla IWebDocument.
 type: docs
-weight: 4620
+weight: 4640
 url: /pl/aspose.slides.export.web/output/
 ---
-## Klasa Output
+## Output klasa
 
 Reprezentuje kolekcję elementów wyjściowych dla !:IWebDocument.
 
@@ -18,13 +18,13 @@ public sealed class Output
 
 | Nazwa | Opis |
 | --- | --- |
-| [Add](../../aspose.slides.export.web/output/add#add_1)(string, IImage) | Dodaje element wyjściowy dla obrazu. |
-| [Add](../../aspose.slides.export.web/output/add#add_2)(string, IPPImage) | Dodaje element wyjściowy dla obrazu. |
-| [Add](../../aspose.slides.export.web/output/add#add_3)(string, IVideo) | Dodaje element wyjściowy dla wideo. |
-| [Add](../../aspose.slides.export.web/output/add#add_4)(string, string) | Dodaje element wyjściowy dla zawartości tekstowej. |
+| [Add](../../aspose.slides.export.web/output/add#add_1)(string, IImage) | Dodaje element wyjścia dla obrazu. |
+| [Add](../../aspose.slides.export.web/output/add#add_2)(string, IPPImage) | Dodaje element wyjścia dla obrazu. |
+| [Add](../../aspose.slides.export.web/output/add#add_3)(string, IVideo) | Dodaje element wyjścia dla wideo. |
+| [Add](../../aspose.slides.export.web/output/add#add_4)(string, string) | Dodaje element wyjścia dla treści tekstowej. |
 | [Add](../../aspose.slides.export.web/output/add#add)(string, IFontData, FontStyleType) | Tworzy i dodaje element pliku wyjściowego dla określonej czcionki. |
-| [Add&lt;TContextObject&gt;](../../aspose.slides.export.web/output/add#add_5)(string, string, TContextObject) | Dodaje element wyjściowy dla obiektu kontekstu. |
-| [BindResource](../../aspose.slides.export.web/output/bindresource)(IOutputFile, object) | Łączy zasób z plikiem wyjściowym. |
+| [Add&lt;TContextObject&gt;](../../aspose.slides.export.web/output/add#add_5)(string, string, TContextObject) | Dodaje element wyjścia dla obiektu kontekstu. |
+| [BindResource](../../aspose.slides.export.web/output/bindresource)(IOutputFile, object) | Powiązuje zasób z plikiem wyjściowym. |
 | [GetResourcePath](../../aspose.slides.export.web/output/getresourcepath)(object) | Zwraca ścieżkę dla podanego zasobu. |
 
 ### Zobacz także

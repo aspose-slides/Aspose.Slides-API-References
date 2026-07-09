@@ -1,14 +1,14 @@
 ---
 title: EightDirectionTransition
 second_title: Aspose.Sildes pro .NET API Reference
-description: Efekt přechodu snímku v osmi směrech.
+description: Efekt přechodu snímku ve směrech osmi.
 type: docs
-weight: 10000
+weight: 10020
 url: /cs/aspose.slides.slideshow/eightdirectiontransition/
 ---
 ## EightDirectionTransition třída
 
-Efekt přechodu snímku v osmi směrech.
+Efekt přechodu snímku ve směrech osmi.
 
 ```csharp
 public class EightDirectionTransition : TransitionValueBase, IEightDirectionTransition
@@ -24,8 +24,8 @@ public class EightDirectionTransition : TransitionValueBase, IEightDirectionTran
 
 | Název | Popis |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Určuje, zda jsou dvě instance TransitionValueBase rovny. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ, vhodná pro použití v hashovacích algoritmech a datových strukturách, jako je hash tabulka. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Určuje, zda jsou dva instance TransitionValueBase rovny. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ, vhodná k použití v hashovacích algoritmech a datových strukturách, jako je hash tabulka. |
 
 ### Viz také
 

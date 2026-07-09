@@ -1,14 +1,14 @@
 ---
 title: IColorOperationCollection
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje kolekci operací transformace barev.
+description: Zastupuje kolekci operací transformace barev.
 type: docs
-weight: 5490
+weight: 5510
 url: /cs/aspose.slides/icoloroperationcollection/
 ---
 ## IColorOperationCollection rozhraní
 
-Představuje kolekci operací transformace barev.
+Zastupuje kolekci operací transformace barev.
 
 ```csharp
 public interface IColorOperationCollection : IGenericCloneable<IColorOperationCollection>, 
@@ -19,7 +19,7 @@ public interface IColorOperationCollection : IGenericCloneable<IColorOperationCo
 
 | Název | Popis |
 | --- | --- |
-| [Item](../../aspose.slides/icoloroperationcollection/item) { get; set; } | Vrací nebo nastavuje operaci na určeném indexu. Čtení/zápis [`IColorOperation`](../icoloroperation). |
+| [Item](../../aspose.slides/icoloroperationcollection/item) { get; set; } | Vrací nebo nastavuje operaci na zadaném indexu. Čtení/zápis [`IColorOperation`](../icoloroperation). |
 
 ## Metody
 
@@ -30,7 +30,7 @@ public interface IColorOperationCollection : IGenericCloneable<IColorOperationCo
 | [Clear](../../aspose.slides/icoloroperationcollection/clear)() | Odstraní všechny operace barev. |
 | [Insert](../../aspose.slides/icoloroperationcollection/insert#insert)(int, ColorTransformOperation) | Vloží novou operaci do kolekce. |
 | [Insert](../../aspose.slides/icoloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | Vloží novou operaci do kolekce. |
-| [RemoveAt](../../aspose.slides/icoloroperationcollection/removeat)(int) | Odstraní operaci barev ze kolekce. |
+| [RemoveAt](../../aspose.slides/icoloroperationcollection/removeat)(int) | Odstraní operaci barvy z kolekce. |
 
 ### Viz také
 

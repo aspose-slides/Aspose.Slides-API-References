@@ -1,14 +1,14 @@
 ---
 title: IChartSeriesGroupCollection
 second_title: Aspose.Sildes için .NET API Referansı
-description: Birleştirilebilir serilerin gruplarının koleksiyonunu temsil eder.
+description: Birleştirilebilir serilerin grup koleksiyonunu temsil eder.
 type: docs
-weight: 1940
+weight: 1960
 url: /tr/aspose.slides.charts/ichartseriesgroupcollection/
 ---
-## IChartSeriesGroupCollection arayüzü
+## IChartSeriesGroupCollection arayüz
 
-Birleştirilebilir serilerin gruplarının koleksiyonunu temsil eder.
+Seri gruplarının birleştirilebilir seriler koleksiyonunu temsil eder.
 
 ```csharp
 public interface IChartSeriesGroupCollection : IGenericCollection<IChartSeriesGroup>
@@ -18,12 +18,12 @@ public interface IChartSeriesGroupCollection : IGenericCollection<IChartSeriesGr
 
 | Ad | Açıklama |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartseriesgroupcollection/item) { get; } | Seriye göre seri grubunu alır. (2 indeksleyici) |
+| [Item](../../aspose.slides.charts/ichartseriesgroupcollection/item) { get; } | Seri aracılığıyla seri grubunu alır. (2 indeksleyici) |
 
 ### Açıklamalar
 
-1) Her seri grubu, birleştirilebilir türlerdeki serileri içerir. Birleştirilebilir seri türleri grupları, CombinableSeriesTypesGroup enum ile tanımlanır ve açıklanır. Ayrıca her seri grubu, birincil eksenlerde veya ikincil eksenlerde (aynı grupta her iki durumda da değil) çizilen serileri içerir. Bu nedenle, seri gruplama prensibi, yukarıda belirtilen tür gruplarına ve birincil/ikincil çizim tipine göre gruplamadır.  
-2) Seri grubu, gruptaki her seri için ortak olan bazı seri özelliklerini ("seri grup özellikleri") içerir. ChartSeriesGroup sınıfındaki "seri grup özellikleri" okuma/yazma özelliktedir. "Seri grup özellikleri"nin her biri ChartSeries sınıfında yalnızca-okunur bir projeksiyona sahip olabilir.
+1) Her seri grubu, birleştirilebilir türlere sahip serileri içerir. Birleştirilebilir seri türleri grupları, CombinableSeriesTypesGroup enum ile tanımlanır ve açıklanır. Ayrıca her seri grubu, birincil eksenlerde veya ikincil eksenlerde (aynı grup içinde her iki durumda da değildir) çizilen serileri içerir. Bu nedenle seri gruplama ilkesi, yukarıda belirtilen tip gruplarına ve birincil/ikincil çizim türüne göre bir gruplamadır.  
+2) Seri grubu, grup içindeki her seri için ortak olan bazı seri özelliklerini ("seri grup özellikleri") içerir. ChartSeriesGroup sınıfındaki "seri grup özellikleri" okuma/yazma özelliktedir. "Seri grup özellikleri"nin her biri, ChartSeries sınıfında yalnızca okunabilen bir yansıtma içerebilir.
 
 ### Ayrıca Bakınız
 

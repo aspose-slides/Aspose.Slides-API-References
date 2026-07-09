@@ -3,12 +3,12 @@ title: LineFormatCollection
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili koleksi gaya garis.
 type: docs
-weight: 11400
+weight: 11420
 url: /id/aspose.slides.theme/lineformatcollection/
 ---
 ## LineFormatCollection kelas
 
-Mewakili koleksi gaya garis.
+Represents the collection of line styles.
 
 ```csharp
 public sealed class LineFormatCollection : DomObject<FormatScheme>, ILineFormatCollection
@@ -16,19 +16,19 @@ public sealed class LineFormatCollection : DomObject<FormatScheme>, ILineFormatC
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [Count](../../aspose.slides.theme/lineformatcollection/count) { get; } | Mendapatkan jumlah elemen yang sebenarnya terkandung dalam koleksi. Hanya-baca Int32. |
-| [IsSynchronized](../../aspose.slides.theme/lineformatcollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (aman terhadap thread). Hanya-baca Boolean. |
-| [Item](../../aspose.slides.theme/lineformatcollection/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. Hanya-baca [`ILineFormat`](../../aspose.slides/ilineformat). |
-| [SyncRoot](../../aspose.slides.theme/lineformatcollection/syncroot) { get; } | Mengembalikan akar sinkronisasi. Hanya-baca Object. |
+| [Count](../../aspose.slides.theme/lineformatcollection/count) { get; } | Mengambil jumlah elemen yang sebenarnya terkandung dalam koleksi. Baca-saja Int32. |
+| [IsSynchronized](../../aspose.slides.theme/lineformatcollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (aman untuk thread). Baca-saja Boolean. |
+| [Item](../../aspose.slides.theme/lineformatcollection/item) { get; } | Mengambil elemen pada indeks yang ditentukan. Baca-saja [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [SyncRoot](../../aspose.slides.theme/lineformatcollection/syncroot) { get; } | Mengembalikan akar sinkronisasi. Baca-saja Object. |
 
 ## Metode
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [CopyTo](../../aspose.slides.theme/lineformatcollection/copyto)(Array, int) | Menyalin semua elemen dari koleksi ke array yang ditentukan. |
-| [GetEnumerator](../../aspose.slides.theme/lineformatcollection/getenumerator)() | Mengembalikan enumerator yang mengulangi koleksi. |
+| [GetEnumerator](../../aspose.slides.theme/lineformatcollection/getenumerator)() | Mengembalikan enumerator yang mengiterasi koleksi. |
 
 ### Lihat Juga
 

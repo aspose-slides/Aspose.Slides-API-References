@@ -1,14 +1,14 @@
 ---
 title: ISoftEdgeEffectiveData
-second_title: Aspose.Sildes .NET API referenciája
-description: Nem módosítható objektum, amely a lágy szél effektust képviseli. A forma szélei elmosódnak, míg a kitöltés nem érintett.
+second_title: Aspose.Sildes .NET API referencia
+description: Módosíthatatlan objektum, amely egy lágy élhatást reprezentál. Az alakzat szélei elmosódnak, míg a kitöltés nem érintett.
 type: docs
-weight: 3510
+weight: 3530
 url: /hu/aspose.slides.effects/isoftedgeeffectivedata/
 ---
 ## ISoftEdgeEffectiveData interfész
 
-Az objektum nem módosítható, és a lágy szél effektust képviseli. A forma szélei elmosódnak, míg a kitöltés nem érintett.
+Modosíthatatlan objektum, amely egy lágy élhatást reprezentál. Az alakzat szélei elmosódnak, míg a kitöltés nem érintett.
 
 ```csharp
 public interface ISoftEdgeEffectiveData : IEffectEffectiveData
@@ -18,8 +18,8 @@ public interface ISoftEdgeEffectiveData : IEffectEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi a bázis IEffectEffectiveData interfész lekérését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | Meghatározza a peremekre alkalmazandó elmosódás sugárát. Csak olvasható Double. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi a bázis IEffectEffectiveData interfész lekérdezését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | Meghatározza a szélekhez alkalmazandó elmosódás sugárát. Csak olvasható Double. |
 
 ### Lásd még
 

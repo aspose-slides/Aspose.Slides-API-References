@@ -1,14 +1,14 @@
 ---
 title: ISlidesPicture
-second_title: Aspose.Sildes .NET API Referencia
-description: Egy képet képvisel egy bemutatóban.
+second_title: Aspose.Sildes .NET API-referencia
+description: Képet képvisel a prezentációban.
 type: docs
-weight: 7090
+weight: 7110
 url: /hu/aspose.slides/islidespicture/
 ---
 ## ISlidesPicture interfész
 
-Egy képet képvisel egy bemutatóban.
+Egy képet képvisel a prezentációban.
 
 ```csharp
 public interface ISlidesPicture : ISlideComponent
@@ -18,10 +18,10 @@ public interface ISlidesPicture : ISlideComponent
 
 | Név | Leírás |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/islidespicture/asislidecomponent) { get; } | Lehetővé teszi a base ISlideComponent interfész lekérését. Csak olvasható [`ISlideComponent`](../islidecomponent). |
-| [Image](../../aspose.slides/islidespicture/image) { get; set; } | Visszaadja vagy beállítja a beágyazott képet. Olvasható/írható [`IPPImage`](../ippimage). |
-| [ImageTransform](../../aspose.slides/islidespicture/imagetransform) { get; } | Visszaadja a kép transzformációs hatások gyűjteményét. Csak olvasható [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
-| [LinkPathLong](../../aspose.slides/islidespicture/linkpathlong) { get; set; } | Visszaadja vagy beállítja a kapcsolt kép URL-jét. Olvasható/írható String. |
+| [AsISlideComponent](../../aspose.slides/islidespicture/asislidecomponent) { get; } | Lehetővé teszi a base ISlideComponent interfész lekérdezését. Csak olvasható [`ISlideComponent`](../islidecomponent). |
+| [Image](../../aspose.slides/islidespicture/image) { get; set; } | Visszaadja vagy beállítja a beágyazott képet. Olvasás/írás [`IPPImage`](../ippimage). |
+| [ImageTransform](../../aspose.slides/islidespicture/imagetransform) { get; } | Visszaadja a kép transzformációs effektusok gyűjteményét. Csak olvasható [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
+| [LinkPathLong](../../aspose.slides/islidespicture/linkpathlong) { get; set; } | Visszaadja vagy beállítja a kapcsolt kép URL-jét. Olvasás/írás String. |
 
 ### Lásd még
 

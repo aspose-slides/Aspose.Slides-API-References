@@ -1,14 +1,14 @@
 ---
 title: Video
-second_title: Aspose.Sildes için .NET API Referansı
-description: Bir sunuma gömülü bir görüntüyü temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Bir sunuma gömülmüş resmi temsil eder.
 type: docs
-weight: 11680
+weight: 11700
 url: /tr/aspose.slides/video/
 ---
 ## Video sınıfı
 
-Bir sunuma gömülü bir görüntüyü temsil eder.
+Bir sunuma yerleştirilmiş resmi temsil eder.
 
 ```csharp
 public class Video : IVideo
@@ -18,16 +18,16 @@ public class Video : IVideo
 
 | Ad | Açıklama |
 | --- | --- |
-| [BinaryData](../../aspose.slides/video/binarydata) { get; } | Bir sesin verisinin bir kopyasını döndürür. Büyük miktarda veri durumunda [`GetStream`](./getstream) yöntemini kullanarak videonun verisinin belleğe gereksiz şekilde yüklenmesini veya OutOfMemoryException oluşmasını önleyin. Yalnızca okuma Byte[]. |
-| [ContentType](../../aspose.slides/video/contenttype) { get; } | Bir videonun MIME tipini döndürür, [`BinaryData`](./binarydata) içinde kodlanmıştır. Yalnızca okuma String. |
+| [BinaryData](../../aspose.slides/video/binarydata) { get; } | Bir sesin verisinin bir kopyasını döndürür. Büyük miktarda veri durumunda, videonun verilerinin belleğe gereksiz yüklenmesini veya OutOfMemoryException oluşmasını önlemek için [`GetStream`](./getstream) yöntemini kullanmayı düşünün. Yalnızca okuma Byte[]. |
+| [ContentType](../../aspose.slides/video/contenttype) { get; } | Bir videonun MIME türünü döndürür, [`BinaryData`](./binarydata) içinde kodlanmıştır. Yalnızca okuma String. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [GetStream](../../aspose.slides/video/getstream)() | Okuma için bir Stream akışı döndürür. 'using' kullanın veya kullanım sonrası akışı kapatın. |
+| [GetStream](../../aspose.slides/video/getstream)() | Okumak için Stream akışı döndürür. 'using' kullanın veya kullandıktan sonra akışı kapatın. |
 
-### Ayrıca Bakınız
+### Diğer Bağlantılar
 
 * arayüz [IVideo](../ivideo)
 * ad alanı [Aspose.Slides](../../aspose.slides)

@@ -3,7 +3,7 @@ title: ICustomData
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en behållare för anpassade data.
 type: docs
-weight: 5640
+weight: 5660
 url: /sv/aspose.slides/icustomdata/
 ---
 ## ICustomData gränssnitt
@@ -18,8 +18,8 @@ public interface ICustomData
 
 | Namn | Beskrivning |
 | --- | --- |
-| [CustomXmlParts](../../aspose.slides/icustomdata/customxmlparts) { get; } | Returnerar samlingen av anpassade xml-delar. Skrivskyddad [`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
-| [Tags](../../aspose.slides/icustomdata/tags) { get; } | Returnerar samlingen av kunddata-taggar. Skrivskyddad [`ITagCollection`](../itagcollection). |
+| [CustomXmlParts](../../aspose.slides/icustomdata/customxmlparts) { get; } | Returnerar samlingen med anpassade xml-delar. Skrivskyddad [`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
+| [Tags](../../aspose.slides/icustomdata/tags) { get; } | Returnerar Customer Data Tags-samlingen. Skrivskyddad [`ITagCollection`](../itagcollection). |
 
 ### Se även
 

@@ -3,10 +3,10 @@ title: EffectRestartType
 second_title: Aspose.Sildes for .NET API リファレンス
 description: タイミングの再開タイプを表します。
 type: docs
-weight: 310
+weight: 330
 url: /ja/aspose.slides.animation/effectrestarttype/
 ---
-## EffectRestartType 列挙型
+## EffectRestartType 列挙体
 
 タイミングの再開タイプを表します。
 

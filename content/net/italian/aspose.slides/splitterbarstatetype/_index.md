@@ -1,12 +1,12 @@
 ---
 title: SplitterBarStateType
-second_title: Aspose.Sildes per il riferimento API .NET
-description: Specifica lo stato in cui la barra di divisione dovrebbe essere mostrata. La barra di divisione separa una regione primaria e secondaria all'interno di un'area di visualizzazione.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Specifica lo stato in cui la barra di divisione dovrebbe essere mostrata. La barra di divisione separa una regione primaria e una secondaria all'interno di un'area di visualizzazione.
 type: docs
-weight: 10670
+weight: 10690
 url: /it/aspose.slides/splitterbarstatetype/
 ---
-## SplitterBarStateType enumerazione
+## enumerazione SplitterBarStateType
 
 Specifica lo stato in cui la barra di divisione deve essere mostrata. La barra di divisione separa una regione primaria e una secondaria all'interno di un'area di visualizzazione.
 

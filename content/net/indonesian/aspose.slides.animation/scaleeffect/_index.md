@@ -3,10 +3,10 @@ title: ScaleEffect
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili efek skala animasi.
 type: docs
-weight: 760
+weight: 780
 url: /id/aspose.slides.animation/scaleeffect/
 ---
-## Kelas ScaleEffect
+## ScaleEffect kelas
 
 Mewakili efek skala animasi.
 
@@ -24,10 +24,10 @@ public class ScaleEffect : Behavior, IScaleEffect
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Mewakili apakah perilaku animasi diakumulasi. Baca/tulis [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Mewakili apakah perilaku animasi dikumpulkan. Baca/tulis [`NullableBool`](../../aspose.slides/nullablebool). |
 | [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Mewakili apakah perilaku animasi saat ini digabungkan dengan animasi lain yang sedang berjalan. Baca/tulis [`BehaviorAdditiveType`](../behavioradditivetype). |
 | [By](../../aspose.slides.animation/scaleeffect/by) { get; set; } | Menjelaskan nilai offset relatif untuk animasi (dalam persen). Baca/tulis PointF. |
-| [From](../../aspose.slides.animation/scaleeffect/from) { get; set; } | Menentukan koordinat x/y untuk memulai animasi dari (dalam persen). Baca/tulis PointF. |
+| [From](../../aspose.slides.animation/scaleeffect/from) { get; set; } | Menentukan koordinat x/y untuk memulai animasi (dalam persen). Baca/tulis PointF. |
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Mewakili properti perilaku. Hanya-baca [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
 | [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Mewakili properti waktu untuk perilaku efek. Baca/tulis [`ITiming`](../itiming). |
 | [To](../../aspose.slides.animation/scaleeffect/to) { get; set; } | Menentukan lokasi target untuk efek skala animasi (dalam persen). Baca/tulis PointF. |

@@ -1,14 +1,13 @@
 ---
 title: EffectChartMinorGroupingType
-second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje typ animačního efektu pro element grafu v řadě nebo v kategorii.
+second_title: Aspose.Sildes pro .NET – referenční příručka API
+description: Representuje typ animačního efektu pro prvek grafu v řadě nebo kategorii.
 type: docs
-weight: 280
+weight: 300
 url: /cs/aspose.slides.animation/effectchartminorgroupingtype/
 ---
-## EffectChartMinorGroupingType enumerace
-
-Representuje typ animačního efektu pro element grafu v řadě nebo kategorii.
+## Výčet EffectChartMinorGroupingType
+Reprezentuje typ animačního efektu pro prvek grafu v řadě nebo kategorii.
 
 ```csharp
 public enum EffectChartMinorGroupingType
@@ -18,8 +17,8 @@ public enum EffectChartMinorGroupingType
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| ByElementInSeries | `0` | Animovat graf podle elementu v řadě |
-| ByElementInCategory | `1` | Animovat graf podle elementu v kategorii |
+| ByElementInSeries | `0` | Animovat graf podle prvku v řadě |
+| ByElementInCategory | `1` | Animovat graf podle prvku v kategorii |
 
 ### Viz také
 

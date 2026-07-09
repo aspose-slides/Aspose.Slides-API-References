@@ -1,12 +1,12 @@
 ---
 title: EffectFillType
-second_title: Aspose.Sildes .NET API Referansı için
+second_title: Aspose.Sildes için .NET API Referansı
 description: Dolgu türlerini temsil eder.
 type: docs
-weight: 290
+weight: 310
 url: /tr/aspose.slides.animation/effectfilltype/
 ---
-## EffectFillType enum'ı
+## EffectFillType enum
 
 Dolgu türlerini temsil eder.
 

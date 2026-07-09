@@ -1,14 +1,14 @@
 ---
 title: OOXMLCorruptFileException
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Pengecualian yang dilempar ketika format file Office Open XML rusak.
+description: Pengecualian yang dilemparkan ketika format file Office Open XML rusak.
 type: docs
-weight: 9170
+weight: 9190
 url: /id/aspose.slides/ooxmlcorruptfileexception/
 ---
 ## OOXMLCorruptFileException kelas
 
-Pengecualian yang dilempar ketika format file Office Open XML rusak.
+Pengecualian yang dilemparkan ketika format file Office Open XML rusak.
 
 ```csharp
 public class OOXMLCorruptFileException : OOXMLException
@@ -20,7 +20,7 @@ public class OOXMLCorruptFileException : OOXMLException
 | --- | --- |
 | [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor)() | Konstruktor default. |
 | [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_1)(string) | Konstruktor yang memungkinkan pesan ditambahkan ke pengecualian ini. |
-| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_2)(string, Exception) | Konstruktor untuk pengecualian yang berisi pesan dan pengecualian tersemat. |
+| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_2)(string, Exception) | Konstruktor untuk pengecualian yang berisi pesan dan pengecualian terbenam. |
 
 ### Lihat Juga
 

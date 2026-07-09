@@ -1,14 +1,14 @@
 ---
 title: IDataSourceTypeForErrorBarsCustomValues
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Określa typy wartości w liście własności ChartDataPoint.ErrorBarsCustomValues
+second_title: Aspose.Sildes dla .NET Referencja API
+description: Określa typy wartości na liście właściwości ChartDataPoint.ErrorBarsCustomValues
 type: docs
-weight: 2030
+weight: 2050
 url: /pl/aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/
 ---
 ## IDataSourceTypeForErrorBarsCustomValues interfejs
 
-Określa typy wartości w liście własności ChartDataPoint.ErrorBarsCustomValues
+Określa typy wartości na liście właściwości ChartDataPoint.ErrorBarsCustomValues
 
 ```csharp
 public interface IDataSourceTypeForErrorBarsCustomValues
@@ -18,10 +18,10 @@ public interface IDataSourceTypeForErrorBarsCustomValues
 
 | Nazwa | Opis |
 | --- | --- |
-| [DataSourceTypeForXMinusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues) { get; set; } | Określa, czy właściwość AsCell, AsLiteralString lub AsLiteralDouble jest aktualna w obiekcie właściwości XMinus punktów danych dla własnych wartości słupków błędów. Innymi słowy określa typ wartości właściwości ChartDataPoint.ErrorBarsCustomValues.XMinus.Data. Odczyt/zapis [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForXPlusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues) { get; set; } | Określa, czy właściwość AsCell, AsLiteralString lub AsLiteralDouble jest aktualna w obiekcie właściwości XPlus punktów danych dla własnych wartości słupków błędów. Innymi słowy określa typ wartości właściwości ChartDataPoint.ErrorBarsCustomValues.XPlus.Data. Odczyt/zapis [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForYMinusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues) { get; set; } | Określa, czy właściwość AsCell, AsLiteralString lub AsLiteralDouble jest aktualna w obiekcie właściwości YMinus punktów danych dla własnych wartości słupków błędów. Innymi słowy określa typ wartości właściwości ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data. Odczyt/zapis [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForYPlusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues) { get; set; } | Określa, czy właściwość AsCell, AsLiteralString lub AsLiteralDouble jest aktualna w obiekcie właściwości YPlus punktów danych dla własnych wartości słupków błędów. Innymi słowy określa typ wartości właściwości ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data. Odczyt/zapis [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForXMinusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues) { get; set; } | Określa, czy właściwość AsCell lub AsLiteralString lub AsLiteralDouble jest rzeczywista w obiekcie właściwości XMinus punktów danych dla niestandardowych wartości słupków błędów. Innych słowy określa typ wartości właściwości ChartDataPoint.ErrorBarsCustomValues.XMinus.Data. Odczyt/zapis [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForXPlusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues) { get; set; } | Określa, czy właściwość AsCell lub AsLiteralString lub AsLiteralDouble jest rzeczywista w obiekcie właściwości XPlus punktów danych dla niestandardowych wartości słupków błędów. Innych słowy określa typ wartości właściwości ChartDataPoint.ErrorBarsCustomValues.XPlus.Data. Odczyt/zapis [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForYMinusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues) { get; set; } | Określa, czy właściwość AsCell lub AsLiteralString lub AsLiteralDouble jest rzeczywista w obiekcie właściwości YMinus punktów danych dla niestandardowych wartości słupków błędów. Innych słowy określa typ wartości właściwości ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data. Odczyt/zapis [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForYPlusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues) { get; set; } | Określa, czy właściwość AsCell lub AsLiteralString lub AsLiteralDouble jest rzeczywista w obiekcie właściwości YPlus punktów danych dla niestandardowych wartości słupków błędów. Innych słowy określa typ wartości właściwości ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data. Odczyt/zapis [`DataSourceType`](../datasourcetype). |
 
 ### Zobacz także
 

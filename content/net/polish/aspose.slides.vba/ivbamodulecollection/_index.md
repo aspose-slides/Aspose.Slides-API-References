@@ -1,9 +1,9 @@
 ---
 title: IVbaModuleCollection
-second_title: Aspose.Sildes dla .NET – Referencja API
+second_title: Aspose.Sildes dla .NET Dokumentacja API
 description: Reprezentuje kolekcję modułów projektu VBA.
 type: docs
-weight: 11520
+weight: 11540
 url: /pl/aspose.slides.vba/ivbamodulecollection/
 ---
 ## IVbaModuleCollection interfejs
@@ -18,7 +18,7 @@ public interface IVbaModuleCollection : IGenericCollection<IVbaModule>
 
 | Nazwa | Opis |
 | --- | --- |
-| [Item](../../aspose.slides.vba/ivbamodulecollection/item) { get; } | Zwraca element o określonym indeksie. |
+| [Item](../../aspose.slides.vba/ivbamodulecollection/item) { get; } | Pobiera element o określonym indeksie. |
 
 ## Metody
 

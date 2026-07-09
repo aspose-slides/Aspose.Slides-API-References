@@ -3,10 +3,10 @@ title: IColumnFormat
 second_title: Aspose.Sildes için .NET API Referansı
 description: Bir tablo sütununun biçimini temsil eder.
 type: docs
-weight: 5520
+weight: 5540
 url: /tr/aspose.slides/icolumnformat/
 ---
-## IColumnFormat arayüz
+## IColumnFormat arayüzü
 
 Bir tablo sütununun biçimini temsil eder.
 
@@ -18,7 +18,7 @@ public interface IColumnFormat
 
 | Ad | Açıklama |
 | --- | --- |
-| [GetEffective](../../aspose.slides/icolumnformat/geteffective)() | Miras ve tablo stilleri uygulanmış etkili tablo sütunu biçimlendirme özelliklerini alır. |
+| [GetEffective](../../aspose.slides/icolumnformat/geteffective)() | Kalıtım ve tablo stillerinin uygulandığı etkili tablo sütunu biçimlendirme özelliklerini alır. |
 
 ### Ayrıca Bakınız
 

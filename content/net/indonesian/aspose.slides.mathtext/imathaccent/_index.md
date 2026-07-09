@@ -1,14 +1,14 @@
 ---
 title: IMathAccent
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Menentukan fungsi aksen yang terdiri dari dasar dan tanda diakritik penggabungan Contoh ́
+description: Menentukan fungsi aksen yang terdiri dari basis dan tanda diakritik gabungan Contoh ́
 type: docs
-weight: 8060
+weight: 8080
 url: /id/aspose.slides.mathtext/imathaccent/
 ---
 ## IMathAccent antarmuka
 
-Menentukan fungsi aksen, yang terdiri dari dasar dan tanda diakritik penggabungan Contoh: 𝑎́
+Specifies the accent function, consisting of a base and a combining diacritical mark Example: 𝑎́
 
 ```csharp
 public interface IMathAccent : IMathElement
@@ -18,9 +18,9 @@ public interface IMathAccent : IMathElement
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathaccent/asimathelement) { get; } | Mengizinkan untuk mendapatkan antarmuka IMathElement dasar [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathaccent/asimathelement) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathaccent/base) { get; } | Argumen yang diterapkan aksen |
-| [Character](../../aspose.slides.mathtext/imathaccent/character) { get; set; } | Karakter Aksen Nilai harus berada dalam rentang (U+0300–U+036F) atau (U+20D0–U+20EF) Nilai default: Kombinasi Aksen Sirkumfleks (U+0302) |
+| [Character](../../aspose.slides.mathtext/imathaccent/character) { get; set; } | Karakter Aksen Nilai harus berada dalam rentang (U+0300–U+036F) atau (U+20D0–U+20EF) Nilai default: Combining Circumflex Accent (U+0302) |
 
 ### Contoh
 

@@ -1,14 +1,14 @@
 ---
 title: ILayoutPlaceholderManager
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta il gestore che consente di aggiungere segnaposti alla diapositiva layout.
+description: Rappresenta il gestore che consente di aggiungere segnaposti alla diapositiva di layout.
 type: docs
-weight: 6190
+weight: 6210
 url: /it/aspose.slides/ilayoutplaceholdermanager/
 ---
 ## ILayoutPlaceholderManager interfaccia
 
-Rappresenta il gestore che consente di aggiungere segnaposti alla diapositiva layout.
+Rappresenta il gestore che consente di aggiungere segnaposti alla diapositiva di layout.
 
 ```csharp
 public interface ILayoutPlaceholderManager
@@ -18,16 +18,16 @@ public interface ILayoutPlaceholderManager
 
 | Nome | Descrizione |
 | --- | --- |
-| [AddChartPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva layout per contenere un grafico. |
-| [AddContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva layout per contenere contenuti, come un'immagine, una tabella, media o testo. |
-| [AddMediaPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva layout per contenere un oggetto multimediale. |
-| [AddOnlineImagePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva layout per contenere un'immagine online. |
-| [AddPicturePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva layout per contenere un'immagine. |
-| [AddSmartArtPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva layout per contenere un diagramma SmartArt. |
-| [AddTablePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva layout per contenere una tabella. |
-| [AddTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva layout per contenere contenuto di testo. |
-| [AddVerticalContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva layout per contenere contenuti, come un'immagine, una tabella, media o testo, in direzione verticale. |
-| [AddVerticalTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva layout per contenere contenuto di testo in direzione verticale. |
+| [AddChartPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva di layout per contenere un grafico. |
+| [AddContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva di layout per contenere contenuti, come un'immagine, una tabella, media o testo. |
+| [AddMediaPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva di layout per contenere un oggetto multimediale. |
+| [AddOnlineImagePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva di layout per contenere un'immagine online. |
+| [AddPicturePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva di layout per contenere un'immagine. |
+| [AddSmartArtPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva di layout per contenere un diagramma SmartArt. |
+| [AddTablePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva di layout per contenere una tabella. |
+| [AddTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva di layout per contenere contenuto testuale. |
+| [AddVerticalContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva di layout per contenere contenuti, come un'immagine, una tabella, media o testo in verticale. |
+| [AddVerticalTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva di layout per contenere contenuto testuale in verticale. |
 
 ### Vedi anche
 

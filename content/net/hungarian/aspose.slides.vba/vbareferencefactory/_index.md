@@ -1,14 +1,14 @@
 ---
 title: VbaReferenceFactory
 second_title: Aspose.Sildes .NET API referencia
-description: Lehetővé teszi VBA projekt hivatkozások létrehozását COM interfészen keresztül
+description: Lehetővé teszi VBA projektreferenciák létrehozását COM interfészen keresztül
 type: docs
-weight: 11660
+weight: 11680
 url: /hu/aspose.slides.vba/vbareferencefactory/
 ---
 ## VbaReferenceFactory osztály
 
-Lehetővé teszi a VBA projekt hivatkozások létrehozását COM interfészen keresztül
+Lehetővé teszi VBA projektreferenciák létrehozását COM interfészen keresztül
 
 ```csharp
 public class VbaReferenceFactory : IVbaReferenceFactory
@@ -24,15 +24,15 @@ public class VbaReferenceFactory : IVbaReferenceFactory
 
 | Név | Leírás |
 | --- | --- |
-| static [Instance](../../aspose.slides.vba/vbareferencefactory/instance) { get; } | VBA projekt hivatkozások gyári statikus példánya. Csak olvasható [`VbaReferenceFactory`](../vbareferencefactory). |
+| static [Instance](../../aspose.slides.vba/vbareferencefactory/instance) { get; } | VBA projektreferenciák gyári statikus példánya. Csak olvasható [`VbaReferenceFactory`](../vbareferencefactory). |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [CreateOleTypeLibReference](../../aspose.slides.vba/vbareferencefactory/createoletypelibreference)(string, string) | Új OLE Automation típusú könyvtárreferenciát hoz létre. |
+| [CreateOleTypeLibReference](../../aspose.slides.vba/vbareferencefactory/createoletypelibreference)(string, string) | Új OLE Automation típuskönyvtár hivatkozást hoz létre. |
 
-### Lásd még
+### További hivatkozások
 
 * interfész [IVbaReferenceFactory](../ivbareferencefactory)
 * névtér [Aspose.Slides.Vba](../../aspose.slides.vba)

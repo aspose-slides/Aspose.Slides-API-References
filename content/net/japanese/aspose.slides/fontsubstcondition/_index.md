@@ -3,7 +3,7 @@ title: FontSubstCondition
 second_title: Aspose.Sildes の .NET API リファレンス
 description: フォント置換の規則を表します
 type: docs
-weight: 4860
+weight: 4880
 url: /ja/aspose.slides/fontsubstcondition/
 ---
 ## FontSubstCondition 列挙体
@@ -18,10 +18,10 @@ public enum FontSubstCondition
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| WhenInaccessible | `0` | フォントが見つからないときに置換 |
-| Always | `1` | 常に置換 |
+| WhenInaccessible | `0` | フォントが見つからない場合に置換します |
+| Always | `1` | 常に置換します |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

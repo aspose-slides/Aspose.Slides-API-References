@@ -1,14 +1,14 @@
 ---
 title: MathMatrixFactory
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Memungkinkan membuat matriks matematika
 type: docs
-weight: 8840
+weight: 8860
 url: /id/aspose.slides.mathtext/mathmatrixfactory/
 ---
 ## MathMatrixFactory kelas
 
-Memungkinkan membuat matriks matematika
+Allows to create a math matrix
 
 ```csharp
 public class MathMatrixFactory : IMathMatrixFactory
@@ -26,7 +26,7 @@ public class MathMatrixFactory : IMathMatrixFactory
 | --- | --- |
 | [CreateMathMatrix](../../aspose.slides.mathtext/mathmatrixfactory/createmathmatrix)(int, int) | Membuat matriks matematika |
 
-### Keterangan
+### Catatan
 
 Untuk kompatibilitas COM
 

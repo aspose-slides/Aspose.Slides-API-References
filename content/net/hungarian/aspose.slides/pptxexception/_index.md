@@ -1,14 +1,14 @@
 ---
 title: PptxException
-second_title: Aspose.Sildes .NET API referenciája
-description: Szabványos belső kivételtípust reprezentál.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Szabványos belső kivételtípust képvisel.
 type: docs
-weight: 9540
+weight: 9560
 url: /hu/aspose.slides/pptxexception/
 ---
 ## PptxException osztály
 
-Szabványos belső kivételtípust reprezentál.
+Szabványos belső kivételtípust képvisel.
 
 ```csharp
 public class PptxException : OOXMLException
@@ -19,8 +19,8 @@ public class PptxException : OOXMLException
 | Név | Leírás |
 | --- | --- |
 | [PptxException](pptxexception#constructor)() | Alapértelmezett konstruktor. |
-| [PptxException](pptxexception#constructor_1)(string) | Konstruktor, amely lehetővé teszi, hogy üzenetet adjunk hozzá ehhez a kivételhez. |
-| [PptxException](pptxexception#constructor_2)(string, Exception) | Konstruktor egy olyan kivételhez, amely üzenetet és egy beágyazott kivételt tartalmaz. |
+| [PptxException](pptxexception#constructor_1)(string) | Konstruktor, amely lehetővé teszi üzenet hozzáadását ehhez a kivételhez. |
+| [PptxException](pptxexception#constructor_2)(string, Exception) | Konstruktor, amely üzenetet és egy beágyazott kivételt tartalmazó kivételt hoz létre. |
 
 ### Lásd még
 

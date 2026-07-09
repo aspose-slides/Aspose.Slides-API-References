@@ -3,7 +3,7 @@ title: NewLineType
 second_title: Aspose.Sildes for .NET API Referansı
 description: Oluşturulan belgede kullanılacak yeni satır türü.
 type: docs
-weight: 4260
+weight: 4280
 url: /tr/aspose.slides.export/newlinetype/
 ---
 ## NewLineType enum

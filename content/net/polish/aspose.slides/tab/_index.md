@@ -1,9 +1,9 @@
 ---
 title: Tab
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET - referencja API
 description: Reprezentuje tabulację dla tekstu.
 type: docs
-weight: 10800
+weight: 10820
 url: /pl/aspose.slides/tab/
 ---
 ## Klasa Tab
@@ -24,9 +24,9 @@ public sealed class Tab : PVIObject, ITab
 
 | Nazwa | Opis |
 | --- | --- |
-| [Alignment](../../aspose.slides/tab/alignment) { get; set; } | Zwraca lub ustawia styl wyrównania tabulacji. Odczyt/zapis [`TabAlignment`](../tabalignment). |
+| [Alignment](../../aspose.slides/tab/alignment) { get; set; } | Zwraca lub ustawia styl wyrównania zakładki. Odczyt/zapis [`TabAlignment`](../tabalignment). |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umożliwia pobranie podstawowego interfejsu IPresentationComponent. Tylko do odczytu [`IPresentationComponent`](../ipresentationcomponent). |
-| [Position](../../aspose.slides/tab/position) { get; set; } | Zwraca lub ustawia pozycję tabulacji. Przypisanie tej właściwości może zmienić indeks tabulacji w kolekcji i unieważnić Enumerator. Odczyt/zapis Double. |
+| [Position](../../aspose.slides/tab/position) { get; set; } | Zwraca lub ustawia pozycję zakładki. Przypisanie tej właściwości może zmienić indeks zakładki w kolekcji i unieważnić Enumerator. Odczyt/zapis Double. |
 
 ## Metody
 
@@ -34,7 +34,7 @@ public sealed class Tab : PVIObject, ITab
 | --- | --- |
 | [CompareTo](../../aspose.slides/tab/compareto)(object) | Porównuje bieżącą instancję z innym obiektem tego samego typu. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Porównuje z określonym obiektem. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Zwraca kod mieszający (hash code). |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Zwraca kod skrótu. |
 
 ### Zobacz także
 

@@ -1,12 +1,12 @@
 ---
 title: SectionSlideCollection
-second_title: Aspose.Sildes dla .NET odniesienie API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje kolekcję slajdów w sekcji.
 type: docs
-weight: 9750
+weight: 9770
 url: /pl/aspose.slides/sectionslidecollection/
 ---
-## SectionSlideCollection klasa
+## Klasa SectionSlideCollection
 
 Reprezentuje kolekcję slajdów w sekcji.
 
@@ -18,7 +18,7 @@ public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCo
 
 | Nazwa | Opis |
 | --- | --- |
-| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | Zwraca liczbę elementów faktycznie znajdujących się w kolekcji. Tylko do odczytu Int32. |
+| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | Zwraca liczbę elementów rzeczywiście zawartych w kolekcji. Tylko do odczytu Int32. |
 | [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest zsynchronizowany (wątkowo bezpieczny). Tylko do odczytu Boolean. |
 | [Item](../../aspose.slides/sectionslidecollection/item) { get; } | Zwraca element o określonym indeksie. Tylko do odczytu [`ISlide`](../islide). |
 | [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | Zwraca korzeń synchronizacji. Tylko do odczytu Object. |

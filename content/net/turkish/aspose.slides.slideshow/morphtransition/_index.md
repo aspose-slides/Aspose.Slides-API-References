@@ -3,7 +3,7 @@ title: MorphTransition
 second_title: Aspose.Sildes için .NET API Referansı
 description: Ripple slayt geçiş efekti.
 type: docs
-weight: 10230
+weight: 10250
 url: /tr/aspose.slides.slideshow/morphtransition/
 ---
 ## MorphTransition sınıfı
@@ -25,7 +25,7 @@ public class MorphTransition : TransitionValueBase, IMorphTransition
 | Ad | Açıklama |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | İki TransitionValueBase örneğinin eşit olup olmadığını belirler. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Belirli bir tür için bir hash işlevi sağlar; hash algoritmaları ve bir hash tablosu gibi veri yapılarında kullanılmaya uygundur. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Belirli bir tür için hash işlevi olarak hizmet eder; karma algoritmaları ve hash tablosu gibi veri yapılarında kullanılmaya uygundur. |
 
 ### Ayrıca Bakınız
 

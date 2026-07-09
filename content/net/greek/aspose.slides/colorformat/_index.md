@@ -3,12 +3,12 @@ title: ColorFormat
 second_title: Aspose.Sildes για .NET API Αναφορά
 description: Αναπαριστά ένα χρώμα που χρησιμοποιείται σε μια παρουσίαση.
 type: docs
-weight: 2500
+weight: 2520
 url: /el/aspose.slides/colorformat/
 ---
 ## ColorFormat κλάση
 
-Αναπαριστά ένα χρώμα που χρησιμοποιείται σε μια παρουσίαση.
+Αναπαριστά ένα χρώμα που χρησιμοποιείται σε παρουσίαση.
 
 ```csharp
 public sealed class ColorFormat : PVIObject, IColorFormat
@@ -18,37 +18,37 @@ public sealed class ColorFormat : PVIObject, IColorFormat
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής IPresentationComponent. Μόνο για ανάγνωση [`IPresentationComponent`](../ipresentationcomponent). |
-| [B](../../aspose.slides/colorformat/b) { get; set; } | Επιστρέφει ή ορίζει το μπλε συστατικό ενός χρώματος. Όλες οι μετασχηματισμοί χρώματος αγνοούνται. Ανάγνωση/εγγραφή Byte. |
-| [Color](../../aspose.slides/colorformat/color) { get; set; } | Επιστρέφει το τελικό χρώμα (με όλους τους μετασχηματισμούς χρώματος εφαρμοσμένους). Ορίζει χρώματα RGB και καθαρίζει όλους τους μετασχηματισμούς χρώματος. Ανάγνωση/εγγραφή Color. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Επιτρέπει την λήψη της βασικής διεπαφής IPresentationComponent. Μόνο για ανάγνωση [`IPresentationComponent`](../ipresentationcomponent). |
+| [B](../../aspose.slides/colorformat/b) { get; set; } | Επιστρέφει ή ορίζει το μπλε συστατικό ενός χρώματος. Όλες οι μετασχηματίσεις χρώματος αγνοούνται. Ανάγνωση/Εγγραφή Byte. |
+| [Color](../../aspose.slides/colorformat/color) { get; set; } | Επιστρέφει το τελικό χρώμα (με όλες τις μετασχηματίσεις χρώματος εφαρμοσμένες). Ορίζει τα χρώματα RGB και διαγράφει όλες τις μετασχηματίσεις χρώματος. Ανάγνωση/Εγγραφή Color. |
 | [ColorTransform](../../aspose.slides/colorformat/colortransform) { get; } | Επιστρέφει τη συλλογή των μετασχηματισμών χρώματος που εφαρμόζονται σε ένα χρώμα. Μόνο για ανάγνωση [`IColorOperationCollection`](../icoloroperationcollection). |
-| [ColorType](../../aspose.slides/colorformat/colortype) { get; set; } | Επιστρέφει ή ορίζει τη μέθοδο ορισμού χρώματος. Ανάγνωση/εγγραφή [`ColorType`](../colortype). |
-| [FloatB](../../aspose.slides/colorformat/floatb) { get; set; } | Επιστρέφει ή ορίζει το μπλε συστατικό ενός χρώματος. Όλες οι μετασχηματισμοί χρώματος αγνοούνται. Ανάγνωση/εγγραφή Single. |
-| [FloatG](../../aspose.slides/colorformat/floatg) { get; set; } | Επιστρέφει ή ορίζει το πράσινο συστατικό ενός χρώματος. Όλες οι μετασχηματισμοί χρώματος αγνοούνται. Ανάγνωση/εγγραφή Single. |
-| [FloatR](../../aspose.slides/colorformat/floatr) { get; set; } | Επιστρέφει ή ορίζει το κόκκινο συστατικό ενός χρώματος. Όλες οι μετασχηματισμοί χρώματος αγνοούνται. Ανάγνωση/εγγραφή Single. |
-| [G](../../aspose.slides/colorformat/g) { get; set; } | Επιστρέφει ή ορίζει το πράσινο συστατικό ενός χρώματος. Όλες οι μετασχηματισμοί χρώματος αγνοούνται. |
-| [Hue](../../aspose.slides/colorformat/hue) { get; set; } | Επιστρέφει ή ορίζει το συστατικό απόχρωσης ενός χρώματος στην αναπαράσταση HSL. Όλες οι μετασχηματισμοί χρώματος αγνοούνται. Ανάγνωση/εγγραφή Single. |
-| [Luminance](../../aspose.slides/colorformat/luminance) { get; set; } | Επιστρέφει ή ορίζει το συστατικό φωτεινότητας ενός χρώματος στην αναπαράσταση HSL. Όλες οι μετασχηματισμοί χρώματος αγνοούνται. Ανάγνωση/εγγραφή Single. |
-| [PresetColor](../../aspose.slides/colorformat/presetcolor) { get; set; } | Επιστρέφει ή ορίζει το προεπιλεγμένο χρώμα. Ανάγνωση/εγγραφή [`PresetColor`](../presetcolor). |
-| [R](../../aspose.slides/colorformat/r) { get; set; } | Επιστρέφει ή ορίζει το κόκκινο συστατικό ενός χρώματος. Όλες οι μετασχηματισμοί χρώματος αγνοούνται. Ανάγνωση/εγγραφή Byte. |
-| [Saturation](../../aspose.slides/colorformat/saturation) { get; set; } | Επιστρέφει ή ορίζει το συστατικό κορεσμού ενός χρώματος στην αναπαράσταση HSL. Όλες οι μετασχηματισμοί χρώματος αγνοούνται. Ανάγνωση/εγγραφή Single. |
-| [SchemeColor](../../aspose.slides/colorformat/schemecolor) { get; set; } | Επιστρέφει ή ορίζει το χρώμα που προσδιορίζεται από ένα σχήμα χρώματος. Ανάγνωση/εγγραφή [`SchemeColor`](../schemecolor). |
-| [SystemColor](../../aspose.slides/colorformat/systemcolor) { get; set; } | Επιστρέφει ή ορίζει το χρώμα που προσδιορίζεται από τον πίνακα συστήματος χρωμάτων. Ανάγνωση/εγγραφή [`SystemColor`](../systemcolor). |
+| [ColorType](../../aspose.slides/colorformat/colortype) { get; set; } | Επιστρέφει ή ορίζει τη μέθοδο ορισμού χρώματος. Ανάγνωση/Εγγραφή [`ColorType`](../colortype). |
+| [FloatB](../../aspose.slides/colorformat/floatb) { get; set; } | Επιστρέφει ή ορίζει το μπλε συστατικό ενός χρώματος. Όλες οι μετασχηματίσεις χρώματος αγνοούνται. Ανάγνωση/Εγγραφή Single. |
+| [FloatG](../../aspose.slides/colorformat/floatg) { get; set; } | Επιστρέφει ή ορίζει το πράσινο συστατικό ενός χρώματος. Όλες οι μετασχηματίσεις χρώματος αγνοούνται. Ανάγνωση/Εγγραφή Single. |
+| [FloatR](../../aspose.slides/colorformat/floatr) { get; set; } | Επιστρέφει ή ορίζει το κόκκινο συστατικό ενός χρώματος. Όλες οι μετασχηματίσεις χρώματος αγνοούνται. Ανάγνωση/Εγγραφή Single. |
+| [G](../../aspose.slides/colorformat/g) { get; set; } | Επιστρέφει ή ορίζει το πράσινο συστατικό ενός χρώματος. Όλες οι μετασχηματίσεις χρώματος αγνοούνται. |
+| [Hue](../../aspose.slides/colorformat/hue) { get; set; } | Επιστρέφει ή ορίζει το συστατικό απόχρωσης ενός χρώματος στην αναπαράσταση HSL. Όλες οι μετασχηματίσεις χρώματος αγνοούνται. Ανάγνωση/Εγγραφή Single. |
+| [Luminance](../../aspose.slides/colorformat/luminance) { get; set; } | Επιστρέφει ή ορίζει το συστατικό φωτεινότητας ενός χρώματος στην αναπαράσταση HSL. Όλες οι μετασχηματίσεις χρώματος αγνοούνται. Ανάγνωση/Εγγραφή Single. |
+| [PresetColor](../../aspose.slides/colorformat/presetcolor) { get; set; } | Επιστρέφει ή ορίζει το προκαθορισμένο χρώμα. Ανάγνωση/Εγγραφή [`PresetColor`](../presetcolor). |
+| [R](../../aspose.slides/colorformat/r) { get; set; } | Επιστρέφει ή ορίζει το κόκκινο συστατικό ενός χρώματος. Όλες οι μετασχηματίσεις χρώματος αγνοούνται. Ανάγνωση/Εγγραφή Byte. |
+| [Saturation](../../aspose.slides/colorformat/saturation) { get; set; } | Επιστρέφει ή ορίζει το συστατικό κορεσμού ενός χρώματος στην αναπαράσταση HSL. Όλες οι μετασχηματίσεις χρώματος αγνοούνται. Ανάγνωση/Εγγραφή Single. |
+| [SchemeColor](../../aspose.slides/colorformat/schemecolor) { get; set; } | Επιστρέφει ή ορίζει το χρώμα που προσδιορίζεται από ένα σχήμα χρώματος. Ανάγνωση/Εγγραφή [`SchemeColor`](../schemecolor). |
+| [SystemColor](../../aspose.slides/colorformat/systemcolor) { get; set; } | Επιστρέφει ή ορίζει το χρώμα που προσδιορίζεται από τον πίνακα χρωμάτων του συστήματος. Ανάγνωση/Εγγραφή [`SystemColor`](../systemcolor). |
 
-## Μεθόδοι
+## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [CopyFrom](../../aspose.slides/colorformat/copyfrom)(IColorFormat) | Αντιγράφει τη μορφή χρώματος από το "color". |
+| [CopyFrom](../../aspose.slides/colorformat/copyfrom)(IColorFormat) | Αντιγράφει τη μορφή χρώματος από το «color». |
 | override [Equals](../../aspose.slides/colorformat/equals)(object) | Ελέγχει την ισότητα με το καθορισμένο αντικείμενο. |
-| override [GetHashCode](../../aspose.slides/colorformat/gethashcode)() | Επιστρέφει κωδικό κατακερματισμού. |
-| [ToString](../../aspose.slides/colorformat/tostring#tostring_1)(ColorStringFormat) | Επιστρέφει μια String που αντιπροσωπεύει την τρέχουσα μορφή χρώματος. |
+| override [GetHashCode](../../aspose.slides/colorformat/gethashcode)() | Επιστρέφει τον κωδικό κατακερματισμού. |
+| [ToString](../../aspose.slides/colorformat/tostring#tostring_1)(ColorStringFormat) | Επιστρέφει μια συμβολοσειρά που αντιπροσωπεύει την τρέχουσα μορφή χρώματος. |
 
 ### Δείτε επίσης
 
 * κλάση [PVIObject](../pviobject)
 * διασύνδεση [IColorFormat](../icolorformat)
-* χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
-* συναρμολόγηση [Aspose.Slides](../../)
+* χώρος ονομάτων [Aspose.Slides](../../aspose.slides)
+* συγκρότημα [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

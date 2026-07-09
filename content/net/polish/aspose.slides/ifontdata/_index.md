@@ -1,9 +1,9 @@
 ---
 title: IFontData
-second_title: Aspose.Sildes dla .NET API Reference
+second_title: Aspose.Sildes dla .NET – Referencja API
 description: Reprezentuje definicję czcionki.
 type: docs
-weight: 5810
+weight: 5830
 url: /pl/aspose.slides/ifontdata/
 ---
 ## IFontData interfejs
@@ -18,13 +18,13 @@ public interface IFontData
 
 | Nazwa | Opis |
 | --- | --- |
-| [FontName](../../aspose.slides/ifontdata/fontname) { get; } | Zwraca nazwę czcionki. String tylko do odczytu. |
+| [FontName](../../aspose.slides/ifontdata/fontname) { get; } | Zwraca nazwę czcionki. Tylko do odczytu String. |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [GetFontName](../../aspose.slides/ifontdata/getfontname)(IThemeEffectiveData) | Zwraca nazwę czcionki, zastępując odniesienie do motywu faktycznie używaną czcionką. |
+| [GetFontName](../../aspose.slides/ifontdata/getfontname)(IThemeEffectiveData) | Zwraca nazwę czcionki, zamieniając odwołanie do motywu na rzeczywistą używaną czcionkę. |
 
 ### Zobacz także
 

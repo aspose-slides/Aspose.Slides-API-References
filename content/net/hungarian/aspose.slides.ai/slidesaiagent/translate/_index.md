@@ -1,14 +1,14 @@
 ---
 title: Translate
-second_title: Aspose.Sildes a .NET API referencia
-description: Átfordít egy prezentációt a megadott nyelvre AI szinkron verzióval.
+second_title: Aspose.Sildes .NET API referenciája
+description: Lefordít egy bemutatót a megadott nyelvre AI szinkron verzió használatával.
 type: docs
 weight: 40
 url: /hu/aspose.slides.ai/slidesaiagent/translate/
 ---
 ## SlidesAIAgent.Translate metódus
 
-Átfordít egy prezentációt a megadott nyelvre AI segítségével (szinkron változat).
+Egy bemutatót lefordít a megadott nyelvre AI segítségével (szinkron változat).
 
 ```csharp
 public void Translate(IPresentation presentation, string language)
@@ -16,15 +16,23 @@ public void Translate(IPresentation presentation, string language)
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| presentation | IPresentation | Célprezentáció |
-| language | String | Célnyelv |
+| presentation | IPresentation | Cél bemutató |
+| language | String | Cél nyelv |
 
-### Kivételek
+### Kivétel
 
 | kivétel | feltétel |
 | --- | --- |
 | ArgumentNullException | A prezentáció példány nincs megadva |
-| ArgumentException | A nyelvi érték nem lehet null vagy üres |
+| ArgumentException | A nyelv értéke nem lehet null vagy üres |
+
+### Megjegyzések
+
+Az alábbi példa az alapértelmezett [`AsposeAIWebClient`](../../asposeaiwebclient) használja, amelyet a paraméter nélküli [`SlidesAIAgent`](../slidesaiagent) konstruktor hoz létre, és az Aspose saját LLM-jéhez csatlakozik. Egy másik AI szolgáltató használatához, saját LLM-et biztosítva, vagy a kapcsolat testreszabásához (például saját `HttpClient` megadásával), adjon át egy [`IAIWebClient`](../../iaiwebclient) megvalósítást a [`SlidesAIAgent`](../slidesaiagent) konstruktorhoz. Elérhető megvalósítások:
+
+* [`AsposeAIWebClient`](../../asposeaiwebclient)
+* [`OpenAIWebClient`](../../openaiwebclient)
+* [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
 
 ### Lásd még
 

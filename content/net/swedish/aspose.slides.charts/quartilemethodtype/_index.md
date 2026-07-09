@@ -1,14 +1,14 @@
 ---
 title: QuartileMethodType
 second_title: Aspose.Sildes för .NET API-referens
-description: Returnerar typ av kvartilmetod
+description: Returnerar typen av kvartilmetod
 type: docs
-weight: 2370
+weight: 2390
 url: /sv/aspose.slides.charts/quartilemethodtype/
 ---
-## QuartileMethodType enumeration
+## QuartileMethodType-enumeration
 
-Returnerar typ av kvartilmetod
+Returnerar typen av kvartilmetod
 
 ```csharp
 public enum QuartileMethodType
@@ -18,8 +18,8 @@ public enum QuartileMethodType
 
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Exclusive | `0` | Representerar den exklusiva kvartilmetoden. |
-| Inclusive | `1` | Representerar den inklusiva kvartilmetoden. |
+| Exclusive | `0` | Representerar exklusiv kvartilmetod. |
+| Inclusive | `1` | Representerar inklusiv kvartilmetod. |
 
 ### Se även
 

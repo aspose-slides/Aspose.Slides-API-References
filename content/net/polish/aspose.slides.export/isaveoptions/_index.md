@@ -1,12 +1,12 @@
 ---
 title: ISaveOptions
-second_title: Aspose.Sildes dla .NET Referencja API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Opcje kontrolujące sposób zapisywania prezentacji.
 type: docs
-weight: 4050
+weight: 4070
 url: /pl/aspose.slides.export/isaveoptions/
 ---
-## ISaveOptions interfejs
+## ISaveOptions interface
 
 Opcje kontrolujące sposób zapisywania prezentacji.
 
@@ -18,11 +18,11 @@ public interface ISaveOptions
 
 | Nazwa | Opis |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/isaveoptions/defaultregularfont) { get; set; } | Zwraca lub ustawia czcionkę używaną w przypadku, gdy czcionka źródłowa nie zostanie znaleziona. Odczyt-zapis String. |
-| [GradientStyle](../../aspose.slides.export/isaveoptions/gradientstyle) { get; set; } | Zwraca lub ustawia styl wizualny gradientu. Odczyt-zapis [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [DefaultRegularFont](../../aspose.slides.export/isaveoptions/defaultregularfont) { get; set; } | Zwraca lub ustawia czcionkę używaną w przypadku, gdy nie znaleziono czcionki źródłowej. Odczyt-zapis String. |
+| [GradientStyle](../../aspose.slides.export/isaveoptions/gradientstyle) { get; set; } | Zwraca lub ustawia styl wizualny gradientu. Odczyt/zapis [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [ProgressCallback](../../aspose.slides.export/isaveoptions/progresscallback) { get; set; } | Reprezentuje obiekt wywołania zwrotnego dla aktualizacji postępu zapisu w procentach. Zobacz [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/isaveoptions/skipjavascriptlinks) { get; set; } | Określa, czy pomijać hiperłącza z wywołaniami JavaScript podczas zapisywania prezentacji. Odczyt-zapis Boolean. Domyślna wartość to **false**. |
-| [WarningCallback](../../aspose.slides.export/isaveoptions/warningcallback) { get; set; } | Zwraca lub ustawia obiekt, który otrzymuje ostrzeżenia i decyduje, czy proces ładowania będzie kontynuowany, czy zostanie przerwany. Odczyt-zapis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/isaveoptions/skipjavascriptlinks) { get; set; } | Określa, czy pomijać hiperłącza wywołujące JavaScript podczas zapisywania prezentacji. Odczyt/zapis Boolean. Domyślna wartość to **false**. |
+| [WarningCallback](../../aspose.slides.export/isaveoptions/warningcallback) { get; set; } | Zwraca lub ustawia obiekt, który odbiera ostrzeżenia i decyduje, czy proces ładowania będzie kontynuowany, czy zostanie przerwany. Odczyt/zapis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Zobacz także
 

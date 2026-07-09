@@ -1,14 +1,14 @@
 ---
 title: TransitionLeftRightDirectionType
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 左および右の値に限定された方向を指定します。
+description: 左と右の値に制限された方向を指定します。
 type: docs
-weight: 10360
+weight: 10380
 url: /ja/aspose.slides.slideshow/transitionleftrightdirectiontype/
 ---
 ## TransitionLeftRightDirectionType 列挙型
 
-左および右の値に限定された方向を指定します。
+左と右の値に制限された方向を指定します。
 
 ```csharp
 public enum TransitionLeftRightDirectionType
@@ -21,7 +21,7 @@ public enum TransitionLeftRightDirectionType
 | Left | `0` |  |
 | Right | `1` |  |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * アセンブリ [Aspose.Slides](../../)

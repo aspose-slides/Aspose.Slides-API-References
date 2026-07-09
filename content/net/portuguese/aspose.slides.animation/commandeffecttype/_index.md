@@ -1,12 +1,12 @@
 ---
 title: CommandEffectType
-second_title: Aspose.Sildes para .NET API Reference
-description: Representa o tipo de efeito de comando para o comportamento do efeito de comando.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Representa o tipo de efeito de comando para o comportamento de efeito de comando.
 type: docs
-weight: 250
+weight: 270
 url: /pt/aspose.slides.animation/commandeffecttype/
 ---
-## Enumeração CommandEffectType
+## enumeração CommandEffectType
 
 Representa o tipo de efeito de comando para o comportamento de efeito de comando.
 
@@ -23,7 +23,7 @@ public enum CommandEffectType : sbyte
 | Call | `1` |  |
 | Verb | `2` |  |
 
-### Veja Também
+### Ver Também
 
 * namespace [Aspose.Slides.Animation](../../aspose.slides.animation)
 * assembly [Aspose.Slides](../../)

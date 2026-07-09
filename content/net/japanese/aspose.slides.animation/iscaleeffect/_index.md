@@ -3,12 +3,12 @@ title: IScaleEffect
 second_title: Aspose.Sildes for .NET API リファレンス
 description: アニメーションのスケール効果を表します。
 type: docs
-weight: 560
+weight: 580
 url: /ja/aspose.slides.animation/iscaleeffect/
 ---
 ## IScaleEffect インターフェイス
 
-アニメーションのスケール効果を表します。
+アニメーション スケール効果を表します。
 
 ```csharp
 public interface IScaleEffect : IBehavior
@@ -18,13 +18,13 @@ public interface IScaleEffect : IBehavior
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/iscaleeffect/asibehavior) { get; } | ベースの IBehavior インターフェイスを取得できます。読み取り専用 [`IBehavior`](../ibehavior)。 |
-| [By](../../aspose.slides.animation/iscaleeffect/by) { get; set; } | アニメーションの相対オフセット値を記述します（パーセント単位）。読み書き PointF。 |
-| [From](../../aspose.slides.animation/iscaleeffect/from) { get; set; } | アニメーションの開始位置となる x/y 座標を指定します（パーセント単位）。読み書き PointF。 |
-| [To](../../aspose.slides.animation/iscaleeffect/to) { get; set; } | アニメーションのスケール効果のターゲット位置を指定します（パーセント単位）。読み書き PointF。 |
-| [ZoomContent](../../aspose.slides.animation/iscaleeffect/zoomcontent) { get; set; } | コンテンツをズームするかどうかを決定します。読み書き [`NullableBool`](../../aspose.slides/nullablebool)。 |
+| [AsIBehavior](../../aspose.slides.animation/iscaleeffect/asibehavior) { get; } | ベース IBehavior インターフェイスを取得できます。 読み取り専用 [`IBehavior`](../ibehavior)。 |
+| [By](../../aspose.slides.animation/iscaleeffect/by) { get; set; } | アニメーションの相対オフセット値 (パーセンテージ) を示します。 読み取り/書き込み PointF。 |
+| [From](../../aspose.slides.animation/iscaleeffect/from) { get; set; } | アニメーション開始位置の x/y 座標をパーセンテージで指定します。 読み取り/書き込み PointF。 |
+| [To](../../aspose.slides.animation/iscaleeffect/to) { get; set; } | アニメーション スケール効果の対象位置をパーセンテージで指定します。 読み取り/書き込み PointF。 |
+| [ZoomContent](../../aspose.slides.animation/iscaleeffect/zoomcontent) { get; set; } | コンテンツをズームすべきかどうかを決定します。 読み取り/書き込み [`NullableBool`](../../aspose.slides/nullablebool)。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IBehavior](../ibehavior)
 * 名前空間 [Aspose.Slides.Animation](../../aspose.slides.animation)

@@ -1,29 +1,29 @@
 ---
 title: IAlphaModulateFixed
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Alpha Modulate Fixed etkisini temsil eder. Etki alfa opaklık değerleri sabit bir yüzde ile çarpılır.
 type: docs
-weight: 3100
+weight: 3120
 url: /tr/aspose.slides.effects/ialphamodulatefixed/
 ---
 ## IAlphaModulateFixed arayüz
 
-Alpha Modulate Fixed bir efekti temsil eder. Etki alfa (opaklık) değerleri sabit bir yüzde ile çarpılır.
+Alpha Modulate Fixed etkisini temsil eder. Etki alfa (opaklık) değerleri sabit bir yüzde ile çarpılır.
 
 ```csharp
 public interface IAlphaModulateFixed : IAccessiblePVIObject<IAlphaModulateFixedEffectiveData>, 
     IImageTransformOperation
 ```
 
-## Özellikler
+## Properties
 
 | Ad | Açıklama |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/ialphamodulatefixed/amount) { get; set; } | Etkinin miktarını yüzde olarak döndürür. Okuma/yazma Single. |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arayüzünü almayı sağlar. Salt-okunur [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arayüzünü almayı sağlar. Salt-okunur [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Amount](../../aspose.slides.effects/ialphamodulatefixed/amount) { get; set; } | Efekt miktarını yüzde olarak döndürür. Okunabilir/Yazılabilir Single. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arayüzünü almaya izin verir. Salt-okunur [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arayüzünü almaya izin verir. Salt-okunur [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### Ayrıca Bakınız
+### İlgili
 
 * arayüz [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * arayüz [IAlphaModulateFixedEffectiveData](../ialphamodulatefixedeffectivedata)

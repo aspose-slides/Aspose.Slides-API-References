@@ -3,7 +3,7 @@ title: ILineFormatCollection
 second_title: Aspose.Sildes için .NET API Referansı
 description: Satır stillerinin koleksiyonunu temsil eder.
 type: docs
-weight: 11270
+weight: 11290
 url: /tr/aspose.slides.theme/ilineformatcollection/
 ---
 ## ILineFormatCollection arayüz
@@ -18,7 +18,7 @@ public interface ILineFormatCollection : IGenericCollection<ILineFormat>
 
 | Ad | Açıklama |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ilineformatcollection/item) { get; } | Belirtilen dizindeki öğeyi alır. Yalnızca okunur [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Item](../../aspose.slides.theme/ilineformatcollection/item) { get; } | Belirtilen dizindeki öğeyi alır. Yalnızca okuma [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### Ayrıca Bakınız
 

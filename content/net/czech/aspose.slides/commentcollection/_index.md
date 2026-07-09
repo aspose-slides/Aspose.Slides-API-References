@@ -1,14 +1,14 @@
 ---
 title: CommentCollection
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje kolekci komentářů od jednoho autora.
+second_title: Aspose.Sildes pro .NET – reference API
+description: Representuje kolekci komentářů od jednoho autora.
 type: docs
-weight: 2630
+weight: 2650
 url: /cs/aspose.slides/commentcollection/
 ---
-## CommentCollection třída
+## Třída CommentCollection
 
-Reprezentuje kolekci komentářů od jednoho autora.
+Reprezentuje kolekci komentářů jednoho autora.
 
 ```csharp
 public sealed class CommentCollection : DomObject<CommentAuthor>, ICommentCollection
@@ -18,10 +18,10 @@ public sealed class CommentCollection : DomObject<CommentAuthor>, ICommentCollec
 
 | Název | Popis |
 | --- | --- |
-| [Count](../../aspose.slides/commentcollection/count) { get; } | Získá počet skutečně obsažených prvků v kolekci. Pouze ke čtení Int32. |
-| [IsSynchronized](../../aspose.slides/commentcollection/issynchronized) { get; } | Vrací hodnotu udávající, zda je přístup ke kolekci synchronizován (vláknově bezpečný). Pouze ke čtení Boolean. |
-| [Item](../../aspose.slides/commentcollection/item) { get; } | Získá prvek na zadaném indexu. Pouze ke čtení [`Comment`](../comment). |
-| [SyncRoot](../../aspose.slides/commentcollection/syncroot) { get; } | Vrací kořen synchronizace. Pouze ke čtení Object. |
+| [Count](../../aspose.slides/commentcollection/count) { get; } | Vrátí počet elementů skutečně obsažených v kolekci. Pouze pro čtení Int32. |
+| [IsSynchronized](../../aspose.slides/commentcollection/issynchronized) { get; } | Vrací hodnotu indikující, zda je přístup ke kolekci synchronizován (bezpečný pro vlákna). Pouze pro čtení Boolean. |
+| [Item](../../aspose.slides/commentcollection/item) { get; } | Vrátí prvek na zadaném indexu. Pouze pro čtení [`Comment`](../comment). |
+| [SyncRoot](../../aspose.slides/commentcollection/syncroot) { get; } | Vrací kořen synchronizace. Pouze pro čtení Object. |
 
 ## Metody
 
@@ -29,14 +29,14 @@ public sealed class CommentCollection : DomObject<CommentAuthor>, ICommentCollec
 | --- | --- |
 | [AddComment](../../aspose.slides/commentcollection/addcomment)(string, ISlide, PointF, DateTime) | Přidá nový komentář na konec kolekce. |
 | [AddModernComment](../../aspose.slides/commentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | Přidá nový moderní komentář na konec kolekce. |
-| [Clear](../../aspose.slides/commentcollection/clear)() | Odstraní všechny komentáře z kolekce. |
+| [Clear](../../aspose.slides/commentcollection/clear)() | Odebere všechny komentáře z kolekce. |
 | [CopyTo](../../aspose.slides/commentcollection/copyto)(Array, int) | Zkopíruje všechny prvky z kolekce do zadaného pole. |
 | [FindCommentByIdx](../../aspose.slides/commentcollection/findcommentbyidx)(int) | Najde komentář v kolekci podle indexu. |
-| [GetEnumerator](../../aspose.slides/commentcollection/getenumerator)() | Vrací enumerátor, který prochází kolekci. |
+| [GetEnumerator](../../aspose.slides/commentcollection/getenumerator)() | Vrací enumerátor, který prochází kolekcí. |
 | [InsertComment](../../aspose.slides/commentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | Vloží nový komentář do kolekce na zadaný index. |
 | [InsertModernComment](../../aspose.slides/commentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | Vloží nový moderní komentář do kolekce na zadaný index. |
-| [Remove](../../aspose.slides/commentcollection/remove)(IComment) | Odstraní první výskyt zadaného komentáře v kolekci. |
-| [RemoveAt](../../aspose.slides/commentcollection/removeat)(int) | Odstraní prvek na zadaném indexu v kolekci. |
+| [Remove](../../aspose.slides/commentcollection/remove)(IComment) | Odebere první výskyt zadaného komentáře v kolekci. |
+| [RemoveAt](../../aspose.slides/commentcollection/removeat)(int) | Odebere prvek na zadaném indexu v kolekci. |
 | [ToArray](../../aspose.slides/commentcollection/toarray#toarray)() | Vytvoří a vrátí pole se všemi komentáři. |
 | [ToArray](../../aspose.slides/commentcollection/toarray#toarray_1)(int, int) | Vytvoří a vrátí pole se všemi komentáři ze zadaného rozsahu. |
 

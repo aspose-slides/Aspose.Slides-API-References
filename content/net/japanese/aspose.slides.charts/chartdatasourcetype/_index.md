@@ -1,12 +1,12 @@
 ---
 title: ChartDataSourceType
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: チャートのデータ ソースの種類を表します
 type: docs
-weight: 1350
+weight: 1370
 url: /ja/aspose.slides.charts/chartdatasourcetype/
 ---
-## ChartDataSourceType 列挙型
+## ChartDataSourceType 列挙体
 
 チャートのデータ ソースの種類を表します。
 

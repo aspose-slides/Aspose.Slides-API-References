@@ -1,14 +1,14 @@
 ---
 title: TransitionPattern
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Megadja azt a geometriai mintát, amely egymásra helyezve kitölti a nagyobb területet.
+second_title: Aspose.Sildes .NET API referencia
+description: Megad egy geometriai mintát, amely egymáshoz illeszkedve kitölti a nagyobb területet.
 type: docs
-weight: 10380
+weight: 10400
 url: /hu/aspose.slides.slideshow/transitionpattern/
 ---
 ## TransitionPattern enumeráció
 
-Megadja azt a geometriai mintát, amely egymásra helyezve kitölti a nagyobb területet.
+Megad egy geometriai mintát, amely egymáshoz illeszkedve kitölti a nagyobb területet.
 
 ```csharp
 public enum TransitionPattern

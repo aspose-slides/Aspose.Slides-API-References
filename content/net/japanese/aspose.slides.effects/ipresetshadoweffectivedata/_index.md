@@ -1,14 +1,14 @@
 ---
 title: IPresetShadowEffectiveData
-second_title: Aspose.Sildes for .NET API リファレンス
-description: プリセット シャドウ効果を表す不変オブジェクト。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: プリセット シャドウ効果を表す不変オブジェクトです。
 type: docs
-weight: 3470
-url: /ja/aspose.slides.effects/ipresetshadoweffectivedata/
+weight: 3490
+url: /ja/aspose.slides.effects/ippresetshadoweffectivedata/
 ---
-## IPresetShadowEffectiveData interface
+## IPresetShadowEffectiveData インターフェイス
 
-プリセット シャドウ効果を表す不変オブジェクト。
+Preset Shadow 効果を表す不変オブジェクト。
 
 ```csharp
 public interface IPresetShadowEffectiveData : IEffectEffectiveData
@@ -18,13 +18,13 @@ public interface IPresetShadowEffectiveData : IEffectEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ipresetshadoweffectivedata/asieffecteffectivedata) { get; } | ベースの IEffectEffectiveData インターフェイスを取得できます。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
-| [Direction](../../aspose.slides.effects/ipresetshadoweffectivedata/direction) { get; } | シャドウの方向。読み取り専用 Single。 |
-| [Distance](../../aspose.slides.effects/ipresetshadoweffectivedata/distance) { get; } | シャドウの距離。読み取り専用 Double。 |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ipresetshadoweffectivedata/asieffecteffectivedata) { get; } | ベース IEffectEffectiveData インターフェイスを取得できます。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
+| [Direction](../../aspose.slides.effects/ipresetshadoweffectivedata/direction) { get; } | 影の方向。読み取り専用 Single。 |
+| [Distance](../../aspose.slides.effects/ipresetshadoweffectivedata/distance) { get; } | 影の距離。読み取り専用 Double。 |
 | [Preset](../../aspose.slides.effects/ipresetshadoweffectivedata/preset) { get; } | プリセット。読み取り専用 [`PresetShadowType`](../../aspose.slides/presetshadowtype)。 |
-| [ShadowColor](../../aspose.slides.effects/ipresetshadoweffectivedata/shadowcolor) { get; } | シャドウの色。読み取り専用 Color。 |
+| [ShadowColor](../../aspose.slides.effects/ipresetshadoweffectivedata/shadowcolor) { get; } | 影の色。読み取り専用 Color。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [IEffectEffectiveData](../ieffecteffectivedata)
 * 名前空間 [Aspose.Slides.Effects](../../aspose.slides.effects)

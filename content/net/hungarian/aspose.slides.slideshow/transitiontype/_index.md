@@ -1,14 +1,14 @@
 ---
 title: TransitionType
 second_title: Aspose.Sildes .NET API-referencia
-description: A diavetítés átmenet típusát jelöli.
+description: A diavetítés átmeneti típusát képviseli.
 type: docs
-weight: 10430
+weight: 10450
 url: /hu/aspose.slides.slideshow/transitiontype/
 ---
 ## TransitionType enumeráció
 
-A diavetítés átmenet típusát jelöli.
+A diavetítés átmeneti típusát képviseli.
 
 ```csharp
 public enum TransitionType
@@ -21,47 +21,47 @@ public enum TransitionType
 | None | `0` |  |
 | Blinds | `1` |  |
 | Checker | `2` |  |
-| Circle | `3` | A PowerPoint 2010-ben a Shape (Circle opció) átmenethez kapcsolódik. |
+| Circle | `3` | Kapcsolódik a transition Shape (with option Circle) a PowerPoint 2010-ban. |
 | Comb | `4` |  |
 | Cover | `5` |  |
 | Cut | `6` |  |
-| Diamond | `7` | A PowerPoint 2010-ben a Shape (Diamond opció) átmenethez kapcsolódik. |
+| Diamond | `7` | Kapcsolódik a transition Shape (with option Diamond) a PowerPoint 2010-ban. |
 | Dissolve | `8` |  |
 | Fade | `9` |  |
 | Newsflash | `10` |  |
-| Plus | `11` | A PowerPoint 2010-ben a Shape (Plus opció) átmenethez kapcsolódik. |
+| Plus | `11` | Kapcsolódik a transition Shape (with option Plus) a PowerPoint 2010-ban. |
 | Pull | `12` |  |
 | Push | `13` |  |
 | Random | `14` |  |
 | RandomBar | `15` |  |
-| Split | `16` | A PowerPoint 2010-es Wipe átmenetnek megfelelő. |
+| Split | `16` | Ekvivalens a transition Wipe-vel a PowerPoint 2010-ban. |
 | Strips | `17` |  |
-| Wedge | `18` | A PowerPoint 2010-ben a Clock (Wedge opció) átmenethez kapcsolódik. |
-| Wheel | `19` | A PowerPoint 2010-ben a Clock (Clockwise opció) átmenethez kapcsolódik. |
+| Wedge | `18` | Kapcsolódik a transition Clock (with option Wedge) a PowerPoint 2010-ban. |
+| Wheel | `19` | Kapcsolódik a transition Clock (with option Clockwise) a PowerPoint 2010-ban. |
 | Wipe | `20` |  |
-| Zoom | `21` | A PowerPoint 2010-ben a Shape (In/Out opciók) átmenethez kapcsolódik. Lásd még a Warp-ot, amely a PowerPoint 2010 Zoom átmenetéhez kapcsolódik. |
-| Vortex | `22` | Elérhető a PowerPoint 2010-ben. |
-| Switch | `23` | Elérhető a PowerPoint 2010-ben. |
-| Flip | `24` | Elérhető a PowerPoint 2010-ben. |
-| Ripple | `25` | Elérhető a PowerPoint 2010-ben. |
-| Honeycomb | `26` | Elérhető a PowerPoint 2010-ben. |
-| Cube | `27` | Elérhető a PowerPoint 2010-ben. |
-| Box | `28` | Elérhető a PowerPoint 2010-ben. |
-| Rotate | `29` | Elérhető a PowerPoint 2010-ben. |
-| Orbit | `30` | Elérhető a PowerPoint 2010-ben. |
-| Doors | `31` | Elérhető a PowerPoint 2010-ben. |
-| Window | `32` | Elérhető a PowerPoint 2010-ben. |
-| Ferris | `33` | Elérhető a PowerPoint 2010-ben. |
-| Gallery | `34` | Elérhető a PowerPoint 2010-ben. |
-| Conveyor | `35` | Elérhető a PowerPoint 2010-ben. |
-| Pan | `36` | Elérhető a PowerPoint 2010-ben. |
-| Glitter | `37` | Elérhető a PowerPoint 2010-ben. |
-| Warp | `38` | Kapcsolódik a PowerPoint 2010-es Zoom átmenethez. Elérhető a PowerPoint 2010-ben. |
-| Flythrough | `39` | Elérhető a PowerPoint 2010-ben. |
-| Flash | `40` | Elérhető a PowerPoint 2010-ben. |
-| Shred | `41` | Elérhető a PowerPoint 2010-ben. |
-| Reveal | `42` | Elérhető a PowerPoint 2010-ben. |
-| WheelReverse | `43` | A PowerPoint 2010-ben a Clock (Counterclockwise opció) átmenethez kapcsolódik. Elérhető a PowerPoint 2010-ben. |
+| Zoom | `21` | Kapcsolódik a transition Shape (with options In/Out) a PowerPoint 2010-ban. Lásd még a Warp-ot, amely a transition Zoom-hez kapcsolódik a PowerPoint 2010-ban. |
+| Vortex | `22` | Elérhető a PowerPoint 2010-ban. |
+| Switch | `23` | Elérhető a PowerPoint 2010-ban. |
+| Flip | `24` | Elérhető a PowerPoint 2010-ban. |
+| Ripple | `25` | Elérhető a PowerPoint 2010-ban. |
+| Honeycomb | `26` | Elérhető a PowerPoint 2010-ban. |
+| Cube | `27` | Elérhető a PowerPoint 2010-ban. |
+| Box | `28` | Elérhető a PowerPoint 2010-ban. |
+| Rotate | `29` | Elérhető a PowerPoint 2010-ban. |
+| Orbit | `30` | Elérhető a PowerPoint 2010-ban. |
+| Doors | `31` | Elérhető a PowerPoint 2010-ban. |
+| Window | `32` | Elérhető a PowerPoint 2010-ban. |
+| Ferris | `33` | Elérhető a PowerPoint 2010-ban. |
+| Gallery | `34` | Elérhető a PowerPoint 2010-ban. |
+| Conveyor | `35` | Elérhető a PowerPoint 2010-ban. |
+| Pan | `36` | Elérhető a PowerPoint 2010-ban. |
+| Glitter | `37` | Elérhető a PowerPoint 2010-ban. |
+| Warp | `38` | Kapcsolódik a transition Zoom-hez a PowerPoint 2010-ban. Elérhető a PowerPoint 2010-ban. |
+| Flythrough | `39` | Elérhető a PowerPoint 2010-ban. |
+| Flash | `40` | Elérhető a PowerPoint 2010-ban. |
+| Shred | `41` | Elérhető a PowerPoint 2010-ban. |
+| Reveal | `42` | Elérhető a PowerPoint 2010-ban. |
+| WheelReverse | `43` | Kapcsolódik a transition Clock (with option Counterclockwise) a PowerPoint 2010-ban. Elérhető a PowerPoint 2010-ban. |
 | FallOver | `44` | Elérhető a PowerPoint 2013-ban. |
 | Drape | `45` | Elérhető a PowerPoint 2013-ban. |
 | Curtains | `46` | Elérhető a PowerPoint 2013-ban. |
@@ -74,7 +74,7 @@ public enum TransitionType
 | PageCurlSingle | `53` | Elérhető a PowerPoint 2013-ban. |
 | Airplane | `54` | Elérhető a PowerPoint 2013-ban. |
 | Origami | `55` | Elérhető a PowerPoint 2013-ban. |
-| Morph | `56` | Kapcsolódik a PowerPoint 2019-es Morph (Type opció) átmenethez. |
+| Morph | `56` | Kapcsolódik a transition Morph (with option Type) a PowerPoint 2019-ben. |
 
 ### Lásd még
 

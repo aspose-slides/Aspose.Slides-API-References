@@ -1,14 +1,14 @@
 ---
 title: StringChartValue
 second_title: Aspose.Sildes için .NET API Referansı
-description: pptx sunum belgesinde iki şekilde saklanabilen dize değerini temsil eder: 1) grafiğe bağlı çalışma kitabındaki hücre/hücrelerde, 2) doğrudan değer olarak.
+description: pptx sunum belgesinde iki şekilde depolanabilen string değeri temsil eder: 1) grafiğe ilişkili çalışma kitabındaki hücre/hücrelerde, 2) doğrudan literal değer olarak.
 type: docs
-weight: 2390
+weight: 2410
 url: /tr/aspose.slides.charts/stringchartvalue/
 ---
 ## StringChartValue sınıfı
 
-pptx sunum belgesinde iki şekilde saklanabilen dize değerini temsil eder: 1) grafiğe bağlı çalışma kitabındaki hücre/hücrelerde; 2) doğrudan değer olarak.
+pptx sunum belgesinde iki şekilde depolanabilen string değeri temsil eder: 1) grafiğe ilişkili çalışma kitabındaki hücre/hücrelerde; 2) doğrudan değer olarak.
 
 ```csharp
 public class StringChartValue : BaseChartValue, IStringChartValue
@@ -18,20 +18,20 @@ public class StringChartValue : BaseChartValue, IStringChartValue
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | Null değer ataması izin verilmez. Döndürülen değer her zaman null değildir. Okunur/Yazılabilir [`IChartCellCollection`](../ichartcellcollection). |
-| [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | Değeri doğrudan dize olarak döndürür veya ayarlar. Okunur/Yazılabilir String. |
-| override [Data](../../aspose.slides.charts/stringchartvalue/data) { get; set; } | Data nesnesini döndürür veya ayarlar. Okunur/Yazılabilir Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | AsCell, AsCells, AsLiteralString veya AsLiteralDouble özelliğinin türevlerde geçerli olup olmadığını belirtir. Başka bir deyişle, Data özelliğinin değer türünü belirtir. Okunur/Yazılabilir [`DataSourceType`](../datasourcetype). |
+| [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | Null değer ataması izin verilmez. Döndürülen değer her zaman null değildir. Okuma/yazma [`IChartCellCollection`](../ichartcellcollection). |
+| [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | Değeri literal string olarak getirir veya ayarlar. Okuma/yazma String. |
+| override [Data](../../aspose.slides.charts/stringchartvalue/data) { get; set; } | Data nesnesini getirir veya ayarlar. Okuma/yazma Object. |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | AsCell, AsCells, AsLiteralString veya AsLiteralDouble özelliğinin türevlerde geçerli olup olmadığını belirtir. Başka bir deyişle Data özelliğinin değerinin türünü belirtir. Okuma/yazma [`DataSourceType`](../datasourcetype). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | DataSourceType özelliği DataSourceType.Worksheet ise bu yöntem, dize verisini temsil eden çalışma kitabındaki hücrelerin adresini döndürür. Aksi takdirde boş dize döndürür. |
+| [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | DataSourceType özelliği DataSourceType.Worksheet ise bu yöntem, string veriyi temsil eden çalışma kitabındaki hücrelerin adresini döndürür. Aksi takdirde boş bir string döndürür. |
 | [SetFromOneCell](../../aspose.slides.charts/stringchartvalue/setfromonecell)(IChartDataCell) | Belirtilen hücreden değeri ayarlar. |
-| override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | Dize değer verisini döndürür. DataSourceType false ise ve hiçbir dize değeri atanmadıysa null döndürür. |
+| override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | String değer verisini döndürür. DataSourceType false ise ve hiçbir string değer atanmamışsa null döndürür. |
 
-### İlgili
+### Bakınız
 
 * sınıf [BaseChartValue](../basechartvalue)
 * arayüz [IStringChartValue](../istringchartvalue)

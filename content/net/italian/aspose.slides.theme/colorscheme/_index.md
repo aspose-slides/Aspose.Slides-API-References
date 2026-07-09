@@ -1,12 +1,12 @@
 ---
 title: ColorScheme
-second_title: Aspose.Sildes per .NET API Reference
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Memorizza i colori definiti dal tema.
 type: docs
-weight: 11050
+weight: 11070
 url: /it/aspose.slides.theme/colorscheme/
 ---
-## classe ColorScheme
+## ColorScheme classe
 
 Memorizza i colori definiti dal tema.
 
@@ -18,21 +18,21 @@ public class ColorScheme : IColorScheme
 
 | Nome | Descrizione |
 | --- | --- |
-| [Accent1](../../aspose.slides.theme/colorscheme/accent1) { get; } | Primo colore accentato nello schema. Solo lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent2](../../aspose.slides.theme/colorscheme/accent2) { get; } | Secondo colore accentato nello schema. Solo lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent3](../../aspose.slides.theme/colorscheme/accent3) { get; } | Terzo colore accentato nello schema. Solo lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent4](../../aspose.slides.theme/colorscheme/accent4) { get; } | Quarto colore accentato nello schema. Solo lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent5](../../aspose.slides.theme/colorscheme/accent5) { get; } | Quinto colore accentato nello schema. Solo lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent6](../../aspose.slides.theme/colorscheme/accent6) { get; } | Sesto colore accentato nello schema. Solo lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Dark1](../../aspose.slides.theme/colorscheme/dark1) { get; } | Primo colore scuro nello schema. Solo lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Dark2](../../aspose.slides.theme/colorscheme/dark2) { get; } | Secondo colore scuro nello schema. Solo lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [FollowedHyperlink](../../aspose.slides.theme/colorscheme/followedhyperlink) { get; } | Colore per i collegamenti ipertestuali già visitati. Solo lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Hyperlink](../../aspose.slides.theme/colorscheme/hyperlink) { get; } | Colore per i collegamenti ipertestuali. Solo lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Item](../../aspose.slides.theme/colorscheme/item) { get; } | Ottiene l'elemento all'indice specificato. Solo lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Light1](../../aspose.slides.theme/colorscheme/light1) { get; } | Primo colore chiaro nello schema. Solo lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Light2](../../aspose.slides.theme/colorscheme/light2) { get; } | Secondo colore chiaro nello schema. Solo lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Presentation](../../aspose.slides.theme/colorscheme/presentation) { get; } | Restituisce la presentazione genitore. Solo lettura [`IPresentation`](../../aspose.slides/ipresentation). |
-| [Slide](../../aspose.slides.theme/colorscheme/slide) { get; } | Restituisce la diapositiva genitore. Solo lettura [`IBaseSlide`](../../aspose.slides/ibaseslide). |
+| [Accent1](../../aspose.slides.theme/colorscheme/accent1) { get; } | Primo colore accentato nello schema. Sola lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent2](../../aspose.slides.theme/colorscheme/accent2) { get; } | Secondo colore accentato nello schema. Sola lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent3](../../aspose.slides.theme/colorscheme/accent3) { get; } | Terzo colore accentato nello schema. Sola lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent4](../../aspose.slides.theme/colorscheme/accent4) { get; } | Quarto colore accentato nello schema. Sola lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent5](../../aspose.slides.theme/colorscheme/accent5) { get; } | Quinto colore accentato nello schema. Sola lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent6](../../aspose.slides.theme/colorscheme/accent6) { get; } | Sesto colore accentato nello schema. Sola lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Dark1](../../aspose.slides.theme/colorscheme/dark1) { get; } | Primo colore scuro nello schema. Sola lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Dark2](../../aspose.slides.theme/colorscheme/dark2) { get; } | Secondo colore scuro nello schema. Sola lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [FollowedHyperlink](../../aspose.slides.theme/colorscheme/followedhyperlink) { get; } | Colore per i collegamenti ipertestuali visitati. Sola lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Hyperlink](../../aspose.slides.theme/colorscheme/hyperlink) { get; } | Colore per i collegamenti ipertestuali. Sola lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Item](../../aspose.slides.theme/colorscheme/item) { get; } | Restituisce l'elemento all'indice specificato. Sola lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light1](../../aspose.slides.theme/colorscheme/light1) { get; } | Primo colore chiaro nello schema. Sola lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light2](../../aspose.slides.theme/colorscheme/light2) { get; } | Secondo colore chiaro nello schema. Sola lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Presentation](../../aspose.slides.theme/colorscheme/presentation) { get; } | Restituisce la presentazione padre. Sola lettura [`IPresentation`](../../aspose.slides/ipresentation). |
+| [Slide](../../aspose.slides.theme/colorscheme/slide) { get; } | Restituisce la diapositiva padre. Sola lettura [`IBaseSlide`](../../aspose.slides/ibaseslide). |
 
 ### Vedi anche
 

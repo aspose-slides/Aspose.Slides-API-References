@@ -3,22 +3,22 @@ title: ImageTransformOperationFactory
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 画像変換操作を作成できます
 type: docs
-weight: 3570
+weight: 3590
 url: /ja/aspose.slides.effects/imagetransformoperationfactory/
 ---
 ## ImageTransformOperationFactory クラス
 
-画像変換操作を作成できます。
+画像変換操作を作成できます
 
 ```csharp
 public class ImageTransformOperationFactory : IImageTransformOperationFactory
 ```
 
-## コンストラクター
+## コンストラクタ
 
 | 名前 | 説明 |
 | --- | --- |
-| [ImageTransformOperationFactory](imagetransformoperationfactory)() | デフォルトコンストラクターです。 |
+| [ImageTransformOperationFactory](imagetransformoperationfactory)() | デフォルトコンストラクタです。 |
 
 ## メソッド
 
@@ -46,7 +46,7 @@ public class ImageTransformOperationFactory : IImageTransformOperationFactory
 
 COM 互換性のためです。
 
-### 関連項目
+### 参照
 
 * インターフェイス [IImageTransformOperationFactory](../iimagetransformoperationfactory)
 * 名前空間 [Aspose.Slides.Effects](../../aspose.slides.effects)

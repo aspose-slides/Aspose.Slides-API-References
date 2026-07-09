@@ -1,14 +1,14 @@
 ---
 title: IAlphaReplace
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Reprezentuje bazowy interfejs IImageTransformOperation.
+second_title: Aspose.Slides dla .NET Odniesienie API
+description: Reprezentuje podstawowy interfejs IImageTransformOperation.
 type: docs
-weight: 3120
+weight: 3140
 url: /pl/aspose.slides.effects/ialphareplace/
 ---
 ## IAlphaReplace interfejs
 
-Reprezentuje bazowy interfejs IImageTransformOperation.
+Reprezentuje podstawowy interfejs IImageTransformOperation.
 
 ```csharp
 public interface IAlphaReplace : IAccessiblePVIObject<IAlphaReplaceEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaReplace : IAccessiblePVIObject<IAlphaReplaceEffectiveData
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphareplace/asiaccessiblepviobject) { get; } | Umożliwia pobranie bazowego interfejsu IAccessiblePVIObject. Tylko do odczytu [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphareplace/asiimagetransformoperation) { get; } | Umożliwia pobranie bazowego interfejsu IImageTransformOperation. Tylko do odczytu [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphareplace/asiaccessiblepviobject) { get; } | Umożliwia pobranie podstawowego interfejsu IAccessiblePVIObject. Tylko do odczytu [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphareplace/asiimagetransformoperation) { get; } | Umożliwia pobranie podstawowego interfejsu IImageTransformOperation. Tylko do odczytu [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Zobacz także
 

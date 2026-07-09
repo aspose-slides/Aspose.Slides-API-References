@@ -1,12 +1,12 @@
 ---
 title: LayoutSlideThemeManager
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Menyediakan akses ke tema slide tata letak yang ditimpa.
 type: docs
-weight: 11390
+weight: 11410
 url: /id/aspose.slides.theme/layoutslidethememanager/
 ---
-## LayoutSlideThemeManager kelas
+## LayoutSlideThemeManager class
 
 Menyediakan akses ke tema slide tata letak yang ditimpa.
 
@@ -16,16 +16,16 @@ public class LayoutSlideThemeManager : BaseOverrideThemeManager
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Menentukan apakah OverrideTheme menimpa tema efektif yang diwarisi atau tidak. Untuk mengaktifkan OverrideTheme agar menimpa, gunakan metode OverrideTheme.Init*(). Untuk menonaktifkan OverrideTheme dari penimpaan, gunakan metode OverrideTheme.Clear(). Baca-saja Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Mengembalikan objek tema yang ditimpa. Baca/tulis [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Menentukan apakah OverrideTheme menimpa tema efektif yang diwariskan atau tidak. Untuk mengaktifkan OverrideTheme untuk penimpaan gunakan metode OverrideTheme.Init*(). Untuk menonaktifkan OverrideTheme dari penimpaan gunakan metode OverrideTheme.Clear(). Read-only Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Mengembalikan objek tema yang menimpa. Read/write [`IOverrideTheme`](../ioverridetheme). |
 
 ## Metode
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Menerapkan skema warna tambahan ke sebuah slide. |
+| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Menerapkan skema warna ekstra ke sebuah slide. |
 | [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Mengembalikan objek tema. |
 
 ### Lihat Juga

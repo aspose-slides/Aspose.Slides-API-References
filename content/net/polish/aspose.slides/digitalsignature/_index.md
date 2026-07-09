@@ -1,9 +1,9 @@
 ---
 title: DigitalSignature
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
 description: Podpis cyfrowy w podpisanym pliku.
 type: docs
-weight: 2750
+weight: 2770
 url: /pl/aspose.slides/digitalsignature/
 ---
 ## DigitalSignature klasa
@@ -27,12 +27,12 @@ public class DigitalSignature : IDigitalSignature
 | --- | --- |
 | [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | Obiekt certyfikatu użyty do podpisania dokumentu. Tylko do odczytu X509Certificate2. |
 | [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | Cel podpisu. Odczyt/zapis String. |
-| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | Jeśli ten podpis cyfrowy jest prawidłowy i dokument nie został zmodyfikowany, wartość będzie prawdziwa. Tylko do odczytu Boolean. |
+| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | Jeśli ten podpis cyfrowy jest ważny i dokument nie został zmodyfikowany, ta wartość będzie prawdziwa. Tylko do odczytu Boolean. |
 | [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | Czas, w którym dokument został podpisany. Tylko do odczytu DateTime. |
 
 ### Przykłady
 
-Poniższy przykład demonstruje, jak dodać podpis cyfrowy z certyfikatu PFX w prezentacji PowerPoint.
+Poniższy przykład pokazuje, jak dodać podpis cyfrowy z certyfikatu PFX w prezentacji PowerPoint.
 
 ```csharp
 [C#]
@@ -50,7 +50,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-Poniższy kod przykładu demonstruje, jak zweryfikować podpis cyfrowy prezentacji PowerPoint.
+Poniższy przykładowy kod pokazuje, jak zweryfikować podpis cyfrowy prezentacji PowerPoint.
 
 ```csharp
 [C#]
@@ -61,7 +61,7 @@ using (Presentation pres = new Presentation("SomePresentationSigned.pptx"))
     {
         bool allSignaturesAreValid = true;
         Console.WriteLine("Signatures used to sign the presentation: ");
-        // Sprawdź, czy wszystkie podpisy cyfrowe są prawidłowe
+        // Sprawdź, czy wszystkie podpisy cyfrowe są ważne
         foreach (DigitalSignature signature in pres.DigitalSignatures)
         {
             Console.WriteLine(signature.Certificate.SubjectName.Name + ", "

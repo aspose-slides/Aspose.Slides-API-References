@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachMasterSlideCallback
-second_title: Aspose.Sildes .NET API Referansı
-description: Sunum../aspose.slides/presentation içinde her MasterSlide./foreach/masterslide için çağrılacak geri çağırma.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Her MasterSlide için çağrılacak geri arama./foreach/masterslide Sunumda../aspose.slides/presentation.
 type: docs
-weight: 7900
+weight: 7920
 url: /tr/aspose.slides.lowcode/foreach.foreachmasterslidecallback/
 ---
-## ForEach.ForEachMasterSlideCallback delege
+## ForEach.ForEachMasterSlideCallback delegate
 
-Her [`MasterSlide`](../foreach/masterslide) için [`Presentation`](../../aspose.slides/presentation) içinde çağrılacak geri çağırma.
+Her bir [`MasterSlide`](../foreach/masterslide) için [`Presentation`](../../aspose.slides/presentation) içinde çağrılacak geri arama.
 
 ```csharp
 public delegate void ForEachMasterSlideCallback(MasterSlide masterSlide, int index);
@@ -16,8 +16,8 @@ public delegate void ForEachMasterSlideCallback(MasterSlide masterSlide, int ind
 
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| masterSlide | MasterSlide | Şu anda yineleme yapılan ana slayt |
-| index | Int32 | Şu anda yineleme yapılan ana slaytın indeksi |
+| masterSlide | MasterSlide | Mevcut yinelemekte olan ana slayt |
+| index | Int32 | Mevcut ana slaytın dizini |
 
 ### Ayrıca Bakınız
 

@@ -3,7 +3,7 @@ title: ISmartArt
 second_title: Aspose.Sildes para .NET Referência da API
 description: Representa um diagrama SmartArt.
 type: docs
-weight: 10520
+weight: 10540
 url: /pt/aspose.slides.smartart/ismartart/
 ---
 ## ISmartArt interface
@@ -16,17 +16,17 @@ public interface ISmartArt : IGraphicalObject
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [AllNodes](../../aspose.slides.smartart/ismartart/allnodes) { get; } | Retorna coleções de todos os nós no objeto SmartArt. Somente leitura [`ISmartArtNodeCollection`](../ismartartnodecollection). |
-| [AsIGraphicalObject](../../aspose.slides.smartart/ismartart/asigraphicalobject) { get; } | Permite obter a interface base IGraphicalObject. Somente leitura [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [AsIGraphicalObject](../../aspose.slides.smartart/ismartart/asigraphicalobject) { get; } | Permite obter a interface IGraphicalObject base. Somente leitura [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
 | [ColorStyle](../../aspose.slides.smartart/ismartart/colorstyle) { get; set; } | Retorna ou define o estilo de cor do objeto SmartArt. Leitura/gravação [`SmartArtColorType`](../smartartcolortype). |
 | [IsReversed](../../aspose.slides.smartart/ismartart/isreversed) { get; set; } | Retorna ou define o estado do diagrama SmartArt em relação a (da esquerda para a direita) LTR ou (da direita para a esquerda) RTL, se o diagrama suportar reversão. Leitura/gravação Boolean. |
 | [Layout](../../aspose.slides.smartart/ismartart/layout) { get; set; } | Retorna ou define o layout do objeto SmartArt. Leitura/gravação [`SmartArtLayoutType`](../smartartlayouttype). |
 | [Nodes](../../aspose.slides.smartart/ismartart/nodes) { get; } | Retorna coleções de nós raiz no objeto SmartArt. Somente leitura [`ISmartArtNodeCollection`](../ismartartnodecollection). |
 | [QuickStyle](../../aspose.slides.smartart/ismartart/quickstyle) { get; set; } | Retorna ou define o estilo rápido do objeto SmartArt. Leitura/gravação [`SmartArtQuickStyleType`](../smartartquickstyletype). |
 
-### Ver Também
+### Veja Também
 
 * interface [IGraphicalObject](../../aspose.slides/igraphicalobject)
 * namespace [Aspose.Slides.SmartArt](../../aspose.slides.smartart)

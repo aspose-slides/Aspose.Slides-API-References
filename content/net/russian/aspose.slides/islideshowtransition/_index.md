@@ -1,15 +1,15 @@
 ---
 title: ISlideShowTransition
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет переход слайд-шоу.
+second_title: Aspose.Sildes для .NET справка API
+description: Представляет переход в показе слайдов.
 type: docs
-weight: 6860
+weight: 7080
 url: /ru/aspose.slides/islideshowtransition/
 ---
 
-## Интерфейс ISlideShowTransition
+## ISlideShowTransition интерфейс
 
-Представляет переход слайд-шоу.
+Represents slide show transition.
 
 ```csharp
 public interface ISlideShowTransition
@@ -19,21 +19,22 @@ public interface ISlideShowTransition
 
 | Имя | Описание |
 | --- | --- |
-| [AdvanceAfter](../../aspose.slides/islideshowtransition/advanceafter) { get; set; } | Этот атрибут указывает, будет ли слайд-шоу переходить к следующему слайду после определенного времени. Читаемый/записываемый логический тип. |
-| [AdvanceAfterTime](../../aspose.slides/islideshowtransition/advanceaftertime) { get; set; } | Указывает время в миллисекундах, после которого должен начаться переход. Эта настройка может использоваться вместе с атрибутом advClick. Если этот атрибут не указан, то предполагается, что автоматического продвижения не будет. Читаемый/записываемый UInt32. |
-| [AdvanceOnClick](../../aspose.slides/islideshowtransition/advanceonclick) { get; set; } | Указывает, будет ли переход слайда при нажатии мыши или нет. Если этот атрибут не указан, то предполагается значение true. Читаемый/записываемый логический тип. |
-| [Sound](../../aspose.slides/islideshowtransition/sound) { get; set; } | Возвращает или задает встроенные аудиоданные. Читаемый/записываемый [`IAudio`](../iaudio). |
-| [SoundIsBuiltIn](../../aspose.slides/islideshowtransition/soundisbuiltin) { get; set; } | Указывает, является ли этот звук встроенным звуком. Если этот атрибут установлен в значение true, то генерирующее приложение получает уведомление проверить атрибут name, указанный для этого звука в его списке встроенных звуков, и затем может отобразить пользовательское имя или интерфейс по мере необходимости. Читаемый/записываемый логический тип. |
-| [SoundLoop](../../aspose.slides/islideshowtransition/soundloop) { get; set; } | Этот атрибут указывает, будет ли звук повторяться до тех пор, пока не произойдет следующее звуковое событие в слайд-шоу. Читаемый/записываемый логический тип. |
-| [SoundMode](../../aspose.slides/islideshowtransition/soundmode) { get; set; } | Устанавливает или возвращает звуковой режим для перехода слайда. Читаемый/записываемый [`TransitionSoundMode`](../../aspose.slides.slideshow/transitionsoundmode). |
-| [SoundName](../../aspose.slides/islideshowtransition/soundname) { get; set; } | Указывает читаемое человеком имя для звука перехода. Свойство [`Sound`](./sound) должно быть назначено для получения или установки имени звука. Читаемый/записываемый String. |
-| [Speed](../../aspose.slides/islideshowtransition/speed) { get; set; } | Указывает скорость перехода, которая будет использоваться при переходе от текущего слайда к следующему. Читаемый/записываемый [`TransitionSpeed`](../../aspose.slides.slideshow/transitionspeed). |
-| [Type](../../aspose.slides/islideshowtransition/type) { get; set; } | Тип перехода. Читаемый/записываемый [`TransitionType`](../../aspose.slides.slideshow/transitiontype). |
-| [Value](../../aspose.slides/islideshowtransition/value) { get; } | Значение перехода слайд-шоу. Только для чтения [`ITransitionValueBase`](../../aspose.slides.slideshow/itransitionvaluebase). |
+| [AdvanceAfter](../../aspose.slides/islideshowtransition/advanceafter) { get; set; } | Этот атрибут указывает, будет ли показ слайдов переходить к следующему слайду после определённого времени. Чтение/запись Boolean. |
+| [AdvanceAfterTime](../../aspose.slides/islideshowtransition/advanceaftertime) { get; set; } | Указывает время в миллисекундах, после которого должен начаться переход. Этот параметр может использоваться вместе с атрибутом advClick. Если этот атрибут не указан, считается, что автоматическое продвижение не происходит. Чтение/запись UInt32. |
+| [AdvanceOnClick](../../aspose.slides/islideshowtransition/advanceonclick) { get; set; } | Указывает, будет ли клик мышью продвигать слайд или нет. Если этот атрибут не указан, считается, что значение true. Чтение/запись Boolean. |
+| [Duration](../../aspose.slides/islideshowtransition/duration) { get; set; } | Получает или задаёт длительность эффекта перехода слайда в миллисекундах. Чтение/запись Int32. |
+| [Sound](../../aspose.slides/islideshowtransition/sound) { get; set; } | Возвращает или задаёт встроенные аудио данные. Чтение/запись [`IAudio`](../iaudio). |
+| [SoundIsBuiltIn](../../aspose.slides/islideshowtransition/soundisbuiltin) { get; set; } | Указывает, является ли этот звук встроенным. Если этот атрибут установлен в true, то генерирующее приложение получает сигнал проверить атрибут name, указанный для этого звука в его списке встроенных звуков, и может отобразить пользовательское имя или интерфейс по необходимости. Чтение/запись Boolean. |
+| [SoundLoop](../../aspose.slides/islideshowtransition/soundloop) { get; set; } | Этот атрибут указывает, будет ли звук зацикливаться до возникновения следующего звукового события в показе слайдов. Чтение/запись Boolean. |
+| [SoundMode](../../aspose.slides/islideshowtransition/soundmode) { get; set; } | Устанавливает или возвращает режим звука для перехода слайда. Чтение/запись [`TransitionSoundMode`](../../aspose.slides.slideshow/transitionsoundmode). |
+| [SoundName](../../aspose.slides/islideshowtransition/soundname) { get; set; } | Указывает человекочитаемое имя звука перехода. Свойство [`Sound`](./sound) должно быть назначено для получения или задания имени звука. Чтение/запись String. |
+| [Speed](../../aspose.slides/islideshowtransition/speed) { get; set; } | Указывает скорость перехода, которая будет использоваться при переходе от текущего слайда к следующему. Чтение/запись [`TransitionSpeed`](../../aspose.slides.slideshow/transitionspeed). |
+| [Type](../../aspose.slides/islideshowtransition/type) { get; set; } | Тип перехода. Чтение/запись [`TransitionType`](../../aspose.slides.slideshow/transitiontype). |
+| [Value](../../aspose.slides/islideshowtransition/value) { get; } | Значение перехода показа слайдов. Только чтение [`ITransitionValueBase`](../../aspose.slides.slideshow/itransitionvaluebase). |
 
-### См. также
+### Смотрите также
 
-* пространство имен [Aspose.Slides](../../aspose.slides)
-* сборка [Aspose.Slides](../../)
+* пространство имён [Aspose.Slides](../../aspose.slides)
+* сборка [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

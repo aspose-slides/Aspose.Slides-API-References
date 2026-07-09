@@ -1,14 +1,14 @@
 ---
 title: IMathBlock
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Menentukan suatu instance teks matematika yang terdapat dalam MathParagraph dan mulai pada barisnya sendiri. Semua zona matematika termasuk persamaan, ekspresi, kumpulan persamaan atau ekspresi, dan formula direpresentasikan oleh blok matematika.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Menentukan sebuah contoh teks matematika yang berada dalam MathParagraph dan dimulai pada barisnya sendiri. Semua zona matematika termasuk persamaan, ekspresi, kumpulan persamaan atau ekspresi, dan formula direpresentasikan oleh blok matematika.
 type: docs
-weight: 8120
+weight: 8140
 url: /id/aspose.slides.mathtext/imathblock/
 ---
-## IMathBlock antarmuka
+## antarmuka IMathBlock
 
-Menentukan suatu instance teks matematika yang terdapat dalam MathParagraph dan mulai pada barisnya sendiri. Semua zona matematika, termasuk persamaan, ekspresi, kumpulan persamaan atau ekspresi, dan formula direpresentasikan oleh blok matematika.
+Menentukan sebuah contoh teks matematika yang berada dalam MathParagraph dan dimulai pada barisnya sendiri. Semua zona matematika, termasuk persamaan, ekspresi, kumpulan persamaan atau ekspresi, dan formulir direpresentasikan oleh blok matematika.
 
 ```csharp
 public interface IMathBlock : IMathElement, IMathElementCollection
@@ -25,9 +25,9 @@ public interface IMathBlock : IMathElement, IMathElementCollection
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Delimit](../../aspose.slides.mathtext/imathblock/delimit)(char) | Membatasi semua elemen anak dengan karakter pemisah (tanpa kurung) |
+| [Delimit](../../aspose.slides.mathtext/imathblock/delimit)(char) | Membatasi semua elemen anak dengan karakter pemisah (tanpa tanda kurung) |
 | [Enclose](../../aspose.slides.mathtext/imathblock/enclose)(char, char, char) | Membungkus elemen anak blok ini dengan karakter yang ditentukan seperti tanda kurung atau lainnya sebagai bingkai dan memisahkan dengan karakter pemisah |
-| [JoinBlock](../../aspose.slides.mathtext/imathblock/joinblock)(IMathBlock) | Menggabungkan blok matematika lain dengan blok ini |
+| [JoinBlock](../../aspose.slides.mathtext/imathblock/joinblock)(IMathBlock) | Menggabungkan blok matematis lain dengan blok ini |
 | [WriteAsMathMl](../../aspose.slides.mathtext/imathblock/writeasmathml)(Stream) | Menyimpan konten [`IMathBlock`](../imathblock) ini sebagai MathML |
 
 ### Contoh

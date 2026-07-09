@@ -1,14 +1,14 @@
 ---
 title: LegendPositionType
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Determina una posizione della legenda su un grafico.
+second_title: Aspose.Sildes per la documentazione API .NET
+description: Determina la posizione della legenda in un grafico.
 type: docs
-weight: 2300
+weight: 2320
 url: /it/aspose.slides.charts/legendpositiontype/
 ---
-## Enumerazione LegendPositionType
+## enumerazione LegendPositionType
 
-Determina una posizione della legenda su un grafico.
+Determina la posizione della legenda in un grafico.
 
 ```csharp
 public enum LegendPositionType
@@ -19,10 +19,10 @@ public enum LegendPositionType
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | Bottom | `0` | Specifica che la legenda deve essere disegnata nella parte inferiore del grafico. |
-| Left | `1` | Specifica che la legenda deve essere disegnata sul lato sinistro del grafico. |
-| Right | `2` | Specifica che la legenda deve essere disegnata sul lato destro del grafico. |
+| Left | `1` | Specifica che la legenda deve essere disegnata nella parte sinistra del grafico. |
+| Right | `2` | Specifica che la legenda deve essere disegnata nella parte destra del grafico. |
 | Top | `3` | Specifica che la legenda deve essere disegnata nella parte superiore del grafico. |
-| TopRight | `4` | Specifica che la legenda deve essere disegnata nell'angolo superiore destro del grafico. |
+| TopRight | `4` | Specifica che la legenda deve essere disegnata in alto a destra del grafico. |
 
 ### Vedi anche
 

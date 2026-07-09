@@ -1,14 +1,14 @@
 ---
 title: CameraPresetType
-second_title: Aspose.Sildes a .NET API referenciához
-description: Az előre definiált kamera beállítás típusát meghatározó állandók.
+second_title: Aspose.Sildes a .NET API Referenciához
+description: Az előre beállított kamera típusát meghatározó állandók.
 type: docs
-weight: 1080
+weight: 1100
 url: /hu/aspose.slides/camerapresettype/
 ---
 ## CameraPresetType enumeráció
 
-Az előre definiált kamera beállítás típusát meghatározó állandók.
+Az előre beállított kamera típusát meghatározó állandók.
 
 ```csharp
 public enum CameraPresetType

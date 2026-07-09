@@ -1,14 +1,14 @@
 ---
 title: TextAnimationCollection
 second_title: Referência da API Aspose.Sildes para .NET
-description: Representa a coleção de animações de texto.
+description: Representa uma coleção de animações de texto.
 type: docs
-weight: 810
+weight: 830
 url: /pt/aspose.slides.animation/textanimationcollection/
 ---
-## TextAnimationCollection classe
+## classe TextAnimationCollection
 
-Representa a coleção de animações de texto.
+Representa uma coleção de animações de texto.
 
 ```csharp
 public class TextAnimationCollection : ITextAnimationCollection
@@ -16,28 +16,28 @@ public class TextAnimationCollection : ITextAnimationCollection
 
 ## Construtores
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [TextAnimationCollection](textanimationcollection)() | O construtor padrão. |
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides.animation/textanimationcollection/count) { get; } | Retorna o número de elementos na coleção. Somente leitura Int32. |
-| [IsSynchronized](../../aspose.slides.animation/textanimationcollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção está sincronizado (thread-safe). Somente leitura Boolean. |
+| [IsSynchronized](../../aspose.slides.animation/textanimationcollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção é sincronizado (thread-safe). Somente leitura Boolean. |
 | [Item](../../aspose.slides.animation/textanimationcollection/item) { get; } | Retorna o elemento por índice. (2 indexadores) |
-| [SyncRoot](../../aspose.slides.animation/textanimationcollection/syncroot) { get; } | Retorna a raiz de sincronização. Somente leitura Object. |
+| [SyncRoot](../../aspose.slides.animation/textanimationcollection/syncroot) { get; } | Retorna uma raiz de sincronização. Somente leitura Object. |
 
 ## Métodos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides.animation/textanimationcollection/add)() | Adiciona uma nova animação de texto à coleção. |
-| [CopyTo](../../aspose.slides.animation/textanimationcollection/copyto)(Array, int) | Copia todos os elementos da coleção para a matriz especificada. |
+| [CopyTo](../../aspose.slides.animation/textanimationcollection/copyto)(Array, int) | Copia todos os elementos da coleção para o array especificado. |
 | [GetEnumerator](../../aspose.slides.animation/textanimationcollection/getenumerator)() | Retorna um enumerador que itera pela coleção. |
 
-### Ver Também
+### Veja também
 
 * interface [ITextAnimationCollection](../itextanimationcollection)
 * namespace [Aspose.Slides.Animation](../../aspose.slides.animation)

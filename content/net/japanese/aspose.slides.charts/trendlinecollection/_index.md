@@ -3,7 +3,7 @@ title: TrendlineCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: Trendline のコレクションを表します
 type: docs
-weight: 2460
+weight: 2480
 url: /ja/aspose.slides.charts/trendlinecollection/
 ---
 ## TrendlineCollection クラス
@@ -18,8 +18,8 @@ public class TrendlineCollection : DomObject<ChartSeries>, ITrendlineCollection
 
 | 名前 | 説明 |
 | --- | --- |
-| [Count](../../aspose.slides.charts/trendlinecollection/count) { get; } | コレクションに実際に含まれる要素の数を取得します。読み取り専用 Int32。 |
-| [Item](../../aspose.slides.charts/trendlinecollection/item) { get; } | 指定されたインデックスの要素を取得します。読み取り専用 [`Trendline`](../trendline)。 |
+| [Count](../../aspose.slides.charts/trendlinecollection/count) { get; } | コレクションに実際に含まれる要素数を取得します。読み取り専用 Int32。 |
+| [Item](../../aspose.slides.charts/trendlinecollection/item) { get; } | 指定されたインデックスにある要素を取得します。読み取り専用 [`Trendline`](../trendline)。 |
 
 ## メソッド
 
@@ -29,7 +29,7 @@ public class TrendlineCollection : DomObject<ChartSeries>, ITrendlineCollection
 | [GetEnumerator](../../aspose.slides.charts/trendlinecollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
 | [Remove](../../aspose.slides.charts/trendlinecollection/remove)(ITrendline) | 指定された値を削除します。 |
 
-### 参照
+### 関連項目
 
 * クラス [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * クラス [ChartSeries](../chartseries)

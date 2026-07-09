@@ -1,9 +1,9 @@
 ---
 title: HandoutLayoutingOptions
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta la modalità di layout della presentazione handout per l'esportazione.
 type: docs
-weight: 3820
+weight: 3840
 url: /it/aspose.slides.export/handoutlayoutingoptions/
 ---
 ## HandoutLayoutingOptions classe
@@ -24,8 +24,8 @@ public class HandoutLayoutingOptions : ISlidesLayoutOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [Handout](../../aspose.slides.export/handoutlayoutingoptions/handout) { get; set; } | Specifica quanti diapositive e in quale sequenza saranno posizionate nella pagina [`HandoutType`](../handouttype). |
-| [PrintComments](../../aspose.slides.export/handoutlayoutingoptions/printcomments) { get; set; } | Specifica se visualizzare o meno i commenti sulle diapositive |
+| [Handout](../../aspose.slides.export/handoutlayoutingoptions/handout) { get; set; } | Specifica quante diapositive e in quale sequenza saranno collocate nella pagina [`HandoutType`](../handouttype). |
+| [PrintComments](../../aspose.slides.export/handoutlayoutingoptions/printcomments) { get; set; } | Specifica se visualizzare o meno i commenti sulle diapositive. |
 | [PrintFrameSlide](../../aspose.slides.export/handoutlayoutingoptions/printframeslide) { get; set; } | Specifica se disegnare o meno cornici attorno alle diapositive visualizzate. |
 | [PrintSlideNumbers](../../aspose.slides.export/handoutlayoutingoptions/printslidenumbers) { get; set; } | Specifica se stampare o meno i numeri delle diapositive visualizzate. |
 

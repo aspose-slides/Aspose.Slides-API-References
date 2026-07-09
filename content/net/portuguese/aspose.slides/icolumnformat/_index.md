@@ -1,9 +1,9 @@
 ---
 title: IColumnFormat
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa o formato de uma coluna de tabela.
 type: docs
-weight: 5520
+weight: 5540
 url: /pt/aspose.slides/icolumnformat/
 ---
 ## IColumnFormat interface
@@ -18,9 +18,9 @@ public interface IColumnFormat
 
 | Nome | Descrição |
 | --- | --- |
-| [GetEffective](../../aspose.slides/icolumnformat/geteffective)() | Obtém as propriedades de formatação efetiva da coluna da tabela com herança e estilos de tabela aplicados. |
+| [GetEffective](../../aspose.slides/icolumnformat/geteffective)() | Obtém as propriedades de formatação de coluna de tabela efetivas com herança e estilos de tabela aplicados. |
 
-### Veja também
+### Ver Também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

@@ -1,9 +1,9 @@
 ---
 title: IAudioCollection
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Slides dla .NET Referencja API
 description: Reprezentuje kolekcję osadzonych plików audio.
 type: docs
-weight: 5200
+weight: 5220
 url: /pl/aspose.slides/iaudiocollection/
 ---
 ## IAudioCollection interfejs
@@ -18,15 +18,15 @@ public interface IAudioCollection : IGenericCollection<IAudio>
 
 | Nazwa | Opis |
 | --- | --- |
-| [Item](../../aspose.slides/iaudiocollection/item) { get; } | Zwraca element o określonym indeksie. Tylko do odczytu [`IAudio`](../iaudio). |
+| [Item](../../aspose.slides/iaudiocollection/item) { get; } | Pobiera element o podanym indeksie. Tylko do odczytu [`IAudio`](../iaudio). |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | Tworzy i dodaje dźwięk do prezentacji z tablicy bajtów. |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | Tworzy i dodaje audio do prezentacji z tablicy bajtów. |
 | [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio)(IAudio) | Dodaje kopię pliku audio z innej prezentacji. |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Tworzy i dodaje dźwięk do prezentacji ze strumienia. |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Tworzy i dodaje audio do prezentacji ze strumienia. |
 
 ### Zobacz także
 

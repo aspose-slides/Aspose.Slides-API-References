@@ -3,21 +3,21 @@ title: IAccessiblePVIObjectT
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 継承が適用された対応する有効データを返すことができる型を表します。
 type: docs
-weight: 5150
+weight: 5170
 url: /ja/aspose.slides/iaccessiblepviobject-1/
 ---
 ## IAccessiblePVIObject<T> インターフェイス
 
-継承が適用された対応する有効データを返すことができる型を表します。
+対応する有効データを継承適用後に返すことができる型を表します。
 
 ```csharp
 public interface IAccessiblePVIObject<T>
     where T : class
 ```
 
-| パラメータ | 説明 |
+| パラメーター | 説明 |
 | --- | --- |
-| T | 有効データの型です。 |
+| T | 有効データの型。 |
 
 ## メソッド
 
@@ -25,7 +25,7 @@ public interface IAccessiblePVIObject<T>
 | --- | --- |
 | [GetEffective](../../aspose.slides/iaccessiblepviobject`1/geteffective)() | 継承が適用された有効データを取得します。 |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

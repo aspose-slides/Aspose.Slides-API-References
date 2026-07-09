@@ -1,14 +1,14 @@
 ---
 title: IMathLeftSubSuperscriptElement
-second_title: Aspose.Sildes dla .NET – Referencja API
+second_title: Aspose.Sildes dla .NET – referencja API
 description: Określa obiekt Sub-Superscript, który składa się z podstawy oraz indeksu dolnego i górnego umieszczonych po lewej stronie podstawy.
 type: docs
-weight: 8290
+weight: 8310
 url: /pl/aspose.slides.mathtext/imathleftsubsuperscriptelement/
 ---
 ## IMathLeftSubSuperscriptElement interfejs
 
-Określa obiekt Sub-Superscript, który składa się z podstawy i indeksu dolnego oraz górnego umieszczonych po lewej stronie podstawy.
+Określa obiekt Sub-Superscript, który składa się z podstawy oraz indeksu dolnego i górnego umieszczonych po lewej stronie podstawy.
 
 ```csharp
 public interface IMathLeftSubSuperscriptElement : IMathElement
@@ -18,8 +18,8 @@ public interface IMathLeftSubSuperscriptElement : IMathElement
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/asimathelement) { get; } | Umożliwia pobranie podstawowego interfejsu IMathElement [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/base) { get; } | Argument bazowy |
+| [AsIMathElement](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/asimathelement) { get; } | Pozwala uzyskać interfejs IMathElement podstawy [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/base) { get; } | Argument podstawy |
 | [Subscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/subscript) { get; } | Indeks dolny |
 | [Superscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/superscript) { get; } | Indeks górny |
 

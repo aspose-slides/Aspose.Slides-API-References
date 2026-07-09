@@ -1,9 +1,9 @@
 ---
 title: Effect
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes for .NET Referensi API
 description: Mewakili efek animasi.
 type: docs
-weight: 260
+weight: 280
 url: /id/aspose.slides.animation/effect/
 ---
 ## Kelas Effect
@@ -16,19 +16,19 @@ public class Effect : IEffect
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [AfterAnimationColor](../../aspose.slides.animation/effect/afteranimationcolor) { get; set; } | Mendefinisikan warna setelah animasi untuk efek. Baca/tulis [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [AfterAnimationType](../../aspose.slides.animation/effect/afteranimationtype) { get; set; } | Mendefinisikan tipe setelah animasi untuk efek. Baca/tulis [`AfterAnimationType`](./afteranimationtype). |
-| [AnimateTextType](../../aspose.slides.animation/effect/animatetexttype) { get; set; } | Mendefinisikan tipe animasi teks untuk efek. Teks shape dapat dianimasikan per huruf, per kata, atau sekaligus. Baca/tulis [`AnimateTextType`](./animatetexttype). |
+| [AnimateTextType](../../aspose.slides.animation/effect/animatetexttype) { get; set; } | Mendefinisikan tipe animasi teks untuk efek. Teks bentuk dapat dianimasikan per huruf, per kata, atau seluruhnya sekaligus. Baca/tulis [`AnimateTextType`](./animatetexttype). |
 | [Behaviors](../../aspose.slides.animation/effect/behaviors) { get; set; } | Mengembalikan koleksi perilaku untuk efek. Baca/tulis [`IBehaviorCollection`](../ibehaviorcollection). |
-| [DelayBetweenTextParts](../../aspose.slides.animation/effect/delaybetweentextparts) { get; set; } | Mendefinisikan jeda antara bagian teks yang dianimasikan (kata atau huruf). Nilai positif menentukan persentase durasi efek. Nilai negatif menentukan jeda dalam detik. Baca/tulis Single. |
+| [DelayBetweenTextParts](../../aspose.slides.animation/effect/delaybetweentextparts) { get; set; } | Mendefinisikan penundaan antara bagian teks yang dianimasikan (kata atau huruf). Nilai positif menentukan persentase durasi efek. Nilai negatif menentukan penundaan dalam detik. Baca/tulis Single. |
 | [PresetClassType](../../aspose.slides.animation/effect/presetclasstype) { get; set; } | Mendefinisikan kelas efek. Baca/tulis [`EffectPresetClassType`](../effectpresetclasstype). |
 | [Sequence](../../aspose.slides.animation/effect/sequence) { get; } | Mengembalikan urutan untuk sebuah efek. Hanya-baca [`ISequence`](../isequence). |
 | [Sound](../../aspose.slides.animation/effect/sound) { get; set; } | Mendefinisikan suara tersemat untuk efek. Baca/tulis [`IAudio`](../../aspose.slides/iaudio). |
 | [StopPreviousSound](../../aspose.slides.animation/effect/stopprevioussound) { get; set; } | Atribut ini menentukan apakah efek animasi menghentikan suara sebelumnya. Baca/tulis Boolean. |
 | [Subtype](../../aspose.slides.animation/effect/subtype) { get; set; } | Mendefinisikan subtipe efek. Baca/tulis [`EffectSubtype`](../effectsubtype). |
-| [TargetShape](../../aspose.slides.animation/effect/targetshape) { get; } | Mengembalikan shape target untuk efek. Hanya-baca [`IShape`](../../aspose.slides/ishape). |
+| [TargetShape](../../aspose.slides.animation/effect/targetshape) { get; } | Mengembalikan bentuk target untuk efek. Hanya-baca [`IShape`](../../aspose.slides/ishape). |
 | [TextAnimation](../../aspose.slides.animation/effect/textanimation) { get; } | TextAnimation Hanya-baca [`ITextAnimation`](../itextanimation). |
 | [Timing](../../aspose.slides.animation/effect/timing) { get; set; } | Mendefinisikan nilai timing untuk efek. Baca/tulis [`ITiming`](../itiming). |
 | [Type](../../aspose.slides.animation/effect/type) { get; set; } | Mendefinisikan tipe efek. Baca/tulis [`EffectType`](../effecttype). |

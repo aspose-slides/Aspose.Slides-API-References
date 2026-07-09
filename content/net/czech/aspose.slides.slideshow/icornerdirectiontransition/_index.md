@@ -3,18 +3,18 @@ title: ICornerDirectionTransition
 second_title: Aspose.Sildes pro .NET API Reference
 description: Efekt přechodu snímku v rohovém směru.
 type: docs
-weight: 10040
+weight: 10060
 url: /cs/aspose.slides.slideshow/icornerdirectiontransition/
 ---
-## ICornerDirectionTransition interface
+## ICornerDirectionTransition rozhraní
 
-Efekt přechodu snímků v rohovém směru.
+Efekt přechodu snímku v rohovém směru.
 
 ```csharp
 public interface ICornerDirectionTransition : ITransitionValueBase
 ```
 
-## Properties
+## Vlastnosti
 
 | Název | Popis |
 | --- | --- |

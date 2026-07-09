@@ -3,12 +3,12 @@ title: MathBoxFactory
 second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Umożliwia tworzenie pudełka matematycznego
 type: docs
-weight: 8620
+weight: 8640
 url: /pl/aspose.slides.mathtext/mathboxfactory/
 ---
 ## MathBoxFactory klasa
 
-Umożliwia tworzenie pudełka matematycznego
+Umożliwia utworzenie pudełka matematycznego
 
 ```csharp
 public class MathBoxFactory : IMathBoxFactory
@@ -24,11 +24,11 @@ public class MathBoxFactory : IMathBoxFactory
 
 | Nazwa | Opis |
 | --- | --- |
-| [CreateMathBox](../../aspose.slides.mathtext/mathboxfactory/createmathbox)(IMathElement) | Utwórz pudełko matematyczne, stosując je do elementu |
+| [CreateMathBox](../../aspose.slides.mathtext/mathboxfactory/createmathbox)(IMathElement) | Tworzy pudełko matematyczne, stosując je do elementu |
 
 ### Uwagi
 
-Dla kompatybilności COM
+Dla zgodności z COM
 
 ### Zobacz także
 

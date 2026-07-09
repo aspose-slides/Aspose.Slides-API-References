@@ -3,7 +3,7 @@ title: SensitivityLabelCollection
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta una raccolta di etichette di sensibilità applicate al documento.
 type: docs
-weight: 9790
+weight: 9810
 url: /it/aspose.slides/sensitivitylabelcollection/
 ---
 ## SensitivityLabelCollection classe
@@ -17,20 +17,20 @@ public sealed class SensitivityLabelCollection : DomObject<Presentation>,
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/sensitivitylabelcollection/count) { get; } | Restituisce il numero di elementi nella raccolta. Solo lettura Int32. |
+| [Count](../../aspose.slides/sensitivitylabelcollection/count) { get; } | Restituisce il numero di elementi nella collezione. Sola lettura Int32. |
 | [Item](../../aspose.slides/sensitivitylabelcollection/item) { get; } | Restituisce l'etichetta di sensibilità per indice. |
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/sensitivitylabelcollection/add#add_1)(ISensitivityLabel) | Aggiunge una SensitivityLabel alla raccolta. |
-| [Add](../../aspose.slides/sensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | Aggiunge l'etichetta di sensibilità alla fine della raccolta. |
-| [Clear](../../aspose.slides/sensitivitylabelcollection/clear)() | Rimuove tutti gli elementi dalla raccolta. |
-| [CopyTo](../../aspose.slides/sensitivitylabelcollection/copyto)(ISensitivityLabel[], int) | Copia tutti gli elementi dalla raccolta nell'array specificato. |
-| [GetEnumerator](../../aspose.slides/sensitivitylabelcollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
+| [Add](../../aspose.slides/sensitivitylabelcollection/add#add_1)(ISensitivityLabel) | Aggiunge una SensitivityLabel alla collezione. |
+| [Add](../../aspose.slides/sensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | Aggiunge l'etichetta di sensibilità alla fine della collezione. |
+| [Clear](../../aspose.slides/sensitivitylabelcollection/clear)() | Rimuove tutti gli elementi dalla collezione. |
+| [CopyTo](../../aspose.slides/sensitivitylabelcollection/copyto)(ISensitivityLabel[], int) | Copia tutti gli elementi della collezione nell'array specificato. |
+| [GetEnumerator](../../aspose.slides/sensitivitylabelcollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la collezione. |
 | [RemoveAt](../../aspose.slides/sensitivitylabelcollection/removeat)(int) | Rimuove l'etichetta di sensibilità all'indice specificato. |
 
 ### Vedi anche

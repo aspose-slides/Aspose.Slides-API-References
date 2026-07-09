@@ -3,10 +3,10 @@ title: CategoryAxisType
 second_title: Aspose.Sildes pro .NET API Reference
 description: Představuje typ kategoriové osy.
 type: docs
-weight: 1230
+weight: 1250
 url: /cs/aspose.slides.charts/categoryaxistype/
 ---
-## CategoryAxisType výčtový typ
+## CategoryAxisType výčet
 
 Představuje typ kategoriové osy.
 
@@ -18,8 +18,8 @@ public enum CategoryAxisType
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| Text | `0` | Specifikuje, že osa kategorií je textová osa. |
-| Date | `1` | Specifikuje, že osa kategorií je datumová osa. |
+| Text | `0` | Určuje, že kategoriová osa je textová osa. |
+| Date | `1` | Určuje, že kategoriová osa je datová osa. |
 
 ### Viz také
 

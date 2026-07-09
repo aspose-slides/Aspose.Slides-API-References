@@ -3,7 +3,7 @@ title: StreamWrapperFactory
 second_title: Aspose.Sildes för .NET API-referens
 description: Fabrik för StreamWrappers. För COM-gränssnitt.
 type: docs
-weight: 10740
+weight: 10760
 url: /sv/aspose.slides/streamwrapperfactory/
 ---
 ## StreamWrapperFactory klass
@@ -25,7 +25,7 @@ public class StreamWrapperFactory : IStreamWrapperFactory
 | Namn | Beskrivning |
 | --- | --- |
 | [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Skapar FileStream med den angivna sökvägen och skapningsläget. |
-| [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Skapar FileStream med den angivna sökvägen, skapningsläget och läs/skriv-behörigheten. |
+| [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Skapar FileStream med den angivna sökvägen, skapningsläget och läs-/skrivrättigheten. |
 | [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | Skapar MemoryStream-omslag. |
 | [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Skapar MemoryStream-omslag baserat på den angivna byte-arrayen. |
 

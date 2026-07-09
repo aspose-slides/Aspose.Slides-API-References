@@ -1,14 +1,14 @@
 ---
 title: BaseHandoutNotesSlideHeaderFooterManager
-second_title: Aspose.Sildes için .NET API Referansı
-description: Yer tutucuların davranışını tutan yöneticiyi temsil eder; tüm tipteki el notları ve not slaytları için üst bilgi yer tutucusunu içerir.
+second_title: Aspose.Sildes .NET için API Referansı
+description: Tüm tip el ilanı ve not slaytları için başlık yer tutucusunu da içeren yer tutucuların davranışını tutan yöneticiyi temsil eder.
 type: docs
-weight: 930
+weight: 950
 url: /tr/aspose.slides/basehandoutnotesslideheaderfootermanager/
 ---
 ## BaseHandoutNotesSlideHeaderFooterManager sınıfı
 
-Tüm tipteki el notları ve not slaytları için üst bilgi yer tutucusu dahil, yer tutucuların davranışını tutan yöneticiyi temsil eder.
+Yer tutucuların davranışını tutan yöneticiyi temsil eder, tüm tip el ilanı ve not slaytları için başlık yer tutucusunu da içerir.
 
 ```csharp
 public abstract class BaseHandoutNotesSlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
@@ -17,23 +17,23 @@ public abstract class BaseHandoutNotesSlideHeaderFooterManager : BaseSlideHeader
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Bir tarih-zaman yer tutucusunun mevcut olduğunu gösteren değeri alır. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Bir tarih-saat yer tutucusunun mevcut olduğunu gösteren değeri alır. ReadBoolean. |
 | [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Bir alt bilgi yer tutucusunun mevcut olduğunu gösteren değeri alır. Read Boolean. |
-| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Bir üst bilgi yer tutucusunun mevcut olduğunu gösteren değeri alır. Read Boolean. |
+| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Bir başlık yer tutucusunun mevcut olduğunu gösteren değeri alır. Read Boolean. |
 | [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Bir sayfa numarası yer tutucusunun mevcut olduğunu gösteren değeri alır. ReadBoolean. |
 
 ## Yöntemler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Slayt tarih-zaman yer tutucusuna metin ayarlar. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Slayt tarih-zaman yer tutucusunun görünürlüğünü değiştirir. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Slayt tarih-saat yer tutucusuna metin ayarlar. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Slayt tarih-saat yer tutucusunun görünürlüğünü değiştirir. |
 | [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Slayt alt bilgi yer tutucusuna metin ayarlar. |
 | [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Slayt alt bilgi yer tutucusunun görünürlüğünü değiştirir. |
-| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Slayt üst bilgi yer tutucusuna metin ayarlar. |
-| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Slayt üst bilgi yer tutucusunun görünürlüğünü değiştirir. |
+| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Slayt başlık yer tutucusuna metin ayarlar. |
+| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Slayt başlık yer tutucusunun görünürlüğünü değiştirir. |
 | [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Slayt sayfa numarası yer tutucusunun görünürlüğünü değiştirir. |
 
 ### Ayrıca Bakınız

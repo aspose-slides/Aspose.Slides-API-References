@@ -1,26 +1,26 @@
 ---
 title: IBlurEffectiveData
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Oggetto immutabile che rappresenta un effetto Blur applicato all'intera forma, inclusa la sua riempitura. Tutti i canali colore, inclusa alpha, sono influenzati.
+description: Oggetto immutabile che rappresenta un effetto Blur applicato all'intera forma, compreso il riempimento. Tutti i canali colore, inclusa l'alpha, sono interessati.
 type: docs
-weight: 3170
+weight: 3190
 url: /it/aspose.slides.effects/iblureffectivedata/
 ---
-## IBlurEffectiveData interface
+## IBlurEffectiveData interfaccia
 
-Oggetto immutabile che rappresenta un effetto Blur applicato all'intera forma, inclusa la sua riempitura. Tutti i canali colore, inclusa alpha, sono influenzati.
+Oggetto immutabile che rappresenta un effetto Blur applicato all'intera forma, compreso il riempimento. Tutti i canali colore, compreso l'alpha, sono interessati.
 
 ```csharp
 public interface IBlurEffectiveData : IEffectEffectiveData
 ```
 
-## Properties
+## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iblureffectivedata/asieffecteffectivedata) { get; } | Consente di ottenere l'interfaccia base IEffectEffectiveData. Sola lettura [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | Determina se i confini dell'oggetto devono essere ingranditi a causa del blur. True indica che i confini sono ingranditi, mentre false indica che non lo sono. Sola lettura Boolean. |
-| [Radius](../../aspose.slides.effects/iblureffectivedata/radius) { get; } | Restituisce o imposta il raggio del blur. Sola lettura Double. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iblureffectivedata/asieffecteffectivedata) { get; } | Consente di ottenere l'interfaccia base IEffectEffectiveData. Solo lettura [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | Determina se i limiti dell'oggetto devono essere ingranditi a causa della sfocatura. True indica che i limiti sono ingranditi mentre false indica che non lo sono. Solo lettura Boolean. |
+| [Radius](../../aspose.slides.effects/iblureffectivedata/radius) { get; } | Restituisce o imposta il raggio della sfocatura. Solo lettura Double. |
 
 ### Vedi anche
 

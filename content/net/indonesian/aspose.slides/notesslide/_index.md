@@ -1,14 +1,14 @@
 ---
 title: NotesSlide
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili slide catatan dalam presentasi.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili slide catatan dalam sebuah presentasi.
 type: docs
-weight: 9120
+weight: 9140
 url: /id/aspose.slides/notesslide/
 ---
 ## NotesSlide kelas
 
-Mewakili slide catatan dalam presentasi.
+Mewakili slide catatan dalam sebuah presentasi.
 
 ```csharp
 public class NotesSlide : BaseSlide, INotesSlide
@@ -16,33 +16,33 @@ public class NotesSlide : BaseSlide, INotesSlide
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [Background](../../aspose.slides/baseslide/background) { get; } | Mengembalikan latar belakang slide. Hanya Baca [`IBackground`](../ibackground). |
-| [Controls](../../aspose.slides/baseslide/controls) { get; } | Mengembalikan koleksi kontrol ActiveX pada slide. Hanya Baca [`IControlCollection`](../icontrolcollection). |
-| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Mengembalikan data khusus slide. Hanya Baca [`ICustomData`](../icustomdata). |
-| [HeaderFooterManager](../../aspose.slides/notesslide/headerfootermanager) { get; } | Mengembalikan manajer HeaderFooter dari slide catatan. Hanya Baca [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
-| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Menyediakan akses mudah ke hyperlink yang terkandung. Hanya Baca [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Mengembalikan atau mengatur nama slide. Baca/Tulis String. |
-| [NotesTextFrame](../../aspose.slides/notesslide/notestextframe) { get; } | Mengembalikan TextFrame dengan teks catatan jika ada. Hanya Baca [`ITextFrame`](../itextframe). |
-| [ParentSlide](../../aspose.slides/notesslide/parentslide) { get; } | Mengembalikan slide induk. Hanya Baca [`ISlide`](../islide). |
-| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Mengembalikan antarmuka IPresentation. Hanya Baca [`IPresentation`](../ipresentation). |
-| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Mengembalikan bentuk-bentuk slide. Hanya Baca [`IShapeCollection`](../ishapecollection). |
-| override [ShowMasterShapes](../../aspose.slides/notesslide/showmastershapes) { get; set; } | Menentukan apakah bentuk pada master slide harus ditampilkan pada slide atau tidak. Baca/Tulis Boolean. |
-| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Mengembalikan ID slide. Hanya Baca UInt32. |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Mengembalikan objek Transition yang berisi informasi tentang bagaimana slide tertentu maju selama tampilan slide. Hanya Baca [`ISlideShowTransition`](../islideshowtransition). |
-| [ThemeManager](../../aspose.slides/notesslide/thememanager) { get; } | Mengembalikan manajer tema yang menimpa. Hanya Baca [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager). |
-| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Mengembalikan objek garis waktu animasi. Hanya Baca [`IAnimationTimeLine`](../ianimationtimeline). |
+| [Background](../../aspose.slides/baseslide/background) { get; } | Mengembalikan latar belakang slide. Hanya baca [`IBackground`](../ibackground). |
+| [Controls](../../aspose.slides/baseslide/controls) { get; } | Mengembalikan koleksi kontrol ActiveX pada sebuah slide. Hanya baca [`IControlCollection`](../icontrolcollection). |
+| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Mengembalikan data khusus slide. Hanya baca [`ICustomData`](../icustomdata). |
+| [HeaderFooterManager](../../aspose.slides/notesslide/headerfootermanager) { get; } | Mengembalikan manajer HeaderFooter dari slide catatan. Hanya baca [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
+| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Menyediakan akses mudah ke hyperlink yang terkandung. Hanya baca [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Mengembalikan atau mengatur nama slide. Baca/tulis String. |
+| [NotesTextFrame](../../aspose.slides/notesslide/notestextframe) { get; } | Mengembalikan TextFrame dengan teks catatan jika ada. Hanya baca [`ITextFrame`](../itextframe). |
+| [ParentSlide](../../aspose.slides/notesslide/parentslide) { get; } | Mengembalikan slide induk. Hanya baca [`ISlide`](../islide). |
+| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Mengembalikan antarmuka IPresentation. Hanya baca [`IPresentation`](../ipresentation). |
+| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Mengembalikan bentuk-bentuk slide. Hanya baca [`IShapeCollection`](../ishapecollection). |
+| override [ShowMasterShapes](../../aspose.slides/notesslide/showmastershapes) { get; set; } | Menentukan apakah bentuk pada slide master harus ditampilkan pada slide atau tidak. Baca/tulis Boolean. |
+| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Mengembalikan ID slide. Hanya baca UInt32. |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Mengembalikan objek Transition yang berisi informasi tentang bagaimana slide tertentu maju selama pertunjukan slide. Hanya baca [`ISlideShowTransition`](../islideshowtransition). |
+| [ThemeManager](../../aspose.slides/notesslide/thememanager) { get; } | Mengembalikan manajer tema yang menggantikan. Hanya baca [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager). |
+| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Mengembalikan objek timeline animasi. Hanya baca [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## Metode
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | Mengembalikan tema efektif untuk slide ini. |
-| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Menentukan apakah dua instance IBaseSlide sama. Nilai yang dikembalikan dihitung berdasarkan struktur slide dan konten statis. Dua slide dianggap sama jika semua bentuk, gaya, teks, animasi, dan pengaturan lain, dll. sama. Perbandingan tidak memperhitungkan nilai pengenal unik, misalnya SlideId, serta konten dinamis, misalnya nilai tanggal saat ini dalam Date Placeholder. |
-| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Menemukan kemunculan pertama sebuah bentuk dengan teks alternatif yang ditentukan. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Menggabungkan run dengan pemformatan yang sama dalam semua paragraf pada semua bentuk yang dapat diterima. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Menggabungkan run dengan pemformatan yang sama dalam semua paragraf pada semua bentuk yang dapat diterima. |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Menentukan apakah dua instance IBaseSlide sama. Nilai yang dikembalikan dihitung berdasarkan struktur slide dan konten statis. Kedua slide dianggap sama jika semua bentuk, gaya, teks, animasi, dan pengaturan lainnya, dll., sama. Perbandingan tidak mempertimbangkan nilai identifier unik, misalnya SlideId dan konten dinamis, misalnya nilai tanggal saat ini dalam Placeholder Tanggal. |
+| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Menemukan kemunculan pertama dari sebuah bentuk dengan teks alternatif yang ditentukan. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Menggabungkan run dengan pemformatan yang sama di semua paragraf semua bentuk yang dapat diterima. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Menggabungkan run dengan pemformatan yang sama di semua paragraf dalam semua bentuk yang dapat diterima. |
 
 ### Lihat Juga
 

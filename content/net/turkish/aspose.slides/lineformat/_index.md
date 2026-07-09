@@ -1,14 +1,14 @@
 ---
 title: LineFormat
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir çizginin biçimini temsil eder.
+description: Bir çizginin formatını temsil eder.
 type: docs
-weight: 7770
+weight: 7790
 url: /tr/aspose.slides/lineformat/
 ---
 ## LineFormat sınıfı
 
-Bir çizginin biçimini temsil eder.
+Bir çizginin formatını temsil eder.
 
 ```csharp
 public sealed class LineFormat : PVIObject, ILineFormat
@@ -19,38 +19,38 @@ public sealed class LineFormat : PVIObject, ILineFormat
 | Ad | Açıklama |
 | --- | --- |
 | [Alignment](../../aspose.slides/lineformat/alignment) { get; set; } | Çizgi hizalamasını alır veya ayarlar. Okunur/yazılır [`LineAlignment`](../linealignment). |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arabirimini alır. Salt okunur [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almayı sağlar. Yalnızca okunur [`IPresentationComponent`](../ipresentationcomponent). |
 | [BeginArrowheadLength](../../aspose.slides/lineformat/beginarrowheadlength) { get; set; } | Çizginin başlangıcındaki ok ucu uzunluğunu alır veya ayarlar. Okunur/yazılır [`LineArrowheadLength`](../linearrowheadlength). |
 | [BeginArrowheadStyle](../../aspose.slides/lineformat/beginarrowheadstyle) { get; set; } | Çizginin başlangıcındaki ok ucu stilini alır veya ayarlar. Okunur/yazılır [`LineArrowheadStyle`](../linearrowheadstyle). |
 | [BeginArrowheadWidth](../../aspose.slides/lineformat/beginarrowheadwidth) { get; set; } | Çizginin başlangıcındaki ok ucu genişliğini alır veya ayarlar. Okunur/yazılır [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/lineformat/capstyle) { get; set; } | Çizgi kapak stilini alır veya ayarlar. Okunur/yazılır [`LineCapStyle`](../linecapstyle). |
+| [CapStyle](../../aspose.slides/lineformat/capstyle) { get; set; } | Çizgi uç (cap) stilini alır veya ayarlar. Okunur/yazılır [`LineCapStyle`](../linecapstyle). |
 | [CustomDashPattern](../../aspose.slides/lineformat/customdashpattern) { get; set; } | Özel tire desenini alır veya ayarlar. Okunur/yazılır Single[]. |
 | [DashStyle](../../aspose.slides/lineformat/dashstyle) { get; set; } | Çizgi tire stilini alır veya ayarlar. Okunur/yazılır [`LineDashStyle`](../linedashstyle). |
 | [EndArrowheadLength](../../aspose.slides/lineformat/endarrowheadlength) { get; set; } | Çizginin sonundaki ok ucu uzunluğunu alır veya ayarlar. Okunur/yazılır [`LineArrowheadLength`](../linearrowheadlength). |
 | [EndArrowheadStyle](../../aspose.slides/lineformat/endarrowheadstyle) { get; set; } | Çizginin sonundaki ok ucu stilini alır veya ayarlar. Okunur/yazılır [`LineArrowheadStyle`](../linearrowheadstyle). |
 | [EndArrowheadWidth](../../aspose.slides/lineformat/endarrowheadwidth) { get; set; } | Çizginin sonundaki ok ucu genişliğini alır veya ayarlar. Okunur/yazılır [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [FillFormat](../../aspose.slides/lineformat/fillformat) { get; } | Çizginin doldurma biçimini alır. Salt okunur [`ILineFillFormat`](../ilinefillformat). |
-| [IsFormatNotDefined](../../aspose.slides/lineformat/isformatnotdefined) { get; } | Çizgi biçimi tanımsızsa (yeni oluşturulmuş, varsayılan) true döndürür. Salt okunur Boolean. |
+| [FillFormat](../../aspose.slides/lineformat/fillformat) { get; } | Bir çizginin dolgu formatını alır. Yalnızca okunur [`ILineFillFormat`](../ilinefillformat). |
+| [IsFormatNotDefined](../../aspose.slides/lineformat/isformatnotdefined) { get; } | Çizgi formatı tanımlı değilse (yeni oluşturulmuş, varsayılan) doğru döndürür. Yalnızca okunur Boolean. |
 | [JoinStyle](../../aspose.slides/lineformat/joinstyle) { get; set; } | Çizgi birleşim stilini alır veya ayarlar. Okunur/yazılır [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/lineformat/miterlimit) { get; set; } | Çizgi kesim sınırını alır veya ayarlar. Okunur/yazılır Single. |
-| [SketchFormat](../../aspose.slides/lineformat/sketchformat) { get; } | Çizginin taslak biçimini alır. Salt okunur [`ILineFillFormat`](../ilinefillformat). |
+| [MiterLimit](../../aspose.slides/lineformat/miterlimit) { get; set; } | Çizginin mitre limitini alır veya ayarlar. Okunur/yazılır Single. |
+| [SketchFormat](../../aspose.slides/lineformat/sketchformat) { get; } | Bir çizginin eskiz formatını alır. Yalnızca okunur [`ILineFillFormat`](../ilinefillformat). |
 | [Style](../../aspose.slides/lineformat/style) { get; set; } | Çizgi stilini alır veya ayarlar. Okunur/yazılır [`LineStyle`](../linestyle). |
-| [Width](../../aspose.slides/lineformat/width) { get; set; } | Çizgi kalınlığını alır veya ayarlar. Okunur/yazılır Double. |
+| [Width](../../aspose.slides/lineformat/width) { get; set; } | Bir çizginin genişliğini alır veya ayarlar. Okunur/yazılır Double. |
 
-## Yöntemler
+## Metotlar
 
 | Ad | Açıklama |
 | --- | --- |
 | [Equals](../../aspose.slides/lineformat/equals#equals)(ILineFormat) | İki LineFormat örneğinin eşit olup olmadığını belirler. |
 | override [Equals](../../aspose.slides/lineformat/equals#equals_1)(object) |  |
-| [GetEffective](../../aspose.slides/lineformat/geteffective)() | Kalıtım uygulanmış etkili çizgi biçimleme verilerini alır. |
+| [GetEffective](../../aspose.slides/lineformat/geteffective)() | Kalıtım uygulanmış etkili çizgi biçimlendirme verilerini alır. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Karma kodunu döndürür. |
 
 ### Ayrıca Bakınız
 
-* class [PVIObject](../pviobject)
-* interface [ILineFormat](../ilineformat)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* sınıf [PVIObject](../pviobject)
+* arayüz [ILineFormat](../ilineformat)
+* ad alanı [Aspose.Slides](../../aspose.slides)
+* derleme [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

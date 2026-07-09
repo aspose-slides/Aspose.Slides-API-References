@@ -1,14 +1,14 @@
 ---
 title: IRotation3D
-second_title: Aspose.Sildes için .NET API Referansı
-description: Bir grafiğin 3B dönüşünü temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Bir grafiğin 3D dönüşünü temsil eder.
 type: docs
-weight: 2180
+weight: 2200
 url: /tr/aspose.slides.charts/irotation3d/
 ---
-## IRotation3D arayüzü
+## IRotation3D arayüz
 
-Bir grafik için 3B dönüşümünü temsil eder.
+Bir grafiğin 3D dönüşünü temsil eder.
 
 ```csharp
 public interface IRotation3D
@@ -18,12 +18,12 @@ public interface IRotation3D
 
 | Ad | Açıklama |
 | --- | --- |
-| [DepthPercents](../../aspose.slides.charts/irotation3d/depthpercents) { get; set; } | Bir 3B grafiğin derinliğini, grafiğin genişliğinin yüzdesi olarak döndürür veya ayarlar (20 ile 2000 yüzde arasında). Okuma/yazma UInt16. |
-| [HeightPercents](../../aspose.slides.charts/irotation3d/heightpercents) { get; set; } | Bir 3B grafiğin yüksekliğini, grafiğin genişliğinin yüzdesi olarak belirtir (5 ile 500 yüzde arasında). Okuma/yazma UInt16. |
-| [Perspective](../../aspose.slides.charts/irotation3d/perspective) { get; set; } | 3B grafikler için perspektif değerini (görüş alanı açısı) döndürür veya ayarlar (0 ile 100 arasında). RightAngleAxes özelliği true ise göz ardı edilir. Okuma/yazma Byte. |
-| [RightAngleAxes](../../aspose.slides.charts/irotation3d/rightangleaxes) { get; set; } | Grafik eksenlerinin perspektif içinde değil, dik açıyla olup olmadığını belirler. Başka bir deyişle, eksen açıları grafik dönüşümünden veya yükseltilmesinden bağımsız olup olmadığını belirler. Okuma/yazma Boolean. |
-| [RotationX](../../aspose.slides.charts/irotation3d/rotationx) { get; set; } | X ekseni etrafındaki döndürme derecesini döndürür veya ayarlar, yani 3B grafikler için Y yönünde (-90 ile 90 derece arasında). Özellik, ECMA-376'daki 21.2.2.157 rotX (X Rotation) maddesi ve PowerPoint 2007+’deki "Y Rotation" seçeneğiyle eşleşir. Okuma/yazma SByte. |
-| [RotationY](../../aspose.slides.charts/irotation3d/rotationy) { get; set; } | Y ekseni etrafındaki döndürme derecesini döndürür veya ayarlar, yani 3B grafikler için X yönünde (0 ile 360 derece arasında). Özellik, ECMA-376'daki 21.2.2.158 rotY (Y Rotation) maddesi ve PowerPoint 2007+’deki "X Rotation" seçeneğiyle eşleşir. Okuma/yazma UInt16. |
+| [DepthPercents](../../aspose.slides.charts/irotation3d/depthpercents) { get; set; } | 3D grafiğin derinliğini, grafik genişliğinin yüzde olarak (20 ile 2000 arasında) döndürür veya ayarlar. Okuma/yazma UInt16. |
+| [HeightPercents](../../aspose.slides.charts/irotation3d/heightpercents) { get; set; } | Grafiğin yüksekliğini, grafik genişliğinin yüzde olarak (5 ile 500 arasında) belirtir. Okuma/yazma UInt16. |
+| [Perspective](../../aspose.slides.charts/irotation3d/perspective) { get; set; } | 3D grafikler için perspektif değerini (görüş alanı açısı) döndürür veya ayarlar (0 ile 100 arasında). RightAngleAxes özelliği true ise göz ardı edilir. Okuma/yazma Byte. |
+| [RightAngleAxes](../../aspose.slides.charts/irotation3d/rightangleaxes) { get; set; } | Grafik eksenlerinin perspektif yerine dik açıda olup olmadığını belirler. Başka bir deyişle, eksen açıların grafik dönüşü veya yükselişinden bağımsız olup olmadığını belirler. Okuma/yazma Boolean. |
+| [RotationX](../../aspose.slides.charts/irotation3d/rotationx) { get; set; } | X ekseni etrafındaki dönüş derecesini, yani 3D grafiklerde Y yönünde döndürmeyi döndürür veya ayarlar (-90 ile 90 derece arasında). Bu özellik, ECMA-376'daki 21.2.2.157 rotX (X Rotation) öğesi ve PowerPoint 2007+’deki "Y Rotation" seçeneği ile eşleşir. Okuma/yazma SByte. |
+| [RotationY](../../aspose.slides.charts/irotation3d/rotationy) { get; set; } | Y ekseni etrafındaki dönüş derecesini, yani 3D grafiklerde X yönünde döndürmeyi döndürür veya ayarlar (0 ile 360 derece arasında). Bu özellik, ECMA-376'daki 21.2.2.158 rotY (Y Rotation) öğesi ve PowerPoint 2007+’deki "X Rotation" seçeneği ile eşleşir. Okuma/yazma UInt16. |
 
 ### Ayrıca Bakınız
 

@@ -1,12 +1,12 @@
 ---
 title: TiffCompressionTypes
-second_title: Aspose.Sildes pro referenci API .NET
+second_title: Aspose.Sildes pro .NET API Reference
 description: Poskytuje možnosti, které řídí, jak je prezentace komprimována ve formátu TIFF.
 type: docs
-weight: 4540
+weight: 4560
 url: /cs/aspose.slides.export/tiffcompressiontypes/
 ---
-## TiffCompressionTypes enumerace
+## TiffCompressionTypes výčet
 
 Poskytuje možnosti, které řídí, jak je prezentace komprimována ve formátu TIFF.
 
@@ -22,7 +22,7 @@ public enum TiffCompressionTypes
 | None | `1` | Určuje žádnou kompresi. |
 | CCITT3 | `2` | Určuje kompresní schéma CCITT3. |
 | CCITT4 | `3` | Určuje kompresní schéma CCITT4. |
-| LZW | `4` | Určuje kompresní schéma LZW (Default). |
+| LZW | `4` | Určuje kompresní schéma LZW (Výchozí). |
 | RLE | `5` | Určuje kompresní schéma RLE. |
 
 ### Viz také

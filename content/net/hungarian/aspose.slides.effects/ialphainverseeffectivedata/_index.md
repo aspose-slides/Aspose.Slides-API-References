@@ -1,14 +1,14 @@
 ---
 title: IAlphaInverseEffectiveData
-second_title: Aspose.Sildes .NET API Referencia
-description: Módosíthatatlan objektum, amely egy Alpha Inverse hatást képvisel. Az Alpha átlátszóság értékeket 100-ból kivonva invertálják.
+second_title: Aspose.Sildes .NET API referencia
+description: Megváltozhatatlan objektum, amely egy Alpha Inverse hatást ábrázol. Az Alpha átlátszatlansági értékek 100%-ról történő kivonással vannak invertálva.
 type: docs
-weight: 3070
+weight: 3090
 url: /hu/aspose.slides.effects/ialphainverseeffectivedata/
 ---
 ## IAlphaInverseEffectiveData interfész
 
-A módosíthatatlan objektum, amely egy Alpha Inverse effektet képvisel. Az Alpha (átlátszóság) értékeket 100%-ból kivonva invertálják.
+Megváltozhatatlan objektum, amely egy Alpha Inverse hatást reprezentál. Az Alpha (átlátszatlanság) értékek 100%-ról való kivonással vannak invertálva.
 
 ```csharp
 public interface IAlphaInverseEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IAlphaInverseEffectiveData : IEffectEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphainverseeffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi a bázis IEffectEffectiveData interfész elérését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphainverseeffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi a bázis IEffectEffectiveData interfész lekérését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Lásd még
 

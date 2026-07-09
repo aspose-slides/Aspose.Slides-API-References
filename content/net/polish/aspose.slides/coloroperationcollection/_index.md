@@ -1,9 +1,9 @@
 ---
 title: ColorOperationCollection
-second_title: Aspose.Sildes dla .NET Dokumentacja API
+second_title: Aspose.Sildes dla .NET Referencja API
 description: Reprezentuje kolekcję operacji transformacji kolorów.
 type: docs
-weight: 2520
+weight: 2540
 url: /pl/aspose.slides/coloroperationcollection/
 ---
 ## ColorOperationCollection klasa
@@ -19,7 +19,7 @@ public sealed class ColorOperationCollection : IColorOperationCollection
 | Nazwa | Opis |
 | --- | --- |
 | [Count](../../aspose.slides/coloroperationcollection/count) { get; } | Zwraca liczbę operacji w kolekcji. Tylko do odczytu Int32. |
-| [IsSynchronized](../../aspose.slides/coloroperationcollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest synchronizowany (bezpieczny dla wątków). Tylko do odczytu Boolean. |
+| [IsSynchronized](../../aspose.slides/coloroperationcollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest zsynchronizowany (wątkowo bezpieczny). Tylko do odczytu Boolean. |
 | [Item](../../aspose.slides/coloroperationcollection/item) { get; set; } | Zwraca lub ustawia operację pod określonym indeksem. Odczyt/zapis [`ColorOperation`](../coloroperation). |
 | [SyncRoot](../../aspose.slides/coloroperationcollection/syncroot) { get; } | Zwraca korzeń synchronizacji. Tylko do odczytu Object. |
 
@@ -31,7 +31,7 @@ public sealed class ColorOperationCollection : IColorOperationCollection
 | [Add](../../aspose.slides/coloroperationcollection/add#add_1)(ColorTransformOperation, float) | Dodaje nową operację na koniec kolekcji. |
 | [Clear](../../aspose.slides/coloroperationcollection/clear)() | Usuwa wszystkie operacje kolorów. |
 | [Clone](../../aspose.slides/coloroperationcollection/clone)() | Tworzy kopię kolekcji ColorOperationCollection. |
-| [CloneT](../../aspose.slides/coloroperationcollection/clonet)() | Klonuje bieżący obiekt |
+| [CloneT](../../aspose.slides/coloroperationcollection/clonet)() | Klonuje bieżący obiekt. |
 | [CopyTo](../../aspose.slides/coloroperationcollection/copyto)(Array, int) | Kopiuje wszystkie elementy z kolekcji do określonej tablicy. |
 | [GetEnumerator](../../aspose.slides/coloroperationcollection/getenumerator)() | Zwraca enumerator, który iteruje po kolekcji. |
 | [Insert](../../aspose.slides/coloroperationcollection/insert#insert)(int, ColorTransformOperation) | Wstawia nową operację do kolekcji. |

@@ -3,7 +3,7 @@ title: SvgShape
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa opções para forma SVG.
 type: docs
-weight: 4490
+weight: 4510
 url: /pt/aspose.slides.export/svgshape/
 ---
 ## SvgShape classe
@@ -18,7 +18,7 @@ public sealed class SvgShape : ISvgShape
 
 | Nome | Descrição |
 | --- | --- |
-| [Id](../../aspose.slides.export/svgshape/id) { get; set; } | Obtém o id da forma |
+| [Id](../../aspose.slides.export/svgshape/id) { get; set; } | Obtém id da forma |
 
 ## Métodos
 

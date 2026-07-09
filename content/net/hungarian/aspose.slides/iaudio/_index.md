@@ -1,14 +1,14 @@
 ---
 title: IAudio
-second_title: Aspose.Sildes .NET API Referencia
-description: Beágyazott hangfájlt képvisel.
+second_title: Aspose.Sildes a .NET API referencia
+description: Beágyazott hangfájlt reprezentál.
 type: docs
-weight: 5190
+weight: 5210
 url: /hu/aspose.slides/iaudio/
 ---
 ## IAudio interfész
 
-Egy beágyazott hangfájl képviselője.
+Beágyazott hangfájlt reprezentál.
 
 ```csharp
 public interface IAudio
@@ -18,14 +18,14 @@ public interface IAudio
 
 | Név | Leírás |
 | --- | --- |
-| [BinaryData](../../aspose.slides/iaudio/binarydata) { get; } | Visszaadja a hang adatának másolatát. Nagy adatmennyiség esetén fontolja meg a [`GetStream`](./getstream) metódus használatát, hogy megakadályozza a hang adatának felesleges betöltését a memóriába vagy akár OutOfMemoryException kivételt. Csak olvasható Byte[]. |
-| [ContentType](../../aspose.slides/iaudio/contenttype) { get; } | Visszaadja a hang MIME-típusát, amely [`BinaryData`](./binarydata) formátumban van kódolva. Csak olvasható String. |
+| [BinaryData](../../aspose.slides/iaudio/binarydata) { get; } | Visszaadja a hang adatmásolatát. Nagy mennyiségű adat esetén fontolja meg a [`GetStream`](./getstream) metódus használatát, hogy elkerülje a hang adatok felesleges memóriába töltését vagy akár OutOfMemoryException kivételt. Csak olvasható Byte[]. |
+| [ContentType](../../aspose.slides/iaudio/contenttype) { get; } | Visszaadja a hang MIME típusát, amely [`BinaryData`](./binarydata) kódolású. Csak olvasható String. |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [GetStream](../../aspose.slides/iaudio/getstream)() | Visszaad egy Stream áramlást olvasáshoz. Használja a 'using' kulcsszót, vagy zárja be az áramlást a használat után. |
+| [GetStream](../../aspose.slides/iaudio/getstream)() | Visszaad egy Stream objektumot olvasáshoz. Használja a 'using' kulcsszót, vagy zárja be a streamet a használat után. |
 
 ### Lásd még
 

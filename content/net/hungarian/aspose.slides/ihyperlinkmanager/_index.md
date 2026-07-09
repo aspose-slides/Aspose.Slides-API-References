@@ -1,14 +1,14 @@
 ---
 title: IHyperlinkManager
-second_title: Aspose.Sildes .NET API referencia
-description: Hiperválaszok kezelése, hozzáadás és eltávolítás.
+second_title: Aspose.Sildes .NET API Referencia
+description: Hyperlinkek kezelését biztosítja, hozzáadást és eltávolítást.
 type: docs
-weight: 6110
+weight: 6130
 url: /hu/aspose.slides/ihyperlinkmanager/
 ---
 ## IHyperlinkManager interfész
 
-Hiperválaszok kezelése (hozzáadás, eltávolítás).
+Hyperlinkek kezelését (hozzáadás és eltávolítás) biztosít.
 
 ```csharp
 public interface IHyperlinkManager
@@ -18,13 +18,13 @@ public interface IHyperlinkManager
 
 | Név | Leírás |
 | --- | --- |
-| [RemoveHyperlinkClick](../../aspose.slides/ihyperlinkmanager/removehyperlinkclick)() | Eltávolítja a hiperhivatkozást kattintáskor. |
-| [RemoveHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/removehyperlinkmouseover)() | Eltávolítja a hiperhivatkozást egérrel való rámutatáskor. |
-| [SetExternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkclick)(string) | Beállítja a külső hiperhivatkozást kattintáskor. |
-| [SetExternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkmouseover)(string) | Beállítja a külső hiperhivatkozást egérrel való rámutatáskor. |
-| [SetInternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkclick)(ISlide) | Beállítja a belső hiperhivatkozást kattintáskor. |
-| [SetInternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | Beállítja a belső hiperhivatkozást egérrel való rámutatáskor. |
-| [SetMacroHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setmacrohyperlinkclick)(string) | Beállítja a Macro hiperhivatkozást kattintáskor. |
+| [RemoveHyperlinkClick](../../aspose.slides/ihyperlinkmanager/removehyperlinkclick)() | Eltávolítja a hyperlinket kattintáskor. |
+| [RemoveHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/removehyperlinkmouseover)() | Eltávolítja a hyperlinket egérrel való fölémutatáskor. |
+| [SetExternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkclick)(string) | Beállítja a külső hyperlinket kattintáskor. |
+| [SetExternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkmouseover)(string) | Beállítja a külső hyperlinket egérrel való fölémutatáskor. |
+| [SetInternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkclick)(ISlide) | Beállítja a belső hyperlinket kattintáskor. |
+| [SetInternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | Beállítja a belső hyperlinket egérrel való fölémutatáskor. |
+| [SetMacroHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setmacrohyperlinkclick)(string) | Beállítja a makró hyperlinket kattintáskor. |
 
 ### Lásd még
 

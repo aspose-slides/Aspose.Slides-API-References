@@ -1,9 +1,9 @@
 ---
 title: IPresentationText
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes 用 .NET API リファレンス
 description: スライドから抽出されたテキストを表します
 type: docs
-weight: 6780
+weight: 6800
 url: /ja/aspose.slides/ipresentationtext/
 ---
 ## IPresentationText インターフェイス
@@ -18,7 +18,7 @@ public interface IPresentationText
 
 | 名前 | 説明 |
 | --- | --- |
-| [SlidesText](../../aspose.slides/ipresentationtext/slidestext) { get; } | [`SlideText`](../islidetext) の配列はプレゼンテーションのテキストを含みます。 |
+| [SlidesText](../../aspose.slides/ipresentationtext/slidestext) { get; } | [`SlideText`](../islidetext) の配列はプレゼンテーションのテキストを含みます |
 
 ### 参照
 

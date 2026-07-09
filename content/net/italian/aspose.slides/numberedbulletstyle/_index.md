@@ -1,12 +1,12 @@
 ---
 title: NumberedBulletStyle
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta lo stile dei punti numerati.
 type: docs
-weight: 9160
+weight: 9180
 url: /it/aspose.slides/numberedbulletstyle/
 ---
-## Enumerazione NumberedBulletStyle
+## enumerazione NumberedBulletStyle
 
 Rappresenta lo stile dei punti numerati.
 
@@ -21,44 +21,44 @@ public enum NumberedBulletStyle : sbyte
 | NotDefined | `-1` | Non definito. |
 | BulletAlphaLCPeriod | `0` | Caratteri alfabetici minuscoli con un punto. Esempio: a., b., c., ... |
 | BulletAlphaUCPeriod | `1` | Caratteri alfabetici maiuscoli con un punto. Esempio: A., B., C., ... |
-| BulletArabicParenRight | `2` | Numeri arabi con parentesi chiusa. Esempio: 1), 2), 3), ... |
+| BulletArabicParenRight | `2` | Numeri arabi con parentesi di chiusura. Esempio: 1), 2), 3), ... |
 | BulletArabicPeriod | `3` | Numeri arabi con un punto. Esempio: 1., 2., 3., ... |
 | BulletRomanLCParenBoth | `4` | Numeri romani minuscoli con entrambe le parentesi. Esempio: (i), (ii), (iii), ... |
-| BulletRomanLCParenRight | `5` | Numeri romani minuscoli con parentesi chiusa. Esempio: i), ii), iii), ... |
-| BulletRomanLCPeriod | `6` | Numeri romani minuscoli con un punto. Esempio: i., ii., iii., ... |
-| BulletRomanUCPeriod | `7` | Numeri romani maiuscoli con un punto. Esempio: I., II., III., ... |
+| BulletRomanLCParenRight | `5` | Numeri romani minuscoli con parentesi di chiusura. Esempio: i), ii), iii), ... |
+| BulletRomanLCPeriod | `6` | Numeri romani minuscoli con punto. Esempio: i., ii., iii., ... |
+| BulletRomanUCPeriod | `7` | Numeri romani maiuscoli con punto. Esempio: I., II., III., ... |
 | BulletAlphaLCParenBoth | `8` | Caratteri alfabetici minuscoli con entrambe le parentesi. Esempio: (a), (b), (c), ... |
-| BulletAlphaLCParenRight | `9` | Caratteri alfabetici minuscoli con parentesi chiusa. Esempio: a), b), c), ... |
+| BulletAlphaLCParenRight | `9` | Caratteri alfabetici minuscoli con parentesi di chiusura. Esempio: a), b), c), ... |
 | BulletAlphaUCParenBoth | `10` | Caratteri alfabetici maiuscoli con entrambe le parentesi. Esempio: (A), (B), (C), ... |
-| BulletAlphaUCParenRight | `11` | Caratteri alfabetici maiuscoli con parentesi chiusa. Esempio: A), B), C), ... |
+| BulletAlphaUCParenRight | `11` | Caratteri alfabetici maiuscoli con parentesi di chiusura. Esempio: A), B), C), ... |
 | BulletArabicParenBoth | `12` | Numeri arabi con entrambe le parentesi. Esempio: (1), (2), (3), ... |
 | BulletArabicPlain | `13` | Numeri arabi. Esempio: 1, 2, 3, ... |
 | BulletRomanUCParenBoth | `14` | Numeri romani maiuscoli con entrambe le parentesi. Esempio: (I), (II), (III), ... |
-| BulletRomanUCParenRight | `15` | Numeri romani maiuscoli con parentesi chiusa. Esempio: I), II), III), ... |
+| BulletRomanUCParenRight | `15` | Numeri romani maiuscoli con parentesi di chiusura. Esempio: I), II), III), ... |
 | BulletSimpChinPlain | `16` | Cinese semplificato senza punto. |
 | BulletSimpChinPeriod | `17` | Cinese semplificato con punto. |
-| BulletCircleNumDBPlain | `18` | Numero circondato a doppio byte per valori fino a 10, da 11 - numeri arabi. |
-| BulletCircleNumWDWhitePlain | `19` | Numero colorato di testo con cerchio dello stesso colore tracciato attorno (numeri a cerchio bianco Wingdings). Da 11 - numeri arabi. |
-| BulletCircleNumWDBlackPlain | `20` | Numero di colore ombra con sfondo circolare del colore del testo normale (numeri a cerchio nero Wingdings). |
+| BulletCircleNumDBPlain | `18` | Numero circondato a doppio byte per valori fino a 10, da 11 in poi numeri arabi. |
+| BulletCircleNumWDWhitePlain | `19` | Numero colorato del testo con cerchio dello stesso colore disegnato intorno (numeri a cerchio bianco Wingdings). Da 11 in poi numeri arabi. |
+| BulletCircleNumWDBlackPlain | `20` | Numero di colore ombra con sfondo circolare del colore normale del testo (numeri a cerchio nero Wingdings). |
 | BulletTradChinPlain | `21` | Cinese tradizionale senza punto. |
 | BulletTradChinPeriod | `22` | Cinese tradizionale con punto. |
-| BulletArabicAlphaDash | `23` | Caratteri alfabetici della lingua araba con trattino. |
-| BulletArabicAbjadDash | `24` | Alfabeti Arabo Abjad con trattino. |
-| BulletHebrewAlphaDash | `25` | Caratteri alfabetici della lingua ebraica con trattino. |
-| BulletKanjiKoreanPlain | `26` | Numeri giapponesi/korei senza punto. |
-| BulletKanjiKoreanPeriod | `27` | Numeri giapponesi/korei con punto. |
+| BulletArabicAlphaDash | `23` | Caratteri alfabetici della lingua araba con un trattino. |
+| BulletArabicAbjadDash | `24` | Alfabeti Abjad arabi con un trattino. |
+| BulletHebrewAlphaDash | `25` | Caratteri alfabetici della lingua ebraica con un trattino. |
+| BulletKanjiKoreanPlain | `26` | Numeri giapponesi/coreani senza punto. |
+| BulletKanjiKoreanPeriod | `27` | Numeri giapponesi/coreani con punto. |
 | BulletArabicDBPlain | `28` | Schema di numerazione arabo a doppio byte (senza punteggiatura). |
 | BulletArabicDBPeriod | `29` | Schema di numerazione arabo a doppio byte con punto a doppio byte. |
 | BulletThaiAlphaPeriod | `30` | Alfabeto tailandese con punto. |
 | BulletThaiAlphaParenRight | `31` | Parentesi dell'alfabeto tailandese - destra. |
 | BulletThaiAlphaParenBoth | `32` | Parentesi dell'alfabeto tailandese - entrambe. |
-| BulletThaiNumPeriod | `33` | Numero tailandese con punto. |
+| BulletThaiNumPeriod | `33` | Numerazione tailandese con punto. |
 | BulletThaiNumParenRight | `34` | Parentesi numeriche tailandesi - destra. |
 | BulletThaiNumParenBoth | `35` | Parentesi numeriche tailandesi - entrambe. |
 | BulletHindiAlphaPeriod | `36` | Alfabeto hindi con punto - vocali. |
-| BulletHindiNumPeriod | `37` | Numero hindi con punto. |
-| BulletKanjiSimpChinDBPeriod | `38` | Kanji cinese semplificato DBPeriod. |
-| BulletHindiNumParenRight | `39` | Parentesi numeriche hindi - destra. |
+| BulletHindiNumPeriod | `37` | Numerazione hindi con punto. |
+| BulletKanjiSimpChinDBPeriod | `38` | Kanji Cinese semplice DBPeriod. |
+| BulletHindiNumParenRight | `39` | Parentesi numeriche Hindi - destra. |
 | BulletHindiAlpha1Period | `40` | Alfabeto hindi con punto - consonanti. |
 
 ### Vedi anche

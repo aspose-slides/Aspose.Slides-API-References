@@ -1,14 +1,14 @@
 ---
 title: IBaseSlide
-second_title: Aspose.Sildes pro .NET – referenční příručka API
+second_title: Aspose.Sildes pro .NET referenční dokumentaci API
 description: Reprezentuje společná data pro všechny typy snímků.
 type: docs
-weight: 5320
+weight: 5340
 url: /cs/aspose.slides/ibaseslide/
 ---
 ## IBaseSlide rozhraní
 
-Představuje společná data pro všechny typy snímků.
+Represents common data for all slide types.
 
 ```csharp
 public interface IBaseSlide : IThemeable
@@ -16,27 +16,27 @@ public interface IBaseSlide : IThemeable
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [AsIThemeable](../../aspose.slides/ibaseslide/asithemeable) { get; } | Umožňuje získat základní rozhraní IThemeable. Pouze pro čtení [`IThemeable`](../../aspose.slides.theme/ithemeable). |
 | [Background](../../aspose.slides/ibaseslide/background) { get; } | Vrací pozadí snímku. Pouze pro čtení [`IBackground`](../ibackground). |
 | [Controls](../../aspose.slides/ibaseslide/controls) { get; } | Vrací kolekci ovládacích prvků ActiveX na snímku. Pouze pro čtení [`IControlCollection`](../icontrolcollection). |
 | [CustomData](../../aspose.slides/ibaseslide/customdata) { get; } | Vrací vlastní data snímku. Pouze pro čtení [`ICustomData`](../icustomdata). |
 | [HyperlinkQueries](../../aspose.slides/ibaseslide/hyperlinkqueries) { get; } | Poskytuje snadný přístup k obsaženým hypertextovým odkazům. Pouze pro čtení [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| [Name](../../aspose.slides/ibaseslide/name) { get; set; } | Vrací nebo nastavuje název snímku. Čtení/zápis String. |
+| [Name](../../aspose.slides/ibaseslide/name) { get; set; } | Vrací nebo nastavuje název snímku. Číst/zapisovat String. |
 | [Shapes](../../aspose.slides/ibaseslide/shapes) { get; } | Vrací tvary snímku. Pouze pro čtení [`IShapeCollection`](../ishapecollection). |
-| [ShowMasterShapes](../../aspose.slides/ibaseslide/showmastershapes) { get; set; } | Určuje, zda mají být tvary na hlavním snímku zobrazeny na snímcích nebo ne. Pro samotný hlavní snímek tato vlastnost vždy vrací `false`. Čtení/zápis Boolean. |
+| [ShowMasterShapes](../../aspose.slides/ibaseslide/showmastershapes) { get; set; } | Určuje, zda mají být tvary na hlavním snímku zobrazeny na snímcích nebo ne. Pro samotný hlavní snímek tato vlastnost vždy vrací `false`. Číst/zapisovat Boolean. |
 | [SlideId](../../aspose.slides/ibaseslide/slideid) { get; } | Vrací ID snímku. Pouze pro čtení UInt32. |
 | [SlideShowTransition](../../aspose.slides/ibaseslide/slideshowtransition) { get; } | Vrací objekt TransitionEx, který obsahuje informace o tom, jak se určený snímek během prezentace posouvá. Pouze pro čtení [`ISlideShowTransition`](../islideshowtransition). |
 | [Timeline](../../aspose.slides/ibaseslide/timeline) { get; } | Vrací objekt časové osy animace. Pouze pro čtení [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## Metody
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [Equals](../../aspose.slides/ibaseslide/equals)(IBaseSlide) | Určuje, zda jsou dvě instance IBaseSlide stejné. Návratová hodnota je vypočítána na základě struktury snímku a statického obsahu. Dva snímky jsou stejné, pokud jsou všechny tvary, styly, texty, animace a další nastavení atd. stejné. Porovnání nebere v úvahu jedinečné hodnoty identifikátorů, např. SlideId a dynamický obsah, např. aktuální hodnotu data ve Date Placeholder. |
+| [Equals](../../aspose.slides/ibaseslide/equals)(IBaseSlide) | Určuje, zda jsou dvě instance IBaseSlide rovné. Návratová hodnota je vypočtena na základě struktury snímku a statického obsahu. Dva snímky jsou rovny, pokud jsou všechny tvary, styly, texty, animace a další nastavení atd. rovny. Porovnání nezohledňuje hodnoty jedinečných identifikátorů, např. SlideId, ani dynamický obsah, např. aktuální datum v zástupci Data. |
 | [FindShapeByAltText](../../aspose.slides/ibaseslide/findshapebyalttext)(string) | Najde první výskyt tvaru s určeným alternativním textem. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/ibaseslide/joinportionswithsameformatting)() | Spojí sekvence s identickým formátováním ve všech odstavcích ve všech přijatelných tvarech. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/ibaseslide/joinportionswithsameformatting)() | Spojí úseky se stejným formátováním ve všech odstavcích ve všech vhodných tvarech. |
 
 ### Viz také
 

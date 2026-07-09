@@ -1,9 +1,9 @@
 ---
 title: PropertyEffect
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta il comportamento dell'effetto di proprietà.
 type: docs
-weight: 730
+weight: 750
 url: /it/aspose.slides.animation/propertyeffect/
 ---
 ## PropertyEffect classe
@@ -25,20 +25,20 @@ public class PropertyEffect : Behavior, IPropertyEffect
 | Nome | Descrizione |
 | --- | --- |
 | [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Rappresenta se i comportamenti di animazione sono accumulati. Lettura/Scrittura [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Rappresenta se il comportamento di animazione corrente è combinato con altre animazioni in esecuzione. Lettura/Scrittura [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Rappresenta se il comportamento di animazione corrente è combinato con altre animazioni in corso. Lettura/Scrittura [`BehaviorAdditiveType`](../behavioradditivetype). |
 | [By](../../aspose.slides.animation/propertyeffect/by) { get; set; } | Specifica un valore di offset relativo per l'animazione rispetto alla sua posizione prima dell'inizio dell'animazione. Lettura/Scrittura String. |
 | [CalcMode](../../aspose.slides.animation/propertyeffect/calcmode) { get; set; } | Specifica la modalità di interpolazione per l'animazione. Lettura/Scrittura [`PropertyCalcModeType`](../propertycalcmodetype). |
 | [From](../../aspose.slides.animation/propertyeffect/from) { get; set; } | Specifica il valore iniziale dell'animazione. Lettura/Scrittura String. |
 | [Points](../../aspose.slides.animation/propertyeffect/points) { get; set; } | Specifica i punti dell'animazione. Lettura/Scrittura [`IPointCollection`](../ipointcollection). |
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Rappresenta le proprietà del comportamento. Sola lettura [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Rappresenta le proprietà di temporizzazione per il comportamento dell'effetto. Lettura/Scrittura [`ITiming`](../itiming). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Rappresenta le proprietà temporali per il comportamento dell'effetto. Lettura/Scrittura [`ITiming`](../itiming). |
 | [To](../../aspose.slides.animation/propertyeffect/to) { get; set; } | Specifica il valore finale per l'animazione. Lettura/Scrittura String. |
 | [ValueType](../../aspose.slides.animation/propertyeffect/valuetype) { get; set; } | Specifica il tipo di un valore di proprietà. Lettura/Scrittura [`PropertyValueType`](../propertyvaluetype). |
 
 ### Vedi anche
 
-* class [Behavior](../behavior)
-* interface [IPropertyEffect](../ipropertyeffect)
+* classe [Behavior](../behavior)
+* interfaccia [IPropertyEffect](../ipropertyeffect)
 * namespace [Aspose.Slides.Animation](../../aspose.slides.animation)
 * assembly [Aspose.Slides](../../)
 

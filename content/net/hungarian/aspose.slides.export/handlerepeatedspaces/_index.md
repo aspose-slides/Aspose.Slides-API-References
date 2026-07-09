@@ -1,14 +1,14 @@
 ---
 title: HandleRepeatedSpaces
-second_title: Aspose.Sildes .NET API Referencia
-description: Megadja, hogy a többször ismétlődő szabályos szóköz karaktereket hogyan kell kezelni a Markdown exportálása során.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Megadja, hogyan kell kezelni az ismétlődő szabványos szóköz karaktereket a Markdown exportálás során.
 type: docs
-weight: 3810
+weight: 3830
 url: /hu/aspose.slides.export/handlerepeatedspaces/
 ---
 ## HandleRepeatedSpaces felsorolás
 
-Megadja, hogy a többször ismétlődő szabályos szóköz karaktereket hogyan kell kezelni a Markdown exportálása során.
+Megadja, hogyan kell kezelni az ismétlődő szabványos szóköz karaktereket a Markdown exportálás során.
 
 ```csharp
 public enum HandleRepeatedSpaces
@@ -18,7 +18,7 @@ public enum HandleRepeatedSpaces
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| None | `0` | Az összes szóköz megtartásra kerül szokásos szóközkarakterként változtatás nélkül. Nincs alkalmazva átalakítás, és a több egymást követő szóköz változatlanul exportálódik. |
+| None | `0` | Minden szóköz megmarad szabványos szóköz karakterként változtatás nélkül. Nem végeznek átalakítást, és a több egymást követő szóköz változatlanul kerül exportálásra. |
 | AlternateSpacesToNbsp | `1` |  |
 | MultipleSpacesToNbsp | `2` |  |
 

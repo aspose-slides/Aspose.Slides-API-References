@@ -1,14 +1,14 @@
 ---
 title: EmbedFontCharacters
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje pravidlo, které se používá pro přidání nového vkládaného písma do IPresentation../aspose.slides/ipresentation
+description: Representuje pravidlo, které se použije pro přidání nového vloženého fontu do IPresentation../aspose.slides/ipresentation
 type: docs
-weight: 3750
+weight: 3770
 url: /cs/aspose.slides.export/embedfontcharacters/
 ---
-## výčet EmbedFontCharacters
+## EmbedFontCharacters výčet
 
-Představuje pravidlo, které se používá pro přidání nového vkládaného písma do [`IPresentation`](../../aspose.slides/ipresentation)
+Representuje pravidlo, které se použije pro přidání nového vloženého fontu do [`IPresentation`](../../aspose.slides/ipresentation)
 
 ```csharp
 public enum EmbedFontCharacters
@@ -19,7 +19,7 @@ public enum EmbedFontCharacters
 | Název | Hodnota | Popis |
 | --- | --- | --- |
 | OnlyUsed | `0` | Vložit pouze znaky použité v prezentaci (nejlépe pro snížení velikosti souboru). |
-| All | `1` | Vložit všechny znaky (nejlépe pro úpravy ostatními lidmi). |
+| All | `1` | Vložit všechny znaky (nejlépe pro úpravy jinými lidmi). |
 
 ### Viz také
 

@@ -1,14 +1,14 @@
 ---
 title: INotesSlideHeaderFooterManager
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en manager som hanterar beteendet för noterna bildplatshållare inklusive sidhuvudplatshållare.
+description: Representerar en manager som hanterar beteendet för noternas bildplatshållare inklusive sidhuvudplatshållare.
 type: docs
-weight: 6490
+weight: 6510
 url: /sv/aspose.slides/inotesslideheaderfootermanager/
 ---
 ## INotesSlideHeaderFooterManager gränssnitt
 
-Representerar manager som håller beteendet för noternas bildplatshållare, inklusive sidhuvudplatshållare.
+Representerar manager som hanterar beteendet för noternas bildplatshållare, inklusive sidhuvudplatshållare.
 
 ```csharp
 public interface INotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag

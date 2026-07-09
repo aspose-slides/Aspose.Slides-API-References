@@ -1,14 +1,14 @@
 ---
 title: IStreamWrapper
-second_title: Aspose.Sildes dla .NET Referencja API
-description: Opakowanie Aspose.IO.Stream dla interfejsu COM.
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Wrapper Aspose.IO.Stream dla interfejsu COM.
 type: docs
-weight: 7110
+weight: 7130
 url: /pl/aspose.slides/istreamwrapper/
 ---
 ## IStreamWrapper interfejs
 
-Opakowanie Aspose.IO.Stream dla interfejsu COM.
+Aspose.IO.Stream wrapper for COM interface.
 
 ```csharp
 public interface IStreamWrapper : IDisposable
@@ -18,9 +18,9 @@ public interface IStreamWrapper : IDisposable
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIDisposable](../../aspose.slides/istreamwrapper/asidisposable) { get; } | Umożliwia uzyskanie bazowego interfejsu IDisposable. Tylko do odczytu IDisposable. |
+| [AsIDisposable](../../aspose.slides/istreamwrapper/asidisposable) { get; } | Umożliwia pobranie podstawowego interfejsu IDisposable. Tylko do odczytu IDisposable. |
 | [CanRead](../../aspose.slides/istreamwrapper/canread) { get; } | Zwraca wartość wskazującą, czy bieżący strumień obsługuje odczyt. Tylko do odczytu Boolean. |
-| [CanSeek](../../aspose.slides/istreamwrapper/canseek) { get; } | Zwraca wartość wskazującą, czy bieżący strumień obsługuje przesuwanie. Tylko do odczytu Boolean. |
+| [CanSeek](../../aspose.slides/istreamwrapper/canseek) { get; } | Zwraca wartość wskazującą, czy bieżący strumień obsługuje przemieszczanie. Tylko do odczytu Boolean. |
 | [CanWrite](../../aspose.slides/istreamwrapper/canwrite) { get; } | Zwraca wartość wskazującą, czy bieżący strumień obsługuje zapis. Tylko do odczytu Boolean. |
 | [Length](../../aspose.slides/istreamwrapper/length) { get; } | Zwraca długość strumienia w bajtach. Tylko do odczytu Int64. |
 | [Position](../../aspose.slides/istreamwrapper/position) { get; } | Zwraca pozycję w bieżącym strumieniu. Tylko do odczytu Int64. |
@@ -31,10 +31,10 @@ public interface IStreamWrapper : IDisposable
 | Nazwa | Opis |
 | --- | --- |
 | [Close](../../aspose.slides/istreamwrapper/close)() | Zamyka bieżący strumień i zwalnia wszystkie zasoby. |
-| [Flush](../../aspose.slides/istreamwrapper/flush)() | Czyści wszystkie bufory tego strumienia i powoduje zapis wszelkich danych buforowanych do urządzenia podstawowego. |
+| [Flush](../../aspose.slides/istreamwrapper/flush)() | Czyści wszystkie bufory tego strumienia i powoduje zapisanie zbuforowanych danych do urządzenia podstawowego. |
 | [Read](../../aspose.slides/istreamwrapper/read)(byte[], int, int) | Odczytuje sekwencję bajtów z bieżącego strumienia i przesuwa pozycję w strumieniu o liczbę odczytanych bajtów. |
-| [ReadByte](../../aspose.slides/istreamwrapper/readbyte)() | Odczytuje bajt ze strumienia i przesuwa pozycję w strumieniu o jeden bajt, lub zwraca -1, jeśli znajduje się na końcu strumienia. |
-| [Seek](../../aspose.slides/istreamwrapper/seek)(long, SeekOrigin) | Ustawia pozycję w bieżącym strumieniu |
+| [ReadByte](../../aspose.slides/istreamwrapper/readbyte)() | Odczytuje bajt ze strumienia i przesuwa pozycję w strumieniu o jeden bajt, lub zwraca -1, jeśli jest koniec strumienia. |
+| [Seek](../../aspose.slides/istreamwrapper/seek)(long, SeekOrigin) | Ustawia pozycję w bieżącym strumieniu. |
 | [Write](../../aspose.slides/istreamwrapper/write)(byte[], int, int) | Zapisuje sekwencję bajtów do bieżącego strumienia i przesuwa bieżącą pozycję w tym strumieniu o liczbę zapisanych bajtów. |
 | [WriteByte](../../aspose.slides/istreamwrapper/writebyte)(byte) | Zapisuje bajt w bieżącej pozycji w strumieniu i przesuwa pozycję w strumieniu o jeden bajt. |
 

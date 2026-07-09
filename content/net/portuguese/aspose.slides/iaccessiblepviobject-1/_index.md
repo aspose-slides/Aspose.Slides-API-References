@@ -1,9 +1,9 @@
 ---
 title: IAccessiblePVIObjectT
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Aspose.Sildes para .NET - Referência da API
 description: Representa um tipo que pode retornar os dados efetivos correspondentes com a herança aplicada.
 type: docs
-weight: 5150
+weight: 5170
 url: /pt/aspose.slides/iaccessiblepviobject-1/
 ---
 ## IAccessiblePVIObject&lt;T&gt; interface
@@ -25,7 +25,7 @@ public interface IAccessiblePVIObject<T>
 | --- | --- |
 | [GetEffective](../../aspose.slides/iaccessiblepviobject`1/geteffective)() | Obtém os dados efetivos com a herança aplicada. |
 
-### Ver também
+### Veja Também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

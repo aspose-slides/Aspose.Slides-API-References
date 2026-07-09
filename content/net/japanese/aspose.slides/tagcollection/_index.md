@@ -1,14 +1,14 @@
 ---
 title: TagCollection
 second_title: Aspose.Sildes for .NET API リファレンス
-description: ユーザー定義の文字列ペアであるタグのコレクションを表します
+description: タグのコレクション（ユーザー定義の文字列ペア）を表します
 type: docs
-weight: 10870
+weight: 10890
 url: /ja/aspose.slides/tagcollection/
 ---
 ## TagCollection クラス
 
-ユーザー定義の文字列ペアであるタグのコレクションを表します。
+ユーザーが定義した文字列のペアであるタグのコレクションを表します。
 
 ```csharp
 public sealed class TagCollection : ITagCollection
@@ -19,9 +19,9 @@ public sealed class TagCollection : ITagCollection
 | 名前 | 説明 |
 | --- | --- |
 | [Count](../../aspose.slides/tagcollection/count) { get; } | コレクション内のタグ数を返します。読み取り専用 Int32。 |
-| [IsSynchronized](../../aspose.slides/tagcollection/issynchronized) { get; } | コレクションへのアクセスが同期化（スレッドセーフ）されているかどうかを示す値を返します。読み取り専用 Boolean。 |
+| [IsSynchronized](../../aspose.slides/tagcollection/issynchronized) { get; } | コレクションへのアクセスが同期化 (スレッド セーフ) されているかどうかを示す値を返します。読み取り専用 Boolean。 |
 | [Item](../../aspose.slides/tagcollection/item) { get; set; } | タグのキーと値のペアを取得または設定します。 |
-| [SyncRoot](../../aspose.slides/tagcollection/syncroot) { get; } | 同期化ルートを返します。読み取り専用 Object。 |
+| [SyncRoot](../../aspose.slides/tagcollection/syncroot) { get; } | 同期ルートを返します。読み取り専用 Object。 |
 
 ## メソッド
 
@@ -29,19 +29,19 @@ public sealed class TagCollection : ITagCollection
 | --- | --- |
 | [Add](../../aspose.slides/tagcollection/add)(string, string) | コレクションに新しいタグを追加します。 |
 | [Clear](../../aspose.slides/tagcollection/clear)() | コレクションからすべてのタグを削除します。 |
-| [Contains](../../aspose.slides/tagcollection/contains)(string) | コレクションが特定の名前を含むかどうかを判定します。 |
+| [Contains](../../aspose.slides/tagcollection/contains)(string) | コレクションに指定された名前が含まれているかどうかを判断します。 |
 | [CopyTo](../../aspose.slides/tagcollection/copyto)(Array, int) | コレクションのすべての要素を指定された配列にコピーします。 |
-| [GetEnumerator](../../aspose.slides/tagcollection/getenumerator)() | コレクションを列挙する列挙子を返します。 |
+| [GetEnumerator](../../aspose.slides/tagcollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
 | [GetNameByIndex](../../aspose.slides/tagcollection/getnamebyindex)(int) | 指定されたインデックスのタグのキーを返します。 |
 | [GetNamesOfTags](../../aspose.slides/tagcollection/getnamesoftags)() | タグの名前を返します。 |
 | [GetValueByIndex](../../aspose.slides/tagcollection/getvaluebyindex)(int) | 指定されたインデックスのタグの値を返します。 |
-| [IndexOfName](../../aspose.slides/tagcollection/indexofname)(string) | コレクション内の指定されたキーのゼロベースのインデックスを返します。 |
+| [IndexOfName](../../aspose.slides/tagcollection/indexofname)(string) | コレクション内の指定されたキーのゼロベース インデックスを返します。 |
 | [Remove](../../aspose.slides/tagcollection/remove)(string) | コレクションから指定された名前のタグを削除します。 |
 | [RemoveAt](../../aspose.slides/tagcollection/removeat)(int) | 指定されたインデックスのタグを削除します。 |
 
 ### 例
 
-以下の例は、PowerPoint プレゼンテーションにタグを追加する方法を示します。
+次の例は、PowerPoint プレゼンテーションにタグを追加する方法を示しています。
 
 ```csharp
 [C#]
@@ -52,7 +52,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 関連項目
+### 参照
 
 * インターフェイス [ITagCollection](../itagcollection)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

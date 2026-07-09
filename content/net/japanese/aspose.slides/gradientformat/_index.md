@@ -1,9 +1,9 @@
 ---
 title: GradientFormat
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: グラデーション形式を表します。
 type: docs
-weight: 4980
+weight: 5000
 url: /ja/aspose.slides/gradientformat/
 ---
 ## GradientFormat クラス
@@ -18,13 +18,13 @@ public sealed class GradientFormat : PVIObject, IGradientFormat
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベース IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
 | [GradientDirection](../../aspose.slides/gradientformat/gradientdirection) { get; set; } | グラデーションのスタイルを取得または設定します。読み書き可能 [`GradientDirection`](../gradientdirection)。 |
 | [GradientShape](../../aspose.slides/gradientformat/gradientshape) { get; set; } | グラデーションの形状を取得または設定します。読み書き可能 [`GradientShape`](../gradientshape)。 |
-| [GradientStops](../../aspose.slides/gradientformat/gradientstops) { get; } | グラデーションストップのコレクションを取得します。読み取り専用 [`IGradientStopCollection`](../igradientstopcollection)。 |
+| [GradientStops](../../aspose.slides/gradientformat/gradientstops) { get; } | グラデーション ストップのコレクションを取得します。読み取り専用 [`IGradientStopCollection`](../igradientstopcollection)。 |
 | [LinearGradientAngle](../../aspose.slides/gradientformat/lineargradientangle) { get; set; } | グラデーションの角度を取得または設定します。読み書き可能 Single。 |
-| [LinearGradientScaled](../../aspose.slides/gradientformat/lineargradientscaled) { get; set; } | グラデーションがスケーリングされているかどうかを決定します。読み書き可能 [`NullableBool`](../nullablebool)。 |
-| [TileFlip](../../aspose.slides/gradientformat/tileflip) { get; set; } | グラデーションのフリッピングモードを取得または設定します。読み書き可能 [`TileFlip`](../tileflip)。 |
+| [LinearGradientScaled](../../aspose.slides/gradientformat/lineargradientscaled) { get; set; } | グラデーションが拡大縮小されるかどうかを判定します。読み書き可能 [`NullableBool`](../nullablebool)。 |
+| [TileFlip](../../aspose.slides/gradientformat/tileflip) { get; set; } | グラデーションの反転モードを取得または設定します。読み書き可能 [`TileFlip`](../tileflip)。 |
 
 ## メソッド
 
@@ -33,7 +33,7 @@ public sealed class GradientFormat : PVIObject, IGradientFormat
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 指定されたオブジェクトと比較します。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | ハッシュコードを返します。 |
 
-### 関連項目
+### 参照
 
 * クラス [PVIObject](../pviobject)
 * インターフェイス [IGradientFormat](../igradientformat)

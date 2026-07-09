@@ -3,10 +3,10 @@ title: ISetEffect
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un effetto di set per un comportamento di animazione.
 type: docs
-weight: 590
+weight: 610
 url: /it/aspose.slides.animation/iseteffect/
 ---
-## Interfaccia ISetEffect
+## ISetEffect interfaccia
 
 Rappresenta un effetto di set per un comportamento di animazione.
 
@@ -16,10 +16,10 @@ public interface ISetEffect : IBehavior
 
 ## Proprietà
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/iseteffect/asibehavior) { get; } | Consente di ottenere l'interfaccia base IBehavior. Solo lettura [`IBehavior`](../ibehavior). |
-| [To](../../aspose.slides.animation/iseteffect/to) { get; set; } | Specifica il determinato attributo di un effetto dopo un effetto di animazione. Rappresenta il valore del punto. Solo: bool, ColorFormat, float, int, string. Lettura/scrittura Object. |
+| [AsIBehavior](../../aspose.slides.animation/iseteffect/asibehavior) { get; } | Consente di ottenere l'interfaccia IBehavior di base. Solo lettura [`IBehavior`](../ibehavior). |
+| [To](../../aspose.slides.animation/iseteffect/to) { get; set; } | Specifica un certo attributo di un effetto dopo un effetto di animazione. Rappresenta il valore del punto. Solo: bool, ColorFormat, float, int, string. Lettura/scrittura Object. |
 
 ### Vedi anche
 

@@ -3,10 +3,10 @@ title: Blur
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en Blur-effekt som tillämpas på hela formen inklusive dess fyllning. Alla färgkanaler inklusive alfa påverkas.
 type: docs
-weight: 2900
+weight: 2920
 url: /sv/aspose.slides.effects/blur/
 ---
-## Blur-klass
+## Blur klass
 
 Representerar en Blur-effekt som tillämpas på hela formen, inklusive dess fyllning. Alla färgkanaler, inklusive alfa, påverkas.
 
@@ -18,17 +18,17 @@ public sealed class Blur : ImageTransformOperation, IBlur
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas-IPresentationComponent-gränssnittet. Endast läsning [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | Bestämmer om objektets gränser ska utökas som ett resultat av oskärpan. True indikerar att gränserna utökas medan false indikerar att de inte gör det. Läs/skriv Boolean. |
-| [Radius](../../aspose.slides.effects/blur/radius) { get; set; } | Returnerar eller sätter blur-radie. Läs/skriv Double. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas IPresentationComponent-gränssnittet. Skrivskyddad [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | Bestämmer om objektets gränser ska ökas som ett resultat av suddigheten. True indikerar att gränserna växer medan false indikerar att de inte gör det. Läs/skriv Boolesk. |
+| [Radius](../../aspose.slides.effects/blur/radius) { get; set; } | Returnerar eller anger suddradie. Läs/skriv Double. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/blur/equals)(object) | Bestämmer om den angivna [`Blur`](../blur) är lika med den aktuella [`Blur`](../blur). |
-| [GetEffective](../../aspose.slides.effects/blur/geteffective)() | Hämtar effektiv Blur-effektdatan med ärftlighet tillämpad. |
-| override [GetHashCode](../../aspose.slides.effects/blur/gethashcode)() | Fungerar som en hashfunktion för en viss typ. |
+| [GetEffective](../../aspose.slides.effects/blur/geteffective)() | Hämtar effektiv Blur-effektsdata med arv tillämpat. |
+| override [GetHashCode](../../aspose.slides.effects/blur/gethashcode)() | Fungerar som en hash-funktion för en viss typ. |
 
 ### Se även
 

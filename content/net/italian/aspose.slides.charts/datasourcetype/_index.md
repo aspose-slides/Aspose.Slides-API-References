@@ -1,12 +1,12 @@
 ---
 title: DataSourceType
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per il Riferimento API .NET
 description: Tipi di origine dati.
 type: docs
-weight: 1560
+weight: 1580
 url: /it/aspose.slides.charts/datasourcetype/
 ---
-## DataSourceType enumerazione
+## enumerazione DataSourceType
 
 Tipi di origine dati.
 
@@ -18,9 +18,9 @@ public enum DataSourceType
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Worksheet | `0` | Usa gli oggetti CellXls per memorizzare XValue, YValue, Value o BubbleSize del punto dati nel foglio di lavoro. |
-| StringLiterals | `1` | Usa una variabile stringa ad accesso rapido per memorizzare XValue, YValue, Value o BubbleSize del punto dati. Il foglio di lavoro NON è usato per memorizzare i valori. |
-| DoubleLiterals | `2` | Usa una variabile double ad accesso rapido per memorizzare XValue, YValue, Value o BubbleSize del punto dati. Il foglio di lavoro NON è usato per memorizzare i valori. |
+| Worksheet | `0` | Usa oggetti CellXls per memorizzare XValue, YValue, Value o BubbleSize del punto dati nel worksheet. |
+| StringLiterals | `1` | Usa variabile stringa ad accesso rapido per memorizzare XValue, YValue, Value o BubbleSize del punto dati. Worksheet NON è usato per memorizzare i valori. |
+| DoubleLiterals | `2` | Usa variabile double ad accesso rapido per memorizzare XValue, YValue, Value o BubbleSize del punto dati. Worksheet NON è usato per memorizzare i valori. |
 
 ### Vedi anche
 

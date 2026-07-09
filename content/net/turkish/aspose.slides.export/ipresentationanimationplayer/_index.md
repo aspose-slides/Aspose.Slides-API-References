@@ -1,14 +1,14 @@
 ---
 title: IPresentationAnimationPlayer
 second_title: Aspose.Sildes için .NET API Referansı
-description: Animasyonun bir oynatıcısını temsil eder. Animasyonlar PresentationAnimationsGenerator./presentationanimationsgenerator tarafından NewAnimation./presentationanimationsgenerator/newanimation olayı aracılığıyla üretilir.
+description: Animasyonun bir oynatıcısını temsil eder. Animasyonlar PresentationAnimationsGenerator./presentationanimationsgenerator tarafından NewAnimation./presentationanimationsgenerator/newanimation olayı aracılığıyla oluşturulur.
 type: docs
-weight: 4010
+weight: 4030
 url: /tr/aspose.slides.export/ipresentationanimationplayer/
 ---
 ## IPresentationAnimationPlayer arayüz
 
-Animasyonun bir oynatıcısını temsil eder. Animasyonlar [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) tarafından [`NewAnimation`](../presentationanimationsgenerator/newanimation) olayı aracılığıyla üretilir.
+Animasyonun bir oynatıcısını temsil eder. Animasyonlar [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) tarafından [`NewAnimation`](../presentationanimationsgenerator/newanimation) olayı aracılığıyla oluşturulur.
 
 ```csharp
 public interface IPresentationAnimationPlayer
@@ -18,13 +18,13 @@ public interface IPresentationAnimationPlayer
 
 | Ad | Açıklama |
 | --- | --- |
-| [Duration](../../aspose.slides.export/ipresentationanimationplayer/duration) { get; } | Animasyon süresini [ms] al |
+| [Duration](../../aspose.slides.export/ipresentationanimationplayer/duration) { get; } | Animasyon süresini [ms] olarak al |
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [GetFrame](../../aspose.slides.export/ipresentationanimationplayer/getframe)() | Daha önce [`SetTimePosition`](./settimeposition) yöntemiyle ayarlanan mevcut zaman konumu için çerçeveyi al. |
+| [GetFrame](../../aspose.slides.export/ipresentationanimationplayer/getframe)() | Önceden [`SetTimePosition`](./settimeposition) yöntemiyle ayarlanmış mevcut zaman konumu için çerçeveyi al. |
 | [SetTimePosition](../../aspose.slides.export/ipresentationanimationplayer/settimeposition)(double) | [`Duration`](./duration) içinde animasyon zaman konumunu ayarla. |
 
 ### Örnekler

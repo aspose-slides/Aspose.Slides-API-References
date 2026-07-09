@@ -1,14 +1,14 @@
 ---
 title: IMotionCmdPath
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili satu perintah dalam jalur.
+description: Mewakili satu perintah dari sebuah jalur.
 type: docs
-weight: 490
+weight: 510
 url: /id/aspose.slides.animation/imotioncmdpath/
 ---
 ## IMotionCmdPath antarmuka
 
-Mewakili satu perintah dalam jalur.
+Mewakili satu perintah dari sebuah jalur.
 
 ```csharp
 public interface IMotionCmdPath

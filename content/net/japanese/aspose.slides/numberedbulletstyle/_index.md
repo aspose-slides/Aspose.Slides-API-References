@@ -1,9 +1,9 @@
 ---
 title: NumberedBulletStyle
-second_title: Aspose.Sildes の .NET 用 API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: 番号付き箇条書きのスタイルを表します。
 type: docs
-weight: 9160
+weight: 9180
 url: /ja/aspose.slides/numberedbulletstyle/
 ---
 ## NumberedBulletStyle 列挙型
@@ -16,50 +16,50 @@ public enum NumberedBulletStyle : sbyte
 
 ### 値
 
-| 名前 | 値 | 説明 |
+| Name | Value | Description |
 | --- | --- | --- |
-| NotDefined | `-1` | 定義されていません。 |
-| BulletAlphaLCPeriod | `0` | 小文字の英字とピリオド。例: a., b., c., ... |
-| BulletAlphaUCPeriod | `1` | 大文字の英字とピリオド。例: A., B., C., ... |
-| BulletArabicParenRight | `2` | アラビア数字と閉じ丸括弧。例: 1), 2), 3), ... |
-| BulletArabicPeriod | `3` | アラビア数字とピリオド。例: 1., 2., 3., ... |
-| BulletRomanLCParenBoth | `4` | 小文字ローマ数字と両側丸括弧。例: (i), (ii), (iii), ... |
-| BulletRomanLCParenRight | `5` | 小文字ローマ数字と閉じ丸括弧。例: i), ii), iii), ... |
-| BulletRomanLCPeriod | `6` | 小文字ローマ数字とピリオド。例: i., ii., iii., ... |
-| BulletRomanUCPeriod | `7` | 大文字ローマ数字とピリオド。例: I., II., III., ... |
-| BulletAlphaLCParenBoth | `8` | 小文字の英字と両側丸括弧。例: (a), (b), (c), ... |
-| BulletAlphaLCParenRight | `9` | 小文字の英字と閉じ丸括弧。例: a), b), c), ... |
-| BulletAlphaUCParenBoth | `10` | 大文字の英字と両側丸括弧。例: (A), (B), (C), ... |
-| BulletAlphaUCParenRight | `11` | 大文字の英字と閉じ丸括弧。例: A), B), C), ... |
-| BulletArabicParenBoth | `12` | アラビア数字と両側丸括弧。例: (1), (2), (3), ... |
+| NotDefined | `-1` | 未定義です。 |
+| BulletAlphaLCPeriod | `0` | 小文字のアルファベット文字とピリオド。例: a., b., c., ... |
+| BulletAlphaUCPeriod | `1` | 大文字のアルファベット文字とピリオド。例: A., B., C., ... |
+| BulletArabicParenRight | `2` | 閉じ括弧付きのアラビア数字。例: 1), 2), 3), ... |
+| BulletArabicPeriod | `3` | ピリオド付きのアラビア数字。例: 1., 2., 3., ... |
+| BulletRomanLCParenBoth | `4` | 両側に括弧がある小文字ローマ数字。例: (i), (ii), (iii), ... |
+| BulletRomanLCParenRight | `5` | 閉じ括弧付きの小文字ローマ数字。例: i), ii), iii), ... |
+| BulletRomanLCPeriod | `6` | ピリオド付きの小文字ローマ数字。例: i., ii., iii., ... |
+| BulletRomanUCPeriod | `7` | ピリオド付きの大文字ローマ数字。例: I., II., III., ... |
+| BulletAlphaLCParenBoth | `8` | 両側に括弧がある小文字のアルファベット文字。例: (a), (b), (c), ... |
+| BulletAlphaLCParenRight | `9` | 閉じ括弧付きの小文字のアルファベット文字。例: a), b), c), ... |
+| BulletAlphaUCParenBoth | `10` | 両側に括弧がある大文字のアルファベット文字。例: (A), (B), (C), ... |
+| BulletAlphaUCParenRight | `11` | 閉じ括弧付きの大文字のアルファベット文字。例: A), B), C), ... |
+| BulletArabicParenBoth | `12` | 両側に括弧があるアラビア数字。例: (1), (2), (3), ... |
 | BulletArabicPlain | `13` | アラビア数字。例: 1, 2, 3, ... |
-| BulletRomanUCParenBoth | `14` | 大文字ローマ数字と両側丸括弧。例: (I), (II), (III), ... |
-| BulletRomanUCParenRight | `15` | 大文字ローマ数字と閉じ丸括弧。例: I), II), III), ... |
+| BulletRomanUCParenBoth | `14` | 両側に括弧がある大文字ローマ数字。例: (I), (II), (III), ... |
+| BulletRomanUCParenRight | `15` | 閉じ括弧付きの大文字ローマ数字。例: I), II), III), ... |
 | BulletSimpChinPlain | `16` | 句点なしの簡体字。 |
 | BulletSimpChinPeriod | `17` | 句点付きの簡体字。 |
-| BulletCircleNumDBPlain | `18` | 10までの値の全角丸数字、11 以降はアラビア数字。 |
-| BulletCircleNumWDWhitePlain | `19` | 文字色と同じ色の円で囲んだ番号（Wingdings の白丸数字）。11 以降はアラビア数字。 |
-| BulletCircleNumWDBlackPlain | `20` | 影色の番号で、標準文字色の円形背景（Wingdings の黒丸数字）。 |
+| BulletCircleNumDBPlain | `18` | 10までの二重バイトの丸数字、11以降はアラビア数字。 |
+| BulletCircleNumWDWhitePlain | `19` | 同色の円で囲まれたテキストカラー番号（Wingdings 白丸数字）。11以降はアラビア数字。 |
+| BulletCircleNumWDBlackPlain | `20` | 通常テキストカラーの円形背景を持つ影色番号（Wingdings 黒丸数字）。 |
 | BulletTradChinPlain | `21` | 句点なしの繁体字。 |
 | BulletTradChinPeriod | `22` | 句点付きの繁体字。 |
-| BulletArabicAlphaDash | `23` | アラビア語の文字とダッシュ。 |
+| BulletArabicAlphaDash | `23` | アラビア語のアルファベット文字とダッシュ。 |
 | BulletArabicAbjadDash | `24` | アラビア語のアブジャド文字とダッシュ。 |
-| BulletHebrewAlphaDash | `25` | ヘブライ語の文字とダッシュ。 |
-| BulletKanjiKoreanPlain | `26` | 日本語/韓国語の数字（句点なし）。 |
-| BulletKanjiKoreanPeriod | `27` | 日本語/韓国語の数字（句点付き）。 |
-| BulletArabicDBPlain | `28` | 全角アラビア数字方式（句読点なし）。 |
-| BulletArabicDBPeriod | `29` | 全角アラビア数字方式、全角句点付き。 |
+| BulletHebrewAlphaDash | `25` | ヘブライ語のアルファベット文字とダッシュ。 |
+| BulletKanjiKoreanPlain | `26` | 句点なしの日本語/韓国語の数字。 |
+| BulletKanjiKoreanPeriod | `27` | 句点付きの日本語/韓国語の数字。 |
+| BulletArabicDBPlain | `28` | 二重バイトのアラビア数字体系（句読点なし）。 |
+| BulletArabicDBPeriod | `29` | 二重バイトのアラビア数字体系、二重バイトの句点付き。 |
 | BulletThaiAlphaPeriod | `30` | タイ文字の句点。 |
-| BulletThaiAlphaParenRight | `31` | タイ文字の右側丸括弧。 |
-| BulletThaiAlphaParenBoth | `32` | タイ文字の両側丸括弧。 |
+| BulletThaiAlphaParenRight | `31` | タイ文字の右側括弧。 |
+| BulletThaiAlphaParenBoth | `32` | タイ文字の両側括弧。 |
 | BulletThaiNumPeriod | `33` | タイ数字の句点。 |
-| BulletThaiNumParenRight | `34` | タイ数字の右側丸括弧。 |
-| BulletThaiNumParenBoth | `35` | タイ数字の両側丸括弧。 |
-| BulletHindiAlphaPeriod | `36` | ヒンディー語の母音文字の句点。 |
-| BulletHindiNumPeriod | `37` | ヒンディー語の数字の句点。 |
-| BulletKanjiSimpChinDBPeriod | `38` | 簡体字漢字の全角句点。 |
-| BulletHindiNumParenRight | `39` | ヒンディー語の数字の右側丸括弧。 |
-| BulletHindiAlpha1Period | `40` | ヒンディー語の子音文字の句点。 |
+| BulletThaiNumParenRight | `34` | タイ数字の右側括弧。 |
+| BulletThaiNumParenBoth | `35` | タイ数字の両側括弧。 |
+| BulletHindiAlphaPeriod | `36` | ヒンディー文字の句点（母音）。 |
+| BulletHindiNumPeriod | `37` | ヒンディー数字の句点。 |
+| BulletKanjiSimpChinDBPeriod | `38` | 簡体字漢字の二重バイト句点。 |
+| BulletHindiNumParenRight | `39` | ヒンディー数字の右側括弧。 |
+| BulletHindiAlpha1Period | `40` | ヒンディー文字の句点（子音）。 |
 
 ### 参照
 

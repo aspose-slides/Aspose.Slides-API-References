@@ -3,12 +3,12 @@ title: ISaveOptionsFactory
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 保存オプションのインスタンスを作成できます
 type: docs
-weight: 4060
+weight: 4080
 url: /ja/aspose.slides.export/isaveoptionsfactory/
 ---
 ## ISaveOptionsFactory インターフェイス
 
-保存オプションのインスタンスを作成できる
+保存オプションのインスタンスを作成することができます
 
 ```csharp
 public interface ISaveOptionsFactory

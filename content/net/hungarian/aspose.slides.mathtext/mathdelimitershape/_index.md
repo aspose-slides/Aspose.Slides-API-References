@@ -1,14 +1,14 @@
 ---
 title: MathDelimiterShape
-second_title: Aspose.Sildes a .NET API hivatkozáshoz
-description: A határolók helye és mérete az operandusok tartalmához viszonyítva
+second_title: Aspose.Sildes .NET API referencia
+description: A határolók helyzete és mérete az operandusok tartalmához képest
 type: docs
-weight: 8650
+weight: 8670
 url: /hu/aspose.slides.mathtext/mathdelimitershape/
 ---
-## MathDelimiterShape enumeráció
+## MathDelimiterShape felsorolás
 
-A határolók helye és mérete az operandusok tartalmához viszonyítva
+A határolók helyzete és mérete az operandusok tartalmához képest
 
 ```csharp
 public enum MathDelimiterShape
@@ -18,8 +18,8 @@ public enum MathDelimiterShape
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Centered | `0` | Centered a matematikai tengelyhez |
-| Match | `1` | Match a tartalomhoz |
+| Centered | `0` | Középre igazítva a matematikai tengelyhez |
+| Match | `1` | A tartalomhoz illesztve |
 
 ### Lásd még
 

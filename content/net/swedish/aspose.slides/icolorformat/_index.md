@@ -3,7 +3,7 @@ title: IColorFormat
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en färg som används i en presentation.
 type: docs
-weight: 5470
+weight: 5490
 url: /sv/aspose.slides/icolorformat/
 ---
 ## IColorFormat gränssnitt
@@ -16,33 +16,33 @@ public interface IColorFormat : IFillParamSource
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/icolorformat/asifillparamsource) { get; } | Returnerar IFillParamSource-gränssnitt. Skrivskyddad [`IFillParamSource`](../ifillparamsource). |
-| [B](../../aspose.slides/icolorformat/b) { get; set; } | Returnerar eller anger den blå komponenten i en färg. Alla färgtransformeringar ignoreras. Läs-/skriv Byte. |
-| [Color](../../aspose.slides/icolorformat/color) { get; set; } | Returnerar den resulterande färgen (med alla färgtransformeringar tillämpade). Ställer in RGB-färger och rensar alla färgtransformeringar. Läs-/skriv Color. |
+| [AsIFillParamSource](../../aspose.slides/icolorformat/asifillparamsource) { get; } | Returnerar IFillParamSource-gränssnittet. Skrivskyddad [`IFillParamSource`](../ifillparamsource). |
+| [B](../../aspose.slides/icolorformat/b) { get; set; } | Returnerar eller sätter den blå komponenten i en färg. Alla färgtransformeringar ignoreras. Läs/skriv Byte. |
+| [Color](../../aspose.slides/icolorformat/color) { get; set; } | Returnerar resulterande färg (med alla färgtransformeringar tillämpade). Sätter RGB-färger och rensar alla färgtransformeringar. Läs/skriv Color. |
 | [ColorTransform](../../aspose.slides/icolorformat/colortransform) { get; } | Returnerar samlingen av färgtransformeringar som tillämpas på en färg. Skrivskyddad [`IColorOperationCollection`](../icoloroperationcollection). |
-| [ColorType](../../aspose.slides/icolorformat/colortype) { get; set; } | Returnerar eller anger metoden för färgdefinition. Läs-/skriv [`ColorType`](../colortype). |
-| [FloatB](../../aspose.slides/icolorformat/floatb) { get; set; } | Returnerar eller anger den blå komponenten i en färg. Alla färgtransformeringar ignoreras. Läs-/skriv Single. |
-| [FloatG](../../aspose.slides/icolorformat/floatg) { get; set; } | Returnerar eller anger den gröna komponenten i en färg. Alla färgtransformeringar ignoreras. Läs-/skriv Single. |
-| [FloatR](../../aspose.slides/icolorformat/floatr) { get; set; } | Returnerar eller anger den röda komponenten i en färg. Alla färgtransformeringar ignoreras. Läs-/skriv Single. |
-| [G](../../aspose.slides/icolorformat/g) { get; set; } | Returnerar eller anger den gröna komponenten i en färg. Alla färgtransformeringar ignoreras. Läs-/skriv Byte. |
-| [Hue](../../aspose.slides/icolorformat/hue) { get; set; } | Returnerar eller anger nyanskomponenten i en färg i HSL-representation. Alla färgtransformeringar ignoreras. Läs-/skriv Single. |
-| [Luminance](../../aspose.slides/icolorformat/luminance) { get; set; } | Returnerar eller anger luminanskomponenten i en färg i HSL-representation. Alla färgtransformeringar ignoreras. Läs-/skriv Single. |
-| [PresetColor](../../aspose.slides/icolorformat/presetcolor) { get; set; } | Returnerar eller anger förinställd färg. Läs-/skriv [`PresetColor`](../presetcolor). |
-| [R](../../aspose.slides/icolorformat/r) { get; set; } | Returnerar eller anger den röda komponenten i en färg. Alla färgtransformeringar ignoreras. Läs-/skriv Byte. |
-| [Saturation](../../aspose.slides/icolorformat/saturation) { get; set; } | Returnerar eller anger mättnadskomponenten i en färg i HSL-representation. Alla färgtransformeringar ignoreras. Läs-/skriv Single. |
-| [SchemeColor](../../aspose.slides/icolorformat/schemecolor) { get; set; } | Returnerar eller anger färgen som identifieras av ett färgschema. Läs-/skriv [`SchemeColor`](../schemecolor). |
-| [SystemColor](../../aspose.slides/icolorformat/systemcolor) { get; set; } | Returnerar eller anger färgen som identifieras av systemets färgtabell. Läs-/skriv [`SystemColor`](../systemcolor). |
+| [ColorType](../../aspose.slides/icolorformat/colortype) { get; set; } | Returnerar eller sätter färgdefinitionsmetoden. Läs/skriv [`ColorType`](../colortype). |
+| [FloatB](../../aspose.slides/icolorformat/floatb) { get; set; } | Returnerar eller sätter den blå komponenten i en färg. Alla färgtransformeringar ignoreras. Läs/skriv Single. |
+| [FloatG](../../aspose.slides/icolorformat/floatg) { get; set; } | Returnerar eller sätter den gröna komponenten i en färg. Alla färgtransformeringar ignoreras. Läs/skriv Single. |
+| [FloatR](../../aspose.slides/icolorformat/floatr) { get; set; } | Returnerar eller sätter den röda komponenten i en färg. Alla färgtransformeringar ignoreras. Läs/skriv Single. |
+| [G](../../aspose.slides/icolorformat/g) { get; set; } | Returnerar eller sätter den gröna komponenten i en färg. Alla färgtransformeringar ignoreras. Läs/skriv Byte. |
+| [Hue](../../aspose.slides/icolorformat/hue) { get; set; } | Returnerar eller sätter nyanskomponenten i en färg i HSL-representation. Alla färgtransformeringar ignoreras. Läs/skriv Single. |
+| [Luminance](../../aspose.slides/icolorformat/luminance) { get; set; } | Returnerar eller sätter luminanskomponenten i en färg i HSL-representation. Alla färgtransformeringar ignoreras. Läs/skriv Single. |
+| [PresetColor](../../aspose.slides/icolorformat/presetcolor) { get; set; } | Returnerar eller sätter färgförinställningen. Läs/skriv [`PresetColor`](../presetcolor). |
+| [R](../../aspose.slides/icolorformat/r) { get; set; } | Returnerar eller sätter den röda komponenten i en färg. Alla färgtransformeringar ignoreras. Läs/skriv Byte. |
+| [Saturation](../../aspose.slides/icolorformat/saturation) { get; set; } | Returnerar eller sätter mättnadskomponenten i en färg i HSL-representation. Alla färgtransformeringar ignoreras. Läs/skriv Single. |
+| [SchemeColor](../../aspose.slides/icolorformat/schemecolor) { get; set; } | Returnerar eller sätter färgen som identifieras av ett färgschema. Läs/skriv [`SchemeColor`](../schemecolor). |
+| [SystemColor](../../aspose.slides/icolorformat/systemcolor) { get; set; } | Returnerar eller sätter färgen som identifieras av systemets färgtabell. Läs/skriv [`SystemColor`](../systemcolor). |
 
 ## Metoder
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [CopyFrom](../../aspose.slides/icolorformat/copyfrom)(IColorFormat) | Kopierar färgformat från "color". |
-| [ToString](../../aspose.slides/icolorformat/tostring)(ColorStringFormat) | Returnerar en sträng som representerar det aktuella färgformatet. |
+| [CopyFrom](../../aspose.slides/icolorformat/copyfrom)(IColorFormat) | Kopiera färgformat från "color". |
+| [ToString](../../aspose.slides/icolorformat/tostring)(ColorStringFormat) | Returnerar en String som representerar det aktuella färgformatet. |
 
-### Se även
+### Se också
 
 * gränssnitt [IFillParamSource](../ifillparamsource)
 * namnrymd [Aspose.Slides](../../aspose.slides)

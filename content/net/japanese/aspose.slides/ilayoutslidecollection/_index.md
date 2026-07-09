@@ -1,14 +1,14 @@
 ---
 title: ILayoutSlideCollection
 second_title: Aspose.Sildes for .NET API リファレンス
-description: レイアウトスライドのコレクションの基底クラスを表します。
+description: レイアウト スライドのコレクションの基底クラスを表します。
 type: docs
-weight: 6210
+weight: 6230
 url: /ja/aspose.slides/ilayoutslidecollection/
 ---
 ## ILayoutSlideCollection インターフェイス
 
-レイアウトスライドのコレクションの基底クラスを表します。
+レイアウト スライドのコレクションの基底クラスを表します。
 
 ```csharp
 public interface ILayoutSlideCollection : IGenericCollection<ILayoutSlide>
@@ -18,15 +18,15 @@ public interface ILayoutSlideCollection : IGenericCollection<ILayoutSlide>
 
 | 名前 | 説明 |
 | --- | --- |
-| [Item](../../aspose.slides/ilayoutslidecollection/item) { get; } | インデックスでレイアウトスライドを返します。読み取り専用 [`ILayoutSlide`](../ilayoutslide)。 |
+| [Item](../../aspose.slides/ilayoutslidecollection/item) { get; } | インデックスでレイアウト スライドを取得します。読み取り専用 [`ILayoutSlide`](../ilayoutslide)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [GetByType](../../aspose.slides/ilayoutslidecollection/getbytype)(SlideLayoutType) | 指定されたタイプの最初のレイアウトスライドを返します。 |
+| [GetByType](../../aspose.slides/ilayoutslidecollection/getbytype)(SlideLayoutType) | 指定されたタイプの最初のレイアウト スライドを取得します。 |
 | [Remove](../../aspose.slides/ilayoutslidecollection/remove)(ILayoutSlide) | コレクションからレイアウトを削除します。 |
-| [RemoveUnused](../../aspose.slides/ilayoutslidecollection/removeunused)() | 未使用のレイアウトスライドを削除します（HasDependingSlides が false のレイアウトスライド）。 |
+| [RemoveUnused](../../aspose.slides/ilayoutslidecollection/removeunused)() | 未使用のレイアウト スライドを削除します（HasDependingSlides が false のレイアウト スライド）。 |
 
 ### 参照
 

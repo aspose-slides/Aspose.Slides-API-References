@@ -1,14 +1,14 @@
 ---
 title: MathLimitLocations
-second_title: Aspose.Sildes .NET API referenciája
-description: Az n-árnyalású operátorok limitjeinek (alsó index/felső index) helye.
+second_title: Aspose.Sildes .NET API referencia
+description: A határok (alsó index/felső index) elhelyezkedése n-áris operátorokban.
 type: docs
-weight: 8820
+weight: 8840
 url: /hu/aspose.slides.mathtext/mathlimitlocations/
 ---
-## MathLimitLocations felsorolás
+## MathLimitLocations enumeráció
 
-Az n-árnyalású operátorok limitjeinek (alsó index/felső index) helye.
+A határok (alsó index/felső index) elhelyezkedése n-áris operátorokban.
 
 ```csharp
 public enum MathLimitLocations
@@ -18,9 +18,9 @@ public enum MathLimitLocations
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| NotDefined | `0` | Nincs definiálva |
-| UnderOver | `1` | A korlátok a operátor szimbólum tetején és alján jelennek meg |
-| SubscriptSuperscript | `2` | A korlátok alsó és felső indexként jelennek meg |
+| NotDefined | `0` | Nincs meghatározva |
+| UnderOver | `1` | A határok a operátor szimbólumának tetején és alján jelennek meg |
+| SubscriptSuperscript | `2` | A határok alsó indexként és felső indexként jelennek meg |
 
 ### Lásd még
 

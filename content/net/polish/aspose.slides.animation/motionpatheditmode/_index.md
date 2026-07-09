@@ -1,14 +1,14 @@
 ---
 title: MotionPathEditMode
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Określa, jak ścieżka ruchu przemieszcza się, gdy przemieszcza się docelowy kształt
+second_title: Aspose.Sildes dla .NET Referencja API
+description: Określa, w jaki sposób ścieżka ruchu przemieszcza się, gdy przemieszcza się docelowy kształt
 type: docs
-weight: 680
+weight: 700
 url: /pl/aspose.slides.animation/motionpatheditmode/
 ---
 ## MotionPathEditMode enumeracja
 
-Określa, jak ścieżka ruchu przemieszcza się, gdy przemieszcza się docelowy kształt
+Określa, w jaki sposób ścieżka ruchu przemieszcza się, gdy przemieszcza się docelowy kształt
 
 ```csharp
 public enum MotionPathEditMode

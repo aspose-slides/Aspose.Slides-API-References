@@ -1,14 +1,14 @@
 ---
 title: IMasterNotesSlideManager
-second_title: Aspose.Sildes a .NET API Referenciához
-description: Mester jegyzetdia kezelője.
+second_title: Aspose.Sildes .NET-hez API referencia
+description: Mester jegyzet dia kezelő.
 type: docs
-weight: 6390
+weight: 6410
 url: /hu/aspose.slides/imasternotesslidemanager/
 ---
 ## IMasterNotesSlideManager interfész
 
-Mester jegyzetdia kezelője.
+Mester jegyzet dia kezelő.
 
 ```csharp
 public interface IMasterNotesSlideManager
@@ -18,14 +18,14 @@ public interface IMasterNotesSlideManager
 
 | Név | Leírás |
 | --- | --- |
-| [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | Visszaad egy mester jegyzetdiát az összes jegyzetdiára ebben a prezentációban, ha van ilyen, egyébként null értéket ad vissza. Csak olvasható [`IMasterNotesSlide`](../imasternotesslide). |
+| [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | Visszatér egy masterrel az összes jegyzet diára ebben a prezentációban, ha létezik, egyébként null értéket ad vissza. Csak olvasható [`IMasterNotesSlide`](../imasternotesslide). |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [RemoveMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/removemasternotesslide)() | Eltávolítja a mester jegyzetdiát. |
-| [SetDefaultMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide)() | Beállítja az alapértelmezett mester jegyzetdiát a kapcsolódó jegyzetdia számára. |
+| [RemoveMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/removemasternotesslide)() | Eltávolítja a mester jegyzet diát. |
+| [SetDefaultMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide)() | Beállítja az alapértelmezett mester jegyzet diát a kapcsolódó jegyzet diára. |
 
 ### Lásd még
 

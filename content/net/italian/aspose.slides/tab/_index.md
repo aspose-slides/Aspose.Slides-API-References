@@ -1,9 +1,9 @@
 ---
 title: Tab
-second_title: Riferimento API di Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta una tabulazione per un testo.
 type: docs
-weight: 10800
+weight: 10820
 url: /it/aspose.slides/tab/
 ---
 ## Tab classe
@@ -25,7 +25,7 @@ public sealed class Tab : PVIObject, ITab
 | Nome | Descrizione |
 | --- | --- |
 | [Alignment](../../aspose.slides/tab/alignment) { get; set; } | Restituisce o imposta lo stile di allineamento di una tabulazione. Lettura/scrittura [`TabAlignment`](../tabalignment). |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia di base IPresentationComponent. Sola lettura [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Sola lettura [`IPresentationComponent`](../ipresentationcomponent). |
 | [Position](../../aspose.slides/tab/position) { get; set; } | Restituisce o imposta la posizione di una tabulazione. L'assegnazione di questa proprietà può modificare l'indice della tabulazione nella collezione e invalidare l'Enumerator. Lettura/scrittura Double. |
 
 ## Metodi

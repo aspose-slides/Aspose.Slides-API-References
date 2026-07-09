@@ -1,14 +1,14 @@
 ---
 title: ImageFormat
-second_title: Aspose.Sildes .NET API referenciája
-description: Kép fájlformátumát jelöli.
+second_title: Aspose.Sildes .NET API referencia
+description: A kép fájlformátumát jelöli.
 type: docs
-weight: 7410
+weight: 7430
 url: /hu/aspose.slides/imageformat/
 ---
 ## ImageFormat enumeráció
 
-Kép fájlformátumát jelöli.
+A kép fájlformátumát jelöli.
 
 ```csharp
 public enum ImageFormat
@@ -19,14 +19,14 @@ public enum ImageFormat
 | Név | Érték | Leírás |
 | --- | --- | --- |
 | MemoryBmp | `0` | A memóriában lévő bitmap formátumát jelöli. |
-| Bmp | `1` | A bitmap (BMP) képfájlt jelöli. |
-| Emf | `2` | A kibővített metafájl (EMF) képfájl formátumát jelöli. |
+| Bmp | `1` | A bitmap (BMP) képfájl formátumát jelöli. |
+| Emf | `2` | A bővített metafájl (EMF) képfájl formátumát jelöli. |
 | Wmf | `3` | A Windows metafájl (WMF) képfájl formátumát jelöli. |
 | Gif | `4` | A Graphics Interchange Format (GIF) képfájl formátumát jelöli. |
 | Jpeg | `5` | A Joint Photographic Experts Group (JPEG) képfájl formátumát jelöli. |
 | Png | `6` | A W3C Portable Network Graphics (PNG) képfájl formátumát jelöli. |
 | Tiff | `7` | A Tagged Image File Format (TIFF) képfájl formátumát jelöli. |
-| Exif | `8` | A Exchangeable Image File (Exif) formátumát jelöli. |
+| Exif | `8` | A Exchangeable Image File (Exif) formátumot jelöli. |
 | Icon | `9` | A Windows ikon képfájl formátumát jelöli. |
 
 ### Lásd még

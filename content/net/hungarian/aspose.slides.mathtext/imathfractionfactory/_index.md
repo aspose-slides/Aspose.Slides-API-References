@@ -1,9 +1,9 @@
 ---
 title: IMathFractionFactory
-second_title: Aspose.Sildes a .NET API-hoz
+second_title: Aspose.Sildes a .NET API Referenciához
 description: Lehetővé teszi egy matematikai tört létrehozását
 type: docs
-weight: 8240
+weight: 8260
 url: /hu/aspose.slides.mathtext/imathfractionfactory/
 ---
 ## IMathFractionFactory interfész
@@ -14,16 +14,16 @@ Lehetővé teszi egy matematikai tört létrehozását
 public interface IMathFractionFactory
 ```
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
 | [CreateMathFraction](../../aspose.slides.mathtext/imathfractionfactory/createmathfraction#createmathfraction)(IMathElement, IMathElement) | Létrehoz egy matematikai tört |
 | [CreateMathFraction](../../aspose.slides.mathtext/imathfractionfactory/createmathfraction#createmathfraction_1)(IMathElement, IMathElement, MathFractionTypes) | Létrehoz egy matematikai tört |
 
-### Megjegyzés
+### Megjegyzések
 
-COM kompatibilitáshoz
+A COM kompatibilitáshoz
 
 ### Lásd még
 

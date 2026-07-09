@@ -3,12 +3,12 @@ title: RippleTransition
 second_title: Aspose.Sildes pro .NET API referenci
 description: Efekt přechodu snímku Ripple.
 type: docs
-weight: 10270
+weight: 10290
 url: /cs/aspose.slides.slideshow/rippletransition/
 ---
 ## RippleTransition třída
 
-Ripple slide transition effect.
+Efekt přechodu snímku Ripple.
 
 ```csharp
 public class RippleTransition : TransitionValueBase, IRippleTransition
@@ -18,14 +18,14 @@ public class RippleTransition : TransitionValueBase, IRippleTransition
 
 | Název | Popis |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/rippletransition/direction) { get; set; } | Směr přechodu. Číst/zapisovat [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/rippletransition/direction) { get; set; } | Směr přechodu. Čtení/zápis [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Určuje, zda jsou dvě instance TransitionValueBase rovny. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ, vhodná pro použití v hashovacích algoritmech a datových strukturách, jako je hash tabulka. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Určuje, zda jsou dvě instance TransitionValueBase stejné. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ, vhodná k použití v hashovacích algoritmech a datových strukturách, jako je hashovací tabulka. |
 
 ### Viz také
 

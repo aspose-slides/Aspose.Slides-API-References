@@ -1,14 +1,14 @@
 ---
 title: DigitalSignatureCollection
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en samling av digitala signaturer som är bifogade ett dokument.
+description: Representerar en samling av digitala signaturer som är bifogade till ett dokument.
 type: docs
-weight: 2760
+weight: 2780
 url: /sv/aspose.slides/digitalsignaturecollection/
 ---
-## DigitalSignatureCollection class
+## DigitalSignatureCollection klass
 
-Representerar en samling av digitala signaturer som är bifogade ett dokument.
+Representerar en samling av digitala signaturer som är bifogade till ett dokument.
 
 ```csharp
 public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSignatureCollection
@@ -16,22 +16,22 @@ public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSigna
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/digitalsignaturecollection/count) { get; } | Returnerar antalet element i samlingen. Skriva-skyddad Int32. |
-| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | Returnerar ett värde som indikerar om åtkomst till samlingen är synkroniserad (trådsäker). Skriva-skyddad Boolean. |
-| [Item](../../aspose.slides/digitalsignaturecollection/item) { get; } | Returnerar signaturen med index. |
-| [SyncRoot](../../aspose.slides/digitalsignaturecollection/syncroot) { get; } | Returnerar ett synkroniseringsrot. Skriva-skyddad Object. |
+| [Count](../../aspose.slides/digitalsignaturecollection/count) { get; } | Returnerar antalet element i samlingen. Skrivskyddad Int32. |
+| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | Returnerar ett värde som indikerar om åtkomsten till samlingen är synkroniserad (trådsäker). Skrivskyddad Boolean. |
+| [Item](../../aspose.slides/digitalsignaturecollection/item) { get; } | Returnerar signaturen med angivet index. |
+| [SyncRoot](../../aspose.slides/digitalsignaturecollection/syncroot) { get; } | Returnerar ett synkroniseringsrot. Skrivskyddad Object. |
 
 ## Metoder
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/digitalsignaturecollection/add)(IDigitalSignature) | Lägger till signaturen i slutet av samlingen. |
 | [Clear](../../aspose.slides/digitalsignaturecollection/clear)() | Tar bort alla signaturer från samlingen. |
 | [CopyTo](../../aspose.slides/digitalsignaturecollection/copyto)(Array, int) | Kopierar alla element från samlingen till den angivna arrayen. |
 | [GetEnumerator](../../aspose.slides/digitalsignaturecollection/getenumerator)() | Returnerar en enumerator som itererar genom samlingen. |
-| [RemoveAt](../../aspose.slides/digitalsignaturecollection/removeat)(int) | Tar bort signaturen på det angivna indexet. |
+| [RemoveAt](../../aspose.slides/digitalsignaturecollection/removeat)(int) | Tar bort signaturen på angivet index. |
 
 ### Se även
 

@@ -3,7 +3,7 @@ title: IAIConversation
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 会話インスタンスを表します。通常の AI 呼び出しとは異なり、会話は全体のコンテキストを保持します。
 type: docs
-weight: 10
+weight: 20
 url: /ja/aspose.slides.ai/iaiconversation/
 ---
 ## IAIConversation インターフェイス
@@ -18,9 +18,9 @@ public interface IAIConversation
 
 | 名前 | 説明 |
 | --- | --- |
-| [GetResponseAsync](../../aspose.slides.ai/iaiconversation/getresponseasync)(string) | 会話リクエストメッセージを送信し、全体のコンテキストを含めて応答を返します。 |
+| [GetResponseAsync](../../aspose.slides.ai/iaiconversation/getresponseasync)(string) | 会話リクエストメッセージを全コンテキストを含めて送信し、レスポンスを返します。 |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides.AI](../../aspose.slides.ai)
 * アセンブリ [Aspose.Slides](../../)

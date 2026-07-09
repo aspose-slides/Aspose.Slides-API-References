@@ -1,12 +1,12 @@
 ---
 title: EffectFillType
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: 塗りつぶしタイプを表します。
 type: docs
-weight: 290
+weight: 310
 url: /ja/aspose.slides.animation/effectfilltype/
 ---
-## EffectFillType 列挙体
+## EffectFillType 列挙型
 
 塗りつぶしタイプを表します。
 

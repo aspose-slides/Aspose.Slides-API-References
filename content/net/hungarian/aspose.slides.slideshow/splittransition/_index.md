@@ -1,14 +1,14 @@
 ---
 title: SplitTransition
-second_title: Aspose.Sildes .NET API referencia
-description: Dia felosztási átmeneti hatás.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Dia felosztási átmenet hatása.
 type: docs
-weight: 10310
+weight: 10330
 url: /hu/aspose.slides.slideshow/splittransition/
 ---
 ## SplitTransition osztály
 
-Dia felosztási átmeneti hatás.
+Diaátmenet felosztási hatás.
 
 ```csharp
 public class SplitTransition : TransitionValueBase, ISplitTransition
@@ -18,15 +18,15 @@ public class SplitTransition : TransitionValueBase, ISplitTransition
 
 | Név | Leírás |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/splittransition/direction) { get; set; } | A felosztás átmenetének iránya. Olvasás/írás [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Orientation](../../aspose.slides.slideshow/splittransition/orientation) { get; set; } | A felosztás átmenetének tájolása. Olvasás/írás [`Orientation`](../../aspose.slides/orientation). |
+| [Direction](../../aspose.slides.slideshow/splittransition/direction) { get; set; } | Az átmenet felosztásának iránya. Olvasás/írás [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Orientation](../../aspose.slides.slideshow/splittransition/orientation) { get; set; } | Az átmenet felosztásának tájolása. Olvasás/írás [`Orientation`](../../aspose.slides/orientation). |
 
 ## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Meghatározza, hogy a két TransitionValueBase példány egyenlő-e. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Hash függvényként szolgál egy adott típushoz, amely alkalmas hash algoritmusokban és adatstruktúrákban, például hash táblában való használatra. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Megállapítja, hogy a két TransitionValueBase példány egyenlő-e. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Hash függvényként szolgál egy adott típushoz, alkalmas hash algoritmusokban és adatstruktúrákban, például hash táblában való használatra. |
 
 ### Lásd még
 

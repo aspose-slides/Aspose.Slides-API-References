@@ -1,14 +1,14 @@
 ---
 title: VbaProjectFactory
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET API Reference
 description: Consente di creare un progetto VBA tramite interfaccia COM
 type: docs
-weight: 11640
+weight: 11660
 url: /it/aspose.slides.vba/vbaprojectfactory/
 ---
 ## VbaProjectFactory classe
 
-Consente di creare un progetto VBA tramite interfaccia COM
+Consente di creare un progetto VBA tramite l'interfaccia COM
 
 ```csharp
 public class VbaProjectFactory : IVbaProjectFactory
@@ -16,19 +16,19 @@ public class VbaProjectFactory : IVbaProjectFactory
 
 ## Costruttori
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [VbaProjectFactory](vbaprojectfactory)() | Il costruttore predefinito. |
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| static [Instance](../../aspose.slides.vba/vbaprojectfactory/instance) { get; } | Istanza statica della factory del progetto VBA. Sola lettura [`VbaProjectFactory`](../vbaprojectfactory). |
+| static [Instance](../../aspose.slides.vba/vbaprojectfactory/instance) { get; } | Istanza statica della fabbrica di progetti VBA. Solo lettura [`VbaProjectFactory`](../vbaprojectfactory). |
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [CreateVbaProject](../../aspose.slides.vba/vbaprojectfactory/createvbaproject)() | Crea un nuovo progetto VBA. |
 | [ReadVbaProject](../../aspose.slides.vba/vbaprojectfactory/readvbaproject)(byte[]) | Legge il progetto VBA da un contenitore OLE. |

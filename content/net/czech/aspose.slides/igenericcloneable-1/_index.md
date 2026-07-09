@@ -1,14 +1,14 @@
 ---
 title: IGenericCloneableT
-second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje generickou verzi ICloneable
+second_title: Aspose.Sildes pro .NET – referenční příručka
+description: Představuje obecnou verzi rozhraní ICloneable
 type: docs
-weight: 5930
+weight: 5950
 url: /cs/aspose.slides/igenericcloneable-1/
 ---
-## IGenericCloneable&lt;T&gt; rozhraní
+## IGenericCloneable<T> rozhraní
 
-Representuje generickou verzi ICloneable
+Představuje obecnou verzi rozhraní ICloneable
 
 ```csharp
 public interface IGenericCloneable<T> : ICloneable

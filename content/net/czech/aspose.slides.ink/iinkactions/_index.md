@@ -1,14 +1,14 @@
 ---
 title: IInkActions
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje ink objekt na snímku.
+description: Representuje inkoustový objekt na snímku.
 type: docs
-weight: 7500
+weight: 7520
 url: /cs/aspose.slides.ink/iinkactions/
 ---
 ## IInkActions rozhraní
 
-Represents an ink object on a slide.
+Představuje inkoustový objekt na snímku.
 
 ```csharp
 public interface IInkActions : IGraphicalObject
@@ -18,7 +18,7 @@ public interface IInkActions : IGraphicalObject
 
 | Název | Popis |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides.ink/iinkactions/asigraphicalobject) { get; } | Umožňuje získat základní IGraphicalObject rozhraní. Pouze pro čtení [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [AsIGraphicalObject](../../aspose.slides.ink/iinkactions/asigraphicalobject) { get; } | Umožňuje získat základní rozhraní IGraphicalObject. Pouze pro čtení [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
 
 ### Viz také
 

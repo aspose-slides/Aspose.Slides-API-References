@@ -3,12 +3,12 @@ title: Blur
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa um efeito Blur que é aplicado a toda a forma, incluindo seu preenchimento. Todos os canais de cor, incluindo alfa, são afetados.
 type: docs
-weight: 2900
+weight: 2920
 url: /pt/aspose.slides.effects/blur/
 ---
 ## Blur classe
 
-Representa um efeito Blur que é aplicado a toda a forma, incluindo seu preenchimento. Todos os canais de cor, incluindo alfa, são afetados.
+Representa um efeito Blur que é aplicado a toda a forma, incluindo seu preenchimento. Todos os canais de cor, inclusive alfa, são afetados.
 
 ```csharp
 public sealed class Blur : ImageTransformOperation, IBlur
@@ -19,7 +19,7 @@ public sealed class Blur : ImageTransformOperation, IBlur
 | Nome | Descrição |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obter a interface base IPresentationComponent. Somente leitura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | Determina se os limites do objeto devem ser aumentados como resultado do desfoque. Verdadeiro indica que os limites são aumentados enquanto falso indica que não são. Leitura/gravação Boolean. |
+| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | Determina se os limites do objeto devem ser ampliados como resultado do desfoque. True indica que os limites são ampliados enquanto false indica que não são. Leitura/gravação Boolean. |
 | [Radius](../../aspose.slides.effects/blur/radius) { get; set; } | Retorna ou define o raio do desfoque. Leitura/gravação Double. |
 
 ## Métodos
@@ -28,9 +28,9 @@ public sealed class Blur : ImageTransformOperation, IBlur
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/blur/equals)(object) | Determina se o [`Blur`](../blur) especificado é igual ao [`Blur`](../blur) atual. |
 | [GetEffective](../../aspose.slides.effects/blur/geteffective)() | Obtém os dados efetivos do efeito Blur com a herança aplicada. |
-| override [GetHashCode](../../aspose.slides.effects/blur/gethashcode)() | Funciona como uma função hash para um tipo específico. |
+| override [GetHashCode](../../aspose.slides.effects/blur/gethashcode)() | Serve como função de hash para um tipo específico. |
 
-### Veja também
+### Ver Também
 
 * classe [ImageTransformOperation](../imagetransformoperation)
 * interface [IBlur](../iblur)

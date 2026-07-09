@@ -1,14 +1,14 @@
 ---
 title: LineCapStyle
 second_title: Aspose.Sildes for .NET API Referansı
-description: Satır ucunun stilini temsil eder.
+description: Çizgi kapak stilini temsil eder.
 type: docs
-weight: 7740
+weight: 7760
 url: /tr/aspose.slides/linecapstyle/
 ---
-## LineCapStyle enum
+## LineCapStyle enumerasyonu
 
-Satır ucunun stilini temsil eder.
+Çizgi kapak stilini temsil eder.
 
 ```csharp
 public enum LineCapStyle : sbyte

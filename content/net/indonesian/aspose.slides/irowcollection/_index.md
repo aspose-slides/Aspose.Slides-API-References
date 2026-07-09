@@ -3,7 +3,7 @@ title: IRowCollection
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili koleksi baris tabel.
 type: docs
-weight: 6840
+weight: 6860
 url: /id/aspose.slides/irowcollection/
 ---
 ## IRowCollection antarmuka
@@ -18,7 +18,7 @@ public interface IRowCollection : IGenericCollection<IRow>
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Item](../../aspose.slides/irowcollection/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. |
+| [Item](../../aspose.slides/irowcollection/item) { get; } | Mengambil elemen pada indeks yang ditentukan. |
 
 ## Metode
 

@@ -1,9 +1,9 @@
 ---
 title: PresentedBySpeaker
-second_title: Aspose.Sildes dla .NET Odniesienie API
+second_title: Aspose.Sildes dla .NET Referencja API
 description: Prezentowane przez prelegenta na pełnym ekranie
 type: docs
-weight: 9630
+weight: 9650
 url: /pl/aspose.slides/presentedbyspeaker/
 ---
 ## PresentedBySpeaker klasa
@@ -31,7 +31,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Zobacz również
+### Zobacz także
 
 * klasa [SlideShowType](../slideshowtype)
 * przestrzeń nazw [Aspose.Slides](../../aspose.slides)

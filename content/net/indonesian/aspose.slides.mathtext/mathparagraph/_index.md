@@ -1,14 +1,14 @@
 ---
 title: MathParagraph
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Paragraf matematika yang merupakan wadah untuk blok matematika IMathBlock
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Paragraf matematis yang merupakan kontainer untuk blok-blok matematis IMathBlock
 type: docs
-weight: 8880
+weight: 8900
 url: /id/aspose.slides.mathtext/mathparagraph/
 ---
-## Kelas MathParagraph
+## MathParagraph kelas
 
-Paragraf matematis yang merupakan wadah untuk blok matematika (IMathBlock)
+Paragraf matematis yang merupakan kontainer untuk blok-blok matematis (IMathBlock)
 
 ```csharp
 public class MathParagraph : IMathParagraph
@@ -18,15 +18,15 @@ public class MathParagraph : IMathParagraph
 
 | Nama | Deskripsi |
 | --- | --- |
-| [MathParagraph](mathparagraph#constructor)() | Menginisialisasi instance baru dari MathParagraph class. |
-| [MathParagraph](mathparagraph#constructor_1)(IMathBlock) | Menginisialisasi instance baru dari MathParagraph class. |
+| [MathParagraph](mathparagraph#constructor)() | Menginisialisasi instance baru dari kelas MathParagraph. |
+| [MathParagraph](mathparagraph#constructor_1)(IMathBlock) | Menginisialisasi instance baru dari kelas MathParagraph. |
 
 ## Properti
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Count](../../aspose.slides.mathtext/mathparagraph/count) { get; } | Mendapatkan jumlah elemen yang sebenarnya terkandung dalam koleksi. Read-only Int32. |
-| [Item](../../aspose.slides.mathtext/mathparagraph/item) { get; set; } | Mendapatkan item pada indeks yang ditentukan. Read-only [`IMathBlock`](../imathblock). |
+| [Count](../../aspose.slides.mathtext/mathparagraph/count) { get; } | Mendapatkan jumlah elemen yang sebenarnya terdapat dalam koleksi. Hanya-baca Int32. |
+| [Item](../../aspose.slides.mathtext/mathparagraph/item) { get; set; } | Mendapatkan item pada indeks yang ditentukan. Hanya-baca [`IMathBlock`](../imathblock). |
 | [Justification](../../aspose.slides.mathtext/mathparagraph/justification) { get; set; } | Justifikasi Paragraf Nilai default: CenteredAsGroup |
 
 ## Metode
@@ -38,10 +38,10 @@ public class MathParagraph : IMathParagraph
 | [Contains](../../aspose.slides.mathtext/mathparagraph/contains)(IMathBlock) | Menentukan apakah koleksi berisi nilai tertentu. |
 | [IndexOf](../../aspose.slides.mathtext/mathparagraph/indexof)(IMathBlock) | Menentukan indeks dari IMathBlock tertentu dalam koleksi. |
 | [Insert](../../aspose.slides.mathtext/mathparagraph/insert)(int, IMathBlock) | Menyisipkan IMathBlock ke dalam koleksi pada indeks yang ditentukan. |
-| [Remove](../../aspose.slides.mathtext/mathparagraph/remove)(IMathBlock) | Menghapus kejadian pertama dari objek tertentu dari koleksi/>. |
+| [Remove](../../aspose.slides.mathtext/mathparagraph/remove)(IMathBlock) | Menghapus kemunculan pertama dari objek tertentu dari koleksi/>. |
 | [RemoveAt](../../aspose.slides.mathtext/mathparagraph/removeat)(int) | Menghapus item pada indeks yang ditentukan dari koleksi. |
 | [ToLatex](../../aspose.slides.mathtext/mathparagraph/tolatex)() | Mendapatkan persamaan matematika dalam format LaTeX |
-| [WriteAsMathMl](../../aspose.slides.mathtext/mathparagraph/writeasmathml)(Stream) | Menyimpan konten [`MathParagraph`](../mathparagraph) ini sebagai MathML |
+| [WriteAsMathMl](../../aspose.slides.mathtext/mathparagraph/writeasmathml)(Stream) | Menyimpan konten dari [`MathParagraph`](../mathparagraph) ini sebagai MathML |
 
 ### Contoh
 

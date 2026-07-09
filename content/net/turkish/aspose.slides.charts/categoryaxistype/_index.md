@@ -1,14 +1,14 @@
 ---
 title: CategoryAxisType
-second_title: Aspose.Sildes için .NET API Referansı
-description: Bir kategori ekseninin tipini temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Bir kategori ekseninin türünü temsil eder.
 type: docs
-weight: 1230
+weight: 1250
 url: /tr/aspose.slides.charts/categoryaxistype/
 ---
-## CategoryAxisType enum
+## CategoryAxisType numaralandırması
 
-Bir kategori ekseninin tipini temsil eder.
+Bir kategori ekseninin türünü temsil eder.
 
 ```csharp
 public enum CategoryAxisType
@@ -18,10 +18,10 @@ public enum CategoryAxisType
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Text | `0` | Kategori ekseninin bir metin ekseni olduğunu belirtir. |
-| Date | `1` | Kategori ekseninin bir tarih ekseni olduğunu belirtir. |
+| Text | `0` | Kategori ekseninin metin ekseni olduğunu belirtir. |
+| Date | `1` | Kategori ekseninin tarih ekseni olduğunu belirtir. |
 
-### Ayrıca Bakınız
+### See Also
 
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)
 * derleme [Aspose.Slides](../../)

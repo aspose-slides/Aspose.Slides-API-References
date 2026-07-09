@@ -1,9 +1,9 @@
 ---
 title: IChartWall
-second_title: Aspose.Sildes için .NET API Referansı
-description: 3d grafiklerdeki duvarları temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: 3D grafiklerdeki duvarları temsil eder.
 type: docs
-weight: 1990
+weight: 2010
 url: /tr/aspose.slides.charts/ichartwall/
 ---
 ## IChartWall arayüz
@@ -18,11 +18,11 @@ public interface IChartWall
 
 | Ad | Açıklama |
 | --- | --- |
-| [Format](../../aspose.slides.charts/ichartwall/format) { get; } | Duvar dolgusu, çizgi, efekt, 3d stillerini döndürür. Yalnızca okuma [`IFormat`](../iformat). |
-| [PictureType](../../aspose.slides.charts/ichartwall/picturetype) { get; set; } | Resim türünü döndürür veya ayarlar. Okuma/yazma [`PictureType`](./picturetype). |
-| [Thickness](../../aspose.slides.charts/ichartwall/thickness) { get; set; } | Duvar kalınlığını, grafik hacminin en büyük boyutunun yüzdesi olarak döndürür veya ayarlar. Okuma/yazma Int32. |
+| [Format](../../aspose.slides.charts/ichartwall/format) { get; } | Duvar dolgu, çizgi, efekt ve 3B stillerini döndürür. Yalnızca okunabilir [`IFormat`](../iformat). |
+| [PictureType](../../aspose.slides.charts/ichartwall/picturetype) { get; set; } | Resim türünü döndürür veya ayarlar. Okunabilir/Yazılabilir [`PictureType`](./picturetype). |
+| [Thickness](../../aspose.slides.charts/ichartwall/thickness) { get; set; } | Duvar kalınlığını, grafik hacminin en büyük boyutunun yüzdesi olarak döndürür veya ayarlar. Okunabilir/Yazılabilir Int32. |
 
-### Bakınız
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)
 * derleme [Aspose.Slides](../../)

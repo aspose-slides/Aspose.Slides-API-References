@@ -1,12 +1,12 @@
 ---
 title: ICommandEffect
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Bir animasyon davranışı için komut etkisini temsil eder.
 type: docs
-weight: 460
+weight: 480
 url: /tr/aspose.slides.animation/icommandeffect/
 ---
-## ICommandEffect arayüz
+## ICommandEffect arayüzü
 
 Bir animasyon davranışı için komut etkisini temsil eder.
 
@@ -18,12 +18,12 @@ public interface ICommandEffect : IBehavior
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/icommandeffect/asibehavior) { get; } | IBehavior taban arabirimini almayı sağlar. Salt okunur [`IBehavior`](../ibehavior). |
-| [CommandString](../../aspose.slides.animation/icommandeffect/commandstring) { get; set; } | Komut dizesini tanımlar. Okunabilir/yazılabilir String. |
-| [ShapeTarget](../../aspose.slides.animation/icommandeffect/shapetarget) { get; set; } | Komut etkisinin şekil hedefini tanımlar. Okunabilir/yazılabilir [`IShape`](../../aspose.slides/ishape). |
-| [Type](../../aspose.slides.animation/icommandeffect/type) { get; set; } | Davranışın komut etki tipini tanımlar. Okunabilir/yazılabilir [`CommandEffectType`](../commandeffecttype). |
+| [AsIBehavior](../../aspose.slides.animation/icommandeffect/asibehavior) { get; } | Temel IBehavior arayüzünü almayı sağlar. Salt okunur [`IBehavior`](../ibehavior). |
+| [CommandString](../../aspose.slides.animation/icommandeffect/commandstring) { get; set; } | Komut dizesini tanımlar. Okunabilir/Yazılabilir String. |
+| [ShapeTarget](../../aspose.slides.animation/icommandeffect/shapetarget) { get; set; } | Komut etkisinin şekil hedefini tanımlar. Okunabilir/Yazılabilir [`IShape`](../../aspose.slides/ishape). |
+| [Type](../../aspose.slides.animation/icommandeffect/type) { get; set; } | Davranışın komut etkisi türünü tanımlar. Okunabilir/Yazılabilir [`CommandEffectType`](../commandeffecttype). |
 
-### Ayrıca Bakınız
+### Bakınız
 
 * arayüz [IBehavior](../ibehavior)
 * ad alanı [Aspose.Slides.Animation](../../aspose.slides.animation)

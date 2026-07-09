@@ -1,14 +1,14 @@
 ---
 title: IRotation3D
-second_title: Aspose.Sildes .NET API-referencia
-description: A diagram 3D forgatását képviseli.
+second_title: Aspose.Sildes a .NET API Referenciához
+description: A diagram 3D-rotációját reprezentálja.
 type: docs
-weight: 2180
+weight: 2200
 url: /hu/aspose.slides.charts/irotation3d/
 ---
 ## IRotation3D interfész
 
-A diagram 3D forgatását képviseli.
+A diagram 3D-rotációját képviseli.
 
 ```csharp
 public interface IRotation3D
@@ -18,12 +18,12 @@ public interface IRotation3D
 
 | Név | Leírás |
 | --- | --- |
-| [DepthPercents](../../aspose.slides.charts/irotation3d/depthpercents) { get; set; } | Visszaadja vagy beállítja egy 3D diagram mélységét a diagram szélességének százalékában (20 és 2000 százalék között). Olvasás/írás UInt16. |
-| [HeightPercents](../../aspose.slides.charts/irotation3d/heightpercents) { get; set; } | Megadja egy 3D diagram magasságát a diagram szélességének százalékában (5 és 500 százalék között). Olvasás/írás UInt16. |
-| [Perspective](../../aspose.slides.charts/irotation3d/perspective) { get; set; } | Visszaadja vagy beállítja a perspektíva értékét (látómező szöge) 3D diagramokhoz (0 és 100 között). Figyelmen kívül marad, ha a RightAngleAxes tulajdonság értéke igaz. Olvasás/írás Byte. |
-| [RightAngleAxes](../../aspose.slides.charts/irotation3d/rightangleaxes) { get; set; } | Megállapítja, hogy a diagram tengelyei derékszögek-e, ahelyett, hogy perspektívában lennének megrajzolva. Más szóval meghatározza, hogy a diagram tengelyeinek szögei függetlenek-e a diagram forgásától vagy emelésétől. Olvasás/írás Boolean. |
-| [RotationX](../../aspose.slides.charts/irotation3d/rotationx) { get; set; } | Visszaadja vagy beállítja a forgatás fokát az X tengely körül, azaz a Y irányban 3D diagramok esetén (-90 és 90 fok között). A tulajdonság megfelel az ECMA-376 21.2.2.157 rotX (X Rotation) elemnek, valamint a PowerPoint 2007+ „Y Rotation” beállításának. Olvasás/írás SByte. |
-| [RotationY](../../aspose.slides.charts/irotation3d/rotationy) { get; set; } | Visszaadja vagy beállítja a forgatás fokát az Y tengely körül, azaz az X irányban 3D diagramok esetén (0 és 360 fok között). A tulajdonság megfelel az ECMA-376 21.2.2.158 rotY (Y Rotation) elemnek, valamint a PowerPoint 2007+ „X Rotation” beállításának. Olvasás/írás UInt16. |
+| [DepthPercents](../../aspose.slides.charts/irotation3d/depthpercents) { get; set; } | Visszaadja vagy beállítja a 3D diagram mélységét a diagram szélességének százalékában (20 % és 2000 % között). Olvasás/írás UInt16. |
+| [HeightPercents](../../aspose.slides.charts/irotation3d/heightpercents) { get; set; } | A 3-D diagram magasságát adja meg a diagram szélességének százalékában (5 % és 500 % között). Olvasás/írás UInt16. |
+| [Perspective](../../aspose.slides.charts/irotation3d/perspective) { get; set; } | Visszaadja vagy beállítja a perspektíva értékét (látómező szöge) 3D diagramoknál (0 % és 100 % között). Figyelmen kívül marad, ha a RightAngleAxes tulajdonság értéke igaz. Olvasás/írás Byte. |
+| [RightAngleAxes](../../aspose.slides.charts/irotation3d/rightangleaxes) { get; set; } | Meghatározza, hogy a diagram tengelyei derékszögekben álljanak-e, ahelyett, hogy perspektívában lennének rajzolva. Más szóval, a tengelyek szögei függetlenek-e a diagram forgásától vagy emelésétől. Olvasás/írás Boolean. |
+| [RotationX](../../aspose.slides.charts/irotation3d/rotationx) { get; set; } | Visszaadja vagy beállítja az X-tengely körüli forgatás fokát, vagyis a Y-irányú forgást 3D diagramoknál (-90 ° és 90 ° között). A tulajdonság megegyezik az ECMA-376 21.2.2.157-es rotX (X Rotation) elemmel, valamint a PowerPoint 2007+ „Y Rotation” beállításával. Olvasás/írás SByte. |
+| [RotationY](../../aspose.slides.charts/irotation3d/rotationy) { get; set; } | Visszaadja vagy beállítja az Y-tengely körüli forgatás fokát, vagyis a X-irányú forgást 3D diagramoknál (0 ° és 360 ° között). A tulajdonság megegyezik az ECMA-376 21.2.2.158-as rotY (Y Rotation) elemmel, valamint a PowerPoint 2007+ „X Rotation” beállításával. Olvasás/írás UInt16. |
 
 ### Lásd még
 

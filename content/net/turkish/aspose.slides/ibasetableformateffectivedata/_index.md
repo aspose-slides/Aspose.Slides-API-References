@@ -1,14 +1,14 @@
 ---
 title: IBaseTableFormatEffectiveData
 second_title: Aspose.Sildes için .NET API Referansı
-description: Etkili tablo biçimlendirme özelliklerini içeren değişmez nesneler için temel arayüz.
+description: Etkin tablo biçimlendirme özelliklerine sahip değişmez nesneler için temel arayüz.
 type: docs
-weight: 5340
+weight: 5360
 url: /tr/aspose.slides/ibasetableformateffectivedata/
 ---
 ## IBaseTableFormatEffectiveData arayüz
 
-Değişmez nesneler için etkili tablo biçimlendirme özelliklerini içeren temel arayüz.
+Etkin tablo biçimlendirme özelliklerine sahip değişmez nesneler için temel arayüz.
 
 ```csharp
 public interface IBaseTableFormatEffectiveData
@@ -18,13 +18,13 @@ public interface IBaseTableFormatEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [BorderBottom](../../aspose.slides/ibasetableformateffectivedata/borderbottom) { get; } | Alt kenar çizgi biçiminin etkili değerini döndürür. Salt-okunur [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | Aşağı çapraz çizgi biçiminin etkili değerini döndürür. Salt-okunur [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | Yukarı çapraz çizgi biçiminin etkili değerini döndürür. Salt-okunur [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderLeft](../../aspose.slides/ibasetableformateffectivedata/borderleft) { get; } | Sol kenar çizgi biçiminin etkili değerini döndürür. Salt-okunur [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderRight](../../aspose.slides/ibasetableformateffectivedata/borderright) { get; } | Sağ kenar çizgi biçiminin etkili değerini döndürür. Salt-okunur [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderTop](../../aspose.slides/ibasetableformateffectivedata/bordertop) { get; } | Üst kenar çizgi biçiminin etkili değerini döndürür. Salt-okunur [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [FillFormat](../../aspose.slides/ibasetableformateffectivedata/fillformat) { get; } | Doldurma biçiminin etkili değerini döndürür. Salt-okunur [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [BorderBottom](../../aspose.slides/ibasetableformateffectivedata/borderbottom) { get; } | Alt kenar çizgi biçiminin etkili değerini döndürür. Salt okunur [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | Aşağı diyagonal çizgi biçiminin etkili değerini döndürür. Salt okunur [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | Yukarı diyagonal çizgi biçiminin etkili değerini döndürür. Salt okunur [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderLeft](../../aspose.slides/ibasetableformateffectivedata/borderleft) { get; } | Sol kenar çizgi biçiminin etkili değerini döndürür. Salt okunur [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderRight](../../aspose.slides/ibasetableformateffectivedata/borderright) { get; } | Sağ kenar çizgi biçiminin etkili değerini döndürür. Salt okunur [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderTop](../../aspose.slides/ibasetableformateffectivedata/bordertop) { get; } | Üst kenar çizgi biçiminin etkili değerini döndürür. Salt okunur [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [FillFormat](../../aspose.slides/ibasetableformateffectivedata/fillformat) { get; } | Dolgu biçiminin etkili değerini döndürür. Salt okunur [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 
 ### Ayrıca Bakınız
 

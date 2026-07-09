@@ -1,12 +1,12 @@
 ---
 title: LegendDataLabelPosition
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Determina a posição dos rótulos de dados.
 type: docs
-weight: 2270
+weight: 2290
 url: /pt/aspose.slides.charts/legenddatalabelposition/
 ---
-## Enumeração LegendDataLabelPosition
+## enumeração LegendDataLabelPosition
 
 Determina a posição dos rótulos de dados.
 
@@ -29,7 +29,7 @@ public enum LegendDataLabelPosition
 | Right | `7` | Especifica que os rótulos de dados devem ser exibidos à direita do marcador de dados. |
 | Top | `8` | Especifica que os rótulos de dados devem ser exibidos acima do marcador de dados. |
 
-### Veja Também
+### Ver também
 
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

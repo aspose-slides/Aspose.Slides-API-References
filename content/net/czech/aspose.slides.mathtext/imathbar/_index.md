@@ -1,14 +1,14 @@
 ---
 title: IMathBar
-second_title: Aspose.Sildes pro .NET API Reference
-description: Určuje funkci pruhu, která se skládá ze základního argumentu a horního nebo dolního pruhu
+second_title: Aspose.Sildes pro .NET API referenci
+description: Určuje funkci pruhu, která se skládá ze základního argumentu a horního nebo spodního pruhu
 type: docs
-weight: 8100
+weight: 8120
 url: /cs/aspose.slides.mathtext/imathbar/
 ---
 ## IMathBar rozhraní
 
-Specifikuje funkci pruhu, která se skládá ze základního argumentu a horního nebo dolního pruhu
+Specifies the bar function, consisting of a base argument and an overbar or underbar
 
 ```csharp
 public interface IMathBar : IMathElement

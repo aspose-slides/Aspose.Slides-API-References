@@ -1,9 +1,9 @@
 ---
 title: MotionPath
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET için API Referansı
 description: Hareket yolunu temsil eder.
 type: docs
-weight: 670
+weight: 690
 url: /tr/aspose.slides.animation/motionpath/
 ---
 ## MotionPath sınıfı
@@ -25,18 +25,18 @@ public class MotionPath : IMotionPath
 | Ad | Açıklama |
 | --- | --- |
 | [Count](../../aspose.slides.animation/motionpath/count) { get; } | Koleksiyondaki yol sayısını döndürür. Salt okunur Int32. |
-| [Item](../../aspose.slides.animation/motionpath/item) { get; } | Belirtilen indeksdeki komutu döndürür. |
+| [Item](../../aspose.slides.animation/motionpath/item) { get; } | Belirtilen dizindeki komutu döndürür. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [Add](../../aspose.slides.animation/motionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Yola yeni bir komut ekler |
-| [Clear](../../aspose.slides.animation/motionpath/clear)() | Koleksiyondan tüm komutları kaldırır. |
-| [GetEnumerator](../../aspose.slides.animation/motionpath/getenumerator)() | Koleksiyon içinde iterasyon yapan bir enumerator döndürür. |
-| [Insert](../../aspose.slides.animation/motionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Yola yeni bir komut ekler |
-| [Remove](../../aspose.slides.animation/motionpath/remove)(IMotionCmdPath) | Belirtilen komutları koleksiyondan kaldırır. |
-| [RemoveAt](../../aspose.slides.animation/motionpath/removeat)(int) | Belirtilen indeksdeki bir komutu kaldırır. |
+| [Add](../../aspose.slides.animation/motionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Yola yeni komut ekler |
+| [Clear](../../aspose.slides.animation/motionpath/clear)() | Koleksiyondaki tüm komutları kaldırır. |
+| [GetEnumerator](../../aspose.slides.animation/motionpath/getenumerator)() | Koleksiyonu yineleyen bir enumerator döndürür. |
+| [Insert](../../aspose.slides.animation/motionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Yola yeni komut ekler |
+| [Remove](../../aspose.slides.animation/motionpath/remove)(IMotionCmdPath) | Koleksiyondan belirtilen komutları kaldırır. |
+| [RemoveAt](../../aspose.slides.animation/motionpath/removeat)(int) | Belirtilen dizindeki bir komutu kaldırır. |
 
 ### Ayrıca Bakınız
 

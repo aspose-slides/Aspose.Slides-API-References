@@ -3,7 +3,7 @@ title: Picture
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa uma imagem em uma apresentação.
 type: docs
-weight: 9360
+weight: 9380
 url: /pt/aspose.slides/picture/
 ---
 ## Picture classe
@@ -18,10 +18,10 @@ public sealed class Picture : ISlidesPicture
 
 | Nome | Descrição |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/picture/asipresentationcomponent) { get; } | Permite obter a interface base IPresentationComponent. Somente leitura [`IPresentationComponent`](../ipresentationcomponent). |
-| [Image](../../aspose.slides/picture/image) { get; set; } | Retorna ou define a imagem incorporada. Leitura/Gravação [`IPPImage`](../ippimage). |
+| [AsIPresentationComponent](../../aspose.slides/picture/asipresentationcomponent) { get; } | Permite obter a interface IPresentationComponent base. Somente leitura [`IPresentationComponent`](../ipresentationcomponent). |
+| [Image](../../aspose.slides/picture/image) { get; set; } | Retorna ou define a imagem incorporada. Leitura/gravação [`IPPImage`](../ippimage). |
 | [ImageTransform](../../aspose.slides/picture/imagetransform) { get; } | Retorna a coleção de efeitos de transformação de imagem. Somente leitura [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
-| [LinkPathLong](../../aspose.slides/picture/linkpathlong) { get; set; } | Retorna ou define a URL da imagem vinculada. Leitura/Gravação String. |
+| [LinkPathLong](../../aspose.slides/picture/linkpathlong) { get; set; } | Retorna ou define a URL da imagem vinculada. Leitura/gravação String. |
 | [Presentation](../../aspose.slides/picture/presentation) { get; } | Retorna a apresentação. Somente leitura [`IPresentation`](../ipresentation). |
 | [Slide](../../aspose.slides/picture/slide) { get; } | Retorna o slide pai de uma imagem. Somente leitura [`IBaseSlide`](../ibaseslide). |
 
@@ -32,7 +32,7 @@ public sealed class Picture : ISlidesPicture
 | override [Equals](../../aspose.slides/picture/equals)(object) | Compara com o objeto especificado. |
 | override [GetHashCode](../../aspose.slides/picture/gethashcode)() | Retorna o hash. |
 
-### Veja também
+### Veja Também
 
 * interface [ISlidesPicture](../islidespicture)
 * namespace [Aspose.Slides](../../aspose.slides)

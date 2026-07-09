@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetOptions
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αναπαριστά επιλογές που μπορούν να χρησιμοποιηθούν για τον καθορισμό πρόσθετης συμπεριφοράς των λογιστικών φύλλων.
+description: Αντιπροσωπεύει επιλογές που μπορούν να χρησιμοποιηθούν για τον καθορισμό πρόσθετης συμπεριφοράς των λογιστικών φύλλων.
 type: docs
-weight: 10720
+weight: 10740
 url: /el/aspose.slides/spreadsheetoptions/
 ---
 ## SpreadsheetOptions κλάση
 
-Αναπαριστά επιλογές που μπορούν να χρησιμοποιηθούν για τον καθορισμό πρόσθετης συμπεριφοράς των λογιστικών φύλλων.
+Αντιπροσωπεύει επιλογές που μπορούν να χρησιμοποιηθούν για να καθορίσουν επιπρόσθετη συμπεριφορά των λογιστικών φύλλων.
 
 ```csharp
 public class SpreadsheetOptions : ISpreadsheetOptions
@@ -24,8 +24,8 @@ public class SpreadsheetOptions : ISpreadsheetOptions
 
 | Name | Description |
 | --- | --- |
-| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | Λαμβάνει ή ορίζει προτιμώμενες πληροφορίες πολιτισμού για τον υπολογισμό ορισμένων συναρτήσεων που προορίζονται για χρήση με γλώσσες που χρησιμοποιούν το σύνολο χαρακτήρων διπλού ψήφιου (DBCS). |
-| [RecoverWorkbookFromChartCache](../../aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Εάν η πηγή δεδομένων για το γράφημα είναι ένα εξωτερικό βιβλίο εργασίας και δεν είναι διαθέσιμη, θα ανακτηθεί από τη λανθάνουσα μνήμη του γραφήματος. |
+| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | Λαμβάνει ή ορίζει τις προτιμώμενες πληροφορίες πολιτισμού για τον υπολογισμό ορισμένων συναρτήσεων που προορίζονται για χρήση με γλώσσες που χρησιμοποιούν το σύνολο χαρακτήρων διπλού byte (DBCS). |
+| [RecoverWorkbookFromChartCache](../../aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Εάν η πηγή δεδομένων για το γράφημα είναι ένα εξωτερικό βιβλίο εργασίας και δεν είναι διαθέσιμη, θα ανακτηθεί από την κρυφή μνήμη του γραφήματος. |
 
 ### Δείτε επίσης
 

@@ -1,12 +1,12 @@
 ---
 title: IHtml5Options
-second_title: Aspose.Slides için .NET API Referansı
+second_title: Aspose.Sildes .NET için API Referansı
 description: HTML5 dışa aktarma seçeneklerini temsil eder.
 type: docs
-weight: 3910
+weight: 3930
 url: /tr/aspose.slides.export/ihtml5options/
 ---
-## IHtml5Options arayüzü
+## IHtml5Options arayüz
 
 HTML5 dışa aktarma seçeneklerini temsil eder.
 
@@ -18,12 +18,13 @@ public interface IHtml5Options : ISaveOptions
 
 | Ad | Açıklama |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | Şekillerin animasyon seçeneğini alır veya ayarlar. Okuma/Yazma Boolean. |
-| [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | Geçişlerin animasyon seçeneğini alır veya ayarlar. Okuma/Yazma Boolean. |
-| [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | ISaveOptions arayüzünü döndürür. Yalnızca okuma [`ISaveOptions`](../isaveoptions). |
-| [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | Metnin ligatürler kullanılmadan işlenip işlenmediğini gösteren bir değeri alır veya ayarlar. `true` olarak ayarlandığında, render edilmiş çıktıda ligatürler devre dışı bırakılır. Varsayılan olarak bu özellik `false` olarak ayarlanır. |
-| [EmbedImages](../../aspose.slides.export/ihtml5options/embedimages) { get; set; } | Görüntü yerleştirme seçeneğini alır veya ayarlar. Okuma/Yazma Boolean. |
-| [OutputPath](../../aspose.slides.export/ihtml5options/outputpath) { get; set; } | Dış kaynakların nerede saklanacağını belirler. Okuma/Yazma String. |
+| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | Şekil animasyonu seçeneğini döndürür veya ayarlar. Okunur/yazılır Boolean. |
+| [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | Geçiş animasyonu seçeneğini döndürür veya ayarlar. Okunur/yazılır Boolean. |
+| [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | ISaveOptions arayüzünü döndürür. Sadece-okunur [`ISaveOptions`](../isaveoptions). |
+| [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | Metnin ligaturler kullanılmadan render edilip edilmediğini belirten bir değeri alır veya ayarlar. `true` olarak ayarlandığında, çıktıda ligaturler devre dışı bırakılacak. Varsayılan olarak, bu özellik `false` olarak ayarlanmıştır. |
+| [EmbedImages](../../aspose.slides.export/ihtml5options/embedimages) { get; set; } | Görüntü gömme seçeneğini döndürür veya ayarlar. Okunur/yazılır Boolean. |
+| [OutputPath](../../aspose.slides.export/ihtml5options/outputpath) { get; set; } | Harici kaynakların nerede depolanacağını belirler. Okunur/yazılır String. |
+| [PicturesCompression](../../aspose.slides.export/ihtml5options/picturescompression) { get; set; } | Resim sıkıştırma seviyesini temsil eder Okunur/yazılır [`PicturesCompression`](./picturescompression). |
 | [SlidesLayoutOptions](../../aspose.slides.export/ihtml5options/slideslayoutoptions) { get; set; } | Sunum dışa aktarılırken slaytların sayfada yerleştirildiği modu alır veya ayarlar [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### Örnekler

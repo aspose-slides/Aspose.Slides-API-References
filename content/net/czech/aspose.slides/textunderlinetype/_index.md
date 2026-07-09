@@ -1,12 +1,12 @@
 ---
 title: TextUnderlineType
-second_title: Aspose.Sildes pro .NET API referenci
+second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje typ podtržení textu.
 type: docs
-weight: 10990
+weight: 11010
 url: /cs/aspose.slides/textunderlinetype/
 ---
-## TextUnderlineType enumerace
+## Výčet TextUnderlineType
 
 Reprezentuje typ podtržení textu.
 

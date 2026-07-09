@@ -1,9 +1,9 @@
 ---
 title: IMathElementCollection
-second_title: Aspose.Sildes dla .NET Referencja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje kolekcję elementów matematycznych MathElement.
 type: docs
-weight: 8220
+weight: 8240
 url: /pl/aspose.slides.mathtext/imathelementcollection/
 ---
 ## IMathElementCollection interfejs
@@ -16,15 +16,15 @@ public interface IMathElementCollection : IEnumerable<IMathElement>
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.mathtext/imathelementcollection/asienumerable) { get; } | Zwraca interfejs IEnumerable. Tylko do odczytu IEnumerable. |
 | [Count](../../aspose.slides.mathtext/imathelementcollection/count) { get; } | Zwraca liczbę elementów faktycznie znajdujących się w kolekcji. Tylko do odczytu Int32. |
-| [Item](../../aspose.slides.mathtext/imathelementcollection/item) { get; } | Zwraca element o określonym indeksie. Tylko do odczytu [`IMathElement`](../imathelement). |
+| [Item](../../aspose.slides.mathtext/imathelementcollection/item) { get; } | Zwraca element pod określonym indeksem. Tylko do odczytu [`IMathElement`](../imathelement). |
 
 ## Metody
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides.mathtext/imathelementcollection/add)(IMathElement) | Dodaje element matematyczny na koniec kolekcji. |
 | [Clear](../../aspose.slides.mathtext/imathelementcollection/clear)() | Usuwa wszystkie elementy z kolekcji. |
@@ -33,7 +33,7 @@ public interface IMathElementCollection : IEnumerable<IMathElement>
 | [IndexOf](../../aspose.slides.mathtext/imathelementcollection/indexof)(IMathElement) | Określa indeks określonego elementu matematycznego w kolekcji. |
 | [Insert](../../aspose.slides.mathtext/imathelementcollection/insert)(int, IMathElement) | Wstawia element matematyczny do kolekcji pod określonym indeksem. |
 | [Remove](../../aspose.slides.mathtext/imathelementcollection/remove)(IMathElement) | Usuwa pierwsze wystąpienie określonego obiektu z kolekcji. |
-| [RemoveAt](../../aspose.slides.mathtext/imathelementcollection/removeat)(int) | Usuwa element o określonym indeksie z kolekcji. |
+| [RemoveAt](../../aspose.slides.mathtext/imathelementcollection/removeat)(int) | Usuwa element pod określonym indeksem w kolekcji. |
 
 ### Przykłady
 

@@ -1,14 +1,14 @@
 ---
 title: SlideShowType
-second_title: Aspose.Sildes a .NET API hivatkozáshoz
-description: Alapértelmezett diavetítés beállítások. Az ősök a diavetítés típusait képviselik: PresentedBySpeaker./presentedbyspeaker Előadó által bemutatva teljes képernyőn BrowsedByIndividual./browsedbyindividual Egyénileg böngészve ablakban BrowsedAtKiosk./browsedatkiosk Kioszon böngészve teljes képernyőn
+second_title: Aspose.Sildes a .NET API hivatkozásához
+description: Alapvető diavetítés beállítások. Az ősök a diavetítés típusait képviselik: PresentedBySpeaker./presentedbyspeaker Előadó által bemutatva teljes képernyőn BrowsedByIndividual./browsedbyindividual Egyénileg böngészve ablakban BrowsedAtKiosk./browsedatkiosk Kioszkban böngészve teljes képernyőn
 type: docs
-weight: 10470
+weight: 10490
 url: /hu/aspose.slides/slideshowtype/
 ---
 ## SlideShowType osztály
 
-Alapvető diavetítés beállítások. Az ősök a diavetítés típusait képviselik: [`PresentedBySpeaker`](../presentedbyspeaker) Előadó által bemutatva (teljes képernyő) [`BrowsedByIndividual`](../browsedbyindividual) Egyénileg böngészve (ablak) [`BrowsedAtKiosk`](../browsedatkiosk) Kioszon böngészve (teljes képernyő)
+Alapvető diavetítés beállítások. Az ősök a diavetítés típusait képviselik: [`PresentedBySpeaker`](../presentedbyspeaker) Előadó által bemutatva (teljes képernyő) [`BrowsedByIndividual`](../browsedbyindividual) Egyéni böngészés (ablak) [`BrowsedAtKiosk`](../browsedatkiosk) Kioszkban történő böngészés (teljes képernyő)
 
 ```csharp
 public abstract class SlideShowType

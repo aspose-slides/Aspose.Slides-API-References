@@ -1,9 +1,9 @@
 ---
 title: SensitivityLabelCollection
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes .NET API hivatkozás
 description: A dokumentumra alkalmazott érzékenységi címkék gyűjteményét reprezentálja.
 type: docs
-weight: 9790
+weight: 9810
 url: /hu/aspose.slides/sensitivitylabelcollection/
 ---
 ## SensitivityLabelCollection osztály
@@ -20,18 +20,18 @@ public sealed class SensitivityLabelCollection : DomObject<Presentation>,
 | Név | Leírás |
 | --- | --- |
 | [Count](../../aspose.slides/sensitivitylabelcollection/count) { get; } | Visszaadja a gyűjtemény elemeinek számát. Csak olvasható Int32. |
-| [Item](../../aspose.slides/sensitivitylabelcollection/item) { get; } | Visszaadja a kért indexű érzékenységi címkét. |
+| [Item](../../aspose.slides/sensitivitylabelcollection/item) { get; } | Visszaadja az érzékenységi címkét index szerint. |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [Add](../../aspose.slides/sensitivitylabelcollection/add#add_1)(ISensitivityLabel) | Hozzáad egy SensitivityLabel elemet a gyűjteményhez. |
-| [Add](../../aspose.slides/sensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | Az érzékenységi címkét a gyűjtemény végére adja hozzá. |
+| [Add](../../aspose.slides/sensitivitylabelcollection/add#add_1)(ISensitivityLabel) | Hozzáad egy SensitivityLabel-et a gyűjteményhez. |
+| [Add](../../aspose.slides/sensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | A gyűjtemény végéhez adja hozzá az érzékenységi címkét. |
 | [Clear](../../aspose.slides/sensitivitylabelcollection/clear)() | Eltávolítja a gyűjtemény összes elemét. |
 | [CopyTo](../../aspose.slides/sensitivitylabelcollection/copyto)(ISensitivityLabel[], int) | Átmásolja a gyűjtemény összes elemét a megadott tömbbe. |
-| [GetEnumerator](../../aspose.slides/sensitivitylabelcollection/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |
-| [RemoveAt](../../aspose.slides/sensitivitylabelcollection/removeat)(int) | Eltávolítja a megadott indexű érzékenységi címkét. |
+| [GetEnumerator](../../aspose.slides/sensitivitylabelcollection/getenumerator)() | Visszaad egy enumerátort, amely végigjárja a gyűjteményt. |
+| [RemoveAt](../../aspose.slides/sensitivitylabelcollection/removeat)(int) | Eltávolítja a megadott indexnél lévő érzékenységi címkét. |
 
 ### Lásd még
 

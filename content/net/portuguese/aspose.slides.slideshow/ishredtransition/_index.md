@@ -3,7 +3,7 @@ title: IShredTransition
 second_title: Aspose.Sildes para .NET Referência da API
 description: Efeito de transição de slide em pedaços.
 type: docs
-weight: 10160
+weight: 10180
 url: /pt/aspose.slides.slideshow/ishredtransition/
 ---
 ## IShredTransition interface
@@ -20,9 +20,9 @@ public interface IShredTransition : ITransitionValueBase
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/ishredtransition/asitransitionvaluebase) { get; } | Permite obter a interface base ITransitionValueBase. Somente leitura [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/ishredtransition/direction) { get; set; } | Direção da transição. Leitura/gravação [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/ishredtransition/pattern) { get; set; } | Especifica a forma dos visuais usados durante a transição. Leitura/gravação [`TransitionShredPattern`](../transitionshredpattern). |
+| [Pattern](../../aspose.slides.slideshow/ishredtransition/pattern) { get; set; } | Especifica a forma dos elementos visuais usados durante a transição. Leitura/gravação [`TransitionShredPattern`](../transitionshredpattern). |
 
-### Veja Também
+### Ver também
 
 * interface [ITransitionValueBase](../itransitionvaluebase)
 * namespace [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

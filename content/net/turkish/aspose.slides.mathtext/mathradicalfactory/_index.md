@@ -1,14 +1,14 @@
 ---
 title: MathRadicalFactory
 second_title: Aspose.Sildes için .NET API Referansı
-description: Matematik kökü oluşturmayı sağlar
+description: Matematik radikali oluşturmayı sağlar
 type: docs
-weight: 8930
+weight: 8950
 url: /tr/aspose.slides.mathtext/mathradicalfactory/
 ---
-## MathRadicalFactory sınıfı
+## MathRadicalFactory sınıf
 
-Matematik kökü oluşturmayı sağlar
+Matematik radikali oluşturmayı sağlar
 
 ```csharp
 public class MathRadicalFactory : IMathRadicalFactory
@@ -16,21 +16,21 @@ public class MathRadicalFactory : IMathRadicalFactory
 
 ## Yapıcılar
 
-| Ad | Açıklama |
+| İsim | Açıklama |
 | --- | --- |
 | [MathRadicalFactory](mathradicalfactory)() | Varsayılan yapıcı. |
 
-## Yöntemler
+## Metotlar
 
-| Ad | Açıklama |
+| İsim | Açıklama |
 | --- | --- |
-| [CreateMathRadical](../../aspose.slides.mathtext/mathradicalfactory/createmathradical)(IMathElement, IMathElement) | Bir matematik kökü oluşturur |
+| [CreateMathRadical](../../aspose.slides.mathtext/mathradicalfactory/createmathradical)(IMathElement, IMathElement) | Bir matematik radikali oluşturur |
 
 ### Açıklamalar
 
 COM uyumluluğu için
 
-### İlgili
+### Ayrıca
 
 * arayüz [IMathRadicalFactory](../imathradicalfactory)
 * ad alanı [Aspose.Slides.MathText](../../aspose.slides.mathtext)

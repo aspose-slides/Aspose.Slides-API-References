@@ -1,14 +1,14 @@
 ---
 title: ExtraColorScheme
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir slayta atanabilen ek bir renk şemasını temsil eder.
+description: Bir slayta atanabilecek ek bir renk şemasını temsil eder.
 type: docs
-weight: 11080
+weight: 11100
 url: /tr/aspose.slides.theme/extracolorscheme/
 ---
-## ExtraColorScheme sınıfı
+## ExtraColorScheme sınıf
 
-Bir slayta atanabilen ek bir renk şemasını temsil eder.
+Bir slayta atanabilecek ek bir renk şemasını temsil eder.
 
 ```csharp
 public class ExtraColorScheme : IExtraColorScheme

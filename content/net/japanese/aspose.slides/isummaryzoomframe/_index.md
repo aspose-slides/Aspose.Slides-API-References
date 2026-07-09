@@ -3,7 +3,7 @@ title: ISummaryZoomFrame
 second_title: Aspose.Sildes for .NET API リファレンス
 description: スライド内の Summary Zoom フレームを表します。
 type: docs
-weight: 7130
+weight: 7150
 url: /ja/aspose.slides/isummaryzoomframe/
 ---
 ## ISummaryZoomFrame インターフェイス
@@ -19,7 +19,7 @@ public interface ISummaryZoomFrame : IGraphicalObject
 | 名前 | 説明 |
 | --- | --- |
 | [AsIGraphicalObject](../../aspose.slides/isummaryzoomframe/asigraphicalobject) { get; } | IGraphicalObject インターフェイスを返します。 |
-| [Layout](../../aspose.slides/isummaryzoomframe/layout) { get; } | フレーム内の Summary Zoom セクションのレイアウトを取得します。既定値は GridLayout です。 |
+| [Layout](../../aspose.slides/isummaryzoomframe/layout) { get; } | フレーム内の Summary Zoom Sections のレイアウトを取得します。デフォルト値は GridLayout です。 |
 | [SummaryZoomCollection](../../aspose.slides/isummaryzoomframe/summaryzoomcollection) { get; } | Summary Zoom Frame オブジェクトの [`ISummaryZoomSectionCollection`](../isummaryzoomsectioncollection) を取得します。 |
 
 ### 参照

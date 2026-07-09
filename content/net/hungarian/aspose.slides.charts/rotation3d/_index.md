@@ -1,14 +1,14 @@
 ---
 title: Rotation3D
-second_title: Aspose.Sildes .NET API referencia
-description: A diagram 3D forgását reprezentálja.
+second_title: Aspose.Sildes .NET API Referencia
+description: A diagram 3D forgatásának ábrázolása.
 type: docs
-weight: 2380
+weight: 2400
 url: /hu/aspose.slides.charts/rotation3d/
 ---
 ## Rotation3D osztály
 
-A diagram 3D forgását reprezentálja.
+A diagram 3D forgatásának ábrázolása.
 
 ```csharp
 public class Rotation3D : IRotation3D
@@ -18,12 +18,12 @@ public class Rotation3D : IRotation3D
 
 | Név | Leírás |
 | --- | --- |
-| [DepthPercents](../../aspose.slides.charts/rotation3d/depthpercents) { get; set; } | A 3D diagram mélységét adja vissza vagy állítja be a diagram szélességének százalékaként (20 és 2000 százalék között). Olvasás/írás UInt16. |
-| [HeightPercents](../../aspose.slides.charts/rotation3d/heightpercents) { get; set; } | A 3D diagram magasságát adja meg a diagram szélességének százalékaként (5 és 500 százalék között). Olvasás/írás UInt16. |
-| [Perspective](../../aspose.slides.charts/rotation3d/perspective) { get; set; } | A 3D diagramok perspektívaértékét (látószög) adja vissza vagy állítja be (0 és 240 között). Figyelmen kívül marad, ha a RightAngleAxes tulajdonság értéke igaz. Olvasás/írás Byte. |
-| [RightAngleAxes](../../aspose.slides.charts/rotation3d/rightangleaxes) { get; set; } | Meghatározza, hogy a diagram tengelyei derékszögek-e, ahelyett, hogy perspektívában lennének kirajzolva. Más szóval azt határozza meg, hogy a diagram tengelyeinek szögei függetlenek-e a diagram forgásától vagy emelkedésétől. Olvasás/írás Boolean. |
-| [RotationX](../../aspose.slides.charts/rotation3d/rotationx) { get; set; } | Az X-tengely körüli forgatás fokát adja vissza vagy állítja be, azaz a Y irányban a 3D diagramoknál (-90 és 90 fok között). A tulajdonság megfelel az ECMA-376 21.2.2.157 rotX (X Rotation) elemnek és a PowerPoint 2007+ „Y Rotation” opciójának. Olvasás/írás SByte. |
-| [RotationY](../../aspose.slides.charts/rotation3d/rotationy) { get; set; } | Az Y-tengely körüli forgatás fokát adja vissza vagy állítja be, azaz az X irányban a 3D diagramoknál (0 és 360 fok között). A tulajdonság megfelel az ECMA-376 21.2.2.158 rotY (Y Rotation) elemnek és a PowerPoint 2007+ „X Rotation” opciójának. Olvasás/írás UInt16. |
+| [DepthPercents](../../aspose.slides.charts/rotation3d/depthpercents) { get; set; } | Visszaadja vagy beállítja egy 3D diagram mélységét a diagram szélességének százalékaként (20 és 2000 százalék között). Olvasás/írás UInt16. |
+| [HeightPercents](../../aspose.slides.charts/rotation3d/heightpercents) { get; set; } | Megadja egy 3D diagram magasságát a diagram szélességének százalékaként (5 és 500 százalék között). Olvasás/írás UInt16. |
+| [Perspective](../../aspose.slides.charts/rotation3d/perspective) { get; set; } | Visszaadja vagy beállítja a perspektíva értékét (látómező szöge) 3D diagramokhoz (0 és 240 között). Figyelmen kívül marad, ha a RightAngleAxes tulajdonság értéke igaz. Olvasás/írás Byte. |
+| [RightAngleAxes](../../aspose.slides.charts/rotation3d/rightangleaxes) { get; set; } | Meghatározza, hogy a diagram tengelyei derékszögben vannak-e, vagy perspektívában vannak-e rajzolva. Más szóval megállapítja, hogy a diagram tengelyeinek szögei függetlenek-e a diagram forgatásától vagy dőlésszögétől. Olvasás/írás Boolean. |
+| [RotationX](../../aspose.slides.charts/rotation3d/rotationx) { get; set; } | Visszaadja vagy beállítja a forgatási fokot az X tengely körül, vagyis a Y irányban 3D diagramoknál (-90 és 90 fok között). A tulajdonság egyezik az ECMA-376 21.2.2.157 rotX (X Rotation) elemmel és a PowerPoint 2007+ "Y Rotation" beállításával. Olvasás/írás SByte. |
+| [RotationY](../../aspose.slides.charts/rotation3d/rotationy) { get; set; } | Visszaadja vagy beállítja a forgatási fokot az Y tengely körül, vagyis az X irányban 3D diagramoknál (0 és 360 fok között). A tulajdonság egyezik az ECMA-376 21.2.2.158 rotY (Y Rotation) elemmel és a PowerPoint 2007+ "X Rotation" beállításával. Olvasás/írás UInt16. |
 
 ### Lásd még
 

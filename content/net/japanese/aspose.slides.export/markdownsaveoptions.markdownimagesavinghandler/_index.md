@@ -1,24 +1,24 @@
 ---
 title: MarkdownSaveOptions.MarkdownImageSavingHandler
-second_title: Aspose.Sildes の .NET API リファレンス
-description: Markdown エクスポート中に非 SVG 画像（ビットマップまたはメタファイル）ごとに呼び出されます。`true` を返すと指定されたリンクを使用し、`false` を返すとデフォルトの保存ロジックが適用されます。
+second_title: Aspose.Sildes for .NET APIリファレンス
+description: Markdown エクスポート中に、SVG 以外の画像（ビットマップまたはメタファイル）ごとに呼び出されます。true を返すと指定されたリンクを使用し、false を返すとデフォルトの保存ロジックが適用されます。
 type: docs
-weight: 4240
+weight: 4260
 url: /ja/aspose.slides.export/markdownsaveoptions.markdownimagesavinghandler/
 ---
 ## MarkdownSaveOptions.MarkdownImageSavingHandler デリゲート
 
-Markdown エクスポート中に非 SVG 画像（ビットマップまたはメタファイル）ごとに呼び出されます。`true` を返すと指定された *link* を使用し、`false` を返すとデフォルトの保存ロジックが適用されます。
+Markdown エクスポート中に、非 SVG 画像（ビットマップまたはメタファイル）ごとに呼び出されます。`true` を返すと指定された *link* を使用し、`false` を返すとデフォルトの保存ロジックが適用されます。
 
 ```csharp
 public delegate bool MarkdownImageSavingHandler(IImage image, ImageFormat format, ref string link);
 ```
 
-| パラメーター | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | image | IImage | エクスポートされる画像（ビットマップまたはメタファイル）。 |
 | format | ImageFormat | 画像形式。 |
-| link | String& | `true` を返すときに使用する Markdown リンク。 |
+| link | String& | `true` を返す場合に使用する Markdown リンク。 |
 
 ### 参照
 

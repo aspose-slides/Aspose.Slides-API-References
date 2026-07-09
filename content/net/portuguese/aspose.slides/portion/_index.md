@@ -1,9 +1,9 @@
 ---
 title: Portion
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET – Referência da API
 description: Representa uma porção de texto dentro de um parágrafo de texto.
 type: docs
-weight: 9440
+weight: 9460
 url: /pt/aspose.slides/portion/
 ---
 ## Portion classe
@@ -28,7 +28,7 @@ public class Portion : IPortion
 | --- | --- |
 | [Field](../../aspose.slides/portion/field) { get; } | Retorna um campo desta porção. Somente leitura [`IField`](../ifield). |
 | [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Retorna o objeto de formatação que contém propriedades de formatação definidas explicitamente da porção de texto sem herança aplicada. Somente leitura [`IPortionFormat`](../iportionformat). |
-| [Text](../../aspose.slides/portion/text) { get; set; } | Obtém ou define o texto simples de uma porção. Leitura/Gravação String. |
+| [Text](../../aspose.slides/portion/text) { get; set; } | Obtém ou define o texto simples de uma porção. Leitura/gravação String. |
 
 ## Métodos
 
@@ -36,11 +36,11 @@ public class Portion : IPortion
 | --- | --- |
 | [AddField](../../aspose.slides/portion/addfield#addfield)(IFieldType) | Converte esta porção para o campo atualizado automaticamente. |
 | [AddField](../../aspose.slides/portion/addfield#addfield_1)(string) | Converte esta porção para o campo atualizado automaticamente. |
-| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Obtém as coordenadas do início da porção. A coordenada X do ponto representa o início da porção a partir do primeiro caractere, incluindo a margem esquerda. A coordenada Y inclui a margem superior. |
+| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Obtém as coordenadas do início da porção. A coordenada X do ponto representa o início da porção a partir do primeiro caractere, incluindo a largura lateral esquerda. A coordenada Y inclui a largura superior. |
 | [GetRect](../../aspose.slides/portion/getrect)() | Obtém as coordenadas do retângulo que delimita a porção. O retângulo inclui todas as linhas de texto na porção, incluindo linhas vazias. |
 | [RemoveField](../../aspose.slides/portion/removefield)() | Converte esta porção de campo para a porção simples. |
 
-### Veja Também
+### Ver também
 
 * interface [IPortion](../iportion)
 * namespace [Aspose.Slides](../../aspose.slides)

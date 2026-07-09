@@ -1,14 +1,14 @@
 ---
 title: ISummaryZoomSection
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Egy Summary Zoom szekció objektumot képvisel egy Summary Zoom keretben.
+second_title: Aspose.Sildes .NET API referencia
+description: A Summary Zoom keretben lévő Summary Zoom Section objektumot képviseli.
 type: docs
-weight: 7140
+weight: 7160
 url: /hu/aspose.slides/isummaryzoomsection/
 ---
 ## ISummaryZoomSection interfész
 
-A Summary Zoom szekció objektumot képviseli egy Summary Zoom keretben.
+A Summary Zoom keretben lévő Summary Zoom Section objektumot képviseli.
 
 ```csharp
 public interface ISummaryZoomSection : ISectionZoomFrame

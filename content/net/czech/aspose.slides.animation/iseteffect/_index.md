@@ -1,9 +1,9 @@
 ---
 title: ISetEffect
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje sadu efektu pro animační chování.
+description: Reprezentuje sadu efektů pro animační chování.
 type: docs
-weight: 590
+weight: 610
 url: /cs/aspose.slides.animation/iseteffect/
 ---
 ## ISetEffect rozhraní
@@ -19,7 +19,7 @@ public interface ISetEffect : IBehavior
 | Název | Popis |
 | --- | --- |
 | [AsIBehavior](../../aspose.slides.animation/iseteffect/asibehavior) { get; } | Umožňuje získat základní rozhraní IBehavior. Pouze pro čtení [`IBehavior`](../ibehavior). |
-| [To](../../aspose.slides.animation/iseteffect/to) { get; set; } | Určuje konkrétní atribut efektu po animačním efektu. Reprezentuje hodnotu bodu. Pouze: bool, ColorFormat, float, int, string. Čtení/zápis Object. |
+| [To](../../aspose.slides.animation/iseteffect/to) { get; set; } | Určuje konkrétní atribut efektu po animačním efektu. Reprezentuje hodnotu bodu. Povolené typy: bool, ColorFormat, float, int, string. Čtení/zápis Object. |
 
 ### Viz také
 

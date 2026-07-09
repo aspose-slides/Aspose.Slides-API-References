@@ -1,14 +1,14 @@
 ---
 title: HtmlGenerator
 second_title: Aspose.Sildes för .NET API-referens
-description: Html-generator.
+description: HTML-generator.
 type: docs
-weight: 3860
+weight: 3880
 url: /sv/aspose.slides.export/htmlgenerator/
 ---
 ## HtmlGenerator klass
 
-Html generator.
+HTML-generator.
 
 ```csharp
 public sealed class HtmlGenerator : IHtmlGenerator
@@ -16,18 +16,18 @@ public sealed class HtmlGenerator : IHtmlGenerator
 
 ## Egenskaper
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
-| [NextSlideIndex](../../aspose.slides.export/htmlgenerator/nextslideindex) { get; } | Returnerar index för en bild som kommer att renderas efter den aktuella bilden eller -1 om den sista bilden renderas för närvarande. Skrivskyddad Int32. |
-| [PreviousSlideIndex](../../aspose.slides.export/htmlgenerator/previousslideindex) { get; } | Returnerar index för föregående renderade bild eller -1 om den första bilden renderas. Skrivskyddad Int32. |
-| [SlideImageSize](../../aspose.slides.export/htmlgenerator/slideimagesize) { get; } | Returnerar bildens bildstorlek. Skrivskyddad SizeF. |
-| [SlideImageSizeUnit](../../aspose.slides.export/htmlgenerator/slideimagesizeunit) { get; } | Returnerar en enhet som bildens bildstorlek anges i. Skrivskyddad [`SvgCoordinateUnit`](../svgcoordinateunit). |
-| [SlideImageSizeUnitCode](../../aspose.slides.export/htmlgenerator/slideimagesizeunitcode) { get; } | Returnerar en css-kod för enheten som bildens bildstorlek anges i. Skrivskyddad String. |
-| [SlideIndex](../../aspose.slides.export/htmlgenerator/slideindex) { get; } | Returnerar index för bilden som för närvarande renderas. Skrivskyddad Int32. |
+| [NextSlideIndex](../../aspose.slides.export/htmlgenerator/nextslideindex) { get; } | Returnerar index för en bildruta som renderas efter den aktuella bildrutan eller -1 om den aktuella bildrutan är den sista. Skrivskyddad Int32. |
+| [PreviousSlideIndex](../../aspose.slides.export/htmlgenerator/previousslideindex) { get; } | Returnerar index för tidigare renderad bildruta eller -1 om den första bildrutan renderas. Skrivskyddad Int32. |
+| [SlideImageSize](../../aspose.slides.export/htmlgenerator/slideimagesize) { get; } | Returnerar bildrutans bildstorlek. Skrivskyddad SizeF. |
+| [SlideImageSizeUnit](../../aspose.slides.export/htmlgenerator/slideimagesizeunit) { get; } | Returnerar en enhet som bildrutans bildstorlek anges i. Skrivskyddad [`SvgCoordinateUnit`](../svgcoordinateunit). |
+| [SlideImageSizeUnitCode](../../aspose.slides.export/htmlgenerator/slideimagesizeunitcode) { get; } | Returnerar en CSS-kod för enheten som bildrutans bildstorlek anges i. Skrivskyddad String. |
+| [SlideIndex](../../aspose.slides.export/htmlgenerator/slideindex) { get; } | Returnerar index för den bildruta som för närvarande renderas. Skrivskyddad Int32. |
 
 ## Metoder
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
 | [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue)(char[]) | Citerar attributvärdet och lägger till det i HTML-filen. |
 | [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_2)(string) | Citerar attributvärdet och lägger till det i HTML-filen. |
@@ -35,11 +35,11 @@ public sealed class HtmlGenerator : IHtmlGenerator
 | [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml)(char[]) | Lägger till formaterad HTML-text. |
 | [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_2)(string) | Lägger till formaterad HTML-text. |
 | [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_1)(char[], int, int) | Lägger till formaterad HTML-text. |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext)(char[]) | Lägger till vanlig text i HTML-filerna och ersätter specialtecken med HTML-entiteter. Radbrytningar och mellanslag ersätts inte. |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_2)(string) | Lägger till vanlig text i HTML-filerna och ersätter specialtecken med HTML-entiteter. Radbrytningar och mellanslag ersätts inte. |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_1)(char[], int, int) | Lägger till vanlig text i HTML-filerna och ersätter specialtecken med HTML-entiteter. Radbrytningar och mellanslag ersätts inte. |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext)(char[]) | Lägger till vanlig text i HTML-filerna, ersätter specialtecken med HTML-entiteter. Radbrytningar och mellanslag ersätts inte. |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_2)(string) | Lägger till vanlig text i HTML-filerna, ersätter specialtecken med HTML-entiteter. Radbrytningar och mellanslag ersätts inte. |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_1)(char[], int, int) | Lägger till vanlig text i HTML-filerna, ersätter specialtecken med HTML-entiteter. Radbrytningar och mellanslag ersätts inte. |
 
-### Se även
+### Se också
 
 * gränssnitt [IHtmlGenerator](../ihtmlgenerator)
 * namnrymd [Aspose.Slides.Export](../../aspose.slides.export)

@@ -1,14 +1,14 @@
 ---
 title: AlphaCeiling
-second_title: Aspose.Sildes for .NET APIリファレンス
-description: Alpha Ceiling 効果を表します。Alpha の不透明度が 0 より大きい場合は 100 に変更されます。つまり、部分的に不透明なものはすべて完全に不透明になります。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: Alpha Ceiling 効果を表します。アルファの不透明度が 0 より大きい場合は 100 に変更されます。つまり、部分的に不透明なものはすべて完全に不透明になります。
 type: docs
-weight: 2830
+weight: 2850
 url: /ja/aspose.slides.effects/alphaceiling/
 ---
 ## AlphaCeiling クラス
 
-Alpha Ceiling 効果を表します。Alpha (不透明度) の値が 0 より大きい場合は 100% に変更されます。つまり、部分的に不透明なものはすべて完全に不透明になります。
+Alpha Ceiling 効果を表します。アルファ (不透明度) が 0 より大きい値は 100% に変更されます。つまり、部分的に不透明なものはすべて完全に不透明になります。
 
 ```csharp
 public sealed class AlphaCeiling : ImageTransformOperation, IAlphaCeiling

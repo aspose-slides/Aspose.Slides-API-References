@@ -1,14 +1,14 @@
 ---
 title: SmartArtColorType
 second_title: Aspose.Sildes for .NET API リファレンス
-description: SmartArt ダイアグラムの配色スキームを表します。
+description: SmartArt ダイアグラムのカラースキームを表します。
 type: docs
-weight: 10590
+weight: 10610
 url: /ja/aspose.slides.smartart/smartartcolortype/
 ---
-## SmartArtColorType 列挙体
+## SmartArtColorType 列挙型
 
-SmartArt ダイアグラムの配色スキームを表します。
+SmartArt ダイアグラムのカラースキームを表します。
 
 ```csharp
 public enum SmartArtColorType

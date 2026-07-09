@@ -1,14 +1,14 @@
 ---
 title: ControlCollection
-second_title: Aspose.Sildes for .NET API Referansı
-description: ActiveX kontrollerinin bir koleksiyonu.
+second_title: Aspose.Sildes için .NET API Referansı
+description: ActiveX denetimlerinin bir koleksiyonu.
 type: docs
-weight: 2680
+weight: 2700
 url: /tr/aspose.slides/controlcollection/
 ---
-## ControlCollection sınıfı
+## ControlCollection sınıf
 
-ActiveX kontrollerinin bir koleksiyonu.
+ActiveX denetimlerinin bir koleksiyonu.
 
 ```csharp
 public class ControlCollection : IControlCollection
@@ -19,20 +19,20 @@ public class ControlCollection : IControlCollection
 | Ad | Açıklama |
 | --- | --- |
 | [Count](../../aspose.slides/controlcollection/count) { get; } | Koleksiyondaki nesne sayısını döndürür. Yalnızca okunabilir Int32. |
-| [IsSynchronized](../../aspose.slides/controlcollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını gösteren bir değer döndürür. Yalnızca okunabilir Boolean. |
-| [Item](../../aspose.slides/controlcollection/item) { get; } | Belirtilen konumdaki bir kontrol döndürür. |
+| [IsSynchronized](../../aspose.slides/controlcollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (İş parçacığı güvenli) olup olmadığını gösteren bir değeri döndürür. Yalnızca okunabilir Boolean. |
+| [Item](../../aspose.slides/controlcollection/item) { get; } | Belirtilen konumdaki bir denetimi döndürür. |
 | [SyncRoot](../../aspose.slides/controlcollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Yalnızca okunabilir Object. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [AddControl](../../aspose.slides/controlcollection/addcontrol)(ControlType, float, float, float, float) | Koleksiyona yeni bir kontrol oluşturur ve ekler. |
-| [Clear](../../aspose.slides/controlcollection/clear)() | Koleksiyondaki tüm kontrolleri kaldırır. |
+| [AddControl](../../aspose.slides/controlcollection/addcontrol)(ControlType, float, float, float, float) | Koleksiyona yeni bir denetim oluşturur ve ekler. |
+| [Clear](../../aspose.slides/controlcollection/clear)() | Koleksiyondaki tüm denetimleri kaldırır. |
 | [CopyTo](../../aspose.slides/controlcollection/copyto)(Array, int) | Tüm koleksiyonu belirtilen diziye kopyalar. |
-| [GetEnumerator](../../aspose.slides/controlcollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir döngüleyici döndürür. |
-| [Remove](../../aspose.slides/controlcollection/remove)(IControl) | Koleksiyondan bir ActiveX kontrolü kaldırır. |
-| [RemoveAt](../../aspose.slides/controlcollection/removeat)(int) | Koleksiyonda belirtilen konumda saklanan bir ActiveX kontrolünü kaldırır. |
+| [GetEnumerator](../../aspose.slides/controlcollection/getenumerator)() | Koleksiyon üzerinde yineleme yapan bir enumerator döndürür. |
+| [Remove](../../aspose.slides/controlcollection/remove)(IControl) | Koleksiyondan bir ActiveX denetimini kaldırır. |
+| [RemoveAt](../../aspose.slides/controlcollection/removeat)(int) | Belirtilen konumda saklanan bir ActiveX denetimini koleksiyondan kaldırır. |
 
 ### Ayrıca Bakınız
 

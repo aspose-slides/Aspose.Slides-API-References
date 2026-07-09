@@ -1,14 +1,14 @@
 ---
 title: MathSuperscriptElementFactory
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes a .NET API referencia számára
 description: Lehetővé teszi az IMathSuperscriptElement létrehozását
 type: docs
-weight: 9010
+weight: 9030
 url: /hu/aspose.slides.mathtext/mathsuperscriptelementfactory/
 ---
 ## MathSuperscriptElementFactory osztály
 
-Lehetővé teszi IMathSuperscriptElement létrehozását
+Lehetővé teszi az IMathSuperscriptElement létrehozását
 
 ```csharp
 public class MathSuperscriptElementFactory : IMathSuperscriptElementFactory
@@ -24,11 +24,11 @@ public class MathSuperscriptElementFactory : IMathSuperscriptElementFactory
 
 | Név | Leírás |
 | --- | --- |
-| [CreateMathSuperscriptElement](../../aspose.slides.mathtext/mathsuperscriptelementfactory/createmathsuperscriptelement)(IMathElement, IMathElement) | Létrehozza az IMathSuperscriptElement |
+| [CreateMathSuperscriptElement](../../aspose.slides.mathtext/mathsuperscriptelementfactory/createmathsuperscriptelement)(IMathElement, IMathElement) | Létrehozza az IMathSuperscriptElement-et |
 
 ### Megjegyzések
 
-A COM kompatibilitáshoz
+A COM kompatibilitás érdekében
 
 ### Lásd még
 

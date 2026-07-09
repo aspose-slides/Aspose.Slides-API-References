@@ -1,14 +1,14 @@
 ---
 title: BehaviorPropertyCollection
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar tidsinställningar för effektbeteendet.
+description: Representerar timing-egenskaper för effektbeteendet.
 type: docs
-weight: 180
+weight: 200
 url: /sv/aspose.slides.animation/behaviorpropertycollection/
 ---
-## BehaviorPropertyCollection klass
+## BehaviorPropertyCollection-klass
 
-Representerar tidsinställningar för effektbeteendet.
+Representerar timing-egenskaper för effektbeteendet.
 
 ```csharp
 public class BehaviorPropertyCollection : IBehaviorPropertyCollection
@@ -20,7 +20,7 @@ public class BehaviorPropertyCollection : IBehaviorPropertyCollection
 | --- | --- |
 | [Count](../../aspose.slides.animation/behaviorpropertycollection/count) { get; } | Returnerar antalet egenskaper som lagras i samlingen. Skrivskyddad Int32. |
 | [IsReadOnly](../../aspose.slides.animation/behaviorpropertycollection/isreadonly) { get; } | Hämtar ett värde som indikerar om ICollection är skrivskyddad. Skrivskyddad Boolean. |
-| [Item](../../aspose.slides.animation/behaviorpropertycollection/item) { get; set; } | Returnerar en egenskap vid angivet index. |
+| [Item](../../aspose.slides.animation/behaviorpropertycollection/item) { get; set; } | Returnerar en egenskap på det angivna indexet. |
 
 ## Metoder
 
@@ -31,15 +31,15 @@ public class BehaviorPropertyCollection : IBehaviorPropertyCollection
 | [Clear](../../aspose.slides.animation/behaviorpropertycollection/clear)() | Tar bort alla egenskaper från samlingen. |
 | [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains)(IBehaviorProperty) | Avgör om ICollection innehåller ett specifikt värde. |
 | [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains_1)(string) | Avgör om ICollection innehåller ett specifikt värde. |
-| [CopyTo](../../aspose.slides.animation/behaviorpropertycollection/copyto)(IBehaviorProperty[], int) | Kopierar elementen i ICollection till en Array, med början vid ett visst Array-index. |
+| [CopyTo](../../aspose.slides.animation/behaviorpropertycollection/copyto)(IBehaviorProperty[], int) | Kopierar elementen i ICollection till en Array, med start på ett specifikt Array-index. |
 | [GetEnumerator](../../aspose.slides.animation/behaviorpropertycollection/getenumerator)() | Returnerar en enumerator som itererar genom samlingen. |
-| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof)(IBehaviorProperty) | Avgör index för ett specifikt objekt i IList. |
-| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof_1)(string) | Avgör index för ett specifikt objekt efter egenskapsvärde i IList. |
-| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert)(int, IBehaviorProperty) | Infogar en ny egenskap i samlingen på angivet index. |
-| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert_1)(int, string) | Infogar en ny egenskap (med angivet egenskapsvärde) i samlingen på angivet index. |
+| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof)(IBehaviorProperty) | Avgör indexet för ett specifikt objekt i IList. |
+| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof_1)(string) | Avgör indexet för ett specifikt objekt efter egenskapsvärde i IList. |
+| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert)(int, IBehaviorProperty) | Infogar en ny egenskap i samlingen på det angivna indexet. |
+| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert_1)(int, string) | Infogar en ny egenskap (med det angivna egenskapsvärdet) i samlingen på det angivna indexet. |
 | [Remove](../../aspose.slides.animation/behaviorpropertycollection/remove#remove)(IBehaviorProperty) | Tar bort angiven egenskap från samlingen. |
 | [Remove](../../aspose.slides.animation/behaviorpropertycollection/remove#remove_1)(string) | Tar bort angiven egenskap från samlingen. |
-| [RemoveAt](../../aspose.slides.animation/behaviorpropertycollection/removeat)(int) | Tar bort egenskap vid angivet index. |
+| [RemoveAt](../../aspose.slides.animation/behaviorpropertycollection/removeat)(int) | Tar bort egenskap på det angivna indexet. |
 
 ### Se även
 

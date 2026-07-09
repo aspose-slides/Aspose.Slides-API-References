@@ -1,14 +1,14 @@
 ---
 title: IXamlOptions
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET – reference API
 description: Možnosti, které řídí, jak je dokument XAML uložen.
 type: docs
-weight: 4680
+weight: 4700
 url: /cs/aspose.slides.export.xaml/ixamloptions/
 ---
 ## IXamlOptions rozhraní
 
-Možnosti, které řídí, jak je dokument XAML uložen.
+Možnosti, které určují, jak se ukládá dokument XAML.
 
 ```csharp
 public interface IXamlOptions : ISaveOptions
@@ -18,9 +18,9 @@ public interface IXamlOptions : ISaveOptions
 
 | Název | Popis |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export.xaml/ixamloptions/asisaveoptions) { get; } | Vrací ISaveOptions rozhraní. Pouze pro čtení [`ISaveOptions`](../../aspose.slides.export/isaveoptions). |
+| [AsISaveOptions](../../aspose.slides.export.xaml/ixamloptions/asisaveoptions) { get; } | Vrací rozhraní ISaveOptions. Pouze pro čtení [`ISaveOptions`](../../aspose.slides.export/isaveoptions). |
 | [ExportHiddenSlides](../../aspose.slides.export.xaml/ixamloptions/exporthiddenslides) { get; set; } | Určuje, zda budou skryté snímky exportovány. |
-| [OutputSaver](../../aspose.slides.export.xaml/ixamloptions/outputsaver) { get; set; } | Reprezentuje implementaci rozhraní IOutputSaver. |
+| [OutputSaver](../../aspose.slides.export.xaml/ixamloptions/outputsaver) { get; set; } | Zastupuje implementaci rozhraní IOutputSaver. |
 
 ### Příklady
 

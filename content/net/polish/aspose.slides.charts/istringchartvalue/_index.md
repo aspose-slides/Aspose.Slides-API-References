@@ -1,14 +1,14 @@
 ---
 title: IStringChartValue
-second_title: Aspose.Sildes dla .NET - odniesienie API
-description: Reprezentuje wartość łańcuchową, którą można przechowywać w dokumencie prezentacji pptx na dwa sposoby: 1) w komórce/komórkach skoroszytu powiązanego z wykresem, 2) jako wartość literałową.
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Reprezentuje wartość tekstową, którą można przechowywać w dokumencie prezentacji pptx na dwa sposoby: 1) w komórce/komórkach skoroszytu powiązanego z wykresem; 2) jako wartość literalną.
 type: docs
-weight: 2200
+weight: 2220
 url: /pl/aspose.slides.charts/istringchartvalue/
 ---
 ## IStringChartValue interfejs
 
-Reprezentuje wartość łańcuchową, którą można przechowywać w dokumencie prezentacji pptx na dwa sposoby: 1) w komórce/komórkach skoroszytu powiązanego z wykresem; 2) jako wartość literałową.
+Reprezentuje wartość tekstową, którą można przechowywać w dokumencie prezentacji pptx na dwa sposoby: 1) w komórce/komórkach skoroszytu powiązanego z wykresem; 2) jako wartość literalną.
 
 ```csharp
 public interface IStringChartValue : IMultipleCellChartValue
@@ -19,15 +19,15 @@ public interface IStringChartValue : IMultipleCellChartValue
 | Nazwa | Opis |
 | --- | --- |
 | [AsIMultipleCellChartValue](../../aspose.slides.charts/istringchartvalue/asimultiplecellchartvalue) { get; } | Umożliwia pobranie podstawowego interfejsu IMultipleCellChartValue. Tylko do odczytu [`IMultipleCellChartValue`](../imultiplecellchartvalue). |
-| [AsLiteralString](../../aspose.slides.charts/istringchartvalue/asliteralstring) { get; set; } | Zwraca lub ustawia literałowy łańcuch, jeśli właściwość DataSourceType jest DataSourceType.StringLiterals. Odczyt/zapis String. |
+| [AsLiteralString](../../aspose.slides.charts/istringchartvalue/asliteralstring) { get; set; } | Zwraca lub ustawia dosłowny ciąg znaków, jeśli własność DataSourceType ma wartość DataSourceType.StringLiterals. Odczyt/zapis String. |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [GetCellsAddressInWorkbook](../../aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook)() | Jeśli właściwość DataSourceType jest DataSourceType.Worksheet, metoda zwraca adres komórek w skoroszycie, które reprezentują dane łańcuchowe. W przeciwnym razie zwraca pusty łańcuch. |
+| [GetCellsAddressInWorkbook](../../aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook)() | Jeśli własność DataSourceType ma wartość DataSourceType.Worksheet, metoda zwraca adres komórek w skoroszycie, które reprezentują dane tekstowe. W przeciwnym razie zwraca pusty ciąg znaków. |
 | [SetFromOneCell](../../aspose.slides.charts/istringchartvalue/setfromonecell)(IChartDataCell) | Ustawia wartość z określonej komórki. |
-| [ToString](../../aspose.slides.charts/istringchartvalue/tostring)() | Zwraca reprezentację łańcuchową. |
+| [ToString](../../aspose.slides.charts/istringchartvalue/tostring)() | Zwraca reprezentację tekstową. |
 
 ### Zobacz także
 

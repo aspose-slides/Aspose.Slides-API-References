@@ -1,14 +1,14 @@
 ---
 title: IAnimationTimeLine
-second_title: Aspose.Sildes pro .NET API referenci
-description: Representuje časovou osu animace.
+second_title: Aspose.Sildes pro .NET – referenční příručka API
+description: Reprezentuje časovou osu animace.
 type: docs
-weight: 5180
+weight: 5200
 url: /cs/aspose.slides/ianimationtimeline/
 ---
 ## IAnimationTimeLine rozhraní
 
-Representuje časovou osu animace.
+Reprezentuje časovou osu animace.
 
 ```csharp
 public interface IAnimationTimeLine
@@ -18,8 +18,8 @@ public interface IAnimationTimeLine
 
 | Název | Popis |
 | --- | --- |
-| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | Vrací kolekci interaktivních sekvencí. Tyto sekvence mohou obsahovat pouze efekty pomocí "kliknutí na tvar" s určeným cílovým tvarem. Pouze pro čtení [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection). |
-| [MainSequence](../../aspose.slides/ianimationtimeline/mainsequence) { get; } | Vrací hlavní sekvenci, která může obsahovat pouze kolekci hlavních efektů. Pouze pro čtení [`ISequence`](../../aspose.slides.animation/isequence). |
+| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | Vrací kolekci interaktivních sekvencí. Tato sekvence může obsahovat pouze efekty pomocí "click on shape" s určeným cílovým tvarem. Pouze pro čtení [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection). |
+| [MainSequence](../../aspose.slides/ianimationtimeline/mainsequence) { get; } | Vrací hlavní sekvenci, která může obsahovat pouze hlavní kolekci efektů. Pouze pro čtení [`ISequence`](../../aspose.slides.animation/isequence). |
 | [TextAnimationCollection](../../aspose.slides/ianimationtimeline/textanimationcollection) { get; } | Vrací kolekci textových animací. Pouze pro čtení [`ITextAnimationCollection`](../../aspose.slides.animation/itextanimationcollection). |
 
 ### Viz také

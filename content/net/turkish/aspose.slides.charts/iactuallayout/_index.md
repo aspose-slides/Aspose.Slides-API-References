@@ -1,9 +1,9 @@
 ---
 title: IActualLayout
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Bir grafik öğesinin gerçek konumunu belirtir.
 type: docs
-weight: 1670
+weight: 1690
 url: /tr/aspose.slides.charts/iactuallayout/
 ---
 ## IActualLayout arayüzü
@@ -18,10 +18,10 @@ public interface IActualLayout
 
 | Ad | Açıklama |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/iactuallayout/actualheight) { get; } | Grafik öğesinin gerçek yüksekliğini belirtir. Gerçek değerleri almak için önce IChart.ValidateChartLayout() yöntemini çağırın. Okunur Single. |
-| [ActualWidth](../../aspose.slides.charts/iactuallayout/actualwidth) { get; } | Grafik öğesinin gerçek genişliğini belirtir. Gerçek değerleri almak için önce IChart.ValidateChartLayout() yöntemini çağırın. Okunur Single. |
-| [ActualX](../../aspose.slides.charts/iactuallayout/actualx) { get; } | Grafik öğesinin sol üst köşeye göre gerçek x konumunu (sol) belirtir. Gerçek değerleri almak için önce IChart.ValidateChartLayout() yöntemini çağırın. Okunur Single. |
-| [ActualY](../../aspose.slides.charts/iactuallayout/actualy) { get; } | Grafik öğesinin sol üst köşeye göre gerçek üst konumunu belirtir. Gerçek değerleri almak için önce IChart.ValidateChartLayout() yöntemini çağırın. Okunur Single. |
+| [ActualHeight](../../aspose.slides.charts/iactuallayout/actualheight) { get; } | Grafik öğesinin gerçek yüksekliğini belirtir. Gerçek değerleri almak için önce IChart.ValidateChartLayout() yöntemini çağırın. Single okunur. |
+| [ActualWidth](../../aspose.slides.charts/iactuallayout/actualwidth) { get; } | Grafik öğesinin gerçek genişliğini belirtir. Gerçek değerleri almak için önce IChart.ValidateChartLayout() yöntemini çağırın. Single okunur. |
+| [ActualX](../../aspose.slides.charts/iactuallayout/actualx) { get; } | Grafik öğesinin sol üst köşesine göre gerçek x konumunu (sol) belirtir. Gerçek değerleri almak için önce IChart.ValidateChartLayout() yöntemini çağırın. Single okunur. |
+| [ActualY](../../aspose.slides.charts/iactuallayout/actualy) { get; } | Grafik öğesinin sol üst köşesine göre gerçek üst konumunu belirtir. Gerçek değerleri almak için önce IChart.ValidateChartLayout() yöntemini çağırın. Single okunur. |
 
 ### Ayrıca Bakınız
 

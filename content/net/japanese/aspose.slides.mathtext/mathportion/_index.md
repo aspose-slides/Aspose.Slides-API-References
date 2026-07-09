@@ -3,7 +3,7 @@ title: MathPortion
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 数式コンテキストを持つ部分を表します。
 type: docs
-weight: 8910
+weight: 8930
 url: /ja/aspose.slides.mathtext/mathportion/
 ---
 ## MathPortion クラス
@@ -16,32 +16,32 @@ public sealed class MathPortion : Portion, IMathPortion
 
 ## コンストラクタ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [MathPortion](mathportion)() | MathPortion クラスの新しいインスタンスを初期化します。 |
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [Field](../../aspose.slides/portion/field) { get; } | この部分のフィールドを返します。読み取り専用 [`IField`](../../aspose.slides/ifield)。 |
-| [MathParagraph](../../aspose.slides.mathtext/mathportion/mathparagraph) { get; } | 数式段落 |
-| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | 明示的に設定されたテキスト部分の書式設定プロパティを含むフォーマットオブジェクトを返します（継承は適用されません）。読み取り専用 [`IPortionFormat`](../../aspose.slides/iportionformat)。 |
+| [MathParagraph](../../aspose.slides.mathtext/mathportion/mathparagraph) { get; } | 数学段落 |
+| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | 継承が適用されていない、テキスト部分に対して明示的に設定された書式プロパティを含む書式オブジェクトを返します。読み取り専用 [`IPortionFormat`](../../aspose.slides/iportionformat)。 |
 | [Text](../../aspose.slides/portion/text) { get; set; } | 部分のプレーンテキストを取得または設定します。読み書き可能 String。 |
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [AddField](../../aspose.slides/portion/addfield)(IFieldType) | この部分を自動的に更新されるフィールドに変換します。 |
 | [AddField](../../aspose.slides/portion/addfield)(string) | この部分を自動的に更新されるフィールドに変換します。 |
-| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | 部分の開始位置の座標を取得します。ポイントの X 座標は左側ベアリングを含む最初の文字からの部分の開始を表します。Y 座標は上側ベアリングを含みます。 |
-| [GetRect](../../aspose.slides/portion/getrect)() | 部分を囲む矩形の座標を取得します。矩形には、空行を含む部分内のすべてのテキスト行が含まれます。 |
-| [RemoveField](../../aspose.slides/portion/removefield)() | このフィールド部分をシンプルな部分に変換します。 |
+| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | 部分の開始位置の座標を取得します。点の X 座標は左サイドベアリングを含む最初の文字からの部分開始を表します。Y 座標は上側ベアリングを含みます。 |
+| [GetRect](../../aspose.slides/portion/getrect)() | 部分を囲む矩形の座標を取得します。矩形は部分内のすべてのテキスト行（空行を含む）を含みます。 |
+| [RemoveField](../../aspose.slides/portion/removefield)() | このフィールド部分を単純な部分に変換します。 |
 
 ### 例
 
-例：
+例:
 
 ```csharp
 [C#]
@@ -54,7 +54,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 関連項目
+### 参照
 
 * クラス [Portion](../../aspose.slides/portion)
 * インターフェイス [IMathPortion](../imathportion)

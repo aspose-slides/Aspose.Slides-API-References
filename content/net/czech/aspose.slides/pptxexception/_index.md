@@ -1,14 +1,14 @@
 ---
 title: PptxException
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje standardní interní typ výjimky.
+description: Reprezentuje standardní interní typ výjimky.
 type: docs
-weight: 9540
+weight: 9560
 url: /cs/aspose.slides/pptxexception/
 ---
 ## PptxException třída
 
-Představuje standardní interní typ výjimky.
+Reprezentuje standardní interní typ výjimky.
 
 ```csharp
 public class PptxException : OOXMLException
@@ -20,7 +20,7 @@ public class PptxException : OOXMLException
 | --- | --- |
 | [PptxException](pptxexception#constructor)() | Výchozí konstruktor. |
 | [PptxException](pptxexception#constructor_1)(string) | Konstruktor umožňující přidat zprávu k této výjimce. |
-| [PptxException](pptxexception#constructor_2)(string, Exception) | Konstruktor pro výjimku obsahující zprávu a vloženou výjimku. |
+| [PptxException](pptxexception#constructor_2)(string, Exception) | Konstruktor pro výjimku obsahující zprávu a vnořenou výjimku. |
 
 ### Viz také
 

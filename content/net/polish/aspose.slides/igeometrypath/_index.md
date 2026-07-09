@@ -1,14 +1,14 @@
 ---
 title: IGeometryPath
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Reprezentuje ścieżkę geometryczną GeometryShape
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Reprezentuje ścieżkę geometryczną kształtu GeometryShape
 type: docs
-weight: 5950
+weight: 5970
 url: /pl/aspose.slides/igeometrypath/
 ---
 ## IGeometryPath interfejs
 
-Reprezentuje ścieżkę geometryczną GeometryShape
+Reprezentuje ścieżkę geometryczną kształtu GeometryShape
 
 ```csharp
 public interface IGeometryPath
@@ -19,7 +19,7 @@ public interface IGeometryPath
 | Nazwa | Opis |
 | --- | --- |
 | [FillMode](../../aspose.slides/igeometrypath/fillmode) { get; set; } | Ustawia tryb wypełniania |
-| [PathData](../../aspose.slides/igeometrypath/pathdata) { get; } | Zwraca ścieżkę geometryczną GeometryShape jako tablicę segmentów ścieżki. |
+| [PathData](../../aspose.slides/igeometrypath/pathdata) { get; } | Zwraca ścieżkę geometryczną kształtu GeometryShape jako tablicę segmentów ścieżki. |
 | [Stroke](../../aspose.slides/igeometrypath/stroke) { get; set; } | Ustawia wygląd obrysu |
 
 ## Metody
@@ -28,20 +28,20 @@ public interface IGeometryPath
 | --- | --- |
 | [ArcTo](../../aspose.slides/igeometrypath/arcto)(float, float, float, float) | Dodaje określony łuk do ścieżki. |
 | [CloseFigure](../../aspose.slides/igeometrypath/closefigure)() | Zamyka bieżącą figurę tej ścieżki |
-| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | Dodaje krzywą Beziera trzeciego stopnia na końcu ścieżki |
-| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | Dodaje krzywą Beziera trzeciego stopnia w określonym miejscu ścieżki |
-| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | Dodaje krzywą Beziera trzeciego stopnia na końcu ścieżki |
-| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | Dodaje krzywą Beziera trzeciego stopnia w określonym miejscu ścieżki |
-| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_2)(PointF) | Dodaje linię na koniec ścieżki |
-| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto)(float, float) | Dodaje linię na koniec ścieżki |
+| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | Dodaje sześcienną krzywą Beziera na końcu ścieżki |
+| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | Dodaje sześcienną krzywą Beziera w określonym miejscu ścieżki |
+| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | Dodaje sześcienną krzywą Beziera na końcu ścieżki |
+| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | Dodaje sześcienną krzywą Beziera w określonym miejscu ścieżki |
+| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_2)(PointF) | Dodaje linię na końcu ścieżki |
+| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto)(float, float) | Dodaje linię na końcu ścieżki |
 | [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_3)(PointF, uint) | Dodaje linię w określonym miejscu ścieżki |
 | [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_1)(float, float, uint) | Dodaje linię w określonym miejscu ścieżki |
 | [MoveTo](../../aspose.slides/igeometrypath/moveto#moveto_1)(PointF) | Ustawia pozycję następnego punktu. |
 | [MoveTo](../../aspose.slides/igeometrypath/moveto#moveto)(float, float) | Ustawia pozycję następnego punktu. |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | Dodaje krzywą Beziera drugiego stopnia na końcu ścieżki |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | Dodaje krzywą Beziera drugiego stopnia w określonym miejscu ścieżki |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | Dodaje krzywą Beziera drugiego stopnia na końcu ścieżki |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | Dodaje krzywą Beziera drugiego stopnia w określonym miejscu ścieżki |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | Dodaje kwadratową krzywą Beziera na końcu ścieżki |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | Dodaje kwadratową krzywą Beziera w określonym miejscu ścieżki |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | Dodaje kwadratową krzywą Beziera na końcu ścieżki |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | Dodaje kwadratową krzywą Beziera w określonym miejscu ścieżki |
 | [RemoveAt](../../aspose.slides/igeometrypath/removeat)(int) | Usuwa segment o określonym indeksie ścieżki geometrycznej. |
 
 ### Zobacz także

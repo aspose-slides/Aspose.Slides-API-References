@@ -1,34 +1,34 @@
 ---
 title: VbaProject
-second_title: Aspose.Sildes for .NET APIリファレンス
-description: プレゼンテーション マクロを含む VBA プロジェクトを表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: プレゼンテーションのマクロを含む VBA プロジェクトを表します。
 type: docs
-weight: 11630
+weight: 11650
 url: /ja/aspose.slides.vba/vbaproject/
 ---
 ## VbaProject クラス
 
-プレゼンテーション マクロを含む VBA プロジェクトを表します。
+プレゼンテーションのマクロを含む VBA プロジェクトを表します。
 
 ```csharp
 public sealed class VbaProject : IVbaProject
 ```
 
-## コンストラクタ
+## コンストラクター
 
 | 名前 | 説明 |
 | --- | --- |
-| [VbaProject](vbaproject#constructor)() | このコンストラクタは新しい VBA プロジェクトをゼロから作成します。プロジェクトは 1252 Windows Latin 1 (ANSI) コードページで作成されます |
-| [VbaProject](vbaproject#constructor_1)(byte[]) | このコンストラクタは OLE コンテナのバイナリ表現から VBA プロジェクトをロードします |
+| [VbaProject](vbaproject#constructor)() | このコンストラクターは新しい VBA プロジェクトをゼロから作成します。プロジェクトは 1252 Windows Latin 1 (ANSI) コードページで作成されます |
+| [VbaProject](vbaproject#constructor_1)(byte[]) | このコンストラクターは OLE コンテナのバイナリ表現から VBA プロジェクトをロードします |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [IsPasswordProtected](../../aspose.slides.vba/vbaproject/ispasswordprotected) { get; } | VBAProject がパスワードで保護され、プロジェクト プロパティの表示が制限されているかどうかを示します。読み取り専用 Boolean。 |
-| [Modules](../../aspose.slides.vba/vbaproject/modules) { get; } | VBA プロジェクトに含まれるすべてのモジュールの一覧を返します。読み取り専用 [`IVbaModuleCollection`](../ivbamodulecollection)。 |
-| [Name](../../aspose.slides.vba/vbaproject/name) { get; } | VBA プロジェクトの名前を返します。読み取り専用 String。 |
-| [References](../../aspose.slides.vba/vbaproject/references) { get; } | VBA プロジェクトに含まれるすべての参照の一覧を返します。読み取り専用 [`IVbaReferenceCollection`](../ivbareferencecollection)。 |
+| [IsPasswordProtected](../../aspose.slides.vba/vbaproject/ispasswordprotected) { get; } | VBAProject がパスワードで保護され、プロジェクト プロパティの閲覧が制限されているかどうかを示します。読み取り専用の Boolean。 |
+| [Modules](../../aspose.slides.vba/vbaproject/modules) { get; } | VBA プロジェクトに含まれるすべてのモジュールの一覧を返します。読み取り専用の [`IVbaModuleCollection`](../ivbamodulecollection)。 |
+| [Name](../../aspose.slides.vba/vbaproject/name) { get; } | VBA プロジェクトの名前を返します。読み取り専用の String。 |
+| [References](../../aspose.slides.vba/vbaproject/references) { get; } | VBA プロジェクトに含まれるすべての参照の一覧を返します。読み取り専用の [`IVbaReferenceCollection`](../ivbareferencecollection)。 |
 
 ## メソッド
 
@@ -36,7 +36,7 @@ public sealed class VbaProject : IVbaProject
 | --- | --- |
 | [ToBinary](../../aspose.slides.vba/vbaproject/tobinary)() | VBA プロジェクトのバイナリ表現を OLE コンテナとして返します |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IVbaProject](../ivbaproject)
 * 名前空間 [Aspose.Slides.Vba](../../aspose.slides.vba)

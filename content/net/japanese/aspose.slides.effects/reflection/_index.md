@@ -1,9 +1,9 @@
 ---
 title: Reflection
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: Reflection エフェクトを表します。
 type: docs
-weight: 3620
+weight: 3640
 url: /ja/aspose.slides.effects/reflection/
 ---
 ## Reflection クラス
@@ -14,34 +14,34 @@ Reflection エフェクトを表します。
 public sealed class Reflection : IReflection
 ```
 
-## プロパティ
+## Properties
 
 | 名前 | 説明 |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | ぼかし半径。読み取り/書き込み可能 Double。 |
-| [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | 反射の方向。読み取り/書き込み可能 Single。 |
-| [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | 反射の距離。読み取り/書き込み可能 Double。 |
-| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | アルファ勾配ランプに沿った終了アルファ値（パーセント）の終了位置を指定します。読み取り/書き込み可能 Single。 |
-| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | 終了反射不透明度（パーセント）。読み取り/書き込み可能 Single。 |
-| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | 反射のオフセット方向を指定します（角度）。読み取り/書き込み可能 Single。 |
-| [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | 矩形の配置。読み取り/書き込み可能 [`RectangleAlignment`](../../aspose.slides/rectanglealignment)。 |
-| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | 形状が回転したときに反射も形状と共に回転するかどうかを指定します。読み取り/書き込み可能 Boolean。 |
-| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | 水平スケーリング係数を指定します。負のスケーリングは反転を引き起こします（パーセント）。読み取り/書き込み可能 Double。 |
-| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | 垂直スケーリング係数を指定します。負のスケーリングは反転を引き起こします（パーセント）。読み取り/書き込み可能 Double。 |
-| [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | 水平スキュー角度を指定します。読み取り/書き込み可能 Double。 |
-| [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | 垂直スキュー角度を指定します。読み取り/書き込み可能 Double。 |
-| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | アルファ勾配ランプに沿った開始アルファ値（パーセント）の開始位置を指定します。読み取り/書き込み可能 Single。 |
-| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | 開始反射不透明度（パーセント）。読み取り/書き込み可能 Single。 |
+| [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | ぼかし半径。読み取り/書き込み Double. |
+| [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | 反射の方向。読み取り/書き込み Single. |
+| [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | 反射の距離。読み取り/書き込み Double. |
+| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | 終了アルファ値（percents）の終了位置（along the alpha gradient ramp）を指定します。読み取り/書き込み Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | 終了反射不透明度。（percents）。読み取り/書き込み Single. |
+| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | 反射のオフセット方向を指定します。（angle）。読み取り/書き込み Single. |
+| [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | 矩形の配置。読み取り/書き込み [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | シェイプが回転したときに、反射がシェイプとともに回転するかどうかを指定します。読み取り/書き込み Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | 水平スケーリング係数を指定します。負のスケーリングは反転を引き起こします。（percents） 読み取り/書き込み Double. |
+| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | 垂直スケーリング係数を指定します。負のスケーリングは反転を引き起こします。（percents） 読み取り/書き込み Double. |
+| [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | 水平スキューノ角度を指定します。読み取り/書き込み Double. |
+| [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | 垂直スキューノ角度を指定します。読み取り/書き込み Double. |
+| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | 開始アルファ値（percents）の開始位置（along the alpha gradient ramp）を指定します。読み取り/書き込み Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | 開始反射不透明度。（percents）。読み取り/書き込み Single. |
 
-## メソッド
+## Methods
 
 | 名前 | 説明 |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/reflection/equals)(object) | 指定された [`Reflection`](../reflection) が現在の [`Reflection`](../reflection) と等しいかどうかを判断します。 |
-| [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | 継承が適用された有効な Reflection エフェクトデータを取得します。 |
+| [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | 継承が適用された効果的な Reflection エフェクトデータを取得します。 |
 | override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | 特定の型に対するハッシュ関数として機能します。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [IReflection](../ireflection)
 * 名前空間 [Aspose.Slides.Effects](../../aspose.slides.effects)

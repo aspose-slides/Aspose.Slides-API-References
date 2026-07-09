@@ -1,14 +1,14 @@
 ---
 title: ILightRig
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes a .NET API Referenciához
 description: A LightRig-et képviseli.
 type: docs
-weight: 6250
+weight: 6270
 url: /hu/aspose.slides/ilightrig/
 ---
 ## ILightRig interfész
 
-Represents LightRig.
+A LightRig-et képviseli.
 
 ```csharp
 public interface ILightRig
@@ -19,14 +19,14 @@ public interface ILightRig
 | Név | Leírás |
 | --- | --- |
 | [Direction](../../aspose.slides/ilightrig/direction) { get; set; } | Fény iránya. Olvasás/írás [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | Egy előre beállított jobb fényt képvisel, amely egy alakzatra alkalmazható. A light rig egy fénycsoportot jelöl, amely egy adott módon van elrendezve egy 3D jelenethez képest. Olvasás/írás [`LightRigPresetType`](../lightrigpresettype). |
+| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | Egy előre beállított jobb oldali fényt képviseli, amely egy shape-re alkalmazható. A light rig egy csoport fényt képviseli, amelyek egy meghatározott módon vannak tájolva egy 3D jelenethez képest. Olvasás/írás [`LightRigPresetType`](../lightrigpresettype). |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | A forgást a szélességi koordináta, a hosszúsági koordináta és a tengely körüli forgalom használatával definiálják, mint a szélességi és hosszúsági koordináták. Az első elem a visszatérő tömbben – szélesség, a második – hosszúság, a harmadik – forgalom. |
-| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | A forgást a szélességi koordináta, a hosszúsági koordináta és a tengely körüli forgalom használatával definiálják, mint a szélességi és hosszúsági koordináták. |
+| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | A forgatás egy latitude koordináta, egy longitude koordináta és egy axis körüli revolution használatával van definiálva a latitude és longitude koordináták alapján. az első elem a visszatérő tömbben – latitude, a második – longitude, a harmadik – revolution. |
+| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | A forgatás egy latitude koordináta, egy longitude koordináta és egy axis körüli revolution használatával van definiálva a latitude és longitude koordináták alapján. |
 
 ### Lásd még
 

@@ -1,9 +1,9 @@
 ---
 title: MathFunctionFactory
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Memungkinkan membuat fungsi matematika
 type: docs
-weight: 8710
+weight: 8730
 url: /id/aspose.slides.mathtext/mathfunctionfactory/
 ---
 ## MathFunctionFactory kelas

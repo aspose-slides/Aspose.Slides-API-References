@@ -1,9 +1,9 @@
 ---
 title: ILineParamSource
-second_title: Aspose.Sildes pro .NET API
+second_title: Aspose.Slides pro .NET – referenční příručka API
 description: Rozhraní pomocných parametrů čáry.
 type: docs
-weight: 6310
+weight: 6330
 url: /cs/aspose.slides/ilineparamsource/
 ---
 ## ILineParamSource rozhraní

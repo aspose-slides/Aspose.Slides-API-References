@@ -1,14 +1,14 @@
 ---
 title: IAlphaBiLevel
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en Alpha Bi-Level-effekt. Alpha Opacity-värden som är mindre än tröskeln ändras till 0 helt transparent och alpha-värden som är större än eller lika med tröskeln ändras till 100 helt ogenomskinlig.
+description: Representerar en Alpha Bi-Level-effekt. Alpha-opacitetsvärden som är mindre än tröskelvärdet ändras till 0 helt genomskinliga och alfa-värden som är större än eller lika med tröskelvärdet ändras till 100 helt ogenomskinliga.
 type: docs
-weight: 3000
+weight: 3020
 url: /sv/aspose.slides.effects/ialphabilevel/
 ---
 ## IAlphaBiLevel gränssnitt
 
-Representerar en Alpha Bi-Level-effekt. Alpha-värden (Opacitet) som är mindre än tröskeln ändras till 0 (helt transparent) och alpha-värden som är större än eller lika med tröskeln ändras till 100 % (helt ogenomskinlig).
+Representerar en Alpha Bi-Level-effekt. Alpha (Opacity)-värden som är mindre än tröskelvärdet ändras till 0 (helt genomskinligt) och alpha-värden som är större än eller lika med tröskelvärdet ändras till 100 % (helt ogenomskinligt).
 
 ```csharp
 public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData>, 
@@ -19,15 +19,15 @@ public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphabilevel/asiaccessiblepviobject) { get; } | Tillåter att hämta bas-IAccessiblePVIObject-gränssnittet. Skrivskyddad [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphabilevel/asiimagetransformoperation) { get; } | Tillåter att hämta bas-IImageTransformOperation-gränssnittet. Skrivskyddad [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Threshold](../../aspose.slides.effects/ialphabilevel/threshold) { get; set; } | Returnerar effekttröskel. Läs/skriv Single. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphabilevel/asiaccessiblepviobject) { get; } | Tillåter att hämta bas-interface IAccessiblePVIObject. Skrivskyddad [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphabilevel/asiimagetransformoperation) { get; } | Tillåter att hämta bas-interface IImageTransformOperation. Skrivskyddad [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Threshold](../../aspose.slides.effects/ialphabilevel/threshold) { get; set; } | Returnerar effektens tröskelvärde. Läs/skriv Single. |
 
 ### Anmärkningar
 
 Använd ImageTransformOperationFactory för att skapa instanser i COM.
 
-### Se även
+### Se också
 
 * gränssnitt [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * gränssnitt [IAlphaBiLevelEffectiveData](../ialphabileveleffectivedata)

@@ -1,9 +1,9 @@
 ---
 title: Html5Options
-second_title: Aspose.Sildes para Referência da API .NET
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa opções de exportação HTML5.
 type: docs
-weight: 3840
+weight: 3860
 url: /pt/aspose.slides.export/html5options/
 ---
 ## Html5Options classe
@@ -16,25 +16,26 @@ public class Html5Options : SaveOptions, IHtml5Options
 
 ## Construtores
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [Html5Options](html5options)() | Construtor padrão. |
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | Obtém ou define a opção de animação de formas. Leitura/gravação Boolean. |
-| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | Obtém ou define a opção de animação de transições. Leitura/gravação Boolean. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Obtém ou define a fonte usada caso a fonte de origem não seja encontrada. Leitura/gravação String. |
+| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | Retorna ou define a opção de animação de formas. Leitura/Gravação Boolean. |
+| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | Retorna ou define a opção de animação de transições. Leitura/Gravação Boolean. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Retorna ou define a fonte usada caso a fonte de origem não seja encontrada. Leitura/Gravação String. |
 | [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | Obtém ou define um valor que indica se o texto é renderizado sem usar ligaduras. Quando definido como `true`, as ligaduras serão desativadas na saída renderizada. Por padrão, esta propriedade é definida como `false`. |
-| [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | Obtém ou define a opção de incorporação de imagens. Leitura/gravação Boolean. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Obtém ou define o estilo visual do gradiente. Leitura/gravação [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | Determina onde os recursos externos devem ser armazenados. Leitura/gravação String. |
+| [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | Retorna ou define a opção de incorporação de imagens. Leitura/Gravação Boolean. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Retorna ou define o estilo visual do gradiente. Leitura/Gravação [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | Determina onde os recursos externos devem ser armazenados. Leitura/Gravação String. |
+| [PicturesCompression](../../aspose.slides.export/html5options/picturescompression) { get; set; } | Representa o nível de compressão das imagens |
 | [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Representa um objeto de retorno de chamada para atualizações de progresso de salvamento em porcentagem. Veja [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Especifica se deve ignorar hyperlinks com chamadas JavaScript ao salvar a apresentação. Leitura/gravação Boolean. O valor padrão é **false**. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Especifica se deve ignorar hyperlinks com chamadas JavaScript ao salvar a apresentação. Leitura/Gravação Boolean. O valor padrão é **false**. |
 | [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | Obtém ou define o modo como os slides são posicionados na página ao exportar uma apresentação [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Obtém ou define um objeto que recebe avisos e decide se o processo de carregamento continuará ou será abortado. Leitura/gravação [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Retorna ou define um objeto que recebe avisos e decide se o processo de carregamento continuará ou será abortado. Leitura/Gravação [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Exemplos
 
@@ -52,7 +53,7 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### Ver Também
+### Ver também
 
 * classe [SaveOptions](../saveoptions)
 * interface [IHtml5Options](../ihtml5options)

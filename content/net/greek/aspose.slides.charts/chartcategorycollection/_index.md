@@ -1,9 +1,9 @@
 ---
 title: ChartCategoryCollection
-second_title: Aspose.Sildes για .NET Αναφορά API
+second_title: Aspose.Sildes για .NET API Αναφορά
 description: Αντιπροσωπεύει τη συλλογή του ChartCategory./chartcategory
 type: docs
-weight: 1260
+weight: 1280
 url: /el/aspose.slides.charts/chartcategorycollection/
 ---
 ## ChartCategoryCollection κλάση
@@ -14,36 +14,36 @@ url: /el/aspose.slides.charts/chartcategorycollection/
 public class ChartCategoryCollection : DomObject<ChartData>, IChartCategoryCollection
 ```
 
-## Properties
+## Ιδιότητες
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartcategorycollection/count) { get; } | Επιστρέφει έναν αριθμό στοιχείων στη συλλογή. Μόνο-ανάγνωση Int32. |
-| [GroupingLevelCount](../../aspose.slides.charts/chartcategorycollection/groupinglevelcount) { get; } | Επιστρέφει τον αριθμό των επιπέδων ομαδοποίησης κατηγοριών που χρησιμοποιούνται. Είναι μεγαλύτερο από ένα για πολυεπίπεδες κατηγορίες. Μόνο-ανάγνωση Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartcategorycollection/issynchronized) { get; } | Επιστρέφει τιμή που υποδεικνύει αν η πρόσβαση στη λίστα είναι συγχρονισμένη (thread safe). Μόνο-ανάγνωση Boolean. |
+| [Count](../../aspose.slides.charts/chartcategorycollection/count) { get; } | Επιστρέφει έναν αριθμό στοιχείων στη συλλογή. Μόνο για ανάγνωση Int32. |
+| [GroupingLevelCount](../../aspose.slides.charts/chartcategorycollection/groupinglevelcount) { get; } | Επιστρέφει τον αριθμό των επιπέδων ομαδοποίησης κατηγοριών που χρησιμοποιούνται. Είναι μεγαλύτερος από ένα για κατηγορίες πολλαπλών επιπέδων. Μόνο για ανάγνωση Int32. |
+| [IsSynchronized](../../aspose.slides.charts/chartcategorycollection/issynchronized) { get; } | Επιστρέφει μια τιμή που υποδεικνύει εάν η πρόσβαση στη List είναι συγχρονισμένη (thread safe). Μόνο για ανάγνωση Boolean. |
 | [Item](../../aspose.slides.charts/chartcategorycollection/item) { get; } | Λαμβάνει το στοιχείο στον καθορισμένο δείκτη. |
-| [SyncRoot](../../aspose.slides.charts/chartcategorycollection/syncroot) { get; } | Επιστρέφει ένα αντικείμενο που μπορεί να χρησιμοποιηθεί για τον συγχρονισμό της πρόσβασης στη συλλογή. Μόνο-ανάγνωση Object. |
-| [UseCells](../../aspose.slides.charts/chartcategorycollection/usecells) { get; set; } | Εάν είναι true, τότε χρησιμοποιείται φύλλο εργασίας για την αποθήκευση των κατηγοριών (αυτή η περίπτωση υποστηρίζει πολυεπίπεδες κατηγορίες). Εάν είναι false, το φύλλο εργασίας ΔΕΝ χρησιμοποιείται για την αποθήκευση τιμών (και αυτή η περίπτωση δεν υποστηρίζει πολυεπίπεδες κατηγορίες). Ανάγνωση/γραφή Boolean. |
+| [SyncRoot](../../aspose.slides.charts/chartcategorycollection/syncroot) { get; } | Επιστρέφει ένα αντικείμενο που μπορεί να χρησιμοποιηθεί για το συγχρονισμό της πρόσβασης στη συλλογή. Μόνο για ανάγνωση Object. |
+| [UseCells](../../aspose.slides.charts/chartcategorycollection/usecells) { get; set; } | Εάν είναι true, τότε το worksheet χρησιμοποιείται για την αποθήκευση των κατηγοριών (αυτή η περίπτωση υποστηρίζει κατηγορίες πολλαπλών επιπέδων). Εάν είναι false, το worksheet ΔΕΝ χρησιμοποιείται για την αποθήκευση τιμών (και αυτή η περίπτωση δεν υποστηρίζει κατηγορίες πολλαπλών επιπέδων). Ανάγνωση/εγγραφή Boolean. |
 
-## Methods
+## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Add](../../aspose.slides.charts/chartcategorycollection/add#add)(IChartDataCell) | Εάν η κατηγορία υπάρχει στη συλλογή, την επιστρέφει. Διαφορετικά δημιουργεί νέα κατηγορία διαγράμματος από [`IChartDataCell`](../ichartdatacell) και την προσθέτει στη συλλογή. |
+| [Add](../../aspose.slides.charts/chartcategorycollection/add#add)(IChartDataCell) | Εάν η κατηγορία υπάρχει στη συλλογή, την επιστρέφει. Διαφορετικά, δημιουργεί νέα κατηγορία γραφήματος από [`IChartDataCell`](../ichartdatacell) και την προσθέτει στη συλλογή. |
 | [Add](../../aspose.slides.charts/chartcategorycollection/add#add_1)(object) | Δημιουργεί νέο [`ChartCategory`](../chartcategory) από την τιμή και το προσθέτει στη συλλογή. |
 | [Clear](../../aspose.slides.charts/chartcategorycollection/clear)() | Αφαιρεί όλα τα στοιχεία από τη συλλογή. |
-| [CopyTo](../../aspose.slides.charts/chartcategorycollection/copyto)(Array, int) | Αντιγράφει όλα τα στοιχεία της συλλογής στον καθορισμένο πίνακα. |
+| [CopyTo](../../aspose.slides.charts/chartcategorycollection/copyto)(Array, int) | Αντιγράφει όλα τα στοιχεία της συλλογής στον καθορισμένο Array. |
 | [GetEnumerator](../../aspose.slides.charts/chartcategorycollection/getenumerator)() | Επιστρέφει έναν enumerator που διατρέχει τη συλλογή. |
-| [IndexOf](../../aspose.slides.charts/chartcategorycollection/indexof)(IChartCategory) | Αναζητά το συγκεκριμένο [`ChartCategory`](../chartcategory) και επιστρέφει τον μηδενικό δείκτη της πρώτης εμφάνισης εντός ολόκληρης της Συλλογής. |
+| [IndexOf](../../aspose.slides.charts/chartcategorycollection/indexof)(IChartCategory) | Αναζητά το καθορισμένο [`ChartCategory`](../chartcategory) και επιστρέφει τον μηδενικό δείκτη της πρώτης εμφάνισης στο σύνολο της Collection. |
 | [Remove](../../aspose.slides.charts/chartcategorycollection/remove)(IChartCategory) | Αφαιρεί την καθορισμένη τιμή. |
-| [RemoveAt](../../aspose.slides.charts/chartcategorycollection/removeat)(int) | Αφαιρεί το στοιχείο στον δεδομένο δείκτη. |
+| [RemoveAt](../../aspose.slides.charts/chartcategorycollection/removeat)(int) | Αφαιρεί το στοιχείο στον δοθέντα δείκτη. |
 
 ### Δείτε επίσης
 
 * κλάση [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * κλάση [ChartData](../chartdata)
-* διασύνδεση [IChartCategoryCollection](../ichartcategorycollection)
-* χώρο ονομάτων [Aspose.Slides.Charts](../../aspose.slides.charts)
-* συγκρότηση [Aspose.Slides](../../)
+* διεπαφή [IChartCategoryCollection](../ichartcategorycollection)
+* χώρος ονομάτων [Aspose.Slides.Charts](../../aspose.slides.charts)
+* συγκρότημα [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

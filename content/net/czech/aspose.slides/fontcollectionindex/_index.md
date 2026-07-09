@@ -1,14 +1,14 @@
 ---
 title: FontCollectionIndex
-second_title: Aspose.Sildes pro .NET API reference
-description: Reprezentuje index písma v kolekci.
+second_title: Aspose.Sildes pro .NET referenci API
+description: Reprezentuje index písem v kolekci.
 type: docs
-weight: 4790
+weight: 4810
 url: /cs/aspose.slides/fontcollectionindex/
 ---
-## FontCollectionIndex enumerace
+## FontCollectionIndex výčtový typ
 
-Reprezentuje index písma v kolekci.
+Representuje index písma ve sbírce.
 
 ```csharp
 public enum FontCollectionIndex : byte

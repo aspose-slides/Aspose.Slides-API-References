@@ -1,14 +1,14 @@
 ---
 title: PictureType
-second_title: Aspose.Sildes dla .NET API Reference
-description: Określa tryb wypełniania obrazu słupka.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Określa tryb wypełniania słupka obrazem.
 type: docs
-weight: 2340
+weight: 2360
 url: /pl/aspose.slides.charts/picturetype/
 ---
-## enumeracja PictureType
+## Wyliczenie PictureType
 
-Określa tryb wypełniania obrazu słupka.
+Określa tryb wypełniania wykresu słupkowego obrazem.
 
 ```csharp
 public enum PictureType
@@ -19,7 +19,7 @@ public enum PictureType
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
 | NotDefined | `-1` | Nie określono. |
-| Stack | `0` | Obraz jest skalowany, aby powtarzał się maksymalnie 15-razy w najdłuższym skumulowanym słupku. |
+| Stack | `0` | Obraz jest skalowany tak, aby powtarzał się maksymalnie 15 razy w najdłuższym skumulowanym słupku. |
 | StackScale | `1` | Obraz jest skalowany do określonej liczby jednostek i powtarzany na długość słupka. |
 | Stretch | `2` | Obraz jest rozciągany na pełną długość skumulowanego słupka. |
 

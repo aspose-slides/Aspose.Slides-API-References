@@ -1,9 +1,9 @@
 ---
 title: IRowFormat
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa o formato de uma linha de tabela.
 type: docs
-weight: 6850
+weight: 6870
 url: /pt/aspose.slides/irowformat/
 ---
 ## IRowFormat interface
@@ -20,7 +20,7 @@ public interface IRowFormat
 | --- | --- |
 | [GetEffective](../../aspose.slides/irowformat/geteffective)() | Obtém as propriedades de formatação efetiva da linha da tabela com herança e estilos de tabela aplicados. |
 
-### Ver também
+### Veja Também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

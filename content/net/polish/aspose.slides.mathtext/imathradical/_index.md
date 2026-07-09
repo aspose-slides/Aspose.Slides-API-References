@@ -1,14 +1,14 @@
 ---
 title: IMathRadical
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Określa funkcję pierwiastkowania składającą się z podstawy i opcjonalnego stopnia. Przykładem obiektu pierwiastkowego jest .
+second_title: Aspose.Sildes for .NET Referencja API
+description: Określa funkcję pierwiastkową składającą się z podstawy i opcjonalnego stopnia. Przykładem obiektu pierwiastkowego jest .
 type: docs
-weight: 8410
+weight: 8430
 url: /pl/aspose.slides.mathtext/imathradical/
 ---
-## Interfejs IMathRadical
+## IMathRadical interfejs
 
-Określa funkcję pierwiastkowania, składającą się z podstawy i opcjonalnego stopnia. Przykładem obiektu pierwiastkowego jest √𝑥.
+Określa funkcję pierwiastkową, składającą się z podstawy i opcjonalnego stopnia. Przykładem obiektu pierwiastkowego jest √𝑥.
 
 ```csharp
 public interface IMathRadical : IMathElement
@@ -18,10 +18,10 @@ public interface IMathRadical : IMathElement
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathradical/asimathelement) { get; } | Umożliwia pobranie podstawy interfejsu IMathElement [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathradical/base) { get; } | Argument bazowy |
+| [AsIMathElement](../../aspose.slides.mathtext/imathradical/asimathelement) { get; } | Umożliwia pobranie podstawy IMathElement interfejs [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathradical/base) { get; } | Argument podstawy |
 | [Degree](../../aspose.slides.mathtext/imathradical/degree) { get; } | Argument stopnia |
-| [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | Ukryj stopień. Gdy jest true, stopień nie jest wyświetlany, jak w √𝑥 |
+| [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | Ukryj stopień. Gdy jest true, stopień nie jest wyświetlany, tak jak w √𝑥 |
 
 ### Przykłady
 
@@ -32,7 +32,7 @@ Przykład:
 IMathRadical radical = new MathematicalText("x").Radical("3"); // pierwiastek sześcienny
 ```
 
-### Zobacz także
+### Zobacz również
 
 * interfejs [IMathElement](../imathelement)
 * przestrzeń nazw [Aspose.Slides.MathText](../../aspose.slides.mathtext)

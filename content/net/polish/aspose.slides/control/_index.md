@@ -1,12 +1,12 @@
 ---
 title: Control
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje kontrolkę ActiveX.
 type: docs
-weight: 2670
+weight: 2690
 url: /pl/aspose.slides/control/
 ---
-## Klasa Control
+## Control klasa
 
 Reprezentuje kontrolkę ActiveX.
 
@@ -18,12 +18,12 @@ public class Control : DomObject<ControlCollection>, IControl
 
 | Nazwa | Opis |
 | --- | --- |
-| [ActiveXControlBinary](../../aspose.slides/control/activexcontrolbinary) { get; } | Określa trwałość kontrolki ActiveX, gdy metodą używaną do utrwalenia jest PersistStream, PersistStreamInit lub PersistStorage. |
-| [ClassId](../../aspose.slides/control/classid) { get; set; } | Pobiera identyfikator klasy tej kontrolki. Tylko do odczytu Guid. |
+| [ActiveXControlBinary](../../aspose.slides/control/activexcontrolbinary) { get; } | Określa trwałość kontrolki ActiveX, gdy metodą zapisu jest PersistStream, PersistStreamInit lub PersistStorage. |
+| [ClassId](../../aspose.slides/control/classid) { get; set; } | Pobiera identyfikator klasy tej kontrolki. Guid tylko do odczytu. |
 | [Frame](../../aspose.slides/control/frame) { get; set; } | Zwraca lub ustawia ramkę kontrolki. Odczyt/zapis [`IShapeFrame`](../ishapeframe). |
 | [Name](../../aspose.slides/control/name) { get; set; } | Pobiera lub ustawia nazwę tej kontrolki. Odczyt/zapis String. |
 | [Persistence](../../aspose.slides/control/persistence) { get; } | Pobiera metodę używaną do przechowywania właściwości kontrolki ActiveX. Tylko do odczytu [`PersistenceType`](../persistencetype). |
-| [Properties](../../aspose.slides/control/properties) { get; } | Zwraca kolekcję właściwości ActiveX. Uwaga: Aspose.Slides obsługuje tylko właściwości ActiveX oparte na XML. Jeśli właściwości są przechowywane w formacie binarnym, ta właściwość zwróci wartość null. Tylko do odczytu [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
+| [Properties](../../aspose.slides/control/properties) { get; } | Zwraca kolekcję właściwości ActiveX. Uwaga: Aspose.Slides obsługuje tylko właściwości ActiveX oparte na XML. Jeśli właściwości są przechowywane w formacie binarnym, ta właściwość zwróci null. Tylko do odczytu [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
 | [SubstitutePictureFormat](../../aspose.slides/control/substitutepictureformat) { get; } | Zwraca obiekt właściwości wypełnienia obrazu kontrolki. Tylko do odczytu [`IPictureFillFormat`](../ipicturefillformat). |
 
 ### Zobacz także

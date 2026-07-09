@@ -1,14 +1,14 @@
 ---
 title: AxesCompositionNotCombinableException
-second_title: Aspose.Sildes の .NET API リファレンス
-description: シリーズの軸構成がチャート内の現在の軸構成と組み合わせ可能でない場合にスローされる例外です。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: シリーズの軸構成がチャートの現在の軸構成と組み合わせできない場合にスローされる例外です。
 type: docs
-weight: 1140
+weight: 1160
 url: /ja/aspose.slides.charts/axescompositionnotcombinableexception/
 ---
 ## AxesCompositionNotCombinableException クラス
 
-シリーズの軸構成がチャート内の現在の軸構成と組み合わせ可能でない場合にスローされる例外です。
+シリーズの軸構成がチャートの現在の軸構成と組み合わせできない場合にスローされる例外です。
 
 ```csharp
 public class AxesCompositionNotCombinableException : InvalidOperationException
@@ -18,11 +18,11 @@ public class AxesCompositionNotCombinableException : InvalidOperationException
 
 | 名前 | 説明 |
 | --- | --- |
-| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor)() | 既定のコンストラクタです。 |
+| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor)() | デフォルトコンストラクタです。 |
 | [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_1)(string) | この例外にメッセージを追加できるコンストラクタです。 |
-| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_2)(string, Exception) | メッセージと内部例外を含む例外のためのコンストラクタです。 |
+| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_2)(string, Exception) | メッセージと内部例外を含む例外用のコンストラクタです。 |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * アセンブリ [Aspose.Slides](../../)

@@ -1,12 +1,12 @@
 ---
 title: INotesSize
-second_title: Aspose.Sildes para a Referência da API .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa um tamanho de slide de notas.
 type: docs
-weight: 6470
+weight: 6490
 url: /pt/aspose.slides/inotessize/
 ---
-## INotesSize interface
+## interface INotesSize
 
 Representa um tamanho de slide de notas.
 
@@ -18,9 +18,9 @@ public interface INotesSize
 
 | Nome | Descrição |
 | --- | --- |
-| [Size](../../aspose.slides/inotessize/size) { get; set; } | Retorna ou define o tamanho em pontos. Leitura/gravação SizeF. |
+| [Size](../../aspose.slides/inotessize/size) { get; set; } | Retorna ou define o tamanho em pontos. Leitura/Gravação SizeF. |
 
-### Veja Também
+### Ver Também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: MathNaryOperatorTypes
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Tipi di operatore n-ario IMathNaryOperator esclusi gli integrali Per gli integrali MathIntegralTypes./mathintegraltypes
+description: Operatori N-ari IMathNaryOperator esclusi gli integrali. Per gli integrali MathIntegralTypes./mathintegraltypes
 type: docs
-weight: 8870
+weight: 8890
 url: /it/aspose.slides.mathtext/mathnaryoperatortypes/
 ---
 ## MathNaryOperatorTypes enumerazione
 
-Tipi di operatore n-ario IMathNaryOperator (esclusi gli integrali) Per gli integrali [`MathIntegralTypes`](../mathintegraltypes)
+Operatori N-ari IMathNaryOperator (esclusi gli integrali) Per gli integrali [`MathIntegralTypes`](../mathintegraltypes)
 
 ```csharp
 public enum MathNaryOperatorTypes
@@ -16,15 +16,15 @@ public enum MathNaryOperatorTypes
 
 ### Valori
 
-| Name | Value | Description |
+| Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Summation | `0` | Somma: '∑' |
-| Product | `1` | Prodotto: '∏' |
-| CoProduct | `2` | Coprodotto: '∐' |
-| Intersection | `3` | Intersezione: '∩' |
-| Union | `4` | Unione: '∪' |
-| LogicalAnd | `5` | AND logico: '∧' |
-| LogicalOr | `6` | OR logico: '∨' |
+| Summation | `0` | Summation: '∑' |
+| Product | `1` | Product: '∏' |
+| CoProduct | `2` | Coproduct: '∐' |
+| Intersection | `3` | Intersection: '∩' |
+| Union | `4` | Union: '∪' |
+| LogicalAnd | `5` | And logico: '∧' |
+| LogicalOr | `6` | Or logico: '∨' |
 
 ### Vedi anche
 

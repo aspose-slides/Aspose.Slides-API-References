@@ -1,14 +1,14 @@
 ---
 title: IRowFormatEffectiveData
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Oggetto immutabile che contiene le proprietà di formattazione effettiva della riga della tabella.
+description: Oggetto immutabile che contiene le proprietà di formattazione efficace della riga della tabella.
 type: docs
-weight: 6860
+weight: 6880
 url: /it/aspose.slides/irowformateffectivedata/
 ---
 ## IRowFormatEffectiveData interfaccia
 
-Oggetto immutabile che contiene le proprietà di formattazione effettiva della riga della tabella.
+Oggetto immutabile che contiene le proprietà di formattazione efficace della riga di tabella.
 
 ```csharp
 public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -18,11 +18,11 @@ public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/irowformateffectivedata/asibasetableformateffectivedata) { get; } | Consente di ottenere l'interfaccia base IBaseTableFormatEffectiveData. Solo lettura [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/irowformateffectivedata/asibasetableformateffectivedata) { get; } | Consente di ottenere l'interfaccia base IBaseTableFormatEffectiveData. Sola lettura [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
 
-### Note
+### Osservazioni
 
-Questa interfaccia è usata insieme all'interfaccia [`IRowFormat`](../irowformat) per restituire i valori di formattazione effettiva con ereditarietà e stili di tabella applicati.
+Questa interfaccia è usata insieme all'interfaccia [`IRowFormat`](../irowformat) per restituire i valori di formattazione efficace con ereditarietà e stili di tabella applicati.
 
 ### Vedi anche
 

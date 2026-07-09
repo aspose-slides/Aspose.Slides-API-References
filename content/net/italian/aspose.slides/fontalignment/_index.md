@@ -1,12 +1,12 @@
 ---
 title: FontAlignment
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta l'allineamento verticale del font.
+second_title: "Riferimento API Aspose.Sildes per .NET"
+description: "Rappresenta l'allineamento verticale del font."
 type: docs
-weight: 4780
+weight: 4800
 url: /it/aspose.slides/fontalignment/
 ---
-## Enumerazione FontAlignment
+## FontAlignment enumerazione
 
 Rappresenta l'allineamento verticale del font.
 

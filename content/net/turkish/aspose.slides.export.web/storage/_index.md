@@ -1,14 +1,14 @@
 ---
 title: Storage
 second_title: Aspose.Sildes için .NET API Referansı
-description: WebDocument./webdocument için geçici bir veri depolama birimini temsil eder.
+description: WebDocument./webdocument için geçici bir veri depolama alanını temsil eder.
 type: docs
-weight: 4640
+weight: 4660
 url: /tr/aspose.slides.export.web/storage/
 ---
 ## Depolama sınıfı
 
-Belirtilen [`WebDocument`](../webdocument) için geçici bir veri depolama birimini temsil eder.
+Belirtilen [`WebDocument`](../webdocument) için geçici bir veri depolama alanını temsil eder.
 
 ```csharp
 public sealed class Storage

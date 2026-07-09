@@ -3,7 +3,7 @@ title: MathFunctionsOfOneArgument
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Funzioni matematiche comuni di un argomento
 type: docs
-weight: 8720
+weight: 8740
 url: /it/aspose.slides.mathtext/mathfunctionsofoneargument/
 ---
 ## MathFunctionsOfOneArgument enumerazione
@@ -32,18 +32,18 @@ public enum MathFunctionsOfOneArgument
 | HyperbolicCot | `11` | Cotangente iperbolica |
 | Lg | `12` | Logaritmo decimale |
 | Ln | `13` | Logaritmo naturale |
-| ArcSin | `14` | Arcseno |
-| ArcCos | `15` | Arccoseno |
-| ArcTan | `16` | Arctangente |
-| ArcCsc | `17` | Arccosecante |
+| ArcSin | `14` | Arcoseno |
+| ArcCos | `15` | Arcocoseno |
+| ArcTan | `16` | Arcotangente |
+| ArcCsc | `17` | Arcocosecante |
 | ArcSec | `18` | Arcosecante |
-| ArcCot | `19` | Arccotangente |
-| HyperbolicArcSin | `20` | Arcseno iperbolico |
-| HyperbolicArcCos | `21` | Arccoseno iperbolico |
-| HyperbolicArcTan | `22` | Arctangente iperbolica |
-| HyperbolicArcCsc | `23` | Arccosecante iperbolica |
+| ArcCot | `19` | Arcocotangente |
+| HyperbolicArcSin | `20` | Arcoseno iperbolico |
+| HyperbolicArcCos | `21` | Arcocoseno iperbolico |
+| HyperbolicArcTan | `22` | Arcotangente iperbolica |
+| HyperbolicArcCsc | `23` | Arcocosecante iperbolica |
 | HyperbolicArcSec | `24` | Arcosecante iperbolica |
-| HyperbolicArcCot | `25` | Arccotangente iperbolica |
+| HyperbolicArcCot | `25` | Arcocotangente iperbolica |
 
 ### Vedi anche
 

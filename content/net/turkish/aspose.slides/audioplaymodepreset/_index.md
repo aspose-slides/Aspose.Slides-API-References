@@ -1,14 +1,14 @@
 ---
 title: AudioPlayModePreset
 second_title: Aspose.Sildes için .NET API Referansı
-description: Sesin nasıl çalınacağını tanımlayan sabitler.
+description: Bir sesin nasıl çalacağını tanımlayan sabitler.
 type: docs
-weight: 860
+weight: 880
 url: /tr/aspose.slides/audioplaymodepreset/
 ---
 ## AudioPlayModePreset enum
 
-Sesin nasıl çalınacağını tanımlayan sabitler.
+Bir sesin nasıl çalacağını tanımlayan sabitler.
 
 ```csharp
 public enum AudioPlayModePreset
@@ -16,13 +16,13 @@ public enum AudioPlayModePreset
 
 ### Değerler
 
-| Ad | Değer | Açıklama |
+| Name | Value | Description |
 | --- | --- | --- |
 | Mixed | `-1` |  |
-| Auto | `0` | Otomatik olarak çal. |
-| OnClick | `1` | Sadece simgeye tıklandığında çal. |
-| AllSlides | `2` | Tüm slaytlarda çal. Please use [`PlayAcrossSlides`](../iaudioframe/playacrossslides) property instead. This element is out of date since PowerPoint 2013. |
-| InClickSequence | `3` | Bir tıklama ile otomatik olarak çal. |
+| Auto | `0` | Otomatik olarak çalar. |
+| OnClick | `1` | Sadece simgeye tıklandığında çalar. |
+| AllSlides | `2` | Tüm slaytlarda çalar. Lütfen yerine [`PlayAcrossSlides`](../iaudioframe/playacrossslides) özelliğini kullanın. Bu öğe PowerPoint 2013'ten beri güncel değildir. |
+| InClickSequence | `3` | Bir tıklama ile otomatik olarak çalar. |
 
 ### Ayrıca Bakınız
 

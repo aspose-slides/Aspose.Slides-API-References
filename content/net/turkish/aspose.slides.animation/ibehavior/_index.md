@@ -1,14 +1,14 @@
 ---
 title: IBehavior
 second_title: Aspose.Sildes için .NET API Referansı
-description: Efektin temel sınıf davranışını temsil eder.
+description: Etkinin temel sınıf davranışını temsil eder.
 type: docs
-weight: 390
+weight: 410
 url: /tr/aspose.slides.animation/ibehavior/
 ---
-## IBehavior arayüz
+## IBehavior arayüzü
 
-Etkinin temel sınıf davranışını temsil eder.
+Temel sınıf davranışını temsil eder.
 
 ```csharp
 public interface IBehavior
@@ -18,9 +18,9 @@ public interface IBehavior
 
 | Ad | Açıklama |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/ibehavior/accumulate) { get; set; } | Animasyon davranışlarının biriktirilip biriktirilmediğini temsil eder. Okunur/yazılabilir [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Accumulate](../../aspose.slides.animation/ibehavior/accumulate) { get; set; } | Animasyon davranışlarının birikip birikmediğini temsil eder. Okunur/yazılabilir [`NullableBool`](../../aspose.slides/nullablebool). |
 | [Additive](../../aspose.slides.animation/ibehavior/additive) { get; set; } | Mevcut animasyon davranışının diğer çalışan animasyonlarla birleştirilip birleştirilmediğini temsil eder. Okunur/yazılabilir [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [Properties](../../aspose.slides.animation/ibehavior/properties) { get; } | Davranışın özelliklerini temsil eder. Sadece okunur [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Properties](../../aspose.slides.animation/ibehavior/properties) { get; } | Davranışın özelliklerini temsil eder. Yalnızca okuma [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
 | [Timing](../../aspose.slides.animation/ibehavior/timing) { get; set; } | Efekt davranışı için zamanlama özelliklerini temsil eder. Okunur/yazılabilir [`ITiming`](../itiming). |
 
 ### Ayrıca Bakınız

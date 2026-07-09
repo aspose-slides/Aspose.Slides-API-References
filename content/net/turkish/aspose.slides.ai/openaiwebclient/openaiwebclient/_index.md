@@ -1,14 +1,14 @@
 ---
 title: OpenAIWebClient
 second_title: Aspose.Sildes for .NET API Referansı
-description: OpenAI Web istemcisinin bir örneğini oluşturur.
+description: OpenAI web istemcisinin bir örneğini oluşturur.
 type: docs
 weight: 10
 url: /tr/aspose.slides.ai/openaiwebclient/openaiwebclient/
 ---
 ## OpenAIWebClient(string, string, string) {#constructor}
 
-OpenAI Web client'ın bir örneğini oluşturur.
+OpenAI web istemcisinin bir örneğini oluşturur.
 
 ```csharp
 public OpenAIWebClient(string model, string apiKey, string organizationId)
@@ -17,17 +17,17 @@ public OpenAIWebClient(string model, string apiKey, string organizationId)
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | model | String | OpenAI dil modeli. Olası değerler: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
-| apiKey | String | OpenAI API key |
-| organizationId | String | Organization ID (isteğe bağlı) |
+| apiKey | String | OpenAI API anahtarı. |
+| organizationId | String | Organization ID (isteğe bağlı). |
 
 ### İstisnalar
 
-| istisna | koşul |
+| exception | condition |
 | --- | --- |
-| ArgumentException | API anahtarının değeri null veya boş olamaz |
-| ArgumentException | Metin model değeri null veya boş olamaz |
+| ArgumentException | API anahtarı değeri null veya boş olamaz. |
+| ArgumentException | Metin model değeri null veya boş olamaz. |
 
-### Ayrıca Bakınız
+### Bakınız
 
 * sınıf [OpenAIWebClient](../../openaiwebclient)
 * ad alanı [Aspose.Slides.AI](../../openaiwebclient)
@@ -37,7 +37,7 @@ public OpenAIWebClient(string model, string apiKey, string organizationId)
 
 ## OpenAIWebClient(string, string, string, HttpClient) {#constructor_1}
 
-OpenAI Web client'ın bir örneğini oluşturur.
+Harici olarak yönetilen bir HttpClient kullanan OpenAI web istemcisinin bir örneğini oluşturur. Sağlanan HttpClient bu örnek tarafından serbest bırakılmaz ve çağıranın sorumluluğunda kalır.
 
 ```csharp
 public OpenAIWebClient(string model, string apiKey, string organizationId, HttpClient httpClient)
@@ -46,18 +46,19 @@ public OpenAIWebClient(string model, string apiKey, string organizationId, HttpC
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | model | String | OpenAI dil modeli. Olası değerler: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
-| apiKey | String | OpenAI API key |
+| apiKey | String | OpenAI API anahtarı |
 | organizationId | String | Organization ID (isteğe bağlı) |
-| httpClient | HttpClient | Harici olarak yönetilen `HttpClient` örneği. |
+| httpClient | HttpClient | Harici olarak yönetilen `HttpClient` örneği |
 
 ### İstisnalar
 
-| istisna | koşul |
+| exception | condition |
 | --- | --- |
-| ArgumentException | API anahtarının değeri null veya boş olamaz |
+| ArgumentException | API anahtarı değeri null veya boş olamaz |
 | ArgumentException | Metin model değeri null veya boş olamaz |
+| ArgumentNullException | HttpClient null olamaz |
 
-### Ayrıca Bakınız
+### Bakınız
 
 * sınıf [OpenAIWebClient](../../openaiwebclient)
 * ad alanı [Aspose.Slides.AI](../../openaiwebclient)

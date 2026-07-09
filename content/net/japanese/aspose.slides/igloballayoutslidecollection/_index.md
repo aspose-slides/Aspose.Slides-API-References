@@ -1,14 +1,14 @@
 ---
 title: IGlobalLayoutSlideCollection
 second_title: Aspose.Sildes for .NET API リファレンス
-description: プレゼンテーション内のすべてのレイアウト スライドのコレクションを表します。個々のマスター レイアウト スライドのコレクションを統合するコンテキストで、レイアウト スライドを追加/複製するメソッドを備えた ILayoutSlideCollection インターフェイスを拡張します。
+description: プレゼンテーション内のすべてのレイアウト スライドのコレクションを表します。ILayoutSlideCollection インターフェイスを拡張し、マスターのレイアウト スライドの個々のコレクションを統合するコンテキストでレイアウト スライドを追加/クローンするためのメソッドを提供します。
 type: docs
-weight: 5970
+weight: 5990
 url: /ja/aspose.slides/igloballayoutslidecollection/
 ---
 ## IGlobalLayoutSlideCollection インターフェイス
 
-プレゼンテーション内のすべてのレイアウト スライドのコレクションを表します。個々のマスター レイアウト スライドのコレクションを統合するコンテキストで、レイアウト スライドを追加/複製するメソッドを備えた ILayoutSlideCollection インターフェイスを拡張します。
+プレゼンテーション内のすべてのレイアウト スライドのコレクションを表します。ILayoutSlideCollection インターフェイスを拡張し、マスターのレイアウト スライドの個々のコレクションを統合するコンテキストでレイアウト スライドを追加/クローンするためのメソッドを提供します。
 
 ```csharp
 public interface IGlobalLayoutSlideCollection : ILayoutSlideCollection
@@ -28,7 +28,7 @@ public interface IGlobalLayoutSlideCollection : ILayoutSlideCollection
 | [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone)(ILayoutSlide) | 指定されたレイアウト スライドのコピーをプレゼンテーションに追加します。 |
 | [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | 指定されたレイアウト スライドのコピーをプレゼンテーションに追加します。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [ILayoutSlideCollection](../ilayoutslidecollection)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

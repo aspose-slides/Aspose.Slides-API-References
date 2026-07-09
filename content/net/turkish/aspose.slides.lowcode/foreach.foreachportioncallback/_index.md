@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachPortionCallback
-second_title: Aspose.Sildes .NET API Referansı
-description: Her bir Portion için çağrılacak geri çağırma./foreach/portion Paragraf içinde./foreach/paragraph BaseSlide üzerinde../aspose.slides/baseslide.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Her Portion için çağrılacak geri çağırma./foreach/portion Paragraph içinde./foreach/paragraph BaseSlide üzerinde../aspose.slides/baseslide.
 type: docs
-weight: 7920
+weight: 7940
 url: /tr/aspose.slides.lowcode/foreach.foreachportioncallback/
 ---
 ## ForEach.ForEachPortionCallback delegate
 
-Her bir [`Portion`](../foreach/portion) için [`Paragraph`](../foreach/paragraph) içinde [`BaseSlide`](../../aspose.slides/baseslide) üzerinde çağrılacak geri çağırma.
+Her [`Portion`](../foreach/portion) için [`Paragraph`](../foreach/paragraph) içinde [`BaseSlide`](../../aspose.slides/baseslide) üzerinde çağrılacak geri çağırma.
 
 ```csharp
 public delegate void ForEachPortionCallback(Portion portion, Paragraph para, BaseSlide slide, 
@@ -17,12 +17,12 @@ public delegate void ForEachPortionCallback(Portion portion, Paragraph para, Bas
 
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| portion | Portion | Şu an yinelenen bölüm |
-| para | Paragraph | Şu an yinelenen paragraf |
-| slide | BaseSlide | Şu an yinelenen slayt |
-| index | Int32 | Paragraftaki mevcut bölümün indeksi |
+| portion | Portion | Geçerli yineleme yapılan bölüm |
+| para | Paragraph | Geçerli yineleme yapılan paragraf |
+| slide | BaseSlide | Geçerli yineleme yapılan slayt |
+| index | Int32 | Paragraftaki geçerli bölümün indeksi |
 
-### Ayrıca Bakınız
+### Bakınız
 
 * sınıf [Portion](../../aspose.slides/portion)
 * sınıf [Paragraph](../../aspose.slides/paragraph)

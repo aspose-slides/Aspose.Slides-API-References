@@ -1,9 +1,9 @@
 ---
 title: MotionEffect
 second_title: Aspose.Sildes για .NET Αναφορά API
-description: Αντιπροσωπεύει τη συμπεριφορά του εφέ κίνησης.
+description: Αναπαριστά τη συμπεριφορά του εφέ κίνησης.
 type: docs
-weight: 650
+weight: 670
 url: /el/aspose.slides.animation/motioneffect/
 ---
 ## MotionEffect κλάση
@@ -24,24 +24,24 @@ public class MotionEffect : Behavior, IMotionEffect
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Αντιπροσωπεύει αν οι συμπεριφορές κίνησης είναι συσσωρευμένες. Ανάγνωση/εγγραφή [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Αντιπροσωπεύει αν η τρέχουσα συμπεριφορά κίνησης συνδυάζεται με άλλες εκτελούμενες κινήσεις. Ανάγνωση/εγγραφή [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [Angle](../../aspose.slides.animation/motioneffect/angle) { get; set; } | Περιγράφει τη σχετική γωνία της διαδρομής κίνησης. Ανάγνωση/εγγραφή Single. |
-| [By](../../aspose.slides.animation/motioneffect/by) { get; set; } | Περιγράφει τη σχετική τιμή μετατόπισης για την κίνηση (σε ποσοστά). Ανάγνωση/εγγραφή PointF. |
-| [From](../../aspose.slides.animation/motioneffect/from) { get; set; } | Καθορίζει το σύγγραμμα x/y από το οποίο ξεκινά η κίνηση (σε ποσοστά). Ανάγνωση/εγγραφή PointF. |
-| [Origin](../../aspose.slides.animation/motioneffect/origin) { get; set; } | Καθορίζει το σημείο προέλευσης της διαδρομής κίνησης σε σχέση με το σχέδιο της διαφάνειας ή τον γονέα. Ανάγνωση/εγγραφή [`MotionOriginType`](../motionorigintype). |
-| [Path](../../aspose.slides.animation/motioneffect/path) { get; set; } | Καθορίζει το στοιχείο διαδρομής που ακολουθείται από συντεταγμένες για την κίνηση του εφέ. Ανάγνωση/εγγραφή [`IMotionPath`](../imotionpath). |
-| [PathEditMode](../../aspose.slides.animation/motioneffect/patheditmode) { get; set; } | Καθορίζει πώς μετακινείται η διαδρομή κίνησης όταν το σχήμα μετακινείται. Ανάγνωση/εγγραφή [`MotionPathEditMode`](../motionpatheditmode). |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Αντιπροσωπεύει τις ιδιότητες της συμπεριφοράς. Μόνο ανάγνωση [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [RotationCenter](../../aspose.slides.animation/motioneffect/rotationcenter) { get; set; } | Περιγράφει το κέντρο περιστροφής που χρησιμοποιείται για περιστροφή μιας διαδρομής κίνησης κατά γωνία X. Ανάγνωση/εγγραφή PointF. |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Αντιπροσωπεύει τις ιδιότητες χρονομέτρησης για τη συμπεριφορά του εφέ. Ανάγνωση/εγγραφή [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/motioneffect/to) { get; set; } | Καθορίζει τη θέση στόχο για ένα εφέ κίνησης (σε ποσοστά). Ανάγνωση/εγγραφή PointF. |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Αντιπροσωπεύει εάν οι συμπεριφορές κίνησης συσσωρεύονται. Ανάγνωση/Εγγραφή [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Αντιπροσωπεύει εάν η τρέχουσα συμπεριφορά κίνησης συνδυάζεται με άλλες εκτελούμενες κινήσεις. Ανάγνωση/Εγγραφή [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Angle](../../aspose.slides.animation/motioneffect/angle) { get; set; } | Περιγράφει τη σχετική γωνία της διαδρομής κίνησης. Ανάγνωση/Εγγραφή Single. |
+| [By](../../aspose.slides.animation/motioneffect/by) { get; set; } | Περιγράφει τη σχετική τιμή μετατόπισης για την animation (σε ποσοστά). Ανάγνωση/Εγγραφή PointF. |
+| [From](../../aspose.slides.animation/motioneffect/from) { get; set; } | Καθορίζει τις συντεταγμένες x/y από όπου ξεκινά η animation (σε ποσοστά). Ανάγνωση/Εγγραφή PointF. |
+| [Origin](../../aspose.slides.animation/motioneffect/origin) { get; set; } | Καθορίζει τι είναι η αρχή της διαδρομής κίνησης σε σχέση με κάτι, όπως η διάταξη της διαφάνειας ή ο γονέας. Ανάγνωση/Εγγραφή [`MotionOriginType`](../motionorigintype). |
+| [Path](../../aspose.slides.animation/motioneffect/path) { get; set; } | Καθορίζει το πρωτόγονο της διαδρομής που ακολουθείται από συντεταγμένες για την κίνηση της animation. Ανάγνωση/Εγγραφή [`IMotionPath`](../imotionpath). |
+| [PathEditMode](../../aspose.slides.animation/motioneffect/patheditmode) { get; set; } | Καθορίζει πώς η διαδρομή κίνησης κινείται όταν μετακινείται το σχήμα. Ανάγνωση/Εγγραφή [`MotionPathEditMode`](../motionpatheditmode). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Αντιπροσωπεύει τις ιδιότητες της συμπεριφοράς. Μόνο-ανάγνωση [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [RotationCenter](../../aspose.slides.animation/motioneffect/rotationcenter) { get; set; } | Περιγράφει το κέντρο περιστροφής που χρησιμοποιείται για την περιστροφή μιας διαδρομής κίνησης κατά γωνία X. Ανάγνωση/Εγγραφή PointF. |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Αντιπροσωπεύει τις ιδιότητες χρονισμού για τη συμπεριφορά του εφέ. Ανάγνωση/Εγγραφή [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/motioneffect/to) { get; set; } | Καθορίζει τη θέση στόχο για ένα εφέ κίνησης animation (σε ποσοστά). Ανάγνωση/Εγγραφή PointF. |
 
 ### Δείτε επίσης
 
 * κλάση [Behavior](../behavior)
-* διεπαφή [IMotionEffect](../imotioneffect)
-* χώρο ονομάτων [Aspose.Slides.Animation](../../aspose.slides.animation)
+* διασύνδεση [IMotionEffect](../imotioneffect)
+* χώρος ονομάτων [Aspose.Slides.Animation](../../aspose.slides.animation)
 * συγκρότημα [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

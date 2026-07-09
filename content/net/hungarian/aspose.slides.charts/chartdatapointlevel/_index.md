@@ -1,14 +1,14 @@
 ---
 title: ChartDataPointLevel
-second_title: Aspose.Sildes .NET API Referencia
-description: Az adatpont szintet képviseli. A Treemap és a Sunburst diagrammokra érvényes.
+second_title: Aspose.Sildes a .NET API hivatkozás
+description: Képviseli az adatpont szintet. Alkalmazható a Treemap és Sunburst diagramra.
 type: docs
-weight: 1330
+weight: 1350
 url: /hu/aspose.slides.charts/chartdatapointlevel/
 ---
 ## ChartDataPointLevel osztály
 
-Az adatpont szintet képviseli. Alkalmazható a Treemap és a Sunburst diagrammokra.
+Képviseli az adatpont szintet. Alkalmazható a Treemap és a Sunburst diagramra.
 
 ```csharp
 public class ChartDataPointLevel : DomObject<ChartDataPointLevelsManager>, IChartDataPointLevel
@@ -18,8 +18,8 @@ public class ChartDataPointLevel : DomObject<ChartDataPointLevelsManager>, IChar
 
 | Név | Leírás |
 | --- | --- |
-| [Format](../../aspose.slides.charts/chartdatapointlevel/format) { get; } | Az adatpont szint formázási tulajdonságait képviseli. Olvasás/írás [`IFormat`](../iformat). |
-| [Label](../../aspose.slides.charts/chartdatapointlevel/label) { get; } | Az adatpont szint adatcímkéjét képviseli. A Treemap és a Sunburst sorozattípusokra alkalmazott. Csak olvasható [`IDataLabel`](../idatalabel). |
+| [Format](../../aspose.slides.charts/chartdatapointlevel/format) { get; } | Képviseli az adatpont szint formázási tulajdonságait. Olvasás/írás [`IFormat`](../iformat). |
+| [Label](../../aspose.slides.charts/chartdatapointlevel/label) { get; } | Képviseli az adatpont szint adatcímkéjét. Alkalmazható a Treemap és a Sunburst sorozattípusokra. Csak olvasható [`IDataLabel`](../idatalabel). |
 
 ### Lásd még
 

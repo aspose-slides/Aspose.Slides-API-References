@@ -1,14 +1,14 @@
 ---
 title: IStringOrDoubleChartValue
-second_title: Aspose.Sildes for .NET API リファレンス
-description: pptx プレゼンテーション ドキュメントに保存できる文字列または double 値を表します。保存方法は 2 つあります：1) チャートに関連付けられたワークブックのセル/セル群に、2) リテラル値として。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: 文字列または double の値を表し、pptx プレゼンテーション ドキュメントに 2 つの方法で格納できます。1) チャートに関連するブックのセル/セル群に、2) リテラル値として。
 type: docs
-weight: 2210
+weight: 2230
 url: /ja/aspose.slides.charts/istringordoublechartvalue/
 ---
 ## IStringOrDoubleChartValue インターフェイス
 
-pptx プレゼンテーション ドキュメントに保存できる文字列または double 値を表します。保存方法は 2 つあります：1) チャートに関連付けられたワークブックのセル/セル群に；2) リテラル値として。
+文字列または double の値を表し、pptx プレゼンテーション ドキュメントに 2 つの方法で格納できます: 1) チャートに関連付けられたブックのセル/セル群に; 2) リテラル値として。
 
 ```csharp
 public interface IStringOrDoubleChartValue : ISingleCellChartValue
@@ -16,15 +16,15 @@ public interface IStringOrDoubleChartValue : ISingleCellChartValue
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [AsISingleCellChartValue](../../aspose.slides.charts/istringordoublechartvalue/asisinglecellchartvalue) { get; } | ベース ISingleCellChartValue インターフェイスを取得できます。読み取り専用 [`ISingleCellChartValue`](../isinglecellchartvalue)。 |
-| [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | DataSourceType プロパティが DataSourceType.DoubleLiterals の場合、リテラル double を取得または設定します。読み書き可能 Double。 |
-| [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | DataSourceType プロパティが DataSourceType.StringLiterals の場合、リテラル文字列を取得または設定します。読み書き可能 String。 |
+| [AsISingleCellChartValue](../../aspose.slides.charts/istringordoublechartvalue/asisinglecellchartvalue) { get; } | ベースの ISingleCellChartValue インターフェイスを取得できます。読み取り専用 [`ISingleCellChartValue`](../isinglecellchartvalue)。 |
+| [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | DataSourceType プロパティが DataSourceType.DoubleLiterals の場合、リテラルの double を取得または設定します。読み書き可能 Double。 |
+| [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | DataSourceType プロパティが DataSourceType.StringLiterals の場合、リテラルの文字列を取得または設定します。読み書き可能 String。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [ToDouble](../../aspose.slides.charts/istringordoublechartvalue/todouble)() | 値を double に変換します。 |
 

@@ -1,12 +1,12 @@
 ---
 title: ISequence
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili koleksi urutan efek.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili urutan koleksi efek.
 type: docs
-weight: 570
+weight: 590
 url: /id/aspose.slides.animation/isequence/
 ---
-## Antarmuka ISequence
+## antarmuka ISequence
 
 Mewakili urutan (koleksi efek).
 
@@ -18,10 +18,10 @@ public interface ISequence : IEnumerable<IEffect>
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/isequence/asienumerable) { get; } | Mengizinkan untuk mengambil antarmuka IEnumerable dasar. Hanya-baca IEnumerable. |
-| [Count](../../aspose.slides.animation/isequence/count) { get; } | Mengembalikan jumlah efek dalam urutan. Hanya-baca Int32. |
+| [AsIEnumerable](../../aspose.slides.animation/isequence/asienumerable) { get; } | Memungkinkan mendapatkan antarmuka IEnumerable dasar. IEnumerable hanya-baca. |
+| [Count](../../aspose.slides.animation/isequence/count) { get; } | Mengembalikan jumlah efek dalam urutan. Int32 hanya-baca. |
 | [Item](../../aspose.slides.animation/isequence/item) { get; } | Mengembalikan efek pada indeks yang ditentukan. |
-| [TriggerShape](../../aspose.slides.animation/isequence/triggershape) { get; set; } | Mengembalikan atau mengatur target shape untuk urutan INTERACTIVE. Jika urutan tidak interaktif maka mengembalikan null. Baca/tulis [`IShape`](../../aspose.slides/ishape). |
+| [TriggerShape](../../aspose.slides.animation/isequence/triggershape) { get; set; } | Mengembalikan atau mengatur target shape untuk urutan INTERACTIVE. Jika urutan tidak interaktif maka mengembalikan null. [`IShape`](../../aspose.slides/ishape) baca/tulis. |
 
 ## Metode
 

@@ -1,14 +1,14 @@
 ---
 title: IFontsLoader
-second_title: Aspose.Sildes for .NET API リファレンス
-description: ユーザーが定義したカスタムフォントをロードするためのクラスです。プレゼンテーションオブジェクトを作成する前に使用する必要があります。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: ユーザーが定義したカスタムフォントを読み込むためのクラスです。プレゼンテーション オブジェクトを作成する前に使用する必要があります。
 type: docs
-weight: 5900
+weight: 5920
 url: /ja/aspose.slides/ifontsloader/
 ---
 ## IFontsLoader インターフェイス
 
-ユーザーが定義したカスタムフォントをロードするためのクラスです。プレゼンテーションオブジェクトを作成する前に使用する必要があります。
+ユーザーが定義したカスタムフォントを読み込むためのクラスです。プレゼンテーション オブジェクトを作成する前に使用する必要があります。
 
 ```csharp
 public interface IFontsLoader

@@ -1,12 +1,12 @@
 ---
 title: IMasterTheme
-second_title: Αναφορά API Aspose.Sildes για .NET
+second_title: Aspose.Sildes για .NET Αναφορά API
 description: Αντιπροσωπεύει ένα κύριο θέμα.
 type: docs
-weight: 11290
+weight: 11310
 url: /el/aspose.slides.theme/imastertheme/
 ---
-## IMasterTheme διεπαφή
+## IMasterTheme διασύνδεση
 
 Αντιπροσωπεύει ένα κύριο θέμα.
 
@@ -18,13 +18,15 @@ public interface IMasterTheme : ITheme
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsITheme](../../aspose.slides.theme/imastertheme/asitheme) { get; } | Επιτρέπει την λήψη της βασικής διεπαφής ITheme. Μόνο-ανάγνωση [`ITheme`](../itheme). |
-| [ExtraColorSchemes](../../aspose.slides.theme/imastertheme/extracolorschemes) { get; } | Επιστρέφει τη συλλογή των επιπλέον σχημάτων χρωμάτων. Αυτά τα σχήματα δεν επηρεάζουν την εμφάνιση της παρουσίασης, μπορούν να επιλεγούν ως κύριο σχήμα χρώματος για μια διαφάνεια. Μόνο-ανάγνωση [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
+| [AsITheme](../../aspose.slides.theme/imastertheme/asitheme) { get; } | Επαγγέλ
+
+ται την λήψη της βασικής διεπαφής ITheme. Μόνο για ανάγνωση [`ITheme`](../itheme). |
+| [ExtraColorSchemes](../../aspose.slides.theme/imastertheme/extracolorschemes) { get; } | Επιστρέφει τη συλλογή επιπλέον σχήματα χρωμάτων. Αυτά τα σχήματα δεν επηρεάζουν την εμφάνιση της παρουσίασης, μπορούν να επιλεγούν ως κύριο σχήμα χρωμάτων για μια διαφάνεια. Μόνο για ανάγνωση [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
 | [Name](../../aspose.slides.theme/imastertheme/name) { get; set; } | Επιστρέφει το όνομα ενός θέματος. Ανάγνωση/εγγραφή String. |
 
 ### Δείτε επίσης
 
-* διεπαφή [ITheme](../itheme)
+* διασύνδεση [ITheme](../itheme)
 * χώρο ονομάτων [Aspose.Slides.Theme](../../aspose.slides.theme)
 * συγκρότημα [Aspose.Slides](../../)
 

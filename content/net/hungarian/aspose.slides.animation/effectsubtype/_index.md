@@ -1,14 +1,14 @@
 ---
 title: EffectSubtype
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Az animációs effektus altípusait reprezentálja.
+second_title: Aspose.Sildes .NET API referencia
+description: Az animációs hatás alttípusait képviseli.
 type: docs
-weight: 320
+weight: 340
 url: /hu/aspose.slides.animation/effectsubtype/
 ---
-## EffectSubtype felsorolás
+## EffectSubtype enumeráció
 
-Az animációs effektus altípusait reprezentálja.
+Az animációs hatás alttípusait képviseli.
 
 ```csharp
 public enum EffectSubtype

@@ -1,12 +1,12 @@
 ---
 title: Translate
-second_title: Referência da API Aspose.Sildes for .NET
-description: Traduz uma apresentação para o idioma especificado usando IA na versão síncrona.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Traduz uma apresentação para o idioma especificado usando IA versão síncrona.
 type: docs
 weight: 40
 url: /pt/aspose.slides.ai/slidesaiagent/translate/
 ---
-## SlidesAIAgent.Translate método
+## SlidesAIAgent.Translate method
 
 Traduz uma apresentação para o idioma especificado usando IA (versão síncrona).
 
@@ -16,17 +16,25 @@ public void Translate(IPresentation presentation, string language)
 
 | Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
-| presentation | IPresentation | Apresentação alvo |
-| language | String | Idioma alvo |
+| presentation | IPresentation | Apresentação de destino |
+| language | String | Idioma de destino |
 
 ### Exceções
 
-| Exceção | Condição |
+| exceção | condição |
 | --- | --- |
-| ArgumentNullException | Instância de apresentação não fornecida |
-| ArgumentException | Valor do idioma não pode ser nulo ou vazio |
+| ArgumentNullException | Instância de Presentation não foi fornecida |
+| ArgumentException | O valor de Language não pode ser nulo ou vazio |
 
-### Veja também
+### Observações
+
+O exemplo abaixo usa o padrão [`AsposeAIWebClient`](../../asposeaiwebclient), que é criado pelo construtor [`SlidesAIAgent`](../slidesaiagent) sem parâmetros e conecta-se ao LLM próprio da Aspose. Para usar um provedor de IA diferente, forneça seu próprio LLM, ou personalize a conexão (por exemplo, fornecendo seu próprio `HttpClient`), passe uma implementação [`IAIWebClient`](../../iaiwebclient) para o construtor [`SlidesAIAgent`](../slidesaiagent). Implementações disponíveis incluem:
+
+* [`AsposeAIWebClient`](../../asposeaiwebclient)
+* [`OpenAIWebClient`](../../openaiwebclient)
+* [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
+
+### Veja Também
 
 * interface [IPresentation](../../../aspose.slides/ipresentation)
 * classe [SlidesAIAgent](../../slidesaiagent)

@@ -1,14 +1,14 @@
 ---
 title: BlackWhiteConversionMode
-second_title: Aspose.Sildes for .NET API Referansı
-description: Slayt görüntülerinin ikili (bitonal) görüntülere nasıl dönüştürüleceğini kontrol eden seçenekler sağlar.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Kaydırma görsellerinin ikili görüntülere nasıl dönüştürüleceğini kontrol eden seçenekler sağlar.
 type: docs
-weight: 3700
+weight: 3720
 url: /tr/aspose.slides.export/blackwhiteconversionmode/
 ---
 ## BlackWhiteConversionMode enum'ı
 
-Slaytların görüntülerinin ikili (bitonal) görüntülere nasıl dönüştürüleceğini kontrol eden seçenekleri sağlar.
+Kaydırmaların görsellerinin ikili (bitonal) görüntülere nasıl dönüştürüleceğini kontrol eden seçenekler sağlar.
 
 ```csharp
 public enum BlackWhiteConversionMode
@@ -18,14 +18,14 @@ public enum BlackWhiteConversionMode
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Default | `0` | Dönüşüm algoritması kullanılmadığını belirtir. TIFF kodekinde uygulanan algoritma kullanılacaktır. (Varsayılan) |
+| Default | `0` | Dönüştürme algoritması belirtilmez. TIFF codec'inde uygulanan algoritma kullanılacaktır. (Default) |
 | Dithering | `1` | Dithering algoritmasını (Floyd-Steinberg) belirtir. |
 | DitheringFloydSteinberg | `2` | Floyd-Steinberg dithering algoritmasını belirtir. |
 | Auto | `3` | Otomatik olarak hesaplanan eşik algoritmasını (Otsu) belirtir. |
 | AutoOtsu | `4` | Otomatik olarak hesaplanan Otsu eşik algoritmasını belirtir. |
-| Threshold25 | `5` | Statik eşik algoritmasını (25%) belirtir. |
-| Threshold50 | `6` | Statik eşik algoritmasını (50%) belirtir. |
-| Threshold75 | `7` | Statik eşik algoritmasını (75%) belirtir. |
+| Threshold25 | `5` | Statik eşik algoritmasını (%25) belirtir. |
+| Threshold50 | `6` | Statik eşik algoritmasını (%50) belirtir. |
+| Threshold75 | `7` | Statik eşik algoritmasını (%75) belirtir. |
 
 ### Ayrıca Bakınız
 

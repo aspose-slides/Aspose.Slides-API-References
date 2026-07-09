@@ -1,14 +1,14 @@
 ---
 title: IMathDelimiter
-second_title: Aspose.Sildes pro .NET API referenci
-description: Specifikuje objekt oddělovače složený z otevíracích a uzavíracích znaků, jako jsou závorky, složené závorky, hranaté závorky a svislé čáry, a jednoho nebo více matematických prvků uvnitř, oddělených určeným znakem. Příklady 2 2x7C2
+second_title: Aspose.Slides pro .NET – referenční dokumentace API
+description: Určuje objekt oddělovače složený z otevíracích a uzavíracích znaků, jako jsou závorky, složené závorky, hranaté závorky a svislé čáry, a jednoho nebo více matematických prvků uvnitř, oddělených určeným znakem. Příklady: 2 2x7C2
 type: docs
-weight: 8190
+weight: 8210
 url: /cs/aspose.slides.mathtext/imathdelimiter/
 ---
 ## IMathDelimiter rozhraní
 
-Určuje objekt oddělovače, který se skládá z otevíracích a uzavíracích znaků (například závorky, složené závorky, hranaté závorky a svislé čáry) a jednoho nebo více matematických prvků uvnitř, oddělených určeným znakem. Příklady: (𝑥2); [𝑥2&#x7C;𝑦2]
+Specifikuje objekt oddělovače, který se skládá z otevíracích a uzavíracích znaků (např. závorky, složené závorky, hranaté závorky a svislé čáry) a jednoho nebo více matematických prvků uvnitř, oddělených určeným znakem. Příklady: (𝑥2); [𝑥2&#x7C;𝑦2]
 
 ```csharp
 public interface IMathDelimiter : IMathElement
@@ -20,11 +20,11 @@ public interface IMathDelimiter : IMathElement
 | --- | --- |
 | [Arguments](../../aspose.slides.mathtext/imathdelimiter/arguments) { get; } | Jeden nebo více matematických prvků oddělených znaky oddělovače |
 | [AsIMathElement](../../aspose.slides.mathtext/imathdelimiter/asimathelement) { get; } | Umožňuje získat základní rozhraní IMathElement [`IMathElement`](../imathelement) |
-| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | Delimiter Beginning Character určuje počáteční, nebo otevírací, znak oddělovače. Matematické oddělovače jsou uzavírací znaky, jako jsou závorky, hranaté závorky a složené závorky. Výchozí hodnota: '('. |
-| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | Specifikuje tvar oddělovačů v objektu oddělovače. Když je MathDelimiterShape.Centered, jsou oddělovače centrovány kolem matematické osy textu a zároveň jsou upraveny tak, aby odpovídaly celé výšce jejich obsahu. Když je MathDelimiterShape.Match, jejich výška a tvar jsou upraveny tak, aby přesně odpovídaly jejich obsahu. |
-| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | Delimiter Ending Character určuje ukončovací, nebo zavírací, znak oddělovače. Matematické oddělovače jsou uzavírací znaky, jako jsou závorky, hranaté závorky a složené závorky. Výchozí: ')'. |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | Určuje růst znaků BeginningCharacter, SeparatorCharacter, EndingCharacter. Když je true, oddělovače rostou vertikálně tak, aby odpovídaly výšce operandu. Výchozí hodnota je true |
-| [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | Delimiter Separator Character určuje znak, který odděluje argumenty v objektu oddělovače. Výchozí: '&#x7C;'. |
+| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | Delimiter Beginning Character určuje počáteční, tedy otevírací, znak oddělovače. Matematické oddělovače jsou uzavírací znaky, jako jsou závorky, hranaté závorky a složené závorky. Výchozí hodnota: '('. |
+| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | Určuje tvar oddělovačů v objektu oddělovače. Když je MathDelimiterShape.Centered, jsou oddělovače vycentrovány kolem matematické osy textu a lze je upravit tak, aby odpovídaly celé výšce jejich obsahu. Když je MathDelimiterShape.Match, jejich výška a tvar jsou upraveny tak, aby přesně odpovídaly jejich obsahu. |
+| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | Delimiter Ending Character určuje koncový, tedy uzavírací, znak oddělovače. Matematické oddělovače jsou uzavírací znaky, jako jsou závorky, hranaté závorky a složené závorky. Výchozí hodnota: ')'. |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | Určuje růst znaků BeginningCharacter, SeparatorCharacter a EndingCharacter. Když je true, oddělovače se rozšiřují vertikálně tak, aby odpovídaly výšce svého operandu. Výchozí hodnota je true |
+| [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | Delimiter Separator Character určuje znak, který odlišuje argumenty v objektu oddělovače. Výchozí hodnota: '&#x7C;'. |
 
 ## Metody
 
@@ -45,7 +45,7 @@ IMathDelimiter delimiter = element.Enclose();
 ### Viz také
 
 * rozhraní [IMathElement](../imathelement)
-* jmenný prostor [Aspose.Slides.MathText](../../aspose.slides.mathtext)
+* obor názvů [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * sestavení [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

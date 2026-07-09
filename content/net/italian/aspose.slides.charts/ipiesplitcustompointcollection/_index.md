@@ -1,14 +1,14 @@
 ---
 title: IPieSplitCustomPointCollection
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta una raccolta di punti che devono essere disegnati nella seconda torta o barra su un grafico a barre-di-torta o torta-di-torta con una divisione personalizzata.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta una collezione di punti che devono essere disegnati nella seconda torta o barra su un grafico barra-di-torta o torta-di-torta con una divisione personalizzata.
 type: docs
-weight: 2170
+weight: 2190
 url: /it/aspose.slides.charts/ipiesplitcustompointcollection/
 ---
 ## IPieSplitCustomPointCollection interfaccia
 
-Rappresenta una raccolta di punti che devono essere disegnati nella seconda torta o barra su un grafico a barra-di-torta o torta-di-torta con una divisione personalizzata.
+Rappresenta una collezione di punti che devono essere disegni nel secondo diagramma a torta o a barre su un grafico barra-su-torta o torta-su-torta con una divisione personalizzata.
 
 ```csharp
 public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
@@ -25,8 +25,8 @@ public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | Aggiunge un punto dati per il suo indice nella raccolta di punti della serie padre. |
-| [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | Rimuove l'elemento dalla raccolta per il suo indice nella raccolta di punti della serie padre. |
+| [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | Aggiunge il punto dati per il suo indice nella collezione di punti della serie padre. |
+| [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | Rimuove l'elemento dalla collezione per il suo indice nella collezione di punti della serie padre. |
 
 ### Vedi anche
 

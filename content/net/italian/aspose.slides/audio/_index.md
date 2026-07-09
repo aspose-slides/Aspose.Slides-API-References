@@ -3,10 +3,10 @@ title: Audio
 second_title: Aspose.Sildes per .NET API Reference
 description: Rappresenta un file audio incorporato.
 type: docs
-weight: 830
+weight: 850
 url: /it/aspose.slides/audio/
 ---
-## Audio classe
+## Classe Audio
 
 Rappresenta un file audio incorporato.
 
@@ -18,14 +18,14 @@ public class Audio : DomObject<AudioCollection>, IAudio
 
 | Nome | Descrizione |
 | --- | --- |
-| [BinaryData](../../aspose.slides/audio/binarydata) { get; } | Restituisce una copia dei dati di un audio. In caso di grandi quantità di dati, considerare l'uso del metodo [`GetStream`](./getstream) per evitare il caricamento non necessario dei dati audio in memoria o addirittura un OutOfMemoryException. Solo lettura Byte[]. |
+| [BinaryData](../../aspose.slides/audio/binarydata) { get; } | Restituisce una copia dei dati di un audio. In caso di grande quantità di dati considerare l'uso del metodo [`GetStream`](./getstream) per evitare il caricamento non necessario dei dati audio in memoria o anche un OutOfMemoryException. Solo lettura Byte[]. |
 | [ContentType](../../aspose.slides/audio/contenttype) { get; set; } | Restituisce un tipo MIME di un audio, codificato in [`BinaryData`](./binarydata). Solo lettura String. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetStream](../../aspose.slides/audio/getstream)() | Restituisce lo stream Stream per la lettura. Utilizzare 'using' o chiudere lo stream dopo l'uso. |
+| [GetStream](../../aspose.slides/audio/getstream)() | Restituisce lo stream Stream per la lettura. Usa 'using' o chiudi lo stream dopo l'uso. |
 
 ### Vedi anche
 

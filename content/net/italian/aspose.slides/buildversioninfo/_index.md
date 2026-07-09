@@ -1,9 +1,9 @@
 ---
 title: BuildVersionInfo
-second_title: Riferimento API .NET di Aspose.Sildes
+second_title: Aspose.Sildes per il riferimento API .NET
 description: Contiene informazioni sulla versione di Aspose.Slides.
 type: docs
-weight: 1040
+weight: 1060
 url: /it/aspose.slides/buildversioninfo/
 ---
 ## BuildVersionInfo classe
@@ -19,7 +19,7 @@ public static class BuildVersionInfo
 | Nome | Descrizione |
 | --- | --- |
 | const [AssemblyVersion](../../aspose.slides/buildversioninfo/assemblyversion) | Versione dell'assembly Aspose.Slides. |
-| const [FileVersion](../../aspose.slides/buildversioninfo/fileversion) | Versione del file di assembly. |
+| const [FileVersion](../../aspose.slides/buildversioninfo/fileversion) | Versione del file assembly. |
 | const [Product](../../aspose.slides/buildversioninfo/product) | Nome prodotto di Aspose.Slides |
 | const [ProductMajor](../../aspose.slides/buildversioninfo/productmajor) | Numero di versione principale. |
 | const [ProductMinor](../../aspose.slides/buildversioninfo/productminor) | Numero di versione secondaria. |

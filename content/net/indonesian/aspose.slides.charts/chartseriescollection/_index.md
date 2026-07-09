@@ -1,9 +1,9 @@
 ---
 title: ChartSeriesCollection
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili koleksi ChartSeries./chartseries
 type: docs
-weight: 1430
+weight: 1450
 url: /id/aspose.slides.charts/chartseriescollection/
 ---
 ## ChartSeriesCollection kelas
@@ -34,8 +34,8 @@ public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollectio
 | [Clear](../../aspose.slides.charts/chartseriescollection/clear)() | Menghapus semua kontrol dari koleksi. |
 | [CopyTo](../../aspose.slides.charts/chartseriescollection/copyto)(Array, int) | Menyalin seluruh koleksi ke array yang ditentukan. |
 | [GetEnumerator](../../aspose.slides.charts/chartseriescollection/getenumerator)() | Mengembalikan enumerator yang mengiterasi koleksi. |
-| [IndexOf](../../aspose.slides.charts/chartseriescollection/indexof)(IChartSeries) | Mencari [`ChartSeries`](../chartseries) yang ditentukan dan mengembalikan indeks berbasis nol dari kemunculan pertama dalam seluruh koleksi. |
-| [Insert](../../aspose.slides.charts/chartseriescollection/insert)(int, ChartType) | Membuat seri diagram baru dan menyisipkannya ke dalam koleksi. |
+| [IndexOf](../../aspose.slides.charts/chartseriescollection/indexof)(IChartSeries) | Mencari [`ChartSeries`](../chartseries) yang ditentukan dan mengembalikan indeks berbasis nol dari kemunculan pertama dalam seluruh koleksi |
+| [Insert](../../aspose.slides.charts/chartseriescollection/insert)(int, ChartType) | Membuat seri diagram baru dan memasukkannya ke dalam koleksi. |
 | [Remove](../../aspose.slides.charts/chartseriescollection/remove)(IChartSeries) | Menghapus nilai yang ditentukan. |
 | [RemoveAt](../../aspose.slides.charts/chartseriescollection/removeat)(int) | Menghapus kontrol ActiveX yang disimpan pada posisi yang ditentukan dari koleksi. |
 

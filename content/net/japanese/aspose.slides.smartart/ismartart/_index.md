@@ -3,7 +3,7 @@ title: ISmartArt
 second_title: Aspose.Sildes for .NET API リファレンス
 description: SmartArt ダイアグラムを表します。
 type: docs
-weight: 10520
+weight: 10540
 url: /ja/aspose.slides.smartart/ismartart/
 ---
 ## ISmartArt インターフェイス
@@ -18,13 +18,13 @@ public interface ISmartArt : IGraphicalObject
 
 | 名前 | 説明 |
 | --- | --- |
-| [AllNodes](../../aspose.slides.smartart/ismartart/allnodes) { get; } | SmartArt オブジェクトのすべてのノードのコレクションを返します。 読み取り専用 [`ISmartArtNodeCollection`](../ismartartnodecollection). |
-| [AsIGraphicalObject](../../aspose.slides.smartart/ismartart/asigraphicalobject) { get; } | ベース IGraphicalObject インターフェイスを取得できます。 読み取り専用 [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
-| [ColorStyle](../../aspose.slides.smartart/ismartart/colorstyle) { get; set; } | SmartArt オブジェクトの色スタイルを取得または設定します。 読み書き可能 [`SmartArtColorType`](../smartartcolortype). |
-| [IsReversed](../../aspose.slides.smartart/ismartart/isreversed) { get; set; } | SmartArt 図の左から右 (LTR) または右から左 (RTL) の向きに関する状態を取得または設定します（図が反転をサポートしている場合）。 読み書き可能 Boolean. |
-| [Layout](../../aspose.slides.smartart/ismartart/layout) { get; set; } | SmartArt オブジェクトのレイアウトを取得または設定します。 読み書き可能 [`SmartArtLayoutType`](../smartartlayouttype). |
-| [Nodes](../../aspose.slides.smartart/ismartart/nodes) { get; } | SmartArt オブジェクトのルートノードのコレクションを返します。 読み取り専用 [`ISmartArtNodeCollection`](../ismartartnodecollection). |
-| [QuickStyle](../../aspose.slides.smartart/ismartart/quickstyle) { get; set; } | SmartArt オブジェクトのクイックスタイルを取得または設定します。 読み書き可能 [`SmartArtQuickStyleType`](../smartartquickstyletype). |
+| [AllNodes](../../aspose.slides.smartart/ismartart/allnodes) { get; } | SmartArt オブジェクト内のすべてのノードのコレクションを返します。読み取り専用 [`ISmartArtNodeCollection`](../ismartartnodecollection)。 |
+| [AsIGraphicalObject](../../aspose.slides.smartart/ismartart/asigraphicalobject) { get; } | 基本 IGraphicalObject インターフェイスを取得できます。読み取り専用 [`IGraphicalObject`](../../aspose.slides/igraphicalobject)。 |
+| [ColorStyle](../../aspose.slides.smartart/ismartart/colorstyle) { get; set; } | SmartArt オブジェクトのカラー スタイルを取得または設定します。読み書き可能 [`SmartArtColorType`](../smartartcolortype)。 |
+| [IsReversed](../../aspose.slides.smartart/ismartart/isreversed) { get; set; } | SmartArt 図の状態を取得または設定します（左から右の LTR または右から左の RTL）。図が反転をサポートしている場合に適用されます。読み書き可能 Boolean。 |
+| [Layout](../../aspose.slides.smartart/ismartart/layout) { get; set; } | SmartArt オブジェクトのレイアウトを取得または設定します。読み書き可能 [`SmartArtLayoutType`](../smartartlayouttype)。 |
+| [Nodes](../../aspose.slides.smartart/ismartart/nodes) { get; } | SmartArt オブジェクトのルート ノードのコレクションを返します。読み取り専用 [`ISmartArtNodeCollection`](../ismartartnodecollection)。 |
+| [QuickStyle](../../aspose.slides.smartart/ismartart/quickstyle) { get; set; } | SmartArt オブジェクトのクイック スタイルを取得または設定します。読み書き可能 [`SmartArtQuickStyleType`](../smartartquickstyletype)。 |
 
 ### 参照
 

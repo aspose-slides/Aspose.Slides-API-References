@@ -3,7 +3,7 @@ title: IMasterSlideCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: マスタースライドのコレクションを表します。
 type: docs
-weight: 6410
+weight: 6430
 url: /ja/aspose.slides/imasterslidecollection/
 ---
 ## IMasterSlideCollection インターフェイス
@@ -16,13 +16,13 @@ public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [Item](../../aspose.slides/imasterslidecollection/item) { get; } | 指定されたインデックスの要素を取得します。読み取り専用 [`IMasterSlide`](../imasterslide)。 |
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | 指定されたマスタースライドのコピーをコレクションの末尾に追加します。リンクされたレイアウトスライドもコピーされます。 |
 | [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | 指定されたマスタースライドのコピーをコレクションの指定位置に挿入します。リンクされたレイアウトスライドもコピーされます。 |
@@ -30,7 +30,7 @@ public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
 | [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | コレクションの指定されたインデックスの要素を削除します。 |
 | [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | 未使用のマスタースライドを削除します。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * インターフェイス [IMasterSlide](../imasterslide)

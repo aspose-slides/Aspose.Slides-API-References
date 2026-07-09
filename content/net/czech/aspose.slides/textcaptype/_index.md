@@ -3,12 +3,12 @@ title: TextCapType
 second_title: Aspose.Sildes pro .NET API Reference
 description: Představuje typ kapitalizace textu.
 type: docs
-weight: 10910
+weight: 10930
 url: /cs/aspose.slides/textcaptype/
 ---
-## Výčet TextCapType
+## TextCapType výčet
 
-Reprezentuje typ kapitalizace textu.
+Představuje typ kapitalizace textu.
 
 ```csharp
 public enum TextCapType : sbyte

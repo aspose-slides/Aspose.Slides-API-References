@@ -3,10 +3,10 @@ title: AnimateTextType
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje typ animovaného textu animačního efektu.
 type: docs
-weight: 100
+weight: 120
 url: /cs/aspose.slides.animation/animatetexttype/
 ---
-## AnimateTextType enumerace
+## enumerace AnimateTextType
 
 Reprezentuje typ animovaného textu animačního efektu.
 
@@ -20,7 +20,7 @@ public enum AnimateTextType
 | --- | --- | --- |
 | AllAtOnce | `0` | Animovat celý text najednou. |
 | ByWord | `1` | Animovat text po slovech. |
-| ByLetter | `2` | Animovat text po písmenech. |
+| ByLetter | `2` | Animovat text po znacích. |
 
 ### Viz také
 

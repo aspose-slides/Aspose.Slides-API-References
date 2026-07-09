@@ -3,7 +3,7 @@ title: IImageWrapper
 second_title: Aspose.Sildes .NET API hivatkozás
 description: System.Drawing.Image csomagoló a COM interfészhez.
 type: docs
-weight: 6150
+weight: 6170
 url: /hu/aspose.slides/iimagewrapper/
 ---
 ## IImageWrapper interfész
@@ -16,19 +16,19 @@ public interface IImageWrapper : IDisposable
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
 | [AsIDisposable](../../aspose.slides/iimagewrapper/asidisposable) { get; } | Visszaadja az IDisposable interfészt. Csak olvasható IDisposable. |
 | [ImageSource](../../aspose.slides/iimagewrapper/imagesource) { get; } | Lekéri a képet. Csak olvasható Image. |
-| [Size](../../aspose.slides/iimagewrapper/size) { get; } | Lekéri a szélességet és magasságot, pixelben, az Image-hez. Csak olvasható [`Size`](./size). |
+| [Size](../../aspose.slides/iimagewrapper/size) { get; } | Lekéri a kép szélességét és magasságát pixelben, az Image csak olvasható [`Size`](./size). |
 
-## Metódusok
+## Módszerek
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [Save](../../aspose.slides/iimagewrapper/save#save_1)(string) | Elmenti az Image-et a megadott fájlba |
-| [Save](../../aspose.slides/iimagewrapper/save#save)(Stream, PPImageFormat) | Elmenti az Image-et a megadott stream-be a megadott formátumban. |
-| [Save](../../aspose.slides/iimagewrapper/save#save_2)(string, PPImageFormat) | Elmenti az Image-et a megadott fájlba a megadott formátumban. |
+| [Save](../../aspose.slides/iimagewrapper/save#save_1)(string) | Elmenti a képet a megadott fájlba |
+| [Save](../../aspose.slides/iimagewrapper/save#save)(Stream, PPImageFormat) | Elmenti a képet a megadott folyamba a megadott formátumban. |
+| [Save](../../aspose.slides/iimagewrapper/save#save_2)(string, PPImageFormat) | Elmenti a képet a megadott fájlba a megadott formátumban. |
 
 ### Lásd még
 

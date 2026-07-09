@@ -3,7 +3,7 @@ title: ISvgImage
 second_title: Aspose.Sildes için .NET API Referansı
 description: Bir SVG görüntüsünü temsil eder.
 type: docs
-weight: 7160
+weight: 7180
 url: /tr/aspose.slides/isvgimage/
 ---
 ## ISvgImage arayüzü
@@ -18,10 +18,10 @@ public interface ISvgImage
 
 | Ad | Açıklama |
 | --- | --- |
-| [BaseUri](../../aspose.slides/isvgimage/baseuri) { get; } | Belirtilen SVG'nin temel URI'sini döndürür. Göreceli bağlantıları çözmek için kullanılır. Yalnızca okuma String. |
-| [ExternalResourceResolver](../../aspose.slides/isvgimage/externalresourceresolver) { get; } | SVG belgeleri içe aktarılırken harici kaynakları çözmek için kullanılan geri çağırma arayüzünü döndürür. Yalnızca okuma [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
-| [SvgContent](../../aspose.slides/isvgimage/svgcontent) { get; } | SVG içeriğini döndürür. Yalnızca okuma String. |
-| [SvgData](../../aspose.slides/isvgimage/svgdata) { get; } | SVG verilerini döndürür. Yalnızca okuma Byte[]. |
+| [BaseUri](../../aspose.slides/isvgimage/baseuri) { get; } | Belirtilen SVG'nin temel URI'sını döndürür. Göreceli bağlantıları çözmek için kullanılır. Salt okunur String. |
+| [ExternalResourceResolver](../../aspose.slides/isvgimage/externalresourceresolver) { get; } | SVG belgeleri içe aktarılırken dış kaynakları çözmek için kullanılan geri arama arayüzünü döndürür. Salt okunur [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
+| [SvgContent](../../aspose.slides/isvgimage/svgcontent) { get; } | SVG içeriğini döndürür. Salt okunur String. |
+| [SvgData](../../aspose.slides/isvgimage/svgdata) { get; } | SVG verisini döndürür. Salt okunur Byte[]. |
 
 ## Yöntemler
 

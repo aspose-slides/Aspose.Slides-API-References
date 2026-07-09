@@ -1,14 +1,14 @@
 ---
 title: TransitionCornerDirectionType
-second_title: Aspose.Sildes pro .NET API referenci
-description: Reprezentuje typy přechodu směru rohu.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Reprezentuje typy přechodů směru rohu.
 type: docs
-weight: 10330
+weight: 10350
 url: /cs/aspose.slides.slideshow/transitioncornerdirectiontype/
 ---
-## TransitionCornerDirectionType výčet
+## Výčet TransitionCornerDirectionType
 
-Reprezentuje typy přechodu rohu směru.
+Reprezentuje typy přechodů rohu.
 
 ```csharp
 public enum TransitionCornerDirectionType

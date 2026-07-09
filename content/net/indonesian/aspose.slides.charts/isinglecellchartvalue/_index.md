@@ -1,12 +1,12 @@
 ---
 title: ISingleCellChartValue
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili sel data diagram.
 type: docs
-weight: 2190
+weight: 2210
 url: /id/aspose.slides.charts/isinglecellchartvalue/
 ---
-## ISingleCellChartValue interface
+## ISingleCellChartValue antarmuka
 
 Mewakili sel data diagram.
 
@@ -18,8 +18,8 @@ public interface ISingleCellChartValue : IBaseChartValue
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/isinglecellchartvalue/ascell) { get; set; } | Mengembalikan atau menetapkan sel data diagram. Baca/tulis [`IChartDataCell`](../ichartdatacell). |
-| [AsIBaseChartValue](../../aspose.slides.charts/isinglecellchartvalue/asibasechartvalue) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar IBaseChartValue. Hanya-baca [`IBaseChartValue`](../ibasechartvalue). |
+| [AsCell](../../aspose.slides.charts/isinglecellchartvalue/ascell) { get; set; } | Mengembalikan atau mengatur sel data diagram. Baca/tulis [`IChartDataCell`](../ichartdatacell). |
+| [AsIBaseChartValue](../../aspose.slides.charts/isinglecellchartvalue/asibasechartvalue) { get; } | Memungkinkan memperoleh antarmuka dasar IBaseChartValue. Baca-saja [`IBaseChartValue`](../ibasechartvalue). |
 
 ### Lihat Juga
 

@@ -1,14 +1,14 @@
 ---
 title: IChartDataPoint
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en datapunkt i en serie.
+description: Representerar serie-datapunkt.
 type: docs
-weight: 1800
+weight: 1820
 url: /sv/aspose.slides.charts/ichartdatapoint/
 ---
 ## IChartDataPoint gränssnitt
 
-Representerar datapunkt i en serie.
+Representerar serie-datapunkt.
 
 ```csharp
 public interface IChartDataPoint : IActualLayout
@@ -19,19 +19,19 @@ public interface IChartDataPoint : IActualLayout
 | Namn | Beskrivning |
 | --- | --- |
 | [AsIActualLayout](../../aspose.slides.charts/ichartdatapoint/asiactuallayout) { get; } | Returnerar IActualLayout-gränssnittet. |
-| [BubbleSize](../../aspose.slides.charts/ichartdatapoint/bubblesize) { get; } | Returnerar bubbelstorleken för diagramdatapunkt. Skrivskyddad [`IDoubleChartValue`](../idoublechartvalue). |
+| [BubbleSize](../../aspose.slides.charts/ichartdatapoint/bubblesize) { get; } | Returnerar bubbelförstoringen för diagramdatapunkt. Skrivskyddad [`IDoubleChartValue`](../idoublechartvalue). |
 | [ColorValue](../../aspose.slides.charts/ichartdatapoint/colorvalue) { get; } | Returnerar färgvärdet för diagramdatapunkt. Används med kartdiagram. Skrivskyddad [`IDoubleChartValue`](../idoublechartvalue). |
-| [DataPointLevels](../../aspose.slides.charts/ichartdatapoint/datapointlevels) { get; } | Returnerar behållare för datapunktnivåer. Tillämpas för Treeamp- och Sunburst-serier. Indexering av datapunktnivåer är nollbaserad. |
-| [ErrorBarsCustomValues](../../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) { get; } | Representerar seriernas felstaplar när värdetypen är Custom. Skrivskyddad [`IErrorBarsCustomValues`](../ierrorbarscustomvalues). |
-| [Explosion](../../aspose.slides.charts/ichartdatapoint/explosion) { get; set; } | Anger hur mycket datapunkten ska flyttas från mitten av pajen. Läs/skriv Int32. |
+| [DataPointLevels](../../aspose.slides.charts/ichartdatapoint/datapointlevels) { get; } | Returnerar behållare för datapunktsnivåer. Tillämpar för Treeamp- och Sunburst-serier. Indexering av datapunktsnivåer är nollbaserad. |
+| [ErrorBarsCustomValues](../../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) { get; } | Representerar felstaplarna för serien för anpassad värdetyp. Skrivskyddad [`IErrorBarsCustomValues`](../ierrorbarscustomvalues). |
+| [Explosion](../../aspose.slides.charts/ichartdatapoint/explosion) { get; set; } | Anger hur mycket datapunkten skall flyttas från mitten av pajen. Läs/skriv Int32. |
 | [Format](../../aspose.slides.charts/ichartdatapoint/format) { get; set; } | Representerar formateringsegenskaperna. Läs/skriv [`IFormat`](../iformat). |
 | [Index](../../aspose.slides.charts/ichartdatapoint/index) { get; } | Bestämmer vilken av förälderns barnsamling denna datapunkt gäller för. Läs UInt32. |
 | [InvertIfNegative](../../aspose.slides.charts/ichartdatapoint/invertifnegative) { get; set; } | Anger att datapunkten ska invertera sina färger om värdet är negativt. Läs/skriv Boolean. |
-| [IsBubble3D](../../aspose.slides.charts/ichartdatapoint/isbubble3d) { get; set; } | Anger att bubblorna har en 3-D-effekt applicerad på dem. Läs/skriv Boolean. |
+| [IsBubble3D](../../aspose.slides.charts/ichartdatapoint/isbubble3d) { get; set; } | Anger att bubblorna har en 3-D-effekt applicerad. Läs/skriv Boolean. |
 | [Label](../../aspose.slides.charts/ichartdatapoint/label) { get; } | Representerar etiketten för diagramdatapunkt. Skrivskyddad [`IDataLabel`](../idatalabel). |
 | [Marker](../../aspose.slides.charts/ichartdatapoint/marker) { get; } | Anger en datamarkör. Skrivskyddad [`IMarker`](../imarker). |
-| [RelatedLegendEntry](../../aspose.slides.charts/ichartdatapoint/relatedlegendentry) { get; } | Egenskaper för motsvarande förklaringspost när diagramtypen är en av följande: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Skrivskyddad [`ILegendEntryProperties`](../ilegendentryproperties). |
-| [SetAsTotal](../../aspose.slides.charts/ichartdatapoint/setastotal) { get; set; } | Anger datapunkten som total. Tillämpas endast för Waterfall-serier. |
+| [RelatedLegendEntry](../../aspose.slides.charts/ichartdatapoint/relatedlegendentry) { get; } | Egenskaper för motsvarande förklaringspost för diagramtyper från denna lista: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Skrivskyddad [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [SetAsTotal](../../aspose.slides.charts/ichartdatapoint/setastotal) { get; set; } | Anger datapunkten som total. Tillämpar endast för Waterfall-serietyp. |
 | [SizeValue](../../aspose.slides.charts/ichartdatapoint/sizevalue) { get; } | Returnerar storleksvärdet för diagramdatapunkt. Används med Treemap- och Sunburst-diagram. Skrivskyddad [`IDoubleChartValue`](../idoublechartvalue). |
 | [Value](../../aspose.slides.charts/ichartdatapoint/value) { get; } | Returnerar värdet för diagramdatapunkt. Skrivskyddad [`IDoubleChartValue`](../idoublechartvalue). |
 | [XValue](../../aspose.slides.charts/ichartdatapoint/xvalue) { get; } | Returnerar x-värdet för diagramdatapunkt. Skrivskyddad [`IStringOrDoubleChartValue`](../istringordoublechartvalue). |
@@ -41,13 +41,13 @@ public interface IChartDataPoint : IActualLayout
 
 | Namn | Beskrivning |
 | --- | --- |
-| [GetAutomaticDataPointColor](../../aspose.slides.charts/ichartdatapoint/getautomaticdatapointcolor)() | Returnerar en automatisk färg för datapunkten baserat på serie-index, datapunkt-index, ParentSeriesGroup.IsColorVaried-egenskapen och diagramstil. Denna färg används som standard om FillType är NotDefined. |
+| [GetAutomaticDataPointColor](../../aspose.slides.charts/ichartdatapoint/getautomaticdatapointcolor)() | Returnerar en automatisk färg för datapunkt baserat på serie-index, datapunkt-index, ParentSeriesGroup.IsColorVaried-egenskap och diagramstil. Denna färg används som standard om FillType är NotDefined. |
 | [Remove](../../aspose.slides.charts/ichartdatapoint/remove)() | Tar bort DataPoint från diagramserie. |
 
 ### Se även
 
 * gränssnitt [IActualLayout](../iactuallayout)
 * namnrymd [Aspose.Slides.Charts](../../aspose.slides.charts)
-* assembly [Aspose.Slides](../../)
+* samling [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

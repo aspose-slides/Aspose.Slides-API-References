@@ -3,12 +3,12 @@ title: SwfOptions
 second_title: Aspose.Sildes for .NET API リファレンス
 description: プレゼンテーションを Swf 形式で保存する方法を制御するオプションを提供します。
 type: docs
-weight: 4510
+weight: 4530
 url: /ja/aspose.slides.export/swfoptions/
 ---
 ## SwfOptions クラス
 
-Provides options that control how a presentation is saved in Swf format.
+プレゼンテーションを Swf 形式で保存する方法を制御するオプションを提供します。
 
 ```csharp
 public class SwfOptions : SaveOptions, ISwfOptions
@@ -16,39 +16,39 @@ public class SwfOptions : SaveOptions, ISwfOptions
 
 ## コンストラクタ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [SwfOptions](swfoptions)() | Default constructor. |
+| [SwfOptions](swfoptions)() | デフォルトコンストラクタ。 |
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [Compressed](../../aspose.slides.export/swfoptions/compressed) { get; set; } | 生成された SWF ドキュメントを圧縮するかどうかを指定します。デフォルトは `true` です。 |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | ソースフォントが見つからない場合に使用されるフォントを取得または設定します。読み書き可能 String。 |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 元のフォントが見つからない場合に使用されるフォントを取得または設定します。読み書き可能 String。 |
 | [EnableContextMenu](../../aspose.slides.export/swfoptions/enablecontextmenu) { get; set; } | コンテキストメニューを有効または無効にします。デフォルトは true です。 |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | グラデーションの視覚スタイルを取得または設定します。読み書き可能 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | グラデーションの視覚スタイルを取得または設定します。Read/write [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
 | [JpegQuality](../../aspose.slides.export/swfoptions/jpegquality) { get; set; } | JPEG 画像の品質を指定します。デフォルトは 95 です。 |
-| [LogoImageBytes](../../aspose.slides.export/swfoptions/logoimagebytes) { get; set; } | ビューアの右上隅にロゴとして表示される画像です。画像は 32x64 ピクセルの PNG である必要があり、そうでない場合ロゴが正しく表示されない可能性があります。 |
-| [LogoLink](../../aspose.slides.export/swfoptions/logolink) { get; set; } | ロゴの完全なハイパーリンクアドレスを取得または設定します。[`LogoImageBytes`](./logoimagebytes) が指定されている場合にのみ効果があります。 |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 保存進捗のパーセンテージ更新用コールバックオブジェクトを表します。[`IProgressCallback`](../../aspose.slides/iprogresscallback) を参照してください。 |
-| [ShowBottomPane](../../aspose.slides.export/swfoptions/showbottompane) { get; set; } | 下部ペインの表示/非表示を切り替えます。flashvars で上書き可能です。デフォルトは true です。 |
-| [ShowFullScreen](../../aspose.slides.export/swfoptions/showfullscreen) { get; set; } | 全画面ボタンの表示/非表示を切り替えます。flashvars で上書き可能です。デフォルトは true です。 |
+| [LogoImageBytes](../../aspose.slides.export/swfoptions/logoimagebytes) { get; set; } | ビューアの右上隅にロゴとして表示される画像です。画像は 32x64 ピクセルの PNG 画像である必要があります。そうでない場合、ロゴが正しく表示されない可能性があります。 |
+| [LogoLink](../../aspose.slides.export/swfoptions/logolink) { get; set; } | ロゴの完全なハイパーリンク アドレスを取得または設定します。[`LogoImageBytes`](./logoimagebytes) が指定されている場合にのみ効果があります。 |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 保存進行状況のパーセンテージ更新を受け取るコールバック オブジェクトを表します。[`IProgressCallback`](../../aspose.slides/iprogresscallback) を参照してください。 |
+| [ShowBottomPane](../../aspose.slides.export/swfoptions/showbottompane) { get; set; } | 下部ペインを表示または非表示にします。flashvars で上書き可能です。デフォルトは true です。 |
+| [ShowFullScreen](../../aspose.slides.export/swfoptions/showfullscreen) { get; set; } | 全画面表示ボタンを表示または非表示にします。flashvars で上書き可能です。デフォルトは true です。 |
 | [ShowHiddenSlides](../../aspose.slides.export/swfoptions/showhiddenslides) { get; set; } | 生成されたドキュメントに非表示スライドを含めるかどうかを指定します。デフォルトは `false` です。 |
-| [ShowLeftPane](../../aspose.slides.export/swfoptions/showleftpane) { get; set; } | 左ペインの表示/非表示を切り替えます。flashvars で上書き可能です。デフォルトは true です。 |
-| [ShowPageBorder](../../aspose.slides.export/swfoptions/showpageborder) { get; set; } | ページ周囲のボーダーを表示するかどうかを指定します。デフォルトは true です。 |
-| [ShowPageStepper](../../aspose.slides.export/swfoptions/showpagestepper) { get; set; } | ページステッパーの表示/非表示を切り替えます。flashvars で上書き可能です。デフォルトは true です。 |
-| [ShowSearch](../../aspose.slides.export/swfoptions/showsearch) { get; set; } | 検索セクションの表示/非表示を切り替えます。flashvars で上書き可能です。デフォルトは true です。 |
-| [ShowTopPane](../../aspose.slides.export/swfoptions/showtoppane) { get; set; } | 上部全体のペインの表示/非表示を切り替えます。flashvars で上書き可能です。デフォルトは true です。 |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | プレゼンテーションを保存する際に、JavaScript 呼び出しを含むハイパーリンクをスキップするかどうかを指定します。読み書き可能 Boolean。デフォルト値は **false** です。 |
-| [SlidesLayoutOptions](../../aspose.slides.export/swfoptions/slideslayoutoptions) { get; set; } | プレゼンテーションをエクスポートする際に、スライドがページ上に配置されるモードを取得または設定します [`ISlidesLayoutOptions`](../islideslayoutoptions)。このプロパティは [`HandoutLayoutingOptions`](../handoutlayoutingoptions) 型のオブジェクトの割り当てをサポートしません。 |
-| [StartOpenLeftPane](../../aspose.slides.export/swfoptions/startopenleftpane) { get; set; } | 左ペインを開いた状態で開始します。flashvars で上書き可能です。デフォルトは false です。 |
+| [ShowLeftPane](../../aspose.slides.export/swfoptions/showleftpane) { get; set; } | 左ペインを表示または非表示にします。flashvars で上書き可能です。デフォルトは true です。 |
+| [ShowPageBorder](../../aspose.slides.export/swfoptions/showpageborder) { get; set; } | ページ周囲の境界線を表示するかどうかを指定します。デフォルトは true です。 |
+| [ShowPageStepper](../../aspose.slides.export/swfoptions/showpagestepper) { get; set; } | ページステッパーを表示または非表示にします。flashvarsで上書き可能です。デフォルトは true です。 |
+| [ShowSearch](../../aspose.slides.export/swfoptions/showsearch) { get; set; } | 検索セクションを表示または非表示にします。flashvarsで上書き可能です。デフォルトは true です。 |
+| [ShowTopPane](../../aspose.slides.export/swfoptions/showtoppane) { get; set; } | 上部全体のペインを表示または非表示にします。flashvarsで上書き可能です。デフォルトは true です。 |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | プレゼンテーションを保存する際に JavaScript 呼び出しを含むハイパーリンクをスキップするかどうかを指定します。Read/write Boolean。デフォルト値は **false** です。 |
+| [SlidesLayoutOptions](../../aspose.slides.export/swfoptions/slideslayoutoptions) { get; set; } | プレゼンテーション [`ISlidesLayoutOptions`](../islideslayoutoptions) をエクスポートする際にスライドがページ上に配置されるモードを取得または設定します。このプロパティは [`HandoutLayoutingOptions`](../handoutlayoutingoptions) 型のオブジェクトの割り当てをサポートしません。 |
+| [StartOpenLeftPane](../../aspose.slides.export/swfoptions/startopenleftpane) { get; set; } | 左ペインを開いた状態で開始します。flashvarsで上書き可能です。デフォルトは false です。 |
 | [ViewerIncluded](../../aspose.slides.export/swfoptions/viewerincluded) { get; set; } | 生成された SWF ドキュメントに統合ドキュメントビューアを含めるかどうかを指定します。デフォルトは `true` です。 |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 警告を受け取り、ロードプロセスを継続するか中止するかを決定するオブジェクトを取得または設定します。読み書き可能 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 警告を受け取り、ロードプロセスを続行するか中止するかを決定するオブジェクトを取得または設定します。Read/write [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
 
 ### 例
 
-次の例は PowerPoint を SWF Flash に変換する方法を示します。
+次の例は PowerPoint を SWF Flash に変換する方法を示しています。
 
 ```csharp
 [C#]
@@ -66,7 +66,7 @@ using (Presentation presentation = new Presentation("HelloWorld.pptx"))
 }
 ```
 
-### 参照
+### 関連項目
 
 * クラス [SaveOptions](../saveoptions)
 * インターフェイス [ISwfOptions](../iswfoptions)

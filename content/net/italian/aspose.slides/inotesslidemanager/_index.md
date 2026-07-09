@@ -1,14 +1,14 @@
 ---
 title: INotesSlideManager
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Gestore delle diapositive di note.
+second_title: Aspose.Sildes per .NET API Reference
+description: Gestore della diapositiva delle note.
 type: docs
-weight: 6500
+weight: 6520
 url: /it/aspose.slides/inotesslidemanager/
 ---
 ## INotesSlideManager interfaccia
 
-Gestore delle diapositive di note.
+Gestore della diapositiva delle note.
 
 ```csharp
 public interface INotesSlideManager
@@ -16,15 +16,15 @@ public interface INotesSlideManager
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [NotesSlide](../../aspose.slides/inotesslidemanager/notesslide) { get; } | Restituisce la diapositiva delle note per la diapositiva corrente. Restituisce null se la diapositiva non ha una diapositiva di note. Sola lettura [`INotesSlide`](../inotesslide). |
+| [NotesSlide](../../aspose.slides/inotesslidemanager/notesslide) { get; } | Restituisce la diapositiva delle note per la diapositiva corrente. Restituisce null se la diapositiva non ha una diapositiva delle note. Solo lettura [`INotesSlide`](../inotesslide). |
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [AddNotesSlide](../../aspose.slides/inotesslidemanager/addnotesslide)() | Restituisce la diapositiva delle note per la diapositiva corrente, creando una se non esiste. |
+| [AddNotesSlide](../../aspose.slides/inotesslidemanager/addnotesslide)() | Restituisce la diapositiva delle note per la diapositiva corrente, creandone una se non esiste. |
 | [RemoveNotesSlide](../../aspose.slides/inotesslidemanager/removenotesslide)() | Rimuove la diapositiva delle note della diapositiva corrente. |
 
 ### Vedi anche

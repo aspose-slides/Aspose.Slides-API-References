@@ -3,7 +3,7 @@ title: RotationEffect
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje rotační chování efektu.
 type: docs
-weight: 750
+weight: 770
 url: /cs/aspose.slides.animation/rotationeffect/
 ---
 ## RotationEffect třída
@@ -16,21 +16,21 @@ public class RotationEffect : Behavior, IRotationEffect
 
 ## Konstruktory
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [RotationEffect](rotationeffect)() | Výchozí konstruktor. |
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Určuje, zda jsou animační chování akumulována. Čtení/zápis [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Určuje, zda je aktuální animační chování kombinováno s ostatními běžícími animacemi. Čtení/zápis [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [By](../../aspose.slides.animation/rotationeffect/by) { get; set; } | Popisuje relativní offsetovou hodnotu pro animaci. Čtení/zápis Single. |
-| [From](../../aspose.slides.animation/rotationeffect/from) { get; set; } | Popisuje počáteční hodnotu pro animaci. Čtení/zápis Single. |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Určuje vlastnosti chování. Pouze pro čtení [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Určuje časové vlastnosti pro chování efektu. Čtení/zápis [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/rotationeffect/to) { get; set; } | Popisuje koncovou hodnotu pro animaci. Čtení/zápis Single. |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Určuje, zda jsou animace hromaděny. Číst/Zapisovat [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Určuje, zda je aktuální animace kombinována s jinými běžícími animacemi. Číst/Zapisovat [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [By](../../aspose.slides.animation/rotationeffect/by) { get; set; } | Popisuje relativní hodnotu posunu pro animaci. Číst/Zapisovat Single. |
+| [From](../../aspose.slides.animation/rotationeffect/from) { get; set; } | Popisuje počáteční hodnotu pro animaci. Číst/Zapisovat Single. |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Reprezentuje vlastnosti chování. Pouze pro čtení [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Reprezentuje časové vlastnosti pro chování efektu. Číst/Zapisovat [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/rotationeffect/to) { get; set; } | Popisuje koncovou hodnotu pro animaci. Číst/Zapisovat Single. |
 
 ### Viz také
 

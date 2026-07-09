@@ -1,14 +1,14 @@
 ---
 title: TabAlignment
 second_title: Aspose.Sildes para .NET Referência da API
-description: Representa o alinhamento da tabulação.
+description: Representa o alinhamento de tabulação.
 type: docs
-weight: 10810
+weight: 10830
 url: /pt/aspose.slides/tabalignment/
 ---
 ## TabAlignment enumeração
 
-Representa o alinhamento da tabulação.
+Representa o alinhamento de tabulação.
 
 ```csharp
 public enum TabAlignment

@@ -1,9 +1,9 @@
 ---
 title: EffectStyle
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili gaya efek.
 type: docs
-weight: 11060
+weight: 11080
 url: /id/aspose.slides.theme/effectstyle/
 ---
 ## Kelas EffectStyle

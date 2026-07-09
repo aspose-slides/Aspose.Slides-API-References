@@ -1,14 +1,14 @@
 ---
 title: RevealTransition
 second_title: Aspose.Sildes for .NET API リファレンス
-description: スライドの表示トランジション効果。
+description: Reveal スライド遷移効果です。
 type: docs
-weight: 10260
+weight: 10280
 url: /ja/aspose.slides.slideshow/revealtransition/
 ---
 ## RevealTransition クラス
 
-スライドの表示トランジション効果。
+Revealスライド遷移効果です。
 
 ```csharp
 public class RevealTransition : TransitionValueBase, IRevealTransition
@@ -18,15 +18,15 @@ public class RevealTransition : TransitionValueBase, IRevealTransition
 
 | 名前 | 説明 |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/revealtransition/direction) { get; set; } | トランジションの方向。Read/write [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype)。 |
-| [ThroughBlack](../../aspose.slides.slideshow/revealtransition/throughblack) { get; set; } | トランジションが黒でフェードするかどうかを指定します。Read/write Boolean。 |
+| [Direction](../../aspose.slides.slideshow/revealtransition/direction) { get; set; } | 遷移の方向。 読み書き [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype)。 |
+| [ThroughBlack](../../aspose.slides.slideshow/revealtransition/throughblack) { get; set; } | トランジションが黒でフェードアウトするかどうかを指定します。 読み書き Boolean。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 2つの TransitionValueBase インスタンスが等しいかどうかを判断します。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 特定の型に対するハッシュ関数として機能し、ハッシュアルゴリズムやハッシュテーブルのようなデータ構造での使用に適しています。 |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 2つのTransitionValueBaseインスタンスが等しいかどうかを判断します。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 特定の型のハッシュ関数として機能し、ハッシュアルゴリズムやハッシュテーブルなどのデータ構造で使用できるようにします。 |
 
 ### 参照
 

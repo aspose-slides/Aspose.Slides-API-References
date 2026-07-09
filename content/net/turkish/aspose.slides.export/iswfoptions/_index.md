@@ -1,14 +1,14 @@
 ---
 title: ISwfOptions
-second_title: Aspose.Sildes .NET API Referansı
-description: Bir sunumun SWF formatında nasıl kaydedileceğini kontrol eden seçenekler sağlar.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Sunumun SWF biçiminde kaydedilmesini kontrol eden seçenekler sağlar.
 type: docs
-weight: 4130
+weight: 4150
 url: /tr/aspose.slides.export/iswfoptions/
 ---
-## ISwfOptions arayüz
+## ISwfOptions arayüzü
 
-Sunumun SWF formatında nasıl kaydedileceğini kontrol eden seçenekler sağlar.
+Bir sunumun SWF biçiminde kaydedilmesini kontrol eden seçenekler sağlar.
 
 ```csharp
 public interface ISwfOptions : ISaveOptions
@@ -18,22 +18,22 @@ public interface ISwfOptions : ISaveOptions
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/iswfoptions/asisaveoptions) { get; } | ISaveOptions arayüzünü döndürür. Salt okunur [`ISaveOptions`](../isaveoptions). |
+| [AsISaveOptions](../../aspose.slides.export/iswfoptions/asisaveoptions) { get; } | ISaveOptions arayüzünü döndürür. Yalnızca okuma [`ISaveOptions`](../isaveoptions). |
 | [Compressed](../../aspose.slides.export/iswfoptions/compressed) { get; set; } | Oluşturulan SWF belgesinin sıkıştırılıp sıkıştırılmayacağını belirtir. Varsayılan değer `true`. |
 | [EnableContextMenu](../../aspose.slides.export/iswfoptions/enablecontextmenu) { get; set; } | Bağlam menüsünü etkinleştirir/devre dışı bırakır. Varsayılan değer true. |
 | [JpegQuality](../../aspose.slides.export/iswfoptions/jpegquality) { get; set; } | JPEG görüntülerinin kalitesini belirtir. Varsayılan değer 95. |
-| [LogoImageBytes](../../aspose.slides.export/iswfoptions/logoimagebytes) { get; set; } | Görüntüleyicinin sağ üst köşesinde logo olarak görüntülenecek resim. Görüntü 32x64 piksel PNG olmalıdır, aksi takdirde logo yanlış görüntülenebilir. |
-| [LogoLink](../../aspose.slides.export/iswfoptions/logolink) { get; set; } | Bir logo için tam hiperlink adresini alır veya ayarlar. Yalnızca bir [`LogoImageBytes`](./logoimagebytes) belirtilmişse etkili olur. |
-| [ShowBottomPane](../../aspose.slides.export/iswfoptions/showbottompane) { get; set; } | Alt paneli gösterir/gizler. flashvars içinde geçersiz kılınabilir. Varsayılan değer true. |
+| [LogoImageBytes](../../aspose.slides.export/iswfoptions/logoimagebytes) { get; set; } | Görünüm penceresinin sağ üst köşesinde logo olarak görüntülenecek resim. Resim 32x64 piksel PNG olmalıdır, aksi takdirde logo hatalı görüntülenebilir. |
+| [LogoLink](../../aspose.slides.export/iswfoptions/logolink) { get; set; } | Logonun tam hiperlink adresini alır veya ayarlar. Sadece bir [`LogoImageBytes`](./logoimagebytes) belirtilmişse etkili olur. |
+| [ShowBottomPane](../../aspose.slides.export/iswfoptions/showbottompane) { get; set; } | Alt bölmeyi gösterir/gizler. flashvars içinde geçersiz kılınabilir. Varsayılan değer true. |
 | [ShowFullScreen](../../aspose.slides.export/iswfoptions/showfullscreen) { get; set; } | Tam ekran düğmesini gösterir/gizler. flashvars içinde geçersiz kılınabilir. Varsayılan değer true. |
 | [ShowHiddenSlides](../../aspose.slides.export/iswfoptions/showhiddenslides) { get; set; } | Oluşturulan belgenin gizli slaytları içerip içermeyeceğini belirtir. Varsayılan değer `false`. |
-| [ShowLeftPane](../../aspose.slides.export/iswfoptions/showleftpane) { get; set; } | Sol paneli gösterir/gizler. flashvars içinde geçersiz kılınabilir. Varsayılan değer true. |
-| [ShowPageBorder](../../aspose.slides.export/iswfoptions/showpageborder) { get; set; } | Sayfalar etrafındaki kenarlığın gösterilip gösterilmeyeceğini belirtir. Varsayılan değer true. |
-| [ShowPageStepper](../../aspose.slides.export/iswfoptions/showpagestepper) { get; set; } | Sayfa adımlayıcısını gösterir/gizler. flashvars içinde geçersiz kılınabilir. Varsayılan değer true. |
+| [ShowLeftPane](../../aspose.slides.export/iswfoptions/showleftpane) { get; set; } | Sol bölmeyi gösterir/gizler. flashvars içinde geçersiz kılınabilir. Varsayılan değer true. |
+| [ShowPageBorder](../../aspose.slides.export/iswfoptions/showpageborder) { get; set; } | Sayfaların etrafındaki kenarlığın gösterilip gösterilmeyeceğini belirtir. Varsayılan değer true. |
+| [ShowPageStepper](../../aspose.slides.export/iswfoptions/showpagestepper) { get; set; } | Sayfa adımcısını gösterir/gizler. flashvars içinde geçersiz kılınabilir. Varsayılan değer true. |
 | [ShowSearch](../../aspose.slides.export/iswfoptions/showsearch) { get; set; } | Arama bölümünü gösterir/gizler. flashvars içinde geçersiz kılınabilir. Varsayılan değer true. |
-| [ShowTopPane](../../aspose.slides.export/iswfoptions/showtoppane) { get; set; } | Tam üst paneli gösterir/gizler. flashvars içinde geçersiz kılınabilir. Varsayılan değer true. |
-| [SlidesLayoutOptions](../../aspose.slides.export/iswfoptions/slideslayoutoptions) { get; set; } | Bir sunumu dışa aktarırken slaytların sayfaya yerleştirileceği modu alır veya ayarlar [`ISlidesLayoutOptions`](../islideslayoutoptions). Bu özellik `Aspose.Slides.Export.HandoutLayoutingOptions` türündeki nesnelerin atanmasını desteklemez. |
-| [StartOpenLeftPane](../../aspose.slides.export/iswfoptions/startopenleftpane) { get; set; } | Açık sol panel ile başlar. flashvars içinde geçersiz kılınabilir. Varsayılan değer false. |
+| [ShowTopPane](../../aspose.slides.export/iswfoptions/showtoppane) { get; set; } | Tüm üst bölmeyi gösterir/gizler. flashvars içinde geçersiz kılınabilir. Varsayılan değer true. |
+| [SlidesLayoutOptions](../../aspose.slides.export/iswfoptions/slideslayoutoptions) { get; set; } | Sunumu dışa aktarırken slaytların sayfada yerleştirildiği modu alır veya ayarlar [`ISlidesLayoutOptions`](../islideslayoutoptions). Bu özellik `Aspose.Slides.Export.HandoutLayoutingOptions` türündeki nesnelerin atanmasını desteklemez |
+| [StartOpenLeftPane](../../aspose.slides.export/iswfoptions/startopenleftpane) { get; set; } | Açık sol bölme ile başlar. flashvars içinde geçersiz kılınabilir. Varsayılan değer false. |
 | [ViewerIncluded](../../aspose.slides.export/iswfoptions/viewerincluded) { get; set; } | Oluşturulan SWF belgesinin bütünleşik belge görüntüleyiciyi içerip içermeyeceğini belirtir. Varsayılan değer `true`. |
 
 ### Ayrıca Bakınız

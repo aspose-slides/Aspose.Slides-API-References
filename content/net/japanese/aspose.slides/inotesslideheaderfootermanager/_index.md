@@ -1,14 +1,14 @@
 ---
 title: INotesSlideHeaderFooterManager
-second_title: Aspose.Sildes の .NET API リファレンス
-description: ヘッダー プレースホルダーを含む、ノートスライド プレースホルダーの動作を保持するマネージャーを表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: ヘッダー プレースホルダーを含む、ノート スライド プレースホルダーの動作を保持するマネージャーを表します。
 type: docs
-weight: 6490
+weight: 6510
 url: /ja/aspose.slides/inotesslideheaderfootermanager/
 ---
 ## INotesSlideHeaderFooterManager インターフェイス
 
-ヘッダー プレースホルダーを含む、ノートスライド プレースホルダーの動作を保持するマネージャーを表します。
+INotesSlideHeaderFooterManager は、ヘッダー プレースホルダーを含む、ノート スライド プレースホルダーの動作を保持するマネージャーを表します。
 
 ```csharp
 public interface INotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -20,7 +20,7 @@ public interface INotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFo
 | --- | --- |
 | [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/inotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | IBaseHandoutNotesSlideHeaderFooterManag インターフェイスを返します。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

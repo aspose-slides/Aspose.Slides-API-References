@@ -1,14 +1,14 @@
 ---
 title: Output
-second_title: Aspose.Sildes の .NET API リファレンス
-description: IWebDocument 用の出力要素コレクションを表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: IWebDocument の出力要素のコレクションを表します。
 type: docs
-weight: 4620
+weight: 4640
 url: /ja/aspose.slides.export.web/output/
 ---
-## Output クラス
+## 出力クラス
 
-!:IWebDocument の出力要素のコレクションを表します。
+!:**IWebDocument** の出力要素のコレクションを表します。
 
 ```csharp
 public sealed class Output

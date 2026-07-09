@@ -1,14 +1,14 @@
 ---
 title: IDataLabelFormat
-second_title: Aspose.Sildes pro .NET API Referenci
-description: Representuje možnosti formátování pro DataLabel.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Představuje možnosti formátování pro DataLabel.
 type: docs
-weight: 2020
+weight: 2040
 url: /cs/aspose.slides.charts/idatalabelformat/
 ---
 ## IDataLabelFormat rozhraní
 
-Represents formatting options for DataLabel.
+Představuje možnosti formátování pro DataLabel.
 
 ```csharp
 public interface IDataLabelFormat : IFormattedTextContainer
@@ -19,20 +19,20 @@ public interface IDataLabelFormat : IFormattedTextContainer
 | Název | Popis |
 | --- | --- |
 | [AsIFormattedTextContainer](../../aspose.slides.charts/idatalabelformat/asiformattedtextcontainer) { get; } | Umožňuje získat základní rozhraní IFormattedTextContainer. Pouze pro čtení [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [Format](../../aspose.slides.charts/idatalabelformat/format) { get; } | Zastupuje formát popisku dat. Pouze pro čtení [`IFormat`](../iformat). |
+| [Format](../../aspose.slides.charts/idatalabelformat/format) { get; } | Representuje formát datové popisky. Pouze pro čtení [`IFormat`](../iformat). |
 | [IsNumberFormatLinkedToSource](../../aspose.slides.charts/idatalabelformat/isnumberformatlinkedtosource) { get; set; } | Čtení/zápis Boolean. |
-| [NumberFormat](../../aspose.slides.charts/idatalabelformat/numberformat) { get; set; } | Zastupuje řetězec formátu pro objekt DataLabels. Čtení/zápis String. |
-| [Position](../../aspose.slides.charts/idatalabelformat/position) { get; set; } | Zastupuje pozici popisku dat. Čtení/zápis [`LegendDataLabelPosition`](../legenddatalabelposition). |
-| [Separator](../../aspose.slides.charts/idatalabelformat/separator) { get; set; } | Nastavuje nebo vrací Variant reprezentující oddělovač používaný pro popisky dat v grafu. Čtení/zápis String. |
-| [ShowBubbleSize](../../aspose.slides.charts/idatalabelformat/showbubblesize) { get; set; } | Zastupuje chování zobrazování hodnoty velikosti bubliny popisku dat v konkrétním grafu. True zobrazí hodnotu velikosti bubliny. False skrývá. Čtení/zápis Boolean. |
-| [ShowCategoryName](../../aspose.slides.charts/idatalabelformat/showcategoryname) { get; set; } | Zastupuje chování zobrazování názvu kategorie popisku dat v konkrétním grafu. True zobrazí název kategorie. False skrývá. Čtení/zápis Boolean. |
-| [ShowLabelAsDataCallout](../../aspose.slides.charts/idatalabelformat/showlabelasdatacallout) { get; set; } | Určuje, zda bude popisek dat v konkrétním grafu zobrazen jako výzva k datům nebo jako popisek dat. Pokud je nadřazeným objektem tohoto DataLabelFormat objekt DataLabelCollection (kolekce popisků dat), pak tato vlastnost získá nebo nastaví výchozí hodnotu vlastnosti ShowLabelAsDataCallout pro nové popisky dat v kolekci DataLabelCollection. Nastavením této vlastnosti na hodnotu se tato hodnota také přiřadí vlastnosti ShowLabelAsDataCallout pro všechny popisky dat v kolekci DataLabelCollection (např. "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" způsobí, že všechny DataLabels[i].ShowLabelAsDataCallout jsou rovny val). |
-| [ShowLabelValueFromCell](../../aspose.slides.charts/idatalabelformat/showlabelvaluefromcell) { get; set; } | Zastupuje chování zobrazování hodnoty buňky popisku dat v konkrétním grafu. True zobrazí hodnotu buňky. False skrývá. Čtení/zápis Boolean. |
-| [ShowLeaderLines](../../aspose.slides.charts/idatalabelformat/showleaderlines) { get; set; } | Zastupuje chování zobrazování vodicích čar popisku dat v konkrétním grafu. True zobrazí vodicí čáry. False skrývá. Čtení/zápis Boolean. |
-| [ShowLegendKey](../../aspose.slides.charts/idatalabelformat/showlegendkey) { get; set; } | Zastupuje chování zobrazování klíče legendy popisku dat v konkrétním grafu. True pokud je klíč legendy popisku dat viditelný. Čtení/zápis Boolean. |
-| [ShowPercentage](../../aspose.slides.charts/idatalabelformat/showpercentage) { get; set; } | Zastupuje chování zobrazování procentuální hodnoty popisku dat v konkrétním grafu. True zobrazí procentuální hodnotu. False skrývá. Čtení/zápis Boolean. |
-| [ShowSeriesName](../../aspose.slides.charts/idatalabelformat/showseriesname) { get; set; } | Vrací nebo nastavuje Boolean, který určuje chování zobrazování názvu řady pro popisky dat v grafu. True zobrazí název řady. False skrývá. Čtení/zápis Boolean. |
-| [ShowValue](../../aspose.slides.charts/idatalabelformat/showvalue) { get; set; } | Zastupuje chování zobrazování procentuální hodnoty popisku dat v konkrétním grafu. True zobrazí procentuální hodnotu. False skrývá. Čtení/zápis Boolean. |
+| [NumberFormat](../../aspose.slides.charts/idatalabelformat/numberformat) { get; set; } | Representuje formátovací řetězec pro objekt DataLabels. Čtení/zápis String. |
+| [Position](../../aspose.slides.charts/idatalabelformat/position) { get; set; } | Representuje pozici datové popisky. Čtení/zápis [`LegendDataLabelPosition`](../legenddatalabelposition). |
+| [Separator](../../aspose.slides.charts/idatalabelformat/separator) { get; set; } | Nastavuje nebo vrací Variant představující oddělovač používaný pro datové popisky v grafu. Čtení/zápis String. |
+| [ShowBubbleSize](../../aspose.slides.charts/idatalabelformat/showbubblesize) { get; set; } | Representuje chování zobrazení hodnoty velikosti bubliny datové popisky v konkrétním grafu. True zobrazuje hodnotu velikosti bubliny. False skryje. Čtení/zápis Boolean. |
+| [ShowCategoryName](../../aspose.slides.charts/idatalabelformat/showcategoryname) { get; set; } | Representuje chování zobrazení názvu kategorie datové popisky v konkrétním grafu. True zobrazí název kategorie pro datové popisky v grafu. False skryje. Čtení/zápis Boolean. |
+| [ShowLabelAsDataCallout](../../aspose.slides.charts/idatalabelformat/showlabelasdatacallout) { get; set; } | Určuje, zda bude datová popiska v konkrétním grafu zobrazena jako datový popisek nebo jako datová výzva. Pokud je nadřazeným objektem tohoto DataLabelFormat objekt DataLabelCollection (sbírka datových popisek), pak tato vlastnost získá nebo nastaví výchozí hodnotu vlastnosti ShowLabelAsDataCallout pro nové datové popisky ve sbírce DataLabelCollection. Nastavením této vlastnosti s hodnotou se také nastaví tato hodnota pro vlastnost ShowLabelAsDataCallout u všech datových popisek ve sbírce DataLabelCollection (např. "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" způsobí, že všechny DataLabels[i].ShowLabelAsDataCallout budou rovny val). |
+| [ShowLabelValueFromCell](../../aspose.slides.charts/idatalabelformat/showlabelvaluefromcell) { get; set; } | Representuje chování zobrazení hodnoty buňky datové popisky v konkrétním grafu. True zobrazí hodnotu buňky. False skryje. Čtení/zápis Boolean. |
+| [ShowLeaderLines](../../aspose.slides.charts/idatalabelformat/showleaderlines) { get; set; } | Representuje chování zobrazení čar vodící k datovým popiskám v konkrétním grafu. True zobrazí vodící čáry. False skryje. Čtení/zápis Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/idatalabelformat/showlegendkey) { get; set; } | Representuje chování zobrazení legendárního klíče datové popisky v konkrétním grafu. True pokud je legendární klíč datové popisky viditelný. Čtení/zápis Boolean. |
+| [ShowPercentage](../../aspose.slides.charts/idatalabelformat/showpercentage) { get; set; } | Representuje chování zobrazení procentuální hodnoty datové popisky v konkrétním grafu. True zobrazí procentuální hodnotu. False skryje. Čtení/zápis Boolean. |
+| [ShowSeriesName](../../aspose.slides.charts/idatalabelformat/showseriesname) { get; set; } | Vrací nebo nastavuje Boolean, který určuje chování zobrazení názvu řady pro datové popisky v grafu. True zobrazí název řady. False skryje. Čtení/zápis Boolean. |
+| [ShowValue](../../aspose.slides.charts/idatalabelformat/showvalue) { get; set; } | Representuje chování zobrazení procentuální hodnoty datové popisky v konkrétním grafu. True zobrazí procentuální hodnotu. False skryje. Čtení/zápis Boolean. |
 
 ### Viz také
 

@@ -1,14 +1,14 @@
 ---
 title: LightRigPresetType
-second_title: Aspose.Sildes for .NET API Referansı
-description: Işık ön ayar türlerini tanımlayan sabitler.
+second_title: Aspose.Sildes .NET API Referansı
+description: Işık ön ayar tiplerini tanımlayan sabitler.
 type: docs
-weight: 7680
+weight: 7700
 url: /tr/aspose.slides/lightrigpresettype/
 ---
 ## LightRigPresetType enum
 
-Işık ön ayar türlerini tanımlayan sabitler.
+Işık ön ayar tiplerini tanımlayan sabitler.
 
 ```csharp
 public enum LightRigPresetType
@@ -47,7 +47,7 @@ public enum LightRigPresetType
 | ThreePt | `25` |  |
 | TwoPt | `26` |  |
 
-### Bakınız
+### Ayrıca
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

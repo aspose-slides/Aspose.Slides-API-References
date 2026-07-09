@@ -1,14 +1,14 @@
 ---
 title: IAlphaInverseEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
-description: Oföränderligt objekt som representerar en Alpha Inverse-effekt. Alpha-opacitetsvärden inverteras genom att subtrahera från 100.
+description: Oföränderligt objekt som representerar en Alpha Inverse-effekt. Alpha opacitetsvärden inverteras genom att subtraheras från 100.
 type: docs
-weight: 3070
+weight: 3090
 url: /sv/aspose.slides.effects/ialphainverseeffectivedata/
 ---
 ## IAlphaInverseEffectiveData gränssnitt
 
-Oföränderligt objekt som representerar en Alpha Inverse-effekt. Alpha (opacitet)-värden inverteras genom att subtrahera från 100 %.
+Oföränderligt objekt som representerar en Alpha Inverse-effekt. Alpha (opacitet)-värden inverteras genom att subtraheras från 100%.
 
 ```csharp
 public interface IAlphaInverseEffectiveData : IEffectEffectiveData
@@ -16,11 +16,11 @@ public interface IAlphaInverseEffectiveData : IEffectEffectiveData
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphainverseeffectivedata/asieffecteffectivedata) { get; } | Tillåter att hämta bas-IEffectEffectiveData gränssnitt. Skrivskyddad [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphainverseeffectivedata/asieffecteffectivedata) { get; } | Tillåter att hämta bas IEffectEffectiveData gränssnitt. Skrivskyddad [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
-### Se också
+### Se även
 
 * gränssnitt [IEffectEffectiveData](../ieffecteffectivedata)
 * namnrymd [Aspose.Slides.Effects](../../aspose.slides.effects)

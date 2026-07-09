@@ -1,14 +1,14 @@
 ---
 title: IBehavior
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET API referenci
 description: Reprezentuje chování základní třídy efektu.
 type: docs
-weight: 390
+weight: 410
 url: /cs/aspose.slides.animation/ibehavior/
 ---
 ## IBehavior rozhraní
 
-Reprezentuje základní chování třídy efektu.
+Reprezentuje chování základní třídy efektu.
 
 ```csharp
 public interface IBehavior
@@ -18,10 +18,10 @@ public interface IBehavior
 
 | Název | Popis |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/ibehavior/accumulate) { get; set; } | Udává, zda jsou animační chování akumulována. Čtení/zápis [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/ibehavior/additive) { get; set; } | Udává, zda je aktuální animační chování kombinováno s ostatními běžícími animacemi. Čtení/zápis [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [Properties](../../aspose.slides.animation/ibehavior/properties) { get; } | Udává vlastnosti chování. Pouze pro čtení [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/ibehavior/timing) { get; set; } | Udává časové vlastnosti pro chování efektu. Čtení/zápis [`ITiming`](../itiming). |
+| [Accumulate](../../aspose.slides.animation/ibehavior/accumulate) { get; set; } | Určuje, zda jsou animační chování akumulována. Čtení/zápis [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/ibehavior/additive) { get; set; } | Určuje, zda je aktuální animační chování kombinováno s ostatními běžícími animacemi. Čtení/zápis [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Properties](../../aspose.slides.animation/ibehavior/properties) { get; } | Reprezentuje vlastnosti chování. Pouze pro čtení [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/ibehavior/timing) { get; set; } | Reprezentuje časové vlastnosti pro chování efektu. Čtení/zápis [`ITiming`](../itiming). |
 
 ### Viz také
 

@@ -1,14 +1,14 @@
 ---
 title: ColorReplace
-second_title: Aspose.Sildes pro .NET referenční příručka API
-description: Představuje efekt nahrazení barvy. Všechny barvy efektu jsou změněny na pevnou barvu. Hodnoty alfa nejsou ovlivněny.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Representuje efekt nahrazení barvy. Všechny barvy efektu jsou změněny na pevnou barvu. Hodnoty alfa zůstávají nedotčeny.
 type: docs
-weight: 2930
+weight: 2950
 url: /cs/aspose.slides.effects/colorreplace/
 ---
 ## ColorReplace třída
 
-Představuje efekt Color Replacement. Všechny barvy efektu jsou změněny na pevnou barvu. Hodnoty alfa nejsou ovlivněny.
+Representuje efekt nahrazení barvy. Všechny barvy efektu jsou změněny na pevnou barvu. Hodnoty alfa zůstávají nedotčeny.
 
 ```csharp
 public sealed class ColorReplace : ImageTransformOperation, IColorReplace
@@ -18,15 +18,15 @@ public sealed class ColorReplace : ImageTransformOperation, IColorReplace
 
 | Název | Popis |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze ke čtení [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Color](../../aspose.slides.effects/colorreplace/color) { get; } | Vrací formát barvy, který nahradí barvu každého pixelu. Pouze ke čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze pro čtení [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Color](../../aspose.slides.effects/colorreplace/color) { get; } | Vrací formát barvy, který nahradí barvu každého pixelu. Pouze pro čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/colorreplace/equals)(object) | Určuje, zda je zadaný [`ColorReplace`](../colorreplace) roven aktuálnímu [`ColorReplace`](../colorreplace). |
-| [GetEffective](../../aspose.slides.effects/colorreplace/geteffective)() | Získá efektivní data efektu Color Replacement s aplikovaným děděním. |
+| [GetEffective](../../aspose.slides.effects/colorreplace/geteffective)() | Získá data efektu Color Replacement s aplikovaným děděním. |
 | override [GetHashCode](../../aspose.slides.effects/colorreplace/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ. |
 
 ### Viz také

@@ -3,7 +3,7 @@ title: CommentAuthor
 second_title: Aspose.Sildes for .NET API リファレンス
 description: コメントの作成者を表します。
 type: docs
-weight: 2610
+weight: 2630
 url: /ja/aspose.slides/commentauthor/
 ---
 ## CommentAuthor クラス
@@ -16,7 +16,7 @@ public sealed class CommentAuthor : ICommentAuthor
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [Comments](../../aspose.slides/commentauthor/comments) { get; } | この作成者が作成したコメントのコレクションを返します。読み取り専用 [`ICommentCollection`](../icommentcollection)。 |
 | [Initials](../../aspose.slides/commentauthor/initials) { get; set; } | 作成者のイニシャルを取得または設定します。読み書き可能 String。 |
@@ -24,9 +24,9 @@ public sealed class CommentAuthor : ICommentAuthor
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [Remove](../../aspose.slides/commentauthor/remove)() | 親コレクションから作成者を削除します。 |
+| [Remove](../../aspose.slides/commentauthor/remove)() | 作成者を親コレクションから削除します。 |
 
 ### 参照
 

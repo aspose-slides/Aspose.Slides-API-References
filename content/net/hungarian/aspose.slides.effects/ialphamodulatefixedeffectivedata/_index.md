@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulateFixedEffectiveData
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Változtathatatlan objektum, amely egy Alpha Modulate Fixed hatást képvisel. A hatás alfa átlátszósági értékei egy rögzített százalékkal szorozódnak.
+second_title: Aspose.Sildes a .NET API referencia
+description: Változtathatatlan objektum, amely egy Alpha Modulate Fixed effektet képvisel. A hatás alfa átlátszóság értékei egy állandó százalékkal szorzódnak.
 type: docs
-weight: 3110
+weight: 3130
 url: /hu/aspose.slides.effects/ialphamodulatefixedeffectivedata/
 ---
 ## IAlphaModulateFixedEffectiveData interfész
 
-Immutable object which represents an Alpha Modulate Fixed effect. Effect alpha (opacity) values are multiplied by a fixed percentage.
+Az alfa modulált fix hatást képviselő változtathatatlan objektum. A hatás alfa (átlátszóság) értékei egy állandó százalékkal szorozódnak.
 
 ```csharp
 public interface IAlphaModulateFixedEffectiveData : IEffectEffectiveData
@@ -18,8 +18,8 @@ public interface IAlphaModulateFixedEffectiveData : IEffectEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/amount) { get; } | Visszaadja a hatás mennyiségét százalékban. Csak olvasható Single. |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi az alap IEffectEffectiveData interfész lekérését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Amount](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/amount) { get; } | Visszaadja a hatás értékét százalékban. Csak olvasható Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi az alap IEffectEffectiveData interfész lekérdezését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Lásd még
 

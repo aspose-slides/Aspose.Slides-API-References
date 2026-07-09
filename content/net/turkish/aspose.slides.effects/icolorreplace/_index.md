@@ -3,7 +3,7 @@ title: IColorReplace
 second_title: Aspose.Sildes .NET API Referansı
 description: Bir Renk Değiştirme etkisini temsil eder.
 type: docs
-weight: 3220
+weight: 3240
 url: /tr/aspose.slides.effects/icolorreplace/
 ---
 ## IColorReplace arayüz
@@ -21,7 +21,7 @@ public interface IColorReplace : IAccessiblePVIObject<IColorReplaceEffectiveData
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorreplace/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arayüzünü almaya izin verir. Salt okunur [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/icolorreplace/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arayüzünü almaya izin verir. Salt okunur [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Color](../../aspose.slides.effects/icolorreplace/color) { get; } | Her pikselin rengini değiştirecek renk biçimini döndürür. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Color](../../aspose.slides.effects/icolorreplace/color) { get; } | Her pikselin rengini değiştirecek renk formatını döndürür. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Ayrıca Bakınız
 

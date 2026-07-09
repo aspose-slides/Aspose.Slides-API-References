@@ -1,43 +1,43 @@
 ---
 title: TextAnimationCollection
-second_title: Aspose.Sildes for .NET API Referansı
-description: Metin animasyonlarının koleksiyonunu temsil eder.
+second_title: Aspose.Sildes .NET için API Referansı
+description: Metin animasyonlarından oluşan bir koleksiyonu temsil eder.
 type: docs
-weight: 810
+weight: 830
 url: /tr/aspose.slides.animation/textanimationcollection/
 ---
 ## TextAnimationCollection sınıfı
 
-Metin animasyonlarının koleksiyonunu temsil eder.
+Metin animasyonlarından oluşan bir koleksiyonu temsil eder.
 
 ```csharp
 public class TextAnimationCollection : ITextAnimationCollection
 ```
 
-## Yapıcılar
+## Yapılandırıcılar
 
 | Ad | Açıklama |
 | --- | --- |
-| [TextAnimationCollection](textanimationcollection)() | Varsayılan yapıcı. |
+| [TextAnimationCollection](textanimationcollection)() | Varsayılan yapılandırıcı. |
 
 ## Özellikler
 
 | Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides.animation/textanimationcollection/count) { get; } | Koleksiyondaki öğe sayısını döndürür. Salt okunur Int32. |
-| [IsSynchronized](../../aspose.slides.animation/textanimationcollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını belirten bir değer döndürür. Salt okunur Boolean. |
-| [Item](../../aspose.slides.animation/textanimationcollection/item) { get; } | İndeks ile öğeyi döndürür. (2 indeksleyici) |
-| [SyncRoot](../../aspose.slides.animation/textanimationcollection/syncroot) { get; } | Senkronizasyon kökünü döndürür. Salt okunur Object. |
+| [Count](../../aspose.slides.animation/textanimationcollection/count) { get; } | Koleksiyondaki öğelerin sayısını döndürür. Salt okunur Int32. |
+| [IsSynchronized](../../aspose.slides.animation/textanimationcollection/issynchronized) { get; } | Koleksiyona erişimin eşzamanlı (iş parçacığı güvenli) olup olmadığını gösteren bir değer döndürür. Salt okunur Boolean. |
+| [Item](../../aspose.slides.animation/textanimationcollection/item) { get; } | İndekse göre öğeyi döndürür. (2 indeksleyici) |
+| [SyncRoot](../../aspose.slides.animation/textanimationcollection/syncroot) { get; } | Eşzamanlama kökünü döndürür. Salt okunur Object. |
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | [Add](../../aspose.slides.animation/textanimationcollection/add)() | Koleksiyona yeni bir metin animasyonu ekler. |
 | [CopyTo](../../aspose.slides.animation/textanimationcollection/copyto)(Array, int) | Koleksiyondaki tüm öğeleri belirtilen diziye kopyalar. |
-| [GetEnumerator](../../aspose.slides.animation/textanimationcollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
+| [GetEnumerator](../../aspose.slides.animation/textanimationcollection/getenumerator)() | Koleksiyonda gezinmek için bir enumeratör döndürür. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * arayüz [ITextAnimationCollection](../itextanimationcollection)
 * ad alanı [Aspose.Slides.Animation](../../aspose.slides.animation)

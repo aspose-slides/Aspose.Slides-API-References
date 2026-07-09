@@ -1,9 +1,9 @@
 ---
 title: SlideUtil
-second_title: Aspose.Sildes για .NET API Αναφορά
+second_title: Aspose.Sildes για .NET Αναφορά API
 description: Προσφέρει μεθόδους που βοηθούν στην αναζήτηση σχημάτων και κειμένου σε μια παρουσίαση.
 type: docs
-weight: 11500
+weight: 11520
 url: /el/aspose.slides.util/slideutil/
 ---
 ## SlideUtil κλάση
@@ -18,22 +18,22 @@ public static class SlideUtil
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes)(ShapesAlignmentType, bool, IBaseSlide) | Αλλάζει τη θέση όλων των σχημάτων στη διαφάνεια. Ευθυγραμμίζει τα σχήματα προς τα περιθώρια ή την άκρη της διαφάνειας ή τα ευθυγραμμίζει σχετικά μεταξύ τους. |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_2)(ShapesAlignmentType, bool, IGroupShape) | Αλλάζει τη θέση όλων των σχημάτων μέσα σε ομάδα σχημάτων. Ευθυγραμμίζει τα σχήματα προς τα περιθώρια ή την άκρη της διαφάνειας ή τα ευθυγραμμίζει σχετικά μεταξύ τους. |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_1)(ShapesAlignmentType, bool, IBaseSlide, int[]) | Αλλάζει τη θέση των επιλεγμένων σχημάτων στη διαφάνεια. Ευθυγραμμίζει τα σχήματα προς τα περιθώρια ή την άκρη της διαφάνειας ή τα ευθυγραμμίζει σχετικά μεταξύ τους. |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_3)(ShapesAlignmentType, bool, IGroupShape, int[]) | Αλλάζει τη θέση των επιλεγμένων σχημάτων μέσα σε ομάδα σχημάτων. Ευθυγραμμίζει τα σχήματα προς τα περιθώρια ή την άκρη της διαφάνειας ή τα ευθυγραμμίζει σχετικά μεταξύ τους. |
-| static [FindAndReplaceText](../../aspose.slides.util/slideutil/findandreplacetext)(IPresentation, bool, string, string, PortionFormat) | Βρίσκει και αντικαθιστά κείμενο σε παρουσίαση με δεδομένη μορφή |
-| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape)(IBaseSlide, string) | Βρίσκει σχήμα με βάση το εναλλακτικό κείμενο σε μια διαφάνεια σε παρουσίαση PPTX. |
-| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape_1)(IPresentation, string) | Βρίσκει σχήμα με βάση το εναλλακτικό κείμενο σε παρουσίαση PPTX. |
-| static [FindShapesByPlaceholderType](../../aspose.slides.util/slideutil/findshapesbyplaceholdertype)(IBaseSlide, PlaceholderType) | Αναζητά όλα τα σχήματα στη συγκεκριμένη διαφάνεια που ταιριάζουν με τον δοθέν τύπο PlaceholderType. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes)(ShapesAlignmentType, bool, IBaseSlide) | Αλλάζει τη θέση όλων των σχημάτων στη διαφάνεια. Στοιχίζει τα σχήματα στα περιθώρια ή στο άκρο της διαφάνειας ή τα ευθυγραμμίζει μεταξύ τους. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_2)(ShapesAlignmentType, bool, IGroupShape) | Αλλάζει τη θέση όλων των σχημάτων εντός της ομάδας σχημάτων. Στοιχίζει τα σχήματα στα περιθώρια ή στο άκρο της διαφάνειας ή τα ευθυγραμμίζει μεταξύ τους. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_1)(ShapesAlignmentType, bool, IBaseSlide, int[]) | Αλλάζει τη θέση των επιλεγμένων σχημάτων στη διαφάνεια. Στοιχίζει τα σχήματα στα περιθώρια ή στο άκρο της διαφάνειας ή τα ευθυγραμμίζει μεταξύ τους. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_3)(ShapesAlignmentType, bool, IGroupShape, int[]) | Αλλάζει τη θέση των επιλεγμένων σχημάτων εντός της ομάδας σχημάτων. Στοιχίζει τα σχήματα στα περιθώρια ή στο άκρο της διαφάνειας ή τα ευθυγραμμίζει μεταξύ τους. |
+| static [FindAndReplaceText](../../aspose.slides.util/slideutil/findandreplacetext)(IPresentation, bool, string, string, PortionFormat) | Βρίσκει και αντικαθιστά κείμενο στην παρουσίαση με το δεδομένο μορφότυπο |
+| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape)(IBaseSlide, string) | Βρίσκει σχήμα με εναλλακτικό κείμενο σε μια διαφάνεια σε παρουσίαση PPTX. |
+| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape_1)(IPresentation, string) | Βρίσκει σχήμα με εναλλακτικό κείμενο σε μια παρουσίαση PPTX. |
+| static [FindShapesByPlaceholderType](../../aspose.slides.util/slideutil/findshapesbyplaceholdertype)(IBaseSlide, PlaceholderType) | Αναζητά όλα τα σχήματα στη συγκεκριμένη διαφάνεια που ταιριάζουν με τον δεδομένο τύπο placeholder. |
 | static [GetAllTextBoxes](../../aspose.slides.util/slideutil/getalltextboxes)(IBaseSlide) | Επιστρέφει όλα τα πλαίσια κειμένου σε μια διαφάνεια σε παρουσίαση PPTX. |
 | static [GetAllTextFrames](../../aspose.slides.util/slideutil/getalltextframes)(IPresentation, bool) | Επιστρέφει όλα τα πλαίσια κειμένου σε παρουσίαση PPTX. |
-| static [GetTextBoxesContainsText](../../aspose.slides.util/slideutil/gettextboxescontainstext)(IBaseSlide, string, bool) | Επιστρέφει όλα τα πλαίσια κειμένου στη συγκεκριμένη διαφάνεια που περιέχουν το δοσμένο κείμενο. |
-| static [ToSaveFormat](../../aspose.slides.util/slideutil/tosaveformat)(SourceFormat) | Μετατρέπει μια μορφή αρχείου πηγής στην αντίστοιχη [`SaveFormat`](../../aspose.slides.export/saveformat). |
+| static [GetTextBoxesContainsText](../../aspose.slides.util/slideutil/gettextboxescontainstext)(IBaseSlide, string, bool) | Επιστέφει όλα τα πλαίσια κειμένου στη συγκεκριμένη διαφάνεια που περιέχουν το δοσμένο κείμενο. |
+| static [ToSaveFormat](../../aspose.slides.util/slideutil/tosaveformat)(SourceFormat) | Μετατρέπει μια μορφή αρχείου προέλευσης στην αντίστοιχη [`SaveFormat`](../../aspose.slides.export/saveformat). |
 
 ### Δείτε επίσης
 
-* χώρο ονομάτων [Aspose.Slides.Util](../../aspose.slides.util)
-* συγκρότημα [Aspose.Slides](../../)
+* namespace [Aspose.Slides.Util](../../aspose.slides.util)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

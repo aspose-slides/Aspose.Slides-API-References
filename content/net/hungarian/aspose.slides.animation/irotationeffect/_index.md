@@ -1,14 +1,14 @@
 ---
 title: IRotationEffect
-second_title: Aspose.Sildes .NET-hez API hivatkozás
-description: Az effektus forgatási viselkedését reprezentálja.
+second_title: Aspose.Sildes .NET API referenciája
+description: A hatás forgatási viselkedését reprezentálja.
 type: docs
-weight: 550
+weight: 570
 url: /hu/aspose.slides.animation/irotationeffect/
 ---
 ## IRotationEffect interfész
 
-Az effektus forgatási viselkedését reprezentálja.
+A hatás forgatási viselkedését reprezentálja.
 
 ```csharp
 public interface IRotationEffect : IBehavior
@@ -18,10 +18,10 @@ public interface IRotationEffect : IBehavior
 
 | Név | Leírás |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/irotationeffect/asibehavior) { get; } | Lehetővé teszi a base IBehavior interfész elérését. Csak olvasható [`IBehavior`](../ibehavior). |
-| [By](../../aspose.slides.animation/irotationeffect/by) { get; set; } | Leírja az animáció relatív eltolásértékét. Olvasás/írás Single. |
-| [From](../../aspose.slides.animation/irotationeffect/from) { get; set; } | Leírja az animáció kiindulási értékét. Olvasás/írás Single. |
-| [To](../../aspose.slides.animation/irotationeffect/to) { get; set; } | Leírja az animáció befejezési értékét. Olvasás/írás Single. |
+| [AsIBehavior](../../aspose.slides.animation/irotationeffect/asibehavior) { get; } | Lehetővé teszi a base IBehavior interfész lekérését. Csak olvasható [`IBehavior`](../ibehavior). |
+| [By](../../aspose.slides.animation/irotationeffect/by) { get; set; } | Leírja az animáció relatív eltolás értékét. Olvasás/írás Single. |
+| [From](../../aspose.slides.animation/irotationeffect/from) { get; set; } | Leírja az animáció kezdeti értékét. Olvasás/írás Single. |
+| [To](../../aspose.slides.animation/irotationeffect/to) { get; set; } | Leírja az animáció befejező értékét. Olvasás/írás Single. |
 
 ### Lásd még
 

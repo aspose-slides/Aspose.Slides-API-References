@@ -3,7 +3,7 @@ title: IInkActions
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un oggetto inchiostro su una diapositiva.
 type: docs
-weight: 7500
+weight: 7520
 url: /it/aspose.slides.ink/iinkactions/
 ---
 ## IInkActions interfaccia
@@ -18,7 +18,7 @@ public interface IInkActions : IGraphicalObject
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides.ink/iinkactions/asigraphicalobject) { get; } | Consente di ottenere l'interfaccia base IGraphicalObject. Solo lettura [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [AsIGraphicalObject](../../aspose.slides.ink/iinkactions/asigraphicalobject) { get; } | Consente di ottenere l'interfaccia base IGraphicalObject. Sola lettura [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
 
 ### Vedi anche
 

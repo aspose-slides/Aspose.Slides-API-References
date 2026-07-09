@@ -3,10 +3,10 @@ title: IBackground
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili latar belakang slide.
 type: docs
-weight: 5250
+weight: 5270
 url: /id/aspose.slides/ibackground/
 ---
-## IBackground antarmuka
+## Antarmuka IBackground
 
 Mewakili latar belakang slide.
 
@@ -20,17 +20,17 @@ public interface IBackground : IFillParamSource, ISlideComponent
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ibackground/asifillparamsource) { get; } | Mengembalikan antarmuka IFillParamSource. Hanya-baca [`IFillParamSource`](../ifillparamsource). |
 | [AsISlideComponent](../../aspose.slides/ibackground/asislidecomponent) { get; } | Mengembalikan antarmuka ISlideComponent. Hanya-baca [`ISlideComponent`](../islidecomponent). |
-| [EffectFormat](../../aspose.slides/ibackground/effectformat) { get; } | Mengembalikan EffectFormat untuk isian BackgroundType.OwnBackground. Hanya-baca [`IEffectFormat`](../ieffectformat). |
-| [FillFormat](../../aspose.slides/ibackground/fillformat) { get; } | Mengembalikan FillFormat untuk isian BackgroundType.OwnBackground. Hanya-baca [`IFillFormat`](../ifillformat). |
-| [StyleColor](../../aspose.slides/ibackground/stylecolor) { get; } | Mengembalikan ColorFormat untuk isian BackgroundType.Themed. Hanya-baca [`IColorFormat`](../icolorformat). |
-| [StyleIndex](../../aspose.slides/ibackground/styleindex) { get; set; } | Mengembalikan indeks isian BackgroundType.Themed dalam koleksi tema latar belakang. 0 berarti tidak ada isian. 1..999 - indeks. Baca/tulis UInt16. |
-| [Type](../../aspose.slides/ibackground/type) { get; set; } | Mengembalikan jenis isian latar belakang. Baca/tulis [`BackgroundType`](../backgroundtype). |
+| [EffectFormat](../../aspose.slides/ibackground/effectformat) { get; } | Mengembalikan EffectFormat untuk pengisian BackgroundType.OwnBackground. Hanya-baca [`IEffectFormat`](../ieffectformat). |
+| [FillFormat](../../aspose.slides/ibackground/fillformat) { get; } | Mengembalikan FillFormat untuk pengisian BackgroundType.OwnBackground. Hanya-baca [`IFillFormat`](../ifillformat). |
+| [StyleColor](../../aspose.slides/ibackground/stylecolor) { get; } | Mengembalikan ColorFormat untuk pengisian BackgroundType.Themed. Hanya-baca [`IColorFormat`](../icolorformat). |
+| [StyleIndex](../../aspose.slides/ibackground/styleindex) { get; set; } | Mengembalikan indeks pengisian BackgroundType.Themed dalam koleksi tema latar belakang. 0 berarti tidak ada pengisian. 1..999 - indeks. Baca/tulis UInt16. |
+| [Type](../../aspose.slides/ibackground/type) { get; set; } | Mengembalikan tipe pengisian latar belakang. Baca/tulis [`BackgroundType`](../backgroundtype). |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
-| [GetEffective](../../aspose.slides/ibackground/geteffective)() | Mendapatkan data latar belakang efektif dengan penerapan pewarisan. |
+| [GetEffective](../../aspose.slides/ibackground/geteffective)() | Mendapatkan data latar belakang yang efektif dengan pewarisan yang diterapkan. |
 
 ### Lihat Juga
 

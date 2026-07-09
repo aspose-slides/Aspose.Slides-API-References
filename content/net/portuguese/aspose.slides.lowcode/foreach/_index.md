@@ -1,14 +1,14 @@
 ---
 title: ForEach
-second_title: Aspose.Sildes para .NET – Referência da API
-description: Representa um grupo de métodos destinados a iterar sobre diferentes objetos de modelo Presentation../aspose.slides/presentation. Esses métodos podem ser úteis se for necessário iterar e alterar a formatação ou o conteúdo de alguns elementos de Presentation, por exemplo, alterar a formatação de cada porção.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Representa um grupo de métodos destinados a iterar sobre diferentes objetos do modelo Presentation../aspose.slides/presentation. Esses métodos podem ser úteis se você precisar iterar e alterar a formatação ou o conteúdo de alguns elementos da Presentation, por exemplo, alterar a formatação de cada porção.
 type: docs
-weight: 7880
+weight: 7900
 url: /pt/aspose.slides.lowcode/foreach/
 ---
-## ForEach classe
+## classe ForEach
 
-Representa um grupo de métodos destinados a iterar sobre diferentes objetos de modelo [`Presentation`](../../aspose.slides/presentation). Esses métodos podem ser úteis se você precisar iterar e alterar a formatação ou o conteúdo de alguns elementos da Presentation, por exemplo, alterar a formatação de cada porção.
+Representa um grupo de métodos destinados a iterar sobre diferentes [`Presentation`](../../aspose.slides/presentation) objetos de modelo. Esses métodos podem ser úteis se você precisar iterar e alterar a formatação ou o conteúdo de alguns elementos da Presentation, por exemplo, alterar a formatação de cada porção.
 
 ```csharp
 public static class ForEach

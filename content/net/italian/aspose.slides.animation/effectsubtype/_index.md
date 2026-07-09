@@ -1,14 +1,14 @@
 ---
 title: EffectSubtype
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta i sottotipi dell'effetto di animazione.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta i sottotipi di effetto di animazione.
 type: docs
-weight: 320
+weight: 340
 url: /it/aspose.slides.animation/effectsubtype/
 ---
-## Enumerazione EffectSubtype
+## enumerazione EffectSubtype
 
-Rappresenta i sottotipi dell'effetto di animazione.
+Rappresenta i sottotipi di effetto di animazione.
 
 ```csharp
 public enum EffectSubtype

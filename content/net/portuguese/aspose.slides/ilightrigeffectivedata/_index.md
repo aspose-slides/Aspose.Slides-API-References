@@ -1,14 +1,14 @@
 ---
 title: ILightRigEffectiveData
-second_title: Aspose.Sildes para .NET - Referência da API
-description: Objeto imutável que contém propriedades efetivas de rig de luz.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Objeto imutável que contém propriedades efetivas do rig de luz.
 type: docs
-weight: 6260
+weight: 6280
 url: /pt/aspose.slides/ilightrigeffectivedata/
 ---
 ## ILightRigEffectiveData interface
 
-Objeto imutável que contém propriedades efetivas de rig de luz.
+Objeto imutável que contém propriedades efetivas do rig de luz.
 
 ```csharp
 public interface ILightRigEffectiveData
@@ -19,19 +19,19 @@ public interface ILightRigEffectiveData
 | Nome | Descrição |
 | --- | --- |
 | [Direction](../../aspose.slides/ilightrigeffectivedata/direction) { get; } | Direção da luz. Somente leitura [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | Representa uma luz pré-definida que pode ser aplicada a uma forma. O rig de luz representa um conjunto de luzes orientado de forma específica em relação a uma cena 3D. Somente leitura [`LightRigPresetType`](../lightrigpresettype). |
+| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | Representa uma luz predefinida que pode ser aplicada a uma forma. O rig de luz representa um grupo de luzes orientadas de maneira específica em relação a uma cena 3D. Somente leitura [`LightRigPresetType`](../lightrigpresettype). |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | Uma rotação é definida pelo uso de uma coordenada de latitude, uma coordenada de longitude e uma revolução ao redor do eixo como coordenadas de latitude e longitude. Primeiro elemento no array retornado - latitude, segundo - longitude, terceiro - revolução. |
+| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | Uma rotação é definida através do uso de uma coordenada de latitude, uma coordenada de longitude e uma revolução ao redor do eixo conforme as coordenadas de latitude e longitude. Primeiro elemento no array retornado - latitude, segundo - longitude, terceiro - revolução. |
 
 ### Observações
 
 Esta interface é usada como parte de [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata).
 
-### Ver também
+### Veja Também
 
 * espaço de nomes [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

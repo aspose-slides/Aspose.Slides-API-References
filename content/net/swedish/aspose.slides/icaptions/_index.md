@@ -1,14 +1,14 @@
 ---
 title: ICaptions
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar de stängda undertexterna i WebVTT.
+description: Representerar WebVTT-undertexter.
 type: docs
-weight: 5410
+weight: 5430
 url: /sv/aspose.slides/icaptions/
 ---
 ## ICaptions gränssnitt
 
-Representerar de stängda undertexterna i WebVTT.
+Representerar WebVTT-undertexter.
 
 ```csharp
 public interface ICaptions
@@ -18,12 +18,12 @@ public interface ICaptions
 
 | Namn | Beskrivning |
 | --- | --- |
-| [BinaryData](../../aspose.slides/icaptions/binarydata) { get; } | Returnerar de binära data för undertexterna. Skrivskyddad Byte[]. |
+| [BinaryData](../../aspose.slides/icaptions/binarydata) { get; } | Returnerar den binära datan för undertexterna. Skrivskyddad Byte[]. |
 | [CaptionId](../../aspose.slides/icaptions/captionid) { get; } | Returnerar den globalt unika identifieraren (GUID) för undertexterna. Skrivskyddad Guid. |
-| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | Returnerar undertexternas data som UTF-8-kodad sträng. Skrivskyddad String. |
+| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | Returnerar undertextdata som en UTF-8-kodad sträng. Skrivskyddad String. |
 | [Label](../../aspose.slides/icaptions/label) { get; set; } | Returnerar eller anger etiketten för undertexterna. Läs/skriv String. |
 
-### Se också
+### Se även
 
 * namnrymd [Aspose.Slides](../../aspose.slides)
 * samling [Aspose.Slides](../../)

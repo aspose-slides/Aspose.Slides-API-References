@@ -1,14 +1,14 @@
 ---
 title: EffectChartMajorGroupingType
-second_title: Aspose.Sildes .NET API Referansı
-description: Grafik öğesi için bir animasyon etkisinin türünü temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Grafik öğesi için bir animasyon etkisinin tipini temsil eder.
 type: docs
-weight: 270
+weight: 290
 url: /tr/aspose.slides.animation/effectchartmajorgroupingtype/
 ---
-## EffectChartMajorGroupingType enum
+## EffectChartMajorGroupingType enum'ı
 
-Grafik öğesi için bir animasyon etkisinin türünü temsil eder.
+Grafiğin öğesi için bir animasyon efektinin tipini temsil eder.
 
 ```csharp
 public enum EffectChartMajorGroupingType
@@ -18,10 +18,10 @@ public enum EffectChartMajorGroupingType
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| BySeries | `0` | Grafik seriye göre canlandırılır |
-| ByCategory | `1` | Grafik kategoriye göre canlandırılır |
+| BySeries | `0` | Grafiği seriye göre canlandır |
+| ByCategory | `1` | Grafiği kategoriye göre canlandır |
 
-### Bakınız
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.Animation](../../aspose.slides.animation)
 * derleme [Aspose.Slides](../../)

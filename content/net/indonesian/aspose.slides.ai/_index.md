@@ -1,6 +1,6 @@
 ---
 title: Aspose.Slides.AI
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Berisi kelas yang menyediakan fitur berbasis AI untuk menganalisis dan memproses presentasi PowerPoint.
 type: docs
 weight: 20
@@ -12,7 +12,9 @@ Berisi kelas yang menyediakan fitur berbasis AI untuk menganalisis dan memproses
 
 | Kelas | Deskripsi |
 | --- | --- |
-| [OpenAIWebClient](./openaiwebclient) | Klien web OpenAI ringan bawaan |
+| [AsposeAIWebClient](./asposeaiwebclient) | Implementasi [`IAIWebClient`](../aspose.slides.ai/iaiwebclient) bawaan yang terhubung ke LLM milik Aspose. Ini adalah klien default yang digunakan oleh konstruktor [`SlidesAIAgent`](../aspose.slides.ai/slidesaiagent/slidesaiagent) tanpa parameter. |
+| [OpenAICompatibleWebClient](./openaicompatiblewebclient) | Implementasi [`IAIWebClient`](../aspose.slides.ai/iaiwebclient) bawaan yang terhubung ke penyedia LLM yang kompatibel dengan OpenAI pada URL dasar yang ditentukan. |
+| [OpenAIWebClient](./openaiwebclient) | Implementasi [`IAIWebClient`](../aspose.slides.ai/iaiwebclient) bawaan yang terhubung ke API OpenAI. |
 | [SlidesAIAgent](./slidesaiagent) | Menyediakan fitur berbasis AI untuk memproses presentasi. |
 | [SlidesAIAgentException](./slidesaiagentexception) | Mewakili pengecualian yang terkait dengan Slides AI Agent. |
 
@@ -21,7 +23,7 @@ Berisi kelas yang menyediakan fitur berbasis AI untuk menganalisis dan memproses
 | Antarmuka | Deskripsi |
 | --- | --- |
 | [IAIConversation](./iaiconversation) | Mewakili sebuah instance percakapan. Tidak seperti panggilan AI biasa, percakapan mempertahankan seluruh konteks. |
-| [IAIWebClient](./iaiwebclient) | Antarmuka klien web AI. Antarmuka ini memungkinkan penggantian model bahasa AI yang berbeda. Kelas yang mengimplementasikan antarmuka ini seharusnya digunakan bersama `SlidesAIAgent`. |
+| [IAIWebClient](./iaiwebclient) | Antarmuka klien AI Web. Antarmuka ini memungkinkan mengganti model bahasa AI yang berbeda. Kelas yang mengimplementasikan antarmuka ini seharusnya digunakan bersama dengan `SlidesAIAgent`. |
 
 ## Enumerasi
 

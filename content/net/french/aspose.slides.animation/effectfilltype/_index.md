@@ -1,15 +1,14 @@
 ---
 title: EffectFillType
-second_title: Aspose.Slides pour .NET API Référence
-description: Représenter les types de remplissage.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Représente les types de remplissage.
 type: docs
-weight: 230
+weight: 310
 url: /fr/aspose.slides.animation/effectfilltype/
 ---
-
 ## Énumération EffectFillType
 
-Représenter les types de remplissage.
+Représente les types de remplissage.
 
 ```csharp
 public enum EffectFillType

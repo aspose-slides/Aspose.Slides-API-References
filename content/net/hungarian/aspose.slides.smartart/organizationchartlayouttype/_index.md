@@ -1,14 +1,14 @@
 ---
 title: OrganizationChartLayoutType
-second_title: Aspose.Sildes .NET API referencia
-description: A szervezeti diagram gyermekcsomópontjainak formázási típusát képviseli
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Képviseli a gyermek csomópontok formázási típusát egy szervezeti diagramon
 type: docs
-weight: 10570
+weight: 10590
 url: /hu/aspose.slides.smartart/organizationchartlayouttype/
 ---
 ## OrganizationChartLayoutType enumeráció
 
-A szervezeti diagram gyermekcsomópontjainak formázási típusát képviseli
+Képviseli a gyermek csomópontok formázási típusát egy szervezeti diagramon
 
 ```csharp
 public enum OrganizationChartLayoutType
@@ -18,11 +18,11 @@ public enum OrganizationChartLayoutType
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Initial | `0` | Kezdeti elrendezéstípus |
-| Standart | `1` | A gyermekcsomópontokat vízszintesen helyezi az anyacsomópont alá. |
-| BothHanging | `2` | A gyermekcsomópontokat függőlegesen helyezi az anyacsomópont alá, mindkét, a bal és a jobb oldalra. |
-| LeftHanging | `3` | A gyermekcsomópontokat függőlegesen helyezi az anyacsomópont bal oldalára. |
-| RightHanging | `4` | A gyermekcsomópontokat függőlegesen helyezi az anyacsomópont jobb oldalára. |
+| Initial | `0` | Kezdeti elrendezés típusa |
+| Standart | `1` | A gyermek csomópontokat vízszintesen a szülő csomópont alá helyezi. |
+| BothHanging | `2` | A gyermek csomópontokat függőlegesen a szülő csomópont alá mind a bal, mind a jobb oldalra helyezi. |
+| LeftHanging | `3` | A gyermek csomópontokat függőlegesen a szülő csomópont alá a bal oldalon helyezi el. |
+| RightHanging | `4` | A gyermek csomópontokat függőlegesen a szülő csomópont alá a jobb oldalon helyezi el. |
 
 ### Lásd még
 

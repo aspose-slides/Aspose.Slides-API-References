@@ -1,14 +1,14 @@
 ---
 title: IBlobManagementOptions
 second_title: Aspose.Sildes för .NET API-referens
-description: Ett Binary Large Object (BLOB) är binär data lagrad som en enhet - d.v.s. BLOB kan vara ett ljud, en video eller själva presentationen. Ett antal tekniker används för att optimera minnesanvändning när man arbetar med BLOB-objekt - som redan har lagrats i presentationen eller kan läggas till senare programmässigt. Med IBlobManagementOptions./iblobmanagementoptions kan du ändra olika beteendeaspekter för hantering av BLOB-objekt under IPresentation./ipresentation-instansens livstid.
+description: Ett Binary Large Object (BLOB) är binär data lagrad som en enskild enhet - dvs. kan ett BLOB vara ett ljud, en video eller själva presentationen. Ett antal tekniker används för att optimera minnesanvändning när man arbetar med BLOB-objekt - oavsett om de redan är lagrade i presentationen eller läggs till senare programatiskt. Med IBlobManagementOptions./iblobmanagementoptions kan du ändra olika beteendeaspekter för hantering av BLOB-objekt under IPresentation./ipresentation-instansens livstid.
 type: docs
-weight: 5350
+weight: 5370
 url: /sv/aspose.slides/iblobmanagementoptions/
 ---
 ## IBlobManagementOptions gränssnitt
 
-Ett Binary Large Object (BLOB) är binär data lagrad som en enhet – d.v.s. BLOB kan vara ett ljud, en video eller själva presentationen. Ett antal tekniker används för att optimera minnesanvändning när man arbetar med BLOB-objekt – som redan har lagrats i presentationen eller kan läggas till senare programmässigt. Med hjälp av [`IBlobManagementOptions`](../iblobmanagementoptions) kan du ändra olika beteendeaspekter för hantering av BLOB-objekt under [`IPresentation`](../ipresentation)-instansens livstid.
+Ett Binary Large Object (BLOB) är binär data lagrad som en enda enhet – dvs. ett BLOB kan vara själva ljudet, videon eller presentationen. Ett antal tekniker används för att optimera minnesanvändning när man arbetar med BLOB-objekt – oavsett om de redan är lagrade i presentationen eller läggs till senare programatiskt. Med [`IBlobManagementOptions`](../iblobmanagementoptions) kan du ändra olika beteendeaspekter för hantering av BLOB-objekt för [`IPresentation`](../ipresentation)-instansens livtid.
 
 ```csharp
 public interface IBlobManagementOptions
@@ -18,14 +18,14 @@ public interface IBlobManagementOptions
 
 | Namn | Beskrivning |
 | --- | --- |
-| [IsTemporaryFilesAllowed](../../aspose.slides/iblobmanagementoptions/istemporaryfilesallowed) { get; set; } | Denna egenskap anger om temporära filer kan skapas när man arbetar med BLOB-objekt, vilket kraftigt minskar minnesanvändningen men kräver behörighet att skapa filer. Alla filer kommer att tas bort när arbetet med presentationen är avslutat. |
-| [MaxBlobsBytesInMemory](../../aspose.slides/iblobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Definierar den maximala totala storleken (i byte) som alla BLOB-objekt får uppta i minnet. Som standard laddas alla BLOB-objekt in i minnet; först när denna gräns nås används alternativa mekanismer (såsom temporära filer). Att hålla BLOB-objekt i minnet maximerar prestanda men kan leda till hög minnesanvändning. Använd denna egenskap för att anpassa beteendet efter din miljö eller dina krav. |
-| [PresentationLockingBehavior](../../aspose.slides/iblobmanagementoptions/presentationlockingbehavior) { get; set; } | Denna egenskap anger om en instans av Presentation-klassen kan vara ägare till källan – filen eller strömmen – under instansens livstid. Om instansen är ägare låses källan. Detta hjälper till att förbättra minnesanvändning och prestanda när man arbetar med BLOB-objekt, men källan (ström eller fil) kan inte ändras under Presentation-instansens livstid. Detta är ett exempel: |
-| [TempFilesRootPath](../../aspose.slides/iblobmanagementoptions/tempfilesrootpath) { get; set; } | Rotkatalogen där temporära filer kommer att skapas. Systemets temporära katalog används som standard. Värdprocessen bör ha behörighet att skapa filer och mappar där. |
+| [IsTemporaryFilesAllowed](../../aspose.slides/iblobmanagementoptions/istemporaryfilesallowed) { get; set; } | Denna egenskap definierar om temporära filer kan skapas när man arbetar med BLOB-objekt, vilket kraftigt minskar minnesanvändningen men kräver behörighet att skapa filer. Alla filer kommer att tas bort när arbetet med presentationen är avslutat. |
+| [MaxBlobsBytesInMemory](../../aspose.slides/iblobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Definierar den maximala totala storleken (i byte) som alla BLOB-objekt får uppta i minnet. Som standard laddas alla BLOB-objekt in i minnet; först när denna gräns nås används alternativa mekanismer (t.ex. temporära filer). Att behålla BLOB-objekt i minnet maximerar prestanda men kan leda till hög minnesanvändning. Använd denna egenskap för att anpassa beteendet efter din miljö eller dina krav. |
+| [PresentationLockingBehavior](../../aspose.slides/iblobmanagementoptions/presentationlockingbehavior) { get; set; } | Denna egenskap definierar om en instans av Presentation-klassen kan vara ägare till källan – filen eller strömmen – under instansens livstid. Om instansen är ägare låses källan. Detta hjälper till att förbättra minnesanvändning och prestanda när man arbetar med BLOB-objekt, men källan (ström eller fil) kan inte ändras under Presentation-instansens livstid. Detta är ett exempel: |
+| [TempFilesRootPath](../../aspose.slides/iblobmanagementoptions/tempfilesrootpath) { get; set; } | Rotvägen där temporära filer kommer att skapas. Systemets temporära katalog används som standard. Värdprocessen bör ha behörighet att skapa filer och mappar där. |
 
 ### Se även
 
-* namnrymd [Aspose.Slides](../../aspose.slides)
-* samling [Aspose.Slides](../../)
+* namnrum [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

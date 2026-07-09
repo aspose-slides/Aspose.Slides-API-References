@@ -1,14 +1,14 @@
 ---
 title: IMathBox
 second_title: Aspose.Sildes för .NET API-referens
-description: Specificerar den logiska inramningspaketeringen av ett matematiskt element. Till exempel kan ett inramat objekt fungera som en operator-emulator med eller utan en justeringspunkt, fungera som en radbrytningspunkt eller grupperas så att radbrytningar inte tillåts inom det. Till exempel bör operatorn boxas för att förhindra radbrytningar.
+description: Specificerar den logiska förpackningen (boxing) av ett matematiskt element. Till exempel kan ett förpackat objekt fungera som en operatoremulator med eller utan en justeringspunkt, fungera som en radbrytpunkt eller grupperas så att radbrytningar inte tillåts inom det. Till exempel bör operatorn boxas för att förhindra radbrytningar.
 type: docs
-weight: 8170
+weight: 8190
 url: /sv/aspose.slides.mathtext/imathbox/
 ---
 ## IMathBox gränssnitt
 
-Specificerar den logiska inramningen (paketeringen) av ett matematiskt element. Till exempel kan ett inramat objekt fungera som en operator-emulator med eller utan en justeringspunkt, fungera som en radbrytningspunkt eller grupperas så att radbrytningar inte tillåts inom det. Till exempel bör operatorn "==" inramas för att förhindra radbrytningar.
+Specificerar den logiska förpackningen (boxing) av ett matematiskt element. Till exempel kan ett förpackat objekt fungera som en operatoremulator med eller utan en justeringspunkt, fungera som ett radbrytpunkts eller grupperas så att radbrytningar inte tillåts inom det. Till exempel bör operatorn "==" förpackas för att förhindra radbrytningar.
 
 ```csharp
 public interface IMathBox : IMathElement
@@ -18,27 +18,27 @@ public interface IMathBox : IMathElement
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AlignmentPoint](../../aspose.slides.mathtext/imathbox/alignmentpoint) { get; set; } | När sann fungerar denna operator-emulator som en justeringspunkt; det vill säga kan angivna justeringspunkter i andra ekvationer justeras mot den. Standard: false |
-| [AsIMathElement](../../aspose.slides.mathtext/imathbox/asimathelement) { get; } | Tillåter att hämta bas-IMathElement-gränssnitt [`IMathElement`](../imathelement) |
+| [AlignmentPoint](../../aspose.slides.mathtext/imathbox/alignmentpoint) { get; set; } | När true fungerar denna operatoremulator som en justeringspunkt; det vill säga kan angivna justeringspunkter i andra ekvationer justeras mot den. Standard: false |
+| [AsIMathElement](../../aspose.slides.mathtext/imathbox/asimathelement) { get; } | Tillåter att hämta bas-IMathElement-gränssnittet [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathbox/base) { get; } | Basargument |
-| [Differential](../../aspose.slides.mathtext/imathbox/differential) { get; set; } | Differential. När sann fungerar rutan som ett differential (t.ex. 𝑑𝑥 i ett integrand), och får lämplig horisontell avstånd för det matematiska differentialet. Standard: false |
-| [ExplicitBreak](../../aspose.slides.mathtext/imathbox/explicitbreak) { get; set; } | Explicit radbrytning anger om det finns en radbrytning i början av Box-objektet, så att raden bryts vid början av box-objektet. Anger numret på operatorn i den föregående raden av matematisk text som ska användas som justeringspunkt för den aktuella raden av matematisk text. Möjliga värden: 1..255. Standard: 0 (ingen explicit radbrytning) |
-| [NoBreak](../../aspose.slides.mathtext/imathbox/nobreak) { get; set; } | Ingen brytning. Denna egenskap anger den ”obrutna” egenskapen på objektboxen. När sann kan inga radbrytningar förekomma inom boxen. Detta kan vara viktigt för operator-emulatorer som består av mer än en binär operator. När detta element inte anges kan brytningar ske inuti boxen. Standard: true |
-| [OperatorEmulator](../../aspose.slides.mathtext/imathbox/operatoremulator) { get; set; } | Operator-emulator. När sann beter sig boxen och dess innehåll som en enda operator och ärver egenskaperna hos en operator. Detta innebär till exempel att tecknet kan fungera som en punkt för radbrytning och kan justeras till andra operatorer. Operator-emulatorer används ofta när ett eller flera glyfer kombineras för att bilda en operator, såsom '=='. Standardvärde: false |
+| [Differential](../../aspose.slides.mathtext/imathbox/differential) { get; set; } | Differential. När true fungerar lådan som ett differential (t.ex. 𝑑𝑥 i en integrand) och får lämplig horisontell mellanrum för det matematiska differentialet. Standard: false |
+| [ExplicitBreak](../../aspose.slides.mathtext/imathbox/explicitbreak) { get; set; } | Explicit brytning anger om det finns ett radbryt vid början av Box-objektet, så att raden bryts vid början av box-objektet. Anger antalet operatorer på föregående rad med matematisk text som ska användas som justeringspunkt för den aktuella raden med matematisk text. Möjliga värden: 1..255 Standard: 0 (ingen explicit brytning) |
+| [NoBreak](../../aspose.slides.mathtext/imathbox/nobreak) { get; set; } | Ingen brytning. Denna egenskap anger den "unbreakable" egenskapen på objektlådan. När true kan inga radbrytningar ske inom lådan. Detta kan vara viktigt för operatoremulatorer som består av mer än en binär operator. När detta element inte anges kan brytningar ske i lådan. Standard: true |
+| [OperatorEmulator](../../aspose.slides.mathtext/imathbox/operatoremulator) { get; set; } | Operator Emulator. När true beter sig lådan och dess innehåll som en enda operator och ärver egenskaperna hos en operator. Detta betyder till exempel att tecknet kan fungera som en punkt för ett radbryt och kan justeras mot andra operatorer. Operatoremulatorer används ofta när ett eller flera glyfer kombineras till en operator, såsom '=='. Standardvärde: false |
 
 ### Exempel
 
-Exempel:
+Example:
 
 ```csharp
 [C#]
 IMathBox box = new MathematicalText("==").ToBox();
 ```
 
-### Se även
+### Se också
 
 * gränssnitt [IMathElement](../imathelement)
-* namnrymd [Aspose.Slides.MathText](../../aspose.slides.mathtext)
+* namnutrymme [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * samling [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

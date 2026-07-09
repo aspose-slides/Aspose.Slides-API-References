@@ -1,12 +1,12 @@
 ---
 title: IHeadingPair
-second_title: Aspose.Sildes para .NET Referência da API
-description: Representa uma propriedade Heading pair do documento. Indica o nome do grupo de partes do documento e o número de partes no grupo.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Representa uma propriedade de par de cabeçalhos do documento. Indica o nome do grupo de partes do documento e o número de partes no grupo.
 type: docs
-weight: 6080
+weight: 6100
 url: /pt/aspose.slides/iheadingpair/
 ---
-## IHeadingPair interface
+## Interface IHeadingPair
 
 Representa uma propriedade “Heading pair” do documento. Indica o nome do grupo de partes do documento e o número de partes no grupo.
 

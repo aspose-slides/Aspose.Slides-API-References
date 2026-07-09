@@ -1,14 +1,14 @@
 ---
 title: IDrawingGuide
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Képviseli a beállítható rajzolósegédvonalat.
+second_title: Aspose.Sildes .NET API referencia
+description: Állítható rajzsegédet képvisel.
 type: docs
-weight: 5700
+weight: 5720
 url: /hu/aspose.slides/idrawingguide/
 ---
 ## IDrawingGuide interfész
 
-Képviseli a beállítható rajzolósegédvonalat.
+Egy állítható rajzsegédet képvisel.
 
 ```csharp
 public interface IDrawingGuide
@@ -18,9 +18,9 @@ public interface IDrawingGuide
 
 | Név | Leírás |
 | --- | --- |
-| [Color](../../aspose.slides/idrawingguide/color) { get; set; } | Visszaadja vagy beállítja a rajzolósegédvonal színét. Olvasás/írás Color. |
-| [Orientation](../../aspose.slides/idrawingguide/orientation) { get; set; } | Visszaadja vagy beállítja a rajzolósegédvonal tájolását. Olvasás/írás [`Orientation`](../orientation). |
-| [Position](../../aspose.slides/idrawingguide/position) { get; set; } | Visszaadja vagy beállítja a rajzolósegédvonal helyzetét pontban a dia bal felső sarkától számítva. Olvasás/írás Single. |
+| [Color](../../aspose.slides/idrawingguide/color) { get; set; } | A rajzsegéd színét adja vissza vagy állítja be. Olvasás/írás Color. |
+| [Orientation](../../aspose.slides/idrawingguide/orientation) { get; set; } | A rajzsegéd orientációját adja vissza vagy állítja be. Olvasás/írás [`Orientation`](../orientation). |
+| [Position](../../aspose.slides/idrawingguide/position) { get; set; } | A rajzsegéd pozícióját adja vissza vagy állítja be pontokban a dia bal felső sarkától számítva. Olvasás/írás Single. |
 
 ### Lásd még
 

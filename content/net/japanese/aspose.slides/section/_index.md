@@ -1,9 +1,9 @@
 ---
 title: Section
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: スライドのセクションを表します。
 type: docs
-weight: 9730
+weight: 9750
 url: /ja/aspose.slides/section/
 ---
 ## Section クラス
@@ -18,15 +18,15 @@ public class Section : DomObject<SectionCollection>, ISection
 
 | 名前 | 説明 |
 | --- | --- |
-| [Name](../../aspose.slides/section/name) { get; set; } | セクションの名前。 |
-| [SectionId](../../aspose.slides/section/sectionid) { get; } | セクション Id。 |
+| [Name](../../aspose.slides/section/name) { get; set; } | セクションの名前です。 |
+| [SectionId](../../aspose.slides/section/sectionid) { get; } | セクション ID。 |
 | [StartedFromSlide](../../aspose.slides/section/startedfromslide) { get; } | セクションの最初のスライドを返します。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [GetSlidesListOfSection](../../aspose.slides/section/getslideslistofsection)() | セクション内のスライドのリストを返します。 |
+| [GetSlidesListOfSection](../../aspose.slides/section/getslideslistofsection)() | セクション内のスライドの一覧を返します。 |
 
 ### 参照
 

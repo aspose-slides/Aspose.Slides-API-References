@@ -1,14 +1,14 @@
 ---
 title: PathFillModeType
-second_title: Referência da API Aspose.Sildes para .NET
-description: Especifica a forma como um caminho deve ser preenchido
+second_title: Aspose.Sildes para .NET API Referência
+description: Especifica a maneira como um caminho deve ser preenchido
 type: docs
-weight: 9310
+weight: 9330
 url: /pt/aspose.slides/pathfillmodetype/
 ---
 ## PathFillModeType enumeração
 
-Especifica a forma como um caminho deve ser preenchido
+Especifica a maneira como um caminho deve ser preenchido
 
 ```csharp
 public enum PathFillModeType : byte
@@ -18,14 +18,14 @@ public enum PathFillModeType : byte
 
 | Nome | Valor | Descrição |
 | --- | --- | --- |
-| None | `0` | Sem preenchimento de caminho. Isso especifica que o caminho correspondente não deve ter preenchimento. |
-| Normal | `1` | Preenchimento de caminho normal. Isso especifica que o caminho correspondente deve ter uma cor normalmente sombreada aplicada ao seu preenchimento. |
-| Lighten | `2` | Preenchimento de caminho clareado. Isso especifica que o caminho correspondente deve ter uma cor levemente sombreada aplicada ao seu preenchimento. |
-| LightenLess | `3` | Preenchimento de caminho levemente clareado. Isso especifica que o caminho correspondente deve ter uma cor um pouco mais clara sombreada aplicada ao seu preenchimento. |
-| Darken | `4` | Preenchimento de caminho escurecido. Isso especifica que o caminho correspondente deve ter uma cor mais escura sombreada aplicada ao seu preenchimento. |
-| DarkenLess | `5` | Preenchimento de caminho levemente escurecido. Isso especifica que o caminho correspondente deve ter uma cor um pouco mais escura sombreada aplicada ao seu preenchimento. |
+| None | `0` | Nenhum preenchimento de caminho. Isto especifica que o caminho correspondente não deve ter preenchimento. |
+| Normal | `1` | Preenchimento de caminho normal. Isto especifica que o caminho correspondente deve ter uma cor sombreada normalmente aplicada ao seu preenchimento. |
+| Lighten | `2` | Preenchimento de caminho clareado. Isto especifica que o caminho correspondente deve ter uma cor levemente sombreada aplicada ao seu preenchimento. |
+| LightenLess | `3` | Preenchimento de caminho levemente clareado. Isto especifica que o caminho correspondente deve ter uma cor um pouco mais clara sombreada aplicada ao seu preenchimento. |
+| Darken | `4` | Preenchimento de caminho escurecido. Isto especifica que o caminho correspondente deve ter uma cor mais escura sombreada aplicada ao seu preenchimento. |
+| DarkenLess | `5` | Preenchimento de caminho levemente escurecido. Isto especifica que o caminho correspondente deve ter uma cor um pouco mais escura sombreada aplicada ao seu preenchimento. |
 
-### Ver também
+### Veja Também
 
 * espaço de nomes [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

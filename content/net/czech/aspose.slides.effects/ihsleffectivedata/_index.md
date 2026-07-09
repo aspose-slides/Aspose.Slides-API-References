@@ -1,14 +1,14 @@
 ---
 title: IHSLEffectiveData
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje efekt odstín/sytost/jas. Odstín, sytost a jas mohou být každý upraveny relativně k jejich aktuální hodnotě.
+description: Představuje efekt odstín/sytost/jas. Hodnoty odstínu, sytosti a jasu mohou být každá upravena relativně k jejich současné hodnotě.
 type: docs
-weight: 3350
+weight: 3370
 url: /cs/aspose.slides.effects/ihsleffectivedata/
 ---
 ## IHSLEffectiveData rozhraní
 
-Reprezentuje efekt odstín/sytost/jas. Odstín, sytost a jas mohou být každý upraveny relativně k jejich aktuální hodnotě.
+Představuje efekt odstín/sytost/jas. Hodnoty odstínu, sytosti a jasu mohou být každá upravena relativně k jejich současné hodnotě.
 
 ```csharp
 public interface IHSLEffectiveData : IEffectEffectiveData

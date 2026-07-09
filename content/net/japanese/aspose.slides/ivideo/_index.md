@@ -1,9 +1,9 @@
 ---
 title: IVideo
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: プレゼンテーションに埋め込まれたビデオを表します。
 type: docs
-weight: 7340
+weight: 7360
 url: /ja/aspose.slides/ivideo/
 ---
 ## IVideo インターフェイス
@@ -18,14 +18,14 @@ public interface IVideo
 
 | 名前 | 説明 |
 | --- | --- |
-| [BinaryData](../../aspose.slides/ivideo/binarydata) { get; } | オーディオ データのコピーを返します。大量のデータがある場合は、[`GetStream`](./getstream) メソッドの使用を検討し、ビデオ データをメモリに不要に読み込むことや OutOfMemoryException の発生を防止してください。読み取り専用の Byte[]. |
-| [ContentType](../../aspose.slides/ivideo/contenttype) { get; } | ビデオの MIME タイプを [`BinaryData`](./binarydata) でエンコードして返します。読み取り専用の String。 |
+| [BinaryData](../../aspose.slides/ivideo/binarydata) { get; } | オーディオ データのコピーを返します。データ量が多い場合は [`GetStream`](./getstream) メソッドを使用して、ビデオ データの不要なメモリへのロードや OutOfMemoryException を防止してください。読み取り専用 Byte[]. |
+| [ContentType](../../aspose.slides/ivideo/contenttype) { get; } | ビデオの MIME タイプを [`BinaryData`](./binarydata) でエンコードされた形で返します。読み取り専用 String. |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [GetStream](../../aspose.slides/ivideo/getstream)() | 読み取り用の Stream を返します。'using' を使用するか、使用後にストリームを閉じてください。 |
+| [GetStream](../../aspose.slides/ivideo/getstream)() | 読み取り用の Stream を返します。使用後は 'using' を利用するか、ストリームを閉じてください。 |
 
 ### 参照
 

@@ -1,14 +1,14 @@
 ---
 title: DataLabel
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje popisky řady.
+description: Reprezentuje popisky řady.
 type: docs
-weight: 1530
+weight: 1550
 url: /cs/aspose.slides.charts/datalabel/
 ---
 ## DataLabel třída
 
-Představuje popisky řady.
+Reprezentuje popisky řady.
 
 ```csharp
 public class DataLabel : IDataLabel
@@ -16,43 +16,43 @@ public class DataLabel : IDataLabel
 
 ## Konstruktory
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [DataLabel](datalabel)(IChartDataPoint) | Vytvoří novou instanci třídy DataLabel. |
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [ActualHeight](../../aspose.slides.charts/datalabel/actualheight) { get; } | Určuje skutečnou výšku prvku grafu. Předtím zavolejte metodu IChart.ValidateChartLayout(), abyste získali skutečné hodnoty. Pouze pro čtení Single. |
 | [ActualWidth](../../aspose.slides.charts/datalabel/actualwidth) { get; } | Určuje skutečnou šířku prvku grafu. Předtím zavolejte metodu IChart.ValidateChartLayout(), abyste získali skutečné hodnoty. Pouze pro čtení Single. |
-| [ActualX](../../aspose.slides.charts/datalabel/actualx) { get; } | Určuje skutečnou souřadnici x (levý okraj) prvku grafu vzhledem k levému hornímu rohu grafu. Předtím zavolejte metodu IChart.ValidateChartLayout(), abyste získali skutečné hodnoty. Pouze pro čtení Single. |
-| [ActualY](../../aspose.slides.charts/datalabel/actualy) { get; } | Určuje skutečnou horní část prvku grafu vzhledem k levému hornímu rohu grafu. Předtím zavolejte metodu IChart.ValidateChartLayout(), abyste získali skutečné hodnoty. Pouze pro čtení Single. |
+| [ActualX](../../aspose.slides.charts/datalabel/actualx) { get; } | Určuje skutečnou polohu x (levý okraj) prvku grafu relativně k levému hornímu rohu grafu. Předtím zavolejte metodu IChart.ValidateChartLayout(), abyste získali skutečné hodnoty. Pouze pro čtení Single. |
+| [ActualY](../../aspose.slides.charts/datalabel/actualy) { get; } | Určuje skutečnou horní polohu prvku grafu relativně k levému hornímu rohu grafu. Předtím zavolejte metodu IChart.ValidateChartLayout(), abyste získali skutečné hodnoty. Pouze pro čtení Single. |
 | [Bottom](../../aspose.slides.charts/datalabel/bottom) { get; } | Spodní. Pouze pro čtení Single. |
 | [Chart](../../aspose.slides.charts/datalabel/chart) { get; } | Vrací nadřazený graf. Pouze pro čtení [`IChart`](../ichart). |
 | [DataLabelFormat](../../aspose.slides.charts/datalabel/datalabelformat) { get; } | Vrací formát popisku dat. Pouze pro čtení [`IDataLabelFormat`](../idatalabelformat). |
-| [Height](../../aspose.slides.charts/datalabel/height) { get; set; } | Vrací nebo nastavuje výšku nadpisu jako podíl výšky grafu. Čtení/Zápis Single. |
-| [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | False znamená, že popisek není viditelný (a proto jsou všechny příznaky Show* (ShowValue, ...) nastaveny na false). Pouze pro čtení Boolean. |
+| [Height](../../aspose.slides.charts/datalabel/height) { get; set; } | Vrací nebo nastavuje výšku titulku jako podíl výšky grafu. Čtení/zápis Single. |
+| [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | False znamená, že popisek dat není viditelný (a tak všechny příznaky Show*- (ShowValue, ...) jsou false). Pouze pro čtení Boolean. |
 | [Right](../../aspose.slides.charts/datalabel/right) { get; } | Vpravo. Pouze pro čtení Single. |
 | [TextFormat](../../aspose.slides.charts/datalabel/textformat) { get; } | Vrací formát textu. Pouze pro čtení [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | Může obsahovat bohatě formátovaný text. Pokud není tato vlastnost null, pak tato hodnota formátovaného textu přepíše automaticky generovaný text popisku. Automaticky generovaný text popisku znamená text spravovaný vlastnostmi ShowSeriesName, ShowValue, … a formátovaný pomocí vlastnosti TextFormatManager.TextFormat. Pouze pro čtení [`ITextFrame`](../../aspose.slides/itextframe). |
-| [ValueFromCell](../../aspose.slides.charts/datalabel/valuefromcell) { get; set; } | Získá nebo nastaví buňku dat sešitu. Použije se, pokud je vlastnost IDataLabelFormat.ShowLabelValueFromCell nastavena na true. |
-| [Width](../../aspose.slides.charts/datalabel/width) { get; set; } | Vrací nebo nastavuje šířku nadpisu jako podíl šířky grafu. Čtení/Zápis Single. |
-| [X](../../aspose.slides.charts/datalabel/x) { get; set; } | Vrací nebo nastavuje souřadnici x nadpisu jako podíl šířky grafu. Čtení/Zápis Single. |
-| [Y](../../aspose.slides.charts/datalabel/y) { get; set; } | Vrací nebo nastavuje souřadnici y nadpisu jako podíl výšky grafu. Čtení/Zápis Single. |
+| [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | Může obsahovat bohatě formátovaný text. Pokud není tato vlastnost null, pak tato hodnota formátovaného textu přepíše automaticky generovaný text popisku dat. Automaticky generovaný text popisku dat znamená text, který je spravován pomocí vlastností ShowSeriesName, ShowValue, ... a je formátován pomocí vlastnosti TextFormatManager.TextFormat. Pouze pro čtení [`ITextFrame`](../../aspose.slides/itextframe). |
+| [ValueFromCell](../../aspose.slides.charts/datalabel/valuefromcell) { get; set; } | Vrací nebo nastavuje buňku dat sešitu. Používá se, pokud je vlastnost IDataLabelFormat.ShowLabelValueFromCell nastavena na true. |
+| [Width](../../aspose.slides.charts/datalabel/width) { get; set; } | Vrací nebo nastavuje šířku titulku jako podíl šířky grafu. Čtení/zápis Single. |
+| [X](../../aspose.slides.charts/datalabel/x) { get; set; } | Vrací nebo nastavuje souřadnici x titulku jako podíl šířky grafu. Čtení/zápis Single. |
+| [Y](../../aspose.slides.charts/datalabel/y) { get; set; } | Vrací nebo nastavuje souřadnici y titulku jako podíl výšky grafu. Čtení/zápis Single. |
 
 ## Metody
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [AddTextFrameForOverriding](../../aspose.slides.charts/datalabel/addtextframeforoverriding)(string) | Inicializuje TextFrameForOverriding textem z parametru "text". Pokud je TextFrameForOverriding již inicializován, jednoduše změní jeho text. |
-| [GetActualLabelText](../../aspose.slides.charts/datalabel/getactuallabeltext)() | Vrací aktuální text popisku na základě nastavení DataLabelFormat nebo hodnoty TextFrameForOverriding.Text. |
-| [Hide](../../aspose.slides.charts/datalabel/hide)() | Skryje popisek nastavením všech příznaků Show* (ShowValue, ...) na false. IsVisible bude po tomto nastavení false. |
+| [GetActualLabelText](../../aspose.slides.charts/datalabel/getactuallabeltext)() | Vrací skutečný text popisku na základě nastavení DataLabelFormat nebo hodnoty TextFrameForOverriding.Text. |
+| [Hide](../../aspose.slides.charts/datalabel/hide)() | Skryje popisek dat nastavením všech příznaků Show*- (ShowValue, ...) na false. Po tomto bude IsVisible false. |
 
 ### Viz také
 
 * rozhraní [IDataLabel](../idatalabel)
 * jmenný prostor [Aspose.Slides.Charts](../../aspose.slides.charts)
-* sestava [Aspose.Slides](../../)
+* sestavení [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

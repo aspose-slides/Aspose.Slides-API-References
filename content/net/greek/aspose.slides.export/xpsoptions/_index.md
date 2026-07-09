@@ -3,10 +3,10 @@ title: XpsOptions
 second_title: Aspose.Sildes για .NET API Αναφορά
 description: Παρέχει επιλογές που ελέγχουν πώς αποθηκεύεται μια παρουσίαση σε μορφή XPS.
 type: docs
-weight: 4710
+weight: 4730
 url: /el/aspose.slides.export/xpsoptions/
 ---
-## XpsOptions κλάση
+## XpsOptions class
 
 Παρέχει επιλογές που ελέγχουν πώς αποθηκεύεται μια παρουσίαση σε μορφή XPS.
 
@@ -14,32 +14,32 @@ url: /el/aspose.slides.export/xpsoptions/
 public class XpsOptions : SaveOptions, IXpsOptions
 ```
 
-## Κατασκευαστές
+## Constructors
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
 | [XpsOptions](xpsoptions)() | Προεπιλεγμένος κατασκευαστής. |
 
-## Ιδιότητες
+## Properties
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Επιστρέφει ή ορίζει τη γραμματοσειρά που χρησιμοποιείται όταν η πηγαία γραμματοσειρά δεν βρεθεί. Αναγνώσιμη-εγγραφή String. |
-| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | True για σχεδίαση μαύρου πλαισίου γύρω από κάθε διαφάνεια. Αναγνώσιμη/εγγραφή Boolean. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Επιστρέφει ή ορίζει το οπτικό στυλ της κλίμακας. Αναγνώσιμη/εγγραφή [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Παριστάνει ένα αντικείμενο callback για ενημερώσεις προόδου αποθήκευσης σε ποσοστό. Δείτε [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | True για μετατροπή όλων των μετααρχείων που χρησιμοποιούνται σε μια παρουσίαση σε εικόνες PNG. Αναγνώσιμη/εγγραφή Boolean. |
-| [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | Καθορίζει αν το παραγόμενο έγγραφο θα πρέπει να περιλαμβάνει κρυφές διαφάνειες ή όχι. Η προεπιλογή είναι `false`. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Καθορίζει αν θα παραληφθούν υπερσυνδέσεις με κλήσεις JavaScript κατά την αποθήκευση της παρουσίασης. Αναγνώσιμη/εγγραφή Boolean. Η προεπιλεγμένη τιμή είναι **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Επιστρέφει ή ορίζει ένα αντικείμενο που λαμβάνει προειδοποιήσεις και αποφασίζει αν η διαδικασία φόρτωσης θα συνεχιστεί ή θα ακυρωθεί. Αναγνώσιμη/εγγραφή [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Επιστρέφει ή ορίζει τη γραμματοσειρά που χρησιμοποιείται σε περίπτωση που η πηγαία γραμματοσειρά δεν βρεθεί. Read-write String. |
+| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | Αληθές για να σχεδιάζεται μαύρο πλαίσιο γύρω από κάθε διαφάνεια. Read/write Boolean. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Επιστρέφει ή ορίζει το οπτικό στυλ της διαβάθμισης. Read/write [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Αντιπροσωπεύει ένα αντικείμενο κλήσης επιστροφής για ενημερώσεις προόδου αποθήκευσης σε ποσοστό. Δείτε [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | Αληθές για μετατροπή όλων των μετααρχείων που χρησιμοποιούνται σε μια παρουσίαση σε εικόνες PNG. Read/write Boolean. |
+| [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | Καθορίζει αν το παραγόμενο έγγραφο πρέπει να περιλαμβάνει κρυφές διαφάνειες ή όχι. Η προεπιλογή είναι `false`. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Καθορίζει αν θα παραλειφθούν υπερσυνδέσεις με κλήσεις JavaScript κατά την αποθήκευση της παρουσίασης. Read/write Boolean. Η προεπιλεγμένη τιμή είναι **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Επιστρέφει ή ορίζει ένα αντικείμενο που λαμβάνει προειδοποιήσεις και αποφασίζει αν η διαδικασία φόρτωσης θα συνεχιστεί ή θα ματαιωθεί. Read/write [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
-### Παραδείγματα
+### Examples
 
 Το παρακάτω παράδειγμα δείχνει πώς να μετατρέψετε παρουσιάσεις σε XPS χρησιμοποιώντας τις προεπιλεγμένες ρυθμίσεις.
 
 ```csharp
 [C#]
-// Δημιουργεί αντικείμενο Presentation που αντιπροσωπεύει ένα αρχείο παρουσίασης
+// Δημιουργήστε ένα αντικείμενο Presentation που αντιπροσωπεύει ένα αρχείο παρουσίασης
 using (Presentation pres = new Presentation("Convert_XPS.pptx"))
 {
     // Αποθήκευση της παρουσίασης σε έγγραφο XPS
@@ -51,23 +51,23 @@ using (Presentation pres = new Presentation("Convert_XPS.pptx"))
 
 ```csharp
 [C#]
-// Δημιουργεί ένα αντικείμενο Presentation που αντιπροσωπεύει ένα αρχείο παρουσίασης
+// Δημιουργήστε ένα αντικείμενο Presentation που αντιπροσωπεύει ένα αρχείο παρουσίασης
 using (Presentation pres = new Presentation("Convert_XPS_Options.pptx"))
 {
-    // Δημιουργεί την κλάση TiffOptions
+    // Δημιουργήστε ένα αντικείμενο της κλάσης TiffOptions
     XpsOptions options = new XpsOptions();
-    // Αποθηκεύει τα MetaFiles ως PNG
+    // Αποθηκεύστε τα MetaFiles ως PNG
     options.SaveMetafilesAsPng = true;
-    // Αποθηκεύει την παρουσίαση σε έγγραφο XPS
+    // Αποθηκεύστε την παρουσίαση σε έγγραφο XPS
     pres.Save("XPS_With_Options_out.xps", SaveFormat.Xps, options);
 }
 ```
 
-### Δείτε επίσης
+### See Also
 
-* κλάση [SaveOptions](../saveoptions)
-* διεπαφή [IXpsOptions](../ixpsoptions)
-* χώρο ονομάτων [Aspose.Slides.Export](../../aspose.slides.export)
-* συναρμολόγηση [Aspose.Slides](../../)
+* class [SaveOptions](../saveoptions)
+* interface [IXpsOptions](../ixpsoptions)
+* namespace [Aspose.Slides.Export](../../aspose.slides.export)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

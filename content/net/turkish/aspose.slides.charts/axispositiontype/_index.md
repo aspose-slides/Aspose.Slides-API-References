@@ -1,12 +1,12 @@
 ---
 title: AxisPositionType
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Eksenin konumunu belirler.
 type: docs
-weight: 1190
+weight: 1210
 url: /tr/aspose.slides.charts/axispositiontype/
 ---
-## AxisPositionType enum
+## AxisPositionType sayımı
 
 Eksenin konumunu belirler.
 
@@ -18,12 +18,12 @@ public enum AxisPositionType
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Bottom | `0` | Eksenin çizim alanının altında görüntülenmesi gerektiğini belirtir. |
-| Left | `1` | Eksenin çizim alanının solunda görüntülenmesi gerektiğini belirtir. |
-| Right | `2` | Eksenin çizim alanının sağında görüntülenmesi gerektiğini belirtir. |
-| Top | `3` | Eksenin çizim alanının üstünde görüntülenmesi gerektiğini belirtir. |
+| Bottom | `0` | Eksenin çizim alanının altında görüntülenmesini belirtir. |
+| Left | `1` | Eksenin çizim alanının solunda görüntülenmesini belirtir. |
+| Right | `2` | Eksenin çizim alanının sağında görüntülenmesini belirtir. |
+| Top | `3` | Eksenin çizim alanının üstünde görüntülenmesini belirtir. |
 
-### Ayrıca
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)
 * derleme [Aspose.Slides](../../)

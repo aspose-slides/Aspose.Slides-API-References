@@ -1,14 +1,14 @@
 ---
 title: IMathSubscriptElementFactory
-second_title: Aspose.Sildes for .NET API リファレンス
-description: IMathSubscriptElement を作成できる
+second_title: Aspose.Sildes の .NET 用 API リファレンス
+description: IMathSubscriptElement を作成できるようにします
 type: docs
-weight: 8460
+weight: 8480
 url: /ja/aspose.slides.mathtext/imathsubscriptelementfactory/
 ---
 ## IMathSubscriptElementFactory インターフェイス
 
-IMathSubscriptElement を作成できる
+IMathSubscriptElement を作成することを許可します
 
 ```csharp
 public interface IMathSubscriptElementFactory
@@ -24,7 +24,7 @@ public interface IMathSubscriptElementFactory
 
 COM 互換性のため
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * アセンブリ [Aspose.Slides](../../)

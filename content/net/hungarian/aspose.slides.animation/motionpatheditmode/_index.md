@@ -1,14 +1,14 @@
 ---
 title: MotionPathEditMode
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Megadja, hogy a mozgási útvonal hogyan mozog, amikor a cél alakzatot áthelyezik
+second_title: Aspose.Sildes .NET API referencia
+description: Megadja, hogyan mozog a mozgáspálya, amikor a cél alakzatot mozgatják
 type: docs
-weight: 680
+weight: 700
 url: /hu/aspose.slides.animation/motionpatheditmode/
 ---
-## MotionPathEditMode enumeráció
+## MotionPathEditMode enumeration
 
-Megadja, hogyan mozog a mozgási útvonal, amikor a cél alakzatot áthelyezik
+Megadja, hogyan mozog a mozgáspálya, amikor a cél alakzatot mozgatják
 
 ```csharp
 public enum MotionPathEditMode

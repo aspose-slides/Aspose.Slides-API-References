@@ -3,10 +3,10 @@ title: IInnerShadow
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 内部シャドウ効果を表します。
 type: docs
-weight: 3400
+weight: 3420
 url: /ja/aspose.slides.effects/iinnershadow/
 ---
-## IInnerShadow インターフェイス
+## IInnerShadow インタフェース
 
 内部シャドウ効果を表します。
 
@@ -17,20 +17,20 @@ public interface IInnerShadow : IAccessiblePVIObject<IInnerShadowEffectiveData>,
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iinnershadow/asiaccessiblepviobject) { get; } | ベースの IAccessiblePVIObject インターフェイスを取得できます。読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iinnershadow/asiimagetransformoperation) { get; } | ベースの IImageTransformOperation インターフェイスを取得できます。読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation)。 |
-| [BlurRadius](../../aspose.slides.effects/iinnershadow/blurradius) { get; set; } | ぼかし半径。読み書き可能な Double。 |
-| [Direction](../../aspose.slides.effects/iinnershadow/direction) { get; set; } | 影の方向。読み書き可能な Single。 |
-| [Distance](../../aspose.slides.effects/iinnershadow/distance) { get; set; } | 影の距離。読み書き可能な Double。 |
-| [ShadowColor](../../aspose.slides.effects/iinnershadow/shadowcolor) { get; } | 影の色。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iinnershadow/asiaccessiblepviobject) { get; } | ベースの IAccessiblePVIObject インタフェースを取得できます。読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iinnershadow/asiimagetransformoperation) { get; } | ベースの IImageTransformOperation インタフェースを取得できます。読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation). |
+| [BlurRadius](../../aspose.slides.effects/iinnershadow/blurradius) { get; set; } | ぼかし半径。読み取り/書き込み Double. |
+| [Direction](../../aspose.slides.effects/iinnershadow/direction) { get; set; } | 影の方向。読み取り/書き込み Single. |
+| [Distance](../../aspose.slides.effects/iinnershadow/distance) { get; set; } | 影の距離。読み取り/書き込み Double. |
+| [ShadowColor](../../aspose.slides.effects/iinnershadow/shadowcolor) { get; } | 影の色。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### 参照
 
-* インターフェイス [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
-* インターフェイス [IInnerShadowEffectiveData](../iinnershadoweffectivedata)
-* インターフェイス [IImageTransformOperation](../iimagetransformoperation)
+* インタフェース [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
+* インタフェース [IInnerShadowEffectiveData](../iinnershadoweffectivedata)
+* インタフェース [IImageTransformOperation](../iimagetransformoperation)
 * 名前空間 [Aspose.Slides.Effects](../../aspose.slides.effects)
 * アセンブリ [Aspose.Slides](../../)
 

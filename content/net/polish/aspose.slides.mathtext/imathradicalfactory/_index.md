@@ -1,12 +1,12 @@
 ---
 title: IMathRadicalFactory
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Odwołanie do API Aspose.Sildes dla .NET
 description: Umożliwia tworzenie pierwiastka matematycznego
 type: docs
-weight: 8420
+weight: 8440
 url: /pl/aspose.slides.mathtext/imathradicalfactory/
 ---
-## interfejs IMathRadicalFactory
+## IMathRadicalFactory interfejs
 
 Umożliwia tworzenie pierwiastka matematycznego
 
@@ -22,7 +22,7 @@ public interface IMathRadicalFactory
 
 ### Uwagi
 
-Dla zgodności z COM
+Dla kompatybilności z COM
 
 ### Zobacz także
 

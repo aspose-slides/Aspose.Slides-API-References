@@ -1,14 +1,14 @@
 ---
 title: MathBorderBoxFactory
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Consente di creare una casella di bordo matematico
+second_title: Aspose.Sildes per .NET API Reference
+description: Consente di creare una casella di contorno matematico
 type: docs
-weight: 8600
+weight: 8620
 url: /it/aspose.slides.mathtext/mathborderboxfactory/
 ---
 ## MathBorderBoxFactory classe
 
-Consente di creare una casella di bordo matematico
+Consente di creare una casella di contorno matematico
 
 ```csharp
 public class MathBorderBoxFactory : IMathBorderBoxFactory
@@ -24,8 +24,8 @@ public class MathBorderBoxFactory : IMathBorderBoxFactory
 
 | Nome | Descrizione |
 | --- | --- |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Crea una casella di bordo matematico applicandola all'elemento |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Crea una casella di bordo matematico applicandola all'elemento |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Crea una casella di contorno matematico applicandola all'elemento |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Crea una casella di contorno matematico applicandola all'elemento |
 
 ### Osservazioni
 

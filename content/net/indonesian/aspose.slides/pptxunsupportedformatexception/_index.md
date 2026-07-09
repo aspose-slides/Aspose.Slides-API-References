@@ -1,14 +1,14 @@
 ---
 title: PptxUnsupportedFormatException
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Pengecualian yang dilempar ketika format file presentasi tidak didukung.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Pengecualian yang dilemparkan ketika format file presentasi tidak didukung.
 type: docs
-weight: 9560
+weight: 9580
 url: /id/aspose.slides/pptxunsupportedformatexception/
 ---
-## PptxUnsupportedFormatException class
+## PptxUnsupportedFormatException kelas
 
-Pengecualian yang dilemparkan ketika format file presentasi tidak didukung.
+Pengecualian yang dilemparkan ketika format berkas presentasi tidak didukung.
 
 ```csharp
 public class PptxUnsupportedFormatException : PptxReadException
@@ -18,7 +18,7 @@ public class PptxUnsupportedFormatException : PptxReadException
 
 | Nama | Deskripsi |
 | --- | --- |
-| [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor)() | Konstruktor default. |
+| [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor)() | Konstruktor bawaan. |
 | [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor_1)(string) | Konstruktor yang memungkinkan pesan ditambahkan ke pengecualian ini. |
 | [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor_2)(string, Exception) | Konstruktor untuk pengecualian yang berisi pesan dan pengecualian tersemat. |
 

@@ -1,14 +1,14 @@
 ---
 title: ChartDataSourceType
 second_title: Aspose.Sildes için .NET API Referansı
-description: Grafiğin veri kaynağı tipini temsil eder.
+description: Grafiğin veri kaynağı türünü temsil eder
 type: docs
-weight: 1350
+weight: 1370
 url: /tr/aspose.slides.charts/chartdatasourcetype/
 ---
 ## ChartDataSourceType enumerasyonu
 
-Grafiğin veri kaynağı tipini temsil eder.
+Grafiğin veri kaynağı türünü temsil eder
 
 ```csharp
 public enum ChartDataSourceType

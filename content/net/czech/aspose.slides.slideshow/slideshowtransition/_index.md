@@ -3,10 +3,10 @@ title: SlideShowTransition
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje přechod prezentace.
 type: docs
-weight: 10300
+weight: 10320
 url: /cs/aspose.slides.slideshow/slideshowtransition/
 ---
-## SlideShowTransition třída
+## Třída SlideShowTransition
 
 Reprezentuje přechod prezentace.
 
@@ -19,15 +19,15 @@ public class SlideShowTransition : DomObject<BaseSlide>, ISlideShowTransition
 | Název | Popis |
 | --- | --- |
 | [AdvanceAfter](../../aspose.slides.slideshow/slideshowtransition/advanceafter) { get; set; } | Tento atribut určuje, zda se prezentace přesune na další snímek po určité době. Čtení/zápis Boolean. |
-| [AdvanceAfterTime](../../aspose.slides.slideshow/slideshowtransition/advanceaftertime) { get; set; } | Určuje čas v milisekundách, po kterém by měl přechod začít. Toto nastavení může být použito spolu s atributem advClick. Pokud tento atribut není zadán, předpokládá se, že nedojde k automatickému postupu. Čtení/zápis UInt32. |
-| [AdvanceOnClick](../../aspose.slides.slideshow/slideshowtransition/advanceonclick) { get; set; } | Určuje, zda kliknutí myší posune snímek vpřed nebo ne. Pokud tento atribut není zadán, předpokládá se hodnota true. Čtení/zápis Boolean. |
+| [AdvanceAfterTime](../../aspose.slides.slideshow/slideshowtransition/advanceaftertime) { get; set; } | Určuje čas v milisekundách, po kterém by měl přechod začít. Toto nastavení může být použito spolu s atributem advClick. Pokud není tento atribut zadán, předpokládá se, že nedojde k automatickému postupu. Čtení/zápis UInt32. |
+| [AdvanceOnClick](../../aspose.slides.slideshow/slideshowtransition/advanceonclick) { get; set; } | Určuje, zda kliknutí myší posune snímek nebo ne. Pokud není tento atribut zadán, předpokládá se hodnota true. Čtení/zápis Boolean. |
 | [Duration](../../aspose.slides.slideshow/slideshowtransition/duration) { get; set; } | Získá nebo nastaví dobu trvání efektu přechodu snímku v milisekundách. Čtení/zápis Int32. |
 | [Sound](../../aspose.slides.slideshow/slideshowtransition/sound) { get; set; } | Vrací nebo nastaví vložená audio data. Čtení/zápis [`IAudio`](../../aspose.slides/iaudio). |
-| [SoundIsBuiltIn](../../aspose.slides.slideshow/slideshowtransition/soundisbuiltin) { get; set; } | Určuje, zda je tento zvuk vestavěný nebo ne. Pokud je tento atribut nastaven na true, generující aplikace je upozorněna, aby zkontrolovala atribut name uvedený pro tento zvuk v jejím seznamu vestavěných zvuků a může pak zobrazit vlastní název nebo UI podle potřeby. Čtení/zápis Boolean. |
+| [SoundIsBuiltIn](../../aspose.slides.slideshow/slideshowtransition/soundisbuiltin) { get; set; } | Určuje, zda je tento zvuk vestavěný. Pokud je tento atribut nastaven na true, generující aplikace je upozorněna, aby zkontrolovala atribut name uvedený pro tento zvuk v jejím seznamu vestavěných zvuků a může následně zobrazit vlastní název nebo uživatelské rozhraní podle potřeby. Čtení/zápis Boolean. |
 | [SoundLoop](../../aspose.slides.slideshow/slideshowtransition/soundloop) { get; set; } | Tento atribut určuje, zda se zvuk bude opakovat, dokud nenastane další zvuková událost v prezentaci. Čtení/zápis Boolean. |
 | [SoundMode](../../aspose.slides.slideshow/slideshowtransition/soundmode) { get; set; } | Nastaví nebo vrátí režim zvuku pro přechod snímku. Čtení/zápis [`TransitionSoundMode`](../transitionsoundmode). |
-| [SoundName](../../aspose.slides.slideshow/slideshowtransition/soundname) { get; set; } | Určuje lidsky čitelný název zvuku přechodu. Vlastnost [`Sound`](./sound) musí být přiřazena pro získání nebo nastavení názvu zvuku. Čtení/zápis String. |
-| [Speed](../../aspose.slides.slideshow/slideshowtransition/speed) { get; set; } | Určuje rychlost přechodu, která se má použít při přechodu ze současného snímku na další. Čtení/zápis [`TransitionSpeed`](../transitionspeed). |
+| [SoundName](../../aspose.slides.slideshow/slideshowtransition/soundname) { get; set; } | Určuje čitelné jméno pro zvuk přechodu. Vlastnost [`Sound`](./sound) musí být přiřazena pro získání nebo nastavení jména zvuku. Čtení/zápis String. |
+| [Speed](../../aspose.slides.slideshow/slideshowtransition/speed) { get; set; } | Určuje rychlost přechodu, která se použije při přechodu z aktuálního snímku na další. Čtení/zápis [`TransitionSpeed`](../transitionspeed). |
 | [Type](../../aspose.slides.slideshow/slideshowtransition/type) { get; set; } | Typ přechodu. Čtení/zápis [`TransitionType`](../transitiontype). |
 | [Value](../../aspose.slides.slideshow/slideshowtransition/value) { get; } | Hodnota přechodu prezentace. Pouze pro čtení [`ITransitionValueBase`](../itransitionvaluebase). |
 
@@ -35,8 +35,8 @@ public class SlideShowTransition : DomObject<BaseSlide>, ISlideShowTransition
 
 | Název | Popis |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/slideshowtransition/equals)(object) | Určuje, zda jsou dvě instance SlideShowTransition stejné. Čtení/zápis Boolean. |
-| override [GetHashCode](../../aspose.slides.slideshow/slideshowtransition/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ, vhodná pro použití v hashovacích algoritmech a datových strukturách jako je hash tabulka. |
+| override [Equals](../../aspose.slides.slideshow/slideshowtransition/equals)(object) | Určuje, zda jsou dvě instance SlideShowTransition rovny. Čtení/zápis Boolean. |
+| override [GetHashCode](../../aspose.slides.slideshow/slideshowtransition/gethashcode)() | Slouží jako hash funkce pro konkrétní typ, vhodná pro použití v hashovacích algoritmech a datových strukturách, jako je hash tabulka. |
 
 ### Viz také
 
@@ -44,6 +44,6 @@ public class SlideShowTransition : DomObject<BaseSlide>, ISlideShowTransition
 * třída [BaseSlide](../../aspose.slides/baseslide)
 * rozhraní [ISlideShowTransition](../../aspose.slides/islideshowtransition)
 * jmenný prostor [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
-* sestavení [Aspose.Slides](../../)
+* sestava [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

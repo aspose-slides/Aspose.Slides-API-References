@@ -1,14 +1,14 @@
 ---
 title: IInOutTransition
 second_title: Aspose.Sildes için .NET API Referansı
-description: İç/Dış slayt geçiş efekti.
+description: In-Out slayt geçiş efekti.
 type: docs
-weight: 10090
+weight: 10110
 url: /tr/aspose.slides.slideshow/iinouttransition/
 ---
 ## IInOutTransition arayüz
 
-İç/Dış slayt geçiş efekti.
+In-Out slayt geçiş efekti.
 
 ```csharp
 public interface IInOutTransition : ITransitionValueBase
@@ -18,8 +18,8 @@ public interface IInOutTransition : ITransitionValueBase
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iinouttransition/asitransitionvaluebase) { get; } | Temel ITransitionValueBase arayüzünü almaya izin verir. Salt Okunur [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/iinouttransition/direction) { get; set; } | Bir geçiş efektinin yönü. Okunur/Yazılabilir [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iinouttransition/asitransitionvaluebase) { get; } | Temel ITransitionValueBase arayüzünü almayı sağlar. Salt okunur [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/iinouttransition/direction) { get; set; } | Geçiş efektinin yönü. Okunur/yazılabilir [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 
 ### Ayrıca Bakınız
 

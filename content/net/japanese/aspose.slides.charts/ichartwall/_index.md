@@ -1,9 +1,9 @@
 ---
 title: IChartWall
-second_title: Aspose.Sildes for .NET API リファレンス
-description: 3d チャート上の壁を表します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: 3D チャート上の壁を表します。
 type: docs
-weight: 1990
+weight: 2010
 url: /ja/aspose.slides.charts/ichartwall/
 ---
 ## IChartWall インターフェイス
@@ -18,9 +18,9 @@ public interface IChartWall
 
 | 名前 | 説明 |
 | --- | --- |
-| [Format](../../aspose.slides.charts/ichartwall/format) { get; } | 壁の塗り、線、効果、3D スタイルを返します。 読み取り専用 [`IFormat`](../iformat)。 |
-| [PictureType](../../aspose.slides.charts/ichartwall/picturetype) { get; set; } | 画像タイプを取得または設定します。 読み書き可能 [`PictureType`](./picturetype)。 |
-| [Thickness](../../aspose.slides.charts/ichartwall/thickness) { get; set; } | プロット領域の最大寸法のパーセンテージとして壁の厚さを取得または設定します。 読み書き可能 Int32。 |
+| [Format](../../aspose.slides.charts/ichartwall/format) { get; } | 壁の塗りつぶし、線、効果、3D スタイルを返します。読み取り専用 [`IFormat`](../iformat)。 |
+| [PictureType](../../aspose.slides.charts/ichartwall/picturetype) { get; set; } | 画像タイプを取得または設定します。読み書き [`PictureType`](./picturetype)。 |
+| [Thickness](../../aspose.slides.charts/ichartwall/thickness) { get; set; } | 壁の厚さをプロット領域の最大寸法のパーセンテージとして取得または設定します。読み書き Int32。 |
 
 ### 参照
 

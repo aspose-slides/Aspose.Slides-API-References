@@ -1,14 +1,14 @@
 ---
 title: SvgCoordinateUnit
-second_title: Aspose.Sildes .NET API Referenciája
-description: CSS2 koordinátaegységeket képviseli, amelyeket az SVG koordináták meghatározásához használnak.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: A CSS2 koordinátaegységeket képviseli, amelyeket az SVG koordináták meghatározásához használnak.
 type: docs
-weight: 4460
+weight: 4480
 url: /hu/aspose.slides.export/svgcoordinateunit/
 ---
 ## SvgCoordinateUnit felsorolás
 
-A CSS2 koordinátaegységeket képviseli, amelyek az SVG koordináták meghatározásához használhatók.
+Képviseli a CSS2 koordinátaegységeket, amelyeket az SVG koordináták definiálásához használnak.
 
 ```csharp
 public enum SvgCoordinateUnit
@@ -23,9 +23,9 @@ public enum SvgCoordinateUnit
 | Millimeter | `2` | Millimeter. |
 | Point | `3` | Point (1/72 of inch), |
 | Pica | `4` | Pica (1/6 of inch). |
-| Em | `5` | Em mérete a tartalmazó elem betűtípusának. |
-| Ex | `6` | Ex mérete (kisbetű mérete, általában "x") a tartalmazó elem betűtípusának. |
-| Pixel | `7` | Pixel mérete. |
+| Em | `5` | Em size of a font of containing element. |
+| Ex | `6` | Ex size (size of lowercase letter, usualy "x") of font of containing element. |
+| Pixel | `7` | Pixel size. |
 | Percent | `8` | Percent. |
 
 ### Lásd még

@@ -1,9 +1,9 @@
 ---
 title: IAlphaModulateEffectiveData
-second_title: Aspose.Sildes dla .NET API Reference
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Niezmienny obiekt reprezentujący efekt Alpha Modulate. Wartości alfa (przezroczystość) efektu są mnożone przez stały procent. Kontener efektu określa efekt zawierający wartości alfa do modulacji.
 type: docs
-weight: 3090
+weight: 3110
 url: /pl/aspose.slides.effects/ialphamodulateeffectivedata/
 ---
 ## IAlphaModulateEffectiveData interfejs
@@ -20,7 +20,7 @@ public interface IAlphaModulateEffectiveData : IEffectEffectiveData
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulateeffectivedata/asieffecteffectivedata) { get; } | Umożliwia pobranie podstawowego interfejsu IEffectEffectiveData. Tylko do odczytu [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
-### Zobacz też
+### Patrz także
 
 * interfejs [IEffectEffectiveData](../ieffecteffectivedata)
 * przestrzeń nazw [Aspose.Slides.Effects](../../aspose.slides.effects)

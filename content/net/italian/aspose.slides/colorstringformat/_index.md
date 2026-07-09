@@ -1,9 +1,9 @@
 ---
 title: ColorStringFormat
-second_title: Aspose.Sildes per il riferimento API .NET
+second_title: Aspose.Sildes per .NET API Reference
 description: Rappresenta un tipo di azione di collegamento ipertestuale.
 type: docs
-weight: 2540
+weight: 2560
 url: /it/aspose.slides/colorstringformat/
 ---
 ## ColorStringFormat enumerazione

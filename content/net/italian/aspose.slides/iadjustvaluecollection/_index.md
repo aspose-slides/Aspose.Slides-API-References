@@ -1,14 +1,14 @@
 ---
 title: IAdjustValueCollection
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta una raccolta di regolazioni delle forme.
+second_title: Riferimento API .NET di Aspose.Sildes
+description: Rappresenta una collezione di aggiustamenti delle forme.
 type: docs
-weight: 5170
+weight: 5190
 url: /it/aspose.slides/iadjustvaluecollection/
 ---
 ## IAdjustValueCollection interfaccia
 
-Rappresenta una raccolta di regolazioni della forma.
+Rappresenta una collezione di aggiustamenti della forma.
 
 ```csharp
 public interface IAdjustValueCollection : ICollection
@@ -18,9 +18,9 @@ public interface IAdjustValueCollection : ICollection
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsICollection](../../aspose.slides/iadjustvaluecollection/asicollection) { get; } | Consente di ottenere l'interfaccia base ICollection. ICollection di sola lettura. |
-| [AsIEnumerable](../../aspose.slides/iadjustvaluecollection/asienumerable) { get; } | Restituisce l'interfaccia IEnumerable. IEnumerable di sola lettura. |
-| [Item](../../aspose.slides/iadjustvaluecollection/item) { get; } | Restituisce la regolazione per indice. |
+| [AsICollection](../../aspose.slides/iadjustvaluecollection/asicollection) { get; } | Consente di ottenere l'interfaccia base ICollection. ICollection in sola lettura. |
+| [AsIEnumerable](../../aspose.slides/iadjustvaluecollection/asienumerable) { get; } | Restituisce l'interfaccia IEnumerable. IEnumerable in sola lettura. |
+| [Item](../../aspose.slides/iadjustvaluecollection/item) { get; } | Restituisce l'aggiustamento per indice. |
 
 ### Vedi anche
 

@@ -1,14 +1,14 @@
 ---
 title: ScaleEffect
-second_title: Aspose.Sildes .NET API referencia
-description: Az animáció skálaeffektusát jelöli.
+second_title: Aspose.Sildes a .NET API referencia
+description: Az animáció méretezési effektusát reprezentálja.
 type: docs
-weight: 760
+weight: 780
 url: /hu/aspose.slides.animation/scaleeffect/
 ---
 ## ScaleEffect osztály
 
-Az animáció skálaeffektusát jelöli.
+Az animáció méretezési effektusát reprezentálja.
 
 ```csharp
 public class ScaleEffect : Behavior, IScaleEffect
@@ -24,16 +24,16 @@ public class ScaleEffect : Behavior, IScaleEffect
 
 | Név | Leírás |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Azt jelöli, hogy az animációs viselkedések felhalmozódnak-e. Olvasás/írás [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Azt jelöli, hogy az aktuális animációs viselkedés kombinálva van-e más futó animációkkal. Olvasás/írás [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [By](../../aspose.slides.animation/scaleeffect/by) { get; set; } | Leírja az animáció relatív eltolási értékét (százalékban). Olvasás/írás PointF. |
-| [From](../../aspose.slides.animation/scaleeffect/from) { get; set; } | Megad egy x/y koordinátát, ahonnan az animáció elindul (százalékban). Olvasás/írás PointF. |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | A viselkedés tulajdonságait jelöli. Csak olvasható [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Az effektus viselkedés időzítési tulajdonságait jelöli. Olvasás/írás [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/scaleeffect/to) { get; set; } | Megadja egy animációs skálaeffektus célhelyzetét (százalékban). Olvasás/írás PointF. |
-| [ZoomContent](../../aspose.slides.animation/scaleeffect/zoomcontent) { get; set; } | Meghatározza, hogy a tartalom legyen-e nagyított. Olvasás/írás [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Megadja, hogy az animáció viselkedései összegyűlnek-e. Olvasható/írható [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Megadja, hogy a jelenlegi animáció viselkedése össze van-e kombinálva más futó animációkkal. Olvasható/írható [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [By](../../aspose.slides.animation/scaleeffect/by) { get; set; } | Leírja az animáció relatív eltolási értékét (százalékban). Olvasható/írható PointF. |
+| [From](../../aspose.slides.animation/scaleeffect/from) { get; set; } | Megadja az animáció indítási x/y koordinátáját (százalékban). Olvasható/írható PointF. |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Az viselkedés tulajdonságait reprezentálja. Csak olvasható [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Az effektus viselkedésének időzítési tulajdonságait reprezentálja. Olvasható/írható [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/scaleeffect/to) { get; set; } | Megadja egy animáció méretezési effektus célhelyét (százalékban). Olvasható/írható PointF. |
+| [ZoomContent](../../aspose.slides.animation/scaleeffect/zoomcontent) { get; set; } | Meghatározza, hogy a tartalom nagyítandó legyen-e. Olvasható/írható [`NullableBool`](../../aspose.slides/nullablebool). |
 
-## Lásd még
+### Lásd még
 
 * osztály [Behavior](../behavior)
 * interfész [IScaleEffect](../iscaleeffect)

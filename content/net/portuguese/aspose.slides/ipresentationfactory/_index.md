@@ -1,38 +1,38 @@
 ---
 title: IPresentationFactory
-second_title: Referência da API Aspose.Sildes para .NET
-description: Permite criar apresentação via interface COM
+second_title: Aspose.Slides para .NET Referência da API
+description: Permite criar apresentações via interface COM
 type: docs
-weight: 6750
+weight: 6770
 url: /pt/aspose.slides/ipresentationfactory/
 ---
 ## IPresentationFactory interface
 
-Permite criar uma apresentação via interface COM
+Permite criar apresentações via interface COM
 
 ```csharp
 public interface IPresentationFactory
 ```
 
-## Methods
+## Métodos
 
 | Nome | Descrição |
 | --- | --- |
 | [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation)() | Cria uma nova apresentação. |
-| [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Cria uma nova apresentação com opções adicionais de carregamento |
-| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Obtém informações sobre a apresentação no fluxo especificado. |
+| [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Cria uma nova apresentação com opções de carregamento adicionais |
+| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Obtém informações sobre a apresentação no stream especificado. |
 | [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Obtém informações sobre a apresentação no arquivo especificado. |
 | [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Recupera o texto bruto dos slides |
 | [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Recupera o texto bruto dos slides |
 | [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Recupera o texto bruto dos slides |
 | [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation)(byte[]) | Lê uma apresentação existente a partir de um array |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_2)(Stream) | Lê uma apresentação existente a partir de um fluxo |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_2)(Stream) | Lê uma apresentação existente a partir de um stream |
 | [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_4)(string) | Lê uma apresentação existente a partir de um arquivo |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | Lê uma apresentação existente a partir de um array com opções adicionais de carregamento |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | Lê uma apresentação existente a partir de um fluxo com opções adicionais de carregamento |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Lê uma apresentação existente a partir de um fluxo com opções adicionais de carregamento |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | Lê uma apresentação existente a partir de um array com opções de carregamento adicionais |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | Lê uma apresentação existente a partir de um stream com opções de carregamento adicionais |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Lê uma apresentação existente a partir de um stream com opções de carregamento adicionais |
 
-### Ver também
+### Veja também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

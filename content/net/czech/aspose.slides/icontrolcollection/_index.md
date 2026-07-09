@@ -1,12 +1,12 @@
 ---
 title: IControlCollection
-second_title: Aspose.Sildes pro .NET API Referenci
+second_title: Aspose.Sildes pro .NET API Reference
 description: Kolekce ovládacích prvků ActiveX.
 type: docs
-weight: 5620
+weight: 5640
 url: /cs/aspose.slides/icontrolcollection/
 ---
-## IControlCollection interface
+## IControlCollection rozhraní
 
 Kolekce ovládacích prvků ActiveX.
 
@@ -18,7 +18,7 @@ public interface IControlCollection : IGenericCollection<IControl>
 
 | Název | Popis |
 | --- | --- |
-| [Item](../../aspose.slides/icontrolcollection/item) { get; } | Vrací ovládací prvek na určené pozici. |
+| [Item](../../aspose.slides/icontrolcollection/item) { get; } | Vrací ovládací prvek na zadané pozici. |
 
 ## Metody
 
@@ -27,7 +27,7 @@ public interface IControlCollection : IGenericCollection<IControl>
 | [AddControl](../../aspose.slides/icontrolcollection/addcontrol)(ControlType, float, float, float, float) | Vytvoří a přidá nový ovládací prvek do kolekce. |
 | [Clear](../../aspose.slides/icontrolcollection/clear)() | Odstraní všechny ovládací prvky z kolekce. |
 | [Remove](../../aspose.slides/icontrolcollection/remove)(IControl) | Odstraní ovládací prvek ActiveX z kolekce. |
-| [RemoveAt](../../aspose.slides/icontrolcollection/removeat)(int) | Odstraní ovládací prvek ActiveX uložený na určené pozici z kolekce. |
+| [RemoveAt](../../aspose.slides/icontrolcollection/removeat)(int) | Odstraní ovládací prvek ActiveX uložený na zadané pozici z kolekce. |
 
 ### Viz také
 

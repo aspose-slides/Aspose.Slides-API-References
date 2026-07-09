@@ -1,9 +1,9 @@
 ---
 title: IHyperlinkContainer
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: ハイパーリンク オブジェクトを表します。
 type: docs
-weight: 6100
+weight: 6120
 url: /ja/aspose.slides/ihyperlinkcontainer/
 ---
 ## IHyperlinkContainer インターフェイス
@@ -18,9 +18,9 @@ public interface IHyperlinkContainer
 
 | 名前 | 説明 |
 | --- | --- |
-| [HyperlinkClick](../../aspose.slides/ihyperlinkcontainer/hyperlinkclick) { get; set; } | マウスクリックに対して定義されたハイパーリンクを取得または設定します。読み取り/書き込み [`IHyperlink`](../ihyperlink). |
+| [HyperlinkClick](../../aspose.slides/ihyperlinkcontainer/hyperlinkclick) { get; set; } | マウスクリック用に定義されたハイパーリンクを取得または設定します。読み取り/書き込み [`IHyperlink`](../ihyperlink). |
 | [HyperlinkManager](../../aspose.slides/ihyperlinkcontainer/hyperlinkmanager) { get; } | ハイパーリンク マネージャー 読み取り専用 [`IHyperlinkManager`](../ihyperlinkmanager). |
-| [HyperlinkMouseOver](../../aspose.slides/ihyperlinkcontainer/hyperlinkmouseover) { get; set; } | マウスオーバーに対して定義されたハイパーリンクを取得または設定します。読み取り/書き込み [`IHyperlink`](../ihyperlink). |
+| [HyperlinkMouseOver](../../aspose.slides/ihyperlinkcontainer/hyperlinkmouseover) { get; set; } | マウスオーバー用に定義されたハイパーリンクを取得または設定します。読み取り/書き込み [`IHyperlink`](../ihyperlink). |
 
 ### 参照
 

@@ -1,14 +1,14 @@
 ---
 title: FillFormat
-second_title: Aspose.Sildes .NET API-referencia
-description: Kitöltési formázási beállításokat képvisel.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Kitöltés formázási beállításait képviseli.
 type: docs
-weight: 4760
+weight: 4780
 url: /hu/aspose.slides/fillformat/
 ---
 ## FillFormat osztály
 
-A kitöltés formázási beállításait jelöli.
+A kitöltés formázási beállításait képviseli.
 
 ```csharp
 public sealed class FillFormat : PVIObject, IFillFormat
@@ -20,18 +20,18 @@ public sealed class FillFormat : PVIObject, IFillFormat
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
 | [FillType](../../aspose.slides/fillformat/filltype) { get; set; } | Visszaadja vagy beállítja a kitöltés típusát. Olvasás/írás [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/fillformat/gradientformat) { get; } | Visszaadja a fokozatos kitöltés formátumát. Csak olvasható [`IGradientFormat`](../igradientformat). |
+| [GradientFormat](../../aspose.slides/fillformat/gradientformat) { get; } | Visszaadja a gradient kitöltés formátumát. Csak olvasható [`IGradientFormat`](../igradientformat). |
 | [PatternFormat](../../aspose.slides/fillformat/patternformat) { get; } | Visszaadja a minta kitöltés formátumát. Csak olvasható [`IPatternFormat`](../ipatternformat). |
 | [PictureFillFormat](../../aspose.slides/fillformat/picturefillformat) { get; } | Visszaadja a kép kitöltés formátumát. Csak olvasható [`IPictureFillFormat`](../ipicturefillformat). |
-| [RotateWithShape](../../aspose.slides/fillformat/rotatewithshape) { get; set; } | Meghatározza, hogy a kitöltés el legyen-e forgatva a formával. Olvasás/írás [`NullableBool`](../nullablebool). |
+| [RotateWithShape](../../aspose.slides/fillformat/rotatewithshape) { get; set; } | Meghatározza, hogy a kitöltést a forma forgatása követi-e. Olvasás/írás [`NullableBool`](../nullablebool). |
 | [SolidFillColor](../../aspose.slides/fillformat/solidfillcolor) { get; } | Visszaadja a kitöltés színét. Csak olvasható [`IColorFormat`](../icolorformat). |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Összehasonlítja a megadott objektummal. |
-| [GetEffective](../../aspose.slides/fillformat/geteffective)() | Lekéri a hatékony kitöltési formázási adatokat az öröklődés alkalmazásával. |
+| [GetEffective](../../aspose.slides/fillformat/geteffective)() | Lekéri a hatékony kitöltés formázási adatokat a öröklődés alkalmazásával. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Visszaadja a hash kódot. |
 
 ### Lásd még

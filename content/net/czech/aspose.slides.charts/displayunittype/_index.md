@@ -3,10 +3,10 @@ title: DisplayUnitType
 second_title: Aspose.Sildes pro .NET API Reference
 description: Určuje násobnost zobrazovaných dat.
 type: docs
-weight: 1600
+weight: 1620
 url: /cs/aspose.slides.charts/displayunittype/
 ---
-## Výčtový typ DisplayUnitType
+## DisplayUnitType výčet
 
 Určuje násobnost zobrazovaných dat.
 
@@ -28,7 +28,7 @@ public enum DisplayUnitType
 | HundredMillions | `7` | Určuje, že hodnoty v grafu budou děleny 100 000 000. |
 | Billions | `8` | Určuje, že hodnoty v grafu budou děleny 1 000 000 000. |
 | Trillions | `9` | Určuje, že hodnoty v grafu budou děleny 1 000 000 000 000. |
-| CustomValue | `10` | Určuje, že hodnoty v grafu budou děleny uživatelskou hodnotou. |
+| CustomValue | `10` | Určuje, že hodnoty v grafu budou děleny vlastní hodnotou. |
 
 ### Viz také
 

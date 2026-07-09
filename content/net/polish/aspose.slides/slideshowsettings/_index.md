@@ -1,9 +1,9 @@
 ---
 title: SlideShowSettings
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET – referencja API
 description: Reprezentuje ustawienia pokazu slajdów dla prezentacji.
 type: docs
-weight: 10460
+weight: 10480
 url: /pl/aspose.slides/slideshowsettings/
 ---
 ## SlideShowSettings klasa
@@ -18,14 +18,14 @@ public class SlideShowSettings
 
 | Nazwa | Opis |
 | --- | --- |
-| [Loop](../../aspose.slides/slideshowsettings/loop) { get; set; } | Powtarza pokaz slajdów |
-| [PenColor](../../aspose.slides/slideshowsettings/pencolor) { get; } | Kolor pióra dla pokazu slajdów |
-| [ShowAnimation](../../aspose.slides/slideshowsettings/showanimation) { get; set; } | Wyświetlanie animacji w pokazie slajdów |
-| [ShowMediaControls](../../aspose.slides/slideshowsettings/showmediacontrols) { get; set; } | Wyświetlanie kontrolek multimedialnych |
-| [ShowNarration](../../aspose.slides/slideshowsettings/shownarration) { get; set; } | Wyświetlanie narracji w pokazie slajdów |
+| [Loop](../../aspose.slides/slideshowsettings/loop) { get; set; } | Zapętlenie pokazu slajdów |
+| [PenColor](../../aspose.slides/slideshowsettings/pencolor) { get; } | Kolor pióra w pokazie slajdów |
+| [ShowAnimation](../../aspose.slides/slideshowsettings/showanimation) { get; set; } | Pokazuj animację w pokazie slajdów |
+| [ShowMediaControls](../../aspose.slides/slideshowsettings/showmediacontrols) { get; set; } | Pokazuj kontrolki multimediów |
+| [ShowNarration](../../aspose.slides/slideshowsettings/shownarration) { get; set; } | Pokazuj narrację w pokazie slajdów |
 | [Slides](../../aspose.slides/slideshowsettings/slides) { get; set; } | Zakres slajdów |
-| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | Pobiera lub ustawia typ pokazu slajdów. Reprezentowany przez następujące [`SlideShowType`](./slideshowtype) przodków: [`BrowsedAtKiosk`](../browsedatkiosk), [`PresentedBySpeaker`](../presentedbyspeaker) i [`BrowsedByIndividual`](../browsedbyindividual) |
-| [UseTimings](../../aspose.slides/slideshowsettings/usetimings) { get; set; } | Użyj synchronizacji w pokazie slajdów |
+| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | Pobiera lub ustawia typ pokazu slajdów. Reprezentowany przez następujących [`SlideShowType`](./slideshowtype) przodków: [`BrowsedAtKiosk`](../browsedatkiosk), [`PresentedBySpeaker`](../presentedbyspeaker) i [`BrowsedByIndividual`](../browsedbyindividual) |
+| [UseTimings](../../aspose.slides/slideshowsettings/usetimings) { get; set; } | Użyj timingów w pokazie slajdów |
 
 ### Zobacz także
 

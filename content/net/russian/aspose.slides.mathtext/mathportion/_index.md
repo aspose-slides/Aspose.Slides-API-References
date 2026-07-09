@@ -1,65 +1,64 @@
----  
+---
 title: MathPortion
-second_title: Aspose.Sildes для .NET API Reference  
-description: Представляет собой часть с математическим контекстом внутри.
+second_title: Справочник API Aspose.Sildes для .NET
+description: Представляет часть с математическим контекстом внутри.
 type: docs
-weight: 8660  
+weight: 8930
 url: /ru/aspose.slides.mathtext/mathportion/
----  
+---
+## MathPortion класс
 
-## MathPortion class  
+Представляет часть с математическим контекстом внутри.
 
-Представляет собой часть с математическим контекстом внутри.  
+```csharp
+public sealed class MathPortion : Portion, IMathPortion
+```
 
-```csharp  
-public sealed class MathPortion : Portion, IMathPortion  
-```  
+## Конструкторы
 
-## Конструкторы  
+| Имя | Описание |
+| --- | --- |
+| [MathPortion](mathportion)() | Инициализирует новый экземпляр класса MathPortion. |
 
-| Имя | Описание |  
-| --- | --- |  
-| [MathPortion](mathportion)() | Инициализирует новый экземпляр класса MathPortion. |  
+## Свойства
 
-## Свойства  
+| Имя | Описание |
+| --- | --- |
+| [Field](../../aspose.slides/portion/field) { get; } | Возвращает поле этой части. Только для чтения [`IField`](../../aspose.slides/ifield). |
+| [MathParagraph](../../aspose.slides.mathtext/mathportion/mathparagraph) { get; } | Математический абзац |
+| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Возвращает объект форматирования, который содержит явно заданные свойства форматирования текстовой части без применения наследования. Только для чтения [`IPortionFormat`](../../aspose.slides/iportionformat). |
+| [Text](../../aspose.slides/portion/text) { get; set; } | Получает или задает обычный текст части. Чтение/запись String. |
 
-| Имя | Описание |  
-| --- | --- |  
-| [Field](../../aspose.slides/portion/field) { get; } | Возвращает поле этой части. Только для чтения [`IField`](../../aspose.slides/ifield). |  
-| [MathParagraph](../../aspose.slides.mathtext/mathportion/mathparagraph) { get; } | Математический параграф |  
-| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Возвращает объект форматирования, который содержит явно заданные свойства форматирования текстовой части без примененной наследственности. Только для чтения [`IPortionFormat`](../../aspose.slides/iportionformat). |  
-| [Text](../../aspose.slides/portion/text) { get; set; } | Получает или задает простой текст части. Чтение/запись String. |  
+## Методы
 
-## Методы  
+| Имя | Описание |
+| --- | --- |
+| [AddField](../../aspose.slides/portion/addfield)(IFieldType) | Преобразует эту часть в автоматически обновляемое поле. |
+| [AddField](../../aspose.slides/portion/addfield)(string) | Преобразует эту часть в автоматически обновляемое поле. |
+| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Получает координаты начала части. Координата X точки представляет начало части с первого символа, включая левый отступ. Координата Y включает верхний отступ. |
+| [GetRect](../../aspose.slides/portion/getrect)() | Получает координаты прямоугольника, ограничивающего часть. Прямоугольник включает все строки текста в части, включая пустые. |
+| [RemoveField](../../aspose.slides/portion/removefield)() | Преобразует эту часть поля в простую часть. |
 
-| Имя | Описание |  
-| --- | --- |  
-| [AddField](../../aspose.slides/portion/addfield)(IFieldType) | Преобразует эту часть в автоматически обновляемое поле. |  
-| [AddField](../../aspose.slides/portion/addfield)(string) | Преобразует эту часть в автоматически обновляемое поле. |  
-| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Получает координаты начала части. Координата X точки представляет собой начало части от первого символа с учетом левого поля. Координата Y включает верхнее поле. |  
-| [GetRect](../../aspose.slides/portion/getrect)() | Получает координаты прямоугольника, ограничивающего часть. Прямоугольник включает в себя все строки текста в части, включая пустые. |  
-| [RemoveField](../../aspose.slides/portion/removefield)() | Преобразует эту часть поля в простую часть. |  
+### Примеры
 
-### Примеры  
+Пример:
 
-Пример:  
+```csharp
+[C#]
+using (Presentation pres = new Presentation())
+{
+    IAutoShape shape = pres.Slides[0].Shapes.AddMathShape(0, 0, 300, 50);
+    IParagraph paragraph = shape.TextFrame.Paragraphs[0];
+    MathPortion mathPortion = new MathPortion();
+    paragraph.Portions.Add(mathPortion);
+}
+```
 
-```csharp  
-[C#]  
-using (Presentation pres = new Presentation())  
-{  
-    IAutoShape shape = pres.Slides[0].Shapes.AddMathShape(0, 0, 300, 50);  
-    IParagraph paragraph = shape.TextFrame.Paragraphs[0];  
-    MathPortion mathPortion = new MathPortion();  
-    paragraph.Portions.Add(mathPortion);  
-}  
-```  
+### См. также
 
-### Смотрите также  
-
-* класс [Portion](../../aspose.slides/portion)  
-* интерфейс [IMathPortion](../imathportion)  
-* пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)  
-* сборка [Aspose.Slides](../../)  
+* класс [Portion](../../aspose.slides/portion)
+* интерфейс [IMathPortion](../imathportion)
+* пространство имён [Aspose.Slides.MathText](../../aspose.slides.mathtext)
+* сборка [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

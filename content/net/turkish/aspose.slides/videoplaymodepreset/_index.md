@@ -3,10 +3,10 @@ title: VideoPlayModePreset
 second_title: Aspose.Sildes için .NET API Referansı
 description: Bir videonun nasıl oynatılacağını tanımlayan sabitler.
 type: docs
-weight: 11710
+weight: 11730
 url: /tr/aspose.slides/videoplaymodepreset/
 ---
-## VideoPlayModePreset enumerasyon
+## VideoPlayModePreset enum
 
 Bir videonun nasıl oynatılacağını tanımlayan sabitler.
 
@@ -19,12 +19,12 @@ public enum VideoPlayModePreset
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
 | Mixed | `-1` |  |
-| Auto | `0` | Otomatik olarak oynatılır. |
-| OnClick | `1` | Video çerçevesi tıklandığında yalnızca oynatılır. |
-| AllSlides | `2` | Tüm slaytlarda oynatılır. |
-| InClickSequence | `3` | Bir tıklama ile otomatik olarak oynatılır. |
+| Auto | `0` | Otomatik olarak oynatır. |
+| OnClick | `1` | Yalnızca video çerçevesine tıklandığında oynatır. |
+| AllSlides | `2` | Tüm slaytlarda oynatır. |
+| InClickSequence | `3` | Tıklama ile otomatik olarak oynatır. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

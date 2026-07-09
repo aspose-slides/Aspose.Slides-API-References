@@ -1,12 +1,12 @@
 ---
 title: ICamera
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET için API Referansı
 description: Kamerayı temsil eder.
 type: docs
-weight: 5390
+weight: 5410
 url: /tr/aspose.slides/icamera/
 ---
-## ICamera arayüzü
+## ICamera arayüz
 
 Kamerayı temsil eder.
 
@@ -18,16 +18,16 @@ public interface ICamera
 
 | Ad | Açıklama |
 | --- | --- |
-| [CameraType](../../aspose.slides/icamera/cameratype) { get; set; } | Kamera türü Okunabilir/Yazılabilir [`CameraPresetType`](../camerapresettype). |
-| [FieldOfViewAngle](../../aspose.slides/icamera/fieldofviewangle) { get; set; } | Kamera FOV (0-180 derece, görüş alanı) Okunabilir/Yazılabilir Single. |
-| [Zoom](../../aspose.slides/icamera/zoom) { get; set; } | Kamera yakınlaştırma (yüzde olarak pozitif değer) Okunabilir/Yazılabilir Single. |
+| [CameraType](../../aspose.slides/icamera/cameratype) { get; set; } | Kamera tipi Okuma/Yazma [`CameraPresetType`](../camerapresettype). |
+| [FieldOfViewAngle](../../aspose.slides/icamera/fieldofviewangle) { get; set; } | Kamera FOV (0-180 derece, görüş alanı) Okuma/Yazma Single. |
+| [Zoom](../../aspose.slides/icamera/zoom) { get; set; } | Kamera yakınlaştırması (yüzde cinsinden pozitif değer) Okuma/Yazma Single. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icamera/getrotation)() | Bir dönüş, enlem koordinatı, boylam koordinatı ve eksen etrafındaki devrim kullanılarak tanımlanır. Dönen dizi içinde ilk öğe – enlem, ikinci – boylam, üçüncü – devrim. Tanımlı bir dönüş yoksa null döndürür. |
-| [SetRotation](../../aspose.slides/icamera/setrotation)(float, float, float) | Bir dönüş, enlem koordinatı, boylam koordinatı ve eksen etrafındaki devrim kullanılarak tanımlanır. Koordinatlardan herhangi biri float.NaN ise tüm dönüş tanımsızdır. |
+| [GetRotation](../../aspose.slides/icamera/getrotation)() | Bir dönüş, enlem koordinatı, boylam koordinatı ve eksen etrafında dönüş ile tanımlanır. İlk öğe dönen dizi içinde - enlem, ikinci - boylam, üçüncü - dönüş. Tanımlı dönüş yoksa null döndürür. |
+| [SetRotation](../../aspose.slides/icamera/setrotation)(float, float, float) | Bir dönüş, enlem koordinatı, boylam koordinatı ve eksen etrafında dönüş ile tanımlanır. Koordinat değerlerinden biri float.NaN ise, tüm dönüş tanımsızdır. |
 
 ### Ayrıca Bakınız
 

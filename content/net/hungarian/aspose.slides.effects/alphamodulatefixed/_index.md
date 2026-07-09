@@ -1,14 +1,14 @@
 ---
 title: AlphaModulateFixed
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Az Alpha Modulate Fixed effektust reprezentálja. A hatás alfa (átlátszóság) értékei egy rögzített százalékkal szorozódnak.
+second_title: Aspose.Sildes a .NET API Referenciához
+description: Ábrázolja az Alpha Modulate Fixed effektust. Az effektus alfa átlátszatlanság értékeit egy rögzített százalékkal szorozzák.
 type: docs
-weight: 2870
+weight: 2890
 url: /hu/aspose.slides.effects/alphamodulatefixed/
 ---
 ## AlphaModulateFixed osztály
 
-Ez az Alpha Modulate Fixed effektust képviseli. A hatás alfa (átlátszóság) értékei egy rögzített százalékkal szorozódnak.
+Represents an Alpha Modulate Fixed effect. Effect alpha (opacity) values are multiplied by a fixed percentage.
 
 ```csharp
 public sealed class AlphaModulateFixed : ImageTransformOperation, IAlphaModulateFixed
@@ -19,15 +19,15 @@ public sealed class AlphaModulateFixed : ImageTransformOperation, IAlphaModulate
 | Név | Leírás |
 | --- | --- |
 | [Amount](../../aspose.slides.effects/alphamodulatefixed/amount) { get; set; } | Visszaadja a hatás mennyiségét százalékban. Olvasás/írás Single. |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi az alap IPresentationComponent interfész lekérését. Csak-olvasás [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interfész lekérdezését. Csak olvasható [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphamodulatefixed/equals)(object) | Meghatározza, hogy a megadott [`AlphaModulateFixed`](../alphamodulatefixed) egyenlő-e a jelenlegi [`AlphaModulateFixed`](../alphamodulatefixed)-val. |
-| [GetEffective](../../aspose.slides.effects/alphamodulatefixed/geteffective)() | Lekéri a hatásos Alpha Modulate Fixed effektus adatait a öröklődés alkalmazásával. |
-| override [GetHashCode](../../aspose.slides.effects/alphamodulatefixed/gethashcode)() | Hash függvényként szolgál egy adott típushoz. |
+| override [Equals](../../aspose.slides.effects/alphamodulatefixed/equals)(object) | Megállapítja, hogy a megadott [`AlphaModulateFixed`](../alphamodulatefixed) egyenlő-e a jelenlegi [`AlphaModulateFixed`](../alphamodulatefixed). |
+| [GetEffective](../../aspose.slides.effects/alphamodulatefixed/geteffective)() | Lekéri a hatékony Alpha Modulate Fixed effektus adatokat, öröklődéssel alkalmazva. |
+| override [GetHashCode](../../aspose.slides.effects/alphamodulatefixed/gethashcode)() | Egy adott típus hash függvényeként szolgál. |
 
 ### Lásd még
 

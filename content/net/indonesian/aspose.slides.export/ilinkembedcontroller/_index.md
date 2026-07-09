@@ -1,9 +1,9 @@
 ---
 title: ILinkEmbedController
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Antarmuka callback yang digunakan untuk menentukan bagaimana objek harus diproses selama penyimpanan.
 type: docs
-weight: 3970
+weight: 3990
 url: /id/aspose.slides.export/ilinkembedcontroller/
 ---
 ## ILinkEmbedController antarmuka
@@ -18,8 +18,8 @@ public interface ILinkEmbedController
 
 | Nama | Deskripsi |
 | --- | --- |
-| [GetObjectStoringLocation](../../aspose.slides.export/ilinkembedcontroller/getobjectstoringlocation)(int, byte[], string, string, string) | Menentukan di mana objek harus disimpan. Metode ini dipanggil sekali untuk setiap id objek. Tidak dijamin bahwa tidak akan ada dua objek dengan data, semanticName, dan contentType yang sama tetapi dengan id yang berbeda. |
-| [GetUrl](../../aspose.slides.export/ilinkembedcontroller/geturl)(int, int) | Mengembalikan URL ke objek eksternal. Metode ini selalu dipanggil jika [`GetObjectStoringLocation`](./getobjectstoringlocation) mengembalikan Link dan mungkin dipanggil jika [`GetObjectStoringLocation`](./getobjectstoringlocation) mengembalikan Embed tetapi embedding tidak memungkinkan. Dapat dipanggil berkali-kali untuk id objek yang sama. |
+| [GetObjectStoringLocation](../../aspose.slides.export/ilinkembedcontroller/getobjectstoringlocation)(int, byte[], string, string, string) | Menentukan dimana objek harus disimpan. Metode ini dipanggil sekali untuk setiap id objek. Tidak dijamin tidak akan ada dua objek dengan data, semanticName, dan contentType yang sama tetapi dengan id yang berbeda. |
+| [GetUrl](../../aspose.slides.export/ilinkembedcontroller/geturl)(int, int) | Mengembalikan URL ke objek eksternal. Metode ini selalu dipanggil jika [`GetObjectStoringLocation`](./getobjectstoringlocation) mengembalikan Link dan dapat dipanggil jika [`GetObjectStoringLocation`](./getobjectstoringlocation) mengembalikan Embed tetapi embedding tidak memungkinkan. Dapat dipanggil beberapa kali untuk id objek yang sama. |
 | [SaveExternal](../../aspose.slides.export/ilinkembedcontroller/saveexternal)(int, byte[]) | Menyimpan objek eksternal. |
 
 ### Lihat Juga

@@ -1,14 +1,14 @@
 ---
 title: LayoutSlideThemeManager
-second_title: Aspose.Sildes .NET API-referencia
+second_title: Aspose.Sildes a .NET API referencia
 description: Hozzáférést biztosít a layout slide téma felülírásához.
 type: docs
-weight: 11390
+weight: 11410
 url: /hu/aspose.slides.theme/layoutslidethememanager/
 ---
 ## LayoutSlideThemeManager osztály
 
-Hozzáférést biztosít az OverrideTheme felülírásához.
+Hozzáférést biztosít a layout slide téma felülírásához.
 
 ```csharp
 public class LayoutSlideThemeManager : BaseOverrideThemeManager
@@ -18,14 +18,14 @@ public class LayoutSlideThemeManager : BaseOverrideThemeManager
 
 | Név | Leírás |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Meghatározza, hogy az OverrideTheme felülírja-e a származtatott hatékony témát vagy sem. Az OverrideTheme felülírásának engedélyezéséhez használja az OverrideTheme.Init*() metódusokat. Az OverrideTheme felülírásának letiltásához használja az OverrideTheme.Clear() metódust. Csak olvasható Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Visszaadja a felülíró téma objektumot. Olvasási/írási [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Meghatározza, hogy az OverrideTheme felülírja-e az örökölt hatékony témát vagy sem. Az OverrideTheme felülírásának engedélyezéséhez használja az OverrideTheme.Init*() metódusokat. Az OverrideTheme felülírásának letiltásához használja az OverrideTheme.Clear() metódust. Csak olvasható Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Visszaadja a felülíró téma objektumot. Olvasás/írás [`IOverrideTheme`](../ioverridetheme). |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Alkalmaz egy extra színsémát egy diára. |
+| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Alkalmaz egy extra színsémát a diára. |
 | [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Visszaadja a téma objektumot. |
 
 ### Lásd még

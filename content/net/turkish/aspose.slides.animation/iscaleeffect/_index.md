@@ -1,9 +1,9 @@
 ---
 title: IScaleEffect
-second_title: Aspose.Sildes .NET için API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Animasyon ölçek etkisini temsil eder.
 type: docs
-weight: 560
+weight: 580
 url: /tr/aspose.slides.animation/iscaleeffect/
 ---
 ## IScaleEffect arayüz
@@ -19,12 +19,12 @@ public interface IScaleEffect : IBehavior
 | Ad | Açıklama |
 | --- | --- |
 | [AsIBehavior](../../aspose.slides.animation/iscaleeffect/asibehavior) { get; } | Temel IBehavior arayüzünü almaya izin verir. Yalnızca okuma [`IBehavior`](../ibehavior). |
-| [By](../../aspose.slides.animation/iscaleeffect/by) { get; set; } | Animasyon için göreli ofset değerini (yüzde cinsinden) tanımlar. Okuma/yazma PointF. |
-| [From](../../aspose.slides.animation/iscaleeffect/from) { get; set; } | Animasyonun başlayacağı x/y koordinatını (yüzde cinsinden) belirtir. Okuma/yazma PointF. |
-| [To](../../aspose.slides.animation/iscaleeffect/to) { get; set; } | Animasyon ölçek etkisi için hedef konumu (yüzde cinsinden) belirtir. Okuma/yazma PointF. |
-| [ZoomContent](../../aspose.slides.animation/iscaleeffect/zoomcontent) { get; set; } | İçeriğin yakınlaştırılıp yakınlaştırılmayacağını belirler. Okuma/yazma [`NullableBool`](../../aspose.slides/nullablebool). |
+| [By](../../aspose.slides.animation/iscaleeffect/by) { get; set; } | Animasyon için göreceli ofset değerini (yüzde olarak) tanımlar. Okuma/Yazma PointF. |
+| [From](../../aspose.slides.animation/iscaleeffect/from) { get; set; } | Animasyonu başlatmak için x/y koordinatını (yüzde olarak) belirler. Okuma/Yazma PointF. |
+| [To](../../aspose.slides.animation/iscaleeffect/to) { get; set; } | Animasyon ölçek etkisi için hedef konumu (yüzde olarak) belirler. Okuma/Yazma PointF. |
+| [ZoomContent](../../aspose.slides.animation/iscaleeffect/zoomcontent) { get; set; } | İçeriğin yakınlaştırılıp yakınlaştırılmayacağını belirler. Okuma/Yazma [`NullableBool`](../../aspose.slides/nullablebool). |
 
-### Ayrıca Bakınız
+### İlgili
 
 * arayüz [IBehavior](../ibehavior)
 * ad alanı [Aspose.Slides.Animation](../../aspose.slides.animation)

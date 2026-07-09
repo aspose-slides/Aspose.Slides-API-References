@@ -1,14 +1,14 @@
 ---
 title: IAudioFrame
-second_title: Αναφορά API Aspose.Sildes για .NET
-description: Αναπαριστά ένα ηχητικό απόσπασμα σε μια διαφάνεια.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Αντιπροσωπεύει ένα ηχητικό κλιπ σε μία διαφάνεια.
 type: docs
-weight: 5210
+weight: 5230
 url: /el/aspose.slides/iaudioframe/
 ---
 ## IAudioFrame διασύνδεση
 
-Αντιπροσωπεύει ένα ηχητικό απόσπασμα σε μια διαφάνεια.
+Represents an audio clip on a slide.
 
 ```csharp
 public interface IAudioFrame : IPictureFrame
@@ -18,26 +18,26 @@ public interface IAudioFrame : IPictureFrame
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIPictureFrame](../../aspose.slides/iaudioframe/asipictureframe) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής IPictureFrame. Μόνο για ανάγνωση [`IPictureFrame`](../ipictureframe). |
-| [AudioCdEndTrack](../../aspose.slides/iaudioframe/audiocdendtrack) { get; set; } | Επιστρέφει ή θέτει τον δείκτη του τελευταίου κομματιού. Ανάγνωση/εγγραφή Int32. |
-| [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | Επιστρέφει ή θέτει τον χρόνο του τελευταίου κομματιού. Ανάγνωση/εγγραφή Int32. |
-| [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | Επιστρέφει ή θέτει τον δείκτη του αρχικού κομματιού. Ανάγνωση/εγγραφή Int32. |
-| [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | Επιστρέφει ή θέτει τον χρόνο του αρχικού κομματιού. Ανάγνωση/εγγραφή Int32. |
-| [CaptionTracks](../../aspose.slides/iaudioframe/captiontracks) { get; } | Επιστρέφει τη συλλογή των κλειστών υπότιτλων που συνδέονται με το πλαίσιο ήχου. Αυτή η ιδιότητα είναι μόνο για ανάγνωση και επιστρέφει ένα [`ICaptionsCollection`](../icaptionscollection) που περιέχει όλα τα κομμάτια υπότιτλων. |
-| [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | Καθορίζει αν ένας ήχος είναι ενσωματωμένος σε μια παρουσίαση. Μόνο για ανάγνωση Boolean. |
-| [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | Επιστρέφει ή θέτει το ενσωματωμένο αντικείμενο ήχου. Ανάγνωση/εγγραφή [`IAudio`](../iaudio). |
-| [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | Καθορίζει τη διάρκεια του αρχικού fade-in του μέσου σε χιλιοστά του δευτερολέπτου. Ανάγνωση/εγγραφή Single. |
-| [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | Καθορίζει τη διάρκεια του τελικού fade-out του μέσου σε χιλιοστά του δευτερολέπτου. Ανάγνωση/εγγραφή Single. |
+| [AsIPictureFrame](../../aspose.slides/iaudioframe/asipictureframe) { get; } | Επιτρέπει την ανάκτηση της βασικής διασύνδεσης IPictureFrame. Μόνο για ανάγνωση [`IPictureFrame`](../ipictureframe). |
+| [AudioCdEndTrack](../../aspose.slides/iaudioframe/audiocdendtrack) { get; set; } | Επιστρέφει ή ορίζει τον δείκτη του τελευταίου κομματιού. Ανάγνωση/εγγραφή Int32. |
+| [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | Επιστρέφει ή ορίζει τον χρόνο του τελευταίου κομματιού. Ανάγνωση/εγγραφή Int32. |
+| [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | Επιστρέφει ή ορίζει τον δείκτη του αρχικού κομματιού. Ανάγνωση/εγγραφή Int32. |
+| [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | Επιστρέφει ή ορίζει τον χρόνο του αρχικού κομματιού. Ανάγνωση/εγγραφή Int32. |
+| [CaptionTracks](../../aspose.slides/iaudioframe/captiontracks) { get; } | Αποκτά τη συλλογή των κλειστών υποτίτλων που σχετίζονται με το AudioFrame. Αυτή η ιδιότητα είναι μόνο για ανάγνωση και επιστρέφει ένα [`ICaptionsCollection`](../icaptionscollection) που περιέχει όλα τα κομμάτια υποτίτλων. |
+| [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | Καθορίζει αν ένας ήχος είναι ενσωματωμένος στην παρουσίαση. Μόνο για ανάγνωση Boolean. |
+| [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | Επιστρέφει ή ορίζει το ενσωματωμένο αντικείμενο ήχου. Ανάγνωση/εγγραφή [`IAudio`](../iaudio). |
+| [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | Καθορίζει τη διάρκεια χρόνου για το αρχικό fade-in του μέσου σε χιλιοστά του δευτερολέπτου. Ανάγνωση/εγγραφή Single. |
+| [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | Καθορίζει τη διάρκεια χρόνου για το τελικό fade-out του μέσου σε χιλιοστά του δευτερολέπτου. Ανάγνωση/εγγραφή Single. |
 | [HideAtShowing](../../aspose.slides/iaudioframe/hideatshowing) { get; set; } | Καθορίζει αν ένα AudioFrame είναι κρυφό. Ανάγνωση/εγγραφή Boolean. |
-| [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | Επιστρέφει ή θέτει το όνομα του αρχείου ήχου που είναι συνδεδεμένο με ένα AudioFrame. Ανάγνωση/εγγραφή String. |
-| [PlayAcrossSlides](../../aspose.slides/iaudioframe/playacrossslides) { get; set; } | Καθορίζει αν ένας ήχος αναπαράγεται σε όλες τις διαφάνειες. Ανάγνωση/εγγραφή Boolean. |
-| [PlayLoopMode](../../aspose.slides/iaudioframe/playloopmode) { get; set; } | Καθορίζει αν ένας ήχος είναι σε βρόχο. Ανάγνωση/εγγραφή Boolean. |
-| [PlayMode](../../aspose.slides/iaudioframe/playmode) { get; set; } | Επιστρέφει ή θέτει τη λειτουργία αναπαραγωγής ήχου. Ανάγνωση/εγγραφή [`AudioPlayModePreset`](../audioplaymodepreset). |
-| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | Καθορίζει αν ένας ήχος επαναφέρεται αυτόματα στην αρχή μετά την αναπαραγωγή. Ανάγνωση/εγγραφή Boolean. |
+| [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | Επιστρέφει ή ορίζει το όνομα ενός αρχείου ήχου που είναι συνδεδεμένο με ένα AudioFrame. Ανάγνωση/εγγραφή String. |
+| [PlayAcrossSlides](../../aspose.slides/iaudioframe/playacrossslides) { get; set; } | Καθορίζει αν ένας ήχος παίζει σε όλες τις διαφάνειες. Ανάγνωση/εγγραφή Boolean. |
+| [PlayLoopMode](../../aspose.slides/iaudioframe/playloopmode) { get; set; } | Καθορίζει αν ένας ήχος επαναλαμβάνεται. Ανάγνωση/εγγραφή Boolean. |
+| [PlayMode](../../aspose.slides/iaudioframe/playmode) { get; set; } | Επιστρέφει ή ορίζει τη λειτουργία αναπαραγωγής ήχου. Ανάγνωση/εγγραφή [`AudioPlayModePreset`](../audioplaymodepreset). |
+| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | Καθορίζει αν ένας ήχος επανέρχεται αυτόματα στην αρχή μετά την αναπαραγωγή. Ανάγνωση/εγγραφή Boolean. |
 | [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | Καθορίζει τη διάρκεια χρόνου που θα αφαιρεθεί από το τέλος του μέσου κατά την αναπαραγωγή, σε χιλιοστά του δευτερολέπτου. Ανάγνωση/εγγραφή Single. |
 | [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | Καθορίζει τη διάρκεια χρόνου που θα αφαιρεθεί από την αρχή του μέσου κατά την αναπαραγωγή, σε χιλιοστά του δευτερολέπτου. Ανάγνωση/εγγραφή Single. |
-| [Volume](../../aspose.slides/iaudioframe/volume) { get; set; } | Επιστρέφει ή θέτει την ένταση ήχου. Ανάγνωση/εγγραφή [`AudioVolumeMode`](../audiovolumemode). |
-| [VolumeValue](../../aspose.slides/iaudioframe/volumevalue) { get; set; } | Επιστρέφει ή θέτει την ένταση ήχου σε ποσοστά. Ανάγνωση/εγγραφή Single. |
+| [Volume](../../aspose.slides/iaudioframe/volume) { get; set; } | Επιστρέφει ή ορίζει την ένταση του ήχου. Ανάγνωση/εγγραφή [`AudioVolumeMode`](../audiovolumemode). |
+| [VolumeValue](../../aspose.slides/iaudioframe/volumevalue) { get; set; } | Επιστρέφει ή ορίζει την ένταση του ήχου σε ποσοστό. Ανάγνωση/εγγραφή Single. |
 
 ### Δείτε επίσης
 

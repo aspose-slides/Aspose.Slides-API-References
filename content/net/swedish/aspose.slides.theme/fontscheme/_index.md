@@ -3,7 +3,7 @@ title: FontScheme
 second_title: Aspose.Sildes för .NET API-referens
 description: Lagrar temadefinierade teckensnitt.
 type: docs
-weight: 11110
+weight: 11130
 url: /sv/aspose.slides.theme/fontscheme/
 ---
 ## FontScheme klass
@@ -18,11 +18,11 @@ public class FontScheme : IFontScheme
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Major](../../aspose.slides.theme/fontscheme/major) { get; } | Returnerar teckensnittssamlingen för en "rubrik"-del av bilden. Read-only [`IFonts`](../../aspose.slides/ifonts). |
-| [Minor](../../aspose.slides.theme/fontscheme/minor) { get; } | Returnerar teckensnittssamlingen för en "brödtext"-del av bilden. Read-only [`IFonts`](../../aspose.slides/ifonts). |
-| [Name](../../aspose.slides.theme/fontscheme/name) { get; set; } | Returnerar namn på teckensnittsschemat. Read/write String. |
+| [Major](../../aspose.slides.theme/fontscheme/major) { get; } | Returnerar teckensnittssamlingen för en "heading"-del av bilden. Skrivskyddad [`IFonts`](../../aspose.slides/ifonts). |
+| [Minor](../../aspose.slides.theme/fontscheme/minor) { get; } | Returnerar teckensnittssamlingen för en "body"-del av bilden. Skrivskyddad [`IFonts`](../../aspose.slides/ifonts). |
+| [Name](../../aspose.slides.theme/fontscheme/name) { get; set; } | Returnerar namnet på teckensnittsschemat. Läs/skriv String. |
 
-### Se även
+### Se också
 
 * gränssnitt [IFontScheme](../ifontscheme)
 * namnrymd [Aspose.Slides.Theme](../../aspose.slides.theme)

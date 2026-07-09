@@ -1,14 +1,14 @@
 ---
 title: OuterShadow
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αναπαριστά ένα εφέ εξωτερικής σκιάς.
+description: Αναπαριστά ένα εφέ Outer Shadow.
 type: docs
-weight: 3600
+weight: 3620
 url: /el/aspose.slides.effects/outershadow/
 ---
 ## OuterShadow κλάση
 
-Αναπαριστά ένα εφέ εξωτερικής σκιάς.
+Αναπαριστά ένα εφέ Outer Shadow.
 
 ```csharp
 public sealed class OuterShadow : IOuterShadow
@@ -18,29 +18,29 @@ public sealed class OuterShadow : IOuterShadow
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | Ακτίνα θολώματος, σε μονάδες σημείου. Προεπιλεγμένη τιμή – 0 pt. Αναγνώσιμη/εγγράψιμη Double. |
-| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | Κατεύθυνση της σκιάς, σε μοίρες. Προεπιλεγμένη τιμή – 0 ° (αριστερά προς δεξιά). Αναγνώσιμη/εγγράψιμη Single. |
-| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | Απόσταση της σκιάς από το αντικείμενο, σε μονάδες σημείου. Προεπιλεγμένη τιμή – 0 pt. Αναγνώσιμη/εγγράψιμη Double. |
-| [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | Στοίχιση παραλληλογράμμου. Προεπιλεγμένη τιμή – Bottom. Αναγνώσιμη/εγγράψιμη [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | Δείχνει αν η σκιά περιστρέφεται μαζί με το σχήμα. Προεπιλεγμένη τιμή – true. Αναγνώσιμη/εγγράψιμη Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | Οριζόντιος συντελεστής κλιμάκωσης, σε ποσοστό του αρχικού μεγέθους. Η αρνητική κλιμάκωση προκαλεί αντανάκλαση. Προεπιλεγμένη τιμή – 100 %. Αναγνώσιμη/εγγράψιμη Double. |
-| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | Κάθετος συντελεστής κλιμάκωσης, σε ποσοστό του αρχικού μεγέθους. Η αρνητική κλιμάκωση προκαλεί αντανάκλαση. Προεπιλεγμένη τιμή – 100 %. Αναγνώσιμη/εγγράψιμη Double. |
+| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | Ακτίνα θολώματος, σε μονάδες. Προεπιλεγμένη τιμή – 0 pt. Ανάγνωση/εγγραφή Double. |
+| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | Κατεύθυνση της σκιάς, σε μοίρες. Προεπιλεγμένη τιμή – 0 ° (αριστερά προς δεξιά). Ανάγνωση/εγγραφή Single. |
+| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | Απόσταση της σκιάς από το αντικείμενο, σε μονάδες. Προεπιλεγμένη τιμή – 0 pt. Ανάγνωση/εγγραφή Double. |
+| [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | Στοίχιση ορθογωνίου. Προεπιλεγμένη τιμή – Bottom. Ανάγνωση/εγγραφή [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | Δείχνει αν η σκιά περιστρέφεται μαζί με το σχήμα. Προεπιλεγμένη τιμή – true. Ανάγνωση/εγγραφή Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | Οριζόντιος συντελεστής κλίμακας, σε ποσοστό του αρχικού μεγέθους. Η αρνητική κλίμακα προκαλεί αναστροφή. Προεπιλεγμένη τιμή – 100 %. Ανάγνωση/εγγραφή Double. |
+| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | Κάθετος συντελεστής κλίμακας, σε ποσοστό του αρχικού μεγέθους. Η αρνητική κλίμακα προκαλεί αναστροφή. Προεπιλεγμένη τιμή – 100 %. Ανάγνωση/εγγραφή Double. |
 | [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | Χρώμα της σκιάς. Προεπιλεγμένη τιμή – αυτόματο μαύρο (εξαρτάται από το θέμα). Μόνο για ανάγνωση [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | Οριζόντιος γωνιακός προσανατολισμός, σε μοίρες. Προεπιλεγμένη τιμή – 0 °. Αναγνώσιμη/εγγράψιμη Double. |
-| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | Κάθετος γωνιακός προσανατολισμός, σε μοίρες. Προεπιλεγμένη τιμή – 0 °. Αναγνώσιμη/εγγράψιμη Double. |
+| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | Οριζόντιος γωνία λόξας, σε μοίρες. Προεπιλεγμένη τιμή – 0 °. Ανάγνωση/εγγραφή Double. |
+| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | Κάθετος γωνία λόξας, σε μοίρες. Προεπιλεγμένη τιμή – 0 °. Ανάγνωση/εγγραφή Double. |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | Καθορίζει αν το συγκεκριμένο [`OuterShadow`](../outershadow) είναι ίσο με το τρέχον [`OuterShadow`](../outershadow). |
-| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | Λαμβάνει τα αποτελεσματικά δεδομένα εφέ εξωτερικής σκιάς με την κληρονομία εφαρμοσμένη. |
-| override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | Λειτουργεί ως συνάρτηση κατακερματισμού για συγκεκριμένο τύπο. |
+| override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | Καθορίζει εάν το συγκεκριμένο [`OuterShadow`](../outershadow) είναι ίσο με το τρέχον [`OuterShadow`](../outershadow). |
+| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | Λαμβάνει τα αποτελεσματικά δεδομένα εφέ Outer Shadow με την εφαρμοσμένη κληρονομικότητα. |
+| override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | Λειτουργεί ως συνάρτηση κατακερματισμού για έναν συγκεκριμένο τύπο. |
 
 ### Δείτε επίσης
 
-* διασύνδεση [IOuterShadow](../ioutershadow)
+* διασύνθεση [IOuterShadow](../ioutershadow)
 * χώρο ονομάτων [Aspose.Slides.Effects](../../aspose.slides.effects)
-* Συναρμολόγηση [Aspose.Slides](../../)
+* συγκρότημα [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

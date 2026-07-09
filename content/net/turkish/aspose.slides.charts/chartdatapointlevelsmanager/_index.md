@@ -1,15 +1,14 @@
 ---
 title: ChartDataPointLevelsManager
-second_title: Aspose.Sildes için .NET API Referansı
-description: Veri noktası seviyelerinin kapsayıcısı. Treeamp ve Sunburst serileri için uygulanır. Veri noktası seviyelerinin indekslemesi sıfır tabanlıdır.
+second_title: Aspose.Sildes .NET API Referansı
+description: Veri noktası seviyelerinin konteyneri. Treeamp ve Sunburst serileri için uygulanır. Veri noktası seviyesi indekslemesi sıfır tabanlıdır.
 type: docs
-weight: 1340
+weight: 1360
 url: /tr/aspose.slides.charts/chartdatapointlevelsmanager/
 ---
+## ChartDataPointLevelsManager sınıf
 
-## ChartDataPointLevelsManager sınıfı
-
-Veri noktası seviyelerinin kapsayıcısı. Treeamp ve Sunburst serileri için uygulanır. Veri noktası seviyesi dizinlemesi sıfır tabanlıdır.
+Veri noktası seviyelerinin konteyneri. Treeamp ve Sunburst serileri için uygulanır. Veri noktası seviyesi indekslemesi sıfır tabanlıdır.
 
 ```csharp
 public class ChartDataPointLevelsManager : DomObject<ChartDataPoint>, IChartDataPointLevelsManager
@@ -19,7 +18,7 @@ public class ChartDataPointLevelsManager : DomObject<ChartDataPoint>, IChartData
 
 | Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartdatapointlevelsmanager/count) { get; } | Veri noktası seviyesi sayısını döndürür. |
+| [Count](../../aspose.slides.charts/chartdatapointlevelsmanager/count) { get; } | Veri noktası seviyelerinin sayısını döndürür. |
 | [Item](../../aspose.slides.charts/chartdatapointlevelsmanager/item) { get; } | Belirtilen seviye için IChartDataPointLevel nesnesini döndürür. |
 
 ### Ayrıca Bakınız

@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlideManager
-second_title: Aspose.Sildes para .NET Referência da API
-description: Gerenciador de slides de folheto mestre.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Gerenciador de slide de apostila mestre.
 type: docs
-weight: 6350
+weight: 6370
 url: /pt/aspose.slides/imasterhandoutslidemanager/
 ---
 ## IMasterHandoutSlideManager interface
 
-Gerenciador de slides de folheto mestre.
+Gerenciador de slides de apostila mestre.
 
 ```csharp
 public interface IMasterHandoutSlideManager
@@ -16,16 +16,16 @@ public interface IMasterHandoutSlideManager
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
-| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | Retorna um mestre para todos os slides de notas desta apresentação, se houver um; caso contrário, retorna null. Somente leitura [`IMasterHandoutSlide`](../imasterhandoutslide). |
+| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | Retorna um mestre para todos os slides de notas desta apresentação se houver um, caso contrário retorna null. Somente leitura [`IMasterHandoutSlide`](../imasterhandoutslide). |
 
 ## Métodos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
-| [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | Remove o slide de folheto mestre. |
-| [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | Define o slide de folheto mestre padrão para o slide de folheto relacionado. |
+| [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | Remove o slide de apostila mestre. |
+| [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | Define o slide de apostila mestre padrão para o slide de apostila relacionado. |
 
 ### Veja Também
 

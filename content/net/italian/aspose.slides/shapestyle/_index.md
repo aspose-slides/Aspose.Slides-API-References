@@ -1,9 +1,9 @@
 ---
 title: ShapeStyle
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET API Reference
 description: Rappresenta il riferimento allo stile delle forme.
 type: docs
-weight: 9890
+weight: 9910
 url: /it/aspose.slides/shapestyle/
 ---
 ## ShapeStyle classe
@@ -18,13 +18,13 @@ public class ShapeStyle : DomObject<Shape>, IShapeStyle
 
 | Nome | Descrizione |
 | --- | --- |
-| [EffectColor](../../aspose.slides/shapestyle/effectcolor) { get; } | Restituisce il colore dell'effetto della forma. Sola lettura [`IColorFormat`](../icolorformat). |
+| [EffectColor](../../aspose.slides/shapestyle/effectcolor) { get; } | Restituisce il colore dell'effetto della forma. Solo lettura [`IColorFormat`](../icolorformat). |
 | [EffectStyleIndex](../../aspose.slides/shapestyle/effectstyleindex) { get; set; } | Restituisce o imposta l'indice della colonna dell'effetto della forma in una matrice di stile. Lettura/scrittura UInt32. |
-| [FillColor](../../aspose.slides/shapestyle/fillcolor) { get; } | Restituisce il colore di riempimento della forma. Sola lettura [`IColorFormat`](../icolorformat). |
-| [FillStyleIndex](../../aspose.slides/shapestyle/fillstyleindex) { get; set; } | Restituisce o imposta l'indice della colonna di riempimento della forma nelle matrici di stile. 0 significa nessun riempimento, valore positivo – indice negli stili di riempimento del tema, valore negativo – indice negli stili di sfondo del tema. Lettura/scrittura Int16. |
+| [FillColor](../../aspose.slides/shapestyle/fillcolor) { get; } | Restituisce il colore di riempimento della forma. Solo lettura [`IColorFormat`](../icolorformat). |
+| [FillStyleIndex](../../aspose.slides/shapestyle/fillstyleindex) { get; set; } | Restituisce o imposta l'indice della colonna di riempimento della forma nelle matrici di stile. 0 significa nessun riempimento, valore positivo - indice negli stili di riempimento del tema, valore negativo - indice negli stili di sfondo del tema. Lettura/scrittura Int16. |
 | [FontCollectionIndex](../../aspose.slides/shapestyle/fontcollectionindex) { get; set; } | Restituisce o imposta l'indice del carattere della forma in una raccolta di caratteri. Lettura/scrittura [`FontCollectionIndex`](../fontcollectionindex). |
-| [FontColor](../../aspose.slides/shapestyle/fontcolor) { get; } | Restituisce il colore del carattere della forma. Sola lettura [`IColorFormat`](../icolorformat). |
-| [LineColor](../../aspose.slides/shapestyle/linecolor) { get; } | Restituisce il colore del contorno della forma. Sola lettura [`IColorFormat`](../icolorformat). |
+| [FontColor](../../aspose.slides/shapestyle/fontcolor) { get; } | Restituisce il colore del carattere della forma. Solo lettura [`IColorFormat`](../icolorformat). |
+| [LineColor](../../aspose.slides/shapestyle/linecolor) { get; } | Restituisce il colore del contorno della forma. Solo lettura [`IColorFormat`](../icolorformat). |
 | [LineStyleIndex](../../aspose.slides/shapestyle/linestyleindex) { get; set; } | Restituisce o imposta l'indice della colonna della linea in una matrice di stile. Lettura/scrittura UInt16. |
 
 ### Vedi anche

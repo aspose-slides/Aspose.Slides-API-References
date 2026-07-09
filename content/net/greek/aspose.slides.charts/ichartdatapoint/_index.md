@@ -3,12 +3,12 @@ title: IChartDataPoint
 second_title: Aspose.Sildes για .NET API Αναφορά
 description: Αναπαριστά το σημείο δεδομένων σειράς.
 type: docs
-weight: 1800
+weight: 1820
 url: /el/aspose.slides.charts/ichartdatapoint/
 ---
-## IChartDataPoint διασύνδεση
+## Διεπαφή IChartDataPoint
 
-Αναπαριστά το σημείο δεδομένων σειράς.
+Represents series data point.
 
 ```csharp
 public interface IChartDataPoint : IActualLayout
@@ -16,38 +16,38 @@ public interface IChartDataPoint : IActualLayout
 
 ## Ιδιότητες
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
 | [AsIActualLayout](../../aspose.slides.charts/ichartdatapoint/asiactuallayout) { get; } | Επιστρέφει τη διασύνδεση IActualLayout. |
-| [BubbleSize](../../aspose.slides.charts/ichartdatapoint/bubblesize) { get; } | Επιστρέφει το μέγεθος φυσαλίδας του σημείου δεδομένων γραφήματος. Μόνο-ανάγνωση [`IDoubleChartValue`](../idoublechartvalue). |
-| [ColorValue](../../aspose.slides.charts/ichartdatapoint/colorvalue) { get; } | Επιστρέφει την τιμή χρώματος του σημείου δεδομένων γραφήματος. Χρησιμοποιείται με διαγράμματα χάρτη. Μόνο-ανάγνωση [`IDoubleChartValue`](../idoublechartvalue). |
-| [DataPointLevels](../../aspose.slides.charts/ichartdatapoint/datapointlevels) { get; } | Επιστρέφει το περιεχόμενο των επιπέδων σημείου δεδομένων. Ισχύει για σειρές Treeamp και Sunburst. Η αρίθμηση των επιπέδων σημείου δεδομένων είναι μηδενική. |
-| [ErrorBarsCustomValues](../../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) { get; } | Αναπαριστά τις τιμές των ράβδων σφάλματος σειράς στην περίπτωση προσαρμοσμένου τύπου τιμής. Μόνο-ανάγνωση [`IErrorBarsCustomValues`](../ierrorbarscustomvalues). |
-| [Explosion](../../aspose.slides.charts/ichartdatapoint/explosion) { get; set; } | Καθορίζει το ποσό που το σημείο δεδομένων θα μετακινηθεί από το κέντρο του πίτου. Ανάγνωση/Εγγραφή Int32. |
-| [Format](../../aspose.slides.charts/ichartdatapoint/format) { get; set; } | Αναπαριστά τις ιδιότητες μορφοποίησης. Ανάγνωση/Εγγραφή [`IFormat`](../iformat). |
-| [Index](../../aspose.slides.charts/ichartdatapoint/index) { get; } | Καθορίζει σε ποιο από τα σύνολα παιδιών του γονέα εφαρμόζεται αυτό το σημείο δεδομένων. Ανάγνωση UInt32. |
-| [InvertIfNegative](../../aspose.slides.charts/ichartdatapoint/invertifnegative) { get; set; } | Καθορίζει ότι το σημείο δεδομένων θα αντιστρέψει τα χρώματά του εάν η τιμή είναι αρνητική. Ανάγνωση/Εγγραφή Boolean. |
-| [IsBubble3D](../../aspose.slides.charts/ichartdatapoint/isbubble3d) { get; set; } | Καθορίζει ότι οι φυσαλίδες έχουν εφαρμοσμένο εφέ 3-Δ. Ανάγνωση/Εγγραφή Boolean. |
-| [Label](../../aspose.slides.charts/ichartdatapoint/label) { get; } | Αναπαριστά την ετικέτα του σημείου δεδομένων γραφήματος. Μόνο-ανάγνωση [`IDataLabel`](../idatalabel). |
+| [BubbleSize](../../aspose.slides.charts/ichartdatapoint/bubblesize) { get; } | Επιστρέφει το μέγεθος φυσαλίδας του σημείου δεδομένων διαγράμματος. Μόνο-ανάγνωση [`IDoubleChartValue`](../idoublechartvalue). |
+| [ColorValue](../../aspose.slides.charts/ichartdatapoint/colorvalue) { get; } | Επιστρέφει την τιμή χρώματος του σημείου δεδομένων διαγράμματος. Χρησιμοποιείται με χάρτες Map. Μόνο-ανάγνωση [`IDoubleChartValue`](../idoublechartvalue). |
+| [DataPointLevels](../../aspose.slides.charts/ichartdatapoint/datapointlevels) { get; } | Επιστρέφει το δοχείο των επιπέδων σημείου δεδομένων. Εφαρμόζεται για σειρές Treeamp και Sunburst. Η αρίθμηση των επιπέδων σημείου δεδομένων ξεκινά από το μηδέν. |
+| [ErrorBarsCustomValues](../../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) { get; } | Αναπαριστά τις τιμές των ράβδων σφάλματος σειράς στην περίπτωση τύπου τιμής Custom. Μόνο-ανάγνωση [`IErrorBarsCustomValues`](../ierrorbarscustomvalues). |
+| [Explosion](../../aspose.slides.charts/ichartdatapoint/explosion) { get; set; } | Καθορίζει το πόσο θα μετακινηθεί το σημείο δεδομένων από το κέντρο της πίτας. Αναγνώγεται/εγγράψιμο Int32. |
+| [Format](../../aspose.slides.charts/ichartdatapoint/format) { get; set; } | Αναπαριστά τις ιδιότητες μορφοποίησης. Αναγνώγεται/εγγράψιμο [`IFormat`](../iformat). |
+| [Index](../../aspose.slides.charts/ichartdatapoint/index) { get; } | Καθορίζει σε ποια συλλογή παιδιών του γονέα αυτό το σημείο δεδομένων εφαρμόζεται. Αναγνώγεται UInt32. |
+| [InvertIfNegative](../../aspose.slides.charts/ichartdatapoint/invertifnegative) { get; set; } | Καθορίζει ότι το σημείο δεδομένων θα αντιστρέψει τα χρώματά του εάν η τιμή είναι αρνητική. Αναγνώγεται/εγγράψιμο Boolean. |
+| [IsBubble3D](../../aspose.slides.charts/ichartdatapoint/isbubble3d) { get; set; } | Καθορίζει ότι οι φυσαλίδες έχουν εφαρμοσμένο εφέ 3-Δ. Αναγνώγεται/εγγράψιμο Boolean. |
+| [Label](../../aspose.slides.charts/ichartdatapoint/label) { get; } | Αναπαριστά την ετικέτα του σημείου δεδομένων διαγράμματος. Μόνο-ανάγνωση [`IDataLabel`](../idatalabel). |
 | [Marker](../../aspose.slides.charts/ichartdatapoint/marker) { get; } | Καθορίζει έναν δείκτη δεδομένων. Μόνο-ανάγνωση [`IMarker`](../imarker). |
-| [RelatedLegendEntry](../../aspose.slides.charts/ichartdatapoint/relatedlegendentry) { get; } | Ιδιότητες της αντίστοιχης καταχώρησης υπομνήματος σε περίπτωση τύπου γραφήματος από αυτή τη λίστα: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Μόνο-ανάγνωση [`ILegendEntryProperties`](../ilegendentryproperties). |
-| [SetAsTotal](../../aspose.slides.charts/ichartdatapoint/setastotal) { get; set; } | Ορίζει το σημείο δεδομένων ως σύνολο. Ισχύει μόνο για τύπο σειράς Waterfall. |
-| [SizeValue](../../aspose.slides.charts/ichartdatapoint/sizevalue) { get; } | Επιστρέφει την τιμή μεγέθους του σημείου δεδομένων γραφήματος. Χρησιμοποιείται με διαγράμματα Treemap και Sunburst. Μόνο-ανάγνωση [`IDoubleChartValue`](../idoublechartvalue). |
-| [Value](../../aspose.slides.charts/ichartdatapoint/value) { get; } | Επιστρέφει την τιμή του σημείου δεδομένων γραφήματος. Μόνο-ανάγνωση [`IDoubleChartValue`](../idoublechartvalue). |
-| [XValue](../../aspose.slides.charts/ichartdatapoint/xvalue) { get; } | Επιστρέφει την τιμή x του σημείου δεδομένων γραφήματος. Μόνο-ανάγνωση [`IStringOrDoubleChartValue`](../istringordoublechartvalue). |
-| [YValue](../../aspose.slides.charts/ichartdatapoint/yvalue) { get; } | Επιστρέφει την τιμή y του σημείου δεδομένων γραφήματος. Μόνο-ανάγνωση [`IDoubleChartValue`](../idoublechartvalue). |
+| [RelatedLegendEntry](../../aspose.slides.charts/ichartdatapoint/relatedlegendentry) { get; } | Ιδιότητες της αντίστοιχης καταχώρησης υπομνήματος όταν ο τύπος διαγράμματος είναι από τη λίστα: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Μόνο-ανάγνωση [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [SetAsTotal](../../aspose.slides.charts/ichartdatapoint/setastotal) { get; set; } | Ορίζει το σημείο δεδομένων ως σύνολο. Εφαρμόζεται μόνο για τύπο σειράς Waterfall. |
+| [SizeValue](../../aspose.slides.charts/ichartdatapoint/sizevalue) { get; } | Επιστρέφει την τιμή μεγέθους του σημείου δεδομένων διαγράμματος. Χρησιμοποιείται με διαγράμματα Treemap και Sunburst. Μόνο-ανάγνωση [`IDoubleChartValue`](../idoublechartvalue). |
+| [Value](../../aspose.slides.charts/ichartdatapoint/value) { get; } | Επιστρέφει την τιμή του σημείου δεδομένων διαγράμματος. Μόνο-ανάγνωση [`IDoubleChartValue`](../idoublechartvalue). |
+| [XValue](../../aspose.slides.charts/ichartdatapoint/xvalue) { get; } | Επιστρέφει την τιμή x του σημείου δεδομένων διαγράμματος. Μόνο-ανάγνωση [`IStringOrDoubleChartValue`](../istringordoublechartvalue). |
+| [YValue](../../aspose.slides.charts/ichartdatapoint/yvalue) { get; } | Επιστρέφει την τιμή y του σημείου δεδομένων διαγράμματος. Μόνο-ανάγνωση [`IDoubleChartValue`](../idoublechartvalue). |
 
 ## Μέθοδοι
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
-| [GetAutomaticDataPointColor](../../aspose.slides.charts/ichartdatapoint/getautomaticdatapointcolor)() | Επιστρέφει ένα αυτόματο χρώμα του σημείου δεδομένων βάσει του δείκτη σειράς, του δείκτη σημείου δεδομένων, της ιδιότητας ParentSeriesGroup.IsColorVaried και του στιλ γραφήματος. Αυτό το χρώμα χρησιμοποιείται εξ' ορισμού εάν το FillType ισούται με NotDefined. |
-| [Remove](../../aspose.slides.charts/ichartdatapoint/remove)() | Αφαιρεί το DataPoint από τη σειρά του γραφήματος. |
+| [GetAutomaticDataPointColor](../../aspose.slides.charts/ichartdatapoint/getautomaticdatapointcolor)() | Επιστρέφει ένα αυτόματο χρώμα του σημείου δεδομένων βάσει του δείκτη σειράς, δείκτη σημείου δεδομένων, της ιδιότητας ParentSeriesGroup.IsColorVaried και του στυλ διαγράμματος. Αυτό το χρώμα χρησιμοποιείται εξ ορισμού εάν το FillType ισούται με NotDefined. |
+| [Remove](../../aspose.slides.charts/ichartdatapoint/remove)() | Αφαιρεί το DataPoint από τη σειρά του διαγράμματος. |
 
 ### Δείτε επίσης
 
-* διασύνδεση [IActualLayout](../iactuallayout)
+* διεπαφή [IActualLayout](../iactuallayout)
 * χώρο ονομάτων [Aspose.Slides.Charts](../../aspose.slides.charts)
-* συγκρότηση [Aspose.Slides](../../)
+* σύγκροτη [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

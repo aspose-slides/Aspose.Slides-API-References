@@ -1,14 +1,14 @@
 ---
 title: ILineFillFormatEffectiveData
-second_title: Aspose.Sildes .NET API Referansı
-description: Etkili çizgi doldurma özelliklerini içeren değiştirilemez nesne.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Etkili çizgi doldurma özelliklerini içeren değişmez nesne.
 type: docs
-weight: 6280
+weight: 6300
 url: /tr/aspose.slides/ilinefillformateffectivedata/
 ---
-## ILineFillFormatEffectiveData arayüzü
+## ILineFillFormatEffectiveData arayüz
 
-Etkili çizgi doldurma özelliklerini içeren değiştirilemez nesne.
+Etkili çizgi doldurma özelliklerini içeren değişmez nesne.
 
 ```csharp
 public interface ILineFillFormatEffectiveData : IFillParamSource
@@ -19,15 +19,15 @@ public interface ILineFillFormatEffectiveData : IFillParamSource
 | Ad | Açıklama |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ilinefillformateffectivedata/asifillparamsource) { get; } | IFillParamSource arayüzünü döndürür. Salt okunur [`IFillParamSource`](../ifillparamsource). |
-| [FillType](../../aspose.slides/ilinefillformateffectivedata/filltype) { get; } | Dolgu tipini döndürür. Salt okunur [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/ilinefillformateffectivedata/gradientformat) { get; } | Gradyan dolgu biçimini döndürür. Salt okunur [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
-| [PatternFormat](../../aspose.slides/ilinefillformateffectivedata/patternformat) { get; } | Desen dolgu biçimini döndürür. Salt okunur [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
-| [RotateWithShape](../../aspose.slides/ilinefillformateffectivedata/rotatewithshape) { get; } | Dolgunun bir şekil ile döndürülüp döndürülmeyeceğini belirler. Salt okunur Boolean. |
-| [SolidFillColor](../../aspose.slides/ilinefillformateffectivedata/solidfillcolor) { get; } | Katı dolgunun rengini döndürür. Salt okunur Color. |
+| [FillType](../../aspose.slides/ilinefillformateffectivedata/filltype) { get; } | Doldurma tipini döndürür. Salt okunur [`FillType`](../filltype). |
+| [GradientFormat](../../aspose.slides/ilinefillformateffectivedata/gradientformat) { get; } | Gradyan doldurma biçimini döndürür. Salt okunur [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
+| [PatternFormat](../../aspose.slides/ilinefillformateffectivedata/patternformat) { get; } | Desen doldurma biçimini döndürür. Salt okunur [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
+| [RotateWithShape](../../aspose.slides/ilinefillformateffectivedata/rotatewithshape) { get; } | Doldurmanın bir şekil ile döndürülüp döndürülmeyeceğini belirler. Salt okunur Boolean. |
+| [SolidFillColor](../../aspose.slides/ilinefillformateffectivedata/solidfillcolor) { get; } | Katı doldurmanın rengini döndürür. Salt okunur Color. |
 
 ### Açıklamalar
 
-Bu arayüz [`ILineFormatEffectiveData`](../ilineformateffectivedata) bir parçası olarak kullanılır.
+Bu arayüz, [`ILineFormatEffectiveData`](../ilineformateffectivedata) parçası olarak kullanılır.
 
 ### Ayrıca Bakınız
 

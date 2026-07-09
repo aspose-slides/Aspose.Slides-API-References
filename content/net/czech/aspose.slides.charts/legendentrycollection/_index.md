@@ -1,14 +1,14 @@
 ---
 title: LegendEntryCollection
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje kolekci legend.
+description: Representuje kolekci legend.
 type: docs
-weight: 2280
+weight: 2300
 url: /cs/aspose.slides.charts/legendentrycollection/
 ---
 ## LegendEntryCollection třída
 
-Represents legends collection.
+Representuje kolekci legend.
 
 ```csharp
 public class LegendEntryCollection : ILegendEntryCollection

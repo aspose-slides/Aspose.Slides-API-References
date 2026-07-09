@@ -3,7 +3,7 @@ title: Field
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar ett fält.
 type: docs
-weight: 4730
+weight: 4750
 url: /sv/aspose.slides/field/
 ---
 ## Field klass
@@ -18,7 +18,7 @@ public sealed class Field : DomObject<Portion>, IField
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Type](../../aspose.slides/field/type) { get; set; } | Returnerar eller anger fältets typ. Läsa/skriva [`IFieldType`](../ifieldtype). |
+| [Type](../../aspose.slides/field/type) { get; set; } | Returnerar eller anger fältets typ. Läs/skriv [`IFieldType`](../ifieldtype). |
 
 ### Se även
 

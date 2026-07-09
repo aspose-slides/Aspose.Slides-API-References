@@ -1,9 +1,9 @@
 ---
 title: IFormattedTextContainer
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa o formato de texto do gráfico.
 type: docs
-weight: 2090
+weight: 2110
 url: /pt/aspose.slides.charts/iformattedtextcontainer/
 ---
 ## IFormattedTextContainer interface
@@ -21,7 +21,7 @@ public interface IFormattedTextContainer : IChartComponent
 | [AsIChartComponent](../../aspose.slides.charts/iformattedtextcontainer/asichartcomponent) { get; } | Retorna a interface IChartComponent. Somente leitura [`IChartComponent`](../ichartcomponent). |
 | [TextFormat](../../aspose.slides.charts/iformattedtextcontainer/textformat) { get; } | Retorna o formato de texto do gráfico. Somente leitura [`IChartTextFormat`](../icharttextformat). |
 
-### Veja Também
+### Ver também
 
 * interface [IChartComponent](../ichartcomponent)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)

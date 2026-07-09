@@ -1,14 +1,14 @@
 ---
 title: IMasterNotesSlideManager
-second_title: Aspose.Sildes for .NET API Referansı
-description: Master not slaytı yöneticisi.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Ana not slaytı yöneticisi.
 type: docs
-weight: 6390
+weight: 6410
 url: /tr/aspose.slides/imasternotesslidemanager/
 ---
-## IMasterNotesSlideManager arabirimi
+## IMasterNotesSlideManager arayüz
 
-Master not slaytı yöneticisi.
+Not slaytı yöneticisi.
 
 ```csharp
 public interface IMasterNotesSlideManager
@@ -18,14 +18,14 @@ public interface IMasterNotesSlideManager
 
 | Ad | Açıklama |
 | --- | --- |
-| [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | Bu sunumun tüm not slaytları için bir master döndürür; eğer mevcutsa, aksi taktirde null döndürür. Salt okunur [`IMasterNotesSlide`](../imasternotesslide). |
+| [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | Bu sunumun tüm not slaytları için bir ana slayt döndürür; eğer mevcutsa, aksi takdirde null döndürür. Salt okunur [`IMasterNotesSlide`](../imasternotesslide). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [RemoveMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/removemasternotesslide)() | Master not slaytını kaldırır. |
-| [SetDefaultMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide)() | İlgili not slaytı için varsayılan master not slaytını ayarlar. |
+| [RemoveMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/removemasternotesslide)() | Ana not slaytını kaldırır. |
+| [SetDefaultMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide)() | İlgili not slaytı için varsayılan ana not slaytını ayarlar. |
 
 ### Ayrıca Bakınız
 

@@ -1,14 +1,14 @@
 ---
 title: IBehaviorProperty
-second_title: Aspose.Sildes pro .NET referenční příručka API
-description: Reprezentuje typy vlastností pro chování animace. Následuje seznam vlastností z https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx a https//msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx
+second_title: Aspose.Sildes pro .NET API referenční příručku
+description: Reprezentuje typy vlastností pro chování animací. Následuje seznam vlastností z https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx a https//msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx
 type: docs
-weight: 420
+weight: 440
 url: /cs/aspose.slides.animation/ibehaviorproperty/
 ---
 ## IBehaviorProperty rozhraní
 
-Reprezentuje typy vlastností pro chování animace. Následuje seznam vlastností z https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx a https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx
+Reprezentuje typy vlastností pro chování animací. Následuje seznam vlastností z https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx a https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx
 
 ```csharp
 public interface IBehaviorProperty
@@ -18,7 +18,7 @@ public interface IBehaviorProperty
 
 | Název | Popis |
 | --- | --- |
-| [IsCustom](../../aspose.slides.animation/ibehaviorproperty/iscustom) { get; } | Ukazuje, zda tato vlastnost nepatří do předdefinovaného seznamu vlastností ve specifikaci: https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx |
+| [IsCustom](../../aspose.slides.animation/ibehaviorproperty/iscustom) { get; } | Ukazuje, zda tato vlastnost nepatří do seznamu předdefinovaných vlastností ve specifikaci: https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx |
 | [Value](../../aspose.slides.animation/ibehaviorproperty/value) { get; } | Hodnota vlastnosti |
 
 ### Viz také

@@ -1,14 +1,14 @@
 ---
 title: StyleType
-second_title: Aspose.Sildes .NET API-referencia
-description: A diagram stílusát reprezentálja.
+second_title: Aspose.Sildes .NET API Referencia
+description: A diagram stílusát képviseli.
 type: docs
-weight: 2410
+weight: 2430
 url: /hu/aspose.slides.charts/styletype/
 ---
 ## StyleType enumeráció
 
-A diagram stílusát reprezentálja.
+A diagram stílusát képviseli.
 
 ```csharp
 public enum StyleType

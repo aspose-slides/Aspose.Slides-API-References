@@ -1,14 +1,14 @@
 ---
 title: MasterSlideHeaderFooterManager
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en manager som innehåller beteendet för masterbildens sidfot, datum-tid, sidnummer-platshållare och alla underordnade platshållare. Underordnade platshållare betyder att platshållare finns på beroende layoutbilder och beroende bilder. Beroende layoutbilder och bilder använder och är beroende av masterbilden.
+description: Representerar en manager som håller beteendet för masterbildens sidfot, datum-tid, sidnummer-platshållare och alla barn-platshållare. Barn-platshållare betyder att platshållare finns på beroende layout-bilder och beroende bilder. Beroende layout-bilder och bilder använder och är beroende av masterbilden.
 type: docs
-weight: 8030
+weight: 8050
 url: /sv/aspose.slides/masterslideheaderfootermanager/
 ---
-## MasterSlideHeaderFooterManager class
+## MasterSlideHeaderFooterManager klass
 
-Representerar en manager som innehåller beteendet för masterbildens sidfot, datum-tid, sidnummer-platshållare och alla underordnade platshållare. Underordnade platshållare betyder att platshållare finns på beroende layoutbilder och beroende bilder. Beroende layoutbilder och bilder använder och är beroende av masterbilden.
+Representerar en hanterare som innehåller beteendet för masterbildens sidfot-, datum- och sidnummer-platshållare samt alla barn-platshållare. Barn-platshållare innebär att platshållare finns på beroende layout-bilder och beroende bilder. Beroende layout-bilder och bilder använder och är beroende av masterbilden.
 
 ```csharp
 public sealed class MasterSlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
@@ -19,7 +19,7 @@ public sealed class MasterSlideHeaderFooterManager : BaseSlideHeaderFooterManage
 
 | Namn | Beskrivning |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Hämtar värdet som indikerar att en datum-tid-platshållare finns. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Hämtar värdet som indikerar att en datum-platshållare finns. ReadBoolean. |
 | [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Hämtar värdet som indikerar att en sidfot-platshållare finns. Read Boolean. |
 | [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Hämtar värdet som indikerar att en sidnummer-platshållare finns. ReadBoolean. |
 
@@ -27,15 +27,15 @@ public sealed class MasterSlideHeaderFooterManager : BaseSlideHeaderFooterManage
 
 | Namn | Beskrivning |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/masterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Ställer in text till masterbildens datum-tid-platshållare och alla underordnade datum-tid-platshållare. Underordnade platshållare betyder att platshållare finns på beroende layoutbilder och beroende bilder. Beroende layoutbilder och bilder använder och är beroende av masterbilden. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/masterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Ändrar synligheten för masterbildens datum-tid-platshållare och alla underordnade datum-tid-platshållare. Underordnade platshållare betyder att platshållare finns på beroende layoutbilder och beroende bilder. Beroende layoutbilder och bilder använder och är beroende av masterbilden. |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Ställer in text till bildens datum-tid-platshållare. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Ändrar synligheten för bildens datum-tid-platshållare. |
-| [SetFooterAndChildFootersText](../../aspose.slides/masterslideheaderfootermanager/setfooterandchildfooterstext)(string) | Ställer in text till masterbildens sidfot-platshållare och alla underordnade sidfot-platshållare. Underordnade platshållare betyder att platshållare finns på beroende layoutbilder och beroende bilder. Beroende layoutbilder och bilder använder och är beroende av masterbilden. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/masterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Ändrar synligheten för masterbildens sidfot-platshållare och alla underordnade sidfot-platshållare. Underordnade platshållare betyder att platshållare finns på beroende layoutbilder och beroende bilder. Beroende layoutbilder och bilder använder och är beroende av masterbilden. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Ställer in text till bildens sidfot-platshållare. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/masterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Sätter text till masterbildens datum-platshållare och alla barn-datum-platshållare. Barn-platshållare innebär att platshållare finns på beroende layout-bilder och beroende bilder. Beroende layout-bilder och bilder använder och är beroende av masterbilden. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/masterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Ändrar synligheten för masterbildens datum-platshållare och alla barn-datum-platshållare. Barn-platshållare innebär att platshållare finns på beroende layout-bilder och beroende bilder. Beroende layout-bilder och bilder använder och är beroende av masterbilden. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Sätter text till bildens datum-platshållare. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Ändrar synligheten för bildens datum-platshållare. |
+| [SetFooterAndChildFootersText](../../aspose.slides/masterslideheaderfootermanager/setfooterandchildfooterstext)(string) | Sätter text till masterbildens sidfot-platshållare och alla barn-sidfot-platshållare. Barn-platshållare innebär att platshållare finns på beroende layout-bilder och beroende bilder. Beroende layout-bilder och bilder använder och är beroende av masterbilden. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/masterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Ändrar synligheten för masterbildens sidfot-platshållare och alla barn-sidfot-platshållare. Barn-platshållare innebär att platshållare finns på beroende layout-bilder och beroende bilder. Beroende layout-bilder och bilder använder och är beroende av masterbilden. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Sätter text till bildens sidfot-platshållare. |
 | [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Ändrar synligheten för bildens sidfot-platshållare. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/masterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Ändrar synligheten för masterbildens sidnummer-platshållare och alla underordnade sidnummer-platshållare. Underordnade platshållare betyder att platshållare finns på beroende layoutbilder och beroende bilder. Beroende layoutbilder och bilder använder och är beroende av masterbilden. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/masterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Ändrar synligheten för masterbildens sidnummer-platshållare och alla barn-sidnummer-platshållare. Barn-platshållare innebär att platshållare finns på beroende layout-bilder och beroende bilder. Beroende layout-bilder och bilder använder och är beroende av masterbilden. |
 | [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Ändrar synligheten för bildens sidnummer-platshållare. |
 
 ### Se även
@@ -43,6 +43,6 @@ public sealed class MasterSlideHeaderFooterManager : BaseSlideHeaderFooterManage
 * klass [BaseSlideHeaderFooterManager](../baseslideheaderfootermanager)
 * gränssnitt [IMasterSlideHeaderFooterManager](../imasterslideheaderfootermanager)
 * namnrymd [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* samling [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

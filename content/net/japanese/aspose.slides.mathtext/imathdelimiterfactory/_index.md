@@ -1,9 +1,9 @@
 ---
 title: IMathDelimiterFactory
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 数式区切り文字を作成できます
+description: 数式区切り文字の作成を可能にします
 type: docs
-weight: 8200
+weight: 8220
 url: /ja/aspose.slides.mathtext/imathdelimiterfactory/
 ---
 ## IMathDelimiterFactory インターフェイス
@@ -25,7 +25,7 @@ public interface IMathDelimiterFactory
 
 COM 互換性のため
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * アセンブリ [Aspose.Slides](../../)

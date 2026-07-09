@@ -1,9 +1,9 @@
 ---
 title: ISlideComponent
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes .NET API referenciája
 description: Egy dia komponensét reprezentálja.
 type: docs
-weight: 7040
+weight: 7060
 url: /hu/aspose.slides/islidecomponent/
 ---
 ## ISlideComponent interfész
@@ -18,8 +18,8 @@ public interface ISlideComponent : IPresentationComponent
 
 | Név | Leírás |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/islidecomponent/asipresentationcomponent) { get; } | Lehetővé teszi az alap IPresentationComponent interfész lekérdezését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
-| [Slide](../../aspose.slides/islidecomponent/slide) { get; } | Visszaadja az alap diát. Csak olvasható [`IBaseSlide`](../ibaseslide). |
+| [AsIPresentationComponent](../../aspose.slides/islidecomponent/asipresentationcomponent) { get; } | Lehetővé teszi a bázis IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
+| [Slide](../../aspose.slides/islidecomponent/slide) { get; } | Visszaadja a bázis diát. Csak olvasható [`IBaseSlide`](../ibaseslide). |
 
 ### Lásd még
 

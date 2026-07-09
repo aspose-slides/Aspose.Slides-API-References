@@ -1,12 +1,12 @@
 ---
 title: ITheme
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa um tema.
 type: docs
-weight: 11350
+weight: 11370
 url: /pt/aspose.slides.theme/itheme/
 ---
-## interface ITheme
+## ITheme interface
 
 Representa um tema.
 
@@ -27,7 +27,7 @@ public interface ITheme : IPresentationComponent
 
 | Nome | Descrição |
 | --- | --- |
-| [GetEffective](../../aspose.slides.theme/itheme/geteffective)() | Obtém os dados de tema efetivo com a herança aplicada. |
+| [GetEffective](../../aspose.slides.theme/itheme/geteffective)() | Obtém os dados efetivos do tema com a herança aplicada. |
 
 ### Ver também
 

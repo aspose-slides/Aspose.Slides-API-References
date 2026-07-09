@@ -1,9 +1,9 @@
 ---
 title: ILegendEntryCollection
-second_title: Riferimento API di Aspose.Sildes per .NET
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta la raccolta di legende.
 type: docs
-weight: 2120
+weight: 2140
 url: /it/aspose.slides.charts/ilegendentrycollection/
 ---
 ## ILegendEntryCollection interfaccia
@@ -18,8 +18,8 @@ public interface ILegendEntryCollection
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides.charts/ilegendentrycollection/count) { get; } | Restituisce il numero di elementi effettivamente contenuti nella raccolta. Solo lettura Int32. |
-| [Item](../../aspose.slides.charts/ilegendentrycollection/item) { get; } | Restituisce le proprietà della voce della legenda corrispondente a Chart.ChartData.Series[0].DataPoints[index] nel caso di tipo di grafico presente in questo elenco: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; o corrispondente a Chart.ChartData.Series[index] per altri tipi di grafico. |
+| [Count](../../aspose.slides.charts/ilegendentrycollection/count) { get; } | Ottiene il numero di elementi effettivamente contenuti nella raccolta. Solo lettura Int32. |
+| [Item](../../aspose.slides.charts/ilegendentrycollection/item) { get; } | Ottiene le proprietà della voce della legenda corrispondente a Chart.ChartData.Series[0].DataPoints[index] nel caso di tipo di grafico da questo elenco: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; o corrispondente a Chart.ChartData.Series[index] per altri tipi di grafico. |
 
 ### Vedi anche
 

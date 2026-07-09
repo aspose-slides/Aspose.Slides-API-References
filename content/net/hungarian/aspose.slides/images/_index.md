@@ -1,28 +1,28 @@
 ---
 title: Images
-second_title: Aspose.Sildes .NET API referenciája
-description: Az IImage/.iimage példányosításához és kezeléséhez használt metódusok.
+second_title: Aspose.Sildes .NET API referencia
+description: Módszerek az IImage/.iimage példányosításához és kezeléséhez.
 type: docs
-weight: 7440
+weight: 7460
 url: /hu/aspose.slides/images/
 ---
 ## Images osztály
 
-A [`IImage`](../iimage) példányosításához és kezeléséhez használt metódusok.
+Módszerek az [`IImage`](../iimage) példányosításához és kezeléséhez.
 
 ```csharp
 public static class Images
 ```
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| static [FromFile](../../aspose.slides/images/fromfile#fromfile)(string) | Készítsen képet a fájlból. |
-| static [FromFile](../../aspose.slides/images/fromfile#fromfile_1)(string, bool) | Készítsen képet a fájlból |
-| static [FromStream](../../aspose.slides/images/fromstream#fromstream)(Stream) | Készítsen képet az adatfolyamból. |
-| static [FromStream](../../aspose.slides/images/fromstream#fromstream_1)(Stream, bool) | Készítsen képet az adatfolyamból. |
-| static [FromStream](../../aspose.slides/images/fromstream#fromstream_2)(Stream, bool, bool) | Készítsen képet az adatfolyamból. |
+| static [FromFile](../../aspose.slides/images/fromfile#fromfile)(string) | Készít egy képet a fájlból . |
+| static [FromFile](../../aspose.slides/images/fromfile#fromfile_1)(string, bool) | Készít egy képet a fájlból |
+| static [FromStream](../../aspose.slides/images/fromstream#fromstream)(Stream) | Készít egy képet az adatfolyamból. |
+| static [FromStream](../../aspose.slides/images/fromstream#fromstream_1)(Stream, bool) | Készít egy képet az adatfolyamból. |
+| static [FromStream](../../aspose.slides/images/fromstream#fromstream_2)(Stream, bool, bool) | Készít egy képet az adatfolyamból. |
 
 ### Lásd még
 

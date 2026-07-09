@@ -3,7 +3,7 @@ title: IEffectParamSource
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Antarmuka parameter efek tambahan.
 type: docs
-weight: 5740
+weight: 5760
 url: /id/aspose.slides/ieffectparamsource/
 ---
 ## IEffectParamSource antarmuka

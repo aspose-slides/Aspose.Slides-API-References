@@ -1,14 +1,14 @@
 ---
 title: ILegendEntryProperties
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje vlastnosti legendy grafu.
+description: Představuje vlastnosti legendy grafu.
 type: docs
-weight: 2130
+weight: 2150
 url: /cs/aspose.slides.charts/ilegendentryproperties/
 ---
 ## ILegendEntryProperties rozhraní
 
-Reprezentuje vlastnosti legendy grafu.
+Představuje vlastnosti legendy grafu.
 
 ```csharp
 public interface ILegendEntryProperties : IFormattedTextContainer
@@ -18,7 +18,7 @@ public interface ILegendEntryProperties : IFormattedTextContainer
 
 | Název | Popis |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegendentryproperties/asiformattedtextcontainer) { get; } | Umožňuje získat základní rozhraní IFormattedTextContainer. Pouze ke čtení [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegendentryproperties/asiformattedtextcontainer) { get; } | Umožňuje získat základní rozhraní IFormattedTextContainer. Pouze pro čtení [`IFormattedTextContainer`](../iformattedtextcontainer). |
 | [Hide](../../aspose.slides.charts/ilegendentryproperties/hide) { get; set; } | Vrací nebo nastavuje příznak skrytí položky legendy. Čtení/zápis Boolean. |
 
 ### Viz také

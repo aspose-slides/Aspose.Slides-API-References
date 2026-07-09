@@ -3,10 +3,10 @@ title: ShapeBevel
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Contiene le proprietà del rilievo della faccia principale delle forme.
 type: docs
-weight: 9830
+weight: 9850
 url: /it/aspose.slides/shapebevel/
 ---
-## ShapeBevel classe
+## classe ShapeBevel
 
 Contiene le proprietà del rilievo della faccia principale della forma.
 
@@ -16,22 +16,22 @@ public sealed class ShapeBevel : PVIObject, IShapeBevel
 
 ## Costruttori
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
 | [ShapeBevel](shapebevel)(bool) | Crea una nuova istanza. |
 
 ## Proprietà
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permette di ottenere l'interfaccia base IPresentationComponent. Solo lettura [`IPresentationComponent`](../ipresentationcomponent). |
-| [BevelType](../../aspose.slides/shapebevel/beveltype) { get; set; } | Tipo di bevel. Lettura/scrittura [`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/shapebevel/height) { get; set; } | Altezza del bevel. Lettura/scrittura Double. |
-| [Width](../../aspose.slides/shapebevel/width) { get; set; } | Larghezza del bevel. Lettura/scrittura Double. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Sola lettura [`IPresentationComponent`](../ipresentationcomponent). |
+| [BevelType](../../aspose.slides/shapebevel/beveltype) { get; set; } | Tipo di smussatura. Lettura/scrittura [`BevelPresetType`](../bevelpresettype). |
+| [Height](../../aspose.slides/shapebevel/height) { get; set; } | Altezza della smussatura. Lettura/scrittura Double. |
+| [Width](../../aspose.slides/shapebevel/width) { get; set; } | Larghezza della smussatura. Lettura/scrittura Double. |
 
 ## Metodi
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
 | override [Equals](../../aspose.slides/shapebevel/equals)(object) |  |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Restituisce il codice hash. |

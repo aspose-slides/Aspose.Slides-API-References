@@ -1,14 +1,14 @@
 ---
 title: IDigitalSignatureCollection
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta una collezione di firme digitali allegate a un documento.
+description: Rappresenta una raccolta di firme digitali allegate a un documento.
 type: docs
-weight: 5680
+weight: 5700
 url: /it/aspose.slides/idigitalsignaturecollection/
 ---
 ## IDigitalSignatureCollection interfaccia
 
-Rappresenta una raccolta di firme digitali allegata a un documento.
+Rappresenta una raccolta di firme digitali allegate a un documento.
 
 ```csharp
 public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignature>
@@ -24,8 +24,8 @@ public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignat
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.slides/idigitalsignaturecollection/add)(IDigitalSignature) | Aggiunge la firma alla fine della collezione. |
-| [Clear](../../aspose.slides/idigitalsignaturecollection/clear)() | Rimuove tutte le firme dalla collezione. |
+| [Add](../../aspose.slides/idigitalsignaturecollection/add)(IDigitalSignature) | Aggiunge la firma alla fine della raccolta. |
+| [Clear](../../aspose.slides/idigitalsignaturecollection/clear)() | Rimuove tutte le firme dalla raccolta. |
 | [RemoveAt](../../aspose.slides/idigitalsignaturecollection/removeat)(int) | Rimuove la firma all'indice specificato. |
 
 ### Vedi anche

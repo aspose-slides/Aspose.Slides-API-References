@@ -1,9 +1,9 @@
 ---
 title: SvgEvent
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: SVG şekli için seçenekleri temsil eder.
 type: docs
-weight: 4470
+weight: 4490
 url: /tr/aspose.slides.export/svgevent/
 ---
 ## SvgEvent enumerasyonu
@@ -19,26 +19,26 @@ public enum SvgEvent
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
 | OnFocusIn | `0` | Bir öğe odak aldığında meydana gelir, örneğin bir metin seçildiğinde. |
-| OnFocusOut | `1` | Bir öğe odak kaybettiğinde meydana gelir, örneğin bir metin seçimi kaldırıldığında. |
-| OnActivate | `2` | Bir öğe etkinleştirildiğinde meydana gelir, örneğin fare tıklamasıyla ya da bir tuşa basılmasıyla. |
-| OnClick | `3` | İşaretleme cihazı düğmesi bir öğe üzerine tıklandığında meydana gelir. |
-| OnMouseDown | `4` | İşaretleme cihazı düğmesi bir öğe üzerine basıldığında meydana gelir. |
-| OnMouseUp | `5` | İşaretleme cihazı düğmesi bir öğe üzerinde bırakıldığında meydana gelir. |
-| OnMouseOver | `6` | İşaretleme cihazı bir öğe üzerine hareket ettiğinde meydana gelir. |
-| OnMouseMove | `7` | İşaretleme cihazı bir öğe üzerindeyken hareket ettiğinde meydana gelir. |
-| OnMouseOut | `8` | İşaretleme cihazı bir öğeden uzaklaştığında meydana gelir. |
-| OnLoad | `9` | Kullanıcı aracısı öğeyi ve alt öğelerini ve onu renderlemek için gereken tüm referans alınan kaynakları tamamen ayrıştırdığında meydana gelir. |
-| OnUnload | `10` | DOM uygulaması bir belgeyi bir pencere veya çerçeveden kaldırdığında meydana gelir. Yalnızca en dış SVG öğeleri için geçerlidir. |
+| OnFocusOut | `1` | Bir öğe odağını kaybettiğinde meydana gelir, örneğin bir metin seçimi kaldırıldığında. |
+| OnActivate | `2` | Bir öğe etkinleştirildiğinde meydana gelir, örneğin bir fare tıklaması veya tuşa basma ile. |
+| OnClick | `3` | İşaretleme aygıtı düğmesi bir öğe üzerinde tıklandığında meydana gelir. |
+| OnMouseDown | `4` | İşaretleme aygıtı düğmesi bir öğe üzerinde basıldığında meydana gelir. |
+| OnMouseUp | `5` | İşaretleme aygıtı düğmesi bir öğe üzerinde bırakıldığında meydana gelir. |
+| OnMouseOver | `6` | İşaretleme aygıtı bir öğe üzerine getirildiğinde meydana gelir. |
+| OnMouseMove | `7` | İşaretleme aygıtı bir öğe üzerindeyken hareket ettiğinde meydana gelir. |
+| OnMouseOut | `8` | İşaretleme aygıtı bir öğeden uzaklaştırıldığında meydana gelir. |
+| OnLoad | `9` | Kullanıcı aracısı öğeyi ve alt öğelerini ve onu renderlemek için gerekli tüm referanslı kaynakları tamamen ayrıştırdığında meydana gelir. |
+| OnUnload | `10` | DOM uygulaması bir belgeyi bir pencereden veya çerçeveden kaldırdığında meydana gelir. Yalnızca en dış svg öğeleri için geçerlidir. |
 | OnAbort | `11` | Bir öğenin tamamen yüklenmesine izin verilmeden sayfa yüklemesi durdurulduğunda meydana gelir. |
-| OnError | `12` | Bir öğe düzgün yüklenmediğinde veya betik çalıştırması sırasında bir hata oluştuğunda meydana gelir. |
-| OnResize | `13` | Bir belge görünümü yeniden boyutlandırıldığında meydana gelir. Yalnızca en dış SVG öğeleri için geçerlidir. |
-| OnScroll | `14` | Bir belge görünümü X veya Y ekseni boyunca ya da her ikisi boyunca kaydırıldığında meydana gelir. Yalnızca en dış SVG öğeleri için geçerlidir. |
-| OnZoom | `15` | Bir belge görünümünün yakınlaştırma seviyesi değiştirildiğinde meydana gelir. Yalnızca en dış SVG öğeleri için geçerlidir. |
+| OnError | `12` | Bir öğe düzgün yüklenmediğinde veya script yürütmesi sırasında bir hata oluştuğunda meydana gelir. |
+| OnResize | `13` | Bir belge görünümü yeniden boyutlandırıldığında meydana gelir. Yalnızca en dış svg öğeleri için geçerlidir. |
+| OnScroll | `14` | Bir belge görünümü X veya Y ekseninde ya da her ikisinde kaydırıldığında meydana gelir. Yalnızca en dış svg öğeleri için geçerlidir. |
+| OnZoom | `15` | Bir belge görünümünün yakınlaştırma seviyesi değiştirildiğinde meydana gelir. Yalnızca en dış svg öğeleri için geçerlidir. |
 | OnBegin | `16` | Bir animasyon öğesi başladığında meydana gelir. |
 | OnEnd | `17` | Bir animasyon öğesi bittiğinde meydana gelir. |
 | OnRepeat | `18` | Bir animasyon öğesi tekrarlandığında meydana gelir. |
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.Export](../../aspose.slides.export)
 * derleme [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: LineArrowheadLength
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 矢じりの長さを表します。
+description: 矢尻の長さを表します。
 type: docs
-weight: 7710
+weight: 7730
 url: /ja/aspose.slides/linearrowheadlength/
 ---
 ## LineArrowheadLength 列挙型
 
-矢じりの長さを表します。
+矢尻の長さを表します。
 
 ```csharp
 public enum LineArrowheadLength : sbyte

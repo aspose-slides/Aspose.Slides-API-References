@@ -1,14 +1,14 @@
 ---
 title: AlphaModulate
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta un effetto Alpha Modulate. I valori di opacità alfa dell'effetto sono moltiplicati per una percentuale fissa. Il contenitore dell'effetto specifica un effetto contenente i valori alfa da modulare.
+description: Rappresenta un effetto Alpha Modulate. I valori di opacità alfa dell'effetto sono moltiplicati per una percentuale fissa. Il contenitore dell'effetto specifica un effetto che contiene i valori alfa da modulare.
 type: docs
-weight: 2860
+weight: 2880
 url: /it/aspose.slides.effects/alphamodulate/
 ---
 ## AlphaModulate classe
 
-Rappresenta un effetto Alpha Modulate. I valori alfa (opacità) dell'effetto sono moltiplicati per una percentuale fissa. Il contenitore dell'effetto specifica un effetto contenente i valori alfa da modulare.
+Rappresenta un effetto Alpha Modulate. I valori alfa (opacità) dell'effetto sono moltiplicati per una percentuale fissa. Il contenitore dell'effetto specifica un effetto che contiene i valori alfa da modulare.
 
 ```csharp
 public sealed class AlphaModulate : ImageTransformOperation, IAlphaModulate
@@ -24,9 +24,9 @@ public sealed class AlphaModulate : ImageTransformOperation, IAlphaModulate
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphamodulate/equals)(object) | Determina se il [`AlphaModulate`](../alphamodulate) specificato è uguale all'attuale [`AlphaModulate`](../alphamodulate). |
-| [GetEffective](../../aspose.slides.effects/alphamodulate/geteffective)() | Ottiene i dati effettivi dell'effetto Alpha Modulate con l'ereditarietà applicata. |
-| override [GetHashCode](../../aspose.slides.effects/alphamodulate/gethashcode)() | Funziona come funzione hash per un tipo particolare. |
+| override [Equals](../../aspose.slides.effects/alphamodulate/equals)(object) | Determina se il [`AlphaModulate`](../alphamodulate) specificato è uguale al corrente [`AlphaModulate`](../alphamodulate). |
+| [GetEffective](../../aspose.slides.effects/alphamodulate/geteffective)() | Restituisce i dati effettivi dell'effetto Alpha Modulate con l'ereditarietà applicata. |
+| override [GetHashCode](../../aspose.slides.effects/alphamodulate/gethashcode)() | Funziona come funzione hash per un tipo specifico. |
 
 ### Vedi anche
 

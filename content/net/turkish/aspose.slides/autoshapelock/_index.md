@@ -1,14 +1,14 @@
 ---
 title: AutoShapeLock
 second_title: Aspose.Sildes for .NET API Referansı
-description: Üst AutoshapeEx üzerinde hangi işlemlerin devre dışı bırakıldığını belirler.
+description: Üst AutoshapeEx üzerindeki hangi işlemlerin devre dışı bırakıldığını belirler.
 type: docs
-weight: 890
+weight: 910
 url: /tr/aspose.slides/autoshapelock/
 ---
 ## AutoShapeLock sınıfı
 
-Üst AutoshapeEx üzerinde hangi işlemlerin devre dışı bırakıldığını belirler.
+Üst AutoshapeEx üzerindeki hangi işlemlerin devre dışı bırakıldığını belirler.
 
 ```csharp
 public class AutoShapeLock : BaseShapeLock, IAutoShapeLock
@@ -16,20 +16,20 @@ public class AutoShapeLock : BaseShapeLock, IAutoShapeLock
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/autoshapelock/adjusthandleslocked) { get; set; } | Ayarlama değerlerinin değiştirilmesinin yasak olup olmadığını belirler. Okunur/Yazılabilir Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/autoshapelock/arrowheadslocked) { get; set; } | Ok uçlarının değiştirilmesinin yasak olup olmadığını belirler. Okunur/Yazılabilir Boolean. |
-| [AspectRatioLocked](../../aspose.slides/autoshapelock/aspectratiolocked) { get; set; } | Bir şeklin yeniden boyutlandırma sırasında en-boy oranını korumasının gerekip gerekmediğini belirler. Okunur/Yazılabilir Boolean. |
-| [EditPointsLocked](../../aspose.slides/autoshapelock/editpointslocked) { get; set; } | Bu şeklin konturunun doğrudan değiştirilmesinin yasak olup olmadığını belirler. Okunur/Yazılabilir Boolean. |
-| [GroupingLocked](../../aspose.slides/autoshapelock/groupinglocked) { get; set; } | Bu şeklin bir gruba eklenmesinin yasak olup olmadığını belirler. Okunur/Yazılabilir Boolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Tüm kilit bayrakları devre dışı bırakılmışsa true döndürür. Yalnızca okunabilir Boolean. |
-| [PositionLocked](../../aspose.slides/autoshapelock/positionlocked) { get; set; } | Bu şeklin taşınmasının yasak olup olmadığını belirler. Okunur/Yazılabilir Boolean. |
-| [RotateLocked](../../aspose.slides/autoshapelock/rotatelocked) { get; set; } | Bu şeklin döndürme açısının değiştirilmesinin yasak olup olmadığını belirler. Okunur/Yazılabilir Boolean. |
-| [SelectLocked](../../aspose.slides/autoshapelock/selectlocked) { get; set; } | Bu şeklin seçilmesinin yasak olup olmadığını belirler. Okunur/Yazılabilir Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/autoshapelock/shapetypelocked) { get; set; } | Şekil türünün değiştirilmesinin yasak olup olmadığını belirler. Okunur/Yazılabilir Boolean. |
-| [SizeLocked](../../aspose.slides/autoshapelock/sizelocked) { get; set; } | Bu şeklin yeniden boyutlandırılmasının yasak olup olmadığını belirler. Okunur/Yazılabilir Boolean. |
-| [TextLocked](../../aspose.slides/autoshapelock/textlocked) { get; set; } | Metnin düzenlenmesinin yasak olup olmadığını belirler. Okunur/Yazılabilir Boolean. |
+| [AdjustHandlesLocked](../../aspose.slides/autoshapelock/adjusthandleslocked) { get; set; } | Ayarlama değerlerinin değiştirilmesinin yasak olup olmadığını belirler. Okunur/Yazılır Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/autoshapelock/arrowheadslocked) { get; set; } | Ok yönlerinin değiştirilmesinin yasak olup olmadığını belirler. Okunur/Yazılır Boolean. |
+| [AspectRatioLocked](../../aspose.slides/autoshapelock/aspectratiolocked) { get; set; } | Bir şeklin boyutlandırıldığında en-boy oranını korumasının zorunlu olup olmadığını belirler. Okunur/Yazılır Boolean. |
+| [EditPointsLocked](../../aspose.slides/autoshapelock/editpointslocked) { get; set; } | Bu şeklin konturunun doğrudan değiştirilmesinin yasak olup olmadığını belirler. Okunur/Yazılır Boolean. |
+| [GroupingLocked](../../aspose.slides/autoshapelock/groupinglocked) { get; set; } | Bu şeklin bir gruba eklenmesinin yasak olup olmadığını belirler. Okunur/Yazılır Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Tüm kilit bayrakları devre dışı bırakılmışsa true döndürür. Salt-okunur Boolean. |
+| [PositionLocked](../../aspose.slides/autoshapelock/positionlocked) { get; set; } | Bu şeklin taşınmasının yasak olup olmadığını belirler. Okunur/Yazılır Boolean. |
+| [RotateLocked](../../aspose.slides/autoshapelock/rotatelocked) { get; set; } | Bu şeklin döndürme açısının değiştirilmesinin yasak olup olmadığını belirler. Okunur/Yazılır Boolean. |
+| [SelectLocked](../../aspose.slides/autoshapelock/selectlocked) { get; set; } | Bu şeklin seçilmesinin yasak olup olmadığını belirler. Okunur/Yazılır Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/autoshapelock/shapetypelocked) { get; set; } | Şekil tipinin değiştirilmesinin yasak olup olmadığını belirler. Okunur/Yazılır Boolean. |
+| [SizeLocked](../../aspose.slides/autoshapelock/sizelocked) { get; set; } | Bu şeklin yeniden boyutlandırılmasının yasak olup olmadığını belirler. Okunur/Yazılır Boolean. |
+| [TextLocked](../../aspose.slides/autoshapelock/textlocked) { get; set; } | Metnin düzenlenmesinin yasak olup olmadığını belirler. Okunur/Yazılır Boolean. |
 
 ### Ayrıca Bakınız
 

@@ -1,9 +1,9 @@
 ---
 title: IInkBrush
-second_title: Aspose.Sildes dla .NET - Dokumentacja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje pędzel śladu.
 type: docs
-weight: 7510
+weight: 7530
 url: /pl/aspose.slides.ink/iinkbrush/
 ---
 ## IInkBrush interfejs
@@ -19,7 +19,7 @@ public interface IInkBrush
 | Nazwa | Opis |
 | --- | --- |
 | [Color](../../aspose.slides.ink/iinkbrush/color) { get; set; } | Pobiera lub ustawia kolor pędzla dla linii. |
-| [InkEffect](../../aspose.slides.ink/iinkbrush/inkeffect) { get; } | Pobiera typ efektu atramentu (np. Galaxy, Gold, Silver), który definiuje wizualny styl kreski atramentu. Wartość jest parsowana z właściwości pędzla "inkEffects". Jeśli nie określono rozpoznanego efektu, zwracane jest NotDefined. |
+| [InkEffect](../../aspose.slides.ink/iinkbrush/inkeffect) { get; } | Pobiera typ efektu tuszu (np. Galaxy, Gold, Silver), który definiuje styl wizualny pociągnięcia tuszu. Wartość jest odczytywana z właściwości pędzla "inkEffects". Jeśli nie określono rozpoznanego efektu, zwracany jest NotDefined. |
 | [Size](../../aspose.slides.ink/iinkbrush/size) { get; set; } | Pobiera lub ustawia rozmiar pędzla dla linii w punktach. |
 
 ### Zobacz także

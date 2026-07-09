@@ -1,9 +1,9 @@
 ---
 title: IInnerShadowEffectiveData
-second_title: Aspose.Sildes pro .NET - reference API
+second_title: Aspose.Sildes pro .NET – reference API
 description: Neměnný objekt, který představuje efekt vnitřního stínu.
 type: docs
-weight: 3410
+weight: 3430
 url: /cs/aspose.slides.effects/iinnershadoweffectivedata/
 ---
 ## IInnerShadowEffectiveData rozhraní
@@ -18,11 +18,11 @@ public interface IInnerShadowEffectiveData : IEffectEffectiveData
 
 | Název | Popis |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iinnershadoweffectivedata/asieffecteffectivedata) { get; } | Umožňuje získat základní rozhraní IEffectEffectiveData. Pouze pro čtení [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [BlurRadius](../../aspose.slides.effects/iinnershadoweffectivedata/blurradius) { get; } | Poloměr rozostření. Pouze pro čtení Double. |
-| [Direction](../../aspose.slides.effects/iinnershadoweffectivedata/direction) { get; } | Směr stínu. Pouze pro čtení Single. |
-| [Distance](../../aspose.slides.effects/iinnershadoweffectivedata/distance) { get; } | Vzdálenost stínu. Pouze pro čtení Double. |
-| [ShadowColor](../../aspose.slides.effects/iinnershadoweffectivedata/shadowcolor) { get; } | Barva stínu. Pouze pro čtení Color. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iinnershadoweffectivedata/asieffecteffectivedata) { get; } | Umožňuje získat základní rozhraní IEffectEffectiveData. Pouze ke čtení [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [BlurRadius](../../aspose.slides.effects/iinnershadoweffectivedata/blurradius) { get; } | Poloměr rozostření. Pouze ke čtení Double. |
+| [Direction](../../aspose.slides.effects/iinnershadoweffectivedata/direction) { get; } | Směr stínu. Pouze ke čtení Single. |
+| [Distance](../../aspose.slides.effects/iinnershadoweffectivedata/distance) { get; } | Vzdálenost stínu. Pouze ke čtení Double. |
+| [ShadowColor](../../aspose.slides.effects/iinnershadoweffectivedata/shadowcolor) { get; } | Barva stínu. Pouze ke čtení Color. |
 
 ### Viz také
 

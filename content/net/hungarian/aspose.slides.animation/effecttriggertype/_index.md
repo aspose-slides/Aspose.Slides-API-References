@@ -1,14 +1,14 @@
 ---
 title: EffectTriggerType
-second_title: Aspose.Sildes .NET API Referenciája
-description: Az effektus aktiválási típusát reprezentálja.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Az effektus aktiváló típusát képviseli.
 type: docs
-weight: 330
+weight: 350
 url: /hu/aspose.slides.animation/effecttriggertype/
 ---
-## EffectTriggerType enumeráció
+## EffectTriggerType felsorolás
 
-Az effektus aktiválási típusát reprezentálja.
+Az EffectTriggerType az effektus aktiváló típusát képviseli.
 
 ```csharp
 public enum EffectTriggerType

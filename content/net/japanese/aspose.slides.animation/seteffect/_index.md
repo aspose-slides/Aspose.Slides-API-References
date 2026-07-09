@@ -3,7 +3,7 @@ title: SetEffect
 second_title: Aspose.Sildes for .NET API リファレンス
 description: アニメーション動作のセット効果を表します。
 type: docs
-weight: 790
+weight: 810
 url: /ja/aspose.slides.animation/seteffect/
 ---
 ## SetEffect クラス
@@ -14,21 +14,21 @@ url: /ja/aspose.slides.animation/seteffect/
 public class SetEffect : Behavior, ISetEffect
 ```
 
-## コンストラクタ
+## コンストラクター
 
 | 名前 | 説明 |
 | --- | --- |
-| [SetEffect](seteffect)() | 既定のコンストラクタです。 |
+| [SetEffect](seteffect)() | デフォルトコンストラクタです。 |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | アニメーション動作が累積されるかどうかを表します。読み書き [`NullableBool`](../../aspose.slides/nullablebool)。 |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | 現在のアニメーション動作が他の実行中のアニメーションと結合されるかどうかを表します。読み書き [`BehaviorAdditiveType`](../behavioradditivetype)。 |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | アニメーション動作が蓄積されるかどうかを表します。読み取り/書き込み [`NullableBool`](../../aspose.slides/nullablebool)。 |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | 現在のアニメーション動作が他の実行中のアニメーションと結合されるかどうかを表します。読み取り/書き込み [`BehaviorAdditiveType`](../behavioradditivetype)。 |
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | 動作のプロパティを表します。読み取り専用 [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection)。 |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | エフェクト動作のタイミングプロパティを表します。読み書き [`ITiming`](../itiming)。 |
-| [To](../../aspose.slides.animation/seteffect/to) { get; set; } | アニメーション効果の後のエフェクトの特定属性を指定します。ポイント値を表します。許容型: bool, ColorFormat, float, int, string。読み書き Object。 |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | エフェクト動作のタイミングプロパティを表します。読み取り/書き込み [`ITiming`](../itiming)。 |
+| [To](../../aspose.slides.animation/seteffect/to) { get; set; } | アニメーション効果の後の効果の特定の属性を指定します。ポイント値を表します。対象は bool, ColorFormat, float, int, string です。読み取り/書き込み Object。 |
 
 ### 参照
 

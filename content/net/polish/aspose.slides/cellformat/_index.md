@@ -1,9 +1,9 @@
 ---
 title: CellFormat
-second_title: Aspose.Sildes dla .NET API Referencja
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje format komórki tabeli.
 type: docs
-weight: 1130
+weight: 1150
 url: /pl/aspose.slides/cellformat/
 ---
 ## CellFormat klasa
@@ -19,12 +19,12 @@ public sealed class CellFormat : PVIObject, ICellFormat
 | Nazwa | Opis |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umożliwia pobranie podstawowego interfejsu IPresentationComponent. Tylko do odczytu [`IPresentationComponent`](../ipresentationcomponent). |
-| [BorderBottom](../../aspose.slides/cellformat/borderbottom) { get; } | Zwraca obiekt właściwości linii dolnej krawędzi. Tylko do odczytu [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalDown](../../aspose.slides/cellformat/borderdiagonaldown) { get; } | Zwraca obiekt właściwości linii przekątnej od lewego górnego do prawego dolnego. Tylko do odczytu [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalUp](../../aspose.slides/cellformat/borderdiagonalup) { get; } | Zwraca obiekt właściwości linii przekątnej od lewego dolnego do prawego górnego. Tylko do odczytu [`ILineFormat`](../ilineformat). |
-| [BorderLeft](../../aspose.slides/cellformat/borderleft) { get; } | Zwraca obiekt właściwości linii lewej krawędzi. Tylko do odczytu [`ILineFormat`](../ilineformat). |
-| [BorderRight](../../aspose.slides/cellformat/borderright) { get; } | Zwraca obiekt właściwości linii prawej krawędzi. Tylko do odczytu [`ILineFormat`](../ilineformat). |
-| [BorderTop](../../aspose.slides/cellformat/bordertop) { get; } | Zwraca obiekt właściwości linii górnej krawędzi. Tylko do odczytu [`ILineFormat`](../ilineformat). |
+| [BorderBottom](../../aspose.slides/cellformat/borderbottom) { get; } | Zwraca obiekt właściwości linii dolnego obramowania. Tylko do odczytu [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalDown](../../aspose.slides/cellformat/borderdiagonaldown) { get; } | Zwraca obiekt właściwości linii przekątnej od góry-lewej do dołu-prawej. Tylko do odczytu [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalUp](../../aspose.slides/cellformat/borderdiagonalup) { get; } | Zwraca obiekt właściwości linii przekątnej od dołu-lewej do góry-prawej. Tylko do odczytu [`ILineFormat`](../ilineformat). |
+| [BorderLeft](../../aspose.slides/cellformat/borderleft) { get; } | Zwraca obiekt właściwości linii lewego obramowania. Tylko do odczytu [`ILineFormat`](../ilineformat). |
+| [BorderRight](../../aspose.slides/cellformat/borderright) { get; } | Zwraca obiekt właściwości linii prawego obramowania. Tylko do odczytu [`ILineFormat`](../ilineformat). |
+| [BorderTop](../../aspose.slides/cellformat/bordertop) { get; } | Zwraca obiekt właściwości linii górnego obramowania. Tylko do odczytu [`ILineFormat`](../ilineformat). |
 | [FillFormat](../../aspose.slides/cellformat/fillformat) { get; } | Zwraca obiekt właściwości wypełnienia komórki. Tylko do odczytu [`IFillFormat`](../ifillformat). |
 | [Transparency](../../aspose.slides/cellformat/transparency) { get; set; } | Pobiera lub ustawia przezroczystość koloru wypełnienia. Odczyt/zapis Single. |
 
@@ -34,7 +34,7 @@ public sealed class CellFormat : PVIObject, ICellFormat
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Porównuje z określonym obiektem. |
 | [GetEffective](../../aspose.slides/cellformat/geteffective)() | Pobiera efektywne właściwości formatowania komórki tabeli z uwzględnieniem dziedziczenia i zastosowanych stylów tabeli. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Zwraca kod hash. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Zwraca kod skrótu. |
 
 ### Zobacz także
 

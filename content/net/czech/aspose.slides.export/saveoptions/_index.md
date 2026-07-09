@@ -3,12 +3,12 @@ title: SaveOptions
 second_title: Aspose.Sildes pro .NET API Reference
 description: Abstraktní třída s možnostmi, které řídí, jak je prezentace uložena.
 type: docs
-weight: 4430
+weight: 4450
 url: /cs/aspose.slides.export/saveoptions/
 ---
 ## SaveOptions třída
 
-Abstraktní třída s možnostmi, které řídí, jak je prezentace uložena.
+Abstraktní třída s možnostmi, které řídí, jak se prezentace ukládá.
 
 ```csharp
 public abstract class SaveOptions : ISaveOptions
@@ -18,11 +18,11 @@ public abstract class SaveOptions : ISaveOptions
 
 | Název | Popis |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Vrací nebo nastavuje písmo použité v případě, že výchozí písmo není nalezeno. Čtení-zápis String. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Vrací nebo nastavuje vizuální styl gradientu. Čtení-zápis [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Reprezentuje zpětnou vazbu pro ukládání aktualizací postupu v procentech. Viz [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Určuje, zda při ukládání prezentace přeskočit hypertextové odkazy s voláním JavaScriptu. Čtení-zápis Boolean. Výchozí hodnota je **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Vrací nebo nastavuje objekt, který přijímá varování a rozhoduje, zda bude proces načítání pokračovat nebo bude přerušen. Čtení-zápis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Vrací nebo nastavuje písmo použité v případě, že výchozí písmo není nalezeno. Čtení/zápis String. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Vrací nebo nastavuje vizuální styl gradientu. Čtení/zápis [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Representuje objekt zpětného volání pro aktualizace postupu ukládání v procentech. Viz [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Určuje, zda při ukládání prezentace přeskočit hypertextové odkazy s voláním JavaScriptu. Čtení/zápis Boolean. Výchozí hodnota je **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Vrací nebo nastavuje objekt, který přijímá varování a rozhoduje, zda proces načítání bude pokračovat nebo bude přerušen. Čtení/zápis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Viz také
 

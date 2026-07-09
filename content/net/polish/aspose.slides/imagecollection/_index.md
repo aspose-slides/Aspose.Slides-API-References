@@ -3,10 +3,10 @@ title: ImageCollection
 second_title: Aspose.Sildes dla .NET Referencja API
 description: Reprezentuje kolekcję PPImage.
 type: docs
-weight: 7400
+weight: 7420
 url: /pl/aspose.slides/imagecollection/
 ---
-## Klasa ImageCollection
+## ImageCollection klasa
 
 Reprezentuje kolekcję PPImage.
 
@@ -19,8 +19,8 @@ public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
 | Nazwa | Opis |
 | --- | --- |
 | [Count](../../aspose.slides/imagecollection/count) { get; } | Zwraca liczbę obrazów w kolekcji. Tylko do odczytu Int32. |
-| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest synchronizowany (wątkowo bezpieczny). Tylko do odczytu Boolean. |
-| [Item](../../aspose.slides/imagecollection/item) { get; } | Pobiera element o określonym indeksie. Tylko do odczytu [`IPPImage`](../ippimage). |
+| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest synchronizowany (wątkowo-bezpieczny). Tylko do odczytu Boolean. |
+| [Item](../../aspose.slides/imagecollection/item) { get; } | Pobiera element o podanym indeksie. Tylko do odczytu [`IPPImage`](../ippimage). |
 | [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | Zwraca korzeń synchronizacji. Tylko do odczytu Object. |
 
 ## Metody
@@ -35,7 +35,7 @@ public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_5)(Stream) | Dodaje obraz do prezentacji ze strumienia. |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | Tworzy i dodaje obraz do prezentacji ze strumienia. |
 | [CopyTo](../../aspose.slides/imagecollection/copyto)(Array, int) | Kopiuje wszystkie elementy z kolekcji do określonej tablicy. |
-| [GetEnumerator](../../aspose.slides/imagecollection/getenumerator)() | Zwraca enumerator, który iteruje przez kolekcję. |
+| [GetEnumerator](../../aspose.slides/imagecollection/getenumerator)() | Zwraca enumerator iterujący po kolekcji. |
 
 ### Zobacz także
 

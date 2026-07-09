@@ -3,10 +3,10 @@ title: PictureFillMode
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Menentukan bagaimana gambar akan mengisi area.
 type: docs
-weight: 9380
+weight: 9400
 url: /id/aspose.slides/picturefillmode/
 ---
-## PictureFillMode enumerasi
+## enumerasi PictureFillMode
 
 Menentukan bagaimana gambar akan mengisi area.
 

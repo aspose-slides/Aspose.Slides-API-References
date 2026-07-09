@@ -1,9 +1,9 @@
 ---
 title: PresentationPlayer
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta il lettore delle animazioni associate alla Presentazione../aspose.slides/presentation.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Rappresenta il lettore delle animazioni associate alla Presentation../aspose.slides/presentation.
 type: docs
-weight: 4370
+weight: 4390
 url: /it/aspose.slides.export/presentationplayer/
 ---
 ## PresentationPlayer classe
@@ -24,7 +24,7 @@ public class PresentationPlayer : IDisposable
 
 | Nome | Descrizione |
 | --- | --- |
-| [FrameIndex](../../aspose.slides.export/presentationplayer/frameindex) { get; } | Ottiene l'indice del fotogramma. |
+| [FrameIndex](../../aspose.slides.export/presentationplayer/frameindex) { get; } | Restituisce l'indice del fotogramma. |
 
 ## Metodi
 
@@ -41,6 +41,7 @@ public class PresentationPlayer : IDisposable
 ### Esempi
 
 ```csharp
+[C#]
 using (Presentation pres = new Presentation("pres.pptx"))
 {
     using (var animationsGenerator = new PresentationAnimationsGenerator(pres))

@@ -1,14 +1,14 @@
 ---
 title: BrightnessContrast
-second_title: Aspose.Sildes için .NET API Referansı
-description: BrightnessContrast efektini temsil eder. Parlaklık ve kontrastı ayarlar
+second_title: Aspose.Sildes .NET için API Referansı
+description: Bir BrightnessContrast etkisini temsil eder. Parlaklık ve kontrastı ayarlar
 type: docs
-weight: 2910
+weight: 2930
 url: /tr/aspose.slides.effects/brightnesscontrast/
 ---
-## BrightnessContrast sınıfı
+## BrightnessContrast sınıf
 
-Bir BrightnessContrast etkisini temsil eder. Parlaklık ve kontrastı ayarlar
+BrightnessContrast etkisini temsil eder. Parlaklık ve kontrastı ayarlar
 
 ```csharp
 public sealed class BrightnessContrast : ImageTransformOperation, IBrightnessContrast
@@ -18,17 +18,17 @@ public sealed class BrightnessContrast : ImageTransformOperation, IBrightnessCon
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almaya izin verir. Salt-okunur [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almayı sağlar. Salt okunur [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/brightnesscontrast/equals)(object) | Belirtilen [`BrightnessContrast`](../brightnesscontrast) geçerli [`BrightnessContrast`](../brightnesscontrast) ile eşit olup olmadığını belirler. |
-| [GetEffective](../../aspose.slides.effects/brightnesscontrast/geteffective)() | Miras uygulanmış etkili BrightnessContrast efekt verilerini alır. |
-| override [GetHashCode](../../aspose.slides.effects/brightnesscontrast/gethashcode)() | Belirli bir tip için bir karma fonksiyonu olarak hizmet verir. |
+| override [Equals](../../aspose.slides.effects/brightnesscontrast/equals)(object) | Belirtilen [`BrightnessContrast`](../brightnesscontrast)'in mevcut [`BrightnessContrast`](../brightnesscontrast) ile eşit olup olmadığını belirler. |
+| [GetEffective](../../aspose.slides.effects/brightnesscontrast/geteffective)() | Uygulanan miras ile etkili BrightnessContrast etkisi verilerini alır. |
+| override [GetHashCode](../../aspose.slides.effects/brightnesscontrast/gethashcode)() | Belirli bir tip için bir karma (hash) işlevi olarak hizmet eder. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * sınıf [ImageTransformOperation](../imagetransformoperation)
 * arayüz [IBrightnessContrast](../ibrightnesscontrast)

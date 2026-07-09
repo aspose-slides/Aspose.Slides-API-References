@@ -3,7 +3,7 @@ title: TrendlineCollection
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en samling av Trendline
 type: docs
-weight: 2460
+weight: 2480
 url: /sv/aspose.slides.charts/trendlinecollection/
 ---
 ## TrendlineCollection klass
@@ -16,14 +16,14 @@ public class TrendlineCollection : DomObject<ChartSeries>, ITrendlineCollection
 
 ## Egenskaper
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
 | [Count](../../aspose.slides.charts/trendlinecollection/count) { get; } | Hämtar antalet element som faktiskt finns i samlingen. Skrivskyddad Int32. |
 | [Item](../../aspose.slides.charts/trendlinecollection/item) { get; } | Hämtar elementet på det angivna indexet. Skrivskyddad [`Trendline`](../trendline). |
 
 ## Metoder
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
 | [Add](../../aspose.slides.charts/trendlinecollection/add)(TrendlineType) | Lägger till den nya Trendline i slutet av en samling och returnerar den. |
 | [GetEnumerator](../../aspose.slides.charts/trendlinecollection/getenumerator)() | Returnerar en enumerator som itererar genom samlingen. |

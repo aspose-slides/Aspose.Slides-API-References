@@ -1,12 +1,12 @@
 ---
 title: BevelPresetType
-second_title: Aspose.Sildes dla .NET API Referencja
+second_title: Aspose.Sildes dla .NET - Referencja API
 description: Stałe definiujące 3-wymiarowe fazowanie kształtu.
 type: docs
-weight: 990
+weight: 1010
 url: /pl/aspose.slides/bevelpresettype/
 ---
-## BevelPresetType enumeracja
+## BevelPresetType wyliczenie
 
 Stałe definiujące 3-wymiarowe fazowanie kształtu.
 

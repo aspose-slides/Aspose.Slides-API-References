@@ -1,9 +1,9 @@
 ---
 title: IThemeManager
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: テーマ プロパティを表します。
 type: docs
-weight: 11370
+weight: 11390
 url: /ja/aspose.slides.theme/ithememanager/
 ---
 ## IThemeManager インターフェイス

@@ -1,14 +1,14 @@
 ---
 title: ShapeFrame
-second_title: Referência da API Aspose.Sildes para .NET
-description: Representa as propriedades das molduras de forma.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Representa as propriedades dos quadros de forma.
 type: docs
-weight: 9880
+weight: 9900
 url: /pt/aspose.slides/shapeframe/
 ---
 ## ShapeFrame classe
 
-Representa as propriedades da moldura de forma.
+Representa as propriedades do quadro de forma.
 
 ```csharp
 public class ShapeFrame : IShapeFrame
@@ -16,36 +16,36 @@ public class ShapeFrame : IShapeFrame
 
 ## Construtores
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
-| [ShapeFrame](shapeframe)(float, float, float, float, NullableBool, NullableBool, float) | Cria novas propriedades da moldura de forma. |
+| [ShapeFrame](shapeframe)(float, float, float, float, NullableBool, NullableBool, float) | Cria as propriedades de um novo quadro de forma. |
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
-| [CenterX](../../aspose.slides/shapeframe/centerx) { get; } | Retorna a coordenada X do centro de uma moldura. Somente leitura Single. |
-| [CenterY](../../aspose.slides/shapeframe/centery) { get; } | Retorna a coordenada Y do centro de uma moldura. Somente leitura Single. |
-| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | Determina se uma moldura está invertida horizontalmente. Somente leitura [`NullableBool`](../nullablebool). |
-| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | Determina se uma moldura está invertida verticalmente. Somente leitura [`NullableBool`](../nullablebool). |
-| [Height](../../aspose.slides/shapeframe/height) { get; } | Retorna a altura de uma moldura. Somente leitura Single. |
-| [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | Retorna as coordenadas de uma moldura. Somente leitura RectangleF. |
-| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | Retorna o número de graus que uma moldura é girada ao redor do eixo z. Um valor positivo indica rotação no sentido horário; um valor negativo indica rotação no sentido anti-horário. Somente leitura Single. |
-| [Width](../../aspose.slides/shapeframe/width) { get; } | Retorna a largura de uma moldura. Somente leitura Single. |
-| [X](../../aspose.slides/shapeframe/x) { get; } | Retorna a coordenada X do canto superior esquerdo de uma moldura. Somente leitura Single. |
-| [Y](../../aspose.slides/shapeframe/y) { get; } | Retorna a coordenada Y do canto superior esquerdo de uma moldura. Somente leitura Single. |
+| [CenterX](../../aspose.slides/shapeframe/centerx) { get; } | Retorna a coordenada X do centro de um quadro. Somente leitura Single. |
+| [CenterY](../../aspose.slides/shapeframe/centery) { get; } | Retorna a coordenada Y do centro de um quadro. Somente leitura Single. |
+| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | Determina se um quadro está invertido horizontalmente. Somente leitura [`NullableBool`](../nullablebool). |
+| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | Determina se um quadro está invertido verticalmente. Somente leitura [`NullableBool`](../nullablebool). |
+| [Height](../../aspose.slides/shapeframe/height) { get; } | Retorna a altura de um quadro. Somente leitura Single. |
+| [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | Retorna as coordenadas de um quadro. Somente leitura RectangleF. |
+| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | Retorna o número de graus que um quadro está girado em torno do eixo z. Um valor positivo indica rotação no sentido horário; um valor negativo indica rotação no sentido anti-horário. Somente leitura Single. |
+| [Width](../../aspose.slides/shapeframe/width) { get; } | Retorna a largura de um quadro. Somente leitura Single. |
+| [X](../../aspose.slides/shapeframe/x) { get; } | Retorna a coordenada X do canto superior esquerdo de um quadro. Somente leitura Single. |
+| [Y](../../aspose.slides/shapeframe/y) { get; } | Retorna a coordenada Y do canto superior esquerdo de um quadro. Somente leitura Single. |
 
 ## Métodos
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [Clone](../../aspose.slides/shapeframe/clone)() | Clona |
 | [CloneT](../../aspose.slides/shapeframe/clonet)() | Clona. |
-| override [Equals](../../aspose.slides/shapeframe/equals#equals_1)(object) | Retorna um valor indicando se esta instância é igual a um objeto especificado. |
-| [Equals](../../aspose.slides/shapeframe/equals#equals)(ShapeFrame) | Retorna um valor indicando se esta instância é igual a um objeto especificado. |
+| override [Equals](../../aspose.slides/shapeframe/equals#equals_1)(object) | Retorna um valor que indica se esta instância é igual a um objeto especificado. |
+| [Equals](../../aspose.slides/shapeframe/equals#equals)(ShapeFrame) | Retorna um valor que indica se esta instância é igual a um objeto especificado. |
 | override [GetHashCode](../../aspose.slides/shapeframe/gethashcode)() | Retorna um código hash para este objeto. |
 
-### Ver também
+### Veja Também
 
 * interface [IShapeFrame](../ishapeframe)
 * namespace [Aspose.Slides](../../aspose.slides)

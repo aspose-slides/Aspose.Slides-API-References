@@ -1,12 +1,12 @@
 ---
 title: BackgroundType
-second_title: Aspose.Sildes per il riferimento API .NET
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Definisce la sorgente di riempimento dello sfondo della diapositiva.
 type: docs
-weight: 920
+weight: 940
 url: /it/aspose.slides/backgroundtype/
 ---
-## enumerazione BackgroundType
+## BackgroundType enumeration
 
 Definisce la sorgente di riempimento dello sfondo della diapositiva.
 

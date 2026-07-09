@@ -1,14 +1,14 @@
 ---
 title: IThemeable
 second_title: Aspose.Sildes for .NET API リファレンス
-description: ITheme./itheme でテーマ設定できるオブジェクトを表します。
+description: ITheme./itheme でテーマを設定できるオブジェクトを表します。
 type: docs
-weight: 11380
+weight: 11400
 url: /ja/aspose.slides.theme/ithemeable/
 ---
 ## IThemeable インターフェイス
 
-[`ITheme`](../itheme) でテーマ設定できるオブジェクトを表します。
+[`ITheme`](../itheme) でテーマを設定できるオブジェクトを表します。
 
 ```csharp
 public interface IThemeable : ISlideComponent
@@ -24,7 +24,7 @@ public interface IThemeable : ISlideComponent
 
 | 名前 | 説明 |
 | --- | --- |
-| [CreateThemeEffective](../../aspose.slides.theme/ithemeable/createthemeeffective)() | このテーマ可能オブジェクトの有効なテーマを返します。 |
+| [CreateThemeEffective](../../aspose.slides.theme/ithemeable/createthemeeffective)() | このテーマ対応オブジェクトの有効なテーマを返します。 |
 
 ### 参照
 

@@ -1,14 +1,14 @@
 ---
 title: IFontSubstRuleCollection
 second_title: Aspose.Sildes .NET API referencia
-description: A betűkészlet-helyettesítések gyűjteményét képviseli.
+description: A betűkészletek helyettesítésének gyűjteményét reprezentálja.
 type: docs
-weight: 5870
+weight: 5890
 url: /hu/aspose.slides/ifontsubstrulecollection/
 ---
 ## IFontSubstRuleCollection interfész
 
-A betűkészlet-helyettesítések gyűjteményét képviseli.
+A betűkészletek helyettesítésének gyűjteményét reprezentálja.
 
 ```csharp
 public interface IFontSubstRuleCollection : IGenericCollection<IFontSubstRule>
@@ -16,15 +16,15 @@ public interface IFontSubstRuleCollection : IGenericCollection<IFontSubstRule>
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [Item](../../aspose.slides/ifontsubstrulecollection/item) { get; } | A megadott indexű elemet adja vissza. |
+| [Item](../../aspose.slides/ifontsubstrulecollection/item) { get; } | A megadott indexnél lévő elemet adja vissza. |
 
 ## Metódusok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/ifontsubstrulecollection/add)(IFontSubstRule) | Hozzáadja az új betűkészlet-helyettesítési szabályt a gyűjteményhez |
+| [Add](../../aspose.slides/ifontsubstrulecollection/add)(IFontSubstRule) | Új betűkészlet-helyettesítési szabályt ad hozzá a gyűjteményhez |
 | [Remove](../../aspose.slides/ifontsubstrulecollection/remove)(IFontSubstRule) | Eltávolítja a megadott objektum első előfordulását a gyűjteményből. |
 
 ### Lásd még

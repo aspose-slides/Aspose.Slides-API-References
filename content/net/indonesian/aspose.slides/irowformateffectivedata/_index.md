@@ -1,14 +1,14 @@
 ---
 title: IRowFormatEffectiveData
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Objek tidak dapat diubah yang berisi properti pemformatan baris tabel yang efektif.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Objek tidak berubah yang berisi properti pemformatan baris tabel yang efektif.
 type: docs
-weight: 6860
+weight: 6880
 url: /id/aspose.slides/irowformateffectivedata/
 ---
 ## IRowFormatEffectiveData antarmuka
 
-Objek tidak dapat diubah yang berisi properti pemformatan baris tabel yang efektif.
+Objek tidak berubah yang berisi properti pemformatan baris tabel yang efektif.
 
 ```csharp
 public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -18,11 +18,11 @@ public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/irowformateffectivedata/asibasetableformateffectivedata) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar IBaseTableFormatEffectiveData. Hanya-baca [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/irowformateffectivedata/asibasetableformateffectivedata) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IBaseTableFormatEffectiveData. Hanya-baca [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
 
-### Keterangan
+### Catatan
 
-Antarmuka ini digunakan bersama dengan antarmuka [`IRowFormat`](../irowformat) untuk mengembalikan nilai pemformatan efektif dengan pewarisan dan gaya tabel yang diterapkan.
+Antarmuka ini digunakan bersama dengan antarmuka [`IRowFormat`](../irowformat) untuk mengembalikan nilai format efektif dengan pewarisan dan gaya tabel yang diterapkan.
 
 ### Lihat Juga
 

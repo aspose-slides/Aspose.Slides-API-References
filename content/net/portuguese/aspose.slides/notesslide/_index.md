@@ -1,9 +1,9 @@
 ---
 title: NotesSlide
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência de API
 description: Representa um slide de notas em uma apresentação.
 type: docs
-weight: 9120
+weight: 9140
 url: /pt/aspose.slides/notesslide/
 ---
 ## NotesSlide classe
@@ -28,10 +28,10 @@ public class NotesSlide : BaseSlide, INotesSlide
 | [ParentSlide](../../aspose.slides/notesslide/parentslide) { get; } | Retorna o slide pai. Somente leitura [`ISlide`](../islide). |
 | [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Retorna a interface IPresentation. Somente leitura [`IPresentation`](../ipresentation). |
 | [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Retorna as formas de um slide. Somente leitura [`IShapeCollection`](../ishapecollection). |
-| override [ShowMasterShapes](../../aspose.slides/notesslide/showmastershapes) { get; set; } | Especifica se as formas no slide mestre devem ser mostradas nos slides ou não. Leitura/gravação Boolean. |
+| override [ShowMasterShapes](../../aspose.slides/notesslide/showmastershapes) { get; set; } | Especifica se as formas no slide mestre devem ser exibidas nos slides ou não. Leitura/gravação Boolean. |
 | [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Retorna o ID de um slide. Somente leitura UInt32. |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Retorna o objeto Transition que contém informações sobre como o slide especificado avança durante a apresentação de slides. Somente leitura [`ISlideShowTransition`](../islideshowtransition). |
-| [ThemeManager](../../aspose.slides/notesslide/thememanager) { get; } | Retorna o gerenciador de tema de sobrescrita. Somente leitura [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager). |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Retorna o objeto Transition que contém informações sobre como o slide especificado avança durante a apresentação. Somente leitura [`ISlideShowTransition`](../islideshowtransition). |
+| [ThemeManager](../../aspose.slides/notesslide/thememanager) { get; } | Retorna o gerenciador de tema de substituição. Somente leitura [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager). |
 | [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Retorna o objeto de linha do tempo de animação. Somente leitura [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## Métodos
@@ -39,12 +39,12 @@ public class NotesSlide : BaseSlide, INotesSlide
 | Nome | Descrição |
 | --- | --- |
 | [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | Retorna um tema efetivo para este slide. |
-| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Determina se duas instâncias IBaseSlide são iguais. O valor retornado é calculado com base na estrutura do slide e no conteúdo estático. Dois slides são iguais se todas as formas, estilos, textos, animações e outras configurações, etc., são iguais. A comparação não leva em consideração valores de identificadores únicos, por exemplo SlideId, e conteúdo dinâmico, por exemplo o valor da data atual em Date Placeholder. |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Determina se duas instâncias de IBaseSlide são iguais. O valor retornado é calculado com base na estrutura do slide e no conteúdo estático. Dois slides são iguais se todas as formas, estilos, textos, animações e outras configurações, etc., forem iguais. A comparação não leva em conta valores de identificadores únicos, por exemplo SlideId, e conteúdo dinâmico, como o valor da data atual em um placeholder de data. |
 | [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Encontra a primeira ocorrência de uma forma com o texto alternativo especificado. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Mescla runs com a mesma formatação em todos os parágrafos de todas as formas aceitáveis. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Mescla runs com a mesma formatação em todos os parágrafos em todas as formas aceitáveis. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Junta execuções com a mesma formatação em todos os parágrafos de todas as formas aceitáveis. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Junta execuções com a mesma formatação em todos os parágrafos de todas as formas aceitáveis. |
 
-### Ver Também
+### Veja Também
 
 * classe [BaseSlide](../baseslide)
 * interface [INotesSlide](../inotesslide)

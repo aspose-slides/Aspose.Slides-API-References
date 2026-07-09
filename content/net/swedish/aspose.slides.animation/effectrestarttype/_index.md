@@ -1,14 +1,14 @@
 ---
 title: EffectRestartType
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar omstartstyper för tidtagning.
+description: Representerar återstarttyper för timing.
 type: docs
-weight: 310
+weight: 330
 url: /sv/aspose.slides.animation/effectrestarttype/
 ---
 ## EffectRestartType uppräkning
 
-Representerar omstartstyper för tidtagning.
+Representerar återstartstyper för timing.
 
 ```csharp
 public enum EffectRestartType
@@ -23,7 +23,7 @@ public enum EffectRestartType
 | WhenNotActive | `1` |  |
 | Never | `2` |  |
 
-### Se också
+### Se även
 
 * namnrymd [Aspose.Slides.Animation](../../aspose.slides.animation)
 * samling [Aspose.Slides](../../)

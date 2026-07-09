@@ -1,14 +1,14 @@
 ---
 title: IPatternFormat
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Bir şekli doldurmak için bir deseni temsil eder.
 type: docs
-weight: 6600
+weight: 6620
 url: /tr/aspose.slides/ipatternformat/
 ---
 ## IPatternFormat arayüzü
 
-Bir şekli doldurmak için bir deseni temsil eder.
+Bir şekli doldurmak için kullanılan deseni temsil eder.
 
 ```csharp
 public interface IPatternFormat
@@ -26,10 +26,10 @@ public interface IPatternFormat
 
 | Ad | Açıklama |
 | --- | --- |
-| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile)(Color) | Desen dolgu için bir döşeme resmi oluşturur. |
-| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile_1)(Color, Color) | Belirtilen renklerle desen dolgu için bir döşeme resmi oluşturur. |
+| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile)(Color) | Desen doldurması için bir döşeme resmi oluşturur. |
+| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile_1)(Color, Color) | Belirli renklerle desen doldurması için bir döşeme resmi oluşturur. |
 
-### Bakınız
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: HSL
 second_title: Aspose.Sildes for .NET API リファレンス
-description: Hue/Saturation/Luminance エフェクトを表します。Hue、Saturation、Luminance はそれぞれ現在の値に対して相対的に調整できます。
+description: Hue/Saturation/Luminance エフェクトを表します。hue、saturation、luminance はそれぞれ現在の値に対して相対的に調整できます。
 type: docs
-weight: 2990
+weight: 3010
 url: /ja/aspose.slides.effects/hsl/
 ---
 ## HSL クラス
 
-Hue/Saturation/Luminance エフェクトを表します。Hue、Saturation、Luminance はそれぞれ現在の値に対して相対的に調整できます。
+Hue/Saturation/Luminance エフェクトを表します。hue、saturation、luminance はそれぞれ現在の値に対して相対的に調整できます。
 
 ```csharp
 public sealed class HSL : ImageTransformOperation, IHSL
@@ -25,7 +25,7 @@ public sealed class HSL : ImageTransformOperation, IHSL
 | 名前 | 説明 |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/hsl/equals)(object) | 指定された [`HSL`](../hsl) が現在の [`HSL`](../hsl) と等しいかどうかを判断します。 |
-| [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | 継承が適用された有効な Hue/Saturation/Luminance エフェクトデータを取得します。 |
+| [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | 継承が適用された有効な Hue/Saturation/Luminance エフェクト データを取得します。 |
 | override [GetHashCode](../../aspose.slides.effects/hsl/gethashcode)() | 特定の型に対するハッシュ関数として機能します。 |
 
 ### 参照

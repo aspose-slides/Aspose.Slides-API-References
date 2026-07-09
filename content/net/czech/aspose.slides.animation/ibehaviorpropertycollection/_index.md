@@ -1,9 +1,9 @@
 ---
 title: IBehaviorPropertyCollection
 second_title: Aspose.Sildes pro .NET – referenční příručka API
-description: Representuje časové vlastnosti pro chování efektu.
+description: Reprezentuje časové vlastnosti pro chování efektu.
 type: docs
-weight: 430
+weight: 450
 url: /cs/aspose.slides.animation/ibehaviorpropertycollection/
 ---
 ## IBehaviorPropertyCollection rozhraní
@@ -18,7 +18,7 @@ public interface IBehaviorPropertyCollection : IList<IBehaviorProperty>
 
 | Název | Popis |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/ibehaviorpropertycollection/asienumerable) { get; } | Vrací rozhraní IEnumerable. Pouze pro čtení IEnumerable. |
+| [AsIEnumerable](../../aspose.slides.animation/ibehaviorpropertycollection/asienumerable) { get; } | Vrací rozhraní IEnumerable. Pouze pro čtení. |
 
 ## Metody
 
@@ -28,7 +28,7 @@ public interface IBehaviorPropertyCollection : IList<IBehaviorProperty>
 | [Contains](../../aspose.slides.animation/ibehaviorpropertycollection/contains)(string) | Určuje, zda ICollection obsahuje konkrétní hodnotu. |
 | [IndexOf](../../aspose.slides.animation/ibehaviorpropertycollection/indexof)(string) | Určuje index konkrétní položky podle hodnoty vlastnosti v IList. |
 | [Insert](../../aspose.slides.animation/ibehaviorpropertycollection/insert)(int, string) | Vloží novou vlastnost (s určenou hodnotou vlastnosti) do kolekce na zadaném indexu. |
-| [Remove](../../aspose.slides.animation/ibehaviorpropertycollection/remove)(string) | Odstraní zadanou vlastnost z kolekce. |
+| [Remove](../../aspose.slides.animation/ibehaviorpropertycollection/remove)(string) | Odstraní určenou vlastnost z kolekce. |
 
 ### Viz také
 

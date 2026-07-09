@@ -1,14 +1,14 @@
 ---
 title: FillFormat
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili opsi pemformatan isian.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili opsi format pengisian.
 type: docs
-weight: 4760
+weight: 4780
 url: /id/aspose.slides/fillformat/
 ---
-## FillFormat kelas
+## FillFormat class
 
-Mewakili opsi pemformatan isian.
+Mewakili opsi format pengisian.
 
 ```csharp
 public sealed class FillFormat : PVIObject, IFillFormat
@@ -18,20 +18,20 @@ public sealed class FillFormat : PVIObject, IFillFormat
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Mengizinkan untuk mendapatkan antarmuka IPresentationComponent dasar. Hanya-baca [`IPresentationComponent`](../ipresentationcomponent). |
-| [FillType](../../aspose.slides/fillformat/filltype) { get; set; } | Mengembalikan atau mengatur tipe pengisian. Baca/tulis [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/fillformat/gradientformat) { get; } | Mengembalikan format isian gradasi. Hanya-baca [`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/fillformat/patternformat) { get; } | Mengembalikan format isian pola. Hanya-baca [`IPatternFormat`](../ipatternformat). |
-| [PictureFillFormat](../../aspose.slides/fillformat/picturefillformat) { get; } | Mengembalikan format isian gambar. Hanya-baca [`IPictureFillFormat`](../ipicturefillformat). |
-| [RotateWithShape](../../aspose.slides/fillformat/rotatewithshape) { get; set; } | Menentukan apakah isian harus diputar bersamaan dengan bentuk. Baca/tulis [`NullableBool`](../nullablebool). |
-| [SolidFillColor](../../aspose.slides/fillformat/solidfillcolor) { get; } | Mengembalikan warna isian. Hanya-baca [`IColorFormat`](../icolorformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IPresentationComponent. Baca-saja [`IPresentationComponent`](../ipresentationcomponent). |
+| [FillType](../../aspose.slides/fillformat/filltype) { get; set; } | Mengembalikan atau menetapkan tipe pengisian. Baca/tulis [`FillType`](../filltype). |
+| [GradientFormat](../../aspose.slides/fillformat/gradientformat) { get; } | Mengembalikan format pengisian gradien. Baca-saja [`IGradientFormat`](../igradientformat). |
+| [PatternFormat](../../aspose.slides/fillformat/patternformat) { get; } | Mengembalikan format pengisian pola. Baca-saja [`IPatternFormat`](../ipatternformat). |
+| [PictureFillFormat](../../aspose.slides/fillformat/picturefillformat) { get; } | Mengembalikan format pengisian gambar. Baca-saja [`IPictureFillFormat`](../ipicturefillformat). |
+| [RotateWithShape](../../aspose.slides/fillformat/rotatewithshape) { get; set; } | Menentukan apakah pengisian harus diputar bersama bentuk. Baca/tulis [`NullableBool`](../nullablebool). |
+| [SolidFillColor](../../aspose.slides/fillformat/solidfillcolor) { get; } | Mengembalikan warna pengisian. Baca-saja [`IColorFormat`](../icolorformat). |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Membandingkan dengan objek yang ditentukan. |
-| [GetEffective](../../aspose.slides/fillformat/geteffective)() | Mendapatkan data pemformatan isian yang efektif dengan pewarisan diterapkan. |
+| [GetEffective](../../aspose.slides/fillformat/geteffective)() | Mendapatkan data format pengisian efektif dengan pewarisan yang diterapkan. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Mengembalikan kode hash. |
 
 ### Lihat Juga

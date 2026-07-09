@@ -1,14 +1,14 @@
 ---
 title: IImageTransformOperationCollection
 second_title: Aspose.Sildes pro .NET API Reference
-description: Zastupuje kolekci efektů aplikovaných na obrázek.
+description: Representuje kolekci efektů aplikovaných na obrázek.
 type: docs
-weight: 3380
+weight: 3400
 url: /cs/aspose.slides.effects/iimagetransformoperationcollection/
 ---
 ## IImageTransformOperationCollection rozhraní
 
-Zastupuje sbírku efektů aplikovaných na obrázek.
+Represents a collection of effects apllied to an image.
 
 ```csharp
 public interface IImageTransformOperationCollection : ICollection<IImageTransformOperation>
@@ -18,7 +18,7 @@ public interface IImageTransformOperationCollection : ICollection<IImageTransfor
 
 | Název | Popis |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.effects/iimagetransformoperationcollection/asienumerable) { get; } | Vrací rozhraní IEnumerable. IEnumerable jen pro čtení. |
+| [AsIEnumerable](../../aspose.slides.effects/iimagetransformoperationcollection/asienumerable) { get; } | Pouze pro čtení IEnumerable. |
 | [Item](../../aspose.slides.effects/iimagetransformoperationcollection/item) { get; } | Vrací [`IImageTransformOperation`](../iimagetransformoperation) ze sbírky podle jeho indexu. |
 
 ## Metody
@@ -43,7 +43,7 @@ public interface IImageTransformOperationCollection : ICollection<IImageTransfor
 | [AddHSLEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addhsleffect)(float, float, float) | Přidá nový efekt Hue/Saturation/Luminance na konec sbírky. |
 | [AddLuminanceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addluminanceeffect)(float, float) | Přidá nový efekt Luminance na konec sbírky. |
 | [AddTintEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addtinteffect)(float, float) | Přidá nový efekt Tint na konec sbírky. |
-| [RemoveAt](../../aspose.slides.effects/iimagetransformoperationcollection/removeat)(int) | Odstraní obrazový efekt ze sbírky na zadaném indexu. |
+| [RemoveAt](../../aspose.slides.effects/iimagetransformoperationcollection/removeat)(int) | Odstraní efekt obrázku ze sbírky na zadaném indexu. |
 
 ### Viz také
 

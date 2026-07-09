@@ -1,9 +1,9 @@
 ---
 title: ISlidesPicture
-second_title: Aspose.Sildes para .NET - Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa uma imagem em uma apresentação.
 type: docs
-weight: 7090
+weight: 7110
 url: /pt/aspose.slides/islidespicture/
 ---
 ## ISlidesPicture interface
@@ -19,9 +19,9 @@ public interface ISlidesPicture : ISlideComponent
 | Nome | Descrição |
 | --- | --- |
 | [AsISlideComponent](../../aspose.slides/islidespicture/asislidecomponent) { get; } | Permite obter a interface base ISlideComponent. Somente leitura [`ISlideComponent`](../islidecomponent). |
-| [Image](../../aspose.slides/islidespicture/image) { get; set; } | Retorna ou define a imagem incorporada. Leitura/gravação [`IPPImage`](../ippimage). |
+| [Image](../../aspose.slides/islidespicture/image) { get; set; } | Retorna ou define a imagem incorporada. Leitura/Gravação [`IPPImage`](../ippimage). |
 | [ImageTransform](../../aspose.slides/islidespicture/imagetransform) { get; } | Retorna a coleção de efeitos de transformação de imagem. Somente leitura [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
-| [LinkPathLong](../../aspose.slides/islidespicture/linkpathlong) { get; set; } | Retorna ou define a URL da imagem vinculada. Leitura/gravação String. |
+| [LinkPathLong](../../aspose.slides/islidespicture/linkpathlong) { get; set; } | Retorna ou define a URL da imagem vinculada. Leitura/Gravação String. |
 
 ### Veja Também
 

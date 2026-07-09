@@ -3,12 +3,12 @@ title: IParagraphFactory
 second_title: Aspose.Sildes .NET API referencia
 description: Lehetővé teszi bekezdések létrehozását
 type: docs
-weight: 6560
+weight: 6580
 url: /hu/aspose.slides/iparagraphfactory/
 ---
 ## IParagraphFactory interfész
 
-Lehetővé teszi bekezdések létrehozását
+Lehetővé teszi a bekezdések létrehozását
 
 ```csharp
 public interface IParagraphFactory
@@ -19,11 +19,11 @@ public interface IParagraphFactory
 | Név | Leírás |
 | --- | --- |
 | [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph#createparagraph)() | Új üres bekezdést hoz létre. |
-| [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph#createparagraph_1)(IParagraph) | Új bekezdést hoz létre a megadott bekezdésadatokkal. |
+| [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph#createparagraph_1)(IParagraph) | Új bekezdést hoz létre a megadott bekezdés adataival. |
 
-### Megjegyzés
+### Megjegyzések
 
-A COM kompatibilitás érdekében.
+COM kompatibilitáshoz.
 
 ### Lásd még
 

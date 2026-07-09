@@ -1,14 +1,14 @@
 ---
 title: ExcelWorkbookImporter
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Bir Excel çalışma kitabından içeriği bir sunuma aktarmak için işlevsellik sağlar.
 type: docs
-weight: 7450
+weight: 7470
 url: /tr/aspose.slides.import/excelworkbookimporter/
 ---
 ## ExcelWorkbookImporter sınıfı
 
-Bir Excel çalışma kitabından içeriği bir sunuma aktarmak için işlevsellik sağlar.
+Excel çalışma kitabından bir sunuma içerik aktarmak için işlevsellik sağlar.
 
 ```csharp
 public static class ExcelWorkbookImporter
@@ -18,15 +18,15 @@ public static class ExcelWorkbookImporter
 
 | Ad | Açıklama |
 | --- | --- |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, int, bool) | Belirtilen Excel çalışma kitabından bir grafik alır ve verilen şekil koleksiyonunun sonuna belirtilen koordinatlarda ekler. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_1)(IShapeCollection, float, float, IExcelDataWorkbook, string, string, bool) | Belirtilen Excel çalışma kitabından bir grafik alır ve verilen şekil koleksiyonunun sonuna belirtilen koordinatlarda ekler. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_2)(IShapeCollection, float, float, Stream, string, string, bool) | Belirtilen Excel çalışma kitabından bir grafik alır ve verilen şekil koleksiyonunun sonuna belirtilen koordinatlarda ekler. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_3)(IShapeCollection, float, float, string, string, string, bool) | Belirtilen Excel çalışma kitabından bir grafik alır ve verilen şekil koleksiyonunun sonuna belirtilen koordinatlarda ekler. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, string) | Belirtilen Excel çalışma kitabından bir tablo alır ve verilen şekil koleksiyonunun sonuna belirtilen koordinatlarda ekler. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_1)(IShapeCollection, float, float, Stream, string, string) | Belirtilen Excel çalışma kitabı dosyasından bir tablo alır ve verilen şekil koleksiyonunun sonuna belirtilen koordinatlarda ekler. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_2)(IShapeCollection, float, float, string, string, string) | Belirtilen Excel çalışma kitabı dosyasından bir tablo alır ve verilen şekil koleksiyonunun sonuna belirtilen koordinatlarda ekler. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, int, bool) | Belirtilen Excel çalışma kitabından bir chart alır ve verilen şekil koleksiyonunun sonuna belirtilen koordinatlarda ekler. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_1)(IShapeCollection, float, float, IExcelDataWorkbook, string, string, bool) | Belirtilen Excel çalışma kitabından bir chart alır ve verilen şekil koleksiyonunun sonuna belirtilen koordinatlarda ekler. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_2)(IShapeCollection, float, float, Stream, string, string, bool) | Belirtilen Excel çalışma kitabından bir chart alır ve verilen şekil koleksiyonunun sonuna belirtilen koordinatlarda ekler. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_3)(IShapeCollection, float, float, string, string, string, bool) | Belirtilen Excel çalışma kitabından bir chart alır ve verilen şekil koleksiyonunun sonuna belirtilen koordinatlarda ekler. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, string) | Belirtilen Excel çalışma kitabından bir table alır ve verilen şekil koleksiyonunun sonuna belirtilen koordinatlarda ekler. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_1)(IShapeCollection, float, float, Stream, string, string) | Belirtilen Excel çalışma kitabı dosyasından bir table alır ve verilen şekil koleksiyonunun sonuna belirtilen koordinatlarda ekler. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_2)(IShapeCollection, float, float, string, string, string) | Belirtilen Excel çalışma kitabı dosyasından bir table alır ve verilen şekil koleksiyonunun sonuna belirtilen koordinatlarda ekler. |
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.Import](../../aspose.slides.import)
 * derleme [Aspose.Slides](../../)

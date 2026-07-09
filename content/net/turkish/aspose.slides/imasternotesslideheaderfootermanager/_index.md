@@ -1,14 +1,14 @@
 ---
 title: IMasterNotesSlideHeaderFooterManager
-second_title: Aspose.Slides için .NET API Referansı
-description: Ana not slaytı altbilgi, tarih-saat ve sayfa numarası yer tutucularının ve tüm alt yer tutucularının davranışını tutan yöneticiyi temsil eder. Alt yer tutucular, bağlı not slaytlarında bulunan yer tutucular anlamına gelir. Bağlı not slaytları ana not slaytını kullanır ve ona bağlıdır.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Ana not slaytı altbilgi, tarih-saat, sayfa numarası yer tutucularının ve tüm alt yer tutucularının davranışını tutan yöneticiyi temsil eder. Alt yer tutucular, bağımlı not slaytlarında bulunan yer tutucular anlamına gelir. Bağımlı not slaytları, ana not slaytını kullanır ve ona bağlıdır.
 type: docs
-weight: 6380
+weight: 6400
 url: /tr/aspose.slides/imasternotesslideheaderfootermanager/
 ---
 ## IMasterNotesSlideHeaderFooterManager arayüzü
 
-Ana not slaytı altbilgisi, tarih-saat ve sayfa numarası yer tutucularının ve tüm alt yer tutucuların davranışını tutan yöneticiyi temsil eder. Alt yer tutucular, bağlı not slaytlarında bulunan yer tutucular anlamına gelir. Bağlı not slaytları ana not slaytını kullanır ve ona bağlıdır.
+Ana not slaytı altbilgi, tarih-saat, sayfa numarası yer tutucuları ve tüm alt yer tutucularının davranışını tutan yöneticiyi temsil eder. Alt yer tutucular, bağımlı not slaytlarında bulunan yer tutucular anlamına gelir. Bağımlı not slaytları, ana not slaytını kullanır ve ona bağlıdır.
 
 ```csharp
 public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -24,15 +24,15 @@ public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHe
 
 | Ad | Açıklama |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Metni ana not slaytı tarih-saat yer tutucusuna ve tüm alt tarih-saat yer tutucularına ayarlar. Alt yer tutucular, bağlı not slaytlarında bulunan yer tutucular anlamına gelir. Bağlı not slaytları ana not slaytını kullanır ve ona bağlıdır. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Ana not slaytı tarih-saat yer tutucusunun ve tüm alt tarih-saat yer tutucularının görünürlüğünü değiştirir. Alt yer tutucular, bağlı not slaytlarında bulunan yer tutucular anlamına gelir. Bağlı not slaytları ana not slaytını kullanır ve ona bağlıdır. |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | Metni ana not slaytı altbilgi yer tutucusuna ve tüm alt altbilgi yer tutucularına ayarlar. Alt yer tutucular, bağlı not slaytlarında bulunan yer tutucular anlamına gelir. Bağlı not slaytları ana not slaytını kullanır ve ona bağlıdır. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Ana not slaytı altbilgi yer tutucusunun ve tüm alt altbilgi yer tutucularının görünürlüğünü değiştirir. Alt yer tutucular, bağlı not slaytlarında bulunan yer tutucular anlamına gelir. Bağlı not slaytları ana not slaytını kullanır ve ona bağlıdır. |
-| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | Metni ana not slaytı üstbilgi yer tutucusuna ve tüm alt üstbilgi yer tutucularına ayarlar. Alt yer tutucular, bağlı not slaytlarında bulunan yer tutucular anlamına gelir. Bağlı not slaytları ana not slaytını kullanır ve ona bağlıdır. |
-| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | Ana not slaytı üstbilgi yer tutucusunun ve tüm alt üstbilgi yer tutucularının görünürlüğünü değiştirir. Alt yer tutucular, bağlı not slaytlarında bulunan yer tutucular anlamına gelir. Bağlı not slaytları ana not slaytını kullanır ve ona bağlıdır. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Ana not slaytı sayfa numarası yer tutucusunun ve tüm alt sayfa numarası yer tutucularının görünürlüğünü değiştirir. Alt yer tutucular, bağlı not slaytlarında bulunan yer tutucular anlamına gelir. Bağlı not slaytları ana not slaytını kullanır ve ona bağlıdır. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Ana not slaytı tarih-saat yer tutucusuna ve tüm alt tarih-saat yer tutucularına metin atar. Alt yer tutucular, bağımlı not slaytlarında bulunan yer tutucular anlamına gelir. Bağımlı not slaytları, ana not slaytını kullanır ve ona bağlıdır. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Ana not slaytı tarih-saat yer tutucusunun ve tüm alt tarih-saat yer tutucularının görünürlüğünü değiştirir. Alt yer tutucular, bağımlı not slaytlarında bulunan yer tutucular anlamına gelir. Bağımlı not slaytları, ana not slaytını kullanır ve ona bağlıdır. |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | Ana not slaytı altbilgi yer tutucusuna ve tüm alt altbilgi yer tutucularına metin atar. Alt yer tutucular, bağımlı not slaytlarında bulunan yer tutucular anlamına gelir. Bağımlı not slaytları, ana not slaytını kullanır ve ona bağlıdır. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Ana not slaytı altbilgi yer tutucusunun ve tüm alt altbilgi yer tutucularının görünürlüğünü değiştirir. Alt yer tutucular, bağımlı not slaytlarında bulunan yer tutucular anlamına gelir. Bağımlı not slaytları, ana not slaytını kullanır ve ona bağlıdır. |
+| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | Ana not slaytı başlık yer tutucusuna ve tüm alt başlık yer tutucularına metin atar. Alt yer tutucular, bağımlı not slaytlarında bulunan yer tutucular anlamına gelir. Bağımlı not slaytları, ana not slaytını kullanır ve ona bağlıdır. |
+| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | Ana not slaytı başlık yer tutucusunun ve tüm alt başlık yer tutucularının görünürlüğünü değiştirir. Alt yer tutucular, bağımlı not slaytlarında bulunan yer tutucular anlamına gelir. Bağımlı not slaytları, ana not slaytını kullanır ve ona bağlıdır. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Ana not slaytı sayfa numarası yer tutucusunun ve tüm alt sayfa numarası yer tutucularının görünürlüğünü değiştirir. Alt yer tutucular, bağımlı not slaytlarında bulunan yer tutucular anlamına gelir. Bağımlı not slaytları, ana not slaytını kullanır ve ona bağlıdır. |
 
-### Ayrıca Bakınız
+### Ayrıca bakınız
 
 * arayüz [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
 * ad alanı [Aspose.Slides](../../aspose.slides)

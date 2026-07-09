@@ -3,7 +3,7 @@ title: FrameTickEventArgs
 second_title: Aspose.Sildes for .NET API リファレンス
 description: FrameTick./presentationplayer/frametick イベントの引数を表します。
 type: docs
-weight: 3790
+weight: 3810
 url: /ja/aspose.slides.export/frametickeventargs/
 ---
 ## FrameTickEventArgs クラス

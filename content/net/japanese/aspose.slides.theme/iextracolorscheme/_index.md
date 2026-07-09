@@ -3,7 +3,7 @@ title: IExtraColorScheme
 second_title: Aspose.Sildes for .NET API リファレンス
 description: スライドに割り当て可能な追加のカラースキームを表します。
 type: docs
-weight: 11190
+weight: 11210
 url: /ja/aspose.slides.theme/iextracolorscheme/
 ---
 ## IExtraColorScheme インターフェイス
@@ -18,8 +18,8 @@ public interface IExtraColorScheme
 
 | 名前 | 説明 |
 | --- | --- |
-| [ColorScheme](../../aspose.slides.theme/iextracolorscheme/colorscheme) { get; } | カラースキームを返します。読み取り専用 [`IColorScheme`](../icolorscheme)。 |
-| [Name](../../aspose.slides.theme/iextracolorscheme/name) { get; } | このスキームの名前を返します。読み取り専用 String。 |
+| [ColorScheme](../../aspose.slides.theme/iextracolorscheme/colorscheme) { get; } | カラースキームを返します。読み取り専用 [`IColorScheme`](../icolorscheme). |
+| [Name](../../aspose.slides.theme/iextracolorscheme/name) { get; } | このスキームの名前を返します。読み取り専用 String. |
 
 ### 参照
 

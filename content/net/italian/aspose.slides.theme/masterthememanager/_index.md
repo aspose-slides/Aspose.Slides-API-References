@@ -1,9 +1,9 @@
 ---
 title: MasterThemeManager
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Fornisce l'accesso al tema master della presentazione.
 type: docs
-weight: 11420
+weight: 11440
 url: /it/aspose.slides.theme/masterthememanager/
 ---
 ## MasterThemeManager classe
@@ -18,8 +18,8 @@ public class MasterThemeManager : BaseThemeManager, IMasterThemeManager
 
 | Nome | Descrizione |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | Determina se OverrideTheme sovrascrive il tema efficace ereditato (Presentation.MasterTheme) o meno. Booleano di lettura/scrittura. |
-| [OverrideTheme](../../aspose.slides.theme/masterthememanager/overridetheme) { get; set; } | Restituisce l'oggetto tema sovrascrivente. Booleano di lettura/scrittura [`IMasterTheme`](../imastertheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | Determina se OverrideTheme sovrascrive o meno il tema effettivo ereditato (Presentation.MasterTheme). Lettura/scrittura Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/masterthememanager/overridetheme) { get; set; } | Restituisce l'oggetto tema sovrascrivente. Lettura/scrittura [`IMasterTheme`](../imastertheme). |
 
 ## Metodi
 

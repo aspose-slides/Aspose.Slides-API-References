@@ -1,14 +1,14 @@
 ---
 title: IDoubleChartValue
 second_title: Aspose.Sildes for .NET API リファレンス
-description: pptx プレゼンテーション ドキュメントに保存できる double 値を、1) チャートに関連付けられたワークブックのセル/セル、2) リテラル値として、2 つの方法で表します。
+description: pptx プレゼンテーション ドキュメントに double 値を格納する方法は 2 つあります。1) チャートに関連付けられたワークブックのセル/セル群に格納する方法、2) リテラル値として格納する方法。
 type: docs
-weight: 2050
+weight: 2070
 url: /ja/aspose.slides.charts/idoublechartvalue/
 ---
 ## IDoubleChartValue インターフェイス
 
-pptx プレゼンテーション ドキュメントに保存できる double 値を 2 つの方法で表します: 1) チャートに関連付けられたワークブックのセル/セルに; 2) リテラル値として。
+pptx プレゼンテーション ドキュメントに double 値を格納する方法は 2 つあります: 1) チャートに関連付けられたワークブックのセル/セル群に格納する方法、2) リテラル値として格納する方法。
 
 ```csharp
 public interface IDoubleChartValue : ISingleCellChartValue
@@ -19,7 +19,7 @@ public interface IDoubleChartValue : ISingleCellChartValue
 | 名前 | 説明 |
 | --- | --- |
 | [AsISingleCellChartValue](../../aspose.slides.charts/idoublechartvalue/asisinglecellchartvalue) { get; } | ベースの ISingleCellChartValue インターフェイスを取得できます。読み取り専用 [`ISingleCellChartValue`](../isinglecellchartvalue)。 |
-| [AsLiteralDouble](../../aspose.slides.charts/idoublechartvalue/asliteraldouble) { get; set; } | DataSourceType = Charts.DataSourceType.DoubleLiterals の場合、リテラル double 値を取得または設定します。読み書き可能 Double。 |
+| [AsLiteralDouble](../../aspose.slides.charts/idoublechartvalue/asliteraldouble) { get; set; } | DataSourceType = Charts.DataSourceType.DoubleLiterals の場合、リテラルの Double 値を取得または設定します。読み取り/書き込み Double。 |
 
 ## メソッド
 

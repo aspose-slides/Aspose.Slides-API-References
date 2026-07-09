@@ -1,14 +1,14 @@
 ---
 title: IPoint
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar animeringspunkt.
+description: Representerar animationspunkt.
 type: docs
-weight: 520
+weight: 540
 url: /sv/aspose.slides.animation/ipoint/
 ---
-## IPoint interface
+## IPoint gränssnitt
 
-Representerar animeringspunkt.
+Representerar animationspunkt.
 
 ```csharp
 public interface IPoint
@@ -18,7 +18,7 @@ public interface IPoint
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Formula](../../aspose.slides.animation/ipoint/formula) { get; set; } | Formler inom värden, from, to, by-attribut kan bestå av följande: Standard aritmetiska operatorer: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Konstanter: ‘pi’ ‘e’ Villkorsoperatorer: ‘abs’, ‘min’, ‘max’, ‘?’ (if) Jämförelseoperatorer: '==', '&gt;=', '', '!=', '!' Trigonometriska operatorer: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Naturlig logaritm ‘ln()’ Egendomsreferenser (värdstödda egenskaper) för exempel: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Läs/skriv String. |
+| [Formula](../../aspose.slides.animation/ipoint/formula) { get; set; } | Formler inom värden, from, to, by-attribut kan bestå av följande: Standardaritmetiska operatorer: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Konstanter: ‘pi’ ‘e’ Villkorsoperatorer: ‘abs’, ‘min’, ‘max’, ‘?’ (om) Jämförelsesoperatorer: '==', '&gt;=', '', '!=', '!' Trigonometrioperatorer: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Naturlig logaritm ‘ln()’ Egenskapsreferenser (värd-stödda egenskaper) till exempel: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Läs/skriv String. |
 | [Time](../../aspose.slides.animation/ipoint/time) { get; set; } | Representerar tidsvärde. Läs/skriv Single. |
 | [Value](../../aspose.slides.animation/ipoint/value) { get; set; } | Representerar punktvärde. Endast: bool, ColorFormat, float, int, string. Läs/skriv Object. |
 

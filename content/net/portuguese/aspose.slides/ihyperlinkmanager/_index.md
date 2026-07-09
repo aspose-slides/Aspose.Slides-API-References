@@ -1,9 +1,9 @@
 ---
 title: IHyperlinkManager
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Fornece gerenciamento de hyperlinks adicionando e removendo.
 type: docs
-weight: 6110
+weight: 6130
 url: /pt/aspose.slides/ihyperlinkmanager/
 ---
 ## IHyperlinkManager interface
@@ -18,8 +18,8 @@ public interface IHyperlinkManager
 
 | Nome | Descrição |
 | --- | --- |
-| [RemoveHyperlinkClick](../../aspose.slides/ihyperlinkmanager/removehyperlinkclick)() | Remove o hyperlink ao clicar. |
-| [RemoveHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/removehyperlinkmouseover)() | Remove o hyperlink ao passar o mouse. |
+| [RemoveHyperlinkClick](../../aspose.slides/ihyperlinkmanager/removehyperlinkclick)() | Remove hyperlink ao clicar. |
+| [RemoveHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/removehyperlinkmouseover)() | Remove hyperlink ao passar o mouse. |
 | [SetExternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkclick)(string) | Define hyperlink externo ao clicar. |
 | [SetExternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkmouseover)(string) | Define hyperlink externo ao passar o mouse. |
 | [SetInternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkclick)(ISlide) | Define hyperlink interno ao clicar. |

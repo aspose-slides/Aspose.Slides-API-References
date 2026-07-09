@@ -3,12 +3,12 @@ title: IShredTransition
 second_title: Aspose.Sildes för .NET API-referens
 description: Shred-bildövergångseffekt.
 type: docs
-weight: 10160
+weight: 10180
 url: /sv/aspose.slides.slideshow/ishredtransition/
 ---
 ## IShredTransition gränssnitt
 
-Shred bildspelsövergångseffekt.
+Shred bildövergångseffekt.
 
 ```csharp
 public interface IShredTransition : ITransitionValueBase
@@ -16,7 +16,7 @@ public interface IShredTransition : ITransitionValueBase
 
 ## Egenskaper
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/ishredtransition/asitransitionvaluebase) { get; } | Tillåter att hämta bas-ITransitionValueBase-gränssnittet. Skrivskyddad [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/ishredtransition/direction) { get; set; } | Riktning för övergången. Läs/skriv [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |

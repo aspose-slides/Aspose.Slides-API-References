@@ -3,10 +3,10 @@ title: ColorSpace
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta lo spazio colore per il comportamento dell'effetto colore.
 type: docs
-weight: 230
+weight: 250
 url: /it/aspose.slides.animation/colorspace/
 ---
-## ColorSpace enumerazione
+## enumerazione ColorSpace
 
 Rappresenta lo spazio colore per il comportamento dell'effetto colore.
 
@@ -14,7 +14,7 @@ Rappresenta lo spazio colore per il comportamento dell'effetto colore.
 public enum ColorSpace
 ```
 
-### Values
+### Valori
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
@@ -22,7 +22,7 @@ public enum ColorSpace
 | RGB | `0` |  |
 | HSL | `1` |  |
 
-### See Also
+### Vedi anche
 
 * spazio dei nomi [Aspose.Slides.Animation](../../aspose.slides.animation)
 * assembly [Aspose.Slides](../../)

@@ -1,12 +1,12 @@
 ---
 title: ProtectionManager
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET - Riferimento API
 description: Gestione della protezione con password della presentazione.
 type: docs
-weight: 9660
+weight: 9680
 url: /it/aspose.slides/protectionmanager/
 ---
-## classe ProtectionManager
+## ProtectionManager classe
 
 Gestione della protezione con password della presentazione.
 
@@ -18,19 +18,19 @@ public sealed class ProtectionManager : IProtectionManager
 
 | Nome | Descrizione |
 | --- | --- |
-| [EncryptDocumentProperties](../../aspose.slides/protectionmanager/encryptdocumentproperties) { get; set; } | Questa proprietà ha senso se la presentazione è protetta da password. Se vero, le proprietà del documento sono crittografate nel file della presentazione. Se falso, le proprietà del documento sono pubbliche mentre la presentazione è crittografata. Lettura/scrittura Boolean. |
-| [EncryptionPassword](../../aspose.slides/protectionmanager/encryptionpassword) { get; } | Restituisce la password utilizzata per la crittografia della presentazione. Solo lettura String. |
-| [IsEncrypted](../../aspose.slides/protectionmanager/isencrypted) { get; } | Restituisce un valore che indica se questa istanza è crittografata. Solo lettura Boolean. |
-| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/protectionmanager/isonlydocumentpropertiesloaded) { get; } | Questa proprietà ha senso se il file della presentazione è protetto da password e le proprietà del documento di questo file sono pubbliche. Un valore true significa che solo le proprietà del documento vengono caricate da un file di presentazione crittografato senza utilizzare la password. Un valore false significa che l’intera presentazione crittografata viene caricata usando la password corretta, non solo le proprietà del documento. Se la presentazione non è crittografata, il valore della proprietà è sempre false. Se le proprietà del documento di un file crittografato non sono pubbliche, il valore della proprietà è sempre false. Se Presentation.EncryptDocumentProperties è true, il valore della proprietà IsOnlyDocumentPropertiesLoaded è sempre false. Solo lettura Boolean. |
-| [IsWriteProtected](../../aspose.slides/protectionmanager/iswriteprotected) { get; } | Restituisce un valore che indica se questa presentazione è protetta da scrittura. Solo lettura Boolean. |
-| [ReadOnlyRecommended](../../aspose.slides/protectionmanager/readonlyrecommended) { get; set; } | Restituisce o imposta la raccomandazione di sola lettura. Lettura/scrittura Boolean. |
+| [EncryptDocumentProperties](../../aspose.slides/protectionmanager/encryptdocumentproperties) { get; set; } | Questa proprietà ha senso se la presentazione è protetta da password. Se true, allora le proprietà del documento sono crittografate nel file della presentazione. Se false, le proprietà del documento sono pubbliche mentre la presentazione è crittografata. Lettura/Scrittura Boolean. |
+| [EncryptionPassword](../../aspose.slides/protectionmanager/encryptionpassword) { get; } | Restituisce la password utilizzata per la crittografia della presentazione. Sola lettura String. |
+| [IsEncrypted](../../aspose.slides/protectionmanager/isencrypted) { get; } | Restituisce un valore che indica se questa istanza è crittografata. Sola lettura Boolean. |
+| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/protectionmanager/isonlydocumentpropertiesloaded) { get; } | Questa proprietà ha senso se il file della presentazione è protetto da password e le proprietà del documento di questo file sono pubbliche. Il valore true indica che solo le proprietà del documento vengono caricate da un file di presentazione crittografato senza utilizzare la password. Il valore false indica che l'intera presentazione crittografata viene caricata con l'uso della password corretta, non solo le proprietà del documento. Se la presentazione non è crittografata, il valore della proprietà è sempre false. Se le proprietà del documento di un file crittografato non sono pubbliche, il valore della proprietà è sempre false. Se Presentation.EncryptDocumentProperties è true, allora il valore della proprietà IsOnlyDocumentPropertiesLoaded è sempre false. Sola lettura Boolean. |
+| [IsWriteProtected](../../aspose.slides/protectionmanager/iswriteprotected) { get; } | Restituisce un valore che indica se questa presentazione è protetta da scrittura. Sola lettura Boolean. |
+| [ReadOnlyRecommended](../../aspose.slides/protectionmanager/readonlyrecommended) { get; set; } | Restituisce o imposta la raccomandazione di sola lettura. Lettura/Scrittura Boolean. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
 | [CheckWriteProtection](../../aspose.slides/protectionmanager/checkwriteprotection)(string) | Determina se una presentazione è protetta da password per la modifica. |
-| [Encrypt](../../aspose.slides/protectionmanager/encrypt)(string) | Cifra la presentazione con la password specificata. |
+| [Encrypt](../../aspose.slides/protectionmanager/encrypt)(string) | Crittografa la presentazione con la password specificata. |
 | [RemoveEncryption](../../aspose.slides/protectionmanager/removeencryption)() | Rimuove la crittografia. |
 | [RemoveWriteProtection](../../aspose.slides/protectionmanager/removewriteprotection)() | Rimuove la protezione da scrittura per questa presentazione. |
 | [SetWriteProtection](../../aspose.slides/protectionmanager/setwriteprotection)(string) | Imposta la protezione da scrittura per questa presentazione con la password specificata. |

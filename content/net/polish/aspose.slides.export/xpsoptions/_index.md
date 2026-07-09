@@ -1,14 +1,14 @@
 ---
 title: XpsOptions
-second_title: Aspose.Sildes dla .NET API Reference
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Udostępnia opcje kontrolujące sposób zapisywania prezentacji w formacie XPS.
 type: docs
-weight: 4710
+weight: 4730
 url: /pl/aspose.slides.export/xpsoptions/
 ---
 ## XpsOptions klasa
 
-Udostępnia opcje kontrolujące sposób zapisywania prezentacji w formacie XPS.
+Umożliwia opcje kontrolujące sposób zapisywania prezentacji w formacie XPS.
 
 ```csharp
 public class XpsOptions : SaveOptions, IXpsOptions
@@ -24,14 +24,14 @@ public class XpsOptions : SaveOptions, IXpsOptions
 
 | Nazwa | Opis |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Zwraca lub ustawia czcionkę używaną w przypadku, gdy nie znaleziono czcionki źródłowej. Odczyt-zapis String. |
-| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | True, aby narysować czarną ramkę wokół każdego slajdu. Odczyt/zapis Boolean. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Zwraca lub ustawia czcionkę używaną, gdy nie zostanie znaleziona czcionka źródłowa. Odczyt/zapis String. |
+| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | Ustaw true, aby narysować czarną ramkę wokół każdego slajdu. Odczyt/zapis Boolean. |
 | [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Zwraca lub ustawia styl wizualny gradientu. Odczyt/zapis [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Reprezentuje obiekt wywołania zwrotnego dla aktualizacji postępu zapisu w procentach. Zobacz [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | True, aby konwertować wszystkie metapliki używane w prezentacji na obrazy PNG. Odczyt/zapis Boolean. |
+| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | Ustaw true, aby przekonwertować wszystkie pliki meta użyte w prezentacji na obrazy PNG. Odczyt/zapis Boolean. |
 | [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | Określa, czy wygenerowany dokument powinien zawierać ukryte slajdy. Domyślnie `false`. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Określa, czy pomijać hiperłącza z wywołaniami JavaScript podczas zapisywania prezentacji. Odczyt/zapis Boolean. Domyślna wartość to **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Zwraca lub ustawia obiekt, który odbiera ostrzeżenia i decyduje, czy proces ładowania ma być kontynuowany, czy przerwany. Odczyt/zapis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Określa, czy pomijać hiperłącza z wywołaniami JavaScript podczas zapisywania prezentacji. Odczyt/zapis Boolean. Wartość domyślna to **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Zwraca lub ustawia obiekt, który otrzymuje ostrzeżenia i decyduje, czy proces ładowania będzie kontynuowany, czy przerwany. Odczyt/zapis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Przykłady
 
@@ -54,9 +54,9 @@ Poniższy przykład pokazuje, jak konwertować prezentacje do XPS przy użyciu w
 // Utwórz obiekt Presentation, który reprezentuje plik prezentacji
 using (Presentation pres = new Presentation("Convert_XPS_Options.pptx"))
 {
-    // Utwórz instancję klasy TiffOptions
+    // Utwórz obiekt klasy TiffOptions
     XpsOptions options = new XpsOptions();
-    // Zapisz metafile jako PNG
+    // Zapisz pliki Meta jako PNG
     options.SaveMetafilesAsPng = true;
     // Zapisz prezentację do dokumentu XPS
     pres.Save("XPS_With_Options_out.xps", SaveFormat.Xps, options);

@@ -3,7 +3,7 @@ title: IXpsOptions
 second_title: Aspose.Sildes för .NET API-referens
 description: Tillhandahåller alternativ som styr hur en presentation sparas i XPS-format.
 type: docs
-weight: 4180
+weight: 4200
 url: /sv/aspose.slides.export/ixpsoptions/
 ---
 ## IXpsOptions gränssnitt
@@ -19,9 +19,9 @@ public interface IXpsOptions : ISaveOptions
 | Namn | Beskrivning |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/ixpsoptions/asisaveoptions) { get; } | Returnerar ISaveOptions gränssnitt. Skrivskyddad [`ISaveOptions`](../isaveoptions). |
-| [DrawSlidesFrame](../../aspose.slides.export/ixpsoptions/drawslidesframe) { get; set; } | Sant för att rita en svart ram runt varje bild. Läs/skriv Boolean. |
-| [SaveMetafilesAsPng](../../aspose.slides.export/ixpsoptions/savemetafilesaspng) { get; set; } | Sant för att konvertera alla metafiler som används i en presentation till PNG-bilder. Läs/skriv Boolean. |
-| [ShowHiddenSlides](../../aspose.slides.export/ixpsoptions/showhiddenslides) { get; set; } | Anger om det genererade dokumentet ska inkludera dolda bilder eller inte. Standard är `false`. |
+| [DrawSlidesFrame](../../aspose.slides.export/ixpsoptions/drawslidesframe) { get; set; } | True för att rita en svart ram runt varje bild. Läs/skriv Boolean. |
+| [SaveMetafilesAsPng](../../aspose.slides.export/ixpsoptions/savemetafilesaspng) { get; set; } | True för att konvertera alla metafiler som används i en presentation till PNG-bilder. Läs/skriv Boolean. |
+| [ShowHiddenSlides](../../aspose.slides.export/ixpsoptions/showhiddenslides) { get; set; } | Anger om det genererade dokumentet ska innehålla dolda bilder eller inte. Standard är `false`. |
 
 ### Se även
 

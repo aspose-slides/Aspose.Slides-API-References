@@ -1,12 +1,12 @@
 ---
 title: CategoryAxisType
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Aspose.Sildes per .NET - Riferimento API
 description: Rappresenta un tipo di asse di categoria.
 type: docs
-weight: 1230
+weight: 1250
 url: /it/aspose.slides.charts/categoryaxistype/
 ---
-## enumerazione CategoryAxisType
+## Enumerazione CategoryAxisType
 
 Rappresenta un tipo di asse di categoria.
 

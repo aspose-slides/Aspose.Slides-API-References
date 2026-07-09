@@ -1,14 +1,14 @@
 ---
 title: ILayoutSlideCollection
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta una classe base per la raccolta di diapositive di layout.
+second_title: Aspose.Sildes per il riferimento API .NET
+description: Rappresenta una classe base per la collezione di slide di layout.
 type: docs
-weight: 6210
+weight: 6230
 url: /it/aspose.slides/ilayoutslidecollection/
 ---
-## interfaccia ILayoutSlideCollection
+## ILayoutSlideCollection interfaccia
 
-Rappresenta una classe base per la raccolta di diapositive di layout.
+Rappresenta una classe base per la raccolta di slide di layout.
 
 ```csharp
 public interface ILayoutSlideCollection : IGenericCollection<ILayoutSlide>
@@ -18,15 +18,15 @@ public interface ILayoutSlideCollection : IGenericCollection<ILayoutSlide>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Item](../../aspose.slides/ilayoutslidecollection/item) { get; } | Restituisce la diapositiva di layout per indice. Solo lettura [`ILayoutSlide`](../ilayoutslide). |
+| [Item](../../aspose.slides/ilayoutslidecollection/item) { get; } | Restituisce la slide di layout per indice. Sola lettura [`ILayoutSlide`](../ilayoutslide). |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetByType](../../aspose.slides/ilayoutslidecollection/getbytype)(SlideLayoutType) | Restituisce la prima diapositiva di layout del tipo specificato. |
-| [Remove](../../aspose.slides/ilayoutslidecollection/remove)(ILayoutSlide) | Rimuove un layout dalla raccolta. |
-| [RemoveUnused](../../aspose.slides/ilayoutslidecollection/removeunused)() | Rimuove le diapositive di layout inutilizzate (diapositive di layout il cui HasDependingSlides è false). |
+| [GetByType](../../aspose.slides/ilayoutslidecollection/getbytype)(SlideLayoutType) | Restituisce la prima slide di layout del tipo specificato. |
+| [Remove](../../aspose.slides/ilayoutslidecollection/remove)(ILayoutSlide) | Rimuove un layout dalla collezione. |
+| [RemoveUnused](../../aspose.slides/ilayoutslidecollection/removeunused)() | Rimuove le slide di layout inutilizzate (slide di layout la cui proprietà HasDependingSlides è false). |
 
 ### Vedi anche
 

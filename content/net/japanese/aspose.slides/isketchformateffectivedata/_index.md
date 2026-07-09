@@ -1,14 +1,14 @@
 ---
 title: ISketchFormatEffectiveData
-second_title: Aspose.Sildes の .NET API リファレンス
-description: 効果的なライン スケッチ プロパティを含む不変オブジェクト。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: 有効な線スケッチプロパティを含む不変オブジェクトです。
 type: docs
-weight: 7010
+weight: 7030
 url: /ja/aspose.slides/isketchformateffectivedata/
 ---
-## ISketchFormatEffectiveData インターフェース
+## ISketchFormatEffectiveData インターフェイス
 
-効果的なライン スケッチ プロパティを含む不変オブジェクト。
+有効な線スケッチプロパティを含む不変オブジェクトです。
 
 ```csharp
 public interface ISketchFormatEffectiveData
@@ -18,11 +18,11 @@ public interface ISketchFormatEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [SketchType](../../aspose.slides/isketchformateffectivedata/sketchtype) { get; } | スケッチ タイプを返します。読み取り専用 [`LineSketchType`](../linesketchtype)。 |
+| [SketchType](../../aspose.slides/isketchformateffectivedata/sketchtype) { get; } | スケッチタイプを返します。 読み取り専用 [`LineSketchType`](../linesketchtype). |
 
 ### 備考
 
-このインターフェースは [`ILineFormatEffectiveData`](../ilineformateffectivedata) の一部として使用されます。
+このインターフェイスは [`ILineFormatEffectiveData`](../ilineformateffectivedata) の一部として使用されます。
 
 ### 参照
 

@@ -1,14 +1,14 @@
 ---
 title: IThreeDFormat
-second_title: Aspose.Sildes .NET API referenciája
-description: 3-D tulajdonságokat képviseli.
+second_title: Aspose.Sildes .NET API referencia
+description: Képviseli a 3-D tulajdonságokat.
 type: docs
-weight: 7310
+weight: 7330
 url: /hu/aspose.slides/ithreedformat/
 ---
 ## IThreeDFormat interfész
 
-A 3D tulajdonságokat képviseli.
+Képviseli a 3-D tulajdonságokat.
 
 ```csharp
 public interface IThreeDFormat : IThreeDParamSource
@@ -18,15 +18,15 @@ public interface IThreeDFormat : IThreeDParamSource
 
 | Név | Leírás |
 | --- | --- |
-| [AsIThreeDParamSource](../../aspose.slides/ithreedformat/asithreedparamsource) { get; } | Lehetővé teszi a base IThreeDParamSource interfész lekérését. Csak olvasható [`IThreeDParamSource`](../ithreedparamsource). |
-| [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | Visszaadja vagy beállítja az alsó 3D ferdítés típusát. Csak olvasható [`IShapeBevel`](../ishapebevel). |
-| [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | Visszaadja vagy beállítja a felső 3D ferdítés típusát. Csak olvasható [`IShapeBevel`](../ishapebevel). |
+| [AsIThreeDParamSource](../../aspose.slides/ithreedformat/asithreedparamsource) { get; } | Lehetővé teszi az alap IThreeDParamSource interfész elérését. Csak olvasható [`IThreeDParamSource`](../ithreedparamsource). |
+| [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | Visszaadja vagy beállítja az alsó 3D bevel típusát. Csak olvasható [`IShapeBevel`](../ishapebevel). |
+| [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | Visszaadja vagy beállítja a felső 3D bevel típusát. Csak olvasható [`IShapeBevel`](../ishapebevel). |
 | [Camera](../../aspose.slides/ithreedformat/camera) { get; } | Visszaadja vagy beállítja egy kamera beállításait. Csak olvasható [`ICamera`](../icamera). |
 | [ContourColor](../../aspose.slides/ithreedformat/contourcolor) { get; } | Visszaadja vagy beállítja egy kontúr színét. Csak olvasható [`IColorFormat`](../icolorformat). |
 | [ContourWidth](../../aspose.slides/ithreedformat/contourwidth) { get; set; } | Visszaadja vagy beállítja egy 3D kontúr szélességét. Olvasható/írható Double. |
 | [Depth](../../aspose.slides/ithreedformat/depth) { get; set; } | Visszaadja vagy beállítja egy 3D alak mélységét. Olvasható/írható Double. |
-| [ExtrusionColor](../../aspose.slides/ithreedformat/extrusioncolor) { get; } | Visszaadja vagy beállítja egy kitüntetés színét. Csak olvasható [`IColorFormat`](../icolorformat). |
-| [ExtrusionHeight](../../aspose.slides/ithreedformat/extrusionheight) { get; set; } | Visszaadja vagy beállítja egy kitüntetési hatás magasságát. Olvasható/írható Double. |
+| [ExtrusionColor](../../aspose.slides/ithreedformat/extrusioncolor) { get; } | Visszaadja vagy beállítja egy extrudálás színét. Csak olvasható [`IColorFormat`](../icolorformat). |
+| [ExtrusionHeight](../../aspose.slides/ithreedformat/extrusionheight) { get; set; } | Visszaadja vagy beállítja egy extrudálás effektus magasságát. Olvasható/írható Double. |
 | [LightRig](../../aspose.slides/ithreedformat/lightrig) { get; } | Visszaadja vagy beállítja egy fény típusát. Csak olvasható [`ILightRig`](../ilightrig). |
 | [Material](../../aspose.slides/ithreedformat/material) { get; set; } | Visszaadja vagy beállítja egy anyag típusát. Olvasható/írható [`MaterialPresetType`](../materialpresettype). |
 
@@ -34,7 +34,7 @@ public interface IThreeDFormat : IThreeDParamSource
 
 | Név | Leírás |
 | --- | --- |
-| [GetEffective](../../aspose.slides/ithreedformat/geteffective)() | Lekéri a hatékony 3D formázási adatokat az öröklődés alkalmazásával. |
+| [GetEffective](../../aspose.slides/ithreedformat/geteffective)() | Lekéri a hatékony 3-D formázási adatokat az öröklődés alkalmazásával. |
 
 ### Lásd még
 

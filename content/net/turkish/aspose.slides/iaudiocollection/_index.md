@@ -1,9 +1,9 @@
 ---
 title: IAudioCollection
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Gömülü ses dosyalarının bir koleksiyonunu temsil eder.
 type: docs
-weight: 5200
+weight: 5220
 url: /tr/aspose.slides/iaudiocollection/
 ---
 ## IAudioCollection arayüzü
@@ -18,15 +18,15 @@ public interface IAudioCollection : IGenericCollection<IAudio>
 
 | Ad | Açıklama |
 | --- | --- |
-| [Item](../../aspose.slides/iaudiocollection/item) { get; } | Belirtilen indeksdeki öğeyi alır. Salt okunur [`IAudio`](../iaudio). |
+| [Item](../../aspose.slides/iaudiocollection/item) { get; } | Belirtilen indeksteki öğeyi alır. Salt okunur [`IAudio`](../iaudio). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | Bir ses dosyasını bayt dizisinden oluşturur ve sunuma ekler. |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | Bir bayt dizisinden bir ses oluşturur ve sunuma ekler. |
 | [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio)(IAudio) | Başka bir sunumdan bir ses dosyasının kopyasını ekler. |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Bir akıştan bir ses dosyası oluşturur ve sunuma ekler. |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Bir akıştan bir ses oluşturur ve sunuma ekler. |
 
 ### Ayrıca Bakınız
 

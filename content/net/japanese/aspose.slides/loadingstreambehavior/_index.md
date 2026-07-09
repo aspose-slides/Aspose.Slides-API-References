@@ -1,14 +1,14 @@
 ---
 title: LoadingStreamBehavior
 second_title: Aspose.Sildes for .NET API リファレンス
-description: メソッドに渡される Stream は Binary Large Object (BLOB) とみなされます（IBlobManagementOptions./iblobmanagementoptions の説明を参照）。この列挙体の値は、Stream がメソッドに渡されたときにどのように扱われるかを示します。要件に応じて、最も効率的な動作を提供するためにさまざまな判断が行われます。
+description: メソッドに渡されるStreamはバイナリ ラージ オブジェクト (BLOB) と見なされます（IBlobManagementOptions./iblobmanagementoptions の説明をご参照ください）。この列挙型の値は、メソッドに渡されたときにStreamをどのように扱うかを示します。要件に応じて、最も効率的な動作を提供するためにさまざまな選択が行われます。
 type: docs
-weight: 7830
+weight: 7850
 url: /ja/aspose.slides/loadingstreambehavior/
 ---
-## LoadingStreamBehavior 列挙体
+## LoadingStreamBehavior 列挙型
 
-メソッドに渡される Stream は Binary Large Object (BLOB) とみなされます（[`IBlobManagementOptions`](../iblobmanagementoptions) の説明を参照）。この列挙体の値は、Stream がメソッドに渡されたときにどのように扱われるかを示します。要件に応じて、最も効率的な動作を提供するためにさまざまな判断が行われます。
+メソッドに渡されるStreamはバイナリ ラージ オブジェクト (BLOB) と見なされます（[`IBlobManagementOptions`](../iblobmanagementoptions) の説明を参照）。この列挙型の値は、メソッドに渡されたときにStreamをどのように扱うかを示します。要件に応じて、最も効率的な動作を提供するためにさまざまな選択が行われます。
 
 ```csharp
 public enum LoadingStreamBehavior
@@ -18,8 +18,8 @@ public enum LoadingStreamBehavior
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| ReadStreamAndRelease | `0` | ストリームは最後まで読み取られ、その後解放されます。つまり、将来的に [`IPresentation`](../ipresentation) インスタンスがこのストリームを使用しないことが保証されます。クライアントコードで閉じることも、他の方法で使用することも可能です。 |
-| KeepLocked | `1` | ストリームは [`IPresentation`](../ipresentation) オブジェクト内でロックされ、所有権が転送されます。[`IPresentation`](../ipresentation) オブジェクトは、このオブジェクトが破棄される際にストリームを適切に破棄する責任を負います。この動作は、大きな BLOB ファイル（大容量のビデオやオーディオなど - [`IBlobManagementOptions`](../iblobmanagementoptions) の説明を参照）をシリアライズする必要があり、メモリへのロードやその他のパフォーマンス問題を防ぎたい場合に非常に有用です。FileStream を開いてこのファイルをメソッドに渡し、KeepLocked LoadingStreamBehavior を選択するだけで済みます。 |
+| ReadStreamAndRelease | `0` | ストリームは最後まで読み取られ、そして解放されます。つまり、将来的に[`IPresentation`](../ipresentation) インスタンスがこのストリームを使用しないことが保証されます。クライアントコードによって閉じられるか、その他の方法で使用できます。 |
+| KeepLocked | `1` | ストリームは [`IPresentation`](../ipresentation) オブジェクト内でロックされ、すなわちストリームの所有権が転送されます。[`IPresentation`](../ipresentation) オブジェクトは、このオブジェクト自体が破棄される際にストリームを正しくDisposeする責任を負います。この動作は、大きなBLOBファイル（大容量のビデオやオーディオなど - [`IBlobManagementOptions`](../iblobmanagementoptions) の説明を参照）をシリアライズする必要があり、メモリへのロードやその他のパフォーマンス問題を防ぎたい場合に非常に有用です。FileStream を開いてこのファイルをメソッドに渡すだけで、KeepLocked LoadingStreamBehavior を選択できます。 |
 
 ### 参照
 

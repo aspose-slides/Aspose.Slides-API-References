@@ -1,9 +1,9 @@
 ---
 title: CommentAuthorCollection
-second_title: Aspose.Sildes per .NET API Reference
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta una raccolta di autori di commenti.
 type: docs
-weight: 2620
+weight: 2640
 url: /it/aspose.slides/commentauthorcollection/
 ---
 ## CommentAuthorCollection classe
@@ -18,10 +18,10 @@ public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentA
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides/commentauthorcollection/count) { get; } | Restituisce il numero di elementi effettivamente contenuti nella raccolta. Solo lettura Int32. |
-| [IsSynchronized](../../aspose.slides/commentauthorcollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla raccolta è sincronizzato (thread-safe). Solo lettura Boolean. |
-| [Item](../../aspose.slides/commentauthorcollection/item) { get; } | Restituisce l'elemento all'indice specificato. Solo lettura [`ICommentAuthor`](../icommentauthor). |
-| [SyncRoot](../../aspose.slides/commentauthorcollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Solo lettura Object. |
+| [Count](../../aspose.slides/commentauthorcollection/count) { get; } | Ottiene il numero di elementi effettivamente contenuti nella raccolta. Sola lettura Int32. |
+| [IsSynchronized](../../aspose.slides/commentauthorcollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla raccolta è sincronizzato (thread-safe). Sola lettura Boolean. |
+| [Item](../../aspose.slides/commentauthorcollection/item) { get; } | Ottiene l'elemento all'indice specificato. Sola lettura [`ICommentAuthor`](../icommentauthor). |
+| [SyncRoot](../../aspose.slides/commentauthorcollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Sola lettura Object. |
 
 ## Metodi
 

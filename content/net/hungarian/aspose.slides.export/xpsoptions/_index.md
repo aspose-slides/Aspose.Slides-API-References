@@ -1,14 +1,14 @@
 ---
 title: XpsOptions
-second_title: Aspose.Sildes .NET API Referencia
-description: Beállításokat biztosít, amelyek szabályozzák, hogyan kerül mentésre egy bemutató XPS formátumban.
+second_title: Aspose.Sildes a .NET API Referenciához
+description: Opciókat biztosít, amelyek szabályozzák, hogyan kerül mentésre egy prezentáció XPS formátumban.
 type: docs
-weight: 4710
+weight: 4730
 url: /hu/aspose.slides.export/xpsoptions/
 ---
 ## XpsOptions osztály
 
-Beállításokat biztosít, amelyek szabályozzák, hogyan kerül mentésre egy bemutató XPS formátumban.
+Az opciókat biztosítja, amelyek szabályozzák, hogyan kerül mentésre egy prezentáció XPS formátumban.
 
 ```csharp
 public class XpsOptions : SaveOptions, IXpsOptions
@@ -24,41 +24,41 @@ public class XpsOptions : SaveOptions, IXpsOptions
 
 | Név | Leírás |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Visszaadja vagy beállítja a használt betűtípust, ha a forrásbetűtípus nem található. Olvasás-írás String. |
-| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | Igaz, ha fekete keretet kell rajzolni minden dia köré. Olvasás-írás Boolean. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Visszaadja vagy beállítja a gradient vizuális stílusát. Olvasás-írás [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Egy visszahívási objektumot képvisel a mentés előrehaladásának százalékos frissítéséhez. Lásd [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | Igaz, ha a bemutatóban használt összes metafájlt PNG képekké kell konvertálni. Olvasás-írás Boolean. |
-| [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | Megadja, hogy a generált dokumentumban legyenek-e rejtett diák vagy sem. Alapértelmezett érték `false`. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Megadja, hogy a bemutató mentésekor kihagyjuk-e a JavaScript hívásokat tartalmazó hiperhivatkozásokat. Olvasás-írás Boolean. Az alapértelmezett érték **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Visszaadja vagy beállítja azt az objektumot, amely figyelmeztetéseket kap, és eldönti, hogy a betöltési folyamat folytatódik-e vagy megszakad. Olvasás-írás [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Visszaadja vagy beállítja a betűtípust, amelyet akkor használnak, ha a forrásbetűtípus nem található. Olvasás-írás String. |
+| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | Igaz, ha fekete keretet kell rajzolni minden diára. Olvasás/írás Boolean. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Visszaadja vagy beállítja a színátmenet vizuális stílusát. Olvasás/írás [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Egy visszahívási objektumot képvisel a mentés előrehaladásának százalékos frissítéseihez. Lásd [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | Igaz, ha a prezentációban használt összes metafájlt PNG képekké kell konvertálni. Olvasás/írás Boolean. |
+| [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | Megadja, hogy a generált dokumentum tartalmazzon-e rejtett diákat vagy sem. Alapértelmezett érték a `false`. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Megadja, hogy a prezentáció mentésekor kihagyja-e a JavaScript hívású hivatkozásokat. Olvasás/írás Boolean. Az alapértelmezett érték **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Visszaadja vagy beállítja azt az objektumot, amely figyelmeztetéseket kap, és eldönti, hogy a betöltési folyamat folytatódik-e vagy megszakad. Olvasás/írás [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Példák
 
-Az alábbi példa bemutatja, hogyan konvertálhatók a bemutatók XPS formátumba az alapértelmezett beállítások használatával.
+A következő példa bemutatja, hogyan konvertálhatók a prezentációk XPS formátumba az alapértelmezett beállításokkal.
 
 ```csharp
 [C#]
-// Példányosít egy Presentation objektumot, amely egy bemutató fájlt képvisel
+// Egy Presentation objektum példányosítása, amely egy prezentációs fájlt képvisel
 using (Presentation pres = new Presentation("Convert_XPS.pptx"))
 {
-    // A bemutató mentése XPS dokumentumba
+    // A prezentáció mentése XPS dokumentumba
     pres.Save("XPS_Output_Without_XPSOption_out.xps", SaveFormat.Xps);
 }
 ```
 
-Az alábbi példa bemutatja, hogyan konvertálhatók a bemutatók XPS formátumba egyéni beállítások használatával.
+A következő példa bemutatja, hogyan konvertálhatók a prezentációk XPS formátumba egyéni beállításokkal.
 
 ```csharp
 [C#]
-// Példányosít egy Presentation objektumot, amely egy bemutató fájlt képvisel
+// Egy Presentation objektum példányosítása, amely egy prezentációs fájlt képvisel
 using (Presentation pres = new Presentation("Convert_XPS_Options.pptx"))
 {
-    // Példányosítja a TiffOptions osztályt
+    // A TiffOptions osztály példányosítása
     XpsOptions options = new XpsOptions();
-    // MetaFile-okat PNG-ként menti
+    // A MetaFiles mentése PNG formátumba
     options.SaveMetafilesAsPng = true;
-    // A bemutatót XPS dokumentumba menti
+    // A prezentáció mentése XPS dokumentumba
     pres.Save("XPS_With_Options_out.xps", SaveFormat.Xps, options);
 }
 ```

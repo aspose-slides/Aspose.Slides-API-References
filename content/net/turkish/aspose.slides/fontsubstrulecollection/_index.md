@@ -1,14 +1,14 @@
 ---
 title: FontSubstRuleCollection
 second_title: Aspose.Sildes için .NET API Referansı
-description: Yazı tipi ikamesi koleksiyonunu temsil eder.
+description: Yazı tipleri ikamesi koleksiyonunu temsil eder.
 type: docs
-weight: 4880
+weight: 4900
 url: /tr/aspose.slides/fontsubstrulecollection/
 ---
 ## FontSubstRuleCollection sınıfı
 
-Yazı tipi ikamesi koleksiyonunu temsil eder.
+Yazı tipleri ikamesi koleksiyonunu temsil eder.
 
 ```csharp
 public class FontSubstRuleCollection : IFontSubstRuleCollection
@@ -24,10 +24,10 @@ public class FontSubstRuleCollection : IFontSubstRuleCollection
 
 | Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | Koleksiyonda gerçekte bulunan öğe sayısını alır. Yalnızca okuma Int32. |
-| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını gösteren bir değer döndürür. Yalnızca okuma Boolean. |
+| [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | Koleksiyonda gerçekte bulunan öğe sayısını alır. Salt-okunur Int32. |
+| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını gösteren bir değer döndürür. Salt-okunur Boolean. |
 | [Item](../../aspose.slides/fontsubstrulecollection/item) { get; } | Belirtilen indeksteki öğeyi alır. |
-| [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Yalnızca okuma Object. |
+| [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt-okunur Object. |
 
 ## Yöntemler
 
@@ -35,10 +35,10 @@ public class FontSubstRuleCollection : IFontSubstRuleCollection
 | --- | --- |
 | [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | Yeni yazı tipi ikamesi kuralını koleksiyona ekler |
 | [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | Koleksiyondaki tüm öğeleri belirtilen diziye kopyalar. |
-| [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | Koleksiyon üzerinden yineleme yapan bir enumeratör döndürür. |
+| [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
 | [Remove](../../aspose.slides/fontsubstrulecollection/remove)(IFontSubstRule) | Koleksiyondan belirli bir nesnenin ilk oluşumunu kaldırır. |
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
 * arayüz [IFontSubstRuleCollection](../ifontsubstrulecollection)
 * ad alanı [Aspose.Slides](../../aspose.slides)

@@ -1,12 +1,12 @@
 ---
 title: ISmartArtShape
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET APIリファレンス
 description: SmartArt ダイアグラム内のシェイプを表します
 type: docs
-weight: 10550
+weight: 10570
 url: /ja/aspose.slides.smartart/ismartartshape/
 ---
-## ISmartArtShape インターフェイス
+## ISmartArtShape インターフェース
 
 SmartArt ダイアグラム内のシェイプを表します
 
@@ -18,12 +18,12 @@ public interface ISmartArtShape : IGeometryShape
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides.smartart/ismartartshape/asigeometryshape) { get; } | ベース IGeometryShape インターフェイスを取得できます。読み取り専用 [`IGeometryShape`](../../aspose.slides/igeometryshape). |
-| [TextFrame](../../aspose.slides.smartart/ismartartshape/textframe) { get; } | SmartArt シェイプのテキストを返します。読み取り専用 [`ITextFrame`](../../aspose.slides/itextframe). |
+| [AsIGeometryShape](../../aspose.slides.smartart/ismartartshape/asigeometryshape) { get; } | IGeometryShape の基本インターフェースを取得できます。 読み取り専用 [`IGeometryShape`](../../aspose.slides/igeometryshape). |
+| [TextFrame](../../aspose.slides.smartart/ismartartshape/textframe) { get; } | SmartArt シェイプのテキストを返します。 読み取り専用 [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ### 関連項目
 
-* インターフェイス [IGeometryShape](../../aspose.slides/igeometryshape)
+* インターフェース [IGeometryShape](../../aspose.slides/igeometryshape)
 * 名前空間 [Aspose.Slides.SmartArt](../../aspose.slides.smartart)
 * アセンブリ [Aspose.Slides](../../)
 

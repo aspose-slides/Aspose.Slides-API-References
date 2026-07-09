@@ -1,14 +1,14 @@
 ---
 title: MathJustification
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Menentukan perataan paragraf matematika, serangkaian instance teks matematis yang bersebelahan dalam paragraf yang sama
+description: Menentukan perataan paragraf matematika, serangkaian contoh teks matematika yang berdekatan dalam paragraf yang sama
 type: docs
-weight: 8780
+weight: 8800
 url: /id/aspose.slides.mathtext/mathjustification/
 ---
 ## MathJustification enumerasi
 
-Menentukan perataan paragraf matematika (serangkaian instance teks matematis yang bersebelahan dalam paragraf yang sama)
+Menentukan perataan paragraf matematika (serangkaian contoh teks matematika yang berdekatan dalam paragraf yang sama)
 
 ```csharp
 public enum MathJustification
@@ -18,10 +18,10 @@ public enum MathJustification
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| LeftJustified | `1` | Menyelaraskan teks matematis ke kiri |
-| RightJustified | `2` | Menyelaraskan teks matematis ke kanan |
-| Centered | `3` | Menyelaraskan teks matematis ke tengah |
-| CenteredAsGroup | `4` | Menengahkan seluruh grup blok matematika pada halaman sebagai satu unit. Ini berarti bahwa instance teks matematis dapat disejajarkan satu sama lain, tetapi seluruh grup teks matematis ditengahkan sebagai satu kesatuan. |
+| LeftJustified | `1` | Menyelaraskan teks matematika ke kiri |
+| RightJustified | `2` | Menyelaraskan teks matematika ke kanan |
+| Centered | `3` | Menyelaraskan teks matematika ke tengah |
+| CenteredAsGroup | `4` | Menyelaraskan seluruh grup blok matematika pada halaman sebagai satu unit. Ini berarti contoh teks matematika dapat disejajarkan satu sama lain, tetapi seluruh grup teks matematika dipusatkan secara keseluruhan. |
 
 ### Lihat Juga
 

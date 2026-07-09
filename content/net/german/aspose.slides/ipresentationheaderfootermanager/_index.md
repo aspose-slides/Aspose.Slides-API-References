@@ -1,15 +1,14 @@
 ---
 title: IPresentationHeaderFooterManager
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt den Manager dar, der das Verhalten aller Fußzeilen, Datums- und Seitenzahlen-Platzhalter der Präsentation hält.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt den Manager dar, der das Verhalten aller Fußzeilen-, Datums- und Zeit- sowie Seitenzahlen-Platzhalter der Präsentation enthält.
 type: docs
-weight: 6580
+weight: 6780
 url: /de/aspose.slides/ipresentationheaderfootermanager/
 ---
+## IPresentationHeaderFooterManager Schnittstelle
 
-## IPresentationHeaderFooterManager-Interface
-
-Stellt den Manager dar, der das Verhalten aller Fußzeilen-, Datums- und Seitenzahlen-Platzhalter der Präsentation hält.
+Stellt den Manager dar, der das Verhalten aller Fußzeilen-, Datums- und Seitenzahl-Platzhalter der Präsentation enthält.
 
 ```csharp
 public interface IPresentationHeaderFooterManager : IBaseHeaderFooterManager
@@ -19,25 +18,25 @@ public interface IPresentationHeaderFooterManager : IBaseHeaderFooterManager
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIBaseHeaderFooterManager](../../aspose.slides/ipresentationheaderfootermanager/asibaseheaderfootermanager) { get; } | Gibt das IBaseHeaderFooterManager-Interface zurück. |
+| [AsIBaseHeaderFooterManager](../../aspose.slides/ipresentationheaderfootermanager/asibaseheaderfootermanager) { get; } | Gibt die IBaseHeaderFooterManager Schnittstelle zurück. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [SetAllDateTimesText](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimestext)(string) | Setzt den Text für alle Datums-Platzhalter, einschließlich Master-Folien, Layout-Folien und Folien. |
-| [SetAllDateTimesVisibility](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimesvisibility)(bool) | Ändert die Sichtbarkeit aller Datums-Platzhalter, einschließlich Master-Folien, Layout-Folien und Folien. |
+| [SetAllDateTimesText](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimestext)(string) | Setzt den Text für alle Datums- und Zeit-Platzhalter, einschließlich Master-Folien, Layout-Folien und Folien. |
+| [SetAllDateTimesVisibility](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimesvisibility)(bool) | Ändert die Sichtbarkeit aller Datums- und Zeit-Platzhalter, einschließlich Master-Folien, Layout-Folien und Folien. |
 | [SetAllFootersText](../../aspose.slides/ipresentationheaderfootermanager/setallfooterstext)(string) | Setzt den Text für alle Fußzeilen-Platzhalter, einschließlich Master-Folien, Layout-Folien und Folien. |
 | [SetAllFootersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallfootersvisibility)(bool) | Ändert die Sichtbarkeit aller Fußzeilen-Platzhalter, einschließlich Master-Folien, Layout-Folien und Folien. |
-| [SetAllHeadersText](../../aspose.slides/ipresentationheaderfootermanager/setallheaderstext)(string) | Setzt den Text für alle Kopfzeilen-Platzhalter, einschließlich Notizen-Master, Notizen-Folien und Handout-Master. |
-| [SetAllHeadersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallheadersvisibility)(bool) | Ändert die Sichtbarkeit aller Kopfzeilen-Platzhalter, einschließlich Notizen-Master, Notizen-Folien und Handout-Master. |
+| [SetAllHeadersText](../../aspose.slides/ipresentationheaderfootermanager/setallheaderstext)(string) | Setzt den Text für alle Kopfzeilen-Platzhalter, einschließlich Notizen-Master, Notizen-Folien und Handzettel-Master. |
+| [SetAllHeadersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallheadersvisibility)(bool) | Ändert die Sichtbarkeit aller Kopfzeilen-Platzhalter, einschließlich Notizen-Master, Notizen-Folien und Handzettel-Master. |
 | [SetAllSlideNumbersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Ändert die Sichtbarkeit aller Seitenzahlen-Platzhalter, einschließlich Master-Folien, Layout-Folien und Folien. |
-| [SetVisibilityOnAllTitleSlides](../../aspose.slides/ipresentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Ändert die Sichtbarkeit der Fußzeilen-, Datums- und Seitenzahlen-Platzhalter für alle Titelfolien und für die erste Layoutfolie. Titelfolien – Folien, die auf der ersten Layoutfolie basieren (unabhängig vom Typ dieser ersten Layoutfolie). |
+| [SetVisibilityOnAllTitleSlides](../../aspose.slides/ipresentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Ändert die Sichtbarkeit der Fußzeilen-, Datums- und Zeit- sowie Seitenzahlen-Platzhalter für alle Titelfolien und für die erste Layout-Folie. Titelfolien – Folien, die auf der ersten Layout-Folie basieren (unabhängig vom Typ dieses ersten Layouts). |
 
 ### Siehe auch
 
-* Interface [IBaseHeaderFooterManager](../ibaseheaderfootermanager)
-* Namespace [Aspose.Slides](../../aspose.slides)
-* Assembly [Aspose.Slides](../../)
+* Schnittstelle [IBaseHeaderFooterManager](../ibaseheaderfootermanager)
+* Namensraum [Aspose.Slides](../../aspose.slides)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

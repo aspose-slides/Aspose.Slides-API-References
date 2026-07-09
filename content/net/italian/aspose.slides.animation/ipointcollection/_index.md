@@ -3,10 +3,10 @@ title: IPointCollection
 second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta una raccolta di porzioni.
 type: docs
-weight: 530
+weight: 550
 url: /it/aspose.slides.animation/ipointcollection/
 ---
-## IPointCollection interface
+## IPointCollection interfaccia
 
 Rappresenta una raccolta di porzioni.
 
@@ -18,8 +18,8 @@ public interface IPointCollection : IEnumerable<IPoint>
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/ipointcollection/asienumerable) { get; } | Consente di ottenere l'interfaccia base IEnumerable. IEnumerable a sola lettura. |
-| [Count](../../aspose.slides.animation/ipointcollection/count) { get; } | Restituisce il numero di punti nella raccolta. Int32 a sola lettura. |
+| [AsIEnumerable](../../aspose.slides.animation/ipointcollection/asienumerable) { get; } | Consente di ottenere l'interfaccia base IEnumerable. IEnumerable di sola lettura. |
+| [Count](../../aspose.slides.animation/ipointcollection/count) { get; } | Restituisce il numero di punti nella raccolta. Int32 di sola lettura. |
 | [Item](../../aspose.slides.animation/ipointcollection/item) { get; } | Restituisce un punto all'indice specificato. |
 
 ### Vedi anche

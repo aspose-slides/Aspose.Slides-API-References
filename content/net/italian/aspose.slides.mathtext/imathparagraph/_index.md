@@ -1,9 +1,9 @@
 ---
 title: IMathParagraph
-second_title: Aspose.Sildes per .NET API Reference
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Paragrafo matematico che è un contenitore per blocchi matematici IMathBlock
 type: docs
-weight: 8370
+weight: 8390
 url: /it/aspose.slides.mathtext/imathparagraph/
 ---
 ## IMathParagraph interfaccia
@@ -19,7 +19,7 @@ public interface IMathParagraph : IMathBlockCollection
 | Nome | Descrizione |
 | --- | --- |
 | [AsIMathBlockCollection](../../aspose.slides.mathtext/imathparagraph/asimathblockcollection) { get; } | Consente di ottenere l'interfaccia base IMathBlockCollection [`IMathBlockCollection`](../imathblockcollection) |
-| [Justification](../../aspose.slides.mathtext/imathparagraph/justification) { get; set; } | Paragraph Justification Valore predefinito: CenteredAsGroup |
+| [Justification](../../aspose.slides.mathtext/imathparagraph/justification) { get; set; } | Allineamento del paragrafo Valore predefinito: CenteredAsGroup |
 
 ## Metodi
 

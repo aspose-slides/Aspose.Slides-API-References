@@ -1,14 +1,14 @@
 ---
 title: GradientStopCollectionEffectiveData
-second_title: Aspose.Sildes per .NET API Reference
-description: Rappresenta una collezione di oggetti GradientStopData.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta una raccolta di oggetti GradientStopData.
 type: docs
-weight: 5020
+weight: 5040
 url: /it/aspose.slides/gradientstopcollectioneffectivedata/
 ---
 ## GradientStopCollectionEffectiveData classe
 
-Rappresenta una collezione di oggetti GradientStopData.
+Rappresenta una raccolta di oggetti GradientStopData.
 
 ```csharp
 public class GradientStopCollectionEffectiveData : IGradientStopCollectionEffectiveData
@@ -18,17 +18,17 @@ public class GradientStopCollectionEffectiveData : IGradientStopCollectionEffect
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides/gradientstopcollectioneffectivedata/count) { get; } | Restituisce il numero di gradient stop in una collezione. Di sola lettura Int32. |
-| [IsSynchronized](../../aspose.slides/gradientstopcollectioneffectivedata/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla collezione è sincronizzato (thread-safe). Di sola lettura Boolean. |
+| [Count](../../aspose.slides/gradientstopcollectioneffectivedata/count) { get; } | Restituisce il numero di gradient stop in una raccolta. Solo lettura Int32. |
+| [IsSynchronized](../../aspose.slides/gradientstopcollectioneffectivedata/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla raccolta è sincronizzato (thread-safe). Solo lettura Boolean. |
 | [Item](../../aspose.slides/gradientstopcollectioneffectivedata/item) { get; } | Restituisce il gradient stop per indice. |
-| [SyncRoot](../../aspose.slides/gradientstopcollectioneffectivedata/syncroot) { get; } | Restituisce una radice di sincronizzazione. Di sola lettura Object. |
+| [SyncRoot](../../aspose.slides/gradientstopcollectioneffectivedata/syncroot) { get; } | Restituisce una radice di sincronizzazione. Solo lettura Object. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [CopyTo](../../aspose.slides/gradientstopcollectioneffectivedata/copyto)(Array, int) | Copia tutti gli elementi dalla collezione nell'array specificato. |
-| [GetEnumerator](../../aspose.slides/gradientstopcollectioneffectivedata/getenumerator)() | Restituisce un enumeratore che itera attraverso la collezione. |
+| [CopyTo](../../aspose.slides/gradientstopcollectioneffectivedata/copyto)(Array, int) | Copia tutti gli elementi dalla raccolta nell'array specificato. |
+| [GetEnumerator](../../aspose.slides/gradientstopcollectioneffectivedata/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
 
 ### Vedi anche
 

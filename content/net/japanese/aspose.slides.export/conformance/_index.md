@@ -1,14 +1,14 @@
 ---
 title: Conformance
-second_title: Aspose.Sildes の .NET API リファレンス
-description: PresentationML ドキュメントが準拠する適合性クラスを指定します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: PresentationML ドキュメントが適合するコンフォーマンス クラスを指定します。
 type: docs
-weight: 3730
+weight: 3750
 url: /ja/aspose.slides.export/conformance/
 ---
 ## 適合性列挙
 
-PresentationML ドキュメントが準拠する適合性クラスを指定します。
+PresentationML ドキュメントが適合するコンフォーマンス クラスを指定します。
 
 ```csharp
 public enum Conformance
@@ -18,9 +18,9 @@ public enum Conformance
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| Ecma376_2006 | `0` | ドキュメントが ECMA376:2006 に準拠していることを示します。 |
-| Iso29500_2008_Transitional | `1` | ドキュメントが ISO/IEC 29500:2008 Transitional 準拠クラスに準拠していることを示します。 |
-| Iso29500_2008_Strict | `2` | ドキュメントが ISO/IEC 29500:2008 Strict 準拠クラスに準拠していることを示します。 |
+| Ecma376_2006 | `0` | ドキュメントが ECMA376:2006 に準拠していることを指定します。 |
+| Iso29500_2008_Transitional | `1` | ドキュメントが ISO/IEC 29500:2008 トランジショナル コンフォーマンス クラスに準拠していることを指定します。 |
+| Iso29500_2008_Strict | `2` | ドキュメントが ISO/IEC 29500:2008 ストリクト コンフォーマンス クラスに準拠していることを指定します。 |
 
 ### 参照
 

@@ -1,9 +1,9 @@
 ---
 title: TransitionCornerAndCenterDirectionType
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência de API
 description: Especifica uma direção restrita aos cantos e ao centro.
 type: docs
-weight: 10320
+weight: 10340
 url: /pt/aspose.slides.slideshow/transitioncornerandcenterdirectiontype/
 ---
 ## TransitionCornerAndCenterDirectionType enumeração
@@ -24,7 +24,7 @@ public enum TransitionCornerAndCenterDirectionType
 | RightUp | `3` |  |
 | Center | `4` |  |
 
-### Veja Também
+### Ver Também
 
 * namespace [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * assembly [Aspose.Slides](../../)

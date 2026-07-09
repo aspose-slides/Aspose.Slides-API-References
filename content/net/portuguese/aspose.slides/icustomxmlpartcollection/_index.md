@@ -1,14 +1,14 @@
 ---
 title: ICustomXmlPartCollection
 second_title: Referência da API Aspose.Sildes para .NET
-description: Representa a coleção de partes XML personalizadas.
+description: Representa a coleção de partes xml personalizadas.
 type: docs
-weight: 5660
+weight: 5680
 url: /pt/aspose.slides/icustomxmlpartcollection/
 ---
 ## ICustomXmlPartCollection interface
 
-Representa a coleção de partes XML personalizadas.
+Representa a coleção de partes xml personalizadas.
 
 ```csharp
 public interface ICustomXmlPartCollection : IGenericCollection<ICustomXmlPart>
@@ -24,14 +24,14 @@ public interface ICustomXmlPartCollection : IGenericCollection<ICustomXmlPart>
 
 | Nome | Descrição |
 | --- | --- |
-| [Add](../../aspose.slides/icustomxmlpartcollection/add#add)(byte[]) | Adiciona uma nova parte XML personalizada. |
-| [Add](../../aspose.slides/icustomxmlpartcollection/add#add_1)(Stream) | Adiciona uma nova parte XML personalizada. |
-| [Add](../../aspose.slides/icustomxmlpartcollection/add#add_2)(string) | Adiciona uma nova parte XML personalizada. |
+| [Add](../../aspose.slides/icustomxmlpartcollection/add#add)(byte[]) | Adiciona uma nova parte xml personalizada. |
+| [Add](../../aspose.slides/icustomxmlpartcollection/add#add_1)(Stream) | Adiciona uma nova parte xml personalizada. |
+| [Add](../../aspose.slides/icustomxmlpartcollection/add#add_2)(string) | Adiciona uma nova parte xml personalizada. |
 | [Clear](../../aspose.slides/icustomxmlpartcollection/clear)() | Remove todos os itens da coleção. |
 | [Remove](../../aspose.slides/icustomxmlpartcollection/remove)(ICustomXmlPart) | Remove a primeira ocorrência de um objeto específico da coleção. |
-| [RemoveAt](../../aspose.slides/icustomxmlpartcollection/removeat)(int) | Remove a parte XML personalizada no índice especificado. |
+| [RemoveAt](../../aspose.slides/icustomxmlpartcollection/removeat)(int) | Remove a parte xml personalizada no índice especificado. |
 
-### Ver também
+### Veja Também
 
 * interface [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * interface [ICustomXmlPart](../icustomxmlpart)

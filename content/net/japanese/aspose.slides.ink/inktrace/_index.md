@@ -1,14 +1,14 @@
 ---
 title: InkTrace
 second_title: Aspose.Sildes for .NET API リファレンス
-description: Trace オブジェクトを表します。Trace 要素は、デジタイザが取得したデータを記録するために使用されます。InkTraceFormat オブジェクトが提供する仕様に従ってエンコードされたポイントのシーケンスを含みます。
+description: Trace オブジェクトを表します。Trace 要素は、デジタイザが取得したデータを記録するために使用されます。InkTraceFormat オブジェクトで指定された仕様に従ってエンコードされたポイントのシーケンスを含みます。
 type: docs
-weight: 7570
+weight: 7590
 url: /ja/aspose.slides.ink/inktrace/
 ---
 ## InkTrace クラス
 
-Trace オブジェクトを表します。Trace 要素は、デジタイザが取得したデータを記録するために使用されます。InkTraceFormat オブジェクトが提供する仕様に従ってエンコードされたポイントのシーケンスを含みます。
+Trace オブジェクトを表します。Trace 要素は、デジタイザによって取得されたデータを記録するために使用されます。InkTraceFormat オブジェクトで指定された仕様に従ってエンコードされたポイントのシーケンスを含みます。
 
 ```csharp
 public class InkTrace : IInkTrace
@@ -18,8 +18,8 @@ public class InkTrace : IInkTrace
 
 | 名前 | 説明 |
 | --- | --- |
-| [Brush](../../aspose.slides.ink/inktrace/brush) { get; } | IInkLine [`IInkBrush`](../iinkbrush) 用の Brush を取得します（読み取り専用）。 |
-| [Points](../../aspose.slides.ink/inktrace/points) { get; } | IInkLine PointF 用のポイントを取得します（読み取り専用）。 |
+| [Brush](../../aspose.slides.ink/inktrace/brush) { get; } | IInkLine [`IInkBrush`](../iinkbrush) の Brush を取得します（読み取り専用）。 |
+| [Points](../../aspose.slides.ink/inktrace/points) { get; } | IInkLine PointF のポイントを取得します（読み取り専用）。 |
 
 ### 参照
 

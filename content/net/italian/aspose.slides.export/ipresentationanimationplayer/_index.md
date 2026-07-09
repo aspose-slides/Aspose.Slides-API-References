@@ -1,14 +1,14 @@
 ---
 title: IPresentationAnimationPlayer
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta un lettore dell'animazione.  Le animazioni sono generate da PresentationAnimationsGenerator./presentationanimationsgenerator tramite il suo evento NewAnimation./presentationanimationsgenerator/newanimation.
+description: Rappresenta un lettore dell'animazione.  Animazioni generate da PresentationAnimationsGenerator./presentationanimationsgenerator tramite il suo evento NewAnimation./presentationanimationsgenerator/newanimation.
 type: docs
-weight: 4010
+weight: 4030
 url: /it/aspose.slides.export/ipresentationanimationplayer/
 ---
-## Interfaccia IPresentationAnimationPlayer
+## IPresentationAnimationPlayer interfaccia
 
-Rappresenta un lettore dell'animazione. Le animazioni generate da [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) tramite il suo evento [`NewAnimation`](../presentationanimationsgenerator/newanimation).
+Rappresenta un lettore dell'animazione. Animazioni generate da [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) tramite il suo evento [`NewAnimation`](../presentationanimationsgenerator/newanimation).
 
 ```csharp
 public interface IPresentationAnimationPlayer
@@ -18,13 +18,13 @@ public interface IPresentationAnimationPlayer
 
 | Nome | Descrizione |
 | --- | --- |
-| [Duration](../../aspose.slides.export/ipresentationanimationplayer/duration) { get; } | Ottiene la durata dell'animazione [ms] |
+| [Duration](../../aspose.slides.export/ipresentationanimationplayer/duration) { get; } | Ottieni la durata dell'animazione [ms] |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetFrame](../../aspose.slides.export/ipresentationanimationplayer/getframe)() | Ottiene il fotogramma per la posizione temporale corrente precedentemente impostata con il metodo [`SetTimePosition`](./settimeposition). |
+| [GetFrame](../../aspose.slides.export/ipresentationanimationplayer/getframe)() | Ottieni il fotogramma per la posizione temporale corrente precedentemente impostata con il metodo [`SetTimePosition`](./settimeposition). |
 | [SetTimePosition](../../aspose.slides.export/ipresentationanimationplayer/settimeposition)(double) | Imposta la posizione temporale dell'animazione all'interno del [`Duration`](./duration). |
 
 ### Esempi

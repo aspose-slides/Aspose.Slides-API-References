@@ -3,7 +3,7 @@ title: IMathMatrixFactory
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 数式行列を作成できます
 type: docs
-weight: 8330
+weight: 8350
 url: /ja/aspose.slides.mathtext/imathmatrixfactory/
 ---
 ## IMathMatrixFactory インターフェイス
@@ -18,7 +18,7 @@ public interface IMathMatrixFactory
 
 | 名前 | 説明 |
 | --- | --- |
-| [CreateMathMatrix](../../aspose.slides.mathtext/imathmatrixfactory/createmathmatrix)(int, int) | 数学行列を作成します |
+| [CreateMathMatrix](../../aspose.slides.mathtext/imathmatrixfactory/createmathmatrix)(int, int) | 数式行列を作成します |
 
 ### 備考
 

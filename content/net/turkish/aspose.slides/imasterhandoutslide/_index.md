@@ -3,7 +3,7 @@ title: IMasterHandoutSlide
 second_title: Aspose.Sildes for .NET API Referansı
 description: El ilanları için ana slaytı temsil eder.
 type: docs
-weight: 6330
+weight: 6350
 url: /tr/aspose.slides/imasterhandoutslide/
 ---
 ## IMasterHandoutSlide arayüz
@@ -18,10 +18,10 @@ public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | Temel IBaseSlide arayüzünü almaya izin verir. Yalnızca okuma [`IBaseSlide`](../ibaseslide). |
-| [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | IMasterThemeable arayüzünü döndürür. Yalnızca okuma [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | Ana el ilanı slaydı için çizim kılavuzları koleksiyonunu döndürür. Yalnızca okuma [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | Ana el ilanı slaydının HeaderFooter yöneticisini döndürür. Yalnızca okuma [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
+| [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | Temel IBaseSlide arayüzünü almayı sağlar. Salt okunur [`IBaseSlide`](../ibaseslide). |
+| [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | IMasterThemeable arayüzünü döndürür. Salt okunur [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
+| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | Ana el ilanı slaytı için çizim kılavuzları koleksiyonunu döndürür. Salt okunur [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | Ana el ilanı slaytının HeaderFooter yöneticisini döndürür. Salt okunur [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
 
 ### Ayrıca Bakınız
 

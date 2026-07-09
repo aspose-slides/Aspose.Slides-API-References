@@ -1,14 +1,14 @@
 ---
 title: GraphicalObjectLock
-second_title: Aspose.Sildes for .NET API リファレンス
-description: 親の GraphicalObject で無効化されている操作を決定します。
+second_title: Aspose.Slides の .NET API リファレンス
+description: 親の GraphicalObject に対して無効化されている操作を決定します。
 type: docs
-weight: 5060
+weight: 5080
 url: /ja/aspose.slides/graphicalobjectlock/
 ---
 ## GraphicalObjectLock クラス
 
-親の GraphicalObject で無効化されている操作を決定します。
+親の GraphicalObject に対して無効化されている操作を決定します。
 
 ```csharp
 public class GraphicalObjectLock : BaseShapeLock, IGraphicalObjectLock
@@ -16,15 +16,15 @@ public class GraphicalObjectLock : BaseShapeLock, IGraphicalObjectLock
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [AspectRatioLocked](../../aspose.slides/graphicalobjectlock/aspectratiolocked) { get; set; } | サイズ変更時にシェイプがアスペクト比を保持するかどうかを決定します。Read/write Boolean. |
-| [DrilldownLocked](../../aspose.slides/graphicalobjectlock/drilldownlocked) { get; set; } | このオブジェクトのサブシェイプの選択が禁止されているかどうかを決定します。Read/write Boolean. |
-| [GroupingLocked](../../aspose.slides/graphicalobjectlock/groupinglocked) { get; set; } | このシェイプをグループに追加することが禁止されているかどうかを決定します。Read/write Boolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | すべてのロックフラグが無効な場合に true を返します。Read-only Boolean. |
-| [PositionLocked](../../aspose.slides/graphicalobjectlock/positionlocked) { get; set; } | このシェイプの移動が禁止されているかどうかを決定します。Read/write Boolean. |
-| [SelectLocked](../../aspose.slides/graphicalobjectlock/selectlocked) { get; set; } | このシェイプの選択が禁止されているかどうかを決定します。Read/write Boolean. |
-| [SizeLocked](../../aspose.slides/graphicalobjectlock/sizelocked) { get; set; } | このシェイプのサイズ変更が禁止されているかどうかを決定します。Read/write Boolean. |
+| [AspectRatioLocked](../../aspose.slides/graphicalobjectlock/aspectratiolocked) { get; set; } | リサイズ時にシェイプがアスペクト比を保持する必要があるかどうかを決定します。読み書き可能な Boolean。 |
+| [DrilldownLocked](../../aspose.slides/graphicalobjectlock/drilldownlocked) { get; set; } | このオブジェクトのサブシェイプの選択が禁止されているかどうかを決定します。読み書き可能な Boolean。 |
+| [GroupingLocked](../../aspose.slides/graphicalobjectlock/groupinglocked) { get; set; } | このシェイプをグループに追加することが禁止されているかどうかを決定します。読み書き可能な Boolean。 |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | すべてのロックフラグが無効になっている場合に true を返します。読み取り専用の Boolean。 |
+| [PositionLocked](../../aspose.slides/graphicalobjectlock/positionlocked) { get; set; } | このシェイプの移動が禁止されているかどうかを決定します。読み書き可能な Boolean。 |
+| [SelectLocked](../../aspose.slides/graphicalobjectlock/selectlocked) { get; set; } | このシェイプの選択が禁止されているかどうかを決定します。読み書き可能な Boolean。 |
+| [SizeLocked](../../aspose.slides/graphicalobjectlock/sizelocked) { get; set; } | このシェイプのサイズ変更が禁止されているかどうかを決定します。読み書き可能な Boolean。 |
 
 ### 参照
 

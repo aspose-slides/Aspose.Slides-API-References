@@ -1,14 +1,14 @@
 ---
 title: IDigitalSignature
 second_title: Aspose.Sildes の .NET API リファレンス
-description: 署名されたファイル内のデジタル署名。
+description: 署名されたファイルにおけるデジタル署名。
 type: docs
-weight: 5670
+weight: 5690
 url: /ja/aspose.slides/idigitalsignature/
 ---
 ## IDigitalSignature インターフェイス
 
-署名されたファイル内のデジタル署名です。
+署名されたファイルにおけるデジタル署名。
 
 ```csharp
 public interface IDigitalSignature
@@ -18,10 +18,10 @@ public interface IDigitalSignature
 
 | 名前 | 説明 |
 | --- | --- |
-| [Certificate](../../aspose.slides/idigitalsignature/certificate) { get; } | ドキュメントに署名するために使用された証明書オブジェクトです。読み取り専用 X509Certificate2. |
-| [Comments](../../aspose.slides/idigitalsignature/comments) { get; set; } | 署名の目的です。読み取り/書き込み String. |
-| [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | このデジタル署名が有効であり、ドキュメントが改ざんされていない場合、この値は true になります。読み取り専用 Boolean. |
-| [SignTime](../../aspose.slides/idigitalsignature/signtime) { get; } | ドキュメントが署名された日時です。読み取り専用 DateTime. |
+| [Certificate](../../aspose.slides/idigitalsignature/certificate) { get; } | ドキュメントの署名に使用された証明書オブジェクト。読み取り専用 X509Certificate2。 |
+| [Comments](../../aspose.slides/idigitalsignature/comments) { get; set; } | 署名の目的。読み取り/書き込み String。 |
+| [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | このデジタル署名が有効であり、かつドキュメントが改ざんされていない場合、この値は true になります。読み取り専用 Boolean。 |
+| [SignTime](../../aspose.slides/idigitalsignature/signtime) { get; } | ドキュメントが署名された時間。読み取り専用 DateTime。 |
 
 ### 参照
 

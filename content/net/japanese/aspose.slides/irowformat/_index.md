@@ -3,7 +3,7 @@ title: IRowFormat
 second_title: Aspose.Sildes for .NET API リファレンス
 description: テーブル行の書式を表します。
 type: docs
-weight: 6850
+weight: 6870
 url: /ja/aspose.slides/irowformat/
 ---
 ## IRowFormat インターフェイス
@@ -18,7 +18,7 @@ public interface IRowFormat
 
 | 名前 | 説明 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/irowformat/geteffective)() | 継承とテーブル スタイルが適用された有効なテーブル 行書式プロパティを取得します。 |
+| [GetEffective](../../aspose.slides/irowformat/geteffective)() | 継承とテーブル スタイルが適用された実際のテーブル行書式設定プロパティを取得します。 |
 
 ### 参照
 

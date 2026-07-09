@@ -1,14 +1,14 @@
 ---
 title: ILinkEmbedController
 second_title: Aspose.Sildes för .NET API-referens
-description: Återanropsgränssnitt som används för att avgöra hur objekt ska behandlas vid sparande.
+description: Återanropsgränssnitt som används för att bestämma hur ett objekt ska bearbetas vid sparande.
 type: docs
-weight: 3970
+weight: 3990
 url: /sv/aspose.slides.export/ilinkembedcontroller/
 ---
 ## ILinkEmbedController gränssnitt
 
-Återanropsgränssnitt som används för att avgöra hur objekt ska behandlas vid sparande.
+Återanropsgränssnitt som används för att bestämma hur ett objekt ska bearbetas vid sparande.
 
 ```csharp
 public interface ILinkEmbedController
@@ -18,7 +18,7 @@ public interface ILinkEmbedController
 
 | Namn | Beskrivning |
 | --- | --- |
-| [GetObjectStoringLocation](../../aspose.slides.export/ilinkembedcontroller/getobjectstoringlocation)(int, byte[], string, string, string) | Bestämmer var objekt ska lagras. Denna metod anropas en gång för varje objekt-id. Det är inte garanterat att det inte finns två objekt med samma data, semanticName och contentType men med olika id. |
+| [GetObjectStoringLocation](../../aspose.slides.export/ilinkembedcontroller/getobjectstoringlocation)(int, byte[], string, string, string) | Bestämmer var objekt ska lagras. Denna metod kallas en gång för varje objekt-id. Det garanteras inte att det inte finns två objekt med samma data, semanticName och contentType men med olika id. |
 | [GetUrl](../../aspose.slides.export/ilinkembedcontroller/geturl)(int, int) | Returnerar en URL till ett externt objekt. Denna metod anropas alltid om [`GetObjectStoringLocation`](./getobjectstoringlocation) returnerade Link och kan anropas om [`GetObjectStoringLocation`](./getobjectstoringlocation) returnerade Embed men inbäddning är omöjlig. Kan anropas flera gånger för samma objekt-id. |
 | [SaveExternal](../../aspose.slides.export/ilinkembedcontroller/saveexternal)(int, byte[]) | Sparar externt objekt. |
 

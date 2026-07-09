@@ -1,14 +1,14 @@
 ---
 title: Effect
-second_title: Aspose.Sildes .NET API-referencia
-description: Animációs hatást képvisel.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Animációs effektust képvisel.
 type: docs
-weight: 260
+weight: 280
 url: /hu/aspose.slides.animation/effect/
 ---
 ## Effect osztály
 
-Az animációs hatást képviseli.
+Animációs effektust képvisel.
 
 ```csharp
 public class Effect : IEffect
@@ -18,20 +18,20 @@ public class Effect : IEffect
 
 | Név | Leírás |
 | --- | --- |
-| [AfterAnimationColor](../../aspose.slides.animation/effect/afteranimationcolor) { get; set; } | Meghatározza a hatás utáni animációszínt. Olvasás/írás [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [AfterAnimationType](../../aspose.slides.animation/effect/afteranimationtype) { get; set; } | Meghatározza a hatás utáni animáció típusát. Olvasás/írás [`AfterAnimationType`](./afteranimationtype). |
-| [AnimateTextType](../../aspose.slides.animation/effect/animatetexttype) { get; set; } | Meghatározza a szöveg animálásának típusát a hatáshoz. Az alakzat szövege betűnként, szó szerint vagy egyszerre animálható. Olvasás/írás [`AnimateTextType`](./animatetexttype). |
-| [Behaviors](../../aspose.slides.animation/effect/behaviors) { get; set; } | Visszaadja a hatáshoz tartozó viselkedésgyűjteményt. Olvasás/írás [`IBehaviorCollection`](../ibehaviorcollection). |
-| [DelayBetweenTextParts](../../aspose.slides.animation/effect/delaybetweentextparts) { get; set; } | Meghatározza a animált szövegrészek (szavak vagy betűk) közötti késleltetést. Pozitív érték esetén a hatás időtartamának százalékát adja meg. Negatív érték esetén a késleltetést másodpercben adja meg. Olvasás/írás Single. |
-| [PresetClassType](../../aspose.slides.animation/effect/presetclasstype) { get; set; } | Meghatározza a hatás osztályát. Olvasás/írás [`EffectPresetClassType`](../effectpresetclasstype). |
-| [Sequence](../../aspose.slides.animation/effect/sequence) { get; } | Visszaadja a hatáshoz tartozó szekvenciát. Csak olvasható [`ISequence`](../isequence). |
-| [Sound](../../aspose.slides.animation/effect/sound) { get; set; } | Meghatározza a hatáshoz beágyazott hangot. Olvasás/írás [`IAudio`](../../aspose.slides/iaudio). |
-| [StopPreviousSound](../../aspose.slides.animation/effect/stopprevioussound) { get; set; } | Ez az attribútum azt határozza meg, hogy az animációs hatás leállítja-e az előző hangot. Olvasás/írás Boolean. |
-| [Subtype](../../aspose.slides.animation/effect/subtype) { get; set; } | Meghatározza a hatás altípusát. Olvasás/írás [`EffectSubtype`](../effectsubtype). |
-| [TargetShape](../../aspose.slides.animation/effect/targetshape) { get; } | Visszaadja a hatás célalakzatát. Csak olvasható [`IShape`](../../aspose.slides/ishape). |
-| [TextAnimation](../../aspose.slides.animation/effect/textanimation) { get; } | TextAnimation Csak olvasható [`ITextAnimation`](../itextanimation). |
-| [Timing](../../aspose.slides.animation/effect/timing) { get; set; } | Meghatározza a hatás időzítési értékét. Olvasás/írás [`ITiming`](../itiming). |
-| [Type](../../aspose.slides.animation/effect/type) { get; set; } | Meghatározza a hatás típusát. Olvasás/írás [`EffectType`](../effecttype). |
+| [AfterAnimationColor](../../aspose.slides.animation/effect/afteranimationcolor) { get; set; } | Az effektus után animációs színt határoz meg. Olvasás/írás [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AfterAnimationType](../../aspose.slides.animation/effect/afteranimationtype) { get; set; } | Az effektus után animációs típust határoz meg. Olvasás/írás [`AfterAnimationType`](./afteranimationtype). |
+| [AnimateTextType](../../aspose.slides.animation/effect/animatetexttype) { get; set; } | Az effektus számára meghatározza a szöveg animálásának típusát. A shape szövegét betűnként, szó szerint vagy egyszerre animálhatja. Olvasás/írás [`AnimateTextType`](./animatetexttype). |
+| [Behaviors](../../aspose.slides.animation/effect/behaviors) { get; set; } | Az effektus viselkedéseinek gyűjteményét adja vissza. Olvasás/írás [`IBehaviorCollection`](../ibehaviorcollection). |
+| [DelayBetweenTextParts](../../aspose.slides.animation/effect/delaybetweentextparts) { get; set; } | Az animált szövegrészek (szavak vagy betűk) közötti késleltetést határozza meg. A pozitív érték a hatás időtartamának százalékát adja meg. A negatív érték a késleltetést másodpercben adja meg. Olvasás/írás Single. |
+| [PresetClassType](../../aspose.slides.animation/effect/presetclasstype) { get; set; } | Az effektus osztályát határozza meg. Olvasás/írás [`EffectPresetClassType`](../effectpresetclasstype). |
+| [Sequence](../../aspose.slides.animation/effect/sequence) { get; } | Az effektus számára egy sorozatot ad vissza. Csak olvasás [`ISequence`](../isequence). |
+| [Sound](../../aspose.slides.animation/effect/sound) { get; set; } | Az effektus beágyazott hangját definiálja. Olvasás/írás [`IAudio`](../../aspose.slides/iaudio). |
+| [StopPreviousSound](../../aspose.slides.animation/effect/stopprevioussound) { get; set; } | Ez az attribútum megadja, hogy az animációs effektus leállítja-e az előző hangot. Olvasás/írás Boolean. |
+| [Subtype](../../aspose.slides.animation/effect/subtype) { get; set; } | Az effektus altípusát határozza meg. Olvasás/írás [`EffectSubtype`](../effectsubtype). |
+| [TargetShape](../../aspose.slides.animation/effect/targetshape) { get; } | Az effektus cél shape-jét adja vissza. Csak olvasás [`IShape`](../../aspose.slides/ishape). |
+| [TextAnimation](../../aspose.slides.animation/effect/textanimation) { get; } | TextAnimation Csak olvasás [`ITextAnimation`](../itextanimation). |
+| [Timing](../../aspose.slides.animation/effect/timing) { get; set; } | Az effektus időzítési értékét határozza meg. Olvasás/írás [`ITiming`](../itiming). |
+| [Type](../../aspose.slides.animation/effect/type) { get; set; } | Az effektus típusát határozza meg. Olvasás/írás [`EffectType`](../effecttype). |
 
 ### Lásd még
 

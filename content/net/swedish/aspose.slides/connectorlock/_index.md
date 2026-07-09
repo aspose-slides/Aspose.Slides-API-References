@@ -1,14 +1,14 @@
 ---
 title: ConnectorLock
-second_title: Aspose.Sildes for .NET API-referens
-description: Avgör vilka operationer som är inaktiverade på den överordnade Connector.
+second_title: Aspose.Sildes för .NET API-referens
+description: Bestämmer vilka operationer som är inaktiverade på den överordnade Connector.
 type: docs
-weight: 2660
+weight: 2680
 url: /sv/aspose.slides/connectorlock/
 ---
 ## ConnectorLock klass
 
-Avgör vilka operationer som är inaktiverade på den överordnade Connector.
+Bestämmer vilka operationer som är inaktiverade på den överordnade Connector.
 
 ```csharp
 public class ConnectorLock : BaseShapeLock, IConnectorLock
@@ -16,19 +16,19 @@ public class ConnectorLock : BaseShapeLock, IConnectorLock
 
 ## Egenskaper
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/connectorlock/adjusthandleslocked) { get; set; } | Avgör om en ändring av justeringsvärden är förbjuden. Läs/skriv Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/connectorlock/arrowheadslocked) { get; set; } | Avgör om en ändring av pilspetsar är förbjuden. Läs/skriv Boolean. |
-| [AspectRatioLocked](../../aspose.slides/connectorlock/aspectratiolocked) { get; set; } | Avgör om en form måste bevara bildförhållandet vid storleksändring. Läs/skriv Boolean. |
-| [EditPointsLocked](../../aspose.slides/connectorlock/editpointslocked) { get; set; } | Avgör om en direkt ändring av konturen på denna form är förbjuden. Läs/skriv Boolean. |
-| [GroupingLocked](../../aspose.slides/connectorlock/groupinglocked) { get; set; } | Avgör om en tilläggning av denna form till en grupp är förbjuden. Läs/skriv Boolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Returnerar true om alla låsflaggor är inaktiverade. Endast läs Boolean. |
-| [PositionMove](../../aspose.slides/connectorlock/positionmove) { get; set; } | Avgör om en förflyttning av denna form är förbjuden. Läs/skriv Boolean. |
-| [RotateLocked](../../aspose.slides/connectorlock/rotatelocked) { get; set; } | Avgör om en ändring av rotationsvinkeln på denna form är förbjuden. Läs/skriv Boolean. |
-| [SelectLocked](../../aspose.slides/connectorlock/selectlocked) { get; set; } | Avgör om en markering av denna form är förbjuden. Läs/skriv Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/connectorlock/shapetypelocked) { get; set; } | Avgör om en ändring av formtypen är förbjuden. Läs/skriv Boolean. |
-| [SizeLocked](../../aspose.slides/connectorlock/sizelocked) { get; set; } | Avgör om en storleksändring av denna form är förbjuden. Läs/skriv Boolean. |
+| [AdjustHandlesLocked](../../aspose.slides/connectorlock/adjusthandleslocked) { get; set; } | Bestämmer om en förändring av justeringsvärden är förbjuden. Läs/skriv Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/connectorlock/arrowheadslocked) { get; set; } | Bestämmer om en förändring av pilhuvuden är förbjuden. Läs/skriv Boolean. |
+| [AspectRatioLocked](../../aspose.slides/connectorlock/aspectratiolocked) { get; set; } | Bestämmer om en form måste bevara bildförhållandet vid storleksändring. Läs/skriv Boolean. |
+| [EditPointsLocked](../../aspose.slides/connectorlock/editpointslocked) { get; set; } | Bestämmer om en direkt förändring av konturen för denna form är förbjuden. Läs/skriv Boolean. |
+| [GroupingLocked](../../aspose.slides/connectorlock/groupinglocked) { get; set; } | Bestämmer om en tilläggning av denna form till en grupp är förbjuden. Läs/skriv Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Returnerar true om alla lock-flaggor är inaktiverade. Skrivskyddad Boolean. |
+| [PositionMove](../../aspose.slides/connectorlock/positionmove) { get; set; } | Bestämmer om en flyttning av denna form är förbjuden. Läs/skriv Boolean. |
+| [RotateLocked](../../aspose.slides/connectorlock/rotatelocked) { get; set; } | Bestämmer om en förändring av rotationsvinkeln för denna form är förbjuden. Läs/skriv Boolean. |
+| [SelectLocked](../../aspose.slides/connectorlock/selectlocked) { get; set; } | Bestämmer om en markering av denna form är förbjuden. Läs/skriv Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/connectorlock/shapetypelocked) { get; set; } | Bestämmer om en förändring av en formtyp är förbjuden. Läs/skriv Boolean. |
+| [SizeLocked](../../aspose.slides/connectorlock/sizelocked) { get; set; } | Bestämmer om en storleksändring av denna form är förbjuden. Läs/skriv Boolean. |
 
 ### Se även
 

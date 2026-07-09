@@ -1,14 +1,14 @@
 ---
 title: IMathBar
-second_title: Aspose.Sildes untuk .NET Referensi API
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Menentukan fungsi bar yang terdiri dari argumen dasar dan overbar atau underbar
 type: docs
-weight: 8100
+weight: 8120
 url: /id/aspose.slides.mathtext/imathbar/
 ---
 ## IMathBar antarmuka
 
-Menentukan fungsi bar, terdiri dari argumen dasar dan overbar atau underbar
+Menentukan fungsi bar, yang terdiri dari argumen dasar dan overbar atau underbar
 
 ```csharp
 public interface IMathBar : IMathElement
@@ -20,7 +20,7 @@ public interface IMathBar : IMathElement
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathbar/asimathelement) { get; } | Mengizinkan untuk mendapatkan antarmuka IMathElement dasar [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathbar/base) { get; } | Argumen dasar |
-| [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | Posisi garis bar. Default: Atas |
+| [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | Posisi garis bar. Default: Top |
 
 ### Contoh
 

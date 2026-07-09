@@ -3,10 +3,10 @@ title: LightRigPresetType
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Costanti che definiscono i tipi di preset di luce.
 type: docs
-weight: 7680
+weight: 7700
 url: /it/aspose.slides/lightrigpresettype/
 ---
-## LightRigPresetType enumerazione
+## Enumerazione LightRigPresetType
 
 Costanti che definiscono i tipi di preset di luce.
 
@@ -16,7 +16,7 @@ public enum LightRigPresetType
 
 ### Valori
 
-| Nome | Valore | Descrizione |
+| Name | Value | Descrizione |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Balanced | `0` |  |

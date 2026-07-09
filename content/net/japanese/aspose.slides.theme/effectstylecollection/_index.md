@@ -1,9 +1,9 @@
 ---
 title: EffectStyleCollection
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: エフェクトスタイルのコレクションを表します。
 type: docs
-weight: 11070
+weight: 11090
 url: /ja/aspose.slides.theme/effectstylecollection/
 ---
 ## EffectStyleCollection クラス
@@ -19,15 +19,15 @@ public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyl
 | 名前 | 説明 |
 | --- | --- |
 | [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | コレクション内の要素数を返します。読み取り専用 Int32, 読み取り専用 Int32. |
-| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | コレクションへのアクセスが同期 (スレッド セーフ) されているかどうかを示す値を返します。読み取り専用 Boolean. |
-| [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | 指定された位置にある要素を返します。読み取り専用 [`EffectStyle`](../effectstyle). |
+| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | コレクションへのアクセスが同期されているか（スレッドセーフ）を示す値を返します。読み取り専用 Boolean. |
+| [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | 指定された位置の要素を返します。読み取り専用 [`EffectStyle`](../effectstyle). |
 | [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | 同期ルートを返します。読み取り専用 Object. |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [CopyTo](../../aspose.slides.theme/effectstylecollection/copyto)(Array, int) | コレクションのすべての要素を指定された配列にコピーします。 |
+| [CopyTo](../../aspose.slides.theme/effectstylecollection/copyto)(Array, int) | コレクション内のすべての要素を指定された配列にコピーします。 |
 | [GetEnumerator](../../aspose.slides.theme/effectstylecollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
 
 ### 参照

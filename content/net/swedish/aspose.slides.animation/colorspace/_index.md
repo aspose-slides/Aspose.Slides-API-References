@@ -1,12 +1,12 @@
 ---
 title: ColorSpace
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar färgrymd för färgeffekters beteende.
+description: Representerar färgrymd för färgeffekternas beteende.
 type: docs
-weight: 230
+weight: 250
 url: /sv/aspose.slides.animation/colorspace/
 ---
-## ColorSpace enumeration
+## ColorSpace uppräkning
 
 Representerar färgrymd för färgeffekters beteende.
 

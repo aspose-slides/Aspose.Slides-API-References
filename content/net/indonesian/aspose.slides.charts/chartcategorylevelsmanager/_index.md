@@ -1,14 +1,14 @@
 ---
 title: ChartCategoryLevelsManager
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Kontainer terkelola dari nilai-nilai level kategori diagram.
+description: Kontainer terkelola nilai-nilai level kategori diagram.
 type: docs
-weight: 1270
+weight: 1290
 url: /id/aspose.slides.charts/chartcategorylevelsmanager/
 ---
 ## ChartCategoryLevelsManager kelas
 
-Kontainer terkelola dari nilai-nilai level kategori diagram.
+Kontainer terkelola nilai-nilai level kategori diagram.
 
 ```csharp
 public class ChartCategoryLevelsManager : IChartCategoryLevelsManager

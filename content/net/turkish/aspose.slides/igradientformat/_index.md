@@ -1,14 +1,14 @@
 ---
 title: IGradientFormat
-second_title: Aspose.Sildes for .NET API Referansı
-description: Bir degrade biçimini temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bir degrade formatını temsil eder.
 type: docs
-weight: 5980
+weight: 6000
 url: /tr/aspose.slides/igradientformat/
 ---
-## IGradientFormat arayüzü
+## IGradientFormat arayüz
 
-Bir degrade biçimini temsil eder.
+Bir degrade formatını temsil eder.
 
 ```csharp
 public interface IGradientFormat : IFillParamSource
@@ -18,15 +18,15 @@ public interface IGradientFormat : IFillParamSource
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/igradientformat/asifillparamsource) { get; } | Temel IFillParamSource arayüzünü almayı sağlar. Yalnızca okuma [`IFillParamSource`](../ifillparamsource). |
-| [GradientDirection](../../aspose.slides/igradientformat/gradientdirection) { get; set; } | Bir degrade stilini alır veya ayarlar. Okuma/yazma [`GradientDirection`](../gradientdirection). |
-| [GradientShape](../../aspose.slides/igradientformat/gradientshape) { get; set; } | Bir degrade şekli alır veya ayarlar. Okuma/yazma [`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/igradientformat/gradientstops) { get; } | Degrade duraklarının koleksiyonunu döndürür. Yalnızca okuma [`IGradientStopCollection`](../igradientstopcollection). |
-| [LinearGradientAngle](../../aspose.slides/igradientformat/lineargradientangle) { get; set; } | Bir degenin açısını alır veya ayarlar. Okuma/yazma Single. |
-| [LinearGradientScaled](../../aspose.slides/igradientformat/lineargradientscaled) { get; set; } | Bir degenin ölçeklenip ölçeklenmediğini belirler. Okuma/yazma [`NullableBool`](../nullablebool). |
-| [TileFlip](../../aspose.slides/igradientformat/tileflip) { get; set; } | Bir degenin çevirme modunu alır veya ayarlar. Okuma/yazma [`TileFlip`](../tileflip). |
+| [AsIFillParamSource](../../aspose.slides/igradientformat/asifillparamsource) { get; } | Temel IFillParamSource arayüzünü almaya izin verir. Salt okunur [`IFillParamSource`](../ifillparamsource). |
+| [GradientDirection](../../aspose.slides/igradientformat/gradientdirection) { get; set; } | Bir degrade stilini alır veya ayarlar. Okunabilir/Yazılabilir [`GradientDirection`](../gradientdirection). |
+| [GradientShape](../../aspose.slides/igradientformat/gradientshape) { get; set; } | Bir degrade şeklinin alır veya ayarlar. Okunabilir/Yazılabilir [`GradientShape`](../gradientshape). |
+| [GradientStops](../../aspose.slides/igradientformat/gradientstops) { get; } | Degrade duraklarının koleksiyonunu döndürür. Salt okunur [`IGradientStopCollection`](../igradientstopcollection). |
+| [LinearGradientAngle](../../aspose.slides/igradientformat/lineargradientangle) { get; set; } | Bir degrade açısını alır veya ayarlar. Okunabilir/Yazılabilir Single. |
+| [LinearGradientScaled](../../aspose.slides/igradientformat/lineargradientscaled) { get; set; } | Bir degerenin ölçeklenip ölçeklenmediğini belirler. Okunabilir/Yazılabilir [`NullableBool`](../nullablebool). |
+| [TileFlip](../../aspose.slides/igradientformat/tileflip) { get; set; } | Bir degerenin ters çevirme kipini alır veya ayarlar. Okunabilir/Yazılabilir [`TileFlip`](../tileflip). |
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
 * arayüz [IFillParamSource](../ifillparamsource)
 * ad alanı [Aspose.Slides](../../aspose.slides)

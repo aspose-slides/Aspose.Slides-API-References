@@ -1,14 +1,14 @@
 ---
 title: IHSL
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje efekt Hue/Saturation/Luminance. Každá z hodnot hue, saturation a luminance může být upravena relativně k její aktuální hodnotě.
+description: Představuje efekt Hue/Saturation/Luminance. Odstín, sytost a luminance lze každou upravit relativně k její současné hodnotě.
 type: docs
-weight: 3340
+weight: 3360
 url: /cs/aspose.slides.effects/ihsl/
 ---
 ## IHSL rozhraní
 
-Representuje efekt Hue/Saturation/Luminance. Každý z odstínu, sytosti a jasu může být upraven relativně k jeho aktuální hodnotě.
+Představuje efekt Hue/Saturation/Luminance. Odstín, sytost a luminance lze každou upravit relativně k její současné hodnotě.
 
 ```csharp
 public interface IHSL : IAccessiblePVIObject<IHSLEffectiveData>, IImageTransformOperation
@@ -18,8 +18,8 @@ public interface IHSL : IAccessiblePVIObject<IHSLEffectiveData>, IImageTransform
 
 | Název | Popis |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ihsl/asiaccessiblepviobject) { get; } | Umožňuje získat základní rozhraní IAccessiblePVIObject. Pouze ke čtení [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ihsl/asiimagetransformoperation) { get; } | Vrací rozhraní IImageTransformOperation. Pouze ke čtení [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ihsl/asiaccessiblepviobject) { get; } | Umožňuje získat základní rozhraní IAccessiblePVIObject. Pouze pro čtení [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ihsl/asiimagetransformoperation) { get; } | Vrací rozhraní IImageTransformOperation. Pouze pro čtení [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Viz také
 

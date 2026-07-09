@@ -1,14 +1,14 @@
 ---
 title: MasterSlideCollection
-second_title: Aspose.Sildes para .NET Referência da API
-description: Representa uma coleção de slides mestres.
+second_title: Aspose.Sildes para .NET - Referência da API
+description: Representa uma coleção de master slides.
 type: docs
-weight: 8020
+weight: 8040
 url: /pt/aspose.slides/masterslidecollection/
 ---
-## MasterSlideCollection classe
+## classe MasterSlideCollection
 
-Representa uma coleção de slides mestres.
+Representa uma coleção de master slides.
 
 ```csharp
 public sealed class MasterSlideCollection : DomObject<Presentation>, IMasterSlideCollection
@@ -19,21 +19,21 @@ public sealed class MasterSlideCollection : DomObject<Presentation>, IMasterSlid
 | Nome | Descrição |
 | --- | --- |
 | [Count](../../aspose.slides/masterslidecollection/count) { get; } | Obtém o número de elementos realmente contidos na coleção. Somente leitura Int32. |
-| [IsSynchronized](../../aspose.slides/masterslidecollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção está sincronizado (thread-safe). Somente leitura Boolean. |
+| [IsSynchronized](../../aspose.slides/masterslidecollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção é sincronizado (thread-safe). Somente leitura Boolean. |
 | [Item](../../aspose.slides/masterslidecollection/item) { get; } | Obtém o elemento no índice especificado. Somente leitura [`MasterSlide`](../masterslide). |
-| [SyncRoot](../../aspose.slides/masterslidecollection/syncroot) { get; } | Retorna a raiz de sincronização. Somente leitura Object. |
+| [SyncRoot](../../aspose.slides/masterslidecollection/syncroot) { get; } | Retorna uma raiz de sincronização. Somente leitura Object. |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
-| [AddClone](../../aspose.slides/masterslidecollection/addclone)(IMasterSlide) | Adiciona uma cópia de um slide mestre especificado ao final da coleção. Slides de layout vinculados também serão copiados. |
+| [AddClone](../../aspose.slides/masterslidecollection/addclone)(IMasterSlide) | Adiciona uma cópia de um master slide especificado ao final da coleção. Slides de layout vinculados também serão copiados. |
 | [CopyTo](../../aspose.slides/masterslidecollection/copyto)(Array, int) | Copia todos os elementos da coleção para o array especificado. |
-| [GetEnumerator](../../aspose.slides/masterslidecollection/getenumerator)() | Retorna um enumerador que itera através da coleção. |
-| [InsertClone](../../aspose.slides/masterslidecollection/insertclone)(int, IMasterSlide) | Insere uma cópia de um slide mestre especificado na posição especificada da coleção. Slides de layout vinculados também serão copiados. |
+| [GetEnumerator](../../aspose.slides/masterslidecollection/getenumerator)() | Retorna um enumerador que itera pela coleção. |
+| [InsertClone](../../aspose.slides/masterslidecollection/insertclone)(int, IMasterSlide) | Insere uma cópia de um master slide especificado na posição especificada da coleção. Slides de layout vinculados também serão copiados. |
 | [Remove](../../aspose.slides/masterslidecollection/remove)(IMasterSlide) | Remove a primeira ocorrência de um objeto específico da coleção. |
 | [RemoveAt](../../aspose.slides/masterslidecollection/removeat)(int) | Remove o elemento no índice especificado da coleção. |
-| [RemoveUnused](../../aspose.slides/masterslidecollection/removeunused)(bool) | Remove slides mestres não utilizados. |
+| [RemoveUnused](../../aspose.slides/masterslidecollection/removeunused)(bool) | Remove master slides não utilizados. |
 
 ### Veja Também
 

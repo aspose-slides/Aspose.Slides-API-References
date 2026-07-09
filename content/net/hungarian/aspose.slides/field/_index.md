@@ -1,14 +1,14 @@
 ---
 title: Field
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes a .NET API referenciához
 description: Mezőt reprezentál.
 type: docs
-weight: 4730
+weight: 4750
 url: /hu/aspose.slides/field/
 ---
-## Mező osztály
+## Field osztály
 
-Mezőt képvisel.
+Mezőt reprezentál.
 
 ```csharp
 public sealed class Field : DomObject<Portion>, IField

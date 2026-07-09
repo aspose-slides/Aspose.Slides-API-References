@@ -1,14 +1,14 @@
 ---
 title: GradientStyle
-second_title: Aspose.Sildes a .NET API referencia
-description: Az elérhető gradient stílusokat képviseli.
+second_title: Aspose.Sildes a .NET API referenciához
+description: A rendelkezésre álló gradient stílusokat reprezentálja.
 type: docs
-weight: 5040
+weight: 5060
 url: /hu/aspose.slides/gradientstyle/
 ---
 ## GradientStyle enumeráció
 
-Az elérhető gradient stílusokat képviseli.
+A rendelkezésre álló gradient stílusokat reprezentálja.
 
 ```csharp
 public enum GradientStyle

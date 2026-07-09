@@ -1,9 +1,9 @@
 ---
 title: GradientStop
-second_title: Aspose.Sildes για .NET Αναφορά API
+second_title: Αναφορά API Aspose.Sildes για .NET
 description: Αναπαριστά μια μορφή διαβάθμισης.
 type: docs
-weight: 5000
+weight: 5020
 url: /el/aspose.slides/gradientstop/
 ---
 ## GradientStop κλάση
@@ -18,7 +18,7 @@ public sealed class GradientStop : PVIObject, IGradientStop
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής IPresentationComponent. Μόνο για ανάγνωση [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Επιτρέπει την απόκτηση της βασικής διεπαφής IPresentationComponent. Μόνο για ανάγνωση [`IPresentationComponent`](../ipresentationcomponent). |
 | [Color](../../aspose.slides/gradientstop/color) { get; } | Επιστρέφει το χρώμα ενός σημείου διαβάθμισης. Μόνο για ανάγνωση [`IColorFormat`](../icolorformat). |
 | [Position](../../aspose.slides/gradientstop/position) { get; set; } | Επιστρέφει ή ορίζει τη θέση (0..1) ενός σημείου διαβάθμισης. Ανάγνωση/εγγραφή Single. |
 
@@ -27,12 +27,12 @@ public sealed class GradientStop : PVIObject, IGradientStop
 | Όνομα | Περιγραφή |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Συγκρίνει με το καθορισμένο αντικείμενο. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Επιστρέφει τον κωδικό κατακερματισμού. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Επιστρέφει κωδικό κατακερματισμού. |
 
 ### Δείτε επίσης
 
 * κλάση [PVIObject](../pviobject)
-* διεπαφή [IGradientStop](../igradientstop)
+* διασύνδεση [IGradientStop](../igradientstop)
 * χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
 * συναρμολόγηση [Aspose.Slides](../../)
 

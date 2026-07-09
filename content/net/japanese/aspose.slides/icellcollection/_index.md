@@ -1,9 +1,9 @@
 ---
 title: ICellCollection
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: セルのコレクションを表します。
 type: docs
-weight: 5440
+weight: 5460
 url: /ja/aspose.slides/icellcollection/
 ---
 ## ICellCollection インターフェイス
@@ -18,8 +18,8 @@ public interface ICellCollection : IGenericCollection<ICell>, ISlideComponent
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/icellcollection/asislidecomponent) { get; } | ベースの ISlideComponent インターフェイスを取得できます。読み取り専用 [`ISlideComponent`](../islidecomponent). |
-| [Item](../../aspose.slides/icellcollection/item) { get; } | 位置でセルを返します。読み取り専用 [`ICell`](../icell). |
+| [AsISlideComponent](../../aspose.slides/icellcollection/asislidecomponent) { get; } | 基本 ISlideComponent インターフェイスを取得できます。 読み取り専用 [`ISlideComponent`](../islidecomponent)。 |
+| [Item](../../aspose.slides/icellcollection/item) { get; } | 位置でセルを返します。 読み取り専用 [`ICell`](../icell)。 |
 
 ### 関連項目
 

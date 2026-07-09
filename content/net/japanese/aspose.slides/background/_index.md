@@ -3,10 +3,10 @@ title: Background
 second_title: Aspose.Sildes for .NET API リファレンス
 description: スライドの背景を表します。
 type: docs
-weight: 910
+weight: 930
 url: /ja/aspose.slides/background/
 ---
-## 背景 クラス
+## 背景クラス
 
 スライドの背景を表します。
 
@@ -16,20 +16,20 @@ public sealed class Background : PVIObject, IBackground
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [EffectFormat](../../aspose.slides/background/effectformat) { get; } | BackgroundType.OwnBackground の塗りつぶしに対する EffectFormat を返します。読み取り専用 [`IEffectFormat`](../ieffectformat)。 |
-| [FillFormat](../../aspose.slides/background/fillformat) { get; } | BackgroundType.OwnBackground の塗りつぶしに対する FillFormat を返します。読み取り専用 [`IFillFormat`](../ifillformat)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | base IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
+| [EffectFormat](../../aspose.slides/background/effectformat) { get; } | BackgroundType.OwnBackground の塗りつぶし用の EffectFormat を返します。読み取り専用 [`IEffectFormat`](../ieffectformat)。 |
+| [FillFormat](../../aspose.slides/background/fillformat) { get; } | BackgroundType.OwnBackground の塗りつぶし用の FillFormat を返します。読み取り専用 [`IFillFormat`](../ifillformat)。 |
 | [Presentation](../../aspose.slides/background/presentation) { get; } | スライドの親プレゼンテーションを返します。読み取り専用 [`IPresentation`](../ipresentation)。 |
 | [Slide](../../aspose.slides/background/slide) { get; } | シェイプの親スライドを返します。読み取り専用 [`IBaseSlide`](../ibaseslide)。 |
-| [StyleColor](../../aspose.slides/background/stylecolor) { get; } | BackgroundType.Themed の塗りつぶしに対する ColorFormat を返します。読み取り専用 [`IColorFormat`](../icolorformat)。 |
-| [StyleIndex](../../aspose.slides/background/styleindex) { get; set; } | 背景テーマコレクション内の BackgroundType.Themed 塗りつぶしのインデックスを返します。0 は塗りつぶしなしを意味します。1..999 はインデックスです。読み書き可能 UInt16。 |
-| [Type](../../aspose.slides/background/type) { get; set; } | 背景塗りつぶしのタイプを返します。読み書き可能 [`BackgroundType`](../backgroundtype)。 |
+| [StyleColor](../../aspose.slides/background/stylecolor) { get; } | BackgroundType.Themed の塗りつぶし用の ColorFormat を返します。読み取り専用 [`IColorFormat`](../icolorformat)。 |
+| [StyleIndex](../../aspose.slides/background/styleindex) { get; set; } | background theme コレクション内の BackgroundType.Themed 塗りつぶしのインデックスを返します。0 は塗りなしを意味します。1..999 はインデックスです。読み書き UInt16。 |
+| [Type](../../aspose.slides/background/type) { get; set; } | 背景塗りつぶしのタイプを返します。読み書き [`BackgroundType`](../backgroundtype)。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 指定されたオブジェクトと比較します。 |
 | [GetEffective](../../aspose.slides/background/geteffective)() | 継承が適用された有効な背景データを取得します。 |

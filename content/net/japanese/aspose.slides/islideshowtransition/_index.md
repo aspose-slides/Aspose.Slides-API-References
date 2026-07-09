@@ -3,7 +3,7 @@ title: ISlideShowTransition
 second_title: Aspose.Sildes for .NET API リファレンス
 description: スライドショーの遷移を表します。
 type: docs
-weight: 7060
+weight: 7080
 url: /ja/aspose.slides/islideshowtransition/
 ---
 ## ISlideShowTransition インターフェイス
@@ -18,18 +18,18 @@ public interface ISlideShowTransition
 
 | 名前 | 説明 |
 | --- | --- |
-| [AdvanceAfter](../../aspose.slides/islideshowtransition/advanceafter) { get; set; } | この属性は、スライドショーが一定時間後に次のスライドへ移動するかどうかを指定します。読み書き可能な Boolean。 |
-| [AdvanceAfterTime](../../aspose.slides/islideshowtransition/advanceaftertime) { get; set; } | 遷移が開始されるまでの時間（ミリ秒）を指定します。この設定は advClick 属性と組み合わせて使用できます。この属性が指定されていない場合、自動的に進むことはないものと見なされます。読み書き可能な UInt32。 |
-| [AdvanceOnClick](../../aspose.slides/islideshowtransition/advanceonclick) { get; set; } | マウスクリックでスライドを進めるかどうかを指定します。この属性が指定されていない場合、true が設定されているものと見なされます。読み書き可能な Boolean。 |
-| [Duration](../../aspose.slides/islideshowtransition/duration) { get; set; } | スライド遷移エフェクトの継続時間（ミリ秒）を取得または設定します。読み書き可能な Int32。 |
-| [Sound](../../aspose.slides/islideshowtransition/sound) { get; set; } | 埋め込みオーディオデータを取得または設定します。読み書き可能な [`IAudio`](../iaudio)。 |
-| [SoundIsBuiltIn](../../aspose.slides/islideshowtransition/soundisbuiltin) { get; set; } | このサウンドが組み込みサウンドかどうかを指定します。この属性が true に設定されている場合、生成アプリケーションは組み込みサウンドの一覧でこのサウンドに指定された name 属性を確認し、必要に応じてカスタム名や UI を表示できます。読み書き可能な Boolean。 |
-| [SoundLoop](../../aspose.slides/islideshowtransition/soundloop) { get; set; } | この属性は、サウンドがスライドショーで次のサウンドイベントが発生するまでループするかどうかを指定します。読み書き可能な Boolean。 |
-| [SoundMode](../../aspose.slides/islideshowtransition/soundmode) { get; set; } | スライド遷移のサウンドモードを設定または取得します。読み書き可能な [`TransitionSoundMode`](../../aspose.slides.slideshow/transitionsoundmode)。 |
-| [SoundName](../../aspose.slides/islideshowtransition/soundname) { get; set; } | 遷移サウンドの人間が読める名前を指定します。[`Sound`](./sound) プロパティに割り当ててサウンド名を取得または設定する必要があります。読み書き可能な String。 |
-| [Speed](../../aspose.slides/islideshowtransition/speed) { get; set; } | 現在のスライドから次のスライドへ遷移する際に使用する遷移速度を指定します。読み書き可能な [`TransitionSpeed`](../../aspose.slides.slideshow/transitionspeed)。 |
-| [Type](../../aspose.slides/islideshowtransition/type) { get; set; } | 遷移のタイプです。読み書き可能な [`TransitionType`](../../aspose.slides.slideshow/transitiontype)。 |
-| [Value](../../aspose.slides/islideshowtransition/value) { get; } | スライドショー遷移の値です。読み取り専用の [`ITransitionValueBase`](../../aspose.slides.slideshow/itransitionvaluebase)。 |
+| [AdvanceAfter](../../aspose.slides/islideshowtransition/advanceafter) { get; set; } | この属性は、スライドショーが一定時間後に次のスライドに移動するかどうかを指定します。読み取り/書き込み Boolean。 |
+| [AdvanceAfterTime](../../aspose.slides/islideshowtransition/advanceaftertime) { get; set; } | 遷移が開始すべき時間（ミリ秒）を指定します。この設定は advClick 属性と組み合わせて使用できます。この属性が指定されていない場合、自動的に進むことはないとみなされます。読み取り/書き込み UInt32。 |
+| [AdvanceOnClick](../../aspose.slides/islideshowtransition/advanceonclick) { get; set; } | マウスクリックでスライドを進めるかどうかを指定します。この属性が指定されていない場合、true が設定されているとみなされます。読み取り/書き込み Boolean。 |
+| [Duration](../../aspose.slides/islideshowtransition/duration) { get; set; } | スライド遷移効果の期間（ミリ秒）を取得または設定します。読み取り/書き込み Int32。 |
+| [Sound](../../aspose.slides/islideshowtransition/sound) { get; set; } | 埋め込みオーディオデータを取得または設定します。読み取り/書き込み [`IAudio`](../iaudio)。 |
+| [SoundIsBuiltIn](../../aspose.slides/islideshowtransition/soundisbuiltin) { get; set; } | このサウンドが組み込みサウンドかどうかを指定します。この属性が true に設定されている場合、生成アプリケーションは組み込みサウンドのリストでこのサウンドに指定された name 属性を確認するよう通知され、必要に応じてカスタム名や UI を表示できます。読み取り/書き込み Boolean。 |
+| [SoundLoop](../../aspose.slides/islideshowtransition/soundloop) { get; set; } | この属性は、スライドショーで次のサウンドイベントが発生するまでサウンドをループさせるかどうかを指定します。読み取り/書き込み Boolean。 |
+| [SoundMode](../../aspose.slides/islideshowtransition/soundmode) { get; set; } | スライド遷移のサウンドモードを設定または取得します。読み取り/書き込み [`TransitionSoundMode`](../../aspose.slides.slideshow/transitionsoundmode)。 |
+| [SoundName](../../aspose.slides/islideshowtransition/soundname) { get; set; } | 遷移サウンドの人間が読める名前を指定します。[`Sound`](./sound) プロパティに割り当ててサウンド名を取得または設定する必要があります。読み取り/書き込み String。 |
+| [Speed](../../aspose.slides/islideshowtransition/speed) { get; set; } | 現在のスライドから次のスライドへ遷移する際に使用する遷移速度を指定します。読み取り/書き込み [`TransitionSpeed`](../../aspose.slides.slideshow/transitionspeed)。 |
+| [Type](../../aspose.slides/islideshowtransition/type) { get; set; } | 遷移のタイプです。読み取り/書き込み [`TransitionType`](../../aspose.slides.slideshow/transitiontype)。 |
+| [Value](../../aspose.slides/islideshowtransition/value) { get; } | スライドショー遷移値です。読み取り専用 [`ITransitionValueBase`](../../aspose.slides.slideshow/itransitionvaluebase)。 |
 
 ### 参照
 

@@ -1,14 +1,14 @@
 ---
 title: BehaviorPropertyCollection
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili properti timing untuk perilaku efek.
+description: Mewakili properti waktu untuk perilaku efek.
 type: docs
-weight: 180
+weight: 200
 url: /id/aspose.slides.animation/behaviorpropertycollection/
 ---
 ## BehaviorPropertyCollection kelas
 
-Mewakili properti timing untuk perilaku efek.
+Mewakili properti waktu untuk perilaku efek.
 
 ```csharp
 public class BehaviorPropertyCollection : IBehaviorPropertyCollection
@@ -16,7 +16,7 @@ public class BehaviorPropertyCollection : IBehaviorPropertyCollection
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [Count](../../aspose.slides.animation/behaviorpropertycollection/count) { get; } | Mengembalikan jumlah properti yang disimpan dalam koleksi. Hanya-baca Int32. |
 | [IsReadOnly](../../aspose.slides.animation/behaviorpropertycollection/isreadonly) { get; } | Mendapatkan nilai yang menunjukkan apakah ICollection bersifat hanya-baca. Hanya-baca Boolean. |
@@ -24,19 +24,19 @@ public class BehaviorPropertyCollection : IBehaviorPropertyCollection
 
 ## Metode
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add)(IBehaviorProperty) | Menambahkan properti baru ke koleksi. |
-| [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add_1)(string) | Menambahkan properti baru ke koleksi. |
+| [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add)(IBehaviorProperty) | Menambahkan properti baru ke dalam koleksi. |
+| [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add_1)(string) | Menambahkan properti baru ke dalam koleksi. |
 | [Clear](../../aspose.slides.animation/behaviorpropertycollection/clear)() | Menghapus semua properti dari koleksi. |
 | [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains)(IBehaviorProperty) | Menentukan apakah ICollection berisi nilai tertentu. |
 | [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains_1)(string) | Menentukan apakah ICollection berisi nilai tertentu. |
-| [CopyTo](../../aspose.slides.animation/behaviorpropertycollection/copyto)(IBehaviorProperty[], int) | Menyalin elemen ICollection ke Array, mulai pada indeks Array tertentu. |
+| [CopyTo](../../aspose.slides.animation/behaviorpropertycollection/copyto)(IBehaviorProperty[], int) | Menyalin elemen-elemen ICollection ke dalam Array, dimulai pada indeks Array tertentu. |
 | [GetEnumerator](../../aspose.slides.animation/behaviorpropertycollection/getenumerator)() | Mengembalikan enumerator yang mengiterasi koleksi. |
 | [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof)(IBehaviorProperty) | Menentukan indeks item tertentu dalam IList. |
 | [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof_1)(string) | Menentukan indeks item tertentu berdasarkan nilai properti dalam IList. |
-| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert)(int, IBehaviorProperty) | Menyisipkan properti baru ke koleksi pada indeks yang ditentukan. |
-| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert_1)(int, string) | Menyisipkan properti baru (dengan nilai properti yang ditentukan) ke koleksi pada indeks yang ditentukan. |
+| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert)(int, IBehaviorProperty) | Menyisipkan properti baru ke dalam koleksi pada indeks yang ditentukan. |
+| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert_1)(int, string) | Menyisipkan properti baru (dengan nilai properti yang ditentukan) ke dalam koleksi pada indeks yang ditentukan. |
 | [Remove](../../aspose.slides.animation/behaviorpropertycollection/remove#remove)(IBehaviorProperty) | Menghapus properti yang ditentukan dari koleksi. |
 | [Remove](../../aspose.slides.animation/behaviorpropertycollection/remove#remove_1)(string) | Menghapus properti yang ditentukan dari koleksi. |
 | [RemoveAt](../../aspose.slides.animation/behaviorpropertycollection/removeat)(int) | Menghapus properti pada indeks yang ditentukan. |

@@ -1,12 +1,12 @@
 ---
 title: IMathRightSubSuperscriptElementFactory
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mengizinkan membuat IMathRightSubSuperscriptElementFactory
 type: docs
-weight: 8440
+weight: 8460
 url: /id/aspose.slides.mathtext/imathrightsubsuperscriptelementfactory/
 ---
-## antarmuka IMathRightSubSuperscriptElementFactory
+## IMathRightSubSuperscriptElementFactory antarmuka
 
 Mengizinkan membuat IMathRightSubSuperscriptElementFactory
 

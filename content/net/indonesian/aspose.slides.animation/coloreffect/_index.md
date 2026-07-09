@@ -1,9 +1,9 @@
 ---
 title: ColorEffect
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili efek warna untuk perilaku animasi.
 type: docs
-weight: 210
+weight: 230
 url: /id/aspose.slides.animation/coloreffect/
 ---
 ## ColorEffect kelas
@@ -28,9 +28,9 @@ public class ColorEffect : Behavior, IColorEffect
 | [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Mewakili apakah perilaku animasi saat ini digabungkan dengan animasi lain yang sedang berjalan. Baca/tulis [`BehaviorAdditiveType`](../behavioradditivetype). |
 | [By](../../aspose.slides.animation/coloreffect/by) { get; set; } | Menjelaskan nilai offset relatif untuk animasi warna. Baca/tulis [`IColorOffset`](../icoloroffset). |
 | [ColorSpace](../../aspose.slides.animation/coloreffect/colorspace) { get; set; } | Mewakili ruang warna perilaku. Baca/tulis [`ColorSpace`](../colorspace). |
-| [Direction](../../aspose.slides.animation/coloreffect/direction) { get; set; } | Menentukan arah siklus hue di sekitar roda warna. Baca/tulis [`ColorDirection`](../colordirection). |
+| [Direction](../../aspose.slides.animation/coloreffect/direction) { get; set; } | Menentukan arah mana untuk memutar hue di sekitar roda warna. Baca/tulis [`ColorDirection`](../colordirection). |
 | [From](../../aspose.slides.animation/coloreffect/from) { get; set; } | Nilai ini digunakan untuk menentukan warna awal perilaku. Baca/tulis [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Mewakili properti perilaku. Hanya-baca [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Mewakili properti perilaku. Baca-saja [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
 | [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Mewakili properti waktu untuk perilaku efek. Baca/tulis [`ITiming`](../itiming). |
 | [To](../../aspose.slides.animation/coloreffect/to) { get; set; } | Menjelaskan warna hasil untuk perubahan warna animasi. Baca/tulis [`IColorFormat`](../../aspose.slides/icolorformat). |
 

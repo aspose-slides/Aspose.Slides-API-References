@@ -1,12 +1,12 @@
 ---
 title: SectionCollection
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta una raccolta di sezioni.
 type: docs
-weight: 9740
+weight: 9760
 url: /it/aspose.slides/sectioncollection/
 ---
-## SectionCollection classe
+## classe SectionCollection
 
 Rappresenta una raccolta di sezioni.
 
@@ -34,7 +34,7 @@ public sealed class SectionCollection : DomObject<Presentation>, ISectionCollect
 | [CopyTo](../../aspose.slides/sectioncollection/copyto)(Array, int) | Copia l'intera raccolta nell'array specificato. |
 | [GetEnumerator](../../aspose.slides/sectioncollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
 | [IndexOf](../../aspose.slides/sectioncollection/indexof)(ISection) | Restituisce l'indice della sezione specificata nella raccolta. |
-| [RemoveSection](../../aspose.slides/sectioncollection/removesection)(ISection) | Rimuove la sezione. Le diapositive contenute nella sezione saranno unite alla sezione precedente. |
+| [RemoveSection](../../aspose.slides/sectioncollection/removesection)(ISection) | Rimuove la sezione. Le diapositive contenute nella sezione saranno unite nella sezione precedente. |
 | [RemoveSectionWithSlides](../../aspose.slides/sectioncollection/removesectionwithslides)(ISection) | Rimuove la sezione e le diapositive contenute nella sezione. |
 | [ReorderSectionWithSlides](../../aspose.slides/sectioncollection/reordersectionwithslides)(ISection, int) | Sposta la sezione e le sue diapositive dalla raccolta alla posizione specificata. |
 

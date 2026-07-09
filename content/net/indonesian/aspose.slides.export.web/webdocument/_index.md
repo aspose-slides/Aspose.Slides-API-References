@@ -3,10 +3,10 @@ title: WebDocument
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili bentuk transisi presentasi untuk disimpan dalam format web.
 type: docs
-weight: 4660
+weight: 4680
 url: /id/aspose.slides.export.web/webdocument/
 ---
-## kelas WebDocument
+## WebDocument kelas
 
 Mewakili bentuk transisi presentasi untuk disimpan dalam format web.
 
@@ -16,23 +16,23 @@ public class WebDocument
 
 ## Konstruktor
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [WebDocument](webdocument)(WebDocumentOptions) | [`WebDocument`](../webdocument) konstruktor. |
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [Global](../../aspose.slides.export.web/webdocument/global) { get; } | Mengembalikan penyimpanan global dokumen. Hanya baca [`Storage`](../storage). |
+| [Global](../../aspose.slides.export.web/webdocument/global) { get; } | Mengembalikan penyimpanan global dokumen. Baca-saja [`Storage`](../storage). |
 | [Input](../../aspose.slides.export.web/webdocument/input) { get; } |  |
-| [Output](../../aspose.slides.export.web/webdocument/output) { get; } | Mengembalikan koleksi elemen output dokumen. Hanya baca [`Output`](./output). |
+| [Output](../../aspose.slides.export.web/webdocument/output) { get; } | Mengembalikan koleksi elemen keluaran dokumen. Baca-saja [`Output`](./output). |
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [Save](../../aspose.slides.export.web/webdocument/save)() | Menyimpan output dokumen. |
+| [Save](../../aspose.slides.export.web/webdocument/save)() | Menyimpan keluaran dokumen. |
 
 ### Lihat Juga
 

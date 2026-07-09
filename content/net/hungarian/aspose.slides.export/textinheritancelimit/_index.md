@@ -1,9 +1,9 @@
 ---
 title: TextInheritanceLimit
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Szabályozza a szövegtulajdonságok öröklődésének mélységét.
+second_title: Aspose.Sildes .NET API referencia
+description: A szöveg tulajdonságok öröklődésének mélységét szabályozza.
 type: docs
-weight: 4520
+weight: 4540
 url: /hu/aspose.slides.export/textinheritancelimit/
 ---
 ## TextInheritanceLimit enumeráció
@@ -19,7 +19,7 @@ public enum TextInheritanceLimit
 | Név | Érték | Leírás |
 | --- | --- | --- |
 | All | `0` | Örökli az összes szövegtulajdonságot. |
-| TextBox | `1` | Csak a TextFrame stílusából örököl. |
+| TextBox | `1` | Csak a TextFrame stílusából örökli. |
 | ParagraphOnly | `2` | Csak a bekezdéshez definiált tulajdonságokat használja. |
 
 ### Lásd még

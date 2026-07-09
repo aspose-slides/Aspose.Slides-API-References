@@ -1,14 +1,14 @@
 ---
 title: ISlideShowTransition
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje przejście pokazu slajdów.
 type: docs
-weight: 7060
+weight: 7080
 url: /pl/aspose.slides/islideshowtransition/
 ---
 ## ISlideShowTransition interfejs
 
-Represents slide show transition.
+Reprezentuje przejście pokazu slajdów.
 
 ```csharp
 public interface ISlideShowTransition
@@ -18,18 +18,18 @@ public interface ISlideShowTransition
 
 | Nazwa | Opis |
 | --- | --- |
-| [AdvanceAfter](../../aspose.slides/islideshowtransition/advanceafter) { get; set; } | Ten atrybut określa, czy pokaz slajdów przejdzie do następnego slajdu po określonym czasie. Odczyt/zapis Boolean. |
-| [AdvanceAfterTime](../../aspose.slides/islideshowtransition/advanceaftertime) { get; set; } | Określa czas w milisekundach, po którym powinno rozpocząć się przejście. To ustawienie może być użyte razem z atrybutem advClick. Jeśli ten atrybut nie zostanie podany, przyjmuje się, że nie nastąpi automatyczne przejście. Odczyt/zapis UInt32. |
-| [AdvanceOnClick](../../aspose.slides/islideshowtransition/advanceonclick) { get; set; } | Określa, czy kliknięcie myszy przejdzie do kolejnego slajdu. Jeśli ten atrybut nie zostanie podany, przyjmuje się wartość true. Odczyt/zapis Boolean. |
-| [Duration](../../aspose.slides/islideshowtransition/duration) { get; set; } | Pobiera lub ustawia czas trwania efektu przejścia slajdu w milisekundach. Odczyt/zapis Int32. |
-| [Sound](../../aspose.slides/islideshowtransition/sound) { get; set; } | Zwraca lub ustawia osadzone dane audio. Odczyt/zapis [`IAudio`](../iaudio). |
-| [SoundIsBuiltIn](../../aspose.slides/islideshowtransition/soundisbuiltin) { get; set; } | Określa, czy dźwięk jest wbudowany. Jeśli atrybut ma wartość true, aplikacja generująca zostaje powiadomiona, aby sprawdzić atrybut name określony dla tego dźwięku na liście wbudowanych dźwięków i może wówczas wyświetlić własną nazwę lub interfejs użytkownika w razie potrzeby. Odczyt/zapis Boolean. |
-| [SoundLoop](../../aspose.slides/islideshowtransition/soundloop) { get; set; } | Ten atrybut określa, czy dźwięk będzie powtarzany w pętli, aż wystąpi kolejny zdarzenie dźwiękowe w pokazie slajdów. Odczyt/zapis Boolean. |
-| [SoundMode](../../aspose.slides/islideshowtransition/soundmode) { get; set; } | Ustawia lub zwraca tryb dźwięku dla przejścia slajdu. Odczyt/zapis [`TransitionSoundMode`](../../aspose.slides.slideshow/transitionsoundmode). |
-| [SoundName](../../aspose.slides/islideshowtransition/soundname) { get; set; } | Określa czytelną nazwę dźwięku przejścia. Właściwość [`Sound`](./sound) musi być przypisana, aby pobrać lub ustawić nazwę dźwięku. Odczyt/zapis String. |
-| [Speed](../../aspose.slides/islideshowtransition/speed) { get; set; } | Określa prędkość przejścia używaną przy przechodzeniu z bieżącego slajdu do następnego. Odczyt/zapis [`TransitionSpeed`](../../aspose.slides.slideshow/transitionspeed). |
-| [Type](../../aspose.slides/islideshowtransition/type) { get; set; } | Typ przejścia. Odczyt/zapis [`TransitionType`](../../aspose.slides.slideshow/transitiontype). |
-| [Value](../../aspose.slides/islideshowtransition/value) { get; } | Wartość przejścia pokazu slajdów. Tylko do odczytu [`ITransitionValueBase`](../../aspose.slides.slideshow/itransitionvaluebase). |
+| [AdvanceAfter](../../aspose.slides/islideshowtransition/advanceafter) { get; set; } | Ten atrybut określa, czy pokaz slajdów przejdzie do następnego slajdu po określonym czasie. odczyt/zapis Boolean. |
+| [AdvanceAfterTime](../../aspose.slides/islideshowtransition/advanceaftertime) { get; set; } | Określa czas w milisekundach, po którym powinno rozpocząć się przejście. To ustawienie może być używane wraz z atrybutem advClick. Jeśli atrybut nie jest określony, zakłada się brak automatycznego przejścia. odczyt/zapis UInt32. |
+| [AdvanceOnClick](../../aspose.slides/islideshowtransition/advanceonclick) { get; set; } | Określa, czy kliknięcie myszy spowoduje przejście do kolejnego slajdu. Jeśli atrybut nie jest określony, przyjmowana jest wartość true. odczyt/zapis Boolean. |
+| [Duration](../../aspose.slides/islideshowtransition/duration) { get; set; } | Pobiera lub ustawia czas trwania efektu przejścia slajdu w milisekundach. odczyt/zapis Int32. |
+| [Sound](../../aspose.slides/islideshowtransition/sound) { get; set; } | Zwraca lub ustawia osadzone dane audio. odczyt/zapis [`IAudio`](../iaudio). |
+| [SoundIsBuiltIn](../../aspose.slides/islideshowtransition/soundisbuiltin) { get; set; } | Określa, czy dźwięk jest wbudowany. Jeśli atrybut ma wartość true, aplikacja generująca jest informowana o sprawdzeniu atrybutu name określonego dla tego dźwięku w swojej liście wbudowanych dźwięków i może wtedy wyświetlić własną nazwę lub interfejs użytkownika w razie potrzeby. odczyt/zapis Boolean. |
+| [SoundLoop](../../aspose.slides/islideshowtransition/soundloop) { get; set; } | Ten atrybut określa, czy dźwięk będzie powtarzany, dopóki nie wystąpi kolejny zdarzenie dźwiękowe w pokazie slajdów. odczyt/zapis Boolean. |
+| [SoundMode](../../aspose.slides/islideshowtransition/soundmode) { get; set; } | Ustawia lub zwraca tryb dźwięku dla przejścia slajdu. odczyt/zapis [`TransitionSoundMode`](../../aspose.slides.slideshow/transitionsoundmode). |
+| [SoundName](../../aspose.slides/islideshowtransition/soundname) { get; set; } | Określa czytelną nazwę ludzką dźwięku przejścia. Właściwość [`Sound`](./sound) musi być przypisana, aby uzyskać lub ustawić nazwę dźwięku. odczyt/zapis String. |
+| [Speed](../../aspose.slides/islideshowtransition/speed) { get; set; } | Określa prędkość przejścia używaną przy przechodzeniu z bieżącego slajdu do kolejnego. odczyt/zapis [`TransitionSpeed`](../../aspose.slides.slideshow/transitionspeed). |
+| [Type](../../aspose.slides/islideshowtransition/type) { get; set; } | Typ przejścia. odczyt/zapis [`TransitionType`](../../aspose.slides.slideshow/transitiontype). |
+| [Value](../../aspose.slides/islideshowtransition/value) { get; } | Wartość przejścia pokazu slajdów. tylko do odczytu [`ITransitionValueBase`](../../aspose.slides.slideshow/itransitionvaluebase). |
 
 ### Zobacz także
 

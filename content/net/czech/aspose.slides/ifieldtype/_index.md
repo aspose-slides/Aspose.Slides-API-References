@@ -1,14 +1,14 @@
 ---
 title: IFieldType
 second_title: Aspose.Sildes pro .NET API Reference
-description: Zastupuje typ pole. Tato hodnota určuje, který text bude nastaven do části pole při jeho aktualizaci.
+description: Representuje typ pole. Tato hodnota určuje, který text bude nastaven do části pole při jeho aktualizaci.
 type: docs
-weight: 5760
+weight: 5780
 url: /cs/aspose.slides/ifieldtype/
 ---
 ## IFieldType rozhraní
 
-Zastupuje typ pole. Tato hodnota určuje, který text bude nastaven do části pole při jeho aktualizaci.
+Representuje typ pole. Tato hodnota určuje, který text bude nastaven do části pole při jeho aktualizaci.
 
 ```csharp
 public interface IFieldType

@@ -1,12 +1,12 @@
 ---
 title: DomObjectTParent
-second_title: Aspose.Sildes a .NET API-referencia
+second_title: Aspose.Sildes a .NET API hivatkozás
 description: Alap DOM objektum
 type: docs
-weight: 2780
+weight: 2800
 url: /hu/aspose.slides/domobject-1/
 ---
-## DomObject&lt;TParent&gt; osztály
+## DomObject<TParent> osztály
 
 Alap DOM objektum
 

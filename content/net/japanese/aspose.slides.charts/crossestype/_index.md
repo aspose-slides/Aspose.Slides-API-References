@@ -1,14 +1,14 @@
 ---
 title: CrossesType
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: 軸がどこで交差するかを決定します。
 type: docs
-weight: 1520
+weight: 1540
 url: /ja/aspose.slides.charts/crossestype/
 ---
 ## CrossesType 列挙型
 
-軸がどこで交差するかを決定します。
+軸が交差する場所を決定します。
 
 ```csharp
 public enum CrossesType
@@ -18,9 +18,9 @@ public enum CrossesType
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| AxisCrossesAtZero | `0` | カテゴリ軸は、可能であれば値軸のゼロ点で交差し、そうでなければ最小値（最小値がゼロより大きい場合）または最大値（最大値がゼロ未満の場合）で交差します。 |
+| AxisCrossesAtZero | `0` | カテゴリ軸は、可能な場合は値軸のゼロ点で交差し、最小値がゼロより大きい場合は最小値で、最大値がゼロ未満の場合は最大値で交差します。 |
 | Maximum | `1` | 軸は最大値で交差します。 |
-| Custom | `2` | プロパティ CrossAt のカスタム値 |
+| Custom | `2` | プロパティ CrossAt からのカスタム値 |
 
 ### 参照
 

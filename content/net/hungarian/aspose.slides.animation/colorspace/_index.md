@@ -1,14 +1,14 @@
 ---
 title: ColorSpace
-second_title: Aspose.Sildes .NET API-referencia
-description: A színhatás viselkedéséhez használt színtér.
+second_title: Aspose.Sildes .NET API referencia
+description: A színhatás viselkedéséhez használt színtér reprezentálása.
 type: docs
-weight: 230
+weight: 250
 url: /hu/aspose.slides.animation/colorspace/
 ---
-## ColorSpace felsorolás
+## ColorSpace enumeráció
 
-A színeffekt viselkedéséhez használt színtér.
+A színhatás viselkedéséhez használt színtér reprezentálása.
 
 ```csharp
 public enum ColorSpace

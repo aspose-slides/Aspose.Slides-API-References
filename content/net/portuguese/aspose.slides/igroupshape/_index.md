@@ -1,9 +1,9 @@
 ---
 title: IGroupShape
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência de API
 description: Representa um grupo de formas em um slide.
 type: docs
-weight: 6060
+weight: 6080
 url: /pt/aspose.slides/igroupshape/
 ---
 ## IGroupShape interface
@@ -23,7 +23,7 @@ public interface IGroupShape : IShape
 | [ShapeLock](../../aspose.slides/igroupshape/shapelock) { get; } | Retorna os bloqueios da forma. Somente leitura [`IGroupShapeLock`](../igroupshapelock). |
 | [Shapes](../../aspose.slides/igroupshape/shapes) { get; } | Retorna a coleção de formas dentro do grupo. Somente leitura [`IShapeCollection`](../ishapecollection). |
 
-### Veja também
+### Veja Também
 
 * interface [IShape](../ishape)
 * namespace [Aspose.Slides](../../aspose.slides)

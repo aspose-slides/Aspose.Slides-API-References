@@ -1,9 +1,9 @@
 ---
 title: ICaptions
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa as legendas fechadas WebVTT.
 type: docs
-weight: 5410
+weight: 5430
 url: /pt/aspose.slides/icaptions/
 ---
 ## ICaptions interface
@@ -19,7 +19,7 @@ public interface ICaptions
 | Nome | Descrição |
 | --- | --- |
 | [BinaryData](../../aspose.slides/icaptions/binarydata) { get; } | Retorna os dados binários das legendas fechadas. Somente leitura Byte[]. |
-| [CaptionId](../../aspose.slides/icaptions/captionid) { get; } | Retorna o identificador global único (GUID) das legendas fechadas. Somente leitura Guid. |
+| [CaptionId](../../aspose.slides/icaptions/captionid) { get; } | Retorna o identificador globalmente único (GUID) das legendas fechadas. Somente leitura Guid. |
 | [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | Retorna os dados das legendas fechadas como string codificada UTF-8. Somente leitura String. |
 | [Label](../../aspose.slides/icaptions/label) { get; set; } | Retorna ou define o rótulo das legendas fechadas. Leitura/gravação String. |
 

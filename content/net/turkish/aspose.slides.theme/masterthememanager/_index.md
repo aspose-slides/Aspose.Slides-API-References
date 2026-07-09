@@ -3,7 +3,7 @@ title: MasterThemeManager
 second_title: Aspose.Sildes için .NET API Referansı
 description: Sunum ana temasına erişim sağlar.
 type: docs
-weight: 11420
+weight: 11440
 url: /tr/aspose.slides.theme/masterthememanager/
 ---
 ## MasterThemeManager sınıfı
@@ -18,17 +18,17 @@ public class MasterThemeManager : BaseThemeManager, IMasterThemeManager
 
 | Ad | Açıklama |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | OverrideTheme'in kalıtılan etkili temayı (Presentation.MasterTheme) geçersiz kılıp koyup koymadığını belirler. Okuma/yazma Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/masterthememanager/overridetheme) { get; set; } | Geçersiz kılan tema nesnesini döndürür. Okuma/yazma [`IMasterTheme`](../imastertheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | OverrideTheme, kalıtsal etkili temayı (Presentation.MasterTheme) geçersiz kılıp kılmadığını belirler. Okuma/Yazma Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/masterthememanager/overridetheme) { get; set; } | Geçersiz kılan tema nesnesini döndürür. Okuma/Yazma [`IMasterTheme`](../imastertheme). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/masterthememanager/applycolorscheme)(IExtraColorScheme) | Bir slayta ek renk şemasını uygular. |
+| [ApplyColorScheme](../../aspose.slides.theme/masterthememanager/applycolorscheme)(IExtraColorScheme) | Bir slayta ek renk şeması uygular. |
 | [CreateThemeEffective](../../aspose.slides.theme/masterthememanager/createthemeeffective)() | Tema nesnesini döndürür. |
 
-### Ayrıca Bakınız
+### Bakınız
 
 * sınıf [BaseThemeManager](../basethememanager)
 * arayüz [IMasterThemeManager](../imasterthememanager)

@@ -1,14 +1,14 @@
 ---
 title: MasterLayoutSlideCollection
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili kumpulan semua layout slide dari master slide yang ditentukan. Memperluas kelas LayoutSlideCollection dengan metode untuk menambah/menyisipkan/menghapus/menyalin ulang/mengatur ulang layout slide dalam konteks kumpulan individual layout slide master.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili koleksi semua slide tata letak dari slide master yang ditentukan. Memperluas kelas LayoutSlideCollection dengan metode untuk menambahkan/menyisipkan/menghapus/menyalin/mengubah urutan slide tata letak dalam konteks koleksi individual slide tata letak master.
 type: docs
-weight: 7980
+weight: 8000
 url: /id/aspose.slides/masterlayoutslidecollection/
 ---
 ## MasterLayoutSlideCollection kelas
 
-Mewakili kumpulan semua layout slides dari master slide yang ditentukan. Memperluas kelas LayoutSlideCollection dengan metode untuk menambah/menyisipkan/menghapus/menyalin ulang/mengatur ulang layout slides dalam konteks kumpulan individual layout slides master.
+Menrepresentasikan koleksi semua slide tata letak dari slide master yang ditentukan. Memperluas kelas LayoutSlideCollection dengan metode untuk menambahkan/menyisipkan/menghapus/menyalin/mengubah urutan slide tata letak dalam konteks koleksi individual slide tata letak master.
 
 ```csharp
 public sealed class MasterLayoutSlideCollection : LayoutSlideCollection, 
@@ -19,32 +19,32 @@ public sealed class MasterLayoutSlideCollection : LayoutSlideCollection,
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Mengembalikan jumlah layout slides dalam koleksi. Baca-saja Int32. |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (thread-safe). Baca-saja Boolean. |
-| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Mengembalikan layout slide berdasarkan indeks. Baca-saja [`LayoutSlide`](../layoutslide). |
-| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Mengembalikan akar sinkronisasi. Baca-saja Object. |
+| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Mengembalikan jumlah slide tata letak dalam sebuah koleksi. Read-only Int32. |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (thread-safe). Read-only Boolean. |
+| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Mengembalikan slide tata letak berdasarkan indeks. Read-only [`LayoutSlide`](../layoutslide). |
+| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Mengembalikan akar sinkronisasi. Read-only Object. |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Add](../../aspose.slides/masterlayoutslidecollection/add)(SlideLayoutType, string) | Menambahkan layout slide baru ke akhir koleksi. |
-| [AddClone](../../aspose.slides/masterlayoutslidecollection/addclone)(ILayoutSlide) | Menambahkan salinan layout slide tertentu ke akhir koleksi. |
-| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Mengopi semua elemen dari koleksi ke array yang ditentukan. |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Mengembalikan layout slide pertama dengan tipe yang ditentukan. Tipe layout slide yang dicari.[`LayoutSlide`](../layoutslide) dengan tipe tertentu atau null jika tidak ada layout yang ditemukan. |
+| [Add](../../aspose.slides/masterlayoutslidecollection/add)(SlideLayoutType, string) | Menambahkan slide tata letak baru ke akhir koleksi. |
+| [AddClone](../../aspose.slides/masterlayoutslidecollection/addclone)(ILayoutSlide) | Menambahkan salinan slide tata letak tertentu ke akhir koleksi. |
+| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Menyalin semua elemen dari koleksi ke array yang ditentukan. |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Mengembalikan slide tata letak pertama dengan tipe yang ditentukan. Tipe slide tata letak yang dicari.[`LayoutSlide`](../layoutslide) dengan tipe yang ditentukan atau null jika tidak ada tata letak yang ditemukan. |
 | [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Mengembalikan enumerator yang mengiterasi koleksi. |
-| [Insert](../../aspose.slides/masterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Menyisipkan layout slide baru ke posisi tertentu dalam koleksi. |
-| [InsertClone](../../aspose.slides/masterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Menyisipkan salinan layout slide tertentu ke posisi tertentu dalam koleksi. |
-| [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Menghapus layout dari koleksi. |
-| [RemoveAt](../../aspose.slides/masterlayoutslidecollection/removeat)(int) | Menghapus elemen pada indeks tertentu dalam koleksi. |
-| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Menghapus layout slide yang tidak terpakai (layout slides yang HasDependingSlides bernilai false). |
-| [Reorder](../../aspose.slides/masterlayoutslidecollection/reorder)(int, ILayoutSlide) | Memindahkan layout slide dari koleksi ke posisi yang ditentukan. |
+| [Insert](../../aspose.slides/masterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Menyisipkan slide tata letak baru ke posisi yang ditentukan dalam koleksi. |
+| [InsertClone](../../aspose.slides/masterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Menyisipkan salinan slide tata letak tertentu ke posisi yang ditentukan dalam koleksi. |
+| [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Menghapus tata letak dari koleksi. |
+| [RemoveAt](../../aspose.slides/masterlayoutslidecollection/removeat)(int) | Menghapus elemen pada indeks yang ditentukan dalam koleksi. |
+| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Menghapus slide tata letak yang tidak terpakai (slide tata letak yang HasDependingSlides bernilai false). |
+| [Reorder](../../aspose.slides/masterlayoutslidecollection/reorder)(int, ILayoutSlide) | Memindahkan slide tata letak dari koleksi ke posisi yang ditentukan. |
 
 ### Lihat Juga
 
 * kelas [LayoutSlideCollection](../layoutslidecollection)
 * antarmuka [IMasterLayoutSlideCollection](../imasterlayoutslidecollection)
 * ruang nama [Aspose.Slides](../../aspose.slides)
-* rakitan [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

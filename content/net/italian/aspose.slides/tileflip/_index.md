@@ -3,10 +3,10 @@ title: TileFlip
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Definisce la modalità di ribaltamento delle tessere.
 type: docs
-weight: 11480
+weight: 11500
 url: /it/aspose.slides/tileflip/
 ---
-## Enumerazione TileFlip
+## TileFlip enumerazione
 
 Definisce la modalità di ribaltamento delle tessere.
 

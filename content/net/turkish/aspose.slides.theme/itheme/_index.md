@@ -1,9 +1,9 @@
 ---
 title: ITheme
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET için API Referansı
 description: Bir temayı temsil eder.
 type: docs
-weight: 11350
+weight: 11370
 url: /tr/aspose.slides.theme/itheme/
 ---
 ## ITheme arayüzü
@@ -18,16 +18,16 @@ public interface ITheme : IPresentationComponent
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides.theme/itheme/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzüne erişmeyi sağlar. Yalnızca okuma [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [ColorScheme](../../aspose.slides.theme/itheme/colorscheme) { get; } | Renk şemasını döndürür. Yalnızca okuma [`IColorScheme`](../icolorscheme). |
-| [FontScheme](../../aspose.slides.theme/itheme/fontscheme) { get; } | Yazı tipi şemasını döndürür. Yalnızca okuma [`IFontScheme`](../ifontscheme). |
-| [FormatScheme](../../aspose.slides.theme/itheme/formatscheme) { get; } | Şekil biçim şemasını döndürür. Yalnızca okuma [`IFormatScheme`](../iformatscheme). |
+| [AsIPresentationComponent](../../aspose.slides.theme/itheme/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almayı sağlar. Yalnızca okunur [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [ColorScheme](../../aspose.slides.theme/itheme/colorscheme) { get; } | Renk şemasını döndürür. Yalnızca okunur [`IColorScheme`](../icolorscheme). |
+| [FontScheme](../../aspose.slides.theme/itheme/fontscheme) { get; } | Yazı tipi şemasını döndürür. Yalnızca okunur [`IFontScheme`](../ifontscheme). |
+| [FormatScheme](../../aspose.slides.theme/itheme/formatscheme) { get; } | Şekil biçim şemasını döndürür. Yalnızca okunur [`IFormatScheme`](../iformatscheme). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [GetEffective](../../aspose.slides.theme/itheme/geteffective)() | Uygulanan miras ile etkili tema verilerini alır. |
+| [GetEffective](../../aspose.slides.theme/itheme/geteffective)() | Uygulanan kalıtımla etkili tema verilerini alır. |
 
 ### Ayrıca Bakınız
 

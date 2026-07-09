@@ -1,14 +1,14 @@
 ---
 title: InterruptionToken
-second_title: Aspose.Sildes för .NET API-referens
-description: Denna klass representerar token som används för att signalera långvariga uppgifter om avbrottet begärdes.
+second_title: Aspose.Slides för .NET API-referens
+description: Denna klass representerar token som används för att signalera till långvariga uppgifter om avbrott har begärts.
 type: docs
-weight: 7580
+weight: 7600
 url: /sv/aspose.slides/interruptiontoken/
 ---
 ## InterruptionToken klass
 
-Denna klass representerar token som används för att signalera långvariga uppgifter om avbrottet begärdes.
+Denna klass representerar token som används för att signalera till långvariga uppgifter om avbrott har begärts.
 
 ```csharp
 public class InterruptionToken : IInterruptionToken
@@ -18,14 +18,14 @@ public class InterruptionToken : IInterruptionToken
 
 | Namn | Beskrivning |
 | --- | --- |
-| static [None](../../aspose.slides/interruptiontoken/none) { get; } | Representerar en tom avbrottstoken. Långvariga operationer avbryts aldrig via [`Interrupt`](../interruptiontokensource/interrupt) när denna token används. |
-| [IsInterruptionRequested](../../aspose.slides/interruptiontoken/isinterruptionrequested) { get; } | Returnerar Boolean.true om avbrottet begärdes. |
+| static [None](../../aspose.slides/interruptiontoken/none) { get; } | Representerar en tom avbrottstoken. Långvariga operationer kommer aldrig att avbrytas via [`Interrupt`](../interruptiontokensource/interrupt) när denna token används. |
+| [IsInterruptionRequested](../../aspose.slides/interruptiontoken/isinterruptionrequested) { get; } | Returnerar Boolean.true om avbrott har begärts. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [ThrowIfInterruptionRequested](../../aspose.slides/interruptiontoken/throwifinterruptionrequested)() | Kastar ett OperationCanceledException om avbrottet begärdes. |
+| [ThrowIfInterruptionRequested](../../aspose.slides/interruptiontoken/throwifinterruptionrequested)() | Kastar ett OperationCanceledException om avbrott har begärts. |
 
 ### Se även
 

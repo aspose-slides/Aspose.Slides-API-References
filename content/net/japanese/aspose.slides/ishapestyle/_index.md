@@ -1,14 +1,14 @@
 ---
 title: IShapeStyle
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Slides for .NET API リファレンス
 description: シェイプのスタイル参照を表します。
 type: docs
-weight: 6990
+weight: 7010
 url: /ja/aspose.slides/ishapestyle/
 ---
-## IShapeStyle インタフェース
+## IShapeStyle インターフェイス
 
-Represent shape's style reference.
+シェイプのスタイル参照を表します。
 
 ```csharp
 public interface IShapeStyle
@@ -18,14 +18,14 @@ public interface IShapeStyle
 
 | 名前 | 説明 |
 | --- | --- |
-| [EffectColor](../../aspose.slides/ishapestyle/effectcolor) { get; } | シェイプのエフェクトカラーを返します。読み取り専用 [`IColorFormat`](../icolorformat)。 |
-| [EffectStyleIndex](../../aspose.slides/ishapestyle/effectstyleindex) { get; set; } | シェイプのエフェクト列インデックスを取得または設定します。スタイルマトリックス内です。読み取り/書き込み UInt32。 |
-| [FillColor](../../aspose.slides/ishapestyle/fillcolor) { get; } | シェイプの塗り色を返します。読み取り専用 [`IColorFormat`](../icolorformat)。 |
-| [FillStyleIndex](../../aspose.slides/ishapestyle/fillstyleindex) { get; set; } | シェイプの塗り列インデックスを取得または設定します。0 は塗りなしを意味し、正の値はテーマの塗りスタイルのインデックス、負の値はテーマの背景スタイルのインデックスを表します。読み取り/書き込み Int16。 |
-| [FontCollectionIndex](../../aspose.slides/ishapestyle/fontcollectionindex) { get; set; } | シェイプのフォントインデックスを取得または設定します。フォントコレクション内です。読み取り/書き込み [`FontCollectionIndex`](../fontcollectionindex)。 |
-| [FontColor](../../aspose.slides/ishapestyle/fontcolor) { get; } | シェイプのフォントカラーを返します。読み取り専用 [`IColorFormat`](../icolorformat)。 |
-| [LineColor](../../aspose.slides/ishapestyle/linecolor) { get; } | シェイプのアウトラインカラーを返します。読み取り専用 [`IColorFormat`](../icolorformat)。 |
-| [LineStyleIndex](../../aspose.slides/ishapestyle/linestyleindex) { get; set; } | ラインの列インデックスを取得または設定します。スタイルマトリックス内です。読み取り/書き込み UInt16。 |
+| [EffectColor](../../aspose.slides/ishapestyle/effectcolor) { get; } | シェイプの効果色を返します。読み取り専用 [`IColorFormat`](../icolorformat)。 |
+| [EffectStyleIndex](../../aspose.slides/ishapestyle/effectstyleindex) { get; set; } | スタイルマトリックス内のシェイプの効果列インデックスを取得または設定します。読み書き可能 UInt32。 |
+| [FillColor](../../aspose.slides/ishapestyle/fillcolor) { get; } | シェイプの塗りつぶし色を返します。読み取り専用 [`IColorFormat`](../icolorformat)。 |
+| [FillStyleIndex](../../aspose.slides/ishapestyle/fillstyleindex) { get; set; } | スタイルマトリックス内のシェイプの塗りつぶし列インデックスを取得または設定します。0 は塗りつぶしなしを意味し、正の値はテーマの塗りつぶしスタイルのインデックス、負の値はテーマの背景スタイルのインデックスを表します。読み書き可能 Int16。 |
+| [FontCollectionIndex](../../aspose.slides/ishapestyle/fontcollectionindex) { get; set; } | フォントコレクション内のシェイプのフォントインデックスを取得または設定します。読み書き可能 [`FontCollectionIndex`](../fontcollectionindex)。 |
+| [FontColor](../../aspose.slides/ishapestyle/fontcolor) { get; } | シェイプのフォント色を返します。読み取り専用 [`IColorFormat`](../icolorformat)。 |
+| [LineColor](../../aspose.slides/ishapestyle/linecolor) { get; } | シェイプのアウトライン色を返します。読み取り専用 [`IColorFormat`](../icolorformat)。 |
+| [LineStyleIndex](../../aspose.slides/ishapestyle/linestyleindex) { get; set; } | スタイルマトリックス内のラインの列インデックスを取得または設定します。読み書き可能 UInt16。 |
 
 ### 参照
 

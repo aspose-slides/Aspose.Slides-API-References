@@ -1,14 +1,14 @@
 ---
 title: IPortionFormat
-second_title: Aspose.Slides için .NET API Referansı
-description: Bu sınıf, metin bölümü biçimlendirme özelliklerini içerir. IPortionFormatEffectiveData./iportionformateffectivedata dışındaki bu sınıfın tüm özellikleri yazılabilir.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bu sınıf, metin bölüm biçimlendirme özelliklerini içerir. IPortionFormatEffectiveData./iportionformateffectivedata'dan farklı olarak, bu sınıfın tüm özellikleri yazılabilir.
 type: docs
-weight: 6710
+weight: 6730
 url: /tr/aspose.slides/iportionformat/
 ---
-## IPortionFormat arabirimi
+## IPortionFormat arayüz
 
-Bu sınıf, metin bölümü biçimlendirme özelliklerini içerir. [`IPortionFormatEffectiveData`](../iportionformateffectivedata)'in aksine, bu sınıfın tüm özellikleri yazılabilir.
+Bu sınıf, metin bölüm biçimlendirme özelliklerini içerir. [`IPortionFormatEffectiveData`](../iportionformateffectivedata)'den farklı olarak, bu sınıfın tüm özellikleri yazılabilir.
 
 ```csharp
 public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
@@ -18,10 +18,10 @@ public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIBasePortionFormat](../../aspose.slides/iportionformat/asibaseportionformat) { get; } | IBasePortionFormat arabirimini döndürür. Yalnızca okunabilir [`IBasePortionFormat`](../ibaseportionformat). |
-| [AsIHyperlinkContainer](../../aspose.slides/iportionformat/asihyperlinkcontainer) { get; } | Temel IHyperlinkContainer arabirimini almaya izin verir. Yalnızca okunabilir [`IHyperlinkContainer`](../ihyperlinkcontainer). |
-| [BookmarkId](../../aspose.slides/iportionformat/bookmarkid) { get; set; } | Yer işareti tanımlayıcısını döndürür veya ayarlar. Okunabilir/yazılabilir String. |
-| [SmartTagClean](../../aspose.slides/iportionformat/smarttagclean) { get; set; } | Akıllı etiketin temizlenip temizlenmeyeceğini belirler. Kalıtım uygulanmaz. Okunabilir/yazılabilir Boolean. |
+| [AsIBasePortionFormat](../../aspose.slides/iportionformat/asibaseportionformat) { get; } | Döndürür IBasePortionFormat arayüz. Salt okunur [`IBasePortionFormat`](../ibaseportionformat). |
+| [AsIHyperlinkContainer](../../aspose.slides/iportionformat/asihyperlinkcontainer) { get; } | Base IHyperlinkContainer arayüzüne erişim sağlar. Salt okunur [`IHyperlinkContainer`](../ihyperlinkcontainer). |
+| [BookmarkId](../../aspose.slides/iportionformat/bookmarkid) { get; set; } | Yer imi tanımlayıcısını döndürür veya ayarlar. Okuma/Yazma String. |
+| [SmartTagClean](../../aspose.slides/iportionformat/smarttagclean) { get; set; } | Akıllı etiketin temizlenip temizlenmeyeceğini belirler. Kalıtım uygulanmaz. Okuma/Yazma Boolean. |
 
 ## Yöntemler
 
@@ -29,16 +29,16 @@ public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
 | --- | --- |
 | [GetEffective](../../aspose.slides/iportionformat/geteffective)() | Kalıtım uygulanmış etkili bölüm biçimlendirme verilerini alır. |
 
-### Açıklamalar
+### Notlar
 
-Bu sınıf, belirli bölüm için tanımlanan metin bölümü biçimlendirme özelliklerini döndürmek ve değiştirmek için kullanılır. Bu, değerler alınırken hiçbir kalıtım uygulanmadığı anlamına gelir; bu nedenle çoğu durumda "undefined" (tanımsız) anlamına gelen değerler elde edersiniz.
+Bu sınıf, belirli bölüm için tanımlanan metin bölüm biçimlendirme özelliklerini döndürmek ve değiştirmek için kullanılır. Bu, değerler alınırken kalıtımın uygulanmadığı anlamına gelir, bu yüzden çoğu durumda “tanımsız” anlamına gelen değerler elde edersiniz.
 
-Kalıtım dahil olmak üzere etkili biçimlendirme parametre değerlerini almak için [`GetEffective`](./geteffective) yöntemini kullanmanız gerekir; bu yöntem bir [`IPortionFormatEffectiveData`](../iportionformateffectivedata) örneği döndürür.
+Kalıtımlı dahil olmak üzere etkili biçimlendirme parametre değerlerini almak için [`GetEffective`](./geteffective) yöntemini kullanmanız gerekir; bu yöntem bir [`IPortionFormatEffectiveData`](../iportionformateffectivedata) örneği döndürür.
 
-### İlgili
+### Ayrıca Bakınız
 
-* arabirimi [IBasePortionFormat](../ibaseportionformat)
-* arabirimi [IHyperlinkContainer](../ihyperlinkcontainer)
+* arayüz [IBasePortionFormat](../ibaseportionformat)
+* arayüz [IHyperlinkContainer](../ihyperlinkcontainer)
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)
 

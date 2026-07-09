@@ -3,7 +3,7 @@ title: TabFactory
 second_title: Aspose.Sildes for .NET API リファレンス
 description: ITab インスタンスを作成できます
 type: docs
-weight: 10830
+weight: 10850
 url: /ja/aspose.slides/tabfactory/
 ---
 ## TabFactory クラス
@@ -14,11 +14,11 @@ ITab インスタンスを作成できます
 public class TabFactory : ITabFactory
 ```
 
-## コンストラクタ
+## コンストラクター
 
 | 名前 | 説明 |
 | --- | --- |
-| [TabFactory](tabfactory)() | デフォルトコンストラクタです。 |
+| [TabFactory](tabfactory)() | デフォルトコンストラクターです。 |
 
 ## メソッド
 
@@ -32,7 +32,7 @@ COM 互換性のためです。
 
 ### 参照
 
-* インターフェイス [ITabFactory](../itabfactory)
+* インターフェース [ITabFactory](../itabfactory)
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)
 

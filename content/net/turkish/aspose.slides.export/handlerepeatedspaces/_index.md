@@ -1,14 +1,14 @@
 ---
 title: HandleRepeatedSpaces
-second_title: Aspose.Sildes for .NET API Referansı
-description: Markdown dışa aktarımı sırasında tekrarlanan normal boşluk karakterlerinin nasıl işleneceğini belirtir.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Markdown dışa aktarma sırasında yinelenen normal boşluk karakterlerinin nasıl işleneceğini belirtir.
 type: docs
-weight: 3810
+weight: 3830
 url: /tr/aspose.slides.export/handlerepeatedspaces/
 ---
 ## HandleRepeatedSpaces enum
 
-Markdown dışa aktarımı sırasında tekrarlanan normal boşluk karakterlerinin nasıl işleneceğini belirtir.
+Markdown dışa aktarma sırasında yinelenen normal boşluk karakterlerinin nasıl işleneceğini belirtir.
 
 ```csharp
 public enum HandleRepeatedSpaces
@@ -18,7 +18,7 @@ public enum HandleRepeatedSpaces
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| None | `0` | Tüm boşluklar herhangi bir değişiklik yapılmadan normal boşluk karakterleri olarak korunur. Hiçbir dönüşüm uygulanmaz ve birden fazla ardışık boşluk olduğu gibi dışa aktarılır. |
+| None | `0` | Tüm boşluklar, herhangi bir değişiklik yapılmadan normal boşluk karakterleri olarak korunur. Herhangi bir dönüşüm uygulanmaz ve birden çok ardışık boşluk olduğu gibi dışa aktarılır. |
 | AlternateSpacesToNbsp | `1` |  |
 | MultipleSpacesToNbsp | `2` |  |
 

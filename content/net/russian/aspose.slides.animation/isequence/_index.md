@@ -1,13 +1,12 @@
 ---
 title: ISequence
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет коллекцию последовательностей эффектов.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет коллекцию эффектов последовательности.
 type: docs
-weight: 510
+weight: 590
 url: /ru/aspose.slides.animation/isequence/
 ---
-
-## Интерфейс ISequence
+## ISequence интерфейс
 
 Представляет последовательность (коллекцию эффектов).
 
@@ -17,33 +16,33 @@ public interface ISequence : IEnumerable<IEffect>
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/isequence/asienumerable) { get; } | Позволяет получить базовый интерфейс IEnumerable. Только для чтения IEnumerable. |
-| [Count](../../aspose.slides.animation/isequence/count) { get; } | Возвращает количество эффектов в последовательности. Только для чтения Int32. |
-| [Item](../../aspose.slides.animation/isequence/item) { get; } | Возвращает эффект по указанному индексу. |
-| [TriggerShape](../../aspose.slides.animation/isequence/triggershape) { get; set; } | Возвращает или устанавливает целевую фигуру для ИНТЕРАКТИВНОЙ последовательности. Если последовательность не интерактивна, возвращает null. Чтение/запись [`IShape`](../../aspose.slides/ishape). |
+| [AsIEnumerable](../../aspose.slides.animation/isequence/asienumerable) { get; } | Позволяет получить базовый интерфейс IEnumerable. Только для чтения IEnumerable. |
+| [Count](../../aspose.slides.animation/isequence/count) { get; } | Возвращает количество эффектов в последовательности. Только для чтения Int32. |
+| [Item](../../aspose.slides.animation/isequence/item) { get; } | Возвращает эффект по указанному индексу. |
+| [TriggerShape](../../aspose.slides.animation/isequence/triggershape) { get; set; } | Возвращает или задает целевой shape для INTERACTIVE последовательности. Если последовательность не интерактивна, возвращает null. Чтение/запись [`IShape`](../../aspose.slides/ishape). |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | Добавляет новый анимационный эффект для абзаца в конец последовательности. |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_3)(IShape, EffectType, EffectSubtype, EffectTriggerType) | Добавляет новый эффект в конец последовательности. |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | Добавляет новый анимационный эффект для категории или серии в конец последовательности. |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | Добавляет новый анимационный эффект для элементов в категории или серии в конец последовательности. |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | Добавить новый анимационный эффект для абзаца в конец последовательности. |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_3)(IShape, EffectType, EffectSubtype, EffectTriggerType) | Добавить новый эффект в конец последовательности. |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | Добавляет новый анимационный эффект диаграммы для категории или серии в конец последовательности. |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | Добавляет новый анимационный эффект диаграммы для элементов в категории или серии в конец последовательности. |
 | [Clear](../../aspose.slides.animation/isequence/clear)() | Удаляет все эффекты из коллекции. |
-| [GetCount](../../aspose.slides.animation/isequence/getcount)(IShape) | Возвращает количество эффектов для указанной фигуры. |
-| [GetEffectsByParagraph](../../aspose.slides.animation/isequence/geteffectsbyparagraph)(IParagraph) | Возвращает массив эффектов для указанного абзаца. |
-| [GetEffectsByShape](../../aspose.slides.animation/isequence/geteffectsbyshape)(IShape) | Возвращает массив эффектов для указанной фигуры. |
+| [GetCount](../../aspose.slides.animation/isequence/getcount)(IShape) | Возвращает количество эффектов для указанного shape. |
+| [GetEffectsByParagraph](../../aspose.slides.animation/isequence/geteffectsbyparagraph)(IParagraph) | Возвращает массив эффектов для указанного paragraph. |
+| [GetEffectsByShape](../../aspose.slides.animation/isequence/geteffectsbyshape)(IShape) | Возвращает массив эффектов для указанного shape. |
 | [Remove](../../aspose.slides.animation/isequence/remove)(IEffect) | Удаляет указанный эффект из коллекции. |
 | [RemoveAt](../../aspose.slides.animation/isequence/removeat)(int) | Удаляет эффект из коллекции. |
-| [RemoveByShape](../../aspose.slides.animation/isequence/removebyshape)(IShape) | Удаляет эффект для указанной фигуры. |
+| [RemoveByShape](../../aspose.slides.animation/isequence/removebyshape)(IShape) | Удалить эффект для указанного shape. |
 
 ### См. также
 
-* интерфейс [IEffect](../ieffect)
-* пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
-* сборка [Aspose.Slides](../../)
+* интерфейс [IEffect](../ieffect)
+* пространство имён [Aspose.Slides.Animation](../../aspose.slides.animation)
+* сборка [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -3,10 +3,10 @@ title: ILegend
 second_title: Aspose.Sildes para .NET Referência da API
 description: Representa as propriedades da legenda dos gráficos.
 type: docs
-weight: 2110
+weight: 2130
 url: /pt/aspose.slides.charts/ilegend/
 ---
-## ILegend interface
+## interface ILegend
 
 Representa as propriedades da legenda do gráfico.
 
@@ -22,10 +22,10 @@ public interface ILegend : IActualLayout, IFormattedTextContainer, ILayoutable
 | [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | Permite obter a interface base ILayoutable. Somente leitura [`ILayoutable`](../ilayoutable). |
 | [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | Obtém as entradas da legenda. Somente leitura [`ILegendEntryCollection`](../ilegendentrycollection). |
 | [Format](../../aspose.slides.charts/ilegend/format) { get; } | Retorna o formato de uma legenda. Somente leitura [`IFormat`](../iformat). |
-| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | Determina se outros elementos do gráfico podem sobrepor a legenda. Leitura/gravação Boolean. |
-| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Especifica a posição da legenda em um gráfico. Valores não NaN das propriedades X, Y, Width, Heigt substituem o efeito desta propriedade. Leitura/gravação [`LegendPositionType`](../legendpositiontype). |
+| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | Determina se outros elementos do gráfico podem se sobrepor à legenda. Booleano de leitura/gravação. |
+| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Especifica a posição da legenda em um gráfico. Valores diferentes de NaN das propriedades X, Y, Width, Heigt substituem o efeito desta propriedade. Leitura/gravação [`LegendPositionType`](../legendpositiontype). |
 
-### Veja Também
+### Ver também
 
 * interface [IActualLayout](../iactuallayout)
 * interface [IFormattedTextContainer](../iformattedtextcontainer)

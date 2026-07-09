@@ -1,14 +1,14 @@
 ---
 title: MathDelimiterFactory
-second_title: Aspose.Sildes .NET API referencia
-description: Lehetővé teszi egy matematikai elválasztó létrehozását
+second_title: Aspose.Sildes a .NET API referencia
+description: Lehetővé teszi a matematikai elválasztó létrehozását
 type: docs
-weight: 8640
+weight: 8660
 url: /hu/aspose.slides.mathtext/mathdelimiterfactory/
 ---
 ## MathDelimiterFactory osztály
 
-Lehetővé teszi egy matematikai elválasztó létrehozását
+Lehetővé teszi a matematikai elválasztó létrehozását
 
 ```csharp
 public class MathDelimiterFactory : IMathDelimiterFactory
@@ -24,12 +24,12 @@ public class MathDelimiterFactory : IMathDelimiterFactory
 
 | Név | Leírás |
 | --- | --- |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | Matematikai elválasztó létrehozása az IMathElement-re alkalmazva |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | Matematikai elválasztó létrehozása az IMathElementCollection-re alkalmazva |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | Létrehozza a matematikai elválasztót az elemre alkalmazva |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | Létrehozza a matematikai elválasztót az elemre alkalmazva |
 
 ### Megjegyzések
 
-COM kompatibilitás miatt
+COM kompatibilitáshoz
 
 ### Lásd még
 

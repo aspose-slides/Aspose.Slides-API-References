@@ -1,14 +1,14 @@
 ---
 title: PresentationFactory
-second_title: Aspose.Sildes dla .NET API Reference
-description: Umożliwia tworzenie prezentacji za pośrednictwem interfejsu COM
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Umożliwia tworzenie prezentacji za pomocą interfejsu COM
 type: docs
-weight: 9580
+weight: 9600
 url: /pl/aspose.slides/presentationfactory/
 ---
 ## PresentationFactory klasa
 
-Umożliwia tworzenie prezentacji za pośrednictwem interfejsu COM
+Umożliwia tworzenie prezentacji za pomocą interfejsu COM
 
 ```csharp
 public class PresentationFactory : IPresentationFactory
@@ -18,7 +18,7 @@ public class PresentationFactory : IPresentationFactory
 
 | Name | Description |
 | --- | --- |
-| [PresentationFactory](presentationfactory)() | Domyślny konstruktor. |
+| [PresentationFactory](presentationfactory)() | Konstruktor domyślny. |
 
 ## Właściwości
 
@@ -32,8 +32,8 @@ public class PresentationFactory : IPresentationFactory
 | --- | --- |
 | [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation)() | Tworzy nową prezentację. |
 | [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Tworzy nową prezentację z dodatkowymi opcjami ładowania |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Tworzy nowy obiekt PresentationInfo ze strumienia i wiąże z nim prezentację. Pobiera informacje o prezentacji w określonym strumieniu. |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Tworzy nowy obiekt PresentationInfo z pliku i wiąże z nim prezentację. |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Tworzy obiekt PresentationInfo z strumienia i wiąże z nim prezentację. Pobiera informacje o prezentacji w podanym strumieniu. |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Tworzy obiekt PresentationInfo z pliku i wiąże z nim prezentację. |
 | [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Pobiera surowy tekst ze slajdów |
 | [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Pobiera surowy tekst ze slajdów |
 | [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Pobiera surowy tekst ze slajdów |
@@ -42,7 +42,7 @@ public class PresentationFactory : IPresentationFactory
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_4)(string) | Odczytuje istniejącą prezentację z pliku |
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | Odczytuje istniejącą prezentację z tablicy z dodatkowymi opcjami ładowania |
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | Odczytuje istniejącą prezentację ze strumienia z dodatkowymi opcjami ładowania |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Odczytuje istniejącą prezentację z pliku z dodatkowymi opcjami ładowania |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Odczytuje istniejącą prezentację ze strumienia z dodatkowymi opcjami ładowania |
 
 ### Przykłady
 

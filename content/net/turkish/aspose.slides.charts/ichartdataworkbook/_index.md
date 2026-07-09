@@ -1,14 +1,14 @@
 ---
 title: IChartDataWorkbook
 second_title: Aspose.Sildes için .NET API Referansı
-description: Gömülü Excel çalışma kitabına erişim sağlar
+description: Yerleşik Excel çalışma kitabına erişim sağlar
 type: docs
-weight: 1840
+weight: 1860
 url: /tr/aspose.slides.charts/ichartdataworkbook/
 ---
 ## IChartDataWorkbook arayüzü
 
-Gömülü Excel çalışma kitabına erişim sağlar
+Yerleşik Excel çalışma kitabına erişim sağlar
 
 ```csharp
 public interface IChartDataWorkbook
@@ -20,17 +20,17 @@ public interface IChartDataWorkbook
 | --- | --- |
 | [Worksheets](../../aspose.slides.charts/ichartdataworkbook/worksheets) { get; } | Çalışma sayfalarının bir koleksiyonunu alır. |
 
-## Metodlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | [CalculateFormulas](../../aspose.slides.charts/ichartdataworkbook/calculateformulas)() | Çalışma kitabındaki tüm formülleri hesaplar ve ilgili hücre değerlerini günceller. |
-| [Clear](../../aspose.slides.charts/ichartdataworkbook/clear)(int) | Sayfadaki tüm hücre değerlerini temizler. |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_2)(int, string) | Grafik serileri veya kategorileri için kullanılabilecek hücreyi alır. |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell)(int, int, int) | Grafik serileri veya kategorileri için kullanılabilecek hücreyi alır. |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_3)(int, string, object) | Grafik serileri veya kategorileri için kullanılabilecek hücreyi alır. |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_4)(string, int, int) | Grafik serileri veya kategorileri için kullanılabilecek hücreyi alır. |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_1)(int, int, int, object) | Grafik serileri veya kategorileri için kullanılabilecek hücreyi alır. |
+| [Clear](../../aspose.slides.charts/ichartdataworkbook/clear)(int) | Sayfada tüm hücre değerlerini temizler |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_2)(int, string) | Grafik serileri veya kategorileri için kullanılabilecek hücreyi alır |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell)(int, int, int) | Grafik serileri veya kategorileri için kullanılabilecek hücreyi alır |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_3)(int, string, object) | Grafik serileri veya kategorileri için kullanılabilecek hücreyi alır |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_4)(string, int, int) | Grafik serileri veya kategorileri için kullanılabilecek hücreyi alır |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_1)(int, int, int, object) | Grafik serileri veya kategorileri için kullanılabilecek hücreyi alır |
 | [GetCellCollection](../../aspose.slides.charts/ichartdataworkbook/getcellcollection)(string, bool) | Hücre kümesini alır. |
 
 ### Ayrıca Bakınız

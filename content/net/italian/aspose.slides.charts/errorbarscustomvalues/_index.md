@@ -1,14 +1,14 @@
 ---
 title: ErrorBarsCustomValues
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Specifica i valori delle barre di errore. Deve essere usato solo quando il tipo di valore delle barre di errore è Custom.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Specifica i valori delle barre di errore. Deve essere usata solo quando il tipo di valore delle barre di errore è Custom.
 type: docs
-weight: 1640
+weight: 1660
 url: /it/aspose.slides.charts/errorbarscustomvalues/
 ---
-## ErrorBarsCustomValues classe
+## Classe ErrorBarsCustomValues
 
-Specifica i valori delle barre di errore. Deve essere usato solo quando il tipo di valore delle barre di errore è Custom.
+Specifica i valori delle barre di errore. Deve essere usata solo quando il tipo di valore delle barre di errore è Custom.
 
 ```csharp
 public class ErrorBarsCustomValues : DomObject<ChartDataPoint>, IErrorBarsCustomValues

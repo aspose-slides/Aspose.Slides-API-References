@@ -3,7 +3,7 @@ title: ShapeFrame
 second_title: Aspose.Sildes dla .NET Referencja API
 description: Reprezentuje właściwości ramek kształtu.
 type: docs
-weight: 9880
+weight: 9900
 url: /pl/aspose.slides/shapeframe/
 ---
 ## ShapeFrame klasa
@@ -30,7 +30,7 @@ public class ShapeFrame : IShapeFrame
 | [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | Określa, czy ramka jest odbita w pionie. Tylko do odczytu [`NullableBool`](../nullablebool). |
 | [Height](../../aspose.slides/shapeframe/height) { get; } | Zwraca wysokość ramki. Tylko do odczytu Single. |
 | [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | Zwraca współrzędne ramki. Tylko do odczytu RectangleF. |
-| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | Zwraca liczbę stopni, o które ramka jest obrócona wokół osi z. Wartość dodatnia oznacza obrót zgodny z ruchem wskazówek zegara; wartość ujemna oznacza obrót przeciwny do ruchu wskazówek zegara. Tylko do odczytu Single. |
+| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | Zwraca liczbę stopni, o które ramka jest obrócona wokół osi z. Wartość dodatnia oznacza obrót w kierunku zgodnym z ruchem wskazówek zegara; wartość ujemna oznacza obrót w kierunku przeciwnym do ruchu wskazówek zegara. Tylko do odczytu Single. |
 | [Width](../../aspose.slides/shapeframe/width) { get; } | Zwraca szerokość ramki. Tylko do odczytu Single. |
 | [X](../../aspose.slides/shapeframe/x) { get; } | Zwraca współrzędną X lewego górnego rogu ramki. Tylko do odczytu Single. |
 | [Y](../../aspose.slides/shapeframe/y) { get; } | Zwraca współrzędną Y lewego górnego rogu ramki. Tylko do odczytu Single. |

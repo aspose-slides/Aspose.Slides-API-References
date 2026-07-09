@@ -3,7 +3,7 @@ title: Timing
 second_title: Aspose.Sildes for .NET API リファレンス
 description: アニメーションのタイミングを表します。
 type: docs
-weight: 820
+weight: 840
 url: /ja/aspose.slides.animation/timing/
 ---
 ## Timing クラス
@@ -18,19 +18,19 @@ public class Timing : ITiming
 
 | 名前 | 説明 |
 | --- | --- |
-| [Accelerate](../../aspose.slides.animation/timing/accelerate) { get; set; } | 持続時間の加速動作効果の割合を表します。読み取り/書き込み Single。 |
-| [AutoReverse](../../aspose.slides.animation/timing/autoreverse) { get; set; } | 前方向に再生した後、アニメーションを逆方向に自動的に再生するかどうかを表します。読み取り/書き込み Boolean。 |
-| [Decelerate](../../aspose.slides.animation/timing/decelerate) { get; set; } | 持続時間の減速動作効果の割合を表します。読み取り/書き込み Single。 |
-| [Duration](../../aspose.slides.animation/timing/duration) { get; set; } | アニメーション効果の持続時間を表します。読み取り/書き込み Single。 |
-| [RepeatCount](../../aspose.slides.animation/timing/repeatcount) { get; set; } | エフェクトを繰り返す回数を表します。読み取り/書き込み Single。 |
-| [RepeatDuration](../../aspose.slides.animation/timing/repeatduration) { get; set; } | エフェクトを繰り返す回数を表します。読み取り/書き込み Single。 |
-| [RepeatUntilEndSlide](../../aspose.slides.animation/timing/repeatuntilendslide) { get; set; } | この属性は、エフェクトがスライドの最後まで繰り返されるかどうかを指定します。読み取り/書き込み Boolean。 |
-| [RepeatUntilNextClick](../../aspose.slides.animation/timing/repeatuntilnextclick) { get; set; } | この属性は、エフェクトが次のクリックまで繰り返されるかどうかを指定します。読み取り/書き込み Boolean。 |
-| [Restart](../../aspose.slides.animation/timing/restart) { get; set; } | エフェクトが完了後に再開するかどうかを指定します。読み取り/書き込み [`EffectRestartType`](../effectrestarttype)。 |
-| [Rewind](../../aspose.slides.animation/timing/rewind) { get; set; } | この属性は、エフェクトの再生が完了したときに巻き戻すかどうかを指定します。読み取り/書き込み Boolean。 |
-| [Speed](../../aspose.slides.animation/timing/speed) { get; set; } | タイミングを高速化（または減速）する割合を指定します。読み取り/書き込み Single。 |
-| [TriggerDelayTime](../../aspose.slides.animation/timing/triggerdelaytime) { get; set; } | トリガー後の遅延時間を表します。読み取り/書き込み Single。 |
-| [TriggerType](../../aspose.slides.animation/timing/triggertype) { get; set; } | トリガータイプを表します。読み取り/書き込み [`EffectTriggerType`](../effecttriggertype)。 |
+| [Accelerate](../../aspose.slides.animation/timing/accelerate) { get; set; } | 期間の加速動作効果のパーセンテージを表します。読み取り/書き込み Single. |
+| [AutoReverse](../../aspose.slides.animation/timing/autoreverse) { get; set; } | 前方向に再生した後、アニメーションを逆方向に自動的に再生するかどうかを表します。読み取り/書き込み Boolean. |
+| [Decelerate](../../aspose.slides.animation/timing/decelerate) { get; set; } | 期間の減速動作効果のパーセンテージを表します。読み取り/書き込み Single. |
+| [Duration](../../aspose.slides.animation/timing/duration) { get; set; } | アニメーション効果の期間を表します。読み取り/書き込み Single. |
+| [RepeatCount](../../aspose.slides.animation/timing/repeatcount) { get; set; } | 効果を繰り返す回数を表します。読み取り/書き込み Single. |
+| [RepeatDuration](../../aspose.slides.animation/timing/repeatduration) { get; set; } | 効果を繰り返す回数を表します。読み取り/書き込み Single. |
+| [RepeatUntilEndSlide](../../aspose.slides.animation/timing/repeatuntilendslide) { get; set; } | この属性は、効果がスライドの最後まで繰り返されるかどうかを指定します。読み取り/書き込み Boolean. |
+| [RepeatUntilNextClick](../../aspose.slides.animation/timing/repeatuntilnextclick) { get; set; } | この属性は、効果が次のクリックまで繰り返されるかどうかを指定します。読み取り/書き込み Boolean. |
+| [Restart](../../aspose.slides.animation/timing/restart) { get; set; } | 効果が完了した後に再開するかどうかを指定します。読み取り/書き込み [`EffectRestartType`](../effectrestarttype). |
+| [Rewind](../../aspose.slides.animation/timing/rewind) { get; set; } | この属性は、再生が完了したときに効果を巻き戻すかどうかを指定します。読み取り/書き込み Boolean. |
+| [Speed](../../aspose.slides.animation/timing/speed) { get; set; } | タイミングを速め（または遅く）するパーセンテージを指定します。読み取り/書き込み Single. |
+| [TriggerDelayTime](../../aspose.slides.animation/timing/triggerdelaytime) { get; set; } | トリガー後の遅延時間を表します。読み取り/書き込み Single. |
+| [TriggerType](../../aspose.slides.animation/timing/triggertype) { get; set; } | トリガーのタイプを表します。読み取り/書き込み [`EffectTriggerType`](../effecttriggertype). |
 
 ### 参照
 

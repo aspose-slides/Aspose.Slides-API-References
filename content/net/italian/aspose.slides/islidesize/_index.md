@@ -1,14 +1,14 @@
 ---
 title: ISlideSize
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta la dimensione e l'orientamento di una diapositiva.
+description: Rappresenta le dimensioni e l'orientamento di una diapositiva.
 type: docs
-weight: 7070
+weight: 7090
 url: /it/aspose.slides/islidesize/
 ---
 ## ISlideSize interfaccia
 
-Rappresenta la dimensione e l'orientamento di una diapositiva.
+Rappresenta le dimensioni e l'orientamento di una diapositiva.
 
 ```csharp
 public interface ISlideSize
@@ -16,7 +16,7 @@ public interface ISlideSize
 
 ## Proprietà
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
 | [Orientation](../../aspose.slides/islidesize/orientation) { get; set; } | Ottiene o imposta l'orientamento della diapositiva. |
 | [Size](../../aspose.slides/islidesize/size) { get; } | Ottiene le dimensioni della diapositiva in punti. |
@@ -24,7 +24,7 @@ public interface ISlideSize
 
 ## Metodi
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
 | [SetSize](../../aspose.slides/islidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | Imposta la dimensione della diapositiva per tipo e scala il contenuto esistente. |
 | [SetSize](../../aspose.slides/islidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | Imposta esplicitamente le dimensioni della diapositiva e scala il contenuto esistente. |

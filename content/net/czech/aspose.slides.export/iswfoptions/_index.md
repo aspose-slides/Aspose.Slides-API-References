@@ -1,9 +1,9 @@
 ---
 title: ISwfOptions
-second_title: Aspose.Sildes pro .NET – referenční příručka API
+second_title: Aspose.Sildes pro .NET – reference API
 description: Poskytuje možnosti, které řídí, jak je prezentace uložena ve formátu SWF.
 type: docs
-weight: 4130
+weight: 4150
 url: /cs/aspose.slides.export/iswfoptions/
 ---
 ## ISwfOptions rozhraní
@@ -16,25 +16,25 @@ public interface ISwfOptions : ISaveOptions
 
 ## Vlastnosti
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/iswfoptions/asisaveoptions) { get; } | Vrací rozhraní ISaveOptions. Pouze pro čtení [`ISaveOptions`](../isaveoptions). |
-| [Compressed](../../aspose.slides.export/iswfoptions/compressed) { get; set; } | Určuje, zda má být vytvořený dokument SWF komprimován nebo ne. Výchozí hodnota je `true`. |
-| [EnableContextMenu](../../aspose.slides.export/iswfoptions/enablecontextmenu) { get; set; } | Povolit/zakázat kontextové menu. Výchozí hodnota je true. |
-| [JpegQuality](../../aspose.slides.export/iswfoptions/jpegquality) { get; set; } | Určuje kvalitu obrázků JPEG. Výchozí hodnota je 95. |
+| [Compressed](../../aspose.slides.export/iswfoptions/compressed) { get; set; } | Určuje, zda má být vygenerovaný SWF dokument komprimován, nebo ne. Výchozí hodnota je `true`. |
+| [EnableContextMenu](../../aspose.slides.export/iswfoptions/enablecontextmenu) { get; set; } | Povolit/zakázat kontextovou nabídku. Výchozí hodnota je true. |
+| [JpegQuality](../../aspose.slides.export/iswfoptions/jpegquality) { get; set; } | Určuje kvalitu JPEG obrázků. Výchozí hodnota je 95. |
 | [LogoImageBytes](../../aspose.slides.export/iswfoptions/logoimagebytes) { get; set; } | Obrázek, který bude zobrazen jako logo v pravém horním rohu prohlížeče. Obrázek by měl být PNG o rozměrech 32x64 pixelů, jinak může být logo zobrazeno nesprávně. |
-| [LogoLink](../../aspose.slides.export/iswfoptions/logolink) { get; set; } | Získá nebo nastaví úplnou hypertextovou adresu loga. Má efekt pouze pokud je zadáno [`LogoImageBytes`](./logoimagebytes). |
-| [ShowBottomPane](../../aspose.slides.export/iswfoptions/showbottompane) { get; set; } | Zobrazit/skrýt spodní panel. Lze přepsat pomocí flashvars. Výchozí hodnota je true. |
-| [ShowFullScreen](../../aspose.slides.export/iswfoptions/showfullscreen) { get; set; } | Zobrazit/skrýt tlačítko celé obrazovky. Lze přepsat pomocí flashvars. Výchozí hodnota je true. |
-| [ShowHiddenSlides](../../aspose.slides.export/iswfoptions/showhiddenslides) { get; set; } | Určuje, zda má vytvořený dokument zahrnovat skryté snímky nebo ne. Výchozí hodnota je `false`. |
-| [ShowLeftPane](../../aspose.slides.export/iswfoptions/showleftpane) { get; set; } | Zobrazit/skrýt levý panel. Lze přepsat pomocí flashvars. Výchozí hodnota je true. |
-| [ShowPageBorder](../../aspose.slides.export/iswfoptions/showpageborder) { get; set; } | Určuje, zda má být zobrazena ohraničení stran. Výchozí hodnota je true. |
-| [ShowPageStepper](../../aspose.slides.export/iswfoptions/showpagestepper) { get; set; } | Zobrazit/skrýt ovladač stránek. Lze přepsat pomocí flashvars. Výchozí hodnota je true. |
-| [ShowSearch](../../aspose.slides.export/iswfoptions/showsearch) { get; set; } | Zobrazit/skrýt sekci vyhledávání. Lze přepsat pomocí flashvars. Výchozí hodnota je true. |
-| [ShowTopPane](../../aspose.slides.export/iswfoptions/showtoppane) { get; set; } | Zobrazit/skrýt celý horní panel. Lze přepsat pomocí flashvars. Výchozí hodnota je true. |
-| [SlidesLayoutOptions](../../aspose.slides.export/iswfoptions/slideslayoutoptions) { get; set; } | Získá nebo nastaví režim, ve kterém jsou snímky umístěny na stránku při exportu prezentace [`ISlidesLayoutOptions`](../islideslayoutoptions). Tato vlastnost nepodporuje přiřazování objektů typu `Aspose.Slides.Export.HandoutLayoutingOptions` |
-| [StartOpenLeftPane](../../aspose.slides.export/iswfoptions/startopenleftpane) { get; set; } | Spustit s otevřeným levým panelem. Lze přepsat pomocí flashvars. Výchozí hodnota je false. |
-| [ViewerIncluded](../../aspose.slides.export/iswfoptions/viewerincluded) { get; set; } | Určuje, zda má vytvořený dokument SWF obsahovat integrovaný prohlížeč dokumentů nebo ne. Výchozí hodnota je `true`. |
+| [LogoLink](../../aspose.slides.export/iswfoptions/logolink) { get; set; } | Získá nebo nastaví úplnou adresu hypertextového odkazu pro logo. Má vliv pouze pokud je zadáno [`LogoImageBytes`](./logoimagebytes). |
+| [ShowBottomPane](../../aspose.slides.export/iswfoptions/showbottompane) { get; set; } | Zobrazit/skrýt spodní panel. Lze přepsat ve flashvars. Výchozí hodnota je true. |
+| [ShowFullScreen](../../aspose.slides.export/iswfoptions/showfullscreen) { get; set; } | Zobrazit/skrýt tlačítko celé obrazovky. Lze přepsat ve flashvars. Výchozí hodnota je true. |
+| [ShowHiddenSlides](../../aspose.slides.export/iswfoptions/showhiddenslides) { get; set; } | Určuje, zda má být vygenerovaný dokument zahrnovat skryté snímky, nebo ne. Výchozí hodnota je `false`. |
+| [ShowLeftPane](../../aspose.slides.export/iswfoptions/showleftpane) { get; set; } | Zobrazit/skrýt levý panel. Lze přepsat ve flashvars. Výchozí hodnota je true. |
+| [ShowPageBorder](../../aspose.slides.export/iswfoptions/showpageborder) { get; set; } | Určuje, zda má být zobrazen okraj kolem stránek. Výchozí hodnota je true. |
+| [ShowPageStepper](../../aspose.slides.export/iswfoptions/showpagestepper) { get; set; } | Zobrazit/skrýt krokovač stránek. Lze přepsat ve flashvars. Výchozí hodnota je true. |
+| [ShowSearch](../../aspose.slides.export/iswfoptions/showsearch) { get; set; } | Zobrazit/skrýt sekci vyhledávání. Lze přepsat ve flashvars. Výchozí hodnota je true. |
+| [ShowTopPane](../../aspose.slides.export/iswfoptions/showtoppane) { get; set; } | Zobrazit/skrýt celý horní panel. Lze přepsat ve flashvars. Výchozí hodnota je true. |
+| [SlidesLayoutOptions](../../aspose.slides.export/iswfoptions/slideslayoutoptions) { get; set; } | Získá nebo nastaví režim, ve kterém jsou snímky umístěny na stránce při exportu prezentace [`ISlidesLayoutOptions`](../islideslayoutoptions). Tato vlastnost nepodporuje přiřazení objektů typu `Aspose.Slides.Export.HandoutLayoutingOptions` |
+| [StartOpenLeftPane](../../aspose.slides.export/iswfoptions/startopenleftpane) { get; set; } | Spustit s otevřeným levým panelem. Lze přepsat ve flashvars. Výchozí hodnota je false. |
+| [ViewerIncluded](../../aspose.slides.export/iswfoptions/viewerincluded) { get; set; } | Určuje, zda má vygenerovaný SWF dokument obsahovat integrovaný prohlížeč dokumentů, nebo ne. Výchozí hodnota je `true`. |
 
 ### Viz také
 

@@ -1,14 +1,14 @@
 ---
 title: DoubleChartValue
-second_title: Aspose.Sildes para .NET Referência da API
-description: Representa valor duplo que pode ser armazenado em um documento de apresentação pptx de duas maneiras: 1) em célula(s) de planilha relacionada ao gráfico; 2) como valor literal.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Representa um valor double que pode ser armazenado em um documento de apresentação pptx de duas maneiras: 1) em célula(s) da planilha relacionada ao gráfico; 2) como valor literal.
 type: docs
-weight: 1610
+weight: 1630
 url: /pt/aspose.slides.charts/doublechartvalue/
 ---
 ## DoubleChartValue classe
 
-Represent double value which can be stored in pptx presentation document in two ways: 1) in cell/cells of workbook related to chart; 2) as literal value.
+Representa um valor double que pode ser armazenado em um documento de apresentação pptx de duas maneiras: 1) em célula(s) da planilha relacionada ao gráfico; 2) como valor literal.
 
 ```csharp
 public class DoubleChartValue : BaseChartValue, IDoubleChartValue
@@ -16,7 +16,7 @@ public class DoubleChartValue : BaseChartValue, IDoubleChartValue
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [AsCell](../../aspose.slides.charts/doublechartvalue/ascell) { get; set; } | Retorna ou define a célula de dados do gráfico. Leitura/gravação [`IChartDataCell`](../ichartdatacell). |
 | [AsLiteralDouble](../../aspose.slides.charts/doublechartvalue/asliteraldouble) { get; set; } | Retorna ou define o valor como double literal. Leitura/gravação Double. |
@@ -25,7 +25,7 @@ public class DoubleChartValue : BaseChartValue, IDoubleChartValue
 
 ## Métodos
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [ToDouble](../../aspose.slides.charts/doublechartvalue/todouble)() | Converte para Double. |
 

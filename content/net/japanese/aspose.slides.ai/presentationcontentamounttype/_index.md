@@ -1,26 +1,26 @@
 ---
 title: PresentationContentAmountType
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 生成されたプレゼンテーションに含まれるコンテンツの量を指定し、スライド数と各スライドの詳細レベルの両方に影響を与えます。
+description: 生成されたプレゼンテーションに含まれるコンテンツの量を指定し、スライド数とスライドあたりの詳細度の両方に影響を与えます。
 type: docs
-weight: 40
+weight: 60
 url: /ja/aspose.slides.ai/presentationcontentamounttype/
 ---
-## PresentationContentAmountType 列挙体
+## PresentationContentAmountType 列挙型
 
-生成されたプレゼンテーションに含まれるコンテンツの量を指定し、スライド数と各スライドの詳細レベルの両方に影響を与えます。
+生成されたプレゼンテーションに含まれるコンテンツの量を指定し、スライド数とスライドあたりの詳細度の両方に影響を与えます。
 
 ```csharp
 public enum PresentationContentAmountType
 ```
 
-### 値
+### Values
 
-| 名前 | 値 | 説明 |
+| Name | Value | Description |
 | --- | --- | --- |
 | Brief | `0` | 短く基本的なコンテンツ。 |
 | Medium | `1` | 適度な量のコンテンツ。 |
-| Detailed | `2` | 広範なテキストを含む最も詳細なオプション。 |
+| Detailed | `2` | 豊富なテキストを含む最も詳細なオプション。 |
 
 ### 参照
 

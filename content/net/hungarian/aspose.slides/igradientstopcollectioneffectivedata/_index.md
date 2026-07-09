@@ -1,14 +1,14 @@
 ---
 title: IGradientStopCollectionEffectiveData
 second_title: Aspose.Sildes .NET API Referencia
-description: A GradientStopDataEx objektumok gyűjteményét képviseli.
+description: A GradientStopDataEx objektumok gyűjteményét reprezentálja.
 type: docs
-weight: 6020
+weight: 6040
 url: /hu/aspose.slides/igradientstopcollectioneffectivedata/
 ---
 ## IGradientStopCollectionEffectiveData interfész
 
-Az IGradientStopCollectionEffectiveData interfész a GradientStopDataEx objektumok gyűjteményét képviseli.
+A GradientStopDataEx objektumok gyűjteményét reprezentálja.
 
 ```csharp
 public interface IGradientStopCollectionEffectiveData : 
@@ -19,7 +19,7 @@ public interface IGradientStopCollectionEffectiveData :
 
 | Név | Leírás |
 | --- | --- |
-| [Item](../../aspose.slides/igradientstopcollectioneffectivedata/item) { get; } | Visszaadja az index szerinti gradient stop-ot. |
+| [Item](../../aspose.slides/igradientstopcollectioneffectivedata/item) { get; } | Visszaadja a színátmenet állomást az index alapján. |
 
 ### Lásd még
 

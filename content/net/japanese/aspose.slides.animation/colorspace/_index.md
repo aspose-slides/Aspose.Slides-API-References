@@ -1,14 +1,14 @@
 ---
 title: ColorSpace
-second_title: Aspose.Sildes for .NET API リファレンス
-description: カラー効果の動作に使用されるカラースペースを表します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: 色効果の動作のためのカラースペースを表します。
 type: docs
-weight: 230
+weight: 250
 url: /ja/aspose.slides.animation/colorspace/
 ---
 ## ColorSpace 列挙体
 
-色効果の動作に使用されるカラースペースを表します。
+色効果の動作のためのカラースペースを表します。
 
 ```csharp
 public enum ColorSpace

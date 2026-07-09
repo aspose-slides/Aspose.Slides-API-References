@@ -1,14 +1,14 @@
 ---
 title: IInk
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir slayttaki mürekkep nesnesini temsil eder.
+description: Bir slaytta mürekkep nesnesini temsil eder.
 type: docs
-weight: 7490
+weight: 7510
 url: /tr/aspose.slides.ink/iink/
 ---
-## IInk arayüzü
+## IInk arayüz
 
-Bir slayttaki mürekkep nesnesini temsil eder.
+Bir slaytta mürekkep nesnesini temsil eder.
 
 ```csharp
 public interface IInk : IGraphicalObject
@@ -21,7 +21,7 @@ public interface IInk : IGraphicalObject
 | [AsIGraphicalObject](../../aspose.slides.ink/iink/asigraphicalobject) { get; } | Temel IGraphicalObject arayüzünü almayı sağlar. Salt okunur [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
 | [Traces](../../aspose.slides.ink/iink/traces) { get; } | IInk öğesinde bulunan tüm izleri alır [`IInkTrace`](../iinktrace). Salt okunur. |
 
-### Diğer Bilgiler
+### Ayrıca Bakınız
 
 * arayüz [IGraphicalObject](../../aspose.slides/igraphicalobject)
 * ad alanı [Aspose.Slides.Ink](../../aspose.slides.ink)

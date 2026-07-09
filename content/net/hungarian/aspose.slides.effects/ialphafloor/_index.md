@@ -1,14 +1,14 @@
 ---
 title: IAlphaFloor
 second_title: Aspose.Sildes .NET API referencia
-description: Alpha Floor hatást képviseli. Az 100-nál kisebb alfa átlátszatlanság értékek nullára változnak. Más szóval, minden részben átlátszó teljesen átlátszóvá válik.
+description: Ábrázolja az Alpha Floor effektust. Az 100-nál kisebb alfa átlátszósági értékek nullára változnak. Más szóval, minden részben átlátszó teljesen átlátszóvá válik.
 type: docs
-weight: 3040
+weight: 3060
 url: /hu/aspose.slides.effects/ialphafloor/
 ---
 ## IAlphaFloor interfész
 
-Az Alpha Floor hatást képviseli. Az 100%-nál kisebb alfa (átlátszatlanság) értékek nullára változnak. Más szóval, minden részben átlátszó teljesen átlátszóvá válik.
+Ábrázolja az Alpha Floor effektust. Az 100%-nál kisebb Alpha (átlátszóság) értékek nullára változnak. Más szóval, minden részben átlátszó teljesen átlátszóvá válik.
 
 ```csharp
 public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>, 
@@ -19,10 +19,10 @@ public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>,
 
 | Név | Leírás |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphafloor/asiaccessiblepviobject) { get; } | Lehetővé teszi a bázis IAccessiblePVIObject interfész lekérését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphafloor/asiimagetransformoperation) { get; } | Lehetővé teszi a bázis IImageTransformOperation interfész lekérését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphafloor/asiaccessiblepviobject) { get; } | Lehetővé teszi a bázis IAccessiblePVIObject interfész lekérdezését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphafloor/asiimagetransformoperation) { get; } | Lehetővé teszi a bázis IImageTransformOperation interfész lekérdezését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### Kapcsolódó elemek
+### Lásd még
 
 * interfész [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * interfész [IAlphaFloorEffectiveData](../ialphaflooreffectivedata)

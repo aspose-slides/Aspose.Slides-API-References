@@ -1,14 +1,14 @@
 ---
 title: NumberedBulletStyle
-second_title: Aspose.Sildes için .NET API Referansı
-description: Numaralandırılmış madde işaretlerinin stilini temsil eder.
+second_title: Aspose.Sildes .NET API Referansı
+description: Numaralı madde işaretlerinin stilini temsil eder.
 type: docs
-weight: 9160
+weight: 9180
 url: /tr/aspose.slides/numberedbulletstyle/
 ---
 ## NumberedBulletStyle enum
 
-Numaralandırılmış madde işareti stilini temsil eder.
+Numaralı madde işaretlerinin stilini temsil eder.
 
 ```csharp
 public enum NumberedBulletStyle : sbyte
@@ -21,47 +21,47 @@ public enum NumberedBulletStyle : sbyte
 | NotDefined | `-1` | Tanımlanmamış. |
 | BulletAlphaLCPeriod | `0` | Noktalı küçük harf alfabetik karakterler. Örnek: a., b., c., ... |
 | BulletAlphaUCPeriod | `1` | Noktalı büyük harf alfabetik karakterler. Örnek: A., B., C., ... |
-| BulletArabicParenRight | `2` | Kapanış parantezli Arap rakamları. Örnek: 1), 2), 3), ... |
+| BulletArabicParenRight | `2` | Parantez kapanışıyla Arap rakamları. Örnek: 1), 2), 3), ... |
 | BulletArabicPeriod | `3` | Noktalı Arap rakamları. Örnek: 1., 2., 3., ... |
-| BulletRomanLCParenBoth | `4` | Her iki parantezli küçük Roma rakamları. Örnek: (i), (ii), (iii), ... |
-| BulletRomanLCParenRight | `5` | Kapanış parantezli küçük Roma rakamları. Örnek: i), ii), iii), ... |
-| BulletRomanLCPeriod | `6` | Noktalı küçük Roma rakamları. Örnek: i., ii., iii., ... |
-| BulletRomanUCPeriod | `7` | Noktalı büyük Roma rakamları. Örnek: I., II., III., ... |
-| BulletAlphaLCParenBoth | `8` | Her iki parantezli küçük harf alfabetik karakterler. Örnek: (a), (b), (c), ... |
-| BulletAlphaLCParenRight | `9` | Kapanış parantezli küçük harf alfabetik karakterler. Örnek: a), b), c), ... |
-| BulletAlphaUCParenBoth | `10` | Her iki parantezli büyük harf alfabetik karakterler. Örnek: (A), (B), (C), ... |
-| BulletAlphaUCParenRight | `11` | Kapanış parantezli büyük harf alfabetik karakterler. Örnek: A), B), C), ... |
-| BulletArabicParenBoth | `12` | Her iki parantezli Arap rakamları. Örnek: (1), (2), (3), ... |
+| BulletRomanLCParenBoth | `4` | Her iki parantez içinde küçük harf Romen rakamları. Örnek: (i), (ii), (iii), ... |
+| BulletRomanLCParenRight | `5` | Parantez kapanışıyla küçük harf Romen rakamları. Örnek: i), ii), iii), ... |
+| BulletRomanLCPeriod | `6` | Noktalı küçük harf Romen rakamları. Örnek: i., ii., iii., ... |
+| BulletRomanUCPeriod | `7` | Noktalı büyük harf Romen rakamları. Örnek: I., II., III., ... |
+| BulletAlphaLCParenBoth | `8` | Her iki parantez içinde küçük harf alfabetik karakterler. Örnek: (a), (b), (c), ... |
+| BulletAlphaLCParenRight | `9` | Parantez kapanışıyla küçük harf alfabetik karakterler. Örnek: a), b), c), ... |
+| BulletAlphaUCParenBoth | `10` | Her iki parantez içinde büyük harf alfabetik karakterler. Örnek: (A), (B), (C), ... |
+| BulletAlphaUCParenRight | `11` | Parantez kapanışıyla büyük harf alfabetik karakterler. Örnek: A), B), C), ... |
+| BulletArabicParenBoth | `12` | Her iki parantez içinde Arap rakamları. Örnek: (1), (2), (3), ... |
 | BulletArabicPlain | `13` | Arap rakamları. Örnek: 1, 2, 3, ... |
-| BulletRomanUCParenBoth | `14` | Her iki parantezli büyük Roma rakamları. Örnek: (I), (II), (III), ... |
-| BulletRomanUCParenRight | `15` | Kapanış parantezli büyük Roma rakamları. Örnek: I), II), III), ... |
-| BulletSimpChinPlain | `16` | Basitleştirilmiş Çince noktasız. |
-| BulletSimpChinPeriod | `17` | Basitleştirilmiş Çince noktalı. |
-| BulletCircleNumDBPlain | `18` | 10'a kadar değerler için çift bayt çevreli sayı, 11'dan itibaren Arap rakamları. |
-| BulletCircleNumWDWhitePlain | `19` | Metin rengine sahip sayı ve aynı renkte daire (Wingdings beyaz daire sayıları). 11'dan itibaren Arap rakamları. |
-| BulletCircleNumWDBlackPlain | `20` | Gölge renkli sayı ve normal metin renginde dairesel arka plan (Wingdings siyah daire sayıları). |
-| BulletTradChinPlain | `21` | Geleneksel Çince noktasız. |
-| BulletTradChinPeriod | `22` | Geleneksel Çince noktalı. |
-| BulletArabicAlphaDash | `23` | Arapça alfabetik karakterler tire ile. |
-| BulletArabicAbjadDash | `24` | Arapça Abjad alfabesi tire ile. |
-| BulletHebrewAlphaDash | `25` | İbranice alfabetik karakterler tire ile. |
-| BulletKanjiKoreanPlain | `26` | Japon/Kore sayıları noktasız. |
-| BulletKanjiKoreanPeriod | `27` | Japon/Kore sayıları noktalı. |
-| BulletArabicDBPlain | `28` | Çift bayt Arap numaralandırma şeması (noktalama işareti yok). |
-| BulletArabicDBPeriod | `29` | Çift bayt Arap numaralandırma şeması çift bayt nokta ile. |
-| BulletThaiAlphaPeriod | `30` | Tay alfabesi nokta. |
-| BulletThaiAlphaParenRight | `31` | Tay alfabesi parantez - sağ. |
-| BulletThaiAlphaParenBoth | `32` | Tay alfabesi parantez - her iki. |
-| BulletThaiNumPeriod | `33` | Tay sayısal nokta. |
-| BulletThaiNumParenRight | `34` | Tay sayısal parantez - sağ. |
-| BulletThaiNumParenBoth | `35` | Tay sayısal parantez - her iki. |
-| BulletHindiAlphaPeriod | `36` | Hint alfabesi nokta - ünlüler. |
+| BulletRomanUCParenBoth | `14` | Her iki parantez içinde büyük harf Romen rakamları. Örnek: (I), (II), (III), ... |
+| BulletRomanUCParenRight | `15` | Parantez kapanışıyla büyük harf Romen rakamları. Örnek: I), II), III), ... |
+| BulletSimpChinPlain | `16` | Basitleştirilmiş Çince, nokta olmadan. |
+| BulletSimpChinPeriod | `17` | Basitleştirilmiş Çince, nokta ile. |
+| BulletCircleNumDBPlain | `18` | 10'a kadar değerler için çift bayt çevrelenmiş sayı, 11'dan itibaren Arap rakamları. |
+| BulletCircleNumWDWhitePlain | `19` | Metin rengiyle aynı renkte daire içinde sayı (Wingdings beyaz daire sayıları). 11'dan itibaren Arap rakamları. |
+| BulletCircleNumWDBlackPlain | `20` | Gölge rengi sayısı, normal metin rengiyle dairesel arka plan (Wingdings siyah daire sayıları). |
+| BulletTradChinPlain | `21` | Geleneksel Çince, nokta olmadan. |
+| BulletTradChinPeriod | `22` | Geleneksel Çince, nokta ile. |
+| BulletArabicAlphaDash | `23` | Arapça alfabatik karakterler tire ile. |
+| BulletArabicAbjadDash | `24` | Arapça Abjad alfabeleri tire ile. |
+| BulletHebrewAlphaDash | `25` | İbranice alfabatik karakterler tire ile. |
+| BulletKanjiKoreanPlain | `26` | Japon/Kore numaraları, nokta olmadan. |
+| BulletKanjiKoreanPeriod | `27` | Japon/Kore numaraları, nokta ile. |
+| BulletArabicDBPlain | `28` | Çift bayt Arap numaralandırma şeması (noktalama yok). |
+| BulletArabicDBPeriod | `29` | Çift bayt Arap numaralandırma şeması, çift bayt nokta ile. |
+| BulletThaiAlphaPeriod | `30` | Thai alfabesi nokta. |
+| BulletThaiAlphaParenRight | `31` | Thai alfabesi parantezleri - sağ. |
+| BulletThaiAlphaParenBoth | `32` | Thai alfabesi parantezleri - her iki taraf. |
+| BulletThaiNumPeriod | `33` | Thai sayısal nokta. |
+| BulletThaiNumParenRight | `34` | Thai sayısal parantezler - sağ. |
+| BulletThaiNumParenBoth | `35` | Thai sayısal parantezler - her iki taraf. |
+| BulletHindiAlphaPeriod | `36` | Hint alfabesi nokta - sesli harfler. |
 | BulletHindiNumPeriod | `37` | Hint sayısal nokta. |
 | BulletKanjiSimpChinDBPeriod | `38` | Kanji Basit Çince DBPeriod. |
-| BulletHindiNumParenRight | `39` | Hint sayısal parantez - sağ. |
-| BulletHindiAlpha1Period | `40` | Hint alfabesi nokta - sessiz harfler. |
+| BulletHindiNumParenRight | `39` | Hint sayısal parantezler - sağ. |
+| BulletHindiAlpha1Period | `40` | Hint alfabesi nokta - ünsüzler. |
 
-### Diğer Bağlantılar
+### Diğer
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

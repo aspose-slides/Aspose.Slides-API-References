@@ -3,7 +3,7 @@ title: IMultipleCellChartValue
 second_title: Aspose.Sildes pro .NET API Reference
 description: Představuje kolekci buněk grafu.
 type: docs
-weight: 2150
+weight: 2170
 url: /cs/aspose.slides.charts/imultiplecellchartvalue/
 ---
 ## IMultipleCellChartValue rozhraní
@@ -18,8 +18,8 @@ public interface IMultipleCellChartValue : IBaseChartValue
 
 | Název | Popis |
 | --- | --- |
-| [AsCells](../../aspose.slides.charts/imultiplecellchartvalue/ascells) { get; set; } | Vrátí nebo nastaví kolekci buněk grafu. Čtení/zápis [`IChartCellCollection`](../ichartcellcollection). |
-| [AsIBaseChartValue](../../aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue) { get; } | Umožňuje získat základní rozhraní IBaseChartValue. Pouze ke čtení [`IBaseChartValue`](../ibasechartvalue). |
+| [AsCells](../../aspose.slides.charts/imultiplecellchartvalue/ascells) { get; set; } | Vrací nebo nastavuje kolekci buněk grafu. Čtení/zápis [`IChartCellCollection`](../ichartcellcollection). |
+| [AsIBaseChartValue](../../aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue) { get; } | Umožňuje získat základní rozhraní IBaseChartValue. Pouze pro čtení [`IBaseChartValue`](../ibasechartvalue). |
 
 ### Viz také
 

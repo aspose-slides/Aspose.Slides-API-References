@@ -1,9 +1,9 @@
 ---
 title: FillFormat
-second_title: Aspose.Slides için .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Dolgu biçimlendirme seçeneklerini temsil eder.
 type: docs
-weight: 4760
+weight: 4780
 url: /tr/aspose.slides/fillformat/
 ---
 ## FillFormat sınıfı
@@ -18,13 +18,13 @@ public sealed class FillFormat : PVIObject, IFillFormat
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arabirimine erişim sağlar. Yalnızca okunur [`IPresentationComponent`](../ipresentationcomponent). |
-| [FillType](../../aspose.slides/fillformat/filltype) { get; set; } | Dolgu tipini döndürür veya ayarlar. Okuma/yazma [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/fillformat/gradientformat) { get; } | Gradyan dolgu biçimini döndürür. Yalnızca okunur [`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/fillformat/patternformat) { get; } | Pattern dolgu biçimini döndürür. Yalnızca okunur [`IPatternFormat`](../ipatternformat). |
-| [PictureFillFormat](../../aspose.slides/fillformat/picturefillformat) { get; } | Resim dolgu biçimini döndürür. Yalnızca okunur [`IPictureFillFormat`](../ipicturefillformat). |
-| [RotateWithShape](../../aspose.slides/fillformat/rotatewithshape) { get; set; } | Dolgunun şekil ile birlikte döndürülüp döndürülmeyeceğini belirler. Okuma/yazma [`NullableBool`](../nullablebool). |
-| [SolidFillColor](../../aspose.slides/fillformat/solidfillcolor) { get; } | Dolgu rengini döndürür. Yalnızca okunur [`IColorFormat`](../icolorformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almaya izin verir. Yalnızca okunabilir [`IPresentationComponent`](../ipresentationcomponent). |
+| [FillType](../../aspose.slides/fillformat/filltype) { get; set; } | Dolgu tipini döndürür veya ayarlar. Okunabilir/yazılabilir [`FillType`](../filltype). |
+| [GradientFormat](../../aspose.slides/fillformat/gradientformat) { get; } | Gradient dolgu biçimini döndürür. Yalnızca okunabilir [`IGradientFormat`](../igradientformat). |
+| [PatternFormat](../../aspose.slides/fillformat/patternformat) { get; } | Desen dolgu biçimini döndürür. Yalnızca okunabilir [`IPatternFormat`](../ipatternformat). |
+| [PictureFillFormat](../../aspose.slides/fillformat/picturefillformat) { get; } | Resim dolgu biçimini döndürür. Yalnızca okunabilir [`IPictureFillFormat`](../ipicturefillformat). |
+| [RotateWithShape](../../aspose.slides/fillformat/rotatewithshape) { get; set; } | Dolgunun şekil ile birlikte döndürülüp döndürülmeyeceğini belirler. Okunabilir/yazılabilir [`NullableBool`](../nullablebool). |
+| [SolidFillColor](../../aspose.slides/fillformat/solidfillcolor) { get; } | Dolgu rengini döndürür. Yalnızca okunabilir [`IColorFormat`](../icolorformat). |
 
 ## Yöntemler
 
@@ -32,9 +32,9 @@ public sealed class FillFormat : PVIObject, IFillFormat
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Belirtilen nesneyle karşılaştırır. |
 | [GetEffective](../../aspose.slides/fillformat/geteffective)() | Uygulanan kalıtımla etkili dolgu biçimlendirme verilerini alır. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Hash kodunu döndürür. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Karma kodunu döndürür. |
 
-### İlgili
+### Ayrıca
 
 * sınıf [PVIObject](../pviobject)
 * arayüz [IFillFormat](../ifillformat)

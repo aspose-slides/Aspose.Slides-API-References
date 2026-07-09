@@ -3,7 +3,7 @@ title: IMathematicalText
 second_title: Aspose.Sildes för .NET API-referens
 description: Matematisk text
 type: docs
-weight: 8490
+weight: 8510
 url: /sv/aspose.slides.mathtext/imathematicaltext/
 ---
 ## IMathematicalText gränssnitt
@@ -18,7 +18,7 @@ public interface IMathematicalText : IMathElement
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathematicaltext/asimathelement) { get; } | Tillåter att hämta bas-IMathElement gränssnitt [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathematicaltext/asimathelement) { get; } | Tillåter att hämta bas-IMathElement-gränssnitt [`IMathElement`](../imathelement) |
 | [Format](../../aspose.slides.mathtext/imathematicaltext/format) { get; } | Egenskaper för textformatering |
 | [Value](../../aspose.slides.mathtext/imathematicaltext/value) { get; set; } | Textvärde |
 

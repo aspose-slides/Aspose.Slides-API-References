@@ -1,14 +1,14 @@
 ---
 title: IOuterShadow
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili efek Bayangan Luar.
+description: Mewakili efek Outer Shadow.
 type: docs
-weight: 3440
+weight: 3460
 url: /id/aspose.slides.effects/ioutershadow/
 ---
 ## IOuterShadow antarmuka
 
-Mewakili efek Bayangan Luar.
+Mewakili efek Outer Shadow.
 
 ```csharp
 public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>, 
@@ -19,18 +19,18 @@ public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>,
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | Mengizinkan untuk mengambil antarmuka IAccessiblePVIObject dasar. Hanya-baca [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | Mengizinkan untuk mengambil antarmuka IImageTransformOperation dasar. Hanya-baca [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | Radius blur, dalam poin. Nilai bawaan – 0 pt. Baca/tulis Double. |
-| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | Arah bayangan, dalam derajat. Nilai bawaan – 0 ° (kiri-ke-kanan). Baca/tulis Single. |
-| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | Jarak bayangan dari objek, dalam poin. Nilai bawaan – 0 pt. Baca/tulis Double. |
-| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | Perataan persegi panjang. Nilai bawaan – Bottom. Baca/tulis [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | Menunjukkan apakah bayangan berputar bersama bentuk. Nilai bawaan – true. Baca/tulis Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Faktor skala horizontal, dalam persen dari ukuran asli. Skala negatif menyebabkan pembalikan. Nilai bawaan – 100 %. Baca/tulis Double. |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Faktor skala vertikal, dalam persen dari ukuran asli. Skala negatif menyebabkan pembalikan. Nilai bawaan – 100 %. Baca/tulis Double. |
-| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | Warna bayangan. Nilai bawaan – hitam otomatis (bergantung pada tema). Hanya-baca [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | Sudut skew horizontal, dalam derajat. Nilai bawaan – 0 °. Baca/tulis Double. |
-| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | Sudut skew vertikal, dalam derajat. Nilai bawaan – 0 °. Baca/tulis Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | Memungkinkan mendapatkan antarmuka IAccessiblePVIObject dasar. Hanya-baca [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | Memungkinkan mendapatkan antarmuka IImageTransformOperation dasar. Hanya-baca [`IImageTransformOperation`](../iimagetransformoperation). |
+| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | Radius blur, dalam poin. Nilai default – 0 pt. Baca/tulis Double. |
+| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | Arah bayangan, dalam derajat. Nilai default – 0 ° (kiri-ke-kanan). Baca/tulis Single. |
+| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | Jarak bayangan dari objek, dalam poin. Nilai default – 0 pt. Baca/tulis Double. |
+| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | Perataan persegi panjang. Nilai default – Bottom. Baca/tulis [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | Menunjukkan apakah bayangan berputar bersama bentuk. Nilai default – true. Baca/tulis Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Faktor skala horizontal, dalam persentase ukuran asli. Skala negatif menyebabkan pembalikan. Nilai default – 100 %. Baca/tulis Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Faktor skala vertikal, dalam persentase ukuran asli. Skala negatif menyebabkan pembalikan. Nilai default – 100 %. Baca/tulis Double. |
+| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | Warna bayangan. Nilai default – hitam otomatis (tergantung tema). Hanya-baca [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | Sudut kemiringan horizontal, dalam derajat. Nilai default – 0 °. Baca/tulis Double. |
+| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | Sudut kemiringan vertikal, dalam derajat. Nilai default – 0 °. Baca/tulis Double. |
 
 ### Lihat Juga
 

@@ -3,7 +3,7 @@ title: IXpsOptions
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Fornisce opzioni che controllano come una presentazione viene salvata nel formato XPS.
 type: docs
-weight: 4180
+weight: 4200
 url: /it/aspose.slides.export/ixpsoptions/
 ---
 ## IXpsOptions interfaccia
@@ -18,10 +18,10 @@ public interface IXpsOptions : ISaveOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ixpsoptions/asisaveoptions) { get; } | Restituisce l'interfaccia ISaveOptions. Sola lettura [`ISaveOptions`](../isaveoptions). |
-| [DrawSlidesFrame](../../aspose.slides.export/ixpsoptions/drawslidesframe) { get; set; } | True per disegnare una cornice nera attorno a ogni diapositiva. Lettura/scrittura Boolean. |
+| [AsISaveOptions](../../aspose.slides.export/ixpsoptions/asisaveoptions) { get; } | Restituisce l'interfaccia ISaveOptions. Solo lettura [`ISaveOptions`](../isaveoptions). |
+| [DrawSlidesFrame](../../aspose.slides.export/ixpsoptions/drawslidesframe) { get; set; } | True per disegnare una cornice nera attorno a ogni slide. Lettura/scrittura Boolean. |
 | [SaveMetafilesAsPng](../../aspose.slides.export/ixpsoptions/savemetafilesaspng) { get; set; } | True per convertire tutti i metafili usati in una presentazione in immagini PNG. Lettura/scrittura Boolean. |
-| [ShowHiddenSlides](../../aspose.slides.export/ixpsoptions/showhiddenslides) { get; set; } | Specifica se il documento generato deve includere le diapositive nascoste o no. Il valore predefinito è `false`. |
+| [ShowHiddenSlides](../../aspose.slides.export/ixpsoptions/showhiddenslides) { get; set; } | Specifica se il documento generato deve includere diapositive nascoste o meno. Il valore predefinito è `false`. |
 
 ### Vedi anche
 

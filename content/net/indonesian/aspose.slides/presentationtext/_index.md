@@ -1,9 +1,9 @@
 ---
 title: PresentationText
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili teks yang diekstrak dari presentasi
 type: docs
-weight: 9620
+weight: 9640
 url: /id/aspose.slides/presentationtext/
 ---
 ## PresentationText kelas
@@ -18,7 +18,7 @@ public class PresentationText : IPresentationText
 
 | Nama | Deskripsi |
 | --- | --- |
-| [SlidesText](../../aspose.slides/presentationtext/slidestext) { get; } | Sebuah array dari [`SlideText`](../islidetext) berisi teks presentasi. |
+| [SlidesText](../../aspose.slides/presentationtext/slidestext) { get; } | Array dari [`SlideText`](../islidetext) berisi teks presentasi. |
 
 ### Lihat Juga
 

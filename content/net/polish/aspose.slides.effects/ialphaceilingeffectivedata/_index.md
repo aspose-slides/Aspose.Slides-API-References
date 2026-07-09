@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeilingEffectiveData
 second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Obiekt niezmienny, który reprezentuje efekt Alpha Ceiling. Wartości przezroczystości Alpha większe niż zero są zmieniane na 100. Innymi słowy, wszystko częściowo nieprzezroczyste staje się w pełni nieprzezroczyste.
+description: Niezmienny obiekt reprezentujący efekt Alpha Ceiling. Wartości przezroczystości Alpha większe niż zero są zmieniane na 100. Innymi słowy, wszystko częściowo nieprzezroczyste staje się w pełni nieprzezroczyste.
 type: docs
-weight: 3030
+weight: 3050
 url: /pl/aspose.slides.effects/ialphaceilingeffectivedata/
 ---
 ## IAlphaCeilingEffectiveData interfejs
 
-Obiekt niezmienny, który reprezentuje efekt Alpha Ceiling. Wartości Alpha (przezroczystość) większe niż zero są zmieniane na 100 %. Innymi słowy, wszystko częściowo nieprzezroczyste staje się w pełni nieprzezroczyste.
+Niezmienny obiekt reprezentujący efekt Alpha Ceiling. Wartości Alpha (przezroczystość) większe od zera są zmieniane na 100 %. Innymi słowy, wszystko częściowo nieprzezroczyste staje się w pełni nieprzezroczyste.
 
 ```csharp
 public interface IAlphaCeilingEffectiveData : IEffectEffectiveData

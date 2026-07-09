@@ -1,14 +1,14 @@
 ---
 title: IHSL
-second_title: Aspose.Sildes の .NET API リファレンス
-description: Hue/Saturation/Luminance エフェクトを表します。色相、彩度、輝度はそれぞれ現在の値に対して相対的に調整できます。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: Hue/Saturation/Luminance 効果を表します。色相、彩度、輝度はそれぞれ現在の値に対して相対的に調整できます。
 type: docs
-weight: 3340
+weight: 3360
 url: /ja/aspose.slides.effects/ihsl/
 ---
 ## IHSL インターフェイス
 
-Hue/Saturation/Luminance エフェクトを表します。色相、彩度、輝度はそれぞれ現在の値に対して相対的に調整できます。
+Hue/Saturation/Luminance 効果を表します。色相、彩度、輝度はそれぞれ現在の値に対して相対的に調整できます。
 
 ```csharp
 public interface IHSL : IAccessiblePVIObject<IHSLEffectiveData>, IImageTransformOperation
@@ -18,8 +18,8 @@ public interface IHSL : IAccessiblePVIObject<IHSLEffectiveData>, IImageTransform
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ihsl/asiaccessiblepviobject) { get; } | ベースの IAccessiblePVIObject インターフェイスを取得できます。読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ihsl/asiimagetransformoperation) { get; } | IImageTransformOperation インターフェイスを返します。読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ihsl/asiaccessiblepviobject) { get; } | ベース IAccessiblePVIObject インターフェイスを取得できます。読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ihsl/asiimagetransformoperation) { get; } | IImageTransformOperation インターフェイスを返します。読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation)。 |
 
 ### 参照
 

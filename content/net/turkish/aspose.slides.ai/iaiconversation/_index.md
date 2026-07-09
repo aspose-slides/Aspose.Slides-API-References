@@ -1,12 +1,12 @@
 ---
 title: IAIConversation
-second_title: Aspose.Slides için .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Bir konuşma örneğini temsil eder. Normal AI çağrılarının aksine, konuşmalar tüm bağlamı korur.
 type: docs
-weight: 10
+weight: 20
 url: /tr/aspose.slides.ai/iaiconversation/
 ---
-## IAIConversation arayüzü
+## IAIConversation arabirimi
 
 Bir konuşma örneğini temsil eder. Normal AI çağrılarının aksine, konuşmalar tüm bağlamı korur.
 
@@ -14,11 +14,11 @@ Bir konuşma örneğini temsil eder. Normal AI çağrılarının aksine, konuşm
 public interface IAIConversation
 ```
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [GetResponseAsync](../../aspose.slides.ai/iaiconversation/getresponseasync)(string) | Tüm bağlamı içeren konuşma istek mesajını gönderir ve yanıt döndürür. |
+| [GetResponseAsync](../../aspose.slides.ai/iaiconversation/getresponseasync)(string) | Tüm bağlamı içeren konuşma isteği mesajını gönderir ve yanıt döndürür. |
 
 ### Ayrıca Bakınız
 

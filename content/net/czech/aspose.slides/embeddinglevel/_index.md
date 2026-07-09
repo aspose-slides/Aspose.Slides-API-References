@@ -1,14 +1,14 @@
 ---
 title: EmbeddingLevel
-second_title: Aspose.Sildes pro .NET – reference API
-description: Zastupuje licenční práva pro vkládání písma.
+second_title: Aspose.Sildes pro .NET referenci API
+description: Představuje licenční práva pro vložení písma.
 type: docs
-weight: 3650
+weight: 3670
 url: /cs/aspose.slides/embeddinglevel/
 ---
-## Výčtový typ EmbeddingLevel
+## Výčet EmbeddingLevel
 
-Representuje licenční práva pro vkládání písma.
+Představuje licenční práva pro vložení písma.
 
 ```csharp
 [Flags]
@@ -19,12 +19,12 @@ public enum EmbeddingLevel : ushort
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| Installable | `0` | Písma s tímto nastavením indikují, že mohou být vložena a trvale nainstalována na vzdáleném systému aplikací. Uživatel vzdáleného systému získává stejné práva, povinnosti a licence pro toto písmo jako původní kupující písma a podléhá stejné koncově uživatelské licenční smlouvě, autorskému právu, designovému patentu a/nebo ochranné známce jako původní kupující. |
-| Restricted | `2` | Písma, u kterých je nastaven pouze tento bit, nesmí být upravována, vkládána ani šířena žádným způsobem bez předchozího získání povolení od právního vlastníka. |
-| PreviewPrint | `4` | Když je nastaven tento bit, písmo může být vloženo a dočasně načteno na vzdáleném systému. Dokumenty obsahující písma Preview &amp; Print musí být otevřeny "pouze pro čtení"; nelze v nich provádět úpravy. |
-| Editable | `8` | Když je nastaven tento bit, písmo může být vloženo, ale musí být nainstalováno pouze dočasně na jiných systémech. V kontrastu s písmy Preview &amp; Print mohou být dokumenty obsahující písma Editable otevřeny pro čtení, úpravy jsou povoleny a změny lze uložit. |
-| NoSubsetting | `100` | Když je nastaven tento bit, písmo nesmí být před vložením podmnoženo. Platí také ostatní omezení vkládání uvedená v bitech 0-3 a 9. |
-| BitmapOnly | `200` | Když je nastaven tento bit, mohou být vloženy pouze bitmapy obsažené v písmu. Žádná data obrysu nemohou být vložena. Pokud v písmu nejsou k dispozici žádné bitmapy, písmo je považováno za nevložitelný a služby vkládání selžou. |
+| Installable | `0` | Písma s tímto nastavením naznačují, že mohou být vložena a trvale nainstalována na vzdáleném systému aplikací. Uživatel vzdáleného systému získá stejné práva, povinnosti a licence pro toto písmo jako původní kupující písma a podléhá stejné koncovému licenčnímu ujednání, autorskému právu, designovému patentu a/nebo ochranné známce jako původní kupující. |
+| Restricted | `2` | Písma, u kterých je nastaven pouze tento bit, nesmí být upravována, vkládána ani vyměňována žádným způsobem bez předchozího získání povolení od právního vlastníka. |
+| PreviewPrint | `4` | Když je tento bit nastaven, písmo může být vloženo a dočasně načteno na vzdáleném systému. Dokumenty obsahující písma Preview & Print musí být otevřeny „pouze ke čtení“; nelze na dokumentu provádět žádné úpravy. |
+| Editable | `8` | Když je tento bit nastaven, písmo může být vloženo, ale musí být instalováno pouze dočasně na jiných systémech. Na rozdíl od písem Preview & Print mohou být dokumenty obsahující písma Editable otevřeny ke čtení, úpravy jsou povoleny a změny mohou být uloženy. |
+| NoSubsetting | `100` | Když je tento bit nastaven, písmo nesmí být před vložením podmnoženo. Ostatní omezení vložení uvedená v bitech 0-3 a 9 se také vztahují. |
+| BitmapOnly | `200` | Když je tento bit nastaven, mohou být vloženy pouze bitmapy obsažené v písmu. Žádná obrysová data nemohou být vložena. Pokud ve fontu nejsou k dispozici žádné bitmapy, pak se písmo považuje za nevkládatelné a služby vložení selžou. |
 
 ### Viz také
 

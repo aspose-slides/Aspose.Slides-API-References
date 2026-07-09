@@ -1,14 +1,14 @@
 ---
 title: IFillOverlay
 second_title: Aspose.Sildes for .NET API Referansı
-description: Bir Dolgu Kaplaması etkisini temsil eder. Dolgu kaplaması, bir nesne için ek bir dolgu belirtmek ve iki dolguyu birleştirmek için kullanılabilir.
+description: Bir Doldurma Kaplaması etkisini temsil eder. Bir doldurma kaplaması, bir nesne için ek bir doldurma belirlemek ve iki doldurmayı birleştirmek için kullanılabilir.
 type: docs
-weight: 3280
+weight: 3300
 url: /tr/aspose.slides.effects/ifilloverlay/
 ---
-## IFillOverlay arayüz
+## IFillOverlay arabirimi
 
-Bir Dolgu Kaplaması etkisini temsil eder. Dolgu kaplaması, bir nesne için ek bir dolgu belirtmek ve iki dolguyu birleştirmek için kullanılabilir.
+Bir Doldurma Kaplaması etkisini temsil eder. Bir doldurma kaplaması, bir nesne için ek bir doldurma belirlemek ve iki doldurmayı birleştirmek için kullanılabilir.
 
 ```csharp
 public interface IFillOverlay : IAccessiblePVIObject<IFillOverlayEffectiveData>, 
@@ -17,18 +17,18 @@ public interface IFillOverlay : IAccessiblePVIObject<IFillOverlayEffectiveData>,
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ifilloverlay/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arayüzünü almaya izin verir. Salt okunur [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ifilloverlay/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arayüzünü almaya izin verir. Salt okunur [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Blend](../../aspose.slides.effects/ifilloverlay/blend) { get; set; } | FillBlendMode. Okuma/yazma [`FillBlendMode`](../../aspose.slides/fillblendmode). |
-| [FillFormat](../../aspose.slides.effects/ifilloverlay/fillformat) { get; } | Dolgu biçimi. Salt okunur [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ifilloverlay/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arabirimine erişim sağlar. Yalnızca okunur [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ifilloverlay/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arabirimine erişim sağlar. Yalnızca okunur [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Blend](../../aspose.slides.effects/ifilloverlay/blend) { get; set; } | FillBlendMode. Okunur/Yazılabilir [`FillBlendMode`](../../aspose.slides/fillblendmode). |
+| [FillFormat](../../aspose.slides.effects/ifilloverlay/fillformat) { get; } | Doldurma formatı. Yalnızca okunur [`IFillFormat`](../../aspose.slides/ifillformat). |
 
-### Ayrıca Bakınız
+### Ayrıca bakınız
 
-* arayüz [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
-* arayüz [IFillOverlayEffectiveData](../ifilloverlayeffectivedata)
-* arayüz [IImageTransformOperation](../iimagetransformoperation)
+* arabirim [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
+* arabirim [IFillOverlayEffectiveData](../ifilloverlayeffectivedata)
+* arabirim [IImageTransformOperation](../iimagetransformoperation)
 * ad alanı [Aspose.Slides.Effects](../../aspose.slides.effects)
 * derleme [Aspose.Slides](../../)
 

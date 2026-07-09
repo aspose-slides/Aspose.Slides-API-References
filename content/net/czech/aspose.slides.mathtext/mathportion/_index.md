@@ -1,43 +1,43 @@
 ---
 title: MathPortion
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje část s matematickým kontextem uvnitř.
+description: Představuje část s matematickým kontextem uvnitř.
 type: docs
-weight: 8910
+weight: 8930
 url: /cs/aspose.slides.mathtext/mathportion/
 ---
-## MathPortion class
+## MathPortion třída
 
-Reprezentuje část s matematickým kontextem uvnitř.
+Představuje část s matematickým kontextem uvnitř.
 
 ```csharp
 public sealed class MathPortion : Portion, IMathPortion
 ```
 
-## Constructors
+## Konstruktory
 
 | Název | Popis |
 | --- | --- |
 | [MathPortion](mathportion)() | Inicializuje novou instanci třídy MathPortion. |
 
-## Properties
+## Vlastnosti
 
 | Název | Popis |
 | --- | --- |
-| [Field](../../aspose.slides/portion/field) { get; } | Vrací pole této části. Pouze pro čtení [`IField`](../../aspose.slides/ifield). |
+| [Field](../../aspose.slides/portion/field) { get; } | Vrátí pole této části. Pouze ke čtení [`IField`](../../aspose.slides/ifield). |
 | [MathParagraph](../../aspose.slides.mathtext/mathportion/mathparagraph) { get; } | Matematický odstavec |
-| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Vrací objekt formátování, který obsahuje explicitně nastavené vlastnosti formátování textové části bez použití dědičnosti. Pouze pro čtení [`IPortionFormat`](../../aspose.slides/iportionformat). |
-| [Text](../../aspose.slides/portion/text) { get; set; } | Získává nebo nastavuje prostý text části. Čtení/zápis String. |
+| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Vrátí objekt formátování, který obsahuje výslovně nastavené vlastnosti formátování textové části bez dědění. Pouze ke čtení [`IPortionFormat`](../../aspose.slides/iportionformat). |
+| [Text](../../aspose.slides/portion/text) { get; set; } | Získá nebo nastaví prostý text části. Čtení/zápis String. |
 
-## Methods
+## Metody
 
 | Název | Popis |
 | --- | --- |
-| [AddField](../../aspose.slides/portion/addfield)(IFieldType) | Převádí tuto část na automaticky aktualizované pole. |
-| [AddField](../../aspose.slides/portion/addfield)(string) | Převádí tuto část na automaticky aktualizované pole. |
-| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Získá souřadnice začátku části. Souřadnice X bodu představuje začátek části od prvního znaku včetně levého nosiče. Souřadnice Y zahrnuje horní nosič. |
+| [AddField](../../aspose.slides/portion/addfield)(IFieldType) | Převede tuto část na automaticky aktualizované pole. |
+| [AddField](../../aspose.slides/portion/addfield)(string) | Převede tuto část na automaticky aktualizované pole. |
+| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Získá souřadnice začátku části. Souřadnice X bodu představuje začátek části od prvního znaku včetně levého postranního posunu. Souřadnice Y zahrnuje horní postranní posun. |
 | [GetRect](../../aspose.slides/portion/getrect)() | Získá souřadnice obdélníku ohraničujícího část. Obdélník zahrnuje všechny řádky textu v části, včetně prázdných. |
-| [RemoveField](../../aspose.slides/portion/removefield)() | Převádí tuto část pole na jednoduchou část. |
+| [RemoveField](../../aspose.slides/portion/removefield)() | Převede tuto část pole na jednoduchou část. |
 
 ### Příklady
 

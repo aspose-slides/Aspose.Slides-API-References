@@ -1,9 +1,9 @@
 ---
 title: IScaleEffect
-second_title: Aspose.Sildes dla .NET – referencja API
+second_title: Aspose.Sildes dla .NET Referencja API
 description: Reprezentuje efekt skalowania animacji.
 type: docs
-weight: 560
+weight: 580
 url: /pl/aspose.slides.animation/iscaleeffect/
 ---
 ## IScaleEffect interfejs
@@ -18,11 +18,11 @@ public interface IScaleEffect : IBehavior
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/iscaleeffect/asibehavior) { get; } | Umożliwia pobranie bazowego interfejsu IBehavior. Tylko do odczytu [`IBehavior`](../ibehavior). |
-| [By](../../aspose.slides.animation/iscaleeffect/by) { get; set; } | Opisuje względną wartość offsetu dla animacji (w procentach). Odczyt/zapis PointF. |
-| [From](../../aspose.slides.animation/iscaleeffect/from) { get; set; } | Określa współrzędne x/y, z których rozpoczyna się animacja (w procentach). Odczyt/zapis PointF. |
-| [To](../../aspose.slides.animation/iscaleeffect/to) { get; set; } | Określa docelową lokalizację dla efektu skalowania animacji (w procentach). Odczyt/zapis PointF. |
-| [ZoomContent](../../aspose.slides.animation/iscaleeffect/zoomcontent) { get; set; } | Określa, czy zawartość powinna być powiększana. Odczyt/zapis [`NullableBool`](../../aspose.slides/nullablebool). |
+| [AsIBehavior](../../aspose.slides.animation/iscaleeffect/asibehavior) { get; } | Umożliwia pobranie podstawowego interfejsu IBehavior. Tylko do odczytu [`IBehavior`](../ibehavior). |
+| [By](../../aspose.slides.animation/iscaleeffect/by) { get; set; } | opisuje względną wartość przesunięcia animacji (w procentach). Odczyt/zapis PointF. |
+| [From](../../aspose.slides.animation/iscaleeffect/from) { get; set; } | Określa współrzędną x/y, od której zaczyna się animacja (w procentach). Odczyt/zapis PointF. |
+| [To](../../aspose.slides.animation/iscaleeffect/to) { get; set; } | Określa docelową lokalizację efektu skalowania animacji (w procentach). Odczyt/zapis PointF. |
+| [ZoomContent](../../aspose.slides.animation/iscaleeffect/zoomcontent) { get; set; } | Określa, czy zawartość powinna być powiększona. Odczyt/zapis [`NullableBool`](../../aspose.slides/nullablebool). |
 
 ### Zobacz także
 

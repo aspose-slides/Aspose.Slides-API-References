@@ -1,9 +1,9 @@
 ---
 title: LightingDirection
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: 光の方向を定義する定数です。
 type: docs
-weight: 7690
+weight: 7710
 url: /ja/aspose.slides/lightingdirection/
 ---
 ## LightingDirection 列挙体

@@ -1,14 +1,14 @@
 ---
 title: SlidesAIAgent
-second_title: Referência da API Aspose.Sildes para .NET
-description: Fornece recursos com IA para processamento de apresentações.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Fornece recursos com IA para processar apresentações.
 type: docs
-weight: 50
+weight: 70
 url: /pt/aspose.slides.ai/slidesaiagent/
 ---
-## classe SlidesAIAgent
+## SlidesAIAgent classe
 
-Fornece recursos com IA para processamento de apresentações.
+Fornece recursos com IA para processar apresentações.
 
 ```csharp
 public class SlidesAIAgent
@@ -16,22 +16,23 @@ public class SlidesAIAgent
 
 ## Construtores
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
-| [SlidesAIAgent](slidesaiagent)(IAIWebClient) | Construtor SlidesAIAgent |
+| [SlidesAIAgent](slidesaiagent#constructor)() | Inicializa uma nova instância de [`SlidesAIAgent`](../slidesaiagent) usando o [`AsposeAIWebClient`](../asposeaiwebclient) interno com sua configuração padrão. O cliente conecta-se ao LLM próprio da Aspose e não requer configuração adicional. Para usar um cliente de IA diferente, use a sobrecarga [`SlidesAIAgent`](./slidesaiagent). |
+| [SlidesAIAgent](slidesaiagent#constructor_1)(IAIWebClient) | Inicializa uma nova instância de [`SlidesAIAgent`](../slidesaiagent) com um cliente de IA personalizado. Use esta sobrecarga para especificar o provedor de IA, fornecer seu próprio LLM ou personalizar a conexão (por exemplo, fornecendo seu próprio `HttpClient`). Qualquer implementação de [`IAIWebClient`](../iaiwebclient) pode ser usada, incluindo: |
 
 ## Métodos
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
-| [GeneratePresentation](../../aspose.slides.ai/slidesaiagent/generatepresentation#generatepresentation)(string, PresentationContentAmountType) | Gera uma instância de apresentação a partir de uma descrição de texto. Forneça um tópico, ideias, citações ou trechos de texto no idioma necessário. |
-| [GeneratePresentation](../../aspose.slides.ai/slidesaiagent/generatepresentation#generatepresentation_1)(string, PresentationContentAmountType, IPresentation) | Gera uma instância de apresentação a partir de uma descrição de texto. Forneça um tópico, ideias, citações ou trechos de texto no idioma necessário. |
-| [GeneratePresentationAsync](../../aspose.slides.ai/slidesaiagent/generatepresentationasync#generatepresentationasync)(string, PresentationContentAmountType) | Gera uma instância de apresentação a partir de uma descrição de texto. Forneça um tópico, ideias, citações ou trechos de texto no idioma necessário. |
-| [GeneratePresentationAsync](../../aspose.slides.ai/slidesaiagent/generatepresentationasync#generatepresentationasync_1)(string, PresentationContentAmountType, IPresentation) | Gera uma instância de apresentação a partir de uma descrição de texto. Forneça um tópico, ideias, citações ou trechos de texto no idioma necessário. |
+| [GeneratePresentation](../../aspose.slides.ai/slidesaiagent/generatepresentation#generatepresentation)(string, PresentationContentAmountType) | Gera uma instância de apresentação a partir de uma descrição em texto. Forneça um tópico, ideias, citações ou trechos de texto no idioma exigido. |
+| [GeneratePresentation](../../aspose.slides.ai/slidesaiagent/generatepresentation#generatepresentation_1)(string, PresentationContentAmountType, IPresentation) | Gera uma instância de apresentação a partir de uma descrição em texto. Forneça um tópico, ideias, citações ou trechos de texto no idioma exigido. |
+| [GeneratePresentationAsync](../../aspose.slides.ai/slidesaiagent/generatepresentationasync#generatepresentationasync)(string, PresentationContentAmountType) | Gera uma instância de apresentação a partir de uma descrição em texto. Forneça um tópico, ideias, citações ou trechos de texto no idioma exigido. |
+| [GeneratePresentationAsync](../../aspose.slides.ai/slidesaiagent/generatepresentationasync#generatepresentationasync_1)(string, PresentationContentAmountType, IPresentation) | Gera uma instância de apresentação a partir de uma descrição em texto. Forneça um tópico, ideias, citações ou trechos de texto no idioma exigido. |
 | [Translate](../../aspose.slides.ai/slidesaiagent/translate)(IPresentation, string) | Traduz uma apresentação para o idioma especificado usando IA (versão síncrona). |
 | [TranslateAsync](../../aspose.slides.ai/slidesaiagent/translateasync)(IPresentation, string) | Traduz uma apresentação para o idioma especificado usando IA. |
 
-### Veja Também
+### Ver Também
 
 * namespace [Aspose.Slides.AI](../../aspose.slides.ai)
 * assembly [Aspose.Slides](../../)

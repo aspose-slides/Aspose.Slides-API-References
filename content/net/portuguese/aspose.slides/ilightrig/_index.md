@@ -3,7 +3,7 @@ title: ILightRig
 second_title: Aspose.Sildes para .NET Referência de API
 description: Representa LightRig.
 type: docs
-weight: 6250
+weight: 6270
 url: /pt/aspose.slides/ilightrig/
 ---
 ## ILightRig interface
@@ -16,19 +16,19 @@ public interface ILightRig
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [Direction](../../aspose.slides/ilightrig/direction) { get; set; } | Direção da luz. Leitura/gravação [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | Representa uma luz predefinida à direita que pode ser aplicada a uma forma. O light rig representa um grupo de luzes orientadas de maneira específica em relação a uma cena 3D. Leitura/gravação [`LightRigPresetType`](../lightrigpresettype). |
+| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | Representa uma luz pré-definida que pode ser aplicada a uma forma. O light rig representa um grupo de luzes orientadas de forma específica em relação a uma cena 3D. Leitura/gravação [`LightRigPresetType`](../lightrigpresettype). |
 
 ## Métodos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | Uma rotação é definida pelo uso de uma coordenada de latitude, uma coordenada de longitude e uma revolução em torno do eixo como as coordenadas de latitude e longitude. Primeiro elemento no array de retorno - latitude, segundo - longitude, terceiro - revolução. |
-| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | Uma rotação é definida pelo uso de uma coordenada de latitude, uma coordenada de longitude e uma revolução em torno do eixo como as coordenadas de latitude e longitude. |
+| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | Uma rotação é definida por meio do uso de uma coordenada de latitude, uma coordenada de longitude e uma revolução ao redor do eixo como as coordenadas de latitude e longitude. Primeiro elemento no array de retorno - latitude, segundo - longitude, terceiro - revolução. |
+| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | Uma rotação é definida por meio do uso de uma coordenada de latitude, uma coordenada de longitude e uma revolução ao redor do eixo como as coordenadas de latitude e longitude. |
 
-### Veja Também
+### Ver também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

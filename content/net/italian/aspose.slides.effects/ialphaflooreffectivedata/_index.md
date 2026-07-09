@@ -1,14 +1,14 @@
 ---
 title: IAlphaFloorEffectiveData
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Oggetto immutabile che rappresenta un effetto Alpha Floor. I valori di opacità Alpha inferiori a 100 vengono impostati a zero. In altre parole, tutto ciò che è parzialmente trasparente diventa completamente trasparente.
+second_title: Aspose.Sildes per .NET API Reference
+description: Oggetto immutabile che rappresenta un effetto Alpha Floor. I valori di opacità Alpha inferiori a 100 vengono impostati a zero. In altre parole, qualsiasi cosa parzialmente trasparente diventa completamente trasparente.
 type: docs
-weight: 3050
+weight: 3070
 url: /it/aspose.slides.effects/ialphaflooreffectivedata/
 ---
-## IAlphaFloorEffectiveData interfaccia
+## interfaccia IAlphaFloorEffectiveData
 
-Oggetto immutabile che rappresenta un effetto Alpha Floor. I valori Alpha (opacità) inferiori al 100 % vengono impostati a zero. In altre parole, tutto ciò che è parzialmente trasparente diventa completamente trasparente.
+Oggetto immutabile che rappresenta un effetto Alpha Floor. I valori Alpha (opacità) inferiori al 100% vengono impostati a zero. In altre parole, qualsiasi cosa parzialmente trasparente diventa completamente trasparente.
 
 ```csharp
 public interface IAlphaFloorEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IAlphaFloorEffectiveData : IEffectEffectiveData
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaflooreffectivedata/asieffecteffectivedata) { get; } | Consente di ottenere l'interfaccia base IEffectEffectiveData. Sola lettura [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaflooreffectivedata/asieffecteffectivedata) { get; } | Consente di ottenere l'interfaccia base IEffectEffectiveData. Solo lettura [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Vedi anche
 

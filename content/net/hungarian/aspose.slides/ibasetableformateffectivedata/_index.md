@@ -1,14 +1,14 @@
 ---
 title: IBaseTableFormatEffectiveData
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Alap interfész azokhoz a változtathatatlan objektumokhoz, amelyek hatékony táblázatformázási tulajdonságokat tartalmaznak.
+second_title: Aspose.Sildes .NET-hez API referencia
+description: Alap interfész a változtathatatlan objektumokhoz, amelyek hatékony táblázatformázási tulajdonságokat tartalmaznak.
 type: docs
-weight: 5340
+weight: 5360
 url: /hu/aspose.slides/ibasetableformateffectivedata/
 ---
 ## IBaseTableFormatEffectiveData interfész
 
-Alap interfész azokhoz a változtathatatlan objektumokhoz, amelyek hatékony táblázatformázási tulajdonságokat tartalmaznak.
+Alap interfész a változtathatatlan objektumokhoz, amelyek hatékony táblázatformázási tulajdonságokat tartalmaznak.
 
 ```csharp
 public interface IBaseTableFormatEffectiveData
@@ -18,12 +18,12 @@ public interface IBaseTableFormatEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [BorderBottom](../../aspose.slides/ibasetableformateffectivedata/borderbottom) { get; } | Visszaadja az alsó szegélyvonal formátum hatékony értékét. Csak olvasható [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | Visszaadja a le-felfelé átlós vonal formátum hatékony értékét. Csak olvasható [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | Visszaadja a felfelé átlós vonal formátum hatékony értékét. Csak olvasható [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderLeft](../../aspose.slides/ibasetableformateffectivedata/borderleft) { get; } | Visszaadja a bal szegélyvonal formátum hatékony értékét. Csak olvasható [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderRight](../../aspose.slides/ibasetableformateffectivedata/borderright) { get; } | Visszaadja a jobb szegélyvonal formátum hatékony értékét. Csak olvasható [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderTop](../../aspose.slides/ibasetableformateffectivedata/bordertop) { get; } | Visszaadja a felső szegélyvonal formátum hatékony értékét. Csak olvasható [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderBottom](../../aspose.slides/ibasetableformateffectivedata/borderbottom) { get; } | Visszaadja az alsó szegélyvonal formátumának hatékony értékét. Csak olvasható [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | Visszaadja a lefele irányuló átlós vonal formátumának hatékony értékét. Csak olvasható [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | Visszaadja a felfele irányuló átlós vonal formátumának hatékony értékét. Csak olvasható [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderLeft](../../aspose.slides/ibasetableformateffectivedata/borderleft) { get; } | Visszaadja a bal szegélyvonal formátumának hatékony értékét. Csak olvasható [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderRight](../../aspose.slides/ibasetableformateffectivedata/borderright) { get; } | Visszaadja a jobb szegélyvonal formátumának hatékony értékét. Csak olvasható [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderTop](../../aspose.slides/ibasetableformateffectivedata/bordertop) { get; } | Visszaadja a felső szegélyvonal formátumának hatékony értékét. Csak olvasható [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
 | [FillFormat](../../aspose.slides/ibasetableformateffectivedata/fillformat) { get; } | Visszaadja a kitöltési formátum hatékony értékét. Csak olvasható [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 
 ### Lásd még

@@ -1,14 +1,14 @@
 ---
 title: FillBlendMode
-second_title: Aspose.Sildes pro .NET referenční příručka API
+second_title: Aspose.Sildes pro .NET referenci API
 description: Určuje režim míchání.
 type: docs
-weight: 4750
+weight: 4770
 url: /cs/aspose.slides/fillblendmode/
 ---
-## FillBlendMode výčet
+## FillBlendMode výčtový typ
 
-Určuje mód míchání.
+Určuje režim míchání.
 
 ```csharp
 public enum FillBlendMode
@@ -18,11 +18,11 @@ public enum FillBlendMode
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| Darken | `0` | Mód míchání Darken. |
-| Lighten | `1` | Mód míchání Lighten. |
-| Multiply | `2` | Mód míchání Multiply. |
-| Overlay | `3` | Mód míchání Overlay. |
-| Screen | `4` | Mód míchání Screen. |
+| Darken | `0` | Darken režim míchání. |
+| Lighten | `1` | Lighten režim míchání. |
+| Multiply | `2` | Multiply režim míchání. |
+| Overlay | `3` | Overlay režim míchání. |
+| Screen | `4` | Screen režim míchání. |
 
 ### Viz také
 

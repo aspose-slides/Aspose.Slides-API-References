@@ -1,14 +1,14 @@
 ---
 title: IAIWebClient
-second_title: Aspose.Sildes の .NET API リファレンス
-description: AI Web クライアント インターフェイスです。このインターフェイスにより、さまざまな AI 言語モデルを差し替えることができます。このインターフェイスを実装するクラスは、SlidesAIAgent と併用することが想定されています。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: AI Web クライアント インターフェイスです。このインターフェイスにより、さまざまな AI 言語モデルを置き換えることができます。このインターフェイスを実装するクラスは、SlidesAIAgent と一緒に使用することを想定しています。
 type: docs
-weight: 20
+weight: 30
 url: /ja/aspose.slides.ai/iaiwebclient/
 ---
 ## IAIWebClient インターフェイス
 
-AI Web クライアント インターフェイスです。このインターフェイスにより、さまざまな AI 言語モデルを差し替えることができます。このインターフェイスを実装するクラスは、`SlidesAIAgent` と併用することが想定されています。
+AI Web クライアント インターフェイスです。このインターフェイスにより、さまざまな AI 言語モデルを置き換えることができます。このインターフェイスを実装するクラスは、`SlidesAIAgent` と一緒に使用することを想定しています。
 
 ```csharp
 public interface IAIWebClient
@@ -18,7 +18,7 @@ public interface IAIWebClient
 
 | 名前 | 説明 |
 | --- | --- |
-| [CallChatAsync](../../aspose.slides.ai/iaiwebclient/callchatasync)(string) | 提供された `HttpClient` インスタンスを使用して AI モデルにチャット指示を送信し、指示に対する応答メッセージを返します。 |
+| [CallChatAsync](../../aspose.slides.ai/iaiwebclient/callchatasync)(string) | 指定された `HttpClient` インスタンスを使用して AI モデルにチャット指示を送信し、その指示に対する応答メッセージを返します。 |
 | [CreateConversation](../../aspose.slides.ai/iaiwebclient/createconversation)() | 会話インスタンスを作成します。通常の AI 呼び出しとは異なり、会話は全体のコンテキストを保持します。 |
 
 ### 参照

@@ -1,14 +1,14 @@
 ---
 title: MarkdownExportType
-second_title: Aspose.Sildes for .NET API リファレンス
-description: ドキュメントのレンダリングタイプです。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: ドキュメントのレンダリングタイプ。
 type: docs
-weight: 4220
+weight: 4240
 url: /ja/aspose.slides.export/markdownexporttype/
 ---
 ## MarkdownExportType 列挙型
 
-ドキュメントのレンダリングタイプです。
+ドキュメントのレンダリングタイプ。
 
 ```csharp
 public enum MarkdownExportType
@@ -18,9 +18,9 @@ public enum MarkdownExportType
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| Sequential | `0` | すべての項目を別々にレンダリングします。1つずつ。 |
+| Sequential | `0` | すべての項目を個別にレンダリングします。1つずつ。 |
 | TextOnly | `1` | テキストのみをレンダリングします。 |
-| Visual | `2` | すべての項目をレンダリングします。グループ化された項目は一緒にレンダリングします。 |
+| Visual | `2` | すべての項目をレンダリングし、グループ化された項目は一緒にレンダリングします。 |
 
 ### 例
 
@@ -43,7 +43,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides.Export](../../aspose.slides.export)
 * アセンブリ [Aspose.Slides](../../)

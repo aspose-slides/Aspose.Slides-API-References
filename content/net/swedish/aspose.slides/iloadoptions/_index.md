@@ -1,14 +1,14 @@
 ---
 title: ILoadOptions
 second_title: Aspose.Sildes för .NET API-referens
-description: Tillåter att ange ytterligare alternativ såsom format eller standardteckensnitt när en presentation läses in.
+description: Tillåter att ange ytterligare alternativ, såsom format eller standardtypsnitt, när en presentation laddas.
 type: docs
-weight: 6320
+weight: 6340
 url: /sv/aspose.slides/iloadoptions/
 ---
 ## ILoadOptions gränssnitt
 
-Tillåter att ange ytterligare alternativ (t.ex. format eller standardteckensnitt) när en presentation läses in.
+Tillåter att specificera ytterligare alternativ (såsom format eller standardtypsnitt) när en presentation laddas.
 
 ```csharp
 public interface ILoadOptions
@@ -18,20 +18,20 @@ public interface ILoadOptions
 
 | Namn | Beskrivning |
 | --- | --- |
-| [BlobManagementOptions](../../aspose.slides/iloadoptions/blobmanagementoptions) { get; set; } | Representerar de alternativ som kan användas för att hantera beteendet för Binary Large Objects (BLOBs), såsom användning av temporära filer eller maximalt antal BLOB-bytes i minnet. Dessa alternativ är avsedda att ställa in det bästa förhållandet mellan prestanda och minnesanvändning för en viss miljö eller krav. En Binary Large Object (BLOB) är binär data lagrad som en enhet – d.v.s. BLOB kan vara ett ljud, video eller själva presentationen. |
-| [DefaultAsianFont](../../aspose.slides/iloadoptions/defaultasianfont) { get; set; } | Returnerar eller anger det asiatiska teckensnittet som används om källteckensnittet inte hittas. Läs-skriv String. |
-| [DefaultRegularFont](../../aspose.slides/iloadoptions/defaultregularfont) { get; set; } | Returnerar eller anger det vanliga teckensnittet som används om källteckensnittet inte hittas. Läs-skriv String. |
-| [DefaultSymbolFont](../../aspose.slides/iloadoptions/defaultsymbolfont) { get; set; } | Returnerar eller anger Symbol-teckensnittet som används om källteckensnittet inte hittas. Läs-skriv String. |
-| [DefaultTextLanguage](../../aspose.slides/iloadoptions/defaulttextlanguage) { get; set; } | Returnerar eller anger standardspråket för presentationstext. Läs/skriv String. |
-| [DeleteEmbeddedBinaryObjects](../../aspose.slides/iloadoptions/deleteembeddedbinaryobjects) { get; set; } | Avgör om Aspose.Slides ska ta bort alla inbäddade binära objekt under presentationens inläsning. |
-| [DocumentLevelFontSources](../../aspose.slides/iloadoptions/documentlevelfontsources) { get; set; } | Anger källor för externa teckensnitt som ska användas av presentationen. Dessa teckensnitt är tillgängliga för presentationen under hela dess livstid och delas inte med andra presentationer |
-| [InterruptionToken](../../aspose.slides/iloadoptions/interruptiontoken) { get; set; } | Tokenet för att övervaka avbrottsförfrågningar. Detta token hanterar hela [`IPresentation`](../ipresentation)-instansens livstid. Alla långvariga operationer, såsom inläsning eller sparande av en presentation, avbryts genom att anropa [`Interrupt`](../iinterruptiontokensource/interrupt)-metoden på [`IInterruptionTokenSource`](../iinterruptiontokensource). |
-| [LoadFormat](../../aspose.slides/iloadoptions/loadformat) { get; set; } | Returnerar eller anger formatet för en presentation som ska läsas in. Läs/skriv [`LoadFormat`](../loadformat). |
-| [OnlyLoadDocumentProperties](../../aspose.slides/iloadoptions/onlyloaddocumentproperties) { get; set; } | Denna egenskap är relevant om presentationsfilen är lösenordsskyddad. Värdet true betyder att endast dokumentegenskaper ska läsas in från en krypterad presentationsfil och lösenordet ska ignoreras. Värdet false betyder att hela den krypterade presentationen måste läsas in med rätt lösenord. Om presentationen inte är krypterad ignoreras egenskapens värde alltid. Om dokumentegenskaperna i en krypterad fil inte är offentliga och egenskapens värde är true, kan inte dokumentegenskaperna läsas in och ett undantag kommer att kastas. Läs-skriv Boolean. |
+| [BlobManagementOptions](../../aspose.slides/iloadoptions/blobmanagementoptions) { get; set; } | Representerar de alternativ som kan användas för att hantera beteendet för Binary Large Objects (BLOBs), såsom användning av temporära filer eller maximalt antal BLOB-bytes i minnet. Dessa alternativ är avsedda att skapa det bästa förhållandet mellan prestanda och minnesanvändning för en specifik miljö eller krav. En Binary Large Object (BLOB) är binär data som lagras som en enhet – d.v.s. BLOB kan vara ett ljud, en video eller själva presentationen. |
+| [DefaultAsianFont](../../aspose.slides/iloadoptions/defaultasianfont) { get; set; } | Returnerar eller anger det asiatiska typsnittet som används om källtypsnittet inte hittas. Läs-skriv String. |
+| [DefaultRegularFont](../../aspose.slides/iloadoptions/defaultregularfont) { get; set; } | Returnerar eller anger det reguljära typsnittet som används om källtypsnittet inte hittas. Läs-skriv String. |
+| [DefaultSymbolFont](../../aspose.slides/iloadoptions/defaultsymbolfont) { get; set; } | Returnerar eller anger Symbol-typsnittet som används om källtypsnittet inte hittas. Läs-skriv String. |
+| [DefaultTextLanguage](../../aspose.slides/iloadoptions/defaulttextlanguage) { get; set; } | Returnerar eller anger standardspråket för presentationstext. Läs-skriv String. |
+| [DeleteEmbeddedBinaryObjects](../../aspose.slides/iloadoptions/deleteembeddedbinaryobjects) { get; set; } | Bestämmer om Aspose.Slides kommer att radera alla inbäddade binära objekt vid laddning av presentationen. |
+| [DocumentLevelFontSources](../../aspose.slides/iloadoptions/documentlevelfontsources) { get; set; } | Anger källor för externa typsnitt som ska användas av presentationen. Dessa typsnitt är tillgängliga för presentationen under hela dess livslängd och delas inte med andra presentationer |
+| [InterruptionToken](../../aspose.slides/iloadoptions/interruptiontoken) { get; set; } | Token för att övervaka avbrotts-förfrågningar. Denna token hanterar hela [`IPresentation`](../ipresentation)-instansens livslängd. Alla långvariga operationer, såsom laddning eller sparande av en presentation, avbryts genom att anropa [`Interrupt`](../iinterruptiontokensource/interrupt)-metoden på [`IInterruptionTokenSource`](../iinterruptiontokensource). |
+| [LoadFormat](../../aspose.slides/iloadoptions/loadformat) { get; set; } | Returnerar eller anger formatet för en presentation som ska laddas. Läs-skriv [`LoadFormat`](../loadformat). |
+| [OnlyLoadDocumentProperties](../../aspose.slides/iloadoptions/onlyloaddocumentproperties) { get; set; } | Denna egenskap är relevant om presentationsfilen är lösenordsskyddad. Värdet true betyder att endast dokumentegenskaper ska laddas från en krypterad presentationsfil och lösenordet ska ignoreras. Värdet false betyder att hela den krypterade presentationen ska laddas med korrekt lösenord. Om presentationen inte är krypterad ignoreras egenskapsvärdet alltid. Om dokumentegenskaperna i en krypterad fil inte är offentliga och egenskapsvärdet är true kan dokumentegenskaperna inte laddas och ett undantag kastas. Läs-skriv Boolean. |
 | [Password](../../aspose.slides/iloadoptions/password) { get; set; } | Hämtar eller anger lösenordet. Läs-skriv String. |
-| [ResourceLoadingCallback](../../aspose.slides/iloadoptions/resourceloadingcallback) { get; set; } | Returnerar eller anger återuppringnings-gränssnittet som hanterar inläsning av externa resurser. Läs/skriv [`IResourceLoadingCallback`](../iresourceloadingcallback). |
-| [SpreadsheetOptions](../../aspose.slides/iloadoptions/spreadsheetoptions) { get; set; } | Representerar de alternativ som kan användas för att ange ytterligare beteende för kalkylblad. |
-| [WarningCallback](../../aspose.slides/iloadoptions/warningcallback) { get; set; } | Returnerar eller anger ett objekt som tar emot varningar och avgör om inläsningsprocessen ska fortsätta eller avbrytas. Läs/skriv [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [ResourceLoadingCallback](../../aspose.slides/iloadoptions/resourceloadingcallback) { get; set; } | Returnerar eller anger återanrops-gränssnittet som hanterar inläsning av externa resurser. Läs-skriv [`IResourceLoadingCallback`](../iresourceloadingcallback). |
+| [SpreadsheetOptions](../../aspose.slides/iloadoptions/spreadsheetoptions) { get; set; } | Representerar alternativ som kan användas för att specificera ytterligare beteende för kalkylblad. |
+| [WarningCallback](../../aspose.slides/iloadoptions/warningcallback) { get; set; } | Returnerar eller anger ett objekt som tar emot varningar och beslutar om inläsningsprocessen ska fortsätta eller avbrytas. Läs-skriv [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Se också
 

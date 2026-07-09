@@ -1,9 +1,9 @@
 ---
 title: ChartDataWorksheetCollection
 second_title: Aspose.Sildes for .NET API リファレンス
-description: チャートデータワークブックのワークシートコレクションを表します。
+description: チャート データ ワークブックのワークシートコレクションを表します。
 type: docs
-weight: 1380
+weight: 1400
 url: /ja/aspose.slides.charts/chartdataworksheetcollection/
 ---
 ## ChartDataWorksheetCollection クラス
@@ -18,10 +18,10 @@ public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
 
 | 名前 | 説明 |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartdataworksheetcollection/count) { get; } | カウントを返します。読み取り専用 Int32。 |
-| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | コレクションへのアクセスが同期されているか（スレッドセーフ）を示す値を返します。読み取り専用 Boolean。 |
+| [Count](../../aspose.slides.charts/chartdataworksheetcollection/count) { get; } | カウントを返します。 読み取り専用 Int32。 |
+| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | コレクションへのアクセスが同期化（スレッドセーフ）されているかどうかを示す値を返します。 読み取り専用 Boolean。 |
 | [Item](../../aspose.slides.charts/chartdataworksheetcollection/item) { get; } | インデックスでワークシートを返します。 |
-| [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | 同期ルートを返します。読み取り専用 Object。 |
+| [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | 同期ルートを返します。 読み取り専用 Object。 |
 
 ## メソッド
 
@@ -47,7 +47,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 参照
+### 関連項目
 
 * インターフェイス [IChartDataWorksheetCollection](../ichartdataworksheetcollection)
 * 名前空間 [Aspose.Slides.Charts](../../aspose.slides.charts)

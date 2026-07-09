@@ -1,14 +1,14 @@
 ---
 title: IEmbeddedEotFontsHtmlController
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 埋め込み Eot フォント HTML コントローラ。
+description: 埋め込み Eot フォントの HTML コントローラ。
 type: docs
-weight: 3880
+weight: 3900
 url: /ja/aspose.slides.export/iembeddedeotfontshtmlcontroller/
 ---
 ## IEmbeddedEotFontsHtmlController インターフェイス
 
-Embedded Eot fonts HTML controller.
+埋め込み Eot フォントの HTML コントローラ。
 
 ```csharp
 public interface IEmbeddedEotFontsHtmlController : IHtmlFormattingController

@@ -1,9 +1,9 @@
 ---
 title: Column
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta una colonna in una tabella.
 type: docs
-weight: 2570
+weight: 2590
 url: /it/aspose.slides/column/
 ---
 ## Classe Column
@@ -16,26 +16,26 @@ public sealed class Column : CellCollection, IColumn
 
 ## Proprietà
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
-| [ColumnFormat](../../aspose.slides/column/columnformat) { get; } | Restituisce l'oggetto ColumnFormat che contiene le proprietà di formattazione per questa colonna. Sola lettura [`IColumnFormat`](../icolumnformat). |
-| [Count](../../aspose.slides/cellcollection/count) { get; } | Restituisce il numero di celle in una raccolta. Sola lettura Int32. |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla raccolta è sincronizzato (thread-safe). Sola lettura Boolean. |
-| [Item](../../aspose.slides/cellcollection/item) { get; } | Restituisce una cella in base alla sua posizione. Sola lettura [`Cell`](../cell). |
-| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Restituisce la presentazione principale di una CellCollection. Sola lettura [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Restituisce la diapositiva principale di una CellCollection. Sola lettura [`IBaseSlide`](../ibaseslide). |
-| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Sola lettura Object. |
-| [Width](../../aspose.slides/column/width) { get; set; } | Restituisce o imposta la larghezza di una colonna. Lettura/Scrittura Double. |
+| [ColumnFormat](../../aspose.slides/column/columnformat) { get; } | Restituisce l'oggetto ColumnFormat che contiene le proprietà di formattazione per questa colonna. Solo lettura [`IColumnFormat`](../icolumnformat). |
+| [Count](../../aspose.slides/cellcollection/count) { get; } | Restituisce il numero di celle in una raccolta. Solo lettura Int32. |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla raccolta è sincronizzato (thread-safe). Solo lettura Boolean. |
+| [Item](../../aspose.slides/cellcollection/item) { get; } | Restituisce una cella in base alla sua posizione. Solo lettura [`Cell`](../cell). |
+| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Restituisce la presentazione padre di una CellCollection. Solo lettura [`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Restituisce la diapositiva padre di una CellCollection. Solo lettura [`IBaseSlide`](../ibaseslide). |
+| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Solo lettura Object. |
+| [Width](../../aspose.slides/column/width) { get; set; } | Restituisce o imposta la larghezza di una colonna. Lettura/scrittura Double. |
 
 ## Metodi
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
 | [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Copia tutti gli elementi dalla raccolta nell'array specificato. |
 | [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
-| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat)(IParagraphFormat) | Imposta le proprietà di formato di paragrafo definite a tutti i paragrafi delle celle della colonna. |
-| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_1)(IPortionFormat) | Imposta le proprietà di formato di porzione definite a tutte le porzioni delle celle della colonna. |
-| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_2)(ITextFrameFormat) | Imposta le proprietà di formato di cornice di testo definite a tutti i frame di testo delle celle della colonna. |
+| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat)(IParagraphFormat) | Imposta le proprietà di formattazione del paragrafo definite a tutti i paragrafi delle celle della colonna. |
+| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_1)(IPortionFormat) | Imposta le proprietà di formattazione della porzione definite a tutte le porzioni delle celle della colonna. |
+| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_2)(ITextFrameFormat) | Imposta le proprietà di formattazione del frame di testo definite a tutti i frame di testo delle celle della colonna. |
 
 ### Vedi anche
 

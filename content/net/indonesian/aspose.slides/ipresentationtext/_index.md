@@ -1,9 +1,9 @@
 ---
 title: IPresentationText
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili teks yang diambil dari slide
+description: Mewakili teks yang diekstrak dari slide
 type: docs
-weight: 6780
+weight: 6800
 url: /id/aspose.slides/ipresentationtext/
 ---
 ## IPresentationText antarmuka
@@ -18,7 +18,7 @@ public interface IPresentationText
 
 | Nama | Deskripsi |
 | --- | --- |
-| [SlidesText](../../aspose.slides/ipresentationtext/slidestext) { get; } | Sebuah array dari [`SlideText`](../islidetext) berisi teks presentasi. |
+| [SlidesText](../../aspose.slides/ipresentationtext/slidestext) { get; } | Sebuah array [`SlideText`](../islidetext) berisi teks presentasi. |
 
 ### Lihat Juga
 

@@ -1,9 +1,9 @@
 ---
 title: ColorEffect
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir animasyon davranışı için renk etkisini temsil eder.
+description: Bir animasyon davranışı için renk efektini temsil eder.
 type: docs
-weight: 210
+weight: 230
 url: /tr/aspose.slides.animation/coloreffect/
 ---
 ## ColorEffect sınıfı
@@ -24,17 +24,17 @@ public class ColorEffect : Behavior, IColorEffect
 
 | Ad | Açıklama |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Animasyon davranışlarının birikip birikmediğini temsil eder. Okuma/yazma [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Mevcut animasyon davranışının diğer çalışan animasyonlarla birleştirildiğini temsil eder. Okuma/yazma [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [By](../../aspose.slides.animation/coloreffect/by) { get; set; } | Renk animasyonu için göreceli ofset değerini açıklar. Okuma/yazma [`IColorOffset`](../icoloroffset). |
-| [ColorSpace](../../aspose.slides.animation/coloreffect/colorspace) { get; set; } | Davranışın renk uzayını temsil eder. Okuma/yazma [`ColorSpace`](../colorspace). |
-| [Direction](../../aspose.slides.animation/coloreffect/direction) { get; set; } | Renk çarkı etrafında tonun hangi yönde döneceğini belirler. Okuma/yazma [`ColorDirection`](../colordirection). |
-| [From](../../aspose.slides.animation/coloreffect/from) { get; set; } | Bu değer, davranışın başlangıç rengini belirtmek için kullanılır. Okuma/yazma [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Davranışın özelliklerini temsil eder. Salt okunur [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Efekt davranışı için zamanlama özelliklerini temsil eder. Okuma/yazma [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/coloreffect/to) { get; set; } | Animasyon renk değişikliği için sonuç rengini açıklar. Okuma/yazma [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Animasyon davranışlarının birikip birikmediğini temsil eder. Okuma/Yazma [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Mevcut animasyon davranışının diğer çalışan animasyonlarla birleştirilip birleştirilemediğini temsil eder. Okuma/Yazma [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [By](../../aspose.slides.animation/coloreffect/by) { get; set; } | Renk animasyonu için göreli kayma değerini tanımlar. Okuma/Yazma [`IColorOffset`](../icoloroffset). |
+| [ColorSpace](../../aspose.slides.animation/coloreffect/colorspace) { get; set; } | Davranışın renk uzayını temsil eder. Okuma/Yazma [`ColorSpace`](../colorspace). |
+| [Direction](../../aspose.slides.animation/coloreffect/direction) { get; set; } | Renk çarkı etrafında tonun hangi yönle döneceğini belirtir. Okuma/Yazma [`ColorDirection`](../colordirection). |
+| [From](../../aspose.slides.animation/coloreffect/from) { get; set; } | Bu değer, davranışın başlangıç rengini belirtmek için kullanılır. Okuma/Yazma [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Davranışın özelliklerini temsil eder. Yalnızca okuma [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Efekt davranışı için zamanlama özelliklerini temsil eder. Okuma/Yazma [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/coloreffect/to) { get; set; } | Animasyon renk değişimi için ortaya çıkan rengi tanımlar. Okuma/Yazma [`IColorFormat`](../../aspose.slides/icolorformat). |
 
-### Ayrıca Bakınız
+### İlgili
 
 * sınıf [Behavior](../behavior)
 * arayüz [IColorEffect](../icoloreffect)

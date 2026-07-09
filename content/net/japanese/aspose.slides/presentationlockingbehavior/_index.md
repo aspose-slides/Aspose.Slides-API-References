@@ -1,14 +1,14 @@
 ---
 title: PresentationLockingBehavior
-second_title: Aspose.Sildes の .NET API リファレンス
-description: IPresentation./ipresentation のソースファイルまたはストリームを、ロードおよび IPresentation./ipresentation のインスタンスで作業する際の取り扱いに関する動作を表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: IPresentation./ipresentation のソースファイルまたはストリームをロードし、IPresentation./ipresentation のインスタンスで操作する際の取り扱いに関する動作を表します。
 type: docs
-weight: 9610
+weight: 9630
 url: /ja/aspose.slides/presentationlockingbehavior/
 ---
 ## PresentationLockingBehavior 列挙型
 
-ロード中および [`IPresentation`](../ipresentation) のインスタンスで作業中に、[`IPresentation`](../ipresentation) ソース（ファイルまたはストリーム）を扱う動作を表します。
+[`IPresentation`](../ipresentation) ソース（ファイルまたは Stream）をロードし、[`IPresentation`](../ipresentation) のインスタンスで作業する際の扱いに関する動作を表します。
 
 ```csharp
 public enum PresentationLockingBehavior
@@ -18,8 +18,8 @@ public enum PresentationLockingBehavior
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| LoadAndRelease | `0` | ソースは [`IPresentation`](../ipresentation) コンストラクタの実行中だけロックされます。[`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) が false に設定されている場合、すべての BLOB がメモリにロードされます。それ以外の場合、 一時ファイル などの別の手段が使用される可能性があります。この動作は KeepLocked より遅く、もしソースの所有権を [`IPresentation`](../ipresentation) に渡すことが可能であれば、KeepLocked の使用が推奨されます。 |
-| KeepLocked | `1` | ソースは [`IPresentation`](../ipresentation) インスタンスの存続期間全体、破棄されるまでロックされます。[`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) はこの動作を使用するために true に設定する必要があり、設定されていない場合は例外がスローされます。この動作は推奨され、LoadAndRelease より高速でメモリ使用量も少なくなります。 |
+| LoadAndRelease | `0` | ソースは [`IPresentation`](../ipresentation) コンストラクタの実行中のみロックされます。[`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) が false に設定されている場合、すべての BLOB がメモリにロードされます。それ以外の場合、一時ファイルなどの別の手段が使用されることがあります。この動作は KeepLocked より遅く、ソースの所有権を [`IPresentation`](../ipresentation) に渡すことが可能な場合は KeepLocked を使用することが推奨されます。 |
+| KeepLocked | `1` | ソースは [`IPresentation`](../ipresentation) インスタンスの全寿命にわたってロックされ、破棄されるまで保持されます。この動作を使用するには [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) を true に設定する必要があり、設定されていない場合は例外がスローされます。この動作は推奨され、LoadAndRelease より高速でメモリ使用量も少なくなります。 |
 
 ### 備考
 
@@ -31,7 +31,7 @@ LoadOptions loadOptions = new LoadOptions {
 using (IPresentation pres = new Presentation("pres.pptx", loadOptions)) { }
 ```
 
-この例では、ソース（"pres.pptx" ファイル）は [`IPresentation`](../ipresentation) インスタンスの存続期間中ロックされます。つまり、他のプロセスによって変更または削除できません。
+この例では、ソース（「pres.pptx」ファイル）は [`IPresentation`](../ipresentation) インスタンスの寿命の間ロックされるため、他のプロセスによって変更または削除されることはできません。
 
 ### 参照
 

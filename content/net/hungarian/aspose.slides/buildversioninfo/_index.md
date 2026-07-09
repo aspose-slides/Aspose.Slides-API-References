@@ -1,9 +1,9 @@
 ---
 title: BuildVersionInfo
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes .NET API referenciája
 description: Információkat tartalmaz az Aspose.Slides verziójáról.
 type: docs
-weight: 1040
+weight: 1060
 url: /hu/aspose.slides/buildversioninfo/
 ---
 ## BuildVersionInfo osztály
@@ -16,14 +16,14 @@ public static class BuildVersionInfo
 
 ## Mezők
 
-| Name | Leírás |
+| Név | Leírás |
 | --- | --- |
 | const [AssemblyVersion](../../aspose.slides/buildversioninfo/assemblyversion) | Az Aspose.Slides összeállítás verziója. |
 | const [FileVersion](../../aspose.slides/buildversioninfo/fileversion) | Az összeállítás fájl verziója. |
 | const [Product](../../aspose.slides/buildversioninfo/product) | Az Aspose.Slides termék neve |
 | const [ProductMajor](../../aspose.slides/buildversioninfo/productmajor) | Fő verziószám. |
-| const [ProductMinor](../../aspose.slides/buildversioninfo/productminor) | Alverziószám. |
-| static readonly [ReleaseDate](../../aspose.slides/buildversioninfo/releasedate) | Az összeállítás megjelenési dátuma. |
+| const [ProductMinor](../../aspose.slides/buildversioninfo/productminor) | Alverzió szám. |
+| static readonly [ReleaseDate](../../aspose.slides/buildversioninfo/releasedate) | Az összeállítás kiadási dátuma. |
 
 ### Lásd még
 

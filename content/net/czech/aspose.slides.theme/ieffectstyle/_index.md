@@ -1,14 +1,14 @@
 ---
 title: IEffectStyle
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje styl efektu.
+description: Zastupuje styl efektu.
 type: docs
-weight: 11150
+weight: 11170
 url: /cs/aspose.slides.theme/ieffectstyle/
 ---
 ## IEffectStyle rozhraní
 
-Representuje styl efektu.
+Zastupuje styl efektu.
 
 ```csharp
 public interface IEffectStyle

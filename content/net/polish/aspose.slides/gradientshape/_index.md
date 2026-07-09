@@ -1,9 +1,9 @@
 ---
 title: GradientShape
-second_title: Aspose.Sildes dla .NET Referencja API
+second_title: Aspose.Sildes dla .NET - referencja API
 description: Reprezentuje kształt wypełnienia gradientem.
 type: docs
-weight: 4990
+weight: 5010
 url: /pl/aspose.slides/gradientshape/
 ---
 ## GradientShape enumeracja

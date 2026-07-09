@@ -3,12 +3,12 @@ title: IBehaviorPropertyCollection
 second_title: Aspose.Sildes için .NET API Referansı
 description: Etki davranışı için zamanlama özelliklerini temsil eder.
 type: docs
-weight: 430
+weight: 450
 url: /tr/aspose.slides.animation/ibehaviorpropertycollection/
 ---
-## IBehaviorPropertyCollection arayüzü
+## IBehaviorPropertyCollection arayüz
 
-Etkileşim davranışı için zamanlama özelliklerini temsil eder.
+Etki davranışı için zamanlama özelliklerini temsil eder.
 
 ```csharp
 public interface IBehaviorPropertyCollection : IList<IBehaviorProperty>
@@ -20,7 +20,7 @@ public interface IBehaviorPropertyCollection : IList<IBehaviorProperty>
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.animation/ibehaviorpropertycollection/asienumerable) { get; } | IEnumerable arabirimlerini döndürür. Salt okunur IEnumerable. |
 
-## Yöntemler
+## Metotlar
 
 | Ad | Açıklama |
 | --- | --- |
@@ -28,9 +28,9 @@ public interface IBehaviorPropertyCollection : IList<IBehaviorProperty>
 | [Contains](../../aspose.slides.animation/ibehaviorpropertycollection/contains)(string) | ICollection öğesinin belirli bir değeri içerip içermediğini belirler. |
 | [IndexOf](../../aspose.slides.animation/ibehaviorpropertycollection/indexof)(string) | IList içinde özellik değerine göre belirli bir öğenin dizinini belirler. |
 | [Insert](../../aspose.slides.animation/ibehaviorpropertycollection/insert)(int, string) | Belirtilen dizinde koleksiyona yeni bir özellik (belirtilen özellik değeriyle) ekler. |
-| [Remove](../../aspose.slides.animation/ibehaviorpropertycollection/remove)(string) | Belirtilen özelliği koleksiyondan kaldırır. |
+| [Remove](../../aspose.slides.animation/ibehaviorpropertycollection/remove)(string) | Koleksiyondan belirtilen özelliği kaldırır. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * arayüz [IBehaviorProperty](../ibehaviorproperty)
 * ad alanı [Aspose.Slides.Animation](../../aspose.slides.animation)

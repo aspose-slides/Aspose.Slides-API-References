@@ -3,10 +3,10 @@ title: InkOptions
 second_title: Aspose.Sildes için .NET API Referansı
 description: Dışa aktarılan belgede Ink nesnelerinin görünümünü kontrol eden seçenekler sağlar.
 type: docs
-weight: 4200
+weight: 4220
 url: /tr/aspose.slides.export/inkoptions/
 ---
-## InkOptions sınıf
+## InkOptions sınıfı
 
 Dışa aktarılan belgede Ink nesnelerinin görünümünü kontrol eden seçenekler sağlar.
 
@@ -19,7 +19,7 @@ public class InkOptions : IInkOptions
 | Ad | Açıklama |
 | --- | --- |
 | [HideInk](../../aspose.slides.export/inkoptions/hideink) { get; set; } | Dışa aktarılan belgede Ink öğelerini gösterir veya gizler. |
-| [InterpretMaskOpAsOpacity](../../aspose.slides.export/inkoptions/interpretmaskopasopacity) { get; set; } | Fırça renderı için ROP işlemi veya Opacity kullanır. |
+| [InterpretMaskOpAsOpacity](../../aspose.slides.export/inkoptions/interpretmaskopasopacity) { get; set; } | Fırça işleme için ROP işlemi veya Opaklık kullanır. |
 
 ### Ayrıca Bakınız
 

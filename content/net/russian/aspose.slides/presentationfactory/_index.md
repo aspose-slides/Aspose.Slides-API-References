@@ -1,15 +1,14 @@
 ---
 title: PresentationFactory
-second_title: Aspose.Slides для .NET API Справочник
-description: Позволяет создавать презентации через COM интерфейс
+second_title: Aspose.Sildes для .NET: справочник API
+description: Позволяет создавать презентацию через COM-интерфейс
 type: docs
-weight: 9330
+weight: 9600
 url: /ru/aspose.slides/presentationfactory/
 ---
+## PresentationFactory класс
 
-## Класс PresentationFactory
-
-Позволяет создавать презентации через COM интерфейс
+Позволяет создавать презентацию через COM-интерфейс
 
 ```csharp
 public class PresentationFactory : IPresentationFactory
@@ -25,29 +24,29 @@ public class PresentationFactory : IPresentationFactory
 
 | Имя | Описание |
 | --- | --- |
-| static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | Статический экземпляр фабрики презентаций. Только для чтения [`PresentationFactory`](../presentationfactory). |
+| static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | Статический экземпляр фабрики презентаций. Только для чтения [`PresentationFactory`](../presentationfactory). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation)() | Создает новую презентацию. |
-| [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Создает новую презентацию с дополнительными параметрами загрузки |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Создает новый объект PresentationInfo из потока и связывает с ним презентацию. Получает информацию о презентации в указанном потоке. |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Создает новый объект PresentationInfo из файла и связывает с ним презентацию. |
-| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Извлекает сырой текст из слайдов |
-| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Извлекает сырой текст из слайдов |
-| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Извлекает сырой текст из слайдов |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation)(byte[]) | Читает существующую презентацию из массива |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_2)(Stream) | Читает существующую презентацию из потока |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_4)(string) | Читает существующую презентацию из файла |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | Читает существующую презентацию из массива с дополнительными параметрами загрузки |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | Читает существующую презентацию из потока с дополнительными параметрами загрузки |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Читает существующую презентацию из потока с дополнительными параметрами загрузки |
+| [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation)() | Создаёт новую презентацию. |
+| [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Создаёт новую презентацию с дополнительными параметрами загрузки. |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Создаёт объект PresentationInfo из потока и привязывает к нему презентацию. Получает информацию о презентации из указанного потока. |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Создаёт объект PresentationInfo из файла и привязывает к нему презентацию. |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Получает необработанный текст со слайдов. |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Получает необработанный текст со слайдов. |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Получает необработанный текст со слайдов. |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation)(byte[]) | Читает существующую презентацию из массива. |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_2)(Stream) | Читает существующую презентацию из потока. |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_4)(string) | Читает существующую презентацию из файла. |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | Читает существующую презентацию из массива с дополнительными параметрами загрузки. |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | Читает существующую презентацию из потока с дополнительными параметрами загрузки. |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Читает существующую презентацию из потока с дополнительными параметрами загрузки. |
 
 ### Примеры
 
-Следующий пример показывает, как проверить формат презентации.
+В следующем примере показано, как проверить формат презентации.
 
 ```csharp
 [C#]
@@ -59,7 +58,7 @@ IPresentationInfo info3 = PresentationFactory.Instance.GetPresentationInfo("pres
 Console.WriteLine(info3.LoadFormat); // ODP
 ```
 
-Следующий пример показывает, как получить свойства презентации.
+В следующем примере показано, как получить свойства презентации.
 
 ```csharp
 [C#]
@@ -71,20 +70,20 @@ Console.WriteLine(props.Title);
 // ..
 ```
 
-Следующий пример показывает, как обновить свойства презентации.
+В следующем примере показано, как обновить свойства презентации.
 
 ```csharp
 [C#]
 IPresentationInfo info = PresentationFactory.Instance.GetPresentationInfo("pres.pptx");
 IDocumentProperties props = info.ReadDocumentProperties();
-props.Title = "Мой заголовок";
+props.Title = "My title";
 info.UpdateDocumentProperties(props);
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IPresentationFactory](../ipresentationfactory)
-* пространство имен [Aspose.Slides](../../aspose.slides)
-* сборка [Aspose.Slides](../../)
+* интерфейс [IPresentationFactory](../ipresentationfactory)
+* пространство имён [Aspose.Slides](../../aspose.slides)
+* сборка [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

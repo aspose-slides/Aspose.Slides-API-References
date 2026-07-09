@@ -1,14 +1,14 @@
 ---
 title: IFillParamSource
 second_title: Aspose.Sildes の .NET API リファレンス
-description: 補助的な塗りつぶしパラメータ インターフェイスです。
+description: 補助的な塗りつぶしパラメータ インターフェイス。
 type: docs
-weight: 5790
+weight: 5810
 url: /ja/aspose.slides/ifillparamsource/
 ---
 ## IFillParamSource インターフェイス
 
-補助的な塗りつぶしパラメータ インターフェイスです。
+補助的な塗りつぶしパラメータ インターフェイス。
 
 ```csharp
 public interface IFillParamSource

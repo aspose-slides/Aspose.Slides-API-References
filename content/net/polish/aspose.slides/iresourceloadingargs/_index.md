@@ -1,14 +1,14 @@
 ---
 title: IResourceLoadingArgs
-second_title: Aspose.Sildes dla .NET – Referencja API
-description: Interfejs argumentów ładowania zasobów zewnętrznych.
+second_title: Aspose.Sildes dla .NET - Dokumentacja API
+description: Interfejs dla argumentów ładowania zasobów zewnętrznych.
 type: docs
-weight: 6810
+weight: 6830
 url: /pl/aspose.slides/iresourceloadingargs/
 ---
 ## IResourceLoadingArgs interfejs
 
-Interfejs argumentów ładowania zasobów zewnętrznych.
+Interfejs dla argumentów ładowania zasobów zewnętrznych.
 
 ```csharp
 public interface IResourceLoadingArgs
@@ -19,13 +19,13 @@ public interface IResourceLoadingArgs
 | Nazwa | Opis |
 | --- | --- |
 | [OriginalUri](../../aspose.slides/iresourceloadingargs/originaluri) { get; } | Oryginalny URI zasobu określony w zaimportowanej prezentacji. |
-| [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | URI zasobu używany do pobierania, jeśli [`ResourceLoading`](../iresourceloadingcallback/resourceloading) zwraca Default. Początkowo jest ustawiony na oryginalny URI zasobu, ale może zostać ponownie określony na dowolną wartość. |
+| [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | URI zasobu, które jest używane do pobierania, jeśli [`ResourceLoading`](../iresourceloadingcallback/resourceloading) zwraca Default. Początkowo jest ustawione na oryginalny URI zasobu, ale może zostać zmienione na dowolną wartość. |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [SetData](../../aspose.slides/iresourceloadingargs/setdata)(byte[]) | Ustawia dane dostarczone przez użytkownika dla zasobu, które są używane, jeśli [`ResourceLoading`](../iresourceloadingcallback/resourceloading) zwraca UserProvided. |
+| [SetData](../../aspose.slides/iresourceloadingargs/setdata)(byte[]) | Ustawia dane zasobu dostarczone przez użytkownika, które są używane, jeśli [`ResourceLoading`](../iresourceloadingcallback/resourceloading) zwraca UserProvided. |
 
 ### Zobacz także
 

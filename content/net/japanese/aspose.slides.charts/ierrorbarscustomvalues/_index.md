@@ -1,14 +1,14 @@
 ---
 title: IErrorBarsCustomValues
-second_title: Aspose.Sildes の .NET API リファレンス
-description: エラーバーの値を指定します。Error bars value type が Custom の場合にのみ使用する必要があります。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: エラーバーの値を指定します。Error bars の値タイプが Custom の場合にのみ使用されます。
 type: docs
-weight: 2060
+weight: 2080
 url: /ja/aspose.slides.charts/ierrorbarscustomvalues/
 ---
 ## IErrorBarsCustomValues インターフェイス
 
-エラーバーの値を指定します。Error bars value type が Custom の場合にのみ使用する必要があります。
+エラーバーの値を指定します。Error bars の値タイプが Custom の場合にのみ使用されます。
 
 ```csharp
 public interface IErrorBarsCustomValues
@@ -18,10 +18,10 @@ public interface IErrorBarsCustomValues
 
 | 名前 | 説明 |
 | --- | --- |
-| [XMinus](../../aspose.slides.charts/ierrorbarscustomvalues/xminus) { get; } | 負方向のエラーバー値を指定します。Error bars value type が Custom で ErrorBarsXFormat が許可されている場合に利用可能です。その他の場合、このプロパティは null を返します。読み取り専用 [`IDoubleChartValue`](../idoublechartvalue)。 |
-| [XPlus](../../aspose.slides.charts/ierrorbarscustomvalues/xplus) { get; } | 正方向のエラーバー値を指定します。Error bars value type が Custom で ErrorBarsXFormat が許可されている場合に利用可能です。その他の場合、このプロパティは null を返します。読み取り専用 [`IDoubleChartValue`](../idoublechartvalue)。 |
-| [YMinus](../../aspose.slides.charts/ierrorbarscustomvalues/yminus) { get; } | 負方向のエラーバー値を指定します。Error bars value type が Custom で ErrorBarsYFormat が許可されている場合に利用可能です。その他の場合、このプロパティは null を返します。読み取り専用 [`IDoubleChartValue`](../idoublechartvalue)。 |
-| [YPlus](../../aspose.slides.charts/ierrorbarscustomvalues/yplus) { get; } | 正方向のエラーバー値を指定します。Error bars value type が Customで ErrorBarsYFormat が許可されている場合に利用可能です。その他の場合、このプロパティは null を返します。読み取り専用 [`IDoubleChartValue`](../idoublechartvalue)。 |
+| [XMinus](../../aspose.slides.charts/ierrorbarscustomvalues/xminus) { get; } | 負の方向のエラーバーの値を指定します。エラーバーの値タイプが Custom であり、ErrorBarsXFormat が許可されている場合に利用可能です。それ以外の場合、このプロパティは null を返します。読み取り専用 [`IDoubleChartValue`](../idoublechartvalue)。 |
+| [XPlus](../../aspose.slides.charts/ierrorbarscustomvalues/xplus) { get; } | 正の方向のエラーバーの値を指定します。エラーバーの値タイプが Custom であり、ErrorBarsXFormat が許可されている場合に利用可能です。それ以外の場合、このプロパティは null を返します。読み取り専用 [`IDoubleChartValue`](../idoublechartvalue)。 |
+| [YMinus](../../aspose.slides.charts/ierrorbarscustomvalues/yminus) { get; } | 負の方向のエラーバーの値を指定します。エラーバーの値タイプが Custom であり、ErrorBarsYFormat が許可されている場合に利用可能です。それ以外の場合、このプロパティは null を返します。読み取り専用 [`IDoubleChartValue`](../idoublechartvalue)。 |
+| [YPlus](../../aspose.slides.charts/ierrorbarscustomvalues/yplus) { get; } | 正の方向のエラーバーの値を指定します。エラーバーの値タイプが Custom であり、ErrorBarsYFormat が許可されている場合に利用可能です。それ以外の場合、このプロパティは null を返します。読み取り専用 [`IDoubleChartValue`](../idoublechartvalue)。 |
 
 ### 参照
 

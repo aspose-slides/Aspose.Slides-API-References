@@ -1,14 +1,14 @@
 ---
 title: Html5Options
-second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje možnosti exportu do HTML5.
+second_title: Aspose.Sildes pro .NET – referenční dokumentace API
+description: Representuje možnosti exportu HTML5.
 type: docs
-weight: 3840
+weight: 3860
 url: /cs/aspose.slides.export/html5options/
 ---
 ## Html5Options třída
 
-Representuje možnosti exportu do HTML5.
+Reprezentuje možnosti exportu do HTML5.
 
 ```csharp
 public class Html5Options : SaveOptions, IHtml5Options
@@ -24,17 +24,18 @@ public class Html5Options : SaveOptions, IHtml5Options
 
 | Název | Popis |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | Vrací nebo nastavuje možnost animace tvarů. Čtení/Zápis Boolean. |
-| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | Vrací nebo nastavuje možnost animace přechodů. Čtení/Zápis Boolean. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Vrací nebo nastavuje písmo použité v případě, že výchozí písmo není nalezeno. Čtení/Zápis String. |
-| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | Získá nebo nastaví hodnotu určující, zda je text vykreslován bez použití ligatur. Když je nastavena na `true`, budou ligatury ve výstupu zakázány. Ve výchozím nastavení je tato vlastnost nastavena na `false`. |
-| [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | Vrací nebo nastavuje volbu vkládání obrázků. Čtení/Zápis Boolean. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Vrací nebo nastavuje vizuální styl přechodu. Čtení/Zápis [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | Určuje, kde mají být uloženy externí zdroje. Čtení/Zápis String. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Zastupuje zpětnou vazbu pro ukládání průběhových aktualizací v procentech. Viz [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Určuje, zda při ukládání prezentace přeskočit hypertextové odkazy s voláním JavaScriptu. Čtení/Zápis Boolean. Výchozí hodnota je **false**. |
-| [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | Získá nebo nastaví režim, ve kterém jsou snímky umístěny na stránce při exportu prezentace [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Vrací nebo nastavuje objekt, který přijímá varování a rozhoduje, zda proces načítání bude pokračovat nebo bude přerušen. Čtení/Zápis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | Vrací nebo nastavuje možnost animace tvarů. Čtení/zápis Boolean. |
+| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | Vrací nebo nastavuje možnost animace přechodů. Čtení/zápis Boolean. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Vrací nebo nastavuje písmo použité v případě, že není nalezeno výchozí písmo. Čtení/zápis String. |
+| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | Vrací nebo nastavuje hodnotu určující, zda je text vykreslen bez použití ligatur. Když je nastaveno na `true`, ligatury budou ve výstupu zakázány. Ve výchozím nastavení je tato vlastnost nastavena na `false`. |
+| [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | Vrací nebo nastavuje možnost vkládání obrázků. Čtení/zápis Boolean. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Vrací nebo nastavuje vizuální styl gradientu. Čtení/zápis [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | Určuje, kde mají být uloženy externí zdroje. Čtení/zápis String. |
+| [PicturesCompression](../../aspose.slides.export/html5options/picturescompression) { get; set; } | Reprezentuje úroveň komprese obrázků |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Reprezentuje objekt zpětného volání pro ukládání aktualizací postupu v procentech. Viz [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Určuje, zda při ukládání prezentace přeskočit hypertextové odkazy s voláním JavaScriptu. Čtení/zápis Boolean. Výchozí hodnota je **false**. |
+| [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | Vrací nebo nastavuje režim, ve kterém jsou snímky umístěny na stránce při exportu prezentace [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Vrací nebo nastavuje objekt, který přijímá varování a rozhoduje, zda bude proces načítání pokračovat nebo bude přerušen. Čtení/zápis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Příklady
 

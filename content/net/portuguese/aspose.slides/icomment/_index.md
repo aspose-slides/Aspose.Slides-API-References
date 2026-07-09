@@ -1,9 +1,9 @@
 ---
 title: IComment
-second_title: Referência da API Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referência de API
 description: Representa um comentário em um slide.
 type: docs
-weight: 5540
+weight: 5560
 url: /pt/aspose.slides/icomment/
 ---
 ## interface IComment
@@ -22,8 +22,8 @@ public interface IComment
 | [CreatedTime](../../aspose.slides/icomment/createdtime) { get; set; } | Retorna ou define o horário de criação de um comentário. Definir esta propriedade como MinValue significa que nenhum horário de comentário está definido. Leitura/gravação DateTime. |
 | [ParentComment](../../aspose.slides/icomment/parentcomment) { get; set; } | Obtém ou define o comentário pai. Leitura/gravação [`IComment`](../icomment). |
 | [Position](../../aspose.slides/icomment/position) { get; set; } | Retorna ou define a posição de um comentário em um slide. Leitura/gravação PointF. |
-| [Slide](../../aspose.slides/icomment/slide) { get; } | Retorna o slide pai de um comentário. Somente leitura [`ISlide`](../islide). |
-| [Text](../../aspose.slides/icomment/text) { get; set; } | Retorna ou define o texto simples de um comentário em um slide. Leitura/gravação String. |
+| [Slide](../../aspose.slides/icomment/slide) { get; } | Retorna ou define o slide pai de um comentário. Somente leitura [`ISlide`](../islide). |
+| [Text](../../aspose.slides/icomment/text) { get; set; } | Retorna ou define o texto simples de um comentário de slide. Leitura/gravação String. |
 
 ## Métodos
 

@@ -1,14 +1,14 @@
 ---
 title: OrganizationChartLayoutType
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili tipe pemformatan node anak dalam bagan organisasi
+description: Mewakili tipe format node anak dalam bagan organisasi
 type: docs
-weight: 10570
+weight: 10590
 url: /id/aspose.slides.smartart/organizationchartlayouttype/
 ---
-## OrganizationChartLayoutType enumerasi
+## enumerasi OrganizationChartLayoutType
 
-Mewakili tipe pemformatan node anak dalam bagan organisasi
+Mewakili tipe format node anak dalam bagan organisasi
 
 ```csharp
 public enum OrganizationChartLayoutType
@@ -21,8 +21,8 @@ public enum OrganizationChartLayoutType
 | Initial | `0` | Tipe tata letak awal |
 | Standart | `1` | Menempatkan node anak secara horizontal di bawah node induk. |
 | BothHanging | `2` | Menempatkan node anak secara vertikal di bawah node induk pada sisi kiri dan kanan. |
-| LeftHanging | `3` | Menempatkan node anak secara vertikal di bawah node induk di sisi kiri. |
-| RightHanging | `4` | Menempatkan node anak secara vertikal di bawah node induk di sisi kanan. |
+| LeftHanging | `3` | Menempatkan node anak secara vertikal di bawah node induk pada sisi kiri. |
+| RightHanging | `4` | Menempatkan node anak secara vertikal di bawah node induk pada sisi kanan. |
 
 ### Lihat Juga
 

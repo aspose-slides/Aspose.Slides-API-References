@@ -1,14 +1,14 @@
 ---
 title: ICommentCollection
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 1人の作者のコメントのコレクションを表します。
+description: 1 人の作成者のコメントのコレクションを表します。
 type: docs
-weight: 5570
+weight: 5590
 url: /ja/aspose.slides/icommentcollection/
 ---
 ## ICommentCollection インターフェイス
 
-1人の作者のコメントのコレクションを表します。
+1 人の作成者のコメントのコレクションを表します。
 
 ```csharp
 public interface ICommentCollection : IGenericCollection<IComment>
@@ -29,7 +29,7 @@ public interface ICommentCollection : IGenericCollection<IComment>
 | [Clear](../../aspose.slides/icommentcollection/clear)() | コレクションからすべてのコメントを削除します。 |
 | [InsertComment](../../aspose.slides/icommentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | 指定されたインデックスに新しいコメントをコレクションに挿入します。 |
 | [InsertModernComment](../../aspose.slides/icommentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | 指定されたインデックスに新しいモダンコメントをコレクションに挿入します。 |
-| [Remove](../../aspose.slides/icommentcollection/remove)(IComment) | コレクション内で指定されたコメントの最初の出現を削除します。 |
+| [Remove](../../aspose.slides/icommentcollection/remove)(IComment) | コレクション内の指定されたコメントの最初の出現を削除します。 |
 | [RemoveAt](../../aspose.slides/icommentcollection/removeat)(int) | コレクション内の指定されたインデックスの要素を削除します。 |
 | [ToArray](../../aspose.slides/icommentcollection/toarray#toarray)() | すべてのコメントを含む配列を作成して返します。 |
 | [ToArray](../../aspose.slides/icommentcollection/toarray#toarray_1)(int, int) | 指定された範囲のすべてのコメントを含む配列を作成して返します。 |

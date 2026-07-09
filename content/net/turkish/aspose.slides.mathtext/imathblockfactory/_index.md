@@ -3,7 +3,7 @@ title: IMathBlockFactory
 second_title: Aspose.Sildes .NET API Referansı
 description: Matematik bloğu oluşturmayı sağlar
 type: docs
-weight: 8140
+weight: 8160
 url: /tr/aspose.slides.mathtext/imathblockfactory/
 ---
 ## IMathBlockFactory arayüz
@@ -16,11 +16,11 @@ public interface IMathBlockFactory
 
 ## Yöntemler
 
-| İsim | Açıklama |
+| Ad | Açıklama |
 | --- | --- |
-| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock)() | Bir matematik bloğu oluşturur |
-| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_1)(IMathElement) | Bir matematik bloğu oluşturur ve öğeyi içine yerleştirir |
-| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_2)(IMathElementCollection) | Bir matematik bloğu oluşturur ve öğeleri içine yerleştirir |
+| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock)() | Matematik bloğu oluştur |
+| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_1)(IMathElement) | Matematik bloğu oluştur ve öğeyi içinde yerleştir |
+| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_2)(IMathElementCollection) | Matematik bloğu oluştur ve öğeleri içinde yerleştir |
 
 ### Açıklamalar
 

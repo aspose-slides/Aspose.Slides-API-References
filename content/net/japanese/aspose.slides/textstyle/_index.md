@@ -3,7 +3,7 @@ title: TextStyle
 second_title: Aspose.Sildes for .NET API リファレンス
 description: このクラスはテキストスタイルの書式設定プロパティを含みます。
 type: docs
-weight: 10980
+weight: 11000
 url: /ja/aspose.slides/textstyle/
 ---
 ## TextStyle クラス
@@ -18,17 +18,17 @@ public sealed class TextStyle : PVIObject, ITextStyle
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [DefaultParagraphFormat](../../aspose.slides/textstyle/defaultparagraphformat) { get; } | デフォルトの段落プロパティです。読み取り専用 [`IParagraphFormat`](../iparagraphformat)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースのIPresentationComponentインターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../ipresentationcomponent). |
+| [DefaultParagraphFormat](../../aspose.slides/textstyle/defaultparagraphformat) { get; } | デフォルトの段落プロパティ。読み取り専用 [`IParagraphFormat`](../iparagraphformat). |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 指定されたオブジェクトと比較します。 |
-| [GetEffective](../../aspose.slides/textstyle/geteffective)() | 継承が適用された有効なテキストスタイル書式設定データを取得します。 |
+| [GetEffective](../../aspose.slides/textstyle/geteffective)() | 継承が適用された有効なテキストスタイルの書式設定データを取得します。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | ハッシュコードを返します。 |
-| [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | スタイルのレベルが存在すればそれを返し、存在しなければ null を返します。 |
+| [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | スタイルのレベルが存在すればそれを返し、存在しない場合はnullを返します。 |
 
 ### 参照
 

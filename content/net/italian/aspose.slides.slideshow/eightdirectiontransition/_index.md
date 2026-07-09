@@ -1,14 +1,14 @@
 ---
 title: EightDirectionTransition
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Effetto di transizione della diapositiva a otto direzioni.
 type: docs
-weight: 10000
+weight: 10020
 url: /it/aspose.slides.slideshow/eightdirectiontransition/
 ---
 ## EightDirectionTransition classe
 
-Effetto di transizione della diapositiva a otto direzioni.
+Effetto di transizione della diapositiva in otto direzioni.
 
 ```csharp
 public class EightDirectionTransition : TransitionValueBase, IEightDirectionTransition
@@ -25,7 +25,7 @@ public class EightDirectionTransition : TransitionValueBase, IEightDirectionTran
 | Nome | Descrizione |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina se le due istanze di TransitionValueBase sono uguali. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Serve come funzione hash per un tipo specifico, adatta all'uso in algoritmi di hashing e strutture dati come una tabella hash. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funge da funzione hash per un tipo particolare, adatta all'uso in algoritmi di hashing e strutture dati come una tabella hash. |
 
 ### Vedi anche
 

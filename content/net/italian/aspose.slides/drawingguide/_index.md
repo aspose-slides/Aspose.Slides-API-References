@@ -3,7 +3,7 @@ title: DrawingGuide
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta una guida di disegno regolabile.
 type: docs
-weight: 2790
+weight: 2810
 url: /it/aspose.slides/drawingguide/
 ---
 ## DrawingGuide classe
@@ -18,9 +18,9 @@ public sealed class DrawingGuide : IDrawingGuide
 
 | Nome | Descrizione |
 | --- | --- |
-| [Color](../../aspose.slides/drawingguide/color) { get; set; } | Restituisce o imposta il colore della guida di disegno. Lettura/scrittura Color. |
-| [Orientation](../../aspose.slides/drawingguide/orientation) { get; set; } | Restituisce o imposta l'orientamento della guida di disegno. Lettura/scrittura [`Orientation`](../orientation). |
-| [Position](../../aspose.slides/drawingguide/position) { get; set; } | Restituisce o imposta la posizione della guida di disegno in punti rispetto all'angolo superiore sinistro della diapositiva. Lettura/scrittura Single. |
+| [Color](../../aspose.slides/drawingguide/color) { get; set; } | Restituisce o imposta il colore della guida di disegno. Lettura/Scrittura Color. |
+| [Orientation](../../aspose.slides/drawingguide/orientation) { get; set; } | Restituisce o imposta l'orientamento della guida di disegno. Lettura/Scrittura [`Orientation`](../orientation). |
+| [Position](../../aspose.slides/drawingguide/position) { get; set; } | Restituisce o imposta la posizione della guida di disegno in punti dal punto in alto a sinistra della diapositiva. Lettura/Scrittura Single. |
 
 ### Vedi anche
 

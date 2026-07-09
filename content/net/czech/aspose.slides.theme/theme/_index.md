@@ -1,14 +1,14 @@
 ---
 title: Theme
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET API referenci
 description: Reprezentuje téma.
 type: docs
-weight: 11460
+weight: 11480
 url: /cs/aspose.slides.theme/theme/
 ---
 ## Třída Theme
 
-Reprezentuje motiv.
+Reprezentuje téma.
 
 ```csharp
 public abstract class Theme : ITheme
@@ -18,10 +18,10 @@ public abstract class Theme : ITheme
 
 | Název | Popis |
 | --- | --- |
-| abstract [ColorScheme](../../aspose.slides.theme/theme/colorscheme) { get; } | Vrací schéma barev. Pouze pro čtení [`IColorScheme`](../icolorscheme). |
-| abstract [FontScheme](../../aspose.slides.theme/theme/fontscheme) { get; } | Vrací schéma fontů. Pouze pro čtení [`IFontScheme`](../ifontscheme). |
-| abstract [FormatScheme](../../aspose.slides.theme/theme/formatscheme) { get; } | Vrací schéma formátování tvarů. Pouze pro čtení [`IFormatScheme`](../iformatscheme). |
-| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Vrací nadřazenou prezentaci. Pouze pro čtení [`IPresentation`](../../aspose.slides/ipresentation). |
+| abstract [ColorScheme](../../aspose.slides.theme/theme/colorscheme) { get; } | Vrací schéma barev. Pouze ke čtení [`IColorScheme`](../icolorscheme). |
+| abstract [FontScheme](../../aspose.slides.theme/theme/fontscheme) { get; } | Vrací schéma písem. Pouze ke čtení [`IFontScheme`](../ifontscheme). |
+| abstract [FormatScheme](../../aspose.slides.theme/theme/formatscheme) { get; } | Vrací schéma formátů tvarů. Pouze ke čtení [`IFormatScheme`](../iformatscheme). |
+| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Vrací nadřazenou prezentaci. Pouze ke čtení [`IPresentation`](../../aspose.slides/ipresentation). |
 
 ## Metody
 

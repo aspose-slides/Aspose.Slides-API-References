@@ -3,10 +3,10 @@ title: CameraPresetType
 second_title: Aspose.Sildes için .NET API Referansı
 description: Kamera ön ayar tipini tanımlayan sabitler.
 type: docs
-weight: 1080
+weight: 1100
 url: /tr/aspose.slides/camerapresettype/
 ---
-## CameraPresetType enum
+## CameraPresetType sayımı
 
 Kamera ön ayar tipini tanımlayan sabitler.
 
@@ -82,7 +82,7 @@ public enum CameraPresetType
 | PerspectiveRelaxedModerately | `60` |  |
 | PerspectiveRight | `61` |  |
 
-### Ayrıca Bakınız
+### İlgili
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

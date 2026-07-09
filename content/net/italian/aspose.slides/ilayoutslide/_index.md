@@ -3,7 +3,7 @@ title: ILayoutSlide
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta una diapositiva di layout.
 type: docs
-weight: 6200
+weight: 6220
 url: /it/aspose.slides/ilayoutslide/
 ---
 ## Interfaccia ILayoutSlide
@@ -18,14 +18,14 @@ public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/ilayoutslide/asibaseslide) { get; } | Consente di ottenere l'interfaccia base IBaseSlide. Solo lettura [`IBaseSlide`](../ibaseslide). |
-| [AsIOverrideThemeable](../../aspose.slides/ilayoutslide/asioverridethemeable) { get; } | Restituisce l'interfaccia IOverrideThemeable. Solo lettura [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [DrawingGuides](../../aspose.slides/ilayoutslide/drawingguides) { get; } | Restituisce una collezione di guide di disegno per la diapositiva di layout. Solo lettura [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | Restituisce vero se esiste almeno una diapositiva che dipende da questa diapositiva di layout. Solo lettura Boolean. |
-| [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | Restituisce il gestore HeaderFooter della diapositiva di layout. Solo lettura [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |
-| [LayoutType](../../aspose.slides/ilayoutslide/layouttype) { get; } | Restituisce il tipo di layout di questa diapositiva di layout. Solo lettura [`SlideLayoutType`](../slidelayouttype). |
+| [AsIBaseSlide](../../aspose.slides/ilayoutslide/asibaseslide) { get; } | Consente di ottenere l'interfaccia base IBaseSlide. Sola lettura [`IBaseSlide`](../ibaseslide). |
+| [AsIOverrideThemeable](../../aspose.slides/ilayoutslide/asioverridethemeable) { get; } | Restituisce l'interfaccia IOverrideThemeable. Sola lettura [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
+| [DrawingGuides](../../aspose.slides/ilayoutslide/drawingguides) { get; } | Restituisce una raccolta di guide di disegno per la diapositiva di layout. Sola lettura [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | Restituisce true se esiste almeno una diapositiva che dipende da questa diapositiva di layout. Sola lettura Boolean. |
+| [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | Restituisce il gestore HeaderFooter della diapositiva di layout. Sola lettura [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |
+| [LayoutType](../../aspose.slides/ilayoutslide/layouttype) { get; } | Restituisce il tipo di layout di questa diapositiva di layout. Sola lettura [`SlideLayoutType`](../slidelayouttype). |
 | [MasterSlide](../../aspose.slides/ilayoutslide/masterslide) { get; set; } | Restituisce o imposta la diapositiva master per un layout. Lettura/scrittura [`IMasterSlide`](../imasterslide). |
-| [PlaceholderManager](../../aspose.slides/ilayoutslide/placeholdermanager) { get; } | Restituisce il gestore dei segnaposti della diapositiva di layout. Solo lettura [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager). |
+| [PlaceholderManager](../../aspose.slides/ilayoutslide/placeholdermanager) { get; } | Restituisce il gestore dei segnaposto della diapositiva di layout. Sola lettura [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager). |
 
 ## Metodi
 

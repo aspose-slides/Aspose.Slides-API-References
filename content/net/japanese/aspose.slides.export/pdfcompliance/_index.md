@@ -3,12 +3,12 @@ title: PdfCompliance
 second_title: Aspose.Sildes for .NET API リファレンス
 description: PDF 標準の準拠レベルを定義する定数です。
 type: docs
-weight: 4300
+weight: 4320
 url: /ja/aspose.slides.export/pdfcompliance/
 ---
 ## PdfCompliance 列挙体
 
-PDF 標準準拠レベルを定義する定数です。
+PDF 標準の準拠レベルを定義する定数です。
 
 ```csharp
 public enum PdfCompliance

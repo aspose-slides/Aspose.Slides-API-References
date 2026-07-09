@@ -1,15 +1,14 @@
 ---
 title: ILineFormatEffectiveData
-second_title: Aspose.Sildes pour la référence API .NET
-description: Objet immutable qui contient les propriétés de formatage de ligne effectives.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Objet immuable qui contient les propriétés effectives de formatage de ligne.
 type: docs
-weight: 6120
+weight: 6320
 url: /fr/aspose.slides/ilineformateffectivedata/
 ---
+## ILineFormatEffectiveData interface
 
-## Interface ILineFormatEffectiveData
-
-Objet immutable qui contient les propriétés de formatage de ligne effectives.
+Objet immuable qui contient les propriétés effectives de formatage de ligne.
 
 ```csharp
 public interface ILineFormatEffectiveData : ILineParamSource
@@ -17,40 +16,40 @@ public interface ILineFormatEffectiveData : ILineParamSource
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
-| [Alignment](../../aspose.slides/ilineformateffectivedata/alignment) { get; } | Renvoie l'alignement de la ligne. Lecture seule [`LineAlignment`](../linealignment). |
-| [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | Permet d'obtenir l'interface de base ILineParamSource. Lecture seule [`ILineParamSource`](../ilineparamsource). |
-| [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | Renvoie la longueur de la pointe de flèche au début d'une ligne. Lecture seule [`LineArrowheadLength`](../linearrowheadlength). |
-| [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | Renvoie le style de la pointe de flèche au début d'une ligne. Lecture seule [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | Renvoie la largeur de la pointe de flèche au début d'une ligne. Lecture seule [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | Renvoie le style de cap de ligne. Lecture seule [`LineCapStyle`](../linecapstyle). |
-| [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | Renvoie le motif de tiret personnalisé. Lecture seule Single[]. |
-| [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | Renvoie le style de tiret de la ligne. Lecture seule [`LineDashStyle`](../linedashstyle). |
-| [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | Renvoie la longueur de la pointe de flèche à la fin d'une ligne. Lecture seule [`LineArrowheadLength`](../linearrowheadlength). |
-| [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | Renvoie le style de la pointe de flèche à la fin d'une ligne. Lecture seule [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | Renvoie la largeur de la pointe de flèche à la fin d'une ligne. Lecture seule [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | Renvoie le format de remplissage d'une ligne. Lecture seule [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata). |
-| [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | Renvoie le style de jointure des lignes. Lecture seule [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | Renvoie la limite de miter d'une ligne. Lecture seule Single. |
-| [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | Renvoie le format de croquis d'une ligne. Lecture seule [`ISketchFormatEffectiveData`](../isketchformateffectivedata). |
-| [Style](../../aspose.slides/ilineformateffectivedata/style) { get; } | Renvoie le style de ligne. Lecture seule [`LineStyle`](../linestyle). |
-| [Width](../../aspose.slides/ilineformateffectivedata/width) { get; } | Renvoie la largeur d'une ligne. Lecture seule Double. |
+| [Alignment](../../aspose.slides/ilineformateffectivedata/alignment) { get; } | Renvoie l'alignement de la ligne. Lecture seule [`LineAlignment`](../linealignment). |
+| [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | Permet d'obtenir l'interface ILineParamSource de base. Lecture seule [`ILineParamSource`](../ilineparamsource). |
+| [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | Renvoie la longueur de la pointe de flèche au début d'une ligne. Lecture seule [`LineArrowheadLength`](../linearrowheadlength). |
+| [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | Renvoie le style de la pointe de flèche au début d'une ligne. Lecture seule [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | Renvoie la largeur de la pointe de flèche au début d'une ligne. Lecture seule [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | Renvoie le style de terminaison de ligne. Lecture seule [`LineCapStyle`](../linecapstyle). |
+| [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | Renvoie le motif de tiret personnalisé. Lecture seule Single[]. |
+| [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | Renvoie le style de tiret de ligne. Lecture seule [`LineDashStyle`](../linedashstyle). |
+| [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | Renvoie la longueur de la pointe de flèche à la fin d'une ligne. Lecture seule [`LineArrowheadLength`](../linearrowheadlength). |
+| [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | Renvoie le style de la pointe de flèche à la fin d'une ligne. Lecture seule [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | Renvoie la largeur de la pointe de flèche à la fin d'une ligne. Lecture seule [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | Renvoie le format de remplissage d'une ligne. Lecture seule [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata). |
+| [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | Renvoie le style de jointure des lignes. Lecture seule [`LineJoinStyle`](../linejoinstyle). |
+| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | Renvoie la limite d'onglet d'une ligne. Lecture seule Single. |
+| [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | Renvoie le format de croquis d'une ligne. Lecture seule [`ISketchFormatEffectiveData`](../isketchformateffectivedata). |
+| [Style](../../aspose.slides/ilineformateffectivedata/style) { get; } | Renvoie le style de ligne. Lecture seule [`LineStyle`](../linestyle). |
+| [Width](../../aspose.slides/ilineformateffectivedata/width) { get; } | Renvoie la largeur d'une ligne. Lecture seule Double. |
 
 ## Méthodes
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
-| [Equals](../../aspose.slides/ilineformateffectivedata/equals)(ILineFormatEffectiveData) | Détermine si les deux instances de ILineFormatEffectiveData sont égales. |
+| [Equals](../../aspose.slides/ilineformateffectivedata/equals)(ILineFormatEffectiveData) | Détermine si les deux instances ILineFormatEffectiveData sont égales. |
 
 ### Remarques
 
-Cette interface est utilisée avec l'interface [`ILineFormat`](../ilineformat) pour renvoyer des valeurs de formatage effectives avec héritage appliqué.
+Cette interface est utilisée conjointement avec l'interface [`ILineFormat`](../ilineformat) pour renvoyer des valeurs de formatage effectives avec l'héritage appliqué.
 
 ### Voir aussi
 
-* interface [ILineParamSource](../ilineparamsource)
-* espace de noms [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* interface [ILineParamSource](../ilineparamsource)
+* espace de noms [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

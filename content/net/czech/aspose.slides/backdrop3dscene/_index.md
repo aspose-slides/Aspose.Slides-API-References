@@ -1,14 +1,14 @@
 ---
 title: Backdrop3DScene
 second_title: Aspose.Sildes pro .NET API Reference
-description: Definuje rovinu, ve které jsou efekty jako záře a stín aplikovány v souvislosti s tvarem, na který jsou aplikovány.
+description: Definuje rovinu, ve které jsou efekty, jako záře a stín, aplikovány vzhledem k tvaru, na který jsou aplikovány.
 type: docs
-weight: 900
+weight: 920
 url: /cs/aspose.slides/backdrop3dscene/
 ---
 ## Backdrop3DScene třída
 
-Definuje rovinu, ve které jsou efekty, jako je záře a stín, aplikovány v souvislosti s tvarem, na který jsou aplikovány.
+Definuje rovinu, ve které jsou efekty, jako záře a stín, aplikovány vzhledem k tvaru, na který jsou aplikovány.
 
 ```csharp
 public sealed class Backdrop3DScene : PVIObject, IBackdrop3DScene
@@ -16,16 +16,16 @@ public sealed class Backdrop3DScene : PVIObject, IBackdrop3DScene
 
 ## Vlastnosti
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
-| [AnchorPoint](../../aspose.slides/backdrop3dscene/anchorpoint) { get; set; } | Vrací nebo nastavuje bod ve 3D prostoru. Tento bod je bodem v prostoru, který ukotvuje rovinu pozadí. 3D bod je reprezentován polem 3 hodnot typu float, které určují souřadnice X, Y a Z. Číst/zapisovat Single[]. |
+| [AnchorPoint](../../aspose.slides/backdrop3dscene/anchorpoint) { get; set; } | Vrací nebo nastavuje bod ve 3D prostoru. Tento bod je bodem ve vesmíru, který ukotvuje rovinu pozadí. 3D bod reprezentovaný polem 3 hodnot typu float, které definují souřadnice X, Y a Z. Čtení/Zápis Single[]. |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze pro čtení [`IPresentationComponent`](../ipresentationcomponent). |
-| [NormalVector](../../aspose.slides/backdrop3dscene/normalvector) { get; set; } | Vrací nebo nastavuje normálový vektor. Přesněji řečeno, tento atribut definuje vektor kolmý na plochu roviny pozadí. Vektor je reprezentován polem 3 hodnot typu float, které určují souřadnice X, Y a Z. Číst/zapisovat Single[]. |
-| [UpVector](../../aspose.slides/backdrop3dscene/upvector) { get; set; } | Vrací nebo nastavuje vektor představující směr nahoru. Přesněji řečeno, tento atribut definuje vektor představující směr nahoru vzhledem k ploše roviny pozadí. Vektor je reprezentován polem 3 hodnot typu float, které určují souřadnice X, Y a Z. Číst/zapisovat Single[]. |
+| [NormalVector](../../aspose.slides/backdrop3dscene/normalvector) { get; set; } | Vrací nebo nastavuje normálový vektor. Přesněji řečeno, tento atribut definuje vektor kolmý k ploše pozadí. Vektor reprezentovaný polem 3 hodnot typu float, které definují souřadnice X, Y a Z. Čtení/Zápis Single[]. |
+| [UpVector](../../aspose.slides/backdrop3dscene/upvector) { get; set; } | Vrací nebo nastavuje vektor představující směrem nahoru. Přesněji řečeno, tento atribut definuje vektor představující směr nahoru vzhledem k ploše pozadí. Vektor reprezentovaný polem 3 hodnot typu float, které definují souřadnice X, Y a Z. Čtení/Zápis Single[]. |
 
 ## Metody
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Porovnává se se zadaným objektem. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Vrací hash kód. |

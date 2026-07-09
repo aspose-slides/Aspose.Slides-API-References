@@ -1,14 +1,14 @@
 ---
 title: StringChartValue
-second_title: Aspose.Sildes .NET API referencia
-description: Karakterlánc értéket képvisel, amely a pptx prezentációs dokumentumban két módon tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban, 2) literális értékként.
+second_title: Aspose.Sildes .NET API Referenciája
+description: Karakterlánc értéket reprezentál, amely a pptx prezentációs dokumentumban két módon tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban/celláiban, 2) literális értékként.
 type: docs
-weight: 2390
+weight: 2410
 url: /hu/aspose.slides.charts/stringchartvalue/
 ---
 ## StringChartValue osztály
 
-Karakterlánc értéket képvisel, amely a pptx prezentációs dokumentumban két módon tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban; 2) literális értékként.
+A karakterlánc értéket reprezentálja, amely a pptx prezentációs dokumentumban két módon tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban/celláiban; 2) literális értékként.
 
 ```csharp
 public class StringChartValue : BaseChartValue, IStringChartValue
@@ -21,15 +21,15 @@ public class StringChartValue : BaseChartValue, IStringChartValue
 | [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | Null érték hozzárendelése nem megengedett. A visszaadott érték mindig nem null. Olvasás/írás [`IChartCellCollection`](../ichartcellcollection). |
 | [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | Visszaadja vagy beállítja az értéket literális karakterláncként. Olvasás/írás String. |
 | override [Data](../../aspose.slides.charts/stringchartvalue/data) { get; set; } | Visszaadja vagy beállítja a Data objektumot. Olvasás/írás Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Megadja, hogy az AsCell, AsCells, AsLiteralString vagy AsLiteralDouble tulajdonság valóban létezik-e az örököknél. Más szóval meghatározza a Data tulajdonság értékének típusát. Olvasás/írás [`DataSourceType`](../datasourcetype). |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Megadja, hogy az AsCell, AsCells, AsLiteralString vagy AsLiteralDouble tulajdonság aktuális-e az leszármazottakban. Más szóval meghatározza a Data tulajdonság értékének típusát. Olvasás/írás [`DataSourceType`](../datasourcetype). |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | Ha a DataSourceType tulajdonság értéke DataSourceType.Worksheet, akkor ez a metódus visszaadja a munkafüzetben található cellák címét, amelyek a karakterlánc adatot képviselik. Egyébként üres karakterláncot ad vissza. |
+| [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | Ha a DataSourceType tulajdonság értéke DataSourceType.Worksheet, akkor ez a metódus visszaadja a munkafüzet celláinak címét, amelyek a karakterlánc adatot képviselik. Ellenkező esetben üres karakterláncot ad vissza. |
 | [SetFromOneCell](../../aspose.slides.charts/stringchartvalue/setfromonecell)(IChartDataCell) | Beállítja az értéket a megadott cellából. |
-| override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | Visszaadja a karakterlánc érték adatot. Null értéket ad vissza, ha a DataSourceType hamis, és nincs hozzárendelt karakterlánc érték. |
+| override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | Visszaadja a karakterlánc érték adatot. Null értéket ad vissza, ha a DataSourceType hamis, és nincs karakterlánc érték hozzárendelve. |
 
 ### Lásd még
 

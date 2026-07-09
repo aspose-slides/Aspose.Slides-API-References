@@ -1,14 +1,14 @@
 ---
 title: Flavor
-second_title: Aspose.Sildes para .NET Referência da API
-description: Todas as especificações de markdown usadas no programa.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Todas as especificações markdown usadas no programa.
 type: docs
-weight: 3780
+weight: 3800
 url: /pt/aspose.slides.export/flavor/
 ---
-## Flavor enumeração
+## Enumeração Flavor
 
-Todas as especificações de markdown usadas no programa.
+Todas as especificações markdown usadas no programa.
 
 ```csharp
 public enum Flavor
@@ -18,30 +18,30 @@ public enum Flavor
 
 | Nome | Valor | Descrição |
 | --- | --- | --- |
-| Github | `0` | Github sabor. |
-| Gruber | `1` | Gruber sabor. |
-| MultiMarkdown | `2` | Multi markdown sabor. |
-| CommonMark | `3` | CommonMark sabor. |
-| MarkdownExtra | `4` | Markdown extra sabor. |
-| Pandoc | `5` | Pandoc sabor. |
-| Kramdown | `6` | Kramdown sabor. |
-| Markua | `7` | Markua sabor. |
-| Maruku | `8` | Maruku sabor. |
-| Markdown2 | `9` | Markdown2 sabor. |
-| Remarkable | `10` | Remarkable sabor |
-| Showdown | `11` | Showdown sabor. |
-| Ghost | `12` | Ghost sabor. |
-| GitLab | `13` | GitLab sabor. |
-| Haroopad | `14` | Haroopad sabor. |
-| IaWriter | `15` | IAWriter sabor. |
-| Redcarpet | `16` | Redcarpet sabor. |
-| ScholarlyMarkdown | `17` | Scholarly markdown sabor. |
-| Taiga | `18` | Taiga sabor. |
-| Trello | `19` | Trello sabor. |
-| S9ETextFormatter | `20` | S9E text formatter sabor. |
-| XWiki | `21` | XWiki sabor. |
-| StackOverflow | `22` | Stack overflow sabor. |
-| Default | `23` | Default markdown sabor. |
+| Github | `0` | Estilo Github. |
+| Gruber | `1` | Estilo Gruber. |
+| MultiMarkdown | `2` | Estilo Multi markdown. |
+| CommonMark | `3` | Estilo Common mark. |
+| MarkdownExtra | `4` | Estilo Markdown extra. |
+| Pandoc | `5` | Estilo Pandoc. |
+| Kramdown | `6` | Estilo Kramdown. |
+| Markua | `7` | Estilo Markua. |
+| Maruku | `8` | Estilo Maruku. |
+| Markdown2 | `9` | Estilo Markdown2. |
+| Remarkable | `10` | Estilo Remarkable |
+| Showdown | `11` | Estilo Showdown. |
+| Ghost | `12` | Estilo Ghost. |
+| GitLab | `13` | Estilo Gitlab. |
+| Haroopad | `14` | Estilo Haroopad. |
+| IaWriter | `15` | Estilo IAWriter. |
+| Redcarpet | `16` | Estilo Redcarpet. |
+| ScholarlyMarkdown | `17` | Estilo Scholarly markdown. |
+| Taiga | `18` | Estilo Taiga. |
+| Trello | `19` | Estilo Trello. |
+| S9ETextFormatter | `20` | Estilo S9E text formatter. |
+| XWiki | `21` | Estilo XWiki. |
+| StackOverflow | `22` | Estilo Stack overflow. |
+| Default | `23` | Estilo Default. |
 
 ### Exemplos
 

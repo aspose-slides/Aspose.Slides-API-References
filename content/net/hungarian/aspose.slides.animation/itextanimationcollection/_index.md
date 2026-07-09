@@ -3,12 +3,12 @@ title: ITextAnimationCollection
 second_title: Aspose.Sildes .NET API referencia
 description: A szöveges animációk gyűjteményét képviseli.
 type: docs
-weight: 610
+weight: 630
 url: /hu/aspose.slides.animation/itextanimationcollection/
 ---
 ## ITextAnimationCollection interfész
 
-Képviseli a szöveges animációk gyűjteményét.
+A szöveges animációk gyűjteményét képviseli.
 
 ```csharp
 public interface ITextAnimationCollection : IGenericCollection<ITextAnimation>
@@ -18,7 +18,7 @@ public interface ITextAnimationCollection : IGenericCollection<ITextAnimation>
 
 | Név | Leírás |
 | --- | --- |
-| [Item](../../aspose.slides.animation/itextanimationcollection/item) { get; } | Visszaadja az elemet index szerint. (2 indexelő) |
+| [Item](../../aspose.slides.animation/itextanimationcollection/item) { get; } | Visszaad egy elemet az index alapján. (2 indexer) |
 
 ### Lásd még
 

@@ -1,14 +1,14 @@
 ---
 title: IChartDataWorksheet
-second_title: Aspose.Sildes a .NET API hivatkozáshoz
-description: A munkalapot képviseli, amely a IChartDataCell-hez kapcsolódik./ichartdatacell
+second_title: Aspose.Sildes .NET API referencia
+description: IChartDataCell-hez kapcsolódó munkalapot képviseli./ichartdatacell
 type: docs
-weight: 1850
+weight: 1870
 url: /hu/aspose.slides.charts/ichartdataworksheet/
 ---
 ## IChartDataWorksheet interfész
 
-A munkalap, amely kapcsolódik a [`IChartDataCell`](../ichartdatacell)
+Képviseli a [`IChartDataCell`](../ichartdatacell)-hez kapcsolódó munkalapot
 
 ```csharp
 public interface IChartDataWorksheet

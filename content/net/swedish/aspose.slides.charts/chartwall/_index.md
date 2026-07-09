@@ -1,14 +1,14 @@
 ---
 title: ChartWall
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar väggar i 3d-diagram.
+description: Representerar väggar i 3D-diagram.
 type: docs
-weight: 1500
+weight: 1520
 url: /sv/aspose.slides.charts/chartwall/
 ---
 ## ChartWall klass
 
-Representerar väggar i 3d-diagram.
+Representerar väggar i 3D-diagram.
 
 ```csharp
 public class ChartWall : DomObject<Chart>, IChartWall
@@ -18,9 +18,9 @@ public class ChartWall : DomObject<Chart>, IChartWall
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Format](../../aspose.slides.charts/chartwall/format) { get; } | Returnerar väggens fyllning, linje, effekt, 3d-stilar. Skrivskyddad [`IFormat`](../iformat). |
+| [Format](../../aspose.slides.charts/chartwall/format) { get; } | Returnerar väggfyllning, linje, effekt, 3D-stilar. Skrivskyddad [`IFormat`](../iformat). |
 | [PictureType](../../aspose.slides.charts/chartwall/picturetype) { get; set; } | Returnerar eller anger bildtypen. Läs/skriv [`PictureType`](../picturetype). |
-| [Thickness](../../aspose.slides.charts/chartwall/thickness) { get; set; } | Returnerar eller anger väggtjockleken som en procentsats av den största dimensionen av diagramvolymen. Läs/skriv Int32. |
+| [Thickness](../../aspose.slides.charts/chartwall/thickness) { get; set; } | Returnerar eller anger väggtjockleken som en procentandel av den största dimensionen av diagramvolymen. Läs/skriv Int32. |
 
 ### Se även
 

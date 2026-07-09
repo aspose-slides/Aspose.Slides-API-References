@@ -1,14 +1,14 @@
 ---
 title: IPictureFrame
-second_title: Aspose.Sildes pro .NET – referenční dokumentace API
-description: Představuje rámeček s obrázkem uvnitř.
+second_title: Aspose.Sildes pro .NET – referenční příručka API
+description: Representuje rám s obrázkem uvnitř.
 type: docs
-weight: 6650
+weight: 6670
 url: /cs/aspose.slides/ipictureframe/
 ---
 ## IPictureFrame rozhraní
 
-Představuje rám s obrázkem uvnitř.
+Reprezentuje rám s obrázkem uvnitř.
 
 ```csharp
 public interface IPictureFrame : IGeometryShape
@@ -19,10 +19,10 @@ public interface IPictureFrame : IGeometryShape
 | Název | Popis |
 | --- | --- |
 | [AsIGeometryShape](../../aspose.slides/ipictureframe/asigeometryshape) { get; } | Umožňuje získat základní rozhraní IGeometryShape. Pouze pro čtení [`IGeometryShape`](../igeometryshape). |
-| [PictureFormat](../../aspose.slides/ipictureframe/pictureformat) { get; } | Vrací objekt PictureFillFormat pro rám s obrázkem. Pouze pro čtení [`IPictureFillFormat`](../ipicturefillformat). |
+| [PictureFormat](../../aspose.slides/ipictureframe/pictureformat) { get; } | Vrací objekt PictureFillFormat pro rámeček obrázku. Pouze pro čtení [`IPictureFillFormat`](../ipicturefillformat). |
 | [PictureFrameLock](../../aspose.slides/ipictureframe/pictureframelock) { get; } | Vrací zámky PictureFrame. Pouze pro čtení [`IPictureFrameLock`](../ipictureframelock). |
-| [RelativeScaleHeight](../../aspose.slides/ipictureframe/relativescaleheight) { get; set; } | Vrací nebo nastavuje měřítko výšky (relativně k původní velikosti obrázku) rámu s obrázkem. Hodnota 1.0 odpovídá 100%. Čtení/zápis Single. |
-| [RelativeScaleWidth](../../aspose.slides/ipictureframe/relativescalewidth) { get; set; } | Vrací nebo nastavuje měřítko šířky (relativně k původní velikosti obrázku) rámu s obrázkem. Hodnota 1.0 odpovídá 100%. Čtení/zápis Single. |
+| [RelativeScaleHeight](../../aspose.slides/ipictureframe/relativescaleheight) { get; set; } | Vrací nebo nastavuje měřítko výšky (relativně k původní velikosti obrázku) rámečku obrázku. Hodnota 1,0 odpovídá 100 %. Čtení/zápis Single. |
+| [RelativeScaleWidth](../../aspose.slides/ipictureframe/relativescalewidth) { get; set; } | Vrací nebo nastavuje měřítko šířky (relativně k původní velikosti obrázku) rámečku obrázku. Hodnota 1,0 odpovídá 100 %. Čtení/zápis Single. |
 | [ShapeLock](../../aspose.slides/ipictureframe/shapelock) { get; } | Vrací zámky tvaru. Pouze pro čtení [`IPictureFrameLock`](../ipictureframelock). |
 
 ### Viz také

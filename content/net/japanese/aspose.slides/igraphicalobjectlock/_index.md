@@ -1,14 +1,14 @@
 ---
 title: IGraphicalObjectLock
-second_title: Aspose.Sildes for .NET API リファレンス
-description: 親の GraphicalObjectEx で無効化されている操作を決定します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: 親の GraphicalObjectEx で無効になっている操作を決定します。
 type: docs
-weight: 6050
+weight: 6070
 url: /ja/aspose.slides/igraphicalobjectlock/
 ---
 ## IGraphicalObjectLock インターフェイス
 
-親の GraphicalObjectEx で無効化されている操作を決定します。
+親の GraphicalObjectEx で無効になっている操作を決定します。
 
 ```csharp
 public interface IGraphicalObjectLock : IBaseShapeLock
@@ -18,15 +18,15 @@ public interface IGraphicalObjectLock : IBaseShapeLock
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIBaseShapeLock](../../aspose.slides/igraphicalobjectlock/asibaseshapelock) { get; } | ベースの IBaseShapeLock インターフェイスを取得できます。読み取り専用 [`IBaseShapeLock`](../ibaseshapelock)。 |
-| [AspectRatioLocked](../../aspose.slides/igraphicalobjectlock/aspectratiolocked) { get; set; } | リサイズ時にシェイプがアスペクト比を保持するかどうかを決定します。読み取り/書き込み Boolean。 |
-| [DrilldownLocked](../../aspose.slides/igraphicalobjectlock/drilldownlocked) { get; set; } | このオブジェクトのサブシェイプの選択が禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
-| [GroupingLocked](../../aspose.slides/igraphicalobjectlock/groupinglocked) { get; set; } | このシェイプをグループに追加することが禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
-| [PositionLocked](../../aspose.slides/igraphicalobjectlock/positionlocked) { get; set; } | このシェイプの移動が禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
-| [SelectLocked](../../aspose.slides/igraphicalobjectlock/selectlocked) { get; set; } | このシェイプの選択が禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
-| [SizeLocked](../../aspose.slides/igraphicalobjectlock/sizelocked) { get; set; } | このシェイプのサイズ変更が禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
+| [AsIBaseShapeLock](../../aspose.slides/igraphicalobjectlock/asibaseshapelock) { get; } | ベースのIBaseShapeLockインターフェイスを取得できます。 読み取り専用 [`IBaseShapeLock`](../ibaseshapelock)。 |
+| [AspectRatioLocked](../../aspose.slides/igraphicalobjectlock/aspectratiolocked) { get; set; } | サイズ変更時に形状がアスペクト比を保持するかどうかを決定します。 読み取り/書き込み可能な Boolean。 |
+| [DrilldownLocked](../../aspose.slides/igraphicalobjectlock/drilldownlocked) { get; set; } | このオブジェクトのサブシェイプの選択が禁止されているかどうかを決定します。 読み取り/書き込み可能な Boolean。 |
+| [GroupingLocked](../../aspose.slides/igraphicalobjectlock/groupinglocked) { get; set; } | このシェイプをグループに追加することが禁止されているかどうかを決定します。 読み取り/書き込み可能な Boolean。 |
+| [PositionLocked](../../aspose.slides/igraphicalobjectlock/positionlocked) { get; set; } | このシェイプの移動が禁止されているかどうかを決定します。 読み取り/書き込み可能な Boolean。 |
+| [SelectLocked](../../aspose.slides/igraphicalobjectlock/selectlocked) { get; set; } | このシェイプの選択が禁止されているかどうかを決定します。 読み取り/書き込み可能な Boolean。 |
+| [SizeLocked](../../aspose.slides/igraphicalobjectlock/sizelocked) { get; set; } | このシェイプのサイズ変更が禁止されているかどうかを決定します。 読み取り/書き込み可能な Boolean。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IBaseShapeLock](../ibaseshapelock)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

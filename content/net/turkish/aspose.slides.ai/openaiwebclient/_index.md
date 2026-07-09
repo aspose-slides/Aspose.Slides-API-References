@@ -1,14 +1,14 @@
 ---
 title: OpenAIWebClient
-second_title: Aspose.Sildes .NET API Referansı
-description: Yerleşik hafif OpenAI web istemcisi
+second_title: Aspose.Sildes for .NET API Referansı
+description: OpenAI API'sine bağlanan yerleşik bir IAIWebClient./iaiwebclient uygulaması.
 type: docs
-weight: 30
+weight: 50
 url: /tr/aspose.slides.ai/openaiwebclient/
 ---
 ## OpenAIWebClient sınıfı
 
-Yerleşik hafif OpenAI web istemcisi
+Yerleşik bir [`IAIWebClient`](../iaiwebclient) uygulaması olup OpenAI API'sine bağlanır.
 
 ```csharp
 public class OpenAIWebClient : IAIWebClient, IDisposable
@@ -16,17 +16,17 @@ public class OpenAIWebClient : IAIWebClient, IDisposable
 
 ## Yapıcılar
 
-| Ad | Açıklama |
+| İsim | Açıklama |
 | --- | --- |
-| [OpenAIWebClient](openaiwebclient#constructor)(string, string, string) | OpenAI Web istemcisinin bir örneğini oluşturur. |
-| [OpenAIWebClient](openaiwebclient#constructor_1)(string, string, string, HttpClient) | OpenAI Web istemcisinin bir örneğini oluşturur. |
+| [OpenAIWebClient](openaiwebclient#constructor)(string, string, string) | OpenAI web istemcisinin bir örneğini oluşturur. |
+| [OpenAIWebClient](openaiwebclient#constructor_1)(string, string, string, HttpClient) | Harici yönetilen `HttpClient` kullanan bir OpenAI web istemcisinin örneğini oluşturur. Sağlanan `HttpClient` bu örnek tarafından yok edilmez ve çağıran tarafından sahiplenilmeye devam eder. |
 
 ## Yöntemler
 
-| Ad | Açıklama |
+| İsim | Açıklama |
 | --- | --- |
 | [CallChatAsync](../../aspose.slides.ai/openaiwebclient/callchatasync)(string) | Harici yönetilen `HttpClient` örneği kullanarak AI modeline bir sohbet talimatı gönderir ve verilen talimata yanıt mesajını döndürür. |
-| [CreateConversation](../../aspose.slides.ai/openaiwebclient/createconversation)() | Bir konuşma örneği oluşturur. Normal AI çağrılarının aksine, konuşmalar tüm bağlamı tutar. |
+| [CreateConversation](../../aspose.slides.ai/openaiwebclient/createconversation)() | Bir konuşma örneği oluşturur. Normal AI çağrılarının aksine, konuşmalar tüm bağlamı korur. |
 | [Dispose](../../aspose.slides.ai/openaiwebclient/dispose)() | Bu örnek tarafından kullanılan kaynakları serbest bırakır. |
 
 ### Ayrıca Bakınız

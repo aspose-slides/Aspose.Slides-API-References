@@ -1,14 +1,14 @@
 ---
 title: FontsLoader
-second_title: Aspose.Sildes .NET API referencia
-description: Osztály egyéni betűkészletek betöltéséhez, amelyeket a felhasználó definiált. A prezentációs objektumok létrehozása előtt kell használni.
+second_title: Aspose.Sildes .NET API Referencia
+description: Osztály a felhasználó által meghatározott egyedi betűtípusok betöltésére. A prezentációobjektumok létrehozása előtt kell használni.
 type: docs
-weight: 4910
+weight: 4930
 url: /hu/aspose.slides/fontsloader/
 ---
 ## FontsLoader osztály
 
-Az osztály a felhasználó által meghatározott egyéni betűkészletek betöltésére szolgál. A prezentációs objektumok létrehozása előtt kell használni.
+Osztály egyedi, felhasználó által definiált betűtípusok betöltésére. Felhasználható a prezentációobjektumok létrehozása előtt.
 
 ```csharp
 public sealed class FontsLoader : IFontsLoader
@@ -18,10 +18,10 @@ public sealed class FontsLoader : IFontsLoader
 
 | Név | Leírás |
 | --- | --- |
-| static [ClearCache](../../aspose.slides/fontsloader/clearcache)() | Felszabadítja a felhasználó által meghatározott összes egyéni betűkészletet |
-| static [GetFontFolders](../../aspose.slides/fontsloader/getfontfolders)() | Lekéri a betűkészlet mappákat. Visszaadja azokat a mappákat, amelyeket a LoadExternalFonts metódussal adtak hozzá, valamint a rendszer betűkészlet mappákat |
-| static [LoadExternalFont](../../aspose.slides/fontsloader/loadexternalfont)(byte[]) | Betűkészletet ad hozzá a bináris adatokból |
-| static [LoadExternalFonts](../../aspose.slides/fontsloader/loadexternalfonts)(string[]) | További mappákat ad hozzá a betűkészletek kereséséhez. |
+| static [ClearCache](../../aspose.slides/fontsloader/clearcache)() | Felszabadítja a felhasználó által definiált összes egyedi betűtípust |
+| static [GetFontFolders](../../aspose.slides/fontsloader/getfontfolders)() | Lekéri a betűtípus mappákat. Visszaadja a LoadExternalFonts metódussal hozzáadott mappákat, valamint a rendszer betűtípus mappáit |
+| static [LoadExternalFont](../../aspose.slides/fontsloader/loadexternalfont)(byte[]) | Betűtípust ad hozzá a bináris adatokból |
+| static [LoadExternalFonts](../../aspose.slides/fontsloader/loadexternalfonts)(string[]) | További mappákat ad hozzá a betűtípusok kereséséhez. |
 
 ### Lásd még
 

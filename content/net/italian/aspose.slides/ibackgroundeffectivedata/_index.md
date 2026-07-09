@@ -3,7 +3,7 @@ title: IBackgroundEffectiveData
 second_title: Riferimento API di Aspose.Sildes per .NET
 description: Oggetto immutabile che contiene le proprietà di sfondo effettive.
 type: docs
-weight: 5260
+weight: 5280
 url: /it/aspose.slides/ibackgroundeffectivedata/
 ---
 ## IBackgroundEffectiveData interfaccia
@@ -19,12 +19,12 @@ public interface IBackgroundEffectiveData : IFillParamSource
 | Nome | Descrizione |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ibackgroundeffectivedata/asifillparamsource) { get; } | Restituisce l'interfaccia IFillParamSource. |
-| [EffectFormat](../../aspose.slides/ibackgroundeffectivedata/effectformat) { get; } | Restituisce il formato di effetto effettivo. Solo lettura [`IEffectFormatEffectiveData`](../ieffectformateffectivedata). |
-| [FillFormat](../../aspose.slides/ibackgroundeffectivedata/fillformat) { get; } | Restituisce il formato di riempimento effettivo. Solo lettura [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [EffectFormat](../../aspose.slides/ibackgroundeffectivedata/effectformat) { get; } | Restituisce il formato dell'effetto efficace. Sola lettura [`IEffectFormatEffectiveData`](../ieffectformateffectivedata). |
+| [FillFormat](../../aspose.slides/ibackgroundeffectivedata/fillformat) { get; } | Restituisce il formato di riempimento efficace. Sola lettura [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 
 ### Osservazioni
 
-Questa interfaccia è utilizzata insieme all'interfaccia [`IBackground`](../ibackground) per restituire i valori di formattazione effettivi con l'ereditarietà applicata.
+Questa interfaccia è utilizzata insieme all'interfaccia [`IBackground`](../ibackground) per restituire i valori di formattazione efficaci con l'ereditarietà applicata.
 
 ### Vedi anche
 

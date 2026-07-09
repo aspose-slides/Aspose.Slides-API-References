@@ -3,7 +3,7 @@ title: IInkActions
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili objek tinta pada slide.
 type: docs
-weight: 7500
+weight: 7520
 url: /id/aspose.slides.ink/iinkactions/
 ---
 ## IInkActions antarmuka
@@ -18,7 +18,7 @@ public interface IInkActions : IGraphicalObject
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides.ink/iinkactions/asigraphicalobject) { get; } | Memungkinkan untuk mendapatkan antarmuka IGraphicalObject dasar. Hanya baca [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [AsIGraphicalObject](../../aspose.slides.ink/iinkactions/asigraphicalobject) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IGraphicalObject. Hanya-baca [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
 
 ### Lihat Juga
 

@@ -1,14 +1,14 @@
 ---
 title: Control
-second_title: Aspose.Slides için .NET API Referansı
-description: Bir ActiveX denetimini temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Bir ActiveX kontrolünü temsil eder.
 type: docs
-weight: 2670
+weight: 2690
 url: /tr/aspose.slides/control/
 ---
-## Denetim sınıfı
+## Control sınıfı
 
-Bir ActiveX denetimini temsil eder.
+Bir ActiveX kontrolünü temsil eder.
 
 ```csharp
 public class Control : DomObject<ControlCollection>, IControl
@@ -18,15 +18,15 @@ public class Control : DomObject<ControlCollection>, IControl
 
 | Ad | Açıklama |
 | --- | --- |
-| [ActiveXControlBinary](../../aspose.slides/control/activexcontrolbinary) { get; } | Bir ActiveX denetiminin kalıcılığını belirler; kalıcılaştırma için kullanılan yöntem PersistStream, PersistStreamInit veya PersistStorage olduğunda. |
-| [ClassId](../../aspose.slides/control/classid) { get; set; } | Bu denetimin sınıf kimliğini alır. Yalnızca okuma Guid. |
-| [Frame](../../aspose.slides/control/frame) { get; set; } | Denetimin çerçevesini döndürür veya ayarlar. Okuma/Yazma [`IShapeFrame`](../ishapeframe). |
-| [Name](../../aspose.slides/control/name) { get; set; } | Bu denetimin adını alır veya ayarlar. Okuma/Yazma String. |
-| [Persistence](../../aspose.slides/control/persistence) { get; } | ActiveX denetiminin özelliklerini depolamak için kullanılan yöntemi alır. Yalnızca okuma [`PersistenceType`](../persistencetype). |
-| [Properties](../../aspose.slides/control/properties) { get; } | ActiveX özelliklerinin bir koleksiyonunu döndürür. Not: Aspose.Slides yalnızca XML tabanlı ActiveX özelliklerini destekler. Özellikler ikili formatta depolanmışsa, bu özellik null dönecektir. Yalnızca okuma [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
-| [SubstitutePictureFormat](../../aspose.slides/control/substitutepictureformat) { get; } | Denetim görüntü doldurma özellikleri nesnesini döndürür. Yalnızca okuma [`IPictureFillFormat`](../ipicturefillformat). |
+| [ActiveXControlBinary](../../aspose.slides/control/activexcontrolbinary) { get; } | Bir ActiveX kontrolünün kalıcılığını, kalıcılık için kullanılan yöntemin PersistStream, PersistStreamInit veya PersistStorage olduğu durumlarda belirtir. |
+| [ClassId](../../aspose.slides/control/classid) { get; set; } | Bu kontrolün sınıf kimliğini alır. Salt okunur Guid. |
+| [Frame](../../aspose.slides/control/frame) { get; set; } | Kontrol çerçevesini döndürür veya ayarlar. Okunur/yazılabilir [`IShapeFrame`](../ishapeframe). |
+| [Name](../../aspose.slides/control/name) { get; set; } | Bu kontrolün adını alır veya ayarlar. Okunur/yazılabilir String. |
+| [Persistence](../../aspose.slides/control/persistence) { get; } | ActiveX kontrolünün özelliklerini depolamak için kullanılan yöntemi alır. Salt okunur [`PersistenceType`](../persistencetype). |
+| [Properties](../../aspose.slides/control/properties) { get; } | ActiveX özelliklerinin bir koleksiyonunu döndürür. Not: Aspose.Slides yalnızca XML tabanlı ActiveX özelliklerini destekler. Özellikler ikili formatta depolanmışsa, bu özellik null döndürür. Salt okunur [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
+| [SubstitutePictureFormat](../../aspose.slides/control/substitutepictureformat) { get; } | Control görüntü doldurma özellikleri nesnesini döndürür. Salt okunur [`IPictureFillFormat`](../ipicturefillformat). |
 
-### İlgili
+### See Also
 
 * sınıf [DomObject&lt;TParent&gt;](../domobject-1)
 * sınıf [ControlCollection](../controlcollection)

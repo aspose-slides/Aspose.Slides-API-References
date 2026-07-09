@@ -1,14 +1,14 @@
 ---
 title: InkTrace
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili objek Trace. Elemen Trace digunakan untuk merekam data yang ditangkap oleh digitizer. Berisi urutan titik yang dienkode sesuai dengan spesifikasi yang diberikan oleh objek InkTraceFormat.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili objek Trace. Elemen Trace digunakan untuk merekam data yang diambil oleh digitizer. Ini berisi urutan titik yang dikodekan sesuai spesifikasi yang diberikan oleh objek InkTraceFormat.
 type: docs
-weight: 7570
+weight: 7590
 url: /id/aspose.slides.ink/inktrace/
 ---
 ## InkTrace kelas
 
-Mewakili objek Trace. Elemen Trace digunakan untuk merekam data yang ditangkap oleh digitizer. Berisi urutan titik yang dienkode sesuai dengan spesifikasi yang diberikan oleh objek InkTraceFormat.
+Mewakili objek Trace. Elemen Trace digunakan untuk merekam data yang ditangkap oleh digitizer. Ini berisi urutan titik yang dikodekan sesuai spesifikasi yang diberikan oleh objek InkTraceFormat.
 
 ```csharp
 public class InkTrace : IInkTrace
@@ -18,8 +18,8 @@ public class InkTrace : IInkTrace
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Brush](../../aspose.slides.ink/inktrace/brush) { get; } | Mendapatkan Brush untuk IInkLine [`IInkBrush`](../iinkbrush) Hanya baca. |
-| [Points](../../aspose.slides.ink/inktrace/points) { get; } | Mendapatkan titik untuk IInkLine PointF Hanya baca. |
+| [Brush](../../aspose.slides.ink/inktrace/brush) { get; } | Mengambil Brush untuk IInkLine [`IInkBrush`](../iinkbrush) Baca-saja. |
+| [Points](../../aspose.slides.ink/inktrace/points) { get; } | Mengambil titik untuk IInkLine PointF Baca-saja. |
 
 ### Lihat Juga
 

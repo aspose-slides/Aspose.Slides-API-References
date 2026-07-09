@@ -3,7 +3,7 @@ title: ISetEffect
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili efek set untuk perilaku animasi.
 type: docs
-weight: 590
+weight: 610
 url: /id/aspose.slides.animation/iseteffect/
 ---
 ## ISetEffect antarmuka
@@ -16,9 +16,9 @@ public interface ISetEffect : IBehavior
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/iseteffect/asibehavior) { get; } | Mengizinkan untuk mendapatkan antarmuka IBehavior dasar. Hanya-baca [`IBehavior`](../ibehavior). |
+| [AsIBehavior](../../aspose.slides.animation/iseteffect/asibehavior) { get; } | Mengizinkan untuk mendapatkan IBehavior antarmuka dasar. Hanya-baca [`IBehavior`](../ibehavior). |
 | [To](../../aspose.slides.animation/iseteffect/to) { get; set; } | Menentukan atribut tertentu dari efek setelah efek animasi. Mewakili nilai titik. Hanya: bool, ColorFormat, float, int, string. Baca/tulis Object. |
 
 ### Lihat Juga

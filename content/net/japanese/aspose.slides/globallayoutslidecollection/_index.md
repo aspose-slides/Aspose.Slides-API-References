@@ -1,14 +1,14 @@
 ---
 title: GlobalLayoutSlideCollection
 second_title: Aspose.Sildes for .NET API リファレンス
-description: プレゼンテーション内のすべてのレイアウト スライドのコレクションを表します。個々のマスターのレイアウト スライドコレクションを統合するコンテキストで、レイアウト スライドを追加/クローンするメソッドを備えた LayoutSlideCollection クラスを拡張します。
+description: プレゼンテーション内のすべてのレイアウト スライドのコレクションを表します。LayoutSlideCollection クラスを拡張し、マスターのレイアウト スライドの個々のコレクションを結合するコンテキストでレイアウト スライドを追加/クローンするメソッドを提供します。
 type: docs
-weight: 4960
+weight: 4980
 url: /ja/aspose.slides/globallayoutslidecollection/
 ---
 ## GlobalLayoutSlideCollection クラス
 
-プレゼンテーション内のすべてのレイアウト スライドのコレクションを表します。LayoutSlideCollection クラスを拡張し、個々のマスターのレイアウト スライドコレクションを統合するコンテキストでレイアウト スライドを追加/クローンするメソッドを提供します。
+プレゼンテーション内のすべてのレイアウト スライドのコレクションを表します。LayoutSlideCollection クラスを拡張し、マスターのレイアウト スライドの個々のコレクションを結合するコンテキストでレイアウト スライドを追加/クローンするメソッドを提供します。
 
 ```csharp
 public sealed class GlobalLayoutSlideCollection : LayoutSlideCollection, 
@@ -20,9 +20,9 @@ public sealed class GlobalLayoutSlideCollection : LayoutSlideCollection,
 | 名前 | 説明 |
 | --- | --- |
 | [Count](../../aspose.slides/layoutslidecollection/count) { get; } | コレクション内のレイアウト スライドの数を返します。読み取り専用 Int32。 |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | コレクションへのアクセスが同期されているか（スレッド セーフ）を示す値を返します。読み取り専用 Boolean。 |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | コレクションへのアクセスが同期 (スレッドセーフ) されているかどうかを示す値を返します。読み取り専用 Boolean。 |
 | [Item](../../aspose.slides/layoutslidecollection/item) { get; } | インデックスでレイアウト スライドを返します。読み取り専用 [`LayoutSlide`](../layoutslide)。 |
-| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | 同期のルートを返します。読み取り専用 Object。 |
+| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | 同期ルートを返します。読み取り専用 Object。 |
 
 ## メソッド
 
@@ -31,8 +31,8 @@ public sealed class GlobalLayoutSlideCollection : LayoutSlideCollection,
 | [Add](../../aspose.slides/globallayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | プレゼンテーションに新しいレイアウト スライドを追加します。 |
 | [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone)(ILayoutSlide) | 指定されたレイアウト スライドのコピーをプレゼンテーションに追加します。 |
 | [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | 指定されたレイアウト スライドのコピーをプレゼンテーションに追加します。 |
-| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | コレクションからすべての要素を指定された配列へコピーします。 |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | 指定されたタイプの最初のレイアウト スライドを返します。検索するレイアウト スライドのタイプです。[`LayoutSlide`](../layoutslide) が指定されたタイプと一致するレイアウト スライド、または見つからない場合は null を返します。 |
+| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | コレクションのすべての要素を指定された配列にコピーします。 |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | 指定されたタイプの最初のレイアウト スライドを返します。検索するレイアウト スライドのタイプです。[`LayoutSlide`](../layoutslide) が指定されたタイプのもの、またはレイアウトが見つからない場合は null を返します。 |
 | [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
 | [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | コレクションからレイアウトを削除します。 |
 | [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | 未使用のレイアウト スライドを削除します（HasDependingSlides が false のレイアウト スライド）。 |

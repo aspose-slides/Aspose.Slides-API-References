@@ -1,58 +1,58 @@
 ---
 title: FieldType
 second_title: Aspose.Sildes for .NET API リファレンス
-description: フィールドのタイプを表します。この値は、フィールドが更新される際にフィールド部分に設定されるテキストを決定します。
+description: フィールドの型を表します。この値は、フィールドが更新される際にフィールド部分に設定されるテキストを決定します。
 type: docs
-weight: 4740
+weight: 4760
 url: /ja/aspose.slides/fieldtype/
 ---
 ## FieldType クラス
 
-フィールドのタイプを表します。この値は、フィールドが更新される際にフィールド部分に設定されるテキストを決定します。
+フィールドのタイプを表します。この値は、フィールド部分が更新される際に設定されるテキストを決定します。
 
 ```csharp
 public sealed class FieldType : IFieldType
 ```
 
-## コンストラクター
+## コンストラクタ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [FieldType](fieldtype)(string) | FieldType クラスの新しいインスタンスを初期化します。 |
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| static [DateTime](../../aspose.slides/fieldtype/datetime) { get; } | レンダリング アプリケーションのデフォルト日付時刻形式での現在の日付と時刻です。読み取り専用 [`FieldType`](../fieldtype)。 |
-| static [DateTime1](../../aspose.slides/fieldtype/datetime1) { get; } | 英語の最初の事前定義フォーマット (MM/DD/YYYY) での現在の日付と時刻です。読み取り専用 [`FieldType`](../fieldtype)。 |
-| static [DateTime10](../../aspose.slides/fieldtype/datetime10) { get; } | 英語の10番目の事前定義フォーマット (hh:mm) での現在の日付と時刻です。読み取り専用 [`FieldType`](../fieldtype)。 |
-| static [DateTime11](../../aspose.slides/fieldtype/datetime11) { get; } | 英語の第11の事前定義フォーマット (hh:mm:ss) での現在の日付と時刻です。読み取り専用 [`FieldType`](../fieldtype)。 |
-| static [DateTime12](../../aspose.slides/fieldtype/datetime12) { get; } | 英語の第12の事前定義フォーマット (hh:mm AM/PM) での現在の日付と時刻です。読み取り専用 [`FieldType`](../fieldtype)。 |
-| static [DateTime13](../../aspose.slides/fieldtype/datetime13) { get; } | 英語の第13の事前定義フォーマット (hh:mm:ss AM/PM) での現在の日付と時刻です。読み取り専用 [`FieldType`](../fieldtype)。 |
-| static [DateTime2](../../aspose.slides/fieldtype/datetime2) { get; } | 英語の第2の事前定義フォーマット (Day, Month DD, YYYY) での現在の日付と時刻です。読み取り専用 [`FieldType`](../fieldtype)。 |
-| static [DateTime3](../../aspose.slides/fieldtype/datetime3) { get; } | 英語の第3の事前定義フォーマット (DD Month YYYY) での現在の日付と時刻です。読み取り専用 [`FieldType`](../fieldtype)。 |
-| static [DateTime4](../../aspose.slides/fieldtype/datetime4) { get; } | 英語の第4の事前定義フォーマット (Month DD, YYYY) での現在の日付と時刻です。読み取り専用 [`FieldType`](../fieldtype)。 |
-| static [DateTime5](../../aspose.slides/fieldtype/datetime5) { get; } | 英語の第5の事前定義フォーマット (DD-Mon-YY) での現在の日付と時刻です。読み取り専用 [`FieldType`](../fieldtype)。 |
-| static [DateTime6](../../aspose.slides/fieldtype/datetime6) { get; } | 英語の第6の事前定義フォーマット (Month YY) での現在の日付と時刻です。読み取り専用 [`FieldType`](../fieldtype)。 |
-| static [DateTime7](../../aspose.slides/fieldtype/datetime7) { get; } | 英語の第7の事前定義フォーマット (Mon-YY) での現在の日付と時刻です。読み取り専用 [`FieldType`](../fieldtype)。 |
-| static [DateTime8](../../aspose.slides/fieldtype/datetime8) { get; } | 英語の第8の事前定義フォーマット (MM/DD/YYYY hh:mm AM/PM) での現在の日付と時刻です。読み取り専用 [`FieldType`](../fieldtype)。 |
-| static [DateTime9](../../aspose.slides/fieldtype/datetime9) { get; } | 英語の第9の事前定義フォーマット (MM/DD/YYYY hh:mm:ss AM/PM) での現在の日付と時刻です。読み取り専用 [`FieldType`](../fieldtype)。 |
+| static [DateTime](../../aspose.slides/fieldtype/datetime) { get; } | レンダリング アプリケーションのデフォルトの日付時刻形式で現在の日付と時刻を取得します。読み取り専用 [`FieldType`](../fieldtype)。 |
+| static [DateTime1](../../aspose.slides/fieldtype/datetime1) { get; } | 英語用の最初の事前定義形式 (MM/DD/YYYY) で現在の日付と時刻を取得します。読み取り専用 [`FieldType`](../fieldtype)。 |
+| static [DateTime10](../../aspose.slides/fieldtype/datetime10) { get; } | 英語用の第十の事前定義形式 (hh:mm) で現在の日付と時刻を取得します。読み取り専用 [`FieldType`](../fieldtype)。 |
+| static [DateTime11](../../aspose.slides/fieldtype/datetime11) { get; } | 英語用の第十一の事前定義形式 (hh:mm:ss) で現在の日付と時刻を取得します。読み取り専用 [`FieldType`](../fieldtype)。 |
+| static [DateTime12](../../aspose.slides/fieldtype/datetime12) { get; } | 英語用の第十二の事前定義形式 (hh:mm AM/PM) で現在の日付と時刻を取得します。読み取り専用 [`FieldType`](../fieldtype)。 |
+| static [DateTime13](../../aspose.slides/fieldtype/datetime13) { get; } | 英語用の第十三の事前定義形式 (hh:mm:ss AM/PM) で現在の日付と時刻を取得します。読み取り専用 [`FieldType`](../fieldtype)。 |
+| static [DateTime2](../../aspose.slides/fieldtype/datetime2) { get; } | 英語用の第2の事前定義形式 (Day, Month DD, YYYY) で現在の日付と時刻を取得します。読み取り専用 [`FieldType`](../fieldtype)。 |
+| static [DateTime3](../../aspose.slides/fieldtype/datetime3) { get; } | 英語用の第3の事前定義形式 (DD Month YYYY) で現在の日付と時刻を取得します。読み取り専用 [`FieldType`](../fieldtype)。 |
+| static [DateTime4](../../aspose.slides/fieldtype/datetime4) { get; } | 英語用の第4の事前定義形式 (Month DD, YYYY) で現在の日付と時刻を取得します。読み取り専用 [`FieldType`](../fieldtype)。 |
+| static [DateTime5](../../aspose.slides/fieldtype/datetime5) { get; } | 英語用の第5の事前定義形式 (DD-Mon-YY) で現在の日付と時刻を取得します。読み取り専用 [`FieldType`](../fieldtype)。 |
+| static [DateTime6](../../aspose.slides/fieldtype/datetime6) { get; } | 英語用の第6の事前定義形式 (Month YY)で現在の日付と時刻を取得します。読み取り専用 [`FieldType`](../fieldtype)。 |
+| static [DateTime7](../../aspose.slides/fieldtype/datetime7) { get; } | 英語用の第7の事前定義形式 (Mon-YY)で現在の日付と時刻を取得します。読み取り専用 [`FieldType`](../fieldtype)。 |
+| static [DateTime8](../../aspose.slides/fieldtype/datetime8) { get; } | 英語用の第8の事前定義形式 (MM/DD/YYYY hh:mm AM/PM)で現在の日付と時刻を取得します。読み取り専用 [`FieldType`](../fieldtype)。 |
+| static [DateTime9](../../aspose.slides/fieldtype/datetime9) { get; } | 英語用の第9の事前定義形式 (MM/DD/YYYY hh:mm:ss AM/PM)で現在の日付と時刻を取得します。読み取り専用 [`FieldType`](../fieldtype)。 |
 | static [Footer](../../aspose.slides/fieldtype/footer) { get; } | スライドのフッターです。読み取り専用 [`FieldType`](../fieldtype)。 |
 | static [Header](../../aspose.slides/fieldtype/header) { get; } | スライドのヘッダーです。読み取り専用 [`FieldType`](../fieldtype)。 |
 | static [SlideNumber](../../aspose.slides/fieldtype/slidenumber) { get; } | 現在のスライド番号です。読み取り専用 [`FieldType`](../fieldtype)。 |
-| [InternalString](../../aspose.slides/fieldtype/internalstring) { get; set; } | この FieldType オブジェクトの内部名を返します。読み書き String。 |
+| [InternalString](../../aspose.slides/fieldtype/internalstring) { get; set; } | この FieldType オブジェクトの内部名を返します。読み書き可能な文字列。 |
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| override [Equals](../../aspose.slides/fieldtype/equals)(object) | このフィールドが別のフィールドと等しいかどうかを確認します。 |
+| override [Equals](../../aspose.slides/fieldtype/equals)(object) | このフィールドが別のフィールドと等しいかどうかをチェックします。 |
 | override [GetHashCode](../../aspose.slides/fieldtype/gethashcode)() | このオブジェクトのハッシュコードを返します。 |
-| [operator ==](../../aspose.slides/fieldtype/op_equality) | 2つの FieldType オブジェクトが等しいかどうかを確認します。 |
-| [operator !=](../../aspose.slides/fieldtype/op_inequality) | 2つの FieldType オブジェクトが等しくないかどうかを確認します。 |
+| [operator ==](../../aspose.slides/fieldtype/op_equality) | 2 つの FieldType オブジェクトが等しいかどうかをチェックします。 |
+| [operator !=](../../aspose.slides/fieldtype/op_inequality) | 2 つの FieldType オブジェクトが等しくないかどうかをチェックします。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [IFieldType](../ifieldtype)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

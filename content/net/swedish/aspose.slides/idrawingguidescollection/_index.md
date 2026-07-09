@@ -3,7 +3,7 @@ title: IDrawingGuidesCollection
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en samling av de justerbara ritningsguiderna.
 type: docs
-weight: 5710
+weight: 5730
 url: /sv/aspose.slides/idrawingguidescollection/
 ---
 ## IDrawingGuidesCollection gränssnitt
@@ -19,7 +19,7 @@ public interface IDrawingGuidesCollection : IEnumerable<IDrawingGuide>
 | Namn | Beskrivning |
 | --- | --- |
 | [Count](../../aspose.slides/idrawingguidescollection/count) { get; } | Hämtar antalet alla element i samlingen. Skrivskyddad Int32. |
-| [Item](../../aspose.slides/idrawingguidescollection/item) { get; } | Returnerar ritningsguiden enligt index. Skrivskyddad [`IDrawingGuide`](../idrawingguide). |
+| [Item](../../aspose.slides/idrawingguidescollection/item) { get; } | Returnerar ritningsguiden efter index. Skrivskyddad [`IDrawingGuide`](../idrawingguide). |
 
 ## Metoder
 

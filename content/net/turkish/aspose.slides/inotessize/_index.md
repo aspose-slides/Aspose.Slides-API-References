@@ -1,12 +1,12 @@
 ---
 title: INotesSize
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Not slaytının boyutunu temsil eder.
 type: docs
-weight: 6470
+weight: 6490
 url: /tr/aspose.slides/inotessize/
 ---
-## INotesSize arayüz
+## INotesSize arabirimi
 
 Not slaytının boyutunu temsil eder.
 
@@ -18,7 +18,7 @@ public interface INotesSize
 
 | Ad | Açıklama |
 | --- | --- |
-| [Size](../../aspose.slides/inotessize/size) { get; set; } | Boyutu nokta cinsinden döndürür veya ayarlar. Okuma/Yazma SizeF. |
+| [Size](../../aspose.slides/inotessize/size) { get; set; } | Nokta cinsinden boyutu döndürür veya ayarlar. Okuma/yazma SizeF. |
 
 ### Ayrıca Bakınız
 

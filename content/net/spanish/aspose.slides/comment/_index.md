@@ -1,12 +1,11 @@
 ---
 title: Comment
-second_title: Aspose.Sildes para la referencia de API de .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa un comentario en una diapositiva.
 type: docs
-weight: 2530
+weight: 2620
 url: /es/aspose.slides/comment/
 ---
-
 ## Clase Comment
 
 Representa un comentario en una diapositiva.
@@ -19,12 +18,12 @@ public class Comment : IComment
 
 | Nombre | Descripción |
 | --- | --- |
-| [Author](../../aspose.slides/comment/author) { get; } | Devuelve el autor de un comentario. Solo lectura [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Devuelve o establece el tiempo de creación de un comentario. Establecer esta propiedad en MinValue significa que no se establece tiempo de comentario. Lectura/escritura DateTime. |
-| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Obtiene o establece el comentario principal. Lectura/escritura [`IComment`](../icomment). |
-| [Position](../../aspose.slides/comment/position) { get; set; } | Devuelve o establece la posición de un comentario en una diapositiva. Lectura/escritura PointF. |
-| [Slide](../../aspose.slides/comment/slide) { get; } | Devuelve o establece la diapositiva principal de un comentario. Solo lectura [`ISlide`](../islide). |
-| [Text](../../aspose.slides/comment/text) { get; set; } | Devuelve o establece el texto sin formato de un comentario en una diapositiva. Lectura/escritura String. |
+| [Author](../../aspose.slides/comment/author) { get; } | Devuelve el autor de un comentario. Solo lectura [`ICommentAuthor`](../icommentauthor). |
+| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Devuelve o establece la hora de creación de un comentario. Establecer esta propiedad a MinValue significa que no se ha establecido la hora del comentario. Lectura/escritura DateTime. |
+| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Obtiene o establece el comentario padre. Lectura/escritura [`IComment`](../icomment). |
+| [Position](../../aspose.slides/comment/position) { get; set; } | Devuelve o establece la posición de un comentario en una diapositiva. Lectura/escritura PointF. |
+| [Slide](../../aspose.slides/comment/slide) { get; } | Devuelve o establece la diapositiva principal de un comentario. Solo lectura [`ISlide`](../islide). |
+| [Text](../../aspose.slides/comment/text) { get; set; } | Devuelve o establece el texto plano de un comentario de diapositiva. Lectura/escritura String. |
 
 ## Métodos
 
@@ -34,7 +33,7 @@ public class Comment : IComment
 
 ### Ejemplos
 
-Este ejemplo te muestra cómo agregar un comentario a una diapositiva en una presentación de PowerPoint.
+Este ejemplo muestra cómo agregar un comentario a una diapositiva en una presentación de PowerPoint.
 
 ```csharp
 [C#]
@@ -49,37 +48,37 @@ using (Presentation presentation = new Presentation())
     PointF point = new PointF();
     point.X = 0.2f;
     point.Y = 0.2f;
-    // Agrega un comentario en la diapositiva para un autor en la diapositiva 1
+    // Agrega un comentario de diapositiva para un autor en la diapositiva 1
     author.Comments.AddComment("Hello Jawad, this is slide comment", presentation.Slides[0], point, DateTime.Now);
-    // Agrega un comentario en la diapositiva para un autor en la diapositiva 2
+    // Agrega un comentario de diapositiva para un autor en la diapositiva 2
     author.Comments.AddComment("Hello Jawad, this is second slide comment", presentation.Slides[1], point, DateTime.Now);
-	// Guarda el archivo de presentación de PowerPoint
+	// Guarda el archivo de presentación PowerPoint
     presentation.Save("Comments_out.pptx", SaveFormat.Pptx);
 }
 ```
 
-Este ejemplo te muestra cómo acceder a un comentario existente en una diapositiva en una presentación de PowerPoint.
+Este ejemplo muestra cómo acceder a un comentario existente en una diapositiva en una presentación de PowerPoint.
 
 ```csharp
 [C#]
 // Instancia la clase Presentation
 using (Presentation presentation = new Presentation("Comments1.pptx"))
 {
-	// Itera sobre CommentAuthors
+	// Itera CommentAuthors
     foreach (var commentAuthor in presentation.CommentAuthors)
     {
         var author = (CommentAuthor) commentAuthor;
-		// Itera sobre Comments
+		// Itera Comments
         foreach (var comment1 in author.Comments)
         {
             var comment = (Comment) comment1;
-            Console.WriteLine("ISlide :" + comment.Slide.SlideNumber + " tiene comentario: " + comment.Text + " con Autor: " + comment.Author.Name + " publicado en el tiempo :" + comment.CreatedTime + "\n");
+            Console.WriteLine("ISlide :" + comment.Slide.SlideNumber + " has comment: " + comment.Text + " with Author: " + comment.Author.Name + " posted on time :" + comment.CreatedTime + "\n");
         }
     }
 }
 ```
 
-Este ejemplo te muestra cómo agregar comentarios y obtener respuestas a ellos.
+Este ejemplo muestra cómo agregar comentarios y obtener respuestas a los mismos.
 
 ```csharp
 [C#]
@@ -118,16 +117,16 @@ using (Presentation pres = new Presentation())
         Console.WriteLine();
     }
     pres.Save("parent_comment.pptx",SaveFormat.Pptx);
-    // Elimina comment1 y todas las respuestas a él
+    // Elimina comment1 y todas sus respuestas
     comment1.Remove();
     pres.Save("remove_comment.pptx", SaveFormat.Pptx);
 }
 ```
 
-### Ver También
+### Ver también
 
-* interface [IComment](../icomment)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* interfaz [IComment](../icomment)
+* espacio de nombres [Aspose.Slides](../../aspose.slides)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

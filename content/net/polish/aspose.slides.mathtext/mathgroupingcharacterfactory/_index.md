@@ -1,14 +1,14 @@
 ---
 title: MathGroupingCharacterFactory
-second_title: Aspose.Sildes dla .NET API Reference
+second_title: Aspose.Sildes dla .NET – Referencja API
 description: Umożliwia tworzenie znaku grupującego w matematyce
 type: docs
-weight: 8750
+weight: 8770
 url: /pl/aspose.slides.mathtext/mathgroupingcharacterfactory/
 ---
 ## MathGroupingCharacterFactory klasa
 
-Umożliwia tworzenie znaku grupującego w matematyce
+Umożliwia stworzenie znaku grupującego w matematyce
 
 ```csharp
 public class MathGroupingCharacterFactory : IMathGroupingCharacterFactory
@@ -31,7 +31,7 @@ public class MathGroupingCharacterFactory : IMathGroupingCharacterFactory
 
 Dla zgodności z COM
 
-## Zobacz także
+### Zobacz także
 
 * interfejs [IMathGroupingCharacterFactory](../imathgroupingcharacterfactory)
 * przestrzeń nazw [Aspose.Slides.MathText](../../aspose.slides.mathtext)

@@ -1,9 +1,9 @@
 ---
 title: Html5Options
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
 description: Reprezentuje opcje eksportu HTML5.
 type: docs
-weight: 3840
+weight: 3860
 url: /pl/aspose.slides.export/html5options/
 ---
 ## Html5Options klasa
@@ -26,15 +26,16 @@ public class Html5Options : SaveOptions, IHtml5Options
 | --- | --- |
 | [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | Zwraca lub ustawia opcję animacji kształtów. Odczyt/zapis Boolean. |
 | [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | Zwraca lub ustawia opcję animacji przejść. Odczyt/zapis Boolean. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Zwraca lub ustawia czcionkę używaną w przypadku, gdy nie znaleziono czcionki źródłowej. Odczyt/zapis String. |
-| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | Zwraca lub ustawia wartość wskazującą, czy tekst jest renderowany bez użycia ligatur. Gdy ustawione na `true`, ligatury będą wyłączone w renderowanym wyjściu. Domyślnie własność jest ustawiona na `false`. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Zwraca lub ustawia czcionkę używaną w przypadku braku czcionki źródłowej. Odczyt/zapis String. |
+| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | Pobiera lub ustawia wartość określającą, czy tekst jest renderowany bez użycia ligatur. Gdy ustawione na `true`, ligatury będą wyłączone w renderowanym wyniku. Domyślnie ta właściwość ma wartość `false`. |
 | [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | Zwraca lub ustawia opcję osadzania obrazów. Odczyt/zapis Boolean. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Zwraca lub ustawia styl wizualny gradientu. Odczyt/zapis [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Zwraca lub ustawia wygląd wizualny gradientu. Odczyt/zapis [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | Określa, gdzie powinny być przechowywane zasoby zewnętrzne. Odczyt/zapis String. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Reprezentuje obiekt wywołania zwrotnego do zapisywania aktualizacji postępu w procentach. Zobacz [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Określa, czy pomijać hiperłącza z wywołaniami JavaScript podczas zapisywania prezentacji. Odczyt/zapis Boolean. Domyślna wartość to **false**. |
-| [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | Zwraca lub ustawia tryb, w jakim slajdy są rozmieszczane na stronie podczas eksportu prezentacji [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Zwraca lub ustawia obiekt, który odbiera ostrzeżenia i decyduje, czy proces wczytywania będzie kontynuowany, czy zostanie przerwany. Odczyt/zapis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [PicturesCompression](../../aspose.slides.export/html5options/picturescompression) { get; set; } | Reprezentuje poziom kompresji obrazów |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Reprezentuje obiekt wywołania zwrotnego dla aktualizacji postępu zapisu w procentach. Zobacz [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Określa, czy pomijać hiperłącza z wywołaniami JavaScript podczas zapisywania prezentacji. Odczyt/zapis Boolean. Wartość domyślna to **false**. |
+| [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | Pobiera lub ustawia tryb, w jakim slajdy są rozmieszczane na stronie przy eksporcie prezentacji [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Zwraca lub ustawia obiekt, który odbiera ostrzeżenia i decyduje, czy proces ładowania będzie kontynuowany, czy zostanie przerwany. Odczyt/zapis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Przykłady
 

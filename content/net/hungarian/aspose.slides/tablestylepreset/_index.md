@@ -1,14 +1,14 @@
 ---
 title: TableStylePreset
-second_title: Aspose.Sildes .NET API Referenciája
-description: Beépített táblastílusokat képvisel.
+second_title: Aspose.Sildes .NET API referencia
+description: Beépített táblastílusokat jelöl.
 type: docs
-weight: 10860
+weight: 10880
 url: /hu/aspose.slides/tablestylepreset/
 ---
 ## TableStylePreset enumeráció
 
-Beépített táblastílusokat képvisel.
+Beépített táblastílusokat jelöl.
 
 ```csharp
 public enum TableStylePreset
@@ -18,18 +18,18 @@ public enum TableStylePreset
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Custom | `-1` | A táblának egy egyedi stílusa van. Ez csak lekérhető érték. |
+| Custom | `-1` | A táblázat egy egyéni stílussal rendelkezik. Ez csak visszatérési érték. |
 | None | `0` | Nincs stílus. |
 | MediumStyle2Accent1 | `1` | Medium Style 2 - Accent 1. |
 | MediumStyle2 | `2` | Medium Style 2. |
-| NoStyleNoGrid | `3` | No Style, No Grid. |
+| NoStyleNoGrid | `3` | Nincs stílus, nincs rács. |
 | ThemedStyle1Accent1 | `4` | Themed Style 1 - Accent 1. |
 | ThemedStyle1Accent2 | `5` | Themed Style 1 - Accent 2. |
 | ThemedStyle1Accent3 | `6` | Themed Style 1 - Accent 3. |
 | ThemedStyle1Accent4 | `7` | Themed Style 1 - Accent 4. |
 | ThemedStyle1Accent5 | `8` | Themed Style 1 - Accent 5. |
 | ThemedStyle1Accent6 | `9` | Themed Style 1 - Accent 6. |
-| NoStyleTableGrid | `10` | No Style, Table Grid. |
+| NoStyleTableGrid | `10` | Nincs stílus, táblázat rács. |
 | ThemedStyle2Accent1 | `11` | Themed Style 2 - Accent 1. |
 | ThemedStyle2Accent2 | `12` | Themed Style 2 - Accent 2. |
 | ThemedStyle2Accent3 | `13` | Themed Style 2 - Accent 3. |

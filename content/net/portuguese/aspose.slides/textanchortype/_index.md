@@ -3,12 +3,12 @@ title: TextAnchorType
 second_title: Referência da API Aspose.Sildes para .NET
 description: Alinhamento da caixa de texto dentro de uma área de texto.
 type: docs
-weight: 10890
+weight: 10910
 url: /pt/aspose.slides/textanchortype/
 ---
-## Enumeração TextAnchorType
+## TextAnchorType enumeração
 
-Alinhamento de caixa de texto dentro de uma área de texto.
+Alinhamento da caixa de texto dentro de uma área de texto.
 
 ```csharp
 public enum TextAnchorType : sbyte
@@ -16,7 +16,7 @@ public enum TextAnchorType : sbyte
 
 ### Valores
 
-| Name | Value | Description |
+| Nome | Valor | Descrição |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Top | `0` |  |
@@ -25,7 +25,7 @@ public enum TextAnchorType : sbyte
 | Justified | `3` |  |
 | Distributed | `4` |  |
 
-### Veja Também
+### Ver também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

@@ -3,7 +3,7 @@ title: IOleObjectFrame
 second_title: Aspose.Sildes için .NET API Referansı
 description: Bir slaytta OLE nesnesini temsil eder.
 type: docs
-weight: 6520
+weight: 6540
 url: /tr/aspose.slides/ioleobjectframe/
 ---
 ## IOleObjectFrame arayüzü
@@ -18,26 +18,26 @@ public interface IOleObjectFrame : IGraphicalObject
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/ioleobjectframe/asigraphicalobject) { get; } | Temel IGraphicalObject arayüzünü almaya izin verir. Salt-okunur [`IGraphicalObject`](../igraphicalobject). |
-| [EmbeddedData](../../aspose.slides/ioleobjectframe/embeddeddata) { get; } | OLE gömülü verileri hakkında bilgi alır. Salt-okunur [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo). |
+| [AsIGraphicalObject](../../aspose.slides/ioleobjectframe/asigraphicalobject) { get; } | Temel IGraphicalObject arayüzünü almayı sağlar. Salt okunur [`IGraphicalObject`](../igraphicalobject). |
+| [EmbeddedData](../../aspose.slides/ioleobjectframe/embeddeddata) { get; } | OLE gömülü veri hakkında bilgi alır. Salt okunur [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo). |
 | [EmbeddedFileLabel](../../aspose.slides/ioleobjectframe/embeddedfilelabel) { get; } | Gömülü OLE nesnesinin dosya adını döndürür |
 | [EmbeddedFileName](../../aspose.slides/ioleobjectframe/embeddedfilename) { get; } | Gömülü OLE nesnesinin yolunu döndürür |
-| [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | Bir nesnenin simge olarak görünür olup olmadığını belirler. Okunabilir/Yazılabilir Boolean. |
-| [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | Bir nesnenin harici dosyaya bağlı olup olmadığını belirler. Salt-okunur Boolean. |
-| [LinkFileName](../../aspose.slides/ioleobjectframe/linkfilename) { get; } | Bağlantılı bir dosyanın tam yolunu döndürür. Kısa dosya adı kullanılacaktır. Salt-okunur String. |
-| [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | Bağlantılı bir dosyanın tam yolunu döndürür. Uzun dosya adı kullanılacaktır. Okunabilir/Yazılabilir String. |
-| [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | Var ise bağlantılı bir dosyanın göreceli yolunu döndürür, aksi takdirde boş bir dize döndürür. Salt-okunur String. |
-| [ObjectName](../../aspose.slides/ioleobjectframe/objectname) { get; set; } | Bir nesnenin adını döndürür veya ayarlar. Okunabilir/Yazılabilir String. |
-| [ObjectProgId](../../aspose.slides/ioleobjectframe/objectprogid) { get; set; } | Bir nesnenin ProgID'sini döndürür. Salt-okunur String. |
-| [SubstitutePictureFormat](../../aspose.slides/ioleobjectframe/substitutepictureformat) { get; } | OleObject görüntü doldurma özellikleri nesnesini döndürür. Salt-okunur [`IPictureFillFormat`](../ipicturefillformat). |
-| [SubstitutePictureTitle](../../aspose.slides/ioleobjectframe/substitutepicturetitle) { get; set; } | OleObject simgesi için başlığı döndürür veya ayarlar. Okunabilir/Yazılabilir String. |
-| [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | Bağlantılı gömülü nesnenin sunum açıldığında veya yazdırıldığında otomatik olarak güncellenip güncellenmeyeceğini belirler. Okunabilir/Yazılabilir Boolean. |
+| [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | Bir nesnenin simge olarak görünüp görünmediğini belirler. Okunur/yazılabilir Boolean. |
+| [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | Bir nesnenin harici dosyaya bağlı olup olmadığını belirler. Salt okunur Boolean. |
+| [LinkFileName](../../aspose.slides/ioleobjectframe/linkfilename) { get; } | Bağlı dosyanın tam yolunu döndürür. Kısa dosya adı kullanılacaktır. Salt okunur String. |
+| [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | Bağlı dosyanın tam yolunu döndürür. Uzun dosya adı kullanılacaktır. Okunur/yazılabilir String. |
+| [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | Var ise bağlı dosyanın göreli yolunu döndürür, aksi takdirde boş bir dize döndürür. Salt okunur String. |
+| [ObjectName](../../aspose.slides/ioleobjectframe/objectname) { get; set; } | Bir nesnenin adını döndürür veya ayarlar. Okunur/yazılabilir String. |
+| [ObjectProgId](../../aspose.slides/ioleobjectframe/objectprogid) { get; set; } | Bir nesnenin ProgID'sini döndürür. Salt okunur String. |
+| [SubstitutePictureFormat](../../aspose.slides/ioleobjectframe/substitutepictureformat) { get; } | OleObject görüntü doldurma özellikleri nesnesini döndürür. Salt okunur [`IPictureFillFormat`](../ipicturefillformat). |
+| [SubstitutePictureTitle](../../aspose.slides/ioleobjectframe/substitutepicturetitle) { get; set; } | OleObject simgesi için başlığı döndürür veya ayarlar. Okunur/yazılabilir String. |
+| [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | Bağlı gömülü nesnenin sunum açıldığında veya yazdırıldığında otomatik olarak güncellenip güncellenmeyeceğini belirler. Okunur/yazılabilir Boolean. |
 
-## Yöntemler
+## Metotlar
 
 | Ad | Açıklama |
 | --- | --- |
-| [SetEmbeddedData](../../aspose.slides/ioleobjectframe/setembeddeddata)(IOleEmbeddedDataInfo) | OLE gömülü verileri hakkında bilgiyi ayarlar. |
+| [SetEmbeddedData](../../aspose.slides/ioleobjectframe/setembeddeddata)(IOleEmbeddedDataInfo) | OLE gömülü veri hakkında bilgi ayarlar. |
 
 ### Ayrıca Bakınız
 

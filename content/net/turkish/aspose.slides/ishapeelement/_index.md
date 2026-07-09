@@ -3,10 +3,10 @@ title: IShapeElement
 second_title: Aspose.Sildes için .NET API Referansı
 description: Aynı dış hat ve dolgu özelliklerine sahip şeklin bir parçasını temsil eder.
 type: docs
-weight: 6970
+weight: 6990
 url: /tr/aspose.slides/ishapeelement/
 ---
-## IShapeElement arayüz
+## IShapeElement arayüzü
 
 Aynı dış hat ve doldurma özelliklerine sahip şeklin bir parçasını temsil eder.
 
@@ -14,7 +14,7 @@ Aynı dış hat ve doldurma özelliklerine sahip şeklin bir parçasını temsil
 public interface IShapeElement
 ```
 
-### Diğer
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

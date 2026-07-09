@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulateEffectiveData
 second_title: Aspose.Sildes pro .NET API Reference
-description: Neměnný objekt, který představuje efekt Alpha Modulate. Hodnoty alfa průhlednosti efektu jsou násobeny pevně stanoveným procentem. Kontejner efektu určuje efekt obsahující alfa hodnoty k modulaci.
+description: Neměnný objekt, který představuje efekt Alpha Modulate. Hodnoty alfa průhlednosti efektu jsou násobeny pevnou procentní hodnotou. Kontejner efektu specifikuje efekt obsahující alfa hodnoty, které se mají modulovat.
 type: docs
-weight: 3090
+weight: 3110
 url: /cs/aspose.slides.effects/ialphamodulateeffectivedata/
 ---
 ## IAlphaModulateEffectiveData rozhraní
 
-Neměnný objekt, který představuje efekt Alpha Modulate. Hodnoty alfa (průhlednost) efektu jsou násobeny pevně stanoveným procentem. Kontejner efektu určuje efekt obsahující alfa hodnoty k modulaci.
+Neměnný objekt, který představuje efekt Alpha Modulate. Hodnoty alfa (průhlednost) efektu jsou násobeny pevnou procentní hodnotou. Kontejner efektu specifikuje efekt obsahující alfa hodnoty, které se mají modulovat.
 
 ```csharp
 public interface IAlphaModulateEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IAlphaModulateEffectiveData : IEffectEffectiveData
 
 | Název | Popis |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulateeffectivedata/asieffecteffectivedata) { get; } | Umožňuje získat základní rozhraní IEffectEffectiveData. Pouze ke čtení [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulateeffectivedata/asieffecteffectivedata) { get; } | Umožňuje získat základní rozhraní IEffectEffectiveData. Pouze pro čtení [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Viz také
 

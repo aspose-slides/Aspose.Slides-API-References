@@ -1,14 +1,14 @@
 ---
 title: BaseSlide
 second_title: Aspose.Sildes for .NET API リファレンス
-description: すべてのスライドタイプの共通データを表します。
+description: すべてのスライドタイプに共通のデータを表します。
 type: docs
-weight: 970
+weight: 990
 url: /ja/aspose.slides/baseslide/
 ---
 ## BaseSlide クラス
 
-すべてのスライドタイプの共通データを表します。
+すべてのスライドタイプに共通のデータを表します。
 
 ```csharp
 public abstract class BaseSlide : IBaseSlide
@@ -22,25 +22,25 @@ public abstract class BaseSlide : IBaseSlide
 | [Controls](../../aspose.slides/baseslide/controls) { get; } | スライド上の ActiveX コントロールのコレクションを返します。読み取り専用 [`IControlCollection`](../icontrolcollection)。 |
 | [CustomData](../../aspose.slides/baseslide/customdata) { get; } | スライドのカスタム データを返します。読み取り専用 [`ICustomData`](../icustomdata)。 |
 | [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | 含まれるハイパーリンクへの簡単なアクセスを提供します。読み取り専用 [`IHyperlinkQueries`](../ihyperlinkqueries)。 |
-| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | スライドの名前を取得または設定します。読み書き String。 |
+| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | スライドの名前を取得または設定します。読み書き可能 String。 |
 | [Presentation](../../aspose.slides/baseslide/presentation) { get; } | IPresentation インターフェイスを返します。読み取り専用 [`IPresentation`](../ipresentation)。 |
 | [Shapes](../../aspose.slides/baseslide/shapes) { get; } | スライドのシェイプを返します。読み取り専用 [`IShapeCollection`](../ishapecollection)。 |
-| abstract [ShowMasterShapes](../../aspose.slides/baseslide/showmastershapes) { get; set; } | マスタースライド上のシェイプをスライド上に表示するかどうかを指定します。マスタースライド自体ではこのプロパティは常に `false` を返します。読み書き Boolean。 |
+| abstract [ShowMasterShapes](../../aspose.slides/baseslide/showmastershapes) { get; set; } | マスタースライド上のシェイプをスライドに表示するかどうかを指定します。マスタースライド自体ではこのプロパティは常に `false` を返します。読み書き可能 Boolean。 |
 | [SlideId](../../aspose.slides/baseslide/slideid) { get; } | スライドの ID を返します。読み取り専用 UInt32。 |
 | virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | 指定されたスライドがスライドショー中にどのように進むかに関する情報を含む Transition オブジェクトを返します。読み取り専用 [`ISlideShowTransition`](../islideshowtransition)。 |
-| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | アニメーション タイムライン オブジェクトを返します。読み取り専用 [`IAnimationTimeLine`](../ianimationtimeline)。 |
+| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | アニメーション タイムラインオブジェクトを返します。読み取り専用 [`IAnimationTimeLine`](../ianimationtimeline)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
 | [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | このスライドの有効なテーマを返します。 |
-| [Equals](../../aspose.slides/baseslide/equals#equals)(IBaseSlide) | 2つの IBaseSlide インスタンスが等しいかどうかを判断します。戻り値はスライドの構造と静的コンテンツに基づいて計算されます。すべてのシェイプ、スタイル、テキスト、アニメーションおよびその他の設定などが等しい場合、スライドは等しいとみなされます。比較は SlideId などの固有識別子や、日付プレースホルダーの現在の日付値などの動的コンテンツは考慮しません。 |
+| [Equals](../../aspose.slides/baseslide/equals#equals)(IBaseSlide) | 2つの IBaseSlide インスタンスが等しいかどうかを判断します。戻り値はスライドの構造と静的コンテンツに基づいて計算されます。すべてのシェイプ、スタイル、テキスト、アニメーション、その他の設定等が等しい場合、スライドは等しいとみなされます。比較では SlideId のような一意の識別子や、Date Placeholder の現在の日付値などの動的コンテンツは考慮されません。 |
 | [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | 指定された代替テキストを持つシェイプの最初の出現を検索します。 |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting#joinportionswithsameformatting)() | すべての許容可能なシェイプ内のすべての段落で、同じ書式設定のランを結合します。 |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting#joinportionswithsameformatting_1)(IShapeCollection) | すべての許容可能なシェイプ内のすべての段落で、同じ書式設定のランを結合します。 |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting#joinportionswithsameformatting)() | すべての許容可能なシェイプのすべての段落において、同じ書式設定を持つランを結合します。 |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting#joinportionswithsameformatting_1)(IShapeCollection) | すべての許容可能なシェイプのすべての段落において、同じ書式設定を持つランを結合します。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [IBaseSlide](../ibaseslide)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

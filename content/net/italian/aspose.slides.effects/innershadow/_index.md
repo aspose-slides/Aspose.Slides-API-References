@@ -1,12 +1,12 @@
 ---
 title: InnerShadow
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET API Reference
 description: Rappresenta un effetto Inner Shadow.
 type: docs
-weight: 3580
+weight: 3600
 url: /it/aspose.slides.effects/innershadow/
 ---
-## classe InnerShadow
+## InnerShadow classe
 
 Rappresenta un effetto Inner Shadow.
 
@@ -18,7 +18,7 @@ public sealed class InnerShadow : IInnerShadow
 
 | Nome | Descrizione |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/innershadow/blurradius) { get; set; } | Raggio di sfocatura. Lettura/scrittura Double. |
+| [BlurRadius](../../aspose.slides.effects/innershadow/blurradius) { get; set; } | Raggio sfocatura. Lettura/scrittura Double. |
 | [Direction](../../aspose.slides.effects/innershadow/direction) { get; set; } | Direzione dell'ombra. Lettura/scrittura Single. |
 | [Distance](../../aspose.slides.effects/innershadow/distance) { get; set; } | Distanza dell'ombra. Lettura/scrittura Double. |
 | [ShadowColor](../../aspose.slides.effects/innershadow/shadowcolor) { get; } | Colore dell'ombra. Sola lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
@@ -27,9 +27,9 @@ public sealed class InnerShadow : IInnerShadow
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/innershadow/equals)(object) | Determina se il [`InnerShadow`](../innershadow) specificato è uguale al corrente [`InnerShadow`](../innershadow). |
+| override [Equals](../../aspose.slides.effects/innershadow/equals)(object) | Determina se il [`InnerShadow`](../innershadow) specificato è uguale all'attuale [`InnerShadow`](../innershadow). |
 | [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | Ottiene i dati dell'effetto Inner Shadow effettivo con l'ereditarietà applicata. |
-| override [GetHashCode](../../aspose.slides.effects/innershadow/gethashcode)() | Funziona come funzione hash per un tipo specifico. |
+| override [GetHashCode](../../aspose.slides.effects/innershadow/gethashcode)() | Funziona come funzione hash per un tipo particolare. |
 
 ### Vedi anche
 

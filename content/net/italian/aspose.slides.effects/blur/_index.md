@@ -1,14 +1,14 @@
 ---
 title: Blur
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta un effetto Blur che viene applicato all'intera forma, inclusa la sua riempitura. Tutti i canali colore, incluso l'alpha, sono influenzati.
+description: Rappresenta un effetto Blur applicato all'intera forma, inclusa la sua riempitura. Tutti i canali di colore, compreso l'alpha, sono influenzati.
 type: docs
-weight: 2900
+weight: 2920
 url: /it/aspose.slides.effects/blur/
 ---
-## classe Blur
+## Classe Blur
 
-Rappresenta un effetto Blur che viene applicato all'intera forma, inclusa la sua riempitura. Tutti i canali colore, compreso l'alpha, sono influenzati.
+Rappresenta un effetto Blur applicato all'intera forma, inclusa la riempitura. Tutti i canali di colore, compreso l'alpha, sono influenzati.
 
 ```csharp
 public sealed class Blur : ImageTransformOperation, IBlur
@@ -19,15 +19,15 @@ public sealed class Blur : ImageTransformOperation, IBlur
 | Nome | Descrizione |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Solo lettura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | Determina se i limiti dell'oggetto devono essere ampliati a causa della sfocatura. True indica che i limiti sono ampliati mentre false indica che non lo sono. Lettura/scrittura Boolean. |
-| [Radius](../../aspose.slides.effects/blur/radius) { get; set; } | Restituisce o imposta il raggio della sfocatura. Lettura/scrittura Double. |
+| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | Determina se i limiti dell'oggetto debbano essere ampliati a causa della sfocatura. True indica che i limiti sono ampliati mentre false indica che non lo sono. Lettura/Scrittura Boolean. |
+| [Radius](../../aspose.slides.effects/blur/radius) { get; set; } | Restituisce o imposta il raggio della sfocatura. Lettura/Scrittura Double. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/blur/equals)(object) | Determina se il [`Blur`](../blur) specificato è uguale al [`Blur`](../blur) corrente. |
-| [GetEffective](../../aspose.slides.effects/blur/geteffective)() | Ottiene i dati dell'effetto Blur effettivo con l'ereditarietà applicata. |
+| override [Equals](../../aspose.slides.effects/blur/equals)(object) | Determina se lo [`Blur`](../blur) specificato è uguale all'attuale [`Blur`](../blur). |
+| [GetEffective](../../aspose.slides.effects/blur/geteffective)() | Ottiene i dati effettivi dell'effetto Blur con l'ereditarietà applicata. |
 | override [GetHashCode](../../aspose.slides.effects/blur/gethashcode)() | Funziona come funzione hash per un tipo particolare. |
 
 ### Vedi anche

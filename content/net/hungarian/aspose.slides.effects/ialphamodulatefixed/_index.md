@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulateFixed
-second_title: Aspose.Sildes .NET API Referenciája
-description: Ábrázolja az Alpha Modulate Fixed hatást. A hatás alfa átlátszóság értékei egy fix százalékkal szorzódnak.
+second_title: Aspose.Sildes .NET API referencia
+description: Alpha Modulate Fixed hatást képviseli. A hatás alfa átlátszóság értékeit egy rögzített százalékkal szorozzák.
 type: docs
-weight: 3100
+weight: 3120
 url: /hu/aspose.slides.effects/ialphamodulatefixed/
 ---
-## IAlphaModulateFixed interface
+## IAlphaModulateFixed interfész
 
-Ábrázolja az Alpha Modulate Fixed hatást. A hatás alfa (átlátszóság) értékei egy fix százalékkal szorzódnak.
+Az Alpha Modulate Fixed hatást képviseli. A hatás alfa (átlátszóság) értékeit egy rögzített százalékkal szorozzák.
 
 ```csharp
 public interface IAlphaModulateFixed : IAccessiblePVIObject<IAlphaModulateFixedEffectiveData>, 
@@ -20,8 +20,8 @@ public interface IAlphaModulateFixed : IAccessiblePVIObject<IAlphaModulateFixedE
 | Név | Leírás |
 | --- | --- |
 | [Amount](../../aspose.slides.effects/ialphamodulatefixed/amount) { get; set; } | Visszaadja a hatás mennyiségét százalékban. Olvasás/írás Single. |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject) { get; } | Lehetővé teszi az alap IAccessiblePVIObject interfész lekérését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation) { get; } | Lehetővé teszi az alap IImageTransformOperation interfész lekérését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject) { get; } | Lehetővé teszi az alap IAccessiblePVIObject interfész lekérdezését. Csak olvasás [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation) { get; } | Lehetővé teszi az alap IImageTransformOperation interfész lekérdezését. Csak olvasás [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Lásd még
 

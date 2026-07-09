@@ -3,12 +3,12 @@ title: IPresentationComponent
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili komponen dari sebuah presentasi.
 type: docs
-weight: 6740
+weight: 6760
 url: /id/aspose.slides/ipresentationcomponent/
 ---
 ## IPPresentationComponent antarmuka
 
-Mewakili komponen dari presentasi.
+Mewakili komponen dari sebuah presentasi.
 
 ```csharp
 public interface IPresentationComponent
@@ -18,7 +18,7 @@ public interface IPresentationComponent
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Presentation](../../aspose.slides/ipresentationcomponent/presentation) { get; } | Mengembalikan presentasi. hanya-baca [`IPresentation`](../ipresentation). |
+| [Presentation](../../aspose.slides/ipresentationcomponent/presentation) { get; } | Mengembalikan presentasi. Baca-saja [`IPresentation`](../ipresentation). |
 
 ### Lihat Juga
 

@@ -1,14 +1,14 @@
 ---
 title: ITextAnimation
 second_title: Aspose.Sildes for .NET API リファレンス
-description: テキスト アニメーションを表します。
+description: テキストアニメーションを表します。
 type: docs
-weight: 600
+weight: 620
 url: /ja/aspose.slides.animation/itextanimation/
 ---
 ## ITextAnimation インターフェイス
 
-テキスト アニメーションを表します。
+テキストアニメーションを表します。
 
 ```csharp
 public interface ITextAnimation
@@ -18,14 +18,14 @@ public interface ITextAnimation
 
 | 名前 | 説明 |
 | --- | --- |
-| [BuildType](../../aspose.slides.animation/itextanimation/buildtype) { get; set; } | テキスト アニメーションのビルド タイプの一覧 (例: Paragraph 1,2,3, All at Once)。読み取り/書き込み [`BuildType`](./buildtype)。 |
-| [EffectAnimateBackgroundShape](../../aspose.slides.animation/itextanimation/effectanimatebackgroundshape) { get; set; } | グループにリンクされたシェイプ効果かどうか (null)。読み取り/書き込み [`IEffect`](../ieffect)。 |
+| [BuildType](../../aspose.slides.animation/itextanimation/buildtype) { get; set; } | テキストアニメーションのビルドタイプ（例: Paragraph 1,2,3, All at Once）のリストです。読み取り/書き込み [`BuildType`](./buildtype)。 |
+| [EffectAnimateBackgroundShape](../../aspose.slides.animation/itextanimation/effectanimatebackgroundshape) { get; set; } | グループにリンクされたシェイプエフェクト（またはなし（null））です。読み取り/書き込み [`IEffect`](../ieffect)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [AddEffect](../../aspose.slides.animation/itextanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | 現在のシーケンスの末尾に新しい効果を追加し、グループ テキスト アニメーションの末尾に配置します。このグループの Effect の数以上のテキスト 段落がある場合にのみ有効です。 |
+| [AddEffect](../../aspose.slides.animation/itextanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | 新しいエフェクトを現在のシーケンスの末尾に追加し、グループテキストアニメーションの末尾にします。このエフェクトは、テキスト段落の数がこのグループのエフェクト数以上である場合にのみ有効です。 |
 
 ### 参照
 

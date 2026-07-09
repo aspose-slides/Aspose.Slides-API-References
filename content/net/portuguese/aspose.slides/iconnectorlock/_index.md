@@ -1,14 +1,14 @@
 ---
 title: IConnectorLock
-second_title: Aspose.Sildes para .NET Referência da API
-description: Determina quais operações são desativadas no Conector pai.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Determina quais operações estão desabilitadas no conector pai.
 type: docs
-weight: 5600
+weight: 5620
 url: /pt/aspose.slides/iconnectorlock/
 ---
 ## IConnectorLock interface
 
-Determines which operations are disabled on the parent Connector.
+Determina quais operações estão desabilitadas no conector pai.
 
 ```csharp
 public interface IConnectorLock : IBaseShapeLock
@@ -23,14 +23,14 @@ public interface IConnectorLock : IBaseShapeLock
 | [AsIBaseShapeLock](../../aspose.slides/iconnectorlock/asibaseshapelock) { get; } | Permite obter a interface base IBaseShapeLock. Somente leitura [`IBaseShapeLock`](../ibaseshapelock). |
 | [AspectRatioLocked](../../aspose.slides/iconnectorlock/aspectratiolocked) { get; set; } | Determina se uma forma deve preservar a proporção ao redimensionar. Leitura/gravação Boolean. |
 | [EditPointsLocked](../../aspose.slides/iconnectorlock/editpointslocked) { get; set; } | Determina se a alteração direta do contorno desta forma é proibida. Leitura/gravação Boolean. |
-| [GroupingLocked](../../aspose.slides/iconnectorlock/groupinglocked) { get; set; } | Determina se a adição desta forma a um grupo é proibida. Leitura/gravação Boolean. |
+| [GroupingLocked](../../aspose.slides/iconnectorlock/groupinglocked) { get; set; } | Determina se a inclusão desta forma em um grupo é proibida. Leitura/gravação Boolean. |
 | [PositionMove](../../aspose.slides/iconnectorlock/positionmove) { get; set; } | Determina se mover esta forma é proibido. Leitura/gravação Boolean. |
 | [RotateLocked](../../aspose.slides/iconnectorlock/rotatelocked) { get; set; } | Determina se a alteração do ângulo de rotação desta forma é proibida. Leitura/gravação Boolean. |
 | [SelectLocked](../../aspose.slides/iconnectorlock/selectlocked) { get; set; } | Determina se a seleção desta forma é proibida. Leitura/gravação Boolean. |
 | [ShapeTypeLocked](../../aspose.slides/iconnectorlock/shapetypelocked) { get; set; } | Determina se a alteração do tipo de forma é proibida. Leitura/gravação Boolean. |
 | [SizeLocked](../../aspose.slides/iconnectorlock/sizelocked) { get; set; } | Determina se redimensionar esta forma é proibido. Leitura/gravação Boolean. |
 
-### Ver Também
+### Veja Também
 
 * interface [IBaseShapeLock](../ibaseshapelock)
 * namespace [Aspose.Slides](../../aspose.slides)

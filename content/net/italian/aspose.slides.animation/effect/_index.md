@@ -1,14 +1,14 @@
 ---
 title: Effect
-second_title: Aspose.Sildes per il riferimento API .NET
-description: Rappresenta l'effetto di animazione.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta un effetto di animazione.
 type: docs
-weight: 260
+weight: 280
 url: /it/aspose.slides.animation/effect/
 ---
 ## Classe Effect
 
-Rappresenta l'effetto di animazione.
+Rappresenta un effetto di animazione.
 
 ```csharp
 public class Effect : IEffect
@@ -18,20 +18,20 @@ public class Effect : IEffect
 
 | Nome | Descrizione |
 | --- | --- |
-| [AfterAnimationColor](../../aspose.slides.animation/effect/afteranimationcolor) { get; set; } | Definisce un colore di animazione post-effetto per l'effetto. Lettura/Scrittura [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [AfterAnimationType](../../aspose.slides.animation/effect/afteranimationtype) { get; set; } | Definisce un tipo di animazione post-effetto per l'effetto. Lettura/Scrittura [`AfterAnimationType`](./afteranimationtype). |
-| [AnimateTextType](../../aspose.slides.animation/effect/animatetexttype) { get; set; } | Definisce un tipo di animazione del testo per l'effetto. Il testo della forma può essere animato lettera per lettera, parola per parola o tutto in una volta. Lettura/Scrittura [`AnimateTextType`](./animatetexttype). |
-| [Behaviors](../../aspose.slides.animation/effect/behaviors) { get; set; } | Restituisce la raccolta di comportamenti per l'effetto. Lettura/Scrittura [`IBehaviorCollection`](../ibehaviorcollection). |
-| [DelayBetweenTextParts](../../aspose.slides.animation/effect/delaybetweentextparts) { get; set; } | Definisce un ritardo tra le parti del testo animato (parole o lettere). Un valore positivo specifica la percentuale della durata dell'effetto. Un valore negativo specifica il ritardo in secondi. Lettura/Scrittura Single. |
-| [PresetClassType](../../aspose.slides.animation/effect/presetclasstype) { get; set; } | Definisce la classe dell'effetto. Lettura/Scrittura [`EffectPresetClassType`](../effectpresetclasstype). |
+| [AfterAnimationColor](../../aspose.slides.animation/effect/afteranimationcolor) { get; set; } | Definisce un colore di fine animazione per l'effetto. Lettura/scrittura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AfterAnimationType](../../aspose.slides.animation/effect/afteranimationtype) { get; set; } | Definisce un tipo di fine animazione per l'effetto. Lettura/scrittura [`AfterAnimationType`](./afteranimationtype). |
+| [AnimateTextType](../../aspose.slides.animation/effect/animatetexttype) { get; set; } | Definisce un tipo di animazione del testo per l'effetto. Il testo della forma può essere animato per lettera, per parola o tutto insieme. Lettura/scrittura [`AnimateTextType`](./animatetexttype). |
+| [Behaviors](../../aspose.slides.animation/effect/behaviors) { get; set; } | Restituisce la raccolta di comportamenti per l'effetto. Lettura/scrittura [`IBehaviorCollection`](../ibehaviorcollection). |
+| [DelayBetweenTextParts](../../aspose.slides.animation/effect/delaybetweentextparts) { get; set; } | Definisce un ritardo tra le parti del testo animato (parole o lettere). Un valore positivo specifica la percentuale della durata dell'effetto. Un valore negativo specifica il ritardo in secondi. Lettura/scrittura Single. |
+| [PresetClassType](../../aspose.slides.animation/effect/presetclasstype) { get; set; } | Definisce la classe dell'effetto. Lettura/scrittura [`EffectPresetClassType`](../effectpresetclasstype). |
 | [Sequence](../../aspose.slides.animation/effect/sequence) { get; } | Restituisce una sequenza per un effetto. Sola lettura [`ISequence`](../isequence). |
-| [Sound](../../aspose.slides.animation/effect/sound) { get; set; } | Definisce il suono incorporato per l'effetto. Lettura/Scrittura [`IAudio`](../../aspose.slides/iaudio). |
-| [StopPreviousSound](../../aspose.slides.animation/effect/stopprevioussound) { get; set; } | Questo attributo specifica se l'effetto di animazione interrompe il suono precedente. Lettura/Scrittura Boolean. |
-| [Subtype](../../aspose.slides.animation/effect/subtype) { get; set; } | Definisce il sottotipo dell'effetto. Lettura/Scrittura [`EffectSubtype`](../effectsubtype). |
+| [Sound](../../aspose.slides.animation/effect/sound) { get; set; } | Definisce il suono incorporato per l'effetto. Lettura/scrittura [`IAudio`](../../aspose.slides/iaudio). |
+| [StopPreviousSound](../../aspose.slides.animation/effect/stopprevioussound) { get; set; } | Questo attributo specifica se l'effetto di animazione interrompe il suono precedente. Lettura/scrittura Boolean. |
+| [Subtype](../../aspose.slides.animation/effect/subtype) { get; set; } | Definisce il sottotipo dell'effetto. Lettura/scrittura [`EffectSubtype`](../effectsubtype). |
 | [TargetShape](../../aspose.slides.animation/effect/targetshape) { get; } | Restituisce la forma di destinazione per l'effetto. Sola lettura [`IShape`](../../aspose.slides/ishape). |
 | [TextAnimation](../../aspose.slides.animation/effect/textanimation) { get; } | TextAnimation Sola lettura [`ITextAnimation`](../itextanimation). |
-| [Timing](../../aspose.slides.animation/effect/timing) { get; set; } | Definisce il valore di temporizzazione per l'effetto. Lettura/Scrittura [`ITiming`](../itiming). |
-| [Type](../../aspose.slides.animation/effect/type) { get; set; } | Definisce il tipo di effetto. Lettura/Scrittura [`EffectType`](../effecttype). |
+| [Timing](../../aspose.slides.animation/effect/timing) { get; set; } | Definisce il valore di temporizzazione per l'effetto. Lettura/scrittura [`ITiming`](../itiming). |
+| [Type](../../aspose.slides.animation/effect/type) { get; set; } | Definisce il tipo di effetto. Lettura/scrittura [`EffectType`](../effecttype). |
 
 ### Vedi anche
 

@@ -1,24 +1,24 @@
 ---
 title: IOutputSaver
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Kimenet mentési szolgáltatást reprezentál.
+second_title: Aspose.Sildes a .NET API referencia
+description: Kimeneti mentési szolgáltatást képvisel.
 type: docs
-weight: 4590
+weight: 4610
 url: /hu/aspose.slides.export.web/ioutputsaver/
 ---
 ## IOutputSaver interfész
 
-Kimenet mentési szolgáltatást reprezentál.
+Kimenetmentő szolgáltatást képviseli.
 
 ```csharp
 public interface IOutputSaver
 ```
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [Save](../../aspose.slides.export.web/ioutputsaver/save)(string, IOutputFile) | Mentésre kerül a kimeneti fájl a megadott útvonalra. |
+| [Save](../../aspose.slides.export.web/ioutputsaver/save)(string, IOutputFile) | Elmenti a kimeneti fájlt a megadott útvonalra. |
 
 ### Lásd még
 

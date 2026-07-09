@@ -1,14 +1,14 @@
 ---
 title: ILineFormatCollectionEffectiveData
-second_title: Aspose.Sildes pro .NET – reference API
-description: Neměnný objekt, který představuje kolekci efektivních formátů čar určenou pouze pro čtení.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Neměnný objekt, který představuje jen ke čtení kolekci efektivních formátů čar.
 type: docs
-weight: 11280
+weight: 11300
 url: /cs/aspose.slides.theme/ilineformatcollectioneffectivedata/
 ---
 ## ILineFormatCollectionEffectiveData rozhraní
 
-Neměnný objekt, který představuje pouze pro čtení kolekci efektivních formátů čar.
+Neměnný objekt, který představuje pouze ke čtení kolekci efektivních formátů čar.
 
 ```csharp
 public interface ILineFormatCollectionEffectiveData : IGenericCollection<ILineFormatEffectiveData>
@@ -18,7 +18,7 @@ public interface ILineFormatCollectionEffectiveData : IGenericCollection<ILineFo
 
 | Název | Popis |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ilineformatcollectioneffectivedata/item) { get; } | Získá prvek na zadaném indexu. Pouze pro čtení [`ILineFormatEffectiveData`](../../aspose.slides/ilineformateffectivedata). |
+| [Item](../../aspose.slides.theme/ilineformatcollectioneffectivedata/item) { get; } | Získá prvek na určeném indexu. Pouze ke čtení [`ILineFormatEffectiveData`](../../aspose.slides/ilineformateffectivedata). |
 
 ### Poznámky
 

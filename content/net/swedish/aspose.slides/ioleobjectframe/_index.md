@@ -1,14 +1,14 @@
 ---
 title: IOleObjectFrame
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar ett OLE-objekt på en bild.
+description: Representerar ett OLE-objekt på en bildruta.
 type: docs
-weight: 6520
+weight: 6540
 url: /sv/aspose.slides/ioleobjectframe/
 ---
 ## IOleObjectFrame gränssnitt
 
-Representerar ett OLE-objekt på en bild.
+Representerar ett OLE-objekt på en bildruta.
 
 ```csharp
 public interface IOleObjectFrame : IGraphicalObject
@@ -19,27 +19,27 @@ public interface IOleObjectFrame : IGraphicalObject
 | Name | Description |
 | --- | --- |
 | [AsIGraphicalObject](../../aspose.slides/ioleobjectframe/asigraphicalobject) { get; } | Tillåter att hämta bas-IGraphicalObject-gränssnittet. Skrivskyddad [`IGraphicalObject`](../igraphicalobject). |
-| [EmbeddedData](../../aspose.slides/ioleobjectframe/embeddeddata) { get; } | Hämtar information om OLE inbäddade data. Skrivskyddad [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo). |
-| [EmbeddedFileLabel](../../aspose.slides/ioleobjectframe/embeddedfilelabel) { get; } | Returnerar filnamnet för det inbäddade OLE-objektet |
-| [EmbeddedFileName](../../aspose.slides/ioleobjectframe/embeddedfilename) { get; } | Returnerar sökvägen för det inbäddade OLE-objektet |
-| [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | Bestämmer om ett objekt är synligt som ikon. Läs/skriv Boolean. |
-| [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | Bestämmer om ett objekt är länkat till en extern fil. Skrivskyddad Boolean. |
+| [EmbeddedData](../../aspose.slides/ioleobjectframe/embeddeddata) { get; } | Hämtar information om inbäddade OLE-data. Skrivskyddad [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo). |
+| [EmbeddedFileLabel](../../aspose.slides/ioleobjectframe/embeddedfilelabel) { get; } | Returnerar filnamnet för inbäddat OLE-objekt |
+| [EmbeddedFileName](../../aspose.slides/ioleobjectframe/embeddedfilename) { get; } | Returnerar sökvägen för inbäddat OLE-objekt |
+| [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | Avgör om ett objekt är synligt som ikon. Läs/skriv Boolean. |
+| [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | Avgör om ett objekt är länkat till en extern fil. Skrivskyddad Boolean. |
 | [LinkFileName](../../aspose.slides/ioleobjectframe/linkfilename) { get; } | Returnerar den fullständiga sökvägen till en länkad fil. Kort filnamn kommer att användas. Skrivskyddad String. |
 | [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | Returnerar den fullständiga sökvägen till en länkad fil. Långt filnamn kommer att användas. Läs/skriv String. |
 | [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | Returnerar den relativa sökvägen till en länkad fil om den finns, annars returneras en tom sträng. Skrivskyddad String. |
 | [ObjectName](../../aspose.slides/ioleobjectframe/objectname) { get; set; } | Returnerar eller anger namnet på ett objekt. Läs/skriv String. |
 | [ObjectProgId](../../aspose.slides/ioleobjectframe/objectprogid) { get; set; } | Returnerar ProgID för ett objekt. Skrivskyddad String. |
-| [SubstitutePictureFormat](../../aspose.slides/ioleobjectframe/substitutepictureformat) { get; } | Returnerar OleObject bildfyllningsegenskaps-objekt. Skrivskyddad [`IPictureFillFormat`](../ipicturefillformat). |
+| [SubstitutePictureFormat](../../aspose.slides/ioleobjectframe/substitutepictureformat) { get; } | Returnerar OleObject bildfyllningsegenskapsobjekt. Skrivskyddad [`IPictureFillFormat`](../ipicturefillformat). |
 | [SubstitutePictureTitle](../../aspose.slides/ioleobjectframe/substitutepicturetitle) { get; set; } | Returnerar eller anger titeln för OleObject-ikon. Läs/skriv String. |
-| [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | Bestämmer om det länkade inbäddade objektet uppdateras automatiskt när presentationen öppnas eller skrivs ut. Läs/skriv Boolean. |
+| [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | Avgör om det länkade inbäddade objektet automatiskt uppdateras när presentationen öppnas eller skrivs ut. Läs/skriv Boolean. |
 
 ## Metoder
 
 | Name | Description |
 | --- | --- |
-| [SetEmbeddedData](../../aspose.slides/ioleobjectframe/setembeddeddata)(IOleEmbeddedDataInfo) | Anger information om OLE inbäddade data. |
+| [SetEmbeddedData](../../aspose.slides/ioleobjectframe/setembeddeddata)(IOleEmbeddedDataInfo) | Ställer in information om inbäddade OLE-data. |
 
-### Se också
+### Se även
 
 * gränssnitt [IGraphicalObject](../igraphicalobject)
 * namnrymd [Aspose.Slides](../../aspose.slides)

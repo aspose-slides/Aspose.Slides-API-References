@@ -1,9 +1,9 @@
 ---
 title: IChartPortionFormat
-second_title: Aspose.Sildes a .NET API referencia
-description: A diagram részének formázási tulajdonságait képviseli, amelyeket diagramokban használnak.
+second_title: Aspose.Sildes .NET API referencia
+description: A diagramokban használt diagramrész formázási tulajdonságait képviseli.
 type: docs
-weight: 1900
+weight: 1920
 url: /hu/aspose.slides.charts/ichartportionformat/
 ---
 ## IChartPortionFormat interfész

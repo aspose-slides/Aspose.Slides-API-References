@@ -1,14 +1,14 @@
 ---
 title: AxesCompositionNotCombinableException
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Wyjątek, który jest rzucany, gdy kompozycja osi serii nie jest łączona z obecną kompozycją osi na wykresie.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Wyjątek jest rzucany, gdy kompozycja osi serii nie jest kombinowalna z obecną kompozycją osi na wykresie.
 type: docs
-weight: 1140
+weight: 1160
 url: /pl/aspose.slides.charts/axescompositionnotcombinableexception/
 ---
 ## AxesCompositionNotCombinableException klasa
 
-Wyjątek, który jest rzucany, gdy kompozycja osi serii nie jest łączona z obecną kompozycją osi na wykresie.
+Wyjątek jest rzucany, gdy kompozycja osi serii nie jest kombinowalna z obecną kompozycją osi na wykresie.
 
 ```csharp
 public class AxesCompositionNotCombinableException : InvalidOperationException
@@ -18,11 +18,11 @@ public class AxesCompositionNotCombinableException : InvalidOperationException
 
 | Nazwa | Opis |
 | --- | --- |
-| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor)() | Domyślny konstruktor. |
+| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor)() | Konstruktor domyślny. |
 | [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_1)(string) | Konstruktor umożliwiający dodanie komunikatu do tego wyjątku. |
 | [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_2)(string, Exception) | Konstruktor wyjątku zawierającego komunikat i wbudowany wyjątek. |
 
-### Zobacz także
+### Zobacz też
 
 * przestrzeń nazw [Aspose.Slides.Charts](../../aspose.slides.charts)
 * zestaw [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IChart
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir slayttaki grafik tabloyu temsil eder.
+description: Bir slayt üzerindeki grafik çizelgeyi temsil eder.
 type: docs
-weight: 1720
+weight: 1740
 url: /tr/aspose.slides.charts/ichart/
 ---
 ## IChart arayüzü
 
-Bir slayttaki grafik tablosunu temsil eder.
+Bir slayt üzerindeki grafik çizelgeyi temsil eder.
 
 ```csharp
 public interface IChart : IFormattedTextContainer, IGraphicalObject, IOverrideThemeable
@@ -18,29 +18,29 @@ public interface IChart : IFormattedTextContainer, IGraphicalObject, IOverrideTh
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ichart/asiformattedtextcontainer) { get; } | Temel IFormattedTextContainer arayüzünü almayı sağlar. Salt okunur [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [AsIGraphicalObject](../../aspose.slides.charts/ichart/asigraphicalobject) { get; } | Temel IGraphicalObject arayüzünü almayı sağlar. Salt okunur [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
-| [AsIOverrideThemeable](../../aspose.slides.charts/ichart/asioverridethemeable) { get; } | IOverrideThemeable arayüzünü döndürür. Salt okunur [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [Axes](../../aspose.slides.charts/ichart/axes) { get; } | Grafik eksenlerine erişim sağlar. Salt okunur [`IAxesManager`](../iaxesmanager). |
-| [BackWall](../../aspose.slides.charts/ichart/backwall) { get; } | 3D grafiğin arka duvarının biçimini değiştirmeyi sağlayan bir nesne döndürür. Salt okunur [`IChartWall`](../ichartwall). |
-| [ChartData](../../aspose.slides.charts/ichart/chartdata) { get; } | Grafikle ilişkili bağlanmış veya gömülü veri hakkında bilgi döndürür. Salt okunur [`IChartData`](../ichartdata). |
-| [ChartDataTable](../../aspose.slides.charts/ichart/chartdatatable) { get; } | Grafiğin veri tablosunu döndürür. Salt okunur [`IDataTable`](../idatatable). |
-| [ChartTitle](../../aspose.slides.charts/ichart/charttitle) { get; } | Grafik başlığını döndürür veya ayarlar. Salt okunur [`IChartTitle`](../icharttitle). |
-| [DisplayBlanksAs](../../aspose.slides.charts/ichart/displayblanksas) { get; set; } | Grafik üzerinde boş hücrelerin nasıl çizileceğini döndürür veya ayarlar. Okunur/yazılabilir [`DisplayBlanksAsType`](../displayblanksastype). |
-| [Floor](../../aspose.slides.charts/ichart/floor) { get; } | 3D grafiğin zemininin biçimini değiştirmeyi sağlayan bir nesne döndürür. Salt okunur [`IChartWall`](../ichartwall). |
-| [HasDataTable](../../aspose.slides.charts/ichart/hasdatatable) { get; set; } | Grafiğin bir veri tablosu olup olmadığını belirler. Okunur/yazılabilir Boolean. |
-| [HasLegend](../../aspose.slides.charts/ichart/haslegend) { get; set; } | Grafiğin bir gösterge tablosu (legend) olup olmadığını belirler. Okunur/yazılabilir Boolean. |
-| [HasRoundedCorners](../../aspose.slides.charts/ichart/hasroundedcorners) { get; set; } | Grafik alanının yuvarlatılmış köşelere sahip olmasını belirtir. Okunur/yazılabilir Boolean. |
-| [HasTitle](../../aspose.slides.charts/ichart/hastitle) { get; set; } | Grafiğin görünür bir başlığı olup olmadığını belirler. Okunur/yazılabilir Boolean. |
-| [Legend](../../aspose.slides.charts/ichart/legend) { get; } | Grafik için bir gösterge tablosu döndürür veya ayarlar. Salt okunur [`ILegend`](../ilegend). |
-| [PlotArea](../../aspose.slides.charts/ichart/plotarea) { get; } | Grafiğin çizim alanını temsil eder. Salt okunur [`IChartPlotArea`](../ichartplotarea). |
-| [PlotVisibleCellsOnly](../../aspose.slides.charts/ichart/plotvisiblecellsonly) { get; set; } | Yalnızca görünen hücrelerin çizilip çizilmeyeceğini belirler. Hem görünen hem gizli hücrelerin çizilmesi için False ayarlayın. Okunur/yazılabilir Boolean. |
-| [Rotation3D](../../aspose.slides.charts/ichart/rotation3d) { get; } | Grafiğin 3D dönüşünü döndürür. Salt okunur [`IRotation3D`](../irotation3d). |
-| [ShowDataLabelsOverMaximum](../../aspose.slides.charts/ichart/showdatalabelsovermaximum) { get; set; } | Grafiğin maksimum değer üzerindeki veri etiketlerinin gösterilip gösterilmeyeceğini belirtir. Okunur/yazılabilir Boolean. |
-| [SideWall](../../aspose.slides.charts/ichart/sidewall) { get; } | 3D grafiğin yan duvarının biçimini değiştirmeyi sağlayan bir nesne döndürür. Salt okunur [`IChartWall`](../ichartwall). |
-| [Style](../../aspose.slides.charts/ichart/style) { get; set; } | Grafik stilini döndürür veya ayarlar. Okunur/yazılabilir [`StyleType`](../styletype). |
-| [Type](../../aspose.slides.charts/ichart/type) { get; set; } | Grafik türünü döndürür veya ayarlar. Okunur/yazılabilir [`ChartType`](../charttype). |
-| [UserShapes](../../aspose.slides.charts/ichart/usershapes) { get; } | Grafiğin üstüne çizilen şekilleri belirler. Salt okunur [`IGroupShape`](../../aspose.slides/igroupshape). |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ichart/asiformattedtextcontainer) { get; } | Temel IFormattedTextContainer arayüzüne erişim sağlar. Yalnızca okunabilir [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [AsIGraphicalObject](../../aspose.slides.charts/ichart/asigraphicalobject) { get; } | Temel IGraphicalObject arayüzüne erişim sağlar. Yalnızca okunabilir [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [AsIOverrideThemeable](../../aspose.slides.charts/ichart/asioverridethemeable) { get; } | IOverrideThemeable arayüzünü döndürür. Yalnızca okunabilir [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
+| [Axes](../../aspose.slides.charts/ichart/axes) { get; } | Grafik eksenlerine erişim sağlar. Yalnızca okunabilir [`IAxesManager`](../iaxesmanager). |
+| [BackWall](../../aspose.slides.charts/ichart/backwall) { get; } | 3B grafiğin arka duvarının biçimini değiştirmeye izin veren bir nesneyi döndürür. Yalnızca okunabilir [`IChartWall`](../ichartwall). |
+| [ChartData](../../aspose.slides.charts/ichart/chartdata) { get; } | Grafik ile ilişkili bağlanmış veya gömülü veri hakkında bilgi döndürür. Yalnızca okunabilir [`IChartData`](../ichartdata). |
+| [ChartDataTable](../../aspose.slides.charts/ichart/chartdatatable) { get; } | Grafiğin bir veri tablosunu döndürür. Yalnızca okunabilir [`IDataTable`](../idatatable). |
+| [ChartTitle](../../aspose.slides.charts/ichart/charttitle) { get; } | Grafik başlığını döndürür veya ayarlar. Yalnızca okunabilir [`IChartTitle`](../icharttitle). |
+| [DisplayBlanksAs](../../aspose.slides.charts/ichart/displayblanksas) { get; set; } | Grafikte boş hücrelerin nasıl çizileceğini döndürür veya ayarlar. Okunabilir/Yazılabilir [`DisplayBlanksAsType`](../displayblanksastype). |
+| [Floor](../../aspose.slides.charts/ichart/floor) { get; } | 3B grafiğin tabanının biçimini değiştirmeye izin veren bir nesneyi döndürür. Yalnızca okunabilir [`IChartWall`](../ichartwall). |
+| [HasDataTable](../../aspose.slides.charts/ichart/hasdatatable) { get; set; } | Grafiğin bir veri tablosu olup olmadığını belirler. Okunabilir/Yazılabilir Boolean. |
+| [HasLegend](../../aspose.slides.charts/ichart/haslegend) { get; set; } | Grafiğin bir legend'ı olup olmadığını belirler. Okunabilir/Yazılabilir Boolean. |
+| [HasRoundedCorners](../../aspose.slides.charts/ichart/hasroundedcorners) { get; set; } | Grafik alanının yuvarlatılmış köşelere sahip olacağını belirler. Okunabilir/Yazılabilir Boolean. |
+| [HasTitle](../../aspose.slides.charts/ichart/hastitle) { get; set; } | Grafiğin görünür bir başlığı olup olmadığını belirler. Okunabilir/Yazılabilir Boolean. |
+| [Legend](../../aspose.slides.charts/ichart/legend) { get; } | Grafik için bir legend döndürür veya ayarlar. Yalnızca okunabilir [`ILegend`](../ilegend). |
+| [PlotArea](../../aspose.slides.charts/ichart/plotarea) { get; } | Grafiğin çizecek alanını temsil eder. Yalnızca okunabilir [`IChartPlotArea`](../ichartplotarea). |
+| [PlotVisibleCellsOnly](../../aspose.slides.charts/ichart/plotvisiblecellsonly) { get; set; } | Yalnızca görünür hücrelerin çizilip çizilmeyeceğini belirler. Hem görünür hem gizli hücreleri çizmek için false olur. Okunabilir/Yazılabilir Boolean. |
+| [Rotation3D](../../aspose.slides.charts/ichart/rotation3d) { get; } | Grafiğin 3B dönüşünü döndürür. Yalnızca okunabilir [`IRotation3D`](../irotation3d). |
+| [ShowDataLabelsOverMaximum](../../aspose.slides.charts/ichart/showdatalabelsovermaximum) { get; set; } | Grafiğin maksimumu üzerindeki veri etiketlerinin gösterilip gösterilmeyeceğini belirler. Okunabilir/Yazılabilir Boolean. |
+| [SideWall](../../aspose.slides.charts/ichart/sidewall) { get; } | 3B grafiğin yan duvarının biçimini değiştirmeye izin veren bir nesneyi döndürür. Yalnızca okunabilir [`IChartWall`](../ichartwall). |
+| [Style](../../aspose.slides.charts/ichart/style) { get; set; } | Grafik stilini döndürür veya ayarlar. Okunabilir/Yazılabilir [`StyleType`](../styletype). |
+| [Type](../../aspose.slides.charts/ichart/type) { get; set; } | Grafik tipini döndürür veya ayarlar. Okunabilir/Yazılabilir [`ChartType`](../charttype). |
+| [UserShapes](../../aspose.slides.charts/ichart/usershapes) { get; } | Grafiğin üstüne çizilen şekilleri belirtir. Yalnızca okunabilir [`IGroupShape`](../../aspose.slides/igroupshape). |
 
 ## Yöntemler
 

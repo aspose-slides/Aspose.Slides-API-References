@@ -1,14 +1,14 @@
 ---
 title: PPImage
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir sunumda görüntüyü temsil eder.
+description: Bir sunumdaki resmi temsil eder.
 type: docs
-weight: 9230
+weight: 9250
 url: /tr/aspose.slides/ppimage/
 ---
 ## PPImage sınıf
 
-Bir sunumda görüntüyü temsil eder.
+Bir sunumdaki resmi temsil eder.
 
 ```csharp
 public class PPImage : IDisposable, IPPImage
@@ -16,26 +16,26 @@ public class PPImage : IDisposable, IPPImage
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [BinaryData](../../aspose.slides/ppimage/binarydata) { get; } | Bir görüntünün verisinin bir kopyasını döndürür. Yalnızca okunabilir Byte[]. |
-| [ContentType](../../aspose.slides/ppimage/contenttype) { get; } | Bir görüntünün MIME türünü döndürür, [`BinaryData`](./binarydata) içinde kodlanmış. Yalnızca okunabilir String. |
-| [Height](../../aspose.slides/ppimage/height) { get; } | Bir görüntünün yüksekliğini döndürür. Yalnızca okunabilir Int32. |
-| [Image](../../aspose.slides/ppimage/image) { get; } | Bir görüntünün kopyasını döndürür. Yalnızca okunabilir [`IImage`](../iimage). |
-| [SvgImage](../../aspose.slides/ppimage/svgimage) { get; set; } | ISvgImage nesnesini döndürür veya ayarlar [`ISvgImage`](../isvgimage) |
-| [Width](../../aspose.slides/ppimage/width) { get; } | Bir görüntünün genişliğini döndürür. Yalnızca okunabilir Int32. |
-| [X](../../aspose.slides/ppimage/x) { get; } | Bir görüntünün X ofsetini döndürür. Yalnızca okunabilir Int32. |
-| [Y](../../aspose.slides/ppimage/y) { get; } | Bir görüntünün Y ofsetini döndürür. Yalnızca okunabilir Int32. |
+| [BinaryData](../../aspose.slides/ppimage/binarydata) { get; } | Bir resmin verisinin kopyasını döndürür. Salt okunur Byte[]. |
+| [ContentType](../../aspose.slides/ppimage/contenttype) { get; } | Bir resmin MIME türünü, [`BinaryData`](./binarydata) içinde kodlanmış olarak döndürür. Salt okunur String. |
+| [Height](../../aspose.slides/ppimage/height) { get; } | Bir resmin yüksekliğini döndürür. Salt okunur Int32. |
+| [Image](../../aspose.slides/ppimage/image) { get; } | Bir resmin kopyasını döndürür. Salt okunur [`IImage`](../iimage). |
+| [SvgImage](../../aspose.slides/ppimage/svgimage) { get; set; } | ISvgImage nesnesini döndürür veya ayarlar [`ISvgImage`](../isvgimage). |
+| [Width](../../aspose.slides/ppimage/width) { get; } | Bir resmin genişliğini döndürür. Salt okunur Int32. |
+| [X](../../aspose.slides/ppimage/x) { get; } | Bir resmin X ofsetini döndürür. Salt okunur Int32. |
+| [Y](../../aspose.slides/ppimage/y) { get; } | Bir resmin Y ofsetini döndürür. Salt okunur Int32. |
 
 ## Yöntemler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [Dispose](../../aspose.slides/ppimage/dispose)() | Nesneyi yok eder. |
-| override [GetHashCode](../../aspose.slides/ppimage/gethashcode)() | Bir görüntünün hash kodunu döndürür. |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_2)(byte[]) | Görüntü verisini değiştirir. Yeni görüntünün verisi. newImageData parametresi null olduğunda. |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage)(IImage) | Görüntü verisini değiştirir. Dikkat: Image bir metafile ise rasterleştirilecektir. Bunun yerine ReplaceImage(byte[]) kullanın. Yeni görüntü. newImage parametresi null olduğunda. |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_1)(IPPImage) | Görüntü verisini değiştirir. Yeni IPPImage. newImage parametresi null olduğunda. |
+| [Dispose](../../aspose.slides/ppimage/dispose)() | Nesneyi serbest bırakır. |
+| override [GetHashCode](../../aspose.slides/ppimage/gethashcode)() | Bir resmin hash kodunu döndürür. |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_2)(byte[]) | Resim verisini değiştirir. Yeni resmin verisi. newImageData parametresi null olduğunda. |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage)(IImage) | Resim verisini değiştirir. Dikkat: Image bir metafile ise rasterleştirilecektir. Bunun yerine ReplaceImage(byte[]) kullanın. Yeni resim. newImage parametresi null olduğunda. |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_1)(IPPImage) | Resim verisini değiştirir. Yeni IPPImage. newImage parametresi null olduğunda. |
 
 ### Ayrıca Bakınız
 

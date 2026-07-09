@@ -1,9 +1,9 @@
 ---
 title: MarkdownSaveOptions.MarkdownSvgImageSavingHandler
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Dipanggil untuk setiap gambar SVG selama ekspor Markdown. Kembalikan true untuk menggunakan link yang ditentukan atau false untuk menerapkan logika penyimpanan default.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Dipanggil untuk setiap gambar SVG selama ekspor Markdown. Kembalikan true untuk menggunakan tautan yang ditentukan atau false untuk menerapkan logika penyimpanan default.
 type: docs
-weight: 4250
+weight: 4270
 url: /id/aspose.slides.export/markdownsaveoptions.markdownsvgimagesavinghandler/
 ---
 ## MarkdownSaveOptions.MarkdownSvgImageSavingHandler delegate
@@ -17,7 +17,7 @@ public delegate bool MarkdownSvgImageSavingHandler(ISvgImage svgImage, ref strin
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | svgImage | ISvgImage | Gambar SVG yang sedang diekspor. |
-| link | String& | Link Markdown yang digunakan ketika mengembalikan `true`. |
+| link | String& | Tautan Markdown yang digunakan saat mengembalikan `true`. |
 
 ### Lihat Juga
 

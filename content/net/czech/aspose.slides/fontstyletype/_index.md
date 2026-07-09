@@ -3,12 +3,12 @@ title: FontStyleType
 second_title: Aspose.Sildes pro .NET API Reference
 description: Definuje formátovací styly, které lze použít na text.
 type: docs
-weight: 4850
+weight: 4870
 url: /cs/aspose.slides/fontstyletype/
 ---
-## FontStyleType výčtový typ
+## enumerace FontStyleType
 
-Definuje formátovací styly, které lze aplikovat na text.
+Definuje formátovací styly, které lze použít na text.
 
 ```csharp
 [Flags]
@@ -21,7 +21,7 @@ public enum FontStyleType
 | --- | --- | --- |
 | Regular | `0` | Standardní text. |
 | Bold | `1` | Tučný text. |
-| Italic | `2` | Kurzíva. |
+| Italic | `2` | Kurzívní text. |
 | Underline | `4` | Podtržený text. |
 | Strikeout | `8` | Text přeškrtnutý vodorovnou čarou. |
 

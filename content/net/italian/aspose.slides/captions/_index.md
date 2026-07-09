@@ -1,14 +1,14 @@
 ---
 title: Captions
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta i sottotitoli chiusi WebVTT.
+description: Rappresenta le didascalie chiuse WebVTT.
 type: docs
-weight: 1090
+weight: 1110
 url: /it/aspose.slides/captions/
 ---
 ## Captions classe
 
-Rappresenta i sottotitoli chiusi WebVTT.
+Rappresenta le didascalie chiuse WebVTT.
 
 ```csharp
 public class Captions : ICaptions
@@ -18,10 +18,10 @@ public class Captions : ICaptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [BinaryData](../../aspose.slides/captions/binarydata) { get; } | Restituisce i dati binari dei sottotitoli chiusi. Solo lettura Byte[]. |
-| [CaptionId](../../aspose.slides/captions/captionid) { get; } | Restituisce l'identificatore globale unico (GUID) dei sottotitoli chiusi. Solo lettura Guid. |
-| [DataAsString](../../aspose.slides/captions/dataasstring) { get; } | Restituisce i dati dei sottotitoli chiusi come stringa codificata UTF-8. Solo lettura String. |
-| [Label](../../aspose.slides/captions/label) { get; set; } | Restituisce o imposta l'etichetta dei sottotitoli chiusi. Lettura/scrittura String. |
+| [BinaryData](../../aspose.slides/captions/binarydata) { get; } | Restituisce i dati binari delle didascalie chiuse. Sola lettura Byte[]. |
+| [CaptionId](../../aspose.slides/captions/captionid) { get; } | Restituisce l'identificatore unico globale (GUID) delle didascalie chiuse. Sola lettura Guid. |
+| [DataAsString](../../aspose.slides/captions/dataasstring) { get; } | Restituisce i dati delle didascalie chiuse come stringa codificata UTF-8. Sola lettura String. |
+| [Label](../../aspose.slides/captions/label) { get; set; } | Restituisce o imposta l'etichetta delle didascalie chiuse. Lettura/scrittura String. |
 
 ### Vedi anche
 

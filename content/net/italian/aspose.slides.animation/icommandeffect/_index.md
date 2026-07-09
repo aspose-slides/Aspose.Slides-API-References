@@ -1,9 +1,9 @@
 ---
 title: ICommandEffect
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Riferimento API di Aspose.Sildes per .NET
 description: Rappresenta un effetto di comando per un comportamento di animazione.
 type: docs
-weight: 460
+weight: 480
 url: /it/aspose.slides.animation/icommandeffect/
 ---
 ## ICommandEffect interfaccia
@@ -19,8 +19,8 @@ public interface ICommandEffect : IBehavior
 | Nome | Descrizione |
 | --- | --- |
 | [AsIBehavior](../../aspose.slides.animation/icommandeffect/asibehavior) { get; } | Consente di ottenere l'interfaccia base IBehavior. Solo lettura [`IBehavior`](../ibehavior). |
-| [CommandString](../../aspose.slides.animation/icommandeffect/commandstring) { get; set; } | Definisce la stringa di comando. Lettura/scrittura String. |
-| [ShapeTarget](../../aspose.slides.animation/icommandeffect/shapetarget) { get; set; } | Definisce il target forma dell'effetto di comando. Lettura/scrittura [`IShape`](../../aspose.slides/ishape). |
+| [CommandString](../../aspose.slides.animation/icommandeffect/commandstring) { get; set; } | Definisce la stringa del comando. Lettura/scrittura String. |
+| [ShapeTarget](../../aspose.slides.animation/icommandeffect/shapetarget) { get; set; } | Definisce il target della forma per l'effetto di comando. Lettura/scrittura [`IShape`](../../aspose.slides/ishape). |
 | [Type](../../aspose.slides.animation/icommandeffect/type) { get; set; } | Definisce il tipo di effetto di comando del comportamento. Lettura/scrittura [`CommandEffectType`](../commandeffecttype). |
 
 ### Vedi anche

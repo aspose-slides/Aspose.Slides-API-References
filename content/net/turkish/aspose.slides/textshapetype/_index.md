@@ -1,14 +1,14 @@
 ---
 title: TextShapeType
 second_title: Aspose.Sildes .NET API Referansı
-description: Metin kaydırma şeklini temsil eder.
+description: Metin sarma şekli temsil eder.
 type: docs
-weight: 10960
+weight: 10980
 url: /tr/aspose.slides/textshapetype/
 ---
-## TextShapeType enum
+## TextShapeType enum'ı
 
-Metin kaydırma şekli temsil eder.
+Metin sarma şekli temsil eder.
 
 ```csharp
 public enum TextShapeType : sbyte
@@ -16,53 +16,53 @@ public enum TextShapeType : sbyte
 
 ### Değerler
 
-| Name | Value | Description |
+| Ad | Değer | Açıklama |
 | --- | --- | --- |
 | NotDefined | `-1` | Tanımlanmamış |
-| None | `0` | Şekil yok |
+| None | `0` | Şekil Yok |
 | Plain | `1` | Düz |
 | Stop | `2` | Dur İşareti |
 | Triangle | `3` | Üçgen |
 | TriangleInverted | `4` | Ters Üçgen |
-| Chevron | `5` | Chevron |
-| ChevronInverted | `6` | Ters Chevron |
-| RingInside | `7` | İç Çember |
-| RingOutside | `8` | Dış Çember |
-| ArchUp | `9` | Yukarı Yay |
-| ArchDown | `10` | Aşağı Yay |
+| Chevron | `5` | Şekvron |
+| ChevronInverted | `6` | Ters Şekvron |
+| RingInside | `7` | İç Halka |
+| RingOutside | `8` | Dış Halka |
+| ArchUp | `9` | Yukarı Kemer |
+| ArchDown | `10` | Aşağı Kemer |
 | Circle | `11` | Daire |
 | Button | `12` | Düğme |
-| ArchUpPour | `13` | Yukarı Dökme Yay |
-| ArchDownPour | `14` | Aşağı Dökme Yay |
-| CirclePour | `15` | Daire Dökme |
-| ButtonPour | `16` | Düğme Dökme |
-| CurveUp | `17` | Yukarı Kavis |
-| CurveDown | `18` | Aşağı Kavis |
-| CanUp | `19` | Yukarı Kutu |
-| CanDown | `20` | Aşağı Kutu |
+| ArchUpPour | `13` | Yukarı Dökülen Kemer |
+| ArchDownPour | `14` | Aşağı Dökülen Kemer |
+| CirclePour | `15` | Dökülen Daire |
+| ButtonPour | `16` | Dökülen Düğme |
+| CurveUp | `17` | Yukarı Eğri |
+| CurveDown | `18` | Aşağı Eğri |
+| CanUp | `19` | Yukarı Kap |
+| CanDown | `20` | Aşağı Kap |
 | Wave1 | `21` | Dalga 1 |
 | Wave2 | `22` | Dalga 2 |
 | DoubleWave1 | `23` | Çift Dalga 1 |
 | Wave4 | `24` | Dalga 4 |
 | Inflate | `25` | Şişir |
-| Deflate | `26` | Küçült |
+| Deflate | `26` | Sön |
 | InflateBottom | `27` | Alt Şişir |
-| DeflateBottom | `28` | Alt Küçült |
+| DeflateBottom | `28` | Alt Sön |
 | InflateTop | `29` | Üst Şişir |
-| DeflateTop | `30` | Üst Küçült |
-| DeflateInflate | `31` | Küçült-Şişir |
-| DeflateInflateDeflate | `32` | Küçült-Şişir-Küçült |
+| DeflateTop | `30` | Üst Sön |
+| DeflateInflate | `31` | Sön-Şişir |
+| DeflateInflateDeflate | `32` | Sön-Şişir-Sön |
 | FadeRight | `33` | Sağa Solma |
 | FadeLeft | `34` | Sola Solma |
 | FadeUp | `35` | Yukarı Solma |
 | FadeDown | `36` | Aşağı Solma |
-| SlantUp | `37` | Yukarı Eğim |
-| SlantDown | `38` | Aşağı Eğim |
-| CascadeUp | `39` | Yukarı Kademeli |
-| CascadeDown | `40` | Aşağı Kademeli |
+| SlantUp | `37` | Yukarı Eğik |
+| SlantDown | `38` | Aşağı Eğik |
+| CascadeUp | `39` | Yukarı Kaskad |
+| CascadeDown | `40` | Aşağı Kaskad |
 | Custom | `41` | Özel |
 
-### İlgili
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

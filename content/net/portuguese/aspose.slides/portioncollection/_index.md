@@ -1,9 +1,9 @@
 ---
 title: PortionCollection
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Referência da API Aspose.Slides para .NET
 description: Representa uma coleção de porções.
 type: docs
-weight: 9450
+weight: 9470
 url: /pt/aspose.slides/portioncollection/
 ---
 ## PortionCollection classe
@@ -29,8 +29,8 @@ public sealed class PortionCollection : DomObject<Paragraph>, IPortionCollection
 | [Add](../../aspose.slides/portioncollection/add)(IPortion) | Adiciona um Portion ao final da coleção. |
 | [Clear](../../aspose.slides/portioncollection/clear)() | Remove todos os elementos da coleção. |
 | [Contains](../../aspose.slides/portioncollection/contains)(IPortion) | Determina se a ICollection contém um valor específico. |
-| [CopyTo](../../aspose.slides/portioncollection/copyto)(IPortion[], int) | Copia os elementos da ICollection para um Array, começando em um índice específico do Array. |
-| [GetEnumerator](../../aspose.slides/portioncollection/getenumerator)() | Retorna um enumerador que itera através da coleção. |
+| [CopyTo](../../aspose.slides/portioncollection/copyto)(IPortion[], int) | Copia os elementos da ICollection para um Array, começando em um índice de Array específico. |
+| [GetEnumerator](../../aspose.slides/portioncollection/getenumerator)() | Retorna um enumerador que itera pela coleção. |
 | [IndexOf](../../aspose.slides/portioncollection/indexof)(IPortion) | Determina o índice de um item específico na IList. |
 | [Insert](../../aspose.slides/portioncollection/insert)(int, IPortion) | Insere um Portion na coleção no índice especificado. |
 | [Remove](../../aspose.slides/portioncollection/remove)(IPortion) | Remove a primeira ocorrência de um objeto específico da ICollection. |

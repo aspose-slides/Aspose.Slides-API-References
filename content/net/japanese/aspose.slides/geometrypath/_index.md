@@ -1,9 +1,9 @@
 ---
 title: GeometryPath
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: GeometryShape のジオメトリ パスを表します
 type: docs
-weight: 4940
+weight: 4960
 url: /ja/aspose.slides/geometrypath/
 ---
 ## GeometryPath クラス
@@ -14,7 +14,7 @@ GeometryShape のジオメトリ パスを表します
 public sealed class GeometryPath : IGeometryPath
 ```
 
-## コンストラクタ
+## コンストラクター
 
 | 名前 | 説明 |
 | --- | --- |
@@ -25,32 +25,32 @@ public sealed class GeometryPath : IGeometryPath
 | 名前 | 説明 |
 | --- | --- |
 | [FillMode](../../aspose.slides/geometrypath/fillmode) { get; set; } | 塗りつぶしモードを設定します |
-| [PathData](../../aspose.slides/geometrypath/pathdata) { get; } | GeometryShape のジオメトリ パスをパス セグメントの配列として返します。 |
+| [PathData](../../aspose.slides/geometrypath/pathdata) { get; } | GeometryShape のジオメトリ パスをパス セグメントの配列として返します |
 | [Stroke](../../aspose.slides/geometrypath/stroke) { get; set; } | ストロークの外観を設定します |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [ArcTo](../../aspose.slides/geometrypath/arcto)(float, float, float, float) | 指定された弧をパスに追加します。 |
-| [CloseFigure](../../aspose.slides/geometrypath/closefigure)() | このパスの現在の図形を閉じます。 |
-| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | パスの末端に 3 次ベジェ曲線を追加します |
-| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | パスの指定された位置に 3 次ベジェ曲線を追加します |
-| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | パスの末端に 3 次ベジェ曲線を追加します |
-| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | パスの指定された位置に 3 次ベジェ曲線を追加します |
-| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_2)(PointF) | パスの末端に直線を追加します |
-| [LineTo](../../aspose.slides/geometrypath/lineto#lineto)(float, float) | パスの末端に直線を追加します |
+| [ArcTo](../../aspose.slides/geometrypath/arcto)(float, float, float, float) | 指定された円弧をパスに追加します |
+| [CloseFigure](../../aspose.slides/geometrypath/closefigure)() | このパスの現在の図形を閉じます |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | パスの末尾に立方ベジエ曲線を追加します |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | パスの指定された位置に立方ベジエ曲線を追加します |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | パスの末尾に立方ベジエ曲線を追加します |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | パスの指定された位置に立方ベジエ曲線を追加します |
+| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_2)(PointF) | パスの末尾に直線を追加します |
+| [LineTo](../../aspose.slides/geometrypath/lineto#lineto)(float, float) | パスの末尾に直線を追加します |
 | [LineTo](../../aspose.slides/geometrypath/lineto#lineto_3)(PointF, uint) | パスの指定された位置に直線を追加します |
 | [LineTo](../../aspose.slides/geometrypath/lineto#lineto_1)(float, float, uint) | パスの指定された位置に直線を追加します |
-| [MoveTo](../../aspose.slides/geometrypath/moveto#moveto_1)(PointF) | 次のポイント位置を設定します。 |
-| [MoveTo](../../aspose.slides/geometrypath/moveto#moveto)(float, float) | 次のポイント位置を設定します。 |
-| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | パスの末端に二次ベジェ曲線を追加します |
-| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | パスの指定された位置に二次ベジェ曲線を追加します |
-| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | パスの末端に二次ベジェ曲線を追加します |
-| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | パスの指定された位置に二次ベジェ曲線を追加します |
-| [RemoveAt](../../aspose.slides/geometrypath/removeat)(int) | ジオメトリ パスの指定されたインデックスのセグメントを削除します。 |
+| [MoveTo](../../aspose.slides/geometrypath/moveto#moveto_1)(PointF) | 次の点の位置を設定します |
+| [MoveTo](../../aspose.slides/geometrypath/moveto#moveto)(float, float) | 次の点の位置を設定します |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | パスの末尾に二次ベジエ曲線を追加します |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | パスの指定された位置に二次ベジエ曲線を追加します |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | パスの末尾に二次ベジエ曲線を追加します |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | パスの指定された位置に二次ベジエ曲線を追加します |
+| [RemoveAt](../../aspose.slides/geometrypath/removeat)(int) | ジオメトリ パスの指定されたインデックスのセグメントを削除します |
 
-### 関連項目
+### 参照
 
 * インターフェイス [IGeometryPath](../igeometrypath)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

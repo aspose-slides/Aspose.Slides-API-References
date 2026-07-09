@@ -1,14 +1,14 @@
 ---
 title: ChartDataWorksheetCollection
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili koleksi lembar kerja dari buku kerja data diagram.
+description: Mewakili koleksi worksheet dari buku kerja data chart.
 type: docs
-weight: 1380
+weight: 1400
 url: /id/aspose.slides.charts/chartdataworksheetcollection/
 ---
 ## ChartDataWorksheetCollection kelas
 
-Mewakili koleksi lembar kerja dari buku kerja data diagram.
+Mewakili koleksi worksheet dari buku kerja data chart.
 
 ```csharp
 public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
@@ -16,18 +16,18 @@ public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartdataworksheetcollection/count) { get; } | Mengembalikan jumlah. Baca-saja Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (thread-safe). Baca-saja Boolean. |
-| [Item](../../aspose.slides.charts/chartdataworksheetcollection/item) { get; } | Mengembalikan lembar kerja berdasarkan indeks. |
-| [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | Mengembalikan akar sinkronisasi. Baca-saja Object. |
+| [Count](../../aspose.slides.charts/chartdataworksheetcollection/count) { get; } | Mengembalikan jumlah. Hanya-baca Int32. |
+| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (aman terhadap thread). Hanya-baca Boolean. |
+| [Item](../../aspose.slides.charts/chartdataworksheetcollection/item) { get; } | Mengembalikan worksheet berdasarkan indeks. |
+| [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | Mengembalikan akar sinkronisasi. Hanya-baca Object. |
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [CopyTo](../../aspose.slides.charts/chartdataworksheetcollection/copyto)(Array, int) | Menyalin ke array yang ditentukan. |
+| [CopyTo](../../aspose.slides.charts/chartdataworksheetcollection/copyto)(Array, int) | Salin ke array yang ditentukan. |
 | [GetEnumerator](../../aspose.slides.charts/chartdataworksheetcollection/getenumerator)() | Mengembalikan enumerator yang mengiterasi koleksi. |
 
 ### Contoh

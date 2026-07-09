@@ -1,14 +1,14 @@
 ---
 title: IVbaReferenceOleTypeLib
-second_title: Aspose.Sildes .NET API referenciája
-description: Az OLE Automation típusú könyvtárra mutató hivatkozást képviseli.
+second_title: Aspose.Sildes a .NET API Referenciához
+description: OLE Automation típuskönyvtár-referenciát képvisel.
 type: docs
-weight: 11590
+weight: 11610
 url: /hu/aspose.slides.vba/ivbareferenceoletypelib/
 ---
 ## IVbaReferenceOleTypeLib interfész
 
-Represents OLE Automation type library reference.
+OLE Automation típuskönyvtár hivatkozást képviseli.
 
 ```csharp
 public interface IVbaReferenceOleTypeLib : IVbaReference
@@ -19,7 +19,7 @@ public interface IVbaReferenceOleTypeLib : IVbaReference
 | Név | Leírás |
 | --- | --- |
 | [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletypelib/asivbareference) { get; } | Visszaadja az IVbaReference interfész. Csak olvasható [`IVbaReference`](../ivbareference). |
-| [Libid](../../aspose.slides.vba/ivbareferenceoletypelib/libid) { get; set; } | A Automation típusú könyvtár azonosítóját képviseli. Olvasható/írható String. |
+| [Libid](../../aspose.slides.vba/ivbareferenceoletypelib/libid) { get; set; } | Képviseli az Automation típuskönyvtár azonosítóját. Olvasás/írás String. |
 
 ### Lásd még
 

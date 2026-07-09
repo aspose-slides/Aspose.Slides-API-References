@@ -1,12 +1,12 @@
 ---
 title: SmartArtQuickStyleType
-second_title: Aspose.Sildes per .NET API Reference
+second_title: Riferimento API di Aspose.Sildes per .NET
 description: Rappresenta lo schema di stile di un diagramma SmartArt.
 type: docs
-weight: 10630
+weight: 10650
 url: /it/aspose.slides.smartart/smartartquickstyletype/
 ---
-## SmartArtQuickStyleType enumerazione
+## Enumerazione SmartArtQuickStyleType
 
 Rappresenta lo schema di stile di un diagramma SmartArt.
 

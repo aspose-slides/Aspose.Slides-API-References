@@ -3,7 +3,7 @@ title: ISummaryZoomSectionCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: Summary Zoom Section オブジェクトのコレクションを表します。
 type: docs
-weight: 7150
+weight: 7170
 url: /ja/aspose.slides/isummaryzoomsectioncollection/
 ---
 ## ISummaryZoomSectionCollection インターフェイス
@@ -25,10 +25,10 @@ public interface ISummaryZoomSectionCollection : IGenericCollection<ISummaryZoom
 | 名前 | 説明 |
 | --- | --- |
 | [AddSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection)(ISection) | 新しい Summary Zoom Section オブジェクトを作成し、コレクションに追加します |
-| [Clear](../../aspose.slides/isummaryzoomsectioncollection/clear)() | コレクションからすべての SummaryZoomSection オブジェクトを削除します。 |
-| [GetSummarySection](../../aspose.slides/isummaryzoomsectioncollection/getsummarysection)(ISection) | 指定されたセクションの Summary Zoom Section 要素を返します。 |
-| [IndexOf](../../aspose.slides/isummaryzoomsectioncollection/indexof)(ISummaryZoomSection) | 指定された SummaryZoomSection オブジェクトのインデックスを返します。 |
-| [RemoveSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/removesummaryzoomsection)(ISection) | コレクションから Summary Zoom Section オブジェクトを削除します。 |
+| [Clear](../../aspose.slides/isummaryzoomsectioncollection/clear)() | コレクションからすべての SummaryZoomSection オブジェクトを削除します |
+| [GetSummarySection](../../aspose.slides/isummaryzoomsectioncollection/getsummarysection)(ISection) | 指定されたセクションに対する Summary Zoom Section 要素を返します |
+| [IndexOf](../../aspose.slides/isummaryzoomsectioncollection/indexof)(ISummaryZoomSection) | 指定された SummaryZoomSection オブジェクトのインデックスを返します |
+| [RemoveSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/removesummaryzoomsection)(ISection) | コレクションから Summary Zoom Section オブジェクトを削除します |
 
 ### 参照
 

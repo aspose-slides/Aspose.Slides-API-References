@@ -1,12 +1,12 @@
 ---
 title: FontAlignment
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Dikey yazı tipi hizalamasını temsil eder.
 type: docs
-weight: 4780
+weight: 4800
 url: /tr/aspose.slides/fontalignment/
 ---
-## FontAlignment enum'ı
+## FontAlignment enumeration
 
 Dikey yazı tipi hizalamasını temsil eder.
 

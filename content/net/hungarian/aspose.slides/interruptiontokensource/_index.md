@@ -1,14 +1,14 @@
 ---
 title: InterruptionTokenSource
-second_title: Aspose.Sildes a .NET API hivatkozás
-description: Az InterruptionToken forrását reprezentálja./interruptiontoken.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: A InterruptionToken forrását képviseli./interruptiontoken.
 type: docs
-weight: 7590
+weight: 7610
 url: /hu/aspose.slides/interruptiontokensource/
 ---
 ## InterruptionTokenSource osztály
 
-A [`InterruptionToken`](../interruptiontoken) forrását képviseli.
+A [`InterruptionToken`](../interruptiontoken) forrását reprezentálja.
 
 ```csharp
 public class InterruptionTokenSource : IInterruptionTokenSource
@@ -18,20 +18,20 @@ public class InterruptionTokenSource : IInterruptionTokenSource
 
 | Név | Leírás |
 | --- | --- |
-| [InterruptionTokenSource](interruptiontokensource)() | Létrehoz egy új [`InterruptionTokenSource`](../interruptiontokensource). |
+| [InterruptionTokenSource](interruptiontokensource)() | Új [`InterruptionTokenSource`](../interruptiontokensource) példányt hoz létre. |
 
 ## Tulajdonságok
 
 | Név | Leírás |
 | --- | --- |
-| [IsInterruptionRequested](../../aspose.slides/interruptiontokensource/isinterruptionrequested) { get; } | Igaz értéket ad vissza, ha megszakítás kérték, egyébként hamis. |
-| [Token](../../aspose.slides/interruptiontokensource/token) { get; } | Új tokent ad vissza, amely ehhez a [`InterruptionTokenSource`](../interruptiontokensource)-hez van kötve. |
+| [IsInterruptionRequested](../../aspose.slides/interruptiontokensource/isinterruptionrequested) { get; } | Igaz értéket ad vissza, ha megszakítás kérve van, egyébként hamis. |
+| [Token](../../aspose.slides/interruptiontokensource/token) { get; } | Új tokenet ad vissza, amely ehhez a [`InterruptionTokenSource`](../interruptiontokensource)-hez kapcsolódik. |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [Interrupt](../../aspose.slides/interruptiontokensource/interrupt)() | Megszakítási kérés inicializálása. |
+| [Interrupt](../../aspose.slides/interruptiontokensource/interrupt)() | Inicializálja a megszakítási kérést. |
 
 ### Lásd még
 

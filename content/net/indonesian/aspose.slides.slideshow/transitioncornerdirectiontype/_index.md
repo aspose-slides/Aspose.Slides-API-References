@@ -1,14 +1,14 @@
 ---
 title: TransitionCornerDirectionType
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili jenis transisi arah sudut.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili tipe transisi arah sudut.
 type: docs
-weight: 10330
+weight: 10350
 url: /id/aspose.slides.slideshow/transitioncornerdirectiontype/
 ---
 ## TransitionCornerDirectionType enumerasi
 
-Mewakili jenis transisi arah sudut.
+Mewakili tipe transisi arah sudut.
 
 ```csharp
 public enum TransitionCornerDirectionType

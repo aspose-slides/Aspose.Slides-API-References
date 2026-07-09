@@ -1,0 +1,102 @@
+---
+title: ShapeCollection
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: आकारों के संग्रह का प्रतिनिधित्व करता है।
+type: docs
+weight: 9860
+url: /hi/aspose.slides/shapecollection/
+---
+## ShapeCollection क्लास
+
+आकारों का एक संग्रह दर्शाता है।
+
+```csharp
+public sealed class ShapeCollection : DomObject<GroupShape>, IShapeCollection
+```
+
+## प्रॉपर्टीज़
+
+| नाम | विवरण |
+| --- | --- |
+| [Count](../../aspose.slides/shapecollection/count) { get; } | संग्रह में वास्तविक रूप से सम्मिलित तत्वों की संख्या प्राप्त करता है। केवल पढ़ने योग्य Int32. |
+| [IsSynchronized](../../aspose.slides/shapecollection/issynchronized) { get; } | एक मान लौटाता है जो दर्शाता है कि क्या संग्रह तक पहुँच समन्वित (थ्रेड-सेफ़) है। केवल पढ़ने योग्य Boolean. |
+| [Item](../../aspose.slides/shapecollection/item) { get; } | निर्दिष्ट सूचकांक पर तत्व प्राप्त करता है। केवल पढ़ने योग्य [`IShape`](../ishape). |
+| [ParentGroup](../../aspose.slides/shapecollection/parentgroup) { get; } | shapes संग्रह के लिए पैरेंट समूह आकार ऑब्जेक्ट प्राप्त करता है। केवल पढ़ने योग्य [`IGroupShape`](../igroupshape). |
+| [SyncRoot](../../aspose.slides/shapecollection/syncroot) { get; } | एक समन्वयन रूट लौटाता है। केवल पढ़ने योग्य Object. |
+
+## विधियाँ
+
+| नाम | विवरण |
+| --- | --- |
+| [AddAudioFrameCD](../../aspose.slides/shapecollection/addaudioframecd)(float, float, float, float) | एक नया ऑडियो फ्रेम बनाता है जो CD ट्रैक से जुड़ा होता है और इसे shape संग्रह के अंत में जोड़ता है। |
+| [AddAudioFrameEmbedded](../../aspose.slides/shapecollection/addaudioframeembedded#addaudioframeembedded)(float, float, float, float, IAudio) | एक नया ऑडियो फ्रेम बनाता है और Presentation.Audios सूची से मौजूदा ऑडियो ऑब्जेक्ट का उपयोग करके इसे shape संग्रह के अंत में जोड़ता है। |
+| [AddAudioFrameEmbedded](../../aspose.slides/shapecollection/addaudioframeembedded#addaudioframeembedded_1)(float, float, float, float, Stream) | एम्बेडेड WAV फ़ाइल के साथ नया ऑडियो फ्रेम बनाता है और इसे shape संग्रह के अंत में जोड़ता है। एम्बेडेड ऑडियो Presentation.Audios संग्रह में जोड़ी जाती है। |
+| [AddAudioFrameLinked](../../aspose.slides/shapecollection/addaudioframelinked)(float, float, float, float, string) | बाहरी ऑडियो फ़ाइल से जुड़ा नया ऑडियो फ्रेम बनाता है और इसे shape संग्रह के अंत में जोड़ता है। |
+| [AddAutoShape](../../aspose.slides/shapecollection/addautoshape#addautoshape)(ShapeType, float, float, float, float) | डिफॉल्ट फॉर्मेटिंग के साथ नया ऑटो शिप बनाता है और इसे shape संग्रह के अंत में जोड़ता है। |
+| [AddAutoShape](../../aspose.slides/shapecollection/addautoshape#addautoshape_1)(ShapeType, float, float, float, float, bool) | नया ऑटो शिप बनाता है और इसे shape संग्रह के अंत में जोड़ता है, वैकल्पिक रूप से डिफॉल्ट टेम्पलेट फॉर्मेटिंग के साथ प्रारंभ करता है। |
+| [AddChart](../../aspose.slides/shapecollection/addchart#addchart)(ChartType, float, float, float, float) | नया चार्ट बनाता है, नमूना श्रृंखला डेटा और सेटिंग्स के साथ प्रारंभ करता है, और इसे shape संग्रह के अंत में जोड़ता है। |
+| [AddChart](../../aspose.slides/shapecollection/addchart#addchart_1)(ChartType, float, float, float, float, bool) | नया चार्ट बनाता है, नमूना श्रृंखला डेटा और सेटिंग्स के साथ प्रारंभ करता है, और इसे shape संग्रह के अंत में जोड़ता है। |
+| [AddClone](../../aspose.slides/shapecollection/addclone#addclone)(IShape) | निर्दिष्ट आकार की प्रतिलिपि बनाता है और इसे shape संग्रह के अंत में जोड़ता है। क्लोन किया गया आकार मूल की स्थिति और आकार को बनाए रखता है। |
+| [AddClone](../../aspose.slides/shapecollection/addclone#addclone_1)(IShape, float, float) | निर्दिष्ट आकार की प्रतिलिपि बनाता है और इसे shape संग्रह के अंत में जोड़ता है। नया आकार *sourceShape* की चौडाई और ऊँचाई को बरकरार रखता है। |
+| [AddClone](../../aspose.slides/shapecollection/addclone#addclone_2)(IShape, float, float, float, float) | निर्दिष्ट आकार की प्रतिलिपि बनाता है और इसे shape संग्रह के अंत में जोड़ता है। |
+| [AddConnector](../../aspose.slides/shapecollection/addconnector#addconnector)(ShapeType, float, float, float, float) | डिफॉल्ट टेम्पलेट स्टाइलिंग के साथ नया कनेक्टर आकार बनाता है और इसे shape संग्रह के अंत में जोड़ता है। |
+| [AddConnector](../../aspose.slides/shapecollection/addconnector#addconnector_1)(ShapeType, float, float, float, float, bool) | नया कनेक्टर आकार बनाता है और इसे shape संग्रह के अंत में जोड़ता है, वैकल्पिक रूप से डिफॉल्ट टेम्पलेट स्टाइलिंग लागू करता है। |
+| [AddGroupShape](../../aspose.slides/shapecollection/addgroupshape#addgroupshape)() | नया खाली समूह आकार बनाता है और इसे shape संग्रह के अंत में जोड़ता है। समूह का फ़्रेम स्वयं आकारों को समायोजित करने के लिए स्वचालित रूप से बदल जाएगा। |
+| [AddGroupShape](../../aspose.slides/shapecollection/addgroupshape#addgroupshape_1)(ISvgImage, float, float, float, float) | नया समूह आकार बनाता है, निर्दिष्ट SVG छवि को व्यक्तिगत आकारों में परिवर्तित करता है, और परिणामस्वरूप समूह को shape संग्रह के अंत में जोड़ता है। |
+| [AddMathShape](../../aspose.slides/shapecollection/addmathshape)(float, float, float, float) | गणितीय सामग्री होस्ट करने के लिए नया आयताकार ऑटो शिप बनाता है और इसे shape संग्रह के अंत में जोड़ता है। |
+| [AddOleObjectFrame](../../aspose.slides/shapecollection/addoleobjectframe#addoleobjectframe)(float, float, float, float, IOleEmbeddedDataInfo) | नया OLE ऑब्जेक्ट फ्रेम बनाता है और इसे shape संग्रह के अंत में जोड़ता है। |
+| [AddOleObjectFrame](../../aspose.slides/shapecollection/addoleobjectframe#addoleobjectframe_1)(float, float, float, float, string, string) | नया OLE ऑब्जेक्ट फ्रेम बनाता है और इसे shape संग्रह के अंत में जोड़ता है। |
+| [AddPictureFrame](../../aspose.slides/shapecollection/addpictureframe)(ShapeType, float, float, float, float, IPPImage) | निर्दिष्ट छवि वाला नया चित्र फ्रेम बनाता है और इसे shape संग्रह के अंत में जोड़ता है। |
+| [AddSectionZoomFrame](../../aspose.slides/shapecollection/addsectionzoomframe#addsectionzoomframe)(float, float, float, float, ISection) | नया Section Zoom फ्रेम बनाता है और इसे shape संग्रह के अंत में जोड़ता है। |
+| [AddSectionZoomFrame](../../aspose.slides/shapecollection/addsectionzoomframe#addsectionzoomframe_1)(float, float, float, float, ISection, IPPImage) | पूर्व-परिभाषित छवि के साथ नया Section Zoom फ्रेम बनाता है और इसे shape संग्रह के अंत में जोड़ता है। |
+| [AddSmartArt](../../aspose.slides/shapecollection/addsmartart)(float, float, float, float, SmartArtLayoutType) | नया SmartArt डाएग्राम बनाता है और इसे shape संग्रह के अंत में जोड़ता है। |
+| [AddSummaryZoomFrame](../../aspose.slides/shapecollection/addsummaryzoomframe)(float, float, float, float) | नया Summary Zoom फ्रेम बनाता है और इसे shape संग्रह के अंत में जोड़ता है। |
+| [AddTable](../../aspose.slides/shapecollection/addtable)(float, float, double[], double[]) | नया तालिका बनाता है और इसे shape संग्रह के अंत में जोड़ता है। |
+| [AddVideoFrame](../../aspose.slides/shapecollection/addvideoframe#addvideoframe)(float, float, float, float, IVideo) | नया वीडियो फ्रेम बनाता है और इसे shape संग्रह के अंत में जोड़ता है। |
+| [AddVideoFrame](../../aspose.slides/shapecollection/addvideoframe#addvideoframe_1)(float, float, float, float, string) | नया वीडियो फ्रेम बनाता है और इसे shape संग्रह के अंत में जोड़ता है। |
+| [AddZoomFrame](../../aspose.slides/shapecollection/addzoomframe#addzoomframe)(float, float, float, float, ISlide) | नया Zoom फ्रेम बनाता है और इसे shape संग्रह के अंत में जोड़ता है। |
+| [AddZoomFrame](../../aspose.slides/shapecollection/addzoomframe#addzoomframe_1)(float, float, float, float, ISlide, IPPImage) | नया Zoom फ्रेम बनाता है और इसे shape संग्रह के अंत में जोड़ता है। |
+| [Clear](../../aspose.slides/shapecollection/clear)() | shape संग्रह से सभी आकार हटाता है। |
+| [CopyTo](../../aspose.slides/shapecollection/copyto)(Array, int) | सभी तत्वों को संग्रह से निर्दिष्ट एरे में कॉपी करता है। |
+| [GetEnumerator](../../aspose.slides/shapecollection/getenumerator)() | एक इटरेटर लौटाता है जो संग्रह के माध्यम से पुनरावृत्ति करता है। |
+| [IndexOf](../../aspose.slides/shapecollection/indexof)(IShape) | संग्रह में निर्दिष्ट आकार की पहली घटना का शून्य-आधारित सूचकांक लौटाता है। |
+| [InsertAudioFrameCD](../../aspose.slides/shapecollection/insertaudioframecd)(int, float, float, float, float) | निर्दिष्ट सूचकांक पर CD ट्रैक से जुड़ा नया ऑडियो फ्रेम बनाता है और इसे shape संग्रह में सम्मिलित करता है। |
+| [InsertAudioFrameEmbedded](../../aspose.slides/shapecollection/insertaudioframeembedded#insertaudioframeembedded)(int, float, float, float, float, IAudio) | निर्दिष्ट सूचकांक पर मौजूदा ऑडियो ऑब्जेक्ट का उपयोग करके नया ऑडियो फ्रेम बनाता है और इसे shape संग्रह में सम्मिलित करता है। |
+| [InsertAudioFrameEmbedded](../../aspose.slides/shapecollection/insertaudioframeembedded#insertaudioframeembedded_1)(int, float, float, float, float, Stream) | एम्बेडेड WAV फ़ाइल के साथ नया ऑडियो फ्रेम बनाता है और निर्दिष्ट सूचकांक पर इसे shape संग्रह में सम्मिलित करता है। एम्बेडेड ऑडियो Presentation.Audios संग्रह में जोड़ी जाती है। |
+| [InsertAudioFrameLinked](../../aspose.slides/shapecollection/insertaudioframelinked)(int, float, float, float, float, string) | बाहरी ऑडियो फ़ाइल से जुड़ा नया ऑडियो फ्रेम बनाता है और इसे निर्दिष्ट सूचकांक पर shape संग्रह में सम्मिलित करता है। |
+| [InsertAutoShape](../../aspose.slides/shapecollection/insertautoshape#insertautoshape)(int, ShapeType, float, float, float, float) | डिफॉल्ट टेम्पलेट फॉर्मेटिंग लागू करते हुए नया ऑटो शिप बनाता है और इसे निर्दिष्ट सूचकांक पर shape संग्रह में सम्मिलित करता है। |
+| [InsertAutoShape](../../aspose.slides/shapecollection/insertautoshape#insertautoshape_1)(int, ShapeType, float, float, float, float, bool) | वैकल्पिक रूप से डिफॉल्ट टेम्पलेट स्टाइलिंग के साथ नया ऑटो शिप बनाता है और इसे निर्दिष्ट सूचकांक पर shape संग्रह में सम्मिलित करता है। |
+| [InsertChart](../../aspose.slides/shapecollection/insertchart#insertchart)(ChartType, float, float, float, float, int) | नया चार्ट बनाता है, नमूना श्रृंखला डेटा और सेटिंग्स के साथ प्रारंभ करता है, और इसे निर्दिष्ट सूचकांक पर shape संग्रह में सम्मिलित करता है। |
+| [InsertChart](../../aspose.slides/shapecollection/insertchart#insertchart_1)(ChartType, float, float, float, float, int, bool) | नया चार्ट बनाता है, नमूना श्रृंखला डेटा और सेटिंग्स के साथ प्रारंभ करता है, और इसे निर्दिष्ट सूचकांक पर shape संग्रह में सम्मिलित करता है। |
+| [InsertClone](../../aspose.slides/shapecollection/insertclone#insertclone)(int, IShape) | निर्दिष्ट आकार की प्रतिलिपि बनाता है और इसे निर्दिष्ट सूचकांक पर shape संग्रह में सम्मिलित करता है। क्लोन किया गया आकार मूल की स्थिति और आकार को बनाए रखता है। |
+| [InsertClone](../../aspose.slides/shapecollection/insertclone#insertclone_1)(int, IShape, float, float) | निर्दिष्ट आकार की प्रतिलिपि बनाता है और इसे निर्दिष्ट सूचकांक पर shape संग्रह में सम्मिलित करता है। नया आकार *sourceShape* की चौड़ाई और ऊँचाई को बरकरार रखता है। |
+| [InsertClone](../../aspose.slides/shapecollection/insertclone#insertclone_2)(int, IShape, float, float, float, float) | निर्दिष्ट आकार की प्रतिलिपि बनाता है और इसे निर्दिष्ट सूचकांक पर shape संग्रह में सम्मिलित करता है। |
+| [InsertConnector](../../aspose.slides/shapecollection/insertconnector#insertconnector)(int, ShapeType, float, float, float, float) | डिफॉल्ट टेम्पलेट स्टाइलिंग लागू करते हुए नया कनेक्टर आकार बनाता है और इसे निर्दिष्ट सूचकांक पर shape संग्रह में सम्मिलित करता है। |
+| [InsertConnector](../../aspose.slides/shapecollection/insertconnector#insertconnector_1)(int, ShapeType, float, float, float, float, bool) | वैकल्पिक रूप से डिफॉल्ट टेम्पलेट स्टाइलिंग लागू करते हुए नया कनेक्टर आकार बनाता है और इसे निर्दिष्ट सूचकांक पर shape संग्रह में सम्मिलित करता है। |
+| [InsertGroupShape](../../aspose.slides/shapecollection/insertgroupshape)(int) | नया खाली समूह आकार बनाता है और इसे निर्दिष्ट सूचकांक पर shape संग्रह में सम्मिलित करता है। समूह का फ़्रेम स्वयं आकारों को समायोजित करने के लिए स्वचालित रूप से बदल जाएगा। |
+| [InsertOleObjectFrame](../../aspose.slides/shapecollection/insertoleobjectframe#insertoleobjectframe)(int, float, float, float, float, IOleEmbeddedDataInfo) | नया OLE ऑब्जेक्ट फ्रेम बनाता है और इसे निर्दिष्ट सूचकांक पर shape संग्रह में सम्मिलित करता है। |
+| [InsertOleObjectFrame](../../aspose.slides/shapecollection/insertoleobjectframe#insertoleobjectframe_1)(int, float, float, float, float, string, string) | नया OLE ऑब्जेक्ट फ्रेम बनाता है और इसे निर्दिष्ट सूचकांक पर shape संग्रह में सम्मिलित करता है। |
+| [InsertPictureFrame](../../aspose.slides/shapecollection/insertpictureframe)(int, ShapeType, float, float, float, float, IPPImage) | निर्दिष्ट छवि वाला नया चित्र फ्रेम बनाता है और इसे निर्दिष्ट सूचकांक पर shape संग्रह में सम्मिलित करता है। |
+| [InsertSectionZoomFrame](../../aspose.slides/shapecollection/insertsectionzoomframe#insertsectionzoomframe)(int, float, float, float, float, ISection) | नया Section Zoom फ्रेम बनाता है और इसे निर्दिष्ट सूचकांक पर shape संग्रह में सम्मिलित करता है। |
+| [InsertSectionZoomFrame](../../aspose.slides/shapecollection/insertsectionzoomframe#insertsectionzoomframe_1)(int, float, float, float, float, ISection, IPPImage) | पूर्व-परिभाषित छवि के साथ नया Section Zoom फ्रेम बनाता है और इसे निर्दिष्ट सूचकांक पर shape संग्रह में सम्मिलित करता है। |
+| [InsertSummaryZoomFrame](../../aspose.slides/shapecollection/insertsummaryzoomframe)(int, float, float, float, float) | नया Summary Zoom फ्रेम बनाता है और इसे निर्दिष्ट सूचकांक पर shape संग्रह में सम्मिलित करता है। |
+| [InsertTable](../../aspose.slides/shapecollection/inserttable)(int, float, float, double[], double[]) | नया तालिका बनाता है और इसे निर्दिष्ट सूचकांक पर shape संग्रह में सम्मिलित करता है। |
+| [InsertVideoFrame](../../aspose.slides/shapecollection/insertvideoframe)(int, float, float, float, float, string) | नया वीडियो फ्रेम बनाता है और इसे निर्दिष्ट सूचकांक पर shape संग्रह में सम्मिलित करता है। |
+| [InsertZoomFrame](../../aspose.slides/shapecollection/insertzoomframe#insertzoomframe)(int, float, float, float, float, ISlide) | नया Zoom फ्रेम बनाता है और इसे निर्दिष्ट सूचकांक पर shape संग्रह में सम्मिलित करता है। |
+| [InsertZoomFrame](../../aspose.slides/shapecollection/insertzoomframe#insertzoomframe_1)(int, float, float, float, float, ISlide, IPPImage) | पूर्व-परिभाषित छवि के साथ नया Zoom फ्रेम बनाता है और इसे निर्दिष्ट सूचकांक पर shape संग्रह में सम्मिलित करता है। |
+| [Remove](../../aspose.slides/shapecollection/remove)(IShape) | निर्दिष्ट आकार की पहली घटना को shape संग्रह से हटाता है। |
+| [RemoveAt](../../aspose.slides/shapecollection/removeat)(int) | निर्दिष्ट सूचकांक पर आकार को shape संग्रह से हटाता है। |
+| [Reorder](../../aspose.slides/shapecollection/reorder#reorder)(int, IShape) | निर्दिष्ट आकार को shape संग्रह के भीतर नई स्थिति में ले जाता है। |
+| [Reorder](../../aspose.slides/shapecollection/reorder#reorder_1)(int, params IShape[]) | निर्दिष्ट आकारों को shape संग्रह के भीतर ले जाता है, उन्हें दिए गए सूचकांक से प्रारंभ करके रखता है। |
+| [ToArray](../../aspose.slides/shapecollection/toarray#toarray)() | सभी आकारों को समाहित करने वाला एरे बनाता और लौटाता है। |
+| [ToArray](../../aspose.slides/shapecollection/toarray#toarray_1)(int, int) | निर्दिष्ट सीमा में सभी आकारों को समाहित करने वाला एरे बनाता और लौटाता है। |
+
+### देखें भी
+
+* क्लास [DomObject&lt;TParent&gt;](../domobject-1)
+* क्लास [GroupShape](../groupshape)
+* इंटरफ़ेस [IShapeCollection](../ishapecollection)
+* नेमस्पेस [Aspose.Slides](../../aspose.slides)
+* असेंबली [Aspose.Slides](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

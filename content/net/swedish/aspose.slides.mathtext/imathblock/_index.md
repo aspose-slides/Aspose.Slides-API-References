@@ -1,14 +1,14 @@
 ---
 title: IMathBlock
 second_title: Aspose.Sildes för .NET API-referens
-description: Specificerar en instans av matematisk text som finns i ett MathParagraph och börjar på sin egen rad. Alla matematiska zoner, inklusive ekvationer, uttryck, matriser av ekvationer eller uttryck och formler, representeras av ett matematiskt block.
+description: Specificerar en instans av matematisk text som finns i ett MathParagraph och börjar på en egen rad. Alla matematiska zoner, inklusive ekvationer, uttryck, matriser av ekvationer eller uttryck och formler representeras av ett matematiskt block.
 type: docs
-weight: 8120
+weight: 8140
 url: /sv/aspose.slides.mathtext/imathblock/
 ---
-## IMMathBlock gränssnitt
+## IMathBlock gränssnitt
 
-Specificerar en instans av matematisk text som finns inom ett MathParagraph och börjar på sin egen rad. Alla matematiska zoner, inklusive ekvationer, uttryck, matriser av ekvationer eller uttryck och formler representeras av ett matematiskt block.
+Specificerar en instans av matematisk text som finns i ett MathParagraph och börjar på en egen rad. Alla mattezoner, inklusive ekvationer, uttryck, matriser av ekvationer eller uttryck och formler representeras av ett matematiskt block.
 
 ```csharp
 public interface IMathBlock : IMathElement, IMathElementCollection
@@ -18,17 +18,17 @@ public interface IMathBlock : IMathElement, IMathElementCollection
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathblock/asimathelement) { get; } | Tillåter att hämta bas-IMathElement-gränssnittet [`IMathElement`](../imathelement) |
-| [AsIMathElementCollection](../../aspose.slides.mathtext/imathblock/asimathelementcollection) { get; } | Tillåter att hämta bas-IMathElementCollection-gränssnittet [`IMathElementCollection`](../imathelementcollection) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathblock/asimathelement) { get; } | Tillåter att hämta bas-IMathElement-gränssnitt [`IMathElement`](../imathelement) |
+| [AsIMathElementCollection](../../aspose.slides.mathtext/imathblock/asimathelementcollection) { get; } | Tillåter att hämta bas-IMathElementCollection-gränssnitt [`IMathElementCollection`](../imathelementcollection) |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Delimit](../../aspose.slides.mathtext/imathblock/delimit)(char) | Avgränsar alla underordnade element med avgränsartecken (utan hakparenteserna) |
-| [Enclose](../../aspose.slides.mathtext/imathblock/enclose)(char, char, char) | Innesluter underordnade element i detta block i specificerade tecken, såsom parenteser eller andra, som ram och avgränsar med ett avgränsartecken |
+| [Delimit](../../aspose.slides.mathtext/imathblock/delimit)(char) | Avgränsar alla underordnade element med separattecken (utan hakparenteserna) |
+| [Enclose](../../aspose.slides.mathtext/imathblock/enclose)(char, char, char) | Innesluter underordnade element i detta block med angivna tecken, såsom parenteser eller andra, och avgränsar med ett separattecken |
 | [JoinBlock](../../aspose.slides.mathtext/imathblock/joinblock)(IMathBlock) | Kopplar ihop ett annat matematiskt block med detta |
-| [WriteAsMathMl](../../aspose.slides.mathtext/imathblock/writeasmathml)(Stream) | Sparar innehållet i detta [`IMathBlock`](../imathblock) som MathML |
+| [WriteAsMathMl](../../aspose.slides.mathtext/imathblock/writeasmathml)(Stream) | Sparar innehållet för detta [`IMathBlock`](../imathblock) som MathML |
 
 ### Exempel
 

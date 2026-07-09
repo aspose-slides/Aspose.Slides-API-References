@@ -1,14 +1,14 @@
 ---
 title: IChartPlotArea
 second_title: Aspose.Sildes .NET API referencia
-description: A diagramcím tulajdonságait reprezentálja.
+description: A diagramcím tulajdonságait képviseli.
 type: docs
-weight: 1890
+weight: 1910
 url: /hu/aspose.slides.charts/ichartplotarea/
 ---
 ## IChartPlotArea interfész
 
-A diagramcím tulajdonságait reprezentálja.
+A diagramcím tulajdonságait képviseli.
 
 ```csharp
 public interface IChartPlotArea : IActualLayout, ILayoutable
@@ -19,9 +19,9 @@ public interface IChartPlotArea : IActualLayout, ILayoutable
 | Név | Leírás |
 | --- | --- |
 | [AsIActualLayout](../../aspose.slides.charts/ichartplotarea/asiactuallayout) { get; } | Visszaadja az IActualLayout interfészt. |
-| [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | Lehetővé teszi az alap ILayoutable interfész lekérdezését. Csak olvasható [`ILayoutable`](../ilayoutable). |
+| [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | Lehetővé teszi a bázis ILayoutable interfész lekérdezését. Csak olvasható [`ILayoutable`](../ilayoutable). |
 | [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | Visszaadja a diagramterület formátumát. Csak olvasható [`IFormat`](../iformat). |
-| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | Ha a diagramterület elrendezése manuálisan van definiálva, ez a tulajdonság meghatározza, hogy a diagramterületet a belső részén (a tengelyek és tengelycímkék nélkül) vagy a külső részén (a tengelyekkel és tengelycímkékkel együtt) kell-e elrendezni. Olvasás/írás [`LayoutTargetType`](./layouttargettype). |
+| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | Ha a diagramterület elrendezése manuálisan van definiálva, ez a tulajdonság meghatározza, hogy a diagramterületet a belseje (a tengelyek és tengelycímkék nélkül) vagy a külseje (a tengelyek és tengelycímkék beleértve) szerint helyezzék el. Olvasható/írható [`LayoutTargetType`](./layouttargettype). |
 
 ### Lásd még
 

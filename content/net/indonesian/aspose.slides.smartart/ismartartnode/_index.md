@@ -3,7 +3,7 @@ title: ISmartArtNode
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili node dari diagram SmartArt.
 type: docs
-weight: 10530
+weight: 10550
 url: /id/aspose.slides.smartart/ismartartnode/
 ---
 ## ISmartArtNode antarmuka
@@ -18,11 +18,11 @@ public interface ISmartArtNode
 
 | Nama | Deskripsi |
 | --- | --- |
-| [BulletFillFormat](../../aspose.slides.smartart/ismartartnode/bulletfillformat) { get; } | Mengembalikan objek FillFormat yang berisi properti pemformatan isian untuk bullet node. Catatan: dapat mengembalikan null untuk jenis tata letak SmartArt tertentu yang tidak menyediakan bullet untuk node. Hanya-baca [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [BulletFillFormat](../../aspose.slides.smartart/ismartartnode/bulletfillformat) { get; } | Mengembalikan objek FillFormat yang berisi properti pemformatan isian untuk bullet node. Catatan: dapat mengembalikan null untuk beberapa jenis tata letak SmartArt yang tidak menyediakan bullet untuk node. Hanya-baca [`IFillFormat`](../../aspose.slides/ifillformat). |
 | [ChildNodes](../../aspose.slides.smartart/ismartartnode/childnodes) { get; } | Mengembalikan koleksi semua node anak dari node saat ini. Hanya-baca [`ISmartArtNodeCollection`](../ismartartnodecollection). |
 | [IsAssistant](../../aspose.slides.smartart/ismartartnode/isassistant) { get; set; } | Mengembalikan atau mengatur node sebagai asisten. Baca/tulis Boolean. |
-| [IsHidden](../../aspose.slides.smartart/ismartartnode/ishidden) { get; } | Mengembalikan true jika node ini merupakan node tersembunyi dalam model data. Hanya-baca Boolean. |
-| [Level](../../aspose.slides.smartart/ismartartnode/level) { get; } | Mengembalikan tingkat bersarang node. Hanya-baca Int32. |
+| [IsHidden](../../aspose.slides.smartart/ismartartnode/ishidden) { get; } | Mengembalikan true jika node ini adalah node tersembunyi dalam model data. Hanya-baca Boolean. |
+| [Level](../../aspose.slides.smartart/ismartartnode/level) { get; } | Mengembalikan level penelusuran node. Hanya-baca Int32. |
 | [OrganizationChartLayout](../../aspose.slides.smartart/ismartartnode/organizationchartlayout) { get; set; } | Mengembalikan atau mengatur tipe tata letak bagan organisasi yang terkait dengan node saat ini. Baca/tulis [`OrganizationChartLayoutType`](../organizationchartlayouttype). |
 | [Position](../../aspose.slides.smartart/ismartartnode/position) { get; set; } | Mengembalikan atau mengatur posisi berbasis nol node di antara node saudara. Baca/tulis Int32. |
 | [Shapes](../../aspose.slides.smartart/ismartartnode/shapes) { get; } | Mengembalikan koleksi semua shape yang terkait dengan node. Hanya-baca [`ISmartArtShapeCollection`](../ismartartshapecollection). |

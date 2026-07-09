@@ -1,14 +1,14 @@
 ---
 title: ISmartArtShape
-second_title: Aspose.Sildes para .NET Referência da API
-description: Representa uma forma dentro do diagrama SmartArt
+second_title: Aspose.Sildes para Referência da API .NET
+description: Representa uma forma dentro de um diagrama SmartArt
 type: docs
-weight: 10550
+weight: 10570
 url: /pt/aspose.slides.smartart/ismartartshape/
 ---
 ## ISmartArtShape interface
 
-Representa uma forma dentro do diagrama SmartArt
+Representa uma forma dentro de um diagrama SmartArt
 
 ```csharp
 public interface ISmartArtShape : IGeometryShape

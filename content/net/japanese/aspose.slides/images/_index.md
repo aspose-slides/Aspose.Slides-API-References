@@ -1,14 +1,14 @@
 ---
 title: Images
 second_title: Aspose.Sildes for .NET API リファレンス
-description: IImage/iimage をインスタンス化し操作するためのメソッド。
+description: IImage/iimage のインスタンス化および操作用メソッドです。
 type: docs
-weight: 7440
+weight: 7460
 url: /ja/aspose.slides/images/
 ---
 ## Images クラス
 
-[`IImage`](../iimage) をインスタンス化し操作するためのメソッド。
+インスタンス化および [`IImage`](../iimage) の操作用メソッドです。
 
 ```csharp
 public static class Images

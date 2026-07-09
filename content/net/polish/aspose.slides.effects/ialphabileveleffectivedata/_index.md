@@ -1,14 +1,14 @@
 ---
 title: IAlphaBiLevelEffectiveData
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
-description: Niezmienny obiekt, który reprezentuje efekt dwupoziomowy alfa. Wartości przezroczystości alfa mniejsze niż próg są zmieniane na 0 (całkowicie przezroczyste), a wartości alfa równe lub większe od progu są zmieniane na 100 (całkowicie nieprzezroczyste).
+second_title: Aspose.Sildes dla .NET Referencja API
+description: Niezmienny obiekt reprezentujący efekt Alpha Bi-Level. Wartości Alpha Opacity mniejsze niż próg są zmieniane na 0, całkowicie przezroczyste, a wartości alpha większe lub równe progowi są zmieniane na 100, całkowicie nieprzezroczyste.
 type: docs
-weight: 3010
+weight: 3030
 url: /pl/aspose.slides.effects/ialphabileveleffectivedata/
 ---
 ## IAlphaBiLevelEffectiveData interfejs
 
-Niezmienny obiekt, który reprezentuje efekt dwupoziomowy alfa. Wartości alfa (przezroczystość) mniejsze niż próg są zmieniane na 0 (całkowicie przezroczyste), a wartości alfa równe lub większe od progu są zmieniane na 100 % (całkowicie nieprzezroczyste).
+Niezmienny obiekt reprezentujący efekt Alpha Bi-Level. Wartości Alpha (Opacity) mniejsze niż próg są zmieniane na 0 (całkowicie przezroczyste), a wartości alpha większe lub równe progowi są zmieniane na 100 % (całkowicie nieprzezroczyste).
 
 ```csharp
 public interface IAlphaBiLevelEffectiveData : IEffectEffectiveData
@@ -18,10 +18,10 @@ public interface IAlphaBiLevelEffectiveData : IEffectEffectiveData
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphabileveleffectivedata/asieffecteffectivedata) { get; } | Umożliwia odczyt podstawowego interfejsu IEffectEffectiveData. Tylko do odczytu [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphabileveleffectivedata/asieffecteffectivedata) { get; } | Umożliwia pobranie bazowego interfejsu IEffectEffectiveData. Tylko do odczytu [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Threshold](../../aspose.slides.effects/ialphabileveleffectivedata/threshold) { get; } | Zwraca próg efektu. Tylko do odczytu Single. |
 
-### Zobacz także
+### Zobacz również
 
 * interfejs [IEffectEffectiveData](../ieffecteffectivedata)
 * przestrzeń nazw [Aspose.Slides.Effects](../../aspose.slides.effects)

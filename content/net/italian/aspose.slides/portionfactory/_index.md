@@ -3,7 +3,7 @@ title: PortionFactory
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Consente di creare porzioni di test
 type: docs
-weight: 9460
+weight: 9480
 url: /it/aspose.slides/portionfactory/
 ---
 ## classe PortionFactory

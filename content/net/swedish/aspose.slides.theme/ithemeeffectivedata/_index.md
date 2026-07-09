@@ -1,14 +1,14 @@
 ---
 title: IThemeEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
-description: Oföränderligt objekt som innehåller effektiva temaegenskaper.
+description: Oföränderligt objekt som innehåller de faktiska temaegenskaperna.
 type: docs
-weight: 11360
+weight: 11380
 url: /sv/aspose.slides.theme/ithemeeffectivedata/
 ---
 ## IThemeEffectiveData gränssnitt
 
-Oföränderligt objekt som innehåller effektiva temaegenskaper.
+Oföränderligt objekt som innehåller de faktiska temaegenskaperna.
 
 ```csharp
 public interface IThemeEffectiveData
@@ -18,7 +18,7 @@ public interface IThemeEffectiveData
 
 | Namn | Beskrivning |
 | --- | --- |
-| [FontScheme](../../aspose.slides.theme/ithemeeffectivedata/fontscheme) { get; } | Returnerar typsnittsschemat. Skrivskyddad [`IFontSchemeEffectiveData`](../ifontschemeeffectivedata). |
+| [FontScheme](../../aspose.slides.theme/ithemeeffectivedata/fontscheme) { get; } | Returnerar teckensnittsschemat. Skrivskyddad [`IFontSchemeEffectiveData`](../ifontschemeeffectivedata). |
 | [FormatScheme](../../aspose.slides.theme/ithemeeffectivedata/formatscheme) { get; } | Returnerar formatmall för former. Skrivskyddad [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata). |
 
 ## Metoder
@@ -29,7 +29,7 @@ public interface IThemeEffectiveData
 
 ### Anmärkningar
 
-Detta gränssnitt används tillsammans med [`ITheme`](../itheme) gränssnittet för att returnera faktiska formateringsvärden med ärftlighet tillämpad.
+Detta gränssnitt används tillsammans med [`ITheme`](../itheme) gränssnitt för att returnera effektiva formateringsvärden med ärftlighet tillämpad.
 
 ### Se också
 

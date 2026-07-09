@@ -1,9 +1,9 @@
 ---
 title: IAnimationTimeLine
-second_title: Aspose.Sildes .NET API-referencia
+second_title: Aspose.Sildes .NET API referencia
 description: Az animáció idővonalát képviseli.
 type: docs
-weight: 5180
+weight: 5200
 url: /hu/aspose.slides/ianimationtimeline/
 ---
 ## IAnimationTimeLine interfész
@@ -18,9 +18,9 @@ public interface IAnimationTimeLine
 
 | Név | Leírás |
 | --- | --- |
-| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | Visszaadja az interaktív sorozatok gyűjteményét. Ez a sorozat csak a "kattintás a formára" hatásokat tartalmazhat a megadott célformával. Csak olvasható [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection). |
-| [MainSequence](../../aspose.slides/ianimationtimeline/mainsequence) { get; } | Visszaadja a fő sorozatot, amely csak a fő hatások gyűjteményét tartalmazhat. Csak olvasható [`ISequence`](../../aspose.slides.animation/isequence). |
-| [TextAnimationCollection](../../aspose.slides/ianimationtimeline/textanimationcollection) { get; } | Visszaadja a szöveges animációk gyűjteményét. Csak olvasható [`ITextAnimationCollection`](../../aspose.slides.animation/itextanimationcollection). |
+| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | Visszaadja az interaktív szekvenciák gyűjteményét. Ezek a szekvenciák csak a "kattintás az alakzatra" hatásokat tartalmazhatják, meghatározott célalakzattal. Csak olvasható [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection). |
+| [MainSequence](../../aspose.slides/ianimationtimeline/mainsequence) { get; } | Visszaadja a fő szekvenciát, amely csak a fő hatások gyűjteményét tartalmazhatja. Csak olvasható [`ISequence`](../../aspose.slides.animation/isequence). |
+| [TextAnimationCollection](../../aspose.slides/ianimationtimeline/textanimationcollection) { get; } | Visszaadja a szöveganimációk gyűjteményét. Csak olvasható [`ITextAnimationCollection`](../../aspose.slides.animation/itextanimationcollection). |
 
 ### Lásd még
 

@@ -1,9 +1,9 @@
 ---
 title: SlidesLayoutOptions
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mendapatkan atau mengatur mode di mana slide ditempatkan pada halaman saat mengekspor presentasi ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions.
 type: docs
-weight: 70
+weight: 80
 url: /id/aspose.slides.export/html5options/slideslayoutoptions/
 ---
 ## Html5Options.SlidesLayoutOptions properti

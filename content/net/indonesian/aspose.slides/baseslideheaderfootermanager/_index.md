@@ -1,14 +1,14 @@
 ---
 title: BaseSlideHeaderFooterManager
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili manajer yang memegang perilaku placeholder footer, tanggal-waktu, dan nomor halaman untuk semua jenis slide.
+description: Mewakili manajer yang menyimpan perilaku placeholder footer, tanggal-waktu, dan nomor halaman untuk semua tipe slide.
 type: docs
-weight: 980
+weight: 1000
 url: /id/aspose.slides/baseslideheaderfootermanager/
 ---
 ## BaseSlideHeaderFooterManager kelas
 
-Mewakili manajer yang memegang perilaku placeholder footer, tanggal-waktu, dan nomor halaman untuk semua tipe slide.
+Mewakili manajer yang memegang perilaku placeholder footer, tanggal-waktu, nomor halaman untuk semua tipe slide.
 
 ```csharp
 public abstract class BaseSlideHeaderFooterManager : BaseHeaderFooterManager
@@ -18,9 +18,9 @@ public abstract class BaseSlideHeaderFooterManager : BaseHeaderFooterManager
 
 | Nama | Deskripsi |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Mengambil nilai yang menunjukkan bahwa placeholder tanggal-waktu ada. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Mengambil nilai yang menunjukkan bahwa placeholder footer ada. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Mengambil nilai yang menunjukkan bahwa placeholder nomor halaman ada. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Mendapatkan nilai yang menunjukkan bahwa placeholder tanggal-waktu ada. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Mendapatkan nilai yang menunjukkan bahwa placeholder footer ada. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Mendapatkan nilai yang menunjukkan bahwa placeholder nomor halaman ada. ReadBoolean. |
 
 ## Metode
 

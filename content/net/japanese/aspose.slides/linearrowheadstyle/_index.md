@@ -3,10 +3,10 @@ title: LineArrowheadStyle
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 矢じりのスタイルを表します。
 type: docs
-weight: 7720
+weight: 7740
 url: /ja/aspose.slides/linearrowheadstyle/
 ---
-## LineArrowheadStyle 列挙型
+## LineArrowheadStyle 列挙体
 
 矢じりのスタイルを表します。
 
@@ -14,7 +14,7 @@ url: /ja/aspose.slides/linearrowheadstyle/
 public enum LineArrowheadStyle : sbyte
 ```
 
-### 値
+### Values
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |

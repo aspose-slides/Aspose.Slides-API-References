@@ -3,7 +3,7 @@ title: DataSourceTypeForErrorBarsCustomValues
 second_title: Aspose.Sildes para .NET Referência da API
 description: Especifica tipos de valores na lista de propriedades ChartDataPoint.ErrorBarsCustomValues
 type: docs
-weight: 1570
+weight: 1590
 url: /pt/aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/
 ---
 ## DataSourceTypeForErrorBarsCustomValues classe
@@ -29,7 +29,7 @@ public class DataSourceTypeForErrorBarsCustomValues : IDataSourceTypeForErrorBar
 | [DataSourceTypeForYMinusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues) { get; set; } | Especifica se a propriedade AsCell ou AsLiteralString ou AsLiteralDouble está efetiva no objeto da propriedade YMinus dos pontos de dados para valores personalizados de barras de erro. Em outras palavras, especifica o tipo de valor da propriedade ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data. Leitura/gravação [`DataSourceType`](../datasourcetype). |
 | [DataSourceTypeForYPlusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues) { get; set; } | Especifica se a propriedade AsCell ou AsLiteralString ou AsLiteralDouble está efetiva no objeto da propriedade YPlus dos pontos de dados para valores personalizados de barras de erro. Em outras palavras, especifica o tipo de valor da propriedade ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data. Leitura/gravação [`DataSourceType`](../datasourcetype). |
 
-### Veja Também
+### Veja também
 
 * interface [IDataSourceTypeForErrorBarsCustomValues](../idatasourcetypeforerrorbarscustomvalues)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)

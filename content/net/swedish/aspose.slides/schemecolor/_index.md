@@ -3,10 +3,10 @@ title: SchemeColor
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar färger i ett färgschema.
 type: docs
-weight: 9720
+weight: 9740
 url: /sv/aspose.slides/schemecolor/
 ---
-## SchemeColor enum
+## SchemeColor uppräkning
 
 Representerar färger i ett färgschema.
 
@@ -18,7 +18,7 @@ public enum SchemeColor
 
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
-| NotDefined | `-1` | Color scheme is not defined. |
+| NotDefined | `-1` | Färgschemat är inte definierat. |
 | Background1 | `0` |  |
 | Text1 | `1` |  |
 | Background2 | `2` |  |
@@ -37,7 +37,7 @@ public enum SchemeColor
 | Dark2 | `15` |  |
 | Light2 | `16` |  |
 
-### Se också
+### Se även
 
 * namnrymd [Aspose.Slides](../../aspose.slides)
 * samling [Aspose.Slides](../../)

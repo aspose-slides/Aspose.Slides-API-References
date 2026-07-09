@@ -1,14 +1,14 @@
 ---
 title: MathFractionFactory
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir matematik kesri oluşturmayı sağlar
+description: Matematik kesir oluşturmayı sağlar
 type: docs
-weight: 8680
+weight: 8700
 url: /tr/aspose.slides.mathtext/mathfractionfactory/
 ---
-## MathFractionFactory sınıfı
+## MathFractionFactory sınıf
 
-Bir matematik kesri oluşturmayı sağlar
+Matematik kesir oluşturmayı sağlar
 
 ```csharp
 public class MathFractionFactory : IMathFractionFactory
@@ -24,14 +24,14 @@ public class MathFractionFactory : IMathFractionFactory
 
 | Ad | Açıklama |
 | --- | --- |
-| [CreateMathFraction](../../aspose.slides.mathtext/mathfractionfactory/createmathfraction#createmathfraction)(IMathElement, IMathElement) | Bir matematik kesri oluşturur |
-| [CreateMathFraction](../../aspose.slides.mathtext/mathfractionfactory/createmathfraction#createmathfraction_1)(IMathElement, IMathElement, MathFractionTypes) | Bir matematik kesri oluşturur |
+| [CreateMathFraction](../../aspose.slides.mathtext/mathfractionfactory/createmathfraction#createmathfraction)(IMathElement, IMathElement) | Matematik kesri oluşturur |
+| [CreateMathFraction](../../aspose.slides.mathtext/mathfractionfactory/createmathfraction#createmathfraction_1)(IMathElement, IMathElement, MathFractionTypes) | Matematik kesri oluşturur |
 
 ### Açıklamalar
 
 COM uyumluluğu için
 
-### Ayrıca Bakınız
+### Diğer Bağlantılar
 
 * arayüz [IMathFractionFactory](../imathfractionfactory)
 * ad alanı [Aspose.Slides.MathText](../../aspose.slides.mathtext)

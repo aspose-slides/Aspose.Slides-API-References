@@ -1,14 +1,14 @@
 ---
 title: Legend
-second_title: Aspose.Slides pro .NET API Reference
-description: Reprezentuje vlastnosti legendy grafů.
+second_title: Aspose.Sildes pro .NET referenci API
+description: Zastupuje vlastnosti legendy grafu.
 type: docs
-weight: 2260
+weight: 2280
 url: /cs/aspose.slides.charts/legend/
 ---
-## Legend třída
+## Třída Legend
 
-Represents chart's legend properties.
+Zastupuje vlastnosti legendy grafu.
 
 ```csharp
 public class Legend : DomObject<Chart>, ILegend
@@ -18,17 +18,17 @@ public class Legend : DomObject<Chart>, ILegend
 
 | Název | Popis |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | Určuje skutečnou výšku prvku grafu. Předtím zavolejte metodu IChart.ValidateChartLayout(), abyste získali skutečné hodnoty. Čtení Single. |
-| [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | Určuje skutečnou šířku prvku grafu. Předtím zavolejte metodu IChart.ValidateChartLayout(), abyste získali skutečné hodnoty. Čtení Single. |
-| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | Určuje skutečnou polohu x (vlevo) prvku grafu vzhledem k levému hornímu rohu grafu. Předtím zavolejte metodu IChart.ValidateChartLayout(), abyste získali skutečné hodnoty. Čtení Single. |
-| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | Určuje skutečný horní okraj prvku grafu vzhledem k levému hornímu rohu grafu. Předtím zavolejte metodu IChart.ValidateChartLayout(), abyste získali skutečné hodnoty. Čtení Single. |
-| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | Dole. Pouze pro čtení Single. |
+| [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | Určuje skutečnou výšku elementu grafu. Předtím zavolejte metodu IChart.ValidateChartLayout(), abyste získali skutečné hodnoty. Pouze pro čtení Single. |
+| [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | Určuje skutečnou šířku elementu grafu. Předtím zavolejte metodu IChart.ValidateChartLayout(), abyste získali skutečné hodnoty. Pouze pro čtení Single. |
+| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | Určuje skutečnou polohu x (vlevo) elementu grafu vzhledem k levému hornímu rohu grafu. Předtím zavolejte metodu IChart.ValidateChartLayout(), abyste získali skutečné hodnoty. Pouze pro čtení Single. |
+| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | Určuje skutečnou horní polohu elementu grafu vzhledem k levému hornímu rohu grafu. Předtím zavolejte metodu IChart.ValidateChartLayout(), abyste získali skutečné hodnoty. Pouze pro čtení Single. |
+| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | Dolní. Pouze pro čtení Single. |
 | [Chart](../../aspose.slides.charts/legend/chart) { get; } | Vrací graf. Pouze pro čtení [`IChart`](../ichart). |
 | [Entries](../../aspose.slides.charts/legend/entries) { get; } | Získává položky legendy. Pouze pro čtení [`ILegendEntryCollection`](../ilegendentrycollection). |
 | [Format](../../aspose.slides.charts/legend/format) { get; } | Vrací formát legendy. Pouze pro čtení [`IFormat`](../iformat). |
 | [Height](../../aspose.slides.charts/legend/height) { get; set; } | Vrací nebo nastavuje výšku legendy jako podíl výšky grafu. Čtení/zápis Single. |
-| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | Určuje, zda mohou ostatní prvky grafu překrývat legendu. Čtení/zápis Boolean. |
-| [Position](../../aspose.slides.charts/legend/position) { get; set; } | Určuje pozici legendy v grafu. Hodnoty X, Y, Width, Heigt, které nejsou NaN, přepíšou účinek této vlastnosti. Čtení/zápis [`LegendPositionType`](../legendpositiontype). |
+| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | Určuje, zda mohou být ostatní elementy grafu povoleny překrývat legendu. Čtení/zápis Boolean. |
+| [Position](../../aspose.slides.charts/legend/position) { get; set; } | Určuje pozici legendy na grafu. Hodnoty jiné než NaN vlastností X, Y, Width, Heigt přepíší efekt této vlastnosti. Čtení/zápis [`LegendPositionType`](../legendpositiontype). |
 | [Right](../../aspose.slides.charts/legend/right) { get; } | Vpravo. Pouze pro čtení Single. |
 | [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | Formát textu. Pouze pro čtení [`IChartTextFormat`](../icharttextformat). |
 | [Width](../../aspose.slides.charts/legend/width) { get; set; } | Vrací nebo nastavuje šířku legendy jako podíl šířky grafu. Čtení/zápis Single. |

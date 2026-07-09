@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlideManager
-second_title: Aspose.Sildes .NET API Hivatkozás
-description: Mester nyomtatványdia-kezelő.
+second_title: Aspose.Sildes a .NET API referencia
+description: Mester kézikönyv-dia kezelő.
 type: docs
-weight: 6350
+weight: 6370
 url: /hu/aspose.slides/imasterhandoutslidemanager/
 ---
 ## IMasterHandoutSlideManager interfész
 
-Mester nyomtatványdia-kezelő.
+Mester kézikönyvdia kezelő.
 
 ```csharp
 public interface IMasterHandoutSlideManager
@@ -18,14 +18,14 @@ public interface IMasterHandoutSlideManager
 
 | Név | Leírás |
 | --- | --- |
-| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | Visszaad egy master-t az összes jegyzetdia számára ebben a prezentációban, ha van ilyen, egyébként null értéket ad vissza. Csak olvasható [`IMasterHandoutSlide`](../imasterhandoutslide). |
+| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | Visszaad egy mestert a bemutató összes jegyzetdia számára, ha létezik, egyébként null értéket ad vissza. Csak olvasható [`IMasterHandoutSlide`](../imasterhandoutslide). |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | Eltávolítja a mester nyomtatványdiát. |
-| [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | Beállítja az alapértelmezett mester nyomtatványdiát a kapcsolódó nyomtatványdiára. |
+| [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | Eltávolítja a mester kézikönyv-diát. |
+| [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | Beállítja az alapértelmezett mester kézikönyv-diát a kapcsolódó kézikönyv-diára. |
 
 ### Lásd még
 

@@ -1,14 +1,14 @@
 ---
 title: BaseHandoutNotesSlideHeaderFooterManager
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Reprezentuje menedżera, który zarządza zachowaniem miejsc zastępczych, w tym placeholderem nagłówka dla wszystkich typów slajdów z notatkami i materiałami pomocniczymi.
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
+description: Reprezentuje menedżera, który definiuje zachowanie pól zastępczych, w tym pola zastępczego nagłówka dla wszystkich typów slajdów rozdania i notatek.
 type: docs
-weight: 930
+weight: 950
 url: /pl/aspose.slides/basehandoutnotesslideheaderfootermanager/
 ---
-## Klasa BaseHandoutNotesSlideHeaderFooterManager
+## BaseHandoutNotesSlideHeaderFooterManager klasa
 
-Reprezentuje menedżer, który przechowuje zachowanie miejsc zastępczych, w tym miejsce zastępcze nagłówka dla wszystkich typów slajdów z notatkami i materiałami pomocniczymi.
+Reprezentuje menedżer, który definiuje zachowanie pól zastępczych, w tym pola zastępczego nagłówka dla wszystkich typów slajdów rozdania i notatek.
 
 ```csharp
 public abstract class BaseHandoutNotesSlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
@@ -19,28 +19,28 @@ public abstract class BaseHandoutNotesSlideHeaderFooterManager : BaseSlideHeader
 
 | Nazwa | Opis |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Zwraca wartość wskazującą, że obecny jest placeholder daty i czasu. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Zwraca wartość wskazującą, że obecny jest placeholder stopki. Read Boolean. |
-| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Zwraca wartość wskazującą, że obecny jest placeholder nagłówka. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Zwraca wartość wskazującą, że obecny jest placeholder numeru strony. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Zwraca wartość wskazującą, że pole zastępcze daty i godziny jest obecne. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Zwraca wartość wskazującą, że pole zastępcze stopki jest obecne. Read Boolean. |
+| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Zwraca wartość wskazującą, że pole zastępcze nagłówka jest obecne. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Zwraca wartość wskazującą, że pole zastępcze numeru strony jest obecne. ReadBoolean. |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Ustawia tekst w placeholderze daty i czasu slajdu. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Zmienia widoczność placeholdera daty i czasu slajdu. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Ustawia tekst w placeholderze stopki slajdu. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Zmienia widoczność placeholdera stopki slajdu. |
-| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Ustawia tekst w placeholderze nagłówka slajdu. |
-| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Zmienia widoczność placeholdera nagłówka slajdu. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Zmienia widoczność placeholdera numeru strony slajdu. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Ustawia tekst w polu zastępczym daty i godziny slajdu. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Zmienia widoczność pola zastępczego daty i godziny slajdu. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Ustawia tekst w polu zastępczym stopki slajdu. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Zmienia widoczność pola zastępczego stopki slajdu. |
+| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Ustawia tekst w polu zastępczym nagłówka slajdu. |
+| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Zmienia widoczność pola zastępczego nagłówka slajdu. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Zmienia widoczność pola zastępczego numeru strony slajdu. |
 
 ### Zobacz także
 
 * klasa [BaseSlideHeaderFooterManager](../baseslideheaderfootermanager)
 * interfejs [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
 * przestrzeń nazw [Aspose.Slides](../../aspose.slides)
-* zestaw [Aspose.Slides](../../)
+* zbiór [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

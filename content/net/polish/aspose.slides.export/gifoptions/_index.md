@@ -1,9 +1,9 @@
 ---
 title: GifOptions
-second_title: Aspose.Slides dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje opcje eksportu GIF.
 type: docs
-weight: 3800
+weight: 3820
 url: /pl/aspose.slides.export/gifoptions/
 ---
 ## GifOptions klasa
@@ -25,18 +25,18 @@ public class GifOptions : SaveOptions, IGifOptions
 | Nazwa | Opis |
 | --- | --- |
 | [DefaultDelay](../../aspose.slides.export/gifoptions/defaultdelay) { get; set; } | Pobiera lub ustawia domyślny czas opóźnienia [ms]. Ta wartość będzie użyta, jeśli [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) nie jest ustawiona. Domyślna wartość to 1000. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Zwraca lub ustawia czcionkę używaną, gdy nie zostanie znaleziona czcionka źródłowa. String odczyt/zapis. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Zwraca lub ustawia czcionkę używaną w przypadku, gdy nie zostanie znaleziona czcionka źródłowa. Read-write String. |
 | [ExportHiddenSlides](../../aspose.slides.export/gifoptions/exporthiddenslides) { get; set; } | Określa, czy ukryte slajdy będą eksportowane. Domyślna wartość to false. |
 | [FrameSize](../../aspose.slides.export/gifoptions/framesize) { get; set; } | Pobiera lub ustawia rozmiar klatki. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Zwraca lub ustawia styl wizualny gradientu. Odczyt/zapis [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Reprezentuje obiekt wywołania zwrotnego do zapisywania aktualizacji postępu w procentach. Zobacz [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Określa, czy pomijać hiperłącza z wywołaniami JavaScript podczas zapisywania prezentacji. Boolean odczyt/zapis. Domyślna wartość to **false**. |
-| [TransitionFps](../../aspose.slides.export/gifoptions/transitionfps) { get; set; } | Pobiera lub ustawia liczbę klatek na sekundę (FPS) przejścia [frames/sec]. Domyślna wartość to 25. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Zwraca lub ustawia obiekt, który odbiera ostrzeżenia i decyduje, czy proces ładowania będzie kontynuowany, czy zostanie przerwany. Odczyt/zapis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Zwraca lub ustawia styl wizualny gradientu. Read/write [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Reprezentuje obiekt zwrotnego wywołania dla aktualizacji postępu zapisu w procentach. Zobacz [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Określa, czy pomijać hiperłącza z wywołaniami JavaScript przy zapisywaniu prezentacji. Read/write Boolean. Domyślna wartość to **false**. |
+| [TransitionFps](../../aspose.slides.export/gifoptions/transitionfps) { get; set; } | Pobiera lub ustawia FPS przejścia [frames/sec]. Domyślna wartość to 25. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Zwraca lub ustawia obiekt, który otrzymuje ostrzeżenia i decyduje, czy proces ładowania będzie kontynuowany, czy zostanie przerwany. Read/write [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Przykłady
 
-Poniższy przykład pokazuje, jak konwertować prezentacje na animowany GIF przy użyciu własnych ustawień.
+Poniższy przykład pokazuje, jak konwertować prezentacje do animowanego GIF-a przy użyciu własnych ustawień.
 
 ```csharp
 [C#]
@@ -44,9 +44,9 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     pres.Save("pres.gif", SaveFormat.Gif, new GifOptions
     {
-        FrameSize = new Size(960, 720), // rozmiar wynikowego GIF-a
+        FrameSize = new Size(960, 720), // rozmiar wygenerowanego GIF-a
         DefaultDelay = 2000, // jak długo każdy slajd będzie wyświetlany, zanim zostanie zmieniony na następny
-        TransitionFps = 35 // zwiększ FPS, aby uzyskać lepszą jakość animacji przejścia
+        TransitionFps = 35 // zwiększ FPS, aby poprawić jakość animacji przejścia
     });
 }
 ```

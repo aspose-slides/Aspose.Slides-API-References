@@ -1,13 +1,12 @@
 ---
 title: HtmlOptions
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示 HTML 导出选项。
 type: docs
-weight: 3720
+weight: 3890
 url: /zh/aspose.slides.export/htmloptions/
 ---
-
-## HtmlOptions class
+## HtmlOptions 类
 
 表示 HTML 导出选项。
 
@@ -19,34 +18,34 @@ public class HtmlOptions : SaveOptions, IHtmlOptions
 
 | 名称 | 描述 |
 | --- | --- |
-| [HtmlOptions](htmloptions#constructor)() | 创建一个新的 HtmlOptions 对象，用于保存到单个 HTML 文件。 |
+| [HtmlOptions](htmloptions#constructor)() | 创建一个新的 HtmlOptions 对象，用于保存为单个 HTML 文件。 |
 | [HtmlOptions](htmloptions#constructor_1)(ILinkEmbedController) | 创建一个新的 HtmlOptions 对象，指定回调。 |
 
 ## 属性
 
 | 名称 | 描述 |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 返回或设置在找不到源字体时使用的字体。可读写字符串。 |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/htmloptions/deletepicturescroppedareas) { get; set; } | 一个布尔标志，指示裁剪的部分是否作为文档的一部分保留。如果为 true，则裁剪的部分将被移除；如果为 false，则将其序列化到文档中（这可能导致文件更大） |
-| [DisableFontLigatures](../../aspose.slides.export/htmloptions/disablefontligatures) { get; set; } | 获取或设置一个值，指示文本是否在不使用连字的情况下呈现。当设置为 `true` 时，连字将在呈现的输出中被禁用。默认情况下，此属性设置为 `false`。 |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 返回或设置渐变的视觉样式。可读写 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
-| [HtmlFormatter](../../aspose.slides.export/htmloptions/htmlformatter) { get; set; } | 返回或设置 HTML 模板。可读写 [`IHtmlFormatter`](../ihtmlformatter)。 |
-| [InkOptions](../../aspose.slides.export/htmloptions/inkoptions) { get; } | 提供控制导出文档中 Ink 对象外观的选项。只读 [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/htmloptions/jpegquality) { get; set; } | 返回或设置一个值，决定 PDF 文档中 JPEG 图像的质量。可读写字节。 |
-| [PicturesCompression](../../aspose.slides.export/htmloptions/picturescompression) { get; set; } | 表示图片压缩级别 |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 表示一个用于保存进度更新的回调对象，以百分比形式显示。请参阅 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
-| [ShowHiddenSlides](../../aspose.slides.export/htmloptions/showhiddenslides) { get; set; } | 指定生成的文档是否应包含隐藏幻灯片。默认值为 `false`。 |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定在保存演示文稿时是否跳过带有 JavaScript 调用的超链接。可读写布尔值。默认值为 **false**。 |
-| [SlideImageFormat](../../aspose.slides.export/htmloptions/slideimageformat) { get; set; } | 返回或设置幻灯片图像格式选项。可读写 [`ISlideImageFormat`](../islideimageformat)。 |
-| [SlidesLayoutOptions](../../aspose.slides.export/htmloptions/slideslayoutoptions) { get; set; } | 获取或设置导出演示文稿时幻灯片在页面上放置的模式 [`ISlidesLayoutOptions`](../islideslayoutoptions)。 |
-| [SvgResponsiveLayout](../../aspose.slides.export/htmloptions/svgresponsivelayout) { get; set; } | 为 true 时将宽度和高度属性排除在 svg 容器外 - 这将使布局具有响应性。为 false - 否则。可读写布尔值。 |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 返回或设置一个接收警告的对象，并决定加载过程是继续还是中止。可读写 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 返回或设置在未找到源字体时使用的字体。Read-write String. |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/htmloptions/deletepicturescroppedareas) { get; set; } | 布尔标志，指示裁剪的部分是否保留在文档中。如果为 true，裁剪的部分将被删除；如果为 false，它们将被序列化到文档中（这可能导致文件更大）。 |
+| [DisableFontLigatures](../../aspose.slides.export/htmloptions/disablefontligatures) { get; set; } | 获取或设置一个值，指示文本是否在渲染时不使用连字。设置为 `true` 时，渲染输出中将禁用连字。默认情况下，此属性设置为 `false`。 |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 返回或设置渐变的视觉样式。读写 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
+| [HtmlFormatter](../../aspose.slides.export/htmloptions/htmlformatter) { get; set; } | 返回或设置 HTML 模板。读写 [`IHtmlFormatter`](../ihtmlformatter)。 |
+| [InkOptions](../../aspose.slides.export/htmloptions/inkoptions) { get; } | 提供控制导出文档中 Ink 对象外观的选项。只读 [`IInkOptions`](../iinkoptions) |
+| [JpegQuality](../../aspose.slides.export/htmloptions/jpegquality) { get; set; } | 返回或设置决定 PDF 文档中 JPEG 图像质量的值。读写 Byte。 |
+| [PicturesCompression](../../aspose.slides.export/htmloptions/picturescompression) { get; set; } | 表示图片压缩级别 |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 表示用于保存进度更新（百分比）的回调对象。参见 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
+| [ShowHiddenSlides](../../aspose.slides.export/htmloptions/showhiddenslides) { get; set; } | 指定生成的文档是否应包含隐藏幻灯片。默认值为 `false`。 |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定在保存演示文稿时是否跳过带有 JavaScript 调用的超链接。读写 Boolean。默认值为 **false**。 |
+| [SlideImageFormat](../../aspose.slides.export/htmloptions/slideimageformat) { get; set; } | 返回或设置幻灯片图像格式选项。读写 [`ISlideImageFormat`](../islideimageformat)。 |
+| [SlidesLayoutOptions](../../aspose.slides.export/htmloptions/slideslayoutoptions) { get; set; } | 获取或设置在导出演示文稿时幻灯片在页面上的放置模式 [`ISlidesLayoutOptions`](../islideslayoutoptions)。 |
+| [SvgResponsiveLayout](../../aspose.slides.export/htmloptions/svgresponsivelayout) { get; set; } | 若为 True，则从 SVG 容器中排除宽度和高度属性——这将使布局响应式。若为 False，则保留。读写 Boolean。 |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 返回或设置一个对象，该对象接收警告并决定加载过程是继续还是中止。读写 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
 
-### 另见
+### 另请参阅
 
-* class [SaveOptions](../saveoptions)
-* interface [IHtmlOptions](../ihtmloptions)
-* namespace [Aspose.Slides.Export](../../aspose.slides.export)
-* assembly [Aspose.Slides](../../)
+* 类 [SaveOptions](../saveoptions)
+* 接口 [IHtmlOptions](../ihtmloptions)
+* 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)
+* 程序集 [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

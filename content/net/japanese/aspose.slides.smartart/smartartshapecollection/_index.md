@@ -3,7 +3,7 @@ title: SmartArtShapeCollection
 second_title: Aspose.Sildes の .NET API リファレンス
 description: SmartArt シェイプのコレクションを表します
 type: docs
-weight: 10650
+weight: 10670
 url: /ja/aspose.slides.smartart/smartartshapecollection/
 ---
 ## SmartArtShapeCollection クラス
@@ -19,16 +19,16 @@ public class SmartArtShapeCollection : ISmartArtShapeCollection
 | 名前 | 説明 |
 | --- | --- |
 | [Count](../../aspose.slides.smartart/smartartshapecollection/count) { get; } | コレクションに実際に含まれる要素数を取得します。読み取り専用 Int32。 |
-| [IsSynchronized](../../aspose.slides.smartart/smartartshapecollection/issynchronized) { get; } | コレクションへのアクセスが同期化されているか (スレッドセーフ) を示す値を返します。読み取り専用 Boolean。 |
+| [IsSynchronized](../../aspose.slides.smartart/smartartshapecollection/issynchronized) { get; } | コレクションへのアクセスが同期化（スレッド セーフ）されているかどうかを示す値を返します。読み取り専用 Boolean。 |
 | [Item](../../aspose.slides.smartart/smartartshapecollection/item) { get; } | 指定されたインデックスの要素を取得します。読み取り専用 [`SmartArtShape`](../smartartshape).&gt;。 |
-| [SyncRoot](../../aspose.slides.smartart/smartartshapecollection/syncroot) { get; } | 同期化ルートを返します。読み取り専用 Object。 |
+| [SyncRoot](../../aspose.slides.smartart/smartartshapecollection/syncroot) { get; } | 同期ルートを返します。読み取り専用 Object。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [CopyTo](../../aspose.slides.smartart/smartartshapecollection/copyto)(Array, int) | コレクションのすべての要素を指定された配列にコピーします。 |
-| [GetEnumerator](../../aspose.slides.smartart/smartartshapecollection/getenumerator)() | コレクションを列挙する列挙子を返します。 |
+| [CopyTo](../../aspose.slides.smartart/smartartshapecollection/copyto)(Array, int) | コレクション内のすべての要素を指定された配列にコピーします。 |
+| [GetEnumerator](../../aspose.slides.smartart/smartartshapecollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
 
 ### 参照
 

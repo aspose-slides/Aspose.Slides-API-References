@@ -1,14 +1,14 @@
 ---
 title: PptReadException
-second_title: Aspose.Sildes pro .NET API referenci
-description: Representuje výjimku, která je vyvolána při chybách čtení prezentace.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Představuje výjimku, která je vyvolána při chybách čtení prezentace.
 type: docs
-weight: 9510
+weight: 9530
 url: /cs/aspose.slides/pptreadexception/
 ---
 ## PptReadException třída
 
-Representuje výjimku, která je vyvolána při chybách čtení prezentace.
+Představuje výjimku, která je vyvolána při chybách čtení prezentace.
 
 ```csharp
 public class PptReadException : PptException
@@ -20,7 +20,7 @@ public class PptReadException : PptException
 | --- | --- |
 | [PptReadException](pptreadexception#constructor)() | Výchozí konstruktor. |
 | [PptReadException](pptreadexception#constructor_1)(string) | Konstruktor umožňující přidat zprávu k této výjimce. |
-| [PptReadException](pptreadexception#constructor_2)(string, Exception) | Konstruktor pro výjimku obsahující zprávu a vloženou výjimku. |
+| [PptReadException](pptreadexception#constructor_2)(string, Exception) | Konstruktor výjimky obsahující zprávu a vloženou výjimku. |
 
 ### Viz také
 

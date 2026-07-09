@@ -1,9 +1,9 @@
 ---
 title: SectionCollection
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Bölümlerin bir koleksiyonunu temsil eder.
 type: docs
-weight: 9740
+weight: 9760
 url: /tr/aspose.slides/sectioncollection/
 ---
 ## SectionCollection sınıf
@@ -18,24 +18,24 @@ public sealed class SectionCollection : DomObject<Presentation>, ISectionCollect
 
 | Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides/sectioncollection/count) { get; } | Koleksiyonda gerçekten bulunan öğelerin sayısını alır. Salt-okunur Int32. |
-| [IsSynchronized](../../aspose.slides/sectioncollection/issynchronized) { get; } | Erişimin senkronize (iş parçacığı güvenli) olup olmadığını belirten bir değer döndürür. Salt-okunur Boolean. |
-| [Item](../../aspose.slides/sectioncollection/item) { get; } | Belirtilen indeksdeki öğeyi alır. Salt-okunur [`ISection`](../isection). |
-| [SyncRoot](../../aspose.slides/sectioncollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt-okunur Object. |
+| [Count](../../aspose.slides/sectioncollection/count) { get; } | Koleksiyonda gerçekten bulunan öğe sayısını alır. Yalnızca okuma Int32. |
+| [IsSynchronized](../../aspose.slides/sectioncollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını belirten bir değer döndürür. Yalnızca okuma Boolean. |
+| [Item](../../aspose.slides/sectioncollection/item) { get; } | Belirtilen dizindeki öğeyi alır. Yalnızca okuma [`ISection`](../isection). |
+| [SyncRoot](../../aspose.slides/sectioncollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Yalnızca okuma Object. |
 
-## Yöntemler
+## Metotlar
 
 | Ad | Açıklama |
 | --- | --- |
-| [AddEmptySection](../../aspose.slides/sectioncollection/addemptysection)(string, int) | Koleksiyonun belirtilen konumuna boş bölüm ekler. |
+| [AddEmptySection](../../aspose.slides/sectioncollection/addemptysection)(string, int) | Koleksiyonun belirtilen konumuna boş bir bölüm ekler. |
 | [AddSection](../../aspose.slides/sectioncollection/addsection)(string, ISlide) | Belirli bir slayttan başlayan slayt bölümünü ekler. |
-| [AppendEmptySection](../../aspose.slides/sectioncollection/appendemptysection)(string) | Koleksiyonun sonuna boş bölüm ekler. |
-| [Clear](../../aspose.slides/sectioncollection/clear)() | Koleksiyondaki tüm bölümleri kaldırır. |
+| [AppendEmptySection](../../aspose.slides/sectioncollection/appendemptysection)(string) | Koleksiyonun sonuna boş bir bölüm ekler. |
+| [Clear](../../aspose.slides/sectioncollection/clear)() | Koleksiyondan tüm bölümleri kaldırır. |
 | [CopyTo](../../aspose.slides/sectioncollection/copyto)(Array, int) | Tüm koleksiyonu belirtilen diziye kopyalar. |
 | [GetEnumerator](../../aspose.slides/sectioncollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
-| [IndexOf](../../aspose.slides/sectioncollection/indexof)(ISection) | Koleksiyondaki belirtilen bölümün indeksini döndürür. |
-| [RemoveSection](../../aspose.slides/sectioncollection/removesection)(ISection) | Bölümü kaldırır. Bölümdeki slaytlar önceki bölüme birleştirilecektir. |
-| [RemoveSectionWithSlides](../../aspose.slides/sectioncollection/removesectionwithslides)(ISection) | Bölümü ve bölümdeki slaytları kaldırır. |
+| [IndexOf](../../aspose.slides/sectioncollection/indexof)(ISection) | Koleksiyon içinde belirtilen bölümün indeksini döndürür. |
+| [RemoveSection](../../aspose.slides/sectioncollection/removesection)(ISection) | Bölümü kaldırır. Bölümde bulunan slaytlar önceki bölüme birleştirilecektir. |
+| [RemoveSectionWithSlides](../../aspose.slides/sectioncollection/removesectionwithslides)(ISection) | Bölümü ve bölümde bulunan slaytları kaldırır. |
 | [ReorderSectionWithSlides](../../aspose.slides/sectioncollection/reordersectionwithslides)(ISection, int) | Bölümü ve slaytlarını koleksiyondan belirtilen konuma taşır. |
 
 ### Ayrıca Bakınız

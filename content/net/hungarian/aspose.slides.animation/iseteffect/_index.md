@@ -1,14 +1,14 @@
 ---
 title: ISetEffect
-second_title: Aspose.Sildes a .NET API-referencia
-description: Animációs viselkedéshez tartozó szett hatást képvisel.
+second_title: Aspose.Sildes .NET API Referencia
+description: Egy animációs viselkedéshez tartozó set hatást képvisel.
 type: docs
-weight: 590
+weight: 610
 url: /hu/aspose.slides.animation/iseteffect/
 ---
 ## ISetEffect interfész
 
-Represents a set effect for an animation behavior.
+Egy animációs viselkedéshez tartozó set hatást képvisel.
 
 ```csharp
 public interface ISetEffect : IBehavior
@@ -18,8 +18,8 @@ public interface ISetEffect : IBehavior
 
 | Név | Leírás |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/iseteffect/asibehavior) { get; } | Lehetővé teszi a bázis IBehavior interfész lekérdezését. Csak olvasható [`IBehavior`](../ibehavior). |
-| [To](../../aspose.slides.animation/iseteffect/to) { get; set; } | Meghatározza egy animációs effektus utáni hatás bizonyos attribútumát. Pontértéket képvisel. Csak: bool, ColorFormat, float, int, string. Olvasható/írható Object. |
+| [AsIBehavior](../../aspose.slides.animation/iseteffect/asibehavior) { get; } | Lehetővé teszi a base IBehavior interfész lekérdezését. Csak olvasható [`IBehavior`](../ibehavior). |
+| [To](../../aspose.slides.animation/iseteffect/to) { get; set; } | Meghatározza egy hatás bizonyos attribútumát egy animációs hatás után. Pontértéket képvisel. Csak: bool, ColorFormat, float, int, string. Olvasás/írás Object. |
 
 ### Lásd még
 

@@ -1,14 +1,14 @@
 ---
 title: LineDashStyle
 second_title: Referência da API Aspose.Sildes para .NET
-description: Representa o estilo de traçado da linha.
+description: Representa o estilo de traço da linha.
 type: docs
-weight: 7750
+weight: 7770
 url: /pt/aspose.slides/linedashstyle/
 ---
 ## Enumeração LineDashStyle
 
-Representa o estilo de traçado da linha.
+Representa o estilo de traço da linha.
 
 ```csharp
 public enum LineDashStyle : sbyte

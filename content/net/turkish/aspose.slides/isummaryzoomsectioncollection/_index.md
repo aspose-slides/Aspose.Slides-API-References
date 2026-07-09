@@ -1,9 +1,9 @@
 ---
 title: ISummaryZoomSectionCollection
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Summary Zoom Section nesnelerinin bir koleksiyonunu temsil eder.
 type: docs
-weight: 7150
+weight: 7170
 url: /tr/aspose.slides/isummaryzoomsectioncollection/
 ---
 ## ISummaryZoomSectionCollection arayüz
@@ -16,21 +16,21 @@ public interface ISummaryZoomSectionCollection : IGenericCollection<ISummaryZoom
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [Item](../../aspose.slides/isummaryzoomsectioncollection/item) { get; } | Belirtilen indeksdeki öğeyi alır. Salt okunur [`ISummaryZoomSection`](../isummaryzoomsection). |
+| [Item](../../aspose.slides/isummaryzoomsectioncollection/item) { get; } | Belirtilen dizindeki öğeyi alır. Salt okunur [`ISummaryZoomSection`](../isummaryzoomsection). |
 
-## Metotlar
+## Yöntemler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
 | [AddSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection)(ISection) | Yeni Summary Zoom Section nesnesi oluşturur ve koleksiyona ekler |
-| [Clear](../../aspose.slides/isummaryzoomsectioncollection/clear)() | Koleksiyondan tüm SummaryZoomSection nesnelerini kaldırır. |
+| [Clear](../../aspose.slides/isummaryzoomsectioncollection/clear)() | Koleksiyondaki tüm SummaryZoomSection nesnelerini kaldırır. |
 | [GetSummarySection](../../aspose.slides/isummaryzoomsectioncollection/getsummarysection)(ISection) | Verilen bölüm için Summary Zoom Section öğesini döndürür. |
-| [IndexOf](../../aspose.slides/isummaryzoomsectioncollection/indexof)(ISummaryZoomSection) | Belirtilen SummaryZoomSection nesnesinin bir indeksini döndürür. |
-| [RemoveSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/removesummaryzoomsection)(ISection) | Summary Zoom Section nesnesini koleksiyondan kaldırır. |
+| [IndexOf](../../aspose.slides/isummaryzoomsectioncollection/indexof)(ISummaryZoomSection) | Belirtilen SummaryZoomSection nesnesinin bir dizinini döndürür. |
+| [RemoveSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/removesummaryzoomsection)(ISection) | Koleksiyondan Summary Zoom Section nesnesini kaldırır. |
 
-### Ayrıca Bakınız
+### Ayrıca
 
 * arayüz [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * arayüz [ISummaryZoomSection](../isummaryzoomsection)

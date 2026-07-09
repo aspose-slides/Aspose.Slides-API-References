@@ -1,9 +1,9 @@
 ---
 title: BlackWhiteMode
 second_title: Aspose.Sildes için .NET API Referansı
-description: Renkli şeklin siyah beyaza nasıl dönüştürüleceğini belirler.
+description: Renkli şeklin nasıl siyah beyaza dönüştürüleceğini belirler.
 type: docs
-weight: 1000
+weight: 1020
 url: /tr/aspose.slides/blackwhitemode/
 ---
 ## BlackWhiteMode enum
@@ -19,16 +19,16 @@ public enum BlackWhiteMode : sbyte
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
 | NotDefined | `-1` | Özellik ayarlanmamış |
-| Color | `0` | Nesne normal renkle işlenir |
-| Automatic | `1` | Nesne otomatik renkle işlenir |
-| Gray | `2` | Nesne gri renkle işlenir |
-| LightGray | `3` | Nesne açık gri renkle işlenir |
-| InverseGray | `4` | Nesne ters gri renkle işlenir |
-| GrayWhite | `5` | Nesne gri ve beyaz renkle işlenir |
-| BlackGray | `6` | Nesne siyah ve gri renkle işlenir |
-| BlackWhite | `7` | Nesne siyah ve beyaz renkle işlenir |
-| Black | `8` | Nesne yalnızca siyah renkle işlenir |
-| White | `9` | Nesne beyaz renkle işlenir |
+| Color | `0` | Nesne normal renklendirme ile işlenir |
+| Automatic | `1` | Nesne otomatik renklendirme ile işlenir |
+| Gray | `2` | Nesne gri renklendirme ile işlenir |
+| LightGray | `3` | Nesne açık gri renklendirme ile işlenir |
+| InverseGray | `4` | Nesne ters gri renklendirme ile işlenir |
+| GrayWhite | `5` | Nesne gri ve beyaz renklendirme ile işlenir |
+| BlackGray | `6` | Nesne siyah ve gri renklendirme ile işlenir |
+| BlackWhite | `7` | Nesne siyah ve beyaz renklendirme ile işlenir |
+| Black | `8` | Nesne sadece siyah renklendirme ile işlenir |
+| White | `9` | Nesne beyaz renklendirme ile işlenir |
 | Hidden | `10` | Nesne işlenmez |
 
 ### Ayrıca Bakınız

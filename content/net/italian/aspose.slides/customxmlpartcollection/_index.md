@@ -1,14 +1,14 @@
 ---
 title: CustomXmlPartCollection
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta una collezione di parti XML personalizzate.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta la raccolta di parti xml personalizzate.
 type: docs
-weight: 2730
+weight: 2750
 url: /it/aspose.slides/customxmlpartcollection/
 ---
 ## CustomXmlPartCollection classe
 
-Rappresenta una collezione di parti XML personalizzate.
+Rappresenta la raccolta di parti xml personalizzate.
 
 ```csharp
 public class CustomXmlPartCollection : ICustomXmlPartCollection
@@ -18,23 +18,23 @@ public class CustomXmlPartCollection : ICustomXmlPartCollection
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides/customxmlpartcollection/count) { get; } | Restituisce il conteggio delle parti XML personalizzate nella collezione. Sola lettura Int32. |
-| [IsSynchronized](../../aspose.slides/customxmlpartcollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla collezione è sincronizzato (thread-safe). Sola lettura Boolean. |
+| [Count](../../aspose.slides/customxmlpartcollection/count) { get; } | Restituisce il conteggio delle parti xml personalizzate nella raccolta. Solo lettura Int32. |
+| [IsSynchronized](../../aspose.slides/customxmlpartcollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla raccolta è sincronizzato (thread-safe). Solo lettura Boolean. |
 | [Item](../../aspose.slides/customxmlpartcollection/item) { get; } | Restituisce l'elemento all'indice specificato. |
-| [SyncRoot](../../aspose.slides/customxmlpartcollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Sola lettura Object. |
+| [SyncRoot](../../aspose.slides/customxmlpartcollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Solo lettura Object. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.slides/customxmlpartcollection/add#add)(byte[]) | Aggiunge una nuova parte XML personalizzata. |
-| [Add](../../aspose.slides/customxmlpartcollection/add#add_1)(Stream) | Aggiunge una nuova parte XML personalizzata. |
-| [Add](../../aspose.slides/customxmlpartcollection/add#add_2)(string) | Aggiunge una nuova parte XML personalizzata. |
-| [Clear](../../aspose.slides/customxmlpartcollection/clear)() | Rimuove tutti gli elementi dalla collezione. |
-| [CopyTo](../../aspose.slides/customxmlpartcollection/copyto)(Array, int) | Copia in un array specificato. |
-| [GetEnumerator](../../aspose.slides/customxmlpartcollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la collezione. |
-| [Remove](../../aspose.slides/customxmlpartcollection/remove)(ICustomXmlPart) | Rimuove la prima occorrenza di un oggetto specifico dalla collezione. |
-| [RemoveAt](../../aspose.slides/customxmlpartcollection/removeat)(int) | Rimuove la parte XML personalizzata all'indice specificato. |
+| [Add](../../aspose.slides/customxmlpartcollection/add#add)(byte[]) | Aggiunge una nuova parte xml personalizzata. |
+| [Add](../../aspose.slides/customxmlpartcollection/add#add_1)(Stream) | Aggiunge una nuova parte xml personalizzata. |
+| [Add](../../aspose.slides/customxmlpartcollection/add#add_2)(string) | Aggiunge una nuova parte xml personalizzata. |
+| [Clear](../../aspose.slides/customxmlpartcollection/clear)() | Rimuove tutti gli elementi dalla raccolta. |
+| [CopyTo](../../aspose.slides/customxmlpartcollection/copyto)(Array, int) | Copia nell'array specificato. |
+| [GetEnumerator](../../aspose.slides/customxmlpartcollection/getenumerator)() | Restituisce un enumeratore che scorre la raccolta. |
+| [Remove](../../aspose.slides/customxmlpartcollection/remove)(ICustomXmlPart) | Rimuove la prima occorrenza di un oggetto specifico dalla raccolta. |
+| [RemoveAt](../../aspose.slides/customxmlpartcollection/removeat)(int) | Rimuove la parte xml personalizzata all'indice specificato. |
 
 ### Vedi anche
 

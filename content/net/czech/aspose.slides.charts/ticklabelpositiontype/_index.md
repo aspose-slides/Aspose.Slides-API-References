@@ -1,14 +1,14 @@
 ---
 title: TickLabelPositionType
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje typ polohy popisků značek na zadané ose.
+second_title: Aspose.Sildes pro .NET referenční příručka API
+description: Reprezentuje typ umístění popisků značek na určené ose.
 type: docs
-weight: 2420
+weight: 2440
 url: /cs/aspose.slides.charts/ticklabelpositiontype/
 ---
-## TickLabelPositionType výčtový typ
+## TickLabelPositionType enumerace
 
-Reprezentuje typ polohy popisků značek na určené ose.
+Reprezentuje typ umístění popisků značek na určené ose.
 
 ```csharp
 public enum TickLabelPositionType
@@ -19,7 +19,7 @@ public enum TickLabelPositionType
 | Název | Hodnota | Popis |
 | --- | --- | --- |
 | High | `0` | Určuje, že popisky osy budou na horním konci kolmé osy. |
-| Low | `1` | Určuje, že popisky osy budou na dolním konci kolmé osy. |
+| Low | `1` | Určuje, že popisky osy budou na spodním konci kolmé osy. |
 | NextTo | `2` | Určuje, že popisky osy budou vedle osy. |
 | None | `3` | Určuje, že popisky osy nejsou vykresleny. |
 

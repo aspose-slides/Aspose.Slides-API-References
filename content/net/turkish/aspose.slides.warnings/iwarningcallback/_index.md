@@ -1,12 +1,12 @@
 ---
 title: IWarningCallback
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Uyarı alan sınıflar için arayüz
 type: docs
-weight: 11780
+weight: 11800
 url: /tr/aspose.slides.warnings/iwarningcallback/
 ---
-## IWarningCallback interface
+## IWarningCallback arayüzü
 
 Uyarı alan sınıflar için arayüz
 
@@ -14,13 +14,13 @@ Uyarı alan sınıflar için arayüz
 public interface IWarningCallback
 ```
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | [Warning](../../aspose.slides.warnings/iwarningcallback/warning)(IWarningInfo) | Uyarıyı alan ve işlemin iptal edilip edilmemesi gerektiğine karar veren geri çağırma yöntemi. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.Warnings](../../aspose.slides.warnings)
 * derleme [Aspose.Slides](../../)

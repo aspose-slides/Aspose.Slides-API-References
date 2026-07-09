@@ -3,10 +3,10 @@ title: LineStyle
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje styl čáry.
 type: docs
-weight: 7800
+weight: 7820
 url: /cs/aspose.slides/linestyle/
 ---
-## Enumerace LineStyle
+## Výčtový typ LineStyle
 
 Reprezentuje styl čáry.
 

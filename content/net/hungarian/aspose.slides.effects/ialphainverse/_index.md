@@ -1,14 +1,14 @@
 ---
 title: IAlphaInverse
-second_title: Aspose.Sildes .NET API-referencia
-description: Alpha Inverse hatást reprezentál. Az Alpha átlátszóság értékek 100-ból levonva kerülnek invertálásra.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Egy Alpha Inverse effektust ábrázol. Az Alpha átlátszósági értékek a 100-ból kivonás útján invertálódnak.
 type: docs
-weight: 3060
+weight: 3080
 url: /hu/aspose.slides.effects/ialphainverse/
 ---
 ## IAlphaInverse interfész
 
-Az Alpha Inverse hatást reprezentálja. Az Alpha (átlátszóság) értékek 100%-ról kivonva kerülnek invertálásra.
+Egy Alpha Inverse hatást ábrázol. Az Alpha (átlátszóság) értékek a 100%-ból kivonás útján invertálódnak.
 
 ```csharp
 public interface IAlphaInverse : IAccessiblePVIObject<IAlphaInverseEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaInverse : IAccessiblePVIObject<IAlphaInverseEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphainverse/asiaccessiblepviobject) { get; } | Lehetővé teszi a base IAccessiblePVIObject interfész lekérdezését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphainverse/asiimagetransformoperation) { get; } | Lehetővé teszi a base IImageTransformOperation interfész lekérdezését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphainverse/asiaccessiblepviobject) { get; } | Lehetővé teszi az alap IAccessiblePVIObject interfész elérését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphainverse/asiimagetransformoperation) { get; } | Lehetővé teszi az alap IImageTransformOperation interfész elérését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Lásd még
 

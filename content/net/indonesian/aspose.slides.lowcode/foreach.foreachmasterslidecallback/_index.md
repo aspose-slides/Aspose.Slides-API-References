@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachMasterSlideCallback
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Callback yang akan dipanggil untuk setiap MasterSlide./foreach/masterslide dalam Presentation../aspose.slides/presentation.
 type: docs
-weight: 7900
+weight: 7920
 url: /id/aspose.slides.lowcode/foreach.foreachmasterslidecallback/
 ---
-## ForEach.ForEachMasterSlideCallback delegasi
+## ForEach.ForEachMasterSlideCallback delegate
 
-Callback yang akan dipanggil untuk setiap [`MasterSlide`](../foreach/masterslide) dalam [`Presentation`](../../aspose.slides/presentation).
+Callback that will be invoked for each [`MasterSlide`](../foreach/masterslide) in the [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public delegate void ForEachMasterSlideCallback(MasterSlide masterSlide, int index);
@@ -16,8 +16,8 @@ public delegate void ForEachMasterSlideCallback(MasterSlide masterSlide, int ind
 
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| masterSlide | MasterSlide | Master slide yang diiterasi saat ini |
-| index | Int32 | Indeks master slide saat ini |
+| masterSlide | MasterSlide | Slide master yang sedang diiterasi |
+| index | Int32 | Indeks slide master yang sedang diproses |
 
 ### Lihat Juga
 

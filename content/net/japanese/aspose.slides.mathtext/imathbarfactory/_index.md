@@ -1,14 +1,14 @@
 ---
 title: IMathBarFactory
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: .NET 用 Aspose.Sildes API リファレンス
 description: 数式バーを作成できます
 type: docs
-weight: 8110
+weight: 8130
 url: /ja/aspose.slides.mathtext/imathbarfactory/
 ---
 ## IMathBarFactory インターフェイス
 
-数式バーを作成できます
+数式バーを作成することができます
 
 ```csharp
 public interface IMathBarFactory

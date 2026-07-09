@@ -3,7 +3,7 @@ title: IChartCategoryLevelsManager
 second_title: Aspose.Sildes per .NET Riferimento API
 description: Contenitore gestito dei valori dei livelli di categoria del grafico.
 type: docs
-weight: 1750
+weight: 1770
 url: /it/aspose.slides.charts/ichartcategorylevelsmanager/
 ---
 ## IChartCategoryLevelsManager interfaccia
@@ -18,14 +18,14 @@ public interface IChartCategoryLevelsManager
 
 | Nome | Descrizione |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartcategorylevelsmanager/item) { get; } | Restituisce l'oggetto IChartDataCell per il livello specificato. |
+| [Item](../../aspose.slides.charts/ichartcategorylevelsmanager/item) { get; } | Restituisce oggetto IChartDataCell per il livello definito. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [DeleteGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/deletegroupingitem)(int) | Elimina l'elemento di raggruppamento per il livello specificato. |
-| [SetGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/setgroupingitem)(int, object) | Imposta l'elemento di raggruppamento per il livello specificato. |
+| [DeleteGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/deletegroupingitem)(int) | Elimina l'elemento di raggruppamento per il livello definito. |
+| [SetGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/setgroupingitem)(int, object) | Imposta l'elemento di raggruppamento per il livello definito. |
 
 ### Vedi anche
 

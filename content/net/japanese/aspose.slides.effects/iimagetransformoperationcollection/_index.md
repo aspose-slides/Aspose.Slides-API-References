@@ -1,14 +1,14 @@
 ---
 title: IImageTransformOperationCollection
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 画像に適用されたエフェクトのコレクションを表します。
+description: 画像に適用されるエフェクトのコレクションを表します。
 type: docs
-weight: 3380
+weight: 3400
 url: /ja/aspose.slides.effects/iimagetransformoperationcollection/
 ---
 ## IImageTransformOperationCollection インターフェイス
 
-画像に適用されたエフェクトのコレクションを表します。
+画像に適用される効果のコレクションを表します。
 
 ```csharp
 public interface IImageTransformOperationCollection : ICollection<IImageTransformOperation>
@@ -43,7 +43,7 @@ public interface IImageTransformOperationCollection : ICollection<IImageTransfor
 | [AddHSLEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addhsleffect)(float, float, float) | 新しい Hue/Saturation/Luminance エフェクトをコレクションの末尾に追加します。 |
 | [AddLuminanceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addluminanceeffect)(float, float) | 新しい Luminance エフェクトをコレクションの末尾に追加します。 |
 | [AddTintEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addtinteffect)(float, float) | 新しい Tint エフェクトをコレクションの末尾に追加します。 |
-| [RemoveAt](../../aspose.slides.effects/iimagetransformoperationcollection/removeat)(int) | 指定されたインデックスのコレクションから画像エフェクトを削除します。 |
+| [RemoveAt](../../aspose.slides.effects/iimagetransformoperationcollection/removeat)(int) | コレクションの指定されたインデックスの画像エフェクトを削除します。 |
 
 ### 参照
 

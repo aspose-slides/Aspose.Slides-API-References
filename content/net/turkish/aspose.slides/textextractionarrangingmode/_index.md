@@ -1,14 +1,14 @@
 ---
 title: TextExtractionArrangingMode
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Metin çıkarma sırasında kullanılacak modu temsil eder
 type: docs
-weight: 10920
+weight: 10940
 url: /tr/aspose.slides/textextractionarrangingmode/
 ---
-## TextExtractionArrangingMode enum'ı
+## TextExtractionArrangingMode enum
 
-Metin çıkarma sırasında kullanılacak modu temsil eder
+Metin çıkarma sırasında kullanılacak modu temsil eder.
 
 ```csharp
 public enum TextExtractionArrangingMode
@@ -18,10 +18,10 @@ public enum TextExtractionArrangingMode
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Unarranged | `0` | Slayt üzerindeki konuma saygı göstermeyen ham metin |
-| Arranged | `1` | Metin, slaytta olduğu gibi aynı sırada konumlandırılmıştır |
+| Unarranged | `0` | Slayt üzerindeki konuma bakılmadan ham metin |
+| Arranged | `1` | Metin, slayttaki aynı sırada konumlandırılmıştır |
 
-### İlgili
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

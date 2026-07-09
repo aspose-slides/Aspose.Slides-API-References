@@ -1,14 +1,14 @@
 ---
 title: ISideDirectionTransition
 second_title: Aspose.Sildes の .NET API リファレンス
-description: 側方向のスライド遷移効果。
+description: サイド方向のスライド遷移効果。
 type: docs
-weight: 10170
+weight: 10190
 url: /ja/aspose.slides.slideshow/isidedirectiontransition/
 ---
 ## ISideDirectionTransition インターフェイス
 
-側方向のスライド遷移効果。
+スライドのサイド方向遷移効果。
 
 ```csharp
 public interface ISideDirectionTransition : ITransitionValueBase
@@ -19,7 +19,7 @@ public interface ISideDirectionTransition : ITransitionValueBase
 | 名前 | 説明 |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/isidedirectiontransition/asitransitionvaluebase) { get; } | ベース ITransitionValueBase インターフェイスを取得できます。読み取り専用 [`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [Direction](../../aspose.slides.slideshow/isidedirectiontransition/direction) { get; set; } | 遷移の方向。読み書き [`TransitionSideDirectionType`](../transitionsidedirectiontype)。 |
+| [Direction](../../aspose.slides.slideshow/isidedirectiontransition/direction) { get; set; } | 遷移の方向。読み取り/書き込み [`TransitionSideDirectionType`](../transitionsidedirectiontype)。 |
 
 ### 参照
 

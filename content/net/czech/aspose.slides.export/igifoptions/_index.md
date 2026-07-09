@@ -3,7 +3,7 @@ title: IGifOptions
 second_title: Aspose.Sildes pro .NET API Reference
 description: Representuje možnosti exportu GIF.
 type: docs
-weight: 3900
+weight: 3920
 url: /cs/aspose.slides.export/igifoptions/
 ---
 ## IGifOptions rozhraní
@@ -21,7 +21,7 @@ public interface IGifOptions : ISaveOptions
 | [AsISaveOptions](../../aspose.slides.export/igifoptions/asisaveoptions) { get; } | Vrací rozhraní ISaveOptions. Pouze pro čtení [`ISaveOptions`](../isaveoptions). |
 | [DefaultDelay](../../aspose.slides.export/igifoptions/defaultdelay) { get; set; } | Získává nebo nastavuje výchozí dobu zpoždění [ms]. Tato hodnota bude použita, pokud není nastaveno [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime). Výchozí hodnota je 1000. |
 | [ExportHiddenSlides](../../aspose.slides.export/igifoptions/exporthiddenslides) { get; set; } | Určuje, zda budou exportovány skryté snímky. Výchozí hodnota je false. |
-| [FrameSize](../../aspose.slides.export/igifoptions/framesize) { get; set; } | Získává nebo nastavuje velikost rámce. |
+| [FrameSize](../../aspose.slides.export/igifoptions/framesize) { get; set; } | Získává nebo nastavuje velikost snímku. |
 | [TransitionFps](../../aspose.slides.export/igifoptions/transitionfps) { get; set; } | Získává nebo nastavuje FPS přechodu [frames/sec]. Výchozí hodnota je 25. |
 
 ### Viz také

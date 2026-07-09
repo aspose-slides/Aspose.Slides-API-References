@@ -3,12 +3,12 @@ title: PptOptions
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Fornisce opzioni che controllano come una presentazione viene salvata nel formato PPT.
 type: docs
-weight: 4340
+weight: 4360
 url: /it/aspose.slides.export/pptoptions/
 ---
 ## PptOptions classe
 
-Fornisce opzioni che controllano come una presentazione viene salvata nel formato PPT.
+Fornisce opzioni che controllano come una presentazione viene salvata in formato PPT.
 
 ```csharp
 public class PptOptions : SaveOptions, IPptOptions
@@ -24,12 +24,12 @@ public class PptOptions : SaveOptions, IPptOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Restituisce o imposta il font usato nel caso in cui il font sorgente non sia trovato. Lettura/scrittura String. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Restituisce o imposta il font utilizzato nel caso in cui il font di origine non sia trovato. Lettura-scrittura String. |
 | [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Restituisce o imposta lo stile visivo del gradiente. Lettura/scrittura [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Rappresenta un oggetto di callback per gli aggiornamenti di avanzamento del salvataggio in percentuale. Vedi [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
 | [RootDirectoryClsid](../../aspose.slides.export/pptoptions/rootdirectoryclsid) { get; set; } | Rappresenta il GUID della classe dell'oggetto (CLSID) memorizzato nella voce della directory radice. Può essere usato per l'attivazione COM dell'applicazione del documento. Il valore predefinito è '64818D11-4F9B-11CF-86EA-00AA00B929E8' che corrisponde a 'Microsoft Powerpoint.Slide.8'. |
 | [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Specifica se saltare i collegamenti ipertestuali con chiamate JavaScript durante il salvataggio della presentazione. Lettura/scrittura Boolean. Il valore predefinito è **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Restituisce o imposta un oggetto che riceve avvisi e decide se il processo di caricamento continuerà o sarà interrotto. Lettura/scrittura [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Restituisce o imposta un oggetto che riceve gli avvisi e decide se il processo di caricamento continuerà o verrà interrotto. Lettura/scrittura [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Vedi anche
 

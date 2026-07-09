@@ -1,14 +1,14 @@
 ---
 title: IBlurEffectiveData
 second_title: Aspose.Sildes için .NET API Referansı
-description: Tamamı doldurması dahil olmak üzere tüm şekle uygulanan bir Blur etkisini temsil eden değişmez nesne. Alfa dahil tüm renk kanalları etkilenir.
+description: Bütün şekle dolgu dahil uygulanmış bir Bulanıklaştırma efekti temsil eden değiştirilemez nesne. Alfa da dahil olmak üzere tüm renk kanalları etkilenir.
 type: docs
-weight: 3170
+weight: 3190
 url: /tr/aspose.slides.effects/iblureffectivedata/
 ---
-## IBlurEffectiveData arayüz
+## IBlurEffectiveData interface
 
-Tüm şekle, doldurması dahil, uygulanan bir Blur etkisini temsil eden değişmez nesne. Alfa dahil tüm renk kanalları etkilenir.
+Tüm şekle, dolgusu dahil, uygulanan bir Bulanıklaştırma efektini temsil eden değiştirilemez nesne. Alfa kanalı dahil tüm renk kanalları etkilenir.
 
 ```csharp
 public interface IBlurEffectiveData : IEffectEffectiveData
@@ -18,11 +18,11 @@ public interface IBlurEffectiveData : IEffectEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iblureffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzünü almaya izin verir. Yalnızca okunabilir [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | Nesnenin sınırlarının bulanıklaştırma sonucunda genişletilip genişletilmeyeceğini belirler. True, sınırların genişletildiğini; false ise genişletilmediğini gösterir. Yalnızca okunabilir Boolean. |
-| [Radius](../../aspose.slides.effects/iblureffectivedata/radius) { get; } | blur yarıçapını döndürür veya ayarlar. Yalnızca okunabilir Double. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iblureffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzünü almayı sağlar. Yalnızca okunur [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | Nesnenin sınırlarının bulanıklaştırma sonucu büyütülüp büyütülmeyeceğini belirler. True sınırların büyütüldüğünü, false ise büyütülmediğini gösterir. Yalnızca okunur Boolean. |
+| [Radius](../../aspose.slides.effects/iblureffectivedata/radius) { get; } | Bulanıklaştırma yarıçapını alır veya ayarlar. Yalnızca okunur Double. |
 
-### Diğer
+### Diğer Bağlantılar
 
 * arayüz [IEffectEffectiveData](../ieffecteffectivedata)
 * ad alanı [Aspose.Slides.Effects](../../aspose.slides.effects)

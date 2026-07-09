@@ -3,10 +3,10 @@ title: PresetShadowType
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 影効果のプリセットを表します。
 type: docs
-weight: 9650
+weight: 9670
 url: /ja/aspose.slides/presetshadowtype/
 ---
-## PresetShadowType 列挙型
+## PresetShadowType 列挙体
 
 影効果のプリセットを表します。
 
@@ -20,8 +20,8 @@ public enum PresetShadowType
 | --- | --- | --- |
 | TopLeftDropShadow | `0` | Top Left Drop Shadow を表します。 |
 | TopLeftLargeDropShadow | `1` | Top Left Large Drop Shadow を表します。 |
-| BackLeftLongPerspectiveShadow | `2` | Back Left Long Perspective Shadow を表します |
-| BackRightLongPerspectiveShadow | `3` | Back Right Long Perspective Shadow を表します |
+| BackLeftLongPerspectiveShadow | `2` | Back Left Long Perspective Shadow を表します。 |
+| BackRightLongPerspectiveShadow | `3` | Back Right Long Perspective Shadow を表します。 |
 | TopLeftDoubleDropShadow | `4` | Top Left Double Drop Shadow を表します。 |
 | BottomRightSmallDropShadow | `5` | Bottom Right Small Drop Shadow を表します。 |
 | FrontLeftLongPerspectiveShadow | `6` | Front Left Long Perspective Shadow を表します。 |
@@ -39,7 +39,7 @@ public enum PresetShadowType
 | FrontRightPerspectiveShadow | `18` | Front Right Perspective Shadow を表します。 |
 | TopLeftSmallDropShadow | `19` | Top Left Small Drop Shadow を表します。 |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

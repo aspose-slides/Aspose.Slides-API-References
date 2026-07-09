@@ -3,7 +3,7 @@ title: ITableFormatEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
 description: Oföränderligt objekt som innehåller effektiva tabellformateringsegenskaper.
 type: docs
-weight: 7230
+weight: 7250
 url: /sv/aspose.slides/itableformateffectivedata/
 ---
 ## ITableFormatEffectiveData gränssnitt
@@ -18,12 +18,12 @@ public interface ITableFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/itableformateffectivedata/asibasetableformateffectivedata) { get; } | Tillåter att hämta bas-IBaseTableFormatEffectiveData gränssnitt. Skrivskyddad [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
-| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | Hämtar genomskinligheten för fyllningsfärgen. Läs Single. |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/itableformateffectivedata/asibasetableformateffectivedata) { get; } | Tillåter att hämta bas-IBaseTableFormatEffectiveData-gränssnittet. Skrivskyddad [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | Returnerar transparensen för fyllningsfärgen. Returnerar Single. |
 
 ### Anmärkningar
 
-Detta gränssnitt används tillsammans med [`ITableFormat`](../itableformat) gränssnitt för att returnera effektiva formateringsvärden med arv och tabellstilar tillämpade.
+Detta gränssnitt används tillsammans med [`ITableFormat`](../itableformat) gränssnittet för att returnera effektiva formateringsvärden med arv och tabellstilar tillämpade.
 
 ### Se även
 

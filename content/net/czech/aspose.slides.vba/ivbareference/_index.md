@@ -1,9 +1,9 @@
 ---
 title: IVbaReference
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET – referenční příručka API
 description: Reprezentuje název odkazu projektu VBA.
 type: docs
-weight: 11550
+weight: 11570
 url: /cs/aspose.slides.vba/ivbareference/
 ---
 ## IVbaReference rozhraní
@@ -18,7 +18,7 @@ public interface IVbaReference
 
 | Název | Popis |
 | --- | --- |
-| [Name](../../aspose.slides.vba/ivbareference/name) { get; set; } | Reprezentuje název odkazu projektu VBA. Čtení/zápis String. |
+| [Name](../../aspose.slides.vba/ivbareference/name) { get; set; } | Reprezentuje název odkazu projektu VBA. Číst/zapisovat String. |
 
 ### Viz také
 

@@ -1,12 +1,12 @@
 ---
 title: MathDelimiterShape
-second_title: Aspose.Sildes dla dokumentacji API .NET
+second_title: Aspose.Sildes dla referencji API .NET
 description: Położenie i rozmiar delimiterów względem zawartości operandów
 type: docs
-weight: 8650
+weight: 8670
 url: /pl/aspose.slides.mathtext/mathdelimitershape/
 ---
-## MathDelimiterShape enumeracja
+## Wyliczenie MathDelimiterShape
 
 Położenie i rozmiar delimiterów względem zawartości operandów
 
@@ -19,7 +19,7 @@ public enum MathDelimiterShape
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
 | Centered | `0` | Wyśrodkowane względem osi matematycznej |
-| Match | `1` | Dopasowane do zawartości |
+| Match | `1` | Dopasowane do treści |
 
 ### Zobacz także
 

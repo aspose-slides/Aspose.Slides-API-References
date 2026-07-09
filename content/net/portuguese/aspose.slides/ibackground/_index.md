@@ -3,10 +3,10 @@ title: IBackground
 second_title: Aspose.Sildes para .NET Referência da API
 description: Representa o plano de fundo de um slide.
 type: docs
-weight: 5250
+weight: 5270
 url: /pt/aspose.slides/ibackground/
 ---
-## interface IBackground
+## IBackground interface
 
 Representa o plano de fundo de um slide.
 
@@ -18,21 +18,21 @@ public interface IBackground : IFillParamSource, ISlideComponent
 
 | Nome | Descrição |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ibackground/asifillparamsource) { get; } | Retorna a interface IFillParamSource. Somente leitura [`IFillParamSource`](../ifillparamsource). |
-| [AsISlideComponent](../../aspose.slides/ibackground/asislidecomponent) { get; } | Retorna a interface ISlideComponent. Somente leitura [`ISlideComponent`](../islidecomponent). |
-| [EffectFormat](../../aspose.slides/ibackground/effectformat) { get; } | Retorna um EffectFormat para o preenchimento BackgroundType.OwnBackground. Somente leitura [`IEffectFormat`](../ieffectformat). |
-| [FillFormat](../../aspose.slides/ibackground/fillformat) { get; } | Retorna um FillFormat para o preenchimento BackgroundType.OwnBackground. Somente leitura [`IFillFormat`](../ifillformat). |
+| [AsIFillParamSource](../../aspose.slides/ibackground/asifillparamsource) { get; } | Retorna IFillParamSource interface. Somente leitura [`IFillParamSource`](../ifillparamsource). |
+| [AsISlideComponent](../../aspose.slides/ibackground/asislidecomponent) { get; } | Retorna ISlideComponent interface. Somente leitura [`ISlideComponent`](../islidecomponent). |
+| [EffectFormat](../../aspose.slides/ibackground/effectformat) { get; } | Retorna um EffectFormat para preenchimento BackgroundType.OwnBackground. Somente leitura [`IEffectFormat`](../ieffectformat). |
+| [FillFormat](../../aspose.slides/ibackground/fillformat) { get; } | Retorna um FillFormat para preenchimento BackgroundType.OwnBackground. Somente leitura [`IFillFormat`](../ifillformat). |
 | [StyleColor](../../aspose.slides/ibackground/stylecolor) { get; } | Retorna um ColorFormat para um preenchimento BackgroundType.Themed. Somente leitura [`IColorFormat`](../icolorformat). |
-| [StyleIndex](../../aspose.slides/ibackground/styleindex) { get; set; } | Retorna um índice do preenchimento BackgroundType.Themed na coleção de tema de plano de fundo. 0 significa sem preenchimento. 1..999 - índice. Leitura/gravação UInt16. |
-| [Type](../../aspose.slides/ibackground/type) { get; set; } | Retorna um tipo de preenchimento de fundo. Leitura/gravação [`BackgroundType`](../backgroundtype). |
+| [StyleIndex](../../aspose.slides/ibackground/styleindex) { get; set; } | Retorna um índice do preenchimento BackgroundType.Themed na coleção de temas de plano de fundo. 0 significa sem preenchimento. 1..999 - índice. Leitura/Gravação UInt16. |
+| [Type](../../aspose.slides/ibackground/type) { get; set; } | Retorna um tipo de preenchimento de plano de fundo. Leitura/Gravação [`BackgroundType`](../backgroundtype). |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
-| [GetEffective](../../aspose.slides/ibackground/geteffective)() | Obtém os dados de fundo efetivos com a herança aplicada. |
+| [GetEffective](../../aspose.slides/ibackground/geteffective)() | Obtém os dados de plano de fundo efetivos com a herança aplicada. |
 
-### Veja Também
+### Ver também
 
 * interface [IFillParamSource](../ifillparamsource)
 * interface [ISlideComponent](../islidecomponent)

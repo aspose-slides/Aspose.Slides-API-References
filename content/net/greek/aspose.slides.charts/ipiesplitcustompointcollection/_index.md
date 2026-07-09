@@ -1,14 +1,14 @@
 ---
 title: IPieSplitCustomPointCollection
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει μια συλλογή σημείων που θα σχεδιαστούν στη δεύτερη πίτα ή ράβδο σε γράφημα bar-of-pie ή pie-of-pie με προσαρμοσμένο διαχωρισμό.
+second_title: Aspose.Sildes για .NET API Reference
+description: Αναπαριστά μια συλλογή σημείων που θα πρέπει να σχεδιαστούν στο δεύτερο τμήμα πίτας ή μπάρας σε γράφημα τύπου μπάρα-πίτα ή πίτα-μπάρα με προσαρμοσμένο διαχωρισμό.
 type: docs
-weight: 2170
+weight: 2190
 url: /el/aspose.slides.charts/ipiesplitcustompointcollection/
 ---
 ## IPieSplitCustomPointCollection διασύνδεση
 
-Αντιπροσωπεύει μια συλλογή σημείων που θα σχεδιαστούν στη δεύτερη πίτα ή ράβδο σε γράφημα bar-of-pie ή pie-of-pie με προσαρμοσμένο διαχωρισμό.
+Αναπαριστά μια συλλογή σημείων που θα πρέπει να σχεδιαστούν στο δεύτερο τμήμα πίτας ή μπάρας σε γράφημα τύπου μπάρα-πίτα ή πίτα-μπάρα με προσαρμοσμένο διαχωρισμό.
 
 ```csharp
 public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
@@ -19,14 +19,14 @@ public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.charts/ipiesplitcustompointcollection/asienumerable) { get; } | Επιστρέφει τη διεπαφή IEnumerable. |
-| [Item](../../aspose.slides.charts/ipiesplitcustompointcollection/item) { get; } | Επιστρέφει το σημείο δεδομένων του διαγράμματος με βάση το δείκτη. |
+| [Item](../../aspose.slides.charts/ipiesplitcustompointcollection/item) { get; } | Επιστρέφει το σημείο δεδομένων γραφήματος με βάση το δείκτη. |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | Προσθέτει σημείο δεδομένων με βάση το δείκτη του στη συλλογή σημείων της γονικής σειράς. |
-| [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | Αφαιρεί το στοιχείο από τη συλλογή με βάση το δείκτη του στη συλλογή σημείων της γονικής σειράς. |
+| [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | Προσθέτει σημείο δεδομένων με το δείκτη του στη συλλογή σημείων της γονικής σειράς. |
+| [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | Αφαιρεί το στοιχείο από τη συλλογή με το δείκτη του στη συλλογή σημείων της γονικής σειράς. |
 
 ### Δείτε επίσης
 

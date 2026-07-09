@@ -1,14 +1,14 @@
 ---
 title: ILegacyDiagram
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili objek diagram warisan
+description: Mewakili objek diagram legacy
 type: docs
-weight: 6230
+weight: 6250
 url: /id/aspose.slides/ilegacydiagram/
 ---
 ## ILegacyDiagram antarmuka
 
-Mewakili objek diagram warisan
+Mewakili objek diagram legacy
 
 ```csharp
 public interface ILegacyDiagram : IGraphicalObject
@@ -18,14 +18,14 @@ public interface ILegacyDiagram : IGraphicalObject
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/ilegacydiagram/asigraphicalobject) { get; } | Mengizinkan untuk mendapatkan antarmuka IGraphicalObject dasar. Hanya-baca [`IGraphicalObject`](../igraphicalobject). |
+| [AsIGraphicalObject](../../aspose.slides/ilegacydiagram/asigraphicalobject) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar IGraphicalObject. Hanya-baca [`IGraphicalObject`](../igraphicalobject). |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
-| [ConvertToGroupShape](../../aspose.slides/ilegacydiagram/converttogroupshape)() | Mengonversi diagram warisan menjadi grup bentuk yang dapat diedit. Objek GroupShape yang dibuat ditambahkan ke grup bentuk induk pada posisi yang sama. |
-| [ConvertToSmartArt](../../aspose.slides/ilegacydiagram/converttosmartart)() | Mengonversi diagram warisan menjadi objek SmartArt yang dapat diedit. Objek SmartArt yang dibuat ditambahkan ke grup bentuk induk pada posisi yang sama. |
+| [ConvertToGroupShape](../../aspose.slides/ilegacydiagram/converttogroupshape)() | Mengonversi digram warisan menjadi grup bentuk yang dapat disunting. Objek GroupShape yang dibuat ditambahkan ke grup bentuk induk pada posisi yang sama. |
+| [ConvertToSmartArt](../../aspose.slides/ilegacydiagram/converttosmartart)() | Mengonversi digram warisan menjadi objek SmartArt yang dapat disunting. Objek SmartArt yang dibuat ditambahkan ke grup bentuk induk pada posisi yang sama. |
 
 ### Lihat Juga
 

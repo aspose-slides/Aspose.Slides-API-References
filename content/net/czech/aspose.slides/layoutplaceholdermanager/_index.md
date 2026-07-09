@@ -1,14 +1,14 @@
 ---
 title: LayoutPlaceholderManager
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje správce, který umožňuje přidávat placeholdery do rozložení snímku.
+description: Representuje správce, který umožňuje přidávat placeholdery do snímku rozložení.
 type: docs
-weight: 7610
+weight: 7630
 url: /cs/aspose.slides/layoutplaceholdermanager/
 ---
 ## LayoutPlaceholderManager třída
 
-Reprezentuje správce, který umožňuje přidávat placeholdery do rozložení snímku.
+Representuje správce, který umožňuje přidávat placeholdery do snímku rozložení.
 
 ```csharp
 public class LayoutPlaceholderManager : ILayoutPlaceholderManager
@@ -18,16 +18,16 @@ public class LayoutPlaceholderManager : ILayoutPlaceholderManager
 
 | Název | Popis |
 | --- | --- |
-| [AddChartPlaceholder](../../aspose.slides/layoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | Přidá nový placeholder tvar na rozložení snímku pro umístění grafu. |
-| [AddContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | Přidá nový placeholder tvar na rozložení snímku pro obsah, například obrázek, tabulku, multimédia nebo text. |
-| [AddMediaPlaceholder](../../aspose.slides/layoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | Přidá nový placeholder tvar na rozložení snímku pro multimediální objekt. |
-| [AddOnlineImagePlaceholder](../../aspose.slides/layoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | Přidá nový placeholder tvar na rozložení snímku pro online obrázek. |
-| [AddPicturePlaceholder](../../aspose.slides/layoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | Přidá nový placeholder tvar na rozložení snímku pro obrázek. |
-| [AddSmartArtPlaceholder](../../aspose.slides/layoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | Přidá nový placeholder tvar na rozložení snímku pro diagram SmartArt. |
-| [AddTablePlaceholder](../../aspose.slides/layoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | Přidá nový placeholder tvar na rozložení snímku pro tabulku. |
-| [AddTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | Přidá nový placeholder tvar na rozložení snímku pro textový obsah. |
-| [AddVerticalContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Přidá nový placeholder tvar na rozložení snímku pro obsah, například obrázek, tabulku, multimédia nebo text ve svislém směru. |
-| [AddVerticalTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Přidá nový placeholder tvar na rozložení snímku pro textový obsah ve svislém směru. |
+| [AddChartPlaceholder](../../aspose.slides/layoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | Přidá nový tvar placeholder do rozložení snímku, který bude obsahovat graf. |
+| [AddContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | Přidá nový tvar placeholder do rozložení snímku, který bude obsahovat obsah, například obrázek, tabulku, multimédia nebo text. |
+| [AddMediaPlaceholder](../../aspose.slides/layoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | Přidá nový tvar placeholder do rozložení snímku, který bude obsahovat multimediální objekt. |
+| [AddOnlineImagePlaceholder](../../aspose.slides/layoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | Přidá nový tvar placeholder do rozložení snímku, který bude obsahovat online obrázek. |
+| [AddPicturePlaceholder](../../aspose.slides/layoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | Přidá nový tvar placeholder do rozložení snímku, který bude obsahovat obrázek. |
+| [AddSmartArtPlaceholder](../../aspose.slides/layoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | Přidá nový tvar placeholder do rozložení snímku, který bude obsahovat diagram SmartArt. |
+| [AddTablePlaceholder](../../aspose.slides/layoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | Přidá nový tvar placeholder do rozložení snímku, který bude obsahovat tabulku. |
+| [AddTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | Přidá nový tvar placeholder do rozložení snímku, který bude obsahovat textový obsah. |
+| [AddVerticalContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Přidá nový tvar placeholder do rozložení snímku, který bude obsahovat obsah, například obrázek, tabulku, multimédia nebo text ve svislém směru. |
+| [AddVerticalTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Přidá nový tvar placeholder do rozložení snímku, který bude obsahovat textový obsah ve svislém směru. |
 
 ### Viz také
 

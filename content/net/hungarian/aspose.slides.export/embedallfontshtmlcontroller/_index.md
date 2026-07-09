@@ -1,14 +1,14 @@
 ---
 title: EmbedAllFontsHtmlController
-second_title: Aspose.Sildes a .NET API Referenciához
-description: A formázási vezérlőosztály, amelyet a prezentáció összes betűtípusának WOFF formátumban való beágyazására használnak.
+second_title: Aspose.Sildes .NET API referencia
+description: A formázó vezérlőosztály, amely a prezentáció összes betűtípusának WOFF formátumban történő beágyazásához használható.
 type: docs
-weight: 3740
+weight: 3760
 url: /hu/aspose.slides.export/embedallfontshtmlcontroller/
 ---
 ## EmbedAllFontsHtmlController osztály
 
-A formázási vezérlőosztály, amelyet a prezentáció összes betűtípusának WOFF formátumban való beágyazására használnak.
+A formázó vezérlőosztály a prezentáció összes betűtípusának WOFF formátumban történő beágyazásához.
 
 ```csharp
 public class EmbedAllFontsHtmlController : IHtmlFormattingController
@@ -25,14 +25,14 @@ public class EmbedAllFontsHtmlController : IHtmlFormattingController
 
 | Név | Leírás |
 | --- | --- |
-| virtual [WriteAllFonts](../../aspose.slides.export/embedallfontshtmlcontroller/writeallfonts)(IHtmlGenerator, IPresentation) | Az összes betűtípust, amely a [`Presentation`](../../aspose.slides/presentation)-ben található, kiírja. |
-| virtual [WriteDocumentEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | HTML-dokumentum láblécének írására hívják. Prezentáció konvertálásánként egyszer hívják. |
-| virtual [WriteDocumentStart](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | HTML-dokumentum fejlécének írására hívják. Prezentáció konvertálásánként egyszer hívják. |
-| virtual [WriteFont](../../aspose.slides.export/embedallfontshtmlcontroller/writefont)(IHtmlGenerator, IFontData, IFontData, string, string, byte[]) | Az adatot base64 formátumban a HTML-dokumentumba írja. |
-| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | Az alakzat renderelése előtt hívják. Minden egyes alakzatnál egyszer hívják. Ha ez a függvény bármit ír a generatorba, a jelenlegi dia kép generálása befejeződik, a hozzáadott html-töredék beillesztésre kerül, és egy új kép indul a korábbi felett. |
-| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | Az alakzat renderelése előtt hívják. Minden egyes alakzatnál egyszer hívják. Ha ez a függvény bármit ír a generatorba, a jelenlegi dia kép generálása befejeződik, a hozzáadott html-töredék beillesztésre kerül, és egy új kép indul a korábbi felett. |
-| virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | HTML-dia láblécének írására hívják. Minden diához egyszer hívják. |
-| virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | HTML-dia fejlécének írására hívják. Minden diához egyszer hívják. |
+| virtual [WriteAllFonts](../../aspose.slides.export/embedallfontshtmlcontroller/writeallfonts)(IHtmlGenerator, IPresentation) | Az összes betűtípust kiírja a [`Presentation`](../../aspose.slides/presentation). |
+| virtual [WriteDocumentEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | Az html dokumentum láblécének írására hívódik. Egy alkalommal hívják minden prezentációkonverzió során. |
+| virtual [WriteDocumentStart](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | Az html dokumentum fejlécre írására hívódik. Egy alkalommal hívják minden prezentációkonverzió során. |
+| virtual [WriteFont](../../aspose.slides.export/embedallfontshtmlcontroller/writefont)(IHtmlGenerator, IFontData, IFontData, string, string, byte[]) | Az adatot base64 formátumban írja közvetlenül az HTML dokumentumba |
+| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | A shape megjelenítése előtt hívódik. Minden shape esetén egyszer hívják. Ha ez a függvény bármit is ír a generátorba, a jelenlegi dia kép generálása befejeződik, a hozzáadott html fragmentum beillesztésre kerül, és egy új kép kezdődik az előző tetején. |
+| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | A shape megjelenítése előtt hívódik. Minden shape esetén egyszer hívják. Ha ez a függvény bármit is ír a generátorba, a jelenlegi dia kép generálása befejeződik, a hozzáadott html fragmentum beillesztésre kerül, és egy új kép kezdődik az előző tetején. |
+| virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | Az html dia láblécének írására hívódik. Minden diánál egyszer hívják. |
+| virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | Az html dia fejlécre írására hívódik. Minden diánál egyszer hívják. |
 
 ### Lásd még
 

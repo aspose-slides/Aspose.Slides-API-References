@@ -1,44 +1,44 @@
 ---
 title: PptxOptions
-second_title: Aspose.Sildes για .NET API Reference
-description: Αναπαριστά τις επιλογές για αποθήκευση παρουσιάσεων OpenXml PPTX PPSX POTX PPTM PPSM POTM.
+second_title: Aspose.Sildes για .NET – Αναφορά API
+description: Αντιπροσωπεύει επιλογές για αποθήκευση παρουσιάσεων OpenXml PPTX PPSX POTX PPTM PPSM POTM.
 type: docs
-weight: 4350
+weight: 4370
 url: /el/aspose.slides.export/pptxoptions/
 ---
-## PptxOptions class
+## PptxOptions κλάση
 
-Αναπαριστά τις επιλογές για αποθήκευση παρουσιάσεων OpenXml (PPTX, PPSX, POTX, PPTM, PPSM, POTM).
+Αντιπροσωπεύει επιλογές για αποθήκευση παρουσιάσεων OpenXml (PPTX, PPSX, POTX, PPTM, PPSM, POTM).
 
 ```csharp
 public sealed class PptxOptions : SaveOptions, IPptxOptions
 ```
 
-## Constructors
+## Κατασκευαστές
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [PptxOptions](pptxoptions)() | Δημιουργεί νέο στιγμιότυπο του PptxOptions |
+| [PptxOptions](pptxoptions)() | Δημιουργεί νέο αντικείμενο PptxOptions |
 
-## Properties
+## Ιδιότητες
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
 | [CompressionLevel](../../aspose.slides.export/pptxoptions/compressionlevel) { get; set; } | Καθορίζει το επίπεδο συμπίεσης που χρησιμοποιείται κατά την αποθήκευση του εγγράφου παρουσίασης. Η προεπιλεγμένη τιμή είναι Level6. |
-| [Conformance](../../aspose.slides.export/pptxoptions/conformance) { get; set; } | Καθορίζει την κλάση συμμόρφωσης στην οποία το έγγραφο Presentation συμμορφώνεται. Η προεπιλεγμένη τιμή είναι Ecma376_2006 |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Επιστρέφει ή ορίζει τη γραμματοσειρά που χρησιμοποιείται όταν η πηγή δεν βρεθεί. Ανάγνωση/Εγγραφή String. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Επιστρέφει ή ορίζει το οπτικό στυλ του διαβάσματος. Ανάγνωση/Εγγραφή [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Αναπαριστά ένα αντικείμενο κλήσης επιστροφής για ενημερώσεις προόδου αποθήκευσης σε ποσοστό. Δείτε [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [RefreshThumbnail](../../aspose.slides.export/pptxoptions/refreshthumbnail) { get; set; } | Καθορίζει εάν η μικρογραφία της παρουσίασης θα ανανεωθεί. Ανάγνωση/Εγγραφή Boolean. Η προεπιλεγμένη τιμή είναι **true**. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Καθορίζει εάν θα παραλειφθούν υπερσυνδέσεις με κλήσης JavaScript κατά την αποθήκευση της παρουσίασης. Ανάγνωση/Εγγραφή Boolean. Η προεπιλεγμένη τιμή είναι **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Επιστρέφει ή ορίζει ένα αντικείμενο που λαμβάνει προειδοποιήσεις και αποφασίζει εάν η διαδικασία φόρτωσης θα συνεχιστεί ή θα ματαιωθεί. Ανάγνωση/Εγγραφή [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
-| [Zip64Mode](../../aspose.slides.export/pptxoptions/zip64mode) { get; set; } | Καθορίζει εάν χρησιμοποιείται η μορφή ZIP64 για το έγγραφο Presentation. Η προεπιλεγμένη τιμή είναι IfNecessary |
+| [Conformance](../../aspose.slides.export/pptxoptions/conformance) { get; set; } | Καθορίζει την κλάση συμμόρφωσης στην οποία συμμορφώνεται το έγγραφο παρουσίασης. Η προεπιλεγμένη τιμή είναι Ecma376_2006 |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Επιστρέφει ή ορίζει τη γραμματοσειρά που χρησιμοποιείται όταν η πηγαία γραμματοσειρά δεν βρεθεί. Διαβάζου-γραφτέα String. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Επιστρέφει ή ορίζει το οπτικό στυλ του διαβάθμισης. Διαβάζου-γραφτέα [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Αντιπροσωπεύει ένα αντικείμενο callback για ενημερώσεις προόδου αποθήκευσης σε ποσοστό. Δείτε [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [RefreshThumbnail](../../aspose.slides.export/pptxoptions/refreshthumbnail) { get; set; } | Καθορίζει αν η μικρογραφία παρουσίασης θα ανανεωθεί. Διαβάζου-γραφτέα Boolean. Η προεπιλεγμένη τιμή είναι **true**. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Καθορίζει αν θα παραλειφθούν υπερσυνδέσεις με κλήσεις JavaScript κατά την αποθήκευση της παρουσίασης. Διαβάζου-γραφτέα Boolean. Η προεπιλεγμένη τιμή είναι **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Επιστρέφει ή ορίζει ένα αντικείμενο που λαμβάνει προειδοποιήσεις και αποφασίζει αν η διαδικασία φόρτωσης θα συνεχιστεί ή θα ακυρωθεί. Διαβάζου-γραφτέα [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [Zip64Mode](../../aspose.slides.export/pptxoptions/zip64mode) { get; set; } | Καθορίζει αν χρησιμοποιείται η μορφή ZIP64 για το έγγραφο παρουσίασης. Η προεπιλεγμένη τιμή είναι IfNecessary |
 
-### See Also
+### Δείτε επίσης
 
 * κλάση [SaveOptions](../saveoptions)
-* διασύνδεση [IPptxOptions](../ipptxoptions)
-* χώρος ονομάτων [Aspose.Slides.Export](../../aspose.slides.export)
-* συναρμολόγηση [Aspose.Slides](../../)
+* διεπαφή [IPptxOptions](../ipptxoptions)
+* χώρο ονομάτων [Aspose.Slides.Export](../../aspose.slides.export)
+* συγκρότηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

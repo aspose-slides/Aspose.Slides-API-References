@@ -1,14 +1,14 @@
 ---
 title: IGlowEffectiveData
-second_title: Aspose.Sildes dla dokumentacji API .NET
-description: Niezmienny obiekt, który reprezentuje efekt Glow, w którym rozmyta obwódka w kolorze jest dodawana poza krawędziami obiektu.
+second_title: Aspose.Sildes dla .NET API Reference
+description: Niezmienny obiekt reprezentujący efekt poświaty, w którym rozmyta obwódka w kolorze jest dodawana poza krawędziami obiektu.
 type: docs
-weight: 3310
+weight: 3330
 url: /pl/aspose.slides.effects/igloweffectivedata/
 ---
 ## IGlowEffectiveData interfejs
 
-Niezmienny obiekt, który reprezentuje efekt Glow, w którym rozmyta obwódka w kolorze jest dodawana poza krawędziami obiektu.
+Niezmienny obiekt reprezentujący efekt poświaty, w którym rozmyta obwódka w kolorze jest dodawana poza krawędziami obiektu.
 
 ```csharp
 public interface IGlowEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface IGlowEffectiveData : IEffectEffectiveData
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/igloweffectivedata/asieffecteffectivedata) { get; } | Umożliwia pobranie bazowego interfejsu IEffectEffectiveData. Tylko do odczytu [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Color](../../aspose.slides.effects/igloweffectivedata/color) { get; } | Color. Tylko do odczytu Color. |
-| [Radius](../../aspose.slides.effects/igloweffectivedata/radius) { get; } | Radius. Tylko do odczytu Double. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/igloweffectivedata/asieffecteffectivedata) { get; } | Umożliwia pobranie podstawowego interfejsu IEffectEffectiveData. Tylko do odczytu [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Color](../../aspose.slides.effects/igloweffectivedata/color) { get; } | Kolor. Tylko do odczytu Color. |
+| [Radius](../../aspose.slides.effects/igloweffectivedata/radius) { get; } | Promień. Tylko do odczytu Double. |
 
 ### Zobacz także
 

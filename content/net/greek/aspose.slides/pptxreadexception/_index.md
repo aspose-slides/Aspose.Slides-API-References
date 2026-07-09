@@ -1,14 +1,14 @@
 ---
 title: PptxReadException
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αναπαριστά μια εξαίρεση που προκύπτει σε σφάλματα ανάγνωσης παρουσίασης.
+description: Αναπαριστά μια εξαίρεση που προκαλείται σε σφάλματα ανάγνωσης παρουσίασης.
 type: docs
-weight: 9550
+weight: 9570
 url: /el/aspose.slides/pptxreadexception/
 ---
 ## PptxReadException κλάση
 
-Αναπαριστά μια εξαίρεση που προκύπτει σε σφάλματα ανάγνωσης της παρουσίασης.
+Αναπαριστά μια εξαίρεση που προκαλείται σε σφάλματα ανάγνωσης παρουσίασης.
 
 ```csharp
 public class PptxReadException : PptxException
@@ -18,9 +18,9 @@ public class PptxReadException : PptxException
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [PptxReadException](pptxreadexception#constructor)() | Κατασκευαστής προεπιλογής. |
-| [PptxReadException](pptxreadexception#constructor_1)(string) | Κατασκευαστής που επιτρέπει την προσθήκη ενός μηνύματος σε αυτήν την εξαίρεση. |
-| [PptxReadException](pptxreadexception#constructor_2)(string, Exception) | Κατασκευαστής για μια εξαίρεση που περιέχει ένα μήνυμα και μια ενσωματωμένη εξαίρεση. |
+| [PptxReadException](pptxreadexception#constructor)() | Προεπιλεγμένος κατασκευαστής. |
+| [PptxReadException](pptxreadexception#constructor_1)(string) | Κατασκευαστής που επιτρέπει την προσθήκη μηνύματος σε αυτήν την εξαίρεση. |
+| [PptxReadException](pptxreadexception#constructor_2)(string, Exception) | Κατασκευαστής για μία εξαίρεση που περιέχει μήνυμα και ενσωματωμένη εξαίρεση. |
 
 ### Δείτε επίσης
 

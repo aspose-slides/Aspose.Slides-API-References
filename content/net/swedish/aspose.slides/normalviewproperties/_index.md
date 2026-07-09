@@ -1,14 +1,14 @@
 ---
 title: NormalViewProperties
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar egenskaper för normal vy. Normal vy består av tre innehållsområden: själva bilden, ett sidoinnehållsområde och ett botteninnehållsområde.
+description: Representerar egenskaper för normal vy. Den normala vyn består av tre innehållsområden: själva bilden, ett sidoinnehållsområde och ett botteninnehållsområde.
 type: docs
-weight: 9090
+weight: 9110
 url: /sv/aspose.slides/normalviewproperties/
 ---
 ## NormalViewProperties klass
 
-Representerar egenskaper för normal vy. Normal vy består av tre innehållsområden: själva bilden, ett sidoinnehållsområde och ett botteninnehållsområde.
+Representerar egenskaper för normal vy. Den normala vyn består av tre innehållsområden: själva bilden, ett sidoinnehållsområde och ett botteninnehållsområde.
 
 ```csharp
 public class NormalViewProperties : INormalViewProperties
@@ -19,20 +19,20 @@ public class NormalViewProperties : INormalViewProperties
 | Namn | Beskrivning |
 | --- | --- |
 | [HorizontalBarState](../../aspose.slides/normalviewproperties/horizontalbarstate) { get; set; } | Anger det tillstånd som den horisontella delningslisten ska visas i. En horisontell delningslist separerar bilden från innehållsområdet under bilden. |
-| [PreferSingleView](../../aspose.slides/normalviewproperties/prefersingleview) { get; set; } | Anger om användaren föredrar att se ett enda innehållsområde i hela fönstret istället för den standardmässiga normalvyn med tre innehållsområden. Om det är aktiverat kan applikationen välja att visa ett av innehållsområdena i hela fönstret. Läs/skriv Boolean. |
-| [RestoredLeft](../../aspose.slides/normalviewproperties/restoredleft) { get; } | Detta element anger storleken på sidoinnehållsområdet i normal vy, när området har en variabel återställd storlek (varken minimerad eller maximerad). Skrivskyddad [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [RestoredTop](../../aspose.slides/normalviewproperties/restoredtop) { get; } | Detta element anger storleken på det övre bildområdet i normal vy, när området har en variabel återställd storlek (varken minimerad eller maximerad). Skrivskyddad [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [ShowOutlineIcons](../../aspose.slides/normalviewproperties/showoutlineicons) { get; set; } | Anger om applikationen ska visa ikoner när den visar dispositionens innehåll i någon av innehållsområdena i normalvyläge. Läs/skriv Boolean. |
-| [SnapVerticalSplitter](../../aspose.slides/normalviewproperties/snapverticalsplitter) { get; set; } | Anger om den vertikala delningslisten ska fästas i ett minimerat tillstånd när sidområdet är tillräckligt litet. Läs/skriv Boolean. |
+| [PreferSingleView](../../aspose.slides/normalviewproperties/prefersingleview) { get; set; } | Anger om användaren föredrar att se ett enda innehållsområde i helfönstert läge istället för den vanliga vyn med tre innehållsområden. Om aktiverat kan programmet välja att visa ett av innehållsområdena i hela fönstret. Läs/skriv Boolean. |
+| [RestoredLeft](../../aspose.slides/normalviewproperties/restoredleft) { get; } | Detta element anger storleken på sidoinnehållsområdet i den normala vyn när området har en variabel återställd storlek (varken minimerad eller maximerad). Endast läsning [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [RestoredTop](../../aspose.slides/normalviewproperties/restoredtop) { get; } | Detta element anger storleken på det övre bildområdet i den normala vyn när området har en variabel återställd storlek (varken minimerad eller maximerad). Endast läsning [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [ShowOutlineIcons](../../aspose.slides/normalviewproperties/showoutlineicons) { get; set; } | Anger om programmet ska visa ikoner när det visar dispositionsinnehåll i något av innehållsområdena i normal vy-läge. Läs/skriv Boolean. |
+| [SnapVerticalSplitter](../../aspose.slides/normalviewproperties/snapverticalsplitter) { get; set; } | Anger om den vertikala delningslisten ska fästa i ett minimerat tillstånd när sidområdet är tillräckligt litet. Läs/skriv Boolean. |
 | [VerticalBarState](../../aspose.slides/normalviewproperties/verticalbarstate) { get; set; } | Anger det tillstånd som den vertikala delningslisten ska visas i. En vertikal delningslist separerar bilden från sidoinnehållsområdet. |
 
 ### Exempel
 
-Följande exempel visar hur man konfigurerar egenskaperna ViewProperties.NormalViewProperties för en PowerPoint-presentation.
+Följande exempel visar hur man konfigurerar egenskaperna i ViewProperties.NormalViewProperties för en PowerPoint-presentation.
 
 ```csharp
 [C#]
-//Instansiera ett presentationsobjekt som representerar en presentationsfil
+//Skapa ett presentationsobjekt som representerar en presentationsfil
 using (Presentation pres = new Presentation("demo.pptx"))
 {
     pres.ViewProperties.NormalViewProperties.HorizontalBarState = SplitterBarStateType.Restored;
@@ -44,10 +44,10 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### Se även
+### Se också
 
 * gränssnitt [INormalViewProperties](../inormalviewproperties)
 * namnrymd [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* samling [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

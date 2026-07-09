@@ -1,14 +1,14 @@
 ---
 title: IBaseChartValue
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar ett värde i ett diagram.
+description: Representerar ett värde av ett diagram.
 type: docs
-weight: 1710
+weight: 1730
 url: /sv/aspose.slides.charts/ibasechartvalue/
 ---
 ## IBaseChartValue gränssnitt
 
-Representerar ett värde för ett diagram.
+Representerar ett värde av ett diagram.
 
 ```csharp
 public interface IBaseChartValue
@@ -19,7 +19,7 @@ public interface IBaseChartValue
 | Namn | Beskrivning |
 | --- | --- |
 | [Data](../../aspose.slides.charts/ibasechartvalue/data) { get; set; } | Läs/skriv Object. |
-| [DataSourceType](../../aspose.slides.charts/ibasechartvalue/datasourcetype) { get; set; } | Anger om AsCell- eller AsLiteralString- eller AsLiteralDouble-egenskapen är aktuell. Med andra ord anger den vilken typ av värde Data-egenskapen har. Denna egenskap är skrivskyddad. För att ändra värdet på denna egenskap kan du använda en av ChartDataPointCollection.DataSourceTypeFor&lt;...&gt;-egenskaperna. Läs/skriv [`DataSourceType`](./datasourcetype). |
+| [DataSourceType](../../aspose.slides.charts/ibasechartvalue/datasourcetype) { get; set; } | Anger om AsCell eller AsLiteralString eller AsLiteralDouble egenskapen är aktuell. Med andra ord anger den typen av värde för Data egenskapen. Denna egenskap är skrivskyddad. För att ändra värdet på denna egenskap kan du använda någon av ChartDataPointCollection.DataSourceTypeFor&lt;...&gt;-egenskaperna. Läs/skriv [`DataSourceType`](./datasourcetype). |
 
 ### Se även
 

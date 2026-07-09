@@ -1,14 +1,14 @@
 ---
 title: MathFunctionsOfTwoArguments
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 2 つの引数の共通数学関数
+description: 2つの引数を持つ一般的な数学関数
 type: docs
-weight: 8730
+weight: 8750
 url: /ja/aspose.slides.mathtext/mathfunctionsoftwoarguments/
 ---
 ## MathFunctionsOfTwoArguments 列挙体
 
-2 つの引数の共通数学関数
+2つの引数を持つ一般的な数学関数
 
 ```csharp
 public enum MathFunctionsOfTwoArguments
@@ -18,8 +18,8 @@ public enum MathFunctionsOfTwoArguments
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| Log | `0` | 対数 |
-| Lim | `1` | リミット |
+| Log | `0` | Log |
+| Lim | `1` | 上限 |
 | Min | `2` | 最小 |
 | Max | `3` | 最大 |
 

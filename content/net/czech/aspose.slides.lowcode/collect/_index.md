@@ -1,14 +1,14 @@
 ---
 title: Collect
-second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje skupinu metod určených ke sběru modelových objektů různých typů z Presentation../aspose.slides/presentation.
+second_title: Aspose.Sildes pro .NET referenci API
+description: Representuje skupinu metod určených k získání modelových objektů různých typů z Presentation../aspose.slides/presentation.
 type: docs
-weight: 7840
+weight: 7860
 url: /cs/aspose.slides.lowcode/collect/
 ---
 ## Collect třída
 
-Representuje skupinu metod určených k sběru modelových objektů různých typů z [`Presentation`](../../aspose.slides/presentation).
+Reprezentuje skupinu metod určených k získání modelových objektů různých typů z [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public static class Collect
@@ -18,7 +18,7 @@ public static class Collect
 
 | Název | Popis |
 | --- | --- |
-| static [Shapes](../../aspose.slides.lowcode/collect/shapes)(Presentation) | Sbírá všechny instance [`Shape`](../../aspose.slides/shape) v [`Presentation`](../../aspose.slides/presentation). |
+| static [Shapes](../../aspose.slides.lowcode/collect/shapes)(Presentation) | Získá všechny instance [`Shape`](../../aspose.slides/shape) v [`Presentation`](../../aspose.slides/presentation). |
 
 ### Příklady
 

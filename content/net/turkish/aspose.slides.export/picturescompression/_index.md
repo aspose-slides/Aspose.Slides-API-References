@@ -1,12 +1,12 @@
 ---
 title: PicturesCompression
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Resim sıkıştırma seviyesini temsil eder
 type: docs
-weight: 4330
+weight: 4350
 url: /tr/aspose.slides.export/picturescompression/
 ---
-## PicturesCompression enum
+## PicturesCompression numaralandırması
 
 Resim sıkıştırma seviyesini temsil eder
 
@@ -20,12 +20,12 @@ public enum PicturesCompression
 | --- | --- | --- |
 | Dpi330 | `0` | Yüksek çözünürlüklü (HD) ekranlar için iyi kalite |
 | Dpi220 | `1` | Çoğu yazıcı ve ekranda mükemmel kalite |
-| Dpi150 | `2` | Web sayfaları ve projeksiyon cihazları için iyi |
+| Dpi150 | `2` | Web sayfaları ve projektörler için uygun |
 | Dpi96 | `3` | Paylaşım için belge boyutunu küçültür |
 | Dpi72 | `4` | Varsayılan sıkıştırma seviyesi |
-| DocumentResolution | `5` | Belge çözünürlüğünü kullan - resim sıkıştırılmaz ve belge içinde olduğu gibi kullanılır |
+| DocumentResolution | `5` | Belge çözünürlüğünü kullan - resim sıkıştırılmaz ve belgeye olduğu gibi eklenir |
 
-### Ayrıca Bakın
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.Export](../../aspose.slides.export)
 * derleme [Aspose.Slides](../../)

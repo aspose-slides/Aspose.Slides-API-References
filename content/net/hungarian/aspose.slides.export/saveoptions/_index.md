@@ -1,14 +1,14 @@
 ---
 title: SaveOptions
-second_title: Aspose.Sildes .NET API referencia
-description: Absztrakt osztály, amely lehetőségeket tartalmaz a prezentáció mentésének szabályozásához.
+second_title: Aspose.Sildes .NET API Referenciája
+description: Absztrakt osztály, amely lehetőségeket biztosít a bemutató mentésének irányításához.
 type: docs
-weight: 4430
+weight: 4450
 url: /hu/aspose.slides.export/saveoptions/
 ---
 ## SaveOptions osztály
 
-Absztrakt osztály azon lehetőségekkel, amelyek szabályozzák, hogyan mentődik a prezentáció.
+Absztrakt osztály, amely lehetőségeket biztosít a bemutató mentésének irányításához.
 
 ```csharp
 public abstract class SaveOptions : ISaveOptions
@@ -16,13 +16,13 @@ public abstract class SaveOptions : ISaveOptions
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Leírás |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Visszaadja vagy beállítja a betűkészletet, ha a forrás betűkészlet nem található. Olvasás-írás String. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Visszaadja vagy beállítja a betűtípust, amelyet akkor használ, ha a forrás betűtípusa nem található. Olvasás-írás String. |
 | [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Visszaadja vagy beállítja a színátmenet vizuális stílusát. Olvasás/írás [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Egy visszahívási objektumot képvisel a mentés előrehaladásának százalékos frissítéséhez. Lásd [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Megadja, hogy a prezentáció mentésekor kihagyja-e a JavaScript hívásokat tartalmazó hiperhivatkozásokat. Olvasás/írás Boolean. Az alapértelmezett érték **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Visszaadja vagy beállítja azt az objektumot, amely figyelmeztetéseket kap, és meghatározza, hogy a betöltési folyamat folytatódjon-e vagy megszakadjon. Olvasás/írás [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Képviseli azt a visszahívási objektumot, amely a mentés előrehaladását százalékban adja vissza. Lásd [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Megadja, hogy a bemutató mentésekor kihagyja-e a JavaScript hívású hiperhivatkozásokat. Olvasás/írás Boolean. Az alapértelmezett érték **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Visszaadja vagy beállítja azt az objektumot, amely figyelmeztetéseket kap, és eldönti, hogy a betöltési folyamat folytatódjon-e vagy megszakadjon. Olvasás/írás [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Lásd még
 

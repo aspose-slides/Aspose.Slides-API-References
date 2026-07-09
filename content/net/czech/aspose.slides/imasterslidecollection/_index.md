@@ -3,7 +3,7 @@ title: IMasterSlideCollection
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje kolekci hlavních snímků.
 type: docs
-weight: 6410
+weight: 6430
 url: /cs/aspose.slides/imasterslidecollection/
 ---
 ## IMasterSlideCollection rozhraní
@@ -18,17 +18,17 @@ public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
 
 | Název | Popis |
 | --- | --- |
-| [Item](../../aspose.slides/imasterslidecollection/item) { get; } | Načte prvek na zadaném indexu. Pouze pro čtení [`IMasterSlide`](../imasterslide). |
+| [Item](../../aspose.slides/imasterslidecollection/item) { get; } | Vrací prvek na zadaném indexu. Pouze pro čtení [`IMasterSlide`](../imasterslide). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | Přidá kopii zadaného master snímku na konec kolekce. Propojené snímky rozvržení budou také zkopírovány. |
-| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Vloží kopii zadaného master snímku na určenou pozici v kolekci. Propojené snímky rozvržení budou také zkopírovány. |
+| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | Přidá kopii zadaného hlavního snímku na konec kolekce. Připojené snímky rozvržení budou také zkopírovány. |
+| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Vloží kopii zadaného hlavního snímku na určenou pozici v kolekci. Připojené snímky rozvržení budou také zkopírovány. |
 | [Remove](../../aspose.slides/imasterslidecollection/remove)(IMasterSlide) | Odstraní první výskyt konkrétního objektu z kolekce. |
 | [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | Odstraní prvek na zadaném indexu v kolekci. |
-| [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | Odstraní nepoužité master snímky. |
+| [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | Odstraní nepoužité hlavní snímky. |
 
 ### Viz také
 

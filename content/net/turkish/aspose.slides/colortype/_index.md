@@ -1,9 +1,9 @@
 ---
 title: ColorType
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET için API Referansı
 description: Farklı renk modlarını temsil eder.
 type: docs
-weight: 2560
+weight: 2580
 url: /tr/aspose.slides/colortype/
 ---
 ## ColorType enum
@@ -26,7 +26,7 @@ public enum ColorType
 | System | `4` | Sistem rengi. |
 | Preset | `5` | Ön ayar rengi. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

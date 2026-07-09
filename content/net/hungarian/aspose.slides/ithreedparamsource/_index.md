@@ -1,14 +1,14 @@
 ---
 title: IThreeDParamSource
-second_title: Aspose.Sildes a .NET API referenciája
-description: 3D tulajdonságforrás segédinterfész
+second_title: Aspose.Sildes .NET API referencia
+description: 3D tulajdonságok forrása segédinterfész
 type: docs
-weight: 7330
+weight: 7350
 url: /hu/aspose.slides/ithreedparamsource/
 ---
 ## IThreeDParamSource interfész
 
-3D tulajdonságforrás segédinterfész
+3D tulajdonságok forrása segédinterfész
 
 ```csharp
 public interface IThreeDParamSource

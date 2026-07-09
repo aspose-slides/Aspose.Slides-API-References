@@ -1,14 +1,14 @@
 ---
 title: IVbaReference
-second_title: Aspose.Sildes .NET API Referenciája
-description: A VBA-projekt hivatkozás nevét képviseli.
+second_title: Aspose.Sildes .NET API referencia
+description: A VBA projekt hivatkozás nevét jelöli.
 type: docs
-weight: 11550
+weight: 11570
 url: /hu/aspose.slides.vba/ivbareference/
 ---
 ## IVbaReference interfész
 
-A VBA-projekt hivatkozás nevét képviseli.
+A VBA projekt hivatkozás nevét jelöli.
 
 ```csharp
 public interface IVbaReference
@@ -18,7 +18,7 @@ public interface IVbaReference
 
 | Név | Leírás |
 | --- | --- |
-| [Name](../../aspose.slides.vba/ivbareference/name) { get; set; } | A VBA-projekt hivatkozás nevét képviseli. Olvasás/írás String. |
+| [Name](../../aspose.slides.vba/ivbareference/name) { get; set; } | A VBA projekt hivatkozás nevét jelöli. Olvasás/írás String. |
 
 ### Lásd még
 

@@ -3,7 +3,7 @@ title: IVbaProject
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar VBA-projekt med presentationsmakron.
 type: docs
-weight: 11530
+weight: 11550
 url: /sv/aspose.slides.vba/ivbaproject/
 ---
 ## IVbaProject gränssnitt
@@ -18,10 +18,10 @@ public interface IVbaProject
 
 | Namn | Beskrivning |
 | --- | --- |
-| [IsPasswordProtected](../../aspose.slides.vba/ivbaproject/ispasswordprotected) { get; } | Indikerar om VBAProject är skyddat av ett lösenord för att visa projektets egenskaper. Skrivskyddad Boolean. |
-| [Modules](../../aspose.slides.vba/ivbaproject/modules) { get; } | Returnerar listan över alla moduler som finns i VBA-projektet. Skrivskyddad [`IVbaModuleCollection`](../ivbamodulecollection). |
+| [IsPasswordProtected](../../aspose.slides.vba/ivbaproject/ispasswordprotected) { get; } | Anger om VBAProject är skyddad med ett lösenord för att visa projektets egenskaper. Skrivskyddad Boolean. |
+| [Modules](../../aspose.slides.vba/ivbaproject/modules) { get; } | Returnerar listan med alla moduler som ingår i VBA-projektet. Skrivskyddad [`IVbaModuleCollection`](../ivbamodulecollection). |
 | [Name](../../aspose.slides.vba/ivbaproject/name) { get; } | Returnerar namnet på VBA-projektet. Skrivskyddad String. |
-| [References](../../aspose.slides.vba/ivbaproject/references) { get; } | Returnerar listan över alla referenser som finns i VBA-projektet. Skrivskyddad [`IVbaReferenceCollection`](../ivbareferencecollection). |
+| [References](../../aspose.slides.vba/ivbaproject/references) { get; } | Returnerar listan med alla referenser som ingår i VBA-projektet. Skrivskyddad [`IVbaReferenceCollection`](../ivbareferencecollection). |
 
 ## Metoder
 

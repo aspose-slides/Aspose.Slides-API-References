@@ -1,14 +1,14 @@
 ---
 title: IPictureFillFormatEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 画像塗りつぶしのプロパティを含む不変オブジェクトです。
+description: ピクチャフィルのプロパティを含む不変オブジェクトです。
 type: docs
-weight: 6640
+weight: 6660
 url: /ja/aspose.slides/ipicturefillformateffectivedata/
 ---
 ## IPictureFillFormatEffectiveData インターフェイス
 
-画像塗りつぶしのプロパティを含む不変オブジェクトです。
+ピクチャフィルのプロパティを含む不変オブジェクトです。
 
 ```csharp
 public interface IPictureFillFormatEffectiveData : IFillParamSource
@@ -16,18 +16,18 @@ public interface IPictureFillFormatEffectiveData : IFillParamSource
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ipicturefillformateffectivedata/asifillparamsource) { get; } | ベースの IFillParamSource インターフェイスを取得できます。読み取り専用 [`IFillParamSource`](../ifillparamsource)。 |
-| [CropBottom](../../aspose.slides/ipicturefillformateffectivedata/cropbottom) { get; } | 画像の下部からトリミングされた実際の画像高さのパーセンテージ数を返します。読み取り専用 Single。 |
-| [CropLeft](../../aspose.slides/ipicturefillformateffectivedata/cropleft) { get; } | 画像の左側からトリミングされた実際の画像幅のパーセンテージ数を返します。読み取り専用 Single。 |
-| [CropRight](../../aspose.slides/ipicturefillformateffectivedata/cropright) { get; } | 画像の右側からトリミングされた実際の画像幅のパーセンテージ数を返します。読み取り専用 Single。 |
-| [CropTop](../../aspose.slides/ipicturefillformateffectivedata/croptop) { get; } | 画像の上部からトリミングされた実際の画像高さのパーセンテージ数を返します。読み取り専用 Single。 |
-| [Dpi](../../aspose.slides/ipicturefillformateffectivedata/dpi) { get; } | 画像を塗りつぶす際に使用される dpi を返します。読み取り専用 Int32。 |
+| [CropBottom](../../aspose.slides/ipicturefillformateffectivedata/cropbottom) { get; } | 画像の下部からトリミングされた実際の画像高さのパーセント数を返します。読み取り専用 Single。 |
+| [CropLeft](../../aspose.slides/ipicturefillformateffectivedata/cropleft) { get; } | 画像の左側からトリミングされた実際の画像幅のパーセント数を返します。読み取り専用 Single。 |
+| [CropRight](../../aspose.slides/ipicturefillformateffectivedata/cropright) { get; } | 画像の右側からトリミングされた実際の画像幅のパーセント数を返します。読み取り専用 Single。 |
+| [CropTop](../../aspose.slides/ipicturefillformateffectivedata/croptop) { get; } | 画像の上部からトリミングされた実際の画像高さのパーセント数を返します。読み取り専用 Single。 |
+| [Dpi](../../aspose.slides/ipicturefillformateffectivedata/dpi) { get; } | 画像を塗りつぶす際に使用される DPI を返します。読み取り専用 Int32。 |
 | [Picture](../../aspose.slides/ipicturefillformateffectivedata/picture) { get; } | 画像を返します。読み取り専用 [`IPictureEffectiveData`](../ipictureeffectivedata)。 |
 | [PictureFillMode](../../aspose.slides/ipicturefillformateffectivedata/picturefillmode) { get; } | 画像塗りつぶしモードを返します。読み取り専用 [`PictureFillMode`](../picturefillmode)。 |
 
-### 備考
+### 注釈
 
 このインターフェイスは [`IFillFormatEffectiveData`](../ifillformateffectivedata) の一部として使用されます。
 

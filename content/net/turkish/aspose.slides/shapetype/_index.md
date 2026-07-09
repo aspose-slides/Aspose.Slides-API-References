@@ -1,216 +1,216 @@
 ---
 title: ShapeType
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Geometri şekillerinin önceden tanımlanmış geometrisini temsil eder.
 type: docs
-weight: 9910
+weight: 9930
 url: /tr/aspose.slides/shapetype/
 ---
-## ShapeType enum
+## ShapeType enum'ı
 
-Önceden tanımlanmış geometri şekillerinin geometrisini temsil eder.
+Önceden tanımlanmış geometrik şekilleri temsil eder.
 
 ```csharp
 public enum ShapeType
 ```
 
-### Değerler
+### Values
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
 | NotDefined | `-1` | Tanımlanmamış. |
-| Custom | `0` | Custom Şekli. Bu sadece dönüş değeridir. |
-| Line | `1` | Line Şekli. |
-| LineInverse | `2` | Line Inverse Şekli. |
-| Triangle | `3` | Triangle Şekli. |
-| RightTriangle | `4` | Right Triangle Şekli. |
-| Rectangle | `5` | Rectangle Şekli. |
-| Diamond | `6` | Diamond Şekli. |
-| Parallelogram | `7` | Parallelogram Şekli. |
-| Trapezoid | `8` | Trapezoid Şekli. |
-| NonIsoscelesTrapezoid | `9` | Non-Isosceles Trapezoid Şekli. |
-| Pentagon | `10` | Pentagon Şekli. |
-| Hexagon | `11` | Hexagon Şekli. |
-| Heptagon | `12` | Heptagon Şekli. |
-| Octagon | `13` | Octagon Şekli. |
-| Decagon | `14` | Decagon Şekli. |
-| Dodecagon | `15` | Dodecagon Şekli. |
-| FourPointedStar | `16` | Four Pointed Star Şekli. |
-| FivePointedStar | `17` | Five Pointed Star Şekli. |
-| SixPointedStar | `18` | Six Pointed Star Şekli. |
-| SevenPointedStar | `19` | Seven Pointed Star Şekli. |
-| EightPointedStar | `20` | Eight Pointed Star Şekli. |
-| TenPointedStar | `21` | Ten Pointed Star Şekli. |
-| TwelvePointedStar | `22` | Twelve Pointed Star Şekli. |
-| SixteenPointedStar | `23` | Sixteen Pointed Star Şekli. |
-| TwentyFourPointedStar | `24` | Twenty Four Pointed Star Şekli. |
-| ThirtyTwoPointedStar | `25` | Thirty Two Pointed Star Şekli. |
-| RoundCornerRectangle | `26` | Round Corner Rectangle Şekli. |
-| OneRoundCornerRectangle | `27` | One Round Corner Rectangle Şekli. |
-| TwoSamesideRoundCornerRectangle | `28` | Two Same-side Round Corner Rectangle Şekli. |
-| TwoDiagonalRoundCornerRectangle | `29` | Two Diagonal Round Corner Rectangle Şekli. |
-| OneSnipOneRoundCornerRectangle | `30` | One Snip One Round Corner Rectangle Şekli. |
-| OneSnipCornerRectangle | `31` | One Snip Corner Rectangle Şekli. |
-| TwoSamesideSnipCornerRectangle | `32` | Two Same-side Snip Corner Rectangle Şekli. |
-| TwoDiagonalSnipCornerRectangle | `33` | Two Diagonal Snip Corner Rectangle Şekli. |
-| Plaque | `34` | Plaque Şekli. |
-| Ellipse | `35` | Ellipse Şekli. |
-| Teardrop | `36` | Teardrop Şekli. |
+| Custom | `0` | Özel şekil. Bu yalnızca dönüş için kullanılan bir değerdir. |
+| Line | `1` | Çizgi Şekli. |
+| LineInverse | `2` | Ters Çizgi Şekli. |
+| Triangle | `3` | Üçgen Şekli. |
+| RightTriangle | `4` | Dik Üçgen Şekli. |
+| Rectangle | `5` | Dikdörtgen Şekli. |
+| Diamond | `6` | Elmas Şekli. |
+| Parallelogram | `7` | Paralelkenar Şekli. |
+| Trapezoid | `8` | Trapez Şekli. |
+| NonIsoscelesTrapezoid | `9` | İzosele olmayan Trapez Şekli. |
+| Pentagon | `10` | Beşgen Şekli. |
+| Hexagon | `11` | Altıgen Şekli. |
+| Heptagon | `12` | Yedigen Şekli. |
+| Octagon | `13` | Sekizgen Şekli. |
+| Decagon | `14` | Onkenar Şekli. |
+| Dodecagon | `15` | Onikigen Şekli. |
+| FourPointedStar | `16` | Dört Köşeli Yıldız Şekli. |
+| FivePointedStar | `17` | Beş Köşeli Yıldız Şekli. |
+| SixPointedStar | `18` | Altı Köşeli Yıldız Şekli. |
+| SevenPointedStar | `19` | Yedi Köşeli Yıldız Şekli. |
+| EightPointedStar | `20` | Sekiz Köşeli Yıldız Şekli. |
+| TenPointedStar | `21` | On Köşeli Yıldız Şekli. |
+| TwelvePointedStar | `22` | On iki Köşeli Yıldız Şekli. |
+| SixteenPointedStar | `23` | On altı Köşeli Yıldız Şekli. |
+| TwentyFourPointedStar | `24` | Yirmi Dört Köşeli Yıldız Şekli. |
+| ThirtyTwoPointedStar | `25` | Otuz İki Köşeli Yıldız Şekli. |
+| RoundCornerRectangle | `26` | Yuvarlak Köşeli Dikdörtgen Şekli. |
+| OneRoundCornerRectangle | `27` | Tek Yuvarlak Köşeli Dikdörtgen Şekli. |
+| TwoSamesideRoundCornerRectangle | `28` | İki Aynı Taraflı Yuvarlak Köşeli Dikdörtgen Şekli. |
+| TwoDiagonalRoundCornerRectangle | `29` | İki Çapraz Yuvarlak Köşeli Dikdörtgen Şekli. |
+| OneSnipOneRoundCornerRectangle | `30` | Bir Kesik ve Bir Yuvarlak Köşeli Dikdörtgen Şekli. |
+| OneSnipCornerRectangle | `31` | Bir Kesik Köşeli Dikdörtgen Şekli. |
+| TwoSamesideSnipCornerRectangle | `32` | İki Aynı Taraflı Kesik Köşeli Dikdörtgen Şekli. |
+| TwoDiagonalSnipCornerRectangle | `33` | İki Çapraz Kesik Köşeli Dikdörtgen Şekli. |
+| Plaque | `34` | Plak Şekli. |
+| Ellipse | `35` | Elips Şekli. |
+| Teardrop | `36` | Gözyaşı Şekli. |
 | HomePlate | `37` | Home Plate Şekli. |
 | Chevron | `38` | Chevron Şekli. |
-| PieWedge | `39` | Pie Wedge Şekli. |
-| Pie | `40` | Pie Şekli. |
-| BlockArc | `41` | Block Arc Şekli. |
+| PieWedge | `39` | Pasta Dilimi Şekli. |
+| Pie | `40` | Pasta Şekli. |
+| BlockArc | `41` | Blok Yay Şekli. |
 | Donut | `42` | Donut Şekli. |
-| NoSmoking | `43` | No Smoking Şekli. |
-| RightArrow | `44` | Right Arrow Şekli. |
-| LeftArrow | `45` | Left Arrow Şekli. |
-| UpArrow | `46` | Up Arrow Şekli. |
-| DownArrow | `47` | Down Arrow Şekli. |
-| StripedRightArrow | `48` | Striped Right Arrow Şekli. |
-| NotchedRightArrow | `49` | Notched Right Arrow Şekli. |
-| BentUpArrow | `50` | Bent Up Arrow Şekli. |
-| LeftRightArrow | `51` | Left Right Arrow Şekli. |
-| UpDownArrow | `52` | Up Down Arrow Şekli. |
-| LeftUpArrow | `53` | Left Up Arrow Şekli. |
-| LeftRightUpArrow | `54` | Left Right Up Arrow Şekli. |
-| QuadArrow | `55` | Quad-Arrow Şekli. |
-| CalloutLeftArrow | `56` | Callout Left Arrow Şekli. |
-| CalloutRightArrow | `57` | Callout Right Arrow Şekli. |
-| CalloutUpArrow | `58` | Callout Up Arrow Şekli. |
-| CalloutDownArrow | `59` | Callout Down Arrow Şekli. |
-| CalloutLeftRightArrow | `60` | Callout Left Right Arrow Şekli. |
-| CalloutUpDownArrow | `61` | Callout Up Down Arrow Şekli. |
-| CalloutQuadArrow | `62` | Callout Quad-Arrow Şekli. |
-| BentArrow | `63` | Bent Arrow Şekli. |
-| UTurnArrow | `64` | U-Turn Arrow Şekli. |
-| CircularArrow | `65` | Circular Arrow Şekli. |
-| LeftCircularArrow | `66` | Left Circular Arrow Şekli. |
-| LeftRightCircularArrow | `67` | Left Right Circular Arrow Şekli. |
-| CurvedRightArrow | `68` | Curved Right Arrow Şekli. |
-| CurvedLeftArrow | `69` | Curved Left Arrow Şekli. |
-| CurvedUpArrow | `70` | Curved Up Arrow Şekli. |
-| CurvedDownArrow | `71` | Curved Down Arrow Şekli. |
-| SwooshArrow | `72` | Swoosh Arrow Şekli. |
-| Cube | `73` | Cube Şekli. |
-| Can | `74` | Can Şekli. |
-| LightningBolt | `75` | Lightning Bolt Şekli. |
-| Heart | `76` | Heart Şekli. |
-| Sun | `77` | Sun Şekli. |
-| Moon | `78` | Moon Şekli. |
-| SmileyFace | `79` | Smiley Face Şekli. |
-| IrregularSeal1 | `80` | Irregular Seal 1 Şekli. |
-| IrregularSeal2 | `81` | Irregular Seal 2 Şekli. |
-| FoldedCorner | `82` | Folded Corner Şekli. |
-| Bevel | `83` | Bevel Şekli. |
-| Frame | `84` | Frame Şekli. |
-| HalfFrame | `85` | Half Frame Şekli. |
-| Corner | `86` | Corner Şekli. |
-| DiagonalStripe | `87` | Diagonal Stripe Şekli. |
-| Chord | `88` | Chord Şekli. |
-| CurvedArc | `89` | Curved Arc Şekli. |
-| LeftBracket | `90` | Left Bracket Şekli. |
-| RightBracket | `91` | Right Bracket Şekli. |
-| LeftBrace | `92` | Left Brace Şekli. |
-| RightBrace | `93` | Right Brace Şekli. |
-| BracketPair | `94` | Bracket Pair Şekli. |
-| BracePair | `95` | Brace Pair Şekli. |
-| StraightConnector1 | `96` | Straight Connector 1 Şekli. |
-| BentConnector2 | `97` | Bent Connector 2 Şekli. |
-| BentConnector3 | `98` | Bent Connector 3 Şekli. |
-| BentConnector4 | `99` | Bent Connector 4 Şekli. |
-| BentConnector5 | `100` | Bent Connector 5 Şekli. |
-| CurvedConnector2 | `101` | Curved Connector 2 Şekli. |
-| CurvedConnector3 | `102` | Curved Connector 3 Şekli. |
-| CurvedConnector4 | `103` | Curved Connector 4 Şekli. |
-| CurvedConnector5 | `104` | Curved Connector 5 Şekli. |
-| Callout1 | `105` | Callout 1 Şekli. |
-| Callout2 | `106` | Callout 2 Şekli. |
-| Callout3 | `107` | Callout 3 Şekli. |
-| Callout1WithAccent | `108` | Callout 1 with Accent Şekli. |
-| Callout2WithAccent | `109` | Callout 2 with Accent Şekli. |
-| Callout3WithAccent | `110` | Callout 3 with Accent Şekli. |
-| Callout1WithBorder | `111` | Callout 1 with Border Şekli. |
-| Callout2WithBorder | `112` | Callout 2 with Border Şekli. |
-| Callout3WithBorder | `113` | Callout 3 with Border Şekli. |
-| Callout1WithBorderAndAccent | `114` | Callout 1 with Border and Accent Şekli. |
-| Callout2WithBorderAndAccent | `115` | Callout 2 with Border and Accent Şekli. |
-| Callout3WithBorderAndAccent | `116` | Callout 3 with Border and Accent Şekli. |
-| CalloutWedgeRectangle | `117` | Callout Wedge Rectangle Şekli. |
-| CalloutWedgeRoundRectangle | `118` | Callout Wedge Round Rectangle Şekli. |
-| CalloutWedgeEllipse | `119` | Callout Wedge Ellipse Şekli. |
-| CalloutCloud | `120` | Callout Cloud Şekli. |
-| Cloud | `121` | Cloud Şekli. |
-| Ribbon | `122` | Ribbon Şekli. |
-| Ribbon2 | `123` | Ribbon 2 Şekli. |
-| EllipseRibbon | `124` | Ellipse Ribbon Şekli. |
-| EllipseRibbon2 | `125` | Ellipse Ribbon 2 Şekli. |
-| LeftRightRibbon | `126` | Left Right Ribbon Şekli. |
-| VerticalScroll | `127` | Vertical Scroll Şekli. |
-| HorizontalScroll | `128` | Horizontal Scroll Şekli. |
-| Wave | `129` | Wave Şekli. |
-| DoubleWave | `130` | Double Wave Şekli. |
-| Plus | `131` | Plus Şekli. |
-| ProcessFlow | `132` | Process Flow Şekli. |
-| DecisionFlow | `133` | Decision Flow Şekli. |
-| InputOutputFlow | `134` | Input Output Flow Şekli. |
-| PredefinedProcessFlow | `135` | Predefined Process Flow Şekli. |
-| InternalStorageFlow | `136` | Internal Storage Flow Şekli. |
-| DocumentFlow | `137` | Document Flow Şekli. |
-| MultiDocumentFlow | `138` | Multi-Document Flow Şekli. |
-| TerminatorFlow | `139` | Terminator Flow Şekli. |
-| PreparationFlow | `140` | Preparation Flow Şekli. |
-| ManualInputFlow | `141` | Manual Input Flow Şekli. |
-| ManualOperationFlow | `142` | Manual Operation Flow Şekli. |
-| ConnectorFlow | `143` | Connector Flow Şekli. |
-| PunchedCardFlow | `144` | Punched Card Flow Şekli. |
-| PunchedTapeFlow | `145` | Punched Tape Flow Şekli. |
-| SummingJunctionFlow | `146` | Summing Junction Flow Şekli. |
-| OrFlow | `147` | Or Flow Şekli. |
-| CollateFlow | `148` | Collate Flow Şekli. |
-| SortFlow | `149` | Sort Flow Şekli. |
-| ExtractFlow | `150` | Extract Flow Şekli. |
-| MergeFlow | `151` | Merge Flow Şekli. |
-| OfflineStorageFlow | `152` | Offline Storage Flow Şekli. |
-| OnlineStorageFlow | `153` | Online Storage Flow Şekli. |
-| MagneticTapeFlow | `154` | Magnetic Tape Flow Şekli. |
-| MagneticDiskFlow | `155` | Magnetic Disk Flow Şekli. |
-| MagneticDrumFlow | `156` | Magnetic Drum Flow Şekli. |
-| DisplayFlow | `157` | Display Flow Şekli. |
-| DelayFlow | `158` | Delay Flow Şekli. |
-| AlternateProcessFlow | `159` | Alternate Process Flow Şekli. |
-| OffPageConnectorFlow | `160` | Off-Page Connector Flow Şekli. |
-| BlankButton | `161` | Blank Button Şekli. |
-| HomeButton | `162` | Home Button Şekli. |
-| HelpButton | `163` | Help Button Şekli. |
-| InformationButton | `164` | Information Button Şekli. |
-| ForwardOrNextButton | `165` | Forward or Next Button Şekli. |
-| BackOrPreviousButton | `166` | Back or Previous Button Şekli. |
-| EndButton | `167` | End Button Şekli. |
-| BeginningButton | `168` | Beginning Button Şekli. |
-| ReturnButton | `169` | Return Button Şekli. |
-| DocumentButton | `170` | Document Button Şekli. |
-| SoundButton | `171` | Sound Button Şekli. |
-| MovieButton | `172` | Movie Button Şekli. |
-| Gear6 | `173` | Gear 6 Şekli. |
-| Gear9 | `174` | Gear 9 Şekli. |
-| Funnel | `175` | Funnel Şekli. |
-| PlusMath | `176` | Plus Math Şekli. |
-| MinusMath | `177` | Minus Math Şekli. |
-| MultiplyMath | `178` | Multiply Math Şekli. |
-| DivideMath | `179` | Divide Math Şekli. |
-| EqualMath | `180` | Equal Math Şekli. |
-| NotEqualMath | `181` | Not Equal Math Şekli. |
-| CornerTabs | `182` | Corner Tabs Şekli. |
-| SquareTabs | `183` | Square Tabs Şekli. |
-| PlaqueTabs | `184` | Plaque Tabs Şekli. |
-| ChartX | `185` | Chart X Şekli. |
-| ChartStar | `186` | Chart Star Şekli. |
-| ChartPlus | `187` | Chart Plus Şekli. |
+| NoSmoking | `43` | Sigara İçilmeyen Şekil. |
+| RightArrow | `44` | Sağ Ok Şekli. |
+| LeftArrow | `45` | Sol Ok Şekli. |
+| UpArrow | `46` | Yukarı Ok Şekli. |
+| DownArrow | `47` | Aşağı Ok Şekli. |
+| StripedRightArrow | `48` | Şeritli Sağ Ok Şekli. |
+| NotchedRightArrow | `49` | Çentikli Sağ Ok Şekli. |
+| BentUpArrow | `50` | Kıvrık Yukarı Ok Şekli. |
+| LeftRightArrow | `51` | Sol Sağ Ok Şekli. |
+| UpDownArrow | `52` | Yukarı Aşağı Ok Şekli. |
+| LeftUpArrow | `53` | Sol Yukarı Ok Şekli. |
+| LeftRightUpArrow | `54` | Sol Sağ Yukarı Ok Şekli. |
+| QuadArrow | `55` | Dört Yönlü Ok Şekli. |
+| CalloutLeftArrow | `56` | Balon Sol Ok Şekli. |
+| CalloutRightArrow | `57` | Balon Sağ Ok Şekli. |
+| CalloutUpArrow | `58` | Balon Yukarı Ok Şekli. |
+| CalloutDownArrow | `59` | Balon Aşağı Ok Şekli. |
+| CalloutLeftRightArrow | `60` | Balon Sol Sağ Ok Şekli. |
+| CalloutUpDownArrow | `61` | Balon Yukarı Aşağı Ok Şekli. |
+| CalloutQuadArrow | `62` | Balon Dört Yön Ok Şekli. |
+| BentArrow | `63` | Kıvrık Ok Şekli. |
+| UTurnArrow | `64` | U Dönüşlu Ok Şekli. |
+| CircularArrow | `65` | Dairesel Ok Şekli. |
+| LeftCircularArrow | `66` | Sol Dairesel Ok Şekli. |
+| LeftRightCircularArrow | `67` | Sol Sağ Dairesel Ok Şekli. |
+| CurvedRightArrow | `68` | Kavisli Sağ Ok Şekli. |
+| CurvedLeftArrow | `69` | Kavisli Sol Ok Şekli. |
+| CurvedUpArrow | `70` | Kavisli Yukarı Ok Şekli. |
+| CurvedDownArrow | `71` | Kavisli Aşağı Ok Şekli. |
+| SwooshArrow | `72` | Swoosh Ok Şekli. |
+| Cube | `73` | Küp Şekli. |
+| Can | `74` | Kutu Şekli. |
+| LightningBolt | `75` | Şimşek Şekli. |
+| Heart | `76` | Kalp Şekli. |
+| Sun | `77` | Güneş Şekli. |
+| Moon | `78` | Ay Şekli. |
+| SmileyFace | `79` | Gülümseyen Yüz Şekli. |
+| IrregularSeal1 | `80` | Düzensiz Mühür 1 Şekli. |
+| IrregularSeal2 | `81` | Düzensiz Mühür 2 Şekli. |
+| FoldedCorner | `82` | Katlanmış Köşe Şekli. |
+| Bevel | `83` | Eğim Şekli. |
+| Frame | `84` | Çerçeve Şekli. |
+| HalfFrame | `85` | Yarı Çerçeve Şekli. |
+| Corner | `86` | Köşe Şekli. |
+| DiagonalStripe | `87` | Çapraz Çizgi Şekli. |
+| Chord | `88` | Kiriş Şekli. |
+| CurvedArc | `89` | Kavisli Yay Şekli. |
+| LeftBracket | `90` | Sol Köşeli Parantez Şekli. |
+| RightBracket | `91` | Sağ Köşeli Parantez Şekli. |
+| LeftBrace | `92` | Sol Süslü Parantez Şekli. |
+| RightBrace | `93` | Sağ Süslü Parantez Şekli. |
+| BracketPair | `94` | Parantez Çifti Şekli. |
+| BracePair | `95` | Süslü Parantez Çifti Şekli. |
+| StraightConnector1 | `96` | Düz Bağlayıcı 1 Şekli. |
+| BentConnector2 | `97` | Kıvrık Bağlayıcı 2 Şekli. |
+| BentConnector3 | `98` | Kıvrık Bağlayıcı 3 Şekli. |
+| BentConnector4 | `99` | Kıvrık Bağlayıcı 4 Şekli. |
+| BentConnector5 | `100` | Kıvrık Bağlayıcı 5 Şekli. |
+| CurvedConnector2 | `101` | Kavisli Bağlayıcı 2 Şekli. |
+| CurvedConnector3 | `102` | Kavisli Bağlayıcı 3 Şekli. |
+| CurvedConnector4 | `103` | Kavisli Bağlayıcı 4 Şekli. |
+| CurvedConnector5 | `104` | Kavisli Bağlayıcı 5 Şekli. |
+| Callout1 | `105` | Balon 1 Şekli. |
+| Callout2 | `106` | Balon 2 Şekli. |
+| Callout3 | `107` | Balon 3 Şekli. |
+| Callout1WithAccent | `108` | Aksanlı Balon 1 Şekli. |
+| Callout2WithAccent | `109` | Aksanlı Balon 2 Şekli. |
+| Callout3WithAccent | `110` | Aksanlı Balon 3 Şekli. |
+| Callout1WithBorder | `111` | Kenarlı Balon 1 Şekli. |
+| Callout2WithBorder | `112` | Kenarlı Balon 2 Şekli. |
+| Callout3WithBorder | `113` | Kenarlı Balon 3 Şekli. |
+| Callout1WithBorderAndAccent | `114` | Kenarlı ve Aksanlı Balon 1 Şekli. |
+| Callout2WithBorderAndAccent | `115` | Kenarlı ve Aksanlı Balon 2 Şekli. |
+| Callout3WithBorderAndAccent | `116` | Kenarlı ve Aksanlı Balon 3 Şekli. |
+| CalloutWedgeRectangle | `117` | Balon Dilimli Dikdörtgen Şekli. |
+| CalloutWedgeRoundRectangle | `118` | Balon Dilimli Yuvarlak Köşeli Dikdörtgen Şekli. |
+| CalloutWedgeEllipse | `119` | Balon Dilimli Elips Şekli. |
+| CalloutCloud | `120` | Balon Bulut Şekli. |
+| Cloud | `121` | Bulut Şekli. |
+| Ribbon | `122` | Şerit Şekli. |
+| Ribbon2 | `123` | Şerit 2 Şekli. |
+| EllipseRibbon | `124` | Elips Şerit Şekli. |
+| EllipseRibbon2 | `125` | Elips Şerit 2 Şekli. |
+| LeftRightRibbon | `126` | Sol Sağ Şerit Şekli. |
+| VerticalScroll | `127` | Dikey Kaydırma Şekli. |
+| HorizontalScroll | `128` | Yatay Kaydırma Şekli. |
+| Wave | `129` | Dalga Şekli. |
+| DoubleWave | `130` | Çift Dalga Şekli. |
+| Plus | `131` | Artı Şekli. |
+| ProcessFlow | `132` | Süreç Akışı Şekli. |
+| DecisionFlow | `133` | Karar Akışı Şekli. |
+| InputOutputFlow | `134` | Giriş Çıkış Akışı Şekli. |
+| PredefinedProcessFlow | `135` | Önceden Tanımlı Süreç Akışı Şekli. |
+| InternalStorageFlow | `136` | İç Depolama Akışı Şekli. |
+| DocumentFlow | `137` | Belge Akışı Şekli. |
+| MultiDocumentFlow | `138` | Çoklu Belge Akışı Şekli. |
+| TerminatorFlow | `139` | Sonlandırıcı Akış Şekli. |
+| PreparationFlow | `140` | Hazırlık Akışı Şekli. |
+| ManualInputFlow | `141` | Manuel Giriş Akışı Şekli. |
+| ManualOperationFlow | `142` | Manuel İşlem Akışı Şekli. |
+| ConnectorFlow | `143` | Bağlayıcı Akış Şekli. |
+| PunchedCardFlow | `144` | Delikli Kart Akışı Şekli. |
+| PunchedTapeFlow | `145` | Delikli Bant Akışı Şekli. |
+| SummingJunctionFlow | `146` | Toplama Kavşağı Akışı Şekli. |
+| OrFlow | `147` | VEYA Akışı Şekli. |
+| CollateFlow | `148` | Sıralama Akışı Şekli. |
+| SortFlow | `149` | Sıralama Akışı Şekli. |
+| ExtractFlow | `150` | Çıkarma Akışı Şekli. |
+| MergeFlow | `151` | Birleştirme Akışı Şekli. |
+| OfflineStorageFlow | `152` | Çevrimdışı Depolama Akışı Şekli. |
+| OnlineStorageFlow | `153` | Çevrimiçi Depolama Akışı Şekli. |
+| MagneticTapeFlow | `154` | Manyetik Bant Akışı Şekli. |
+| MagneticDiskFlow | `155` | Manyetik Disk Akışı Şekli. |
+| MagneticDrumFlow | `156` | Manyetik Tambur Akışı Şekli. |
+| DisplayFlow | `157` | Görüntü Akışı Şekli. |
+| DelayFlow | `158` | Gecikme Akışı Şekli. |
+| AlternateProcessFlow | `159` | Alternatif Süreç Akışı Şekli. |
+| OffPageConnectorFlow | `160` | Sayfa Dışı Bağlayıcı Akışı Şekli. |
+| BlankButton | `161` | Boş Düğme Şekli. |
+| HomeButton | `162` | Ana Sayfa Düğmesi Şekli. |
+| HelpButton | `163` | Yardım Düğmesi Şekli. |
+| InformationButton | `164` | Bilgi Düğmesi Şekli. |
+| ForwardOrNextButton | `165` | İleri veya Sonraki Düğme Şekli. |
+| BackOrPreviousButton | `166` | Geri veya Önceki Düğme Şekli. |
+| EndButton | `167` | Son Düğme Şekli. |
+| BeginningButton | `168` | Başlangıç Düğmesi Şekli. |
+| ReturnButton | `169` | Dönüş Düğmesi Şekli. |
+| DocumentButton | `170` | Belge Düğmesi Şekli. |
+| SoundButton | `171` | Ses Düğmesi Şekli. |
+| MovieButton | `172` | Film Düğmesi Şekli. |
+| Gear6 | `173` | Dişli 6 Şekli. |
+| Gear9 | `174` | Dişli 9 Şekli. |
+| Funnel | `175` | Huni Şekli. |
+| PlusMath | `176` | Artı Matematik Şekli. |
+| MinusMath | `177` | Eksi Matematik Şekli. |
+| MultiplyMath | `178` | Çarpma Matematik Şekli. |
+| DivideMath | `179` | Bölme Matematik Şekli. |
+| EqualMath | `180` | Eşit Matematik Şekli. |
+| NotEqualMath | `181` | Eşit Olmayan Matematik Şekli. |
+| CornerTabs | `182` | Köşe Sekmeleri Şekli. |
+| SquareTabs | `183` | Kare Sekmeler Şekli. |
+| PlaqueTabs | `184` | Plak Sekmeleri Şekli. |
+| ChartX | `185` | Grafik X Şekli. |
+| ChartStar | `186` | Grafik Yıldız Şekli. |
+| ChartPlus | `187` | Grafik Artı Şekli. |
 
-### Ayrıca Bakınız
+### İlgili
 
-* ad alanı [Aspose.Slides](../../aspose.slides)
-* derleme [Aspose.Slides](../../)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

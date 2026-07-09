@@ -1,9 +1,9 @@
 ---
 title: PPImage
-second_title: Aspose.Sildes för .NET API-referens
+second_title: Aspose.Slides för .NET API-referens
 description: Representerar en bild i en presentation.
 type: docs
-weight: 9230
+weight: 9250
 url: /sv/aspose.slides/ppimage/
 ---
 ## PPImage klass
@@ -18,7 +18,7 @@ public class PPImage : IDisposable, IPPImage
 
 | Namn | Beskrivning |
 | --- | --- |
-| [BinaryData](../../aspose.slides/ppimage/binarydata) { get; } | Returnerar en kopia av bildens data. Skrivskyddad Byte[]. |
+| [BinaryData](../../aspose.slides/ppimage/binarydata) { get; } | Returnerar en kopia av en bilds data. Skrivskyddad Byte[]. |
 | [ContentType](../../aspose.slides/ppimage/contenttype) { get; } | Returnerar en MIME-typ för en bild, kodad i [`BinaryData`](./binarydata). Skrivskyddad String. |
 | [Height](../../aspose.slides/ppimage/height) { get; } | Returnerar en höjd för en bild. Skrivskyddad Int32. |
 | [Image](../../aspose.slides/ppimage/image) { get; } | Returnerar en kopia av en bild. Skrivskyddad [`IImage`](../iimage). |
@@ -33,11 +33,11 @@ public class PPImage : IDisposable, IPPImage
 | --- | --- |
 | [Dispose](../../aspose.slides/ppimage/dispose)() | Avslutar objektet. |
 | override [GetHashCode](../../aspose.slides/ppimage/gethashcode)() | Returnerar hashkoden för en bild. |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_2)(byte[]) | Ersätter bilddata. Den nya bildens data. När newImageData-parameter är null. |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage)(IImage) | Ersätter bilddata. Observera: när Image är metafil – den kommer att rasteriseras. Använd ReplaceImage(byte[]) istället. Den nya bilden. När newImage-parameter är null. |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_1)(IPPImage) | Ersätter bilddata. Den nya IPPImage. När newImage-parameter är null. |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_2)(byte[]) | Ersätter bilddata. Den nya bildens data. När parametern newImageData är null. |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage)(IImage) | Ersätter bilddata. Obs: när Image är metafil – den rasteriseras. Använd ReplaceImage(byte[]) i stället. Den nya bilden. När parametern newImage är null. |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_1)(IPPImage) | Ersätter bilddata. Den nya IPPImage. När parametern newImage är null. |
 
-### Se även
+### Se också
 
 * gränssnitt [IPPImage](../ippimage)
 * namnrymd [Aspose.Slides](../../aspose.slides)

@@ -1,9 +1,9 @@
 ---
 title: ChartDataPointLevel
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta il livello del punto dati. Si applica ai grafici Treemap e Sunburst.
 type: docs
-weight: 1330
+weight: 1350
 url: /it/aspose.slides.charts/chartdatapointlevel/
 ---
 ## ChartDataPointLevel classe
@@ -18,8 +18,8 @@ public class ChartDataPointLevel : DomObject<ChartDataPointLevelsManager>, IChar
 
 | Nome | Descrizione |
 | --- | --- |
-| [Format](../../aspose.slides.charts/chartdatapointlevel/format) { get; } | Rappresenta le proprietà di formattazione del livello del punto dati. Lettura/Scrittura [`IFormat`](../iformat). |
-| [Label](../../aspose.slides.charts/chartdatapointlevel/label) { get; } | Rappresenta l'etichetta dei dati del livello del punto dati. Applicata per i tipi di serie Treemap e Sunburst. Solo lettura [`IDataLabel`](../idatalabel). |
+| [Format](../../aspose.slides.charts/chartdatapointlevel/format) { get; } | Rappresenta le proprietà di formattazione del livello del punto dati. Lettura/scrittura [`IFormat`](../iformat). |
+| [Label](../../aspose.slides.charts/chartdatapointlevel/label) { get; } | Rappresenta l'etichetta dati del livello del punto dati. Applicato per i tipi di serie Treemap e Sunburst. Solo lettura [`IDataLabel`](../idatalabel). |
 
 ### Vedi anche
 

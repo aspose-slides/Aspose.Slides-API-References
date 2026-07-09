@@ -1,12 +1,11 @@
 ---
 title: IGeometryShape
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Sildes .NET API 参考
 description: 表示所有几何形状的父类。
 type: docs
-weight: 5780
+weight: 5980
 url: /zh/aspose.slides/igeometryshape/
 ---
-
 ## IGeometryShape 接口
 
 表示所有几何形状的父类。
@@ -20,9 +19,9 @@ public interface IGeometryShape : IShape
 | 名称 | 描述 |
 | --- | --- |
 | [Adjustments](../../aspose.slides/igeometryshape/adjustments) { get; } | 返回形状的调整值集合。只读 [`IAdjustValueCollection`](../iadjustvaluecollection)。 |
-| [AsIShape](../../aspose.slides/igeometryshape/asishape) { get; } | 允许获取基本的 IShape 接口。只读 [`IShape`](../ishape)。 |
+| [AsIShape](../../aspose.slides/igeometryshape/asishape) { get; } | 允许获取基 IShape 接口。只读 [`IShape`](../ishape)。 |
 | [ShapeStyle](../../aspose.slides/igeometryshape/shapestyle) { get; } | 返回形状的样式对象。只读 [`IShapeStyle`](../ishapestyle)。 |
-| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | 返回或设置几何预设类型。注意：在值变化时所有调整值将重置为其默认值。读写 [`ShapeType`](../shapetype)。 |
+| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | 返回或设置几何预设类型。注意：值更改时，所有调整值将重置为默认值。读写 [`ShapeType`](../shapetype)。 |
 
 ## 方法
 
@@ -33,7 +32,7 @@ public interface IGeometryShape : IShape
 | [SetGeometryPath](../../aspose.slides/igeometryshape/setgeometrypath)(IGeometryPath) | 从 [`IGeometryPath`](../igeometrypath) 对象更新形状几何。坐标必须相对于形状的左上角。将形状的类型 ([`ShapeType`](./shapetype)) 更改为自定义。 |
 | [SetGeometryPaths](../../aspose.slides/igeometryshape/setgeometrypaths)(IGeometryPath[]) | 从 [`IGeometryPath`](../igeometrypath) 数组更新形状几何。坐标必须相对于形状的左上角。将形状的类型 ([`ShapeType`](./shapetype)) 更改为自定义。 |
 
-### 参见
+### 另见
 
 * 接口 [IShape](../ishape)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

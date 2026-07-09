@@ -1,14 +1,14 @@
 ---
 title: IRevealTransition
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Effetto di transizione della diapositiva Reveal.
 type: docs
-weight: 10140
+weight: 10160
 url: /it/aspose.slides.slideshow/irevealtransition/
 ---
 ## IRevealTransition interfaccia
 
-Effetto di transizione della diapositiva Reveal.
+Effetto di transizione diapositive Reveal.
 
 ```csharp
 public interface IRevealTransition : ITransitionValueBase
@@ -20,7 +20,7 @@ public interface IRevealTransition : ITransitionValueBase
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/irevealtransition/asitransitionvaluebase) { get; } | Consente di ottenere l'interfaccia base ITransitionValueBase. Solo lettura [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/irevealtransition/direction) { get; set; } | Direzione della transizione. Lettura/scrittura [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
-| [ThroughBlack](../../aspose.slides.slideshow/irevealtransition/throughblack) { get; set; } | Specifica se la transizione svanisce verso il nero. Lettura/scrittura Boolean. |
+| [ThroughBlack](../../aspose.slides.slideshow/irevealtransition/throughblack) { get; set; } | Specifica se la transizione sfuma verso il nero. Lettura/scrittura Boolean. |
 
 ### Vedi anche
 

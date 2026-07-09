@@ -1,33 +1,33 @@
 ---
 title: IFormatSchemeEffectiveData
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Objek tak dapat diubah yang berisi properti skema format efektif.
+description: Objek tak dapat diubah yang berisi properti skema format yang efektif.
 type: docs
-weight: 11260
+weight: 11280
 url: /id/aspose.slides.theme/iformatschemeeffectivedata/
 ---
-## IFormatSchemeEffectiveData interface
+## IFormatSchemeEffectiveData antarmuka
 
-Objek tak dapat diubah yang berisi properti skema format efektif.
+Objek tak dapat diubah yang berisi properti skema format yang efektif.
 
 ```csharp
 public interface IFormatSchemeEffectiveData
 ```
 
-## Methods
+## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
-| [GetBackgroundFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles)(Color) | Mengembalikan koleksi gaya isi latar belakang yang ditentukan tema. |
-| [GetEffectStyles](../../aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles)(Color) | Mengembalikan koleksi gaya efek yang ditentukan tema. |
-| [GetFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getfillstyles)(Color) | Mengembalikan koleksi gaya isi yang ditentukan tema. |
-| [GetLineStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getlinestyles)(Color) | Mengembalikan koleksi gaya garis yang ditentukan tema. |
+| [GetBackgroundFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles)(Color) | Mengembalikan sekumpulan gaya pengisian latar belakang yang didefinisikan oleh tema. |
+| [GetEffectStyles](../../aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles)(Color) | Mengembalikan sekumpulan gaya efek yang didefinisikan oleh tema. |
+| [GetFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getfillstyles)(Color) | Mengembalikan sekumpulan gaya pengisian yang didefinisikan oleh tema. |
+| [GetLineStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getlinestyles)(Color) | Mengembalikan sekumpulan gaya garis yang didefinisikan oleh tema. |
 
-### Remarks
+### Catatan
 
 Antarmuka ini digunakan sebagai bagian dari [`IThemeEffectiveData`](../ithemeeffectivedata).
 
-### See Also
+### Lihat Juga
 
 * ruang nama [Aspose.Slides.Theme](../../aspose.slides.theme)
 * assembly [Aspose.Slides](../../)

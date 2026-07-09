@@ -1,14 +1,14 @@
 ---
 title: FontFallBackRule
-second_title: Aspose.Sildes para .NET Referência de API
-description: Representa regra de fallback de fonte
+second_title: Referência da API Aspose.Sildes para .NET
+description: Representa a regra de fallback de fonte
 type: docs
-weight: 4820
+weight: 4840
 url: /pt/aspose.slides/fontfallbackrule/
 ---
 ## FontFallBackRule classe
 
-Representa regra de fallback de fonte
+Representa a regra de fallback de fonte
 
 ```csharp
 public class FontFallBackRule : IFontFallBackRule
@@ -18,8 +18,8 @@ public class FontFallBackRule : IFontFallBackRule
 
 | Nome | Descrição |
 | --- | --- |
-| [FontFallBackRule](fontfallbackrule#constructor)(uint, uint, string) | Cria nova instância. |
-| [FontFallBackRule](fontfallbackrule#constructor_1)(uint, uint, string[]) | Cria nova instância. |
+| [FontFallBackRule](fontfallbackrule#constructor)(uint, uint, string) | Cria uma nova instância. |
+| [FontFallBackRule](fontfallbackrule#constructor_1)(uint, uint, string[]) | Cria uma nova instância. |
 
 ## Propriedades
 
@@ -27,14 +27,14 @@ public class FontFallBackRule : IFontFallBackRule
 | --- | --- |
 | [Count](../../aspose.slides/fontfallbackrule/count) { get; } | Obtém o número de fontes realmente definidas para o intervalo. Somente leitura Int32. |
 | [Item](../../aspose.slides/fontfallbackrule/item) { get; } | Obtém o nome da fonte no índice especificado. Somente leitura [`IFontFallBackRule`](../ifontfallbackrule). |
-| [RangeEndIndex](../../aspose.slides/fontfallbackrule/rangeendindex) { get; set; } | Obtém o último índice do intervalo unicode contínuo. |
-| [RangeStartIndex](../../aspose.slides/fontfallbackrule/rangestartindex) { get; set; } | Obtém o primeiro índice do intervalo unicode contínuo. |
+| [RangeEndIndex](../../aspose.slides/fontfallbackrule/rangeendindex) { get; set; } | Obtém o último índice do intervalo Unicode contínuo. |
+| [RangeStartIndex](../../aspose.slides/fontfallbackrule/rangestartindex) { get; set; } | Obtém o primeiro índice do intervalo Unicode contínuo. |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
-| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Adiciona nova(s) fonte(s) à lista de fontes FallBack. |
+| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Adiciona uma(s) nova(s) fonte(s) à lista de fontes FallBack. |
 | [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Adiciona novas fontes à lista de fontes FallBack. |
 | [Clear](../../aspose.slides/fontfallbackrule/clear)() | Remove todas as fontes da lista. |
 | [IndexOf](../../aspose.slides/fontfallbackrule/indexof)(string) | Retorna um índice da regra especificada na coleção. |
@@ -43,7 +43,7 @@ public class FontFallBackRule : IFontFallBackRule
 | [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray)() | Cria e retorna um array com todas as fontes FallBack para esta regra. |
 | [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray_1)(int, int) | Cria e retorna um array com todas as fontes FallBack do intervalo especificado na lista. |
 
-### Ver Também
+### Veja Também
 
 * interface [IFontFallBackRule](../ifontfallbackrule)
 * namespace [Aspose.Slides](../../aspose.slides)

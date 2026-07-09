@@ -1,14 +1,14 @@
 ---
 title: IMasterNotesSlide
-second_title: Aspose.Sildes para referência da API .NET
-description: Representa o slide mestre para anotações.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Representa o slide mestre para notas.
 type: docs
-weight: 6370
+weight: 6390
 url: /pt/aspose.slides/imasternotesslide/
 ---
 ## IMasterNotesSlide interface
 
-Representa o slide mestre para anotações.
+Representa o slide mestre para notas.
 
 ```csharp
 public interface IMasterNotesSlide : IBaseSlide, IMasterThemeable

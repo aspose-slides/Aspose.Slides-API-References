@@ -1,14 +1,14 @@
 ---
 title: PresentationText
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes for .NET APIリファレンス
 description: プレゼンテーションから抽出されたテキストを表します
 type: docs
-weight: 9620
+weight: 9640
 url: /ja/aspose.slides/presentationtext/
 ---
 ## PresentationText クラス
 
-プレゼンテーションから抽出されたテキストを表します
+プレゼンテーションから抽出されたテキストを表します。
 
 ```csharp
 public class PresentationText : IPresentationText
@@ -18,7 +18,7 @@ public class PresentationText : IPresentationText
 
 | 名前 | 説明 |
 | --- | --- |
-| [SlidesText](../../aspose.slides/presentationtext/slidestext) { get; } | [`SlideText`](../islidetext) の配列はプレゼンテーションのテキストを含みます。 |
+| [SlidesText](../../aspose.slides/presentationtext/slidestext) { get; } | プレゼンテーションのテキストを含む[`SlideText`](../islidetext)の配列です。 |
 
 ### 参照
 

@@ -1,9 +1,9 @@
 ---
 title: Field
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Bir alanı temsil eder.
 type: docs
-weight: 4730
+weight: 4750
 url: /tr/aspose.slides/field/
 ---
 ## Field sınıfı
@@ -18,9 +18,9 @@ public sealed class Field : DomObject<Portion>, IField
 
 | Ad | Açıklama |
 | --- | --- |
-| [Type](../../aspose.slides/field/type) { get; set; } | Alan tipini döndürür veya ayarlar. Okunabilir/Yazılabilir [`IFieldType`](../ifieldtype). |
+| [Type](../../aspose.slides/field/type) { get; set; } | Alan tipini döndürür veya ayarlar. Okunur/yazılabilir [`IFieldType`](../ifieldtype). |
 
-### Ayrıca
+### Ayrıca Bakınız
 
 * sınıf [DomObject&lt;TParent&gt;](../domobject-1)
 * sınıf [Portion](../portion)

@@ -1,14 +1,14 @@
 ---
 title: IExternalResourceResolver
 second_title: Aspose.Sildes for .NET API リファレンス
-description: HTML および SVG ドキュメントのインポート中に外部リソースを解決するために使用されるコールバックインターフェイス。
+description: HTML および SVG ドキュメントのインポート時に外部リソースを解決するために使用されるコールバック インターフェイスです。
 type: docs
-weight: 7470
+weight: 7490
 url: /ja/aspose.slides.import/iexternalresourceresolver/
 ---
 ## IExternalResourceResolver インターフェイス
 
-Html、Svg ドキュメントのインポート中に外部リソースを解決するために使用されるコールバックインターフェイス。
+Html および Svg ドキュメントのインポート時に外部リソースを解決するために使用されるコールバック インターフェイスです。
 
 ```csharp
 public interface IExternalResourceResolver
@@ -18,7 +18,7 @@ public interface IExternalResourceResolver
 
 | 名前 | 説明 |
 | --- | --- |
-| [GetEntity](../../aspose.slides.import/iexternalresourceresolver/getentity)(string) | URI を実際のリソースを含むオブジェクトにマッピングします。 |
+| [GetEntity](../../aspose.slides.import/iexternalresourceresolver/getentity)(string) | 実際のリソースを含むオブジェクトに URI をマッピングします。 |
 | [ResolveUri](../../aspose.slides.import/iexternalresourceresolver/resolveuri)(string, string) | ベース URI と相対 URI から絶対 URI を解決します。 |
 
 ### 参照

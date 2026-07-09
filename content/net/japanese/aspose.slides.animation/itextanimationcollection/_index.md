@@ -3,7 +3,7 @@ title: ITextAnimationCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: テキスト アニメーションのコレクションを表します。
 type: docs
-weight: 610
+weight: 630
 url: /ja/aspose.slides.animation/itextanimationcollection/
 ---
 ## ITextAnimationCollection インターフェイス
@@ -18,7 +18,7 @@ public interface ITextAnimationCollection : IGenericCollection<ITextAnimation>
 
 | 名前 | 説明 |
 | --- | --- |
-| [Item](../../aspose.slides.animation/itextanimationcollection/item) { get; } | インデックスで要素を取得します。 (2 インデクサー) |
+| [Item](../../aspose.slides.animation/itextanimationcollection/item) { get; } | インデックスで要素を取得します。(2つのインデクサー) |
 
 ### 参照
 

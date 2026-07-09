@@ -1,14 +1,14 @@
 ---
 title: Images
 second_title: Aspose.Sildes pro .NET API Reference
-description: Metody pro vytvoření instance a práci s IImage./iimage.
+description: Metody pro vytvoření a práci s IImage./iimage.
 type: docs
-weight: 7440
+weight: 7460
 url: /cs/aspose.slides/images/
 ---
-## Images třída
+## třída Images
 
-Metody pro vytvoření instance a práci s [`IImage`](../iimage).
+Metody pro vytvoření a práci s [`IImage`](../iimage).
 
 ```csharp
 public static class Images
@@ -18,11 +18,11 @@ public static class Images
 
 | Název | Popis |
 | --- | --- |
-| static [FromFile](../../aspose.slides/images/fromfile#fromfile)(string) | Vytvoří obrázek ze souboru. |
-| static [FromFile](../../aspose.slides/images/fromfile#fromfile_1)(string, bool) | Vytvoří obrázek ze souboru. |
-| static [FromStream](../../aspose.slides/images/fromstream#fromstream)(Stream) | Vytvoří obrázek z proudu. |
-| static [FromStream](../../aspose.slides/images/fromstream#fromstream_1)(Stream, bool) | Vytvoří obrázek z proudu. |
-| static [FromStream](../../aspose.slides/images/fromstream#fromstream_2)(Stream, bool, bool) | Vytvoří obrázek z proudu. |
+| static [FromFile](../../aspose.slides/images/fromfile#fromfile)(string) | Vytvoří obrázek ze souboru . |
+| static [FromFile](../../aspose.slides/images/fromfile#fromfile_1)(string, bool) | Vytvoří obrázek ze souboru |
+| static [FromStream](../../aspose.slides/images/fromstream#fromstream)(Stream) | Vytvoří obrázek ze streamu. |
+| static [FromStream](../../aspose.slides/images/fromstream#fromstream_1)(Stream, bool) | Vytvoří obrázek ze streamu. |
+| static [FromStream](../../aspose.slides/images/fromstream#fromstream_2)(Stream, bool, bool) | Vytvoří obrázek ze streamu. |
 
 ### Viz také
 

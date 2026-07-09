@@ -1,14 +1,14 @@
 ---
 title: IChartPlotArea
 second_title: Aspose.Sildes for .NET API リファレンス
-description: チャート タイトル プロパティを表します。
+description: チャートタイトルのプロパティを表します。
 type: docs
-weight: 1890
+weight: 1910
 url: /ja/aspose.slides.charts/ichartplotarea/
 ---
 ## IChartPlotArea インターフェイス
 
-チャート タイトル プロパティを表します。
+チャートタイトルのプロパティを表します。
 
 ```csharp
 public interface IChartPlotArea : IActualLayout, ILayoutable
@@ -16,12 +16,12 @@ public interface IChartPlotArea : IActualLayout, ILayoutable
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [AsIActualLayout](../../aspose.slides.charts/ichartplotarea/asiactuallayout) { get; } | IActualLayout インターフェイスを返します。 |
 | [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | ベース ILayoutable インターフェイスを取得できます。 読み取り専用 [`ILayoutable`](../ilayoutable)。 |
-| [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | プロット領域の書式を返します。 読み取り専用 [`IFormat`](../iformat)。 |
-| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | プロット領域のレイアウトが手動で定義されている場合、このプロパティはプロット領域を内部（軸と軸ラベルを含まない）でレイアウトするか、外部（軸と軸ラベルを含む）でレイアウトするかを指定します。 読み書き [`LayoutTargetType`](./layouttargettype)。 |
+| [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | プロット領域の形式を返します。 読み取り専用 [`IFormat`](../iformat)。 |
+| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | プロット領域のレイアウトが手動で定義されている場合、このプロパティはプロット領域を内部（軸と軸ラベルを含まない）でレイアウトするか、外部（軸と軸ラベルを含む）でレイアウトするかを指定します。 読み書き可能 [`LayoutTargetType`](./layouttargettype)。 |
 
 ### 参照
 

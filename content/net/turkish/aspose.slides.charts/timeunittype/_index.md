@@ -3,7 +3,7 @@ title: TimeUnitType
 second_title: Aspose.Sildes for .NET API Referansı
 description: Kategori ekseni için temel birimi temsil eder
 type: docs
-weight: 2440
+weight: 2460
 url: /tr/aspose.slides.charts/timeunittype/
 ---
 ## TimeUnitType enum
@@ -18,7 +18,7 @@ public enum TimeUnitType
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| None | `0` | Değerler olduğu gibi görüntülenecek. |
+| None | `0` | Değerler olduğu gibi gösterilecektir. |
 | Days | `1` | Grafik verilerinin gün cinsinden gösterileceğini belirtir. |
 | Months | `2` | Grafik verilerinin ay cinsinden gösterileceğini belirtir. |
 | Years | `3` | Grafik verilerinin yıl cinsinden gösterileceğini belirtir. |

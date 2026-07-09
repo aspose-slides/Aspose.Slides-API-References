@@ -1,14 +1,14 @@
 ---
 title: ColorReplace
-second_title: Aspose.Sildes for .NET API リファレンス
-description: カラー置換エフェクトを表します。すべてのエフェクトカラーは固定色に変更され、アルファ値は影響を受けません。
+second_title: Aspose.Sildes の .NET 用 API リファレンス
+description: Color Replacement エフェクトを表します。すべてのエフェクトの色は固定色に変更されます。アルファ値は影響を受けません。
 type: docs
-weight: 2930
+weight: 2950
 url: /ja/aspose.slides.effects/colorreplace/
 ---
 ## ColorReplace クラス
 
-カラー置換エフェクトを表します。すべてのエフェクトカラーは固定色に変更されます。アルファ値は影響を受けません。
+Color Replacement エフェクトを表します。すべてのエフェクトの色は固定色に変更されます。アルファ値は影響を受けません。
 
 ```csharp
 public sealed class ColorReplace : ImageTransformOperation, IColorReplace
@@ -18,15 +18,15 @@ public sealed class ColorReplace : ImageTransformOperation, IColorReplace
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 基本的な IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
-| [Color](../../aspose.slides.effects/colorreplace/color) { get; } | すべてのピクセルの色を置き換えるカラーフォーマットを返します。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [Color](../../aspose.slides.effects/colorreplace/color) { get; } | すべてのピクセルの色を置き換えるカラー形式を返します。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/colorreplace/equals)(object) | 指定された [`ColorReplace`](../colorreplace) が現在の [`ColorReplace`](../colorreplace) と等しいかどうかを判断します。 |
-| [GetEffective](../../aspose.slides.effects/colorreplace/geteffective)() | 継承が適用された有効なカラー置換エフェクトデータを取得します。 |
+| [GetEffective](../../aspose.slides.effects/colorreplace/geteffective)() | 継承が適用された有効な Color Replacement エフェクト データを取得します。 |
 | override [GetHashCode](../../aspose.slides.effects/colorreplace/gethashcode)() | 特定の型に対するハッシュ関数として機能します。 |
 
 ### 参照

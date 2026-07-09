@@ -1,14 +1,14 @@
 ---
 title: IChartTextBlockFormat
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje vlastnosti formátování pro textové prvky grafu.
+description: Představuje vlastnosti formátování pro textové prvky grafu.
 type: docs
-weight: 1960
+weight: 1980
 url: /cs/aspose.slides.charts/icharttextblockformat/
 ---
 ## IChartTextBlockFormat rozhraní
 
-Reprezentuje vlastnosti formátování pro textové prvky grafu.
+Representuje vlastnosti formátování pro textové prvky grafu.
 
 ```csharp
 public interface IChartTextBlockFormat
@@ -19,15 +19,15 @@ public interface IChartTextBlockFormat
 | Název | Popis |
 | --- | --- |
 | [AnchoringType](../../aspose.slides.charts/icharttextblockformat/anchoringtype) { get; set; } | Vrací nebo nastavuje vertikální kotvu textu v TextFrame. Čtení/zápis [`TextAnchorType`](../../aspose.slides/textanchortype). |
-| [AutofitType](../../aspose.slides.charts/icharttextblockformat/autofittype) { get; set; } | Vrací nebo nastavuje režim automatického přizpůsobení textu. Změna této vlastnosti může mít vliv pouze na následující části grafu: DataLabel a DataLabelFormat (plná podpora v PowerPoint 2013; v PowerPoint 2007 nemá žádný vliv na vykreslování). Čtení/zápis [`TextAutofitType`](../../aspose.slides/textautofittype). |
-| [CenterText](../../aspose.slides.charts/icharttextblockformat/centertext) { get; set; } | Pokud NullableBool.True, pak by měl být text vodorovně vycentrován v rámečku. Čtení/zápis [`NullableBool`](../../aspose.slides/nullablebool). |
-| [MarginBottom](../../aspose.slides.charts/icharttextblockformat/marginbottom) { get; set; } | Vrací nebo nastavuje spodní okraj (points) v TextFrame. Změna této vlastnosti může mít vliv pouze na následující části grafu: DataLabel a DataLabelFormat (plná podpora v PowerPoint 2013; v PowerPoint 2007 nemá žádný vliv na vykreslování). Čtení/zápis Double. |
-| [MarginLeft](../../aspose.slides.charts/icharttextblockformat/marginleft) { get; set; } | Vrací nebo nastavuje levý okraj (points) v TextFrame. Změna této vlastnosti může mít vliv pouze na následující části grafu: DataLabel a DataLabelFormat (plná podpora v PowerPoint 2013; v PowerPoint 2007 nemá žádný vliv na vykreslování). Čtení/zápis Double. |
-| [MarginRight](../../aspose.slides.charts/icharttextblockformat/marginright) { get; set; } | Vrací nebo nastavuje pravý okraj (points) v TextFrame. Změna této vlastnosti může mít vliv pouze na následující části grafu: DataLabel a DataLabelFormat (plná podpora v PowerPoint 2013; v PowerPoint 2007 nemá žádný vliv na vykreslování). Čtení/zápis Double. |
-| [MarginTop](../../aspose.slides.charts/icharttextblockformat/margintop) { get; set; } | Vrací nebo nastavuje horní okraj (points) v TextFrame. Změna této vlastnosti může mít vliv pouze na následující části grafu: DataLabel a DataLabelFormat (plná podpora v PowerPoint 2013; v PowerPoint 2007 nemá žádný vliv na vykreslování). Čtení/zápis Double. |
-| [RotationAngle](../../aspose.slides.charts/icharttextblockformat/rotationangle) { get; set; } | Specifikuje vlastní rotaci, která je aplikována na text uvnitř ohraničujícího rámečku. Pokud není zadána, použije se rotace přidruženého tvaru. Pokud je zadána, použije se nezávisle na tvaru. To znamená, že tvar může mít aplikovanou rotaci kromě rotace samotného textu. Výsledná hodnota vizuální rotace textu je shrnuta z této vlastnosti a předdefinovaného vertikálního typu ve vlastnosti TextVerticalType. Čtení/zápis Single. |
-| [TextVerticalType](../../aspose.slides.charts/icharttextblockformat/textverticaltype) { get; set; } | Určuje orientaci textu. Výsledná hodnota vizuální rotace textu je shrnuta z této vlastnosti a vlastního úhlu ve vlastnosti RotationAngle. Čtení/zápis [`TextVerticalType`](../../aspose.slides/textverticaltype). |
-| [WrapText](../../aspose.slides.charts/icharttextblockformat/wraptext) { get; set; } | **True** pokud je text zalomen na okrajích TextFrame. Změna této vlastnosti může mít vliv pouze na následující části grafu: DataLabel a DataLabelFormat (plná podpora v PowerPoint 2007/2013). Čtení/zápis [`NullableBool`](../../aspose.slides/nullablebool). |
+| [AutofitType](../../aspose.slides.charts/icharttextblockformat/autofittype) { get; set; } | Vrací nebo nastavuje režim automatického přizpůsobení textu. Změna této vlastnosti může mít určitý vliv pouze na tyto části grafu: DataLabel a DataLabelFormat (plná podpora v PowerPoint 2013; v PowerPoint 2007 nemá žádný vliv na vykreslování). Čtení/zápis [`TextAutofitType`](../../aspose.slides/textautofittype). |
+| [CenterText](../../aspose.slides.charts/icharttextblockformat/centertext) { get; set; } | Pokud NullableBool.True, má být text vodorovně vycentrován v rámečku. Čtení/zápis [`NullableBool`](../../aspose.slides/nullablebool). |
+| [MarginBottom](../../aspose.slides.charts/icharttextblockformat/marginbottom) { get; set; } | Vrací nebo nastavuje spodní okraj (v bodech) v TextFrame. Změna této vlastnosti může mít určitý vliv pouze na tyto části grafu: DataLabel a DataLabelFormat (plná podpora v PowerPoint 2013; v PowerPoint 2007 nemá žádný vliv na vykreslování). Čtení/zápis Double. |
+| [MarginLeft](../../aspose.slides.charts/icharttextblockformat/marginleft) { get; set; } | Vrací nebo nastavuje levý okraj (v bodech) v TextFrame. Změna této vlastnosti může mít určitý vliv pouze na tyto části grafu: DataLabel a DataLabelFormat (plná podpora v PowerPoint 2013; v PowerPoint 2007 nemá žádný vliv na vykreslování). Čtení/zápis Double. |
+| [MarginRight](../../aspose.slides.charts/icharttextblockformat/marginright) { get; set; } | Vrací nebo nastavuje pravý okraj (v bodech) v TextFrame. Změna této vlastnosti může mít určitý vliv pouze na tyto části grafu: DataLabel a DataLabelFormat (plná podpora v PowerPoint 2013; v PowerPoint 2007 nemá žádný vliv na vykreslování). Čtení/zápis Double. |
+| [MarginTop](../../aspose.slides.charts/icharttextblockformat/margintop) { get; set; } | Vrací nebo nastavuje horní okraj (v bodech) v TextFrame. Změna této vlastnosti může mít určitý vliv pouze na tyto části grafu: DataLabel a DataLabelFormat (plná podpora v PowerPoint 2013; v PowerPoint 2007 nemá žádný vliv na vykreslování). Čtení/zápis Double. |
+| [RotationAngle](../../aspose.slides.charts/icharttextblockformat/rotationangle) { get; set; } | Určuje vlastní rotaci, která se použije na text uvnitř ohraničujícího rámečku. Pokud není specifikována, použije se rotace přidruženého tvaru. Pokud je specifikována, aplikuje se nezávisle na tvaru. To znamená, že tvar může mít aplikovanou rotaci navíc k rotaci samotného textu. Výsledná hodnota vizuální rotace textu je souhrnem této vlastnosti a předdefinovaného vertikálního typu v vlastnosti TextVerticalType. Čtení/zápis Single. |
+| [TextVerticalType](../../aspose.slides.charts/icharttextblockformat/textverticaltype) { get; set; } | Určuje orientaci textu. Výsledná hodnota vizuální rotace textu je souhrnem této vlastnosti a vlastního úhlu ve vlastnosti RotationAngle. Čtení/zápis [`TextVerticalType`](../../aspose.slides/textverticaltype). |
+| [WrapText](../../aspose.slides.charts/icharttextblockformat/wraptext) { get; set; } | **True** pokud je text zalomený na okrajích TextFrame. Změna této vlastnosti může mít určitý vliv pouze na tyto části grafu: DataLabel a DataLabelFormat (plná podpora v PowerPoint 2007/2013). Čtení/zápis [`NullableBool`](../../aspose.slides/nullablebool). |
 
 ### Viz také
 

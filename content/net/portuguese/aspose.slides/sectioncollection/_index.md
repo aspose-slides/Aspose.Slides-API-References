@@ -3,7 +3,7 @@ title: SectionCollection
 second_title: Aspose.Sildes para .NET Referência da API
 description: Representa uma coleção de seções.
 type: docs
-weight: 9740
+weight: 9760
 url: /pt/aspose.slides/sectioncollection/
 ---
 ## SectionCollection classe
@@ -19,7 +19,7 @@ public sealed class SectionCollection : DomObject<Presentation>, ISectionCollect
 | Nome | Descrição |
 | --- | --- |
 | [Count](../../aspose.slides/sectioncollection/count) { get; } | Obtém o número de elementos realmente contidos na coleção. Somente leitura Int32. |
-| [IsSynchronized](../../aspose.slides/sectioncollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção é sincronizado (thread-safe). Somente leitura Boolean. |
+| [IsSynchronized](../../aspose.slides/sectioncollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção está sincronizado (thread-safe). Somente leitura Boolean. |
 | [Item](../../aspose.slides/sectioncollection/item) { get; } | Obtém o elemento no índice especificado. Somente leitura [`ISection`](../isection). |
 | [SyncRoot](../../aspose.slides/sectioncollection/syncroot) { get; } | Retorna uma raiz de sincronização. Somente leitura Object. |
 
@@ -28,14 +28,14 @@ public sealed class SectionCollection : DomObject<Presentation>, ISectionCollect
 | Nome | Descrição |
 | --- | --- |
 | [AddEmptySection](../../aspose.slides/sectioncollection/addemptysection)(string, int) | Adiciona uma seção vazia na posição especificada da coleção. |
-| [AddSection](../../aspose.slides/sectioncollection/addsection)(string, ISlide) | Adiciona uma seção de slides iniciada a partir de um slide específico. |
+| [AddSection](../../aspose.slides/sectioncollection/addsection)(string, ISlide) | Adiciona a seção de slides iniciada a partir de um slide específico. |
 | [AppendEmptySection](../../aspose.slides/sectioncollection/appendemptysection)(string) | Adiciona uma seção vazia ao final da coleção. |
 | [Clear](../../aspose.slides/sectioncollection/clear)() | Remove todas as seções da coleção. |
-| [CopyTo](../../aspose.slides/sectioncollection/copyto)(Array, int) | Copia toda a coleção para o array especificado. |
-| [GetEnumerator](../../aspose.slides/sectioncollection/getenumerator)() | Retorna um enumerador que itera através da coleção. |
+| [CopyTo](../../aspose.slides/sectioncollection/copyto)(Array, int) | Copia toda a coleção para a matriz especificada. |
+| [GetEnumerator](../../aspose.slides/sectioncollection/getenumerator)() | Retorna um enumerador que itera sobre a coleção. |
 | [IndexOf](../../aspose.slides/sectioncollection/indexof)(ISection) | Retorna o índice da seção especificada na coleção. |
-| [RemoveSection](../../aspose.slides/sectioncollection/removesection)(ISection) | Remove a seção. Slides contidos na seção serão mesclados à seção anterior. |
-| [RemoveSectionWithSlides](../../aspose.slides/sectioncollection/removesectionwithslides)(ISection) | Remove a seção e os slides contidos nela. |
+| [RemoveSection](../../aspose.slides/sectioncollection/removesection)(ISection) | Remove a seção. Os slides contidos na seção serão mesclados na seção anterior. |
+| [RemoveSectionWithSlides](../../aspose.slides/sectioncollection/removesectionwithslides)(ISection) | Remove a seção e os slides contidos na seção. |
 | [ReorderSectionWithSlides](../../aspose.slides/sectioncollection/reordersectionwithslides)(ISection, int) | Move a seção e seus slides da coleção para a posição especificada. |
 
 ### Veja Também

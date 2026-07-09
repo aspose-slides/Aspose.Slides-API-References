@@ -3,12 +3,12 @@ title: IRow
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en rad i en tabell.
 type: docs
-weight: 6830
+weight: 6850
 url: /sv/aspose.slides/irow/
 ---
 ## IRow gränssnitt
 
-Represents a row in a table.
+Representerar en rad i en tabell.
 
 ```csharp
 public interface IRow : IBulkTextFormattable, ICellCollection
@@ -20,9 +20,9 @@ public interface IRow : IBulkTextFormattable, ICellCollection
 | --- | --- |
 | [AsIBulkTextFormattable](../../aspose.slides/irow/asibulktextformattable) { get; } | Tillåter att hämta bas-IBulkTextFormattable-gränssnittet. Skrivskyddad [`IBulkTextFormattable`](../ibulktextformattable). |
 | [AsICellCollection](../../aspose.slides/irow/asicellcollection) { get; } | Tillåter att hämta bas-ICellCollection-gränssnittet. Skrivskyddad [`ICellCollection`](../icellcollection). |
-| [Height](../../aspose.slides/irow/height) { get; } | Returnerar radens höjd. Skrivskyddad Double. |
-| [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | Returnerar eller anger den minsta möjliga höjden för en rad. Läs/skriv Double. |
-| [RowFormat](../../aspose.slides/irow/rowformat) { get; } | Returnerar RowFormat-objektet som innehåller formateringsegenskaper för denna rad. Skrivskyddad [`IRowFormat`](../irowformat). |
+| [Height](../../aspose.slides/irow/height) { get; } | Returnerar höjden på en rad. Skrivskyddad Double. |
+| [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | Returnerar eller anger den minsta möjliga höjden på en rad. Läs/skriv Double. |
+| [RowFormat](../../aspose.slides/irow/rowformat) { get; } | Returnerar RowFormat-objektet som innehåller formaterings-egenskaper för denna rad. Skrivskyddad [`IRowFormat`](../irowformat). |
 
 ### Se även
 

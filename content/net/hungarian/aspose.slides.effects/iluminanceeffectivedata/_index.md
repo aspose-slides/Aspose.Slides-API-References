@@ -1,14 +1,14 @@
 ---
 title: ILuminanceEffectiveData
-second_title: Aspose.Sildes .NET-hez API Referencia
-description: Luminance effektust reprezentál. A Brightness lineárisan a fehér vagy fekete felé tolja az összes színt. A Contrast skálázza az összes színt, hogy azok közelebb vagy távolabb legyenek egymástól.
+second_title: Aspose.Sildes a .NET API hivatkozáshoz
+description: Luminancia effektust reprezentál. A fényerő lineárisan közelíti a színeket a fehérhez vagy feketéhoz. A kontraszt úgy méri a színeket, hogy azok közelebb vagy távolabb legyenek egymástól.
 type: docs
-weight: 3430
+weight: 3450
 url: /hu/aspose.slides.effects/iluminanceeffectivedata/
 ---
 ## ILuminanceEffectiveData interfész
 
-A Luminance hatást reprezentálja. A Brightness lineárisan a fehér vagy fekete felé tolja az összes színt. A Contrast úgy méri az összes színt, hogy azok közelebb vagy távolabb legyenek egymástól.
+Luminancia effektust reprezentál. A fényerő lineárisan közelíti a színeket a fehérhez vagy a feketéhez. A kontraszt úgy méri a színeket, hogy azok közelebb vagy távolabb legyenek egymástól.
 
 ```csharp
 public interface ILuminanceEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface ILuminanceEffectiveData : IEffectEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iluminanceeffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi az alap IEffectEffectiveData interfész lekérését. Írásvédett [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Brightness](../../aspose.slides.effects/iluminanceeffectivedata/brightness) { get; } | Fényerő. Írásvédett Single. |
-| [Contrast](../../aspose.slides.effects/iluminanceeffectivedata/contrast) { get; } | Kontraszt. Írásvédett Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iluminanceeffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi a bázis IEffectEffectiveData interfész lekérését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Brightness](../../aspose.slides.effects/iluminanceeffectivedata/brightness) { get; } | Fényerő. Csak olvasható Single. |
+| [Contrast](../../aspose.slides.effects/iluminanceeffectivedata/contrast) { get; } | Kontraszt. Csak olvasható Single. |
 
 ### Lásd még
 

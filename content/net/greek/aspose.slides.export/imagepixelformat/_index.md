@@ -1,14 +1,14 @@
 ---
 title: ImagePixelFormat
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Καθορίζει τη μορφή pixel για τις παραγόμενες εικόνες.
+description: Καθορίζει τη μορφή εικονοστοιχείων για τις δημιουργημένες εικόνες.
 type: docs
-weight: 4190
+weight: 4210
 url: /el/aspose.slides.export/imagepixelformat/
 ---
 ## ImagePixelFormat απαρίθμηση
 
-Καθορίζει τη μορφή pixel για τις παραγόμενες εικόνες.
+Καθορίζει τη μορφή εικονοστοιχείων για τις δημιουργημένες εικόνες.
 
 ```csharp
 public enum ImagePixelFormat
@@ -18,11 +18,11 @@ public enum ImagePixelFormat
 
 | Όνομα | Τιμή | Περιγραφή |
 | --- | --- | --- |
-| Format1bppIndexed | `1` | 1 bit ανά pixel, με ευρετήριο. |
-| Format4bppIndexed | `4` | 4 bits ανά pixel, με ευρετήριο. |
-| Format8bppIndexed | `8` | 8 bits ανά pixel, με ευρετήριο. |
-| Format24bppRgb | `24` | 24 bits ανά pixel, RGB. |
-| Format32bppArgb | `32` | 32 bits ανά pixel, ARGB. |
+| Format1bppIndexed | `1` | 1 bit ανά εικονοστοιχείο, ευρετήριο. |
+| Format4bppIndexed | `4` | 4 bit ανά εικονοστοιχείο, ευρετήριο. |
+| Format8bppIndexed | `8` | 8 bit ανά εικονοστοιχείο, ευρετήριο. |
+| Format24bppRgb | `24` | 24 bit ανά εικονοστοιχείο, RGB. |
+| Format32bppArgb | `32` | 32 bit ανά εικονοστοιχείο, ARGB. |
 
 ### Δείτε επίσης
 

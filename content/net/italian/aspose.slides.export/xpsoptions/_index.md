@@ -1,12 +1,12 @@
 ---
 title: XpsOptions
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Fornisce opzioni che controllano come una presentazione viene salvata nel formato XPS.
+description: Fornisce opzioni che controllano come una presentazione viene salvata in formato XPS.
 type: docs
-weight: 4710
+weight: 4730
 url: /it/aspose.slides.export/xpsoptions/
 ---
-## XpsOptions classe
+## XpsOptions class
 
 Fornisce opzioni che controllano come una presentazione viene salvata in formato XPS.
 
@@ -24,22 +24,22 @@ public class XpsOptions : SaveOptions, IXpsOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Restituisce o imposta il carattere utilizzato nel caso in cui il carattere sorgente non sia trovato. Lettura-scrittura String. |
-| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | True per disegnare una cornice nera attorno a ciascuna diapositiva. Lettura/scrittura Boolean. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Restituisce o imposta il carattere usato nel caso il carattere di origine non sia trovato. Lettura/scrittura String. |
+| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | True per disegnare una cornice nera attorno a ogni diapositiva. Lettura/scrittura Boolean. |
 | [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Restituisce o imposta lo stile visivo del gradiente. Lettura/scrittura [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Rappresenta un oggetto di callback per aggiornamenti di avanzamento del salvataggio in percentuale. Vedi [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | True per convertire tutti i metafile utilizzati in una presentazione in immagini PNG. Lettura/scrittura Boolean. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Rappresenta un oggetto callback per gli aggiornamenti di avanzamento del salvataggio in percentuale. Vedi [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | True per convertire tutti i metafile usati in una presentazione in immagini PNG. Lettura/scrittura Boolean. |
 | [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | Specifica se il documento generato deve includere diapositive nascoste o meno. Il valore predefinito è `false`. |
 | [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Specifica se saltare i collegamenti ipertestuali con chiamate JavaScript durante il salvataggio della presentazione. Lettura/scrittura Boolean. Il valore predefinito è **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Restituisce o imposta un oggetto che riceve avvisi e decide se il processo di caricamento deve continuare o essere interrotto. Lettura/scrittura [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Restituisce o imposta un oggetto che riceve avvisi e decide se il processo di caricamento continuerà o verrà interrotto. Lettura/scrittura [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Esempi
 
-Il seguente esempio mostra come convertire presentazioni in XPS usando le impostazioni predefinite.
+L'esempio seguente mostra come convertire presentazioni in XPS usando le impostazioni predefinite.
 
 ```csharp
 [C#]
-// Istanzia un oggetto Presentation che rappresenta un file di presentazione
+// Instanzia un oggetto Presentation che rappresenta un file di presentazione
 using (Presentation pres = new Presentation("Convert_XPS.pptx"))
 {
     // Salva la presentazione in un documento XPS
@@ -47,16 +47,16 @@ using (Presentation pres = new Presentation("Convert_XPS.pptx"))
 }
 ```
 
-Il seguente esempio mostra come convertire presentazioni in XPS usando impostazioni personalizzate.
+L'esempio seguente mostra come convertire presentazioni in XPS usando impostazioni personalizzate.
 
 ```csharp
 [C#]
-// Istanzia un oggetto Presentation che rappresenta un file di presentazione
+// Instanzia un oggetto Presentation che rappresenta un file di presentazione
 using (Presentation pres = new Presentation("Convert_XPS_Options.pptx"))
 {
-    // Istanzia la classe TiffOptions
+    // Instanzia la classe TiffOptions
     XpsOptions options = new XpsOptions();
-    // Salva i MetaFiles come PNG
+    // Salva i MetaFile come PNG
     options.SaveMetafilesAsPng = true;
     // Salva la presentazione in un documento XPS
     pres.Save("XPS_With_Options_out.xps", SaveFormat.Xps, options);

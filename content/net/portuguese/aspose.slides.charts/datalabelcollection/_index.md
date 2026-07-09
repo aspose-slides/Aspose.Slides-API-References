@@ -1,14 +1,14 @@
 ---
 title: DataLabelCollection
 second_title: Referência da API Aspose.Sildes para .NET
-description: Representa rótulos de série.
+description: Representa os rótulos de uma série.
 type: docs
-weight: 1540
+weight: 1560
 url: /pt/aspose.slides.charts/datalabelcollection/
 ---
 ## DataLabelCollection classe
 
-Representa rótulos de série.
+Representa os rótulos de uma série.
 
 ```csharp
 public class DataLabelCollection : DomObject<ChartSeries>, IDataLabelCollection
@@ -22,20 +22,20 @@ public class DataLabelCollection : DomObject<ChartSeries>, IDataLabelCollection
 | [Count](../../aspose.slides.charts/datalabelcollection/count) { get; } | Obtém o número de todos os rótulos de dados na coleção. Somente leitura Int32. |
 | [CountOfVisibleDataLabels](../../aspose.slides.charts/datalabelcollection/countofvisibledatalabels) { get; } | Obtém o número de rótulos de dados visíveis na coleção. Somente leitura Int32. |
 | [DefaultDataLabelFormat](../../aspose.slides.charts/datalabelcollection/defaultdatalabelformat) { get; } | Obtém o formato padrão do rótulo de dados. Somente leitura [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/datalabelcollection/isvisible) { get; } | Falso significa que o rótulo de dados não está visível por padrão (e, portanto, todas as flags Show* (ShowValue, ...) da propriedade DefaultDataLabelFormat são falsas). Somente leitura Boolean. |
+| [IsVisible](../../aspose.slides.charts/datalabelcollection/isvisible) { get; } | Falso indica que o rótulo de dados não está visível por padrão (e, portanto, todas as flags Show* (ShowValue, ...) da propriedade DefaultDataLabelFormat são falsas). Somente leitura Boolean. |
 | [Item](../../aspose.slides.charts/datalabelcollection/item) { get; } | Obtém o rótulo de dados para o ponto de dados com o índice especificado. |
-| [LeaderLinesFormat](../../aspose.slides.charts/datalabelcollection/leaderlinesformat) { get; } | Representa o formato das linhas de guia dos rótulos de dados. Somente leitura [`IChartLinesFormat`](../ichartlinesformat). |
+| [LeaderLinesFormat](../../aspose.slides.charts/datalabelcollection/leaderlinesformat) { get; } | Representa o formato das linhas de líder dos rótulos de dados. Somente leitura [`IChartLinesFormat`](../ichartlinesformat). |
 | [ParentSeries](../../aspose.slides.charts/datalabelcollection/parentseries) { get; } | Obtém a série pai. Somente leitura [`IChartSeries`](../ichartseries). |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
-| [GetEnumerator](../../aspose.slides.charts/datalabelcollection/getenumerator)() | Retorna um enumerador que itera pela coleção. |
-| [Hide](../../aspose.slides.charts/datalabelcollection/hide)() | Torna o rótulo de dados oculto por padrão definindo todas as flags Show* (ShowValue, ...) da propriedade DefaultDataLabelFormat como falso. IsVisible será falso após isso. |
+| [GetEnumerator](../../aspose.slides.charts/datalabelcollection/getenumerator)() | Retorna um enumerador que itera através da coleção. |
+| [Hide](../../aspose.slides.charts/datalabelcollection/hide)() | Torna o rótulo de dados oculto por padrão definindo todas as flags Show* (ShowValue, ...) da propriedade DefaultDataLabelFormat como falsas. IsVisible será falso após isso. |
 | [IndexOf](../../aspose.slides.charts/datalabelcollection/indexof)(IDataLabel) | Retorna um índice do DataLabel especificado na coleção. |
 
-### Veja Também
+### Ver também
 
 * classe [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * classe [ChartSeries](../chartseries)

@@ -1,20 +1,20 @@
 ---
 title: IHtmlFormatter
-second_title: Referência da API Aspose.Sildes para .NET
-description: Representa um modelo de arquivo HTML.
+second_title: Referência da API Aspose.Sildes for .NET
+description: Representa o modelo de arquivo HTML.
 type: docs
-weight: 3920
+weight: 3940
 url: /pt/aspose.slides.export/ihtmlformatter/
 ---
 ## IHtmlFormatter interface
 
-Representa um modelo de arquivo HTML.
+Representa o modelo de arquivo HTML.
 
 ```csharp
 public interface IHtmlFormatter
 ```
 
-### Ver Também
+### Veja Também
 
 * espaço de nomes [Aspose.Slides.Export](../../aspose.slides.export)
 * assembly [Aspose.Slides](../../)

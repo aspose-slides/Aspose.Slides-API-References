@@ -1,14 +1,14 @@
 ---
 title: IMathBlock
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
-description: Określa instancję tekstu matematycznego, który znajduje się w obrębie MathParagraph i zaczyna się w nowej linii. Wszystkie strefy matematyczne, w tym równania, wyrażenia, tablice równań lub wyrażeń oraz formuły są reprezentowane przez blok matematyczny.
+second_title: Aspose.Sildes dla .NET Dokumentacja API
+description: Określa instancję tekstu matematycznego znajdującego się w obrębie MathParagraph i rozpoczynającego się w nowej linii. Wszystkie strefy matematyczne, w tym równania, wyrażenia, tablice równań lub wyrażeń oraz formuły, są reprezentowane przez blok matematyczny.
 type: docs
-weight: 8120
+weight: 8140
 url: /pl/aspose.slides.mathtext/imathblock/
 ---
 ## IMathBlock interfejs
 
-Określa instancję tekstu matematycznego, który znajduje się w obrębie MathParagraph i zaczyna się w nowej linii. Wszystkie strefy matematyczne, w tym równania, wyrażenia, tablice równań lub wyrażeń oraz formuły są reprezentowane przez blok matematyczny.
+Określa instancję tekstu matematycznego, która znajduje się w obrębie MathParagraph i zaczyna się w nowej linii. Wszystkie strefy matematyczne, w tym równania, wyrażenia, tablice równań lub wyrażeń oraz formuły są reprezentowane przez blok matematyczny.
 
 ```csharp
 public interface IMathBlock : IMathElement, IMathElementCollection
@@ -25,8 +25,8 @@ public interface IMathBlock : IMathElement, IMathElementCollection
 
 | Nazwa | Opis |
 | --- | --- |
-| [Delimit](../../aspose.slides.mathtext/imathblock/delimit)(char) | Oddziela wszystkie elementy potomne znakiem separatora (bez nawiasów) |
-| [Enclose](../../aspose.slides.mathtext/imathblock/enclose)(char, char, char) | Otacza elementy potomne tego bloku określonymi znakami, takimi jak nawiasy lub inne, jako ramkę i oddziela je znakiem separatora |
+| [Delimit](../../aspose.slides.mathtext/imathblock/delimit)(char) | Oddziela wszystkie elementy podrzędne znakiem separatora (bez nawiasów) |
+| [Enclose](../../aspose.slides.mathtext/imathblock/enclose)(char, char, char) | Otacza elementy podrzędne tego bloku określonymi znakami, takimi jak nawiasy lub innymi, jako obramowanie i oddziela je znakiem separatora |
 | [JoinBlock](../../aspose.slides.mathtext/imathblock/joinblock)(IMathBlock) | Łączy inny blok matematyczny z tym |
 | [WriteAsMathMl](../../aspose.slides.mathtext/imathblock/writeasmathml)(Stream) | Zapisuje zawartość tego [`IMathBlock`](../imathblock) jako MathML |
 
@@ -36,10 +36,10 @@ Przykład:
 
 ```csharp
 [C#]
-IMMathBlock mathBlock = new MathBlock();
+IMathBlock mathBlock = new MathBlock();
 ```
 
-### Zobacz też
+### Zobacz także
 
 * interfejs [IMathElement](../imathelement)
 * interfejs [IMathElementCollection](../imathelementcollection)

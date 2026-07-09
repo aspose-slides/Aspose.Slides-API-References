@@ -3,10 +3,10 @@ title: QuartileMethodType
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 四分位法のタイプを返します
 type: docs
-weight: 2370
+weight: 2390
 url: /ja/aspose.slides.charts/quartilemethodtype/
 ---
-## QuartileMethodType 列挙
+## QuartileMethodType 列挙型
 
 四分位法のタイプを返します
 
@@ -19,9 +19,9 @@ public enum QuartileMethodType
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
 | Exclusive | `0` | 排他的四分位法を表します。 |
-| Inclusive | `1` | 包括的四分位法を表します。 |
+| Inclusive | `1` | 包含的四分位法を表します。 |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * アセンブリ [Aspose.Slides](../../)

@@ -3,12 +3,12 @@ title: PptxException
 second_title: Aspose.Sildes για .NET Αναφορά API
 description: Αναπαριστά έναν τυπικό εσωτερικό τύπο εξαίρεσης.
 type: docs
-weight: 9540
+weight: 9560
 url: /el/aspose.slides/pptxexception/
 ---
 ## PptxException κλάση
 
-Αντιπροσωπεύει έναν τυπικό εσωτερικό τύπο εξαίρεσης.
+Αναπαριστά έναν τυπικό εσωτερικό τύπο εξαίρεσης.
 
 ```csharp
 public class PptxException : OOXMLException
@@ -20,7 +20,7 @@ public class PptxException : OOXMLException
 | --- | --- |
 | [PptxException](pptxexception#constructor)() | Προεπιλεγμένος κατασκευαστής. |
 | [PptxException](pptxexception#constructor_1)(string) | Κατασκευαστής που επιτρέπει την προσθήκη μηνύματος σε αυτήν την εξαίρεση. |
-| [PptxException](pptxexception#constructor_2)(string, Exception) | Κατασκευαστής για μια εξαίρεση που περιέχει μήνυμα και ενσωματωμένη εξαίρεση. |
+| [PptxException](pptxexception#constructor_2)(string, Exception) | Κατασκευαστής για μια εξαίρεση που περιέχει ένα μήνυμα και μια ενσωματωμένη εξαίρεση. |
 
 ### Δείτε επίσης
 

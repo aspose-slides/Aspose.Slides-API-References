@@ -1,14 +1,14 @@
 ---
 title: TranslateAsync
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Μεταφράζει μια παρουσίαση στη συγκεκριμένη γλώσσα χρησιμοποιώντας AI.
+second_title: Αναφορά API Aspose.Sildes για .NET
+description: Μεταφράζει μια παρουσίαση στην καθορισμένη γλώσσα χρησιμοποιώντας AI.
 type: docs
 weight: 50
 url: /el/aspose.slides.ai/slidesaiagent/translateasync/
 ---
 ## SlidesAIAgent.TranslateAsync μέθοδος
 
-Μεταφράζει μια παρουσίαση στη συγκεκριμένη γλώσσα χρησιμοποιώντας AI.
+Μεταφράζει μια παρουσίαση στην καθορισμένη γλώσσα χρησιμοποιώντας AI.
 
 ```csharp
 public Task TranslateAsync(IPresentation presentation, string language)
@@ -16,19 +16,27 @@ public Task TranslateAsync(IPresentation presentation, string language)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| presentation | IPresentation | Στόχος παρουσίασης |
-| language | String | Στόχος γλώσσας |
+| presentation | IPresentation | Παρουσίαση προορισμού |
+| language | String | Γλώσσα προορισμού |
 
 ### Εξαιρέσεις
 
 | εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentNullException | Η παρουσίαση δεν έχει δοθεί |
-| ArgumentException | Η τιμή της γλώσσας δεν μπορεί να είναι κενή ή null |
+| ArgumentNullException | Η παρουσίαση Presentation δεν έχει δοθεί |
+| ArgumentException | Η τιμή Language δεν μπορεί να είναι null ή κενή |
+
+### Σχόλια
+
+Παραδείγματος χάριν, το παρακάτω παράδειγμα χρησιμοποιεί το προεπιλεγμένο [`AsposeAIWebClient`](../../asposeaiwebclient), το οποίο δημιουργείται από τον χωρίς παραμέτρους [`SlidesAIAgent`](../slidesaiagent) κατασκευαστή και συνδέεται με το δικό του LLM της Aspose. Για να χρησιμοποιήσετε διαφορετικό πάροχο AI, παρέχετε το δικό σας LLM ή προσαρμόστε τη σύνδεση (για παράδειγμα, παρέχοντας το δικό σας `HttpClient`), περάστε μια υλοποίηση [`IAIWebClient`](../../iaiwebclient) στον [`SlidesAIAgent`](../slidesaiagent) κατασκευαστή. Διαθέσιμες υλοποιήσεις περιλαμβάνουν:
+
+* [`AsposeAIWebClient`](../../asposeaiwebclient)
+* [`OpenAIWebClient`](../../openaiwebclient)
+* [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
 
 ### Δείτε επίσης
 
-* διασύνδεση [IPresentation](../../../aspose.slides/ipresentation)
+* διεπαφή [IPresentation](../../../aspose.slides/ipresentation)
 * κλάση [SlidesAIAgent](../../slidesaiagent)
 * χώρος ονομάτων [Aspose.Slides.AI](../../slidesaiagent)
 * συναρμολόγηση [Aspose.Slides](../../../)

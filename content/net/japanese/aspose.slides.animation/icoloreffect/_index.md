@@ -1,9 +1,9 @@
 ---
 title: IColorEffect
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: アニメーション ビヘイビアのカラー エフェクトを表します。
 type: docs
-weight: 440
+weight: 460
 url: /ja/aspose.slides.animation/icoloreffect/
 ---
 ## IColorEffect インターフェイス
@@ -16,16 +16,16 @@ public interface IColorEffect : IBehavior
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [AsIBehavior](../../aspose.slides.animation/icoloreffect/asibehavior) { get; } | ベース IBehavior インターフェイスを取得できます。読み取り専用 [`IBehavior`](../ibehavior)。 |
-| [By](../../aspose.slides.animation/icoloreffect/by) { get; set; } | カラー アニメーションの相対オフセット値を表します。読み取り/書き込み [`IColorOffset`](../icoloroffset)。 |
-| [ColorSpace](../../aspose.slides.animation/icoloreffect/colorspace) { get; set; } | ビヘイビアのカラースペースを表します。読み取り/書き込み [`ColorSpace`](./colorspace)。 |
-| [Direction](../../aspose.slides.animation/icoloreffect/direction) { get; set; } | カラーホイール上で色相を回転させる方向を指定します。読み取り/書き込み [`ColorDirection`](../colordirection)。 |
-| [From](../../aspose.slides.animation/icoloreffect/from) { get; set; } | ビヘイビアの開始色を指定するために使用されます。読み取り/書き込み [`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [To](../../aspose.slides.animation/icoloreffect/to) { get; set; } | アニメーションのカラー変更の結果の色を表します。読み取り/書き込み [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [By](../../aspose.slides.animation/icoloreffect/by) { get; set; } | カラー アニメーションの相対オフセット値を記述します。読み取り/書き込み [`IColorOffset`](../icoloroffset)。 |
+| [ColorSpace](../../aspose.slides.animation/icoloreffect/colorspace) { get; set; } | ビヘイビアのカラー スペースを表します。読み取り/書き込み [`ColorSpace`](./colorspace)。 |
+| [Direction](../../aspose.slides.animation/icoloreffect/direction) { get; set; } | カラー ホイール上で色相を巡回させる方向を指定します。読み取り/書き込み [`ColorDirection`](../colordirection)。 |
+| [From](../../aspose.slides.animation/icoloreffect/from) { get; set; } | この値はビヘイビアの開始色を指定するために使用されます。読み取り/書き込み [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [To](../../aspose.slides.animation/icoloreffect/to) { get; set; } | アニメーションの色変更の結果となる色を記述します。読み取り/書き込み [`IColorFormat`](../../aspose.slides/icolorformat)。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IBehavior](../ibehavior)
 * 名前空間 [Aspose.Slides.Animation](../../aspose.slides.animation)

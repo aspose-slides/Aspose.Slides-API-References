@@ -3,7 +3,7 @@ title: IActualLayout
 second_title: Aspose.Sildes pro .NET API Reference
 description: Určuje skutečnou polohu prvku grafu.
 type: docs
-weight: 1670
+weight: 1690
 url: /cs/aspose.slides.charts/iactuallayout/
 ---
 ## IActualLayout rozhraní
@@ -18,10 +18,10 @@ public interface IActualLayout
 
 | Název | Popis |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/iactuallayout/actualheight) { get; } | Specifikuje skutečnou výšku prvku grafu. Zavolejte metodu IChart.ValidateChartLayout() předtím, abyste získali skutečné hodnoty. Číst Single. |
-| [ActualWidth](../../aspose.slides.charts/iactuallayout/actualwidth) { get; } | Specifikuje skutečnou šířku prvku grafu. Zavolejte metodu IChart.ValidateChartLayout() předtím, abyste získali skutečné hodnoty. Číst Single. |
-| [ActualX](../../aspose.slides.charts/iactuallayout/actualx) { get; } | Specifikuje skutečnou souřadnici x (levý) prvku grafu vzhledem k levému hornímu rohu grafu. Zavolejte metodu IChart.ValidateChartLayout() předtím, abyste získali skutečné hodnoty. Číst Single. |
-| [ActualY](../../aspose.slides.charts/iactuallayout/actualy) { get; } | Specifikuje skutečnou horní polohu prvku grafu vzhledem k levému hornímu rohu grafu. Zavolejte metodu IChart.ValidateChartLayout() předtím, abyste získali skutečné hodnoty. Číst Single. |
+| [ActualHeight](../../aspose.slides.charts/iactuallayout/actualheight) { get; } | Určuje skutečnou výšku prvku grafu. Předtím zavolejte metodu IChart.ValidateChartLayout(), abyste získali skutečné hodnoty. Pouze pro čtení Single. |
+| [ActualWidth](../../aspose.slides.charts/iactuallayout/actualwidth) { get; } | Určuje skutečnou šířku prvku grafu. Předtím zavolejte metodu IChart.ValidateChartLayout(), abyste získali skutečné hodnoty. Pouze pro čtení Single. |
+| [ActualX](../../aspose.slides.charts/iactuallayout/actualx) { get; } | Určuje skutečnou x polohu (levá) prvku grafu vzhledem k levému hornímu rohu grafu. Předtím zavolejte metodu IChart.ValidateChartLayout(), abyste získali skutečné hodnoty. Pouze pro čtení Single. |
+| [ActualY](../../aspose.slides.charts/iactuallayout/actualy) { get; } | Určuje skutečnou horní polohu prvku grafu vzhledem k levému hornímu rohu grafu. Předtím zavolejte metodu IChart.ValidateChartLayout(), abyste získali skutečné hodnoty. Pouze pro čtení Single. |
 
 ### Viz také
 

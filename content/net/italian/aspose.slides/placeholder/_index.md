@@ -1,14 +1,14 @@
 ---
 title: Placeholder
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta un segnaposto su una diapositiva.
+description: Rappresenta un segnaposto in una diapositiva.
 type: docs
-weight: 9410
+weight: 9430
 url: /it/aspose.slides/placeholder/
 ---
-## Classe placeholder
+## Classe segnaposto
 
-Rappresenta un segnaposto su una diapositiva.
+Rappresenta un segnaposto in una diapositiva.
 
 ```csharp
 public class Placeholder : IPlaceholder
@@ -20,7 +20,7 @@ public class Placeholder : IPlaceholder
 | --- | --- |
 | [Index](../../aspose.slides/placeholder/index) { get; } | Ottiene o imposta l'indice di un segnaposto. Solo lettura UInt32. |
 | [Orientation](../../aspose.slides/placeholder/orientation) { get; } | Ottiene o imposta l'orientamento di un segnaposto. Solo lettura [`Orientation`](../orientation). |
-| [Size](../../aspose.slides/placeholder/size) { get; } | Ottiene o imposta le dimensioni di un segnaposto. Solo lettura [`PlaceholderSize`](../placeholdersize). |
+| [Size](../../aspose.slides/placeholder/size) { get; } | Ottiene o imposta la dimensione di un segnaposto. Solo lettura [`PlaceholderSize`](../placeholdersize). |
 | [Type](../../aspose.slides/placeholder/type) { get; } | Ottiene o imposta il tipo di un segnaposto. Solo lettura [`PlaceholderType`](../placeholdertype). |
 
 ### Vedi anche

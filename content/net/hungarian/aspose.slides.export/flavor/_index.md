@@ -1,14 +1,14 @@
 ---
 title: Flavor
-second_title: Aspose.Sildes .NET API referenciája
+second_title: Aspose.Sildes .NET API referencia
 description: A programban használt összes markdown specifikáció.
 type: docs
-weight: 3780
+weight: 3800
 url: /hu/aspose.slides.export/flavor/
 ---
 ## Flavor enumeráció
 
-Az összes markdown specifikáció, amelyet a program használ.
+A programban használt összes markdown specifikáció.
 
 ```csharp
 public enum Flavor
@@ -18,30 +18,30 @@ public enum Flavor
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Github | `0` | Github ízesítés. |
-| Gruber | `1` | Gruber ízesítés. |
-| MultiMarkdown | `2` | Multi markdown ízesítés. |
-| CommonMark | `3` | Common mark ízesítés. |
-| MarkdownExtra | `4` | Markdown extra ízesítés. |
-| Pandoc | `5` | Pandoc ízesítés. |
-| Kramdown | `6` | Kramdown ízesítés. |
-| Markua | `7` | Markua ízesítés. |
-| Maruku | `8` | Maruku ízesítés. |
-| Markdown2 | `9` | Markdown2 ízesítés. |
-| Remarkable | `10` | Remarkable ízesítés |
-| Showdown | `11` | Showdown ízesítés. |
-| Ghost | `12` | Ghost ízesítés. |
-| GitLab | `13` | Gitlab ízesítés. |
-| Haroopad | `14` | Haroopad ízesítés. |
-| IaWriter | `15` | IAWriter ízesítés. |
-| Redcarpet | `16` | Redcarpet ízesítés. |
-| ScholarlyMarkdown | `17` | Scholarly markdown ízesítés. |
-| Taiga | `18` | Taiga ízesítés. |
-| Trello | `19` | Trello ízesítés. |
-| S9ETextFormatter | `20` | S9E text formatter ízesítés. |
-| XWiki | `21` | XWiki ízesítés. |
-| StackOverflow | `22` | Stack overflow ízesítés. |
-| Default | `23` | Alapértelmezett markdown ízesítés. |
+| Github | `0` | Github változat. |
+| Gruber | `1` | Gruber változat. |
+| MultiMarkdown | `2` | Multi markdown változat. |
+| CommonMark | `3` | Common mark változat. |
+| MarkdownExtra | `4` | Markdown extra változat. |
+| Pandoc | `5` | Pandoc változat. |
+| Kramdown | `6` | Kramdown változat. |
+| Markua | `7` | Markua változat. |
+| Maruku | `8` | Maruku változat. |
+| Markdown2 | `9` | Markdown2 változat. |
+| Remarkable | `10` | Remarkable változat |
+| Showdown | `11` | Showdown változat. |
+| Ghost | `12` | Ghost változat. |
+| GitLab | `13` | Gitlab változat. |
+| Haroopad | `14` | Haroopad változat. |
+| IaWriter | `15` | IAWriter változat. |
+| Redcarpet | `16` | Redcarpet változat. |
+| ScholarlyMarkdown | `17` | Scholarly markdown változat. |
+| Taiga | `18` | Taiga változat. |
+| Trello | `19` | Trello változat. |
+| S9ETextFormatter | `20` | S9E text formatter változat. |
+| XWiki | `21` | XWiki változat. |
+| StackOverflow | `22` | Stack overflow változat. |
+| Default | `23` | Alapértelmezett markdown változat. |
 
 ### Példák
 

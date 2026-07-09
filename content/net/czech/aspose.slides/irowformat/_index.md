@@ -1,9 +1,9 @@
 ---
 title: IRowFormat
-second_title: Aspose.Sildes pro .NET referenci API
+second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje formát řádku tabulky.
 type: docs
-weight: 6850
+weight: 6870
 url: /cs/aspose.slides/irowformat/
 ---
 ## IRowFormat rozhraní
@@ -18,7 +18,7 @@ public interface IRowFormat
 
 | Název | Popis |
 | --- | --- |
-| [GetEffective](../../aspose.slides/irowformat/geteffective)() | Získá efektivní vlastnosti formátování řádku tabulky s aplikovaným děděním a styly tabulky. |
+| [GetEffective](../../aspose.slides/irowformat/geteffective)() | Získá efektivní vlastnosti formátování řádku tabulky s použitím dědičnosti a stylů tabulky. |
 
 ### Viz také
 

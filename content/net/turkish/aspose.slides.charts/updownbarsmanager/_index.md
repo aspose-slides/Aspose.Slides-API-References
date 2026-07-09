@@ -1,14 +1,14 @@
 ---
 title: UpDownBarsManager
-second_title: Aspose.Sildes for .NET API Referansı
-description: Satır- veya Hisse senedi grafiğinin yukarı/aşağı çubuklarına erişim sağlar.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Satır veya Stok grafiğinin yukarı/aşağı çubuklarına erişim sağlar.
 type: docs
-weight: 2480
+weight: 2500
 url: /tr/aspose.slides.charts/updownbarsmanager/
 ---
 ## UpDownBarsManager sınıfı
 
-Satır- veya Hisse senedi grafiğinin yukarı/aşağı çubuklarına erişim sağlar.
+Satır veya Stok grafiklerinin yukarı/aşağı çubuklarına erişim sağlar.
 
 ```csharp
 public class UpDownBarsManager : DomObject<ChartSeriesGroup>, IUpDownBarsManager
@@ -18,12 +18,12 @@ public class UpDownBarsManager : DomObject<ChartSeriesGroup>, IUpDownBarsManager
 
 | Ad | Açıklama |
 | --- | --- |
-| [DownBarsFormat](../../aspose.slides.charts/updownbarsmanager/downbarsformat) { get; } | DownBars biçimini döndürür. Yalnızca okuma [`IFormat`](../iformat). |
-| [GapWidth](../../aspose.slides.charts/updownbarsmanager/gapwidth) { get; set; } | GapWidth. Okuma/yazma Int32. |
-| [HasUpDownBars](../../aspose.slides.charts/updownbarsmanager/hasupdownbars) { get; set; } | HasUpDownBars. Okuma/yazma Boolean. |
-| [UpBarsFormat](../../aspose.slides.charts/updownbarsmanager/upbarsformat) { get; } | UpBars biçimini döndürür. Yalnızca okuma [`IFormat`](../iformat). |
+| [DownBarsFormat](../../aspose.slides.charts/updownbarsmanager/downbarsformat) { get; } | DownBars formatını döndürür. Yalnızca okunabilir [`IFormat`](../iformat). |
+| [GapWidth](../../aspose.slides.charts/updownbarsmanager/gapwidth) { get; set; } | GapWidth. Okunabilir/Yazılabilir Int32. |
+| [HasUpDownBars](../../aspose.slides.charts/updownbarsmanager/hasupdownbars) { get; set; } | HasUpDownBars. Okunabilir/Yazılabilir Boolean. |
+| [UpBarsFormat](../../aspose.slides.charts/updownbarsmanager/upbarsformat) { get; } | UpBars formatını döndürür. Yalnızca okunabilir [`IFormat`](../iformat). |
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
 * sınıf [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * sınıf [ChartSeriesGroup](../chartseriesgroup)

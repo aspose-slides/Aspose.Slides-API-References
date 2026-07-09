@@ -1,12 +1,12 @@
 ---
 title: TransitionMorphType
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta un tipo di transizione morph.
 type: docs
-weight: 10370
+weight: 10390
 url: /it/aspose.slides.slideshow/transitionmorphtype/
 ---
-## Enumerazione TransitionMorphType
+## TransitionMorphType enumerazione
 
 Rappresenta un tipo di transizione morph.
 
@@ -19,8 +19,8 @@ public enum TransitionMorphType
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | ByObject | `0` | La transizione morph verrà eseguita considerando le forme come oggetti indivisibili. |
-| ByWord | `1` | La transizione morph verrà eseguita trasferendo il testo per parole, dove possibile. |
-| ByChar | `2` | La transizione morph verrà eseguita trasferendo il testo per caratteri, dove possibile. |
+| ByWord | `1` | La transizione morph verrà eseguita trasferendo il testo parola per parola, dove possibile. |
+| ByChar | `2` | La transizione morph verrà eseguita trasferendo il testo carattere per carattere, dove possibile. |
 
 ### Vedi anche
 

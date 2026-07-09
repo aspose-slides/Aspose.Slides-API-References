@@ -3,7 +3,7 @@ title: ColorOperation
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar olika färgoperationer som används för färgtransformeringar. Oföränderligt objekt.
 type: docs
-weight: 2510
+weight: 2530
 url: /sv/aspose.slides/coloroperation/
 ---
 ## ColorOperation klass
@@ -16,24 +16,24 @@ public class ColorOperation : IColorOperation
 
 ## Konstruktörer
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
 | [ColorOperation](coloroperation#constructor)(ColorTransformOperation) | Skapar en ny färgtransformationsoperation. |
 | [ColorOperation](coloroperation#constructor_1)(ColorTransformOperation, float) | Skapar en ny färgtransformationsoperation. |
 
 ## Egenskaper
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
 | [OperationType](../../aspose.slides/coloroperation/operationtype) { get; } | Returnerar eller anger typen av en operation. Skrivskyddad [`ColorTransformOperation`](../colortransformoperation). |
 | [Parameter](../../aspose.slides/coloroperation/parameter) { get; } | Returnerar en parameter för en operation. Skrivskyddad Single. |
 
 ## Metoder
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
 | override [Equals](../../aspose.slides/coloroperation/equals)(object) | Bestämmer om de två ColorOperation-instanserna är lika. |
-| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | Fungerar som en hash-funktion för en viss typ, lämplig för användning i hash-algoritmer och datastrukturer som en hash-tabell. |
+| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | Fungerar som en hashfunktion för en viss typ, lämplig för användning i hash-algoritmer och datastrukturer som en hash-tabell. |
 
 ### Se även
 

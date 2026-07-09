@@ -1,14 +1,14 @@
 ---
 title: AxesCompositionNotCombinableException
-second_title: Riferimento API di Aspose.Sildes per .NET
-description: Eccezione sollevata quando la composizione degli assi della serie non è combinabile con la composizione degli assi presente nel grafico.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Eccezione generata quando la composizione degli assi della serie non è combinabile con la composizione degli assi presente nel grafico.
 type: docs
-weight: 1140
+weight: 1160
 url: /it/aspose.slides.charts/axescompositionnotcombinableexception/
 ---
 ## AxesCompositionNotCombinableException classe
 
-Eccezione sollevata quando la composizione degli assi della serie non è combinabile con la composizione degli assi presente nel grafico.
+Eccezione generata quando la composizione degli assi della serie non è combinabile con la composizione degli assi presente nel grafico.
 
 ```csharp
 public class AxesCompositionNotCombinableException : InvalidOperationException

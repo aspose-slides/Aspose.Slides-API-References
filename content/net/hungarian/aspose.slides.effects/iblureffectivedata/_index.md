@@ -1,14 +1,14 @@
 ---
 title: IBlurEffectiveData
-second_title: Aspose.Sildes .NET API Referenciája
-description: Megváltoztathatatlan objektum, amely egy Blur hatást képvisel, amely az egész alakzatra, beleértve a kitöltést, vonatkozik. Az összes színcsatorna, beleértve az alfát is, érintett.
+second_title: Aspose.Sildes .NET API referencia
+description: Módosíthatatlan objektum, amely egy elmosási hatást képvisel, amely az egész alakzatra, beleértve a kitöltését is, vonatkozik. Az összes színcsatorna, beleértve az alfát is, érintett.
 type: docs
-weight: 3170
+weight: 3190
 url: /hu/aspose.slides.effects/iblureffectivedata/
 ---
 ## IBlurEffectiveData interfész
 
-Megváltoztathatatlan objektum, amely egy Blur hatást képvisel, amely az egész alakzatra, beleértve a kitöltést, vonatkozik. Az összes színcsatorna, beleértve az alfát is, érintett.
+Módosíthatatlan objektum, amely egy elmosási hatást képvisel, amely az egész alakzatra, beleértve a kitöltését is, vonatkozik. Az összes színcsatorna, beleértve az alfát is, érintett.
 
 ```csharp
 public interface IBlurEffectiveData : IEffectEffectiveData
@@ -16,11 +16,11 @@ public interface IBlurEffectiveData : IEffectEffectiveData
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iblureffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi a bázis IEffectEffectiveData interfész lekérését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | Meghatározza, hogy a objektum határai a elmosás eredményeként növekedjenek-e. Az igaz érték jelzi, hogy a határok növekednek, míg a hamis jelzi, hogy nem. Csak olvasható Boolean. |
-| [Radius](../../aspose.slides.effects/iblureffectivedata/radius) { get; } | Visszaadja vagy beállítja a blur sugárát. Csak olvasható Double. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iblureffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi az alap IEffectEffectiveData interfész lekérését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | Meghatározza, hogy az objektum határai növekedjenek-e az elmosás következtében. Az igaz érték jelzi, hogy a határok növekednek, míg a hamis azt jelzi, hogy nem. Csak olvasható logikai. |
+| [Radius](../../aspose.slides.effects/iblureffectivedata/radius) { get; } | Visszaadja vagy beállítja az elmosás sugarát. Csak olvasható Double. |
 
 ### Lásd még
 

@@ -1,14 +1,14 @@
 ---
 title: IShapeBevel
 second_title: Aspose.Sildes の .NET API リファレンス
-description: シェイプの主面リリーフのプロパティを表します。
+description: シェイプの主面のレリーフのプロパティを表します。
 type: docs
-weight: 6940
+weight: 6960
 url: /ja/aspose.slides/ishapebevel/
 ---
 ## IShapeBevel インターフェイス
 
-シェイプの主面リリーフのプロパティを表します。
+シェイプのメインフェイスのレリーフのプロパティを表します。
 
 ```csharp
 public interface IShapeBevel
@@ -18,9 +18,9 @@ public interface IShapeBevel
 
 | 名前 | 説明 |
 | --- | --- |
-| [BevelType](../../aspose.slides/ishapebevel/beveltype) { get; set; } | ベベル タイプ。 読み書き [`BevelPresetType`](../bevelpresettype)。 |
-| [Height](../../aspose.slides/ishapebevel/height) { get; set; } | ベベル 高さ。 読み書き Double。 |
-| [Width](../../aspose.slides/ishapebevel/width) { get; set; } | ベベル 幅。 読み書き Double。 |
+| [BevelType](../../aspose.slides/ishapebevel/beveltype) { get; set; } | ベベル タイプ。 読み取り/書き込み [`BevelPresetType`](../bevelpresettype)。 |
+| [Height](../../aspose.slides/ishapebevel/height) { get; set; } | ベベル 高さ。 読み取り/書き込み Double。 |
+| [Width](../../aspose.slides/ishapebevel/width) { get; set; } | ベベル 幅。 読み取り/書き込み Double。 |
 
 ### 参照
 

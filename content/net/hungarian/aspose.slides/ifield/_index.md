@@ -1,14 +1,14 @@
 ---
 title: IField
-second_title: Aspose.Sildes a .NET API referencia
-description: Mezőt reprezentál.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Egy mezőt képvisel.
 type: docs
-weight: 5750
+weight: 5770
 url: /hu/aspose.slides/ifield/
 ---
 ## IField interfész
 
-Mezőt reprezentál.
+Egy mező képviselője.
 
 ```csharp
 public interface IField : ISlideComponent
@@ -18,7 +18,7 @@ public interface IField : ISlideComponent
 
 | Név | Leírás |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/ifield/asislidecomponent) { get; } | Lehetővé teszi a bázis ISlideComponent interfész elérését. Csak olvasható [`ISlideComponent`](../islidecomponent). |
+| [AsISlideComponent](../../aspose.slides/ifield/asislidecomponent) { get; } | Lehetővé teszi az alap ISlideComponent interfész lekérését. Csak olvasható [`ISlideComponent`](../islidecomponent). |
 | [Type](../../aspose.slides/ifield/type) { get; set; } | Visszaadja vagy beállítja a mező típusát. Olvasható/írható [`IFieldType`](../ifieldtype). |
 
 ### Lásd még

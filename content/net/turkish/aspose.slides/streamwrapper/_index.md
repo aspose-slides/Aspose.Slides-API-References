@@ -1,14 +1,14 @@
 ---
 title: StreamWrapper
-second_title: Aspose.Sildes .NET API Referansı
-description: COM arabirimi için Aspose.IO.Stream sarmalayıcısı.
+second_title: Aspose.Sildes için .NET API Referansı
+description: COM arabirimi için Aspose.IO.Stream sarmalayıcı.
 type: docs
-weight: 10730
+weight: 10750
 url: /tr/aspose.slides/streamwrapper/
 ---
 ## StreamWrapper sınıfı
 
-Aspose.IO.Stream sarmalayıcısı COM arabirimi için.
+COM arabirimi için Aspose.IO.Stream sarmalayıcı.
 
 ```csharp
 public class StreamWrapper : IStreamWrapper
@@ -18,13 +18,13 @@ public class StreamWrapper : IStreamWrapper
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIDisposable](../../aspose.slides/streamwrapper/asidisposable) { get; } | Temel IDisposable arabirimine erişim sağlar. Salt okunur IDisposable. |
-| [CanRead](../../aspose.slides/streamwrapper/canread) { get; } | Geçerli akışın okuma destekleyip desteklemediğini gösteren bir değer alır. Salt okunur Boolean. |
-| [CanSeek](../../aspose.slides/streamwrapper/canseek) { get; } | Geçerli akışın arama (seek) destekleyip desteklemediğini gösteren bir değer alır. Salt okunur Boolean. |
-| [CanWrite](../../aspose.slides/streamwrapper/canwrite) { get; } | Geçerli akışın yazma destekleyip desteklemediğini gösteren bir değer alır. Salt okunur Boolean. |
-| [Length](../../aspose.slides/streamwrapper/length) { get; } | Akışın bayt cinsinden uzunluğunu alır. Salt okunur Int64. |
-| [Position](../../aspose.slides/streamwrapper/position) { get; } | Geçerli akış içinde konumu alır veya ayarlar. Salt okunur Int64. |
-| [Stream](../../aspose.slides/streamwrapper/stream) { get; } | Bir akış alır. Salt okunur Stream. |
+| [AsIDisposable](../../aspose.slides/streamwrapper/asidisposable) { get; } | Temel IDisposable arabirimine erişim sağlar. Salt-okunur IDisposable. |
+| [CanRead](../../aspose.slides/streamwrapper/canread) { get; } | Geçerli akışın okuma desteği olup olmadığını gösteren bir değeri alır. Salt-okunur Boolean. |
+| [CanSeek](../../aspose.slides/streamwrapper/canseek) { get; } | Geçerli akışın konumlandırma desteği olup olmadığını gösteren bir değeri alır. Salt-okunur Boolean. |
+| [CanWrite](../../aspose.slides/streamwrapper/canwrite) { get; } | Geçerli akışın yazma desteği olup olmadığını gösteren bir değeri alır. Salt-okunur Boolean. |
+| [Length](../../aspose.slides/streamwrapper/length) { get; } | Akışın bayt cinsinden uzunluğunu alır. Salt-okunur Int64. |
+| [Position](../../aspose.slides/streamwrapper/position) { get; } | Geçerli akış içindeki konumu alır veya ayarlar. Salt-okunur Int64. |
+| [Stream](../../aspose.slides/streamwrapper/stream) { get; } | Bir akış alır. Salt-okunur Stream. |
 
 ## Yöntemler
 
@@ -32,14 +32,14 @@ public class StreamWrapper : IStreamWrapper
 | --- | --- |
 | [Close](../../aspose.slides/streamwrapper/close)() | Geçerli akışı kapatır ve tüm kaynakları serbest bırakır. |
 | [Dispose](../../aspose.slides/streamwrapper/dispose)() | Nesneyi yok eder. |
-| [Flush](../../aspose.slides/streamwrapper/flush)() | Bu akış için tüm tamponları temizler ve tamponlu verilerin alt aygıta yazılmasını sağlar. |
-| [Read](../../aspose.slides/streamwrapper/read)(byte[], int, int) | Geçerli akıştan bir bayt dizisini okur ve akıştaki konumu okunan bayt sayısı kadar ileri alır. |
-| [ReadByte](../../aspose.slides/streamwrapper/readbyte)() | Akıştan bir bayt okur ve akıştaki konumu bir bayt kadar ileri alır; akışın sonundaysa -1 döndürür. |
-| [Seek](../../aspose.slides/streamwrapper/seek)(long, SeekOrigin) | Geçerli akış içinde konumu ayarlar |
-| [Write](../../aspose.slides/streamwrapper/write)(byte[], int, int) | Geçerli akışa bir bayt dizisi yazar ve bu akışta konumu yazılan bayt sayısı kadar ileri alır. |
-| [WriteByte](../../aspose.slides/streamwrapper/writebyte)(byte) | Akıştaki mevcut konuma bir bayt yazar ve akıştaki konumu bir bayt kadar ileri alır. |
+| [Flush](../../aspose.slides/streamwrapper/flush)() | Bu akış için tüm tamponları temizler ve tamponlanmış verilerin alt cihazına yazılmasını sağlar. |
+| [Read](../../aspose.slides/streamwrapper/read)(byte[], int, int) | Geçerli akıştan bir bayt dizisi okur ve akış içindeki konumu okunan bayt sayısı kadar ilerletir. |
+| [ReadByte](../../aspose.slides/streamwrapper/readbyte)() | Akıştan bir bayt okur ve akış içindeki konumu bir bayt ilerletir; akışın sonundaysa -1 döndürür. |
+| [Seek](../../aspose.slides/streamwrapper/seek)(long, SeekOrigin) | Geçerli akış içindeki konumu ayarlar. |
+| [Write](../../aspose.slides/streamwrapper/write)(byte[], int, int) | Geçerli akışa bir bayt dizisi yazar ve bu akıştaki mevcut konumu yazılan bayt sayısı kadar ilerletir. |
+| [WriteByte](../../aspose.slides/streamwrapper/writebyte)(byte) | Akıştaki mevcut konuma bir bayt yazar ve akış içindeki konumu bir bayt ilerletir. |
 
-### Ayrıca Bakınız
+### Ayrıca
 
 * arayüz [IStreamWrapper](../istreamwrapper)
 * ad alanı [Aspose.Slides](../../aspose.slides)

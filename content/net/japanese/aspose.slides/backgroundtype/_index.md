@@ -1,14 +1,14 @@
 ---
 title: BackgroundType
 second_title: Aspose.Sildes for .NET API リファレンス
-description: スライドの背景塗りつぶし元を定義します。
+description: スライドの背景塗りつぶしソースを定義します。
 type: docs
-weight: 920
+weight: 940
 url: /ja/aspose.slides/backgroundtype/
 ---
 ## BackgroundType 列挙体
 
-スライドの背景の塗りつぶし元を定義します。
+スライドの背景塗りつぶしソースを定義します。
 
 ```csharp
 public enum BackgroundType : sbyte
@@ -22,7 +22,7 @@ public enum BackgroundType : sbyte
 | Themed | `0` |  |
 | OwnBackground | `1` |  |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

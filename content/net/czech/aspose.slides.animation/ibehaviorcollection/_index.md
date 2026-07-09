@@ -1,9 +1,9 @@
 ---
 title: IBehaviorCollection
-second_title: Aspose.Sildes pro .NET – API reference
-description: Reprezentuje kolekci efektů chování.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Representuje kolekci efektů chování.
 type: docs
-weight: 400
+weight: 420
 url: /cs/aspose.slides.animation/ibehaviorcollection/
 ---
 ## IBehaviorCollection rozhraní
@@ -16,23 +16,23 @@ public interface IBehaviorCollection : IEnumerable<IBehavior>
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.animation/ibehaviorcollection/asienumerable) { get; } | Vrací rozhraní IEnumerable. Pouze pro čtení IEnumerable. |
-| [Count](../../aspose.slides.animation/ibehaviorcollection/count) { get; } | Vrací počet chování v kolekci. Pouze pro čtení Int32. |
+| [Count](../../aspose.slides.animation/ibehaviorcollection/count) { get; } | Vrací počet chování ve sbírce. Pouze pro čtení Int32. |
 | [Item](../../aspose.slides.animation/ibehaviorcollection/item) { get; set; } | Vrací chování na zadaném indexu. |
 
 ## Metody
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides.animation/ibehaviorcollection/add)(IBehavior) | Přidá nové chování do kolekce. |
-| [Clear](../../aspose.slides.animation/ibehaviorcollection/clear)() | Odstraní všechna chování z kolekce. |
+| [Add](../../aspose.slides.animation/ibehaviorcollection/add)(IBehavior) | Přidá nové chování do sbírky. |
+| [Clear](../../aspose.slides.animation/ibehaviorcollection/clear)() | Odstraní všechna chování ze sbírky. |
 | [Contains](../../aspose.slides.animation/ibehaviorcollection/contains)(IBehavior) | Určuje, zda ICollection obsahuje konkrétní hodnotu. |
 | [IndexOf](../../aspose.slides.animation/ibehaviorcollection/indexof)(IBehavior) | Určuje index konkrétní položky v IList. |
-| [Insert](../../aspose.slides.animation/ibehaviorcollection/insert)(int, IBehavior) | Vloží nové chování do kolekce na zadaném indexu. |
-| [Remove](../../aspose.slides.animation/ibehaviorcollection/remove)(IBehavior) | Odstraní specifikované chování z kolekce. |
-| [RemoveAt](../../aspose.slides.animation/ibehaviorcollection/removeat)(int) | Odstraní chování z kolekce na zadaném indexu. |
+| [Insert](../../aspose.slides.animation/ibehaviorcollection/insert)(int, IBehavior) | Vloží nové chování do sbírky na zadaném indexu. |
+| [Remove](../../aspose.slides.animation/ibehaviorcollection/remove)(IBehavior) | Odstraní specifikované chování ze sbírky. |
+| [RemoveAt](../../aspose.slides.animation/ibehaviorcollection/removeat)(int) | Odstraní chování ze sbírky na zadaném indexu. |
 
 ### Viz také
 

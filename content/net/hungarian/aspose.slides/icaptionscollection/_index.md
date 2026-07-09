@@ -1,14 +1,14 @@
 ---
 title: ICaptionsCollection
-second_title: Aspose.Sildes .NET-re szóló API hivatkozás
+second_title: Aspose.Sildes .NET API referencia
 description: A zárt feliratok gyűjteményét képviseli.
 type: docs
-weight: 5420
+weight: 5440
 url: /hu/aspose.slides/icaptionscollection/
 ---
 ## ICaptionsCollection interfész
 
-A zárt feliratok gyűjteményét képviseli.
+Egy zárt feliratokból álló gyűjteményt képvisel.
 
 ```csharp
 public interface ICaptionsCollection : IEnumerable<ICaptions>
@@ -16,22 +16,22 @@ public interface ICaptionsCollection : IEnumerable<ICaptions>
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides/icaptionscollection/count) { get; } | Visszaadja a gyűjtemény elemeinek számát. Csak olvasható Int32. |
-| [Item](../../aspose.slides/icaptionscollection/item) { get; } | Visszaadja a megadott indexnél lévő zárt feliratot. Csak olvasható [`ICaptions`](../icaptions). |
+| [Item](../../aspose.slides/icaptionscollection/item) { get; } | Visszaadja a megadott indexű feliratot. Csak olvasható [`ICaptions`](../icaptions). |
 
 ## Metódusok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/icaptionscollection/add#add)(string, Stream) | WebVTT zárt feliratokat ad a gyűjtemény végéhez egy Stream-ből. |
-| [Add](../../aspose.slides/icaptionscollection/add#add_1)(string, string) | WebVTT zárt feliratokat ad a gyűjtemény végéhez. |
-| [Clear](../../aspose.slides/icaptionscollection/clear)() | Eltávolítja az összes zárt feliratot a gyűjteményből. |
-| [Remove](../../aspose.slides/icaptionscollection/remove)(ICaptions) | Eltávolítja a megadott zárt feliratot a gyűjteményből. |
-| [RemoveAt](../../aspose.slides/icaptionscollection/removeat)(int) | Eltávolítja a megadott indexnél lévő zárt feliratot. |
+| [Add](../../aspose.slides/icaptionscollection/add#add)(string, Stream) | WebVTT feliratokat ad a gyűjtemény végéhez egy adatfolyam alapján. |
+| [Add](../../aspose.slides/icaptionscollection/add#add_1)(string, string) | WebVTT feliratokat ad a gyűjtemény végéhez. |
+| [Clear](../../aspose.slides/icaptionscollection/clear)() | Eltávolítja az összes feliratot a gyűjteményből. |
+| [Remove](../../aspose.slides/icaptionscollection/remove)(ICaptions) | Eltávolítja a megadott feliratot a gyűjteményből. |
+| [RemoveAt](../../aspose.slides/icaptionscollection/removeat)(int) | Eltávolítja a feliratot a megadott indexnél. |
 
-### Továbbiak
+### Lásd még
 
 * interfész [ICaptions](../icaptions)
 * névtér [Aspose.Slides](../../aspose.slides)

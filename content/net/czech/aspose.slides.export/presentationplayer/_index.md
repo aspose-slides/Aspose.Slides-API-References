@@ -1,14 +1,14 @@
 ---
 title: PresentationPlayer
-second_title: Aspose.Sildes pro .NET – referenční příručka API
-description: Představuje přehrávač animací spojených s Presentation../aspose.slides/presentation.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Representuje přehrávač animací spojených s Presentation../aspose.slides/presentation.
 type: docs
-weight: 4370
+weight: 4390
 url: /cs/aspose.slides.export/presentationplayer/
 ---
 ## PresentationPlayer třída
 
-Představuje přehrávač animací spojených s [`Presentation`](../../aspose.slides/presentation).
+Representuje přehrávač animací spojených s [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public class PresentationPlayer : IDisposable
@@ -32,11 +32,11 @@ public class PresentationPlayer : IDisposable
 | --- | --- |
 | [Dispose](../../aspose.slides.export/presentationplayer/dispose)() | Uvolní instanci [`PresentationPlayer`](../presentationplayer). |
 
-## Další členové
+## Ostatní členové
 
 | Název | Popis |
 | --- | --- |
-| delegate [FrameTickHandler](presentationplayer.frametickhandler) | Představuje obslužnou funkci tikání snímku události [`FrameTick`](./frametick). |
+| delegate [FrameTickHandler](presentationplayer.frametickhandler) | Representuje obslužnou rutinu tikání snímku události [`FrameTick`](./frametick). |
 
 ### Příklady
 
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     using (var animationsGenerator = new PresentationAnimationsGenerator(pres))
     {
-        // Přehrát animaci při 33 FPS
+        // Přehrát animaci s 33 FPS
         using (var player = new PresentationPlayer(animationsGenerator, 33))
         {
             player.FrameTick += (sender, args) =>
@@ -57,7 +57,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
             animationsGenerator.Run(pres.Slides);
         }
         
-        // Přehrát animaci při 45 FPS
+        // Přehrát animaci s 45 FPS
         using (var player = new PresentationPlayer(animationsGenerator, 45))
         {
             player.FrameTick += (sender, args) =>

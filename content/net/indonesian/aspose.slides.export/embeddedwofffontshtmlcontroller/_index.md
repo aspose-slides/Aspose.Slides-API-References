@@ -1,9 +1,9 @@
 ---
 title: EmbeddedWoffFontsHtmlController
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Kelas pengontrol pemformatan yang digunakan untuk menyematkan font dalam format WOFF
 type: docs
-weight: 3770
+weight: 3790
 url: /id/aspose.slides.export/embeddedwofffontshtmlcontroller/
 ---
 ## EmbeddedWoffFontsHtmlController kelas
@@ -16,7 +16,7 @@ public class EmbeddedWoffFontsHtmlController : IEmbeddedWoffFontsHtmlController
 
 ## Konstruktor
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [EmbeddedWoffFontsHtmlController](embeddedwofffontshtmlcontroller#constructor)() | Membuat instance baru. |
 | [EmbeddedWoffFontsHtmlController](embeddedwofffontshtmlcontroller#constructor_1)(IHtmlFormattingController) | Membuat instance baru. |

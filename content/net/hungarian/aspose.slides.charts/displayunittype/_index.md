@@ -1,14 +1,14 @@
 ---
 title: DisplayUnitType
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Meghatározza a megjelenített adatok mennyiségét.
+second_title: Aspose.Sildes a .NET API referencia
+description: Meghatározza a megjelenített adatok szorzási tényezőjét.
 type: docs
-weight: 1600
+weight: 1620
 url: /hu/aspose.slides.charts/displayunittype/
 ---
 ## DisplayUnitType enumeráció
 
-Meghatározza a megjelenített adatok mennyiségét.
+Meghatározza a megjelenített adatok szorzási tényezőjét.
 
 ```csharp
 public enum DisplayUnitType
@@ -18,17 +18,17 @@ public enum DisplayUnitType
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| None | `0` | Az értékek változatlanul jelennek meg. |
-| Hundreds | `1` | Megadja, hogy a diagram értékei 100-rel legyenek osztva. |
-| Thousands | `2` | Megadja, hogy a diagram értékei 1000-rel legyenek osztva. |
-| TenThousands | `3` | Megadja, hogy a diagram értékei 10000-rel legyenek osztva. |
-| HundredThousands | `4` | Megadja, hogy a diagram értékei 100000-rel legyenek osztva. |
-| Millions | `5` | Megadja, hogy a diagram értékei 1000000-rel legyenek osztva. |
-| TenMillions | `6` | Megadja, hogy a diagram értékei 10000000-rel legyenek osztva. |
-| HundredMillions | `7` | Megadja, hogy a diagram értékei 100000000-rel legyenek osztva. |
-| Billions | `8` | Megadja, hogy a diagram értékei 1000000000-rel legyenek osztva. |
-| Trillions | `9` | Megadja, hogy a diagram értékei 1000000000000-rel legyenek osztva. |
-| CustomValue | `10` | Megadja, hogy a diagram értékei egy egyéni értékkel legyenek osztva. |
+| None | `0` | Az értékek változtatás nélkül kerülnek megjelenítésre. |
+| Hundreds | `1` | Megadja, hogy a diagramon lévő értékek 100-zal legyenek osztva. |
+| Thousands | `2` | Megadja, hogy a diagramon lévő értékek 1 000-rel legyenek osztva. |
+| TenThousands | `3` | Megadja, hogy a diagramon lévő értékek 10 000-rel legyenek osztva. |
+| HundredThousands | `4` | Megadja, hogy a diagramon lévő értékek 100 000-rel legyenek osztva. |
+| Millions | `5` | Megadja, hogy a diagramon lévő értékek 1 000 000-mal legyenek osztva. |
+| TenMillions | `6` | Megadja, hogy a diagramon lévő értékek 10 000 000-mal legyenek osztva. |
+| HundredMillions | `7` | Megadja, hogy a diagramon lévő értékek 100 000 000-mal legyenek osztva. |
+| Billions | `8` | Megadja, hogy a diagramon lévő értékek 1 000 000 000-mal legyenek osztva. |
+| Trillions | `9` | Megadja, hogy a diagramon lévő értékek 1 000 000 000 000-rel legyenek osztva. |
+| CustomValue | `10` | Megadja, hogy a diagramon lévő értékek egy egyedi értékkel legyenek osztva. |
 
 ### Lásd még
 

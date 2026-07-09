@@ -1,14 +1,14 @@
 ---
 title: BulletFormat
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar formateringsegenskaper för punktlistor i ett stycke.
+description: Representerar egenskaper för formatering av styckepunkter.
 type: docs
-weight: 1050
+weight: 1070
 url: /sv/aspose.slides/bulletformat/
 ---
-## BulletFormat-klass
+## BulletFormat klass
 
-Representerar formateringsegenskaper för punktlistor i ett stycke.
+Representerar formateringsegenskaper för stycke-punkter.
 
 ```csharp
 public sealed class BulletFormat : PVIObject, IBulletFormat
@@ -16,34 +16,34 @@ public sealed class BulletFormat : PVIObject, IBulletFormat
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas-IPresentationComponent-gränssnittet. Läs-endast [`IPresentationComponent`](../ipresentationcomponent). |
-| [Char](../../aspose.slides/bulletformat/char) { get; set; } | Returnerar eller anger tecknet för en punkt i ett stycke utan arv. Läs-/skriv Char. |
-| [Color](../../aspose.slides/bulletformat/color) { get; } | Returnerar färgformatet för en punkt i ett stycke utan arv. Läs-endast [`IColorFormat`](../icolorformat). |
-| [Font](../../aspose.slides/bulletformat/font) { get; set; } | Returnerar eller anger teckensnittet för en punkt i ett stycke utan arv. Läs-/skriv [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/bulletformat/height) { get; set; } | Returnerar eller anger höjden för en punkt i ett stycke utan arv. Värdet float.NaN betyder att punkten ärver höjden från den första delen i stycket. Läs-/skriv Single. |
-| [IsBulletHardColor](../../aspose.slides/bulletformat/isbullethardcolor) { get; set; } | Avgör om punkten har egen färg eller ärver den från den första delen i stycket. **NullableBool.True** om punkten har egen färg och **NullableBool.False** om punkten ärver färg från den första delen i stycket. Läs-/skriv [`NullableBool`](../nullablebool). |
-| [IsBulletHardFont](../../aspose.slides/bulletformat/isbullethardfont) { get; set; } | Avgör om punkten har eget teckensnitt eller ärver det från den första delen i stycket. **NullableBool.True** om punkten har eget teckensnitt och **NullableBool.False** om punkten ärver teckensnittet från den första delen i stycket. Läs-/skriv [`NullableBool`](../nullablebool). |
-| [NumberedBulletStartWith](../../aspose.slides/bulletformat/numberedbulletstartwith) { get; set; } | Returnerar eller anger det första numret som används för en grupp numrerade punkter utan arv. Läs-/skriv Int16. |
-| [NumberedBulletStyle](../../aspose.slides/bulletformat/numberedbulletstyle) { get; set; } | Returnerar eller anger stilen för en numrerad punkt utan arv. Läs-/skriv [`NumberedBulletStyle`](../numberedbulletstyle). |
-| [Picture](../../aspose.slides/bulletformat/picture) { get; } | Returnerar bilden som används som punkt i ett stycke utan arv. Läs-endast [`ISlidesPicture`](../islidespicture). |
-| [Type](../../aspose.slides/bulletformat/type) { get; set; } | Returnerar eller anger punktens typ i ett stycke utan arv. Läs-/skriv [`BulletType`](../bullettype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas- IPresentationComponent-gränssnittet. Skrivskyddad [`IPresentationComponent`](../ipresentationcomponent). |
+| [Char](../../aspose.slides/bulletformat/char) { get; set; } | Returnerar eller anger punkttecknet för ett stycke utan arv. Läs/skriv Char. |
+| [Color](../../aspose.slides/bulletformat/color) { get; } | Returnerar färgformatet för en punkt i ett stycke utan arv. Skrivskyddad [`IColorFormat`](../icolorformat). |
+| [Font](../../aspose.slides/bulletformat/font) { get; set; } | Returnerar eller anger punktfonten för ett stycke utan arv. Läs/skriv [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/bulletformat/height) { get; set; } | Returnerar eller anger punktens höjd för ett stycke utan arv. Värdet float.NaN bestämmer att punkten ärver höjden från den första delen i stycket. Läs/skriv Single. |
+| [IsBulletHardColor](../../aspose.slides/bulletformat/isbullethardcolor) { get; set; } | Bestämmer om punkten har egen färg eller ärver den från den första delen i stycket. **NullableBool.True** om punkten har egen färg och **NullableBool.False** om punkten ärver färg från den första delen i stycket. Läs/skriv [`NullableBool`](../nullablebool). |
+| [IsBulletHardFont](../../aspose.slides/bulletformat/isbullethardfont) { get; set; } | Bestämmer om punkten har egen font eller ärver den från den första delen i stycket. **NullableBool.True** om punkten har egen font och **NullableBool.False** om punkten ärver font från den första delen i stycket. Läs/skriv [`NullableBool`](../nullablebool). |
+| [NumberedBulletStartWith](../../aspose.slides/bulletformat/numberedbulletstartwith) { get; set; } | Returnerar eller anger det första numret som används för en grupp numrerade punkter utan arv. Läs/skriv Int16. |
+| [NumberedBulletStyle](../../aspose.slides/bulletformat/numberedbulletstyle) { get; set; } | Returnerar eller anger stilen för en numrerad punkt utan arv. Läs/skriv [`NumberedBulletStyle`](../numberedbulletstyle). |
+| [Picture](../../aspose.slides/bulletformat/picture) { get; } | Returnerar bilden som används som punkt i ett stycke utan arv. Skrivskyddad [`ISlidesPicture`](../islidespicture). |
+| [Type](../../aspose.slides/bulletformat/type) { get; set; } | Returnerar eller anger punkttypen för ett stycke utan arv. Läs/skriv [`BulletType`](../bullettype). |
 
 ## Metoder
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/bulletformat/applydefaultparagraphindentsshifts)() | Ställer in standard icke-nollförskjutningar för det effektiva stycke-Indent och MarginLeft när punkter är aktiverade (som PowerPoint gör om du aktiverar styckespunkter/numrering). Om punkter är inaktiverade återställs bara stycke-Indent och MarginLeft (som PowerPoint gör om du inaktiverar styckespunkter/numrering). Indent-förskjutningar tillämpas med hänsyn till den aktuella punktkontexten – IBulletFormat.Type, .NumberedBulletStyle och FontHeight för den första delen. Icke-noll Indent-förskjutningar tillämpas på det effektiva Indent och MarginLeft för det aktuella stycket (så att resultatvärdena blir lokala värden). |
+| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/bulletformat/applydefaultparagraphindentsshifts)() | Sätter standard icke-noll förskjutningar för effektiv stycke-Indent och MarginLeft när punkter är aktiverade (som PowerPoint gör om man aktiverar stycke-punkter/numrering). Om punkter är inaktiverade återställs bara stycke-Indent och MarginLeft (som PowerPoint gör om man inaktiverar stycke-punkter/numrering). Indent-förskjutningar tillämpas i förhållande till aktuellt punktkontext – IBulletFormat.Type, .NumberedBulletStyle och FontHeight för den första delen. Icke-noll Indent-förskjutningar tillämpas på den effektiva Indent och MarginLeft för aktuellt stycke (gör resultatvärdena till lokala värden). |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Jämför med specificerat objekt. |
-| [GetEffective](../../aspose.slides/bulletformat/geteffective)() | Hämtar effektiv punktformateringsdata med arv tillämpat. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returnerar hash-kod. |
+| [GetEffective](../../aspose.slides/bulletformat/geteffective)() | Hämtar den effektiva punktformateringsdatan med ärvning tillämpad. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returnerar hashkod. |
 
 ### Se även
 
 * klass [PVIObject](../pviobject)
 * gränssnitt [IBulletFormat](../ibulletformat)
-* namnområde [Aspose.Slides](../../aspose.slides)
+* namnrymd [Aspose.Slides](../../aspose.slides)
 * samling [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

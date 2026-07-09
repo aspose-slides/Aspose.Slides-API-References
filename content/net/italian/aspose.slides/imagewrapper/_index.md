@@ -1,14 +1,14 @@
 ---
 title: ImageWrapper
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Wrapper System.Drawing.Image per l'interfaccia COM.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Wrapper System.Drawing.Image per interfaccia COM.
 type: docs
-weight: 7420
+weight: 7440
 url: /it/aspose.slides/imagewrapper/
 ---
 ## ImageWrapper classe
 
-System.Drawing.Image wrapper per l'interfaccia COM.
+System.Drawing.Image wrapper per interfaccia COM.
 
 ```csharp
 public class ImageWrapper : IImageWrapper
@@ -18,14 +18,14 @@ public class ImageWrapper : IImageWrapper
 
 | Nome | Descrizione |
 | --- | --- |
-| [ImageSource](../../aspose.slides/imagewrapper/imagesource) { get; } | Restituisce Image. Sola lettura [`IImage`](../iimage). |
-| [Size](../../aspose.slides/imagewrapper/size) { get; } | Restituisce la larghezza e l'altezza, in pixel, dell'Image. Sola lettura [`Size`](./size). |
+| [ImageSource](../../aspose.slides/imagewrapper/imagesource) { get; } | Ottiene Image. Sola lettura [`IImage`](../iimage). |
+| [Size](../../aspose.slides/imagewrapper/size) { get; } | Ottiene la larghezza e l'altezza, in pixel, dell'Image. Sola lettura [`Size`](./size). |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Dispose](../../aspose.slides/imagewrapper/dispose)() | Rilascia ImageWrapper |
+| [Dispose](../../aspose.slides/imagewrapper/dispose)() | Elimina ImageWrapper |
 | [Save](../../aspose.slides/imagewrapper/save#save_1)(string) | Salva Image nel file specificato |
 | [Save](../../aspose.slides/imagewrapper/save#save)(Stream, PPImageFormat) | Salva l'Image nello stream specificato nel formato specificato. |
 | [Save](../../aspose.slides/imagewrapper/save#save_2)(string, PPImageFormat) | Salva l'Image nel file specificato nel formato specificato. |

@@ -1,12 +1,12 @@
 ---
 title: TickLabelPositionType
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Belirtilen eksende tik işareti etiketlerinin konum tipini temsil eder.
 type: docs
-weight: 2420
+weight: 2440
 url: /tr/aspose.slides.charts/ticklabelpositiontype/
 ---
-## TickLabelPositionType enumerasyonu
+## TickLabelPositionType numaralandırması
 
 Belirtilen eksende tik işareti etiketlerinin konum tipini temsil eder.
 

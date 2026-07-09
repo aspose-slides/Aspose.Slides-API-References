@@ -1,14 +1,14 @@
 ---
 title: ITrendline
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Kelas mewakili garis tren dari rangkaian diagram
+description: Kelas yang mewakili garis tren dari seri diagram
 type: docs
-weight: 2220
+weight: 2240
 url: /id/aspose.slides.charts/itrendline/
 ---
 ## ITrendline antarmuka
 
-Kelas mewakili garis tren dari rangkaian diagram
+Kelas mewakili garis tren dari seri diagram
 
 ```csharp
 public interface ITrendline : IOverridableText
@@ -18,23 +18,23 @@ public interface ITrendline : IOverridableText
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIOverridableText](../../aspose.slides.charts/itrendline/asioverridabletext) { get; } | Mengembalikan antarmuka IOverridableText. Hanya-baca [`IOverridableText`](../ioverridabletext). |
-| [Backward](../../aspose.slides.charts/itrendline/backward) { get; set; } | Menentukan jumlah kategori (atau satuan pada diagram sebar) yang garis tren memperpanjang sebelum data untuk seri yang sedang ditrend. Pada diagram sebar dan non-sebar, nilai boleh berupa nilai nonnegatif apa pun. Baca/tulis Double. |
-| [DisplayEquation](../../aspose.slides.charts/itrendline/displayequation) { get; set; } | Menentukan bahwa persamaan untuk garis tren ditampilkan pada diagram (dalam label yang sama dengan nilai Rsquared). Baca/tulis Boolean. |
-| [DisplayRSquaredValue](../../aspose.slides.charts/itrendline/displayrsquaredvalue) { get; set; } | Menentukan bahwa nilai R-kuadrat dari garis tren ditampilkan pada diagram (dalam label yang sama dengan persamaan). Baca/tulis Boolean. |
+| [AsIOverridableText](../../aspose.slides.charts/itrendline/asioverridabletext) { get; } | Mengembalikan antarmuka IOverridableText. Baca-saja [`IOverridableText`](../ioverridabletext). |
+| [Backward](../../aspose.slides.charts/itrendline/backward) { get; set; } | Menentukan jumlah kategori (atau unit pada diagram sebar) yang garis tren memperluas sebelum data untuk seri yang sedang ditrend. Pada diagram sebar dan non-sebar, nilai harus berupa nilai nonnegatif apa pun. Baca/tulis Double. |
+| [DisplayEquation](../../aspose.slides.charts/itrendline/displayequation) { get; set; } | Menentukan bahwa persamaan untuk trendline ditampilkan pada diagram (dalam label yang sama dengan Rsquaredvalue). Baca/tulis Boolean. |
+| [DisplayRSquaredValue](../../aspose.slides.charts/itrendline/displayrsquaredvalue) { get; set; } | Menentukan bahwa nilai R-squared dari trendline ditampilkan pada diagram (dalam label yang sama dengan persamaan). Baca/tulis Boolean. |
 | [Format](../../aspose.slides.charts/itrendline/format) { get; set; } | Mewakili format garis tren. Baca/tulis [`IFormat`](../iformat). |
-| [Forward](../../aspose.slides.charts/itrendline/forward) { get; set; } | Menentukan jumlah kategori (atau satuan pada diagram sebar) yang garis tren memperpanjang setelah data untuk seri yang sedang ditrend. Pada diagram sebar dan non-sebar, nilai boleh berupa nilai non-negatif apa pun. Baca/tulis Double. |
-| [Intercept](../../aspose.slides.charts/itrendline/intercept) { get; set; } | Menentukan nilai di mana garis tren akan memotong sumbu y. Properti ini hanya didukung ketika tipe garis tren adalah exp, linear, atau poly. Baca/tulis Double. |
-| [Order](../../aspose.slides.charts/itrendline/order) { get; set; } | Menentukan urutan garis tren polinomial. Diabaikan untuk tipe garis tren lainnya. Nilai harus antara 2 dan 6. Baca/tulis Byte. |
-| [Period](../../aspose.slides.charts/itrendline/period) { get; set; } | Menentukan periode garis tren untuk garis tren rata-rata bergerak. Diabaikan untuk varian garis tren lainnya. Nilai harus antara 2 dan 255. Baca/tulis Byte. |
-| [RelatedLegendEntry](../../aspose.slides.charts/itrendline/relatedlegendentry) { get; } | Mewakili entri legenda yang terkait dengan garis tren ini. Hanya-baca [`ILegendEntryProperties`](../ilegendentryproperties). |
-| [TrendlineName](../../aspose.slides.charts/itrendline/trendlinename) { get; set; } | Mendapat atau mengatur nama trendline. Baca/tulis String. |
-| [TrendlineType](../../aspose.slides.charts/itrendline/trendlinetype) { get; set; } | Mendapat atau mengatur tipe garis tren. Baca/tulis [`TrendlineType`](./trendlinetype). |
+| [Forward](../../aspose.slides.charts/itrendline/forward) { get; set; } | Menentukan jumlah kategori (atau unit pada diagram sebar) yang trendline memperluas setelah data untuk seri yang sedang ditrend. Pada diagram sebar dan non-sebar, nilai harus berupa nilai non-negatif apa pun. Baca/tulis Double. |
+| [Intercept](../../aspose.slides.charts/itrendline/intercept) { get; set; } | Menentukan nilai di mana trendline melintasi sumbu y. Properti ini hanya didukung ketika tipe trendline adalah exp, linear, atau poly. Baca/tulis Double. |
+| [Order](../../aspose.slides.charts/itrendline/order) { get; set; } | Menentukan urutan trend line polinomial. Diabaikan untuk tipe trend line lainnya. Nilai harus antara 2 dan 6. Baca/tulis Byte. |
+| [Period](../../aspose.slides.charts/itrendline/period) { get; set; } | Menentukan periode trend line untuk moving average trend line. Diabaikan untuk varian trend line lainnya. Nilai harus antara 2 dan 255. Baca/tulis Byte. |
+| [RelatedLegendEntry](../../aspose.slides.charts/itrendline/relatedlegendentry) { get; } | Mewakili entri legenda yang terkait dengan trendline ini Baca-saja [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [TrendlineName](../../aspose.slides.charts/itrendline/trendlinename) { get; set; } | Mendapatkan atau mengatur nama trendline. Baca/tulis String. |
+| [TrendlineType](../../aspose.slides.charts/itrendline/trendlinetype) { get; set; } | Mendapatkan atau mengatur tipe trend line. Baca/tulis [`TrendlineType`](./trendlinetype). |
 
 ### Lihat Juga
 
 * antarmuka [IOverridableText](../ioverridabletext)
 * ruang nama [Aspose.Slides.Charts](../../aspose.slides.charts)
-* assembly [Aspose.Slides](../../)
+* rakitan [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

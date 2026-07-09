@@ -1,9 +1,9 @@
 ---
 title: ShapeStyle
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência de API Aspose.Sildes para .NET
 description: Representa a referência de estilo das formas.
 type: docs
-weight: 9890
+weight: 9910
 url: /pt/aspose.slides/shapestyle/
 ---
 ## ShapeStyle classe
@@ -21,13 +21,13 @@ public class ShapeStyle : DomObject<Shape>, IShapeStyle
 | [EffectColor](../../aspose.slides/shapestyle/effectcolor) { get; } | Retorna a cor de efeito da forma. Somente leitura [`IColorFormat`](../icolorformat). |
 | [EffectStyleIndex](../../aspose.slides/shapestyle/effectstyleindex) { get; set; } | Retorna ou define o índice da coluna de efeito da forma em uma matriz de estilo. Leitura/gravação UInt32. |
 | [FillColor](../../aspose.slides/shapestyle/fillcolor) { get; } | Retorna a cor de preenchimento da forma. Somente leitura [`IColorFormat`](../icolorformat). |
-| [FillStyleIndex](../../aspose.slides/shapestyle/fillstyleindex) { get; set; } | Retorna ou define o índice da coluna de preenchimento da forma nas matrizes de estilo. 0 significa sem preenchimento, valor positivo – índice nos estilos de preenchimento do tema, valor negativo – índice nos estilos de plano de fundo do tema. Leitura/gravação Int16. |
+| [FillStyleIndex](../../aspose.slides/shapestyle/fillstyleindex) { get; set; } | Retorna ou define o índice da coluna de preenchimento da forma em matrizes de estilo. 0 significa sem preenchimento, valor positivo – índice nos estilos de preenchimento do tema, valor negativo – índice nos estilos de plano de fundo do tema. Leitura/gravação Int16. |
 | [FontCollectionIndex](../../aspose.slides/shapestyle/fontcollectionindex) { get; set; } | Retorna ou define o índice da fonte da forma em uma coleção de fontes. Leitura/gravação [`FontCollectionIndex`](../fontcollectionindex). |
 | [FontColor](../../aspose.slides/shapestyle/fontcolor) { get; } | Retorna a cor da fonte da forma. Somente leitura [`IColorFormat`](../icolorformat). |
 | [LineColor](../../aspose.slides/shapestyle/linecolor) { get; } | Retorna a cor do contorno da forma. Somente leitura [`IColorFormat`](../icolorformat). |
 | [LineStyleIndex](../../aspose.slides/shapestyle/linestyleindex) { get; set; } | Retorna ou define o índice da coluna da linha em uma matriz de estilo. Leitura/gravação UInt16. |
 
-### Ver também
+### Veja também
 
 * classe [DomObject&lt;TParent&gt;](../domobject-1)
 * classe [Shape](../shape)

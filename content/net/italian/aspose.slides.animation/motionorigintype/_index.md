@@ -1,14 +1,14 @@
 ---
 title: MotionOriginType
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Specifica a cosa è relativa l'origine del percorso di movimento, ad esempio il layout della diapositiva o il genitore.
+second_title: Aspose.Sildes per .NET - Riferimento API
+description: Specifica a cosa è relativo l'origine del percorso di movimento. Ad esempio, al layout della diapositiva o al genitore.
 type: docs
-weight: 660
+weight: 680
 url: /it/aspose.slides.animation/motionorigintype/
 ---
 ## MotionOriginType enumerazione
 
-Specifica a cosa è relativa l'origine del percorso di movimento, ad esempio il layout della diapositiva o il genitore.
+Specifica a cosa è relativo l'origine del percorso di movimento, ad esempio al layout della diapositiva o al genitore.
 
 ```csharp
 public enum MotionOriginType

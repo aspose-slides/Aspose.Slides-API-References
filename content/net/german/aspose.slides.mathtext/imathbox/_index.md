@@ -1,15 +1,14 @@
 ---
 title: IMathBox
-second_title: Aspose.Sildes für .NET API Referenz
-description: Gibt die logische Verpackung von mathematischen Elementen an. Ein verpacktes Objekt kann beispielsweise als Operator-emulator mit oder ohne einen Ausrichtungspunkt fungieren, als Zeilenumbruchpunkt dienen oder so gruppiert werden, dass Zeilenumbrüche innerhalb des Objekts nicht erlaubt sind. Zum Beispiel sollte der Operator "==" verpackt werden, um Zeilenumbrüche zu verhindern.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Legt die logische Kapselung (Verpackung) eines mathematischen Elements fest. Zum Beispiel kann ein gekapseltes Objekt als Operator-Emulator mit oder ohne Ausrichtungspunkt dienen, als Zeilenumbruchpunkt fungieren oder so gruppiert werden, dass innerhalb keine Zeilenumbrüche zulässig sind. Zum Beispiel sollte der Operator  gekapselt werden, um Zeilenumbrüche zu verhindern.
 type: docs
-weight: 7940
+weight: 8190
 url: /de/aspose.slides.mathtext/imathbox/
 ---
+## IMathBox Schnittstelle
 
-## IMathBox-Schnittstelle
-
-Gibt die logische Verpackung (Packung) von mathematischen Elementen an. Ein verpacktes Objekt kann beispielsweise als Operator-emulator mit oder ohne einen Ausrichtungspunkt fungieren, als Zeilenumbruchpunkt dienen oder so gruppiert werden, dass Zeilenumbrüche innerhalb des Objekts nicht erlaubt sind. Zum Beispiel sollte der "=="-Operator verpackt werden, um Zeilenumbrüche zu verhindern.
+Legt die logische Kapselung (Verpackung) eines mathematischen Elements fest. Beispielsweise kann ein gekapseltes Objekt als Operator-Emulator mit oder ohne Ausrichtungspunkt dienen, als Zeilenumbruchpunkt fungieren oder so gruppiert werden, dass innerhalb des Objekts keine Zeilenumbrüche zulässig sind. Zum Beispiel sollte der Operator "==" gekapselt werden, um Zeilenumbrüche zu verhindern.
 
 ```csharp
 public interface IMathBox : IMathElement
@@ -19,13 +18,13 @@ public interface IMathBox : IMathElement
 
 | Name | Beschreibung |
 | --- | --- |
-| [AlignmentPoint](../../aspose.slides.mathtext/imathbox/alignmentpoint) { get; set; } | Wenn true, fungiert dieser Operator-emulator als Ausrichtungspunkt; das heißt, bezeichnete Ausrichtungspunkte in anderen Gleichungen können damit ausgerichtet werden. Standard: false |
-| [AsIMathElement](../../aspose.slides.mathtext/imathbox/asimathelement) { get; } | Ermöglicht das Abrufen der Basisschnittstelle IMathElement [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathbox/base) { get; } | Basisargument |
-| [Differential](../../aspose.slides.mathtext/imathbox/differential) { get; set; } | Differential. Wenn true, verhält sich die Box wie ein Differential (z. B. 𝑑𝑥 in einem Integral) und erhält den entsprechenden horizontalen Abstand für das mathematische Differential. Standard: false |
-| [ExplicitBreak](../../aspose.slides.mathtext/imathbox/explicitbreak) { get; set; } | Ein expliziter Bruch gibt an, ob es einen Zeilenumbruch zu Beginn des Boxobjekts gibt, sodass die Zeile am Anfang des Boxobjekts umbricht. Gibt die Nummer des Operators in der vorhergehenden Zeile des mathematischen Texts an, die als Ausrichtungspunkt für die aktuelle Zeile des mathematischen Texts verwendet wird, mögliche Werte: 1..255. Standard: 0 (kein expliziter Bruch) |
-| [NoBreak](../../aspose.slides.mathtext/imathbox/nobreak) { get; set; } | Kein Bruch. Diese Eigenschaft gibt die "unbrechbare" Eigenschaft des Objektkastens an. Wenn true, können keine Zeilenumbrüche innerhalb der Box auftreten. Dies kann wichtig sein für Operator-emulatoren, die aus mehr als einem binären Operator bestehen. Wenn dieses Element nicht angegeben ist, können Umbrüche innerhalb der Box auftreten. Standard: true |
-| [OperatorEmulator](../../aspose.slides.mathtext/imathbox/operatoremulator) { get; set; } | Operator-Emulator. Wenn true, verhalten sich die Box und deren Inhalt wie ein einzelner Operator und erben die Eigenschaften eines Operators. Das bedeutet zum Beispiel, dass das Zeichen als Punkt für einen Zeilenumbruch dienen und an andere Operatoren ausgerichtet werden kann. Operator-Emulatoren werden häufig verwendet, wenn ein oder mehrere Glyphen kombiniert werden, um einen Operator zu bilden, wie z. B. '=='. Standardwert: false |
+| [AlignmentPoint](../../aspose.slides.mathtext/imathbox/alignmentpoint) { get; set; } | Wenn true, dient dieser Operator-Emulator als Ausrichtungspunkt; das heißt, festgelegte Ausrichtungspunkte in anderen Gleichungen können mit ihm ausgerichtet werden. Standard: false |
+| [AsIMathElement](../../aspose.slides.mathtext/imathbox/asimathelement) { get; } | Ermöglicht das Abrufen der Basis-Schnittstelle IMathElement [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathbox/base) { get; } | Basisargument |
+| [Differential](../../aspose.slides.mathtext/imathbox/differential) { get; set; } | Differential. Wenn true, fungiert die Box als Differential (z. B. 𝑑𝑥 in einem Integranden) und erhält den entsprechenden horizontalen Abstand für das mathematische Differential. Standard: false |
+| [ExplicitBreak](../../aspose.slides.mathtext/imathbox/explicitbreak) { get; set; } | Expliziter Umbruch gibt an, ob am Anfang des Box-Objekts ein Zeilenumbruch erfolgt, sodass die Zeile am Anfang des Box-Objekts umbrochen wird. Gibt die Nummer des Operators in der vorherigen Zeile des mathematischen Textes an, die als Ausrichtungspunkt für die aktuelle Zeile des mathematischen Textes verwendet werden soll. Mögliche Werte: 1..255 Standard: 0 (kein expliziter Umbruch) |
+| [NoBreak](../../aspose.slides.mathtext/imathbox/nobreak) { get; set; } | Kein Umbruch. Diese Eigenschaft legt die "unbreakable"-Eigenschaft des Objekt-Box fest. Wenn true, können innerhalb der Box keine Zeilenumbrüche auftreten. Dies kann für Operator-Emulatoren wichtig sein, die aus mehr als einem binären Operator bestehen. Wenn dieses Element nicht angegeben ist, können innerhalb der Box Umbrüche auftreten. Standard: true |
+| [OperatorEmulator](../../aspose.slides.mathtext/imathbox/operatoremulator) { get; set; } | Operator-Emulator. Wenn true, verhalten sich die Box und ihr Inhalt wie ein einzelner Operator und erben die Eigenschaften eines Operators. Das bedeutet zum Beispiel, dass das Zeichen als Zeilenumbruchpunkt dienen und an anderen Operatoren ausgerichtet werden kann. Operator-Emulatoren werden häufig verwendet, wenn ein oder mehrere Glyphen zu einem Operator kombiniert werden, wie z. B. '=='. Standardwert: false |
 
 ### Beispiele
 
@@ -36,10 +35,10 @@ Beispiel:
 IMathBox box = new MathematicalText("==").ToBox();
 ```
 
-### Siehe Auch
+### Siehe auch
 
-* Schnittstelle [IMathElement](../imathelement)
-* Namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)
-* Assembly [Aspose.Slides](../../)
+* Schnittstelle [IMathElement](../imathelement)
+* Namensraum [Aspose.Slides.MathText](../../aspose.slides.mathtext)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

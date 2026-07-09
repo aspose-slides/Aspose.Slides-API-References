@@ -1,14 +1,14 @@
 ---
 title: Metered
-second_title: Aspose.Sildes の .NET API リファレンス
-description: メータ付きキーを設定するためのメソッドを提供します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: メータードキーを設定するためのメソッドを提供します。
 type: docs
-weight: 9060
+weight: 9080
 url: /ja/aspose.slides/metered/
 ---
-## Metered クラス
+## メータード クラス
 
-メータ付きキーを設定するためのメソッドを提供します。
+メータードキーを設定するためのメソッドを提供します。
 
 ```csharp
 public class Metered
@@ -25,14 +25,14 @@ public class Metered
 | 名前 | 説明 |
 | --- | --- |
 | [GetProductName](../../aspose.slides/metered/getproductname)() |  |
-| [SetMeteredKey](../../aspose.slides/metered/setmeteredkey)(string, string) | メータ付きの公開キーと秘密キーを設定します。メータ付きライセンスを購入した場合、アプリケーション起動時にこの API を呼び出す必要があります。通常はこれで十分です。ただし、使用量データのアップロードが常に失敗し、24 時間を超えると、ライセンスは評価ステータスに設定されます。そのようなケースを防ぐために、ライセンスステータスを定期的に確認し、評価ステータスの場合は再度この API を呼び出す必要があります。 |
+| [SetMeteredKey](../../aspose.slides/metered/setmeteredkey)(string, string) | メータードの公開鍵と秘密鍵を設定します。メータードライセンスを購入した場合、アプリケーション起動時にこの API を呼び出す必要があります。通常、これだけで十分です。しかし、消費データのアップロードに常に失敗し、24 時間を超えると、ライセンスが評価版ステータスに設定されます。そのような事態を防ぐために、ライセンスステータスを定期的に確認し、評価版ステータスである場合は再度この API を呼び出す必要があります。 |
 | static [GetConsumptionCredit](../../aspose.slides/metered/getconsumptioncredit)() | 消費クレジットを取得します |
 | static [GetConsumptionQuantity](../../aspose.slides/metered/getconsumptionquantity)() | 消費ファイルサイズを取得します |
-| static [IsMeteredLicensed](../../aspose.slides/metered/ismeteredlicensed)() | メータ付きがライセンスされているかどうかを確認します |
+| static [IsMeteredLicensed](../../aspose.slides/metered/ismeteredlicensed)() | メータードがライセンスされているか確認します |
 
 ### 例
 
-この例では、メータ付きの公開キーと秘密キーを設定しようとします
+この例では、メータードの公開鍵と秘密鍵を設定しようとします。
 
 ```csharp
 [C#]

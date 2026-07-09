@@ -1,14 +1,14 @@
 ---
 title: IColorChangeEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
-description: Oföränderligt objekt som representerar en Color Change-effekt. Instanser av FromColor ersätts med instanser av ToColor.
+description: Oföränderligt objekt som representerar en färgändringseffekt. Instanser av FromColor ersätts med instanser av ToColor.
 type: docs
-weight: 3210
+weight: 3230
 url: /sv/aspose.slides.effects/icolorchangeeffectivedata/
 ---
 ## IColorChangeEffectiveData gränssnitt
 
-Oföränderligt objekt som representerar en Color Change-effekt. Instanser av FromColor ersätts med instanser av ToColor.
+Oföränderligt objekt som representerar en färgändringseffekt. Instanser av FromColor ersätts med instanser av ToColor.
 
 ```csharp
 public interface IColorChangeEffectiveData : IEffectEffectiveData
@@ -18,12 +18,12 @@ public interface IColorChangeEffectiveData : IEffectEffectiveData
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorchangeeffectivedata/asieffecteffectivedata) { get; } | Tillåter att hämta bas-IEffectEffectiveData-gränssnittet. Skrivskyddad [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorchangeeffectivedata/asieffecteffectivedata) { get; } | Tillåter att hämta grundläggande IEffectEffectiveData gränssnitt. Skrivskyddad [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [FromColor](../../aspose.slides.effects/icolorchangeeffectivedata/fromcolor) { get; } | Färg som kommer att ersättas. Skrivskyddad Color. |
 | [ToColor](../../aspose.slides.effects/icolorchangeeffectivedata/tocolor) { get; } | Färg som kommer att ersätta. Skrivskyddad Color. |
-| [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | Returnerar ett booleskt värde som bestämmer om alfakomponenten ska användas. Skrivskyddad Boolean. |
+| [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | Returnerar ett booleskt värde som bestämmer om alphakomponenten ska användas. Skrivskyddad Boolean. |
 
-### Se också
+### Se även
 
 * gränssnitt [IEffectEffectiveData](../ieffecteffectivedata)
 * namnrymd [Aspose.Slides.Effects](../../aspose.slides.effects)

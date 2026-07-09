@@ -3,7 +3,7 @@ title: ISummaryZoomSectionCollection
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta una collezione di oggetti Summary Zoom Section.
 type: docs
-weight: 7150
+weight: 7170
 url: /it/aspose.slides/isummaryzoomsectioncollection/
 ---
 ## ISummaryZoomSectionCollection interfaccia
@@ -18,7 +18,7 @@ public interface ISummaryZoomSectionCollection : IGenericCollection<ISummaryZoom
 
 | Nome | Descrizione |
 | --- | --- |
-| [Item](../../aspose.slides/isummaryzoomsectioncollection/item) { get; } | Restituisce l'elemento all'indice specificato. Solo lettura [`ISummaryZoomSection`](../isummaryzoomsection). |
+| [Item](../../aspose.slides/isummaryzoomsectioncollection/item) { get; } | Ottiene l'elemento all'indice specificato. Sola lettura [`ISummaryZoomSection`](../isummaryzoomsection). |
 
 ## Metodi
 
@@ -26,8 +26,8 @@ public interface ISummaryZoomSectionCollection : IGenericCollection<ISummaryZoom
 | --- | --- |
 | [AddSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection)(ISection) | Crea un nuovo oggetto Summary Zoom Section e lo aggiunge alla collezione |
 | [Clear](../../aspose.slides/isummaryzoomsectioncollection/clear)() | Rimuove tutti gli oggetti SummaryZoomSection dalla collezione. |
-| [GetSummarySection](../../aspose.slides/isummaryzoomsectioncollection/getsummarysection)(ISection) | Restituisce l'elemento Summary Zoom Section per la sezione data. |
-| [IndexOf](../../aspose.slides/isummaryzoomsectioncollection/indexof)(ISummaryZoomSection) | Restituisce l'indice dell'oggetto SummaryZoomSection specificato. |
+| [GetSummarySection](../../aspose.slides/isummaryzoomsectioncollection/getsummarysection)(ISection) | Restituisce l'elemento Summary Zoom Section per la sezione fornita. |
+| [IndexOf](../../aspose.slides/isummaryzoomsectioncollection/indexof)(ISummaryZoomSection) | Restituisce un indice dell'oggetto SummaryZoomSection specificato. |
 | [RemoveSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/removesummaryzoomsection)(ISection) | Rimuove l'oggetto Summary Zoom Section dalla collezione. |
 
 ### Vedi anche

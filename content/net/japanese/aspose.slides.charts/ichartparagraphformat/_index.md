@@ -1,14 +1,14 @@
 ---
 title: IChartParagraphFormat
 second_title: Aspose.Sildes for .NET API リファレンス
-description: チャートの段落書式プロパティを表します。
+description: チャートの段落書式設定プロパティを表します。
 type: docs
-weight: 1880
+weight: 1900
 url: /ja/aspose.slides.charts/ichartparagraphformat/
 ---
 ## IChartParagraphFormat インターフェイス
 
-チャートの段落書式プロパティを表します。
+チャートの段落書式設定プロパティを表します。
 
 ```csharp
 public interface IChartParagraphFormat
@@ -16,24 +16,24 @@ public interface IChartParagraphFormat
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | 段落内のテキスト配置を取得または設定します。 読み取り/書き込み [`TextAlignment`](../../aspose.slides/textalignment)。 |
-| [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | デフォルトのタブ幅を取得または設定します。 読み取り/書き込み Single。 |
-| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | 段落で東アジアの改行が使用されるかどうかを決定します。 読み取り/書き込み [`NullableBool`](../../aspose.slides/nullablebool)。 |
-| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | 段落内のフォント配置を取得または設定します。 読み取り/書き込み [`FontAlignment`](../../aspose.slides/fontalignment)。 |
-| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | 段落でぶら下げ句読点が使用されるかどうかを決定します。 読み取り/書き込み [`NullableBool`](../../aspose.slides/nullablebool)。 |
-| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | 段落の最初の行インデント/ぶら下げインデントを取得または設定します。ぶら下げインデントは負の値で定義できます。 読み取り/書き込み Single。 |
-| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | 段落でラテン文字の改行が使用されるかどうかを決定します。 読み取り/書き込み [`NullableBool`](../../aspose.slides/nullablebool)。 |
-| [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | 段落の左余白を取得または設定します。 読み取り/書き込み Single。 |
-| [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | 段落の右余白を取得または設定します。 読み取り/書き込み Single。 |
-| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | 段落で右から左への書き込みが使用されるかどうかを決定します。 読み取り/書き込み [`NullableBool`](../../aspose.slides/nullablebool)。 |
-| [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | 段落の最終行の後の余白量を取得または設定します。 読み取り/書き込み Single。 |
-| [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | 段落の最初の行の前の余白量を取得または設定します。 読み取り/書き込み Single。 |
-| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | 段落の基準線間の余白量を取得または設定します。 読み取り/書き込み Single。 |
+| [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | 段落内のテキスト配置を取得または設定します。 読み書き可能 [`TextAlignment`](../../aspose.slides/textalignment)。 |
+| [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | デフォルトのタブ幅を取得または設定します。 読み書き可能 Single。 |
+| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | 段落で東アジアの改行が使用されるかどうかを決定します。 読み書き可能 [`NullableBool`](../../aspose.slides/nullablebool)。 |
+| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | 段落内のフォント配置を取得または設定します。 読み書き可能 [`FontAlignment`](../../aspose.slides/fontalignment)。 |
+| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | 段落でハンギング句読点が使用されるかどうかを決定します。 読み書き可能 [`NullableBool`](../../aspose.slides/nullablebool)。 |
+| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | 段落の最初の行インデント/ハンギングインデントを取得または設定します。 ハンギングインデントは負の値で定義できます。 読み書き可能 Single。 |
+| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | 段落でラテン語の改行が使用されるかどうかを決定します。 読み書き可能 [`NullableBool`](../../aspose.slides/nullablebool)。 |
+| [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | 段落の左余白を取得または設定します。 読み書き可能 Single。 |
+| [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | 段落の右余白を取得または設定します。 読み書き可能 Single。 |
+| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | 段落で右から左への書き方向が使用されるかどうかを決定します。 読み書き可能 [`NullableBool`](../../aspose.slides/nullablebool)。 |
+| [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | 段落の最後の行の後の余白量を取得または設定します。 読み書き可能 Single。 |
+| [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | 段落の最初の行の前の余白量を取得または設定します。 読み書き可能 Single。 |
+| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | 段落の基底線間の余白量を取得または設定します。 読み書き可能 Single。 |
 | [Tabs](../../aspose.slides.charts/ichartparagraphformat/tabs) { get; } | 段落のタブ設定を取得します。 読み取り専用 [`ITabCollection`](../../aspose.slides/itabcollection)。 |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * アセンブリ [Aspose.Slides](../../)

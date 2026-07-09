@@ -1,14 +1,14 @@
 ---
 title: IBackgroundEffectiveData
-second_title: Aspose.Sildes dla .NET - odniesienie API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Niezmienny obiekt zawierający efektywne właściwości tła.
 type: docs
-weight: 5260
+weight: 5280
 url: /pl/aspose.slides/ibackgroundeffectivedata/
 ---
 ## IBackgroundEffectiveData interfejs
 
-Niezmienny obiekt zawierający efektywne właściwości tła.
+Niezmienny obiekt, który zawiera efektywne właściwości tła.
 
 ```csharp
 public interface IBackgroundEffectiveData : IFillParamSource
@@ -24,7 +24,7 @@ public interface IBackgroundEffectiveData : IFillParamSource
 
 ### Uwagi
 
-Ten interfejs jest używany razem z interfejsem [`IBackground`](../ibackground) w celu zwrócenia efektywnych wartości formatowania z zastosowanym dziedziczeniem.
+Ten interfejs jest używany razem z interfejsem [`IBackground`](../ibackground), aby zwrócić efektywne wartości formatowania z zastosowanym dziedziczeniem.
 
 ### Zobacz także
 

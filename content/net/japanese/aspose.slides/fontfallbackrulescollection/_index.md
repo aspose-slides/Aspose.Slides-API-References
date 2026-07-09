@@ -3,12 +3,12 @@ title: FontFallBackRulesCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: ユーザーが定義した FontFallBack ルールのコレクションを表します
 type: docs
-weight: 4830
+weight: 4850
 url: /ja/aspose.slides/fontfallbackrulescollection/
 ---
 ## FontFallBackRulesCollection クラス
 
-ユーザーが定義した FontFallBack ルールのコレクションを表します
+ユーザーによって定義された FontFallBack ルールのコレクションを表します。
 
 ```csharp
 public class FontFallBackRulesCollection : IFontFallBackRulesCollection
@@ -16,29 +16,29 @@ public class FontFallBackRulesCollection : IFontFallBackRulesCollection
 
 ## コンストラクタ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [FontFallBackRulesCollection](fontfallbackrulescollection)() | デフォルトコンストラクタです。 |
+| [FontFallBackRulesCollection](fontfallbackrulescollection)() | 既定のコンストラクタです。 |
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/fontfallbackrulescollection/count) { get; } | コレクションに実際に含まれるルール数を取得します。読み取り専用 Int32。 |
-| [IsSynchronized](../../aspose.slides/fontfallbackrulescollection/issynchronized) { get; } | コレクションへのアクセスが同期化 (スレッドセーフ) されているかどうかを示す値を返します。読み取り専用 Boolean。 |
+| [Count](../../aspose.slides/fontfallbackrulescollection/count) { get; } | コレクションに実際に含まれるルールの数を取得します。読み取り専用 Int32。 |
+| [IsSynchronized](../../aspose.slides/fontfallbackrulescollection/issynchronized) { get; } | コレクションへのアクセスが同期化されているかどうかを示す値を返します (スレッドセーフ)。読み取り専用 Boolean。 |
 | [Item](../../aspose.slides/fontfallbackrulescollection/item) { get; } | 指定されたインデックスのルールを取得します。読み取り専用 [`IFontFallBackRule`](../ifontfallbackrule)。 |
 | [SyncRoot](../../aspose.slides/fontfallbackrulescollection/syncroot) { get; } | 同期ルートを返します。読み取り専用 Object。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/fontfallbackrulescollection/add)(IFontFallBackRule) | 指定した FallBack ルールをコレクションの末尾に追加します。 |
+| [Add](../../aspose.slides/fontfallbackrulescollection/add)(IFontFallBackRule) | 指定された FallBack ルールをコレクションの末尾に追加します。 |
 | [CopyTo](../../aspose.slides/fontfallbackrulescollection/copyto)(Array, int) | コレクションのすべての要素を指定された配列にコピーします。 |
 | [GetEnumerator](../../aspose.slides/fontfallbackrulescollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
 | [Remove](../../aspose.slides/fontfallbackrulescollection/remove)(IFontFallBackRule) | コレクションから特定の FallBack ルールの最初の出現を削除します。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IFontFallBackRulesCollection](../ifontfallbackrulescollection)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

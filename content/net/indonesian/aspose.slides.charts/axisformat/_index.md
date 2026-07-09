@@ -1,14 +1,14 @@
 ---
 title: AxisFormat
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili properti format bagan.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Merepresentasikan properti format diagram.
 type: docs
-weight: 1180
+weight: 1200
 url: /id/aspose.slides.charts/axisformat/
 ---
-## Kelas AxisFormat
+## AxisFormat kelas
 
-Mewakili properti format bagan.
+Merepresentasikan properti format diagram.
 
 ```csharp
 public sealed class AxisFormat : DomObject<Axis>, IAxisFormat
@@ -16,11 +16,11 @@ public sealed class AxisFormat : DomObject<Axis>, IAxisFormat
 
 ## Properti
 
-| Name | Deskripsi |
+| Nama | Deskripsi |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/axisformat/effect) { get; } | Mengembalikan efek yang digunakan untuk sebuah sumbu. Hanya-baca [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Fill](../../aspose.slides.charts/axisformat/fill) { get; } | Mengembalikan properti gaya isian sebuah sumbu. Hanya-baca [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [Line](../../aspose.slides.charts/axisformat/line) { get; } | Mengembalikan properti gaya garis sebuah sumbu. Hanya-baca [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/axisformat/effect) { get; } | Mengembalikan efek yang digunakan untuk sumbu. Hanya-baca [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Fill](../../aspose.slides.charts/axisformat/fill) { get; } | Mengembalikan properti gaya isian dari sumbu. Hanya-baca [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Line](../../aspose.slides.charts/axisformat/line) { get; } | Mengembalikan properti gaya garis dari sumbu. Hanya-baca [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### Lihat Juga
 

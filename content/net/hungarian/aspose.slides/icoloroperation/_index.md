@@ -1,14 +1,14 @@
 ---
 title: IColorOperation
-second_title: Aspose.Sildes .NET API Referenciája
+second_title: Aspose.Sildes .NET API referencia
 description: Különböző színműveleteket képvisel, amelyeket színtranszformációkhoz használnak.
 type: docs
-weight: 5480
+weight: 5500
 url: /hu/aspose.slides/icoloroperation/
 ---
 ## IColorOperation interfész
 
-Különböző színműveleteket képvisel, amelyek a színtranszformációkhoz használhatók.
+Különböző színműveleteket képvisel, amelyeket színtranszformációkhoz használnak.
 
 ```csharp
 public interface IColorOperation
@@ -18,8 +18,8 @@ public interface IColorOperation
 
 | Név | Leírás |
 | --- | --- |
-| [OperationType](../../aspose.slides/icoloroperation/operationtype) { get; } | Visszaadja vagy beállítja a művelet típusát. Csak olvasható [`ColorTransformOperation`](../colortransformoperation). |
-| [Parameter](../../aspose.slides/icoloroperation/parameter) { get; } | Visszaad egy paramétert a műveletből. Csak olvasható Single. |
+| [OperationType](../../aspose.slides/icoloroperation/operationtype) { get; } | Visszaadja vagy beállítja egy művelet típusát. Csak olvasható [`ColorTransformOperation`](../colortransformoperation). |
+| [Parameter](../../aspose.slides/icoloroperation/parameter) { get; } | Visszaad egy paramétert egy művelethez. Csak olvasható Single. |
 
 ### Lásd még
 

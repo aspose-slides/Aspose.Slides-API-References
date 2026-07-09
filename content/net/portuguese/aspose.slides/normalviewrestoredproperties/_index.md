@@ -1,9 +1,9 @@
 ---
 title: NormalViewRestoredProperties
 second_title: Aspose.Sildes para .NET Referência da API
-description: Especifica o dimensionamento da região do slide, largura quando filho de restoredTop e altura quando filho de restoredLeft, da visualização normal, quando a região tem um tamanho restaurado variável (nem minimizado nem maximizado).
+description: Especifica o dimensionamento da região do slide, largura quando filho de restoredTop, altura quando filho de restoredLeft, da visualização normal, quando a região tem um tamanho restaurado variável, nem minimizado nem maximizado.
 type: docs
-weight: 9100
+weight: 9120
 url: /pt/aspose.slides/normalviewrestoredproperties/
 ---
 ## NormalViewRestoredProperties classe
@@ -18,8 +18,8 @@ public class NormalViewRestoredProperties : INormalViewRestoredProperties
 
 | Nome | Descrição |
 | --- | --- |
-| [AutoAdjust](../../aspose.slides/normalviewrestoredproperties/autoadjust) { get; set; } | Especifica se o tamanho da região de conteúdo lateral deve compensar o novo tamanho ao redimensionar a janela que contém a visualização dentro da aplicação. Leitura/Gravação Boolean. |
-| [DimensionSize](../../aspose.slides/normalviewrestoredproperties/dimensionsize) { get; set; } | Especifica o tamanho da região do slide (largura quando filho de RestoredTop, altura quando filho de RestoredLeft). Leitura/Gravação Single. |
+| [AutoAdjust](../../aspose.slides/normalviewrestoredproperties/autoadjust) { get; set; } | Especifica se o tamanho da região de conteúdo lateral deve compensar o novo tamanho ao redimensionar a janela que contém a visualização dentro do aplicativo Leitura/gravação Boolean. |
+| [DimensionSize](../../aspose.slides/normalviewrestoredproperties/dimensionsize) { get; set; } | Especifica o tamanho da região do slide (largura quando filho de RestoredTop, altura quando filho de RestoredLeft). Leitura/gravação Single. |
 
 ### Veja Também
 

@@ -1,14 +1,14 @@
 ---
 title: BaseShapeLock
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili kelas dasar untuk operasi kunci yang dinonaktifkan.
 type: docs
-weight: 960
-url: /id/aspxse.slides/baseshapelock/
+weight: 980
+url: /id/aspose.slides/baseshapelock/
 ---
 ## BaseShapeLock kelas
 
-Represents a base class for locks (disabled operation).
+Mewakili kelas dasar untuk kunci (operasi dinonaktifkan).
 
 ```csharp
 public class BaseShapeLock : IBaseShapeLock
@@ -18,7 +18,7 @@ public class BaseShapeLock : IBaseShapeLock
 
 | Nama | Deskripsi |
 | --- | --- |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Mengembalikan true jika semua lock-flag dinonaktifkan. Boolean Hanya-baca. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Mengembalikan true jika semua lock-flags dinonaktifkan. Boolean hanya-baca. |
 
 ### Lihat Juga
 

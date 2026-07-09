@@ -1,14 +1,14 @@
 ---
 title: Timing
-second_title: Aspose.Sildes para .NET Referência de API
-description: Representa a temporização da animação.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Representa o temporizador de animação.
 type: docs
-weight: 820
+weight: 840
 url: /pt/aspose.slides.animation/timing/
 ---
-## Timing classe
+## Classe Timing
 
-Representa a temporização da animação.
+Representa o temporizador de animação.
 
 ```csharp
 public class Timing : ITiming
@@ -19,7 +19,7 @@ public class Timing : ITiming
 | Nome | Descrição |
 | --- | --- |
 | [Accelerate](../../aspose.slides.animation/timing/accelerate) { get; set; } | Descreve a porcentagem da duração do efeito de aceleração. Leitura/gravação Single. |
-| [AutoReverse](../../aspose.slides.animation/timing/autoreverse) { get; set; } | Descreve se a animação será reproduzida automaticamente ao contrário após a reprodução para a frente. Leitura/gravação Boolean. |
+| [AutoReverse](../../aspose.slides.animation/timing/autoreverse) { get; set; } | Descreve se a animação deve ser reproduzida automaticamente ao contrário após ser reproduzida na direção normal. Leitura/gravação Boolean. |
 | [Decelerate](../../aspose.slides.animation/timing/decelerate) { get; set; } | Descreve a porcentagem da duração do efeito de desaceleração. Leitura/gravação Single. |
 | [Duration](../../aspose.slides.animation/timing/duration) { get; set; } | Descreve a duração do efeito de animação. Leitura/gravação Single. |
 | [RepeatCount](../../aspose.slides.animation/timing/repeatcount) { get; set; } | Descreve o número de vezes que o efeito deve ser repetido. Leitura/gravação Single. |
@@ -27,12 +27,12 @@ public class Timing : ITiming
 | [RepeatUntilEndSlide](../../aspose.slides.animation/timing/repeatuntilendslide) { get; set; } | Este atributo especifica se o efeito será repetido até o final do slide. Leitura/gravação Boolean. |
 | [RepeatUntilNextClick](../../aspose.slides.animation/timing/repeatuntilnextclick) { get; set; } | Este atributo especifica se o efeito será repetido até o próximo clique. Leitura/gravação Boolean. |
 | [Restart](../../aspose.slides.animation/timing/restart) { get; set; } | Especifica se um efeito deve reiniciar após a conclusão. Leitura/gravação [`EffectRestartType`](../effectrestarttype). |
-| [Rewind](../../aspose.slides.animation/timing/rewind) { get; set; } | Este atributo especifica se o efeito rebobinará quando terminar a reprodução. Leitura/gravação Boolean. |
+| [Rewind](../../aspose.slides.animation/timing/rewind) { get; set; } | Este atributo especifica se o efeito será rebobinado ao terminar a reprodução. Leitura/gravação Boolean. |
 | [Speed](../../aspose.slides.animation/timing/speed) { get; set; } | Especifica a porcentagem pela qual acelerar (ou desacelerar) o tempo. Leitura/gravação Single. |
 | [TriggerDelayTime](../../aspose.slides.animation/timing/triggerdelaytime) { get; set; } | Descreve o tempo de atraso após o gatilho. Leitura/gravação Single. |
 | [TriggerType](../../aspose.slides.animation/timing/triggertype) { get; set; } | Descreve o tipo de gatilho. Leitura/gravação [`EffectTriggerType`](../effecttriggertype). |
 
-### Veja também
+### Veja Também
 
 * interface [ITiming](../itiming)
 * namespace [Aspose.Slides.Animation](../../aspose.slides.animation)

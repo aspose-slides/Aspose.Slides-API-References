@@ -1,9 +1,9 @@
 ---
 title: LegendEntryProperties
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: チャートの凡例プロパティを表します。
 type: docs
-weight: 2290
+weight: 2310
 url: /ja/aspose.slides.charts/legendentryproperties/
 ---
 ## LegendEntryProperties クラス
@@ -16,7 +16,7 @@ public class LegendEntryProperties : ILegendEntryProperties
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [Chart](../../aspose.slides.charts/legendentryproperties/chart) { get; } | 親チャートを返します。読み取り専用 [`IChart`](../ichart)。 |
 | [Hide](../../aspose.slides.charts/legendentryproperties/hide) { get; set; } | 凡例エントリが非表示かどうかを決定します。読み書き Boolean。 |

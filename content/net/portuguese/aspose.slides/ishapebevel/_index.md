@@ -1,9 +1,9 @@
 ---
 title: IShapeBevel
-second_title: Aspose.Sildes para referência da API .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa as propriedades do relevo da face principal das formas.
 type: docs
-weight: 6940
+weight: 6960
 url: /pt/aspose.slides/ishapebevel/
 ---
 ## IShapeBevel interface
@@ -18,11 +18,11 @@ public interface IShapeBevel
 
 | Nome | Descrição |
 | --- | --- |
-| [BevelType](../../aspose.slides/ishapebevel/beveltype) { get; set; } | Tipo de bisel. Leitura/gravação [`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/ishapebevel/height) { get; set; } | Altura do bisel. Leitura/gravação Double. |
-| [Width](../../aspose.slides/ishapebevel/width) { get; set; } | Largura do bisel. Leitura/gravação Double. |
+| [BevelType](../../aspose.slides/ishapebevel/beveltype) { get; set; } | Tipo de chanfrado. Leitura/Gravação [`BevelPresetType`](../bevelpresettype). |
+| [Height](../../aspose.slides/ishapebevel/height) { get; set; } | Altura do chanfrado. Leitura/Gravação Double. |
+| [Width](../../aspose.slides/ishapebevel/width) { get; set; } | Largura do chanfrado. Leitura/Gravação Double. |
 
-### Veja Também
+### Ver também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

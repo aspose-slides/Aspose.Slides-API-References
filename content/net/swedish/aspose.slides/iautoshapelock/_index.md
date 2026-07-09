@@ -1,14 +1,14 @@
 ---
 title: IAutoShapeLock
 second_title: Aspose.Sildes för .NET API-referens
-description: Bestämmer vilka operationer som är inaktiverade på föräldern AutoshapeEx.
+description: Bestämmer vilka operationer som är inaktiverade på den överordnade AutoshapeEx.
 type: docs
-weight: 5230
+weight: 5250
 url: /sv/aspose.slides/iautoshapelock/
 ---
 ## IAutoShapeLock gränssnitt
 
-Bestämmer vilka operationer som är inaktiverade på föräldern AutoshapeEx.
+Bestämmer vilka operationer som är inaktiverade på den överordnade AutoshapeEx.
 
 ```csharp
 public interface IAutoShapeLock : IBaseShapeLock
@@ -19,17 +19,17 @@ public interface IAutoShapeLock : IBaseShapeLock
 | Namn | Beskrivning |
 | --- | --- |
 | [AdjustHandlesLocked](../../aspose.slides/iautoshapelock/adjusthandleslocked) { get; set; } | Bestämmer om en ändring av justeringsvärden är förbjuden. Läs-skriv Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/iautoshapelock/arrowheadslocked) { get; set; } | Bestämmer om en ändring av pilhuvuden är förbjuden. Läs-skriv Boolean. |
-| [AsIBaseShapeLock](../../aspose.slides/iautoshapelock/asibaseshapelock) { get; } | Tillåter att hämta grund-IBaseShapeLock-gränssnittet. Läs-endast [`IBaseShapeLock`](../ibaseshapelock). |
+| [ArrowheadsLocked](../../aspose.slides/iautoshapelock/arrowheadslocked) { get; set; } | Bestämmer om en ändring av pilspetsar är förbjuden. Läs-skriv Boolean. |
+| [AsIBaseShapeLock](../../aspose.slides/iautoshapelock/asibaseshapelock) { get; } | Tillåter att hämta bas IBaseShapeLock gränssnitt. Skrivskyddad [`IBaseShapeLock`](../ibaseshapelock). |
 | [AspectRatioLocked](../../aspose.slides/iautoshapelock/aspectratiolocked) { get; set; } | Bestämmer om en form måste bevara bildförhållandet vid storleksändring. Läs-skriv Boolean. |
-| [EditPointsLocked](../../aspose.slides/iautoshapelock/editpointslocked) { get; set; } | Bestämmer om en direkt ändring av konturen för denna form är förbjuden. Läs-skriv Boolean. |
+| [EditPointsLocked](../../aspose.slides/iautoshapelock/editpointslocked) { get; set; } | Bestämmer om en direkt förändring av kontur för denna form är förbjuden. Läs-skriv Boolean. |
 | [GroupingLocked](../../aspose.slides/iautoshapelock/groupinglocked) { get; set; } | Bestämmer om en tilläggning av denna form till en grupp är förbjuden. Läs-skriv Boolean. |
-| [PositionLocked](../../aspose.slides/iautoshapelock/positionlocked) { get; set; } | Bestämmer om en förflyttning av denna form är förbjuden. Läs-skriv Boolean. |
-| [RotateLocked](../../aspose.slides/iautoshapelock/rotatelocked) { get; set; } | Bestämmer om en ändring av roteringsvinkeln för denna form är förbjuden. Läs-skriv Boolean. |
-| [SelectLocked](../../aspose.slides/iautoshapelock/selectlocked) { get; set; } | Bestämmer om en markering av denna form är förbjuden. Läs-skriv Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/iautoshapelock/shapetypelocked) { get; set; } | Bestämmer om en ändring av en formtyp är förbjuden. Läs-skriv Boolean. |
-| [SizeLocked](../../aspose.slides/iautoshapelock/sizelocked) { get; set; } | Bestämmer om en storleksändring av denna form är förbjuden. Läs-skriv Boolean. |
-| [TextLocked](../../aspose.slides/iautoshapelock/textlocked) { get; set; } | Bestämmer om en redigering av text är förbjuden. Läs-skriv Boolean. |
+| [PositionLocked](../../aspose.slides/iautoshapelock/positionlocked) { get; set; } | Bestämmer om flyttning av denna form är förbjuden. Läs-skriv Boolean. |
+| [RotateLocked](../../aspose.slides/iautoshapelock/rotatelocked) { get; set; } | Bestämmer om en förändring av rotationsvinkeln för denna form är förbjuden. Läs-skriv Boolean. |
+| [SelectLocked](../../aspose.slides/iautoshapelock/selectlocked) { get; set; } | Bestämmer om markering av denna form är förbjuden. Läs-skriv Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/iautoshapelock/shapetypelocked) { get; set; } | Bestämmer om en förändring av en formtyp är förbjuden. Läs-skriv Boolean. |
+| [SizeLocked](../../aspose.slides/iautoshapelock/sizelocked) { get; set; } | Bestämmer om storleksändring av denna form är förbjuden. Läs-skriv Boolean. |
+| [TextLocked](../../aspose.slides/iautoshapelock/textlocked) { get; set; } | Bestämmer om redigering av text är förbjuden. Läs-skriv Boolean. |
 
 ### Se även
 

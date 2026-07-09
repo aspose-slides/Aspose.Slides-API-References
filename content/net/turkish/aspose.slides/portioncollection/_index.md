@@ -1,14 +1,14 @@
 ---
 title: PortionCollection
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bölümlerden oluşan bir koleksiyonu temsil eder.
+description: Parçaların bir koleksiyonunu temsil eder.
 type: docs
-weight: 9450
+weight: 9470
 url: /tr/aspose.slides/portioncollection/
 ---
 ## PortionCollection sınıf
 
-Bölümlerden oluşan bir koleksiyonu temsil eder.
+Parçaların bir koleksiyonunu temsil eder.
 
 ```csharp
 public sealed class PortionCollection : DomObject<Paragraph>, IPortionCollection
@@ -18,25 +18,25 @@ public sealed class PortionCollection : DomObject<Paragraph>, IPortionCollection
 
 | Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides/portioncollection/count) { get; } | Koleksiyonda gerçekte bulunan öğelerin sayısını alır. Yalnızca okunabilir Int32. |
-| [IsReadOnly](../../aspose.slides/portioncollection/isreadonly) { get; } | ICollection'ın yalnızca okunabilir olup olmadığını gösteren bir değeri alır. Yalnızca okunabilir Boolean. |
-| [Item](../../aspose.slides/portioncollection/item) { get; set; } | Belirtilen indeksteki öğeyi alır. |
+| [Count](../../aspose.slides/portioncollection/count) { get; } | Koleksiyon içinde gerçekte bulunan öğe sayısını alır. Salt okunur Int32. |
+| [IsReadOnly](../../aspose.slides/portioncollection/isreadonly) { get; } | ICollection'ın salt okunur olup olmadığını gösteren bir değer alır. Salt okunur Boolean. |
+| [Item](../../aspose.slides/portioncollection/item) { get; set; } | Belirtilen dizindeki öğeyi alır. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [Add](../../aspose.slides/portioncollection/add)(IPortion) | Koleksiyonun sonuna bir Portion ekler. |
+| [Add](../../aspose.slides/portioncollection/add)(IPortion) | Bir Portion'ı koleksiyonun sonuna ekler. |
 | [Clear](../../aspose.slides/portioncollection/clear)() | Koleksiyondaki tüm öğeleri kaldırır. |
 | [Contains](../../aspose.slides/portioncollection/contains)(IPortion) | ICollection'ın belirli bir değeri içerip içermediğini belirler. |
-| [CopyTo](../../aspose.slides/portioncollection/copyto)(IPortion[], int) | ICollection öğelerini bir diziye, belirli bir dizi indeksinden başlayarak kopyalar. |
+| [CopyTo](../../aspose.slides/portioncollection/copyto)(IPortion[], int) | ICollection öğelerini belirli bir Array dizininden başlayarak bir Array'e kopyalar. |
 | [GetEnumerator](../../aspose.slides/portioncollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
-| [IndexOf](../../aspose.slides/portioncollection/indexof)(IPortion) | IList içindeki belirli bir öğenin indeksini belirler. |
-| [Insert](../../aspose.slides/portioncollection/insert)(int, IPortion) | Belirtilen indekste koleksiyona bir Portion ekler. |
+| [IndexOf](../../aspose.slides/portioncollection/indexof)(IPortion) | IList içinde belirli bir öğenin dizinini belirler. |
+| [Insert](../../aspose.slides/portioncollection/insert)(int, IPortion) | Belirtilen dizinde koleksiyona bir Portion ekler. |
 | [Remove](../../aspose.slides/portioncollection/remove)(IPortion) | ICollection'dan belirli bir nesnenin ilk oluşumunu kaldırır. |
-| [RemoveAt](../../aspose.slides/portioncollection/removeat)(int) | Koleksiyonun belirtilen indeksteki öğesini kaldırır. |
+| [RemoveAt](../../aspose.slides/portioncollection/removeat)(int) | Koleksiyonun belirtilen dizindeki öğeyi kaldırır. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * sınıf [DomObject&lt;TParent&gt;](../domobject-1)
 * sınıf [Paragraph](../paragraph)

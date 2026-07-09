@@ -1,14 +1,14 @@
 ---
 title: TextStrikethroughType
-second_title: Aspose.Sildes for .NET API リファレンス
-description: テキストの取り消し線の種類を表します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: テキストの取り消し線のタイプを表します。
 type: docs
-weight: 10970
+weight: 10990
 url: /ja/aspose.slides/textstrikethroughtype/
 ---
-## TextStrikethroughType 列挙型
+## TextStrikethroughType 列挙体
 
-テキストの取り消し線の種類を表します。
+テキストの取り消し線のタイプを表します。
 
 ```csharp
 public enum TextStrikethroughType : sbyte

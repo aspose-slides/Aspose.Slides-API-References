@@ -1,14 +1,14 @@
 ---
 title: AdjustValue
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta il valore di regolazione di una forma geometrica. Questi valori influenzano la forma della figura.
+second_title: Aspose.Sildes per il riferimento API di .NET
+description: Rappresenta il valore di regolazione di una forma geometrica. Questi valori influenzano la forma della forma.
 type: docs
-weight: 70
+weight: 90
 url: /it/aspose.slides/adjustvalue/
 ---
 ## AdjustValue classe
 
-Rappresenta il valore di regolazione di una forma geometrica. Questi valori influenzano la forma della figura.
+Rappresenta il valore di regolazione di una forma geometrica. Questi valori influenzano la forma.
 
 ```csharp
 public class AdjustValue : IAdjustValue
@@ -16,12 +16,12 @@ public class AdjustValue : IAdjustValue
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [AngleValue](../../aspose.slides/adjustvalue/anglevalue) { get; set; } | Restituisce o imposta il valore, interpretandolo come angolo in gradi. Lettura/scrittura Single. |
-| [Name](../../aspose.slides/adjustvalue/name) { get; } | Restituisce un nome di questo valore di regolazione. Solo lettura String. |
-| [RawValue](../../aspose.slides/adjustvalue/rawvalue) { get; set; } | Restituisce o imposta il valore di regolazione "così com'è". Lettura/scrittura Int64. |
-| [Type](../../aspose.slides/adjustvalue/type) { get; } | Restituisce il tipo della regolazione della forma. Solo lettura [`ShapeAdjustmentType`](../shapeadjustmenttype). |
+| [AngleValue](../../aspose.slides/adjustvalue/anglevalue) { get; set; } | Restituisce o imposta il valore, interpretandolo come angolo in gradi. Lettura/Scrittura Single. |
+| [Name](../../aspose.slides/adjustvalue/name) { get; } | Restituisce un nome di questo valore di regolazione. Sola lettura String. |
+| [RawValue](../../aspose.slides/adjustvalue/rawvalue) { get; set; } | Restituisce o imposta il valore di regolazione “così com’è”. Lettura/Scrittura Int64. |
+| [Type](../../aspose.slides/adjustvalue/type) { get; } | Restituisce il tipo della regolazione della forma. Sola lettura [`ShapeAdjustmentType`](../shapeadjustmenttype). |
 
 ### Vedi anche
 

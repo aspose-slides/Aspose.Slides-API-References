@@ -1,14 +1,14 @@
 ---
 title: PersistenceType
-second_title: Aspose.Sildes .NET API referencia
-description: Megadja a módszert, amelyet az ActiveX vezérlő tulajdonságainak tárolásához használnak.
+second_title: Aspose.Sildes a .NET API referenciához
+description: Megadja a módszert, amelyet az ActiveX vezérlő tulajdonságainak tárolására használnak.
 type: docs
-weight: 9350
+weight: 9370
 url: /hu/aspose.slides/persistencetype/
 ---
 ## PersistenceType enumeráció
 
-Megadja a módszert, amelyet az ActiveX control tulajdonságainak tárolásához használnak.
+Meghatározza a módszert az ActiveX control tulajdonságainak tárolására.
 
 ```csharp
 public enum PersistenceType
@@ -18,11 +18,11 @@ public enum PersistenceType
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| NotDefined | `-1` | A perzisztencia-azonosító nincs megadva. |
-| PersistPropertyBag | `0` | Megadja, hogy az ActiveX control perzisztálásra kerül property-bag alapú perzisztenciával. A property-bag alapú perzisztencia egy név-érték párokból álló gyűjtemény segítségével tárolja az ActiveX controlt, amely meghatározza a perzisztált adatokat. |
-| PersistStream | `1` | Megadja, hogy az ActiveX control perzisztálásra kerül stream-alapú perzisztenciával, amely nem támogatja az ActiveX control alapértelmezett állapotba való inicializálását. |
-| PersistStreamInit | `2` | Megadja, hogy az ActiveX control perzisztálásra kerül stream-alapú perzisztenciával, amely támogatja az ActiveX control alapértelmezett állapotba való inicializálását. |
-| PersistStorage | `3` | Megadja, hogy az ActiveX control perzisztálásra kerül storage-alapú perzisztenciával. |
+| NotDefined | `-1` | A perzisztencia azonosító nincs megadva. |
+| PersistPropertyBag | `0` | Meghatározza, hogy az ActiveX control a property-bag-alapú perzisztencia használatával van tárolva. A property-bag-alapú perzisztencia egy név-érték párokból álló gyűjtemény segítségével tárolja az ActiveX control adatot. |
+| PersistStream | `1` | Meghatározza, hogy az ActiveX control stream-alapú perzisztencia használatával van tárolva, amely nem támogatja az ActiveX control alapértelmezett állapotra történő inicializálását. |
+| PersistStreamInit | `2` | Meghatározza, hogy az ActiveX control stream-alapú perzisztencia használatával van tárolva, amely támogatja az ActiveX control alapértelmezett állapotra történő inicializálását. |
+| PersistStorage | `3` | Meghatározza, hogy az ActiveX control storage-alapú perzisztencia használatával van tárolva. |
 
 ### Lásd még
 

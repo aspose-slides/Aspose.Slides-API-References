@@ -1,33 +1,32 @@
 ---
 title: ITiffOptions
-second_title: Aspose.Sildes pro .NET – referenční dokumentace API
-description: Poskytuje možnosti, které řídí způsob, jakým je prezentace uložena ve formátu TIFF.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Poskytuje možnosti, které řídí, jak je prezentace uložena ve formátu TIFF.
 type: docs
-weight: 4150
+weight: 4170
 url: /cs/aspose.slides.export/itiffoptions/
 ---
 ## ITiffOptions rozhraní
 
-Poskytuje možnosti, které řídí způsob uložení prezentace ve formátu TIFF.
+Poskytuje možnosti, které řídí, jak je prezentace uložena ve formátu TIFF.
 
 ```csharp
 public interface ITiffOptions : ISaveOptions
 ```
-
 ## Vlastnosti
 
 | Název | Popis |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/itiffoptions/asisaveoptions) { get; } | Vrací rozhraní ISaveOptions. Pouze pro čtení [`ISaveOptions`](../isaveoptions). |
-| [BwConversionMode](../../aspose.slides.export/itiffoptions/bwconversionmode) { get; set; } | Určuje algoritmus pro převod barevného obrázku na černobílý obrázek. Tato volba bude použita pouze pokud je [`CompressionType`](./compressiontype) nastaven na CCITT4 nebo CCITT3 Čtení/Zápis [`BlackWhiteConversionMode`](../blackwhiteconversionmode). Default je Default. |
-| [CompressionType](../../aspose.slides.export/itiffoptions/compressiontype) { get; set; } | Určuje typ komprese. Čtení/Zápis [`TiffCompressionTypes`](../tiffcompressiontypes). |
-| [DpiX](../../aspose.slides.export/itiffoptions/dpix) { get; set; } | Určuje horizontální rozlišení v bodech na palec. Čtení/Zápis UInt32. |
-| [DpiY](../../aspose.slides.export/itiffoptions/dpiy) { get; set; } | Určuje vertikální rozlišení v bodech na palec. Čtení/Zápis UInt32. |
-| [ImageSize](../../aspose.slides.export/itiffoptions/imagesize) { get; set; } | Určuje velikost generovaného TIFF obrázku. Výchozí hodnota je 0x0, což znamená, že velikosti generovaných obrázků budou vypočítány na základě velikosti snímku prezentace. Čtení/Zápis Size. |
-| [InkOptions](../../aspose.slides.export/itiffoptions/inkoptions) { get; } | Poskytuje možnosti, které řídí vzhled objektů Ink v exportovaném dokumentu. Pouze pro čtení [`IInkOptions`](../iinkoptions) |
-| [PixelFormat](../../aspose.slides.export/itiffoptions/pixelformat) { get; set; } | Určuje formát pixelů pro generované obrázky. Čtení/Zápis [`ImagePixelFormat`](../imagepixelformat). |
-| [ShowHiddenSlides](../../aspose.slides.export/itiffoptions/showhiddenslides) { get; set; } | Určuje, zda má generovaný dokument zahrnovat skryté snímky, nebo ne. Výchozí je `false`. |
-| [SlidesLayoutOptions](../../aspose.slides.export/itiffoptions/slideslayoutoptions) { get; set; } | Získá nebo nastaví režim, ve kterém jsou snímky umístěny na stránku při exportu prezentace [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [AsISaveOptions](../../aspose.slides.export/itiffoptions/asisaveoptions) { get; } | Vrací ISaveOptions rozhraní. Pouze pro čtení [`ISaveOptions`](../isaveoptions). |
+| [BwConversionMode](../../aspose.slides.export/itiffoptions/bwconversionmode) { get; set; } | Určuje algoritmus pro převod barevného obrázku na černobílý obrázek. Tato možnost bude použita pouze pokud je [`CompressionType`](./compressiontype) nastavena na CCITT4 nebo CCITT3. Čtení/zápis [`BlackWhiteConversionMode`](../blackwhiteconversionmode). Výchozí hodnota je Default. |
+| [CompressionType](../../aspose.slides.export/itiffoptions/compressiontype) { get; set; } | Určuje typ komprese. Čtení/zápis [`TiffCompressionTypes`](../tiffcompressiontypes). |
+| [DpiX](../../aspose.slides.export/itiffoptions/dpix) { get; set; } | Určuje horizontální rozlišení v bodech na palec. Čtení/zápis UInt32. |
+| [DpiY](../../aspose.slides.export/itiffoptions/dpiy) { get; set; } | Určuje vertikální rozlišení v bodech na palec. Čtení/zápis UInt32. |
+| [ImageSize](../../aspose.slides.export/itiffoptions/imagesize) { get; set; } | Určuje velikost vygenerovaného TIFF obrázku. Výchozí hodnota je 0x0, což znamená, že velikosti vygenerovaných obrázků budou vypočteny na základě velikosti snímku prezentace. Čtení/zápis Size. |
+| [InkOptions](../../aspose.slides.export/itiffoptions/inkoptions) { get; } | Poskytuje možnosti, které řídí vzhled Ink objektů v exportovaném dokumentu. Pouze pro čtení [`IInkOptions`](../iinkoptions) |
+| [PixelFormat](../../aspose.slides.export/itiffoptions/pixelformat) { get; set; } | Určuje formát pixelů pro vygenerované obrázky. Čtení/zápis [`ImagePixelFormat`](../imagepixelformat). |
+| [ShowHiddenSlides](../../aspose.slides.export/itiffoptions/showhiddenslides) { get; set; } | Určuje, zda vygenerovaný dokument má zahrnovat skryté snímky nebo ne. Výchozí hodnota je `false`. |
+| [SlidesLayoutOptions](../../aspose.slides.export/itiffoptions/slideslayoutoptions) { get; set; } | Získává nebo nastavuje režim, ve kterém jsou snímky umístěny na stránce při exportu prezentace [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### Viz také
 

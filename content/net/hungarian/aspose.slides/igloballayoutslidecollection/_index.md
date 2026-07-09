@@ -1,14 +1,14 @@
 ---
 title: IGlobalLayoutSlideCollection
 second_title: Aspose.Sildes .NET API referenciája
-description: A bemutató összes elrendezési diájának gyűjteményét képviseli. Kiterjeszti az ILayoutSlideCollection interfészt olyan módszerekkel, amelyek elrendezési diák hozzáadását/klónozását teszik lehetővé a mester elrendezési diák egyedi gyűjteményeinek egyesítése során.
+description: A bemutató összes elrendezési diáját tartalmazó gyűjteményt képviseli. Kiterjeszti az ILayoutSlideCollection interfészt olyan módszerekkel, amelyek elrendezési diák hozzáadására/klónozására szolgálnak a mester elrendezési diák egyedi gyűjteményeinek egyesítése kontextusában.
 type: docs
-weight: 5970
+weight: 5990
 url: /hu/aspose.slides/igloballayoutslidecollection/
 ---
 ## IGlobalLayoutSlideCollection interfész
 
-A bemutató összes elrendezési diájának gyűjteményét képviseli. Kiterjeszti az ILayoutSlideCollection interfészt olyan metódusokkal, amelyek elrendezési diák hozzáadását/klónozását teszik lehetővé a mester elrendezési diák egyedi gyűjteményeinek egyesítése során.
+Egy gyűjteményt képvisel, amely az összes elrendezési diát tartalmazza a bemutatóban. Kiterjeszti az ILayoutSlideCollection interfészt olyan módszerekkel, amelyek elrendezési diák hozzáadására/klónozására szolgálnak a mester elrendezési diák egyedi gyűjteményeinek egyesítése kontextusában.
 
 ```csharp
 public interface IGlobalLayoutSlideCollection : ILayoutSlideCollection
@@ -25,8 +25,8 @@ public interface IGlobalLayoutSlideCollection : ILayoutSlideCollection
 | Név | Leírás |
 | --- | --- |
 | [Add](../../aspose.slides/igloballayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | Új elrendezési diát ad a bemutatóhoz. |
-| [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone)(ILayoutSlide) | Másolatot ad egy megadott elrendezési diáról a bemutatóhoz. |
-| [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | Másolatot ad egy megadott elrendezési diáról a bemutatóhoz. |
+| [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone)(ILayoutSlide) | A megadott elrendezési dia egy másolatát adja hozzá a bemutatóhoz. |
+| [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | A megadott elrendezési dia egy másolatát adja hozzá a bemutatóhoz. |
 
 ### Lásd még
 

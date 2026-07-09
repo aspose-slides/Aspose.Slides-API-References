@@ -1,9 +1,9 @@
 ---
 title: IMasterTheme
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa um tema mestre.
 type: docs
-weight: 11290
+weight: 11310
 url: /pt/aspose.slides.theme/imastertheme/
 ---
 ## IMasterTheme interface
@@ -22,7 +22,7 @@ public interface IMasterTheme : ITheme
 | [ExtraColorSchemes](../../aspose.slides.theme/imastertheme/extracolorschemes) { get; } | Retorna a coleção de esquemas de cores adicionais. Esses esquemas não afetam a aparência da apresentação, podendo ser selecionados como esquema de cores principal para um slide. Somente leitura [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
 | [Name](../../aspose.slides.theme/imastertheme/name) { get; set; } | Retorna o nome de um tema. Leitura/gravação String. |
 
-### Veja Também
+### Ver também
 
 * interface [ITheme](../itheme)
 * namespace [Aspose.Slides.Theme](../../aspose.slides.theme)

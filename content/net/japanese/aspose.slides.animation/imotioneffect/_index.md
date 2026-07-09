@@ -1,14 +1,14 @@
 ---
 title: IMotionEffect
-second_title: Aspose.Sildes for .NET API リファレンス
-description: エフェクトのモーション効果の動作を表します。
+second_title: Aspose.Slides for .NET APIリファレンス
+description: エフェクトのモーション エフェクトの振る舞いを表します。
 type: docs
-weight: 500
+weight: 520
 url: /ja/aspose.slides.animation/imotioneffect/
 ---
 ## IMotionEffect インターフェイス
 
-エフェクトのモーション効果の動作を表します。
+Represent motion effect behavior of effect.
 
 ```csharp
 public interface IMotionEffect : IBehavior
@@ -16,17 +16,17 @@ public interface IMotionEffect : IBehavior
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [Angle](../../aspose.slides.animation/imotioneffect/angle) { get; set; } | モーションパスの相対角度を表します。読み取り/書き込み Single。 |
+| [Angle](../../aspose.slides.animation/imotioneffect/angle) { get; set; } | モーション パスの相対角度を記述します。読み書き Single。 |
 | [AsIBehavior](../../aspose.slides.animation/imotioneffect/asibehavior) { get; } | ベース IBehavior インターフェイスを取得できます。読み取り専用 [`IBehavior`](../ibehavior)。 |
-| [By](../../aspose.slides.animation/imotioneffect/by) { get; set; } | アニメーションの相対オフセット値を表します（パーセンテージ）。読み取り/書き込み PointF。 |
-| [From](../../aspose.slides.animation/imotioneffect/from) { get; set; } | アニメーション開始位置の x/y 座標を指定します（パーセンテージ）。読み取り/書き込み PointF。 |
-| [Origin](../../aspose.slides.animation/imotioneffect/origin) { get; set; } | モーションパスの原点がスライドのレイアウトや親など、何に相対しているかを指定します。読み取り/書き込み [`MotionOriginType`](../motionorigintype)。 |
-| [Path](../../aspose.slides.animation/imotioneffect/path) { get; set; } | アニメーションモーションの座標に続くパスプリミティブを指定します。読み取り/書き込み [`IMotionPath`](../imotionpath)。 |
-| [PathEditMode](../../aspose.slides.animation/imotioneffect/patheditmode) { get; set; } | シェイプが移動したときのモーションパスの動き方を指定します。読み取り/書き込み [`MotionPathEditMode`](../motionpatheditmode)。 |
-| [RotationCenter](../../aspose.slides.animation/imotioneffect/rotationcenter) { get; set; } | X 角度でモーションパスを回転させるために使用される回転の中心を表します。読み取り/書き込み PointF。 |
-| [To](../../aspose.slides.animation/imotioneffect/to) { get; set; } | アニメーションモーション効果のターゲット位置を指定します（パーセンテージ）。読み取り/書き込み PointF。 |
+| [By](../../aspose.slides.animation/imotioneffect/by) { get; set; } | アニメーションの相対オフセット値を記述します（パーセンテージ）。読み書き PointF。 |
+| [From](../../aspose.slides.animation/imotioneffect/from) { get; set; } | アニメーションの開始位置となる x/y 座標を指定します（パーセンテージ）。読み書き PointF。 |
+| [Origin](../../aspose.slides.animation/imotioneffect/origin) { get; set; } | モーション パスの基準がスライドのレイアウトや親など、何に相対しているかを指定します。読み書き [`MotionOriginType`](../motionorigintype)。 |
+| [Path](../../aspose.slides.animation/imotioneffect/path) { get; set; } | アニメーションの動きに使用する座標で構成されたパスプリミティブを指定します。読み書き [`IMotionPath`](../imotionpath)。 |
+| [PathEditMode](../../aspose.slides.animation/imotioneffect/patheditmode) { get; set; } | シェイプが移動したときにモーション パスがどのように移動するかを指定します。読み書き [`MotionPathEditMode`](../motionpatheditmode)。 |
+| [RotationCenter](../../aspose.slides.animation/imotioneffect/rotationcenter) { get; set; } | X 角度でモーション パスを回転させる際に使用する回転の中心を記述します。読み書き PointF。 |
+| [To](../../aspose.slides.animation/imotioneffect/to) { get; set; } | アニメーション モーション エフェクトのターゲット位置を指定します（パーセンテージ）。読み書き PointF。 |
 
 ### 参照
 

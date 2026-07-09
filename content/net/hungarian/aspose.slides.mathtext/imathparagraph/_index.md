@@ -1,14 +1,14 @@
 ---
 title: IMathParagraph
-second_title: Aspose.Sildes a .NET API referencia
-description: Matematikai bekezdés, amely a matematikai blokkok (IMathBlock) tárolója
+second_title: Aspose.Sildes .NET API referencia
+description: Matematikai bekezdés, amely egy tároló a matematikai blokkok IMathBlock számára
 type: docs
-weight: 8370
+weight: 8390
 url: /hu/aspose.slides.mathtext/imathparagraph/
 ---
 ## IMathParagraph interfész
 
-Matematikai bekezdés, amely a matematikai blokkok (IMathBlock) tárolója
+Matematikai bekezdés, amely a matematikai blokkok (IMathBlock) tárolóját képezi.
 
 ```csharp
 public interface IMathParagraph : IMathBlockCollection
@@ -18,15 +18,15 @@ public interface IMathParagraph : IMathBlockCollection
 
 | Név | Leírás |
 | --- | --- |
-| [AsIMathBlockCollection](../../aspose.slides.mathtext/imathparagraph/asimathblockcollection) { get; } | Lehetővé teszi a base IMathBlockCollection interfész lekérését [`IMathBlockCollection`](../imathblockcollection) |
-| [Justification](../../aspose.slides.mathtext/imathparagraph/justification) { get; set; } | Bekezdés igazítás Alapértelmezett érték: CenteredAsGroup |
+| [AsIMathBlockCollection](../../aspose.slides.mathtext/imathparagraph/asimathblockcollection) { get; } | Lehetővé teszi az alap IMathBlockCollection interfész lekérését [`IMathBlockCollection`](../imathblockcollection) |
+| [Justification](../../aspose.slides.mathtext/imathparagraph/justification) { get; set; } | Bekezdés igazítása Alapértelmezett érték: CenteredAsGroup |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
 | [ToLatex](../../aspose.slides.mathtext/imathparagraph/tolatex)() | Lekéri a matematikai egyenletet LaTeX formátumban |
-| [WriteAsMathMl](../../aspose.slides.mathtext/imathparagraph/writeasmathml)(Stream) | Elmenti ennek a [`IMathParagraph`](../imathparagraph) tartalmát MathML formátumban |
+| [WriteAsMathMl](../../aspose.slides.mathtext/imathparagraph/writeasmathml)(Stream) | Elmenti ennek [`IMathParagraph`](../imathparagraph) tartalmát MathML formátumban |
 
 ### Példák
 

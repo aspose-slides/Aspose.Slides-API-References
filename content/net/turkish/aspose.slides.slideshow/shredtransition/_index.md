@@ -1,12 +1,12 @@
 ---
 title: ShredTransition
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET için API Referansı
 description: Shred slayt geçiş efekti.
 type: docs
-weight: 10280
+weight: 10300
 url: /tr/aspose.slides.slideshow/shredtransition/
 ---
-## ShredTransition sınıf
+## ShredTransition sınıfı
 
 Shred slayt geçiş efekti.
 
@@ -18,17 +18,17 @@ public class ShredTransition : TransitionValueBase, IShredTransition
 
 | Ad | Açıklama |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/shredtransition/direction) { get; set; } | Geçiş yönü. Okuma/yazma [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/shredtransition/pattern) { get; set; } | Geçiş sırasında kullanılan görsellerin şeklini belirtir. Okuma/yazma [`TransitionShredPattern`](../transitionshredpattern). |
+| [Direction](../../aspose.slides.slideshow/shredtransition/direction) { get; set; } | Geçiş yönü. Okunur/yazılabilir [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Pattern](../../aspose.slides.slideshow/shredtransition/pattern) { get; set; } | Geçiş sırasında kullanılan görsellerin şeklini belirler. Okunur/yazılabilir [`TransitionShredPattern`](../transitionshredpattern). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | İki TransitionValueBase örneğinin eşit olup olmadığını belirler. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Belirli bir tür için hash işlevi olarak hizmet eder; hash tabloları gibi karma algoritmaları ve veri yapılarında kullanılabilir. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Belirli bir tip için hash işlevi olarak hizmet eder; hash algoritmaları ve hash tablosu gibi veri yapılarında kullanılmaya uygundur. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * sınıf [TransitionValueBase](../transitionvaluebase)
 * arayüz [IShredTransition](../ishredtransition)

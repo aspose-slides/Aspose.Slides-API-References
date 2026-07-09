@@ -1,14 +1,14 @@
 ---
 title: ISequence
 second_title: Referência da API Aspose.Sildes para .NET
-description: Representa uma sequência (coleção de efeitos).
+description: Representa uma coleção de efeitos de sequência.
 type: docs
-weight: 570
+weight: 590
 url: /pt/aspose.slides.animation/isequence/
 ---
 ## ISequence interface
 
-Representa uma sequência (coleção de efeitos).
+Represents sequence (collection of effects).
 
 ```csharp
 public interface ISequence : IEnumerable<IEffect>
@@ -21,7 +21,7 @@ public interface ISequence : IEnumerable<IEffect>
 | [AsIEnumerable](../../aspose.slides.animation/isequence/asienumerable) { get; } | Permite obter a interface IEnumerable base. IEnumerable somente leitura. |
 | [Count](../../aspose.slides.animation/isequence/count) { get; } | Retorna o número de efeitos em uma sequência. Int32 somente leitura. |
 | [Item](../../aspose.slides.animation/isequence/item) { get; } | Retorna um efeito no índice especificado. |
-| [TriggerShape](../../aspose.slides.animation/isequence/triggershape) { get; set; } | Retorna ou define o alvo da forma para sequência INTERACTIVE. Se a sequência não for interativa, retorna null. Leitura/escrita [`IShape`](../../aspose.slides/ishape). |
+| [TriggerShape](../../aspose.slides.animation/isequence/triggershape) { get; set; } | Retorna ou define o alvo de forma para sequência INTERACTIVE. Se a sequência não for interativa, retorna nulo. Leitura/gravação [`IShape`](../../aspose.slides/ishape). |
 
 ## Métodos
 
@@ -39,7 +39,7 @@ public interface ISequence : IEnumerable<IEffect>
 | [RemoveAt](../../aspose.slides.animation/isequence/removeat)(int) | Remove um efeito de uma coleção. |
 | [RemoveByShape](../../aspose.slides.animation/isequence/removebyshape)(IShape) | Remove o efeito para a forma especificada. |
 
-### Veja Também
+### Ver também
 
 * interface [IEffect](../ieffect)
 * namespace [Aspose.Slides.Animation](../../aspose.slides.animation)

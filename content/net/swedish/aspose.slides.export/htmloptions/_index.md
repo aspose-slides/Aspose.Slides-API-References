@@ -1,14 +1,14 @@
 ---
 title: HtmlOptions
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar ett HTML-exportalternativ.
+description: Representerar alternativ för HTML-export.
 type: docs
-weight: 3870
+weight: 3890
 url: /sv/aspose.slides.export/htmloptions/
 ---
 ## HtmlOptions klass
 
-Representerar ett HTML-exportalternativ.
+Representerar alternativ för HTML-export.
 
 ```csharp
 public class HtmlOptions : SaveOptions, IHtmlOptions
@@ -18,34 +18,34 @@ public class HtmlOptions : SaveOptions, IHtmlOptions
 
 | Namn | Beskrivning |
 | --- | --- |
-| [HtmlOptions](htmloptions#constructor)() | Skapar ett nytt HtmlOptions-objekt för att spara i en enda HTML-fil. |
-| [HtmlOptions](htmloptions#constructor_1)(ILinkEmbedController) | Skapar ett nytt HtmlOptions-objekt som specificerar en återanrop. |
+| [HtmlOptions](htmloptions#constructor)() | Skapar ett nytt HtmlOptions-objekt för att spara i en enkel HTML-fil. |
+| [HtmlOptions](htmloptions#constructor_1)(ILinkEmbedController) | Skapar ett nytt HtmlOptions-objekt som specificerar återuppringning. |
 
 ## Egenskaper
 
 | Namn | Beskrivning |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Returnerar eller anger teckensnitt som används om källteckensnittet inte hittas. Läs/skriv String. |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/htmloptions/deletepicturescroppedareas) { get; set; } | Ett boolean-flagga indikerar om de beskurna delarna förblir en del av dokumentet. Om true tas de beskurna delarna bort, om false kommer de att serialiseras i dokumentet (vilket kan leda till en större fil) |
-| [DisableFontLigatures](../../aspose.slides.export/htmloptions/disablefontligatures) { get; set; } | Hämtar eller anger ett värde som visar om text renderas utan ligaturer. När inställt på `true` kommer ligaturer att inaktiveras i den renderade utdata. Som standard är detta egenskap satt till `false`. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Returnerar eller anger den visuella stilen för gradienten. Läs/skriv [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [HtmlFormatter](../../aspose.slides.export/htmloptions/htmlformatter) { get; set; } | Returnerar eller anger HTML-mall. Läs/skriv [`IHtmlFormatter`](../ihtmlformatter). |
-| [InkOptions](../../aspose.slides.export/htmloptions/inkoptions) { get; } | Tillhandahåller alternativ som styr utseendet på Ink-objekt i exporterade dokument. Endast läs [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/htmloptions/jpegquality) { get; set; } | Returnerar eller anger ett värde som bestämmer kvaliteten på JPEG-bilder i PDF-dokumentet. Läs/skriv Byte. |
-| [PicturesCompression](../../aspose.slides.export/htmloptions/picturescompression) { get; set; } | Representerar komprimeringsnivån för bilderna |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Representerar ett återanropsobjekt för att spara framstegsuppdateringar i procent. Se [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Returnerar eller anger teckensnitt som används om källteckensnittet inte hittas. Läs-skriv String. |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/htmloptions/deletepicturescroppedareas) { get; set; } | En boolesk flagga som indikerar om de beskärda delarna förblir som en del av dokumentet. Om true tas de beskärda delarna bort, om false kommer de att serialiseras i dokumentet (vilket kan leda till en större fil). |
+| [DisableFontLigatures](../../aspose.slides.export/htmloptions/disablefontligatures) { get; set; } | Hämtar eller anger ett värde som visar om text renderas utan ligaturer. När den sätts till `true` kommer ligaturer att inaktiveras i den renderade utdata. Som standard är denna egenskap satt till `false`. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Returnerar eller anger den visuella stilen för gradienten. Läs-skriv [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [HtmlFormatter](../../aspose.slides.export/htmloptions/htmlformatter) { get; set; } | Returnerar eller anger HTML-mall. Läs-skriv [`IHtmlFormatter`](../ihtmlformatter). |
+| [InkOptions](../../aspose.slides.export/htmloptions/inkoptions) { get; } | Tillhandahåller alternativ som styr hur Ink-objekt ser ut i det exporterade dokumentet. Skrivskyddad [`IInkOptions`](../iinkoptions) |
+| [JpegQuality](../../aspose.slides.export/htmloptions/jpegquality) { get; set; } | Returnerar eller anger ett värde som bestämmer kvaliteten på JPEG-bilder i PDF-dokumentet. Läs-skriv Byte. |
+| [PicturesCompression](../../aspose.slides.export/htmloptions/picturescompression) { get; set; } | Representerar komprimeringsnivån för bilder. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Representerar ett återuppringningsobjekt för sparningsframsteg i procent. Se [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
 | [ShowHiddenSlides](../../aspose.slides.export/htmloptions/showhiddenslides) { get; set; } | Anger om det genererade dokumentet ska inkludera dolda bilder eller inte. Standard är `false`. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Anger om hyperlänkar med JavaScript-anrop ska hoppas över vid sparande av presentationen. Läs/skriv Boolean. Standardvärdet är **false**. |
-| [SlideImageFormat](../../aspose.slides.export/htmloptions/slideimageformat) { get; set; } | Returnerar eller anger bildformatalternativ för bildspel. Läs/skriv [`ISlideImageFormat`](../islideimageformat). |
-| [SlidesLayoutOptions](../../aspose.slides.export/htmloptions/slideslayoutoptions) { get; set; } | Hämtar eller anger läget som bilder placeras på sidan i när en presentation exporteras [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [SvgResponsiveLayout](../../aspose.slides.export/htmloptions/svgresponsivelayout) { get; set; } | True för att utesluta bredd- och höjdattribut från svg-behållaren – vilket gör layouten responsiv. False annars. Läs/skriv Boolean. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Returnerar eller anger ett objekt som tar emot varningar och bestämmer om laddningsprocessen ska fortsätta eller avbrytas. Läs/skriv [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Anger om hyperlänkar med JavaScript-anrop ska hoppas över när presentationen sparas. Läs-skriv Boolean. Standardvärdet är **false**. |
+| [SlideImageFormat](../../aspose.slides.export/htmloptions/slideimageformat) { get; set; } | Returnerar eller anger bildformatalternativ för bildspel. Läs-skriv [`ISlideImageFormat`](../islideimageformat). |
+| [SlidesLayoutOptions](../../aspose.slides.export/htmloptions/slideslayoutoptions) { get; set; } | Hämtar eller anger läget i vilket bilder placeras på sidan vid export av en presentation [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [SvgResponsiveLayout](../../aspose.slides.export/htmloptions/svgresponsivelayout) { get; set; } | True för att utesluta bredd- och höjdattribut från svg-behållare – det gör layouten responsiv. False annars. Läs-skriv Boolean. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Returnerar eller anger ett objekt som tar emot varningar och avgör om laddningsprocessen ska fortsätta eller avbrytas. Läs-skriv [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
-### Se även
+### Se också
 
 * klass [SaveOptions](../saveoptions)
 * gränssnitt [IHtmlOptions](../ihtmloptions)
 * namnrymd [Aspose.Slides.Export](../../aspose.slides.export)
-* samling [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

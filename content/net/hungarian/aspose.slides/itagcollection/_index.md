@@ -1,14 +1,14 @@
 ---
 title: ITagCollection
-second_title: Aspose.Sildes .NET-hez tartozó API-referencia
-description: A címkék (felhasználó által definiált karakterlánc párok) gyűjteményét reprezentálja
+second_title: Aspose.Sildes .NET API referencia
+description: A címkék (felhasználó által definiált karakterlánc-párok) gyűjteményét reprezentálja
 type: docs
-weight: 7240
+weight: 7260
 url: /hu/aspose.slides/itagcollection/
 ---
 ## ITagCollection interfész
 
-A címkék (felhasználó által definiált karakterlánc párok) gyűjteményét reprezentálja.
+A címkék (felhasználó által definiált karakterlánc-párok) gyűjteményét reprezentálja.
 
 ```csharp
 public interface ITagCollection : IGenericCollection<KeyValuePair<string, string>>
@@ -18,21 +18,21 @@ public interface ITagCollection : IGenericCollection<KeyValuePair<string, string
 
 | Név | Leírás |
 | --- | --- |
-| [Item](../../aspose.slides/itagcollection/item) { get; set; } | Visszaadja vagy beállítja egy címke kulcs-érték párját. |
+| [Item](../../aspose.slides/itagcollection/item) { get; set; } | Visszaadja vagy beállítja egy címke kulcs- és értékpárját. |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
 | [Add](../../aspose.slides/itagcollection/add)(string, string) | Új címkét ad a gyűjteményhez. |
 | [Clear](../../aspose.slides/itagcollection/clear)() | Eltávolítja az összes címkét a gyűjteményből. |
 | [Contains](../../aspose.slides/itagcollection/contains)(string) | Megállapítja, hogy a gyűjtemény tartalmaz-e egy adott nevet. |
-| [GetNameByIndex](../../aspose.slides/itagcollection/getnamebyindex)(int) | Visszaadja egy címke kulcsát a megadott indexen. |
+| [GetNameByIndex](../../aspose.slides/itagcollection/getnamebyindex)(int) | Visszaadja egy címke kulcsát a megadott indexnél. |
 | [GetNamesOfTags](../../aspose.slides/itagcollection/getnamesoftags)() | Visszaadja a címkék neveit. |
-| [GetValueByIndex](../../aspose.slides/itagcollection/getvaluebyindex)(int) | Visszaadja egy címke értékét a megadott indexen. |
-| [IndexOfName](../../aspose.slides/itagcollection/indexofname)(string) | Visszaadja a megadott kulcs nulla-bázisú indexét a gyűjteményben. |
+| [GetValueByIndex](../../aspose.slides/itagcollection/getvaluebyindex)(int) | Visszaadja egy címke értékét a megadott indexnél. |
+| [IndexOfName](../../aspose.slides/itagcollection/indexofname)(string) | Visszaadja a megadott kulcs nulla-alapú indexét a gyűjteményben. |
 | [Remove](../../aspose.slides/itagcollection/remove)(string) | Eltávolítja a megadott nevű címkét a gyűjteményből. |
-| [RemoveAt](../../aspose.slides/itagcollection/removeat)(int) | Eltávolítja a címkét a megadott indexen. |
+| [RemoveAt](../../aspose.slides/itagcollection/removeat)(int) | Eltávolítja a címkét a megadott indexnél. |
 
 ### Lásd még
 

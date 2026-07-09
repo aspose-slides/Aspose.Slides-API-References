@@ -1,14 +1,14 @@
 ---
 title: ISketchFormatEffectiveData
-second_title: Aspose.Sildes a .NET API referencia
-description: Változatlan objektum, amely a hatékony vonalvázlat tulajdonságokat tartalmaz.
+second_title: Aspose.Sildes a .NET API Referenciája
+description: Megváltoztathatatlan objektum, amely a hatékony vonalvázlat tulajdonságait tartalmazza.
 type: docs
-weight: 7010
+weight: 7030
 url: /hu/aspose.slides/isketchformateffectivedata/
 ---
 ## ISketchFormatEffectiveData interfész
 
-Változtathatatlan objektum, amely a hatékony vonalvázlat tulajdonságokat tartalmaz.
+Megváltoztathatatlan objektum, amely a hatékony vonalvázlat tulajdonságait tartalmazza.
 
 ```csharp
 public interface ISketchFormatEffectiveData
@@ -18,9 +18,9 @@ public interface ISketchFormatEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [SketchType](../../aspose.slides/isketchformateffectivedata/sketchtype) { get; } | Visszaadja a vázlat típusát. Csak olvasható [`LineSketchType`](../linesketchtype). |
+| [SketchType](../../aspose.slides/isketchformateffectivedata/sketchtype) { get; } | Visszaadja a sketch típusát. Csak olvasható [`LineSketchType`](../linesketchtype). |
 
-### Megjegyzések
+### Megjegyzés
 
 Ez az interfész a [`ILineFormatEffectiveData`](../ilineformateffectivedata) részeként használatos.
 

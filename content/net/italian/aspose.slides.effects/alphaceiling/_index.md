@@ -1,14 +1,14 @@
 ---
 title: AlphaCeiling
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta un effetto Alpha Ceiling. I valori di opacità Alpha maggiori di zero vengono modificati al 100. In altre parole, tutto ciò che è parzialmente opaco diventa completamente opaco.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta un effetto Alpha Ceiling. I valori di opacità Alpha maggiori di zero sono modificati a 100. In altre parole, tutto ciò che è parzialmente opaco diventa completamente opaco.
 type: docs
-weight: 2830
+weight: 2850
 url: /it/aspose.slides.effects/alphaceiling/
 ---
-## Classe AlphaCeiling
+## AlphaCeiling classe
 
-Rappresenta un effetto Alpha Ceiling. I valori Alpha (opacità) maggiori di zero vengono cambiati al 100 %. In altre parole, tutto ciò che è parzialmente opaco diventa completamente opaco.
+Rappresenta un effetto Alpha Ceiling. I valori Alpha (opacità) maggiori di zero sono modificati al 100%. In altre parole, tutto ciò che è parzialmente opaco diventa interamente opaco.
 
 ```csharp
 public sealed class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
@@ -24,8 +24,8 @@ public sealed class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphaceiling/equals)(object) | Determina se il [`AlphaCeiling`](../alphaceiling) specificato è uguale all'attuale [`AlphaCeiling`](../alphaceiling). |
-| [GetEffective](../../aspose.slides.effects/alphaceiling/geteffective)() | Ottiene i dati effettivi dell'effetto Alpha Ceiling con l'ereditarietà applicata. |
+| override [Equals](../../aspose.slides.effects/alphaceiling/equals)(object) | Determina se il [`AlphaCeiling`](../alphaceiling) specificato è uguale al [`AlphaCeiling`](../alphaceiling) corrente. |
+| [GetEffective](../../aspose.slides.effects/alphaceiling/geteffective)() | Ottiene i dati dell'effetto Alpha Ceiling effettivo con l'ereditarietà applicata. |
 | override [GetHashCode](../../aspose.slides.effects/alphaceiling/gethashcode)() | Funziona come funzione hash per un tipo particolare. |
 
 ### Vedi anche

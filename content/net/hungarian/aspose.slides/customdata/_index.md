@@ -1,14 +1,14 @@
 ---
 title: CustomData
-second_title: Aspose.Sildes .NET API referenciája
-description: A testreszabott adatok tárolóját képviseli.
+second_title: Aspose.Sildes .NET API-referencia
+description: Egyéni adatok tárolóját képviseli.
 type: docs
-weight: 2710
+weight: 2730
 url: /hu/aspose.slides/customdata/
 ---
 ## CustomData osztály
 
-Represents container for custom data.
+Az egyéni adatok tárolóját képviseli.
 
 ```csharp
 public class CustomData : ICustomData
@@ -19,7 +19,7 @@ public class CustomData : ICustomData
 | Név | Leírás |
 | --- | --- |
 | [CustomXmlParts](../../aspose.slides/customdata/customxmlparts) { get; } | Visszaadja az egyéni xml részek gyűjteményét. Csak olvasható [`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
-| [Tags](../../aspose.slides/customdata/tags) { get; } | Visszaadja a Customer Data Tags gyűjteményét. Csak olvasható [`ITagCollection`](../itagcollection). |
+| [Tags](../../aspose.slides/customdata/tags) { get; } | Visszaadja az ügyféladat-címkék gyűjteményét. Csak olvasható [`ITagCollection`](../itagcollection). |
 
 ### Lásd még
 

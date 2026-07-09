@@ -1,9 +1,9 @@
 ---
 title: ITableFormat
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Aspose.Sildes for .NET Referência de API
 description: Representa o formato de uma tabela.
 type: docs
-weight: 7220
+weight: 7240
 url: /pt/aspose.slides/itableformat/
 ---
 ## ITableFormat interface
@@ -25,7 +25,7 @@ public interface ITableFormat
 
 | Nome | Descrição |
 | --- | --- |
-| [GetEffective](../../aspose.slides/itableformat/geteffective)() | Obtém as propriedades de formatação efetiva da tabela com herança e estilos de tabela aplicados. |
+| [GetEffective](../../aspose.slides/itableformat/geteffective)() | Obtém as propriedades de formatação de tabela efetivas com herança e estilos de tabela aplicados. |
 
 ### Ver também
 

@@ -1,14 +1,14 @@
 ---
 title: ISectionSlideCollection
 second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje kolekci snímků v sekci.
+description: Představuje kolekci snímků v sekci.
 type: docs
-weight: 6890
+weight: 6910
 url: /cs/aspose.slides/isectionslidecollection/
 ---
 ## ISectionSlideCollection rozhraní
 
-Representuje kolekci snímků v sekci.
+Zastupuje kolekci snímků v sekci.
 
 ```csharp
 public interface ISectionSlideCollection : IGenericCollection<ISlide>
@@ -18,7 +18,7 @@ public interface ISectionSlideCollection : IGenericCollection<ISlide>
 
 | Název | Popis |
 | --- | --- |
-| [Item](../../aspose.slides/isectionslidecollection/item) { get; } | Získá prvek na zadaném indexu. Pouze pro čtení [`ISlide`](../islide). |
+| [Item](../../aspose.slides/isectionslidecollection/item) { get; } | Vrací prvek na určeném indexu. Pouze ke čtení [`ISlide`](../islide). |
 
 ### Viz také
 

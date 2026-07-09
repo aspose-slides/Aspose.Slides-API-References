@@ -1,14 +1,14 @@
 ---
 title: Legend
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili properti legenda bagan.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili properti legenda chart.
 type: docs
-weight: 2260
+weight: 2280
 url: /id/aspose.slides.charts/legend/
 ---
-## Legend kelas
+## Kelas Legend
 
-Mewakili properti legenda bagan.
+Mewakili properti legenda chart.
 
 ```csharp
 public class Legend : DomObject<Chart>, ILegend
@@ -18,22 +18,22 @@ public class Legend : DomObject<Chart>, ILegend
 
 | Nama | Deskripsi |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | Menentukan tinggi sebenarnya dari elemen bagan. Panggil metode IChart.ValidateChartLayout() terlebih dahulu untuk mendapatkan nilai sebenarnya. Baca Single. |
-| [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | Menentukan lebar sebenarnya dari elemen bagan. Panggil metode IChart.ValidateChartLayout() terlebih dahulu untuk mendapatkan nilai sebenarnya. Baca Single. |
-| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | Menentukan lokasi x (kiri) sebenarnya dari elemen bagan relatif terhadap sudut kiri atas bagan. Panggil metode IChart.ValidateChartLayout() terlebih dahulu untuk mendapatkan nilai sebenarnya. Baca Single. |
-| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | Menentukan bagian atas sebenarnya dari elemen bagan relatif terhadap sudut kiri atas bagan. Panggil metode IChart.ValidateChartLayout() terlebih dahulu untuk mendapatkan nilai sebenarnya. Baca Single. |
+| [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | Menentukan tinggi aktual elemen chart. Panggil metode IChart.ValidateChartLayout() sebelumnya untuk mendapatkan nilai aktual. Baca Single. |
+| [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | Menentukan lebar aktual elemen chart. Panggil metode IChart.ValidateChartLayout() sebelumnya untuk mendapatkan nilai aktual. Baca Single. |
+| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | Menentukan lokasi x aktual (kiri) dari elemen chart relatif terhadap sudut kiri atas chart. Panggil metode IChart.ValidateChartLayout() sebelumnya untuk mendapatkan nilai aktual. Baca Single. |
+| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | Menentukan bagian atas aktual dari elemen chart relatif terhadap sudut kiri atas chart. Panggil metode IChart.ValidateChartLayout() sebelumnya untuk mendapatkan nilai aktual. Baca Single. |
 | [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | Bawah. Hanya-baca Single. |
-| [Chart](../../aspose.slides.charts/legend/chart) { get; } | Mengembalikan bagan. Hanya-baca [`IChart`](../ichart). |
+| [Chart](../../aspose.slides.charts/legend/chart) { get; } | Mengembalikan chart. Hanya-baca [`IChart`](../ichart). |
 | [Entries](../../aspose.slides.charts/legend/entries) { get; } | Mendapatkan entri legenda. Hanya-baca [`ILegendEntryCollection`](../ilegendentrycollection). |
 | [Format](../../aspose.slides.charts/legend/format) { get; } | Mengembalikan format legenda. Hanya-baca [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/legend/height) { get; set; } | Mengembalikan atau mengatur tinggi legenda sebagai fraksi dari tinggi bagan. Baca/tulis Single. |
-| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | Menentukan apakah elemen bagan lainnya diizinkan menumpuk legenda. Baca/tulis Boolean. |
-| [Position](../../aspose.slides.charts/legend/position) { get; set; } | Menentukan posisi legenda pada bagan. Nilai Non-NaN dari properti X, Y, Width, Heigt mengesampingkan efek properti ini. Baca/tulis [`LegendPositionType`](../legendpositiontype). |
+| [Height](../../aspose.slides.charts/legend/height) { get; set; } | Mengembalikan atau mengatur tinggi legenda sebagai fraksi dari tinggi chart. Baca/tulis Single. |
+| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | Menentukan apakah elemen chart lain diizinkan melapisi legenda. Baca/tulis Boolean. |
+| [Position](../../aspose.slides.charts/legend/position) { get; set; } | Menentukan posisi legenda pada chart. Nilai Non-NaN dari properti X, Y, Width, Height menggantikan efek properti ini. Baca/tulis [`LegendPositionType`](../legendpositiontype). |
 | [Right](../../aspose.slides.charts/legend/right) { get; } | Kanan. Hanya-baca Single. |
 | [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | Format teks. Hanya-baca [`IChartTextFormat`](../icharttextformat). |
-| [Width](../../aspose.slides.charts/legend/width) { get; set; } | Mengembalikan atau mengatur lebar legenda sebagai fraksi dari lebar bagan. Baca/tulis Single. |
-| [X](../../aspose.slides.charts/legend/x) { get; set; } | Mengembalikan atau mengatur koordinat x legenda sebagai fraksi dari lebar bagan. Baca/tulis Single. |
-| [Y](../../aspose.slides.charts/legend/y) { get; set; } | Mengembalikan atau mengatur koordinat y legenda sebagai fraksi dari tinggi bagan. Baca/tulis Single. |
+| [Width](../../aspose.slides.charts/legend/width) { get; set; } | Mengembalikan atau mengatur lebar legenda sebagai fraksi dari lebar chart. Baca/tulis Single. |
+| [X](../../aspose.slides.charts/legend/x) { get; set; } | Mengembalikan atau mengatur koordinat x legenda sebagai fraksi dari lebar chart. Baca/tulis Single. |
+| [Y](../../aspose.slides.charts/legend/y) { get; set; } | Mengembalikan atau mengatur koordinat y legenda sebagai fraksi dari tinggi chart. Baca/tulis Single. |
 
 ### Lihat Juga
 

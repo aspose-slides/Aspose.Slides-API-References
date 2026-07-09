@@ -1,14 +1,14 @@
 ---
 title: AutoShapeLock
 second_title: Aspose.Sildes .NET API referencia
-description: Meghatározza, hogy a szülő AutoshapeEx mely műveletei vannak letiltva.
+description: Meghatározza, hogy a szülő AutoshapeEx-en mely műveletek vannak letiltva.
 type: docs
-weight: 890
+weight: 910
 url: /hu/aspose.slides/autoshapelock/
 ---
 ## AutoShapeLock osztály
 
-Meghatározza, hogy a szülő AutoshapeEx mely műveletei vannak letiltva.
+Meghatározza, hogy mely műveletek vannak letiltva a szülő AutoshapeEx-en.
 
 ```csharp
 public class AutoShapeLock : BaseShapeLock, IAutoShapeLock
@@ -16,14 +16,14 @@ public class AutoShapeLock : BaseShapeLock, IAutoShapeLock
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/autoshapelock/adjusthandleslocked) { get; set; } | Meghatározza, hogy a módosító értékek változtatása tiltott-e. Olvasás/írás Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/autoshapelock/arrowheadslocked) { get; set; } | Meghatározza, hogy a nyilak végének változtatása tiltott-e. Olvasás/írás Boolean. |
-| [AspectRatioLocked](../../aspose.slides/autoshapelock/aspectratiolocked) { get; set; } | Meghatározza, hogy a forma méretezéskor megőrizze-e az oldalarányt. Olvasás/írás Boolean. |
+| [AdjustHandlesLocked](../../aspose.slides/autoshapelock/adjusthandleslocked) { get; set; } | Meghatározza, hogy a szabályozási értékek módosítása tiltott-e. Olvasás/írás Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/autoshapelock/arrowheadslocked) { get; set; } | Meghatározza, hogy a nyílfejek módosítása tiltott-e. Olvasás/írás Boolean. |
+| [AspectRatioLocked](../../aspose.slides/autoshapelock/aspectratiolocked) { get; set; } | Meghatározza, hogy a forma méretezésnél meg kell-e őrizni az arányt. Olvasás/írás Boolean. |
 | [EditPointsLocked](../../aspose.slides/autoshapelock/editpointslocked) { get; set; } | Meghatározza, hogy a forma körvonalának közvetlen módosítása tiltott-e. Olvasás/írás Boolean. |
-| [GroupingLocked](../../aspose.slides/autoshapelock/groupinglocked) { get; set; } | Meghatározza, hogy a forma egy csoportba való hozzáadása tiltott-e. Olvasás/írás Boolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Igaz értéket ad vissza, ha az összes zárolási jelző le van tiltva. Csak olvasható Boolean. |
+| [GroupingLocked](../../aspose.slides/autoshapelock/groupinglocked) { get; set; } | Meghatározza, hogy a forma csoportba való hozzáadása tiltott-e. Olvasás/írás Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Igaz értékkel tér vissza, ha az összes zárolási jelző le van tiltva. Csak olvasható Boolean. |
 | [PositionLocked](../../aspose.slides/autoshapelock/positionlocked) { get; set; } | Meghatározza, hogy a forma mozgatása tiltott-e. Olvasás/írás Boolean. |
 | [RotateLocked](../../aspose.slides/autoshapelock/rotatelocked) { get; set; } | Meghatározza, hogy a forma forgatási szögének módosítása tiltott-e. Olvasás/írás Boolean. |
 | [SelectLocked](../../aspose.slides/autoshapelock/selectlocked) { get; set; } | Meghatározza, hogy a forma kiválasztása tiltott-e. Olvasás/írás Boolean. |

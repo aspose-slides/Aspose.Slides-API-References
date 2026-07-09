@@ -1,9 +1,9 @@
 ---
 title: AudioCollection
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta una collezione di file audio incorporati.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Rappresenta una raccolta di file audio incorporati.
 type: docs
-weight: 840
+weight: 860
 url: /it/aspose.slides/audiocollection/
 ---
 ## AudioCollection classe
@@ -29,10 +29,10 @@ public class AudioCollection : DomObject<Presentation>, IAudioCollection
 | --- | --- |
 | [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_1)(byte[]) | Crea e aggiunge un audio a una presentazione da un array di byte. |
 | [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio)(IAudio) | Aggiunge una copia di un file audio da un'altra presentazione. |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_2)(Stream) | Crea e aggiunge un audio a una presentazione dallo stream. |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Crea e aggiunge un audio a una presentazione dallo stream. |
-| [CopyTo](../../aspose.slides/audiocollection/copyto)(Array, int) | Copia gli audio in un array specificato iniziando dall'indice specificato. |
-| [GetEnumerator](../../aspose.slides/audiocollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la collezione. |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_2)(Stream) | Crea e aggiunge un audio a una presentazione da uno stream. |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Crea e aggiunge un audio a una presentazione da uno stream. |
+| [CopyTo](../../aspose.slides/audiocollection/copyto)(Array, int) | Copia gli audio in un array specificato a partire dall'indice specificato. |
+| [GetEnumerator](../../aspose.slides/audiocollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
 
 ### Vedi anche
 

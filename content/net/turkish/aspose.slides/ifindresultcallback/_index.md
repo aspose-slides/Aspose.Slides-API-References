@@ -1,14 +1,14 @@
 ---
 title: IFindResultCallback
-second_title: Aspose.Sildes .NET API Referansı
-description: Arama metni sonucunu almak için kullanılan geri çağırma arayüzü.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Arama metni sonucunu almak için kullanılan geri arama (callback) arabirimi.
 type: docs
-weight: 5800
+weight: 5820
 url: /tr/aspose.slides/ifindresultcallback/
 ---
-## IFindResultCallback arayüz
+## IFindResultCallback arabirimi
 
-Arama metni sonucunu almak için kullanılan geri çağırma arayüzü.
+Arama metni sonucunu almak için kullanılan Callback arabirimi.
 
 ```csharp
 public interface IFindResultCallback
@@ -18,9 +18,9 @@ public interface IFindResultCallback
 
 | Ad | Açıklama |
 | --- | --- |
-| [FoundResult](../../aspose.slides/ifindresultcallback/foundresult)(ITextFrame, string, string, int) | Bulunan metin hakkında veri alan geri çağırma yöntemi. |
+| [FoundResult](../../aspose.slides/ifindresultcallback/foundresult)(ITextFrame, string, string, int) | Callback yöntemi, bulunan metin hakkında veri alır. |
 
-### Ayrıca Bakınız
+### Ayrıca bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

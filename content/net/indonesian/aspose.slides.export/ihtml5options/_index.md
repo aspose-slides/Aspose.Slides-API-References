@@ -1,14 +1,14 @@
 ---
 title: IHtml5Options
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili opsi ekspor HTML5.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili opsi pengeksporan HTML5.
 type: docs
-weight: 3910
+weight: 3930
 url: /id/aspose.slides.export/ihtml5options/
 ---
 ## IHtml5Options antarmuka
 
-Mewakili opsi ekspor HTML5.
+Mewakili opsi pengeksporan HTML5.
 
 ```csharp
 public interface IHtml5Options : ISaveOptions
@@ -18,13 +18,14 @@ public interface IHtml5Options : ISaveOptions
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | Mengembalikan atau mengatur opsi animasi shape. Baca/tulis Boolean. |
+| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | Mengembalikan atau mengatur opsi animasi bentuk. Baca/tulis Boolean. |
 | [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | Mengembalikan atau mengatur opsi animasi transisi. Baca/tulis Boolean. |
-| [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | Mengembalikan antarmuka ISaveOptions. Hanya-baca [`ISaveOptions`](../isaveoptions). |
-| [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | Mendapatkan atau mengatur nilai yang menunjukkan apakah teks dirender tanpa menggunakan ligatur. Ketika disetel ke `true`, ligatur akan dinonaktifkan dalam output yang dirender. Secara default, properti ini disetel ke `false`. |
+| [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | Mengembalikan antarmuka ISaveOptions. Baca-saja [`ISaveOptions`](../isaveoptions). |
+| [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | Mendapatkan atau mengatur nilai yang menunjukkan apakah teks dirender tanpa menggunakan ligatur. Saat diset ke `true`, ligatur akan dinonaktifkan dalam output yang dirender. Secara default, properti ini diset ke `false`. |
 | [EmbedImages](../../aspose.slides.export/ihtml5options/embedimages) { get; set; } | Mengembalikan atau mengatur opsi penyematan gambar. Baca/tulis Boolean. |
-| [OutputPath](../../aspose.slides.export/ihtml5options/outputpath) { get; set; } | Menentukan di mana sumber daya eksternal harus disimpan. Baca/tulis String. |
-| [SlidesLayoutOptions](../../aspose.slides.export/ihtml5options/slideslayoutoptions) { get; set; } | Mendapatkan atau mengatur mode di mana slide ditempatkan pada halaman saat mengekspor presentasi [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [OutputPath](../../aspose.slides.export/ihtml5options/outputpath) { get; set; } | Menentukan dimana sumber daya eksternal harus disimpan. Baca/tulis String. |
+| [PicturesCompression](../../aspose.slides.export/ihtml5options/picturescompression) { get; set; } | Mewakili tingkat kompresi gambar. Baca/tulis [`PicturesCompression`](./picturescompression). |
+| [SlidesLayoutOptions](../../aspose.slides.export/ihtml5options/slideslayoutoptions) { get; set; } | Mendapatkan atau mengatur mode dimana slide ditempatkan pada halaman saat mengekspor presentasi [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### Contoh
 

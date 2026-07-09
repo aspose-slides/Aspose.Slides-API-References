@@ -1,14 +1,14 @@
 ---
 title: Reflection
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir Reflection etkisini temsil eder.
+description: Bir yansıma efekti temsil eder.
 type: docs
-weight: 3620
+weight: 3640
 url: /tr/aspose.slides.effects/reflection/
 ---
 ## Reflection sınıfı
 
-Bir Reflection efekti temsil eder.
+Represents a Reflection effect.
 
 ```csharp
 public sealed class Reflection : IReflection
@@ -18,28 +18,28 @@ public sealed class Reflection : IReflection
 
 | Ad | Açıklama |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | Bulanıklık yarıçapı. Okunur/yazılır Double. |
-| [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | Yansıtma yönü. Okunur/yazılır Single. |
-| [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | Yansıtma mesafesi. Okunur/yazılır Double. |
-| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | Son alfa değerinin (yüzde) son konumunu (alfa gradyan rampa boyunca) belirtir. Okunur/yazılır Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | Yansıtma son opaklığı. (percents). Okunur/yazılır Single. |
-| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | Yansıtmayı ofsetlemek için yönü belirtir. (angle). Okunur/yazılır Single. |
-| [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | Dikdörtgen hizalaması. Okunur/yazılır [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | Yansıtmanın, şekil döndürülürse şekil ile birlikte döndürülüp döndürülmeyeceğini belirtir. Okunur/yazılır Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | Yatay ölçeklendirme faktörünü belirtir, negatif ölçekleme çevirmeye neden olur. (percents) Okunur/yazılır Double. |
-| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | Dikey ölçeklendirme faktörünü belirtir, negatif ölçekleme çevirmeye neden olur. (percents) Okunur/yazılır Double. |
-| [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | Yatay yamultma açısını belirtir. Okunur/yazılır Double. |
-| [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | Dikey yamultma açısını belirtir. Okunur/yazılır Double. |
-| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | Başlangıç alfa değerinin (yüzde) başlangıç konumunu (alfa gradyan rampa boyunca) belirtir. Okunur/yazılır Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | Yansıtmanın başlangıç opaklığı. (percents). Okunur/yazılır Single. |
+| [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | Bulanıklık yarıçapı. Okuma/Yazma Double. |
+| [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | Yansıma yönü. Okuma/Yazma Single. |
+| [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | Yansıma mesafesi. Okuma/Yazma Double. |
+| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | Son alfa değerinin (yüzde) bitiş konumunu (alfa gradient merdiveni boyunca) belirtir. Okuma/Yazma Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | Yansıma son saydamlığı. (yüzde). Okuma/Yazma Single. |
+| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | Yansımayı kaydırma yönünü belirtir. (açı). Okuma/Yazma Single. |
+| [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | Dikdörtgen hizalaması. Okuma/Yazma [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | Şekil döndürülürse yansımayı şekil ile birlikte döndürülmesi gerekip gerekmediğini belirtir. Okuma/Yazma Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | Yatay ölçekleme faktörünü belirtir, negatif ölçekleme bir çevrim (flip) oluşturur. (yüzde) Okuma/Yazma Double. |
+| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | Dikey ölçekleme faktörünü belirtir, negatif ölçekleme bir çevrim (flip) oluşturur. (yüzde) Okuma/Yazma Double. |
+| [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | Yatay eğim açısını belirtir. Okuma/Yazma Double. |
+| [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | Dikey eğim açısını belirtir. Okuma/Yazma Double. |
+| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | Alfa gradient merdiveni boyunca başlangıç alfa değerinin (yüzde) başlangıç konumunu belirtir. Okuma/Yazma Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | Başlangıç yansıma saydamlığı. (yüzde). Okuma/Yazma Single. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/reflection/equals)(object) | Belirtilen [`Reflection`](../reflection) öğesinin geçerli [`Reflection`](../reflection) öğesine eşit olup olmadığını belirler. |
+| override [Equals](../../aspose.slides.effects/reflection/equals)(object) | Belirtilen [`Reflection`](../reflection) mevcut [`Reflection`](../reflection) ile eşit olup olmadığını belirler. |
 | [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | Uygulanan kalıtımla etkili Reflection efekt verilerini alır. |
-| override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | Belirli bir tip için karma işlevi olarak hizmet verir. |
+| override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | Belirli bir tip için hash işlevi olarak hizmet verir. |
 
 ### Ayrıca Bakınız
 

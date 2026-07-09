@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlideManager
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Gestore delle diapositive master handout.
+description: Gestore master delle diapositive handout.
 type: docs
-weight: 6350
+weight: 6370
 url: /it/aspose.slides/imasterhandoutslidemanager/
 ---
 ## IMasterHandoutSlideManager interfaccia
 
-Gestore delle diapositive master handout.
+Gestore delle diapositive di handout master.
 
 ```csharp
 public interface IMasterHandoutSlideManager
@@ -18,14 +18,14 @@ public interface IMasterHandoutSlideManager
 
 | Nome | Descrizione |
 | --- | --- |
-| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | Restituisce un master per tutte le diapositive note di questa presentazione se ne esiste uno, altrimenti restituisce null. Solo lettura [`IMasterHandoutSlide`](../imasterhandoutslide). |
+| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | Restituisce un master per tutte le diapositive delle note di questa presentazione, se presente, altrimenti restituisce null. Solo lettura [`IMasterHandoutSlide`](../imasterhandoutslide). |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | Rimuove la diapositiva master handout. |
-| [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | Imposta la diapositiva master handout predefinita alla diapositiva handout correlata. |
+| [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | Rimuove la diapositiva di handout master. |
+| [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | Imposta la diapositiva di handout master predefinita sulla diapositiva di handout correlata. |
 
 ### Vedi anche
 

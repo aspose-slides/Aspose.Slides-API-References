@@ -3,7 +3,7 @@ title: MathematicalTextFactory
 second_title: Aspose.Sildes pro .NET API Reference
 description: Umožňuje vytvořit prvek MathematicalText
 type: docs
-weight: 9050
+weight: 9070
 url: /cs/aspose.slides.mathtext/mathematicaltextfactory/
 ---
 ## MathematicalTextFactory třída
@@ -14,7 +14,7 @@ Umožňuje vytvořit prvek MathematicalText
 public class MathematicalTextFactory : IMathematicalTextFactory
 ```
 
-## Konstruktory
+## Konstruktorové metody
 
 | Název | Popis |
 | --- | --- |
@@ -24,10 +24,10 @@ public class MathematicalTextFactory : IMathematicalTextFactory
 
 | Název | Popis |
 | --- | --- |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Vytvoří prázdný element MathematicalText |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Vytvoří element MathematicalText se zadanou hodnotou |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Vytvoří prázdný element MathematicalText se zadanou hodnotou |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Vytvoří prázdný element MathematicalText se zadanou hodnotou a vlastnostmi formátování |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Vytvoří prázdný prvek matematického textu |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Vytvoří prvek matematického textu se zadanou hodnotou |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Vytvoří prázdný prvek matematického textu se zadanou hodnotou |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Vytvoří prázdný prvek matematického textu se zadanou hodnotou a formátovacími vlastnostmi |
 
 ### Poznámky
 

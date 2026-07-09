@@ -1,14 +1,14 @@
 ---
 title: BlobManagementOptions
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta le opzioni che possono essere utilizzate per gestire le regole di gestione BLOB e altre impostazioni BLOB.
+description: Rappresenta le opzioni che possono essere utilizzate per gestire le regole di gestione dei BLOB e altre impostazioni dei BLOB.
 type: docs
-weight: 1010
+weight: 1030
 url: /it/aspose.slides/blobmanagementoptions/
 ---
 ## BlobManagementOptions classe
 
-Rappresenta le opzioni che possono essere usate per gestire le regole di gestione BLOB e altre impostazioni BLOB.
+Rappresenta le opzioni che possono essere utilizzate per gestire le regole di gestione dei BLOB e altre impostazioni dei BLOB.
 
 ```csharp
 public class BlobManagementOptions : IBlobManagementOptions
@@ -18,16 +18,16 @@ public class BlobManagementOptions : IBlobManagementOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [BlobManagementOptions](blobmanagementoptions)() | Crea nuove opzioni di gestione blob predefinite. |
+| [BlobManagementOptions](blobmanagementoptions)() | Crea nuove opzioni predefinite di gestione dei BLOB. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
 | [IsTemporaryFilesAllowed](../../aspose.slides/blobmanagementoptions/istemporaryfilesallowed) { get; set; } | Questa proprietà definisce se è possibile creare file temporanei durante il lavoro con i BLOB, il che riduce notevolmente il consumo di memoria ma richiede i permessi per creare file. Tutti i file verranno eliminati al termine del lavoro con la presentazione. |
-| [MaxBlobsBytesInMemory](../../aspose.slides/blobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Definisce la dimensione totale massima (in byte) che tutti i BLOB possono occupare in memoria. Per impostazione predefinita, tutti i BLOB vengono caricati in memoria; solo quando questo limite viene raggiunto vengono utilizzati meccanismi alternativi (come i file temporanei). Mantenere i BLOB in memoria massimizza le prestazioni ma può causare un elevato utilizzo di memoria. Utilizza questa proprietà per adattare il comportamento al tuo ambiente o ai requisiti. |
-| [PresentationLockingBehavior](../../aspose.slides/blobmanagementoptions/presentationlockingbehavior) { get; set; } | Questa proprietà definisce se un'istanza della classe Presentation può essere proprietaria della sorgente – file o flusso – durante la durata dell'istanza. Se l'istanza è proprietaria, blocca la sorgente. Questo aiuta a migliorare il consumo di memoria e le prestazioni durante il lavoro con i BLOB, ma la sorgente (flusso o file) non può essere modificata durante la durata dell'istanza di Presentation. |
-| [TempFilesRootPath](../../aspose.slides/blobmanagementoptions/tempfilesrootpath) { get; set; } | Il percorso radice in cui verranno creati i file temporanei. Per impostazione predefinita viene utilizzata la directory temporanea di sistema. Il processo di hosting deve avere i permessi per creare file e cartelle lì. |
+| [MaxBlobsBytesInMemory](../../aspose.slides/blobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Definisce la dimensione totale massima (in byte) che tutti i BLOB possono occupare in memoria. Per impostazione predefinita, tutti i BLOB vengono caricati in memoria; solo quando questo limite viene raggiunto vengono utilizzati meccanismi alternativi (come i file temporanei). Mantenere i BLOB in memoria massimizza le prestazioni ma può comportare un elevato utilizzo di memoria. Utilizza questa proprietà per adattare il comportamento al tuo ambiente o alle tue esigenze. |
+| [PresentationLockingBehavior](../../aspose.slides/blobmanagementoptions/presentationlockingbehavior) { get; set; } | Questa proprietà definisce se un'istanza della classe Presentation può essere proprietaria della fonte - file o stream - per tutta la durata dell'istanza. Se l'istanza è proprietaria, blocca la fonte. Questo aiuta a migliorare il consumo di memoria e le prestazioni durante il lavoro con i BLOB, ma la fonte (stream o file) non può essere modificata durante la durata dell'istanza di Presentation. |
+| [TempFilesRootPath](../../aspose.slides/blobmanagementoptions/tempfilesrootpath) { get; set; } | Il percorso radice dove verranno creati i file temporanei. Per impostazione predefinita verrà utilizzata la directory temporanea di sistema. Il processo di hosting deve avere i permessi per creare file e cartelle in questo percorso. |
 
 ### Vedi anche
 

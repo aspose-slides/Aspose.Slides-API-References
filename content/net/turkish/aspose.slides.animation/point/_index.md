@@ -3,7 +3,7 @@ title: Point
 second_title: Aspose.Sildes için .NET API Referansı
 description: Animasyon noktasını temsil eder.
 type: docs
-weight: 700
+weight: 720
 url: /tr/aspose.slides.animation/point/
 ---
 ## Point sınıfı
@@ -25,9 +25,9 @@ public class Point : IPoint
 
 | Ad | Açıklama |
 | --- | --- |
-| [Formula](../../aspose.slides.animation/point/formula) { get; set; } | Değerlerin, from, to, by özniteliklerinin içindeki formüller şunlardan oluşabilir: Standart aritmetik operatörler: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Sabitler: ‘pi’ ‘e’ Koşullu operatörler: ‘abs’, ‘min’, ‘max’, ‘?’ (if) Karşılaştırma operatörleri: '==', '&gt;=', '', '!=', '!' Trigonometrik operatörler: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Doğal logaritma ‘ln()’ Özellik referansları (host destekli özellikler) örnek: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Okuma/yazma String. |
-| [Time](../../aspose.slides.animation/point/time) { get; set; } | Zaman değerini temsil eder. Okuma/yazma Single. |
-| [Value](../../aspose.slides.animation/point/value) { get; set; } | Nokta değerini temsil eder. Yalnızca: bool, ColorFormat, float, int, string. Okuma/yazma Object. |
+| [Formula](../../aspose.slides.animation/point/formula) { get; set; } | Values, from, to, by öznitelikleri içindeki formüller şunlardan oluşabilir: Standart aritmetik operatörler: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Sabitler: ‘pi’ ‘e’ Koşullu operatörler: ‘abs’, ‘min’, ‘max’, ‘?’ (if) Karşılaştırma operatörleri: '==', '&gt;=', '', '!=', '!' Trigonometrik operatörler: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Doğal logaritma ‘ln()’ Özellik referansları (host destekli özellikler) örnek olarak: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Okunur/yazılır String. |
+| [Time](../../aspose.slides.animation/point/time) { get; set; } | Zaman değerini temsil eder. Okunur/yazılır Single. |
+| [Value](../../aspose.slides.animation/point/value) { get; set; } | Nokta değerini temsil eder. Yalnızca: bool, ColorFormat, float, int, string. Okunur/yazılır Object. |
 
 ### Ayrıca Bakınız
 

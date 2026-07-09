@@ -1,14 +1,14 @@
 ---
 title: IDataLabelCollection
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en serie etiketter.
+description: Representerar seriemärkningar.
 type: docs
-weight: 2010
+weight: 2030
 url: /sv/aspose.slides.charts/idatalabelcollection/
 ---
 ## IDataLabelCollection gränssnitt
 
-Representerar seriets etiketter.
+Representerar seriemärkningar.
 
 ```csharp
 public interface IDataLabelCollection : IChartComponent, IEnumerable<IDataLabel>
@@ -18,21 +18,21 @@ public interface IDataLabelCollection : IChartComponent, IEnumerable<IDataLabel>
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/idatalabelcollection/asichartcomponent) { get; } | Tillåter att hämta bas-IChartComponent-gränssnittet. Skrivskyddad [`IChartComponent`](../ichartcomponent). |
-| [AsIEnumerable](../../aspose.slides.charts/idatalabelcollection/asienumerable) { get; } | Tillåter att hämta bas-IEnumerable-gränssnittet. Skrivskyddad IEnumerable. |
-| [Count](../../aspose.slides.charts/idatalabelcollection/count) { get; } | Hämtar antalet alla dataetiketter i samlingen. Skrivskyddad Int32. |
-| [CountOfVisibleDataLabels](../../aspose.slides.charts/idatalabelcollection/countofvisibledatalabels) { get; } | Hämtar antalet synliga dataetiketter i samlingen. Skrivskyddad Int32. |
-| [DefaultDataLabelFormat](../../aspose.slides.charts/idatalabelcollection/defaultdatalabelformat) { get; } | Returnerar standardformatet för alla dataetiketter i samlingen. Skrivskyddad [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/idatalabelcollection/isvisible) { get; } | Falskt betyder att dataetiketten inte är synlig som standard (och att alla Show*-flaggor (ShowValue, ...) för DefaultDataLabelFormat-egenskapen är falska). Skrivskyddad Boolean. |
-| [Item](../../aspose.slides.charts/idatalabelcollection/item) { get; } | Hämtar dataetiketten för datapunkten med det angivna indexet. |
-| [LeaderLinesFormat](../../aspose.slides.charts/idatalabelcollection/leaderlinesformat) { get; } | Representerar formatet för ledlinjer för dataetiketter. Skrivskyddad [`IChartLinesFormat`](../ichartlinesformat). |
-| [ParentSeries](../../aspose.slides.charts/idatalabelcollection/parentseries) { get; } | Returnerar föräldrakchartsserien. Skrivskyddad [`IChartSeries`](../ichartseries). |
+| [AsIChartComponent](../../aspose.slides.charts/idatalabelcollection/asichartcomponent) { get; } | Tillåter att hämta bas-IChartComponent-gränssnittet. Endast läsning [`IChartComponent`](../ichartcomponent). |
+| [AsIEnumerable](../../aspose.slides.charts/idatalabelcollection/asienumerable) { get; } | Tillåter att hämta bas-IEnumerable-gränssnittet. Endast läsning IEnumerable. |
+| [Count](../../aspose.slides.charts/idatalabelcollection/count) { get; } | Hämtar antalet alla datamärkningar i samlingen. Endast läsning Int32. |
+| [CountOfVisibleDataLabels](../../aspose.slides.charts/idatalabelcollection/countofvisibledatalabels) { get; } | Hämtar antalet synliga datamärkningar i samlingen. Endast läsning Int32. |
+| [DefaultDataLabelFormat](../../aspose.slides.charts/idatalabelcollection/defaultdatalabelformat) { get; } | Returnerar standardformat för alla datamärkningar i samlingen. Endast läsning [`IDataLabelFormat`](../idatalabelformat). |
+| [IsVisible](../../aspose.slides.charts/idatalabelcollection/isvisible) { get; } | Falskt betyder att datamärkning inte är synlig som standard (och att alla Show*-flaggor (ShowValue, ...) för egenskapen DefaultDataLabelFormat är falska). Endast läsning Boolean. |
+| [Item](../../aspose.slides.charts/idatalabelcollection/item) { get; } | Hämtar datamärkningen för datapunkten med det angivna indexet. |
+| [LeaderLinesFormat](../../aspose.slides.charts/idatalabelcollection/leaderlinesformat) { get; } | Representerar formatet för ledarlinjer för datamärkningar. Endast läsning [`IChartLinesFormat`](../ichartlinesformat). |
+| [ParentSeries](../../aspose.slides.charts/idatalabelcollection/parentseries) { get; } | Returnerar den överordnade diagramserien. Endast läsning [`IChartSeries`](../ichartseries). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Hide](../../aspose.slides.charts/idatalabelcollection/hide)() | Gör dataetiketten dold som standard genom att sätta alla Show*-flaggor (ShowValue, ...) för DefaultDataLabelFormat-egenskapen till falskt läge. IsVisible blir falskt efter detta. |
+| [Hide](../../aspose.slides.charts/idatalabelcollection/hide)() | Gör datamärkning dold som standard genom att sätta alla Show*-flaggor (ShowValue, ...) för egenskapen DefaultDataLabelFormat till falskt läge. IsVisible blir falskt efter detta. |
 | [IndexOf](../../aspose.slides.charts/idatalabelcollection/indexof)(IDataLabel) | Returnerar ett index för den angivna DataLabel i samlingen. |
 
 ### Se även
@@ -40,6 +40,6 @@ public interface IDataLabelCollection : IChartComponent, IEnumerable<IDataLabel>
 * gränssnitt [IChartComponent](../ichartcomponent)
 * gränssnitt [IDataLabel](../idatalabel)
 * namnrymd [Aspose.Slides.Charts](../../aspose.slides.charts)
-* samling [Aspose.Slides](../../)
+* assemblage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

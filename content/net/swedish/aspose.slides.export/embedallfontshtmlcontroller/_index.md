@@ -1,20 +1,20 @@
 ---
 title: EmbedAllFontsHtmlController
 second_title: Aspose.Sildes för .NET API-referens
-description: Formateringskontrollerklassen som ska användas för att bädda in alla presentationsfonter i WOFF-format.
+description: Formateringskontrollerklassen att använda för att bädda in alla presentationsfonter i WOFF-format.
 type: docs
-weight: 3740
+weight: 3760
 url: /sv/aspose.slides.export/embedallfontshtmlcontroller/
 ---
 ## EmbedAllFontsHtmlController klass
 
-Den formateringskontrollerklassen som används för att bädda in alla presentationsfonter i WOFF-format.
+Formateringskontrollerklassen att använda för att bädda in alla presentationsfonter i WOFF-format.
 
 ```csharp
 public class EmbedAllFontsHtmlController : IHtmlFormattingController
 ```
 
-## Konstruktorer
+## Konstruktörer
 
 | Namn | Beskrivning |
 | --- | --- |
@@ -25,19 +25,19 @@ public class EmbedAllFontsHtmlController : IHtmlFormattingController
 
 | Namn | Beskrivning |
 | --- | --- |
-| virtual [WriteAllFonts](../../aspose.slides.export/embedallfontshtmlcontroller/writeallfonts)(IHtmlGenerator, IPresentation) | Skriver alla teckensnitt som finns i [`Presentation`](../../aspose.slides/presentation). |
-| virtual [WriteDocumentEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | Anropas för att skriva html-dokumentets sidfot. Anropas en gång per presentationskonvertering. |
-| virtual [WriteDocumentStart](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | Anropas för att skriva html-dokumentets sidhuvud. Anropas en gång per presentationskonvertering. |
+| virtual [WriteAllFonts](../../aspose.slides.export/embedallfontshtmlcontroller/writeallfonts)(IHtmlGenerator, IPresentation) | Skriver alla fonter som finns i [`Presentation`](../../aspose.slides/presentation). |
+| virtual [WriteDocumentEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | Kallas för att skriva html-dokumentets sidfot. Kallas en gång per presentationskonvertering. |
+| virtual [WriteDocumentStart](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | Kallas för att skriva html-dokumentets sidhuvud. Kallas en gång per presentationskonvertering. |
 | virtual [WriteFont](../../aspose.slides.export/embedallfontshtmlcontroller/writefont)(IHtmlGenerator, IFontData, IFontData, string, string, byte[]) | Skriver data som base64 i själva HTML-dokumentet |
-| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | Anropas innan formens rendering. Anropas en gång per varje form. Om denna funktion skriver något till generatorn avslutas den aktuella bildgenereringen för sliden, det tillagda html-fragmentet infogas och en ny bild startas ovanpå den föregående. |
-| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | Anropas innan formens rendering. Anropas en gång per varje form. Om denna funktion skriver något till generatorn avslutas den aktuella bildgenereringen för sliden, det tillagda html-fragmentet infogas och en ny bild startas ovanpå den föregående. |
-| virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | Anropas för att skriva html-slide-fot. Anropas en gång per varje slide. |
-| virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | Anropas för att skriva html-slide-huvud. Anropas en gång per varje slide. |
+| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | Kallas före rendering av shape. Kallas en gång per varje shape. Om denna funktion skriver något till generatorn avslutas den aktuella bildgenereringen för sliden, det tillagda html-fragmentet infogas och en ny bild startas ovanpå den föregående. |
+| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | Kallas före rendering av shape. Kallas en gång per varje shape. Om denna funktion skriver något till generatorn avslutas den aktuella bildgenereringen för sliden, det tillagda html-fragmentet infogas och en ny bild startas ovanpå den föregående. |
+| virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | Kallas för att skriva html-slide-sidfot. Kallas en gång per varje slide. |
+| virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | Kallas för att skriva html-slide-sidhuvud. Kallas en gång per varje slide. |
 
-### Se också
+### Se även
 
 * gränssnitt [IHtmlFormattingController](../ihtmlformattingcontroller)
-* namnområde [Aspose.Slides.Export](../../aspose.slides.export)
-* assembly [Aspose.Slides](../../)
+* namnutrymme [Aspose.Slides.Export](../../aspose.slides.export)
+* samling [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

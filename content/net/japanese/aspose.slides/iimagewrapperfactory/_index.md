@@ -1,14 +1,14 @@
 ---
 title: IImageWrapperFactory
 second_title: Aspose.Sildes for .NET API リファレンス
-description: このインターフェイスは IBitmapWrapper の初期化を可能にします。
+description: このインターフェイスは IBitmapWrapper を初期化できるようにします。
 type: docs
-weight: 6160
+weight: 6180
 url: /ja/aspose.slides/iimagewrapperfactory/
 ---
 ## IImageWrapperFactory インターフェイス
 
-このインターフェイスは IBitmapWrapper の初期化を可能にします。
+このインターフェイスは IBitmapWrapper を初期化することを可能にします。
 
 ```csharp
 public interface IImageWrapperFactory
@@ -18,7 +18,7 @@ public interface IImageWrapperFactory
 
 | 名前 | 説明 |
 | --- | --- |
-| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | 指定された既存の画像から ImageWrapper クラスの新しいインスタンスを初期化します。 |
+| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | 指定された既存画像から ImageWrapper クラスの新しいインスタンスを初期化します。 |
 | [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | 指定されたデータストリームから ImageWrapper クラスの新しいインスタンスを初期化します。 |
 | [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | 指定されたファイルから ImageWrapper クラスの新しいインスタンスを初期化します。 |
 

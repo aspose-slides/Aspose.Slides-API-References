@@ -3,7 +3,7 @@ title: ImageCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: PPImage のコレクションを表します。
 type: docs
-weight: 7400
+weight: 7420
 url: /ja/aspose.slides/imagecollection/
 ---
 ## ImageCollection クラス
@@ -18,10 +18,10 @@ public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
 
 | 名前 | 説明 |
 | --- | --- |
-| [Count](../../aspose.slides/imagecollection/count) { get; } | コレクション内の画像の数を返します。読み取り専用の Int32。 |
-| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | コレクションへのアクセスが同期 (スレッド セーフ) されているかどうかを示す値を返します。読み取り専用の Boolean。 |
-| [Item](../../aspose.slides/imagecollection/item) { get; } | 指定されたインデックスの要素を取得します。読み取り専用 [`IPPImage`](../ippimage)。 |
-| [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | 同期ルートを返します。読み取り専用の Object。 |
+| [Count](../../aspose.slides/imagecollection/count) { get; } | コレクション内の画像数を返します。読み取り専用 Int32。 |
+| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | コレクションへのアクセスが同期化（スレッドセーフ）されているかどうかを示す値を返します。読み取り専用 Boolean。 |
+| [Item](../../aspose.slides/imagecollection/item) { get; } | 指定したインデックスの要素を取得します。読み取り専用 [`IPPImage`](../ippimage)。 |
+| [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | 同期ルートを返します。読み取り専用 Object。 |
 
 ## メソッド
 
@@ -35,7 +35,7 @@ public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_5)(Stream) | ストリームからプレゼンテーションに画像を追加します。 |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | ストリームから画像を作成し、プレゼンテーションに追加します。 |
 | [CopyTo](../../aspose.slides/imagecollection/copyto)(Array, int) | コレクションのすべての要素を指定された配列にコピーします。 |
-| [GetEnumerator](../../aspose.slides/imagecollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
+| [GetEnumerator](../../aspose.slides/imagecollection/getenumerator)() | コレクションを列挙する列挙子を返します。 |
 
 ### 参照
 

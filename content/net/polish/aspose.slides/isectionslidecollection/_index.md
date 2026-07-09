@@ -1,9 +1,9 @@
 ---
 title: ISectionSlideCollection
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – Referencja API
 description: Reprezentuje kolekcję slajdów w sekcji.
 type: docs
-weight: 6890
+weight: 6910
 url: /pl/aspose.slides/isectionslidecollection/
 ---
 ## ISectionSlideCollection interfejs
@@ -18,7 +18,7 @@ public interface ISectionSlideCollection : IGenericCollection<ISlide>
 
 | Nazwa | Opis |
 | --- | --- |
-| [Item](../../aspose.slides/isectionslidecollection/item) { get; } | Pobiera element o określonym indeksie. Tylko do odczytu [`ISlide`](../islide). |
+| [Item](../../aspose.slides/isectionslidecollection/item) { get; } | Pobiera element pod określonym indeksem. Tylko do odczytu [`ISlide`](../islide). |
 
 ### Zobacz także
 

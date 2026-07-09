@@ -1,14 +1,14 @@
 ---
 title: IDoubleChartValue
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili nilai double yang dapat disimpan dalam dokumen presentasi pptx dengan dua cara: 1) di sel/sel-sel buku kerja yang terkait dengan diagram 2) sebagai nilai literal.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili nilai double yang dapat disimpan dalam dokumen presentasi pptx dengan dua cara: 1) di sel/selis buku kerja yang terkait dengan chart; 2) sebagai nilai literal.
 type: docs
-weight: 2050
+weight: 2070
 url: /id/aspose.slides.charts/idoublechartvalue/
 ---
 ## IDoubleChartValue antarmuka
 
-Mewakili nilai double yang dapat disimpan dalam dokumen presentasi pptx dengan dua cara: 1) di sel/sel-sel buku kerja yang terkait dengan diagram; 2) sebagai nilai literal.
+Mewakili nilai double yang dapat disimpan dalam dokumen presentasi pptx dengan dua cara: 1) di cell/cells buku kerja yang terkait dengan chart; 2) sebagai nilai literal.
 
 ```csharp
 public interface IDoubleChartValue : ISingleCellChartValue
@@ -18,14 +18,14 @@ public interface IDoubleChartValue : ISingleCellChartValue
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsISingleCellChartValue](../../aspose.slides.charts/idoublechartvalue/asisinglecellchartvalue) { get; } | Memungkinkan untuk mendapatkan antarmuka ISingleCellChartValue dasar. Hanya-baca [`ISingleCellChartValue`](../isinglecellchartvalue). |
-| [AsLiteralDouble](../../aspose.slides.charts/idoublechartvalue/asliteraldouble) { get; set; } | Mengembalikan atau menyetel nilai double literal jika DataSourceType = Charts.DataSourceType.DoubleLiterals. Baca/tulis Double. |
+| [AsISingleCellChartValue](../../aspose.slides.charts/idoublechartvalue/asisinglecellchartvalue) { get; } | Memungkinkan mendapatkan antarmuka ISingleCellChartValue dasar. Hanya-baca [`ISingleCellChartValue`](../isinglecellchartvalue). |
+| [AsLiteralDouble](../../aspose.slides.charts/idoublechartvalue/asliteraldouble) { get; set; } | Mengembalikan atau mengatur nilai double literal jika DataSourceType = Charts.DataSourceType.DoubleLiterals. Baca/tulis Double. |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
-| [ToDouble](../../aspose.slides.charts/idoublechartvalue/todouble)() | Mengonversi ke double. |
+| [ToDouble](../../aspose.slides.charts/idoublechartvalue/todouble)() | Mengkonversi ke double. |
 
 ### Lihat Juga
 

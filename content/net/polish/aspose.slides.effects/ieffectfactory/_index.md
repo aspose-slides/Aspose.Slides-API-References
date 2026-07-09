@@ -1,12 +1,12 @@
 ---
 title: IEffectFactory
-second_title: Aspose.Sildes for .NET – Referencja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Umożliwia tworzenie instancji efektów
 type: docs
-weight: 3270
+weight: 3290
 url: /pl/aspose.slides.effects/ieffectfactory/
 ---
-## IEffectFactory interfejs
+## IEffectFactory interface
 
 Umożliwia tworzenie instancji efektów
 
@@ -14,13 +14,13 @@ Umożliwia tworzenie instancji efektów
 public interface IEffectFactory
 ```
 
-## Właściwości
+## Properties
 
 | Nazwa | Opis |
 | --- | --- |
 | [ImageTransformOperationFactory](../../aspose.slides.effects/ieffectfactory/imagetransformoperationfactory) { get; } | Zwraca ImageTransformOperationFactory. Tylko do odczytu [`IImageTransformOperationFactory`](../iimagetransformoperationfactory). |
 
-## Metody
+## Methods
 
 | Nazwa | Opis |
 | --- | --- |
@@ -31,11 +31,11 @@ public interface IEffectFactory
 | [CreateReflection](../../aspose.slides.effects/ieffectfactory/createreflection)() | Tworzy efekt Reflection. |
 | [CreateSoftEdge](../../aspose.slides.effects/ieffectfactory/createsoftedge)() | Tworzy efekt Soft Edge. |
 
-### Uwagi
+### Remarks
 
-Dla zgodności z COM.
+Dla kompatybilności z COM.
 
-### Zobacz także
+### See Also
 
 * przestrzeń nazw [Aspose.Slides.Effects](../../aspose.slides.effects)
 * zestaw [Aspose.Slides](../../)

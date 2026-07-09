@@ -1,12 +1,12 @@
 ---
 title: DomObjectTParent
-second_title: Aspose.Sildes .NET için API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Temel DOM nesnesi
 type: docs
-weight: 2780
+weight: 2800
 url: /tr/aspose.slides/domobject-1/
 ---
-## DomObject&lt;TParent&gt; sınıf
+## DomObject<TParent> sınıfı
 
 Temel DOM nesnesi
 
@@ -16,9 +16,9 @@ public abstract class DomObject<TParent>
 
 | Parametre | Açıklama |
 | --- | --- |
-| TParent | Ebeveyn DOM nesnesinin türü |
+| TParent | Parent DOM nesnesinin tipi |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

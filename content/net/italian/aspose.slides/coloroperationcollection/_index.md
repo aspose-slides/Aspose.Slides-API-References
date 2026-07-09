@@ -1,14 +1,14 @@
 ---
 title: ColorOperationCollection
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta una collezione di operazioni di trasformazione del colore.
+description: Rappresenta una raccolta di operazioni di trasformazione del colore.
 type: docs
-weight: 2520
+weight: 2540
 url: /it/aspose.slides/coloroperationcollection/
 ---
 ## ColorOperationCollection classe
 
-Rappresenta una collezione di operazioni di trasformazione del colore.
+Rappresenta una raccolta di operazioni di trasformazione del colore.
 
 ```csharp
 public sealed class ColorOperationCollection : IColorOperationCollection
@@ -18,25 +18,25 @@ public sealed class ColorOperationCollection : IColorOperationCollection
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides/coloroperationcollection/count) { get; } | Restituisce il numero di operazioni nella collezione. Sola lettura Int32. |
-| [IsSynchronized](../../aspose.slides/coloroperationcollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla collezione è sincronizzato (thread-safe). Sola lettura Boolean. |
+| [Count](../../aspose.slides/coloroperationcollection/count) { get; } | Restituisce il numero di operazioni nella raccolta. Sola lettura Int32. |
+| [IsSynchronized](../../aspose.slides/coloroperationcollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla raccolta è sincronizzato (thread-safe). Sola lettura Boolean. |
 | [Item](../../aspose.slides/coloroperationcollection/item) { get; set; } | Restituisce o imposta l'operazione all'indice specificato. Lettura/scrittura [`ColorOperation`](../coloroperation). |
-| [SyncRoot](../../aspose.slides/coloroperationcollection/syncroot) { get; } | Restituisce la radice di sincronizzazione. Sola lettura Object. |
+| [SyncRoot](../../aspose.slides/coloroperationcollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Sola lettura Object. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.slides/coloroperationcollection/add#add)(ColorTransformOperation) | Aggiunge una nuova operazione alla fine della collezione. |
-| [Add](../../aspose.slides/coloroperationcollection/add#add_1)(ColorTransformOperation, float) | Aggiunge una nuova operazione alla fine della collezione. |
+| [Add](../../aspose.slides/coloroperationcollection/add#add)(ColorTransformOperation) | Aggiunge una nuova operazione alla fine della raccolta. |
+| [Add](../../aspose.slides/coloroperationcollection/add#add_1)(ColorTransformOperation, float) | Aggiunge una nuova operazione alla fine della raccolta. |
 | [Clear](../../aspose.slides/coloroperationcollection/clear)() | Rimuove tutte le operazioni di colore. |
-| [Clone](../../aspose.slides/coloroperationcollection/clone)() | Crea una copia di una collezione ColorOperationCollection. |
+| [Clone](../../aspose.slides/coloroperationcollection/clone)() | Crea una copia di una raccolta ColorOperationCollection. |
 | [CloneT](../../aspose.slides/coloroperationcollection/clonet)() | Clona l'oggetto corrente |
-| [CopyTo](../../aspose.slides/coloroperationcollection/copyto)(Array, int) | Copia tutti gli elementi dalla collezione all'array specificato. |
-| [GetEnumerator](../../aspose.slides/coloroperationcollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la collezione. |
-| [Insert](../../aspose.slides/coloroperationcollection/insert#insert)(int, ColorTransformOperation) | Inserisce la nuova operazione nella collezione. |
-| [Insert](../../aspose.slides/coloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | Inserisce la nuova operazione nella collezione. |
-| [RemoveAt](../../aspose.slides/coloroperationcollection/removeat)(int) | Rimuove l'operazione di colore dalla collezione. |
+| [CopyTo](../../aspose.slides/coloroperationcollection/copyto)(Array, int) | Copia tutti gli elementi dalla raccolta all'array specificato. |
+| [GetEnumerator](../../aspose.slides/coloroperationcollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
+| [Insert](../../aspose.slides/coloroperationcollection/insert#insert)(int, ColorTransformOperation) | Inserisce la nuova operazione in una raccolta. |
+| [Insert](../../aspose.slides/coloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | Inserisce la nuova operazione in una raccolta. |
+| [RemoveAt](../../aspose.slides/coloroperationcollection/removeat)(int) | Rimuove l'operazione di colore da una raccolta. |
 
 ### Vedi anche
 

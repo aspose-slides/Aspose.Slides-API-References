@@ -3,12 +3,12 @@ title: ImageTransformOperation
 second_title: Aspose.Sildes için .NET API Referansı
 description: Soyut görüntü dönüşüm etkisini temsil eder.
 type: docs
-weight: 3550
+weight: 3570
 url: /tr/aspose.slides.effects/imagetransformoperation/
 ---
 ## ImageTransformOperation sınıfı
 
-Soyut görüntü dönüşüm etkisini temsil eder.
+Temel görüntü dönüşüm etkisini temsil eder.
 
 ```csharp
 public abstract class ImageTransformOperation : PVIObject, IImageTransformOperation
@@ -16,15 +16,15 @@ public abstract class ImageTransformOperation : PVIObject, IImageTransformOperat
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almayı sağlar. Salt okunur [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzüne erişim sağlar. Salt-okunur [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Yöntemler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Belirtilen nesne ile karşılaştırır. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Belirtilen nesneyle karşılaştırır. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Karma kodunu döndürür. |
 
 ### Ayrıca Bakınız

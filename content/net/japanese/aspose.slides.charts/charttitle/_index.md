@@ -1,9 +1,9 @@
 ---
 title: ChartTitle
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: チャートタイトルのプロパティを表します。
 type: docs
-weight: 1470
+weight: 1490
 url: /ja/aspose.slides.charts/charttitle/
 ---
 ## ChartTitle クラス
@@ -20,25 +20,25 @@ public class ChartTitle : IChartTitle
 | --- | --- |
 | [ActualHeight](../../aspose.slides.charts/charttitle/actualheight) { get; } | チャート要素の実際の高さを指定します。実際の値を取得するには、事前に IChart.ValidateChartLayout() メソッドを呼び出してください。読み取り Single。 |
 | [ActualWidth](../../aspose.slides.charts/charttitle/actualwidth) { get; } | チャート要素の実際の幅を指定します。実際の値を取得するには、事前に IChart.ValidateChartLayout() メソッドを呼び出してください。読み取り Single。 |
-| [ActualX](../../aspose.slides.charts/charttitle/actualx) { get; } | チャート要素の実際の X 位置（左）を、チャートの左上隅に対する相対位置として指定します。実際の値を取得するには、事前に IChart.ValidateChartLayout() メソッドを呼び出してください。読み取り Single。 |
-| [ActualY](../../aspose.slides.charts/charttitle/actualy) { get; } | チャート要素の実際の上位置を、チャートの左上隅に対する相対位置として指定します。実際の値を取得するには、事前に IChart.ValidateChartLayout() メソッドを呼び出してください。読み取り Single。 |
-| [Bottom](../../aspose.slides.charts/charttitle/bottom) { get; } | 下端。読み取り専用 Single。 |
+| [ActualX](../../aspose.slides.charts/charttitle/actualx) { get; } | チャート要素の実際の X 位置（左）を、チャートの左上隅を基準に指定します。実際の値を取得するには、事前に IChart.ValidateChartLayout() メソッドを呼び出してください。読み取り Single。 |
+| [ActualY](../../aspose.slides.charts/charttitle/actualy) { get; } | チャート要素の実際の上部位置を、チャートの左上隅を基準に指定します。実際の値を取得するには、事前に IChart.ValidateChartLayout() メソッドを呼び出してください。読み取り Single。 |
+| [Bottom](../../aspose.slides.charts/charttitle/bottom) { get; } | 下部。読み取り専用 Single。 |
 | [Chart](../../aspose.slides.charts/charttitle/chart) { get; } | 親チャートを返します。読み取り専用 [`IChart`](../ichart)。 |
 | [Format](../../aspose.slides.charts/charttitle/format) { get; } | タイトルの塗りつぶし、線、効果スタイルを返します。読み取り専用 [`IFormat`](../iformat)。 |
-| [Height](../../aspose.slides.charts/charttitle/height) { get; set; } | タイトルの高さをチャートの高さの割合として取得または設定します。読み書き可能 Single。 |
-| [Overlay](../../aspose.slides.charts/charttitle/overlay) { get; set; } | 他のチャート要素がタイトルと重なることを許可するかどうかを決定します。読み書き可能 Boolean。 |
-| [Right](../../aspose.slides.charts/charttitle/right) { get; } | 右端。読み取り専用 Single。 |
+| [Height](../../aspose.slides.charts/charttitle/height) { get; set; } | タイトルの高さをチャートの高さの割合として取得または設定します。読み書き Single。 |
+| [Overlay](../../aspose.slides.charts/charttitle/overlay) { get; set; } | 他のチャート要素がタイトルと重なることを許可するかどうかを決定します。読み書き Boolean。 |
+| [Right](../../aspose.slides.charts/charttitle/right) { get; } | 右側。読み取り専用 Single。 |
 | [TextFormat](../../aspose.slides.charts/charttitle/textformat) { get; } | テキスト形式を返します。読み取り専用 [`IChartTextFormat`](../icharttextformat)。 |
-| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | リッチテキストを含むことができます。このプロパティが null でない場合、このフォーマットされたテキスト値は自動生成テキストを上書きします。自動生成テキストは、データラベル、値軸の表示単位ラベル、軸タイトル、チャートタイトル、トレンドラインのラベルの暗黙的なプロパティです。自動生成テキストは IFormattedTextContainer.TextFormat プロパティでフォーマットされます。読み取り専用 [`ITextFrame`](../../aspose.slides/itextframe)。 |
-| [Width](../../aspose.slides.charts/charttitle/width) { get; set; } | タイトルの幅をチャートの幅の割合として取得または設定します。読み書き可能 Single。 |
-| [X](../../aspose.slides.charts/charttitle/x) { get; set; } | タイトルの X 座標をチャートの幅の割合として取得または設定します。読み書き可能 Single。 |
-| [Y](../../aspose.slides.charts/charttitle/y) { get; set; } | タイトルの Y 座標をチャートの高さの割合として取得または設定します。読み書き可能 Single。 |
+| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | リッチテキストを含めることができます。このプロパティが null でない場合、このフォーマットされたテキスト値は自動生成テキストを上書きします。自動生成テキストはデータラベル、値軸の表示単位ラベル、軸タイトル、チャートタイトル、トレンドラインのラベルの暗黙的なプロパティです。自動生成テキストは IFormattedTextContainer.TextFormat プロパティでフォーマットされます。読み取り専用 [`ITextFrame`](../../aspose.slides/itextframe)。 |
+| [Width](../../aspose.slides.charts/charttitle/width) { get; set; } | タイトルの幅をチャートの幅の割合として取得または設定します。読み書き Single。 |
+| [X](../../aspose.slides.charts/charttitle/x) { get; set; } | タイトルの X 座標をチャートの幅の割合として取得または設定します。読み書き Single。 |
+| [Y](../../aspose.slides.charts/charttitle/y) { get; set; } | タイトルの Y 座標をチャートの高さの割合として取得または設定します。読み書き Single。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/charttitle/addtextframeforoverriding)(string) | テキストパラメータ "text" で TextFrameForOverriding を初期化します。すでに TextFrameForOverriding が初期化されている場合は、テキストを単に変更します。 |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/charttitle/addtextframeforoverriding)(string) | パラメーター「text」のテキストで TextFrameForOverriding を初期化します。TextFrameForOverriding が既に初期化されている場合は、そのテキストを単に変更します。 |
 
 ### 参照
 

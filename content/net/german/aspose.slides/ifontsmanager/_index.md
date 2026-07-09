@@ -1,46 +1,46 @@
----  
+---
 title: IFontsManager
-second_title: Aspose.Sildes für .NET API-Referenz  
-description: Verwalten von Schriften über die Präsentation.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Verwaltert Schriften in der gesamten Präsentation.
 type: docs
-weight: 5730  
+weight: 5930
 url: /de/aspose.slides/ifontsmanager/
----  
+---
+## IFontsManager Schnittstelle
 
-## IFontsManager-Schnittstelle  
+Verwaltet Schriften in der gesamten Präsentation.
 
-Verwalten von Schriften über die Präsentation.  
+```csharp
+public interface IFontsManager
+```
 
-```csharp  
-public interface IFontsManager  
-```  
+## Eigenschaften
 
-## Eigenschaften  
+| Name | Description |
+| --- | --- |
+| [FontFallBackRulesCollection](../../aspose.slides/ifontsmanager/fontfallbackrulescollection) { get; set; } | Stellt die Sammlung von FontFallBack-Regeln eines Benutzers zum Verwalten von Schriftarten-Sammlungen für korrekte Ersetzungen durch die Fallback-Funktionalität bereit. Lesen/Schreiben [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
+| [FontSubstRuleList](../../aspose.slides/ifontsmanager/fontsubstrulelist) { get; set; } | Schriftart-Ersetzungen, die beim Rendern verwendet werden. Lesen/Schreiben [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
 
-| Name | Beschreibung |  
-| --- | --- |  
-| [FontFallBackRulesCollection](../../aspose.slides/ifontsmanager/fontfallbackrulescollection) { get; set; } | Stellt die Sammlung der FontFallBack-Regeln eines Benutzers zur Verwaltung von Schriftartenkollektionen für ordnungsgemäße Substitutionen durch die Fallback-Funktionalität dar. Lese-/schreibbar [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |  
-| [FontSubstRuleList](../../aspose.slides/ifontsmanager/fontsubstrulelist) { get; set; } | Schriftartenersetzungen, die beim Rendern verwendet werden sollen. Lese-/schreibbar [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |  
+## Methoden
 
-## Methoden  
+| Name | Description |
+| --- | --- |
+| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | Fügt die eingebettete Schriftart hinzu. Beachten Sie, dass die meisten Schriftarten urheberrechtlich geschützt sind. Suchen Sie zuerst die Lizenz einer Schriftart und prüfen Sie, ob sie frei auf einen anderen Rechner übertragen werden kann. Eine ArgumentException kann ausgelöst werden, wenn die Font-Daten null sind oder diese Schriftart bereits eingebettet ist. |
+| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | Fügt die eingebettete Schriftart hinzu. Beachten Sie, dass die meisten Schriftarten urheberrechtlich geschützt sind. Suchen Sie zuerst die Lizenz einer Schriftart und prüfen Sie, ob sie frei auf einen anderen Rechner übertragen werden kann. Eine ArgumentException kann ausgelöst werden, wenn die Font-Daten null sind oder diese Schriftart bereits eingebettet ist. |
+| [GetEmbeddedFonts](../../aspose.slides/ifontsmanager/getembeddedfonts)() | Gibt die in der Präsentation eingebetteten Schriftarten zurück. |
+| [GetFontBytes](../../aspose.slides/ifontsmanager/getfontbytes)(IFontData, FontStyleType) | Ruft das Byte-Array ab, das die Font-Daten für einen angegebenen Font-Stil und Font-Daten darstellt. |
+| [GetFontEmbeddingLevel](../../aspose.slides/ifontsmanager/getfontembeddinglevel)(byte[], string) | Bestimmt das Einbettungslevel einer Schriftart anhand des angegebenen Byte-Arrays und des Schriftartnamens. |
+| [GetFonts](../../aspose.slides/ifontsmanager/getfonts)() | Gibt die in der Präsentation verwendeten Schriftarten zurück. |
+| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions)() | Ermittelt die Informationen zu Schriftarten, die bei der Darstellung der Präsentation ersetzt werden. |
+| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions_1)(int[]) | Ermittelt die Informationen zu Schriftarten, die bei der Darstellung der angegebenen Folien ersetzt werden. |
+| [RemoveEmbeddedFont](../../aspose.slides/ifontsmanager/removeembeddedfont)(IFontData) | Entfernt die eingebettete Schriftart. |
+| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_1)(IFontSubstRule) | Ersetzt die Schriftart in der Präsentation mithilfe der in [`IFontSubstRule`](../ifontsubstrule) bereitgestellten Informationen. |
+| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | Ersetzt die Schriftart in der Präsentation mithilfe der in der Sammlung von [`IFontSubstRule`](../ifontsubstrule) bereitgestellten Informationen. |
+| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont)(IFontData, IFontData) | Ersetzt die Schriftart in der Präsentation. |
 
-| Name | Beschreibung |  
-| --- | --- |  
-| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | Fügt die eingebettete Schriftart hinzu. Beachten Sie, dass die meisten Schriftarten urheberrechtlich geschützt sind, wenn Sie Schriftarten hinzufügen. Zuerst die Lizenz einer Schriftart suchen und überprüfen, ob sie frei auf einen anderen Computer übertragen werden kann. Eine ArgumentException kann ausgelöst werden, wenn die Schriftartdaten null sind oder diese Schriftart bereits eingebettet ist. |  
-| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | Fügt die eingebettete Schriftart hinzu. Beachten Sie, dass die meisten Schriftarten urheberrechtlich geschützt sind, wenn Sie Schriftarten kopieren. Zuerst die Lizenz einer Schriftart suchen und überprüfen, ob sie frei auf einen anderen Computer übertragen werden kann. Eine ArgumentException kann ausgelöst werden, wenn die Schriftartdaten null sind oder diese Schriftart bereits eingebettet ist. |  
-| [GetEmbeddedFonts](../../aspose.slides/ifontsmanager/getembeddedfonts)() | Gibt die in der Präsentation eingebetteten Schriftarten zurück. |  
-| [GetFontBytes](../../aspose.slides/ifontsmanager/getfontbytes)(IFontData, FontStyle) | Ruft das Byte-Array ab, das die Schriftartdaten für einen bestimmten Schriftstil und Schriftartdaten darstellt. |  
-| [GetFontEmbeddingLevel](../../aspose.slides/ifontsmanager/getfontembeddinglevel)(byte[], string) | Bestimmt die Einbettungsebene einer Schriftart aus dem gegebenen Byte-Array und dem Schriftartnamen. |  
-| [GetFonts](../../aspose.slides/ifontsmanager/getfonts)() | Gibt die in der Präsentation verwendeten Schriftarten zurück. |  
-| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions)() | Erhält Informationen über Schriftarten, die beim Rendern der Präsentation ersetzt werden. |  
-| [RemoveEmbeddedFont](../../aspose.slides/ifontsmanager/removeembeddedfont)(IFontData) | Entfernt die eingebettete Schriftart. |  
-| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_1)(IFontSubstRule) | Ersetzt eine Schriftart in der Präsentation unter Verwendung der in [`IFontSubstRule`](../ifontsubstrule) bereitgestellten Informationen. |  
-| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | Ersetzt eine Schriftart in der Präsentation unter Verwendung der in der Sammlung von [`IFontSubstRule`](../ifontsubstrule) bereitgestellten Informationen. |  
-| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont)(IFontData, IFontData) | Ersetzt eine Schriftart in der Präsentation. |  
+### Siehe auch
 
-### Siehe auch  
-
-* Namensraum [Aspose.Slides](../../aspose.slides)  
-* Assembly [Aspose.Slides](../../)  
+* Namensraum [Aspose.Slides](../../aspose.slides)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

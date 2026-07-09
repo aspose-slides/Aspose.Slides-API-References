@@ -1,9 +1,9 @@
 ---
 title: IMasterNotesSlideHeaderFooterManager
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili manajer yang memegang perilaku placeholder footer slide catatan master, tanggal-waktu, nomor halaman, dan semua placeholder anak. Placeholder anak berarti placeholder yang terdapat pada slide catatan yang bergantung. Slide catatan yang bergantung menggunakan dan bergantung pada slide catatan master.
+description: Mewakili manajer yang menyimpan perilaku placeholder footer slide catatan master, tanggal-waktu, nomor halaman, dan semua placeholder anak. Placeholder anak berarti placeholder yang terdapat pada slide catatan yang bergantung. Slide catatan yang bergantung menggunakan dan bergantung pada slide catatan master.
 type: docs
-weight: 6380
+weight: 6400
 url: /id/aspose.slides/imasternotesslideheaderfootermanager/
 ---
 ## IMasterNotesSlideHeaderFooterManager antarmuka

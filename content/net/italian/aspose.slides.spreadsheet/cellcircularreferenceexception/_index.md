@@ -1,14 +1,14 @@
 ---
 title: CellCircularReferenceException
-second_title: Aspose.Sildes per .NET Riferimento API
-description: L'eccezione viene generata quando vengono rilevati uno o più riferimenti circolari in cui una formula fa riferimento alla propria cella, direttamente o indirettamente.
+second_title: "Riferimento API Aspose.Slides per .NET"
+description: "L'eccezione lanciata quando vengono rilevati uno o più riferimenti circolari in cui una formula fa riferimento alla propria cella direttamente o indirettamente."
 type: docs
-weight: 10680
+weight: 10700
 url: /it/aspose.slides.spreadsheet/cellcircularreferenceexception/
 ---
-## CellCircularReferenceException classe
+## classe CellCircularReferenceException
 
-L'eccezione viene generata quando vengono rilevati uno o più riferimenti circolari in cui una formula fa riferimento alla propria cella, direttamente o indirettamente.
+L'eccezione lanciata quando vengono rilevati uno o più riferimenti circolari in cui una formula fa riferimento alla propria cella direttamente o indirettamente.
 
 ```csharp
 public class CellCircularReferenceException : PptxEditException
@@ -21,13 +21,13 @@ public class CellCircularReferenceException : PptxEditException
 | [CellCircularReferenceException](cellcircularreferenceexception#constructor)() | Inizializza una nuova istanza della classe [`CellCircularReferenceException`](../cellcircularreferenceexception). |
 | [CellCircularReferenceException](cellcircularreferenceexception#constructor_1)(string) | Inizializza una nuova istanza della classe [`CellCircularReferenceException`](../cellcircularreferenceexception) con un messaggio di errore specificato. |
 | [CellCircularReferenceException](cellcircularreferenceexception#constructor_2)(string, Exception) | Inizializza una nuova istanza della classe [`CellCircularReferenceException`](../cellcircularreferenceexception) con un messaggio di errore specificato e un riferimento all'eccezione interna che è la causa di questa eccezione. |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor_3)(string, string) | Inizializza una nuova istanza della classe [`CellCircularReferenceException`](../cellcircularreferenceexception) con un messaggio di errore specificato e riferimento circolare alla cella. |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor_3)(string, string) | Inizializza una nuova istanza della classe [`CellCircularReferenceException`](../cellcircularreferenceexception) con un messaggio di errore specificato e un riferimento circolare alla cella. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [Reference](../../aspose.slides.spreadsheet/cellcircularreferenceexception/reference) { get; } | Ottiene un riferimento circolare a una cella. |
+| [Reference](../../aspose.slides.spreadsheet/cellcircularreferenceexception/reference) { get; } | Ottiene un riferimento circolare alla cella. |
 
 ### Vedi anche
 

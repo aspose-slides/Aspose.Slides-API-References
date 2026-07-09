@@ -1,14 +1,14 @@
 ---
 title: PresetColor
-second_title: Aspose.Sildes の .NET API リファレンス
-description: 事前定義されたカラープリセットを表します。
+second_title: Aspose.Sildes for .NET APIリファレンス
+description: あらかじめ定義されたカラープリセットを表します。
 type: docs
-weight: 9640
+weight: 9660
 url: /ja/aspose.slides/presetcolor/
 ---
-## PresetColor 列挙型
+## PresetColor 列挙体
 
-事前定義されたカラープリセットを表します。
+あらかじめ定義されたカラープリセットを表します。
 
 ```csharp
 public enum PresetColor
@@ -18,7 +18,7 @@ public enum PresetColor
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| NotDefined | `-1` | カラープリセットが定義されていません。 |
+| NotDefined | `-1` | カラープリセットは定義されていません。 |
 | AliceBlue | `0` |  |
 | AntiqueWhite | `1` |  |
 | Aqua | `2` |  |
@@ -160,7 +160,7 @@ public enum PresetColor
 | Yellow | `138` |  |
 | YellowGreen | `139` |  |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

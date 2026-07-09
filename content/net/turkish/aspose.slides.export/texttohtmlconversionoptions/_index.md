@@ -3,12 +3,12 @@ title: TextToHtmlConversionOptions
 second_title: Aspose.Sildes .NET API Referansı
 description: Pptx metninden HTML çıkarma seçenekleri.
 type: docs
-weight: 4530
+weight: 4550
 url: /tr/aspose.slides.export/texttohtmlconversionoptions/
 ---
 ## TextToHtmlConversionOptions sınıfı
 
-Pptx metninden HTML çıkarmak için seçenekler.
+Pptx metninden HTML çıkarma seçenekleri.
 
 ```csharp
 public sealed class TextToHtmlConversionOptions : ITextToHtmlConversionOptions
@@ -16,18 +16,18 @@ public sealed class TextToHtmlConversionOptions : ITextToHtmlConversionOptions
 
 ## Yapıcılar
 
-| İsim | Açıklama |
+| Ad | Açıklama |
 | --- | --- |
 | [TextToHtmlConversionOptions](texttohtmlconversionoptions)() | Varsayılan yapıcı. |
 
 ## Özellikler
 
-| İsim | Açıklama |
+| Ad | Açıklama |
 | --- | --- |
 | [AddClipboardFragmentHeader](../../aspose.slides.export/texttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | Değeri döndürür veya ayarlar, Clipboard başlıklarının eklenip eklenmeyeceğini gösterir. Okunabilir/Yazılabilir Boolean. |
-| [EncodingName](../../aspose.slides.export/texttohtmlconversionoptions/encodingname) { get; set; } | HTML kodlama adını döndürür veya ayarlar. Bu değer, oluşturulan HTML dosyasına kaydedilecektir, ancak dosyanın bu kodlamada kaydedileceğinden emin olmak çağıranın sorumluluğundadır. Okunabilir/Yazılabilir String. |
-| [LinkEmbedController](../../aspose.slides.export/texttohtmlconversionoptions/linkembedcontroller) { get; set; } | Dış nesnenin nasıl saklanacağını kontrol eden bir geri çağırma nesnesini döndürür veya ayarlar. Okunabilir/Yazılabilir [`ILinkEmbedController`](../ilinkembedcontroller). |
-| [TextInheritanceLimit](../../aspose.slides.export/texttohtmlconversionoptions/textinheritancelimit) { get; set; } | Metin özellikleri için miras derinliğini döndürür veya ayarlar. Okunabilir/Yazılabilir [`TextInheritanceLimit`](../textinheritancelimit). |
+| [EncodingName](../../aspose.slides.export/texttohtmlconversionoptions/encodingname) { get; set; } | HTML kodlama adını döndürür veya ayarlar. Bu değer oluşturulan HTML dosyasına kaydedilir, ancak dosyanın bu kodlamada kaydedileceği, çağıran tarafından sağlanmalıdır. Okunabilir/Yazılabilir String. |
+| [LinkEmbedController](../../aspose.slides.export/texttohtmlconversionoptions/linkembedcontroller) { get; set; } | Dış nesnenin nasıl saklanacağını kontrol eden bir geri arama nesnesini döndürür veya ayarlar. Okunabilir/Yazılabilir [`ILinkEmbedController`](../ilinkembedcontroller). |
+| [TextInheritanceLimit](../../aspose.slides.export/texttohtmlconversionoptions/textinheritancelimit) { get; set; } | Metin özellikleri için kalıtım derinliğini döndürür veya ayarlar. Okunabilir/Yazılabilir [`TextInheritanceLimit`](../textinheritancelimit). |
 
 ### Ayrıca Bakınız
 

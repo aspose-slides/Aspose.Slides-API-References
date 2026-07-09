@@ -1,9 +1,9 @@
 ---
 title: NotesCommentsLayoutingOptions
-second_title: Aspose.Sildes pro .NET – reference API
+second_title: Aspose.Sildes pro .NET - referenční příručka API
 description: Poskytuje možnosti, které řídí vzhled rozvržení poznámek a komentářů v exportovaném dokumentu.
 type: docs
-weight: 4270
+weight: 4290
 url: /cs/aspose.slides.export/notescommentslayoutingoptions/
 ---
 ## NotesCommentsLayoutingOptions třída
@@ -24,11 +24,11 @@ public class NotesCommentsLayoutingOptions : ISlidesLayoutOptions
 
 | Název | Popis |
 | --- | --- |
-| [CommentsAreaColor](../../aspose.slides.export/notescommentslayoutingoptions/commentsareacolor) { get; set; } | Získá nebo nastaví barvu oblasti komentářů (platí pouze, pokud jsou komentáře zobrazeny vpravo). |
-| [CommentsAreaWidth](../../aspose.slides.export/notescommentslayoutingoptions/commentsareawidth) { get; set; } | Získá nebo nastaví šířku výstupní oblasti komentářů v pixelech (platí pouze, pokud jsou komentáře zobrazeny vpravo). |
+| [CommentsAreaColor](../../aspose.slides.export/notescommentslayoutingoptions/commentsareacolor) { get; set; } | Získá nebo nastaví barvu oblasti komentářů (Platí pouze pokud jsou komentáře zobrazeny napravo). |
+| [CommentsAreaWidth](../../aspose.slides.export/notescommentslayoutingoptions/commentsareawidth) { get; set; } | Získá nebo nastaví šířku výstupní oblasti komentářů v pixelech (Platí pouze pokud jsou komentáře zobrazeny napravo). |
 | [CommentsPosition](../../aspose.slides.export/notescommentslayoutingoptions/commentsposition) { get; set; } | Získá nebo nastaví pozici komentářů na stránce. |
 | [NotesPosition](../../aspose.slides.export/notescommentslayoutingoptions/notesposition) { get; set; } | Získá nebo nastaví pozici poznámek na stránce. |
-| [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | Získá nebo nastaví viditelnost komentářů bez autora. Pokud je true, pak budou komentáře zobrazeny. (platí pouze, pokud jsou komentáře zobrazeny). |
+| [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | Získá nebo nastaví viditelnost komentářů, které nemají autora. Pokud je true, komentáře budou zobrazeny. (Platí pouze pokud jsou komentáře zobrazeny). |
 
 ### Viz také
 

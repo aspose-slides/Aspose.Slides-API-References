@@ -1,14 +1,14 @@
 ---
 title: IMathFraction
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Specifica l'oggetto frazione costituito da un numeratore e un denominatore separati da una barra di frazione. La barra di frazione può essere orizzontale o diagonale a seconda delle proprietà della frazione. L'oggetto frazione è anche usato per rappresentare la funzione di impilamento che posiziona un elemento sopra un altro senza barra di frazione.
+description: Specifica l'oggetto frazione costituito da un numeratore e un denominatore separati da una barra di frazione. La barra di frazione può essere orizzontale o diagonale a seconda delle proprietà della frazione. L'oggetto frazione è anche usato per rappresentare la funzione stack che posiziona un elemento sopra un altro senza barra di frazione.
 type: docs
-weight: 8230
+weight: 8250
 url: /it/aspose.slides.mathtext/imathfraction/
 ---
 ## IMathFraction interfaccia
 
-Specifica l'oggetto frazione, costituito da un numeratore e un denominatore separati da una barra di frazione. La barra di frazione può essere orizzontale o diagonale, a seconda delle proprietà della frazione. L'oggetto frazione è anche usato per rappresentare la funzione di impilamento, che posiziona un elemento sopra un altro, senza barra di frazione.
+Specifica l'oggetto frazione, costituito da un numeratore e un denominatore separati da una barra di frazione. La barra di frazione può essere orizzontale o diagonale, a seconda delle proprietà della frazione. L'oggetto frazione è inoltre usato per rappresentare la funzione stack, che posiziona un elemento sopra un altro, senza barra di frazione.
 
 ```csharp
 public interface IMathFraction : IMathElement
@@ -18,7 +18,7 @@ public interface IMathFraction : IMathElement
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathfraction/asimathelement) { get; } | Consente di ottenere l'interfaccia IMathElement di base [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathfraction/asimathelement) { get; } | Consente di ottenere l'interfaccia base IMathElement [`IMathElement`](../imathelement) |
 | [Denominator](../../aspose.slides.mathtext/imathfraction/denominator) { get; } | Denominatore |
 | [FractionType](../../aspose.slides.mathtext/imathfraction/fractiontype) { get; set; } | Tipo di frazione Predefinito: Bar |
 | [Numerator](../../aspose.slides.mathtext/imathfraction/numerator) { get; } | Numeratore |

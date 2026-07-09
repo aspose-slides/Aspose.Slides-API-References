@@ -1,9 +1,9 @@
 ---
 title: LegendDataLabelPosition
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Menentukan posisi label data.
 type: docs
-weight: 2270
+weight: 2290
 url: /id/aspose.slides.charts/legenddatalabelposition/
 ---
 ## LegendDataLabelPosition enumerasi
@@ -21,11 +21,11 @@ public enum LegendDataLabelPosition
 | NotDefined | `-1` | Posisi tidak ditentukan. |
 | Bottom | `0` | Menentukan bahwa label data akan ditampilkan di bawah penanda data. |
 | BestFit | `1` | Menentukan bahwa label data akan ditampilkan pada posisi terbaik. |
-| Center | `2` | Menentukan bahwa label data akan ditampilkan berpusat pada penanda data. |
-| InsideBase | `3` | Menentukan bahwa label data akan ditampilkan di dalam dasar penanda data. |
-| InsideEnd | `4` | Menentukan bahwa label data akan ditampilkan di dalam akhir penanda data. |
+| Center | `2` | Menentukan bahwa label data akan ditampilkan di tengah penanda data. |
+| InsideBase | `3` | Menentukan bahwa label data akan ditampilkan di dalam basis penanda data. |
+| InsideEnd | `4` | Menentukan bahwa label data akan ditampilkan di dalam ujung penanda data. |
 | Left | `5` | Menentukan bahwa label data akan ditampilkan di sebelah kiri penanda data. |
-| OutsideEnd | `6` | Menentukan bahwa label data akan ditampilkan di luar akhir penanda data. |
+| OutsideEnd | `6` | Menentukan bahwa label data akan ditampilkan di luar ujung penanda data. |
 | Right | `7` | Menentukan bahwa label data akan ditampilkan di sebelah kanan penanda data. |
 | Top | `8` | Menentukan bahwa label data akan ditampilkan di atas penanda data. |
 

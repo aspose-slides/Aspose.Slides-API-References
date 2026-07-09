@@ -1,9 +1,9 @@
 ---
 title: TableFormat
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: テーブルの形式を表します。
 type: docs
-weight: 10850
+weight: 10870
 url: /ja/aspose.slides/tableformat/
 ---
 ## TableFormat クラス
@@ -16,14 +16,14 @@ public sealed class TableFormat : DomObject<Table>, ITableFormat
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | テーブルの塗りつぶしプロパティ オブジェクトを返します。 読み取り専用 [`IFillFormat`](../ifillformat)。 |
-| [Transparency](../../aspose.slides/tableformat/transparency) { get; set; } | 塗りつぶし色の透明度を取得または設定します。 読み書き Single. |
+| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | テーブルの塗りつぶしプロパティ オブジェクトを返します。読み取り専用 [`IFillFormat`](../ifillformat)。 |
+| [Transparency](../../aspose.slides/tableformat/transparency) { get; set; } | 塗りつぶし色の透明度を取得または設定します。読み書き Single. |
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [GetEffective](../../aspose.slides/tableformat/geteffective)() | 継承およびテーブル スタイルが適用された有効なテーブル書式設定プロパティを取得します。 |
 

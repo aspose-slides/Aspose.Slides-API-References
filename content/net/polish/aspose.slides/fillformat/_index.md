@@ -1,9 +1,9 @@
 ---
 title: FillFormat
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje opcje formatowania wypełnienia.
 type: docs
-weight: 4760
+weight: 4780
 url: /pl/aspose.slides/fillformat/
 ---
 ## Klasa FillFormat
@@ -21,9 +21,9 @@ public sealed class FillFormat : PVIObject, IFillFormat
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umożliwia pobranie podstawowego interfejsu IPresentationComponent. Tylko do odczytu [`IPresentationComponent`](../ipresentationcomponent). |
 | [FillType](../../aspose.slides/fillformat/filltype) { get; set; } | Zwraca lub ustawia typ wypełnienia. Odczyt/zapis [`FillType`](../filltype). |
 | [GradientFormat](../../aspose.slides/fillformat/gradientformat) { get; } | Zwraca format wypełnienia gradientowego. Tylko do odczytu [`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/fillformat/patternformat) { get; } | Zwraca format wypełnienia wzoru. Tylko do odczytu [`IPatternFormat`](../ipatternformat). |
+| [PatternFormat](../../aspose.slides/fillformat/patternformat) { get; } | Zwraca format wypełnienia wzorcowego. Tylko do odczytu [`IPatternFormat`](../ipatternformat). |
 | [PictureFillFormat](../../aspose.slides/fillformat/picturefillformat) { get; } | Zwraca format wypełnienia obrazu. Tylko do odczytu [`IPictureFillFormat`](../ipicturefillformat). |
-| [RotateWithShape](../../aspose.slides/fillformat/rotatewithshape) { get; set; } | Określa, czy wypełnienie ma być obracane wraz z kształtem. Odczyt/zapis [`NullableBool`](../nullablebool). |
+| [RotateWithShape](../../aspose.slides/fillformat/rotatewithshape) { get; set; } | Określa, czy wypełnienie powinno być obracane wraz z kształtem. Odczyt/zapis [`NullableBool`](../nullablebool). |
 | [SolidFillColor](../../aspose.slides/fillformat/solidfillcolor) { get; } | Zwraca kolor wypełnienia. Tylko do odczytu [`IColorFormat`](../icolorformat). |
 
 ## Metody
@@ -31,7 +31,7 @@ public sealed class FillFormat : PVIObject, IFillFormat
 | Nazwa | Opis |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Porównuje z określonym obiektem. |
-| [GetEffective](../../aspose.slides/fillformat/geteffective)() | Pobiera skuteczne dane formatowania wypełnienia z zastosowanym dziedziczeniem. |
+| [GetEffective](../../aspose.slides/fillformat/geteffective)() | Pobiera efektywne dane formatowania wypełnienia z uwzględnieniem dziedziczenia. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Zwraca kod skrótu. |
 
 ### Zobacz także

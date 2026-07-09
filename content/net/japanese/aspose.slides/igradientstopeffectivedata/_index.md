@@ -1,14 +1,14 @@
 ---
 title: IGradientStopEffectiveData
-second_title: Aspose.Sildes for .NET API リファレンス
-description: グラデーション ストップを表す不変オブジェクトです。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: 勾配ストップを表すイミュータブルオブジェクトです。
 type: docs
-weight: 6030
+weight: 6050
 url: /ja/aspose.slides/igradientstopeffectivedata/
 ---
 ## IGradientStopEffectiveData インターフェイス
 
-グラデーション ストップを表す不変オブジェクトです。
+勾配ストップを表すイミュータブルオブジェクトです。
 
 ```csharp
 public interface IGradientStopEffectiveData
@@ -18,8 +18,8 @@ public interface IGradientStopEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [Color](../../aspose.slides/igradientstopeffectivedata/color) { get; } | グラデーション ストップの色を返します。読み取り専用 Color。 |
-| [Position](../../aspose.slides/igradientstopeffectivedata/position) { get; } | グラデーション ストップの位置 (0..1) を返します。読み取り専用 Single。 |
+| [Color](../../aspose.slides/igradientstopeffectivedata/color) { get; } | 勾配ストップの色を返します。読み取り専用 Color. |
+| [Position](../../aspose.slides/igradientstopeffectivedata/position) { get; } | 勾配ストップの位置 (0..1) を返します。読み取り専用 Single. |
 
 ### 参照
 

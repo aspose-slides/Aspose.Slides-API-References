@@ -1,14 +1,14 @@
 ---
 title: TextStrikethroughType
-second_title: Aspose.Sildes para Referência de API .NET
-description: Representa o tipo de riscado de texto.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Representa o tipo de tachado de texto.
 type: docs
-weight: 10970
+weight: 10990
 url: /pt/aspose.slides/textstrikethroughtype/
 ---
-## TextStrikethroughType enumeração
+## Enumeração TextStrikethroughType
 
-Representa o tipo de riscado de texto.
+Representa o tipo de tachado de texto.
 
 ```csharp
 public enum TextStrikethroughType : sbyte
@@ -16,14 +16,14 @@ public enum TextStrikethroughType : sbyte
 
 ### Valores
 
-| Nome | Valor | Descrição |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | None | `0` |  |
 | Single | `1` |  |
 | Double | `2` |  |
 
-### Ver também
+### Veja Também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

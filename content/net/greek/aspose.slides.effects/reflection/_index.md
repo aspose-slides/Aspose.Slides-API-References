@@ -3,10 +3,10 @@ title: Reflection
 second_title: Aspose.Sildes για .NET API Αναφορά
 description: Αντιπροσωπεύει ένα εφέ Reflection.
 type: docs
-weight: 3620
+weight: 3640
 url: /el/aspose.slides.effects/reflection/
 ---
-## Reflection κλάση
+## Κλάση Reflection
 
 Αντιπροσωπεύει ένα εφέ Reflection.
 
@@ -19,32 +19,32 @@ public sealed class Reflection : IReflection
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | Ακτίνα θολώματος. Ανάγνωση/εγγραφή Double. |
-| [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | Κατεύθυνση της αντανάκλασης. Ανάγνωση/εγγραφή Single. |
-| [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | Απόσταση της αντανάκλασης. Ανάγνωση/εγγραφή Double. |
-| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | Καθορίζει τη θέση τερματισμού (κατά μήκος της κλίμακας διαβάθμισης άλφα) της τιμής άλφα τερματισμού (ποσοστά). Ανάγνωση/εγγραφή Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | Διαφάνεια τέλους αντανάκλασης. (ποσοστά). Ανάγνωση/εγγραφή Single. |
-| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | Καθορίζει τη διεύθυνση μετατόπισης της αντανάκλασης. (γωνία). Ανάγνωση/εγγραφή Single. |
-| [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | Στοίχιση ορθογωνίου. Ανάγνωση/εγγραφή [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | Καθορίζει αν η αντανάκλαση θα περιστραφεί μαζί με το σχήμα αν το σχήμα περιστραφεί. Ανάγνωση/εγγραφή Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | Καθορίζει τον οριζόντιο συντελεστή κλίμακας, η αρνητική κλίμακα προκαλεί αντιστροφή. (ποσοστά) Ανάγνωση/εγγραφή Double. |
-| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | Καθορίζει τον κατακόρυφο συντελεστή κλίμακας, η αρνητική κλίμακα προκαλεί αντιστροφή. (ποσοστά) Ανάγνωση/εγγραφή Double. |
-| [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | Καθορίζει τη γωνία οριζόντιας κλίσης. Ανάγνωση/εγγραφή Double. |
-| [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | Καθορίζει τη γωνία κατακόρυφης κλίσης. Ανάγνωση/εγγραφή Double. |
-| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | Καθορίζει τη θέση εκκίνησης (κατά μήκος της κλίμακας διαβάθμισης άλφα) της τιμής άλφα εκκίνησης (ποσοστά). Ανάγνωση/εγγραφή Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | Διαφάνεια εκκίνησης αντανάκλασης. (ποσοστά). Ανάγνωση/εγγραφή Single. |
+| [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | Κατεύθυνση του reflection. Ανάγνωση/εγγραφή Single. |
+| [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | Απόσταση του reflection. Ανάγνωση/εγγραφή Double. |
+| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | Καθορίζει τη θέση τέλους (κατά μήκος της κλίσης αλφα διαβάθμισης) της τιμής αλφα τέλους (ποσοστά). Ανάγνωση/εγγραφή Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | Διαφάνεια τέλους reflection. (ποσοστά). Ανάγνωση/εγγραφή Single. |
+| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | Καθορίζει την κατεύθυνση μετατόπισης του reflection. (γωνία). Ανάγνωση/εγγραφή Single. |
+| [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | Στοίχιση παραλληλόγραμμου. Ανάγνωση/εγγραφή [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | Καθορίζει αν το reflection πρέπει να περιστραφεί με το σχήμα αν το σχήμα περιστραφεί. Ανάγνωση/εγγραφή Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | Καθορίζει τον οριζόντιο παράγοντα κλιμάκωσης, η αρνητική κλιμάκωση προκαλεί αναστροφή. (ποσοστά) Ανάγνωση/εγγραφή Double. |
+| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | Καθορίζει τον κάθετο παράγοντα κλιμάκωσης, η αρνητική κλιμάκωση προκαλεί αναστροφή. (ποσοστά) Ανάγνωση/εγγραφή Double. |
+| [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | Καθορίζει τη γωνία οριζόντιας παραμόρφωσης. Ανάγνωση/εγγραφή Double. |
+| [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | Καθορίζει τη γωνία κάθετης παραμόρφωσης. Ανάγνωση/εγγραφή Double. |
+| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | Καθορίζει τη θέση εκκίνησης (κατά μήκος της κλίσης αλφα διαβάθμισης) της τιμής αλφα εκκίνησης (ποσοστά). Ανάγνωση/εγγραφή Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | Αρχική διαφάνεια reflection. (ποσοστά). Ανάγνωση/εγγραφή Single. |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/reflection/equals)(object) | Καθορίζει εάν το καθορισμένο [`Reflection`](../reflection) είναι ίσο με το τρέχον [`Reflection`](../reflection). |
-| [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | Αποκτά τα αποτελεσματικά δεδομένα εφέ Reflection με την κληρονομιά εφαρμοσμένη. |
-| override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | Λειτουργεί ως συνάρτηση κατακερματισμού για έναν συγκεκριμένο τύπο. |
+| [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | Λαμβάνει τα αποτελεσματικά δεδομένα εφέ Reflection με την εφαρμοζόμενη κληρονόμηση. |
+| override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | Λειτουργεί ως συνάρτηση κατατεμαχισμού για έναν συγκεκριμένο τύπο. |
 
 ### Δείτε επίσης
 
-* διεπαφή [IReflection](../ireflection)
-* χώρος ονομάτων [Aspose.Slides.Effects](../../aspose.slides.effects)
-* συγκέντρωση [Aspose.Slides](../../)
+* διασύνδεση [IReflection](../ireflection)
+* χώρο ονομάτων [Aspose.Slides.Effects](../../aspose.slides.effects)
+* συγκρότηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

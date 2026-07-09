@@ -1,9 +1,9 @@
 ---
 title: TemplateContextTObject
-second_title: Aspose.Sildes dla .NET referencja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje interfejs obiektu modelu dla silnika szablonów.
 type: docs
-weight: 4650
+weight: 4670
 url: /pl/aspose.slides.export.web/templatecontext-1/
 ---
 ## TemplateContext&lt;TObject&gt; klasa
@@ -18,10 +18,10 @@ public sealed class TemplateContext<TObject>
 
 | Nazwa | Opis |
 | --- | --- |
-| [Global](../../aspose.slides.export.web/templatecontext`1/global) { get; } | Zwraca globalną pamięć hostowanego dokumentu. Tylko do odczytu [`Storage`](../storage). |
-| [Local](../../aspose.slides.export.web/templatecontext`1/local) { get; } | Zwraca lokalną pamięć bieżącego kontekstu szablonu. Tylko do odczytu [`Storage`](../storage). |
+| [Global](../../aspose.slides.export.web/templatecontext`1/global) { get; } | Zwraca globalną przestrzeń przechowywania dokumentu głównego. Tylko do odczytu [`Storage`](../storage). |
+| [Local](../../aspose.slides.export.web/templatecontext`1/local) { get; } | Zwraca lokalną przestrzeń przechowywania bieżącego kontekstu szablonu. Tylko do odczytu [`Storage`](../storage). |
 | [Object](../../aspose.slides.export.web/templatecontext`1/object) { get; } | Zwraca obiekt modelu. Tylko do odczytu !:TObject. |
-| [Output](../../aspose.slides.export.web/templatecontext`1/output) { get; } | Zwraca kolekcję elementów wyjściowych hostowanego dokumentu. Tylko do odczytu [`Output`](./output). |
+| [Output](../../aspose.slides.export.web/templatecontext`1/output) { get; } | Zwraca kolekcję elementów wyjściowych dokumentu głównego. Tylko do odczytu [`Output`](./output). |
 
 ## Metody
 

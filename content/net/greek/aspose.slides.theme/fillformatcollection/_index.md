@@ -1,14 +1,14 @@
 ---
 title: FillFormatCollection
-second_title: Αναφορά API του Aspose.Sildes για .NET
-description: Αναπαριστά τη συλλογή των στυλ γεμίσματος.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Αντιπροσωπεύει τη συλλογή των στυλ γεμίσματος.
 type: docs
-weight: 11100
+weight: 11120
 url: /el/aspose.slides.theme/fillformatcollection/
 ---
 ## FillFormatCollection κλάση
 
-Αναπαριστά τη συλλογή των στυλ γεμίσματος.
+Αντιπροσωπεύει τη συλλογή των στυλ γεμισμού.
 
 ```csharp
 public sealed class FillFormatCollection : DomObject<FormatScheme>, IFillFormatCollection
@@ -16,19 +16,19 @@ public sealed class FillFormatCollection : DomObject<FormatScheme>, IFillFormatC
 
 ## Ιδιότητες
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Count](../../aspose.slides.theme/fillformatcollection/count) { get; } | Λαμβάνει τον αριθμό των στοιχείων που περιέχονται στην συλλογή πραγματικά. Μόνο για ανάγνωση Int32. |
+| [Count](../../aspose.slides.theme/fillformatcollection/count) { get; } | Λαμβάνει τον αριθμό των στοιχείων που περιέχονται στην συλλογή. Μόνο για ανάγνωση Int32. |
 | [IsSynchronized](../../aspose.slides.theme/fillformatcollection/issynchronized) { get; } | Επιστρέφει μια τιμή που υποδεικνύει εάν η πρόσβαση στη συλλογή είναι συγχρονισμένη (thread-safe). Μόνο για ανάγνωση Boolean. |
 | [Item](../../aspose.slides.theme/fillformatcollection/item) { get; } | Λαμβάνει το στοιχείο στο καθορισμένο δείκτη. Μόνο για ανάγνωση [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [SyncRoot](../../aspose.slides.theme/fillformatcollection/syncroot) { get; } | Επιστρέφει μια ρίζα συγχρονισμού. Μόνο για ανάγνωση Object. |
+| [SyncRoot](../../aspose.slides.theme/fillformatcollection/syncroot) { get; } | Επιστρέφει τη ρίζα συγχρονισμού. Μόνο για ανάγνωση Object. |
 
 ## Μέθοδοι
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
 | [CopyTo](../../aspose.slides.theme/fillformatcollection/copyto)(Array, int) | Αντιγράφει όλα τα στοιχεία από τη συλλογή στον καθορισμένο πίνακα. |
-| [GetEnumerator](../../aspose.slides.theme/fillformatcollection/getenumerator)() | Επιστρέφει έναν enumerator που διατρέχει τη συλλογή. |
+| [GetEnumerator](../../aspose.slides.theme/fillformatcollection/getenumerator)() | Επιστρέφει έναν απαριθμητή που διατρέχει τη συλλογή. |
 
 ### Δείτε επίσης
 

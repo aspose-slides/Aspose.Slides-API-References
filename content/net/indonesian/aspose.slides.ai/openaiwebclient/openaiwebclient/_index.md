@@ -1,14 +1,14 @@
 ---
 title: OpenAIWebClient
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Membuat instance klien OpenAI Web.
+description: Membuat instance klien web OpenAI.
 type: docs
 weight: 10
 url: /id/aspose.slides.ai/openaiwebclient/openaiwebclient/
 ---
 ## OpenAIWebClient(string, string, string) {#constructor}
 
-Membuat instance klien OpenAI Web.
+Membuat instance klien web OpenAI.
 
 ```csharp
 public OpenAIWebClient(string model, string apiKey, string organizationId)
@@ -17,15 +17,15 @@ public OpenAIWebClient(string model, string apiKey, string organizationId)
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | model | String | Model bahasa OpenAI. Nilai yang mungkin: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
-| apiKey | String | Kunci API OpenAI |
-| organizationId | String | ID organisasi (opsional) |
+| apiKey | String | Kunci API OpenAI. |
+| organizationId | String | ID Organisasi (opsional). |
 
 ### Pengecualian
 
 | pengecualian | kondisi |
 | --- | --- |
-| ArgumentException | Nilai API key tidak boleh null atau kosong |
-| ArgumentException | Nilai model teks tidak boleh null atau kosong |
+| ArgumentException | Nilai kunci API tidak boleh null atau kosong. |
+| ArgumentException | Nilai model teks tidak boleh null atau kosong. |
 
 ### Lihat Juga
 
@@ -37,7 +37,7 @@ public OpenAIWebClient(string model, string apiKey, string organizationId)
 
 ## OpenAIWebClient(string, string, string, HttpClient) {#constructor_1}
 
-Membuat instance klien OpenAI Web.
+Membuat instance klien web OpenAI yang menggunakan HttpClient yang dikelola secara eksternal. HttpClient yang diberikan tidak dibuang oleh instance ini dan tetap dimiliki oleh pemanggil.
 
 ```csharp
 public OpenAIWebClient(string model, string apiKey, string organizationId, HttpClient httpClient)
@@ -47,15 +47,16 @@ public OpenAIWebClient(string model, string apiKey, string organizationId, HttpC
 | --- | --- | --- |
 | model | String | Model bahasa OpenAI. Nilai yang mungkin: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
 | apiKey | String | Kunci API OpenAI |
-| organizationId | String | ID organisasi (opsional) |
-| httpClient | HttpClient | Sebuah instance `HttpClient` yang dikelola secara eksternal. |
+| organizationId | String | ID Organisasi (opsional) |
+| httpClient | HttpClient | Instance `HttpClient` yang dikelola secara eksternal |
 
 ### Pengecualian
 
 | pengecualian | kondisi |
 | --- | --- |
-| ArgumentException | Nilai API key tidak boleh null atau kosong |
+| ArgumentException | Nilai kunci API tidak boleh null atau kosong |
 | ArgumentException | Nilai model teks tidak boleh null atau kosong |
+| ArgumentNullException | HttpClient tidak boleh null |
 
 ### Lihat Juga
 

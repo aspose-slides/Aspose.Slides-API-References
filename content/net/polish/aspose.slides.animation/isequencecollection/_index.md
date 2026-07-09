@@ -1,9 +1,9 @@
 ---
 title: ISequenceCollection
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje kolekcję interaktywnych sekwencji.
 type: docs
-weight: 580
+weight: 600
 url: /pl/aspose.slides.animation/isequencecollection/
 ---
 ## ISequenceCollection interfejs
@@ -20,7 +20,7 @@ public interface ISequenceCollection : IEnumerable<ISequence>
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.animation/isequencecollection/asienumerable) { get; } | Zwraca interfejs IEnumerable. Tylko do odczytu IEnumerable. |
 | [Count](../../aspose.slides.animation/isequencecollection/count) { get; } | Zwraca liczbę elementów w kolekcji. Tylko do odczytu Int32. |
-| [Item](../../aspose.slides.animation/isequencecollection/item) { get; } | Zwraca sekwencję o określonym indeksie. |
+| [Item](../../aspose.slides.animation/isequencecollection/item) { get; } | Zwraca sekwencję pod wskazanym indeksem. |
 
 ## Metody
 
@@ -28,10 +28,10 @@ public interface ISequenceCollection : IEnumerable<ISequence>
 | --- | --- |
 | [Add](../../aspose.slides.animation/isequencecollection/add)(IShape) | Dodaje nową interaktywną sekwencję. |
 | [Clear](../../aspose.slides.animation/isequencecollection/clear)() | Usuwa wszystkie sekwencje z kolekcji. |
-| [Remove](../../aspose.slides.animation/isequencecollection/remove)(ISequence) | Usuwa określoną sekwencję z kolekcji. |
-| [RemoveAt](../../aspose.slides.animation/isequencecollection/removeat)(int) | Usuwa sekwencję o określonym indeksie. |
+| [Remove](../../aspose.slides.animation/isequencecollection/remove)(ISequence) | Usuwa wskazaną sekwencję z kolekcji. |
+| [RemoveAt](../../aspose.slides.animation/isequencecollection/removeat)(int) | Usuwa sekwencję o podanym indeksie. |
 
-### Zobacz także
+### Zobacz też
 
 * interfejs [ISequence](../isequence)
 * przestrzeń nazw [Aspose.Slides.Animation](../../aspose.slides.animation)

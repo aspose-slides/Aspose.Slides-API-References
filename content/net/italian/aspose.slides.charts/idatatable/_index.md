@@ -1,14 +1,14 @@
 ---
 title: IDataTable
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta le proprietà della tabella dati.
+description: Rappresenta le proprietà della tabella dei dati.
 type: docs
-weight: 2040
+weight: 2060
 url: /it/aspose.slides.charts/idatatable/
 ---
-## IDataTable interfaccia
+## Interfaccia IDataTable
 
-Rappresenta le proprietà della tabella dati.
+Rappresenta le proprietà della tabella dei dati.
 
 ```csharp
 public interface IDataTable : IFormattedTextContainer
@@ -20,14 +20,14 @@ public interface IDataTable : IFormattedTextContainer
 | --- | --- |
 | [AsIFormattedTextContainer](../../aspose.slides.charts/idatatable/asiformattedtextcontainer) { get; } | Consente di ottenere l'interfaccia base IFormattedTextContainer. Solo lettura [`IFormattedTextContainer`](../iformattedtextcontainer). |
 | [Format](../../aspose.slides.charts/idatatable/format) { get; } | Restituisce gli stili di linea, riempimento ed effetto di un oggetto. Solo lettura [`IFormat`](../iformat). |
-| [HasBorderHorizontal](../../aspose.slides.charts/idatatable/hasborderhorizontal) { get; set; } | True se la tabella dati del grafico ha i bordi orizzontali delle celle. Lettura/scrittura Boolean. |
-| [HasBorderOutline](../../aspose.slides.charts/idatatable/hasborderoutline) { get; set; } | True se la tabella dati del grafico ha i bordi di contorno. Lettura/scrittura Boolean. |
-| [HasBorderVertical](../../aspose.slides.charts/idatatable/hasbordervertical) { get; set; } | True se la tabella dati del grafico ha i bordi verticali delle celle. Lettura/scrittura Boolean. |
-| [ShowLegendKey](../../aspose.slides.charts/idatatable/showlegendkey) { get; set; } | True se la chiave della legenda dell'etichetta dati è visibile. Lettura/scrittura Boolean. |
+| [HasBorderHorizontal](../../aspose.slides.charts/idatatable/hasborderhorizontal) { get; set; } | Vero se la tabella dei dati del grafico ha bordi orizzontali delle celle. Lettura/scrittura Booleano. |
+| [HasBorderOutline](../../aspose.slides.charts/idatatable/hasborderoutline) { get; set; } | Vero se la tabella dei dati del grafico ha bordi di contorno. Lettura/scrittura Booleano. |
+| [HasBorderVertical](../../aspose.slides.charts/idatatable/hasbordervertical) { get; set; } | Vero se la tabella dei dati del grafico ha bordi verticali delle celle. Lettura/scrittura Booleano. |
+| [ShowLegendKey](../../aspose.slides.charts/idatatable/showlegendkey) { get; set; } | Vero se la chiave della legenda delle etichette dei dati è visibile. Lettura/scrittura Booleano. |
 
 ### Vedi anche
 
-* interface [IFormattedTextContainer](../iformattedtextcontainer)
+* interfaccia [IFormattedTextContainer](../iformattedtextcontainer)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)
 

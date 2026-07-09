@@ -1,14 +1,14 @@
 ---
 title: MathBoxFactory
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Consente di creare una casella matematica
+description: Consente di creare una math box
 type: docs
-weight: 8620
+weight: 8640
 url: /it/aspose.slides.mathtext/mathboxfactory/
 ---
 ## MathBoxFactory classe
 
-Consente di creare una casella matematica
+Consente di creare una math box
 
 ```csharp
 public class MathBoxFactory : IMathBoxFactory
@@ -24,7 +24,7 @@ public class MathBoxFactory : IMathBoxFactory
 
 | Nome | Descrizione |
 | --- | --- |
-| [CreateMathBox](../../aspose.slides.mathtext/mathboxfactory/createmathbox)(IMathElement) | Crea una casella matematica applicandola all'elemento |
+| [CreateMathBox](../../aspose.slides.mathtext/mathboxfactory/createmathbox)(IMathElement) | Crea una math box applicandola all'elemento |
 
 ### Osservazioni
 

@@ -1,9 +1,9 @@
 ---
 title: ColumnFormat
-second_title: Aspose.Sildes para a Referência de API .NET
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa o formato de uma coluna de tabela.
 type: docs
-weight: 2590
+weight: 2610
 url: /pt/aspose.slides/columnformat/
 ---
 ## ColumnFormat classe
@@ -18,9 +18,9 @@ public sealed class ColumnFormat : DomObject<Column>, IColumnFormat
 
 | Nome | Descrição |
 | --- | --- |
-| [GetEffective](../../aspose.slides/columnformat/geteffective)() | Obtém as propriedades efetivas de formatação da coluna da tabela com herança e estilos de tabela aplicados. |
+| [GetEffective](../../aspose.slides/columnformat/geteffective)() | Obtém as propriedades de formatação efetiva da coluna da tabela com herança e estilos de tabela aplicados. |
 
-### Ver também
+### Veja Também
 
 * classe [DomObject&lt;TParent&gt;](../domobject-1)
 * classe [Column](../column)

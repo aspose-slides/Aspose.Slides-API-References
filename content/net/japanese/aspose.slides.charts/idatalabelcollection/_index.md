@@ -1,14 +1,14 @@
 ---
 title: IDataLabelCollection
-second_title: Aspose.Sildes for .NET APIリファレンス
-description: シリーズ ラベルを表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: シリーズのラベルを表します。
 type: docs
-weight: 2010
+weight: 2030
 url: /ja/aspose.slides.charts/idatalabelcollection/
 ---
 ## IDataLabelCollection インターフェイス
 
-シリーズ ラベルを表します。
+Represents a series labels.
 
 ```csharp
 public interface IDataLabelCollection : IChartComponent, IEnumerable<IDataLabel>
@@ -18,24 +18,24 @@ public interface IDataLabelCollection : IChartComponent, IEnumerable<IDataLabel>
 
 | Name | Description |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/idatalabelcollection/asichartcomponent) { get; } | ベース IChartComponent インターフェイスを取得できます。読み取り専用 [`IChartComponent`](../ichartcomponent)。 |
-| [AsIEnumerable](../../aspose.slides.charts/idatalabelcollection/asienumerable) { get; } | ベース IEnumerable インターフェイスを取得できます。読み取り専用 IEnumerable。 |
-| [Count](../../aspose.slides.charts/idatalabelcollection/count) { get; } | コレクション内のすべてのデータ ラベルの数を取得します。読み取り専用 Int32。 |
-| [CountOfVisibleDataLabels](../../aspose.slides.charts/idatalabelcollection/countofvisibledatalabels) { get; } | コレクション内の表示されているデータ ラベルの数を取得します。読み取り専用 Int32。 |
-| [DefaultDataLabelFormat](../../aspose.slides.charts/idatalabelcollection/defaultdatalabelformat) { get; } | コレクション内のすべてのデータ ラベルのデフォルト形式を返します。読み取り専用 [`IDataLabelFormat`](../idatalabelformat)。 |
-| [IsVisible](../../aspose.slides.charts/idatalabelcollection/isvisible) { get; } | False は、データ ラベルがデフォルトで表示されないことを意味します (そのため DefaultDataLabelFormat プロパティのすべての Show*-フラグ (ShowValue, ...) が false になります)。読み取り専用 Boolean。 |
-| [Item](../../aspose.slides.charts/idatalabelcollection/item) { get; } | 指定されたインデックスを持つデータ ポイントのデータ ラベルを取得します。 |
-| [LeaderLinesFormat](../../aspose.slides.charts/idatalabelcollection/leaderlinesformat) { get; } | データ ラベルのリーダー ライン形式を表します。読み取り専用 [`IChartLinesFormat`](../ichartlinesformat)。 |
-| [ParentSeries](../../aspose.slides.charts/idatalabelcollection/parentseries) { get; } | 親チャート シリーズを返します。読み取り専用 [`IChartSeries`](../ichartseries)。 |
+| [AsIChartComponent](../../aspose.slides.charts/idatalabelcollection/asichartcomponent) { get; } | ベースの IChartComponent インターフェイスを取得できます。読み取り専用 [`IChartComponent`](../ichartcomponent)。 |
+| [AsIEnumerable](../../aspose.slides.charts/idatalabelcollection/asienumerable) { get; } | ベースの IEnumerable インターフェイスを取得できます。読み取り専用 IEnumerable。 |
+| [Count](../../aspose.slides.charts/idatalabelcollection/count) { get; } | コレクション内のすべてのデータラベルの数を取得します。読み取り専用 Int32。 |
+| [CountOfVisibleDataLabels](../../aspose.slides.charts/idatalabelcollection/countofvisibledatalabels) { get; } | コレクション内の表示されているデータラベルの数を取得します。読み取り専用 Int32。 |
+| [DefaultDataLabelFormat](../../aspose.slides.charts/idatalabelcollection/defaultdatalabelformat) { get; } | コレクション内のすべてのデータラベルのデフォルト形式を返します。読み取り専用 [`IDataLabelFormat`](../idatalabelformat)。 |
+| [IsVisible](../../aspose.slides.charts/idatalabelcollection/isvisible) { get; } | False は、データラベルがデフォルトで表示されないことを意味します（したがって DefaultDataLabelFormat プロパティのすべての Show* フラグ (ShowValue, ...) が false です）。読み取り専用 Boolean。 |
+| [Item](../../aspose.slides.charts/idatalabelcollection/item) { get; } | 指定されたインデックスのデータポイントのデータラベルを取得します。 |
+| [LeaderLinesFormat](../../aspose.slides.charts/idatalabelcollection/leaderlinesformat) { get; } | データラベルのリーダーライン形式を表します。読み取り専用 [`IChartLinesFormat`](../ichartlinesformat)。 |
+| [ParentSeries](../../aspose.slides.charts/idatalabelcollection/parentseries) { get; } | 親チャート系列を返します。読み取り専用 [`IChartSeries`](../ichartseries)。 |
 
 ## メソッド
 
 | Name | Description |
 | --- | --- |
-| [Hide](../../aspose.slides.charts/idatalabelcollection/hide)() | すべての Show*-フラグ (ShowValue, ...) を false に設定することで、デフォルトでデータ ラベルを非表示にします。これにより IsVisible は false になります。 |
+| [Hide](../../aspose.slides.charts/idatalabelcollection/hide)() | デフォルトでデータラベルを非表示にし、DefaultDataLabelFormat プロパティのすべての Show* フラグ (ShowValue, ...) を false に設定します。この後 IsVisible は false になります。 |
 | [IndexOf](../../aspose.slides.charts/idatalabelcollection/indexof)(IDataLabel) | コレクション内の指定された DataLabel のインデックスを返します。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [IChartComponent](../ichartcomponent)
 * インターフェイス [IDataLabel](../idatalabel)

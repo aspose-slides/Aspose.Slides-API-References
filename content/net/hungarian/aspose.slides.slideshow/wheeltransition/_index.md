@@ -1,14 +1,14 @@
 ---
 title: WheelTransition
-second_title: Aspose.Sildes .NET API Referencia
-description: Kerékcsúsztatási átmeneti hatás.
+second_title: Aspose.Sildes .NET API referenciája
+description: Kerékcsúszó átmeneti hatás.
 type: docs
-weight: 10450
+weight: 10470
 url: /hu/aspose.slides.slideshow/wheeltransition/
 ---
 ## WheelTransition osztály
 
-Kerékcsúsztatás átmeneti hatás.
+Kerékátmeneti csúszási hatás.
 
 ```csharp
 public class WheelTransition : TransitionValueBase, IWheelTransition
@@ -18,14 +18,14 @@ public class WheelTransition : TransitionValueBase, IWheelTransition
 
 | Név | Leírás |
 | --- | --- |
-| [Spokes](../../aspose.slides.slideshow/wheeltransition/spokes) { get; set; } | A kerékátmenet tárcsáinak száma. Olvasás/írás UInt32. |
+| [Spokes](../../aspose.slides.slideshow/wheeltransition/spokes) { get; set; } | A kerékátmenet sugárjainak száma. Olvasás/írás UInt32. |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Megállapítja, hogy a két TransitionValueBase példány egyenlő-e. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Hash függvényként szolgál egy adott típushoz, amely alkalmas hash algoritmusokban és adatstruktúrákban, például hash táblában való használatra. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Hash függvényként szolgál egy adott típushoz, amely alkalmas hash algoritmusokban és adatstruktúrákban, például hash táblában történő használatra. |
 
 ### Lásd még
 

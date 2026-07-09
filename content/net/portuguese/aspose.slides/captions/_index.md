@@ -1,14 +1,14 @@
 ---
 title: Captions
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa as legendas fechadas WebVTT.
 type: docs
-weight: 1090
+weight: 1110
 url: /pt/aspose.slides/captions/
 ---
-## classe Captions
+## Captions classe
 
-Representa as legendas fechadas WebVTT.
+Representa as legendas fechadas do WebVTT.
 
 ```csharp
 public class Captions : ICaptions
@@ -19,11 +19,11 @@ public class Captions : ICaptions
 | Nome | Descrição |
 | --- | --- |
 | [BinaryData](../../aspose.slides/captions/binarydata) { get; } | Retorna os dados binários das legendas fechadas. Somente leitura Byte[]. |
-| [CaptionId](../../aspose.slides/captions/captionid) { get; } | Retorna o identificador globalmente único (GUID) das legendas fechadas. Somente leitura Guid. |
+| [CaptionId](../../aspose.slides/captions/captionid) { get; } | Retorna o identificador global único (GUID) das legendas fechadas. Somente leitura Guid. |
 | [DataAsString](../../aspose.slides/captions/dataasstring) { get; } | Retorna os dados das legendas fechadas como string codificada em UTF-8. Somente leitura String. |
 | [Label](../../aspose.slides/captions/label) { get; set; } | Retorna ou define o rótulo das legendas fechadas. Leitura/gravação String. |
 
-### Veja também
+### Veja Também
 
 * interface [ICaptions](../icaptions)
 * namespace [Aspose.Slides](../../aspose.slides)

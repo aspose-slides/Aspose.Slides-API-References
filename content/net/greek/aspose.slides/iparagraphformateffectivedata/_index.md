@@ -1,14 +1,14 @@
 ---
 title: IParagraphFormatEffectiveData
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αμετάβλητο αντικείμενο που περιέχει ιδιότητες αποτελεσματικής μορφοποίησης παραγράφου.
+description: Αμετάβλητο αντικείμενο που περιέχει τις αποτελεσματικές ιδιότητες μορφοποίησης παραγράφου.
 type: docs
-weight: 6580
+weight: 6600
 url: /el/aspose.slides/iparagraphformateffectivedata/
 ---
 ## IParagraphFormatEffectiveData διασύνδεση
 
-Αμετάβλητο αντικείμενο που περιέχει ιδιότητες αποτελεσματικής μορφοποίησης παραγράφου.
+Αμετάβλητο αντικείμενο που περιέχει τις αποτελεσματικές ιδιότητες μορφοποίησης παραγράφου.
 
 ```csharp
 public interface IParagraphFormatEffectiveData
@@ -18,31 +18,31 @@ public interface IParagraphFormatEffectiveData
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | Επιστρέφει την ευθυγράμμιση κειμένου σε μια παράγραφο. Μόνο για ανάγνωση [`TextAlignment`](../textalignment). |
-| [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | Επιστρέφει μια μορφή κουκίδων μιας παραγράφου. Μόνο για ανάγνωση [`IBulletFormatEffectiveData`](../ibulletformateffectivedata). |
+| [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | Επιστρέφει τη στοίχιση κειμένου σε μια παράγραφο. Μόνο για ανάγνωση [`TextAlignment`](../textalignment). |
+| [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | Επιστρέφει μορφή κουκκίδας μιας παραγράφου. Μόνο για ανάγνωση [`IBulletFormatEffectiveData`](../ibulletformateffectivedata). |
 | [DefaultPortionFormat](../../aspose.slides/iparagraphformateffectivedata/defaultportionformat) { get; } | Επιστρέφει την προεπιλεγμένη μορφή τμήματος μιας παραγράφου. Μόνο για ανάγνωση [`IPortionFormatEffectiveData`](../iportionformateffectivedata). |
-| [DefaultTabSize](../../aspose.slides/iparagraphformateffectivedata/defaulttabsize) { get; } | Επιστρέφει το προεπιλεγμένο μέγεθος εσοχής. Μόνο για ανάγνωση Single. |
+| [DefaultTabSize](../../aspose.slides/iparagraphformateffectivedata/defaulttabsize) { get; } | Επιστρέφει το προεπιλεγμένο μέγεθος στηλοθέτη. Μόνο για ανάγνωση Single. |
 | [Depth](../../aspose.slides/iparagraphformateffectivedata/depth) { get; } | Επιστρέφει το βάθος μιας παραγράφου. Μόνο για ανάγνωση Int16. |
-| [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | Καθορίζει αν η διάσπαση γραμμής Ανατολικής Ασίας χρησιμοποιείται σε μια παράγραφο. Μόνο για ανάγνωση Boolean. |
-| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | Επιστρέφει την ευθυγράμμιση γραμματοσειράς σε μια παράγραφο. Μόνο για ανάγνωση [`FontAlignment`](../fontalignment). |
-| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | Καθορίζει αν η κρεματή στίξη χρησιμοποιείται σε μια παράγραφο. Μόνο για ανάγνωση Boolean. |
-| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | Επιστρέφει την εσοχή πρώτης γραμμής/κρεματής εσοχής της παραγράφου. Η κρεματή εσοχή μπορεί να οριστεί με αρνητικές τιμές. Μόνο για ανάγνωση Single. |
-| [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | Καθορίζει αν η διάσπαση γραμμής Λατινικά χρησιμοποιείται σε μια παράγραφο. Μόνο για ανάγνωση Boolean. |
+| [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | Καθορίζει εάν η ανανέωση γραμμής Ανατολικής Ασίας χρησιμοποιείται σε μια παράγραφο. Μόνο για ανάγνωση Boolean. |
+| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | Επιστρέφει τη στοίχιση γραμματοσειράς σε μια παράγραφο. Μόνο για ανάγνωση [`FontAlignment`](../fontalignment). |
+| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | Καθορίζει εάν η κρεμαστή στίξη χρησιμοποιείται σε μια παράγραφο. Μόνο για ανάγνωση Boolean. |
+| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | Επιστρέφει την εσοχή πρώτης γραμμής/κρεμαστής εσοχής της παραγράφου. Η κρεμαστή εσοχή μπορεί να οριστεί με αρνητικές τιμές. Μόνο για ανάγνωση Single. |
+| [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | Καθορίζει εάν η ανανέωση γραμμής Λατινικών χρησιμοποιείται σε μια παράγραφο. Μόνο για ανάγνωση Boolean. |
 | [MarginLeft](../../aspose.slides/iparagraphformateffectivedata/marginleft) { get; } | Επιστρέφει το αριστερό περιθώριο σε μια παράγραφο. Μόνο για ανάγνωση Single. |
 | [MarginRight](../../aspose.slides/iparagraphformateffectivedata/marginright) { get; } | Επιστρέφει το δεξιό περιθώριο σε μια παράγραφο. Μόνο για ανάγνωση Single. |
-| [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | Καθορίζει αν η γραφή από δεξιά προς αριστερά χρησιμοποιείται σε μια παράγραφο. Μόνο για ανάγνωση Boolean. |
-| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | Επιστρέφει το ποσό του κενού μετά την τελευταία γραμμή σε μια παράγραφο. Μόνο για ανάγνωση Single. |
-| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | Επιστρέφει το ποσό του κενού πριν την πρώτη γραμμή σε μια παράγραφο. Μόνο για ανάγνωση Single. |
-| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | Επιστρέφει το ποσό του κενού μεταξύ των βασικών γραμμών σε μια παράγραφο. Μόνο για ανάγνωση Single. |
-| [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | Επιστρέφει τις εσοχές μιας παραγράφου. Μόνο για ανάγνωση [`ITabEffectiveData`](../itabeffectivedata)[]. |
+| [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | Καθορίζει εάν η γραφή Δεξιά προς Αριστερά χρησιμοποιείται σε μια παράγραφο. Μόνο για ανάγνωση Boolean. |
+| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | Επιστρέφει το ποσό του χώρου μετά την τελευταία γραμμή σε μια παράγραφο. Μόνο για ανάγνωση Single. |
+| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | Επιστρέφει το ποσό του χώρου πριν από την πρώτη γραμμή σε μια παράγραφο. Μόνο για ανάγνωση Single. |
+| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | Επιστρέφει το ποσό του χώρου μεταξύ των βασικών γραμμών σε μια παράγραφο. Μόνο για ανάγνωση Single. |
+| [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | Επιστρέφει τις στηλοθεσίες μιας παραγράφου. Μόνο για ανάγνωση [`ITabEffectiveData`](../itabeffectivedata)[]. |
 
-### Παρατηρήσεις
+### Σχόλια
 
-Αυτή η διασύνδεση χρησιμοποιείται μαζί με τη διασύνδεση [`IParagraphFormat`](../iparagraphformat) για την επιστροφή των αποτελεσματικών τιμών μορφοποίησης με εφαρμογμένη κληρονομικότητα.
+Αυτή η διασύνδεση χρησιμοποιείται μαζί με τη διασύνδεση [`IParagraphFormat`](../iparagraphformat) για να επιστρέφει αποτελεσματικές τιμές μορφοποίησης με εφαρμογή κληρονομικότητας.
 
 ### Δείτε επίσης
 
 * χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* συναρμολόγηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

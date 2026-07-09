@@ -1,9 +1,9 @@
 ---
 title: ISlide
-second_title: Aspose.Sildes の .NET 用 API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: プレゼンテーション内のスライドを表します。
 type: docs
-weight: 7020
+weight: 7040
 url: /ja/aspose.slides/islide/
 ---
 ## ISlide インターフェイス
@@ -18,28 +18,28 @@ public interface ISlide : IBaseSlide, IOverrideThemeable
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/islide/asibaseslide) { get; } | ベースの IBaseSlide インターフェイスを取得できます。 読み取り専用 [`IBaseSlide`](../ibaseslide)。 |
-| [AsIOverrideThemeable](../../aspose.slides/islide/asioverridethemeable) { get; } | IOverrideThemeable インターフェイスを返します。 読み取り専用 [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable)。 |
-| [HeaderFooterManager](../../aspose.slides/islide/headerfootermanager) { get; } | スライドの HeaderFooter マネージャーを返します。 読み取り専用 [`ISlideHeaderFooterManager`](../islideheaderfootermanager)。 |
-| [Hidden](../../aspose.slides/islide/hidden) { get; set; } | 指定されたスライドがスライドショー中に非表示かどうかを決定します。 読み書き可能な Boolean。 |
-| [LayoutSlide](../../aspose.slides/islide/layoutslide) { get; set; } | 現在のスライドのレイアウトスライドを取得または設定します。 読み書き可能な [`ILayoutSlide`](../ilayoutslide)。 |
-| [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | ノートスライドにアクセスし、追加および削除できます。 読み取り専用 [`INotesSlideManager`](../inotesslidemanager)。 |
-| [SlideNumber](../../aspose.slides/islide/slidenumber) { get; set; } | スライドの番号を返します。[`Slides`](../ipresentation/slides) コレクション内のスライドインデックスは常に SlideNumber - 1 に等しいです。 読み書き可能な Int32。 |
+| [AsIBaseSlide](../../aspose.slides/islide/asibaseslide) { get; } | ベースの IBaseSlide インターフェイスを取得できます。読み取り専用 [`IBaseSlide`](../ibaseslide)。 |
+| [AsIOverrideThemeable](../../aspose.slides/islide/asioverridethemeable) { get; } | IOverrideThemeable インターフェイスを返します。読み取り専用 [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable)。 |
+| [HeaderFooterManager](../../aspose.slides/islide/headerfootermanager) { get; } | スライドの HeaderFooter マネージャーを返します。読み取り専用 [`ISlideHeaderFooterManager`](../islideheaderfootermanager)。 |
+| [Hidden](../../aspose.slides/islide/hidden) { get; set; } | 指定されたスライドがスライドショー中に非表示になるかどうかを決定します。読み書き可能な Boolean。 |
+| [LayoutSlide](../../aspose.slides/islide/layoutslide) { get; set; } | 現在のスライドのレイアウトスライドを取得または設定します。読み書き可能 [`ILayoutSlide`](../ilayoutslide)。 |
+| [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | ノートスライドへのアクセス、追加および削除が可能です。読み取り専用 [`INotesSlideManager`](../inotesslidemanager)。 |
+| [SlideNumber](../../aspose.slides/islide/slidenumber) { get; set; } | スライドの番号を返します。[`Slides`](../ipresentation/slides) コレクション内のスライドのインデックスは常に SlideNumber - 1 と等しくなります。読み書き可能な Int32。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [GetImage](../../aspose.slides/islide/getimage#getimage)() | サムネイル画像オブジェクトを返します（実サイズの20%）。 |
+| [GetImage](../../aspose.slides/islide/getimage#getimage)() | サムネイル画像オブジェクトを返します（実サイズの 20%）。 |
 | [GetImage](../../aspose.slides/islide/getimage#getimage_1)(IRenderingOptions) | サムネイル Bitmap オブジェクトを返します。 |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_4)(ITiffOptions) | 指定されたパラメータでサムネイル TIFF ビットマップオブジェクトを返します。 |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_6)(Size) | 指定サイズの画像オブジェクトを返します。 |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_5)(float, float) | カスタムスケーリングの画像オブジェクトを返します。 |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_3)(IRenderingOptions, Size) | 指定サイズのサムネイル Bitmap オブジェクトを返します。 |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_2)(IRenderingOptions, float, float) | カスタムスケーリングのサムネイル Bitmap オブジェクトを返します。 |
-| [GetSlideComments](../../aspose.slides/islide/getslidecomments)(ICommentAuthor) | 特定の作者によって追加されたすべてのスライドコメントを返します。 |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_4)(ITiffOptions) | 指定されたパラメーターでサムネイル TIFF Bitmap オブジェクトを返します。 |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_6)(Size) | 指定されたサイズの画像オブジェクトを返します。 |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_5)(float, float) | カスタムスケーリングされた画像オブジェクトを返します。 |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_3)(IRenderingOptions, Size) | 指定されたサイズのサムネイル Bitmap オブジェクトを返します。 |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_2)(IRenderingOptions, float, float) | カスタムスケーリングされたサムネイル Bitmap オブジェクトを返します。 |
+| [GetSlideComments](../../aspose.slides/islide/getslidecomments)(ICommentAuthor) | 特定の作成者によって追加されたすべてのスライドコメントを返します。 |
 | [Remove](../../aspose.slides/islide/remove)() | プレゼンテーションからスライドを削除します。 |
-| [Reset](../../aspose.slides/islide/reset)() | LayoutSlide 上にプロトタイプを持つすべてのシェイプの位置、サイズ、および書式設定をリセットします。 |
+| [Reset](../../aspose.slides/islide/reset)() | LayoutSlide 上にプロトタイプがあるすべての形状の位置、サイズ、および書式設定をリセットします。 |
 | [WriteAsEmf](../../aspose.slides/islide/writeasemf)(Stream) | スライドの内容を EMF ファイルとして保存します。 |
 | [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg)(Stream) | スライドの内容を SVG ファイルとして保存します。 |
 | [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg_1)(Stream, ISVGOptions) | スライドの内容を SVG ファイルとして保存します。 |

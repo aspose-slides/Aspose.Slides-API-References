@@ -1,12 +1,12 @@
 ---
 title: TextCapType
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta il tipo di capitalizzazione del testo.
 type: docs
-weight: 10910
+weight: 10930
 url: /it/aspose.slides/textcaptype/
 ---
-## enumerazione TextCapType
+## Enumerazione TextCapType
 
 Rappresenta il tipo di capitalizzazione del testo.
 

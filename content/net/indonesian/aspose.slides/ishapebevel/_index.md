@@ -1,14 +1,14 @@
 ---
 title: IShapeBevel
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili properti relief wajah utama bentuk.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili properti relief muka utama bentuk.
 type: docs
-weight: 6940
+weight: 6960
 url: /id/aspose.slides/ishapebevel/
 ---
 ## IShapeBevel antarmuka
 
-Mewakili properti relief wajah utama bentuk.
+Represents properties of shape's main face relief.
 
 ```csharp
 public interface IShapeBevel

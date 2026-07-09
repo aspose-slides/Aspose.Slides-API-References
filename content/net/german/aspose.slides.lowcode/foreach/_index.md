@@ -1,15 +1,14 @@
 ---
 title: ForEach
-second_title: Aspose.Sildes für .NET API Referenz
-description: Repräsentiert eine Gruppe von Methoden, die dazu dienen, über verschiedene Präsentation../aspose.slides/presentation Modellobjekte zu iterieren. Diese Methoden können nützlich sein, wenn Sie einige Formatierungen oder Inhalte von Präsentationselementen iterieren und ändern müssen, z.B. die Formatierung jeder Portion ändern.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt eine Gruppe von Methoden dar, die dazu bestimmt sind, über verschiedene Presentation../aspose.slides/presentation Modellobjekte zu iterieren. Diese Methoden können nützlich sein, wenn Sie über Presentation-Elemente iterieren und deren Formatierung oder Inhalt ändern müssen, z. B. die Formatierung jedes Abschnitts ändern.
 type: docs
-weight: 7660
+weight: 7900
 url: /de/aspose.slides.lowcode/foreach/
 ---
+## ForEach Klasse
 
-## ForEach-Klasse
-
-Repräsentiert eine Gruppe von Methoden, die dazu dienen, über verschiedene [`Presentation`](../../aspose.slides/presentation) Modellobjekte zu iterieren. Diese Methoden können nützlich sein, wenn Sie einige Formatierungen oder Inhalte von Präsentationselementen ändern müssen, z.B. die Formatierung jeder Portion ändern.
+Stellt eine Gruppe von Methoden dar, die dazu bestimmt sind, über verschiedene [`Presentation`](../../aspose.slides/presentation) Modellobjekte zu iterieren. Diese Methoden können nützlich sein, wenn Sie die Formatierung oder den Inhalt von Elementen einer Presentation ändern müssen, z. B. die Formatierung jedes Abschnitts ändern.
 
 ```csharp
 public static class ForEach
@@ -19,27 +18,27 @@ public static class ForEach
 
 | Name | Beschreibung |
 | --- | --- |
-| static [LayoutSlide](../../aspose.slides.lowcode/foreach/layoutslide)(Presentation, ForEachLayoutSlideCallback) | Über jeder [`LayoutSlide`](./layoutslide) in der [`Presentation`](../../aspose.slides/presentation) iterieren. |
-| static [MasterSlide](../../aspose.slides.lowcode/foreach/masterslide)(Presentation, ForEachMasterSlideCallback) | Über jeder [`MasterSlide`](./masterslide) in der [`Presentation`](../../aspose.slides/presentation) iterieren. |
-| static [Paragraph](../../aspose.slides.lowcode/foreach/paragraph#paragraph_1)(Presentation, ForEachParagraphCallback) | Über jeder [`Paragraph`](./paragraph) in der [`Presentation`](../../aspose.slides/presentation) iterieren. Formen werden in allen Arten von Folien - [`Slide`](./slide), [`MasterSlide`](./masterslide) und [`LayoutSlide`](./layoutslide) iteriert. |
-| static [Paragraph](../../aspose.slides.lowcode/foreach/paragraph#paragraph)(Presentation, bool, ForEachParagraphCallback) | Über jeder [`Paragraph`](./paragraph) in der [`Presentation`](../../aspose.slides/presentation) iterieren. Formen werden in allen Arten von Folien - [`Slide`](./slide), [`MasterSlide`](./masterslide), [`LayoutSlide`](./layoutslide) und [`NotesSlide`](../../aspose.slides/notesslide) iteriert. |
-| static [Portion](../../aspose.slides.lowcode/foreach/portion#portion_1)(Presentation, ForEachPortionCallback) | Über jeder [`Portion`](./portion) in der [`Presentation`](../../aspose.slides/presentation) iterieren. Portionen werden in allen Arten von Folien - [`Slide`](./slide), [`MasterSlide`](./masterslide) und [`LayoutSlide`](./layoutslide) iteriert. |
-| static [Portion](../../aspose.slides.lowcode/foreach/portion#portion)(Presentation, bool, ForEachPortionCallback) | Über jeder [`Portion`](./portion) in der [`Presentation`](../../aspose.slides/presentation) iterieren. Portionen werden in allen Arten von Folien - [`Slide`](./slide), [`MasterSlide`](./masterslide), [`LayoutSlide`](./layoutslide) und [`NotesSlide`](../../aspose.slides/notesslide) iteriert. |
-| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape)(BaseSlide, ForEachShapeCallback) | Über jeder [`Shape`](./shape) in der [`BaseSlide`](../../aspose.slides/baseslide) iterieren. [`BaseSlide`](../../aspose.slides/baseslide) ist der Basistyp für [`Slide`](./slide), [`MasterSlide`](./masterslide) und [`LayoutSlide`](./layoutslide). |
-| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape_2)(Presentation, ForEachShapeCallback) | Über jeder [`Shape`](./shape) in der [`Presentation`](../../aspose.slides/presentation) iterieren. Formen werden in allen Arten von Folien - [`Slide`](./slide), [`MasterSlide`](./masterslide) und [`LayoutSlide`](./layoutslide) iteriert. |
-| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape_1)(Presentation, bool, ForEachShapeCallback) | Über jeder [`Shape`](./shape) in der [`Presentation`](../../aspose.slides/presentation) iterieren. Formen werden in allen Arten von Folien - [`Slide`](./slide), [`MasterSlide`](./masterslide), [`LayoutSlide`](./layoutslide) und [`NotesSlide`](../../aspose.slides/notesslide) iteriert, falls benötigt. |
-| static [Slide](../../aspose.slides.lowcode/foreach/slide)(Presentation, ForEachSlideCallback) | Über jeder [`Slide`](./slide) in der [`Presentation`](../../aspose.slides/presentation) iterieren. |
+| static [LayoutSlide](../../aspose.slides.lowcode/foreach/layoutslide)(Presentation, ForEachLayoutSlideCallback) | Iterieren Sie jedes [`LayoutSlide`](./layoutslide) im [`Presentation`](../../aspose.slides/presentation). |
+| static [MasterSlide](../../aspose.slides.lowcode/foreach/masterslide)(Presentation, ForEachMasterSlideCallback) | Iterieren Sie jedes [`MasterSlide`](./masterslide) im [`Presentation`](../../aspose.slides/presentation). |
+| static [Paragraph](../../aspose.slides.lowcode/foreach/paragraph#paragraph_1)(Presentation, ForEachParagraphCallback) | Iterieren Sie jedes [`Paragraph`](./paragraph) im [`Presentation`](../../aspose.slides/presentation). Formen werden in allen Folientypen iteriert - [`Slide`](./slide), [`MasterSlide`](./masterslide) und [`LayoutSlide`](./layoutslide) |
+| static [Paragraph](../../aspose.slides.lowcode/foreach/paragraph#paragraph)(Presentation, bool, ForEachParagraphCallback) | Iterieren Sie jedes [`Paragraph`](./paragraph) im [`Presentation`](../../aspose.slides/presentation). Formen werden in allen Folientypen iteriert - [`Slide`](./slide), [`MasterSlide`](./masterslide), [`LayoutSlide`](./layoutslide) und [`NotesSlide`](../../aspose.slides/notesslide) |
+| static [Portion](../../aspose.slides.lowcode/foreach/portion#portion_1)(Presentation, ForEachPortionCallback) | Iterieren Sie jedes [`Portion`](./portion) im [`Presentation`](../../aspose.slides/presentation). Abschnitte werden in allen Folientypen iteriert - [`Slide`](./slide), [`MasterSlide`](./masterslide) und [`LayoutSlide`](./layoutslide) |
+| static [Portion](../../aspose.slides.lowcode/foreach/portion#portion)(Presentation, bool, ForEachPortionCallback) | Iterieren Sie jedes [`Portion`](./portion) im [`Presentation`](../../aspose.slides/presentation). Abschnitte werden in allen Folientypen iteriert - [`Slide`](./slide), [`MasterSlide`](./masterslide), [`LayoutSlide`](./layoutslide) und [`NotesSlide`](../../aspose.slides/notesslide) |
+| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape)(BaseSlide, ForEachShapeCallback) | Iterieren Sie jedes [`Shape`](./shape) im [`BaseSlide`](../../aspose.slides/baseslide). [`BaseSlide`](../../aspose.slides/baseslide) ist der Basistyp für [`Slide`](./slide), [`MasterSlide`](./masterslide) und [`LayoutSlide`](./layoutslide) |
+| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape_2)(Presentation, ForEachShapeCallback) | Iterieren Sie jedes [`Shape`](./shape) im [`Presentation`](../../aspose.slides/presentation). Formen werden in allen Folientypen iteriert - [`Slide`](./slide), [`MasterSlide`](./masterslide) und [`LayoutSlide`](./layoutslide) |
+| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape_1)(Presentation, bool, ForEachShapeCallback) | Iterieren Sie jedes [`Shape`](./shape) im [`Presentation`](../../aspose.slides/presentation). Formen werden in allen Folientypen iteriert - [`Slide`](./slide), [`MasterSlide`](./masterslide), [`LayoutSlide`](./layoutslide) und [`NotesSlide`](../../aspose.slides/notesslide) falls nötig. |
+| static [Slide](../../aspose.slides.lowcode/foreach/slide)(Presentation, ForEachSlideCallback) | Iterieren Sie jedes [`Slide`](./slide) im [`Presentation`](../../aspose.slides/presentation). |
 
 ## Andere Mitglieder
 
 | Name | Beschreibung |
 | --- | --- |
-| delegate [ForEachLayoutSlideCallback](foreach.foreachlayoutslidecallback) |  |
-| delegate [ForEachMasterSlideCallback](foreach.foreachmasterslidecallback) |  |
-| delegate [ForEachParagraphCallback](foreach.foreachparagraphcallback) |  |
-| delegate [ForEachPortionCallback](foreach.foreachportioncallback) |  |
-| delegate [ForEachShapeCallback](foreach.foreachshapecallback) |  |
-| delegate [ForEachSlideCallback](foreach.foreachslidecallback) |  |
+| delegate [ForEachLayoutSlideCallback](foreach.foreachlayoutslidecallback) | Callback, der für jedes [`LayoutSlide`](./layoutslide) im [`Presentation`](../../aspose.slides/presentation) aufgerufen wird. |
+| delegate [ForEachMasterSlideCallback](foreach.foreachmasterslidecallback) | Callback, der für jedes [`MasterSlide`](./masterslide) im [`Presentation`](../../aspose.slides/presentation) aufgerufen wird. |
+| delegate [ForEachParagraphCallback](foreach.foreachparagraphcallback) | Callback, der für jedes [`Paragraph`](./paragraph) auf dem [`BaseSlide`](../../aspose.slides/baseslide) aufgerufen wird. |
+| delegate [ForEachPortionCallback](foreach.foreachportioncallback) | Callback, der für jedes [`Portion`](./portion) im [`Paragraph`](./paragraph) auf dem [`BaseSlide`](../../aspose.slides/baseslide) aufgerufen wird. |
+| delegate [ForEachShapeCallback](foreach.foreachshapecallback) | Callback, der für jedes [`Shape`](./shape) im [`Presentation`](../../aspose.slides/presentation) aufgerufen wird. |
+| delegate [ForEachSlideCallback](foreach.foreachslidecallback) | Callback, der für jedes [`Slide`](./slide) im [`Presentation`](../../aspose.slides/presentation) aufgerufen wird. |
 
 ### Beispiele
 
@@ -57,7 +56,7 @@ using (Presentation presentation = new Presentation("pres.pptx"))
 
 ### Siehe auch
 
-* Namespace [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
-* Assembly [Aspose.Slides](../../)
+* Namensraum [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

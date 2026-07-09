@@ -1,14 +1,14 @@
 ---
 title: IMathBorderBox
-second_title: Aspose.Sildes .NET API referencia
-description: Téglalap vagy más típusú keretet rajzol az IMathElement köré.
+second_title: Aspose.Sildes .NET API-referencia
+description: Téglalap vagy más alakú keretet rajzol az IMathElement köré.
 type: docs
-weight: 8150
+weight: 8170
 url: /hu/aspose.slides.mathtext/imathborderbox/
 ---
 ## IMathBorderBox interfész
 
-Téglalap vagy más típusú keretet rajzol az IMathElement köré.
+Téglalap vagy más alakú keretet rajzol az IMathElement köré.
 
 ```csharp
 public interface IMathBorderBox : IMathElement
@@ -18,16 +18,16 @@ public interface IMathBorderBox : IMathElement
 
 | Név | Leírás |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathborderbox/asimathelement) { get; } | Lehetővé teszi a bázis IMathElement interfész lekérését [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathborderbox/asimathelement) { get; } | Lehetővé teszi az alap IMathElement interfész lekérését [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathborderbox/base) { get; } | Alap argumentum |
-| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | Az alsó él elrejtése (alapértelmezett érték: false) – meghatározza a keretdoboz alsó élének rejtett vagy látható állapotát. |
-| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | A bal él elrejtése (alapértelmezett érték: false) – meghatározza a keretdoboz bal élének rejtett vagy látható állapotát. |
-| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | A jobb él elrejtése (alapértelmezett érték: false) – meghatározza a keretdoboz jobb élének rejtett vagy látható állapotát. |
-| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | A felső él elrejtése (alapértelmezett érték: false) – meghatározza a keretdoboz felső élének rejtett vagy látható állapotát. |
-| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | Áthúzás bal alsó saroktól jobb felső sarokig (alapértelmezett érték: false). Meghatározza egy áthúzott átlós vonal rejtett vagy látható állapotát, amely a keretdoboz bal alsó sarkától a jobb felső sarkáig húzódik. |
-| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | Vízszintes áthúzás (alapértelmezett érték: false) – meghatározza egy vízszintes áthúzott vonal rejtett vagy látható állapotát. |
-| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | Áthúzás bal felső sarkától jobb alsó sarokig (alapértelmezett érték: false). Meghatározza egy áthúzott átlós vonal rejtett vagy látható állapotát, amely a keretdoboz bal felső sarkától a jobb alsó sarokig húzódik. |
-| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | Függőleges áthúzás (alapértelmezett érték: false) – meghatározza egy függőleges áthúzott vonal rejtett vagy látható állapotát. |
+| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | Hide Bottom Edge (alapértelmezett érték false) - meghatározza a border box alsó élének rejtett vagy látható állapotát. |
+| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | Hide Left Edge (alapértelmezett érték false) - meghatározza a border box bal élének rejtett vagy látható állapotát. |
+| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | Hide Right Edge (alapértelmezett érték false) - meghatározza a border box jobb élének rejtett vagy látható állapotát. |
+| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | Hide Top Edge (alapértelmezett érték false) - meghatározza a border box felső élének rejtett vagy látható állapotát. |
+| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | Strikethrough Bottom-Left to Top-Right (alapértelmezett érték false). Meghatározza a border box bal alsó sarkától jobb felső sarkáig húzott átlós áthúzási vonal rejtett vagy látható állapotát. |
+| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | Strikethrough Horizontal (alapértelmezett érték false) - meghatározza egy áthúzott vízszintes vonal rejtett vagy látható állapotát. |
+| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | Strikethrough Top-Left to Bottom-Right (alapértelmezett érték false). Meghatározza a border box bal felső sarkától jobb alsó sarkáig húzott átlós áthúzási vonal rejtett vagy látható állapotát. |
+| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | Strikethrough Vertical (alapértelmezett érték false) - meghatározza egy áthúzott függőleges vonal rejtett vagy látható állapotát. |
 
 ### Példák
 

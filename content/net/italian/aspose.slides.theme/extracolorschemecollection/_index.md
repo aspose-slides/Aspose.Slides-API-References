@@ -1,14 +1,14 @@
 ---
 title: ExtraColorSchemeCollection
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta una collezione di schemi di colore aggiuntivi.
+second_title: Aspose.Sildes per .NET - Riferimento API
+description: Rappresenta una raccolta di schemi di colore aggiuntivi.
 type: docs
-weight: 11090
+weight: 11110
 url: /it/aspose.slides.theme/extracolorschemecollection/
 ---
-## classe ExtraColorSchemeCollection
+## ExtraColorSchemeCollection classe
 
-Rappresenta una collezione di schemi di colore aggiuntivi.
+Rappresenta una raccolta di schemi di colore aggiuntivi.
 
 ```csharp
 public class ExtraColorSchemeCollection : IExtraColorSchemeCollection
@@ -16,19 +16,19 @@ public class ExtraColorSchemeCollection : IExtraColorSchemeCollection
 
 ## Proprietà
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides.theme/extracolorschemecollection/count) { get; } | Restituisce il numero di elementi nella collezione. Sola lettura Int32. |
+| [Count](../../aspose.slides.theme/extracolorschemecollection/count) { get; } | Restituisce un numero di elementi nella raccolta. Sola lettura Int32. |
 | [IsSynchronized](../../aspose.slides.theme/extracolorschemecollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso all'ArrayList è sincronizzato (thread safe). Sola lettura Boolean. |
-| [Item](../../aspose.slides.theme/extracolorschemecollection/item) { get; } | Restituisce uno schema di colori per indice. Sola lettura [`ExtraColorScheme`](../extracolorscheme). |
-| [SyncRoot](../../aspose.slides.theme/extracolorschemecollection/syncroot) { get; } | Restituisce un oggetto che può essere usato per sincronizzare l'accesso alla collezione. Sola lettura Object. |
+| [Item](../../aspose.slides.theme/extracolorschemecollection/item) { get; } | Restituisce uno schema di colore per indice. Sola lettura [`ExtraColorScheme`](../extracolorscheme). |
+| [SyncRoot](../../aspose.slides.theme/extracolorschemecollection/syncroot) { get; } | Restituisce un oggetto che può essere usato per sincronizzare l'accesso alla raccolta. Sola lettura Object. |
 
 ## Metodi
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
-| [CopyTo](../../aspose.slides.theme/extracolorschemecollection/copyto)(Array, int) | Copia tutti gli elementi della collezione nell'array specificato. |
-| [GetEnumerator](../../aspose.slides.theme/extracolorschemecollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la collezione. |
+| [CopyTo](../../aspose.slides.theme/extracolorschemecollection/copyto)(Array, int) | Copia tutti gli elementi della raccolta nell'array specificato. |
+| [GetEnumerator](../../aspose.slides.theme/extracolorschemecollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
 
 ### Vedi anche
 

@@ -1,12 +1,12 @@
 ---
 title: RotationEffect
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa o comportamento de rotação do efeito.
 type: docs
-weight: 750
+weight: 770
 url: /pt/aspose.slides.animation/rotationeffect/
 ---
-## RotationEffect classe
+## classe RotationEffect
 
 Representa o comportamento de rotação do efeito.
 
@@ -29,10 +29,10 @@ public class RotationEffect : Behavior, IRotationEffect
 | [By](../../aspose.slides.animation/rotationeffect/by) { get; set; } | Descreve o valor de deslocamento relativo para a animação. Leitura/Gravação Single. |
 | [From](../../aspose.slides.animation/rotationeffect/from) { get; set; } | Descreve o valor inicial para a animação. Leitura/Gravação Single. |
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Representa propriedades do comportamento. Somente leitura [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Representa propriedades de temporização para o comportamento do efeito. Leitura/Gravação [`ITiming`](../itiming). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Representa propriedades de tempo para o comportamento do efeito. Leitura/Gravação [`ITiming`](../itiming). |
 | [To](../../aspose.slides.animation/rotationeffect/to) { get; set; } | Descreve o valor final para a animação. Leitura/Gravação Single. |
 
-### Ver também
+### Veja Também
 
 * classe [Behavior](../behavior)
 * interface [IRotationEffect](../irotationeffect)

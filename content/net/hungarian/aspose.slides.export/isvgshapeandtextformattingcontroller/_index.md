@@ -1,14 +1,14 @@
 ---
 title: ISvgShapeAndTextFormattingController
 second_title: Aspose.Sildes .NET API referencia
-description: Kezeli az SVG alakzatok és szöveg generálását.
+description: Az SVG alakzat és szöveg generálását irányítja.
 type: docs
-weight: 4100
+weight: 4120
 url: /hu/aspose.slides.export/isvgshapeandtextformattingcontroller/
 ---
 ## ISvgShapeAndTextFormattingController interfész
 
-SVG alakzatok és szöveg generálását kezeli.
+Controls SVG shape and text generation.
 
 ```csharp
 public interface ISvgShapeAndTextFormattingController : ISvgShapeFormattingController
@@ -24,7 +24,7 @@ public interface ISvgShapeAndTextFormattingController : ISvgShapeFormattingContr
 
 | Név | Leírás |
 | --- | --- |
-| [FormatText](../../aspose.slides.export/isvgshapeandtextformattingcontroller/formattext)(ISvgTSpan, IPortion, ITextFrame) | Ez a függvény a szövegrész SVG-re történő renderelése előtt hívódik meg, hogy a felhasználó szabályozhassa a keletkező SVG-t. |
+| [FormatText](../../aspose.slides.export/isvgshapeandtextformattingcontroller/formattext)(ISvgTSpan, IPortion, ITextFrame) | Ez a függvény a szövegrész SVG-re történő renderelése előtt hívódik meg, hogy a felhasználó szabályozhassa a keletkezett SVG-t. |
 
 ### Példák
 

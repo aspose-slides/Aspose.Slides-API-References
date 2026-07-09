@@ -1,14 +1,14 @@
 ---
 title: IInk
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Reprezentuje obiekt tuszu na slajdzie.
+second_title: Aspose.Sildes dla .NET – Referencja API
+description: Reprezentuje obiekt atramentu na slajdzie.
 type: docs
-weight: 7490
+weight: 7510
 url: /pl/aspose.slides.ink/iink/
 ---
 ## Interfejs IInk
 
-Reprezentuje obiekt tuszu na slajdzie.
+Reprezentuje obiekt atramentu na slajdzie.
 
 ```csharp
 public interface IInk : IGraphicalObject
@@ -18,10 +18,10 @@ public interface IInk : IGraphicalObject
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides.ink/iink/asigraphicalobject) { get; } | Umożliwia pobranie podstawowego interfejsu IGraphicalObject. Tylko do odczytu [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [AsIGraphicalObject](../../aspose.slides.ink/iink/asigraphicalobject) { get; } | Umożliwia pobranie bazowego interfejsu IGraphicalObject. Tylko do odczytu [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
 | [Traces](../../aspose.slides.ink/iink/traces) { get; } | Pobiera wszystkie ślady zawarte w elemencie IInk [`IInkTrace`](../iinktrace). Tylko do odczytu. |
 
-### Zobacz również
+### Zobacz także
 
 * interfejs [IGraphicalObject](../../aspose.slides/igraphicalobject)
 * przestrzeń nazw [Aspose.Slides.Ink](../../aspose.slides.ink)

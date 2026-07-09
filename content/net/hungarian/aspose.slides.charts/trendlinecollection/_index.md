@@ -1,14 +1,14 @@
 ---
 title: TrendlineCollection
-second_title: Aspose.Sildes .NET API referencia
-description: A Trendline gyűjteményt képviseli
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Trendline gyűjteményt képvisel
 type: docs
-weight: 2460
+weight: 2480
 url: /hu/aspose.slides.charts/trendlinecollection/
 ---
 ## TrendlineCollection osztály
 
-A Trendline gyűjteményt képviseli
+Trendline gyűjteményt képvisel
 
 ```csharp
 public class TrendlineCollection : DomObject<ChartSeries>, ITrendlineCollection
@@ -18,15 +18,15 @@ public class TrendlineCollection : DomObject<ChartSeries>, ITrendlineCollection
 
 | Név | Leírás |
 | --- | --- |
-| [Count](../../aspose.slides.charts/trendlinecollection/count) { get; } | Lekérdezi a gyűjteményben ténylegesen tárolt elemek számát. Csak olvasható Int32. |
-| [Item](../../aspose.slides.charts/trendlinecollection/item) { get; } | Lekérdezi a megadott indexű elemet. Csak olvasható [`Trendline`](../trendline). |
+| [Count](../../aspose.slides.charts/trendlinecollection/count) { get; } | A gyűjteményben ténylegesen lévő elemek számát adja vissza. Csak olvasható Int32. |
+| [Item](../../aspose.slides.charts/trendlinecollection/item) { get; } | A megadott indexnél található elemet adja vissza. Csak olvasható [`Trendline`](../trendline). |
 
 ## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [Add](../../aspose.slides.charts/trendlinecollection/add)(TrendlineType) | Hozzáadja az új Trendline-t a gyűjtemény végéhez, és visszaadja. |
-| [GetEnumerator](../../aspose.slides.charts/trendlinecollection/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |
+| [Add](../../aspose.slides.charts/trendlinecollection/add)(TrendlineType) | Új Trendline-t ad a gyűjtemény végéhez, és visszaadja. |
+| [GetEnumerator](../../aspose.slides.charts/trendlinecollection/getenumerator)() | Visszaad egy enumerátort, amely a gyűjteményen iterál. |
 | [Remove](../../aspose.slides.charts/trendlinecollection/remove)(ITrendline) | Eltávolítja a megadott értéket. |
 
 ### Lásd még

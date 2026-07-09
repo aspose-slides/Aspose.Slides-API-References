@@ -1,14 +1,14 @@
 ---
 title: Placeholder
-second_title: Aspose.Sildes için .NET API Referansı
-description: Bir slayttaki yer tutucuyu temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Bir slaytta yer tutucuyu temsil eder.
 type: docs
-weight: 9410
+weight: 9430
 url: /tr/aspose.slides/placeholder/
 ---
 ## Yer tutucu sınıfı
 
-Bir slaytta bir yer tutucuyu temsil eder.
+Bir slayt üzerindeki yer tutucuyu temsil eder.
 
 ```csharp
 public class Placeholder : IPlaceholder
@@ -16,14 +16,14 @@ public class Placeholder : IPlaceholder
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
 | [Index](../../aspose.slides/placeholder/index) { get; } | Bir yer tutucunun dizinini alır veya ayarlar. Yalnızca okunabilir UInt32. |
 | [Orientation](../../aspose.slides/placeholder/orientation) { get; } | Bir yer tutucunun yönünü alır veya ayarlar. Yalnızca okunabilir [`Orientation`](../orientation). |
 | [Size](../../aspose.slides/placeholder/size) { get; } | Bir yer tutucunun boyutunu alır veya ayarlar. Yalnızca okunabilir [`PlaceholderSize`](../placeholdersize). |
-| [Type](../../aspose.slides/placeholder/type) { get; } | Bir yer tutucunun türünü alır veya ayarlar. Yalnızca okunabilir [`PlaceholderType`](../placeholdertype). |
+| [Type](../../aspose.slides/placeholder/type) { get; } | Bir yer tutucunun tipini alır veya ayarlar. Yalnızca okunabilir [`PlaceholderType`](../placeholdertype). |
 
-### Ayrıca Bakınız
+### Bakınız
 
 * arayüz [IPlaceholder](../iplaceholder)
 * ad alanı [Aspose.Slides](../../aspose.slides)

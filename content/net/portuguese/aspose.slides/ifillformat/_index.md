@@ -3,10 +3,9 @@ title: IFillFormat
 second_title: Aspose.Sildes para .NET Referência da API
 description: Representa opções de formatação de preenchimento.
 type: docs
-weight: 5770
+weight: 5790
 url: /pt/aspose.slides/ifillformat/
 ---
-
 ## IFillFormat interface
 
 Representa opções de formatação de preenchimento.
@@ -20,18 +19,18 @@ public interface IFillFormat : IFillParamSource
 | Nome | Descrição |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ifillformat/asifillparamsource) { get; } | Permite obter a interface base IFillParamSource. Somente leitura [`IFillParamSource`](../ifillparamsource). |
-| [FillType](../../aspose.slides/ifillformat/filltype) { get; set; } | Retorna ou define o tipo de preenchimento. Leitura/Gravação [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/ifillformat/gradientformat) { get; } | Retorna o formato de preenchimento degradê. Somente leitura [`IGradientFormat`](../igradientformat). |
+| [FillType](../../aspose.slides/ifillformat/filltype) { get; set; } | Retorna ou define o tipo de preenchimento. Leitura/gravação [`FillType`](../filltype). |
+| [GradientFormat](../../aspose.slides/ifillformat/gradientformat) { get; } | Retorna o formato de preenchimento gradiente. Somente leitura [`IGradientFormat`](../igradientformat). |
 | [PatternFormat](../../aspose.slides/ifillformat/patternformat) { get; } | Retorna o formato de preenchimento de padrão. Somente leitura [`IPatternFormat`](../ipatternformat). |
 | [PictureFillFormat](../../aspose.slides/ifillformat/picturefillformat) { get; } | Retorna o formato de preenchimento de imagem. Somente leitura [`IPictureFillFormat`](../ipicturefillformat). |
-| [RotateWithShape](../../aspose.slides/ifillformat/rotatewithshape) { get; set; } | Determina se o preenchimento deve ser girado com a forma. Leitura/Gravação [`NullableBool`](../nullablebool). |
+| [RotateWithShape](../../aspose.slides/ifillformat/rotatewithshape) { get; set; } | Determina se o preenchimento deve ser girado com a forma. Leitura/gravação [`NullableBool`](../nullablebool). |
 | [SolidFillColor](../../aspose.slides/ifillformat/solidfillcolor) { get; } | Retorna a cor de preenchimento. Somente leitura [`IColorFormat`](../icolorformat). |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
-| [GetEffective](../../aspose.slides/ifillformat/geteffective)() | Obtém os dados efetivos de formatação de preenchimento com a herança aplicada. |
+| [GetEffective](../../aspose.slides/ifillformat/geteffective)() | Obtém os dados de formatação de preenchimento efetivo com a herança aplicada. |
 
 ### Veja Também
 

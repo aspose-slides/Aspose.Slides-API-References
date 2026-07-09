@@ -1,14 +1,14 @@
 ---
 title: ColorReplace
 second_title: Aspose.Sildes .NET API referencia
-description: Egy színcsere hatást képvisel. Az összes hatás színe egy rögzített színre változik. Az alfa értékek változatlanok.
+description: Egy színcserélő effektust képvisel. Az összes effektus szín egy rögzített színre módosul. Az alfa értékek változatlanok.
 type: docs
-weight: 2930
+weight: 2950
 url: /hu/aspose.slides.effects/colorreplace/
 ---
 ## ColorReplace osztály
 
-Egy színcsere hatást képvisel. Az összes hatás színe egy rögzített színre változik. Az alfa értékek változatlanok maradnak.
+Represents a Color Replacement effect. All effect colors are changed to a fixed color. Alpha values are unaffected.
 
 ```csharp
 public sealed class ColorReplace : ImageTransformOperation, IColorReplace
@@ -18,16 +18,16 @@ public sealed class ColorReplace : ImageTransformOperation, IColorReplace
 
 | Név | Leírás |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interfész elérését. Csak olvasható [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Color](../../aspose.slides.effects/colorreplace/color) { get; } | Visszaadja a színformátumot, amely minden pixel színét helyettesíti. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi az alap IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Color](../../aspose.slides.effects/colorreplace/color) { get; } | Visszaadja a színformátumot, amely minden pixel színét lecseréli. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/colorreplace/equals)(object) | Megállapítja, hogy a megadott [`ColorReplace`](../colorreplace) egyenlő-e a jelenlegi [`ColorReplace`](../colorreplace)-val. |
-| [GetEffective](../../aspose.slides.effects/colorreplace/geteffective)() | Lekéri a hatékony színcsere hatás adatait az öröklődés alkalmazásával. |
-| override [GetHashCode](../../aspose.slides.effects/colorreplace/gethashcode)() | Hash függvényként szolgál egy adott típushoz. |
+| override [Equals](../../aspose.slides.effects/colorreplace/equals)(object) | Meghatározza, hogy a megadott [`ColorReplace`](../colorreplace) egyenlő-e a jelenlegi [`ColorReplace`](../colorreplace). |
+| [GetEffective](../../aspose.slides.effects/colorreplace/geteffective)() | Lekéri a hatékony Color Replacement effektus adatokat az öröklődés alkalmazásával. |
+| override [GetHashCode](../../aspose.slides.effects/colorreplace/gethashcode)() | Hash-függvényként szolgál egy adott típushoz. |
 
 ### Lásd még
 

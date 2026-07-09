@@ -3,7 +3,7 @@ title: Zip64Mode
 second_title: Aspose.Sildes pro .NET API Reference
 description: Určuje, kdy použít rozšíření formátu ZIP64 pro soubor OpenXML.
 type: docs
-weight: 4720
+weight: 4740
 url: /cs/aspose.slides.export/zip64mode/
 ---
 ## Zip64Mode výčet
@@ -18,9 +18,9 @@ public enum Zip64Mode
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| Never | `0` | Nepoužívejte rozšíření formátu ZIP64. |
-| IfNecessary | `1` | Použijte rozšíření formátu ZIP64, pokud je to nutné. |
-| Always | `2` | Vždy používejte rozšíření formátu ZIP64. |
+| Never | `0` | Neužívat rozšíření formátu ZIP64. |
+| IfNecessary | `1` | Použít rozšíření formátu ZIP64, pokud je to nutné. |
+| Always | `2` | Vždy používat rozšíření formátu ZIP64. |
 
 ### Poznámky
 

@@ -1,9 +1,9 @@
 ---
 title: MathBarFactory
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: 数式バーを作成できます
 type: docs
-weight: 8560
+weight: 8580
 url: /ja/aspose.slides.mathtext/mathbarfactory/
 ---
 ## MathBarFactory クラス
@@ -18,14 +18,14 @@ public class MathBarFactory : IMathBarFactory
 
 | 名前 | 説明 |
 | --- | --- |
-| [MathBarFactory](mathbarfactory)() | デフォルトコンストラクタです。 |
+| [MathBarFactory](mathbarfactory)() | 既定のコンストラクタです。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar)(IMathElement) | 要素に適用して数式バーを作成します |
-| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | 要素に適用して数式バーを作成します |
+| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar)(IMMathElement) | 要素に適用して数式バーを作成します |
+| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar_1)(IMMathElement, MathTopBotPositions) | 要素に適用して数式バーを作成します |
 
 ### 備考
 

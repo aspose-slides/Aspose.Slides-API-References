@@ -1,14 +1,14 @@
 ---
 title: MasterSlideCollection
-second_title: Aspose.Sildes for .NET API Referansı
-description: Master slaytların bir koleksiyonunu temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Usta slaytların bir koleksiyonunu temsil eder.
 type: docs
-weight: 8020
+weight: 8040
 url: /tr/aspose.slides/masterslidecollection/
 ---
-## MasterSlideCollection sınıf
+## MasterSlideCollection sınıfı
 
-Master slide'ların bir koleksiyonunu temsil eder.
+Usta slaytların bir koleksiyonunu temsil eder.
 
 ```csharp
 public sealed class MasterSlideCollection : DomObject<Presentation>, IMasterSlideCollection
@@ -19,23 +19,23 @@ public sealed class MasterSlideCollection : DomObject<Presentation>, IMasterSlid
 | Ad | Açıklama |
 | --- | --- |
 | [Count](../../aspose.slides/masterslidecollection/count) { get; } | Koleksiyonda gerçekte bulunan eleman sayısını alır. Salt okunur Int32. |
-| [IsSynchronized](../../aspose.slides/masterslidecollection/issynchronized) { get; } | Koleksiyona erişimin senkronize olup olmadığını (iş parçacığı güvenli) gösteren bir değer döndürür. Salt okunur Boolean. |
-| [Item](../../aspose.slides/masterslidecollection/item) { get; } | Belirtilen indeksteki elemanı alır. Salt okunur [`MasterSlide`](../masterslide). |
+| [IsSynchronized](../../aspose.slides/masterslidecollection/issynchronized) { get; } | Koleksiyona erişimin senkronize edilip edilmediğini (iş parçacığı güvenliğini) belirten bir değeri döndürür. Salt okunur Boolean. |
+| [Item](../../aspose.slides/masterslidecollection/item) { get; } | Belirtilen indeksteki öğeyi alır. Salt okunur [`MasterSlide`](../masterslide). |
 | [SyncRoot](../../aspose.slides/masterslidecollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt okunur Object. |
 
-## Yöntemler
+## Metotlar
 
 | Ad | Açıklama |
 | --- | --- |
-| [AddClone](../../aspose.slides/masterslidecollection/addclone)(IMasterSlide) | Belirtilen bir master slaytın bir kopyasını koleksiyonun sonuna ekler. Bağlantılı düzen slaytları da kopyalanır. |
-| [CopyTo](../../aspose.slides/masterslidecollection/copyto)(Array, int) | Tüm elemanları koleksiyondan belirtilen diziye kopyalar. |
-| [GetEnumerator](../../aspose.slides/masterslidecollection/getenumerator)() | Koleksiyon üzerinde yineleme yapan bir enumerator döndürür. |
-| [InsertClone](../../aspose.slides/masterslidecollection/insertclone)(int, IMasterSlide) | Belirtilen bir master slaytın bir kopyasını koleksiyonun belirtilen konumuna ekler. Bağlantılı düzen slaytları da kopyalanır. |
-| [Remove](../../aspose.slides/masterslidecollection/remove)(IMasterSlide) | Koleksiyondan belirli bir nesnenin ilk oluşumunu kaldırır. |
-| [RemoveAt](../../aspose.slides/masterslidecollection/removeat)(int) | Koleksiyondaki belirtilen indeksteki elemanı kaldırır. |
-| [RemoveUnused](../../aspose.slides/masterslidecollection/removeunused)(bool) | Kullanılmayan master slaytları kaldırır. |
+| [AddClone](../../aspose.slides/masterslidecollection/addclone)(IMasterSlide) | Belirtilen usta slaydının bir kopyasını koleksiyonun sonuna ekler. Bağlı yerleşim slaytları da kopyalanır. |
+| [CopyTo](../../aspose.slides/masterslidecollection/copyto)(Array, int) | Tüm öğeleri koleksiyondan belirtilen diziye kopyalar. |
+| [GetEnumerator](../../aspose.slides/masterslidecollection/getenumerator)() | Koleksiyon üzerinde yineleme yapacak bir enumerator döndürür. |
+| [InsertClone](../../aspose.slides/masterslidecollection/insertclone)(int, IMasterSlide) | Belirtilen usta slaydının bir kopyasını koleksiyonun belirli konumuna ekler. Bağlı yerleşim slaytları da kopyalanır. |
+| [Remove](../../aspose.slides/masterslidecollection/remove)(IMasterSlide) | Belirli bir nesnenin koleksiyondaki ilk oluşumunu kaldırır. |
+| [RemoveAt](../../aspose.slides/masterslidecollection/removeat)(int) | Belirtilen indeksteki öğeyi koleksiyondan kaldırır. |
+| [RemoveUnused](../../aspose.slides/masterslidecollection/removeunused)(bool) | Kullanılmayan usta slaytları kaldırır. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * sınıf [DomObject&lt;TParent&gt;](../domobject-1)
 * sınıf [Presentation](../presentation)

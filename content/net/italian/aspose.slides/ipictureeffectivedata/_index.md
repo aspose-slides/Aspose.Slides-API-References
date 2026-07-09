@@ -1,14 +1,14 @@
 ---
 title: IPictureEffectiveData
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Riferimento API di Aspose.Sildes per .NET
 description: Oggetto immutabile che contiene le proprietà effettive dell'immagine.
 type: docs
-weight: 6620
+weight: 6640
 url: /it/aspose.slides/ipictureeffectivedata/
 ---
 ## IPictureEffectiveData interfaccia
 
-Oggetto immutabile che contiene le proprietà effettive dell'immagine.
+Oggetto immutabile che contiene le proprietà effective dell'immagine.
 
 ```csharp
 public interface IPictureEffectiveData
@@ -18,13 +18,13 @@ public interface IPictureEffectiveData
 
 | Nome | Descrizione |
 | --- | --- |
-| [Image](../../aspose.slides/ipictureeffectivedata/image) { get; } | Restituisce l'immagine incorporata. Sola lettura [`IPPImage`](../ippimage). |
-| [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | Restituisce la collezione degli effetti di trasformazione dell'immagine. Sola lettura [`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata). |
-| [LinkPathLong](../../aspose.slides/ipictureeffectivedata/linkpathlong) { get; } | Restituisce l'URL dell'immagine collegata. Sola lettura String. |
+| [Image](../../aspose.slides/ipictureeffectivedata/image) { get; } | Restituisce l'immagine incorporata. Solo lettura [`IPPImage`](../ippimage). |
+| [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | Restituisce la raccolta di effetti di trasformazione dell'immagine. Solo lettura [`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata). |
+| [LinkPathLong](../../aspose.slides/ipictureeffectivedata/linkpathlong) { get; } | Restituisce l'URL dell'immagine collegata. Solo lettura String. |
 
-### Osservazioni
+### Note
 
-Questa interfaccia è usata come parte di [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata) e [`IBulletFormatEffectiveData`](../ibulletformateffectivedata).
+Questa interfaccia è utilizzata come parte di [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata) e [`IBulletFormatEffectiveData`](../ibulletformateffectivedata).
 
 ### Vedi anche
 

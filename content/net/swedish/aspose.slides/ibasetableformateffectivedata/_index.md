@@ -3,10 +3,10 @@ title: IBaseTableFormatEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
 description: Basgränssnitt för oföränderliga objekt som innehåller effektiva tabellformateringsegenskaper.
 type: docs
-weight: 5340
+weight: 5360
 url: /sv/aspose.slides/ibasetableformateffectivedata/
 ---
-## IBaseTableFormatEffectiveData interface
+## IBaseTableFormatEffectiveData gränssnitt
 
 Basgränssnitt för oföränderliga objekt som innehåller effektiva tabellformateringsegenskaper.
 
@@ -19,14 +19,14 @@ public interface IBaseTableFormatEffectiveData
 | Namn | Beskrivning |
 | --- | --- |
 | [BorderBottom](../../aspose.slides/ibasetableformateffectivedata/borderbottom) { get; } | Returnerar det effektiva värdet för formatet på den nedre kantlinjen. Skrivskyddad [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | Returnerar det effektiva värdet för formatet på den nedåtlutande diagonala linjen. Skrivskyddad [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | Returnerar det effektiva värdet för formatet på den uppåtlutande diagonala linjen. Skrivskyddad [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | Returnerar det effektiva värdet för formatet på den nedåtriktade diagonala linjen. Skrivskyddad [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | Returnerar det effektiva värdet för formatet på den uppåtriktade diagonala linjen. Skrivskyddad [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
 | [BorderLeft](../../aspose.slides/ibasetableformateffectivedata/borderleft) { get; } | Returnerar det effektiva värdet för formatet på den vänstra kantlinjen. Skrivskyddad [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
 | [BorderRight](../../aspose.slides/ibasetableformateffectivedata/borderright) { get; } | Returnerar det effektiva värdet för formatet på den högra kantlinjen. Skrivskyddad [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
 | [BorderTop](../../aspose.slides/ibasetableformateffectivedata/bordertop) { get; } | Returnerar det effektiva värdet för formatet på den övre kantlinjen. Skrivskyddad [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
 | [FillFormat](../../aspose.slides/ibasetableformateffectivedata/fillformat) { get; } | Returnerar det effektiva värdet för fyllningsformatet. Skrivskyddad [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 
-### Se även
+### Se också
 
 * namnrymd [Aspose.Slides](../../aspose.slides)
 * samling [Aspose.Slides](../../)

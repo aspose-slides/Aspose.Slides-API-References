@@ -1,14 +1,14 @@
 ---
 title: BrightnessContrast
-second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje efekt BrightnessContrast. Upravuje jas a kontrast
+second_title: Aspose.Sildes pro .NET – referenční příručka API
+description: Reprezentuje efekt BrightnessContrast. Upravuje jas a kontrast
 type: docs
-weight: 2910
+weight: 2930
 url: /cs/aspose.slides.effects/brightnesscontrast/
 ---
 ## BrightnessContrast třída
 
-Představuje efekt BrightnessContrast. Upravuje jas a kontrast
+Reprezentuje efekt BrightnessContrast. Upravuje jas a kontrast
 
 ```csharp
 public sealed class BrightnessContrast : ImageTransformOperation, IBrightnessContrast

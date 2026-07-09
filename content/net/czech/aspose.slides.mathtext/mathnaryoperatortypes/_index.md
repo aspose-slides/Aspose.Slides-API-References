@@ -1,14 +1,14 @@
 ---
 title: MathNaryOperatorTypes
-second_title: Aspose.Sildes pro .NET API Referenci
-description: Nary operátory typů IMathNaryOperator kromě integrálů. Pro integrály MathIntegralTypes./mathintegraltypes
+second_title: Aspose.Sildes pro .NET API referenci
+description: Typy n-árních operátorů IMathNaryOperator bez celých čísel. Pro celá čísla viz MathIntegralTypes./mathintegraltypes
 type: docs
-weight: 8870
+weight: 8890
 url: /cs/aspose.slides.mathtext/mathnaryoperatortypes/
 ---
 ## MathNaryOperatorTypes výčet
 
-Typy n-ary operace IMathNaryOperator (kromě integrálů). Pro integrály [`MathIntegralTypes`](../mathintegraltypes)
+Typy n-árních operátorů IMathNaryOperator (kromě celých čísel) Pro celá čísla [`MathIntegralTypes`](../mathintegraltypes)
 
 ```csharp
 public enum MathNaryOperatorTypes
@@ -26,7 +26,7 @@ public enum MathNaryOperatorTypes
 | LogicalAnd | `5` | Logical And: '∧' |
 | LogicalOr | `6` | Logical Or: '∨' |
 
-### Viz také
+### Další informace
 
 * jmenný prostor [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * sestavení [Aspose.Slides](../../)

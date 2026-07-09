@@ -3,10 +3,10 @@ title: ILineFormat
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar formatet för en linje.
 type: docs
-weight: 6290
+weight: 6310
 url: /sv/aspose.slides/ilineformat/
 ---
-## ILineFormat gränssnitt
+## ILineFormat-gränssnitt
 
 Representerar formatet för en linje.
 
@@ -19,30 +19,30 @@ public interface ILineFormat : ILineParamSource
 | Namn | Beskrivning |
 | --- | --- |
 | [Alignment](../../aspose.slides/ilineformat/alignment) { get; set; } | Returnerar eller anger linjejusteringen. Läs/skriv [`LineAlignment`](../linealignment). |
-| [AsILineParamSource](../../aspose.slides/ilineformat/asilineparamsource) { get; } | Tillåter att hämta bas ILineParamSource gränssnitt. Skrivskyddad [`ILineParamSource`](../ilineparamsource). |
-| [BeginArrowheadLength](../../aspose.slides/ilineformat/beginarrowheadlength) { get; set; } | Returnerar eller anger pilhuvudets längd i början av en linje. Läs/skriv [`LineArrowheadLength`](../linearrowheadlength). |
-| [BeginArrowheadStyle](../../aspose.slides/ilineformat/beginarrowheadstyle) { get; set; } | Returnerar eller anger pilhuvudets stil i början av en linje. Läs/skriv [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [BeginArrowheadWidth](../../aspose.slides/ilineformat/beginarrowheadwidth) { get; set; } | Returnerar eller anger pilhuvudets bredd i början av en linje. Läs/skriv [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/ilineformat/capstyle) { get; set; } | Returnerar eller anger linjens kapstil. Läs/skriv [`LineCapStyle`](../linecapstyle). |
-| [CustomDashPattern](../../aspose.slides/ilineformat/customdashpattern) { get; set; } | Returnerar eller anger anpassat streckmönster. Läs/skriv Single[]. |
-| [DashStyle](../../aspose.slides/ilineformat/dashstyle) { get; set; } | Returnerar eller anger linjens streckstil. Läs/skriv [`LineDashStyle`](../linedashstyle). |
-| [EndArrowheadLength](../../aspose.slides/ilineformat/endarrowheadlength) { get; set; } | Returnerar eller anger pilhuvudets längd i slutet av en linje. Läs/skriv [`LineArrowheadLength`](../linearrowheadlength). |
-| [EndArrowheadStyle](../../aspose.slides/ilineformat/endarrowheadstyle) { get; set; } | Returnerar eller anger pilhuvudets stil i slutet av en linje. Läs/skriv [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [EndArrowheadWidth](../../aspose.slides/ilineformat/endarrowheadwidth) { get; set; } | Returnerar eller anger pilhuvudets bredd i slutet av en linje. Läs/skriv [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [AsILineParamSource](../../aspose.slides/ilineformat/asilineparamsource) { get; } | Tillåter att hämta bas ILineParamSource-gränssnittet. Skrivskyddad [`ILineParamSource`](../ilineparamsource). |
+| [BeginArrowheadLength](../../aspose.slides/ilineformat/beginarrowheadlength) { get; set; } | Returnerar eller anger pilspetsens längd i början av en linje. Läs/skriv [`LineArrowheadLength`](../linearrowheadlength). |
+| [BeginArrowheadStyle](../../aspose.slides/ilineformat/beginarrowheadstyle) { get; set; } | Returnerar eller anger pilspetsens stil i början av en linje. Läs/skriv [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [BeginArrowheadWidth](../../aspose.slides/ilineformat/beginarrowheadwidth) { get; set; } | Returnerar eller anger pilspetsens bredd i början av en linje. Läs/skriv [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [CapStyle](../../aspose.slides/ilineformat/capstyle) { get; set; } | Returnerar eller anger linjens caps-stil. Läs/skriv [`LineCapStyle`](../linecapstyle). |
+| [CustomDashPattern](../../aspose.slides/ilineformat/customdashpattern) { get; set; } | Returnerar eller anger det anpassade streckmönstret. Läs/skriv Single[]. |
+| [DashStyle](../../aspose.slides/ilineformat/dashstyle) { get; set; } | Returnerar eller anger linjens streckningsstil. Läs/skriv [`LineDashStyle`](../linedashstyle). |
+| [EndArrowheadLength](../../aspose.slides/ilineformat/endarrowheadlength) { get; set; } | Returnerar eller anger pilspetsens längd i slutet av en linje. Läs/skriv [`LineArrowheadLength`](../linearrowheadlength). |
+| [EndArrowheadStyle](../../aspose.slides/ilineformat/endarrowheadstyle) { get; set; } | Returnerar eller anger pilspetsens stil i slutet av en linje. Läs/skriv [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [EndArrowheadWidth](../../aspose.slides/ilineformat/endarrowheadwidth) { get; set; } | Returnerar eller anger pilspetsens bredd i slutet av en linje. Läs/skriv [`LineArrowheadWidth`](../linearrowheadwidth). |
 | [FillFormat](../../aspose.slides/ilineformat/fillformat) { get; } | Returnerar fyllningsformatet för en linje. Skrivskyddad [`ILineFillFormat`](../ilinefillformat). |
-| [IsFormatNotDefined](../../aspose.slides/ilineformat/isformatnotdefined) { get; } | Returnerar true om linjeformatet inte är definierat (precis som när det just skapats, standard). Skrivskyddad Boolean. |
-| [JoinStyle](../../aspose.slides/ilineformat/joinstyle) { get; set; } | Returnerar eller anger linjernas föreningsstil. Läs/skriv [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/ilineformat/miterlimit) { get; set; } | Returnerar eller anger mitergränsen för en linje. Läs/skriv Single. |
+| [IsFormatNotDefined](../../aspose.slides/ilineformat/isformatnotdefined) { get; } | Returnerar true om linjeformatet inte är definierat (som precis skapad, standard). Skrivskyddad Boolean. |
+| [JoinStyle](../../aspose.slides/ilineformat/joinstyle) { get; set; } | Returnerar eller anger linjernas sammanslagningsstil. Läs/skriv [`LineJoinStyle`](../linejoinstyle). |
+| [MiterLimit](../../aspose.slides/ilineformat/miterlimit) { get; set; } | Returnerar eller anger snedningsgränsen för en linje. Läs/skriv Single. |
 | [SketchFormat](../../aspose.slides/ilineformat/sketchformat) { get; } | Returnerar skissformatet för en linje. Skrivskyddad [`ISketchFormat`](../isketchformat). |
 | [Style](../../aspose.slides/ilineformat/style) { get; set; } | Returnerar eller anger linjestilen. Läs/skriv [`LineStyle`](../linestyle). |
-| [Width](../../aspose.slides/ilineformat/width) { get; set; } | Returnerar eller anger linjens bredd. Läs/skriv Double. |
+| [Width](../../aspose.slides/ilineformat/width) { get; set; } | Returnerar eller anger bredden på en linje. Läs/skriv Double. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Equals](../../aspose.slides/ilineformat/equals)(ILineFormat) | Bestämmer om de två LineFormat-instanserna är lika. |
-| [GetEffective](../../aspose.slides/ilineformat/geteffective)() | Hämtar den effektiva linjeformateringsdata med ärftlighet tillämpad. |
+| [Equals](../../aspose.slides/ilineformat/equals)(ILineFormat) | Avgör om de två LineFormat-instansen är lika. |
+| [GetEffective](../../aspose.slides/ilineformat/geteffective)() | Hämtar effektiv linjeformateringsdata med arv tillämpat. |
 
 ### Se även
 

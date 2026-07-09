@@ -3,12 +3,12 @@ title: IReflectionEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
 description: Oföränderligt objekt som representerar en reflektionseffekt.
 type: docs
-weight: 3490
+weight: 3510
 url: /sv/aspose.slides.effects/ireflectioneffectivedata/
 ---
 ## IReflectionEffectiveData gränssnitt
 
-Oföränderligt objekt som representerar en reflektionseffekt.
+Immutable object which represents a Reflection effect.
 
 ```csharp
 public interface IReflectionEffectiveData : IEffectEffectiveData
@@ -18,23 +18,23 @@ public interface IReflectionEffectiveData : IEffectEffectiveData
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ireflectioneffectivedata/asieffecteffectivedata) { get; } | Tillåter att hämta bas-gränssnitt IEffectEffectiveData. Skrivskyddad [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [BlurRadius](../../aspose.slides.effects/ireflectioneffectivedata/blurradius) { get; } | Oskärpningsradie. Skrivskyddad Double. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ireflectioneffectivedata/asieffecteffectivedata) { get; } | Tillåter att hämta bas IEffectEffectiveData gränssnittet. Skrivskyddad [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [BlurRadius](../../aspose.slides.effects/ireflectioneffectivedata/blurradius) { get; } | Blur-radie. Skrivskyddad Double. |
 | [Direction](../../aspose.slides.effects/ireflectioneffectivedata/direction) { get; } | Riktning för reflektion. Skrivskyddad Single. |
 | [Distance](../../aspose.slides.effects/ireflectioneffectivedata/distance) { get; } | Avstånd för reflektion. Skrivskyddad Double. |
-| [EndPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/endposalpha) { get; } | Anger slutposition (längs alpha-gradientens ramp) för det slutliga alfavärdet (procent). Skrivskyddad Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | Slutlig reflektionstäthet. (procent). Skrivskyddad Single. |
-| [FadeDirection](../../aspose.slides.effects/ireflectioneffectivedata/fadedirection) { get; } | Anger riktning för att förskjuta reflektionen. (vinkel). Skrivskyddad Single. |
-| [RectangleAlign](../../aspose.slides.effects/ireflectioneffectivedata/rectanglealign) { get; } | Rektangeljustering. Skrivskyddad [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | Anger om reflektionen ska roteras med formen när formen roteras. Skrivskyddad Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | Anger horisontellt skalningsfaktor, negativ skalning orsakar en spegling. (procent) Skrivskyddad Double. |
-| [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | Anger vertikalt skalningsfaktor, negativ skalning orsakar en spegling. (procent) Skrivskyddad Double. |
-| [SkewHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/skewhorizontal) { get; } | Anger horisontell skevningsvinkel. Skrivskyddad Double. |
-| [SkewVertical](../../aspose.slides.effects/ireflectioneffectivedata/skewvertical) { get; } | Anger vertikal skevningsvinkel. Skrivskyddad Double. |
-| [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | Anger startposition (längs alpha-gradientens ramp) för start-alfavärdet (procent). Skrivskyddad Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity) { get; } | Startande reflektionstäthet. (procent). Skrivskyddad Single. |
+| [EndPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/endposalpha) { get; } | Anger slutpositionen (langs alpha gradienten) for slut-alpha-vardet (procent). Skrivskyddad Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | Slutlig reflektionens opacitet. (procent). Skrivskyddad Single. |
+| [FadeDirection](../../aspose.slides.effects/ireflectioneffectivedata/fadedirection) { get; } | Anger riktningen for att forskjuta reflektionen. (vinkel). Skrivskyddad Single. |
+| [RectangleAlign](../../aspose.slides.effects/ireflectioneffectivedata/rectanglealign) { get; } | Rektangelsjustering. Skrivskyddad [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | Anger om reflektionen ska roteras med formen nar formen roteras. Skrivskyddad Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | Anger den horisontella skalningsfaktorn, negativ skalning ger en vandning. (procent) Skrivskyddad Double. |
+| [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | Anger den vertikala skalningsfaktorn, negativ skalning ger en vandning. (procent) Skrivskyddad Double. |
+| [SkewHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/skewhorizontal) { get; } | Anger den horisontella skevningsvinkeln. Skrivskyddad Double. |
+| [SkewVertical](../../aspose.slides.effects/ireflectioneffectivedata/skewvertical) { get; } | Anger den vertikala skevningsvinkeln. Skrivskyddad Double. |
+| [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | Anger startpositionen (langs alpha gradienten) for start-alpha-vardet (procent). Skrivskyddad Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity) { get; } | Startande reflektionens opacitet. (procent). Skrivskyddad Single. |
 
-### Se också
+### Se även
 
 * gränssnitt [IEffectEffectiveData](../ieffecteffectivedata)
 * namnrymd [Aspose.Slides.Effects](../../aspose.slides.effects)

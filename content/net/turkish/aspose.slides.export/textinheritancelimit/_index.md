@@ -1,14 +1,14 @@
 ---
 title: TextInheritanceLimit
 second_title: Aspose.Sildes için .NET API Referansı
-description: Metin özelliklerinin miras alımının derinliğini kontrol eder.
+description: Metin özelliklerinin miras alınma derinliğini kontrol eder.
 type: docs
-weight: 4520
+weight: 4540
 url: /tr/aspose.slides.export/textinheritancelimit/
 ---
-## TextInheritanceLimit sayım
+## TextInheritanceLimit enum
 
-Metin özelliklerinin miras alımının derinliğini kontrol eder.
+Metin özelliklerinin miras alınma derinliğini kontrol eder.
 
 ```csharp
 public enum TextInheritanceLimit
@@ -18,9 +18,9 @@ public enum TextInheritanceLimit
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| All | `0` | Tüm metin özelliklerini devralır. |
-| TextBox | `1` | Yalnızca TextFrame'in stilinden devralır. |
-| ParagraphOnly | `2` | Yalnızca paragraf için tanımlanan özellikleri kullanır. |
+| All | `0` | Tüm metin özelliklerini miras al. |
+| TextBox | `1` | Yalnızca TextFrame stilinden miras al. |
+| ParagraphOnly | `2` | Yalnızca paragraf için tanımlanan özellikleri kullan. |
 
 ### Ayrıca Bakınız
 

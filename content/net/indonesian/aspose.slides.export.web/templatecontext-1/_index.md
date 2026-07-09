@@ -3,7 +3,7 @@ title: TemplateContextTObject
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili antarmuka objek model untuk mesin templat.
 type: docs
-weight: 4650
+weight: 4670
 url: /id/aspose.slides.export.web/templatecontext-1/
 ---
 ## TemplateContext&lt;TObject&gt; kelas
@@ -16,16 +16,16 @@ public sealed class TemplateContext<TObject>
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [Global](../../aspose.slides.export.web/templatecontext`1/global) { get; } | Mengembalikan penyimpanan global dokumen host. Hanya-baca [`Storage`](../storage). |
-| [Local](../../aspose.slides.export.web/templatecontext`1/local) { get; } | Mengembalikan penyimpanan lokal konteks templat saat ini. Hanya-baca [`Storage`](../storage). |
-| [Object](../../aspose.slides.export.web/templatecontext`1/object) { get; } | Mengembalikan objek model. Hanya-baca !:TObject. |
-| [Output](../../aspose.slides.export.web/templatecontext`1/output) { get; } | Mengembalikan koleksi elemen output dokumen host. Hanya-baca [`Output`](./output). |
+| [Global](../../aspose.slides.export.web/templatecontext`1/global) { get; } | Mengembalikan penyimpanan global dokumen host. Hanya baca [`Storage`](../storage). |
+| [Local](../../aspose.slides.export.web/templatecontext`1/local) { get; } | Mengembalikan penyimpanan lokal konteks templat saat ini. Hanya baca [`Storage`](../storage). |
+| [Object](../../aspose.slides.export.web/templatecontext`1/object) { get; } | Mengembalikan objek model. Hanya baca !:TObject. |
+| [Output](../../aspose.slides.export.web/templatecontext`1/output) { get; } | Mengembalikan koleksi elemen output dokumen host. Hanya baca [`Output`](./output). |
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [SubModel&lt;TSubModel&gt;](../../aspose.slides.export.web/templatecontext`1/submodel)(TSubModel) | Membuat konteks templat anak. |
 

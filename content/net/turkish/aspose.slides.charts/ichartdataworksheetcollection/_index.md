@@ -1,12 +1,12 @@
 ---
 title: IChartDataWorksheetCollection
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET için API Referansı
 description: Grafik veri çalışma kitabının çalışma sayfalarının koleksiyonunu temsil eder.
 type: docs
-weight: 1860
+weight: 1880
 url: /tr/aspose.slides.charts/ichartdataworksheetcollection/
 ---
-## IChartDataWorksheetCollection arayüzü
+## IChartDataWorksheetCollection arayüz
 
 Grafik veri çalışma kitabının çalışma sayfalarının koleksiyonunu temsil eder.
 
@@ -18,14 +18,13 @@ public interface IChartDataWorksheetCollection : IGenericCollection<IChartDataWo
 
 | Ad | Açıklama |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartdataworksheetcollection/item) { get; } | İndeksi kullanarak çalışma sayfasını döndürür. |
+| [Item](../../aspose.slides.charts/ichartdataworksheetcollection/item) { get; } | İndeks ile çalışma sayfasını döndürür. |
 
 ### Örnekler
 
 Örnek:
 
 ```csharp
-[C#]
 using (Presentation pres = new Presentation())
 {
     IChart chart = pres.Slides[0].Shapes.AddChart(ChartType.Pie, 50, 50, 400, 500);

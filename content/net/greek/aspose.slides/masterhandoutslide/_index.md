@@ -1,14 +1,14 @@
 ---
 title: MasterHandoutSlide
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Αντιπροσωπεύει τη βασική διαφάνεια για φυλλάδια.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Αντιπροσωπεί τη βασική διαφάνεια για σημειώσεις.
 type: docs
-weight: 7960
+weight: 7980
 url: /el/aspose.slides/masterhandoutslide/
 ---
 ## MasterHandoutSlide κλάση
 
-Αντιπροσωπεύει τη βασική διαφάνεια για φυλλάδια.
+Αντιπροσωπεί τη κύρια διαφάνεια για σημειώσεις.
 
 ```csharp
 public class MasterHandoutSlide : BaseSlide, IMasterHandoutSlide
@@ -19,35 +19,35 @@ public class MasterHandoutSlide : BaseSlide, IMasterHandoutSlide
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [Background](../../aspose.slides/baseslide/background) { get; } | Επιστρέφει το φόντο της διαφάνειας. Μόνο ανάγνωση [`IBackground`](../ibackground). |
-| [Controls](../../aspose.slides/baseslide/controls) { get; } | Επιστρέφει τη συλλογή των ελέγχων ActiveX σε μια διαφάνεια. Μόνο ανάγνωση [`IControlCollection`](../icontrolcollection). |
+| [Controls](../../aspose.slides/baseslide/controls) { get; } | Επιστρέφει τη συλλογή των στοιχείων ελέγχου ActiveX σε μια διαφάνεια. Μόνο ανάγνωση [`IControlCollection`](../icontrolcollection). |
 | [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Επιστρέφει τα προσαρμοσμένα δεδομένα της διαφάνειας. Μόνο ανάγνωση [`ICustomData`](../icustomdata). |
-| [DrawingGuides](../../aspose.slides/masterhandoutslide/drawingguides) { get; } | Επιστρέφει μια συλλογή από οδηγούς σχεδίασης για τη βασική διαφάνεια σημειώσεων. Μόνο ανάγνωση [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HeaderFooterManager](../../aspose.slides/masterhandoutslide/headerfootermanager) { get; } | Επιστρέφει τον διαχειριστή HeaderFooter της βασικής διαφάνειας σημειώσεων. Μόνο ανάγνωση [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
-| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Παρέχει εύκολη πρόσβαση στους ενσωματωμένους υπερσυνδέσμους. Μόνο ανάγνωση [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [DrawingGuides](../../aspose.slides/masterhandoutslide/drawingguides) { get; } | Επιστρέφει μια συλλογή οδηγών σχεδίασης για τη κύρια διαφάνεια σημειώσεων. Μόνο ανάγνωση [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HeaderFooterManager](../../aspose.slides/masterhandoutslide/headerfootermanager) { get; } | Επιστρέφει το διαχειριστή κεφαλίδας/υποσέλιδου της κύριας διαφάνειας σημειώσεων. Μόνο ανάγνωση [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
+| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Παρέχει εύκολη πρόσβαση σε ενσωματωμένους υπερσυνδέσμους. Μόνο ανάγνωση [`IHyperlinkQueries`](../ihyperlinkqueries). |
 | virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Επιστρέφει ή ορίζει το όνομα μιας διαφάνειας. Ανάγνωση/εγγραφή String. |
 | [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Επιστρέφει τη διεπαφή IPresentation. Μόνο ανάγνωση [`IPresentation`](../ipresentation). |
 | [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Επιστρέφει τα σχήματα μιας διαφάνειας. Μόνο ανάγνωση [`IShapeCollection`](../ishapecollection). |
-| override [ShowMasterShapes](../../aspose.slides/masterhandoutslide/showmastershapes) { get; set; } | Καθορίζει εάν τα σχήματα στη βασική διαφάνεια πρέπει να εμφανίζονται στις διαφάνειες ή όχι. Για τη βασική διαφάνεια αυτή η ιδιότητα επιστρέφει πάντα `false`. Ανάγνωση/εγγραφή Boolean. |
+| override [ShowMasterShapes](../../aspose.slides/masterhandoutslide/showmastershapes) { get; set; } | Καθορίζει αν τα σχήματα στην κύρια διαφάνεια πρέπει να εμφανίζονται στις διαφάνειες ή όχι. Για τη ίδια την κύρια διαφάνεια αυτή η ιδιότητα πάντα επιστρέφει `false`. Ανάγνωση/εγγραφή Boolean. |
 | [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Επιστρέφει το ID μιας διαφάνειας. Μόνο ανάγνωση UInt32. |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Επιστρέφει το αντικείμενο Transition που περιέχει πληροφορίες για το πώς προχωρά η συγκεκριμένη διαφάνεια κατά τη παρουσίαση. Μόνο ανάγνωση [`ISlideShowTransition`](../islideshowtransition). |
-| [ThemeManager](../../aspose.slides/masterhandoutslide/thememanager) { get; } | Επιστρέφει τον διαχειριστή θέματος. Μόνο ανάγνωση [`IMasterThemeManager`](../../aspose.slides.theme/imasterthememanager). |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Επιστρέφει το αντικείμενο Transition που περιέχει πληροφορίες σχετικά με το πώς προχωρά η καθορισμένη διαφάνεια σε μια παρουσίαση. Μόνο ανάγνωση [`ISlideShowTransition`](../islideshowtransition). |
+| [ThemeManager](../../aspose.slides/masterhandoutslide/thememanager) { get; } | Επιστρέφει το διαχειριστή θέματος. Μόνο ανάγνωση [`IMasterThemeManager`](../../aspose.slides.theme/imasterthememanager). |
 | [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Επιστρέφει το αντικείμενο animation timeline. Μόνο ανάγνωση [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | Επιστρέφει ένα αποτελεσματικό θέμα για αυτήν τη διαφάνεια. |
-| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Καθορίζει αν τα δύο στιγμιότυπα IBaseSlide είναι ίσα. Η τιμή επιστροφής υπολογίζεται βάσει της δομής της διαφάνειας και του στατικού περιεχομένου. Δύο διαφάνειες είναι ίσες εάν όλα τα σχήματα, οι μορφές, τα κείμενα, οι κινούμενες εικόνες και άλλες ρυθμίσεις κ.λπ. είναι ίσα. Η σύγκριση δεν λαμβάνει υπόψη τις μοναδικές τιμές αναγνωριστικού, π.χ. SlideId, και το δυναμικό περιεχόμενο, π.χ. την τρέχουσα τιμή ημερομηνίας σε Placeholder ημερομηνίας. |
-| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Βρίσκει την πρώτη εμφάνιση σχήματος με το καθορισμένο εναλλακτικό κείμενο. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Ενώνει τμήματα κειμένου με την ίδια μορφοποίηση σε όλες τις παραγράφους όλων των αποδεκτών σχημάτων. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Ενώνει τμήματα κειμένου με την ίδια μορφοποίηση σε όλες τις παραγράφους σε όλα τα αποδεκτά σχήματα. |
+| [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | Επιστρέφει ένα ενεργό θέμα για αυτή τη διαφάνεια. |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Καθορίζει εάν τα δύο στιγμιότυπα IBaseSlide είναι ίσα. Η επιστρεφόμενη τιμή υπολογίζεται βάσει της δομής της διαφάνειας και του στατικού περιεχομένου. Δύο διαφάνειες είναι ίσες εάν όλα τα σχήματα, τα στυλ, τα κείμενα, οι κινήσεις και άλλες ρυθμίσεις κ.λπ. είναι ίσα. Η σύγκριση δεν λαμβάνει υπόψη τις μοναδικές τιμές αναγνωριστικών, π.χ. SlideId και το δυναμικό περιεχόμενο, π.χ. την τρέχουσα τιμή ημερομηνίας στον σύμβολο κράτησης θέσης Date. |
+| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Εντοπίζει την πρώτη εμφάνιση σχήματος με το καθορισμένο εναλλακτικό κείμενο. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Ενώνει τμήματα κειμένου με ίδια μορφοποίηση σε όλες τις παραγράφους όλων των αποδεκτών σχημάτων. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Ενώνει τμήματα κειμένου με ίδια μορφοποίηση σε όλες τις παραγράφους σε όλα τα αποδεκτά σχήματα. |
 
 ### Δείτε επίσης
 
 * κλάση [BaseSlide](../baseslide)
-* διασύνδεση [IMasterHandoutSlide](../imasterhandoutslide)
+* διεπαφή [IMasterHandoutSlide](../imasterhandoutslide)
 * χώρος ονομάτων [Aspose.Slides](../../aspose.slides)
-* συγκρότημα [Aspose.Slides](../../)
+* συστοιχία [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

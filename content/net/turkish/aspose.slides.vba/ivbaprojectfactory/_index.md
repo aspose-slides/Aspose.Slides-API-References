@@ -1,14 +1,14 @@
 ---
 title: IVbaProjectFactory
 second_title: Aspose.Sildes için .NET API Referansı
-description: COM arabirimi aracılığıyla VBA projesi oluşturulmasını sağlar
+description: COM arabirimi aracılığıyla VBA projesi oluşturmayı sağlar
 type: docs
-weight: 11540
+weight: 11560
 url: /tr/aspose.slides.vba/ivbaprojectfactory/
 ---
-## IVbaProjectFactory arabirimi
+## IVbaProjectFactory arayüzü
 
-COM arabirimi aracılığıyla VBA projesi oluşturulmasını sağlar
+COM arabirimi üzerinden VBA projesi oluşturmayı sağlar
 
 ```csharp
 public interface IVbaProjectFactory
@@ -19,7 +19,7 @@ public interface IVbaProjectFactory
 | Ad | Açıklama |
 | --- | --- |
 | [CreateVbaProject](../../aspose.slides.vba/ivbaprojectfactory/createvbaproject)() | Yeni bir VBA projesi oluşturur. |
-| [ReadVbaProject](../../aspose.slides.vba/ivbaprojectfactory/readvbaproject)(byte[]) | VBA projesini OLE konteynerinden okur. |
+| [ReadVbaProject](../../aspose.slides.vba/ivbaprojectfactory/readvbaproject)(byte[]) | OLE kapsayıcısından VBA projesini okur. |
 
 ### Ayrıca Bakınız
 

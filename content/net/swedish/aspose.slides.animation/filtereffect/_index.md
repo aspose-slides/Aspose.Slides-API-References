@@ -3,7 +3,7 @@ title: FilterEffect
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar filtereffekt för beteende.
 type: docs
-weight: 350
+weight: 370
 url: /sv/aspose.slides.animation/filtereffect/
 ---
 ## FilterEffect klass
@@ -14,7 +14,7 @@ Representerar filtereffekt för beteende.
 public class FilterEffect : Behavior, IFilterEffect
 ```
 
-## Konstruktorer
+## Konstruktörer
 
 | Namn | Beskrivning |
 | --- | --- |
@@ -24,9 +24,9 @@ public class FilterEffect : Behavior, IFilterEffect
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Representerar huruvida animationsbeteenden akkumuleras. Läs/skriv [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Representerar huruvida animationsbeteenden ackumuleras. Läs/skriv [`NullableBool`](../../aspose.slides/nullablebool). |
 | [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Representerar huruvida det aktuella animationsbeteendet kombineras med andra pågående animationer. Läs/skriv [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Representerar egenskaper för beteende. Skrivskyddad [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Representerar egenskaper för beteende. Endast läs [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
 | [Reveal](../../aspose.slides.animation/filtereffect/reveal) { get; set; } | Representerar att effekt med beteende måste avslöjas (in/out). Läs/skriv [`FilterEffectRevealType`](../filtereffectrevealtype). |
 | [Subtype](../../aspose.slides.animation/filtereffect/subtype) { get; set; } | Representerar undertyp av filtereffekt. Läs/skriv [`FilterEffectSubtype`](../filtereffectsubtype). |
 | [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Representerar tidsinställningsegenskaper för effektbeteendet. Läs/skriv [`ITiming`](../itiming). |

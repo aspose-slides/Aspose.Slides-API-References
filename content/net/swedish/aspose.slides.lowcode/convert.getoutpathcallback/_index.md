@@ -1,14 +1,14 @@
 ---
 title: Convert.GetOutPathCallback
 second_title: Aspose.Sildes för .NET API-referens
-description: Återuppringning som kommer att anropas för varje Slide../aspose.slides/slide den förväntade utdatavägen ska returneras.
+description: Callback som kommer att anropas för varje Slide../aspose.slides/slide, där den förväntade utdata-sökvägen ska returneras.
 type: docs
-weight: 7870
+weight: 7890
 url: /sv/aspose.slides.lowcode/convert.getoutpathcallback/
 ---
 ## Convert.GetOutPathCallback delegat
 
-Callback som kommer att anropas för varje [`Slide`](../../aspose.slides/slide), den förväntade utdatavägen ska returneras.
+Callback som kommer att anropas för varje [`Slide`](../../aspose.slides/slide), den förväntade utdata-sökvägen ska returneras.
 
 ```csharp
 public delegate string GetOutPathCallback(Slide slide, int index);

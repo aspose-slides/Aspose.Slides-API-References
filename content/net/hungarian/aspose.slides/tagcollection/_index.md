@@ -1,14 +1,14 @@
 ---
 title: TagCollection
-second_title: Aspose.Sildes a .NET API hivatkozás
-description: A címkék gyűjteményét képviseli, amelyek felhasználó által definiált karakterlánc párok
+second_title: Aspose.Sildes a .NET API Referenciához
+description: A címkék (felhasználó által definiált karakterlánc párok) gyűjteményét képviseli
 type: docs
-weight: 10870
+weight: 10890
 url: /hu/aspose.slides/tagcollection/
 ---
 ## TagCollection osztály
 
-Represents the collection of tags (user defined pairs of strings)
+A címkék (felhasználó által definiált karakterlánc párok) gyűjteményét képviseli.
 
 ```csharp
 public sealed class TagCollection : ITagCollection
@@ -19,23 +19,23 @@ public sealed class TagCollection : ITagCollection
 | Név | Leírás |
 | --- | --- |
 | [Count](../../aspose.slides/tagcollection/count) { get; } | Visszaadja a címkék számát a gyűjteményben. Csak olvasható Int32. |
-| [IsSynchronized](../../aspose.slides/tagcollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált-e (szálbiztos). Csak olvasható Boolean. |
+| [IsSynchronized](../../aspose.slides/tagcollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjtemény hozzáférése szinkronizált (szálbiztos)-e. Csak olvasható Boolean. |
 | [Item](../../aspose.slides/tagcollection/item) { get; set; } | Visszaadja vagy beállítja egy címke kulcs-érték párját. |
 | [SyncRoot](../../aspose.slides/tagcollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökeret. Csak olvasható Object. |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
 | [Add](../../aspose.slides/tagcollection/add)(string, string) | Új címkét ad a gyűjteményhez. |
-| [Clear](../../aspose.slides/tagcollection/clear)() | Eltávolítja az összes címkét a gyűjteményből. |
+| [Clear](../../aspose.slides/tagcollection/clear)() | Eltávolít minden címkét a gyűjteményből. |
 | [Contains](../../aspose.slides/tagcollection/contains)(string) | Megállapítja, hogy a gyűjtemény tartalmaz-e egy adott nevet. |
-| [CopyTo](../../aspose.slides/tagcollection/copyto)(Array, int) | Átmásolja a gyűjtemény összes elemét a megadott tömbbe. |
-| [GetEnumerator](../../aspose.slides/tagcollection/getenumerator)() | Visszaad egy felsorolót, amely végigiterál a gyűjteményen. |
+| [CopyTo](../../aspose.slides/tagcollection/copyto)(Array, int) | Az összes elemet a gyűjteményből a megadott tömbbe másolja. |
+| [GetEnumerator](../../aspose.slides/tagcollection/getenumerator)() | Visszaad egy enumerátort, amely végigjárja a gyűjteményt. |
 | [GetNameByIndex](../../aspose.slides/tagcollection/getnamebyindex)(int) | Visszaad egy címke kulcsát a megadott indexnél. |
 | [GetNamesOfTags](../../aspose.slides/tagcollection/getnamesoftags)() | Visszaad a címkék neveit. |
 | [GetValueByIndex](../../aspose.slides/tagcollection/getvaluebyindex)(int) | Visszaad egy címke értékét a megadott indexnél. |
-| [IndexOfName](../../aspose.slides/tagcollection/indexofname)(string) | Visszaad a megadott kulcs nulla alapú indexét a gyűjteményben. |
+| [IndexOfName](../../aspose.slides/tagcollection/indexofname)(string) | Visszaad a megadott kulcs nulláról induló indexét a gyűjteményben. |
 | [Remove](../../aspose.slides/tagcollection/remove)(string) | Eltávolítja a megadott névvel rendelkező címkét a gyűjteményből. |
 | [RemoveAt](../../aspose.slides/tagcollection/removeat)(int) | Eltávolítja a címkét a megadott indexnél. |
 

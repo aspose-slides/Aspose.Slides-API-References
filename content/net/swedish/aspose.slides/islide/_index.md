@@ -3,7 +3,7 @@ title: ISlide
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en bild i en presentation.
 type: docs
-weight: 7020
+weight: 7040
 url: /sv/aspose.slides/islide/
 ---
 ## ISlide gränssnitt
@@ -18,13 +18,13 @@ public interface ISlide : IBaseSlide, IOverrideThemeable
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/islide/asibaseslide) { get; } | Tillåter att hämta bas IBaseSlide-gränssnittet. Skrivskyddad [`IBaseSlide`](../ibaseslide). |
-| [AsIOverrideThemeable](../../aspose.slides/islide/asioverridethemeable) { get; } | Returnerar IOverrideThemeable-gränssnittet. Skrivskyddad [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [HeaderFooterManager](../../aspose.slides/islide/headerfootermanager) { get; } | Returnerar HeaderFooter-hanteraren för bilden. Skrivskyddad [`ISlideHeaderFooterManager`](../islideheaderfootermanager). |
-| [Hidden](../../aspose.slides/islide/hidden) { get; set; } | Avgör om den angivna bilden är dold under en bildspelsvisning. Läs/skriv Boolean. |
+| [AsIBaseSlide](../../aspose.slides/islide/asibaseslide) { get; } | Tillåter att hämta bas IBaseSlide gränssnitt. Skrivskyddad [`IBaseSlide`](../ibaseslide). |
+| [AsIOverrideThemeable](../../aspose.slides/islide/asioverridethemeable) { get; } | Returnerar IOverrideThemeable gränssnitt. Skrivskyddad [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
+| [HeaderFooterManager](../../aspose.slides/islide/headerfootermanager) { get; } | Returnerar HeaderFooter-hanterare för bilden. Skrivskyddad [`ISlideHeaderFooterManager`](../islideheaderfootermanager). |
+| [Hidden](../../aspose.slides/islide/hidden) { get; set; } | Bestämmer om den angivna bilden är dold under en bildspelsvisning. Läs/skriv Boolean. |
 | [LayoutSlide](../../aspose.slides/islide/layoutslide) { get; set; } | Returnerar eller anger layout-bilden för den aktuella bilden. Läs/skriv [`ILayoutSlide`](../ilayoutslide). |
-| [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | Tillåter åtkomst till not-bilden, lägga till och ta bort den. Skrivskyddad [`INotesSlideManager`](../inotesslidemanager). |
-| [SlideNumber](../../aspose.slides/islide/slidenumber) { get; set; } | Returnerar ett nummer för bilden. Indexet för bilden i [`Slides`](../ipresentation/slides)-samlingen är alltid lika med SlideNumber - 1. Läs/skriv Int32. |
+| [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | Tillåter åtkomst till anteckningsbild, lägga till och ta bort den. Skrivskyddad [`INotesSlideManager`](../inotesslidemanager). |
+| [SlideNumber](../../aspose.slides/islide/slidenumber) { get; set; } | Returnerar ett bildnummer. Index för bilden i [`Slides`](../ipresentation/slides)-samlingen är alltid lika med SlideNumber - 1. Läs/skriv Int32. |
 
 ## Metoder
 
@@ -37,7 +37,7 @@ public interface ISlide : IBaseSlide, IOverrideThemeable
 | [GetImage](../../aspose.slides/islide/getimage#getimage_5)(float, float) | Returnerar ett bildobjekt med anpassad skalning. |
 | [GetImage](../../aspose.slides/islide/getimage#getimage_3)(IRenderingOptions, Size) | Returnerar ett Thumbnail Bitmap-objekt med angiven storlek. |
 | [GetImage](../../aspose.slides/islide/getimage#getimage_2)(IRenderingOptions, float, float) | Returnerar ett Thumbnail Bitmap-objekt med anpassad skalning. |
-| [GetSlideComments](../../aspose.slides/islide/getslidecomments)(ICommentAuthor) | Returnerar alla bildkommentarer som lagts till av en specifik författare. |
+| [GetSlideComments](../../aspose.slides/islide/getslidecomments)(ICommentAuthor) | Returnerar alla bildkommentarer som lagts till av en viss författare. |
 | [Remove](../../aspose.slides/islide/remove)() | Tar bort bilden från presentationen. |
 | [Reset](../../aspose.slides/islide/reset)() | Återställer position, storlek och formatering för varje form som har en prototyp på LayoutSlide. |
 | [WriteAsEmf](../../aspose.slides/islide/writeasemf)(Stream) | Sparar bildens innehåll som en EMF-fil. |

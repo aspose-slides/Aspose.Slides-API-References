@@ -1,14 +1,14 @@
 ---
 title: FlyThroughTransition
-second_title: Aspose.Sildes for .NET API リファレンス
-description: フライスルー スライド遷移効果。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: フライスルー スライド トランジション効果。
 type: docs
-weight: 10020
+weight: 10040
 url: /ja/aspose.slides.slideshow/flythroughtransition/
 ---
 ## FlyThroughTransition クラス
 
-Fly-through スライド遷移効果です。
+フライスルー スライド トランジション効果。
 
 ```csharp
 public class FlyThroughTransition : TransitionValueBase, IFlyThroughTransition
@@ -18,15 +18,15 @@ public class FlyThroughTransition : TransitionValueBase, IFlyThroughTransition
 
 | 名前 | 説明 |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/flythroughtransition/direction) { get; set; } | 遷移の方向。 読み取り/書き込み [`TransitionInOutDirectionType`](../transitioninoutdirectiontype)。 |
-| [HasBounce](../../aspose.slides.slideshow/flythroughtransition/hasbounce) { get; set; } | 遷移中にプレゼンテーション スライドの動きにバウンスが含まれることを指定します。 読み取り/書き込み Boolean。 |
+| [Direction](../../aspose.slides.slideshow/flythroughtransition/direction) { get; set; } | トランジションの方向。読み取り/書き込み [`TransitionInOutDirectionType`](../transitioninoutdirectiontype)。 |
+| [HasBounce](../../aspose.slides.slideshow/flythroughtransition/hasbounce) { get; set; } | プレゼンテーション スライドのトランジション中の動きにバウンスが含まれることを指定します。読み取り/書き込み Boolean。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 2つの TransitionValueBase インスタンスが等しいかどうかを判断します。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 特定の型に対するハッシュ関数として機能し、ハッシュアルゴリズムやハッシュテーブルなどのデータ構造での使用に適しています。 |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 2 つの TransitionValueBase インスタンスが等しいかどうかを判断します。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 特定の型に対するハッシュ関数として機能し、ハッシュテーブルなどのハッシュアルゴリズムやデータ構造での使用に適しています。 |
 
 ### 参照
 

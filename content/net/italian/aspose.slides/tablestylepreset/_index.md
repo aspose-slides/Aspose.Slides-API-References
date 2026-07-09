@@ -1,9 +1,9 @@
 ---
 title: TableStylePreset
-second_title: Aspose.Sildes per il riferimento API .NET
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta gli stili di tabella incorporati.
 type: docs
-weight: 10860
+weight: 10880
 url: /it/aspose.slides/tablestylepreset/
 ---
 ## Enumerazione TableStylePreset
@@ -18,7 +18,7 @@ public enum TableStylePreset
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Custom | `-1` | La tabella ha uno stile personalizzato. Questo è un valore di sola lettura. |
+| Custom | `-1` | Table ha uno stile personalizzato. Questo è un valore di sola lettura. |
 | None | `0` | Nessuno stile. |
 | MediumStyle2Accent1 | `1` | Stile medio 2 - Accento 1. |
 | MediumStyle2 | `2` | Stile medio 2. |

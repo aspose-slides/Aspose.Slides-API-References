@@ -3,7 +3,7 @@ title: TransitionCornerAndCenterDirectionType
 second_title: Aspose.Sildes for .NET API リファレンス
 description: コーナーと中心に限定された方向を指定します。
 type: docs
-weight: 10320
+weight: 10340
 url: /ja/aspose.slides.slideshow/transitioncornerandcenterdirectiontype/
 ---
 ## TransitionCornerAndCenterDirectionType 列挙型

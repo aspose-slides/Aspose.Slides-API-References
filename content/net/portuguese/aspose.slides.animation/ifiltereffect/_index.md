@@ -1,9 +1,9 @@
 ---
 title: IFilterEffect
-second_title: Aspose.Sildes para .NET Referência de API
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa o efeito de filtro do comportamento.
 type: docs
-weight: 480
+weight: 500
 url: /pt/aspose.slides.animation/ifiltereffect/
 ---
 ## IFilterEffect interface
@@ -18,8 +18,8 @@ public interface IFilterEffect : IBehavior
 
 | Nome | Descrição |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/ifiltereffect/asibehavior) { get; } | Permite obter a interface base IBehavior. Somente leitura [`IBehavior`](../ibehavior). |
-| [Reveal](../../aspose.slides.animation/ifiltereffect/reveal) { get; set; } | Representa que o efeito com comportamento deve revelar (in/out) Leitura/Gravação [`FilterEffectRevealType`](../filtereffectrevealtype). |
+| [AsIBehavior](../../aspose.slides.animation/ifiltereffect/asibehavior) { get; } | Permite obter a interface IBehavior base. Somente leitura [`IBehavior`](../ibehavior). |
+| [Reveal](../../aspose.slides.animation/ifiltereffect/reveal) { get; set; } | Representa que o efeito com o comportamento deve revelar (entrada/saída) Leitura/Gravação [`FilterEffectRevealType`](../filtereffectrevealtype). |
 | [Subtype](../../aspose.slides.animation/ifiltereffect/subtype) { get; set; } | Representa o subtipo do efeito de filtro. Leitura/Gravação [`FilterEffectSubtype`](../filtereffectsubtype). |
 | [Type](../../aspose.slides.animation/ifiltereffect/type) { get; set; } | Representa o tipo do efeito de filtro. Leitura/Gravação [`FilterEffectType`](../filtereffecttype). |
 

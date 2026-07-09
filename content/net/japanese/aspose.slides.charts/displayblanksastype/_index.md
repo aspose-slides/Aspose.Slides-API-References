@@ -1,14 +1,14 @@
 ---
 title: DisplayBlanksAsType
-second_title: Aspose.Sildes for .NET APIリファレンス
-description: 欠損データがどのように表示されるかを決定します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: 欠落データがどのように表示されるかを決定します。
 type: docs
-weight: 1590
+weight: 1610
 url: /ja/aspose.slides.charts/displayblanksastype/
 ---
-## DisplayBlanksAsType 列挙型
+## DisplayBlanksAsType 列挙体
 
-欠損データがどのように表示されるかを決定します。
+欠落データがどのように表示されるかを決定します。
 
 ```csharp
 public enum DisplayBlanksAsType
@@ -18,9 +18,9 @@ public enum DisplayBlanksAsType
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| Gap | `0` | 空白の値はギャップとして残すことを指定します。 |
-| Span | `1` | 空白の値は線で埋めることを指定します。 |
-| Zero | `2` | 空白の値はゼロとして扱うことを指定します。 |
+| Gap | `0` | 空白の値がギャップとして残されることを指定します。 |
+| Span | `1` | 空白の値が線で埋められることを指定します。 |
+| Zero | `2` | 空白の値がゼロとして扱われることを指定します。 |
 
 ### 参照
 

@@ -1,14 +1,14 @@
 ---
 title: SlideShowType
-second_title: Aspose.Sildes の .NET 用 API リファレンス
-description: ベース スライドショー設定。 先祖はスライドショーのタイプを表します PresentedBySpeaker./presentedbyspeaker スピーカーによる提示（全画面） BrowsedByIndividual./browsedbyindividual 個人が閲覧（ウィンドウ） BrowsedAtKiosk./browsedatkiosk キオスクで閲覧（全画面）
+second_title: Aspose.Sildes for .NET API リファレンス
+description: 基本的なスライドショー設定です。先祖はスライドショーのタイプを表します PresentedBySpeaker./presentedbyspeaker スピーカーが提示（全画面） BrowsedByIndividual./browsedbyindividual 個人が閲覧（ウィンドウ） BrowsedAtKiosk./browsedatkiosk キオスクで閲覧（全画面）
 type: docs
-weight: 10470
+weight: 10490
 url: /ja/aspose.slides/slideshowtype/
 ---
 ## SlideShowType クラス
 
-ベース スライドショー設定。 先祖はスライドショーのタイプを表します: [`PresentedBySpeaker`](../presentedbyspeaker) スピーカーによる提示（全画面） [`BrowsedByIndividual`](../browsedbyindividual) 個人が閲覧（ウィンドウ） [`BrowsedAtKiosk`](../browsedatkiosk) キオスクで閲覧（全画面）
+基本的なスライドショー設定です。先祖はスライドショーのタイプを表します: [`PresentedBySpeaker`](../presentedbyspeaker) スピーカーが提示（全画面） [`BrowsedByIndividual`](../browsedbyindividual) 個人が閲覧（ウィンドウ） [`BrowsedAtKiosk`](../browsedatkiosk) キオスクで閲覧（全画面）
 
 ```csharp
 public abstract class SlideShowType

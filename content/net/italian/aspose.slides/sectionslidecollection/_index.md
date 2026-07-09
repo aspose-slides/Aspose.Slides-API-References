@@ -1,9 +1,9 @@
 ---
 title: SectionSlideCollection
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta una raccolta di diapositive nella sezione.
 type: docs
-weight: 9750
+weight: 9770
 url: /it/aspose.slides/sectionslidecollection/
 ---
 ## SectionSlideCollection classe
@@ -18,10 +18,10 @@ public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCo
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | Ottiene il numero di elementi effettivamente contenuti nella raccolta. Sola lettura Int32. |
-| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla raccolta è sincronizzato (thread-safe). Sola lettura Boolean. |
-| [Item](../../aspose.slides/sectionslidecollection/item) { get; } | Ottiene l'elemento all'indice specificato. Sola lettura [`ISlide`](../islide). |
-| [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | Restituisce la radice di sincronizzazione. Sola lettura Object. |
+| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | Restituisce il numero di elementi effettivamente contenuti nella raccolta. Solo lettura Int32. |
+| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla raccolta è sincronizzato (thread-safe). Solo lettura Boolean. |
+| [Item](../../aspose.slides/sectionslidecollection/item) { get; } | Restituisce l'elemento all'indice specificato. Solo lettura [`ISlide`](../islide). |
+| [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Solo lettura Object. |
 
 ## Metodi
 

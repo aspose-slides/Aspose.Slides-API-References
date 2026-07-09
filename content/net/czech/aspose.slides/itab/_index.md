@@ -3,12 +3,12 @@ title: ITab
 second_title: Aspose.Sildes pro .NET API Reference
 description: Představuje tabulaci pro text.
 type: docs
-weight: 7170
+weight: 7190
 url: /cs/aspose.slides/itab/
 ---
 ## ITab rozhraní
 
-Represents a tabulation for a text.
+Představuje tabulaci pro text.
 
 ```csharp
 public interface ITab : IComparable
@@ -20,7 +20,7 @@ public interface ITab : IComparable
 | --- | --- |
 | [Alignment](../../aspose.slides/itab/alignment) { get; set; } | Vrací nebo nastavuje styl zarovnání tabulátoru. Čtení/Zápis [`TabAlignment`](../tabalignment). |
 | [AsIComparable](../../aspose.slides/itab/asicomparable) { get; } | Vrací rozhraní IComparable. Pouze pro čtení IComparable. |
-| [Position](../../aspose.slides/itab/position) { get; set; } | Vrací nebo nastavuje pozici tabulátoru. Nastavení této vlastnosti může změnit index tabulátoru ve sbírce a zneplatnit Enumerator. Čtení/Zápis Double. |
+| [Position](../../aspose.slides/itab/position) { get; set; } | Vrací nebo nastavuje pozici tabulátoru. Přiřazením této vlastnosti může dojít ke změně indexu tabulátoru ve sbírce a neplatnosti Enumeratoru. Čtení/Zápis Double. |
 
 ### Viz také
 

@@ -3,12 +3,12 @@ title: IColumnCollection
 second_title: Aspose.Sildes için .NET API Referansı
 description: Bir tabloda sütunların koleksiyonunu temsil eder.
 type: docs
-weight: 5510
+weight: 5530
 url: /tr/aspose.slides/icolumncollection/
 ---
 ## IColumnCollection arayüz
 
-Bir tabloda sütunların koleksiyonunu temsil eder.
+Bir tablodaki sütunların koleksiyonunu temsil eder.
 
 ```csharp
 public interface IColumnCollection : IGenericCollection<IColumn>
@@ -18,17 +18,17 @@ public interface IColumnCollection : IGenericCollection<IColumn>
 
 | Ad | Açıklama |
 | --- | --- |
-| [Item](../../aspose.slides/icolumncollection/item) { get; } | Belirtilen indeksteki sütunu döndürür. Salt okunur [`IColumn`](../icolumn). |
+| [Item](../../aspose.slides/icolumncollection/item) { get; } | Belirtilen dizindeki sütunu döndürür. Yalnızca okunur [`IColumn`](../icolumn). |
 
-## Yöntemler
+## Metotlar
 
 | Ad | Açıklama |
 | --- | --- |
 | [AddClone](../../aspose.slides/icolumncollection/addclone)(IColumn, bool) | Belirtilen şablon satırının bir kopyasını oluşturur ve tablonun altına ekler. |
 | [InsertClone](../../aspose.slides/icolumncollection/insertclone)(int, IColumn, bool) | Belirtilen şablon sütununun bir kopyasını oluşturur ve tablo içinde belirtilen konuma ekler. |
-| [RemoveAt](../../aspose.slides/icolumncollection/removeat)(int, bool) | Bir tablodan belirtilen konumdaki sütunu kaldırır. |
+| [RemoveAt](../../aspose.slides/icolumncollection/removeat)(int, bool) | Belirtilen konumdaki bir sütunu tablodan kaldırır. |
 
-### Diğer Bağlantılar
+### İlgili
 
 * arayüz [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * arayüz [IColumn](../icolumn)

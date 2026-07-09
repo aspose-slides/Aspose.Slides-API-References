@@ -3,7 +3,7 @@ title: Placeholder
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en platshållare på en bild.
 type: docs
-weight: 9410
+weight: 9430
 url: /sv/aspose.slides/placeholder/
 ---
 ## Platshållarklass
@@ -23,7 +23,7 @@ public class Placeholder : IPlaceholder
 | [Size](../../aspose.slides/placeholder/size) { get; } | Hämtar eller anger storleken för en platshållare. Skrivskyddad [`PlaceholderSize`](../placeholdersize). |
 | [Type](../../aspose.slides/placeholder/type) { get; } | Hämtar eller anger typen för en platshållare. Skrivskyddad [`PlaceholderType`](../placeholdertype). |
 
-### Se också
+### Se även
 
 * gränssnitt [IPlaceholder](../iplaceholder)
 * namnrymd [Aspose.Slides](../../aspose.slides)

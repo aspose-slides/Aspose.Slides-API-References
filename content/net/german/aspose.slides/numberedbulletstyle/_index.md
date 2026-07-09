@@ -1,15 +1,14 @@
 ---
 title: NumberedBulletStyle
-second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt den Stil der nummerierten Aufzählungen dar.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt den Stil der nummerierten Aufzählungszeichen dar.
 type: docs
-weight: 8910
+weight: 9180
 url: /de/aspose.slides/numberedbulletstyle/
 ---
-
 ## NumberedBulletStyle Aufzählung
 
-Stellt den Stil der nummerierten Aufzählungen dar.
+Stellt den Stil der nummerierten Aufzählungszeichen dar.
 
 ```csharp
 public enum NumberedBulletStyle : sbyte
@@ -17,54 +16,54 @@ public enum NumberedBulletStyle : sbyte
 
 ### Werte
 
-| Name | Wert | Beschreibung |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` | Nicht definiert. |
-| BulletAlphaLCPeriod | `0` | Kleinbuchstaben alphabetische Zeichen mit einem Punkt. Beispiel: a., b., c., ... |
-| BulletAlphaUCPeriod | `1` | Großbuchstaben alphabetische Zeichen mit einem Punkt. Beispiel: A., B., C., ... |
-| BulletArabicParenRight | `2` | Arabische Ziffern mit schließendem Klammerzeichen. Beispiel: 1), 2), 3), ... |
+| BulletAlphaLCPeriod | `0` | Kleinbuchstaben mit einem Punkt. Beispiel: a., b., c., ... |
+| BulletAlphaUCPeriod | `1` | Großbuchstaben mit einem Punkt. Beispiel: A., B., C., ... |
+| BulletArabicParenRight | `2` | Arabische Ziffern mit schließender Klammer. Beispiel: 1), 2), 3), ... |
 | BulletArabicPeriod | `3` | Arabische Ziffern mit einem Punkt. Beispiel: 1., 2., 3., ... |
-| BulletRomanLCParenBoth | `4` | Kleinbuchstaben römische Ziffern mit beiden Klammern. Beispiel: (i), (ii), (iii), ... |
-| BulletRomanLCParenRight | `5` | Kleinbuchstaben römische Ziffern mit schließendem Klammerzeichen. Beispiel: i), ii), iii), ... |
-| BulletRomanLCPeriod | `6` | Kleinbuchstaben römische Ziffern mit Punkt. Beispiel: i., ii., iii., ... |
-| BulletRomanUCPeriod | `7` | Großbuchstaben römische Ziffern mit Punkt. Beispiel: I., II., III., ... |
-| BulletAlphaLCParenBoth | `8` | Kleinbuchstaben alphabetische Zeichen mit beiden Klammern. Beispiel: (a), (b), (c), ... |
-| BulletAlphaLCParenRight | `9` | Kleinbuchstaben alphabetische Zeichen mit schließendem Klammerzeichen. Beispiel: a), b), c), ... |
-| BulletAlphaUCParenBoth | `10` | Großbuchstaben alphabetische Zeichen mit beiden Klammern. Beispiel: (A), (B), (C), ... |
-| BulletAlphaUCParenRight | `11` | Großbuchstaben alphabetische Zeichen mit schließendem Klammerzeichen. Beispiel: A), B), C), ... |
+| BulletRomanLCParenBoth | `4` | Kleinbuchstaben römische Zahlen mit beiden Klammern. Beispiel: (i), (ii), (iii), ... |
+| BulletRomanLCParenRight | `5` | Klein römische Zahlen mit schließender Klammer. Beispiel: i), ii), iii), ... |
+| BulletRomanLCPeriod | `6` | Klein römische Zahlen mit Punkt. Beispiel: i., ii., iii., ... |
+| BulletRomanUCPeriod | `7` | Groß römische Zahlen mit Punkt. Beispiel: I., II., III., ... |
+| BulletAlphaLCParenBoth | `8` | Kleinbuchstaben mit beiden Klammern. Beispiel: (a), (b), (c), ... |
+| BulletAlphaLCParenRight | `9` | Kleinbuchstaben mit schließender Klammer. Beispiel: a), b), c), ... |
+| BulletAlphaUCParenBoth | `10` | Großbuchstaben mit beiden Klammern. Beispiel: (A), (B), (C), ... |
+| BulletAlphaUCParenRight | `11` | Großbuchstaben mit schließender Klammer. Beispiel: A), B), C), ... |
 | BulletArabicParenBoth | `12` | Arabische Ziffern mit beiden Klammern. Beispiel: (1), (2), (3), ... |
 | BulletArabicPlain | `13` | Arabische Ziffern. Beispiel: 1, 2, 3, ... |
-| BulletRomanUCParenBoth | `14` | Großbuchstaben römische Ziffern mit beiden Klammern. Beispiel: (I), (II), (III), ... |
-| BulletRomanUCParenRight | `15` | Großbuchstaben römische Ziffern mit schließendem Klammerzeichen. Beispiel: I), II), III), ... |
-| BulletSimpChinPlain | `16` | Vereinfachtes Chinesisch ohne Punkt. |
-| BulletSimpChinPeriod | `17` | Vereinfachtes Chinesisch mit Punkt. |
-| BulletCircleNumDBPlain | `18` | Doppelt bytes umschlossene Zahl für Werte bis 10, ab 11 - arabische Zahlen. |
-| BulletCircleNumWDWhitePlain | `19` | Textfarbige Zahl mit gleichfarbigem Kreis darum herum (Wingdings weiße Kreiszahlen). Ab 11 - arabische Zahlen. |
-| BulletCircleNumWDBlackPlain | `20` | Schattenfarbige Zahl mit rundem Hintergrund in der normalen Textfarbe (Wingdings schwarze Kreiszahlen). |
+| BulletRomanUCParenBoth | `14` | Groß römische Zahlen mit beiden Klammern. Beispiel: (I), (II), (III), ... |
+| BulletRomanUCParenRight | `15` | Groß römische Zahlen mit schließender Klammer. Beispiel: I), II), III), ... |
+| BulletSimpChinPlain | `16` | Vereinfacht-Chinesisch ohne Punkt. |
+| BulletSimpChinPeriod | `17` | Vereinfacht-Chinesisch mit Punkt. |
+| BulletCircleNumDBPlain | `18` | Doppelbyte umkreiste Zahl für Werte bis 10, ab 11 – arabische Zahlen. |
+| BulletCircleNumWDWhitePlain | `19` | Textfarbige Zahl mit gleichfarbiger Kreis um sie (Wingdings weiße Kreiszahlen). Ab 11 – arabische Zahlen. |
+| BulletCircleNumWDBlackPlain | `20` | Schattenfarbene Zahl mit kreisförmigem Hintergrund in normaler Textfarbe (Wingdings schwarze Kreiszahlen). |
 | BulletTradChinPlain | `21` | Traditionelles Chinesisch ohne Punkt. |
 | BulletTradChinPeriod | `22` | Traditionelles Chinesisch mit Punkt. |
-| BulletArabicAlphaDash | `23` | Arabische alphabetische Zeichen mit einem Bindestrich. |
-| BulletArabicAbjadDash | `24` | Arabisches Abjad-Alphabet mit einem Bindestrich. |
-| BulletHebrewAlphaDash | `25` | Hebräische alphabetische Zeichen mit einem Bindestrich. |
-| BulletKanjiKoreanPlain | `26` | Japanische/Koreanische Zahlen ohne Punkt. |
-| BulletKanjiKoreanPeriod | `27` | Japanische/Koreanische Zahlen mit Punkt. |
-| BulletArabicDBPlain | `28` | Doppelt bytes arabisches Nummerierungsschema (keine Interpunktion). |
-| BulletArabicDBPeriod | `29` | Doppelt bytes arabisches Nummerierungsschema mit doppelt bytes Punkt. |
+| BulletArabicAlphaDash | `23` | Arabische alphabetische Zeichen mit Bindestrich. |
+| BulletArabicAbjadDash | `24` | Arabische Abjad-Alphabete mit Bindestrich. |
+| BulletHebrewAlphaDash | `25` | Hebräische alphabetische Zeichen mit Bindestrich. |
+| BulletKanjiKoreanPlain | `26` | Japanisch/Koreanische Zahlen ohne Punkt. |
+| BulletKanjiKoreanPeriod | `27` | Japanisch/Koreanische Zahlen mit Punkt. |
+| BulletArabicDBPlain | `28` | Doppelbyte arabisches Nummerierungsschema (keine Satzzeichen). |
+| BulletArabicDBPeriod | `29` | Doppelbyte arabisches Nummerierungsschema mit Doppelbyte-Punkt. |
 | BulletThaiAlphaPeriod | `30` | Thailändisches Alphabet mit Punkt. |
-| BulletThaiAlphaParenRight | `31` | Thailändisches Alphabet Klammern - rechts. |
-| BulletThaiAlphaParenBoth | `32` | Thailändisches Alphabet Klammern - beide. |
-| BulletThaiNumPeriod | `33` | Thailändische numerische Periode. |
-| BulletThaiNumParenRight | `34` | Thailändische numerische Klammern - rechts. |
-| BulletThaiNumParenBoth | `35` | Thailändische numerische Klammern - beide. |
-| BulletHindiAlphaPeriod | `36` | Hindi Alphabet mit Punkt - Vokale. |
-| BulletHindiNumPeriod | `37` | Hindi numerische Periode. |
-| BulletKanjiSimpChinDBPeriod | `38` | Kanji Einfach Chinesisch DBPeriode. |
-| BulletHindiNumParenRight | `39` | Hindi numerische Klammern - rechts. |
-| BulletHindiAlpha1Period | `40` | Hindi Alphabet mit Punkt - Konsonanten. |
+| BulletThaiAlphaParenRight | `31` | Thailändisches Alphabet Klammern – rechts. |
+| BulletThaiAlphaParenBoth | `32` | Thailändisches Alphabet Klammern – beide. |
+| BulletThaiNumPeriod | `33` | Thailändische Ziffern mit Punkt. |
+| BulletThaiNumParenRight | `34` | Thailändische Ziffern Klammern – rechts. |
+| BulletThaiNumParenBoth | `35` | Thailändische Ziffern Klammern – beide. |
+| BulletHindiAlphaPeriod | `36` | Hindi-Alphabet mit Punkt – Vokale. |
+| BulletHindiNumPeriod | `37` | Hindi-Ziffern mit Punkt. |
+| BulletKanjiSimpChinDBPeriod | `38` | Kanji vereinfachtes Chinesisch DBPeriod. |
+| BulletHindiNumParenRight | `39` | Hindi Ziffern Klammern – rechts. |
+| BulletHindiAlpha1Period | `40` | Hindi-Alphabet mit Punkt – Konsonanten. |
 
 ### Siehe auch
 
-* Namespace [Aspose.Slides](../../aspose.slides)
-* Assembly [Aspose.Slides](../../)
+* Namensraum [Aspose.Slides](../../aspose.slides)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

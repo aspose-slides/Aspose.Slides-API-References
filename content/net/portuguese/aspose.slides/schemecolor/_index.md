@@ -1,9 +1,9 @@
 ---
 title: SchemeColor
-second_title: Aspose.Sildes para .NET - Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa cores em um esquema de cores.
 type: docs
-weight: 9720
+weight: 9740
 url: /pt/aspose.slides/schemecolor/
 ---
 ## Enumeração SchemeColor
@@ -16,7 +16,7 @@ public enum SchemeColor
 
 ### Valores
 
-| Name | Value | Description |
+| Nome | Valor | Descrição |
 | --- | --- | --- |
 | NotDefined | `-1` | Color scheme is not defined. |
 | Background1 | `0` |  |
@@ -37,7 +37,7 @@ public enum SchemeColor
 | Dark2 | `15` |  |
 | Light2 | `16` |  |
 
-### Ver também
+### Veja Também
 
 * espaço de nomes [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

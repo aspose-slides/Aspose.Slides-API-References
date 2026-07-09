@@ -1,14 +1,14 @@
 ---
 title: IHyperlink
-second_title: Aspose.Sildes for .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa um hyperlink.
 type: docs
-weight: 6090
+weight: 6110
 url: /pt/aspose.slides/ihyperlink/
 ---
-## Interface IHyperlink
+## interface IHyperlink
 
-Representa um hiperlink.
+Representa um hyperlink.
 
 ```csharp
 public interface IHyperlink
@@ -19,16 +19,16 @@ public interface IHyperlink
 | Nome | Descrição |
 | --- | --- |
 | [ActionType](../../aspose.slides/ihyperlink/actiontype) { get; } | Retorna o tipo da ação do HyperLinkEx. Somente leitura [`HyperlinkActionType`](../hyperlinkactiontype). |
-| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | Representa a origem da cor do hyperlink - seja estilos ou formato de porção. Leitura/gravação [`HyperlinkColorSource`](../hyperlinkcolorsource). |
-| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | Especifica a URL externa. Se esta propriedade não for nula, então a propriedade TargetSlide será nula. Somente leitura String. |
-| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | Representa um hyperlink definido para esta porção sem levar em conta o conteúdo real da porção. O PowerPoint se comporta de forma específica para links e seu texto correspondente em uma porção. Permite criar texto para o hyperlink na forma de uma URL válida, diferente do endereço real do link. Nesse caso, ao visualizar o link na janela de edição, ele será alterado para corresponder à porção de texto. Esta propriedade representa o valor original do hyperlink. |
+| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | Representa a origem da cor do hyperlink - estilos ou formato da porção. Leitura/gravação [`HyperlinkColorSource`](../hyperlinkcolorsource). |
+| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | Especifica a URL externa. Se esta propriedade ficar não nula, então a propriedade TargetSlide ficará nula. Somente leitura String. |
+| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | Representa um hyperlink definido para esta porção sem levar em conta o conteúdo real da porção. O PowerPoint se comporta de forma específica para links e seu texto correspondente numa porção. Ele permite criar texto para o hyperlink na forma de uma URL válida, diferente do endereço real do link. Nesse caso, ao visualizar o link na janela de edição, ele será alterado para corresponder à porção de texto. Esta propriedade representa o valor original do hyperlink. |
 | [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | Determina se o hyperlink deve ser destacado ao clicar. Leitura/gravação Boolean. |
-| [History](../../aspose.slides/ihyperlink/history) { get; set; } | Determina se o alvo do hyperlink pai deve ser adicionado a uma lista de hyperlinks visualizados quando for acionado. Leitura/gravação Boolean. |
-| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | Representa o som reproduzido pelo hyperlink. Leitura/gravação [`IAudio`](../iaudio). |
+| [History](../../aspose.slides/ihyperlink/history) { get; set; } | Determina se o destino do hyperlink pai deve ser adicionado a uma lista de hyperlinks visualizados quando for invocado. Leitura/gravação Boolean. |
+| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | Representa o som de reprodução do hyperlink. Leitura/gravação [`IAudio`](../iaudio). |
 | [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | Determina se o som deve ser interrompido ao clicar no hyperlink. Leitura/gravação Boolean. |
-| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | Retorna o frame dentro do frameset HTML pai para o alvo do hyperlink pai quando existe. Leitura/gravação String. |
-| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | Se o HyperLinkEx direciona a um slide específico, retorna esse slide. Se a propriedade não for nula, então a propriedade ExternalUrl será nula. Somente leitura [`ISlide`](../islide). |
-| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | Retorna a string que pode ser exibida em uma interface de usuário como associada ao hyperlink pai. Leitura/gravação String. |
+| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | Retorna o quadro dentro do frameset HTML pai para o destino do hyperlink pai quando existir. Leitura/gravação String. |
+| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | Se o HyperlinkEx apontar para um slide específico, retorna esse slide. Se a propriedade ficar não nula, então a propriedade ExternalUrl ficará nula. Somente leitura [`ISlide`](../islide). |
+| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | Retorna a string que pode ser exibida em uma interface do usuário associada ao hyperlink pai. Leitura/gravação String. |
 
 ## Métodos
 
@@ -36,7 +36,7 @@ public interface IHyperlink
 | --- | --- |
 | [Equals](../../aspose.slides/ihyperlink/equals)(IHyperlink) | Determina se as duas instâncias de Hyperlink são iguais. |
 
-### Ver Também
+### Veja Também
 
 * espaço de nomes [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

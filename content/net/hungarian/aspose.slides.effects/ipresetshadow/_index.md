@@ -1,14 +1,14 @@
 ---
 title: IPresetShadow
-second_title: Aspose.Sildes .NET API Referenciája
-description: Ábrázolja a Preset Shadow hatást.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Előre definiált árnyék effektust képvisel.
 type: docs
-weight: 3460
+weight: 3480
 url: /hu/aspose.slides.effects/ippresetshadow/
 ---
 ## IPresetShadow interfész
 
-Ábrázolja a Preset Shadow hatást.
+Egy előre definiált árnyék effektust képvisel.
 
 ```csharp
 public interface IPresetShadow : IAccessiblePVIObject<IPresetShadowEffectiveData>, 
@@ -17,13 +17,13 @@ public interface IPresetShadow : IAccessiblePVIObject<IPresetShadowEffectiveData
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ipresetshadow/asiaccessiblepviobject) { get; } | Lehetővé teszi az alap IAccessiblePVIObject interfész lekérdezését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | Lehetővé teszi az alap IImageTransformOperation interfész lekérdezését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ipresetshadow/asiaccessiblepviobject) { get; } | Lehetővé teszi az alap IAccessiblePVIObject interfész lekérését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | Lehetővé teszi az alap IImageTransformOperation interfész lekérését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
 | [Direction](../../aspose.slides.effects/ipresetshadow/direction) { get; set; } | Az árnyék iránya. Olvasás/írás Single. |
 | [Distance](../../aspose.slides.effects/ipresetshadow/distance) { get; set; } | Az árnyék távolsága. Olvasás/írás Double. |
-| [Preset](../../aspose.slides.effects/ipresetshadow/preset) { get; set; } | Előre beállított érték. Olvasás/írás [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
+| [Preset](../../aspose.slides.effects/ipresetshadow/preset) { get; set; } | Előre beállított. Olvasás/írás [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
 | [ShadowColor](../../aspose.slides.effects/ipresetshadow/shadowcolor) { get; } | Az árnyék színe. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Lásd még

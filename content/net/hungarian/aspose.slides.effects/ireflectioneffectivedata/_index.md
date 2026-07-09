@@ -1,14 +1,14 @@
 ---
 title: IReflectionEffectiveData
-second_title: Aspose.Sildes for .NET API referencia
-description: Immutable objektum, amely egy tükröződés hatást képvisel.
+second_title: Aspose.Sildes .NET API referenciája
+description: Megváltoztathatatlan objektum, amely egy reflexió hatást képvisel.
 type: docs
-weight: 3490
+weight: 3510
 url: /hu/aspose.slides.effects/ireflectioneffectivedata/
 ---
 ## IReflectionEffectiveData interfész
 
-Immutable object which represents a Reflection effect.
+Megváltoztathatatlan objektum, amely egy Reflection effektust képvisel.
 
 ```csharp
 public interface IReflectionEffectiveData : IEffectEffectiveData
@@ -18,21 +18,21 @@ public interface IReflectionEffectiveData : IEffectEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ireflectioneffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi a bázis IEffectEffectiveData interfész lekérését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ireflectioneffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi a base IEffectEffectiveData interfész elérését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [BlurRadius](../../aspose.slides.effects/ireflectioneffectivedata/blurradius) { get; } | Elmosódás sugara. Csak olvasható Double. |
-| [Direction](../../aspose.slides.effects/ireflectioneffectivedata/direction) { get; } | A tükröződés iránya. Csak olvasható Single. |
-| [Distance](../../aspose.slides.effects/ireflectioneffectivedata/distance) { get; } | A tükröződés távolsága. Csak olvasható Double. |
-| [EndPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/endposalpha) { get; } | Meghatározza a végső alfa érték (százalék) pozícióját (az alfa-gradient lépcsőn) a végső alfa értékhez. Csak olvasható Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | A tükröződés végső opacitása. (százalék). Csak olvasható Single. |
-| [FadeDirection](../../aspose.slides.effects/ireflectioneffectivedata/fadedirection) { get; } | Meghatározza a tükröződés eltolásának irányát. (szög). Csak olvasható Single. |
-| [RectangleAlign](../../aspose.slides.effects/ireflectioneffectivedata/rectanglealign) { get; } | Téglalap igazítása. Csak olvasható [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | Meghatározza, hogy a tükröződés a forma forgatásával együtt kell-e elforduljon, ha a forma el van forgatva. Csak olvasható Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | Meghatározza a vízszintes méretezési tényezőt, a negatív méretezés tükröződést okoz. (százalék) Csak olvasható Double. |
-| [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | Meghatározza a függőleges méretezési tényezőt, a negatív méretezés tükröződést okoz. (százalék) Csak olvasható Double. |
-| [SkewHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/skewhorizontal) { get; } | Meghatározza a vízszintes ferdeségi szöget. Csak olvasható Double. |
-| [SkewVertical](../../aspose.slides.effects/ireflectioneffectivedata/skewvertical) { get; } | Meghatározza a függőleges ferdeségi szöget. Csak olvasható Double. |
-| [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | Meghatározza a kezdő alfa érték (százalék) pozícióját (az alfa-gradient lépcsőn) a kezdő alfa értékhez. Csak olvasható Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity) { get; } | A tükröződés kezdő opacitása. (százalék). Csak olvasható Single. |
+| [Direction](../../aspose.slides.effects/ireflectioneffectivedata/direction) { get; } | Reflexió iránya. Csak olvasható Single. |
+| [Distance](../../aspose.slides.effects/ireflectioneffectivedata/distance) { get; } | Reflexió távolsága. Csak olvasható Double. |
+| [EndPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/endposalpha) { get; } | Meghatározza a végső alfa érték pozícióját (az alfa gradient rampa mentén) (százalék). Csak olvasható Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | Végső reflexió átlátszatlansága (százalék). Csak olvasható Single. |
+| [FadeDirection](../../aspose.slides.effects/ireflectioneffectivedata/fadedirection) { get; } | Meghatározza a reflexió eltolásának irányát (szög). Csak olvasható Single. |
+| [RectangleAlign](../../aspose.slides.effects/ireflectioneffectivedata/rectanglealign) { get; } | Téglalap igazítás. Csak olvasható [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | Meghatározza, hogy a reflexió a formával együtt forgatható-e, ha a forma el van forgatva. Csak olvasható Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | Meghatározza a vízszintes méretezési tényezőt, a negatív méretezés tükrözést eredményez (százalék). Csak olvasható Double. |
+| [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | Meghatározza a függőleges méretezési tényezőt, a negatív méretezés tükrözést eredményez (százalék). Csak olvasható Double. |
+| [SkewHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/skewhorizontal) { get; } | Meghatározza a vízszintes ferdeség szögét. Csak olvasható Double. |
+| [SkewVertical](../../aspose.slides.effects/ireflectioneffectivedata/skewvertical) { get; } | Meghatározza a függőleges ferdeség szögét. Csak olvasható Double. |
+| [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | Meghatározza a kezdeti alfa érték pozícióját (az alfa gradient rampa mentén) (százalék). Csak olvasható Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity) { get; } | Kezdő reflexió átlátszatlansága (százalék). Csak olvasható Single. |
 
 ### Lásd még
 

@@ -1,9 +1,9 @@
 ---
 title: SvgTSpan
 second_title: Aspose.Sildes の .NET API リファレンス
-description: SVG テキスト部分（tspan）のオプションを表します。
+description: SVG テキスト部分 tspan のオプションを表します。
 type: docs
-weight: 4500
+weight: 4520
 url: /ja/aspose.slides.export/svgtspan/
 ---
 ## SvgTSpan クラス

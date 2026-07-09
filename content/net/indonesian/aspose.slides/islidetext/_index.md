@@ -3,7 +3,7 @@ title: ISlideText
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili teks yang diekstrak dari slide
 type: docs
-weight: 7080
+weight: 7100
 url: /id/aspose.slides/islidetext/
 ---
 ## ISlideText antarmuka

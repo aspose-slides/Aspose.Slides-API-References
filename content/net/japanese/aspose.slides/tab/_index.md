@@ -1,14 +1,14 @@
 ---
 title: Tab
 second_title: Aspose.Sildes for .NET API リファレンス
-description: テキストのタブ設定を表します。
+description: テキストのタブ位置を表します。
 type: docs
-weight: 10800
+weight: 10820
 url: /ja/aspose.slides/tab/
 ---
 ## Tab クラス
 
-テキストのタブ設定を表します。
+テキストのタブ位置を表します。
 
 ```csharp
 public sealed class Tab : PVIObject, ITab
@@ -18,15 +18,15 @@ public sealed class Tab : PVIObject, ITab
 
 | 名前 | 説明 |
 | --- | --- |
-| [Tab](tab)(double, TabAlignment) | 新しい Tab を作成します |
+| [Tab](tab)(double, TabAlignment) | 新しい Tab を作成します。 |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [Alignment](../../aspose.slides/tab/alignment) { get; set; } | タブの配置スタイルを取得または設定します。 読み書き可能 [`TabAlignment`](../tabalignment). |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 基本的な IPresentationComponent インターフェイスを取得できます。 読み取り専用 [`IPresentationComponent`](../ipresentationcomponent). |
-| [Position](../../aspose.slides/tab/position) { get; set; } | タブの位置を取得または設定します。 このプロパティを設定すると、コレクション内のタブのインデックスが変更され、Enumerator が無効になる可能性があります。 読み書き可能 Double. |
+| [Alignment](../../aspose.slides/tab/alignment) { get; set; } | タブの配置スタイルを取得または設定します。読み書き [`TabAlignment`](../tabalignment)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
+| [Position](../../aspose.slides/tab/position) { get; set; } | タブの位置を取得または設定します。このプロパティを設定すると、コレクション内のタブのインデックスが変更され、Enumerator が無効になる可能性があります。読み書き Double。 |
 
 ## メソッド
 

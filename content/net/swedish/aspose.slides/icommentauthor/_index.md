@@ -1,14 +1,14 @@
 ---
 title: ICommentAuthor
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en författare till kommentarer.
+description: Representerar en författare av kommentarer.
 type: docs
-weight: 5550
+weight: 5570
 url: /sv/aspose.slides/icommentauthor/
 ---
 ## ICommentAuthor gränssnitt
 
-Representerar en författare till kommentarer.
+Representerar en författare av kommentarer.
 
 ```csharp
 public interface ICommentAuthor
@@ -19,14 +19,14 @@ public interface ICommentAuthor
 | Namn | Beskrivning |
 | --- | --- |
 | [Comments](../../aspose.slides/icommentauthor/comments) { get; } | Returnerar samlingen av kommentarer som gjorts av denna författare. Skrivskyddad [`ICommentCollection`](../icommentcollection). |
-| [Initials](../../aspose.slides/icommentauthor/initials) { get; set; } | Returnerar eller anger författarens initialer. Läs/skriv String. |
-| [Name](../../aspose.slides/icommentauthor/name) { get; set; } | Returnerar eller anger författarens namn. Läs/skriv String. |
+| [Initials](../../aspose.slides/icommentauthor/initials) { get; set; } | Returnerar eller anger författarens initialer. Skrivbar String. |
+| [Name](../../aspose.slides/icommentauthor/name) { get; set; } | Returnerar eller anger författarens namn. Skrivbar String. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Remove](../../aspose.slides/icommentauthor/remove)() | Tar bort författaren från den överordnade samlingen. |
+| [Remove](../../aspose.slides/icommentauthor/remove)() | Tar bort författaren från föräldrasamlingen. |
 
 ### Se även
 

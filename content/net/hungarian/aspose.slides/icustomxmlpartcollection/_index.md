@@ -1,14 +1,14 @@
 ---
 title: ICustomXmlPartCollection
 second_title: Aspose.Sildes .NET API referencia
-description: Az egyéni XML részek gyűjteményét reprezentálja.
+description: Az egyéni XML-részek gyűjteményét képviseli.
 type: docs
-weight: 5660
+weight: 5680
 url: /hu/aspose.slides/icustomxmlpartcollection/
 ---
 ## ICustomXmlPartCollection interfész
 
-Az egyéni XML részek gyűjteményét reprezentálja.
+Az egyéni XML-részek gyűjteményét képviseli.
 
 ```csharp
 public interface ICustomXmlPartCollection : IGenericCollection<ICustomXmlPart>
@@ -18,18 +18,18 @@ public interface ICustomXmlPartCollection : IGenericCollection<ICustomXmlPart>
 
 | Név | Leírás |
 | --- | --- |
-| [Item](../../aspose.slides/icustomxmlpartcollection/item) { get; } | Visszaadja az elemet a megadott indexen. |
+| [Item](../../aspose.slides/icustomxmlpartcollection/item) { get; } | Visszaadja a megadott indexű elemet. |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [Add](../../aspose.slides/icustomxmlpartcollection/add#add)(byte[]) | Új egyéni XML részt ad hozzá. |
-| [Add](../../aspose.slides/icustomxmlpartcollection/add#add_1)(Stream) | Új egyéni XML részt ad hozzá. |
-| [Add](../../aspose.slides/icustomxmlpartcollection/add#add_2)(string) | Új egyéni XML részt ad hozzá. |
-| [Clear](../../aspose.slides/icustomxmlpartcollection/clear)() | Eltávolítja az összes elemet a gyűjteményből. |
-| [Remove](../../aspose.slides/icustomxmlpartcollection/remove)(ICustomXmlPart) | Eltávolítja a specifikus objektum első előfordulását a gyűjteményből. |
-| [RemoveAt](../../aspose.slides/icustomxmlpartcollection/removeat)(int) | Eltávolítja az egyéni XML részt a megadott indexen. |
+| [Add](../../aspose.slides/icustomxmlpartcollection/add#add)(byte[]) | Új egyéni XML-részt ad hozzá. |
+| [Add](../../aspose.slides/icustomxmlpartcollection/add#add_1)(Stream) | Új egyéni XML-részt ad hozzá. |
+| [Add](../../aspose.slides/icustomxmlpartcollection/add#add_2)(string) | Új egyéni XML-részt ad hozzá. |
+| [Clear](../../aspose.slides/icustomxmlpartcollection/clear)() | Eltávolítja a gyűjtemény összes elemét. |
+| [Remove](../../aspose.slides/icustomxmlpartcollection/remove)(ICustomXmlPart) | Eltávolítja az adott objektum első előfordulását a gyűjteményből. |
+| [RemoveAt](../../aspose.slides/icustomxmlpartcollection/removeat)(int) | Eltávolítja a megadott indexű egyéni XML-részt. |
 
 ### Lásd még
 

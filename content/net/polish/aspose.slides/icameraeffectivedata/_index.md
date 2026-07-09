@@ -1,14 +1,14 @@
 ---
 title: ICameraEffectiveData
 second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Niezmienny obiekt zawierający skuteczne właściwości kamery.
+description: Niezmienny obiekt zawierający efektywne właściwości kamery.
 type: docs
-weight: 5400
+weight: 5420
 url: /pl/aspose.slides/icameraeffectivedata/
 ---
-## ICameraEffectiveData interfejs
+## ICameraEffectiveData interface
 
-Niezmienny obiekt zawierający skuteczne właściwości kamery.
+Niezmienny obiekt zawierający efektywne właściwości kamery.
 
 ```csharp
 public interface ICameraEffectiveData
@@ -19,14 +19,14 @@ public interface ICameraEffectiveData
 | Nazwa | Opis |
 | --- | --- |
 | [CameraType](../../aspose.slides/icameraeffectivedata/cameratype) { get; } | Typ kamery. Tylko do odczytu [`CameraPresetType`](../camerapresettype). |
-| [FieldOfViewAngle](../../aspose.slides/icameraeffectivedata/fieldofviewangle) { get; } | FOV kamery (0-180 deg, pole widzenia). Tylko do odczytu Single. |
+| [FieldOfViewAngle](../../aspose.slides/icameraeffectivedata/fieldofviewangle) { get; } | FOV kamery (0-180 stopni, field of View). Tylko do odczytu Single. |
 | [Zoom](../../aspose.slides/icameraeffectivedata/zoom) { get; } | Zoom kamery (wartość dodatnia w procentach). Tylko do odczytu Single. |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | Rotacja jest definiowana przy użyciu współrzędnej szerokości geograficznej, współrzędnej długości geograficznej oraz obrotu wokół osi, traktowanego jako współrzędne szerokości i długości. pierwszy element w zwracanej tablicy – szerokość, drugi – długość, trzeci – obrót. Zwraca null, jeśli rotacja nie jest zdefiniowana. |
+| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | Rotacja jest określana przy użyciu współrzędnej szerokości geograficznej, współrzędnej długości geograficznej oraz obrotu wokół osi jako współrzędne szerokości i długości. pierwszy element w zwracanej tablicy – szerokość, drugi – długość, trzeci – obrót. Zwraca null, jeśli nie zdefiniowano rotacji. |
 
 ### Uwagi
 

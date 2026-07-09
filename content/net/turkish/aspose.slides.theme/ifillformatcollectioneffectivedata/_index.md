@@ -1,14 +1,14 @@
 ---
 title: IFillFormatCollectionEffectiveData
-second_title: Aspose.Sildes için .NET API Referansı
-description: Etkili doldurma biçimlerinin salt okunur bir koleksiyonunu temsil eden değiştirilemez nesne.
+second_title: Aspose.Sildes .NET API Referansı
+description: Etkili doldurma biçimlerinin salt okunur bir koleksiyonunu temsil eden değişmez nesne.
 type: docs
-weight: 11220
+weight: 11240
 url: /tr/aspose.slides.theme/ifillformatcollectioneffectivedata/
 ---
-## IFillFormatCollectionEffectiveData arayüzü
+## IFillFormatCollectionEffectiveData arayüz
 
-Etkili doldurma biçimlerinin salt okunur bir koleksiyonunu temsil eden değiştirilemez nesne.
+Etkili doldurma biçimlerinin salt okunur bir koleksiyonunu temsil eden değişmez nesne.
 
 ```csharp
 public interface IFillFormatCollectionEffectiveData : IGenericCollection<IFillFormatEffectiveData>
@@ -22,7 +22,7 @@ public interface IFillFormatCollectionEffectiveData : IGenericCollection<IFillFo
 
 ### Açıklamalar
 
-Bu arayüz [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata) parçası olarak kullanılır.
+Bu arayüz, [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata) bir parçası olarak kullanılır.
 
 ### Ayrıca Bakınız
 

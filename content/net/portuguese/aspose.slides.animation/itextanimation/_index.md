@@ -3,10 +3,10 @@ title: ITextAnimation
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa animação de texto.
 type: docs
-weight: 600
+weight: 620
 url: /pt/aspose.slides.animation/itextanimation/
 ---
-## ITextAnimation interface
+## interface ITextAnimation
 
 Representa animação de texto.
 
@@ -18,14 +18,14 @@ public interface ITextAnimation
 
 | Nome | Descrição |
 | --- | --- |
-| [BuildType](../../aspose.slides.animation/itextanimation/buildtype) { get; set; } | Lista do tipo de construção (por exemplo, Parágrafo 1,2,3, Todos de Uma Vez) da animação de texto. Leitura/gravação [`BuildType`](./buildtype). |
+| [BuildType](../../aspose.slides.animation/itextanimation/buildtype) { get; set; } | Lista de tipo de construção (por exemplo, Paragraph 1,2,3, All at Once) da animação de texto. Leitura/gravação [`BuildType`](./buildtype). |
 | [EffectAnimateBackgroundShape](../../aspose.slides.animation/itextanimation/effectanimatebackgroundshape) { get; set; } | Efeito de forma vinculada com grupo ou não (null) Leitura/gravação [`IEffect`](../ieffect). |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
-| [AddEffect](../../aspose.slides.animation/itextanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | Adiciona novo efeito ao final da sequência atual até o final das animações de texto em grupo. Válido somente se a contagem de parágrafos de texto for igual ou maior que a contagem de efeitos deste grupo! |
+| [AddEffect](../../aspose.slides.animation/itextanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | Adiciona novo efeito ao final da sequência atual ao final das animações de texto em grupo. Válido apenas se a contagem de parágrafos de texto for igual ou maior que a contagem de efeitos deste grupo! |
 
 ### Veja Também
 

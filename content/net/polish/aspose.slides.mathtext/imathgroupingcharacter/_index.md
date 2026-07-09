@@ -1,14 +1,14 @@
 ---
 title: IMathGroupingCharacter
 second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Określa znak grupujący powyżej lub poniżej wyrażenia, zwykle w celu podkreślenia zależności między elementami
+description: Określa znak grupowania powyżej lub poniżej wyrażenia, zwykle w celu podkreślenia zależności między elementami
 type: docs
-weight: 8270
+weight: 8290
 url: /pl/aspose.slides.mathtext/imathgroupingcharacter/
 ---
-## interfejs IMathGroupingCharacter
+## IMathGroupingCharacter interfejs
 
-Określa znak grupujący powyżej lub poniżej wyrażenia, zazwyczaj w celu podkreślenia zależności między elementami
+Określa znak grupowania powyżej lub poniżej wyrażenia, zwykle w celu podkreślenia zależności między elementami
 
 ```csharp
 public interface IMathGroupingCharacter : IMathElement
@@ -18,11 +18,11 @@ public interface IMathGroupingCharacter : IMathElement
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathgroupingcharacter/asimathelement) { get; } | Umożliwia pobranie bazowego interfejsu IMathElement [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathgroupingcharacter/base) { get; } | Argument bazowy |
-| [Character](../../aspose.slides.mathtext/imathgroupingcharacter/character) { get; set; } | Znak grupujący Domyślna wartość: U+23DF (BOTTOM CURLY BRACKET) |
-| [Position](../../aspose.slides.mathtext/imathgroupingcharacter/position) { get; set; } | Pozycja znaku grupującego. Domyślnie: Bottom |
-| [VerticalJustification](../../aspose.slides.mathtext/imathgroupingcharacter/verticaljustification) { get; set; } | Pionowe wyrównanie znaku grupującego. Określa wyrównanie obiektu względem linii bazowej. Na przykład, gdy znak grupujący jest nad obiektem, VerticalJustification Top oznacza, że górna część obiektu znajduje się na linii bazowej; gdy VerticalJustification jest ustawione na Bottom, dolna część obiektu znajduje się na linii bazowej Domyślnie: Bottom dla Position=Top oraz Top dla Position=Bottom |
+| [AsIMathElement](../../aspose.slides.mathtext/imathgroupingcharacter/asimathelement) { get; } | Umożliwia pobranie podstawowego interfejsu IMathElement [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathgroupingcharacter/base) { get; } | Podstawowy argument |
+| [Character](../../aspose.slides.mathtext/imathgroupingcharacter/character) { get; set; } | Znak grupowania Domyślna wartość: U+23DF (DOLNY NAWIAS KLAMROWY) |
+| [Position](../../aspose.slides.mathtext/imathgroupingcharacter/position) { get; set; } | Pozycja znaku grupowania. Domyślna wartość: Bottom |
+| [VerticalJustification](../../aspose.slides.mathtext/imathgroupingcharacter/verticaljustification) { get; set; } | Pionowe wyrównanie znaku grupującego. Określa wyrównanie obiektu względem linii bazowej. Na przykład, gdy znak grupujący znajduje się nad obiektem, VerticalJustification ustawione na Top oznacza, że górna krawędź obiektu leży na linii bazowej; gdy VerticalJustification jest ustawione na Bottom, dolna krawędź obiektu leży na linii bazowej. Domyślna wartość: Bottom dla Position=Top oraz Top dla Position=Bottom |
 
 ### Przykłady
 

@@ -1,14 +1,14 @@
 ---
 title: IThreeDFormatEffectiveData
-second_title: Referência da API Aspose.Sildes para .NET
-description: Objeto imutável que representa propriedades de formatação 3-D efetivas.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Objeto imutável que representa as propriedades efetivas de formatação 3-D.
 type: docs
-weight: 7320
+weight: 7340
 url: /pt/aspose.slides/ithreedformateffectivedata/
 ---
 ## IThreeDFormatEffectiveData interface
 
-Objeto imutável que representa propriedades de formatação 3-D efetivas.
+Objeto imutável que representa as propriedades efetivas de formatação 3-D.
 
 ```csharp
 public interface IThreeDFormatEffectiveData : IThreeDParamSource
@@ -18,7 +18,7 @@ public interface IThreeDFormatEffectiveData : IThreeDParamSource
 
 | Nome | Descrição |
 | --- | --- |
-| [AsIThreeDParamSource](../../aspose.slides/ithreedformateffectivedata/asithreedparamsource) { get; } | Permite obter a interface base IThreeDParamSource. Somente leitura [`IThreeDParamSource`](../ithreedparamsource). |
+| [AsIThreeDParamSource](../../aspose.slides/ithreedformateffectivedata/asithreedparamsource) { get; } | Permite obter a interface IThreeDParamSource base. Somente leitura [`IThreeDParamSource`](../ithreedparamsource). |
 | [BevelBottom](../../aspose.slides/ithreedformateffectivedata/bevelbottom) { get; } | Retorna o tipo de um chanfro 3D inferior. Somente leitura [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
 | [BevelTop](../../aspose.slides/ithreedformateffectivedata/beveltop) { get; } | Retorna o tipo de um chanfro 3D superior. Somente leitura [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
 | [Camera](../../aspose.slides/ithreedformateffectivedata/camera) { get; } | Retorna as configurações de uma câmera. Somente leitura [`ICameraEffectiveData`](../icameraeffectivedata). |
@@ -32,7 +32,7 @@ public interface IThreeDFormatEffectiveData : IThreeDParamSource
 
 ### Observações
 
-Esta interface é usada juntamente com a interface [`IThreeDFormat`](../ithreedformat) para devolver valores de formatação efetiva com herança aplicada.
+Esta interface é usada juntamente com a interface [`IThreeDFormat`](../ithreedformat) para retornar valores de formatação efetivos com herança aplicada.
 
 ### Veja Também
 

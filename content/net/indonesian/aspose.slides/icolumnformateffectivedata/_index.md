@@ -1,14 +1,14 @@
 ---
 title: IColumnFormatEffectiveData
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Objek yang tidak dapat diubah yang berisi properti pemformatan kolom tabel yang efektif.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Objek tidak dapat diubah yang berisi properti pemformatan kolom tabel yang efektif.
 type: docs
-weight: 5530
+weight: 5550
 url: /id/aspose.slides/icolumnformateffectivedata/
 ---
 ## IColumnFormatEffectiveData antarmuka
 
-Objek yang tidak dapat diubah yang berisi properti pemformatan kolom tabel yang efektif.
+Objek tidak dapat diubah yang berisi properti pemformatan kolom tabel yang efektif.
 
 ```csharp
 public interface IColumnFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -18,9 +18,9 @@ public interface IColumnFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icolumnformateffectivedata/asibasetableformateffectivedata) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IBaseTableFormatEffectiveData. Hanya-baca [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icolumnformateffectivedata/asibasetableformateffectivedata) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IBaseTableFormatEffectiveData. Hanya baca [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
 
-### Catatan
+### Keterangan
 
 Antarmuka ini digunakan bersama dengan antarmuka [`IColumnFormat`](../icolumnformat) untuk mengembalikan nilai pemformatan yang efektif dengan pewarisan dan gaya tabel yang diterapkan.
 

@@ -1,14 +1,20 @@
 ---
 title: SlidesAIAgent
-second_title: Referência da API Aspose.Sildes para .NET
-description: Construtor SlidesAIAgent
+second_title: Aspose.Sildes para .NET - Referência da API
+description: Inicializa uma nova instância de SlidesAIAgentaspose.slides.ai/slidesaiagent com um cliente de IA personalizado. Use esta sobrecarga para especificar o provedor de IA, fornecer seu próprio LLM ou personalizar a conexão, por exemplo, fornecendo seu próprio HttpClient. Qualquer implementação de IAIWebClientaspose.slides.ai/iaiwebclient pode ser usada, incluindo
 type: docs
 weight: 10
 url: /pt/aspose.slides.ai/slidesaiagent/slidesaiagent/
 ---
-## Construtor SlidesAIAgent
+## SlidesAIAgent(IAIWebClient) {#constructor_1}
 
-Construtor SlidesAIAgent
+Inicializa uma nova instância de [`SlidesAIAgent`](../../slidesaiagent) com um cliente de IA personalizado. Use esta sobrecarga para especificar o provedor de IA, fornecer seu próprio LLM ou personalizar a conexão (por exemplo, fornecendo seu próprio `HttpClient`). Qualquer implementação de [`IAIWebClient`](../../iaiwebclient) pode ser usada, incluindo:
+
+* [`AsposeAIWebClient`](../../asposeaiwebclient)
+* [`OpenAIWebClient`](../../openaiwebclient)
+* [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
+
+Para usar o [`AsposeAIWebClient`](../../asposeaiwebclient) interno com sua configuração padrão, use a sobrecarga [`SlidesAIAgent`](../slidesaiagent).
 
 ```csharp
 public SlidesAIAgent(IAIWebClient aiClient)
@@ -16,17 +22,33 @@ public SlidesAIAgent(IAIWebClient aiClient)
 
 | Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
-| aiClient | IIAWebClient |  |
+| aiClient | IIAWebClient | Instância do cliente de IA. Qualquer implementação de [`IAIWebClient`](../../iaiwebclient) pode ser usada. |
 
 ### Exceções
 
 | exceção | condição |
 | --- | --- |
-| ArgumentNullException | Instância do cliente AI não foi fornecida |
+| ArgumentNullException | Instância do cliente de IA não foi fornecida. |
 
 ### Veja Também
 
 * interface [IAIWebClient](../../iaiwebclient)
+* classe [SlidesAIAgent](../../slidesaiagent)
+* namespace [Aspose.Slides.AI](../../slidesaiagent)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## SlidesAIAgent() {#constructor}
+
+Inicializa uma nova instância de [`SlidesAIAgent`](../../slidesaiagent) usando o [`AsposeAIWebClient`](../../asposeaiwebclient) interno com sua configuração padrão. O cliente conecta-se ao LLM próprio da Aspose e não requer configuração adicional. Para usar um cliente de IA diferente, use a sobrecarga [`SlidesAIAgent`](../slidesaiagent).
+
+```csharp
+public SlidesAIAgent()
+```
+
+### Veja Também
+
 * classe [SlidesAIAgent](../../slidesaiagent)
 * namespace [Aspose.Slides.AI](../../slidesaiagent)
 * assembly [Aspose.Slides](../../../)

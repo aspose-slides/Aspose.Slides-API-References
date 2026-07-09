@@ -1,14 +1,14 @@
 ---
 title: OptionalBlackTransition
-second_title: Aspose.Sildes .NET API referenciája
-description: Opcionális fekete diaváltási hatás.
+second_title: Aspose.Sildes a .NET API-referencia
+description: Opcionális fekete diaátmeneti effektus.
 type: docs
-weight: 10240
+weight: 10260
 url: /hu/aspose.slides.slideshow/optionalblacktransition/
 ---
 ## OptionalBlackTransition osztály
 
-Opcionális fekete diaátmenet hatás.
+Opcionális fekete diaátmeneti effektus.
 
 ```csharp
 public class OptionalBlackTransition : TransitionValueBase, IOptionalBlackTransition
@@ -16,16 +16,16 @@ public class OptionalBlackTransition : TransitionValueBase, IOptionalBlackTransi
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | Ez az attribútum meghatározza, hogy az átmenet fekete képernyővel indul-e (és ezután a új diát feketén keresztül jeleníti meg). Olvasás/írás Boolean. |
+| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | Ez az attribútum meghatározza, hogy az átmenet fekete képernyőn kezdődik-e (és ezután a új dia átmenik a feketén). Olvasás/írás Boolean. |
 
-## Módszerek
+## Metódusok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Meghatározza, hogy a két TransitionValueBase példány egyenlő-e. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Hash függvényként szolgál egy adott típushoz, amely alkalmas hash algoritmusokban és adatstruktúrákban, például hash táblában való használatra. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Hash függvényként szolgál egy adott típushoz, amely alkalmas hash algoritmusokban és adatszerkezetekben, például hash táblában való használatra. |
 
 ### Lásd még
 

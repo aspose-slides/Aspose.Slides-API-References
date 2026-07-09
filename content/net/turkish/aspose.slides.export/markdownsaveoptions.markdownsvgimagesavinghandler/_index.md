@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions.MarkdownSvgImageSavingHandler
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Markdown dışa aktarımı sırasında her bir SVG görüntüsü için çağrılır. Belirtilen bağlantıyı kullanmak için true, varsayılan kaydetme mantığını uygulamak için false döndürün.
 type: docs
-weight: 4250
+weight: 4270
 url: /tr/aspose.slides.export/markdownsaveoptions.markdownsvgimagesavinghandler/
 ---
 ## MarkdownSaveOptions.MarkdownSvgImageSavingHandler delegate
 
-Markdown dışa aktarımı sırasında her bir SVG görüntüsü için çağrılır. `true` döndürerek belirtilen *link*'i kullanın, ya da `false` döndürerek varsayılan kaydetme mantığını uygulayın.
+Markdown dışa aktarma sırasında her bir SVG görüntüsü için çağrılır. `true` döndürülürse belirtilen *bağlantı* kullanılır, `false` döndürülürse varsayılan kaydetme mantığı uygulanır.
 
 ```csharp
 public delegate bool MarkdownSvgImageSavingHandler(ISvgImage svgImage, ref string link);
@@ -17,9 +17,9 @@ public delegate bool MarkdownSvgImageSavingHandler(ISvgImage svgImage, ref strin
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | svgImage | ISvgImage | Dışa aktarılan SVG görüntüsü. |
-| link | String& | `true` döndürülürken kullanılacak Markdown link'i. |
+| link | String& | `true` döndürüldüğünde kullanılacak Markdown bağlantısı. |
 
-### Ayrıca
+### Ayrıca Bakınız
 
 * arayüz [ISvgImage](../../aspose.slides/isvgimage)
 * sınıf [MarkdownSaveOptions](../markdownsaveoptions)

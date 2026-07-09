@@ -1,14 +1,14 @@
 ---
 title: AdjustValueCollection
-second_title: Aspose.Sildes for .NET Referência da API
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa uma coleção de ajustes de formas.
 type: docs
-weight: 80
+weight: 100
 url: /pt/aspose.slides/adjustvaluecollection/
 ---
 ## AdjustValueCollection classe
 
-Representa uma coleção de ajustes de shape.
+Reprasents a collection of shape's adjustments.
 
 ```csharp
 public sealed class AdjustValueCollection : DomObject<GeometryShape>, IAdjustValueCollection
@@ -16,16 +16,16 @@ public sealed class AdjustValueCollection : DomObject<GeometryShape>, IAdjustVal
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides/adjustvaluecollection/count) { get; } | Retorna um número de ajustes. Somente leitura Int32. |
-| [IsSynchronized](../../aspose.slides/adjustvaluecollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção é sincronizado (thread-safe). Somente leitura Boolean. |
+| [IsSynchronized](../../aspose.slides/adjustvaluecollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção está sincronizado (thread-safe). Somente leitura Boolean. |
 | [Item](../../aspose.slides/adjustvaluecollection/item) { get; } | Retorna o ajuste por índice. |
 | [SyncRoot](../../aspose.slides/adjustvaluecollection/syncroot) { get; } | Retorna uma raiz de sincronização. Somente leitura Object. |
 
 ## Métodos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [CopyTo](../../aspose.slides/adjustvaluecollection/copyto)(Array, int) | Copia todos os elementos da coleção para o array especificado. |
 

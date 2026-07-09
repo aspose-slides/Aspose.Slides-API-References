@@ -1,14 +1,14 @@
 ---
 title: IFormat
-second_title: Aspose.Sildes .NET API referencia
-description: A diagram formátum tulajdonságait képviseli.
+second_title: Aspose.Sildes a .NET API hivatkozáshoz
+description: A diagram formátum tulajdonságait reprezentálja.
 type: docs
-weight: 2080
+weight: 2100
 url: /hu/aspose.slides.charts/iformat/
 ---
 ## IFormat interfész
 
-A diagram formátum tulajdonságait képviseli.
+A diagram formátum tulajdonságait reprezentálja.
 
 ```csharp
 public interface IFormat
@@ -20,8 +20,8 @@ public interface IFormat
 | --- | --- |
 | [Effect](../../aspose.slides.charts/iformat/effect) { get; } | Visszaadja a diagramhoz használt effektusokat. Csak olvasható [`IEffectFormat`](../../aspose.slides/ieffectformat). |
 | [Effect3D](../../aspose.slides.charts/iformat/effect3d) { get; } | Visszaadja a diagram 3D formátumát. Csak olvasható [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
-| [Fill](../../aspose.slides.charts/iformat/fill) { get; } | Visszaadja a diagram kitöltés stílus tulajdonságait. Csak olvasható [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [Line](../../aspose.slides.charts/iformat/line) { get; } | Visszaadja a diagram vonal stílus tulajdonságait. Csak olvasható [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Fill](../../aspose.slides.charts/iformat/fill) { get; } | Visszaadja a diagram kitöltési stílus tulajdonságait. Csak olvasható [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Line](../../aspose.slides.charts/iformat/line) { get; } | Visszaadja a diagram vonalstílus tulajdonságait. Csak olvasható [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### Lásd még
 

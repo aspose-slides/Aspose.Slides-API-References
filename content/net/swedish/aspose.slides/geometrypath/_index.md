@@ -3,10 +3,10 @@ title: GeometryPath
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar geometrisk bana för GeometryShape
 type: docs
-weight: 4940
+weight: 4960
 url: /sv/aspose.slides/geometrypath/
 ---
-## GeometryPath klass
+## GeometryPath-klass
 
 Representerar geometrisk bana för GeometryShape
 
@@ -26,34 +26,34 @@ public sealed class GeometryPath : IGeometryPath
 | --- | --- |
 | [FillMode](../../aspose.slides/geometrypath/fillmode) { get; set; } | Ställer in fyllningsläge |
 | [PathData](../../aspose.slides/geometrypath/pathdata) { get; } | Returnerar geometrisk bana för GeometryShape som en array av bansegment. |
-| [Stroke](../../aspose.slides/geometrypath/stroke) { get; set; } | Ställer in streckutseende |
+| [Stroke](../../aspose.slides/geometrypath/stroke) { get; set; } | Ställer in stroke-utseende |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [ArcTo](../../aspose.slides/geometrypath/arcto)(float, float, float, float) | Lägger till den specificerade bågen till banan. |
-| [CloseFigure](../../aspose.slides/geometrypath/closefigure)() | Stänger den aktuella figuren i den här banan |
-| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | Lägger till en kubisk Bezier-kurva i slutet av banan |
-| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | Lägger till en kubisk Bezier-kurva på den specificerade platsen i banan |
-| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | Lägger till en kubisk Bezier-kurva i slutet av banan |
-| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | Lägger till en kubisk Bezier-kurva på den specificerade platsen i banan |
+| [ArcTo](../../aspose.slides/geometrypath/arcto)(float, float, float, float) | Lägger till den angivna bågen till banan. |
+| [CloseFigure](../../aspose.slides/geometrypath/closefigure)() | Stänger den aktuella figuren i denna bana |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | Lägger till en kubisk Bézier-kurva i slutet av banan |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | Lägger till en kubisk Bézier-kurva på den angivna platsen i banan |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | Lägger till en kubisk Bézier-kurva i slutet av banan |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | Lägger till en kubisk Bézier-kurva på den angivna platsen i banan |
 | [LineTo](../../aspose.slides/geometrypath/lineto#lineto_2)(PointF) | Lägger till en linje i slutet av banan |
 | [LineTo](../../aspose.slides/geometrypath/lineto#lineto)(float, float) | Lägger till en linje i slutet av banan |
-| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_3)(PointF, uint) | Lägger till en linje på den specificerade platsen i banan |
-| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_1)(float, float, uint) | Lägger till en linje på den specificerade platsen i banan |
-| [MoveTo](../../aspose.slides/geometrypath/moveto#moveto_1)(PointF) | Ställer in nästa punkts position. |
-| [MoveTo](../../aspose.slides/geometrypath/moveto#moveto)(float, float) | Ställer in nästa punkts position. |
-| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | Lägger till en kvadratisk Bezier-kurva i slutet av banan |
-| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | Lägger till en kvadratisk Bezier-kurva på den specificerade platsen i banan |
-| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | Lägger till en kvadratisk Bezier-kurva i slutet av banan |
-| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | Lägger till en kvadratisk Bezier-kurva på den specificerade platsen i banan |
-| [RemoveAt](../../aspose.slides/geometrypath/removeat)(int) | Tar bort segmentet vid det specificerade indexet i den geometriska banan. |
+| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_3)(PointF, uint) | Lägger till en linje på den angivna platsen i banan |
+| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_1)(float, float, uint) | Lägger till en linje på den angivna platsen i banan |
+| [MoveTo](../../aspose.slides/geometrypath/moveto#moveto_1)(PointF) | Ställer in nästa punktposition. |
+| [MoveTo](../../aspose.slides/geometrypath/moveto#moveto)(float, float) | Ställer in nästa punktposition. |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | Lägger till en kvadratisk Bézier-kurva i slutet av banan |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | Lägger till en kvadratisk Bézier-kurva på den angivna platsen i banan |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | Lägger till en kvadratisk Bézier-kurva i slutet av banan |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | Lägger till en kvadratisk Bézier-kurva på den angivna platsen i banan |
+| [RemoveAt](../../aspose.slides/geometrypath/removeat)(int) | Tar bort segmentet på det angivna indexet i den geometriska banan. |
 
 ### Se även
 
 * gränssnitt [IGeometryPath](../igeometrypath)
 * namnrymd [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* samling [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

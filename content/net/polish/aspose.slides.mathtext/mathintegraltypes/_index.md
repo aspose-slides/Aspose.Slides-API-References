@@ -1,12 +1,12 @@
 ---
 title: MathIntegralTypes
-second_title: Aspose.Sildes dla .NET Referencja API
+second_title: Aspose.Sildes dla .NET referencja API
 description: Matematyczne typy całkowe
 type: docs
-weight: 8770
+weight: 8790
 url: /pl/aspose.slides.mathtext/mathintegraltypes/
 ---
-## MathIntegralTypes enumeration
+## MathIntegralTypes enumeracja
 
 Matematyczne typy całkowe
 
@@ -14,18 +14,18 @@ Matematyczne typy całkowe
 public enum MathIntegralTypes
 ```
 
-### Wartości
+### Values
 
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
 | Simple | `0` | Całka: '∫' |
-| Double | `1` | Całka podwójna: '∬' |
-| Triple | `2` | Całka potrójna: '∭' |
+| Double | `1` | Podwójna całka: '∬' |
+| Triple | `2` | Potrójna całka: '∭' |
 | Contour | `3` | Całka konturowa: '∮' |
 | Surface | `4` | Całka powierzchniowa: '∯' |
 | Volume | `5` | Całka objętościowa: '∰' |
 
-### Zobacz także
+### See Also
 
 * przestrzeń nazw [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * zestaw [Aspose.Slides](../../)

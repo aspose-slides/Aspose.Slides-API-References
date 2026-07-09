@@ -3,7 +3,7 @@ title: ICommentAuthorCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: コメント作成者のコレクションを表します。
 type: docs
-weight: 5560
+weight: 5580
 url: /ja/aspose.slides/icommentauthorcollection/
 ---
 ## ICommentAuthorCollection インターフェイス
@@ -30,7 +30,7 @@ public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
 | [FindByNameAndInitials](../../aspose.slides/icommentauthorcollection/findbynameandinitials)(string, string) | 名前とイニシャルでコレクション内の作成者を検索します。 |
 | [Remove](../../aspose.slides/icommentauthorcollection/remove)(ICommentAuthor) | コレクション内の指定された作成者の最初の出現を削除します。 |
 | [RemoveAt](../../aspose.slides/icommentauthorcollection/removeat)(int) | コレクションの指定されたインデックスにある作成者を削除します。 |
-| [ToArray](../../aspose.slides/icommentauthorcollection/toarray)() | すべての作成者を含む配列を作成し、返します。 |
+| [ToArray](../../aspose.slides/icommentauthorcollection/toarray)() | すべての作成者を含む配列を作成して返します。 |
 
 ### 参照
 

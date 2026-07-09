@@ -1,12 +1,12 @@
 ---
 title: CameraPresetType
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Constantes que definem o tipo de predefinição de câmera.
 type: docs
-weight: 1080
+weight: 1100
 url: /pt/aspose.slides/camerapresettype/
 ---
-## Enumeração CameraPresetType
+## CameraPresetType enumeração
 
 Constantes que definem o tipo de predefinição de câmera.
 

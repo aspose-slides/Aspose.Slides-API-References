@@ -1,14 +1,14 @@
 ---
 title: OuterShadow
-second_title: Aspose.Sildes para .NET Referência da API
-description: Representa um efeito de Outer Shadow.
+second_title: Aspose.Sildes para .NET - Referência da API
+description: Representa um efeito de sombra externa.
 type: docs
-weight: 3600
+weight: 3620
 url: /pt/aspose.slides.effects/outershadow/
 ---
 ## OuterShadow classe
 
-Representa um efeito Outer Shadow.
+Representa um efeito de sombra externa.
 
 ```csharp
 public sealed class OuterShadow : IOuterShadow
@@ -18,24 +18,24 @@ public sealed class OuterShadow : IOuterShadow
 
 | Nome | Descrição |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | Raio de desfoque, em pontos. Valor padrão – 0 pt. Leitura/Gravação Double. |
-| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | Direção da sombra, em graus. Valor padrão – 0 ° (da esquerda para a direita). Leitura/Gravação Single. |
-| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | Distância da sombra ao objeto, em pontos. Valor padrão – 0 pt. Leitura/Gravação Double. |
-| [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | Alinhamento do retângulo. Valor padrão – Bottom. Leitura/Gravação [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | Indica se a sombra gira junto com a forma. Valor padrão – true. Leitura/Gravação Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | Fator de escala horizontal, em porcentagem do tamanho original. Escala negativa provoca uma inversão. Valor padrão – 100 %. Leitura/Gravação Double. |
-| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | Fator de escala vertical, em porcentagem do tamanho original. Escala negativa provoca uma inversão. Valor padrão – 100 %. Leitura/Gravação Double. |
+| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | Raio de desfoque, em pontos. Valor padrão – 0 pt. Leitura/gravação Double. |
+| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | Direção da sombra, em graus. Valor padrão – 0 ° (da esquerda para a direita). Leitura/gravação Single. |
+| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | Distância da sombra ao objeto, em pontos. Valor padrão – 0 pt. Leitura/gravação Double. |
+| [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | Alinhamento do retângulo. Valor padrão – Bottom. Leitura/gravação [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | Indica se a sombra gira junto com a forma. Valor padrão – true. Leitura/gravação Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | Fator de escala horizontal, em porcentagem do tamanho original. Escala negativa provoca inversão. Valor padrão – 100 %. Leitura/gravação Double. |
+| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | Fator de escala vertical, em porcentagem do tamanho original. Escala negativa provoca inversão. Valor padrão – 100 %. Leitura/gravação Double. |
 | [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | Cor da sombra. Valor padrão – preto automático (dependente do tema). Somente leitura [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | Ângulo de inclinação horizontal, em graus. Valor padrão – 0 °. Leitura/Gravação Double. |
-| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | Ângulo de inclinação vertical, em graus. Valor padrão – 0 °. Leitura/Gravação Double. |
+| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | Ângulo de inclinação horizontal, em graus. Valor padrão – 0 °. Leitura/gravação Double. |
+| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | Ângulo de inclinação vertical, em graus. Valor padrão – 0 °. Leitura/gravação Double. |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | Determina se o [`OuterShadow`](../outershadow) especificado é igual ao [`OuterShadow`](../outershadow) atual. |
-| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | Obtém os dados efetivos do efeito Outer Shadow com a herança aplicada. |
-| override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | Funciona como uma função de hash para um tipo específico. |
+| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | Obtém os dados efetivos do efeito de sombra externa com a herança aplicada. |
+| override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | Serve como função hash para um tipo específico. |
 
 ### Veja Também
 

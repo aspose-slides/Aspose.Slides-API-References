@@ -3,7 +3,7 @@ title: ILegendEntryProperties
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta le proprietà della legenda di un grafico.
 type: docs
-weight: 2130
+weight: 2150
 url: /it/aspose.slides.charts/ilegendentryproperties/
 ---
 ## ILegendEntryProperties interfaccia
@@ -18,7 +18,7 @@ public interface ILegendEntryProperties : IFormattedTextContainer
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegendentryproperties/asiformattedtextcontainer) { get; } | Consente di ottenere l'interfaccia IFormattedTextContainer di base. Sola lettura [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegendentryproperties/asiformattedtextcontainer) { get; } | Consente di ottenere l'interfaccia base IFormattedTextContainer. Solo lettura [`IFormattedTextContainer`](../iformattedtextcontainer). |
 | [Hide](../../aspose.slides.charts/ilegendentryproperties/hide) { get; set; } | Restituisce o imposta il flag di nascondimento della voce della legenda. Lettura/scrittura Boolean. |
 
 ### Vedi anche

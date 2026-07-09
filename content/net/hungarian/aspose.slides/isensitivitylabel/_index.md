@@ -1,14 +1,14 @@
 ---
 title: ISensitivityLabel
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes a .NET API hivatkozáshoz
 description: A Microsoft Purview Information Protection érzékenységi címkéjét képviseli.
 type: docs
-weight: 6910
+weight: 6930
 url: /hu/aspose.slides/isensitivitylabel/
 ---
 ## ISensitivityLabel interfész
 
-A Microsoft Purview Information Protection érzékenységi címkét képviseli.
+A Microsoft Purview Information Protection által biztosított érzékenységi címkét képviseli.
 
 ```csharp
 public interface ISensitivityLabel
@@ -18,12 +18,12 @@ public interface ISensitivityLabel
 
 | Név | Leírás |
 | --- | --- |
-| [AssignmentMethodType](../../aspose.slides/isensitivitylabel/assignmentmethodtype) { get; set; } | Visszaadja vagy beállítja az érzékenységi címke hozzárendelési módját. Olvasás/írás [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
+| [AssignmentMethodType](../../aspose.slides/isensitivitylabel/assignmentmethodtype) { get; set; } | Visszaadja vagy beállítja az érzékenységi címke hozzárendelési módszerét. Olvasás/írás [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
 | [ContentMarkTypes](../../aspose.slides/isensitivitylabel/contentmarktypes) { get; } | Visszaadja a fájlra alkalmazandó tartalomjelölés típusainak listáját. |
 | [Id](../../aspose.slides/isensitivitylabel/id) { get; set; } | Visszaadja vagy beállítja az érzékenységi címke azonosítóját. Olvasás/írás String. |
 | [IsEnabled](../../aspose.slides/isensitivitylabel/isenabled) { get; set; } | Jelzi, hogy az érzékenységi címke engedélyezve van-e. |
-| [IsRemoved](../../aspose.slides/isensitivitylabel/isremoved) { get; set; } | Jelzi, hogy az érzékenységi címke eltávolításra került-e. |
-| [SiteId](../../aspose.slides/isensitivitylabel/siteid) { get; set; } | Visszaadja vagy beállítja az Azure Active Directory (Azure AD) webhelyazonosítót, amely az érzékenységi címkét leíró érzékenységi címkepolitikához tartozik. Olvasás/írás Guid. |
+| [IsRemoved](../../aspose.slides/isensitivitylabel/isremoved) { get; set; } | Jelzi, hogy az érzékenységi címke el lett-e távolítva. |
+| [SiteId](../../aspose.slides/isensitivitylabel/siteid) { get; set; } | Visszaadja vagy beállítja az Azure Active Directory (Azure AD) webhelyazonosítót, amely az érzékenységi címkét leíró címkepolicy-hez tartozik. Olvasás/írás Guid. |
 
 ### Lásd még
 

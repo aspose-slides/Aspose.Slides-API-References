@@ -3,7 +3,7 @@ title: ISvgShape
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili opsi untuk bentuk SVG.
 type: docs
-weight: 4090
+weight: 4110
 url: /id/aspose.slides.export/isvgshape/
 ---
 ## ISvgShape antarmuka
@@ -16,15 +16,15 @@ public interface ISvgShape
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [Id](../../aspose.slides.export/isvgshape/id) { get; set; } | Mengatur atau mengambil id untuk bentuk |
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [SetEventHandler](../../aspose.slides.export/isvgshape/seteventhandler)(SvgEvent, string) | Mengatur penangan acara untuk bentuk |
+| [SetEventHandler](../../aspose.slides.export/isvgshape/seteventhandler)(SvgEvent, string) | Mengatur penangkap acara untuk bentuk |
 
 ### Lihat Juga
 

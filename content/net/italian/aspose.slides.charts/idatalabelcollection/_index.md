@@ -1,9 +1,9 @@
 ---
 title: IDataLabelCollection
-second_title: Riferimento API di Aspose.Slides per .NET
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta le etichette di una serie.
 type: docs
-weight: 2010
+weight: 2030
 url: /it/aspose.slides.charts/idatalabelcollection/
 ---
 ## IDataLabelCollection interfaccia
@@ -16,24 +16,24 @@ public interface IDataLabelCollection : IChartComponent, IEnumerable<IDataLabel>
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Descrizione |
 | --- | --- |
 | [AsIChartComponent](../../aspose.slides.charts/idatalabelcollection/asichartcomponent) { get; } | Consente di ottenere l'interfaccia base IChartComponent. Solo lettura [`IChartComponent`](../ichartcomponent). |
 | [AsIEnumerable](../../aspose.slides.charts/idatalabelcollection/asienumerable) { get; } | Consente di ottenere l'interfaccia base IEnumerable. Solo lettura IEnumerable. |
-| [Count](../../aspose.slides.charts/idatalabelcollection/count) { get; } | Restituisce il numero di tutte le etichette dei dati nella raccolta. Solo lettura Int32. |
-| [CountOfVisibleDataLabels](../../aspose.slides.charts/idatalabelcollection/countofvisibledatalabels) { get; } | Restituisce il numero di etichette dei dati visibili nella raccolta. Solo lettura Int32. |
-| [DefaultDataLabelFormat](../../aspose.slides.charts/idatalabelcollection/defaultdatalabelformat) { get; } | Restituisce il formato predefinito di tutte le etichette dei dati nella raccolta. Solo lettura [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/idatalabelcollection/isvisible) { get; } | False indica che l'etichetta dei dati non è visibile per impostazione predefinita (e quindi tutti i flag Show* (ShowValue, ...) della proprietà DefaultDataLabelFormat sono false). Solo lettura Boolean. |
-| [Item](../../aspose.slides.charts/idatalabelcollection/item) { get; } | Restituisce l'etichetta dei dati per il punto dati con l'indice specificato. |
-| [LeaderLinesFormat](../../aspose.slides.charts/idatalabelcollection/leaderlinesformat) { get; } | Rappresenta il formato delle linee guida delle etichette dei dati. Solo lettura [`IChartLinesFormat`](../ichartlinesformat). |
-| [ParentSeries](../../aspose.slides.charts/idatalabelcollection/parentseries) { get; } | Restituisce la serie del grafico padre. Solo lettura [`IChartSeries`](../ichartseries). |
+| [Count](../../aspose.slides.charts/idatalabelcollection/count) { get; } | Restituisce il numero di tutte le etichette dati nella collezione. Solo lettura Int32. |
+| [CountOfVisibleDataLabels](../../aspose.slides.charts/idatalabelcollection/countofvisibledatalabels) { get; } | Restituisce il numero di etichette dati visibili nella collezione. Solo lettura Int32. |
+| [DefaultDataLabelFormat](../../aspose.slides.charts/idatalabelcollection/defaultdatalabelformat) { get; } | Restituisce il formato predefinito di tutte le etichette dati nella collezione. Solo lettura [`IDataLabelFormat`](../idatalabelformat). |
+| [IsVisible](../../aspose.slides.charts/idatalabelcollection/isvisible) { get; } | False indica che l'etichetta dati non è visibile per impostazione predefinita (e quindi tutti i flag Show* (ShowValue, ...) della proprietà DefaultDataLabelFormat sono falsi). Solo lettura Boolean. |
+| [Item](../../aspose.slides.charts/idatalabelcollection/item) { get; } | Restituisce l'etichetta dati per il punto dati con l'indice specificato. |
+| [LeaderLinesFormat](../../aspose.slides.charts/idatalabelcollection/leaderlinesformat) { get; } | Rappresenta il formato delle linee guida delle etichette dati. Solo lettura [`IChartLinesFormat`](../ichartlinesformat). |
+| [ParentSeries](../../aspose.slides.charts/idatalabelcollection/parentseries) { get; } | Restituisce la serie del diagramma padre. Solo lettura [`IChartSeries`](../ichartseries). |
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Descrizione |
 | --- | --- |
-| [Hide](../../aspose.slides.charts/idatalabelcollection/hide)() | Nasconde l'etichetta dei dati per impostazione predefinita impostando tutti i flag Show* (ShowValue, ...) della proprietà DefaultDataLabelFormat su false. IsVisible sarà false dopo questa operazione. |
-| [IndexOf](../../aspose.slides.charts/idatalabelcollection/indexof)(IDataLabel) | Restituisce l'indice dell'etichetta dei dati specificata nella raccolta. |
+| [Hide](../../aspose.slides.charts/idatalabelcollection/hide)() | Rende l'etichetta dati nascosta per impostazione predefinita impostando tutti i flag Show* (ShowValue, ...) della proprietà DefaultDataLabelFormat su false. IsVisible sarà false dopo questa operazione. |
+| [IndexOf](../../aspose.slides.charts/idatalabelcollection/indexof)(IDataLabel) | Restituisce un indice della DataLabel specificata nella collezione. |
 
 ### Vedi anche
 

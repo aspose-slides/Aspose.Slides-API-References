@@ -1,14 +1,14 @@
 ---
 title: Glow
-second_title: Aspose.Sildes untuk .NET API Reference
-description: Mewakili efek Glow di mana outline berwarna yang diburamkan ditambahkan di luar tepi objek.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili efek Glow di mana garis luar berwarna yang diburamkan ditambahkan di luar tepi objek.
 type: docs
-weight: 2970
+weight: 2990
 url: /id/aspose.slides.effects/glow/
 ---
-## Glow kelas
+## Kelas Glow
 
-Mewakili efek Glow, di mana outline berwarna yang diburamkan ditambahkan di luar tepi objek.
+Mewakili efek Glow, di mana garis luar berwarna yang diburamkan ditambahkan di luar tepi objek.
 
 ```csharp
 public sealed class Glow : IGlow
@@ -16,17 +16,17 @@ public sealed class Glow : IGlow
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [Color](../../aspose.slides.effects/glow/color) { get; } | Format warna. Baca-saja [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Color](../../aspose.slides.effects/glow/color) { get; } | Format warna. Hanya-baca [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Radius](../../aspose.slides.effects/glow/radius) { get; set; } | Radius. Baca/tulis Double. |
 
 ## Metode
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/glow/equals)(object) | Menentukan apakah [`Glow`](../glow) yang ditentukan sama dengan [`Glow`](../glow) saat ini. |
-| [GetEffective](../../aspose.slides.effects/glow/geteffective)() | Mendapatkan data efek Glow yang efektif dengan pewarisan yang diterapkan. |
+| [GetEffective](../../aspose.slides.effects/glow/geteffective)() | Mendapatkan data efek Glow yang efektif dengan pewarisan diterapkan. |
 | override [GetHashCode](../../aspose.slides.effects/glow/gethashcode)() | Berfungsi sebagai fungsi hash untuk tipe tertentu. |
 
 ### Lihat Juga

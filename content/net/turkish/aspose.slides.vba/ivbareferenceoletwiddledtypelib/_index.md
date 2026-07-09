@@ -3,12 +3,12 @@ title: IVbaReferenceOleTwiddledTypeLib
 second_title: Aspose.Sildes için .NET API Referansı
 description: Tüm denetimlerin genişletilebilir olarak işaretlendiği değiştirilmiş OLE Automation tür kitaplığı referansını temsil eder.
 type: docs
-weight: 11580
+weight: 11600
 url: /tr/aspose.slides.vba/ivbareferenceoletwiddledtypelib/
 ---
-## IVbaReferenceOleTwiddledTypeLib arayüzü
+## IVbaReferenceOleTwiddledTypeLib arayüz
 
-Tüm denetimlerin genişletilebilir olarak işaretlendiği değiştirilmiş OLE Automation tür kitaplığı referansını temsil eder.
+Değiştirilmiş OLE Automation tür kitaplığı referansını temsil eder; bu referansta tüm denetimler genişletilebilir olarak işaretlenmiştir.
 
 ```csharp
 public interface IVbaReferenceOleTwiddledTypeLib : IVbaReference
@@ -18,9 +18,9 @@ public interface IVbaReferenceOleTwiddledTypeLib : IVbaReference
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletwiddledtypelib/asivbareference) { get; } | IVbaReference arayüzü döndürür. Salt okunur [`IVbaReference`](../ivbareference). |
+| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletwiddledtypelib/asivbareference) { get; } | Returns IVbaReference arayüz. Salt-okunur [`IVbaReference`](../ivbareference). |
 
-### İlgili
+### Ayrıca Bakınız
 
 * arayüz [IVbaReference](../ivbareference)
 * ad alanı [Aspose.Slides.Vba](../../aspose.slides.vba)

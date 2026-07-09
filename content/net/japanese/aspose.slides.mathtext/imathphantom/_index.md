@@ -1,14 +1,14 @@
 ---
 title: IMathPhantom
 second_title: Aspose.Sildes for .NET API リファレンス
-description: ファントム数式オブジェクト ltmphantgt を表し、子要素のレイアウトに影響を与えますが、必ずしも表示されるわけではありません。ファントムは幅・高さ・深さを保持したままベースの式を非表示にし、数式を揃えたり領域を確保したりできます。表示および形状の動作は Show、ZeroWid、ZeroAsc、ZeroDesc、Transp といったプロパティで制御されます。
+description: ファントム数式オブジェクトltmphantgtを表し、子要素のレイアウトに影響を与えるが、必ずしも表示されるわけではありません。ファントムは基本式を非表示にしながら、幅・高さ・深さを保持して数式の配置やスペース確保を行うことができます。表示状態や形状の動作は、Show、ZeroWid、ZeroAsc、ZeroDesc、Transp といったプロパティで制御されます。
 type: docs
-weight: 8390
+weight: 8410
 url: /ja/aspose.slides.mathtext/imathphantom/
 ---
 ## IMathPhantom インターフェイス
 
-&lt;m:phant&gt; の幻影数式オブジェクトを表します。このオブジェクトは子要素のレイアウトに影響を与えますが、必ずしも表示されるわけではありません。幻影は幅・高さ・深さを保持したままベースの式を非表示にしたり、数式を整列させたり、領域を確保したりできます。表示および形状の動作は Show、ZeroWid、ZeroAsc、ZeroDesc、Transp などのプロパティで制御されます。
+ファントム数式オブジェクト（&lt;m:phant&gt;）を表し、子要素のレイアウトに影響を与えるが、必ずしも表示されるわけではありません。ファントムは基本式を非表示にしながら、幅・高さ・深さを保持して数式の配置やスペース確保を行うことができます。表示状態や形状の振る舞いは、Show、ZeroWid、ZeroAsc、ZeroDesc、Transp などのプロパティで制御されます。
 
 ```csharp
 public interface IMathPhantom : IMathElement
@@ -18,12 +18,12 @@ public interface IMathPhantom : IMathElement
 
 | 名前 | 説明 |
 | --- | --- |
-| [Base](../../aspose.slides.mathtext/imathphantom/base) { get; } | ベース引数 |
-| [Show](../../aspose.slides.mathtext/imathphantom/show) { get; set; } | ベース要素が表示されるかどうかを示す値を取得または設定します。 |
-| [Transp](../../aspose.slides.mathtext/imathphantom/transp) { get; set; } | 幻影がクラスベースの間隔規則に対して透明かどうかを示す値を取得または設定します。 |
-| [ZeroAsc](../../aspose.slides.mathtext/imathphantom/zeroasc) { get; set; } | ベース要素の上昇 (ベースライン上の高さ) をゼロとして扱うかどうかを示す値を取得または設定します。 |
-| [ZeroDesc](../../aspose.slides.mathtext/imathphantom/zerodesc) { get; set; } | ベース要素の下降 (ベースライン下の深さ) をゼロとして扱うかどうかを示す値を取得または設定します。 |
-| [ZeroWidth](../../aspose.slides.mathtext/imathphantom/zerowidth) { get; set; } | ベース要素の幅をゼロとして扱うかどうかを示す値を取得または設定します。 |
+| [Base](../../aspose.slides.mathtext/imathphantom/base) { get; } | 基本引数 |
+| [Show](../../aspose.slides.mathtext/imathphantom/show) { get; set; } | 基本要素が表示されるかどうかを示す値を取得または設定します。 |
+| [Transp](../../aspose.slides.mathtext/imathphantom/transp) { get; set; } | クラスベースのスペーシング規則に対して、ファントムが透過であるかどうかを示す値を取得または設定します。 |
+| [ZeroAsc](../../aspose.slides.mathtext/imathphantom/zeroasc) { get; set; } | 基本要素の上昇（ベースライン上の高さ）をゼロとして扱うかどうかを示す値を取得または設定します。 |
+| [ZeroDesc](../../aspose.slides.mathtext/imathphantom/zerodesc) { get; set; } | 基本要素の降下（ベースライン下の深さ）をゼロとして扱うかどうかを示す値を取得または設定します。 |
+| [ZeroWidth](../../aspose.slides.mathtext/imathphantom/zerowidth) { get; set; } | 基本要素の幅をゼロとして扱うかどうかを示す値を取得または設定します。 |
 
 ### 例
 

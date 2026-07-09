@@ -1,12 +1,12 @@
 ---
 title: StyleType
-second_title: Aspose.Sildes dla .NET - dokumentacja API
+second_title: Aspose.Sildes dla .NET - Referencja API
 description: Reprezentuje styl wykresu.
 type: docs
-weight: 2410
+weight: 2430
 url: /pl/aspose.slides.charts/styletype/
 ---
-## Wyliczenie StyleType
+## StyleType enumeracja
 
 Reprezentuje styl wykresu.
 

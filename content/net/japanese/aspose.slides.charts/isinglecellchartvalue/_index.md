@@ -1,9 +1,9 @@
 ---
 title: ISingleCellChartValue
-second_title: Aspose.Sildes 用 .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: チャート データ セルを表します。
 type: docs
-weight: 2190
+weight: 2210
 url: /ja/aspose.slides.charts/isinglecellchartvalue/
 ---
 ## ISingleCellChartValue インターフェイス
@@ -19,7 +19,7 @@ public interface ISingleCellChartValue : IBaseChartValue
 | 名前 | 説明 |
 | --- | --- |
 | [AsCell](../../aspose.slides.charts/isinglecellchartvalue/ascell) { get; set; } | チャート データ セルを取得または設定します。読み取り/書き込み [`IChartDataCell`](../ichartdatacell)。 |
-| [AsIBaseChartValue](../../aspose.slides.charts/isinglecellchartvalue/asibasechartvalue) { get; } | 基本 IBaseChartValue インターフェイスを取得できます。読み取り専用 [`IBaseChartValue`](../ibasechartvalue)。 |
+| [AsIBaseChartValue](../../aspose.slides.charts/isinglecellchartvalue/asibasechartvalue) { get; } | ベースの IBaseChartValue インターフェイスを取得できます。読み取り専用 [`IBaseChartValue`](../ibasechartvalue)。 |
 
 ### 参照
 

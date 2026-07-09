@@ -1,14 +1,14 @@
 ---
 title: IAnimationTimeLine
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar tidslinjen för animation.
+description: Representerar animationens tidslinje.
 type: docs
-weight: 5180
+weight: 5200
 url: /sv/aspose.slides/ianimationtimeline/
 ---
 ## IAnimationTimeLine gränssnitt
 
-Representerar tidslinjen för animation.
+Representerar animationens tidslinje.
 
 ```csharp
 public interface IAnimationTimeLine
@@ -18,11 +18,11 @@ public interface IAnimationTimeLine
 
 | Namn | Beskrivning |
 | --- | --- |
-| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | Returnerar en samling interaktiva sekvenser. Denna sekvens kan endast innehålla effekter genom "click on shape" med specificerat målobjekt. Skrivskyddad [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection). |
+| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | Returnerar en samling interaktiva sekvenser. Denna sekvens kan endast innehålla effekter via "click on shape" med specificerat målform. Skrivskyddad [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection). |
 | [MainSequence](../../aspose.slides/ianimationtimeline/mainsequence) { get; } | Returnerar huvudsekvensen som kan innehålla endast huvudeffektsamlingen. Skrivskyddad [`ISequence`](../../aspose.slides.animation/isequence). |
-| [TextAnimationCollection](../../aspose.slides/ianimationtimeline/textanimationcollection) { get; } | Returnerar en samling tekstanimationer. Skrivskyddad [`ITextAnimationCollection`](../../aspose.slides.animation/itextanimationcollection). |
+| [TextAnimationCollection](../../aspose.slides/ianimationtimeline/textanimationcollection) { get; } | Returnerar en samling textanimationer. Skrivskyddad [`ITextAnimationCollection`](../../aspose.slides.animation/itextanimationcollection). |
 
-### Se också
+### Se även
 
 * namnrymd [Aspose.Slides](../../aspose.slides)
 * samling [Aspose.Slides](../../)

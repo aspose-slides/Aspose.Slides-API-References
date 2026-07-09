@@ -1,14 +1,14 @@
 ---
 title: OpenAIWebClient
-second_title: Referência da API Aspose.Sildes para .NET
-description: Cliente web OpenAI leve integrado
+second_title: Aspose.Sildes para .NET Referência da API
+description: Uma implementação integrada IAIWebClient./iaiwebclient que se conecta à API OpenAI.
 type: docs
-weight: 30
+weight: 50
 url: /pt/aspose.slides.ai/openaiwebclient/
 ---
-## OpenAIWebClient class
+## OpenAIWebClient classe
 
-Cliente web OpenAI leve embutido
+Uma implementação [`IAIWebClient`](../iaiwebclient) integrada que se conecta à API OpenAI.
 
 ```csharp
 public class OpenAIWebClient : IAIWebClient, IDisposable
@@ -19,17 +19,17 @@ public class OpenAIWebClient : IAIWebClient, IDisposable
 | Nome | Descrição |
 | --- | --- |
 | [OpenAIWebClient](openaiwebclient#constructor)(string, string, string) | Cria uma instância do cliente web OpenAI. |
-| [OpenAIWebClient](openaiwebclient#constructor_1)(string, string, string, HttpClient) | Cria uma instância do cliente web OpenAI. |
+| [OpenAIWebClient](openaiwebclient#constructor_1)(string, string, string, HttpClient) | Cria uma instância do cliente web OpenAI que usa um HttpClient gerenciado externamente. O HttpClient fornecido não é descartado por esta instância e permanece sob a responsabilidade do chamador. |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
-| [CallChatAsync](../../aspose.slides.ai/openaiwebclient/callchatasync)(string) | Envia uma instrução de chat ao modelo de IA usando uma instância de `HttpClient` gerenciada externamente e devolve a mensagem de resposta à instrução fornecida. |
-| [CreateConversation](../../aspose.slides.ai/openaiwebclient/createconversation)() | Cria uma instância de conversa. Diferente de chamadas de IA regulares, as conversas mantêm todo o contexto. |
+| [CallChatAsync](../../aspose.slides.ai/openaiwebclient/callchatasync)(string) | Envia uma instrução de chat ao modelo de IA usando uma instância de `HttpClient` gerenciada externamente e retorna a mensagem de resposta para a instrução fornecida. |
+| [CreateConversation](../../aspose.slides.ai/openaiwebclient/createconversation)() | Cria uma instância de conversa. Ao contrário das chamadas regulares de IA, as conversas mantêm todo o contexto. |
 | [Dispose](../../aspose.slides.ai/openaiwebclient/dispose)() | Libera os recursos usados por esta instância. |
 
-### Ver também
+### Ver Também
 
 * interface [IAIWebClient](../iaiwebclient)
 * namespace [Aspose.Slides.AI](../../aspose.slides.ai)

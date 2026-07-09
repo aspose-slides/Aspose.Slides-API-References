@@ -1,14 +1,14 @@
 ---
 title: EffectFillType
-second_title: Aspose.Sildes .NET API Referencia
-description: A kitöltés típusait ábrázolja.
+second_title: Aspose.Sildes .NET API referencia
+description: A kitöltési típusokat képviseli.
 type: docs
-weight: 290
+weight: 310
 url: /hu/aspose.slides.animation/effectfilltype/
 ---
 ## EffectFillType enumeráció
 
-A kitöltés típusait ábrázolja.
+A kitöltési típusokat képviseli.
 
 ```csharp
 public enum EffectFillType

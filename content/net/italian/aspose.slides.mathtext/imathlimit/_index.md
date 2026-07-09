@@ -1,14 +1,14 @@
 ---
 title: IMathLimit
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Specifica l'oggetto Limit composto da testo sulla linea di base e testo di dimensioni ridotte immediatamente sopra o sotto di esso.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Specifica l'oggetto Limit costituito da testo sulla linea di base e testo ridotto immediatamente sopra o sotto di esso.
 type: docs
-weight: 8300
+weight: 8320
 url: /it/aspose.slides.mathtext/imathlimit/
 ---
 ## IMathLimit interfaccia
 
-Specifica l'oggetto Limit, composto da testo sulla linea di base e testo di dimensioni ridotte immediatamente sopra o sotto di esso.
+Specifica l'oggetto Limit, costituito da testo sulla linea di base e testo ridotto immediatamente sopra o sotto di esso.
 
 ```csharp
 public interface IMathLimit : IMathElement
@@ -20,7 +20,7 @@ public interface IMathLimit : IMathElement
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathlimit/asimathelement) { get; } | Consente di ottenere l'interfaccia base IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathlimit/base) { get; } | Argomento base |
-| [Limit](../../aspose.slides.mathtext/imathlimit/limit) { get; } | Argomento limit |
+| [Limit](../../aspose.slides.mathtext/imathlimit/limit) { get; } | Argomento Limit |
 | [UpperLimit](../../aspose.slides.mathtext/imathlimit/upperlimit) { get; set; } | Specifica il limite superiore o inferiore |
 
 ### Esempi

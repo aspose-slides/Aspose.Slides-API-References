@@ -1,14 +1,14 @@
 ---
 title: IShapeStyle
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Merepresentasikan referensi gaya bentuk.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Merepresentasikan referensi gaya shape.
 type: docs
-weight: 6990
+weight: 7010
 url: /id/aspose.slides/ishapestyle/
 ---
-## IShapeStyle interface
+## IShapeStyle antarmuka
 
-Merepresentasikan referensi gaya bentuk.
+Represent shape's style reference.
 
 ```csharp
 public interface IShapeStyle
@@ -18,14 +18,14 @@ public interface IShapeStyle
 
 | Nama | Deskripsi |
 | --- | --- |
-| [EffectColor](../../aspose.slides/ishapestyle/effectcolor) { get; } | Mengembalikan warna efek bentuk. Baca-saja [`IColorFormat`](../icolorformat). |
-| [EffectStyleIndex](../../aspose.slides/ishapestyle/effectstyleindex) { get; set; } | Mengembalikan atau mengatur indeks kolom efek bentuk dalam matriks gaya. Baca/tulis UInt32. |
-| [FillColor](../../aspose.slides/ishapestyle/fillcolor) { get; } | Mengembalikan warna isian bentuk. Baca-saja [`IColorFormat`](../icolorformat). |
-| [FillStyleIndex](../../aspose.slides/ishapestyle/fillstyleindex) { get; set; } | Mengembalikan atau mengatur indeks kolom isian bentuk dalam matriks gaya. 0 berarti tidak ada isian, nilai positif - indeks dalam gaya isian tema, nilai negatif - indeks dalam gaya latar belakang tema. Baca/tulis Int16. |
-| [FontCollectionIndex](../../aspose.slides/ishapestyle/fontcollectionindex) { get; set; } | Mengembalikan atau mengatur indeks font bentuk dalam koleksi font. Baca/tulis [`FontCollectionIndex`](../fontcollectionindex). |
-| [FontColor](../../aspose.slides/ishapestyle/fontcolor) { get; } | Mengembalikan warna font bentuk. Baca-saja [`IColorFormat`](../icolorformat). |
-| [LineColor](../../aspose.slides/ishapestyle/linecolor) { get; } | Mengembalikan warna garis luar bentuk. Baca-saja [`IColorFormat`](../icolorformat). |
-| [LineStyleIndex](../../aspose.slides/ishapestyle/linestyleindex) { get; set; } | Mengembalikan atau mengatur indeks kolom garis dalam matriks gaya. Baca/tulis UInt16. |
+| [EffectColor](../../aspose.slides/ishapestyle/effectcolor) { get; } | Mengembalikan warna efek shape. Hanya-baca [`IColorFormat`](../icolorformat). |
+| [EffectStyleIndex](../../aspose.slides/ishapestyle/effectstyleindex) { get; set; } | Mengembalikan atau mengatur indeks kolom efek shape dalam matriks gaya. Baca/tulis UInt32. |
+| [FillColor](../../aspose.slides/ishapestyle/fillcolor) { get; } | Mengembalikan warna isi shape. Hanya-baca [`IColorFormat`](../icolorformat). |
+| [FillStyleIndex](../../aspose.slides/ishapestyle/fillstyleindex) { get; set; } | Mengembalikan atau mengatur indeks kolom isi shape dalam matriks gaya. 0 berarti tidak ada isi, nilai positif - indeks dalam gaya isi tema, nilai negatif - indeks dalam gaya latar belakang tema. Baca/tulis Int16. |
+| [FontCollectionIndex](../../aspose.slides/ishapestyle/fontcollectionindex) { get; set; } | Mengembalikan atau mengatur indeks font shape dalam koleksi font. Baca/tulis [`FontCollectionIndex`](../fontcollectionindex). |
+| [FontColor](../../aspose.slides/ishapestyle/fontcolor) { get; } | Mengembalikan warna font shape. Hanya-baca [`IColorFormat`](../icolorformat). |
+| [LineColor](../../aspose.slides/ishapestyle/linecolor) { get; } | Mengembalikan warna garis luar shape. Hanya-baca [`IColorFormat`](../icolorformat). |
+| [LineStyleIndex](../../aspose.slides/ishapestyle/linestyleindex) { get; set; } | Mengembalikan atau mengatur indeks kolom line dalam matriks gaya. Baca/tulis UInt16. |
 
 ### Lihat Juga
 

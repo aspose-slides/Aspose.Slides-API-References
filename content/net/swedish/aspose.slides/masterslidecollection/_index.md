@@ -1,14 +1,14 @@
 ---
 title: MasterSlideCollection
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en samling masterbilder.
+description: Representerar en samling av masterbilder.
 type: docs
-weight: 8020
+weight: 8040
 url: /sv/aspose.slides/masterslidecollection/
 ---
 ## MasterSlideCollection klass
 
-Representerar en samling masterbilder.
+Representerar en samling av masterbilder.
 
 ```csharp
 public sealed class MasterSlideCollection : DomObject<Presentation>, IMasterSlideCollection
@@ -21,16 +21,16 @@ public sealed class MasterSlideCollection : DomObject<Presentation>, IMasterSlid
 | [Count](../../aspose.slides/masterslidecollection/count) { get; } | Hämtar antalet element som faktiskt finns i samlingen. Skrivskyddad Int32. |
 | [IsSynchronized](../../aspose.slides/masterslidecollection/issynchronized) { get; } | Returnerar ett värde som indikerar om åtkomst till samlingen är synkroniserad (trådsäker). Skrivskyddad Boolean. |
 | [Item](../../aspose.slides/masterslidecollection/item) { get; } | Hämtar elementet på det angivna indexet. Skrivskyddad [`MasterSlide`](../masterslide). |
-| [SyncRoot](../../aspose.slides/masterslidecollection/syncroot) { get; } | Returnerar ett synkroniseringsrot. Skrivskyddad Object. |
+| [SyncRoot](../../aspose.slides/masterslidecollection/syncroot) { get; } | Returnerar en synkroniseringsrot. Skrivskyddad Object. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AddClone](../../aspose.slides/masterslidecollection/addclone)(IMasterSlide) | Lägger till en kopia av en angiven masterbild i slutet av samlingen. Länkade layoutbilder kopieras också. |
-| [CopyTo](../../aspose.slides/masterslidecollection/copyto)(Array, int) | Kopierar alla element från samlingen till den angivna arrayen. |
+| [AddClone](../../aspose.slides/masterslidecollection/addclone)(IMasterSlide) | Lägger till en kopia av en specificerad masterbild i slutet av samlingen. Länkade layoutbilder kopieras också. |
+| [CopyTo](../../aspose.slides/masterslidecollection/copyto)(Array, int) | Kopierar alla element från samlingen till den specificerade arrayen. |
 | [GetEnumerator](../../aspose.slides/masterslidecollection/getenumerator)() | Returnerar en enumerator som itererar genom samlingen. |
-| [InsertClone](../../aspose.slides/masterslidecollection/insertclone)(int, IMasterSlide) | Infogar en kopia av en angiven masterbild på angiven position i samlingen. Länkade layoutbilder kopieras också. |
+| [InsertClone](../../aspose.slides/masterslidecollection/insertclone)(int, IMasterSlide) | Infogar en kopia av en specificerad masterbild på en specificerad position i samlingen. Länkade layoutbilder kopieras också. |
 | [Remove](../../aspose.slides/masterslidecollection/remove)(IMasterSlide) | Tar bort den första förekomsten av ett specifikt objekt från samlingen. |
 | [RemoveAt](../../aspose.slides/masterslidecollection/removeat)(int) | Tar bort elementet på det angivna indexet i samlingen. |
 | [RemoveUnused](../../aspose.slides/masterslidecollection/removeunused)(bool) | Tar bort oanvända masterbilder. |

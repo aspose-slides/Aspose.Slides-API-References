@@ -1,14 +1,14 @@
 ---
 title: ICellFormatEffectiveData
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Oggetto immutabile che contiene le proprietà di formattazione efficace delle celle della tabella.
+description: Oggetto immutabile che contiene le proprietà effettive di formattazione della cella della tabella.
 type: docs
-weight: 5460
+weight: 5480
 url: /it/aspose.slides/icellformateffectivedata/
 ---
 ## ICellFormatEffectiveData interfaccia
 
-Oggetto immutabile che contiene le proprietà di formattazione efficace delle celle della tabella.
+Oggetto immutabile che contiene le proprietà effettive di formattazione della cella della tabella.
 
 ```csharp
 public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -19,11 +19,11 @@ public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
 | Nome | Descrizione |
 | --- | --- |
 | [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | Consente di ottenere l'interfaccia base IBaseTableFormatEffectiveData. Solo lettura [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
-| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | Ottiene la trasparenza del colore di riempimento. Solo lettura Single. |
+| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | Restituisce la trasparenza del colore di riempimento. Leggi Single. |
 
 ### Note
 
-Questa interfaccia è usata insieme all'interfaccia [`ICellFormat`](../icellformat) per restituire i valori di formattazione efficace con ereditarietà e stili di tabella applicati.
+Questa interfaccia è usata insieme all'interfaccia [`ICellFormat`](../icellformat) per restituire i valori di formattazione effettivi con ereditarietà e stili di tabella applicati.
 
 ### Vedi anche
 

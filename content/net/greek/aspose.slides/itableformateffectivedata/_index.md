@@ -3,7 +3,7 @@ title: ITableFormatEffectiveData
 second_title: Aspose.Sildes για .NET Αναφορά API
 description: Αμετάβλητο αντικείμενο που περιέχει τις αποτελεσματικές ιδιότητες μορφοποίησης πίνακα.
 type: docs
-weight: 7230
+weight: 7250
 url: /el/aspose.slides/itableformateffectivedata/
 ---
 ## ITableFormatEffectiveData διεπαφή
@@ -18,12 +18,12 @@ public interface ITableFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/itableformateffectivedata/asibasetableformateffectivedata) { get; } | Επιτρέπει την λήψη της βασικής διεπαφής IBaseTableFormatEffectiveData. Μόνο για ανάγνωση [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
-| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | Λαμβάνει τη διαφάνεια του χρώματος γεμίσματος. Read Single. |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/itableformateffectivedata/asibasetableformateffectivedata) { get; } | Επιτρέπει την λήψη της βασικής διεπαφής IBaseTableFormatEffectiveData. Μόνο ανάγνωση [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | Αποκτά τη διαφάνεια του χρώματος γεμίσματος. Διαβάζει Single. |
 
-### Σχόλια
+### Παρατηρήσεις
 
-Αυτή η διεπαφή χρησιμοποιείται μαζί με τη διεπαφή [`ITableFormat`](../itableformat) για την επιστροφή αποτελεσματικών τιμών μορφοποίησης με κληρονομικότητα και εφαρμοζόμενα στυλ πίνακα.
+Αυτή η διεπαφή χρησιμοποιείται μαζί με τη διεπαφή [`ITableFormat`](../itableformat) για να επιστρέφει τις αποτελεσματικές τιμές μορφοποίησης με κληρονομικότητα και εφαρμοσμένα στυλ πίνακα.
 
 ### Δείτε επίσης
 

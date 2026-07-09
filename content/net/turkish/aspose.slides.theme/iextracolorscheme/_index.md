@@ -1,14 +1,14 @@
 ---
 title: IExtraColorScheme
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Bir slayta atanabilen ek bir renk şemasını temsil eder.
 type: docs
-weight: 11190
+weight: 11210
 url: /tr/aspose.slides.theme/iextracolorscheme/
 ---
-## IExtraColorScheme arayüzü
+## IExtraColorScheme arayüz
 
-Bir slayta atanabilen ek bir renk şeması temsil eder.
+Bir slayta atanabilen ek bir renk şemasını temsil eder.
 
 ```csharp
 public interface IExtraColorScheme
@@ -21,7 +21,7 @@ public interface IExtraColorScheme
 | [ColorScheme](../../aspose.slides.theme/iextracolorscheme/colorscheme) { get; } | Bir renk şeması döndürür. Salt okunur [`IColorScheme`](../icolorscheme). |
 | [Name](../../aspose.slides.theme/iextracolorscheme/name) { get; } | Bu şemanın adını döndürür. Salt okunur String. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.Theme](../../aspose.slides.theme)
 * derleme [Aspose.Slides](../../)

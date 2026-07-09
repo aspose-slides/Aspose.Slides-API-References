@@ -1,14 +1,14 @@
 ---
 title: ZoomImageType
-second_title: Aspose.Sildes for .NET API リファレンス
-description: Zoom オブジェクトがスライドプレビューまたはカバー画像を使用しているかを定義します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: Zoom オブジェクトがスライドのプレビューを使用するか、カバー画像を使用するかを定義します。
 type: docs
-weight: 11830
+weight: 11850
 url: /ja/aspose.slides/zoomimagetype/
 ---
 ## ZoomImageType 列挙体
 
-Zoom オブジェクトがスライドプレビューまたはカバー画像を使用しているかを定義します。
+Zoom オブジェクトがスライドのプレビューを使用するか、カバー画像を使用するかを定義します。
 
 ```csharp
 public enum ZoomImageType
@@ -21,7 +21,7 @@ public enum ZoomImageType
 | Preview | `1` | スライドまたはセクションの画像を使用します。 |
 | Cover | `2` | カスタム画像を使用します。 |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

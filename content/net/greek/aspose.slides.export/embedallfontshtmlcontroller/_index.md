@@ -1,14 +1,14 @@
 ---
 title: EmbedAllFontsHtmlController
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Η κλάση ελεγκτή μορφοποίησης που χρησιμοποιείται για την ενσωμάτωση όλ των γραμματοσειρών της παρουσίασης σε μορφή WOFF.
+description: Η κλάση ελεγκτή μορφοποίησης προς χρήση για την ενσωμάτωση όλων των γραμματοσειρών παρουσίασης σε μορφή WOFF.
 type: docs
-weight: 3740
+weight: 3760
 url: /el/aspose.slides.export/embedallfontshtmlcontroller/
 ---
 ## EmbedAllFontsHtmlController κλάση
 
-The formatting controller class to use for embedding all presentation fonts in WOFF format.
+Η κλάση ελεγκτή μορφοποίησης προς χρήση για την ενσωμάτωση όλων των γραμματοσειρών παρουσίασης σε μορφή WOFF.
 
 ```csharp
 public class EmbedAllFontsHtmlController : IHtmlFormattingController
@@ -18,26 +18,26 @@ public class EmbedAllFontsHtmlController : IHtmlFormattingController
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor)() | Creates new instance |
-| [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor_1)(string[]) | Creates new instance |
+| [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor)() | Δημιουργεί νέα παρουσία |
+| [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor_1)(string[]) | Δημιουργεί νέα παρουσία |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| virtual [WriteAllFonts](../../aspose.slides.export/embedallfontshtmlcontroller/writeallfonts)(IHtmlGenerator, IPresentation) | Γράψτε όλες τις γραμματοσειρές που περιέχονται στο [`Presentation`](../../aspose.slides/presentation). |
-| virtual [WriteDocumentEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | Καλείται για τη συγγραφή του υποσέλιδου του εγγράφου html. Καλείται μία φορά ανά μετατροπή παρουσίασης. |
-| virtual [WriteDocumentStart](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | Καλείται για τη συγγραφή του κεφαλίδας του εγγράφου html. Καλείται μία φορά ανά μετατροπή παρουσίασης. |
+| virtual [WriteAllFonts](../../aspose.slides.export/embedallfontshtmlcontroller/writeallfonts)(IHtmlGenerator, IPresentation) | Γράφει όλες τις γραμματοσειρές που περιέχονται στο [`Presentation`](../../aspose.slides/presentation). |
+| virtual [WriteDocumentEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | Καλείται για την εγγραφή υποσέλιδου εγγράφου html. Καλείται μία φορά ανά μετατροπή παρουσίασης. |
+| virtual [WriteDocumentStart](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | Καλείται για την εγγραφή κεφαλίδας εγγράφου html. Καλείται μία φορά ανά μετατροπή παρουσίασης. |
 | virtual [WriteFont](../../aspose.slides.export/embedallfontshtmlcontroller/writefont)(IHtmlGenerator, IFontData, IFontData, string, string, byte[]) | Γράφει δεδομένα ως base64 στο ίδιο το έγγραφο HTML |
-| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | Καλείται πριν από την απόδοση του σχήματος. Καλείται μία φορά για κάθε σχήμα. Εάν αυτή η λειτουργία γράφει κάτι στον γεννήτρια, η δημιουργία εικόνας της τρέχουσας διαφάνειας θα ολοκληρωθεί, το προστιθέμενο τμήμα html θα ενσωματωθεί και μια νέα εικόνα θα ξεκινήσει πάνω από την προηγούμενη. |
-| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | Καλείται πριν από την απόδοση του σχήματος. Καλείται μία φορά για κάθε σχήμα. Εάν αυτή η λειτουργία γράφει κάτι στον γεννήτρια, η δημιουργία εικόνας της τρέχουσας διαφάνειας θα ολοκληρωθεί, το προστιθέμενο τμήμα html θα ενσωματωθεί και μια νέα εικόνα θα ξεκινήσει πάνω από την προηγούμενη. |
-| virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | Καλείται για τη συγγραφή του υποσέλιδου της διαφάνειας html. Καλείται μία φορά για κάθε διαφάνεια. |
-| virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | Καλείται για τη συγγραφή της κεφαλίδας της διαφάνειας html. Καλείται μία φορά για κάθε διαφάνεια. |
+| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | Καλείται πριν από την απόδοση του σχήματος. Καλείται μία φορά για κάθε σχήμα. Εάν αυτή η λειτουργία γράψει κάτι στον γεννήτρια, η δημιουργία εικόνας της τρέχουσας διαφάνειας θα ολοκληρωθεί, το προστιθέμενο τμήμα html θα εισαχθεί και θα ξεκινήσει νέα εικόνα πάνω από την προηγούμενη. |
+| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | Καλείται πριν από την απόδοση του σχήματος. Καλείται μία φορά για κάθε σχήμα. Εάν αυτή η λειτουργία γράψει κάτι στον γεννήτρια, η δημιουργία εικόνας της τρέχουσας διαφάνειας θα ολοκληρωθεί, το προστιθέμενο τμήμα html θα εισαχθεί και θα ξεκινήσει νέα εικόνα πάνω από την προηγούμενη. |
+| virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | Καλείται για την εγγραφή υποσέλιδου διαφάνειας html. Καλείται μία φορά για κάθε διαφάνεια. |
+| virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | Καλείται για την εγγραφή κεφαλίδας διαφάνειας html. Καλείται μία φορά για κάθε διαφάνεια. |
 
 ### Δείτε επίσης
 
 * διασύνδεση [IHtmlFormattingController](../ihtmlformattingcontroller)
-* χώρος ονομάτων [Aspose.Slides.Export](../../aspose.slides.export)
+* χώρο ονομάτων [Aspose.Slides.Export](../../aspose.slides.export)
 * συγκρότηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

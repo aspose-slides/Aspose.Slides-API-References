@@ -1,14 +1,14 @@
 ---
 title: IVbaReferenceOleTypeLib
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje odkaz na knihovnu typů OLE Automation.
+description: Představuje odkaz na knihovnu typů OLE Automation.
 type: docs
-weight: 11590
+weight: 11610
 url: /cs/aspose.slides.vba/ivbareferenceoletypelib/
 ---
 ## IVbaReferenceOleTypeLib rozhraní
 
-Reprezentuje odkaz na typovou knihovnu OLE Automation.
+Představuje odkaz na knihovnu typů OLE Automation.
 
 ```csharp
 public interface IVbaReferenceOleTypeLib : IVbaReference
@@ -19,9 +19,9 @@ public interface IVbaReferenceOleTypeLib : IVbaReference
 | Název | Popis |
 | --- | --- |
 | [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletypelib/asivbareference) { get; } | Vrací rozhraní IVbaReference. Pouze pro čtení [`IVbaReference`](../ivbareference). |
-| [Libid](../../aspose.slides.vba/ivbareferenceoletypelib/libid) { get; set; } | Reprezentuje identifikátor knihovny typů Automation. Čtení/Zápis String. |
+| [Libid](../../aspose.slides.vba/ivbareferenceoletypelib/libid) { get; set; } | Představuje identifikátor knihovny typů Automation. Čtení/zápis String. |
 
-### Viz také
+### Další informace
 
 * rozhraní [IVbaReference](../ivbareference)
 * jmenný prostor [Aspose.Slides.Vba](../../aspose.slides.vba)

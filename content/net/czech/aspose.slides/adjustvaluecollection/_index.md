@@ -1,14 +1,14 @@
 ---
 title: AdjustValueCollection
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje kolekci úprav tvarů.
+description: Představuje kolekci úprav tvarů.
 type: docs
-weight: 80
+weight: 100
 url: /cs/aspose.slides/adjustvaluecollection/
 ---
 ## AdjustValueCollection třída
 
-Reprezentuje kolekci úprav tvaru.
+Představuje kolekci úprav tvaru.
 
 ```csharp
 public sealed class AdjustValueCollection : DomObject<GeometryShape>, IAdjustValueCollection
@@ -18,8 +18,8 @@ public sealed class AdjustValueCollection : DomObject<GeometryShape>, IAdjustVal
 
 | Název | Popis |
 | --- | --- |
-| [Count](../../aspose.slides/adjustvaluecollection/count) { get; } | Vrací počet úprav. Pouze pro čtení Int32. |
-| [IsSynchronized](../../aspose.slides/adjustvaluecollection/issynchronized) { get; } | Vrací hodnotu, která udává, zda je přístup ke sbírce synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
+| [Count](../../aspose.slides/adjustvaluecollection/count) { get; } | Vrátí počet úprav. Pouze pro čtení Int32. |
+| [IsSynchronized](../../aspose.slides/adjustvaluecollection/issynchronized) { get; } | Vrací hodnotu určující, zda je přístup ke kolekci synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
 | [Item](../../aspose.slides/adjustvaluecollection/item) { get; } | Vrací úpravu podle indexu. |
 | [SyncRoot](../../aspose.slides/adjustvaluecollection/syncroot) { get; } | Vrací kořen synchronizace. Pouze pro čtení Object. |
 
@@ -27,7 +27,7 @@ public sealed class AdjustValueCollection : DomObject<GeometryShape>, IAdjustVal
 
 | Název | Popis |
 | --- | --- |
-| [CopyTo](../../aspose.slides/adjustvaluecollection/copyto)(Array, int) | Kopíruje všechny prvky ze sbírky do zadaného pole. |
+| [CopyTo](../../aspose.slides/adjustvaluecollection/copyto)(Array, int) | Zkopíruje všechny prvky z kolekce do zadaného pole. |
 
 ### Viz také
 

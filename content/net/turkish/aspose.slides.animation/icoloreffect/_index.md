@@ -1,14 +1,14 @@
 ---
 title: IColorEffect
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir animasyon davranışı için renk efekti temsil eder.
+description: Bir animasyon davranışı için renk etkisini temsil eder.
 type: docs
-weight: 440
+weight: 460
 url: /tr/aspose.slides.animation/icoloreffect/
 ---
 ## IColorEffect arayüzü
 
-Bir animasyon davranışı için renk efekti temsil eder.
+Animasyon davranışı için bir renk etkisini temsil eder.
 
 ```csharp
 public interface IColorEffect : IBehavior
@@ -18,12 +18,12 @@ public interface IColorEffect : IBehavior
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/icoloreffect/asibehavior) { get; } | Temel IBehavior arayüzünü almaya izin verir. Salt okunur [`IBehavior`](../ibehavior). |
-| [By](../../aspose.slides.animation/icoloreffect/by) { get; set; } | Renk animasyonu için göreli offset değerini açıklar. Okunur/yazılabilir [`IColorOffset`](../icoloroffset). |
-| [ColorSpace](../../aspose.slides.animation/icoloreffect/colorspace) { get; set; } | Davranışın renk uzayını temsil eder. Okunur/yazılabilir [`ColorSpace`](./colorspace). |
-| [Direction](../../aspose.slides.animation/icoloreffect/direction) { get; set; } | Renk çarkı etrafında tonu döndürmek için hangi yönün kullanılacağını belirtir. Okunur/yazılabilir [`ColorDirection`](../colordirection). |
-| [From](../../aspose.slides.animation/icoloreffect/from) { get; set; } | Bu değer, davranışın başlangıç rengini belirtmek için kullanılır. Okunur/yazılabilir [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [To](../../aspose.slides.animation/icoloreffect/to) { get; set; } | Animasyon renk değişikliği için sonuç rengi açıklar. Okunur/yazılabilir [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIBehavior](../../aspose.slides.animation/icoloreffect/asibehavior) { get; } | Temel IBehavior arabirimini almayı sağlar. Yalnızca okunabilir [`IBehavior`](../ibehavior). |
+| [By](../../aspose.slides.animation/icoloreffect/by) { get; set; } | Renk animasyonu için göreceli ofset değerini tanımlar. Okunabilir/yazılabilir [`IColorOffset`](../icoloroffset). |
+| [ColorSpace](../../aspose.slides.animation/icoloreffect/colorspace) { get; set; } | Davranışın renk uzayını temsil eder. Okunabilir/yazılabilir [`ColorSpace`](./colorspace). |
+| [Direction](../../aspose.slides.animation/icoloreffect/direction) { get; set; } | Renk tekerleği etrafında tonun hangi yönde döneceğini belirtir. Okunabilir/yazılabilir [`ColorDirection`](../colordirection). |
+| [From](../../aspose.slides.animation/icoloreffect/from) { get; set; } | Bu değer, davranışın başlangıç rengini belirtmek için kullanılır. Okunabilir/yazılabilir [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [To](../../aspose.slides.animation/icoloreffect/to) { get; set; } | Animasyon renk değişimi için ortaya çıkan rengi tanımlar. Okunabilir/yazılabilir [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Ayrıca Bakınız
 

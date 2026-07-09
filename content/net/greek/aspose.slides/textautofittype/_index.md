@@ -1,12 +1,12 @@
 ---
 title: TextAutofitType
-second_title: Aspose.Sildes για .NET API Reference
+second_title: Aspose.Sildes για .NET API Αναφορά
 description: Αντιπροσωπεύει τη λειτουργία αυτόματης προσαρμογής κειμένου.
 type: docs
-weight: 10900
+weight: 10920
 url: /el/aspose.slides/textautofittype/
 ---
-## Απαρίθμηση TextAutofitType
+## TextAutofitType απαρίθμηση
 
 Αντιπροσωπεύει τη λειτουργία αυτόματης προσαρμογής κειμένου.
 
@@ -18,7 +18,7 @@ public enum TextAutofitType : sbyte
 
 | Όνομα | Τιμή | Περιγραφή |
 | --- | --- | --- |
-| NotDefined | `-1` | Δεν έχει οριστεί. |
+| NotDefined | `-1` | Δεν ορίστηκε. |
 | None | `0` | Καμία αυτόματη προσαρμογή. |
 | Normal | `1` | Κανονική αυτόματη προσαρμογή. Το μέγεθος γραμματοσειράς και το διάστιχο θα μειωθούν ώστε να ταιριάζουν στο σχήμα. |
 | Shape | `2` | Αυτόματη προσαρμογή σχήματος. Το μέγεθος του σχήματος θα αλλάξει ώστε να ταιριάζει στο κείμενο. |

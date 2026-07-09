@@ -1,9 +1,9 @@
 ---
 title: ITransitionValueBase
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Slayt geçiş efektleri için temel sınıfı temsil eder.
 type: docs
-weight: 10190
+weight: 10210
 url: /tr/aspose.slides.slideshow/itransitionvaluebase/
 ---
 ## ITransitionValueBase arayüzü
@@ -14,7 +14,7 @@ Slayt geçiş efektleri için temel sınıfı temsil eder.
 public interface ITransitionValueBase
 ```
 
-### İlgili
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * derleme [Aspose.Slides](../../)

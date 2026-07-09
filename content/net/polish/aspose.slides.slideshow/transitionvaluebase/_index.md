@@ -1,14 +1,14 @@
 ---
 title: TransitionValueBase
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Podstawowa klasa dla efektów przejścia slajdów.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Klasa bazowa dla efektów przejść slajdów.
 type: docs
-weight: 10440
+weight: 10460
 url: /pl/aspose.slides.slideshow/transitionvaluebase/
 ---
-## TransitionValueBase klasa
+## klasa TransitionValueBase
 
-Podstawowa klasa dla efektów przejścia slajdów.
+Klasa bazowa dla efektów przejść slajdów.
 
 ```csharp
 public class TransitionValueBase : ITransitionValueBase
@@ -19,7 +19,7 @@ public class TransitionValueBase : ITransitionValueBase
 | Nazwa | Opis |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Określa, czy dwie instancje TransitionValueBase są równe. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Służy jako funkcja skrótu dla określonego typu, odpowiednia do użycia w algorytmach haszujących i strukturach danych, takich jak tablica skrótów. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Służy jako funkcja skrótu dla konkretnego typu, odpowiednia do użycia w algorytmach skrótu i strukturach danych, takich jak tablica mieszająca. |
 
 ### Zobacz także
 

@@ -1,9 +1,9 @@
 ---
 title: CellCollection
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para Referência de API .NET
 description: Representa uma coleção de células.
 type: docs
-weight: 1120
+weight: 1140
 url: /pt/aspose.slides/cellcollection/
 ---
 ## CellCollection classe
@@ -19,7 +19,7 @@ public abstract class CellCollection : ICellCollection
 | Nome | Descrição |
 | --- | --- |
 | [Count](../../aspose.slides/cellcollection/count) { get; } | Retorna o número de células em uma coleção. Somente leitura Int32. |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção está sincronizado (thread-safe). Somente leitura Boolean. |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção é sincronizado (thread-safe). Somente leitura Boolean. |
 | [Item](../../aspose.slides/cellcollection/item) { get; } | Retorna uma célula pela sua posição. Somente leitura [`Cell`](../cell). |
 | [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Retorna a apresentação pai de um CellCollection. Somente leitura [`IPresentation`](../ipresentation). |
 | [Slide](../../aspose.slides/cellcollection/slide) { get; } | Retorna o slide pai de um CellCollection. Somente leitura [`IBaseSlide`](../ibaseslide). |
@@ -30,9 +30,9 @@ public abstract class CellCollection : ICellCollection
 | Nome | Descrição |
 | --- | --- |
 | [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Copia todos os elementos da coleção para o array especificado. |
-| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Retorna um enumerador que percorre a coleção. |
+| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Retorna um enumerador que itera através da coleção. |
 
-### Ver também
+### Veja Também
 
 * interface [ICellCollection](../icellcollection)
 * namespace [Aspose.Slides](../../aspose.slides)

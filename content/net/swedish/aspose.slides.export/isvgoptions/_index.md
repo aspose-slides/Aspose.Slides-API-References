@@ -3,7 +3,7 @@ title: ISVGOptions
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar SVG-alternativ.
 type: docs
-weight: 4040
+weight: 4060
 url: /sv/aspose.slides.export/isvgoptions/
 ---
 ## ISVGOptions gränssnitt
@@ -16,28 +16,28 @@ public interface ISVGOptions : ISaveOptions
 
 ## Egenskaper
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/isvgoptions/asisaveoptions) { get; } | Returnerar ISaveOptions-gränssnittet. Endast läsning [`ISaveOptions`](../isaveoptions). |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/isvgoptions/deletepicturescroppedareas) { get; set; } | En boolesk flagga indikerar om de beskurna delarna förblir en del av dokumentet. Om true tas de beskurna delarna bort, om false kommer de att serialiseras i dokumentet (vilket eventuellt kan leda till en större fil) Läs/skriv Boolean. |
+| [AsISaveOptions](../../aspose.slides.export/isvgoptions/asisaveoptions) { get; } | Returnerar ISaveOptions-gränssnitt. Skrivskyddad [`ISaveOptions`](../isaveoptions). |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/isvgoptions/deletepicturescroppedareas) { get; set; } | Ett boolean-flagga indikerar om de beskurna delarna förblir som en del av dokumentet. Om true de beskurna delarna tas bort, om false kommer de att serialiseras i dokumentet (vilket kan leda till en större fil) Läs/skriv Boolean. |
 | [Disable3DText](../../aspose.slides.export/isvgoptions/disable3dtext) { get; set; } | Bestämmer om 3D-text är inaktiverad i SVG. Läs/skriv Boolean. |
-| [DisableFontLigatures](../../aspose.slides.export/isvgoptions/disablefontligatures) { get; set; } | Hämtar eller anger ett värde som indikerar om text renderas utan att använda ligaturer. När den är satt till `true` kommer ligaturer att inaktiveras i den renderade utdata. Som standard är egenskapen satt till `false`. |
-| [DisableGradientSplit](../../aspose.slides.export/isvgoptions/disablegradientsplit) { get; set; } | Inaktiverar delning av FromCornerX- och FromCenter-gradienter. Läs/skriv Boolean. |
-| [DisableLineEndCropping](../../aspose.slides.export/isvgoptions/disablelineendcropping) { get; set; } | SVG 1.1 saknar möjligheten att definiera inset för markörer. Aspose.Slides SVG-skrivningsmotor har en lösning för det problemet: den beskär slutet på linjen med pil, så linjen överlappar inte markörer. Detta alternativ stänger av sådant beteende. Läs/skriv Boolean. |
-| [ExternalFontsHandling](../../aspose.slides.export/isvgoptions/externalfontshandling) { get; set; } | Bestämmer ett sätt att hantera externt laddade typsnitt. Läs/skriv [`SvgExternalFontsHandling`](../svgexternalfontshandling). |
-| [InkOptions](../../aspose.slides.export/isvgoptions/inkoptions) { get; } | Tillhandahåller alternativ som styr utseendet på Ink-objekt i exporterade dokument. Endast läsning [`IInkOptions`](../iinkoptions) |
+| [DisableFontLigatures](../../aspose.slides.export/isvgoptions/disablefontligatures) { get; set; } | Hämtar eller anger ett värde som indikerar om text renderas utan att använda ligaturer. När den är satt till `true` kommer ligaturer att vara inaktiverade i den renderade utskriften. Som standard är detta egenskap satt till `false`. |
+| [DisableGradientSplit](../../aspose.slides.export/isvgoptions/disablegradientsplit) { get; set; } | Inaktiverar uppdelning av FromCornerX- och FromCenter-gradienter. Läs/skriv Boolean. |
+| [DisableLineEndCropping](../../aspose.slides.export/isvgoptions/disablelineendcropping) { get; set; } | SVG 1.1 saknar förmåga att definiera insets för markörer. Aspose.Slides SVG-skrivningsmotor har en lösning för det problemet: den beskär slutet av linjen med pil, så linjen överlappar inte markörerna. Detta alternativ stänger av sådant beteende. Läs/skriv Boolean. |
+| [ExternalFontsHandling](../../aspose.slides.export/isvgoptions/externalfontshandling) { get; set; } | Bestämmer ett sätt att hantera externt laddade teckensnitt. Läs/skriv [`SvgExternalFontsHandling`](../svgexternalfontshandling). |
+| [InkOptions](../../aspose.slides.export/isvgoptions/inkoptions) { get; } | Tillhandahåller alternativ som styr utseendet på Ink-objekt i exporterade dokument. Skrivskyddad [`IInkOptions`](../iinkoptions) |
 | [JpegQuality](../../aspose.slides.export/isvgoptions/jpegquality) { get; set; } | Bestämmer JPEG-kodningskvalitet. Läs/skriv Int32. |
 | [MetafileRasterizationDpi](../../aspose.slides.export/isvgoptions/metafilerasterizationdpi) { get; set; } | Returnerar eller anger den lägre upplösningsgränsen för metafil-rasterisering. Läs/skriv Int32. |
-| [PicturesCompression](../../aspose.slides.export/isvgoptions/picturescompression) { get; set; } | Representerar bildkomprimeringsnivå. Läs/skriv [`PicturesCompression`](./picturescompression). |
-| [ShapeFormattingController](../../aspose.slides.export/isvgoptions/shapeformattingcontroller) { get; set; } | Returnerar och anger ett återuppringnings-gränssnitt som tillåter användaren att kontrollera formkonvertering. Läs/skriv [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
-| [UseFrameRotation](../../aspose.slides.export/isvgoptions/useframerotation) { get; set; } | Bestämmer om den specificerade rotationen av formen ska utföras vid rendering eller inte. Läs/skriv Boolean. Standardvärde är true. |
-| [UseFrameSize](../../aspose.slides.export/isvgoptions/useframesize) { get; set; } | Bestämmer om text-ramen ska inkluderas i ett renderingsområde eller inte. Läs/skriv Boolean. Standardvärde är false. |
-| [VectorizeText](../../aspose.slides.export/isvgoptions/vectorizetext) { get; set; } | Bestämmer om texten på en bildruta ska sparas som grafik. Läs/skriv Boolean. |
+| [PicturesCompression](../../aspose.slides.export/isvgoptions/picturescompression) { get; set; } | Representerar komprimeringsnivån för bilder. Läs/skriv [`PicturesCompression`](./picturescompression). |
+| [ShapeFormattingController](../../aspose.slides.export/isvgoptions/shapeformattingcontroller) { get; set; } | Returnerar och anger ett callback-gränssnitt som låter användaren kontrollera formkonvertering. Läs/skriv [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
+| [UseFrameRotation](../../aspose.slides.export/isvgoptions/useframerotation) { get; set; } | Bestämmer om den angivna rotationen av formen ska utföras vid rendering eller inte. Läs/skriv Boolean. Standardvärdet är true. |
+| [UseFrameSize](../../aspose.slides.export/isvgoptions/useframesize) { get; set; } | Bestämmer om textramen kommer att inkluderas i ett renderingsområde eller inte. Läs/skriv Boolean. Standardvärdet är false. |
+| [VectorizeText](../../aspose.slides.export/isvgoptions/vectorizetext) { get; set; } | Bestämmer om texten på en bildspelssida kommer att sparas som grafik. Läs/skriv Boolean. |
 
-### Se även
+### Se också
 
 * gränssnitt [ISaveOptions](../isaveoptions)
 * namnrymd [Aspose.Slides.Export](../../aspose.slides.export)
-* assembly [Aspose.Slides](../../)
+* montering [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

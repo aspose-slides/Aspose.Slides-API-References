@@ -1,14 +1,14 @@
 ---
 title: InkEffectType
-second_title: Aspose.Sildes dla .NET Referencja API
-description: Określa zestaw predefiniowanych efektów wizualnych dla renderowania atramentu. Każdy efekt odpowiada teksturze lub obrazowi, który symuluje stylizowany wygląd atramentu. Te wartości mogą być użyte do dostosowania stylu wizualnego cyfrowych pociągnięć atramentu podczas renderowania.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Określa zestaw wstępnie zdefiniowanych efektów wizualnych dla renderowania tuszu. Każdy efekt odpowiada fakturze lub obrazowi symulującemu stylizowany wygląd tuszu. Te wartości mogą być użyte do dostosowania stylu wizualnego cyfrowych pociągnięć tuszu podczas renderowania.
 type: docs
-weight: 7560
+weight: 7580
 url: /pl/aspose.slides.ink/inkeffecttype/
 ---
-## InkEffectType wyliczenie
+## InkEffectType enumeracja
 
-Określa zestaw predefiniowanych efektów wizualnych dla renderowania atramentu. Każdy efekt odpowiada fakturze lub obrazowi, który symuluje stylizowany wygląd atramentu. Te wartości mogą być użyte do dostosowania stylu wizualnego cyfrowych pociągnięć atramentu podczas renderowania.
+Określa zestaw wstępnie zdefiniowanych efektów wizualnych dla renderowania tuszu. Każdy efekt odpowiada fakturze lub obrazowi symulującemu stylizowany wygląd tuszu. Te wartości mogą być użyte do dostosowania stylu wizualnego cyfrowych pociągnięć tuszu podczas renderowania.
 
 ```csharp
 public enum InkEffectType
@@ -18,15 +18,15 @@ public enum InkEffectType
 
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
-| NotDefined | `-1` | Efekt nie jest zdefiniowany lub jest nieznany. Tę wartość można użyć jako domyślną lub zapasową. |
-| Bronze | `0` | Ciepła, brązowawa metaliczna faktura przypominająca atrament w kolorze brązu. |
-| Galaxy | `1` | Kolorowa, połyskująca faktura przypominająca galaktykę, z kosmicznymi tonami. |
-| Gold | `2` | Jasna, metaliczna złota faktura, nadająca pociągnięciom atramentu luksusowy wygląd. |
+| NotDefined | `-1` | Efekt nie jest zdefiniowany lub jest nieznany. Tę wartość można użyć jako domyślną lub awaryjną. |
+| Bronze | `0` | Ciepła, brązowawa metaliczna faktura przypominająca tusz w kolorze brązu. |
+| Galaxy | `1` | Kolorowa, migocząca faktura przypominająca galaktykę, o kosmicznych odcieniach. |
+| Gold | `2` | Jasna, metaliczna złota faktura, która nadaje pociągnięciom tuszu luksusowy wygląd. |
 | Lava | `3` | Ognista faktura przypominająca płynną lawę, z czerwonymi i pomarańczowymi odcieniami. |
-| Ocean | `4` | Głęboka niebieska, płynna faktura, która naśladuje fale oceanu lub atrament na bazie wody. |
-| RainbowGlitter | `5` | Kolorowy, błyskający efekt brokatu tęczowego używany do świątecznych lub żywych pociągnięć atramentu. |
-| RoseGold | `6` | Delikatna mieszanka różowego złota, podobna do rose gold, dla eleganckich pociągnięć atramentu. |
-| Silver | `7` | Chłodna, metaliczna srebrna faktura symulująca klasyczny srebrny atrament. |
+| Ocean | `4` | Głęboko niebieska, przypominająca płyn faktura, naśladująca fale oceanu lub tusz na bazie wody. |
+| RainbowGlitter | `5` | Kolorowy, migoczący efekt tęczowego brokatu używany do świątecznych lub żywych pociągnięć tuszu. |
+| RoseGold | `6` | Miękka mieszanka różowego i złotego, podobna do różowego złota, dla eleganckich pociągnięć tuszu. |
+| Silver | `7` | Chłodna, metaliczna srebrna faktura symulująca klasyczny srebrny tusz. |
 
 ### Zobacz także
 

@@ -1,14 +1,14 @@
 ---
 title: IBehaviorProperty
-second_title: Aspose.Sildes の .NET API リファレンス
-description: アニメーション動作のプロパティ型を表します。以下のプロパティリストに従います: https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx と https//msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx
+second_title: Aspose.Sildes for .NET API リファレンス
+description: アニメーション動作のプロパティタイプを表します。プロパティの一覧は https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx と https//msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx に従います。
 type: docs
-weight: 420
+weight: 440
 url: /ja/aspose.slides.animation/ibehaviorproperty/
 ---
 ## IBehaviorProperty インターフェイス
 
-アニメーション動作のプロパティタイプを表します。以下のプロパティリストに従います: https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx と https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx
+アニメーション動作のプロパティタイプを表します。プロパティの一覧は https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx と https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx に従います。
 
 ```csharp
 public interface IBehaviorProperty
@@ -18,7 +18,7 @@ public interface IBehaviorProperty
 
 | 名前 | 説明 |
 | --- | --- |
-| [IsCustom](../../aspose.slides.animation/ibehaviorproperty/iscustom) { get; } | このプロパティが仕様の事前定義プロパティリストに属さないかどうかを示します: https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx |
+| [IsCustom](../../aspose.slides.animation/ibehaviorproperty/iscustom) { get; } | このプロパティが仕様の事前定義プロパティ一覧に含まれないかどうかを示します: https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx |
 | [Value](../../aspose.slides.animation/ibehaviorproperty/value) { get; } | プロパティの値 |
 
 ### 参照

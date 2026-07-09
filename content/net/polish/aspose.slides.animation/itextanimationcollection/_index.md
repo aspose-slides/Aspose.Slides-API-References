@@ -1,9 +1,9 @@
 ---
 title: ITextAnimationCollection
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET Referencja API
 description: Reprezentuje kolekcję animacji tekstu.
 type: docs
-weight: 610
+weight: 630
 url: /pl/aspose.slides.animation/itextanimationcollection/
 ---
 ## ITextAnimationCollection interfejs

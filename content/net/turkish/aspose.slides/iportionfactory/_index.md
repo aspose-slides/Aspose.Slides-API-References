@@ -1,25 +1,25 @@
 ---
 title: IPortionFactory
 second_title: Aspose.Sildes için .NET API Referansı
-description: Test bölümlerini oluşturmayı sağlar
+description: Test bölümleri oluşturmayı sağlar
 type: docs
-weight: 6700
+weight: 6720
 url: /tr/aspose.slides/iportionfactory/
 ---
 ## IPortionFactory arayüz
 
-Test bölümlerini oluşturmayı sağlar
+Test bölümleri oluşturmayı sağlar
 
 ```csharp
 public interface IPortionFactory
 ```
 
-## Yöntemler
+## Metotlar
 
 | Ad | Açıklama |
 | --- | --- |
 | [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion)() | Boş bir metin bölümü oluşturur. |
-| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_1)(IPortion) | Belirtilen bölüm verisinin kullanımıyla bir bölüm oluşturur. |
+| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_1)(IPortion) | Belirtilen bölüm verisini kullanarak bir bölüm oluşturur. |
 | [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_2)(string) | Belirtilen dizeden bir metin bölümü oluşturur. |
 
 ### Açıklamalar

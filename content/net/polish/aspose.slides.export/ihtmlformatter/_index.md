@@ -1,9 +1,9 @@
 ---
 title: IHtmlFormatter
-second_title: Aspose.Sildes dla .NET referencja API
+second_title: Aspose.Sildes dla .NET – Odwołanie do API
 description: Reprezentuje szablon pliku HTML.
 type: docs
-weight: 3920
+weight: 3940
 url: /pl/aspose.slides.export/ihtmlformatter/
 ---
 ## IHtmlFormatter interfejs

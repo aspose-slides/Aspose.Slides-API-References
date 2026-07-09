@@ -1,14 +1,14 @@
 ---
 title: IShapeBevelEffectiveData
 second_title: Aspose.Sildes pro .NET API Reference
-description: Neměnný objekt, který obsahuje efektivní vlastnosti reliéfu povrchu tvarů.
+description: Neměnný objekt, který obsahuje efektivní vlastnosti reliéfu plochy tvarů.
 type: docs
-weight: 6950
+weight: 6970
 url: /cs/aspose.slides/ishapebeveleffectivedata/
 ---
 ## IShapeBevelEffectiveData rozhraní
 
-Neměnný objekt, který obsahuje efektivní vlastnosti reliéfu povrchu tvaru.
+Neměnný objekt, který obsahuje efektivní vlastnosti reliéfu plochy tvaru.
 
 ```csharp
 public interface IShapeBevelEffectiveData
@@ -24,7 +24,7 @@ public interface IShapeBevelEffectiveData
 
 ### Poznámky
 
-Toto rozhraní je používáno jako součást [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata).
+Toto rozhraní se používá jako součást [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata).
 
 ### Viz také
 

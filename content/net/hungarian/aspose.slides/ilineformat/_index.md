@@ -1,14 +1,14 @@
 ---
 title: ILineFormat
-second_title: Aspose.Sildes .NET API hivatkozás
+second_title: Aspose.Sildes a .NET API referencia
 description: A vonal formátumát képviseli.
 type: docs
-weight: 6290
+weight: 6310
 url: /hu/aspose.slides/ilineformat/
 ---
 ## ILineFormat interfész
 
-A vonal formátumát képviseli.
+Represents format of a line.
 
 ```csharp
 public interface ILineFormat : ILineParamSource
@@ -19,30 +19,30 @@ public interface ILineFormat : ILineParamSource
 | Név | Leírás |
 | --- | --- |
 | [Alignment](../../aspose.slides/ilineformat/alignment) { get; set; } | Visszaadja vagy beállítja a vonal igazítását. Olvasás/írás [`LineAlignment`](../linealignment). |
-| [AsILineParamSource](../../aspose.slides/ilineformat/asilineparamsource) { get; } | Lehetővé teszi az alap ILineParamSource interfész lekérését. Csak olvasás [`ILineParamSource`](../ilineparamsource). |
+| [AsILineParamSource](../../aspose.slides/ilineformat/asilineparamsource) { get; } | Lehetővé teszi a bázis ILineParamSource interfész lekérdezését. Csak olvasható [`ILineParamSource`](../ilineparamsource). |
 | [BeginArrowheadLength](../../aspose.slides/ilineformat/beginarrowheadlength) { get; set; } | Visszaadja vagy beállítja a nyílfej hosszát a vonal elején. Olvasás/írás [`LineArrowheadLength`](../linearrowheadlength). |
 | [BeginArrowheadStyle](../../aspose.slides/ilineformat/beginarrowheadstyle) { get; set; } | Visszaadja vagy beállítja a nyílfej stílusát a vonal elején. Olvasás/írás [`LineArrowheadStyle`](../linearrowheadstyle). |
 | [BeginArrowheadWidth](../../aspose.slides/ilineformat/beginarrowheadwidth) { get; set; } | Visszaadja vagy beállítja a nyílfej szélességét a vonal elején. Olvasás/írás [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/ilineformat/capstyle) { get; set; } | Visszaadja vagy beállítja a vonal véglet stílusát. Olvasás/írás [`LineCapStyle`](../linecapstyle). |
-| [CustomDashPattern](../../aspose.slides/ilineformat/customdashpattern) { get; set; } | Visszaadja vagy beállítja az egyéni szaggatott mintát. Olvasás/írás Single[]. |
-| [DashStyle](../../aspose.slides/ilineformat/dashstyle) { get; set; } | Visszaadja vagy beállítja a vonal szaggatott stílusát. Olvasás/írás [`LineDashStyle`](../linedashstyle). |
+| [CapStyle](../../aspose.slides/ilineformat/capstyle) { get; set; } | Visszaadja vagy beállítja a vonal cap stílusát. Olvasás/írás [`LineCapStyle`](../linecapstyle). |
+| [CustomDashPattern](../../aspose.slides/ilineformat/customdashpattern) { get; set; } | Visszaadja vagy beállítja az egyedi dash mintát. Olvasás/írás Single[]. |
+| [DashStyle](../../aspose.slides/ilineformat/dashstyle) { get; set; } | Visszaadja vagy beállítja a vonal dash stílusát. Olvasás/írás [`LineDashStyle`](../linedashstyle). |
 | [EndArrowheadLength](../../aspose.slides/ilineformat/endarrowheadlength) { get; set; } | Visszaadja vagy beállítja a nyílfej hosszát a vonal végén. Olvasás/írás [`LineArrowheadLength`](../linearrowheadlength). |
 | [EndArrowheadStyle](../../aspose.slides/ilineformat/endarrowheadstyle) { get; set; } | Visszaadja vagy beállítja a nyílfej stílusát a vonal végén. Olvasás/írás [`LineArrowheadStyle`](../linearrowheadstyle). |
 | [EndArrowheadWidth](../../aspose.slides/ilineformat/endarrowheadwidth) { get; set; } | Visszaadja vagy beállítja a nyílfej szélességét a vonal végén. Olvasás/írás [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [FillFormat](../../aspose.slides/ilineformat/fillformat) { get; } | Visszaadja a vonal kitöltési formátumát. Csak olvasás [`ILineFillFormat`](../ilinefillformat). |
-| [IsFormatNotDefined](../../aspose.slides/ilineformat/isformatnotdefined) { get; } | Igaz értéket ad vissza, ha a vonal formátuma nincs definiálva (újonnan létrehozott, alapértelmezett). Csak olvasás Boolean. |
-| [JoinStyle](../../aspose.slides/ilineformat/joinstyle) { get; set; } | Visszaadja vagy beállítja a vonalak csatlakozási stílusát. Olvasás/írás [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/ilineformat/miterlimit) { get; set; } | Visszaadja vagy beállítja a vonal vágási korlátját. Olvasás/írás Single. |
-| [SketchFormat](../../aspose.slides/ilineformat/sketchformat) { get; } | Visszaadja a vonal vázlat formátumát. Csak olvasás [`ISketchFormat`](../isketchformat). |
+| [FillFormat](../../aspose.slides/ilineformat/fillformat) { get; } | Visszaadja a vonal kitöltési formátumát. Csak olvasható [`ILineFillFormat`](../ilinefillformat). |
+| [IsFormatNotDefined](../../aspose.slides/ilineformat/isformatnotdefined) { get; } | Igaz értéket ad vissza, ha a vonalformátum nincs meghatározva (újonnan létrehozott, alapértelmezett). Csak olvasható Boolean. |
+| [JoinStyle](../../aspose.slides/ilineformat/joinstyle) { get; set; } | Visszaadja vagy beállítja a vonalak join stílusát. Olvasás/írás [`LineJoinStyle`](../linejoinstyle). |
+| [MiterLimit](../../aspose.slides/ilineformat/miterlimit) { get; set; } | Visszaadja vagy beállítja a vonal miter limit értékét. Olvasás/írás Single. |
+| [SketchFormat](../../aspose.slides/ilineformat/sketchformat) { get; } | Visszaadja a vonal sketch formátumát. Csak olvasható [`ISketchFormat`](../isketchformat). |
 | [Style](../../aspose.slides/ilineformat/style) { get; set; } | Visszaadja vagy beállítja a vonal stílusát. Olvasás/írás [`LineStyle`](../linestyle). |
-| [Width](../../aspose.slides/ilineformat/width) { get; set; } | Visszaadja vagy beállítja egy vonal szélességét. Olvasás/írás Double. |
+| [Width](../../aspose.slides/ilineformat/width) { get; set; } | Visszaadja vagy beállítja a vonal szélességét. Olvasás/írás Double. |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [Equals](../../aspose.slides/ilineformat/equals)(ILineFormat) | Megállapítja, hogy a két LineFormat példány egyenlő-e. |
-| [GetEffective](../../aspose.slides/ilineformat/geteffective)() | Lekérdezi a hatékony vonal formázási adatokat az öröklődés alkalmazásával. |
+| [Equals](../../aspose.slides/ilineformat/equals)(ILineFormat) | Meghatározza, hogy a két LineFormat példány egyenlő-e. |
+| [GetEffective](../../aspose.slides/ilineformat/geteffective)() | Lekéri a hatékony vonalformázási adatokat az öröklődés alkalmazásával. |
 
 ### Lásd még
 

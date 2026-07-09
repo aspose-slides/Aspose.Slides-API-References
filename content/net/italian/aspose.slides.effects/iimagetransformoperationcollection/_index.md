@@ -3,12 +3,12 @@ title: IImageTransformOperationCollection
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta una raccolta di effetti applicati a un'immagine.
 type: docs
-weight: 3380
+weight: 3400
 url: /it/aspose.slides.effects/iimagetransformoperationcollection/
 ---
 ## IImageTransformOperationCollection interfaccia
 
-Rappresenta una raccolta di effetti applicati a un'immagine.
+Rappresenta una raccolta di effetti applicati a un’immagine.
 
 ```csharp
 public interface IImageTransformOperationCollection : ICollection<IImageTransformOperation>
@@ -18,8 +18,8 @@ public interface IImageTransformOperationCollection : ICollection<IImageTransfor
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.effects/iimagetransformoperationcollection/asienumerable) { get; } | Restituisce l'interfaccia IEnumerable. IEnumerable di sola lettura. |
-| [Item](../../aspose.slides.effects/iimagetransformoperationcollection/item) { get; } | Restituisce un [`IImageTransformOperation`](../iimagetransformoperation) dalla collezione in base al suo indice. |
+| [AsIEnumerable](../../aspose.slides.effects/iimagetransformoperationcollection/asienumerable) { get; } | Restituisce l’interfaccia IEnumerable. IEnumerable di sola lettura. |
+| [Item](../../aspose.slides.effects/iimagetransformoperationcollection/item) { get; } | Restituisce un [`IImageTransformOperation`](../iimagetransformoperation) dalla raccolta tramite il suo indice. |
 
 ## Metodi
 
@@ -43,7 +43,7 @@ public interface IImageTransformOperationCollection : ICollection<IImageTransfor
 | [AddHSLEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addhsleffect)(float, float, float) | Aggiunge il nuovo effetto Hue/Saturation/Luminance alla fine di una raccolta. |
 | [AddLuminanceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addluminanceeffect)(float, float) | Aggiunge il nuovo effetto Luminance alla fine di una raccolta. |
 | [AddTintEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addtinteffect)(float, float) | Aggiunge il nuovo effetto Tint alla fine di una raccolta. |
-| [RemoveAt](../../aspose.slides.effects/iimagetransformoperationcollection/removeat)(int) | Rimuove un effetto immagine da una raccolta all'indice specificato. |
+| [RemoveAt](../../aspose.slides.effects/iimagetransformoperationcollection/removeat)(int) | Rimuove un effetto immagine da una raccolta all’indice specificato. |
 
 ### Vedi anche
 

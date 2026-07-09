@@ -1,14 +1,14 @@
 ---
 title: IThemeable
 second_title: Aspose.Sildes .NET API referencia
-description: Azokat az objektumokat képviseli, amelyek az ITheme./itheme segítségével tematizálhatók.
+description: Az objektumokat reprezentálja, amelyek az ITheme./itheme segítségével témázhatók.
 type: docs
-weight: 11380
+weight: 11400
 url: /hu/aspose.slides.theme/ithemeable/
 ---
 ## IThemeable interfész
 
-Az olyan objektumokat képviseli, amelyek a(z) [`ITheme`](../itheme) segítségével témázhatók.
+Az objektumokat képviseli, amelyek témázhatók a [`ITheme`](../itheme) használatával.
 
 ```csharp
 public interface IThemeable : ISlideComponent
@@ -16,13 +16,13 @@ public interface IThemeable : ISlideComponent
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
 | [AsISlideComponent](../../aspose.slides.theme/ithemeable/asislidecomponent) { get; } | Visszaadja az ISlideComponent interfészt. Csak olvasható [`ISlideComponent`](../../aspose.slides/islidecomponent). |
 
-## Módszerek
+## Metódusok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
 | [CreateThemeEffective](../../aspose.slides.theme/ithemeable/createthemeeffective)() | Visszaad egy hatékony témát ehhez a tematizálható objektumhoz. |
 

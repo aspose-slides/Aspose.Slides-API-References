@@ -1,14 +1,14 @@
 ---
 title: IFillFormatEffectiveData
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Objek tidak dapat diubah yang berisi properti pemformatan pengisian yang efektif.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Objek tak berubah yang berisi properti pemformatan isian efektif.
 type: docs
-weight: 5780
+weight: 5800
 url: /id/aspose.slides/ifillformateffectivedata/
 ---
 ## IFillFormatEffectiveData antarmuka
 
-Objek tidak dapat diubah yang berisi properti pemformatan pengisian yang efektif.
+Objek tak berubah yang berisi properti pemformatan isian efektif.
 
 ```csharp
 public interface IFillFormatEffectiveData : IFillParamSource
@@ -18,18 +18,18 @@ public interface IFillFormatEffectiveData : IFillParamSource
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ifillformateffectivedata/asifillparamsource) { get; } | Mengembalikan IFillParamSource interface. Hanya baca [`IFillParamSource`](../ifillparamsource). |
-| [FillType](../../aspose.slides/ifillformateffectivedata/filltype) { get; } | Mengembalikan tipe pengisian. Hanya baca [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/ifillformateffectivedata/gradientformat) { get; } | Mengembalikan format pengisian gradien. Hanya baca [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
-| [PatternFormat](../../aspose.slides/ifillformateffectivedata/patternformat) { get; } | Mengembalikan format pengisian pola. Hanya baca [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
-| [PictureFillFormat](../../aspose.slides/ifillformateffectivedata/picturefillformat) { get; } | Mengembalikan format pengisian gambar. Hanya baca [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata). |
-| [RotateWithShape](../../aspose.slides/ifillformateffectivedata/rotatewithshape) { get; } | Menentukan apakah pengisian harus diputar bersama bentuk. Hanya baca Boolean. |
-| [SolidFillColor](../../aspose.slides/ifillformateffectivedata/solidfillcolor) { get; } | Mengembalikan warna pengisian. Hanya baca Color. |
-| [SolidFillSchemeColor](../../aspose.slides/ifillformateffectivedata/solidfillschemecolor) { get; } | Mendapatkan warna pengisian yang didefinisikan oleh skema warna. Nilai NotDefined menunjukkan bahwa [`SolidFillColor`](./solidfillcolor) bukan warna skema. Hanya baca [`SchemeColor`](../schemecolor). |
+| [AsIFillParamSource](../../aspose.slides/ifillformateffectivedata/asifillparamsource) { get; } | Mengembalikan antarmuka IFillParamSource. Hanya-baca [`IFillParamSource`](../ifillparamsource). |
+| [FillType](../../aspose.slides/ifillformateffectivedata/filltype) { get; } | Mengembalikan tipe pengisian. Hanya-baca [`FillType`](../filltype). |
+| [GradientFormat](../../aspose.slides/ifillformateffectivedata/gradientformat) { get; } | Mengembalikan format isian gradien. Hanya-baca [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
+| [PatternFormat](../../aspose.slides/ifillformateffectivedata/patternformat) { get; } | Mengembalikan format isian pola. Hanya-baca [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
+| [PictureFillFormat](../../aspose.slides/ifillformateffectivedata/picturefillformat) { get; } | Mengembalikan format isian gambar. Hanya-baca [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata). |
+| [RotateWithShape](../../aspose.slides/ifillformateffectivedata/rotatewithshape) { get; } | Menentukan apakah isian harus diputar bersama bentuk. Hanya-baca Boolean. |
+| [SolidFillColor](../../aspose.slides/ifillformateffectivedata/solidfillcolor) { get; } | Mengembalikan warna isian. Hanya-baca Color. |
+| [SolidFillSchemeColor](../../aspose.slides/ifillformateffectivedata/solidfillschemecolor) { get; } | Mendapatkan warna isian yang didefinisikan oleh skema warna. Nilai NotDefined menunjukkan bahwa [`SolidFillColor`](./solidfillcolor) bukan warna skema. Hanya-baca [`SchemeColor`](../schemecolor). |
 
-### Catatan
+### Keterangan
 
-Antarmuka ini digunakan bersama dengan antarmuka [`IFillFormat`](../ifillformat) untuk mengembalikan nilai pemformatan efektif dengan pewarisan yang diterapkan.
+Antarmuka ini digunakan bersama dengan antarmuka [`IFillFormat`](../ifillformat) untuk mengembalikan nilai pemformatan efektif dengan pewarisan diterapkan.
 
 ### Lihat Juga
 

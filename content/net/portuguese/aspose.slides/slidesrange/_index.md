@@ -1,9 +1,9 @@
 ---
 title: SlidesRange
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET – Referência da API
 description: Intervalo de Slides
 type: docs
-weight: 10510
+weight: 10530
 url: /pt/aspose.slides/slidesrange/
 ---
 ## SlidesRange classe
@@ -24,10 +24,10 @@ public class SlidesRange
 
 | Nome | Descrição |
 | --- | --- |
-| [End](../../aspose.slides/slidesrange/end) { get; set; } | Final |
+| [End](../../aspose.slides/slidesrange/end) { get; set; } | Fim |
 | [Start](../../aspose.slides/slidesrange/start) { get; set; } | Início |
 
-### Ver também
+### Veja Também
 
 * espaço de nomes [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

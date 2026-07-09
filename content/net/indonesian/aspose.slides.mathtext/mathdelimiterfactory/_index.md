@@ -1,14 +1,14 @@
 ---
 title: MathDelimiterFactory
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Memungkinkan membuat pembatas matematika
+description: Mengizinkan membuat pembatas matematika
 type: docs
-weight: 8640
+weight: 8660
 url: /id/aspose.slides.mathtext/mathdelimiterfactory/
 ---
 ## MathDelimiterFactory kelas
 
-Memungkinkan membuat pembatas matematika
+Mengizinkan membuat pembatas matematika
 
 ```csharp
 public class MathDelimiterFactory : IMathDelimiterFactory
@@ -24,10 +24,10 @@ public class MathDelimiterFactory : IMathDelimiterFactory
 
 | Nama | Deskripsi |
 | --- | --- |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | Membuat pembatas matematika dengan menerapkan pada elemen |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | Membuat pembatas matematika dengan menerapkan pada elemen |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | Membuat pembatas matematika dengan menerapkan ke elemen |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | Membuat pembatas matematika dengan menerapkan ke elemen |
 
-### Catatan
+### Keterangan
 
 Untuk kompatibilitas COM
 

@@ -3,12 +3,12 @@ title: IPlaceholder
 second_title: Aspose.Sildes para .NET Referência da API
 description: Representa um placeholder em um slide.
 type: docs
-weight: 6670
+weight: 6690
 url: /pt/aspose.slides/iplaceholder/
 ---
 ## IPlaceholder interface
 
-Representa um placeholder em um slide.
+Representa um marcador em um slide.
 
 ```csharp
 public interface IPlaceholder
@@ -18,12 +18,12 @@ public interface IPlaceholder
 
 | Nome | Descrição |
 | --- | --- |
-| [Index](../../aspose.slides/iplaceholder/index) { get; } | Obtém o índice de um placeholder. Somente leitura UInt32. |
-| [Orientation](../../aspose.slides/iplaceholder/orientation) { get; } | Obtém a orientação de um placeholder. Somente leitura [`Orientation`](../orientation). |
-| [Size](../../aspose.slides/iplaceholder/size) { get; } | Obtém o tamanho de um placeholder. Somente leitura [`PlaceholderSize`](../placeholdersize). |
-| [Type](../../aspose.slides/iplaceholder/type) { get; } | Obtém o tipo de um placeholder. Somente leitura [`PlaceholderType`](../placeholdertype). |
+| [Index](../../aspose.slides/iplaceholder/index) { get; } | Obtém o índice de um marcador. Somente leitura UInt32. |
+| [Orientation](../../aspose.slides/iplaceholder/orientation) { get; } | Obtém a orientação de um marcador. Somente leitura [`Orientation`](../orientation). |
+| [Size](../../aspose.slides/iplaceholder/size) { get; } | Obtém o tamanho de um marcador. Somente leitura [`PlaceholderSize`](../placeholdersize). |
+| [Type](../../aspose.slides/iplaceholder/type) { get; } | Obtém o tipo de um marcador. Somente leitura [`PlaceholderType`](../placeholdertype). |
 
-### Ver também
+### Veja Também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

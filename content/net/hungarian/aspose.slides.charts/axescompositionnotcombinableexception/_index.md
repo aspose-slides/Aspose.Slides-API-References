@@ -1,14 +1,14 @@
 ---
 title: AxesCompositionNotCombinableException
-second_title: Aspose.Sildes .NET API Referenciája
-description: Kivétel, amely akkor dobódik, amikor a sorozat tengelyösszetétele nem kombinálható a diagram jelenlegi tengelyösszetételével.
+second_title: Aspose.Sildes .NET API-referencia
+description: Kivétel, amely akkor kerül dobásra, ha a sorozat tengelyösszetétele nem kombinálható a diagram jelenlegi tengelyösszetételével.
 type: docs
-weight: 1140
+weight: 1160
 url: /hu/aspose.slides.charts/axescompositionnotcombinableexception/
 ---
 ## AxesCompositionNotCombinableException osztály
 
-Kivétel, amely akkor dobódik, amikor a sorozat tengelyösszetétele nem kombinálható a diagram jelenlegi tengelyösszetételével.
+Az Exception akkor dobódik, amikor a sorozat tengelyösszetétele nem kombinálható a diagram jelenlegi tengelyösszetételével.
 
 ```csharp
 public class AxesCompositionNotCombinableException : InvalidOperationException
@@ -19,10 +19,10 @@ public class AxesCompositionNotCombinableException : InvalidOperationException
 | Név | Leírás |
 | --- | --- |
 | [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor)() | Alapértelmezett konstruktor. |
-| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_1)(string) | Konstruktor, amely lehetővé teszi egy üzenet hozzáadását ehhez az Exception-hez. |
-| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_2)(string, Exception) | Konstruktor egy Exception-hez, amely üzenetet és egy beágyazott Exception-t tartalmaz. |
+| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_1)(string) | Konstruktor, amely lehetővé teszi, hogy üzenetet adjunk ehhez az Exception-hez. |
+| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_2)(string, Exception) | Konstruktor egy olyan Exception-hez, amely üzenetet és egy beágyazott Exception-t tartalmaz. |
 
-### Kapcsolódó elemek
+### Lásd még
 
 * névtér [Aspose.Slides.Charts](../../aspose.slides.charts)
 * összeállítás [Aspose.Slides](../../)

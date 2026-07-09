@@ -1,14 +1,14 @@
 ---
 title: Effect
 second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje animační efekt.
+description: Reprezentuje animační efekt.
 type: docs
-weight: 260
+weight: 280
 url: /cs/aspose.slides.animation/effect/
 ---
 ## Třída Effect
 
-Představuje animační efekt.
+Reprezentuje animační efekt.
 
 ```csharp
 public class Effect : IEffect
@@ -18,20 +18,20 @@ public class Effect : IEffect
 
 | Název | Popis |
 | --- | --- |
-| [AfterAnimationColor](../../aspose.slides.animation/effect/afteranimationcolor) { get; set; } | Definuje barvu po animaci pro efekt. Čtení/Zápis [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [AfterAnimationType](../../aspose.slides.animation/effect/afteranimationtype) { get; set; } | Definuje typ po animaci pro efekt. Čtení/Zápis [`AfterAnimationType`](./afteranimationtype). |
-| [AnimateTextType](../../aspose.slides.animation/effect/animatetexttype) { get; set; } | Definuje typ animovaného textu pro efekt. Text tvaru může být animován po písmenu, po slově nebo najednou. Čtení/Zápis [`AnimateTextType`](./animatetexttype). |
-| [Behaviors](../../aspose.slides.animation/effect/behaviors) { get; set; } | Vrací kolekci chování pro efekt. Čtení/Zápis [`IBehaviorCollection`](../ibehaviorcollection). |
-| [DelayBetweenTextParts](../../aspose.slides.animation/effect/delaybetweentextparts) { get; set; } | Definuje zpoždění mezi částmi animovaného textu (slovy nebo písmeny). Kladná hodnota určuje procento trvání efektu. Záporná hodnota určuje zpoždění v sekundách. Čtení/Zápis Single. |
-| [PresetClassType](../../aspose.slides.animation/effect/presetclasstype) { get; set; } | Definuje třídu efektu. Čtení/Zápis [`EffectPresetClassType`](../effectpresetclasstype). |
-| [Sequence](../../aspose.slides.animation/effect/sequence) { get; } | Vrací sekvenci pro efekt. Pouze pro čtení [`ISequence`](../isequence). |
-| [Sound](../../aspose.slides.animation/effect/sound) { get; set; } | Definuje vložený zvuk pro efekt. Čtení/Zápis [`IAudio`](../../aspose.slides/iaudio). |
-| [StopPreviousSound](../../aspose.slides.animation/effect/stopprevioussound) { get; set; } | Tento atribut určuje, zda animační efekt zastaví předchozí zvuk. Čtení/Zápis Boolean. |
-| [Subtype](../../aspose.slides.animation/effect/subtype) { get; set; } | Definuje podtyp efektu. Čtení/Zápis [`EffectSubtype`](../effectsubtype). |
-| [TargetShape](../../aspose.slides.animation/effect/targetshape) { get; } | Vrací cílový tvar pro efekt. Pouze pro čtení [`IShape`](../../aspose.slides/ishape). |
-| [TextAnimation](../../aspose.slides.animation/effect/textanimation) { get; } | TextAnimation Pouze pro čtení [`ITextAnimation`](../itextanimation). |
-| [Timing](../../aspose.slides.animation/effect/timing) { get; set; } | Definuje časovou hodnotu pro efekt. Čtení/Zápis [`ITiming`](../itiming). |
-| [Type](../../aspose.slides.animation/effect/type) { get; set; } | Definuje typ efektu. Čtení/Zápis [`EffectType`](../effecttype). |
+| [AfterAnimationColor](../../aspose.slides.animation/effect/afteranimationcolor) { get; set; } | Definuje barvu po animaci pro efekt. Číst/Zapisovat [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AfterAnimationType](../../aspose.slides.animation/effect/afteranimationtype) { get; set; } | Definuje typ po animaci pro efekt. Číst/Zapisovat [`AfterAnimationType`](./afteranimationtype). |
+| [AnimateTextType](../../aspose.slides.animation/effect/animatetexttype) { get; set; } | Definuje typ animovaného textu pro efekt. Text tvaru může být animován po písmenu, po slově nebo najednou. Číst/Zapisovat [`AnimateTextType`](./animatetexttype). |
+| [Behaviors](../../aspose.slides.animation/effect/behaviors) { get; set; } | Vrací kolekci chování pro efekt. Číst/Zapisovat [`IBehaviorCollection`](../ibehaviorcollection). |
+| [DelayBetweenTextParts](../../aspose.slides.animation/effect/delaybetweentextparts) { get; set; } | Definuje zpoždění mezi částmi animovaného textu (slovy nebo písmeny). Kladná hodnota určuje procento trvání efektu. Záporná hodnota určuje zpoždění v sekundách. Číst/Zapisovat Single. |
+| [PresetClassType](../../aspose.slides.animation/effect/presetclasstype) { get; set; } | Definuje třídu efektu. Číst/Zapisovat [`EffectPresetClassType`](../effectpresetclasstype). |
+| [Sequence](../../aspose.slides.animation/effect/sequence) { get; } | Vrací sekvenci pro efekt. Pouze ke čtení [`ISequence`](../isequence). |
+| [Sound](../../aspose.slides.animation/effect/sound) { get; set; } | Definuje vložený zvuk pro efekt. Číst/Zapisovat [`IAudio`](../../aspose.slides/iaudio). |
+| [StopPreviousSound](../../aspose.slides.animation/effect/stopprevioussound) { get; set; } | Tento atribut určuje, zda animační efekt zastaví předchozí zvuk. Číst/Zapisovat Boolean. |
+| [Subtype](../../aspose.slides.animation/effect/subtype) { get; set; } | Definuje podtyp efektu. Číst/Zapisovat [`EffectSubtype`](../effectsubtype). |
+| [TargetShape](../../aspose.slides.animation/effect/targetshape) { get; } | Vrací cílový tvar pro efekt. Pouze ke čtení [`IShape`](../../aspose.slides/ishape). |
+| [TextAnimation](../../aspose.slides.animation/effect/textanimation) { get; } | TextAnimation Pouze ke čtení [`ITextAnimation`](../itextanimation). |
+| [Timing](../../aspose.slides.animation/effect/timing) { get; set; } | Definuje časovou hodnotu pro efekt. Číst/Zapisovat [`ITiming`](../itiming). |
+| [Type](../../aspose.slides.animation/effect/type) { get; set; } | Definuje typ efektu. Číst/Zapisovat [`EffectType`](../effecttype). |
 
 ### Viz také
 

@@ -3,7 +3,7 @@ title: PptOptions
 second_title: Aspose.Sildes för .NET API-referens
 description: Tillhandahåller alternativ som styr hur en presentation sparas i PPT-format.
 type: docs
-weight: 4340
+weight: 4360
 url: /sv/aspose.slides.export/pptoptions/
 ---
 ## PptOptions klass
@@ -14,22 +14,22 @@ Tillhandahåller alternativ som styr hur en presentation sparas i PPT-format.
 public class PptOptions : SaveOptions, IPptOptions
 ```
 
-## Konstruktorer
+## Konstruktörer
 
 | Namn | Beskrivning |
 | --- | --- |
-| [PptOptions](pptoptions)() | Standardkonstruktorn. |
+| [PptOptions](pptoptions)() | Standardkonstruktören. |
 
 ## Egenskaper
 
 | Namn | Beskrivning |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Returnerar eller anger teckensnittet som används om källteckensnittet inte finns. Läs/skriv String. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Returnerar eller anger teckensnitt som används om källteckensnittet inte hittas. Läs-skriv String. |
 | [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Returnerar eller anger den visuella stilen för gradienten. Läs/skriv [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Representerar ett återuppringningsobjekt för sparningsförloppets uppdateringar i procent. Se [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [RootDirectoryClsid](../../aspose.slides.export/pptoptions/rootdirectoryclsid) { get; set; } | Representerar objektklassens GUID (CLSID) som lagras i rotkatalogsposten. Kan användas för COM-aktivering av dokumentets program. Standardvärdet är '64818D11-4F9B-11CF-86EA-00AA00B929E8' som motsvarar 'Microsoft Powerpoint.Slide.8'. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Representerar ett återuppringningsobjekt för sparande av framstegsuppdateringar i procent. Se [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [RootDirectoryClsid](../../aspose.slides.export/pptoptions/rootdirectoryclsid) { get; set; } | Representerar objektklassens GUID (CLSID) som lagras i rotkatalogens post. Kan användas för COM-aktivering av dokumentets applikation. Standardvärdet är '64818D11-4F9B-11CF-86EA-00AA00B929E8' som motsvarar 'Microsoft Powerpoint.Slide.8'. |
 | [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Anger om hyperlänkar med JavaScript-anrop ska hoppas över när presentationen sparas. Läs/skriv Boolean. Standardvärdet är **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Returnerar eller anger ett objekt som tar emot varningar och bestämmer om inläsningsprocessen ska fortsätta eller avbrytas. Läs/skriv [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Returnerar eller anger ett objekt som tar emot varningar och bestämmer om laddningsprocessen ska fortsätta eller avbrytas. Läs/skriv [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Se även
 

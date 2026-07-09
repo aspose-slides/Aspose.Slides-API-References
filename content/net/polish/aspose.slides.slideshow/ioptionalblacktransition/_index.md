@@ -1,9 +1,9 @@
 ---
 title: IOptionalBlackTransition
-second_title: Aspose.Sildes for .NET Dokumentacja API
+second_title: Aspose.Sildes dla .NET API Reference
 description: Opcjonalny czarny efekt przejścia slajdu.
 type: docs
-weight: 10120
+weight: 10140
 url: /pl/aspose.slides.slideshow/ioptionalblacktransition/
 ---
 ## IOptionalBlackTransition interfejs
@@ -19,7 +19,7 @@ public interface IOptionalBlackTransition : ITransitionValueBase
 | Nazwa | Opis |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/ioptionalblacktransition/asitransitionvaluebase) { get; } | Umożliwia pobranie podstawowego interfejsu ITransitionValueBase. Tylko do odczytu [`ITransitionValueBase`](../itransitionvaluebase). |
-| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | Ten atrybut określa, czy przejście rozpocznie się od czarnego ekranu (a następnie przejdzie nowy slajd przez czarny ekran). Boolean odczyt/zapis. |
+| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | Ten atrybut określa, czy przejście rozpocznie się od czarnego ekranu (a następnie przekształci nowy slajd nad czernią). Odczyt/zapis Boolean. |
 
 ### Zobacz także
 

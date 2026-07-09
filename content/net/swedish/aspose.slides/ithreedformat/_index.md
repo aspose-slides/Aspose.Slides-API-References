@@ -1,9 +1,9 @@
 ---
 title: IThreeDFormat
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar 3-D egenskaper.
+description: Representerar 3-D-egenskaper.
 type: docs
-weight: 7310
+weight: 7330
 url: /sv/aspose.slides/ithreedformat/
 ---
 ## IThreeDFormat gränssnitt
@@ -18,23 +18,23 @@ public interface IThreeDFormat : IThreeDParamSource
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIThreeDParamSource](../../aspose.slides/ithreedformat/asithreedparamsource) { get; } | Tillåter att hämta bas IThreeDParamSource gränssnitt. Skrivskyddad [`IThreeDParamSource`](../ithreedparamsource). |
-| [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | Returnerar eller anger typen för en nedre 3D-fasett. Skrivskyddad [`IShapeBevel`](../ishapebevel). |
-| [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | Returnerar eller anger typen för en övre 3D-fasett. Skrivskyddad [`IShapeBevel`](../ishapebevel). |
-| [Camera](../../aspose.slides/ithreedformat/camera) { get; } | Returnerar eller anger inställningarna för en kamera. Skrivskyddad [`ICamera`](../icamera). |
-| [ContourColor](../../aspose.slides/ithreedformat/contourcolor) { get; } | Returnerar eller anger färgen på en kontur. Skrivskyddad [`IColorFormat`](../icolorformat). |
-| [ContourWidth](../../aspose.slides/ithreedformat/contourwidth) { get; set; } | Returnerar eller anger bredden på en 3D-kontur. Läs/skriv Double. |
-| [Depth](../../aspose.slides/ithreedformat/depth) { get; set; } | Returnerar eller anger djupet på en 3D-form. Läs/skriv Double. |
-| [ExtrusionColor](../../aspose.slides/ithreedformat/extrusioncolor) { get; } | Returnerar eller anger färgen på en extrudering. Skrivskyddad [`IColorFormat`](../icolorformat). |
-| [ExtrusionHeight](../../aspose.slides/ithreedformat/extrusionheight) { get; set; } | Returnerar eller anger höjden på en extruderings-effekt. Läs/skriv Double. |
-| [LightRig](../../aspose.slides/ithreedformat/lightrig) { get; } | Returnerar eller anger typen för ett ljus. Skrivskyddad [`ILightRig`](../ilightrig). |
-| [Material](../../aspose.slides/ithreedformat/material) { get; set; } | Returnerar eller anger typen för ett material. Läs/skriv [`MaterialPresetType`](../materialpresettype). |
+| [AsIThreeDParamSource](../../aspose.slides/ithreedformat/asithreedparamsource) { get; } | Tillåter att hämta bas IThreeDParamSource gränssnitt. Endast läsning [`IThreeDParamSource`](../ithreedparamsource). |
+| [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | Returnerar eller anger typen för en botten-3D-fas. Endast läsning [`IShapeBevel`](../ishapebevel). |
+| [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | Returnerar eller anger typen för en topp-3D-fas. Endast läsning [`IShapeBevel`](../ishapebevel). |
+| [Camera](../../aspose.slides/ithreedformat/camera) { get; } | Returnerar eller anger inställningarna för en kamera. Endast läsning [`ICamera`](../icamera). |
+| [ContourColor](../../aspose.slides/ithreedformat/contourcolor) { get; } | Returnerar eller anger färgen på en kontur. Endast läsning [`IColorFormat`](../icolorformat). |
+| [ContourWidth](../../aspose.slides/ithreedformat/contourwidth) { get; set; } | Returnerar eller anger bredden på en 3D-kontur. Läs-/skriv Double. |
+| [Depth](../../aspose.slides/ithreedformat/depth) { get; set; } | Returnerar eller anger djupet på en 3D-form. Läs-/skriv Double. |
+| [ExtrusionColor](../../aspose.slides/ithreedformat/extrusioncolor) { get; } | Returnerar eller anger färgen på en extrudering. Endast läsning [`IColorFormat`](../icolorformat). |
+| [ExtrusionHeight](../../aspose.slides/ithreedformat/extrusionheight) { get; set; } | Returnerar eller anger höjden på en extruderings-effekt. Läs-/skriv Double. |
+| [LightRig](../../aspose.slides/ithreedformat/lightrig) { get; } | Returnerar eller anger typen för ett ljus. Endast läsning [`ILightRig`](../ilightrig). |
+| [Material](../../aspose.slides/ithreedformat/material) { get; set; } | Returnerar eller anger typen för ett material. Läs-/skriv [`MaterialPresetType`](../materialpresettype). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [GetEffective](../../aspose.slides/ithreedformat/geteffective)() | Hämtar effektiv 3-D-formateringsdata med ärftlighet tillämpad. |
+| [GetEffective](../../aspose.slides/ithreedformat/geteffective)() | Hämtar effektiv 3-D-formateringsdata med ärvda inställningar tillämpade. |
 
 ### Se även
 

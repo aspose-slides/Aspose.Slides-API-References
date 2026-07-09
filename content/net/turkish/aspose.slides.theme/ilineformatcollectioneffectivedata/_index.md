@@ -1,14 +1,14 @@
 ---
 title: ILineFormatCollectionEffectiveData
 second_title: Aspose.Sildes için .NET API Referansı
-description: Etkili satır biçimlerinin salt okunur bir koleksiyonunu temsil eden değiştirilemez nesne.
+description: Etkili satır biçimlerinin salt okunur bir koleksiyonunu temsil eden değişmez nesne.
 type: docs
-weight: 11280
+weight: 11300
 url: /tr/aspose.slides.theme/ilineformatcollectioneffectivedata/
 ---
-## ILineFormatCollectionEffectiveData arayüzü
+## ILineFormatCollectionEffectiveData arayüz
 
-Etkili satır biçimlerinin salt okunur bir koleksiyonunu temsil eden değiştirilemez nesne.
+Etkili satır biçimlerinin salt okunur bir koleksiyonunu temsil eden değişmez nesne.
 
 ```csharp
 public interface ILineFormatCollectionEffectiveData : IGenericCollection<ILineFormatEffectiveData>
@@ -18,13 +18,13 @@ public interface ILineFormatCollectionEffectiveData : IGenericCollection<ILineFo
 
 | Ad | Açıklama |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ilineformatcollectioneffectivedata/item) { get; } | Belirtilen dizindeki öğeyi alır. Salt okunur [`ILineFormatEffectiveData`](../../aspose.slides/ilineformateffectivedata). |
+| [Item](../../aspose.slides.theme/ilineformatcollectioneffectivedata/item) { get; } | Belirtilen indeksteki öğeyi alır. Salt okunur [`ILineFormatEffectiveData`](../../aspose.slides/ilineformateffectivedata). |
 
-### Açıklamalar
+### Açıklama
 
-Bu arayüz [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata) bir parçası olarak kullanılır.
+Bu arayüz, [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata) parçasının bir bölümü olarak kullanılır.
 
-### Ayrıca Bakınız
+### Bakınız
 
 * arayüz [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * arayüz [ILineFormatEffectiveData](../../aspose.slides/ilineformateffectivedata)

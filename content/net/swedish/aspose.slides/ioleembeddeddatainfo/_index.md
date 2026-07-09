@@ -1,14 +1,14 @@
 ---
 title: IOleEmbeddedDataInfo
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar information om inbäddade data för OLE-objekt.
+description: Representerar inbäddad datainformation för OLE-objekt.
 type: docs
-weight: 6510
+weight: 6530
 url: /sv/aspose.slides/ioleembeddeddatainfo/
 ---
 ## IOleEmbeddedDataInfo gränssnitt
 
-Representerar information om inbäddade data för OLE-objekt.
+Representerar inbäddad datainformation för OLE-objekt.
 
 ```csharp
 public interface IOleEmbeddedDataInfo
@@ -18,8 +18,8 @@ public interface IOleEmbeddedDataInfo
 
 | Namn | Beskrivning |
 | --- | --- |
-| [EmbeddedFileData](../../aspose.slides/ioleembeddeddatainfo/embeddedfiledata) { get; } | Returnerar fildata för inbäddat OLE-objekt. Skrivskyddad Byte[]. |
-| [EmbeddedFileExtension](../../aspose.slides/ioleembeddeddatainfo/embeddedfileextension) { get; } | Returnerar filändelsen för det aktuella inbäddade OLE-objektet. Skrivskyddad String. |
+| [EmbeddedFileData](../../aspose.slides/ioleembeddeddatainfo/embeddedfiledata) { get; } | Returnerar fildata för inbäddat OLE-objekt Endast läsning Byte[]. |
+| [EmbeddedFileExtension](../../aspose.slides/ioleembeddeddatainfo/embeddedfileextension) { get; } | Returnerar filändelsen för det aktuella inbäddade OLE-objektet Endast läsning String. |
 
 ### Se även
 

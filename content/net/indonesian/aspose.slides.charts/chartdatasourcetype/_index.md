@@ -1,14 +1,14 @@
 ---
 title: ChartDataSourceType
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili jenis sumber data dari diagram
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili tipe sumber data diagram
 type: docs
-weight: 1350
+weight: 1370
 url: /id/aspose.slides.charts/chartdatasourcetype/
 ---
-## Enumerasi ChartDataSourceType
+## enumerasi ChartDataSourceType
 
-Mewakili jenis sumber data dari diagram
+Mewakili tipe sumber data diagram
 
 ```csharp
 public enum ChartDataSourceType
@@ -16,7 +16,7 @@ public enum ChartDataSourceType
 
 ### Nilai
 
-| Nama | Nilai | Deskripsi |
+| Name | Value | Description |
 | --- | --- | --- |
 | InternalWorkbook | `0` | Sumber data internal. |
 | ExternalWorkbook | `1` | Sumber data eksternal. |

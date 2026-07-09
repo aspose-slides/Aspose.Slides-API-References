@@ -1,9 +1,9 @@
 ---
 title: BaseSlide
-second_title: Aspose.Sildes para Referência de API .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa dados comuns para todos os tipos de slide.
 type: docs
-weight: 970
+weight: 990
 url: /pt/aspose.slides/baseslide/
 ---
 ## BaseSlide classe
@@ -16,31 +16,31 @@ public abstract class BaseSlide : IBaseSlide
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [Background](../../aspose.slides/baseslide/background) { get; } | Retorna o plano de fundo do slide. Somente leitura [`IBackground`](../ibackground). |
 | [Controls](../../aspose.slides/baseslide/controls) { get; } | Retorna a coleção de controles ActiveX em um slide. Somente leitura [`IControlCollection`](../icontrolcollection). |
 | [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Retorna os dados personalizados do slide. Somente leitura [`ICustomData`](../icustomdata). |
-| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Fornece acesso fácil aos hyperlinks contidos. Somente leitura [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Retorna ou define o nome de um slide. Leitura/gravação String. |
+| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Fornece acesso fácil a hyperlinks contidos. Somente leitura [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Retorna ou define o nome de um slide. Leitura/Gravação String. |
 | [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Retorna a interface IPresentation. Somente leitura [`IPresentation`](../ipresentation). |
-| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Retorna as shapes de um slide. Somente leitura [`IShapeCollection`](../ishapecollection). |
-| abstract [ShowMasterShapes](../../aspose.slides/baseslide/showmastershapes) { get; set; } | Especifica se as shapes no slide mestre devem ser exibidas nos slides ou não. Para o próprio slide mestre esta propriedade sempre retorna `false`. Leitura/gravação Boolean. |
+| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Retorna as formas de um slide. Somente leitura [`IShapeCollection`](../ishapecollection). |
+| abstract [ShowMasterShapes](../../aspose.slides/baseslide/showmastershapes) { get; set; } | Especifica se as formas no slide mestre devem ser exibidas nos slides ou não. Para o próprio slide mestre esta propriedade sempre retorna `false`. Leitura/Gravação Boolean. |
 | [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Retorna o ID de um slide. Somente leitura UInt32. |
 | virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Retorna o objeto Transition que contém informações sobre como o slide especificado avança durante uma apresentação. Somente leitura [`ISlideShowTransition`](../islideshowtransition). |
-| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Retorna o objeto de linha do tempo de animação. Somente leitura [`IAnimationTimeLine`](../ianimationtimeline). |
+| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Retorna o objeto da linha do tempo de animação. Somente leitura [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## Métodos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | Retorna um tema efetivo para este slide. |
-| [Equals](../../aspose.slides/baseslide/equals#equals)(IBaseSlide) | Determina se as duas instâncias IBaseSlide são iguais. O valor retornado é calculado com base na estrutura do slide e no conteúdo estático. Dois slides são iguais se todas as shapes, estilos, textos, animações e outras configurações, etc., forem iguais. A comparação não leva em conta valores de identificadores únicos, como SlideId, e conteúdo dinâmico, como o valor da data atual em um Date Placeholder. |
-| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Encontra a primeira ocorrência de uma shape com o texto alternativo especificado. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting#joinportionswithsameformatting)() | Mescla runs com a mesma formatação em todos os parágrafos de todas as shapes aceitáveis. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting#joinportionswithsameformatting_1)(IShapeCollection) | Mescla runs com a mesma formatação em todos os parágrafos de todas as shapes aceitáveis. |
+| [Equals](../../aspose.slides/baseslide/equals#equals)(IBaseSlide) | Determina se as duas instâncias IBaseSlide são iguais. O valor retornado é calculado com base na estrutura do slide e no conteúdo estático. Dois slides são iguais se todas as formas, estilos, textos, animações e outras configurações, etc., forem iguais. A comparação não considera valores de identificadores únicos, por exemplo SlideId, e conteúdo dinâmico, por exemplo o valor da data atual no Date Placeholder. |
+| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Encontra a primeira ocorrência de uma forma com o texto alternativo especificado. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting#joinportionswithsameformatting)() | Une sequências com a mesma formatação em todos os parágrafos de todas as formas aceitáveis. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting#joinportionswithsameformatting_1)(IShapeCollection) | Une sequências com a mesma formatação em todos os parágrafos de todas as formas aceitáveis. |
 
-### Ver Também
+### Veja também
 
 * interface [IBaseSlide](../ibaseslide)
 * namespace [Aspose.Slides](../../aspose.slides)

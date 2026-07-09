@@ -1,9 +1,9 @@
 ---
 title: ITextStyle
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Właściwości formatowania stylu tekstu.
 type: docs
-weight: 7290
+weight: 7310
 url: /pl/aspose.slides/itextstyle/
 ---
 ## ITextStyle interfejs
@@ -25,7 +25,7 @@ public interface ITextStyle
 | Nazwa | Opis |
 | --- | --- |
 | [GetEffective](../../aspose.slides/itextstyle/geteffective)() | Pobiera efektywne dane formatowania stylu tekstu z zastosowanym dziedziczeniem. |
-| [GetLevel](../../aspose.slides/itextstyle/getlevel)(int) | Jeśli istnieje poziom stylu, zwraca go, w przeciwnym razie zwraca null. |
+| [GetLevel](../../aspose.slides/itextstyle/getlevel)(int) | Jeśli poziom stylu istnieje, zwraca go, w przeciwnym razie zwraca null. |
 
 ### Zobacz także
 

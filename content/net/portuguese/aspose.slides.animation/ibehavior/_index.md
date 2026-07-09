@@ -1,14 +1,14 @@
 ---
 title: IBehavior
-second_title: Referência da API Aspose.Sildes para .NET
-description: Representa o comportamento de classe base do efeito.
+second_title: Aspose.Sildes para .NET – Referência da API
+description: Representa o comportamento da classe base do efeito.
 type: docs
-weight: 390
+weight: 410
 url: /pt/aspose.slides.animation/ibehavior/
 ---
 ## IBehavior interface
 
-Representa o comportamento de classe base do efeito.
+Representa o comportamento da classe base do efeito.
 
 ```csharp
 public interface IBehavior
@@ -18,12 +18,12 @@ public interface IBehavior
 
 | Nome | Descrição |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/ibehavior/accumulate) { get; set; } | Representa se os comportamentos de animação são acumulados. Leitura/Gravação [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/ibehavior/additive) { get; set; } | Representa se o comportamento de animação atual é combinado com outras animações em execução. Leitura/Gravação [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Accumulate](../../aspose.slides.animation/ibehavior/accumulate) { get; set; } | Representa se os comportamentos de animação são acumulados. Leitura/gravação [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/ibehavior/additive) { get; set; } | Representa se o comportamento de animação atual é combinado com outras animações em execução. Leitura/gravação [`BehaviorAdditiveType`](../behavioradditivetype). |
 | [Properties](../../aspose.slides.animation/ibehavior/properties) { get; } | Representa as propriedades do comportamento. Somente leitura [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/ibehavior/timing) { get; set; } | Representa as propriedades de tempo para o comportamento do efeito. Leitura/Gravação [`ITiming`](../itiming). |
+| [Timing](../../aspose.slides.animation/ibehavior/timing) { get; set; } | Representa as propriedades de tempo para o comportamento do efeito. Leitura/gravação [`ITiming`](../itiming). |
 
-### Veja Também
+### Ver Também
 
 * namespace [Aspose.Slides.Animation](../../aspose.slides.animation)
 * assembly [Aspose.Slides](../../)

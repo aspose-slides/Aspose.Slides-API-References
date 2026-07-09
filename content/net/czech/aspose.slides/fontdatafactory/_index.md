@@ -1,14 +1,14 @@
 ---
 title: FontDataFactory
 second_title: Aspose.Sildes pro .NET API Reference
-description: Továrna FontData
+description: FontData továrna
 type: docs
-weight: 4810
+weight: 4830
 url: /cs/aspose.slides/fontdatafactory/
 ---
 ## FontDataFactory třída
 
-Továrna FontData
+FontData továrna
 
 ```csharp
 public class FontDataFactory : IFontDataFactory

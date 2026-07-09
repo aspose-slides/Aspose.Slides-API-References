@@ -1,14 +1,14 @@
 ---
 title: OOXMLCorruptFileException
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Εξαίρεση που ρίχνεται όταν η μορφή αρχείου Office Open XML είναι κατεστραμμένη.
+second_title: Aspose.Sildes για .NET API Reference
+description: Εξαίρεση που προκαλείται όταν η μορφή αρχείου Office Open XML είναι κατεστραμμένη.
 type: docs
-weight: 9170
+weight: 9190
 url: /el/aspose.slides/ooxmlcorruptfileexception/
 ---
 ## OOXMLCorruptFileException κλάση
 
-Exception που ρίχνεται όταν η μορφή αρχείου Office Open XML είναι κατεστραμμένη.
+Εξαίρεση που προκαλείται όταν η μορφή αρχείου Office Open XML είναι κατεστραμμένη.
 
 ```csharp
 public class OOXMLCorruptFileException : OOXMLException
@@ -18,9 +18,9 @@ public class OOXMLCorruptFileException : OOXMLException
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor)() | Προεπιλεγμένος κατασκευαστής. |
-| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_1)(string) | Κατασκευαστής που επιτρέπει να προστεθεί ένα μήνυμα σε αυτήν την εξαίρεση. |
-| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_2)(string, Exception) | Κατασκευαστής για μία εξαίρεση που περιέχει ένα μήνυμα και μια ενσωματωμένη εξαίρεση. |
+| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor)() | Κατασκευαστής προεπιλογής. |
+| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_1)(string) | Κατασκευαστής που επιτρέπει την προσθήκη μηνύματος σε αυτήν την εξαίρεση. |
+| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_2)(string, Exception) | Κατασκευαστής για μια εξαίρεση που περιέχει ένα μήνυμα και μια ενσωματωμένη εξαίρεση. |
 
 ### Δείτε επίσης
 

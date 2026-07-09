@@ -1,9 +1,9 @@
 ---
 title: OOXMLException
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili tipe pengecualian internal standar yang terkait dengan format file Office Open XML.
 type: docs
-weight: 9180
+weight: 9200
 url: /id/aspose.slides/ooxmlexception/
 ---
 ## OOXMLException kelas
@@ -20,7 +20,7 @@ public class OOXMLException : Exception
 | --- | --- |
 | [OOXMLException](ooxmlexception#constructor)() | Konstruktor default. |
 | [OOXMLException](ooxmlexception#constructor_1)(string) | Konstruktor yang memungkinkan pesan ditambahkan ke pengecualian ini. |
-| [OOXMLException](ooxmlexception#constructor_2)(string, Exception) | Konstruktor untuk pengecualian yang berisi pesan dan pengecualian terbenam. |
+| [OOXMLException](ooxmlexception#constructor_2)(string, Exception) | Konstruktor untuk pengecualian yang berisi pesan dan pengecualian yang tertanam. |
 
 ### Lihat Juga
 

@@ -1,14 +1,14 @@
 ---
 title: ColorOffset
-second_title: Aspose.Sildes .NET API Referenciája
-description: Színeltolást reprezentál.
+second_title: Aspose.Sildes a .NET API hivatkozás
+description: A színeltolást reprezentálja.
 type: docs
-weight: 220
+weight: 240
 url: /hu/aspose.slides.animation/coloroffset/
 ---
 ## ColorOffset osztály
 
-Színeltolást reprezentál.
+A színeltolást reprezentálja.
 
 ```csharp
 public class ColorOffset : IColorOffset
@@ -28,7 +28,7 @@ public class ColorOffset : IColorOffset
 | [Value1](../../aspose.slides.animation/coloroffset/value1) { get; set; } | Meghatározza az eltolás második értékét. Olvasás/írás Single. |
 | [Value2](../../aspose.slides.animation/coloroffset/value2) { get; set; } | Meghatározza az eltolás harmadik értékét. Olvasás/írás Single. |
 
-### Lásd még
+### További hivatkozások
 
 * interfész [IColorOffset](../icoloroffset)
 * névtér [Aspose.Slides.Animation](../../aspose.slides.animation)

@@ -1,9 +1,9 @@
 ---
 title: Backdrop3DScene
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET API Reference
 description: Define um plano no qual efeitos como brilho e sombra são aplicados em relação à forma à qual são aplicados.
 type: docs
-weight: 900
+weight: 920
 url: /pt/aspose.slides/backdrop3dscene/
 ---
 ## Backdrop3DScene classe
@@ -16,16 +16,16 @@ public sealed class Backdrop3DScene : PVIObject, IBackdrop3DScene
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
-| [AnchorPoint](../../aspose.slides/backdrop3dscene/anchorpoint) { get; set; } | Retorna ou define um ponto no espaço 3D. Este ponto é o ponto no espaço que ancora o plano de fundo. Ponto 3D representado por um array de 3 valores float que definem as coordenadas X, Y e Z. Leitura/gravação Single[]. |
+| [AnchorPoint](../../aspose.slides/backdrop3dscene/anchorpoint) { get; set; } | Retorna ou define um ponto no espaço 3D. Esse ponto é o ponto no espaço que ancora o plano de fundo. Ponto 3D representado por um array de 3 valores float que definem as coordenadas X, Y e Z. Leitura/Gravação Single[]. |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obter a interface base IPresentationComponent. Somente leitura [`IPresentationComponent`](../ipresentationcomponent). |
-| [NormalVector](../../aspose.slides/backdrop3dscene/normalvector) { get; set; } | Retorna ou define um vetor normal. Para ser mais preciso, este atributo define um vetor normal à face do plano de fundo. Vetor representado por um array de 3 valores float que definem as coordenadas X, Y e Z. Leitura/gravação Single[]. |
-| [UpVector](../../aspose.slides/backdrop3dscene/upvector) { get; set; } | Retorna ou define um vetor que representa a direção up. Para ser mais preciso, este atributo define um vetor que representa a direção up em relação à face do plano de fundo. Vetor representado por um array de 3 valores float que definem as coordenadas X, Y e Z. Leitura/gravação Single[]. |
+| [NormalVector](../../aspose.slides/backdrop3dscene/normalvector) { get; set; } | Retorna ou define um vetor normal. Mais precisamente, este atributo define um vetor normal à face do plano de fundo. Vetor representado por um array de 3 valores float que definem as coordenadas X, Y e Z. Leitura/Gravação Single[]. |
+| [UpVector](../../aspose.slides/backdrop3dscene/upvector) { get; set; } | Retorna ou define um vetor que representa “up”. Mais precisamente, este atributo define um vetor que representa “up” em relação à face do plano de fundo. Vetor representado por um array de 3 valores float que definem as coordenadas X, Y e Z. Leitura/Gravação Single[]. |
 
 ## Métodos
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compara com o objeto especificado. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Retorna o código hash. |

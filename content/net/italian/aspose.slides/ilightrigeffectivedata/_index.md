@@ -1,9 +1,9 @@
 ---
 title: ILightRigEffectiveData
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET API Reference
 description: Oggetto immutabile che contiene le proprietà effettive del rig di illuminazione.
 type: docs
-weight: 6260
+weight: 6280
 url: /it/aspose.slides/ilightrigeffectivedata/
 ---
 ## ILightRigEffectiveData interfaccia
@@ -19,13 +19,13 @@ public interface ILightRigEffectiveData
 | Nome | Descrizione |
 | --- | --- |
 | [Direction](../../aspose.slides/ilightrigeffectivedata/direction) { get; } | Direzione della luce. Solo lettura [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | Rappresenta una luce preimpostata che può essere applicata a una forma. Il rig di illuminazione rappresenta un gruppo di luci orientate in modo specifico rispetto a una scena 3D. Solo lettura [`LightRigPresetType`](../lightrigpresettype). |
+| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | Rappresenta una luce predefinita che può essere applicata a una forma. Il rig di illuminazione rappresenta un gruppo di luci orientate in modo specifico rispetto a una scena 3D. Solo lettura [`LightRigPresetType`](../lightrigpresettype). |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | Una rotazione è definita mediante l'uso di una coordinata di latitudine, una coordinata di longitudine e una rivoluzione intorno all'asse secondo le coordinate di latitudine e longitudine. Primo elemento nell'array di ritorno - latitudine, secondo - longitudine, terzo - rivoluzione. |
+| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | Una rotazione è definita mediante l'uso di una coordinata di latitudine, una coordinata di longitudine e una rivoluzione attorno all'asse basata su queste coordinate. Il primo elemento dell'array restituito è la latitudine, il secondo è la longitudine, il terzo è la rivoluzione. |
 
 ### Osservazioni
 

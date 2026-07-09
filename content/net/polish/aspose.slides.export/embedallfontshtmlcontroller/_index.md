@@ -1,14 +1,14 @@
 ---
 title: EmbedAllFontsHtmlController
-second_title: Dokumentacja API Aspose.Sildes dla .NET
-description: Klasa kontrolera formatowania używana do osadzania wszystkich czcionek prezentacji w formacie WOFF.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Klasa kontrolera formatowania służąca do osadzania wszystkich czcionek prezentacji w formacie WOFF.
 type: docs
-weight: 3740
+weight: 3760
 url: /pl/aspose.slides.export/embedallfontshtmlcontroller/
 ---
 ## EmbedAllFontsHtmlController klasa
 
-Klasa kontrolera formatowania używana do osadzania wszystkich czcionek prezentacji w formacie WOFF.
+Kontroler formatowania używany do osadzania wszystkich czcionek prezentacji w formacie WOFF.
 
 ```csharp
 public class EmbedAllFontsHtmlController : IHtmlFormattingController
@@ -26,13 +26,13 @@ public class EmbedAllFontsHtmlController : IHtmlFormattingController
 | Nazwa | Opis |
 | --- | --- |
 | virtual [WriteAllFonts](../../aspose.slides.export/embedallfontshtmlcontroller/writeallfonts)(IHtmlGenerator, IPresentation) | Zapisuje wszystkie czcionki zawarte w [`Presentation`](../../aspose.slides/presentation). |
-| virtual [WriteDocumentEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | Wywoływana w celu zapisania stopki dokumentu HTML. Wywoływana raz na konwersję prezentacji. |
-| virtual [WriteDocumentStart](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | Wywoływana w celu zapisania nagłówka dokumentu HTML. Wywoływana raz na konwersję prezentacji. |
-| virtual [WriteFont](../../aspose.slides.export/embedallfontshtmlcontroller/writefont)(IHtmlGenerator, IFontData, IFontData, string, string, byte[]) | Zapisuje dane jako base64 bezpośrednio w dokumencie HTML. |
-| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | Wywoływana przed renderowaniem kształtu. Wywoływana raz dla każdego kształtu. Jeśli ta funkcja zapisze cokolwiek do generatora, bieżące generowanie obrazu slajdu zostanie zakończone, dodany fragment HTML zostanie wstawiony, a nowy obraz zostanie rozpoczęty na wierzchu poprzedniego. |
-| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | Wywoływana przed renderowaniem kształtu. Wywoływana raz dla każdego kształtu. Jeśli ta funkcja zapisze cokolwiek do generatora, bieżące generowanie obrazu slajdu zostanie zakończone, dodany fragment HTML zostanie wstawiony, a nowy obraz zostanie rozpoczęty na wierzchu poprzedniego. |
-| virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | Wywoływana w celu zapisania stopki slajdu HTML. Wywoływana raz dla każdego slajdu. |
-| virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | Wywoływana w celu zapisania nagłówka slajdu HTML. Wywoływana raz dla każdego slajdu. |
+| virtual [WriteDocumentEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | Wywoływane w celu zapisania stopki dokumentu HTML. Wywoływane raz na konwersję prezentacji. |
+| virtual [WriteDocumentStart](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | Wywoływane w celu zapisania nagłówka dokumentu HTML. Wywoływane raz na konwersję prezentacji. |
+| virtual [WriteFont](../../aspose.slides.export/embedallfontshtmlcontroller/writefont)(IHtmlGenerator, IFontData, IFontData, string, string, byte[]) | Zapisuje dane jako base64 bezpośrednio w dokumencie HTML |
+| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | Wywoływane przed renderowaniem kształtu. Wywoływane raz dla każdego kształtu. Jeśli ta funkcja zapisze cokolwiek do generatora, bieżące generowanie obrazu slajdu zostanie zakończone, dodany fragment HTML zostanie wstawiony, a nowy obraz zostanie rozpoczęty na wierzchu poprzedniego. |
+| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | Wywoływane przed renderowaniem kształtu. Wywoływane raz dla każdego kształtu. Jeśli ta funkcja zapisze cokolwiek do generatora, bieżące generowanie obrazu slajdu zostanie zakończone, dodany fragment HTML zostanie wstawiony, a nowy obraz zostanie rozpoczęty na wierzchu poprzedniego. |
+| virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | Wywoływane w celu zapisania stopki slajdu HTML. Wywoływane raz dla każdego slajdu. |
+| virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | Wywoływane w celu zapisania nagłówka slajdu HTML. Wywoływane raz dla każdego slajdu. |
 
 ### Zobacz także
 

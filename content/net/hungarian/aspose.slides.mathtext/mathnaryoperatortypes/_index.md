@@ -1,14 +1,14 @@
 ---
 title: MathNaryOperatorTypes
-second_title: Aspose.Sildes .NET API Referencia
-description: Nary operátor IMathNaryOperator típusok, integrálok kivételével. Integrálok esetén MathIntegralTypes./mathintegraltypes
+second_title: Aspose.Sildes for .NET API Referenciája
+description: Nary operátor IMathNaryOperator típusok integrálok kivételével. Integrálok esetén MathIntegralTypes./mathintegraltypes
 type: docs
-weight: 8870
+weight: 8890
 url: /hu/aspose.slides.mathtext/mathnaryoperatortypes/
 ---
 ## MathNaryOperatorTypes enumeráció
 
-Nary operátor IMathNaryOperator típusok (az integrálok kivételével) Az integrálok [`MathIntegralTypes`](../mathintegraltypes)
+Nary operátor IMathNaryOperator típusok (kivéve az integrálokat) Integrálok esetén [`MathIntegralTypes`](../mathintegraltypes)
 
 ```csharp
 public enum MathNaryOperatorTypes

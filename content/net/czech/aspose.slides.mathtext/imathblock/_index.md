@@ -1,14 +1,14 @@
 ---
 title: IMathBlock
-second_title: Aspose.Sildes pro .NET API Reference
-description: Určuje instanci matematického textu, která je obsažena v MathParagraph a začíná na samostatném řádku. Všechny matematické zóny, včetně rovnic, výrazů, polí rovnic nebo výrazů a vzorců, jsou reprezentovány matematickým blokem.
+second_title: Aspose.Sildes pro .NET - referenční příručka API
+description: Specifikuje instanci matematického textu, která je obsažena v MathParagraph a začíná na vlastním řádku. Všechny matematické oblasti, včetně rovnic, výrazů, polí rovnic nebo výrazů a vzorců, jsou reprezentovány matematickým blokem.
 type: docs
-weight: 8120
+weight: 8140
 url: /cs/aspose.slides.mathtext/imathblock/
 ---
-## IMathBlock rozhraní
+## IMathBlock interface
 
-Určuje instanci matematického textu, který je obsažen v MathParagraph a začíná na samostatném řádku. Všechny matematické zóny, včetně rovnic, výrazů, polí rovnic nebo výrazů a vzorců jsou reprezentovány matematickým blokem.
+Specifikuje instanci matematického textu, která je obsažena v MathParagraph a začíná na vlastním řádku. Všechny matematické oblasti, včetně rovnic, výrazů, polí rovnic nebo výrazů a vzorců, jsou reprezentovány matematickým blokem.
 
 ```csharp
 public interface IMathBlock : IMathElement, IMathElementCollection
@@ -25,10 +25,10 @@ public interface IMathBlock : IMathElement, IMathElementCollection
 
 | Název | Popis |
 | --- | --- |
-| [Delimit](../../aspose.slides.mathtext/imathblock/delimit)(char) | Odděluje všechny podřízené elementy znakem oddělovače (bez závorek) |
-| [Enclose](../../aspose.slides.mathtext/imathblock/enclose)(char, char, char) | Obaluje podřízené elementy tohoto bloku zadanými znaky, jako jsou závorky nebo jiné, a odděluje je znakem oddělovače |
-| [JoinBlock](../../aspose.slides.mathtext/imathblock/joinblock)(IMathBlock) | Spojuje další matematický blok s tímto |
-| [WriteAsMathMl](../../aspose.slides.mathtext/imathblock/writeasmathml)(Stream) | Ukládá obsah tohoto [`IMathBlock`](../imathblock) jako MathML |
+| [Delimit](../../aspose.slides.mathtext/imathblock/delimit)(char) | Odděluje všechny podřízené prvky pomocí oddělovače (bez závorek) |
+| [Enclose](../../aspose.slides.mathtext/imathblock/enclose)(char, char, char) | Obalí podřízené prvky tohoto bloku zadanými znaky, jako jsou závorky nebo jiné, a oddělí je pomocí oddělovače |
+| [JoinBlock](../../aspose.slides.mathtext/imathblock/joinblock)(IMathBlock) | Spojí další matematický blok s tímto |
+| [WriteAsMathMl](../../aspose.slides.mathtext/imathblock/writeasmathml)(Stream) | Uloží obsah tohoto [`IMathBlock`](../imathblock) jako MathML |
 
 ### Příklady
 

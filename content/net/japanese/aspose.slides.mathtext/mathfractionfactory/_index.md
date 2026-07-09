@@ -1,9 +1,9 @@
 ---
 title: MathFractionFactory
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: 数式分数を作成できます
 type: docs
-weight: 8680
+weight: 8700
 url: /ja/aspose.slides.mathtext/mathfractionfactory/
 ---
 ## MathFractionFactory クラス
@@ -14,11 +14,11 @@ url: /ja/aspose.slides.mathtext/mathfractionfactory/
 public class MathFractionFactory : IMathFractionFactory
 ```
 
-## コンストラクター
+## コンストラクタ
 
 | 名前 | 説明 |
 | --- | --- |
-| [MathFractionFactory](mathfractionfactory)() | 既定のコンストラクターです。 |
+| [MathFractionFactory](mathfractionfactory)() | デフォルト コンストラクタです。 |
 
 ## メソッド
 
@@ -31,7 +31,7 @@ public class MathFractionFactory : IMathFractionFactory
 
 COM 互換性のため
 
-### 関連項目
+### 参照
 
 * インターフェイス [IMathFractionFactory](../imathfractionfactory)
 * 名前空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

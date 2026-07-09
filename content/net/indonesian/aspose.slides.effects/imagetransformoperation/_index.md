@@ -1,12 +1,12 @@
 ---
 title: ImageTransformOperation
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili efek transformasi gambar abstrak.
 type: docs
-weight: 3550
+weight: 3570
 url: /id/aspose.slides.effects/imagetransformoperation/
 ---
-## ImageTransformOperation kelas
+## Kelas ImageTransformOperation
 
 Mewakili efek transformasi gambar abstrak.
 
@@ -18,7 +18,7 @@ public abstract class ImageTransformOperation : PVIObject, IImageTransformOperat
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Memungkinkan mendapatkan antarmuka IPresentationComponent dasar. Hanya-baca [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Mengizinkan mendapatkan antarmuka dasar IPresentationComponent. Hanya-baca [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metode
 

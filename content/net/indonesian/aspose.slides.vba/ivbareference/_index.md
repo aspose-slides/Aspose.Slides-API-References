@@ -1,9 +1,9 @@
 ---
 title: IVbaReference
-second_title: Aspose.Sildes untuk .NET Referensi API
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili nama referensi proyek VBA.
 type: docs
-weight: 11550
+weight: 11570
 url: /id/aspose.slides.vba/ivbareference/
 ---
 ## IVbaReference antarmuka

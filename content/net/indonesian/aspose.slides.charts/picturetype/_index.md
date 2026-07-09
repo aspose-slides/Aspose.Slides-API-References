@@ -1,12 +1,12 @@
 ---
 title: PictureType
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Menentukan mode pengisian gambar batang.
 type: docs
-weight: 2340
+weight: 2360
 url: /id/aspose.slides.charts/picturetype/
 ---
-## enumerasi PictureType
+## PictureType enumerasi
 
 Menentukan mode pengisian gambar batang.
 
@@ -18,10 +18,10 @@ public enum PictureType
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| NotDefined | `-1` | Tidak didefinisikan. |
-| Stack | `0` | Gambar diatur ukurannya untuk diulang maksimum 15 kali pada batang bertumpuk terpanjang. |
-| StackScale | `1` | Gambar diatur ukurannya ke sejumlah unit yang ditentukan dan diulang sepanjang batang. |
-| Stretch | `2` | Gambar diregangkan sepanjang penuh batang bertumpuk. |
+| NotDefined | `-1` | Tidak ditentukan. |
+| Stack | `0` | Gambar diubah ukurannya untuk diulang maksimal 15 kali pada batang bertumpuk terpanjang. |
+| StackScale | `1` | Gambar diubah ukurannya ke jumlah unit yang ditentukan dan diulang sepanjang panjang batang. |
+| Stretch | `2` | Gambar diregangkan sepanjang seluruh batang bertumpuk. |
 
 ### Lihat Juga
 

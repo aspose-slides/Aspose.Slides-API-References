@@ -1,9 +1,9 @@
 ---
 title: IPortion
-second_title: Aspose.Sildes för .NET API-referens
+second_title: Aspose.Slides för .NET API-referens
 description: Representerar en del av text i ett textstycke.
 type: docs
-weight: 6680
+weight: 6700
 url: /sv/aspose.slides/iportion/
 ---
 ## IPortion gränssnitt
@@ -16,22 +16,22 @@ public interface IPortion : ISlideComponent
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/iportion/asislidecomponent) { get; } | Tillåter att hämta grundgränssnittet ISlideComponent. Skrivskyddad [`ISlideComponent`](../islidecomponent). |
-| [Field](../../aspose.slides/iportion/field) { get; } | Returnerar ett fält för den här delen. Skrivskyddad [`IField`](../ifield). |
-| [PortionFormat](../../aspose.slides/iportion/portionformat) { get; } | Returnerar formateringsobjekt som innehåller uttryckligen angivna formaterings-egenskaper för textdelen utan ärvd formatering. Skrivskyddad [`IPortionFormat`](../iportionformat). |
-| [Text](../../aspose.slides/iportion/text) { get; set; } | Hämtar eller anger vanlig text för en del. Läs/skriv Sträng. |
+| [AsISlideComponent](../../aspose.slides/iportion/asislidecomponent) { get; } | Tillåter att hämta bas-ISlideComponent-gränssnittet. Skrivskyddad [`ISlideComponent`](../islidecomponent). |
+| [Field](../../aspose.slides/iportion/field) { get; } | Returnerar ett fält för denna del. Skrivskyddad [`IField`](../ifield). |
+| [PortionFormat](../../aspose.slides/iportion/portionformat) { get; } | Returnerar ett formateringsobjekt som innehåller uttryckligen satta formateringsegenskaper för textdelen utan arv tillämpat. Skrivskyddad [`IPortionFormat`](../iportionformat). |
+| [Text](../../aspose.slides/iportion/text) { get; set; } | Hämtar eller anger vanlig text för en del. Läs/skriv String. |
 
 ## Metoder
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [AddField](../../aspose.slides/iportion/addfield#addfield)(IFieldType) | Omvandlar denna del till ett automatiskt uppdaterat fält. |
-| [AddField](../../aspose.slides/iportion/addfield#addfield_1)(string) | Omvandlar denna del till ett automatiskt uppdaterat fält. |
-| [GetCoordinates](../../aspose.slides/iportion/getcoordinates)() | Hämtar koordinaterna för början av delen. X-koordinaten för punkten representerar delens början från det första tecknet inklusive vänster sidbäring. Y-koordinaten inkluderar övre sidbäring. |
-| [GetRect](../../aspose.slides/iportion/getrect)() | Hämtar koordinaterna för den rektangel som avgränsar delen. Rektangeln inkluderar alla textrader i delen, även tomma. |
-| [RemoveField](../../aspose.slides/iportion/removefield)() | Omvandlar detta fältavsnitt till ett enkelt avsnitt. |
+| [AddField](../../aspose.slides/iportion/addfield#addfield)(IFieldType) | Konverterar denna del till ett automatiskt uppdaterat fält. |
+| [AddField](../../aspose.slides/iportion/addfield#addfield_1)(string) | Konverterar denna del till ett automatiskt uppdaterat fält. |
+| [GetCoordinates](../../aspose.slides/iportion/getcoordinates)() | Hämta koordinaterna för början av delen. X-koordinaten för punkten representerar delens början från det första tecknet inklusive vänster sidobäring. Y-koordinaten inkluderar övre sidobäring. |
+| [GetRect](../../aspose.slides/iportion/getrect)() | Hämta koordinaterna för den rektangel som omger delen. Rektangeln inkluderar alla textrader i delen, inklusive tomma. |
+| [RemoveField](../../aspose.slides/iportion/removefield)() | Konverterar detta fältavsnitt till ett enkelt avsnitt. |
 
 ### Se även
 

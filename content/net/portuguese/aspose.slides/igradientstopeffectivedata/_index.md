@@ -1,9 +1,9 @@
 ---
 title: IGradientStopEffectiveData
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Slides para .NET
 description: objeto imutável que representa uma parada de gradiente.
 type: docs
-weight: 6030
+weight: 6050
 url: /pt/aspose.slides/igradientstopeffectivedata/
 ---
 ## IGradientStopEffectiveData interface

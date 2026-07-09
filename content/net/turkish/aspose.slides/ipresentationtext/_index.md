@@ -3,7 +3,7 @@ title: IPresentationText
 second_title: Aspose.Sildes için .NET API Referansı
 description: Slayttan çıkarılan metni temsil eder
 type: docs
-weight: 6780
+weight: 6800
 url: /tr/aspose.slides/ipresentationtext/
 ---
 ## IPresentationText arayüz
@@ -18,7 +18,7 @@ public interface IPresentationText
 
 | Ad | Açıklama |
 | --- | --- |
-| [SlidesText](../../aspose.slides/ipresentationtext/slidestext) { get; } | Bir [`SlideText`](../islidetext) dizisi bir sunumun metnini içerir. |
+| [SlidesText](../../aspose.slides/ipresentationtext/slidestext) { get; } | [`SlideText`](../islidetext) dizisi bir sunumun metnini içerir. |
 
 ### Ayrıca Bakınız
 

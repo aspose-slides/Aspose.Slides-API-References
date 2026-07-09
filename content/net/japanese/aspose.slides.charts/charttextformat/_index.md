@@ -1,14 +1,14 @@
 ---
 title: ChartTextFormat
-second_title: Aspose.Sildes の .NET 用 API リファレンス
-description: チャートのテキスト要素のデフォルトテキスト書式を指定します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: チャートテキスト要素のデフォルトのテキスト書式を指定します。
 type: docs
-weight: 1460
+weight: 1480
 url: /ja/aspose.slides.charts/charttextformat/
 ---
 ## ChartTextFormat クラス
 
-チャートのテキスト要素のデフォルトテキスト書式を指定します。
+チャートテキスト要素の既定のテキスト書式を指定します。
 
 ```csharp
 public class ChartTextFormat : IChartTextFormat
@@ -26,10 +26,10 @@ public class ChartTextFormat : IChartTextFormat
 
 | 名前 | 説明 |
 | --- | --- |
-| [CopyFrom](../../aspose.slides.charts/charttextformat/copyfrom)(ITextFrame) | 指定されたテキストフレームからテキスト書式をコピーします。 |
-| [CopyTo](../../aspose.slides.charts/charttextformat/copyto)(ITextFrame) | 指定されたテキストフレームへテキスト書式をコピーします。 |
+| [CopyFrom](../../aspose.slides.charts/charttextformat/copyfrom)(ITextFrame) | 指定されたテキストフレームからテキストフォーマットをコピーします。 |
+| [CopyTo](../../aspose.slides.charts/charttextformat/copyto)(ITextFrame) | 指定されたテキストフレームへテキストフォーマットをコピーします。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [IChartTextFormat](../icharttextformat)
 * 名前空間 [Aspose.Slides.Charts](../../aspose.slides.charts)

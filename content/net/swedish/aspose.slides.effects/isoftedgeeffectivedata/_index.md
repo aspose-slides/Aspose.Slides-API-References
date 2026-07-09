@@ -1,14 +1,14 @@
 ---
 title: ISoftEdgeEffectiveData
-second_title: Aspose.Slides för .NET API-referens
+second_title: Aspose.Sildes för .NET API-referens
 description: Oföränderligt objekt som representerar en mjuk kant-effekt. Formens kanter är suddiga medan fyllningen inte påverkas.
 type: docs
-weight: 3510
+weight: 3530
 url: /sv/aspose.slides.effects/isoftedgeeffectivedata/
 ---
 ## ISoftEdgeEffectiveData gränssnitt
 
-Immutable object which represents a soft edge effect. The edges of the shape are blurred, while the fill is not affected.
+Omutabelt objekt som representerar en mjuk kant-effekt. Kanterna på formen är suddiga, medan fyllningen inte påverkas.
 
 ```csharp
 public interface ISoftEdgeEffectiveData : IEffectEffectiveData
@@ -19,9 +19,9 @@ public interface ISoftEdgeEffectiveData : IEffectEffectiveData
 | Namn | Beskrivning |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata) { get; } | Tillåter att hämta bas IEffectEffectiveData-gränssnittet. Skrivskyddad [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | Anger radien för suddighet som ska tillämpas på kanterna. Skrivskyddad Double. |
+| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | Anger radien för oskärpa som ska appliceras på kanterna. Skrivskyddad Double. |
 
-### Se också
+### Se även
 
 * gränssnitt [IEffectEffectiveData](../ieffecteffectivedata)
 * namnrymd [Aspose.Slides.Effects](../../aspose.slides.effects)

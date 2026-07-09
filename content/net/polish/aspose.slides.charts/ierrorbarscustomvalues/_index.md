@@ -1,14 +1,14 @@
 ---
 title: IErrorBarsCustomValues
-second_title: Referencja API Aspose.Sildes dla .NET
-description: Określa wartości pasków błędów. Powinien być używany tylko wtedy, gdy typ wartości pasków błędów jest Custom.
+second_title: Aspose.Sildes dla .NET – referencja API
+description: Określa wartości słupków błędów. Powinno być używane wyłącznie wtedy, gdy typ wartości słupków błędów jest Custom.
 type: docs
-weight: 2060
+weight: 2080
 url: /pl/aspose.slides.charts/ierrorbarscustomvalues/
 ---
 ## IErrorBarsCustomValues interfejs
 
-Określa wartości pasków błędów. Powinien być używany tylko wtedy, gdy typ wartości pasków błędów jest Custom.
+Określa wartości słupków błędów. Powinno być używane tylko wtedy, gdy typ wartości słupków błędów jest Custom.
 
 ```csharp
 public interface IErrorBarsCustomValues
@@ -18,10 +18,10 @@ public interface IErrorBarsCustomValues
 
 | Nazwa | Opis |
 | --- | --- |
-| [XMinus](../../aspose.slides.charts/ierrorbarscustomvalues/xminus) { get; } | Określa wartość paska błędu w kierunku ujemnym. Dostępne, jeśli typ wartości pasków błędów jest Custom i zezwolono na ErrorBarsXFormat. W każdym innym przypadku ta właściwość zwraca null. Tylko do odczytu [`IDoubleChartValue`](../idoublechartvalue). |
-| [XPlus](../../aspose.slides.charts/ierrorbarscustomvalues/xplus) { get; } | Określa wartość paska błędu w kierunku dodatnim. Dostępne, jeśli typ wartości pasków błędów jest Custom i zezwolono na ErrorBarsXFormat. W każdym innym przypadku ta właściwość zwraca null. Tylko do odczytu [`IDoubleChartValue`](../idoublechartvalue). |
-| [YMinus](../../aspose.slides.charts/ierrorbarscustomvalues/yminus) { get; } | Określa wartość paska błędu w kierunku ujemnym. Dostępne, jeśli typ wartości pasków błędów jest Custom i zezwolono na ErrorBarsYFormat. W każdym innym przypadku ta właściwość zwraca null. Tylko do odczytu [`IDoubleChartValue`](../idoublechartvalue). |
-| [YPlus](../../aspose.slides.charts/ierrorbarscustomvalues/yplus) { get; } | Określa wartość paska błędu w kierunku dodatnim. Dostępne, jeśli typ wartości pasków błędów jest Custom i zezwolono na ErrorBarsYFormat. W każdym innym przypadku ta właściwość zwraca null. Tylko do odczytu [`IDoubleChartValue`](../idoublechartvalue). |
+| [XMinus](../../aspose.slides.charts/ierrorbarscustomvalues/xminus) { get; } | Określa wartość słupka błędów w kierunku ujemnym. Dostępne, jeśli typ wartości słupków błędów jest Custom i ErrorBarsXFormat jest dozwolony. W każdym innym przypadku ta właściwość zwraca null. Tylko do odczytu [`IDoubleChartValue`](../idoublechartvalue). |
+| [XPlus](../../aspose.slides.charts/ierrorbarscustomvalues/xplus) { get; } | Określa wartość słupka błędów w kierunku dodatnim. Dostępne, jeśli typ wartości słupków błędów jest Custom i ErrorBarsXFormat jest dozwolony. W każdym innym przypadku ta właściwość zwraca null. Tylko do odczytu [`IDoubleChartValue`](../idoublechartvalue). |
+| [YMinus](../../aspose.slides.charts/ierrorbarscustomvalues/yminus) { get; } | Określa wartość słupka błędów w kierunku ujemnym. Dostępne, jeśli typ wartości słupków błędów jest Custom i ErrorBarsYFormat jest dozwolony. W każdym innym przypadku ta właściwość zwraca null. Tylko do odczytu [`IDoubleChartValue`](../idoublechartvalue). |
+| [YPlus](../../aspose.slides.charts/ierrorbarscustomvalues/yplus) { get; } | Określa wartość słupka błędów w kierunku dodatnim. Dostępne, jeśli typ wartości słupków błędów jest Custom i ErrorBarsYFormat jest dozwolony. W każdym innym przypadku ta właściwość zwraca null. Tylko do odczytu [`IDoubleChartValue`](../idoublechartvalue). |
 
 ### Zobacz także
 

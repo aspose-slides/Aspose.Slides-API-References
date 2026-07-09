@@ -1,14 +1,14 @@
 ---
 title: MathRadicalFactory
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Lehetővé teszi matematikai gyök létrehozását
+second_title: Aspose.Sildes .NET API referencia
+description: Lehetővé teszi a matematikai gyök létrehozását
 type: docs
-weight: 8930
+weight: 8950
 url: /hu/aspose.slides.mathtext/mathradicalfactory/
 ---
 ## MathRadicalFactory osztály
 
-Lehetővé teszi matematikai gyök létrehozását
+Lehetővé teszi a matematikai gyök létrehozását
 
 ```csharp
 public class MathRadicalFactory : IMathRadicalFactory
@@ -20,7 +20,7 @@ public class MathRadicalFactory : IMathRadicalFactory
 | --- | --- |
 | [MathRadicalFactory](mathradicalfactory)() | Az alapértelmezett konstruktor. |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
@@ -28,7 +28,7 @@ public class MathRadicalFactory : IMathRadicalFactory
 
 ### Megjegyzések
 
-COM kompatibilitás céljából
+A COM kompatibilitás miatt
 
 ### Lásd még
 

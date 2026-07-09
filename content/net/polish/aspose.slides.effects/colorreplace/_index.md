@@ -1,14 +1,14 @@
 ---
 title: ColorReplace
-second_title: Aspose.Sildes dla .NET Odwołanie API
-description: Reprezentuje efekt zastąpienia koloru. Wszystkie kolory efektu są zmieniane na stały kolor. Wartości alfa nie są zmieniane.
+second_title: Aspose.Sildes dla .NET – referencja API
+description: Reprezentuje efekt zamiany koloru. Wszystkie kolory efektu są zmieniane na stały kolor. Wartości alfa nie ulegają zmianie.
 type: docs
-weight: 2930
+weight: 2950
 url: /pl/aspose.slides.effects/colorreplace/
 ---
 ## ColorReplace klasa
 
-Reprezentuje efekt Color Replacement. Wszystkie kolory efektu są zmieniane na stały kolor. Wartości alfa nie są zmieniane.
+Reprezentuje efekt zamiany koloru. Wszystkie kolory efektu są zmieniane na stały kolor. Wartości alfa nie ulegają zmianie.
 
 ```csharp
 public sealed class ColorReplace : ImageTransformOperation, IColorReplace
@@ -25,8 +25,8 @@ public sealed class ColorReplace : ImageTransformOperation, IColorReplace
 
 | Nazwa | Opis |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/colorreplace/equals)(object) | Określa, czy określony [`ColorReplace`](../colorreplace) jest równy bieżącemu [`ColorReplace`](../colorreplace). |
-| [GetEffective](../../aspose.slides.effects/colorreplace/geteffective)() | Pobiera efektywne dane efektu Color Replacement z zastosowanym dziedziczeniem. |
+| override [Equals](../../aspose.slides.effects/colorreplace/equals)(object) | Określa, czy podany [`ColorReplace`](../colorreplace) jest równy bieżącemu [`ColorReplace`](../colorreplace). |
+| [GetEffective](../../aspose.slides.effects/colorreplace/geteffective)() | Pobiera efektywne dane efektu zamiany koloru z zastosowanym dziedziczeniem. |
 | override [GetHashCode](../../aspose.slides.effects/colorreplace/gethashcode)() | Służy jako funkcja skrótu dla określonego typu. |
 
 ### Zobacz także

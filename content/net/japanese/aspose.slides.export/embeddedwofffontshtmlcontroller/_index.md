@@ -1,9 +1,9 @@
 ---
 title: EmbeddedWoffFontsHtmlController
 second_title: Aspose.Sildes for .NET API リファレンス
-description: WOFF 形式でフォントを埋め込むために使用するフォーマット コントローラ クラス
+description: WOFF 形式でフォントを埋め込む際に使用するフォーマット コントローラ クラス
 type: docs
-weight: 3770
+weight: 3790
 url: /ja/aspose.slides.export/embeddedwofffontshtmlcontroller/
 ---
 ## EmbeddedWoffFontsHtmlController クラス

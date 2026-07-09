@@ -1,51 +1,51 @@
 ---
 title: IColorFormat
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει ένα χρώμα που χρησιμοποιείται σε μια παρουσίαση.
+description: Αναπαριστά ένα χρώμα που χρησιμοποιείται σε μια παρουσίαση.
 type: docs
-weight: 5470
+weight: 5490
 url: /el/aspose.slides/icolorformat/
 ---
-## IColorFormat διεπαφή
+## IColorFormat interface
 
-Αντιπροσωπεύει ένα χρώμα που χρησιμοποιείται σε μια παρουσίαση.
+Αναπαριστά ένα χρώμα που χρησιμοποιείται σε μια παρουσίαση.
 
 ```csharp
 public interface IColorFormat : IFillParamSource
 ```
 
-## Ιδιότητες
+## Properties
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/icolorformat/asifillparamsource) { get; } | Επιστρέφει τη διεπαφή IFillParamSource. Μόνο για ανάγνωση [`IFillParamSource`](../ifillparamsource). |
-| [B](../../aspose.slides/icolorformat/b) { get; set; } | Επιστρέφει ή ορίζει το μπλε συστατικό ενός χρώματος. Όλες οι μετασχηματισμοί χρώματος αγνοούνται. Ανάγνωση/εγγραφή Byte. |
-| [Color](../../aspose.slides/icolorformat/color) { get; set; } | Επιστρέφει το προκύπτω χρώμα (με όλους τους εφαρμοσμένους μετασχηματισμούς χρώματος). Ορίζει χρώματα RGB και καθαρίζει όλους τους μετασχηματισμούς χρώματος. Ανάγνωση/εγγραφή Color. |
-| [ColorTransform](../../aspose.slides/icolorformat/colortransform) { get; } | Επιστρέφει τη συλλογή των μετασχηματισμών χρώματος που εφαρμόζονται σε ένα χρώμα. Μόνο για ανάγνωση [`IColorOperationCollection`](../icoloroperationcollection). |
+| [AsIFillParamSource](../../aspose.slides/icolorformat/asifillparamsource) { get; } | Επιστρέφει τη διεπαφή IFillParamSource. Μόνο-ανάγνωση [`IFillParamSource`](../ifillparamsource). |
+| [B](../../aspose.slides/icolorformat/b) { get; set; } | Επιστρέφει ή ορίζει το μπλε συστατικό ενός χρώματος. Όλες οι μετατροπές χρώματος αγνοούνται. Ανάγνωση/εγγραφή Byte. |
+| [Color](../../aspose.slides/icolorformat/color) { get; set; } | Επιστρέφει το προκύπτον χρώμα (με όλες τις μετατροπές χρώματος εφαρμόσες). Ορίζει τα χρώματα RGB και διαγράφει όλες τις μετατροπές χρώματος. Ανάγνωση/εγγραφή Color. |
+| [ColorTransform](../../aspose.slides/icolorformat/colortransform) { get; } | Επιστρέφει τη συλλογή των μετατροπών χρώματος που εφαρμόζονται σε ένα χρώμα. Μόνο-ανάγνωση [`IColorOperationCollection`](../icoloroperationcollection). |
 | [ColorType](../../aspose.slides/icolorformat/colortype) { get; set; } | Επιστρέφει ή ορίζει τη μέθοδο ορισμού χρώματος. Ανάγνωση/εγγραφή [`ColorType`](../colortype). |
-| [FloatB](../../aspose.slides/icolorformat/floatb) { get; set; } | Επιστρέφει ή ορίζει το μπλε συστατικό ενός χρώματος. Όλες οι μετασχηματισμοί χρώματος αγνοούνται. Ανάγνωση/εγγραφή Single. |
-| [FloatG](../../aspose.slides/icolorformat/floatg) { get; set; } | Επιστρέφει ή ορίζει το πράσινο συστατικό ενός χρώματος. Όλες οι μετασχηματισμοί χρώματος αγνοούνται. Ανάγνωση/εγγραφή Single. |
-| [FloatR](../../aspose.slides/icolorformat/floatr) { get; set; } | Επιστρέφει ή ορίζει το κόκκινο συστατικό ενός χρώματος. Όλες οι μετασχηματισμοί χρώματος αγνοούνται. Ανάγνωση/εγγραφή Single. |
-| [G](../../aspose.slides/icolorformat/g) { get; set; } | Επιστρέφει ή ορίζει το πράσινο συστατικό ενός χρώματος. Όλες οι μετασχηματισμοί χρώματος αγνοούνται. Ανάγνωση/εγγραφή Byte. |
-| [Hue](../../aspose.slides/icolorformat/hue) { get; set; } | Επιστρέφει ή ορίζει το συστατικό απόχρωσης (hue) ενός χρώματος σε αναπαράσταση HSL. Όλες οι μετασχηματισμοί χρώματος αγνοούνται. Ανάγνωση/εγγραφή Single. |
-| [Luminance](../../aspose.slides/icolorformat/luminance) { get; set; } | Επιστρέφει ή ορίζει το συστατικό φωτεινότητας ενός χρώματος σε αναπαράσταση HSL. Όλες οι μετασχηματισμοί χρώματος αγνοούνται. Ανάγνωση/εγγραφή Single. |
+| [FloatB](../../aspose.slides/icolorformat/floatb) { get; set; } | Επιστρέφει ή ορίζει το μπλε συστατικό ενός χρώματος. Όλες οι μετατροπές χρώματος αγνοούνται. Ανάγνωση/εγγραφή Single. |
+| [FloatG](../../aspose.slides/icolorformat/floatg) { get; set; } | Επιστρέφει ή ορίζει το πράσινο συστατικό ενός χρώματος. Όλες οι μετατροπές χρώματος αγνοούνται. Ανάγνωση/εγγραφή Single. |
+| [FloatR](../../aspose.slides/icolorformat/floatr) { get; set; } | Επιστρέφει ή ορίζει το κόκκινο συστατικό ενός χρώματος. Όλες οι μετατροπές χρώματος αγνοούνται. Ανάγνωση/εγγραφή Single. |
+| [G](../../aspose.slides/icolorformat/g) { get; set; } | Επιστρέφει ή ορίζει το πράσινο συστατικό ενός χρώματος. Όλες οι μετατροπές χρώματος αγνοούνται. Ανάγνωση/εγγραφή Byte. |
+| [Hue](../../aspose.slides/icolorformat/hue) { get; set; } | Επιστρέφει ή ορίζει το συστατικό απόχρωσης σε HSL. Όλες οι μετατροπές χρώματος αγνοούνται. Ανάγνωση/εγγραφή Single. |
+| [Luminance](../../aspose.slides/icolorformat/luminance) { get; set; } | Επιστρέφει ή ορίζει το συστατικό φωτεινότητας σε HSL. Όλες οι μετατροπές χρώματος αγνοούνται. Ανάγνωση/εγγραφή Single. |
 | [PresetColor](../../aspose.slides/icolorformat/presetcolor) { get; set; } | Επιστρέφει ή ορίζει την προεπιλογή χρώματος. Ανάγνωση/εγγραφή [`PresetColor`](../presetcolor). |
-| [R](../../aspose.slides/icolorformat/r) { get; set; } | Επιστρέφει ή ορίζει το κόκκινο συστατικό ενός χρώματος. Όλες οι μετασχηματισμοί χρώματος αγνοούνται. Ανάγνωση/εγγραφή Byte. |
-| [Saturation](../../aspose.slides/icolorformat/saturation) { get; set; } | Επιστρέφει ή ορίζει το συστατικό κορεσμού (saturation) ενός χρώματος σε αναπαράσταση HSL. Όλες οι μετασχηματισμοί χρώματος αγνοούνται. Ανάγνωση/εγγραφή Single. |
-| [SchemeColor](../../aspose.slides/icolorformat/schemecolor) { get; set; } | Επιστρέφει ή ορίζει το χρώμα που προσδιορίζεται από ένα σχήμα χρωμάτων. Ανάγνωση/εγγραφή [`SchemeColor`](../schemecolor). |
-| [SystemColor](../../aspose.slides/icolorformat/systemcolor) { get; set; } | Επιστρέφει ή ορίζει το χρώμα που προσδιορίζεται από τον πίνακα χρωμάτων του συστήματος. Ανάγνωση/εγγραφή [`SystemColor`](../systemcolor). |
+| [R](../../aspose.slides/icolorformat/r) { get; set; } | Επιστρέφει ή ορίζει το κόκκινο συστατικό ενός χρώματος. Όλες οι μετατροπές χρώματος αγνοούνται. Ανάγνωση/εγγραφή Byte. |
+| [Saturation](../../aspose.slides/icolorformat/saturation) { get; set; } | Επιστρέφει ή ορίζει το συστατικό κορεσμού σε HSL. Όλες οι μετατροπές χρώματος αγνοούνται. Ανάγνωση/εγγραφή Single. |
+| [SchemeColor](../../aspose.slides/icolorformat/schemecolor) { get; set; } | Επιστρέφει ή ορίζει το χρώμα που προσδιορίζεται από ένα χρωματικό σχήμα. Ανάγνωση/εγγραφή [`SchemeColor`](../schemecolor). |
+| [SystemColor](../../aspose.slides/icolorformat/systemcolor) { get; set; } | Επιστρέφει ή ορίζει το χρώμα που προσδιορίζεται από τον πίνακα συστήματος χρωμάτων. Ανάγνωση/εγγραφή [`SystemColor`](../systemcolor). |
 
-## Μέθοδοι
+## Methods
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [CopyFrom](../../aspose.slides/icolorformat/copyfrom)(IColorFormat) | Αντιγράφει τη μορφή χρώματος από το "color". |
-| [ToString](../../aspose.slides/icolorformat/tostring)(ColorStringFormat) | Επιστρέφει ένα String που αντιπροσωπεύει την τρέχουσα μορφή χρώματος. |
+| [CopyFrom](../../aspose.slides/icolorformat/copyfrom)(IColorFormat) | Αντιγράφει τη μορφή χρώματος από "color". |
+| [ToString](../../aspose.slides/icolorformat/tostring)(ColorStringFormat) | Επιστρέφει μια String που αναπαριστά την τρέχουσα μορφή χρώματος. |
 
-### Δείτε επίσης
+### See Also
 
-* διασύνδεση [IFillParamSource](../ifillparamsource)
+* διεπαφή [IFillParamSource](../ifillparamsource)
 * χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
-* συστατική μονάδα [Aspose.Slides](../../)
+* σύστημα [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

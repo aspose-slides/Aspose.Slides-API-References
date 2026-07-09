@@ -1,14 +1,14 @@
 ---
 title: INormalViewProperties
-second_title: Aspose.Sildes for .NET API リファレンス
-description: 通常ビューのプロパティを表します。通常ビューは、スライド自体、サイドコンテンツ領域、下部コンテンツ領域の3つのコンテンツ領域で構成されます。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: 通常ビューのプロパティを表します。通常ビューは、スライドそのもの、側面コンテンツ領域、そして下部コンテンツ領域の 3 つのコンテンツ領域で構成されます。
 type: docs
-weight: 6450
+weight: 6470
 url: /ja/aspose.slides/inormalviewproperties/
 ---
-## INormalViewProperties インターフェイス
+## INormalViewProperties インターフェース
 
-通常ビューのプロパティを表します。通常ビューは、スライド自体、サイドコンテンツ領域、下部コンテンツ領域の 3 つのコンテンツ領域で構成されます。
+通常ビューのプロパティを表します。通常ビューは 3 つのコンテンツ領域で構成されます：スライド自体、側面コンテンツ領域、そして下部コンテンツ領域。
 
 ```csharp
 public interface INormalViewProperties
@@ -18,13 +18,13 @@ public interface INormalViewProperties
 
 | 名前 | 説明 |
 | --- | --- |
-| [HorizontalBarState](../../aspose.slides/inormalviewproperties/horizontalbarstate) { get; set; } | 水平スプリッタバーが表示される状態を指定します。水平スプリッタバーはスライドとスライド下のコンテンツ領域を分割します。 |
-| [PreferSingleView](../../aspose.slides/inormalviewproperties/prefersingleview) { get; set; } | ユーザーが標準の 3 つのコンテンツ領域を持つ通常ビューではなく、全画面の単一コンテンツ領域を優先して表示したいかどうかを指定します。有効にすると、アプリケーションは任意のコンテンツ領域をウィンドウ全体に表示することを選択できる場合があります。読み取り/書き込み Boolean。 |
-| [RestoredLeft](../../aspose.slides/inormalviewproperties/restoredleft) { get; } | この要素は、変動復元サイズ（最小化でも最大化でもない）の状態にあるときの、通常ビューのサイドコンテンツ領域のサイズを指定します。読み取り専用 [`INormalViewRestoredProperties`](../inormalviewrestoredproperties)。 |
-| [RestoredTop](../../aspose.slides/inormalviewproperties/restoredtop) { get; } | この要素は、変動復元サイズ（最小化でも最大化でもない）の状態にあるときの、通常ビューの上部スライド領域のサイズを指定します。読み取り専用 [`INormalViewRestoredProperties`](../inormalviewrestoredproperties)。 |
-| [ShowOutlineIcons](../../aspose.slides/inormalviewproperties/showoutlineicons) { get; set; } | 通常ビュー モードのいずれかのコンテンツ領域でアウトラインコンテンツを表示する場合に、アプリケーションがアイコンを表示すべきかどうかを指定します。読み取り/書き込み Boolean。 |
-| [SnapVerticalSplitter](../../aspose.slides/inormalviewproperties/snapverticalsplitter) { get; set; } | サイド領域が十分に小さいときに、垂直スプリッタが最小化状態にスナップするかどうかを指定します。読み取り/書き込み Boolean。 |
-| [VerticalBarState](../../aspose.slides/inormalviewproperties/verticalbarstate) { get; set; } | 垂直スプリッタバーが表示される状態を指定します。垂直スプリッタバーはスライドとサイドコンテンツ領域を分割します。 |
+| [HorizontalBarState](../../aspose.slides/inormalviewproperties/horizontalbarstate) { get; set; } | 水平スプリッタバーが表示される状態を指定します。水平スプリッタバーはスライドとスライド下部のコンテンツ領域を分割します。 |
+| [PreferSingleView](../../aspose.slides/inormalviewproperties/prefersingleview) { get; set; } | ユーザーが標準の 3 つのコンテンツ領域を持つ通常ビューではなく、ウィンドウ全体に単一のコンテンツ領域を表示することを好むかどうかを指定します。有効にすると、アプリケーションはコンテンツ領域のいずれかをウィンドウ全体に表示することを選択できる場合があります。読み書き Boolean。 |
+| [RestoredLeft](../../aspose.slides/inormalviewproperties/restoredleft) { get; } | この要素は、領域が可変の復元サイズ（最小化でも最大化でもない）であるときの、通常ビューの側面コンテンツ領域のサイズを指定します。読み取り専用 [`INormalViewRestoredProperties`](../inormalviewrestoredproperties)。 |
+| [RestoredTop](../../aspose.slides/inormalviewproperties/restoredtop) { get; } | この要素は、領域が可変の復元サイズ（最小化でも最大化でもない）であるときの、通常ビューの上部スライド領域のサイズを指定します。読み取り専用 [`INormalViewRestoredProperties`](../inormalviewrestoredproperties)。 |
+| [ShowOutlineIcons](../../aspose.slides/inormalviewproperties/showoutlineicons) { get; set; } | 通常ビュー モードの任意のコンテンツ領域でアウトライン コンテンツを表示する場合に、アプリケーションがアイコンを表示すべきかどうかを指定します。読み書き Boolean。 |
+| [SnapVerticalSplitter](../../aspose.slides/inormalviewproperties/snapverticalsplitter) { get; set; } | 側面領域が十分に小さい場合に、垂直スプリッタが最小化状態にスナップするかどうかを指定します。読み書き Boolean。 |
+| [VerticalBarState](../../aspose.slides/inormalviewproperties/verticalbarstate) { get; set; } | 垂直スプリッタバーが表示される状態を指定します。垂直スプリッタバーはスライドと側面コンテンツ領域を分割します。 |
 
 ### 関連項目
 

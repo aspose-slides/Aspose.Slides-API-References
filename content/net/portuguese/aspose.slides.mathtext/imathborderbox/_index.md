@@ -1,12 +1,12 @@
 ---
 title: IMathBorderBox
-second_title: Aspose.Sildes para .NET Referência da API
-description: Desenha uma borda retangular ou outra borda ao redor do IMathElement.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Desenha uma borda retangular ou outra ao redor do IMathElement.
 type: docs
-weight: 8150
+weight: 8170
 url: /pt/aspose.slides.mathtext/imathborderbox/
 ---
-## interface IMathBorderBox
+## IMathBorderBox interface
 
 Desenha uma borda retangular ou outra borda ao redor do IMathElement.
 
@@ -20,14 +20,14 @@ public interface IMathBorderBox : IMathElement
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathborderbox/asimathelement) { get; } | Permite obter a interface base IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathborderbox/base) { get; } | Argumento base |
-| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | Ocultar borda inferior (padrão é false) - especifica o estado oculto ou visível da borda inferior da caixa de borda. |
-| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | Ocultar borda esquerda (padrão é false) - especifica o estado oculto ou visível da borda esquerda da caixa de borda. |
-| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | Ocultar borda direita (padrão é false) - especifica o estado oculto ou visível da borda direita da caixa de borda. |
-| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | Ocultar borda superior (padrão é false) - especifica o estado oculto ou visível da borda superior da caixa de borda. |
-| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | Traço transversal de baixo-esquerda para cima-direita (padrão é false). Especifica o estado oculto ou visível de uma linha diagonal riscada do canto inferior esquerdo ao canto superior direito da caixa de borda. |
-| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | Traço transversal horizontal (padrão é false) - especifica o estado oculto ou visível de uma linha horizontal riscada. |
-| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | Traço transversal de cima-esquerda para baixo-direita (padrão é false). Especifica o estado oculto ou visível de uma linha diagonal riscada do canto superior esquerdo ao canto inferior direito da caixa de borda. |
-| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | Traço transversal vertical (padrão é false) - especifica o estado oculto ou visível de uma linha vertical riscada. |
+| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | Ocultar borda inferior (valor padrão é false) - especifica o estado oculto ou exibido da borda inferior da caixa de borda. |
+| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | Ocultar borda esquerda (valor padrão é false) - especifica o estado oculto ou exibido da borda esquerda da caixa de borda. |
+| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | Ocultar borda direita (valor padrão é false) - especifica o estado oculto ou exibido da borda direita da caixa de borda. |
+| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | Ocultar borda superior (valor padrão é false) - especifica o estado oculto ou exibido da borda superior da caixa de borda. |
+| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | Riscado da diagonal inferior-esquerda para superior-direita (valor padrão é false). Especifica o estado oculto ou exibido de uma linha diagonal riscada do canto inferior-esquerdo ao canto superior-direito da caixa de borda. |
+| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | Riscado horizontal (valor padrão é false) - especifica o estado oculto ou exibido de uma linha horizontal riscada. |
+| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | Riscado da diagonal superior-esquerda para inferior-direita (valor padrão é false). Especifica o estado oculto ou exibido de uma linha diagonal riscada do canto superior-esquerdo ao canto inferior-direito da caixa de borda. |
+| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | Riscado vertical (valor padrão é false) - especifica o estado oculto ou exibido de uma linha vertical riscada. |
 
 ### Exemplos
 
@@ -38,7 +38,7 @@ Exemplo:
 IMathBorderBox borderBox = new MathematicalText("x+y+z").ToBorderBox();
 ```
 
-### Veja Também
+### Veja também
 
 * interface [IMathElement](../imathelement)
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

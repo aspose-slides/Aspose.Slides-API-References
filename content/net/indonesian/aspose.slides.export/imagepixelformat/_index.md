@@ -3,10 +3,10 @@ title: ImagePixelFormat
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Menentukan format piksel untuk gambar yang dihasilkan.
 type: docs
-weight: 4190
+weight: 4210
 url: /id/aspose.slides.export/imagepixelformat/
 ---
-## enumerasi ImagePixelFormat
+## ImagePixelFormat enumerasi
 
 Menentukan format piksel untuk gambar yang dihasilkan.
 

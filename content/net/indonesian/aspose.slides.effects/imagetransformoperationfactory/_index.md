@@ -1,12 +1,12 @@
 ---
 title: ImageTransformOperationFactory
-second_title: Referensi API Aspose.Slides untuk .NET
-description: Memungkinkan membuat operasi transformasi gambar
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Memungkinkan untuk membuat operasi transformasi gambar
 type: docs
-weight: 3570
+weight: 3590
 url: /id/aspose.slides.effects/imagetransformoperationfactory/
 ---
-## ImageTransformOperationFactory kelas
+## Kelas ImageTransformOperationFactory
 
 Memungkinkan untuk membuat operasi transformasi gambar
 
@@ -33,11 +33,11 @@ public class ImageTransformOperationFactory : IImageTransformOperationFactory
 | [CreateAlphCeiling](../../aspose.slides.effects/imagetransformoperationfactory/createalphceiling)() | Membuat efek Alpha Ceiling. |
 | [CreateBiLevel](../../aspose.slides.effects/imagetransformoperationfactory/createbilevel)(float) | Membuat efek BiLevel. |
 | [CreateBlur](../../aspose.slides.effects/imagetransformoperationfactory/createblur)(double, bool) | Membuat efek Blur. |
-| [CreateColorChange](../../aspose.slides.effects/imagetransformoperationfactory/createcolorchange)() | Membuat efek perubahan Warna. |
-| [CreateColorReplace](../../aspose.slides.effects/imagetransformoperationfactory/createcolorreplace)() | Membuat efek penggantian Warna. |
+| [CreateColorChange](../../aspose.slides.effects/imagetransformoperationfactory/createcolorchange)() | Membuat efek Color change. |
+| [CreateColorReplace](../../aspose.slides.effects/imagetransformoperationfactory/createcolorreplace)() | Membuat efek Color replace. |
 | [CreateDuotone](../../aspose.slides.effects/imagetransformoperationfactory/createduotone)() | Membuat efek Duotone. |
-| [CreateFillOverlay](../../aspose.slides.effects/imagetransformoperationfactory/createfilloverlay)() | Membuat efek overlay Fill. |
-| [CreateGrayScale](../../aspose.slides.effects/imagetransformoperationfactory/creategrayscale)() | Membuat efek skala abu-abu. |
+| [CreateFillOverlay](../../aspose.slides.effects/imagetransformoperationfactory/createfilloverlay)() | Membuat efek Fill overlay. |
+| [CreateGrayScale](../../aspose.slides.effects/imagetransformoperationfactory/creategrayscale)() | Membuat efek Gray scale. |
 | [CreateHSL](../../aspose.slides.effects/imagetransformoperationfactory/createhsl)(float, float, float) | Membuat efek Hue Saturation Luminance. |
 | [CreateLuminance](../../aspose.slides.effects/imagetransformoperationfactory/createluminance)(float, float) | Membuat efek Luminance. |
 | [CreateTint](../../aspose.slides.effects/imagetransformoperationfactory/createtint)(float, float) | Membuat efek Tint. |

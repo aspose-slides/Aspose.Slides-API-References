@@ -1,9 +1,9 @@
 ---
 title: IMasterSlideCollection
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET - dokumentacja API
 description: Reprezentuje kolekcję slajdów master.
 type: docs
-weight: 6410
+weight: 6430
 url: /pl/aspose.slides/imasterslidecollection/
 ---
 ## IMasterSlideCollection interfejs
@@ -18,16 +18,16 @@ public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
 
 | Nazwa | Opis |
 | --- | --- |
-| [Item](../../aspose.slides/imasterslidecollection/item) { get; } | Pobiera element o określonym indeksie. Tylko do odczytu [`IMasterSlide`](../imasterslide). |
+| [Item](../../aspose.slides/imasterslidecollection/item) { get; } | Zwraca element o podanym indeksie. Tylko do odczytu [`IMasterSlide`](../imasterslide). |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | Dodaje kopię określonego slajdu master do końca kolekcji. Powiązane slajdy układu również zostaną skopiowane. |
-| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Wstawia kopię określonego slajdu master na określoną pozycję w kolekcji. Powiązane slajdy układu również zostaną skopiowane. |
+| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | Dodaje kopię określonego slajdu master na koniec kolekcji. Powiązane slajdy układu również zostaną skopiowane. |
+| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Wstawia kopię określonego slajdu master na wskazaną pozycję w kolekcji. Powiązane slajdy układu również zostaną skopiowane. |
 | [Remove](../../aspose.slides/imasterslidecollection/remove)(IMasterSlide) | Usuwa pierwsze wystąpienie określonego obiektu z kolekcji. |
-| [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | Usuwa element o określonym indeksie w kolekcji. |
+| [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | Usuwa element o podanym indeksie w kolekcji. |
 | [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | Usuwa nieużywane slajdy master. |
 
 ### Zobacz także

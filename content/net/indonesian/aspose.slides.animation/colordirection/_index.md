@@ -3,10 +3,10 @@ title: ColorDirection
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili arah warna untuk perilaku efek warna.
 type: docs
-weight: 200
+weight: 220
 url: /id/aspose.slides.animation/colordirection/
 ---
-## enumerasi ColorDirection
+## ColorDirection enumerasi
 
 Mewakili arah warna untuk perilaku efek warna.
 

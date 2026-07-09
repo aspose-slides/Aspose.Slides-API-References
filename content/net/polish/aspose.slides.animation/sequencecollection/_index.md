@@ -1,9 +1,9 @@
 ---
 title: SequenceCollection
-second_title: Aspose.Sildes dla .NET – referencja API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje kolekcję interaktywnych sekwencji.
 type: docs
-weight: 780
+weight: 800
 url: /pl/aspose.slides.animation/sequencecollection/
 ---
 ## SequenceCollection klasa
@@ -25,7 +25,7 @@ public class SequenceCollection : ISequenceCollection
 
 | Nazwa | Opis |
 | --- | --- |
-| [Add](../../aspose.slides.animation/sequencecollection/add)(IShape) | Dodaje nową interaktywną sekwencję. Odczyt/zapis [`Sequence`](../sequence). |
+| [Add](../../aspose.slides.animation/sequencecollection/add)(IShape) | Dodaj nową interaktywną sekwencję. Odczyt/zapis [`Sequence`](../sequence). |
 | [Clear](../../aspose.slides.animation/sequencecollection/clear)() | Usuwa wszystkie sekwencje z kolekcji. |
 | [GetEnumerator](../../aspose.slides.animation/sequencecollection/getenumerator)() | Zwraca enumerator, który iteruje po kolekcji. |
 | [Remove](../../aspose.slides.animation/sequencecollection/remove)(ISequence) | Usuwa określoną sekwencję z kolekcji. |

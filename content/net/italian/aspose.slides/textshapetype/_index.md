@@ -1,12 +1,12 @@
 ---
 title: TextShapeType
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta la forma di avvolgimento del testo.
 type: docs
-weight: 10960
+weight: 10980
 url: /it/aspose.slides/textshapetype/
 ---
-## Enumerazione TextShapeType
+## TextShapeType enumerazione
 
 Rappresenta la forma di avvolgimento del testo.
 
@@ -24,38 +24,38 @@ public enum TextShapeType : sbyte
 | Stop | `2` | Segnale di stop |
 | Triangle | `3` | Triangolo |
 | TriangleInverted | `4` | Triangolo invertito |
-| Chevron | `5` | Freccia a V |
-| ChevronInverted | `6` | Freccia a V invertita |
+| Chevron | `5` | Freccia |
+| ChevronInverted | `6` | Freccia invertita |
 | RingInside | `7` | Anello interno |
 | RingOutside | `8` | Anello esterno |
 | ArchUp | `9` | Arco verso l'alto |
 | ArchDown | `10` | Arco verso il basso |
 | Circle | `11` | Cerchio |
 | Button | `12` | Pulsante |
-| ArchUpPour | `13` | Arco di versamento verso l'alto |
-| ArchDownPour | `14` | Arco di versamento verso il basso |
-| CirclePour | `15` | Versamento circolare |
-| ButtonPour | `16` | Versamento pulsante |
+| ArchUpPour | `13` | Arco di riempimento verso l'alto |
+| ArchDownPour | `14` | Arco di riempimento verso il basso |
+| CirclePour | `15` | Riempimento cerchio |
+| ButtonPour | `16` | Riempimento pulsante |
 | CurveUp | `17` | Curva verso l'alto |
 | CurveDown | `18` | Curva verso il basso |
 | CanUp | `19` | Lattina verso l'alto |
 | CanDown | `20` | Lattina verso il basso |
 | Wave1 | `21` | Onda 1 |
 | Wave2 | `22` | Onda 2 |
-| DoubleWave1 | `23` | Doppia Onda 1 |
+| DoubleWave1 | `23` | Doppia onda 1 |
 | Wave4 | `24` | Onda 4 |
-| Inflate | `25` | Gonfiare |
-| Deflate | `26` | Sgonfiare |
-| InflateBottom | `27` | Gonfiatura inferiore |
-| DeflateBottom | `28` | Sgonfiatura inferiore |
-| InflateTop | `29` | Gonfiatura superiore |
-| DeflateTop | `30` | Sgonfiatura superiore |
+| Inflate | `25` | Gonfia |
+| Deflate | `26` | Sgonfia |
+| InflateBottom | `27` | Gonfia in basso |
+| DeflateBottom | `28` | Sgonfia in basso |
+| InflateTop | `29` | Gonfia in alto |
+| DeflateTop | `30` | Sgonfia in alto |
 | DeflateInflate | `31` | Sgonfia-Gonfia |
 | DeflateInflateDeflate | `32` | Sgonfia-Gonfia-Sgonfia |
-| FadeRight | `33` | Dissolvenza a destra |
-| FadeLeft | `34` | Dissolvenza a sinistra |
-| FadeUp | `35` | Dissolvenza verso l'alto |
-| FadeDown | `36` | Dissolvenza verso il basso |
+| FadeRight | `33` | Sfumatura a destra |
+| FadeLeft | `34` | Sfumatura a sinistra |
+| FadeUp | `35` | Sfumatura verso l'alto |
+| FadeDown | `36` | Sfumatura verso il basso |
 | SlantUp | `37` | Inclinazione verso l'alto |
 | SlantDown | `38` | Inclinazione verso il basso |
 | CascadeUp | `39` | Cascata verso l'alto |

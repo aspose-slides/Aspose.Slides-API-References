@@ -1,14 +1,14 @@
 ---
 title: PptReadException
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili sebuah pengecualian yang dilemparkan pada kesalahan pembacaan presentasi.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili pengecualian yang dilempar saat terjadi kesalahan membaca presentasi.
 type: docs
-weight: 9510
+weight: 9530
 url: /id/aspose.slides/pptreadexception/
 ---
 ## PptReadException kelas
 
-Mewakili sebuah pengecualian yang dilemparkan pada kesalahan pembacaan presentasi.
+Mewakili pengecualian yang dilempar ketika terjadi kesalahan membaca presentasi.
 
 ```csharp
 public class PptReadException : PptException
@@ -20,7 +20,7 @@ public class PptReadException : PptException
 | --- | --- |
 | [PptReadException](pptreadexception#constructor)() | Konstruktor default. |
 | [PptReadException](pptreadexception#constructor_1)(string) | Konstruktor yang memungkinkan pesan ditambahkan ke pengecualian ini. |
-| [PptReadException](pptreadexception#constructor_2)(string, Exception) | Konstruktor untuk pengecualian yang berisi pesan dan pengecualian yang terbenam. |
+| [PptReadException](pptreadexception#constructor_2)(string, Exception) | Konstruktor untuk pengecualian yang berisi pesan dan pengecualian yang disematkan. |
 
 ### Lihat Juga
 

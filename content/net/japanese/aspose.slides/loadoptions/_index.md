@@ -1,14 +1,14 @@
 ---
 title: LoadOptions
-second_title: Aspose.Sildes の .NET API リファレンス
-description: プレゼンテーションの読み込み時に、フォーマットや既定フォントなどの追加オプションを指定できます。
+second_title: Aspose.Slides for .NET APIリファレンス
+description: プレゼンテーションの読み込み時に、形式やデフォルトフォントなどの追加オプションを指定できます。
 type: docs
-weight: 7820
+weight: 7840
 url: /ja/aspose.slides/loadoptions/
 ---
 ## LoadOptions クラス
 
-プレゼンテーションの読み込み時に、追加オプション（フォーマットやデフォルトフォントなど）を指定できます。
+プレゼンテーションをロードするときに、追加オプション（フォーマットやデフォルトフォントなど）を指定できます。
 
 ```csharp
 public class LoadOptions : ILoadOptions
@@ -18,27 +18,27 @@ public class LoadOptions : ILoadOptions
 
 | 名前 | 説明 |
 | --- | --- |
-| [LoadOptions](loadoptions#constructor)() | 新しい既定のロードオプションを作成します。 |
-| [LoadOptions](loadoptions#constructor_1)(LoadFormat) | 新しいロードオプションを作成します。 |
+| [LoadOptions](loadoptions#constructor)() | 既定のロード オプションを新規作成します。 |
+| [LoadOptions](loadoptions#constructor_1)(LoadFormat) | 新しいロード オプションを作成します。 |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [BlobManagementOptions](../../aspose.slides/loadoptions/blobmanagementoptions) { get; set; } | バイナリラージオブジェクト (BLOB) の処理動作を管理するために使用できるオプションを表します。たとえば、一時ファイルの使用やメモリ内の BLOB の最大バイト数などです。これらのオプションは、特定の環境や要件に対して最適なパフォーマンス／メモリ消費のバランスを設定することを目的としています。バイナリラージオブジェクト (BLOB) は単一のエンティティとして保存されるバイナリデータであり、音声、動画、またはプレゼンテーション自体になることがあります。 |
-| [DefaultAsianFont](../../aspose.slides/loadoptions/defaultasianfont) { get; set; } | ソースフォントが見つからない場合に使用されるアジア系フォントを取得または設定します。読み取り/書き込み可能な String。 |
-| [DefaultRegularFont](../../aspose.slides/loadoptions/defaultregularfont) { get; set; } | ソースフォントが見つからない場合に使用される標準フォントを取得または設定します。読み取り/書き込み可能な String。 |
-| [DefaultSymbolFont](../../aspose.slides/loadoptions/defaultsymbolfont) { get; set; } | ソースフォントが見つからない場合に使用されるシンボルフォントを取得または設定します。読み取り/書き込み可能な String。 |
-| [DefaultTextLanguage](../../aspose.slides/loadoptions/defaulttextlanguage) { get; set; } | プレゼンテーションテキストのデフォルト言語を取得または設定します。読み取り/書き込み可能な String。 |
-| [DeleteEmbeddedBinaryObjects](../../aspose.slides/loadoptions/deleteembeddedbinaryobjects) { get; set; } | プレゼンテーションの読み込み時に Aspose.Slides がすべての埋め込みバイナリオブジェクトを削除するかどうかを決定します。 |
+| [BlobManagementOptions](../../aspose.slides/loadoptions/blobmanagementoptions) { get; set; } | Binary Large Objects (BLOBs) の処理動作を管理するために使用できるオプションを表します。たとえば、一時ファイルの使用やメモリ内の BLOB の最大バイト数などです。これらのオプションは、特定の環境や要件に合わせて、最高のパフォーマンスとメモリ使用量のバランスを設定することを目的としています。Binary Large Object (BLOB) は、単一のエンティティとして格納されるバイナリデータであり、たとえば音声、動画、またはプレゼンテーション自体になることがあります。 |
+| [DefaultAsianFont](../../aspose.slides/loadoptions/defaultasianfont) { get; set; } | ソース フォントが見つからない場合に使用されるアジア系フォントを取得または設定します。Read/write String. |
+| [DefaultRegularFont](../../aspose.slides/loadoptions/defaultregularfont) { get; set; } | ソース フォントが見つからない場合に使用される標準フォントを取得または設定します。Read/write String. |
+| [DefaultSymbolFont](../../aspose.slides/loadoptions/defaultsymbolfont) { get; set; } | ソース フォントが見つからない場合に使用されるシンボルフォントを取得または設定します。Read/write String. |
+| [DefaultTextLanguage](../../aspose.slides/loadoptions/defaulttextlanguage) { get; set; } | プレゼンテーション テキストのデフォルト言語を取得または設定します。Read/write String. |
+| [DeleteEmbeddedBinaryObjects](../../aspose.slides/loadoptions/deleteembeddedbinaryobjects) { get; set; } | プレゼンテーションのロード中に Aspose.Slides がすべての埋め込みバイナリ オブジェクトを削除するかどうかを決定します。 |
 | [DocumentLevelFontSources](../../aspose.slides/loadoptions/documentlevelfontsources) { get; set; } | プレゼンテーションで使用される外部フォントのソースを指定します。これらのフォントはプレゼンテーションの存続期間中利用可能で、他のプレゼンテーションとは共有されません。 |
-| [InterruptionToken](../../aspose.slides/loadoptions/interruptiontoken) { get; set; } | 割り込み要求を監視するトークンです。このトークンは [`IPresentation`](../ipresentation) インスタンス全体のライフタイムを管理します。プレゼンテーションの読み込みや保存などの長時間実行される操作は、[`InterruptionTokenSource`](../interruptiontokensource) の [`Interrupt`](../interruptiontokensource/interrupt) メソッドを呼び出すことで割り込まれます。 |
-| [LoadFormat](../../aspose.slides/loadoptions/loadformat) { get; set; } | 読み込むプレゼンテーションのフォーマットを取得または設定します。読み取り/書き込み可能な [`LoadFormat`](../loadformat)。 |
-| [OnlyLoadDocumentProperties](../../aspose.slides/loadoptions/onlyloaddocumentproperties) { get; set; } | このプロパティは、プレゼンテーションファイルがパスワードで保護されている場合に意味があります。true の場合、暗号化されたプレゼンテーションファイルからドキュメントプロパティのみを読み込み、パスワードは無視されます。false の場合、正しいパスワードを使用して暗号化されたプレゼンテーション全体を読み込みます。プレゼンテーションが暗号化されていない場合、このプロパティの値は常に無視されます。暗号化されたファイルのドキュメントプロパティが非公開で、プロパティの値が true の場合、ドキュメントプロパティは読み込めず、例外がスローされます。読み取り/書き込み可能な Boolean。 |
-| [Password](../../aspose.slides/loadoptions/password) { get; set; } | パスワードを取得または設定します。読み取り/書き込み可能な String。 |
-| [ResourceLoadingCallback](../../aspose.slides/loadoptions/resourceloadingcallback) { get; set; } | 外部リソースの読み込みを管理するコールバックインターフェイスを取得または設定します。読み取り/書き込み可能な [`IResourceLoadingCallback`](../iresourceloadingcallback)。 |
-| [SpreadsheetOptions](../../aspose.slides/loadoptions/spreadsheetoptions) { get; set; } | スプレッドシート用のオプションを取得します。たとえば、これらのオプションはチャートの数式計算に影響します。 |
-| [WarningCallback](../../aspose.slides/loadoptions/warningcallback) { get; set; } | 警告を受け取り、ロードプロセスを継続するか中止するかを判断するオブジェクトを取得または設定します。読み取り/書き込み可能な [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
+| [InterruptionToken](../../aspose.slides/loadoptions/interruptiontoken) { get; set; } | 割り込み要求を監視するトークンです。このトークンは [`IPresentation`](../ipresentation) インスタンス全体の寿命を管理します。プレゼンテーションのロードや保存などの長時間実行される操作は、[`InterruptionTokenSource`](../interruptiontokensource) の [`Interrupt`](../interruptiontokensource/interrupt) メソッドを呼び出すことで中断されます。 |
+| [LoadFormat](../../aspose.slides/loadoptions/loadformat) { get; set; } | ロードするプレゼンテーションの形式を取得または設定します。Read/write [`LoadFormat`](../loadformat)。 |
+| [OnlyLoadDocumentProperties](../../aspose.slides/loadoptions/onlyloaddocumentproperties) { get; set; } | このプロパティは、プレゼンテーション ファイルがパスワードで保護されている場合に意味があります。true の場合、暗号化されたプレゼンテーション ファイルからドキュメント プロパティのみをロードし、パスワードは無視されます。false の場合、正しいパスワードを使用して暗号化されたプレゼンテーション全体をロードします。プレゼンテーションが暗号化されていない場合、このプロパティの値は常に無視されます。暗号化されたファイルのドキュメント プロパティが公開されておらず、かつプロパティの値が true の場合、ドキュメント プロパティはロードできず例外がスローされます。Read/write Boolean. |
+| [Password](../../aspose.slides/loadoptions/password) { get; set; } | パスワードを取得または設定します。Read/write String. |
+| [ResourceLoadingCallback](../../aspose.slides/loadoptions/resourceloadingcallback) { get; set; } | 外部リソースのロードを管理するコールバック インターフェイスを取得または設定します。Read/write [`IResourceLoadingCallback`](../iresourceloadingcallback)。 |
+| [SpreadsheetOptions](../../aspose.slides/loadoptions/spreadsheetoptions) { get; set; } | スプレッドシート用のオプションを取得します。例えば、これらのオプションはチャートの数式計算に影響します。 |
+| [WarningCallback](../../aspose.slides/loadoptions/warningcallback) { get; set; } | 警告を受け取り、ロード処理を継続するか中止するかを決定するオブジェクトを取得または設定します。Read/write [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
 
 ### 参照
 

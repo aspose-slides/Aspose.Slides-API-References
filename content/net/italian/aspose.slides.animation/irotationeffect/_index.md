@@ -3,10 +3,10 @@ title: IRotationEffect
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta il comportamento di rotazione dell'effetto.
 type: docs
-weight: 550
+weight: 570
 url: /it/aspose.slides.animation/irotationeffect/
 ---
-## IRotationEffect interfaccia
+## IRotationEffect interface
 
 Rappresenta il comportamento di rotazione dell'effetto.
 

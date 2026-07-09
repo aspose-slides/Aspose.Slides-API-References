@@ -1,9 +1,9 @@
 ---
 title: ISmartArtShape
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili sebuah bentuk di dalam diagram SmartArt
+description: Mewakili bentuk di dalam diagram SmartArt
 type: docs
-weight: 10550
+weight: 10570
 url: /id/aspose.slides.smartart/ismartartshape/
 ---
 ## ISmartArtShape antarmuka
@@ -18,8 +18,8 @@ public interface ISmartArtShape : IGeometryShape
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides.smartart/ismartartshape/asigeometryshape) { get; } | Memungkinkan untuk mendapatkan antarmuka IGeometryShape dasar. Hanya-baca [`IGeometryShape`](../../aspose.slides/igeometryshape). |
-| [TextFrame](../../aspose.slides.smartart/ismartartshape/textframe) { get; } | Mengembalikan teks dari bentuk SmartArt. Hanya-baca [`ITextFrame`](../../aspose.slides/itextframe). |
+| [AsIGeometryShape](../../aspose.slides.smartart/ismartartshape/asigeometryshape) { get; } | Mengizinkan untuk mendapatkan antarmuka IGeometryShape dasar. Hanya baca [`IGeometryShape`](../../aspose.slides/igeometryshape). |
+| [TextFrame](../../aspose.slides.smartart/ismartartshape/textframe) { get; } | Mengembalikan teks dari bentuk SmartArt. Hanya baca [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ### Lihat Juga
 

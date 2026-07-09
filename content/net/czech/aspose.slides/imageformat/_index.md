@@ -1,12 +1,12 @@
 ---
 title: ImageFormat
-second_title: Aspose.Sildes pro .NET API Referenci
+second_title: Aspose.Sildes pro .NET referenci API
 description: Reprezentuje formát souboru obrázku.
 type: docs
-weight: 7410
+weight: 7430
 url: /cs/aspose.slides/imageformat/
 ---
-## ImageFormat enumerace
+## výčet ImageFormat
 
 Reprezentuje formát souboru obrázku.
 
@@ -19,13 +19,13 @@ public enum ImageFormat
 | Název | Hodnota | Popis |
 | --- | --- | --- |
 | MemoryBmp | `0` | Reprezentuje formát bitmapy v paměti. |
-| Bmp | `1` | Reprezentuje formát obrázku bitmap (BMP). |
-| Emf | `2` | Reprezentuje formát obrázku rozšířeného metafile (EMF). |
-| Wmf | `3` | Reprezentuje formát obrázku Windows metafile (WMF). |
-| Gif | `4` | Reprezentuje formát obrázku Graphics Interchange Format (GIF). |
-| Jpeg | `5` | Reprezentuje formát obrázku Joint Photographic Experts Group (JPEG). |
-| Png | `6` | Reprezentuje formát obrázku W3C Portable Network Graphics (PNG). |
-| Tiff | `7` | Reprezentuje formát obrázku Tagged Image File Format (TIFF). |
+| Bmp | `1` | Reprezentuje formát bitmapy (BMP). |
+| Emf | `2` | Reprezentuje formát vylepšeného metafile (EMF). |
+| Wmf | `3` | Reprezentuje formát Windows metafile (WMF). |
+| Gif | `4` | Reprezentuje formát Graphics Interchange Format (GIF). |
+| Jpeg | `5` | Reprezentuje formát Joint Photographic Experts Group (JPEG). |
+| Png | `6` | Reprezentuje formát W3C Portable Network Graphics (PNG). |
+| Tiff | `7` | Reprezentuje formát Tagged Image File Format (TIFF). |
 | Exif | `8` | Reprezentuje formát Exchangeable Image File (Exif). |
 | Icon | `9` | Reprezentuje formát Windows ikony. |
 

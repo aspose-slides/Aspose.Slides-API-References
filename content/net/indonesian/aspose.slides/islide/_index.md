@@ -1,14 +1,14 @@
 ---
 title: ISlide
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili slide dalam presentasi.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili sebuah slide dalam presentasi.
 type: docs
-weight: 7020
+weight: 7040
 url: /id/aspose.slides/islide/
 ---
-## ISlide antarmuka
+## antarmuka ISlide
 
-Mewakili slide dalam presentasi.
+Mewakili sebuah slide dalam presentasi.
 
 ```csharp
 public interface ISlide : IBaseSlide, IOverrideThemeable
@@ -18,37 +18,37 @@ public interface ISlide : IBaseSlide, IOverrideThemeable
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/islide/asibaseslide) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar IBaseSlide. Hanya baca [`IBaseSlide`](../ibaseslide). |
-| [AsIOverrideThemeable](../../aspose.slides/islide/asioverridethemeable) { get; } | Mengembalikan antarmuka IOverrideThemeable. Hanya baca [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [HeaderFooterManager](../../aspose.slides/islide/headerfootermanager) { get; } | Mengembalikan manajer HeaderFooter slide. Hanya baca [`ISlideHeaderFooterManager`](../islideheaderfootermanager). |
+| [AsIBaseSlide](../../aspose.slides/islide/asibaseslide) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar IBaseSlide. Hanya-baca [`IBaseSlide`](../ibaseslide). |
+| [AsIOverrideThemeable](../../aspose.slides/islide/asioverridethemeable) { get; } | Mengembalikan antarmuka IOverrideThemeable. Hanya-baca [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
+| [HeaderFooterManager](../../aspose.slides/islide/headerfootermanager) { get; } | Mengembalikan manajer HeaderFooter slide. Hanya-baca [`ISlideHeaderFooterManager`](../islideheaderfootermanager). |
 | [Hidden](../../aspose.slides/islide/hidden) { get; set; } | Menentukan apakah slide yang ditentukan disembunyikan selama pertunjukan slide. Baca/tulis Boolean. |
-| [LayoutSlide](../../aspose.slides/islide/layoutslide) { get; set; } | Mengembalikan atau mengatur layout slide untuk slide saat ini. Baca/tulis [`ILayoutSlide`](../ilayoutslide). |
-| [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | Memungkinkan mengakses slide catatan, menambah dan menghapusnya. Hanya baca [`INotesSlideManager`](../inotesslidemanager). |
+| [LayoutSlide](../../aspose.slides/islide/layoutslide) { get; set; } | Mengembalikan atau mengatur slide tata letak untuk slide saat ini. Baca/tulis [`ILayoutSlide`](../ilayoutslide). |
+| [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | Memungkinkan mengakses slide catatan, menambah dan menghapusnya. Hanya-baca [`INotesSlideManager`](../inotesslidemanager). |
 | [SlideNumber](../../aspose.slides/islide/slidenumber) { get; set; } | Mengembalikan nomor slide. Indeks slide dalam koleksi [`Slides`](../ipresentation/slides) selalu sama dengan SlideNumber - 1. Baca/tulis Int32. |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
-| [GetImage](../../aspose.slides/islide/getimage#getimage)() | Mengembalikan objek Thumbnail Image (20% ukuran sebenarnya). |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_1)(IRenderingOptions) | Mengembalikan objek Thumbnail Bitmap. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_4)(ITiffOptions) | Mengembalikan objek Thumbnail tiff bitmap dengan parameter yang ditentukan. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_6)(Size) | Mengembalikan objek gambar dengan ukuran yang ditentukan. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage)() | Mengembalikan objek Gambar Miniatur (20% dari ukuran sebenarnya). |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_1)(IRenderingOptions) | Mengembalikan objek Bitmap Miniatur. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_4)(ITiffOptions) | Mengembalikan objek bitmap tiff Miniatur dengan parameter tertentu. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_6)(Size) | Mengembalikan objek gambar dengan ukuran tertentu. |
 | [GetImage](../../aspose.slides/islide/getimage#getimage_5)(float, float) | Mengembalikan objek gambar dengan skala khusus. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_3)(IRenderingOptions, Size) | Mengembalikan objek Thumbnail Bitmap dengan ukuran yang ditentukan. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_2)(IRenderingOptions, float, float) | Mengembalikan objek Thumbnail Bitmap dengan skala khusus. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_3)(IRenderingOptions, Size) | Mengembalikan objek Bitmap Miniatur dengan ukuran tertentu. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_2)(IRenderingOptions, float, float) | Mengembalikan objek Bitmap Miniatur dengan skala khusus. |
 | [GetSlideComments](../../aspose.slides/islide/getslidecomments)(ICommentAuthor) | Mengembalikan semua komentar slide yang ditambahkan oleh penulis tertentu. |
 | [Remove](../../aspose.slides/islide/remove)() | Menghapus slide dari presentasi. |
-| [Reset](../../aspose.slides/islide/reset)() | Mengatur ulang posisi, ukuran, dan format setiap shape yang memiliki prototipe pada LayoutSlide. |
+| [Reset](../../aspose.slides/islide/reset)() | Mengatur ulang posisi, ukuran, dan pemformatan setiap bentuk yang memiliki prototipe pada LayoutSlide. |
 | [WriteAsEmf](../../aspose.slides/islide/writeasemf)(Stream) | Menyimpan konten slide sebagai file EMF. |
 | [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg)(Stream) | Menyimpan konten slide sebagai file SVG. |
-| [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg_1)(Stream, ISVGOptions) | Menyimpan konten slide sebagai file SVG. |
+| [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg_1)(Stream, ISVGOptions) | Menyimpan konten slide sebagai file SVG dengan ISVGOptions. |
 
 ### Lihat Juga
 
 * antarmuka [IBaseSlide](../ibaseslide)
 * antarmuka [IOverrideThemeable](../../aspose.slides.theme/ioverridethemeable)
-* nama ruang [Aspose.Slides](../../aspose.slides)
+* ruang nama [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

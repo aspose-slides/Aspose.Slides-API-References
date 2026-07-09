@@ -1,14 +1,14 @@
 ---
 title: Compress
-second_title: Aspose.Sildes pro .NET API referenci
-description: Representuje skupinu metod určených ke kompresi Presentation../aspose.slides/presentation.
+second_title: Aspose.Sildes pro .NET referenční příručku API
+description: Představuje skupinu metod určených ke kompresi Presentation../aspose.slides/presentation.
 type: docs
-weight: 7850
+weight: 7870
 url: /cs/aspose.slides.lowcode/compress/
 ---
-## Compress class
+## Compress třída
 
-Reprezentuje skupinu metod určených ke kompresi [`Presentation`](../../aspose.slides/presentation).
+Představuje skupinu metod určených ke kompresi [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public static class Compress
@@ -18,8 +18,8 @@ public static class Compress
 
 | Název | Popis |
 | --- | --- |
-| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | Provádí kompresi [`Presentation`](../../aspose.slides/presentation) odstraněním nepoužívaných znaků z vložených fontů. |
-| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | Provádí kompresi [`Presentation`](../../aspose.slides/presentation) odstraněním nepoužívaných rozvržení snímků. |
+| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | Provádí kompresi [`Presentation`](../../aspose.slides/presentation) odstraněním nepoužívaných znaků z vložených písem. |
+| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | Provádí kompresi [`Presentation`](../../aspose.slides/presentation) odstraněním nepoužívaných snímků rozložení. |
 | static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | Provádí kompresi [`Presentation`](../../aspose.slides/presentation) odstraněním nepoužívaných hlavních snímků. |
 
 ### Příklady

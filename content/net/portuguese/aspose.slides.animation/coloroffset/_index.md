@@ -1,9 +1,9 @@
 ---
 title: ColorOffset
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa o deslocamento de cor.
 type: docs
-weight: 220
+weight: 240
 url: /pt/aspose.slides.animation/coloroffset/
 ---
 ## ColorOffset classe
@@ -28,7 +28,7 @@ public class ColorOffset : IColorOffset
 | [Value1](../../aspose.slides.animation/coloroffset/value1) { get; set; } | Define o segundo valor do deslocamento. Leitura/gravação Single. |
 | [Value2](../../aspose.slides.animation/coloroffset/value2) { get; set; } | Define o terceiro valor do deslocamento. Leitura/gravação Single. |
 
-### Veja Também
+### Ver também
 
 * interface [IColorOffset](../icoloroffset)
 * namespace [Aspose.Slides.Animation](../../aspose.slides.animation)

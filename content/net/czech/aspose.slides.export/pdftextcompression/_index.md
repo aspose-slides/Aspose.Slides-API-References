@@ -1,14 +1,14 @@
 ---
 title: PdfTextCompression
-second_title: Aspose.Sildes pro .NET API Reference
-description: Konstanty, které definují typ komprese použité na veškerý obsah PDF souboru kromě obrázků.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Konstanty, které definují typ komprese aplikované na celý obsah PDF souboru kromě obrázků.
 type: docs
-weight: 4320
+weight: 4340
 url: /cs/aspose.slides.export/pdftextcompression/
 ---
 ## PdfTextCompression výčet
 
-Konstanty, které definují typ komprese použitý na celý obsah PDF souboru kromě obrázků.
+Konstanty, které definují typ komprese použité na celý obsah PDF souboru kromě obrázků.
 
 ```csharp
 public enum PdfTextCompression

@@ -1,9 +1,9 @@
 ---
 title: BackgroundType
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Slayt arka plan doldurma kaynağını tanımlar.
 type: docs
-weight: 920
+weight: 940
 url: /tr/aspose.slides/backgroundtype/
 ---
 ## BackgroundType enum

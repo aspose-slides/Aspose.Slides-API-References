@@ -3,10 +3,10 @@ title: IDuotone
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un effetto Duotone.
 type: docs
-weight: 3240
+weight: 3260
 url: /it/aspose.slides.effects/iduotone/
 ---
-## Interfaccia IDuotone
+## IDuotone interfaccia
 
 Rappresenta un effetto Duotone.
 
@@ -18,10 +18,10 @@ public interface IDuotone : IAccessiblePVIObject<IDuotoneEffectiveData>, IImageT
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iduotone/asiaccessiblepviobject) { get; } | Consente di ottenere l'interfaccia base IAccessiblePVIObject. Sola lettura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iduotone/asiimagetransformoperation) { get; } | Consente di ottenere l'interfaccia base IImageTransformOperation. Sola lettura [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Color1](../../aspose.slides.effects/iduotone/color1) { get; } | Restituisce il formato colore di destinazione per i pixel scuri. Sola lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Color2](../../aspose.slides.effects/iduotone/color2) { get; } | Restituisce il formato colore di destinazione per i pixel chiari. Sola lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iduotone/asiaccessiblepviobject) { get; } | Consente di ottenere l'interfaccia base IAccessiblePVIObject. Solo lettura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iduotone/asiimagetransformoperation) { get; } | Consente di ottenere l'interfaccia base IImageTransformOperation. Solo lettura [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Color1](../../aspose.slides.effects/iduotone/color1) { get; } | Restituisce il formato colore di destinazione per i pixel scuri. Solo lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Color2](../../aspose.slides.effects/iduotone/color2) { get; } | Restituisce il formato colore di destinazione per i pixel chiari. Solo lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Vedi anche
 

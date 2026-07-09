@@ -1,14 +1,14 @@
 ---
 title: ISplitTransition
 second_title: Aspose.Sildes için .NET API Referansı
-description: Slayt bölme geçiş efekti.
+description: Bölünmüş slayt geçiş etkisi.
 type: docs
-weight: 10180
+weight: 10200
 url: /tr/aspose.slides.slideshow/isplittransition/
 ---
 ## ISplitTransition arayüz
 
-Slayt bölme geçiş efekti.
+Split slide transition effect.
 
 ```csharp
 public interface ISplitTransition : ITransitionValueBase
@@ -18,11 +18,11 @@ public interface ISplitTransition : ITransitionValueBase
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/isplittransition/asitransitionvaluebase) { get; } | Temel ITransitionValueBase arayüzünü almaya izin verir. Salt okunur [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/isplittransition/direction) { get; set; } | Geçiş bölmesinin yönü. Okunur/yazılır [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Orientation](../../aspose.slides.slideshow/isplittransition/orientation) { get; set; } | Geçiş bölmesinin yönelimi. Okunur/yazılır [`Orientation`](../../aspose.slides/orientation). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/isplittransition/asitransitionvaluebase) { get; } | Temel ITransitionValueBase arayüzünü almayı sağlar. Salt okunur [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/isplittransition/direction) { get; set; } | Geçiş bölmesinin yönü. Oku/yaz [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Orientation](../../aspose.slides.slideshow/isplittransition/orientation) { get; set; } | Geçiş bölmesinin yönelimi. Oku/yaz [`Orientation`](../../aspose.slides/orientation). |
 
-### Ayrıca
+### Ayrıca Bakın
 
 * arayüz [ITransitionValueBase](../itransitionvaluebase)
 * ad alanı [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

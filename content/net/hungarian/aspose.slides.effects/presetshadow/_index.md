@@ -1,14 +1,14 @@
 ---
 title: PresetShadow
-second_title: Aspose.Sildes a .NET API Referencia
-description: Egy előre definiált árnyék effektust képvisel.
+second_title: Aspose.Sildes .NET API referencia
+description: Egy előre definiált árnyékhatást képvisel.
 type: docs
-weight: 3610
+weight: 3630
 url: /hu/aspose.slides.effects/presetshadow/
 ---
 ## PresetShadow osztály
 
-Egy előre definiált árnyék effektust képvisel.
+A Preset Shadow effektust képviseli.
 
 ```csharp
 public sealed class PresetShadow : IPresetShadow
@@ -20,16 +20,16 @@ public sealed class PresetShadow : IPresetShadow
 | --- | --- |
 | [Direction](../../aspose.slides.effects/presetshadow/direction) { get; set; } | Az árnyék iránya. Olvasás/írás Single. |
 | [Distance](../../aspose.slides.effects/presetshadow/distance) { get; set; } | Az árnyék távolsága. Olvasás/írás Double. |
-| [Preset](../../aspose.slides.effects/presetshadow/preset) { get; set; } | Preset. Olvasás/írás [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
+| [Preset](../../aspose.slides.effects/presetshadow/preset) { get; set; } | Előre beállított. Olvasás/írás [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
 | [ShadowColor](../../aspose.slides.effects/presetshadow/shadowcolor) { get; } | Az árnyék színe. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/presetshadow/equals)(object) | Megállapítja, hogy a megadott [`PresetShadow`](../presetshadow) egyenlő-e a jelenlegi [`PresetShadow`](../presetshadow). |
-| [GetEffective](../../aspose.slides.effects/presetshadow/geteffective)() | Lekéri a hatékony Preset Shadow effektus adatokat az öröklődés alkalmazásával. |
-| override [GetHashCode](../../aspose.slides.effects/presetshadow/gethashcode)() | Hash-függvényként szolgál egy adott típushoz. |
+| override [Equals](../../aspose.slides.effects/presetshadow/equals)(object) | Megállapítja, hogy a megadott [`PresetShadow`](../presetshadow) egyenlő-e a jelenlegi [`PresetShadow`](../presetshadow)-val. |
+| [GetEffective](../../aspose.slides.effects/presetshadow/geteffective)() | Megkapja a hatékony Preset Shadow effektus adatokat az öröklődés alkalmazásával. |
+| override [GetHashCode](../../aspose.slides.effects/presetshadow/gethashcode)() | Hash függvényként szolgál egy adott típus számára. |
 
 ### Lásd még
 

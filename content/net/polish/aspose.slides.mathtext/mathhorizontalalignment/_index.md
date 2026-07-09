@@ -1,14 +1,14 @@
 ---
 title: MathHorizontalAlignment
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Poziome wyrównanie
+second_title: Aspose.Sildes dla .NET – Referencja API
+description: Wyrównanie poziome
 type: docs
-weight: 8760
+weight: 8780
 url: /pl/aspose.slides.mathtext/mathhorizontalalignment/
 ---
-## MathHorizontalAlignment enumeracja
+## MathHorizontalAlignment wyliczenie
 
-Poziome wyrównanie
+Wyrównanie poziome
 
 ```csharp
 public enum MathHorizontalAlignment
@@ -19,9 +19,9 @@ public enum MathHorizontalAlignment
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
 | NotDefined | `0` | Wartość nie jest określona |
-| Left | `1` | Wyrównanie do lewej |
-| Center | `2` | Wyśrodkowanie |
-| Right | `3` | Wyrównanie do prawej |
+| Left | `1` | Justowanie do lewej |
+| Center | `2` | Środek |
+| Right | `3` | Prawo |
 
 ### Zobacz także
 

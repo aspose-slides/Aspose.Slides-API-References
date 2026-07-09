@@ -1,14 +1,14 @@
 ---
 title: ITextSearchOptions
-second_title: Aspose.Sildes の .NET API リファレンス
-description: Presentation Slide または TextFrame 内のテキストを検索するために使用できるオプションを表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: プレゼンテーション スライドまたは TextFrame 内のテキストを検索するために使用できるオプションを表します。
 type: docs
-weight: 7280
+weight: 7300
 url: /ja/aspose.slides/itextsearchoptions/
 ---
 ## ITextSearchOptions インターフェイス
 
-Presentation、Slide、または TextFrame 内のテキストを検索するために使用できるオプションを表します。
+プレゼンテーション、スライド、または TextFrame 内のテキストを検索するために使用できるオプションを表します。
 
 ```csharp
 public interface ITextSearchOptions
@@ -16,11 +16,11 @@ public interface ITextSearchOptions
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [CaseSensitive](../../aspose.slides/itextsearchoptions/casesensitive) { get; set; } | true に設定すると大文字と小文字を区別した検索を使用し、false に設定すると区別しません。読み取り/書き込み Boolean。 |
-| [IncludeNotes](../../aspose.slides/itextsearchoptions/includenotes) { get; set; } | `true` に設定すると、テキスト検索、置換、またはハイライト操作を行う際にスライドノートに含まれるテキストも対象にします。デフォルト値は `false` です。 |
-| [WholeWordsOnly](../../aspose.slides/itextsearchoptions/wholewordsonly) { get; set; } | `true` に設定すると完全一致の単語のみを対象とし、`false` の場合はそれ以外です。読み取り/書き込み Boolean。 |
+| [CaseSensitive](../../aspose.slides/itextsearchoptions/casesensitive) { get; set; } | 大文字と小文字を区別した検索を使用する場合は `true` を設定し、それ以外の場合は `false` を設定します。読み書き可能な Boolean。 |
+| [IncludeNotes](../../aspose.slides/itextsearchoptions/includenotes) { get; set; } | テキスト検索、置換、またはハイライト操作を行う際にスライド ノートに含まれるテキストを含める場合は `true` を設定します。デフォルト値は `false` です。 |
+| [WholeWordsOnly](../../aspose.slides/itextsearchoptions/wholewordsonly) { get; set; } | 完全一致のみを対象とする場合は `true` を設定し、それ以外の場合は `false` を設定します。読み書き可能な Boolean。 |
 
 ### 参照
 

@@ -1,14 +1,14 @@
 ---
 title: Luminance
 second_title: Aspose.Sildes .NET API referencia
-description: Luminance effektust reprezentál. A Brightness lineárisan eltolja az összes színt a fehér vagy a fekete felé. A Contrast skálázza a színeket, hogy közelebb vagy távolabb legyenek egymástól.
+description: Luminance effektust képviseli. A Brightness lineárisan közelíti a színeket a fehér vagy fekete felé. A Contrast skálázza a színeket úgy, hogy azok közelebb vagy távolabb legyenek egymástól.
 type: docs
-weight: 3590
+weight: 3610
 url: /hu/aspose.slides.effects/luminance/
 ---
 ## Luminance osztály
 
-A Luminance effektust reprezentálja. A Brightness lineárisan eltolja az összes színt a fehér vagy a fekete felé. A Contrast skálázza az összes színt, hogy közelebb vagy távolabb legyenek egymástól.
+A Luminance effektust képviseli. A Brightness lineárisan közelíti a színeket a fehér vagy fekete felé. A Contrast skálázza a színeket úgy, hogy azok közelebb vagy távolabb legyenek egymástól.
 
 ```csharp
 public sealed class Luminance : ImageTransformOperation, ILuminance
@@ -18,15 +18,15 @@ public sealed class Luminance : ImageTransformOperation, ILuminance
 
 | Név | Leírás |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi az alap IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/luminance/equals)(object) | Megállapítja, hogy a megadott [`Luminance`](../luminance) egyenlő-e a jelenlegi [`Luminance`](../luminance). |
+| override [Equals](../../aspose.slides.effects/luminance/equals)(object) | Meghatározza, hogy a megadott [`Luminance`](../luminance) egyenlő-e a jelenlegi [`Luminance`](../luminance). |
 | [GetEffective](../../aspose.slides.effects/luminance/geteffective)() | Lekéri a hatékony Luminance effektus adatokat az öröklődés alkalmazásával. |
-| override [GetHashCode](../../aspose.slides.effects/luminance/gethashcode)() | Szolgál hash függvényként egy adott típus számára. |
+| override [GetHashCode](../../aspose.slides.effects/luminance/gethashcode)() | Hash függvényként szolgál egy adott típushoz. |
 
 ### Lásd még
 

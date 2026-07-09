@@ -1,14 +1,14 @@
 ---
 title: Trendline
 second_title: Aspose.Sildes for .NET API リファレンス
-description: クラスはチャート系列のトレンドラインを表します
+description: クラスはチャートシリーズのトレンドラインを表します
 type: docs
-weight: 2450
+weight: 2470
 url: /ja/aspose.slides.charts/trendline/
 ---
 ## Trendline クラス
 
-Class represents trend line of chart series
+クラスは chart series のトレンドラインを表します
 
 ```csharp
 public class Trendline : DomObject<TrendlineCollection>, ITrendline
@@ -18,26 +18,26 @@ public class Trendline : DomObject<TrendlineCollection>, ITrendline
 
 | 名前 | 説明 |
 | --- | --- |
-| [Backward](../../aspose.slides.charts/trendline/backward) { get; set; } | トレンドラインが系列のデータの前方に伸びるカテゴリ数（散布図の場合は単位）を指定します。散布図および非散布図では、値は任意の非負の数でなければなりません。読み取り/書き込み可能 Double. |
+| [Backward](../../aspose.slides.charts/trendline/backward) { get; set; } | トレンドラインが系列のデータの前に延長するカテゴリ数（または scatter chart 上の単位）を指定します。scatter および non-scatter chart では、値は任意の非負の値でなければなりません。読み取り/書き込み Double. |
 | [Chart](../../aspose.slides.charts/trendline/chart) { get; } | 親チャートを返します。読み取り専用 [`IChart`](../ichart). |
-| [DisplayEquation](../../aspose.slides.charts/trendline/displayequation) { get; set; } | トレンドラインの方程式がチャートに表示されるかどうかを指定します（Rsquaredvalue と同じラベルに）。読み取り/書き込み可能 Boolean. |
-| [DisplayRSquaredValue](../../aspose.slides.charts/trendline/displayrsquaredvalue) { get; set; } | トレンドラインの決定係数 (R-squared) がチャートに表示されるかどうかを指定します（方程式と同じラベルに）。読み取り/書き込み可能 Boolean. |
-| [Format](../../aspose.slides.charts/trendline/format) { get; set; } | トレンドラインの書式を表します。読み取り/書き込み可能 [`IFormat`](../iformat). |
-| [Forward](../../aspose.slides.charts/trendline/forward) { get; set; } | トレンドラインが系列のデータの後方に伸びるカテゴリ数（散布図の場合は単位）を指定します。散布図および非散布図では、値は任意の非負の数でなければなりません。読み取り/書き込み可能 Double. |
-| [Intercept](../../aspose.slides.charts/trendline/intercept) { get; set; } | トレンドラインが y 軸と交差する値を指定します。このプロパティは trendline のタイプが exp、linear、または poly の場合にのみサポートされます。読み取り/書き込み可能 Double. |
-| [Order](../../aspose.slides.charts/trendline/order) { get; set; } | 多項式トレンドラインの次数を指定します。他のトレンドラインタイプでは無視されます。値は 2 から 6 の間でなければなりません。読み取り/書き込み可能 Byte. |
-| [Period](../../aspose.slides.charts/trendline/period) { get; set; } | 移動平均トレンドラインの期間を指定します。他のトレンドラインのバリエーションでは無視されます。値は 2 から 255 の間でなければなりません。読み取り/書き込み可能 Byte. |
+| [DisplayEquation](../../aspose.slides.charts/trendline/displayequation) { get; set; } | トレンドラインの方程式がチャート上に表示されるかどうかを指定します（Rsquaredvalue と同じラベルで）。読み取り/書き込み Boolean. |
+| [DisplayRSquaredValue](../../aspose.slides.charts/trendline/displayrsquaredvalue) { get; set; } | トレンドラインの R 二乗値がチャート上に表示されるかどうかを指定します（方程式と同じラベルで）。読み取り/書き込み Boolean. |
+| [Format](../../aspose.slides.charts/trendline/format) { get; set; } | トレンドラインの書式を表します。読み取り/書き込み [`IFormat`](../iformat). |
+| [Forward](../../aspose.slides.charts/trendline/forward) { get; set; } | トレンドラインが系列のデータの後に延長するカテゴリ数（または scatter chart 上の単位）を指定します。scatter および non-scatter chart では、値は任意の非負の値でなければなりません。読み取り/書き込み Double. |
+| [Intercept](../../aspose.slides.charts/trendline/intercept) { get; set; } | トレンドラインが y 軸と交差する位置の値を指定します。このプロパティは trendline のタイプが exp、linear、または poly の場合にのみサポートされます。読み取り/書き込み Double. |
+| [Order](../../aspose.slides.charts/trendline/order) { get; set; } | 多項式トレンドラインの次数を指定します。他のトレンドラインタイプでは無視されます。値は 2 から 6 の間である必要があります。読み取り/書き込み Byte. |
+| [Period](../../aspose.slides.charts/trendline/period) { get; set; } | 移動平均トレンドラインの期間を指定します。他のトレンドラインのバリエーションでは無視されます。値は 2 から 255 の間である必要があります。読み取り/書き込み Byte. |
 | [RelatedLegendEntry](../../aspose.slides.charts/trendline/relatedlegendentry) { get; } | このトレンドラインに関連する凡例エントリを表します。読み取り専用 [`ILegendEntryProperties`](../ilegendentryproperties). |
-| [TextFormat](../../aspose.slides.charts/trendline/textformat) { get; } | テキスト形式を返します。読み取り専用 [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/trendline/textframeforoverriding) { get; } | リッチテキストを含めることができます。このプロパティが null でない場合、この書式設定されたテキストはデータラベルの自動生成テキストを上書きします。データラベルの自動生成テキストとは、ShowSeriesName、ShowValue などのプロパティで管理され、TextFormatManager.TextFormat プロパティで書式設定されたテキストを指します。読み取り専用 [`ITextFrame`](../../aspose.slides/itextframe). |
-| [TrendlineName](../../aspose.slides.charts/trendline/trendlinename) { get; set; } | トレンドラインの名前を取得または設定します。読み取り/書き込み可能 String. |
-| [TrendlineType](../../aspose.slides.charts/trendline/trendlinetype) { get; set; } | トレンドラインのタイプを取得または設定します。読み取り/書き込み可能 [`TrendlineType`](../trendlinetype). |
+| [TextFormat](../../aspose.slides.charts/trendline/textformat) { get; } | テキスト書式を返します。読み取り専用 [`IChartTextFormat`](../icharttextformat). |
+| [TextFrameForOverriding](../../aspose.slides.charts/trendline/textframeforoverriding) { get; } | リッチ書式テキストを格納できます。このプロパティが null でない場合、この書式付きテキストはデータラベルの自動生成テキストを上書きします。データラベルの自動生成テキストとは、ShowSeriesName、ShowValue、... プロパティで管理され、TextFormatManager.TextFormat プロパティで書式設定されたテキストを指します。読み取り専用 [`ITextFrame`](../../aspose.slides/itextframe). |
+| [TrendlineName](../../aspose.slides.charts/trendline/trendlinename) { get; set; } | トレンドラインの名前を取得または設定します。読み取り/書き込み String. |
+| [TrendlineType](../../aspose.slides.charts/trendline/trendlinetype) { get; set; } | トレンドラインのタイプを取得または設定します。読み取り/書き込み [`TrendlineType`](../trendlinetype). |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/trendline/addtextframeforoverriding)(string) | テキスト "text" を使用して TextFrameForOverriding を初期化します。TextFrameForOverriding がすでに初期化されている場合は、単にそのテキストを変更します。 |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/trendline/addtextframeforoverriding)(string) | パラメータ "text" のテキストで TextFrameForOverriding を初期化します。TextFrameForOverriding がすでに初期化されている場合は、そのテキストを単に変更します。 |
 
 ### 参照
 

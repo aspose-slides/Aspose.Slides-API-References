@@ -3,12 +3,12 @@ title: ITextFrameFormat
 second_title: Aspose.Sildes .NET için API Referansı
 description: TextFrame'lerin biçimlendirme özelliklerini içerir.
 type: docs
-weight: 7260
+weight: 7280
 url: /tr/aspose.slides/itextframeformat/
 ---
-## ITextFrameFormat arayüz
+## ITextFrameFormat arayüzü
 
-Bir TextFrame'in biçimlendirme özelliklerini içerir.
+Metnin TextFrame biçimlendirme özelliklerini içerir.
 
 ```csharp
 public interface ITextFrameFormat
@@ -18,30 +18,30 @@ public interface ITextFrameFormat
 
 | Ad | Açıklama |
 | --- | --- |
-| [AnchoringType](../../aspose.slides/itextframeformat/anchoringtype) { get; set; } | Bir TextFrame içinde dikey çapa metnini döndürür veya ayarlar. Okunur/Yazılabilir [`TextAnchorType`](../textanchortype). |
-| [AutofitType](../../aspose.slides/itextframeformat/autofittype) { get; set; } | Metnin otomatik sığdırma modunu döndürür veya ayarlar. Okunur/Yazılabilir [`TextAutofitType`](../textautofittype). |
-| [CenterText](../../aspose.slides/itextframeformat/centertext) { get; set; } | NullableBool.True ise metin yatay olarak kutunun ortasına yerleştirilecektir. Okunur/Yazılabilir [`NullableBool`](../nullablebool). |
-| [ColumnCount](../../aspose.slides/itextframeformat/columncount) { get; set; } | Metin alanındaki sütun sayısını döndürür veya ayarlar. Bu değer pozitif bir sayı olmalıdır. Aksi takdirde değer sıfıra ayarlanır. Değer 0, tanımsız değeri ifade eder. Okunur/Yazılabilir Int32. |
-| [ColumnSpacing](../../aspose.slides/itextframeformat/columnspacing) { get; set; } | Metin alanındaki metin sütunları arasındaki boşluğu (puan cinsinden) döndürür veya ayarlar. Bu, birden fazla sütun mevcut olduğunda yalnızca uygulanmalıdır. Bu değer pozitif bir sayı olmalıdır. Aksi takdirde değer sıfıra ayarlanır. Okunur/Yazılabilir Double. |
-| [KeepTextFlat](../../aspose.slides/itextframeformat/keeptextflat) { get; set; } | Metni tamamen 3B sahneden dışarıda tutmayı döndürür veya ayarlar. Okunur/Yazılabilir Boolean. |
-| [MarginBottom](../../aspose.slides/itextframeformat/marginbottom) { get; set; } | Bir TextFrame içindeki alt kenar boşluğunu (puan) döndürür veya ayarlar. Okunur/Yazılabilir Double. |
-| [MarginLeft](../../aspose.slides/itextframeformat/marginleft) { get; set; } | Bir TextFrame içindeki sol kenar boşluğunu (puan) döndürür veya ayarlar. Okunur/Yazılabilir Double. |
-| [MarginRight](../../aspose.slides/itextframeformat/marginright) { get; set; } | Bir TextFrame içindeki sağ kenar boşluğunu (puan) döndürür veya ayarlar. Okunur/Yazılabilir Double. |
-| [MarginTop](../../aspose.slides/itextframeformat/margintop) { get; set; } | Bir TextFrame içindeki üst kenar boşluğunu (puan) döndürür veya ayarlar. Okunur/Yazılabilir Double. |
-| [RotationAngle](../../aspose.slides/itextframeformat/rotationangle) { get; set; } | Metnin sınır kutusu içinde uygulanacak özel dönüşü belirler. Belirtilmezse, eşlik eden şeklin dönüşü kullanılır. Belirtilirse, bu dönüş şekilden bağımsız olarak uygulanır. Yani şekil, metnin kendi dönüşüne ek olarak bir dönüş alabilir. Görsel metin dönüşünün bu özelliğinden ve TextVerticalType özelliğindeki önceden tanımlı dikey tipten özetlenen sonucu. Okunur/Yazılabilir Single. |
-| [TextStyle](../../aspose.slides/itextframeformat/textstyle) { get; } | Metnin stilini döndürür. Yalnızca okunabilir [`ITextStyle`](../itextstyle). |
-| [TextVerticalType](../../aspose.slides/itextframeformat/textverticaltype) { get; set; } | Metin yönelimini belirler. Görsel metin dönüşünün bu özelliği ve RotationAngle özelliğindeki özel açıdan özetlenen sonucu. Okunur/Yazılabilir [`TextVerticalType`](../textverticaltype). |
-| [ThreeDFormat](../../aspose.slides/itextframeformat/threedformat) { get; } | Metin için 3B efekt özelliklerini temsil eden ThreeDFormat nesnesini döndürür. Yalnızca okunabilir [`IThreeDFormat`](../ithreedformat). |
-| [Transform](../../aspose.slides/itextframeformat/transform) { get; set; } | Metin sarmalama biçimini alır veya ayarlar. Okunur/Yazılabilir [`TextShapeType`](../textshapetype). |
-| [WrapText](../../aspose.slides/itextframeformat/wraptext) { get; set; } | Metin TextFrame kenar boşluklarında sarmalanmışsa **True** olur. Okunur/Yazılabilir [`NullableBool`](../nullablebool). |
+| [AnchoringType](../../aspose.slides/itextframeformat/anchoringtype) { get; set; } | Bir TextFrame içinde dikey çapa metni döndürür veya ayarlar. Okunur/Yazılır [`TextAnchorType`](../textanchortype). |
+| [AutofitType](../../aspose.slides/itextframeformat/autofittype) { get; set; } | Metnin otomatik sığdırma modunu döndürür veya ayarlar. Okunur/Yazılır [`TextAutofitType`](../textautofittype). |
+| [CenterText](../../aspose.slides/itextframeformat/centertext) { get; set; } | NullableBool.True ise metin kutunun içinde yatay olarak ortalanmalıdır. Okunur/Yazılır [`NullableBool`](../nullablebool). |
+| [ColumnCount](../../aspose.slides/itextframeformat/columncount) { get; set; } | Metin alanındaki sütun sayısını döndürür veya ayarlar. Bu değer pozitif bir sayı olmalıdır. Aksi takdirde değer sıfıra ayarlanır. Değer 0 tanımsız değeri gösterir. Okunur/Yazılır Int32. |
+| [ColumnSpacing](../../aspose.slides/itextframeformat/columnspacing) { get; set; } | Metin alanındaki metin sütunları arasındaki boşluğu (puantalarda) döndürür veya ayarlar. Bu, yalnızca birden fazla sütun mevcut olduğunda uygulanmalıdır. Bu değer pozitif bir sayı olmalıdır. Aksi takdirde değer sıfıra ayarlanır. Okunur/Yazılır Double. |
+| [KeepTextFlat](../../aspose.slides/itextframeformat/keeptextflat) { get; set; } | Metni tamamen 3B sahneden dışarıda tutmayı döndürür veya ayarlar. Okunur/Yazılır Boolean. |
+| [MarginBottom](../../aspose.slides/itextframeformat/marginbottom) { get; set; } | Bir TextFrame içinde alt kenar boşluğunu (puantalarda) döndürür veya ayarlar. Okunur/Yazılır Double. |
+| [MarginLeft](../../aspose.slides/itextframeformat/marginleft) { get; set; } | Bir TextFrame içinde sol kenar boşluğunu (puantalarda) döndürür veya ayarlar. Okunur/Yazılır Double. |
+| [MarginRight](../../aspose.slides/itextframeformat/marginright) { get; set; } | Bir TextFrame içinde sağ kenar boşluğunu (puantalarda) döndürür veya ayarlar. Okunur/Yazılır Double. |
+| [MarginTop](../../aspose.slides/itextframeformat/margintop) { get; set; } | Bir TextFrame içinde üst kenar boşluğunu (puantalarda) döndürür veya ayarlar. Okunur/Yazılır Double. |
+| [RotationAngle](../../aspose.slides/itextframeformat/rotationangle) { get; set; } | Kapsama kutusu içinde metne uygulanan özel dönüşü belirler. Belirtilmemişse, ilgili şeklin dönüşü kullanılır. Belirtilmişse, bu dönüş şekilden bağımsız olarak uygulanır. Yani şekle bir dönüş uygulanabilir, aynı zamanda metne de ayrı bir dönüş uygulanabilir. Bu özelliğin ve TextVerticalType özelliğindeki önceden tanımlı dikey tipin özetlenmiş görsel metin dönüş değeri oluşur. Okunur/Yazılır Single. |
+| [TextStyle](../../aspose.slides/itextframeformat/textstyle) { get; } | Metnin stilini döndürür. Salt okunur [`ITextStyle`](../itextstyle). |
+| [TextVerticalType](../../aspose.slides/itextframeformat/textverticaltype) { get; set; } | Metin yönünü belirler. Bu özellik ve RotationAngle özelliğindeki özel açıdan özetlenmiş görsel metin dönüş değerini oluşturur. Okunur/Yazılır [`TextVerticalType`](../textverticaltype). |
+| [ThreeDFormat](../../aspose.slides/itextframeformat/threedformat) { get; } | Metin için 3B etki özelliklerini temsil eden ThreeDFormat nesnesini döndürür. Salt okunur [`IThreeDFormat`](../ithreedformat). |
+| [Transform](../../aspose.slides/itextframeformat/transform) { get; set; } | Metin sarma şekli alır veya ayarlar. Okunur/Yazılır [`TextShapeType`](../textshapetype). |
+| [WrapText](../../aspose.slides/itextframeformat/wraptext) { get; set; } | **True** eğer metin TextFrame kenar boşluklarında sarılıysa. Okunur/Yazılır [`NullableBool`](../nullablebool). |
 
-## Yöntemler
+## Metotlar
 
 | Ad | Açıklama |
 | --- | --- |
-| [GetEffective](../../aspose.slides/itextframeformat/geteffective)() | Miras uygulanmış etkili metin çerçevesi biçimlendirme verilerini alır. |
+| [GetEffective](../../aspose.slides/itextframeformat/geteffective)() | Uygulanan kalıtımla etkili metin çerçevesi biçimlendirme verilerini alır. |
 
-### Ayrıca Bakınız
+### Ayrıca
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

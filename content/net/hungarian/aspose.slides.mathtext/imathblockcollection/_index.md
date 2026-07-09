@@ -1,9 +1,9 @@
 ---
 title: IMathBlockCollection
 second_title: Aspose.Sildes .NET API referencia
-description: Matematikai blokkok gyűjteménye IMathBlock
+description: Matematikai blokkok (IMathBlock) gyűjteménye
 type: docs
-weight: 8130
+weight: 8150
 url: /hu/aspose.slides.mathtext/imathblockcollection/
 ---
 ## IMathBlockCollection interfész
@@ -19,7 +19,7 @@ public interface IMathBlockCollection : IEnumerable<IMathBlock>
 | Név | Leírás |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.mathtext/imathblockcollection/asienumerable) { get; } | Lehetővé teszi a bázis IEnumerable interfész IEnumerable lekérését |
-| [Count](../../aspose.slides.mathtext/imathblockcollection/count) { get; } | Lekéri a gyűjteményben ténylegesen tárolt elemek számát. Csak olvasható Int32. |
+| [Count](../../aspose.slides.mathtext/imathblockcollection/count) { get; } | Lekéri a gyűjteményben ténylegesen lévő elemek számát. Csak olvasható Int32. |
 | [Item](../../aspose.slides.mathtext/imathblockcollection/item) { get; set; } | Lekéri a megadott indexű elemet. Csak olvasható [`IMathBlock`](../imathblock). |
 
 ## Metódusok
@@ -27,11 +27,11 @@ public interface IMathBlockCollection : IEnumerable<IMathBlock>
 | Név | Leírás |
 | --- | --- |
 | [Add](../../aspose.slides.mathtext/imathblockcollection/add)(IMathBlock) | Hozzáadja az IMathBlock-ot a gyűjtemény végéhez. |
-| [Clear](../../aspose.slides.mathtext/imathblockcollection/clear)() | Eltávolítja a gyűjtemény összes elemét. |
-| [Contains](../../aspose.slides.mathtext/imathblockcollection/contains)(IMathBlock) | Megállapítja, hogy a gyűjtemény tartalmazza-e a megadott értéket. |
+| [Clear](../../aspose.slides.mathtext/imathblockcollection/clear)() | Eltávolítja az összes elemet a gyűjteményből. |
+| [Contains](../../aspose.slides.mathtext/imathblockcollection/contains)(IMathBlock) | Megállapítja, hogy a gyűjtemény tartalmaz-e egy adott értéket. |
 | [IndexOf](../../aspose.slides.mathtext/imathblockcollection/indexof)(IMathBlock) | Megállapítja egy adott IMathBlock indexét a gyűjteményben. |
-| [Insert](../../aspose.slides.mathtext/imathblockcollection/insert)(int, IMathBlock) | Beszúrja az IMathBlock-ot a gyűjteménybe a megadott indexnél. |
-| [Remove](../../aspose.slides.mathtext/imathblockcollection/remove)(IMathBlock) | Eltávolítja a megadott objektum első előfordulását a gyűjteményből. |
+| [Insert](../../aspose.slides.mathtext/imathblockcollection/insert)(int, IMathBlock) | Bemásolja az IMathBlock-ot a gyűjteménybe a megadott indexnél. |
+| [Remove](../../aspose.slides.mathtext/imathblockcollection/remove)(IMathBlock) | Eltávolítja egy adott objektum első előfordulását a gyűjteményből/>. |
 | [RemoveAt](../../aspose.slides.mathtext/imathblockcollection/removeat)(int) | Eltávolít egy elemet a gyűjtemény megadott indexén. |
 
 ### Példák

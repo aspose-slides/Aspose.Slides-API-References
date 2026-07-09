@@ -1,14 +1,14 @@
 ---
 title: IPresentationHeaderFooterManager
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
-description: Reprezentuje menedżera, który kontroluje zachowanie wszystkich znaczników stopki, daty i godziny oraz numeru strony w prezentacji.
+second_title: Aspose.Sildes dla .NET - referencja API
+description: Reprezentuje menedżera, który zarządza zachowaniem wszystkich placeholderów stopki, daty-czasu i numeru strony w prezentacji.
 type: docs
-weight: 6760
+weight: 6780
 url: /pl/aspose.slides/ipresentationheaderfootermanager/
 ---
 ## IPresentationHeaderFooterManager interfejs
 
-Reprezentuje menedżera, który kontroluje zachowanie wszystkich znaczników stopki, daty i godziny oraz numeru strony w prezentacji.
+Reprezentuje menedżera, który zarządza zachowaniem wszystkich placeholderów stopki, daty-czasu i numeru strony w prezentacji.
 
 ```csharp
 public interface IPresentationHeaderFooterManager : IBaseHeaderFooterManager
@@ -24,19 +24,19 @@ public interface IPresentationHeaderFooterManager : IBaseHeaderFooterManager
 
 | Nazwa | Opis |
 | --- | --- |
-| [SetAllDateTimesText](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimestext)(string) | Ustawia tekst we wszystkich znacznikach daty i godziny, w tym w slajdach głównych, slajdach układu i slajdach. |
-| [SetAllDateTimesVisibility](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimesvisibility)(bool) | Zmienia widoczność wszystkich znaczników daty i godziny, w tym w slajdach głównych, slajdach układu i slajdach. |
-| [SetAllFootersText](../../aspose.slides/ipresentationheaderfootermanager/setallfooterstext)(string) | Ustawia tekst we wszystkich znacznikach stopki, w tym w slajdach głównych, slajdach układu i slajdach. |
-| [SetAllFootersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallfootersvisibility)(bool) | Zmienia widoczność wszystkich znaczników stopki, w tym w slajdach głównych, slajdach układu i slajdach. |
-| [SetAllHeadersText](../../aspose.slides/ipresentationheaderfootermanager/setallheaderstext)(string) | Ustawia tekst we wszystkich znacznikach nagłówka, w tym w masterze notatek, slajdach notatek i masterze materiału rozdawniczego. |
-| [SetAllHeadersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallheadersvisibility)(bool) | Zmienia widoczność wszystkich znaczników nagłówka, w tym w masterze notatek, slajdach notatek i masterze materiału rozdawniczego. |
-| [SetAllSlideNumbersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Zmienia widoczność wszystkich znaczników numeru strony, w tym w slajdach głównych, slajdach układu i slajdach. |
-| [SetVisibilityOnAllTitleSlides](../../aspose.slides/ipresentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Zmienia widoczność znaczników stopki, daty i godziny oraz numeru strony we wszystkich slajdach tytułowych oraz w pierwszym slajdzie układu. Slajdy tytułowe – slajdy oparte na pierwszym slajdzie układu (niezależnie od typu tego pierwszego układu). |
+| [SetAllDateTimesText](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimestext)(string) | Ustawia tekst we wszystkich placeholderach daty i godziny, w tym w slajdach głównych, slajdach układu i slajdach. |
+| [SetAllDateTimesVisibility](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimesvisibility)(bool) | Zmienia widoczność wszystkich placeholderów daty i godziny, w tym w slajdach głównych, slajdach układu i slajdach. |
+| [SetAllFootersText](../../aspose.slides/ipresentationheaderfootermanager/setallfooterstext)(string) | Ustawia tekst we wszystkich placeholderach stopki, w tym w slajdach głównych, slajdach układu i slajdach. |
+| [SetAllFootersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallfootersvisibility)(bool) | Zmienia widoczność wszystkich placeholderów stopki, w tym w slajdach głównych, slajdach układu i slajdach. |
+| [SetAllHeadersText](../../aspose.slides/ipresentationheaderfootermanager/setallheaderstext)(string) | Ustawia tekst we wszystkich placeholderach nagłówka, w tym w masterze notatek, slajdach notatek i masterze materiałów rozdawczych. |
+| [SetAllHeadersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallheadersvisibility)(bool) | Zmienia widoczność wszystkich placeholderów nagłówka, w tym w masterze notatek, slajdach notatek i masterze materiałów rozdawczych. |
+| [SetAllSlideNumbersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Zmienia widoczność wszystkich placeholderów numerów stron, w tym w slajdach głównych, slajdach układu i slajdach. |
+| [SetVisibilityOnAllTitleSlides](../../aspose.slides/ipresentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Zmienia widoczność placeholderów stopki, daty i godziny oraz numeru strony dla wszystkich slajdów tytułowych i pierwszego slajdu układu. Slajdy tytułowe – slajdy oparte na pierwszym slajdzie układu (bez względu na typ tego pierwszego układu). |
 
 ### Zobacz także
 
 * interfejs [IBaseHeaderFooterManager](../ibaseheaderfootermanager)
 * przestrzeń nazw [Aspose.Slides](../../aspose.slides)
-* zestaw [Aspose.Slides](../../)
+* zbiór [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

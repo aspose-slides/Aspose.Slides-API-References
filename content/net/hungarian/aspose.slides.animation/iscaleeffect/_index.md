@@ -1,14 +1,14 @@
 ---
 title: IScaleEffect
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Az animáció méretezési hatását ábrázolja.
+second_title: Aspose.Sildes .NET API referencia
+description: Az animáció méretezési hatását reprezentálja.
 type: docs
-weight: 560
+weight: 580
 url: /hu/aspose.slides.animation/iscaleeffect/
 ---
 ## IScaleEffect interfész
 
-Az animáció méretezési hatását ábrázolja.
+Az animáció méretezési hatását reprezentálja.
 
 ```csharp
 public interface IScaleEffect : IBehavior
@@ -18,11 +18,11 @@ public interface IScaleEffect : IBehavior
 
 | Név | Leírás |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/iscaleeffect/asibehavior) { get; } | Lehetővé teszi az alap IBehavior interfész lekérését. Írásvédett [`IBehavior`](../ibehavior). |
+| [AsIBehavior](../../aspose.slides.animation/iscaleeffect/asibehavior) { get; } | Lehetővé teszi az alap IBehavior interfész lekérését. Csak olvasható [`IBehavior`](../ibehavior). |
 | [By](../../aspose.slides.animation/iscaleeffect/by) { get; set; } | Leírja az animáció relatív eltolási értékét (százalékban). Olvasás/írás PointF. |
-| [From](../../aspose.slides.animation/iscaleeffect/from) { get; set; } | Megadja az x/y koordinátát, ahonnan az animáció elindul (százalékban). Olvasás/írás PointF. |
-| [To](../../aspose.slides.animation/iscaleeffect/to) { get; set; } | Megadja az animáció méretezési hatásának célhelyét (százalékban). Olvasás/írás PointF. |
-| [ZoomContent](../../aspose.slides.animation/iscaleeffect/zoomcontent) { get; set; } | Meghatározza, hogy a tartalom legyen-e nagyított. Olvasás/írás [`NullableBool`](../../aspose.slides/nullablebool). |
+| [From](../../aspose.slides.animation/iscaleeffect/from) { get; set; } | Megadja az x/y koordinátát, ahonnan az animáció indul (százalékban). Olvasás/írás PointF. |
+| [To](../../aspose.slides.animation/iscaleeffect/to) { get; set; } | Megadja a célhelyet egy animáció méretezési hatáshoz (százalékban). Olvasás/írás PointF. |
+| [ZoomContent](../../aspose.slides.animation/iscaleeffect/zoomcontent) { get; set; } | Meghatározza, hogy a tartalomnak legyen-e nagyítva. Olvasás/írás [`NullableBool`](../../aspose.slides/nullablebool). |
 
 ### Lásd még
 

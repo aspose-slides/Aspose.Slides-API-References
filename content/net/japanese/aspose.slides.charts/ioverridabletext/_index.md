@@ -1,14 +1,14 @@
 ---
 title: IOverridableText
 second_title: Aspose.Sildes for .NET API リファレンス
-description: チャート用のオーバーライド可能なテキストを表します。
+description: チャートの上書き可能なテキストを表します。
 type: docs
-weight: 2160
+weight: 2180
 url: /ja/aspose.slides.charts/ioverridabletext/
 ---
 ## IOverridableText インターフェイス
 
-チャート用のオーバーライド可能なテキストを表します。
+チャートの上書き可能なテキストを表します。
 
 ```csharp
 public interface IOverridableText : IFormattedTextContainer
@@ -19,13 +19,13 @@ public interface IOverridableText : IFormattedTextContainer
 | 名前 | 説明 |
 | --- | --- |
 | [AsIFormattedTextContainer](../../aspose.slides.charts/ioverridabletext/asiformattedtextcontainer) { get; } | ベースの IFormattedTextContainer インターフェイスを取得できます。読み取り専用 [`IFormattedTextContainer`](../iformattedtextcontainer)。 |
-| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | リッチな書式設定テキストを含めることができます。このプロパティが null でない場合、この書式設定テキストの値は自動生成テキストを上書きします。自動生成テキストは、データ ラベル、値軸の表示単位ラベル、軸タイトル、チャート タイトル、トレンドラインのラベルの暗黙的なプロパティです。自動生成テキストは IFormattedTextContainer.TextFormat プロパティで書式設定されます。読み取り専用 [`ITextFrame`](../../aspose.slides/itextframe)。 |
+| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | リッチな書式付きテキストを含めることができます。このプロパティが null でない場合、この書式付きテキストの値は自動生成テキストを上書きします。自動生成テキストはデータラベル、値軸の表示単位ラベル、軸タイトル、チャートタイトル、トレンドラインのラベルの暗黙的なプロパティです。自動生成テキストは IFormattedTextContainer.TextFormat プロパティで書式設定されます。読み取り専用 [`ITextFrame`](../../aspose.slides/itextframe)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/addtextframeforoverriding)(string) | パラメーター "text" のテキストで TextFrameForOverriding を初期化します。TextFrameForOverriding が既に初期化されている場合は、単にそのテキストを変更します。 |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/addtextframeforoverriding)(string) | パラメーター「text」のテキストで TextFrameForOverriding を初期化します。TextFrameForOverriding が既に初期化されている場合、単にそのテキストを変更します。 |
 
 ### 参照
 

@@ -1,34 +1,34 @@
 ---
 title: IGradientFormatEffectiveData
 second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Niezmienny obiekt zawierający efektywne właściwości wypełnienia gradientowego.
+description: Niemutowalny obiekt zawierający efektywne właściwości wypełniania gradientem.
 type: docs
-weight: 5990
+weight: 6010
 url: /pl/aspose.slides/igradientformateffectivedata/
 ---
-## IGradientFormatEffectiveData interfejs
+## IGradientFormatEffectiveData interface
 
-Obiekt niezmienny, który zawiera efektywne właściwości wypełnienia gradientowego.
+Obiekt niemutowalny, który zawiera efektywne właściwości wypełniania gradientem.
 
 ```csharp
 public interface IGradientFormatEffectiveData : IFillParamSource
 ```
 
-## Właściwości
+## Properties
 
 | Nazwa | Opis |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/igradientformateffectivedata/asifillparamsource) { get; } | Umożliwia pobranie podstawowego interfejsu IFillParamSource. Tylko do odczytu [`IFillParamSource`](../ifillparamsource). |
 | [GradientDirection](../../aspose.slides/igradientformateffectivedata/gradientdirection) { get; } | Zwraca styl gradientu. Tylko do odczytu [`GradientDirection`](../gradientdirection). |
 | [GradientShape](../../aspose.slides/igradientformateffectivedata/gradientshape) { get; } | Zwraca kształt gradientu. Tylko do odczytu [`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/igradientformateffectivedata/gradientstops) { get; } | Zwraca kolekcję przystanków gradientu. Tylko do odczytu [`IGradientStopCollectionEffectiveData`](../igradientstopcollectioneffectivedata). |
+| [GradientStops](../../aspose.slides/igradientformateffectivedata/gradientstops) { get; } | Zwraca kolekcję punktów gradientu. Tylko do odczytu [`IGradientStopCollectionEffectiveData`](../igradientstopcollectioneffectivedata). |
 | [LinearGradientAngle](../../aspose.slides/igradientformateffectivedata/lineargradientangle) { get; } | Zwraca kąt gradientu. Tylko do odczytu Single. |
 | [LinearGradientScaled](../../aspose.slides/igradientformateffectivedata/lineargradientscaled) { get; } | Określa, czy gradient jest skalowany. Tylko do odczytu Boolean. |
 | [TileFlip](../../aspose.slides/igradientformateffectivedata/tileflip) { get; } | Zwraca tryb odbicia gradientu. Tylko do odczytu [`TileFlip`](../tileflip). |
 
 ### Uwagi
 
-Ten interfejs jest używany jako część [`IFillFormatEffectiveData`](../ifillformateffectivedata) i [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata).
+Ten interfejs jest używany jako część [`IFillFormatEffectiveData`](../ifillformateffectivedata) oraz [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata).
 
 ### Zobacz także
 

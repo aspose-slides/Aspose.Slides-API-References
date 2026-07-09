@@ -1,14 +1,14 @@
 ---
 title: BiLevel
-second_title: Aspose.Sildes 用 .NET API リファレンス
-description: Bi-Level の黒/白効果を表します。指定された閾値未満の輝度を持つ入力色は黒に変更され、指定された値以上の輝度を持つ入力色は白に設定されます。アルファ効果値はこの効果の影響を受けません。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: Bi-Level の黒/白エフェクトを表します。指定されたしきい値未満の輝度を持つ入力カラーは黒に変換されます。指定された値以上の輝度を持つ入力カラーは白に設定されます。アルファ効果値はこのエフェクトの影響を受けません。
 type: docs
-weight: 2890
+weight: 2910
 url: /ja/aspose.slides.effects/bilevel/
 ---
 ## BiLevel クラス
 
-Bi-Level（黒/白）効果を表します。指定された閾値未満の輝度を持つ入力色は黒に変換されます。指定された値以上の輝度を持つ入力色は白に設定されます。アルファ効果値はこの効果の影響を受けません。
+Bi-Level（黒/白）エフェクトを表します。指定されたしきい値未満の輝度を持つ入力カラーは黒に変換されます。指定された値以上の輝度を持つ入力カラーは白に設定されます。アルファ効果値はこのエフェクトの影響を受けません。
 
 ```csharp
 public sealed class BiLevel : ImageTransformOperation, IBiLevel
@@ -25,7 +25,7 @@ public sealed class BiLevel : ImageTransformOperation, IBiLevel
 | 名前 | 説明 |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/bilevel/equals)(object) | 指定された [`BiLevel`](../bilevel) が現在の [`BiLevel`](../bilevel) と等しいかどうかを判断します。 |
-| [GetEffective](../../aspose.slides.effects/bilevel/geteffective)() | 継承が適用された有効な Bi-Level 効果データを取得します。 |
+| [GetEffective](../../aspose.slides.effects/bilevel/geteffective)() | 継承が適用された有効な Bi-Level エフェクトデータを取得します。 |
 | override [GetHashCode](../../aspose.slides.effects/bilevel/gethashcode)() | 特定の型に対するハッシュ関数として機能します。 |
 
 ### 参照

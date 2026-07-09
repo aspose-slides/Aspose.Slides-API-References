@@ -3,7 +3,7 @@ title: IImage
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili gambar raster atau vektor.
 type: docs
-weight: 6130
+weight: 6150
 url: /id/aspose.slides/iimage/
 ---
 ## IImage antarmuka
@@ -34,7 +34,7 @@ public interface IImage : IDisposable
 
 ### Catatan
 
-Antarmuka ini menyediakan abstraksi umum untuk menangani gambar raster dan vektor. Implementasi dapat bervariasi tergantung pada jenis gambar dasar.
+Antarmuka ini menyediakan abstraksi umum untuk menangani gambar raster dan vektor. Implementasi dapat bervariasi tergantung pada tipe gambar dasar.
 
 ### Lihat Juga
 

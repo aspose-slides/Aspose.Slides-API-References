@@ -1,9 +1,9 @@
 ---
 title: PresentationPlayer.FrameTickHandler
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: FrameTick./presentationplayer/frametick olayının çerçeve tik işleyicisini temsil eder.
 type: docs
-weight: 4380
+weight: 4400
 url: /tr/aspose.slides.export/presentationplayer.frametickhandler/
 ---
 ## PresentationPlayer.FrameTickHandler delege
@@ -16,7 +16,7 @@ public delegate void FrameTickHandler(PresentationPlayer sender, FrameTickEventA
 
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| sender | PresentationPlayer | Çerçeve tik olayının göndericisi. |
+| sender | PresentationPlayer | Çerçeve tik olayı göndericisi. |
 | args | FrameTickEventArgs | Çerçeve tik argümanları. |
 
 ### Ayrıca Bakınız

@@ -1,14 +1,14 @@
 ---
 title: IHtmlOptions
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili opsi pengeksporan HTML.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili opsi ekspor HTML.
 type: docs
-weight: 3950
+weight: 3970
 url: /id/aspose.slides.export/ihtmloptions/
 ---
-## IHtmlOptions interface
+## IHtmlOptions antarmuka
 
-Mewakili opsi pengeksporan HTML.
+Mewakili opsi ekspor HTML.
 
 ```csharp
 public interface IHtmlOptions : ISaveOptions
@@ -18,22 +18,22 @@ public interface IHtmlOptions : ISaveOptions
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ihtmloptions/asisaveoptions) { get; } | Mengembalikan antarmuka ISaveOptions. Hanya-baca [`ISaveOptions`](../isaveoptions). |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/ihtmloptions/deletepicturescroppedareas) { get; set; } | Bendera boolean yang menunjukkan apakah bagian yang dipotong tetap menjadi bagian dari dokumen. Jika true, bagian yang dipotong akan dihapus, jika false mereka akan diserialkan dalam dokumen (yang mungkin menyebabkan file lebih besar) Baca/tulis Boolean. |
-| [DisableFontLigatures](../../aspose.slides.export/ihtmloptions/disablefontligatures) { get; set; } | Mendapatkan atau menetapkan nilai yang menunjukkan apakah teks dirender tanpa menggunakan ligatur. Ketika disetel ke `true`, ligatur akan dinonaktifkan dalam output yang dirender. Secara default, properti ini disetel ke `false`. |
-| [HtmlFormatter](../../aspose.slides.export/ihtmloptions/htmlformatter) { get; set; } | Mengembalikan atau menetapkan templat HTML. Baca/tulis [`IHtmlFormatter`](../ihtmlformatter). |
-| [InkOptions](../../aspose.slides.export/ihtmloptions/inkoptions) { get; } | Menyediakan opsi yang mengontrol tampilan objek Ink dalam dokumen yang diekspor. Hanya-baca [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/ihtmloptions/jpegquality) { get; set; } | Mengembalikan atau menetapkan nilai yang menentukan kualitas gambar JPEG di dalam dokumen PDF. Baca/tulis Byte. |
+| [AsISaveOptions](../../aspose.slides.export/ihtmloptions/asisaveoptions) { get; } | Mengembalikan antarmuka ISaveOptions. Baca-saja [`ISaveOptions`](../isaveoptions). |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/ihtmloptions/deletepicturescroppedareas) { get; set; } | Sebuah flag boolean menunjukkan apakah bagian yang dipotong tetap menjadi bagian dari dokumen. Jika true, bagian yang dipotong akan dihapus, jika false mereka akan diserialkan dalam dokumen (yang dapat menyebabkan file lebih besar) Baca/tulis Boolean. |
+| [DisableFontLigatures](../../aspose.slides.export/ihtmloptions/disablefontligatures) { get; set; } | Mendapatkan atau mengatur nilai yang menunjukkan apakah teks dirender tanpa menggunakan ligatur. Ketika diatur ke `true`, ligatur akan dinonaktifkan dalam output yang dirender. Secara default, properti ini diatur ke `false`. |
+| [HtmlFormatter](../../aspose.slides.export/ihtmloptions/htmlformatter) { get; set; } | Mengembalikan atau mengatur templat HTML. Baca/tulis [`IHtmlFormatter`](../ihtmlformatter). |
+| [InkOptions](../../aspose.slides.export/ihtmloptions/inkoptions) { get; } | Menyediakan opsi yang mengontrol tampilan objek Ink dalam dokumen yang diekspor. Baca-saja [`IInkOptions`](../iinkoptions) |
+| [JpegQuality](../../aspose.slides.export/ihtmloptions/jpegquality) { get; set; } | Mengembalikan atau mengatur nilai yang menentukan kualitas gambar JPEG dalam dokumen PDF. Baca/tulis Byte. |
 | [PicturesCompression](../../aspose.slides.export/ihtmloptions/picturescompression) { get; set; } | Mewakili tingkat kompresi gambar. Baca/tulis [`PicturesCompression`](./picturescompression). |
 | [ShowHiddenSlides](../../aspose.slides.export/ihtmloptions/showhiddenslides) { get; set; } | Menentukan apakah dokumen yang dihasilkan harus menyertakan slide tersembunyi atau tidak. Default adalah `false`. |
-| [SlideImageFormat](../../aspose.slides.export/ihtmloptions/slideimageformat) { get; set; } | Mengembalikan atau menetapkan opsi format gambar slide. Baca/tulis [`ISlideImageFormat`](../islideimageformat). |
-| [SlidesLayoutOptions](../../aspose.slides.export/ihtmloptions/slideslayoutoptions) { get; set; } | Mendapatkan atau menetapkan mode penempatan slide pada halaman saat mengekspor presentasi [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [SvgResponsiveLayout](../../aspose.slides.export/ihtmloptions/svgresponsivelayout) { get; set; } | True untuk mengecualikan atribut lebar dan tinggi dari kontainer SVG - itu akan membuat tata letak responsif. False - sebaliknya. Baca/tulis Boolean. |
+| [SlideImageFormat](../../aspose.slides.export/ihtmloptions/slideimageformat) { get; set; } | Mengembalikan atau mengatur opsi format gambar slide. Baca/tulis [`ISlideImageFormat`](../islideimageformat). |
+| [SlidesLayoutOptions](../../aspose.slides.export/ihtmloptions/slideslayoutoptions) { get; set; } | Mendapatkan atau mengatur mode di mana slide ditempatkan pada halaman saat mengekspor presentasi [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [SvgResponsiveLayout](../../aspose.slides.export/ihtmloptions/svgresponsivelayout) { get; set; } | True untuk mengecualikan atribut lebar dan tinggi dari kontainer SVG - hal ini akan membuat tata letak responsif. False - sebaliknya. Baca/tulis Boolean. |
 
 ### Lihat Juga
 
 * antarmuka [ISaveOptions](../isaveoptions)
 * ruang nama [Aspose.Slides.Export](../../aspose.slides.export)
-* assembly [Aspose.Slides](../../)
+* perakitan [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

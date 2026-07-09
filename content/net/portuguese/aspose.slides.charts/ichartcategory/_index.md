@@ -1,14 +1,14 @@
 ---
 title: IChartCategory
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa categorias de gráfico.
 type: docs
-weight: 1730
+weight: 1750
 url: /pt/aspose.slides.charts/ichartcategory/
 ---
 ## IChartCategory interface
 
-Representa as categorias do gráfico.
+Representa categorias de gráfico.
 
 ```csharp
 public interface IChartCategory
@@ -18,11 +18,11 @@ public interface IChartCategory
 
 | Nome | Descrição |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/ichartcategory/ascell) { get; set; } | Retorna ou define o objeto IChartDataCell. Se a categoria for de vários níveis, então usa o objeto IChartDataCell para o nível "0". Leitura/Gravação [`IChartDataCell`](../ichartdatacell). |
-| [AsLiteral](../../aspose.slides.charts/ichartcategory/asliteral) { get; set; } | Retorna ou define AsLiteral se UseCell for false. Leitura/Gravação Object. |
-| [GroupingLevels](../../aspose.slides.charts/ichartcategory/groupinglevels) { get; } | Contêiner gerenciado dos valores dos níveis de agrupamento da categoria do gráfico. Categoria de vários níveis contém mais de um nível de agrupamento. A indexação dos níveis de agrupamento começa em zero. Somente leitura [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
-| [UseCell](../../aspose.slides.charts/ichartcategory/usecell) { get; } | Se true, então a propriedade AsCell está efetiva. Em outras palavras, a planilha é usada para armazenar a categoria (este caso suporta uma categoria de vários níveis). Se false, então a propriedade AsLiteral está efetiva. Em outras palavras, a planilha NÃO é usada para armazenar a categoria (e este caso não suporta categorias de vários níveis). Somente leitura Boolean. |
-| [Value](../../aspose.slides.charts/ichartcategory/value) { get; set; } | Se UseCell for true, essa propriedade representa a propriedade AsCell.Value. Se UseCell for false, essa propriedade representa a propriedade AsLiteral. Leitura/Gravação Object. |
+| [AsCell](../../aspose.slides.charts/ichartcategory/ascell) { get; set; } | Retorna ou define o objeto IChartDataCell. Se a categoria for de vários níveis, então é usado o objeto IChartDataCell para o nível "0". Leitura/gravação [`IChartDataCell`](../ichartdatacell). |
+| [AsLiteral](../../aspose.slides.charts/ichartcategory/asliteral) { get; set; } | Retorna ou define AsLiteral se UseCell for false. Leitura/gravação Object. |
+| [GroupingLevels](../../aspose.slides.charts/ichartcategory/groupinglevels) { get; } | Contêiner gerenciado dos valores dos níveis de agrupamento da categoria de gráfico. Categoria de vários níveis contém mais de um nível de agrupamento. A indexação dos níveis de agrupamento começa em zero. Somente leitura [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
+| [UseCell](../../aspose.slides.charts/ichartcategory/usecell) { get; } | Se true então a propriedade AsCell é atual. Em outras palavras, a planilha é usada para armazenar a categoria (este caso suporta uma categoria de vários níveis). Se false então a propriedade AsLiteral é atual. Em outras palavras, a planilha NÃO é usada para armazenar a categoria (e este caso não suporta categorias de vários níveis). Somente leitura Boolean. |
+| [Value](../../aspose.slides.charts/ichartcategory/value) { get; set; } | Se UseCell for true então esta propriedade representa a propriedade AsCell.Value. Se UseCell for false então esta propriedade representa a propriedade AsLiteral. Leitura/gravação Object. |
 
 ## Métodos
 
@@ -30,7 +30,7 @@ public interface IChartCategory
 | --- | --- |
 | [Remove](../../aspose.slides.charts/ichartcategory/remove)() | Remove a categoria do gráfico. |
 
-### See Also
+### Veja Também
 
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: TransitionPattern
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 大きな領域を埋めるために組み合わせて敷き詰めるジオメトリックパターンを指定します。
+description: 幾何学的なパターンを指定し、タイル状に配置して広い領域を埋めます。
 type: docs
-weight: 10380
+weight: 10400
 url: /ja/aspose.slides.slideshow/transitionpattern/
 ---
 ## TransitionPattern 列挙型
 
-大きな領域を埋めるために組み合わせて敷き詰めるジオメトリックパターンを指定します。
+幾何学的なパターンを指定し、タイル状に配置して広い領域を埋めます。
 
 ```csharp
 public enum TransitionPattern

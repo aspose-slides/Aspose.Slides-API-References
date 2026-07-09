@@ -1,12 +1,12 @@
 ---
 title: IBehaviorFactory
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Memungkinkan membuat efek animasi
 type: docs
-weight: 410
+weight: 430
 url: /id/aspose.slides.animation/ibehaviorfactory/
 ---
-## IBehaviorFactory antarmuka
+## IBehaviorFactory interface
 
 Memungkinkan membuat efek animasi
 

@@ -1,12 +1,12 @@
 ---
 title: IFontScheme
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência de API
 description: Armazena fontes definidas pelo tema.
 type: docs
-weight: 11230
+weight: 11250
 url: /pt/aspose.slides.theme/ifontscheme/
 ---
-## interface IFontScheme
+## IFontScheme interface
 
 Armazena fontes definidas pelo tema.
 
@@ -22,7 +22,7 @@ public interface IFontScheme
 | [Minor](../../aspose.slides.theme/ifontscheme/minor) { get; } | Retorna a coleção de fontes para a parte "corpo" do slide. Somente leitura [`IFonts`](../../aspose.slides/ifonts). |
 | [Name](../../aspose.slides.theme/ifontscheme/name) { get; set; } | Retorna o nome do esquema de fontes. Leitura/gravação String. |
 
-### Veja também
+### Veja Também
 
 * espaço de nomes [Aspose.Slides.Theme](../../aspose.slides.theme)
 * assembly [Aspose.Slides](../../)

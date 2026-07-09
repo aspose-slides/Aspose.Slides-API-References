@@ -1,14 +1,14 @@
 ---
 title: IHtmlGenerator
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Γεννήτρια HTML.
+description: Δημιουργός HTML.
 type: docs
-weight: 3940
+weight: 3960
 url: /el/aspose.slides.export/ihtmlgenerator/
 ---
-## IHtmlGenerator διεπαφή
+## IHtmlGenerator διασύνδεση
 
-Γεννήτρια HTML.
+Δημιουργός HTML.
 
 ```csharp
 public interface IHtmlGenerator
@@ -18,30 +18,30 @@ public interface IHtmlGenerator
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [NextSlideIndex](../../aspose.slides.export/ihtmlgenerator/nextslideindex) { get; } | Επιστρέφει τον δείκτη μιας διαφάνειας, η οποία θα αποδοθεί μετά την τρέχουσα διαφάνεια ή -1 εάν αποδίδεται η τελευταία διαφάνεια. Μόνο για ανάγνωση Int32. |
-| [PreviousSlideIndex](../../aspose.slides.export/ihtmlgenerator/previousslideindex) { get; } | Επιστρέφει τον δείκτη της προηγούμενης αποδοθείσας διαφάνειας ή -1 εάν αποδίδεται η πρώτη διαφάνεια. Μόνο για ανάγνωση Int32. |
-| [SlideImageSize](../../aspose.slides.export/ihtmlgenerator/slideimagesize) { get; } | Επιστρέφει το μέγεθος εικόνας της διαφάνειας. Μόνο για ανάγνωση SizeF. |
-| [SlideImageSizeUnit](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunit) { get; } | Επιστρέφει τη μονάδα στην οποία καθορίζεται το μέγεθος εικόνας της διαφάνειας. Μόνο για ανάγνωση [`SvgCoordinateUnit`](../svgcoordinateunit). |
-| [SlideImageSizeUnitCode](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunitcode) { get; } | Επιστρέφει έναν κώδικα CSS της μονάδας στην οποία καθορίζεται το μέγεθος εικόνας της διαφάνειας. Μόνο για ανάγνωση String. |
-| [SlideIndex](../../aspose.slides.export/ihtmlgenerator/slideindex) { get; } | Επιστρέφει τον δείκτη της τρέχουσας αποδίδοντα διαφάνειας. Μόνο για ανάγνωση Int32. |
+| [NextSlideIndex](../../aspose.slides.export/ihtmlgenerator/nextslideindex) { get; } | Επιστρέφει το δείκτη μιας διαφάνειας που θα αποδοθεί μετά την τρέχουσα διαφάνεια ή -1 εάν αποδίδεται η τελευταία διαφάνεια. Μόνο για ανάγνωση Int32. |
+| [PreviousSlideIndex](../../aspose.slides.export/ihtmlgenerator/previousslideindex) { get; } | Επιστρέφει το δείκτη της προηγούμενης αποδοθείσας διαφάνειας ή -1 εάν αποδίδεται η πρώτη διαφάνεια. Μόνο για ανάγνωση Int32. |
+| [SlideImageSize](../../aspose.slides.export/ihtmlgenerator/slideimagesize) { get; } | Επιστρέφει το μέγεθος της εικόνας της διαφάνειας. Μόνο για ανάγνωση SizeF. |
+| [SlideImageSizeUnit](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunit) { get; } | Επιστρέφει τη μονάδα στην οποία καθορίζεται το μέγεθος της εικόνας της διαφάνειας. Μόνο για ανάγνωση [`SvgCoordinateUnit`](../svgcoordinateunit). |
+| [SlideImageSizeUnitCode](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunitcode) { get; } | Επιστρέφει κώδικα CSS της μονάδας στην οποία καθορίζεται το μέγεθος της εικόνας της διαφάνειας. Μόνο για ανάγνωση String. |
+| [SlideIndex](../../aspose.slides.export/ihtmlgenerator/slideindex) { get; } | Επιστρέφει το δείκτη της τρέχουσας διαφάνειας που αποδίδεται. Μόνο για ανάγνωση Int32. |
 
-## Methods
+## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue)(char[]) | Τοποθετεί σε εισαγωγικά την τιμή του χαρακτηριστικού και την προσθέτει στο αρχείο html. |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_2)(string) | Τοποθετεί σε εισαγωγικά την τιμή του χαρακτηριστικού και την προσθέτει στο αρχείο html. |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | Τοποθετεί σε εισαγωγικά την τιμή του χαρακτηριστικού και την προσθέτει στο αρχείο html. |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue)(char[]) | Βάζει εισαγωγικά στην τιμή του χαρακτηριστικού και την προσθέτει στο αρχείο html. |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_2)(string) | Βάζει εισαγωγικά στην τιμή του χαρακτηριστικού και την προσθέτει στο αρχείο html. |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | Βάζει εισαγωγικά στην τιμή του χαρακτηριστικού και την προσθέτει στο αρχείο html. |
 | [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml)(char[]) | Προσθέτει μορφοποιημένο κείμενο HTML. |
 | [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_2)(string) | Προσθέτει μορφοποιημένο κείμενο HTML. |
 | [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_1)(char[], int, int) | Προσθέτει μορφοποιημένο κείμενο HTML. |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext)(char[]) | Προσθέτει απλό κείμενο στα αρχεία html, αντικαθιστώντας ειδικούς χαρακτήρες με οντότητες html. Οι αλλαγές γραμμής και τα κενά δεν αντικαθίστανται. |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_2)(string) | Προσθέτει απλό κείμενο στα αρχεία html, αντικαθιστώντας ειδικούς χαρακτήρες με οντότητες html. Οι αλλαγές γραμμής και τα κενά δεν αντικαθίστανται. |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_1)(char[], int, int) | Προσθέτει απλό κείμενο στα αρχεία html, αντικαθιστώντας ειδικούς χαρακτήρες με οντότητες html. Οι αλλαγές γραμμής και τα κενά δεν αντικαθίστανται. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext)(char[]) | Προσθέτει απλό κείμενο στα αρχεία html, αντικαθιστώντας ειδικούς χαρακτήρες με οντότητες html. Τα διαστήματα και οι αλλαγές γραμμής δεν αντικαθίστανται. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_2)(string) | Προσθέτει απλό κείμενο στα αρχεία html, αντικαθιστώντας ειδικούς χαρακτήρες με οντότητες html. Τα διαστήματα και οι αλλαγές γραμμής δεν αντικαθίστανται. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_1)(char[], int, int) | Προσθέτει απλό κείμενο στα αρχεία html, αντικαθιστώντας ειδικούς χαρακτήρες με οντότητες html. Τα διαστήματα και οι αλλαγές γραμμής δεν αντικαθίστανται. |
 
 ### Δείτε επίσης
 
-* namespace [Aspose.Slides.Export](../../aspose.slides.export)
-* assembly [Aspose.Slides](../../)
+* χώρο ονομάτων [Aspose.Slides.Export](../../aspose.slides.export)
+* συγκρότημα [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

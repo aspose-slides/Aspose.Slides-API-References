@@ -1,12 +1,12 @@
 ---
 title: IFormatScheme
-second_title: Aspose.Slides för .NET API-referens
+second_title: Aspose.Sildes för .NET API-referens
 description: Lagrar temadefinierade format för formerna.
 type: docs
-weight: 11250
+weight: 11270
 url: /sv/aspose.slides.theme/iformatscheme/
 ---
-## IFormatScheme gränssnitt
+## IFormatScheme interface
 
 Lagrar temadefinierade format för formerna.
 
@@ -14,15 +14,15 @@ Lagrar temadefinierade format för formerna.
 public interface IFormatScheme : ISlideComponent
 ```
 
-## Egenskaper
+## Properties
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides.theme/iformatscheme/asislidecomponent) { get; } | Tillåter att hämta bas-ISlideComponent-gränssnittet. Skrivskyddad [`ISlideComponent`](../../aspose.slides/islidecomponent). |
-| [BackgroundFillStyles](../../aspose.slides.theme/iformatscheme/backgroundfillstyles) { get; } | Returnerar en samling av temadefinierade bakgrundsfyllningsstilar. Skrivskyddad [`IFillFormatCollection`](../ifillformatcollection). |
-| [EffectStyles](../../aspose.slides.theme/iformatscheme/effectstyles) { get; } | Returnerar en samling av temadefinierade effektstilar. Skrivskyddad [`IEffectStyleCollection`](../ieffectstylecollection). |
-| [FillStyles](../../aspose.slides.theme/iformatscheme/fillstyles) { get; } | Returnerar en samling av temadefinierade fyllningsstilar. Skrivskyddad [`IFillFormatCollection`](../ifillformatcollection). |
-| [LineStyles](../../aspose.slides.theme/iformatscheme/linestyles) { get; } | Returnerar en samling av temadefinierade linjestilar. Skrivskyddad [`ILineFormatCollection`](../ilineformatcollection). |
+| [AsISlideComponent](../../aspose.slides.theme/iformatscheme/asislidecomponent) { get; } | Tillåter att hämta bas-ISlideComponent-gränssnittet. Endast läsning [`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [BackgroundFillStyles](../../aspose.slides.theme/iformatscheme/backgroundfillstyles) { get; } | Returnerar en samling av temadefinierade bakgrundsfyllnadsstilar. Endast läsning [`IFillFormatCollection`](../ifillformatcollection). |
+| [EffectStyles](../../aspose.slides.theme/iformatscheme/effectstyles) { get; } | Returnerar en samling av temadefinierade effektstilar. Endast läsning [`IEffectStyleCollection`](../ieffectstylecollection). |
+| [FillStyles](../../aspose.slides.theme/iformatscheme/fillstyles) { get; } | Returnerar en samling av temadefinierade fyllnadsstilar. Endast läsning [`IFillFormatCollection`](../ifillformatcollection). |
+| [LineStyles](../../aspose.slides.theme/iformatscheme/linestyles) { get; } | Returnerar en samling av temadefinierade linjestilar. Endast läsning [`ILineFormatCollection`](../ilineformatcollection). |
 
 ### Se även
 

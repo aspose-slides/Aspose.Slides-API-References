@@ -1,14 +1,14 @@
 ---
 title: LineAlignment
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta il tipo di allineamento delle linee.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Rappresenta il tipo di allineamento delle righe.
 type: docs
-weight: 7700
+weight: 7720
 url: /it/aspose.slides/linealignment/
 ---
-## Enumerazione LineAlignment
+## enumerazione LineAlignment
 
-Rappresenta il tipo di allineamento delle linee.
+Rappresenta il tipo di allineamento delle righe.
 
 ```csharp
 public enum LineAlignment : sbyte

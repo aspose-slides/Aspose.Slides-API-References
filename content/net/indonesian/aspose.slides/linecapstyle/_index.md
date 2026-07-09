@@ -3,10 +3,10 @@ title: LineCapStyle
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili gaya ujung garis.
 type: docs
-weight: 7740
+weight: 7760
 url: /id/aspose.slides/linecapstyle/
 ---
-## Enumerasi LineCapStyle
+## enumerasi LineCapStyle
 
 Mewakili gaya ujung garis.
 

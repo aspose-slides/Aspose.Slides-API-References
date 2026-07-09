@@ -1,14 +1,14 @@
 ---
 title: SlideOrientation
-second_title: Aspose.Sildes için .NET API Referansı
-description: Slayt yönünü temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Slayt yönelimini temsil eder.
 type: docs
-weight: 9980
+weight: 10000
 url: /tr/aspose.slides/slideorientation/
 ---
-## SlideOrientation enum
+## SlideOrientation enum'ı
 
-Slayt yönünü temsil eder.
+Slayt yönelimini temsil eder.
 
 ```csharp
 public enum SlideOrientation
@@ -21,7 +21,7 @@ public enum SlideOrientation
 | Landscape | `0` | Yatay yön. |
 | Portrait | `1` | Dikey yön. |
 
-### Diğer Bağlantılar
+### Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

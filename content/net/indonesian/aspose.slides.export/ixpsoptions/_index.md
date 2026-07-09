@@ -1,9 +1,9 @@
 ---
 title: IXpsOptions
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Menyediakan opsi yang mengontrol bagaimana presentasi disimpan dalam format XPS.
+description: Menyediakan opsi yang mengontrol cara presentasi disimpan dalam format XPS.
 type: docs
-weight: 4180
+weight: 4200
 url: /id/aspose.slides.export/ixpsoptions/
 ---
 ## IXpsOptions antarmuka
@@ -19,9 +19,9 @@ public interface IXpsOptions : ISaveOptions
 | Nama | Deskripsi |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/ixpsoptions/asisaveoptions) { get; } | Mengembalikan antarmuka ISaveOptions. Hanya-baca [`ISaveOptions`](../isaveoptions). |
-| [DrawSlidesFrame](../../aspose.slides.export/ixpsoptions/drawslidesframe) { get; set; } | True untuk menggambar bingkai hitam di sekitar setiap slide. Baca/tulis Boolean. |
-| [SaveMetafilesAsPng](../../aspose.slides.export/ixpsoptions/savemetafilesaspng) { get; set; } | True untuk mengonversi semua metafile yang digunakan dalam presentasi menjadi gambar PNG. Baca/tulis Boolean. |
-| [ShowHiddenSlides](../../aspose.slides.export/ixpsoptions/showhiddenslides) { get; set; } | Menentukan apakah dokumen yang dihasilkan harus menyertakan slide tersembunyi atau tidak. Default adalah `false`. |
+| [DrawSlidesFrame](../../aspose.slides.export/ixpsoptions/drawslidesframe) { get; set; } | Benar untuk menggambar bingkai hitam di sekitar setiap slide. Baca/tulis Boolean. |
+| [SaveMetafilesAsPng](../../aspose.slides.export/ixpsoptions/savemetafilesaspng) { get; set; } | Benar untuk mengonversi semua metafile yang digunakan dalam presentasi menjadi gambar PNG. Baca/tulis Boolean. |
+| [ShowHiddenSlides](../../aspose.slides.export/ixpsoptions/showhiddenslides) { get; set; } | Menentukan apakah dokumen yang dihasilkan harus menyertakan slide tersembunyi atau tidak. Nilai default adalah `false`. |
 
 ### Lihat Juga
 

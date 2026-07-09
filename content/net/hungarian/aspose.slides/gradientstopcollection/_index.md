@@ -1,14 +1,14 @@
 ---
 title: GradientStopCollection
-second_title: Aspose.Sildes .NET API-referencia
-description: Egy színátmenet-állomásokat tartalmazó gyűjteményt ábrázol.
+second_title: Aspose.Sildes .NET API referencia
+description: Egy színátmenet-állomás gyűjteményét reprezentálja.
 type: docs
-weight: 5010
+weight: 5030
 url: /hu/aspose.slides/gradientstopcollection/
 ---
 ## GradientStopCollection osztály
 
-Ábrázolja a színátmenet-állomásokat tartalmazó gyűjteményt.
+Egy színátmenet-állomás gyűjteményét reprezentálja.
 
 ```csharp
 public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
@@ -18,7 +18,7 @@ public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
 
 | Név | Leírás |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi az alap IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
 | [Count](../../aspose.slides/gradientstopcollection/count) { get; } | Visszaadja a gyűjteményben lévő színátmenet-állomások számát. Csak olvasható Int32. |
 | [IsSynchronized](../../aspose.slides/gradientstopcollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált (szálbiztos). Csak olvasható Boolean. |
 | [Item](../../aspose.slides/gradientstopcollection/item) { get; } | Visszaadja a színátmenet-állomást index alapján. |
@@ -28,18 +28,18 @@ public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
 
 | Név | Leírás |
 | --- | --- |
-| [Add](../../aspose.slides/gradientstopcollection/add#add_2)(float, Color) | Létrehozza az új színátmenet-állomást, és a gyűjtemény végére helyezi. |
-| [Add](../../aspose.slides/gradientstopcollection/add#add)(float, PresetColor) | Létrehozza az új színátmenet-állomást, és a gyűjtemény végére helyezi. |
-| [Add](../../aspose.slides/gradientstopcollection/add#add_1)(float, SchemeColor) | Létrehozza az új színátmenet-állomást, és a gyűjtemény végére helyezi. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add_2)(float, Color) | Létrehozza az új színátmenet-állomást, és a gyűjtemény végéhez adja hozzá. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add)(float, PresetColor) | Létrehozza az új színátmenet-állomást, és a gyűjtemény végéhez adja hozzá. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add_1)(float, SchemeColor) | Létrehozza az új színátmenet-állomást, és a gyűjtemény végéhez adja hozzá. |
 | [Clear](../../aspose.slides/gradientstopcollection/clear)() | Eltávolítja az összes színátmenet-állomást a gyűjteményből. |
-| [CopyTo](../../aspose.slides/gradientstopcollection/copyto)(Array, int) | Másolja a gyűjtemény összes elemét a megadott tömbbe. |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Összehasonlítja a megadott objektummal. |
-| [GetEnumerator](../../aspose.slides/gradientstopcollection/getenumerator)() | Visszaad egy enumerátort, amely bejárja a gyűjteményt. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Visszaadja a hash kódot. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | Létrehozza az új színátmenet-állomást, és a megadott indexnél a gyűjteménybe illeszti. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | Létrehozza az új színátmenet-állomást, és a megadott indexnél a gyűjteménybe illeszti. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Létrehozza az új színátmenet-állomást, és a megadott indexnél a gyűjteménybe illeszti. |
-| [RemoveAt](../../aspose.slides/gradientstopcollection/removeat)(int) | Eltávolít egy színátmenet-állomást a megadott indexen. |
+| [CopyTo](../../aspose.slides/gradientstopcollection/copyto)(Array, int) | Átmásolja a gyűjtemény összes elemét a megadott tömbbe. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Összehasonlítja a meghatározott objektummal. |
+| [GetEnumerator](../../aspose.slides/gradientstopcollection/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Visszaad egy hash-kódot. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | Létrehozza az új színátmenet-állomást, és a megadott indexnél beilleszti a gyűjteménybe. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | Létrehozza az új színátmenet-állomást, és a megadott indexnél beilleszti a gyűjteménybe. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Létrehozza az új színátmenet-állomást, és a megadott indexnél beilleszti a gyűjteménybe. |
+| [RemoveAt](../../aspose.slides/gradientstopcollection/removeat)(int) | Eltávolít egy színátmenet-állomást a megadott indexnél. |
 
 ### Lásd még
 

@@ -1,9 +1,9 @@
 ---
 title: FontSources
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET – reference API
 description: Poskytuje souborové a paměťové zdroje pro externí písma.
 type: docs
-weight: 4840
+weight: 4860
 url: /cs/aspose.slides/fontsources/
 ---
 ## FontSources třída
@@ -16,16 +16,16 @@ public class FontSources : IFontSources
 
 ## Konstruktory
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
 | [FontSources](fontsources)() | Vytvoří nové výchozí možnosti písma. |
 
 ## Vlastnosti
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
-| [FontFolders](../../aspose.slides/fontsources/fontfolders) { get; set; } | Složky obsahující soubory písem. Všechny soubory písem umístěné v těchto složkách jsou zahrnuty do kolekce. Složky, které jsou prohledávány rekurzivně. |
-| [MemoryFonts](../../aspose.slides/fontsources/memoryfonts) { get; set; } | Kolekce písem reprezentovaných jako bajtová pole. |
+| [FontFolders](../../aspose.slides/fontsources/fontfolders) { get; set; } | Složky obsahující soubory písem. Všechny soubory písem nacházející se v těchto složkách jsou zahrnuty do kolekce. Složky jsou prohledávány rekurzivně. |
+| [MemoryFonts](../../aspose.slides/fontsources/memoryfonts) { get; set; } | Kolekce písem reprezentovaných jako pole bajtů. |
 
 ### Viz také
 

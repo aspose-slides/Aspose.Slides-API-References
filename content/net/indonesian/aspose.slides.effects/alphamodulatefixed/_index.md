@@ -1,14 +1,14 @@
 ---
 title: AlphaModulateFixed
-second_title: Aspose.Slides untuk Referensi API .NET
-description: Mewakili efek Alpha Modulate Fixed. Nilai alfa (opasitas) efek dikalikan dengan persentase tetap.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili efek Alpha Modulate Fixed. Nilai opacity alpha efek dikalikan dengan persentase tetap.
 type: docs
-weight: 2870
+weight: 2890
 url: /id/aspose.slides.effects/alphamodulatefixed/
 ---
 ## AlphaModulateFixed kelas
 
-Mewakili efek Alpha Modulate Fixed. Nilai alfa (opasitas) efek dikalikan dengan persentase tetap.
+Mewakili efek Alpha Modulate Fixed. Nilai alpha (opasitas) efek dikalikan dengan persentase tetap.
 
 ```csharp
 public sealed class AlphaModulateFixed : ImageTransformOperation, IAlphaModulateFixed
@@ -18,8 +18,8 @@ public sealed class AlphaModulateFixed : ImageTransformOperation, IAlphaModulate
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/alphamodulatefixed/amount) { get; set; } | Mengembalikan jumlah efek dalam persen. Baca/tulis Single. |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar IPresentationComponent. Hanya-baca [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Amount](../../aspose.slides.effects/alphamodulatefixed/amount) { get; set; } | Mengembalikan jumlah efek dalam persentase. Baca/tulis Single. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Memungkinkan mendapatkan antarmuka dasar IPresentationComponent. Baca-saja [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metode
 

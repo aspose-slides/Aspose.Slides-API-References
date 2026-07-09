@@ -3,10 +3,10 @@ title: SourceFormat
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta il formato del file sorgente.
 type: docs
-weight: 10660
+weight: 10680
 url: /it/aspose.slides/sourceformat/
 ---
-## enumerazione SourceFormat
+## Enumerazione SourceFormat
 
 Rappresenta il formato del file sorgente.
 
@@ -18,19 +18,19 @@ public enum SourceFormat
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Ppt | `0` | Microsoft PowerPoint 97-2003 Presentazione (*.ppt). |
-| Pptx | `1` | Microsoft Office Open XML Presentazione (*.pptx). |
-| Odp | `2` | Presentazione OpenDocument (*.odp). |
-| Pptm | `3` | Microsoft Office Open XML Presentazione abilitata per macro (*.pptm). |
-| Ppsx | `4` | Microsoft Office Open XML Presentazione diapositive (*.ppsx). |
-| Ppsm | `5` | Microsoft Office Open XML Presentazione diapositive abilitata per macro (*.ppsm). |
-| Potx | `6` | Microsoft Office Open XML Modello (*.potx). |
-| Potm | `7` | Microsoft Office Open XML Modello abilitato per macro (*.potm). |
-| Pps | `8` | Microsoft PowerPoint 97-2003 Presentazione diapositive (*.pps). |
-| Pot | `9` | Microsoft PowerPoint 97-2003 Modello (*.pot). |
-| Otp | `10` | Modello di presentazione OpenDocument (*.otp). |
-| Fodp | `11` | Presentazione ODF XML flat (*.fodp). |
-| Xml | `12` | Presentazione PowerPoint XML (*.xml). |
+| Ppt | `0` | Microsoft PowerPoint 97-2003 Presentation (*.ppt). |
+| Pptx | `1` | Microsoft Office Open XML Presentation (*.pptx). |
+| Odp | `2` | OpenDocument Presentation (*.odp). |
+| Pptm | `3` | Microsoft Office Open XML Macro-enabled Presentation (*.pptm). |
+| Ppsx | `4` | Microsoft Office Open XML SlideShow (*.ppsx). |
+| Ppsm | `5` | Microsoft Office Open XML Macro-enabled SlideShow (*.ppsm). |
+| Potx | `6` | Microsoft Office Open XML Template (*.potx). |
+| Potm | `7` | Microsoft Office Open XML Macro-enabled Template (*.potm). |
+| Pps | `8` | Microsoft PowerPoint 97-2003 SlideShow (*.pps). |
+| Pot | `9` | Microsoft PowerPoint 97-2003 Template (*.pot). |
+| Otp | `10` | OpenDocument Presentation Template (*.otp). |
+| Fodp | `11` | Flat XML ODF Presentation (*.fodp). |
+| Xml | `12` | PowerPoint XML Presentation (*.xml). |
 
 ### Vedi anche
 

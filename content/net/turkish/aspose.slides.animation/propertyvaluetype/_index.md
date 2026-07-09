@@ -1,12 +1,12 @@
 ---
 title: PropertyValueType
 second_title: Aspose.Sildes için .NET API Referansı
-description: Özellik değeri türlerini temsil eder.
+description: Özellik değer türlerini temsil eder.
 type: docs
-weight: 740
+weight: 760
 url: /tr/aspose.slides.animation/propertyvaluetype/
 ---
-## PropertyValueType enumerasyonu
+## PropertyValueType sayımı
 
 Özellik değeri türlerini temsil eder.
 
@@ -23,7 +23,7 @@ public enum PropertyValueType
 | Number | `1` |  |
 | Color | `2` |  |
 
-### Ayrıca Bakınız
+### Diğer
 
 * ad alanı [Aspose.Slides.Animation](../../aspose.slides.animation)
 * derleme [Aspose.Slides](../../)

@@ -3,7 +3,7 @@ title: IDataLabelFormat
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili opsi pemformatan untuk DataLabel.
 type: docs
-weight: 2020
+weight: 2040
 url: /id/aspose.slides.charts/idatalabelformat/
 ---
 ## IDataLabelFormat antarmuka
@@ -18,26 +18,26 @@ public interface IDataLabelFormat : IFormattedTextContainer
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/idatalabelformat/asiformattedtextcontainer) { get; } | Memungkinkan untuk mendapatkan antarmuka IFormattedTextContainer dasar. Hanya-baca [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [Format](../../aspose.slides.charts/idatalabelformat/format) { get; } | Mewakili format label data. Hanya-baca [`IFormat`](../iformat). |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/idatalabelformat/asiformattedtextcontainer) { get; } | Memungkinkan untuk mendapatkan antarmuka IFormattedTextContainer dasar. Hanya baca [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [Format](../../aspose.slides.charts/idatalabelformat/format) { get; } | Mewakili format label data. Hanya baca [`IFormat`](../iformat). |
 | [IsNumberFormatLinkedToSource](../../aspose.slides.charts/idatalabelformat/isnumberformatlinkedtosource) { get; set; } | Baca/tulis Boolean. |
 | [NumberFormat](../../aspose.slides.charts/idatalabelformat/numberformat) { get; set; } | Mewakili string format untuk objek DataLabels. Baca/tulis String. |
 | [Position](../../aspose.slides.charts/idatalabelformat/position) { get; set; } | Mewakili posisi label data. Baca/tulis [`LegendDataLabelPosition`](../legenddatalabelposition). |
 | [Separator](../../aspose.slides.charts/idatalabelformat/separator) { get; set; } | Mengatur atau mengembalikan Variant yang mewakili pemisah yang digunakan untuk label data pada diagram. Baca/tulis String. |
 | [ShowBubbleSize](../../aspose.slides.charts/idatalabelformat/showbubblesize) { get; set; } | Mewakili perilaku tampilan nilai ukuran gelembung label data pada diagram tertentu. True menampilkan nilai ukuran gelembung. False untuk menyembunyikan. Baca/tulis Boolean. |
-| [ShowCategoryName](../../aspose.slides.charts/idatalabelformat/showcategoryname) { get; set; } | Mewakili perilaku tampilan nama kategori label data pada diagram tertentu. True untuk menampilkan nama kategori untuk label data pada diagram. False untuk menyembunyikan. Baca/tulis Boolean. |
-| [ShowLabelAsDataCallout](../../aspose.slides.charts/idatalabelformat/showlabelasdatacallout) { get; set; } | Menentukan apakah label data diagram tertentu akan ditampilkan sebagai panggilan data atau sebagai label data. Jika induk objek DataLabelFormat ini adalah koleksi DataLabelCollection dari label data maka properti ini mendapatkan atau mengatur nilai default properti ShowLabelAsDataCallout untuk label data baru dalam koleksi DataLabelCollection. Mengatur properti ini dengan nilai juga mengatur nilai ini ke properti ShowLabelAsDataCallout untuk semua label data dalam koleksi DataLabelCollection (misalnya "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" menyebabkan semua DataLabels[i].ShowLabelAsDataCallout menjadi sama dengan val). |
+| [ShowCategoryName](../../aspose.slides.charts/idatalabelformat/showcategoryname) { get; set; } | Mewakili perilaku tampilan nama kategori label data pada diagram tertentu. True untuk menampilkan nama kategori pada label data di diagram. False untuk menyembunyikan. Baca/tulis Boolean. |
+| [ShowLabelAsDataCallout](../../aspose.slides.charts/idatalabelformat/showlabelasdatacallout) { get; set; } | Menentukan apakah label data pada diagram tertentu akan ditampilkan sebagai data callout atau sebagai label data. Jika induk objek DataLabelFormat ini adalah koleksi DataLabelCollection dari label data, maka properti ini mendapatkan atau mengatur nilai default dari properti ShowLabelAsDataCallout untuk label data baru dalam koleksi DataLabelCollection. Mengatur properti ini dengan nilai juga mengatur nilai tersebut ke properti ShowLabelAsDataCallout untuk semua label data dalam koleksi DataLabelCollection (misalnya "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" menyebabkan semua DataLabels[i].ShowLabelAsDataCallout menjadi val). |
 | [ShowLabelValueFromCell](../../aspose.slides.charts/idatalabelformat/showlabelvaluefromcell) { get; set; } | Mewakili perilaku tampilan nilai sel label data pada diagram tertentu. True menampilkan nilai sel. False untuk menyembunyikan. Baca/tulis Boolean. |
 | [ShowLeaderLines](../../aspose.slides.charts/idatalabelformat/showleaderlines) { get; set; } | Mewakili perilaku tampilan garis pemimpin label data pada diagram tertentu. True menampilkan garis pemimpin. False untuk menyembunyikan. Baca/tulis Boolean. |
 | [ShowLegendKey](../../aspose.slides.charts/idatalabelformat/showlegendkey) { get; set; } | Mewakili perilaku tampilan kunci legenda label data pada diagram tertentu. True jika kunci legenda label data terlihat. Baca/tulis Boolean. |
 | [ShowPercentage](../../aspose.slides.charts/idatalabelformat/showpercentage) { get; set; } | Mewakili perilaku tampilan nilai persentase label data pada diagram tertentu. True menampilkan nilai persentase. False untuk menyembunyikan. Baca/tulis Boolean. |
-| [ShowSeriesName](../../aspose.slides.charts/idatalabelformat/showseriesname) { get; set; } | Mengembalikan atau mengatur Boolean untuk menunjukkan perilaku tampilan nama seri pada label data pada diagram. True untuk menampilkan nama seri. False untuk menyembunyikan. Baca/tulis Boolean. |
+| [ShowSeriesName](../../aspose.slides.charts/idatalabelformat/showseriesname) { get; set; } | Mengembalikan atau mengatur Boolean untuk menunjukkan perilaku tampilan nama seri pada label data di diagram. True untuk menampilkan nama seri. False untuk menyembunyikan. Baca/tulis Boolean. |
 | [ShowValue](../../aspose.slides.charts/idatalabelformat/showvalue) { get; set; } | Mewakili perilaku tampilan nilai persentase label data pada diagram tertentu. True menampilkan nilai persentase. False untuk menyembunyikan. Baca/tulis Boolean. |
 
 ### Lihat Juga
 
 * antarmuka [IFormattedTextContainer](../iformattedtextcontainer)
-* ruang nama [Aspose.Slides.Charts](../../aspose.slides.charts)
-* rakitan [Aspose.Slides](../../)
+* ruangnama [Aspose.Slides.Charts](../../aspose.slides.charts)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

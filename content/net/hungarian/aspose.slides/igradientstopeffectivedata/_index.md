@@ -1,14 +1,14 @@
 ---
 title: IGradientStopEffectiveData
-second_title: Aspose.Sildes .NET API hivatkozás
-description: változtathatatlan objektum, amely egy színátmenet-állomást reprezentál.
+second_title: Aspose.Sildes .NET API Referenciája
+description: változtathatatlan objektum, amely egy színátmeneti állomást ábrázol.
 type: docs
-weight: 6030
+weight: 6050
 url: /hu/aspose.slides/igradientstopeffectivedata/
 ---
 ## IGradientStopEffectiveData interfész
 
-változtathatatlan objektum, amely egy színátmenet-állomást reprezentál.
+változtathatatlan objektum, amely egy színátmeneti állomást ábrázol.
 
 ```csharp
 public interface IGradientStopEffectiveData
@@ -18,8 +18,8 @@ public interface IGradientStopEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [Color](../../aspose.slides/igradientstopeffectivedata/color) { get; } | Visszaadja a színátmenet-állomás színét. Read-only Color. |
-| [Position](../../aspose.slides/igradientstopeffectivedata/position) { get; } | Visszaadja a színátmenet-állomás pozícióját (0..1). Read-only Single. |
+| [Color](../../aspose.slides/igradientstopeffectivedata/color) { get; } | Visszaadja a színátmeneti állomás színét. Csak olvasható Color. |
+| [Position](../../aspose.slides/igradientstopeffectivedata/position) { get; } | Visszaadja a színátmeneti állomás pozícióját (0..1). Csak olvasható Single. |
 
 ### Lásd még
 

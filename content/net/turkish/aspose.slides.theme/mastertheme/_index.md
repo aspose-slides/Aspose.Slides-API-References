@@ -1,14 +1,14 @@
 ---
 title: MasterTheme
-second_title: Aspose.Sildes for .NET API Referansı
-description: Bir ana temayı temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bir master temayı temsil eder.
 type: docs
-weight: 11410
+weight: 11430
 url: /tr/aspose.slides.theme/mastertheme/
 ---
-## MasterTheme sınıfı
+## MasterTheme sınıf
 
-Bir ana temayı temsil eder.
+Bir ana tema temsil eder.
 
 ```csharp
 public sealed class MasterTheme : Theme, IMasterTheme
@@ -18,18 +18,18 @@ public sealed class MasterTheme : Theme, IMasterTheme
 
 | Ad | Açıklama |
 | --- | --- |
-| override [ColorScheme](../../aspose.slides.theme/mastertheme/colorscheme) { get; } | Renk şemasını döndürür. Salt okunur [`IColorScheme`](../icolorscheme). |
-| [ExtraColorSchemes](../../aspose.slides.theme/mastertheme/extracolorschemes) { get; } | Ek renk şemalarının koleksiyonunu döndürür. Bu şemalar sunumun görünümünü etkilemez, bir slayt için ana renk şeması olarak seçilebilir. Salt okunur [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
-| override [FontScheme](../../aspose.slides.theme/mastertheme/fontscheme) { get; } | Yazı tipi şemasını döndürür. Salt okunur [`IFontScheme`](../ifontscheme). |
-| override [FormatScheme](../../aspose.slides.theme/mastertheme/formatscheme) { get; } | Şekil biçim şemasını döndürür. Salt okunur [`IFormatScheme`](../iformatscheme). |
-| [Name](../../aspose.slides.theme/mastertheme/name) { get; set; } | Bir temanın adını döndürür. Okunabilir/Yazılabilir String. |
-| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Üst sunumu döndürür. Salt okunur [`IPresentation`](../../aspose.slides/ipresentation). |
+| override [ColorScheme](../../aspose.slides.theme/mastertheme/colorscheme) { get; } | Renk şemasını döndürür. Sadece okuma [`IColorScheme`](../icolorscheme). |
+| [ExtraColorSchemes](../../aspose.slides.theme/mastertheme/extracolorschemes) { get; } | Ek renk şemalarının koleksiyonunu döndürür. Bu şemalar sunumun görünümünü etkilemez, bir slayt için ana renk şeması olarak seçilebilirler. Sadece okuma [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
+| override [FontScheme](../../aspose.slides.theme/mastertheme/fontscheme) { get; } | Yazı tipi şemasını döndürür. Sadece okuma [`IFontScheme`](../ifontscheme). |
+| override [FormatScheme](../../aspose.slides.theme/mastertheme/formatscheme) { get; } | Şekil formatı şemasını döndürür. Sadece okuma [`IFormatScheme`](../iformatscheme). |
+| [Name](../../aspose.slides.theme/mastertheme/name) { get; set; } | Bir temanın adını döndürür. Okuma/yazma String. |
+| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Üst sunumu döndürür. Sadece okuma [`IPresentation`](../../aspose.slides/ipresentation). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Uygulanan kalıtım ile etkili tema verilerini alır. |
+| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Uygulanan kalıtımla etkili tema verilerini alır. |
 
 ### Ayrıca Bakınız
 

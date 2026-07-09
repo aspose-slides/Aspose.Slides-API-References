@@ -1,14 +1,14 @@
 ---
 title: RippleTransition
 second_title: Referência da API Aspose.Sildes para .NET
-description: Efeito de transição de slide em Ripple.
+description: Efeito de transição de slide em ondulação.
 type: docs
-weight: 10270
+weight: 10290
 url: /pt/aspose.slides.slideshow/rippletransition/
 ---
 ## RippleTransition classe
 
-Efeito de transição de slide em Ripple.
+Efeito de transição de slide em ondulação.
 
 ```csharp
 public class RippleTransition : TransitionValueBase, IRippleTransition
@@ -18,16 +18,16 @@ public class RippleTransition : TransitionValueBase, IRippleTransition
 
 | Nome | Descrição |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/rippletransition/direction) { get; set; } | Direção da transição. Leitura/Gravação [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/rippletransition/direction) { get; set; } | Direção da transição. Leitura/gravação [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina se as duas instâncias de TransitionValueBase são iguais. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Serve como função hash para um tipo específico, adequada para uso em algoritmos de hash e estruturas de dados como uma tabela hash. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Serve como uma função hash para um tipo específico, adequada para uso em algoritmos de hash e estruturas de dados como uma tabela de hash. |
 
-### Veja Também
+### Ver Também
 
 * classe [TransitionValueBase](../transitionvaluebase)
 * interface [IRippleTransition](../irippletransition)

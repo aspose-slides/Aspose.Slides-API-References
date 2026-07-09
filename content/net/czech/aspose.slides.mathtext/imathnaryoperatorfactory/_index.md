@@ -1,9 +1,9 @@
 ---
 title: IMathNaryOperatorFactory
-second_title: Aspose.Sildes pro .NET API referenci
+second_title: Aspose.Sildes pro .NET API Reference
 description: Umožňuje vytvořit IMathNaryOperator
 type: docs
-weight: 8350
+weight: 8370
 url: /cs/aspose.slides.mathtext/imathnaryoperatorfactory/
 ---
 ## IMathNaryOperatorFactory rozhraní

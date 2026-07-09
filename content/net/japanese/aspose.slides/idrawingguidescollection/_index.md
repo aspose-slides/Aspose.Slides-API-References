@@ -3,7 +3,7 @@ title: IDrawingGuidesCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 調整可能な描画ガイドのコレクションを表します。
 type: docs
-weight: 5710
+weight: 5730
 url: /ja/aspose.slides/idrawingguidescollection/
 ---
 ## IDrawingGuidesCollection インターフェイス

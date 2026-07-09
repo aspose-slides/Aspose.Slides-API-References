@@ -1,14 +1,14 @@
 ---
 title: ILayoutSlide
-second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje snímek rozvržení.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Představuje rozložení snímku.
 type: docs
-weight: 6200
+weight: 6220
 url: /cs/aspose.slides/ilayoutslide/
 ---
 ## ILayoutSlide rozhraní
 
-Představuje snímek rozvržení.
+Představuje rozložení snímku.
 
 ```csharp
 public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
@@ -16,23 +16,23 @@ public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/ilayoutslide/asibaseslide) { get; } | Umožňuje získat základní rozhraní IBaseSlide. Pouze pro čtení [`IBaseSlide`](../ibaseslide). |
-| [AsIOverrideThemeable](../../aspose.slides/ilayoutslide/asioverridethemeable) { get; } | Vrací rozhraní IOverrideThemeable. Pouze pro čtení [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [DrawingGuides](../../aspose.slides/ilayoutslide/drawingguides) { get; } | Vrací kolekci výkresových vodítek pro snímek rozvržení. Pouze pro čtení [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | Vrací true, pokud existuje alespoň jeden snímek, který závisí na tomto snímku rozvržení. Pouze pro čtení Boolean. |
-| [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | Vrací správce HeaderFooter snímku rozvržení. Pouze pro čtení [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |
-| [LayoutType](../../aspose.slides/ilayoutslide/layouttype) { get; } | Vrací typ rozvržení tohoto snímku rozvržení. Pouze pro čtení [`SlideLayoutType`](../slidelayouttype). |
-| [MasterSlide](../../aspose.slides/ilayoutslide/masterslide) { get; set; } | Vrací nebo nastavuje hlavní snímek pro rozvržení. Čtení/Zápis [`IMasterSlide`](../imasterslide). |
-| [PlaceholderManager](../../aspose.slides/ilayoutslide/placeholdermanager) { get; } | Vrací správce zástupných objektů snímku rozvržení. Pouze pro čtení [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager). |
+| [AsIBaseSlide](../../aspose.slides/ilayoutslide/asibaseslide) { get; } | Umožňuje získat základní rozhraní IBaseSlide. Pouze ke čtení [`IBaseSlide`](../ibaseslide). |
+| [AsIOverrideThemeable](../../aspose.slides/ilayoutslide/asioverridethemeable) { get; } | Vrací rozhraní IOverrideThemeable. Pouze ke čtení [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
+| [DrawingGuides](../../aspose.slides/ilayoutslide/drawingguides) { get; } | Vrací kolekci kreslicích vodítek pro rozložení snímku. Pouze ke čtení [`IDrawingGuidesCollection`](../idrawingguidescollection). |
+| [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | Vrací true, pokud existuje alespoň jeden snímek závislý na tomto rozložení snímku. Pouze ke čtení Boolean. |
+| [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | Vrací správce HeaderFooter rozložení snímku. Pouze ke čtení [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |
+| [LayoutType](../../aspose.slides/ilayoutslide/layouttype) { get; } | Vrací typ rozložení tohoto rozložení snímku. Pouze ke čtení [`SlideLayoutType`](../slidelayouttype). |
+| [MasterSlide](../../aspose.slides/ilayoutslide/masterslide) { get; set; } | Vrací nebo nastavuje hlavní snímek pro rozložení. Čtení/zápis [`IMasterSlide`](../imasterslide). |
+| [PlaceholderManager](../../aspose.slides/ilayoutslide/placeholdermanager) { get; } | Vrací správce zástupného symbolu rozložení snímku. Pouze ke čtení [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager). |
 
 ## Metody
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [GetDependingSlides](../../aspose.slides/ilayoutslide/getdependingslides)() | Vrací pole se všemi snímky, které závisí na tomto snímku rozvržení. |
-| [Remove](../../aspose.slides/ilayoutslide/remove)() | Odstraňuje rozvržení z prezentace. |
+| [GetDependingSlides](../../aspose.slides/ilayoutslide/getdependingslides)() | Vrací pole se všemi snímky, které závisí na tomto rozložení snímku. |
+| [Remove](../../aspose.slides/ilayoutslide/remove)() | Odstraňuje rozložení z prezentace. |
 
 ### Viz také
 

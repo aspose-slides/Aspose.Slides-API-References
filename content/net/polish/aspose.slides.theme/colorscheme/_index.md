@@ -3,7 +3,7 @@ title: ColorScheme
 second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Przechowuje kolory zdefiniowane w motywie.
 type: docs
-weight: 11050
+weight: 11070
 url: /pl/aspose.slides.theme/colorscheme/
 ---
 ## ColorScheme klasa
@@ -26,15 +26,15 @@ public class ColorScheme : IColorScheme
 | [Accent6](../../aspose.slides.theme/colorscheme/accent6) { get; } | Szósty kolor akcentu w schemacie. Tylko do odczytu [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Dark1](../../aspose.slides.theme/colorscheme/dark1) { get; } | Pierwszy ciemny kolor w schemacie. Tylko do odczytu [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Dark2](../../aspose.slides.theme/colorscheme/dark2) { get; } | Drugi ciemny kolor w schemacie. Tylko do odczytu [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [FollowedHyperlink](../../aspose.slides.theme/colorscheme/followedhyperlink) { get; } | Kolor odwiedzonych odnośników. Tylko do odczytu [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Hyperlink](../../aspose.slides.theme/colorscheme/hyperlink) { get; } | Kolor odnośników. Tylko do odczytu [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Item](../../aspose.slides.theme/colorscheme/item) { get; } | Pobiera element pod określonym indeksem. Tylko do odczytu [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [FollowedHyperlink](../../aspose.slides.theme/colorscheme/followedhyperlink) { get; } | Kolor odwiedzonych hiperłączy. Tylko do odczytu [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Hyperlink](../../aspose.slides.theme/colorscheme/hyperlink) { get; } | Kolor hiperłączy. Tylko do odczytu [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Item](../../aspose.slides.theme/colorscheme/item) { get; } | Pobiera element o określonym indeksie. Tylko do odczytu [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Light1](../../aspose.slides.theme/colorscheme/light1) { get; } | Pierwszy jasny kolor w schemacie. Tylko do odczytu [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Light2](../../aspose.slides.theme/colorscheme/light2) { get; } | Drugi jasny kolor w schemacie. Tylko do odczytu [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Presentation](../../aspose.slides.theme/colorscheme/presentation) { get; } | Zwraca prezentację nadrzędną. Tylko do odczytu [`IPresentation`](../../aspose.slides/ipresentation). |
-| [Slide](../../aspose.slides.theme/colorscheme/slide) { get; } | Zwraca slajd nadrzędny. Tylko do odczytu [`IBaseSlide`](../../aspose.slides/ibaseslide). |
+| [Presentation](../../aspose.slides.theme/colorscheme/presentation) { get; } | Zwraca nadrzędną prezentację. Tylko do odczytu [`IPresentation`](../../aspose.slides/ipresentation). |
+| [Slide](../../aspose.slides.theme/colorscheme/slide) { get; } | Zwraca nadrzędny slajd. Tylko do odczytu [`IBaseSlide`](../../aspose.slides/ibaseslide). |
 
-### Zobacz również
+### Zobacz także
 
 * interfejs [IColorScheme](../icolorscheme)
 * przestrzeń nazw [Aspose.Slides.Theme](../../aspose.slides.theme)

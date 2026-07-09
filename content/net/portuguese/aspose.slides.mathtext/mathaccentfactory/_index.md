@@ -1,9 +1,9 @@
 ---
 title: MathAccentFactory
-second_title: Aspose.Sildes para .NET API Reference
+second_title: Aspose.Sildes para .NET Referência da API
 description: Permite criar um acento matemático
 type: docs
-weight: 8520
+weight: 8540
 url: /pt/aspose.slides.mathtext/mathaccentfactory/
 ---
 ## MathAccentFactory classe

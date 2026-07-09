@@ -3,10 +3,10 @@ title: Row
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa uma linha em uma tabela.
 type: docs
-weight: 9690
+weight: 9710
 url: /pt/aspose.slides/row/
 ---
-## classe Row
+## Classe Row
 
 Representa uma linha em uma tabela.
 
@@ -21,24 +21,24 @@ public sealed class Row : CellCollection, IRow
 | [Count](../../aspose.slides/cellcollection/count) { get; } | Retorna o número de células em uma coleção. Somente leitura Int32. |
 | [Height](../../aspose.slides/row/height) { get; } | Retorna a altura de uma linha. Somente leitura Double. |
 | [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção está sincronizado (thread-safe). Somente leitura Boolean. |
-| [Item](../../aspose.slides/cellcollection/item) { get; } | Retorna uma célula por sua posição. Somente leitura [`Cell`](../cell). |
-| [MinimalHeight](../../aspose.slides/row/minimalheight) { get; set; } | Retorna ou define a altura mínima possível de uma linha. Leitura/Gravação Double. |
-| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Retorna a apresentação principal de um CellCollection. Somente leitura [`IPresentation`](../ipresentation). |
+| [Item](../../aspose.slides/cellcollection/item) { get; } | Retorna uma célula pela sua posição. Somente leitura [`Cell`](../cell). |
+| [MinimalHeight](../../aspose.slides/row/minimalheight) { get; set; } | Retorna ou define a altura mínima possível de uma linha. Leitura/gravação Double. |
+| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Retorna a apresentação pai de um CellCollection. Somente leitura [`IPresentation`](../ipresentation). |
 | [RowFormat](../../aspose.slides/row/rowformat) { get; } | Retorna o objeto RowFormat que contém propriedades de formatação para esta linha. Somente leitura [`IRowFormat`](../irowformat). |
-| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Retorna o slide principal de um CellCollection. Somente leitura [`IBaseSlide`](../ibaseslide). |
+| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Retorna o slide pai de um CellCollection. Somente leitura [`IBaseSlide`](../ibaseslide). |
 | [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Retorna uma raiz de sincronização. Somente leitura Object. |
 
 ## Métodos
 
 | Nome | Descrição |
-| --- | ----------- |
+| --- | --- |
 | [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Copia todos os elementos da coleção para o array especificado. |
-| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Retorna um enumerador que itera sobre a coleção. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat)(IParagraphFormat) | Define as propriedades de formato de parágrafo especificadas para todos os parágrafos das células da linha. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_1)(IPortionFormat) | Define as propriedades de formato de porção especificadas para todas as porções das células da linha. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_2)(ITextFrameFormat) | Define as propriedades de formato de quadro de texto especificadas para todos os quadros de texto das células da linha. |
+| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Retorna um enumerador que percorre a coleção. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat)(IParagraphFormat) | Define as propriedades de formato de parágrafo especificadas para os parágrafos de todas as células da linha. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_1)(IPortionFormat) | Define as propriedades de formato de porção especificadas para as porções de todas as células da linha. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_2)(ITextFrameFormat) | Define as propriedades de formato de quadro de texto especificadas para os quadros de texto de todas as células da linha. |
 
-### Veja Também
+### Veja também
 
 * classe [CellCollection](../cellcollection)
 * interface [IRow](../irow)

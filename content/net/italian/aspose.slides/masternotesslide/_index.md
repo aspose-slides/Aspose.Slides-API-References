@@ -3,7 +3,7 @@ title: MasterNotesSlide
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta la diapositiva master per le note.
 type: docs
-weight: 7990
+weight: 8010
 url: /it/aspose.slides/masternotesslide/
 ---
 ## MasterNotesSlide classe
@@ -18,37 +18,37 @@ public class MasterNotesSlide : BaseSlide, IMasterNotesSlide
 
 | Nome | Descrizione |
 | --- | --- |
-| [Background](../../aspose.slides/baseslide/background) { get; } | Restituisce lo sfondo della diapositiva. Solo lettura [`IBackground`](../ibackground). |
-| [Controls](../../aspose.slides/baseslide/controls) { get; } | Restituisce la collezione di controlli ActiveX su una diapositiva. Solo lettura [`IControlCollection`](../icontrolcollection). |
-| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Restituisce i dati personalizzati della diapositiva. Solo lettura [`ICustomData`](../icustomdata). |
-| [DrawingGuides](../../aspose.slides/masternotesslide/drawingguides) { get; } | Restituisce una collezione di guide di disegno per la diapositiva master delle note. Solo lettura [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HeaderFooterManager](../../aspose.slides/masternotesslide/headerfootermanager) { get; } | Restituisce il gestore HeaderFooter della diapositiva master delle note. Solo lettura [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
-| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Fornisce un facile accesso ai collegamenti ipertestuali contenuti. Solo lettura [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [Background](../../aspose.slides/baseslide/background) { get; } | Restituisce lo sfondo della diapositiva. Sola lettura [`IBackground`](../ibackground). |
+| [Controls](../../aspose.slides/baseslide/controls) { get; } | Restituisce la raccolta di controlli ActiveX su una diapositiva. Sola lettura [`IControlCollection`](../icontrolcollection). |
+| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Restituisce i dati personalizzati della diapositiva. Sola lettura [`ICustomData`](../icustomdata). |
+| [DrawingGuides](../../aspose.slides/masternotesslide/drawingguides) { get; } | Restituisce una raccolta di guide di disegno per la diapositiva master delle note. Sola lettura [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HeaderFooterManager](../../aspose.slides/masternotesslide/headerfootermanager) { get; } | Restituisce il gestore HeaderFooter della diapositiva master delle note. Sola lettura [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
+| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Fornisce un facile accesso ai collegamenti ipertestuali contenuti. Sola lettura [`IHyperlinkQueries`](../ihyperlinkqueries). |
 | virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Restituisce o imposta il nome di una diapositiva. Lettura/scrittura String. |
-| [NotesStyle](../../aspose.slides/masternotesslide/notesstyle) { get; } | Restituisce lo stile del testo delle note. Solo lettura [`ITextStyle`](../itextstyle). |
-| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Restituisce l'interfaccia IPresentation. Solo lettura [`IPresentation`](../ipresentation). |
-| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Restituisce le forme di una diapositiva. Solo lettura [`IShapeCollection`](../ishapecollection). |
-| override [ShowMasterShapes](../../aspose.slides/masternotesslide/showmastershapes) { get; set; } | Specifica se le forme nella diapositiva master devono essere mostrate sulle diapositive o meno. Per la diapositiva master stessa questa proprietà restituisce sempre `false`. Lettura/scrittura Boolean. |
-| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Restituisce l'ID di una diapositiva. Solo lettura UInt32. |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Restituisce l'oggetto Transition che contiene informazioni su come la diapositiva specificata avanza durante una presentazione. Solo lettura [`ISlideShowTransition`](../islideshowtransition). |
-| [ThemeManager](../../aspose.slides/masternotesslide/thememanager) { get; } | Restituisce il gestore del tema. Solo lettura [`IMasterThemeManager`](../../aspose.slides.theme/imasterthememanager). |
-| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Restituisce l'oggetto della timeline di animazione. Solo lettura [`IAnimationTimeLine`](../ianimationtimeline). |
+| [NotesStyle](../../aspose.slides/masternotesslide/notesstyle) { get; } | Restituisce lo stile del testo delle note. Sola lettura [`ITextStyle`](../itextstyle). |
+| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Restituisce l'interfaccia IPresentation. Sola lettura [`IPresentation`](../ipresentation). |
+| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Restituisce le forme di una diapositiva. Sola lettura [`IShapeCollection`](../ishapecollection). |
+| override [ShowMasterShapes](../../aspose.slides/masternotesslide/showmastershapes) { get; set; } | Specifica se le forme sulla diapositiva master devono essere mostrate sulle diapositive o meno. Per la stessa diapositiva master questa proprietà restituisce sempre `false`. Lettura/scrittura Boolean. |
+| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Restituisce l'ID di una diapositiva. Sola lettura UInt32. |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Restituisce l'oggetto Transition che contiene informazioni su come la diapositiva specificata avanza durante una presentazione. Sola lettura [`ISlideShowTransition`](../islideshowtransition). |
+| [ThemeManager](../../aspose.slides/masternotesslide/thememanager) { get; } | Restituisce il gestore del tema. Sola lettura [`IMasterThemeManager`](../../aspose.slides.theme/imasterthememanager). |
+| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Restituisce l'oggetto timeline dell'animazione. Sola lettura [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
 | [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | Restituisce un tema efficace per questa diapositiva. |
-| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Determina se le due istanze di IBaseSlide sono uguali. Il valore restituito è calcolato in base alla struttura della diapositiva e al contenuto statico. Due diapositive sono uguali se tutte le forme, gli stili, i testi, le animazioni e le altre impostazioni, ecc., sono uguali. Il confronto non considera i valori degli identificatori unici, ad esempio SlideId, né il contenuto dinamico, ad esempio il valore della data corrente nel Segnaposto Data. |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Determina se le due istanze IBaseSlide sono uguali. Il valore restituito è calcolato in base alla struttura della diapositiva e al contenuto statico. Due diapositive sono uguali se tutte le forme, gli stili, i testi, le animazioni e altre impostazioni, ecc., sono uguali. Il confronto non tiene conto dei valori di identificatore unici, ad es. SlideId, e del contenuto dinamico, ad es. il valore della data corrente nel segnaposto Date Placeholder. |
 | [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Trova la prima occorrenza di una forma con il testo alternativo specificato. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Unisce le sequenze con la stessa formattazione in tutti i paragrafi di tutte le forme ammissibili. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Unisce le sequenze con la stessa formattazione in tutti i paragrafi di tutte le forme ammissibili. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Unisce le sequenze con la stessa formattazione in tutti i paragrafi di tutte le forme accettabili. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Unisce le sequenze con la stessa formattazione in tutti i paragrafi di tutte le forme accettabili. |
 
 ### Vedi anche
 
 * classe [BaseSlide](../baseslide)
 * interfaccia [IMasterNotesSlide](../imasternotesslide)
-* namespace [Aspose.Slides](../../aspose.slides)
+* spazio dei nomi [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

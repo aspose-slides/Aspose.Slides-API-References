@@ -1,14 +1,14 @@
 ---
 title: ChartCategoryLevelsManager
-second_title: Aspose.Sildes .NET API referencia
-description: Kezelt tároló a diagram kategória szintjeinek értékeihez.
+second_title: Aspose.Sildes a .NET API hivatkozás
+description: Kezelt tároló a diagram kategória szintek értékeinek.
 type: docs
-weight: 1270
+weight: 1290
 url: /hu/aspose.slides.charts/chartcategorylevelsmanager/
 ---
 ## ChartCategoryLevelsManager osztály
 
-Kezelt tároló a diagram kategória szintjeinek értékeihez.
+Kezelt tároló a diagram kategória szintek értékeinek.
 
 ```csharp
 public class ChartCategoryLevelsManager : IChartCategoryLevelsManager
@@ -18,16 +18,16 @@ public class ChartCategoryLevelsManager : IChartCategoryLevelsManager
 
 | Név | Leírás |
 | --- | --- |
-| [Item](../../aspose.slides.charts/chartcategorylevelsmanager/item) { get; } | Visszaad egy IChartDataCell objektumot a meghatározott szinthez. |
+| [Item](../../aspose.slides.charts/chartcategorylevelsmanager/item) { get; } | Visszaadja az IChartDataCell objektumot a meghatározott szinthez. |
 
 ## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [DeleteGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/deletegroupingitem)(int) | Törli a csoportosítási elemet a meghatározott szinthez. |
+| [DeleteGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/deletegroupingitem)(int) | Törli a meghatározott szinthez tartozó csoportosítási elemet. |
 | [SetGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/setgroupingitem)(int, object) | Beállítja a csoportosítási elemet a meghatározott szinthez. |
 
-### Lásd még
+### További hivatkozások
 
 * interfész [IChartCategoryLevelsManager](../ichartcategorylevelsmanager)
 * névtér [Aspose.Slides.Charts](../../aspose.slides.charts)

@@ -3,7 +3,7 @@ title: IInnerShadowEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 内部シャドウ効果を表す不変オブジェクトです。
 type: docs
-weight: 3410
+weight: 3430
 url: /ja/aspose.slides.effects/iinnershadoweffectivedata/
 ---
 ## IInnerShadowEffectiveData インターフェイス
@@ -14,16 +14,15 @@ url: /ja/aspose.slides.effects/iinnershadoweffectivedata/
 public interface IInnerShadowEffectiveData : IEffectEffectiveData
 ```
 
-
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iinnershadoweffectivedata/asieffecteffectivedata) { get; } | 基底 IEffectEffectiveData インターフェイスを取得できます。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iinnershadoweffectivedata/asieffecteffectivedata) { get; } | ベース IEffectEffectiveData インターフェイスを取得できます。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
 | [BlurRadius](../../aspose.slides.effects/iinnershadoweffectivedata/blurradius) { get; } | ぼかし半径。読み取り専用 Double。 |
-| [Direction](../../aspose.slides.effects/iinnershadoweffectivedata/direction) { get; } | 影の方向。読み取り専用 Single。 |
-| [Distance](../../aspose.slides.effects/iinnershadoweffectivedata/distance) { get; } | 影の距離。読み取り専用 Double。 |
-| [ShadowColor](../../aspose.slides.effects/iinnershadoweffectivedata/shadowcolor) { get; } | 影の色。読み取り専用 Color。 |
+| [Direction](../../aspose.slides.effects/iinnershadoweffectivedata/direction) { get; } | シャドウの方向。読み取り専用 Single。 |
+| [Distance](../../aspose.slides.effects/iinnershadoweffectivedata/distance) { get; } | シャドウの距離。読み取り専用 Double。 |
+| [ShadowColor](../../aspose.slides.effects/iinnershadoweffectivedata/shadowcolor) { get; } | シャドウの色。読み取り専用 Color。 |
 
 ### 参照
 

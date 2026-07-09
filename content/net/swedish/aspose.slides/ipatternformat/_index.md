@@ -3,7 +3,7 @@ title: IPatternFormat
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar ett mönster för att fylla en form.
 type: docs
-weight: 6600
+weight: 6620
 url: /sv/aspose.slides/ipatternformat/
 ---
 ## IPatternFormat gränssnitt

@@ -1,14 +1,14 @@
 ---
 title: IColumnFormatEffectiveData
-second_title: Aspose.Sildes .NET API Referansı
-description: Etkili tablo sütunu biçimlendirme özelliklerini içeren değişmez nesne.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Etkili tablo sütunu biçimlendirme özelliklerini içeren değiştirilemez nesne.
 type: docs
-weight: 5530
+weight: 5550
 url: /tr/aspose.slides/icolumnformateffectivedata/
 ---
 ## IColumnFormatEffectiveData arayüzü
 
-Etkili tablo sütunu biçimlendirme özelliklerini içeren değişmez nesne.
+Etkili tablo sütunu biçimlendirme özelliklerini içeren değiştirilemez nesne.
 
 ```csharp
 public interface IColumnFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -18,13 +18,13 @@ public interface IColumnFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icolumnformateffectivedata/asibasetableformateffectivedata) { get; } | Base IBaseTableFormatEffectiveData arayüzünü almayı sağlar. Sadece okunur [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icolumnformateffectivedata/asibasetableformateffectivedata) { get; } | Temel IBaseTableFormatEffectiveData arayüzünü almayı sağlar. Salt okunur [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
 
 ### Açıklamalar
 
 Bu arayüz, [`IColumnFormat`](../icolumnformat) arayüzü ile birlikte, kalıtım ve tablo stilleri uygulanmış etkili biçimlendirme değerlerini döndürmek için kullanılır.
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
 * arayüz [IBaseTableFormatEffectiveData](../ibasetableformateffectivedata)
 * ad alanı [Aspose.Slides](../../aspose.slides)

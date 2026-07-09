@@ -1,12 +1,12 @@
 ---
 title: IFilterEffect
-second_title: Aspose.Sildes για .NET API Αναφορά
+second_title: Aspose.Sildes για .NET Αναφορά API
 description: Αναπαριστά το εφέ φίλτρου της συμπεριφοράς.
 type: docs
-weight: 480
+weight: 500
 url: /el/aspose.slides.animation/ifiltereffect/
 ---
-## IFilterEffect διασύνδεση
+## IFilterEffect διεπαφή
 
 Αναπαριστά το εφέ φίλτρου της συμπεριφοράς.
 
@@ -16,16 +16,16 @@ public interface IFilterEffect : IBehavior
 
 ## Ιδιότητες
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/ifiltereffect/asibehavior) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής IBehavior. Μόνο για ανάγνωση [`IBehavior`](../ibehavior). |
-| [Reveal](../../aspose.slides.animation/ifiltereffect/reveal) { get; set; } | Αναπαριστά ότι το εφέ με τη συμπεριφορά πρέπει να αποκαλύψει (in/out) Ανάγνωση/Εγγραφή [`FilterEffectRevealType`](../filtereffectrevealtype). |
-| [Subtype](../../aspose.slides.animation/ifiltereffect/subtype) { get; set; } | Αναπαριστά τον υποτύπο του εφέ φίλτρου. Ανάγνωση/Εγγραφή [`FilterEffectSubtype`](../filtereffectsubtype). |
-| [Type](../../aspose.slides.animation/ifiltereffect/type) { get; set; } | Αναπαριστά τον τύπο του εφέ φίλτρου. Ανάγνωση/Εγγραφή [`FilterEffectType`](../filtereffecttype). |
+| [AsIBehavior](../../aspose.slides.animation/ifiltereffect/asibehavior) { get; } | Επιτρέπει την πρόσβαση στη βασική διεπαφή IBehavior. Μόνο για ανάγνωση [`IBehavior`](../ibehavior). |
+| [Reveal](../../aspose.slides.animation/ifiltereffect/reveal) { get; set; } | Αντιπροσωπεύει ότι το εφέ με τη συμπεριφορά πρέπει να αποκαλύψει (εσωτερικό/εξωτερικό) Ανάγνωση/εγγραφή [`FilterEffectRevealType`](../filtereffectrevealtype). |
+| [Subtype](../../aspose.slides.animation/ifiltereffect/subtype) { get; set; } | Αντιπροσωπεύει υπό-τύπο του εφέ φίλτρου. Ανάγνωση/εγγραφή [`FilterEffectSubtype`](../filtereffectsubtype). |
+| [Type](../../aspose.slides.animation/ifiltereffect/type) { get; set; } | Αντιπροσωπεύει τύπο του εφέ φίλτρου. Ανάγνωση/εγγραφή [`FilterEffectType`](../filtereffecttype). |
 
 ### Δείτε επίσης
 
-* διασύνδεση [IBehavior](../ibehavior)
+* διεπαφή [IBehavior](../ibehavior)
 * χώρο ονομάτων [Aspose.Slides.Animation](../../aspose.slides.animation)
 * συγκρότηση [Aspose.Slides](../../)
 

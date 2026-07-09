@@ -3,10 +3,10 @@ title: ForEach.ForEachPortionCallback
 second_title: Aspose.Sildes för .NET API-referens
 description: Återuppringning som kommer att anropas för varje Portion./foreach/portion i Paragraph./foreach/paragraph på BaseSlide../aspose.slides/baseslide.
 type: docs
-weight: 7920
+weight: 7940
 url: /sv/aspose.slides.lowcode/foreach.foreachportioncallback/
 ---
-## ForEach.ForEachPortionCallback delegat
+## ForEach.ForEachPortionCallback delegate
 
 Återuppringning som kommer att anropas för varje [`Portion`](../foreach/portion) i [`Paragraph`](../foreach/paragraph) på [`BaseSlide`](../../aspose.slides/baseslide).
 
@@ -17,10 +17,10 @@ public delegate void ForEachPortionCallback(Portion portion, Paragraph para, Bas
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| portion | Portion | Aktuell itererad portion |
-| para | Paragraph | Aktuell itererad paragraf |
+| portion | Portion | Aktuell itererad del |
+| para | Paragraph | Aktuell itererad stycke |
 | slide | BaseSlide | Aktuell itererad bild |
-| index | Int32 | Index för den aktuella portionen i paragrafen |
+| index | Int32 | Index för den aktuella delen i stycket |
 
 ### Se även
 

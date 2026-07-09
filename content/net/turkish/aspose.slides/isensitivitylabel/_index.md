@@ -1,14 +1,14 @@
 ---
 title: ISensitivityLabel
 second_title: Aspose.Sildes for .NET API Referansı
-description: Microsoft Purview Information Protection'tan hassasiyet etiketini temsil eder.
+description: Microsoft Purview Information Protection'tan duyarlılık etiketini temsil eder.
 type: docs
-weight: 6910
+weight: 6930
 url: /tr/aspose.slides/isensitivitylabel/
 ---
-## ISensitivityLabel arayüzü
+## ISensitivityLabel arabirimi
 
-Microsoft Purview Information Protection tarafından sağlanan hassasiyet etiketini temsil eder.
+Microsoft Purview Information Protection'tan duyarlılık etiketini temsil eder.
 
 ```csharp
 public interface ISensitivityLabel
@@ -18,12 +18,12 @@ public interface ISensitivityLabel
 
 | Ad | Açıklama |
 | --- | --- |
-| [AssignmentMethodType](../../aspose.slides/isensitivitylabel/assignmentmethodtype) { get; set; } | Hassasiyet etiketi için atama yöntemini alır veya ayarlar. Okuma/yazma [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
+| [AssignmentMethodType](../../aspose.slides/isensitivitylabel/assignmentmethodtype) { get; set; } | Duyarlılık etiketi için atama yöntemini alır veya ayarlar. Okuma/Yazma [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
 | [ContentMarkTypes](../../aspose.slides/isensitivitylabel/contentmarktypes) { get; } | Bir dosyaya uygulanması gereken içerik işaretleme türlerinin listesini döndürür. |
-| [Id](../../aspose.slides/isensitivitylabel/id) { get; set; } | Hassasiyet etiketinin kimliğini alır veya ayarlar. Okuma/yazma String. |
-| [IsEnabled](../../aspose.slides/isensitivitylabel/isenabled) { get; set; } | Hassasiyet etiketinin etkin olup olmadığını gösterir. |
-| [IsRemoved](../../aspose.slides/isensitivitylabel/isremoved) { get; set; } | Hassasiyet etiketinin kaldırılıp kaldırılmadığını gösterir. |
-| [SiteId](../../aspose.slides/isensitivitylabel/siteid) { get; set; } | Hassasiyet etiketini tanımlayan hassasiyet etiketi ilkesine karşılık gelen Azure Active Directory (Azure AD) site tanımlayıcısını alır veya ayarlar. Okuma/yazma Guid. |
+| [Id](../../aspose.slides/isensitivitylabel/id) { get; set; } | Duyarlılık etiketinin kimliğini alır veya ayarlar. Okuma/Yazma String. |
+| [IsEnabled](../../aspose.slides/isensitivitylabel/isenabled) { get; set; } | Duyarlılık etiketinin etkin olup olmadığını belirtir. |
+| [IsRemoved](../../aspose.slides/isensitivitylabel/isremoved) { get; set; } | Duyarlılık etiketinin kaldırılıp kaldırılmadığını belirtir. |
+| [SiteId](../../aspose.slides/isensitivitylabel/siteid) { get; set; } | Duyarlılık etiketini tanımlayan duyarlılık etiketi politikasına karşılık gelen Azure Active Directory (Azure AD) site tanımlayıcısını alır veya ayarlar. Okuma/Yazma Guid. |
 
 ### Ayrıca Bakınız
 

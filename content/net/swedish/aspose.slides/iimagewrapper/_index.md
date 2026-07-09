@@ -1,14 +1,14 @@
 ---
 title: IImageWrapper
 second_title: Aspose.Sildes för .NET API-referens
-description: System.Drawing.Image-omslag för COM-gränssnitt.
+description: System.Drawing.Image-omslag för COM-gränssnittet.
 type: docs
-weight: 6150
+weight: 6170
 url: /sv/aspose.slides/iimagewrapper/
 ---
 ## IImageWrapper-gränssnitt
 
-System.Drawing.Image-omslag för COM-gränssnitt.
+System.Drawing.Image omslag för COM-gränssnitt.
 
 ```csharp
 public interface IImageWrapper : IDisposable
@@ -20,17 +20,17 @@ public interface IImageWrapper : IDisposable
 | --- | --- |
 | [AsIDisposable](../../aspose.slides/iimagewrapper/asidisposable) { get; } | Returnerar IDisposable-gränssnittet. Skrivskyddad IDisposable. |
 | [ImageSource](../../aspose.slides/iimagewrapper/imagesource) { get; } | Hämtar bilden Skrivskyddad Image. |
-| [Size](../../aspose.slides/iimagewrapper/size) { get; } | Hämtar bredden och höjden, i pixlar, för Image Skrivskyddad [`Size`](./size). |
+| [Size](../../aspose.slides/iimagewrapper/size) { get; } | Hämtar bredden och höjden i pixlar för Image Skrivskyddad [`Size`](./size). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Save](../../aspose.slides/iimagewrapper/save#save_1)(string) | Sparar Image till den angivna filen |
-| [Save](../../aspose.slides/iimagewrapper/save#save)(Stream, PPImageFormat) | Sparar Image till den angivna strömmen i det angivna formatet. |
-| [Save](../../aspose.slides/iimagewrapper/save#save_2)(string, PPImageFormat) | Sparar Image till den angivna filen i det angivna formatet. |
+| [Save](../../aspose.slides/iimagewrapper/save#save_1)(string) | Sparar Image till den specificerade filen |
+| [Save](../../aspose.slides/iimagewrapper/save#save)(Stream, PPImageFormat) | Sparar Image till den specificerade strömmen i det specificerade formatet. |
+| [Save](../../aspose.slides/iimagewrapper/save#save_2)(string, PPImageFormat) | Sparar Image till den specificerade filen i det specificerade formatet. |
 
-### Se även
+### Se också
 
 * namnrymd [Aspose.Slides](../../aspose.slides)
 * samling [Aspose.Slides](../../)

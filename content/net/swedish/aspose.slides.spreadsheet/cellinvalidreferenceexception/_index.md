@@ -3,7 +3,7 @@ title: CellInvalidReferenceException
 second_title: Aspose.Sildes för .NET API-referens
 description: Undantaget som kastas när en ogiltig cellreferens påträffas.
 type: docs
-weight: 10700
+weight: 10720
 url: /sv/aspose.slides.spreadsheet/cellinvalidreferenceexception/
 ---
 ## CellInvalidReferenceException klass
@@ -18,10 +18,10 @@ public class CellInvalidReferenceException : PptxEditException
 
 | Namn | Beskrivning |
 | --- | --- |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor)() | Initierar en ny instans av [`CellInvalidReferenceException`](../cellinvalidreferenceexception) klass. |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_1)(string) | Initierar en ny instans av [`CellInvalidReferenceException`](../cellinvalidreferenceexception) klass med ett specificerat felmeddelande. |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_2)(string, Exception) | Initierar en ny instans av [`CellInvalidReferenceException`](../cellinvalidreferenceexception) klass med ett specificerat felmeddelande och en referens till det inre undantaget som är orsaken till detta undantag. |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_3)(string, string) | Initierar en ny instans av [`CellCircularReferenceException`](../cellcircularreferenceexception) klass med ett specificerat felmeddelande och en ogiltig cellreferens. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor)() | Initierar en ny instans av klassen [`CellInvalidReferenceException`](../cellinvalidreferenceexception). |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_1)(string) | Initierar en ny instans av klassen [`CellInvalidReferenceException`](../cellinvalidreferenceexception) med ett specificerat felmeddelande. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_2)(string, Exception) | Initierar en ny instans av klassen [`CellInvalidReferenceException`](../cellinvalidreferenceexception) med ett specificerat felmeddelande och en referens till den inre undantaget som är orsaken till detta undantag. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_3)(string, string) | Initierar en ny instans av klassen [`CellCircularReferenceException`](../cellcircularreferenceexception) med ett specificerat felmeddelande och en ogiltig cellreferens. |
 
 ## Egenskaper
 
@@ -29,7 +29,7 @@ public class CellInvalidReferenceException : PptxEditException
 | --- | --- |
 | [Reference](../../aspose.slides.spreadsheet/cellinvalidreferenceexception/reference) { get; } | Hämtar en ogiltig cellreferens. |
 
-### Se även
+### Se också
 
 * klass [PptxEditException](../../aspose.slides/pptxeditexception)
 * namnrymd [Aspose.Slides.Spreadsheet](../../aspose.slides.spreadsheet)

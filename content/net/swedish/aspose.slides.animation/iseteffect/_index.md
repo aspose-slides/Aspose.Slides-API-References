@@ -3,7 +3,7 @@ title: ISetEffect
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en uppsättningseffekt för ett animationsbeteende.
 type: docs
-weight: 590
+weight: 610
 url: /sv/aspose.slides.animation/iseteffect/
 ---
 ## ISetEffect gränssnitt
@@ -18,8 +18,8 @@ public interface ISetEffect : IBehavior
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/iseteffect/asibehavior) { get; } | Tillåter att hämta grund-IBehavior-gränssnittet. Skrivskyddad [`IBehavior`](../ibehavior). |
-| [To](../../aspose.slides.animation/iseteffect/to) { get; set; } | Anger ett specifikt attribut för en effekt efter en animationseffekt. Representerar ett punktvärde. Endast: bool, ColorFormat, float, int, string. Läs/skriv Object. |
+| [AsIBehavior](../../aspose.slides.animation/iseteffect/asibehavior) { get; } | Tillåter att hämta bas-IBehavior-gränssnittet. Skrivskyddad [`IBehavior`](../ibehavior). |
+| [To](../../aspose.slides.animation/iseteffect/to) { get; set; } | Anger ett visst attribut för en effekt efter en animationseffekt. Representerar punktvärde. Only: bool, ColorFormat, float, int, string. Läs/skriv Objekt. |
 
 ### Se även
 

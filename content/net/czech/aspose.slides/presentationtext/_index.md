@@ -1,14 +1,14 @@
 ---
 title: PresentationText
-second_title: Aspose.Sildes pro .NET API Reference
-description: Zastupuje text extrahovaný z prezentace
+second_title: Aspose.Sildes pro .NET referenční dokumentaci API
+description: Representuje text extrahovaný z prezentace
 type: docs
-weight: 9620
+weight: 9640
 url: /cs/aspose.slides/presentationtext/
 ---
 ## PresentationText třída
 
-Zastupuje text extrahovaný z prezentace
+Představuje text extrahovaný z prezentace
 
 ```csharp
 public class PresentationText : IPresentationText
@@ -18,7 +18,7 @@ public class PresentationText : IPresentationText
 
 | Název | Popis |
 | --- | --- |
-| [SlidesText](../../aspose.slides/presentationtext/slidestext) { get; } | Pole typu [`SlideText`](../islidetext) obsahuje text prezentace. |
+| [SlidesText](../../aspose.slides/presentationtext/slidestext) { get; } | Pole [`SlideText`](../islidetext) obsahuje text prezentace. |
 
 ### Viz také
 

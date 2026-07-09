@@ -1,9 +1,9 @@
 ---
 title: SlidesAIAgentException
-second_title: Aspose.Sildes dla .NET - Odniesienie API
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
 description: Reprezentuje wyjątki związane z Slides AI Agent.
 type: docs
-weight: 60
+weight: 80
 url: /pl/aspose.slides.ai/slidesaiagentexception/
 ---
 ## SlidesAIAgentException klasa
@@ -19,7 +19,7 @@ public class SlidesAIAgentException : Exception
 | Nazwa | Opis |
 | --- | --- |
 | [SlidesAIAgentException](slidesaiagentexception#constructor)(string) | Konstruktor umożliwiający dodanie komunikatu do tego wyjątku. |
-| [SlidesAIAgentException](slidesaiagentexception#constructor_1)(string, Exception) | Konstruktor wyjątku zawierającego komunikat i osadzony wyjątek. |
+| [SlidesAIAgentException](slidesaiagentexception#constructor_1)(string, Exception) | Konstruktor wyjątku zawierającego komunikat i zagnieżdżony wyjątek. |
 
 ### Zobacz także
 

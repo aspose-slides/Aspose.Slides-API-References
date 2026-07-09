@@ -1,14 +1,14 @@
 ---
 title: ControlCollection
-second_title: Aspose.Sildes .NET API referencia
-description: ActiveX vezérlők egy gyűjteménye.
+second_title: Aspose.Sildes a .NET számára API referencia
+description: ActiveX vezérlések gyűjteménye.
 type: docs
-weight: 2680
+weight: 2700
 url: /hu/aspose.slides/controlcollection/
 ---
 ## ControlCollection osztály
 
-ActiveX vezérlők egy gyűjteménye.
+A gyűjtemény ActiveX vezérlésekből áll.
 
 ```csharp
 public class ControlCollection : IControlCollection
@@ -18,21 +18,21 @@ public class ControlCollection : IControlCollection
 
 | Név | Leírás |
 | --- | --- |
-| [Count](../../aspose.slides/controlcollection/count) { get; } | Visszaadja a gyűjteményben lévő objektumok számát. Csak olvasható Int32. |
-| [IsSynchronized](../../aspose.slides/controlcollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált (szálbiztos). Csak olvasható Boolean. |
+| [Count](../../aspose.slides/controlcollection/count) { get; } | Visszaadja az objektumok számát a gyűjteményben. Csak olvasható Int32. |
+| [IsSynchronized](../../aspose.slides/controlcollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált-e (szálbiztos). Csak olvasható Boolean. |
 | [Item](../../aspose.slides/controlcollection/item) { get; } | Visszaad egy vezérlőt a megadott pozíción. |
-| [SyncRoot](../../aspose.slides/controlcollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökeret. Csak olvasható Object. |
+| [SyncRoot](../../aspose.slides/controlcollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökérobjektumot. Csak olvasható Object. |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [AddControl](../../aspose.slides/controlcollection/addcontrol)(ControlType, float, float, float, float) | Létrehozza és hozzáadja az új vezérlőt a gyűjteményhez. |
-| [Clear](../../aspose.slides/controlcollection/clear)() | Eltávolítja az összes vezérlőt a gyűjteményből. |
+| [AddControl](../../aspose.slides/controlcollection/addcontrol)(ControlType, float, float, float, float) | Létrehozza és hozzáadja az új vezérlést a gyűjteményhez. |
+| [Clear](../../aspose.slides/controlcollection/clear)() | Eltávolítja az összes vezérlést a gyűjteményből. |
 | [CopyTo](../../aspose.slides/controlcollection/copyto)(Array, int) | Átmásolja a teljes gyűjteményt a megadott tömbbe. |
-| [GetEnumerator](../../aspose.slides/controlcollection/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |
-| [Remove](../../aspose.slides/controlcollection/remove)(IControl) | Eltávolít egy ActiveX vezérlőt a gyűjteményből. |
-| [RemoveAt](../../aspose.slides/controlcollection/removeat)(int) | Eltávolít egy megadott pozícióban tárolt ActiveX vezérlőt a gyűjteményből. |
+| [GetEnumerator](../../aspose.slides/controlcollection/getenumerator)() | Visszaad egy enumerátort, amely bejárja a gyűjteményt. |
+| [Remove](../../aspose.slides/controlcollection/remove)(IControl) | Eltávolít egy ActiveX vezérlést a gyűjteményből. |
+| [RemoveAt](../../aspose.slides/controlcollection/removeat)(int) | Eltávolít egy megadott pozíción tárolt ActiveX vezérlést a gyűjteményből. |
 
 ### Lásd még
 

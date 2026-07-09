@@ -1,9 +1,9 @@
 ---
 title: IHyperlink
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: ハイパーリンクを表します。
 type: docs
-weight: 6090
+weight: 6110
 url: /ja/aspose.slides/ihyperlink/
 ---
 ## IHyperlink インターフェイス
@@ -16,23 +16,23 @@ public interface IHyperlink
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [ActionType](../../aspose.slides/ihyperlink/actiontype) { get; } | HyperLinkEx のアクションの型を返します。読み取り専用 [`HyperlinkActionType`](../hyperlinkactiontype). |
-| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | ハイパーリンクの色のソースを表します - スタイルまたは部分フォーマットのいずれかです。読み書き [`HyperlinkColorSource`](../hyperlinkcolorsource). |
-| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | 外部 URL を指定します。このプロパティが null でない場合、プロパティ TargetSlide は null になります。読み取り専用 String. |
-| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | この部分に設定されたハイパーリンクを、実際の内容に関係なく表します。PowerPoint はリンクとその部分のテキストに対して特別な動作を行います。有効な URL の形式でハイパーリンクのテキストを作成でき、リンクの実際のアドレスとは異なることができます。この場合、編集ウィンドウでリンクを表示すると、テキスト部分に合わせて変更されます。このプロパティはハイパーリンクの元の値を表します。 |
-| [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | クリック時にハイパーリンクをハイライト表示するかどうかを決定します。読み書き Boolean. |
-| [History](../../aspose.slides/ihyperlink/history) { get; set; } | 親ハイパーリンクのターゲットが呼び出されたときに、参照済みハイパーリンクのリストに追加されるかどうかを決定します。読み書き Boolean. |
-| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | ハイパーリンクの再生音を表します。読み書き [`IAudio`](../iaudio). |
-| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | ハイパーリンクをクリックしたときにサウンドを停止するかどうかを決定します。読み書き Boolean. |
-| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | 親ハイパーリンクのターゲットが存在する場合、親 HTML フレームセット内のフレームを返します。読み書き String. |
-| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | HyperlinkEx が特定のスライドを対象としている場合、そのスライドを返します。このプロパティが null でない場合、プロパティ ExternalUrl は null になります。読み取り専用 [`ISlide`](../islide). |
-| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | ユーザーインターフェイスに表示され、親ハイパーリンクに関連付けられる可能性のある文字列を返します。読み書き String. |
+| [ActionType](../../aspose.slides/ihyperlink/actiontype) { get; } | HyperLinkEx のアクションの型を返します。読み取り専用 [`HyperlinkActionType`](../hyperlinkactiontype)。 |
+| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | ハイパーリンクの色のソースを表します。スタイルまたは部分書式のいずれかです。読み書き [`HyperlinkColorSource`](../hyperlinkcolorsource)。 |
+| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | 外部 URL を指定します。このプロパティが null でなくなると、TargetSlide プロパティは null になります。読み取り専用 String。 |
+| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | この部分に設定されたハイパーリンクを、実際の内容に関係なく表します。PowerPoint は、部分内のリンクとそれに対応するテキストに対して特別な動作をします。有効な URL 形式のテキストをハイパーリンク用に作成でき、実際のリンク先アドレスとは異なります。この場合、編集ウィンドウでリンクを表示すると、テキスト部分に合わせて変更されます。このプロパティはハイパーリンクの元の値を表します。 |
+| [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | クリック時にハイパーリンクをハイライト表示するかどうかを決定します。読み書き Boolean。 |
+| [History](../../aspose.slides/ihyperlink/history) { get; set; } | 親ハイパーリンクが起動されたときに、そのターゲットが閲覧済みハイパーリンクのリストに追加されるかどうかを決定します。読み書き Boolean。 |
+| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | ハイパーリンクの再生サウンドを表します。読み書き [`IAudio`](../iaudio)。 |
+| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | ハイパーリンクのクリック時にサウンドを停止するかどうかを決定します。読み書き Boolean。 |
+| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | 親ハイパーリンクのターゲットが存在する場合、親 HTML フレームセット内のフレームを返します。読み書き String。 |
+| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | HyperlinkEx が特定のスライドを対象としている場合、そのスライドを返します。このプロパティが null でなくなると、ExternalUrl プロパティは null になります。読み取り専用 [`ISlide`](../islide)。 |
+| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | ユーザーインターフェイスに表示され、親ハイパーリンクに関連付けられる可能性のある文字列を返します。読み書き String。 |
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [Equals](../../aspose.slides/ihyperlink/equals)(IHyperlink) | 2 つの Hyperlink インスタンスが等しいかどうかを判断します。 |
 

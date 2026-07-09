@@ -3,7 +3,7 @@ title: ChartType
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en typ av diagram.
 type: docs
-weight: 1480
+weight: 1500
 url: /sv/aspose.slides.charts/charttype/
 ---
 ## ChartType enumeration
@@ -14,96 +14,96 @@ Representerar en typ av diagram.
 public enum ChartType
 ```
 
-### Värden
+### Values
 
-| Namn | Värde | Beskrivning |
+| Name | Value | Description |
 | --- | --- | --- |
-| ClusteredColumn | `0` | Representerar Clustered Column Chart. |
-| StackedColumn | `1` | Representerar Stacked Column Chart. |
-| PercentsStackedColumn | `2` | Representerar 100 % Stacked Column Chart. |
-| ClusteredColumn3D | `3` | Representerar 3D Colustered Column Chart. |
-| StackedColumn3D | `4` | Representerar 3D Stacked Column Chart. |
-| PercentsStackedColumn3D | `5` | Representerar 3D 100 % Stacked Column Chart. |
-| Column3D | `6` | Representerar 3D Column Chart. |
-| ClusteredCylinder | `7` | Representerar Cylinder Chart. |
-| StackedCylinder | `8` | Representerar Stacked Cylinder Chart. |
-| PercentsStackedCylinder | `9` | Representerar 100 % Stacked Cylinder Chart. |
-| Cylinder3D | `10` | Representerar 3D Cylindrical Column Chart. |
-| ClusteredCone | `11` | Representerar Cone Chart. |
-| StackedCone | `12` | Representerar Stacked Cone Chart. |
-| PercentsStackedCone | `13` | Representerar 100 % Stacked Cone Chart. |
-| Cone3D | `14` | Representerar 3D Conical Column Chart. |
-| ClusteredPyramid | `15` | Representerar Pyramid Chart. |
-| StackedPyramid | `16` | Representerar Stacked Pyramid Chart. |
-| PercentsStackedPyramid | `17` | Representerar 100 % Stacked Pyramid Chart. |
-| Pyramid3D | `18` | Representerar 3D Pyramid Column Chart. |
-| Line | `19` | Representerar Line Chart. |
-| StackedLine | `20` | Representerar Stacked Line Chart. |
-| PercentsStackedLine | `21` | Representerar 100 % Stacked Line Chart. |
-| LineWithMarkers | `22` | Representerar Line Chart with data markers. |
-| StackedLineWithMarkers | `23` | Representerar Stacked Line Chart with data markers. |
-| PercentsStackedLineWithMarkers | `24` | Representerar 100 % Stacked Line Chart with data markers. |
-| Line3D | `25` | Representerar 3D Line Chart. |
-| Pie | `26` | Representerar Pie Chart. |
-| Pie3D | `27` | Representerar 3D Pie Chart. |
-| PieOfPie | `28` | Representerar Pie of Pie Chart. |
-| ExplodedPie | `29` | Representerar Exploded Pie Chart. |
-| ExplodedPie3D | `30` | Representerar 3D Exploded Pie Chart. |
-| BarOfPie | `31` | Representerar Bar of Pie Chart. |
-| PercentsStackedBar | `32` | Representerar 100 % Stacked Bar Chart. |
-| ClusteredBar3D | `33` | Representerar 3D Colustered Bar Chart. |
-| ClusteredBar | `34` | Representerar Clustered Bar Chart. |
-| StackedBar | `35` | Representerar Stacked Bar Chart. |
-| StackedBar3D | `36` | Representerar 3D Stacked Bar Chart. |
-| PercentsStackedBar3D | `37` | Representerar 3D 100 % Stacked Bar Chart. |
-| ClusteredHorizontalCylinder | `38` | Representerar Cylindrical Bar Chart. |
-| StackedHorizontalCylinder | `39` | Representerar Stacked Cylindrical Bar Chart. |
-| PercentsStackedHorizontalCylinder | `40` | Representerar 100 % Stacked Cylindrical Bar Chart. |
-| ClusteredHorizontalCone | `41` | Representerar Conical Bar Chart. |
-| StackedHorizontalCone | `42` | Representerar Stacked Conical Bar Chart. |
-| PercentsStackedHorizontalCone | `43` | Representerar 100 % Stacked Conical Bar Chart. |
-| ClusteredHorizontalPyramid | `44` | Representerar Pyramid Bar Chart. |
-| StackedHorizontalPyramid | `45` | Representerar Stacked Pyramid Bar Chart. |
-| PercentsStackedHorizontalPyramid | `46` | Representerar 100 % Stacked Pyramid Bar Chart. |
-| Area | `47` | Representerar Area Chart. |
-| StackedArea | `48` | Representerar Stacked Area Chart. |
-| PercentsStackedArea | `49` | Representerar 100 % Stacked Area Chart. |
-| Area3D | `50` | Representerar 3D Area Chart. |
-| StackedArea3D | `51` | Representerar 3D Stacked Area Chart. |
-| PercentsStackedArea3D | `52` | Representerar 3D 100 % Stacked Area Chart. |
-| ScatterWithMarkers | `53` | Representerar Scatter Chart. |
-| ScatterWithSmoothLinesAndMarkers | `54` | Representerar Scatter Chart connected by curves, with data markers. |
-| ScatterWithSmoothLines | `55` | Representerar Scatter Chart connected by curves, without data markers. |
-| ScatterWithStraightLinesAndMarkers | `56` | Representerar Scatter Chart connected by lines, with data markers. |
-| ScatterWithStraightLines | `57` | Representerar Scatter Chart connected by lines, without data markers. |
-| HighLowClose | `58` | Representerar High-Low-Close Stock Chart. |
-| OpenHighLowClose | `59` | Representerar Open-High-Low-Close Stock Chart. |
-| VolumeHighLowClose | `60` | Representerar Volume-High-Low-Close Stock Chart. |
-| VolumeOpenHighLowClose | `61` | Representerar Volume-Open-High-Low-Close Stock Chart. |
-| Surface3D | `62` | Representerar 3D Surface Chart. |
-| WireframeSurface3D | `63` | Representerar Wireframe 3D Surface Chart. |
-| Contour | `64` | Representerar Contour Chart. |
-| WireframeContour | `65` | Representerar Wireframe Contour Chart. |
-| Doughnut | `66` | Representerar Doughnut Chart. |
-| ExplodedDoughnut | `67` | Representerar Exploded Doughnut Chart. |
-| Bubble | `68` | Representerar Bubble Chart. |
-| BubbleWith3D | `69` | Representerar 3D Bubble Chart. |
-| Radar | `70` | Representerar Radar Chart. |
-| RadarWithMarkers | `71` | Representerar Radar Chart with data markers. |
-| FilledRadar | `72` | Representerar Filled Radar Chart. |
-| SeriesOfMixedTypes | `73` | Detta värde kan endast returneras av ChartEx.Type-egenskapen. Det innebär att diagrammet har serier av blandade typer. |
-| Treemap | `74` | Representerar Treemap-diagram. |
-| Sunburst | `75` | Representerar Sunburst-diagram. |
-| Histogram | `76` | Representerar Histogram-diagram. |
-| ParetoLine | `77` | Representerar Pareto-linjeserie (Histogram Pareto-diagram). |
-| BoxAndWhisker | `78` | Representerar BoxAndWhisker-diagram. |
-| Waterfall | `79` | Representerar Waterfall-diagram. |
-| Funnel | `80` | Representerar Funnel-diagram. |
-| Map | `81` | Representerar Map-diagram. |
+| ClusteredColumn | `0` | Representerar ett grupperat kolumndiagram. |
+| StackedColumn | `1` | Representerar ett staplat kolumndiagram. |
+| PercentsStackedColumn | `2` | Representerar ett 100 % staplat kolumndiagram. |
+| ClusteredColumn3D | `3` | Representerar ett 3D grupperat kolumndiagram. |
+| StackedColumn3D | `4` | Representerar ett 3D staplat kolumndiagram. |
+| PercentsStackedColumn3D | `5` | Representerar ett 3D 100 % staplat kolumndiagram. |
+| Column3D | `6` | Representerar ett 3D kolumndiagram. |
+| ClusteredCylinder | `7` | Representerar ett cylindrisk diagram. |
+| StackedCylinder | `8` | Representerar ett staplat cylindrisk diagram. |
+| PercentsStackedCylinder | `9` | Representerar ett 100 % staplat cylindrisk diagram. |
+| Cylinder3D | `10` | Representerar ett 3D cylindriskt diagram. |
+| ClusteredCone | `11` | Representerar ett konformat diagram. |
+| StackedCone | `12` | Representerar ett staplat konformat diagram. |
+| PercentsStackedCone | `13` | Representerar ett 100 % staplat konformat diagram. |
+| Cone3D | `14` | Representerar ett 3D konformat diagram. |
+| ClusteredPyramid | `15` | Representerar ett pyramiddiagram. |
+| StackedPyramid | `16` | Representerar ett staplat pyramiddiagram. |
+| PercentsStackedPyramid | `17` | Representerar ett 100 % staplat pyramiddiagram. |
+| Pyramid3D | `18` | Representerar ett 3D pyramiddiagram. |
+| Line | `19` | Representerar ett linjediagram. |
+| StackedLine | `20` | Representerar ett staplat linjediagram. |
+| PercentsStackedLine | `21` | Representerar ett 100 % staplat linjediagram. |
+| LineWithMarkers | `22` | Representerar ett linjediagram med datapunkter. |
+| StackedLineWithMarkers | `23` | Representerar ett staplat linjediagram med datapunkter. |
+| PercentsStackedLineWithMarkers | `24` | Representerar ett 100 % staplat linjediagram med datapunkter. |
+| Line3D | `25` | Representerar ett 3D linjediagram. |
+| Pie | `26` | Representerar ett cirkeldiagram. |
+| Pie3D | `27` | Representerar ett 3D cirkeldiagram. |
+| PieOfPie | `28` | Representerar ett cirkeldiagram av cirkeldiagram. |
+| ExplodedPie | `29` | Representerar ett brutet cirkeldiagram. |
+| ExplodedPie3D | `30` | Representerar ett 3D brutet cirkeldiagram. |
+| BarOfPie | `31` | Representerar ett stapeldiagram av cirkeldiagram. |
+| PercentsStackedBar | `32` | Representerar ett 100 % staplat stapeldiagram. |
+| ClusteredBar3D | `33` | Representerar ett 3D grupperat stapeldiagram. |
+| ClusteredBar | `34` | Representerar ett grupperat stapeldiagram. |
+| StackedBar | `35` | Representerar ett staplat stapeldiagram. |
+| StackedBar3D | `36` | Representerar ett 3D staplat stapeldiagram. |
+| PercentsStackedBar3D | `37` | Representerar ett 3D 100 % staplat stapeldiagram. |
+| ClusteredHorizontalCylinder | `38` | Representerar ett horisontellt cylindriskt stapeldiagram. |
+| StackedHorizontalCylinder | `39` | Representerar ett staplat horisontellt cylindriskt stapeldiagram. |
+| PercentsStackedHorizontalCylinder | `40` | Representerar ett 100 % staplat horisontellt cylindriskt stapeldiagram. |
+| ClusteredHorizontalCone | `41` | Representerar ett horisontellt konformat stapeldiagram. |
+| StackedHorizontalCone | `42` | Representerar ett staplat horisontellt konformat stapeldiagram. |
+| PercentsStackedHorizontalCone | `43` | Representerar ett 100 % staplat horisontellt konformat stapeldiagram. |
+| ClusteredHorizontalPyramid | `44` | Representerar ett horisontellt pyramiddiagram. |
+| StackedHorizontalPyramid | `45` | Representerar ett staplat horisontellt pyramiddiagram. |
+| PercentsStackedHorizontalPyramid | `46` | Representerar ett 100 % staplat horisontellt pyramiddiagram. |
+| Area | `47` | Representerar ett ytdiagram. |
+| StackedArea | `48` | Representerar ett staplat ytdiagram. |
+| PercentsStackedArea | `49` | Representerar ett 100 % staplat ytdiagram. |
+| Area3D | `50` | Representerar ett 3D ytdiagram. |
+| StackedArea3D | `51` | Representerar ett 3D staplat ytdiagram. |
+| PercentsStackedArea3D | `52` | Representerar ett 3D 100 % staplat ytdiagram. |
+| ScatterWithMarkers | `53` | Representerar ett spridningsdiagram med datapunkter. |
+| ScatterWithSmoothLinesAndMarkers | `54` | Representerar ett spridningsdiagram med släta kurvor och datapunkter. |
+| ScatterWithSmoothLines | `55` | Representerar ett spridningsdiagram med släta kurvor utan datapunkter. |
+| ScatterWithStraightLinesAndMarkers | `56` | Representerar ett spridningsdiagram med raka linjer och datapunkter. |
+| ScatterWithStraightLines | `57` | Representerar ett spridningsdiagram med raka linjer utan datapunkter. |
+| HighLowClose | `58` | Representerar ett hög-låg-stängnings aktiediagram. |
+| OpenHighLowClose | `59` | Representerar ett öppning-hög-låg-stängnings aktiediagram. |
+| VolumeHighLowClose | `60` | Representerar ett volym-hög-låg-stängnings aktiediagram. |
+| VolumeOpenHighLowClose | `61` | Representerar ett volym-öppning-hög-låg-stängnings aktiediagram. |
+| Surface3D | `62` | Representerar ett 3D yt-diagram. |
+| WireframeSurface3D | `63` | Representerar ett 3D trådram-yt-diagram. |
+| Contour | `64` | Representerar ett konturdiagram. |
+| WireframeContour | `65` | Representerar ett trådram-konturdiagram. |
+| Doughnut | `66` | Representerar ett munkdiagram. |
+| ExplodedDoughnut | `67` | Representerar ett brutet munkdiagram. |
+| Bubble | `68` | Representerar ett bubbeldiagram. |
+| BubbleWith3D | `69` | Representerar ett 3D bubbeldiagram. |
+| Radar | `70` | Representerar ett radardiagram. |
+| RadarWithMarkers | `71` | Representerar ett radardiagram med datapunkter. |
+| FilledRadar | `72` | Representerar ett fyllt radardiagram. |
+| SeriesOfMixedTypes | `73` | Detta värde kan endast returneras av egenskapen ChartEx.Type. Det betyder att diagrammet har serier av blandade typer. |
+| Treemap | `74` | Representerar ett trädmap-diagram. |
+| Sunburst | `75` | Representerar ett solutbrott-diagram. |
+| Histogram | `76` | Representerar ett histogram. |
+| ParetoLine | `77` | Representerar en Pareto-linjetyp (Pareto-histogram). |
+| BoxAndWhisker | `78` | Representerar ett låda-och-viskapdiagram. |
+| Waterfall | `79` | Representerar ett vattenfallsdiagram. |
+| Funnel | `80` | Representerar ett trattdiagram. |
+| Map | `81` | Representerar ett kartdiagram. |
 
 ### Se även
 
 * namnrymd [Aspose.Slides.Charts](../../aspose.slides.charts)
-* samling [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

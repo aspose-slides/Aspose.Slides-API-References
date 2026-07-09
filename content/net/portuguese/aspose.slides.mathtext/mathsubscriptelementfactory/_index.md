@@ -1,9 +1,9 @@
 ---
 title: MathSubscriptElementFactory
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Permite criar IMathSubscriptElement
 type: docs
-weight: 8990
+weight: 9010
 url: /pt/aspose.slides.mathtext/mathsubscriptelementfactory/
 ---
 ## MathSubscriptElementFactory classe
@@ -30,7 +30,7 @@ public class MathSubscriptElementFactory : IMathSubscriptElementFactory
 
 Para compatibilidade COM
 
-### Veja Também
+### Ver também
 
 * interface [IMathSubscriptElementFactory](../imathsubscriptelementfactory)
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

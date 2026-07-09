@@ -1,14 +1,14 @@
 ---
 title: ChartType
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει έναν τύπο διαγράμματος.
+description: Αναπαριστά έναν τύπο διαγράμματος.
 type: docs
-weight: 1480
+weight: 1500
 url: /el/aspose.slides.charts/charttype/
 ---
-## απαρίθμηση ChartType
+## ChartType enumeration
 
-Αντιπροσωπεύει έναν τύπο διαγράμματος.
+Αναπαριστά έναν τύπο διαγράμματος.
 
 ```csharp
 public enum ChartType
@@ -18,92 +18,92 @@ public enum ChartType
 
 | Όνομα | Τιμή | Περιγραφή |
 | --- | --- | --- |
-| ClusteredColumn | `0` | Αντιπροσωπεύει το Clustered Column Chart. |
-| StackedColumn | `1` | Αντιπροσωπεύει το Stacked Column Chart. |
-| PercentsStackedColumn | `2` | Αντιπροσωπεύει το 100% Stacked Column Chart. |
-| ClusteredColumn3D | `3` | Αντιπροσωπεύει το 3D Colustered Column Chart. |
-| StackedColumn3D | `4` | Αντιπροσωπεύει το 3D Stacked Column Chart. |
-| PercentsStackedColumn3D | `5` | Αντιπροσωπεύει το 3D 100% Stacked Column Chart. |
-| Column3D | `6` | Αντιπροσωπεύει το 3D Column Chart. |
-| ClusteredCylinder | `7` | Αντιπροσωπεύει το Cylinder Chart. |
-| StackedCylinder | `8` | Αντιπροσωπεύει το Stacked Cylinder Chart. |
-| PercentsStackedCylinder | `9` | Αντιπροσωπεύει το 100% Stacked Cylinder Chart. |
-| Cylinder3D | `10` | Αντιπροσωπεύει το 3D Cylindrical Column Chart. |
-| ClusteredCone | `11` | Αντιπροσωπεύει το Cone Chart. |
-| StackedCone | `12` | Αντιπροσωπεύει το Stacked Cone Chart. |
-| PercentsStackedCone | `13` | Αντιπροσωπεύει το 100% Stacked Cone Chart. |
-| Cone3D | `14` | Αντιπροσωπεύει το 3D Conical Column Chart. |
-| ClusteredPyramid | `15` | Αντιπροσωπεύει το Pyramid Chart. |
-| StackedPyramid | `16` | Αντιπροσωπεύει το Stacked Pyramid Chart. |
-| PercentsStackedPyramid | `17` | Αντιπροσωπεύει το 100% Stacked Pyramid Chart. |
-| Pyramid3D | `18` | Αντιπροσωπεύει το 3D Pyramid Column Chart. |
-| Line | `19` | Αντιπροσωπεύει το Line Chart. |
-| StackedLine | `20` | Αντιπροσωπεύει το Stacked Line Chart. |
-| PercentsStackedLine | `21` | Αντιπروσωπεύει το 100% Stacked Line Chart. |
-| LineWithMarkers | `22` | Αντιπροσωπεύει το Line Chart with data markers. |
-| StackedLineWithMarkers | `23` | Αντιπροσωπεύει το Stacked Line Chart with data markers. |
-| PercentsStackedLineWithMarkers | `24` | Αντιπροσωπεύει το 100% Stacked Line Chart with data markers. |
-| Line3D | `25` | Αντιπροσωπεύει το 3D Line Chart. |
-| Pie | `26` | Αντιπροσωπεύει το Pie Chart. |
-| Pie3D | `27` | Αντιπροσωπεύει το 3D Pie Chart. |
-| PieOfPie | `28` | Αντιπροσωπεύει το Pie of Pie Chart. |
-| ExplodedPie | `29` | Αντιπροσωπεύει το Exploded Pie Chart. |
-| ExplodedPie3D | `30` | Αντιπροσωπεύει το 3D Exploded Pie Chart. |
-| BarOfPie | `31` | Αντιπροσωπεύει το Bar of Pie Chart. |
-| PercentsStackedBar | `32` | Αντιπροσωπεύει το 100% Stacked Bar Chart. |
-| ClusteredBar3D | `33` | Αντιπροσωπεύει το 3D Colustered Bar Chart. |
-| ClusteredBar | `34` | Αντιπροσωπεύει το Clustered Bar Chart. |
-| StackedBar | `35` | Αντιπροσωπεύει το Stacked Bar Chart. |
-| StackedBar3D | `36` | Αντιπροσωπεύει το 3D Stacked Bar Chart. |
-| PercentsStackedBar3D | `37` | Αντιπροσωπεύει το 3D 100% Stacked Bar Chart. |
-| ClusteredHorizontalCylinder | `38` | Αντιπροσωπεύει το Cylindrical Bar Chart. |
-| StackedHorizontalCylinder | `39` | Αντιπροσωπεύει το Stacked Cylindrical Bar Chart. |
-| PercentsStackedHorizontalCylinder | `40` | Αντιπροσωπεύει το 100% Stacked Cylindrical Bar Chart. |
-| ClusteredHorizontalCone | `41` | Αντιπροσωπεύει το Conical Bar Chart. |
-| StackedHorizontalCone | `42` | Αντιπροσωπεύει το Stacked Conical Bar Chart. |
-| PercentsStackedHorizontalCone | `43` | Αντιπροσωπεύει το 100% Stacked Conical Bar Chart. |
-| ClusteredHorizontalPyramid | `44` | Αντιπροσωπεύει το Pyramid Bar Chart. |
-| StackedHorizontalPyramid | `45` | Αντιπροσωπεύει το Stacked Pyramid Bar Chart. |
-| PercentsStackedHorizontalPyramid | `46` | Αντιπροσωπεύει το 100% Stacked Pyramid Bar Chart. |
-| Area | `47` | Αντιπροσωπεύει το Area Chart. |
-| StackedArea | `48` | Αντιπροσωπεύει το Stacked Area Chart. |
-| PercentsStackedArea | `49` | Αντιπροσωπεύει το 100% Stacked Area Chart. |
-| Area3D | `50` | Αντιπροσωπεύει το 3D Area Chart. |
-| StackedArea3D | `51` | Αντιπροσωπεύει το 3D Stacked Area Chart. |
-| PercentsStackedArea3D | `52` | Αντιπροσωπεύει το 3D 100% Stacked Area Chart. |
-| ScatterWithMarkers | `53` | Αντιπροσωπεύει το Scatter Chart. |
-| ScatterWithSmoothLinesAndMarkers | `54` | Αντιπροσωπεύει το Scatter Chart connected by curves, with data markers. |
-| ScatterWithSmoothLines | `55` | Αντιπροσωπεύει το Scatter Chart connected by curves, without data markers. |
-| ScatterWithStraightLinesAndMarkers | `56` | Αντιπροσωπεύει το Scatter Chart connected by lines, with data markers. |
-| ScatterWithStraightLines | `57` | Αντιπροσωπεύει το Scatter Chart connected by lines, without data markers. |
-| HighLowClose | `58` | Αντιπροσωπεύει το High-Low-Close Stock Chart. |
-| OpenHighLowClose | `59` | Αντιπροσωπεύει το Open-High-Low-Close Stock Chart. |
-| VolumeHighLowClose | `60` | Αντιπροσωπεύει το Volume-High-Low-Close Stock Chart. |
-| VolumeOpenHighLowClose | `61` | Αντιπροσωπεύει το Volume-Open-High-Low-Close Stock Chart. |
-| Surface3D | `62` | Αντιπροσωπεύει το 3D Surface Chart. |
-| WireframeSurface3D | `63` | Αντιπροσωπεύει το Wireframe 3D Surface Chart. |
-| Contour | `64` | Αντιπροσωπεύει το Contour Chart. |
-| WireframeContour | `65` | Αντιπροσωπεύει το Wireframe Contour Chart. |
-| Doughnut | `66` | Αντιπροσωπεύει το Doughnut Chart. |
-| ExplodedDoughnut | `67` | Αντιπροσωπεύει το Exploded Doughnut Chart. |
-| Bubble | `68` | Αντιπροσωπεύει το Bubble Chart. |
-| BubbleWith3D | `69` | Αντιπροσωπεύει το 3D Bubble Chart. |
-| Radar | `70` | Αντιπροσωπεύει το Radar Chart. |
-| RadarWithMarkers | `71` | Αντιπροσωπεύει το Radar Chart with data markers. |
-| FilledRadar | `72` | Αντιπροσωπεύει το Filled Radar Chart. |
-| SeriesOfMixedTypes | `73` | This value only can be returned by ChartEx.Type property. It mean that chart has series of mixed types. |
-| Treemap | `74` | Αντιπροσωπεύει το Treemap chart. |
-| Sunburst | `75` | Αντιπροσωπεύει το Sunburst chart. |
-| Histogram | `76` | Αντιπροσωπεύει το Histogram chart. |
-| ParetoLine | `77` | Αντιπροσωπεύει το Pareto line series type (Histogram Pareto chart). |
-| BoxAndWhisker | `78` | Αντιπροσωπεύει το BoxAndWhisker chart. |
-| Waterfall | `79` | Αντιπροσωπεύει το Waterfall chart. |
-| Funnel | `80` | Αντιπροσωπεύει το Funnel chart. |
-| Map | `81` | Αντιπροσωπεύει το Map chart. |
+| ClusteredColumn | `0` | Αναπαριστά Διάγραμμα Συγκεντρωμένης Στήλης. |
+| StackedColumn | `1` | Αναπαριστά Διάγραμμα Στοιβαρμένης Στήλης. |
+| PercentsStackedColumn | `2` | Αναπαριστά Διάγραμμα 100% Στοιβαρμένης Στήλης. |
+| ClusteredColumn3D | `3` | Αναπαριστά 3Δ Διάγραμμα Συγκεντρωμένης Στήλης. |
+| StackedColumn3D | `4` | Αναπαριστά 3Δ Στοιβαρμένο Διάγραμμα Στήλης. |
+| PercentsStackedColumn3D | `5` | Αναπαριστά 3Δ Διάγραμμα 100% Στοιβαρμένης Στήλης. |
+| Column3D | `6` | Αναπαριστά 3Δ Διάγραμμα Στήλης. |
+| ClusteredCylinder | `7` | Αναπαριστά Διάγραμμα Κυλίνδρου. |
+| StackedCylinder | `8` | Αναπαριστά Στοιβαρμένο Διάγραμμα Κυλίνδρου. |
+| PercentsStackedCylinder | `9` | Αναπαριστά 100% Στοιβαρμένο Διάγραμμα Κυλίνδρου. |
+| Cylinder3D | `10` | Αναπαριστά 3Δ Διάγραμμα Κυλινδρικών Στηλών. |
+| ClusteredCone | `11` | Αναπαριστά Διάγραμμα Κόλου. |
+| StackedCone | `12` | Αναπαριστά Στοιβαρμένο Διάγραμμα Κόλου. |
+| PercentsStackedCone | `13` | Αναπαριστά 100% Στοιβαρμένο Διάγραμμα Κόλου. |
+| Cone3D | `14` | Αναπαριστά 3Δ Διάγραμμα Κώλου. |
+| ClusteredPyramid | `15` | Αναπαριστά Διάγραμμα Πυραμίδας. |
+| StackedPyramid | `16` | Αναπαριστά Στοιβαρμένο Διάγραμμα Πυραμίδας. |
+| PercentsStackedPyramid | `17` | Αναπαριστά 100% Στοιβαρμένο Διάγραμμα Πυραμίδας. |
+| Pyramid3D | `18` | Αναπαριστά 3Δ Διάγραμμα Πυραμίδας. |
+| Line | `19` | Αναπαριστά Διάγραμμα Γραμμής. |
+| StackedLine | `20` | Αναπαριστά Στοιβαρμένο Διάγραμμα Γραμμής. |
+| PercentsStackedLine | `21` | Αναπαριστά 100% Στοιβαρμένο Διάγραμμα Γραμμής. |
+| LineWithMarkers | `22` | Αναπαριστά Διάγραμμα Γραμμής με δείκτες δεδομένων. |
+| StackedLineWithMarkers | `23` | Αναπαριστά Στοιβαρμένο Διάγραμμα Γραμμής με δείκτες δεδομένων. |
+| PercentsStackedLineWithMarkers | `24` | Αναπαριστά 100% Στοιβαρμένο Διάγραμμα Γραμμής με δείκτες δεδομένων. |
+| Line3D | `25` | Αναπαριστά 3Δ Διάγραμμα Γραμμής. |
+| Pie | `26` | Αναπαριστά Διάγραμμα Πίτας. |
+| Pie3D | `27` | Αναπαριστά 3Δ Διάγραμμα Πίτας. |
+| PieOfPie | `28` | Αναπαριστά Διάγραμμα Πίτας Πίτας. |
+| ExplodedPie | `29` | Αναπαριστά Εκρηκτικό Διάγραμμα Πίτας. |
+| ExplodedPie3D | `30` | Αναπαριστά 3Δ Εκρηκτικό Διάγραμμα Πίτας. |
+| BarOfPie | `31` | Αναπαριστά Ράβδο Πίτας. |
+| PercentsStackedBar | `32` | Αναπαριστά 100% Στοιβαρμένο Διάγραμμα Μπάρας. |
+| ClusteredBar3D | `33` | Αναπαριστά 3Δ Συγκεντρωμένο Διάγραμμα Μπάρας. |
+| ClusteredBar | `34` | Αναπαριστά Συγκεντρωμένο Διάγραμμα Μπάρας. |
+| StackedBar | `35` | Αναπαριστά Στοιβαρμένο Διάγραμμα Μπάρας. |
+| StackedBar3D | `36` | Αναπαριστά 3Δ Στοιβαρμένο Διάγραμμα Μπάρας. |
+| PercentsStackedBar3D | `37` | Αναπαριστά 3Δ 100% Στοιβαρμένο Διάγραμμα Μπάρας. |
+| ClusteredHorizontalCylinder | `38` | Αναπαριστά Κυλινδρικό Οριζόντιο Διάγραμμα Μπάρας. |
+| StackedHorizontalCylinder | `39` | Αναπαριστά Στοιβαρμένο Κυλινδρικό Οριζόντιο Διάγραμμα Μπάρας. |
+| PercentsStackedHorizontalCylinder | `40` | Αναπαριστά 100% Στοιβαρμένο Κυλινδρικό Οριζόντιο Διάγραμμα Μπάρας. |
+| ClusteredHorizontalCone | `41` | Αναπαριστά Κωνικό Οριζόντιο Διάγραμμα Μπάρας. |
+| StackedHorizontalCone | `42` | Αναπαριστά Στοιβαρμένο Κωνικό Οριζόντιο Διάγραμμα Μπάρας. |
+| PercentsStackedHorizontalCone | `43` | Αναπαριστά 100% Στοιβαρμένο Κωνικό Οριζόντιο Διάγραμμα Μπάρας. |
+| ClusteredHorizontalPyramid | `44` | Αναπαριστά Πυραμιδικό Οριζόντιο Διάγραμμα Μπάρας. |
+| StackedHorizontalPyramid | `45` | Αναπαριστά Στοιβαρμένο Πυραμιδικό Οριζόντιο Διάγραμμα Μπάρας. |
+| PercentsStackedHorizontalPyramid | `46` | Αναπαριστά 100% Στοιβαρμένο Πυραμιδικό Οριζόντιο Διάγραμμα Μπάρας. |
+| Area | `47` | Αναπαριστά Διάγραμμα Περιοχής. |
+| StackedArea | `48` | Αναπαριστά Στοιβαρμένο Διάγραμμα Περιοχής. |
+| PercentsStackedArea | `49` | Αναπαριστά 100% Στοιβαρμένο Διάγραμμα Περιοχής. |
+| Area3D | `50` | Αναπαριστά 3Δ Διάγραμμα Περιοχής. |
+| StackedArea3D | `51` | Αναπαριστά 3Δ Στοιβαρμένο Διάγραμμα Περιοχής. |
+| PercentsStackedArea3D | `52` | Αναπαριστά 3Δ 100% Στοιβαρμένο Διάγραμμα Περιοχής. |
+| ScatterWithMarkers | `53` | Αναπαριστά Διάγραμμα Διασποράς. |
+| ScatterWithSmoothLinesAndMarkers | `54` | Αναπαριστά Διάγραμμα Διασποράς συνδεδεμένο με καμπύλες, με δείκτες δεδομένων. |
+| ScatterWithSmoothLines | `55` | Αναπαριστά Διάγραμμα Διασποράς συνδεδεμένο με καμπύλες, χωρίς δείκτες δεδομένων. |
+| ScatterWithStraightLinesAndMarkers | `56` | Αναπαριστά Διάγραμμα Διασποράς συνδεδεμένο με ευθείες γραμμές, με δείκτες δεδομένων. |
+| ScatterWithStraightLines | `57` | Αναπαριστά Διάγραμμα Διασποράς συνδεδεμένο με ευθείες γραμμές, χωρίς δείκτες δεδομένων. |
+| HighLowClose | `58` | Αναπαριστά Διάγραμμα Μετοχών Υψηλό-Χαμηλό-Κλείσιμο. |
+| OpenHighLowClose | `59` | Αναπαριστά Διάγραμμα Μετοχών Άνοιγμα-Υψηλό-Χαμηλό-Κλείσιμο. |
+| VolumeHighLowClose | `60` | Αναπαριστά Διάγραμμα Όγκου-Υψηλό-Χαμηλό-Κλείσιμο. |
+| VolumeOpenHighLowClose | `61` | Αναπαριστά Διάγραμμα Όγκου-Άνοιγμα-Υψηλό-Χαμηλό-Κλείσιμο. |
+| Surface3D | `62` | Αναπαριστά 3Δ Διάγραμμα Επιφάνειας. |
+| WireframeSurface3D | `63` | Αναπαριστά Διάγραμμα Επιφάνειας Αρθρωτού 3Δ. |
+| Contour | `64` | Αναπαριστά Διάγραμμα Περιγράμματος. |
+| WireframeContour | `65` | Αναπαριστά Διάγραμμα Αρθρωτού Περιγράμματος. |
+| Doughnut | `66` | Αναπαριστά Διάγραμμα Ροδού. |
+| ExplodedDoughnut | `67` | Αναπαριστά Εκρηκτικό Διάγραμμα Ροδού. |
+| Bubble | `68` | Αναπαριστά Διάγραμμα Φυσαλίδας. |
+| BubbleWith3D | `69` | Αναπαριστά 3Δ Διάγραμμα Φυσαλίδας. |
+| Radar | `70` | Αναπαριστά Διάγραμμα Ραδίου. |
+| RadarWithMarkers | `71` | Αναπαριστά Διάγραμμα Ραδίου με δείκτες δεδομένων. |
+| FilledRadar | `72` | Αναπαριστά Γεμισμένο Διάγραμμα Ραδίου. |
+| SeriesOfMixedTypes | `73` | Αυτή η τιμή μπορεί να επιστραφεί μόνο από την ιδιότητα ChartEx.Type. Σημαίνει ότι το διάγραμμα έχει σειρές μικτών τύπων. |
+| Treemap | `74` | Αναπαριστά Διάγραμμα Δέντρου. |
+| Sunburst | `75` | Αναπαριστά Διάγραμμα Ηλιακής Έκπληξης. |
+| Histogram | `76` | Αναπαριστά Διάγραμμα Ιστογράμματος. |
+| ParetoLine | `77` | Αναπαριστά τύπο σειράς Γραμμής Pareto (Διάγραμμα Ιστογράμματος Pareto). |
+| BoxAndWhisker | `78` | Αναπαριστά Διάγραμμα BoxAndWhisker. |
+| Waterfall | `79` | Αναπαριστά Διάγραμμα Καταρράκτη. |
+| Funnel | `80` | Αναπαριστά Διάγραμμα Στόμου. |
+| Map | `81` | Αναπαριστά Διάγραμμα Χάρτη. |
 
 ### Δείτε επίσης
 
-* χώρο ονομάτων [Aspose.Slides.Charts](../../aspose.slides.charts)
-* συγκρότηση [Aspose.Slides](../../)
+* χώρος ονομάτων [Aspose.Slides.Charts](../../aspose.slides.charts)
+* συναρμολόγηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

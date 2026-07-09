@@ -1,14 +1,14 @@
 ---
 title: BaseThemeManager
-second_title: Aspose.Sildes a .NET-hez API hivatkozás
-description: Alap osztály azoknak az osztályoknak, amelyek hozzáférést biztosítanak a különböző típusú témákhoz.
+second_title: Aspose.Sildes .NET API referencia
+description: Alap osztály azokhoz az osztályokhoz, amelyek különböző típusú témákhoz biztosítanak hozzáférést.
 type: docs
-weight: 11030
+weight: 11050
 url: /hu/aspose.slides.theme/basethememanager/
 ---
 ## BaseThemeManager osztály
 
-Alap osztály azoknak az osztályoknak, amelyek hozzáférést biztosítanak a különböző típusú témákhoz.
+Alap osztály azokhoz az osztályokhoz, amelyek különböző típusú témákhoz biztosítanak hozzáférést.
 
 ```csharp
 public abstract class BaseThemeManager

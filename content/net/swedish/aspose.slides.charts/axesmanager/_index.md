@@ -3,10 +3,10 @@ title: AxesManager
 second_title: Aspose.Sildes för .NET API-referens
 description: Tillhandahåller åtkomst till diagramaxlar.
 type: docs
-weight: 1150
+weight: 1170
 url: /sv/aspose.slides.charts/axesmanager/
 ---
-## AxesManager klass
+## AxesManager-klass
 
 Tillhandahåller åtkomst till diagramaxlar.
 
@@ -18,11 +18,11 @@ public class AxesManager : DomObject<Chart>, IAxesManager
 
 | Namn | Beskrivning |
 | --- | --- |
-| [HorizontalAxis](../../aspose.slides.charts/axesmanager/horizontalaxis) { get; } | Hämtar diagrammets horisontella axel. Endast läsning [`IAxis`](../iaxis). |
-| [SecondaryHorizontalAxis](../../aspose.slides.charts/axesmanager/secondaryhorizontalaxis) { get; } | Hämtar diagrammets sekundära horisontella axel. Endast läsning [`IAxis`](../iaxis). |
-| [SecondaryVerticalAxis](../../aspose.slides.charts/axesmanager/secondaryverticalaxis) { get; } | Hämtar diagrammets sekundära vertikala axel. Endast läsning [`IAxis`](../iaxis). |
-| [SeriesAxis](../../aspose.slides.charts/axesmanager/seriesaxis) { get; } | Hämtar diagrammets serieaxel. Endast läsning [`IAxis`](../iaxis). |
-| [VerticalAxis](../../aspose.slides.charts/axesmanager/verticalaxis) { get; } | Hämtar diagrammets vertikala axel. Endast läsning [`IAxis`](../iaxis). |
+| [HorizontalAxis](../../aspose.slides.charts/axesmanager/horizontalaxis) { get; } | Hämtar diagrammets horisontella axel. Skrivskyddad [`IAxis`](../iaxis). |
+| [SecondaryHorizontalAxis](../../aspose.slides.charts/axesmanager/secondaryhorizontalaxis) { get; } | Hämtar diagrammets sekundära horisontella axel. Skrivskyddad [`IAxis`](../iaxis). |
+| [SecondaryVerticalAxis](../../aspose.slides.charts/axesmanager/secondaryverticalaxis) { get; } | Hämtar diagrammets sekundära vertikala axel. Skrivskyddad [`IAxis`](../iaxis). |
+| [SeriesAxis](../../aspose.slides.charts/axesmanager/seriesaxis) { get; } | Hämtar diagrammets serieaxel. Skrivskyddad [`IAxis`](../iaxis). |
+| [VerticalAxis](../../aspose.slides.charts/axesmanager/verticalaxis) { get; } | Hämtar diagrammets vertikala axel. Skrivskyddad [`IAxis`](../iaxis). |
 
 ### Se även
 

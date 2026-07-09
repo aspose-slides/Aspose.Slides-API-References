@@ -1,14 +1,14 @@
 ---
 title: IRippleTransition
-second_title: Aspose.Sildes dla .NET API Reference
-description: Efekt przejścia slajdu typu Ripple.
+second_title: Aspose.Sildes dla .NET – Referencja API
+description: Efekt przejścia slajdu Ripple.
 type: docs
-weight: 10150
+weight: 10170
 url: /pl/aspose.slides.slideshow/irippletransition/
 ---
-## IRippleTransition interfejs
+## interfejs IRippleTransition
 
-Efekt przejścia slajdu typu Ripple.
+Efekt przejścia slajdu Ripple.
 
 ```csharp
 public interface IRippleTransition : ITransitionValueBase

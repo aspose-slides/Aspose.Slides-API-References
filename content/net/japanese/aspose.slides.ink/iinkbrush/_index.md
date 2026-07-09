@@ -3,7 +3,7 @@ title: IInkBrush
 second_title: Aspose.Sildes for .NET API リファレンス
 description: トレースブラシを表します。
 type: docs
-weight: 7510
+weight: 7530
 url: /ja/aspose.slides.ink/iinkbrush/
 ---
 ## IInkBrush インターフェイス
@@ -18,11 +18,11 @@ public interface IInkBrush
 
 | 名前 | 説明 |
 | --- | --- |
-| [Color](../../aspose.slides.ink/iinkbrush/color) { get; set; } | ラインのブラシカラーを取得または設定します。 |
-| [InkEffect](../../aspose.slides.ink/iinkbrush/inkeffect) { get; } | インクストロークの視覚的スタイルを定義するインク効果タイプ（例: Galaxy、Gold、Silver）を取得します。値はブラシプロパティ "inkEffects" から解析されます。認識された効果が指定されていない場合、NotDefined が返されます。 |
-| [Size](../../aspose.slides.ink/iinkbrush/size) { get; set; } | ラインのブラシサイズをポイント単位で取得または設定します。 |
+| [Color](../../aspose.slides.ink/iinkbrush/color) { get; set; } | 線のブラシカラーを取得または設定します。 |
+| [InkEffect](../../aspose.slides.ink/iinkbrush/inkeffect) { get; } | インクストロークの視覚スタイルを定義するインク効果タイプ (例: Galaxy、Gold、Silver) を取得します。値はブラシプロパティ "inkEffects" から解析されます。認識された効果が指定されていない場合、NotDefined が返されます。 |
+| [Size](../../aspose.slides.ink/iinkbrush/size) { get; set; } | 線のブラシサイズをポイント単位で取得または設定します。 |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides.Ink](../../aspose.slides.ink)
 * アセンブリ [Aspose.Slides](../../)

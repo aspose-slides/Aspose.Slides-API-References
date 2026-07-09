@@ -1,9 +1,9 @@
 ---
 title: BaseHeaderFooterManager
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili manajer yang menyimpan perilaku placeholder footer, tanggal-waktu, dan nomor halaman untuk semua jenis slide.
 type: docs
-weight: 940
+weight: 960
 url: /id/aspose.slides/baseheaderfootermanager/
 ---
 ## BaseHeaderFooterManager kelas

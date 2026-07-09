@@ -3,10 +3,10 @@ title: IFontData
 second_title: Aspose.Sildes için .NET API Referansı
 description: Bir yazı tipi tanımını temsil eder.
 type: docs
-weight: 5810
+weight: 5830
 url: /tr/aspose.slides/ifontdata/
 ---
-## IFontData arabirimi
+## IFontData arayüz
 
 Bir yazı tipi tanımını temsil eder.
 
@@ -18,15 +18,15 @@ public interface IFontData
 
 | Ad | Açıklama |
 | --- | --- |
-| [FontName](../../aspose.slides/ifontdata/fontname) { get; } | Yazı tipi adını döndürür. Salt okunur String. |
+| [FontName](../../aspose.slides/ifontdata/fontname) { get; } | Yazı tipinin adını döndürür. Salt okunur String. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [GetFontName](../../aspose.slides/ifontdata/getfontname)(IThemeEffectiveData) | Yazı tipi adını döndürür, tema referansını kullanılan gerçek bir yazı tipiyle değiştirir. |
+| [GetFontName](../../aspose.slides/ifontdata/getfontname)(IThemeEffectiveData) | Yazı tipinin adını döndürür, tema referansını kullanılan gerçek bir yazı tipiyle değiştirir. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

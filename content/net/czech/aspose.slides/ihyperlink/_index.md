@@ -1,14 +1,14 @@
 ---
 title: IHyperlink
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje hypertextový odkaz.
+description: Reprezentuje hypertextový odkaz.
 type: docs
-weight: 6090
+weight: 6110
 url: /cs/aspose.slides/ihyperlink/
 ---
 ## IHyperlink rozhraní
 
-Představuje hypertextový odkaz.
+Reprezentuje hypertextový odkaz.
 
 ```csharp
 public interface IHyperlink
@@ -16,23 +16,23 @@ public interface IHyperlink
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [ActionType](../../aspose.slides/ihyperlink/actiontype) { get; } | Vrací typ akce HyperLinkEx. Pouze pro čtení [`HyperlinkActionType`](../hyperlinkactiontype). |
-| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | Representuje zdroj barvy hypertextového odkazu – buď stylu, nebo formátu úseku. Čtení/zápis [`HyperlinkColorSource`](../hyperlinkcolorsource). |
+| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | Representuje zdroj barvy hypertextového odkazu – buď styly, nebo formát úseku. Čtení/zápis [`HyperlinkColorSource`](../hyperlinkcolorsource). |
 | [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | Určuje externí URL. Pokud tato vlastnost není null, pak vlastnost TargetSlide bude null. Pouze pro čtení String. |
-| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | Representuje hypertextový odkaz nastavený pro tuto část bez ohledu na skutečný obsah části. PowerPoint se chová specificky pro odkazy a jejich odpovídající text v části. Umožňuje vytvořit text pro hypertextový odkaz ve formě platného URL, odlišného od skutečné adresy odkazu. V tomto případě, když zobrazíte odkaz v okně úprav, bude změněn tak, aby odpovídal textové části. Tato vlastnost představuje původní hodnotu hypertextového odkazu. |
+| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | Representuje hypertextový odkaz, který je nastaven pro tento úsek bez ohledu na skutečný obsah úseku. PowerPoint se specificky chová k odkazům a jejich odpovídajícímu textu v úseku. Umožňuje vytvořit text hypertextového odkazu ve formě platné URL, odlišný od skutečné adresy odkazu. V tomto případě, když si odkaz zobrazíte v okně úprav, bude změněn tak, aby odpovídal textovému úseku. Tato vlastnost představuje původní hodnotu hypertextového odkazu. |
 | [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | Určuje, zda má být hypertextový odkaz zvýrazněn po kliknutí. Čtení/zápis Boolean. |
 | [History](../../aspose.slides/ihyperlink/history) { get; set; } | Určuje, zda má být cíl nadřazeného hypertextového odkazu přidán do seznamu zobrazených hypertextových odkazů při jeho vyvolání. Čtení/zápis Boolean. |
-| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | Representuje přehrávaný zvuk hypertextového odkazu. Čtení/zápis [`IAudio`](../iaudio). |
-| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | Určuje, zda má být zvuk zastaven při kliknutí na hypertextový odkaz. Čtení/zápis Boolean. |
+| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | Representuje zvuk přehrávaný hypertextovým odkazem. Čtení/zápis [`IAudio`](../iaudio). |
+| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | Určuje, zda má být zvuk při kliknutí na hypertextový odkaz zastaven. Čtení/zápis Boolean. |
 | [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | Vrací rámec v nadřazeném HTML framesetu pro cíl nadřazeného hypertextového odkazu, pokud existuje. Čtení/zápis String. |
-| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | Pokud HyperlinkEx cílí na konkrétní snímek, vrátí tento snímek. Pokud se tato vlastnost nepřevádí na null, pak vlastnost ExternalUrl bude null. Pouze pro čtení [`ISlide`](../islide). |
+| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | Pokud HyperlinkEx cílí na konkrétní snímek, vrátí tento snímek. Pokud není tato vlastnost null, pak vlastnost ExternalUrl bude null. Pouze pro čtení [`ISlide`](../islide). |
 | [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | Vrací řetězec, který může být zobrazen v uživatelském rozhraní jako související s nadřazeným hypertextovým odkazem. Čtení/zápis String. |
 
 ## Metody
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [Equals](../../aspose.slides/ihyperlink/equals)(IHyperlink) | Určuje, zda jsou dvě instance Hyperlink rovny. |
 

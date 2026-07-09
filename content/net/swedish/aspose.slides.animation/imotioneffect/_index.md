@@ -1,9 +1,9 @@
 ---
 title: IMotionEffect
-second_title: Aspose.Slides för .NET API-referens
+second_title: Aspose.Sildes för .NET API-referens
 description: Representerar beteendet för en rörelseeffekt.
 type: docs
-weight: 500
+weight: 520
 url: /sv/aspose.slides.animation/imotioneffect/
 ---
 ## IMotionEffect gränssnitt
@@ -18,17 +18,17 @@ public interface IMotionEffect : IBehavior
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Angle](../../aspose.slides.animation/imotioneffect/angle) { get; set; } | Beskriver den relativa vinkeln för rörelsebanan. Läs/skriv Single. |
-| [AsIBehavior](../../aspose.slides.animation/imotioneffect/asibehavior) { get; } | Tillåter att hämta bas-IBehavior-gränssnittet. Endast läs [`IBehavior`](../ibehavior). |
+| [Angle](../../aspose.slides.animation/imotioneffect/angle) { get; set; } | Beskriver den relativa vinkeln på rörelsebanan. Läs/skriv Single. |
+| [AsIBehavior](../../aspose.slides.animation/imotioneffect/asibehavior) { get; } | Tillåter att hämta bas-IBehavior-gränssnittet. Skrivskyddad [`IBehavior`](../ibehavior). |
 | [By](../../aspose.slides.animation/imotioneffect/by) { get; set; } | Beskriver det relativa förskjutningsvärdet för animationen (i procent). Läs/skriv PointF. |
 | [From](../../aspose.slides.animation/imotioneffect/from) { get; set; } | Anger en x/y-koordinat för att starta animationen från (i procent). Läs/skriv PointF. |
-| [Origin](../../aspose.slides.animation/imotioneffect/origin) { get; set; } | Anger vad ursprunget för rörelsebanan är relativt till exempel bildens layout eller föräldern. Läs/skriv [`MotionOriginType`](../motionorigintype). |
-| [Path](../../aspose.slides.animation/imotioneffect/path) { get; set; } | Anger sökvägsprimitive följt av koordinater för animationsrörelsen. Läs/skriv [`IMotionPath`](../imotionpath). |
+| [Origin](../../aspose.slides.animation/imotioneffect/origin) { get; set; } | Anger vad ursprunget för rörelsebanan är relativt till exempel layouten på bilden eller föräldern. Läs/skriv [`MotionOriginType`](../motionorigintype). |
+| [Path](../../aspose.slides.animation/imotioneffect/path) { get; set; } | Anger sökvägsprimitivet följt av koordinater för animationsrörelsen. Läs/skriv [`IMotionPath`](../imotionpath). |
 | [PathEditMode](../../aspose.slides.animation/imotioneffect/patheditmode) { get; set; } | Anger hur rörelsebanan rör sig när formen flyttas. Läs/skriv [`MotionPathEditMode`](../motionpatheditmode). |
 | [RotationCenter](../../aspose.slides.animation/imotioneffect/rotationcenter) { get; set; } | Beskriver centrum för rotationen som används för att rotera en rörelsebana med X-vinkel. Läs/skriv PointF. |
 | [To](../../aspose.slides.animation/imotioneffect/to) { get; set; } | Anger målpositionen för en animationsrörelseeffekt (i procent). Läs/skriv PointF. |
 
-### Se även
+### Se också
 
 * gränssnitt [IBehavior](../ibehavior)
 * namnrymd [Aspose.Slides.Animation](../../aspose.slides.animation)

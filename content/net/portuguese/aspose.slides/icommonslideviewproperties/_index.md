@@ -1,14 +1,14 @@
 ---
 title: ICommonSlideViewProperties
-second_title: Aspose.Sildes para Referência da API .NET
-description: Representa propriedades comuns de visualização de slides.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Representa propriedades comuns de visualização de slide.
 type: docs
-weight: 5580
+weight: 5600
 url: /pt/aspose.slides/icommonslideviewproperties/
 ---
 ## ICommonSlideViewProperties interface
 
-Representa propriedades comuns de visualização de slides.
+Representa propriedades comuns de visualização de slide.
 
 ```csharp
 public interface ICommonSlideViewProperties
@@ -19,10 +19,10 @@ public interface ICommonSlideViewProperties
 | Nome | Descrição |
 | --- | --- |
 | [DrawingGuides](../../aspose.slides/icommonslideviewproperties/drawingguides) { get; } | Retorna a coleção dos guias de desenho. Somente leitura [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | Especifica a proporção de escala da visualização em percentuais. Leitura/gravação Int32. |
-| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | Especifica que o conteúdo da visualização deve ser dimensionado automaticamente para se ajustar ao tamanho da janela atual. Leitura/gravação Boolean. |
+| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | Especifica a taxa de escala da visualização em porcentagem. Leitura/gravação Int32. |
+| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | Especifica que o conteúdo da visualização deve ser redimensionado automaticamente para melhor se ajustar ao tamanho da janela atual. Leitura/gravação Boolean. |
 
-### Ver Também
+### Veja Também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: ISummaryZoomSectionCollection
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει μια συλλογή αντικειμένων Summary Zoom Section.
+second_title: Αναφορά API Aspose.Sildes για .NET
+description: Αναπαριστά μια συλλογή αντικειμένων Summary Zoom Section.
 type: docs
-weight: 7150
+weight: 7170
 url: /el/aspose.slides/isummaryzoomsectioncollection/
 ---
-## ISummaryZoomSectionCollection διασύνδεση
+## Διεπαφή ISummaryZoomSectionCollection
 
-Αντιπροσωπεύει μια συλλογή αντικειμένων Summary Zoom Section.
+Απεικονίζει μια συλλογή αντικειμένων Summary Zoom Section.
 
 ```csharp
 public interface ISummaryZoomSectionCollection : IGenericCollection<ISummaryZoomSection>
@@ -18,22 +18,22 @@ public interface ISummaryZoomSectionCollection : IGenericCollection<ISummaryZoom
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Item](../../aspose.slides/isummaryzoomsectioncollection/item) { get; } | Λαμβάνει το στοιχείο στο συγκεκριμένο δείκτη. Μόνο για ανάγνωση [`ISummaryZoomSection`](../isummaryzoomsection). |
+| [Item](../../aspose.slides/isummaryzoomsectioncollection/item) { get; } | Αποκτά το στοιχείο στον καθορισμένο δείκτη. Μόνο για ανάγνωση [`ISummaryZoomSection`](../isummaryzoomsection). |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [AddSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection)(ISection) | Δημιουργεί νέο αντικείμενο Summary Zoom Section και το προσθέτει στη συλλογή |
-| [Clear](../../aspose.slides/isummaryzoomsectioncollection/clear)() | Αφαιρεί όλα τα αντικείμενα SummaryZoomSection από τη συλλογή. |
-| [GetSummarySection](../../aspose.slides/isummaryzoomsectioncollection/getsummarysection)(ISection) | Επιστρέφει το στοιχείο Summary Zoom Section για την καθορισμένη ενότητα. |
-| [IndexOf](../../aspose.slides/isummaryzoomsectioncollection/indexof)(ISummaryZoomSection) | Επιστρέφει έναν δείκτη του καθορισμένου αντικειμένου SummaryZoomSection. |
+| [Clear](../../aspose.slides/isummaryzoomsectioncollection/clear)() | Αφαίρεί όλα τα αντικείμενα SummaryZoomSection από τη συλλογή. |
+| [GetSummarySection](../../aspose.slides/isummaryzoomsectioncollection/getsummarysection)(ISection) | Επιστρέφει το στοιχείο Summary Zoom Section για την δεδομένη ενότητα. |
+| [IndexOf](../../aspose.slides/isummaryzoomsectioncollection/indexof)(ISummaryZoomSection) | Επιστρέφει έναν δείκτη του συγκεκριμένου αντικειμένου SummaryZoomSection. |
 | [RemoveSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/removesummaryzoomsection)(ISection) | Αφαιρεί το αντικείμενο Summary Zoom Section από τη συλλογή. |
 
 ### Δείτε επίσης
 
-* διασύνδεση [IGenericCollection&lt;T&gt;](../igenericcollection-1)
-* διασύνδεση [ISummaryZoomSection](../isummaryzoomsection)
+* διεπαφή [IGenericCollection&lt;T&gt;](../igenericcollection-1)
+* διεπαφή [ISummaryZoomSection](../isummaryzoomsection)
 * χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
 * συγκρότημα [Aspose.Slides](../../)
 

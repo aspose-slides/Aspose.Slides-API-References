@@ -1,9 +1,9 @@
 ---
 title: ColorType
-second_title: Aspose.Sildes dla .NET odniesienie API
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
 description: Reprezentuje różne tryby kolorów.
 type: docs
-weight: 2560
+weight: 2580
 url: /pl/aspose.slides/colortype/
 ---
 ## enumeracja ColorType
@@ -19,12 +19,12 @@ public enum ColorType
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
 | NotDefined | `-1` | Kolor nie jest w ogóle zdefiniowany. |
-| RGB | `0` | Standardowy 24bitowy kolor RGB. |
-| RGBPercentage | `1` | Wysokiej jakości kolor RGB. |
-| HSL | `2` | Wysokiej jakości kolor HSL. |
+| RGB | `0` | Standardowy 24-bitowy kolor RGB. |
+| RGBPercentage | `1` | Kolor RGB wysokiej rozdzielczości. |
+| HSL | `2` | Kolor HSL wysokiej rozdzielczości. |
 | Scheme | `3` | Kolor schematu. |
 | System | `4` | Kolor systemowy. |
-| Preset | `5` | Kolor predefiniowany. |
+| Preset | `5` | Kolor wstępnie ustawiony. |
 
 ### Zobacz także
 

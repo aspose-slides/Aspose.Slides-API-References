@@ -1,12 +1,12 @@
 ---
 title: AxisPositionType
-second_title: Riferimento API di Aspose.Sildes per .NET
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Determina una posizione dell'asse.
 type: docs
-weight: 1190
+weight: 1210
 url: /it/aspose.slides.charts/axispositiontype/
 ---
-## Enumerazione AxisPositionType
+## AxisPositionType enumerazione
 
 Determina una posizione dell'asse.
 

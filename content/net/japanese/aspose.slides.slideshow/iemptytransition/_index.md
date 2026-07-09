@@ -3,12 +3,12 @@ title: IEmptyTransition
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 空のスライド遷移効果。
 type: docs
-weight: 10060
+weight: 10080
 url: /ja/aspose.slides.slideshow/iemptytransition/
 ---
 ## IEmptyTransition インターフェイス
 
-Empty slide transition effect.
+空のスライド遷移効果。
 
 ```csharp
 public interface IEmptyTransition : ITransitionValueBase
@@ -18,7 +18,7 @@ public interface IEmptyTransition : ITransitionValueBase
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iemptytransition/asitransitionvaluebase) { get; } | ベースの ITransitionValueBase インターフェイスを取得できます。読み取り専用 [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iemptytransition/asitransitionvaluebase) { get; } | ITransitionValueBase インターフェイスの基本を取得できます。読み取り専用 [`ITransitionValueBase`](../itransitionvaluebase)。 |
 
 ### 参照
 

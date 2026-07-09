@@ -1,14 +1,14 @@
 ---
 title: EffectPresetClassType
 second_title: Aspose.Sildes için .NET API Referansı
-description: Efekt sınıf türlerini temsil eder.
+description: Efekt sınıfı türlerini temsil eder.
 type: docs
-weight: 300
+weight: 320
 url: /tr/aspose.slides.animation/effectpresetclasstype/
 ---
-## EffectPresetClassType sayımı
+## EffectPresetClassType numaralandırması
 
-Efekt sınıf türlerini temsil eder.
+Efekt sınıfı türlerini temsil eder.
 
 ```csharp
 public enum EffectPresetClassType

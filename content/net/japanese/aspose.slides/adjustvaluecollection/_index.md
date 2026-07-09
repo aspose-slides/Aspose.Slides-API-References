@@ -3,12 +3,12 @@ title: AdjustValueCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: シェイプの調整のコレクションを表します。
 type: docs
-weight: 80
+weight: 100
 url: /ja/aspose.slides/adjustvaluecollection/
 ---
 ## AdjustValueCollection クラス
 
-形状の調整のコレクションを表します。
+シェイプの調整のコレクションを表します。
 
 ```csharp
 public sealed class AdjustValueCollection : DomObject<GeometryShape>, IAdjustValueCollection
@@ -18,16 +18,16 @@ public sealed class AdjustValueCollection : DomObject<GeometryShape>, IAdjustVal
 
 | 名前 | 説明 |
 | --- | --- |
-| [Count](../../aspose.slides/adjustvaluecollection/count) { get; } | 調整の数を返します。読み取り専用 Int32。 |
-| [IsSynchronized](../../aspose.slides/adjustvaluecollection/issynchronized) { get; } | コレクションへのアクセスが同期化 (スレッド セーフ) されているかどうかを示す値を返します。読み取り専用 Boolean。 |
+| [Count](../../aspose.slides/adjustvaluecollection/count) { get; } | 読み取り専用 Int32。 調整の数を返します。 |
+| [IsSynchronized](../../aspose.slides/adjustvaluecollection/issynchronized) { get; } | 読み取り専用 Boolean。 コレクションへのアクセスが同期されているかどうかを示す値を返します (スレッド セーフ)。 |
 | [Item](../../aspose.slides/adjustvaluecollection/item) { get; } | インデックスで調整を返します。 |
-| [SyncRoot](../../aspose.slides/adjustvaluecollection/syncroot) { get; } | 同期化ルートを返します。読み取り専用 Object。 |
+| [SyncRoot](../../aspose.slides/adjustvaluecollection/syncroot) { get; } | 読み取り専用 Object。 同期ルートを返します。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [CopyTo](../../aspose.slides/adjustvaluecollection/copyto)(Array, int) | コレクションのすべての要素を指定された配列にコピーします。 |
+| [CopyTo](../../aspose.slides/adjustvaluecollection/copyto)(Array, int) | コレクションからすべての要素を指定された配列にコピーします。 |
 
 ### 参照
 

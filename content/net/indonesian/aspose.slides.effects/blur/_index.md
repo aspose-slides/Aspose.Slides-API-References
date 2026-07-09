@@ -1,12 +1,12 @@
 ---
 title: Blur
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili efek Blur yang diterapkan pada seluruh bentuk termasuk isiannya. Semua saluran warna termasuk alfa terpengaruh.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili efek Blur yang diterapkan pada seluruh bentuk termasuk isinya. Semua saluran warna termasuk alfa terpengaruh.
 type: docs
-weight: 2900
+weight: 2920
 url: /id/aspose.slides.effects/blur/
 ---
-## Blur kelas
+## Kelas Blur
 
 Mewakili efek Blur yang diterapkan pada seluruh bentuk, termasuk isinya. Semua saluran warna, termasuk alfa, terpengaruh.
 
@@ -18,8 +18,8 @@ public sealed class Blur : ImageTransformOperation, IBlur
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Memungkinkan untuk mengambil antarmuka dasar IPresentationComponent. Hanya baca [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | Menentukan apakah batas objek harus diperluas akibat blur. True menunjukkan batas diperluas sementara false menunjukkan tidak. Baca/tulis Boolean. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Memungkinkan untuk mengambil antarmuka dasar IPresentationComponent. Hanya-baca [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | Menentukan apakah batas objek harus diperluas sebagai hasil dari blur. True menunjukkan batas diperluas sementara false menunjukkan tidak. Baca/tulis Boolean. |
 | [Radius](../../aspose.slides.effects/blur/radius) { get; set; } | Mengembalikan atau mengatur radius blur. Baca/tulis Double. |
 
 ## Metode
@@ -27,7 +27,7 @@ public sealed class Blur : ImageTransformOperation, IBlur
 | Nama | Deskripsi |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/blur/equals)(object) | Menentukan apakah [`Blur`](../blur) yang ditentukan sama dengan [`Blur`](../blur) saat ini. |
-| [GetEffective](../../aspose.slides.effects/blur/geteffective)() | Mendapatkan data efek Blur yang efektif dengan pewarisan diterapkan. |
+| [GetEffective](../../aspose.slides.effects/blur/geteffective)() | Mendapatkan data efek Blur yang efektif dengan pewarisan yang diterapkan. |
 | override [GetHashCode](../../aspose.slides.effects/blur/gethashcode)() | Berfungsi sebagai fungsi hash untuk tipe tertentu. |
 
 ### Lihat Juga

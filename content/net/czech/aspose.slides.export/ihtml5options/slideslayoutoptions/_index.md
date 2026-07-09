@@ -1,9 +1,9 @@
 ---
 title: SlidesLayoutOptions
-second_title: Aspose.Sildes pro .NET – referenční příručka API
+second_title: Aspose.Sildes pro .NET API Reference
 description: Získá nebo nastaví režim, ve kterém jsou snímky umístěny na stránce při exportu prezentace ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions.
 type: docs
-weight: 70
+weight: 80
 url: /cs/aspose.slides.export/ihtml5options/slideslayoutoptions/
 ---
 ## IHtml5Options.SlidesLayoutOptions vlastnost

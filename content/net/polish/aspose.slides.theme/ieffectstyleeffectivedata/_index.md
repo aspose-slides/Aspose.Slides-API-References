@@ -1,14 +1,14 @@
 ---
 title: IEffectStyleEffectiveData
-second_title: Aspose.Sildes dla .NET – referencja API
-description: Niezmienny obiekt zawierający efektywne właściwości stylu efektu.
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Niezmienny obiekt, który zawiera właściwości efektywnego stylu efektu.
 type: docs
-weight: 11180
+weight: 11200
 url: /pl/aspose.slides.theme/ieffectstyleeffectivedata/
 ---
-## interfejs IEffectStyleEffectiveData
+## IEffectStyleEffectiveData interfejs
 
-Obiekt niezmienny, który zawiera efektywne właściwości stylu efektu.
+Niezmienny obiekt, który zawiera właściwości efektywnego stylu efektu.
 
 ```csharp
 public interface IEffectStyleEffectiveData

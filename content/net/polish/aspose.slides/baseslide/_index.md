@@ -3,10 +3,10 @@ title: BaseSlide
 second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje wspólne dane dla wszystkich typów slajdów.
 type: docs
-weight: 970
+weight: 990
 url: /pl/aspose.slides/baseslide/
 ---
-## Klasa BaseSlide
+## klasa BaseSlide
 
 Reprezentuje wspólne dane dla wszystkich typów slajdów.
 
@@ -21,24 +21,24 @@ public abstract class BaseSlide : IBaseSlide
 | [Background](../../aspose.slides/baseslide/background) { get; } | Zwraca tło slajdu. Tylko do odczytu [`IBackground`](../ibackground). |
 | [Controls](../../aspose.slides/baseslide/controls) { get; } | Zwraca kolekcję kontrolek ActiveX na slajdzie. Tylko do odczytu [`IControlCollection`](../icontrolcollection). |
 | [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Zwraca niestandardowe dane slajdu. Tylko do odczytu [`ICustomData`](../icustomdata). |
-| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Zapewnia łatwy dostęp do zawartych odnośników hipertekstowych. Tylko do odczytu [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Zapewnia łatwy dostęp do zawartych hiperłączy. Tylko do odczytu [`IHyperlinkQueries`](../ihyperlinkqueries). |
 | virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Zwraca lub ustawia nazwę slajdu. Odczyt/zapis String. |
 | [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Zwraca interfejs IPresentation. Tylko do odczytu [`IPresentation`](../ipresentation). |
 | [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Zwraca kształty slajdu. Tylko do odczytu [`IShapeCollection`](../ishapecollection). |
-| abstract [ShowMasterShapes](../../aspose.slides/baseslide/showmastershapes) { get; set; } | Określa, czy kształty na głównym slajdzie powinny być wyświetlane na slajdach. Dla samego głównego slajdu ta własność zawsze zwraca `false`. Odczyt/zapis Boolean. |
+| abstract [ShowMasterShapes](../../aspose.slides/baseslide/showmastershapes) { get; set; } | Określa, czy kształty na slajdzie master mają być wyświetlane na slajdach. Dla samego slajdu master ta właściwość zawsze zwraca `false`. Odczyt/zapis Boolean. |
 | [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Zwraca identyfikator slajdu. Tylko do odczytu UInt32. |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Zwraca obiekt Transition, który zawiera informacje o tym, w jaki sposób określony slajd przechodzi podczas pokazu slajdów. Tylko do odczytu [`ISlideShowTransition`](../islideshowtransition). |
-| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Zwraca obiekt osi czasu animacji. Tylko do odczytu [`IAnimationTimeLine`](../ianimationtimeline). |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Zwraca obiekt Transition zawierający informacje o sposobie przechodzenia określonego slajdu podczas pokazu slajdów. Tylko do odczytu [`ISlideShowTransition`](../islideshowtransition). |
+| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Zwraca obiekt linii czasu animacji. Tylko do odczytu [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
 | [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | Zwraca efektywny motyw dla tego slajdu. |
-| [Equals](../../aspose.slides/baseslide/equals#equals)(IBaseSlide) | Określa, czy dwie instancje IBaseSlide są równe. Zwracana wartość jest obliczana na podstawie struktury slajdu i statycznej zawartości. Dwa slajdy są równe, jeśli wszystkie kształty, style, teksty, animacje i inne ustawienia itp. są identyczne. Porównanie nie uwzględnia unikalnych wartości identyfikatorów, np. SlideId oraz zawartości dynamicznej, np. bieżącej wartości daty w Symbolu zastępczym daty. |
+| [Equals](../../aspose.slides/baseslide/equals#equals)(IBaseSlide) | Określa, czy dwie instancje IBaseSlide są równe. Wartość zwracana jest obliczana na podstawie struktury slajdu i statycznej zawartości. Dwa slajdy są równe, jeśli wszystkie kształty, style, teksty, animacje i inne ustawienia itp. są równe. Porównanie nie uwzględnia unikalnych identyfikatorów, np. SlideId oraz dynamicznej zawartości, np. aktualnej wartości daty w Date Placeholder. |
 | [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Znajduje pierwsze wystąpienie kształtu o określonym alternatywnym tekście. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting#joinportionswithsameformatting)() | Łączy ciągi o tym samym formatowaniu we wszystkich akapitach wszystkich dopuszczalnych kształtów. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting#joinportionswithsameformatting_1)(IShapeCollection) | Łączy ciągi o tym samym formatowaniu we wszystkich akapitach we wszystkich dopuszczalnych kształtach. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting#joinportionswithsameformatting)() | Łączy ciągi o tym samym formatowaniu we wszystkich akapitach we wszystkich akceptowalnych kształtach. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting#joinportionswithsameformatting_1)(IShapeCollection) | Łączy ciągi o tym samym formatowaniu we wszystkich akapitach we wszystkich akceptowalnych kształtach. |
 
 ### Zobacz także
 

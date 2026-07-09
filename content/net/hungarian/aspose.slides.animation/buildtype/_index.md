@@ -1,14 +1,14 @@
 ---
 title: BuildType
-second_title: Aspose.Sildes a .NET API hivatkozás
-description: Meghatározza, hogy a szöveg hogyan jelenik meg egy alakzaton az animáció során.
+second_title: Aspose.Sildes .NET-hez API referencia
+description: Meghatározza, hogyan jelenik meg a szöveg egy alakzaton az animáció során.
 type: docs
-weight: 190
+weight: 210
 url: /hu/aspose.slides.animation/buildtype/
 ---
 ## BuildType enumeráció
 
-Meghatározza, hogy a szöveg hogyan jelenik meg egy alakzaton az animáció során.
+Meghatározza, hogyan jelenik meg a szöveg egy alakzaton az animáció során.
 
 ```csharp
 public enum BuildType
@@ -18,13 +18,13 @@ public enum BuildType
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| AsOneObject | `0` | A tartalmazó alakzattal. |
+| AsOneObject | `0` | Az körülvevő alakzattal együtt. |
 | AllParagraphsAtOnce | `1` | Minden bekezdés. |
-| ByLevelParagraphs1 | `2` | A 1. mélységű bekezdések csoportjai szerint. |
-| ByLevelParagraphs2 | `3` | A 2. mélységű bekezdések csoportjai szerint. |
-| ByLevelParagraphs3 | `4` | A 3. mélységű bekezdések csoportjai szerint. |
-| ByLevelParagraphs4 | `5` | A 4. mélységű bekezdések csoportjai szerint. |
-| ByLevelParagraphs5 | `6` | A 5. mélységű bekezdések csoportjai szerint. |
+| ByLevelParagraphs1 | `2` | 1 mélységű bekezdéscsoportok szerint. |
+| ByLevelParagraphs2 | `3` | 2 mélységű bekezdéscsoportok szerint. |
+| ByLevelParagraphs3 | `4` | 3 mélységű bekezdéscsoportok szerint. |
+| ByLevelParagraphs4 | `5` | 4 mélységű bekezdéscsoportok szerint. |
+| ByLevelParagraphs5 | `6` | 5 mélységű bekezdéscsoportok szerint. |
 
 ### Lásd még
 

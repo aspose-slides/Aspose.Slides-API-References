@@ -1,9 +1,9 @@
 ---
 title: IGlow
-second_title: Aspose.Sildes para .NET Referência de API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa um efeito de brilho no qual um contorno borrado de cor é adicionado fora das bordas do objeto.
 type: docs
-weight: 3300
+weight: 3320
 url: /pt/aspose.slides.effects/iglow/
 ---
 ## IGlow interface
@@ -23,7 +23,7 @@ public interface IGlow : IAccessiblePVIObject<IGlowEffectiveData>, IImageTransfo
 | [Color](../../aspose.slides.effects/iglow/color) { get; } | Formato de cor. Somente leitura [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Radius](../../aspose.slides.effects/iglow/radius) { get; set; } | Raio. Leitura/gravação Double. |
 
-### Veja também
+### Veja Também
 
 * interface [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * interface [IGlowEffectiveData](../igloweffectivedata)

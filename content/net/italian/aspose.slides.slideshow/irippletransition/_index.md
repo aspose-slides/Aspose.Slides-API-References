@@ -1,14 +1,14 @@
 ---
 title: IRippleTransition
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Effetto di transizione diapositiva a increspatura.
+description: Effetto di transizione a increspatura della diapositiva.
 type: docs
-weight: 10150
+weight: 10170
 url: /it/aspose.slides.slideshow/irippletransition/
 ---
 ## IRippleTransition interfaccia
 
-Effetto di transizione diapositiva a increspatura.
+Effetto di transizione a increspatura della diapositiva.
 
 ```csharp
 public interface IRippleTransition : ITransitionValueBase
@@ -18,7 +18,7 @@ public interface IRippleTransition : ITransitionValueBase
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/irippletransition/asitransitionvaluebase) { get; } | Consente di ottenere l'interfaccia ITransitionValueBase di base. Sola lettura [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/irippletransition/asitransitionvaluebase) { get; } | Consente di ottenere l'interfaccia base ITransitionValueBase. Solo lettura [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/irippletransition/direction) { get; set; } | Direzione della transizione. Lettura/scrittura [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
 
 ### Vedi anche

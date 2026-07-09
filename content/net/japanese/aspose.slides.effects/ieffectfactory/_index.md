@@ -3,12 +3,12 @@ title: IEffectFactory
 second_title: Aspose.Sildes for .NET API リファレンス
 description: エフェクトのインスタンスを作成できます
 type: docs
-weight: 3270
+weight: 3290
 url: /ja/aspose.slides.effects/ieffectfactory/
 ---
 ## IEffectFactory インターフェイス
 
-エフェクトのインスタンスを作成することができます
+エフェクトのインスタンスを作成できます
 
 ```csharp
 public interface IEffectFactory
@@ -18,14 +18,14 @@ public interface IEffectFactory
 
 | 名前 | 説明 |
 | --- | --- |
-| [ImageTransformOperationFactory](../../aspose.slides.effects/ieffectfactory/imagetransformoperationfactory) { get; } | ImageTransformOperationFactory を返します。 読み取り専用 [`IImageTransformOperationFactory`](../iimagetransformoperationfactory)。 |
+| [ImageTransformOperationFactory](../../aspose.slides.effects/ieffectfactory/imagetransformoperationfactory) { get; } | ImageTransformOperationFactory を返します。読み取り専用 [`IImageTransformOperationFactory`](../iimagetransformoperationfactory)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
 | [CreateGlow](../../aspose.slides.effects/ieffectfactory/createglow)() | Glow エフェクトを作成します。 |
-| [CreateInnerShadow](../../aspose.slides.effects/ieffectfactory/createinnershadow)() | Inner shafow エフェクトを作成します。 |
+| [CreateInnerShadow](../../aspose.slides.effects/ieffectfactory/createinnershadow)() | Inner shadow エフェクトを作成します。 |
 | [CreateOuterShadow](../../aspose.slides.effects/ieffectfactory/createoutershadow)() | Outer shadow エフェクトを作成します。 |
 | [CreatePresetShadow](../../aspose.slides.effects/ieffectfactory/createpresetshadow)() | Preset shadow エフェクトを作成します。 |
 | [CreateReflection](../../aspose.slides.effects/ieffectfactory/createreflection)() | Reflection エフェクトを作成します。 |
@@ -35,7 +35,7 @@ public interface IEffectFactory
 
 COM 互換性のためです。
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides.Effects](../../aspose.slides.effects)
 * アセンブリ [Aspose.Slides](../../)

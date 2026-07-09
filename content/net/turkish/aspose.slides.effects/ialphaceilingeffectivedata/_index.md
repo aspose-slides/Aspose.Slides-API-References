@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeilingEffectiveData
-second_title: Aspose.Sildes için .NET API Referansı
-description: Değiştirilemez bir nesne, Alpha Ceiling etkisini temsil eder. Sıfırdan büyük Alpha opaklık değerleri %100'e değiştirilir. Başka bir deyişle, kısmen opak olan her şey tamamen opak hâle gelir.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Değiştirilemez nesne, bir Alpha Tavan etkisini temsil eder. Sıfırdan büyük alfa opaklık değerleri %100'e değiştirilir. Başka bir deyişle, kısmen opak olan her şey tamamen opak hâle gelir.
 type: docs
-weight: 3030
+weight: 3050
 url: /tr/aspose.slides.effects/ialphaceilingeffectivedata/
 ---
-## IAlphaCeilingEffectiveData arayüz
+## IAlphaCeilingEffectiveData arayüzü
 
-Alpha Ceiling etkisini temsil eden değiştirilemez bir nesnedir. Sıfırdan büyük Alpha (opaklık) değerleri %100'e değiştirilir. Başka bir deyişle, kısmen opak olan her şey tamamen opak hale gelir.
+Alfa Tavan etkisini temsil eden değiştirilemez nesne. Sıfırdan büyük olan alfa (opaklık) değerleri %100'e değiştirilir. Başka bir deyişle, kısmen opak olan her şey tamamen opak hâle gelir.
 
 ```csharp
 public interface IAlphaCeilingEffectiveData : IEffectEffectiveData

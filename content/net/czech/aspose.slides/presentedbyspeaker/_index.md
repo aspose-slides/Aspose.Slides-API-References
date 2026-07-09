@@ -1,9 +1,9 @@
 ---
 title: PresentedBySpeaker
-second_title: Aspose.Sildes pro .NET – referenční příručka API
+second_title: Aspose.Sildes pro .NET API Reference
 description: Prezentováno řečníkem na celou obrazovku
 type: docs
-weight: 9630
+weight: 9650
 url: /cs/aspose.slides/presentedbyspeaker/
 ---
 ## PresentedBySpeaker třída

@@ -1,14 +1,14 @@
 ---
 title: IBiLevel
-second_title: Aspose.Sildes .NET API Referenciája
-description: Az alap IImageTransformOperation interfészt képviseli.
+second_title: Aspose.Sildes .NET API referencia
+description: Az alap IImageTransformOperation interfészt reprezentálja.
 type: docs
-weight: 3140
+weight: 3160
 url: /hu/aspose.slides.effects/ibilevel/
 ---
 ## IBiLevel interfész
 
-Az alap IImageTransformOperation interfészt képviseli.
+Az alap IImageTransformOperation interfészt reprezentálja.
 
 ```csharp
 public interface IBiLevel : IAccessiblePVIObject<IBiLevelEffectiveData>, IImageTransformOperation
@@ -18,8 +18,8 @@ public interface IBiLevel : IAccessiblePVIObject<IBiLevelEffectiveData>, IImageT
 
 | Név | Leírás |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ibilevel/asiaccessiblepviobject) { get; } | Lehetővé teszi az alap IAccessiblePVIObject interfész lekérdezését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ibilevel/asiimagetransformoperation) { get; } | Lehetővé teszi az alap IImageTransformOperation interfész lekérdezését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ibilevel/asiaccessiblepviobject) { get; } | Lehetővé teszi az alap IAccessiblePVIObject interfész lekérését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ibilevel/asiimagetransformoperation) { get; } | Lehetővé teszi az alap IImageTransformOperation interfész lekérését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Lásd még
 

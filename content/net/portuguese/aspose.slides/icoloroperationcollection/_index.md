@@ -1,9 +1,9 @@
 ---
 title: IColorOperationCollection
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa uma coleção de operações de transformação de cor.
 type: docs
-weight: 5490
+weight: 5510
 url: /pt/aspose.slides/icoloroperationcollection/
 ---
 ## IColorOperationCollection interface
@@ -17,13 +17,13 @@ public interface IColorOperationCollection : IGenericCloneable<IColorOperationCo
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [Item](../../aspose.slides/icoloroperationcollection/item) { get; set; } | Retorna ou define a operação no índice especificado. Leitura/gravação [`IColorOperation`](../icoloroperation). |
 
 ## Métodos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/icoloroperationcollection/add#add)(ColorTransformOperation) | Adiciona uma nova operação ao final da coleção. |
 | [Add](../../aspose.slides/icoloroperationcollection/add#add_1)(ColorTransformOperation, float) | Adiciona uma nova operação ao final da coleção. |
@@ -32,7 +32,7 @@ public interface IColorOperationCollection : IGenericCloneable<IColorOperationCo
 | [Insert](../../aspose.slides/icoloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | Insere a nova operação em uma coleção. |
 | [RemoveAt](../../aspose.slides/icoloroperationcollection/removeat)(int) | Remove a operação de cor de uma coleção. |
 
-### Ver também
+### Ver Também
 
 * interface [IGenericCloneable&lt;T&gt;](../igenericcloneable-1)
 * interface [IGenericCollection&lt;T&gt;](../igenericcollection-1)

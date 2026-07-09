@@ -1,9 +1,9 @@
 ---
 title: FontScheme
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Aspose.Sildes para Referência de API .NET
 description: Armazena fontes definidas pelo tema.
 type: docs
-weight: 11110
+weight: 11130
 url: /pt/aspose.slides.theme/fontscheme/
 ---
 ## FontScheme classe
@@ -18,11 +18,11 @@ public class FontScheme : IFontScheme
 
 | Nome | Descrição |
 | --- | --- |
-| [Major](../../aspose.slides.theme/fontscheme/major) { get; } | Retorna a coleção de fontes para a parte "cabeçalho" do slide. Somente leitura [`IFonts`](../../aspose.slides/ifonts). |
-| [Minor](../../aspose.slides.theme/fontscheme/minor) { get; } | Retorna a coleção de fontes para a parte "corpo" do slide. Somente leitura [`IFonts`](../../aspose.slides/ifonts). |
+| [Major](../../aspose.slides.theme/fontscheme/major) { get; } | Retorna a coleção de fontes para a parte "heading" do slide. Somente leitura [`IFonts`](../../aspose.slides/ifonts). |
+| [Minor](../../aspose.slides.theme/fontscheme/minor) { get; } | Retorna a coleção de fontes para a parte "body" do slide. Somente leitura [`IFonts`](../../aspose.slides/ifonts). |
 | [Name](../../aspose.slides.theme/fontscheme/name) { get; set; } | Retorna o nome do esquema de fontes. Leitura/gravação String. |
 
-### Ver Também
+### Veja também
 
 * interface [IFontScheme](../ifontscheme)
 * namespace [Aspose.Slides.Theme](../../aspose.slides.theme)

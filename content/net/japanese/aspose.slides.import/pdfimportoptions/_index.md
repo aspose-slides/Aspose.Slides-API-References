@@ -1,14 +1,14 @@
 ---
 title: PdfImportOptions
 second_title: Aspose.Sildes for .NET API リファレンス
-description: PDF のインポート オプションを表します
+description: PDF のインポートオプションを表します
 type: docs
-weight: 7480
+weight: 7500
 url: /ja/aspose.slides.import/pdfimportoptions/
 ---
 ## PdfImportOptions クラス
 
-PDF のインポートオプションを表します
+PDF のインポート オプションを表します
 
 ```csharp
 public class PdfImportOptions
@@ -18,15 +18,15 @@ public class PdfImportOptions
 
 | 名前 | 説明 |
 | --- | --- |
-| [PdfImportOptions](pdfimportoptions)() | デフォルトコンストラクターです。 |
+| [PdfImportOptions](pdfimportoptions)() | デフォルト コンストラクターです。 |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [DetectTables](../../aspose.slides.import/pdfimportoptions/detecttables) { get; set; } | PDF ファイルをインポートする際にテーブルを検出するかどうかを決定します。 |
+| [DetectTables](../../aspose.slides.import/pdfimportoptions/detecttables) { get; set; } | PDF ファイルをインポートするときにテーブルを検出するかどうかを決定します。 |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides.Import](../../aspose.slides.import)
 * アセンブリ [Aspose.Slides](../../)

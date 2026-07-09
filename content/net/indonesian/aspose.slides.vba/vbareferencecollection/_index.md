@@ -1,14 +1,14 @@
 ---
 title: VbaReferenceCollection
-second_title: Referensi API Aspose.Slides untuk .NET
-description: Mewakili kumpulan referensi Proyek VBA.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili koleksi referensi Proyek VBA.
 type: docs
-weight: 11650
+weight: 11670
 url: /id/aspose.slides.vba/vbareferencecollection/
 ---
 ## VbaReferenceCollection kelas
 
-Mewakili kumpulan referensi Proyek VBA.
+Mewakili koleksi referensi Proyek VBA.
 
 ```csharp
 public class VbaReferenceCollection : IVbaReferenceCollection
@@ -18,10 +18,10 @@ public class VbaReferenceCollection : IVbaReferenceCollection
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Count](../../aspose.slides.vba/vbareferencecollection/count) { get; } | Mendapatkan jumlah elemen yang sebenarnya terdapat dalam koleksi. Hanya-baca Int32. |
-| [IsSynchronized](../../aspose.slides.vba/vbareferencecollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (thread-safe). Hanya-baca Boolean. |
+| [Count](../../aspose.slides.vba/vbareferencecollection/count) { get; } | Mendapatkan jumlah elemen yang sebenarnya terkandung dalam koleksi. Baca-saja Int32. |
+| [IsSynchronized](../../aspose.slides.vba/vbareferencecollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (aman untuk thread). Baca-saja Boolean. |
 | [Item](../../aspose.slides.vba/vbareferencecollection/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. |
-| [SyncRoot](../../aspose.slides.vba/vbareferencecollection/syncroot) { get; } | Mengembalikan akar sinkronisasi. Hanya-baca Object. |
+| [SyncRoot](../../aspose.slides.vba/vbareferencecollection/syncroot) { get; } | Mengembalikan akar sinkronisasi. Baca-saja Object. |
 
 ## Metode
 

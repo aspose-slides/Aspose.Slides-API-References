@@ -1,14 +1,14 @@
 ---
 title: ILayoutSlideHeaderFooterManager
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje správce, který obsahuje chování zástupců zápatí snímku rozložení, data a času, čísla stránky a všech podřízených zástupců. Podřízené zástupce znamenají, že zástupci jsou obsaženi na závislých snímcích. Závislé snímky používají a závisí na snímku rozložení.
+description: Představuje správce, který obsahuje chování zástupných symbolů zápatí snímku, data a času, čísel stránek a všech podřízených zástupných symbolů. Podřízené zástupné symboly znamenají, že jsou obsaženy na závislých snímcích. Závislé snímky používají a závisejí na rozvržení snímku.
 type: docs
-weight: 6220
+weight: 6240
 url: /cs/aspose.slides/ilayoutslideheaderfootermanager/
 ---
 ## ILayoutSlideHeaderFooterManager rozhraní
 
-Reprezentuje správce, který obsahuje chování zápatí snímku rozložení, zástupců data a času, čísla stránky a všech podřízených zástupců. Podřízené zástupce znamenají, že zástupci jsou obsaženi na závislých snímcích. Závislé snímky používají a závisí na snímku rozložení.
+Představuje správce, který obsahuje chování zástupných symbolů zápatí rozvržení snímku, data a času, čísel stránek a všech podřízených zástupných symbolů. Podřízené zástupné symboly znamenají, že jsou obsaženy na závislých snímcích. Závislé snímky používají a závisejí na rozvržení snímku.
 
 ```csharp
 public interface ILayoutSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -24,16 +24,16 @@ public interface ILayoutSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | Název | Popis |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Nastaví text do zástupce data a času snímku rozložení a do všech podřízených zástupců data a času. Podřízené zástupce znamenají, že zástupci jsou obsaženi na závislých snímcích. Závislé snímky používají a závisí na snímku rozložení. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Změní viditelnost zástupce data a času snímku rozložení a všech podřízených zástupců data a času. |
-| [SetFooterAndChildFootersText](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | Nastaví text do zástupce zápatí snímku rozložení a do všech podřízených zástupců zápatí. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Změní viditelnost zástupce zápatí snímku rozložení a všech podřízených zástupců zápatí. Podřízené zástupce znamenají, že zástupci jsou obsaženi na závislých snímcích. Závislé snímky používají a závisí na hlavním snímku. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Změní viditelnost zástupce čísla stránky snímku rozložení a všech podřízených zástupců čísla stránky. Podřízené zástupce znamenají, že zástupci jsou obsaženi na závislých snímcích. Závislé snímky používají a závisí na snímku rozložení. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Nastavuje text do zástupného symbolu data a času rozvržení snímku a všech podřízených zástupných symbolů data a času. Podřízené zástupné symboly znamenají, že jsou obsaženy na závislých snímcích. Závislé snímky používají a závisejí na rozvržení snímku. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Mění viditelnost zástupného symbolu data a času rozvržení snímku a všech podřízených zástupných symbolů data a času. |
+| [SetFooterAndChildFootersText](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | Nastavuje text do zástupného symbolu zápatí rozvržení snímku a všech podřízených zástupných symbolů zápatí. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Mění viditelnost zástupného symbolu zápatí rozvržení snímku a všech podřízených zástupných symbolů zápatí. Podřízené zástupné symboly znamenají, že jsou obsaženy na závislých snímcích. Závislé snímky používají a závisejí na hlavním snímku. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Mění viditelnost zástupného symbolu čísla stránky rozvržení snímku a všech podřízených zástupných symbolů čísla stránky. Podřízené zástupné symboly znamenají, že jsou obsaženy na závislých snímcích. Závislé snímky používají a závisejí na rozvržení snímku. |
 
 ### Viz také
 
 * rozhraní [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
 * jmenný prostor [Aspose.Slides](../../aspose.slides)
-* sestavení [Aspose.Slides](../../)
+* sestava [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

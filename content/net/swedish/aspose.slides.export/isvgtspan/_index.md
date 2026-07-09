@@ -3,12 +3,12 @@ title: ISvgTSpan
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar alternativ för SVG-textdel tspan.
 type: docs
-weight: 4120
+weight: 4140
 url: /sv/aspose.slides.export/isvgtspan/
 ---
 ## ISvgTSpan gränssnitt
 
-Representerar alternativ för SVG-textdel ("tspan").
+Representerar alternativ för SVG textdel ("tspan").
 
 ```csharp
 public interface ISvgTSpan
@@ -16,7 +16,7 @@ public interface ISvgTSpan
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Beskrivning |
 | --- | --- |
 | [Id](../../aspose.slides.export/isvgtspan/id) { get; set; } | Hämtar eller anger id för "tspan"-elementet |
 

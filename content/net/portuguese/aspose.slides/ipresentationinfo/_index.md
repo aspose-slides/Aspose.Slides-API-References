@@ -1,9 +1,9 @@
 ---
 title: IPresentationInfo
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência API Aspose.Sildes para .NET
 description: Informações sobre o arquivo de apresentação
 type: docs
-weight: 6770
+weight: 6790
 url: /pt/aspose.slides/ipresentationinfo/
 ---
 ## IPresentationInfo interface
@@ -19,7 +19,7 @@ public interface IPresentationInfo
 | Nome | Descrição |
 | --- | --- |
 | [IsEncrypted](../../aspose.slides/ipresentationinfo/isencrypted) { get; } | Obtém True se a apresentação vinculada estiver criptografada, caso contrário False. Somente leitura Boolean. |
-| [IsPasswordProtected](../../aspose.slides/ipresentationinfo/ispasswordprotected) { get; } | Obtém um valor que indica se a apresentação vinculada está protegida por uma senha para abrir. |
+| [IsPasswordProtected](../../aspose.slides/ipresentationinfo/ispasswordprotected) { get; } | Obtém um valor que indica se a apresentação vinculada está protegida por senha para abrir. |
 | [IsWriteProtected](../../aspose.slides/ipresentationinfo/iswriteprotected) { get; } | Obtém um valor que indica se a apresentação vinculada está protegida contra gravação. |
 | [LoadFormat](../../aspose.slides/ipresentationinfo/loadformat) { get; } | Obtém o formato da apresentação vinculada. Somente leitura [`LoadFormat`](../loadformat). |
 

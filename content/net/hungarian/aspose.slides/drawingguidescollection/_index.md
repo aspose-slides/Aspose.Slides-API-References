@@ -1,14 +1,14 @@
 ---
 title: DrawingGuidesCollection
-second_title: Aspose.Sildes a .NET API-referencia
-description: A beállítható rajzolási segédvonalak gyűjteményét reprezentálja.
+second_title: Aspose.Sildes .NET API referencia
+description: A beállítható rajzolási segédvonalak gyűjteményét ábrázolja.
 type: docs
-weight: 2800
+weight: 2820
 url: /hu/aspose.slides/drawingguidescollection/
 ---
 ## DrawingGuidesCollection osztály
 
-A beállítható rajzoló segédvonalak gyűjteményét reprezentálja.
+Represents a collection of the adjustable drawing guides.
 
 ```csharp
 public sealed class DrawingGuidesCollection : IDrawingGuidesCollection
@@ -18,18 +18,18 @@ public sealed class DrawingGuidesCollection : IDrawingGuidesCollection
 
 | Név | Leírás |
 | --- | --- |
-| [Count](../../aspose.slides/drawingguidescollection/count) { get; } | Visszaadja a gyűjtemény elemeinek számát. Csak olvasható Int32. |
-| [Item](../../aspose.slides/drawingguidescollection/item) { get; } | Visszaadja a rajzolási segédvonalat index alapján. Csak olvasható [`IDrawingGuide`](../idrawingguide). |
+| [Count](../../aspose.slides/drawingguidescollection/count) { get; } | Visszaadja az elemek számát a gyűjteményben. Csak olvasható Int32. |
+| [Item](../../aspose.slides/drawingguidescollection/item) { get; } | Visszaadja a rajzos útmutatót index alapján. Csak olvasható [`IDrawingGuide`](../idrawingguide). |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [Add](../../aspose.slides/drawingguidescollection/add)(Orientation, float) | Hozzáadja a rajzolási segédvonalat a gyűjtemény végéhez. |
+| [Add](../../aspose.slides/drawingguidescollection/add)(Orientation, float) | Hozzáadja a rajzos útmutatót a gyűjtemény végéhez. |
 | [Clear](../../aspose.slides/drawingguidescollection/clear)() | Eltávolítja a gyűjtemény összes elemét. |
 | [CopyTo](../../aspose.slides/drawingguidescollection/copyto)(IDrawingGuide[], int) | Átmásolja a gyűjtemény összes elemét a megadott tömbbe. |
 | [GetEnumerator](../../aspose.slides/drawingguidescollection/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |
-| [RemoveAt](../../aspose.slides/drawingguidescollection/removeat)(int) | Eltávolítja a megadott indexű rajzolási segédvonalat. |
+| [RemoveAt](../../aspose.slides/drawingguidescollection/removeat)(int) | Eltávolítja a rajzos útmutatót a megadott indexnél. |
 
 ### Lásd még
 

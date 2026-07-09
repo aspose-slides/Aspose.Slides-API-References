@@ -1,14 +1,14 @@
 ---
 title: SaveFormat
-second_title: Aspose.Sildes pro .NET API Referenci
+second_title: Aspose.Sildes pro .NET – reference API
 description: Konstanty, které definují formát uložené prezentace.
 type: docs
-weight: 4420
+weight: 4440
 url: /cs/aspose.slides.export/saveformat/
 ---
-## SaveFormat výčet
+## Výčet SaveFormat
 
-Konstanty, které definují formát uložené prezentace.
+Konstanty definující formát uložené prezentace.
 
 ```csharp
 public enum SaveFormat
@@ -18,27 +18,27 @@ public enum SaveFormat
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| Ppt | `0` | Uložit prezentaci ve formátu PPT. |
-| Pdf | `1` | Uložit prezentaci ve formátu PDF. |
-| Xps | `2` | Uložit prezentaci ve formátu XPS. |
-| Pptx | `3` | Uložit prezentaci ve formátu PPTX. |
-| Ppsx | `4` | Uložit prezentaci ve formátu PPSX (prezentace). |
-| Tiff | `5` | Uložit prezentaci jako vícestránkový obrázek TIFF. |
-| Odp | `6` | Uložit prezentaci ve formátu ODP. |
-| Pptm | `7` | Uložit prezentaci ve formátu PPTM (prezentace s makry). |
-| Ppsm | `9` | Uložit prezentaci ve formátu PPSM (prezentace s makry). |
-| Potx | `10` | Uložit prezentaci ve formátu POTX (šablona). |
-| Potm | `11` | Uložit prezentaci ve formátu POTM (šablona s makry). |
-| Html | `13` | Uložit prezentaci ve formátu HTML. |
-| Swf | `15` | Uložit prezentaci ve formátu SWF. |
-| Otp | `17` | Uložit prezentaci ve formátu OTP (šablona prezentace). |
-| Pps | `19` | Uložit prezentaci ve formátu PPS. |
-| Pot | `20` | Uložit prezentaci ve formátu POT. |
-| Fodp | `21` | Uložit prezentaci ve formátu FODP. |
-| Gif | `22` | Uložit prezentaci ve formátu GIF. |
-| Html5 | `23` | Uložit prezentaci ve formátu HTML pomocí nového šablonovacího systému HTML5. |
-| Md | `24` | Uložit prezentaci ve formátu Markdown |
-| Xml | `25` | Uložit prezentaci ve formátu PowerPoint XML Presentation. |
+| Ppt | `0` | Uloží prezentaci ve formátu PPT. |
+| Pdf | `1` | Uloží prezentaci ve formátu PDF. |
+| Xps | `2` | Uloží prezentaci ve formátu XPS. |
+| Pptx | `3` | Uloží prezentaci ve formátu PPTX. |
+| Ppsx | `4` | Uloží prezentaci ve formátu PPSX (prezentace). |
+| Tiff | `5` | Uloží prezentaci jako vícestránkový obrázek TIFF. |
+| Odp | `6` | Uloží prezentaci ve formátu ODP. |
+| Pptm | `7` | Uloží prezentaci ve formátu PPTM (prezentace s makry). |
+| Ppsm | `9` | Uloží prezentaci ve formátu PPSM (prezentace s makry). |
+| Potx | `10` | Uloží prezentaci ve formátu POTX (šablona). |
+| Potm | `11` | Uloží prezentaci ve formátu POTM (šablona s makry). |
+| Html | `13` | Uloží prezentaci ve formátu HTML. |
+| Swf | `15` | Uloží prezentaci ve formátu SWF. |
+| Otp | `17` | Uloží prezentaci ve formátu OTP (šablona prezentace). |
+| Pps | `19` | Uloží prezentaci ve formátu PPS. |
+| Pot | `20` | Uloží prezentaci ve formátu POT. |
+| Fodp | `21` | Uloží prezentaci ve formátu FODP. |
+| Gif | `22` | Uloží prezentaci ve formátu GIF. |
+| Html5 | `23` | Uloží prezentaci ve formátu HTML pomocí nového systému šablon HTML5. |
+| Md | `24` | Uloží prezentaci ve formátu Markdown. |
+| Xml | `25` | Uloží prezentaci ve formátu PowerPoint XML Presentation. |
 
 ### Viz také
 

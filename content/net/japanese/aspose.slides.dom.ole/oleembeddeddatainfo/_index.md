@@ -3,7 +3,7 @@ title: OleEmbeddedDataInfo
 second_title: Aspose.Sildes for .NET API リファレンス
 description: OLE オブジェクトの埋め込みデータ情報を表します。
 type: docs
-weight: 2740
+weight: 2760
 url: /ja/aspose.slides.dom.ole/oleembeddeddatainfo/
 ---
 ## OleEmbeddedDataInfo クラス
@@ -19,14 +19,14 @@ public class OleEmbeddedDataInfo : IOleEmbeddedDataInfo
 | 名前 | 説明 |
 | --- | --- |
 | [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor)() | OLE オブジェクトの新しい埋め込みデータ情報を作成します。 |
-| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor_1)(byte[], string) | OLE オブジェクトの埋め込みデータ情報の新しいインスタンスを作成します。 埋め込み OLE オブジェクトのファイル データ Byte[]。 現在の埋め込み OLE オブジェクトのファイル拡張子 String。 |
+| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor_1)(byte[], string) | OLE オブジェクトの埋め込みデータ情報の新しいインスタンスを作成します。 埋め込まれた OLE オブジェクトのファイルデータ Byte[]。 現在の埋め込み OLE オブジェクトのファイル拡張子 String。 |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | 埋め込み OLE オブジェクトのファイル データを返します（読み取り専用） Byte[]。 |
-| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | 現在の埋め込み OLE オブジェクトのファイル拡張子を返します（読み取り専用） String。 |
+| [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | 埋め込み OLE オブジェクトのファイルデータを取得します。 読み取り専用 Byte[]。 |
+| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | 現在の埋め込み OLE オブジェクトのファイル拡張子を取得します。 読み取り専用 String。 |
 
 ### 参照
 

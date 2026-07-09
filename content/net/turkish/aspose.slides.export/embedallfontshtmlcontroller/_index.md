@@ -1,14 +1,14 @@
 ---
 title: EmbedAllFontsHtmlController
-second_title: Aspose.Sildes for .NET API Referansı
-description: WOFF formatında tüm sunum yazı tiplerini gömmek için kullanılacak biçimlendirme denetleyicisi sınıfı.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Tüm sunum yazı tiplerini WOFF formatında gömmek için kullanılacak biçimlendirme denetleyici sınıfı.
 type: docs
-weight: 3740
+weight: 3760
 url: /tr/aspose.slides.export/embedallfontshtmlcontroller/
 ---
 ## EmbedAllFontsHtmlController sınıfı
 
-Tüm sunum yazı tiplerini WOFF formatında gömmek için kullanılacak biçimlendirme denetleyicisi sınıfı.
+Tüm sunum yazı tiplerini WOFF formatında gömmek için kullanılacak biçimlendirme denetleyici sınıfı.
 
 ```csharp
 public class EmbedAllFontsHtmlController : IHtmlFormattingController
@@ -25,19 +25,19 @@ public class EmbedAllFontsHtmlController : IHtmlFormattingController
 
 | Ad | Açıklama |
 | --- | --- |
-| virtual [WriteAllFonts](../../aspose.slides.export/embedallfontshtmlcontroller/writeallfonts)(IHtmlGenerator, IPresentation) | Tüm yazı tiplerini [`Presentation`](../../aspose.slides/presentation) içinde yazar. |
-| virtual [WriteDocumentEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | html belge altbilgisini yazmak için çağrılır. Sunum dönüşümü başına bir kez çağrılır. |
-| virtual [WriteDocumentStart](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | html belge başlığını yazmak için çağrılır. Sunum dönüşümü başına bir kez çağrılır. |
+| virtual [WriteAllFonts](../../aspose.slides.export/embedallfontshtmlcontroller/writeallfonts)(IHtmlGenerator, IPresentation) | [`Presentation`](../../aspose.slides/presentation) içinde bulunan tüm yazı tiplerini yazar. |
+| virtual [WriteDocumentEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | HTML belge alt bilgisini yazmak için çağrılır. Sunum dönüştürmesi başına bir kez çağrılır. |
+| virtual [WriteDocumentStart](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | HTML belge üst bilgisini yazmak için çağrılır. Sunum dönüştürmesi başına bir kez çağrılır. |
 | virtual [WriteFont](../../aspose.slides.export/embedallfontshtmlcontroller/writefont)(IHtmlGenerator, IFontData, IFontData, string, string, byte[]) | Verileri base64 olarak HTML belgesine yazar. |
-| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | Şeklin işlenmesinden önce çağrılır. Her şekil için bir kez çağrılır. Bu işlev üreticiye bir şey yazar ise, mevcut slayt görüntüsü oluşturma tamamlanır, eklenen html parçacığı yerleştirilir ve yeni görüntü öncekinin üzerine başlatılır. |
-| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | Şeklin işlenmesinden önce çağrılır. Her şekil için bir kez çağrılır. Bu işlev üreticiye bir şey yazar ise, mevcut slayt görüntüsü oluşturma tamamlanır, eklenen html parçacığı yerleştirilir ve yeni görüntü öncekinin üzerine başlatılır. |
-| virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | html slayt altbilgisini yazmak için çağrılır. Her slayt için bir kez çağrılır. |
-| virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | html slayt başlığını yazmak için çağrılır. Her slayt için bir kez çağrılır. |
+| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | Şeklin oluşturulmasından önce çağrılır. Her bir şekil için bir kez çağrılır. Bu işlev jeneratöre herhangi bir şey yazarsa, mevcut slayt görüntüsü oluşturma tamamlanır, ek HTML parçacığı eklenir ve yeni görüntü bir öncekinin üzerine başlatılır. |
+| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | Şeklin oluşturulmasından önce çağrılır. Her bir şekil için bir kez çağrılır. Bu işlev jeneratöre herhangi bir şey yazarsa, mevcut slayt görüntüsü oluşturma tamamlanır, ek HTML parçacığı eklenir ve yeni görüntü bir öncekinin üzerine başlatılır. |
+| virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | HTML slayt alt bilgisini yazmak için çağrılır. Her slayt başına bir kez çağrılır. |
+| virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | HTML slayt üst bilgisini yazmak için çağrılır. Her slayt başına bir kez çağrılır. |
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
-* arayüz [IHtmlFormattingController](../ihtmlformattingcontroller)
-* ad alanı [Aspose.Slides.Export](../../aspose.slides.export)
-* derleme [Aspose.Slides](../../)
+* interface [IHtmlFormattingController](../ihtmlformattingcontroller)
+* namespace [Aspose.Slides.Export](../../aspose.slides.export)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

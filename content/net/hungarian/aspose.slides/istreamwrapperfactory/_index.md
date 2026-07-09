@@ -1,27 +1,27 @@
 ---
 title: IStreamWrapperFactory
-second_title: Aspose.Sildes a .NET API hivatkozáshoz
+second_title: Aspose.Sildes .NET API hivatkozás
 description: A StreamWrappers gyára. COM interfészhez.
 type: docs
-weight: 7120
+weight: 7140
 url: /hu/aspose.slides/istreamwrapperfactory/
 ---
 ## IStreamWrapperFactory interfész
 
-A StreamWrappers gyára. COM interfészhez.
+StreamWrappers gyára. COM interfészhez.
 
 ```csharp
 public interface IStreamWrapperFactory
 ```
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Létrehoz egy FileStream-et a megadott útvonallal és létrehozási móddal. |
-| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Létrehoz egy FileStream-et a megadott útvonallal, létrehozási móddal és olvasás/írás jogosultsággal. |
-| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | Létrehoz egy MemoryStream csomagolót. |
-| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Létrehoz egy MemoryStream csomagolót a megadott bájt tömb alapján. |
+| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Létrehozza a FileStream-et a megadott úttal és létrehozási móddal. |
+| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Létrehozza a FileStream-et a megadott úttal, létrehozási móddal és olvasási/írási jogosultsággal. |
+| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | Létrehozza a MemoryStream burkolót. |
+| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Létrehozza a MemoryStream burkolót a megadott bájt tömb alapján. |
 
 ### Lásd még
 

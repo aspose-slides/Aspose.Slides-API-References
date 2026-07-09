@@ -3,7 +3,7 @@ title: ColorFormat
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa uma cor usada em uma apresentação.
 type: docs
-weight: 2500
+weight: 2520
 url: /pt/aspose.slides/colorformat/
 ---
 ## ColorFormat classe
@@ -19,21 +19,21 @@ public sealed class ColorFormat : PVIObject, IColorFormat
 | Nome | Descrição |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obter a interface base IPresentationComponent. Somente leitura [`IPresentationComponent`](../ipresentationcomponent). |
-| [B](../../aspose.slides/colorformat/b) { get; set; } | Retorna ou define o componente azul de uma cor. Todas as transformações de cor são ignoradas. Leitura/gravação Byte. |
-| [Color](../../aspose.slides/colorformat/color) { get; set; } | Retorna a cor resultante (com todas as transformações de cor aplicadas). Define cores RGB e limpa todas as transformações de cor. Leitura/gravação Color. |
+| [B](../../aspose.slides/colorformat/b) { get; set; } | Retorna ou define o componente azul de uma cor. Todas as transformações de cor são ignoradas. Leitura/Gravação Byte. |
+| [Color](../../aspose.slides/colorformat/color) { get; set; } | Retorna a cor resultante (com todas as transformações de cor aplicadas). Define cores RGB e limpa todas as transformações de cor. Leitura/Gravação Color. |
 | [ColorTransform](../../aspose.slides/colorformat/colortransform) { get; } | Retorna a coleção de transformações de cor aplicadas a uma cor. Somente leitura [`IColorOperationCollection`](../icoloroperationcollection). |
-| [ColorType](../../aspose.slides/colorformat/colortype) { get; set; } | Retorna ou define o método de definição de cor. Leitura/gravação [`ColorType`](../colortype). |
-| [FloatB](../../aspose.slides/colorformat/floatb) { get; set; } | Retorna ou define o componente azul de uma cor. Todas as transformações de cor são ignoradas. Leitura/gravação Single. |
-| [FloatG](../../aspose.slides/colorformat/floatg) { get; set; } | Retorna ou define o componente verde de uma cor. Todas as transformações de cor são ignoradas. Leitura/gravação Single. |
-| [FloatR](../../aspose.slides/colorformat/floatr) { get; set; } | Retorna ou define o componente vermelho de uma cor. Todas as transformações de cor são ignoradas. Leitura/gravação Single. |
+| [ColorType](../../aspose.slides/colorformat/colortype) { get; set; } | Retorna ou define o método de definição de cor. Leitura/Gravação [`ColorType`](../colortype). |
+| [FloatB](../../aspose.slides/colorformat/floatb) { get; set; } | Retorna ou define o componente azul de uma cor. Todas as transformações de cor são ignoradas. Leitura/Gravação Single. |
+| [FloatG](../../aspose.slides/colorformat/floatg) { get; set; } | Retorna ou define o componente verde de uma cor. Todas as transformações de cor são ignoradas. Leitura/Gravação Single. |
+| [FloatR](../../aspose.slides/colorformat/floatr) { get; set; } | Retorna ou define o componente vermelho de uma cor. Todas as transformações de cor são ignoradas. Leitura/Gravação Single. |
 | [G](../../aspose.slides/colorformat/g) { get; set; } | Retorna ou define o componente verde de uma cor. Todas as transformações de cor são ignoradas. |
-| [Hue](../../aspose.slides/colorformat/hue) { get; set; } | Retorna ou define o componente matiz de uma cor na representação HSL. Todas as transformações de cor são ignoradas. Leitura/gravação Single. |
-| [Luminance](../../aspose.slides/colorformat/luminance) { get; set; } | Retorna ou define o componente luminância de uma cor na representação HSL. Todas as transformações de cor são ignoradas. Leitura/gravação Single. |
-| [PresetColor](../../aspose.slides/colorformat/presetcolor) { get; set; } | Retorna ou define a predefinição de cor. Leitura/gravação [`PresetColor`](../presetcolor). |
-| [R](../../aspose.slides/colorformat/r) { get; set; } | Retorna ou define o componente vermelho de uma cor. Todas as transformações de cor são ignoradas. Leitura/gravação Byte. |
-| [Saturation](../../aspose.slides/colorformat/saturation) { get; set; } | Retorna ou define o componente saturação de uma cor na representação HSL. Todas as transformações de cor são ignoradas. Leitura/gravação Single. |
-| [SchemeColor](../../aspose.slides/colorformat/schemecolor) { get; set; } | Retorna ou define a cor identificada por um esquema de cores. Leitura/gravação [`SchemeColor`](../schemecolor). |
-| [SystemColor](../../aspose.slides/colorformat/systemcolor) { get; set; } | Retorna ou define a cor identificada pela tabela de cores do sistema. Leitura/gravação [`SystemColor`](../systemcolor). |
+| [Hue](../../aspose.slides/colorformat/hue) { get; set; } | Retorna ou define o componente matiz de uma cor na representação HSL. Todas as transformações de cor são ignoradas. Leitura/Gravação Single. |
+| [Luminance](../../aspose.slides/colorformat/luminance) { get; set; } | Retorna ou define o componente luminância de uma cor na representação HSL. Todas as transformações de cor são ignoradas. Leitura/Gravação Single. |
+| [PresetColor](../../aspose.slides/colorformat/presetcolor) { get; set; } | Retorna ou define a predefinição de cor. Leitura/Gravação [`PresetColor`](../presetcolor). |
+| [R](../../aspose.slides/colorformat/r) { get; set; } | Retorna ou define o componente vermelho de uma cor. Todas as transformações de cor são ignoradas. Leitura/Gravação Byte. |
+| [Saturation](../../aspose.slides/colorformat/saturation) { get; set; } | Retorna ou define o componente saturação de uma cor na representação HSL. Todas as transformações de cor são ignoradas. Leitura/Gravação Single. |
+| [SchemeColor](../../aspose.slides/colorformat/schemecolor) { get; set; } | Retorna ou define a cor identificada por um esquema de cores. Leitura/Gravação [`SchemeColor`](../schemecolor). |
+| [SystemColor](../../aspose.slides/colorformat/systemcolor) { get; set; } | Retorna ou define a cor identificada pela tabela de cores do sistema. Leitura/Gravação [`SystemColor`](../systemcolor). |
 
 ## Métodos
 

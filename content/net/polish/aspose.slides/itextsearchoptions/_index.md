@@ -1,14 +1,14 @@
 ---
 title: ITextSearchOptions
-second_title: Aspose.Sildes dla .NET Referencja API
-description: Reprezentuje opcje, które można wykorzystać do wyszukiwania tekstu w prezentacji, slajdzie lub TextFrame.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Reprezentuje opcje, które można wykorzystać do wyszukiwania tekstu w obiekcie Presentation, Slide lub TextFrame.
 type: docs
-weight: 7280
+weight: 7300
 url: /pl/aspose.slides/itextsearchoptions/
 ---
-## ITextSearchOptions interfejs
+## ITextSearchOptions interface
 
-Reprezentuje opcje, które można wykorzystać do wyszukiwania tekstu w Presentation, Slide lub TextFrame.
+Reprezentuje opcje, które można wykorzystać do wyszukiwania tekstu w obiekcie Presentation, Slide lub TextFrame.
 
 ```csharp
 public interface ITextSearchOptions
@@ -18,9 +18,9 @@ public interface ITextSearchOptions
 
 | Nazwa | Opis |
 | --- | --- |
-| [CaseSensitive](../../aspose.slides/itextsearchoptions/casesensitive) { get; set; } | Ustaw true, aby używać wyszukiwania rozróżniającego wielkość liter, false – w przeciwnym razie. Odczyt/zapis Boolean. |
+| [CaseSensitive](../../aspose.slides/itextsearchoptions/casesensitive) { get; set; } | Ustaw true, aby używać wyszukiwania rozróżniającego wielkość liter, false w przeciwnym razie. Odczyt/zapis Boolean. |
 | [IncludeNotes](../../aspose.slides/itextsearchoptions/includenotes) { get; set; } | Ustaw `true`, aby uwzględnić tekst zawarty w notatkach slajdu podczas wykonywania operacji wyszukiwania tekstu, zamiany lub podświetlania. Domyślna wartość to `false`. |
-| [WholeWordsOnly](../../aspose.slides/itextsearchoptions/wholewordsonly) { get; set; } | Ustaw true, aby dopasowywać tylko całe wyrazy, false – w przeciwnym razie. Odczyt/zapis Boolean. |
+| [WholeWordsOnly](../../aspose.slides/itextsearchoptions/wholewordsonly) { get; set; } | Ustaw true, aby dopasowywać tylko całe wyrazy, false w przeciwnym razie. Odczyt/zapis Boolean. |
 
 ### Zobacz także
 

@@ -1,14 +1,14 @@
 ---
 title: IGlowEffectiveData
-second_title: Aspose.Sildes .NET API hivatkozása
-description: Megváltoztathatatlan objektum, amely egy Glow effektust ábrázol, ahol egy színes elmosott körvonal kerül az objektum széleihez kívül.
+second_title: Aspose.Sildes .NET API-referencia
+description: Módosíthatatlan objektum, amely egy Glow hatást képvisel, ahol egy színes elmosódott körvonal kerül hozzá az objektum széleihez.
 type: docs
-weight: 3310
+weight: 3330
 url: /hu/aspose.slides.effects/igloweffectivedata/
 ---
 ## IGlowEffectiveData interfész
 
-Megváltoztathatatlan objektum, amely egy Glow effektust ábrázol, és amely egy színes, elmosott körvonalat ad az objektum széleihez kívül.
+Módosíthatatlan objektum, amely egy Glow hatást képvisel, ahol egy színes elmosódott körvonal kerül hozzá az objektum széleihez.
 
 ```csharp
 public interface IGlowEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IGlowEffectiveData : IEffectEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/igloweffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi a bázis IEffectEffectiveData interfész lekérését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/igloweffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi a base IEffectEffectiveData interfész lekérését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Color](../../aspose.slides.effects/igloweffectivedata/color) { get; } | Color. Csak olvasható Color. |
 | [Radius](../../aspose.slides.effects/igloweffectivedata/radius) { get; } | Radius. Csak olvasható Double. |
 

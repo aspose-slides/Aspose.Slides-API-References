@@ -1,9 +1,9 @@
 ---
 title: IColorChange
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: カラー変更エフェクトを表します。FromColor のインスタンスは ToColor のインスタンスに置き換えられます。
 type: docs
-weight: 3200
+weight: 3220
 url: /ja/aspose.slides.effects/icolorchange/
 ---
 ## IColorChange インターフェイス
@@ -21,8 +21,8 @@ public interface IColorChange : IAccessiblePVIObject<IColorChangeEffectiveData>,
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorchange/asiaccessiblepviobject) { get; } | ベースの IAccessiblePVIObject インターフェイスを取得できます。読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
 | [AsIImageTransformOperation](../../aspose.slides.effects/icolorchange/asiimagetransformoperation) { get; } | ベースの IImageTransformOperation インターフェイスを取得できます。読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation)。 |
-| [FromColor](../../aspose.slides.effects/icolorchange/fromcolor) { get; } | 置換される色。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [ToColor](../../aspose.slides.effects/icolorchange/tocolor) { get; } | 置換する色。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [FromColor](../../aspose.slides.effects/icolorchange/fromcolor) { get; } | 置き換えられる色。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [ToColor](../../aspose.slides.effects/icolorchange/tocolor) { get; } | 置き換える色。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
 
 ### 参照
 

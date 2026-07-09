@@ -1,14 +1,14 @@
 ---
 title: ExcelDataWorkbook
-second_title: Aspose.Sildes para .NET Referência de API
-description: Representa uma pasta de trabalho que fornece acesso aos dados do Excel para uso geral.
+second_title: Referência da API Aspose.Sildes for .NET
+description: Representa uma pasta de trabalho que fornece acesso a dados do Excel para uso geral.
 type: docs
-weight: 3670
+weight: 3690
 url: /pt/aspose.slides.excel/exceldataworkbook/
 ---
 ## ExcelDataWorkbook classe
 
-Representa uma pasta de trabalho que fornece acesso aos dados do Excel para uso geral.
+Representa uma pasta de trabalho que fornece acesso a dados do Excel para uso geral.
 
 ```csharp
 public class ExcelDataWorkbook : IExcelDataWorkbook
@@ -18,7 +18,7 @@ public class ExcelDataWorkbook : IExcelDataWorkbook
 
 | Nome | Descrição |
 | --- | --- |
-| [ExcelDataWorkbook](exceldataworkbook#constructor)(Stream) | Inicializa uma nova instância da classe usando o Stream fornecido. |
+| [ExcelDataWorkbook](exceldataworkbook#constructor)(Stream) | Inicializa uma nova instância da classe usando o fluxo fornecido. |
 | [ExcelDataWorkbook](exceldataworkbook#constructor_1)(string) | Inicializa uma nova instância usando o caminho de arquivo especificado. |
 
 ## Métodos
@@ -27,11 +27,11 @@ public class ExcelDataWorkbook : IExcelDataWorkbook
 | --- | --- |
 | [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_1)(int, string) | Recupera uma célula da planilha especificada usando seu índice e o nome da célula no estilo Excel (por exemplo, "B2"). |
 | [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_3)(string, string) | Recupera uma célula da planilha especificada usando o nome da célula no estilo Excel (por exemplo, "B2"). |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell)(int, int, int) | Recupera uma célula da planilha especificada usando seu índice e as coordenadas da célula. |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_2)(string, int, int) | Recupera uma célula da planilha especificada usando seu nome e as coordenadas da célula. |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell)(int, int, int) | Recupera uma célula da planilha especificada usando seu índice e coordenadas da célula. |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_2)(string, int, int) | Recupera uma célula da planilha especificada usando seu nome e coordenadas da célula. |
 | [GetCells](../../aspose.slides.excel/exceldataworkbook/getcells)(string, bool) | Recupera uma coleção de células da pasta de trabalho que correspondem à fórmula especificada. |
-| [GetChartsFromWorksheet](../../aspose.slides.excel/exceldataworkbook/getchartsfromworksheet)(string) | Recupera um dicionário contendo os índices e nomes de todos os gráficos na planilha especificada de uma pasta de trabalho do Excel. |
-| [GetWorksheetNames](../../aspose.slides.excel/exceldataworkbook/getworksheetnames)() | Recupera os nomes de todas as planilhas contidas na pasta de trabalho do Excel. |
+| [GetChartsFromWorksheet](../../aspose.slides.excel/exceldataworkbook/getchartsfromworksheet)(string) | Recupera um dicionário contendo os índices e nomes de todos os gráficos na planilha especificada de uma pasta de trabalho Excel. |
+| [GetWorksheetNames](../../aspose.slides.excel/exceldataworkbook/getworksheetnames)() | Recupera os nomes de todas as planilhas contidas na pasta de trabalho Excel. |
 
 ### Ver Também
 

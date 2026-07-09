@@ -1,14 +1,14 @@
 ---
 title: IPropertyEffect
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta il comportamento dell'effetto della proprietà.
+description: Rappresenta il comportamento dell'effetto di proprietà.
 type: docs
-weight: 540
+weight: 560
 url: /it/aspose.slides.animation/ipropertyeffect/
 ---
 ## IPropertyEffect interfaccia
 
-Rappresenta il comportamento dell'effetto della proprietà.
+Rappresenta il comportamento dell'effetto di proprietà.
 
 ```csharp
 public interface IPropertyEffect : IBehavior
@@ -18,13 +18,13 @@ public interface IPropertyEffect : IBehavior
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/ipropertyeffect/asibehavior) { get; } | Permette di ottenere l'interfaccia base IBehavior. Sola lettura [`IBehavior`](../ibehavior). |
+| [AsIBehavior](../../aspose.slides.animation/ipropertyeffect/asibehavior) { get; } | Consente di ottenere l'interfaccia base IBehavior. Solo lettura [`IBehavior`](../ibehavior). |
 | [By](../../aspose.slides.animation/ipropertyeffect/by) { get; set; } | Specifica un valore di offset relativo per l'animazione rispetto alla sua posizione prima dell'inizio dell'animazione. Lettura/scrittura String. |
 | [CalcMode](../../aspose.slides.animation/ipropertyeffect/calcmode) { get; set; } | Specifica la modalità di interpolazione per l'animazione. Lettura/scrittura [`PropertyCalcModeType`](../propertycalcmodetype). |
 | [From](../../aspose.slides.animation/ipropertyeffect/from) { get; set; } | Specifica il valore iniziale dell'animazione. Lettura/scrittura String. |
 | [Points](../../aspose.slides.animation/ipropertyeffect/points) { get; set; } | Specifica i punti dell'animazione. Lettura/scrittura [`IPointCollection`](../ipointcollection). |
 | [To](../../aspose.slides.animation/ipropertyeffect/to) { get; set; } | Specifica il valore finale per l'animazione. Lettura/scrittura String. |
-| [ValueType](../../aspose.slides.animation/ipropertyeffect/valuetype) { get; set; } | Specifica il tipo di un valore di proprietà. Lettura/scrittura [`PropertyValueType`](../propertyvaluetype). |
+| [ValueType](../../aspose.slides.animation/ipropertyeffect/valuetype) { get; set; } | Specifica il tipo di valore di una proprietà. Lettura/scrittura [`PropertyValueType`](../propertyvaluetype). |
 
 ### Vedi anche
 

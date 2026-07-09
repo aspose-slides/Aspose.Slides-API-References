@@ -3,7 +3,7 @@ title: CommentAuthor
 second_title: Aspose.Sildes .NET API hivatkozás
 description: A megjegyzések szerzőjét képviseli.
 type: docs
-weight: 2610
+weight: 2630
 url: /hu/aspose.slides/commentauthor/
 ---
 ## CommentAuthor osztály
@@ -18,9 +18,9 @@ public sealed class CommentAuthor : ICommentAuthor
 
 | Név | Leírás |
 | --- | --- |
-| [Comments](../../aspose.slides/commentauthor/comments) { get; } | Visszaadja ennek a szerzőnek a megjegyzések gyűjteményét. Csak olvasható [`ICommentCollection`](../icommentcollection). |
-| [Initials](../../aspose.slides/commentauthor/initials) { get; set; } | Visszaadja vagy beállítja a szerző kezdőbetűit. Olvasás/írás String. |
-| [Name](../../aspose.slides/commentauthor/name) { get; set; } | Visszaadja vagy beállítja a szerző nevét. Olvasás/írás String. |
+| [Comments](../../aspose.slides/commentauthor/comments) { get; } | Visszaadja az e szerző által írt megjegyzések gyűjteményét. Csak olvasható [`ICommentCollection`](../icommentcollection). |
+| [Initials](../../aspose.slides/commentauthor/initials) { get; set; } | Visszaadja vagy beállítja a szerző monogramját. Olvasható/írható String. |
+| [Name](../../aspose.slides/commentauthor/name) { get; set; } | Visszaadja vagy beállítja a szerző nevét. Olvasható/írható String. |
 
 ## Metódusok
 

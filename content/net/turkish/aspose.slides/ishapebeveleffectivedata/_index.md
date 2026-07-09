@@ -1,14 +1,14 @@
 ---
 title: IShapeBevelEffectiveData
 second_title: Aspose.Sildes for .NET API Referansı
-description: Etkili şekillerin yüzey kabartma özelliklerini içeren değiştirilemez nesne.
+description: Etkili şekillerin yüz relifi özelliklerini içeren değiştirilemez nesne.
 type: docs
-weight: 6950
+weight: 6970
 url: /tr/aspose.slides/ishapebeveleffectivedata/
 ---
 ## IShapeBevelEffectiveData arayüz
 
-Değiştirilemez nesne, etkin şeklin yüzey kabartma özelliklerini içerir.
+Değiştirilemez nesne, etkili şeklin yüz relifi özelliklerini içerir.
 
 ```csharp
 public interface IShapeBevelEffectiveData
@@ -18,15 +18,15 @@ public interface IShapeBevelEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [BevelType](../../aspose.slides/ishapebeveleffectivedata/beveltype) { get; } | Köşe tipi. Salt okunur [`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/ishapebeveleffectivedata/height) { get; } | Köşe yüksekliği. Salt okunur Double. |
-| [Width](../../aspose.slides/ishapebeveleffectivedata/width) { get; } | Köşe genişliği. Salt okunur Double. |
+| [BevelType](../../aspose.slides/ishapebeveleffectivedata/beveltype) { get; } | Bevel tipi. Yalnızca okunabilir [`BevelPresetType`](../bevelpresettype). |
+| [Height](../../aspose.slides/ishapebeveleffectivedata/height) { get; } | Bevel yüksekliği. Yalnızca okunabilir Double. |
+| [Width](../../aspose.slides/ishapebeveleffectivedata/width) { get; } | Bevel genişliği. Yalnızca okunabilir Double. |
 
 ### Açıklamalar
 
-Bu arayüz, [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata)'nin bir parçası olarak kullanılır.
+Bu arayüz, [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata) bir parçası olarak kullanılır.
 
-### Diğer Bağlantılar
+### Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

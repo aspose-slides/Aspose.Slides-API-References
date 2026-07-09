@@ -1,14 +1,14 @@
 ---
 title: IMathDelimiterFactory
-second_title: Aspose.Sildes dla .NET – referencja API
-description: Umożliwia tworzenie separatora matematycznego
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Umożliwia tworzenie delimitera matematycznego
 type: docs
-weight: 8200
+weight: 8220
 url: /pl/aspose.slides.mathtext/imathdelimiterfactory/
 ---
 ## IMathDelimiterFactory interfejs
 
-Umożliwia tworzenie separatora matematycznego
+Umożliwia tworzenie delimitera matematycznego
 
 ```csharp
 public interface IMathDelimiterFactory
@@ -23,7 +23,7 @@ public interface IMathDelimiterFactory
 
 ### Uwagi
 
-Dla kompatybilności z COM
+Dla zgodności z COM
 
 ### Zobacz także
 

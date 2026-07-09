@@ -3,10 +3,10 @@ title: Paragraph
 second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta un paragrafo di testo.
 type: docs
-weight: 9260
+weight: 9280
 url: /it/aspose.slides/paragraph/
 ---
-## classe Paragraph
+## Paragraph classe
 
 Rappresenta un paragrafo di testo.
 
@@ -16,27 +16,27 @@ public sealed class Paragraph : IParagraph
 
 ## Costruttori
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [Paragraph](paragraph#constructor)() | Inizializza una nuova istanza della classe Paragraph con le proprietà predefinite. |
+| [Paragraph](paragraph#constructor)() | Inizializza una nuova istanza della classe Paragraph con proprietà predefinite. |
 | [Paragraph](paragraph#constructor_1)(Paragraph) | Costruttore di copia che inizializza una nuova istanza della classe Paragraph. |
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [EndParagraphPortionFormat](../../aspose.slides/paragraph/endparagraphportionformat) { get; set; } | Specifica le proprietà della porzione da utilizzare se un'altra porzione viene inserita dopo l'ultima. |
-| [ParagraphFormat](../../aspose.slides/paragraph/paragraphformat) { get; } | Restituisce l'oggetto di formattazione per questo paragrafo. Sola lettura [`IParagraphFormat`](../iparagraphformat). |
-| [Portions](../../aspose.slides/paragraph/portions) { get; } | Restituisce la collezione di porzioni di testo. Sola lettura [`IPortionCollection`](../iportioncollection). |
+| [ParagraphFormat](../../aspose.slides/paragraph/paragraphformat) { get; } | Restituisce l'oggetto di formattazione per questo paragrafo. Solo lettura [`IParagraphFormat`](../iparagraphformat). |
+| [Portions](../../aspose.slides/paragraph/portions) { get; } | Restituisce la raccolta di porzioni di testo. Solo lettura [`IPortionCollection`](../iportioncollection). |
 | [Text](../../aspose.slides/paragraph/text) { get; set; } | Ottiene o imposta il testo semplice di un paragrafo. Lettura/scrittura String. |
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [GetLinesCount](../../aspose.slides/paragraph/getlinescount)() | Ottiene il numero di righe in un paragrafo. |
-| [GetRect](../../aspose.slides/paragraph/getrect)() | Ottiene le coordinate del rettangolo che delimita il paragrafo. Il rettangolo include tutte le righe di testo nel paragrafo, incluse quelle vuote. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/paragraph/joinportionswithsameformatting)() | Unisce le esecuzioni con la stessa formattazione. |
+| [GetRect](../../aspose.slides/paragraph/getrect)() | Ottiene le coordinate del rettangolo che delimitano il paragrafo. Il rettangolo include tutte le righe di testo nel paragrafo, incluse quelle vuote. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/paragraph/joinportionswithsameformatting)() | Unisce le sequenze con la stessa formattazione. |
 
 ### Vedi anche
 

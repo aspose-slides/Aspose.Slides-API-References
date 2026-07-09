@@ -1,14 +1,14 @@
 ---
 title: IGroupShapeLock
-second_title: Aspose.Sildes a .NET API hivatkozás
-description: Megállapítja, hogy a szülő GroupShape-on mely műveletek vannak letiltva.
+second_title: Aspose.Sildes .NET API referencia
+description: Meghatározza, hogy a szülő GroupShape mely műveletei vannak letiltva.
 type: docs
-weight: 6070
+weight: 6090
 url: /hu/aspose.slides/igroupshapelock/
 ---
 ## IGroupShapeLock interfész
 
-Megállapítja, hogy mely műveletek vannak letiltva a szülő GroupShape-on.
+Meghatározza, hogy a szülő GroupShape mely műveletei vannak letiltva.
 
 ```csharp
 public interface IGroupShapeLock : IBaseShapeLock
@@ -18,14 +18,14 @@ public interface IGroupShapeLock : IBaseShapeLock
 
 | Név | Leírás |
 | --- | --- |
-| [AsIBaseShapeLock](../../aspose.slides/igroupshapelock/asibaseshapelock) { get; } | Lehetővé teszi a bázis IBaseShapeLock interfész elérését. Csak olvasható [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/igroupshapelock/aspectratiolocked) { get; set; } | Meghatározza, hogy a forma méretezéskor meg kell-e őriznie az arányt. Olvasás/írás Boolean. |
-| [GroupingLocked](../../aspose.slides/igroupshapelock/groupinglocked) { get; set; } | Meghatározza, hogy ennek a formának a csoportba való hozzáadása tiltott-e. Olvasás/írás Boolean. |
-| [PositionLocked](../../aspose.slides/igroupshapelock/positionlocked) { get; set; } | Meghatározza, hogy ennek a formának a mozgatása tiltott-e. Olvasás/írás Boolean. |
-| [RotationLocked](../../aspose.slides/igroupshapelock/rotationlocked) { get; set; } | Meghatározza, hogy ennek a formának a forgásszögének módosítása tiltott-e. Olvasás/írás Boolean. |
-| [SelectLocked](../../aspose.slides/igroupshapelock/selectlocked) { get; set; } | Meghatározza, hogy ennek a forma kiválasztása tiltott-e. Olvasás/írás Boolean. |
-| [SizeLocked](../../aspose.slides/igroupshapelock/sizelocked) { get; set; } | Meghatározza, hogy ennek a forma átméretezése tiltott-e. Olvasás/írás Boolean. |
-| [UngroupingLocked](../../aspose.slides/igroupshapelock/ungroupinglocked) { get; set; } | Meghatározza, hogy ennek a groupshape felosztása tiltott-e. Olvasás/írás Boolean. |
+| [AsIBaseShapeLock](../../aspose.slides/igroupshapelock/asibaseshapelock) { get; } | Lehetővé teszi az IBaseShapeLock alapvető interfész lekérését. Csak olvasható [`IBaseShapeLock`](../ibaseshapelock). |
+| [AspectRatioLocked](../../aspose.slides/igroupshapelock/aspectratiolocked) { get; set; } | Meghatározza, hogy a forma meg kell-e őrizni az oldalarányt átméretezéskor. Olvasás/írás Boolean. |
+| [GroupingLocked](../../aspose.slides/igroupshapelock/groupinglocked) { get; set; } | Meghatározza, hogy a forma csoportba való hozzáadása tiltott-e. Olvasás/írás Boolean. |
+| [PositionLocked](../../aspose.slides/igroupshapelock/positionlocked) { get; set; } | Meghatározza, hogy a forma mozgatása tiltott-e. Olvasás/írás Boolean. |
+| [RotationLocked](../../aspose.slides/igroupshapelock/rotationlocked) { get; set; } | Meghatározza, hogy a forma forgatási szögének módosítása tiltott-e. Olvasás/írás Boolean. |
+| [SelectLocked](../../aspose.slides/igroupshapelock/selectlocked) { get; set; } | Meghatározza, hogy a forma kiválasztása tiltott-e. Olvasás/írás Boolean. |
+| [SizeLocked](../../aspose.slides/igroupshapelock/sizelocked) { get; set; } | Meghatározza, hogy a forma átméretezése tiltott-e. Olvasás/írás Boolean. |
+| [UngroupingLocked](../../aspose.slides/igroupshapelock/ungroupinglocked) { get; set; } | Meghatározza, hogy a groupshape felosztása tiltott-e. Olvasás/írás Boolean. |
 
 ### Lásd még
 

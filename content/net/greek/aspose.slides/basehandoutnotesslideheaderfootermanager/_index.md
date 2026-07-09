@@ -1,14 +1,14 @@
 ---
 title: BaseHandoutNotesSlideHeaderFooterManager
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Αντιπροσωπεύει διαχειριστή που διατηρεί τη συμπεριφορά των placeholders, συμπεριλαμβανομένου του placeholder κεφαλίδας για όλα τα είδη διανομής και διαφανειών σημειώσεων.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Αναπαριστά διαχειριστή που διατηρεί τη συμπεριφορά των placeholders, συμπεριλαμβανομένου του placeholder κεφαλίδας για όλα τα είδη handout και notes διαφανειών.
 type: docs
-weight: 930
+weight: 950
 url: /el/aspose.slides/basehandoutnotesslideheaderfootermanager/
 ---
-## BaseHandoutNotesSlideHeaderFooterManager class
+## BaseHandoutNotesSlideHeaderFooterManager κλάση
 
-Αντιπροσωπεύει έναν διαχειριστή που διαχειρίζεται τη συμπεριφορά των placeholders, συμπεριλαμβανομένου του placeholder κεφαλίδας για όλα τα είδη φύλλων διανομής και σημειώσεων.
+Αναπαριστά έναν διαχειριστή που διατηρεί τη συμπεριφορά των placeholders, συμπεριλαμβανομένου του placeholder κεφαλίδας για όλα τα είδη handout και notes διαφανειών.
 
 ```csharp
 public abstract class BaseHandoutNotesSlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
@@ -19,28 +19,28 @@ public abstract class BaseHandoutNotesSlideHeaderFooterManager : BaseSlideHeader
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Παίρνει την τιμή που υποδεικνύει ότι υπάρχει date-time placeholder. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Παίρνει την τιμή που υποδεικνύει ότι υπάρχει footer placeholder. Read Boolean. |
-| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Παίρνει την τιμή που υποδεικνύει ότι υπάρχει header placeholder. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Παίρνει την τιμή που υποδεικνύει ότι υπάρχει page number placeholder. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Λαμβάνει την τιμή που δείχνει ότι υπάρχει placeholder ημερομηνίας-ώρας. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Λαμβάνει την τιμή που δείχνει ότι υπάρχει placeholder υποσέλιδου. Read Boolean. |
+| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Λαμβάνει την τιμή που δείχνει ότι υπάρχει placeholder κεφαλίδας. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Λαμβάνει την τιμή που δείχνει ότι υπάρχει placeholder αριθμού σελίδας. ReadBoolean. |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Ορίζει κείμενο στο date-time placeholder της διαφάνειας. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Αλλάζει την ορατότητα του date-time placeholder της διαφάνειας. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Ορίζει κείμενο στο footer placeholder της διαφάνειας. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Αλλάζει την ορατότητα του footer placeholder της διαφάνειας. |
-| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Ορίζει κείμενο στο header placeholder της διαφάνειας. |
-| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Αλλάζει την ορατότητα του header placeholder της διαφάνειας. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Αλλάζει την ορατότητα του page number placeholder της διαφάνειας. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Ορίζει το κείμενο στο placeholder ημερομηνίας-ώρας της διαφάνειας. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Αλλάζει την ορατότητα του placeholder ημερομηνίας-ώρας της διαφάνειας. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Ορίζει το κείμενο στο placeholder υποσέλιδου της διαφάνειας. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Αλλάζει την ορατότητα του placeholder υποσέλιδου της διαφάνειας. |
+| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Ορίζει το κείμενο στο placeholder κεφαλίδας της διαφάνειας. |
+| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Αλλάζει την ορατότητα του placeholder κεφαλίδας της διαφάνειας. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Αλλάζει την ορατότητα του placeholder αριθμού σελίδας της διαφάνειας. |
 
 ### Δείτε επίσης
 
 * κλάση [BaseSlideHeaderFooterManager](../baseslideheaderfootermanager)
-* διασύνδεση [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
-* χώρος ονομάτων [Aspose.Slides](../../aspose.slides)
-* συγκρότηση [Aspose.Slides](../../)
+* διεπαφή [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
+* χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
+* σύγκροτηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

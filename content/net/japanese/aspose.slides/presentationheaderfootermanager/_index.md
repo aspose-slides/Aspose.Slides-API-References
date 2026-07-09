@@ -1,14 +1,14 @@
 ---
 title: PresentationHeaderFooterManager
 second_title: Aspose.Sildes for .NET API リファレンス
-description: プレゼンテーションのすべてのフッター、日付時刻、およびページ番号プレースホルダーの動作を保持するマネージャーを表します。
+description: プレゼンテーションのフッター、日時、ページ番号プレースホルダーすべての動作を保持するマネージャーを表します。
 type: docs
-weight: 9590
+weight: 9610
 url: /ja/aspose.slides/presentationheaderfootermanager/
 ---
 ## PresentationHeaderFooterManager クラス
 
-プレゼンテーションのすべてのフッター、日付時刻、およびページ番号プレースホルダーの動作を保持するマネージャーを表します。
+プレゼンテーションのすべてのフッター、日時、ページ番号プレースホルダーの動作を保持するマネージャーを表します。
 
 ```csharp
 public class PresentationHeaderFooterManager : BaseHeaderFooterManager, 
@@ -19,16 +19,16 @@ public class PresentationHeaderFooterManager : BaseHeaderFooterManager,
 
 | 名前 | 説明 |
 | --- | --- |
-| [SetAllDateTimesText](../../aspose.slides/presentationheaderfootermanager/setalldatetimestext)(string) | マスタースライド、レイアウトスライド、スライド、ノートマスター、ノートスライド、配布資料マスターを含む、すべての日付時刻プレースホルダーにテキストを設定します。 |
-| [SetAllDateTimesVisibility](../../aspose.slides/presentationheaderfootermanager/setalldatetimesvisibility)(bool) | マスタースライド、レイアウトスライド、スライド、ノートマスター、ノートスライド、配布資料マスターを含む、すべての日付時刻プレースホルダーの表示状態を変更します。 |
-| [SetAllFootersText](../../aspose.slides/presentationheaderfootermanager/setallfooterstext)(string) | マスタースライド、レイアウトスライド、スライド、ノートマスター、ノートスライド、配布資料マスターを含む、すべてのフッタープレースホルダーにテキストを設定します。 |
-| [SetAllFootersVisibility](../../aspose.slides/presentationheaderfootermanager/setallfootersvisibility)(bool) | マスタースライド、レイアウトスライド、スライド、ノートマスター、ノートスライド、配布資料マスターを含む、すべてのフッタープレースホルダーの表示状態を変更します。 |
-| [SetAllHeadersText](../../aspose.slides/presentationheaderfootermanager/setallheaderstext)(string) | ノートマスター、ノートスライド、配布資料マスターを含む、すべてのヘッダープレースホルダーにテキストを設定します。 |
-| [SetAllHeadersVisibility](../../aspose.slides/presentationheaderfootermanager/setallheadersvisibility)(bool) | ノートマスター、ノートスライド、配布資料マスターを含む、すべてのヘッダープレースホルダーの表示状態を変更します。 |
-| [SetAllSlideNumbersVisibility](../../aspose.slides/presentationheaderfootermanager/setallslidenumbersvisibility)(bool) | マスタースライド、レイアウトスライド、スライド、ノートマスター、ノートスライド、配布資料マスターを含む、すべてのページ番号プレースホルダーの表示状態を変更します。 |
-| [SetVisibilityOnAllTitleSlides](../../aspose.slides/presentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | すべてのタイトルスライドと最初のレイアウトスライドに対して、フッタープレースホルダー、日付時刻プレースホルダー、ページ番号プレースホルダーの表示状態を変更します。タイトルスライド – 最初のレイアウトスライドを基にしたスライド（この最初のレイアウトのタイプに関係なく）。 |
+| [SetAllDateTimesText](../../aspose.slides/presentationheaderfootermanager/setalldatetimestext)(string) | すべての日時プレースホルダーにテキストを設定します。マスタースライド、レイアウトスライド、スライド、ノートマスタ、ノートスライド、ハンドアウトマスタを含みます。 |
+| [SetAllDateTimesVisibility](../../aspose.slides/presentationheaderfootermanager/setalldatetimesvisibility)(bool) | すべての日時プレースホルダーの表示状態を変更します。マスタースライド、レイアウトスライド、スライド、ノートマスタ、ノートスライド、ハンドアウトマスタを含みます。 |
+| [SetAllFootersText](../../aspose.slides/presentationheaderfootermanager/setallfooterstext)(string) | すべてのフッタープレースホルダーにテキストを設定します。マスタースライド、レイアウトスライド、スライド、ノートマスタ、ノートスライド、ハンドアウトマスタを含みます。 |
+| [SetAllFootersVisibility](../../aspose.slides/presentationheaderfootermanager/setallfootersvisibility)(bool) | すべてのフッタープレースホルダーの表示状態を変更します。マスタースライド、レイアウトスライド、スライド、ノートマスタ、ノートスライド、ハンドアウトマスタを含みます。 |
+| [SetAllHeadersText](../../aspose.slides/presentationheaderfootermanager/setallheaderstext)(string) | すべてのヘッダープレースホルダーにテキストを設定します。ノートマスタ、ノートスライド、ハンドアウトマスタを含みます。 |
+| [SetAllHeadersVisibility](../../aspose.slides/presentationheaderfootermanager/setallheadersvisibility)(bool) | すべてのヘッダープレースホルダーの表示状態を変更します。ノートマスタ、ノートスライド、ハンドアウトマスタを含みます。 |
+| [SetAllSlideNumbersVisibility](../../aspose.slides/presentationheaderfootermanager/setallslidenumbersvisibility)(bool) | すべてのページ番号プレースホルダーの表示状態を変更します。マスタースライド、レイアウトスライド、スライド、ノートマスタ、ノートスライド、ハンドアウトマスタを含みます。 |
+| [SetVisibilityOnAllTitleSlides](../../aspose.slides/presentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | タイトルスライドすべてと最初のレイアウトスライドに対して、フッター、日時、ページ番号プレースホルダーの表示状態を変更します。タイトルスライド – 最初のレイアウトスライドに基づくスライド（この最初のレイアウトの種類に関係なく）。 |
 
-### 関連項目
+### 参照
 
 * クラス [BaseHeaderFooterManager](../baseheaderfootermanager)
 * インターフェイス [IPresentationHeaderFooterManager](../ipresentationheaderfootermanager)

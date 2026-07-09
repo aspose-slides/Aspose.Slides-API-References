@@ -1,14 +1,14 @@
 ---
 title: ShapeElementFillSource
-second_title: Aspose.Sildes for .NET API Referansı
-description: Şekil öğesinin nasıl doldurulacağını temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Şekil öğesinin nasıl doldurulması gerektiğini temsil eder.
 type: docs
-weight: 9860
+weight: 9880
 url: /tr/aspose.slides/shapeelementfillsource/
 ---
 ## ShapeElementFillSource enum
 
-Şekil öğesinin nasıl doldurulacağını temsil eder.
+Şekil öğesinin nasıl doldurulması gerektiğini temsil eder.
 
 ```csharp
 public enum ShapeElementFillSource : byte
@@ -16,16 +16,16 @@ public enum ShapeElementFillSource : byte
 
 ### Değerler
 
-| Ad | Değer | Açıklama |
+| İsim | Değer | Açıklama |
 | --- | --- | --- |
-| NoFill | `0` | İlkel doldurulmaz. |
-| Shape | `1` | Şeklin dolgusunu kullan. |
-| Lighten | `2` | Şeklin dolgusunu aydınlat. |
-| LightenLess | `3` | Şeklin dolgusunu daha az aydınlat. |
-| Darken | `4` | Şeklin dolgusunu karart. |
-| DarkenLess | `5` | Şeklin dolgusunu daha az karart. |
+| NoFill | `0` | İlkel nesneyi doldurma. |
+| Shape | `1` | Şeklin doldurulmasını kullan. |
+| Lighten | `2` | Şeklin aydınlatılmış doldurmasını kullan. |
+| LightenLess | `3` | Daha az aydınlatılmış şekil doldurmasını kullan. |
+| Darken | `4` | Şeklin karartılmış doldurmasını kullan. |
+| DarkenLess | `5` | Daha az karartılmış şekil doldurmasını kullan. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

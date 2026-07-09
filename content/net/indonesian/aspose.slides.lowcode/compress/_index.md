@@ -1,14 +1,14 @@
 ---
 title: Compress
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili sekumpulan metode yang ditujukan untuk mengompres Presentation../aspose.slides/presentation.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili sekumpulan metode yang dimaksudkan untuk mengompres Presentation../aspose.slides/presentation.
 type: docs
-weight: 7850
+weight: 7870
 url: /id/aspose.slides.lowcode/compress/
 ---
 ## Compress kelas
 
-Mewakili sekumpulan metode yang ditujukan untuk mengkompres [`Presentation`](../../aspose.slides/presentation).
+Mewakili sekumpulan metode yang dimaksudkan untuk mengompres [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public static class Compress
@@ -18,9 +18,9 @@ public static class Compress
 
 | Nama | Deskripsi |
 | --- | --- |
-| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | Melakukan kompresi [`Presentation`](../../aspose.slides/presentation) dengan menghapus karakter yang tidak digunakan dari font yang disematkan. |
-| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | Melakukan kompresi [`Presentation`](../../aspose.slides/presentation) dengan menghapus slide tata letak yang tidak digunakan. |
-| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | Melakukan kompresi [`Presentation`](../../aspose.slides/presentation) dengan menghapus slide master yang tidak digunakan. |
+| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | Melakukan kompresi [`Presentation`](../../aspose.slides/presentation) dengan menghapus karakter yang tidak terpakai dari font yang disematkan. |
+| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | Melakukan kompresi [`Presentation`](../../aspose.slides/presentation) dengan menghapus slide tata letak yang tidak terpakai. |
+| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | Melakukan kompresi [`Presentation`](../../aspose.slides/presentation) dengan menghapus slide master yang tidak terpakai. |
 
 ### Contoh
 

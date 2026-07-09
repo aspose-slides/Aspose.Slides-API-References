@@ -3,7 +3,7 @@ title: Compress
 second_title: Aspose.Sildes for .NET API リファレンス
 description: Presentation../aspose.slides/presentation を圧縮することを目的としたメソッドのグループを表します。
 type: docs
-weight: 7850
+weight: 7870
 url: /ja/aspose.slides.lowcode/compress/
 ---
 ## Compress クラス
@@ -18,9 +18,9 @@ public static class Compress
 
 | 名前 | 説明 |
 | --- | --- |
-| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | [`Presentation`](../../aspose.slides/presentation) の圧縮を、埋め込みフォントから未使用の文字を削除することで実行します。 |
-| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | [`Presentation`](../../aspose.slides/presentation) の圧縮を、未使用のレイアウトスライドを削除することで実行します。 |
-| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | [`Presentation`](../../aspose.slides/presentation) の圧縮を、未使用のマスタースライドを削除することで実行します。 |
+| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | [`Presentation`](../../aspose.slides/presentation) の圧縮を、組み込みフォントから未使用文字を削除して実行します。 |
+| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | [`Presentation`](../../aspose.slides/presentation) の圧縮を、未使用のレイアウトスライドを削除して実行します。 |
+| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | [`Presentation`](../../aspose.slides/presentation) の圧縮を、未使用のマスター スライドを削除して実行します。 |
 
 ### 例
 
@@ -33,7 +33,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
 * アセンブリ [Aspose.Slides](../../)

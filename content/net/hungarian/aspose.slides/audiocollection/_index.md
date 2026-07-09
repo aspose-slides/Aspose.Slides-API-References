@@ -1,14 +1,14 @@
 ---
 title: AudioCollection
-second_title: Aspose.Sildes .NET API Referenciája
-description: Beágyazott audio fájlok gyűjteményét képviseli.
+second_title: Aspose.Sildes .NET API-referencia
+description: Beágyazott hangfájlok gyűjteményét képviseli.
 type: docs
-weight: 840
+weight: 860
 url: /hu/aspose.slides/audiocollection/
 ---
 ## AudioCollection osztály
 
-Egy beágyazott audio fájlok gyűjteményét jeleníti meg.
+Beágyazott hangfájlok gyűjteményét képviseli.
 
 ```csharp
 public class AudioCollection : DomObject<Presentation>, IAudioCollection
@@ -18,21 +18,21 @@ public class AudioCollection : DomObject<Presentation>, IAudioCollection
 
 | Név | Leírás |
 | --- | --- |
-| [Count](../../aspose.slides/audiocollection/count) { get; } | Visszaadja a gyűjteményben lévő audio fájlok számát. Csak olvasható Int32. |
-| [IsSynchronized](../../aspose.slides/audiocollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált (szálbiztos). Csak olvasható Boolean. |
+| [Count](../../aspose.slides/audiocollection/count) { get; } | A gyűjteményben lévő hangfájlok számát adja vissza. Csak olvasható Int32. |
+| [IsSynchronized](../../aspose.slides/audiocollection/issynchronized) { get; } | A gyűjteményhez való hozzáférés szinkronizáltságát (szálbiztonság) jelző értéket ad vissza. Csak olvasható Boolean. |
 | [Item](../../aspose.slides/audiocollection/item) { get; } | A megadott indexű elemet adja vissza. Csak olvasható [`IAudio`](../iaudio). |
-| [SyncRoot](../../aspose.slides/audiocollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökeret. Csak olvasható Object. |
+| [SyncRoot](../../aspose.slides/audiocollection/syncroot) { get; } | A szinkronizáció gyökérobjektumát adja vissza. Csak olvasható Object. |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_1)(byte[]) | Létrehoz és hozzáad egy audiót a prezentációhoz bájttömbből. |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio)(IAudio) | Hozzáad egy másik prezentációból származó audio fájl másolatát. |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_2)(Stream) | Létrehoz és hozzáad egy audiót a prezentációhoz adatfolyam alapján. |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Létrehoz és hozzáad egy audiót a prezentációhoz adatfolyamból, a LoadingStreamBehavior használatával. |
-| [CopyTo](../../aspose.slides/audiocollection/copyto)(Array, int) | Átmásolja az audiókat a megadott tömbbe a megadott indextől kezdve. |
-| [GetEnumerator](../../aspose.slides/audiocollection/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_1)(byte[]) | Létrehozza és hozzáad egy hangot a prezentációhoz egy byte tömbből. |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio)(IAudio) | Hozzáad egy hangfájl másolatát egy másik prezentációból. |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_2)(Stream) | Létrehozza és hozzáad egy hangot a prezentációhoz egy folyam alapján. |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Létrehozza és hozzáad egy hangot a prezentációhoz egy folyam alapján. |
+| [CopyTo](../../aspose.slides/audiocollection/copyto)(Array, int) | Hangokat másol a megadott tömbbe a megadott indextől kezdve. |
+| [GetEnumerator](../../aspose.slides/audiocollection/getenumerator)() | Visszaad egy enumerátort, amely bejárja a gyűjteményt. |
 
 ### Lásd még
 

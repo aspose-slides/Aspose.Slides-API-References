@@ -1,14 +1,14 @@
 ---
 title: IPortionFormat
 second_title: Aspose.Sildes pro .NET API Reference
-description: Tato třída obsahuje vlastnosti formátování textových částí. Na rozdíl od IPortionFormatEffectiveData./iportionformateffectivedata jsou všechny vlastnosti této třídy zapisovatelné.
+description: Tato třída obsahuje vlastnosti formátování textových úseků. Na rozdíl od IPortionFormatEffectiveData./iportionformateffectivedata jsou všechny vlastnosti této třídy zapisovatelné.
 type: docs
-weight: 6710
+weight: 6730
 url: /cs/aspose.slides/iportionformat/
 ---
 ## IPortionFormat rozhraní
 
-Tato třída obsahuje vlastnosti formátování textových částí. Na rozdíl od [`IPortionFormatEffectiveData`](../iportionformateffectivedata) jsou všechny vlastnosti této třídy zapisovatelné.
+Tato třída obsahuje vlastnosti formátování textových úseků. Na rozdíl od [`IPortionFormatEffectiveData`](../iportionformateffectivedata) jsou všechny vlastnosti této třídy zapisovatelné.
 
 ```csharp
 public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
@@ -21,19 +21,19 @@ public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
 | [AsIBasePortionFormat](../../aspose.slides/iportionformat/asibaseportionformat) { get; } | Vrací rozhraní IBasePortionFormat. Pouze pro čtení [`IBasePortionFormat`](../ibaseportionformat). |
 | [AsIHyperlinkContainer](../../aspose.slides/iportionformat/asihyperlinkcontainer) { get; } | Umožňuje získat základní rozhraní IHyperlinkContainer. Pouze pro čtení [`IHyperlinkContainer`](../ihyperlinkcontainer). |
 | [BookmarkId](../../aspose.slides/iportionformat/bookmarkid) { get; set; } | Vrací nebo nastavuje identifikátor záložky. Čtení/zápis String. |
-| [SmartTagClean](../../aspose.slides/iportionformat/smarttagclean) { get; set; } | Určuje, zda má být inteligentní značka vyčištěna. Není použito dědičnosti. Čtení/zápis Boolean. |
+| [SmartTagClean](../../aspose.slides/iportionformat/smarttagclean) { get; set; } | Určuje, zda by měl být inteligentní štítek vyčištěn. Dědičnost se nepoužije. Čtení/zápis Boolean. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [GetEffective](../../aspose.slides/iportionformat/geteffective)() | Získá data efektivního formátování částí s aplikovanou dědičností. |
+| [GetEffective](../../aspose.slides/iportionformat/geteffective)() | Získá efektivní data formátování úseku s aplikovanou dědičností. |
 
 ### Poznámky
 
-Tato třída se používá k vracení a manipulaci s vlastnostmi formátování textové části definovanými pro konkrétní část. To znamená, že při získávání hodnot se neaplikuje dědičnost, takže ve většině případů obdržíte hodnoty označující „nedefinováno“.
+Tato třída se používá k vracení a manipulaci s vlastnostmi formátování textových úseků definovanými pro konkrétní úsek. To znamená, že při získávání hodnot se nepoužije dědičnost, takže ve většině případů získáte hodnoty označující „nedefinováno“.
 
-Pro získání efektivních hodnot parametrů formátování včetně zděděných musíte použít metodu [`GetEffective`](./geteffective), která vrací instanci [`IPortionFormatEffectiveData`](../iportionformateffectivedata).
+Pro získání efektivních hodnot parametrů formátování včetně zděděných je třeba použít metodu [`GetEffective`](./geteffective), která vrací instanci [`IPortionFormatEffectiveData`](../iportionformateffectivedata).
 
 ### Viz také
 

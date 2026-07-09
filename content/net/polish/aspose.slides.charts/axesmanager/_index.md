@@ -1,14 +1,14 @@
 ---
 title: AxesManager
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
-description: Zapewnia dostęp do osi wykresu.
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Umożliwia dostęp do osi wykresu.
 type: docs
-weight: 1150
+weight: 1170
 url: /pl/aspose.slides.charts/axesmanager/
 ---
 ## AxesManager klasa
 
-Zapewnia dostęp do osi wykresu.
+Umożliwia dostęp do osi wykresu.
 
 ```csharp
 public class AxesManager : DomObject<Chart>, IAxesManager
@@ -19,8 +19,8 @@ public class AxesManager : DomObject<Chart>, IAxesManager
 | Nazwa | Opis |
 | --- | --- |
 | [HorizontalAxis](../../aspose.slides.charts/axesmanager/horizontalaxis) { get; } | Zwraca poziomą oś wykresu. Tylko do odczytu [`IAxis`](../iaxis). |
-| [SecondaryHorizontalAxis](../../aspose.slides.charts/axesmanager/secondaryhorizontalaxis) { get; } | Zwraca drugą poziomą oś wykresu. Tylko do odczytu [`IAxis`](../iaxis). |
-| [SecondaryVerticalAxis](../../aspose.slides.charts/axesmanager/secondaryverticalaxis) { get; } | Zwraca drugą pionową oś wykresu. Tylko do odczytu [`IAxis`](../iaxis). |
+| [SecondaryHorizontalAxis](../../aspose.slides.charts/axesmanager/secondaryhorizontalaxis) { get; } | Zwraca dodatkową poziomą oś wykresu. Tylko do odczytu [`IAxis`](../iaxis). |
+| [SecondaryVerticalAxis](../../aspose.slides.charts/axesmanager/secondaryverticalaxis) { get; } | Zwraca dodatkową pionową oś wykresu. Tylko do odczytu [`IAxis`](../iaxis). |
 | [SeriesAxis](../../aspose.slides.charts/axesmanager/seriesaxis) { get; } | Zwraca oś serii wykresu. Tylko do odczytu [`IAxis`](../iaxis). |
 | [VerticalAxis](../../aspose.slides.charts/axesmanager/verticalaxis) { get; } | Zwraca pionową oś wykresu. Tylko do odczytu [`IAxis`](../iaxis). |
 

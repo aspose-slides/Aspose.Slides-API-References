@@ -1,9 +1,9 @@
 ---
 title: IHyperlink
-second_title: Aspose.Sildes dla .NET – odniesienie do API
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
 description: Reprezentuje hiperłącze.
 type: docs
-weight: 6090
+weight: 6110
 url: /pl/aspose.slides/ihyperlink/
 ---
 ## IHyperlink interfejs
@@ -16,29 +16,29 @@ public interface IHyperlink
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [ActionType](../../aspose.slides/ihyperlink/actiontype) { get; } | Zwraca typ akcji HyperLinkEx. Tylko do odczytu [`HyperlinkActionType`](../hyperlinkactiontype). |
-| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | Reprezentuje źródło koloru hiperłącza – style lub format części. Do odczytu i zapisu [`HyperlinkColorSource`](../hyperlinkcolorsource). |
-| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | Określa zewnętrzny URL. Jeśli ta właściwość nie jest null, wtedy właściwość TargetSlide jest null. Tylko do odczytu String. |
-| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | Reprezentuje hiperłącze ustawione dla tej części, niezależnie od rzeczywistej zawartości części. PowerPoint zachowuje się specyficznie względem linków i odpowiadającego im tekstu w części. Pozwala tworzyć tekst hiperłącza w postaci prawidłowego URL, różnego od rzeczywistego adresu linku. W takim przypadku, gdy przeglądasz link w oknie edycji, zostanie on zmieniony, aby pasował do tekstu części. Ta właściwość reprezentuje pierwotną wartość hiperłącza. |
-| [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | Określa, czy hiperłącze ma być podświetlane po kliknięciu. Do odczytu i zapisu Boolean. |
-| [History](../../aspose.slides/ihyperlink/history) { get; set; } | Określa, czy cel nadrzędnego hiperłącza ma być dodany do listy oglądanych hiperłączy po jego wywołaniu. Do odczytu i zapisu Boolean. |
-| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | Reprezentuje odtwarzany dźwięk hiperłącza. Do odczytu i zapisu [`IAudio`](../iaudio). |
-| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | Określa, czy dźwięk ma być zatrzymany po kliknięciu hiperłącza. Do odczytu i zapisu Boolean. |
-| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | Zwraca ramkę w ramach nadrzędnego zestawu ramek HTML dla celu nadrzędnego hiperłącza, jeśli istnieje. Do odczytu i zapisu String. |
-| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | Jeśli HyperlinkEx wskazuje konkretny slajd, zwraca ten slajd. Jeśli właściwość nie jest null, wtedy właściwość ExternalUrl jest null. Tylko do odczytu [`ISlide`](../islide). |
-| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | Zwraca ciąg znaków, który może być wyświetlany w interfejsie użytkownika jako powiązany z nadrzędnym hiperłączem. Do odczytu i zapisu String. |
+| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | Reprezentuje źródło koloru hiperłącza – styl lub format fragmentu. Odczyt/zapis [`HyperlinkColorSource`](../hyperlinkcolorsource). |
+| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | Określa zewnętrzny URL. Jeśli ta właściwość nie jest null, właściwość TargetSlide jest null. Tylko do odczytu String. |
+| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | Reprezentuje hiperłącze ustawione dla tego fragmentu niezależnie od rzeczywistej zawartości fragmentu. PowerPoint zachowuje się specyficznie względem linków i ich odpowiadającego tekstu w fragmencie. Umożliwia utworzenie tekstu hiperłącza w postaci prawidłowego URL, różnego od rzeczywistego adresu linku. W takim przypadku, po wyświetleniu linku w oknie edycji, zostanie on zmieniony, aby pasował do tekstu fragmentu. Ta właściwość reprezentuje pierwotną wartość hiperłącza. |
+| [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | Określa, czy hiperłącze powinno być podświetlane po kliknięciu. Odczyt/zapis Boolean. |
+| [History](../../aspose.slides/ihyperlink/history) { get; set; } | Określa, czy docelowy element nadrzędnego hiperłącza ma być dodany do listy przeglądanych hiperłączy po jego wywołaniu. Odczyt/zapis Boolean. |
+| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | Reprezentuje odtwarzany dźwięk hiperłącza. Odczyt/zapis [`IAudio`](../iaudio). |
+| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | Określa, czy dźwięk ma być zatrzymany po kliknięciu hiperłącza. Odczyt/zapis Boolean. |
+| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | Zwraca ramkę w ramach nadrzędnego zestawu ramek HTML dla docelowego elementu nadrzędnego hiperłącza, jeśli istnieje. Odczyt/zapis String. |
+| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | Jeśli HyperlinkEx wskazuje konkretny slajd, zwraca ten slajd. Jeśli ta właściwość nie jest null, właściwość ExternalUrl jest null. Tylko do odczytu [`ISlide`](../islide). |
+| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | Zwraca ciąg znaków, który może być wyświetlany w interfejsie użytkownika jako powiązany z nadrzędnym hiperłączem. Odczyt/zapis String. |
 
 ## Metody
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
-| [Equals](../../aspose.slides/ihyperlink/equals)(IHyperlink) | Określa, czy dwie instancje Hyperlink są równe. |
+| [Equals](../../aspose.slides/ihyperlink/equals)(IHyperlink) | Określa, czy dwa wystąpienia Hyperlink są równe. |
 
 ### Zobacz także
 
 * przestrzeń nazw [Aspose.Slides](../../aspose.slides)
-* zestaw [Aspose.Slides](../../)
+* zbiór [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

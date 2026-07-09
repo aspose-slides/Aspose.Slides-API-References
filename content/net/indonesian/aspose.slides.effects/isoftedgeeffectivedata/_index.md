@@ -1,14 +1,14 @@
 ---
 title: ISoftEdgeEffectiveData
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Objek tak berubah yang mewakili efek tepi lembut. Tepi bentuk menjadi kabur sementara isian tidak terpengaruh.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Objek tidak dapat diubah yang mewakili efek tepi lembut. Tepi bentuk diburamkan sementara isinya tidak terpengaruh.
 type: docs
-weight: 3510
+weight: 3530
 url: /id/aspose.slides.effects/isoftedgeeffectivedata/
 ---
 ## ISoftEdgeEffectiveData antarmuka
 
-Objek tak berubah yang mewakili efek tepi lembut. Tepi bentuk menjadi kabur, sementara isian tidak terpengaruh.
+Objek tidak dapat diubah yang mewakili efek tepi lembut. Tepi bentuk diburamkan, sementara isinya tidak terpengaruh.
 
 ```csharp
 public interface ISoftEdgeEffectiveData : IEffectEffectiveData
@@ -18,8 +18,8 @@ public interface ISoftEdgeEffectiveData : IEffectEffectiveData
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata) { get; } | Mengizinkan untuk mendapatkan antarmuka IEffectEffectiveData dasar. Baca-saja [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | Menentukan radius blur yang diterapkan pada tepi. Baca-saja Double. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata) { get; } | Mengizinkan untuk mendapatkan antarmuka IEffectEffectiveData dasar. Hanya-baca [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | Menentukan radius blur yang diterapkan pada tepi. Hanya-baca Double. |
 
 ### Lihat Juga
 

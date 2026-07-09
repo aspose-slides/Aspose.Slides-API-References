@@ -1,14 +1,14 @@
 ---
 title: Backdrop3DScene
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
+second_title: Aspose.Sildes dla .NET Referencja API
 description: Definiuje płaszczyznę, w której efekty takie jak poświata i cień są stosowane w odniesieniu do kształtu, do którego są aplikowane.
 type: docs
-weight: 900
+weight: 920
 url: /pl/aspose.slides/backdrop3dscene/
 ---
 ## Backdrop3DScene klasa
 
-Definiuje płaszczyznę, na której efekty, takie jak poświata i cień, są stosowane w stosunku do kształtu, do którego są stosowane.
+Definiuje płaszczyznę, w której efekty, takie jak poświata i cień, są stosowane względem kształtu, do którego są aplikowane.
 
 ```csharp
 public sealed class Backdrop3DScene : PVIObject, IBackdrop3DScene
@@ -18,10 +18,10 @@ public sealed class Backdrop3DScene : PVIObject, IBackdrop3DScene
 
 | Nazwa | Opis |
 | --- | --- |
-| [AnchorPoint](../../aspose.slides/backdrop3dscene/anchorpoint) { get; set; } | Zwraca lub ustawia punkt w przestrzeni 3D. Ten punkt jest punktem w przestrzeni, który utrzymuje płaszczyznę tła. Punkt 3D reprezentowany przez tablicę 3 wartości typu float określających współrzędne X, Y i Z. Odczyt/zapis Single[]. |
+| [AnchorPoint](../../aspose.slides/backdrop3dscene/anchorpoint) { get; set; } | Zwraca lub ustawia punkt w przestrzeni 3D. Ten punkt jest punktem w przestrzeni, który zakotwicza płaszczyznę tła. Punkt 3D jest reprezentowany jako tablica 3 wartości zmiennoprzecinkowych określających współrzędne X, Y i Z. Odczyt/zapis Single[]. |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umożliwia pobranie podstawowego interfejsu IPresentationComponent. Tylko do odczytu [`IPresentationComponent`](../ipresentationcomponent). |
-| [NormalVector](../../aspose.slides/backdrop3dscene/normalvector) { get; set; } | Zwraca lub ustawia wektor normalny. Dokładniej, ten atrybut definiuje wektor prostopadły do powierzchni płaszczyzny tła. Wektor reprezentowany przez tablicę 3 wartości typu float określających współrzędne X, Y i Z. Odczyt/zapis Single[]. |
-| [UpVector](../../aspose.slides/backdrop3dscene/upvector) { get; set; } | Zwraca lub ustawia wektor reprezentujący kierunek w górę. Dokładniej, ten atrybut definiuje wektor reprezentujący w górę w odniesieniu do powierzchni płaszczyzny tła. Wektor reprezentowany przez tablicę 3 wartości typu float określających współrzędne X, Y i Z. Odczyt/zapis Single[]. |
+| [NormalVector](../../aspose.slides/backdrop3dscene/normalvector) { get; set; } | Zwraca lub ustawia wektor normalny. Dokładniej, ten atrybut definiuje wektor prostopadły do powierzchni płaszczyzny tła. Wektor jest reprezentowany jako tablica 3 wartości zmiennoprzecinkowych określających współrzędne X, Y i Z. Odczyt/zapis Single[]. |
+| [UpVector](../../aspose.slides/backdrop3dscene/upvector) { get; set; } | Zwraca lub ustawia wektor reprezentujący kierunek w górę. Dokładniej, ten atrybut definiuje wektor reprezentujący kierunek w górę względem powierzchni płaszczyzny tła. Wektor jest reprezentowany jako tablica 3 wartości zmiennoprzecinkowych określających współrzędne X, Y i Z. Odczyt/zapis Single[]. |
 
 ## Metody
 

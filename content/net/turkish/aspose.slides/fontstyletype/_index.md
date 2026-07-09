@@ -1,12 +1,12 @@
 ---
 title: FontStyleType
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Metne uygulanabilecek biçimlendirme stillerini tanımlar.
 type: docs
-weight: 4850
+weight: 4870
 url: /tr/aspose.slides/fontstyletype/
 ---
-## FontStyleType enum
+## FontStyleType enumeration
 
 Metne uygulanabilecek biçimlendirme stillerini tanımlar.
 
@@ -23,9 +23,9 @@ public enum FontStyleType
 | Bold | `1` | Kalın metin. |
 | Italic | `2` | İtalik metin. |
 | Underline | `4` | Altı çizili metin. |
-| Strikeout | `8` | Yatay bir çizgiyle üstü çizili metin. |
+| Strikeout | `8` | Metin yatay bir çizgiyle üzeri çizili. |
 
-### Ayrıca Bakınız
+### Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

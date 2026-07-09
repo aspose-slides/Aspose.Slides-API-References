@@ -3,10 +3,10 @@ title: ITableFormat
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar formatet för en tabell.
 type: docs
-weight: 7220
+weight: 7240
 url: /sv/aspose.slides/itableformat/
 ---
-## ITableFormat gränssnitt
+## ITableFormat-gränssnitt
 
 Representerar formatet för en tabell.
 
@@ -16,16 +16,16 @@ public interface ITableFormat
 
 ## Egenskaper
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
 | [FillFormat](../../aspose.slides/itableformat/fillformat) { get; } | Returnerar ett objekt för tabellens fyllningsegenskaper. Skrivskyddad [`IFillFormat`](../ifillformat). |
 | [Transparency](../../aspose.slides/itableformat/transparency) { get; set; } | Hämtar eller anger transparensen för fyllningsfärgen. Läs/skriv Single. |
 
 ## Metoder
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
-| [GetEffective](../../aspose.slides/itableformat/geteffective)() | Hämtar effektiva tabellformateringsegenskaper med arv och tillämpade tabellstilar. |
+| [GetEffective](../../aspose.slides/itableformat/geteffective)() | Hämtar de effektiva formateringsegenskaperna för tabellen med ärvda och tillämpade tabellstilar. |
 
 ### Se även
 

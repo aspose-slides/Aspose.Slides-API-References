@@ -3,7 +3,7 @@ title: OdpReadException
 second_title: Aspose.Sildes for .NET API リファレンス
 description: プレゼンテーションの読み取りエラー時にスローされる例外を表します。
 type: docs
-weight: 9200
+weight: 9220
 url: /ja/aspose.slides/odpreadexception/
 ---
 ## OdpReadException クラス
@@ -18,9 +18,9 @@ public class OdpReadException : OdpException
 
 | 名前 | 説明 |
 | --- | --- |
-| [OdpReadException](odpreadexception#constructor)() | デフォルトコンストラクタ |
-| [OdpReadException](odpreadexception#constructor_1)(string) | この例外にメッセージを追加できるコンストラクタ。 |
-| [OdpReadException](odpreadexception#constructor_2)(string, Exception) | メッセージと内部例外を含む例外のためのコンストラクタ。 |
+| [OdpReadException](odpreadexception#constructor)() | 既定のコンストラクタ |
+| [OdpReadException](odpreadexception#constructor_1)(string) | この例外にメッセージを追加できるコンストラクタ |
+| [OdpReadException](odpreadexception#constructor_2)(string, Exception) | メッセージと内部例外を含む例外用コンストラクタ |
 
 ### 参照
 

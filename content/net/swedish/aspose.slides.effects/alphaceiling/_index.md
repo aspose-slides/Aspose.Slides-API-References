@@ -1,14 +1,14 @@
 ---
 title: AlphaCeiling
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en Alpha Ceiling-effekt. Alpha-opacitetsvärden som är större än noll ändras till 100. Med andra ord blir allt delvis ogenomskinligt helt ogenomskinligt.
+description: Representerar en Alpha Ceiling-effekt. Alpha-opacitetsvärden större än noll ändras till 100. Med andra ord blir allt delvis ogenomskinligt helt ogenomskinligt.
 type: docs
-weight: 2830
+weight: 2850
 url: /sv/aspose.slides.effects/alphaceiling/
 ---
 ## AlphaCeiling klass
 
-Representerar en Alpha Ceiling-effekt. Alpha (opacitet) värden som är större än noll ändras till 100 %. Med andra ord blir allt delvis ogenomskinligt helt ogenomskinligt.
+Representerar en Alpha Ceiling-effekt. Alpha (opacitet)-värden större än noll ändras till 100 %. Med andra ord blir allt delvis ogenomskinligt helt ogenomskinligt.
 
 ```csharp
 public sealed class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
@@ -18,17 +18,17 @@ public sealed class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas-IPresentationComponent-gränssnittet. Skriv-skyddad [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas-IPresentationComponent-gränssnittet. Skrivskyddad [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphaceiling/equals)(object) | Bestämmer om den angivna [`AlphaCeiling`](../alphaceiling) är lika med den aktuella [`AlphaCeiling`](../alphaceiling). |
-| [GetEffective](../../aspose.slides.effects/alphaceiling/geteffective)() | Hämtar effektiva Alpha Ceiling-effektsdata med ärftligheten tillämpad. |
+| [GetEffective](../../aspose.slides.effects/alphaceiling/geteffective)() | Hämtar effektiva Alpha Ceiling-effektsdata med ärftlighet tillämpad. |
 | override [GetHashCode](../../aspose.slides.effects/alphaceiling/gethashcode)() | Fungerar som en hash-funktion för en viss typ. |
 
-### Se även
+### Se också
 
 * klass [ImageTransformOperation](../imagetransformoperation)
 * gränssnitt [IAlphaCeiling](../ialphaceiling)

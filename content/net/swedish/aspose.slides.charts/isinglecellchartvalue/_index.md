@@ -3,7 +3,7 @@ title: ISingleCellChartValue
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en diagramdatacell.
 type: docs
-weight: 2190
+weight: 2210
 url: /sv/aspose.slides.charts/isinglecellchartvalue/
 ---
 ## ISingleCellChartValue gränssnitt
@@ -19,7 +19,7 @@ public interface ISingleCellChartValue : IBaseChartValue
 | Namn | Beskrivning |
 | --- | --- |
 | [AsCell](../../aspose.slides.charts/isinglecellchartvalue/ascell) { get; set; } | Returnerar eller anger diagramdatacell. Läs/skriv [`IChartDataCell`](../ichartdatacell). |
-| [AsIBaseChartValue](../../aspose.slides.charts/isinglecellchartvalue/asibasechartvalue) { get; } | Tillåter att hämta bas-IBaseChartValue-gränssnittet. Skrivskyddad [`IBaseChartValue`](../ibasechartvalue). |
+| [AsIBaseChartValue](../../aspose.slides.charts/isinglecellchartvalue/asibasechartvalue) { get; } | Tillåter att hämta bas-IBaseChartValue-gränssnittet. Endast läsning [`IBaseChartValue`](../ibasechartvalue). |
 
 ### Se även
 

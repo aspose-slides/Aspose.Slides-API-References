@@ -1,14 +1,14 @@
 ---
 title: PresentationHeaderFooterManager
-second_title: Aspose.Sildes para referência da API .NET
-description: Representa o gerenciador que controla o comportamento de todos os marcadores de rodapé, data e hora e número de página da apresentação.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Representa o gerenciador que contém o comportamento de todos os marcadores de rodapé, data/hora e número de página da apresentação.
 type: docs
-weight: 9590
+weight: 9610
 url: /pt/aspose.slides/presentationheaderfootermanager/
 ---
 ## PresentationHeaderFooterManager classe
 
-Representa o gerenciador que controla o comportamento de todos os marcadores de rodapé, data-hora e número de página da apresentação.
+Representa o gerenciador que controla o comportamento de todos os marcadores de rodapé, data/hora e número de página da apresentação.
 
 ```csharp
 public class PresentationHeaderFooterManager : BaseHeaderFooterManager, 
@@ -19,14 +19,14 @@ public class PresentationHeaderFooterManager : BaseHeaderFooterManager,
 
 | Nome | Descrição |
 | --- | --- |
-| [SetAllDateTimesText](../../aspose.slides/presentationheaderfootermanager/setalldatetimestext)(string) | Define o texto para todos os marcadores de data e hora, incluindo slides mestre, slides de layout, slides, mestre de notas, slides de notas e mestre de folheto. |
-| [SetAllDateTimesVisibility](../../aspose.slides/presentationheaderfootermanager/setalldatetimesvisibility)(bool) | Altera a visibilidade de todos os marcadores de data e hora, incluindo slides mestre, slides de layout, slides, mestre de notas, slides de notas e mestre de folheto. |
-| [SetAllFootersText](../../aspose.slides/presentationheaderfootermanager/setallfooterstext)(string) | Define o texto para todos os marcadores de rodapé, incluindo slides mestre, slides de layout, slides, mestre de notas, slides de notas e mestre de folheto. |
-| [SetAllFootersVisibility](../../aspose.slides/presentationheaderfootermanager/setallfootersvisibility)(bool) | Altera a visibilidade de todos os marcadores de rodapé, incluindo slides mestre, slides de layout, slides, mestre de notas, slides de notas e mestre de folheto. |
-| [SetAllHeadersText](../../aspose.slides/presentationheaderfootermanager/setallheaderstext)(string) | Define o texto para todos os marcadores de cabeçalho, incluindo mestre de notas, slides de notas e mestre de folheto. |
-| [SetAllHeadersVisibility](../../aspose.slides/presentationheaderfootermanager/setallheadersvisibility)(bool) | Altera a visibilidade de todos os marcadores de cabeçalho, incluindo mestre de notas, slides de notas e mestre de folheto. |
-| [SetAllSlideNumbersVisibility](../../aspose.slides/presentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Altera a visibilidade de todos os marcadores de número de página, incluindo slides mestre, slides de layout, slides, mestre de notas, slides de notas e mestre de folheto. |
-| [SetVisibilityOnAllTitleSlides](../../aspose.slides/presentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Altera a visibilidade dos marcadores de rodapé, data e hora e número de página para todos os slides de título e para o primeiro slide de layout. Slides de título – slides baseados no primeiro slide de layout (independentemente do tipo desse primeiro layout). |
+| [SetAllDateTimesText](../../aspose.slides/presentationheaderfootermanager/setalldatetimestext)(string) | Define o texto para todos os marcadores de data/hora, incluindo slides mestre, slides de layout, slides, mestre de notas, slides de notas e mestre de folhetos. |
+| [SetAllDateTimesVisibility](../../aspose.slides/presentationheaderfootermanager/setalldatetimesvisibility)(bool) | Altera a visibilidade de todos os marcadores de data/hora, incluindo slides mestre, slides de layout, slides, mestre de notas, slides de notas e mestre de folhetos. |
+| [SetAllFootersText](../../aspose.slides/presentationheaderfootermanager/setallfooterstext)(string) | Define o texto para todos os marcadores de rodapé, incluindo slides mestre, slides de layout, slides, mestre de notas, slides de notas e mestre de folhetos. |
+| [SetAllFootersVisibility](../../aspose.slides/presentationheaderfootermanager/setallfootersvisibility)(bool) | Altera a visibilidade de todos os marcadores de rodapé, incluindo slides mestre, slides de layout, slides, mestre de notas, slides de notas e mestre de folhetos. |
+| [SetAllHeadersText](../../aspose.slides/presentationheaderfootermanager/setallheaderstext)(string) | Define o texto para todos os marcadores de cabeçalho, incluindo mestre de notas, slides de notas e mestre de folhetos. |
+| [SetAllHeadersVisibility](../../aspose.slides/presentationheaderfootermanager/setallheadersvisibility)(bool) | Altera a visibilidade de todos os marcadores de cabeçalho, incluindo mestre de notas, slides de notas e mestre de folhetos. |
+| [SetAllSlideNumbersVisibility](../../aspose.slides/presentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Altera a visibilidade de todos os marcadores de número de página, incluindo slides mestre, slides de layout, slides, mestre de notas, slides de notas e mestre de folhetos. |
+| [SetVisibilityOnAllTitleSlides](../../aspose.slides/presentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Altera a visibilidade dos marcadores de rodapé, data/hora e número de página para todos os slides de título e para o primeiro slide de layout. Slides de título – slides baseados no primeiro slide de layout (independentemente do tipo desse primeiro layout). |
 
 ### Veja também
 

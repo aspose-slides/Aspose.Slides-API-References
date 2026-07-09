@@ -1,12 +1,12 @@
 ---
 title: EffectSubtype
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili subtipe efek animasi.
 type: docs
-weight: 320
+weight: 340
 url: /id/aspose.slides.animation/effectsubtype/
 ---
-## Enumerasi EffectSubtype
+## EffectSubtype enumerasi
 
 Mewakili subtipe efek animasi.
 

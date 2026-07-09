@@ -1,27 +1,29 @@
 ---
 title: Aspose.Slides.AI
 second_title: Aspose.Sildes για .NET API Reference
-description: Περιέχει κλάσεις που παρέχουν δυνατότητες με τεχνητή νοημοσύνη για την ανάλυση και επεξεργασία παρουσιάσεων PowerPoint.
+description: Περιέχει κλάσεις που παρέχουν λειτουργίες βασισμένες στην τεχνητή νοημοσύνη για την ανάλυση και επεξεργασία παρουσιάσεων PowerPoint.
 type: docs
 weight: 20
 url: /el/aspose.slides.ai/
 ---
-Περιέχει κλάσεις που παρέχουν δυνατότητες με βάση την τεχνητή νοημοσύνη για την ανάλυση και επεξεργασία παρουσιάσεων PowerPoint.
+Περιέχει κλάσεις που παρέχουν λειτουργίες βασισμένες στην τεχνητή νοημοσύνη για την ανάλυση και επεξεργασία παρουσιάσεων PowerPoint.
 
 ## Κλάσεις
 
 | Κλάση | Περιγραφή |
 | --- | --- |
-| [OpenAIWebClient](./openaiwebclient) | Ενσωματωμένος ελαφρύς πελάτης ιστού OpenAI |
-| [SlidesAIAgent](./slidesaiagent) | Παρέχει δυνατότητες με τεχνητή νοημοσύνη για την επεξεργασία παρουσιάσεων. |
-| [SlidesAIAgentException](./slidesaiagentexception) | Αντιπροσωπεύει εξαιρέσεις που σχετίζονται με το Slides AI Agent. |
+| [AsposeAIWebClient](./asposeaiwebclient) | Μία ενσωματωμένη [`IAIWebClient`](../aspose.slides.ai/iaiwebclient) εφαρμογή που συνδέεται με το δικό της LLM της Aspose. Αυτό είναι ο προεπιλεγμένος πελάτης που χρησιμοποιείται από τον constructor χωρίς παραμέτρους [`SlidesAIAgent`](../aspose.slides.ai/slidesaiagent/slidesaiagent). |
+| [OpenAICompatibleWebClient](./openaicompatiblewebclient) | Μία ενσωματωμένη [`IAIWebClient`](../aspose.slides.ai/iaiwebclient) εφαρμογή που συνδέεται με έναν πάροχο LLM συμβατό με OpenAI σε καθορισμένο βασικό URL. |
+| [OpenAIWebClient](./openaiwebclient) | Μία ενσωματωμένη [`IAIWebClient`](../aspose.slides.ai/iaiwebclient) εφαρμογή που συνδέεται με το API της OpenAI. |
+| [SlidesAIAgent](./slidesaiagent) | Παρέχει λειτουργίες με τεχνητή νοημοσύνη για την επεξεργασία παρουσιάσεων. |
+| [SlidesAIAgentException](./slidesaiagentexception) | Αναπαριστά εξαιρέσεις σχετικές με το Slides AI Agent. |
 
 ## Διεπαφές
 
 | Διεπαφή | Περιγραφή |
 | --- | --- |
-| [IAIConversation](./iaiconversation) | Αντιπροσωπεύει μια συνεδρία συνομιλίας. Σε αντίθεση με τις συνηθισμένες κλήσεις AI, οι συνομιλίες διατηρούν ολόκληρο το πλαίσιο. |
-| [IAIWebClient](./iaiwebclient) | Διεπαφή πελάτη ιστού AI. Αυτή η διεπαφή επιτρέπει την αντικατάσταση διαφορετικών μοντέλων γλώσσας AI. Οι κλάσεις που υλοποιούν αυτή τη διεπαφή προορίζονται να χρησιμοποιούνται μαζί με `SlidesAIAgent`. |
+| [IAIConversation](./iaiconversation) | Αναπαριστά ένα στιγμιότυπο συζήτησης. Σε αντίθεση με τις κανονικές κλήσεις AI, οι συζητήσεις διατηρούν ολόκληρο το πλαίσιο. |
+| [IAIWebClient](./iaiwebclient) | Διεπαφή πελάτη AI Web. Αυτή η διεπαφή επιτρέπει την αντικατάσταση διαφορετικών μοντέλων γλώσσας AI. Οι κλάσεις που υλοποιούν αυτή τη διεπαφή προορίζονται να χρησιμοποιηθούν μαζί με `SlidesAIAgent`. |
 
 ## Απαρίθμηση
 

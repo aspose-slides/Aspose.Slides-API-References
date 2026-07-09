@@ -1,14 +1,14 @@
 ---
 title: EmbeddedEotFontsHtmlController
-second_title: Aspose.Sildes para referência da API .NET
-description: A classe controlador de formatação a ser usada para incorporação de fontes no formato EOT
+second_title: Referência da API Aspose.Sildes para .NET
+description: A classe de controlador de formatação a ser usada para incorporação de fontes no formato EOT.
 type: docs
-weight: 3760
+weight: 3780
 url: /pt/aspose.slides.export/embeddedeotfontshtmlcontroller/
 ---
-## classe EmbeddedEotFontsHtmlController
+## EmbeddedEotFontsHtmlController classe
 
-A classe controlador de formatação a ser usada para incorporação de fontes no formato EOT
+A classe de controlador de formatação a ser usada para incorporação de fontes no formato EOT.
 
 ```csharp
 public class EmbeddedEotFontsHtmlController : IEmbeddedEotFontsHtmlController
@@ -18,10 +18,10 @@ public class EmbeddedEotFontsHtmlController : IEmbeddedEotFontsHtmlController
 
 | Nome | Descrição |
 | --- | --- |
-| [EmbeddedEotFontsHtmlController](embeddedeotfontshtmlcontroller#constructor)() | Cria uma nova instância. |
-| [EmbeddedEotFontsHtmlController](embeddedeotfontshtmlcontroller#constructor_1)(IHtmlFormattingController) | Cria uma nova instância. |
+| [EmbeddedEotFontsHtmlController](embeddedeotfontshtmlcontroller#constructor)() | Cria nova instância. |
+| [EmbeddedEotFontsHtmlController](embeddedeotfontshtmlcontroller#constructor_1)(IHtmlFormattingController) | Cria nova instância. |
 
-### Veja Também
+### Ver também
 
 * interface [IEmbeddedEotFontsHtmlController](../iembeddedeotfontshtmlcontroller)
 * namespace [Aspose.Slides.Export](../../aspose.slides.export)

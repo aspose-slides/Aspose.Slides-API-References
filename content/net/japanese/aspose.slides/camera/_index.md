@@ -3,7 +3,7 @@ title: Camera
 second_title: Aspose.Sildes の .NET API リファレンス
 description: Camera を表します。
 type: docs
-weight: 1070
+weight: 1090
 url: /ja/aspose.slides/camera/
 ---
 ## Camera クラス
@@ -18,10 +18,10 @@ public sealed class Camera : PVIObject, ICamera
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。 読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [CameraType](../../aspose.slides/camera/cameratype) { get; set; } | Camera のタイプ。 読み取り/書き込み [`CameraPresetType`](../camerapresettype)。 |
-| [FieldOfViewAngle](../../aspose.slides/camera/fieldofviewangle) { get; set; } | Camera の視野 (0-180 度、視野角)。 読み取り/書き込み Single。 |
-| [Zoom](../../aspose.slides/camera/zoom) { get; set; } | Camera のズーム (パーセンテージでの正の値)。 読み取り/書き込み Single。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
+| [CameraType](../../aspose.slides/camera/cameratype) { get; set; } | カメラのタイプ。読み書き [`CameraPresetType`](../camerapresettype)。 |
+| [FieldOfViewAngle](../../aspose.slides/camera/fieldofviewangle) { get; set; } | カメラの視野角 (0-180 deg, field of View)。 読み書き Single。 |
+| [Zoom](../../aspose.slides/camera/zoom) { get; set; } | カメラのズーム (positive value in percentage)。 読み書き Single。 |
 
 ## メソッド
 
@@ -30,7 +30,7 @@ public sealed class Camera : PVIObject, ICamera
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 指定されたオブジェクトと比較します。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | ハッシュコードを返します。 |
 | [GetRotation](../../aspose.slides/camera/getrotation)() | 緯度座標、経度座標、および軸周りの回転を使用して回転が定義されます。戻り配列の最初の要素は緯度、2 番目は経度、3 番目は回転です。回転が定義されていない場合は null を返します。 |
-| [SetRotation](../../aspose.slides/camera/setrotation)(float, float, float) | 緯度座標、経度座標、および軸周りの回転を使用して回転が定義されます。座標値のいずれかが float.NaN の場合、回転は未定義となります。 |
+| [SetRotation](../../aspose.slides/camera/setrotation)(float, float, float) | 緯度座標、経度座標、および軸周りの回転を使用して回転が定義されます。任意の座標値が float.NaN の場合、回転は未定義となります。 |
 
 ### 参照
 

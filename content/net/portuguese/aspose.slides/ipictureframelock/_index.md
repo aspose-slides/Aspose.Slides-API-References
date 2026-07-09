@@ -1,27 +1,27 @@
 ---
 title: IPictureFrameLock
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Determina quais operações são desativadas no PictureFrameEx pai.
 type: docs
-weight: 6660
+weight: 6680
 url: /pt/aspose.slides/ipictureframelock/
 ---
 ## IPictureFrameLock interface
 
-Determina quais operações são desativadas no PictureFrameEx pai.
+Determines which operations are disabled on the parent PictureFrameEx.
 
 ```csharp
 public interface IPictureFrameLock : IBaseShapeLock
 ```
 
-## Properties
+## Propriedades
 
 | Nome | Descrição |
 | --- | --- |
 | [AdjustHandlesLocked](../../aspose.slides/ipictureframelock/adjusthandleslocked) { get; set; } | Determina se a alteração de valores de ajuste é proibida. Leitura/gravação Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/ipictureframelock/arrowheadslocked) { get; set; } | Determina se a alteração de pontas de seta é proibida. Leitura/gravação Boolean. |
-| [AsIBaseShapeLock](../../aspose.slides/ipictureframelock/asibaseshapelock) { get; } | Permite obter a interface IBaseShapeLock base. Somente leitura [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/ipictureframelock/aspectratiolocked) { get; set; } | Determina se uma forma deve preservar a proporção ao redimensionar. Leitura/gravação Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/ipictureframelock/arrowheadslocked) { get; set; } | Determina se a alteração de pontas de setas é proibida. Leitura/gravação Boolean. |
+| [AsIBaseShapeLock](../../aspose.slides/ipictureframelock/asibaseshapelock) { get; } | Permite obter a interface base IBaseShapeLock. Somente leitura [`IBaseShapeLock`](../ibaseshapelock). |
+| [AspectRatioLocked](../../aspose.slides/ipictureframelock/aspectratiolocked) { get; set; } | Determina se a forma deve preservar a proporção ao redimensionar. Leitura/gravação Boolean. |
 | [CropLocked](../../aspose.slides/ipictureframelock/croplocked) { get; set; } | Determina se o recorte de imagem é proibido. Leitura/gravação Boolean. |
 | [EditPointsLocked](../../aspose.slides/ipictureframelock/editpointslocked) { get; set; } | Determina se a alteração direta do contorno desta forma é proibida. Leitura/gravação Boolean. |
 | [GroupingLocked](../../aspose.slides/ipictureframelock/groupinglocked) { get; set; } | Determina se a adição desta forma a um grupo é proibida. Leitura/gravação Boolean. |
@@ -31,7 +31,7 @@ public interface IPictureFrameLock : IBaseShapeLock
 | [ShapeTypeLocked](../../aspose.slides/ipictureframelock/shapetypelocked) { get; set; } | Determina se a alteração do tipo de forma é proibida. Leitura/gravação Boolean. |
 | [SizeLocked](../../aspose.slides/ipictureframelock/sizelocked) { get; set; } | Determina se o redimensionamento desta forma é proibido. Leitura/gravação Boolean. |
 
-### Ver também
+### Veja Também
 
 * interface [IBaseShapeLock](../ibaseshapelock)
 * namespace [Aspose.Slides](../../aspose.slides)

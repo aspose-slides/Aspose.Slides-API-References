@@ -1,14 +1,14 @@
 ---
 title: IMathFraction
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Menentukan objek pecahan yang terdiri dari pembilang dan penyebut yang dipisahkan oleh batang pecahan. Batang pecahan dapat berupa horizontal atau diagonal tergantung pada properti pecahan. Objek pecahan juga digunakan untuk mewakili fungsi tumpuk yang menempatkan satu elemen di atas elemen lain tanpa batang pecahan.
+description: Menentukan objek pecahan yang terdiri dari pembilang dan penyebut yang dipisahkan oleh bar pecahan. Bar pecahan dapat berupa horizontal atau diagonal tergantung pada properti pecahan. Objek pecahan juga digunakan untuk merepresentasikan fungsi stack yang menempatkan satu elemen di atas elemen lain tanpa bar pecahan.
 type: docs
-weight: 8230
+weight: 8250
 url: /id/aspose.slides.mathtext/imathfraction/
 ---
 ## IMathFraction antarmuka
 
-Menentukan objek pecahan, yang terdiri dari penyebut dan pembilang yang dipisahkan oleh garis pecahan. Garis pecahan dapat berupa horizontal atau diagonal, tergantung pada properti pecahan. Objek pecahan juga digunakan untuk mewakili fungsi tumpuk, yang menempatkan satu elemen di atas elemen lain, tanpa garis pecahan.
+Menentukan objek pecahan, yang terdiri dari pembilang dan penyebut yang dipisahkan oleh bar pecahan. Bar pecahan dapat berupa horizontal atau diagonal, tergantung pada properti pecahan. Objek pecahan juga digunakan untuk merepresentasikan fungsi stack, yang menempatkan satu elemen di atas elemen lain, tanpa bar pecahan.
 
 ```csharp
 public interface IMathFraction : IMathElement
@@ -18,9 +18,9 @@ public interface IMathFraction : IMathElement
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathfraction/asimathelement) { get; } | Mengizinkan untuk mendapatkan antarmuka IMathElement dasar [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathfraction/asimathelement) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IMathElement [`IMathElement`](../imathelement) |
 | [Denominator](../../aspose.slides.mathtext/imathfraction/denominator) { get; } | Penyebut |
-| [FractionType](../../aspose.slides.mathtext/imathfraction/fractiontype) { get; set; } | Tipe pecahan Default: Bar |
+| [FractionType](../../aspose.slides.mathtext/imathfraction/fractiontype) { get; set; } | Jenis pecahan Default: Bar |
 | [Numerator](../../aspose.slides.mathtext/imathfraction/numerator) { get; } | Pembilang |
 
 ### Contoh

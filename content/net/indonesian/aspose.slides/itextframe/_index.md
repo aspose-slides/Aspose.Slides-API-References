@@ -3,12 +3,12 @@ title: ITextFrame
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili sebuah TextFrame.
 type: docs
-weight: 7250
+weight: 7270
 url: /id/aspose.slides/itextframe/
 ---
 ## ITextFrame antarmuka
 
-Mewakili TextFrame.
+Mewakili sebuah TextFrame.
 
 ```csharp
 public interface ITextFrame : ISlideComponent
@@ -18,30 +18,30 @@ public interface ITextFrame : ISlideComponent
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/itextframe/asislidecomponent) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar ISlideComponent. Hanya-baca [`ISlideComponent`](../islidecomponent). |
+| [AsISlideComponent](../../aspose.slides/itextframe/asislidecomponent) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar ISlideComponent. Hanya-baca [`ISlideComponent`](../islidecomponent). |
 | [HyperlinkQueries](../../aspose.slides/itextframe/hyperlinkqueries) { get; } | Menyediakan akses mudah ke hyperlink yang terkandung. Hanya-baca [`IHyperlinkQueries`](../ihyperlinkqueries). |
 | [Paragraphs](../../aspose.slides/itextframe/paragraphs) { get; } | Mengembalikan daftar semua paragraf dalam sebuah frame. Hanya-baca [`IParagraphCollection`](../iparagraphcollection). |
 | [ParentCell](../../aspose.slides/itextframe/parentcell) { get; } | Mengembalikan sel induk atau null jika objek induk tidak mengimplementasikan antarmuka ICell. Hanya-baca [`ICell`](../icell). |
-| [ParentShape](../../aspose.slides/itextframe/parentshape) { get; } | Mengembalikan bentuk induk atau null jika objek induk tidak mengimplementasikan antarmuka IShape. Hanya-baca [`IShape`](../ishape). |
-| [Text](../../aspose.slides/itextframe/text) { get; set; } | Mendapatkan atau mengatur teks biasa untuk TextFrame. Baca/tulis String. |
-| [TextFrameFormat](../../aspose.slides/itextframe/textframeformat) { get; } | Mengembalikan objek pemformatan untuk objek TextFrame ini. Hanya-baca [`ITextFrameFormat`](../itextframeformat). |
+| [ParentShape](../../aspose.slides/itextframe/parentshape) { get; } | Mengembalikan shape induk atau null jika objek induk tidak mengimplementasikan antarmuka IShape. Hanya-baca [`IShape`](../ishape). |
+| [Text](../../aspose.slides/itextframe/text) { get; set; } | Mendapatkan atau mengatur teks biasa untuk sebuah TextFrame. Baca/tulis String. |
+| [TextFrameFormat](../../aspose.slides/itextframe/textframeformat) { get; } | Mengembalikan objek format untuk objek TextFrame ini. Hanya-baca [`ITextFrameFormat`](../itextframeformat). |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
-| [HighlightRegex](../../aspose.slides/itextframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | Menyorot semua kecocokan ekspresi reguler dengan warna yang ditentukan. |
-| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext)(string, Color) | Menyorot semua kecocokan teks contoh dengan warna yang ditentukan. |
-| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | Menyorot semua kecocokan teks contoh dengan warna yang ditentukan. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/itextframe/joinportionswithsameformatting)() | Menggabungkan run dengan pemformatan yang sama di semua paragraf. |
+| [HighlightRegex](../../aspose.slides/itextframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | Menyoroti semua kecocokan ekspresi reguler dengan warna yang ditentukan. |
+| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext)(string, Color) | Menyoroti semua kecocokan teks contoh dengan warna yang ditentukan. |
+| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | Menyoroti semua kecocokan teks contoh dengan warna yang ditentukan. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/itextframe/joinportionswithsameformatting)() | Menggabungkan run dengan format yang sama di semua paragraf. |
 | [ReplaceRegex](../../aspose.slides/itextframe/replaceregex)(Regex, string, IFindResultCallback) | Mengganti semua kecocokan ekspresi reguler dengan string yang ditentukan. |
 | [ReplaceText](../../aspose.slides/itextframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | Mengganti semua kemunculan teks yang ditentukan dengan teks lain yang ditentukan. |
-| [SplitTextByColumns](../../aspose.slides/itextframe/splittextbycolumns)() | Membagi konten teks dari [`ITextFrame`](../itextframe) menjadi sebuah array string, di mana setiap elemen sesuai dengan kolom teks terpisah di dalam frame. |
+| [SplitTextByColumns](../../aspose.slides/itextframe/splittextbycolumns)() | Membagi konten teks dari [`ITextFrame`](../itextframe) menjadi sebuah array string, di mana setiap elemen sesuai dengan kolom teks terpisah dalam frame. |
 
 ### Lihat Juga
 
-* antarmuka [ISlideComponent](../islidecomponent)
+* antar muka [ISlideComponent](../islidecomponent)
 * ruang nama [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* rak [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

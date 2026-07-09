@@ -3,7 +3,7 @@ title: SvgImage
 second_title: Aspose.Sildes için .NET API Referansı
 description: Bir SVG görüntüsünü temsil eder.
 type: docs
-weight: 10780
+weight: 10800
 url: /tr/aspose.slides/svgimage/
 ---
 ## SvgImage sınıfı
@@ -18,21 +18,21 @@ public class SvgImage : ISvgImage
 
 | Ad | Açıklama |
 | --- | --- |
-| [SvgImage](svgimage#constructor)(byte[]) | Creates new SvgImage object. |
-| [SvgImage](svgimage#constructor_2)(Stream) | Creates new SvgImage object. |
-| [SvgImage](svgimage#constructor_4)(string) | Creates new SvgImage object. |
-| [SvgImage](svgimage#constructor_1)(byte[], IExternalResourceResolver, string) | Creates new SvgImage object. |
-| [SvgImage](svgimage#constructor_3)(Stream, IExternalResourceResolver, string) | Creates new SvgImage object. |
-| [SvgImage](svgimage#constructor_5)(string, IExternalResourceResolver, string) | Creates new SvgImage object. |
+| [SvgImage](svgimage#constructor)(byte[]) | Yeni bir SvgImage nesnesi oluşturur. |
+| [SvgImage](svgimage#constructor_2)(Stream) | Yeni bir SvgImage nesnesi oluşturur. |
+| [SvgImage](svgimage#constructor_4)(string) | Yeni bir SvgImage nesnesi oluşturur. |
+| [SvgImage](svgimage#constructor_1)(byte[], IExternalResourceResolver, string) | Yeni bir SvgImage nesnesi oluşturur. |
+| [SvgImage](svgimage#constructor_3)(Stream, IExternalResourceResolver, string) | Yeni bir SvgImage nesnesi oluşturur. |
+| [SvgImage](svgimage#constructor_5)(string, IExternalResourceResolver, string) | Yeni bir SvgImage nesnesi oluşturur. |
 
 ## Özellikler
 
 | Ad | Açıklama |
 | --- | --- |
-| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | Belirtilen Svg'nin temel URI'sini döndürür. Göreceli bağlantıları çözmek için kullanılır. Salt-okunur String. |
-| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | Svg belgeleri içe aktarılırken harici kaynakları çözmek için kullanılan geri çağırma arayüzünü döndürür. Salt-okunur [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
-| [SvgContent](../../aspose.slides/svgimage/svgcontent) { get; } | SVG içeriğini döndürür. Salt-okunur String. |
-| [SvgData](../../aspose.slides/svgimage/svgdata) { get; } | SVG verisini döndürür. Salt-okunur Byte[]. |
+| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | Belirtilen Svg'nin temel URI'sini döndürür. Göreli bağlantıları çözmek için kullanılır. Salt okunur String. |
+| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | Svg belgeleri içe aktarılırken harici kaynakları çözmek için kullanılan geri çağırma arayüzünü döndürür. Salt okunur [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
+| [SvgContent](../../aspose.slides/svgimage/svgcontent) { get; } | SVG içeriğini döndürür. Salt okunur String. |
+| [SvgData](../../aspose.slides/svgimage/svgdata) { get; } | SVG verisini döndürür. Salt okunur Byte[]. |
 
 ## Metotlar
 

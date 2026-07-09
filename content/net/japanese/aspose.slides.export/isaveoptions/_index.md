@@ -3,7 +3,7 @@ title: ISaveOptions
 second_title: Aspose.Sildes for .NET API リファレンス
 description: プレゼンテーションの保存方法を制御するオプションです。
 type: docs
-weight: 4050
+weight: 4070
 url: /ja/aspose.slides.export/isaveoptions/
 ---
 ## ISaveOptions インターフェイス
@@ -18,11 +18,11 @@ public interface ISaveOptions
 
 | 名前 | 説明 |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/isaveoptions/defaultregularfont) { get; set; } | ソースフォントが見つからない場合に使用されるフォントを取得または設定します。読み書き String。 |
-| [GradientStyle](../../aspose.slides.export/isaveoptions/gradientstyle) { get; set; } | グラデーションのビジュアルスタイルを取得または設定します。読み書き [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
-| [ProgressCallback](../../aspose.slides.export/isaveoptions/progresscallback) { get; set; } | パーセンテージで保存進行状況の更新を行うコールバックオブジェクトを表します。参照 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
-| [SkipJavaScriptLinks](../../aspose.slides.export/isaveoptions/skipjavascriptlinks) { get; set; } | プレゼンテーションを保存する際に、JavaScript 呼び出しを含むハイパーリンクをスキップするかどうかを指定します。読み書き Boolean。デフォルト値は **false** です。 |
-| [WarningCallback](../../aspose.slides.export/isaveoptions/warningcallback) { get; set; } | 警告を受け取り、ロードプロセスを継続するか中止するかを決定するオブジェクトを取得または設定します。読み書き [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
+| [DefaultRegularFont](../../aspose.slides.export/isaveoptions/defaultregularfont) { get; set; } | ソースフォントが見つからない場合に使用されるフォントを取得または設定します。読み書き可能な String。 |
+| [GradientStyle](../../aspose.slides.export/isaveoptions/gradientstyle) { get; set; } | グラデーションのビジュアルスタイルを取得または設定します。読み書き可能な [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
+| [ProgressCallback](../../aspose.slides.export/isaveoptions/progresscallback) { get; set; } | 保存進行状況のパーセンテージ更新用コールバックオブジェクトを表します。[`IProgressCallback`](../../aspose.slides/iprogresscallback) を参照してください。 |
+| [SkipJavaScriptLinks](../../aspose.slides.export/isaveoptions/skipjavascriptlinks) { get; set; } | プレゼンテーションを保存する際に、JavaScript 呼び出しを含むハイパーリンクをスキップするかどうかを指定します。読み書き可能な Boolean。デフォルト値は **false** です。 |
+| [WarningCallback](../../aspose.slides.export/isaveoptions/warningcallback) { get; set; } | 警告を受け取り、ロードプロセスを継続するか中止するかを決定するオブジェクトを取得または設定します。読み書き可能な [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
 
 ### 参照
 

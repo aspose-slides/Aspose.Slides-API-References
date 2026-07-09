@@ -1,12 +1,12 @@
 ---
 title: BaseChartValue
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Bir çizelgenin değerini temsil eder.
 type: docs
-weight: 1200
+weight: 1220
 url: /tr/aspose.slides.charts/basechartvalue/
 ---
-## BaseChartValue sınıfı
+## BaseChartValue sınıf
 
 Bir çizelgenin değerini temsil eder.
 
@@ -18,10 +18,10 @@ public abstract class BaseChartValue : IBaseChartValue
 
 | Ad | Açıklama |
 | --- | --- |
-| abstract [Data](../../aspose.slides.charts/basechartvalue/data) { get; set; } | Veri. Okunur/Yazılır Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Bu, AsCell, AsCells, AsLiteralString veya AsLiteralDouble özelliğinin türevlerde geçerli olup olduğunu belirtir. Başka bir deyişle Data özelliğinin değer tipini belirtir. Okunur/Yazılır [`DataSourceType`](../datasourcetype). |
+| abstract [Data](../../aspose.slides.charts/basechartvalue/data) { get; set; } | Data. Okuma/yazma Object. |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Descendant sınıflarında AsCell, AsCells, AsLiteralString veya AsLiteralDouble özelliğinin geçerli olup olmadığını belirtir. Başka bir deyişle, Data özelliğinin değerinin tipini belirtir. Okuma/yazma [`DataSourceType`](../datasourcetype). |
 
-### Ayrıca Bakınız
+### İlgili
 
 * arayüz [IBaseChartValue](../ibasechartvalue)
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)

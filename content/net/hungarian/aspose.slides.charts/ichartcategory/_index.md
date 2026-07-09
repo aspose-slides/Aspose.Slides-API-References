@@ -1,9 +1,9 @@
 ---
 title: IChartCategory
-second_title: Aspose.Sildes .NET API Referenciája
+second_title: Aspose.Sildes .NET API-referencia
 description: A diagramkategóriákat képviseli.
 type: docs
-weight: 1730
+weight: 1750
 url: /hu/aspose.slides.charts/ichartcategory/
 ---
 ## IChartCategory interfész
@@ -18,11 +18,11 @@ public interface IChartCategory
 
 | Név | Leírás |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/ichartcategory/ascell) { get; set; } | Visszaadja vagy beállítja az IChartDataCell objektumot. Ha a kategória többszintű, akkor a "0" szinthez az IChartDataCell objektumot használja. Olvasás/írás [`IChartDataCell`](../ichartdatacell). |
+| [AsCell](../../aspose.slides.charts/ichartcategory/ascell) { get; set; } | Visszaadja vagy beállítja az IChartDataCell objektumot. Ha a kategória több szintű, akkor a „0” szinthez az IChartDataCell objektumot használja. Olvasás/írás [`IChartDataCell`](../ichartdatacell). |
 | [AsLiteral](../../aspose.slides.charts/ichartcategory/asliteral) { get; set; } | Visszaadja vagy beállítja az AsLiteral értéket, ha a UseCell hamis. Olvasás/írás Object. |
-| [GroupingLevels](../../aspose.slides.charts/ichartcategory/groupinglevels) { get; } | A diagramkategória csoportoszintjeinek értékeinek kezelt tárolója. A többszintű kategória több, mint egy csoportosítási szintet tartalmaz. A csoportosítási szintek indexelése nulláról indul. Csak olvasható [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
-| [UseCell](../../aspose.slides.charts/ichartcategory/usecell) { get; } | Ha igaz, akkor az AsCell tulajdonság érvényes. Más szóval, a munkalap a kategória tárolására van használva (ez az eset többszintű kategóriát támogat). Ha hamis, akkor az AsLiteral tulajdonság érvényes. Más szóval, a munkalap NEM használatos a kategória tárolására (és ez az eset nem támogat többszintű kategóriákat). Csak olvasható Boolean. |
-| [Value](../../aspose.slides.charts/ichartcategory/value) { get; set; } | Ha a UseCell igaz, akkor ez a tulajdonság az AsCell.Value tulajdonságot képviseli. Ha a UseCell hamis, akkor ez a tulajdonság az AsLiteral tulajdonságot képviseli. Olvasás/írás Object. |
+| [GroupingLevels](../../aspose.slides.charts/ichartcategory/groupinglevels) { get; } | Kezelt tároló a diagramkategória csoportosítási szintek értékeinek. A több szintű kategória egynél több csoportosítási szintet tartalmaz. A csoportosítási szintek indexelése nullától indul. Csak olvasható [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
+| [UseCell](../../aspose.slides.charts/ichartcategory/usecell) { get; } | Ha igaz, akkor az AsCell tulajdonság a tényleges. Más szóval a munkalap a kategória tárolására szolgál (ez az eset támogatja a több szintű kategóriát). Ha hamis, akkor az AsLiteral tulajdonság a tényleges. Más szóval a munkalap NEM a kategória tárolására szolgál (és ez az eset nem támogatja a több szintű kategóriákat). Csak olvasható Boolean. |
+| [Value](../../aspose.slides.charts/ichartcategory/value) { get; set; } | Ha a UseCell igaz, akkor ez a tulajdonság az AsCell.Value tulajdonságot jelenti. Ha a UseCell hamis, akkor ez a tulajdonság az AsLiteral tulajdonságot jelenti. Olvasás/írás Object. |
 
 ## Metódusok
 

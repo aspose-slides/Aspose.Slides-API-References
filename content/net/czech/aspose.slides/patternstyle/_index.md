@@ -3,10 +3,10 @@ title: PatternStyle
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje styl vzoru.
 type: docs
-weight: 9340
+weight: 9360
 url: /cs/aspose.slides/patternstyle/
 ---
-## PatternStyle výčet
+## Výčet PatternStyle
 
 Reprezentuje styl vzoru.
 

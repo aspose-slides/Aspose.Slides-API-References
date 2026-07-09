@@ -1,9 +1,9 @@
 ---
 title: IMotionEffect
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET - dokumentacja API
 description: Reprezentuje zachowanie efektu ruchu.
 type: docs
-weight: 500
+weight: 520
 url: /pl/aspose.slides.animation/imotioneffect/
 ---
 ## IMotionEffect interfejs
@@ -16,17 +16,17 @@ public interface IMotionEffect : IBehavior
 
 ## Właściwości
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
-| [Angle](../../aspose.slides.animation/imotioneffect/angle) { get; set; } | Opisuje względny kąt ścieżki ruchu. Read/write Single. |
-| [AsIBehavior](../../aspose.slides.animation/imotioneffect/asibehavior) { get; } | Umożliwia pobranie podstawowego interfejsu IBehavior. Read-only [`IBehavior`](../ibehavior). |
-| [By](../../aspose.slides.animation/imotioneffect/by) { get; set; } | Opisuje względną wartość offsetu dla animacji (w procentach). Read/write PointF. |
-| [From](../../aspose.slides.animation/imotioneffect/from) { get; set; } | Określa współrzędną x/y, od której rozpoczyna się animacja (w procentach). Read/write PointF. |
-| [Origin](../../aspose.slides.animation/imotioneffect/origin) { get; set; } | Określa, do czego odnosi się początek ścieżki ruchu, takiego jak układ slajdu lub element nadrzędny. Read/write [`MotionOriginType`](../motionorigintype). |
-| [Path](../../aspose.slides.animation/imotioneffect/path) { get; set; } | Określa prymityw ścieżki, po którym następują współrzędne ruchu animacji. Read/write [`IMotionPath`](../imotionpath). |
-| [PathEditMode](../../aspose.slides.animation/imotioneffect/patheditmode) { get; set; } | Określa, jak ścieżka ruchu przemieszcza się, gdy kształt jest przemieszczany. Read/write [`MotionPathEditMode`](../motionpatheditmode). |
-| [RotationCenter](../../aspose.slides.animation/imotioneffect/rotationcenter) { get; set; } | Opisuje środek obrotu używany do obrotu ścieżki ruchu o kąt X. Read/write PointF. |
-| [To](../../aspose.slides.animation/imotioneffect/to) { get; set; } | Określa docelową lokalizację efektu ruchu animacji (w procentach). Read/write PointF. |
+| [Angle](../../aspose.slides.animation/imotioneffect/angle) { get; set; } | Opisuje względny kąt ścieżki ruchu. Odczyt/zapis Single. |
+| [AsIBehavior](../../aspose.slides.animation/imotioneffect/asibehavior) { get; } | Umożliwia uzyskanie bazowego interfejsu IBehavior. Tylko do odczytu [`IBehavior`](../ibehavior). |
+| [By](../../aspose.slides.animation/imotioneffect/by) { get; set; } | Opisuje względną wartość offsetu dla animacji (w procentach). Odczyt/zapis PointF. |
+| [From](../../aspose.slides.animation/imotioneffect/from) { get; set; } | Określa współrzędną x/y, z której rozpoczyna się animacja (w procentach). Odczyt/zapis PointF. |
+| [Origin](../../aspose.slides.animation/imotioneffect/origin) { get; set; } | Określa, do czego odnosi się początek ścieżki ruchu, np. układ slajdu lub element nadrzędny. Odczyt/zapis [`MotionOriginType`](../motionorigintype). |
+| [Path](../../aspose.slides.animation/imotioneffect/path) { get; set; } | Określa prymityw ścieżki, po którym następują współrzędne ruchu animacji. Odczyt/zapis [`IMotionPath`](../imotionpath). |
+| [PathEditMode](../../aspose.slides.animation/imotioneffect/patheditmode) { get; set; } | Określa, jak ścieżka ruchu przemieszcza się, gdy kształt zostaje przesunięty. Odczyt/zapis [`MotionPathEditMode`](../motionpatheditmode). |
+| [RotationCenter](../../aspose.slides.animation/imotioneffect/rotationcenter) { get; set; } | Opisuje środek obrotu używany do obrócenia ścieżki ruchu o kąt X. Odczyt/zapis PointF. |
+| [To](../../aspose.slides.animation/imotioneffect/to) { get; set; } | Określa docelową lokalizację efektu ruchu animacji (w procentach). Odczyt/zapis PointF. |
 
 ### Zobacz także
 

@@ -1,14 +1,14 @@
 ---
 title: IAlphaInverseEffectiveData
-second_title: Aspose.Sildes para .NET Referência de API
+second_title: Aspose.Sildes para .NET Referência da API
 description: Objeto imutável que representa um efeito Alpha Inverse. Valores de opacidade Alpha são invertidos subtraindo de 100.
 type: docs
-weight: 3070
+weight: 3090
 url: /pt/aspose.slides.effects/ialphainverseeffectivedata/
 ---
 ## IAlphaInverseEffectiveData interface
 
-Objeto imutável que representa um efeito Alpha Inverse. Valores Alpha (opacidade) são invertidos subtraindo de 100%.
+Objeto imutável que representa um efeito Alpha Inverse. Valores de Alpha (opacidade) são invertidos subtraindo de 100%.
 
 ```csharp
 public interface IAlphaInverseEffectiveData : IEffectEffectiveData
@@ -20,7 +20,7 @@ public interface IAlphaInverseEffectiveData : IEffectEffectiveData
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/ialphainverseeffectivedata/asieffecteffectivedata) { get; } | Permite obter a interface base IEffectEffectiveData. Somente leitura [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
-### Ver também
+### Ver Também
 
 * interface [IEffectEffectiveData](../ieffecteffectivedata)
 * namespace [Aspose.Slides.Effects](../../aspose.slides.effects)

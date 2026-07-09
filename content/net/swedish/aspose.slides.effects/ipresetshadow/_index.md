@@ -3,7 +3,7 @@ title: IPresetShadow
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en förinställd skuggeffekt.
 type: docs
-weight: 3460
+weight: 3480
 url: /sv/aspose.slides.effects/ippresetshadow/
 ---
 ## IPresetShadow gränssnitt
@@ -19,12 +19,12 @@ public interface IPresetShadow : IAccessiblePVIObject<IPresetShadowEffectiveData
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ipresetshadow/asiaccessiblepviobject) { get; } | Tillåter att hämta bas-IAccessiblePVIObject-gränssnittet. Skrivskyddad [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | Tillåter att hämta bas-IImageTransformOperation-gränssnittet. Skrivskyddad [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Direction](../../aspose.slides.effects/ipresetshadow/direction) { get; set; } | Skuggans riktning. Läs/skriv Single. |
-| [Distance](../../aspose.slides.effects/ipresetshadow/distance) { get; set; } | Skuggans avstånd. Läs/skriv Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ipresetshadow/asiaccessiblepviobject) { get; } | Tillåter att hämta bas-IAccessiblePVIObject-gränssnitt. Skrivskyddad [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | Tillåter att hämta bas-IImageTransformOperation-gränssnitt. Skrivskyddad [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Direction](../../aspose.slides.effects/ipresetshadow/direction) { get; set; } | Riktning för skugga. Läs/skriv Single. |
+| [Distance](../../aspose.slides.effects/ipresetshadow/distance) { get; set; } | Avstånd för skugga. Läs/skriv Double. |
 | [Preset](../../aspose.slides.effects/ipresetshadow/preset) { get; set; } | Förinställning. Läs/skriv [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
-| [ShadowColor](../../aspose.slides.effects/ipresetshadow/shadowcolor) { get; } | Skuggans färg. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [ShadowColor](../../aspose.slides.effects/ipresetshadow/shadowcolor) { get; } | Färg för skugga. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Se även
 

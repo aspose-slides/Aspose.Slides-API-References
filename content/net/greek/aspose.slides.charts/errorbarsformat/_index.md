@@ -1,30 +1,30 @@
 ---
 title: ErrorBarsFormat
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αναπαριστά τις γραμμές σφάλματος της σειράς διαγράμματος. Οι προσαρμοσμένες τιμές των ErrorBars βρίσκονται στο IChartDataPointCollection στην ιδιότητα ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues.
+second_title: Aspose.Sildes για .NET Αναφορά API
+description: Αναπαριστά τις γραμμές σφάλματος μιας σειράς γραφήματος. Οι προσαρμοσμένες τιμές ErrorBars βρίσκονται στο IChartDataPointCollection στην ιδιότητα ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues.
 type: docs
-weight: 1650
+weight: 1670
 url: /el/aspose.slides.charts/errorbarsformat/
 ---
 ## ErrorBarsFormat κλάση
 
-Αναπαριστά τις γραμμές σφάλματος της σειράς διαγράμματος. Οι προσαρμοσμένες τιμές των ErrorBars βρίσκονται στη συλλογή IChartDataPointCollection (στην ιδιότητα [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues)).
+Αντιπροσωπεύει τις γραμμές σφάλματος μιας σειράς γραφήματος. Οι προσαρμοσμένες τιμές ErrorBars βρίσκονται στο IChartDataPointCollection (στην ιδιότητα [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues)).
 
 ```csharp
 public class ErrorBarsFormat : DomObject<ChartSeries>, IErrorBarsFormat
 ```
 
-## Ιδιότητες
+## Properties
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/errorbarsformat/chart) { get; } | Επιστρέφει το γονικό διάγραμμα. Μόνο για ανάγνωση [`IChart`](../ichart). |
+| [Chart](../../aspose.slides.charts/errorbarsformat/chart) { get; } | Επιστρέφει το γονικό γράφημα. Μόνο για ανάγνωση [`IChart`](../ichart). |
 | [Format](../../aspose.slides.charts/errorbarsformat/format) { get; set; } | Αντιπροσωπεύει τη μορφή των γραμμών σφάλματος. Ανάγνωση/εγγραφή [`IFormat`](../iformat). |
 | [HasEndCap](../../aspose.slides.charts/errorbarsformat/hasendcap) { get; set; } | Καθορίζει ότι δεν σχεδιάζεται άκρο στις γραμμές σφάλματος. Ανάγνωση/εγγραφή Boolean. |
 | [IsVisible](../../aspose.slides.charts/errorbarsformat/isvisible) { get; set; } | Λαμβάνει ή ορίζει την ορατότητα των γραμμών σφάλματος. Ανάγνωση/εγγραφή Boolean. |
 | [Type](../../aspose.slides.charts/errorbarsformat/type) { get; set; } | Λαμβάνει ή ορίζει τον τύπο των γραμμών σφάλματος. Ανάγνωση/εγγραφή [`ErrorBarType`](../errorbartype). |
-| [Value](../../aspose.slides.charts/errorbarsformat/value) { get; set; } | Λαμβάνει ή ορίζει την τιμή που χρησιμοποιείται με τους τύπους Fixed, Percentage και StandardDeviation για τον καθορισμό του μήκους των γραμμών σφάλματος. Σε κάθε άλλη περίπτωση επιστρέφει NaN. Ανάγνωση/εγγραφή Single. |
-| [ValueType](../../aspose.slides.charts/errorbarsformat/valuetype) { get; set; } | Αντιπροσωπεύει πιθανούς τρόπους καθορισμού του μήκους των γραμμών σφάλματος. Σε περίπτωση προσαρμοσμένου τύπου τιμής, για τον ορισμό της τιμής χρησιμοποιήστε την ιδιότητα [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) του συγκεκριμένου σημείου δεδομένων στη συλλογή DataPoints της σειράς. Σε περίπτωση τύπων Fixed, Percentage ή StandardDeviation, χρησιμοποιήστε την ιδιότητα Value για τον ορισμό της τιμής. Ανάγνωση/εγγραφή [`ErrorBarValueType`](../errorbarvaluetype). |
+| [Value](../../aspose.slides.charts/errorbarsformat/value) { get; set; } | Λαμβάνει ή ορίζει την τιμή που χρησιμοποιείται με τύπους τιμών Fixed, Percentage και StandardDeviation για τον καθορισμό του μήκους των γραμμών σφάλματος. Σε οποιαδήποτε άλλη περίπτωση θα επιστρέψει NaN. Ανάγνωση/εγγραφή Single. |
+| [ValueType](../../aspose.slides.charts/errorbarsformat/valuetype) { get; set; } | Αντιπροσωπεύει πιθανούς τρόπους καθορισμού του μήκους των γραμμών σφάλματος. Στην περίπτωση προσαρμοσμένου τύπου τιμής, για να καθορίσετε τιμή χρησιμοποιήστε την ιδιότητα [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) του συγκεκριμένου σημείου δεδομένων στη συλλογή DataPoints της σειράς. Στην περίπτωση τύπου τιμής Fixed, Percentage ή StandardDeviation, χρησιμοποιήστε την ιδιότητα Value για να καθορίσετε τιμή. Ανάγνωση/εγγραφή [`ErrorBarValueType`](../errorbarvaluetype). |
 
 ### Δείτε επίσης
 

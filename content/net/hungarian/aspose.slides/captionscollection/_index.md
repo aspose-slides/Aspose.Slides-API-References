@@ -1,9 +1,9 @@
 ---
 title: CaptionsCollection
-second_title: Aspose.Sildes .NET API hivatkozás
+second_title: Aspose.Sildes .NET API referenciája
 description: A zárt feliratok gyűjteményét képviseli.
 type: docs
-weight: 1100
+weight: 1120
 url: /hu/aspose.slides/captionscollection/
 ---
 ## CaptionsCollection osztály
@@ -16,16 +16,16 @@ public sealed class CaptionsCollection : ICaptionsCollection
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/captionscollection/count) { get; } | Visszaadja a gyűjteményben található elemek számát. Csak olvasható Int32. |
+| [Count](../../aspose.slides/captionscollection/count) { get; } | Visszaadja a gyűjtemény elemeinek számát. Csak olvasható Int32. |
 | [Item](../../aspose.slides/captionscollection/item) { get; } | Visszaadja a megadott indexű zárt feliratot. Csak olvasható [`ICaptions`](../icaptions). |
 
-## Metódusok
+## Módszerek
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/captionscollection/add#add)(string, Stream) | WebVTT zárt feliratokat ad a gyűjtemény végéhez egy adatfolyamból. |
+| [Add](../../aspose.slides/captionscollection/add#add)(string, Stream) | WebVTT zárt feliratokat ad a gyűjtemény végéhez egy folyamból. |
 | [Add](../../aspose.slides/captionscollection/add#add_1)(string, string) | WebVTT zárt feliratokat ad a gyűjtemény végéhez. |
 | [Clear](../../aspose.slides/captionscollection/clear)() | Eltávolítja az összes zárt feliratot a gyűjteményből. |
 | [GetEnumerator](../../aspose.slides/captionscollection/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |

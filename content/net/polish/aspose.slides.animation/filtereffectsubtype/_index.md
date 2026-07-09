@@ -1,12 +1,12 @@
 ---
 title: FilterEffectSubtype
-second_title: Aspose.Sildes dla .NET - dokumentacja API
+second_title: Referencja API Aspose.Sildes dla .NET
 description: Reprezentuje podtypy efektów filtrów.
 type: docs
-weight: 370
+weight: 390
 url: /pl/aspose.slides.animation/filtereffectsubtype/
 ---
-## FilterEffectSubtype enumeracja
+## enumeracja FilterEffectSubtype
 
 Reprezentuje podtypy efektów filtrów.
 

@@ -1,29 +1,29 @@
 ---
 title: IBlur
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa um efeito de desfoque que é aplicado a toda a forma, incluindo seu preenchimento. Todos os canais de cor, incluindo alfa, são afetados.
 type: docs
-weight: 3160
+weight: 3180
 url: /pt/aspose.slides.effects/iblur/
 ---
 ## IBlur interface
 
-Representa um efeito de desfoque que é aplicado a toda a forma, incluindo seu preenchimento. Todos os canais de cores, incluindo alfa, são afetados.
+Representa um efeito de desfoque que é aplicado a toda a forma, incluindo seu preenchimento. Todos os canais de cor, incluindo alfa, são afetados.
 
 ```csharp
 public interface IBlur : IAccessiblePVIObject<IBlurEffectiveData>, IImageTransformOperation
 ```
 
-## Properties
+## Propriedades
 
 | Nome | Descrição |
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/iblur/asiaccessiblepviobject) { get; } | Permite obter a interface base IAccessiblePVIObject. Somente leitura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/iblur/asiimagetransformoperation) { get; } | Permite obter a interface base IImageTransformOperation. Somente leitura [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Grow](../../aspose.slides.effects/iblur/grow) { get; set; } | Determina se os limites do objeto devem ser aumentados como resultado do desfoque. Verdadeiro indica que os limites são aumentados, enquanto falso indica que não são. Leitura/gravação Boolean. |
-| [Radius](../../aspose.slides.effects/iblur/radius) { get; set; } | Retorna ou define o raio do desfoque. Leitura/gravação Double. |
+| [Grow](../../aspose.slides.effects/iblur/grow) { get; set; } | Determina se os limites do objeto devem ser ampliados como resultado do desfoque. True indica que os limites são ampliados, enquanto false indica que não são. Leitura/gravação Boolean. |
+| [Radius](../../aspose.slides.effects/iblur/radius) { get; set; } | Retorna ou define o raio de desfoque. Leitura/gravação Double. |
 
-### Veja também
+### Veja Também
 
 * interface [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * interface [IBlurEffectiveData](../iblureffectivedata)

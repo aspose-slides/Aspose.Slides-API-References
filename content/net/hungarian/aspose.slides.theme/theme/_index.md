@@ -1,14 +1,14 @@
 ---
 title: Theme
 second_title: Aspose.Sildes .NET API referencia
-description: Egy témát reprezentál.
+description: Egy témát képvisel.
 type: docs
-weight: 11460
+weight: 11480
 url: /hu/aspose.slides.theme/theme/
 ---
 ## Theme osztály
 
-A téma képviseli.
+Egy Theme-et képvisel.
 
 ```csharp
 public abstract class Theme : ITheme
@@ -19,15 +19,15 @@ public abstract class Theme : ITheme
 | Név | Leírás |
 | --- | --- |
 | abstract [ColorScheme](../../aspose.slides.theme/theme/colorscheme) { get; } | Visszaadja a színsémát. Csak olvasható [`IColorScheme`](../icolorscheme). |
-| abstract [FontScheme](../../aspose.slides.theme/theme/fontscheme) { get; } | Visszaadja a betűtípus-sémát. Csak olvasható [`IFontScheme`](../ifontscheme). |
-| abstract [FormatScheme](../../aspose.slides.theme/theme/formatscheme) { get; } | Visszaadja az alakzat formátumsémáját. Csak olvasható [`IFormatScheme`](../iformatscheme). |
-| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Visszaadja a szülő prezentációt. Csak olvasható [`IPresentation`](../../aspose.slides/ipresentation). |
+| abstract [FontScheme](../../aspose.slides.theme/theme/fontscheme) { get; } | Visszaadja a betűtípussémát. Csak olvasható [`IFontScheme`](../ifontscheme). |
+| abstract [FormatScheme](../../aspose.slides.theme/theme/formatscheme) { get; } | Visszaadja az alakzatformátumsémát. Csak olvasható [`IFormatScheme`](../iformatscheme). |
+| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Visszaadja a szülő bemutatót. Csak olvasható [`IPresentation`](../../aspose.slides/ipresentation). |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Lekéri a hatékony témaadatokat az öröklődés alkalmazásával. |
+| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Lekéri a hatékony téma adatokat az öröklődés alkalmazásával. |
 
 ### Lásd még
 

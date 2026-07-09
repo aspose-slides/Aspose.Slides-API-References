@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachPortionCallback
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Callback che verrà invocata per ciascuna Portion./foreach/portion nel Paragraph./foreach/paragraph sul BaseSlide../aspose.slides/baseslide.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Callback che verrà invocato per ogni Portion./foreach/portion nel Paragraph./foreach/paragraph sul BaseSlide../aspose.slides/baseslide.
 type: docs
-weight: 7920
+weight: 7940
 url: /it/aspose.slides.lowcode/foreach.foreachportioncallback/
 ---
 ## ForEach.ForEachPortionCallback delegate
 
-Callback che verrà invocata per ciascun [`Portion`](../foreach/portion) nel [`Paragraph`](../foreach/paragraph) sul [`BaseSlide`](../../aspose.slides/baseslide).
+Callback che verrà invocato per ogni [`Portion`](../foreach/portion) nella [`Paragraph`](../foreach/paragraph) sul [`BaseSlide`](../../aspose.slides/baseslide).
 
 ```csharp
 public delegate void ForEachPortionCallback(Portion portion, Paragraph para, BaseSlide slide, 
@@ -17,9 +17,9 @@ public delegate void ForEachPortionCallback(Portion portion, Paragraph para, Bas
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| portion | Portion | Porzione corrente iterata |
-| para | Paragraph | Paragrafo corrente iterato |
-| slide | BaseSlide | Diapositiva corrente iterata |
+| portion | Portion | Porzione iterata corrente |
+| para | Paragraph | Paragrafo iterato corrente |
+| slide | BaseSlide | Slide iterata corrente |
 | index | Int32 | Indice della porzione corrente nel paragrafo |
 
 ### Vedi anche

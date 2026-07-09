@@ -1,14 +1,14 @@
 ---
 title: CellFormat
-second_title: Αναφορά API Aspose.Sildes για .NET
-description: Αντιπροσωπεύει τη μορφοποίηση ενός κελιού πίνακα.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Αναπαριστά τη μορφή ενός κελιού πίνακα.
 type: docs
-weight: 1130
+weight: 1150
 url: /el/aspose.slides/cellformat/
 ---
-## CellFormat κλάση
+## κλάση CellFormat
 
-Αντιπροσωπεύει τη μορφοποίηση ενός κελιού πίνακα.
+Αναπαριστά τη μορφή ενός κελιού πίνακα.
 
 ```csharp
 public sealed class CellFormat : PVIObject, ICellFormat
@@ -18,28 +18,28 @@ public sealed class CellFormat : PVIObject, ICellFormat
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Επιτρέπει την απόκτηση της βασικής διεπαφής IPresentationComponent. Μόνο για ανάγνωση [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Επιτρέπει την λήψη της βασικής διεπαφής IPresentationComponent. Μόνο για ανάγνωση [`IPresentationComponent`](../ipresentationcomponent). |
 | [BorderBottom](../../aspose.slides/cellformat/borderbottom) { get; } | Επιστρέφει ένα αντικείμενο ιδιοτήτων γραμμής κάτω περιθωρίου. Μόνο για ανάγνωση [`ILineFormat`](../ilineformat). |
 | [BorderDiagonalDown](../../aspose.slides/cellformat/borderdiagonaldown) { get; } | Επιστρέφει ένα αντικείμενο ιδιοτήτων διαγώνιας γραμμής από πάνω αριστερά προς κάτω δεξιά. Μόνο για ανάγνωση [`ILineFormat`](../ilineformat). |
 | [BorderDiagonalUp](../../aspose.slides/cellformat/borderdiagonalup) { get; } | Επιστρέφει ένα αντικείμενο ιδιοτήτων διαγώνιας γραμμής από κάτω αριστερά προς πάνω δεξιά. Μόνο για ανάγνωση [`ILineFormat`](../ilineformat). |
 | [BorderLeft](../../aspose.slides/cellformat/borderleft) { get; } | Επιστρέφει ένα αντικείμενο ιδιοτήτων γραμμής αριστερού περιθωρίου. Μόνο για ανάγνωση [`ILineFormat`](../ilineformat). |
 | [BorderRight](../../aspose.slides/cellformat/borderright) { get; } | Επιστρέφει ένα αντικείμενο ιδιοτήτων γραμμής δεξιού περιθωρίου. Μόνο για ανάγνωση [`ILineFormat`](../ilineformat). |
-| [BorderTop](../../aspose.slides/cellformat/bordertop) { get; } | Επιστρέφει ένα αντικείμενο ιδιοτήτων γραμμής πάνω περιθωρίου. Μόνο για ανάγνωση [`ILineFormat`](../ilineformat). |
+| [BorderTop](../../aspose.slides/cellformat/bordertop) { get; } | Επιστρέφει ένα αντικείμενο ιδιοτήτων γραμμής επάνω περιθωρίου. Μόνο για ανάγνωση [`ILineFormat`](../ilineformat). |
 | [FillFormat](../../aspose.slides/cellformat/fillformat) { get; } | Επιστρέφει ένα αντικείμενο ιδιοτήτων γεμίσματος κελιού. Μόνο για ανάγνωση [`IFillFormat`](../ifillformat). |
-| [Transparency](../../aspose.slides/cellformat/transparency) { get; set; } | Παίρνει ή ορίζει τη διαφάνεια του χρώματος γεμίσματος. Ανάγνωση/εγγραφή Single. |
+| [Transparency](../../aspose.slides/cellformat/transparency) { get; set; } | Λαμβάνει ή ορίζει τη διαφάνεια του χρώματος γεμίσματος. Ανάγνωση/Εγγραφή Single. |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Συγκρίνει με το καθορισμένο αντικείμενο. |
-| [GetEffective](../../aspose.slides/cellformat/geteffective)() | Αποκτά τις αποτελεσματικές ιδιότητες μορφοποίησης κελιού πίνακα με κληρονομικότητα και εφαρμοσμένα στυλ πίνακα. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Επιστρέφει κωδικό κατακερματισμού. |
+| [GetEffective](../../aspose.slides/cellformat/geteffective)() | Λαμβάνει τις αποτελεσματικές ιδιότητες μορφοποίησης κελιού πίνακα με κληρονομικότητα και εφαρμοσμένα στυλ πίνακα. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Επιστρέφει κώδικα κατακερματισμού. |
 
 ### Δείτε επίσης
 
 * κλάση [PVIObject](../pviobject)
-* διεπαφή [ICellFormat](../icellformat)
+* διασύνδεση [ICellFormat](../icellformat)
 * χώρος ονομάτων [Aspose.Slides](../../aspose.slides)
 * συγκρότηση [Aspose.Slides](../../)
 

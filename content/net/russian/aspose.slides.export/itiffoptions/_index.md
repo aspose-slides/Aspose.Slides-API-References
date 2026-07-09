@@ -1,15 +1,14 @@
 ---
 title: ITiffOptions
-second_title: Aspose.Sildes для .NET API Reference
-description: Предоставляет параметры, которые контролируют, как презентация сохраняется в формате TIFF.
+second_title: Aspose.Sildes для .NET справки по API
+description: Предоставляет параметры, управляющие тем, как презентация сохраняется в формате TIFF.
 type: docs
-weight: 4000
+weight: 4170
 url: /ru/aspose.slides.export/itiffoptions/
 ---
+## ITiffOptions интерфейс
 
-## Интерфейс ITiffOptions
-
-Предоставляет параметры, которые контролируют, как презентация сохраняется в формате TIFF.
+Предоставляет параметры, управляющие тем, как презентация сохраняется в формате TIFF.
 
 ```csharp
 public interface ITiffOptions : ISaveOptions
@@ -17,23 +16,23 @@ public interface ITiffOptions : ISaveOptions
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/itiffoptions/asisaveoptions) { get; } | Возвращает интерфейс ISaveOptions. Только для чтения [`ISaveOptions`](../isaveoptions). |
-| [BwConversionMode](../../aspose.slides.export/itiffoptions/bwconversionmode) { get; set; } | Указывает алгоритм преобразования цветного изображения в черно-белое. Эта опция будет применена только если [`CompressionType`](./compressiontype) установлен на CCITT4 или CCITT3. Чтение/запись [`BlackWhiteConversionMode`](../blackwhiteconversionmode). Значение по умолчанию - Default. |
-| [CompressionType](../../aspose.slides.export/itiffoptions/compressiontype) { get; set; } | Указывает тип сжатия. Чтение/запись [`TiffCompressionTypes`](../tiffcompressiontypes). |
-| [DpiX](../../aspose.slides.export/itiffoptions/dpix) { get; set; } | Указывает горизонтальное разрешение в точках на дюйм. Чтение/запись UInt32. |
-| [DpiY](../../aspose.slides.export/itiffoptions/dpiy) { get; set; } | Указывает вертикальное разрешение в точках на дюйм. Чтение/запись UInt32. |
-| [ImageSize](../../aspose.slides.export/itiffoptions/imagesize) { get; set; } | Указывает размер созданного TIFF изображения. Значение по умолчанию - 0x0, что означает, что размеры сгенерированного изображения будут рассчитаны на основе значения размера слайда презентации. Чтение/запись Size. |
-| [InkOptions](../../aspose.slides.export/itiffoptions/inkoptions) { get; } | Предоставляет параметры, которые контролируют внешний вид объектов Ink в экспортированном документе. Только для чтения [`IInkOptions`](../iinkoptions) |
-| [PixelFormat](../../aspose.slides.export/itiffoptions/pixelformat) { get; set; } | Указывает формат пикселей для созданных изображений. Чтение/запись [`ImagePixelFormat`](../imagepixelformat). |
-| [ShowHiddenSlides](../../aspose.slides.export/itiffoptions/showhiddenslides) { get; set; } | Указывает, должна ли экспортируемая документация включать скрытые слайды. Значение по умолчанию - `false`. |
-| [SlidesLayoutOptions](../../aspose.slides.export/itiffoptions/slideslayoutoptions) { get; set; } | Получает или устанавливает режим, в котором слайды размещаются на странице при экспорте презентации [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [AsISaveOptions](../../aspose.slides.export/itiffoptions/asisaveoptions) { get; } | Возвращает интерфейс ISaveOptions. Только для чтения [`ISaveOptions`](../isaveoptions). |
+| [BwConversionMode](../../aspose.slides.export/itiffoptions/bwconversionmode) { get; set; } | Указывает алгоритм преобразования цветного изображения в черно-белое. Эта опция применяется только если [`CompressionType`](./compressiontype) установлен в CCITT4 или CCITT3. Чтение/запись [`BlackWhiteConversionMode`](../blackwhiteconversionmode). По умолчанию - Default. |
+| [CompressionType](../../aspose.slides.export/itiffoptions/compressiontype) { get; set; } | Указывает тип сжатия. Чтение/запись [`TiffCompressionTypes`](../tiffcompressiontypes). |
+| [DpiX](../../aspose.slides.export/itiffoptions/dpix) { get; set; } | Указывает горизонтальное разрешение в точках на дюйм. Чтение/запись UInt32. |
+| [DpiY](../../aspose.slides.export/itiffoptions/dpiy) { get; set; } | Указывает вертикальное разрешение в точках на дюйм. Чтение/запись UInt32. |
+| [ImageSize](../../aspose.slides.export/itiffoptions/imagesize) { get; set; } | Указывает размер генерируемого TIFF-изображения. Значение по умолчанию - 0x0, что означает, что размеры изображения будут вычислены исходя из размера слайда презентации. Чтение/запись Size. |
+| [InkOptions](../../aspose.slides.export/itiffoptions/inkoptions) { get; } | Предоставляет параметры, контролирующие внешний вид объектов Ink в экспортируемом документе. Только для чтения [`IInkOptions`](../iinkoptions) |
+| [PixelFormat](../../aspose.slides.export/itiffoptions/pixelformat) { get; set; } | Указывает формат пикселей для создаваемых изображений. Чтение/запись [`ImagePixelFormat`](../imagepixelformat). |
+| [ShowHiddenSlides](../../aspose.slides.export/itiffoptions/showhiddenslides) { get; set; } | Указывает, следует ли включать скрытые слайды в создаваемый документ. По умолчанию `false`. |
+| [SlidesLayoutOptions](../../aspose.slides.export/itiffoptions/slideslayoutoptions) { get; set; } | Получает или задает режим, в котором слайды размещаются на странице при экспорте презентации [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
-### Смотрите также
+### См. также
 
-* интерфейс [ISaveOptions](../isaveoptions)
-* пространство имён [Aspose.Slides.Export](../../aspose.slides.export)
-* сборка [Aspose.Slides](../../)
+* интерфейс [ISaveOptions](../isaveoptions)
+* пространство имён [Aspose.Slides.Export](../../aspose.slides.export)
+* сборка [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

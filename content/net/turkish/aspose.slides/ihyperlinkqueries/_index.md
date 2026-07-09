@@ -1,14 +1,14 @@
 ---
 title: IHyperlinkQueries
 second_title: Aspose.Sildes için .NET API Referansı
-description: İçerilen hiperlinklere kolay erişim sağlar.
+description: İçerilen köprülere kolay erişim sağlar.
 type: docs
-weight: 6120
+weight: 6140
 url: /tr/aspose.slides/ihyperlinkqueries/
 ---
-## IHyperlinkQueries arayüz
+## IHyperlinkQueries arayüzü
 
-Sağlanan hiperlinklere kolay erişim sağlar.
+İçerilen köprülerin kolay erişimini sağlar.
 
 ```csharp
 public interface IHyperlinkQueries
@@ -18,10 +18,10 @@ public interface IHyperlinkQueries
 
 | Ad | Açıklama |
 | --- | --- |
-| [GetAnyHyperlinks](../../aspose.slides/ihyperlinkqueries/getanyhyperlinks)() | Null olmayan HyperlinkMouseOver içeren tüm IHyperlinkContainer alt nesnelerini alır. Verilen IHyperlinkContainer nesnesiyle hiperlinkini (okuma, güncelleme veya kaldırma) yönetebilirsiniz. IHyperlinkContainer arayüzüne bakınız. |
-| [GetHyperlinkClicks](../../aspose.slides/ihyperlinkqueries/gethyperlinkclicks)() | Null olmayan HyperlinkClick içeren tüm IHyperlinkContainer alt nesnelerini alır. Verilen IHyperlinkContainer nesnesiyle hiperlinkini (okuma, güncelleme veya kaldırma) yönetebilirsiniz. IHyperlinkContainer arayüzüne bakınız. |
-| [GetHyperlinkMouseOvers](../../aspose.slides/ihyperlinkqueries/gethyperlinkmouseovers)() | Null olmayan HyperlinkMouseOver içeren tüm IHyperlinkContainer alt nesnelerini alır. Verilen IHyperlinkContainer nesnesiyle hiperlinkini (okuma, güncelleme veya kaldırma) yönetebilirsiniz. IHyperlinkContainer arayüzüne bakınız. |
-| [RemoveAllHyperlinks](../../aspose.slides/ihyperlinkqueries/removeallhyperlinks)() | Tüm IHyperlinkContainer alt nesnelerindeki HyperlinkClick ve HyperlinkMouseOver hiperlinklerini kaldırır. |
+| [GetAnyHyperlinks](../../aspose.slides/ihyperlinkqueries/getanyhyperlinks)() | null olmayan HyperlinkMouseOver içeren tüm IHyperlinkContainer alt nesnelerini al. Verilen IHyperlinkContainer nesnesiyle köprüsünü yönetebilirsiniz (okuma, güncelleme veya kaldırma). IHyperlinkContainer arayüzüne bakın. |
+| [GetHyperlinkClicks](../../aspose.slides/ihyperlinkqueries/gethyperlinkclicks)() | null olmayan HyperlinkClick içeren tüm IHyperlinkContainer alt nesnelerini al. Verilen IHyperlinkContainer nesnesiyle köprüsünü yönetebilirsiniz (okuma, güncelleme veya kaldırma). IHyperlinkContainer arayüzüne bakın. |
+| [GetHyperlinkMouseOvers](../../aspose.slides/ihyperlinkqueries/gethyperlinkmouseovers)() | null olmayan HyperlinkMouseOver içeren tüm IHyperlinkContainer alt nesnelerini al. Verilen IHyperlinkContainer nesnesiyle köprüsünü yönetebilirsiniz (okuma, güncelleme veya kaldırma). IHyperlinkContainer arayüzüne bakın. |
+| [RemoveAllHyperlinks](../../aspose.slides/ihyperlinkqueries/removeallhyperlinks)() | Tüm IHyperlinkContainer alt nesnelerindeki içerilen HyperlinkClick ve HyperlinkMouseOver köprülerini kaldırır. |
 
 ### Ayrıca Bakınız
 

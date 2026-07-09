@@ -1,14 +1,14 @@
 ---
 title: ChartCategoryCollection
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: ChartCategory koleksiyonunu temsil eder./chartcategory
 type: docs
-weight: 1260
+weight: 1280
 url: /tr/aspose.slides.charts/chartcategorycollection/
 ---
-## ChartCategoryCollection sınıfı
+## ChartCategoryCollection sınıf
 
-[`ChartCategory`](../chartcategory) koleksiyonunu temsil eder
+Represents collection of [`ChartCategory`](../chartcategory)
 
 ```csharp
 public class ChartCategoryCollection : DomObject<ChartData>, IChartCategoryCollection
@@ -16,29 +16,29 @@ public class ChartCategoryCollection : DomObject<ChartData>, IChartCategoryColle
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartcategorycollection/count) { get; } | Koleksiyondaki eleman sayısını döndürür. Salt Okunur Int32. |
-| [GroupingLevelCount](../../aspose.slides.charts/chartcategorycollection/groupinglevelcount) { get; } | Kullanılan kategori gruplama seviyelerinin sayısını döndürür. Çok seviyeli kategoriler için birden fazladır. Salt Okunur Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartcategorycollection/issynchronized) { get; } | Listeye erişimin eşzamanlı (thread safe) olup olmadığını gösteren bir değeri döndürür. Salt Okunur Boolean. |
-| [Item](../../aspose.slides.charts/chartcategorycollection/item) { get; } | Belirtilen indeksdeki öğeyi alır. |
-| [SyncRoot](../../aspose.slides.charts/chartcategorycollection/syncroot) { get; } | Koleksiyona erişimi eşzamanlamak için kullanılabilecek bir nesneyi döndürür. Salt Okunur Object. |
-| [UseCells](../../aspose.slides.charts/chartcategorycollection/usecells) { get; set; } | Doğru ise çalışma sayfası kategorileri depolamak için kullanılır (bu durumda çok seviyeli kategoriler desteklenir). Yanlış ise çalışma sayfası değerleri depolamak için KULLANILMAZ (ve bu durumda çok seviyeli kategoriler desteklenmez). Okunur/Yazılabilir Boolean. |
+| [Count](../../aspose.slides.charts/chartcategorycollection/count) { get; } | Koleksiyondaki öğelerin sayısını döndürür. Salt okunur Int32. |
+| [GroupingLevelCount](../../aspose.slides.charts/chartcategorycollection/groupinglevelcount) { get; } | Kullanılan kategori gruplama seviyelerinin sayısını döndürür. Çok seviyeli kategoriler için birden fazladır. Salt okunur Int32. |
+| [IsSynchronized](../../aspose.slides.charts/chartcategorycollection/issynchronized) { get; } | Listenin erişiminin eşzamanlı (iş parçacığı güvenli) olup olmadığını gösteren bir değeri döndürür. Salt okunur Boolean. |
+| [Item](../../aspose.slides.charts/chartcategorycollection/item) { get; } | Belirtilen dizindeki öğeyi alır. |
+| [SyncRoot](../../aspose.slides.charts/chartcategorycollection/syncroot) { get; } | Koleksiyona erişimi eşzamanlamak için kullanılabilecek bir nesneyi döndürür. Salt okunur Object. |
+| [UseCells](../../aspose.slides.charts/chartcategorycollection/usecells) { get; set; } | Doğru ise çalışma sayfası kategorileri depolamak için kullanılır (bu durum çok seviyeli kategorileri destekler). Yanlış ise çalışma sayfası değerleri depolamak için KULLANILMAZ (ve bu durum çok seviyeli kategorileri desteklemez). Okunur/yazılır Boolean. |
 
 ## Yöntemler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [Add](../../aspose.slides.charts/chartcategorycollection/add#add)(IChartDataCell) | Kategori koleksiyonda varsa, onu döndürür. Aksi takdirde [`IChartDataCell`](../ichartdatacell)'den yeni bir grafik kategorisi oluşturur ve koleksiyona ekler. |
+| [Add](../../aspose.slides.charts/chartcategorycollection/add#add)(IChartDataCell) | Kategori koleksiyonda mevcutsa, onu döndürür. Aksi takdirde [`IChartDataCell`](../ichartdatacell)'den yeni bir grafik kategorisi oluşturur ve koleksiyona ekler. |
 | [Add](../../aspose.slides.charts/chartcategorycollection/add#add_1)(object) | Değerden yeni bir [`ChartCategory`](../chartcategory) oluşturur ve koleksiyona ekler. |
 | [Clear](../../aspose.slides.charts/chartcategorycollection/clear)() | Koleksiyondaki tüm öğeleri kaldırır. |
-| [CopyTo](../../aspose.slides.charts/chartcategorycollection/copyto)(Array, int) | Koleksiyonun tüm öğelerini belirtilen diziye kopyalar. |
+| [CopyTo](../../aspose.slides.charts/chartcategorycollection/copyto)(Array, int) | Koleksiyondaki tüm öğeleri belirtilen diziye kopyalar. |
 | [GetEnumerator](../../aspose.slides.charts/chartcategorycollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
-| [IndexOf](../../aspose.slides.charts/chartcategorycollection/indexof)(IChartCategory) | Belirtilen [`ChartCategory`](../chartcategory)'i arar ve tüm Collection içinde ilk oluşumun sıfır tabanlı indeksini döndürür. |
+| [IndexOf](../../aspose.slides.charts/chartcategorycollection/indexof)(IChartCategory) | Belirtilen [`ChartCategory`](../chartcategory)'yi arar ve tüm Koleksiyon içinde ilk oluşumun sıfır tabanlı dizinini döndürür. |
 | [Remove](../../aspose.slides.charts/chartcategorycollection/remove)(IChartCategory) | Belirtilen değeri kaldırır. |
-| [RemoveAt](../../aspose.slides.charts/chartcategorycollection/removeat)(int) | Verilen indeksdeki öğeyi kaldırır. |
+| [RemoveAt](../../aspose.slides.charts/chartcategorycollection/removeat)(int) | Verilen dizindeki öğeyi kaldırır. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * sınıf [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * sınıf [ChartData](../chartdata)

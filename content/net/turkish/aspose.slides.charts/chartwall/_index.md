@@ -1,12 +1,12 @@
 ---
 title: ChartWall
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: 3d grafiklerdeki duvarları temsil eder.
 type: docs
-weight: 1500
+weight: 1520
 url: /tr/aspose.slides.charts/chartwall/
 ---
-## ChartWall sınıf
+## ChartWall sınıfı
 
 3d grafiklerdeki duvarları temsil eder.
 
@@ -18,9 +18,9 @@ public class ChartWall : DomObject<Chart>, IChartWall
 
 | Ad | Açıklama |
 | --- | --- |
-| [Format](../../aspose.slides.charts/chartwall/format) { get; } | Duvar dolgusunu, çizgiyi, efekti ve 3d stilleri döndürür. Yalnızca okunur [`IFormat`](../iformat). |
-| [PictureType](../../aspose.slides.charts/chartwall/picturetype) { get; set; } | Resim tipini döndürür veya ayarlar. Okunur/yazılır [`PictureType`](../picturetype). |
-| [Thickness](../../aspose.slides.charts/chartwall/thickness) { get; set; } | Duvar kalınlığını, grafik hacminin en büyük boyutunun yüzde olarak döndürür veya ayarlar. Okunur/yazılır Int32. |
+| [Format](../../aspose.slides.charts/chartwall/format) { get; } | Duvar dolgusunu, çizgisini, efektini ve 3d stillerini döndürür. Salt okunur [`IFormat`](../iformat). |
+| [PictureType](../../aspose.slides.charts/chartwall/picturetype) { get; set; } | Resim türünü döndürür veya ayarlar. Okuma/yazma [`PictureType`](../picturetype). |
+| [Thickness](../../aspose.slides.charts/chartwall/thickness) { get; set; } | Duvar kalınlığını, çizim hacminin en büyük boyutunun yüzdesi olarak döndürür veya ayarlar. Okuma/yazma Int32. |
 
 ### Ayrıca Bakınız
 

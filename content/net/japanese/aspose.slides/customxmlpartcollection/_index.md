@@ -1,9 +1,9 @@
 ---
 title: CustomXmlPartCollection
-second_title: Aspose.Sildes の .NET 用 API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: カスタム XML パーツのコレクションを表します。
 type: docs
-weight: 2730
+weight: 2750
 url: /ja/aspose.slides/customxmlpartcollection/
 ---
 ## CustomXmlPartCollection クラス
@@ -16,16 +16,16 @@ public class CustomXmlPartCollection : ICustomXmlPartCollection
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [Count](../../aspose.slides/customxmlpartcollection/count) { get; } | コレクション内のカスタム XML パーツの数を返します。読み取り専用の Int32。 |
-| [IsSynchronized](../../aspose.slides/customxmlpartcollection/issynchronized) { get; } | コレクションへのアクセスが同期化されているか（スレッドセーフ）を示す値を返します。読み取り専用の Boolean。 |
+| [Count](../../aspose.slides/customxmlpartcollection/count) { get; } | コレクション内のカスタム XML パーツの数を返します。 読み取り専用 Int32。 |
+| [IsSynchronized](../../aspose.slides/customxmlpartcollection/issynchronized) { get; } | コレクションへのアクセスが同期 (スレッドセーフ) されているかどうかを示す値を返します。 読み取り専用 Boolean。 |
 | [Item](../../aspose.slides/customxmlpartcollection/item) { get; } | 指定されたインデックスの要素を返します。 |
-| [SyncRoot](../../aspose.slides/customxmlpartcollection/syncroot) { get; } | 同期のルートオブジェクトを返します。読み取り専用の Object。 |
+| [SyncRoot](../../aspose.slides/customxmlpartcollection/syncroot) { get; } | 同期ルートを返します。 読み取り専用 Object。 |
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [Add](../../aspose.slides/customxmlpartcollection/add#add)(byte[]) | 新しいカスタム XML パーツを追加します。 |
 | [Add](../../aspose.slides/customxmlpartcollection/add#add_1)(Stream) | 新しいカスタム XML パーツを追加します。 |
@@ -36,7 +36,7 @@ public class CustomXmlPartCollection : ICustomXmlPartCollection
 | [Remove](../../aspose.slides/customxmlpartcollection/remove)(ICustomXmlPart) | コレクションから特定のオブジェクトの最初の出現を削除します。 |
 | [RemoveAt](../../aspose.slides/customxmlpartcollection/removeat)(int) | 指定されたインデックスのカスタム XML パーツを削除します。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [ICustomXmlPartCollection](../icustomxmlpartcollection)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

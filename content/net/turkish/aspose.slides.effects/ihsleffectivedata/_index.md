@@ -1,14 +1,14 @@
 ---
 title: IHSLEffectiveData
-second_title: Aspose.Slides için .NET API Referansı
-description: Ton/Doygunluk/Parlaklık etkisini temsil eder. Ton, doygunluk ve parlaklık, her biri mevcut değerine göre ayarlanabilir.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Hue/Saturation/Luminance etkisini temsil eder. Hue, saturation ve luminance her biri mevcut değerine göre ayarlanabilir.
 type: docs
-weight: 3350
+weight: 3370
 url: /tr/aspose.slides.effects/ihsleffectivedata/
 ---
-## IHSLEffectiveData arayüz
+## IHSLEffectiveData arayüzü
 
-Ton/Doygunluk/Parlaklık etkisini temsil eder. Ton, doygunluk ve parlaklık, her biri mevcut değerine göre ayarlanabilir.
+Hue/Saturation/Luminance etkisini temsil eder. Hue, Saturation ve Luminance her biri mevcut değerine göre ayarlanabilir.
 
 ```csharp
 public interface IHSLEffectiveData : IEffectEffectiveData
@@ -18,12 +18,12 @@ public interface IHSLEffectiveData : IEffectEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ihsleffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzünü almasına izin verir. Salt okunur [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Hue](../../aspose.slides.effects/ihsleffectivedata/hue) { get; } | Ton yüzdesini döndürür. Salt okunur Single. |
-| [Luminance](../../aspose.slides.effects/ihsleffectivedata/luminance) { get; } | Parlaklık yüzdesini döndürür. Salt okunur Single. |
-| [Saturation](../../aspose.slides.effects/ihsleffectivedata/saturation) { get; } | Doygunluk yüzdesini döndürür. Salt okunur Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ihsleffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzünü almayı sağlar. Salt okunur [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Hue](../../aspose.slides.effects/ihsleffectivedata/hue) { get; } | Hue yüzdesini döndürür. Salt okunur Single. |
+| [Luminance](../../aspose.slides.effects/ihsleffectivedata/luminance) { get; } | Luminance yüzdesini döndürür. Salt okunur Single. |
+| [Saturation](../../aspose.slides.effects/ihsleffectivedata/saturation) { get; } | Saturation yüzdesini döndürür. Salt okunur Single. |
 
-### Bakınız
+### Ayrıca Bakınız
 
 * arayüz [IEffectEffectiveData](../ieffecteffectivedata)
 * ad alanı [Aspose.Slides.Effects](../../aspose.slides.effects)

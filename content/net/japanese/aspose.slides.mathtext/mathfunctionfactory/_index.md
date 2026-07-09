@@ -1,14 +1,14 @@
 ---
 title: MathFunctionFactory
-second_title: Aspose.Slides for .NET API リファレンス
-description: 数学関数の作成を可能にします
+second_title: Aspose.Sildes for .NET API リファレンス
+description: 数式関数を作成できます
 type: docs
-weight: 8710
+weight: 8730
 url: /ja/aspose.slides.mathtext/mathfunctionfactory/
 ---
 ## MathFunctionFactory クラス
 
-数学関数を作成できます
+数式関数を作成できます
 
 ```csharp
 public class MathFunctionFactory : IMathFunctionFactory
@@ -24,8 +24,8 @@ public class MathFunctionFactory : IMathFunctionFactory
 
 | 名前 | 説明 |
 | --- | --- |
-| [CreateMathFunction](../../aspose.slides.mathtext/mathfunctionfactory/createmathfunction#createmathfunction)(IMathElement, IMathElement) | 数式関数を作成します |
-| [CreateMathFunction](../../aspose.slides.mathtext/mathfunctionfactory/createmathfunction#createmathfunction_1)(string, IMathElement) | 数式関数を作成します |
+| [CreateMathFunction](../../aspose.slides.mathtext/mathfunctionfactory/createmathfunction#createmathfunction)(IMMathElement, IMMathElement) | 数式関数を作成します。 |
+| [CreateMathFunction](../../aspose.slides.mathtext/mathfunctionfactory/createmathfunction#createmathfunction_1)(string, IMMathElement) | 数式関数を作成します。 |
 
 ### 備考
 

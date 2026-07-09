@@ -1,14 +1,14 @@
 ---
 title: IRowCollection
-second_title: Aspose.Sildes .NET API referencia
-description: A táblázat sorok gyűjteményét képviseli.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: A táblázat sorainak gyűjteményét képviseli.
 type: docs
-weight: 6840
+weight: 6860
 url: /hu/aspose.slides/irowcollection/
 ---
 ## IRowCollection interfész
 
-Represents table row collection.
+A táblázat sorainak gyűjteményét képviseli.
 
 ```csharp
 public interface IRowCollection : IGenericCollection<IRow>
@@ -16,17 +16,17 @@ public interface IRowCollection : IGenericCollection<IRow>
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [Item](../../aspose.slides/irowcollection/item) { get; } | Visszaadja a megadott indexnél lévő elemet. |
+| [Item](../../aspose.slides/irowcollection/item) { get; } | Lekéri a megadott indexű elemet. |
 
-## Metódusok
+## Módszerek
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
 | [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | Létrehoz egy másolatot a megadott sablon sorból, és a táblázat aljára illeszti. |
 | [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | Létrehoz egy másolatot a megadott sablon sorból, és a táblázat megadott pozíciójába illeszti. |
-| [RemoveAt](../../aspose.slides/irowcollection/removeat)(int, bool) | Eltávolít egy sort a megadott pozícióból a táblázatból. |
+| [RemoveAt](../../aspose.slides/irowcollection/removeat)(int, bool) | Eltávolít egy sort a táblázat megadott pozíciójából. |
 
 ### Lásd még
 

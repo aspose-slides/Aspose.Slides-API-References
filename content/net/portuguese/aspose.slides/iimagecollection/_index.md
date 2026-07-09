@@ -1,14 +1,14 @@
 ---
 title: IImageCollection
-second_title: Aspose.Sildes para .NET Referência da API
-description: Representa uma coleção de PPImage.
+second_title: Aspose.Sildes for .NET Referência da API
+description: Representa a coleção de PPImage.
 type: docs
-weight: 6140
+weight: 6160
 url: /pt/aspose.slides/iimagecollection/
 ---
 ## IImageCollection interface
 
-Representa uma coleção de PPImage.
+Representa a coleção de PPImage.
 
 ```csharp
 public interface IImageCollection : IGenericCollection<IPPImage>
@@ -28,7 +28,7 @@ public interface IImageCollection : IGenericCollection<IPPImage>
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage)(IImage) | Adiciona uma imagem a uma apresentação. |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_1)(IPPImage) | Adiciona uma cópia de uma imagem de outra apresentação. |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_2)(ISvgImage) | Adiciona uma imagem a uma apresentação a partir de um objeto SVG. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_4)(MemoryStream) | Adiciona uma imagem a partir de um fluxo de memória. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_4)(MemoryStream) | Adiciona imagem de um fluxo de memória. |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_5)(Stream) | Adiciona uma imagem a uma apresentação a partir de um fluxo. |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | Cria e adiciona uma imagem a uma apresentação a partir de um fluxo. |
 

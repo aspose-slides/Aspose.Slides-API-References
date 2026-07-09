@@ -1,14 +1,14 @@
 ---
 title: HyperlinkColorSource
-second_title: Aspose.Sildes a .NET API referencia számára
-description: A hiperhivatkozás színének forrását jelöli.
+second_title: Aspose.Sildes .NET API referencia
+description: Képviseli a hiperhivatkozás színének forrását.
 type: docs
-weight: 5120
+weight: 5140
 url: /hu/aspose.slides/hyperlinkcolorsource/
 ---
 ## HyperlinkColorSource felsorolás
 
-A hiperhivatkozás színének forrását jelöli.
+Képviseli a hiperhivatkozás színének forrását.
 
 ```csharp
 public enum HyperlinkColorSource
@@ -19,7 +19,7 @@ public enum HyperlinkColorSource
 | Név | Érték | Leírás |
 | --- | --- | --- |
 | Styles | `0` | Styles. |
-| PortionFormat | `1` | Portion format. |
+| PortionFormat | `1` | Részlet formátuma. |
 
 ### Lásd még
 

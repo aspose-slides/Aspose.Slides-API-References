@@ -3,12 +3,12 @@ title: ColorEffect
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje barevný efekt pro animační chování.
 type: docs
-weight: 210
+weight: 230
 url: /cs/aspose.slides.animation/coloreffect/
 ---
 ## ColorEffect třída
 
-Reprezentuje barevný efekt pro animační chování.
+Representuje barevný efekt pro animační chování.
 
 ```csharp
 public class ColorEffect : Behavior, IColorEffect
@@ -24,17 +24,17 @@ public class ColorEffect : Behavior, IColorEffect
 
 | Název | Popis |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Určuje, zda jsou animační chování akumulována. Číst/Zapisovat [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Určuje, zda je aktuální animační chování kombinováno s dalšími běžícími animacemi. Číst/Zapisovat [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [By](../../aspose.slides.animation/coloreffect/by) { get; set; } | Popisuje relativní hodnotu offsetu pro barevnou animaci. Číst/Zapisovat [`IColorOffset`](../icoloroffset). |
-| [ColorSpace](../../aspose.slides.animation/coloreffect/colorspace) { get; set; } | Reprezentuje barevný prostor chování. Číst/Zapisovat [`ColorSpace`](../colorspace). |
-| [Direction](../../aspose.slides.animation/coloreffect/direction) { get; set; } | Určuje, kterým směrem otáčet odstín kolem barevného kolečka. Číst/Zapisovat [`ColorDirection`](../colordirection). |
-| [From](../../aspose.slides.animation/coloreffect/from) { get; set; } | Tato hodnota určuje počáteční barvu chování. Číst/Zapisovat [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Určuje, zda jsou animační chování akumulována. Čtení/zápis [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Určuje, zda je aktuální animační chování kombinováno s ostatními běžícími animacemi. Čtení/zápis [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [By](../../aspose.slides.animation/coloreffect/by) { get; set; } | Popisuje relativní hodnotu offsetu pro barevnou animaci. Čtení/zápis [`IColorOffset`](../icoloroffset). |
+| [ColorSpace](../../aspose.slides.animation/coloreffect/colorspace) { get; set; } | Reprezentuje barevný prostor chování. Čtení/zápis [`ColorSpace`](../colorspace). |
+| [Direction](../../aspose.slides.animation/coloreffect/direction) { get; set; } | Určuje, kterým směrem se otáčí odstín po barevném kole. Čtení/zápis [`ColorDirection`](../colordirection). |
+| [From](../../aspose.slides.animation/coloreffect/from) { get; set; } | Tato hodnota se používá k určení počáteční barvy chování. Čtení/zápis [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Reprezentuje vlastnosti chování. Pouze pro čtení [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Reprezentuje časové vlastnosti pro chování efektu. Číst/Zapisovat [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/coloreffect/to) { get; set; } | Popisuje výslednou barvu pro změnu barvy animace. Číst/Zapisovat [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Reprezentuje časové vlastnosti pro efekt chování. Čtení/zápis [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/coloreffect/to) { get; set; } | Popisuje výslednou barvu pro změnu barvy animace. Čtení/zápis [`IColorFormat`](../../aspose.slides/icolorformat). |
 
-### Viz také
+### Další informace
 
 * třída [Behavior](../behavior)
 * rozhraní [IColorEffect](../icoloreffect)

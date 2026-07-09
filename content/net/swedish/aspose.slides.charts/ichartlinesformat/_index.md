@@ -1,14 +1,14 @@
 ---
 title: IChartLinesFormat
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar formatinställningarna för rutnätslinjer.
+description: Representerar formategenskaper för rutnätslinjer.
 type: docs
-weight: 1870
+weight: 1890
 url: /sv/aspose.slides.charts/ichartlinesformat/
 ---
 ## IChartLinesFormat gränssnitt
 
-Representerar formatinställningarna för rutnätslinjer.
+Representerar formategenskaper för rutnätslinjer.
 
 ```csharp
 public interface IChartLinesFormat
@@ -16,10 +16,10 @@ public interface IChartLinesFormat
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
 | [Effect](../../aspose.slides.charts/ichartlinesformat/effect) { get; } | Returnerar effekter som används för en diagramlinje. Skrivskyddad [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Line](../../aspose.slides.charts/ichartlinesformat/line) { get; } | Returnerar stilinställningarna för en diagramlinje. Skrivskyddad [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Line](../../aspose.slides.charts/ichartlinesformat/line) { get; } | Returnerar stil-egenskaper för en diagramlinje. Skrivskyddad [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### Se även
 

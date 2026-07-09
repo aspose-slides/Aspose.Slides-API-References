@@ -1,14 +1,14 @@
 ---
 title: PdfAccessPermissions
 second_title: Aspose.Sildes için .NET API Referansı
-description: Belge kullanıcı erişimiyle açıldığında hangi erişim izinlerinin verileceğini belirten bir bayrak kümesini içerir.
+description: Belge kullanıcı erişimiyle açıldığında hangi erişim izinlerinin verilmesi gerektiğini belirten bir dizi bayrak içerir.
 type: docs
-weight: 4290
+weight: 4310
 url: /tr/aspose.slides.export/pdfaccesspermissions/
 ---
-## PdfAccessPermissions sınıflandırması
+## PdfAccessPermissions enum
 
-Belge kullanıcı erişimiyle açıldığında hangi erişim izinlerinin verileceğini belirten bir bayrak kümesini içerir.
+Belge kullanıcı erişimiyle açıldığında hangi erişim izinlerinin verilmesi gerektiğini belirten bir dizi bayrak içerir.
 
 ```csharp
 [Flags]
@@ -17,19 +17,19 @@ public enum PdfAccessPermissions
 
 ### Değerler
 
-| Ad | Değer | Açıklama |
+| Name | Value | Description |
 | --- | --- | --- |
 | None | `0` | Kullanıcının erişim izinlerine sahip olmadığını belirtir. |
-| PrintDocument | `4` | Kullanıcının belgeyi yazdırıp yazdıramayacağını belirtir (muhtemelen en yüksek kalite seviyesinde olmayabilir, bit HighQualityPrint de ayarlıysa buna bağlıdır). |
-| ModifyContent | `8` | Kullanıcının belge içeriğini, bit AddOrModifyFields, FillExistingFields, AssembleDocument tarafından kontrol edilen işlemler dışındaki işlemlerle değiştirip değiştirilemeyeceğini belirtir. |
-| CopyTextAndGraphics | `10` | Kullanıcının belge içinden metin ve grafikleri, bit ExtractTextAndGraphics tarafından kontrol edilen işlemler dışındaki işlemlerle kopyalayıp çıkarıp çıkaramayacağını belirtir. |
-| AddOrModifyFields | `20` | Kullanıcının metin açıklamaları ekleyip/değiştirebileceğini, etkileşimli form alanlarını doldurabileceğini ve bit ModifyContent de ayarlıysa etkileşimli form alanlarını (imza alanları dahil) oluşturup/değiştirebileceğini belirtir. |
+| PrintDocument | `4` | Kullanıcının belgeyi yazdırıp yazdıramayacağını belirtir (muhtemelen en yüksek kalite seviyesinde olmayabilir, bit HighQualityPrint de ayarlıysa). |
+| ModifyContent | `8` | Kullanıcının belge içeriğini, bit AddOrModifyFields, FillExistingFields ve AssembleDocument tarafından kontrol edilen işlemler dışındaki işlemlerle değiştirip değiştirilemeyeceğini belirtir. |
+| CopyTextAndGraphics | `10` | Kullanıcının belge içindeki metin ve grafikleri, bit ExtractTextAndGraphics tarafından kontrol edilen işlemler dışındaki işlemlerle kopyalayıp/çıkarıp çıkaramayacağını belirtir. |
+| AddOrModifyFields | `20` | Kullanıcının metin açıklamaları ekleyip/ değiştirebileceğini, etkileşimli form alanlarını doldurabileceğini ve bit ModifyContent de ayarlıysa etkileşimli form alanlarını (imza alanları dahil) oluşturup/ değiştirebileceğini belirtir. |
 | FillExistingFields | `100` | Kullanıcının mevcut etkileşimli form alanlarını (imza alanları dahil) doldurup dolduramayacağını, bit AddOrModifyFields temiz olsa bile belirtir. |
-| ExtractTextAndGraphics | `200` | Kullanıcının engelli kullanıcılar için erişilebilirliği desteklemek veya başka amaçlarla metin ve grafikleri çıkarıp çıkaramayacağını belirtir. |
-| AssembleDocument | `400` | Kullanıcının belgeyi (sayfaları ekleyip, döndürüp, silebilir ve yer imleri veya küçük resimler oluşturabilir) birleştirip birleştiremeyeceğini, bit ModifyContent temiz olsa bile belirtir. |
-| HighQualityPrint | `800` | Kullanıcının PDF içeriğinin güvenilir bir dijital kopyasının oluşturulabileceği bir temsile belgeyi yazdırıp yazdıramayacağını belirtir. Bu bit temiz olduğunda (ve bit PrintDocument ayarlıysa), yazdırma görünümün düşük seviyeli bir temsiliyle sınırlıdır ve kalite düşebilir. |
+| ExtractTextAndGraphics | `200` | Kullanıcının engelli kullanıcılar için erişilebilirlik desteği sağlamak veya diğer amaçlar için metin ve grafikleri çıkarıp çıkaramayacağını belirtir. |
+| AssembleDocument | `400` | Kullanıcının belgeyi (sayfaları ekleyip, döndürüp, silebilir ve yer imleri veya küçük resimler oluşturabilir) bir araya getirip getiremeyeceğini, bit ModifyContent temiz olsa bile belirtir. |
+| HighQualityPrint | `800` | Kullanıcının belgeyi, PDF içeriğinin doğru bir dijital kopyasının üretilebileceği bir temsile yazdırıp yazdıramayacağını belirtir. Bu bit temiz olduğunda (ve bit PrintDocument ayarlıysa), baskı, görünümün düşük seviyeli bir temsiliyle sınırlıdır ve muhtemelen kalite kaybına yol açar. |
 
-### Bkz.
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.Export](../../aspose.slides.export)
 * derleme [Aspose.Slides](../../)

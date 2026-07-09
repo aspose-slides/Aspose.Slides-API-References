@@ -1,14 +1,14 @@
 ---
 title: ICommonSlideViewProperties
-second_title: Aspose.Sildes για .NET Αναφορά API
+second_title: Aspose.Sildes για .NET API Αναφορά
 description: Αναπαριστά τις κοινές ιδιότητες προβολής διαφάνειας.
 type: docs
-weight: 5580
+weight: 5600
 url: /el/aspose.slides/icommonslideviewproperties/
 ---
 ## ICommonSlideViewProperties διεπαφή
 
-Αντιπροσωπεύει τις κοινές ιδιότητες προβολής διαφάνειας.
+Αναπαριστά τις κοινές ιδιότητες προβολής διαφάνειας.
 
 ```csharp
 public interface ICommonSlideViewProperties
@@ -19,8 +19,8 @@ public interface ICommonSlideViewProperties
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [DrawingGuides](../../aspose.slides/icommonslideviewproperties/drawingguides) { get; } | Επιστρέφει τη συλλογή των οδηγών σχεδίασης. Μόνο για ανάγνωση [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | Καθορίζει το ποσοστό κλίμακα προβολής σε ποσοστά. Ανάγνωση/εγγραφή Int32. |
-| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | Καθορίζει ότι το περιεχόμενο της προβολής θα πρέπει να κλιμακώται αυτόματα ώστε να ταιριάζει καλύτερα στο τρέχον μέγεθος του παραθύρου. Ανάγνωση/εγγραφή Boolean. |
+| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | Καθορίζει το ποσοστό κλιμάκωσης της προβολής σε ποσοστά. Ανάγνωση/εγγραφή Int32. |
+| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | Καθορίζει ότι το περιεχόμενο της προβολής πρέπει να κλιμακωθεί αυτόματα ώστε να ταιριάζει καλύτερα στο τρέχον μέγεθος του παραθύρου. Ανάγνωση/εγγραφή Boolean. |
 
 ### Δείτε επίσης
 

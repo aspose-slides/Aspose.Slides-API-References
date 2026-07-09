@@ -3,12 +3,12 @@ title: IMarker
 second_title: Aspose.Sildes for .NET API リファレンス
 description: chert のマーカーを表します。
 type: docs
-weight: 2140
+weight: 2160
 url: /ja/aspose.slides.charts/imarker/
 ---
 ## IMarker インターフェイス
 
-chert のマーカーを表します。
+マーカーの chert を表します。
 
 ```csharp
 public interface IMarker
@@ -19,8 +19,8 @@ public interface IMarker
 | 名前 | 説明 |
 | --- | --- |
 | [Format](../../aspose.slides.charts/imarker/format) { get; } | マーカーの塗りつぶしを取得します。読み取り専用 [`IFormat`](../iformat)。 |
-| [Size](../../aspose.slides.charts/imarker/size) { get; set; } | 折れ線グラフ、散布図、またはレーダーチャートにおけるマーカーのサイズを表します。読み取り/書き込み Int32。 |
-| [Symbol](../../aspose.slides.charts/imarker/symbol) { get; set; } | 折れ線グラフ、散布図、またはレーダーチャートにおけるマーカーのスタイルを表します。読み取り/書き込み [`MarkerStyleType`](../markerstyletype)。 |
+| [Size](../../aspose.slides.charts/imarker/size) { get; set; } | 線グラフ、散布図、またはレーダー グラフにおけるマーカーのサイズを表します。読み書き可能 Int32。 |
+| [Symbol](../../aspose.slides.charts/imarker/symbol) { get; set; } | 線グラフ、散布図、またはレーダー グラフにおけるマーカーのスタイルを表します。読み書き可能 [`MarkerStyleType`](../markerstyletype)。 |
 
 ### 関連項目
 

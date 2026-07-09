@@ -3,7 +3,7 @@ title: MathBlockFactory
 second_title: Aspose.Sildes pro .NET API Reference
 description: Umožňuje vytvořit matematický blok
 type: docs
-weight: 8580
+weight: 8600
 url: /cs/aspose.slides.mathtext/mathblockfactory/
 ---
 ## MathBlockFactory třída
@@ -16,17 +16,17 @@ public class MathBlockFactory : IMathBlockFactory
 
 ## Konstruktory
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
 | [MathBlockFactory](mathblockfactory)() | Výchozí konstruktor. |
 
 ## Metody
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
-| [CreateMathBlock](../../aspose.slides.mathtext/mathblockfactory/createmathblock#createmathblock)() | Vytvořit matematický blok |
-| [CreateMathBlock](../../aspose.slides.mathtext/mathblockfactory/createmathblock#createmathblock_1)(IMathElement) | Vytvořit matematický blok a umístit do něj prvek |
-| [CreateMathBlock](../../aspose.slides.mathtext/mathblockfactory/createmathblock#createmathblock_2)(IMathElementCollection) | Vytvořit matematický blok a umístit do něj prvky |
+| [CreateMathBlock](../../aspose.slides.mathtext/mathblockfactory/createmathblock#createmathblock)() | Vytvoří matematický blok |
+| [CreateMathBlock](../../aspose.slides.mathtext/mathblockfactory/createmathblock#createmathblock_1)(IMathElement) | Vytvoří matematický blok a vloží do něj prvek |
+| [CreateMathBlock](../../aspose.slides.mathtext/mathblockfactory/createmathblock#createmathblock_2)(IMathElementCollection) | Vytvoří matematický blok a vloží do něj prvky |
 
 ### Poznámky
 

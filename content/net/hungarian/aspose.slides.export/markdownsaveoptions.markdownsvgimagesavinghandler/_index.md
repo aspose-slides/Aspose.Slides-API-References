@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions.MarkdownSvgImageSavingHandler
-second_title: Aspose.Sildes a .NET API referenciához
-description: Minden SVG képre meghívják a Markdown exportálás során. `true` visszaadása esetén a megadott linket használja, `false` esetén az alapértelmezett mentési logikát alkalmazza.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Minden SVG kép esetén meghívásra kerül a Markdown exportálás során. true értékkel használja a megadott linket, vagy false értékkel alkalmazza az alapértelmezett mentési logikát.
 type: docs
-weight: 4250
+weight: 4270
 url: /hu/aspose.slides.export/markdownsaveoptions.markdownsvgimagesavinghandler/
 ---
-## MarkdownSaveOptions.MarkdownSvgImageSavingHandler delegate
+## MarkdownSaveOptions.MarkdownSvgImageSavingHandler delegált
 
-Minden SVG kép esetén meghívják a Markdown exportálás során. `true` visszaadásakor a megadott *link*-et használja, `false` esetén az alapértelmezett mentési logikát alkalmazza.
+Minden SVG kép exportálásakor meghívásra kerül a Markdown exportálás során. `true` értékkel használja a megadott *link* értékét, vagy `false` értékkel alkalmazza az alapértelmezett mentési logikát.
 
 ```csharp
 public delegate bool MarkdownSvgImageSavingHandler(ISvgImage svgImage, ref string link);
@@ -16,8 +16,8 @@ public delegate bool MarkdownSvgImageSavingHandler(ISvgImage svgImage, ref strin
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| svgImage | ISvgImage | Az exportálandó SVG kép. |
-| link | String& | A Markdown link, amelyet `true` visszaadása esetén használni kell. |
+| svgImage | ISvgImage | Az exportált SVG kép. |
+| link | String& | A `true` visszatérés esetén használandó Markdown link. |
 
 ### Lásd még
 

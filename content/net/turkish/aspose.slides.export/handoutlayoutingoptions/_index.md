@@ -1,14 +1,14 @@
 ---
 title: HandoutLayoutingOptions
-second_title: Aspose.Sildes için .NET API Referansı
-description: İhracat için el kitabı sunum düzeni modunu temsil eder.
+second_title: Aspose.Sildes .NET için API Referansı
+description: Dışa aktarma için el ilanı sunum düzeni modunu temsil eder.
 type: docs
-weight: 3820
+weight: 3840
 url: /tr/aspose.slides.export/handoutlayoutingoptions/
 ---
 ## HandoutLayoutingOptions sınıfı
 
-İhracat için el kitabı sunum düzeni modunu temsil eder.
+Dışa aktarma için el ilanı sunum düzeni modunu temsil eder.
 
 ```csharp
 public class HandoutLayoutingOptions : ISlidesLayoutOptions
@@ -24,12 +24,12 @@ public class HandoutLayoutingOptions : ISlidesLayoutOptions
 
 | Ad | Açıklama |
 | --- | --- |
-| [Handout](../../aspose.slides.export/handoutlayoutingoptions/handout) { get; set; } | Sayfa [`HandoutType`](../handouttype) üzerine kaç slayt yerleştirileceği ve hangi sırayla yerleştirileceğini belirtir. |
-| [PrintComments](../../aspose.slides.export/handoutlayoutingoptions/printcomments) { get; set; } | Slaytlarda yorumların gösterilip gösterilmeyeceğini belirtir. |
-| [PrintFrameSlide](../../aspose.slides.export/handoutlayoutingoptions/printframeslide) { get; set; } | Görüntülenen slaytların etrafında çerçeve çizilip çizilmeyeceğini belirtir. |
+| [Handout](../../aspose.slides.export/handoutlayoutingoptions/handout) { get; set; } | Sayfa [`HandoutType`](../handouttype) üzerine kaç slayt ve hangi sırayla yerleştirileceğini belirtir. |
+| [PrintComments](../../aspose.slides.export/handoutlayoutingoptions/printcomments) { get; set; } | Slaytlarda yorumların görüntülenip görüntülenmeyeceğini belirtir. |
+| [PrintFrameSlide](../../aspose.slides.export/handoutlayoutingoptions/printframeslide) { get; set; } | Görüntülenen slaytların etrafına çerçeve çizilip çizilmeyeceğini belirtir. |
 | [PrintSlideNumbers](../../aspose.slides.export/handoutlayoutingoptions/printslidenumbers) { get; set; } | Görüntülenen slayt numaralarının yazdırılıp yazdırılmayacağını belirtir. |
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
 * arayüz [ISlidesLayoutOptions](../islideslayoutoptions)
 * ad alanı [Aspose.Slides.Export](../../aspose.slides.export)

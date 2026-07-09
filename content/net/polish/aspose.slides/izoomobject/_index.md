@@ -1,9 +1,9 @@
 ---
 title: IZoomObject
-second_title: Aspose.Sildes dla .NET - odniesienie API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje obiekt Zoom na slajdzie.
 type: docs
-weight: 7390
+weight: 7410
 url: /pl/aspose.slides/izoomobject/
 ---
 ## IZoomObject interfejs
@@ -19,11 +19,11 @@ public interface IZoomObject : IGraphicalObject
 | Nazwa | Opis |
 | --- | --- |
 | [AsIGraphicalObject](../../aspose.slides/izoomobject/asigraphicalobject) { get; } | Umożliwia pobranie podstawowego interfejsu IGraphicalObject. Tylko do odczytu [`IGraphicalObject`](../igraphicalobject). |
-| [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | Pobiera lub ustawia typ obrazu obiektu zoom. Do odczytu i zapisu [`ZoomImageType`](../zoomimagetype). Domyślna wartość: Preview |
-| [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | Pobiera lub ustawia zachowanie nawigacji w pokazie slajdów. Do odczytu i zapisu Boolean. Domyślna wartość: false |
-| [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | Pobiera lub ustawia wartość określającą, czy Zoom będzie używać tła docelowego slajdu. Do odczytu i zapisu Boolean. Domyślna wartość: true |
-| [TransitionDuration](../../aspose.slides/izoomobject/transitionduration) { get; set; } | Pobiera lub ustawia czas trwania przejścia między Zoom a slajdem. Do odczytu i zapisu Single. Domyślna wartość: 1.0f |
-| [ZoomImage](../../aspose.slides/izoomobject/zoomimage) { get; set; } | Pobiera lub ustawia obraz dla obiektu zoom. Do odczytu i zapisu [`IPPImage`](../ippimage). |
+| [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | Pobiera lub ustawia typ obrazu obiektu zoom. Odczyt/zapis [`ZoomImageType`](../zoomimagetype). Domyślna wartość: Preview |
+| [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | Pobiera lub ustawia zachowanie nawigacji w pokazie slajdów. Odczyt/zapis Boolean. Domyślna wartość: false |
+| [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | Pobiera lub ustawia wartość określającą, czy Zoom użyje tła docelowego slajdu. Odczyt/zapis Boolean. Domyślna wartość: true |
+| [TransitionDuration](../../aspose.slides/izoomobject/transitionduration) { get; set; } | Pobiera lub ustawia czas trwania przejścia między Zoom a slajdem. Odczyt/zapis Single. Domyślna wartość: 1.0f |
+| [ZoomImage](../../aspose.slides/izoomobject/zoomimage) { get; set; } | Pobiera lub ustawia obraz dla obiektu zoom. Odczyt/zapis [`IPPImage`](../ippimage). |
 
 ### Zobacz także
 

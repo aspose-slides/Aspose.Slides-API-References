@@ -1,14 +1,14 @@
 ---
 title: ColorOperation
-second_title: Aspose.Sildes .NET API referencia
-description: Különböző színműveleteket képvisel, amelyek színtranszformációkhoz használatosak. Módosíthatatlan objektum.
+second_title: Aspose.Sildes .NET API Referencia
+description: Különböző színműveleteket képvisel, amelyeket színátalakításokhoz használnak. Immutable objektum.
 type: docs
-weight: 2510
+weight: 2530
 url: /hu/aspose.slides/coloroperation/
 ---
 ## ColorOperation osztály
 
-Különböző színműveleteket képvisel, amelyeket színtranszformációkhoz használnak. Módosíthatatlan objektum.
+Különböző színműveleteket képvisel, amelyeket színátalakításokhoz használnak. Immutable objektum.
 
 ```csharp
 public class ColorOperation : IColorOperation
@@ -16,24 +16,24 @@ public class ColorOperation : IColorOperation
 
 ## Konstruktorok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
 | [ColorOperation](coloroperation#constructor)(ColorTransformOperation) | Új színtranszformációs műveletet hoz létre. |
 | [ColorOperation](coloroperation#constructor_1)(ColorTransformOperation, float) | Új színtranszformációs műveletet hoz létre. |
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [OperationType](../../aspose.slides/coloroperation/operationtype) { get; } | Visszaadja vagy beállítja egy művelet típusát. Csak olvasható [`ColorTransformOperation`](../colortransformoperation). |
-| [Parameter](../../aspose.slides/coloroperation/parameter) { get; } | Visszaad egy művelet paraméterét. Csak olvasható Single. |
+| [OperationType](../../aspose.slides/coloroperation/operationtype) { get; } | Visszaadja vagy beállítja a művelet típusát. Csak olvasható [`ColorTransformOperation`](../colortransformoperation). |
+| [Parameter](../../aspose.slides/coloroperation/parameter) { get; } | Visszaad egy paramétert a műveletről. Csak olvasható Single. |
 
 ## Metódusok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides/coloroperation/equals)(object) | Megállapítja, hogy a két ColorOperation példány egyenlő-e. |
-| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | Hash függvényként szolgál egy adott típushoz, amely alkalmas hash algoritmusokban és adatstruktúrákban, például hash táblában való használatra. |
+| override [Equals](../../aspose.slides/coloroperation/equals)(object) | Meghatározza, hogy a két ColorOperation példány egyenlő-e. |
+| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | Hash függvényként szolgál egy adott típushoz, amely alkalmas hash algoritmusokban és adatstruktúrákban, például hash tábla használatához. |
 
 ### Lásd még
 

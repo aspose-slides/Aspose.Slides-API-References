@@ -3,7 +3,7 @@ title: SlidesLayoutOptions
 second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Pobiera lub ustawia tryb, w którym slajdy są rozmieszczane na stronie podczas eksportowania prezentacji ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions.
 type: docs
-weight: 70
+weight: 80
 url: /pl/aspose.slides.export/html5options/slideslayoutoptions/
 ---
 ## Html5Options.SlidesLayoutOptions właściwość

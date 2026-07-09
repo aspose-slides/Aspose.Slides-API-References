@@ -1,14 +1,14 @@
 ---
 title: IColorOffset
-second_title: Aspose.Sildes için .NET API Referansı
-description: Renk ofsetini temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Renk kaydırmasını temsil eder.
 type: docs
-weight: 450
+weight: 470
 url: /tr/aspose.slides.animation/icoloroffset/
 ---
-## IColorOffset arayüz
+## IColorOffset arayüzü
 
-Renk ofsetini temsil eder.
+Renk kaydırmasını temsil eder.
 
 ```csharp
 public interface IColorOffset
@@ -18,9 +18,9 @@ public interface IColorOffset
 
 | Ad | Açıklama |
 | --- | --- |
-| [Value0](../../aspose.slides.animation/icoloroffset/value0) { get; set; } | Ofsetin ilk değerini tanımlar. Okunabilir/Yazılabilir Single. |
-| [Value1](../../aspose.slides.animation/icoloroffset/value1) { get; set; } | Ofsetin ikinci değerini tanımlar. Okunabilir/Yazılabilir Single. |
-| [Value2](../../aspose.slides.animation/icoloroffset/value2) { get; set; } | Ofsetin üçüncü değerini tanımlar. Okunabilir/Yazılabilir Single. |
+| [Value0](../../aspose.slides.animation/icoloroffset/value0) { get; set; } | Kaydırmanın ilk değerini tanımlar. Okunur/Yazılır Single. |
+| [Value1](../../aspose.slides.animation/icoloroffset/value1) { get; set; } | Kaydırmanın ikinci değerini tanımlar. Okunur/Yazılır Single. |
+| [Value2](../../aspose.slides.animation/icoloroffset/value2) { get; set; } | Kaydırmanın üçüncü değerini tanımlar. Okunur/Yazılır Single. |
 
 ### Ayrıca Bakınız
 

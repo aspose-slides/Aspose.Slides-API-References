@@ -1,9 +1,9 @@
 ---
 title: ILineFillFormat
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per il riferimento API .NET
 description: Rappresenta le proprietà per il riempimento delle linee.
 type: docs
-weight: 6270
+weight: 6290
 url: /it/aspose.slides/ilinefillformat/
 ---
 ## ILineFillFormat interfaccia
@@ -18,12 +18,12 @@ public interface ILineFillFormat : IFillParamSource
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ilinefillformat/asifillparamsource) { get; } | Consente di ottenere l'interfaccia base IFillParamSource. Sola lettura [`IFillParamSource`](../ifillparamsource). |
+| [AsIFillParamSource](../../aspose.slides/ilinefillformat/asifillparamsource) { get; } | Consente di ottenere l'interfaccia base IFillParamSource. Solo lettura [`IFillParamSource`](../ifillparamsource). |
 | [FillType](../../aspose.slides/ilinefillformat/filltype) { get; set; } | Restituisce o imposta il tipo di riempimento. Lettura/scrittura [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/ilinefillformat/gradientformat) { get; } | Restituisce il formato di riempimento a gradiente. Sola lettura [`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/ilinefillformat/patternformat) { get; } | Restituisce il formato di riempimento a motivo. Sola lettura [`IPatternFormat`](../ipatternformat). |
-| [RotateWithShape](../../aspose.slides/ilinefillformat/rotatewithshape) { get; set; } | Determina se il riempimento debba ruotare con una forma. Lettura/scrittura [`NullableBool`](../nullablebool). |
-| [SolidFillColor](../../aspose.slides/ilinefillformat/solidfillcolor) { get; } | Restituisce il colore di un riempimento solido. Sola lettura [`IColorFormat`](../icolorformat). |
+| [GradientFormat](../../aspose.slides/ilinefillformat/gradientformat) { get; } | Restituisce il formato di riempimento gradiente. Solo lettura [`IGradientFormat`](../igradientformat). |
+| [PatternFormat](../../aspose.slides/ilinefillformat/patternformat) { get; } | Restituisce il formato di riempimento a trama. Solo lettura [`IPatternFormat`](../ipatternformat). |
+| [RotateWithShape](../../aspose.slides/ilinefillformat/rotatewithshape) { get; set; } | Determina se il riempimento deve essere ruotato con una forma. Lettura/scrittura [`NullableBool`](../nullablebool). |
+| [SolidFillColor](../../aspose.slides/ilinefillformat/solidfillcolor) { get; } | Restituisce il colore di un riempimento solido. Solo lettura [`IColorFormat`](../icolorformat). |
 
 ### Vedi anche
 

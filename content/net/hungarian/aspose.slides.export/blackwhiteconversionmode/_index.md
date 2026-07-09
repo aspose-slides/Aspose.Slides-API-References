@@ -1,14 +1,14 @@
 ---
 title: BlackWhiteConversionMode
-second_title: Aspose.Sildes for .NET API Referencia
+second_title: Aspose.Sildes a .NET API referencia
 description: Lehetőségeket biztosít, amelyek szabályozzák, hogyan lesznek a diák képei bitonális képekké konvertálva.
 type: docs
-weight: 3700
+weight: 3720
 url: /hu/aspose.slides.export/blackwhiteconversionmode/
 ---
 ## BlackWhiteConversionMode enumeráció
 
-Lehetőségeket biztosít, amelyek szabályozzák, hogyan lesznek a diák képei bitonális képekké konvertálva.
+Lehetővé teszi, hogy meghatározza, miként lesznek a diák képei bitonális képekké konvertálva.
 
 ```csharp
 public enum BlackWhiteConversionMode
@@ -18,16 +18,16 @@ public enum BlackWhiteConversionMode
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Default | `0` | Megadja, hogy nincs konverziós algoritmus. A TIFF kodekben megvalósított algoritmus lesz használva. (Alapértelmezett) |
+| Default | `0` | Megadja, hogy nincs konverziós algoritmus. A TIFF kodekben megvalósított algoritmus lesz használva. (Default) |
 | Dithering | `1` | Megadja a dithering algoritmust (Floyd-Steinberg). |
 | DitheringFloydSteinberg | `2` | Megadja a Floyd-Steinberg dithering algoritmust. |
 | Auto | `3` | Megadja az automatikusan kiszámított küszöb algoritmust (Otsu). |
-| AutoOtsu | `4` | Megadja az automatikusan kiszámított Otsu-küszöb algoritmust. |
+| AutoOtsu | `4` | Megadja az automatikusan kiszámított Otsu küszöb algoritmust. |
 | Threshold25 | `5` | Megadja a statikus küszöb algoritmust (25%). |
 | Threshold50 | `6` | Megadja a statikus küszöb algoritmust (50%). |
 | Threshold75 | `7` | Megadja a statikus küszöb algoritmust (75%). |
 
-### Kapcsolódó
+### Lásd még
 
 * névtér [Aspose.Slides.Export](../../aspose.slides.export)
 * összeállítás [Aspose.Slides](../../)

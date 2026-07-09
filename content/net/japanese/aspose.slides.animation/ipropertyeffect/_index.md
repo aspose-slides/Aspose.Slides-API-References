@@ -1,14 +1,14 @@
 ---
 title: IPropertyEffect
 second_title: Aspose.Sildes for .NET API リファレンス
-description: プロパティ効果の挙動を表します。
+description: プロパティ効果の動作を表します。
 type: docs
-weight: 540
+weight: 560
 url: /ja/aspose.slides.animation/ipropertyeffect/
 ---
 ## IPropertyEffect インターフェイス
 
-プロパティ効果の挙動を表します。
+プロパティ効果の動作を表します。
 
 ```csharp
 public interface IPropertyEffect : IBehavior
@@ -18,13 +18,13 @@ public interface IPropertyEffect : IBehavior
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/ipropertyeffect/asibehavior) { get; } | ベース IBehavior インターフェイスを取得できます。読み取り専用 [`IBehavior`](../ibehavior)。 |
-| [By](../../aspose.slides.animation/ipropertyeffect/by) { get; set; } | アニメーション開始前の位置に対する相対オフセット値を指定します。読み書き可能 String。 |
-| [CalcMode](../../aspose.slides.animation/ipropertyeffect/calcmode) { get; set; } | アニメーションの補間モードを指定します。読み書き可能 [`PropertyCalcModeType`](../propertycalcmodetype)。 |
-| [From](../../aspose.slides.animation/ipropertyeffect/from) { get; set; } | アニメーションの開始値を指定します。読み書き可能 String。 |
-| [Points](../../aspose.slides.animation/ipropertyeffect/points) { get; set; } | アニメーションのポイントを指定します。読み書き可能 [`IPointCollection`](../ipointcollection)。 |
-| [To](../../aspose.slides.animation/ipropertyeffect/to) { get; set; } | アニメーションの終了値を指定します。読み書き可能 String。 |
-| [ValueType](../../aspose.slides.animation/ipropertyeffect/valuetype) { get; set; } | プロパティ値の型を指定します。読み書き可能 [`PropertyValueType`](../propertyvaluetype)。 |
+| [AsIBehavior](../../aspose.slides.animation/ipropertyeffect/asibehavior) { get; } | ベース IBehavior インターフェイスを取得できます。 読み取り専用 [`IBehavior`](../ibehavior)。 |
+| [By](../../aspose.slides.animation/ipropertyeffect/by) { get; set; } | アニメーション開始前の位置に対する相対オフセット値を指定します。 読み書き可能 String。 |
+| [CalcMode](../../aspose.slides.animation/ipropertyeffect/calcmode) { get; set; } | アニメーションの補間モードを指定します。 読み書き可能 [`PropertyCalcModeType`](../propertycalcmodetype)。 |
+| [From](../../aspose.slides.animation/ipropertyeffect/from) { get; set; } | アニメーションの開始値を指定します。 読み書き可能 String。 |
+| [Points](../../aspose.slides.animation/ipropertyeffect/points) { get; set; } | アニメーションのポイントを指定します。 読み書き可能 [`IPointCollection`](../ipointcollection)。 |
+| [To](../../aspose.slides.animation/ipropertyeffect/to) { get; set; } | アニメーションの終了値を指定します。 読み書き可能 String。 |
+| [ValueType](../../aspose.slides.animation/ipropertyeffect/valuetype) { get; set; } | プロパティ値の型を指定します。 読み書き可能 [`PropertyValueType`](../propertyvaluetype)。 |
 
 ### 参照
 

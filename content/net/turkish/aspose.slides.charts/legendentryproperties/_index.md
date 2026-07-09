@@ -1,14 +1,14 @@
 ---
 title: LegendEntryProperties
-second_title: Aspose.Sildes için .NET API Referansı
-description: Bir grafiğin gösterge özelliklerini temsil eder.
+second_title: Aspose.Sildes .NET için API Referansı
+description: Bir çizelgenin lejant özelliklerini temsil eder.
 type: docs
-weight: 2290
+weight: 2310
 url: /tr/aspose.slides.charts/legendentryproperties/
 ---
-## LegendEntryProperties sınıfı
+## LegendEntryProperties sınıf
 
-Bir grafiğin gösterge özelliklerini temsil eder.
+Bir çizelgenin lejant özelliklerini temsil eder.
 
 ```csharp
 public class LegendEntryProperties : ILegendEntryProperties
@@ -18,11 +18,11 @@ public class LegendEntryProperties : ILegendEntryProperties
 
 | Ad | Açıklama |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/legendentryproperties/chart) { get; } | Ebeveyn grafiği döndürür. Salt okunur [`IChart`](../ichart). |
-| [Hide](../../aspose.slides.charts/legendentryproperties/hide) { get; set; } | Gösterge girişinin gizlenip gizlenmediğini belirler. Okunabilir/Yazılabilir Boolean. |
-| [TextFormat](../../aspose.slides.charts/legendentryproperties/textformat) { get; } | Metin biçimini döndürür. Salt okunur [`IChartTextFormat`](../icharttextformat). |
+| [Chart](../../aspose.slides.charts/legendentryproperties/chart) { get; } | Üst çizelgeyi döndürür. Yalnızca okuma [`IChart`](../ichart). |
+| [Hide](../../aspose.slides.charts/legendentryproperties/hide) { get; set; } | Lejant girdisinin gizli olup olmadığını belirler. Okuma/yazma Boolean. |
+| [TextFormat](../../aspose.slides.charts/legendentryproperties/textformat) { get; } | Metin biçimini döndürür. Yalnızca okuma [`IChartTextFormat`](../icharttextformat). |
 
-### Ayrıca
+### Bakınız
 
 * arayüz [ILegendEntryProperties](../ilegendentryproperties)
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)

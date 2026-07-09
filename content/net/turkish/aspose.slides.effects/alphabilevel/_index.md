@@ -1,14 +1,14 @@
 ---
 title: AlphaBiLevel
-second_title: Aspose.Sildes for .NET API Referansı
-description: Alpha Bi-Level etkisini temsil eder. Eşiğin altında kalan Alpha Opacity değerleri 0 (tamamen şeffaf) ve eşiğe eşit veya daha büyük alpha değerleri 100 (tamamen opak) olarak değiştirilir.
+second_title: Aspose.Sildes .NET için API Referansı
+description: Alpha Bi-Level etkisini temsil eder. Eşik değerinden düşük Alpha Opacity değerleri 0 (tamamen şeffaf) ve eşik değerine eşit veya daha yüksek alpha değerleri 100 (tamamen opak) olarak değiştirilir.
 type: docs
-weight: 2820
+weight: 2840
 url: /tr/aspose.slides.effects/alphabilevel/
 ---
 ## AlphaBiLevel sınıfı
 
-Alpha Bi-Level etkisini temsil eder. Eşik değerinden küçük Alpha (Opacity) değerleri 0 (tamamen şeffaf) olarak, eşik değerine eşit veya büyük Alpha değerleri ise %100 (tamamen opak) olarak değiştirilir.
+Alpha Bi-Level etkisini temsil eder. Eşik değerinden düşük Alpha (Opacity) değerleri 0 (tamamen şeffaf) olarak, eşik değerine eşit veya daha yüksek Alpha değerleri ise %100 (tamamen opak) olarak değiştirilir.
 
 ```csharp
 public sealed class AlphaBiLevel : ImageTransformOperation, IAlphaBiLevel
@@ -18,16 +18,16 @@ public sealed class AlphaBiLevel : ImageTransformOperation, IAlphaBiLevel
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arabirimini almaya izin verir. Yalnızca okunabilir [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Threshold](../../aspose.slides.effects/alphabilevel/threshold) { get; set; } | Etkinin eşiğini döndürür. Okuma/yazma Single. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almayı sağlar. Salt okunur [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Threshold](../../aspose.slides.effects/alphabilevel/threshold) { get; set; } | Etki eşiğini döndürür. Okunur/Yazılabilir Single. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphabilevel/equals)(object) | Belirtilen [`AlphaBiLevel`](../alphabilevel) nin mevcut [`AlphaBiLevel`](../alphabilevel) ile eşit olup olmadığını belirler. |
-| [GetEffective](../../aspose.slides.effects/alphabilevel/geteffective)() | Uygulanan kalıtımla etkili Alpha Bi-Level efekt verilerini alır. |
-| override [GetHashCode](../../aspose.slides.effects/alphabilevel/gethashcode)() | Belirli bir tip için hash fonksiyonu olarak hizmet verir. |
+| override [Equals](../../aspose.slides.effects/alphabilevel/equals)(object) | Belirtilen [`AlphaBiLevel`](../alphabilevel)'nin mevcut [`AlphaBiLevel`](../alphabilevel) ile eşit olup olmadığını belirler. |
+| [GetEffective](../../aspose.slides.effects/alphabilevel/geteffective)() | Kalıtım uygulanmış etkili Alpha Bi-Level etkisi verilerini alır. |
+| override [GetHashCode](../../aspose.slides.effects/alphabilevel/gethashcode)() | Belirli bir tip için hash işlevi olarak hizmet eder. |
 
 ### Ayrıca Bakınız
 

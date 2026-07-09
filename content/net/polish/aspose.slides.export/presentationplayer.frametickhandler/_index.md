@@ -1,14 +1,14 @@
 ---
 title: PresentationPlayer.FrameTickHandler
-second_title: Aspose.Sildes dla dokumentacji API .NET
-description: Reprezentuje obsługę taktowania klatek zdarzenia FrameTick./presentationplayer/frametick.
+second_title: Aspose.Sildes dla .NET API Reference
+description: Reprezentuje obsługę tyknięcia klatki zdarzenia FrameTick./presentationplayer/frametick.
 type: docs
-weight: 4380
+weight: 4400
 url: /pl/aspose.slides.export/presentationplayer.frametickhandler/
 ---
 ## PresentationPlayer.FrameTickHandler delegat
 
-Reprezentuje obsługę taktowania klatek zdarzenia [`FrameTick`](../presentationplayer/frametick).
+Represents the frame tick handler of [`FrameTick`](../presentationplayer/frametick) event.
 
 ```csharp
 public delegate void FrameTickHandler(PresentationPlayer sender, FrameTickEventArgs args);
@@ -16,8 +16,8 @@ public delegate void FrameTickHandler(PresentationPlayer sender, FrameTickEventA
 
 | Parametr | Typ | Opis |
 | --- | --- | --- |
-| sender | PresentationPlayer | Nadawca zdarzenia taktowania klatek. |
-| args | FrameTickEventArgs | Argumenty taktowania klatek. |
+| sender | PresentationPlayer | Nadawca zdarzenia tyknięcia klatki. |
+| args | FrameTickEventArgs | Argumenty tyknięcia klatki. |
 
 ### Zobacz także
 

@@ -3,12 +3,12 @@ title: IFillFormatCollectionEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
 description: Oföränderligt objekt som representerar en skrivskyddad samling av effektiva fyllningsformat.
 type: docs
-weight: 11220
+weight: 11240
 url: /sv/aspose.slides.theme/ifillformatcollectioneffectivedata/
 ---
 ## IFillFormatCollectionEffectiveData gränssnitt
 
-Oföränderligt objekt som representerar en skrivskyddad samling av effektiva fyllningsformat.
+Immutable object that represents a readonly collection of effective fill formats.
 
 ```csharp
 public interface IFillFormatCollectionEffectiveData : IGenericCollection<IFillFormatEffectiveData>

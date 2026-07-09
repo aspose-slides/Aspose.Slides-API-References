@@ -3,10 +3,10 @@ title: IBaseSlide
 second_title: Aspose.Sildes for .NET API Referansı
 description: Tüm slayt türleri için ortak verileri temsil eder.
 type: docs
-weight: 5320
+weight: 5340
 url: /tr/aspose.slides/ibaseslide/
 ---
-## IBaseSlide arayüz
+## IBaseSlide arayüzü
 
 Tüm slayt türleri için ortak verileri temsil eder.
 
@@ -18,23 +18,23 @@ public interface IBaseSlide : IThemeable
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIThemeable](../../aspose.slides/ibaseslide/asithemeable) { get; } | Temel IThemeable arayüzünü almaya izin verir. Yalnızca okuma [`IThemeable`](../../aspose.slides.theme/ithemeable). |
-| [Background](../../aspose.slides/ibaseslide/background) { get; } | Slaytın arka planını döndürür. Yalnızca okuma [`IBackground`](../ibackground). |
-| [Controls](../../aspose.slides/ibaseslide/controls) { get; } | Bir slayttaki ActiveX denetimlerinin koleksiyonunu döndürür. Yalnızca okuma [`IControlCollection`](../icontrolcollection). |
-| [CustomData](../../aspose.slides/ibaseslide/customdata) { get; } | Slaytın özel verilerini döndürür. Yalnızca okuma [`ICustomData`](../icustomdata). |
-| [HyperlinkQueries](../../aspose.slides/ibaseslide/hyperlinkqueries) { get; } | İçerilen bağlantılara kolay erişim sağlar. Yalnızca okuma [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| [Name](../../aspose.slides/ibaseslide/name) { get; set; } | Bir slaytın adını döndürür veya ayarlar. Okuma/yazma String. |
-| [Shapes](../../aspose.slides/ibaseslide/shapes) { get; } | Bir slaytın şekillerini döndürür. Yalnızca okuma [`IShapeCollection`](../ishapecollection). |
-| [ShowMasterShapes](../../aspose.slides/ibaseslide/showmastershapes) { get; set; } | Ana slayttaki şekillerin slaytlarda gösterilip gösterilmeyeceğini belirler. Ana slayt için bu özellik her zaman `false` döndürür. Okuma/yazma Boolean. |
-| [SlideId](../../aspose.slides/ibaseslide/slideid) { get; } | Bir slaytın kimliğini döndürür. Yalnızca okuma UInt32. |
-| [SlideShowTransition](../../aspose.slides/ibaseslide/slideshowtransition) { get; } | Belirtilen slaytın bir gösteri sırasında nasıl ilerlediği hakkında bilgi içeren TransitionEx nesnesini döndürür. Yalnızca okuma [`ISlideShowTransition`](../islideshowtransition). |
-| [Timeline](../../aspose.slides/ibaseslide/timeline) { get; } | Animasyon zaman çizelgesi nesnesini döndürür. Yalnızca okuma [`IAnimationTimeLine`](../ianimationtimeline). |
+| [AsIThemeable](../../aspose.slides/ibaseslide/asithemeable) { get; } | Temel IThemeable arayüzünü almaya izin verir. Yalnızca okunabilir [`IThemeable`](../../aspose.slides.theme/ithemeable). |
+| [Background](../../aspose.slides/ibaseslide/background) { get; } | Slaytın arka planını döndürür. Yalnızca okunabilir [`IBackground`](../ibackground). |
+| [Controls](../../aspose.slides/ibaseslide/controls) { get; } | Bir slayttaki ActiveX denetimlerinin koleksiyonunu döndürür. Yalnızca okunabilir [`IControlCollection`](../icontrolcollection). |
+| [CustomData](../../aspose.slides/ibaseslide/customdata) { get; } | Slaytın özel verilerini döndürür. Yalnızca okunabilir [`ICustomData`](../icustomdata). |
+| [HyperlinkQueries](../../aspose.slides/ibaseslide/hyperlinkqueries) { get; } | İçerilen köprü bağlantılarına kolay erişim sağlar. Yalnızca okunabilir [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [Name](../../aspose.slides/ibaseslide/name) { get; set; } | Bir slaytın adını döndürür veya ayarlar. Okunabilir/Yazılabilir String. |
+| [Shapes](../../aspose.slides/ibaseslide/shapes) { get; } | Bir slayttaki şekilleri döndürür. Yalnızca okunabilir [`IShapeCollection`](../ishapecollection). |
+| [ShowMasterShapes](../../aspose.slides/ibaseslide/showmastershapes) { get; set; } | Ana slayttaki şekillerin slaytlarda gösterilip gösterilmeyeceğini belirtir. Ana slayt için bu özellik her zaman `false` döndürür. Okunabilir/Yazılabilir Boolean. |
+| [SlideId](../../aspose.slides/ibaseslide/slideid) { get; } | Bir slaytın kimliğini döndürür. Yalnızca okunabilir UInt32. |
+| [SlideShowTransition](../../aspose.slides/ibaseslide/slideshowtransition) { get; } | Belirtilen slaytın bir slayt gösterisi sırasında nasıl ilerlediği hakkında bilgi içeren TransitionEx nesnesini döndürür. Yalnızca okunabilir [`ISlideShowTransition`](../islideshowtransition). |
+| [Timeline](../../aspose.slides/ibaseslide/timeline) { get; } | Animasyon zaman çizelgesi nesnesini döndürür. Yalnızca okunabilir [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [Equals](../../aspose.slides/ibaseslide/equals)(IBaseSlide) | İki IBaseSlide örneğinin eşit olup olmadığını belirler. Dönüş değeri slaytın yapısı ve statik içeriğine göre hesaplanır. Tüm şekiller, stiller, metinler, animasyon ve diğer ayarlar vb. eşitse slaytlar eşittir. Karşılaştırma benzersiz tanımlayıcı değerlerini (ör. SlideId) ve dinamik içeriği (ör. Tarih Yer Tutucusundaki geçerli tarih değeri) dikkate almaz. |
+| [Equals](../../aspose.slides/ibaseslide/equals)(IBaseSlide) | İki IBaseSlide örneğinin eşit olup olmadığını belirler. Dönen değer, slaytın yapısı ve statik içeriği temel alınarak hesaplanır. Tüm şekiller, stiller, metinler, animasyon ve diğer ayarlar vb. eşitse slaytlar eşittir. Karşılaştırma, SlideId gibi benzersiz tanımlayıcı değerleri ve tarih yer tutucusundaki geçerli tarih değeri gibi dinamik içeriği dikkate almaz. |
 | [FindShapeByAltText](../../aspose.slides/ibaseslide/findshapebyalttext)(string) | Belirtilen alternatif metne sahip şeklin ilk oluşumunu bulur. |
 | [JoinPortionsWithSameFormatting](../../aspose.slides/ibaseslide/joinportionswithsameformatting)() | Tüm kabul edilebilir şekillerdeki tüm paragraflarda aynı biçimlendirmeye sahip koşulları birleştirir. |
 

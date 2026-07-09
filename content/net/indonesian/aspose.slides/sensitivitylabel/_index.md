@@ -3,7 +3,7 @@ title: SensitivityLabel
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili label sensitivitas dari Microsoft Purview Information Protection.
 type: docs
-weight: 9770
+weight: 9790
 url: /id/aspose.slides/sensitivitylabel/
 ---
 ## SensitivityLabel kelas
@@ -18,12 +18,12 @@ public sealed class SensitivityLabel : ISensitivityLabel
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AssignmentMethodType](../../aspose.slides/sensitivitylabel/assignmentmethodtype) { get; set; } | Mengembalikan atau mengatur metode penugasan untuk label sensitivitas. Read/write [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
-| [ContentMarkTypes](../../aspose.slides/sensitivitylabel/contentmarktypes) { get; } | Mengembalikan daftar jenis penandaan konten yang seharusnya diterapkan pada file. |
-| [Id](../../aspose.slides/sensitivitylabel/id) { get; set; } | Mengembalikan atau mengatur id label sensitivitas. Read/write String. |
+| [AssignmentMethodType](../../aspose.slides/sensitivitylabel/assignmentmethodtype) { get; set; } | Mengembalikan atau mengatur metode penugasan untuk label sensitivitas. Baca/tulis [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
+| [ContentMarkTypes](../../aspose.slides/sensitivitylabel/contentmarktypes) { get; } | Mengembalikan daftar jenis penandaan konten yang harus diterapkan pada file. |
+| [Id](../../aspose.slides/sensitivitylabel/id) { get; set; } | Mengembalikan atau mengatur id label sensitivitas. Baca/tulis String. |
 | [IsEnabled](../../aspose.slides/sensitivitylabel/isenabled) { get; set; } | Menunjukkan apakah label sensitivitas diaktifkan. |
 | [IsRemoved](../../aspose.slides/sensitivitylabel/isremoved) { get; set; } | Menunjukkan apakah label sensitivitas telah dihapus. |
-| [SiteId](../../aspose.slides/sensitivitylabel/siteid) { get; set; } | Mengembalikan atau mengatur pengidentifikasi situs Azure Active Directory (Azure AD) yang sesuai dengan kebijakan label sensitivitas yang menggambarkan label sensitivitas. Read/write Guid. |
+| [SiteId](../../aspose.slides/sensitivitylabel/siteid) { get; set; } | Mengembalikan atau mengatur pengidentifikasi situs Azure Active Directory (Azure AD) yang sesuai dengan kebijakan label sensitivitas yang menjelaskan label sensitivitas. Baca/tulis Guid. |
 
 ### Lihat Juga
 

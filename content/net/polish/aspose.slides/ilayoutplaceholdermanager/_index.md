@@ -1,14 +1,14 @@
 ---
 title: ILayoutPlaceholderManager
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Reprezentuje menedżera, który umożliwia dodawanie elementów zastępczych do slajdu układu.
+second_title: Aspose.Sildes dla .NET – referencja API
+description: Reprezentuje menedżera, który umożliwia dodawanie pól zastępczych do slajdu układu.
 type: docs
-weight: 6190
+weight: 6210
 url: /pl/aspose.slides/ilayoutplaceholdermanager/
 ---
 ## ILayoutPlaceholderManager interfejs
 
-Represents manager that allows you to add placeholders to the layout slide.
+Reprezentuje menedżera, który umożliwia dodawanie pól zastępczych do slajdu układu.
 
 ```csharp
 public interface ILayoutPlaceholderManager
@@ -18,16 +18,16 @@ public interface ILayoutPlaceholderManager
 
 | Nazwa | Opis |
 | --- | --- |
-| [AddChartPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | Dodaje nowy kształt zastępczy do slajdu układu, aby pomieścić wykres. |
-| [AddContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | Dodaje nowy kształt zastępczy do slajdu układu, aby pomieścić zawartość, taką jak obraz, tabela, multimedia lub tekst. |
-| [AddMediaPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | Dodaje nowy kształt zastępczy do slajdu układu, aby pomieścić obiekt multimedialny. |
-| [AddOnlineImagePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | Dodaje nowy kształt zastępczy do slajdu układu, aby pomieścić obraz online. |
-| [AddPicturePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | Dodaje nowy kształt zastępczy do slajdu układu, aby pomieścić obraz. |
-| [AddSmartArtPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | Dodaje nowy kształt zastępczy do slajdu układu, aby pomieścić diagram SmartArt. |
-| [AddTablePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | Dodaje nowy kształt zastępczy do slajdu układu, aby pomieścić tabelę. |
-| [AddTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | Dodaje nowy kształt zastępczy do slajdu układu, aby pomieścić tekst. |
-| [AddVerticalContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Dodaje nowy kształt zastępczy do slajdu układu, aby pomieścić zawartość, taką jak obraz, tabela, multimedia lub tekst, w pionowym kierunku. |
-| [AddVerticalTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Dodaje nowy kształt zastępczy do slajdu układu, aby pomieścić tekst w pionowym kierunku. |
+| [AddChartPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | Dodaje nowy kształt pola zastępczego do slajdu układu, aby przechowywać wykres. |
+| [AddContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | Dodaje nowy kształt pola zastępczego do slajdu układu, aby przechowywać zawartość, taką jak obraz, tabela, multimedia lub tekst. |
+| [AddMediaPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | Dodaje nowy kształt pola zastępczego do slajdu układu, aby przechowywać obiekt multimedialny. |
+| [AddOnlineImagePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | Dodaje nowy kształt pola zastępczego do slajdu układu, aby przechowywać obraz online. |
+| [AddPicturePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | Dodaje nowy kształt pola zastępczego do slajdu układu, aby przechowywać obraz. |
+| [AddSmartArtPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | Dodaje nowy kształt pola zastępczego do slajdu układu, aby przechowywać diagram SmartArt. |
+| [AddTablePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | Dodaje nowy kształt pola zastępczego do slajdu układu, aby przechowywać tabelę. |
+| [AddTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | Dodaje nowy kształt pola zastępczego do slajdu układu, aby przechowywać treść tekstową. |
+| [AddVerticalContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Dodaje nowy kształt pola zastępczego do slajdu układu, aby przechowywać zawartość, taką jak obraz, tabela, multimedia lub tekst, w kierunku pionowym. |
+| [AddVerticalTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Dodaje nowy kształt pola zastępczego do slajdu układu, aby przechowywać treść tekstową w kierunku pionowym. |
 
 ### Zobacz także
 

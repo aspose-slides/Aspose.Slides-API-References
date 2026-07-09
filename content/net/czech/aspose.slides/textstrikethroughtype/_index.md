@@ -3,10 +3,10 @@ title: TextStrikethroughType
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje typ přeškrtnutí textu.
 type: docs
-weight: 10970
+weight: 10990
 url: /cs/aspose.slides/textstrikethroughtype/
 ---
-## TextStrikethroughType enumerace
+## Výčet TextStrikethroughType
 
 Reprezentuje typ přeškrtnutí textu.
 

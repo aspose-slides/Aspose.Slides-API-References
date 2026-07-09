@@ -1,14 +1,14 @@
 ---
 title: ILineFormatCollectionEffectiveData
-second_title: Riferimento API di Aspose.Sildes per .NET
-description: Oggetto immutabile che rappresenta una collezione a sola lettura di formati di linea effettivi.
+second_title: Aspose.Sildes per .NET - Riferimento API
+description: Oggetto immutabile che rappresenta una collezione di sola lettura di formati di linea efficaci.
 type: docs
-weight: 11280
+weight: 11300
 url: /it/aspose.slides.theme/ilineformatcollectioneffectivedata/
 ---
 ## ILineFormatCollectionEffectiveData interfaccia
 
-Oggetto immutabile che rappresenta una collezione a sola lettura di formati di linea effettivi.
+Oggetto immutabile che rappresenta una collezione di sola lettura di formati di linea efficaci.
 
 ```csharp
 public interface ILineFormatCollectionEffectiveData : IGenericCollection<ILineFormatEffectiveData>
@@ -18,9 +18,9 @@ public interface ILineFormatCollectionEffectiveData : IGenericCollection<ILineFo
 
 | Nome | Descrizione |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ilineformatcollectioneffectivedata/item) { get; } | Ottiene l'elemento all'indice specificato. Solo lettura [`ILineFormatEffectiveData`](../../aspose.slides/ilineformateffectivedata). |
+| [Item](../../aspose.slides.theme/ilineformatcollectioneffectivedata/item) { get; } | Ottiene l'elemento all'indice specificato. Sola lettura [`ILineFormatEffectiveData`](../../aspose.slides/ilineformateffectivedata). |
 
-### Note
+### Osservazioni
 
 Questa interfaccia è usata come parte di [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata).
 

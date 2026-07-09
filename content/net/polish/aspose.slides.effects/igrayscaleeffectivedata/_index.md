@@ -1,14 +1,14 @@
 ---
 title: IGrayScaleEffectiveData
-second_title: Aspose.Sildes dla .NET API Reference
-description: Niezmienny obiekt, który reprezentuje efekt skali szarości. Konwertuje wszystkie wartości koloru efektu na odcień szarości odpowiadający ich luminancji. Wartości alfa (przezroczystość) efektu pozostają niezmienione.
+second_title: Aspose.Sildes dla .NET - Dokumentacja API
+description: Obiekt niezmienny, który reprezentuje efekt w odcieniach szarości. Konwertuje wszystkie wartości kolorów efektu na odcień szarości odpowiadający ich luminancji. Wartości alfa (przezroczystość) efektu nie są zmieniane.
 type: docs
-weight: 3330
+weight: 3350
 url: /pl/aspose.slides.effects/igrayscaleeffectivedata/
 ---
 ## IGrayScaleEffectiveData interfejs
 
-Niezmienny obiekt, który reprezentuje efekt skali szarości. Konwertuje wszystkie wartości koloru efektu na odcień szarości, odpowiadający ich luminancji. Wartości alfa (przezroczystości) efektu pozostają niezmienione.
+Obiekt niezmienny, który reprezentuje efekt w odcieniach szarości. Konwertuje wszystkie wartości kolorów efektu na odcień szarości, odpowiadający ich luminancji. Wartości alfa (przezroczystość) efektu nie są zmieniane.
 
 ```csharp
 public interface IGrayScaleEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IGrayScaleEffectiveData : IEffectEffectiveData
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/igrayscaleeffectivedata/asieffecteffectivedata) { get; } | Umożliwia pobranie bazowego interfejsu IEffectEffectiveData. Tylko do odczytu [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/igrayscaleeffectivedata/asieffecteffectivedata) { get; } | Umożliwia pobranie podstawowego interfejsu IEffectEffectiveData. Tylko do odczytu [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Zobacz także
 

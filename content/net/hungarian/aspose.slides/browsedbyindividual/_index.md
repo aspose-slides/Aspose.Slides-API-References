@@ -1,14 +1,14 @@
 ---
 title: BrowsedByIndividual
-second_title: Aspose.Sildes a .NET API-referencia
-description: Egyéni böngészőablak
+second_title: Aspose.Sildes .NET API-referencia
+description: Egyén szerinti böngészőablak
 type: docs
-weight: 1030
+weight: 1050
 url: /hu/aspose.slides/browsedbyindividual/
 ---
 ## BrowsedByIndividual osztály
 
-Egyéni böngészés (ablak)
+Egyén szerint böngészve (ablak)
 
 ```csharp
 public class BrowsedByIndividual : SlideShowType
@@ -18,7 +18,7 @@ public class BrowsedByIndividual : SlideShowType
 
 | Név | Leírás |
 | --- | --- |
-| [BrowsedByIndividual](browsedbyindividual)() | Új példányt inicializál a BrowsedByIndividual osztályból. |
+| [BrowsedByIndividual](browsedbyindividual)() | Új példányt hoz létre a BrowsedByIndividual osztályból. |
 
 ## Tulajdonságok
 

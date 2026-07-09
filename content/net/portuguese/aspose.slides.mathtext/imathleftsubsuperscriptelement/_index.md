@@ -1,14 +1,14 @@
 ---
 title: IMathLeftSubSuperscriptElement
 second_title: Referência da API Aspose.Sildes para .NET
-description: Especifica o objeto Sub-Superescrito que consiste em uma base com subscrito e sobrescrito posicionados à esquerda da base.
+description: Especifica o objeto Sub-Superscript que consiste em uma base e um subscrito e um sobrescrito posicionados à esquerda da base.
 type: docs
-weight: 8290
+weight: 8310
 url: /pt/aspose.slides.mathtext/imathleftsubsuperscriptelement/
 ---
-## interface IMathLeftSubSuperscriptElement
+## IMathLeftSubSuperscriptElement interface
 
-Especifica o objeto Sub-Superescrito, que consiste em uma base com subscrito e sobrescrito posicionados à esquerda da base.
+Especifica o objeto Sub-Superscript, que consiste em uma base e um subscrito e um sobrescrito posicionados à esquerda da base.
 
 ```csharp
 public interface IMathLeftSubSuperscriptElement : IMathElement
@@ -18,7 +18,7 @@ public interface IMathLeftSubSuperscriptElement : IMathElement
 
 | Nome | Descrição |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/asimathelement) { get; } | Permite obter a interface IMathElement base [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/asimathelement) { get; } | Permite obter a interface base IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/base) { get; } | Argumento base |
 | [Subscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/subscript) { get; } | Subscrito |
 | [Superscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/superscript) { get; } | Sobrescrito |

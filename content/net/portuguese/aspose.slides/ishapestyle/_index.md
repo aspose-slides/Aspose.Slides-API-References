@@ -1,12 +1,12 @@
 ---
 title: IShapeStyle
-second_title: Aspose.Sildes para .NET - Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa a referência de estilo das formas.
 type: docs
-weight: 6990
+weight: 7010
 url: /pt/aspose.slides/ishapestyle/
 ---
-## IShapeStyle interface
+## interface IShapeStyle
 
 Representa a referência de estilo da forma.
 
@@ -19,15 +19,15 @@ public interface IShapeStyle
 | Nome | Descrição |
 | --- | --- |
 | [EffectColor](../../aspose.slides/ishapestyle/effectcolor) { get; } | Retorna a cor de efeito da forma. Somente leitura [`IColorFormat`](../icolorformat). |
-| [EffectStyleIndex](../../aspose.slides/ishapestyle/effectstyleindex) { get; set; } | Retorna ou define o índice de coluna de efeito da forma em uma matriz de estilo. Leitura/Gravação UInt32. |
+| [EffectStyleIndex](../../aspose.slides/ishapestyle/effectstyleindex) { get; set; } | Retorna ou define o índice da coluna de efeito da forma em uma matriz de estilo. Leitura/gravação UInt32. |
 | [FillColor](../../aspose.slides/ishapestyle/fillcolor) { get; } | Retorna a cor de preenchimento da forma. Somente leitura [`IColorFormat`](../icolorformat). |
-| [FillStyleIndex](../../aspose.slides/ishapestyle/fillstyleindex) { get; set; } | Retorna ou define o índice de coluna de preenchimento da forma em matrizes de estilo. 0 significa sem preenchimento, valor positivo - índice nos estilos de preenchimento do tema, valor negativo - índice nos estilos de plano de fundo do tema. Leitura/Gravação Int16. |
-| [FontCollectionIndex](../../aspose.slides/ishapestyle/fontcollectionindex) { get; set; } | Retorna ou define o índice de fonte da forma em uma coleção de fontes. Leitura/Gravação [`FontCollectionIndex`](../fontcollectionindex). |
+| [FillStyleIndex](../../aspose.slides/ishapestyle/fillstyleindex) { get; set; } | Retorna ou define o índice da coluna de preenchimento da forma em matrizes de estilo. 0 significa sem preenchimento, valor positivo - índice nos estilos de preenchimento do tema, valor negativo - índice nos estilos de plano de fundo do tema. Leitura/gravação Int16. |
+| [FontCollectionIndex](../../aspose.slides/ishapestyle/fontcollectionindex) { get; set; } | Retorna ou define o índice da fonte da forma em uma coleção de fontes. Leitura/gravação [`FontCollectionIndex`](../fontcollectionindex). |
 | [FontColor](../../aspose.slides/ishapestyle/fontcolor) { get; } | Retorna a cor da fonte da forma. Somente leitura [`IColorFormat`](../icolorformat). |
-| [LineColor](../../aspose.slides/ishapestyle/linecolor) { get; } | Retorna a cor de contorno da forma. Somente leitura [`IColorFormat`](../icolorformat). |
-| [LineStyleIndex](../../aspose.slides/ishapestyle/linestyleindex) { get; set; } | Retorna ou define o índice de coluna da linha em uma matriz de estilo. Leitura/Gravação UInt16. |
+| [LineColor](../../aspose.slides/ishapestyle/linecolor) { get; } | Retorna a cor do contorno da forma. Somente leitura [`IColorFormat`](../icolorformat). |
+| [LineStyleIndex](../../aspose.slides/ishapestyle/linestyleindex) { get; set; } | Retorna ou define o índice da coluna da linha em uma matriz de estilo. Leitura/gravação UInt16. |
 
-### Ver também
+### Ver Também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

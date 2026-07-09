@@ -1,12 +1,12 @@
 ---
 title: MathIntegralTypes
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Tipos integrais matemáticos
 type: docs
-weight: 8770
+weight: 8790
 url: /pt/aspose.slides.mathtext/mathintegraltypes/
 ---
-## MathIntegralTypes enumeração
+## Enumeração MathIntegralTypes
 
 Tipos integrais matemáticos
 
@@ -19,13 +19,13 @@ public enum MathIntegralTypes
 | Nome | Valor | Descrição |
 | --- | --- | --- |
 | Simple | `0` | Integral: '∫' |
-| Double | `1` | Integral duplo: '∬' |
-| Triple | `2` | Integral triplo: '∭' |
+| Double | `1` | Integral dupla: '∬' |
+| Triple | `2` | Integral tripla: '∭' |
 | Contour | `3` | Integral de contorno: '∮' |
 | Surface | `4` | Integral de superfície: '∯' |
 | Volume | `5` | Integral de volume: '∰' |
 
-### Veja também
+### Veja Também
 
 * espaço de nomes [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * assembly [Aspose.Slides](../../)

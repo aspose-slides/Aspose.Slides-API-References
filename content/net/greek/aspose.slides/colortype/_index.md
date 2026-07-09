@@ -1,12 +1,12 @@
 ---
 title: ColorType
-second_title: Aspose.Sildes για .NET API Αναφορά
+second_title: Aspose.Sildes for .NET Αναφορά API
 description: Αντιπροσωπεύει διαφορετικές λειτουργίες χρώματος.
 type: docs
-weight: 2560
+weight: 2580
 url: /el/aspose.slides/colortype/
 ---
-## ColorType απαρίθμηση
+## Απαρίθμηση ColorType
 
 Αντιπροσωπεύει διαφορετικές λειτουργίες χρώματος.
 
@@ -18,11 +18,11 @@ public enum ColorType
 
 | Όνομα | Τιμή | Περιγραφή |
 | --- | --- | --- |
-| NotDefined | `-1` | Το χρώμα δεν έχει οριστεί καθόλου. |
-| RGB | `0` | Τυπικό χρώμα RGB 24bit. |
+| NotDefined | `-1` | Το χρώμα δεν έχει καθοριστεί καθόλου. |
+| RGB | `0` | Τυπικό χρώμα RGB 24-bit. |
 | RGBPercentage | `1` | Χρώμα RGB υψηλής ανάλυσης. |
 | HSL | `2` | Χρώμα HSL υψηλής ανάλυσης. |
-| Scheme | `3` | Χρώμα σχήματος. |
+| Scheme | `3` | Χρώμα σχεδίου. |
 | System | `4` | Χρώμα συστήματος. |
 | Preset | `5` | Προκαθορισμένο χρώμα. |
 

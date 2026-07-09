@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions.MarkdownImageSavingHandler
 second_title: Aspose.Sildes för .NET API-referens
-description: Anropas för varje icke-SVG-bild bitmap eller metafil under Markdown-export. Returnera true för att använda den angivna länken eller false för att tillämpa standardlagringslogiken.
+description: Anropas för varje icke-SVG-bild (bitmap eller metafil) under Markdown-export. Returnera true för att använda den angivna länken eller false för att tillämpa standard-sparlogiken.
 type: docs
-weight: 4240
+weight: 4260
 url: /sv/aspose.slides.export/markdownsaveoptions.markdownimagesavinghandler/
 ---
-## MarkdownSaveOptions.MarkdownImageSavingHandler delegat
+## MarkdownSaveOptions.MarkdownImageSavingHandler delegate
 
-Anropas för varje icke-SVG-bild (bitmap eller metafil) under Markdown-export. Returnera `true` för att använda den angivna *link*, eller `false` för att tillämpa standardlagringslogiken.
+Anropas för varje icke-SVG-bild (bitmap eller metafil) under Markdown-export. Returnera `true` för att använda den angivna *link*, eller `false` för att tillämpa standard-sparlogiken.
 
 ```csharp
 public delegate bool MarkdownImageSavingHandler(IImage image, ImageFormat format, ref string link);
@@ -18,12 +18,12 @@ public delegate bool MarkdownImageSavingHandler(IImage image, ImageFormat format
 | --- | --- | --- |
 | image | IImage | Bilden som exporteras (bitmap eller metafil). |
 | format | ImageFormat | Bildformatet. |
-| link | String& | Markdown-länken som ska användas när `true` returneras. |
+| link | String& | Markdown-länken som ska användas när du returnerar `true`. |
 
 ### Se även
 
 * gränssnitt [IImage](../../aspose.slides/iimage)
-* enum [ImageFormat](../../aspose.slides/imageformat)
+* uppräkning [ImageFormat](../../aspose.slides/imageformat)
 * klass [MarkdownSaveOptions](../markdownsaveoptions)
 * namnrymd [Aspose.Slides.Export](../../aspose.slides.export)
 * samling [Aspose.Slides](../../)

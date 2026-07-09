@@ -1,9 +1,9 @@
 ---
 title: PieSplitType
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir pie-of-pie veya bar-of-pie grafiğinde ikinci pasta veya çubuk üzerindeki bölme noktalarının bir türünü temsil eder.
+description: Bir pie-of-pie veya bar-of-pie grafiğinde ikinci pasta ya da çubuk üzerindeki bölme noktalarının bir türünü temsil eder.
 type: docs
-weight: 2360
+weight: 2380
 url: /tr/aspose.slides.charts/piesplittype/
 ---
 ## PieSplitType enum
@@ -18,11 +18,11 @@ public enum PieSplitType
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Default | `0` | Bu grafik türü için varsayılan mekanizma kullanılarak veri noktalarının bölüneceğini belirtir. |
-| Custom | `1` | Veri noktalarının, Custom Split değerlerine göre pasta ile ikinci grafik arasında bölüneceğini belirtir. |
-| ByPercentage | `2` | Veri noktalarının, yüzde değeri Split Position yüzdesinden az olan noktalar ikinci grafiğe yerleştirilerek pasta ile ikinci grafik arasında bölüneceğini belirtir. |
-| ByPos | `3` | Veri noktalarının son Split Position'ı ikinci grafiğe yerleştirerek pasta ile ikinci grafik arasında bölüneceğini belirtir. |
-| ByValue | `4` | Veri noktalarının değeri Split Position'dan az olanları ikinci grafiğe yerleştirerek pasta ile ikinci grafik arasında bölüneceğini belirtir. |
+| Default | `0` | Veri noktalarının bu grafik türü için varsayılan mekanizma kullanılarak bölüneceğini belirtir. |
+| Custom | `1` | Veri noktalarının pasta ile ikinci grafik arasında Custom Split değerlerine göre bölüneceğini belirtir. |
+| ByPercentage | `2` | Veri noktalarının pasta ile ikinci grafik arasında, yüzde değeri Split Position yüzdesinden düşük olan noktalar ikinci grafiğe yerleştirilerek bölüneceğini belirtir. |
+| ByPos | `3` | Veri noktalarının pasta ile ikinci grafik arasında, veri noktalarının son Split Position değeri ikinci grafiğe yerleştirilerek bölüneceğini belirtir. |
+| ByValue | `4` | Veri noktalarının pasta ile ikinci grafik arasında, değeri Split Position'dan düşük olan veri noktaları ikinci grafiğe yerleştirilerek bölüneceğini belirtir. |
 
 ### İlgili
 

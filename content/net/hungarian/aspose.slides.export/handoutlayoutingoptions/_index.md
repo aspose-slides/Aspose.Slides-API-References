@@ -1,14 +1,14 @@
 ---
 title: HandoutLayoutingOptions
 second_title: Aspose.Sildes .NET API referencia
-description: Képviseli a kézikönyv prezentáció elrendezési módot az exportáláshoz.
+description: A kézbesítő bemutató elrendezési módját reprezentálja exportáláshoz.
 type: docs
-weight: 3820
+weight: 3840
 url: /hu/aspose.slides.export/handoutlayoutingoptions/
 ---
 ## HandoutLayoutingOptions osztály
 
-Képviseli a kézikönyv prezentáció elrendezési módot az exportáláshoz.
+A kézbesítő bemutató elrendezési módját reprezentálja exportáláshoz.
 
 ```csharp
 public class HandoutLayoutingOptions : ISlidesLayoutOptions
@@ -24,10 +24,10 @@ public class HandoutLayoutingOptions : ISlidesLayoutOptions
 
 | Név | Leírás |
 | --- | --- |
-| [Handout](../../aspose.slides.export/handoutlayoutingoptions/handout) { get; set; } | Megadja, hány diát és milyen sorrendben helyeznek el az oldalon [`HandoutType`](../handouttype). |
+| [Handout](../../aspose.slides.export/handoutlayoutingoptions/handout) { get; set; } | Megadja, hogy hány dia és milyen sorrendben kerül elhelyezésre az oldalon [`HandoutType`](../handouttype). |
 | [PrintComments](../../aspose.slides.export/handoutlayoutingoptions/printcomments) { get; set; } | Megadja, hogy megjelenjenek-e a megjegyzések a diákon. |
-| [PrintFrameSlide](../../aspose.slides.export/handoutlayoutingoptions/printframeslide) { get; set; } | Megadja, hogy keretezze-e a megjelenített diák körül, vagy ne. |
-| [PrintSlideNumbers](../../aspose.slides.export/handoutlayoutingoptions/printslidenumbers) { get; set; } | Megadja, hogy nyomtassa-e a megjelenített diák számait, vagy ne. |
+| [PrintFrameSlide](../../aspose.slides.export/handoutlayoutingoptions/printframeslide) { get; set; } | Megadja, hogy rajzoljon-e keretet a megjelenített diák köré vagy sem. |
+| [PrintSlideNumbers](../../aspose.slides.export/handoutlayoutingoptions/printslidenumbers) { get; set; } | Megadja, hogy nyomtassa-e vagy ne nyomtassa a megjelenített dia számát. |
 
 ### Lásd még
 

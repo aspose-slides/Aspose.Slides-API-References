@@ -1,9 +1,9 @@
 ---
 title: CommandEffect
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Riferimento API Aspose.Slides per .NET
 description: Rappresenta un effetto di comando per un comportamento di animazione.
 type: docs
-weight: 240
+weight: 260
 url: /it/aspose.slides.animation/commandeffect/
 ---
 ## CommandEffect classe
@@ -16,21 +16,21 @@ public class CommandEffect : Behavior, ICommandEffect
 
 ## Costruttori
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
 | [CommandEffect](commandeffect)() | Crea una nuova istanza. |
 
 ## Proprietà
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
 | [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Rappresenta se i comportamenti di animazione sono accumulati. Lettura/scrittura [`NullableBool`](../../aspose.slides/nullablebool). |
 | [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Rappresenta se il comportamento di animazione corrente è combinato con altre animazioni in esecuzione. Lettura/scrittura [`BehaviorAdditiveType`](../behavioradditivetype). |
 | [CommandString](../../aspose.slides.animation/commandeffect/commandstring) { get; set; } | Definisce la stringa di comando. Lettura/scrittura String. |
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Rappresenta le proprietà del comportamento. Solo lettura [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [ShapeTarget](../../aspose.slides.animation/commandeffect/shapetarget) { get; set; } | Definisce l'obiettivo della forma per l'effetto di comando. Lettura/scrittura [`IShape`](../../aspose.slides/ishape). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Rappresenta le proprietà temporali per il comportamento dell'effetto. Lettura/scrittura [`ITiming`](../itiming). |
-| [Type](../../aspose.slides.animation/commandeffect/type) { get; set; } | Definisce il tipo di effetto di comando per il comportamento. Lettura/scrittura [`CommandEffectType`](../commandeffecttype). |
+| [ShapeTarget](../../aspose.slides.animation/commandeffect/shapetarget) { get; set; } | Definisce il target della forma dell'effetto di comando. Lettura/scrittura [`IShape`](../../aspose.slides/ishape). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Rappresenta le proprietà di temporizzazione per il comportamento dell'effetto. Lettura/scrittura [`ITiming`](../itiming). |
+| [Type](../../aspose.slides.animation/commandeffect/type) { get; set; } | Definisce il tipo di effetto comando del comportamento. Lettura/scrittura [`CommandEffectType`](../commandeffecttype). |
 
 ### Vedi anche
 

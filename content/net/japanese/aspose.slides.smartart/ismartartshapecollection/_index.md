@@ -3,7 +3,7 @@ title: ISmartArtShapeCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: SmartArt シェイプのコレクションを表します
 type: docs
-weight: 10560
+weight: 10580
 url: /ja/aspose.slides.smartart/ismartartshapecollection/
 ---
 ## ISmartArtShapeCollection インターフェイス

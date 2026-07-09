@@ -1,14 +1,14 @@
 ---
 title: Rotation3D
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Αντιπροσωπεύει την 3D περιστροφή ενός διαγράμματος.
+second_title: Aspose.Sildes για .NET API Reference
+description: Αναπαριστά την 3Δ περιστροφή ενός διαγράμματος.
 type: docs
-weight: 2380
+weight: 2400
 url: /el/aspose.slides.charts/rotation3d/
 ---
 ## Rotation3D κλάση
 
-Αντιπροσωπεύει την 3D περιστροφή ενός διαγράμματος.
+Αναπαριστά την 3Δ περιστροφή ενός διαγράμματος.
 
 ```csharp
 public class Rotation3D : IRotation3D
@@ -18,12 +18,12 @@ public class Rotation3D : IRotation3D
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [DepthPercents](../../aspose.slides.charts/rotation3d/depthpercents) { get; set; } | Επιστρέφει ή ορίζει το βάθος ενός 3D διαγράμματος ως ποσοστό του πλάτους του διαγράμματος (μεταξύ 20 και 2000 τοις εκατό). Ανάγνωση/εγγραφή UInt16. |
-| [HeightPercents](../../aspose.slides.charts/rotation3d/heightpercents) { get; set; } | Ορίζει το ύψος ενός 3-D διαγράμματος ως ποσοστό του πλάτους του διαγράμματος (μεταξύ 5 και 500 τοις εκατό). Ανάγνωση/εγγραφή UInt16. |
-| [Perspective](../../aspose.slides.charts/rotation3d/perspective) { get; set; } | Επιστρέφει ή ορίζει την τιμή προοπτικής (γωνία πεδίου θέασης) για 3D διαγράμματα (μεταξύ 0 και 240). Αγνοείται εάν η τιμή της ιδιότητας RightAngleAxes είναι true. Ανάγνωση/εγγραφή Byte. |
-| [RightAngleAxes](../../aspose.slides.charts/rotation3d/rightangleaxes) { get; set; } | Καθορίζει εάν οι άξονες του διαγράμματος είναι σε ορθές γωνίες, αντί να σχεδιάζονται σε προοπτική. Με άλλα λόγια, καθορίζει εάν οι γωνίες των αξόνων είναι ανεξάρτητες από την περιστροφή ή την ανύψωση του διαγράμματος. Ανάγνωση/εγγραφή Boolean. |
-| [RotationX](../../aspose.slides.charts/rotation3d/rotationx) { get; set; } | Επιστρέφει ή ορίζει το βαθμό περιστροφής γύρω από τον άξονα X, δηλαδή στην κατεύθυνση Y για 3D διαγράμματα (μεταξύ -90 και 90 μοιρών). Η ιδιότητα ταιριάζει με το στοιχείο 21.2.2.157 rotX (X Rotation) στο ECMA-376 και με την επιλογή "Y Rotation" στο PowerPoint 2007+. Ανάγνωση/εγγραφή SByte. |
-| [RotationY](../../aspose.slides.charts/rotation3d/rotationy) { get; set; } | Επιστρέφει ή ορίζει το βαθμό περιστροφής γύρω από τον άξονα Y, δηλαδή στην κατεύθυνση X για 3D διαγράμματα (μεταξύ 0 και 360 μοιρών). Η ιδιότητα ταιριάζει με το στοιχείο 21.2.2.158 rotY (Y Rotation) στο ECMA-376 και με την επιλογή "X Rotation" στο PowerPoint 2007+. Ανάγνωση/εγγραφή UInt16. |
+| [DepthPercents](../../aspose.slides.charts/rotation3d/depthpercents) { get; set; } | Επιστρέφει ή ορίζει το βάθος ενός 3Δ διαγράμματος ως ποσοστό του πλάτους του διαγράμματος (ανάμεσα σε 20 και 2000 τοις εκατό). Ανάγνωση/εγγραφή UInt16. |
+| [HeightPercents](../../aspose.slides.charts/rotation3d/heightpercents) { get; set; } | Καθορίζει το ύψος ενός 3Δ διαγράμματος ως ποσοστό του πλάτους του διαγράμματος (ανάμεσα σε 5 και 500 τοις εκατό). Ανάγνωση/εγγραφή UInt16. |
+| [Perspective](../../aspose.slides.charts/rotation3d/perspective) { get; set; } | Επιστρέφει ή ορίζει την τιμή προοπτικής (γωνία πεδίου θέασης) για 3Δ διαγράμματα (ανάμεσα σε 0 και 240). Αγνοείται εάν η τιμή της ιδιότητας RightAngleAxes είναι αληθής. Ανάγνωση/εγγραφή Byte. |
+| [RightAngleAxes](../../aspose.slides.charts/rotation3d/rightangleaxes) { get; set; } | Καθορίζει αν οι άξονες του διαγράμματος είναι σε ορθές γωνίες, αντί να σχεδιάζονται σε προοπτική. Με άλλα λόγια, καθορίζει αν οι γωνίες των αξόνων του διαγράμματος είναι ανεξάρτητες από την περιστροφή ή την ανύψωση του διαγράμματος. Ανάγνωση/εγγραφή Boolean. |
+| [RotationX](../../aspose.slides.charts/rotation3d/rotationx) { get; set; } | Επιστρέφει ή ορίζει τον βαθμό περιστροφής γύρω από τον άξονα X, δηλαδή στην κατεύθυνση Y για 3Δ διαγράμματα (ανάμεσα σε -90 και 90 μοίρες). Η ιδιότητα ταιριάζει με το στοιχείο 21.2.2.157 rotX (X Rotation) στο ECMA-376 και με την επιλογή "Y Rotation" στο PowerPoint 2007+. Ανάγνωση/εγγραφή SByte. |
+| [RotationY](../../aspose.slides.charts/rotation3d/rotationy) { get; set; } | Επιστρέφει ή ορίζει τον βαθμό περιστροφής γύρω από τον άξονα Y, δηλαδή στην κατεύθυνση X για 3Δ διαγράμματα (ανάμεσα σε 0 και 360 μοίρες). Η ιδιότητα ταιριάζει με το στοιχείο 21.2.2.158 rotY (Y Rotation) στο ECMA-376 και με την επιλογή "X Rotation" στο PowerPoint 2007+. Ανάγνωση/εγγραφή UInt16. |
 
 ### Δείτε επίσης
 

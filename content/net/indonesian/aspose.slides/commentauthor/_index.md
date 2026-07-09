@@ -3,7 +3,7 @@ title: CommentAuthor
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili penulis komentar.
 type: docs
-weight: 2610
+weight: 2630
 url: /id/aspose.slides/commentauthor/
 ---
 ## CommentAuthor kelas
@@ -18,9 +18,9 @@ public sealed class CommentAuthor : ICommentAuthor
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Comments](../../aspose.slides/commentauthor/comments) { get; } | Mengembalikan koleksi komentar yang dibuat oleh penulis ini. Hanya-baca [`ICommentCollection`](../icommentcollection). |
-| [Initials](../../aspose.slides/commentauthor/initials) { get; set; } | Mengembalikan atau menyetel inisial penulis. Baca/tulis String. |
-| [Name](../../aspose.slides/commentauthor/name) { get; set; } | Mengembalikan atau menyetel nama penulis. Baca/tulis String. |
+| [Comments](../../aspose.slides/commentauthor/comments) { get; } | Mengembalikan koleksi komentar yang dibuat oleh penulis ini. Baca-saja [`ICommentCollection`](../icommentcollection). |
+| [Initials](../../aspose.slides/commentauthor/initials) { get; set; } | Mengembalikan atau mengatur inisial penulis. Baca/tulis String. |
+| [Name](../../aspose.slides/commentauthor/name) { get; set; } | Mengembalikan atau mengatur nama penulis. Baca/tulis String. |
 
 ## Metode
 

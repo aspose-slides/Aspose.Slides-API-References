@@ -1,12 +1,12 @@
 ---
 title: TransitionCornerDirectionType
-second_title: Aspose.Sildes .NET API-referencia
+second_title: Aspose.Sildes .NET API referencia
 description: A sarokirány-átmenet típusait reprezentálja.
 type: docs
-weight: 10330
+weight: 10350
 url: /hu/aspose.slides.slideshow/transitioncornerdirectiontype/
 ---
-## TransitionCornerDirectionType felsorolás
+## TransitionCornerDirectionType enumeráció
 
 A sarokirány-átmenet típusait reprezentálja.
 
@@ -14,7 +14,7 @@ A sarokirány-átmenet típusait reprezentálja.
 public enum TransitionCornerDirectionType
 ```
 
-### Értékek
+### Values
 
 | Név | Érték | Leírás |
 | --- | --- | --- |

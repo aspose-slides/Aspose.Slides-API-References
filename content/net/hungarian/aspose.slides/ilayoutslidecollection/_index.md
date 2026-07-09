@@ -1,14 +1,14 @@
 ---
 title: ILayoutSlideCollection
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Egy elrendezési diák gyűjteményének alaposztályát képviseli.
+second_title: Aspose.Sildes .NET API referenciája
+description: Egy alaposztályt képvisel az elrendezés-diák gyűjteményéhez.
 type: docs
-weight: 6210
+weight: 6230
 url: /hu/aspose.slides/ilayoutslidecollection/
 ---
 ## ILayoutSlideCollection interfész
 
-Egy elrendezési dia gyűjteményének alaposztályát képviseli.
+Egy alaposztályt képvisel az elrendezés-diák gyűjteményéhez.
 
 ```csharp
 public interface ILayoutSlideCollection : IGenericCollection<ILayoutSlide>
@@ -18,15 +18,15 @@ public interface ILayoutSlideCollection : IGenericCollection<ILayoutSlide>
 
 | Név | Leírás |
 | --- | --- |
-| [Item](../../aspose.slides/ilayoutslidecollection/item) { get; } | Visszaadja az elrendezési diát index alapján. Csak olvasható [`ILayoutSlide`](../ilayoutslide). |
+| [Item](../../aspose.slides/ilayoutslidecollection/item) { get; } | Visszaadja az elrendezés-diát index alapján. Csak olvasható [`ILayoutSlide`](../ilayoutslide). |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [GetByType](../../aspose.slides/ilayoutslidecollection/getbytype)(SlideLayoutType) | Visszaadja az első elrendezési diát a megadott típusból. |
+| [GetByType](../../aspose.slides/ilayoutslidecollection/getbytype)(SlideLayoutType) | Visszaadja az első elrendezés-diát a megadott típusban. |
 | [Remove](../../aspose.slides/ilayoutslidecollection/remove)(ILayoutSlide) | Eltávolít egy elrendezést a gyűjteményből. |
-| [RemoveUnused](../../aspose.slides/ilayoutslidecollection/removeunused)() | Eltávolítja a nem használt elrendezési diákat (azok a diák, amelyeknél a HasDependingSlides hamis). |
+| [RemoveUnused](../../aspose.slides/ilayoutslidecollection/removeunused)() | Eltávolítja a nem használt elrendezés-diákat (azokat az elrendezés-diákat, amelyeknél a HasDependingSlides hamis). |
 
 ### Lásd még
 

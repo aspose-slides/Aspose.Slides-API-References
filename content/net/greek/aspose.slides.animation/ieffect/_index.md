@@ -1,12 +1,12 @@
 ---
 title: IEffect
-second_title: Aspose.Sildes για το .NET API Reference
-description: Αντιπροσωπεύει εφέ κίνησης.
+second_title: Aspose.Sildes για .NET Αναφορά API
+description: Αντιπροσωπεύει το εφέ κίνησης.
 type: docs
-weight: 470
+weight: 490
 url: /el/aspose.slides.animation/ieffect/
 ---
-## IEffect διασύνδεση
+## IEffect διεπαφή
 
 Αντιπροσωπεύει το εφέ κίνησης.
 
@@ -18,24 +18,24 @@ public interface IEffect
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AfterAnimationColor](../../aspose.slides.animation/ieffect/afteranimationcolor) { get; set; } | Ορίζει το χρώμα μετά την κίνηση για το εφέ. Ανάγνωση/εγγραφή [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [AfterAnimationType](../../aspose.slides.animation/ieffect/afteranimationtype) { get; set; } | Ορίζει τον τύπο μετά την κίνηση για το εφέ. Ανάγνωση/εγγραφή [`AfterAnimationType`](./afteranimationtype). |
-| [AnimateTextType](../../aspose.slides.animation/ieffect/animatetexttype) { get; set; } | Ορίζει τον τύπο κίνησης κειμένου για το εφέ. Το κείμενο του σχήματος μπορεί να κινείται ανά γράμμα, ανά λέξη ή όλα μαζί. Ανάγνωση/εγγραφή [`AnimateTextType`](./animatetexttype). |
+| [AfterAnimationColor](../../aspose.slides.animation/ieffect/afteranimationcolor) { get; set; } | Ορίζεται ένα χρώμα μετά την κίνηση για το εφέ. Ανάγνωση/εγγραφή [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AfterAnimationType](../../aspose.slides.animation/ieffect/afteranimationtype) { get; set; } | Ορίζεται ένας τύπος μετά την κίνηση για το εφέ. Ανάγνωση/εγγραφή [`AfterAnimationType`](./afteranimationtype). |
+| [AnimateTextType](../../aspose.slides.animation/ieffect/animatetexttype) { get; set; } | Ορίζει έναν τύπο κίνησης κειμένου για το εφέ. Το κείμενο του σχήματος μπορεί να κίνηται ανά γράμμα, ανά λέξη ή ολόκληρο ταυτόχρονα. Ανάγνωση/εγγραφή [`AnimateTextType`](./animatetexttype). |
 | [Behaviors](../../aspose.slides.animation/ieffect/behaviors) { get; set; } | Επιστρέφει τη συλλογή συμπεριφοράς για το εφέ. Ανάγνωση/εγγραφή [`IBehaviorCollection`](../ibehaviorcollection). |
-| [DelayBetweenTextParts](../../aspose.slides.animation/ieffect/delaybetweentextparts) { get; set; } | Ορίζει μια καθυστέρηση μεταξύ των αναεγόμενων τμημάτων κειμένου (λέξεις ή γράμματα). Μια θετική τιμή καθορίζει το ποσοστό της διάρκειας του εφέ. Μια αρνητική τιμή καθορίζει την καθυστέρηση σε δευτερόλεπτα. Ανάγνωση/εγγραφή Single. |
-| [PresetClassType](../../aspose.slides.animation/ieffect/presetclasstype) { get; set; } | Ορίζει την κατηγορία του εφέ. Ανάγνωση/εγγραφή [`EffectPresetClassType`](../effectpresetclasstype). |
+| [DelayBetweenTextParts](../../aspose.slides.animation/ieffect/delaybetweentextparts) { get; set; } | Ορίζει μια καθυστέρηση μεταξύ των τμημάτων του κειμένου που κινούνται (λέξεις ή γράμματα). Μια θετική τιμή καθορίζει το ποσοστό της διάρκειας του εφέ. Μια αρνητική τιμή καθορίζει την καθυστέρηση σε δευτερόλεπτα. Ανάγνωση/εγγραφή Single. |
+| [PresetClassType](../../aspose.slides.animation/ieffect/presetclasstype) { get; set; } | Ορίζει την κλάση του εφέ. Ανάγνωση/εγγραφή [`EffectPresetClassType`](../effectpresetclasstype). |
 | [Sequence](../../aspose.slides.animation/ieffect/sequence) { get; } | Επιστρέφει μια ακολουθία για ένα εφέ. Μόνο ανάγνωση [`ISequence`](../isequence). |
-| [Sound](../../aspose.slides.animation/ieffect/sound) { get; set; } | Ορίζει ενσωματωμένο ήχο για το εφέ. Ανάγνωση/εγγραφή [`IAudio`](../../aspose.slides/iaudio). |
-| [StopPreviousSound](../../aspose.slides.animation/ieffect/stopprevioussound) { get; set; } | Αυτό το χαρακτηριστικό καθορίζει αν το εφέ κίνησης σταματά τον προηγούμενο ήχο. Ανάγνωση/εγγραφή Boolean. |
-| [Subtype](../../aspose.slides.animation/ieffect/subtype) { get; set; } | Ορίζει τον υποτύπο του εφέ. Ανάγνωση/εγγραφή [`EffectSubtype`](../effectsubtype). |
+| [Sound](../../aspose.slides.animation/ieffect/sound) { get; set; } | Ορίζεται ενσωματωμένος ήχος για το εφέ. Ανάγνωση/εγγραφή [`IAudio`](../../aspose.slides/iaudio). |
+| [StopPreviousSound](../../aspose.slides.animation/ieffect/stopprevioussound) { get; set; } | Αυτή η ιδιότητα καθορίζει αν το εφέ κίνησης σταματά τον προηγούμενο ήχο. Ανάγνωση/εγγραφή Boolean. |
+| [Subtype](../../aspose.slides.animation/ieffect/subtype) { get; set; } | Ορίζει υποτύπο του εφέ. Ανάγνωση/εγγραφή [`EffectSubtype`](../effectsubtype). |
 | [TargetShape](../../aspose.slides.animation/ieffect/targetshape) { get; } | Επιστρέφει το σχήμα-στόχο για το εφέ. Μόνο ανάγνωση [`IShape`](../../aspose.slides/ishape). |
 | [TextAnimation](../../aspose.slides.animation/ieffect/textanimation) { get; } | Επιστρέφει την κίνηση κειμένου. Μόνο ανάγνωση [`ITextAnimation`](../itextanimation). |
-| [Timing](../../aspose.slides.animation/ieffect/timing) { get; set; } | Ορίζει την τιμή χρονισμού για το εφέ. Ανάγνωση/εγγραφή [`ITiming`](../itiming). |
+| [Timing](../../aspose.slides.animation/ieffect/timing) { get; set; } | Ορίζει την τιμή χρόνου για το εφέ. Ανάγνωση/εγγραφή [`ITiming`](../itiming). |
 | [Type](../../aspose.slides.animation/ieffect/type) { get; set; } | Ορίζει τον τύπο του εφέ. Ανάγνωση/εγγραφή [`EffectType`](../effecttype). |
 
 ### Δείτε επίσης
 
-* χώρος ονομάτων [Aspose.Slides.Animation](../../aspose.slides.animation)
+* χωρονομο [Aspose.Slides.Animation](../../aspose.slides.animation)
 * συγκρότημα [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

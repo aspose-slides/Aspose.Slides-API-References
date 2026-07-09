@@ -3,7 +3,7 @@ title: SmartArtNode
 second_title: Aspose.Sildes for .NET API Referansı
 description: Bir SmartArt nesnesinin düğümünü temsil eder
 type: docs
-weight: 10610
+weight: 10630
 url: /tr/aspose.slides.smartart/smartartnode/
 ---
 ## SmartArtNode sınıfı
@@ -18,15 +18,15 @@ public sealed class SmartArtNode : ISmartArtNode
 
 | Ad | Açıklama |
 | --- | --- |
-| [BulletFillFormat](../../aspose.slides.smartart/smartartnode/bulletfillformat) { get; } | Bir düğüm maddesi için doldurma biçimlendirme özelliklerini içeren FillFormat nesnesini döndürür. Not: bazı SmartArt düzen türleri için düğümlere madde işareti sağlamadığı için null döndürebilir. Salt Okunur [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [ChildNodes](../../aspose.slides.smartart/smartartnode/childnodes) { get; } | Geçerli düğümün tüm alt düğümlerinin koleksiyonlarını döndürür. Salt Okunur [`ISmartArtNodeCollection`](../ismartartnodecollection). |
-| [IsAssistant](../../aspose.slides.smartart/smartartnode/isassistant) { get; set; } | Düğümü asistan olarak döndürür veya ayarlar. Okunur/Yazılabilir Boolean. |
-| [IsHidden](../../aspose.slides.smartart/smartartnode/ishidden) { get; } | Bu düğüm veri modelinde gizli bir düğüm ise true döndürür. Salt Okunur Boolean. |
-| [Level](../../aspose.slides.smartart/smartartnode/level) { get; } | Düğümün iç içe seviyesini döndürür. Salt Okunur Int32. |
-| [OrganizationChartLayout](../../aspose.slides.smartart/smartartnode/organizationchartlayout) { get; set; } | Geçerli düğümle ilişkili organizasyon şeması düzen tipi döndürür veya ayarlar. Okunur/Yazılabilir [`OrganizationChartLayoutType`](../organizationchartlayouttype). |
-| [Position](../../aspose.slides.smartart/smartartnode/position) { get; set; } | Kardeş düğümler arasında düğümün sıfır tabanlı konumunu döndürür veya ayarlar. Okunur/Yazılabilir Int32. |
-| [Shapes](../../aspose.slides.smartart/smartartnode/shapes) { get; } | Düğümle ilişkili tüm şekillerin koleksiyonlarını döndürür. Salt Okunur [`ISmartArtShapeCollection`](../ismartartshapecollection). |
-| [TextFrame](../../aspose.slides.smartart/smartartnode/textframe) { get; } | Düğümün metin çerçevesini döndürür. Salt Okunur [`ITextFrame`](../../aspose.slides/itextframe). |
+| [BulletFillFormat](../../aspose.slides.smartart/smartartnode/bulletfillformat) { get; } | Bir düğüm mermisi için dolgu biçimlendirme özelliklerini içeren FillFormat nesnesini döndürür. Not: düğümler için mermi sağlamayan belirli SmartArt düzeni türleri için null döndürebilir. Salt-okunur [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [ChildNodes](../../aspose.slides.smartart/smartartnode/childnodes) { get; } | Geçerli düğümün tüm alt düğümlerinin koleksiyonlarını döndürür. Salt-okunur [`ISmartArtNodeCollection`](../ismartartnodecollection). |
+| [IsAssistant](../../aspose.slides.smartart/smartartnode/isassistant) { get; set; } | Düğümü yardımcı olarak döndürür veya ayarlar. Okunur/Yazılabilir Boolean. |
+| [IsHidden](../../aspose.slides.smartart/smartartnode/ishidden) { get; } | Bu düğüm veri modelinde gizli bir düğüm ise true döndürür. Salt-okunur Boolean. |
+| [Level](../../aspose.slides.smartart/smartartnode/level) { get; } | Düğümün iç içeleme seviyesini döndürür. Salt-okunur Int32. |
+| [OrganizationChartLayout](../../aspose.slides.smartart/smartartnode/organizationchartlayout) { get; set; } | Geçerli düğümle ilişkili organizasyon şeması düzeni tipini döndürür veya ayarlar. Okunur/Yazılabilir [`OrganizationChartLayoutType`](../organizationchartlayouttype). |
+| [Position](../../aspose.slides.smartart/smartartnode/position) { get; set; } | Kardeş düğümler arasında sıfır tabanlı konumunu döndürür veya ayarlar. Okunur/Yazılabilir Int32. |
+| [Shapes](../../aspose.slides.smartart/smartartnode/shapes) { get; } | Düğüme bağlı tüm şekillerin koleksiyonlarını döndürür. Salt-okunur [`ISmartArtShapeCollection`](../ismartartshapecollection). |
+| [TextFrame](../../aspose.slides.smartart/smartartnode/textframe) { get; } | Düğümün metin çerçevesini döndürür. Salt-okunur [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ## Yöntemler
 
@@ -34,7 +34,7 @@ public sealed class SmartArtNode : ISmartArtNode
 | --- | --- |
 | [Remove](../../aspose.slides.smartart/smartartnode/remove)() | Geçerli düğümü kaldır. |
 
-### Ayrıca Bakınız
+### Bakınız
 
 * arayüz [ISmartArtNode](../ismartartnode)
 * ad alanı [Aspose.Slides.SmartArt](../../aspose.slides.smartart)

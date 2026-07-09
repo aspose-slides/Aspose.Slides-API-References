@@ -1,14 +1,14 @@
 ---
 title: IMathBox
-second_title: Aspose.Sildes para .NET Referência de API
-description: Especifica o empacotamento lógico (boxing) de elemento matemático. Por exemplo, um objeto boxed pode servir como um emulador de operador com ou sem um ponto de alinhamento, servir como um ponto de quebra de linha ou ser agrupado de modo a não permitir quebras de linha dentro dele. Por exemplo, o operador deve ser boxed para evitar quebras de linha.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Especifica o empacotamento lógico de caixa de elemento matemático. Por exemplo, um objeto em caixa pode servir como um emulador de operador com ou sem ponto de alinhamento, servir como ponto de quebra de linha ou ser agrupado de forma a não permitir quebras de linha dentro dele. Por exemplo, o operador deve ser colocado em caixa para impedir quebras de linha.
 type: docs
-weight: 8170
+weight: 8190
 url: /pt/aspose.slides.mathtext/imathbox/
 ---
 ## IMathBox interface
 
-Especifica o empacotamento lógico (packaging) de elemento matemático. Por exemplo, um objeto boxed pode servir como um emulador de operador com ou sem um ponto de alinhamento, servir como um ponto de quebra de linha ou ser agrupado de modo a não permitir quebras de linha dentro dele. Por exemplo, o operador "==" deve ser boxed para evitar quebras de linha.
+Especifica a caixa lógica (empacotamento) de elemento matemático. Por exemplo, um objeto em caixa pode servir como um emulador de operador com ou sem ponto de alinhamento, servir como ponto de quebra de linha ou ser agrupado de forma a não permitir quebras de linha dentro dele. Por exemplo, o operador "==" deve ser colocado em caixa para impedir quebras de linha.
 
 ```csharp
 public interface IMathBox : IMathElement
@@ -18,13 +18,13 @@ public interface IMathBox : IMathElement
 
 | Nome | Descrição |
 | --- | --- |
-| [AlignmentPoint](../../aspose.slides.mathtext/imathbox/alignmentpoint) { get; set; } | Quando verdadeiro, este emulador de operador serve como um ponto de alinhamento; isto é, os pontos de alinhamento designados em outras equações podem ser alinhados com ele. Default: false |
+| [AlignmentPoint](../../aspose.slides.mathtext/imathbox/alignmentpoint) { get; set; } | Quando verdadeiro, este emulador de operador funciona como um ponto de alinhamento; isto é, pontos de alinhamento designados em outras equações podem ser alinhados com ele. Padrão: false |
 | [AsIMathElement](../../aspose.slides.mathtext/imathbox/asimathelement) { get; } | Permite obter a interface base IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathbox/base) { get; } | Argumento base |
-| [Differential](../../aspose.slides.mathtext/imathbox/differential) { get; set; } | Diferencial. Quando verdadeiro, a caixa age como um diferencial (por exemplo, 𝑑𝑥 em um integrando) e recebe o espaçamento horizontal apropriado para o diferencial matemático. Default: false |
-| [ExplicitBreak](../../aspose.slides.mathtext/imathbox/explicitbreak) { get; set; } | Quebra explícita especifica se há uma quebra de linha no início do objeto Box, de forma que a linha seja envolvida no início do objeto Box. Especifica o número do operador na linha anterior de texto matemático que deverá ser usado como ponto de alinhamento para a linha atual de texto matemático. Valores possíveis: 1..255 Default: 0 (nenhuma quebra explícita) |
-| [NoBreak](../../aspose.slides.mathtext/imathbox/nobreak) { get; set; } | Sem quebra. Esta propriedade especifica a propriedade "unbreakable" na caixa de objeto. Quando verdadeiro, nenhuma quebra de linha pode ocorrer dentro da caixa. Isso pode ser importante para emuladores de operador que consistem em mais de um operador binário. Quando este elemento não é especificado, quebras podem ocorrer dentro da caixa. Default: true |
-| [OperatorEmulator](../../aspose.slides.mathtext/imathbox/operatoremulator) { get; set; } | Emulador de Operador. Quando verdadeiro, a caixa e seu conteúdo se comportam como um único operador e herdaram as propriedades de um operador. Isso significa, por exemplo, que o caractere pode servir como ponto de quebra de linha e pode ser alinhado a outros operadores. Emuladores de Operador são frequentemente usados quando um ou mais glifos se combinam para formar um operador, como '=='. Default value: false |
+| [Differential](../../aspose.slides.mathtext/imathbox/differential) { get; set; } | Diferencial. Quando verdadeiro, a caixa funciona como um diferencial (ex., 𝑑𝑥 em um integrando) e recebe o espaçamento horizontal apropriado para o diferencial matemático. Padrão: false |
+| [ExplicitBreak](../../aspose.slides.mathtext/imathbox/explicitbreak) { get; set; } | Quebra explícita especifica se há uma quebra de linha no início do objeto Box, de modo que a linha seja interrompida no início do objeto caixa. Especifica o número do operador na linha anterior do texto matemático que deverá ser usado como ponto de alinhamento para a linha atual do texto matemático. Valores possíveis: 1..255 Padrão: 0 (nenhuma quebra explícita) |
+| [NoBreak](../../aspose.slides.mathtext/imathbox/nobreak) { get; set; } | Sem quebra. Esta propriedade especifica a propriedade "inquebrável" no objeto caixa. Quando verdadeiro, nenhuma quebra de linha pode ocorrer dentro da caixa. Isso pode ser importante para emuladores de operador que consistem em mais de um operador binário. Quando este elemento não é especificado, quebras podem ocorrer dentro da caixa. Padrão: true |
+| [OperatorEmulator](../../aspose.slides.mathtext/imathbox/operatoremulator) { get; set; } | Emulador de Operador. Quando verdadeiro, a caixa e seu conteúdo se comportam como um único operador e herdham as propriedades de um operador. Isso significa, por exemplo, que o caractere pode servir como ponto para uma quebra de linha e pode ser alinhado a outros operadores. Emuladores de Operador são frequentemente usados quando um ou mais glifos se combinam para formar um operador, como '=='. Valor padrão: false |
 
 ### Exemplos
 
@@ -35,7 +35,7 @@ Exemplo:
 IMathBox box = new MathematicalText("==").ToBox();
 ```
 
-### Ver também
+### Ver Também
 
 * interface [IMathElement](../imathelement)
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

@@ -1,14 +1,14 @@
 ---
 title: ChartData
-second_title: Aspose.Sildes για .NET API Αναφορά
+second_title: Aspose.Sildes για .NET Αναφορά API
 description: Αναπαριστά τα δεδομένα που χρησιμοποιούνται για τη σχεδίαση ενός διαγράμματος.
 type: docs
-weight: 1290
+weight: 1310
 url: /el/aspose.slides.charts/chartdata/
 ---
 ## ChartData κλάση
 
-Represents data used for a chart plotting.
+Αναπαριστά τα δεδομένα που χρησιμοποιούνται για τη σχεδίαση ενός διαγράμματος.
 
 ```csharp
 public class ChartData : DomObject<Chart>, IChartData
@@ -16,36 +16,36 @@ public class ChartData : DomObject<Chart>, IChartData
 
 ## Ιδιότητες
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Categories](../../aspose.slides.charts/chartdata/categories) { get; } | Λαμβάνει τις κύριες κατηγορίες (ή και τις κύριες και δευτερεύουσες κατηγορίες εάν η ιδιότητα [`UseSecondaryCategories`](./usesecondarycategories) είναι ψευδής). Μόνο για ανάγνωση [`IChartCategoryCollection`](../ichartcategorycollection). |
-| [ChartDataWorkbook](../../aspose.slides.charts/chartdata/chartdataworkbook) { get; } | Λαμβάνει το εργοστάσιο κελιών για τη δημιουργία κελιών που χρησιμοποιούνται για σειρές ή κατηγορίες διαγράμματος. Μόνο για ανάγνωση [`IChartDataWorkbook`](../ichartdataworkbook). |
-| [DataSourceType](../../aspose.slides.charts/chartdata/datasourcetype) { get; } | Αναπαριστά τη διαδρομή εξωτερικού workbook εάν η πηγή δεδομένων είναι εξωτερική, αλλιώς null |
-| [EmbeddedWorkbookType](../../aspose.slides.charts/chartdata/embeddedworkbooktype) { get; } | Λαμβάνει τον τύπο του ενσωματωμένου workbook. Επιστρέφει NotDefined εάν [`DataSourceType`](./datasourcetype) είναι ExternalWorkbook. Μόνο για ανάγνωση [`WorkbookType`](../workbooktype). |
+| [Categories](../../aspose.slides.charts/chartdata/categories) { get; } | Ανακτά τις κύριες κατηγορίες (ή και τις κύριες και δευτερεύουσες κατηγορίες εάν η ιδιότητα [`UseSecondaryCategories`](./usesecondarycategories) είναι ψευδής). Μόνο ανάγνωση [`IChartCategoryCollection`](../ichartcategorycollection). |
+| [ChartDataWorkbook](../../aspose.slides.charts/chartdata/chartdataworkbook) { get; } | Ανακτά το εργοστάσιο κελιών για τη δημιουργία κελιών που χρησιμοποιούνται για σειρές ή κατηγορίες του διαγράμματος. Μόνο ανάγνωση [`IChartDataWorkbook`](../ichartdataworkbook). |
+| [DataSourceType](../../aspose.slides.charts/chartdata/datasourcetype) { get; } | Αναπαριστά τη διαδρομή εξωτερικού βιβλίου εργασίας εάν η πηγή δεδομένων είναι εξωτερική, null διαφορετικά |
+| [EmbeddedWorkbookType](../../aspose.slides.charts/chartdata/embeddedworkbooktype) { get; } | Ανακτά τον τύπο του ενσωματωμένου βιβλίου εργασίας. Επιστρέφει NotDefined εάν το [`DataSourceType`](./datasourcetype) είναι ExternalWorkbook. Μόνο ανάγνωση [`WorkbookType`](../workbooktype). |
 | [ExternalWorkbookPath](../../aspose.slides.charts/chartdata/externalworkbookpath) { get; } | Αναπαριστά την πηγή δεδομένων του διαγράμματος |
-| [SecondaryCategories](../../aspose.slides.charts/chartdata/secondarycategories) { get; } | Λαμβάνει τις δευτερεύουσες κατηγορίες εάν η ιδιότητα [`UseSecondaryCategories`](./usesecondarycategories) είναι αληθής. Μόνο για ανάγνωση [`IChartCategoryCollection`](../ichartcategorycollection). |
-| [Series](../../aspose.slides.charts/chartdata/series) { get; } | Λαμβάνει τις σειρές. Μόνο για ανάγνωση [`IChartSeriesCollection`](../ichartseriescollection). |
-| [SeriesGroups](../../aspose.slides.charts/chartdata/seriesgroups) { get; } | Λαμβάνει τις ομάδες σειρών. Μόνο για ανάγνωση [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection). |
-| [UseSecondaryCategories](../../aspose.slides.charts/chartdata/usesecondarycategories) { get; set; } | Εάν είναι ψευδής, η ιδιότητα [`SecondaryCategories`](./secondarycategories) επιστρέφει null και τα δεδομένα στην ιδιότητα [`Categories`](./categories) χρησιμοποιούνται και για τις κύριες και για τις δευτερεύουσες σειρές. Εάν είναι αληθής, τότε τα δεδομένα στην ιδιότητα [`SecondaryCategories`](./secondarycategories) χρησιμοποιούνται για τις δευτερεύουσες σειρές και τα δεδομένα στην ιδιότητα [`Categories`](./categories) χρησιμοποιούνται για τις κύριες σειρές. Ανάγνωση/εγγραφή Boolean. |
+| [SecondaryCategories](../../aspose.slides.charts/chartdata/secondarycategories) { get; } | Ανακτά τις δευτερεύουσες κατηγορίες εάν η ιδιότητα [`UseSecondaryCategories`](./usesecondarycategories) είναι αληθής. Μόνο ανάγνωση [`IChartCategoryCollection`](../ichartcategorycollection). |
+| [Series](../../aspose.slides.charts/chartdata/series) { get; } | Ανακτά τις σειρές. Μόνο ανάγνωση [`IChartSeriesCollection`](../ichartseriescollection). |
+| [SeriesGroups](../../aspose.slides.charts/chartdata/seriesgroups) { get; } | Ανακτά τις ομάδες των σειρών. Μόνο ανάγνωση [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection). |
+| [UseSecondaryCategories](../../aspose.slides.charts/chartdata/usesecondarycategories) { get; set; } | Εάν είναι ψευδής, η ιδιότητα [`SecondaryCategories`](./secondarycategories) επιστρέφει null και τα δεδομένα στην ιδιότητα [`Categories`](./categories) χρησιμοποιούνται και για τις κύριες και τις δευτερεύουσες σειρές. Εάν είναι αληθής, τα δεδομένα στην ιδιότητα [`SecondaryCategories`](./secondarycategories) χρησιμοποιούνται για τις δευτερεύουσες σειρές και τα δεδομένα στην ιδιότητα [`Categories`](./categories) χρησιμοποιούνται για τις κύριες σειρές. Ανάγνωση/εγγραφή Boolean. |
 
 ## Μέθοδοι
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [GetRange](../../aspose.slides.charts/chartdata/getrange)() | Λαμβάνει το εύρος δεδομένων του διαγράμματος. |
-| [ReadWorkbookStream](../../aspose.slides.charts/chartdata/readworkbookstream)() | Γράφει το εσωτερικά περιεχόμενο αρχείο Excel σε μια ροή μνήμης. |
-| [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook)(string) | Ορίζει το εξωτερικό workbook ως πηγή δεδομένων για το διάγραμμα. Τα δεδομένα του διαγράμματος θα ενημερωθούν από το στοχευμένο workbook. |
-| [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | Ορίζει το εξωτερικό workbook ως πηγή δεδομένων για το διάγραμμα. |
-| [SetRange](../../aspose.slides.charts/chartdata/setrange)(string) | Ορίζει το εύρος δεδομένων του διαγράμματος. Οι σειρές και οι κατηγορίες θα ενημερωθούν με βάση το νέο εύρος δεδομένων. Εάν ο αριθμός σειρών στο εύρος δεδομένων είναι μεγαλύτερος από τον αριθμό σειρών στα δεδομένα του διαγράμματος, προστίθενται επιπλέον σειρές του ίδιου τύπου με την τελευταία σειρά της τρέχουσας συλλογής στο τέλος της συλλογής. |
-| [SwitchRowColumn](../../aspose.slides.charts/chartdata/switchrowcolumn)() | Αντιστρέφει τα δεδομένα κατά άξονα. Τα δεδομένα που εμφανίζονται στον άξονα X θα μεταβούν στον άξονα Y και αντίστροφα. |
-| [WriteWorkbookStream](../../aspose.slides.charts/chartdata/writeworkbookstream)(MemoryStream) | Αρχικοποιεί το εσωτερικά περιεχόμενο Excel workbook με την τιμή που καθορίστηκε από τον χρήστη. |
+| [GetRange](../../aspose.slides.charts/chartdata/getrange)() | Επιστρέφει το εύρος δεδομένων του διαγράμματος. |
+| [ReadWorkbookStream](../../aspose.slides.charts/chartdata/readworkbookstream)() | Γράφει το εσωτερικά περιέχομενο βιβλίο εργασίας Excel σε ροή μνήμης. |
+| [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook)(string) | Ορίζει το εξωτερικό βιβλίο εργασίας ως πηγή δεδομένων για το διάγραμμα. Τα δεδομένα του διαγράμματος θα ενημερωθούν από το βιβλίο προορισμού. |
+| [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | Ορίζει το εξωτερικό βιβλίο εργασίας ως πηγή δεδομένων για το διάγραμμα. |
+| [SetRange](../../aspose.slides.charts/chartdata/setrange)(string) | Ορίζει το εύρος δεδομένων του διαγράμματος. Οι σειρές και οι κατηγορίες θα ενημερωθούν βάσει του νέου εύρους. Εάν ο αριθμός των σειρών στο εύρος υπερβαίνει τον αριθμό σειρών στα δεδομένα του διαγράμματος, θα προστεθούν επιπλέον σειρές του ίδιου τύπου με την τελευταία σειρά της τρέχουσας συλλογής στο τέλος της συλλογής. |
+| [SwitchRowColumn](../../aspose.slides.charts/chartdata/switchrowcolumn)() | Αλλάζει τα δεδομένα κατά τον άξονα. Τα δεδομένα που απεικονίζονται στον άξονα X θα μετακινηθούν στον άξονα Y και αντίστροφα. |
+| [WriteWorkbookStream](../../aspose.slides.charts/chartdata/writeworkbookstream)(MemoryStream) | Αρχικοποιεί το εσωτερικά περιεχόμενο βιβλίο εργασίας Excel με την τιμή που καθορίζει ο χρήστης. |
 
 ### Δείτε επίσης
 
 * κλάση [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * κλάση [Chart](../chart)
-* διεπαφή [IChartData](../ichartdata)
-* χώρο ονομάτων [Aspose.Slides.Charts](../../aspose.slides.charts)
-* συγκρότημα [Aspose.Slides](../../)
+* διασύνδεση [IChartData](../ichartdata)
+* χώρος ονομάτων [Aspose.Slides.Charts](../../aspose.slides.charts)
+* συναρμολόγηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

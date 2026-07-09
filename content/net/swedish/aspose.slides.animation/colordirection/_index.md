@@ -1,14 +1,14 @@
 ---
 title: ColorDirection
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar färgriktning för färgeffektbeteende.
+description: Representerar färgriktning för färgeffektsbeteende.
 type: docs
-weight: 200
+weight: 220
 url: /sv/aspose.slides.animation/colordirection/
 ---
 ## ColorDirection uppräkning
 
-Representerar färgriktning för färgeffektbeteende.
+Representerar färgriktning för färgeffektsbeteende.
 
 ```csharp
 public enum ColorDirection

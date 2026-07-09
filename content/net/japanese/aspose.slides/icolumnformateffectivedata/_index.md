@@ -1,14 +1,14 @@
 ---
 title: IColumnFormatEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 有効なテーブル列書式設定プロパティを含む不変オブジェクト。
+description: 効果的なテーブル列書式プロパティを含む不変オブジェクトです。
 type: docs
-weight: 5530
+weight: 5550
 url: /ja/aspose.slides/icolumnformateffectivedata/
 ---
-## IColumnFormatEffectiveData インターフェイス
+## IColumnFormatEffectiveData インタフェース
 
-効果的なテーブル列の書式設定プロパティを保持する不変オブジェクト。
+効果的なテーブル列フォーマットプロパティを含む不変オブジェクトです。
 
 ```csharp
 public interface IColumnFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -18,15 +18,15 @@ public interface IColumnFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icolumnformateffectivedata/asibasetableformateffectivedata) { get; } | ベースのIBaseTableFormatEffectiveDataインターフェイスを取得できます。読み取り専用 [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata)。 |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icolumnformateffectivedata/asibasetableformateffectivedata) { get; } | ベースのIBaseTableFormatEffectiveDataインタフェースを取得できます。読み取り専用 [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata)。 |
 
 ### 備考
 
-このインターフェイスは、[`IColumnFormat`](../icolumnformat) インターフェイスと組み合わせて使用され、継承およびテーブルスタイルが適用された効果的な書式設定値を返します。
+このインタフェースは [`IColumnFormat`](../icolumnformat) インタフェースと共に使用され、継承およびテーブルスタイルが適用された効果的な書式設定値を返します。
 
-### 関連項目
+### 参照
 
-* インターフェイス [IBaseTableFormatEffectiveData](../ibasetableformateffectivedata)
+* インタフェース [IBaseTableFormatEffectiveData](../ibasetableformateffectivedata)
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)
 

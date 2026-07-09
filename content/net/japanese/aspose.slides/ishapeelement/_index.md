@@ -1,9 +1,9 @@
 ---
 title: IShapeElement
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: 同じ輪郭と塗りつぶしプロパティを持つシェイプの一部を表します。
 type: docs
-weight: 6970
+weight: 6990
 url: /ja/aspose.slides/ishapeelement/
 ---
 ## IShapeElement インターフェイス

@@ -1,14 +1,14 @@
 ---
 title: ILightRigEffectiveData
-second_title: Aspose.Sildes pro .NET API Reference
-description: Neměnný objekt, který obsahuje efektivní vlastnosti světelného rigu.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Neměnný objekt, který obsahuje účinné vlastnosti světelného systému.
 type: docs
-weight: 6260
+weight: 6280
 url: /cs/aspose.slides/ilightrigeffectivedata/
 ---
 ## ILightRigEffectiveData rozhraní
 
-Neměnný objekt, který obsahuje efektivní vlastnosti světelného rigu.
+Neměnný objekt, který obsahuje účinné vlastnosti světelného systému.
 
 ```csharp
 public interface ILightRigEffectiveData
@@ -19,13 +19,13 @@ public interface ILightRigEffectiveData
 | Název | Popis |
 | --- | --- |
 | [Direction](../../aspose.slides/ilightrigeffectivedata/direction) { get; } | Směr světla. Pouze pro čtení [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | Představuje přednastavený světelný směr, který lze použít na tvar. Light rig představuje skupinu světel orientovaných specifickým způsobem vůči 3D scéně. Pouze pro čtení [`LightRigPresetType`](../lightrigpresettype). |
+| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | Zastupuje přednastavené světlo vpravo, které lze použít na tvar. Světelný rig představuje skupinu světel orientovaných určitým způsobem vůči 3D scéně. Pouze pro čtení [`LightRigPresetType`](../lightrigpresettype). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | Rotace je definována pomocí souřadnice zeměpisné šířky, souřadnice zeměpisné délky a otáčením kolem osy. První prvek vráceného pole – zeměpisná šířka, druhý – zeměpisná délka, třetí – otáčení. |
+| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | Rotace je definována pomocí souřadnice zeměpisné šířky, souřadnice délky a otáčení kolem osy jako souřadnice zeměpisné šířky a délky. První prvek návratového pole – zeměpisná šířka, druhý – délka, třetí – otáčení. |
 
 ### Poznámky
 

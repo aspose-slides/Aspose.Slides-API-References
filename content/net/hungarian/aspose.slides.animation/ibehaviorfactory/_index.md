@@ -1,14 +1,14 @@
 ---
 title: IBehaviorFactory
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes a .NET API Referenciához
 description: Lehetővé teszi animációs effektusok létrehozását
 type: docs
-weight: 410
+weight: 430
 url: /hu/aspose.slides.animation/ibehaviorfactory/
 ---
 ## IBehaviorFactory interfész
 
-Lehetővé teszi animációs effektusok létrehozását
+Allows to create animation effects
 
 ```csharp
 public interface IBehaviorFactory
@@ -18,16 +18,16 @@ public interface IBehaviorFactory
 
 | Név | Leírás |
 | --- | --- |
-| [CreateColorEffect](../../aspose.slides.animation/ibehaviorfactory/createcoloreffect)() | Létrehozza a szín effektust. |
-| [CreateCommandEffect](../../aspose.slides.animation/ibehaviorfactory/createcommandeffect)() | Létrehozza a parancs effektust. |
-| [CreateFilterEffect](../../aspose.slides.animation/ibehaviorfactory/createfiltereffect)() | Létrehozza a szűrő effektust. |
-| [CreateMotionEffect](../../aspose.slides.animation/ibehaviorfactory/createmotioneffect)() | Létrehozza a mozgás effektust. |
-| [CreatePropertyEffect](../../aspose.slides.animation/ibehaviorfactory/createpropertyeffect)() | Létrehozza a tulajdonság effektust. |
-| [CreateRotationEffect](../../aspose.slides.animation/ibehaviorfactory/createrotationeffect)() | Létrehozza a forgatás effektust. |
-| [CreateScaleEffect](../../aspose.slides.animation/ibehaviorfactory/createscaleeffect)() | Létrehozza a méretezés effektust. |
-| [CreateSetEffect](../../aspose.slides.animation/ibehaviorfactory/createseteffect)() | Létrehozza a beállítás effektust. |
+| [CreateColorEffect](../../aspose.slides.animation/ibehaviorfactory/createcoloreffect)() | Létrehozza a színhatást. |
+| [CreateCommandEffect](../../aspose.slides.animation/ibehaviorfactory/createcommandeffect)() | Létrehozza a parancshatást. |
+| [CreateFilterEffect](../../aspose.slides.animation/ibehaviorfactory/createfiltereffect)() | Létrehozza a szűrőhatást. |
+| [CreateMotionEffect](../../aspose.slides.animation/ibehaviorfactory/createmotioneffect)() | Létrehozza a mozgáshatást. |
+| [CreatePropertyEffect](../../aspose.slides.animation/ibehaviorfactory/createpropertyeffect)() | Létrehozza a tulajdonsághatást. |
+| [CreateRotationEffect](../../aspose.slides.animation/ibehaviorfactory/createrotationeffect)() | Létrehozza a forgatási hatást. |
+| [CreateScaleEffect](../../aspose.slides.animation/ibehaviorfactory/createscaleeffect)() | Létrehozza a méretezési hatást. |
+| [CreateSetEffect](../../aspose.slides.animation/ibehaviorfactory/createseteffect)() | Létrehozza a beállítási hatást. |
 
-### Megjegyzés
+### Megjegyzések
 
 A COM kompatibilitáshoz.
 

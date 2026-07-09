@@ -1,14 +1,14 @@
 ---
 title: INotImplementedWarningInfo
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili peringatan tentang fitur yang diketahui belum diimplementasikan yang tidak akan diimplementasikan dalam waktu dekat.
+description: Mewakili peringatan tentang fitur yang diketahui belum diimplementasikan dan tidak akan diimplementasikan dalam waktu dekat.
 type: docs
-weight: 11750
+weight: 11770
 url: /id/aspose.slides.warnings/inotimplementedwarninginfo/
 ---
 ## INotImplementedWarningInfo antarmuka
 
-Mewakili peringatan tentang fitur yang diketahui belum diimplementasikan yang tidak akan diimplementasikan dalam waktu dekat.
+Mewakili peringatan tentang fitur yang diketahui belum diimplementasikan dan tidak akan diimplementasikan dalam waktu dekat.
 
 ```csharp
 public interface INotImplementedWarningInfo : IWarningInfo

@@ -1,9 +1,9 @@
 ---
 title: OleEmbeddedDataInfo
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Referência da API do Aspose.Sildes para .NET
 description: Representa informações de dados incorporados para objeto OLE.
 type: docs
-weight: 2740
+weight: 2760
 url: /pt/aspose.slides.dom.ole/oleembeddeddatainfo/
 ---
 ## OleEmbeddedDataInfo classe
@@ -18,17 +18,17 @@ public class OleEmbeddedDataInfo : IOleEmbeddedDataInfo
 
 | Nome | Descrição |
 | --- | --- |
-| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor)() | Cria nova informação de dados incorporados para objeto OLE. |
-| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor_1)(byte[], string) | Cria uma nova instância de uma informação de dados incorporados para objeto OLE. Dados do arquivo de um objeto OLE incorporado Byte[]. Extensão do arquivo para o objeto OLE incorporado atual String. |
+| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor)() | Cria uma nova informação de dados incorporados para objeto OLE. |
+| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor_1)(byte[], string) | Cria uma nova instância de uma informação de dados incorporados para objeto OLE. Dados de arquivo de um objeto OLE incorporado Byte[]. Extensão de arquivo para o objeto OLE incorporado atual String. |
 
 ## Propriedades
 
 | Nome | Descrição |
 | --- | --- |
-| [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | Retorna os dados do arquivo de um objeto OLE incorporado. Somente leitura Byte[]. |
-| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | Retorna a extensão do arquivo para o objeto OLE incorporado atual. Somente leitura String. |
+| [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | Retorna os dados de arquivo de um objeto OLE incorporado Somente leitura Byte[]. |
+| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | Retorna a extensão de arquivo para o objeto OLE incorporado atual Somente leitura String. |
 
-### Veja Também
+### Veja também
 
 * interface [IOleEmbeddedDataInfo](../../aspose.slides/ioleembeddeddatainfo)
 * namespace [Aspose.Slides.DOM.Ole](../../aspose.slides.dom.ole)

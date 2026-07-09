@@ -1,14 +1,14 @@
 ---
 title: IBaseShapeLock
-second_title: Aspose.Sildes για .NET API Reference
-description: Αναπαριστά τη λειτουργία κλειδώματος Shape που είναι απενεργοποιημένη.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Αντιπροσωπεύει την απενεργοποιημένη λειτουργία κλειδώματος Shape.
 type: docs
-weight: 5310
+weight: 5330
 url: /el/aspose.slides/ibaseshapelock/
 ---
-## IBaseShapeLock διεπαφή
+## IBaseShapeLock Διεπαφή
 
-Αναπαριστά το Shape lock (απενεργοποιημένη λειτουργία).
+Αναπαριστά το κλείδωμα Shape (απενεργοποιημένη λειτουργία).
 
 ```csharp
 public interface IBaseShapeLock
@@ -18,7 +18,7 @@ public interface IBaseShapeLock
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [NoLocks](../../aspose.slides/ibaseshapelock/nolocks) { get; } | Επιστρέφει true αν όλες οι σημαίες κλειδώματος είναι απενεργοποιημένες. Boolean μόνο για ανάγνωση. |
+| [NoLocks](../../aspose.slides/ibaseshapelock/nolocks) { get; } | Επιστρέφει true εάν όλα τα lock-flags είναι απενεργοποιημένα. Μόνο για ανάγνωση Boolean. |
 
 ### Δείτε επίσης
 

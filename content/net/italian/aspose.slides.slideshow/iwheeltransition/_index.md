@@ -1,9 +1,9 @@
 ---
 title: IWheelTransition
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Effetto di transizione della diapositiva a ruota.
 type: docs
-weight: 10200
+weight: 10220
 url: /it/aspose.slides.slideshow/iwheeltransition/
 ---
 ## IWheelTransition interfaccia
@@ -19,7 +19,7 @@ public interface IWheelTransition : ITransitionValueBase
 | Nome | Descrizione |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/iwheeltransition/asitransitionvaluebase) { get; } | Consente di ottenere l'interfaccia base ITransitionValueBase. Solo lettura [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Spokes](../../aspose.slides.slideshow/iwheeltransition/spokes) { get; set; } | Numero di raggi della transizione a ruota. Lettura/scrittura UInt32. |
+| [Spokes](../../aspose.slides.slideshow/iwheeltransition/spokes) { get; set; } | Numero di raggi della transizione della ruota. Lettura/scrittura UInt32. |
 
 ### Vedi anche
 

@@ -1,14 +1,14 @@
 ---
 title: LinkEmbedDecision
-second_title: Aspose.Sildes a .NET API referencia
-description: Meghatározza, hogyan lesz az objektum feldolgozva a mentés során.
+second_title: Aspose.Sildes .NET API referenciája
+description: Meghatározza, hogyan lesz feldolgozva az objektum mentés közben.
 type: docs
-weight: 4210
+weight: 4230
 url: /hu/aspose.slides.export/linkembeddecision/
 ---
 ## LinkEmbedDecision enumeráció
 
-Meghatározza, hogyan lesz az objektum feldolgozva a mentés során.
+Meghatározza, hogyan dolgozódik fel az objektum mentéskor.
 
 ```csharp
 public enum LinkEmbedDecision
@@ -18,9 +18,9 @@ public enum LinkEmbedDecision
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Link | `0` | Az objektum külsőleg lesz tárolva, URL-re hivatkozva |
-| Embed | `1` | Az objektumot be kell ágyazni a generált fájlba, ha lehetséges. Ha a beágyazás lehetetlen, a GetUrl lesz meghívva, és az eredménytől függően az objektum URL-re hivatkozik vagy figyelmen kívül lesz hagyva. |
-| Ignore | `2` | Az objektum figyelmen kívül lesz hagyva. |
+| Link | `0` | Az objektum külsőleg kerül tárolásra, URL-címmel hivatkozva |
+| Embed | `1` | Az objektumot be kell ágyazni egy generált fájlba, ha lehetséges. Ha a beágyazás lehetetlen, a GetUrl metódus kerül meghívásra, és az eredménytől függően az objektum URL-címmel hivatkozik vagy figyelmen kívül marad. |
+| Ignore | `2` | Az objektum figyelmen kívül marad. |
 
 ### Lásd még
 

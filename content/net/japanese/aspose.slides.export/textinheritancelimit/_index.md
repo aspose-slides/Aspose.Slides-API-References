@@ -1,12 +1,12 @@
 ---
 title: TextInheritanceLimit
 second_title: Aspose.Sildes for .NET API リファレンス
-description: テキスト プロパティの継承の深さを制御します。
+description: テキストプロパティの継承の深さを制御します。
 type: docs
-weight: 4520
+weight: 4540
 url: /ja/aspose.slides.export/textinheritancelimit/
 ---
-## TextInheritanceLimit 列挙型
+## TextInheritanceLimit 列挙体
 
 テキスト プロパティの継承の深さを制御します。
 
@@ -18,9 +18,9 @@ public enum TextInheritanceLimit
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| All | `0` | すべてのテキスト プロパティを継承します。 |
+| All | `0` | すべてのテキストプロパティを継承します。 |
 | TextBox | `1` | TextFrame のスタイルからのみ継承します。 |
-| ParagraphOnly | `2` | 段落用に定義されたプロパティのみを使用します。 |
+| ParagraphOnly | `2` | 段落に定義されたプロパティのみを使用します。 |
 
 ### 参照
 

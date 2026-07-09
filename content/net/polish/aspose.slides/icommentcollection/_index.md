@@ -3,7 +3,7 @@ title: ICommentCollection
 second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje kolekcję komentarzy jednego autora.
 type: docs
-weight: 5570
+weight: 5590
 url: /pl/aspose.slides/icommentcollection/
 ---
 ## ICommentCollection interfejs
@@ -27,12 +27,12 @@ public interface ICommentCollection : IGenericCollection<IComment>
 | [AddComment](../../aspose.slides/icommentcollection/addcomment)(string, ISlide, PointF, DateTime) | Dodaje nowy komentarz na końcu kolekcji. |
 | [AddModernComment](../../aspose.slides/icommentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | Dodaje nowy nowoczesny komentarz na końcu kolekcji. |
 | [Clear](../../aspose.slides/icommentcollection/clear)() | Usuwa wszystkie komentarze z kolekcji. |
-| [InsertComment](../../aspose.slides/icommentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | Wstawia nowy komentarz do kolekcji pod wskazanym indeksem. |
-| [InsertModernComment](../../aspose.slides/icommentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | Wstawia nowy nowoczesny komentarz do kolekcji pod wskazanym indeksem. |
+| [InsertComment](../../aspose.slides/icommentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | Wstawia nowy komentarz do kolekcji w określonym indeksie. |
+| [InsertModernComment](../../aspose.slides/icommentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | Wstawia nowy nowoczesny komentarz do kolekcji w określonym indeksie. |
 | [Remove](../../aspose.slides/icommentcollection/remove)(IComment) | Usuwa pierwsze wystąpienie określonego komentarza w kolekcji. |
-| [RemoveAt](../../aspose.slides/icommentcollection/removeat)(int) | Usuwa element pod wskazanym indeksem w kolekcji. |
-| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray)() | Tworzy i zwraca tablicę ze wszystkimi komentarzami. |
-| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray_1)(int, int) | Tworzy i zwraca tablicę ze wszystkimi komentarzami z określonego zakresu. |
+| [RemoveAt](../../aspose.slides/icommentcollection/removeat)(int) | Usuwa element o określonym indeksie w kolekcji. |
+| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray)() | Tworzy i zwraca tablicę zawierającą wszystkie komentarze. |
+| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray_1)(int, int) | Tworzy i zwraca tablicę zawierającą wszystkie komentarze z określonego zakresu. |
 
 ### Zobacz także
 

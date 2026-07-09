@@ -3,7 +3,7 @@ title: ColorEffect
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en färgeffekt för ett animationsbeteende.
 type: docs
-weight: 210
+weight: 230
 url: /sv/aspose.slides.animation/coloreffect/
 ---
 ## ColorEffect klass
@@ -16,25 +16,25 @@ public class ColorEffect : Behavior, IColorEffect
 
 ## Konstruktörer
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
 | [ColorEffect](coloreffect)() | Skapar en ny instans. |
 
 ## Egenskaper
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
 | [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Representerar huruvida animationsbeteenden ackumuleras. Läs/skriv [`NullableBool`](../../aspose.slides/nullablebool). |
 | [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Representerar huruvida det aktuella animationsbeteendet kombineras med andra pågående animationer. Läs/skriv [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [By](../../aspose.slides.animation/coloreffect/by) { get; set; } | Beskriver det relativa offsetvärdet för färganimationen. Läs/skriv [`IColorOffset`](../icoloroffset). |
+| [By](../../aspose.slides.animation/coloreffect/by) { get; set; } | Beskriver det relativa förskjutningsvärdet för färganimationen. Läs/skriv [`IColorOffset`](../icoloroffset). |
 | [ColorSpace](../../aspose.slides.animation/coloreffect/colorspace) { get; set; } | Representerar färgrymden för beteendet. Läs/skriv [`ColorSpace`](../colorspace). |
-| [Direction](../../aspose.slides.animation/coloreffect/direction) { get; set; } | Anger i vilken riktning nyansen roteras runt färghjulet. Läs/skriv [`ColorDirection`](../colordirection). |
+| [Direction](../../aspose.slides.animation/coloreffect/direction) { get; set; } | Anger i vilken riktning nyansen ska rotera runt färghjulet. Läs/skriv [`ColorDirection`](../colordirection). |
 | [From](../../aspose.slides.animation/coloreffect/from) { get; set; } | Detta värde används för att ange startfärgen för beteendet. Läs/skriv [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Representerar egenskaperna för beteendet. Endast läs [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Representerar tidsrelaterade egenskaper för effektbeteendet. Läs/skriv [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/coloreffect/to) { get; set; } | Beskriver den resulterande färgen för färgändringen i animationen. Läs/skriv [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Representerar egenskaperna för beteendet. Skrivskyddad [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Representerar tidsinställningarna för effektbeteendet. Läs/skriv [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/coloreffect/to) { get; set; } | Beskriver resulterande färg för färgändringen i animationen. Läs/skriv [`IColorFormat`](../../aspose.slides/icolorformat). |
 
-### Se även
+### Se också
 
 * klass [Behavior](../behavior)
 * gränssnitt [IColorEffect](../icoloreffect)

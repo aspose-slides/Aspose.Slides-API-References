@@ -1,14 +1,14 @@
 ---
 title: IEffectFormatEffectiveData
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Objek tak dapat diubah yang berisi properti pemformatan efek yang efektif.
+description: Objek tidak dapat diubah yang berisi properti pemformatan efek yang efektif.
 type: docs
-weight: 5730
+weight: 5750
 url: /id/aspose.slides/ieffectformateffectivedata/
 ---
 ## IEffectFormatEffectiveData antarmuka
 
-Objek tak dapat diubah yang berisi properti pemformatan efek yang efektif.
+Objek tidak dapat diubah yang berisi properti pemformatan efek yang efektif.
 
 ```csharp
 public interface IEffectFormatEffectiveData : IEffectParamSource
@@ -18,20 +18,20 @@ public interface IEffectFormatEffectiveData : IEffectParamSource
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIEffectParamSource](../../aspose.slides/ieffectformateffectivedata/asieffectparamsource) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar IEffectParamSource. Hanya-baca [`IEffectParamSource`](../ieffectparamsource). |
+| [AsIEffectParamSource](../../aspose.slides/ieffectformateffectivedata/asieffectparamsource) { get; } | Mengizinkan mendapatkan antarmuka IEffectParamSource dasar. Hanya-baca [`IEffectParamSource`](../ieffectparamsource). |
 | [BlurEffect](../../aspose.slides/ieffectformateffectivedata/blureffect) { get; } | Efek blur. Hanya-baca [`IBlurEffectiveData`](../../aspose.slides.effects/iblureffectivedata). |
-| [FillOverlayEffect](../../aspose.slides/ieffectformateffectivedata/filloverlayeffect) { get; } | Efek overlay pengisian. Hanya-baca [`IFillOverlayEffectiveData`](../../aspose.slides.effects/ifilloverlayeffectivedata). |
-| [GlowEffect](../../aspose.slides/ieffectformateffectivedata/gloweffect) { get; } | Efek bersinar. Hanya-baca [`IGlowEffectiveData`](../../aspose.slides.effects/igloweffectivedata). |
+| [FillOverlayEffect](../../aspose.slides/ieffectformateffectivedata/filloverlayeffect) { get; } | Efek overlay isi. Hanya-baca [`IFillOverlayEffectiveData`](../../aspose.slides.effects/ifilloverlayeffectivedata). |
+| [GlowEffect](../../aspose.slides/ieffectformateffectivedata/gloweffect) { get; } | Efek glow. Hanya-baca [`IGlowEffectiveData`](../../aspose.slides.effects/igloweffectivedata). |
 | [InnerShadowEffect](../../aspose.slides/ieffectformateffectivedata/innershadoweffect) { get; } | Bayangan dalam. Hanya-baca [`IInnerShadowEffectiveData`](../../aspose.slides.effects/iinnershadoweffectivedata). |
 | [IsNoEffects](../../aspose.slides/ieffectformateffectivedata/isnoeffects) { get; } | Mengembalikan true jika semua efek dinonaktifkan (seperti baru dibuat, objek EffectFormat default). Hanya-baca Boolean. |
 | [OuterShadowEffect](../../aspose.slides/ieffectformateffectivedata/outershadoweffect) { get; } | Bayangan luar. Hanya-baca [`IOuterShadowEffectiveData`](../../aspose.slides.effects/ioutershadoweffectivedata). |
 | [PresetShadowEffect](../../aspose.slides/ieffectformateffectivedata/presetshadoweffect) { get; } | Bayangan preset. Hanya-baca [`IPresetShadowEffectiveData`](../../aspose.slides.effects/ipresetshadoweffectivedata). |
 | [ReflectionEffect](../../aspose.slides/ieffectformateffectivedata/reflectioneffect) { get; } | Refleksi. Hanya-baca [`IReflectionEffectiveData`](../../aspose.slides.effects/ireflectioneffectivedata). |
-| [SoftEdgeEffect](../../aspose.slides/ieffectformateffectivedata/softedgeeffect) { get; } | Pinggiran lembut. Hanya-baca [`ISoftEdgeEffectiveData`](../../aspose.slides.effects/isoftedgeeffectivedata). |
+| [SoftEdgeEffect](../../aspose.slides/ieffectformateffectivedata/softedgeeffect) { get; } | Tepi lembut. Hanya-baca [`ISoftEdgeEffectiveData`](../../aspose.slides.effects/isoftedgeeffectivedata). |
 
 ### Catatan
 
-Antarmuka ini digunakan bersama dengan antarmuka [`IEffectFormat`](../ieffectformat) untuk mengembalikan nilai pemformatan efektif dengan pewarisan yang diterapkan.
+Antarmuka ini digunakan bersama dengan antarmuka [`IEffectFormat`](../ieffectformat) untuk mengembalikan nilai pemformatan yang efektif dengan pewarisan diterapkan.
 
 ### Lihat Juga
 

@@ -1,14 +1,14 @@
 ---
 title: LayoutSlide
 second_title: Aspose.Sildes for .NET API リファレンス
-description: レイアウト スライドを表します。
+description: レイアウトスライドを表します。
 type: docs
-weight: 7620
+weight: 7640
 url: /ja/aspose.slides/layoutslide/
 ---
 ## LayoutSlide クラス
 
-レイアウト スライドを表します。
+スライドのレイアウトを表します。
 
 ```csharp
 public sealed class LayoutSlide : BaseSlide, ILayoutSlide
@@ -22,19 +22,19 @@ public sealed class LayoutSlide : BaseSlide, ILayoutSlide
 | [Controls](../../aspose.slides/baseslide/controls) { get; } | スライド上の ActiveX コントロールのコレクションを返します。読み取り専用 [`IControlCollection`](../icontrolcollection)。 |
 | [CustomData](../../aspose.slides/baseslide/customdata) { get; } | スライドのカスタム データを返します。読み取り専用 [`ICustomData`](../icustomdata)。 |
 | [DrawingGuides](../../aspose.slides/layoutslide/drawingguides) { get; } | レイアウト スライドの描画ガイドのコレクションを返します。読み取り専用 [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HasDependingSlides](../../aspose.slides/layoutslide/hasdependingslides) { get; } | このレイアウト スライドに依存しているスライドが少なくとも 1 つ存在するかどうかを返します。読み取り専用 Boolean。 |
+| [HasDependingSlides](../../aspose.slides/layoutslide/hasdependingslides) { get; } | このレイアウト スライドに依存しているスライドが少なくとも 1 つ存在する場合に true を返します。読み取り専用 Boolean. |
 | [HeaderFooterManager](../../aspose.slides/layoutslide/headerfootermanager) { get; } | レイアウト スライドの HeaderFooter マネージャーを返します。読み取り専用 [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager)。 |
-| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | 含まれるハイパーリンクへの簡易アクセスを提供します。読み取り専用 [`IHyperlinkQueries`](../ihyperlinkqueries)。 |
+| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | 含まれるハイパーリンクへの簡単なアクセスを提供します。読み取り専用 [`IHyperlinkQueries`](../ihyperlinkqueries)。 |
 | [LayoutType](../../aspose.slides/layoutslide/layouttype) { get; } | このレイアウト スライドのレイアウト タイプを返します。読み取り専用 [`SlideLayoutType`](../slidelayouttype)。 |
-| [MasterSlide](../../aspose.slides/layoutslide/masterslide) { get; set; } | レイアウトのマスタースライドを取得または設定します。読み書き可能 [`IMasterSlide`](../imasterslide)。 |
-| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | スライドの名前を取得または設定します。読み書き可能 String。 |
+| [MasterSlide](../../aspose.slides/layoutslide/masterslide) { get; set; } | レイアウトのマスタ スライドを取得または設定します。読み取り/書き込み [`IMasterSlide`](../imasterslide)。 |
+| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | スライドの名前を取得または設定します。読み取り/書き込み String. |
 | [PlaceholderManager](../../aspose.slides/layoutslide/placeholdermanager) { get; } | レイアウト スライドのプレースホルダー マネージャーを返します。読み取り専用 [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager)。 |
 | [Presentation](../../aspose.slides/baseslide/presentation) { get; } | IPresentation インターフェイスを返します。読み取り専用 [`IPresentation`](../ipresentation)。 |
 | [Shapes](../../aspose.slides/baseslide/shapes) { get; } | スライドのシェイプを返します。読み取り専用 [`IShapeCollection`](../ishapecollection)。 |
-| override [ShowMasterShapes](../../aspose.slides/layoutslide/showmastershapes) { get; set; } | マスタースライド上のシェイプをスライドに表示するかどうかを指定します。読み書き可能 Boolean。 |
-| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | スライドの ID を返します。読み取り専用 UInt32。 |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | スライドショー中に指定されたスライドがどのように進行するかの情報を含む Transition オブジェクトを返します。読み取り専用 [`ISlideShowTransition`](../islideshowtransition)。 |
-| [ThemeManager](../../aspose.slides/layoutslide/thememanager) { get; } | オーバーライドされたテーマ マネージャーを返します。読み取り専用 [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager)。 |
+| override [ShowMasterShapes](../../aspose.slides/layoutslide/showmastershapes) { get; set; } | マスタ スライド上のシェイプをスライド上に表示するかどうかを指定します。読み取り/書き込み Boolean. |
+| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | スライドの ID を返します。読み取り専用 UInt32. |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | スライドショー中に指定されたスライドがどのように進むかに関する情報を含む Transition オブジェクトを返します。読み取り専用 [`ISlideShowTransition`](../islideshowtransition)。 |
+| [ThemeManager](../../aspose.slides/layoutslide/thememanager) { get; } | 上書きテーマ マネージャーを返します。読み取り専用 [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager)。 |
 | [Timeline](../../aspose.slides/baseslide/timeline) { get; } | アニメーション タイムライン オブジェクトを返します。読み取り専用 [`IAnimationTimeLine`](../ianimationtimeline)。 |
 
 ## メソッド
@@ -42,11 +42,11 @@ public sealed class LayoutSlide : BaseSlide, ILayoutSlide
 | 名前 | 説明 |
 | --- | --- |
 | [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | このスライドの有効なテーマを返します。 |
-| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | 2 つの IBaseSlide インスタンスが等しいかどうかを判断します。返される値はスライドの構造と静的コンテンツに基づいて計算されます。すべてのシェイプ、スタイル、テキスト、アニメーションおよびその他の設定などが等しい場合にスライドは等しいとみなされます。比較では SlideId などの一意識別子や、Date Placeholder の現在の日付値などの動的コンテンツは考慮されません。 |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | 2 つの IBaseSlide インスタンスが等しいかどうかを判断します。戻り値はスライドの構造と静的コンテンツに基づいて計算されます。すべてのシェイプ、スタイル、テキスト、アニメーションおよびその他の設定などが等しい場合、2 つのスライドは等しいとみなされます。比較では SlideId などの固有識別子や、日付プレースホルダーの現在の日付値などの動的コンテンツは考慮されません。 |
 | [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | 指定された代替テキストを持つシェイプの最初の出現を検索します。 |
-| [GetDependingSlides](../../aspose.slides/layoutslide/getdependingslides)() | このレイアウト スライドに依存しているすべてのスライドを配列で返します。 |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | すべての許容可能なシェイプのすべての段落で、同じ書式設定のランを結合します。 |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | すべての許容可能なシェイプのすべての段落で、同じ書式設定のランを結合します。 |
+| [GetDependingSlides](../../aspose.slides/layoutslide/getdependingslides)() | このレイアウト スライドに依存するすべてのスライドの配列を返します。 |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | すべての許容可能なシェイプのすべての段落で、同じ書式設定を持つランを結合します。 |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | すべての許容可能なシェイプのすべての段落で、同じ書式設定を持つランを結合します。 |
 | [Remove](../../aspose.slides/layoutslide/remove)() | プレゼンテーションからレイアウトを削除します。 |
 
 ### 参照

@@ -1,14 +1,14 @@
 ---
 title: LightRigPresetType
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Konstanta yang mendefinisikan tipe preset cahaya.
+description: Konstanta yang menentukan tipe preset cahaya.
 type: docs
-weight: 7680
+weight: 7700
 url: /id/aspose.slides/lightrigpresettype/
 ---
-## LightRigPresetType enumerasi
+## LightRigPresetType enumeration
 
-Konstanta yang mendefinisikan tipe preset cahaya.
+Konstanta yang menentukan tipe preset cahaya.
 
 ```csharp
 public enum LightRigPresetType

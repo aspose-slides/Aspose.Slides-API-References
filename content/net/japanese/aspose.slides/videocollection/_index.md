@@ -3,12 +3,12 @@ title: VideoCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: Video オブジェクトのコレクションを表します。
 type: docs
-weight: 11690
+weight: 11710
 url: /ja/aspose.slides/videocollection/
 ---
 ## VideoCollection クラス
 
-ビデオオブジェクトのコレクションを表します。
+Video オブジェクトのコレクションを表します。
 
 ```csharp
 public class VideoCollection : DomObject<Presentation>, IVideoCollection
@@ -16,21 +16,21 @@ public class VideoCollection : DomObject<Presentation>, IVideoCollection
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [Count](../../aspose.slides/videocollection/count) { get; } | コレクション内のビデオファイルの数を返します。読み取り専用 Int32。 |
-| [IsSynchronized](../../aspose.slides/videocollection/issynchronized) { get; } | コレクションへのアクセスが同期されているか (スレッド セーフ) を示す値を返します。読み取り専用 Boolean。 |
-| [Item](../../aspose.slides/videocollection/item) { get; } | 指定されたインデックスの要素を取得します。読み取り専用 [`IVideo`](../ivideo)。 |
+| [Count](../../aspose.slides/videocollection/count) { get; } | コレクション内のビデオ ファイル数を返します。読み取り専用 Int32。 |
+| [IsSynchronized](../../aspose.slides/videocollection/issynchronized) { get; } | コレクションへのアクセスが同期化されているかどうかを示す値を返します（スレッドセーフ）。読み取り専用 Boolean。 |
+| [Item](../../aspose.slides/videocollection/item) { get; } | 指定したインデックスの要素を取得します。読み取り専用 [`IVideo`](../ivideo)。 |
 | [SyncRoot](../../aspose.slides/videocollection/syncroot) { get; } | 同期ルートを返します。読み取り専用 Object。 |
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_1)(byte[]) | バイト配列からプレゼンテーションにビデオを作成して追加します。 |
 | [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo)(IVideo) | 別のプレゼンテーションからビデオ ファイルのコピーを追加します。 |
 | [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | ストリームからプレゼンテーションにビデオを作成して追加します。 |
-| [CopyTo](../../aspose.slides/videocollection/copyto)(Array, int) | 指定されたインデックスから開始して、ビデオを指定された配列にコピーします。 |
+| [CopyTo](../../aspose.slides/videocollection/copyto)(Array, int) | 指定したインデックスから開始して、ビデオを指定された配列にコピーします。 |
 | [GetEnumerator](../../aspose.slides/videocollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
 
 ### 参照

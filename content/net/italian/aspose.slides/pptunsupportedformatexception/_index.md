@@ -1,14 +1,14 @@
 ---
 title: PptUnsupportedFormatException
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Eccezione lanciata quando il formato del file di presentazione non è supportato.
+second_title: Aspose.Sildes per .NET API Reference
+description: Eccezione generata quando il formato del file di presentazione non è supportato.
 type: docs
-weight: 9520
+weight: 9540
 url: /it/aspose.slides/pptunsupportedformatexception/
 ---
 ## PptUnsupportedFormatException classe
 
-Eccezione lanciata quando il formato del file di presentazione non è supportato.
+Eccezione generata quando il formato del file di presentazione non è supportato.
 
 ```csharp
 public class PptUnsupportedFormatException : PptReadException

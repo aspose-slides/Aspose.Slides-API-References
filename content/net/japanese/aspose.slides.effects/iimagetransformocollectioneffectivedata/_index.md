@@ -1,14 +1,14 @@
 ---
 title: IImageTransformOCollectionEffectiveData
-second_title: Aspose.Sildes for .NET API リファレンス
-description: 有効な画像変換効果の読み取り専用コレクションを表す不変オブジェクトです。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: 有効な画像変換エフェクトの読み取り専用コレクションを表す不変オブジェクトです。
 type: docs
-weight: 3360
+weight: 3380
 url: /ja/aspose.slides.effects/iimagetransformocollectioneffectivedata/
 ---
-## IImageTransformOCollectionEffectiveData インターフェイス
+## IImageTransformOCollectionEffectiveData interface
 
-有効な画像変換効果の読み取り専用コレクションを表す不変オブジェクトです。
+読み取り専用の有効画像変換エフェクトコレクションを表す不変オブジェクトです。
 
 ```csharp
 public interface IImageTransformOCollectionEffectiveData : IGenericCollection<IEffectEffectiveData>
@@ -16,15 +16,15 @@ public interface IImageTransformOCollectionEffectiveData : IGenericCollection<IE
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [Item](../../aspose.slides.effects/iimagetransformocollectioneffectivedata/item) { get; } | インデックスで要素を返します。 |
+| [Item](../../aspose.slides.effects/iimagetransformocollectioneffectivedata/item) { get; } | インデックスで要素を取得します。 |
 
 ### 備考
 
-Name IImageTransformOperationCollectionEffectiveData は、COM の名前長が 39 文字を超えないため、IImageTransformOCollectionEffectiveData に省略されました。
+Name IImageTransformOperationCollectionEffectiveData は COM 名の長さ制限により 39 文字を超えないよう IImageTransformOCollectionEffectiveData に省略されました。
 
-### 参照
+### 関連項目
 
 * インターフェイス [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * インターフェイス [IEffectEffectiveData](../ieffecteffectivedata)

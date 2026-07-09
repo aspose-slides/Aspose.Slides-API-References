@@ -1,14 +1,14 @@
 ---
 title: PointCollection
-second_title: Referência de API Aspose.Sildes para .NET
-description: Representa uma coleção de pontos de animação.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Representa a coleção de pontos de animação.
 type: docs
-weight: 710
+weight: 730
 url: /pt/aspose.slides.animation/pointcollection/
 ---
-## Classe PointCollection
+## classe PointCollection
 
-Representa uma coleção de pontos de animação.
+Representa a coleção de pontos de animação.
 
 ```csharp
 public class PointCollection : IPointCollection
@@ -31,9 +31,9 @@ public class PointCollection : IPointCollection
 
 | Nome | Descrição |
 | --- | --- |
-| [GetEnumerator](../../aspose.slides.animation/pointcollection/getenumerator)() | Retorna um enumerador que itera sobre a coleção. |
+| [GetEnumerator](../../aspose.slides.animation/pointcollection/getenumerator)() | Retorna um enumerador que itera pela coleção. |
 
-### Ver também
+### Veja também
 
 * interface [IPointCollection](../ipointcollection)
 * namespace [Aspose.Slides.Animation](../../aspose.slides.animation)

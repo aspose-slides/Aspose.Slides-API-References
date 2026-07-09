@@ -1,14 +1,14 @@
 ---
 title: AlphaInverse
-second_title: Aspose.Sildes a .NET API referenciája
-description: Ábrázolja az Alpha Inverse hatást. Az Alpha átlátszóság értékei 100-ból kivonva fordítottak.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Egy Alpha Inverse effektust reprezentál. Az Alpha átlátszóság értékeket 100%-ról levonással invertálják.
 type: docs
-weight: 2850
+weight: 2870
 url: /hu/aspose.slides.effects/alphainverse/
 ---
 ## AlphaInverse osztály
 
-Ábrázolja az Alpha Inverse hatást. Az Alpha (átlátszóság) értékek 100%-ból való kivonással fordítottak.
+Egy Alpha Inverse effektust reprezentál. Az Alpha (átlátszóság) értékeket 100%-ról levonással invertálják.
 
 ```csharp
 public sealed class AlphaInverse : ImageTransformOperation, IAlphaInverse
@@ -18,14 +18,14 @@ public sealed class AlphaInverse : ImageTransformOperation, IAlphaInverse
 
 | Név | Leírás |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interface lekérését. Csak olvasható [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphainverse/equals)(object) | Megállapítja, hogy a megadott [`AlphaInverse`](../alphainverse) egyenlő-e a jelenlegi [`AlphaInverse`](../alphainverse). |
-| [GetEffective](../../aspose.slides.effects/alphainverse/geteffective)() | Megkapja a hatékony Alpha Inverse hatás adatát az öröklődés alkalmazásával. |
+| override [Equals](../../aspose.slides.effects/alphainverse/equals)(object) | Meghatározza, hogy a megadott [`AlphaInverse`](../alphainverse) egyenlő-e a jelenlegi [`AlphaInverse`](../alphainverse). |
+| [GetEffective](../../aspose.slides.effects/alphainverse/geteffective)() | Lekéri a hatékony Alpha Inverse effektus adatokat az öröklődés alkalmazásával. |
 | override [GetHashCode](../../aspose.slides.effects/alphainverse/gethashcode)() | Hash függvényként szolgál egy adott típushoz. |
 
 ### Lásd még

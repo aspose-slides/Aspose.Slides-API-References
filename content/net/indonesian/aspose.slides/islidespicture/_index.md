@@ -1,9 +1,9 @@
 ---
 title: ISlidesPicture
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili gambar dalam presentasi.
+description: Mewakili gambar dalam sebuah presentasi.
 type: docs
-weight: 7090
+weight: 7110
 url: /id/aspose.slides/islidespicture/
 ---
 ## ISlidesPicture antarmuka
@@ -18,8 +18,8 @@ public interface ISlidesPicture : ISlideComponent
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/islidespicture/asislidecomponent) { get; } | Memungkinkan untuk mendapatkan antarmuka ISlideComponent dasar. Hanya-baca [`ISlideComponent`](../islidecomponent). |
-| [Image](../../aspose.slides/islidespicture/image) { get; set; } | Mengembalikan atau mengatur gambar tersemat. Baca/tulis [`IPPImage`](../ippimage). |
+| [AsISlideComponent](../../aspose.slides/islidespicture/asislidecomponent) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar ISlideComponent. Hanya-baca [`ISlideComponent`](../islidecomponent). |
+| [Image](../../aspose.slides/islidespicture/image) { get; set; } | Mengembalikan atau mengatur gambar yang disematkan. Baca/tulis [`IPPImage`](../ippimage). |
 | [ImageTransform](../../aspose.slides/islidespicture/imagetransform) { get; } | Mengembalikan koleksi efek transformasi gambar. Hanya-baca [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
 | [LinkPathLong](../../aspose.slides/islidespicture/linkpathlong) { get; set; } | Mengembalikan atau mengatur URL gambar yang ditautkan. Baca/tulis String. |
 

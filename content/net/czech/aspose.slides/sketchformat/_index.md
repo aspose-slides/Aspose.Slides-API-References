@@ -1,14 +1,14 @@
 ---
 title: SketchFormat
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro referenci .NET API
 description: Reprezentuje vlastnosti formátu náčrtu čar.
 type: docs
-weight: 9930
+weight: 9950
 url: /cs/aspose.slides/sketchformat/
 ---
 ## SketchFormat třída
 
-Reprezentuje vlastnosti pro formát náčrtu čar.
+Reprezentuje vlastnosti formátu náčrtu čar.
 
 ```csharp
 public sealed class SketchFormat : PVIObject, ISketchFormat
@@ -16,14 +16,14 @@ public sealed class SketchFormat : PVIObject, ISketchFormat
 
 ## Vlastnosti
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze ke čtení [`IPresentationComponent`](../ipresentationcomponent). |
-| [SketchType](../../aspose.slides/sketchformat/sketchtype) { get; set; } | Vrací nebo nastavuje typ sketch. Čtení/zápis [`LineSketchType`](../linesketchtype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze pro čtení [`IPresentationComponent`](../ipresentationcomponent). |
+| [SketchType](../../aspose.slides/sketchformat/sketchtype) { get; set; } | Vrací nebo nastavuje typ náčrtu. Čtení/zápis [`LineSketchType`](../linesketchtype). |
 
 ## Metody
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Porovnává se se zadaným objektem. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Vrací hash kód. |

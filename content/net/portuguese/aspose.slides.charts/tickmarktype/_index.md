@@ -1,9 +1,9 @@
 ---
 title: TickMarkType
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa o tipo de marca de escala para o eixo especificado.
 type: docs
-weight: 2430
+weight: 2450
 url: /pt/aspose.slides.charts/tickmarktype/
 ---
 ## Enumeração TickMarkType
@@ -19,11 +19,11 @@ public enum TickMarkType
 | Nome | Valor | Descrição |
 | --- | --- | --- |
 | Cross | `0` | Especifica que as marcas de escala devem cruzar o eixo. |
-| Inside | `1` | Especifica que as marcas de escala devem estar dentro da área do gráfico. |
-| None | `2` | Especifica que não haverá marcas de escala. |
-| Outside | `3` | Especifica que as marcas de escala devem estar fora da área do gráfico. |
+| Inside | `1` | Especifica que as marcas de escala devem ficar dentro da área do gráfico. |
+| None | `2` | Especifica que não deve haver marcas de escala. |
+| Outside | `3` | Especifica que as marcas de escala devem ficar fora da área do gráfico. |
 
-### Veja Também
+### Ver também
 
 * espaço de nomes [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

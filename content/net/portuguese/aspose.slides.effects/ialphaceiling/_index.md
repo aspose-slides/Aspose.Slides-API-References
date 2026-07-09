@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeiling
 second_title: Aspose.Sildes para .NET Referência da API
-description: Representa um efeito Alpha Ceiling. Valores de opacidade Alpha maiores que zero são alterados para 100. Em outras palavras, tudo que é parcialmente opaco torna-se totalmente opaco.
+description: Representa um efeito Alpha Ceiling. Valores de opacidade Alpha maiores que zero são alterados para 100. Em outras palavras, qualquer coisa parcialmente opaca torna-se totalmente opaca.
 type: docs
-weight: 3020
+weight: 3040
 url: /pt/aspose.slides.effects/ialphaceiling/
 ---
 ## IAlphaCeiling interface
 
-Representa um efeito Alpha Ceiling. Valores Alpha (opacidade) maiores que zero são alterados para 100%. Em outras palavras, tudo que é parcialmente opaco se torna totalmente opaco.
+Represents an Alpha Ceiling effect. Alpha (opacity) values greater than zero are changed to 100%. In other words, anything partially opaque becomes fully opaque.
 
 ```csharp
 public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData>, 

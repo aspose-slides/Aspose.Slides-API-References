@@ -1,9 +1,9 @@
 ---
 title: PresentationInfo
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Sunum dosyası hakkında bilgi
 type: docs
-weight: 9600
+weight: 9620
 url: /tr/aspose.slides/presentationinfo/
 ---
 ## PresentationInfo sınıfı
@@ -18,20 +18,20 @@ public sealed class PresentationInfo : IPresentationInfo
 
 | Ad | Açıklama |
 | --- | --- |
-| [IsEncrypted](../../aspose.slides/presentationinfo/isencrypted) { get; } | Bağlı sunum şifrelenmişse True, aksi takdirde False döndürür. Yalnızca okuma Boolean. |
-| [IsPasswordProtected](../../aspose.slides/presentationinfo/ispasswordprotected) { get; } | Bağlı sunumun açılması için bir parola ile korunup korunmadığını gösteren bir değer döndürür. |
+| [IsEncrypted](../../aspose.slides/presentationinfo/isencrypted) { get; } | Bağlı sunum şifrelenmişse True, aksi takdirde False döndürür. Salt-okunur Boolean. |
+| [IsPasswordProtected](../../aspose.slides/presentationinfo/ispasswordprotected) { get; } | Bağlı sunumun açılmak için bir parola ile korunup korunmadığını gösteren bir değer döndürür. |
 | [IsWriteProtected](../../aspose.slides/presentationinfo/iswriteprotected) { get; } | Bağlı sunumun yazma korumalı olup olmadığını gösteren bir değer döndürür. |
-| [LoadFormat](../../aspose.slides/presentationinfo/loadformat) { get; } | Bağlı sunumun formatını alır. Yalnızca okuma [`LoadFormat`](../loadformat). |
+| [LoadFormat](../../aspose.slides/presentationinfo/loadformat) { get; } | Bağlı sunumun formatını alır. Salt-okunur [`LoadFormat`](../loadformat). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | [CheckPassword](../../aspose.slides/presentationinfo/checkpassword)(string) | Açma parolasıyla korunan bir sunum için parolanın doğru olup olmadığını kontrol eder. |
-| [CheckWriteProtection](../../aspose.slides/presentationinfo/checkwriteprotection)(string) | Yazma korumalı bir sunum için değiştirme parolasının doğru olup olmadığını kontrol eder. |
+| [CheckWriteProtection](../../aspose.slides/presentationinfo/checkwriteprotection)(string) | Yazma korumalı bir sunum için değişiklik parolasının doğru olup olmadığını kontrol eder. |
 | [ReadDocumentProperties](../../aspose.slides/presentationinfo/readdocumentproperties)() | Bağlı sunumun belge özelliklerini alır. |
 | [UpdateDocumentProperties](../../aspose.slides/presentationinfo/updatedocumentproperties)(IDocumentProperties) | Bağlı sunumun özelliklerini günceller. |
-| [WriteBindedPresentation](../../aspose.slides/presentationinfo/writebindedpresentation#writebindedpresentation)(Stream) | Bağlı sunumu akıma yazar. |
+| [WriteBindedPresentation](../../aspose.slides/presentationinfo/writebindedpresentation#writebindedpresentation)(Stream) | Bağlı sunumu akışa yazar. |
 | [WriteBindedPresentation](../../aspose.slides/presentationinfo/writebindedpresentation#writebindedpresentation_1)(string) | Bağlı sunumu dosyaya yazar. |
 
 ### Ayrıca Bakınız

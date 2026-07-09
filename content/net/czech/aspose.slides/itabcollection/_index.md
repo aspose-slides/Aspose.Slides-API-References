@@ -1,14 +1,14 @@
 ---
 title: ITabCollection
-second_title: Aspose.Sildes pro .NET API referenci
-description: Představuje kolekci záložek.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Reprezentuje kolekci tabů.
 type: docs
-weight: 7180
+weight: 7200
 url: /cs/aspose.slides/itabcollection/
 ---
 ## ITabCollection rozhraní
 
-Představuje kolekci záložek.
+Representuje kolekci tabů.
 
 ```csharp
 public interface ITabCollection : IGenericCollection<ITab>
@@ -18,7 +18,7 @@ public interface ITabCollection : IGenericCollection<ITab>
 
 | Název | Popis |
 | --- | --- |
-| [Item](../../aspose.slides/itabcollection/item) { get; } | Získá prvek na zadaném indexu. Pouze pro čtení [`ITab`](../itab). |
+| [Item](../../aspose.slides/itabcollection/item) { get; } | Získá prvek na zadaném indexu. Pouze ke čtení [`ITab`](../itab). |
 
 ## Metody
 

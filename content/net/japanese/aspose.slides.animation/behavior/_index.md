@@ -1,14 +1,14 @@
 ---
 title: Behavior
 second_title: Aspose.Sildes for .NET API リファレンス
-description: エフェクトの基底クラスの動作を表します。
+description: エフェクトの基本クラスの動作を表します。
 type: docs
-weight: 120
+weight: 140
 url: /ja/aspose.slides.animation/behavior/
 ---
 ## Behavior クラス
 
-エフェクトの基底クラスの動作を表します。
+エフェクトの基本クラスの動作を表します。
 
 ```csharp
 public abstract class Behavior : IBehavior
@@ -18,12 +18,12 @@ public abstract class Behavior : IBehavior
 
 | 名前 | 説明 |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | アニメーション動作が累積されるかどうかを表します。読み取り/書き込み [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | 現在のアニメーション動作が他の実行中のアニメーションと結合されるかどうかを表します。読み取り/書き込み [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | 動作のプロパティを表します。読み取り専用 [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | エフェクト動作のタイミングプロパティを表します。読み取り/書き込み [`ITiming`](../itiming). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | アニメーション 動作が蓄積されるかどうかを表します。読み書き [`NullableBool`](../../aspose.slides/nullablebool)。 |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | 現在のアニメーション 動作が他の実行中のアニメーションと結合されるかどうかを表します。読み書き [`BehaviorAdditiveType`](../behavioradditivetype)。 |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | 動作のプロパティを表します。読み取り専用 [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection)。 |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | エフェクト 動作のタイミング プロパティを表します。読み書き [`ITiming`](../itiming)。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IBehavior](../ibehavior)
 * 名前空間 [Aspose.Slides.Animation](../../aspose.slides.animation)

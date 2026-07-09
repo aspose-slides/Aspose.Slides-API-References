@@ -3,7 +3,7 @@ title: IPlaceholder
 second_title: Aspose.Sildes for .NET API リファレンス
 description: スライド上のプレースホルダーを表します。
 type: docs
-weight: 6670
+weight: 6690
 url: /ja/aspose.slides/iplaceholder/
 ---
 ## IPlaceholder インターフェイス
@@ -18,10 +18,10 @@ public interface IPlaceholder
 
 | 名前 | 説明 |
 | --- | --- |
-| [Index](../../aspose.slides/iplaceholder/index) { get; } | プレースホルダーのインデックスを取得します。読み取り専用 UInt32。 |
-| [Orientation](../../aspose.slides/iplaceholder/orientation) { get; } | プレースホルダーの向きを取得します。読み取り専用 [`Orientation`](../orientation)。 |
-| [Size](../../aspose.slides/iplaceholder/size) { get; } | プレースホルダーのサイズを取得します。読み取り専用 [`PlaceholderSize`](../placeholdersize)。 |
-| [Type](../../aspose.slides/iplaceholder/type) { get; } | プレースホルダーのタイプを取得します。読み取り専用 [`PlaceholderType`](../placeholdertype)。 |
+| [Index](../../aspose.slides/iplaceholder/index) { get; } | プレースホルダーのインデックスを取得します。 読み取り専用 UInt32。 |
+| [Orientation](../../aspose.slides/iplaceholder/orientation) { get; } | プレースホルダーの向きを取得します。 読み取り専用 [`Orientation`](../orientation)。 |
+| [Size](../../aspose.slides/iplaceholder/size) { get; } | プレースホルダーのサイズを取得します。 読み取り専用 [`PlaceholderSize`](../placeholdersize)。 |
+| [Type](../../aspose.slides/iplaceholder/type) { get; } | プレースホルダーの種類を取得します。 読み取り専用 [`PlaceholderType`](../placeholdertype)。 |
 
 ### 関連項目
 

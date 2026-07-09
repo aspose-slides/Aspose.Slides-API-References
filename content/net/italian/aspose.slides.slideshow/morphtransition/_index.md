@@ -1,14 +1,14 @@
 ---
 title: MorphTransition
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Effetto di transizione a increspatura della diapositiva.
+description: Effetto di transizione a onda per le diapositive.
 type: docs
-weight: 10230
+weight: 10250
 url: /it/aspose.slides.slideshow/morphtransition/
 ---
 ## MorphTransition classe
 
-Ripple slide transition effect.
+Effetto di transizione a onda per le diapositive.
 
 ```csharp
 public class MorphTransition : TransitionValueBase, IMorphTransition
@@ -18,14 +18,14 @@ public class MorphTransition : TransitionValueBase, IMorphTransition
 
 | Nome | Descrizione |
 | --- | --- |
-| [MorphType](../../aspose.slides.slideshow/morphtransition/morphtype) { get; set; } | Tipo di morph transition. Lettura/scrittura [`TransitionMorphType`](../transitionmorphtype). |
+| [MorphType](../../aspose.slides.slideshow/morphtransition/morphtype) { get; set; } | Tipo di morph transition. Lettura/Scrittura [`TransitionMorphType`](../transitionmorphtype). |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina se le due istanze di TransitionValueBase sono uguali. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funge da funzione hash per un tipo specifico, idonea per l'uso in algoritmi di hashing e strutture dati come una tabella hash. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funge da funzione hash per un tipo specifico, adatta per l'uso in algoritmi di hash e strutture dati come una tabella hash. |
 
 ### Vedi anche
 

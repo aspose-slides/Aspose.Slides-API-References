@@ -1,14 +1,14 @@
 ---
 title: BaseOverrideThemeManager
-second_title: Aspose.Sildes for .NET API Referansı
-description: Farklı tipte geçersiz kılınmış temalara erişim sağlayan sınıflar için temel sınıf.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Farklı türde geçersiz kılınmış temalara erişim sağlayan sınıflar için temel sınıf.
 type: docs
-weight: 11020
+weight: 11040
 url: /tr/aspose.slides.theme/baseoverridethememanager/
 ---
-## BaseOverrideThemeManager sınıfı
+## BaseOverrideThemeManager sınıf
 
-Temel sınıf, farklı türde geçersiz kılınmış temalara erişim sağlayan sınıflar için temel oluşturur.
+Farklı türde geçersiz kılınmış temalara erişim sağlayan sınıflar için temel sınıf.
 
 ```csharp
 public abstract class BaseOverrideThemeManager : BaseThemeManager, IOverrideThemeManager
@@ -18,8 +18,8 @@ public abstract class BaseOverrideThemeManager : BaseThemeManager, IOverrideThem
 
 | Ad | Açıklama |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | OverrideTheme'in kalıtılmış geçerli temayı geçersiz kılıp kılmadığını belirler. OverrideTheme'i geçersiz kılma için OverrideTheme.Init*() yöntemlerini kullanın. OverrideTheme'in geçersiz kılmasını devre dışı bırakmak için OverrideTheme.Clear() yöntemini kullanın. Salt-okunur Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Geçersiz kılma tema nesnesini döndürür. Okunur/yazılabilir [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | OverrideTheme'in kalıtılan etkili temayı geçersiz kılıp kılmadığını belirler. OverrideTheme'i geçersiz kılmak için OverrideTheme.Init*() metodlarını kullanın. OverrideTheme'in geçersiz kılmasını devre dışı bırakmak için OverrideTheme.Clear() metodunu kullanın. Yalnızca okunur Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Geçersiz kılınan tema nesnesini döndürür. Okunabilir/Yazılabilir [`IOverrideTheme`](../ioverridetheme). |
 
 ## Yöntemler
 

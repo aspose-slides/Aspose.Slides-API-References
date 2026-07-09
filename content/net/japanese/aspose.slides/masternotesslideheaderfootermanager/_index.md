@@ -1,14 +1,14 @@
 ---
 title: MasterNotesSlideHeaderFooterManager
 second_title: Aspose.Sildes for .NET API リファレンス
-description: マスターノートスライドのフッター、日付時刻、ページ番号プレースホルダーおよびすべての子プレースホルダーの動作を保持するマネージャーを表します。子プレースホルダーは、依存ノートスライドに含まれるプレースホルダーを意味します。依存ノートスライドはマスターノートスライドを使用し、依存します。
+description: マスター ノート スライドのフッター、日付時刻、ページ番号プレースホルダーとすべての子プレースホルダーの動作を保持するマネージャーを表します。子プレースホルダーとは、依存するノート スライドに含まれるプレースホルダーを指します。依存するノート スライドはマスター ノート スライドを使用し、依存しています。
 type: docs
-weight: 8000
+weight: 8020
 url: /ja/aspose.slides/masternotesslideheaderfootermanager/
 ---
 ## MasterNotesSlideHeaderFooterManager クラス
 
-マスターノートスライドのフッター、日付時刻、ページ番号プレースホルダーとすべての子プレースホルダーの動作を保持するマネージャーを表します。子プレースホルダーは、依存ノートスライドに含まれるプレースホルダーを意味します。依存ノートスライドはマスターノートスライドを使用し、依存します。
+マスター ノート スライドのフッター、日付時刻、ページ番号プレースホルダーとすべての子プレースホルダーの動作を保持するマネージャーを表します。子プレースホルダーとは、依存するノート スライドに含まれるプレースホルダーを指します。依存するノート スライドはマスター ノート スライドを使用し、依存しています。
 
 ```csharp
 public sealed class MasterNotesSlideHeaderFooterManager : BaseHandoutNotesSlideHeaderFooterManager, 
@@ -17,30 +17,30 @@ public sealed class MasterNotesSlideHeaderFooterManager : BaseHandoutNotesSlideH
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | 日付時刻プレースホルダーが存在することを示す値を取得します。ReadBoolean。 |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | フッタープレースホルダーが存在することを示す値を取得します。Read Boolean。 |
-| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | ヘッダープレースホルダーが存在することを示す値を取得します。Read Boolean。 |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | ページ番号プレースホルダーが存在することを示す値を取得します。ReadBoolean。 |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | 日付時刻プレースホルダーが存在するかどうかを示す値を取得します。ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | フッタープレースホルダーが存在するかどうかを示す値を取得します。Read Boolean. |
+| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | ヘッダープレースホルダーが存在するかどうかを示す値を取得します。Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | ページ番号プレースホルダーが存在するかどうかを示す値を取得します。ReadBoolean. |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | マスタースライドの日時プレースホルダーとすべての子日時プレースホルダーにテキストを設定します。子プレースホルダーは、依存ノートスライドに含まれるプレースホルダーを意味します。依存ノートスライドはマスターノートスライドを使用し、依存します。 |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | マスタースライドの日時プレースホルダーとすべての子日時プレースホルダーの表示状態を変更します。子プレースホルダーは、依存ノートスライドに含まれるプレースホルダーを意味します。依存ノートスライドはマスターノートスライドを使用し、依存します。 |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | スライドの日時プレースホルダーにテキストを設定します。 |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | スライドの日時プレースホルダーの表示状態を変更します。 |
-| [SetFooterAndChildFootersText](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | マスタースライドのフッタープレースホルダーとすべての子フッタープレースホルダーにテキストを設定します。子プレースホルダーは、依存ノートスライドに含まれるプレースホルダーを意味します。依存ノートスライドはマスターノートスライドを使用し、依存します。 |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | マスタースライドのフッタープレースホルダーとすべての子フッタープレースホルダーの表示状態を変更します。子プレースホルダーは、依存ノートスライドに含まれるプレースホルダーを意味します。依存ノートスライドはマスターノートスライドを使用し、依存します。 |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | マスタースライドの日付時刻プレースホルダーとすべての子の日付時刻プレースホルダーにテキストを設定します。子プレースホルダーとは、依存するノート スライドに含まれるプレースホルダーを指します。依存するノート スライドはマスター ノート スライドを使用し、依存しています。 |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | マスタースライドの日付時刻プレースホルダーとすべての子の日付時刻プレースホルダーの表示状態を変更します。子プレースホルダーとは、依存するノート スライドに含まれるプレースホルダーを指します。依存するノート スライドはマスター ノート スライドを使用し、依存しています。 |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | スライドの日付時刻プレースホルダーにテキストを設定します。 |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | スライドの日付時刻プレースホルダーの表示状態を変更します。 |
+| [SetFooterAndChildFootersText](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | マスタースライドのフッタープレースホルダーとすべての子フッタープレースホルダーにテキストを設定します。子プレースホルダーとは、依存するノート スライドに含まれるプレースホルダーを指します。依存するノート スライドはマスター ノート スライドを使用し、依存しています。 |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | マスタースライドのフッタープレースホルダーとすべての子フッタープレースホルダーの表示状態を変更します。子プレースホルダーとは、依存するノート スライドに含まれるプレースホルダーを指します。依存するノート スライドはマスター ノート スライドを使用し、依存しています。 |
 | [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | スライドのフッタープレースホルダーにテキストを設定します。 |
 | [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | スライドのフッタープレースホルダーの表示状態を変更します。 |
-| [SetHeaderAndChildHeadersText](../../aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | マスターノートスライドのヘッダープレースホルダーとすべての子ヘッダープレースホルダーにテキストを設定します。子プレースホルダーは、依存ノートスライドに含まれるプレースホルダーを意味します。依存ノートスライドはマスターノートスライドを使用し、依存します。 |
-| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | マスターノートスライドのヘッダープレースホルダーとすべての子ヘッダープレースホルダーの表示状態を変更します。子プレースホルダーは、依存ノートスライドに含まれるプレースホルダーを意味します。依存ノートスライドはマスターノートスライドを使用し、依存します。 |
+| [SetHeaderAndChildHeadersText](../../aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | マスターノート スライドのヘッダープレースホルダーとすべての子ヘッダープレースホルダーにテキストを設定します。子プレースホルダーとは、依存するノート スライドに含まれるプレースホルダーを指します。依存するノート スライドはマスター ノート スライドを使用し、依存しています。 |
+| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | マスターノート スライドのヘッダープレースホルダーとすべての子ヘッダープレースホルダーの表示状態を変更します。子プレースホルダーとは、依存するノート スライドに含まれるプレースホルダーを指します。依存するノート スライドはマスター ノート スライドを使用し、依存しています。 |
 | [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | スライドのヘッダープレースホルダーにテキストを設定します。 |
 | [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | スライドのヘッダープレースホルダーの表示状態を変更します。 |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | マスタースライドのページ番号プレースホルダーとすべての子ページ番号プレースホルダーの表示状態を変更します。子プレースホルダーは、依存ノートスライドに含まれるプレースホルダーを意味します。依存ノートスライドはマスターノートスライドを使用し、依存します。 |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | マスタースライドのページ番号プレースホルダーとすべての子ページ番号プレースホルダーの表示状態を変更します。子プレースホルダーとは、依存するノート スライドに含まれるプレースホルダーを指します。依存するノート スライドはマスター ノート スライドを使用し、依存しています。 |
 | [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | スライドのページ番号プレースホルダーの表示状態を変更します。 |
 
 ### 参照

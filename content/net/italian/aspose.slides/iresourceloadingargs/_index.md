@@ -3,7 +3,7 @@ title: IResourceLoadingArgs
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Interfaccia per gli argomenti di caricamento delle risorse esterne.
 type: docs
-weight: 6810
+weight: 6830
 url: /it/aspose.slides/iresourceloadingargs/
 ---
 ## IResourceLoadingArgs interfaccia
@@ -25,7 +25,7 @@ public interface IResourceLoadingArgs
 
 | Nome | Descrizione |
 | --- | --- |
-| [SetData](../../aspose.slides/iresourceloadingargs/setdata)(byte[]) | Imposta i dati forniti dall'utente della risorsa che vengono utilizzati se [`ResourceLoading`](../iresourceloadingcallback/resourceloading) restituisce UserProvided. |
+| [SetData](../../aspose.slides/iresourceloadingargs/setdata)(byte[]) | Imposta i dati forniti dall'utente della risorsa che vengono usati se [`ResourceLoading`](../iresourceloadingcallback/resourceloading) restituisce UserProvided. |
 
 ### Vedi anche
 

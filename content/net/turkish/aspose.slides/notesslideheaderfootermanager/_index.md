@@ -1,14 +1,14 @@
 ---
 title: NotesSlideHeaderFooterManager
-second_title: Aspose.Sildes için .NET API Referansı
-description: Not slayt yer tutucularının davranışını, başlık yer tutucusu dahil, tutan yöneticiyi temsil eder.
+second_title: Aspose.Sildes .NET için API Referansı
+description: Başlık yer tutucusunu da içeren not slayt yer tutucularının davranışını tutan yöneticiyi temsil eder.
 type: docs
-weight: 9130
+weight: 9150
 url: /tr/aspose.slides/notesslideheaderfootermanager/
 ---
-## NotesSlideHeaderFooterManager sınıf
+## NotesSlideHeaderFooterManager sınıfı
 
-Not slaytı yer tutucularının davranışını tutan yöneticiyi temsil eder, başlık yer tutucusu dahil.
+Represents manager which holds behavior of the notes slide placeholders, including header placeholder.
 
 ```csharp
 public sealed class NotesSlideHeaderFooterManager : BaseHandoutNotesSlideHeaderFooterManager, 

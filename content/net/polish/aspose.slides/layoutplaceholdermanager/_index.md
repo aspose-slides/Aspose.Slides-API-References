@@ -1,14 +1,14 @@
 ---
 title: LayoutPlaceholderManager
-second_title: Aspose.Sildes dla .NET API Reference
-description: Reprezentuje menedżera, który umożliwia dodawanie placeholderów do slajdu układu.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Reprezentuje menedżera, który umożliwia dodawanie symboli zastępczych do slajdu układu.
 type: docs
-weight: 7610
+weight: 7630
 url: /pl/aspose.slides/layoutplaceholdermanager/
 ---
 ## LayoutPlaceholderManager klasa
 
-Reprezentuje menedżera, który umożliwia dodawanie placeholderów do slajdu układu.
+Reprezentuje menedżera, który pozwala dodawać symbole zastępcze do slajdu układu.
 
 ```csharp
 public class LayoutPlaceholderManager : ILayoutPlaceholderManager
@@ -18,21 +18,21 @@ public class LayoutPlaceholderManager : ILayoutPlaceholderManager
 
 | Nazwa | Opis |
 | --- | --- |
-| [AddChartPlaceholder](../../aspose.slides/layoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | Dodaje nowy kształt placeholder do slajdu układu, aby pomieścić wykres. |
-| [AddContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | Dodaje nowy kształt placeholder do slajdu układu, aby pomieścić zawartość, taką jak obraz, tabela, multimedia lub tekst. |
-| [AddMediaPlaceholder](../../aspose.slides/layoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | Dodaje nowy kształt placeholder do slajdu układu, aby pomieścić obiekt multimedialny. |
-| [AddOnlineImagePlaceholder](../../aspose.slides/layoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | Dodaje nowy kształt placeholder do slajdu układu, aby pomieścić obraz online. |
-| [AddPicturePlaceholder](../../aspose.slides/layoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | Dodaje nowy kształt placeholder do slajdu układu, aby pomieścić obraz. |
-| [AddSmartArtPlaceholder](../../aspose.slides/layoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | Dodaje nowy kształt placeholder do slajdu układu, aby pomieścić diagram SmartArt. |
-| [AddTablePlaceholder](../../aspose.slides/layoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | Dodaje nowy kształt placeholder do slajdu układu, aby pomieścić tabelę. |
-| [AddTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | Dodaje nowy kształt placeholder do slajdu układu, aby pomieścić treść tekstową. |
-| [AddVerticalContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Dodaje nowy kształt placeholder do slajdu układu, aby pomieścić zawartość, taką jak obraz, tabela, multimedia lub tekst, w pionowym kierunku. |
-| [AddVerticalTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Dodaje nowy kształt placeholder do slajdu układu, aby pomieścić treść tekstową w pionowym kierunku. |
+| [AddChartPlaceholder](../../aspose.slides/layoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | Dodaje nowy kształt symbolu zastępczego do slajdu układu, aby pomieścić wykres. |
+| [AddContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | Dodaje nowy kształt symbolu zastępczego do slajdu układu, aby pomieścić zawartość, taką jak obraz, tabela, multimedia lub tekst. |
+| [AddMediaPlaceholder](../../aspose.slides/layoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | Dodaje nowy kształt symbolu zastępczego do slajdu układu, aby pomieścić obiekt multimedialny. |
+| [AddOnlineImagePlaceholder](../../aspose.slides/layoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | Dodaje nowy kształt symbolu zastępczego do slajdu układu, aby pomieścić obraz online. |
+| [AddPicturePlaceholder](../../aspose.slides/layoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | Dodaje nowy kształt symbolu zastępczego do slajdu układu, aby pomieścić obraz. |
+| [AddSmartArtPlaceholder](../../aspose.slides/layoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | Dodaje nowy kształt symbolu zastępczego do slajdu układu, aby pomieścić diagram SmartArt. |
+| [AddTablePlaceholder](../../aspose.slides/layoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | Dodaje nowy kształt symbolu zastępczego do slajdu układu, aby pomieścić tabelę. |
+| [AddTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | Dodaje nowy kształt symbolu zastępczego do slajdu układu, aby pomieścić zawartość tekstową. |
+| [AddVerticalContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Dodaje nowy kształt symbolu zastępczego do slajdu układu, aby pomieścić zawartość, taką jak obraz, tabela, multimedia lub tekst, w pionowym kierunku. |
+| [AddVerticalTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Dodaje nowy kształt symbolu zastępczego do slajdu układu, aby pomieścić zawartość tekstową w pionowym kierunku. |
 
 ### Zobacz także
 
 * interfejs [ILayoutPlaceholderManager](../ilayoutplaceholdermanager)
 * przestrzeń nazw [Aspose.Slides](../../aspose.slides)
-* zestaw [Aspose.Slides](../../)
+* zbiór [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

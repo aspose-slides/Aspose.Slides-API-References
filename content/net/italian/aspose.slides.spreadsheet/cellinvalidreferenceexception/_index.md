@@ -1,14 +1,14 @@
 ---
 title: CellInvalidReferenceException
 second_title: Riferimento API Aspose.Sildes per .NET
-description: L'eccezione che viene generata quando viene rilevato un riferimento di cella non valido.
+description: L'eccezione generata quando viene incontrato un riferimento di cella non valido.
 type: docs
-weight: 10700
+weight: 10720
 url: /it/aspose.slides.spreadsheet/cellinvalidreferenceexception/
 ---
-## CellInvalidReferenceException classe
+## CellInvalidReferenceException class
 
-L'eccezione che viene generata quando viene rilevata un riferimento di cella non valido.
+L'eccezione che viene generata quando viene incontrato un riferimento di cella non valido.
 
 ```csharp
 public class CellInvalidReferenceException : PptxEditException

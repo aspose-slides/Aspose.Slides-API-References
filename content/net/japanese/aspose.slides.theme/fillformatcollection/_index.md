@@ -3,7 +3,7 @@ title: FillFormatCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 塗りつぶしスタイルのコレクションを表します。
 type: docs
-weight: 11100
+weight: 11120
 url: /ja/aspose.slides.theme/fillformatcollection/
 ---
 ## FillFormatCollection クラス
@@ -18,10 +18,10 @@ public sealed class FillFormatCollection : DomObject<FormatScheme>, IFillFormatC
 
 | 名前 | 説明 |
 | --- | --- |
-| [Count](../../aspose.slides.theme/fillformatcollection/count) { get; } | コレクションに実際に含まれる要素数を取得します。読み取り専用 Int32。 |
-| [IsSynchronized](../../aspose.slides.theme/fillformatcollection/issynchronized) { get; } | コレクションへのアクセスが同期 (スレッドセーフ) されているかどうかを示す値を返します。読み取り専用 Boolean。 |
+| [Count](../../aspose.slides.theme/fillformatcollection/count) { get; } | コレクションに実際に含まれる要素の数を取得します。読み取り専用 Int32。 |
+| [IsSynchronized](../../aspose.slides.theme/fillformatcollection/issynchronized) { get; } | コレクションへのアクセスが同期化されているか（スレッド セーフ）を示す値を返します。読み取り専用 Boolean。 |
 | [Item](../../aspose.slides.theme/fillformatcollection/item) { get; } | 指定されたインデックスの要素を取得します。読み取り専用 [`IFillFormat`](../../aspose.slides/ifillformat)。 |
-| [SyncRoot](../../aspose.slides.theme/fillformatcollection/syncroot) { get; } | 同期ルートを返します。読み取り専用 Object。 |
+| [SyncRoot](../../aspose.slides.theme/fillformatcollection/syncroot) { get; } | 同期化ルートを返します。読み取り専用 Object。 |
 
 ## メソッド
 
@@ -30,7 +30,7 @@ public sealed class FillFormatCollection : DomObject<FormatScheme>, IFillFormatC
 | [CopyTo](../../aspose.slides.theme/fillformatcollection/copyto)(Array, int) | コレクション内のすべての要素を指定された配列にコピーします。 |
 | [GetEnumerator](../../aspose.slides.theme/fillformatcollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
 
-### 参照
+### 関連項目
 
 * クラス [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * クラス [FormatScheme](../formatscheme)

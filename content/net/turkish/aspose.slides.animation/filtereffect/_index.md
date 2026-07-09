@@ -1,12 +1,12 @@
 ---
 title: FilterEffect
-second_title: Aspose.Sildes .NET için API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Davranışın filtre etkisini temsil eder.
 type: docs
-weight: 350
+weight: 370
 url: /tr/aspose.slides.animation/filtereffect/
 ---
-## FilterEffect sınıf
+## FilterEffect sınıfı
 
 Davranışın filtre etkisini temsil eder.
 
@@ -24,13 +24,13 @@ public class FilterEffect : Behavior, IFilterEffect
 
 | Ad | Açıklama |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Animasyon davranışlarının birikip birikmediğini temsil eder. Okunur/yazılır [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Geçerli animasyon davranışının diğer çalışan animasyonlarla birleştirildiğini temsil eder. Okunur/yazılır [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Davranışın özelliklerini temsil eder. Yalnızca okunur [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Reveal](../../aspose.slides.animation/filtereffect/reveal) { get; set; } | Davranışla birlikte etkinin ortaya çıkması gerektiğini (in/out) temsil eder. Okunur/yazılır [`FilterEffectRevealType`](../filtereffectrevealtype). |
-| [Subtype](../../aspose.slides.animation/filtereffect/subtype) { get; set; } | Filtre etkisinin alt tipini temsil eder. Okunur/yazılır [`FilterEffectSubtype`](../filtereffectsubtype). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Etki davranışı için zamanlama özelliklerini temsil eder. Okunur/yazılır [`ITiming`](../itiming). |
-| [Type](../../aspose.slides.animation/filtereffect/type) { get; set; } | Filtre etkisinin tipini temsil eder. Okunur/yazılır [`FilterEffectType`](../filtereffecttype). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Animasyon davranışlarının birikip birikmediğini temsil eder. Okuma/yazma [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Geçerli animasyon davranışının diğer çalışan animasyonlarla birleştirildiğini temsil eder. Okuma/yazma [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Davranışın özelliklerini temsil eder. Salt okunur [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Reveal](../../aspose.slides.animation/filtereffect/reveal) { get; set; } | Davranışla birlikte etkinin ortaya çıkması gerektiğini (giriş/çıkış) temsil eder. Okuma/yazma [`FilterEffectRevealType`](../filtereffectrevealtype). |
+| [Subtype](../../aspose.slides.animation/filtereffect/subtype) { get; set; } | Filtre etkisinin alt türünü temsil eder. Okuma/yazma [`FilterEffectSubtype`](../filtereffectsubtype). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Etki davranışı için zamanlama özelliklerini temsil eder. Okuma/yazma [`ITiming`](../itiming). |
+| [Type](../../aspose.slides.animation/filtereffect/type) { get; set; } | Filtre etkisinin türünü temsil eder. Okuma/yazma [`FilterEffectType`](../filtereffecttype). |
 
 ### Diğer Bağlantılar
 

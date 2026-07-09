@@ -1,9 +1,9 @@
 ---
 title: LineArrowheadLength
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta la lunghezza di una punta di freccia.
 type: docs
-weight: 7710
+weight: 7730
 url: /it/aspose.slides/linearrowheadlength/
 ---
 ## Enumerazione LineArrowheadLength

@@ -1,12 +1,12 @@
 ---
 title: FilterEffect
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET API reference
 description: Reprezentuje efekt filtru chování.
 type: docs
-weight: 350
+weight: 370
 url: /cs/aspose.slides.animation/filtereffect/
 ---
-## FilterEffect třída
+## Třída FilterEffect
 
 Reprezentuje efekt filtru chování.
 
@@ -16,21 +16,21 @@ public class FilterEffect : Behavior, IFilterEffect
 
 ## Konstruktory
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
 | [FilterEffect](filtereffect)() | Výchozí konstruktor. |
 
 ## Vlastnosti
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Určuje, zda jsou animace hromaděny. Čtení/zápis [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Určuje, zda je aktuální animace kombinována s ostatními běžícími animacemi. Čtení/zápis [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Zastupuje vlastnosti animace. Pouze pro čtení [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Reveal](../../aspose.slides.animation/filtereffect/reveal) { get; set; } | Určuje, že efekt s animací musí být odhalen (in/out). Čtení/zápis [`FilterEffectRevealType`](../filtereffectrevealtype). |
-| [Subtype](../../aspose.slides.animation/filtereffect/subtype) { get; set; } | Určuje podtyp filtrického efektu. Čtení/zápis [`FilterEffectSubtype`](../filtereffectsubtype). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Určuje časové vlastnosti efektu. Čtení/zápis [`ITiming`](../itiming). |
-| [Type](../../aspose.slides.animation/filtereffect/type) { get; set; } | Určuje typ filtrického efektu. Čtení/zápis [`FilterEffectType`](../filtereffecttype). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Udává, zda jsou animační chování kumulována. Čtení/Zápis [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Udává, zda je aktuální animační chování kombinováno s ostatními běžícími animacemi. Čtení/Zápis [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Představuje vlastnosti chování. Pouze ke čtení [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Reveal](../../aspose.slides.animation/filtereffect/reveal) { get; set; } | Udává, že efekt s chováním musí být odhalen (in/out). Čtení/Zápis [`FilterEffectRevealType`](../filtereffectrevealtype). |
+| [Subtype](../../aspose.slides.animation/filtereffect/subtype) { get; set; } | Udává podtyp efektu filtru. Čtení/Zápis [`FilterEffectSubtype`](../filtereffectsubtype). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Udává časové vlastnosti pro chování efektu. Čtení/Zápis [`ITiming`](../itiming). |
+| [Type](../../aspose.slides.animation/filtereffect/type) { get; set; } | Udává typ efektu filtru. Čtení/Zápis [`FilterEffectType`](../filtereffecttype). |
 
 ### Viz také
 

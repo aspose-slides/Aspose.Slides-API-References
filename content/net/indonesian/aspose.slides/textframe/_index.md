@@ -3,12 +3,12 @@ title: TextFrame
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili sebuah TextFrame.
 type: docs
-weight: 10930
+weight: 10950
 url: /id/aspose.slides/textframe/
 ---
 ## TextFrame kelas
 
-Mewakili sebuah TextFrame.
+Represents a TextFrame.
 
 ```csharp
 public sealed class TextFrame : ITextFrame
@@ -19,12 +19,12 @@ public sealed class TextFrame : ITextFrame
 | Nama | Deskripsi |
 | --- | --- |
 | [HyperlinkQueries](../../aspose.slides/textframe/hyperlinkqueries) { get; } | Menyediakan akses mudah ke hyperlink yang terkandung. Hanya-baca [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| [Paragraphs](../../aspose.slides/textframe/paragraphs) { get; } | Mengembalikan daftar semua paragraf dalam sebuah frame. Hanya-baca [`IParagraphCollection`](../iparagraphcollection). |
+| [Paragraphs](../../aspose.slides/textframe/paragraphs) { get; } | Mengembalikan daftar semua paragraf dalam sebuah bingkai. Hanya-baca [`IParagraphCollection`](../iparagraphcollection). |
 | [ParentCell](../../aspose.slides/textframe/parentcell) { get; } | Mengembalikan sel induk atau null jika objek induk tidak mengimplementasikan antarmuka ICell. Hanya-baca [`ICell`](../icell). |
 | [ParentShape](../../aspose.slides/textframe/parentshape) { get; } | Mengembalikan bentuk induk atau null jika objek induk tidak mengimplementasikan antarmuka IShape. Hanya-baca [`IShape`](../ishape). |
-| [Presentation](../../aspose.slides/textframe/presentation) { get; } | Mengembalikan presentasi induk dari sebuah TextFrame. Hanya-baca [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/textframe/slide) { get; } | Mengembalikan slide induk dari sebuah TextFrame. Hanya-baca [`IBaseSlide`](../ibaseslide). |
-| [Text](../../aspose.slides/textframe/text) { get; set; } | Mendapatkan atau mengatur teks biasa untuk sebuah TextFrame. Baca/tulis String. |
+| [Presentation](../../aspose.slides/textframe/presentation) { get; } | Mengembalikan presentasi induk dari TextFrame. Hanya-baca [`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/textframe/slide) { get; } | Mengembalikan slide induk dari TextFrame. Hanya-baca [`IBaseSlide`](../ibaseslide). |
+| [Text](../../aspose.slides/textframe/text) { get; set; } | Mendapatkan atau mengatur teks biasa untuk TextFrame. Baca/tulis String. |
 | [TextFrameFormat](../../aspose.slides/textframe/textframeformat) { get; } | Mengembalikan objek pemformatan untuk objek TextFrame ini. Hanya-baca [`ITextFrameFormat`](../itextframeformat). |
 
 ## Metode
@@ -37,7 +37,7 @@ public sealed class TextFrame : ITextFrame
 | [JoinPortionsWithSameFormatting](../../aspose.slides/textframe/joinportionswithsameformatting)() | Menggabungkan run dengan pemformatan yang sama di semua paragraf. |
 | [ReplaceRegex](../../aspose.slides/textframe/replaceregex)(Regex, string, IFindResultCallback) | Mengganti semua kecocokan ekspresi reguler dengan string yang ditentukan. |
 | [ReplaceText](../../aspose.slides/textframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | Mengganti semua kemunculan teks yang ditentukan dengan teks lain yang ditentukan. |
-| [SplitTextByColumns](../../aspose.slides/textframe/splittextbycolumns)() | Membagi konten teks [`ITextFrame`](../itextframe) menjadi sebuah array string, di mana setiap elemen sesuai dengan kolom teks terpisah dalam frame. |
+| [SplitTextByColumns](../../aspose.slides/textframe/splittextbycolumns)() | Membagi konten teks dari [`ITextFrame`](../itextframe) menjadi array string, di mana setiap elemen sesuai dengan kolom teks terpisah di dalam bingkai. |
 
 ### Lihat Juga
 

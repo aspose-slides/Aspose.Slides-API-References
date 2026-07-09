@@ -1,14 +1,14 @@
 ---
 title: TransitionCornerDirectionType
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta i tipi di transizione della direzione dell'angolo.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta i tipi di transizione della direzione degli angoli.
 type: docs
-weight: 10330
+weight: 10350
 url: /it/aspose.slides.slideshow/transitioncornerdirectiontype/
 ---
-## Enumerazione TransitionCornerDirectionType
+## TransitionCornerDirectionType enumerazione
 
-Rappresenta i tipi di transizione della direzione dell'angolo.
+Rappresenta i tipi di transizione della direzione degli angoli.
 
 ```csharp
 public enum TransitionCornerDirectionType

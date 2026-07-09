@@ -1,9 +1,9 @@
 ---
 title: ColorTransformOperation
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Meghatározza a színtranszformáció műveletét.
+second_title: Aspose.Sildes .NET API referencia
+description: Színtranszformációs műveletet definiál.
 type: docs
-weight: 2550
+weight: 2570
 url: /hu/aspose.slides/colortransformoperation/
 ---
 ## ColorTransformOperation enumeráció
@@ -18,30 +18,30 @@ public enum ColorTransformOperation
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Tint | `0` | A színt beárnyalja. A paraméter 0 (eredeti szín) és 1 (fehér) közötti tartományban van. |
-| Shade | `1` | A színt sötétíti. A paraméter 0 (eredeti szín) és 1 (fekete) közötti tartományban van. |
+| Tint | `0` | Árnyalatot ad a színnek. A paraméter 0 (eredeti szín) és 1 (fehér) közötti tartományban van. |
+| Shade | `1` | Sötétíti a színt. A paraméter 0 (eredeti szín) és 1 (fekete) közötti tartományban van. |
 | Complement | `2` | A színt RGB komplementer színre változtatja. m = Max(r, g, b); r = m - r; g = m - g; b = m - b; |
 | Inverse | `3` | A színt invertált színre változtatja. r = 1 - r; g = 1 - g; b = 1 - b; |
-| Grayscale | `4` | A színt ugyanazzal a fényességgel szürke színre változtatja. A paraméter figyelmen kívül van hagyva. |
-| SetAlpha | `5` | A szín alfa komponensét definiálja. A paraméter 0 (átlátszó) és 1 (átlátszatlan) közötti tartományban van. |
+| Grayscale | `4` | A színt egy szürke színre változtatja ugyanazzal a fényerővel. A paraméter figyelmen kívül van hagyva. |
+| SetAlpha | `5` | Meghatározza a szín alfa komponensét. A paraméter 0 (átlátszó) és 1 (átlátszatlan) közötti tartományban van. |
 | AddAlpha | `6` | A paraméter értékét hozzáadja a szín alfa komponenséhez. A paraméter -1 és 1 között van. |
 | MultiplyAlpha | `7` | Az alfa komponenst megszorozza a paraméter értékével. |
-| SetHue | `8` | A szín árnyalat (hue) komponensét a paraméter értékére változtatja. A paraméter 0 és 360 között van. |
+| SetHue | `8` | A szín árnyalat komponensét a paraméter értékére állítja. A paraméter 0 és 360 között van. |
 | AddHue | `9` | A paraméter értékét hozzáadja a szín árnyalat komponenséhez. A paraméter -360 és 360 között van. |
 | MultiplyHue | `10` | Az árnyalat komponenst megszorozza a paraméter értékével. |
-| SetSaturation | `11` | A szín telítettség komponensét a paraméter értékére változtatja. A paraméter 0 és 1 között van. |
-| AddSaturation | `12` | A paraméter értékét hozzáadja a szín telítettség komponenséhez. A paraméter -1 és 1 között van. |
-| MultiplySaturation | `13` | A telítettség komponenst megszorozza a paraméter értékével. |
-| SetLuminance | `14` | A szín világosság (luminance) komponensét a paraméter értékére változtatja. A paraméter 0 és 1 között van. |
-| AddLuminance | `15` | A paraméter értékét hozzáadja a szín világosság komponenséhez. A paraméter -1 és 1 között van. |
-| MultiplyLuminance | `16` | A világosság komponenst megszorozza a paraméter értékével. |
-| SetRed | `17` | A szín piros komponensét a paraméter értékére változtatja. A paraméter 0 és 1 között van. |
-| AddRed | `18` | A paraméter értékét hozzáadja a szín piros komponenséhez. A paraméter -1 és 1 között van. |
-| MultiplyRed | `19` | A piros komponenst megszorozza a paraméterrel. |
-| SetGreen | `20` | A szín zöld komponensét a paraméter értékére változtatja. A paraméter 0 és 1 között van. |
+| SetSaturation | `11` | A szín saturáció komponensét a paraméter értékére állítja. A paraméter 0 és 1 között van. |
+| AddSaturation | `12` | A paraméter értékét hozzáadja a szín saturáció komponenséhez. A paraméter -1 és 1 között van. |
+| MultiplySaturation | `13` | A saturáció komponenst megszorozza a paraméter értékével. |
+| SetLuminance | `14` | A szín luminancia komponensét a paraméter értékére állítja. A paraméter 0 és 1 között van. |
+| AddLuminance | `15` | A paraméter értékét hozzáadja a szín luminancia komponenséhez. A paraméter -1 és 1 között van. |
+| MultiplyLuminance | `16` | A luminancia komponenst megszorozza a paraméter értékével. |
+| SetRed | `17` | A szín vörös komponensét a paraméter értékére állítja. A paraméter 0 és 1 között van. |
+| AddRed | `18` | A paraméter értékét hozzáadja a szín vörös komponenséhez. A paraméter -1 és 1 között van. |
+| MultiplyRed | `19` | A vörös komponenst megszorozza a paraméterrel. |
+| SetGreen | `20` | A szín zöld komponensét a paraméter értékére állítja. A paraméter 0 és 1 között van. |
 | AddGreen | `21` | A paramétert hozzáadja a szín zöld komponenséhez. A paraméter -1 és 1 között van. |
 | MultiplyGreen | `22` | A zöld komponenst megszorozza a paraméter értékével. |
-| SetBlue | `23` | A szín kék komponensét a paraméter értékére változtatja. A paraméter 0 és 360 között van. |
+| SetBlue | `23` | A szín kék komponensét a paraméter értékére állítja. A paraméter 0 és 360 között van. |
 | AddBlue | `24` | A paraméter értékét hozzáadja a szín kék komponenséhez. A paraméter -1 és 1 között van. |
 | MultiplyBlue | `25` | A kék komponenst megszorozza a paraméter értékével. |
 | Gamma | `26` | Gamma korrekció. A paraméter figyelmen kívül van hagyva. |

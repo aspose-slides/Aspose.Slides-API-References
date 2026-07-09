@@ -1,12 +1,12 @@
 ---
 title: FormatScheme
-second_title: Aspose.Sildes pro .NET referenci API
+second_title: Aspose.Sildes pro .NET API Reference
 description: Ukládá formáty definované motivem pro tvary.
 type: docs
-weight: 11120
+weight: 11140
 url: /cs/aspose.slides.theme/formatscheme/
 ---
-## Třída FormatScheme
+## FormatScheme třída
 
 Ukládá formáty definované motivem pro tvary.
 

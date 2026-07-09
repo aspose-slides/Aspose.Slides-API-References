@@ -1,14 +1,14 @@
 ---
 title: TransitionInOutDirectionType
-second_title: Aspose.Sildes para .NET Referência da API
-description: Representa tipos de transição de direção de entrada ou saída.
+second_title: Aspose.Sildes para .NET Referência de API
+description: Representa os tipos de transição de direção de entrada ou saída.
 type: docs
-weight: 10350
+weight: 10370
 url: /pt/aspose.slides.slideshow/transitioninoutdirectiontype/
 ---
 ## TransitionInOutDirectionType enumeração
 
-Representa tipos de transição de direção de entrada ou saída.
+Representa os tipos de transição de direção de entrada ou saída.
 
 ```csharp
 public enum TransitionInOutDirectionType
@@ -21,7 +21,7 @@ public enum TransitionInOutDirectionType
 | In | `0` |  |
 | Out | `1` |  |
 
-### Ver também
+### Ver Também
 
 * espaço de nomes [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * assembly [Aspose.Slides](../../)

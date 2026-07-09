@@ -1,12 +1,12 @@
 ---
 title: ILuminance
-second_title: Riferimento API di Aspose.Sildes per .NET
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un effetto Luminance. La luminosità sposta linearmente tutti i colori verso il bianco o il nero. Il contrasto ridimensiona tutti i colori per avvicinarli o allontanarli tra loro.
 type: docs
-weight: 3420
+weight: 3440
 url: /it/aspose.slides.effects/iluminance/
 ---
-## Interfaccia ILuminance
+## ILuminance interfaccia
 
 Rappresenta un effetto Luminance. La luminosità sposta linearmente tutti i colori verso il bianco o il nero. Il contrasto ridimensiona tutti i colori per avvicinarli o allontanarli tra loro.
 
@@ -19,8 +19,8 @@ public interface ILuminance : IAccessiblePVIObject<ILuminanceEffectiveData>,
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iluminance/asiaccessiblepviobject) { get; } | Consente di ottenere l'interfaccia di base IAccessiblePVIObject. Solo lettura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iluminance/asiimagetransformoperation) { get; } | Consente di ottenere l'interfaccia di base IImageTransformOperation. Solo lettura [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iluminance/asiaccessiblepviobject) { get; } | Consente di ottenere l'interfaccia base IAccessiblePVIObject. Solo lettura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iluminance/asiimagetransformoperation) { get; } | Consente di ottenere l'interfaccia base IImageTransformOperation. Solo lettura [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Vedi anche
 

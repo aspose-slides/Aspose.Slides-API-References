@@ -1,12 +1,12 @@
 ---
 title: MathIntegralTypes
-second_title: Aspose.Sildes pro .NET referenční příručka API
+second_title: Aspose.Sildes pro .NET – reference API
 description: Matematické integrální typy
 type: docs
-weight: 8770
+weight: 8790
 url: /cs/aspose.slides.mathtext/mathintegraltypes/
 ---
-## MathIntegralTypes enumerace
+## Výčet MathIntegralTypes
 
 Matematické integrální typy
 
@@ -19,9 +19,9 @@ public enum MathIntegralTypes
 | Název | Hodnota | Popis |
 | --- | --- | --- |
 | Simple | `0` | Integrál: '∫' |
-| Double | `1` | Dvojitý integrál: '⨍' |
-| Triple | `2` | Trojitý integrál: '⨏' |
-| Contour | `3` | Konturový integrál: '∮' |
+| Double | `1` | Dvojitý integrál: '⨌' |
+| Triple | `2` | Trojitý integrál: '∭' |
+| Contour | `3` | Obvodový integrál: '∮' |
 | Surface | `4` | Plošný integrál: '∯' |
 | Volume | `5` | Objemový integrál: '∰' |
 

@@ -3,7 +3,7 @@ title: IEffectParamSource
 second_title: Referência da API Aspose.Sildes para .NET
 description: Interface auxiliar de parâmetros de efeito.
 type: docs
-weight: 5740
+weight: 5760
 url: /pt/aspose.slides/ieffectparamsource/
 ---
 ## IEffectParamSource interface
@@ -14,7 +14,7 @@ Interface auxiliar de parâmetros de efeito.
 public interface IEffectParamSource
 ```
 
-### Veja também
+### Veja Também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

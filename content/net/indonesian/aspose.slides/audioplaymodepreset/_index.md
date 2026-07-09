@@ -1,9 +1,9 @@
 ---
 title: AudioPlayModePreset
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API .NET untuk Aspose.Sildes
 description: Konstanta yang menentukan bagaimana suara diputar.
 type: docs
-weight: 860
+weight: 880
 url: /id/aspose.slides/audioplaymodepreset/
 ---
 ## AudioPlayModePreset enumerasi
@@ -19,10 +19,10 @@ public enum AudioPlayModePreset
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
 | Mixed | `-1` |  |
-| Auto | `0` | Putar secara otomatis. |
-| OnClick | `1` | Putar hanya ketika ikon diklik. |
-| AllSlides | `2` | Putar pada semua slide. Harap gunakan [`PlayAcrossSlides`](../iaudioframe/playacrossslides) properti sebagai gantinya. Elemen ini sudah kedaluwarsa sejak PowerPoint 2013. |
-| InClickSequence | `3` | Putar secara otomatis dengan satu klik. |
+| Auto | `0` | Memainkan secara otomatis. |
+| OnClick | `1` | Memainkan hanya ketika ikon diklik. |
+| AllSlides | `2` | Memainkan pada semua slide. Silakan gunakan [`PlayAcrossSlides`](../iaudioframe/playacrossslides) properti sebagai gantinya. Elemen ini sudah usang sejak PowerPoint 2013. |
+| InClickSequence | `3` | Memainkan secara otomatis dengan klik. |
 
 ### Lihat Juga
 

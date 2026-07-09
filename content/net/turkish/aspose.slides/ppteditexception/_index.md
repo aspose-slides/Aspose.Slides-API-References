@@ -1,14 +1,14 @@
 ---
 title: PptEditException
 second_title: Aspose.Sildes için .NET API Referansı
-description: Sunum düzenleme hatası tespit edildiğinde atılan bir istisna temsil eder.
+description: Düzenleme sunumu hatası tespit edildiğinde atılan bir istisnayı temsil eder.
 type: docs
-weight: 9490
+weight: 9510
 url: /tr/aspose.slides/ppteditexception/
 ---
-## PptEditException sınıf
+## PptEditException sınıfı
 
-Sunum düzenleme hatası tespit edildiğinde atılan bir istisna temsil eder.
+Düzenleme sunumu hatası tespit edildiğinde atılan bir istisnayı temsil eder.
 
 ```csharp
 public class PptEditException : PptException
@@ -19,8 +19,8 @@ public class PptEditException : PptException
 | Ad | Açıklama |
 | --- | --- |
 | [PptEditException](ppteditexception#constructor)() | Varsayılan yapıcı. |
-| [PptEditException](ppteditexception#constructor_1)(string) | Bu istisna için bir mesaj eklemeye izin veren yapıcı. |
-| [PptEditException](ppteditexception#constructor_2)(string, Exception) | Bir mesaj ve gömülü bir istisna içeren bir istisna için yapıcı. |
+| [PptEditException](ppteditexception#constructor_1)(string) | Bu istisnaya bir ileti eklenmesini sağlayan yapıcı. |
+| [PptEditException](ppteditexception#constructor_2)(string, Exception) | Bir ileti ve gömülü bir istisna içeren bir istisna için yapıcı. |
 
 ### Ayrıca Bakınız
 

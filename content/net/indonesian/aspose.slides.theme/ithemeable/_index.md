@@ -1,14 +1,14 @@
 ---
 title: IThemeable
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili objek yang dapat dipasangi tema dengan ITheme./itheme.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili objek yang dapat ditema dengan ITheme./itheme.
 type: docs
-weight: 11380
+weight: 11400
 url: /id/aspose.slides.theme/ithemeable/
 ---
-## antarmuka IThemeable
+## IThemeable antarmuka
 
-Mewakili objek yang dapat dipasangi tema dengan [`ITheme`](../itheme).
+Mewakili objek yang dapat ditema-kan dengan [`ITheme`](../itheme).
 
 ```csharp
 public interface IThemeable : ISlideComponent
@@ -18,13 +18,13 @@ public interface IThemeable : ISlideComponent
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides.theme/ithemeable/asislidecomponent) { get; } | Mengembalikan antarmuka ISlideComponent. Hanya-baca [`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [AsISlideComponent](../../aspose.slides.theme/ithemeable/asislidecomponent) { get; } | Mengembalikan antarmuka ISlideComponent. Hanya baca [`ISlideComponent`](../../aspose.slides/islidecomponent). |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
-| [CreateThemeEffective](../../aspose.slides.theme/ithemeable/createthemeeffective)() | Mengembalikan tema efektif untuk objek yang dapat dipasangi tema ini. |
+| [CreateThemeEffective](../../aspose.slides.theme/ithemeable/createthemeeffective)() | Mengembalikan tema yang efektif untuk objek yang dapat ditema ini. |
 
 ### Lihat Juga
 

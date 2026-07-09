@@ -1,14 +1,14 @@
 ---
 title: IErrorBarsFormat
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta le barre di errore delle serie del grafico. I valori personalizzati di ErrorBars si trovano in IChartDataPointCollection nella proprietà ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues.
+description: Rappresenta le barre di errore della serie di grafico. I valori personalizzati di ErrorBars sono nella IChartDataPointCollection nella proprietà ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues.
 type: docs
-weight: 2070
+weight: 2090
 url: /it/aspose.slides.charts/ierrorbarsformat/
 ---
-## IErrorBarsFormat interfaccia
+## Interfaccia IErrorBarsFormat
 
-Rappresenta le barre di errore delle serie del grafico. I valori personalizzati di ErrorBars sono in IChartDataPointCollection (nella proprietà [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues)).
+Rappresenta le barre di errore della serie di grafico. I valori personalizzati di ErrorBars sono in IChartDataPointCollection (nella proprietà [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues)).
 
 ```csharp
 public interface IErrorBarsFormat : IChartComponent
@@ -16,15 +16,15 @@ public interface IErrorBarsFormat : IChartComponent
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/ierrorbarsformat/asichartcomponent) { get; } | Restituisce l'interfaccia IChartComponent. Solo lettura [`IChartComponent`](../ichartcomponent). |
+| [AsIChartComponent](../../aspose.slides.charts/ierrorbarsformat/asichartcomponent) { get; } | Restituisce l'interfaccia IChartComponent. Sola lettura [`IChartComponent`](../ichartcomponent). |
 | [Format](../../aspose.slides.charts/ierrorbarsformat/format) { get; set; } | Rappresenta il formato delle barre di errore. Lettura/scrittura [`IFormat`](../iformat). |
-| [HasEndCap](../../aspose.slides.charts/ierrorbarsformat/hasendcap) { get; set; } | Specifica che un cappuccio finale non è disegnato sulle barre di errore. Lettura/scrittura Boolean. |
+| [HasEndCap](../../aspose.slides.charts/ierrorbarsformat/hasendcap) { get; set; } | Specifica che il cappuccio finale non viene disegnato sulle barre di errore. Lettura/scrittura Boolean. |
 | [IsVisible](../../aspose.slides.charts/ierrorbarsformat/isvisible) { get; set; } | Ottiene o imposta la visibilità delle barre di errore. Lettura/scrittura Boolean. |
-| [Type](../../aspose.slides.charts/ierrorbarsformat/type) { get; set; } | Ottiene o imposta il tipo di barre di errore. Lettura/scrittura [`ErrorBarType`](../errorbartype). |
-| [Value](../../aspose.slides.charts/ierrorbarsformat/value) { get; set; } | Ottiene o imposta il valore usato con i tipi di valore Fixed, Percentage e StandardDeviation per determinare la lunghezza delle barre di errore. Lettura/scrittura Single. |
-| [ValueType](../../aspose.slides.charts/ierrorbarsformat/valuetype) { get; set; } | Rappresenta i possibili metodi per determinare la lunghezza delle barre di errore. In caso di tipo di valore personalizzato per specificare il valore, usare la proprietà [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) del punto dati specifico nella raccolta DataPoints della serie. Lettura/scrittura [`ErrorBarValueType`](../errorbarvaluetype). |
+| [Type](../../aspose.slides.charts/ierrorbarsformat/type) { get; set; } | Ottiene o imposta il tipo delle barre di errore. Lettura/scrittura [`ErrorBarType`](../errorbartype). |
+| [Value](../../aspose.slides.charts/ierrorbarsformat/value) { get; set; } | Ottiene o imposta il valore utilizzato con i tipi di valore Fixed, Percentage e StandardDeviation per determinare la lunghezza delle barre di errore. Lettura/scrittura Single. |
+| [ValueType](../../aspose.slides.charts/ierrorbarsformat/valuetype) { get; set; } | Rappresenta i possibili modi per determinare la lunghezza delle barre di errore. In caso di tipo valore personalizzato, per specificare il valore usare la proprietà [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) del punto dati specifico nella collezione DataPoints della serie. Lettura/scrittura [`ErrorBarValueType`](../errorbarvaluetype). |
 
 ### Vedi anche
 

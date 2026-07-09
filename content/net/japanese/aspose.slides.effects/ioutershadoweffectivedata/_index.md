@@ -1,14 +1,14 @@
 ---
 title: IOuterShadowEffectiveData
-second_title: Aspose.Sildes for .NET API リファレンス
-description: 外側の影効果を表す不変オブジェクトです。
+second_title: Aspose.Sildes の .NET 用 API リファレンス
+description: 外部シャドウ効果を表すイミュータブルオブジェクトです。
 type: docs
-weight: 3450
+weight: 3470
 url: /ja/aspose.slides.effects/ioutershadoweffectivedata/
 ---
 ## IOuterShadowEffectiveData インターフェイス
 
-外側の影効果を表す不変オブジェクトです。
+Outer Shadow 効果を表すイミュータブルオブジェクトです。
 
 ```csharp
 public interface IOuterShadowEffectiveData : IEffectEffectiveData
@@ -22,15 +22,15 @@ public interface IOuterShadowEffectiveData : IEffectEffectiveData
 | [BlurRadius](../../aspose.slides.effects/ioutershadoweffectivedata/blurradius) { get; } | ぼかし半径。読み取り専用 Double。 |
 | [Direction](../../aspose.slides.effects/ioutershadoweffectivedata/direction) { get; } | 影の方向。読み取り専用 Single。 |
 | [Distance](../../aspose.slides.effects/ioutershadoweffectivedata/distance) { get; } | 影の距離。読み取り専用 Double。 |
-| [RectangleAlign](../../aspose.slides.effects/ioutershadoweffectivedata/rectanglealign) { get; } | 四角形の配置。読み取り専用 [`RectangleAlignment`](../../aspose.slides/rectanglealignment)。 |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape) { get; } | 形状が回転した場合に影も形状と一緒に回転するかどうかを指定します。読み取り専用 Boolean。 |
+| [RectangleAlign](../../aspose.slides.effects/ioutershadoweffectivedata/rectanglealign) { get; } | 矩形の配置。読み取り専用 [`RectangleAlignment`](../../aspose.slides/rectanglealignment)。 |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape) { get; } | 形状が回転した場合に影が形状とともに回転するかどうかを指定します。読み取り専用 Boolean。 |
 | [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | 水平スケーリング係数を指定します。負のスケーリングは反転を引き起こします。読み取り専用 Double。 |
 | [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | 垂直スケーリング係数を指定します。負のスケーリングは反転を引き起こします。読み取り専用 Double。 |
 | [ShadowColor](../../aspose.slides.effects/ioutershadoweffectivedata/shadowcolor) { get; } | 影の色。読み取り専用 Color。 |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal) { get; } | 水平せん断角度（度）を指定します。読み取り専用 Double。 |
-| [SkewVertical](../../aspose.slides.effects/ioutershadoweffectivedata/skewvertical) { get; } | 垂直せん断角度（度）を指定します。読み取り専用 Double。 |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal) { get; } | 水平せん断角度（度単位）を指定します。読み取り専用 Double。 |
+| [SkewVertical](../../aspose.slides.effects/ioutershadoweffectivedata/skewvertical) { get; } | 垂直せん断角度（度単位）を指定します。読み取り専用 Double。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [IEffectEffectiveData](../ieffecteffectivedata)
 * 名前空間 [Aspose.Slides.Effects](../../aspose.slides.effects)

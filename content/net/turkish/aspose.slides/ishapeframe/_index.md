@@ -3,10 +3,10 @@ title: IShapeFrame
 second_title: Aspose.Sildes için .NET API Referansı
 description: Şekil çerçevelerinin özelliklerini temsil eder.
 type: docs
-weight: 6980
+weight: 7000
 url: /tr/aspose.slides/ishapeframe/
 ---
-## IShapeFrame arayüz
+## IShapeFrame arabirimi
 
 Şekil çerçevesinin özelliklerini temsil eder.
 
@@ -24,14 +24,14 @@ public interface IShapeFrame : IGenericCloneable<IShapeFrame>
 | [FlipV](../../aspose.slides/ishapeframe/flipv) { get; } | Bir çerçevenin dikey olarak çevrilip çevrilmediğini belirler. Salt okunur [`NullableBool`](../nullablebool). |
 | [Height](../../aspose.slides/ishapeframe/height) { get; } | Bir çerçevenin yüksekliğini döndürür. Salt okunur Single. |
 | [Rectangle](../../aspose.slides/ishapeframe/rectangle) { get; } | Bir çerçevenin koordinatlarını döndürür. Salt okunur RectangleF. |
-| [Rotation](../../aspose.slides/ishapeframe/rotation) { get; } | Bir çerçevenin z ekseni etrafında döndürüldüğü derece sayısını döndürür. Pozitif bir değer saat yönünde dönüşü, negatif bir değer saat yönünün tersinde dönüşü gösterir. Salt okunur Single. |
+| [Rotation](../../aspose.slides/ishapeframe/rotation) { get; } | Bir çerçevenin z ekseni etrafında döndürüldüğü derece sayısını döndürür. Pozitif bir değer saat yönünde döndürülmeyi, negatif bir değer saat yönünün tersine döndürülmeyi gösterir. Salt okunur Single. |
 | [Width](../../aspose.slides/ishapeframe/width) { get; } | Bir çerçevenin genişliğini döndürür. Salt okunur Single. |
-| [X](../../aspose.slides/ishapeframe/x) { get; } | Bir çerçevenin sol üst köşesinin X koordinatını döndürür. Salt okunur Single. |
-| [Y](../../aspose.slides/ishapeframe/y) { get; } | Bir çerçevenin sol üst köşesinin Y koordinatını döndürür. Salt okunur Single. |
+| [X](../../aspose.slides/ishapeframe/x) { get; } | Bir çerçevenin sol-üst köşesinin X koordinatını döndürür. Salt okunur Single. |
+| [Y](../../aspose.slides/ishapeframe/y) { get; } | Bir çerçevenin sol-üst köşesinin Y koordinatını döndürür. Salt okunur Single. |
 
-### Bakınız
+### Ayrıca Bakınız
 
-* arayüz [IGenericCloneable&lt;T&gt;](../igenericcloneable-1)
+* arabirimi [IGenericCloneable&lt;T&gt;](../igenericcloneable-1)
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)
 

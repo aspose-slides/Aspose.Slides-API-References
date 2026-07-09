@@ -3,7 +3,7 @@ title: PathSegment
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje segment grafické cesty objektu GeometryShape
 type: docs
-weight: 9320
+weight: 9340
 url: /cs/aspose.slides/pathsegment/
 ---
 ## PathSegment třída

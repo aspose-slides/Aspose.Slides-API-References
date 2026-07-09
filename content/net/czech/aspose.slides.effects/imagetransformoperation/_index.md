@@ -1,14 +1,14 @@
 ---
 title: ImageTransformOperation
-second_title: Aspose.Sildes pro .NET API referenční příručka
-description: Representuje abstraktní efekt transformace obrázku.
+second_title: Aspose.Sildes pro .NET – referenční příručka API
+description: Reprezentuje abstraktní efekt transformace obrazu.
 type: docs
-weight: 3550
+weight: 3570
 url: /cs/aspose.slides.effects/imagetransformoperation/
 ---
 ## ImageTransformOperation třída
 
-Representuje abstraktní efekt transformace obrázku.
+Reprezentuje abstraktní efekt transformace obrazu.
 
 ```csharp
 public abstract class ImageTransformOperation : PVIObject, IImageTransformOperation
@@ -24,8 +24,8 @@ public abstract class ImageTransformOperation : PVIObject, IImageTransformOperat
 
 | Název | Popis |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Porovnává se zadaným objektem. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Vrátí hash kód. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Porovnává se se zadaným objektem. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Vrací hash kód. |
 
 ### Viz také
 

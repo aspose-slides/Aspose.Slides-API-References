@@ -1,9 +1,9 @@
 ---
 title: TransitionLeftRightDirectionType
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Sol ve sağ değerleriyle sınırlı bir yön belirtir.
 type: docs
-weight: 10360
+weight: 10380
 url: /tr/aspose.slides.slideshow/transitionleftrightdirectiontype/
 ---
 ## TransitionLeftRightDirectionType enum
@@ -21,7 +21,7 @@ public enum TransitionLeftRightDirectionType
 | Left | `0` |  |
 | Right | `1` |  |
 
-### İlgili
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * derleme [Aspose.Slides](../../)

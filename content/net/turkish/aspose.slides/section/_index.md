@@ -3,10 +3,10 @@ title: Section
 second_title: Aspose.Sildes için .NET API Referansı
 description: Slaytların bölümünü temsil eder.
 type: docs
-weight: 9730
+weight: 9750
 url: /tr/aspose.slides/section/
 ---
-## Bölüm sınıfı
+## Section sınıfı
 
 Slaytların bölümünü temsil eder.
 
@@ -20,7 +20,7 @@ public class Section : DomObject<SectionCollection>, ISection
 | --- | --- |
 | [Name](../../aspose.slides/section/name) { get; set; } | Bölümün adı. |
 | [SectionId](../../aspose.slides/section/sectionid) { get; } | Bölüm Kimliği. |
-| [StartedFromSlide](../../aspose.slides/section/startedfromslide) { get; } | Bölümün ilk slaydını döndürür. |
+| [StartedFromSlide](../../aspose.slides/section/startedfromslide) { get; } | Bölümün ilk slaytını döndürür. |
 
 ## Yöntemler
 

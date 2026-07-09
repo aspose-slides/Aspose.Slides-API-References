@@ -1,12 +1,12 @@
 ---
 title: LineFormatCollection
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Satır stillerinin koleksiyonunu temsil eder.
 type: docs
-weight: 11400
+weight: 11420
 url: /tr/aspose.slides.theme/lineformatcollection/
 ---
-## LineFormatCollection sınıfı
+## LineFormatCollection sınıf
 
 Satır stillerinin koleksiyonunu temsil eder.
 
@@ -18,10 +18,10 @@ public sealed class LineFormatCollection : DomObject<FormatScheme>, ILineFormatC
 
 | Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides.theme/lineformatcollection/count) { get; } | Koleksiyonda gerçekte bulunan öğe sayısını alır. Salt okunur Int32. |
-| [IsSynchronized](../../aspose.slides.theme/lineformatcollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (çok iş parçacıklı) olup olmadığını gösteren bir değer döndürür. Salt okunur Boolean. |
-| [Item](../../aspose.slides.theme/lineformatcollection/item) { get; } | Belirtilen indeksteki öğeyi alır. Salt okunur [`ILineFormat`](../../aspose.slides/ilineformat). |
-| [SyncRoot](../../aspose.slides.theme/lineformatcollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt okunur Object. |
+| [Count](../../aspose.slides.theme/lineformatcollection/count) { get; } | Koleksiyonda gerçekte bulunan eleman sayısını alır. Salt-okunur Int32. |
+| [IsSynchronized](../../aspose.slides.theme/lineformatcollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını belirten bir değer döndürür. Salt-okunur Boolean. |
+| [Item](../../aspose.slides.theme/lineformatcollection/item) { get; } | Belirtilen indeksteki öğeyi alır. Salt-okunur [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [SyncRoot](../../aspose.slides.theme/lineformatcollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt-okunur Object. |
 
 ## Yöntemler
 

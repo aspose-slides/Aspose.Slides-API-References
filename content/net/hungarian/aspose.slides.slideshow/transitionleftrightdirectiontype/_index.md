@@ -1,9 +1,9 @@
 ---
 title: TransitionLeftRightDirectionType
-second_title: Aspose.Sildes .NET API hivatkozás
+second_title: Aspose.Sildes .NET API referencia
 description: Megad egy irányt, amely a bal és jobb értékekre korlátozódik.
 type: docs
-weight: 10360
+weight: 10380
 url: /hu/aspose.slides.slideshow/transitionleftrightdirectiontype/
 ---
 ## TransitionLeftRightDirectionType enumeráció

@@ -1,15 +1,14 @@
 ---
 title: StreamWrapper
-second_title: Aspose.Sildes для .NET API Справочник
-description: Обертка Aspose.IO.Stream для интерфейса COM.
+second_title: Aspose.Sildes для .NET справка API
+description: Обертка Aspose.IO.Stream для COM-интерфейса.
 type: docs
-weight: 10440
+weight: 10750
 url: /ru/aspose.slides/streamwrapper/
 ---
+## StreamWrapper класс
 
-## Класс StreamWrapper
-
-Обертка Aspose.IO.Stream для интерфейса COM.
+Aspose.IO.Stream wrapper for COM interface.
 
 ```csharp
 public class StreamWrapper : IStreamWrapper
@@ -19,13 +18,13 @@ public class StreamWrapper : IStreamWrapper
 
 | Имя | Описание |
 | --- | --- |
-| [AsIDisposable](../../aspose.slides/streamwrapper/asidisposable) { get; } | Позволяет получить базовый интерфейс IDisposable. Только для чтения IDisposable. |
-| [CanRead](../../aspose.slides/streamwrapper/canread) { get; } | Получает значение, указывающее, поддерживает ли текущий поток чтение. Только для чтения Boolean. |
-| [CanSeek](../../aspose.slides/streamwrapper/canseek) { get; } | Получает значение, указывающее, поддерживает ли текущий поток поиск. Только для чтения Boolean. |
-| [CanWrite](../../aspose.slides/streamwrapper/canwrite) { get; } | Получает значение, указывающее, поддерживает ли текущий поток запись. Только для чтения Boolean. |
-| [Length](../../aspose.slides/streamwrapper/length) { get; } | Получает длину в байтах потока. Только для чтения Int64. |
-| [Position](../../aspose.slides/streamwrapper/position) { get; } | Получает или задает позицию внутри текущего потока. Только для чтения Int64. |
-| [Stream](../../aspose.slides/streamwrapper/stream) { get; } | Получает поток. Только для чтения Stream. |
+| [AsIDisposable](../../aspose.slides/streamwrapper/asidisposable) { get; } | Позволяет получить базовый интерфейс IDisposable. Только для чтения IDisposable. |
+| [CanRead](../../aspose.slides/streamwrapper/canread) { get; } | Возвращает значение, указывающее, поддерживает ли текущий поток чтение. Только для чтения Boolean. |
+| [CanSeek](../../aspose.slides/streamwrapper/canseek) { get; } | Возвращает значение, указывающее, поддерживает ли текущий поток перемещение. Только для чтения Boolean. |
+| [CanWrite](../../aspose.slides/streamwrapper/canwrite) { get; } | Возвращает значение, указывающее, поддерживает ли текущий поток запись. Только для чтения Boolean. |
+| [Length](../../aspose.slides/streamwrapper/length) { get; } | Возвращает длину потока в байтах. Только для чтения Int64. |
+| [Position](../../aspose.slides/streamwrapper/position) { get; } | Возвращает или задает позицию в текущем потоке. Только для чтения Int64. |
+| [Stream](../../aspose.slides/streamwrapper/stream) { get; } | Возвращает поток. Только для чтения Stream. |
 
 ## Методы
 
@@ -33,17 +32,17 @@ public class StreamWrapper : IStreamWrapper
 | --- | --- |
 | [Close](../../aspose.slides/streamwrapper/close)() | Закрывает текущий поток и освобождает любые ресурсы. |
 | [Dispose](../../aspose.slides/streamwrapper/dispose)() | Освобождает объект. |
-| [Flush](../../aspose.slides/streamwrapper/flush)() | Очищает все буферы для этого потока и приводит к записи любых буферизованных данных на подлежащее устройство. |
-| [Read](../../aspose.slides/streamwrapper/read)(byte[], int, int) | Читает последовательность байтов из текущего потока и перемещает позицию внутри потока на количество прочитанных байтов. |
-| [ReadByte](../../aspose.slides/streamwrapper/readbyte)() | Читает байт из потока и перемещает позицию внутри потока на один байт, или возвращает -1, если достигнут конец потока. |
-| [Seek](../../aspose.slides/streamwrapper/seek)(long, SeekOrigin) | Устанавливает позицию внутри текущего потока |
-| [Write](../../aspose.slides/streamwrapper/write)(byte[], int, int) | Записывает последовательность байтов в текущий поток и перемещает текущую позицию внутри этого потока на количество записанных байтов. |
-| [WriteByte](../../aspose.slides/streamwrapper/writebyte)(byte) | Записывает байт в текущую позицию в потоке и перемещает позицию внутри потока на один байт. |
+| [Flush](../../aspose.slides/streamwrapper/flush)() | Очищает все буферы этого потока и заставляет записать любые буферизованные данные в устройство. |
+| [Read](../../aspose.slides/streamwrapper/read)(byte[], int, int) | Считывает последовательность байтов из текущего потока и сдвигает позицию в потоке на количество прочитанных байтов. |
+| [ReadByte](../../aspose.slides/streamwrapper/readbyte)() | Считывает байт из потока и сдвигает позицию в потоке на один байт, либо возвращает -1, если достигнут конец потока. |
+| [Seek](../../aspose.slides/streamwrapper/seek)(long, SeekOrigin) | Устанавливает позицию в текущем потоке |
+| [Write](../../aspose.slides/streamwrapper/write)(byte[], int, int) | Записывает последовательность байтов в текущий поток и сдвигает текущую позицию в этом потоке на количество записанных байтов. |
+| [WriteByte](../../aspose.slides/streamwrapper/writebyte)(byte) | Записывает байт в текущую позицию потока и сдвигает позицию в потоке на один байт. |
 
-### Смотрите Также
+### См. также
 
-* интерфейс [IStreamWrapper](../istreamwrapper)
-* пространство имен [Aspose.Slides](../../aspose.slides)
-* сборка [Aspose.Slides](../../)
+* интерфейс [IStreamWrapper](../istreamwrapper)
+* пространство имён [Aspose.Slides](../../aspose.slides)
+* сборка [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

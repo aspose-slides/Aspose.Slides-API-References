@@ -3,7 +3,7 @@ title: ILayoutPlaceholderManager
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili manajer yang memungkinkan Anda menambahkan placeholder ke slide tata letak.
 type: docs
-weight: 6190
+weight: 6210
 url: /id/aspose.slides/ilayoutplaceholdermanager/
 ---
 ## ILayoutPlaceholderManager antarmuka
@@ -18,16 +18,16 @@ public interface ILayoutPlaceholderManager
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AddChartPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | Menambahkan shape placeholder baru ke slide tata letak untuk menampung bagan. |
-| [AddContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | Menambahkan shape placeholder baru ke slide tata letak untuk menampung konten, seperti gambar, tabel, media, atau teks. |
-| [AddMediaPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | Menambahkan shape placeholder baru ke slide tata letak untuk menampung objek media. |
-| [AddOnlineImagePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | Menambahkan shape placeholder baru ke slide tata letak untuk menampung gambar daring. |
-| [AddPicturePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | Menambahkan shape placeholder baru ke slide tata letak untuk menampung gambar. |
-| [AddSmartArtPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | Menambahkan shape placeholder baru ke slide tata letak untuk menampung diagram SmartArt. |
-| [AddTablePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | Menambahkan shape placeholder baru ke slide tata letak untuk menampung tabel. |
-| [AddTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | Menambahkan shape placeholder baru ke slide tata letak untuk menampung konten teks. |
-| [AddVerticalContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Menambahkan shape placeholder baru ke slide tata letak untuk menampung konten, seperti gambar, tabel, media, atau teks dalam arah vertikal. |
-| [AddVerticalTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Menambahkan shape placeholder baru ke slide tata letak untuk menampung konten teks dalam arah vertikal. |
+| [AddChartPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | Menambahkan bentuk placeholder baru ke slide tata letak untuk menampung bagan. |
+| [AddContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | Menambahkan bentuk placeholder baru ke slide tata letak untuk menampung konten, seperti gambar, tabel, media, atau teks. |
+| [AddMediaPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | Menambahkan bentuk placeholder baru ke slide tata letak untuk menampung objek media. |
+| [AddOnlineImagePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | Menambahkan bentuk placeholder baru ke slide tata letak untuk menampung gambar daring. |
+| [AddPicturePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | Menambahkan bentuk placeholder baru ke slide tata letak untuk menampung gambar. |
+| [AddSmartArtPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | Menambahkan bentuk placeholder baru ke slide tata letak untuk menampung diagram SmartArt. |
+| [AddTablePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | Menambahkan bentuk placeholder baru ke slide tata letak untuk menampung tabel. |
+| [AddTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | Menambahkan bentuk placeholder baru ke slide tata letak untuk menampung konten teks. |
+| [AddVerticalContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Menambahkan bentuk placeholder baru ke slide tata letak untuk menampung konten, seperti gambar, tabel, media, atau teks dalam arah vertikal. |
+| [AddVerticalTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Menambahkan bentuk placeholder baru ke slide tata letak untuk menampung konten teks dalam arah vertikal. |
 
 ### Lihat Juga
 

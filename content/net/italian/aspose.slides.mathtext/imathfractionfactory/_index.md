@@ -3,7 +3,7 @@ title: IMathFractionFactory
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Consente di creare una frazione matematica
 type: docs
-weight: 8240
+weight: 8260
 url: /it/aspose.slides.mathtext/imathfractionfactory/
 ---
 ## IMathFractionFactory interfaccia
@@ -23,7 +23,7 @@ public interface IMathFractionFactory
 
 ### Osservazioni
 
-Per compatibilità COM
+Per la compatibilità COM
 
 ### Vedi anche
 

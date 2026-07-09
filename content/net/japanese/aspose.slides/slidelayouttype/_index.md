@@ -1,14 +1,14 @@
 ---
 title: SlideLayoutType
 second_title: Aspose.Sildes for .NET API リファレンス
-description: スライドのレイアウト タイプを表します。
+description: スライドレイアウトの種類を表します。
 type: docs
-weight: 9970
+weight: 9990
 url: /ja/aspose.slides/slidelayouttype/
 ---
-## SlideLayoutType 列挙体
+## SlideLayoutType 列挙型
 
-スライドのレイアウト タイプを表します。
+スライドレイアウトの種類を表します。
 
 ```csharp
 public enum SlideLayoutType : sbyte
@@ -39,19 +39,19 @@ public enum SlideLayoutType : sbyte
 | MediaAndText | `17` | メディアとテキスト |
 | ObjectOverText | `18` | テキスト上のオブジェクト |
 | TextOverObject | `19` | オブジェクト上のテキスト |
-| TextAndTwoObjects | `20` | テキストと 2 つのオブジェクト |
-| TwoObjectsAndText | `21` | 2 つのオブジェクトとテキスト |
-| TwoObjectsOverText | `22` | テキスト上の 2 つのオブジェクト |
-| FourObjects | `23` | 4 つのオブジェクト |
+| TextAndTwoObjects | `20` | テキストと 2 オブジェクト |
+| TwoObjectsAndText | `21` | 2 オブジェクトとテキスト |
+| TwoObjectsOverText | `22` | テキスト上の 2 オブジェクト |
+| FourObjects | `23` | 4 オブジェクト |
 | VerticalText | `24` | 縦書きテキスト |
 | ClipArtAndVerticalText | `25` | クリップアートと縦書きテキスト |
 | VerticalTitleAndText | `26` | 縦書きタイトルとテキスト |
 | VerticalTitleAndTextOverChart | `27` | 縦書きタイトルとテキスト（チャート上） |
-| TwoObjects | `28` | 2 つのオブジェクト |
-| ObjectAndTwoObject | `29` | オブジェクトと 2 つのオブジェクト |
-| TwoObjectsAndObject | `30` | 2 つのオブジェクトとオブジェクト |
+| TwoObjects | `28` | 2 オブジェクト |
+| ObjectAndTwoObject | `29` | オブジェクトと 2 オブジェクト |
+| TwoObjectsAndObject | `30` | 2 オブジェクトとオブジェクト |
 | SectionHeader | `31` | セクションヘッダー |
-| TwoTextAndTwoObjects | `32` | 2 つのテキストと 2 つのオブジェクト |
+| TwoTextAndTwoObjects | `32` | 2 テキストと 2 オブジェクト |
 | TitleObjectAndCaption | `33` | タイトル、オブジェクト、キャプション |
 | PictureAndCaption | `34` | 画像とキャプション |
 

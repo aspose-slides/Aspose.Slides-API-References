@@ -1,12 +1,12 @@
 ---
 title: IOleObjectFrame
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa um objeto OLE em um slide.
 type: docs
-weight: 6520
+weight: 6540
 url: /pt/aspose.slides/ioleobjectframe/
 ---
-## IOleObjectFrame interface
+## Interface IOleObjectFrame
 
 Representa um objeto OLE em um slide.
 
@@ -16,30 +16,30 @@ public interface IOleObjectFrame : IGraphicalObject
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [AsIGraphicalObject](../../aspose.slides/ioleobjectframe/asigraphicalobject) { get; } | Permite obter a interface base IGraphicalObject. Somente leitura [`IGraphicalObject`](../igraphicalobject). |
-| [EmbeddedData](../../aspose.slides/ioleobjectframe/embeddeddata) { get; } | Obtém informações sobre dados incorporados OLE. Somente leitura [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo). |
+| [EmbeddedData](../../aspose.slides/ioleobjectframe/embeddeddata) { get; } | Obtém informações sobre os dados incorporados OLE. Somente leitura [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo). |
 | [EmbeddedFileLabel](../../aspose.slides/ioleobjectframe/embeddedfilelabel) { get; } | Retorna o nome do arquivo do objeto OLE incorporado |
 | [EmbeddedFileName](../../aspose.slides/ioleobjectframe/embeddedfilename) { get; } | Retorna o caminho do objeto OLE incorporado |
-| [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | Determina se um objeto está visível como ícone. Leitura/gravação Boolean. |
+| [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | Determina se um objeto é visível como ícone. Leitura/Gravação Boolean. |
 | [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | Determina se um objeto está vinculado a um arquivo externo. Somente leitura Boolean. |
 | [LinkFileName](../../aspose.slides/ioleobjectframe/linkfilename) { get; } | Retorna o caminho completo para um arquivo vinculado. O nome curto do arquivo será usado. Somente leitura String. |
-| [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | Retorna o caminho completo para um arquivo vinculado. O nome longo do arquivo será usado. Leitura/gravação String. |
-| [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | Retorna o caminho relativo para um arquivo vinculado, se presente; caso contrário, retorna uma string vazia. Somente leitura String. |
-| [ObjectName](../../aspose.slides/ioleobjectframe/objectname) { get; set; } | Retorna ou define o nome de um objeto. Leitura/gravação String. |
+| [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | Retorna o caminho completo para um arquivo vinculado. O nome longo do arquivo será usado. Leitura/Gravação String. |
+| [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | Retorna o caminho relativo para um arquivo vinculado, se presente, caso contrário retorna uma string vazia. Somente leitura String. |
+| [ObjectName](../../aspose.slides/ioleobjectframe/objectname) { get; set; } | Retorna ou define o nome de um objeto. Leitura/Gravação String. |
 | [ObjectProgId](../../aspose.slides/ioleobjectframe/objectprogid) { get; set; } | Retorna o ProgID de um objeto. Somente leitura String. |
 | [SubstitutePictureFormat](../../aspose.slides/ioleobjectframe/substitutepictureformat) { get; } | Retorna o objeto de propriedades de preenchimento de imagem OleObject. Somente leitura [`IPictureFillFormat`](../ipicturefillformat). |
-| [SubstitutePictureTitle](../../aspose.slides/ioleobjectframe/substitutepicturetitle) { get; set; } | Retorna ou define o título para o ícone OleObject. Leitura/gravação String. |
-| [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | Determina se o objeto incorporado vinculado é atualizado automaticamente quando a apresentação é aberta ou impressa. Leitura/gravação Boolean. |
+| [SubstitutePictureTitle](../../aspose.slides/ioleobjectframe/substitutepicturetitle) { get; set; } | Retorna ou define o título para o ícone OleObject. Leitura/Gravação String. |
+| [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | Determina se o objeto incorporado vinculado é atualizado automaticamente quando a apresentação é aberta ou impressa. Leitura/Gravação Boolean. |
 
 ## Métodos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
-| [SetEmbeddedData](../../aspose.slides/ioleobjectframe/setembeddeddata)(IOleEmbeddedDataInfo) | Define informações sobre dados incorporados OLE. |
+| [SetEmbeddedData](../../aspose.slides/ioleobjectframe/setembeddeddata)(IOleEmbeddedDataInfo) | Define informações sobre os dados incorporados OLE. |
 
-### See Also
+### Ver Também
 
 * interface [IGraphicalObject](../igraphicalobject)
 * namespace [Aspose.Slides](../../aspose.slides)

@@ -1,14 +1,14 @@
 ---
 title: FlyThroughTransition
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Effetto di transizione slide Fly-through.
+second_title: Aspose.Sildes per .NET API Reference
+description: Effetto di transizione diapositiva fly-through.
 type: docs
-weight: 10020
+weight: 10040
 url: /it/aspose.slides.slideshow/flythroughtransition/
 ---
 ## FlyThroughTransition classe
 
-Effetto di transizione slide Fly-through.
+Effetto di transizione diapositiva fly-through.
 
 ```csharp
 public class FlyThroughTransition : TransitionValueBase, IFlyThroughTransition
@@ -19,14 +19,14 @@ public class FlyThroughTransition : TransitionValueBase, IFlyThroughTransition
 | Nome | Descrizione |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/flythroughtransition/direction) { get; set; } | Direzione della transizione. Lettura/scrittura [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [HasBounce](../../aspose.slides.slideshow/flythroughtransition/hasbounce) { get; set; } | Specifica che lo spostamento delle diapositive della presentazione durante la transizione include un rimbalzo. Lettura/scrittura Boolean. |
+| [HasBounce](../../aspose.slides.slideshow/flythroughtransition/hasbounce) { get; set; } | Specifica che il movimento delle diapositive della presentazione durante la transizione include un rimbalzo. Lettura/scrittura Boolean. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina se le due istanze di TransitionValueBase sono uguali. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funge da funzione hash per un tipo specifico, adatta per l'uso in algoritmi di hashing e strutture dati come una tabella hash. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funziona come funzione hash per un tipo particolare, idonea per l'uso in algoritmi di hashing e strutture dati come una tabella hash. |
 
 ### Vedi anche
 

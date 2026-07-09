@@ -3,7 +3,7 @@ title: IPptxOptions
 second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta le opzioni per il salvataggio delle presentazioni OpenXml PPTX PPSX POTX PPTM PPSM POTM.
 type: docs
-weight: 4000
+weight: 4020
 url: /it/aspose.slides.export/ipptxoptions/
 ---
 ## IPptxOptions interfaccia
@@ -19,9 +19,9 @@ public interface IPptxOptions : ISaveOptions
 | Nome | Descrizione |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/ipptxoptions/asisaveoptions) { get; } | Consente di ottenere l'interfaccia di base ISaveOptions. Solo lettura [`ISaveOptions`](../isaveoptions). |
-| [CompressionLevel](../../aspose.slides.export/ipptxoptions/compressionlevel) { get; set; } | Specifica il livello di compressione utilizzato durante il salvataggio del documento di presentazione. Il valore predefinito è Level6. |
+| [CompressionLevel](../../aspose.slides.export/ipptxoptions/compressionlevel) { get; set; } | Specifica il livello di compressione utilizzato durante il salvataggio del documento della presentazione. Il valore predefinito è Level6. |
 | [Conformance](../../aspose.slides.export/ipptxoptions/conformance) { get; set; } | Specifica la classe di conformità a cui il documento Presentation si conforma. Il valore predefinito è Ecma376_2006 |
-| [RefreshThumbnail](../../aspose.slides.export/ipptxoptions/refreshthumbnail) { get; set; } | Specifica se la miniatura della presentazione verrà aggiornata. Booleano lettura/scrittura. Il valore predefinito è **true**. |
+| [RefreshThumbnail](../../aspose.slides.export/ipptxoptions/refreshthumbnail) { get; set; } | Specifica se la miniatura della presentazione verrà aggiornata. Lettura/scrittura Boolean. Il valore predefinito è **true**. |
 | [Zip64Mode](../../aspose.slides.export/ipptxoptions/zip64mode) { get; set; } | Specifica se il formato ZIP64 è utilizzato per il documento Presentation. Il valore predefinito è IfNecessary |
 
 ### Vedi anche

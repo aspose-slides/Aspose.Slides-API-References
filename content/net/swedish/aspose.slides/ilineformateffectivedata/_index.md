@@ -3,7 +3,7 @@ title: ILineFormatEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
 description: Oföränderligt objekt som innehåller effektiva linjeformateringsegenskaper.
 type: docs
-weight: 6300
+weight: 6320
 url: /sv/aspose.slides/ilineformateffectivedata/
 ---
 ## ILineFormatEffectiveData gränssnitt
@@ -19,19 +19,19 @@ public interface ILineFormatEffectiveData : ILineParamSource
 | Namn | Beskrivning |
 | --- | --- |
 | [Alignment](../../aspose.slides/ilineformateffectivedata/alignment) { get; } | Returnerar linjejusteringen. Skrivskyddad [`LineAlignment`](../linealignment). |
-| [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | Tillåter att hämta bas-ILineParamSource-gränssnittet. Skrivskyddad [`ILineParamSource`](../ilineparamsource). |
+| [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | Gör det möjligt att hämta bas-ILineParamSource-gränssnittet. Skrivskyddad [`ILineParamSource`](../ilineparamsource). |
 | [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | Returnerar pilspetsens längd i början av en linje. Skrivskyddad [`LineArrowheadLength`](../linearrowheadlength). |
 | [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | Returnerar pilspetsens stil i början av en linje. Skrivskyddad [`LineArrowheadStyle`](../linearrowheadstyle). |
 | [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | Returnerar pilspetsens bredd i början av en linje. Skrivskyddad [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | Returnerar linjeändens stil. Skrivskyddad [`LineCapStyle`](../linecapstyle). |
-| [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | Returnerar anpassat streckmönster. Skrivskyddad Single[]. |
+| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | Returnerar linjens ändpunktsstil. Skrivskyddad [`LineCapStyle`](../linecapstyle). |
+| [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | Returnerar det anpassade streckmönstret. Skrivskyddad Single[]. |
 | [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | Returnerar linjens streckstil. Skrivskyddad [`LineDashStyle`](../linedashstyle). |
 | [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | Returnerar pilspetsens längd i slutet av en linje. Skrivskyddad [`LineArrowheadLength`](../linearrowheadlength). |
 | [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | Returnerar pilspetsens stil i slutet av en linje. Skrivskyddad [`LineArrowheadStyle`](../linearrowheadstyle). |
 | [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | Returnerar pilspetsens bredd i slutet av en linje. Skrivskyddad [`LineArrowheadWidth`](../linearrowheadwidth). |
 | [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | Returnerar fyllningsformatet för en linje. Skrivskyddad [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata). |
-| [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | Returnerar linjens sammanfogningsstil. Skrivskyddad [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | Returnerar snittgränsen för en linje. Skrivskyddad Single. |
+| [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | Returnerar linjens sammanslagningsstil. Skrivskyddad [`LineJoinStyle`](../linejoinstyle). |
+| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | Returnerar vinkelsnittgränsen för en linje. Skrivskyddad Single. |
 | [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | Returnerar skissformatet för en linje. Skrivskyddad [`ISketchFormatEffectiveData`](../isketchformateffectivedata). |
 | [Style](../../aspose.slides/ilineformateffectivedata/style) { get; } | Returnerar linjestilen. Skrivskyddad [`LineStyle`](../linestyle). |
 | [Width](../../aspose.slides/ilineformateffectivedata/width) { get; } | Returnerar bredden på en linje. Skrivskyddad Double. |
@@ -40,16 +40,16 @@ public interface ILineFormatEffectiveData : ILineParamSource
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Equals](../../aspose.slides/ilineformateffectivedata/equals)(ILineFormatEffectiveData) | Avgör om de två ILineFormatEffectiveData-instansen är lika. |
+| [Equals](../../aspose.slides/ilineformateffectivedata/equals)(ILineFormatEffectiveData) | Bestämmer om de två ILineFormatEffectiveData-instanserna är lika. |
 
 ### Anmärkningar
 
-Detta gränssnitt används tillsammans med [`ILineFormat`](../ilineformat) gränssnitt för att returnera effektiva formateringsvärden med ärvd tillämpning.
+Detta gränssnitt används tillsammans med [`ILineFormat`](../ilineformat)-gränssnittet för att returnera effektiva formateringsvärden med arv tillämpat.
 
-### Se även
+### Se också
 
 * gränssnitt [ILineParamSource](../ilineparamsource)
 * namnrymd [Aspose.Slides](../../aspose.slides)
-* samling [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

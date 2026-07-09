@@ -1,14 +1,14 @@
 ---
 title: DigitalSignatureCollection
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta una raccolta di firme digitali associate a un documento.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta una raccolta di firme digitali allegate a un documento.
 type: docs
-weight: 2760
+weight: 2780
 url: /it/aspose.slides/digitalsignaturecollection/
 ---
 ## DigitalSignatureCollection classe
 
-Rappresenta una raccolta di firme digitali associate a un documento.
+Rappresenta una raccolta di firme digitali collegate a un documento.
 
 ```csharp
 public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSignatureCollection
@@ -18,10 +18,10 @@ public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSigna
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides/digitalsignaturecollection/count) { get; } | Restituisce il numero di elementi nella raccolta. Int32 a sola lettura. |
-| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla raccolta è sincronizzato (thread-safe). Boolean a sola lettura. |
+| [Count](../../aspose.slides/digitalsignaturecollection/count) { get; } | Restituisce il numero di elementi nella raccolta. Solo lettura Int32. |
+| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla raccolta è sincronizzato (thread-safe). Solo lettura Boolean. |
 | [Item](../../aspose.slides/digitalsignaturecollection/item) { get; } | Restituisce la firma per indice. |
-| [SyncRoot](../../aspose.slides/digitalsignaturecollection/syncroot) { get; } | Restituisce la radice di sincronizzazione. Object a sola lettura. |
+| [SyncRoot](../../aspose.slides/digitalsignaturecollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Solo lettura Object. |
 
 ## Metodi
 

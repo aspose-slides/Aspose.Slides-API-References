@@ -1,14 +1,14 @@
 ---
 title: CommandEffectType
-second_title: Aspose.Sildes の .NET API リファレンス
-description: コマンド効果の動作を表すコマンド効果タイプです。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: コマンド効果の動作に対するコマンド効果タイプを表します。
 type: docs
-weight: 250
+weight: 270
 url: /ja/aspose.slides.animation/commandeffecttype/
 ---
 ## CommandEffectType 列挙型
 
-コマンド効果の動作を表すコマンド効果タイプです。
+コマンド効果の動作に対するコマンド効果タイプを表します。
 
 ```csharp
 public enum CommandEffectType : sbyte
@@ -23,7 +23,7 @@ public enum CommandEffectType : sbyte
 | Call | `1` |  |
 | Verb | `2` |  |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * アセンブリ [Aspose.Slides](../../)

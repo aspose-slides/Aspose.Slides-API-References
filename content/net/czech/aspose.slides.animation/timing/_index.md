@@ -1,14 +1,14 @@
 ---
 title: Timing
-second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje časování animace.
+second_title: Aspose.Sildes pro .NET – referenční příručka API
+description: Reprezentuje časování animace.
 type: docs
-weight: 820
+weight: 840
 url: /cs/aspose.slides.animation/timing/
 ---
-## Timing třída
+## Třída Timing
 
-Představuje časování animace.
+Representuje časování animace.
 
 ```csharp
 public class Timing : ITiming
@@ -18,24 +18,24 @@ public class Timing : ITiming
 
 | Název | Popis |
 | --- | --- |
-| [Accelerate](../../aspose.slides.animation/timing/accelerate) { get; set; } | Popisuje procento trvání efektu urychlujícího chování. Číst/zapisovat Single. |
-| [AutoReverse](../../aspose.slides.animation/timing/autoreverse) { get; set; } | Popisuje, zda se má animace automaticky přehrát opačným směrem po přehrání v dopředném směru. Číst/zapisovat Boolean. |
-| [Decelerate](../../aspose.slides.animation/timing/decelerate) { get; set; } | Popisuje procento trvání efektu zpomalovacího chování. Číst/zapisovat Single. |
-| [Duration](../../aspose.slides.animation/timing/duration) { get; set; } | Popisuje trvání efektu animace. Číst/zapisovat Single. |
-| [RepeatCount](../../aspose.slides.animation/timing/repeatcount) { get; set; } | Popisuje počet opakování efektu. Číst/zapisovat Single. |
-| [RepeatDuration](../../aspose.slides.animation/timing/repeatduration) { get; set; } | Popisuje počet opakování efektu. Číst/zapisovat Single. |
-| [RepeatUntilEndSlide](../../aspose.slides.animation/timing/repeatuntilendslide) { get; set; } | Tento atribut určuje, zda se efekt bude opakovat až do konce snímku. Číst/zapisovat Boolean. |
-| [RepeatUntilNextClick](../../aspose.slides.animation/timing/repeatuntilnextclick) { get; set; } | Tento atribut určuje, zda se efekt bude opakovat až do dalšího kliknutí. Číst/zapisovat Boolean. |
-| [Restart](../../aspose.slides.animation/timing/restart) { get; set; } | Určuje, zda se efekt má po dokončení restartovat. Číst/zapisovat [`EffectRestartType`](../effectrestarttype). |
-| [Rewind](../../aspose.slides.animation/timing/rewind) { get; set; } | Tento atribut určuje, zda se efekt po přehrání přehraje zpět. Číst/zapisovat Boolean. |
-| [Speed](../../aspose.slides.animation/timing/speed) { get; set; } | Určuje procento, o které se má časování zrychlit (nebo zpomalit). Číst/zapisovat Single. |
-| [TriggerDelayTime](../../aspose.slides.animation/timing/triggerdelaytime) { get; set; } | Popisuje dobu zpoždění po spouštěči. Číst/zapisovat Single. |
-| [TriggerType](../../aspose.slides.animation/timing/triggertype) { get; set; } | Popisuje typ spouštěče. Číst/zapisovat [`EffectTriggerType`](../effecttriggertype). |
+| [Accelerate](../../aspose.slides.animation/timing/accelerate) { get; set; } | Popisuje procento trvání efektu zrychlení. Čtení/zápis Single. |
+| [AutoReverse](../../aspose.slides.animation/timing/autoreverse) { get; set; } | Popisuje, zda se má animace automaticky přehrát opačným směrem po přehrání v dopředném směru. Čtení/zápis Boolean. |
+| [Decelerate](../../aspose.slides.animation/timing/decelerate) { get; set; } | Popisuje procento trvání efektu zpomalení. Čtení/zápis Single. |
+| [Duration](../../aspose.slides.animation/timing/duration) { get; set; } | Popisuje délku trvání efektu animace. Čtení/zápis Single. |
+| [RepeatCount](../../aspose.slides.animation/timing/repeatcount) { get; set; } | Popisuje počet opakování efektu. Čtení/zápis Single. |
+| [RepeatDuration](../../aspose.slides.animation/timing/repeatduration) { get; set; } | Popisuje počet opakování efektu. Čtení/zápis Single. |
+| [RepeatUntilEndSlide](../../aspose.slides.animation/timing/repeatuntilendslide) { get; set; } | Tento atribut určuje, zda se efekt bude opakovat až do konce snímku. Čtení/zápis Boolean. |
+| [RepeatUntilNextClick](../../aspose.slides.animation/timing/repeatuntilnextclick) { get; set; } | Tento atribut určuje, zda se efekt bude opakovat do dalšího kliknutí. Čtení/zápis Boolean. |
+| [Restart](../../aspose.slides.animation/timing/restart) { get; set; } | Určuje, zda má být efekt po dokončení restartován. Čtení/zápis [`EffectRestartType`](../effectrestarttype). |
+| [Rewind](../../aspose.slides.animation/timing/rewind) { get; set; } | Tento atribut určuje, zda se efekt po přehrání přehraje zpět. Čtení/zápis Boolean. |
+| [Speed](../../aspose.slides.animation/timing/speed) { get; set; } | Určuje procento, o které se má časování zrychlit (nebo zpomalit). Čtení/zápis Single. |
+| [TriggerDelayTime](../../aspose.slides.animation/timing/triggerdelaytime) { get; set; } | Popisuje dobu zpoždění po spouštěči. Čtení/zápis Single. |
+| [TriggerType](../../aspose.slides.animation/timing/triggertype) { get; set; } | Popisuje typ spouštěče. Čtení/zápis [`EffectTriggerType`](../effecttriggertype). |
 
 ### Viz také
 
 * rozhraní [ITiming](../itiming)
 * jmenný prostor [Aspose.Slides.Animation](../../aspose.slides.animation)
-* sestavení [Aspose.Slides](../../)
+* sestava [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

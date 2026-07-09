@@ -3,7 +3,7 @@ title: IBackgroundEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
 description: Oföränderligt objekt som innehåller effektiva bakgrundsegenskaper.
 type: docs
-weight: 5260
+weight: 5280
 url: /sv/aspose.slides/ibackgroundeffectivedata/
 ---
 ## IBackgroundEffectiveData gränssnitt
@@ -19,12 +19,12 @@ public interface IBackgroundEffectiveData : IFillParamSource
 | Namn | Beskrivning |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ibackgroundeffectivedata/asifillparamsource) { get; } | Returnerar IFillParamSource gränssnitt. |
-| [EffectFormat](../../aspose.slides/ibackgroundeffectivedata/effectformat) { get; } | Returnerar effektiv effektformat. Endast läsning [`IEffectFormatEffectiveData`](../ieffectformateffectivedata). |
-| [FillFormat](../../aspose.slides/ibackgroundeffectivedata/fillformat) { get; } | Returnerar effektiv fyllningsformat. Endast läsning [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [EffectFormat](../../aspose.slides/ibackgroundeffectivedata/effectformat) { get; } | Returnerar effektiv effektformat. Skrivskyddad [`IEffectFormatEffectiveData`](../ieffectformateffectivedata). |
+| [FillFormat](../../aspose.slides/ibackgroundeffectivedata/fillformat) { get; } | Returnerar effektiv fyllningsformat. Skrivskyddad [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 
 ### Anmärkningar
 
-Detta gränssnitt används tillsammans med [`IBackground`](../ibackground) gränssnittet för att returnera effektiva formateringsvärden med ärftlighet tillämpad.
+Detta gränssnitt används tillsammans med [`IBackground`](../ibackground) gränssnitt för att returnera effektiva formateringsvärden med ärftlighet tillämpad.
 
 ### Se även
 

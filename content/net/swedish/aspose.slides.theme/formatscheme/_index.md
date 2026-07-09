@@ -3,7 +3,7 @@ title: FormatScheme
 second_title: Aspose.Sildes för .NET API-referens
 description: Lagrar temadefinierade format för formerna.
 type: docs
-weight: 11120
+weight: 11140
 url: /sv/aspose.slides.theme/formatscheme/
 ---
 ## FormatScheme klass
@@ -25,7 +25,7 @@ public class FormatScheme : IFormatScheme
 | [Presentation](../../aspose.slides.theme/formatscheme/presentation) { get; } | Returnerar den överordnade presentationen. Skrivskyddad [`IPresentation`](../../aspose.slides/ipresentation). |
 | [Slide](../../aspose.slides.theme/formatscheme/slide) { get; } | Returnerar den överordnade bilden. Skrivskyddad [`IBaseSlide`](../../aspose.slides/ibaseslide). |
 
-### Se även
+### Se också
 
 * gränssnitt [IFormatScheme](../iformatscheme)
 * namnrymd [Aspose.Slides.Theme](../../aspose.slides.theme)

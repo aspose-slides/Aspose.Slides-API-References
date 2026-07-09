@@ -1,9 +1,9 @@
 ---
 title: Point
-second_title: Aspose.Sildes の .NET 用 API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: アニメーションポイントを表します。
 type: docs
-weight: 700
+weight: 720
 url: /ja/aspose.slides.animation/point/
 ---
 ## Point クラス
@@ -14,20 +14,20 @@ url: /ja/aspose.slides.animation/point/
 public class Point : IPoint
 ```
 
-## コンストラクター
+## コンストラクタ
 
 | 名前 | 説明 |
 | --- | --- |
-| [Point](point#constructor)() | デフォルト コンストラクター。 |
-| [Point](point#constructor_1)(float, object, string) | 時間、値、式を指定してアニメーションポイントを作成します。 |
+| [Point](point#constructor)() | デフォルトコンストラクタです。 |
+| [Point](point#constructor_1)(float, object, string) | 時間、値、数式を指定してアニメーションポイントを作成します。 |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [Formula](../../aspose.slides.animation/point/formula) { get; set; } | values、from、to、by 属性内の式は次の要素で構成できます：標準算術演算子: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) 定数: ‘pi’ ‘e’ 条件演算子: ‘abs’, ‘min’, ‘max’, ‘?’ (if) 比較演算子: '==', '&gt;=', '', '!=', '!' 三角演算子: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ 自然対数: ‘ln()’ プロパティ参照（ホストがサポートするプロパティ）例: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" 読み取り/書き込み String. |
-| [Time](../../aspose.slides.animation/point/time) { get; set; } | 時間値を表します。読み取り/書き込み Single. |
-| [Value](../../aspose.slides.animation/point/value) { get; set; } | ポイント値を表します。対象: bool, ColorFormat, float, int, string. 読み取り/書き込み Object. |
+| [Formula](../../aspose.slides.animation/point/formula) { get; set; } | values、from、to、by属性内の数式は以下で構成できます。標準算術演算子: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) 定数: ‘pi’ ‘e’ 条件演算子: ‘abs’, ‘min’, ‘max’, ‘?’ (if) 比較演算子: '==', '&gt;=', '', '!=', '!' 三角関数演算子: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ 自然対数 ‘ln()’ プロパティ参照（ホストがサポートするプロパティ）例: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" 読み書き可能 String. |
+| [Time](../../aspose.slides.animation/point/time) { get; set; } | 時間の値を表します。読み書き可能 Single. |
+| [Value](../../aspose.slides.animation/point/value) { get; set; } | ポイントの値を表します。対応型: bool, ColorFormat, float, int, string。読み書き可能 Object. |
 
 ### 参照
 

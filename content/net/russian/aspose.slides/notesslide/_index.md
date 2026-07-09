@@ -1,15 +1,14 @@
 ---
 title: NotesSlide
-second_title: Aspose.Sildes для .NET API Ссылка
-description: Представляет заметочный слайд в презентации.
+second_title: Aspose.Sildes для .NET справочник API
+description: Представляет слайд заметок в презентации.
 type: docs
-weight: 8870
+weight: 9140
 url: /ru/aspose.slides/notesslide/
 ---
+## NotesSlide класс
 
-## Класс NotesSlide
-
-Представляет заметочный слайд в презентации.
+Представляет примечательный слайд в презентации.
 
 ```csharp
 public class NotesSlide : BaseSlide, INotesSlide
@@ -17,39 +16,39 @@ public class NotesSlide : BaseSlide, INotesSlide
 
 ## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [Background](../../aspose.slides/baseslide/background) { get; } | Возвращает фон слайда. Только для чтения [`IBackground`](../ibackground). |
-| [Controls](../../aspose.slides/baseslide/controls) { get; } | Возвращает коллекцию элементов ActiveX на слайде. Только для чтения [`IControlCollection`](../icontrolcollection). |
-| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Возвращает собственные данные слайда. Только для чтения [`ICustomData`](../icustomdata). |
-| [HeaderFooterManager](../../aspose.slides/notesslide/headerfootermanager) { get; } | Возвращает менеджер колонтитулов заметочного слайда. Только для чтения [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
-| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Предоставляет легкий доступ к содержащимся гиперссылкам. Только для чтения [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Возвращает или устанавливает имя слайда. Чтение/запись строка. |
-| [NotesTextFrame](../../aspose.slides/notesslide/notestextframe) { get; } | Возвращает объект TextFrame с текстом заметок, если он есть. Только для чтения [`ITextFrame`](../itextframe). |
-| [ParentSlide](../../aspose.slides/notesslide/parentslide) { get; } | Возвращает родительский слайд. Только для чтения [`ISlide`](../islide). |
-| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Возвращает интерфейс IPresentation. Только для чтения [`IPresentation`](../ipresentation). |
-| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Возвращает фигуры слайда. Только для чтения [`IShapeCollection`](../ishapecollection). |
-| override [ShowMasterShapes](../../aspose.slides/notesslide/showmastershapes) { get; set; } | Указывает, должны ли фигуры на основном слайде отображаться на слайдах или нет. Чтение/запись булевое. |
-| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Возвращает ID слайда. Только для чтения UInt32. |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Возвращает объект Transition, который содержит информацию о том, как указанный слайд переходит во время показа слайдов. Только для чтения [`ISlideShowTransition`](../islideshowtransition). |
-| [ThemeManager](../../aspose.slides/notesslide/thememanager) { get; } | Возвращает управляющий темами. Только для чтения [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager). |
-| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Возвращает объект временной шкалы анимации. Только для чтения [`IAnimationTimeLine`](../ianimationtimeline). |
+| [Background](../../aspose.slides/baseslide/background) { get; } | Возвращает фон слайда. Только для чтения [`IBackground`](../ibackground). |
+| [Controls](../../aspose.slides/baseslide/controls) { get; } | Возвращает коллекцию ActiveX-элементов управления на слайде. Только для чтения [`IControlCollection`](../icontrolcollection). |
+| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Возвращает пользовательские данные слайда. Только для чтения [`ICustomData`](../icustomdata). |
+| [HeaderFooterManager](../../aspose.slides/notesslide/headerfootermanager) { get; } | Возвращает менеджер HeaderFooter примечательного слайда. Только для чтения [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
+| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Обеспечивает простой доступ к содержащимся гиперссылкам. Только для чтения [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Возвращает или задаёт имя слайда. Чтение/запись String. |
+| [NotesTextFrame](../../aspose.slides/notesslide/notestextframe) { get; } | Возвращает TextFrame с текстом заметок, если он существует. Только для чтения [`ITextFrame`](../itextframe). |
+| [ParentSlide](../../aspose.slides/notesslide/parentslide) { get; } | Возвращает родительский слайд. Только для чтения [`ISlide`](../islide). |
+| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Возвращает интерфейс IPresentation. Только для чтения [`IPresentation`](../ipresentation). |
+| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Возвращает фигуры слайда. Только для чтения [`IShapeCollection`](../ishapecollection). |
+| override [ShowMasterShapes](../../aspose.slides/notesslide/showmastershapes) { get; set; } | Указывает, должны ли фигуры на главном слайде отображаться на слайдах или нет. Чтение/запись Boolean. |
+| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Возвращает идентификатор слайда. Только для чтения UInt32. |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Возвращает объект Transition, содержащий информацию о том, как указанный слайд переходит во время показа слайдов. Только для чтения [`ISlideShowTransition`](../islideshowtransition). |
+| [ThemeManager](../../aspose.slides/notesslide/thememanager) { get; } | Возвращает переопределяющий менеджер темы. Только для чтения [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager). |
+| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Возвращает объект анимационной временной шкалы. Только для чтения [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## Методы
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | Возвращает эффективную тему для этого слайда. |
-| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Определяет, равны ли два экземпляра IBaseSlide. Возвращаемое значение рассчитывается на основе структуры слайда и статического содержимого. Два слайда равны, если все фигуры, стили, тексты, анимации и другие настройки и т. д. равны. Сравнение не учитывает значения уникальных идентификаторов, например значения SlideId и динамического контента, например текущее значение даты в заполнителе даты. |
-| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Находит первое вхождение фигуры с заданным альтернативным текстом. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Объединяет части с одинаковым форматированием во всех абзацах всех допустимых фигур. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Объединяет части с одинаковым форматированием во всех абзацах во всех допустимых фигурах. |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Определяет, равны ли два экземпляра IBaseSlide. Возвращаемое значение вычисляется на основе структуры слайда и статического содержимого. Два слайда считаются равными, если все фигуры, стили, тексты, анимация и другие настройки и т.д. равны. Сравнение не учитывает уникальные идентификаторы, например SlideId, и динамическое содержимое, например текущее значение даты в Date Placeholder. |
+| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Ищет первое совпадение фигуры с указанным альтернативным текстом. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Объединяет текстовые отрезки с одинаковым форматированием во всех абзацах всех приемлемых фигур. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Объединяет текстовые отрезки с одинаковым форматированием во всех абзацах всех приемлемых фигур. |
 
 ### См. также
 
-* класс [BaseSlide](../baseslide)
-* интерфейс [INotesSlide](../inotesslide)
-* пространство имен [Aspose.Slides](../../aspose.slides)
-* сборка [Aspose.Slides](../../)
+* класс [BaseSlide](../baseslide)
+* интерфейс [INotesSlide](../inotesslide)
+* пространство имён [Aspose.Slides](../../aspose.slides)
+* сборка [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,12 +1,12 @@
 ---
 title: SvgExternalFontsHandling
-second_title: Aspose.Sildes dla .NET Referencja API
+second_title: Aspose.Sildes dla .NET - dokumentacja API
 description: Reprezentuje sposób obsługi zewnętrznych czcionek używanych do rysowania tekstu.
 type: docs
-weight: 4480
+weight: 4500
 url: /pl/aspose.slides.export/svgexternalfontshandling/
 ---
-## enumeracja SvgExternalFontsHandling
+## SvgExternalFontsHandling enumeracja
 
 Reprezentuje sposób obsługi zewnętrznych czcionek używanych do rysowania tekstu.
 
@@ -18,9 +18,9 @@ public enum SvgExternalFontsHandling
 
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
-| AddLinksToFontFiles | `0` | Dodaje odnośniki do oddzielnych plików czcionek w sekcji stylu pliku SVG. |
-| Embed | `1` | Zapisuje dane czcionek bezpośrednio w pliku SVG. Proszę sprawdzić wszystkie umowy licencyjne zewnętrznych czcionek przed użyciem tej opcji. |
-| Vectorize | `2` | Zapisuje cały tekst używający zewnętrznych czcionek jako grafikę. |
+| AddLinksToFontFiles | `0` | Dodaj odnośniki do oddzielnych plików czcionek w sekcji stylu pliku SVG. |
+| Embed | `1` | Zapisz dane czcionek bezpośrednio w pliku SVG. Proszę sprawdzić wszystkie umowy licencyjne zewnętrznych czcionek przed użyciem tej opcji. |
+| Vectorize | `2` | Zapisz cały tekst używający zewnętrznych czcionek jako grafikę. |
 
 ### Zobacz także
 

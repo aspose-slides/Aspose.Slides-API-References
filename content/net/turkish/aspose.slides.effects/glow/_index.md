@@ -1,14 +1,14 @@
 ---
 title: Glow
 second_title: Aspose.Sildes için .NET API Referansı
-description: Nesnenin kenarlarının dışına renkli bulanık bir kontur eklenen bir Glow efektini temsil eder.
+description: Nesnenin kenarlarının dışına renkli bulanık bir kontur eklenen bir Glow etkisini temsil eder.
 type: docs
-weight: 2970
+weight: 2990
 url: /tr/aspose.slides.effects/glow/
 ---
 ## Glow sınıfı
 
-Bir nesnenin kenarlarının dışına renkli bulanık bir kontur eklenen bir Glow etkisini temsil eder.
+Bir Glow etkisini temsil eder; bu efekt nesnenin kenarlarının dışına renkli bulanık bir kontur ekler.
 
 ```csharp
 public sealed class Glow : IGlow
@@ -18,18 +18,18 @@ public sealed class Glow : IGlow
 
 | Ad | Açıklama |
 | --- | --- |
-| [Color](../../aspose.slides.effects/glow/color) { get; } | Renk formatı. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Color](../../aspose.slides.effects/glow/color) { get; } | Renk biçimi. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Radius](../../aspose.slides.effects/glow/radius) { get; set; } | Yarıçap. Okunabilir/yazılabilir Double. |
 
 ## Metotlar
 
 | Ad | Açıklama |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/glow/equals)(object) | Belirtilen [`Glow`](../glow) öğesinin, geçerli [`Glow`](../glow) ile eşit olup olmadığını belirler. |
-| [GetEffective](../../aspose.slides.effects/glow/geteffective)() | Uygulanan kalıtımla etkili Glow efekt verilerini alır. |
-| override [GetHashCode](../../aspose.slides.effects/glow/gethashcode)() | Belirli bir tür için hash işlevi olarak hizmet verir. |
+| override [Equals](../../aspose.slides.effects/glow/equals)(object) | Belirtilen [`Glow`](../glow)'ın mevcut [`Glow`](../glow) ile eşit olup olmadığını belirler. |
+| [GetEffective](../../aspose.slides.effects/glow/geteffective)() | Uygulanan kalıtımla birlikte etkili Glow efekt verilerini alır. |
+| override [GetHashCode](../../aspose.slides.effects/glow/gethashcode)() | Belirli bir tür için bir karma işlevi olarak hizmet eder. |
 
-### Ayrıca Bakınız
+### Ayrıca bakınız
 
 * arayüz [IGlow](../iglow)
 * ad alanı [Aspose.Slides.Effects](../../aspose.slides.effects)

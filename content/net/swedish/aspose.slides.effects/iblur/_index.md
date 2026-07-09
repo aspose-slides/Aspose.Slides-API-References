@@ -1,14 +1,14 @@
 ---
 title: IBlur
-second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en Blur-effekt som appliceras på hela formen inklusive dess fyllning. Alla färgkanaler inklusive alfa påverkas.
+second_title: Aspose.Slides för .NET API-referens
+description: Representerar en Blur-effekt som tillämpas på hela formen inklusive dess fyllning. Alla färgkanaler inklusive alfa påverkas.
 type: docs
-weight: 3160
+weight: 3180
 url: /sv/aspose.slides.effects/iblur/
 ---
 ## IBlur gränssnitt
 
-Representerar en Blur-effekt som appliceras på hela formen, inklusive dess fyllning. Alla färgkanaler, inklusive alfa, påverkas.
+Representerar en Blur-effekt som tillämpas på hela formen, inklusive dess fyllning. Alla färgkanaler, inklusive alfa, påverkas.
 
 ```csharp
 public interface IBlur : IAccessiblePVIObject<IBlurEffectiveData>, IImageTransformOperation
@@ -18,10 +18,10 @@ public interface IBlur : IAccessiblePVIObject<IBlurEffectiveData>, IImageTransfo
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iblur/asiaccessiblepviobject) { get; } | Tillåter att hämta bas-gränssnittet IAccessiblePVIObject. Läs-endast [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iblur/asiimagetransformoperation) { get; } | Tillåter att hämta bas-gränssnittet IImageTransformOperation. Läs-endast [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Grow](../../aspose.slides.effects/iblur/grow) { get; set; } | Bestämmer om objektets gränser ska utökas som ett resultat av oskärpningen. True indikerar att gränserna utökas medan false indikerar att de inte gör det. Läs-skriv Boolean. |
-| [Radius](../../aspose.slides.effects/iblur/radius) { get; set; } | Returnerar eller anger oskarphetsradien. Läs-skriv Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iblur/asiaccessiblepviobject) { get; } | Tillåter att hämta bas-IAccessiblePVIObject-gränssnittet. Skrivskyddad [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iblur/asiimagetransformoperation) { get; } | Tillåter att hämta bas-IImageTransformOperation-gränssnittet. Skrivskyddad [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Grow](../../aspose.slides.effects/iblur/grow) { get; set; } | Bestämmer om objektets gränser ska ökas som ett resultat av oskärpan. True indikerar att gränserna ökas medan false indikerar att de inte gör det. Läs/skriv Boolean. |
+| [Radius](../../aspose.slides.effects/iblur/radius) { get; set; } | Returnerar eller anger blur radius. Läs/skriv Double. |
 
 ### Se också
 

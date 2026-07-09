@@ -1,14 +1,14 @@
 ---
 title: BehaviorAccumulateType
 second_title: Aspose.Sildes for .NET API リファレンス
-description: エフェクトの動作の蓄積タイプを表します。
+description: エフェクト動作の蓄積タイプを表します。
 type: docs
-weight: 130
+weight: 150
 url: /ja/aspose.slides.animation/behavioraccumulatetype/
 ---
 ## BehaviorAccumulateType 列挙型
 
-エフェクトの動作の蓄積タイプを表します。
+効果の動作の蓄積タイプを表します。
 
 ```csharp
 public enum BehaviorAccumulateType

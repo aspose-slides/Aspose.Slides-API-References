@@ -3,10 +3,10 @@ title: IFormat
 second_title: Aspose.Sildes for .NET API リファレンス
 description: チャートの書式プロパティを表します。
 type: docs
-weight: 2080
+weight: 2100
 url: /ja/aspose.slides.charts/iformat/
 ---
-## IFormat インターフェイス
+## IFormat インタフェース
 
 チャートの書式プロパティを表します。
 
@@ -18,12 +18,12 @@ public interface IFormat
 
 | 名前 | 説明 |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/iformat/effect) { get; } | チャートで使用されるエフェクトを返します。読み取り専用 [`IEffectFormat`](../../aspose.slides/ieffectformat)。 |
+| [Effect](../../aspose.slides.charts/iformat/effect) { get; } | チャートに使用されるエフェクトを返します。読み取り専用 [`IEffectFormat`](../../aspose.slides/ieffectformat)。 |
 | [Effect3D](../../aspose.slides.charts/iformat/effect3d) { get; } | チャートの3D書式を返します。読み取り専用 [`IThreeDFormat`](../../aspose.slides/ithreedformat)。 |
 | [Fill](../../aspose.slides.charts/iformat/fill) { get; } | チャートの塗りつぶしスタイルプロパティを返します。読み取り専用 [`IFillFormat`](../../aspose.slides/ifillformat)。 |
 | [Line](../../aspose.slides.charts/iformat/line) { get; } | チャートの線スタイルプロパティを返します。読み取り専用 [`ILineFormat`](../../aspose.slides/ilineformat)。 |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * アセンブリ [Aspose.Slides](../../)

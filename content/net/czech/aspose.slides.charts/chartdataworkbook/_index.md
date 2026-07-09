@@ -1,19 +1,18 @@
 ---
 title: ChartDataWorkbook
-second_title: Aspose.Sildes pro .NET API Reference
-description: Poskytuje přístup k vloženému sešitu Excel
+second_title: Aspose.Sildes pro .NET API referenci
+description: Poskytuje přístup k vloženému Excelovému sešitu
 type: docs
-weight: 1360
+weight: 1380
 url: /cs/aspose.slides.charts/chartdataworkbook/
 ---
 ## ChartDataWorkbook třída
 
-Poskytuje přístup k vložené sešitu Excel
+Poskytuje přístup k vloženému sešitu Excel
 
 ```csharp
 public class ChartDataWorkbook : DomObject<ChartData>, IChartDataWorkbook
 ```
-
 
 ## Vlastnosti
 
@@ -26,12 +25,12 @@ public class ChartDataWorkbook : DomObject<ChartData>, IChartDataWorkbook
 | Název | Popis |
 | --- | --- |
 | [CalculateFormulas](../../aspose.slides.charts/chartdataworkbook/calculateformulas)() | Vypočítá všechny vzorce v sešitu a aktualizuje odpovídající hodnoty buněk. |
-| [Clear](../../aspose.slides.charts/chartdataworkbook/clear)(int) | Vymaže všechny hodnoty buněk na listu |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_2)(int, string) | Vrací buňku, která může být použita pro řady grafu nebo kategorie |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell)(int, int, int) | Vrací buňku, která může být použita pro řady grafu nebo kategorie |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_3)(int, string, object) | Vrací buňku, která může být použita pro řady grafu nebo kategorie |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_4)(string, int, int) | Vrací buňku, která může být použita pro řady grafu nebo kategorie |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_1)(int, int, int, object) | Vrací buňku, která může být použita pro řady grafu nebo kategorie |
+| [Clear](../../aspose.slides.charts/chartdataworkbook/clear)(int) | Vyčistí všechny hodnoty buněk na listu |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_2)(int, string) | Vrací buňku, která může být použita pro řadu grafu nebo kategorie |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell)(int, int, int) | Vrací buňku, která může být použita pro řadu grafu nebo kategorie |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_3)(int, string, object) | Vrací buňku, která může být použita pro řadu grafu nebo kategorie |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_4)(string, int, int) | Vrací buňku, která může být použita pro řadu grafu nebo kategorie |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_1)(int, int, int, object) | Vrací buňku, která může být použita pro řadu grafu nebo kategorie |
 | [GetCellCollection](../../aspose.slides.charts/chartdataworkbook/getcellcollection)(string, bool) | Vrací sadu buněk. |
 
 ### Viz také

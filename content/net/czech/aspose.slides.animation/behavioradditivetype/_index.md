@@ -3,10 +3,10 @@ title: BehaviorAdditiveType
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje aditivní typ pro chování efektu.
 type: docs
-weight: 140
+weight: 160
 url: /cs/aspose.slides.animation/behavioradditivetype/
 ---
-## BehaviorAdditiveType enumerace
+## BehaviorAdditiveType výčet
 
 Reprezentuje aditivní typ pro chování efektu.
 

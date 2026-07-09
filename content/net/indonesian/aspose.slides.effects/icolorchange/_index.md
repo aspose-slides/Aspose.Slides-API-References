@@ -3,10 +3,10 @@ title: IColorChange
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili efek Color Change. Instance FromColor digantikan dengan instance ToColor.
 type: docs
-weight: 3200
+weight: 3220
 url: /id/aspose.slides.effects/icolorchange/
 ---
-## antarmuka IColorChange
+## IColorChange antarmuka
 
 Mewakili efek Color Change. Instance FromColor digantikan dengan instance ToColor.
 
@@ -19,10 +19,10 @@ public interface IColorChange : IAccessiblePVIObject<IColorChangeEffectiveData>,
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorchange/asiaccessiblepviobject) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IAccessiblePVIObject. Hanya baca [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/icolorchange/asiimagetransformoperation) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IImageTransformOperation. Hanya baca [`IImageTransformOperation`](../iimagetransformoperation). |
-| [FromColor](../../aspose.slides.effects/icolorchange/fromcolor) { get; } | Color yang akan digantikan. Hanya baca [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [ToColor](../../aspose.slides.effects/icolorchange/tocolor) { get; } | Color yang akan menggantikan. Hanya baca [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorchange/asiaccessiblepviobject) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IAccessiblePVIObject. Baca-saja [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/icolorchange/asiimagetransformoperation) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IImageTransformOperation. Baca-saja [`IImageTransformOperation`](../iimagetransformoperation). |
+| [FromColor](../../aspose.slides.effects/icolorchange/fromcolor) { get; } | Warna yang akan diganti. Baca-saja [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [ToColor](../../aspose.slides.effects/icolorchange/tocolor) { get; } | Warna yang akan menggantikan. Baca-saja [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Lihat Juga
 

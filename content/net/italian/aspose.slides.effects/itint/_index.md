@@ -1,14 +1,14 @@
 ---
 title: ITint
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta un effetto Tint. Sposta i valori di colore dell'effetto verso o lontano dalla tinta di una quantità specificata.
+second_title: Aspose.Sildes per il riferimento API .NET
+description: Rappresenta un effetto Tint. Sposta i valori di colore dell'effetto verso/lontano dalla tonalità di una quantità specificata.
 type: docs
-weight: 3520
+weight: 3540
 url: /it/aspose.slides.effects/itint/
 ---
-## ITint interfaccia
+## interfaccia ITint
 
-Rappresenta un effetto Tint. Sposta i valori di colore dell'effetto verso o lontano dalla tinta di una quantità specificata.
+Rappresenta un effetto Tint. Sposta i valori di colore dell'effetto verso/lontano dalla tonalità di una quantità specificata.
 
 ```csharp
 public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransformOperation
@@ -18,8 +18,8 @@ public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransfo
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/itint/asiaccessiblepviobject) { get; } | Consente di ottenere l'interfaccia base IAccessiblePVIObject. Sola lettura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/itint/asiimagetransformoperation) { get; } | Consente di ottenere l'interfaccia base IImageTransformOperation. Sola lettura [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/itint/asiaccessiblepviobject) { get; } | Consente di ottenere l'interfaccia base IAccessiblePVIObject. Solo lettura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/itint/asiimagetransformoperation) { get; } | Consente di ottenere l'interfaccia base IImageTransformOperation. Solo lettura [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Vedi anche
 

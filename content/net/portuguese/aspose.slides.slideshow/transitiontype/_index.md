@@ -1,12 +1,12 @@
 ---
 title: TransitionType
-second_title: Aspose.Sildes para .NET Referência de API
+second_title: Aspose.Sildes para .NET API Referência
 description: Representa o tipo de transição de apresentação de slides.
 type: docs
-weight: 10430
+weight: 10450
 url: /pt/aspose.slides.slideshow/transitiontype/
 ---
-## enumeração TransitionType
+## TransitionType enumeração
 
 Representa o tipo de transição de apresentação de slides.
 
@@ -25,11 +25,11 @@ public enum TransitionType
 | Comb | `4` |  |
 | Cover | `5` |  |
 | Cut | `6` |  |
-| Diamond | `7` | Relaciona-se à transição Diamond (com a opção Diamond) no PowerPoint 2010. |
+| Diamond | `7` | Relaciona-se à transição Shape (com a opção Diamond) no PowerPoint 2010. |
 | Dissolve | `8` |  |
 | Fade | `9` |  |
 | Newsflash | `10` |  |
-| Plus | `11` | Relaciona-se à transição Plus (com a opção Plus) no PowerPoint 2010. |
+| Plus | `11` | Relaciona-se à transição Shape (com a opção Plus) no PowerPoint 2010. |
 | Pull | `12` |  |
 | Push | `13` |  |
 | Random | `14` |  |
@@ -39,7 +39,7 @@ public enum TransitionType
 | Wedge | `18` | Relaciona-se à transição Clock (com a opção Wedge) no PowerPoint 2010. |
 | Wheel | `19` | Relaciona-se à transição Clock (com a opção Clockwise) no PowerPoint 2010. |
 | Wipe | `20` |  |
-| Zoom | `21` | Relaciona-se à transição Shape (com as opções In/Out) no PowerPoint 2010. Consulte também Warp que se relaciona à transição Zoom no PowerPoint 2010. |
+| Zoom | `21` | Relaciona-se à transição Shape (com as opções In/Out) no PowerPoint 2010. Veja também Warp que se relaciona à transição Zoom no PowerPoint 2010. |
 | Vortex | `22` | Disponível no PowerPoint 2010. |
 | Switch | `23` | Disponível no PowerPoint 2010. |
 | Flip | `24` | Disponível no PowerPoint 2010. |
@@ -76,7 +76,7 @@ public enum TransitionType
 | Origami | `55` | Disponível no PowerPoint 2013. |
 | Morph | `56` | Relaciona-se à transição Morph (com a opção Type) no PowerPoint 2019. |
 
-### Ver também
+### Veja Também
 
 * espaço de nomes [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * assembly [Aspose.Slides](../../)

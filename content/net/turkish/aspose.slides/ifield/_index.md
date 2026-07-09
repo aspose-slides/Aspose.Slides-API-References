@@ -1,14 +1,14 @@
 ---
 title: IField
-second_title: Aspose.Sildes .NET için API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Bir alanı temsil eder.
 type: docs
-weight: 5750
+weight: 5770
 url: /tr/aspose.slides/ifield/
 ---
 ## IField arayüz
 
-Temsil eder bir alan.
+Bir alanı temsil eder.
 
 ```csharp
 public interface IField : ISlideComponent
@@ -18,8 +18,8 @@ public interface IField : ISlideComponent
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/ifield/asislidecomponent) { get; } | Temel ISlideComponent arayüzünü almaya izin verir. Yalnızca okunabilir [`ISlideComponent`](../islidecomponent). |
-| [Type](../../aspose.slides/ifield/type) { get; set; } | Alan türünü döndürür veya ayarlar. Okuma/Yazma [`IFieldType`](../ifieldtype). |
+| [AsISlideComponent](../../aspose.slides/ifield/asislidecomponent) { get; } | Base ISlideComponent arayüzünü almayı sağlar. Salt okunur [`ISlideComponent`](../islidecomponent). |
+| [Type](../../aspose.slides/ifield/type) { get; set; } | Alan tipini döndürür veya ayarlar. Okunabilir/yazılabilir [`IFieldType`](../ifieldtype). |
 
 ### Ayrıca Bakınız
 

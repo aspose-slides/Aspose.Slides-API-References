@@ -3,12 +3,12 @@ title: IBiLevel
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar bas IImageTransformOperation-gränssnittet.
 type: docs
-weight: 3140
+weight: 3160
 url: /sv/aspose.slides.effects/ibilevel/
 ---
-## IBiLevel gränssnitt
+## IBiLevel interface
 
-Representerar bas-IImageTransformOperation-gränssnittet.
+Representerar bas IImageTransformOperation-gränssnittet.
 
 ```csharp
 public interface IBiLevel : IAccessiblePVIObject<IBiLevelEffectiveData>, IImageTransformOperation
@@ -18,10 +18,10 @@ public interface IBiLevel : IAccessiblePVIObject<IBiLevelEffectiveData>, IImageT
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ibilevel/asiaccessiblepviobject) { get; } | Tillåter att hämta bas IAccessiblePVIObject gränssnittet. Skrivskyddad [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ibilevel/asiimagetransformoperation) { get; } | Tillåter att hämta bas IImageTransformOperation gränssnittet. Skrivskyddad [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ibilevel/asiaccessiblepviobject) { get; } | Tillåter att hämta bas IAccessiblePVIObject-gränssnittet. Skrivskyddad [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ibilevel/asiimagetransformoperation) { get; } | Tillåter att hämta bas IImageTransformOperation-gränssnittet. Skrivskyddad [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### Se även
+### Se också
 
 * gränssnitt [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * gränssnitt [IBiLevelEffectiveData](../ibileveleffectivedata)

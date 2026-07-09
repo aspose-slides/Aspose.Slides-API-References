@@ -1,14 +1,14 @@
 ---
 title: FillFormatCollection
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili koleksi gaya pengisian.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili koleksi gaya isian.
 type: docs
-weight: 11100
+weight: 11120
 url: /id/aspose.slides.theme/fillformatcollection/
 ---
 ## FillFormatCollection kelas
 
-Mewakili koleksi gaya pengisian.
+Mewakili koleksi gaya isian.
 
 ```csharp
 public sealed class FillFormatCollection : DomObject<FormatScheme>, IFillFormatCollection
@@ -18,10 +18,10 @@ public sealed class FillFormatCollection : DomObject<FormatScheme>, IFillFormatC
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Count](../../aspose.slides.theme/fillformatcollection/count) { get; } | Mengambil jumlah elemen yang sebenarnya terdapat dalam koleksi. Hanya-baca Int32. |
-| [IsSynchronized](../../aspose.slides.theme/fillformatcollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (thread-safe). Hanya-baca Boolean. |
-| [Item](../../aspose.slides.theme/fillformatcollection/item) { get; } | Mengambil elemen pada indeks yang ditentukan. Hanya-baca [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [SyncRoot](../../aspose.slides.theme/fillformatcollection/syncroot) { get; } | Mengembalikan akar sinkronisasi. Hanya-baca Object. |
+| [Count](../../aspose.slides.theme/fillformatcollection/count) { get; } | Mendapatkan jumlah elemen yang sebenarnya terdapat dalam koleksi. Baca-saja Int32. |
+| [IsSynchronized](../../aspose.slides.theme/fillformatcollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (aman terhadap thread). Baca-saja Boolean. |
+| [Item](../../aspose.slides.theme/fillformatcollection/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. Baca-saja [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [SyncRoot](../../aspose.slides.theme/fillformatcollection/syncroot) { get; } | Mengembalikan akar sinkronisasi. Baca-saja Object. |
 
 ## Metode
 

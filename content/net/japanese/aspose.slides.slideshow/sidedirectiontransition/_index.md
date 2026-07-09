@@ -3,7 +3,7 @@ title: SideDirectionTransition
 second_title: Aspose.Sildes for .NET API リファレンス
 description: サイド方向のスライド遷移効果。
 type: docs
-weight: 10290
+weight: 10310
 url: /ja/aspose.slides.slideshow/sidedirectiontransition/
 ---
 ## SideDirectionTransition クラス
@@ -16,16 +16,16 @@ public class SideDirectionTransition : TransitionValueBase, ISideDirectionTransi
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/sidedirectiontransition/direction) { get; set; } | 遷移の方向。読み取り/書き込み [`TransitionSideDirectionType`](../transitionsidedirectiontype)。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 2つの TransitionValueBase インスタンスが等しいかどうかを判断します。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 特定の型に対するハッシュ関数として機能し、ハッシュアルゴリズムやハッシュテーブルのようなデータ構造での使用に適しています。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 特定の型に対するハッシュ関数として機能し、ハッシュアルゴリズムやハッシュテーブルなどのデータ構造での使用に適しています。 |
 
 ### 関連項目
 

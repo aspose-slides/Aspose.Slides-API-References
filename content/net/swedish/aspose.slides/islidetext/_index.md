@@ -1,14 +1,14 @@
 ---
 title: ISlideText
-second_title: Aspose.Sildes för .NET API-referens
+second_title: Aspose.Slides för .NET API-referens
 description: Representerar den text som extraheras från bilden
 type: docs
-weight: 7080
+weight: 7100
 url: /sv/aspose.slides/islidetext/
 ---
 ## ISlideText gränssnitt
 
-Representerar den text som extraheras från bilden
+Representerar den extraherade texten från bilden
 
 ```csharp
 public interface ISlideText
@@ -18,10 +18,10 @@ public interface ISlideText
 
 | Namn | Beskrivning |
 | --- | --- |
-| [CommentsText](../../aspose.slides/islidetext/commentstext) { get; } | Texten för bildens kommentarer |
+| [CommentsText](../../aspose.slides/islidetext/commentstext) { get; } | Texten i bildkommentarerna |
 | [LayoutText](../../aspose.slides/islidetext/layouttext) { get; } | Texten på layoutsidans former för den här bilden |
-| [MasterText](../../aspose.slides/islidetext/mastertext) { get; } | Texten på huvudsidans former för den här bilden |
-| [NotesText](../../aspose.slides/islidetext/notestext) { get; } | Texten på notessidans former för den här bilden |
+| [MasterText](../../aspose.slides/islidetext/mastertext) { get; } | Texten på master-sidans former för den här bilden |
+| [NotesText](../../aspose.slides/islidetext/notestext) { get; } | Texten på anteckningssidans former för den här bilden |
 | [Text](../../aspose.slides/islidetext/text) { get; } | Texten på bildens former |
 
 ### Se även

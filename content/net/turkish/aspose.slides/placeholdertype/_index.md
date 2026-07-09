@@ -1,12 +1,12 @@
 ---
 title: PlaceholderType
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Bir yer tutucunun türünü temsil eder.
 type: docs
-weight: 9430
+weight: 9450
 url: /tr/aspose.slides/placeholdertype/
 ---
-## PlaceholderType enumu
+## PlaceholderType enum
 
 Bir yer tutucunun türünü temsil eder.
 
@@ -29,7 +29,7 @@ public enum PlaceholderType : sbyte
 | Object | `8` | Nesne. |
 | Chart | `9` | Grafik. |
 | Table | `10` | Tablo. |
-| ClipArt | `11` | Clip Art. |
+| ClipArt | `11` | Klip Sanatı. |
 | Diagram | `12` | Diyagram. |
 | Media | `13` | Medya. |
 | SlideImage | `14` | Slayt Görüntüsü. |

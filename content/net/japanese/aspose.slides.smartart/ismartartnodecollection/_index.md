@@ -3,7 +3,7 @@ title: ISmartArtNodeCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: SmartArt ノードのコレクションを表します。
 type: docs
-weight: 10540
+weight: 10560
 url: /ja/aspose.slides.smartart/ismartartnodecollection/
 ---
 ## ISmartArtNodeCollection インターフェイス
@@ -18,18 +18,18 @@ public interface ISmartArtNodeCollection : IGenericCollection<ISmartArtNode>
 
 | 名前 | 説明 |
 | --- | --- |
-| [Item](../../aspose.slides.smartart/ismartartnodecollection/item) { get; } | インデックスでノードを返します。読み取り専用 [`ISmartArtNode`](../ismartartnode) |
+| [Item](../../aspose.slides.smartart/ismartartnodecollection/item) { get; } | インデックスでノードを取得します。読み取り専用 [`ISmartArtNode`](../ismartartnode) |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
 | [AddNode](../../aspose.slides.smartart/ismartartnodecollection/addnode)() | 新しいノードまたはサブノードを追加します。 |
-| [AddNodeByPosition](../../aspose.slides.smartart/ismartartnodecollection/addnodebyposition)(int) | ノード コレクションの選択された位置に新しいノードを追加します。 |
+| [AddNodeByPosition](../../aspose.slides.smartart/ismartartnodecollection/addnodebyposition)(int) | ノードコレクションの選択した位置に新しいノードを追加します。 |
 | [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode_1)(int) | インデックスでノードまたはサブノードを削除します。 |
 | [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode)(ISmartArtNode) | ノードまたはサブノードを削除します。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * インターフェイス [ISmartArtNode](../ismartartnode)

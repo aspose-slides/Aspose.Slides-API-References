@@ -1,13 +1,12 @@
 ---
 title: SectionCollection
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente une collection de sections.
 type: docs
-weight: 9490
+weight: 9760
 url: /fr/aspose.slides/sectioncollection/
 ---
-
-## SectionCollection class
+## SectionCollection classe
 
 Représente une collection de sections.
 
@@ -15,36 +14,36 @@ Représente une collection de sections.
 public sealed class SectionCollection : DomObject<Presentation>, ISectionCollection
 ```
 
-## Properties
+## Propriétés
 
 | Nom | Description |
 | --- | --- |
-| [Count](../../aspose.slides/sectioncollection/count) { get; } | Obtient le nombre d'éléments réellement contenus dans la collection. Lecture seule Int32. |
-| [IsSynchronized](../../aspose.slides/sectioncollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (thread-safe). Lecture seule Boolean. |
-| [Item](../../aspose.slides/sectioncollection/item) { get; } | Obtient l'élément à l'index spécifié. Lecture seule [`ISection`](../isection). |
-| [SyncRoot](../../aspose.slides/sectioncollection/syncroot) { get; } | Renvoie une racine de synchronisation. Lecture seule Object. |
+| [Count](../../aspose.slides/sectioncollection/count) { get; } | Obtient le nombre d'éléments réellement contenus dans la collection. Lecture seule Int32. |
+| [IsSynchronized](../../aspose.slides/sectioncollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (thread-safe). Lecture seule Boolean. |
+| [Item](../../aspose.slides/sectioncollection/item) { get; } | Obtient l'élément à l'index spécifié. Lecture seule [`ISection`](../isection). |
+| [SyncRoot](../../aspose.slides/sectioncollection/syncroot) { get; } | Renvoie une racine de synchronisation. Lecture seule Object. |
 
-## Methods
+## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [AddEmptySection](../../aspose.slides/sectioncollection/addemptysection)(string, int) | Ajoute une section vide à la position spécifiée de la collection. |
-| [AddSection](../../aspose.slides/sectioncollection/addsection)(string, ISlide) | Ajoute une section de diapositives commencée à partir d'une diapositive spécifique. |
+| [AddEmptySection](../../aspose.slides/sectioncollection/addemptysection)(string, int) | Ajoute une section vide à la position spécifiée de la collection. |
+| [AddSection](../../aspose.slides/sectioncollection/addsection)(string, ISlide) | Ajoute une section de diapositives démarrant à partir d'une diapositive spécifique. |
 | [AppendEmptySection](../../aspose.slides/sectioncollection/appendemptysection)(string) | Ajoute une section vide à la fin de la collection. |
 | [Clear](../../aspose.slides/sectioncollection/clear)() | Supprime toutes les sections de la collection. |
-| [CopyTo](../../aspose.slides/sectioncollection/copyto)(Array, int) | Copie l'intégralité de la collection dans le tableau spécifié. |
-| [GetEnumerator](../../aspose.slides/sectioncollection/getenumerator)() | Renvoie un énumérateur qui itère à travers la collection. |
-| [IndexOf](../../aspose.slides/sectioncollection/indexof)(ISection) | Renvoie un index de la section spécifiée dans la collection. |
-| [RemoveSection](../../aspose.slides/sectioncollection/removesection)(ISection) | Supprime la section. Les diapositives contenues dans la section seront fusionnées dans la section précédente. |
-| [RemoveSectionWithSlides](../../aspose.slides/sectioncollection/removesectionwithslides)(ISection) | Supprime la section et les diapositives contenues dans la section. |
-| [ReorderSectionWithSlides](../../aspose.slides/sectioncollection/reordersectionwithslides)(ISection, int) | Déplace la section et ses diapositives de la collection vers la position spécifiée. |
+| [CopyTo](../../aspose.slides/sectioncollection/copyto)(Array, int) | Copie l'intégralité de la collection dans le tableau spécifié. |
+| [GetEnumerator](../../aspose.slides/sectioncollection/getenumerator)() | Renvoie un énumérateur qui parcourt la collection. |
+| [IndexOf](../../aspose.slides/sectioncollection/indexof)(ISection) | Renvoie l'index de la section spécifiée dans la collection. |
+| [RemoveSection](../../aspose.slides/sectioncollection/removesection)(ISection) | Supprime la section. Les diapositives contenues dans la section seront fusionnées avec la section précédente. |
+| [RemoveSectionWithSlides](../../aspose.slides/sectioncollection/removesectionwithslides)(ISection) | Supprime la section et les diapositives qu'elle contient. |
+| [ReorderSectionWithSlides](../../aspose.slides/sectioncollection/reordersectionwithslides)(ISection, int) | Déplace la section et ses diapositives de la collection vers la position spécifiée. |
 
-### See Also
+### Voir aussi
 
-* class [DomObject&lt;TParent&gt;](../domobject-1)
-* class [Presentation](../presentation)
-* interface [ISectionCollection](../isectioncollection)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* classe [DomObject&lt;TParent&gt;](../domobject-1)
+* classe [Presentation](../presentation)
+* interface [ISectionCollection](../isectioncollection)
+* espace de noms [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

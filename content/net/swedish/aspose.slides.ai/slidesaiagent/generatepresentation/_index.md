@@ -1,14 +1,14 @@
 ---
 title: GeneratePresentation
 second_title: Aspose.Sildes för .NET API-referens
-description: Genererar ett presentationsobjekt från en textbeskrivning. Ange ett ämne, idéer, citat eller textsnuttar på det begärda språket.
+description: Genererar en presentationsinstans från en textbeskrivning. Ange ett ämne, idéer, citat eller textsnuttar på det erforderliga språket.
 type: docs
 weight: 20
 url: /sv/aspose.slides.ai/slidesaiagent/generatepresentation/
 ---
 ## GeneratePresentation(string, PresentationContentAmountType) {#generatepresentation}
 
-Genererar ett presentationsobjekt från en textbeskrivning. Ange ett ämne, idéer, citat eller textsnuttar på det begärda språket.
+Skapar en presentationsinstans från en textbeskrivning. Ange ett ämne, idéer, citat eller textsnuttar på det erforderliga språket.
 
 ```csharp
 public IPresentation GeneratePresentation(string description, 
@@ -17,53 +17,69 @@ public IPresentation GeneratePresentation(string description,
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| description | String | Ämnet, idéerna, citaten eller textsnuttarna. |
+| description | String | Ämnet, idéer, citat eller textsnuttar. |
 | presentationContentAmount | PresentationContentAmountType | Mängden innehåll i den resulterande presentationen. |
 
 ### Undantag
 
-| Undantag | Villkor |
+| undantag | villkor |
 | --- | --- |
-| ArgumentException | AI chat instruction can't be null or empty. |
+| ArgumentException | AI-chattinstruktionen får inte vara null eller tom. |
 
-### Se också
+### Anmärkningar
 
-* interface [IPresentation](../../../aspose.slides/ipresentation)
-* enum [PresentationContentAmountType](../../presentationcontentamounttype)
-* class [SlidesAIAgent](../../slidesaiagent)
-* namespace [Aspose.Slides.AI](../../slidesaiagent)
+Exemplet nedan använder standard-[`AsposeAIWebClient`](../../asposeaiwebclient), som skapas av den parameterlösa [`SlidesAIAgent`](../slidesaiagent)-konstruktorn och ansluter till Asposes egna LLM. För att använda en annan AI-leverantör, tillhandahåll din egen LLM, eller anpassa anslutningen (till exempel genom att tillhandahålla din egen `HttpClient`), skicka en [`IAIWebClient`](../../iaiwebclient)-implementation till [`SlidesAIAgent`](../slidesaiagent)-konstruktorn. Tillgängliga implementationer inkluderar:
+
+* [`AsposeAIWebClient`](../../asposeaiwebclient)
+* [`OpenAIWebClient`](../../openaiwebclient)
+* [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
+
+### Se även
+
+* gränssnitt [IPresentation](../../../aspose.slides/ipresentation)
+* enumeration [PresentationContentAmountType](../../presentationcontentamounttype)
+* klass [SlidesAIAgent](../../slidesaiagent)
+* namnutrymme [Aspose.Slides.AI](../../slidesaiagent)
 * assembly [Aspose.Slides](../../../)
 
 ---
 
 ## GeneratePresentation(string, PresentationContentAmountType, IPresentation) {#generatepresentation_1}
 
-Genererar ett presentationsobjekt från en textbeskrivning. Ange ett ämne, idéer, citat eller textsnuttar på det begärda språket.
+Skapar en presentationsinstans från en textbeskrivning. Ange ett ämne, idéer, citat eller textsnuttar på det erforderliga språket.
 
 ```csharp
-public IPresentation GeneratePresentation(string description, 
+public IPPresentation GeneratePresentation(string description, 
     PresentationContentAmountType presentationContentAmount, IPresentation presentationTemplate)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| description | String | Ämnet, idéerna, citaten eller textsnuttarna. |
+| description | String | Ämnet, idéer, citat eller textsnuttar. |
 | presentationContentAmount | PresentationContentAmountType | Mängden innehåll i den resulterande presentationen. |
 | presentationTemplate | IPresentation | En presentation att använda som mall för layout och design, som ersätter standardmallen. |
 
 ### Undantag
 
-| Undantag | Villkor |
+| undantag | villkor |
 | --- | --- |
-| ArgumentNullException | Presentation template is not provided. |
-| ArgumentException | AI chat instruction can't be null or empty. |
+| ArgumentNullException | Presentationsmallen har inte angetts. |
+| ArgumentException | AI-chattinstruktionen får inte vara null eller tom. |
 
-### Se också
+### Anmärkningar
 
-* interface [IPresentation](../../../aspose.slides/ipresentation)
-* enum [PresentationContentAmountType](../../presentationcontentamounttype)
-* class [SlidesAIAgent](../../slidesaiagent)
-* namespace [Aspose.Slides.AI](../../slidesaiagent)
+Exemplet nedan använder standard-[`AsposeAIWebClient`](../../asposeaiwebclient), som skapas av den parameterlösa [`SlidesAIAgent`](../slidesaiagent)-konstruktorn och ansluter till Asposes egna LLM. För att använda en annan AI-leverantör, tillhandahåll din egen LLM, eller anpassa anslutningen (till exempel genom att tillhandahålla din egen `HttpClient`), skicka en [`IAIWebClient`](../../iaiwebclient)-implementation till [`SlidesAIAgent`](../slidesaiagent)-konstruktorn. Tillgängliga implementationer inkluderar:
+
+* [`AsposeAIWebClient`](../../asposeaiwebclient)
+* [`OpenAIWebClient`](../../openaiwebclient)
+* [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
+
+### Se även
+
+* gränssnitt [IPresentation](../../../aspose.slides/ipresentation)
+* enumeration [PresentationContentAmountType](../../presentationcontentamounttype)
+* klass [SlidesAIAgent](../../slidesaiagent)
+* namnutrymme [Aspose.Slides.AI](../../slidesaiagent)
 * assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: AdjustValue
 second_title: Aspose.Sildes .NET API referencia
-description: Geometriai alakzatok módosítási értékét képviseli. Ezek az értékek befolyásolják az alakzatok formáját.
+description: Representál egy geometriai alakzat beállítási értékét. Ezek az értékek befolyásolják az alakzatok formáját.
 type: docs
-weight: 70
+weight: 90
 url: /hu/aspose.slides/adjustvalue/
 ---
 ## AdjustValue osztály
 
-A geometriai alakzat módosítási értékét reprezentálja. Ezek az értékek befolyásolják az alakzat formáját.
+Representálja egy geometriai alakzat korrekciós értékét. Ezek az értékek befolyásolják az alakzat formáját.
 
 ```csharp
 public class AdjustValue : IAdjustValue
@@ -18,10 +18,10 @@ public class AdjustValue : IAdjustValue
 
 | Név | Leírás |
 | --- | --- |
-| [AngleValue](../../aspose.slides/adjustvalue/anglevalue) { get; set; } | Visszaadja vagy beállítja az értéket, amelyet fokban kifejezett szögeként értelmez. Olvasás/írás Single. |
-| [Name](../../aspose.slides/adjustvalue/name) { get; } | Visszaadja ennek a módosítási értéknek a nevét. Csak olvasható String. |
-| [RawValue](../../aspose.slides/adjustvalue/rawvalue) { get; set; } | Visszaadja vagy beállítja a módosítási értéket „ahogy van”. Olvasás/írás Int64. |
-| [Type](../../aspose.slides/adjustvalue/type) { get; } | Visszaadja a forma módosítás típusát. Csak olvasható [`ShapeAdjustmentType`](../shapeadjustmenttype). |
+| [AngleValue](../../aspose.slides/adjustvalue/anglevalue) { get; set; } | Visszaadja vagy beállítja az értéket, amelyet fokban mért szögekként értelmez. Olvasás/írás Single. |
+| [Name](../../aspose.slides/adjustvalue/name) { get; } | Visszaadja ennek a beállítási értéknek a nevét. Csak olvasható String. |
+| [RawValue](../../aspose.slides/adjustvalue/rawvalue) { get; set; } | Visszaadja vagy beállítja a beállítási értéket „ahogy van”. Olvasás/írás Int64. |
+| [Type](../../aspose.slides/adjustvalue/type) { get; } | Visszaadja a forma beállításának típusát. Csak olvasható [`ShapeAdjustmentType`](../shapeadjustmenttype). |
 
 ### Lásd még
 

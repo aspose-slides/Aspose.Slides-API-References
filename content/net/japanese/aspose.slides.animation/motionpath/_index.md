@@ -3,38 +3,38 @@ title: MotionPath
 second_title: Aspose.Sildes for .NET API リファレンス
 description: モーションパスを表します。
 type: docs
-weight: 670
+weight: 690
 url: /ja/aspose.slides.animation/motionpath/
 ---
 ## MotionPath クラス
 
-モーション パスを表します。
+モーションパスを表します。
 
 ```csharp
 public class MotionPath : IMotionPath
 ```
 
-## コンストラクター
+## コンストラクタ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [MotionPath](motionpath)() | デフォルト コンストラクターです。 |
+| [MotionPath](motionpath)() | デフォルトコンストラクタです。 |
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides.animation/motionpath/count) { get; } | コレクション内のパスの数を返します。読み取り専用 Int32。 |
 | [Item](../../aspose.slides.animation/motionpath/item) { get; } | 指定されたインデックスのコマンドを返します。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides.animation/motionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | パスに新しいコマンドを追加します。 |
+| [Add](../../aspose.slides.animation/motionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | パスに新しいコマンドを追加します |
 | [Clear](../../aspose.slides.animation/motionpath/clear)() | コレクションからすべてのコマンドを削除します。 |
 | [GetEnumerator](../../aspose.slides.animation/motionpath/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
-| [Insert](../../aspose.slides.animation/motionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | パスに新しいコマンドを挿入します。 |
+| [Insert](../../aspose.slides.animation/motionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | パスに新しいコマンドを挿入します |
 | [Remove](../../aspose.slides.animation/motionpath/remove)(IMotionCmdPath) | コレクションから指定されたコマンドを削除します。 |
 | [RemoveAt](../../aspose.slides.animation/motionpath/removeat)(int) | 指定されたインデックスのコマンドを削除します。 |
 

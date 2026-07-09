@@ -1,14 +1,14 @@
 ---
 title: SplitTransition
 second_title: Aspose.Sildes dla .NET API Reference
-description: Efekt przejścia slajdu podzielonego.
+description: Efekt przejścia slajdu dzielonego.
 type: docs
-weight: 10310
+weight: 10330
 url: /pl/aspose.slides.slideshow/splittransition/
 ---
-## SplitTransition klasa
+## Klasa SplitTransition
 
-Efekt przejścia slajdu podzielonego.
+Efekt przejścia slajdu dzielonego.
 
 ```csharp
 public class SplitTransition : TransitionValueBase, ISplitTransition
@@ -26,9 +26,9 @@ public class SplitTransition : TransitionValueBase, ISplitTransition
 | Nazwa | Opis |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Określa, czy dwie instancje TransitionValueBase są równe. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Służy jako funkcja skrótu dla określonego typu, odpowiednia do użycia w algorytmach haszujących i strukturach danych, takich jak tablica mieszająca. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Działa jako funkcja skrótu dla określonego typu, przydatna w algorytmach haszujących i strukturach danych, takich jak tablica haszowa. |
 
-### Zobacz także
+### Zobacz również
 
 * klasa [TransitionValueBase](../transitionvaluebase)
 * interfejs [ISplitTransition](../isplittransition)

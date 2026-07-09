@@ -1,9 +1,9 @@
 ---
 title: IPortionCollection
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta una collezione di porzioni.
 type: docs
-weight: 6690
+weight: 6710
 url: /it/aspose.slides/iportioncollection/
 ---
 ## IPortionCollection interfaccia
@@ -18,8 +18,8 @@ public interface IPortionCollection : IEnumerable<IPortion>
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides/iportioncollection/asienumerable) { get; } | Restituisce l'interfaccia IEnumerable. IEnumerable di sola lettura. |
-| [Count](../../aspose.slides/iportioncollection/count) { get; } | Ottiene il numero di elementi effettivamente contenuti nella collezione. Int32 di sola lettura. |
+| [AsIEnumerable](../../aspose.slides/iportioncollection/asienumerable) { get; } | Restituisce l'interfaccia IEnumerable. Solo lettura IEnumerable. |
+| [Count](../../aspose.slides/iportioncollection/count) { get; } | Ottiene il numero di elementi effettivamente contenuti nella collezione. Solo lettura Int32. |
 | [Item](../../aspose.slides/iportioncollection/item) { get; } | Ottiene l'elemento all'indice specificato. |
 
 ## Metodi
@@ -30,7 +30,7 @@ public interface IPortionCollection : IEnumerable<IPortion>
 | [Clear](../../aspose.slides/iportioncollection/clear)() | Rimuove tutti gli elementi dalla collezione. |
 | [Contains](../../aspose.slides/iportioncollection/contains)(IPortion) | Determina se l'ICollection contiene un valore specifico. |
 | [IndexOf](../../aspose.slides/iportioncollection/indexof)(IPortion) | Determina l'indice di una specifica portion nella collezione. |
-| [Insert](../../aspose.slides/iportioncollection/insert)(int, IPortion) | Inserisce una Portion nella collezione all'indice specificato. |
+| [Insert](../../aspose.slides/iportioncollection/insert)(int, Portion) | Inserisce una Portion nella collezione all'indice specificato. |
 | [Remove](../../aspose.slides/iportioncollection/remove)(IPortion) | Rimuove la prima occorrenza di un oggetto specifico dall'ICollection. |
 | [RemoveAt](../../aspose.slides/iportioncollection/removeat)(int) | Rimuove l'elemento all'indice specificato della collezione. |
 

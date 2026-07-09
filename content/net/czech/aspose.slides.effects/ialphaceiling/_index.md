@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeiling
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje efekt Alpha Ceiling. Hodnoty alfa průhlednosti větší než nula jsou změněny na 100. Jinými slovy, vše částečně neprůhledné se stane plně neprůhledným.
+description: Representuje efekt Alpha Ceiling. Hodnoty neprůhlednosti Alpha větší než nula jsou změněny na 100. Jinými slovy, cokoliv částečně neprůhledné se stane plně neprůhledným.
 type: docs
-weight: 3020
+weight: 3040
 url: /cs/aspose.slides.effects/ialphaceiling/
 ---
 ## IAlphaCeiling rozhraní
 
-Reprezentuje efekt Alpha Ceiling. Hodnoty Alpha (průhlednost) větší než nula jsou změněny na 100%. Jinými slovy, vše částečně neprůhledné se stane plně neprůhledným.
+Reprezentuje efekt Alpha Ceiling. Hodnoty Alpha (průhlednost) větší než nula jsou změněny na 100 %. Jinými slovy, cokoliv částečně neprůhledné se stane plně neprůhledným.
 
 ```csharp
 public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData
 
 | Název | Popis |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphaceiling/asiaccessiblepviobject) { get; } | Umožňuje získat základní rozhraní IAccessiblePVIObject. Pouze ke čtení [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphaceiling/asiimagetransformoperation) { get; } | Umožňuje získat základní rozhraní IImageTransformOperationEx. Pouze ke čtení [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphaceiling/asiaccessiblepviobject) { get; } | Allows to get base IAccessiblePVIObject interface. Pouze pro čtení [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphaceiling/asiimagetransformoperation) { get; } | Allows to get base IImageTransformOperationEx interface. Pouze pro čtení [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Viz také
 

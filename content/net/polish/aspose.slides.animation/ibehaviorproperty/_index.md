@@ -1,14 +1,14 @@
 ---
 title: IBehaviorProperty
-second_title: Aspose.Sildes dla .NET - dokumentacja API
-description: Reprezentuje typy właściwości dla zachowania animacji. Korzysta z listy właściwości pod adresem https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx i https//msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx
+second_title: Aspose.Sildes dla odniesienia API .NET
+description: Reprezentuje typy właściwości dla zachowania animacji. Opiera się na liście właściwości z https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx oraz https//msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx
 type: docs
-weight: 420
+weight: 440
 url: /pl/aspose.slides.animation/ibehaviorproperty/
 ---
 ## IBehaviorProperty interfejs
 
-Reprezentuje typy właściwości dla zachowania animacji. Korzysta z listy właściwości pod adresem https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx i https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx
+Reprezentuje typy właściwości dla zachowania animacji. Korzysta z listy właściwości z https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx oraz https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx
 
 ```csharp
 public interface IBehaviorProperty

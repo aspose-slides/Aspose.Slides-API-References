@@ -1,14 +1,14 @@
 ---
 title: IBrightnessContrastEffectiveData
-second_title: Aspose.Sildes for .NET API リファレンス
-description: BrightnessContrast 効果を表す不変オブジェクトです。明るさとコントラストを調整します
+second_title: Aspose.Sildes の .NET API リファレンス
+description: 不変オブジェクトで、BrightnessContrast 効果を表します。明るさとコントラストを調整します
 type: docs
-weight: 3190
+weight: 3210
 url: /ja/aspose.slides.effects/ibrightnesscontrasteffectivedata/
 ---
 ## IBrightnessContrastEffectiveData インターフェイス
 
-不変オブジェクトで、BrightnessContrast 効果を表します。明るさとコントラストを調整します。
+BrightnessContrast 効果を表す不変オブジェクトです。明るさとコントラストを調整します
 
 ```csharp
 public interface IBrightnessContrastEffectiveData : IEffectEffectiveData

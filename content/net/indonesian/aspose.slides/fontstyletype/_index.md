@@ -1,14 +1,14 @@
 ---
 title: FontStyleType
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mendefinisikan gaya format yang dapat diterapkan pada teks.
+description: Mendefinisikan gaya pemformatan yang dapat diterapkan pada teks.
 type: docs
-weight: 4850
+weight: 4870
 url: /id/aspose.slides/fontstyletype/
 ---
-## Enumerasi FontStyleType
+## FontStyleType enumerasi
 
-Mendefinisikan gaya format yang dapat diterapkan pada teks.
+Mendefinisikan gaya pemformatan yang dapat diterapkan pada teks.
 
 ```csharp
 [Flags]
@@ -17,7 +17,7 @@ public enum FontStyleType
 
 ### Nilai
 
-| Nama | Nilai | Deskripsi |
+| Name | Value | Description |
 | --- | --- | --- |
 | Regular | `0` | Teks standar. |
 | Bold | `1` | Teks tebal. |

@@ -1,20 +1,20 @@
 ---
 title: HandoutLayoutingOptions
 second_title: Aspose.Sildes for .NET API リファレンス
-description: エクスポート用のハンドアウト プレゼンテーション レイアウト モードを表します。
+description: エクスポート用のハンドアウトプレゼンテーションのレイアウトモードを表します。
 type: docs
-weight: 3820
+weight: 3840
 url: /ja/aspose.slides.export/handoutlayoutingoptions/
 ---
 ## HandoutLayoutingOptions クラス
 
-エクスポート用のハンドアウト プレゼンテーション レイアウト モードを表します。
+エクスポート用のハンドアウトプレゼンテーションのレイアウトモードを表します。
 
 ```csharp
 public class HandoutLayoutingOptions : ISlidesLayoutOptions
 ```
 
-## コンストラクター
+## コンストラクタ
 
 | 名前 | 説明 |
 | --- | --- |
@@ -24,10 +24,10 @@ public class HandoutLayoutingOptions : ISlidesLayoutOptions
 
 | 名前 | 説明 |
 | --- | --- |
-| [Handout](../../aspose.slides.export/handoutlayoutingoptions/handout) { get; set; } | ページ [`HandoutType`](../handouttype) に配置されるスライドの数と順序を指定します。 |
-| [PrintComments](../../aspose.slides.export/handoutlayoutingoptions/printcomments) { get; set; } | スライド上のコメントを表示するかどうかを指定します。 |
-| [PrintFrameSlide](../../aspose.slides.export/handoutlayoutingoptions/printframeslide) { get; set; } | 表示されるスライドの周囲にフレームを描画するかどうかを指定します。 |
-| [PrintSlideNumbers](../../aspose.slides.export/handoutlayoutingoptions/printslidenumbers) { get; set; } | 表示されるスライド番号を印刷するかどうかを指定します。 |
+| [Handout](../../aspose.slides.export/handoutlayoutingoptions/handout) { get; set; } | ページに配置されるスライドの枚数と順序を指定します [`HandoutType`](../handouttype)。 |
+| [PrintComments](../../aspose.slides.export/handoutlayoutingoptions/printcomments) { get; set; } | スライド上にコメントを表示するかどうかを指定します。 |
+| [PrintFrameSlide](../../aspose.slides.export/handoutlayoutingoptions/printframeslide) { get; set; } | 表示されたスライドの周囲にフレームを描画するかどうかを指定します。 |
+| [PrintSlideNumbers](../../aspose.slides.export/handoutlayoutingoptions/printslidenumbers) { get; set; } | 表示されたスライド番号を印刷するかどうかを指定します。 |
 
 ### 参照
 

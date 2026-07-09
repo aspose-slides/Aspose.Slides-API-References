@@ -3,10 +3,10 @@ title: ISvgTSpan
 second_title: Aspose.Sildes için .NET API Referansı
 description: SVG metin bölümü tspan için seçenekleri temsil eder.
 type: docs
-weight: 4120
+weight: 4140
 url: /tr/aspose.slides.export/isvgtspan/
 ---
-## ISvgTSpan arabirimi
+## ISvgTSpan arayüzü
 
 SVG metin bölümü ("tspan") için seçenekleri temsil eder.
 
@@ -18,9 +18,9 @@ public interface ISvgTSpan
 
 | Ad | Açıklama |
 | --- | --- |
-| [Id](../../aspose.slides.export/isvgtspan/id) { get; set; } | \"tspan\" öğesi için id'yi alır veya ayarlar |
+| [Id](../../aspose.slides.export/isvgtspan/id) { get; set; } | "tspan" öğesi için kimliği alır veya ayarlar |
 
-### Ayrıca Bakınız
+### Ayrıca bakınız
 
 * ad alanı [Aspose.Slides.Export](../../aspose.slides.export)
 * derleme [Aspose.Slides](../../)

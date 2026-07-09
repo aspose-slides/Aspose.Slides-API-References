@@ -1,12 +1,12 @@
 ---
 title: Video
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
 description: Reprezentuje obraz osadzony w prezentacji.
 type: docs
-weight: 11680
+weight: 11700
 url: /pl/aspose.slides/video/
 ---
-## Klasa Video
+## Video klasa
 
 Reprezentuje obraz osadzony w prezentacji.
 
@@ -18,7 +18,7 @@ public class Video : IVideo
 
 | Nazwa | Opis |
 | --- | --- |
-| [BinaryData](../../aspose.slides/video/binarydata) { get; } | Zwraca kopię danych dźwięku. W przypadku dużej ilości danych rozważ użycie metody [`GetStream`](./getstream), aby zapobiec niepotrzebnemu ładowaniu danych wideo do pamięci lub nawet wyjątku OutOfMemoryException. Tylko do odczytu Byte[]. |
+| [BinaryData](../../aspose.slides/video/binarydata) { get; } | Zwraca kopię danych audio. W przypadku dużej ilości danych rozważ użycie metody [`GetStream`](./getstream), aby zapobiec niepotrzebnemu ładowaniu danych wideo do pamięci lub nawet wyjątku OutOfMemoryException. Tylko do odczytu Byte[]. |
 | [ContentType](../../aspose.slides/video/contenttype) { get; } | Zwraca typ MIME wideo, zakodowany w [`BinaryData`](./binarydata). Tylko do odczytu String. |
 
 ## Metody

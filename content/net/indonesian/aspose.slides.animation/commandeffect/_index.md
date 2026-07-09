@@ -1,9 +1,9 @@
 ---
 title: CommandEffect
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili efek perintah untuk perilaku animasi.
 type: docs
-weight: 240
+weight: 260
 url: /id/aspose.slides.animation/commandeffect/
 ---
 ## CommandEffect kelas
@@ -16,20 +16,20 @@ public class CommandEffect : Behavior, ICommandEffect
 
 ## Konstruktor
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [CommandEffect](commandeffect)() | Membuat instance baru. |
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Mewakili apakah perilaku animasi dikumpulkan. Baca/tulis [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Mewakili apakah perilaku animasi diakumulasi. Baca/tulis [`NullableBool`](../../aspose.slides/nullablebool). |
 | [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Mewakili apakah perilaku animasi saat ini digabungkan dengan animasi lain yang sedang berjalan. Baca/tulis [`BehaviorAdditiveType`](../behavioradditivetype). |
 | [CommandString](../../aspose.slides.animation/commandeffect/commandstring) { get; set; } | Mendefinisikan string perintah. Baca/tulis String. |
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Mewakili properti perilaku. Hanya-baca [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
 | [ShapeTarget](../../aspose.slides.animation/commandeffect/shapetarget) { get; set; } | Mendefinisikan target bentuk dari efek perintah. Baca/tulis [`IShape`](../../aspose.slides/ishape). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Mewakili properti penjadwalan untuk perilaku efek. Baca/tulis [`ITiming`](../itiming). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Mewakili properti timing untuk perilaku efek. Baca/tulis [`ITiming`](../itiming). |
 | [Type](../../aspose.slides.animation/commandeffect/type) { get; set; } | Mendefinisikan tipe efek perintah dari perilaku. Baca/tulis [`CommandEffectType`](../commandeffecttype). |
 
 ### Lihat Juga

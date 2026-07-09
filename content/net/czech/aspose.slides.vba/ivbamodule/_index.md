@@ -1,14 +1,14 @@
 ---
 title: IVbaModule
-second_title: Aspose.Sildes pro .NET API referenci
-description: Představuje modul, který je obsažen ve VBA projektu.
+second_title: Aspose.Sildes pro .NET – referenční příručka API
+description: Představuje modul, který je obsažen v projektu VBA.
 type: docs
-weight: 11510
+weight: 11530
 url: /cs/aspose.slides.vba/ivbamodule/
 ---
 ## IVbaModule rozhraní
 
-Představuje modul, který je obsažen ve VBA projektu.
+Představuje modul, který je obsažen v projektu VBA.
 
 ```csharp
 public interface IVbaModule

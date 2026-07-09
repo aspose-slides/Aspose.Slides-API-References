@@ -3,7 +3,7 @@ title: DrawingGuidesCollection
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en samling av de justerbara ritningsguiderna.
 type: docs
-weight: 2800
+weight: 2820
 url: /sv/aspose.slides/drawingguidescollection/
 ---
 ## DrawingGuidesCollection klass

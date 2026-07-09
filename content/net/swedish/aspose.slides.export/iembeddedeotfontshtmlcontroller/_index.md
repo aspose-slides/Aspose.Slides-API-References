@@ -3,7 +3,7 @@ title: IEmbeddedEotFontsHtmlController
 second_title: Aspose.Sildes för .NET API-referens
 description: Inbäddad Eot-typsnitt HTML-kontroller.
 type: docs
-weight: 3880
+weight: 3900
 url: /sv/aspose.slides.export/iembeddedeotfontshtmlcontroller/
 ---
 ## IEmbeddedEotFontsHtmlController gränssnitt
@@ -16,7 +16,7 @@ public interface IEmbeddedEotFontsHtmlController : IHtmlFormattingController
 
 ## Egenskaper
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
 | [AsIHtmlFormattingController](../../aspose.slides.export/iembeddedeotfontshtmlcontroller/asihtmlformattingcontroller) { get; } | Returnerar IHtmlFormattingController gränssnitt. |
 

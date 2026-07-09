@@ -1,12 +1,12 @@
 ---
 title: XamlOptions
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET API Reference
 description: Opcje kontrolujące sposób zapisywania dokumentu XAML.
 type: docs
-weight: 4700
+weight: 4720
 url: /pl/aspose.slides.export.xaml/xamloptions/
 ---
-## XamlOptions klasa
+## XamlOptions class
 
 Opcje kontrolujące sposób zapisywania dokumentu XAML.
 
@@ -14,25 +14,25 @@ Opcje kontrolujące sposób zapisywania dokumentu XAML.
 public class XamlOptions : SaveOptions, IXamlOptions
 ```
 
-## Konstruktory
+## Constructors
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [XamlOptions](xamloptions)() | Tworzy instancję XamlOptions. |
 
-## Właściwości
+## Properties
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Zwraca lub ustawia czcionkę używaną w przypadku, gdy nie zostanie znaleziona czcionka źródłowa. Odczyt/zapis String. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Zwraca lub ustawia czcionkę używaną, gdy nie odnaleziono czcionki źródłowej. Odczyt/zapis String. |
 | [ExportHiddenSlides](../../aspose.slides.export.xaml/xamloptions/exporthiddenslides) { get; set; } | Określa, czy ukryte slajdy będą eksportowane. |
 | [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Zwraca lub ustawia styl wizualny gradientu. Odczyt/zapis [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [OutputSaver](../../aspose.slides.export.xaml/xamloptions/outputsaver) { get; set; } | Reprezentuje implementację interfejsu IOutputSaver. |
 | [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Reprezentuje obiekt wywołania zwrotnego do zapisywania aktualizacji postępu w procentach. Zobacz [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Określa, czy pomijać hiperłącza z wywołaniami JavaScript podczas zapisywania prezentacji. Odczyt/zapis Boolean. Domyślna wartość to **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Zwraca lub ustawia obiekt, który otrzymuje ostrzeżenia i decyduje, czy proces ładowania będzie kontynuowany, czy zostanie przerwany. Odczyt/zapis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Określa, czy pomijać hiperłącza z wywołaniami JavaScript podczas zapisywania prezentacji. Odczyt/zapis Boolean. Wartość domyślna to **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Zwraca lub ustawia obiekt, który odbiera ostrzeżenia i decyduje, czy proces ładowania będzie kontynuowany, czy zostanie przerwany. Odczyt/zapis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
-### Przykłady
+### Examples
 
 ```csharp
 [C#]
@@ -42,7 +42,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Zobacz także
+### See Also
 
 * klasa [SaveOptions](../../aspose.slides.export/saveoptions)
 * interfejs [IXamlOptions](../ixamloptions)

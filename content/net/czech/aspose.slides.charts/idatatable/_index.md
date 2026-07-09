@@ -1,12 +1,12 @@
 ---
 title: IDataTable
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET referenční příručka API
 description: Reprezentuje vlastnosti datové tabulky.
 type: docs
-weight: 2040
+weight: 2060
 url: /cs/aspose.slides.charts/idatatable/
 ---
-## IDataTable interface
+## IDataTable rozhraní
 
 Reprezentuje vlastnosti datové tabulky.
 
@@ -18,11 +18,11 @@ public interface IDataTable : IFormattedTextContainer
 
 | Název | Popis |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/idatatable/asiformattedtextcontainer) { get; } | Umožňuje získat základní IFormattedTextContainer rozhraní. Pouze pro čtení [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [Format](../../aspose.slides.charts/idatatable/format) { get; } | Vrací styly čáry, výplně a efektu objektu. Pouze pro čtení [`IFormat`](../iformat). |
-| [HasBorderHorizontal](../../aspose.slides.charts/idatatable/hasborderhorizontal) { get; set; } | True, pokud má datová tabulka grafu vodorovné okraje buněk. Čtení/zápis Boolean. |
-| [HasBorderOutline](../../aspose.slides.charts/idatatable/hasborderoutline) { get; set; } | True, pokud má datová tabulka grafu okraje kontury. Čtení/zápis Boolean. |
-| [HasBorderVertical](../../aspose.slides.charts/idatatable/hasbordervertical) { get; set; } | True, pokud má datová tabulka grafu svislé okraje buněk. Čtení/zápis Boolean. |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/idatatable/asiformattedtextcontainer) { get; } | Umožňuje získat základní rozhraní IFormattedTextContainer. Pouze pro čtení [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [Format](../../aspose.slides.charts/idatatable/format) { get; } | Vrací styl čáry, výplně a efektu objektu. Pouze pro čtení [`IFormat`](../iformat). |
+| [HasBorderHorizontal](../../aspose.slides.charts/idatatable/hasborderhorizontal) { get; set; } | True, pokud má datová tabulka grafu vodorovné ohraničení buněk. Čtení/zápis Boolean. |
+| [HasBorderOutline](../../aspose.slides.charts/idatatable/hasborderoutline) { get; set; } | True, pokud má datová tabulka grafu obrysové ohraničení. Čtení/zápis Boolean. |
+| [HasBorderVertical](../../aspose.slides.charts/idatatable/hasbordervertical) { get; set; } | True, pokud má datová tabulka grafu svislé ohraničení buněk. Čtení/zápis Boolean. |
 | [ShowLegendKey](../../aspose.slides.charts/idatatable/showlegendkey) { get; set; } | True, pokud je klíč legendy popisků dat viditelný. Čtení/zápis Boolean. |
 
 ### Viz také

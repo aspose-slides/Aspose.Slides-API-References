@@ -3,10 +3,10 @@ title: EffectType
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa o tipo de um efeito de animação.
 type: docs
-weight: 340
+weight: 360
 url: /pt/aspose.slides.animation/effecttype/
 ---
-## Enumeração EffectType
+## enumeração EffectType
 
 Representa o tipo de um efeito de animação.
 
@@ -21,7 +21,7 @@ public enum EffectType
 | Appear | `0` | Efeito Appear. Classe **Entrance** ou **Exit**. |
 | CurveUpDown | `1` | Efeito CurveUpDown. Classe **Entrance** ou **Exit**. |
 | Ascend | `2` | Efeito Ascend. Classe **Entrance** ou **Exit**. |
-| FloatUp | `2` | Efeito Float com direção Up. Este é o alias para o tipo Ascend. Classe **Entrance** ou **Exit**. |
+| FloatUp | `2` | Efeito FloatUp com direção Up. Este é o alias para o tipo Ascend. Classe **Entrance** ou **Exit**. |
 | Blast | `3` | Efeito Blast. Classe **Emphasis**. |
 | Blinds | `4` | Efeito Blinds. Classe **Entrance** ou **Exit**. |
 | Blink | `5` | Efeito Blink. Classe **Emphasis**. |
@@ -54,7 +54,7 @@ public enum EffectType
 | Darken | `32` | Efeito Darken. Classe **Emphasis**. |
 | Desaturate | `33` | Efeito Desaturate. Classe **Emphasis**. |
 | Descend | `34` | Efeito Descend. Classe **Entrance** ou **Exit**. |
-| FloatDown | `34` | Efeito Float com direção Down. Este é o alias para o tipo Descend. Classe **Entrance** ou **Exit**. |
+| FloatDown | `34` | Efeito FloatDown com direção Down. Este é o alias para o tipo Descend. Classe **Entrance** ou **Exit**. |
 | Diamond | `35` | Efeito Diamond. Classe **Entrance** ou **Exit**. |
 | Dissolve | `36` | Efeito Dissolve. Classe **Entrance** ou **Exit**. |
 | EaseInOut | `37` | Efeito Dissolve. Classe **Entrance** ou **Exit**. |
@@ -176,7 +176,7 @@ public enum EffectType
 | OLEObjectEdit | `153` | Efeito OLEObjectEdit. Classe **OLEActionVerbs**. |
 | OLEObjectOpen | `154` | Efeito OLEObjectOpen. Classe **OLEActionVerbs**. |
 
-### Ver também
+### Veja Também
 
 * namespace [Aspose.Slides.Animation](../../aspose.slides.animation)
 * assembly [Aspose.Slides](../../)

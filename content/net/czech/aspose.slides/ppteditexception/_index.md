@@ -1,14 +1,14 @@
 ---
 title: PptEditException
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje výjimku vyvolanou při zjištění chyby úpravy prezentace.
+second_title: Aspose.Sildes pro .NET – referenční příručka API
+description: Representuje výjimku vyvolanou, když je zjištěna chyba při úpravě prezentace.
 type: docs
-weight: 9490
+weight: 9510
 url: /cs/aspose.slides/ppteditexception/
 ---
 ## PptEditException třída
 
-Reprezentuje výjimku vyvolanou při zjištění chyby úpravy prezentace.
+Representuje výjimku vyvolanou, když je zjištěna chyba při úpravě prezentace.
 
 ```csharp
 public class PptEditException : PptException

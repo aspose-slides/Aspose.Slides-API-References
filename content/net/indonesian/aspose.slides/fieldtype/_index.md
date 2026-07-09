@@ -1,14 +1,14 @@
 ---
 title: FieldType
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili jenis bidang. Nilai ini menentukan teks apa yang akan ditempatkan pada bagian bidang ketika diperbarui.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili jenis bidang. Nilai ini menentukan teks mana yang akan diatur ke bagian bidang ketika diperbarui.
 type: docs
-weight: 4740
+weight: 4760
 url: /id/aspose.slides/fieldtype/
 ---
 ## FieldType kelas
 
-Mewakili jenis bidang. Nilai ini menentukan teks apa yang akan ditempatkan pada bagian bidang ketika diperbarui.
+Mewakili tipe bidang. Nilai ini menentukan teks mana yang akan diatur ke bagian bidang ketika diperbarui.
 
 ```csharp
 public sealed class FieldType : IFieldType

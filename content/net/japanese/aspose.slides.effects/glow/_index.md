@@ -1,14 +1,14 @@
 ---
 title: Glow
 second_title: Aspose.Sildes for .NET API リファレンス
-description: オブジェクトのエッジの外側に、色がぼやけた輪郭が追加される Glow エフェクトを表します。
+description: オブジェクトのエッジの外側に、色がぼかされたアウトラインが追加される Glow エフェクトを表します。
 type: docs
-weight: 2970
+weight: 2990
 url: /ja/aspose.slides.effects/glow/
 ---
 ## Glow クラス
 
-オブジェクトのエッジの外側に色がぼやけた輪郭を追加する Glow エフェクトを表します。
+オブジェクトのエッジの外側に、色がぼかされたアウトラインが追加される Glow エフェクトを表します。
 
 ```csharp
 public sealed class Glow : IGlow
@@ -19,17 +19,17 @@ public sealed class Glow : IGlow
 | 名前 | 説明 |
 | --- | --- |
 | [Color](../../aspose.slides.effects/glow/color) { get; } | カラー形式。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [Radius](../../aspose.slides.effects/glow/radius) { get; set; } | Radius. 読み取り/書き込み Double. |
+| [Radius](../../aspose.slides.effects/glow/radius) { get; set; } | 半径。読み書き可能 Double。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/glow/equals)(object) | 指定された [`Glow`](../glow) が現在の [`Glow`](../glow) と等しいかどうかを判断します。 |
-| [GetEffective](../../aspose.slides.effects/glow/geteffective)() | 継承が適用された効果的な Glow 効果データを取得します。 |
+| override [Equals](../../aspose.slides.effects/glow/equals)(object) | 指定された [`Glow`](../glow) が現在の [`Glow`](../glow) と等しいかを判断します。 |
+| [GetEffective](../../aspose.slides.effects/glow/geteffective)() | 継承が適用された有効な Glow エフェクトデータを取得します。 |
 | override [GetHashCode](../../aspose.slides.effects/glow/gethashcode)() | 特定の型に対するハッシュ関数として機能します。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IGlow](../iglow)
 * 名前空間 [Aspose.Slides.Effects](../../aspose.slides.effects)

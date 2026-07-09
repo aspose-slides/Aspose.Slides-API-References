@@ -1,14 +1,14 @@
 ---
 title: IGradientStopEffectiveData
 second_title: Aspose.Sildes için .NET API Referansı
-description: degrade durak noktasını temsil eden değişmez nesne.
+description: gradyan durağını temsil eden değişmez nesne.
 type: docs
-weight: 6030
+weight: 6050
 url: /tr/aspose.slides/igradientstopeffectivedata/
 ---
-## IGradientStopEffectiveData arabirimi
+## IGradientStopEffectiveData arayüz
 
-degrade durak noktasını temsil eden değişmez nesne.
+gradyan durağını temsil eden değişmez nesne.
 
 ```csharp
 public interface IGradientStopEffectiveData
@@ -18,8 +18,8 @@ public interface IGradientStopEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [Color](../../aspose.slides/igradientstopeffectivedata/color) { get; } | Bir degrade durak noktasının rengini döndürür. Salt okunur Color. |
-| [Position](../../aspose.slides/igradientstopeffectivedata/position) { get; } | Bir degrade durak noktasının konumunu (0..1) döndürür. Salt okunur Single. |
+| [Color](../../aspose.slides/igradientstopeffectivedata/color) { get; } | Bir gradyan durağının rengini döndürür. Yalnızca okunur Color. |
+| [Position](../../aspose.slides/igradientstopeffectivedata/position) { get; } | Bir gradyan durağının konumunu (0..1) döndürür. Yalnızca okunur Single. |
 
 ### Ayrıca Bakınız
 

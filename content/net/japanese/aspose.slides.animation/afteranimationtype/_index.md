@@ -1,14 +1,14 @@
 ---
 title: AfterAnimationType
-second_title: Aspose.Sildes の .NET API リファレンス
-description: アニメーション効果の後のアニメーションタイプを表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: アニメーション効果のアフター アニメーション タイプを表します。
 type: docs
-weight: 90
+weight: 110
 url: /ja/aspose.slides.animation/afteranimationtype/
 ---
 ## AfterAnimationType 列挙型
 
-アニメーション効果の後のアニメーションタイプを表します。
+アニメーション効果のアフター アニメーション タイプを表します。
 
 ```csharp
 public enum AfterAnimationType
@@ -19,9 +19,9 @@ public enum AfterAnimationType
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
 | DoNotDim | `0` | アニメーション後に暗くしません。 |
-| Color | `1` | Color のアニメーション後のタイプ。 |
-| HideAfterAnimation | `2` | Hide After Animation のタイプ |
-| HideOnNextMouseClick | `3` | Hide on Next Mouse Click のアニメーション後のタイプ。 |
+| Color | `1` | アニメーション後に色を適用します。 |
+| HideAfterAnimation | `2` | アニメーション後に非表示にします。 |
+| HideOnNextMouseClick | `3` | 次のマウスクリック時に非表示にします。 |
 
 ### 参照
 

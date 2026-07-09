@@ -1,9 +1,9 @@
 ---
 title: IMathArray
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Especifica um array vertical de equações ou quaisquer objetos matemáticos
 type: docs
-weight: 8080
+weight: 8100
 url: /pt/aspose.slides.mathtext/imatharray/
 ---
 ## IMathArray interface
@@ -20,10 +20,10 @@ public interface IMathArray : IMathElement
 | --- | --- |
 | [Arguments](../../aspose.slides.mathtext/imatharray/arguments) { get; } | O conjunto de itens do array |
 | [AsIMathElement](../../aspose.slides.mathtext/imatharray/asimathelement) { get; } | Permite obter a interface base IMathElement [`IMathElement`](../imathelement) |
-| [BaseJustification](../../aspose.slides.mathtext/imatharray/basejustification) { get; set; } | Especifica o alinhamento do array em relação ao texto ao redor. Texto fora do array pode ser alinhado com a parte inferior, superior ou centro de um objeto array. Valor padrão: Centro |
-| [MaximumDistribution](../../aspose.slides.mathtext/imatharray/maximumdistribution) { get; set; } | Distribuição Máxima Quando verdadeiro, o array é espaçado até a largura máxima do elemento contido (página, coluna, célula, etc.). |
-| [ObjectDistribution](../../aspose.slides.mathtext/imatharray/objectdistribution) { get; set; } | Distribuição de Objeto Quando verdadeiro, o conteúdo do array é espaçado até a largura máxima do objeto array. |
-| [RowSpacing](../../aspose.slides.mathtext/imatharray/rowspacing) { get; set; } | Espaçamento entre linhas de um array É usado somente quando RowSpacingRule está definido como 3 Exactly, caso em que a unidade de medida é pontos, ou Multiple, caso em que a unidade de medida é meio-linhas. Padrão: 0 |
+| [BaseJustification](../../aspose.slides.mathtext/imatharray/basejustification) { get; set; } | Especifica o alinhamento do array em relação ao texto circundante. O texto fora do array pode ser alinhado com a parte inferior, superior ou central de um objeto array. Valor padrão: Center |
+| [MaximumDistribution](../../aspose.slides.mathtext/imatharray/maximumdistribution) { get; set; } | Distribuição Máxima Quando verdadeiro, o array é distribuído à largura máxima do elemento contêiner (página, coluna, célula, etc.). |
+| [ObjectDistribution](../../aspose.slides.mathtext/imatharray/objectdistribution) { get; set; } | Distribuição de Objeto Quando verdadeiro, o conteúdo do array é distribuído à largura máxima do objeto array. |
+| [RowSpacing](../../aspose.slides.mathtext/imatharray/rowspacing) { get; set; } | Espaçamento entre linhas de um array. É usado somente quando RowSpacingRule está definido como 3 Exactly, caso em que a unidade de medida é pontos, ou Multiple, caso em que a unidade de medida é meia linha. Padrão: 0 |
 | [RowSpacingRule](../../aspose.slides.mathtext/imatharray/rowspacingrule) { get; set; } | O tipo de espaçamento vertical entre os elementos do array |
 
 ### Exemplos
@@ -35,7 +35,7 @@ Exemplo:
 IMathArray mathArray = new MathArray(new MathematicalText("item1"));
 ```
 
-### Ver também
+### Veja Também
 
 * interface [IMathElement](../imathelement)
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

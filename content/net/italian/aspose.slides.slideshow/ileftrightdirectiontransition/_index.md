@@ -1,14 +1,14 @@
 ---
 title: ILeftRightDirectionTransition
-second_title: Aspose.Sildes per il riferimento API .NET
-description: Effetto di transizione diapositiva in direzione sinistra-destra.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Effetto di transizione della diapositiva nella direzione sinistra-destra.
 type: docs
-weight: 10100
+weight: 10120
 url: /it/aspose.slides.slideshow/ileftrightdirectiontransition/
 ---
 ## ILeftRightDirectionTransition interfaccia
 
-Effetto di transizione diapositiva in direzione sinistra-destra.
+Effetto di transizione della diapositiva nella direzione sinistra-destra.
 
 ```csharp
 public interface ILeftRightDirectionTransition : ITransitionValueBase
@@ -18,7 +18,7 @@ public interface ILeftRightDirectionTransition : ITransitionValueBase
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ileftrightdirectiontransition/asitransitionvaluebase) { get; } | Consente di ottenere l'interfaccia base ITransitionValueBase. Solo lettura [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ileftrightdirectiontransition/asitransitionvaluebase) { get; } | Consente di ottenere l'interfaccia base ITransitionValueBase. Sola lettura [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/ileftrightdirectiontransition/direction) { get; set; } | Direzione della transizione. Lettura/scrittura [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
 
 ### Vedi anche

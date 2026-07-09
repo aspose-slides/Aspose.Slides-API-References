@@ -1,14 +1,14 @@
 ---
 title: TrendlineCollection
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta una raccolta di Trendline
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta una collezione di Trendline
 type: docs
-weight: 2460
+weight: 2480
 url: /it/aspose.slides.charts/trendlinecollection/
 ---
 ## TrendlineCollection classe
 
-Rappresenta una raccolta di Trendline
+Rappresenta una collezione di Trendline
 
 ```csharp
 public class TrendlineCollection : DomObject<ChartSeries>, ITrendlineCollection
@@ -18,15 +18,15 @@ public class TrendlineCollection : DomObject<ChartSeries>, ITrendlineCollection
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides.charts/trendlinecollection/count) { get; } | Restituisce il numero di elementi effettivamente contenuti nella raccolta. Solo lettura Int32. |
+| [Count](../../aspose.slides.charts/trendlinecollection/count) { get; } | Restituisce il numero di elementi effettivamente contenuti nella collezione. Solo lettura Int32. |
 | [Item](../../aspose.slides.charts/trendlinecollection/item) { get; } | Restituisce l'elemento all'indice specificato. Solo lettura [`Trendline`](../trendline). |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.slides.charts/trendlinecollection/add)(TrendlineType) | Aggiunge il nuovo Trendline alla fine di una raccolta e lo restituisce. |
-| [GetEnumerator](../../aspose.slides.charts/trendlinecollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
+| [Add](../../aspose.slides.charts/trendlinecollection/add)(TrendlineType) | Aggiunge il nuovo Trendline alla fine di una collezione e lo restituisce. |
+| [GetEnumerator](../../aspose.slides.charts/trendlinecollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la collezione. |
 | [Remove](../../aspose.slides.charts/trendlinecollection/remove)(ITrendline) | Rimuove il valore specificato. |
 
 ### Vedi anche

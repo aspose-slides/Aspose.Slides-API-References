@@ -1,9 +1,9 @@
 ---
 title: TileFlip
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mendefinisikan mode pembalikan ubin.
 type: docs
-weight: 11480
+weight: 11500
 url: /id/aspose.slides/tileflip/
 ---
 ## enumerasi TileFlip
@@ -24,7 +24,7 @@ public enum TileFlip
 | FlipY | `2` |  |
 | FlipBoth | `3` |  |
 
-### Lihat juga
+### Lihat Juga
 
 * ruang nama [Aspose.Slides](../../aspose.slides)
 * rakitan [Aspose.Slides](../../)

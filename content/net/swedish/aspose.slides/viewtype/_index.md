@@ -1,12 +1,12 @@
 ---
 title: ViewType
 second_title: Aspose.Sildes för .NET API-referens
-description: Presentationens vytyper
+description: Vytyper för presentation
 type: docs
-weight: 11730
+weight: 11750
 url: /sv/aspose.slides/viewtype/
 ---
-## ViewType enumeration
+## ViewType enum
 
 Presentationens vytyper
 
@@ -20,13 +20,13 @@ public enum ViewType
 | --- | --- | --- |
 | NotDefined | `0` | Värdet är inte definierat |
 | SlideView | `1` | Normal bildvy |
-| SlideMasterView | `2` | Bildmallvy |
+| SlideMasterView | `2` | Bildmastervy |
 | NotesView | `3` | Anteckningsvy |
 | HandoutView | `4` | Utdelningsvy |
-| NotesMasterView | `5` | Anteckningsmallvy |
+| NotesMasterView | `5` | Anteckningsmastervy |
 | OutlineView | `6` | Dispositionvy |
 | SlideSorterView | `7` | Bildsorteringsvy |
-| SlideThumbnailView | `8` | Bildminiatyrvy |
+| SlideThumbnailView | `8` | Miniatyrbildvy |
 
 ### Se även
 

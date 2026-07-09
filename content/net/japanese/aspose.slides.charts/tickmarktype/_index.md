@@ -1,14 +1,14 @@
 ---
 title: TickMarkType
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: 指定された軸の目盛りタイプを表します。
 type: docs
-weight: 2430
+weight: 2450
 url: /ja/aspose.slides.charts/tickmarktype/
 ---
-## TickMarkType 列挙型
+## TickMarkType 列挙体
 
-指定された軸の目盛りの種類を表します。
+指定された軸の目盛りタイプを表します。
 
 ```csharp
 public enum TickMarkType
@@ -19,9 +19,9 @@ public enum TickMarkType
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
 | Cross | `0` | 目盛りが軸を横切ることを指定します。 |
-| Inside | `1` | 目盛りがプロット領域の内部にあることを指定します。 |
-| None | `2` | 目盛りがないことを指定します。 |
-| Outside | `3` | 目盛りがプロット領域の外部にあることを指定します。 |
+| Inside | `1` | 目盛りがプロット領域内に配置されることを指定します。 |
+| None | `2` | 目盛りが存在しないことを指定します。 |
+| Outside | `3` | 目盛りがプロット領域外に配置されることを指定します。 |
 
 ### 参照
 

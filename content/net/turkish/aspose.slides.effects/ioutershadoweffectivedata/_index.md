@@ -1,14 +1,14 @@
 ---
 title: IOuterShadowEffectiveData
-second_title: Aspose.Slides for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Dış Gölge etkisini temsil eden değiştirilemez nesne.
 type: docs
-weight: 3450
+weight: 3470
 url: /tr/aspose.slides.effects/ioutershadoweffectivedata/
 ---
 ## IOuterShadowEffectiveData arayüzü
 
-Dış Gölge etkisini temsil eden değiştirilemez nesne.
+Değiştirilemez nesne; dış gölge etkisini temsil eder.
 
 ```csharp
 public interface IOuterShadowEffectiveData : IEffectEffectiveData
@@ -18,17 +18,17 @@ public interface IOuterShadowEffectiveData : IEffectEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ioutershadoweffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzünü almayı sağlar. Yalnızca okuma [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [BlurRadius](../../aspose.slides.effects/ioutershadoweffectivedata/blurradius) { get; } | Bulanıklaşma yarıçapı. Yalnızca okuma Double. |
-| [Direction](../../aspose.slides.effects/ioutershadoweffectivedata/direction) { get; } | Gölgenin yönü. Yalnızca okuma Single. |
-| [Distance](../../aspose.slides.effects/ioutershadoweffectivedata/distance) { get; } | Gölgenin mesafesi. Yalnızca okuma Double. |
-| [RectangleAlign](../../aspose.slides.effects/ioutershadoweffectivedata/rectanglealign) { get; } | Dikdörtgen hizalaması. Yalnızca okuma [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape) { get; } | Gölgenin şekil döndürüldüğünde şekil ile birlikte döndürülüp döndürülmeyeceğini belirtir. Yalnızca okuma Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | Yatay ölçekleme faktörünü belirtir, negatif ölçekleme bir çevirme (flip) oluşturur. Yalnızca okuma Double. |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | Dikey ölçekleme faktörünü belirtir, negatif ölçekleme bir çevirme (flip) oluşturur. Yalnızca okuma Double. |
-| [ShadowColor](../../aspose.slides.effects/ioutershadoweffectivedata/shadowcolor) { get; } | Gölgenin rengi. Yalnızca okuma Color. |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal) { get; } | Yatay kayma açısını (derece cinsinden) belirtir. Yalnızca okuma Double. |
-| [SkewVertical](../../aspose.slides.effects/ioutershadoweffectivedata/skewvertical) { get; } | Dikey kayma açısını (derece cinsinden) belirtir. Yalnızca okuma Double. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ioutershadoweffectivedata/asieffecteffectivedata) { get; } | Base IEffectEffectiveData arayüzüne erişim sağlar. Salt okunur [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [BlurRadius](../../aspose.slides.effects/ioutershadoweffectivedata/blurradius) { get; } | Bulanıklık yarıçapı. Salt okunur Double. |
+| [Direction](../../aspose.slides.effects/ioutershadoweffectivedata/direction) { get; } | Gölgenin yönü. Salt okunur Single. |
+| [Distance](../../aspose.slides.effects/ioutershadoweffectivedata/distance) { get; } | Gölgenin mesafesi. Salt okunur Double. |
+| [RectangleAlign](../../aspose.slides.effects/ioutershadoweffectivedata/rectanglealign) { get; } | Dikdörtgen hizalaması. Salt okunur [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape) { get; } | Şekil döndürülürse gölgenin de şekil ile birlikte döneceğini belirler. Salt okunur Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | Yatay ölçekleme faktörünü belirler, negatif ölçekleme ters çevirir. Salt okunur Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | Dikey ölçekleme faktörünü belirler, negatif ölçekleme ters çevirir. Salt okunur Double. |
+| [ShadowColor](../../aspose.slides.effects/ioutershadoweffectivedata/shadowcolor) { get; } | Gölgenin rengi. Salt okunur Color. |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal) { get; } | Yatay çarpıtma açısını (derece cinsinden) belirler. Salt okunur Double. |
+| [SkewVertical](../../aspose.slides.effects/ioutershadoweffectivedata/skewvertical) { get; } | Dikey çarpıtma açısını (derece cinsinden) belirler. Salt okunur Double. |
 
 ### Ayrıca Bakınız
 

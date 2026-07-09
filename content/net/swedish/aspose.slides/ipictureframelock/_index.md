@@ -3,7 +3,7 @@ title: IPictureFrameLock
 second_title: Aspose.Sildes för .NET API-referens
 description: Bestämmer vilka operationer som är inaktiverade på den överordnade PictureFrameEx.
 type: docs
-weight: 6660
+weight: 6680
 url: /sv/aspose.slides/ipictureframelock/
 ---
 ## IPictureFrameLock gränssnitt
@@ -16,22 +16,22 @@ public interface IPictureFrameLock : IBaseShapeLock
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/ipictureframelock/adjusthandleslocked) { get; set; } | Bestämmer om en förändring av justeringsvärden är förbjuden. Läs/skriv Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/ipictureframelock/arrowheadslocked) { get; set; } | Bestämmer om en förändring av pilspetsar är förbjuden. Läs/skriv Boolean. |
-| [AsIBaseShapeLock](../../aspose.slides/ipictureframelock/asibaseshapelock) { get; } | Tillåter att hämta basen IBaseShapeLock-gränssnittet. Skrivskyddad [`IBaseShapeLock`](../ibaseshapelock). |
+| [AdjustHandlesLocked](../../aspose.slides/ipictureframelock/adjusthandleslocked) { get; set; } | Bestämmer om en ändring av justeringsvärden är förbjuden. Läs/skriv Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/ipictureframelock/arrowheadslocked) { get; set; } | Bestämmer om en ändring av pilspetsar är förbjuden. Läs/skriv Boolean. |
+| [AsIBaseShapeLock](../../aspose.slides/ipictureframelock/asibaseshapelock) { get; } | Tillåter att hämta bas-IBaseShapeLock-gränssnittet. Läs-endast [`IBaseShapeLock`](../ibaseshapelock). |
 | [AspectRatioLocked](../../aspose.slides/ipictureframelock/aspectratiolocked) { get; set; } | Bestämmer om en form måste bevara bildförhållandet vid storleksändring. Läs/skriv Boolean. |
-| [CropLocked](../../aspose.slides/ipictureframelock/croplocked) { get; set; } | Bestämmer om en beskärning av bild är förbjuden. Läs/skriv Boolean. |
-| [EditPointsLocked](../../aspose.slides/ipictureframelock/editpointslocked) { get; set; } | Bestämmer om en direkt förändring av konturen för denna form är förbjuden. Läs/skriv Boolean. |
-| [GroupingLocked](../../aspose.slides/ipictureframelock/groupinglocked) { get; set; } | Bestämmer om en tilläggning av denna form till en grupp är förbjuden. Läs/skriv Boolean. |
-| [PositionLocked](../../aspose.slides/ipictureframelock/positionlocked) { get; set; } | Bestämmer om en flyttning av denna form är förbjuden. Läs/skriv Boolean. |
-| [RotationLocked](../../aspose.slides/ipictureframelock/rotationlocked) { get; set; } | Bestämmer om en förändring av rotationsvinkeln för denna form är förbjuden. Läs/skriv Boolean. |
+| [CropLocked](../../aspose.slides/ipictureframelock/croplocked) { get; set; } | Bestämmer om beskärning av bild är förbjuden. Läs/skriv Boolean. |
+| [EditPointsLocked](../../aspose.slides/ipictureframelock/editpointslocked) { get; set; } | Bestämmer om en direkt ändring av kontur för denna form är förbjuden. Läs/skriv Boolean. |
+| [GroupingLocked](../../aspose.slides/ipictureframelock/groupinglocked) { get; set; } | Bestämmer om en tillsättning av denna form till en grupp är förbjuden. Läs/skriv Boolean. |
+| [PositionLocked](../../aspose.slides/ipictureframelock/positionlocked) { get; set; } | Bestämmer om förflyttning av denna form är förbjuden. Läs/skriv Boolean. |
+| [RotationLocked](../../aspose.slides/ipictureframelock/rotationlocked) { get; set; } | Bestämmer om en ändring av rotationsvinkeln för denna form är förbjuden. Läs/skriv Boolean. |
 | [SelectLocked](../../aspose.slides/ipictureframelock/selectlocked) { get; set; } | Bestämmer om en markering av denna form är förbjuden. Läs/skriv Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/ipictureframelock/shapetypelocked) { get; set; } | Bestämmer om en förändring av en formtyp är förbjuden. Läs/skriv Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/ipictureframelock/shapetypelocked) { get; set; } | Bestämmer om en ändring av en formtyp är förbjuden. Läs/skriv Boolean. |
 | [SizeLocked](../../aspose.slides/ipictureframelock/sizelocked) { get; set; } | Bestämmer om en storleksändring av denna form är förbjuden. Läs/skriv Boolean. |
 
-### Se även
+### Se också
 
 * gränssnitt [IBaseShapeLock](../ibaseshapelock)
 * namnrymd [Aspose.Slides](../../aspose.slides)

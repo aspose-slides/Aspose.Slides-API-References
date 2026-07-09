@@ -1,14 +1,14 @@
 ---
 title: IOuterShadow
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει ένα εξωτερικό εφέ σκιάς.
+second_title: Αναφορά API Aspose.Sildes για .NET
+description: Αντιπροσωπεύει ένα εφέ εξωτερικής σκιάς.
 type: docs
-weight: 3440
+weight: 3460
 url: /el/aspose.slides.effects/ioutershadow/
 ---
 ## IOuterShadow διεπαφή
 
-Represents an Outer Shadow effect.
+Αντιπροσωπεύει ένα εφέ εξωτερικής σκιάς.
 
 ```csharp
 public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>, 
@@ -19,18 +19,18 @@ public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>,
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | Επιτρέπει την απόκτηση της βασικής IAccessiblePVIObject διεπαφής. Μόνο για ανάγνωση [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | Επιτρέπει την απόκτηση της βασικής IImageTransformOperation διεπαφής. Μόνο για ανάγνωση [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | Ακτίνα θολώματος, σε πίετς. Προεπιλεγμένη τιμή – 0 pt. Ανάγνωση/εγγραφή Double. |
-| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | Διεύθυνση της σκιάς, σε μοίρες. Προεπιλεγμένη τιμή – 0 ° (αριστερά προς δεξιά). Ανάγνωση/εγγραφή Single. |
-| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | Απόσταση της σκιάς από το αντικείμενο, σε πίετς. Προεπιλεγμένη τιμή – 0 pt. Ανάγνωση/εγγραφή Double. |
-| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | Στοίχιση ορθογωνίου. Προεπιλεγμένη τιμή – Bottom. Ανάγνωση/εγγραφή [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | Καθορίζει αν η σκιά περιστρέφεται μαζί με το σχήμα. Προεπιλεγμένη τιμή – true. Ανάγνωση/εγγραφή Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Οριζόντιος συντελεστής κλίμακας, σε ποσοστό του αρχικού μεγέθους. Η αρνητική κλίμακα προκαλεί αναστροφή. Προεπιλεγμένη τιμή – 100 %. Ανάγνωση/εγγραφή Double. |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Κατακόρυφος συντελεστής κλίμακας, σε ποσοστό του αρχικού μεγέθους. Η αρνητική κλίμακα προκαλεί αναστροφή. Προεπιλεγμένη τιμή – 100 %. Ανάγνωση/εγγραφή Double. |
-| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | Χρώμα της σκιάς. Προεπιλεγμένη τιμή – αυτόματο μαύρο (εξαρτάται από το θέμα). Μόνο για ανάγνωση [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | Οριζόντιο γωνία κλίσης, σε μοίρες. Προεπιλεγμένη τιμή – 0 °. Ανάγνωση/εγγραφή Double. |
-| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | Κατακόρυφο γωνία κλίσης, σε μοίρες. Προεπιλεγμένη τιμή – 0 °. Ανάγνωση/εγγραφή Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | Επιτρέπει τη λήψη της βασικής διεπαφής IAccessiblePVIObject. Μόνο ανάγνωση [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | Επιτρέπει τη λήψη της βασικής διεπαφής IImageTransformOperation. Μόνο ανάγνωση [`IImageTransformOperation`](../iimagetransformoperation). |
+| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | Ακτίνα θάμπωσης, σε σημεία. Προεπιλεγμένη τιμή – 0 pt. Ανάγνωση/εγγραφή Double. |
+| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | Κατεύθυνση της σκιάς, σε μοίρες. Προεπιλεγμένη τιμή – 0 ° (από αριστερά προς δεξιά). Ανάγνωση/εγγραφή Single. |
+| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | Απόσταση της σκιάς από το αντικείμενο, σε σημεία. Προεπιλεγμένη τιμή – 0 pt. Ανάγνωση/εγγραφή Double. |
+| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | Στοίχιση παραλληλογράμμου. Προεπιλεγμένη τιμή – Bottom. Ανάγνωση/εγγραφή [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | Δείχνει αν η σκιά περιστρέφεται μαζί με το σχήμα. Προεπιλεγμένη τιμή – true. Ανάγνωση/εγγραφή Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Οριζόντιος συντελεστής κλιμάκωσης, σε ποσοστό του αρχικού μεγέθους. Η αρνητική κλιμάκωση προκαλεί αναστροφή. Προεπιλεγμένη τιμή – 100 %. Ανάγνωση/εγγραφή Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Κάθετος συντελεστής κλιμάκωσης, σε ποσοστό του αρχικού μεγέθους. Η αρνητική κλιμάκωση προκαλεί αναστροφή. Προεπιλεγμένη τιμή – 100 %. Ανάγνωση/εγγραφή Double. |
+| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | Χρώμα της σκιάς. Προεπιλεγμένη τιμή – αυτόματο μαύρο (εξαρτάται από το θέμα). Μόνο ανάγνωση [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | Οριζόντια γωνία λόξου, σε μοίρες. Προεπιλεγμένη τιμή – 0 °. Ανάγνωση/εγγραφή Double. |
+| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | Κάθετη γωνία λόξου, σε μοίρες. Προεπιλεγμένη τιμή – 0 °. Ανάγνωση/εγγραφή Double. |
 
 ### Δείτε επίσης
 
@@ -38,6 +38,6 @@ public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>,
 * διεπαφή [IOuterShadowEffectiveData](../ioutershadoweffectivedata)
 * διεπαφή [IImageTransformOperation](../iimagetransformoperation)
 * χώρο ονομάτων [Aspose.Slides.Effects](../../aspose.slides.effects)
-* συγκρότημα [Aspose.Slides](../../)
+* συναρμολόγηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

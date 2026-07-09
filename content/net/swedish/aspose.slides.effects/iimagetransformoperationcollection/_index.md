@@ -3,12 +3,12 @@ title: IImageTransformOperationCollection
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en samling av effekter som tillämpas på en bild.
 type: docs
-weight: 3380
+weight: 3400
 url: /sv/aspose.slides.effects/iimagetransformoperationcollection/
 ---
 ## IImageTransformOperationCollection gränssnitt
 
-Representerar en samling av effekter som tillämpas på en bild.
+Representerar en samling av effekter tillämpade på en bild.
 
 ```csharp
 public interface IImageTransformOperationCollection : ICollection<IImageTransformOperation>
@@ -18,7 +18,7 @@ public interface IImageTransformOperationCollection : ICollection<IImageTransfor
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.effects/iimagetransformoperationcollection/asienumerable) { get; } | Returnerar IEnumerable-gränssnittet. Läs-endast IEnumerable. |
+| [AsIEnumerable](../../aspose.slides.effects/iimagetransformoperationcollection/asienumerable) { get; } | Returnerar IEnumerable-gränssnittet. Skrivskyddad IEnumerable. |
 | [Item](../../aspose.slides.effects/iimagetransformoperationcollection/item) { get; } | Returnerar ett [`IImageTransformOperation`](../iimagetransformoperation) från samlingen via dess index. |
 
 ## Metoder
@@ -43,7 +43,7 @@ public interface IImageTransformOperationCollection : ICollection<IImageTransfor
 | [AddHSLEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addhsleffect)(float, float, float) | Lägger till den nya Hue/Saturation/Luminance-effekten i slutet av en samling. |
 | [AddLuminanceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addluminanceeffect)(float, float) | Lägger till den nya Luminance-effekten i slutet av en samling. |
 | [AddTintEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addtinteffect)(float, float) | Lägger till den nya Tint-effekten i slutet av en samling. |
-| [RemoveAt](../../aspose.slides.effects/iimagetransformoperationcollection/removeat)(int) | Tar bort en bildeffekt från en samling på det angivna indexet. |
+| [RemoveAt](../../aspose.slides.effects/iimagetransformoperationcollection/removeat)(int) | Tar bort en bild-effekt från en samling på det angivna indexet. |
 
 ### Se även
 

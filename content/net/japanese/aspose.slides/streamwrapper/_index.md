@@ -1,14 +1,14 @@
 ---
 title: StreamWrapper
-second_title: Aspose.Sildes for .NET API リファレンス
-description: COM インターフェイス用の Aspose.IO.Stream ラッパー。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: COMインターフェイス用のAspose.IO.Streamラッパー。
 type: docs
-weight: 10730
+weight: 10750
 url: /ja/aspose.slides/streamwrapper/
 ---
 ## StreamWrapper クラス
 
-COM インターフェイス用の Aspose.IO.Stream ラッパー。
+Aspose.IO.Stream wrapper for COM interface.
 
 ```csharp
 public class StreamWrapper : IStreamWrapper
@@ -18,13 +18,13 @@ public class StreamWrapper : IStreamWrapper
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIDisposable](../../aspose.slides/streamwrapper/asidisposable) { get; } | ベースの IDisposable インターフェイスを取得できます。 読み取り専用 IDisposable。 |
-| [CanRead](../../aspose.slides/streamwrapper/canread) { get; } | 現在のストリームが読み取りをサポートしているかどうかを示す値を取得します。 読み取り専用 Boolean。 |
-| [CanSeek](../../aspose.slides/streamwrapper/canseek) { get; } | 現在のストリームがシークをサポートしているかどうかを示す値を取得します。 読み取り専用 Boolean。 |
-| [CanWrite](../../aspose.slides/streamwrapper/canwrite) { get; } | 現在のストリームが書き込みをサポートしているかどうかを示す値を取得します。 読み取り専用 Boolean。 |
-| [Length](../../aspose.slides/streamwrapper/length) { get; } | ストリームの長さ（バイト単位）を取得します。 読み取り専用 Int64。 |
-| [Position](../../aspose.slides/streamwrapper/position) { get; } | 現在のストリーム内の位置を取得または設定します。 読み取り専用 Int64。 |
-| [Stream](../../aspose.slides/streamwrapper/stream) { get; } | ストリームを取得します。 読み取り専用 Stream。 |
+| [AsIDisposable](../../aspose.slides/streamwrapper/asidisposable) { get; } | 基本の IDisposable インターフェイスを取得できます。Read-only IDisposable. |
+| [CanRead](../../aspose.slides/streamwrapper/canread) { get; } | 現在のストリームが読み取りをサポートしているかどうかを示す値を取得します。Read-only Boolean. |
+| [CanSeek](../../aspose.slides/streamwrapper/canseek) { get; } | 現在のストリームがシークをサポートしているかどうかを示す値を取得します。Read-only Boolean. |
+| [CanWrite](../../aspose.slides/streamwrapper/canwrite) { get; } | 現在のストリームが書き込みをサポートしているかどうかを示す値を取得します。Read-only Boolean. |
+| [Length](../../aspose.slides/streamwrapper/length) { get; } | ストリームのバイト単位の長さを取得します。Read-only Int64. |
+| [Position](../../aspose.slides/streamwrapper/position) { get; } | 現在のストリーム内の位置を取得または設定します。Read-only Int64. |
+| [Stream](../../aspose.slides/streamwrapper/stream) { get; } | ストリームを取得します。Read-only Stream. |
 
 ## メソッド
 
@@ -34,12 +34,12 @@ public class StreamWrapper : IStreamWrapper
 | [Dispose](../../aspose.slides/streamwrapper/dispose)() | オブジェクトを破棄します。 |
 | [Flush](../../aspose.slides/streamwrapper/flush)() | このストリームのすべてのバッファをクリアし、バッファされたデータを基になるデバイスに書き込みます。 |
 | [Read](../../aspose.slides/streamwrapper/read)(byte[], int, int) | 現在のストリームからバイトのシーケンスを読み取り、読み取ったバイト数だけストリーム内の位置を進めます。 |
-| [ReadByte](../../aspose.slides/streamwrapper/readbyte)() | ストリームからバイトを読み取り、ストリーム内の位置を 1 バイト進めます。ストリームの末尾に達した場合は -1 を返します。 |
-| [Seek](../../aspose.slides/streamwrapper/seek)(long, SeekOrigin) | 現在のストリーム内の位置を設定します |
-| [Write](../../aspose.slides/streamwrapper/write)(byte[], int, int) | 現在のストリームにバイトのシーケンスを書き込み、書き込んだバイト数だけこのストリーム内の現在位置を進めます。 |
-| [WriteByte](../../aspose.slides/streamwrapper/writebyte)(byte) | ストリームの現在位置にバイトを書き込み、ストリーム内の位置を 1 バイト進めます。 |
+| [ReadByte](../../aspose.slides/streamwrapper/readbyte)() | ストリームから 1 バイトを読み取り、位置を 1 バイト進めます。ストリームの末尾に達した場合は -1 を返します。 |
+| [Seek](../../aspose.slides/streamwrapper/seek)(long, SeekOrigin) | 現在のストリーム内の位置を設定します。 |
+| [Write](../../aspose.slides/streamwrapper/write)(byte[], int, int) | バイトのシーケンスを書き込み、書き込んだバイト数だけ現在のストリーム位置を進めます。 |
+| [WriteByte](../../aspose.slides/streamwrapper/writebyte)(byte) | 現在の位置にバイトを書き込み、ストリーム内の位置を 1 バイト進めます。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [IStreamWrapper](../istreamwrapper)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

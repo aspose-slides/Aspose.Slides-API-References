@@ -1,14 +1,14 @@
 ---
 title: PresentationPlayer.FrameTickHandler
-second_title: Aspose.Sildes .NET API hivatkozás
-description: A FrameTick./presentationplayer/frametick esemény keretjelző kezelőjét képviseli.
+second_title: Aspose.Sildes a .NET API Referenciához
+description: A FrameTick./presentationplayer/frametick esemény keret-ütés kezelőjét reprezentálja.
 type: docs
-weight: 4380
+weight: 4400
 url: /hu/aspose.slides.export/presentationplayer.frametickhandler/
 ---
-## PresentationPlayer.FrameTickHandler delegált
+## PresentationPlayer.FrameTickHandler delegát
 
-A [`FrameTick`](../presentationplayer/frametick) esemény keretjelző kezelőjét képviseli.
+A [`FrameTick`](../presentationplayer/frametick) esemény keret-ütés kezelőjét reprezentálja.
 
 ```csharp
 public delegate void FrameTickHandler(PresentationPlayer sender, FrameTickEventArgs args);
@@ -16,8 +16,8 @@ public delegate void FrameTickHandler(PresentationPlayer sender, FrameTickEventA
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| sender | PresentationPlayer | A keretjelző esemény küldője. |
-| args | FrameTickEventArgs | A keretjelző argumentumai. |
+| sender | PresentationPlayer | Az esemény keret-ütésének küldője. |
+| args | FrameTickEventArgs | A keret-ütés argumentumai. |
 
 ### Lásd még
 

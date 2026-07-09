@@ -1,9 +1,9 @@
 ---
 title: BehaviorFactory
-second_title: Aspose.Sildes para Referência da API .NET
+second_title: Referência da API Aspose.Sildes para .NET
 description: Permite criar efeitos de animação
 type: docs
-weight: 160
+weight: 180
 url: /pt/aspose.slides.animation/behaviorfactory/
 ---
 ## BehaviorFactory classe
@@ -37,7 +37,7 @@ public class BehaviorFactory : IBehaviorFactory
 
 Para compatibilidade COM.
 
-### Ver Também
+### Veja Também
 
 * interface [IBehaviorFactory](../ibehaviorfactory)
 * namespace [Aspose.Slides.Animation](../../aspose.slides.animation)

@@ -1,9 +1,9 @@
 ---
 title: ILoadOptions
-second_title: Aspose.Sildes dla .NET – referencja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Umożliwia określenie dodatkowych opcji, takich jak format lub domyślna czcionka, podczas ładowania prezentacji.
 type: docs
-weight: 6320
+weight: 6340
 url: /pl/aspose.slides/iloadoptions/
 ---
 ## ILoadOptions interfejs
@@ -18,20 +18,20 @@ public interface ILoadOptions
 
 | Nazwa | Opis |
 | --- | --- |
-| [BlobManagementOptions](../../aspose.slides/iloadoptions/blobmanagementoptions) { get; set; } | Reprezentuje opcje, które mogą być użyte do zarządzania zachowaniem obsługi Binary Large Objects (BLOBs), takich jak użycie plików tymczasowych lub maksymalna liczba bajtów BLOBów w pamięci. Opcje te mają na celu ustalenie najlepszego stosunku wydajności do zużycia pamięci dla określonego środowiska lub wymagań. Binary Large Object (BLOB) to dane binarne przechowywane jako pojedynczy podmiot – np. BLOB może być audio, wideo lub samą prezentacją. |
-| [DefaultAsianFont](../../aspose.slides/iloadoptions/defaultasianfont) { get; set; } | Zwraca lub ustawia czcionkę azjatycką używaną, gdy nie odnaleziono czcionki źródłowej. Odczyt/zapis String. |
-| [DefaultRegularFont](../../aspose.slides/iloadoptions/defaultregularfont) { get; set; } | Zwraca lub ustawia czcionkę zwykłą używaną, gdy nie odnaleziono czcionki źródłowej. Odczyt/zapis String. |
-| [DefaultSymbolFont](../../aspose.slides/iloadoptions/defaultsymbolfont) { get; set; } | Zwraca lub ustawia czcionkę Symbol używaną, gdy nie odnaleziono czcionki źródłowej. Odczyt/zapis String. |
-| [DefaultTextLanguage](../../aspose.slides/iloadoptions/defaulttextlanguage) { get; set; } | Zwraca lub ustawia domyślny język tekstu prezentacji. Odczyt/zapis String. |
+| [BlobManagementOptions](../../aspose.slides/iloadoptions/blobmanagementoptions) { get; set; } | Reprezentuje opcje, które mogą być użyte do zarządzania zachowaniem obsługi Binary Large Objects (BLOBs), takimi jak użycie plików tymczasowych lub maksymalna liczba bajtów BLOB w pamięci. Opcje te mają na celu ustawienie najlepszego stosunku wydajności do zużycia pamięci dla konkretnego środowiska lub wymagań. Binary Large Object (BLOB) to dane binarne przechowywane jako pojedynczy byt – np. BLOB może być plikiem audio, wideo lub samą prezentacją. |
+| [DefaultAsianFont](../../aspose.slides/iloadoptions/defaultasianfont) { get; set; } | Zwraca lub ustawia czcionkę azjatycką używaną w przypadku, gdy nie zostanie znaleziona czcionka źródłowa. String odczyt-zapis. |
+| [DefaultRegularFont](../../aspose.slides/iloadoptions/defaultregularfont) { get; set; } | Zwraca lub ustawia czcionkę standardową używaną w przypadku, gdy nie zostanie znaleziona czcionka źródłowa. String odczyt-zapis. |
+| [DefaultSymbolFont](../../aspose.slides/iloadoptions/defaultsymbolfont) { get; set; } | Zwraca lub ustawia czcionkę Symbol używaną w przypadku, gdy nie zostanie znaleziona czcionka źródłowa. String odczyt-zapis. |
+| [DefaultTextLanguage](../../aspose.slides/iloadoptions/defaulttextlanguage) { get; set; } | Zwraca lub ustawia domyślny język tekstu prezentacji. String odczyt-zapis. |
 | [DeleteEmbeddedBinaryObjects](../../aspose.slides/iloadoptions/deleteembeddedbinaryobjects) { get; set; } | Określa, czy Aspose.Slides usunie wszystkie osadzone obiekty binarne podczas ładowania prezentacji. |
-| [DocumentLevelFontSources](../../aspose.slides/iloadoptions/documentlevelfontsources) { get; set; } | Określa źródła zewnętrznych czcionek używanych przez prezentację. Czcionki te są dostępne dla prezentacji przez cały jej czas życia i nie są współdzielone z innymi prezentacjami. |
-| [InterruptionToken](../../aspose.slides/iloadoptions/interruptiontoken) { get; set; } | Token służący do monitorowania żądań przerwania. Ten token zarządza całym okresem życia instancji [`IPresentation`](../ipresentation). Każda długotrwała operacja, taka jak ładowanie lub zapisywanie prezentacji, zostanie przerwana poprzez wywołanie metody [`Interrupt`](../iinterruptiontokensource/interrupt) obiektu [`IInterruptionTokenSource`](../iinterruptiontokensource). |
-| [LoadFormat](../../aspose.slides/iloadoptions/loadformat) { get; set; } | Zwraca lub ustawia format prezentacji do załadowania. Odczyt/zapis [`LoadFormat`](../loadformat). |
-| [OnlyLoadDocumentProperties](../../aspose.slides/iloadoptions/onlyloaddocumentproperties) { get; set; } | Właściwość ma sens, jeśli plik prezentacji jest chroniony hasłem. Wartość true oznacza, że z zaszyfrowanego pliku prezentacji należy załadować jedynie właściwości dokumentu i hasło ma być ignorowane. Wartość false oznacza, że cała zaszyfrowana prezentacja musi zostać załadowana przy użyciu właściwego hasła. Jeżeli prezentacja nie jest zaszyfrowana, wartość tej właściwości jest zawsze ignorowana. Jeśli właściwości dokumentu zaszyfrowanego pliku nie są publiczne i wartość właściwości jest true, właściwości dokumentu nie mogą zostać załadowane i zostanie zgłoszony wyjątek. Odczyt/zapis Boolean. |
-| [Password](../../aspose.slides/iloadoptions/password) { get; set; } | Zwraca lub ustawia hasło. Odczyt/zapis String. |
-| [ResourceLoadingCallback](../../aspose.slides/iloadoptions/resourceloadingcallback) { get; set; } | Zwraca lub ustawia interfejs zwrotny, który zarządza ładowaniem zasobów zewnętrznych. Odczyt/zapis [`IResourceLoadingCallback`](../iresourceloadingcallback). |
+| [DocumentLevelFontSources](../../aspose.slides/iloadoptions/documentlevelfontsources) { get; set; } | Określa źródła zewnętrznych czcionek używanych w prezentacji. Czcionki te są dostępne dla prezentacji przez cały jej czas życia i nie są współdzielone z innymi prezentacjami. |
+| [InterruptionToken](../../aspose.slides/iloadoptions/interruptiontoken) { get; set; } | Token służący do monitorowania żądań przerwania. Token ten zarządza całym okresem życia instancji [`IPresentation`](../ipresentation). Każda długotrwała operacja, taka jak ładowanie lub zapisywanie prezentacji, zostanie przerwana poprzez wywołanie metody [`Interrupt`](../iinterruptiontokensource/interrupt) klasy [`IInterruptionTokenSource`](../iinterruptiontokensource). |
+| [LoadFormat](../../aspose.slides/iloadoptions/loadformat) { get; set; } | Zwraca lub ustawia format prezentacji do załadowania. String odczyt-zapis [`LoadFormat`](../loadformat). |
+| [OnlyLoadDocumentProperties](../../aspose.slides/iloadoptions/onlyloaddocumentproperties) { get; set; } | To właściwość ma sens, jeśli plik prezentacji jest zabezpieczony hasłem. Wartość true oznacza, że z zaszyfrowanego pliku prezentacji należy załadować tylko właściwości dokumentu i hasło ma zostać zignorowane. Wartość false oznacza, że cała zaszyfrowana prezentacja musi zostać załadowana przy użyciu prawidłowego hasła. Jeśli prezentacja nie jest zaszyfrowana, wartość właściwości jest zawsze ignorowana. Jeśli właściwości dokumentu zaszyfrowanego pliku nie są publiczne i wartość właściwości jest true, właściwości dokumentu nie mogą zostać załadowane i zostanie rzucony wyjątek. Boolean odczyt-zapis. |
+| [Password](../../aspose.slides/iloadoptions/password) { get; set; } | Pobiera lub ustawia hasło. String odczyt-zapis. |
+| [ResourceLoadingCallback](../../aspose.slides/iloadoptions/resourceloadingcallback) { get; set; } | Zwraca lub ustawia interfejs wywołania zwrotnego, który zarządza ładowaniem zasobów zewnętrznych. String odczyt-zapis [`IResourceLoadingCallback`](../iresourceloadingcallback). |
 | [SpreadsheetOptions](../../aspose.slides/iloadoptions/spreadsheetoptions) { get; set; } | Reprezentuje opcje, które mogą być użyte do określenia dodatkowego zachowania arkuszy kalkulacyjnych. |
-| [WarningCallback](../../aspose.slides/iloadoptions/warningcallback) { get; set; } | Zwraca lub ustawia obiekt, który odbiera ostrzeżenia i decyduje, czy proces ładowania będzie kontynuowany, czy zostanie przerwany. Odczyt/zapis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [WarningCallback](../../aspose.slides/iloadoptions/warningcallback) { get; set; } | Zwraca lub ustawia obiekt odbierający ostrzeżenia i decydujący, czy proces ładowania będzie kontynuowany czy zostanie przerwany. String odczyt-zapis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Zobacz także
 

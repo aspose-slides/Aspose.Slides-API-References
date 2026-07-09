@@ -1,14 +1,14 @@
 ---
 title: IChartPlotArea
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Grafik başlığı özelliklerini temsil eder.
 type: docs
-weight: 1890
+weight: 1910
 url: /tr/aspose.slides.charts/ichartplotarea/
 ---
-## IChartPlotArea arayüzü
+## IChartPlotArea arayüz
 
-Represents chart title properties.
+Grafik başlığı özelliklerini temsil eder.
 
 ```csharp
 public interface IChartPlotArea : IActualLayout, ILayoutable
@@ -20,8 +20,8 @@ public interface IChartPlotArea : IActualLayout, ILayoutable
 | --- | --- |
 | [AsIActualLayout](../../aspose.slides.charts/ichartplotarea/asiactuallayout) { get; } | IActualLayout arayüzünü döndürür. |
 | [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | Temel ILayoutable arayüzünü almaya izin verir. Salt okunur [`ILayoutable`](../ilayoutable). |
-| [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | Plot alanının biçimini döndürür. Salt okunur [`IFormat`](../iformat). |
-| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | Plot alanının düzeni manuel olarak tanımlanmışsa, bu özellik plot alanını iç kısmına (eksen ve eksen etiketleri hariç) mi yoksa dış kısmına (eksen ve eksen etiketleri dahil) mi düzenleyeceğini belirtir. Okunabilir/Yazılabilir [`LayoutTargetType`](./layouttargettype). |
+| [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | Bir çizim alanının biçimini döndürür. Salt okunur [`IFormat`](../iformat). |
+| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | Çizim alanının yerleşimi manuel olarak tanımlanmış ise bu özellik, çizim alanını iç kısmına (eksen ve eksen etiketleri hariç) ya da dış kısmına (eksen ve eksen etiketleri dahil) göre yerleştirip yerleştirilmeyeceğini belirler. Okunabilir/Yazılabilir [`LayoutTargetType`](./layouttargettype). |
 
 ### Ayrıca Bakınız
 

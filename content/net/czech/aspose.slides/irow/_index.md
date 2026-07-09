@@ -3,7 +3,7 @@ title: IRow
 second_title: Aspose.Sildes pro .NET API Reference
 description: Představuje řádek v tabulce.
 type: docs
-weight: 6830
+weight: 6850
 url: /cs/aspose.slides/irow/
 ---
 ## IRow rozhraní
@@ -21,10 +21,10 @@ public interface IRow : IBulkTextFormattable, ICellCollection
 | [AsIBulkTextFormattable](../../aspose.slides/irow/asibulktextformattable) { get; } | Umožňuje získat základní rozhraní IBulkTextFormattable. Pouze pro čtení [`IBulkTextFormattable`](../ibulktextformattable). |
 | [AsICellCollection](../../aspose.slides/irow/asicellcollection) { get; } | Umožňuje získat základní rozhraní ICellCollection. Pouze pro čtení [`ICellCollection`](../icellcollection). |
 | [Height](../../aspose.slides/irow/height) { get; } | Vrací výšku řádku. Pouze pro čtení Double. |
-| [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | Vrací nebo nastavuje minimální možnou výšku řádku. Čtení/zápis Double. |
+| [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | Vrací nebo nastavuje minimální možnou výšku řádku. Čtení/Zápis Double. |
 | [RowFormat](../../aspose.slides/irow/rowformat) { get; } | Vrací objekt RowFormat, který obsahuje vlastnosti formátování pro tento řádek. Pouze pro čtení [`IRowFormat`](../irowformat). |
 
-### Viz také
+### Další informace
 
 * rozhraní [IBulkTextFormattable](../ibulktextformattable)
 * rozhraní [ICellCollection](../icellcollection)

@@ -1,14 +1,14 @@
 ---
 title: VbaModuleCollection
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
+second_title: Aspose.Sildes dla .NET – referencja API
 description: Reprezentuje kolekcję modułów projektu VBA.
 type: docs
-weight: 11620
+weight: 11640
 url: /pl/aspose.slides.vba/vbamodulecollection/
 ---
 ## VbaModuleCollection klasa
 
-Reprezentuje kolekcję modułów projektu VBA.
+Represents a collection of a VBA Project modules.
 
 ```csharp
 public sealed class VbaModuleCollection : IVbaModuleCollection
@@ -16,16 +16,16 @@ public sealed class VbaModuleCollection : IVbaModuleCollection
 
 ## Właściwości
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
 | [Count](../../aspose.slides.vba/vbamodulecollection/count) { get; } | Zwraca liczbę elementów faktycznie znajdujących się w kolekcji. Tylko do odczytu Int32. |
-| [IsSynchronized](../../aspose.slides.vba/vbamodulecollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest zsynchronizowany (wątkowo bezpieczny). Tylko do odczytu Boolean. |
+| [IsSynchronized](../../aspose.slides.vba/vbamodulecollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest synchronizowany (wątkowo bezpieczny). Tylko do odczytu Boolean. |
 | [Item](../../aspose.slides.vba/vbamodulecollection/item) { get; } | Zwraca element o określonym indeksie. |
 | [SyncRoot](../../aspose.slides.vba/vbamodulecollection/syncroot) { get; } | Zwraca korzeń synchronizacji. Tylko do odczytu Object. |
 
 ## Metody
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
 | [AddEmptyModule](../../aspose.slides.vba/vbamodulecollection/addemptymodule)(string) | Dodaje nowy pusty moduł do projektu VBA. |
 | [CopyTo](../../aspose.slides.vba/vbamodulecollection/copyto)(Array, int) | Kopiuje wszystkie elementy z kolekcji do określonej tablicy. |

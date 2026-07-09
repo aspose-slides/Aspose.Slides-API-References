@@ -1,14 +1,14 @@
 ---
 title: SlideSize
-second_title: Aspose.Sildes için .NET API Referansı
-description: Bir slaydın boyutunu ve yönelimini temsil eder.
+second_title: Aspose.Sildes .NET API Referansı
+description: Bir slaydın boyutunu ve yönünü temsil eder.
 type: docs
-weight: 10480
+weight: 10500
 url: /tr/aspose.slides/slidesize/
 ---
-## SlideSize sınıf
+## SlideSize sınıfı
 
-Bir slaydın boyutunu ve yönelimini temsil eder.
+Bir slaytın boyutunu ve yönünü temsil eder.
 
 ```csharp
 public class SlideSize : DomObject<Presentation>, ISlideSize
@@ -16,24 +16,24 @@ public class SlideSize : DomObject<Presentation>, ISlideSize
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [Orientation](../../aspose.slides/slidesize/orientation) { get; set; } | Slayt yönelimini alır veya ayarlar. |
-| [Size](../../aspose.slides/slidesize/size) { get; } | Slayt boyutlarını puan cinsinden alır. |
+| [Orientation](../../aspose.slides/slidesize/orientation) { get; set; } | Slayt yönünü alır veya ayarlar. |
+| [Size](../../aspose.slides/slidesize/size) { get; } | Slayt boyutlarını nokta cinsinden alır. |
 | [Type](../../aspose.slides/slidesize/type) { get; } | Slayt boyut türünü alır. |
 
 ## Yöntemler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [SetSize](../../aspose.slides/slidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | Slayt boyutunu türe göre ayarlar ve mevcut içeriği ölçeklendirir. |
-| [SetSize](../../aspose.slides/slidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | Slayt boyutlarını açıkça ayarlar ve mevcut içeriği ölçeklendirir. |
+| [SetSize](../../aspose.slides/slidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | Slayt boyutunu türüne göre belirler ve mevcut içeriği ölçeklendirir. |
+| [SetSize](../../aspose.slides/slidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | Slayt boyutlarını açıkça belirler ve mevcut içeriği ölçeklendirir. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * sınıf [DomObject&lt;TParent&gt;](../domobject-1)
 * sınıf [Presentation](../presentation)
-* arabirim [ISlideSize](../islidesize)
+* arayüz [ISlideSize](../islidesize)
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)
 

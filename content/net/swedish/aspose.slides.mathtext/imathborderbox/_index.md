@@ -1,14 +1,14 @@
 ---
 title: IMathBorderBox
 second_title: Aspose.Sildes för .NET API-referens
-description: Ritar en rektangulär eller annan ram runt IMathElement.
+description: Ritar en rektangulär eller någon annan kant runt IMathElement.
 type: docs
-weight: 8150
+weight: 8170
 url: /sv/aspose.slides.mathtext/imathborderbox/
 ---
 ## IMathBorderBox gränssnitt
 
-Ritar en rektangulär eller annan ram runt IMathElement.
+Ritar en rektangulär eller någon annan kant runt IMathElement.
 
 ```csharp
 public interface IMathBorderBox : IMathElement
@@ -20,14 +20,14 @@ public interface IMathBorderBox : IMathElement
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathborderbox/asimathelement) { get; } | Tillåter att hämta bas-IMathElement-gränssnitt [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathborderbox/base) { get; } | Basargument |
-| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | Dölj nedre kant (standard är false) – anger det dolda eller visade tillståndet för den nedre kanten av ramboxen. |
-| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | Dölj vänster kant (standard är false) – anger det dolda eller visade tillståndet för den vänstra kanten av ramboxen. |
-| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | Dölj höger kant (standard är false) – anger det dolda eller visade tillståndet för den högra kanten av ramboxen. |
-| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | Dölj övre kant (standard är false) – anger det dolda eller visade tillståndet för den övre kanten av ramboxen. |
-| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | Genomstrykning från nedre vänster till övre höger (standard är false). Anger det dolda eller visade tillståndet för en genomstruken diagonal linje från det nedre vänstra hörnet till det övre högra hörnet av ramboxen. |
-| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | Genomstrykning horisontell (standard är false) – anger det dolda eller visade tillståndet för en genomstruken horisontell linje. |
-| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | Genomstrykning från övre vänster till nedre höger (standard är false). Anger det dolda eller visade tillståndet för en genomstruken diagonal linje från det övre vänstra hörnet till det nedre högra hörnet av ramboxen. |
-| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | Genomstrykning vertikal (standard är false) – anger det dolda eller visade tillståndet för en genomstruken vertikal linje. |
+| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | Dölj bottenkant (standard är false) - anger den dolda eller visade statusen för bottenkanten av rubrikboxen. |
+| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | Dölj vänsterkant (standard är false) - anger den dolda eller visade statusen för vänsterkanten av rubrikboxen. |
+| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | Dölj högerkant (standard är false) - anger den dolda eller visade statusen för högerkanten av rubrikboxen. |
+| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | Dölj överkant (standard är false) - anger den dolda eller visade statusen för överkanten av rubrikboxen. |
+| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | Genomstrykning nedre vänstra till övre högra (standard är false). Anger den dolda eller visade statusen för en genomstruken diagonal linje från det nedre vänstra hörnet till det övre högra hörnet av rubrikboxen. |
+| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | Genomstrykning horisontell (standard är false) - anger den dolda eller visade statusen för en genomstruken horisontell linje. |
+| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | Genomstrykning övre vänstra till nedre högra (standard är false). Anger den dolda eller visade statusen för en genomstruken diagonal linje från det övre vänstra hörnet till det nedre högra hörnet av rubrikboxen. |
+| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | Genomstrykning vertikal (standard är false) - anger den dolda eller visade statusen för en genomstruken vertikal linje. |
 
 ### Exempel
 

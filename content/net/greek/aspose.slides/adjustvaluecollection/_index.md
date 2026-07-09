@@ -1,9 +1,9 @@
 ---
 title: AdjustValueCollection
-second_title: Aspose.Sildes για .NET Αναφορά API
+second_title: Aspose.Sildes για .NET API Αναφορά
 description: Αναπαριστά μια συλλογή προσαρμογών σχήματος.
 type: docs
-weight: 80
+weight: 100
 url: /el/aspose.slides/adjustvaluecollection/
 ---
 ## AdjustValueCollection κλάση
@@ -19,9 +19,9 @@ public sealed class AdjustValueCollection : DomObject<GeometryShape>, IAdjustVal
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [Count](../../aspose.slides/adjustvaluecollection/count) { get; } | Επιστρέφει έναν αριθμό προσαρμογών. Μόνο για ανάγνωση Int32. |
-| [IsSynchronized](../../aspose.slides/adjustvaluecollection/issynchronized) { get; } | Επιστρέφει μια τιμή που υποδεικνύει αν η πρόσβαση στη συλλογή είναι συγχρονισμένη (thread-safe). Μόνο για ανάγνωση Boolean. |
-| [Item](../../aspose.slides/adjustvaluecollection/item) { get; } | Επιστρέφει την προσαρμογή με βάση το ευρετήριο. |
-| [SyncRoot](../../aspose.slides/adjustvaluecollection/syncroot) { get; } | Επιστρέφει τη ρίζα συγχρονισμού. Μόνο για ανάγνωση Object. |
+| [IsSynchronized](../../aspose.slides/adjustvaluecollection/issynchronized) { get; } | Επιστρέφει μια τιμή που υποδεικνύει εάν η πρόσβαση στη συλλογή είναι συγχρονισμένη (thread-safe). Μόνο για ανάγνωση Boolean. |
+| [Item](../../aspose.slides/adjustvaluecollection/item) { get; } | Επιστρέφει την προσαρμογή κατά δείκτη. |
+| [SyncRoot](../../aspose.slides/adjustvaluecollection/syncroot) { get; } | Επιστρέφει μια ρίζα συγχρονισμού. Μόνο για ανάγνωση Object. |
 
 ## Μέθοδοι
 
@@ -33,7 +33,7 @@ public sealed class AdjustValueCollection : DomObject<GeometryShape>, IAdjustVal
 
 * κλάση [DomObject&lt;TParent&gt;](../domobject-1)
 * κλάση [GeometryShape](../geometryshape)
-* διεπαφή [IAdjustValueCollection](../iadjustvaluecollection)
+* διασύνδεση [IAdjustValueCollection](../iadjustvaluecollection)
 * χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
 * συναρμολόγηση [Aspose.Slides](../../)
 

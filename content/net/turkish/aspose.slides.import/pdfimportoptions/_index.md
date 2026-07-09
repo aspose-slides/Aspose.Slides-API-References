@@ -1,12 +1,12 @@
 ---
 title: PdfImportOptions
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: PDF içe aktarma seçeneklerini temsil eder
 type: docs
-weight: 7480
+weight: 7500
 url: /tr/aspose.slides.import/pdfimportoptions/
 ---
-## PdfImportOptions sınıf
+## PdfImportOptions sınıfı
 
 PDF içe aktarma seçeneklerini temsil eder
 
@@ -24,7 +24,7 @@ public class PdfImportOptions
 
 | Ad | Açıklama |
 | --- | --- |
-| [DetectTables](../../aspose.slides.import/pdfimportoptions/detecttables) { get; set; } | PDF dosyası içe aktarılırken tabloların algılanıp algılanmayacağını belirler. |
+| [DetectTables](../../aspose.slides.import/pdfimportoptions/detecttables) { get; set; } | PDF dosyası içe aktarılırken tabloların tespit edilip edilmediğini belirler. |
 
 ### Ayrıca Bakınız
 

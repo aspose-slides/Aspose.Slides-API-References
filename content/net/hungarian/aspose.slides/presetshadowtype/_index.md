@@ -1,14 +1,14 @@
 ---
 title: PresetShadowType
-second_title: Aspose.Sildes a .NET API hivatkozás
-description: Egy előre beállított árnyékhatást képvisel.
+second_title: Aspose.Sildes .NET API referencia
+description: Egy árnyékhatás előre beállított beállítását jelöli.
 type: docs
-weight: 9650
+weight: 9670
 url: /hu/aspose.slides/presetshadowtype/
 ---
 ## PresetShadowType enumeráció
 
-Egy előre beállított árnyékhatást képvisel.
+Egy árnyékhatás előre beállított beállítását jelöli.
 
 ```csharp
 public enum PresetShadowType
@@ -18,26 +18,26 @@ public enum PresetShadowType
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| TopLeftDropShadow | `0` | A Top Left Drop Shadow-t jelöli. |
-| TopLeftLargeDropShadow | `1` | A Top Left Large Drop Shadow-t jelöli. |
-| BackLeftLongPerspectiveShadow | `2` | A Back Left Long Perspective Shadow-t jelöli. |
-| BackRightLongPerspectiveShadow | `3` | A Back Right Long Perspective Shadow-t jelöli. |
-| TopLeftDoubleDropShadow | `4` | A Top Left Double Drop Shadow-t jelöli. |
-| BottomRightSmallDropShadow | `5` | A Bottom Right Small Drop Shadow-t jelöli. |
-| FrontLeftLongPerspectiveShadow | `6` | A Front Left Long Perspective Shadow-t jelöli. |
-| FrontRightLongPerspectiveShadow | `7` | A Front Right Long Perspective Shadow-t jelöli. |
-| OuterBoxShadow3D | `8` | Az Outer Box Shadow 3D-t jelöli. |
-| InnerBoxShadow3D | `9` | Az Inner Box Shadow 3D-t jelöli. |
-| BackCenterPerspectiveShadow | `10` | A Back Center Perspective Shadow-t jelöli. |
-| TopRightDropShadow | `11` | A Top Right Drop Shadow-t jelöli. |
-| FrontBottomShadow | `12` | A Front Bottom Shadow-t jelöli. |
-| BackLeftPerspectiveShadow | `13` | A Back Left Perspective Shadow-t jelöli. |
-| BackRightPerspectiveShadow | `14` | A Back Right Perspective Shadow-t jelöli. |
-| BottomLeftDropShadow | `15` | A Bottom Left Drop Shadow-t jelöli. |
-| BottomRightDropShadow | `16` | A Bottom Right Drop Shadow-t jelöli. |
-| FrontLeftPerspectiveShadow | `17` | A Front Left Perspective Shadow-t jelöli. |
-| FrontRightPerspectiveShadow | `18` | A Front Right Perspective Shadow-t jelöli. |
-| TopLeftSmallDropShadow | `19` | A Top Left Small Drop Shadow-t jelöli. |
+| TopLeftDropShadow | `0` | A felső balra eső árnyékot jelöli. |
+| TopLeftLargeDropShadow | `1` | A felső balra nagy árnyékot jelöli. |
+| BackLeftLongPerspectiveShadow | `2` | A hátsó bal hosszú perspektívájú árnyékot jelöli. |
+| BackRightLongPerspectiveShadow | `3` | A hátsó jobb hosszú perspektívájú árnyékot jelöli. |
+| TopLeftDoubleDropShadow | `4` | A felső balra dupla árnyékot jelöli. |
+| BottomRightSmallDropShadow | `5` | A jobb alsó kis árnyékot jelöli. |
+| FrontLeftLongPerspectiveShadow | `6` | Az első bal hosszú perspektívájú árnyékot jelöli. |
+| FrontRightLongPerspectiveShadow | `7` | Az első jobb hosszú perspektívájú árnyékot jelöli. |
+| OuterBoxShadow3D | `8` | A külső dobozárnyékot 3D-ben jelöli. |
+| InnerBoxShadow3D | `9` | A belső dobozárnyékot 3D-ben jelöli. |
+| BackCenterPerspectiveShadow | `10` | A hátsó középső perspektívájú árnyékot jelöli. |
+| TopRightDropShadow | `11` | A felső jobb árnyékot jelöli. |
+| FrontBottomShadow | `12` | Az első alsó árnyékot jelöli. |
+| BackLeftPerspectiveShadow | `13` | A hátsó bal perspektívájú árnyékot jelöli. |
+| BackRightPerspectiveShadow | `14` | A hátsó jobb perspektívájú árnyékot jelöli. |
+| BottomLeftDropShadow | `15` | A bal alsó árnyékot jelöli. |
+| BottomRightDropShadow | `16` | A jobb alsó árnyékot jelöli. |
+| FrontLeftPerspectiveShadow | `17` | Az első bal perspektívájú árnyékot jelöli. |
+| FrontRightPerspectiveShadow | `18` | Az első jobb perspektívájú árnyékot jelöli. |
+| TopLeftSmallDropShadow | `19` | A felső bal kis árnyékot jelöli. |
 
 ### Lásd még
 

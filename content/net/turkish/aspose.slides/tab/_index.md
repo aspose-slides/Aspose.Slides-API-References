@@ -1,14 +1,14 @@
 ---
 title: Tab
 second_title: Aspose.Sildes için .NET API Referansı
-description: Metin için bir sekme hizalamasını temsil eder.
+description: Bir metin için sekme hizalamasını temsil eder.
 type: docs
-weight: 10800
+weight: 10820
 url: /tr/aspose.slides/tab/
 ---
 ## Tab sınıfı
 
-Metin için bir sekme hizalamasını temsil eder.
+Bir metin için sekme hizalamasını temsil eder.
 
 ```csharp
 public sealed class Tab : PVIObject, ITab
@@ -24,19 +24,19 @@ public sealed class Tab : PVIObject, ITab
 
 | Ad | Açıklama |
 | --- | --- |
-| [Alignment](../../aspose.slides/tab/alignment) { get; set; } | Bir sekmenin hizalama stilini döndürür veya ayarlar. Okuma/yazma [`TabAlignment`](../tabalignment). |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almayı sağlar. Salt okunur [`IPresentationComponent`](../ipresentationcomponent). |
-| [Position](../../aspose.slides/tab/position) { get; set; } | Bir sekmenin konumunu döndürür veya ayarlar. Bu özelliğe değer atamak, sekmenin koleksiyondaki indeksini değiştirebilir ve Enumerator'ı geçersiz kılabilir. Okuma/yazma Double. |
+| [Alignment](../../aspose.slides/tab/alignment) { get; set; } | Bir sekmenin hizalama stilini alır veya ayarlar. Okunur/yazılır [`TabAlignment`](../tabalignment). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almayı sağlar. Salt-okunur [`IPresentationComponent`](../ipresentationcomponent). |
+| [Position](../../aspose.slides/tab/position) { get; set; } | Bir sekmenin konumunu alır veya ayarlar. Bu özelliğe değer atamak, sekmenin koleksiyondaki indeksini değiştirebilir ve Enumerator'ı geçersiz kılabilir. Okunur/yazılır Double. |
 
-## Yöntemler
+## Metotlar
 
 | Ad | Açıklama |
 | --- | --- |
-| [CompareTo](../../aspose.slides/tab/compareto)(object) | Geçerli örneği aynı tipteki başka bir nesneyle karşılaştırır. |
+| [CompareTo](../../aspose.slides/tab/compareto)(object) | Geçerli örneği aynı türdeki başka bir nesneyle karşılaştırır. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Belirtilen nesneyle karşılaştırır. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Hash kodunu döndürür. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Karma kodu döndürür. |
 
-### Ayrıca Bakınız
+### Ayrıca bakınız
 
 * sınıf [PVIObject](../pviobject)
 * arayüz [ITab](../itab)

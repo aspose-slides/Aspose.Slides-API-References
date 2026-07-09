@@ -1,14 +1,14 @@
 ---
 title: NotesPositions
 second_title: Aspose.Sildes for .NET API リファレンス
-description: エクスポートされたドキュメントにノートをレンダリングするルールを表します
+description: エクスポートされたドキュメントにノートを描画するためのルールを表します
 type: docs
-weight: 4280
+weight: 4300
 url: /ja/aspose.slides.export/notespositions/
 ---
-## NotesPositions 列挙体
+## NotesPositions 列挙
 
-エクスポートされたドキュメントにノートをレンダリングするルールを表します。
+エクスポートされたドキュメントにノートを描画するためのルールを表します
 
 ```csharp
 public enum NotesPositions
@@ -18,9 +18,9 @@ public enum NotesPositions
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| None | `0` | ノートをまったく表示しないことを指定します。 |
-| BottomFull | `1` | 必要に応じて追加ページを使用してノートを完全に表示することを指定します。 |
-| BottomTruncated | `2` | ノートを1ページだけに表示することを指定します。 |
+| None | `0` | ノートを全く表示しないことを指定します。 |
+| BottomFull | `1` | 必要に応じて追加ページを使用してノートを全ページにわたって表示することを指定します。 |
+| BottomTruncated | `2` | ノートを1ページにのみ表示することを指定します。 |
 
 ### 参照
 

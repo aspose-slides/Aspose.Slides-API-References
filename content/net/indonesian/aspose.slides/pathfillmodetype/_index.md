@@ -1,14 +1,14 @@
 ---
 title: PathFillModeType
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Menentukan cara suatu jalur harus diisi
+description: Menentukan cara sebuah path harus diisi
 type: docs
-weight: 9310
+weight: 9330
 url: /id/aspose.slides/pathfillmodetype/
 ---
-## PathFillModeType enumeration
+## PathFillModeType enumerasi
 
-Menentukan cara suatu jalur harus diisi
+Menentukan cara sebuah path harus diisi
 
 ```csharp
 public enum PathFillModeType : byte
@@ -18,12 +18,12 @@ public enum PathFillModeType : byte
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| None | `0` | Tidak Mengisi Jalur Ini menentukan bahwa jalur yang bersangkutan tidak memiliki isian. |
-| Normal | `1` | Pengisian Jalur Normal Ini menentukan bahwa jalur yang bersangkutan harus memiliki warna yang diarsir secara normal pada isinya. |
-| Lighten | `2` | Pengisian Jalur Mencerahkan Ini menentukan bahwa jalur yang bersangkutan harus memiliki warna yang diarsir ringan pada isinya. |
-| LightenLess | `3` | Pengisian Jalur Mencerahkan Lebih Sedikit Ini menentukan bahwa jalur yang bersangkutan harus memiliki warna yang diarsir sedikit lebih terang pada isinya. |
-| Darken | `4` | Pengisian Jalur Menggelap Ini menentukan bahwa jalur yang bersangkutan harus memiliki warna yang diarsir lebih gelap pada isinya. |
-| DarkenLess | `5` | Pengisian Jalur Menggelap Lebih Sedikit Ini menentukan bahwa jalur yang bersangkutan harus memiliki warna yang diarsir sedikit lebih gelap pada isinya. |
+| None | `0` | Tidak ada isian Path. Ini menentukan bahwa path yang bersangkutan tidak memiliki isian. |
+| Normal | `1` | Isian Path Normal. Ini menentukan bahwa path yang bersangkutan memiliki warna berbayang normal yang diterapkan pada isinya. |
+| Lighten | `2` | Isian Path Mencerahkan. Ini menentukan bahwa path yang bersangkutan memiliki warna berbayang ringan yang diterapkan pada isinya. |
+| LightenLess | `3` | Isian Path Mencerahkan Sedikit. Ini menentukan bahwa path yang bersangkutan memiliki warna berbayang yang sedikit lebih terang diterapkan pada isinya. |
+| Darken | `4` | Isian Path Menggelapkan. Ini menentukan bahwa path yang bersangkutan memiliki warna berbayang lebih gelap yang diterapkan pada isinya. |
+| DarkenLess | `5` | Isian Path Menggelapkan Sedikit. Ini menentukan bahwa path yang bersangkutan memiliki warna berbayang yang sedikit lebih gelap diterapkan pada isinya. |
 
 ### Lihat Juga
 

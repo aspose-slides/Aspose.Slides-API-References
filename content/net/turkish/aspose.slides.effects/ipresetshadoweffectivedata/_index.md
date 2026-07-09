@@ -3,10 +3,10 @@ title: IPresetShadowEffectiveData
 second_title: Aspose.Sildes için .NET API Referansı
 description: Önceden Tanımlı Gölge etkisini temsil eden değiştirilemez nesne.
 type: docs
-weight: 3470
+weight: 3490
 url: /tr/aspose.slides.effects/ippresetshadoweffectivedata/
 ---
-## IPresetShadowEffectiveData arayüzü
+## IPresetShadowEffectiveData arayüz
 
 Önceden Tanımlı Gölge etkisini temsil eden değiştirilemez nesne.
 
@@ -21,10 +21,10 @@ public interface IPresetShadowEffectiveData : IEffectEffectiveData
 | [AsIEffectEffectiveData](../../aspose.slides.effects/ipresetshadoweffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzünü almaya izin verir. Salt okunur [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Direction](../../aspose.slides.effects/ipresetshadoweffectivedata/direction) { get; } | Gölgenin yönü. Salt okunur Single. |
 | [Distance](../../aspose.slides.effects/ipresetshadoweffectivedata/distance) { get; } | Gölgenin mesafesi. Salt okunur Double. |
-| [Preset](../../aspose.slides.effects/ipresetshadoweffectivedata/preset) { get; } | Ön ayar. Salt okunur [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
+| [Preset](../../aspose.slides.effects/ipresetshadoweffectivedata/preset) { get; } | Önceden tanımlı. Salt okunur [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
 | [ShadowColor](../../aspose.slides.effects/ipresetshadoweffectivedata/shadowcolor) { get; } | Gölgenin rengi. Salt okunur Color. |
 
-### Ayrıca Bakınız
+### Diğer Bağlantılar
 
 * arayüz [IEffectEffectiveData](../ieffecteffectivedata)
 * ad alanı [Aspose.Slides.Effects](../../aspose.slides.effects)

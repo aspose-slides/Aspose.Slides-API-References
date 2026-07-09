@@ -1,15 +1,14 @@
 ---
 title: PresentationAnimationsGenerator
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa un generador de las animaciones en la Presentación../aspose.slides/presentation.
 type: docs
-weight: 4190
+weight: 4380
 url: /es/aspose.slides.export/presentationanimationsgenerator/
 ---
+## PresentationAnimationsGenerator clase
 
-## Clase PresentationAnimationsGenerator
-
-Representa un generador de las animaciones en la [`Presentation`](../../aspose.slides/presentation).
+Representa un generador de animaciones en el [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public class PresentationAnimationsGenerator : IDisposable
@@ -17,38 +16,38 @@ public class PresentationAnimationsGenerator : IDisposable
 
 ## Constructores
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
-| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor)(Presentation) | Crea una nueva instancia del [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
-| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor_1)(Size) | Crea una nueva instancia del [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
+| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor)(Presentation) | Crea una nueva instancia de [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
+| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor_1)(Size) | Crea una nueva instancia de [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
 
 ## Propiedades
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
-| [DefaultDelay](../../aspose.slides.export/presentationanimationsgenerator/defaultdelay) { get; set; } | Obtiene o establece el tiempo de retraso predeterminado [ms]. |
-| [ExportedSlides](../../aspose.slides.export/presentationanimationsgenerator/exportedslides) { get; } | Obtiene el número de la cantidad de diapositivas exportadas. |
-| [IncludeHiddenSlides](../../aspose.slides.export/presentationanimationsgenerator/includehiddenslides) { get; set; } | Obtiene o establece si se deben incluir las diapositivas ocultas. |
+| [DefaultDelay](../../aspose.slides.export/presentationanimationsgenerator/defaultdelay) { get; set; } | Obtiene o establece el tiempo de retardo predeterminado [ms]. |
+| [ExportedSlides](../../aspose.slides.export/presentationanimationsgenerator/exportedslides) { get; } | Obtiene el número de diapositivas exportadas. |
+| [IncludeHiddenSlides](../../aspose.slides.export/presentationanimationsgenerator/includehiddenslides) { get; set; } | Obtiene o establece si se deben incluir diapositivas ocultas. |
 
 ## Métodos
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
-| [Dispose](../../aspose.slides.export/presentationanimationsgenerator/dispose)() | Libera la instancia del [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
+| [Dispose](../../aspose.slides.export/presentationanimationsgenerator/dispose)() | Descarta la instancia de [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
 | [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run)(IEnumerable&lt;ISlide&gt;) | Ejecuta la generación de eventos de animación para cada diapositiva. |
-| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run_1)(IEnumerable&lt;ISlide&gt;, int, FrameTickHandler) | Ejecuta la generación de eventos de animación para cada diapositiva. |
+| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run_1)(IEnumerable&lt;ISlide&gt;, int, FrameTickHandler) | Ejecuta la generación de eventos de animación para cada diapositiva. |
 
 ## Campos
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
-| readonly [FrameSize](../../aspose.slides.export/presentationanimationsgenerator/framesize) | Obtiene el tamaño del marco. |
+| readonly [FrameSize](../../aspose.slides.export/presentationanimationsgenerator/framesize) | Obtiene el tamaño del marco. |
 
 ## Eventos
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
-| event [NewAnimation](../../aspose.slides.export/presentationanimationsgenerator/newanimation) | Un evento que representa que se generó una nueva animación. |
+| event [NewAnimation](../../aspose.slides.export/presentationanimationsgenerator/newanimation) | Un evento indica que se ha generado una nueva animación. |
 
 ### Ejemplos
 
@@ -69,9 +68,9 @@ using (Presentation presentation = new Presentation("animated.pptx"))
 }
 ```
 
-### Véase También
+### Ver también
 
-* namespace [Aspose.Slides.Export](../../aspose.slides.export)
-* assembly [Aspose.Slides](../../)
+* espacio de nombres [Aspose.Slides.Export](../../aspose.slides.export)
+* ensamblado [Aspose.Slides](../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

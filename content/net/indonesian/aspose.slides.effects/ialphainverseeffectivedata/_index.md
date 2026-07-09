@@ -1,9 +1,9 @@
 ---
 title: IAlphaInverseEffectiveData
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Objek tidak dapat diubah yang mewakili efek Alpha Inverse. Nilai opasitas Alpha dibalik dengan mengurangkan dari 100.
 type: docs
-weight: 3070
+weight: 3090
 url: /id/aspose.slides.effects/ialphainverseeffectivedata/
 ---
 ## IAlphaInverseEffectiveData antarmuka
@@ -18,7 +18,7 @@ public interface IAlphaInverseEffectiveData : IEffectEffectiveData
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphainverseeffectivedata/asieffecteffectivedata) { get; } | Memungkinkan untuk memperoleh antarmuka IEffectEffectiveData dasar. Hanya-baca [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphainverseeffectivedata/asieffecteffectivedata) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar IEffectEffectiveData. Hanya-baca [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Lihat Juga
 

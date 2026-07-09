@@ -3,7 +3,7 @@ title: IInterruptionToken
 second_title: Aspose.Sildes for .NET API リファレンス
 description: このクラスは、長時間実行されるタスクに対し割り込みが要求されたかどうかを通知するために使用するトークンを表します。
 type: docs
-weight: 6170
+weight: 6190
 url: /ja/aspose.slides/iinterruptiontoken/
 ---
 ## IInterruptionToken インターフェイス
@@ -18,7 +18,7 @@ public interface IInterruptionToken
 
 | 名前 | 説明 |
 | --- | --- |
-| [IsInterruptionRequested](../../aspose.slides/iinterruptiontoken/isinterruptionrequested) { get; } | 割り込みが要求された場合に Boolean.true を返します。 |
+| [IsInterruptionRequested](../../aspose.slides/iinterruptiontoken/isinterruptionrequested) { get; } | 割り込みが要求された場合、Boolean.true を返します。 |
 
 ## メソッド
 

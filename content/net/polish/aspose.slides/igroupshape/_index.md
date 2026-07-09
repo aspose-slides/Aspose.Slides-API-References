@@ -1,9 +1,9 @@
 ---
 title: IGroupShape
-second_title: Aspose.Sildes dla .NET – Referencja API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje grupę kształtów na slajdzie.
 type: docs
-weight: 6060
+weight: 6080
 url: /pl/aspose.slides/igroupshape/
 ---
 ## IGroupShape interfejs

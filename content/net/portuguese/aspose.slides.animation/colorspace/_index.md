@@ -1,9 +1,9 @@
 ---
 title: ColorSpace
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa o espaço de cor para o comportamento do efeito de cor.
 type: docs
-weight: 230
+weight: 250
 url: /pt/aspose.slides.animation/colorspace/
 ---
 ## Enumeração ColorSpace

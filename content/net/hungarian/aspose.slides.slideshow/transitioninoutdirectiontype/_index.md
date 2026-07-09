@@ -1,14 +1,14 @@
 ---
 title: TransitionInOutDirectionType
-second_title: Aspose.Sildes .NET API referencia
-description: Képviseli a be- vagy ki-irányú átmenettípusokat.
+second_title: Aspose.Sildes .NET API Referenciája
+description: Átmeneti be- vagy kimenő irány típusokat reprezentál.
 type: docs
-weight: 10350
+weight: 10370
 url: /hu/aspose.slides.slideshow/transitioninoutdirectiontype/
 ---
 ## TransitionInOutDirectionType enumeráció
 
-Az In vagy Out irányú átmenettípusokat reprezentálja.
+Az átmenet bejövő vagy kimenő irány típusait jelöli.
 
 ```csharp
 public enum TransitionInOutDirectionType

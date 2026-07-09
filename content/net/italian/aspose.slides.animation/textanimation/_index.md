@@ -3,10 +3,10 @@ title: TextAnimation
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta l'animazione del testo.
 type: docs
-weight: 800
+weight: 820
 url: /it/aspose.slides.animation/textanimation/
 ---
-## classe TextAnimation
+## TextAnimation classe
 
 Rappresenta l'animazione del testo.
 
@@ -16,22 +16,22 @@ public class TextAnimation : ITextAnimation
 
 ## Costruttori
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
 | [TextAnimation](textanimation)() | Il costruttore predefinito. |
 
 ## Proprietà
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
-| [BuildType](../../aspose.slides.animation/textanimation/buildtype) { get; set; } | Elenco del tipo di costruzione (ad es. Paragraph 1,2,3, All at Once) dell'animazione del testo. Lettura/scrittura [`BuildType`](../buildtype). |
-| [EffectAnimateBackgroundShape](../../aspose.slides.animation/textanimation/effectanimatebackgroundshape) { get; set; } | Effetto forma collegato con gruppo o meno (null). Lettura/scrittura [`IEffect`](../ieffect). |
+| [BuildType](../../aspose.slides.animation/textanimation/buildtype) { get; set; } | Elenco dei tipi di build (per es. Paragraph 1,2,3, All at Once) dell'animazione del testo. Lettura/scrittura [`BuildType`](../buildtype). |
+| [EffectAnimateBackgroundShape](../../aspose.slides.animation/textanimation/effectanimatebackgroundshape) { get; set; } | Effetto forma collegato con gruppo o no (null). Lettura/scrittura [`IEffect`](../ieffect). |
 
 ## Metodi
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
-| [AddEffect](../../aspose.slides.animation/textanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | Aggiunge un nuovo effetto alla fine della sequenza corrente fino alla fine delle animazioni di testo di gruppo. Valido solo se il conteggio dei paragrafi di testo è uguale o maggiore del conteggio degli effetti di questo gruppo! |
+| [AddEffect](../../aspose.slides.animation/textanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | Aggiunge un nuovo effetto alla fine della sequenza corrente fino alla fine delle animazioni di testo di gruppo. Valido solo se il conteggio dei paragrafi di testo è uguale o superiore al conteggio degli effetti di questo gruppo! |
 
 ### Vedi anche
 

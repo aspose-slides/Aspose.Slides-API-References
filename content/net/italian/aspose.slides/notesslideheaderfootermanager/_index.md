@@ -1,14 +1,14 @@
 ---
 title: NotesSlideHeaderFooterManager
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta il gestore che contiene il comportamento dei segnaposto delle diapositive note, incluso il segnaposto dell'intestazione.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta il gestore che contiene il comportamento dei segnaposto della diapositiva delle note, inclusi i segnaposto dell'intestazione.
 type: docs
-weight: 9130
+weight: 9150
 url: /it/aspose.slides/notesslideheaderfootermanager/
 ---
 ## NotesSlideHeaderFooterManager classe
 
-Rappresenta il gestore che contiene il comportamento dei segnaposto delle diapositive note, incluso il segnaposto dell'intestazione.
+Rappresenta il gestore che contiene il comportamento dei segnaposto della diapositiva delle note, inclusi i segnaposto dell'intestazione.
 
 ```csharp
 public sealed class NotesSlideHeaderFooterManager : BaseHandoutNotesSlideHeaderFooterManager, 
@@ -19,10 +19,10 @@ public sealed class NotesSlideHeaderFooterManager : BaseHandoutNotesSlideHeaderF
 
 | Nome | Descrizione |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Restituisce il valore che indica la presenza di un segnaposto data-ora. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Restituisce il valore che indica la presenza di un segnaposto piè di pagina. Read Boolean. |
-| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Restituisce il valore che indica la presenza di un segnaposto intestazione. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Restituisce il valore che indica la presenza di un segnaposto numero di pagina. ReadBinary. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Ottiene il valore che indica la presenza di un segnaposto data-ora. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Ottiene il valore che indica la presenza di un segnaposto piè di pagina. Read Boolean. |
+| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Ottiene il valore che indica la presenza di un segnaposto intestazione. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Ottiene il valore che indica la presenza di un segnaposto numero di pagina. ReadBoolean. |
 
 ## Metodi
 

@@ -3,12 +3,12 @@ title: VideoCollection
 second_title: Aspose.Sildes pro .NET API Reference
 description: Představuje kolekci objektů Video.
 type: docs
-weight: 11690
+weight: 11710
 url: /cs/aspose.slides/videocollection/
 ---
-## VideoCollection třída
+## Třída VideoCollection
 
-Představuje kolekci objektů Video.
+Představuje sbírku objektů Video.
 
 ```csharp
 public class VideoCollection : DomObject<Presentation>, IVideoCollection
@@ -18,8 +18,8 @@ public class VideoCollection : DomObject<Presentation>, IVideoCollection
 
 | Název | Popis |
 | --- | --- |
-| [Count](../../aspose.slides/videocollection/count) { get; } | Vrací počet video souborů v kolekci. Pouze pro čtení Int32. |
-| [IsSynchronized](../../aspose.slides/videocollection/issynchronized) { get; } | Vrací hodnotu určující, zda je přístup ke kolekci synchronizován (thread-safe). Pouze pro čtení Boolean. |
+| [Count](../../aspose.slides/videocollection/count) { get; } | Vrací počet video souborů ve sbírce. Pouze pro čtení Int32. |
+| [IsSynchronized](../../aspose.slides/videocollection/issynchronized) { get; } | Vrací hodnotu indikující, zda je přístup ke sbírce synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
 | [Item](../../aspose.slides/videocollection/item) { get; } | Získá prvek na zadaném indexu. Pouze pro čtení [`IVideo`](../ivideo). |
 | [SyncRoot](../../aspose.slides/videocollection/syncroot) { get; } | Vrací kořen synchronizace. Pouze pro čtení Object. |
 
@@ -27,11 +27,11 @@ public class VideoCollection : DomObject<Presentation>, IVideoCollection
 
 | Název | Popis |
 | --- | --- |
-| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_1)(byte[]) | Vytvoří a přidá video do prezentace z pole byte[]. |
+| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_1)(byte[]) | Vytvoří a přidá video do prezentace z pole bajtů. |
 | [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo)(IVideo) | Přidá kopii video souboru z jiné prezentace. |
 | [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | Vytvoří a přidá video do prezentace ze streamu. |
-| [CopyTo](../../aspose.slides/videocollection/copyto)(Array, int) | Zkopíruje videa do určeného pole počínaje z určeného indexu. |
-| [GetEnumerator](../../aspose.slides/videocollection/getenumerator)() | Vrací enumerátor, který iteruje přes kolekci. |
+| [CopyTo](../../aspose.slides/videocollection/copyto)(Array, int) | Zkopíruje videa do určeného pole počínaje zadaným indexem. |
+| [GetEnumerator](../../aspose.slides/videocollection/getenumerator)() | Vrací enumerátor, který prochází sbírkou. |
 
 ### Viz také
 
