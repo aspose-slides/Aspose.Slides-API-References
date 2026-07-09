@@ -1,6 +1,6 @@
 ---
 title: IChartTitle
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Представляет свойства заголовка диаграммы.
 type: docs
 weight: 2000

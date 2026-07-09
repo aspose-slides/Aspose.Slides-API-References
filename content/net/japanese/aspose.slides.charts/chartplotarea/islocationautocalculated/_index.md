@@ -1,7 +1,7 @@
 ---
 title: IsLocationAutocalculated
 second_title: Aspose.Sildes for .NET APIリファレンス
-description: 位置がどのように計算されるかを定義します: true の場合は自動的に計算され、X、Y、Width、Height プロパティで定義されます。読み取り専用 Boolean.
+description: "位置がどのように計算されるかを定義します: true の場合は自動的に計算され、X、Y、Width、Height プロパティで定義されます。読み取り専用 Boolean."
 type: docs
 weight: 90
 url: /ja/aspose.slides.charts/chartplotarea/islocationautocalculated/

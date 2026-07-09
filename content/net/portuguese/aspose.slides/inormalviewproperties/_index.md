@@ -1,7 +1,7 @@
 ---
 title: INormalViewProperties
 second_title: Aspose.Slides para .NET Referência da API
-description: Representa as propriedades da visualização normal. A visualização normal consiste em três regiões de conteúdo: o próprio slide, uma região de conteúdo lateral e uma região de conteúdo inferior.
+description: "Representa as propriedades da visualização normal. A visualização normal consiste em três regiões de conteúdo: o próprio slide, uma região de conteúdo lateral e uma região de conteúdo inferior."
 type: docs
 weight: 6470
 url: /pt/aspose.slides/inormalviewproperties/

@@ -1,6 +1,6 @@
 ---
 title: IBulletFormatEffectiveData
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Неизменяемый объект, содержащий эффективные свойства форматирования маркировки абзаца.
 type: docs
 weight: 5400

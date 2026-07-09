@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Haalt de eigenschappen op van het legenda-item dat overeenkomt met Chart.ChartData.Series0.DataPointsindex in het geval van een grafiektype uit de volgende lijst: ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie; of overeenkomt met Chart.ChartData.Seriesindex voor andere grafiektypes.
+description: "Haalt de eigenschappen op van het legenda-item dat overeenkomt met Chart.ChartData.Series0.DataPointsindex in het geval van een grafiektype uit de volgende lijst: ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie; of overeenkomt met Chart.ChartData.Seriesindex voor andere grafiektypes."
 type: docs
 weight: 20
 url: /nl/aspose.slides.charts/legendentrycollection/item/

@@ -1,7 +1,7 @@
 ---
 title: MarginLeft
 second_title: Aspose.Sildes for .NET API Referansı
-description: Bir TextFrame içinde sol kenar boşluğu puanlarını döndürür veya ayarlar. Bu özelliğin değiştirilmesi yalnızca şu grafik bölümleri için belirli bir etki yaratabilir: DataLabel ve DataLabelFormat. PowerPoint 2013'te tam destek; PowerPoint 2007'de renderlama için etkisi yoktur. Okunur/yazılır Double.
+description: "Bir TextFrame içinde sol kenar boşluğu puanlarını döndürür veya ayarlar. Bu özelliğin değiştirilmesi yalnızca şu grafik bölümleri için belirli bir etki yaratabilir: DataLabel ve DataLabelFormat. PowerPoint 2013'te tam destek; PowerPoint 2007'de renderlama için etkisi yoktur. Okunur/yazılır Double."
 type: docs
 weight: 50
 url: /tr/aspose.slides.charts/icharttextblockformat/marginleft/

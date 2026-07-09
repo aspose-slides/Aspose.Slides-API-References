@@ -1,6 +1,6 @@
 ---
 title: NotesSlideThemeManager
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Обеспечивает доступ к переопределённой теме слайдов заметок.
 type: docs
 weight: 11450

@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeBubble
 second_title: Aspose.Sildes för .NET API-referens
-description: Return true om chartType är en av Bubble-undertyperna. Undertypsmängden motsvarar den lämpliga mängden i PowerPoint, se dialogrutan Change Chart Type i PowerPoint: Bubble, BubbleWith3D.
+description: "Return true om chartType är en av Bubble-undertyperna. Undertypsmängden motsvarar den lämpliga mängden i PowerPoint, se dialogrutan Change Chart Type i PowerPoint: Bubble, BubbleWith3D."
 type: docs
 weight: 70
 url: /sv/aspose.slides.charts/charttypecharacterizer/ischarttypebubble/

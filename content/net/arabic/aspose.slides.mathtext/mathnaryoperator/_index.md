@@ -1,7 +1,7 @@
 ---
 title: MathNaryOperator
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: يحدد كائنًا رياضيًا متعدد المتغيّرات مثل Summation و Integral. يتكوّن من عامل، وقاعدة أو مُعامل، وحدود علوية وسفلية اختيارية. من أمثلة العوامل المتعددة المتغيّرات: Summation, Union, Intersection, Integral
+description: "يحدد كائنًا رياضيًا متعدد المتغيّرات مثل Summation و Integral. يتكوّن من عامل، وقاعدة أو مُعامل، وحدود علوية وسفلية اختيارية. من أمثلة العوامل المتعددة المتغيّرات: Summation, Union, Intersection, Integral"
 type: docs
 weight: 8870
 url: /ar/aspose.slides.mathtext/mathnaryoperator/

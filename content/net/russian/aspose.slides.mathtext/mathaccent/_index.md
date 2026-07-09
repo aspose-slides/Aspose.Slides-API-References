@@ -1,7 +1,7 @@
 ---
 title: MathAccent
 second_title: Aspose.Sildes для .NET API справка
-description: Определяет функцию ударения, состоящую из базового элемента и комбинируемого диакритического знака. Пример: ́
+description: "Определяет функцию ударения, состоящую из базового элемента и комбинируемого диакритического знака. Пример: ́"
 type: docs
 weight: 8530
 url: /ru/aspose.slides.mathtext/mathaccent/

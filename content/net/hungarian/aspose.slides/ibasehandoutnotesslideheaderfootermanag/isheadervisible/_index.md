@@ -1,7 +1,7 @@
 ---
 title: IsHeaderVisible
 second_title: Aspose.Sildes .NET API referencia
-description: Lekéri az értéket, amely jelzi, hogy egy fejléchelyőrző jelen van. Olvas: Boolean.
+description: "Lekéri az értéket, amely jelzi, hogy egy fejléchelyőrző jelen van. Olvas: Boolean."
 type: docs
 weight: 20
 url: /hu/aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible/

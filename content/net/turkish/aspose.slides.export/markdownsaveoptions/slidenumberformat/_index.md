@@ -1,7 +1,7 @@
 ---
 title: SlideNumberFormat
 second_title: Aspose.Sildes için .NET API Referansı
-description: Markdown çıktısında slayt numarası başlıkları için kullanılan format dizisini alır veya ayarlar. Format, dışa aktarma sırasında slayt diziniyle değiştirilecek 0 yer tutucusunu içermelidir. Örnek: Slide 0, Slide 1, Slide 2 vb. üretir.
+description: "Markdown çıktısında slayt numarası başlıkları için kullanılan format dizisini alır veya ayarlar. Format, dışa aktarma sırasında slayt diziniyle değiştirilecek 0 yer tutucusunu içermelidir. Örnek: Slide 0, Slide 1, Slide 2 vb. üretir."
 type: docs
 weight: 120
 url: /tr/aspose.slides.export/markdownsaveoptions/slidenumberformat/

@@ -1,7 +1,7 @@
 ---
 title: BaseJustification
 second_title: Aspose.Sildes for .NET API 참조
-description: 배열이 주변 텍스트에 대해 정렬되는 방식을 지정합니다. 배열 외부의 텍스트는 배열 객체의 아래쪽, 위쪽 또는 가운데에 정렬될 수 있습니다. 기본값: Center
+description: "배열이 주변 텍스트에 대해 정렬되는 방식을 지정합니다. 배열 외부의 텍스트는 배열 객체의 아래쪽, 위쪽 또는 가운데에 정렬될 수 있습니다. 기본값: Center"
 type: docs
 weight: 30
 url: /ko/aspose.slides.mathtext/matharray/basejustification/

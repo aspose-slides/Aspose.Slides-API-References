@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: इस सूची में से चार्ट प्रकार के मामलों में Chart.ChartData.Series0.DataPointsindex के अनुरूप लेजेंड एंट्री की प्रॉपर्टीज़ प्राप्त करता है: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; या अन्य चार्ट प्रकारों के लिए Chart.ChartData.Seriesindex के अनुरूप।
+description: "इस सूची में से चार्ट प्रकार के मामलों में Chart.ChartData.Series0.DataPointsindex के अनुरूप लेजेंड एंट्री की प्रॉपर्टीज़ प्राप्त करता है: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; या अन्य चार्ट प्रकारों के लिए Chart.ChartData.Seriesindex के अनुरूप।"
 type: docs
 weight: 20
 url: /hi/aspose.slides.charts/legendentrycollection/item/

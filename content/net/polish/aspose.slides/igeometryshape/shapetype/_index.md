@@ -1,7 +1,7 @@
 ---
 title: ShapeType
 second_title: Aspose.Sildes dla .NET – Dokumentacja API
-description: Zwraca lub ustawia wstępny typ geometrii. Uwaga: przy zmianie wartości wszystkie wartości regulacji zostaną przywrócone do ich domyślnych wartości. Odczyt/zapis ShapeTypeaspose.slides/shapetype.
+description: "Zwraca lub ustawia wstępny typ geometrii. Uwaga: przy zmianie wartości wszystkie wartości regulacji zostaną przywrócone do ich domyślnych wartości. Odczyt/zapis ShapeTypeaspose.slides/shapetype."
 type: docs
 weight: 40
 url: /pl/aspose.slides/igeometryshape/shapetype/

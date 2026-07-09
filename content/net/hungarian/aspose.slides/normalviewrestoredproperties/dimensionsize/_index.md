@@ -1,7 +1,7 @@
 ---
 title: DimensionSize
 second_title: Aspose.Sildes a .NET API referenciája
-description: Megadja a diákrész területének méretét: a szélesség a RestoredTop gyermekeként, a magasság a RestoredLeft gyermekeként. Olvasás/írás Single.
+description: "Megadja a diákrész területének méretét: a szélesség a RestoredTop gyermekeként, a magasság a RestoredLeft gyermekeként. Olvasás/írás Single."
 type: docs
 weight: 20
 url: /hu/aspose.slides/normalviewrestoredproperties/dimensionsize/

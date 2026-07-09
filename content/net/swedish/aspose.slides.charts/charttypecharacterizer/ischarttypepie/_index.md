@@ -1,7 +1,7 @@
 ---
 title: IsChartTypePie
 second_title: Aspose.Sildes för .NET API-referens
-description: Returnerar true om chartType är en av Pie-underliggande typer. Underliggande typuppsättning motsvarar den lämpliga uppsättningen i PowerPoint, se Change Chart Type-dialogen i PowerPoint: BarOfPie ExplodedPie ExplodedPie3D Pie Pie3D PieOfPie.
+description: "Returnerar true om chartType är en av Pie-underliggande typer. Underliggande typuppsättning motsvarar den lämpliga uppsättningen i PowerPoint, se Change Chart Type-dialogen i PowerPoint: BarOfPie ExplodedPie ExplodedPie3D Pie Pie3D PieOfPie."
 type: docs
 weight: 110
 url: /sv/aspose.slides.charts/charttypecharacterizer/ischarttypepie/

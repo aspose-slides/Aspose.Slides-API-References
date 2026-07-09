@@ -1,6 +1,6 @@
 ---
 title: MathBlockFactory
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Позволяет создавать математический блок
 type: docs
 weight: 8600

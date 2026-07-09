@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeStock
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: यदि chartType स्टॉक उपप्रकारों में से एक है तो true लौटाएँ। उपप्रकार सेट PowerPoint में उपयुक्त सेट से मेल खाता है; PowerPoint में "Change Chart Type" संवाद देखें: HighLowClose, OpenHighLowClose, VolumeHighLowClose, VolumeOpenHighLowClose.
+description: "यदि chartType स्टॉक उपप्रकारों में से एक है तो true लौटाएँ। उपप्रकार सेट PowerPoint में उपयुक्त सेट से मेल खाता है; PowerPoint में \"Change Chart Type\" संवाद देखें: HighLowClose, OpenHighLowClose, VolumeHighLowClose, VolumeOpenHighLowClose."
 type: docs
 weight: 140
 url: /hi/aspose.slides.charts/charttypecharacterizer/ischarttypestock/

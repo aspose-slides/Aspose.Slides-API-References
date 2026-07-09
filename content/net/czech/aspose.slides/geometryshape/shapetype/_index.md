@@ -1,7 +1,7 @@
 ---
 title: ShapeType
 second_title: Aspose.Sildes pro .NET API Reference
-description: Vrací nebo nastavuje přednastavený typ geometrie. Poznámka: při změně hodnoty se všechny hodnoty úprav resetují na výchozí hodnoty. Čtení/Zápis ShapeTypeaspose.slides/shapetype.
+description: "Vrací nebo nastavuje přednastavený typ geometrie. Poznámka: při změně hodnoty se všechny hodnoty úprav resetují na výchozí hodnoty. Čtení/Zápis ShapeTypeaspose.slides/shapetype."
 type: docs
 weight: 30
 url: /cs/aspose.slides/geometryshape/shapetype/

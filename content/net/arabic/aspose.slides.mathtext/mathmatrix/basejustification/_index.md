@@ -1,7 +1,7 @@
 ---
 title: BaseJustification
 second_title: Aspose.Sildes لمرجع API .NET
-description: يحدد المحاذاة الرأسية بالنسبة للنص المحيط. القيم الممكنة هي top bottom و center. القيمة الافتراضية: Center
+description: "يحدد المحاذاة الرأسية بالنسبة للنص المحيط. القيم الممكنة هي top bottom و center. القيمة الافتراضية: Center"
 type: docs
 weight: 20
 url: /ar/aspose.slides.mathtext/mathmatrix/basejustification/

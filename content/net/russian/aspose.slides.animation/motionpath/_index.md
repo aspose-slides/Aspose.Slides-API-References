@@ -1,6 +1,6 @@
 ---
 title: MotionPath
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Представляет путь движения.
 type: docs
 weight: 690

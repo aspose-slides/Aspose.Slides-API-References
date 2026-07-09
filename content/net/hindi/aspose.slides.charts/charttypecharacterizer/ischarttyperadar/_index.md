@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeRadar
 second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: यदि chartType Radar उपप्रकारों में से एक है तो true लौटाता है। उपप्रकार सेट PowerPoint में उपयुक्त सेट के अनुरूप है, PowerPoint में Change Chart Type संवाद देखें: FilledRadar Radar RadarWithMarkers.
+description: "यदि chartType Radar उपप्रकारों में से एक है तो true लौटाता है। उपप्रकार सेट PowerPoint में उपयुक्त सेट के अनुरूप है, PowerPoint में Change Chart Type संवाद देखें: FilledRadar Radar RadarWithMarkers."
 type: docs
 weight: 120
 url: /hi/aspose.slides.charts/charttypecharacterizer/ischarttyperadar/

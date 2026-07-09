@@ -1,7 +1,7 @@
 ---
 title: RowGapRule
 second_title: Aspose.Sildes .NET API referencia
-description: A mátrix sorai közötti függőleges távolság típusa. A függőleges távolság mértékegysége lehet sor vagy pont, amely twipben van tárolva. Alapértelmezett: SingleSpacingGap 0
+description: "A mátrix sorai közötti függőleges távolság típusa. A függőleges távolság mértékegysége lehet sor vagy pont, amely twipben van tárolva. Alapértelmezett: SingleSpacingGap 0"
 type: docs
 weight: 110
 url: /hu/aspose.slides.mathtext/imathmatrix/rowgaprule/

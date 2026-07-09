@@ -1,7 +1,7 @@
 ---
 title: DisableLineEndCropping
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: SVG 1.1 thiếu khả năng định nghĩa khoảng lề cho các dấu đánh dấu. Công cụ ghi SVG của Aspose.Slides có giải pháp cho vấn đề đó: nó cắt phần cuối của đường kèm mũi tên để đường không chồng lên các dấu đánh dấu. Tùy chọn này tắt hành vi đó. Đọc/ghi Boolean.
+description: "SVG 1.1 thiếu khả năng định nghĩa khoảng lề cho các dấu đánh dấu. Công cụ ghi SVG của Aspose.Slides có giải pháp cho vấn đề đó: nó cắt phần cuối của đường kèm mũi tên để đường không chồng lên các dấu đánh dấu. Tùy chọn này tắt hành vi đó. Đọc/ghi Boolean."
 type: docs
 weight: 90
 url: /vi/aspose.slides.export/svgoptions/disablelineendcropping/

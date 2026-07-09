@@ -1,7 +1,7 @@
 ---
 title: AlignmentPoint
 second_title: Aspose.Sildes için .NET API Referansı
-description: Doğru olduğunda bu operatör emülatörü, diğer denklemlerde belirlenen hizalama noktalarının bununla hizalanabileceği bir hizalama noktası olarak hizmet eder. Varsayılan: false
+description: "Doğru olduğunda bu operatör emülatörü, diğer denklemlerde belirlenen hizalama noktalarının bununla hizalanabileceği bir hizalama noktası olarak hizmet eder. Varsayılan: false"
 type: docs
 weight: 20
 url: /tr/aspose.slides.mathtext/mathbox/alignmentpoint/

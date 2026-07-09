@@ -1,7 +1,7 @@
 ---
 title: LineFormat
 second_title: Aspose.Sildes pro .NET API referenci
-description: Vrací objekt LineFormat, který obsahuje vlastnosti formátování čáry pro tvar. Poznámka: Vrací null pro objekty GroupShape, protože nemají vlastnosti čáry. Pouze pro čtení ILineFormataspose.slides/ilineformat.
+description: "Vrací objekt LineFormat, který obsahuje vlastnosti formátování čáry pro tvar. Poznámka: Vrací null pro objekty GroupShape, protože nemají vlastnosti čáry. Pouze pro čtení ILineFormataspose.slides/ilineformat."
 type: docs
 weight: 30
 url: /cs/aspose.slides/groupshape/lineformat/

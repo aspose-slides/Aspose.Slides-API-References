@@ -1,7 +1,7 @@
 ---
 title: DisableLineEndCropping
 second_title: Aspose.Sildes için .NET API Referansı
-description: SVG 1.1 işaretçiler için girinti tanımlama yeteneğine sahip değildir. Aspose.Slides SVG yazma motoru bu sorun için bir çözüm sunar: çizginin sonunu ok ile kırpar, böylece çizgi işaretçilerin üzerine gelmez. Bu seçenek bu davranışı kapatır. Okuma/Yazma Boolean.
+description: "SVG 1.1 işaretçiler için girinti tanımlama yeteneğine sahip değildir. Aspose.Slides SVG yazma motoru bu sorun için bir çözüm sunar: çizginin sonunu ok ile kırpar, böylece çizgi işaretçilerin üzerine gelmez. Bu seçenek bu davranışı kapatır. Okuma/Yazma Boolean."
 type: docs
 weight: 60
 url: /tr/aspose.slides.export/isvgoptions/disablelineendcropping/

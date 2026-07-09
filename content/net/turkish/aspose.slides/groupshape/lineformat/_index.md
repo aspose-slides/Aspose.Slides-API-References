@@ -1,7 +1,7 @@
 ---
 title: LineFormat
 second_title: Aspose.Sildes .NET API Referansı
-description: Bir şekil için çizgi biçimlendirme özelliklerini içeren LineFormat nesnesini döndürür. Not: GroupShape nesneleri çizgi özelliklerine sahip olmadıkları için null döndürür. Salt okunur ILineFormataspose.slides/ilineformat.
+description: "Bir şekil için çizgi biçimlendirme özelliklerini içeren LineFormat nesnesini döndürür. Not: GroupShape nesneleri çizgi özelliklerine sahip olmadıkları için null döndürür. Salt okunur ILineFormataspose.slides/ilineformat."
 type: docs
 weight: 30
 url: /tr/aspose.slides/groupshape/lineformat/

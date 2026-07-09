@@ -1,7 +1,7 @@
 ---
 title: NormalViewRestoredProperties
 second_title: Aspose.Sildes for .NET Tham chiếu API
-description: Xác định kích thước của khu vực slide: độ rộng khi là con của restoredTop, độ cao khi là con của restoredLeft trong chế độ xem bình thường, khi khu vực có kích thước đã khôi phục biến đổi (không được thu nhỏ hay phóng to).
+description: "Xác định kích thước của khu vực slide: độ rộng khi là con của restoredTop, độ cao khi là con của restoredLeft trong chế độ xem bình thường, khi khu vực có kích thước đã khôi phục biến đổi (không được thu nhỏ hay phóng to)."
 type: docs
 weight: 9120
 url: /vi/aspose.slides/normalviewrestoredproperties/

@@ -1,7 +1,7 @@
 ---
 title: RowGapRule
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 행렬의 행 사이 수직 간격 유형. 수직 간격 단위는 줄 또는 포인트(twips)로 저장됩니다. 기본값: SingleSpacingGap 0
+description: "행렬의 행 사이 수직 간격 유형. 수직 간격 단위는 줄 또는 포인트(twips)로 저장됩니다. 기본값: SingleSpacingGap 0"
 type: docs
 weight: 110
 url: /ko/aspose.slides.mathtext/mathmatrix/rowgaprule/

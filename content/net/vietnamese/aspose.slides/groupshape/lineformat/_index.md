@@ -1,7 +1,7 @@
 ---
 title: LineFormat
 second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Trả về đối tượng LineFormat chứa các thuộc tính định dạng đường cho một hình dạng. Lưu ý: Trả về null cho các đối tượng GroupShape vì chúng không có thuộc tính đường. Chỉ đọc ILineFormataspose.slides/ilineformat.
+description: "Trả về đối tượng LineFormat chứa các thuộc tính định dạng đường cho một hình dạng. Lưu ý: Trả về null cho các đối tượng GroupShape vì chúng không có thuộc tính đường. Chỉ đọc ILineFormataspose.slides/ilineformat."
 type: docs
 weight: 30
 url: /vi/aspose.slides/groupshape/lineformat/

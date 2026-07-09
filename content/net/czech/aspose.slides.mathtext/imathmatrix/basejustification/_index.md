@@ -1,7 +1,7 @@
 ---
 title: BaseJustification
 second_title: Aspose.Sildes pro .NET API Reference
-description: Určuje svislé zarovnání vzhledem k okolnímu textu. Možné hodnoty jsou top, bottom a center. Výchozí: Center
+description: "Určuje svislé zarovnání vzhledem k okolnímu textu. Možné hodnoty jsou top, bottom a center. Výchozí: Center"
 type: docs
 weight: 20
 url: /cs/aspose.slides.mathtext/imathmatrix/basejustification/

@@ -1,6 +1,6 @@
 ---
 title: IPointCollection
-second_title: Aspose.Sildes для .NET: справка API
+second_title: "Aspose.Sildes для .NET: справка API"
 description: Представляет коллекцию частей.
 type: docs
 weight: 550

@@ -1,7 +1,7 @@
 ---
 title: IMathDelimiter
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 開き括弧や閉じ括弧（丸括弧、波括弧、角括弧、縦棒など）で構成され、指定された文字で区切られた 1 つ以上の数式要素を内部に持つ区切りオブジェクトを指定します。例: 2 2x7C2
+description: "開き括弧や閉じ括弧（丸括弧、波括弧、角括弧、縦棒など）で構成され、指定された文字で区切られた 1 つ以上の数式要素を内部に持つ区切りオブジェクトを指定します。例: 2 2x7C2"
 type: docs
 weight: 8210
 url: /ja/aspose.slides.mathtext/imathdelimiter/

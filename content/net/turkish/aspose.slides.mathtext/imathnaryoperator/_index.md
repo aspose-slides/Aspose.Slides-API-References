@@ -1,7 +1,7 @@
 ---
 title: IMathNaryOperator
 second_title: Aspose.Sildes için .NET API Referansı
-description: Summation ve Integral gibi N-ary matematiksel bir nesneyi belirtir. Bir operatör, bir temel (veya operand) ve isteğe bağlı üst ve alt sınırları içerir. N-ary operatör örnekleri: Summation Union Intersection Integral
+description: "Summation ve Integral gibi N-ary matematiksel bir nesneyi belirtir. Bir operatör, bir temel (veya operand) ve isteğe bağlı üst ve alt sınırları içerir. N-ary operatör örnekleri: Summation Union Intersection Integral"
 type: docs
 weight: 8360
 url: /tr/aspose.slides.mathtext/imathnaryoperator/

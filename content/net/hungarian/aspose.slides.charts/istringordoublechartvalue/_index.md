@@ -1,7 +1,7 @@
 ---
 title: IStringOrDoubleChartValue
 second_title: Aspose.Sildes .NET API referencia
-description: String vagy double értéket képvisel, amely pptx prezentációs dokumentumban kétféleképpen tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban/celláiban, 2) literális értékként.
+description: "String vagy double értéket képvisel, amely pptx prezentációs dokumentumban kétféleképpen tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban/celláiban, 2) literális értékként."
 type: docs
 weight: 2230
 url: /hu/aspose.slides.charts/istringordoublechartvalue/

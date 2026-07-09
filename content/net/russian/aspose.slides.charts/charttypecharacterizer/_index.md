@@ -1,6 +1,6 @@
 ---
 title: ChartTypeCharacterizer
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Вспомогательный класс для получения дополнительной информации о диаграммах и рядах по их ChartType.
 type: docs
 weight: 1510

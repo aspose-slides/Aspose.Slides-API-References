@@ -1,6 +1,6 @@
 ---
 title: IPropertyEffect
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Представляет поведение эффекта свойства.
 type: docs
 weight: 560

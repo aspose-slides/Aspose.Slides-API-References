@@ -1,7 +1,7 @@
 ---
 title: IsChartTypePie
 second_title: Ανάθεση API Aspose.Sildes για .NET
-description: Επιστρέφει true εάν chartType είναι ένας από τους υποτύπους Pie. Το σύνολο υποτύπων αντιστοιχεί στο κατάλληλο σύνολο στο PowerPoint, δείτε το διάλογο Change Chart Type στο PowerPoint: BarOfPie ExplodedPie ExplodedPie3D Pie Pie3D PieOfPie.
+description: "Επιστρέφει true εάν chartType είναι ένας από τους υποτύπους Pie. Το σύνολο υποτύπων αντιστοιχεί στο κατάλληλο σύνολο στο PowerPoint, δείτε το διάλογο Change Chart Type στο PowerPoint: BarOfPie ExplodedPie ExplodedPie3D Pie Pie3D PieOfPie."
 type: docs
 weight: 110
 url: /el/aspose.slides.charts/charttypecharacterizer/ischarttypepie/

@@ -1,6 +1,6 @@
 ---
 title: IChartParagraphFormat
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Представляет свойства форматирования абзаца диаграммы.
 type: docs
 weight: 1900

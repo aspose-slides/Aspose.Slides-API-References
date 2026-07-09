@@ -1,7 +1,7 @@
 ---
 title: IMathNaryOperator
 second_title: Aspose.Sildes .NET API referenciája
-description: Megad egy N-darabos matematikai objektumot, például Summation és Integral. Operátorból, egy alapból vagy operandusból, valamint opcionális felső és alsó határból áll. N-darabos operátor példák: Summation, Union, Intersection, Integral
+description: "Megad egy N-darabos matematikai objektumot, például Summation és Integral. Operátorból, egy alapból vagy operandusból, valamint opcionális felső és alsó határból áll. N-darabos operátor példák: Summation, Union, Intersection, Integral"
 type: docs
 weight: 8360
 url: /hu/aspose.slides.mathtext/imathnaryoperator/

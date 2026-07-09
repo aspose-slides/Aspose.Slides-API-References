@@ -1,7 +1,7 @@
 ---
 title: DoubleChartValue
 second_title: Aspose.Sildes için .NET API Referansı
-description: pptx sunum belgesinde iki şekilde depolanabilen çift değeri temsil eder: 1) grafiğe ilişkili çalışma kitabının hücre/hücrelerinde, 2) literal değer olarak.
+description: "pptx sunum belgesinde iki şekilde depolanabilen çift değeri temsil eder: 1) grafiğe ilişkili çalışma kitabının hücre/hücrelerinde, 2) literal değer olarak."
 type: docs
 weight: 1630
 url: /tr/aspose.slides.charts/doublechartvalue/

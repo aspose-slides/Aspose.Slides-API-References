@@ -1,7 +1,7 @@
 ---
 title: VerticalJustification
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Căn chỉnh dọc của ký tự nhóm. Xác định việc căn chỉnh đối tượng so với đường cơ sở. Ví dụ, khi ký tự nhóm nằm phía trên đối tượng, VerticalJustification của Top cho biết phần trên của đối tượng nằm trên đường cơ sở; khi VerticalJustification được đặt thành Bottom, phần dưới của đối tượng nằm trên đường cơ sở. Mặc định: Bottom cho Position=Top và Top cho Position=Bottom
+description: "Căn chỉnh dọc của ký tự nhóm. Xác định việc căn chỉnh đối tượng so với đường cơ sở. Ví dụ, khi ký tự nhóm nằm phía trên đối tượng, VerticalJustification của Top cho biết phần trên của đối tượng nằm trên đường cơ sở; khi VerticalJustification được đặt thành Bottom, phần dưới của đối tượng nằm trên đường cơ sở. Mặc định: Bottom cho Position=Top và Top cho Position=Bottom"
 type: docs
 weight: 50
 url: /vi/aspose.slides.mathtext/mathgroupingcharacter/verticaljustification/

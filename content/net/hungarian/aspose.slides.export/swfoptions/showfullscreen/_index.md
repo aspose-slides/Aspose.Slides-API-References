@@ -1,7 +1,7 @@
 ---
 title: ShowFullScreen
 second_title: Aspose.Sildes for .NET API Referencia
-description: Megjeleníti/elrejti a teljes képernyős gombot. A flashvars-ban felülírható. Alapértelmezett érték: true.
+description: "Megjeleníti/elrejti a teljes képernyős gombot. A flashvars-ban felülírható. Alapértelmezett érték: true."
 type: docs
 weight: 80
 url: /hu/aspose.slides.export/swfoptions/showfullscreen/

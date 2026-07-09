@@ -1,6 +1,6 @@
 ---
 title: Color
-second_title: Aspose.Sildes สำหรับ .NET: เอกสารอ้างอิง API
+second_title: "Aspose.Sildes สำหรับ .NET: เอกสารอ้างอิง API"
 description: ส่งคืนรูปแบบสีที่จะแทนสีของแต่ละพิกเซล. อ่านอย่างเดียว IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 10

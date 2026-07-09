@@ -1,7 +1,7 @@
 ---
 title: IMathRadical
 second_title: Aspose.Sildes для .NET справочник API
-description: Определяет радикальную функцию, состоящую из основания и необязательной степени. Пример радикального объекта: .
+description: "Определяет радикальную функцию, состоящую из основания и необязательной степени. Пример радикального объекта: ."
 type: docs
 weight: 8430
 url: /ru/aspose.slides.mathtext/imathradical/

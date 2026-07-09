@@ -1,7 +1,7 @@
 ---
 title: ThreeDFormat
 second_title: Aspose.Sildes pro .NET API Reference
-description: Vrací objekt ThreeDFormat, který obsahuje vlastnosti 3d efektu pro tvar. Poznámka: může vrátit null pro určité typy tvarů, které nemají 3d vlastnosti. Pouze pro čtení IThreeDFormataspose.slides/ithreedformat.
+description: "Vrací objekt ThreeDFormat, který obsahuje vlastnosti 3d efektu pro tvar. Poznámka: může vrátit null pro určité typy tvarů, které nemají 3d vlastnosti. Pouze pro čtení IThreeDFormataspose.slides/ithreedformat."
 type: docs
 weight: 270
 url: /cs/aspose.slides/shape/threedformat/

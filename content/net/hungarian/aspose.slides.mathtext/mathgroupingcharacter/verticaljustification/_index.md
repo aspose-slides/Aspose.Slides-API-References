@@ -1,7 +1,7 @@
 ---
 title: VerticalJustification
 second_title: Aspose.Sildes .NET API referencia
-description: Az csoport karakter függőleges igazítása. Meghatározza az objektum igazítását az alapvonalhoz képest. Például, ha a csoport karakter az objektum felett van, a Top értékű VerticalJustification azt jelzi, hogy az objektum teteje az alapvonalon helyezkedik el; ha a VerticalJustification Bottom-ra van állítva, az objektum alja az alapvonalon van. Alapértelmezett: Bottom, ha PositionTop, és Top, ha PositionBottom.
+description: "Az csoport karakter függőleges igazítása. Meghatározza az objektum igazítását az alapvonalhoz képest. Például, ha a csoport karakter az objektum felett van, a Top értékű VerticalJustification azt jelzi, hogy az objektum teteje az alapvonalon helyezkedik el; ha a VerticalJustification Bottom-ra van állítva, az objektum alja az alapvonalon van. Alapértelmezett: Bottom, ha PositionTop, és Top, ha PositionBottom."
 type: docs
 weight: 50
 url: /hu/aspose.slides.mathtext/mathgroupingcharacter/verticaljustification/

@@ -1,7 +1,7 @@
 ---
 title: ColumnGap
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Η τιμή της οριζόντιας απόστασης μεταξύ των στηλών ενός πίνακα. Εάν το ColumnGapRule είναι ορισμένο σε 3 "Exactly", τότε η μονάδα ερμηνεύεται ως twips (1/20 του σημείου). Εάν το ColumnGapRule είναι ορισμένο σε 4 "Multiple", τότε η μονάδα ερμηνεύεται ως αριθμός βημάτων 0,5 em. Σε άλλες περιπτώσεις παραβλέπεται. Προεπιλογή: 0
+description: "Η τιμή της οριζόντιας απόστασης μεταξύ των στηλών ενός πίνακα. Εάν το ColumnGapRule είναι ορισμένο σε 3 \"Exactly\", τότε η μονάδα ερμηνεύεται ως twips (1/20 του σημείου). Εάν το ColumnGapRule είναι ορισμένο σε 4 \"Multiple\", τότε η μονάδα ερμηνεύεται ως αριθμός βημάτων 0,5 em. Σε άλλες περιπτώσεις παραβλέπεται. Προεπιλογή: 0"
 type: docs
 weight: 40
 url: /el/aspose.slides.mathtext/mathmatrix/columngap/

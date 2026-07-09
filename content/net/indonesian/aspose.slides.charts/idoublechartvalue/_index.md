@@ -1,7 +1,7 @@
 ---
 title: IDoubleChartValue
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili nilai double yang dapat disimpan dalam dokumen presentasi pptx dengan dua cara: 1) di sel/selis buku kerja yang terkait dengan chart; 2) sebagai nilai literal.
+description: "Mewakili nilai double yang dapat disimpan dalam dokumen presentasi pptx dengan dua cara: 1) di sel/selis buku kerja yang terkait dengan chart; 2) sebagai nilai literal."
 type: docs
 weight: 2070
 url: /id/aspose.slides.charts/idoublechartvalue/

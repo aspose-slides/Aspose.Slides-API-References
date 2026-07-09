@@ -1,6 +1,6 @@
 ---
 title: TrimFromEnd
-second_title: Aspose.Sildes สำหรับ .NET: อ้างอิง API
+second_title: "Aspose.Sildes สำหรับ .NET: อ้างอิง API"
 description: ตัดส่วนท้ายเป็น ms
 type: docs
 weight: 100

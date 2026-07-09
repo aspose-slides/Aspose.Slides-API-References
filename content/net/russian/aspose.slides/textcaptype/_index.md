@@ -1,6 +1,6 @@
 ---
 title: TextCapType
-second_title: Aspose.Sildes для .NET: справка API
+second_title: "Aspose.Sildes для .NET: справка API"
 description: Представляет тип капитализации текста.
 type: docs
 weight: 10930

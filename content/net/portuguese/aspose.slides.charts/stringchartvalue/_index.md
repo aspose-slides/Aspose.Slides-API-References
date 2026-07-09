@@ -1,7 +1,7 @@
 ---
 title: StringChartValue
 second_title: Aspose.Sildes para .NET Referência de API
-description: Representa um valor de string que pode ser armazenado em um documento de apresentação pptx de duas maneiras: 1) em célula(s) da planilha relacionada ao gráfico; 2) como valor literal.
+description: "Representa um valor de string que pode ser armazenado em um documento de apresentação pptx de duas maneiras: 1) em célula(s) da planilha relacionada ao gráfico; 2) como valor literal."
 type: docs
 weight: 2410
 url: /pt/aspose.slides.charts/stringchartvalue/

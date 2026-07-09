@@ -1,7 +1,7 @@
 ---
 title: Formula
 second_title: مرجع Aspose.Sildes ل .NET API
-description: يمكن تكوين الصيغ داخل القيم، وخصائص from و to و by من خلال ما يلي: عوامل حسابية قياسية  -  /   mod ثوابت pi e عوامل شرطية abs min max إذا عوامل مقارنة gt عوامل مثلثية sin cos tan asin acos atan لوغاريتم طبيعي ln مراجع الخصائص المدعومة من المضيف على سبيل المثال ppt_xcos-2pi1--ppt_x-sin-2pi1-1-ppt_y1- String للقراءة/الكتابة.
+description: "يمكن تكوين الصيغ داخل القيم، وخصائص from و to و by من خلال ما يلي: عوامل حسابية قياسية  -  /   mod ثوابت pi e عوامل شرطية abs min max إذا عوامل مقارنة gt عوامل مثلثية sin cos tan asin acos atan لوغاريتم طبيعي ln مراجع الخصائص المدعومة من المضيف على سبيل المثال ppt_xcos-2pi1--ppt_x-sin-2pi1-1-ppt_y1- String للقراءة/الكتابة."
 type: docs
 weight: 10
 url: /ar/aspose.slides.animation/ipoint/formula/

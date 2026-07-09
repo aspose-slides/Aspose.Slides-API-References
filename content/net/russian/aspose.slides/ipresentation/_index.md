@@ -1,6 +1,6 @@
 ---
 title: IPresentation
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Документ презентации
 type: docs
 weight: 6750

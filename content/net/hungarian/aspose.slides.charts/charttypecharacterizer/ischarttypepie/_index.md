@@ -1,7 +1,7 @@
 ---
 title: IsChartTypePie
 second_title: Aspose.Sildes .NET-hez API referencia
-description: Igaz értéket ad vissza, ha a chartType a Pie altípusok egyike. Az altípusok halmaza megfelel a PowerPoint megfelelő halmazának, lásd a PowerPoint Change Chart Type párbeszédpaneljét: BarOfPie, ExplodedPie, ExplodedPie3D, Pie, Pie3D, PieOfPie.
+description: "Igaz értéket ad vissza, ha a chartType a Pie altípusok egyike. Az altípusok halmaza megfelel a PowerPoint megfelelő halmazának, lásd a PowerPoint Change Chart Type párbeszédpaneljét: BarOfPie, ExplodedPie, ExplodedPie3D, Pie, Pie3D, PieOfPie."
 type: docs
 weight: 110
 url: /hu/aspose.slides.charts/charttypecharacterizer/ischarttypepie/

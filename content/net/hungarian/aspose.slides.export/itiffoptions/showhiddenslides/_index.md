@@ -1,7 +1,7 @@
 ---
 title: ShowHiddenSlides
 second_title: Aspose.Sildes .NET API hivatkozás
-description: Megadja, hogy a generált dokumentumban legyenek-e rejtett diák vagy sem. Alapértelmezett érték: false.
+description: "Megadja, hogy a generált dokumentumban legyenek-e rejtett diák vagy sem. Alapértelmezett érték: false."
 type: docs
 weight: 90
 url: /hu/aspose.slides.export/itiffoptions/showhiddenslides/

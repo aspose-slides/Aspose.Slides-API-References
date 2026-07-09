@@ -1,7 +1,7 @@
 ---
 title: GetOrCreateDataPointByIdx
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Als de collectie al een datapunt bevat met index index, retourneert deze datapunt. Als de collectie geen datapunt bevat met index indexN wanneer het aantal datapunten in deze collectie kleiner of gelijk is aan N, dan voegt het ontbrekende datapunten toe en retourneert het laatste dat de gevraagde index heeft. Bijvoorbeeld, de indexen van de collectie zijn 0 1 2 en de gevraagde index is 5. Dan voegt de methode ontbrekende datapunten toe: 0 1 2 3 4 5. En retourneert het datapunt met index 5.
+description: "Als de collectie al een datapunt bevat met index index, retourneert deze datapunt. Als de collectie geen datapunt bevat met index indexN wanneer het aantal datapunten in deze collectie kleiner of gelijk is aan N, dan voegt het ontbrekende datapunten toe en retourneert het laatste dat de gevraagde index heeft. Bijvoorbeeld, de indexen van de collectie zijn 0 1 2 en de gevraagde index is 5. Dan voegt de methode ontbrekende datapunten toe: 0 1 2 3 4 5. En retourneert het datapunt met index 5."
 type: docs
 weight: 250
 url: /nl/aspose.slides.charts/ichartdatapointcollection/getorcreatedatapointbyidx/

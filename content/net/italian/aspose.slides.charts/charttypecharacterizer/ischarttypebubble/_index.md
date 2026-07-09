@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeBubble
 second_title: Aspose.Sildes per .NET Riferimento API
-description: Restituisce true se chartType è uno dei sottotipi Bubble. L'insieme dei sottotipi corrisponde all'insieme appropriato in PowerPoint; vedi la finestra di dialogo Cambia tipo di grafico in PowerPoint: Bubble, BubbleWith3D.
+description: "Restituisce true se chartType è uno dei sottotipi Bubble. L'insieme dei sottotipi corrisponde all'insieme appropriato in PowerPoint; vedi la finestra di dialogo Cambia tipo di grafico in PowerPoint: Bubble, BubbleWith3D."
 type: docs
 weight: 70
 url: /it/aspose.slides.charts/charttypecharacterizer/ischarttypebubble/

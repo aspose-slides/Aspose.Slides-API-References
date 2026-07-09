@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Aspose.Sildes dla .NET: odniesienie API
+second_title: "Aspose.Sildes dla .NET: odniesienie API"
 description: Pobiera element pod określonym indeksem. Tylko do odczytu ITabaspose.slides/itab.
 type: docs
 weight: 10

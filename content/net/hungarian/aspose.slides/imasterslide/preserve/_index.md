@@ -1,7 +1,7 @@
 ---
 title: Preserve
 second_title: Aspose.Sildes a .NET API referencia
-description: Meghatározza, hogy a megfelelő mester törlésre kerül-e, amikor az összes, azt a mestert követő dia törlésre kerül. Megjegyzés: az Aspose.Slides soha nem távolít el önmagától semmilyen felhasználaton kívüli mestert; a felhasználaton kívüli mesterek tényleges eltávolításához hívja meg a RemoveUnusedaspose.slides/imasterslidecollection/removeunused. Olvasás/írás Boolean.
+description: "Meghatározza, hogy a megfelelő mester törlésre kerül-e, amikor az összes, azt a mestert követő dia törlésre kerül. Megjegyzés: az Aspose.Slides soha nem távolít el önmagától semmilyen felhasználaton kívüli mestert; a felhasználaton kívüli mesterek tényleges eltávolításához hívja meg a RemoveUnusedaspose.slides/imasterslidecollection/removeunused. Olvasás/írás Boolean."
 type: docs
 weight: 90
 url: /hu/aspose.slides/imasterslide/preserve/

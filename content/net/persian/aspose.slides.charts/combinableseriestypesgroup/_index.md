@@ -1,7 +1,7 @@
 ---
 title: CombinableSeriesTypesGroup
 second_title: Aspose.Sildes برای .NET مرجع API
-description: شمارشی از گروه‌های انواع سری‌های ترکیبی. هر عنصر به گروهی از انواع سری‌های نمودار که می‌توانند به‌صورت همزمان در یک ChartSeriesGroup حضور داشته باشند، مرتبط است. برای مثال، سری ChartType.PercentsStackedArea نمی‌تواند به‌صورت همزمان با سری ChartType.StackedArea در یک ChartSeriesGroup موجود باشد. اما دو یا چند سری ChartType.PercentsStackedArea می‌توانند به‌طور همزمان در یک ChartSeriesGroup وجود داشته باشند: CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea. و سری ChartType.Line می‌تواند به‌صورت همزمان با سری ChartType.LineWithMarkers در یک ChartSeriesGroup از نوع CombinableSeriesTypesGroup.LineChart_Line وجود داشته باشد.
+description: "شمارشی از گروه‌های انواع سری‌های ترکیبی. هر عنصر به گروهی از انواع سری‌های نمودار که می‌توانند به‌صورت همزمان در یک ChartSeriesGroup حضور داشته باشند، مرتبط است. برای مثال، سری ChartType.PercentsStackedArea نمی‌تواند به‌صورت همزمان با سری ChartType.StackedArea در یک ChartSeriesGroup موجود باشد. اما دو یا چند سری ChartType.PercentsStackedArea می‌توانند به‌طور همزمان در یک ChartSeriesGroup وجود داشته باشند: CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea. و سری ChartType.Line می‌تواند به‌صورت همزمان با سری ChartType.LineWithMarkers در یک ChartSeriesGroup از نوع CombinableSeriesTypesGroup.LineChart_Line وجود داشته باشد."
 type: docs
 weight: 1530
 url: /fa/aspose.slides.charts/combinableseriestypesgroup/

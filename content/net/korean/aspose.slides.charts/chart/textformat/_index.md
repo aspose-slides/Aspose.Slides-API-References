@@ -1,7 +1,7 @@
 ---
 title: TextFormat
 second_title: Aspose.Sildes for .NET API 참조
-description: 차트 텍스트 서식을 반환합니다. 이 속성은 다음 유형에는 적용되지 않습니다: Treemap Sunburst Waterfall Histogram FunnelBoxAndWhisker. 읽기 전용 IChartTextFormataspose.slides.charts/icharttextformat.
+description: "차트 텍스트 서식을 반환합니다. 이 속성은 다음 유형에는 적용되지 않습니다: Treemap Sunburst Waterfall Histogram FunnelBoxAndWhisker. 읽기 전용 IChartTextFormataspose.slides.charts/icharttextformat."
 type: docs
 weight: 210
 url: /ko/aspose.slides.charts/chart/textformat/

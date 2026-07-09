@@ -1,7 +1,7 @@
 ---
 title: BulletFillFormat
 second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Zwraca obiekt FillFormat, który zawiera właściwości formatowania wypełnienia dla wypunktowania węzła. Uwaga: może zwrócić null dla niektórych typów układu SmartArt, które nie zapewniają wypunktowań dla węzłów. Tylko do odczytu IFillFormataspose.slides/ifillformat.
+description: "Zwraca obiekt FillFormat, który zawiera właściwości formatowania wypełnienia dla wypunktowania węzła. Uwaga: może zwrócić null dla niektórych typów układu SmartArt, które nie zapewniają wypunktowań dla węzłów. Tylko do odczytu IFillFormataspose.slides/ifillformat."
 type: docs
 weight: 10
 url: /pl/aspose.slides.smartart/smartartnode/bulletfillformat/

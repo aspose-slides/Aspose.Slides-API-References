@@ -1,7 +1,7 @@
 ---
 title: BaseJustification
 second_title: Aspose.Sildes για την τεκμηρίωση API του .NET
-description: Καθορίζει την ευθυγράмμιση του πίνακα σε σχέση με το περιβάλλον κείμενο. Το κείμενο εκτός του πίνακα μπορεί να ευθυγραμμιστεί με το bottom, top ή center ενός αντικειμένου πίνακα. Προεπιλεγμένη τιμή: Center
+description: "Καθορίζει την ευθυγράмμιση του πίνακα σε σχέση με το περιβάλλον κείμενο. Το κείμενο εκτός του πίνακα μπορεί να ευθυγραμμιστεί με το bottom, top ή center ενός αντικειμένου πίνακα. Προεπιλεγμένη τιμή: Center"
 type: docs
 weight: 30
 url: /el/aspose.slides.mathtext/imatharray/basejustification/

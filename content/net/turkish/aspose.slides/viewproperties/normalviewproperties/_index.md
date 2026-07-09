@@ -1,7 +1,7 @@
 ---
 title: NormalViewProperties
 second_title: Aspose.Sildes .NET için API Referansı
-description: Normal görünüm özelliklerini temsil eder. Normal görünüm üç içerik bölgesinden oluşur: slayt kendisi, yan içerik bölgesi ve alt içerik bölgesi. Yalnızca okunur INormalViewPropertiesaspose.slides/inormalviewproperties.
+description: "Normal görünüm özelliklerini temsil eder. Normal görünüm üç içerik bölgesinden oluşur: slayt kendisi, yan içerik bölgesi ve alt içerik bölgesi. Yalnızca okunur INormalViewPropertiesaspose.slides/inormalviewproperties."
 type: docs
 weight: 30
 url: /tr/aspose.slides/viewproperties/normalviewproperties/

@@ -1,7 +1,7 @@
 ---
 title: NormalViewProperties
 second_title: Aspose.Sildes dla .NET - dokumentacja API
-description: Reprezentuje właściwości normalnego widoku. Normalny widok składa się z trzech obszarów treści: samego slajdu, bocznego obszaru treści oraz dolnego obszaru treści. Tylko do odczytu INormalViewPropertiesaspose.slides/inormalviewproperties.
+description: "Reprezentuje właściwości normalnego widoku. Normalny widok składa się z trzech obszarów treści: samego slajdu, bocznego obszaru treści oraz dolnego obszaru treści. Tylko do odczytu INormalViewPropertiesaspose.slides/inormalviewproperties."
 type: docs
 weight: 30
 url: /pl/aspose.slides/iviewproperties/normalviewproperties/

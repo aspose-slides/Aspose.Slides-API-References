@@ -1,6 +1,6 @@
 ---
 title: ChartSeriesCollection
-second_title: Aspose.Sildes สำหรับ .NET: เอกสารอ้างอิง API
+second_title: "Aspose.Sildes สำหรับ .NET: เอกสารอ้างอิง API"
 description: แสดงคอลเลกชันของ ChartSeries./chartseries
 type: docs
 weight: 1450

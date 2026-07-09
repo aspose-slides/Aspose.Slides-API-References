@@ -1,6 +1,6 @@
 ---
 title: CombinableSeriesTypesGroup
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Перечисление групп совместимых типов рядов. Каждый элемент относится к группе типов рядов диаграммы, которые могут одновременно существовать в одном ChartSeriesGroup. Например, ряд ChartType.PercentsStackedArea не может одновременно находиться с рядом ChartType.StackedArea в одном ChartSeriesGroup. Однако два или более ряда ChartType.PercentsStackedArea могут одновременно находиться в одном ChartSeriesGroup (CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea). И ряд ChartType.Line может находиться вместе с рядом ChartType.LineWithMarkers одновременно в одном ChartSeriesGroup (CombinableSeriesTypesGroup.LineChart_Line).
 type: docs
 weight: 1530

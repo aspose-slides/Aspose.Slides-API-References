@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeSurface
 second_title: Aspose.Sildes için .NET API Referansı
-description: chartType, Surface alt türlerinden biriyse true döndürür. Alt türler kümesi, PowerPoint'teki uygun küme ile eşleşir; PowerPoint'teki 'Change Chart Type' iletişim kutusuna bakın: Surface3D WireframeSurface3D Contour WireframeContour.
+description: "chartType, Surface alt türlerinden biriyse true döndürür. Alt türler kümesi, PowerPoint'teki uygun küme ile eşleşir; PowerPoint'teki 'Change Chart Type' iletişim kutusuna bakın: Surface3D WireframeSurface3D Contour WireframeContour."
 type: docs
 weight: 150
 url: /tr/aspose.slides.charts/charttypecharacterizer/ischarttypesurface/

@@ -1,7 +1,7 @@
 ---
 title: ExplicitBreak
 second_title: Aspose.Sildes a .NET API hivatkozás
-description: Az explicit break meghatározza, hogy van-e sortörés a Box objektum elején, így a sor a box objektum elején törik. Meghatározza a matematikai szöveg előző sorában lévő operátor számát, amely az aktuális sor matematikai szövegének igazítási pontjaként szolgál. lehetséges értékek: 1..255 Alapértelmezett: 0 (nincs explicit break)
+description: "Az explicit break meghatározza, hogy van-e sortörés a Box objektum elején, így a sor a box objektum elején törik. Meghatározza a matematikai szöveg előző sorában lévő operátor számát, amely az aktuális sor matematikai szövegének igazítási pontjaként szolgál. lehetséges értékek: 1..255 Alapértelmezett: 0 (nincs explicit break)"
 type: docs
 weight: 50
 url: /hu/aspose.slides.mathtext/mathbox/explicitbreak/

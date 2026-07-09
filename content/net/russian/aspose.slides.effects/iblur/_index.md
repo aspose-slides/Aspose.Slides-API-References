@@ -1,6 +1,6 @@
 ---
 title: IBlur
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Представляет эффект размытия, применяемый ко всей фигуре, включая её заливку. Затрагиваются все цветовые каналы, включая альфа.
 type: docs
 weight: 3180

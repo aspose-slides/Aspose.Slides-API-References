@@ -1,7 +1,7 @@
 ---
 title: FillMethod
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: 'fill.method' प्रॉपर्टी का प्रतिनिधित्व करता है
+description: "'fill.method' प्रॉपर्टी का प्रतिनिधित्व करता है"
 type: docs
 weight: 350
 url: /hi/aspose.slides.animation/behaviorproperty/fillmethod/

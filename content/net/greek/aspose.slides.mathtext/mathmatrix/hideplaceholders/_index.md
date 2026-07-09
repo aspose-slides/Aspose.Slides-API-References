@@ -1,7 +1,7 @@
 ---
 title: HidePlaceholders
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Απόκρυψη των placeholders για κενά στοιχεία του πίνακα. Προεπιλογή: false
+description: "Απόκρυψη των placeholders για κενά στοιχεία του πίνακα. Προεπιλογή: false"
 type: docs
 weight: 60
 url: /el/aspose.slides.mathtext/mathmatrix/hideplaceholders/

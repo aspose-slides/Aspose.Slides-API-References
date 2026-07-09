@@ -1,7 +1,7 @@
 ---
 title: ColumnGap
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir matrisin sütunları arasındaki yatay boşluk değeri. ColumnGapRule 3 (Exactly) olarak ayarlanırsa, birim bir noktanın 1/20'i olan twip olarak yorumlanır. ColumnGapRule 4 (Multiple) olarak ayarlanırsa, birim 0,5 em artışının sayısı olarak yorumlanır. Diğer durumlarda yok sayılır. Varsayılan: 0
+description: "Bir matrisin sütunları arasındaki yatay boşluk değeri. ColumnGapRule 3 (Exactly) olarak ayarlanırsa, birim bir noktanın 1/20'i olan twip olarak yorumlanır. ColumnGapRule 4 (Multiple) olarak ayarlanırsa, birim 0,5 em artışının sayısı olarak yorumlanır. Diğer durumlarda yok sayılır. Varsayılan: 0"
 type: docs
 weight: 40
 url: /tr/aspose.slides.mathtext/imathmatrix/columngap/

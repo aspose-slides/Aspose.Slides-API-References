@@ -1,7 +1,7 @@
 ---
 title: RowGap
 second_title: Aspose.Sildes .NET API referencia
-description: A mátrix sorai közötti függőleges távolság értéke. Ha a RowGapRule 3 (Exactly) értékre van állítva, akkor az egység twipként (a pont 1/20-a) értelmeződik. Ha a RowGapRule 4 (Multiple) értékre van állítva, akkor az egység félvonalként értelmeződik. Alapértelmezett: 0
+description: "A mátrix sorai közötti függőleges távolság értéke. Ha a RowGapRule 3 (Exactly) értékre van állítva, akkor az egység twipként (a pont 1/20-a) értelmeződik. Ha a RowGapRule 4 (Multiple) értékre van állítva, akkor az egység félvonalként értelmeződik. Alapértelmezett: 0"
 type: docs
 weight: 100
 url: /hu/aspose.slides.mathtext/mathmatrix/rowgap/

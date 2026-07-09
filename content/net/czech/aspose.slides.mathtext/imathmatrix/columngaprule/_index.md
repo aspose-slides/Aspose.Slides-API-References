@@ -1,7 +1,7 @@
 ---
 title: ColumnGapRule
 second_title: Aspose.Sildes pro .NET API dokumentaci
-description: Typ horizontálního rozestupu mezi sloupci matice. Jednotky horizontálního rozestupu mohou být ems nebo bodů, uložené jako twips. Výchozí: SingleSpacingGap 0
+description: "Typ horizontálního rozestupu mezi sloupci matice. Jednotky horizontálního rozestupu mohou být ems nebo bodů, uložené jako twips. Výchozí: SingleSpacingGap 0"
 type: docs
 weight: 50
 url: /cs/aspose.slides.mathtext/imathmatrix/columngaprule/

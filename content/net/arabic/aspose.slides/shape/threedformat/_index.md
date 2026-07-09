@@ -1,7 +1,7 @@
 ---
 title: ThreeDFormat
 second_title: مرجع API الخاص بـ Aspose.Sildes لـ .NET
-description: يرجع كائن ThreeDFormat الذي يحتوي على خصائص التأثير ثلاثي الأبعاد للشكل. ملاحظة: قد يرجع قيمة فارغة (null) لبعض أنواع الأشكال التي لا تملك خصائص ثلاثية الأبعاد. للقراءة فقط IThreeDFormataspose.slides/ithreedformat.
+description: "يرجع كائن ThreeDFormat الذي يحتوي على خصائص التأثير ثلاثي الأبعاد للشكل. ملاحظة: قد يرجع قيمة فارغة (null) لبعض أنواع الأشكال التي لا تملك خصائص ثلاثية الأبعاد. للقراءة فقط IThreeDFormataspose.slides/ithreedformat."
 type: docs
 weight: 270
 url: /ar/aspose.slides/shape/threedformat/

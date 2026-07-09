@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeRadar
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Restituisce true se chartType è uno dei sottotipi Radar. L'insieme dei sottotipi corrisponde all'insieme appropriato in PowerPoint (vedi la finestra di dialogo Change Chart Type in PowerPoint): FilledRadar, Radar, RadarWithMarkers.
+description: "Restituisce true se chartType è uno dei sottotipi Radar. L'insieme dei sottotipi corrisponde all'insieme appropriato in PowerPoint (vedi la finestra di dialogo Change Chart Type in PowerPoint): FilledRadar, Radar, RadarWithMarkers."
 type: docs
 weight: 120
 url: /it/aspose.slides.charts/charttypecharacterizer/ischarttyperadar/

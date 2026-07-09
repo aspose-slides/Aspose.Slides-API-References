@@ -1,7 +1,7 @@
 ---
 title: To
 second_title: Aspose.Sildes pro .NET referenci API
-description: Specifikuje určitý atribut efektu po animačním efektu. Reprezentuje hodnotu bodu. Pouze: bool, ColorFormat, float, int, string. Číst/zapisovat Object.
+description: "Specifikuje určitý atribut efektu po animačním efektu. Reprezentuje hodnotu bodu. Pouze: bool, ColorFormat, float, int, string. Číst/zapisovat Object."
 type: docs
 weight: 20
 url: /cs/aspose.slides.animation/iseteffect/to/

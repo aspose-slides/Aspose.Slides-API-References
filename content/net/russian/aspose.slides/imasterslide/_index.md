@@ -1,6 +1,6 @@
 ---
 title: IMasterSlide
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Представляет мастер-слайд в презентации.
 type: docs
 weight: 6420

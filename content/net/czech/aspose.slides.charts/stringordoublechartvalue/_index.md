@@ -1,7 +1,7 @@
 ---
 title: StringOrDoubleChartValue
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje řetězcovou nebo číselnou hodnotu typu double, která může být uložena v dokumentu prezentace pptx dvěma způsoby: 1) v buňce/buňkách sešitu souvisejícího s grafem, 2) jako doslovná hodnota.
+description: "Reprezentuje řetězcovou nebo číselnou hodnotu typu double, která může být uložena v dokumentu prezentace pptx dvěma způsoby: 1) v buňce/buňkách sešitu souvisejícího s grafem, 2) jako doslovná hodnota."
 type: docs
 weight: 2420
 url: /cs/aspose.slides.charts/stringordoublechartvalue/

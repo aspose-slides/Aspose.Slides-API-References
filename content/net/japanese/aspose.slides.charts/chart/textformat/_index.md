@@ -1,7 +1,7 @@
 ---
 title: TextFormat
 second_title: Aspose.Sildes の .NET API リファレンス
-description: チャートのテキスト書式を返します。 このプロパティは次のタイプには適用できません: Treemap Sunburst Waterfall Histogram FunnelBoxAndWhisker. 読み取り専用 IChartTextFormataspose.slides.charts/icharttextformat.
+description: "チャートのテキスト書式を返します。 このプロパティは次のタイプには適用できません: Treemap Sunburst Waterfall Histogram FunnelBoxAndWhisker. 読み取り専用 IChartTextFormataspose.slides.charts/icharttextformat."
 type: docs
 weight: 210
 url: /ja/aspose.slides.charts/chart/textformat/

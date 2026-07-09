@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeScatter
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mengembalikan true jika chartType adalah salah satu subtipe Scatter. Set subtipe sesuai dengan set yang tepat di PowerPoint, lihat dialog Change Chart Type di PowerPoint: ScatterWithMarkers ScatterWithSmoothLines ScatterWithSmoothLinesAndMarkers ScatterWithStraightLines ScatterWithStraightLinesAndMarkers.
+description: "Mengembalikan true jika chartType adalah salah satu subtipe Scatter. Set subtipe sesuai dengan set yang tepat di PowerPoint, lihat dialog Change Chart Type di PowerPoint: ScatterWithMarkers ScatterWithSmoothLines ScatterWithSmoothLinesAndMarkers ScatterWithStraightLines ScatterWithStraightLinesAndMarkers."
 type: docs
 weight: 130
 url: /id/aspose.slides.charts/charttypecharacterizer/ischarttypescatter/

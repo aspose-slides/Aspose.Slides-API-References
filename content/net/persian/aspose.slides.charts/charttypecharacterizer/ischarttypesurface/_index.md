@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeSurface
 second_title: Aspose.Sildes برای .NET مرجع API
-description: اگر chartType یکی از زیرنوع‌های Surface باشد، مقدار true را باز می‌گرداند. مجموعه زیرنوع‌ها با مجموعه مناسب در PowerPoint مطابقت دارد؛ برای جزئیات به پنجره Change Chart Type در PowerPoint مراجعه کنید: Surface3D, WireframeSurface3D, Contour, WireframeContour.
+description: "اگر chartType یکی از زیرنوع‌های Surface باشد، مقدار true را باز می‌گرداند. مجموعه زیرنوع‌ها با مجموعه مناسب در PowerPoint مطابقت دارد؛ برای جزئیات به پنجره Change Chart Type در PowerPoint مراجعه کنید: Surface3D, WireframeSurface3D, Contour, WireframeContour."
 type: docs
 weight: 150
 url: /fa/aspose.slides.charts/charttypecharacterizer/ischarttypesurface/

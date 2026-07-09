@@ -1,7 +1,7 @@
 ---
 title: Formula
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: मानों, from, to, by विशेषताओं के भीतर फ़ॉर्मूले इनसे बने हो सकते हैं: मानक अंकगणितीय ऑपरेटर्स  -  /   mod स्थिरांक pi e शर्तीय ऑपरेटर्स abs min max  if तुलना ऑपरेटर्स  gt    त्रिकोणमितीय ऑपरेटर्स sin cos tan asin acos atan प्राकृतिक लघुगणक ln प्रॉपर्टी रेफ़रेंसेज़ होस्ट समर्थित प्रॉपर्टीज़ उदाहरण के लिए ppt_xcos-2pi1--ppt_x-sin-2pi1-1-ppt_y1- पढ़ने/लिखने योग्य String.
+description: "मानों, from, to, by विशेषताओं के भीतर फ़ॉर्मूले इनसे बने हो सकते हैं: मानक अंकगणितीय ऑपरेटर्स  -  /   mod स्थिरांक pi e शर्तीय ऑपरेटर्स abs min max  if तुलना ऑपरेटर्स  gt    त्रिकोणमितीय ऑपरेटर्स sin cos tan asin acos atan प्राकृतिक लघुगणक ln प्रॉपर्टी रेफ़रेंसेज़ होस्ट समर्थित प्रॉपर्टीज़ उदाहरण के लिए ppt_xcos-2pi1--ppt_x-sin-2pi1-1-ppt_y1- पढ़ने/लिखने योग्य String."
 type: docs
 weight: 10
 url: /hi/aspose.slides.animation/ipoint/formula/

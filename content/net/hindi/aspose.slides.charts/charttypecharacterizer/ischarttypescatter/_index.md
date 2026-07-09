@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeScatter
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: यदि chartType Scatter उपप्रकारों में से एक है तो true लौटाता है। उपप्रकार सेट PowerPoint में उपयुक्त सेट के अनुरूप है; PowerPoint में Change Chart Type डायलॉग देखें: ScatterWithMarkers, ScatterWithSmoothLines, ScatterWithSmoothLinesAndMarkers, ScatterWithStraightLines, ScatterWithStraightLinesAndMarkers.
+description: "यदि chartType Scatter उपप्रकारों में से एक है तो true लौटाता है। उपप्रकार सेट PowerPoint में उपयुक्त सेट के अनुरूप है; PowerPoint में Change Chart Type डायलॉग देखें: ScatterWithMarkers, ScatterWithSmoothLines, ScatterWithSmoothLinesAndMarkers, ScatterWithStraightLines, ScatterWithStraightLinesAndMarkers."
 type: docs
 weight: 130
 url: /hi/aspose.slides.charts/charttypecharacterizer/ischarttypescatter/

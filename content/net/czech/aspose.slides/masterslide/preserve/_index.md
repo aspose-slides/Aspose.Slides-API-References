@@ -1,7 +1,7 @@
 ---
 title: Preserve
 second_title: Aspose.Sildes pro .NET referenci API
-description: Určuje, zda se odpovídající master odstraní, když jsou smazány všechny snímky, které tento master následují. Poznámka: Aspose.Slides nikdy samo neodstraní žádný nepoužitý master; pro skutečné odstranění nepoužitých masterů zavolejte RemoveUnusedaspose.slides/masterslidecollection/removeunused Číst/zapisovat Boolean.
+description: "Určuje, zda se odpovídající master odstraní, když jsou smazány všechny snímky, které tento master následují. Poznámka: Aspose.Slides nikdy samo neodstraní žádný nepoužitý master; pro skutečné odstranění nepoužitých masterů zavolejte RemoveUnusedaspose.slides/masterslidecollection/removeunused Číst/zapisovat Boolean."
 type: docs
 weight: 80
 url: /cs/aspose.slides/masterslide/preserve/

@@ -1,7 +1,7 @@
 ---
 title: SkewOriginX
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 'skew.origin.x' プロパティを表します
+description: "'skew.origin.x' プロパティを表します"
 type: docs
 weight: 860
 url: /ja/aspose.slides.animation/behaviorproperty/skeworiginx/

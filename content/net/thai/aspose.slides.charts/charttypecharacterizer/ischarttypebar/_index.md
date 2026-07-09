@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeBar
 second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
-description: คืนค่า true หาก chartType เป็นหนึ่งในประเภทย่อยของ Bar. ชุดย่อยสอดคล้องกับชุดที่เหมาะสมใน PowerPoint ดูกล่องโต้ตอบ Change Chart Type ใน PowerPoint: ClusteredBar ClusteredBar3D PercentsStackedBar PercentsStackedBar3D StackedBar StackedBar3D ClusteredHorizontalCone ClusteredHorizontalCylinder ClusteredHorizontalPyramid StackedHorizontalCone StackedHorizontalCylinder StackedHorizontalPyramid PercentsStackedHorizontalCone PercentsStackedHorizontalCylinder PercentsStackedHorizontalPyramid.
+description: "คืนค่า true หาก chartType เป็นหนึ่งในประเภทย่อยของ Bar. ชุดย่อยสอดคล้องกับชุดที่เหมาะสมใน PowerPoint ดูกล่องโต้ตอบ Change Chart Type ใน PowerPoint: ClusteredBar ClusteredBar3D PercentsStackedBar PercentsStackedBar3D StackedBar StackedBar3D ClusteredHorizontalCone ClusteredHorizontalCylinder ClusteredHorizontalPyramid StackedHorizontalCone StackedHorizontalCylinder StackedHorizontalPyramid PercentsStackedHorizontalCone PercentsStackedHorizontalCylinder PercentsStackedHorizontalPyramid."
 type: docs
 weight: 60
 url: /th/aspose.slides.charts/charttypecharacterizer/ischarttypebar/

@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeArea
 second_title: Aspose.Sildes pro .NET API Reference
-description: Vrátí true, pokud je chartType jedním z podtypů Area. Množina podtypů odpovídá příslušné množině v PowerPointu, viz dialog Change Chart Type v PowerPointu: Area, PercentsStackedArea, PercentsStackedArea3D, StackedArea, StackedArea3D, Area3D.
+description: "Vrátí true, pokud je chartType jedním z podtypů Area. Množina podtypů odpovídá příslušné množině v PowerPointu, viz dialog Change Chart Type v PowerPointu: Area, PercentsStackedArea, PercentsStackedArea3D, StackedArea, StackedArea3D, Area3D."
 type: docs
 weight: 50
 url: /cs/aspose.slides.charts/charttypecharacterizer/ischarttypearea/

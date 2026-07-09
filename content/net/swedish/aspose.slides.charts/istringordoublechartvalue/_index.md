@@ -1,7 +1,7 @@
 ---
 title: IStringOrDoubleChartValue
 second_title: Aspose.Slides för .NET API-referens
-description: Representerar en sträng- eller dubbelvärde som kan lagras i ett pptx-presentationsdokument på två sätt: 1) i cell(er) i arbetsboken som är relaterad till diagrammet; 2) som ett bokstavligt värde.
+description: "Representerar en sträng- eller dubbelvärde som kan lagras i ett pptx-presentationsdokument på två sätt: 1) i cell(er) i arbetsboken som är relaterad till diagrammet; 2) som ett bokstavligt värde."
 type: docs
 weight: 2230
 url: /sv/aspose.slides.charts/istringordoublechartvalue/

@@ -1,7 +1,7 @@
 ---
 title: MinColumnWidth
 second_title: Aspose.Sildes .NET API referencia
-description: Minimum oszlopszélesség twipben (1/20-a a pontnak). A hézag, amelyet Column Gap vagy Gap Width-nak is hívnak, hozzáadódik a MinColumnWidth-hez a teljes Matrix Column Spacing meghatározásához, amely a különböző oszlopok azonos széleinek távolsága. Alapértelmezett: 0.
+description: "Minimum oszlopszélesség twipben (1/20-a a pontnak). A hézag, amelyet Column Gap vagy Gap Width-nak is hívnak, hozzáadódik a MinColumnWidth-hez a teljes Matrix Column Spacing meghatározásához, amely a különböző oszlopok azonos széleinek távolsága. Alapértelmezett: 0."
 type: docs
 weight: 80
 url: /hu/aspose.slides.mathtext/imathmatrix/mincolumnwidth/

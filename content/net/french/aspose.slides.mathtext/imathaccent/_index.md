@@ -1,7 +1,7 @@
 ---
 title: IMathAccent
 second_title: Référence API Aspose.Sildes pour .NET
-description: Spécifie la fonction d'accent constituée d'une base et d'une marque diacritique combinée Exemple : ́
+description: "Spécifie la fonction d'accent constituée d'une base et d'une marque diacritique combinée Exemple : ́"
 type: docs
 weight: 8080
 url: /fr/aspose.slides.mathtext/imathaccent/

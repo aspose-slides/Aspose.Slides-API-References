@@ -1,7 +1,7 @@
 ---
 title: MarginTop
 second_title: Aspose.Sildes pro .NET – referenční dokumentace API
-description: Vrací nebo nastavuje horní okraj v bodech v TextFrame. Změna této vlastnosti může mít určitý vliv pouze na následující části grafu: DataLabel a DataLabelFormat (plná podpora v PowerPoint 2013; v PowerPoint 2007 nemá žádný vliv na vykreslování). Čtení/zápis Double.
+description: "Vrací nebo nastavuje horní okraj v bodech v TextFrame. Změna této vlastnosti může mít určitý vliv pouze na následující části grafu: DataLabel a DataLabelFormat (plná podpora v PowerPoint 2013; v PowerPoint 2007 nemá žádný vliv na vykreslování). Čtení/zápis Double."
 type: docs
 weight: 70
 url: /cs/aspose.slides.charts/icharttextblockformat/margintop/

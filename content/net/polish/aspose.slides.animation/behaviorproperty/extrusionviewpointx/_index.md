@@ -1,6 +1,6 @@
 ---
 title: ExtrusionViewPointX
-second_title: Aspose.Sildes dla .NET: odniesienie API
+second_title: "Aspose.Sildes dla .NET: odniesienie API"
 description: Reprezentuje właściwość extrusion.viewpoint.x
 type: docs
 weight: 240

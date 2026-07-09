@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeSurface
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Retourneert true als chartType een van de Surface-subtypen is. De set subtypen komt overeen met de juiste set in PowerPoint, zie het dialoogvenster Grafiektype wijzigen in PowerPoint: Surface3D WireframeSurface3D Contour WireframeContour.
+description: "Retourneert true als chartType een van de Surface-subtypen is. De set subtypen komt overeen met de juiste set in PowerPoint, zie het dialoogvenster Grafiektype wijzigen in PowerPoint: Surface3D WireframeSurface3D Contour WireframeContour."
 type: docs
 weight: 150
 url: /nl/aspose.slides.charts/charttypecharacterizer/ischarttypesurface/

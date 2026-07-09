@@ -1,7 +1,7 @@
 ---
 title: SlideShowType
 second_title: Aspose.Sildes for .NET API 참조
-description: 슬라이드 쇼 유형을 가져오거나 설정합니다. 다음 SlideShowTypeaspose.slides/slideshowsettings/slideshowtype 조상에 의해 나타납니다: BrowsedAtKiosk aspose.slides/browsedatkiosk, PresentedBySpeaker aspose.slides/presentedbyspeaker 및 BrowsedByIndividual aspose.slides/browsedbyindividual
+description: "슬라이드 쇼 유형을 가져오거나 설정합니다. 다음 SlideShowTypeaspose.slides/slideshowsettings/slideshowtype 조상에 의해 나타납니다: BrowsedAtKiosk aspose.slides/browsedatkiosk, PresentedBySpeaker aspose.slides/presentedbyspeaker 및 BrowsedByIndividual aspose.slides/browsedbyindividual"
 type: docs
 weight: 70
 url: /ko/aspose.slides/slideshowsettings/slideshowtype/

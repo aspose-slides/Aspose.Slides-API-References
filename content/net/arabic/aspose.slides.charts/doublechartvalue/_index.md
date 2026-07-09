@@ -1,7 +1,7 @@
 ---
 title: DoubleChartValue
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: يمثل قيمة مزدوجة يمكن تخزينها في مستند عرض تقديمي بتنسيق pptx بطريقتين: 1) في خلية/خلايا من دفتر العمل المرتبط بالمخطط 2) كقيمة حرفية.
+description: "يمثل قيمة مزدوجة يمكن تخزينها في مستند عرض تقديمي بتنسيق pptx بطريقتين: 1) في خلية/خلايا من دفتر العمل المرتبط بالمخطط 2) كقيمة حرفية."
 type: docs
 weight: 1630
 url: /ar/aspose.slides.charts/doublechartvalue/

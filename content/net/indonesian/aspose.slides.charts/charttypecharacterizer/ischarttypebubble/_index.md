@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeBubble
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mengembalikan true jika chartType adalah salah satu subtipe Bubble. Set subtipe sesuai dengan set yang tepat di PowerPoint, lihat dialog Change Chart Type di PowerPoint: Bubble, BubbleWith3D.
+description: "Mengembalikan true jika chartType adalah salah satu subtipe Bubble. Set subtipe sesuai dengan set yang tepat di PowerPoint, lihat dialog Change Chart Type di PowerPoint: Bubble, BubbleWith3D."
 type: docs
 weight: 70
 url: /id/aspose.slides.charts/charttypecharacterizer/ischarttypebubble/

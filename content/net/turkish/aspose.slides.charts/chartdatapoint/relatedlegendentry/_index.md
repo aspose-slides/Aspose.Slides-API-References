@@ -1,7 +1,7 @@
 ---
 title: RelatedLegendEntry
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bu listeden bir grafik türü kullanıldığında ilgili gösterge girdisinin özellikleri: ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie. Salt-okunur ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
+description: "Bu listeden bir grafik türü kullanıldığında ilgili gösterge girdisinin özellikleri: ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie. Salt-okunur ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties."
 type: docs
 weight: 160
 url: /tr/aspose.slides.charts/chartdatapoint/relatedlegendentry/

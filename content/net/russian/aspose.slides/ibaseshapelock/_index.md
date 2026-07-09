@@ -1,6 +1,6 @@
 ---
 title: IBaseShapeLock
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Представляет отключённую операцию блокировки Shape.
 type: docs
 weight: 5330

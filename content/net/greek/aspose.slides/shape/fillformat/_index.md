@@ -1,7 +1,7 @@
 ---
 title: FillFormat
 second_title: Aspose.Sildes για .NET Αναφορά API
-description: Επιστρέφει το αντικείμενο FillFormat που περιέχει τις ιδιότητες μορφοποίησης γεμίσματος για ένα σχήμα. Σημείωση: μπορεί να επιστρέψει null για ορισμένους τύπους σχημάτων που δεν έχουν ιδιότητες γεμίσματος. Μόνο ανάγνωση IFillFormataspose.slides/ifillformat.
+description: "Επιστρέφει το αντικείμενο FillFormat που περιέχει τις ιδιότητες μορφοποίησης γεμίσματος για ένα σχήμα. Σημείωση: μπορεί να επιστρέψει null για ορισμένους τύπους σχημάτων που δεν έχουν ιδιότητες γεμίσματος. Μόνο ανάγνωση IFillFormataspose.slides/ifillformat."
 type: docs
 weight: 70
 url: /el/aspose.slides/shape/fillformat/

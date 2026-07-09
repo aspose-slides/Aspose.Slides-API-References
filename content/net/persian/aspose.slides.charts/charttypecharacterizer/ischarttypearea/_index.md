@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeArea
 second_title: مرجع API Aspose.Sildes برای .NET
-description: اگر chartType یکی از زیرنوع‌های Area باشد، true برمی‌گرداند. مجموعه زیرنوع‌ها با مجموعهٔ مناسب در PowerPoint مطابقت دارد؛ برای جزئیات به دیالوگ "Change Chart Type" در PowerPoint مراجعه کنید: Area PercentsStackedArea PercentsStackedArea3D StackedArea StackedArea3D Area3D.
+description: "اگر chartType یکی از زیرنوع‌های Area باشد، true برمی‌گرداند. مجموعه زیرنوع‌ها با مجموعهٔ مناسب در PowerPoint مطابقت دارد؛ برای جزئیات به دیالوگ \"Change Chart Type\" در PowerPoint مراجعه کنید: Area PercentsStackedArea PercentsStackedArea3D StackedArea StackedArea3D Area3D."
 type: docs
 weight: 50
 url: /fa/aspose.slides.charts/charttypecharacterizer/ischarttypearea/

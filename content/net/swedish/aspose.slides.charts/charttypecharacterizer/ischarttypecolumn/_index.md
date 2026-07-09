@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeColumn
 second_title: Aspose.Sildes för .NET API-referens
-description: Return true om chartType är en av Column-subtyperna. Subtyp-mängden motsvarar den lämpliga mängden i PowerPoint, se dialogrutan Change Chart Type i PowerPoint: ClusteredColumn ClusteredColumn3D ClusteredCone ClusteredCylinder ClusteredPyramid PercentsStackedColumn PercentsStackedColumn3D PercentsStackedCone PercentsStackedCylinder PercentsStackedPyramid StackedColumn StackedColumn3D StackedCone StackedCylinder StackedPyramid Column3D Cylinder3D Cone3D Pyramid3D.
+description: "Return true om chartType är en av Column-subtyperna. Subtyp-mängden motsvarar den lämpliga mängden i PowerPoint, se dialogrutan Change Chart Type i PowerPoint: ClusteredColumn ClusteredColumn3D ClusteredCone ClusteredCylinder ClusteredPyramid PercentsStackedColumn PercentsStackedColumn3D PercentsStackedCone PercentsStackedCylinder PercentsStackedPyramid StackedColumn StackedColumn3D StackedCone StackedCylinder StackedPyramid Column3D Cylinder3D Cone3D Pyramid3D."
 type: docs
 weight: 80
 url: /sv/aspose.slides.charts/charttypecharacterizer/ischarttypecolumn/

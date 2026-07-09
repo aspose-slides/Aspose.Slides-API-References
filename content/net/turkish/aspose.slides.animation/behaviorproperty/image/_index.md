@@ -1,7 +1,7 @@
 ---
 title: Image
 second_title: Aspose.Sildes için .NET API Referansı
-description: 'image' özelliğini temsil eder
+description: "'image' özelliğini temsil eder"
 type: docs
 weight: 410
 url: /tr/aspose.slides.animation/behaviorproperty/image/

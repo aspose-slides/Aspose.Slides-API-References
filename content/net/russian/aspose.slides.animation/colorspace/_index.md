@@ -1,6 +1,6 @@
 ---
 title: ColorSpace
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Представляет цветовое пространство для поведения цветового эффекта.
 type: docs
 weight: 250

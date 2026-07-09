@@ -1,7 +1,7 @@
 ---
 title: Overlap
 second_title: Aspose.Sildes for .NET API Referansı
-description: 2-B çizelgelerde çubukların ve sütunların yüzde olarak -%100 ile %100 arasında ne kadar üst üste geleceğini belirler. - -100: En büyük boşluk, çubuklar tamamen ayrılmıştır. - 0: Çubuklar yan yana yerleştirilir, üst üste gelme veya boşluk yoktur. - 100: En büyük üst üste gelme, çubuklar birbirini tamamen kapsar. Bu özellik okuma/yazma SByte.
+description: "2-B çizelgelerde çubukların ve sütunların yüzde olarak -%100 ile %100 arasında ne kadar üst üste geleceğini belirler. - -100: En büyük boşluk, çubuklar tamamen ayrılmıştır. - 0: Çubuklar yan yana yerleştirilir, üst üste gelme veya boşluk yoktur. - 100: En büyük üst üste gelme, çubuklar birbirini tamamen kapsar. Bu özellik okuma/yazma SByte."
 type: docs
 weight: 120
 url: /tr/aspose.slides.charts/ichartseriesgroup/overlap/

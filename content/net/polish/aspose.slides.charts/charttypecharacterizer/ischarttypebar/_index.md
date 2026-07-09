@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeBar
 second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Zwraca true, jeśli chartType jest jednym z podtypów Bar. Zestaw podtypów odpowiada odpowiedniemu zestawowi w programie PowerPoint, zobacz dialog Change Chart Type w PowerPoint: ClusteredBar ClusteredBar3D PercentsStackedBar PercentsStackedBar3D StackedBar StackedBar3D ClusteredHorizontalCone ClusteredHorizontalCylinder ClusteredHorizontalPyramid StackedHorizontalCone StackedHorizontalCylinder StackedHorizontalPyramid PercentsStackedHorizontalCone PercentsStackedHorizontalCylinder PercentsStackedHorizontalPyramid.
+description: "Zwraca true, jeśli chartType jest jednym z podtypów Bar. Zestaw podtypów odpowiada odpowiedniemu zestawowi w programie PowerPoint, zobacz dialog Change Chart Type w PowerPoint: ClusteredBar ClusteredBar3D PercentsStackedBar PercentsStackedBar3D StackedBar StackedBar3D ClusteredHorizontalCone ClusteredHorizontalCylinder ClusteredHorizontalPyramid StackedHorizontalCone StackedHorizontalCylinder StackedHorizontalPyramid PercentsStackedHorizontalCone PercentsStackedHorizontalCylinder PercentsStackedHorizontalPyramid."
 type: docs
 weight: 60
 url: /pl/aspose.slides.charts/charttypecharacterizer/ischarttypebar/

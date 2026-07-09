@@ -1,7 +1,7 @@
 ---
 title: GetHyperlinkMouseOvers
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Lấy tất cả các đối tượng con IHyperlinkContainer có HyperlinkMouseOver không null. Với đối tượng IHyperlinkContainer đã cho, bạn có thể quản lý liên kết của nó: đọc, cập nhật hoặc xóa. Xem giao diện IHyperlinkContainer.
+description: "Lấy tất cả các đối tượng con IHyperlinkContainer có HyperlinkMouseOver không null. Với đối tượng IHyperlinkContainer đã cho, bạn có thể quản lý liên kết của nó: đọc, cập nhật hoặc xóa. Xem giao diện IHyperlinkContainer."
 type: docs
 weight: 30
 url: /vi/aspose.slides/ihyperlinkqueries/gethyperlinkmouseovers/

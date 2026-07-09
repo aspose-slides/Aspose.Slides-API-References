@@ -1,6 +1,6 @@
 ---
 title: IBaseSlideHeaderFooterManager
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Представляет менеджер, который обеспечивает поведение заполнителей нижнего колонтитула, даты и времени, номера страницы для всех типов слайдов.
 type: docs
 weight: 5350

@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeColumn
 second_title: Aspose.Sildes για .NET – Αναφορά API
-description: Επιστρέφει true εάν το chartType είναι ένας από τους υποτύπους Column. Το σύνολο υποτύπων αντιστοιχεί στο κατάλληλο σύνολο στο PowerPoint. Δείτε τον διάλογο Change Chart Type στο PowerPoint: ClusteredColumn ClusteredColumn3D ClusteredCone ClusteredCylinder ClusteredPyramid PercentsStackedColumn PercentsStackedColumn3D PercentsStackedCone PercentsStackedCylinder PercentsStackedPyramid StackedColumn StackedColumn3D StackedCone StackedCylinder StackedPyramid Column3D Cylinder3D Cone3D Pyramid3D.
+description: "Επιστρέφει true εάν το chartType είναι ένας από τους υποτύπους Column. Το σύνολο υποτύπων αντιστοιχεί στο κατάλληλο σύνολο στο PowerPoint. Δείτε τον διάλογο Change Chart Type στο PowerPoint: ClusteredColumn ClusteredColumn3D ClusteredCone ClusteredCylinder ClusteredPyramid PercentsStackedColumn PercentsStackedColumn3D PercentsStackedCone PercentsStackedCylinder PercentsStackedPyramid StackedColumn StackedColumn3D StackedCone StackedCylinder StackedPyramid Column3D Cylinder3D Cone3D Pyramid3D."
 type: docs
 weight: 80
 url: /el/aspose.slides.charts/charttypecharacterizer/ischarttypecolumn/

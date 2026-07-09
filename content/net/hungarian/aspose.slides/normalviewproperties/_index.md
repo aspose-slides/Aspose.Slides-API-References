@@ -1,7 +1,7 @@
 ---
 title: NormalViewProperties
 second_title: Aspose.Sildes .NET API Referencia
-description: A normál nézet tulajdonságait reprezentálja. A normál nézet három tartalmi régióból áll: a dia magából, egy oldalsó tartalmi régióból és egy alsó tartalmi régióból.
+description: "A normál nézet tulajdonságait reprezentálja. A normál nézet három tartalmi régióból áll: a dia magából, egy oldalsó tartalmi régióból és egy alsó tartalmi régióból."
 type: docs
 weight: 9110
 url: /hu/aspose.slides/normalviewproperties/

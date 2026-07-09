@@ -1,7 +1,7 @@
 ---
 title: IsLocationAutocalculated
 second_title: Aspose.Sildes för .NET API-referens
-description: Definierar hur platsen ska beräknas: true – beräknas automatiskt; definierad av egenskaperna X, Y, Width, Height. Endast läsning Boolean.
+description: "Definierar hur platsen ska beräknas: true – beräknas automatiskt; definierad av egenskaperna X, Y, Width, Height. Endast läsning Boolean."
 type: docs
 weight: 90
 url: /sv/aspose.slides.charts/chartplotarea/islocationautocalculated/

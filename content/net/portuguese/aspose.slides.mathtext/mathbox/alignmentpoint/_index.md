@@ -1,7 +1,7 @@
 ---
 title: AlignmentPoint
 second_title: Referência da API Aspose.Sildes para .NET
-description: Quando verdadeiro, este emulador de operador funciona como um ponto de alinhamento, e os pontos de alinhamento designados em outras equações podem ser alinhados a ele. Padrão: false
+description: "Quando verdadeiro, este emulador de operador funciona como um ponto de alinhamento, e os pontos de alinhamento designados em outras equações podem ser alinhados a ele. Padrão: false"
 type: docs
 weight: 20
 url: /pt/aspose.slides.mathtext/mathbox/alignmentpoint/

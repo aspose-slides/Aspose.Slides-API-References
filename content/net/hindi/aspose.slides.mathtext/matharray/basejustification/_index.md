@@ -1,7 +1,7 @@
 ---
 title: BaseJustification
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: ऐरे को आसपास के टेक्स्ट के सापेक्ष संरेखित करने का तरीका निर्दिष्ट करता है। ऐरे के बाहर का टेक्स्ट नीचे, ऊपर, या ऐरे ऑब्जेक्ट के केंद्र के साथ संरेखित किया जा सकता है। डिफ़ॉल्ट मान: Center
+description: "ऐरे को आसपास के टेक्स्ट के सापेक्ष संरेखित करने का तरीका निर्दिष्ट करता है। ऐरे के बाहर का टेक्स्ट नीचे, ऊपर, या ऐरे ऑब्जेक्ट के केंद्र के साथ संरेखित किया जा सकता है। डिफ़ॉल्ट मान: Center"
 type: docs
 weight: 30
 url: /hi/aspose.slides.mathtext/matharray/basejustification/

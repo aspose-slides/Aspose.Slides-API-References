@@ -1,7 +1,7 @@
 ---
 title: INormalViewProperties
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar egenskaper för normal vy. Den normala vyn består av tre innehållsregioner: själva bilden, en sidoinnehållsregion och en botteninnehållsregion.
+description: "Representerar egenskaper för normal vy. Den normala vyn består av tre innehållsregioner: själva bilden, en sidoinnehållsregion och en botteninnehållsregion."
 type: docs
 weight: 6470
 url: /sv/aspose.slides/inormalviewproperties/

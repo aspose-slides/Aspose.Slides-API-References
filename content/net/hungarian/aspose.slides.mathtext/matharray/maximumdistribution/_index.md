@@ -1,7 +1,7 @@
 ---
 title: MaximumDistribution
 second_title: Aspose.Sildes .NET API referenciája
-description: Maximális eloszlás: Ha true, a tömb a környező elem (oldal, oszlop, cella stb.) maximális szélességére van elosztva.
+description: "Maximális eloszlás: Ha true, a tömb a környező elem (oldal, oszlop, cella stb.) maximális szélességére van elosztva."
 type: docs
 weight: 40
 url: /hu/aspose.slides.mathtext/matharray/maximumdistribution/

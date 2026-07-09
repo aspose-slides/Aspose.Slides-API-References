@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 이 메서드는 차트 유형이 다음 목록에 있는 경우 Chart.ChartData.Series0.DataPointsindex에 해당하는 범례 항목의 속성을 가져옵니다: ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie; 또는 다른 차트 유형에 대해서는 Chart.ChartData.Seriesindex에 해당합니다.
+description: "이 메서드는 차트 유형이 다음 목록에 있는 경우 Chart.ChartData.Series0.DataPointsindex에 해당하는 범례 항목의 속성을 가져옵니다: ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie; 또는 다른 차트 유형에 대해서는 Chart.ChartData.Seriesindex에 해당합니다."
 type: docs
 weight: 20
 url: /ko/aspose.slides.charts/ilegendentrycollection/item/

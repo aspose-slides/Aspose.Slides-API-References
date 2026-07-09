@@ -1,7 +1,7 @@
 ---
 title: IsChartTypePie
 second_title: Aspose.Sildes برای .NET مرجع API
-description: در صورتی که chartType یکی از زیرنوع‌های Pie باشد، true را برمی‌گرداند. مجموعه زیرنوع‌ها با مجموعه مناسب در PowerPoint مطابقت دارد (به گفت‌وگوی Change Chart Type در PowerPoint مراجعه کنید): BarOfPie, ExplodedPie, ExplodedPie3D, Pie, Pie3D, PieOfPie.
+description: "در صورتی که chartType یکی از زیرنوع‌های Pie باشد، true را برمی‌گرداند. مجموعه زیرنوع‌ها با مجموعه مناسب در PowerPoint مطابقت دارد (به گفت‌وگوی Change Chart Type در PowerPoint مراجعه کنید): BarOfPie, ExplodedPie, ExplodedPie3D, Pie, Pie3D, PieOfPie."
 type: docs
 weight: 110
 url: /fa/aspose.slides.charts/charttypecharacterizer/ischarttypepie/

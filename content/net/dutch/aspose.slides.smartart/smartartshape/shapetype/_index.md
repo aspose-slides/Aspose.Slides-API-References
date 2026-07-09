@@ -1,7 +1,7 @@
 ---
 title: ShapeType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft of stelt het geometrisch voorinstellingstype in. Opmerking: bij het wijzigen van de waarde worden alle aanpassingswaarden teruggezet naar hun standaardwaarden. Lezen/Schrijven ShapeTypeaspose.slides/shapetype.
+description: "Geeft of stelt het geometrisch voorinstellingstype in. Opmerking: bij het wijzigen van de waarde worden alle aanpassingswaarden teruggezet naar hun standaardwaarden. Lezen/Schrijven ShapeTypeaspose.slides/shapetype."
 type: docs
 weight: 10
 url: /nl/aspose.slides.smartart/smartartshape/shapetype/

@@ -1,7 +1,7 @@
 ---
 title: FillFormat
 second_title: Aspose.Sildes para .NET Referência de API
-description: Retorna o objeto FillFormat que contém propriedades de formatação de preenchimento para uma forma. Observação: pode retornar null para certos tipos de formas que não têm propriedades de preenchimento. Somente leitura IFillFormataspose.slides/ifillformat.
+description: "Retorna o objeto FillFormat que contém propriedades de formatação de preenchimento para uma forma. Observação: pode retornar null para certos tipos de formas que não têm propriedades de preenchimento. Somente leitura IFillFormataspose.slides/ifillformat."
 type: docs
 weight: 70
 url: /pt/aspose.slides/shape/fillformat/

@@ -1,6 +1,6 @@
 ---
 title: ForEach.ForEachShapeCallback
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Коллбэк, который будет вызываться для каждой Shape./foreach/shape в Presentation../aspose.slides/presentation.
 type: docs
 weight: 7950

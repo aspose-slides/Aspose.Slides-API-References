@@ -1,7 +1,7 @@
 ---
 title: OperatorEmulator
 second_title: Aspose.Sildes for .NET API 참조
-description: 연산자 에뮬레이터. true인 경우 상자와 그 내용은 단일 연산자처럼 동작하며 연산자의 속성을 상속합니다. 이는 예를 들어 문자(캐릭터)가 줄 바꿈 지점으로 사용될 수 있고 다른 연산자와 정렬될 수 있음을 의미합니다. 연산자 에뮬레이터는 하나 이상의 글리프가 결합하여 연산자를 형성할 때 자주 사용됩니다(예: ==). 기본값 false
+description: "연산자 에뮬레이터. true인 경우 상자와 그 내용은 단일 연산자처럼 동작하며 연산자의 속성을 상속합니다. 이는 예를 들어 문자(캐릭터)가 줄 바꿈 지점으로 사용될 수 있고 다른 연산자와 정렬될 수 있음을 의미합니다. 연산자 에뮬레이터는 하나 이상의 글리프가 결합하여 연산자를 형성할 때 자주 사용됩니다(예: ==). 기본값 false"
 type: docs
 weight: 70
 url: /ko/aspose.slides.mathtext/mathbox/operatoremulator/

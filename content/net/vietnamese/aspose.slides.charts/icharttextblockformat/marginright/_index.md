@@ -1,7 +1,7 @@
 ---
 title: MarginRight
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Trả về hoặc đặt điểm lề bên phải trong một TextFrame. Thay đổi thuộc tính này chỉ có thể ảnh hưởng nhất định cho các phần biểu đồ sau: DataLabel và DataLabelFormat (hỗ trợ đầy đủ trong PowerPoint 2013; trong PowerPoint 2007 không có ảnh hưởng đến việc hiển thị). Đọc/ghi Double.
+description: "Trả về hoặc đặt điểm lề bên phải trong một TextFrame. Thay đổi thuộc tính này chỉ có thể ảnh hưởng nhất định cho các phần biểu đồ sau: DataLabel và DataLabelFormat (hỗ trợ đầy đủ trong PowerPoint 2013; trong PowerPoint 2007 không có ảnh hưởng đến việc hiển thị). Đọc/ghi Double."
 type: docs
 weight: 60
 url: /vi/aspose.slides.charts/icharttextblockformat/marginright/

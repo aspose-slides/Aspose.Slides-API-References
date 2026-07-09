@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeScatter
 second_title: Aspose.Sildes の .NET API リファレンス
-description: chartType が Scatter のサブタイプのいずれかである場合に true を返します。サブタイプのセットは PowerPoint の「Change Chart Type」ダイアログに対応しています: ScatterWithMarkers, ScatterWithSmoothLines, ScatterWithSmoothLinesAndMarkers, ScatterWithStraightLines, ScatterWithStraightLinesAndMarkers。
+description: "chartType が Scatter のサブタイプのいずれかである場合に true を返します。サブタイプのセットは PowerPoint の「Change Chart Type」ダイアログに対応しています: ScatterWithMarkers, ScatterWithSmoothLines, ScatterWithSmoothLinesAndMarkers, ScatterWithStraightLines, ScatterWithStraightLinesAndMarkers。"
 type: docs
 weight: 130
 url: /ja/aspose.slides.charts/charttypecharacterizer/ischarttypescatter/

@@ -1,7 +1,7 @@
 ---
 title: IMathNaryOperator
 second_title: Aspose.Sildes для .NET справочник API
-description: Указывает N-арный математический объект, такой как Summation и Integral. Он состоит из оператора, базы или операнда и необязательных верхних и нижних пределов. Примеры N-арных операторов: Summation, Union, Intersection, Integral
+description: "Указывает N-арный математический объект, такой как Summation и Integral. Он состоит из оператора, базы или операнда и необязательных верхних и нижних пределов. Примеры N-арных операторов: Summation, Union, Intersection, Integral"
 type: docs
 weight: 8360
 url: /ru/aspose.slides.mathtext/imathnaryoperator/

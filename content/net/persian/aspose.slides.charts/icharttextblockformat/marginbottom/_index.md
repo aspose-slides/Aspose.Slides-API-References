@@ -1,7 +1,7 @@
 ---
 title: MarginBottom
 second_title: Aspose.Sildes برای .NET مرجع API
-description: مقدار حاشیه پایین (به نقطه) را در یک TextFrame بازمی‌گرداند یا تنظیم می‌کند. تغییر این خصوصیت فقط می‌تواند بر روی اجزای نمودار زیر تأثیر بگذارد: DataLabel و DataLabelFormat (پشتیبانی کامل در PowerPoint 2013؛ در PowerPoint 2007 هیچ تأثیری برای رندرینگ وجود ندارد). خواندن/نوشتن Double.
+description: "مقدار حاشیه پایین (به نقطه) را در یک TextFrame بازمی‌گرداند یا تنظیم می‌کند. تغییر این خصوصیت فقط می‌تواند بر روی اجزای نمودار زیر تأثیر بگذارد: DataLabel و DataLabelFormat (پشتیبانی کامل در PowerPoint 2013؛ در PowerPoint 2007 هیچ تأثیری برای رندرینگ وجود ندارد). خواندن/نوشتن Double."
 type: docs
 weight: 40
 url: /fa/aspose.slides.charts/icharttextblockformat/marginbottom/

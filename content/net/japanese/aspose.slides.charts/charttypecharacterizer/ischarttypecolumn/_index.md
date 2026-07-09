@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeColumn
 second_title: Aspose.Sildes の .NET API リファレンス
-description: chartType が Column のサブタイプのいずれかである場合に true を返します。サブタイプの集合は PowerPoint の対応するセットに相当し、PowerPoint の「Change Chart Type」ダイアログを参照してください: ClusteredColumn ClusteredColumn3D ClusteredCone ClusteredCylinder ClusteredPyramid PercentsStackedColumn PercentsStackedColumn3D PercentsStackedCone PercentsStackedCylinder PercentsStackedPyramid StackedColumn StackedColumn3D StackedCone StackedCylinder StackedPyramid Column3D Cylinder3D Cone3D Pyramid3D.
+description: "chartType が Column のサブタイプのいずれかである場合に true を返します。サブタイプの集合は PowerPoint の対応するセットに相当し、PowerPoint の「Change Chart Type」ダイアログを参照してください: ClusteredColumn ClusteredColumn3D ClusteredCone ClusteredCylinder ClusteredPyramid PercentsStackedColumn PercentsStackedColumn3D PercentsStackedCone PercentsStackedCylinder PercentsStackedPyramid StackedColumn StackedColumn3D StackedCone StackedCylinder StackedPyramid Column3D Cylinder3D Cone3D Pyramid3D."
 type: docs
 weight: 80
 url: /ja/aspose.slides.charts/charttypecharacterizer/ischarttypecolumn/

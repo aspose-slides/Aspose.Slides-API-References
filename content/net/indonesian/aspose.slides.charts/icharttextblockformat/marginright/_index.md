@@ -1,7 +1,7 @@
 ---
 title: MarginRight
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mengembalikan atau mengatur nilai poin margin kanan dalam TextFrame. Perubahan properti ini dapat memberikan pengaruh tertentu hanya untuk bagian diagram berikut: DataLabel dan DataLabelFormat, dukungan penuh di PowerPoint 2013; di PowerPoint 2007 tidak berpengaruh pada proses rendering. Baca/tulis Double.
+description: "Mengembalikan atau mengatur nilai poin margin kanan dalam TextFrame. Perubahan properti ini dapat memberikan pengaruh tertentu hanya untuk bagian diagram berikut: DataLabel dan DataLabelFormat, dukungan penuh di PowerPoint 2013; di PowerPoint 2007 tidak berpengaruh pada proses rendering. Baca/tulis Double."
 type: docs
 weight: 60
 url: /id/aspose.slides.charts/icharttextblockformat/marginright/

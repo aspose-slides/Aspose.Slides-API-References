@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeRadar
 second_title: Aspose.Sildes สำหรับเอกสารอ้างอิง API ของ .NET
-description: คืนค่า true หาก chartType เป็นหนึ่งในประเภทย่อย Radar. ชุดประเภทย่อยสอดคล้องกับชุดที่เหมาะสมใน PowerPoint ดู Change Chart Type dialog ใน PowerPoint: FilledRadar Radar RadarWithMarkers.
+description: "คืนค่า true หาก chartType เป็นหนึ่งในประเภทย่อย Radar. ชุดประเภทย่อยสอดคล้องกับชุดที่เหมาะสมใน PowerPoint ดู Change Chart Type dialog ใน PowerPoint: FilledRadar Radar RadarWithMarkers."
 type: docs
 weight: 120
 url: /th/aspose.slides.charts/charttypecharacterizer/ischarttyperadar/

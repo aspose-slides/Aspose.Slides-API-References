@@ -1,6 +1,6 @@
 ---
 title: IFlyThroughTransition
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Эффект перехода Fly-through для слайдов.
 type: docs
 weight: 10090

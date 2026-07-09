@@ -1,7 +1,7 @@
 ---
 title: BaseJustification
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Specifica l'allineamento verticale rispetto al testo circostante. I valori possibili sono top, bottom e center. Predefinito: Center
+description: "Specifica l'allineamento verticale rispetto al testo circostante. I valori possibili sono top, bottom e center. Predefinito: Center"
 type: docs
 weight: 20
 url: /it/aspose.slides.mathtext/imathmatrix/basejustification/

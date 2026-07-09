@@ -1,7 +1,7 @@
 ---
 title: VerticalJustification
 second_title: Aspose.Sildes için .NET API Referansı
-description: Grup karakterinin dikey hizalaması. Nesnenin temel çizgiye göre hizalamasını belirler. Örneğin grup karakteri nesnenin üzerindeyse, VerticalJustification'ın Top olması, nesnenin üst kısmının temel çizgiye denk geldiğini gösterir; VerticalJustification Bottom olarak ayarlandığında, nesnenin alt kısmı temel çizgide olur. Varsayılan: PositionTop için Bottom, PositionBottom için Top.
+description: "Grup karakterinin dikey hizalaması. Nesnenin temel çizgiye göre hizalamasını belirler. Örneğin grup karakteri nesnenin üzerindeyse, VerticalJustification'ın Top olması, nesnenin üst kısmının temel çizgiye denk geldiğini gösterir; VerticalJustification Bottom olarak ayarlandığında, nesnenin alt kısmı temel çizgide olur. Varsayılan: PositionTop için Bottom, PositionBottom için Top."
 type: docs
 weight: 50
 url: /tr/aspose.slides.mathtext/mathgroupingcharacter/verticaljustification/

@@ -1,7 +1,7 @@
 ---
 title: ShowLabelAsDataCallout
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Xác định liệu nhãn dữ liệu của biểu đồ đã chỉ định sẽ được hiển thị dưới dạng lời gọi dữ liệu hay là nhãn dữ liệu. Nếu cha của đối tượng DataLabelFormat này là một bộ sưu tập DataLabelCollection các nhãn dữ liệu, thì thuộc tính này sẽ lấy hoặc đặt giá trị mặc định của thuộc tính ShowLabelAsDataCallout cho các nhãn dữ liệu mới trong bộ sưu tập DataLabelCollection. Đặt thuộc tính này với một giá trị cũng sẽ đặt giá trị đó cho thuộc tính ShowLabelAsDataCallout của tất cả các nhãn dữ liệu trong bộ sưu tập DataLabelCollection, ví dụ: DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val khiến tất cả DataLabelsi.ShowLabelAsDataCallout bằng val.
+description: "Xác định liệu nhãn dữ liệu của biểu đồ đã chỉ định sẽ được hiển thị dưới dạng lời gọi dữ liệu hay là nhãn dữ liệu. Nếu cha của đối tượng DataLabelFormat này là một bộ sưu tập DataLabelCollection các nhãn dữ liệu, thì thuộc tính này sẽ lấy hoặc đặt giá trị mặc định của thuộc tính ShowLabelAsDataCallout cho các nhãn dữ liệu mới trong bộ sưu tập DataLabelCollection. Đặt thuộc tính này với một giá trị cũng sẽ đặt giá trị đó cho thuộc tính ShowLabelAsDataCallout của tất cả các nhãn dữ liệu trong bộ sưu tập DataLabelCollection, ví dụ: DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val khiến tất cả DataLabelsi.ShowLabelAsDataCallout bằng val."
 type: docs
 weight: 90
 url: /vi/aspose.slides.charts/datalabelformat/showlabelasdatacallout/

@@ -1,7 +1,7 @@
 ---
 title: Overlap
 second_title: Aspose.Sildes .NET API Referencia
-description: Megadja, hogy a sávok és oszlopok mennyire fedik egymást 2-D diagramokon, százalékban -100 és 100 között. - -100 Legnagyobb távolság: a sávok teljesen el vannak választva. - 0 A sávok egymás mellett helyezkednek el átfedés vagy térköz nélkül. - 100 Legnagyobb átfedés: a sávok teljesen egymást fedik. Ez a tulajdonság olvasás/írás SByte.
+description: "Megadja, hogy a sávok és oszlopok mennyire fedik egymást 2-D diagramokon, százalékban -100 és 100 között. - -100 Legnagyobb távolság: a sávok teljesen el vannak választva. - 0 A sávok egymás mellett helyezkednek el átfedés vagy térköz nélkül. - 100 Legnagyobb átfedés: a sávok teljesen egymást fedik. Ez a tulajdonság olvasás/írás SByte."
 type: docs
 weight: 120
 url: /hu/aspose.slides.charts/chartseriesgroup/overlap/

@@ -1,7 +1,7 @@
 ---
 title: MarginTop
 second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Zwraca lub ustawia liczbę punktów górnego marginesu w TextFrame. Zmiana tej właściwości może wywierać pewien wpływ tylko na następujące elementy wykresu: DataLabel i DataLabelFormat (pełne wsparcie w PowerPoint 2013; w PowerPoint 2007 nie ma wpływu na renderowanie). Odczyt/zapis Double.
+description: "Zwraca lub ustawia liczbę punktów górnego marginesu w TextFrame. Zmiana tej właściwości może wywierać pewien wpływ tylko na następujące elementy wykresu: DataLabel i DataLabelFormat (pełne wsparcie w PowerPoint 2013; w PowerPoint 2007 nie ma wpływu na renderowanie). Odczyt/zapis Double."
 type: docs
 weight: 70
 url: /pl/aspose.slides.charts/icharttextblockformat/margintop/

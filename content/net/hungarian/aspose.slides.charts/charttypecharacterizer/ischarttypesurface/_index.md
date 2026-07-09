@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeSurface
 second_title: Aspose.Sildes .NET API referencia
-description: Igaz értéket ad vissza, ha a chartType a Surface altípusok egyike. Az altípusok halmaza megfelel a PowerPoint megfelelő halmazának, lásd a Change Chart Type párbeszédablakot a PowerPointban: Surface3D WireframeSurface3D Contour WireframeContour.
+description: "Igaz értéket ad vissza, ha a chartType a Surface altípusok egyike. Az altípusok halmaza megfelel a PowerPoint megfelelő halmazának, lásd a Change Chart Type párbeszédablakot a PowerPointban: Surface3D WireframeSurface3D Contour WireframeContour."
 type: docs
 weight: 150
 url: /hu/aspose.slides.charts/charttypecharacterizer/ischarttypesurface/

@@ -1,7 +1,7 @@
 ---
 title: HidePlaceholders
 second_title: Aspose.Sildes för .NET API-referens
-description: Dölj platshållarna för tomma matriselement Standard: false
+description: "Dölj platshållarna för tomma matriselement Standard: false"
 type: docs
 weight: 60
 url: /sv/aspose.slides.mathtext/imathmatrix/hideplaceholders/

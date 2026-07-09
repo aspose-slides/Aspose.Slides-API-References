@@ -1,7 +1,7 @@
 ---
 title: Value
 second_title: Aspose.Sildes for .NET API 참조
-description: 포인트 값을 나타냅니다. 가능한 형식: bool ColorFormat float int string. 읽기/쓰기 Object.
+description: "포인트 값을 나타냅니다. 가능한 형식: bool ColorFormat float int string. 읽기/쓰기 Object."
 type: docs
 weight: 30
 url: /ko/aspose.slides.animation/ipoint/value/

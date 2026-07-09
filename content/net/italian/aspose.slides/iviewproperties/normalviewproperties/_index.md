@@ -1,7 +1,7 @@
 ---
 title: NormalViewProperties
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta le proprietà della visualizzazione normale. La visualizzazione normale è composta da tre regioni di contenuto: la diapositiva stessa, una regione di contenuto laterale e una regione di contenuto inferiore. Solo lettura INormalViewPropertiesaspose.slides/inormalviewproperties.
+description: "Rappresenta le proprietà della visualizzazione normale. La visualizzazione normale è composta da tre regioni di contenuto: la diapositiva stessa, una regione di contenuto laterale e una regione di contenuto inferiore. Solo lettura INormalViewPropertiesaspose.slides/inormalviewproperties."
 type: docs
 weight: 30
 url: /it/aspose.slides/iviewproperties/normalviewproperties/

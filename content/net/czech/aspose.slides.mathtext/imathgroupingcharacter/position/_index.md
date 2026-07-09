@@ -1,7 +1,7 @@
 ---
 title: Position
 second_title: Aspose.Sildes pro .NET - referenční příručka API
-description: Pozice znaku pro seskupování. Výchozí: Dole
+description: "Pozice znaku pro seskupování. Výchozí: Dole"
 type: docs
 weight: 40
 url: /cs/aspose.slides.mathtext/imathgroupingcharacter/position/

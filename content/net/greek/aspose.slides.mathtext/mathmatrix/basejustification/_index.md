@@ -1,7 +1,7 @@
 ---
 title: BaseJustification
 second_title: Aspose.Sildes για .NET – Αναφορά API
-description: Καθορίζει την κατακόρυφη στοίχιση σε σχέση με το περιβάλλον κείμενο. Οι πιθανές τιμές είναι top, bottom και center. Προεπιλογή: Center
+description: "Καθορίζει την κατακόρυφη στοίχιση σε σχέση με το περιβάλλον κείμενο. Οι πιθανές τιμές είναι top, bottom και center. Προεπιλογή: Center"
 type: docs
 weight: 20
 url: /el/aspose.slides.mathtext/mathmatrix/basejustification/

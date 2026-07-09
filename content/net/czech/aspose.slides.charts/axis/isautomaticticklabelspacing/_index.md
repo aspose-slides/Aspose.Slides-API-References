@@ -1,7 +1,7 @@
 ---
 title: IsAutomaticTickLabelSpacing
 second_title: Aspose.Sildes pro .NET referenci API
-description: Určuje automatickou hodnotu mezery popisků osy. Pokud je false: použijte vlastnost TickLabelSpacing. Čtení/Zápis Boolean.
+description: "Určuje automatickou hodnotu mezery popisků osy. Pokud je false: použijte vlastnost TickLabelSpacing. Čtení/Zápis Boolean."
 type: docs
 weight: 230
 url: /cs/aspose.slides.charts/axis/isautomaticticklabelspacing/

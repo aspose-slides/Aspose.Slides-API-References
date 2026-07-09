@@ -1,7 +1,7 @@
 ---
 title: ExplicitBreak
 second_title: Aspose.Sildes per .NET Riferimento API
-description: L'interruzione esplicita indica se esiste un'interruzione di riga all'inizio dell'oggetto Box in modo che la linea si avvolga all'inizio dell'oggetto Box. Specifica il numero dell'operatore nella riga precedente del testo matematico che deve essere usato come punto di allineamento per la riga corrente del testo matematico. Valori possibili: 1..255. Predefinito: 0 (nessuna interruzione esplicita)
+description: "L'interruzione esplicita indica se esiste un'interruzione di riga all'inizio dell'oggetto Box in modo che la linea si avvolga all'inizio dell'oggetto Box. Specifica il numero dell'operatore nella riga precedente del testo matematico che deve essere usato come punto di allineamento per la riga corrente del testo matematico. Valori possibili: 1..255. Predefinito: 0 (nessuna interruzione esplicita)"
 type: docs
 weight: 50
 url: /it/aspose.slides.mathtext/mathbox/explicitbreak/

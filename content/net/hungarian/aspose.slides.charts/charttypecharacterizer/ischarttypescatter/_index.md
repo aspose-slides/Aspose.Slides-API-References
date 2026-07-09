@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeScatter
 second_title: Aspose.Sildes .NET API hivatkozás
-description: Igaz értéket ad vissza, ha a chartType a Scatter altípusok egyike. Az altípusok halmaza a PowerPoint megfelelő halmazának felel meg; lásd a PowerPoint „Change Chart Type” párbeszédablakát: ScatterWithMarkers, ScatterWithSmoothLines, ScatterWithSmoothLinesAndMarkers, ScatterWithStraightLines, ScatterWithStraightLinesAndMarkers.
+description: "Igaz értéket ad vissza, ha a chartType a Scatter altípusok egyike. Az altípusok halmaza a PowerPoint megfelelő halmazának felel meg; lásd a PowerPoint „Change Chart Type” párbeszédablakát: ScatterWithMarkers, ScatterWithSmoothLines, ScatterWithSmoothLinesAndMarkers, ScatterWithStraightLines, ScatterWithStraightLinesAndMarkers."
 type: docs
 weight: 130
 url: /hu/aspose.slides.charts/charttypecharacterizer/ischarttypescatter/

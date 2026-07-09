@@ -1,7 +1,7 @@
 ---
 title: IStringOrDoubleChartValue
 second_title: Aspose.Sildes برای .NET مرجع API
-description: مقدار رشته‌ای یا عددی (double) که می‌تواند به دو روش در سند ارائهٔ pptx ذخیره شود: 1) در سلول/سلول‌های کتاب کار مرتبط با نمودار؛ 2) به‌عنوان مقدار ثابت.
+description: "مقدار رشته‌ای یا عددی (double) که می‌تواند به دو روش در سند ارائهٔ pptx ذخیره شود: 1) در سلول/سلول‌های کتاب کار مرتبط با نمودار؛ 2) به‌عنوان مقدار ثابت."
 type: docs
 weight: 2230
 url: /fa/aspose.slides.charts/istringordoublechartvalue/

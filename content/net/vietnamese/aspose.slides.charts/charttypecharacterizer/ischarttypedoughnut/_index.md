@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeDoughnut
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Trả về true nếu chartType là một trong các kiểu phụ Doughnut. Bộ kiểu phụ tương ứng với bộ thích hợp trong PowerPoint, xem hộp thoại "Change Chart Type" trong PowerPoint: Doughnut, ExplodedDoughnut.
+description: "Trả về true nếu chartType là một trong các kiểu phụ Doughnut. Bộ kiểu phụ tương ứng với bộ thích hợp trong PowerPoint, xem hộp thoại \"Change Chart Type\" trong PowerPoint: Doughnut, ExplodedDoughnut."
 type: docs
 weight: 90
 url: /vi/aspose.slides.charts/charttypecharacterizer/ischarttypedoughnut/

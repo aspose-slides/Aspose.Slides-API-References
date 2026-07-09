@@ -1,7 +1,7 @@
 ---
 title: EffectFormat
 second_title: Aspose.Sildes pro .NET API Reference
-description: Vrací objekt EffectFormat, který obsahuje pixelové efekty aplikované na tvar. Poznámka: může vrátit null pro určité typy tvarů, které nemají vlastnosti efektu. Pouze pro čtení IEffectFormataspose.slides/ieffectformat.
+description: "Vrací objekt EffectFormat, který obsahuje pixelové efekty aplikované na tvar. Poznámka: může vrátit null pro určité typy tvarů, které nemají vlastnosti efektu. Pouze pro čtení IEffectFormataspose.slides/ieffectformat."
 type: docs
 weight: 60
 url: /cs/aspose.slides/shape/effectformat/

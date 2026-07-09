@@ -1,7 +1,7 @@
 ---
 title: ShapeType
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: تُرجع أو تعيّن نوع الإعداد المسبق للهندسة. ملاحظة: عند تغيير القيمة ستُعيد جميع قيم الضبط إلى قيمها الافتراضية. قراءة/كتابة ShapeTypeaspose.slides/shapetype.
+description: "تُرجع أو تعيّن نوع الإعداد المسبق للهندسة. ملاحظة: عند تغيير القيمة ستُعيد جميع قيم الضبط إلى قيمها الافتراضية. قراءة/كتابة ShapeTypeaspose.slides/shapetype."
 type: docs
 weight: 40
 url: /ar/aspose.slides/igeometryshape/shapetype/

@@ -1,7 +1,7 @@
 ---
 title: BulletFillFormat
 second_title: Aspose.Sildes για .NET Αναφορά API
-description: Επιστρέφει το αντικείμενο FillFormat που περιέχει τις ιδιότητες μορφοποίησης γεμίσματος για μια κουκίδα κόμβου. Σημείωση: μπορεί να επιστρέψει null για ορισμένους τύπους διάταξης SmartArt που δεν παρέχουν κουκίδες για κόμβους. Μόνο ανάγνωση IFillFormataspose.slides/ifillformat.
+description: "Επιστρέφει το αντικείμενο FillFormat που περιέχει τις ιδιότητες μορφοποίησης γεμίσματος για μια κουκίδα κόμβου. Σημείωση: μπορεί να επιστρέψει null για ορισμένους τύπους διάταξης SmartArt που δεν παρέχουν κουκίδες για κόμβους. Μόνο ανάγνωση IFillFormataspose.slides/ifillformat."
 type: docs
 weight: 10
 url: /el/aspose.slides.smartart/smartartnode/bulletfillformat/

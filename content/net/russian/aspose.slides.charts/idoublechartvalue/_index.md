@@ -1,7 +1,7 @@
 ---
 title: IDoubleChartValue
-second_title: Aspose.Sildes для .NET: справочник API
-description: Представляет значение double, которое может быть сохранено в документе презентации pptx двумя способами: 1) в ячейке/ячейках рабочей книги, связанной с диаграммой; 2) как буквальное значение.
+second_title: "Aspose.Sildes для .NET: справочник API"
+description: "Представляет значение double, которое может быть сохранено в документе презентации pptx двумя способами: 1) в ячейке/ячейках рабочей книги, связанной с диаграммой; 2) как буквальное значение."
 type: docs
 weight: 2070
 url: /ru/aspose.slides.charts/idoublechartvalue/

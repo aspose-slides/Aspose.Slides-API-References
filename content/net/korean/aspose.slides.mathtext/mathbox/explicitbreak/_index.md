@@ -1,7 +1,7 @@
 ---
 title: ExplicitBreak
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: Explicit break는 Box 객체 시작에 줄 바꿈이 있는지 여부를 지정합니다. 이는 줄이 Box 객체 시작에서 감싸지도록 합니다. 이전 수학 텍스트 줄에 있는 연산자 번호를 지정하며, 현재 수학 텍스트 줄의 정렬 기준점으로 사용됩니다. 가능한 값: 1..255 기본값: 0 (명시적 줄 바꿈 없음)
+description: "Explicit break는 Box 객체 시작에 줄 바꿈이 있는지 여부를 지정합니다. 이는 줄이 Box 객체 시작에서 감싸지도록 합니다. 이전 수학 텍스트 줄에 있는 연산자 번호를 지정하며, 현재 수학 텍스트 줄의 정렬 기준점으로 사용됩니다. 가능한 값: 1..255 기본값: 0 (명시적 줄 바꿈 없음)"
 type: docs
 weight: 50
 url: /ko/aspose.slides.mathtext/mathbox/explicitbreak/

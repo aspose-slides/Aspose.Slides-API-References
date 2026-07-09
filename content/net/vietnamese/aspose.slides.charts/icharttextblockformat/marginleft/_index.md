@@ -1,7 +1,7 @@
 ---
 title: MarginLeft
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Trả về hoặc thiết lập điểm lề trái trong một TextFrame. Thay đổi thuộc tính này chỉ có thể ảnh hưởng nhất định cho các phần biểu đồ sau: DataLabel và DataLabelFormat; hỗ trợ đầy đủ trong PowerPoint 2013; trong PowerPoint 2007 không có hiệu ứng khi hiển thị. Đọc/ghi Double.
+description: "Trả về hoặc thiết lập điểm lề trái trong một TextFrame. Thay đổi thuộc tính này chỉ có thể ảnh hưởng nhất định cho các phần biểu đồ sau: DataLabel và DataLabelFormat; hỗ trợ đầy đủ trong PowerPoint 2013; trong PowerPoint 2007 không có hiệu ứng khi hiển thị. Đọc/ghi Double."
 type: docs
 weight: 50
 url: /vi/aspose.slides.charts/icharttextblockformat/marginleft/

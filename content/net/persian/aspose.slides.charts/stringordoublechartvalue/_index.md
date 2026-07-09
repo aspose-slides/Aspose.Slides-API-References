@@ -1,7 +1,7 @@
 ---
 title: StringOrDoubleChartValue
 second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایش مقدار رشته‌ای یا عددی که می‌تواند به دو روش در سند ارائهٔ pptx ذخیره شود: 1 در سلول/سلول‌های کتاب‌کار مرتبط با نمودار 2 به عنوان مقدار حقیقی.
+description: "نمایش مقدار رشته‌ای یا عددی که می‌تواند به دو روش در سند ارائهٔ pptx ذخیره شود: 1 در سلول/سلول‌های کتاب‌کار مرتبط با نمودار 2 به عنوان مقدار حقیقی."
 type: docs
 weight: 2420
 url: /fa/aspose.slides.charts/stringordoublechartvalue/

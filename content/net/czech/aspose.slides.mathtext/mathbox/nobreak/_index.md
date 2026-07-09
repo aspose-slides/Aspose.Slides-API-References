@@ -1,7 +1,7 @@
 ---
 title: NoBreak
 second_title: Aspose.Sildes pro .NET referenční příručku API
-description: Žádné zalomení Tato vlastnost určuje neporušitelnou vlastnost na objektové krabici. Když je true, v krabici nemohou nastat žádné zalomení řádku. To může být důležité pro emulátory operátorů, které se skládají z více než jednoho binárního operátoru. Když tento prvek není specifikován, mohou v krabici nastat zalomení. Výchozí: true
+description: "Žádné zalomení Tato vlastnost určuje neporušitelnou vlastnost na objektové krabici. Když je true, v krabici nemohou nastat žádné zalomení řádku. To může být důležité pro emulátory operátorů, které se skládají z více než jednoho binárního operátoru. Když tento prvek není specifikován, mohou v krabici nastat zalomení. Výchozí: true"
 type: docs
 weight: 60
 url: /cs/aspose.slides.mathtext/mathbox/nobreak/

@@ -1,7 +1,7 @@
 ---
 title: InkEffect
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 잉크 획의 시각적 스타일을 정의하는 잉크 효과 유형(예: Galaxy, Gold, Silver)을 가져옵니다. 값은 브러시 속성 inkEffects에서 구문 분석됩니다. 인식된 효과가 지정되지 않은 경우 NotDefined이 반환됩니다.
+description: "잉크 획의 시각적 스타일을 정의하는 잉크 효과 유형(예: Galaxy, Gold, Silver)을 가져옵니다. 값은 브러시 속성 inkEffects에서 구문 분석됩니다. 인식된 효과가 지정되지 않은 경우 NotDefined이 반환됩니다."
 type: docs
 weight: 20
 url: /ko/aspose.slides.ink/iinkbrush/inkeffect/

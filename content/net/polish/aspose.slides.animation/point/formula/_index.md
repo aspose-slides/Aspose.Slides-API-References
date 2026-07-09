@@ -1,7 +1,7 @@
 ---
 title: Formula
 second_title: Aspose.Sildes dla .NET Referencja API
-description: Standardowe operatory arytmetyczne: ‘+’, ‘-’, ‘*’, ‘/’, ‘^’, ‘%’ (mod). Stałe: ‘pi’, ‘e’. Operatory warunkowe: ‘abs’, ‘min’, ‘max’, ‘?’ (if). Operatory porównania: ‘==’, ‘>=’, ‘!=’, ‘!’. Operatory trygonometryczne: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’. Logarytm naturalny: ‘ln()’. Odwołania do właściwości obsługiwane przez host, na przykład ppt_xcos-2pi1--ppt_x-sin-2pi1-1-ppt_y1-. String odczyt/zapis.
+description: "Standardowe operatory arytmetyczne: ‘+’, ‘-’, ‘*’, ‘/’, ‘^’, ‘%’ (mod). Stałe: ‘pi’, ‘e’. Operatory warunkowe: ‘abs’, ‘min’, ‘max’, ‘?’ (if). Operatory porównania: ‘==’, ‘>=’, ‘!=’, ‘!’. Operatory trygonometryczne: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’. Logarytm naturalny: ‘ln()’. Odwołania do właściwości obsługiwane przez host, na przykład ppt_xcos-2pi1--ppt_x-sin-2pi1-1-ppt_y1-. String odczyt/zapis."
 type: docs
 weight: 20
 url: /pl/aspose.slides.animation/point/formula/

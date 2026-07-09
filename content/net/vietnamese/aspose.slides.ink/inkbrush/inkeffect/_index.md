@@ -1,7 +1,7 @@
 ---
 title: InkEffect
 second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Lấy kiểu hiệu ứng mực, ví dụ: Galaxy, Gold, Silver, xác định phong cách hiển thị của nét mực. Giá trị được phân tích từ thuộc tính brush inkEffects. Nếu không có hiệu ứng được công nhận nào được chỉ định, sẽ trả về NotDefined.
+description: "Lấy kiểu hiệu ứng mực, ví dụ: Galaxy, Gold, Silver, xác định phong cách hiển thị của nét mực. Giá trị được phân tích từ thuộc tính brush inkEffects. Nếu không có hiệu ứng được công nhận nào được chỉ định, sẽ trả về NotDefined."
 type: docs
 weight: 20
 url: /vi/aspose.slides.ink/inkbrush/inkeffect/

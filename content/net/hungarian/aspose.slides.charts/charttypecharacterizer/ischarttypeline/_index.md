@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeLine
 second_title: Aspose.Sildes .NET API hivatkozás
-description: Igazat ad vissza, ha a chartType a Line altípusok egyike. Az altípusok halmaza megfelel a PowerPoint megfelelő halmazának; lásd a Change Chart Type párbeszédablakot a PowerPointban: Line, LineWithMarkers, PercentsStackedLine, PercentsStackedLineWithMarkers, StackedLine, StackedLineWithMarkers, Line3D.
+description: "Igazat ad vissza, ha a chartType a Line altípusok egyike. Az altípusok halmaza megfelel a PowerPoint megfelelő halmazának; lásd a Change Chart Type párbeszédablakot a PowerPointban: Line, LineWithMarkers, PercentsStackedLine, PercentsStackedLineWithMarkers, StackedLine, StackedLineWithMarkers, Line3D."
 type: docs
 weight: 100
 url: /hu/aspose.slides.charts/charttypecharacterizer/ischarttypeline/

@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeArea
 second_title: Aspose.Sildes for .NET API 참조
-description: chartType이 Area 하위 유형 중 하나인 경우 true를 반환합니다. 하위 유형 집합은 PowerPoint에서 해당하는 집합에 대응합니다. PowerPoint의 "Change Chart Type" 대화 상자를 참조하십시오: Area, PercentsStackedArea, PercentsStackedArea3D, StackedArea, StackedArea3D, Area3D.
+description: "chartType이 Area 하위 유형 중 하나인 경우 true를 반환합니다. 하위 유형 집합은 PowerPoint에서 해당하는 집합에 대응합니다. PowerPoint의 \"Change Chart Type\" 대화 상자를 참조하십시오: Area, PercentsStackedArea, PercentsStackedArea3D, StackedArea, StackedArea3D, Area3D."
 type: docs
 weight: 50
 url: /ko/aspose.slides.charts/charttypecharacterizer/ischarttypearea/

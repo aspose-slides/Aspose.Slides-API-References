@@ -1,6 +1,6 @@
 ---
 title: Ink
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Представляет объект чернил на слайде.
 type: docs
 weight: 7550

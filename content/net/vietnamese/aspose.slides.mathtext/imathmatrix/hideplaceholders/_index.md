@@ -1,7 +1,7 @@
 ---
 title: HidePlaceholders
 second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Ẩn các trình giữ chỗ cho các phần tử ma trận trống Mặc định: false
+description: "Ẩn các trình giữ chỗ cho các phần tử ma trận trống Mặc định: false"
 type: docs
 weight: 60
 url: /vi/aspose.slides.mathtext/imathmatrix/hideplaceholders/

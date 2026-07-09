@@ -1,7 +1,7 @@
 ---
 title: ShapeType
 second_title: Aspose.Sildes .NET API referencia
-description: Visszaadja vagy beállítja a geometriai előre beállított típust. Megjegyzés: az érték változtatásakor az összes igazítási érték visszaáll az alapértelmezett értékekre. Olvasás/írás ShapeTypeaspose.slides/shapetype.
+description: "Visszaadja vagy beállítja a geometriai előre beállított típust. Megjegyzés: az érték változtatásakor az összes igazítási érték visszaáll az alapértelmezett értékekre. Olvasás/írás ShapeTypeaspose.slides/shapetype."
 type: docs
 weight: 30
 url: /hu/aspose.slides/geometryshape/shapetype/

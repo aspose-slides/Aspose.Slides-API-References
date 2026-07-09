@@ -1,7 +1,7 @@
 ---
 title: MarginBottom
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Επιστρέφει ή ορίζει τα σημεία του κάτω περιθωρίου σε ένα TextFrame. Η αλλαγή αυτής της ιδιότητας μπορεί να έχει συγκεκριμένη επιρροή μόνο για τα εξής τμήματα του διαγράμματος: DataLabel και DataLabelFormat, πλήρης υποστήριξη σε PowerPoint 2013· σε PowerPoint 2007 δεν υπάρχει επίδραση στην απόδοση. Ανάγνωση/εγγραφή Double.
+description: "Επιστρέφει ή ορίζει τα σημεία του κάτω περιθωρίου σε ένα TextFrame. Η αλλαγή αυτής της ιδιότητας μπορεί να έχει συγκεκριμένη επιρροή μόνο για τα εξής τμήματα του διαγράμματος: DataLabel και DataLabelFormat, πλήρης υποστήριξη σε PowerPoint 2013· σε PowerPoint 2007 δεν υπάρχει επίδραση στην απόδοση. Ανάγνωση/εγγραφή Double."
 type: docs
 weight: 40
 url: /el/aspose.slides.charts/icharttextblockformat/marginbottom/

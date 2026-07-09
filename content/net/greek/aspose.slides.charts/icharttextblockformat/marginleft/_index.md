@@ -1,7 +1,7 @@
 ---
 title: MarginLeft
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Επιστρέφει ή ορίζει το αριστερό περιθώριο (σημεία) σε ένα TextFrame. Η αλλαγή αυτής της ιδιότητας μπορεί να έχει συγκεκριμένη επίδραση μόνο για τα εξής τμήματα του διαγράμματος: DataLabel και DataLabelFormat. Πλήρης υποστήριξη στο PowerPoint 2013· στο PowerPoint 2007 δεν υπάρχει αντίκτυπο στην απόδοση. Ανάγνωση/εγγραφή Double.
+description: "Επιστρέφει ή ορίζει το αριστερό περιθώριο (σημεία) σε ένα TextFrame. Η αλλαγή αυτής της ιδιότητας μπορεί να έχει συγκεκριμένη επίδραση μόνο για τα εξής τμήματα του διαγράμματος: DataLabel και DataLabelFormat. Πλήρης υποστήριξη στο PowerPoint 2013· στο PowerPoint 2007 δεν υπάρχει αντίκτυπο στην απόδοση. Ανάγνωση/εγγραφή Double."
 type: docs
 weight: 50
 url: /el/aspose.slides.charts/icharttextblockformat/marginleft/

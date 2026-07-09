@@ -1,7 +1,7 @@
 ---
 title: StringOrDoubleChartValue
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn giá trị chuỗi hoặc số thực có thể được lưu trữ trong tài liệu trình chiếu pptx theo hai cách: 1) trong ô/ô của sổ làm việc liên quan đến biểu đồ; 2) dưới dạng giá trị nguyên thủy.
+description: "Biểu diễn giá trị chuỗi hoặc số thực có thể được lưu trữ trong tài liệu trình chiếu pptx theo hai cách: 1) trong ô/ô của sổ làm việc liên quan đến biểu đồ; 2) dưới dạng giá trị nguyên thủy."
 type: docs
 weight: 2420
 url: /vi/aspose.slides.charts/stringordoublechartvalue/

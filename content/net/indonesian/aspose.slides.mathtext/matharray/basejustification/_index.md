@@ -1,7 +1,7 @@
 ---
 title: BaseJustification
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Menentukan perataan array relatif terhadap teks di sekitarnya. Teks di luar array dapat disejajarkan dengan bagian bawah, atas, atau tengah dari objek array. Nilai default: Center
+description: "Menentukan perataan array relatif terhadap teks di sekitarnya. Teks di luar array dapat disejajarkan dengan bagian bawah, atas, atau tengah dari objek array. Nilai default: Center"
 type: docs
 weight: 30
 url: /id/aspose.slides.mathtext/matharray/basejustification/

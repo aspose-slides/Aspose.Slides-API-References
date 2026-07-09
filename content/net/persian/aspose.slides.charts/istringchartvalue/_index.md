@@ -1,7 +1,7 @@
 ---
 title: IStringChartValue
 second_title: مرجع API Aspose.Sildes برای .NET
-description: نمایش مقدار رشته‌ای که می‌تواند به دو روش در سند ارائهٔ pptx ذخیره شود: 1) در سلول/سلول‌های کاربرگی مرتبط با نمودار؛ 2) به عنوان مقدار لغوی.
+description: "نمایش مقدار رشته‌ای که می‌تواند به دو روش در سند ارائهٔ pptx ذخیره شود: 1) در سلول/سلول‌های کاربرگی مرتبط با نمودار؛ 2) به عنوان مقدار لغوی."
 type: docs
 weight: 2220
 url: /fa/aspose.slides.charts/istringchartvalue/

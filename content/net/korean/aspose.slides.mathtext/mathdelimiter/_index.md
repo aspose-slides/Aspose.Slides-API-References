@@ -1,7 +1,7 @@
 ---
 title: MathDelimiter
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 괄호, 중괄호, 대괄호 및 수직 막대와 같은 시작 및 종료 문자로 구성된 구분자 객체를 지정하고, 지정된 문자로 구분된 하나 이상의 수학 요소를 내부에 포함합니다. 예시: (𝑥2); [𝑥2&#x7C;𝑦2]
+description: "괄호, 중괄호, 대괄호 및 수직 막대와 같은 시작 및 종료 문자로 구성된 구분자 객체를 지정하고, 지정된 문자로 구분된 하나 이상의 수학 요소를 내부에 포함합니다. 예시: (𝑥2); [𝑥2&#x7C;𝑦2]"
 type: docs
 weight: 8650
 url: /ko/aspose.slides.mathtext/mathdelimiter/

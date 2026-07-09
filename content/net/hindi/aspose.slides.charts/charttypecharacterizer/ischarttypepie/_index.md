@@ -1,7 +1,7 @@
 ---
 title: IsChartTypePie
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: यदि chartType में से कोई एक Pie उपप्रकार है तो true लौटाता है। उपप्रकार सेट PowerPoint में उपयुक्त सेट के अनुरूप है, PowerPoint में Change Chart Type संवाद देखें: BarOfPie ExplodedPie ExplodedPie3D Pie Pie3D PieOfPie.
+description: "यदि chartType में से कोई एक Pie उपप्रकार है तो true लौटाता है। उपप्रकार सेट PowerPoint में उपयुक्त सेट के अनुरूप है, PowerPoint में Change Chart Type संवाद देखें: BarOfPie ExplodedPie ExplodedPie3D Pie Pie3D PieOfPie."
 type: docs
 weight: 110
 url: /hi/aspose.slides.charts/charttypecharacterizer/ischarttypepie/

@@ -1,7 +1,7 @@
 ---
 title: DisableLineEndCropping
 second_title: Riferimento API Aspose.Sildes per .NET
-description: SVG 1.1 non consente di definire gli incavi per i marcatori. Il motore di scrittura SVG di Aspose.Slides ha una soluzione per questo problema: ritaglia l'estremità della linea con la freccia, così la linea non si sovrappone ai marcatori. Questa opzione disattiva tale comportamento. Lettura/scrittura Boolean.
+description: "SVG 1.1 non consente di definire gli incavi per i marcatori. Il motore di scrittura SVG di Aspose.Slides ha una soluzione per questo problema: ritaglia l'estremità della linea con la freccia, così la linea non si sovrappone ai marcatori. Questa opzione disattiva tale comportamento. Lettura/scrittura Boolean."
 type: docs
 weight: 90
 url: /it/aspose.slides.export/svgoptions/disablelineendcropping/

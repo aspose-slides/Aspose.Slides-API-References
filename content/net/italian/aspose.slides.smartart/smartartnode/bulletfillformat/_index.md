@@ -1,7 +1,7 @@
 ---
 title: BulletFillFormat
 second_title: Aspose.Sildes per .NET Riferimento API
-description: Restituisce l'oggetto FillFormat che contiene le proprietà di formattazione del riempimento per il punto elenco di un nodo. Nota: può restituire null per alcuni tipi di layout SmartArt che non forniscono punti elenco per i nodi. Solo lettura IFillFormataspose.slides/ifillformat.
+description: "Restituisce l'oggetto FillFormat che contiene le proprietà di formattazione del riempimento per il punto elenco di un nodo. Nota: può restituire null per alcuni tipi di layout SmartArt che non forniscono punti elenco per i nodi. Solo lettura IFillFormataspose.slides/ifillformat."
 type: docs
 weight: 10
 url: /it/aspose.slides.smartart/smartartnode/bulletfillformat/

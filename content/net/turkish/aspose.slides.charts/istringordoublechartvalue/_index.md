@@ -1,7 +1,7 @@
 ---
 title: IStringOrDoubleChartValue
 second_title: Aspose.Sildes için .NET API Referansı
-description: String veya double değeri temsil eder ve pptx sunum belgesinde iki şekilde depolanabilir: 1) grafiğe bağlı çalışma kitabının hücre/hücrelerinde 2) literal değer olarak.
+description: "String veya double değeri temsil eder ve pptx sunum belgesinde iki şekilde depolanabilir: 1) grafiğe bağlı çalışma kitabının hücre/hücrelerinde 2) literal değer olarak."
 type: docs
 weight: 2230
 url: /tr/aspose.slides.charts/istringordoublechartvalue/

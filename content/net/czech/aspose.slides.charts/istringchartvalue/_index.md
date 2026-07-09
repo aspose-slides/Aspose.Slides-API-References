@@ -1,7 +1,7 @@
 ---
 title: IStringChartValue
 second_title: Aspose.Sildes pro .NET API referenci
-description: Reprezentuje řetězcovou hodnotu, která může být uložena v dokumentu prezentace pptx dvěma způsoby: 1) v buňce/buňkách sešitu souvisejícího s grafem, 2) jako doslovná hodnota.
+description: "Reprezentuje řetězcovou hodnotu, která může být uložena v dokumentu prezentace pptx dvěma způsoby: 1) v buňce/buňkách sešitu souvisejícího s grafem, 2) jako doslovná hodnota."
 type: docs
 weight: 2220
 url: /cs/aspose.slides.charts/istringchartvalue/

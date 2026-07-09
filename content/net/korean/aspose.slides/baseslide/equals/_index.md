@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API 참조
-description: 두 IBaseSlide 인스턴스가 동일한지 판단합니다. 반환 값은 슬라이드 구조와 정적 콘텐츠를 기반으로 계산됩니다. 모든 도형, 스타일, 텍스트, 애니메이션 및 기타 설정 등이 동일하면 두 슬라이드는 동일합니다. 비교에서는 고유 식별자 값(예: SlideId) 및 동적 콘텐츠(예: Date Placeholder의 현재 날짜 값)는 고려되지 않습니다.
+description: "두 IBaseSlide 인스턴스가 동일한지 판단합니다. 반환 값은 슬라이드 구조와 정적 콘텐츠를 기반으로 계산됩니다. 모든 도형, 스타일, 텍스트, 애니메이션 및 기타 설정 등이 동일하면 두 슬라이드는 동일합니다. 비교에서는 고유 식별자 값(예: SlideId) 및 동적 콘텐츠(예: Date Placeholder의 현재 날짜 값)는 고려되지 않습니다."
 type: docs
 weight: 130
 url: /ko/aspose.slides/baseslide/equals/

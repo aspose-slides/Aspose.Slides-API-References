@@ -1,7 +1,7 @@
 ---
 title: TextFormat
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Trả về định dạng văn bản biểu đồ. Thuộc tính này không áp dụng cho các loại sau: Treemap Sunburst Waterfall Histogram FunnelBoxAndWhisker. Chỉ đọc IChartTextFormataspose.slides.charts/icharttextformat.
+description: "Trả về định dạng văn bản biểu đồ. Thuộc tính này không áp dụng cho các loại sau: Treemap Sunburst Waterfall Histogram FunnelBoxAndWhisker. Chỉ đọc IChartTextFormataspose.slides.charts/icharttextformat."
 type: docs
 weight: 210
 url: /vi/aspose.slides.charts/chart/textformat/

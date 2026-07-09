@@ -1,7 +1,7 @@
 ---
 title: MathNaryOperator
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Especifica un objeto matemático N-ario como la Sumatoria y la Integral. Consiste en un operador, una base o operando y límites superior e inferior opcionales. Ejemplos de operadores N-arios son: Sumatoria, Unión, Intersección, Integral
+description: "Especifica un objeto matemático N-ario como la Sumatoria y la Integral. Consiste en un operador, una base o operando y límites superior e inferior opcionales. Ejemplos de operadores N-arios son: Sumatoria, Unión, Intersección, Integral"
 type: docs
 weight: 8870
 url: /es/aspose.slides.mathtext/mathnaryoperator/

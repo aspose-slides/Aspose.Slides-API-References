@@ -1,7 +1,7 @@
 ---
 title: BulletFillFormat
 second_title: Aspose.Sildes for .NET API リファレンス
-description: ノードの箇条書きの塗りつぶし書式プロパティを含む FillFormat オブジェクトを返します。注: ノードに箇条書きが提供されない特定の SmartArt レイアウトでは null を返すことがあります。読み取り専用 IFillFormataspose.slides/ifillformat.
+description: "ノードの箇条書きの塗りつぶし書式プロパティを含む FillFormat オブジェクトを返します。注: ノードに箇条書きが提供されない特定の SmartArt レイアウトでは null を返すことがあります。読み取り専用 IFillFormataspose.slides/ifillformat."
 type: docs
 weight: 10
 url: /ja/aspose.slides.smartart/smartartnode/bulletfillformat/

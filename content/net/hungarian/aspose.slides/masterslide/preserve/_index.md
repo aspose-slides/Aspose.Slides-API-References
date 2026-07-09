@@ -1,7 +1,7 @@
 ---
 title: Preserve
 second_title: Aspose.Sildes a .NET API hivatkozás
-description: Megállapítja, hogy a megfelelő master törlésre kerül-e, amikor a masterhez tartozó összes dia törlésre kerül. Megjegyzés: az Aspose.Slides soha nem távolítja el automatikusan a nem használt master-t; a nem használt masterok tényleges eltávolításához hívja meg a RemoveUnusedaspose.slides/masterslidecollection/removeunused metódust. Olvasás/írás Boolean.
+description: "Megállapítja, hogy a megfelelő master törlésre kerül-e, amikor a masterhez tartozó összes dia törlésre kerül. Megjegyzés: az Aspose.Slides soha nem távolítja el automatikusan a nem használt master-t; a nem használt masterok tényleges eltávolításához hívja meg a RemoveUnusedaspose.slides/masterslidecollection/removeunused metódust. Olvasás/írás Boolean."
 type: docs
 weight: 80
 url: /hu/aspose.slides/masterslide/preserve/

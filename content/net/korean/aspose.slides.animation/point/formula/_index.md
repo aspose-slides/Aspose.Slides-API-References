@@ -1,7 +1,7 @@
 ---
 title: Formula
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 값, from, to, by 속성 내에서 사용할 수 있는 수식은 다음과 같은 요소들로 구성될 수 있습니다. Standard arithmetic operators  +  -  *  /  ^  % (mod) Constants pi e Conditional operators abs min max (if) Comparison operators == >= <= != (gt) Trigonometric operators sin cos tan asin acos atan Natural logarithm ln Property references host supported properties 예시: ppt_xcos-2pi1--ppt_x-sin-2pi1-1-ppt_y1- 읽기/쓰기 문자열.
+description: "값, from, to, by 속성 내에서 사용할 수 있는 수식은 다음과 같은 요소들로 구성될 수 있습니다. Standard arithmetic operators  +  -  *  /  ^  % (mod) Constants pi e Conditional operators abs min max (if) Comparison operators == >= <= != (gt) Trigonometric operators sin cos tan asin acos atan Natural logarithm ln Property references host supported properties 예시: ppt_xcos-2pi1--ppt_x-sin-2pi1-1-ppt_y1- 읽기/쓰기 문자열."
 type: docs
 weight: 20
 url: /ko/aspose.slides.animation/point/formula/

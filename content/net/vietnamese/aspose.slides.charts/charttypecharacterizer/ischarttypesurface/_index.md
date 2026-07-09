@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeSurface
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Trả về true nếu chartType là một trong các subtype Surface. Tập hợp các subtype tương ứng với tập hợp thích hợp trong PowerPoint; xem Change Chart Type dialog trong PowerPoint: Surface3D WireframeSurface3D Contour WireframeContour.
+description: "Trả về true nếu chartType là một trong các subtype Surface. Tập hợp các subtype tương ứng với tập hợp thích hợp trong PowerPoint; xem Change Chart Type dialog trong PowerPoint: Surface3D WireframeSurface3D Contour WireframeContour."
 type: docs
 weight: 150
 url: /vi/aspose.slides.charts/charttypecharacterizer/ischarttypesurface/

@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeSurface
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: यदि chartType Surface के उपप्रकारों में से एक है तो true लौटाएँ। उपप्रकार सेट PowerPoint में उपयुक्त सेट के अनुरूप है; PowerPoint में “Change Chart Type” संवाद देखें: Surface3D WireframeSurface3D Contour WireframeContour.
+description: "यदि chartType Surface के उपप्रकारों में से एक है तो true लौटाएँ। उपप्रकार सेट PowerPoint में उपयुक्त सेट के अनुरूप है; PowerPoint में “Change Chart Type” संवाद देखें: Surface3D WireframeSurface3D Contour WireframeContour."
 type: docs
 weight: 150
 url: /hi/aspose.slides.charts/charttypecharacterizer/ischarttypesurface/

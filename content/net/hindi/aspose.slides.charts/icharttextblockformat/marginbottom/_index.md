@@ -1,7 +1,7 @@
 ---
 title: MarginBottom
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: TextFrame में निचला मार्जिन (पॉइंट्स) लौटाता है या सेट करता है। इस प्रॉपर्टी को बदलने से केवल इन चार्ट भागों पर ही कुछ प्रभाव पड़ सकता है: DataLabel और DataLabelFormat (PowerPoint 2013 में पूर्ण समर्थन; PowerPoint 2007 में रेंडरिंग के लिए कोई प्रभाव नहीं)。 Read/write Double.
+description: "TextFrame में निचला मार्जिन (पॉइंट्स) लौटाता है या सेट करता है। इस प्रॉपर्टी को बदलने से केवल इन चार्ट भागों पर ही कुछ प्रभाव पड़ सकता है: DataLabel और DataLabelFormat (PowerPoint 2013 में पूर्ण समर्थन; PowerPoint 2007 में रेंडरिंग के लिए कोई प्रभाव नहीं)。 Read/write Double."
 type: docs
 weight: 40
 url: /hi/aspose.slides.charts/icharttextblockformat/marginbottom/

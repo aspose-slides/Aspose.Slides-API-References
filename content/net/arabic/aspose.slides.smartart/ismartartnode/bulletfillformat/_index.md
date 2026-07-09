@@ -1,7 +1,7 @@
 ---
 title: BulletFillFormat
 second_title: Aspose.Sildes لنظام .NET - مرجع API
-description: يرجع كائن FillFormat الذي يحتوي على خصائص تنسيق التعبئة لنقطة الرصاص في العقدة. ملاحظة: قد يُعيد null لبعض أنواع تخطيط SmartArt التي لا توفر نقاط رصاص للعقد. للقراءة فقط IFillFormataspose.slides/ifillformat.
+description: "يرجع كائن FillFormat الذي يحتوي على خصائص تنسيق التعبئة لنقطة الرصاص في العقدة. ملاحظة: قد يُعيد null لبعض أنواع تخطيط SmartArt التي لا توفر نقاط رصاص للعقد. للقراءة فقط IFillFormataspose.slides/ifillformat."
 type: docs
 weight: 10
 url: /ar/aspose.slides.smartart/ismartartnode/bulletfillformat/

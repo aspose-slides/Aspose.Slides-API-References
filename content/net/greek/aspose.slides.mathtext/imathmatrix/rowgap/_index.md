@@ -1,7 +1,7 @@
 ---
 title: RowGap
 second_title: Aspose.Sildes για .NET API Reference
-description: Η τιμή της κάθετης απόστασης μεταξύ των γραμμών ενός πίνακα. Εάν το RowGapRule οριστεί σε 3 (Exactly), τότε η μονάδα ερμηνεύεται ως twips (1/20 του σημείου). Εάν το RowGapRule οριστεί σε 4 (Multiple), τότε η μονάδα ερμηνεύεται ως μισές γραμμές. Προεπιλογή: 0
+description: "Η τιμή της κάθετης απόστασης μεταξύ των γραμμών ενός πίνακα. Εάν το RowGapRule οριστεί σε 3 (Exactly), τότε η μονάδα ερμηνεύεται ως twips (1/20 του σημείου). Εάν το RowGapRule οριστεί σε 4 (Multiple), τότε η μονάδα ερμηνεύεται ως μισές γραμμές. Προεπιλογή: 0"
 type: docs
 weight: 100
 url: /el/aspose.slides.mathtext/imathmatrix/rowgap/

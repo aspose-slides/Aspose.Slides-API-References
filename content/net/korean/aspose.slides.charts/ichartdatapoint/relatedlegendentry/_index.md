@@ -1,7 +1,7 @@
 ---
 title: RelatedLegendEntry
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 이 목록에 있는 차트 유형에 대한 해당 범례 항목의 속성: ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie. 읽기 전용 ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
+description: "이 목록에 있는 차트 유형에 대한 해당 범례 항목의 속성: ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie. 읽기 전용 ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties."
 type: docs
 weight: 130
 url: /ko/aspose.slides.charts/ichartdatapoint/relatedlegendentry/

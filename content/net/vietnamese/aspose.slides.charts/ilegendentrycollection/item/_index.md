@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Lấy các thuộc tính của mục chú giải tương ứng với Chart.ChartData.Series0.DataPointsindex trong trường hợp loại biểu đồ nằm trong danh sách này: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; hoặc tương ứng với Chart.ChartData.Seriesindex đối với các loại biểu đồ khác.
+description: "Lấy các thuộc tính của mục chú giải tương ứng với Chart.ChartData.Series0.DataPointsindex trong trường hợp loại biểu đồ nằm trong danh sách này: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; hoặc tương ứng với Chart.ChartData.Seriesindex đối với các loại biểu đồ khác."
 type: docs
 weight: 20
 url: /vi/aspose.slides.charts/ilegendentrycollection/item/

@@ -1,7 +1,7 @@
 ---
 title: Character
 second_title: Aspose.Sildes for .NET API Referansı
-description: Vurgu Karakteri Değer, U0300U036F veya U20D0U20EF aralığında olmalıdır. Varsayılan değer: Birleştirici Çatı İşareti U0302
+description: "Vurgu Karakteri Değer, U0300U036F veya U20D0U20EF aralığında olmalıdır. Varsayılan değer: Birleştirici Çatı İşareti U0302"
 type: docs
 weight: 30
 url: /tr/aspose.slides.mathtext/imathaccent/character/

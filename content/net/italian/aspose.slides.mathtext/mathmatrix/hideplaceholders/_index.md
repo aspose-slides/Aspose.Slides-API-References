@@ -1,7 +1,7 @@
 ---
 title: HidePlaceholders
 second_title: Aspose.Sildes per .NET Riferimento API
-description: Nascondi i segnaposto per gli elementi vuoti della matrice. Predefinito: false
+description: "Nascondi i segnaposto per gli elementi vuoti della matrice. Predefinito: false"
 type: docs
 weight: 60
 url: /it/aspose.slides.mathtext/mathmatrix/hideplaceholders/

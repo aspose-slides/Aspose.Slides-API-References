@@ -1,7 +1,7 @@
 ---
 title: Preserve
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Καθορίζει εάν ο αντίστοιχος master διαγράφεται όταν όλες οι διαφάνειες που ακολουθούν αυτόν τον master διαγράφονται. Σημείωση: το Aspose.Slides δεν θα αφαιρέσει ποτέ κάποιο μη χρησιμοποιημένο master από μόνο του για να αφαιρέσετε πραγματικά τα μη χρησιμοποιημένα master, καλέστε RemoveUnusedaspose.slides/imasterslidecollection/removeunused Read/write Boolean.
+description: "Καθορίζει εάν ο αντίστοιχος master διαγράφεται όταν όλες οι διαφάνειες που ακολουθούν αυτόν τον master διαγράφονται. Σημείωση: το Aspose.Slides δεν θα αφαιρέσει ποτέ κάποιο μη χρησιμοποιημένο master από μόνο του για να αφαιρέσετε πραγματικά τα μη χρησιμοποιημένα master, καλέστε RemoveUnusedaspose.slides/imasterslidecollection/removeunused Read/write Boolean."
 type: docs
 weight: 90
 url: /el/aspose.slides/imasterslide/preserve/

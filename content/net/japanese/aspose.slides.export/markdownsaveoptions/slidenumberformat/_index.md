@@ -1,7 +1,7 @@
 ---
 title: SlideNumberFormat
 second_title: Aspose.Sildes for .NET API リファレンス
-description: Markdown 出力で使用されるスライド番号ヘッダーの書式文字列を取得または設定します。書式にはスライドインデックスに置き換えられる 0 プレースホルダーを含める必要があります。例: Slide 0 は Slide 1、Slide 2 などを生成します。
+description: "Markdown 出力で使用されるスライド番号ヘッダーの書式文字列を取得または設定します。書式にはスライドインデックスに置き換えられる 0 プレースホルダーを含める必要があります。例: Slide 0 は Slide 1、Slide 2 などを生成します。"
 type: docs
 weight: 120
 url: /ja/aspose.slides.export/markdownsaveoptions/slidenumberformat/

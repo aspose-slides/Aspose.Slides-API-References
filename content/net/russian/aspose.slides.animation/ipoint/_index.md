@@ -1,6 +1,6 @@
 ---
 title: IPoint
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Представляет точку анимации.
 type: docs
 weight: 540

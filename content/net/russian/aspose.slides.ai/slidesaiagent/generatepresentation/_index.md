@@ -1,6 +1,6 @@
 ---
 title: GeneratePresentation
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Создаёт экземпляр презентации из текстового описания. Укажите тему, идеи, цитаты или фрагменты текста на требуемом языке.
 type: docs
 weight: 20

@@ -1,7 +1,7 @@
 ---
 title: DoubleChartValue
 second_title: Aspose.Sildes for .NET API リファレンス
-description: pptx プレゼンテーション ドキュメントに保存できる double 値を 2 つの方法で表します: 1) チャートに関連するワークブックのセル/セル群に、2) リテラル値として。
+description: "pptx プレゼンテーション ドキュメントに保存できる double 値を 2 つの方法で表します: 1) チャートに関連するワークブックのセル/セル群に、2) リテラル値として。"
 type: docs
 weight: 1630
 url: /ja/aspose.slides.charts/doublechartvalue/

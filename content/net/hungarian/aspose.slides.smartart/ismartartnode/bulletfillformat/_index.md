@@ -1,7 +1,7 @@
 ---
 title: BulletFillFormat
 second_title: Aspose.Sildes .NET API referencia
-description: Visszaadja a FillFormat objektumot, amely a csomópont jelölőjének kitöltési formázási tulajdonságait tartalmazza. Megjegyzés: bizonyos típusú SmartArt elrendezések esetén, amelyek nem biztosítanak jelölőket a csomópontokhoz, null értéket adhat vissza. Csak olvasható IFillFormataspose.slides/ifillformat.
+description: "Visszaadja a FillFormat objektumot, amely a csomópont jelölőjének kitöltési formázási tulajdonságait tartalmazza. Megjegyzés: bizonyos típusú SmartArt elrendezések esetén, amelyek nem biztosítanak jelölőket a csomópontokhoz, null értéket adhat vissza. Csak olvasható IFillFormataspose.slides/ifillformat."
 type: docs
 weight: 10
 url: /hu/aspose.slides.smartart/ismartartnode/bulletfillformat/

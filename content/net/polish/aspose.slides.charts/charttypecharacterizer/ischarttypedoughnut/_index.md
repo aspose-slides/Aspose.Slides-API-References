@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeDoughnut
 second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Zwraca true, jeśli chartType jest jednym z podtypów Doughnut. Zestaw podtypów odpowiada odpowiedniemu zestawowi w programie PowerPoint (zobacz dialog „Change Chart Type” w PowerPoint): Doughnut ExplodedDoughnut.
+description: "Zwraca true, jeśli chartType jest jednym z podtypów Doughnut. Zestaw podtypów odpowiada odpowiedniemu zestawowi w programie PowerPoint (zobacz dialog „Change Chart Type” w PowerPoint): Doughnut ExplodedDoughnut."
 type: docs
 weight: 90
 url: /pl/aspose.slides.charts/charttypecharacterizer/ischarttypedoughnut/

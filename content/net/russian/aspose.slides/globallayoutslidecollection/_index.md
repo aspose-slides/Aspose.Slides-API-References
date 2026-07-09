@@ -1,6 +1,6 @@
 ---
 title: GlobalLayoutSlideCollection
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Представляет коллекцию всех слайдов-макетов в презентации. Расширяет класс LayoutSlideCollection методами добавления/клонирования слайдов-макетов в контексте объединения отдельных коллекций макетов мастера.
 type: docs
 weight: 4980

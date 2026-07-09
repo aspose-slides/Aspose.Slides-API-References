@@ -1,7 +1,7 @@
 ---
 title: Position
 second_title: Aspose.Sildes .NET API referencia
-description: A csoportosító karakter helye. Alapértelmezett: Alsó
+description: "A csoportosító karakter helye. Alapértelmezett: Alsó"
 type: docs
 weight: 40
 url: /hu/aspose.slides.mathtext/imathgroupingcharacter/position/

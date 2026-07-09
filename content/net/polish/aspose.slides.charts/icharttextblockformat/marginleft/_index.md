@@ -1,7 +1,7 @@
 ---
 title: MarginLeft
 second_title: Referencja API Aspose.Sildes dla .NET
-description: Zwraca lub ustawia lewy margines w punktach w TextFrame. Zmiana tej właściwości może mieć wpływ tylko na następujące elementy wykresu: DataLabel i DataLabelFormat; pełne wsparcie w PowerPoint 2013, w PowerPoint 2007 nie ma efektu na renderowanie. Odczyt/zapis Double.
+description: "Zwraca lub ustawia lewy margines w punktach w TextFrame. Zmiana tej właściwości może mieć wpływ tylko na następujące elementy wykresu: DataLabel i DataLabelFormat; pełne wsparcie w PowerPoint 2013, w PowerPoint 2007 nie ma efektu na renderowanie. Odczyt/zapis Double."
 type: docs
 weight: 50
 url: /pl/aspose.slides.charts/icharttextblockformat/marginleft/

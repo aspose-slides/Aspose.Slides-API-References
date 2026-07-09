@@ -1,7 +1,7 @@
 ---
 title: BaseJustification
 second_title: Aspose.Sildes dla .NET API Reference
-description: Określa wyrównanie tablicy względem otaczającego tekstu. Tekst znajdujący się poza tablicą może być wyrównany do dołu, góry lub środka obiektu tablicy. Domyślna wartość: Center
+description: "Określa wyrównanie tablicy względem otaczającego tekstu. Tekst znajdujący się poza tablicą może być wyrównany do dołu, góry lub środka obiektu tablicy. Domyślna wartość: Center"
 type: docs
 weight: 30
 url: /pl/aspose.slides.mathtext/imatharray/basejustification/

@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeScatter
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: chartType이 Scatter 하위 유형 중 하나인 경우 true를 반환합니다. 하위 유형 집합은 PowerPoint에서 해당 집합에 대응합니다. PowerPoint의 Change Chart Type 대화 상자를 참조하십시오: ScatterWithMarkers ScatterWithSmoothLines ScatterWithSmoothLinesAndMarkers ScatterWithStraightLines ScatterWithStraightLinesAndMarkers.
+description: "chartType이 Scatter 하위 유형 중 하나인 경우 true를 반환합니다. 하위 유형 집합은 PowerPoint에서 해당 집합에 대응합니다. PowerPoint의 Change Chart Type 대화 상자를 참조하십시오: ScatterWithMarkers ScatterWithSmoothLines ScatterWithSmoothLinesAndMarkers ScatterWithStraightLines ScatterWithStraightLinesAndMarkers."
 type: docs
 weight: 130
 url: /ko/aspose.slides.charts/charttypecharacterizer/ischarttypescatter/

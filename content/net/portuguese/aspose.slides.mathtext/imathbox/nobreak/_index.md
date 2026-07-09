@@ -1,7 +1,7 @@
 ---
 title: NoBreak
 second_title: Aspose.Sildes para .NET Referência de API
-description: Sem quebra. Esta propriedade especifica a propriedade 'unbreakable' na caixa de objeto. Quando verdadeiro, não podem ocorrer quebras de linha dentro da caixa. Isso pode ser importante para emuladores de operador que consistem em mais de um operador binário. Quando este elemento não é especificado, podem ocorrer quebras dentro da caixa. Padrão: true
+description: "Sem quebra. Esta propriedade especifica a propriedade 'unbreakable' na caixa de objeto. Quando verdadeiro, não podem ocorrer quebras de linha dentro da caixa. Isso pode ser importante para emuladores de operador que consistem em mais de um operador binário. Quando este elemento não é especificado, podem ocorrer quebras dentro da caixa. Padrão: true"
 type: docs
 weight: 60
 url: /pt/aspose.slides.mathtext/imathbox/nobreak/

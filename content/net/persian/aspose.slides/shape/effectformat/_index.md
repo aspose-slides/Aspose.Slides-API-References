@@ -1,7 +1,7 @@
 ---
 title: EffectFormat
 second_title: Aspose.Sildes برای .NET مرجع API
-description: EffectFormat شیئی را برمی‌گرداند که شامل افکت‌های پیکسل اعمال‌شده به یک شکل است. توجه: می‌تواند برای برخی انواع شکل‌ها که ویژگی اثر ندارند، مقدار null برگرداند. فقط‌خواندنی IEffectFormataspose.slides/ieffectformat.
+description: "EffectFormat شیئی را برمی‌گرداند که شامل افکت‌های پیکسل اعمال‌شده به یک شکل است. توجه: می‌تواند برای برخی انواع شکل‌ها که ویژگی اثر ندارند، مقدار null برگرداند. فقط‌خواندنی IEffectFormataspose.slides/ieffectformat."
 type: docs
 weight: 60
 url: /fa/aspose.slides/shape/effectformat/

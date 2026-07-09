@@ -1,7 +1,7 @@
 ---
 title: IStringChartValue
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: يمثل قيمة نصية يمكن تخزينها في مستند عرض تقديمي بصيغة pptx بطريقتين: 1) في خلية/خلايا المصنف المرتبطة بالمخطط 2) كقيمة حرفية.
+description: "يمثل قيمة نصية يمكن تخزينها في مستند عرض تقديمي بصيغة pptx بطريقتين: 1) في خلية/خلايا المصنف المرتبطة بالمخطط 2) كقيمة حرفية."
 type: docs
 weight: 2220
 url: /ar/aspose.slides.charts/istringchartvalue/

@@ -1,7 +1,7 @@
 ---
 title: IMathElement
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Interfaz base de cualquier elemento matemático: fracción, texto matemático, función, expresión con múltiples elementos, etc
+description: "Interfaz base de cualquier elemento matemático: fracción, texto matemático, función, expresión con múltiples elementos, etc"
 type: docs
 weight: 8230
 url: /es/aspose.slides.mathtext/imathelement/

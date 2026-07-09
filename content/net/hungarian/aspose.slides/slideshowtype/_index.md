@@ -1,7 +1,7 @@
 ---
 title: SlideShowType
 second_title: Aspose.Sildes a .NET API hivatkozásához
-description: Alapvető diavetítés beállítások. Az ősök a diavetítés típusait képviselik: PresentedBySpeaker./presentedbyspeaker Előadó által bemutatva teljes képernyőn BrowsedByIndividual./browsedbyindividual Egyénileg böngészve ablakban BrowsedAtKiosk./browsedatkiosk Kioszkban böngészve teljes képernyőn
+description: "Alapvető diavetítés beállítások. Az ősök a diavetítés típusait képviselik: PresentedBySpeaker./presentedbyspeaker Előadó által bemutatva teljes képernyőn BrowsedByIndividual./browsedbyindividual Egyénileg böngészve ablakban BrowsedAtKiosk./browsedatkiosk Kioszkban böngészve teljes képernyőn"
 type: docs
 weight: 10490
 url: /hu/aspose.slides/slideshowtype/

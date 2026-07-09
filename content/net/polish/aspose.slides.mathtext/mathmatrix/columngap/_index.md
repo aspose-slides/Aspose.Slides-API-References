@@ -1,7 +1,7 @@
 ---
 title: ColumnGap
 second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Wartość poziomego odstępu między kolumnami macierzy. Jeśli ColumnGapRule ma wartość 3 (Exactly), jednostka jest interpretowana jako twipy (1/20 punktu). Jeśli ColumnGapRule ma wartość 4 (Multiple), jednostka jest interpretowana jako liczba przyrostów 0,5 em. W innych przypadkach ignorowane. Domyślne: 0
+description: "Wartość poziomego odstępu między kolumnami macierzy. Jeśli ColumnGapRule ma wartość 3 (Exactly), jednostka jest interpretowana jako twipy (1/20 punktu). Jeśli ColumnGapRule ma wartość 4 (Multiple), jednostka jest interpretowana jako liczba przyrostów 0,5 em. W innych przypadkach ignorowane. Domyślne: 0"
 type: docs
 weight: 40
 url: /pl/aspose.slides.mathtext/mathmatrix/columngap/

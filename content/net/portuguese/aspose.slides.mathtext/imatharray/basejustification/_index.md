@@ -1,7 +1,7 @@
 ---
 title: BaseJustification
 second_title: Aspose.Sildes para .NET - Referência da API
-description: Especifica o alinhamento da matriz em relação ao texto circundante. Texto fora da matriz pode ser alinhado com a parte inferior, superior ou central de um objeto matriz. Valor padrão: Center
+description: "Especifica o alinhamento da matriz em relação ao texto circundante. Texto fora da matriz pode ser alinhado com a parte inferior, superior ou central de um objeto matriz. Valor padrão: Center"
 type: docs
 weight: 30
 url: /pt/aspose.slides.mathtext/imatharray/basejustification/

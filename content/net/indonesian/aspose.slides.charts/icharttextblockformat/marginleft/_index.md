@@ -1,7 +1,7 @@
 ---
 title: MarginLeft
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mengembalikan atau mengatur poin margin kiri dalam TextFrame. Perubahan properti ini dapat memberikan pengaruh tertentu hanya untuk bagian chart berikut: DataLabel dan DataLabelFormat. Dukungan penuh di PowerPoint 2013; di PowerPoint 2007 tidak ada efek pada rendering. Baca/tulis Double.
+description: "Mengembalikan atau mengatur poin margin kiri dalam TextFrame. Perubahan properti ini dapat memberikan pengaruh tertentu hanya untuk bagian chart berikut: DataLabel dan DataLabelFormat. Dukungan penuh di PowerPoint 2013; di PowerPoint 2007 tidak ada efek pada rendering. Baca/tulis Double."
 type: docs
 weight: 50
 url: /id/aspose.slides.charts/icharttextblockformat/marginleft/

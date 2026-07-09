@@ -1,7 +1,7 @@
 ---
 title: INormalViewRestoredProperties
 second_title: Aspose.Sildes для .NET Справочник API
-description: Определяет размеры области слайда: ширина, когда дочерний элемент restoredTop, высота, когда дочерний элемент restoredLeft, в обычном представлении, когда область имеет переменный восстановленный размер (не минимизирована и не развернута).
+description: "Определяет размеры области слайда: ширина, когда дочерний элемент restoredTop, высота, когда дочерний элемент restoredLeft, в обычном представлении, когда область имеет переменный восстановленный размер (не минимизирована и не развернута)."
 type: docs
 weight: 6480
 url: /ru/aspose.slides/inormalviewrestoredproperties/

@@ -1,7 +1,7 @@
 ---
 title: LineFormat
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Retourneert het LineFormat-object dat de lijnopmaak-eigenschappen voor een vorm bevat. Opmerking: kan null retourneren voor bepaalde vormen die geen lijn-eigenschappen hebben. Alleen-lezen ILineFormataspose.slides/ilineformat.
+description: "Retourneert het LineFormat-object dat de lijnopmaak-eigenschappen voor een vorm bevat. Opmerking: kan null retourneren voor bepaalde vormen die geen lijn-eigenschappen hebben. Alleen-lezen ILineFormataspose.slides/ilineformat."
 type: docs
 weight: 170
 url: /nl/aspose.slides/shape/lineformat/

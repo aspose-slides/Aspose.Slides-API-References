@@ -1,7 +1,7 @@
 ---
 title: NormalViewProperties
 second_title: Aspose.Sildes .NET API Referencia
-description: A normál nézet tulajdonságait reprezentálja. A normál nézet három tartalmi területből áll: magából a diából, egy oldalsó tartalmi területből és egy alsó tartalmi területből. Csak olvasható INormalViewPropertiesaspose.slides/inormalviewproperties.
+description: "A normál nézet tulajdonságait reprezentálja. A normál nézet három tartalmi területből áll: magából a diából, egy oldalsó tartalmi területből és egy alsó tartalmi területből. Csak olvasható INormalViewPropertiesaspose.slides/inormalviewproperties."
 type: docs
 weight: 30
 url: /hu/aspose.slides/iviewproperties/normalviewproperties/

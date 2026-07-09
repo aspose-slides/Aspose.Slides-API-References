@@ -1,7 +1,7 @@
 ---
 title: NoBreak
 second_title: Aspose.Sildes pro .NET – referenční dokumentace API
-description: Bez přerušení. Tato vlastnost určuje vlastnost unbreakable na objektovém boxu. Když je true, v rámci boxu nemohou nastat žádné zalomení řádků. To může být důležité pro emulátory operátorů, které se skládají z více než jednoho binárního operátoru. Když není tento prvek specifikován, mohou se v boxu objevit přerušení. Výchozí hodnota: true
+description: "Bez přerušení. Tato vlastnost určuje vlastnost unbreakable na objektovém boxu. Když je true, v rámci boxu nemohou nastat žádné zalomení řádků. To může být důležité pro emulátory operátorů, které se skládají z více než jednoho binárního operátoru. Když není tento prvek specifikován, mohou se v boxu objevit přerušení. Výchozí hodnota: true"
 type: docs
 weight: 60
 url: /cs/aspose.slides.mathtext/imathbox/nobreak/

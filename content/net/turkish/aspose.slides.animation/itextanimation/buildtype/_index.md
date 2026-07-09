@@ -1,7 +1,7 @@
 ---
 title: BuildType
 second_title: Aspose.Sildes için .NET API Referansı
-description: Metin animasyonunun oluşturma türlerinin listesi (örnek: Paragraph 123 Hepsi Birden). Okunup/Yazılabilir BuildTypeaspose.slides.animation/itextanimation/buildtype.
+description: "Metin animasyonunun oluşturma türlerinin listesi (örnek: Paragraph 123 Hepsi Birden). Okunup/Yazılabilir BuildTypeaspose.slides.animation/itextanimation/buildtype."
 type: docs
 weight: 10
 url: /tr/aspose.slides.animation/itextanimation/buildtype/

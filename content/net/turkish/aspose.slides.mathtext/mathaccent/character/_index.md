@@ -1,7 +1,7 @@
 ---
 title: Character
 second_title: Aspose.Sildes için .NET API Referansı
-description: Aksan Karakteri Değer, aralık U0300U036F veya U20D0U20EF içinde olmalıdır. Varsayılan değer: Combining Circumflex Accent U0302
+description: "Aksan Karakteri Değer, aralık U0300U036F veya U20D0U20EF içinde olmalıdır. Varsayılan değer: Combining Circumflex Accent U0302"
 type: docs
 weight: 30
 url: /tr/aspose.slides.mathtext/mathaccent/character/

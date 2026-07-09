@@ -1,7 +1,7 @@
 ---
 title: Overlap
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Specificeert hoeveel balken en kolommen elkaar overlappen op 2-D-grafieken als een percentage van -100 tot 100. - -100 Maximale afstand: balken zijn volledig gescheiden. - 0 Balken staan naast elkaar zonder overlap of afstand. - 100 Maximale overlap: balken overlappen volledig elkaar. Deze eigenschap is lezen/schrijven SByte.
+description: "Specificeert hoeveel balken en kolommen elkaar overlappen op 2-D-grafieken als een percentage van -100 tot 100. - -100 Maximale afstand: balken zijn volledig gescheiden. - 0 Balken staan naast elkaar zonder overlap of afstand. - 100 Maximale overlap: balken overlappen volledig elkaar. Deze eigenschap is lezen/schrijven SByte."
 type: docs
 weight: 120
 url: /nl/aspose.slides.charts/ichartseriesgroup/overlap/

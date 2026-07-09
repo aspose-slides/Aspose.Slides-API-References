@@ -1,6 +1,6 @@
 ---
 title: CommentsPositions
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Представляет правило отображения комментариев в экспортируемом документе
 type: docs
 weight: 3730

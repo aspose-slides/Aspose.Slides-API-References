@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeScatter
 second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Trả về true nếu chartType là một trong các kiểu phụ Scatter. Tập các kiểu phụ này tương ứng với tập phù hợp trong PowerPoint (xem hộp thoại Change Chart Type trong PowerPoint): ScatterWithMarkers ScatterWithSmoothLines ScatterWithSmoothLinesAndMarkers ScatterWithStraightLines ScatterWithStraightLinesAndMarkers.
+description: "Trả về true nếu chartType là một trong các kiểu phụ Scatter. Tập các kiểu phụ này tương ứng với tập phù hợp trong PowerPoint (xem hộp thoại Change Chart Type trong PowerPoint): ScatterWithMarkers ScatterWithSmoothLines ScatterWithSmoothLinesAndMarkers ScatterWithStraightLines ScatterWithStraightLinesAndMarkers."
 type: docs
 weight: 130
 url: /vi/aspose.slides.charts/charttypecharacterizer/ischarttypescatter/

@@ -1,7 +1,7 @@
 ---
 title: IsLocationAutocalculated
 second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Określa, jak ma być obliczana lokalizacja: true – obliczana automatycznie; określana przez właściwości X, Y, Width, Height. Tylko do odczytu Boolean.
+description: "Określa, jak ma być obliczana lokalizacja: true – obliczana automatycznie; określana przez właściwości X, Y, Width, Height. Tylko do odczytu Boolean."
 type: docs
 weight: 90
 url: /pl/aspose.slides.charts/chartplotarea/islocationautocalculated/

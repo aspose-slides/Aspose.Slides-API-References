@@ -1,7 +1,7 @@
 ---
 title: ExplicitBreak
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Explicit break menentukan apakah ada pemutusan baris di awal objek Box sehingga baris melipat di awal objek box. Menentukan nomor operator pada baris sebelumnya dari teks matematika yang akan digunakan sebagai titik perataan untuk baris teks matematika saat ini. Nilai yang mungkin: 1..255 Default: 0 (tidak ada explicit break)
+description: "Explicit break menentukan apakah ada pemutusan baris di awal objek Box sehingga baris melipat di awal objek box. Menentukan nomor operator pada baris sebelumnya dari teks matematika yang akan digunakan sebagai titik perataan untuk baris teks matematika saat ini. Nilai yang mungkin: 1..255 Default: 0 (tidak ada explicit break)"
 type: docs
 weight: 50
 url: /id/aspose.slides.mathtext/imathbox/explicitbreak/

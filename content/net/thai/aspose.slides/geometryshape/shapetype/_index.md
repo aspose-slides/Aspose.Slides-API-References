@@ -1,7 +1,7 @@
 ---
 title: ShapeType
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: คืนค่า หรือกำหนดประเภทพรีเซ็ตของรูปทรงเรขาคณิต. หมายเหตุ: เมื่อค่าถูกเปลี่ยน ค่าการปรับทั้งหมดจะรีเซ็ตเป็นค่าดีฟอลต์ของมัน. อ่าน/เขียน ShapeTypeaspose.slides/shapetype.
+description: "คืนค่า หรือกำหนดประเภทพรีเซ็ตของรูปทรงเรขาคณิต. หมายเหตุ: เมื่อค่าถูกเปลี่ยน ค่าการปรับทั้งหมดจะรีเซ็ตเป็นค่าดีฟอลต์ของมัน. อ่าน/เขียน ShapeTypeaspose.slides/shapetype."
 type: docs
 weight: 30
 url: /th/aspose.slides/geometryshape/shapetype/

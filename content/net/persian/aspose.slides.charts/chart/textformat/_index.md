@@ -1,7 +1,7 @@
 ---
 title: TextFormat
 second_title: مرجع API Aspose.Sildes برای .NET
-description: قالب متن نمودار را برمی‌گرداند. این ویژگی برای انواع زیر قابل اعمال نیست: Treemap Sunburst Waterfall Histogram FunnelBoxAndWhisker. فقط-خواندنی IChartTextFormataspose.slides.charts/icharttextformat.
+description: "قالب متن نمودار را برمی‌گرداند. این ویژگی برای انواع زیر قابل اعمال نیست: Treemap Sunburst Waterfall Histogram FunnelBoxAndWhisker. فقط-خواندنی IChartTextFormataspose.slides.charts/icharttextformat."
 type: docs
 weight: 210
 url: /fa/aspose.slides.charts/chart/textformat/

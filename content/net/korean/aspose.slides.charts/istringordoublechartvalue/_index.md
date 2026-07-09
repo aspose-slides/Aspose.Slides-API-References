@@ -1,7 +1,7 @@
 ---
 title: IStringOrDoubleChartValue
 second_title: Aspose.Sildes for .NET API 참조
-description: pptx 프레젠테이션 문서에 저장될 수 있는 문자열 또는 실수 값을 두 가지 방법으로 표현합니다: 1) 차트와 관련된 워크북의 셀/셀들에, 2) 리터럴 값으로.
+description: "pptx 프레젠테이션 문서에 저장될 수 있는 문자열 또는 실수 값을 두 가지 방법으로 표현합니다: 1) 차트와 관련된 워크북의 셀/셀들에, 2) 리터럴 값으로."
 type: docs
 weight: 2230
 url: /ko/aspose.slides.charts/istringordoublechartvalue/

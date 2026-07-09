@@ -1,7 +1,7 @@
 ---
 title: BaseJustification
 second_title: Aspose.Sildes için .NET API Referansı
-description: Dikey hizalamayı çevredeki metne göre belirtir. Olası değerler top, bottom ve center. Varsayılan: Center
+description: "Dikey hizalamayı çevredeki metne göre belirtir. Olası değerler top, bottom ve center. Varsayılan: Center"
 type: docs
 weight: 20
 url: /tr/aspose.slides.mathtext/mathmatrix/basejustification/

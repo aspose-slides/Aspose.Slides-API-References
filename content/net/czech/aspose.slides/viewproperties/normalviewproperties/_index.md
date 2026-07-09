@@ -1,7 +1,7 @@
 ---
 title: NormalViewProperties
 second_title: Aspose.Sildes pro .NET – reference API
-description: Představuje vlastnosti normálního zobrazení. Normální zobrazení se skládá ze tří oblastí obsahu: samotného snímku, boční oblasti obsahu a spodní oblasti obsahu. Pouze pro čtení INormalViewPropertiesaspose.slides/inormalviewproperties.
+description: "Představuje vlastnosti normálního zobrazení. Normální zobrazení se skládá ze tří oblastí obsahu: samotného snímku, boční oblasti obsahu a spodní oblasti obsahu. Pouze pro čtení INormalViewPropertiesaspose.slides/inormalviewproperties."
 type: docs
 weight: 30
 url: /cs/aspose.slides/viewproperties/normalviewproperties/

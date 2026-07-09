@@ -1,7 +1,7 @@
 ---
 title: LineFormat
 second_title: Aspose.Sildes for .NET API リファレンス
-description: シェイプの線書式設定プロパティを含む LineFormat オブジェクトを返します。注: GroupShape オブジェクトは線プロパティを持たないため、null を返します。読み取り専用 ILineFormataspose.slides/ilineformat.
+description: "シェイプの線書式設定プロパティを含む LineFormat オブジェクトを返します。注: GroupShape オブジェクトは線プロパティを持たないため、null を返します。読み取り専用 ILineFormataspose.slides/ilineformat."
 type: docs
 weight: 30
 url: /ja/aspose.slides/groupshape/lineformat/

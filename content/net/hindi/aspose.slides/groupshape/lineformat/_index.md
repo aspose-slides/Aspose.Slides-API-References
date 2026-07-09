@@ -1,7 +1,7 @@
 ---
 title: LineFormat
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक आकार के लिए लाइन फ़ॉर्मेटिंग प्रॉपर्टीज़ को समाहित करने वाले LineFormat ऑब्जेक्ट को लौटाता है। ध्यान दें: GroupShape ऑब्जेक्ट के लिए null लौटाता है क्योंकि उनके पास लाइन प्रॉपर्टी नहीं होती। केवल-पढ़ने-योग्य ILineFormataspose.slides/ilineformat.
+description: "एक आकार के लिए लाइन फ़ॉर्मेटिंग प्रॉपर्टीज़ को समाहित करने वाले LineFormat ऑब्जेक्ट को लौटाता है। ध्यान दें: GroupShape ऑब्जेक्ट के लिए null लौटाता है क्योंकि उनके पास लाइन प्रॉपर्टी नहीं होती। केवल-पढ़ने-योग्य ILineFormataspose.slides/ilineformat."
 type: docs
 weight: 30
 url: /hi/aspose.slides/groupshape/lineformat/

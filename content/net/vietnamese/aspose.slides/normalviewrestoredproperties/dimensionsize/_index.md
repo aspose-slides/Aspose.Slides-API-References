@@ -1,7 +1,7 @@
 ---
 title: DimensionSize
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Xác định kích thước của vùng slide: chiều rộng khi là con của RestoredTop và chiều cao khi là con của RestoredLeft. Đọc/ghi Single.
+description: "Xác định kích thước của vùng slide: chiều rộng khi là con của RestoredTop và chiều cao khi là con của RestoredLeft. Đọc/ghi Single."
 type: docs
 weight: 20
 url: /vi/aspose.slides/normalviewrestoredproperties/dimensionsize/

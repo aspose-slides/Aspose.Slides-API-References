@@ -1,7 +1,7 @@
 ---
 title: EffectFormat
 second_title: Aspose.Sildes dla .NET – Dokumentacja API
-description: Zwraca obiekt EffectFormat, który zawiera efekty pikselowe zastosowane do kształtu. Uwaga: może zwrócić null dla niektórych typów kształtów, które nie mają właściwości efektów. Tylko do odczytu IEffectFormataspose.slides/ieffectformat.
+description: "Zwraca obiekt EffectFormat, który zawiera efekty pikselowe zastosowane do kształtu. Uwaga: może zwrócić null dla niektórych typów kształtów, które nie mają właściwości efektów. Tylko do odczytu IEffectFormataspose.slides/ieffectformat."
 type: docs
 weight: 60
 url: /pl/aspose.slides/shape/effectformat/

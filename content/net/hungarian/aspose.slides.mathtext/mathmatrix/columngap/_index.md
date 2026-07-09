@@ -1,7 +1,7 @@
 ---
 title: ColumnGap
 second_title: Aspose.Sildes .NET API-referencia
-description: A mátrix oszlopai közötti vízszintes távolság értéke. Ha a ColumnGapRule értéke 3 (Exactly), akkor az egység twipként (a pont 1/20-a) értelmeződik. Ha a ColumnGapRule értéke 4 (Multiple), akkor az egység 0,5 em lépés számaként értelmeződik. Más esetekben figyelmen kívül marad. Alapérték: 0
+description: "A mátrix oszlopai közötti vízszintes távolság értéke. Ha a ColumnGapRule értéke 3 (Exactly), akkor az egység twipként (a pont 1/20-a) értelmeződik. Ha a ColumnGapRule értéke 4 (Multiple), akkor az egység 0,5 em lépés számaként értelmeződik. Más esetekben figyelmen kívül marad. Alapérték: 0"
 type: docs
 weight: 40
 url: /hu/aspose.slides.mathtext/mathmatrix/columngap/

@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeBubble
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: chartType이 Bubble 하위 유형 중 하나인 경우 true를 반환합니다. 하위 유형 집합은 PowerPoint의 해당 집합과 일치합니다. PowerPoint의 'Change Chart Type' 대화 상자를 참조하십시오: Bubble, BubbleWith3D.
+description: "chartType이 Bubble 하위 유형 중 하나인 경우 true를 반환합니다. 하위 유형 집합은 PowerPoint의 해당 집합과 일치합니다. PowerPoint의 'Change Chart Type' 대화 상자를 참조하십시오: Bubble, BubbleWith3D."
 type: docs
 weight: 70
 url: /ko/aspose.slides.charts/charttypecharacterizer/ischarttypebubble/

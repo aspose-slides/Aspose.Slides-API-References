@@ -1,7 +1,7 @@
 ---
 title: ShapeType
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: คืนค่า หรือกำหนดประเภทของ geometry preset type. หมายเหตุ: เมื่อค่าถูกเปลี่ยน ค่าการปรับทั้งหมดจะรีเซ็ตเป็นค่าเริ่มต้นของมัน. อ่าน/เขียน ShapeTypeaspose.slides/shapetype.
+description: "คืนค่า หรือกำหนดประเภทของ geometry preset type. หมายเหตุ: เมื่อค่าถูกเปลี่ยน ค่าการปรับทั้งหมดจะรีเซ็ตเป็นค่าเริ่มต้นของมัน. อ่าน/เขียน ShapeTypeaspose.slides/shapetype."
 type: docs
 weight: 10
 url: /th/aspose.slides.smartart/smartartshape/shapetype/

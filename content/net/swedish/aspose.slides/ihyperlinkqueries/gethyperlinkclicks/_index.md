@@ -1,7 +1,7 @@
 ---
 title: GetHyperlinkClicks
 second_title: Aspose.Slides för .NET API-referens
-description: Hämta alla IHyperlinkContainer delobjekt som innehåller icke null HyperlinkClick. Med det givna IHyperlinkContainer-objektet kan du hantera dess hyperlänk: läsa, uppdatera eller ta bort. Se IHyperlinkContainer-gränssnittet.
+description: "Hämta alla IHyperlinkContainer delobjekt som innehåller icke null HyperlinkClick. Med det givna IHyperlinkContainer-objektet kan du hantera dess hyperlänk: läsa, uppdatera eller ta bort. Se IHyperlinkContainer-gränssnittet."
 type: docs
 weight: 20
 url: /sv/aspose.slides/ihyperlinkqueries/gethyperlinkclicks/

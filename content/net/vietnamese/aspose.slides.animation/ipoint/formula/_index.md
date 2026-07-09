@@ -1,7 +1,7 @@
 ---
 title: Formula
 second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Công thức trong các giá trị thuộc tính from, to, by có thể được tạo thành từ các thành phần sau: Toán tử số học chuẩn + - * / ^ % (mod) Các hằng số pi e Toán tử điều kiện abs min max ? (if) Toán tử so sánh gt Toán tử lượng giác sin cos tan asin acos atan Logarit tự nhiên ln Tham chiếu thuộc tính host supported properties ví dụ ppt_xcos-2pi1--ppt_x-sin-2pi1-1-ppt_y1- String Đọc/ghi.
+description: "Công thức trong các giá trị thuộc tính from, to, by có thể được tạo thành từ các thành phần sau: Toán tử số học chuẩn + - * / ^ % (mod) Các hằng số pi e Toán tử điều kiện abs min max ? (if) Toán tử so sánh gt Toán tử lượng giác sin cos tan asin acos atan Logarit tự nhiên ln Tham chiếu thuộc tính host supported properties ví dụ ppt_xcos-2pi1--ppt_x-sin-2pi1-1-ppt_y1- String Đọc/ghi."
 type: docs
 weight: 10
 url: /vi/aspose.slides.animation/ipoint/formula/

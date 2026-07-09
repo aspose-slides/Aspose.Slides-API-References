@@ -1,7 +1,7 @@
 ---
 title: DateTime2
 second_title: Aspose.Sildes a .NET API Referenciához
-description: A második előre meghatározott formátumban lévő aktuális dátum és idő: Day Month DD YYYY angolul. Csak olvasható FieldTypeaspose.slides/fieldtype.
+description: "A második előre meghatározott formátumban lévő aktuális dátum és idő: Day Month DD YYYY angolul. Csak olvasható FieldTypeaspose.slides/fieldtype."
 type: docs
 weight: 80
 url: /hu/aspose.slides/fieldtype/datetime2/

@@ -1,7 +1,7 @@
 ---
 title: IsLocationAutocalculated
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: กำหนดวิธีการคำนวณตำแหน่ง: true – คำนวณโดยอัตโนมัติ; กำหนดโดยคุณสมบัติ X Y Width Height. อ่านอย่างเดียว Boolean.
+description: "กำหนดวิธีการคำนวณตำแหน่ง: true – คำนวณโดยอัตโนมัติ; กำหนดโดยคุณสมบัติ X Y Width Height. อ่านอย่างเดียว Boolean."
 type: docs
 weight: 90
 url: /th/aspose.slides.charts/chartplotarea/islocationautocalculated/

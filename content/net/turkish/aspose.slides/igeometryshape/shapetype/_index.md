@@ -1,7 +1,7 @@
 ---
 title: ShapeType
 second_title: Aspose.Sildes için .NET API Referansı
-description: Geometri ön ayar tipini alır veya ayarlar. Not: değer değiştiğinde tüm ayarlama değerleri varsayılan değerlerine sıfırlanır. Okunabilir/Yazılabilir ShapeTypeaspose.slides/shapetype.
+description: "Geometri ön ayar tipini alır veya ayarlar. Not: değer değiştiğinde tüm ayarlama değerleri varsayılan değerlerine sıfırlanır. Okunabilir/Yazılabilir ShapeTypeaspose.slides/shapetype."
 type: docs
 weight: 40
 url: /tr/aspose.slides/igeometryshape/shapetype/

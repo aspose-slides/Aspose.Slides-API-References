@@ -1,7 +1,7 @@
 ---
 title: ReturnToParent
 second_title: Aspose.Sildes .NET API hivatkozás
-description: A diavetítésben a navigáció viselkedését adja vissza vagy állítja be. Olvasás/írás Boolean. Alapértelmezett érték: false
+description: "A diavetítésben a navigáció viselkedését adja vissza vagy állítja be. Olvasás/írás Boolean. Alapértelmezett érték: false"
 type: docs
 weight: 30
 url: /hu/aspose.slides/izoomobject/returntoparent/

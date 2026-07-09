@@ -1,7 +1,7 @@
 ---
 title: IStringChartValue
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een tekenreekswaarde voor die op twee manieren in een pptx-presentatiedocument kan worden opgeslagen: 1) in cel/cellen van een werkmap die gekoppeld is aan een diagram; 2) als letterlijke waarde.
+description: "Stelt een tekenreekswaarde voor die op twee manieren in een pptx-presentatiedocument kan worden opgeslagen: 1) in cel/cellen van een werkmap die gekoppeld is aan een diagram; 2) als letterlijke waarde."
 type: docs
 weight: 2220
 url: /nl/aspose.slides.charts/istringchartvalue/

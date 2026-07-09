@@ -1,6 +1,6 @@
 ---
 title: SummaryZoomSectionCollection
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Представляет коллекцию объектов Summary Zoom Section.
 type: docs
 weight: 10790

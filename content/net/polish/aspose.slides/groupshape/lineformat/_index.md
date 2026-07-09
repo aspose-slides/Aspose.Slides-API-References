@@ -1,7 +1,7 @@
 ---
 title: LineFormat
 second_title: Aspose.Sildes dla .NET Referencja API
-description: Zwraca obiekt LineFormat, który zawiera właściwości formatowania linii dla kształtu. Uwaga: Zwraca null dla obiektów GroupShape, ponieważ nie mają one właściwości linii. Tylko do odczytu ILineFormataspose.slides/ilineformat.
+description: "Zwraca obiekt LineFormat, który zawiera właściwości formatowania linii dla kształtu. Uwaga: Zwraca null dla obiektów GroupShape, ponieważ nie mają one właściwości linii. Tylko do odczytu ILineFormataspose.slides/ilineformat."
 type: docs
 weight: 30
 url: /pl/aspose.slides/groupshape/lineformat/

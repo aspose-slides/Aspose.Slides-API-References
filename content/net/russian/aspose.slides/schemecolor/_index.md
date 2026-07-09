@@ -1,6 +1,6 @@
 ---
 title: SchemeColor
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Представляет цвета в цветовой схеме.
 type: docs
 weight: 9740

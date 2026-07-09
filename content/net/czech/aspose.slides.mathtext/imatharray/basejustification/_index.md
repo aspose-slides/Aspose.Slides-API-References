@@ -1,7 +1,7 @@
 ---
 title: BaseJustification
 second_title: Aspose.Sildes pro .NET API Reference
-description: Určuje zarovnání pole vzhledem k okolnímu textu. Text mimo pole může být zarovnán se spodkem, horní částí nebo středem pole. Výchozí hodnota: Center
+description: "Určuje zarovnání pole vzhledem k okolnímu textu. Text mimo pole může být zarovnán se spodkem, horní částí nebo středem pole. Výchozí hodnota: Center"
 type: docs
 weight: 30
 url: /cs/aspose.slides.mathtext/imatharray/basejustification/

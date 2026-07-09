@@ -1,7 +1,7 @@
 ---
 title: IsLocationAutocalculated
 second_title: Aspose.Sildes برای .NET API Reference
-description: نحوه محاسبه مکان را تعریف می‌کند: true – به‌صورت خودکار محاسبه می‌شود؛ توسط خصوصیات X, Y, Width, Height تعریف می‌شود. Boolean فقط‌خواندنی.
+description: "نحوه محاسبه مکان را تعریف می‌کند: true – به‌صورت خودکار محاسبه می‌شود؛ توسط خصوصیات X, Y, Width, Height تعریف می‌شود. Boolean فقط‌خواندنی."
 type: docs
 weight: 90
 url: /fa/aspose.slides.charts/chartplotarea/islocationautocalculated/

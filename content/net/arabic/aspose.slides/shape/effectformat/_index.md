@@ -1,7 +1,7 @@
 ---
 title: EffectFormat
 second_title: مرجع API Aspose.Sildes لـ .NET
-description: يرجع كائن EffectFormat الذي يحتوي على تأثيرات البكسل المطبقة على الشكل. ملاحظة: قد يُعيد null لأنواع معينة من الأشكال التي لا تملك خصائص تأثير. قراءة فقط IEffectFormataspose.slides/ieffectformat.
+description: "يرجع كائن EffectFormat الذي يحتوي على تأثيرات البكسل المطبقة على الشكل. ملاحظة: قد يُعيد null لأنواع معينة من الأشكال التي لا تملك خصائص تأثير. قراءة فقط IEffectFormataspose.slides/ieffectformat."
 type: docs
 weight: 60
 url: /ar/aspose.slides/shape/effectformat/

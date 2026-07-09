@@ -1,6 +1,6 @@
 ---
 title: StreamWrapperFactory
-second_title: Aspose.Sildes για .NET: Αναφορά API
+second_title: "Aspose.Sildes για .NET: Αναφορά API"
 description: Κατασκευαστής των StreamWrappers. Για διεπαφή COM.
 type: docs
 weight: 10760

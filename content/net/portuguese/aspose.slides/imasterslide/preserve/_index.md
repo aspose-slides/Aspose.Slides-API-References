@@ -1,7 +1,7 @@
 ---
 title: Preserve
 second_title: Aspose.Sildes para .NET Referência da API
-description: Determina se o mestre correspondente é excluído quando todos os slides que seguem esse mestre são excluídos. Observação: Aspose.Slides nunca removerá nenhum mestre não utilizado por conta própria; para realmente remover mestres não utilizados, chame RemoveUnusedaspose.slides/imasterslidecollection/removeunused Read/write Boolean.
+description: "Determina se o mestre correspondente é excluído quando todos os slides que seguem esse mestre são excluídos. Observação: Aspose.Slides nunca removerá nenhum mestre não utilizado por conta própria; para realmente remover mestres não utilizados, chame RemoveUnusedaspose.slides/imasterslidecollection/removeunused Read/write Boolean."
 type: docs
 weight: 90
 url: /pt/aspose.slides/imasterslide/preserve/

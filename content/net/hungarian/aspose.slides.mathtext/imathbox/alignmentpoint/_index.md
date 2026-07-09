@@ -1,7 +1,7 @@
 ---
 title: AlignmentPoint
 second_title: Aspose.Sildes .NET API referencia
-description: Ha true, ez az operátor emulátor igazítási pontként szolgál, amelyhez más egyenletekben megnevezett igazítási pontok igazíthatók. Alapértelmezett: false
+description: "Ha true, ez az operátor emulátor igazítási pontként szolgál, amelyhez más egyenletekben megnevezett igazítási pontok igazíthatók. Alapértelmezett: false"
 type: docs
 weight: 10
 url: /hu/aspose.slides.mathtext/imathbox/alignmentpoint/

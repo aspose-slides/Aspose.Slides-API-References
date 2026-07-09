@@ -1,7 +1,7 @@
 ---
 title: To
 second_title: Aspose.Sildes for .NET API 참조
-description: 애니메이션 효과 후에 효과의 특정 속성을 지정합니다. 포인트 값을 나타냅니다. 허용: bool ColorFormat float int string. Read/write Object.
+description: "애니메이션 효과 후에 효과의 특정 속성을 지정합니다. 포인트 값을 나타냅니다. 허용: bool ColorFormat float int string. Read/write Object."
 type: docs
 weight: 20
 url: /ko/aspose.slides.animation/iseteffect/to/

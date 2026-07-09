@@ -1,6 +1,6 @@
 ---
 title: BehaviorPropertyCollection
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Представляет свойства времени для поведения эффекта.
 type: docs
 weight: 200

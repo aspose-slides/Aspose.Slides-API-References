@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeDoughnut
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mengembalikan true jika chartType adalah salah satu subtipe Doughnut. Set subtipe sesuai dengan set yang tepat di PowerPoint lihat dialog "Change Chart Type" di PowerPoint: Doughnut, ExplodedDoughnut.
+description: "Mengembalikan true jika chartType adalah salah satu subtipe Doughnut. Set subtipe sesuai dengan set yang tepat di PowerPoint lihat dialog \"Change Chart Type\" di PowerPoint: Doughnut, ExplodedDoughnut."
 type: docs
 weight: 90
 url: /id/aspose.slides.charts/charttypecharacterizer/ischarttypedoughnut/

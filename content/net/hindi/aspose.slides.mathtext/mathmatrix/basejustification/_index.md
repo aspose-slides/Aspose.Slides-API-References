@@ -1,7 +1,7 @@
 ---
 title: BaseJustification
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: आसपास के पाठ के सापेक्ष ऊर्ध्वाधर संरेखण को निर्दिष्ट करता है। संभावित मान top, bottom और center हैं। डिफ़ॉल्ट: Center
+description: "आसपास के पाठ के सापेक्ष ऊर्ध्वाधर संरेखण को निर्दिष्ट करता है। संभावित मान top, bottom और center हैं। डिफ़ॉल्ट: Center"
 type: docs
 weight: 20
 url: /hi/aspose.slides.mathtext/mathmatrix/basejustification/

@@ -1,6 +1,6 @@
 ---
 title: ChartSeries
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Представляет ряд диаграммы.
 type: docs
 weight: 1440

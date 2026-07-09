@@ -1,7 +1,7 @@
 ---
 title: DoubleChartValue
 second_title: Aspose.Sildes pour .NET Référence API
-description: Représente une valeur double qui peut être stockée dans un document de présentation pptx de deux manières : 1) dans la/les cellule(s) du classeur lié au graphique ; 2) en tant que valeur littérale.
+description: "Représente une valeur double qui peut être stockée dans un document de présentation pptx de deux manières : 1) dans la/les cellule(s) du classeur lié au graphique ; 2) en tant que valeur littérale."
 type: docs
 weight: 1630
 url: /fr/aspose.slides.charts/doublechartvalue/

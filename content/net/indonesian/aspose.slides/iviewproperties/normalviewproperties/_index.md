@@ -1,7 +1,7 @@
 ---
 title: NormalViewProperties
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili properti tampilan normal. Tampilan normal terdiri dari tiga wilayah konten: slide itu sendiri, wilayah konten sisi, dan wilayah konten bawah. Hanya baca INormalViewPropertiesaspose.slides/inormalviewproperties.
+description: "Mewakili properti tampilan normal. Tampilan normal terdiri dari tiga wilayah konten: slide itu sendiri, wilayah konten sisi, dan wilayah konten bawah. Hanya baca INormalViewPropertiesaspose.slides/inormalviewproperties."
 type: docs
 weight: 30
 url: /id/aspose.slides/iviewproperties/normalviewproperties/

@@ -1,7 +1,7 @@
 ---
 title: StringOrDoubleChartValue
 second_title: Aspose.Sildes için .NET API Referansı
-description: pptx sunum belgesinde iki şekilde saklanabilen string veya double değeri temsil eder: 1) çizelgeyle ilişkili çalışma kitabının hücre/hücrelerinde, 2) literal değer olarak.
+description: "pptx sunum belgesinde iki şekilde saklanabilen string veya double değeri temsil eder: 1) çizelgeyle ilişkili çalışma kitabının hücre/hücrelerinde, 2) literal değer olarak."
 type: docs
 weight: 2420
 url: /tr/aspose.slides.charts/stringordoublechartvalue/

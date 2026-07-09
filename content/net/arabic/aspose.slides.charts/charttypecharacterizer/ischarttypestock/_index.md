@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeStock
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: إرجاع true إذا كان chartType واحدًا من الأنواع الفرعية Stock. مجموعة الأنواع الفرعية تتطابق مع المجموعة المناسبة في PowerPoint (انظر حوار "Change Chart Type" في PowerPoint): HighLowClose, OpenHighLowClose, VolumeHighLowClose, VolumeOpenHighLowClose.
+description: "إرجاع true إذا كان chartType واحدًا من الأنواع الفرعية Stock. مجموعة الأنواع الفرعية تتطابق مع المجموعة المناسبة في PowerPoint (انظر حوار \"Change Chart Type\" في PowerPoint): HighLowClose, OpenHighLowClose, VolumeHighLowClose, VolumeOpenHighLowClose."
 type: docs
 weight: 140
 url: /ar/aspose.slides.charts/charttypecharacterizer/ischarttypestock/

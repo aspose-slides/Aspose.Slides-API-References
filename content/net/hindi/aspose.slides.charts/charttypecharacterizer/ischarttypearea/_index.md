@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeArea
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: यदि chartType Area उपप्रकारों में से एक है तो true लौटाएँ। उपप्रकार सेट PowerPoint में उपयुक्त सेट के अनुरूप है; PowerPoint में Change Chart Type संवाद देखें: Area, PercentsStackedArea, PercentsStackedArea3D, StackedArea, StackedArea3D, Area3D.
+description: "यदि chartType Area उपप्रकारों में से एक है तो true लौटाएँ। उपप्रकार सेट PowerPoint में उपयुक्त सेट के अनुरूप है; PowerPoint में Change Chart Type संवाद देखें: Area, PercentsStackedArea, PercentsStackedArea3D, StackedArea, StackedArea3D, Area3D."
 type: docs
 weight: 50
 url: /hi/aspose.slides.charts/charttypecharacterizer/ischarttypearea/

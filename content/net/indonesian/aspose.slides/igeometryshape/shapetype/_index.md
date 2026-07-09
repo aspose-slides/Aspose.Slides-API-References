@@ -1,7 +1,7 @@
 ---
 title: ShapeType
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mengembalikan atau mengatur tipe preset geometri. Catatan: saat nilai berubah semua nilai penyesuaian akan direset ke nilai default mereka. Baca/tulis ShapeTypeaspose.slides/shapetype.
+description: "Mengembalikan atau mengatur tipe preset geometri. Catatan: saat nilai berubah semua nilai penyesuaian akan direset ke nilai default mereka. Baca/tulis ShapeTypeaspose.slides/shapetype."
 type: docs
 weight: 40
 url: /id/aspose.slides/igeometryshape/shapetype/

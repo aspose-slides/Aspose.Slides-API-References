@@ -1,7 +1,7 @@
 ---
 title: MarginRight
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: TextFrame में दाएँ मार्जिन पॉइंट्स को लौटाता या सेट करता है। इस प्रॉपर्टी में परिवर्तन केवल निम्न चार्ट भागों के लिए कुछ प्रभाव डाल सकता है: DataLabel और DataLabelFormat। PowerPoint 2013 में पूरी समर्थन; PowerPoint 2007 में रेंडरिंग पर कोई प्रभाव नहीं। पढ़ें/लिखें Double.
+description: "TextFrame में दाएँ मार्जिन पॉइंट्स को लौटाता या सेट करता है। इस प्रॉपर्टी में परिवर्तन केवल निम्न चार्ट भागों के लिए कुछ प्रभाव डाल सकता है: DataLabel और DataLabelFormat। PowerPoint 2013 में पूरी समर्थन; PowerPoint 2007 में रेंडरिंग पर कोई प्रभाव नहीं। पढ़ें/लिखें Double."
 type: docs
 weight: 60
 url: /hi/aspose.slides.charts/icharttextblockformat/marginright/

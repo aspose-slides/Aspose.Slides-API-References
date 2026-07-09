@@ -1,6 +1,6 @@
 ---
 title: IFillFormat
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Представляет параметры форматирования заливки.
 type: docs
 weight: 5790

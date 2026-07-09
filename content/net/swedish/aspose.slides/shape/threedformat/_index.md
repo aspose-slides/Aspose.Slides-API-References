@@ -1,7 +1,7 @@
 ---
 title: ThreeDFormat
 second_title: Aspose.Sildes för .NET API-referens
-description: Returnerar ThreeDFormat-objektet som innehåller 3D-effektegenskaper för en form. Obs: kan returnera null för vissa typer av former som inte har 3D-egenskaper. Skrivskyddad IThreeDFormataspose.slides/ithreedformat.
+description: "Returnerar ThreeDFormat-objektet som innehåller 3D-effektegenskaper för en form. Obs: kan returnera null för vissa typer av former som inte har 3D-egenskaper. Skrivskyddad IThreeDFormataspose.slides/ithreedformat."
 type: docs
 weight: 270
 url: /sv/aspose.slides/shape/threedformat/

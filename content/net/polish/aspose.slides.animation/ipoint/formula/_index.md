@@ -1,7 +1,7 @@
 ---
 title: Formula
 second_title: Aspose.Sildes dla .NET – Dokumentacja API
-description: Formuły w wartościach atrybutów from, to, by mogą składać się z następujących elementów: standardowe operatory arytmetyczne  -  /   mod; stałe pi e; operatory warunkowe abs min max if; operatory porównania gt; operatory trygonometryczne sin cos tan asin acos atan; logarytm naturalny ln; odwołania do właściwości obsługiwanych przez host, na przykład ppt_xcos-2pi1--ppt_x-sin-2pi1-1-ppt_y1-; String (odczyt/zapis).
+description: "Formuły w wartościach atrybutów from, to, by mogą składać się z następujących elementów: standardowe operatory arytmetyczne  -  /   mod; stałe pi e; operatory warunkowe abs min max if; operatory porównania gt; operatory trygonometryczne sin cos tan asin acos atan; logarytm naturalny ln; odwołania do właściwości obsługiwanych przez host, na przykład ppt_xcos-2pi1--ppt_x-sin-2pi1-1-ppt_y1-; String (odczyt/zapis)."
 type: docs
 weight: 10
 url: /pl/aspose.slides.animation/ipoint/formula/

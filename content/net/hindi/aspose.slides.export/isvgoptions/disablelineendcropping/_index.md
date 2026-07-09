@@ -1,7 +1,7 @@
 ---
 title: DisableLineEndCropping
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: SVG 1.1 में मार्करों के लिए इनसेट परिभाषित करने की क्षमता नहीं है। Aspose.Slides SVG लेखन इंजन ने इस समस्या के लिए एक समाधान प्रदान किया है: यह लाइन के अंत को तीर के साथ काट देता है जिससे लाइन मार्करों के ऊपर ओवरलैप नहीं होती। यह विकल्प ऐसे व्यवहार को बंद कर देता है। पढ़ें/लिखें Boolean.
+description: "SVG 1.1 में मार्करों के लिए इनसेट परिभाषित करने की क्षमता नहीं है। Aspose.Slides SVG लेखन इंजन ने इस समस्या के लिए एक समाधान प्रदान किया है: यह लाइन के अंत को तीर के साथ काट देता है जिससे लाइन मार्करों के ऊपर ओवरलैप नहीं होती। यह विकल्प ऐसे व्यवहार को बंद कर देता है। पढ़ें/लिखें Boolean."
 type: docs
 weight: 60
 url: /hi/aspose.slides.export/isvgoptions/disablelineendcropping/

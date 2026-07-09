@@ -1,7 +1,7 @@
 ---
 title: ShapeType
 second_title: Aspose.Sildes için .NET API Referansı
-description: Geometri ön ayar tipini döndürür veya ayarlar. Not: değer değiştirildiğinde tüm ayar değerleri varsayılan değerlerine sıfırlanacaktır. Okunur/yazılır ShapeTypeaspose.slides/shapetype.
+description: "Geometri ön ayar tipini döndürür veya ayarlar. Not: değer değiştirildiğinde tüm ayar değerleri varsayılan değerlerine sıfırlanacaktır. Okunur/yazılır ShapeTypeaspose.slides/shapetype."
 type: docs
 weight: 10
 url: /tr/aspose.slides.smartart/smartartshape/shapetype/

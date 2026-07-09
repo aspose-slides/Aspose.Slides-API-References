@@ -1,7 +1,7 @@
 ---
 title: ShowSearch
 second_title: Aspose.Sildes .NET API referencia
-description: A keresési szekció megjelenítése/elrejtése. Felülírható a flashvars-ban. Alapértelmezett érték: true.
+description: "A keresési szekció megjelenítése/elrejtése. Felülírható a flashvars-ban. Alapértelmezett érték: true."
 type: docs
 weight: 130
 url: /hu/aspose.slides.export/swfoptions/showsearch/

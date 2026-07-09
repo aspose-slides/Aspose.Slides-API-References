@@ -1,7 +1,7 @@
 ---
 title: IDoubleChartValue
 second_title: Aspose.Sildes cho .NET API Reference
-description: Biểu diễn giá trị double có thể được lưu trong tài liệu trình chiếu pptx theo hai cách: 1) trong ô/ô của bảng tính liên quan đến biểu đồ; 2) dưới dạng giá trị nguyên thô.
+description: "Biểu diễn giá trị double có thể được lưu trong tài liệu trình chiếu pptx theo hai cách: 1) trong ô/ô của bảng tính liên quan đến biểu đồ; 2) dưới dạng giá trị nguyên thô."
 type: docs
 weight: 2070
 url: /vi/aspose.slides.charts/idoublechartvalue/

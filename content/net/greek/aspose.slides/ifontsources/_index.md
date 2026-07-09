@@ -1,6 +1,6 @@
 ---
 title: IFontSources
-second_title: Aspose.Sildes για .NET: Αναφορά API
+second_title: "Aspose.Sildes για .NET: Αναφορά API"
 description: Παρέχει πηγές αρχείων και μνήμης για εξωτερικές γραμματοσειρές.
 type: docs
 weight: 5870

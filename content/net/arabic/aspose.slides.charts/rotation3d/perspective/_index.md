@@ -1,11 +1,7 @@
 ---
 title: Perspective
 second_title: مرجع API لـ Aspose.Sildes for .NET
-description: ير
-
-ا
-
-جع أو يضبط قيمة منظور (زاوية مجال الرؤية) للمخططات ثلاثية الأبعاد بين 0 و 240. يتم تجاهلها إذا كانت قيمة الخاصية RightAngleAxes هي true. قابل للقراءة/الكتابة Byte.
+description: يرجع أو يضبط قيمة منظور (زاوية مجال الرؤية) للمخططات ثلاثية الأبعاد بين 0 و 240. يتم تجاهلها إذا كانت قيمة الخاصية RightAngleAxes هي true. قابل للقراءة/الكتابة Byte.
 type: docs
 weight: 30
 url: /ar/aspose.slides.charts/rotation3d/perspective/

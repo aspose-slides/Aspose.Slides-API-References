@@ -1,7 +1,7 @@
 ---
 title: IsLocationAutocalculated
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Xác định cách vị trí sẽ được tính toán: true – tính toán tự động; được xác định bởi các thuộc tính X, Y, Width, Height. Chỉ đọc Boolean.
+description: "Xác định cách vị trí sẽ được tính toán: true – tính toán tự động; được xác định bởi các thuộc tính X, Y, Width, Height. Chỉ đọc Boolean."
 type: docs
 weight: 90
 url: /vi/aspose.slides.charts/chartplotarea/islocationautocalculated/

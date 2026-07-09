@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeBubble
 second_title: Aspose.Sildes .NET API referenciája
-description: True értéket ad vissza, ha a chartType a Bubble altípusok egyike. Az altípusok halmaza megfelel a PowerPoint megfelelő halmazának; lásd a PowerPoint Change Chart Type párbeszédablakát: Bubble, BubbleWith3D.
+description: "True értéket ad vissza, ha a chartType a Bubble altípusok egyike. Az altípusok halmaza megfelel a PowerPoint megfelelő halmazának; lásd a PowerPoint Change Chart Type párbeszédablakát: Bubble, BubbleWith3D."
 type: docs
 weight: 70
 url: /hu/aspose.slides.charts/charttypecharacterizer/ischarttypebubble/

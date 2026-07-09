@@ -1,7 +1,7 @@
 ---
 title: MarginRight
 second_title: Aspose.Sildes για .NET Αναφορά API
-description: Επιστρέφει ή ορίζει τα σημεία του δεξιού περιθωρίου σε ένα TextFrame. Η αλλαγή αυτής της ιδιότητας μπορεί να επηρεάσει μόνο τα παρακάτω μέρη του διαγράμματος: DataLabel και DataLabelFormat, πλήρης υποστήριξη στο PowerPoint 2013· στο PowerPoint 2007 δεν υπάρχει επίδραση στην απόδοση. Ανάγνωση/εγγραφή Double.
+description: "Επιστρέφει ή ορίζει τα σημεία του δεξιού περιθωρίου σε ένα TextFrame. Η αλλαγή αυτής της ιδιότητας μπορεί να επηρεάσει μόνο τα παρακάτω μέρη του διαγράμματος: DataLabel και DataLabelFormat, πλήρης υποστήριξη στο PowerPoint 2013· στο PowerPoint 2007 δεν υπάρχει επίδραση στην απόδοση. Ανάγνωση/εγγραφή Double."
 type: docs
 weight: 60
 url: /el/aspose.slides.charts/icharttextblockformat/marginright/

@@ -1,6 +1,6 @@
 ---
 title: TextAlignment
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Представляет различные стили выравнивания текста.
 type: docs
 weight: 10900

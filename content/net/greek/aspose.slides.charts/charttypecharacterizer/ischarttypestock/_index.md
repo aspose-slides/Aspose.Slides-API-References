@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeStock
 second_title: Aspose.Sildes για .NET Αναφορά API
-description: Επιστρέφει true εάν chartType είναι ένας από τους υποτύπους Stock. Το σύνολο υποτύπων αντιστοιχεί στο κατάλληλο σύνολο στο PowerPoint, δείτε το διάλογο Change Chart Type στο PowerPoint: HighLowClose OpenHighLowClose VolumeHighLowClose VolumeOpenHighLowClose.
+description: "Επιστρέφει true εάν chartType είναι ένας από τους υποτύπους Stock. Το σύνολο υποτύπων αντιστοιχεί στο κατάλληλο σύνολο στο PowerPoint, δείτε το διάλογο Change Chart Type στο PowerPoint: HighLowClose OpenHighLowClose VolumeHighLowClose VolumeOpenHighLowClose."
 type: docs
 weight: 140
 url: /el/aspose.slides.charts/charttypecharacterizer/ischarttypestock/

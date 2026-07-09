@@ -1,7 +1,7 @@
 ---
 title: BulletFillFormat
 second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: ส่งคืนอ็อบเจกต์ FillFormat ที่มีคุณสมบัติการจัดรูปแบบการเติมสำหรับจุดสีของโหนด. หมายเหตุ: สามารถคืนค่า null สำหรับประเภทบางอย่างของเลย์เอาต์ SmartArt ที่ไม่จัดเตรียมจุดสีสำหรับโหนด. อ่านอย่างเดียว IFillFormataspose.slides/ifillformat.
+description: "ส่งคืนอ็อบเจกต์ FillFormat ที่มีคุณสมบัติการจัดรูปแบบการเติมสำหรับจุดสีของโหนด. หมายเหตุ: สามารถคืนค่า null สำหรับประเภทบางอย่างของเลย์เอาต์ SmartArt ที่ไม่จัดเตรียมจุดสีสำหรับโหนด. อ่านอย่างเดียว IFillFormataspose.slides/ifillformat."
 type: docs
 weight: 10
 url: /th/aspose.slides.smartart/smartartnode/bulletfillformat/

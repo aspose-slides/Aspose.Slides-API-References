@@ -1,7 +1,7 @@
 ---
 title: BulletFillFormat
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ส่งกลับอ็อบเจ็กต์ FillFormat ที่มีคุณสมบัติการจัดรูปแบบการเติมสำหรับหัวข้อย่อยของโหนด. หมายเหตุ: สามารถส่งค่ากลับเป็น null สำหรับประเภทของเค้าโครง SmartArt บางประเภทที่ไม่ให้จุดหัวข้อสำหรับโหนด. Read-only IFillFormataspose.slides/ifillformat.
+description: "ส่งกลับอ็อบเจ็กต์ FillFormat ที่มีคุณสมบัติการจัดรูปแบบการเติมสำหรับหัวข้อย่อยของโหนด. หมายเหตุ: สามารถส่งค่ากลับเป็น null สำหรับประเภทของเค้าโครง SmartArt บางประเภทที่ไม่ให้จุดหัวข้อสำหรับโหนด. Read-only IFillFormataspose.slides/ifillformat."
 type: docs
 weight: 10
 url: /th/aspose.slides.smartart/ismartartnode/bulletfillformat/

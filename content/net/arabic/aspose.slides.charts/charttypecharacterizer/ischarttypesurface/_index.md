@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeSurface
 second_title: مرجع API Aspose.Sildes لـ .NET
-description: إرجاع true إذا كان chartType أحد الأنواع الفرعية لـ Surface. مجموعة الأنواع الفرعية تتطابق مع المجموعة المناسبة في PowerPoint (انظر مربع الحوار Change Chart Type في PowerPoint): Surface3D, WireframeSurface3D, Contour, WireframeContour.
+description: "إرجاع true إذا كان chartType أحد الأنواع الفرعية لـ Surface. مجموعة الأنواع الفرعية تتطابق مع المجموعة المناسبة في PowerPoint (انظر مربع الحوار Change Chart Type في PowerPoint): Surface3D, WireframeSurface3D, Contour, WireframeContour."
 type: docs
 weight: 150
 url: /ar/aspose.slides.charts/charttypecharacterizer/ischarttypesurface/

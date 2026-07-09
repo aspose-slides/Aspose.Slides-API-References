@@ -1,7 +1,7 @@
 ---
 title: ExplicitBreak
 second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Przerwa jawna określa, czy na początku obiektu Box występuje podział wiersza, tak aby wiersz zawijał się na początku obiektu Box. Określa liczbę operatora w poprzedniej linii tekstu matematycznego, który ma być użyty jako punkt wyrównania dla bieżącej linii tekstu matematycznego. Możliwe wartości: 1..255. Domyślnie: 0 (brak jawnej przerwy)
+description: "Przerwa jawna określa, czy na początku obiektu Box występuje podział wiersza, tak aby wiersz zawijał się na początku obiektu Box. Określa liczbę operatora w poprzedniej linii tekstu matematycznego, który ma być użyty jako punkt wyrównania dla bieżącej linii tekstu matematycznego. Możliwe wartości: 1..255. Domyślnie: 0 (brak jawnej przerwy)"
 type: docs
 weight: 50
 url: /pl/aspose.slides.mathtext/imathbox/explicitbreak/

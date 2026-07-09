@@ -1,6 +1,6 @@
 ---
 title: HighlightColor
-second_title: Aspose.Sildes สำหรับ .NET: เอกสารอ้างอิง API
+second_title: "Aspose.Sildes สำหรับ .NET: เอกสารอ้างอิง API"
 description: คืนค่าสีที่ใช้ในการไฮไลต์ข้อความ. ไม่ใช้การสืบทอด. อ่านอย่างเดียว IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 110

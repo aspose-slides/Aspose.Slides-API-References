@@ -1,7 +1,7 @@
 ---
 title: DisableLineEndCropping
 second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: SVG 1.1 thiếu khả năng xác định khoảng chèn cho các marker. Động cơ ghi SVG của Aspose.Slides có giải pháp cho vấn đề này: nó cắt phần cuối của đường với mũi tên để đường không chồng lên các marker. Tùy chọn này tắt hành vi đó. Đọc/ghi Boolean.
+description: "SVG 1.1 thiếu khả năng xác định khoảng chèn cho các marker. Động cơ ghi SVG của Aspose.Slides có giải pháp cho vấn đề này: nó cắt phần cuối của đường với mũi tên để đường không chồng lên các marker. Tùy chọn này tắt hành vi đó. Đọc/ghi Boolean."
 type: docs
 weight: 60
 url: /vi/aspose.slides.export/isvgoptions/disablelineendcropping/

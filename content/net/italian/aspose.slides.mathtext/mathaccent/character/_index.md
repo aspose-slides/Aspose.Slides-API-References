@@ -1,7 +1,7 @@
 ---
 title: Character
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Carattere di accento Il valore deve essere compreso nell'intervallo U0300U036F o U20D0U20EF Valore predefinito: Combining Circumflex Accent U0302
+description: "Carattere di accento Il valore deve essere compreso nell'intervallo U0300U036F o U20D0U20EF Valore predefinito: Combining Circumflex Accent U0302"
 type: docs
 weight: 30
 url: /it/aspose.slides.mathtext/mathaccent/character/

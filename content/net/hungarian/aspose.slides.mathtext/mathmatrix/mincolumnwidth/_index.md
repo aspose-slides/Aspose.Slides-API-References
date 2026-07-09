@@ -1,7 +1,7 @@
 ---
 title: MinColumnWidth
 second_title: Aspose.Sildes .NET API Referencia
-description: A minimum oszlopszélesség twipben (a pont 1/20-a). Az oszloptávolság, amelyet oszlop hézagként vagy hézag szélességként is emlegetnek, hozzáadódik a MinColumnWidth-hez, hogy meghatározza a teljes mátrix oszloptávolságot, azaz a különböző oszlopok azonos szélein lévő távolságot. Alapértelmezett: 0.
+description: "A minimum oszlopszélesség twipben (a pont 1/20-a). Az oszloptávolság, amelyet oszlop hézagként vagy hézag szélességként is emlegetnek, hozzáadódik a MinColumnWidth-hez, hogy meghatározza a teljes mátrix oszloptávolságot, azaz a különböző oszlopok azonos szélein lévő távolságot. Alapértelmezett: 0."
 type: docs
 weight: 80
 url: /hu/aspose.slides.mathtext/mathmatrix/mincolumnwidth/

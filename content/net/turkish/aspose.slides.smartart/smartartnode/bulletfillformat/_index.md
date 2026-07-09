@@ -1,7 +1,7 @@
 ---
 title: BulletFillFormat
 second_title: Aspose.Slides for .NET API Referansı
-description: Bir düğüm mermisi için dolgu biçimlendirme özelliklerini içeren FillFormat nesnesini döndürür. Not: düğmeler sağlamayan bazı SmartArt düzeni türleri için null döndürebilir. Salt okunur IFillFormataspose.slides/ifillformat.
+description: "Bir düğüm mermisi için dolgu biçimlendirme özelliklerini içeren FillFormat nesnesini döndürür. Not: düğmeler sağlamayan bazı SmartArt düzeni türleri için null döndürebilir. Salt okunur IFillFormataspose.slides/ifillformat."
 type: docs
 weight: 10
 url: /tr/aspose.slides.smartart/smartartnode/bulletfillformat/

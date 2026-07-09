@@ -1,7 +1,7 @@
 ---
 title: NoBreak
 second_title: Aspose.Sildes için .NET API Referansı
-description: Kesinti yok Bu özellik nesne kutusundaki kırılmaz özelliğini belirler. true olduğunda kutunun içinde satır sonları oluşamaz. Bu, birden fazla ikili operatörden oluşan operatör emülatörleri için önemli olabilir. Bu öğe belirtilmediğinde, kutunun içinde satır sonları oluşabilir. Varsayılan: true
+description: "Kesinti yok Bu özellik nesne kutusundaki kırılmaz özelliğini belirler. true olduğunda kutunun içinde satır sonları oluşamaz. Bu, birden fazla ikili operatörden oluşan operatör emülatörleri için önemli olabilir. Bu öğe belirtilmediğinde, kutunun içinde satır sonları oluşabilir. Varsayılan: true"
 type: docs
 weight: 60
 url: /tr/aspose.slides.mathtext/mathbox/nobreak/

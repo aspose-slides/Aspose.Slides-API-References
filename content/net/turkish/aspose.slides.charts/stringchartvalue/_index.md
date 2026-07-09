@@ -1,7 +1,7 @@
 ---
 title: StringChartValue
 second_title: Aspose.Sildes için .NET API Referansı
-description: pptx sunum belgesinde iki şekilde depolanabilen string değeri temsil eder: 1) grafiğe ilişkili çalışma kitabındaki hücre/hücrelerde, 2) doğrudan literal değer olarak.
+description: "pptx sunum belgesinde iki şekilde depolanabilen string değeri temsil eder: 1) grafiğe ilişkili çalışma kitabındaki hücre/hücrelerde, 2) doğrudan literal değer olarak."
 type: docs
 weight: 2410
 url: /tr/aspose.slides.charts/stringchartvalue/

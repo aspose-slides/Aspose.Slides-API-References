@@ -1,7 +1,7 @@
 ---
 title: StringChartValue
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt einen Zeichenfolgenwert dar, der in einer pptx-Präsentationsdatei auf zwei Arten gespeichert werden kann: 1) in Zelle/Zellen der Arbeitsmappe, die dem Diagramm zugeordnet ist, 2) als wörtlicher Wert.
+description: "Stellt einen Zeichenfolgenwert dar, der in einer pptx-Präsentationsdatei auf zwei Arten gespeichert werden kann: 1) in Zelle/Zellen der Arbeitsmappe, die dem Diagramm zugeordnet ist, 2) als wörtlicher Wert."
 type: docs
 weight: 2410
 url: /de/aspose.slides.charts/stringchartvalue/

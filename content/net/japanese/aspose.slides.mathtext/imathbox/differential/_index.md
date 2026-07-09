@@ -1,7 +1,7 @@
 ---
 title: Differential
 second_title: Aspose.Sildes for .NET API リファレンス
-description: Differential。true の場合、ボックスは微分として機能し（例: 積分子内の 𝑑𝑥）、数学的微分に適した横方向の間隔が付与されます。デフォルトは false です。
+description: "Differential。true の場合、ボックスは微分として機能し（例: 積分子内の 𝑑𝑥）、数学的微分に適した横方向の間隔が付与されます。デフォルトは false です。"
 type: docs
 weight: 40
 url: /ja/aspose.slides.mathtext/imathbox/differential/

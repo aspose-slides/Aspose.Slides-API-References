@@ -1,7 +1,7 @@
 ---
 title: Properties
 second_title: Aspose.Sildes για .NET API Reference
-description: Επιστρέφει μια συλλογή από ιδιότητες ActiveX. Σημείωση: το Aspose.Slides υποστηρίζει μόνο ιδιότητες ActiveX που βασίζονται σε XML. Εάν οι ιδιότητες είναι αποθηκευμένες σε δυαδική μορφή, αυτή η ιδιότητα θα επιστρέψει null. Μόνο για ανάγνωση IControlPropertiesCollectionaspose.slides/icontrolpropertiescollection.
+description: "Επιστρέφει μια συλλογή από ιδιότητες ActiveX. Σημείωση: το Aspose.Slides υποστηρίζει μόνο ιδιότητες ActiveX που βασίζονται σε XML. Εάν οι ιδιότητες είναι αποθηκευμένες σε δυαδική μορφή, αυτή η ιδιότητα θα επιστρέψει null. Μόνο για ανάγνωση IControlPropertiesCollectionaspose.slides/icontrolpropertiescollection."
 type: docs
 weight: 60
 url: /el/aspose.slides/control/properties/

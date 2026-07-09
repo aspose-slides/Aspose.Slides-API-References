@@ -1,7 +1,7 @@
 ---
 title: Differential
 second_title: Aspose.Sildes の .NET API リファレンス
-description: Differential が true のとき、ボックスは微分として機能し（例: 被積分関数内の）、数学的微分のための適切な水平間隔が与えられます。 デフォルトは false
+description: "Differential が true のとき、ボックスは微分として機能し（例: 被積分関数内の）、数学的微分のための適切な水平間隔が与えられます。 デフォルトは false"
 type: docs
 weight: 40
 url: /ja/aspose.slides.mathtext/mathbox/differential/

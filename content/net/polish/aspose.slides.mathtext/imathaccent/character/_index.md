@@ -1,7 +1,7 @@
 ---
 title: Character
 second_title: Aspose.Sildes dla .NET Referencja API
-description: Znak akcentu Wartość powinna mieścić się w zakresie U0300U036F lub U20D0U20EF. Wartość domyślna: Combining Circumflex Accent U0302
+description: "Znak akcentu Wartość powinna mieścić się w zakresie U0300U036F lub U20D0U20EF. Wartość domyślna: Combining Circumflex Accent U0302"
 type: docs
 weight: 30
 url: /pl/aspose.slides.mathtext/imathaccent/character/

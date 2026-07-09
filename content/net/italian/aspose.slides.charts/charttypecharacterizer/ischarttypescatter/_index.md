@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeScatter
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Restituisce true se chartType è uno dei sottotipi Scatter. Il set di sottotipi corrisponde al set appropriato in PowerPoint; vedi la finestra di dialogo Change Chart Type in PowerPoint: ScatterWithMarkers ScatterWithSmoothLines ScatterWithSmoothLinesAndMarkers ScatterWithStraightLines ScatterWithStraightLinesAndMarkers.
+description: "Restituisce true se chartType è uno dei sottotipi Scatter. Il set di sottotipi corrisponde al set appropriato in PowerPoint; vedi la finestra di dialogo Change Chart Type in PowerPoint: ScatterWithMarkers ScatterWithSmoothLines ScatterWithSmoothLinesAndMarkers ScatterWithStraightLines ScatterWithStraightLinesAndMarkers."
 type: docs
 weight: 130
 url: /it/aspose.slides.charts/charttypecharacterizer/ischarttypescatter/

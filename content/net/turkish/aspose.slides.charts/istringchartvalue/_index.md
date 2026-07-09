@@ -1,7 +1,7 @@
 ---
 title: IStringChartValue
 second_title: Aspose.Sildes için .NET API Referansı
-description: pptx sunum belgesinde iki şekilde saklanabilen string değerini temsil eder: 1) grafiğe bağlı çalışma kitabının hücre/hücrelerinde, 2) doğrudan değer olarak.
+description: "pptx sunum belgesinde iki şekilde saklanabilen string değerini temsil eder: 1) grafiğe bağlı çalışma kitabının hücre/hücrelerinde, 2) doğrudan değer olarak."
 type: docs
 weight: 2220
 url: /tr/aspose.slides.charts/istringchartvalue/

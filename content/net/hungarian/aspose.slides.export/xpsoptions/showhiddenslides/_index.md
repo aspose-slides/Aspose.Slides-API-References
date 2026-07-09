@@ -1,7 +1,7 @@
 ---
 title: ShowHiddenSlides
 second_title: Aspose.Sildes .NET API Referencia
-description: Megadja, hogy a generált dokumentum tartalmazza-e a rejtett diákokat vagy sem. Alapértelmezett érték: false.
+description: "Megadja, hogy a generált dokumentum tartalmazza-e a rejtett diákokat vagy sem. Alapértelmezett érték: false."
 type: docs
 weight: 40
 url: /hu/aspose.slides.export/xpsoptions/showhiddenslides/

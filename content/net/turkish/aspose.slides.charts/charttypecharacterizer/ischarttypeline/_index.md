@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeLine
 second_title: Aspose.Sildes için .NET API Referansı
-description: chartType bir Line alt türlerinden biri ise true döndürür. Alt türler kümesi, PowerPoint'teki uygun küme ile eşleşir; PowerPoint'teki Change Chart Type iletişim kutusuna bakınız: Line LineWithMarkers PercentsStackedLine PercentsStackedLineWithMarkers StackedLine StackedLineWithMarkers Line3D.
+description: "chartType bir Line alt türlerinden biri ise true döndürür. Alt türler kümesi, PowerPoint'teki uygun küme ile eşleşir; PowerPoint'teki Change Chart Type iletişim kutusuna bakınız: Line LineWithMarkers PercentsStackedLine PercentsStackedLineWithMarkers StackedLine StackedLineWithMarkers Line3D."
 type: docs
 weight: 100
 url: /tr/aspose.slides.charts/charttypecharacterizer/ischarttypeline/

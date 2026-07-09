@@ -1,7 +1,7 @@
 ---
 title: IDoubleChartValue
 second_title: Aspose.Sildes dla .NET API Reference
-description: Reprezentuje wartość typu double, która może być przechowywana w dokumencie prezentacji pptx na dwa sposoby: 1) w komórce/komórkach skoroszytu powiązanego z wykresem; 2) jako wartość literalna.
+description: "Reprezentuje wartość typu double, która może być przechowywana w dokumencie prezentacji pptx na dwa sposoby: 1) w komórce/komórkach skoroszytu powiązanego z wykresem; 2) jako wartość literalna."
 type: docs
 weight: 2070
 url: /pl/aspose.slides.charts/idoublechartvalue/

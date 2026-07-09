@@ -1,7 +1,7 @@
 ---
 title: BaseJustification
 second_title: Aspose.Sildes .NET API Referenciája
-description: Megadja a tömb igazítását a környező szöveghez képest. A tömbön kívüli szöveg a tömb objektum alja, teteje vagy közepe szerint igazítható. Alapértelmezett érték: Center
+description: "Megadja a tömb igazítását a környező szöveghez képest. A tömbön kívüli szöveg a tömb objektum alja, teteje vagy közepe szerint igazítható. Alapértelmezett érték: Center"
 type: docs
 weight: 30
 url: /hu/aspose.slides.mathtext/matharray/basejustification/

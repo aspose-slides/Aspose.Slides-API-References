@@ -1,7 +1,7 @@
 ---
 title: RowGap
 second_title: Referência da API Aspose.Sildes for .NET
-description: O valor do espaçamento vertical entre as linhas de uma matriz. Se o RowGapRule estiver definido como 3 Exactly, então a unidade é interpretada como twips (1/20 de um ponto). Se o RowGapRule estiver definido como 4 Multiple, então a unidade é interpretada como meia-linha. Padrão: 0
+description: "O valor do espaçamento vertical entre as linhas de uma matriz. Se o RowGapRule estiver definido como 3 Exactly, então a unidade é interpretada como twips (1/20 de um ponto). Se o RowGapRule estiver definido como 4 Multiple, então a unidade é interpretada como meia-linha. Padrão: 0"
 type: docs
 weight: 100
 url: /pt/aspose.slides.mathtext/mathmatrix/rowgap/

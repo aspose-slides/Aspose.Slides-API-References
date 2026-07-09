@@ -1,7 +1,7 @@
 ---
 title: Preserve
 second_title: Aspose.Sildes för .NET API-referens
-description: Bestämmer om den motsvarande master-sidan tas bort när alla bilder som följer den master-sidan tas bort. Obs: Aspose.Slides tar aldrig bort någon oanvänd master automatiskt; för att faktiskt ta bort oanvända master-sidor, anropa RemoveUnusedaspose.slides/masterslidecollection/removeunused Läs/skriv Boolean.
+description: "Bestämmer om den motsvarande master-sidan tas bort när alla bilder som följer den master-sidan tas bort. Obs: Aspose.Slides tar aldrig bort någon oanvänd master automatiskt; för att faktiskt ta bort oanvända master-sidor, anropa RemoveUnusedaspose.slides/masterslidecollection/removeunused Läs/skriv Boolean."
 type: docs
 weight: 80
 url: /sv/aspose.slides/masterslide/preserve/

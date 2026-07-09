@@ -1,7 +1,7 @@
 ---
 title: BulletFillFormat
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Retourneert het FillFormat-object dat vulopmaak-eigenschappen bevat voor een knooppuntbullet. Opmerking: kan null retourneren voor bepaalde typen SmartArt-layout die geen bullets voor knooppunten bieden. Alleen-lezen IFillFormataspose.slides/ifillformat.
+description: "Retourneert het FillFormat-object dat vulopmaak-eigenschappen bevat voor een knooppuntbullet. Opmerking: kan null retourneren voor bepaalde typen SmartArt-layout die geen bullets voor knooppunten bieden. Alleen-lezen IFillFormataspose.slides/ifillformat."
 type: docs
 weight: 10
 url: /nl/aspose.slides.smartart/smartartnode/bulletfillformat/

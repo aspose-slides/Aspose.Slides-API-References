@@ -1,7 +1,7 @@
 ---
 title: DisableLineEndCropping
 second_title: Aspose.Sildes voor .NET API-referentie
-description: SVG 1.1 mist de mogelijkheid om inspringingen voor markeringen te definiëren. De SVG schrijfmotor van Aspose.Slides biedt een oplossing voor dat probleem: hij cropt het einde van een lijn met een pijl, zodat de lijn de markeringen niet overlapt. Deze optie schakelt dergelijk gedrag uit. Lezen/schrijven Boolean.
+description: "SVG 1.1 mist de mogelijkheid om inspringingen voor markeringen te definiëren. De SVG schrijfmotor van Aspose.Slides biedt een oplossing voor dat probleem: hij cropt het einde van een lijn met een pijl, zodat de lijn de markeringen niet overlapt. Deze optie schakelt dergelijk gedrag uit. Lezen/schrijven Boolean."
 type: docs
 weight: 60
 url: /nl/aspose.slides.export/isvgoptions/disablelineendcropping/

@@ -1,7 +1,7 @@
 ---
 title: StringOrDoubleChartValue
 second_title: Aspose.Sildes per .NET API Reference
-description: Rappresenta un valore stringa o double che può essere memorizzato in un documento di presentazione pptx in due modi: 1) in cella/celle della cartella di lavoro associata al grafico; 2) come valore letterale.
+description: "Rappresenta un valore stringa o double che può essere memorizzato in un documento di presentazione pptx in due modi: 1) in cella/celle della cartella di lavoro associata al grafico; 2) come valore letterale."
 type: docs
 weight: 2420
 url: /it/aspose.slides.charts/stringordoublechartvalue/

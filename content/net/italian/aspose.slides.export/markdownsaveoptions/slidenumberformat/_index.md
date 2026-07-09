@@ -1,7 +1,7 @@
 ---
 title: SlideNumberFormat
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Ottiene o imposta la stringa di formato usata per le intestazioni del numero di diapositiva nell'output Markdown. Il formato deve includere il segnaposto "{0}" che verrà sostituito con l'indice della diapositiva durante l'esportazione. Esempio: "Slide 0" produrrà "Slide 1", "Slide 2", ecc.
+description: "Ottiene o imposta la stringa di formato usata per le intestazioni del numero di diapositiva nell'output Markdown. Il formato deve includere il segnaposto \"{0}\" che verrà sostituito con l'indice della diapositiva durante l'esportazione. Esempio: \"Slide 0\" produrrà \"Slide 1\", \"Slide 2\", ecc."
 type: docs
 weight: 120
 url: /it/aspose.slides.export/markdownsaveoptions/slidenumberformat/

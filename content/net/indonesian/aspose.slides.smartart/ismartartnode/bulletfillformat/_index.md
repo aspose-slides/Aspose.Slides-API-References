@@ -1,7 +1,7 @@
 ---
 title: BulletFillFormat
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mengembalikan objek FillFormat yang berisi properti pemformatan isi untuk bullet node. Catatan: dapat mengembalikan null untuk jenis tata letak SmartArt tertentu yang tidak menyediakan bullet untuk node. Hanya-baca IFillFormataspose.slides/ifillformat.
+description: "Mengembalikan objek FillFormat yang berisi properti pemformatan isi untuk bullet node. Catatan: dapat mengembalikan null untuk jenis tata letak SmartArt tertentu yang tidak menyediakan bullet untuk node. Hanya-baca IFillFormataspose.slides/ifillformat."
 type: docs
 weight: 10
 url: /id/aspose.slides.smartart/ismartartnode/bulletfillformat/
