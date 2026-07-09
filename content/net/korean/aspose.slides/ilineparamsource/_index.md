@@ -1,6 +1,6 @@
 ---
 title: ILineParamSource
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes .NET API 레퍼런스
 description: 보조 라인 매개변수 인터페이스.
 type: docs
 weight: 6330
