@@ -1,0 +1,107 @@
+---
+title: IModernComment
+second_title: Aspose.Slides for Android via Java API 参考
+description: 表示幻灯片上的评论。
+type: docs
+url: /zh/com.aspose.slides/imoderncomment/
+---
+**所有已实现的接口：**
+[com.aspose.slides.IComment](../../com.aspose.slides/icomment)
+```
+public interface IModernComment extends IComment
+```
+
+表示幻灯片上的评论。
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation();
+>  try {
+>      ICommentAuthor newAuthor = pres.getCommentAuthors().addAuthor("Some Author", "SA");
+>      newAuthor.getComments().addModernComment("This is modern comment", pres.getSlides().get_Item(0), null, new android.graphics.PointF(100, 100), new Date());
+>      pres.save(outPptxFileName, SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [getShape()](#getShape--) | Returns a shape associated with the comment. |
+| [getTextSelectionStart()](#getTextSelectionStart--) | Returns or sets starting position of text selection in text frame if the comment associated with AutoShape. |
+| [setTextSelectionStart(int value)](#setTextSelectionStart-int-) | Returns or sets starting position of text selection in text frame if the comment associated with AutoShape. |
+| [getTextSelectionLength()](#getTextSelectionLength--) | Returns or sets text selection length in text frame if the comment associated with AutoShape. |
+| [setTextSelectionLength(int value)](#setTextSelectionLength-int-) | Returns or sets text selection length in text frame if the comment associated with AutoShape. |
+| [getStatus()](#getStatus--) | Returns or sets the status of the comment. |
+| [setStatus(byte value)](#setStatus-byte-) | Returns or sets the status of the comment. |
+### getShape() {#getShape--}
+```
+public abstract IShape getShape()
+```
+
+Returns a shape associated with the comment. Read-only [IShape](../../com.aspose.slides/ishape).
+
+**Returns:**
+[IShape](../../com.aspose.slides/ishape)
+### getTextSelectionStart() {#getTextSelectionStart--}
+```
+public abstract int getTextSelectionStart()
+```
+
+Returns or sets starting position of text selection in text frame if the comment associated with AutoShape. Read/write int.
+
+**Returns:**
+int
+### setTextSelectionStart(int value) {#setTextSelectionStart-int-}
+```
+public abstract void setTextSelectionStart(int value)
+```
+
+Returns or sets starting position of text selection in text frame if the comment associated with AutoShape. Read/write int.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### getTextSelectionLength() {#getTextSelectionLength--}
+```
+public abstract int getTextSelectionLength()
+```
+
+Returns or sets text selection length in text frame if the comment associated with AutoShape. Read/write int.
+
+**Returns:**
+int
+### setTextSelectionLength(int value) {#setTextSelectionLength-int-}
+```
+public abstract void setTextSelectionLength(int value)
+```
+
+Returns or sets text selection length in text frame if the comment associated with AutoShape. Read/write int.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### getStatus() {#getStatus--}
+```
+public abstract byte getStatus()
+```
+
+Returns or sets the status of the comment. Read/write [ModernCommentStatus](../../com.aspose.slides/moderncommentstatus).
+
+**Returns:**
+byte
+### setStatus(byte value) {#setStatus-byte-}
+```
+public abstract void setStatus(byte value)
+返回或设置评论的状态。读/写 [ModernCommentStatus](../../com.aspose.slides/moderncommentstatus)。
+
+**参数:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| value | byte |  |
