@@ -1,0 +1,100 @@
+---
+title: ISpreadsheetOptions
+second_title: Aspose.Slides for Android via Java API 参考
+description: 表示可用于指定额外电子表格行为的选项。
+type: docs
+url: /zh/com.aspose.slides/ispreadsheetoptions/
+---```
+public interface ISpreadsheetOptions
+```
+
+表示可用于指定额外电子表格行为的选项。
+## Methods
+
+| 方法 | 描述 |
+| --- | --- |
+| [getPreferredCulture()](#getPreferredCulture--) | 获取或设置首选区域性信息，以计算面向使用双字节字符集 (DBCS) 语言的某些函数。 |
+| [setPreferredCulture(Locale value)](#setPreferredCulture-java.util.Locale-) | 获取或设置首选区域性信息，以计算面向使用双字节字符集 (DBCS) 语言的某些函数。 |
+| [getRecoverWorkbookFromChartCache()](#getRecoverWorkbookFromChartCache--) | 如果图表的数据源是外部工作簿且不可用，则会从图表缓存中恢复。 |
+| [setRecoverWorkbookFromChartCache(boolean value)](#setRecoverWorkbookFromChartCache-boolean-) | 如果图表的数据源是外部工作簿且不可用，则会从图表缓存中恢复。 |
+### getPreferredCulture() {#getPreferredCulture--}
+```
+public abstract Locale getPreferredCulture()
+```
+
+获取或设置首选区域性信息，以计算面向使用双字节字符集 (DBCS) 语言的某些函数。
+
+**返回：**
+java.util.Locale
+### setPreferredCulture(Locale value) {#setPreferredCulture-java.util.Locale-}
+```
+public abstract void setPreferredCulture(Locale value)
+```
+
+获取或设置首选区域性信息，以计算面向使用双字节字符集 (DBCS) 语言的某些函数。
+
+**参数：**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| value | java.util.Locale |  |
+
+### getRecoverWorkbookFromChartCache() {#getRecoverWorkbookFromChartCache--}
+```
+public abstract boolean getRecoverWorkbookFromChartCache()
+```
+
+如果图表的数据源是外部工作簿且不可用，则会从图表缓存中恢复。
+
+--------------------
+
+> ```
+> Example:
+>   
+>   SpreadsheetOptions spreadOptions = new SpreadsheetOptions();
+>   spreadOptions.setRecoverWorkbookFromChartCache(true);
+> 
+>   LoadOptions loadOptions = new LoadOptions();
+>   loadOptions.setSpreadsheetOptions(spreadOptions);
+> 
+>   Presentation pres = new Presentation("Presentation.pptx", loadOptions);
+>   try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      IChartDataWorkbook recoveredWorkbook = chart.getChartData().getChartDataWorkbook();
+>   } finally {
+>      if (pres != null) pres.dispose();
+>   }
+> ```
+
+**Returns:**
+boolean
+### setRecoverWorkbookFromChartCache(boolean value) {#setRecoverWorkbookFromChartCache-boolean-}
+```
+public abstract void setRecoverWorkbookFromChartCache(boolean value)
+
+
+如果图表的数据源是外部工作簿且不可用，则会从图表缓存中恢复。
+
+
+
+> ```
+> 示例：
+>   
+>   SpreadsheetOptions spreadOptions = new SpreadsheetOptions();
+>   spreadOptions.setRecoverWorkbookFromChartCache(true);
+> 
+>   LoadOptions loadOptions = new LoadOptions();
+>   loadOptions.setSpreadsheetOptions(spreadOptions);
+> 
+>   Presentation pres = new Presentation("Presentation.pptx", loadOptions);
+>   try {
+>      IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      IChartDataWorkbook recoveredWorkbook = chart.getChartData().getChartDataWorkbook();
+>   } finally {
+>      if (pres != null) pres.dispose();
+>   }
+> ```
+
+**参数：**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| value | boolean |  |
