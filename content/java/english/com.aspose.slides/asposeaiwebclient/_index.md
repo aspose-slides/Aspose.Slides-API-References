@@ -20,14 +20,14 @@ A built-in [IAIWebClient](../../com.aspose.slides/iaiwebclient) implementation t
 | Constructor | Description |
 | --- | --- |
 | [AsposeAIWebClient()](#AsposeAIWebClient--) | Creates an instance of the Aspose AI web client that connects to the default Aspose LLM endpoint. |
-| [AsposeAIWebClient(HttpURLConnection httpClient)](#AsposeAIWebClient-java.net.HttpURLConnection-) | Creates an instance of the Aspose AI web client that connects to the default Aspose LLM endpoint using an externally managed  HttpClient . |
+| [AsposeAIWebClient(HttpURLConnection httpClient)](#AsposeAIWebClient-java.net.HttpURLConnection-) | Creates an instance of the Aspose AI web client that connects to the default Aspose LLM endpoint using an externally managed  HttpURLConnection . |
 | [AsposeAIWebClient(String url)](#AsposeAIWebClient-java.lang.String-) | Creates an instance of the Aspose AI web client that connects to a custom endpoint URL. |
-| [AsposeAIWebClient(String url, HttpURLConnection httpClient)](#AsposeAIWebClient-java.lang.String-java.net.HttpURLConnection-) | Creates an instance of the Aspose AI web client that connects to a custom endpoint URL using an externally managed  HttpClient . |
+| [AsposeAIWebClient(String url, HttpURLConnection httpClient)](#AsposeAIWebClient-java.lang.String-java.net.HttpURLConnection-) | Creates an instance of the Aspose AI web client that connects to a custom endpoint URL using an externally managed  HttpURLConnection . |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [callChat(String instruction)](#callChat-java.lang.String-) |  |
+| [callChat(String instruction)](#callChat-java.lang.String-) | Sends a chat instruction to the AI model and returns response message to the given instruction. |
 | [createConversation()](#createConversation--) | Creates a conversation instance. |
 | [dispose()](#dispose--) | Releases resources used by this instance. |
 ### AsposeAIWebClient() {#AsposeAIWebClient--}
@@ -39,14 +39,18 @@ public AsposeAIWebClient()
 Creates an instance of the Aspose AI web client that connects to the default Aspose LLM endpoint. This is the client used by the parameterless  SlidesAIAgent()  constructor, so creating it explicitly is only required when passing the client to the  SlidesAIAgent(IAIWebClient)  constructor directly.
 
 ```
-using (AsposeAIWebClient aiClient = new AsposeAIWebClient())
- {
+AsposeAIWebClient aiClient = new AsposeAIWebClient();
+ try {
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (aiClient != null) aiClient.dispose();
  }
 ```
 
@@ -56,23 +60,28 @@ public AsposeAIWebClient(HttpURLConnection httpClient)
 ```
 
 
-Creates an instance of the Aspose AI web client that connects to the default Aspose LLM endpoint using an externally managed  HttpClient . The provided  HttpClient  is not disposed by this instance and remains owned by the caller.
+Creates an instance of the Aspose AI web client that connects to the default Aspose LLM endpoint using an externally managed  HttpURLConnection . The provided  HttpURLConnection  is not disposed by this instance and remains owned by the caller.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| httpClient | java.net.HttpURLConnection | An externally managed  HttpClient  instance.
+| httpClient | java.net.HttpURLConnection | An externally managed  HttpURLConnection  instance.
 
 ```
-using (HttpClient httpClient = new HttpClient())
- {
+URL url = new URL(url);
+ HttpURLConnection httpClient = (HttpURLConnection) url.openConnection();
+ try {
      AsposeAIWebClient aiClient = new AsposeAIWebClient(httpClient);
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (httpClient != null) httpClient.disconnect();
  }
 ``` |
 
@@ -90,14 +99,18 @@ Creates an instance of the Aspose AI web client that connects to a custom endpoi
 | url | java.lang.String | Endpoint URL of the Aspose LLM, provided by the Aspose.Slides team.
 
 ```
-using (AsposeAIWebClient aiClient = new AsposeAIWebClient(customUrl))
- {
+AsposeAIWebClient aiClient = new AsposeAIWebClient(customUrl);
+ try {
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (aiClient != null) aiClient.dispose();
  }
 ``` |
 
@@ -107,24 +120,29 @@ public AsposeAIWebClient(String url, HttpURLConnection httpClient)
 ```
 
 
-Creates an instance of the Aspose AI web client that connects to a custom endpoint URL using an externally managed  HttpClient . The provided  HttpClient  is not disposed by this instance and remains owned by the caller. Use this overload when you have a URL provided by the Aspose.Slides team and want to supply your own  HttpClient ; if you only need your own  HttpClient  with the default URL, use the  AsposeAIWebClient(HttpClient)  overload instead.
+Creates an instance of the Aspose AI web client that connects to a custom endpoint URL using an externally managed  HttpURLConnection . The provided  HttpURLConnection  is not disposed by this instance and remains owned by the caller. Use this overload when you have a URL provided by the Aspose.Slides team and want to supply your own  HttpURLConnection ; if you only need your own  HttpURLConnection  with the default URL, use the  AsposeAIWebClient(HttpURLConnection)  overload instead.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | url | java.lang.String | Endpoint URL of the Aspose LLM, provided by the Aspose.Slides team. |
-| httpClient | java.net.HttpURLConnection | An externally managed  HttpClient  instance.
+| httpClient | java.net.HttpURLConnection | An externally managed  HttpURLConnection  instance.
 
 ```
-using (HttpClient httpClient = new HttpClient())
- {
+URL url = new URL(url);
+ HttpURLConnection httpClient = (HttpURLConnection) url.openConnection();
+ try {
      AsposeAIWebClient aiClient = new AsposeAIWebClient(customUrl, httpClient);
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (httpClient != null) httpClient.disconnect();
  }
 ``` |
 
@@ -134,15 +152,15 @@ public String callChat(String instruction)
 ```
 
 
-Sends a chat instruction to the AI model using a provided HttpConnection instance and return response message to the given instruction.
+Sends a chat instruction to the AI model and returns response message to the given instruction.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| instruction | java.lang.String |  |
+| instruction | java.lang.String | The instruction or message to be processed by the AI model. |
 
 **Returns:**
-java.lang.String
+java.lang.String - The message generated by the AI model in response to the given instruction.
 ### createConversation() {#createConversation--}
 ```
 public final IAIConversation createConversation()

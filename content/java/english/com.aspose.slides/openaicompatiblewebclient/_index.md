@@ -20,12 +20,12 @@ A built-in [IAIWebClient](../../com.aspose.slides/iaiwebclient) implementation t
 | Constructor | Description |
 | --- | --- |
 | [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-) | Creates an instance of the OpenAI-compatible web client. |
-| [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl, HttpURLConnection httpClient)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | Creates an instance of the OpenAI-compatible web client that uses an externally managed  HttpClient . |
+| [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl, HttpURLConnection httpClient)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | Creates an instance of the OpenAI-compatible web client that uses an externally managed  HttpURLConnection . |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [callChat(String instruction)](#callChat-java.lang.String-) |  |
+| [callChat(String instruction)](#callChat-java.lang.String-) | Sends a chat instruction to the AI model using an externally managed HttpURLConnection instance and returns response message to the given instruction. |
 | [createConversation()](#createConversation--) | Creates a conversation instance. |
 | [dispose()](#dispose--) | Releases resources used by this instance. |
 ### OpenAICompatibleWebClient(String model, String apiKey, String baseUrl) {#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-}
@@ -44,14 +44,19 @@ Creates an instance of the OpenAI-compatible web client.
 | baseUrl | java.lang.String | Base URL of the OpenAI-compatible LLM.
 
 ```
-using (OpenAICompatibleWebClient aiClient = new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1"))
- {
+OpenAICompatibleWebClient aiClient =
+         new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1");
+ try {
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (aiClient != null) aiClient.dispose();
  }
 ``` |
 
@@ -61,7 +66,7 @@ public OpenAICompatibleWebClient(String model, String apiKey, String baseUrl, Ht
 ```
 
 
-Creates an instance of the OpenAI-compatible web client that uses an externally managed  HttpClient . The provided  HttpClient  is not disposed by this instance and remains owned by the caller.
+Creates an instance of the OpenAI-compatible web client that uses an externally managed  HttpURLConnection . The provided  HttpURLConnection  is not disposed by this instance and remains owned by the caller.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -69,18 +74,24 @@ Creates an instance of the OpenAI-compatible web client that uses an externally 
 | model | java.lang.String | Model name supported by the LLM provider. |
 | apiKey | java.lang.String | API key (token). |
 | baseUrl | java.lang.String | Base URL of the OpenAI-compatible LLM. |
-| httpClient | java.net.HttpURLConnection | An externally managed  HttpClient  instance.
+| httpClient | java.net.HttpURLConnection | An externally managed  HttpURLConnection  instance.
 
 ```
-using (HttpClient httpClient = new HttpClient())
- {
-     OpenAICompatibleWebClient aiClient = new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1", httpClient);
+URL url = new URL(url);
+ HttpURLConnection httpClient = (HttpURLConnection) url.openConnection();
+ try {
+     OpenAICompatibleWebClient aiClient =
+             new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1", httpClient);
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (httpClient != null) httpClient.disconnect();
  }
 ``` |
 
@@ -90,15 +101,15 @@ public String callChat(String instruction)
 ```
 
 
-Sends a chat instruction to the AI model using a provided HttpConnection instance and return response message to the given instruction.
+Sends a chat instruction to the AI model using an externally managed HttpURLConnection instance and returns response message to the given instruction.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| instruction | java.lang.String |  |
+| instruction | java.lang.String | The instruction or message to be processed by the AI model. |
 
 **Returns:**
-java.lang.String
+java.lang.String - The message generated by the AI model in response to the given instruction.
 ### createConversation() {#createConversation--}
 ```
 public final IAIConversation createConversation()

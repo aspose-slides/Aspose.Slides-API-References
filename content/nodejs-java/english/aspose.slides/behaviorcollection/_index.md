@@ -95,13 +95,13 @@ url: /aspose.slides/behaviorcollection/
 
 | Name | Description |
 | --- | --- |
-| add ([ColorEffect](../coloreffect)) | Add new behavior to a collection. |
+| add ([CommandEffect](../commandeffect)) | Add new behavior to a collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [ColorEffect](../coloreffect) | Behavior to add. |
+| item | [CommandEffect](../commandeffect) | Behavior to add. |
 
 
 ---
@@ -111,13 +111,13 @@ url: /aspose.slides/behaviorcollection/
 
 | Name | Description |
 | --- | --- |
-| add ([CommandEffect](../commandeffect)) | Add new behavior to a collection. |
+| add ([ColorEffect](../coloreffect)) | Add new behavior to a collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [CommandEffect](../commandeffect) | Behavior to add. |
+| item | [ColorEffect](../coloreffect) | Behavior to add. |
 
 
 ---
@@ -248,13 +248,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| contains ([ColorEffect](../coloreffect)) | Determines whether the IGenericCollection contains a specific value. |
+| contains ([CommandEffect](../commandeffect)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [ColorEffect](../coloreffect) | The object to locate in the IGenericCollection. |
+| item | [CommandEffect](../commandeffect) | The object to locate in the IGenericCollection. |
 
  **Returns:**
 boolean
@@ -267,13 +267,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| contains ([CommandEffect](../commandeffect)) | Determines whether the IGenericCollection contains a specific value. |
+| contains ([ColorEffect](../coloreffect)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [CommandEffect](../commandeffect) | The object to locate in the IGenericCollection. |
+| item | [ColorEffect](../coloreffect) | The object to locate in the IGenericCollection. |
 
  **Returns:**
 boolean
@@ -350,7 +350,7 @@ int
 | index | int | Index of a behavior to return. |
 
  **Returns:**
-[RotationEffect](../rotationeffect), [SetEffect](../seteffect), [MotionEffect](../motioneffect), [FilterEffect](../filtereffect), [Behavior](../behavior), [ColorEffect](../coloreffect), [CommandEffect](../commandeffect), [ScaleEffect](../scaleeffect)
+[RotationEffect](../rotationeffect), [SetEffect](../seteffect), [MotionEffect](../motioneffect), [FilterEffect](../filtereffect), [Behavior](../behavior), [CommandEffect](../commandeffect), [ColorEffect](../coloreffect), [ScaleEffect](../scaleeffect)
 
 
 ---
@@ -455,13 +455,13 @@ int
 
 | Name | Description |
 | --- | --- |
-| indexOf ([ColorEffect](../coloreffect)) | Determines the index of a specific item in the List. |
+| indexOf ([CommandEffect](../commandeffect)) | Determines the index of a specific item in the List. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [ColorEffect](../coloreffect) | The object to locate in the List. |
+| item | [CommandEffect](../commandeffect) | The object to locate in the List. |
 
  **Returns:**
 int
@@ -474,13 +474,13 @@ int
 
 | Name | Description |
 | --- | --- |
-| indexOf ([CommandEffect](../commandeffect)) | Determines the index of a specific item in the List. |
+| indexOf ([ColorEffect](../coloreffect)) | Determines the index of a specific item in the List. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [CommandEffect](../commandeffect) | The object to locate in the List. |
+| item | [ColorEffect](../coloreffect) | The object to locate in the List. |
 
  **Returns:**
 int
@@ -597,14 +597,14 @@ int
 
 | Name | Description |
 | --- | --- |
-| insert (int, [ColorEffect](../coloreffect)) | Inserts new behavior to a collection at the specified index. |
+| insert (int, [CommandEffect](../commandeffect)) | Inserts new behavior to a collection at the specified index. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index where new behavior should be inserted. |
-| item | [ColorEffect](../coloreffect) | Behavior to insert. |
+| item | [CommandEffect](../commandeffect) | Behavior to insert. |
 
 
 ---
@@ -614,14 +614,14 @@ int
 
 | Name | Description |
 | --- | --- |
-| insert (int, [CommandEffect](../commandeffect)) | Inserts new behavior to a collection at the specified index. |
+| insert (int, [ColorEffect](../coloreffect)) | Inserts new behavior to a collection at the specified index. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index where new behavior should be inserted. |
-| item | [CommandEffect](../commandeffect) | Behavior to insert. |
+| item | [ColorEffect](../coloreffect) | Behavior to insert. |
 
 
 ---
@@ -782,13 +782,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| remove ([ColorEffect](../coloreffect)) | Removes specified behavior from a collection. |
+| remove ([CommandEffect](../commandeffect)) | Removes specified behavior from a collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [ColorEffect](../coloreffect) | Behavior to remove. |
+| item | [CommandEffect](../commandeffect) | Behavior to remove. |
 
  **Returns:**
 boolean
@@ -801,13 +801,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| remove ([CommandEffect](../commandeffect)) | Removes specified behavior from a collection. |
+| remove ([ColorEffect](../coloreffect)) | Removes specified behavior from a collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [CommandEffect](../commandeffect) | Behavior to remove. |
+| item | [ColorEffect](../coloreffect) | Behavior to remove. |
 
  **Returns:**
 boolean
@@ -935,7 +935,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| set_Item (int, [ColorEffect](../coloreffect)) | Sets a behavior at the specified index. |
+| set_Item (int, [CommandEffect](../commandeffect)) | Sets a behavior at the specified index. |
 
  **Parameters:**
 
@@ -951,7 +951,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| set_Item (int, [CommandEffect](../commandeffect)) | Sets a behavior at the specified index. |
+| set_Item (int, [ColorEffect](../coloreffect)) | Sets a behavior at the specified index. |
 
  **Parameters:**
 
