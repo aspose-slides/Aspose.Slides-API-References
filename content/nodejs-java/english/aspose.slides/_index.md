@@ -21,6 +21,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [AlphaReplace](alphareplace) | Represents and Alpha Replace effect. Effect alpha (opacity) values are replaced by a fixed alpha. |
 | [AnimateTextType](animatetexttype) | Represents the animate text type of an animation effect. |
 | [AnimationTimeLine](animationtimeline) | Represents timeline of animation. |
+| [AsposeAIWebClient](asposeaiwebclient) | A built-in IAIWebClient implementation that connects to Aspose's own LLM. This is the default client used by the parameterless SlidesAIAgent() constructor. |
 | [AsposeLicenseException](asposelicenseexception) | This exception is thrown if any errors with license are detected. |
 | [Audio](audio) | Represents an embedded audio file. |
 | [AudioCollection](audiocollection) | Represents a collection of embedded audio files. |
@@ -422,7 +423,8 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [OdpReadException](odpreadexception) | Represents an exception which thrown on presentation reading errors. |
 | [OleEmbeddedDataInfo](oleembeddeddatainfo) | Represents embedded data info for OLE object. |
 | [OleObjectFrame](oleobjectframe) | Represents an OLE object on a slide. |
-| [OpenAIWebClient](openaiwebclient) | Build-in lightweight OpenAI web client |
+| [OpenAICompatibleWebClient](openaicompatiblewebclient) | A built-in IAIWebClient implementation that connects to an OpenAI-compatible LLM provider at a specified base URL. |
+| [OpenAIWebClient](openaiwebclient) | A built-in IAIWebClient implementation that connects to the OpenAI API. |
 | [OptionalBlackTransition](optionalblacktransition) | Optional black slide transition effect. |
 | [OrganizationChartLayoutType](organizationchartlayouttype) | Represents formatting type the child nodes in an organization chart |
 | [Orientation](orientation) | Represents the orientation of a shape. |

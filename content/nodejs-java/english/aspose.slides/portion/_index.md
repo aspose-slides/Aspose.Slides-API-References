@@ -148,7 +148,7 @@ Rectangle2D.Float
 | getSlide () | Returns the parent slide of a text. Read-only BaseSlide. |
 
  **Returns:**
-[LayoutSlide](../layoutslide), [Slide](../slide), [MasterSlide](../masterslide), [MasterHandoutSlide](../masterhandoutslide), [NotesSlide](../notesslide), [BaseSlide](../baseslide), [MasterNotesSlide](../masternotesslide)
+[Slide](../slide), [MasterHandoutSlide](../masterhandoutslide), [MasterSlide](../masterslide), [MasterNotesSlide](../masternotesslide), [BaseSlide](../baseslide), [LayoutSlide](../layoutslide), [NotesSlide](../notesslide)
 
 
 ---

@@ -89,6 +89,19 @@ String
 ---
 
 
+### getPicturesCompression {#getPicturesCompression}
+
+| Name | Description |
+| --- | --- |
+| getPicturesCompression () | Represents the pictures compression level |
+
+ **Returns:**
+int
+
+
+---
+
+
 ### getSlidesLayoutOptions {#getSlidesLayoutOptions}
 
 | Name | Description |
@@ -147,6 +160,16 @@ String
 | Name | Description |
 | --- | --- |
 | setOutputPath (String) | Determines where external resources should be stored. Read/write String. |
+
+
+---
+
+
+### setPicturesCompression {#setPicturesCompression}
+
+| Name | Description |
+| --- | --- |
+| setPicturesCompression (int) | Represents the pictures compression level |
 
 
 ---
