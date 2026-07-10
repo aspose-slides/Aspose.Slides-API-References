@@ -1,7 +1,7 @@
 ---
 title: OpenAIWebClient
 second_title: Aspose.Slides for Java API Reference
-description: Build-in lightweight OpenAI web client
+description: A built-in  implementation that connects to the OpenAI API.
 type: docs
 url: /com.aspose.slides/openaiwebclient/
 ---
@@ -14,18 +14,18 @@ java.lang.Object
 public class OpenAIWebClient implements IAIWebClient, Closeable
 ```
 
-Build-in lightweight OpenAI web client
+A built-in [IAIWebClient](../../com.aspose.slides/iaiwebclient) implementation that connects to the OpenAI API.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [OpenAIWebClient(String model, String apiKey, String organizationId)](#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-) | Creates instance of OpenAI Web client. |
-| [OpenAIWebClient(String model, String apiKey, String organizationId, HttpURLConnection httpClient)](#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | Creates instance of OpenAI Web client. |
+| [OpenAIWebClient(String model, String apiKey, String organizationId)](#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-) | Creates an instance of the OpenAI web client. |
+| [OpenAIWebClient(String model, String apiKey, String organizationId, HttpURLConnection httpClient)](#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | Creates an instance of the OpenAI web client that uses an externally managed  HttpClient . |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [callChat(String instruction)](#callChat-java.lang.String-) | Sends a chat instruction to the AI model using an externally managed  instance and returns response message to the given instruction. |
+| [callChat(String instruction)](#callChat-java.lang.String-) |  |
 | [createConversation()](#createConversation--) | Creates a conversation instance. |
 | [close()](#close--) | Releases resources used by this instance. |
 ### OpenAIWebClient(String model, String apiKey, String organizationId) {#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-}
@@ -34,14 +34,26 @@ public OpenAIWebClient(String model, String apiKey, String organizationId)
 ```
 
 
-Creates instance of OpenAI Web client.
+Creates an instance of the OpenAI web client.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | model | java.lang.String | OpenAI language model. Possible values: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
-| apiKey | java.lang.String | OpenAI API key |
-| organizationId | java.lang.String | Organization ID (optional) |
+| apiKey | java.lang.String | OpenAI API key. |
+| organizationId | java.lang.String | Organization ID (optional).
+
+```
+using (OpenAIWebClient aiClient = new OpenAIWebClient("gpt-4o-mini", apiKey, null))
+ {
+     SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
+     using (Presentation presentation = new Presentation("Presentation.pptx"))
+     {
+         await aiAgent.TranslateAsync(presentation, "spanish");
+         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     }
+ }
+``` |
 
 ### OpenAIWebClient(String model, String apiKey, String organizationId, HttpURLConnection httpClient) {#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-}
 ```
@@ -49,7 +61,7 @@ public OpenAIWebClient(String model, String apiKey, String organizationId, HttpU
 ```
 
 
-Creates instance of OpenAI Web client.
+Creates an instance of the OpenAI web client that uses an externally managed  HttpClient . The provided  HttpClient  is not disposed by this instance and remains owned by the caller.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -57,7 +69,20 @@ Creates instance of OpenAI Web client.
 | model | java.lang.String | OpenAI language model. Possible values: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
 | apiKey | java.lang.String | OpenAI API key |
 | organizationId | java.lang.String | Organization ID (optional) |
-| httpClient | java.net.HttpURLConnection | An externally managed HttpURLConnection instance. |
+| httpClient | java.net.HttpURLConnection | An externally managed HttpClient instance
+
+```
+using (HttpClient httpClient = new HttpClient())
+ {
+     OpenAIWebClient aiClient = new OpenAIWebClient("gpt-4o-mini", apiKey, null, httpClient);
+     SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
+     using (Presentation presentation = new Presentation("Presentation.pptx"))
+     {
+         await aiAgent.TranslateAsync(presentation, "spanish");
+         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     }
+ }
+``` |
 
 ### callChat(String instruction) {#callChat-java.lang.String-}
 ```
@@ -65,15 +90,15 @@ public String callChat(String instruction)
 ```
 
 
-Sends a chat instruction to the AI model using an externally managed  instance and returns response message to the given instruction.
+Sends a chat instruction to the AI model using a provided HttpConnection instance and return response message to the given instruction.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| instruction | java.lang.String | The instruction or message to be processed by the AI model |
+| instruction | java.lang.String |  |
 
 **Returns:**
-java.lang.String - The message generated by the AI model in response to the given instruction.
+java.lang.String
 ### createConversation() {#createConversation--}
 ```
 public final IAIConversation createConversation()
