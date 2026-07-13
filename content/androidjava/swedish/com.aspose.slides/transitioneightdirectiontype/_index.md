@@ -1,0 +1,86 @@
+---
+title: TransitionEightDirectionType
+second_title: Aspose.Slides för Android via Java API-referens
+description: Representerar åtta riktningstransitionstyper.
+type: docs
+url: /sv/com.aspose.slides/transitioneightdirectiontype/
+---
+**Arv:**
+java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
+```
+public final class TransitionEightDirectionType extends System.Enum
+```
+
+Representerar åtta riktningstransitionstyper.
+## Fält
+
+| Fält | Beskrivning |
+| --- | --- |
+| [LeftDown](#LeftDown) |  |
+| [LeftUp](#LeftUp) |  |
+| [RightDown](#RightDown) |  |
+| [RightUp](#RightUp) |  |
+| [Left](#Left) |  |
+| [Up](#Up) |  |
+| [Down](#Down) |  |
+| [Right](#Right) |  |
+### LeftDown {#LeftDown}
+```
+public static final int LeftDown
+```
+
+
+
+
+### LeftUp {#LeftUp}
+```
+public static final int LeftUp
+```
+
+
+
+
+### RightDown {#RightDown}
+```
+public static final int RightDown
+```
+
+
+
+
+### RightUp {#RightUp}
+```
+public static final int RightUp
+```
+
+
+
+
+### Left {#Left}
+```
+public static final int Left
+```
+
+
+
+
+### Up {#Up}
+```
+public static final int Up
+```
+
+
+
+
+### Down {#Down}
+```
+public static final int Down
+```
+
+
+
+
+### Right {#Right}
+```
+public static final int Right
+```
