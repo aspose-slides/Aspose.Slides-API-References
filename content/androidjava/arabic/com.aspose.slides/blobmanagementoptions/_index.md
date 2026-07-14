@@ -1,0 +1,165 @@
+---
+title: BlobManagementOptions
+second_title: Aspose.Slides لنظام Android عبر مرجع API جافا
+description: يمثل الخيارات التي يمكن استخدامها لإدارة قواعد معالجة الـ BLOB وإعدادات الـ BLOB الأخرى.
+type: docs
+url: /ar/com.aspose.slides/blobmanagementoptions/
+---
+**الوراثة:**
+java.lang.Object
+
+**جميع الواجهات المُطبقة:**
+[com.aspose.slides.IBlobManagementOptions](../../com.aspose.slides/iblobmanagementoptions)
+```
+public class BlobManagementOptions implements IBlobManagementOptions
+```
+
+يمثل خيارات يمكن استخدامها لإدارة قواعد معالجة الـ BLOB وإعدادات الـ BLOB الأخرى.
+## المنشئات
+
+| المنشئ | الوصف |
+| --- | --- |
+| [BlobManagementOptions()](#BlobManagementOptions--) | Creates new default blob management options. |
+## الأساليب
+
+| الأسلوب | الوصف |
+| --- | --- |
+| [getPresentationLockingBehavior()](#getPresentationLockingBehavior--) | This property defines if an instance of the Presentation class can be an owner of the source - file or stream during the instance lifetime. |
+| [setPresentationLockingBehavior(int value)](#setPresentationLockingBehavior-int-) | This property defines if an instance of the Presentation class can be an owner of the source - file or stream during the instance lifetime. |
+| [isTemporaryFilesAllowed()](#isTemporaryFilesAllowed--) | This property defines if temporary files can be created while working with BLOBs, what greatly decreases the memory consumption but requires permissions to create files. |
+| [setTemporaryFilesAllowed(boolean value)](#setTemporaryFilesAllowed-boolean-) | This property defines if temporary files can be created while working with BLOBs, what greatly decreases the memory consumption but requires permissions to create files. |
+| [getTempFilesRootPath()](#getTempFilesRootPath--) | The root path where temporary files will be created. |
+| [setTempFilesRootPath(String value)](#setTempFilesRootPath-java.lang.String-) | The root path where temporary files will be created. |
+| [getMaxBlobsBytesInMemory()](#getMaxBlobsBytesInMemory--) | Defines the maximum total size (in bytes) that all BLOBs may occupy in memory. |
+| [setMaxBlobsBytesInMemory(long value)](#setMaxBlobsBytesInMemory-long-) | Defines the maximum total size (in bytes) that all BLOBs may occupy in memory. |
+### BlobManagementOptions() {#BlobManagementOptions--}
+```
+public BlobManagementOptions()
+```
+
+
+Creates new default blob management options.
+
+### getPresentationLockingBehavior() {#getPresentationLockingBehavior--}
+```
+public final int getPresentationLockingBehavior()
+```
+
+
+This property defines if an instance of the Presentation class can be an owner of the source - file or stream during the instance lifetime. If the instance is an owner, it locks the source. This helps to improve memory consumption and performance while working with BLOBs, but the source (stream or file) can't be changed during Presentation's instance lifetime.
+
+**القيم المرجعة:**
+int
+### setPresentationLockingBehavior(int value) {#setPresentationLockingBehavior-int-}
+```
+public final void setPresentationLockingBehavior(int value)
+```
+
+
+This property defines if an instance of the Presentation class can be an owner of the source - file or stream during the instance lifetime. If the instance is an owner, it locks the source. This helps to improve memory consumption and performance while working with BLOBs, but the source (stream or file) can't be changed during Presentation's instance lifetime.
+
+**المعاملات:**
+| المعامل | النوع | الوصف |
+| --- | --- | --- |
+| value | int |  |
+
+### isTemporaryFilesAllowed() {#isTemporaryFilesAllowed--}
+```
+public final boolean isTemporaryFilesAllowed()
+```
+
+
+This property defines if temporary files can be created while working with BLOBs, what greatly decreases the memory consumption but requires permissions to create files.
+
+--------------------
+
+All files will be deleted after work with the presentation will be finished.
+
+**القيم المرجعة:**
+boolean
+### setTemporaryFilesAllowed(boolean value) {#setTemporaryFilesAllowed-boolean-}
+```
+public final void setTemporaryFilesAllowed(boolean value)
+```
+
+
+This property defines if temporary files can be created while working with BLOBs, what greatly decreases the memory consumption but requires permissions to create files.
+
+--------------------
+
+All files will be deleted after work with the presentation will be finished.
+
+**المعاملات:**
+| المعامل | النوع | الوصف |
+| --- | --- | --- |
+| value | boolean |  |
+
+### getTempFilesRootPath() {#getTempFilesRootPath--}
+```
+public final String getTempFilesRootPath()
+```
+
+
+The root path where temporary files will be created. System temorary directory will be used by default. Hosting process should have permissions to create files and folders there.
+
+**القيم المرجعة:**
+java.lang.String
+### setTempFilesRootPath(String value) {#setTempFilesRootPath-java.lang.String-}
+```
+public final void setTempFilesRootPath(String value)
+```
+
+
+The root path where temporary files will be created. System temorary directory will be used by default. Hosting process should have permissions to create files and folders there.
+
+**المعاملات:**
+| المعامل | النوع | الوصف |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### getMaxBlobsBytesInMemory() {#getMaxBlobsBytesInMemory--}
+```
+public final long getMaxBlobsBytesInMemory()
+```
+
+
+Defines the maximum total size (in bytes) that all BLOBs may occupy in memory. By default, all BLOBs are loaded into memory; only once this limit is reached are alternative mechanisms (such as temporary files) employed. Keeping BLOBs in memory maximizes performance but can lead to high memory usage. Use this property to tailor behavior to your environment or requirements.
+
+--------------------
+
+This property is ignored if \#isTemporaryFilesAllowed.isTemporaryFilesAllowed/\#setTemporaryFilesAllowed(boolean).setTemporaryFilesAllowed(boolean) is set to false, since memory is then the only storage location available and limiting in-memory BLOB usage has no effect.
+
+--------------------
+
+The default value is 629,145,600 bytes (600 MB).
+
+--------------------
+
+You may set this property to zero, but a small minimum amount of memory will still be reserved.
+
+**القيم المرجعة:**
+long
+### setMaxBlobsBytesInMemory(long value) {#setMaxBlobsBytesInMemory-long-}
+```
+public final void setMaxBlobsBytesInMemory(long value)
+```
+
+
+Defines the maximum total size (in bytes) that all BLOBs may occupy in memory. By default, all BLOBs are loaded into memory; only once this limit is reached are alternative mechanisms (such as temporary files) employed. Keeping BLOBs in memory maximizes performance but can lead to high memory usage. Use this property to tailor behavior to your environment or requirements.
+
+--------------------
+
+This property is ignored if \#isTemporaryFilesAllowed.isTemporaryFilesAllowed/\#setTemporaryFilesAllowed(boolean).setTemporaryFilesAllowed(boolean) is set to false, since memory is then the only storage location available and limiting in-memory BLOB usage has no effect.
+
+--------------------
+
+The default value is 629,145,600 bytes (600 MB).
+
+--------------------
+
+You may set this property to zero, but a small minimum amount of memory will still be reserved.
+
+**المعاملات:**
+| المعامل | النوع | الوصف |
+| --- | --- | --- |
+| value | long |  |
