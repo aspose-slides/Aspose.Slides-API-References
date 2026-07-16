@@ -1,0 +1,83 @@
+---
+title: AutoShapeLock
+second_title: Référence de l'API Aspose.Slides pour C++
+description: Détermine quelles opérations sont désactivées sur le parent AutoshapeEx.
+type: docs
+weight: 79
+url: /fr/aspose.slides/autoshapelock/
+---
+## AutoShapeLock classe
+
+
+Détermine quelles opérations sont désactivées sur le parent AutoshapeEx.
+
+```cpp
+class AutoShapeLock : public Aspose::Slides::BaseShapeLock,
+                      public Aspose::Slides::IAutoShapeLock
+```
+
+## Méthodes
+
+| Méthode | Description |
+| --- | --- |
+| virtual **bool** [Equals](../../system/object/equals/)([ptr](../../system/object/ptr/)) | Compare les objets en utilisant la sémantique C# [Object.Equals](../../system/object/equals/). |
+| static std::enable_if\<[IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Compare les objets de type référence en style C#. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&\![IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Compare les objets de type valeur en style C#. |
+| static **bool** [Equals](../../system/object/equals/)(**float** const\&, **float** const\&) | Émule la comparaison en virgule flottante de style C# où deux NaN sont considérés égaux bien que selon IEC 60559:1989 NaN ne soit égal à aucune valeur, y compris NaN. |
+| static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | Émule la comparaison en virgule flottante de style C# où deux NaN sont considérés égaux bien que selon IEC 60559:1989 NaN ne soit égal à aucune valeur, y compris NaN. |
+| virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | À des fins internes uniquement. |
+| **bool** [get_AdjustHandlesLocked](./get_adjusthandleslocked/)() override | Détermine si la modification des valeurs d’ajustement est interdite. Lecture **bool**. |
+| **bool** [get_ArrowheadsLocked](./get_arrowheadslocked/)() override | Détermine si la modification des pointes de flèche est interdite. Lecture **bool**. |
+| **bool** [get_AspectRatioLocked](./get_aspectratiolocked/)() override | Détermine si une forme doit conserver son ratio d’aspect lors du redimensionnement. Lecture **bool**. |
+| **bool** [get_EditPointsLocked](./get_editpointslocked/)() override | Détermine si la modification directe du contour de cette forme est interdite. Lecture **bool**. |
+| **bool** [get_GroupingLocked](./get_groupinglocked/)() override | Détermine si l’ajout de cette forme à un groupe est interdit. Lecture **bool**. |
+| **bool** [get_NoLocks](../baseshapelock/get_nolocks/)() override | Retourne true si tous les indicateurs de verrouillage sont désactivés. Lecture-seule **bool**. |
+| **bool** [get_PositionLocked](./get_positionlocked/)() override | Détermine si le déplacement de cette forme est interdit. Lecture **bool**. |
+| **bool** [get_RotateLocked](./get_rotatelocked/)() override | Détermine si la modification de l’angle de rotation de cette forme est interdite. Lecture **bool**. |
+| **bool** [get_SelectLocked](./get_selectlocked/)() override | Détermine si la sélection de cette forme est interdite. Lecture **bool**. |
+| **bool** [get_ShapeTypeLocked](./get_shapetypelocked/)() override | Détermine si la modification du type d’une forme est interdite. Lecture **bool**. |
+| **bool** [get_SizeLocked](./get_sizelocked/)() override | Détermine si le redimensionnement de cette forme est interdit. Lecture **bool**. |
+| **bool** [get_TextLocked](./get_textlocked/)() override | Détermine si l’édition de texte est interdite. Lecture **bool**. |
+| Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Obtient la structure de données du compteur de références associée à l’objet. |
+| virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | Analogue de la méthode C# [Object.GetHashCode()](../../system/object/gethashcode/). Permet le hachage d’objets personnalisés. |
+| virtual const [TypeInfo](../../system/typeinfo/)\& [GetType](../../system/object/gettype/)() const | Obtient le type réel de l’objet. Analogue de l’appel C# [System.Object.GetType()](../../system/object/gettype/). |
+| virtual **bool** [Is](../../system/object/is/)(const [TypeInfo](../../system/typeinfo/)\&) const | Vérifie si l’objet représente une instance du type décrit par targetType. Analogue de l’opérateur C# ‘is’. |
+| void [Lock](../../system/object/lock/)() | Implémente le verrouillage de l’instruction C# lock(). Appelez directement ou utilisez l’objet sentinelle [LockContext](../../system/lockcontext/). |
+| virtual [ptr](../../system/object/ptr/) [MemberwiseClone](../../system/object/memberwiseclone/)() const | Analogue de la méthode C# [Object.MemberwiseClone()](../../system/object/memberwiseclone/). Permet le clonage de types personnalisés. |
+|  [Object](../../system/object/object/)() | Crée l’objet. Initialise toutes les structures de données internes. |
+|  [Object](../../system/object/object/)([Object](../../system/object/) const\&) | Constructeur de copie. Ne copie rien, en fait, il se contente d’initialiser un nouvel objet et permet la construction par copie des sous-classes. |
+| [Object](../../system/object/)\& [operator=](../../system/object/operator_equal/)([Object](../../system/object/) const\&) | Opérateur d’affectation. Ne copie rien, en fait, il se contente d’initialiser un nouvel objet et permet la construction par copie des sous-classes. |
+| static **bool** [ReferenceEquals](../../system/object/referenceequals/)([ptr](../../system/object/ptr/) const\&, [ptr](../../system/object/ptr/) const\&) | Compare les objets par référence. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, T const\&) | Compare les objets par référence. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, std::nullptr_t) | Compare par référence un objet de type valeur avec nullptr. |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, std::nullptr_t) | Spécialisation de [Object::ReferenceEquals](../../system/object/referenceequals/) pour le cas d’une chaîne et nullptr. |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | Spécialisation de [Object::ReferenceEquals](../../system/object/referenceequals/) pour le cas de chaînes. |
+| int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Diminue le compteur de références partagées de la valeur spécifiée. |
+| void [set_AdjustHandlesLocked](./set_adjusthandleslocked/)(**bool**) override | Détermine si la modification des valeurs d’ajustement est interdite. Écriture **bool**. |
+| void [set_ArrowheadsLocked](./set_arrowheadslocked/)(**bool**) override | Détermine si la modification des pointes de flèche est interdite. Écriture **bool**. |
+| void [set_AspectRatioLocked](./set_aspectratiolocked/)(**bool**) override | Détermine si une forme doit conserver son ratio d’aspect lors du redimensionnement. Écriture **bool**. |
+| void [set_EditPointsLocked](./set_editpointslocked/)(**bool**) override | Détermine si la modification directe du contour de cette forme est interdite. Écriture **bool**. |
+| void [set_GroupingLocked](./set_groupinglocked/)(**bool**) override | Détermine si l’ajout de cette forme à un groupe est interdit. Écriture **bool**. |
+| void [set_PositionLocked](./set_positionlocked/)(**bool**) override | Détermine si le déplacement de cette forme est interdit. Écriture **bool**. |
+| void [set_RotateLocked](./set_rotatelocked/)(**bool**) override | Détermine si la modification de l’angle de rotation de cette forme est interdite. Écriture **bool**. |
+| void [set_SelectLocked](./set_selectlocked/)(**bool**) override | Détermine si la sélection de cette forme est interdite. Écriture **bool**. |
+| void [set_ShapeTypeLocked](./set_shapetypelocked/)(**bool**) override | Détermine si la modification du type d’une forme est interdite. Écriture **bool**. |
+| void [set_SizeLocked](./set_sizelocked/)(**bool**) override | Détermine si le redimensionnement de cette forme est interdit. Écriture **bool**. |
+| void [set_TextLocked](./set_textlocked/)(**bool**) override | Détermine si l’édition de texte est interdite. Écriture **bool**. |
+| virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | Définit le n'th argument de modèle comme un pointeur faible (plutôt que partagé). Permet de changer les pointeurs dans les conteneurs en mode faible. |
+| int [SharedCount](../../system/object/sharedcount/)() const | Obtient la valeur actuelle du compteur de références partagées. |
+| [Object](../../system/object/) * [SharedRefAdded](../../system/object/sharedrefadded/)() | Incrémente le compteur de références partagées. Ne doit pas être appelé directement ; utilisez plutôt des pointeurs intelligents ou ThisProtector. |
+| int [SharedRefRemovedSafe](../../system/object/sharedrefremovedsafe/)() | Décrémente et renvoie le compteur de références partagées. Ne doit pas être appelé directement ; utilisez plutôt des pointeurs intelligents ou ThisProtector. |
+| virtual [String](../../system/string/) [ToString](../../system/object/tostring/)() const | Analogue de la méthode C# [Object.ToString()](../../system/object/tostring/). Permet de convertir des objets personnalisés en chaîne. |
+| static const [TypeInfo](../../system/typeinfo/)\& [Type](../../system/object/type/)() | Implémente la construction C# typeof([System.Object](../../system/object/)). |
+| void [Unlock](../../system/object/unlock/)() | Implémente le déverrouillage de l’instruction C# lock(). Appelez directement ou utilisez l’objet sentinelle [LockContext](../../system/lockcontext/). |
+| Detail::SmartPtrCounter * [WeakRefAdded](../../system/object/weakrefadded/)() | Incrémente le compteur de références faibles. Ne doit pas être appelé directement ; utilisez plutôt des pointeurs intelligents ou ThisProtector. |
+| void [WeakRefRemoved](../../system/object/weakrefremoved/)() | Décrémente le compteur de références faibles. Ne doit pas être appelé directement ; utilisez plutôt des pointeurs intelligents ou ThisProtector. |
+| virtual  [~Object](../../system/object/~object/)() | Détruit l’objet. Libère toutes les structures de données internes. |
+
+## Voir aussi
+
+* Classe [BaseShapeLock](../baseshapelock/)
+* Classe [IAutoShapeLock](../iautoshapelock/)
+* Espace de noms [Aspose::Slides](../)
+* Bibliothèque [Aspose.Slides](../../)

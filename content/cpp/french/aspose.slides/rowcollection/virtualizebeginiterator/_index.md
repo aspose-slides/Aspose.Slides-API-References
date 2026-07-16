@@ -1,0 +1,30 @@
+---
+title: virtualizeBeginIterator()
+second_title: Référence API Aspose.Slides pour C++
+description: Obtient un iterator pointant vers le premier élément (le cas échéant) de la collection.
+type: docs
+weight: 170
+url: /fr/aspose.slides/rowcollection/virtualizebeginiterator/
+---
+## RowCollection::virtualizeBeginIterator() méthode
+
+
+Obtient un iterator pointant vers le premier élément (le cas échéant) de la collection.
+
+```cpp
+virtualized_iterator * Aspose::Slides::RowCollection::virtualizeBeginIterator() override
+```
+
+
+### Valeur de retour
+
+Un iterator pointant vers le premier élément (le cas échéant) de la collection Fournit une implémentation d'iterator au premier élément du conteneur. 
+
+Objet iterator nouvellement créé.
+
+## Voir aussi
+
+* Typedef [virtualized_iterator](../virtualized_iterator/)
+* Classe [RowCollection](../)
+* Espace de noms [Aspose::Slides](../../)
+* Bibliothèque [Aspose.Slides](../../../)

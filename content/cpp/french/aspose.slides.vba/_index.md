@@ -1,0 +1,29 @@
+---
+title: "Aspose::Slides::Vba"
+second_title: Référence de l'API Aspose.Slides pour C++
+description: 
+type: docs
+weight: 248
+url: /fr/aspose.slides.vba/
+---
+## Classes
+
+| Classe | Description |
+| --- | --- |
+| [IVbaModule](./ivbamodule/) | Représente le module qui est contenu dans un projet VBA. |
+| [IVbaModuleCollection](./ivbamodulecollection/) | Représente une collection de modules d'un projet VBA. |
+| [IVbaProject](./ivbaproject/) | Représente un projet VBA avec des macros de présentation. |
+| [IVbaProjectFactory](./ivbaprojectfactory/) | Permet de créer un projet VBA via l'interface COM. |
+| [IVbaReference](./ivbareference/) | Représente le nom de la référence du projet VBA. |
+| [IVbaReferenceCollection](./ivbareferencecollection/) | Représente une collection de références de projet VBA. |
+| [IVbaReferenceFactory](./ivbareferencefactory/) | Permet de créer des références de projet VBA via l'interface COM. |
+| [IVbaReferenceOleTwiddledTypeLib](./ivbareferenceoletwiddledtypelib/) | Représente une référence de bibliothèque de types OLE Automation modifiée dans laquelle tous les contrôles sont marqués comme extensibles. |
+| [IVbaReferenceOleTypeLib](./ivbareferenceoletypelib/) | Représente une référence de bibliothèque de types OLE Automation. |
+| [IVbaReferenceProject](./ivbareferenceproject/) | Représente une référence à un projet VBA externe. |
+| [VbaModule](./vbamodule/) | Représente le module qui est contenu dans un projet VBA. |
+| [VbaModuleCollection](./vbamodulecollection/) | Représente une collection de modules d'un projet VBA. |
+| [VbaProject](./vbaproject/) | Représente un projet VBA avec des macros de présentation. |
+| [VbaProjectFactory](./vbaprojectfactory/) | Permet de créer un projet VBA via l'interface COM. |
+| [VbaReferenceCollection](./vbareferencecollection/) | Représente une collection de références de projet VBA. |
+| [VbaReferenceFactory](./vbareferencefactory/) | Permet de créer des références de projet VBA via l'interface COM. |
+| [VbaReferenceOleTypeLib](./vbareferenceoletypelib/) | Représente une référence de bibliothèque de types OLE Automation. |

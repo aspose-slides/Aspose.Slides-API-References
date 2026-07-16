@@ -1,0 +1,26 @@
+---
+title: get_Position()
+second_title: Référence API Aspose.Slides pour C++
+description: Renvoie la position du guide de dessin en points depuis le coin supérieur gauche de la diapositive. Lecture float.
+type: docs
+weight: 27
+url: /fr/aspose.slides/drawingguide/get_position/
+---
+## DrawingGuide::get_Position() méthode
+
+
+Renvoie la position du guide de dessin en points depuis le coin supérieur gauche de la diapositive. Lecture **float**.
+
+```cpp
+float Aspose::Slides::DrawingGuide::get_Position() override
+```
+
+## Remarques
+
+
+L'intervalle de valeurs typique va de zéro à la hauteur de la diapositive pour un guide horizontal et de zéro à la largeur de la diapositive pour un guide vertical. 
+## Voir aussi
+
+* Classe [DrawingGuide](../)
+* Espace de noms [Aspose::Slides](../../)
+* Bibliothèque [Aspose.Slides](../../../)
