@@ -1,0 +1,32 @@
+---
+title: get_BaseJustification()
+second_title: Référence de l'API Aspose.Slides pour C++
+description: "Spécifie l'alignement du tableau par rapport au texte environnant. Le texte à l'extérieur du tableau peut être aligné avec le bas, le haut ou le centre d'un objet tableau. Valeur par défaut: Center"
+type: docs
+weight: 14
+url: /fr/aspose.slides.mathtext/imatharray/get_basejustification/
+---
+## IMathArray::get_BaseJustification() méthode
+
+
+Spécifie l'alignement du tableau par rapport au texte environnant. Le texte à l'extérieur du tableau peut être aligné avec le bas, le haut ou le centre d'un objet tableau. Valeur par défaut: Center
+
+```cpp
+virtual MathVerticalAlignment Aspose::Slides::MathText::IMathArray::get_BaseJustification()=0
+```
+
+## Remarques
+
+
+Exemple: 
+```cpp
+auto mathArray = System::MakeObject<MathArray>(System::MakeObject<MathematicalText>(u"item1"));
+mathArray->set_BaseJustification(MathVerticalAlignment::Top);
+```
+
+## Voir aussi
+
+* Enum [MathVerticalAlignment](../../mathverticalalignment/)
+* Classe [IMathArray](../)
+* Espace de noms [Aspose::Slides::MathText](../../)
+* Bibliothèque [Aspose.Slides](../../../)

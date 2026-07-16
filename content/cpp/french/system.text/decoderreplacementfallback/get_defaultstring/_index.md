@@ -1,0 +1,26 @@
+---
+title: get_DefaultString()
+second_title: Aspose.Slides pour C++ Référence de l'API
+description: Obtient la chaîne de remplacement.
+type: docs
+weight: 14
+url: /fr/system.text/decoderreplacementfallback/get_defaultstring/
+---
+## DecoderReplacementFallback::get_DefaultString() const méthode
+
+Obtient la chaîne de remplacement.
+
+```cpp
+const String & System::Text::DecoderReplacementFallback::get_DefaultString() const
+```
+
+### Valeur de retour
+
+Chaîne de remplacement.
+
+## Voir aussi
+
+* Classe [String](../../../system/string/)
+* Classe [DecoderReplacementFallback](../)
+* Espace de noms [System::Text](../../)
+* Bibliothèque [Aspose.Slides](../../../)
