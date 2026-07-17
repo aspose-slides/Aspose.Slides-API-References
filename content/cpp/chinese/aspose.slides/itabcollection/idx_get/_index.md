@@ -1,0 +1,23 @@
+---
+title: idx_get()
+second_title: Aspose.Slides C++ API 参考
+description: 获取指定索引处的元素。只读 ITab。
+type: docs
+weight: 1
+url: /zh/aspose.slides/itabcollection/idx_get/
+---
+## ITabCollection::idx_get(int32_t) 方法
+
+获取指定索引处的元素。只读 [ITab](../../itab/).
+
+```cpp
+virtual System::SharedPtr<ITab> Aspose::Slides::ITabCollection::idx_get(int32_t index)=0
+```
+
+## 另请参阅
+
+* 类型定义 [SharedPtr](../../../system/sharedptr/)
+* 类 [ITab](../../itab/)
+* 类 [ITabCollection](../)
+* 命名空间 [Aspose::Slides](../../)
+* 库 [Aspose.Slides](../../../)

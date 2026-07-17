@@ -1,0 +1,39 @@
+---
+title: begin()
+second_title: Aspose.Slides for C++ API 参考
+description: 获取指向集合中第一个元素（如果有）的迭代器。
+type: docs
+weight: 105
+url: /zh/aspose.slides.animation/textanimationcollection/begin/
+---
+## TextAnimationCollection::begin() 方法
+
+获取指向集合中第一个元素（如果有）的迭代器。
+
+```cpp
+iterator Aspose::Slides::Animation::TextAnimationCollection::begin() noexcept
+```
+
+### 返回值
+
+指向集合中第一个元素（如果有）的迭代器
+
+## TextAnimationCollection::begin() const 方法
+
+获取指向集合的 const 限定实例中第一个元素（如果有）的迭代器。
+
+```cpp
+const_iterator Aspose::Slides::Animation::TextAnimationCollection::begin() const noexcept
+```
+
+### 返回值
+
+指向 const 限定实例中第一个元素（如果有）的迭代器
+
+## 另见
+
+* Typedef [iterator](../iterator/)
+* Typedef [const_iterator](../const_iterator/)
+* 类 [TextAnimationCollection](../)
+* 命名空间 [Aspose::Slides::Animation](../../)
+* Library [Aspose.Slides](../../../)

@@ -1,0 +1,29 @@
+---
+title: ResourceLoadingAction
+second_title: Aspose.Slides C++ API 参考
+description: 指定外部资源加载的模式。
+type: docs
+weight: 6761
+url: /zh/aspose.slides/resourceloadingaction/
+---
+## ResourceLoadingAction 枚举
+
+
+指定外部资源加载的模式。
+
+```cpp
+enum class ResourceLoadingAction
+```
+
+### 值
+
+| 名称 | 值 | 描述 |
+| --- | --- | --- |
+| Default | 0 | [Aspose.Slides](../) 将像往常一样加载外部资源。 |
+| Skip | 1 | [Aspose.Slides](../) 将跳过外部资源的加载。仅会为图像存储没有数据的链接。 |
+| UserProvided | 2 | [Aspose.Slides](../) 将使用用户在 [IResourceLoadingArgs::SetData](../iresourceloadingargs/setdata/) 中提供的字节数组作为图像数据。 |
+
+## 另请参见
+
+* 命名空间 [Aspose::Slides](../)
+* 库 [Aspose.Slides](../../)

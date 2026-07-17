@@ -1,0 +1,22 @@
+---
+title: set_Distance()
+second_title: Aspose.Slides for C++ API 参考
+description: 阴影距离对象的距离，单位为点。默认值 \\u2013 0 pt。写入 double。
+type: docs
+weight: 66
+url: /zh/aspose.slides.effects/ioutershadow/set_distance/
+---
+## IOuterShadow::set_Distance(double) 方法
+
+
+阴影距离对象的距离，单位为点。默认值 \\u2013 0 pt。写入 **double**。
+
+```cpp
+virtual void Aspose::Slides::Effects::IOuterShadow::set_Distance(double value)=0
+```
+
+## 另见
+
+* 类 [IOuterShadow](../)
+* 命名空间 [Aspose::Slides::Effects](../../)
+* 库 [Aspose.Slides](../../../)
