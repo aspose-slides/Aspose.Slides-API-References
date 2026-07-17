@@ -1,0 +1,21 @@
+---
+title: virtualized_iterator_element
+second_title: Aspose.Slides for C++ API 参考
+description: 虚拟化元素类型。
+type: docs
+weight: 261
+url: /zh/aspose.slides.animation/motionpath/virtualized_iterator_element/
+---
+## virtualized_iterator_element 类型定义
+
+虚拟化元素类型。
+
+```cpp
+using Aspose::Slides::Animation::MotionPath::virtualized_iterator_element =  typename iterator_holder_type::virtualized_iterator_element
+```
+
+## 另请参见
+
+* 类 [MotionPath](../)
+* 命名空间 [Aspose::Slides::Animation](../../)
+* 库 [Aspose.Slides](../../../)

@@ -1,0 +1,41 @@
+---
+title: MaterialPresetType
+second_title: Aspose.Slides C++ API 参考
+description: 定义形状材质的常量。
+type: docs
+weight: 6085
+url: /zh/aspose.slides/materialpresettype/
+---
+## MaterialPresetType enum
+
+定义形状材质的常量。
+
+```cpp
+enum class MaterialPresetType
+```
+
+### 值
+
+| 名称 | 值 | 描述 |
+| --- | --- | --- |
+| NotDefined | -1 |  |
+| Clear | 0 |  |
+| DkEdge | 1 |  |
+| Flat | 2 |  |
+| LegacyMatte | 3 |  |
+| LegacyMetal | 4 |  |
+| LegacyPlastic | 5 |  |
+| LegacyWireframe | 6 |  |
+| Matte | 7 |  |
+| Metal | 8 |  |
+| Plastic | 9 |  |
+| Powder | 10 |  |
+| SoftEdge | 11 |  |
+| Softmetal | 12 |  |
+| TranslucentPowder | 13 |  |
+| WarmMatte | 14 |  |
+
+## 另请参见
+
+* 命名空间 [Aspose::Slides](../)
+* 库 [Aspose.Slides](../../)
