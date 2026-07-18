@@ -1,0 +1,112 @@
+---
+title: "System::Xml::Schema"
+second_title: Αναφορά API Aspose.Slides για C++
+description: 
+type: docs
+weight: 1145
+url: /el/system.xml.schema/
+---
+## Κλάσεις
+
+| Κλάση | Περιγραφή |
+| --- | --- |
+| [Details_XmlSchemaException](./details_xmlschemaexception/) | Επιστρέφει λεπτομερείς πληροφορίες για την εξαίρεση σχήματος. |
+| [Details_XmlSchemaInferenceException](./details_xmlschemainferenceexception/) | Επιστρέφει πληροφορίες για τα σφάλματα που αντιμετώπισε η κλάση [XmlSchemaInference](./xmlschemainference/) κατά την εξαγωγή σχήματος από ένα έγγραφο XML. |
+| [Details_XmlSchemaValidationException](./details_xmlschemavalidationexception/) | Αναπαριστά την εξαίρεση που ρίχνεται όταν λαμβάνονται σφάλματα και προειδοποιήσεις επικύρωσης σχήματος XML [Schema](./) Definition Language (XSD) σε ένα έγγραφο XML που επικυρώνεται. |
+| [IXmlSchemaInfo](./ixmlschemainfo/) | Ορίζει το σύνολο πληροφοριών μετά την επικύρωση σχήματος (infoset) ενός επικυρωμένου κόμβου XML. |
+| [ValidationEventArgs](./validationeventargs/) | Επιστρέφει λεπτομερείς πληροφορίες σχετικές με το ValidationEventHandler. |
+| [XmlAtomicValue](./xmlatomicvalue/) | Αναπαριστά την τυποποιημένη τιμή ενός επικυρωμένου στοιχείου ή χαρακτηριστικού XML. Η κλάση [XmlAtomicValue](./xmlatomicvalue/) δεν μπορεί να κληρονομηθεί. |
+| [XmlSchema](./xmlschema/) | Μια αναπαράσταση στη μνήμη ενός XML [Schema](./), όπως ορίζεται στο World Wide [Web](../system.web/) Consortium (W3C) [XML Schema Part 1: Structures](https://www.w3.org/TR/xmlschema-1/) και [XML Schema Part 2: Datatypes](https://www.w3.org/TR/xmlschema-2/). |
+| [XmlSchemaAll](./xmlschemaall/) | Αναπαριστά το στοιχείο **all** του World Wide [Web](../system.web/) Consortium (W3C) (συναθροιστής). |
+| [XmlSchemaAnnotated](./xmlschemaannotated/) | Η βασική κλάση για οποιοδήποτε στοιχείο που μπορεί να περιέχει στοιχεία σημειώσεων. |
+| [XmlSchemaAnnotation](./xmlschemaannotation/) | Αναπαριστά το στοιχείο **annotation** του World Wide [Web](../system.web/) Consortium (W3C). |
+| [XmlSchemaAny](./xmlschemaany/) | Αναπαριστά το στοιχείο **any** του World Wide [Web](../system.web/) Consortium (W3C). |
+| [XmlSchemaAnyAttribute](./xmlschemaanyattribute/) | Αναπαριστά το στοιχείο **anyAttribute** του World Wide [Web](../system.web/) Consortium (W3C). |
+| [XmlSchemaAppInfo](./xmlschemaappinfo/) | Αναπαριστά το στοιχείο **appinfo** του World Wide [Web](../system.web/) Consortium (W3C). |
+| [XmlSchemaAttribute](./xmlschemaattribute/) | Αναπαριστά το στοιχείο **attribute** από το XML [Schema](./) όπως ορίζεται από το World Wide [Web](../system.web/) Consortium (W3C). Τα χαρακτηριστικά παρέχουν πρόσθετες πληροφορίες για άλλα στοιχεία του εγγράφου. Η ετικέτα attribute τοποθετείται εντός των ετικετών ενός στοιχείου εγγράφου για το σχήμα. Το έγγραφο XML εμφανίζει τα χαρακτηριστικά ως ονομασμένα στοιχεία στην ανοικτή ετικέτα ενός στοιχείου. |
+| [XmlSchemaAttributeGroup](./xmlschemaattributegroup/) | Αναπαριστά το στοιχείο **attributeGroup** από το XML [Schema](./) όπως ορίζεται από το World Wide [Web](../system.web/) Consortium (W3C). Τα AttributesGroups παρέχουν μηχανισμό ομαδοποίησης ενός συνόλου δηλώσεων χαρακτηριστικών ώστε να μπορούν να ενσωματωθούν ως ομάδα σε ορισμούς σύνθετων τύπων. |
+| [XmlSchemaAttributeGroupRef](./xmlschemaattributegroupref/) | Αναπαριστά το στοιχείο **attributeGroup** με το χαρακτηριστικό **ref** από το XML [Schema](./) όπως ορίζεται από το [World Wide Web Consortium (W3C)](https://go.microsoft.com/fwlink/?LinkId=49454). Το AttributesGroupRef είναι η αναφορά για ένα attributeGroup· η ιδιότητα name περιέχει την ομάδα χαρακτηριστικών που παραπέρεται. |
+| [XmlSchemaChoice](./xmlschemachoice/) | Αναπαριστά το στοιχείο **choice** (συναθροιστής) από το XML [Schema](./) όπως ορίζεται από το World Wide [Web](../system.web/) Consortium (W3C). Το **choice** επιτρέπει να εμφανιστεί μόνο ένα από τα παιδιά του σε μια παρουσία. |
+| [XmlSchemaCollection](./xmlschemacollection/) | Περιέχει μια προσωρινή μνήμη (cache) σχήματος XML [Schema](./) definition language (XSD) και XML-Data Reduced (XDR). |
+| [XmlSchemaCollectionEnumerator](./xmlschemacollectionenumerator/) | Υποστηρίζει απλή επανάληψη σε μια συλλογή. Η κλάση αυτή δεν μπορεί να κληρονομηθεί. |
+| [XmlSchemaCompilationSettings](./xmlschemacompilationsettings/) | Παρέχει επιλογές σύνθεσης σχήματος για την κλάση [XmlSchemaSet](./xmlschemaset/). Η κλάση αυτή δεν μπορεί να κληρονομηθεί. |
+| [XmlSchemaComplexContent](./xmlschemacomplexcontent/) | Αναπαριστά το στοιχείο **complexContent** από το XML [Schema](./) όπως ορίζεται από το World Wide [Web](../system.web/) Consortium (W3C). Η κλάση αυτή αναπαριστά το μοντέλο σύνθετου περιεχομένου για σύνθετους τύπους. Περιέχει επεκτάσεις ή περιορισμούς σε έναν σύνθετο τύπο που έχει είτε μόνο στοιχεία είτε αναμεμιγμένο περιεχόμενο. |
+| [XmlSchemaComplexContentExtension](./xmlschemacomplexcontentextension/) | Αναπαριστά το στοιχείο **extension** από το XML [Schema](./) όπως ορίζεται από το World Wide [Web](../system.web/) Consortium (W3C). Η κλάση αυτή προορίζεται για σύνθετους τύπους με μοντέλο σύνθετου περιεχομένου που προέρχεται από επέκταση. Επεκτείνει τον σύνθετο τύπο προσθέτοντας χαρακτηριστικά ή στοιχεία. |
+| [XmlSchemaComplexContentRestriction](./xmlschemacomplexcontentrestriction/) | Αναπαριστά το στοιχείο **restriction** από το XML [Schema](./) όπως ορίζεται από το World Wide [Web](../system.web/) Consortium (W3C). Η κλάση αυτή προορίζεται για σύνθετους τύπους με μοντέλο σύνθετου περιεχομένου που προέρχεται από περιορισμό. Περιορίζει το περιεχόμενο του σύνθετου τύπου σε ένα υποσύνολο του κληρονομημένου σύνθετου τύπου. |
+| [XmlSchemaComplexType](./xmlschemacomplextype/) | Αναπαριστά το στοιχείο **complexType** από το XML [Schema](./) όπως ορίζεται από το World Wide [Web](../system.web/) Consortium (W3C). Η κλάση αυτή ορίζει έναν σύνθετο τύπο που καθορίζει το σύνολο των χαρακτηριστικών και το περιεχόμενο ενός στοιχείου. |
+| [XmlSchemaContent](./xmlschemacontent/) | Μια αφηρημένη κλάση για το περιεχόμενο σχήματος. |
+| [XmlSchemaContentModel](./xmlschemacontentmodel/) | Καθορίζει τη σειρά και τη δομή των θυγατρικών στοιχείων ενός τύπου. |
+| [XmlSchemaDatatype](./xmlschemadatatype/) | Η κλάση [XmlSchemaDatatype](./xmlschemadatatype/) είναι μια αφηρημένη κλάση για τη χαρτογράφηση τύπων XML [Schema](./) definition language (XSD) σε τύπους χρόνου εκτέλεσης. |
+| [XmlSchemaDocumentation](./xmlschemadocumentation/) | Αναπαριστά το στοιχείο **documentation** από το XML [Schema](./) όπως ορίζεται από το World Wide [Web](../system.web/) Consortium (W3C). Η κλάση αυτή καθορίζει πληροφορίες που θα διαβαστούν ή θα χρησιμοποιηθούν από ανθρώπους εντός μιας **annotation**. |
+| [XmlSchemaElement](./xmlschemaelement/) | Αναπαριστά το στοιχείο **element** από το XML [Schema](./) όπως ορίζεται από το World Wide [Web](../system.web/) Consortium (W3C). Η κλάση αυτή είναι η βασική κλάση για όλους τους τύπους σωματιδίων και χρησιμοποιείται για την περιγραφή ενός στοιχείου σε ένα έγγραφο XML. |
+| [XmlSchemaEnumerationFacet](./xmlschemaenumerationfacet/) | Αναπαριστά το χαρακτηριστικό **enumeration** από το XML [Schema](./) όπως ορίζεται από το World Wide [Web](../system.web/) Consortium (W3C). Η κλάση αυτή καθορίζει μια λίστα έγκυρων τιμών για ένα στοιχείο simpleType. Η δήλωση περιλαμβάνεται σε μια δήλωση **restriction**. |
+| [XmlSchemaExternal](./xmlschemaexternal/) | Παρέχει πληροφορίες σχετικά με το περιλαμβανόμενο σχήμα. |
+| [XmlSchemaFacet](./xmlschemafacet/) | Μια βασική κλάση για όλα τα χαρακτηριστικά που χρησιμοποιούνται όταν τα απλά τύπους προέρχονται από περιορισμό. |
+| [XmlSchemaFractionDigitsFacet](./xmlschemafractiondigitsfacet/) | Καθορίζει περιορισμό στον αριθμό ψηφίων που μπορούν να εισαχθούν για την τιμή κλασματικού μέρους ενός στοιχείου simpleType. Η τιμή fractionDigits πρέπει να είναι θετικός ακέραιος. Αναπαριστά το χαρακτηριστικό **fractionDigits** του World Wide [Web](../system.web/) Consortium (W3C). |
+| [XmlSchemaGroup](./xmlschemagroup/) | Αναπαριστά το στοιχείο **group** από το XML [Schema](./) όπως ορίζεται από το World Wide [Web](../system.web/) Consortium (W3C). Η κλάση αυτή ορίζει ομάδες στο επίπεδο **schema** που παραπέμπονται από τους σύνθετους τύπους. Ομαδοποιεί ένα σύνολο δηλώσεων στοιχείων ώστε να μπορούν να ενσωματωθούν ως ομάδα σε ορισμούς σύνθετων τύπων. |
+| [XmlSchemaGroupBase](./xmlschemagroupbase/) | Μια αφηρημένη κλάση για [XmlSchemaAll](./xmlschemaall/), [XmlSchemaChoice](./xmlschemachoice/) ή [XmlSchemaSequence](./xmlschemasequence/). |
+| [XmlSchemaGroupRef](./xmlschemagroupref/) | Αναπαριστά το στοιχείο **group** με χαρακτηριστικό **ref** από το XML [Schema](./) όπως ορίζεται από το World Wide [Web](../system.web/) Consortium (W3C). Η κλάση αυτή χρησιμοποιείται εντός σύνθετων τύπων που παραπέμπουν σε **group** ορισμένο στο επίπεδο **schema**. |
+| [XmlSchemaIdentityConstraint](./xmlschemaidentityconstraint/) | Κλάση για τους περιορισμούς ταυτοποίησης: στοιχεία **key**, **keyref** και **unique**. |
+| [XmlSchemaImport](./xmlschemaimport/) | Αναπαριστά το στοιχείο **import** από το XML [Schema](./) όπως ορίζεται από το World Wide [Web](../system.web/) Consortium (W3C). Η κλάση αυτή χρησιμοποιείται για την εισαγωγή εξαρτημάτων σχήματος από άλλα σχήματα. |
+| [XmlSchemaInclude](./xmlschemainclude/) | Αναπαριστά το στοιχείο **include** από το XML [Schema](./) όπως ορίζεται από το World Wide [Web](../system.web/) Consortium (W3C). Η κλάση αυτή χρησιμοποιείται για την ένταξη δηλώσεων και ορισμών από εξωτερικό σχήμα. Οι ενσωματωμένες δηλώσεις και ορισμοί είναι στη συνέχεια διαθέσιμα για επεξεργασία στο περιέχον σχήμα. |
+| [XmlSchemaInference](./xmlschemainference/) | Εξάγει ένα σχήμα XML [Schema](./) Definition Language (XSD) από ένα έγγραφο XML. Η κλάση [XmlSchemaInference](./xmlschemainference/) δεν μπορεί να κληρονομηθεί. |
+| [XmlSchemaInfo](./xmlschemainfo/) | Αναπαριστά το σύνολο πληροφοριών μετά την επικύρωση σχήματος (infoset) ενός επικυρωμένου κόμβου XML. |
+| [XmlSchemaKey](./xmlschemakey/) | Αυτή η κλάση αναπαριστά το στοιχείο **key** από το XMLSchema όπως ορίζεται από το World Wide [Web](../system.web/) Consortium (W3C). |
+| [XmlSchemaKeyref](./xmlschemakeyref/) | Αυτή η κλάση αναπαριστά το στοιχείο **keyref** από το XMLSchema όπως ορίζεται από το World Wide [Web](../system.web/) Consortium (W3C). |
+| [XmlSchemaLengthFacet](./xmlschemalengthfacet/) | Αναπαριστά το χαρακτηριστικό **length** από το XML [Schema](./) όπως ορίζεται από το World Wide [Web](../system.web/) Consortium (W3C). Η κλάση αυτή μπορεί να χρησιμοποιηθεί για τον καθορισμό περιορισμού στο μήκος ενός στοιχείου **simpleType** για τον τύπο δεδομένων. |
+| [XmlSchemaMaxExclusiveFacet](./xmlschemamaxexclusivefacet/) | Αναπαριστά το στοιχείο **maxExclusive** από το XML [Schema](./) όπως ορίζεται από το World Wide [Web](../system.web/) Consortium (W3C). Η κλάση αυτή μπορεί να χρησιμοποιηθεί για τον καθορισμό περιορισμού στη μέγιστη τιμή ενός στοιχείου **simpleType**. Η τιμή του στοιχείου πρέπει να είναι μικρότερη από την τιμή του στοιχείου **maxExclusive**. |
+| [XmlSchemaMaxInclusiveFacet](./xmlschemamaxinclusivefacet/) | Αναπαριστά το στοιχείο **maxInclusive** από το XML [Schema](./) όπως ορίζεται από το World Wide [Web](../system.web/) Consortium (W3C). Η κλάση αυτή μπορεί να χρησιμοποιηθεί για τον καθορισμό περιορισμού στη μέγιστη τιμή ενός στοιχείου **simpleType**. Η τιμή του στοιχείου πρέπει να είναι μικρότερη ή ίση με την τιμή του στοιχείου **maxInclusive**. |
+| [XmlSchemaMaxLengthFacet](./xmlschemamaxlengthfacet/) | Αναπαριστά το στοιχείο **maxLength** από το XML [Schema](./) όπως ορίζεται από το World Wide [Web](../system.web/) Consortium (W3C). Η κλάση αυτή μπορεί να χρησιμοποιηθεί για τον καθορισμό περιορισμού στο μέγιστο μήκος της τιμής δεδομένων ενός στοιχείου **simpleType**. Το μήκος πρέπει να είναι μικρότερο από την τιμή του στοιχείου **maxLength**. |
+| [XmlSchemaMinExclusiveFacet](./xmlschemaminexclusivefacet/) | Αναπαριστά το στοιχείο **minExclusive** από το XML [Schema](./) όπως ορίζεται από το World Wide [Web](../system.web/) Consortium (W3C). Η κλάση αυτή μπορεί να χρησιμοποιηθεί για τον καθορισμό περιορισμού στην ελάχιστη τιμή ενός στοιχείου **simpleType**. Η τιμή του στοιχείου πρέπει να είναι μεγαλύτερη από την τιμή του στοιχείου **minExclusive**. |
+| [XmlSchemaMinInclusiveFacet](./xmlschemamininclusivefacet/) | Αναπαριστά το στοιχείο **minInclusive** από το XML [Schema](./) όπως ορίζεται από το World Wide [Web](../system.web/) Consortium (W3C). Η κλάση αυτή μπορεί να χρησιμοποιηθεί για τον καθορισμό περιορισμού στην ελάχιστη τιμή ενός στοιχείου simpleType. Η τιμή του στοιχείου πρέπει να είναι μεγαλύτερη ή ίση με την τιμή του στοιχείου **minInclusive**. |
+| [XmlSchemaMinLengthFacet](./xmlschemaminlengthfacet/) | Αναπαριστά το στοιχείο **minLength** από το XML [Schema](./) όπως ορίζεται από το World Wide [Web](../system.web/) Consortium (W3C). Η κλάση αυτή μπορεί να χρησιμοποιηθεί για τον καθορισμό περιορισμού στο ελάχιστο μήκος της τιμής δεδομένων ενός στοιχείου **simpleType**. Το μήκος πρέπει να είναι μεγαλύτερο από την τιμή του στοιχείου **minLength**. |
+| [XmlSchemaNotation](./xmlschemanotation/) | Αναπαριστά το στοιχείο **notation** από το XML [Schema](./) όπως ορίζεται από το World Wide [Web](../system.web/) Consortium (W3C). Μια δήλωση **notation** XML [Schema](./) είναι μια ανασύνθεση των δηλώσεων **XML** 1.0 NOTATION. Ο σκοπός των σημειώσεων είναι η περιγραφή της μορφής μη-XML δεδομένων εντός ενός εγγράφου XML. |
+| [XmlSchemaNumericFacet](./xmlschemanumericfacet/) | Μια κλασική κλάση για τον ορισμό **numeric** χαρακτηριστικών. Αυτή η κλάση είναι η βασική κλάση για κλάσεις αριθμητικών χαρακτηριστικών όπως το [XmlSchemaMinLengthFacet](./xmlschemaminlengthfacet/). |
+| [XmlSchemaObject](./xmlschemaobject/) | Αναπαριστά την ριζική κλάση για την ιεραρχία μοντέλου αντικειμένων σχήματος [Xml](../system.xml/) και λειτουργεί ως βασική κλάση για κλάσεις όπως η κλάση [XmlSchema](./xmlschema/). |
+| [XmlSchemaObjectCollection](./xmlschemaobjectcollection/) | Μια συλλογή αντικειμένων XmlSchemaObjects. |
+| [XmlSchemaObjectEnumerator](./xmlschemaobjectenumerator/) | Αναπαριστά τον εικονοποιητή (enumerator) για το [XmlSchemaObjectCollection](./xmlschemaobjectcollection/). |
+| [XmlSchemaObjectTable](./xmlschemaobjecttable/) | Παρέχει τις συλλογές για τα περιεχόμενα στοιχεία στην κλάση [XmlSchema](./xmlschema/) (π.χ., Attributes, AttributeGroups, Elements κλπ.). |
+| [XmlSchemaParticle](./xmlschemaparticle/) | Μια βασική κλάση που είναι η βάσης για όλους τους τύπους σωματιδίων (π.χ. [XmlSchemaAny](./xmlschemaany/)). |
+| [XmlSchemaPatternFacet](./xmlschemapatternfacet/) | Αναπαριστά το στοιχείο **pattern** από το XML [Schema](./) όπως ορίζεται από το World Wide [Web](../system.web/) Consortium (W3C). Η κλάση αυτή μπορεί να χρησιμοποιηθεί για τον καθορισμό περιορισμού στην τιμή που εισάγεται για ένα στοιχείο **simpleType**. |
+| [XmlSchemaRedefine](./xmlschemaredefine/) | Αναπαριστά το στοιχείο **redefine** από το XML [Schema](./) όπως ορίζεται από το World Wide [Web](../system.web/) Consortium (W3C). Η κλάση αυτή μπορεί να χρησιμοποιηθεί για την επανακαθοριση απλών και σύνθετων τύπων, ομάδων και ομάδων χαρακτηριστικών από εξωτερικά αρχεία σχήματος στο τρέχον σχήμα. Μπορεί επίσης να χρησιμοποιηθεί για την παροχή έκδοσης (versioning) των στοιχείων του σχήματος. |
+| [XmlSchemaSequence](./xmlschemasequence/) | Αναπαριστά το στοιχείο **sequence** (συναθροιστής) από το XML [Schema](./) όπως ορίζεται από το World Wide [Web](../system.web/) Consortium (W3C). Η **sequence** απαιτεί τα στοιχεία στην ομάδα να εμφανίζονται με τη συγκεκριμένη σειρά εντός του περιβάλλοντος στοιχείου. |
+| [XmlSchemaSet](./xmlschemaset/) | Περιέχει μια προσωρινή μνήμη σχημάτων XML [Schema](./) definition language (XSD). |
+| [XmlSchemaSimpleContent](./xmlschemasimplecontent/) | Αναπαριστά το στοιχείο **simpleContent** από το XML [Schema](./) όπως ορίζεται από το World Wide [Web](../system.web/) Consortium (W3C). Η κλάση αυτή προορίζεται για απλούς και σύνθετους τύπους με μοντέλο απλού περιεχομένου. |
+| [XmlSchemaSimpleContentExtension](./xmlschemasimplecontentextension/) | Αναπαριστά το στοιχείο **extension** για απλό περιεχόμενο από το XML [Schema](./) όπως ορίζεται από το World Wide [Web](../system.web/) Consortium (W3C). Η κλάση αυτή μπορεί να χρησιμοποιηθεί για την παραγωγή απλών τύπων μέσω επέκτασης. Τέτοιες παραγώγες χρησιμοποιούνται για την επέκταση του περιεχομένου απλού τύπου του στοιχείου προσθέτοντας χαρακτηριστικά. |
+| [XmlSchemaSimpleContentRestriction](./xmlschemasimplecontentrestriction/) | Αναπαριστά το στοιχείο **restriction** για απλό περιεχόμενο από το XML [Schema](./) όπως ορίζεται από το World Wide [Web](../system.web/) Consortium (W3C). Η κλάση αυτή μπορεί να χρησιμοποιηθεί για την παραγωγή απλών τύπων μέσω περιορισμού. Τέτοιες παραγώγες μπορούν να περιορίσουν το εύρος τιμών του στοιχείου σε ένα υποσύνολο των τιμών που ορίζονται στον κληρονομημένο απλό τύπο. |
+| [XmlSchemaSimpleType](./xmlschemasimpletype/) | Αναπαριστά το στοιχείο **simpleType** για απλό περιεχόμενο από το XML [Schema](./) όπως ορίζεται από το World Wide [Web](../system.web/) Consortium (W3C). Η κλάση αυτή ορίζει έναν απλό τύπο. Οι απλοί τύποι μπορούν να καθορίζουν πληροφορίες και περιορισμούς για την τιμή χαρακτηριστικών ή στοιχείων με περιεχόμενο μόνο κειμένου. |
+| [XmlSchemaSimpleTypeContent](./xmlschemasimpletypecontent/) | Μια βασική κλάση για κλάσεις περιεχομένου απλού τύπου. |
+| [XmlSchemaSimpleTypeList](./xmlschemasimpletypelist/) | Αναπαριστά το στοιχείο **list** από το XML [Schema](./) όπως ορίζεται από το World Wide [Web](../system.web/) Consortium (W3C). Η κλάση αυτή μπορεί να χρησιμοποιηθεί για τον ορισμό ενός στοιχείου **simpleType** ως λίστα τιμών ενός καθορισμένου τύπου δεδομένων. |
+| [XmlSchemaSimpleTypeRestriction](./xmlschemasimpletyperestriction/) | Αναπαριστά το στοιχείο **restriction** για απλούς τύπους από το XML [Schema](./) όπως ορίζεται από το World Wide [Web](../system.web/) Consortium (W3C). Η κλάση αυτή μπορεί να χρησιμοποιηθεί για τον περιορισμό του στοιχείου **simpleType**. |
+| [XmlSchemaSimpleTypeUnion](./xmlschemasimpletypeunion/) | Αναπαριστά το στοιχείο **union** για απλούς τύπους από το XML [Schema](./) όπως ορίζεται από το World Wide [Web](../system.web/) Consortium (W3C). Ένας τύπος **union** μπορεί να χρησιμοποιηθεί για τον καθορισμό του περιεχομένου ενός **simpleType**. Η τιμή του στοιχείου **simpleType** πρέπει να είναι μία από τις εναλλακτικές τύπων δεδομένων που ορίζονται στην ένωση. Οι τύποι union είναι πάντα παράγωγοι τύποι και πρέπει να περιλαμβάνουν τουλάχιστο δύο εναλλακτικούς τύπους δεδομένων. |
+| [XmlSchemaTotalDigitsFacet](./xmlschematotaldigitsfacet/) | Αναπαριστά το χαρακτηριστικό **totalDigits** από το XML [Schema](./) όπως ορίζεται από το World Wide [Web](../system.web/) Consortium (W3C). Η κλάση αυτή μπορεί να χρησιμοποιηθεί για τον καθορισμό περιορισμού στον αριθμό ψηφίων που μπορούν να εισαχθούν για την τιμή ενός στοιχείου **simpleType**. Η τιμή **totalDigits** πρέπει να είναι θετικός ακέραιος. |
+| [XmlSchemaType](./xmlschematype/) | Η βασική κλάση για όλους τους απλούς και σύνθετους τύπους. |
+| [XmlSchemaUnique](./xmlschemaunique/) | Αναπαριστά το στοιχείο **unique** από το XML [Schema](./) όπως ορίζεται από το World Wide [Web](../system.web/) Consortium (W3C). Η κλάση αυτή μπορεί να χρησιμοποιηθεί για τον εντοπισμό μοναδικού περιορισμού μεταξύ ενός συνόλου στοιχείων. |
+| [XmlSchemaValidator](./xmlschemavalidator/) | Αναπαριστά μια μηχανή επικύρωσης XML [Schema](./) Definition Language (XSD) [Schema](./). Η κλάση [XmlSchemaValidator](./xmlschemavalidator/) δεν μπορεί να κληρονομηθεί. |
+| [XmlSchemaWhiteSpaceFacet](./xmlschemawhitespacefacet/) | Αναπαριστά το χαρακτηριστικό **whiteSpace** του World Wide [Web](../system.web/) Consortium (W3C). |
+| [XmlSchemaXPath](./xmlschemaxpath/) | Αναπαριστά το στοιχείο **selector** του World Wide [Web](../system.web/) Consortium (W3C). |
+
+## Απαριθμήσεις
+
+| Απαρίθμηση | Περιγραφή |
+| --- | --- |
+| [XmlSchemaContentProcessing](./xmlschemacontentprocessing/) | Παρέχει πληροφορίες για τη λειτουργία επικύρωσης των αντικαταστάσεων στοιχείων **any** και **anyAttribute**. |
+| [XmlSchemaContentType](./xmlschemacontenttype/) | Απαριθμήσεις για το μοντέλο περιεχομένου του σύνθετου τύπου. Αυτό αντιπροσωπεύει το περιεχόμενο στο σύνολο πληροφοριών μετά την επικύρωση σχήματος (infoset). |
+| [XmlSchemaDatatypeVariety](./xmlschemadatatypevariety/) | Καθορίζει την ποικιλία τύπου δεδομένων του σχήματος XML W3C για τον τύπο. |
+| [XmlSchemaDerivationMethod](./xmlschemaderivationmethod/) | Παρέχει διαφορετικές μεθόδους για την αποτροπή κληρονομικότητας. |
+| [XmlSchemaForm](./xmlschemaform/) | Υποδεικνύει εάν τα χαρακτηριστικά ή τα στοιχεία πρέπει να είναι προσδιορισμένα με πρόθεμα ονόματος χώρου. |
+| [XmlSchemaUse](./xmlschemause/) | Δεικτής του τρόπου χρήσης του χαρακτηριστικού. |
+| [XmlSchemaValidationFlags](./xmlschemavalidationflags/) | Καθορίζει επιλογές επικύρωσης σχήματος που χρησιμοποιούν οι κλάσεις [XmlSchemaValidator](./xmlschemavalidator/) και [XmlReader](../system.xml/xmlreader/). |
+| [XmlSchemaValidity](./xmlschemavalidity/) | Αναπαριστά την εγκυρότητα ενός στοιχείου XML που επικυρώθηκε από την κλάση [XmlSchemaValidator](./xmlschemavalidator/). |
+| [XmlSeverityType](./xmlseveritytype/) | Αναπαριστά τη σοβαρότητα του γεγονότος επικύρωσης. |
+| [XmlTypeCode](./xmltypecode/) | Αναπαριστά τους τύπους σχήματος W3C XML [Schema](./) Definition Language (XSD). |
+
+## Ορισμοί τύπων
+
+| Ορισμός τύπου | Περιγραφή |
+| --- | --- |
+| [XmlSchemaInferenceException](./xmlschemainferenceexception/) |  |
+| [ValidationEventHandler](./validationeventhandler/) | Αναπαριστά τη μέθοδο callback που θα διαχειρίζεται συμβάντα επικύρωσης σχήματος XML και το [ValidationEventArgs](./validationeventargs/). |
+| [XmlSchemaException](./xmlschemaexception/) |  |
+| [XmlSchemaValidationException](./xmlschemavalidationexception/) |  |
+| [XmlValueGetter](./xmlvaluegetter/) | Μια μέθοδος callback που χρησιμοποιείται από την κλάση [XmlSchemaValidator](./xmlschemavalidator/) για τη μεταφορά τιμών χαρακτηριστικού, κειμένου και λευκού διαστήματος ως τύπο χρόνου εκτέλεσης συμβατό με τον τύπο XML [Schema](./) Definition Language (XSD) του χαρακτηριστικού, του κειμένου ή του λευκού διαστήματος.
