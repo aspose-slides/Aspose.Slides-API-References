@@ -1,0 +1,19 @@
+---
+title: Boxing
+second_title: Αναφορά API του Aspose.Slides για C++
+description: 
+type: docs
+weight: 66
+url: /el/system.collections.generic.details.castrules/casttype/boxing/
+---
+## Πεδίο boxing
+
+```cpp
+static constexpr constexpr bool System::Collections::Generic::Details::CastRules::CastType<Source, Result>::Boxing
+```
+
+## Δείτε επίσης
+
+* Δομή [CastType](../)
+* Χώρος ονομάτων [System::Collections::Generic::Details::CastRules](../../)
+* Βιβλιοθήκη [Aspose.Slides](../../../)

@@ -1,0 +1,123 @@
+---
+title: IPortionFormat
+second_title: Aspose.Slides για C++ Αναφορά API
+description: Αυτή η κλάση περιέχει τις ιδιότητες μορφοποίησης τμημάτων κειμένου. Σε αντίθεση με το IPortionFormatEffectiveData, όλες οι ιδιότητες αυτής της κλάσης είναι εγγράψιμες.
+type: docs
+weight: 3329
+url: /el/aspose.slides/iportionformat/
+---
+## IPortionFormat κλάση
+
+Αυτή η κλάση περιέχει τις ιδιότητες μορφοποίησης τμήματος κειμένου. Σε αντίθεση με το [IPortionFormatEffectiveData](../iportionformateffectivedata/), όλες οι ιδιότητες αυτής της κλάσης είναι εγγράψιμες.
+
+```cpp
+class IPortionFormat : public virtual Aspose::Slides::IBasePortionFormat,
+                       public Aspose::Slides::IHyperlinkContainer
+```
+
+## Μέθοδοι
+
+| Μέθοδος | Περιγραφή |
+| --- | --- |
+| virtual **bool** [Equals](../../system/object/equals/)([ptr](../../system/object/ptr/)) | Συγκρίνει αντικείμενα χρησιμοποιώντας τη σημασιολογία C# [Object.Equals](../../system/object/equals/). |
+| static std::enable_if\<[IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Συγκρίνει αντικείμενα τύπου αναφοράς σε στυλ C#. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&\![IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Συγκρίνει αντικείμενα τύπου τιμής σε στυλ C#. |
+| static **bool** [Equals](../../system/object/equals/)(**float** const\&, **float** const\&) | Εξομοιώνει τη σύγκριση κινητής υποδιαστολής σε στυλ C#, όπου δύο NaN θεωρούνται ίσα παρόλο που σύμφωνα με IEC 60559:1989 το NaN δεν είναι ίσο με οποιαδήποτε τιμή, συμπεριλαμβανομένου του NaN. |
+| static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | Εξομοιώνει τη σύγκριση κινητής υποδιαστολής σε στυλ C#, όπου δύο NaN θεωρούνται ίσα παρόλο που σύμφωνα με IEC 60559:1989 το NaN δεν είναι ίσο με οποιαδήποτε τιμή, συμπεριλαμβανομένου του NaN. |
+| virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | Μόνο για εσωτερική χρήση. |
+| virtual [System::String](../../system/string/) [get_AlternativeLanguageId](../ibaseportionformat/get_alternativelanguageid/)() | Επιστρέφει το Id εναλλακτικής γλώσσας. Διαβάστε [System::String](../../system/string/). |
+| virtual [System::String](../../system/string/) [get_BookmarkId](./get_bookmarkid/)() | Επιστρέφει το αναγνωριστικό σελιδοδείκτη. Διαβάστε [System::String](../../system/string/). |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IFontData](../ifontdata/)\> [get_ComplexScriptFont](../ibaseportionformat/get_complexscriptfont/)() | Επιστρέφει τις πληροφορίες γραμματοσειράς σύνθετης γραφής. Null σημαίνει ότι η γραμματοσειρά δεν είναι ορισμένη και πρέπει να κληρονομείται από το Master. Διαβάστε [IFontData](../ifontdata/). |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IFontData](../ifontdata/)\> [get_EastAsianFont](../ibaseportionformat/get_eastasianfont/)() | Επιστρέφει τις πληροφορίες γραμματοσειράς Ανατολικής Ασίας. Null σημαίνει ότι η γραμματοσειρά δεν είναι ορισμένη και πρέπει να κληρονομείται από το Master. Διαβάστε [IFontData](../ifontdata/). |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IEffectFormat](../ieffectformat/)\> [get_EffectFormat](../ibaseportionformat/get_effectformat/)() | Επιστρέφει τις ιδιότητες κειμένου [EffectFormat](../effectformat/). Δεν εφαρμόζεται κληρονομικότητα. Μόνο για ανάγνωση [IEffectFormat](../ieffectformat/). |
+| virtual **float** [get_Escapement](../ibaseportionformat/get_escapement/)() | Επιστρέφει το κείμενο εκθέτη ή υποεκθέτη. Τιμή από -100% (υποεκθέτης) έως 100% (εκθέτης). **std::numeric_limits<float>::quiet_NaN()** σημαίνει ότι η τιμή δεν είναι ορισμένη και πρέπει να κληρονομείται από το Master. Διαβάστε **float**. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IFillFormat](../ifillformat/)\> [get_FillFormat](../ibaseportionformat/get_fillformat/)() | Επιστρέφει τις ιδιότητες κειμένου [FillFormat](../fillformat/). Δεν εφαρμόζεται κληρονομικότητα. Μόνο για ανάγνωση [IFillFormat](../ifillformat/). |
+| virtual [NullableBool](../nullablebool/) [get_FontBold](../ibaseportionformat/get_fontbold/)() | Καθορίζει εάν η γραμματοσειρά είναι έντονη. Δεν εφαρμόζεται κληρονομικότητα. Διαβάστε [NullableBool](../nullablebool/). |
+| virtual **float** [get_FontHeight](../ibaseportionformat/get_fontheight/)() | Επιστρέφει το ύψος γραμματοσειράς ενός τμήματος. **std::numeric_limits<float>::quiet_NaN()** σημαίνει ότι το ύψος δεν είναι ορισμένο και πρέπει να κληρονομείται από το Master. Διαβάστε **float**. |
+| virtual [NullableBool](../nullablebool/) [get_FontItalic](../ibaseportionformat/get_fontitalic/)() | Καθορίζει εάν η γραμματοσειρά είναι πλάγια. Δεν εφαρμόζεται κληρονομικότητα. Διαβάστε [NullableBool](../nullablebool/). |
+| virtual [TextUnderlineType](../textunderlinetype/) [get_FontUnderline](../ibaseportionformat/get_fontunderline/)() | Επιστρέφει τον τύπο υπογράμμισης κειμένου. Δεν εφαρμόζεται κληρονομικότητα. Διαβάστε [TextUnderlineType](../textunderlinetype/). |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IColorFormat](../icolorformat/)\> [get_HighlightColor](../ibaseportionformat/get_highlightcolor/)() | Επιστρέφει το χρώμα που χρησιμοποιείται για επισήμανση κειμένου. Δεν εφαρμόζεται κληρονομικότητα. Μόνο για ανάγνωση [IColorFormat](../icolorformat/). |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IHyperlink](../ihyperlink/)\> [get_HyperlinkClick](../ihyperlinkcontainer/get_hyperlinkclick/)() | Επιστρέφει τον υπερσύνδεσμο που ορίζεται για κλικ ποντικιού. Διαβάστε [IHyperlink](../ihyperlink/). |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IHyperlinkManager](../ihyperlinkmanager/)\> [get_HyperlinkManager](../ihyperlinkcontainer/get_hyperlinkmanager/)() | Διαχειριστής υπερσυνδέσμων Μόνο για ανάγνωση [IHyperlinkManager](../ihyperlinkmanager/). |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IHyperlink](../ihyperlink/)\> [get_HyperlinkMouseOver](../ihyperlinkcontainer/get_hyperlinkmouseover/)() | Επιστρέφει τον υπερσύνδεσμο που ορίζεται για πέρασμα ποντικιού. Διαβάστε [IHyperlink](../ihyperlink/). |
+| virtual [NullableBool](../nullablebool/) [get_IsHardUnderlineFill](../ibaseportionformat/get_ishardunderlinefill/)() | Καθορίζει εάν το στυλ υπογράμμισης έχει δικές του ιδιότητες [FillFormat](../fillformat/) ή κληρονομείται από τις ιδιότητες [FillFormat](../fillformat/) του κειμένου. Διαβάστε [NullableBool](../nullablebool/). |
+| virtual [NullableBool](../nullablebool/) [get_IsHardUnderlineLine](../ibaseportionformat/get_ishardunderlineline/)() | Καθορίζει εάν το στυλ υπογράμμισης έχει δικές του ιδιότητες [LineFormat](../lineformat/) ή κληρονομείται από τις ιδιότητες [LineFormat](../lineformat/) του κειμένου. Διαβάστε [NullableBool](../nullablebool/). |
+| virtual **float** [get_KerningMinimalSize](../ibaseportionformat/get_kerningminimalsize/)() | Επιστρέφει το ελάχιστο μέγεθος γραμματοσειράς, για το οποίο πρέπει να ενεργοποιηθεί η διαστήματα γραμμάτων (kerning). **std::numeric_limits<float>::quiet_NaN()** σημαίνει ότι η τιμή δεν είναι ορισμένη και πρέπει να κληρονομείται από το Master. Διαβάστε **float**. |
+| virtual [NullableBool](../nullablebool/) [get_Kumimoji](../ibaseportionformat/get_kumimoji/)() | Καθορίζει εάν οι αριθμοί πρέπει να αγνοούν την ανατολική γλώσσα-συγκεκριμένη κατακόρυφη διάταξη κειμένου. Δεν εφαρμόζεται κληρονομικότητα. Διαβάστε [NullableBool](../nullablebool/). |
+| virtual [System::String](../../system/string/) [get_LanguageId](../ibaseportionformat/get_languageid/)() | Επιστρέφει το Id μιας γλώσσας διόρθωσης. Χρησιμοποιείται για έλεγχο ορθογραφίας και γραμματικής. Διαβάστε [System::String](../../system/string/). |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IFontData](../ifontdata/)\> [get_LatinFont](../ibaseportionformat/get_latinfont/)() | Επιστρέφει τις πληροφορίες γραμματοσειράς Λατινικών. Null σημαίνει ότι η γραμματοσειρά δεν είναι ορισμένη και πρέπει να κληρονομείται από το Master. Διαβάστε [IFontData](../ifontdata/). |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[ILineFormat](../ilineformat/)\> [get_LineFormat](../ibaseportionformat/get_lineformat/)() | Επιστρέφει τις ιδιότητες [LineFormat](../lineformat/) για περίγραμμα κειμένου. Δεν εφαρμόζεται κληρονομικότητα. Μόνο για ανάγνωση [ILineFormat](../ilineformat/). |
+| virtual [NullableBool](../nullablebool/) [get_NormaliseHeight](../ibaseportionformat/get_normaliseheight/)() | Καθορίζει εάν το ύψος του κειμένου πρέπει να κανονικοποιηθεί. Δεν εφαρμόζεται κληρονομικότητα. Διαβάστε [NullableBool](../nullablebool/). |
+| virtual [NullableBool](../nullablebool/) [get_ProofDisabled](../ibaseportionformat/get_proofdisabled/)() | Καθορίζει εάν το κείμενο δεν πρέπει να υποβληθεί σε διόρθωση. Δεν εφαρμόζεται κληρονομικότητα. Διαβάστε [NullableBool](../nullablebool/). |
+| virtual **bool** [get_SmartTagClean](./get_smarttagclean/)() | Καθορίζει εάν η έξυπνη ετικέτα πρέπει να καθαριστεί. Δεν εφαρμόζεται κληρονομικότητα. Διαβάστε **bool**. |
+| virtual **float** [get_Spacing](../ibaseportionformat/get_spacing/)() | Επιστρέφει την αύξηση του διασοδίου χαρακτήρων. **std::numeric_limits<float>::quiet_NaN()** σημαίνει ότι η τιμή δεν είναι ορισμένη και πρέπει να κληρονομείται από το Master. Διαβάστε **float**. |
+| virtual **bool** [get_SpellCheck](../ibaseportionformat/get_spellcheck/)() | Λαμβάνει μια τιμή που υποδεικνύει εάν ο έλεγχος ορθογραφίας είναι ενεργοποιημένος για το τμήμα κειμένου. Όταν αυτή η ιδιότητα είναι false, ο έλεγχος ορθογραφίας για στοιχεία κειμένου καταστέλλεται. Όταν είναι true, επιτρέπεται ο έλεγχος ορθογραφίας. Η προεπιλεγμένη τιμή είναι **false**. |
+| virtual [TextStrikethroughType](../textstrikethroughtype/) [get_StrikethroughType](../ibaseportionformat/get_strikethroughtype/)() | Επιστρέφει τον τύπο διακριτής γραμμής κειμένου. Δεν εφαρμόζεται κληρονομικότητα. Διαβάστε [TextStrikethroughType](../textstrikethroughtype/). |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IFontData](../ifontdata/)\> [get_SymbolFont](../ibaseportionformat/get_symbolfont/)() | Επιστρέφει τις συμβολικές πληροφορίες γραμματοσειράς. Null σημαίνει ότι η γραμματοσειρά δεν είναι ορισμένη και πρέπει να κληρονομείται από το Master. Διαβάστε [IFontData](../ifontdata/). |
+| virtual [Aspose::Slides::TextCapType](../textcaptype/) [get_TextCapType](../ibaseportionformat/get_textcaptype/)() | Επιστρέφει τον τύπο κεφαλαίων κειμένου. Δεν εφαρμόζεται κληρονομικότητα. Διαβάστε [Slides::TextCapType](../textcaptype/). |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IFillFormat](../ifillformat/)\> [get_UnderlineFillFormat](../ibaseportionformat/get_underlinefillformat/)() | Επιστρέφει τις ιδιότητες της γραμμής υπογράμμισης [FillFormat](../fillformat/). Δεν εφαρμόζεται κληρονομικότητα. Μόνο για ανάγνωση [IFillFormat](../ifillformat/). |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[ILineFormat](../ilineformat/)\> [get_UnderlineLineFormat](../ibaseportionformat/get_underlinelineformat/)() | Επιστρέφει τις ιδιότητες [LineFormat](../lineformat/) που χρησιμοποιούνται για περίγραμμα της γραμμής υπογράμμισης. Δεν εφαρμόζεται κληρονομικότητα. Μόνο για ανάγνωση [ILineFormat](../ilineformat/). |
+| Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Λαμβάνει τη δομή δεδομένων μετρητή αναφοράς που σχετίζεται με το αντικείμενο. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IPortionFormatEffectiveData](../iportionformateffectivedata/)\> [GetEffective](./geteffective/)() | Λαμβάνει τα αποτελεσματικά δεδομένα μορφοποίησης τμήματος με την εφαρμοσμένη κληρονομικότητα. |
+| virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | Αναλογίας με τη μέθοδο C# [Object.GetHashCode()](../../system/object/gethashcode/). Ενεργοποιεί τη δημιουργία hash για προσαρμοσμένα αντικείμενα. |
+| virtual const [TypeInfo](../../system/typeinfo/)\& [GetType](../../system/object/gettype/)() const | Λαμβάνει τον πραγματικό τύπο του αντικειμένου. Αναλογίας με την κλήση C# [System.Object.GetType()](../../system/object/gettype/). |
+| virtual **bool** [Is](../../system/object/is/)(const [TypeInfo](../../system/typeinfo/)\&) const | Ελέγχει αν το αντικείμενο αντιπροσωπεύει μια παρουσία τύπου που περιγράφεται από το targetType. Αναλογίας με τον τελεστή C# 'is'. |
+| void [Lock](../../system/object/lock/)() | Εφαρμόζει το κλείδωμα της δήλωσης C# lock(). Καλέστε άμεσα ή χρησιμοποιήστε το αντικείμενο επιτήρησης [LockContext](../../system/lockcontext/). |
+| virtual [ptr](../../system/object/ptr/) [MemberwiseClone](../../system/object/memberwiseclone/)() const | Αναλογία με τη μέθοδο C# [Object.MemberwiseClone()](../../system/object/memberwiseclone/). Ενεργοποιεί την κλωνοποίηση προσαρμοσμένων τύπων. |
+|  [Object](../../system/object/object/)() | Δημιουργεί αντικείμενο. Αρχικοποιεί όλες τις εσωτερικές δομές δεδομένων. |
+|  [Object](../../system/object/object/)([Object](../../system/object/) const\&) | Κατασκευαστής αντιγραφής. Στην πραγματικότητα δεν αντιγράφει τίποτα, απλώς αρχικοποιεί νέο αντικείμενο και επιτρέπει την κατασκευή αντιγράφων υποκλάσεων. |
+| [Object](../../system/object/)\& [operator=](../../system/object/operator_equal/)([Object](../../system/object/) const\&) | Τελεστής ανάθεσης. Στην πραγματικότητα δεν αντιγράφει τίποτα, απλώς αρχικοποιεί νέο αντικείμενο και επιτρέπει την κατασκευή αντιγράφων υποκλάσεων. |
+| static **bool** [ReferenceEquals](../../system/object/referenceequals/)([ptr](../../system/object/ptr/) const\&, [ptr](../../system/object/ptr/) const\&) | Συγκρίνει αντικείμενα με αναφορά. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, T const\&) | Συγκρίνει αντικείμενα με αναφορά. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, std::nullptr_t) | Συγκρίνει με αναφορά αντικείμενο τύπου τιμής με nullptr. |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, std::nullptr_t) | Ειδική υλοποίηση του [Object::ReferenceEquals](../../system/object/referenceequals/) για περίπτωση συμβολοσειράς και nullptr. |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | Ειδική υλοποίηση του [Object::ReferenceEquals](../../system/object/referenceequals/) για περίπτωση συμβολοσειρών. |
+| int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Μειώνει τον αριθμό κοινόχρηστων αναφορών κατά την καθορισμένη τιμή. |
+| virtual void [set_AlternativeLanguageId](../ibaseportionformat/set_alternativelanguageid/)([System::String](../../system/string/)) | Ορίζει το Id εναλλακτικής γλώσσας. Εγγραφή [System::String](../../system/string/). |
+| virtual void [set_BookmarkId](./set_bookmarkid/)([System::String](../../system/string/)) | Ορίζει το αναγνωριστικό σελιδοδείκτη. Εγγραφή [System::String](../../system/string/). |
+| virtual void [set_ComplexScriptFont](../ibaseportionformat/set_complexscriptfont/)([System::SharedPtr](../../system/sharedptr/)\<[IFontData](../ifontdata/)\>) | Ορίζει τις πληροφορίες γραμματοσειράς σύνθετης γραφής. Null σημαίνει ότι η γραμματοσειρά δεν είναι ορισμένη και πρέπει να κληρονομείται από το Master. Εγγραφή [IFontData](../ifontdata/). |
+| virtual void [set_EastAsianFont](../ibaseportionformat/set_eastasianfont/)([System::SharedPtr](../../system/sharedptr/)\<[IFontData](../ifontdata/)\>) | Ορίζει τις πληροφορίες γραμματοσειράς Ανατολικής Ασίας. Null σημαίνει ότι η γραμματοσειρά δεν είναι ορισμένη και πρέπει να κληρονομείται από το Master. Εγγραφή [IFontData](../ifontdata/). |
+| virtual void [set_Escapement](../ibaseportionformat/set_escapement/)(**float**) | Ορίζει το κείμενο εκθέτη ή υποεκθέτη. Τιμή από -100% (υποεκθέτης) έως 100% (εκθέτης). **std::numeric_limits<float>::quiet_NaN()** σημαίνει ότι η τιμή δεν είναι ορισμένη και πρέπει να κληρονομείται από το Master. Εγγραφή **float**. |
+| virtual void [set_FontBold](../ibaseportionformat/set_fontbold/)([NullableBool](../nullablebool/)) | Καθορίζει εάν η γραμματοσειρά είναι έντονη. Δεν εφαρμόζεται κληρονομικότητα. Εγγραφή [NullableBool](../nullablebool/). |
+| virtual void [set_FontHeight](../ibaseportionformat/set_fontheight/)(**float**) | Ορίζει το ύψος γραμματοσειράς ενός τμήματος. **std::numeric_limits<float>::quiet_NaN()** σημαίνει ότι το ύψος δεν είναι ορισμένο και πρέπει να κληρονομείται από το Master. Εγγραφή **float**. |
+| virtual void [set_FontItalic](../ibaseportionformat/set_fontitalic/)([NullableBool](../nullablebool/)) | Καθορίζει εάν η γραμματοσειρά είναι πλάγια. Δεν εφαρμόζεται κληρονομικότητα. Εγγραφή [NullableBool](../nullablebool/). |
+| virtual void [set_FontUnderline](../ibaseportionformat/set_fontunderline/)([TextUnderlineType](../textunderlinetype/)) | Ορίζει τον τύπο υπογράμμισης κειμένου. Δεν εφαρμόζεται κληρονομικότητα. Εγγραφή [TextUnderlineType](../textunderlinetype/). |
+| virtual void [set_HyperlinkClick](../ihyperlinkcontainer/set_hyperlinkclick/)([System::SharedPtr](../../system/sharedptr/)\<[IHyperlink](../ihyperlink/)\>) | Ορίζει τον υπερσύνδεσμο που ορίζεται για κλικ ποντικιού. Εγγραφή [IHyperlink](../ihyperlink/). |
+| virtual void [set_HyperlinkMouseOver](../ihyperlinkcontainer/set_hyperlinkmouseover/)([System::SharedPtr](../../system/sharedptr/)\<[IHyperlink](../ihyperlink/)\>) | Ορίζει τον υπερσύνδεσμο που ορίζεται για πέρασμα ποντικιού. Εγγραφή [IHyperlink](../ihyperlink/). |
+| virtual void [set_IsHardUnderlineFill](../ibaseportionformat/set_ishardunderlinefill/)([NullableBool](../nullablebool/)) | Καθορίζει εάν το στυλ υπογράμμισης έχει δικές του ιδιότητες [FillFormat](../fillformat/) ή κληρονομείται από τις ιδιότητες [FillFormat](../fillformat/) του κειμένου. Εγγραφή [NullableBool](../nullablebool/). |
+| virtual void [set_IsHardUnderlineLine](../ibaseportionformat/set_ishardunderlineline/)([NullableBool](../nullablebool/)) | Καθορίζει εάν το στυλ υπογράμμισης έχει δικές του ιδιότητες [LineFormat](../lineformat/) ή κληρονομείται από τις ιδιότητες [LineFormat](../lineformat/) του κειμένου. Εγγραφή [NullableBool](../nullablebool/). |
+| virtual void [set_KerningMinimalSize](../ibaseportionformat/set_kerningminimalsize/)(**float**) | Ορίζει το ελάχιστο μέγεθος γραμματοσειράς, για το οποίο πρέπει να ενεργοποιηθεί η διασπορά γραμμάτων (kerning). **std::numeric_limits<float>::quiet_NaN()** σημαίνει ότι η τιμή δεν είναι ορισμένη και πρέπει να κληρονομείται από το Master. Εγγραφή **float**. |
+| virtual void [set_Kumimoji](../ibaseportionformat/set_kumimoji/)([NullableBool](../nullablebool/)) | Καθορίζει εάν οι αριθμοί πρέπει να αγνοούν την ανατολική γλώσσα-συγκεκριμένη κατακόρυφη διάταξη κειμένου. Δεν εφαρμόζεται κληρονομικότητα. Εγγραφή [NullableBool](../nullablebool/). |
+| virtual void [set_LanguageId](../ibaseportionformat/set_languageid/)([System::String](../../system/string/)) | Ορίζει το Id μιας γλώσσας διόρθωσης. Χρησιμοποιείται για έλεγχο ορθογραφίας και γραμματικής. Εγγραφή [System::String](../../system/string/). |
+| virtual void [set_LatinFont](../ibaseportionformat/set_latinfont/)([System::SharedPtr](../../system/sharedptr/)\<[IFontData](../ifontdata/)\>) | Ορίζει τις πληροφορίες γραμματοσειράς Λατινικών. Null σημαίνει ότι η γραμματοσειρά δεν είναι ορισμένη και πρέπει να κληρονομείται από το Master. Εγγραφή [IFontData](../ifontdata/). |
+| virtual void [set_NormaliseHeight](../ibaseportionformat/set_normaliseheight/)([NullableBool](../nullablebool/)) | Καθορίζει εάν το ύψος του κειμένου πρέπει να κανονικοποιηθεί. Δεν εφαρμόζεται κληρονομικότητα. Εγγραφή [NullableBool](../nullablebool/). |
+| virtual void [set_ProofDisabled](../ibaseportionformat/set_proofdisabled/)([NullableBool](../nullablebool/)) | Καθορίζει εάν το κείμενο δεν πρέπει να υποβληθεί σε διόρθωση. Δεν εφαρμόζεται κληρονομικότητα. Εγγραφή [NullableBool](../nullablebool/). |
+| virtual void [set_SmartTagClean](./set_smarttagclean/)(**bool**) | Καθορίζει εάν η έξυπνη ετικέτα πρέπει να καθαριστεί. Δεν εφαρμόζεται κληρονομικότητα. Εγγραφή **bool**. |
+| virtual void [set_Spacing](../ibaseportionformat/set_spacing/)(**float**) | Ορίζει την αύξηση του διασοδίου χαρακτήρων. **std::numeric_limits<float>::quiet_NaN()** σημαίνει ότι η τιμή δεν είναι ορισμένη και πρέπει να κληρονομείται από το Master. Εγγραφή **float**. |
+| virtual void [set_SpellCheck](../ibaseportionformat/set_spellcheck/)(**bool**) | Ορίζει μια τιμή που υποδεικνύει εάν ο έλεγχος ορθογραφίας είναι ενεργοποιημένος για το τμήμα κειμένου. Όταν αυτή η ιδιότητα είναι false, ο έλεγχος ορθογραφίας για στοιχεία κειμένου καταστέλλεται. Όταν είναι true, επιτρέπεται ο έλεγχος ορθογραφίας. Η προεπιλεγμένη τιμή είναι **false**. |
+| virtual void [set_StrikethroughType](../ibaseportionformat/set_strikethroughtype/)([TextStrikethroughType](../textstrikethroughtype/)) | Ορίζει τον τύπο διακριτής γραμμής κειμένου. Δεν εφαρμόζεται κληρονομικότητα. Εγγραφή [TextStrikethroughType](../textstrikethroughtype/). |
+| virtual void [set_SymbolFont](../ibaseportionformat/set_symbolfont/)([System::SharedPtr](../../system/sharedptr/)\<[IFontData](../ifontdata/)\>) | Ορίζει τις συμβολικές πληροφορίες γραμματοσειράς. Null σημαίνει ότι η γραμματοσειρά δεν είναι ορισμένη και πρέπει να κληρονομείται από το Master. Εγγραφή [IFontData](../ifontdata/). |
+| virtual void [set_TextCapType](../ibaseportionformat/set_textcaptype/)([Aspose::Slides::TextCapType](../textcaptype/)) | Ορίζει τον τύπο κεφαλαίων κειμένου. Δεν εφαρμόζεται κληρονομικότητα. Εγγραφή [Slides::TextCapType](../textcaptype/). |
+| virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | Ορίζει το n'th όρισμα προτύπου ως αδύναμο δείκτη (αντί για κοινόχρηστο). Επιτρέπει την αλλαγή δεικτών σε δοχεία σε αδύναμη λειτουργία. |
+| int [SharedCount](../../system/object/sharedcount/)() const | Λαμβάνει την τρέχουσα τιμή του μετρητή κοινών αναφορών. |
+| [Object](../../system/object/) * [SharedRefAdded](../../system/object/sharedrefadded/)() | Αυξάνει τον μετρητή κοινών αναφορών. Δεν θα πρέπει να κληθεί άμεσα· αντί αυτού, χρησιμοποιήστε έξυπνους δείκτες ή ThisProtector. |
+| int [SharedRefRemovedSafe](../../system/object/sharedrefremovedsafe/)() | Μειώνει και επιστρέφει τον μετρητή κοινών αναφορών. Δεν θα πρέπει να κληθεί άμεσα· αντί αυτού, χρησιμοποιήστε έξυπνους δείκτες ή ThisProtector. |
+| virtual [String](../../system/string/) [ToString](../../system/object/tostring/)() const | Αναλογία με τη μέθοδο C# [Object.ToString()](../../system/object/tostring/). Ενεργοποιεί τη μετατροπή προσαρμοσμένων αντικειμένων σε συμβολοσειρά. |
+| static const [TypeInfo](../../system/typeinfo/)\& [Type](../../system/object/type/)() | Εφαρμόζει την κατασκευή C# typeof([System.Object](../../system/object/)). |
+| void [Unlock](../../system/object/unlock/)() | Εφαρμόζει το ξεκλείδωμα της δήλωσης C# lock(). Καλέστε άμεσα ή χρησιμοποιήσετε το αντικείμενο επιτήρησης [LockContext](../../system/lockcontext/). |
+| Detail::SmartPtrCounter * [WeakRefAdded](../../system/object/weakrefadded/)() | Αυξάνει τον αδύναμο μετρητή αναφορών. Δεν θα πρέπει να κληθεί άμεσα· αντί αυτού, χρησιμοποιήστε έξυπνους δείκτες ή ThisProtector. |
+| void [WeakRefRemoved](../../system/object/weakrefremoved/)() | Μειώνει τον αδύναμο μετρητή αναφορών. Δεν θα πρέπει να κληθεί άμεσα· αντί αυτού, χρησιμοποιήστε έξυπνους δείκτες ή ThisProtector. |
+| virtual  [~Object](../../system/object/~object/)() | Καταστρέφει το αντικείμενο. Απελευθερώνει όλες τις εσωτερικές δομές δεδομένων. |
+
+## Παρατηρήσεις
+
+Αυτή η κλάση χρησιμοποιείται για την επιστροφή και την επεξεργασία των ιδιοτήτων μορφοποίησης τμήματος κειμένου που ορίζονται για το συγκεκριμένο τμήμα. Αυτό σημαίνει ότι δεν εφαρμόζεται κληρονομικότητα κατά την ανάκτηση των τιμών, οπότε στην πλειοψηφία των περιπτώσεων θα λαμβάνετε τιμές που σημαίνουν «απροσδιόριστο».
+
+Για να λάβετε τις αποτελεσματικές τιμές των παραμέτρων μορφοποίησης, συμπεριλαμβανομένων των κληρονομημένων, πρέπει να χρησιμοποιήσετε τη μέθοδο [IPortionFormat::GetEffective](./geteffective/) η οποία επιστρέφει ένα αντικείμενο [IPortionFormatEffectiveData](../iportionformateffectivedata/).
+
+## Δείτε επίσης
+
+* Κλάση [IBasePortionFormat](../ibaseportionformat/)
+* Κλάση [IHyperlinkContainer](../ihyperlinkcontainer/)
+* Χώρος ονομάτων [Aspose::Slides](../)
+* Βιβλιοθήκη [Aspose.Slides](../../)

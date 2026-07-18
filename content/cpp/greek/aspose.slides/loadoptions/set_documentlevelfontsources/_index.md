@@ -1,0 +1,39 @@
+---
+title: set_DocumentLevelFontSources()
+second_title: Αναφορά API του Aspose.Slides για C++
+description: Καθορίζει τις πηγές για εξωτερικές γραμματοσειρές που θα χρησιμοποιηθούν από την παρουσίαση. Αυτές οι γραμματοσειρές είναι διαθέσιμες στην παρουσίαση καθ' όλη τη διάρκεια της ζωής της και δεν μοιράζονται με άλλες παρουσιάσεις
+type: docs
+weight: 222
+url: /el/aspose.slides/loadoptions/set_documentlevelfontsources/
+---
+## LoadOptions::set_DocumentLevelFontSources(System::SharedPtr\<IFontSources\>) μέθοδος
+
+Καθορίζει πηγές για εξωτερικές γραμματοσειρές που θα χρησιμοποιηθούν από την παρουσίαση. Αυτές οι γραμματοσειρές είναι διαθέσιμες στην παρουσίαση κατά τη διάρκεια της ζωής της και δεν μοιράζονται με άλλες παρουσιάσεις
+
+```cpp
+void Aspose::Slides::LoadOptions::set_DocumentLevelFontSources(System::SharedPtr<IFontSources> value) override
+```
+
+## Παρατηρήσεις
+
+Το παρακάτω παράδειγμα δείχνει πώς να ορίσετε προσαρμοσμένες γραμματοσειρές που χρησιμοποιούνται με το PowerPoint [Presentation](../../presentation/).
+```cpp
+System::ArrayPtr<uint8_t> memoryFont1 = System::IO::File::ReadAllBytes(u"customfonts\\CustomFont1.ttf");
+System::ArrayPtr<uint8_t> memoryFont2 = System::IO::File::ReadAllBytes(u"customfonts\\CustomFont2.ttf");
+
+System::SharedPtr<LoadOptions> loadOptions = System::MakeObject<LoadOptions>();
+loadOptions->get_DocumentLevelFontSources()->set_FontFolders(System::MakeArray<System::String>({u"assets\\fonts", u"global\\fonts"}));
+loadOptions->get_DocumentLevelFontSources()->set_MemoryFonts(System::MakeArray<System::ArrayPtr<uint8_t>>({memoryFont1, memoryFont2}));
+
+auto presentation = System::MakeObject<Presentation>(u"MyPresentation.pptx", loadOptions);
+// εργαστείτε με την παρουσίαση
+// CustomFont1, CustomFont2 καθώς και γραμματοσειρές από τους φακέλους assets\fonts & global\fonts και τους υποφακέλους τους είναι διαθέσιμες στην παρουσίαση
+```
+
+## Δείτε επίσης
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Κλάση [IFontSources](../../ifontsources/)
+* Κλάση [LoadOptions](../)
+* Χώρος ονομάτων [Aspose::Slides](../../)
+* Βιβλιοθήκη [Aspose.Slides](../../../)
