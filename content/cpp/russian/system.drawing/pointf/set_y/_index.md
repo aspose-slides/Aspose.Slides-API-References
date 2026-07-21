@@ -1,0 +1,27 @@
+---
+title: set_Y()
+second_title: Aspose.Slides для справочника API C++
+description: Устанавливает значение координаты Y, представленной текущим объектом.
+type: docs
+weight: 66
+url: /ru/system.drawing/pointf/set_y/
+---
+## PointF::set_Y(float) метод
+
+Устанавливает значение координаты Y, представленной текущим объектом.
+
+```cpp
+void System::Drawing::PointF::set_Y(float value)
+```
+
+### Аргументы
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| value | **float** | Значение для установки |
+
+## См. также
+
+* Класс [PointF](../)
+* Пространство имён [System::Drawing](../../)
+* Библиотека [Aspose.Slides](../../../)

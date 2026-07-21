@@ -1,0 +1,120 @@
+---
+title: ISmartArtShape
+second_title: Справочник API Aspose.Slides для C++
+description: Представляет форму внутри диаграммы SmartArt
+type: docs
+weight: 40
+url: /ru/aspose.slides.smartart/ismartartshape/
+---
+## ISmartArtShape класс
+
+Представляет форму внутри [SmartArt](../smartart/) диаграммы
+
+```cpp
+class ISmartArtShape : public virtual Aspose::Slides::IGeometryShape
+```
+
+## Методы
+
+| Метод | Описание |
+| --- | --- |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IPlaceholder](../../aspose.slides/iplaceholder/)\> [AddPlaceholder](../../aspose.slides/ishape/addplaceholder/)([System::SharedPtr](../../system/sharedptr/)\<[IPlaceholder](../../aspose.slides/iplaceholder/)\>) | Добавляет новый заполнитель, если его нет, и устанавливает свойства заполнителя в указанный. |
+| virtual [System::ArrayPtr](../../system/arrayptr/)\<[System::SharedPtr](../../system/sharedptr/)\<[IShapeElement](../../aspose.slides/ishapeelement/)\>\> [CreateShapeElements](../../aspose.slides/igeometryshape/createshapeelements/)() | Создаёт и возвращает массив элементов формы. |
+| virtual **bool** [Equals](../../system/object/equals/)([ptr](../../system/object/ptr/)) | Сравнивает объекты, используя семантику C# [Object.Equals](../../system/object/equals/). |
+| static std::enable_if\<[IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Сравнивает объекты ссылочного типа в стиле C#. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&\![IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Сравнивает объекты значимого типа в стиле C#. |
+| static **bool** [Equals](../../system/object/equals/)(**float** const\&, **float** const\&) | Эмулирует сравнение чисел с плавающей точкой в стиле C#, где два NaN считаются равными, хотя согласно IEC 60559:1989 NaN не равно никакому значению, включая NaN. |
+| static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | Эмулирует сравнение чисел с плавающей точкой в стиле C#, где два NaN считаются равными, хотя согласно IEC 60559:1989 NaN не равно никакому значению, включая NaN. |
+| virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | Только для внутренних целей. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IAdjustValue](../../aspose.slides/iadjustvalue/)\> [get_Adjustment](../../aspose.slides/igeometryshape/get_adjustment/)(**int32_t**) | Возвращает значение регулировки формы по указанному индексу. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IAdjustValueCollection](../../aspose.slides/iadjustvaluecollection/)\> [get_Adjustments](../../aspose.slides/igeometryshape/get_adjustments/)() | Возвращает коллекцию значений регулировок формы. Только для чтения [IAdjustValueCollection](../../aspose.slides/iadjustvaluecollection/). |
+| virtual [System::String](../../system/string/) [get_AlternativeText](../../aspose.slides/ishape/get_alternativetext/)() | Возвращает альтернативный текст, связанный с формой. Только для чтения [System::String](../../system/string/). |
+| virtual [System::String](../../system/string/) [get_AlternativeTextTitle](../../aspose.slides/ishape/get_alternativetexttitle/)() | Возвращает заголовок альтернативного текста, связанного с формой. Только для чтения [System::String](../../system/string/). |
+| virtual [Aspose::Slides::BlackWhiteMode](../../aspose.slides/blackwhitemode/) [get_BlackWhiteMode](../../aspose.slides/ishape/get_blackwhitemode/)() | Свойство указывает, как форма будет отображаться в черно-белом режиме. Только для чтения [Slides::BlackWhiteMode](../../aspose.slides/blackwhitemode/). |
+| virtual **int32_t** [get_ConnectionSiteCount](../../aspose.slides/ishape/get_connectionsitecount/)() | Возвращает количество соединительных точек формы. Только для чтения **int32_t**. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[ICustomData](../../aspose.slides/icustomdata/)\> [get_CustomData](../../aspose.slides/ishape/get_customdata/)() | Возвращает пользовательские данные формы. Только для чтения [ICustomData](../../aspose.slides/icustomdata/). |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IEffectFormat](../../aspose.slides/ieffectformat/)\> [get_EffectFormat](../../aspose.slides/ishape/get_effectformat/)() | Возвращает объект [EffectFormat](../../aspose.slides/effectformat/), содержащий пиксельные эффекты, применённые к форме. Только для чтения [IEffectFormat](../../aspose.slides/ieffectformat/). |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IFillFormat](../../aspose.slides/ifillformat/)\> [get_FillFormat](../../aspose.slides/ishape/get_fillformat/)() | Возвращает объект [FillFormat](../../aspose.slides/fillformat/), содержащий свойства заливки формы. Только для чтения [IFillFormat](../../aspose.slides/ifillformat/). |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IShapeFrame](../../aspose.slides/ishapeframe/)\> [get_Frame](../../aspose.slides/ishape/get_frame/)() | Возвращает свойства кадра формы. Только для чтения [IShapeFrame](../../aspose.slides/ishapeframe/). |
+| virtual **float** [get_Height](../../aspose.slides/ishape/get_height/)() | Получает высоту формы в пунктах. Только для чтения **float**. |
+| virtual **bool** [get_Hidden](../../aspose.slides/ishape/get_hidden/)() | Определяет, скрыта ли форма. Только для чтения **bool**. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IHyperlink](../../aspose.slides/ihyperlink/)\> [get_HyperlinkClick](../../aspose.slides/ihyperlinkcontainer/get_hyperlinkclick/)() | Возвращает гиперссылку, определённую для щелчка мышью. Только для чтения [IHyperlink](../../aspose.slides/ihyperlink/). |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IHyperlinkManager](../../aspose.slides/ihyperlinkmanager/)\> [get_HyperlinkManager](../../aspose.slides/ihyperlinkcontainer/get_hyperlinkmanager/)() | Менеджер гиперссылок. Только для чтения [IHyperlinkManager](../../aspose.slides/ihyperlinkmanager/). |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IHyperlink](../../aspose.slides/ihyperlink/)\> [get_HyperlinkMouseOver](../../aspose.slides/ihyperlinkcontainer/get_hyperlinkmouseover/)() | Возвращает гиперссылку, определённую для наведения мыши. Только для чтения [IHyperlink](../../aspose.slides/ihyperlink/). |
+| virtual **bool** [get_IsDecorative](../../aspose.slides/ishape/get_isdecorative/)() | Получает параметр «Отметить как декоративный». Чтение/запись **bool**. |
+| virtual **bool** [get_IsGrouped](../../aspose.slides/ishape/get_isgrouped/)() | Определяет, сгруппирована ли форма. Только для чтения **bool**. |
+| virtual **bool** [get_IsTextHolder](../../aspose.slides/ishape/get_istextholder/)() | Определяет, является ли форма TextHolder. Только для чтения **bool**. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[ILineFormat](../../aspose.slides/ilineformat/)\> [get_LineFormat](../../aspose.slides/ishape/get_lineformat/)() | Возвращает объект [LineFormat](../../aspose.slides/lineformat/), содержащий свойства форматирования линий формы. Только для чтения [ILineFormat](../../aspose.slides/ilineformat/). |
+| virtual [System::String](../../system/string/) [get_Name](../../aspose.slides/ishape/get_name/)() | Возвращает имя формы. Только для чтения [System::String](../../system/string/). |
+| virtual **uint32_t** [get_OfficeInteropShapeId](../../aspose.slides/ishape/get_officeinteropshapeid/)() | Возвращает уникальный идентификатор слайд-области, сохраняющий своё значение в течение жизни формы и позволяющий PowerPoint или коду интероп надёжно ссылаться на форму из любой части документа. Только для чтения **uint32_t**. См. также [IShape::get_UniqueId](../../aspose.slides/ishape/get_uniqueid/). |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IGroupShape](../../aspose.slides/igroupshape/)\> [get_ParentGroup](../../aspose.slides/ishape/get_parentgroup/)() | Возвращает родительский объект [GroupShape](../../aspose.slides/groupshape/), если форма сгруппирована. В противном случае возвращает null. Только для чтения [IGroupShape](../../aspose.slides/igroupshape/). |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IPlaceholder](../../aspose.slides/iplaceholder/)\> [get_Placeholder](../../aspose.slides/ishape/get_placeholder/)() | Возвращает заполнитель формы. Только для чтения [IPlaceholder](../../aspose.slides/iplaceholder/). |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IPresentation](../../aspose.slides/ipresentation/)\> [get_Presentation](../../aspose.slides/ipresentationcomponent/get_presentation/)() | Возвращает презентацию. Только для чтения [IPresentation](../../aspose.slides/ipresentation/). |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IShapeFrame](../../aspose.slides/ishapeframe/)\> [get_RawFrame](../../aspose.slides/ishape/get_rawframe/)() | Возвращает свойства необработанного кадра формы. Только для чтения [IShapeFrame](../../aspose.slides/ishapeframe/). |
+| virtual **float** [get_Rotation](../../aspose.slides/ishape/get_rotation/)() | Возвращает количество градусов, на которое указанная форма вращена вокруг оси Z. Положительное значение означает вращение по часовой стрелке; отрицательное — против часовой стрелки. Только для чтения **float**. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IBaseShapeLock](../../aspose.slides/ibaseshapelock/)\> [get_ShapeLock](../../aspose.slides/ishape/get_shapelock/)() | Возвращает блокировки формы. Только для чтения [IBaseShapeLock](../../aspose.slides/ibaseshapelock/). |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IShapeStyle](../../aspose.slides/ishapestyle/)\> [get_ShapeStyle](../../aspose.slides/igeometryshape/get_shapestyle/)() | Возвращает объект стиля формы. Только для чтения [IShapeStyle](../../aspose.slides/ishapestyle/). |
+| virtual [Aspose::Slides::ShapeType](../../aspose.slides/shapetype/) [get_ShapeType](../../aspose.slides/igeometryshape/get_shapetype/)() | Возвращает тип предустановки геометрии. Примечание: при изменении значения все регулировки сбрасываются к значениям по умолчанию. Только для чтения [Slides::ShapeType](../../aspose.slides/shapetype/). |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IBaseSlide](../../aspose.slides/ibaseslide/)\> [get_Slide](../../aspose.slides/islidecomponent/get_slide/)() | Возвращает базовый слайд. Только для чтения [IBaseSlide](../../aspose.slides/ibaseslide/). |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[ITextFrame](../../aspose.slides/itextframe/)\> [get_TextFrame](./get_textframe/)() | Возвращает текст формы [SmartArt](../smartart/). Только для чтения [ITextFrame](../../aspose.slides/itextframe/). |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IThreeDFormat](../../aspose.slides/ithreedformat/)\> [get_ThreeDFormat](../../aspose.slides/ishape/get_threedformat/)() | Возвращает объект [ThreeDFormat](../../aspose.slides/threedformat/), содержащий свойства форматирования линий формы. Только для чтения [IThreeDFormat](../../aspose.slides/ithreedformat/). |
+| virtual **uint32_t** [get_UniqueId](../../aspose.slides/ishape/get_uniqueid/)() | Возвращает внутренний идентификатор, ограниченный областью презентации, предназначенный для использования надстроек или другого кода. Поскольку это значение может быть переустановлено пользователем или программно, его нельзя рассматривать как постоянный уникальный ключ. Только для чтения **uint32_t**. См. также [IShape::get_OfficeInteropShapeId](../../aspose.slides/ishape/get_officeinteropshapeid/). |
+| virtual **float** [get_Width](../../aspose.slides/ishape/get_width/)() | Получает ширину формы в пунктах. Только для чтения **float**. |
+| virtual **float** [get_X](../../aspose.slides/ishape/get_x/)() | Получает координату X левого верхнего угла формы в пунктах. Только для чтения **float**. |
+| virtual **float** [get_Y](../../aspose.slides/ishape/get_y/)() | Получает координату Y левого верхнего угла формы в пунктах. Только для чтения **float**. |
+| virtual **int32_t** [get_ZOrderPosition](../../aspose.slides/ishape/get_zorderposition/)() | Возвращает положение формы в Z-порядке. Shapes[0] возвращает форму в задней части Z-порядка, а Shapes[Shapes.Count - 1] — форму в передней части. Только для чтения **int32_t**. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IShape](../../aspose.slides/ishape/)\> [GetBasePlaceholder](../../aspose.slides/ishape/getbaseplaceholder/)() | Возвращает базовый заполнитель формы (форму из макета и/или мастер-слайда, от которой унаследована текущая форма). |
+| Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Получает структуру счётчика ссылок, связанную с объектом. |
+| virtual [System::ArrayPtr](../../system/arrayptr/)\<[System::SharedPtr](../../system/sharedptr/)\<[IGeometryPath](../../aspose.slides/igeometrypath/)\>\> [GetGeometryPaths](../../aspose.slides/igeometryshape/getgeometrypaths/)() | Возвращает копию пути геометрической формы. Координаты задаются относительно левого верхнего угла формы. |
+| virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | Аналог метода C# [Object.GetHashCode()](../../system/object/gethashcode/). Позволяет хешировать пользовательские объекты. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IImage](../../aspose.slides/iimage/)\> [GetImage](../../aspose.slides/ishape/getimage/)() | Возвращает миниатюру формы. По умолчанию используется тип границ миниатюры [ShapeThumbnailBounds::Shape](../../aspose.slides/shapethumbnailbounds/). |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IImage](../../aspose.slides/iimage/)\> [GetImage](../../aspose.slides/ishape/getimage/)([ShapeThumbnailBounds](../../aspose.slides/shapethumbnailbounds/), **float**, **float**) | Возвращает миниатюру формы. |
+| virtual const [TypeInfo](../../system/typeinfo/)\& [GetType](../../system/object/gettype/)() const | Получает фактический тип объекта. Аналог вызова C# [System.Object.GetType()](../../system/object/gettype/). |
+| virtual **bool** [Is](../../system/object/is/)(const [TypeInfo](../../system/typeinfo/)\&) const | Проверяет, представляет ли объект экземпляр типа, описанного targetType. Аналог оператора C# 'is'. |
+| void [Lock](../../system/object/lock/)() | Реализует оператор C# lock() для блокировки. Вызывайте напрямую или используйте объект-страж [LockContext](../../system/lockcontext/). |
+| virtual [ptr](../../system/object/ptr/) [MemberwiseClone](../../system/object/memberwiseclone/)() const | Аналог метода C# [Object.MemberwiseClone()](../../system/object/memberwiseclone/). Позволяет клонировать пользовательские типы. |
+|  [Object](../../system/object/object/)() | Создаёт объект. Инициализирует все внутренние структуры данных. |
+|  [Object](../../system/object/object/)([Object](../../system/object/) const\&) | Конструктор копирования. На самом деле ничего не копирует, лишь инициализирует новый объект и позволяет копировать подклассы. |
+| [Object](../../system/object/)\& [operator=](../../system/object/operator_equal/)([Object](../../system/object/) const\&) | Оператор присваивания. На самом деле ничего не копирует, лишь инициализирует новый объект и позволяет копировать подклассы. |
+| static **bool** [ReferenceEquals](../../system/object/referenceequals/)([ptr](../../system/object/ptr/) const\&, [ptr](../../system/object/ptr/) const\&) | Сравнивает объекты по ссылке. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, T const\&) | Сравнивает объекты по ссылке. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, std::nullptr_t) | Сравнивает объект значимого типа со ссылкой nullptr. |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, std::nullptr_t) | Специализация [Object::ReferenceEquals](../../system/object/referenceequals/) для случая строки и nullptr. |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | Специализация [Object::ReferenceEquals](../../system/object/referenceequals/) для случая строк. |
+| int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Уменьшает счётчик общих ссылок на указанное значение. |
+| virtual void [RemovePlaceholder](../../aspose.slides/ishape/removeplaceholder/)() | Определяет, что эта форма не является заполнителем. |
+| virtual void [set_AlternativeText](../../aspose.slides/ishape/set_alternativetext/)([System::String](../../system/string/)) | Устанавливает альтернативный текст, связанный с формой. Запись [System::String](../../system/string/). |
+| virtual void [set_AlternativeTextTitle](../../aspose.slides/ishape/set_alternativetexttitle/)([System::String](../../system/string/)) | Устанавливает заголовок альтернативного текста, связанный с формой. Запись [System::String](../../system/string/). |
+| virtual void [set_BlackWhiteMode](../../aspose.slides/ishape/set_blackwhitemode/)([Aspose::Slides::BlackWhiteMode](../../aspose.slides/blackwhitemode/)) | Свойство задаёт, как форма будет отображаться в чёрно-белом режиме. Запись [Slides::BlackWhiteMode](../../aspose.slides/blackwhitemode/). |
+| virtual void [set_Frame](../../aspose.slides/ishape/set_frame/)([System::SharedPtr](../../system/sharedptr/)\<[IShapeFrame](../../aspose.slides/ishapeframe/)\>) | Устанавливает свойства кадра формы. Запись [IShapeFrame](../../aspose.slides/ishapeframe/). |
+| virtual void [set_Height](../../aspose.slides/ishape/set_height/)(**float**) | Устанавливает высоту формы в пунктах. Запись **float**. |
+| virtual void [set_Hidden](../../aspose.slides/ishape/set_hidden/)(**bool**) | Определяет, скрыта ли форма. Запись **bool**. |
+| virtual void [set_HyperlinkClick](../../aspose.slides/ihyperlinkcontainer/set_hyperlinkclick/)([System::SharedPtr](../../system/sharedptr/)\<[IHyperlink](../../aspose.slides/ihyperlink/)\>) | Устанавливает гиперссылку, определённую для щелчка мышью. Запись [IHyperlink](../../aspose.slides/ihyperlink/). |
+| virtual void [set_HyperlinkMouseOver](../../aspose.slides/ihyperlinkcontainer/set_hyperlinkmouseover/)([System::SharedPtr](../../system/sharedptr/)\<[IHyperlink](../../aspose.slides/ihyperlink/)\>) | Устанавливает гиперссылку, определённую для наведения мышью. Запись [IHyperlink](../../aspose.slides/ihyperlink/). |
+| virtual void [set_IsDecorative](../../aspose.slides/ishape/set_isdecorative/)(**bool**) | Устанавливает параметр «Отметить как декоративный». Чтение/запись **bool**. |
+| virtual void [set_Name](../../aspose.slides/ishape/set_name/)([System::String](../../system/string/)) | Устанавливает имя формы. Запись [System::String](../../system/string/). |
+| virtual void [set_RawFrame](../../aspose.slides/ishape/set_rawframe/)([System::SharedPtr](../../system/sharedptr/)\<[IShapeFrame](../../aspose.slides/ishapeframe/)\>) | Устанавливает свойства необработанного кадра формы. Запись [IShapeFrame](../../aspose.slides/ishapeframe/). |
+| virtual void [set_Rotation](../../aspose.slides/ishape/set_rotation/)(**float**) | Устанавливает количество градусов, на которое указанная форма вращается вокруг оси Z. Положительное значение означает вращение по часовой стрелке; отрицательное — против часовой стрелки. Запись **float**. |
+| virtual void [set_ShapeType](../../aspose.slides/igeometryshape/set_shapetype/)([Aspose::Slides::ShapeType](../../aspose.slides/shapetype/)) | Устанавливает тип предустановки геометрии. Примечание: при изменении значения все регулировки сбрасываются к значениям по умолчанию. Запись [Slides::ShapeType](../../aspose.slides/shapetype/). |
+| virtual void [set_Width](../../aspose.slides/ishape/set_width/)(**float**) | Устанавливает ширину формы в пунктах. Запись **float**. |
+| virtual void [set_X](../../aspose.slides/ishape/set_x/)(**float**) | Устанавливает координату X левого верхнего угла формы в пунктах. Запись **float**. |
+| virtual void [set_Y](../../aspose.slides/ishape/set_y/)(**float**) | Устанавливает координату Y левого верхнего угла формы в пунктах. Запись **float**. |
+| virtual void [SetGeometryPath](../../aspose.slides/igeometryshape/setgeometrypath/)([System::SharedPtr](../../system/sharedptr/)\<[IGeometryPath](../../aspose.slides/igeometrypath/)\>) | Обновляет геометрию формы из объекта [IGeometryPath](../../aspose.slides/igeometrypath/). Координаты задаются относительно левого верхнего угла формы. Меняет тип формы ([ShapeType](../../aspose.slides/shapetype/)) на [ShapeType::Custom](../../aspose.slides/shapetype/). |
+| virtual void [SetGeometryPaths](../../aspose.slides/igeometryshape/setgeometrypaths/)([System::ArrayPtr](../../system/arrayptr/)\<[System::SharedPtr](../../system/sharedptr/)\<[IGeometryPath](../../aspose.slides/igeometrypath/)\>\>) | Обновляет геометрию формы из массива [IGeometryPath](../../aspose.slides/igeometrypath/). Координаты задаются относительно левого верхнего угла формы. Меняет тип формы ([ShapeType](../../aspose.slides/shapetype/)) на [ShapeType::Custom](../../aspose.slides/shapetype/). |
+| virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | Устанавливает n-й шаблонный аргумент как слабый указатель (а не shared). Позволяет переключать указатели в контейнерах в режим weak. |
+| int [SharedCount](../../system/object/sharedcount/)() const | Получает текущее значение счётчика общих ссылок. |
+| [Object](../../system/object/) * [SharedRefAdded](../../system/object/sharedrefadded/)() | Инкрементирует счётчик общих ссылок. Не следует вызывать напрямую; используйте умные указатели или ThisProtector. |
+| int [SharedRefRemovedSafe](../../system/object/sharedrefremovedsafe/)() | Декрементирует и возвращает счётчик общих ссылок. Не следует вызывать напрямую; используйте умные указатели или ThisProtector. |
+| virtual [String](../../system/string/) [ToString](../../system/object/tostring/)() const | Аналог метода C# [Object.ToString()](../../system/object/tostring/). Позволяет преобразовать пользовательские объекты в строку. |
+| static const [TypeInfo](../../system/typeinfo/)\& [Type](../../system/object/type/)() | Реализует конструкцию C# typeof([System.Object](../../system/object/)). |
+| void [Unlock](../../system/object/unlock/)() | Реализует оператор C# lock() для разблокировки. Вызывайте напрямую или используйте объект-страж [LockContext](../../system/lockcontext/). |
+| Detail::SmartPtrCounter * [WeakRefAdded](../../system/object/weakrefadded/)() | Инкрементирует счётчик слабых ссылок. Не следует вызывать напрямую; используйте умные указатели или ThisProtector. |
+| void [WeakRefRemoved](../../system/object/weakrefremoved/)() | Декрементирует счётчик слабых ссылок. Не следует вызывать напрямую; используйте умные указатели или ThisProtector. |
+| virtual void [WriteAsSvg](../../aspose.slides/ishape/writeassvg/)([System::SharedPtr](../../system/sharedptr/)\<[System::IO::Stream](../../system.io/stream/)\>) | Сохраняет содержимое [Shape](../../aspose.slides/shape/) в файл SVG. |
+| virtual void [WriteAsSvg](../../aspose.slides/ishape/writeassvg/)([System::SharedPtr](../../system/sharedptr/)\<[System::IO::Stream](../../system.io/stream/)\>, [System::SharedPtr](../../system/sharedptr/)\<[Export::ISVGOptions](../../aspose.slides.export/isvgoptions/)\>) | Сохраняет содержимое [Shape](../../aspose.slides/shape/) в файл SVG. |
+| virtual  [~Object](../../system/object/~object/)() | Уничтожает объект. Освобождает все внутренние структуры данных. |
+## См. также
+
+* Класс [IGeometryShape](../../aspose.slides/igeometryshape/)
+* Пространство имён [Aspose::Slides::SmartArt](../)
+* Библиотека [Aspose.Slides](../../)
