@@ -1,0 +1,94 @@
+---
+title: "System::IO"
+second_title: Aspose.Slides для C++ справочник API
+description: 
+type: docs
+weight: 573
+url: /ru/system.io/
+---
+## Классы
+
+| Класс | Описание |
+| --- | --- |
+| [BasicSTDIOStreamWrapper](./basicstdiostreamwrapper/) | Представляет обёртку, похожую на [System.IO.Stream](./stream/), для std::basic_iostream и её производных объектов. Объекты этого класса должны выделяться только с помощью функции [System::MakeObject()](../system/makeobject/). Нельзя создавать экземпляры этого типа в стеке или с помощью оператора new, так как это приведёт к ошибкам времени выполнения и/или сбоям утверждений. Всегда оборачивайте этот класс в указатель [System::SmartPtr](../system/smartptr/) и используйте этот указатель для передачи его в функции в качестве аргумента. |
+| [BasicSTDIStreamWrapper](./basicstdistreamwrapper/) | Представляет обёртку, похожую на [System.IO.Stream](./stream/), для std::basic_istream и её производных объектов. Объекты этого класса должны выделяться только с помощью функции [System::MakeObject()](../system/makeobject/). Нельзя создавать экземпляры этого типа в стеке или с помощью оператора new, так как это приведёт к ошибкам времени выполнения и/или сбоям утверждений. Всегда оборачивайте этот класс в указатель [System::SmartPtr](../system/smartptr/) и используйте этот указатель для передачи его в функции в качестве аргумента. |
+| [BasicSTDOStreamWrapper](./basicstdostreamwrapper/) | Представляет обёртку, похожую на [System.IO.Stream](./stream/), для std::basic_ostream и её производных объектов. Объекты этого класса должны выделяться только с помощью функции [System::MakeObject()](../system/makeobject/). Нельзя создавать экземпляры этого типа в стеке или с помощью оператора new, так как это приведёт к ошибкам времени выполнения и/или сбоям утверждений. Всегда оборачивайте этот класс в указатель [System::SmartPtr](../system/smartptr/) и используйте этот указатель для передачи его в функции в качестве аргумента. |
+| [BasicSystemIOStreamBuf](./basicsystemiostreambuf/) | Представляет буфер, который оборачивает потоки, похожие на [System::IO::Stream](./stream/), и позволяет использовать их в качестве внутреннего буфера потоков, похожих на std::iostream. |
+| [BasicSystemIOStreamWrapper](./basicsystemiostreamwrapper/) | Представляет обёртку, похожую на std::iostream, которая использует [BasicSystemIOStreamBuf](./basicsystemiostreambuf/) в качестве внутреннего буфера. |
+| [BasicSystemIStreamWrapper](./basicsystemistreamwrapper/) | Представляет обёртку, похожую на std::istream, которая использует [BasicSystemIOStreamBuf](./basicsystemiostreambuf/) в качестве внутреннего буфера. |
+| [BasicSystemOStreamWrapper](./basicsystemostreamwrapper/) | Представляет обёртку, похожую на std::ostream, которая использует [BasicSystemIOStreamBuf](./basicsystemiostreambuf/) в качестве внутреннего буфера. |
+| [BinaryReader](./binaryreader/) | Представляет читатель, который считывает примитивные типы данных как бинарные данные в определённой кодировке. Объекты этого класса должны выделяться только с помощью функции [System::MakeObject()](../system/makeobject/). Нельзя создавать экземпляры этого типа в стеке или с помощью оператора new, так как это приведёт к ошибкам времени выполнения и/или сбоям утверждений. Всегда оборачивайте этот класс в указатель [System::SmartPtr](../system/smartptr/) и используйте этот указатель для передачи его в функции в качестве аргумента. |
+| [BinaryWriter](./binarywriter/) | Представляет запись, которая записывает значения примитивных типов в байтовый поток. Объекты этого класса должны выделяться только с помощью функции [System::MakeObject()](../system/makeobject/). Нельзя создавать экземпляры этого типа в стеке или с помощью оператора new, так как это приведёт к ошибкам времени выполнения и/или сбоям утверждений. Всегда оборачивайте этот класс в указатель [System::SmartPtr](../system/smartptr/) и используйте этот указатель для передачи его в функции в качестве аргумента. |
+| [BufferedStream](./bufferedstream/) | Добавляет слой буферизации поверх другого потока. Объекты этого класса должны выделяться только с помощью функции [System::MakeObject()](../system/makeobject/). Нельзя создавать экземпляры этого типа в стеке или с помощью оператора new, так как это приведёт к ошибкам времени выполнения и/или сбоям утверждений. Всегда оборачивайте этот класс в указатель [System::SmartPtr](../system/smartptr/) и используйте этот указатель для передачи его в функции в качестве аргумента. |
+| [Details_DirectoryNotFoundException](./details_directorynotfoundexception/) |  |
+| [Details_DriveNotFoundException](./details_drivenotfoundexception/) |  |
+| [Details_EndOfStreamException](./details_endofstreamexception/) |  |
+| [Details_FileLoadException](./details_fileloadexception/) |  |
+| [Details_FileNotFoundException](./details_filenotfoundexception/) | Исключение, которое выбрасывается, когда попытка доступа к файлу, отсутствующему на диске, завершается неудачей. Никогда не создавайте экземпляры этого класса вручную. Вместо этого используйте класс FileNotFoundException. Никогда не оборачивайте экземпляры класса FileNotFoundException в [System::SmartPtr](../system/smartptr/). |
+| [Details_InvalidDataException](./details_invaliddataexception/) |  |
+| [Details_IOException](./details_ioexception/) |  |
+| [Details_PathTooLongException](./details_pathtoolongexception/) |  |
+| [Directory](./directory/) | Содержит методы для работы с каталогами. Это статический тип без сервисов экземпляров. Вы не должны создавать его экземпляры никакими способами. |
+| [DirectoryInfo](./directoryinfo/) | Представляет путь к файловой системе, каталог, на который указывает этот путь, и предоставляет методы-экземпляры для работы с каталогами. Объекты этого класса должны выделяться только с помощью функции [System::MakeObject()](../system/makeobject/). Нельзя создавать экземпляры этого типа в стеке или с помощью оператора new, так как это приведёт к ошибкам времени выполнения и/или сбоям утверждений. Всегда оборачивайте этот класс в указатель [System::SmartPtr](../system/smartptr/) и используйте этот указатель для передачи его в функции в качестве аргумента. |
+| [File](./file/) | Предоставляет методы для работы с файлами. Это статический тип без сервисов экземпляров. Вы не должны создавать его экземпляры никакими способами. |
+| [FileInfo](./fileinfo/) | Представляет путь к файлу и файл, на который указывает этот путь, и предоставляет методы для работы с ним. Объекты этого класса должны выделяться только с помощью функции [System::MakeObject()](../system/makeobject/). Нельзя создавать экземпляры этого типа в стеке или с помощью оператора new, так как это приведёт к ошибкам времени выполнения и/или сбоям утверждений. Всегда оборачивайте этот класс в указатель [System::SmartPtr](../system/smartptr/) и используйте этот указатель для передачи его в функции в качестве аргумента. |
+| [FileStream](./filestream/) | Представляет файловый поток, поддерживающий синхронные и асинхронные операции чтения и записи. Объекты этого класса должны выделяться только с помощью функции [System::MakeObject()](../system/makeobject/). Нельзя создавать экземпляры этого типа в стеке или с помощью оператора new, так как это приведёт к ошибкам времени выполнения и/или сбоям утверждений. Всегда оборачивайте этот класс в указатель [System::SmartPtr](../system/smartptr/) и используйте этот указатель для передачи его в функции в качестве аргумента. |
+| [FileSystemInfo](./filesysteminfo/) | Базовый класс для [FileInfo](./fileinfo/) и [DirectoryInfo](./directoryinfo/). Объекты этого класса должны выделяться только с помощью функции [System::MakeObject()](../system/makeobject/). Нельзя создавать экземпляры этого типа в стеке или с помощью оператора new, так как это приведёт к ошибкам времени выполнения и/или сбоям утверждений. Всегда оборачивайте этот класс в указатель [System::SmartPtr](../system/smartptr/) и используйте этот указатель для передачи его в функции в качестве аргумента. |
+| [FileSystemInfoStat](./filesysteminfostat/) | Представляет информацию о файле или каталоге. |
+| [MemoryStream](./memorystream/) | Представляет поток, который читает из памяти и записывает в неё. Объекты этого класса должны выделяться только с помощью функции [System::MakeObject()](../system/makeobject/). Нельзя создавать экземпляры этого типа в стеке или с помощью оператора new, так как это приведёт к ошибкам времени выполнения и/или сбоям утверждений. Всегда оборачивайте этот класс в указатель [System::SmartPtr](../system/smartptr/) и используйте этот указатель для передачи его в функции в качестве аргумента. |
+| [Path](./path/) | Предоставляет методы для работы с путями. Это статический тип без сервисов экземпляров. Вы не должны создавать его экземпляры никакими способами. |
+| [STDIOStreamWrapperBase](./stdiostreamwrapperbase/) | Представляет базовый класс для обёрток, похожих на [System.IO.Stream](./stream/). Объекты этого класса должны выделяться только с помощью функции [System::MakeObject()](../system/makeobject/). Нельзя создавать экземпляры этого типа в стеке или с помощью оператора new, так как это приведёт к ошибкам времени выполнения и/или сбоям утверждений. Всегда оборачивайте этот класс в указатель [System::SmartPtr](../system/smartptr/) и используйте этот указатель для передачи его в функции в качестве аргумента. |
+| [Stream](./stream/) | Базовый класс для различных реализаций потоков. Объекты этого класса должны выделяться только с помощью функции [System::MakeObject()](../system/makeobject/). Нельзя создавать экземпляры этого типа в стеке или с помощью оператора new, так как это приведёт к ошибкам времени выполнения и/или сбоям утверждений. Всегда оборачивайте этот класс в указатель [System::SmartPtr](../system/smartptr/) и используйте этот указатель для передачи его в функции в качестве аргумента. |
+| [StreamReader](./streamreader/) | Представляет читатель, который считывает символы из байтового потока. Объекты этого класса должны выделяться только с помощью функции [System::MakeObject()](../system/makeobject/). Нельзя создавать экземпляры этого типа в стеке или с помощью оператора new, так как это приведёт к ошибкам времени выполнения и/или сбоям утверждений. Всегда оборачивайте этот класс в указатель [System::SmartPtr](../system/smartptr/) и используйте этот указатель для передачи его в функции в качестве аргумента. |
+| [StreamWriter](./streamwriter/) | Представляет запись, которая записывает символы в байтовый поток. Объекты этого класса должны выделяться только с помощью функции [System::MakeObject()](../system/makeobject/). Нельзя создавать экземпляры этого типа в стеке или с помощью оператора new, так как это приведёт к ошибкам времени выполнения и/или сбоям утверждений. Всегда оборачивайте этот класс в указатель [System::SmartPtr](../system/smartptr/) и используйте этот указатель для передачи его в функции в качестве аргумента. |
+| [StringReader](./stringreader/) | Представляет читатель, который считывает символы из строки. Объекты этого класса должны выделяться только с помощью функции [System::MakeObject()](../system/makeobject/). Нельзя создавать экземпляры этого типа в стеке или с помощью оператора new, так как это приведёт к ошибкам времени выполнения и/или сбоям утверждений. Всегда оборачивайте этот класс в указатель [System::SmartPtr](../system/smartptr/) и используйте этот указатель для передачи его в функции в качестве аргумента. |
+| [StringWriter](./stringwriter/) | Реализует [TextWriter](./textwriter/), который записывает информацию в строку. Объекты этого класса должны выделяться только с помощью функции [System::MakeObject()](../system/makeobject/). Нельзя создавать экземпляры этого типа в стеке или с помощью оператора new, так как это приведёт к ошибкам времени выполнения и/или сбоям утверждений. Всегда оборачивайте этот класс в указатель [System::SmartPtr](../system/smartptr/) и используйте этот указатель для передачи его в функции в качестве аргумента. |
+| [TextReader](./textreader/) | Базовый класс для классов, представляющих читатели, которые читают последовательности символов из различных источников. Объекты этого класса должны выделяться только с помощью функции [System::MakeObject()](../system/makeobject/). Нельзя создавать экземпляры этого типа в стеке или с помощью оператора new, так как это приведёт к ошибкам времени выполнения и/или сбоям утверждений. Всегда оборачивайте этот класс в указатель [System::SmartPtr](../system/smartptr/) и используйте этот указатель для передачи его в функции в качестве аргумента. |
+| [TextWriter](./textwriter/) | Базовый класс для классов, представляющих записи, которые записывают последовательности символов в различные места назначения. Объекты этого класса должны выделяться только с помощью функции [System::MakeObject()](../system/makeobject/). Нельзя создавать экземпляры этого типа в стеке или с помощью оператора new, так как это приведёт к ошибкам времени выполнения и/или сбоям утверждений. Всегда оборачивайте этот класс в указатель [System::SmartPtr](../system/smartptr/) и используйте этот указатель для передачи его в функции в качестве аргумента. |
+| [UnmanagedMemoryStream](./unmanagedmemorystream/) | Предоставляет доступ к неуправляемой памяти. Объекты этого класса должны выделяться только с помощью функции [System::MakeObject()](../system/makeobject/). Нельзя создавать экземпляры этого типа в стеке или с помощью оператора new, так как это приведёт к ошибкам времени выполнения и/или сбоям утверждений. Всегда оборачивайте этот класс в указатель [System::SmartPtr](../system/smartptr/) и используйте этот указатель для передачи его в функции в качестве аргумента. |
+## Функции
+
+| Функция | Описание |
+| --- | --- |
+| [SharedPtr](../system/sharedptr/)\<[Stream](./stream/)\> [WrapSTDIOStream](./wrapstdiostream/)(std::basic_istream\<char_type, traits_type\>\&, [STDIOStreamWrappingMode](./stdiostreamwrappingmode/)) | Функция-обертка для потоков, похожих на std::basic_istream. |
+| [SharedPtr](../system/sharedptr/)\<[Stream](./stream/)\> [WrapSTDIOStream](./wrapstdiostream/)(std::basic_ostream\<char_type, traits_type\>\&, [STDIOStreamWrappingMode](./stdiostreamwrappingmode/)) | Функция-обертка для потоков, похожих на std::basic_ostream. |
+| [SharedPtr](../system/sharedptr/)\<[Stream](./stream/)\> [WrapSTDIOStream](./wrapstdiostream/)(std::basic_iostream\<char_type, traits_type\>\&, [STDIOStreamWrappingMode](./stdiostreamwrappingmode/), [STDIOStreamPositionPreference](./stdiostreampositionpreference/)) | Функция-обертка для потоков, похожих на std::basic_iostream. |
+## Перечисления
+
+| Перечисление | Описание |
+| --- | --- |
+| [FileAccess](./fileaccess/) | Указывает тип доступа при открытии файла. |
+| [FileAttributes](./fileattributes/) | Представляет атрибуты каталога или файла. |
+| [FileMode](./filemode/) | Указывает, как файл должен быть открыт. |
+| [FileOptions](./fileoptions/) | Представляет расширенные параметры создания объекта [FileStream](./filestream/). |
+| [FileShare](./fileshare/) | Указывает, какой тип доступа к открываемому файлу могут иметь другие объекты [FileStream](./filestream/). |
+| [SearchOption](./searchoption/) | Указывает, следует ли выполнять поиск только в текущем каталоге, либо в текущем каталоге и всех его подкаталогах. |
+| [SeekOrigin](./seekorigin/) | Указывает опорную позицию в потоке, относительно которой указывается позиция перемещения. |
+| [STDIOStreamWrappingMode](./stdiostreamwrappingmode/) | Указывает режим операций ввода-вывода, которые обертки будут выполнять над потоками, похожими на std::iostream. |
+| [STDIOStreamPositionPreference](./stdiostreampositionpreference/) | Определяет, какая позиция в потоке предпочтительна в качестве общей позиции чтения и записи, когда std::basic_iostream и его наследники будут иметь разные позиции чтения и записи в момент создания обертки. |
+| [SystemIOStreamWrappingMode](./systemiostreamwrappingmode/) | Указывает режим операций ввода-вывода, которые обертки будут выполнять над потоками, похожими на [System::IO::Stream](./stream/). |
+## Типы-определения
+
+| Типовое определение | Описание |
+| --- | --- |
+| [IOException](./ioexception/) |  |
+| [EndOfStreamException](./endofstreamexception/) |  |
+| [InvalidDataException](./invaliddataexception/) |  |
+| [DirectoryNotFoundException](./directorynotfoundexception/) |  |
+| [FileLoadException](./fileloadexception/) |  |
+| [PathTooLongException](./pathtoolongexception/) |  |
+| [DriveNotFoundException](./drivenotfoundexception/) |  |
+| [BinaryWriterPtr](./binarywriterptr/) | Псевдоним для shared pointer к этому классу. |
+| [FileNotFoundException](./filenotfoundexception/) | Исключение, которое выбрасывается, когда попытка доступа к файлу, отсутствующему на диске, завершается неудачей. Никогда не оборачивайте экземпляры класса FileNotFoundException в [System::SmartPtr](../system/smartptr/). |
+| [STDIStreamWrapper](./stdistreamwrapper/) | Специализации [BasicSTDIStreamWrapper](./basicstdistreamwrapper/) для типа символов char. |
+| [STDWIStreamWrapper](./stdwistreamwrapper/) | Специализации [BasicSTDIStreamWrapper](./basicstdistreamwrapper/) для типа символов **wchar_t**. |
+| [STDOStreamWrapper](./stdostreamwrapper/) | Специализации [BasicSTDOStreamWrapper](./basicstdostreamwrapper/) для типа символов char. |
+| [STDWOStreamWrapper](./stdwostreamwrapper/) | Специализации [BasicSTDOStreamWrapper](./basicstdostreamwrapper/) для типа символов **wchar_t**. |
+| [STDIOStreamWrapper](./stdiostreamwrapper/) | Специализации [BasicSTDIOStreamWrapper](./basicstdiostreamwrapper/) для типа символов char. |
+| [STDWIOStreamWrapper](./stdwiostreamwrapper/) | Специализации [BasicSTDIOStreamWrapper](./basicstdiostreamwrapper/) для типа символов **wchar_t**. |
+| [SystemIStreamWrapper](./systemistreamwrapper/) | Специализации [BasicSystemIStreamWrapper](./basicsystemistreamwrapper/) для типа символов char. |
+| [SystemWIStreamWrapper](./systemwistreamwrapper/) | Специализации [BasicSystemIStreamWrapper](./basicsystemistreamwrapper/) для типа символов **wchar_t**. |
+| [SystemOStreamWrapper](./systemostreamwrapper/) | Специализации [BasicSystemOStreamWrapper](./basicsystemostreamwrapper/) для типа символов char. |
+| [SystemWOStreamWrapper](./systemwostreamwrapper/) | Специализации [BasicSystemOStreamWrapper](./basicsystemostreamwrapper/) для типа символов **wchar_t**. |
+| [SystemIOStreamWrapper](./systemiostreamwrapper/) | Специализации [BasicSystemIOStreamWrapper](./basicsystemiostreamwrapper/) для типа символов char. |
+| [SystemWIOStreamWrapper](./systemwiostreamwrapper/) | Специализации [BasicSystemIOStreamWrapper](./basicsystemiostreamwrapper/) для типа символов **wchar_t**. |

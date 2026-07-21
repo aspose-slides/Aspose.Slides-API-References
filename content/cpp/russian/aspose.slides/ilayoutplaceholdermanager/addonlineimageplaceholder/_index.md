@@ -1,0 +1,46 @@
+---
+title: AddOnlineImagePlaceholder()
+second_title: Справочник API Aspose.Slides для C++
+description: Добавляет новую форму-заполнитель на слайд макета для размещения онлайн-изображения.
+type: docs
+weight: 118
+url: /ru/aspose.slides/ilayoutplaceholdermanager/addonlineimageplaceholder/
+---
+## ILayoutPlaceholderManager::AddOnlineImagePlaceholder(float, float, float, float) метод
+
+Добавляет новую форму-заполнитель на слайд макета для размещения онлайн-изображения.
+
+```cpp
+virtual System::SharedPtr<IAutoShape> Aspose::Slides::ILayoutPlaceholderManager::AddOnlineImagePlaceholder(float x, float y, float width, float height)=0
+```
+
+### Аргументы
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| x | **float** | Координата X новой формы-заполнителя. |
+| y | **float** | Координата Y новой формы-заполнителя. |
+| width | **float** | Ширина новой формы-заполнителя. |
+| height | **float** | Высота новой формы-заполнителя. |
+
+### Возвращаемое значение
+
+Создан [IAutoShape](../../iautoshape/) с онлайн-изображением-заполнителем.
+
+## Примечания
+
+Следующий пример демонстрирует, как добавить форму-заполнитель онлайн-изображения на слайд макета. 
+```cpp
+System::SharedPtr<Presentation> pres = System::MakeObject<Presentation>();
+
+System::SharedPtr<ILayoutSlide> layout = pres->get_LayoutSlides()->GetByType(SlideLayoutType::Blank);
+System::SharedPtr<IAutoShape> placeholder = layout->get_PlaceholderManager()->AddOnlineImagePlaceholder(20.0f, 20.0f, 200.0f, 200.0f);
+```
+
+## См. также
+
+* Тип [SharedPtr](../../../system/sharedptr/)
+* Класс [IAutoShape](../../iautoshape/)
+* Класс [ILayoutPlaceholderManager](../)
+* Пространство имён [Aspose::Slides](../../)
+* Библиотека [Aspose.Slides](../../../)

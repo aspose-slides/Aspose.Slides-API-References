@@ -1,0 +1,38 @@
+---
+title: get_SlidesLayoutOptions()
+second_title: Aspose.Slides для C++ справочник API
+description: Получает режим, в котором слайды размещаются на странице при экспорте презентации ISlidesLayoutOptions. Это свойство не поддерживает назначение объектов типа HandoutLayoutingOptions
+type: docs
+weight: 391
+url: /ru/aspose.slides.export/swfoptions/get_slideslayoutoptions/
+---
+## SwfOptions::get_SlidesLayoutOptions() метод
+
+Получает режим, в котором слайды размещаются на странице при экспорте презентации [ISlidesLayoutOptions](../../islideslayoutoptions/). Это свойство не поддерживает назначение объектов типа [HandoutLayoutingOptions](../../handoutlayoutingoptions/)
+
+```cpp
+System::SharedPtr<ISlidesLayoutOptions> Aspose::Slides::Export::SwfOptions::get_SlidesLayoutOptions() override
+```
+
+## Примечания
+
+Пример: 
+```cpp
+System::SharedPtr<Presentation> pres = System::MakeObject<Presentation>(u"pres.pptx");
+
+System::SharedPtr<NotesCommentsLayoutingOptions> slidesLayoutOptions = System::MakeObject<NotesCommentsLayoutingOptions>();
+slidesLayoutOptions->set_CommentsPosition(CommentsPositions::Right);
+
+System::SharedPtr<SwfOptions> options = System::MakeObject<SwfOptions>();
+options->set_SlidesLayoutOptions(slidesLayoutOptions);
+
+pres->Save(u"pres.swf", SaveFormat::Swf, options);
+```
+
+## См. также
+
+* Типedef [SharedPtr](../../../system/sharedptr/)
+* Класс [ISlidesLayoutOptions](../../islideslayoutoptions/)
+* Класс [SwfOptions](../)
+* Пространство имён [Aspose::Slides::Export](../../)
+* Библиотека [Aspose.Slides](../../../)
