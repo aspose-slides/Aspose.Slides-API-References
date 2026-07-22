@@ -9,7 +9,7 @@ url: /system.net/httpknownheadernames/range/
 ## Range field
 
 
-The 'Range' header name.
+The '[Range](../../../system/range/)' header name.
 
 ```cpp
 static const String System::Net::HttpKnownHeaderNames::Range

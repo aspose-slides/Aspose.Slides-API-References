@@ -21,7 +21,7 @@ virtual void System::Collections::Concurrent::ConcurrentDictionary<TKey, TValue>
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arr | [ArrayPtr](../../../system/arrayptr/)\<[System::Collections::Generic::KeyValuePair](../../../system.collections.generic/keyvaluepair/)\<TKey, TValue\>\> | Destination array. |
-| index | int | Index in destination array. |
+| index | int | [Index](../../../system/index/) in destination array. |
 
 ## See Also
 

@@ -3,7 +3,7 @@ title: operator!=()
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 2029
+weight: 2055
 url: /system/operator_not_equal/
 ---
 ## System::operator!=(ArraySegment\<T\>, ArraySegment\<T\>) function

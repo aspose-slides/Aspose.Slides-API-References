@@ -20,8 +20,8 @@ ThisPtr System::Collections::Generic::List<T>::GetRange(int index, int count)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | Range start index. |
-| count | int | Range size. |
+| index | int | [Range](../../../system/range/) start index. |
+| count | int | [Range](../../../system/range/) size. |
 
 ### Return Value
 

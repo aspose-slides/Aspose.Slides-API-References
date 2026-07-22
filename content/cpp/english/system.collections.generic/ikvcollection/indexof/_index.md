@@ -24,7 +24,7 @@ virtual int System::Collections::Generic::IKVCollection<T>::IndexOf(const T &ite
 
 ### Return Value
 
-Index of item in container.
+[Index](../../../system/index/) of item in container.
 
 ## See Also
 

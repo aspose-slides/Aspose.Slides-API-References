@@ -20,7 +20,7 @@ Reference System::Collections::BitArray::operator[](int index)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | Index of bit to access. |
+| index | int | [Index](../../../system/index/) of bit to access. |
 
 ### Return Value
 

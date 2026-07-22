@@ -6,13 +6,13 @@ type: docs
 weight: 1
 url: /system/arraysegment/get_array/
 ---
-## ArraySegment::get_Array() method
+## ArraySegment::get_Array() const method
 
 
 
 
 ```cpp
-System::ArrayPtr<T> System::ArraySegment<T>::get_Array()
+System::ArrayPtr<T> System::ArraySegment<T>::get_Array() const
 ```
 
 ## See Also

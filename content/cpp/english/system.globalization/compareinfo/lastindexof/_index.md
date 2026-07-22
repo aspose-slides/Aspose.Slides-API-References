@@ -25,7 +25,7 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 ### Return Value
 
-Index of lookup value in source string or -1 if not found.
+[Index](../../../system/index/) of lookup value in source string or -1 if not found.
 
 ## CompareInfo::LastIndexOf(const String\&, const String\&, int, int, CompareOptions) const method
 
@@ -49,7 +49,7 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 ### Return Value
 
-Index of lookup value in source string or -1 if not found.
+[Index](../../../system/index/) of lookup value in source string or -1 if not found.
 
 ## CompareInfo::LastIndexOf(const String\&, char16_t, int, int, CompareOptions) const method
 
@@ -73,7 +73,7 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 ### Return Value
 
-Index of lookup value in source string or -1 if not found.
+[Index](../../../system/index/) of lookup value in source string or -1 if not found.
 
 ## CompareInfo::LastIndexOf(const String\&, const String\&, int, int) const method
 
@@ -96,7 +96,7 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 ### Return Value
 
-Index of lookup value in source string or -1 if not found.
+[Index](../../../system/index/) of lookup value in source string or -1 if not found.
 
 ## CompareInfo::LastIndexOf(const String\&, const String\&, int, CompareOptions) const method
 
@@ -119,7 +119,7 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 ### Return Value
 
-Index of lookup value in source string or -1 if not found.
+[Index](../../../system/index/) of lookup value in source string or -1 if not found.
 
 ## CompareInfo::LastIndexOf(const String\&, char16_t, int, CompareOptions) const method
 
@@ -142,7 +142,7 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 ### Return Value
 
-Index of lookup value in source string or -1 if not found.
+[Index](../../../system/index/) of lookup value in source string or -1 if not found.
 
 ## CompareInfo::LastIndexOf(const String\&, const String\&, int) const method
 
@@ -164,7 +164,7 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 ### Return Value
 
-Index of lookup value in source string or -1 if not found.
+[Index](../../../system/index/) of lookup value in source string or -1 if not found.
 
 ## CompareInfo::LastIndexOf(const String\&, char16_t, int) const method
 
@@ -186,7 +186,7 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 ### Return Value
 
-Index of lookup value in source string or -1 if not found.
+[Index](../../../system/index/) of lookup value in source string or -1 if not found.
 
 ## CompareInfo::LastIndexOf(const String\&, const String\&, CompareOptions) const method
 
@@ -208,7 +208,7 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 ### Return Value
 
-Index of lookup value in source string or -1 if not found.
+[Index](../../../system/index/) of lookup value in source string or -1 if not found.
 
 ## CompareInfo::LastIndexOf(const String\&, char16_t, CompareOptions) const method
 
@@ -230,7 +230,7 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 ### Return Value
 
-Index of lookup value in source string or -1 if not found.
+[Index](../../../system/index/) of lookup value in source string or -1 if not found.
 
 ## CompareInfo::LastIndexOf(const String\&, char16_t) const method
 
@@ -251,7 +251,7 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 ### Return Value
 
-Index of lookup value in source string or -1 if not found.
+[Index](../../../system/index/) of lookup value in source string or -1 if not found.
 
 ## CompareInfo::LastIndexOf(const String\&, char16_t, int, int) const method
 
@@ -274,7 +274,7 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 ### Return Value
 
-Index of lookup value in source string or -1 if not found.
+[Index](../../../system/index/) of lookup value in source string or -1 if not found.
 
 ## See Also
 

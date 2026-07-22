@@ -3,7 +3,7 @@ title: IsStringLiteral
 second_title: Aspose.Slides for C++ API Reference
 description: Template magic to check if a type is a string literal.
 type: docs
-weight: 1704
+weight: 1730
 url: /system/isstringliteral/
 ---
 ## IsStringLiteral struct

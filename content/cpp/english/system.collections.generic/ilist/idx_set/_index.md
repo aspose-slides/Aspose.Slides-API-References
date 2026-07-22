@@ -20,7 +20,7 @@ virtual void System::Collections::Generic::IList<T>::idx_set(int index, T value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | Index of element to set. |
+| index | int | [Index](../../../system/index/) of element to set. |
 | value | T | Value to set to selected element. |
 
 ## See Also

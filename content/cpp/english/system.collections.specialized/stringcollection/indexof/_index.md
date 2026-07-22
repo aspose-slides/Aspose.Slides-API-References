@@ -24,7 +24,7 @@ int System::Collections::Specialized::StringCollection::IndexOf(const System::St
 
 ### Return Value
 
-Index of first occurrence of specified string or -1 if not found.
+[Index](../../../system/index/) of first occurrence of specified string or -1 if not found.
 
 ## See Also
 

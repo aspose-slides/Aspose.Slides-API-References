@@ -20,7 +20,7 @@ BitArray::Reference System::Collections::BitArrayPtr::operator[](int idx) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| idx | int | Index to address. |
+| idx | int | [Index](../../../system/index/) to address. |
 
 ### Return Value
 

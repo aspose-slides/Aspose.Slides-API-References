@@ -6,13 +6,13 @@ type: docs
 weight: 27
 url: /system/arraysegment/get_count/
 ---
-## ArraySegment::get_Count() method
+## ArraySegment::get_Count() const method
 
 
 
 
 ```cpp
-int32_t System::ArraySegment<T>::get_Count()
+int32_t System::ArraySegment<T>::get_Count() const
 ```
 
 ## See Also

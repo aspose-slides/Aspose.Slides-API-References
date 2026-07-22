@@ -3,7 +3,7 @@ title: LINQ_Take()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a specified number of contiguous elements from the start of a sequence.
 type: docs
-weight: 313
+weight: 326
 url: /system.collections.generic/ienumerable/linq_take/
 ---
 ## IEnumerable::LINQ_Take(int32_t) method

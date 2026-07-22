@@ -32,7 +32,7 @@ template<typename T,typename TComparable> int32_t System::MemoryExtensions::Bina
 
 ### Return Value
 
-Index of the found element, or bitwise complement of the insertion point if not found
+[Index](../../system/index/) of the found element, or bitwise complement of the insertion point if not found
 
 ## System::MemoryExtensions::BinarySearch(const ReadOnlySpan\<T\>\&, const T\&, const SharedPtr\<TComparer\>\&) function
 
@@ -61,7 +61,7 @@ template<typename T,typename TComparer> int32_t System::MemoryExtensions::Binary
 
 ### Return Value
 
-Index of the found element, or bitwise complement of the insertion point if not found
+[Index](../../system/index/) of the found element, or bitwise complement of the insertion point if not found
 
 ## System::MemoryExtensions::BinarySearch(const Span\<T\>\&, const TComparable\&) function
 
@@ -89,7 +89,7 @@ template<typename T,typename TComparable> int32_t System::MemoryExtensions::Bina
 
 ### Return Value
 
-Index of the found element, or bitwise complement of the insertion point if not found
+[Index](../../system/index/) of the found element, or bitwise complement of the insertion point if not found
 
 ## System::MemoryExtensions::BinarySearch(const Span\<T\>\&, const T\&, const SharedPtr\<TComparer\>\&) function
 
@@ -118,7 +118,7 @@ template<typename T,typename TComparer> int32_t System::MemoryExtensions::Binary
 
 ### Return Value
 
-Index of the found element, or bitwise complement of the insertion point if not found
+[Index](../../system/index/) of the found element, or bitwise complement of the insertion point if not found
 
 ## See Also
 

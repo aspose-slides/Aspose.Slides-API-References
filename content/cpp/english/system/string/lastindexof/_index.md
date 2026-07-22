@@ -25,7 +25,7 @@ int System::String::LastIndexOf(const String &str, int startIndex=INT32_MAX) con
 
 ### Return Value
 
-Index of last found substring or -1 if not found. For empty lookup string, always returns string length.
+[Index](../../index/) of last found substring or -1 if not found. For empty lookup string, always returns string length.
 
 ## String::LastIndexOf(const String\&, System::StringComparison) const method
 
@@ -46,7 +46,7 @@ int System::String::LastIndexOf(const String &str, System::StringComparison comp
 
 ### Return Value
 
-Index of last found substring or -1 if not found. For empty lookup string, always returns string length.
+[Index](../../index/) of last found substring or -1 if not found. For empty lookup string, always returns string length.
 
 ## String::LastIndexOf(const String\&, int, System::StringComparison) const method
 
@@ -68,7 +68,7 @@ int System::String::LastIndexOf(const String &str, int startIndex, System::Strin
 
 ### Return Value
 
-Index of last found substring or -1 if not found. For empty lookup string, always returns string length.
+[Index](../../index/) of last found substring or -1 if not found. For empty lookup string, always returns string length.
 
 ## String::LastIndexOf(const String\&, int, int, StringComparison) const method
 
@@ -91,7 +91,7 @@ int System::String::LastIndexOf(const String &value, int startIndex, int count, 
 
 ### Return Value
 
-Index of last found substring or -1 if not found. For empty lookup string, always returns startIndex+count.
+[Index](../../index/) of last found substring or -1 if not found. For empty lookup string, always returns startIndex+count.
 
 ## String::LastIndexOf(char_t) const method
 
@@ -111,7 +111,7 @@ int System::String::LastIndexOf(char_t value) const
 
 ### Return Value
 
-Index of last character position or -1 if not found.
+[Index](../../index/) of last character position or -1 if not found.
 
 ## String::LastIndexOf(char_t, int32_t) const method
 
@@ -128,11 +128,11 @@ int System::String::LastIndexOf(char_t value, int32_t startIndex) const
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | char_t | Character to look for. |
-| startIndex | **int32_t** | Index to start lookup at. |
+| startIndex | **int32_t** | [Index](../../index/) to start lookup at. |
 
 ### Return Value
 
-Index of last character position since startIndex or -1 if not found.
+[Index](../../index/) of last character position since startIndex or -1 if not found.
 
 ## String::LastIndexOf(char_t, int32_t, int32_t) const method
 
@@ -149,12 +149,12 @@ int System::String::LastIndexOf(char_t value, int32_t startIndex, int32_t count)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | char_t | Character to look for. |
-| startIndex | **int32_t** | Index to start lookup at. |
+| startIndex | **int32_t** | [Index](../../index/) to start lookup at. |
 | count | **int32_t** | Number of characters to look through |
 
 ### Return Value
 
-Index of last character position since startIndex or -1 if not found.
+[Index](../../index/) of last character position since startIndex or -1 if not found.
 
 ## See Also
 

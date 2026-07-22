@@ -3,7 +3,7 @@ title: Equals()
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 66
+weight: 105
 url: /system/arraysegment/equals/
 ---
 ## ArraySegment::Equals(System::SharedPtr\<Object\>) method

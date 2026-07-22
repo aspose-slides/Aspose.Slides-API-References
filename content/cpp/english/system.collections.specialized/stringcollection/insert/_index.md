@@ -20,7 +20,7 @@ void System::Collections::Specialized::StringCollection::Insert(int index, const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | Index to insert string into. |
+| index | int | [Index](../../../system/index/) to insert string into. |
 | value | const [System::String](../../../system/string/)\& | Value to insert into specified position. |
 
 ## See Also

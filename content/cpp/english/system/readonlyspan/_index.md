@@ -3,7 +3,7 @@ title: ReadOnlySpan
 second_title: Aspose.Slides for C++ API Reference
 description: Forward to use within Span class.
 type: docs
-weight: 1184
+weight: 1210
 url: /system/readonlyspan/
 ---
 ## ReadOnlySpan class

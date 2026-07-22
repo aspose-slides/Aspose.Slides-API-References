@@ -18,7 +18,7 @@ int System::Text::Details_EncoderFallbackException::get_Index()
 
 ### Return Value
 
-Index of erroneous character in input array.
+[Index](../../../system/index/) of erroneous character in input array.
 
 ## See Also
 

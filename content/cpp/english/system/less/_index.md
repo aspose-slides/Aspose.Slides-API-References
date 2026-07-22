@@ -3,7 +3,7 @@ title: Less()
 second_title: Aspose.Slides for C++ API Reference
 description: Implements '<' relative pattern translation.
 type: docs
-weight: 2289
+weight: 2328
 url: /system/less/
 ---
 ## System::Less(const ExpressionT\&, const ConstantT\&) function
@@ -32,7 +32,7 @@ template<class ExpressionT,class ConstantT> bool System::Less(const ExpressionT 
 
 ### Return Value
 
-true if type check is successfull, false otherwise.
+true if type check is successful, false otherwise.
 
 ## See Also
 

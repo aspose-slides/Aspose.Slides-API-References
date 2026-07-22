@@ -29,12 +29,12 @@ template<typename ArrayType,typename ValueType> static int System::Array<T>::Las
 | --- | --- | --- |
 | arr | const [ArrayPtr](../../arrayptr/)\<ArrayType\>\& | [Array](../) to search the specified item in |
 | value | const [ValueType](../valuetype/)\& | Item index of which is to be determined |
-| startIndex | int | Index at which the search is started |
+| startIndex | int | [Index](../../index/) at which the search is started |
 | count | int | Number of elements of the range to search in |
 
 ### Return Value
 
-Index of the last occurrence of the specified item if the item is found, otherwise -1
+[Index](../../index/) of the last occurrence of the specified item if the item is found, otherwise -1
 
 ## Array::LastIndexOf(const ArrayPtr\<ArrayType\>\&, const ValueType\&, int) method
 
@@ -59,11 +59,11 @@ template<typename ArrayType,typename ValueType> static int System::Array<T>::Las
 | --- | --- | --- |
 | items | const [ArrayPtr](../../arrayptr/)\<ArrayType\>\& | [Array](../) to search the specified item in |
 | value | const [ValueType](../valuetype/)\& | Item index of which is to be determined |
-| startIndex | int | Index at which the search is started |
+| startIndex | int | [Index](../../index/) at which the search is started |
 
 ### Return Value
 
-Index of the last occurrence of the specified item if the item is found, otherwise -1
+[Index](../../index/) of the last occurrence of the specified item if the item is found, otherwise -1
 
 ## Array::LastIndexOf(const ArrayPtr\<ArrayType\>\&, const ValueType\&) method
 
@@ -91,7 +91,7 @@ template<typename ArrayType,typename ValueType> static int System::Array<T>::Las
 
 ### Return Value
 
-Index of the last occurrence of the specified item if the item is found, otherwise -1
+[Index](../../index/) of the last occurrence of the specified item if the item is found, otherwise -1
 
 ## See Also
 

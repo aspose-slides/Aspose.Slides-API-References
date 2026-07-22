@@ -3,7 +3,7 @@ title: Equals()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines the equality of two values applying operator==() to them.
 type: docs
-weight: 2653
+weight: 2692
 url: /system/equals/
 ---
 ## System::Equals(const TA\&, const TB\&) function

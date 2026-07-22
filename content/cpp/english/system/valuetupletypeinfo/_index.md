@@ -3,7 +3,7 @@ title: ValueTupleTypeInfo
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a pointer to TypeInfo object that contains information about ValueTuple class.
 type: docs
-weight: 1977
+weight: 2003
 url: /system/valuetupletypeinfo/
 ---
 ## ValueTupleTypeInfo struct

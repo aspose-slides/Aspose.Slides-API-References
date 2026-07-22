@@ -3,7 +3,7 @@ title: MathF
 second_title: Aspose.Slides for C++ API Reference
 description: Contains math functions for single-precision floating-point values. This is a static type with no instance services. You should never create instances of it by any means.
 type: docs
-weight: 1769
+weight: 1795
 url: /system/mathf/
 ---
 ## MathF struct

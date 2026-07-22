@@ -3,7 +3,7 @@ title: Is()
 second_title: Aspose.Slides for C++ API Reference
 description: Implements 'is' declaration pattern translation.
 type: docs
-weight: 2276
+weight: 2302
 url: /system/is/
 ---
 ## System::Is(const ExpressionT\&, ResultT\&) function
@@ -33,7 +33,7 @@ template<class PatternT,class ExpressionT,class ResultT> bool System::Is(const E
 
 ### Return Value
 
-true if type check is successfull, false otherwise.
+true if type check is successful, false otherwise.
 
 ## System::Is(const ExpressionT\&, const ConstantT\&) function
 
@@ -61,7 +61,7 @@ template<class ExpressionT,class ConstantT> std::enable_if_t<!std::is_base_of<De
 
 ### Return Value
 
-true if type check is successfull, false otherwise.
+true if type check is successful, false otherwise.
 
 ## System::Is(const E\&, const A\&) function
 

@@ -3,7 +3,7 @@ title: UriShim
 second_title: Aspose.Slides for C++ API Reference
 description: Service class.
 type: docs
-weight: 1405
+weight: 1431
 url: /system/urishim/
 ---
 ## UriShim class

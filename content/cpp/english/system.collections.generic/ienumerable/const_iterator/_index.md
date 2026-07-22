@@ -3,7 +3,7 @@ title: const_iterator
 second_title: Aspose.Slides for C++ API Reference
 description: Const iterator type.
 type: docs
-weight: 495
+weight: 521
 url: /system.collections.generic/ienumerable/const_iterator/
 ---
 ## const_iterator typedef
