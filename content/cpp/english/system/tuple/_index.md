@@ -3,7 +3,7 @@ title: Tuple
 second_title: Aspose.Slides for C++ API Reference
 description: Class that represents a tuple data structure. Maximum number of items is 8.
 type: docs
-weight: 1327
+weight: 1353
 url: /system/tuple/
 ---
 ## Tuple class
@@ -31,7 +31,7 @@ template<typename ...>class Tuple : public System::Runtime::CompilerServices::IT
 | static **bool** [Equals](../object/equals/)(**float** const\&, **float** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | static **bool** [Equals](../object/equals/)(**double** const\&, **double** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | virtual **bool** [FastCast](../object/fastcast/)(const Details::FastRttiBase\&, void **) const | For internal purposes only. |
-| std::tuple_element\<Index, tuple_t\>::type [get_Item](./get_item/)() const | Gets the value of the [Tuple](./) object's component. |
+| std::tuple_element\<[Index](../index/), tuple_t\>::type [get_Item](./get_item/)() const | Gets the value of the [Tuple](./) object's component. |
 | Detail::SmartPtrCounter * [GetCounter](../object/getcounter/)() | Gets reference counter data structure associated with the object. |
 | virtual **int32_t** [GetHashCode](../object/gethashcode/)() const | Analog of C# [Object.GetHashCode()](../object/gethashcode/) method. Enables hashing of custom objects. |
 | virtual const [TypeInfo](../typeinfo/)\& [GetType](../object/gettype/)() const | Gets actual type of object. Analog of C# [System.Object.GetType()](../object/gettype/) call. |

@@ -30,7 +30,7 @@ template<typename TKey,typename TValue> void System::MemoryExtensions::Details::
 | keys | [Span](../../system/span/)\<TKey\>\& | The span of keys in the heap |
 | values | [Span](../../system/span/)\<TValue\>\& | The span of values in the heap |
 | n | **int32_t** | Size of the heap |
-| i | **int32_t** | Index to heapify from |
+| i | **int32_t** | [Index](../../system/index/) to heapify from |
 | comparer | std::function\<**int32_t**(const TKey\&, const TKey\&)> | [Comparison](../../system/comparison/) function for keys |
 
 ## See Also

@@ -24,7 +24,7 @@ int System::Collections::Generic::SortedList<TKey, TValue>::IndexOfValue(TValue 
 
 ### Return Value
 
-Index of the first occurrence of specified value or -1 if not found.
+[Index](../../../system/index/) of the first occurrence of specified value or -1 if not found.
 
 ## See Also
 

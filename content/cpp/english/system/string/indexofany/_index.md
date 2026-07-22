@@ -21,11 +21,11 @@ int System::String::IndexOfAny(char_t c, int startIndex=0) const
 | Parameter | Type | Description |
 | --- | --- | --- |
 | c | char_t | Character to look for. |
-| startIndex | int | Index to start lookup at. |
+| startIndex | int | [Index](../../index/) to start lookup at. |
 
 ### Return Value
 
-Index of first character position since startIndex or -1 if not found.
+[Index](../../index/) of first character position since startIndex or -1 if not found.
 
 ## String::IndexOfAny(const String\&, int) const method
 
@@ -46,7 +46,7 @@ int System::String::IndexOfAny(const String &str, int startIndex=0) const
 
 ### Return Value
 
-Index of first found character or -1 if none is found.
+[Index](../../index/) of first found character or -1 if none is found.
 
 ## String::IndexOfAny(const ArrayPtr\<char_t\>\&) const method
 
@@ -66,7 +66,7 @@ int System::String::IndexOfAny(const ArrayPtr<char_t> &anyOf) const
 
 ### Return Value
 
-Index of the first matching character or -1 if not found.
+[Index](../../index/) of the first matching character or -1 if not found.
 
 ## String::IndexOfAny(const ArrayPtr\<char_t\>\&, int32_t) const method
 
@@ -83,11 +83,11 @@ int System::String::IndexOfAny(const ArrayPtr<char_t> &anyOf, int32_t startindex
 | Parameter | Type | Description |
 | --- | --- | --- |
 | anyOf | const [ArrayPtr](../../arrayptr/)\<char_t\>\& | [Array](../../array/) of characters to look for. Order doesn't matter. |
-| startindex | **int32_t** | Index to start lookup from. |
+| startindex | **int32_t** | [Index](../../index/) to start lookup from. |
 
 ### Return Value
 
-Index of the first matching character or -1 if not found.
+[Index](../../index/) of the first matching character or -1 if not found.
 
 ## String::IndexOfAny(const ArrayPtr\<char_t\>\&, int32_t, int32_t) const method
 
@@ -104,12 +104,12 @@ int System::String::IndexOfAny(const ArrayPtr<char_t> &anyOf, int32_t startindex
 | Parameter | Type | Description |
 | --- | --- | --- |
 | anyOf | const [ArrayPtr](../../arrayptr/)\<char_t\>\& | [Array](../../array/) of characters to look for. Order doesn't matter. |
-| startindex | **int32_t** | Index to start lookup from. |
+| startindex | **int32_t** | [Index](../../index/) to start lookup from. |
 | count | **int32_t** | Number of characters to look through. |
 
 ### Return Value
 
-Index of the first matching character or -1 if not found.
+[Index](../../index/) of the first matching character or -1 if not found.
 
 ## See Also
 

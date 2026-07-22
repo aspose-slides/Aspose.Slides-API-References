@@ -21,7 +21,7 @@ MatchCollectionPtr System::Text::RegularExpressions::Regex::Matches(const String
 | Parameter | Type | Description |
 | --- | --- | --- |
 | input | const [String](../../../system/string/)\& | Input string. |
-| startat | int | Index to start matching at. |
+| startat | int | [Index](../../../system/index/) to start matching at. |
 
 ### Return Value
 

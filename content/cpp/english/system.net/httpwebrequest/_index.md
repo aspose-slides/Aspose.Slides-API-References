@@ -20,8 +20,8 @@ class HttpWebRequest : public System::Net::WebRequest
 | Method | Description |
 | --- | --- |
 | void [Abort](./abort/)() override | Aborts the current request. |
-| virtual void [AddRange](./addrange/)(**int32_t**) | Adds the 'Range' header to the current request. |
-| virtual void [AddRange](./addrange/)([System::String](../../system/string/), **int32_t**, **int32_t**) | Adds the 'Range' header to the current request. |
+| virtual void [AddRange](./addrange/)(**int32_t**) | Adds the '[Range](../../system/range/)' header to the current request. |
+| virtual void [AddRange](./addrange/)([System::String](../../system/string/), **int32_t**, **int32_t**) | Adds the '[Range](../../system/range/)' header to the current request. |
 | [System::SharedPtr](../../system/sharedptr/)\<[IAsyncResult](../../system/iasyncresult/)\> [BeginGetRequestStream](./begingetrequeststream/)([AsyncCallback](../../system/asynccallback/), [System::SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>) override | Initiates an asynchronous operation to get a stream for writing data to the resource. |
 | [System::SharedPtr](../../system/sharedptr/)\<[IAsyncResult](../../system/iasyncresult/)\> [BeginGetResponse](./begingetresponse/)([AsyncCallback](../../system/asynccallback/), [System::SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>) override | Initiates an asynchronous request for the resource. |
 | static [System::SharedPtr](../../system/sharedptr/)\<[WebRequest](../webrequest/)\> [Create](../webrequest/create/)([String](../../system/string/)) | Creates a new instance of the [WebRequest](../webrequest/) class using the specified URI. |

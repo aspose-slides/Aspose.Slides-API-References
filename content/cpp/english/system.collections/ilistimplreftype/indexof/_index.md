@@ -24,7 +24,7 @@ virtual int System::Collections::IListImplRefType<T>::IndexOf(System::SharedPtr<
 
 ### Return Value
 
-Index of first appearance of item in container or -1 if not found.
+[Index](../../../system/index/) of first appearance of item in container or -1 if not found.
 
 ## See Also
 

@@ -3,7 +3,7 @@ title: get_SlidesLayoutOptions()
 second_title: Aspose.Slides for C++ API Reference
 description: Gets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions.
 type: docs
-weight: 131
+weight: 157
 url: /aspose.slides.export/html5options/get_slideslayoutoptions/
 ---
 ## Html5Options::get_SlidesLayoutOptions() method

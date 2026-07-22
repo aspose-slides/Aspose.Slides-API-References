@@ -24,7 +24,7 @@ int System::Collections::Specialized::StringCollection::Add(const System::String
 
 ### Return Value
 
-Index of inserted element.
+[Index](../../../system/index/) of inserted element.
 
 ## See Also
 

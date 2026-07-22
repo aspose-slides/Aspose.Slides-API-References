@@ -18,7 +18,7 @@ int System::Text::Details_DecoderFallbackException::get_Index()
 
 ### Return Value
 
-Index of erroneous byte in input array.
+[Index](../../../system/index/) of erroneous byte in input array.
 
 ## See Also
 

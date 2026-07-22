@@ -25,7 +25,7 @@ int System::String::IndexOf(const String &str, System::StringComparison comparis
 
 ### Return Value
 
-Index of first found substring or -1 if not found. For empty lookup string, always returns 0.
+[Index](../../index/) of first found substring or -1 if not found. For empty lookup string, always returns 0.
 
 ## String::IndexOf(char_t, int) const method
 
@@ -42,11 +42,11 @@ int System::String::IndexOf(char_t c, int startIndex=0) const
 | Parameter | Type | Description |
 | --- | --- | --- |
 | c | char_t | Character to look for. |
-| startIndex | int | Index to start lookup at. |
+| startIndex | int | [Index](../../index/) to start lookup at. |
 
 ### Return Value
 
-Index of first character position since startIndex or -1 if not found.
+[Index](../../index/) of first character position since startIndex or -1 if not found.
 
 ## String::IndexOf(char_t, int, int) const method
 
@@ -63,12 +63,12 @@ int System::String::IndexOf(char_t c, int startIndex, int count) const
 | Parameter | Type | Description |
 | --- | --- | --- |
 | c | char_t | Character to look for. |
-| startIndex | int | Index to start lookup at. |
+| startIndex | int | [Index](../../index/) to start lookup at. |
 | count | int | Number of characters to look through. |
 
 ### Return Value
 
-Index of first character position since startIndex or -1 if not found.
+[Index](../../index/) of first character position since startIndex or -1 if not found.
 
 ## String::IndexOf(const String\&, int) const method
 
@@ -89,7 +89,7 @@ int System::String::IndexOf(const String &str, int startIndex=0) const
 
 ### Return Value
 
-Index of first found substring or -1 if not found. For empty lookup string, always returns startIndex.
+[Index](../../index/) of first found substring or -1 if not found. For empty lookup string, always returns startIndex.
 
 ## String::IndexOf(const String\&, int, System::StringComparison) const method
 
@@ -111,7 +111,7 @@ int System::String::IndexOf(const String &str, int startIndex, System::StringCom
 
 ### Return Value
 
-Index of first found substring or -1 if not found. For empty lookup string, always returns startIndex.
+[Index](../../index/) of first found substring or -1 if not found. For empty lookup string, always returns startIndex.
 
 ## String::IndexOf(const String\&, int, int, System::StringComparison) const method
 
@@ -134,7 +134,7 @@ int System::String::IndexOf(const String &value, int startIndex, int count, Syst
 
 ### Return Value
 
-Index of first found substring or -1 if not found. For empty lookup string, always returns startIndex.
+[Index](../../index/) of first found substring or -1 if not found. For empty lookup string, always returns startIndex.
 
 ## String::IndexOf(const String\&, int, int) const method
 
@@ -156,7 +156,7 @@ int System::String::IndexOf(const String &str, int startIndex, int count) const
 
 ### Return Value
 
-Index of first found substring or -1 if not found. For empty lookup string, always returns startIndex.
+[Index](../../index/) of first found substring or -1 if not found. For empty lookup string, always returns startIndex.
 
 ## See Also
 

@@ -3,7 +3,7 @@ title: GEqual()
 second_title: Aspose.Slides for C++ API Reference
 description: Implements '>=' relative pattern translation.
 type: docs
-weight: 2328
+weight: 2367
 url: /system/gequal/
 ---
 ## System::GEqual(const ExpressionT\&, const ConstantT\&) function
@@ -32,7 +32,7 @@ template<class ExpressionT,class ConstantT> bool System::GEqual(const Expression
 
 ### Return Value
 
-true if type check is successfull, false otherwise.
+true if type check is successful, false otherwise.
 
 ## See Also
 

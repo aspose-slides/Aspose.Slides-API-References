@@ -3,7 +3,7 @@ title: Greater()
 second_title: Aspose.Slides for C++ API Reference
 description: Implements '>' relative pattern translation.
 type: docs
-weight: 2302
+weight: 2341
 url: /system/greater/
 ---
 ## System::Greater(const ExpressionT\&, const ConstantT\&) function
@@ -32,7 +32,7 @@ template<class ExpressionT,class ConstantT> bool System::Greater(const Expressio
 
 ### Return Value
 
-true if type check is successfull, false otherwise.
+true if type check is successful, false otherwise.
 
 ## See Also
 

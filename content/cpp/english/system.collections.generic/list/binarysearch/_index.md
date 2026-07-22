@@ -24,7 +24,7 @@ int System::Collections::Generic::List<T>::BinarySearch(const T &item) const
 
 ### Return Value
 
-Index of the item in sorted list or complement of closest index.
+[Index](../../../system/index/) of the item in sorted list or complement of closest index.
 
 ## List::BinarySearch(const T\&, const SharedPtr\<System::Collections::Generic::IComparer\<T\>\>\&) const method
 
@@ -45,7 +45,7 @@ int System::Collections::Generic::List<T>::BinarySearch(const T &item, const Sha
 
 ### Return Value
 
-Index of the item in sorted list or complement of closest index.
+[Index](../../../system/index/) of the item in sorted list or complement of closest index.
 
 ## List::BinarySearch(int, int, const T\&, const SharedPtr\<System::Collections::Generic::IComparer\<T\>\>\&) const method
 
@@ -61,14 +61,14 @@ int System::Collections::Generic::List<T>::BinarySearch(int index, int count, co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | Range beginning. |
-| count | int | Range size. |
+| index | int | [Range](../../../system/range/) beginning. |
+| count | int | [Range](../../../system/range/) size. |
 | item | const T\& | Item to look for. |
 | comparer | const [SharedPtr](../../../system/sharedptr/)\<[System::Collections::Generic::IComparer](../../icomparer/)\<T\>\>\& | [Comparer](../../comparer/) to use. |
 
 ### Return Value
 
-Index of the item in sorted list or complement of closest index.
+[Index](../../../system/index/) of the item in sorted list or complement of closest index.
 
 ## See Also
 

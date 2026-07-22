@@ -26,7 +26,7 @@ template<typename Container> bool System::Collections::Generic::Details::IsOutOf
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| count | int | Index. |
+| count | int | [Index](../../system/index/). |
 | container | const Container\& | Container to check index against. |
 
 ### Return Value
@@ -53,7 +53,7 @@ template<typename Container> bool System::Collections::Generic::Details::IsOutOf
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| count | std::int64_t | Index. |
+| count | std::int64_t | [Index](../../system/index/). |
 | container | const Container\& | Container to check index against. |
 
 ### Return Value

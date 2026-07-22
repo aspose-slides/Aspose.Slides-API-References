@@ -79,7 +79,7 @@ System::Text::StringBuilder::StringBuilder(const String &value, int startIndex, 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | const [String](../../../system/string/)\& | Initial value. |
-| startIndex | int | Index of initial value slice beginning. |
+| startIndex | int | [Index](../../../system/index/) of initial value slice beginning. |
 | length | int | Initial value slice length. |
 | capacity | int | Initial string capacity. |
 

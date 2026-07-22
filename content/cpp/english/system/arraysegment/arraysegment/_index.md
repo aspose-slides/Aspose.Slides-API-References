@@ -3,7 +3,7 @@ title: ArraySegment()
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 40
+weight: 53
 url: /system/arraysegment/arraysegment/
 ---
 ## ArraySegment::ArraySegment(System::ArrayPtr\<T\>) constructor

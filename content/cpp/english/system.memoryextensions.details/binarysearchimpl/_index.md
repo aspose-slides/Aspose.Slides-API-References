@@ -34,7 +34,7 @@ template<typename T,typename TValue,typename TCompareFunc> int32_t System::Memor
 
 ### Return Value
 
-Index of found element or bitwise complement of insertion point
+[Index](../../system/index/) of found element or bitwise complement of insertion point
 
 ## See Also
 

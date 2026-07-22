@@ -3,7 +3,7 @@ title: TaskPtr
 second_title: Aspose.Slides for C++ API Reference
 description: "An alias for a smart pointer that points to an instance of System::Threading::Tasks::Task class."
 type: docs
-weight: 3524
+weight: 3563
 url: /system/taskptr/
 ---
 ## TaskPtr typedef

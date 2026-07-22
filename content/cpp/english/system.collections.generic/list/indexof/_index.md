@@ -24,7 +24,7 @@ int System::Collections::Generic::List<T>::IndexOf(const T &item) const override
 
 ### Return Value
 
-Index of first occurance of specified item or -1 if not found.
+[Index](../../../system/index/) of first occurance of specified item or -1 if not found.
 
 ## List::IndexOf(const T\&, int) const method
 
@@ -41,11 +41,11 @@ int System::Collections::Generic::List<T>::IndexOf(const T &item, int index) con
 | Parameter | Type | Description |
 | --- | --- | --- |
 | item | const T\& | Item to look for. |
-| index | int | Index to start lookup at. |
+| index | int | [Index](../../../system/index/) to start lookup at. |
 
 ### Return Value
 
-Index of first instance of specified item or -1 if not found.
+[Index](../../../system/index/) of first instance of specified item or -1 if not found.
 
 ## See Also
 

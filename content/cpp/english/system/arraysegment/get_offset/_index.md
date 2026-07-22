@@ -6,13 +6,13 @@ type: docs
 weight: 14
 url: /system/arraysegment/get_offset/
 ---
-## ArraySegment::get_Offset() method
+## ArraySegment::get_Offset() const method
 
 
 
 
 ```cpp
-int32_t System::ArraySegment<T>::get_Offset()
+int32_t System::ArraySegment<T>::get_Offset() const
 ```
 
 ## See Also

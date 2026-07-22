@@ -3,7 +3,7 @@ title: LINQ_Min()
 second_title: Aspose.Slides for C++ API Reference
 description: Invokes a transform function on each element of a generic sequence and returns the minimum resulting value.
 type: docs
-weight: 326
+weight: 339
 url: /system.collections.generic/ienumerable/linq_min/
 ---
 ## IEnumerable::LINQ_Min(const Func\<T, ResultType\>\&) method

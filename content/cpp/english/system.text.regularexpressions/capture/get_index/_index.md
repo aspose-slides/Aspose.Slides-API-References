@@ -18,7 +18,7 @@ int System::Text::RegularExpressions::Capture::get_Index() const
 
 ### Return Value
 
-Index of beginning of captured substring.
+[Index](../../../system/index/) of beginning of captured substring.
 
 ## See Also
 

@@ -21,7 +21,7 @@ virtual bool System::Text::EncoderFallbackBuffer::Fallback(char_t charUnknown, i
 | Parameter | Type | Description |
 | --- | --- | --- |
 | charUnknown | char_t | Character encoder fails to encode. |
-| index | int | Index of character that triggered error. |
+| index | int | [Index](../../../system/index/) of character that triggered error. |
 
 ### Return Value
 
@@ -43,7 +43,7 @@ virtual bool System::Text::EncoderFallbackBuffer::Fallback(char_t charUnknownHig
 | --- | --- | --- |
 | charUnknownHigh | char_t | High part of surrogate pair that triggered error. |
 | charUnknownLow | char_t | Low part of surrogate pair that triggered error. |
-| index | int | Index of character that triggered error. |
+| index | int | [Index](../../../system/index/) of character that triggered error. |
 
 ### Return Value
 

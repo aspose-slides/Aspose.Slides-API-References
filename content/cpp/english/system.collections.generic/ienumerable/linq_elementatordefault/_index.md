@@ -20,7 +20,7 @@ T System::Collections::Generic::IEnumerable<T>::LINQ_ElementAtOrDefault(int inde
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | Index to get element at. |
+| index | int | [Index](../../../system/index/) to get element at. |
 
 ### Return Value
 

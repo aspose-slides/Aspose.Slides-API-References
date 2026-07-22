@@ -20,7 +20,7 @@ virtual void System::Collections::IListImplValueType<T>::RemoveAt(int index) ove
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | Index to delete item at. |
+| index | int | [Index](../../../system/index/) to delete item at. |
 
 ## See Also
 

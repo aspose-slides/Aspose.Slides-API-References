@@ -3,7 +3,7 @@ title: LINQ_Max()
 second_title: Aspose.Slides for C++ API Reference
 description: Invokes a transform function on each element of a generic sequence and returns the maximum resulting value.
 type: docs
-weight: 339
+weight: 352
 url: /system.collections.generic/ienumerable/linq_max/
 ---
 ## IEnumerable::LINQ_Max(const Func\<T, ResultType\>\&) method

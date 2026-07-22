@@ -18,7 +18,7 @@ int System::Globalization::NumberFormatInfo::get_NumberNegativePattern() const
 
 ### Return Value
 
-Index of the pattern in array {\"(n)\", \"-n\", \"- n\", \"n-\", \"n -\"}, where \"n\" is number and \"-\" is minus sign.
+[Index](../../../system/index/) of the pattern in array {\"(n)\", \"-n\", \"- n\", \"n-\", \"n -\"}, where \"n\" is number and \"-\" is minus sign.
 
 ## See Also
 

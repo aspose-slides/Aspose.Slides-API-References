@@ -18,7 +18,7 @@ int System::Globalization::TextElementEnumerator::get_ElementIndex() const
 
 ### Return Value
 
-Index of the current text element.
+[Index](../../../system/index/) of the current text element.
 
 ## See Also
 

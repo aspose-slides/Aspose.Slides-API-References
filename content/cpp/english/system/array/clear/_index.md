@@ -37,7 +37,7 @@ template<typename Type> static void System::Array<T>::Clear(const ArrayPtr<Type>
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arr | const [ArrayPtr](../../arrayptr/)\<[Type](../../object/type/)\>\& | Target array |
-| startIndex | int | Index at which to start replacing the items |
+| startIndex | int | [Index](../../index/) at which to start replacing the items |
 | count | int | The number of items to replace |
 
 ## See Also
