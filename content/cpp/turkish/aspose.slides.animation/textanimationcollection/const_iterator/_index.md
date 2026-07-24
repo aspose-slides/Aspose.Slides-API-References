@@ -1,0 +1,21 @@
+---
+title: const_iterator
+second_title: Aspose.Slides for C++ API Referansı
+description: Const iterator türü.
+type: docs
+weight: 235
+url: /tr/aspose.slides.animation/textanimationcollection/const_iterator/
+---
+## const_iterator typedef
+
+Const iterator türü.
+
+```cpp
+using Aspose::Slides::Animation::TextAnimationCollection::const_iterator =  typename iterator_holder_type::const_iterator
+```
+
+## Bakınız
+
+* Sınıf [TextAnimationCollection](../)
+* İsim alanı [Aspose::Slides::Animation](../../)
+* Kütüphane [Aspose.Slides](../../../)
