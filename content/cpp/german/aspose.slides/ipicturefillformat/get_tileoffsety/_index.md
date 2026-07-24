@@ -1,0 +1,41 @@
+---
+title: get_TileOffsetY()
+second_title: Aspose.Slides für C++ API Referenz
+description: Gibt den vertikalen Versatz der Textur vom Ursprung der Form in Punkten zurück. Ein positiver Wert verschiebt die Textur nach unten, während ein negativer Wert sie nach oben verschiebt. Liest float.
+type: docs
+weight: 300
+url: /de/aspose.slides/ipicturefillformat/get_tileoffsety/
+---
+## IPictureFillFormat::get_TileOffsetY() Methode
+
+
+Gibt den vertikalen Versatz der Textur vom Ursprung der Form in Punkten zurück. Ein positiver Wert verschiebt die Textur nach unten, während ein negativer Wert sie nach oben verschiebt. Liest **float**.
+
+```cpp
+virtual float Aspose::Slides::IPictureFillFormat::get_TileOffsetY()=0
+```
+
+## Hinweise
+
+
+
+```cpp
+System::SharedPtr<Presentation> presentation = System::MakeObject<Presentation>(u"demo.pptx");
+
+System::SharedPtr<ISlide> slide = presentation->get_Slide(0);
+
+// Ermittelt das Bildfüllformat der Form
+System::SharedPtr<IPictureFillFormat> pictureFillFormat = slide->get_Shape(0)->get_FillFormat()->get_PictureFillFormat();
+
+// Setzt den Bildfüllmodus auf Tile
+pictureFillFormat->set_PictureFillMode(PictureFillMode::Tile);
+
+// Setzt den vertikalen Versatz der Textur auf -50 Punkte
+pictureFillFormat->set_TileOffsetY(-50.0f);
+```
+
+## Siehe auch
+
+* Klasse [IPictureFillFormat](../)
+* Namensraum [Aspose::Slides](../../)
+* Bibliothek [Aspose.Slides](../../../)

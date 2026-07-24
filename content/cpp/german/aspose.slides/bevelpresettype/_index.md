@@ -1,0 +1,38 @@
+---
+title: BevelPresetType
+second_title: Aspose.Slides für C++ API-Referenz
+description: Konstanten, die den 3D-Bevel einer Form definieren.
+type: docs
+weight: 5669
+url: /de/aspose.slides/bevelpresettype/
+---
+## BevelPresetType Enum
+
+Konstanten, die den 3D-Bevel einer Form definieren.
+
+```cpp
+enum class BevelPresetType
+```
+
+### Werte
+
+| Name | Wert | Beschreibung |
+| --- | --- | --- |
+| NotDefined | -1 |  |
+| Angle | 0 |  |
+| ArtDeco | 1 |  |
+| Circle | 2 |  |
+| Convex | 3 |  |
+| CoolSlant | 4 |  |
+| Cross | 5 |  |
+| Divot | 6 |  |
+| HardEdge | 7 |  |
+| RelaxedInset | 8 |  |
+| Riblet | 9 |  |
+| Slope | 10 |  |
+| SoftRound | 11 |  |
+
+## Siehe auch
+
+* Namensraum [Aspose::Slides](../)
+* Bibliothek [Aspose.Slides](../../)

@@ -1,0 +1,21 @@
+---
+title: virtualized_iterator
+second_title: Aspose.Slides für C++ API-Referenz
+description: Virtualisierter Typ.
+type: docs
+weight: 261
+url: /de/aspose.slides/videocollection/virtualized_iterator/
+---
+## virtualized_iterator typedef
+
+Virtualisierter Typ.
+
+```cpp
+using Aspose::Slides::VideoCollection::virtualized_iterator =  typename iterator_holder_type::virtualized_iterator
+```
+
+## Siehe auch
+
+* Klasse [VideoCollection](../)
+* Namensraum [Aspose::Slides](../../)
+* Bibliothek [Aspose.Slides](../../../)

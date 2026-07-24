@@ -1,0 +1,43 @@
+---
+title: operator!=()
+second_title: Aspose.Slides für C++ API-Referenz
+description: Bestimmt, ob das aktuelle und das angegebene TypeInfo-Objekt nicht gleich sind.
+type: docs
+weight: 456
+url: /de/system/typeinfo/operator_not_equal/
+---
+## TypeInfo::operator!=(const TypeInfo\&) const Methode
+
+Bestimmt, ob das aktuelle und das angegebene [TypeInfo](../) Objekt nicht gleich sind.
+
+```cpp
+bool System::TypeInfo::operator!=(const TypeInfo &info) const
+```
+
+### Argumente
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| info | const [TypeInfo](../)\& | Das [TypeInfo](../) Objekt zum Vergleich |
+
+### Rückgabewert
+
+True, wenn die Hashes der Objekte nicht gleich sind, sonst - false
+
+## TypeInfo::operator!=(std::nullptr_t) const Methode
+
+Bestimmt, ob das aktuelle [TypeInfo](../) Objekt kein Null-Objekt ist, d.h. es einen Typ darstellt.
+
+```cpp
+bool System::TypeInfo::operator!=(std::nullptr_t) const
+```
+
+### Rückgabewert
+
+True, wenn das aktuelle [TypeInfo](../) Objekt kein Null-Objekt ist, sonst - false
+
+## Siehe auch
+
+* Klasse [TypeInfo](../)
+* Namensraum [System](../../)
+* Bibliothek [Aspose.Slides](../../../)

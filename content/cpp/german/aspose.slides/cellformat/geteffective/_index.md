@@ -1,0 +1,43 @@
+---
+title: GetEffective()
+second_title: Aspose.Slides für C++ API-Referenz
+description: Ruft die effektiven Formatierungseigenschaften von Tabellenzellen mit Vererbung und angewendeten Tabellenstilen ab.
+type: docs
+weight: 118
+url: /de/aspose.slides/cellformat/geteffective/
+---
+## CellFormat::GetEffective() Methode
+
+
+Ruft die effektiven Formatierungseigenschaften einer Tabellenzelle mit Vererbung und angewendeten Tabellenstilen ab.
+
+```cpp
+System::SharedPtr<ICellFormatEffectiveData> Aspose::Slides::CellFormat::GetEffective() override
+```
+
+
+### Rückgabewert
+
+Ein [ICellFormatEffectiveData](../../icellformateffectivedata/).
+## Bemerkungen
+
+
+
+Dieses Beispiel demonstriert das Abrufen des effektiven Füllformats für verschiedene logische Tabellenteile. Bitte beachten Sie, dass die Zellenformatierung immer höhere Priorität hat als die Zeilenformatierung, Zeilen höher als Spalten, Spalten höher als die gesamte Tabelle. Daher werden letztlich die Eigenschaften von CellFormatEffectiveData immer zum Zeichnen der Tabelle verwendet. Der folgende Code ist nur ein Beispiel für die API. 
+```cpp
+auto pres = MakeObject<Presentation>(u"MyPresentation.pptx");
+auto tbl = AsCast<Table>(pres->get_Slides()->idx_get(0)->get_Shapes()->idx_get(0));
+auto tableFillFormatEffective = tbl->get_TableFormat()->GetEffective()->get_FillFormat();
+auto rowFillFormatEffective = tbl->get_Rows()->idx_get(0)->get_RowFormat()->GetEffective()->get_FillFormat();
+auto columnFillFormatEffective = tbl->get_Columns()->idx_get(0)->get_ColumnFormat()->GetEffective()->get_FillFormat();
+auto cellFillFormatEffective = tbl->idx_get(0, 0)->get_CellFormat()->GetEffective()->get_FillFormat();
+// Ausgabe und Vergleich
+```
+
+## Siehe auch
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Klasse [ICellFormatEffectiveData](../../icellformateffectivedata/)
+* Klasse [CellFormat](../)
+* Namensraum [Aspose::Slides](../../)
+* Bibliothek [Aspose.Slides](../../../)
