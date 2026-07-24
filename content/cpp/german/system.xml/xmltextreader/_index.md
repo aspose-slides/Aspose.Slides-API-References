@@ -1,0 +1,223 @@
+---
+title: XmlTextReader
+second_title: Aspose.Slides für C++ API Referenz
+description: Stellt einen Reader dar, der schnellen, nicht zwischengespeicherten, vorwärtsgerichteten Zugriff auf XML-Daten bietet.
+type: docs
+weight: 508
+url: /de/system.xml/xmltextreader/
+---
+## XmlTextReader Klasse
+
+Stellt einen Leser dar, der schnellen, nicht zwischengespeicherten, vorwärtsgerichteten Zugriff auf XML-Daten bietet.
+
+```cpp
+class XmlTextReader : public System::Xml::XmlReader,
+                      public System::Xml::IXmlLineInfo,
+                      public System::Xml::IXmlNamespaceResolver
+```
+
+## Methoden
+
+| Methode | Beschreibung |
+| --- | --- |
+| void [Close](./close/)() override | Ändert das [XmlReader::get_ReadState](../xmlreader/get_readstate/) zu **Closed**. |
+| static [SharedPtr](../../system/sharedptr/)\<[XmlReader](../xmlreader/)\> [Create](../xmlreader/create/)(const [String](../../system/string/)\&) | Erzeugt eine neue [XmlReader](../xmlreader/)-Instanz mit angegebener URI. |
+| static [SharedPtr](../../system/sharedptr/)\<[XmlReader](../xmlreader/)\> [Create](../xmlreader/create/)(const [String](../../system/string/)\&, const [SharedPtr](../../system/sharedptr/)\<[XmlReaderSettings](../xmlreadersettings/)\>\&) | Erzeugt eine neue [XmlReader](../xmlreader/)-Instanz anhand der angegebenen URI und Einstellungen. |
+| static [SharedPtr](../../system/sharedptr/)\<[XmlReader](../xmlreader/)\> [Create](../xmlreader/create/)(const [String](../../system/string/)\&, [SharedPtr](../../system/sharedptr/)\<[XmlReaderSettings](../xmlreadersettings/)\>, const [SharedPtr](../../system/sharedptr/)\<[XmlParserContext](../xmlparsercontext/)\>\&) | Erzeugt eine neue [XmlReader](../xmlreader/)-Instanz unter Verwendung der angegebenen URI, Einstellungen und Kontextinformationen zum Parsen. |
+| static [SharedPtr](../../system/sharedptr/)\<[XmlReader](../xmlreader/)\> [Create](../xmlreader/create/)(const [SharedPtr](../../system/sharedptr/)\<[IO::Stream](../../system.io/stream/)\>\&) | Erzeugt eine neue [XmlReader](../xmlreader/)-Instanz unter Verwendung des angegebenen Streams mit Standardeinstellungen. |
+| static [SharedPtr](../../system/sharedptr/)\<[XmlReader](../xmlreader/)\> [Create](../xmlreader/create/)(const [SharedPtr](../../system/sharedptr/)\<[IO::Stream](../../system.io/stream/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XmlReaderSettings](../xmlreadersettings/)\>\&) | Erzeugt eine neue [XmlReader](../xmlreader/)-Instanz mit dem angegebenen Stream und den Einstellungen. |
+| static [SharedPtr](../../system/sharedptr/)\<[XmlReader](../xmlreader/)\> [Create](../xmlreader/create/)(const [SharedPtr](../../system/sharedptr/)\<[IO::Stream](../../system.io/stream/)\>\&, [SharedPtr](../../system/sharedptr/)\<[XmlReaderSettings](../xmlreadersettings/)\>, const [String](../../system/string/)\&) | Erzeugt eine neue [XmlReader](../xmlreader/)-Instanz unter Verwendung des angegebenen Streams, der Basis-URI und der Einstellungen. |
+| static [SharedPtr](../../system/sharedptr/)\<[XmlReader](../xmlreader/)\> [Create](../xmlreader/create/)(const [SharedPtr](../../system/sharedptr/)\<[IO::Stream](../../system.io/stream/)\>\&, [SharedPtr](../../system/sharedptr/)\<[XmlReaderSettings](../xmlreadersettings/)\>, const [SharedPtr](../../system/sharedptr/)\<[XmlParserContext](../xmlparsercontext/)\>\&) | Erzeugt eine neue [XmlReader](../xmlreader/)-Instanz unter Verwendung des angegebenen Streams, der Einstellungen und Kontextinformationen zum Parsen. |
+| static [SharedPtr](../../system/sharedptr/)\<[XmlReader](../xmlreader/)\> [Create](../xmlreader/create/)(const [SharedPtr](../../system/sharedptr/)\<[IO::TextReader](../../system.io/textreader/)\>\&) | Erzeugt eine neue [XmlReader](../xmlreader/)-Instanz unter Verwendung des angegebenen Textreaders. |
+| static [SharedPtr](../../system/sharedptr/)\<[XmlReader](../xmlreader/)\> [Create](../xmlreader/create/)(const [SharedPtr](../../system/sharedptr/)\<[IO::TextReader](../../system.io/textreader/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XmlReaderSettings](../xmlreadersettings/)\>\&) | Erzeugt eine neue [XmlReader](../xmlreader/)-Instanz unter Verwendung des angegebenen Textreaders und der Einstellungen. |
+| static [SharedPtr](../../system/sharedptr/)\<[XmlReader](../xmlreader/)\> [Create](../xmlreader/create/)(const [SharedPtr](../../system/sharedptr/)\<[IO::TextReader](../../system.io/textreader/)\>\&, [SharedPtr](../../system/sharedptr/)\<[XmlReaderSettings](../xmlreadersettings/)\>, const [String](../../system/string/)\&) | Erzeugt eine neue [XmlReader](../xmlreader/)-Instanz unter Verwendung des angegebenen Textreaders, der Einstellungen und der Basis-URI. |
+| static [SharedPtr](../../system/sharedptr/)\<[XmlReader](../xmlreader/)\> [Create](../xmlreader/create/)(const [SharedPtr](../../system/sharedptr/)\<[IO::TextReader](../../system.io/textreader/)\>\&, [SharedPtr](../../system/sharedptr/)\<[XmlReaderSettings](../xmlreadersettings/)\>, const [SharedPtr](../../system/sharedptr/)\<[XmlParserContext](../xmlparsercontext/)\>\&) | Erzeugt eine neue [XmlReader](../xmlreader/)-Instanz unter Verwendung des angegebenen Textreaders, der Einstellungen und Kontextinformationen zum Parsen. |
+| static [SharedPtr](../../system/sharedptr/)\<[XmlReader](../xmlreader/)\> [Create](../xmlreader/create/)(const [SharedPtr](../../system/sharedptr/)\<[XmlReader](../xmlreader/)\>\&, [SharedPtr](../../system/sharedptr/)\<[XmlReaderSettings](../xmlreadersettings/)\>) | Erzeugt eine neue [XmlReader](../xmlreader/)-Instanz unter Verwendung des angegebenen XML-Readers und der Einstellungen. |
+| void [Dispose](../xmlreader/dispose/)() override | Gibt alle von der aktuellen Instanz der [XmlReader](../xmlreader/)-Klasse verwendeten Ressourcen frei. |
+| virtual **bool** [Equals](../../system/object/equals/)([ptr](../../system/object/ptr/)) | Vergleicht Objekte unter Verwendung der C# [Object.Equals](../../system/object/equals/)-Semantik. |
+| static std::enable_if\<[IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Vergleicht Referenztyp-Objekte im C#-Stil. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&\![IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Vergleicht Werttyp-Objekte im C#-Stil. |
+| static **bool** [Equals](../../system/object/equals/)(**float** const\&, **float** const\&) | Emuliert einen C#-artigen Gleitkommavergleich, bei dem zwei NaNs als gleich angesehen werden, obwohl nach IEC 60559:1989 NaN zu keinem Wert, einschließlich NaN, gleich ist. |
+| static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | Emuliert einen C#-artigen Gleitkommavergleich, bei dem zwei NaNs als gleich angesehen werden, obwohl nach IEC 60559:1989 NaN zu keinem Wert, einschließlich NaN, gleich ist. |
+| virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | Nur für interne Zwecke. |
+| **int32_t** [get_AttributeCount](./get_attributecount/)() override | Gibt die Anzahl der Attribute des aktuellen Knotens zurück. |
+| [String](../../system/string/) [get_BaseURI](./get_baseuri/)() override | Gibt die Basis-URI des aktuellen Knotens zurück. |
+| **bool** [get_CanReadBinaryContent](./get_canreadbinarycontent/)() override | Gibt einen Wert zurück, der angibt, ob [XmlTextReader](./) die Methoden zum Lesen von Binärinhalt implementiert. |
+| **bool** [get_CanReadValueChunk](./get_canreadvaluechunk/)() override | Gibt einen Wert zurück, der angibt, ob [XmlTextReader](./) die [XmlReader::ReadValueChunk](../xmlreader/readvaluechunk/)-Methode implementiert. |
+| **bool** [get_CanResolveEntity](./get_canresolveentity/)() override | Gibt einen Wert zurück, der angibt, ob dieser Leser Entitäten parsen und auflösen kann. |
+| **int32_t** [get_Depth](./get_depth/)() override | Gibt die Tiefe des aktuellen Knotens im XML-Dokument zurück. |
+| [System::Xml::DtdProcessing](../dtdprocessing/) [get_DtdProcessing](./get_dtdprocessing/)() | Gibt die DtdProcessing-Aufzählung zurück. |
+| [SharedPtr](../../system/sharedptr/)\<[System::Text::Encoding](../../system.text/encoding/)\> [get_Encoding](./get_encoding/)() | Gibt die Kodierung des Dokuments zurück. |
+| [System::Xml::EntityHandling](../entityhandling/) [get_EntityHandling](./get_entityhandling/)() | Gibt einen Wert zurück, der festlegt, wie der Leser Entitäten behandelt. |
+| **bool** [get_EOF](./get_eof/)() override | Gibt einen Wert zurück, der angibt, ob der Leser am Ende des Streams positioniert ist. |
+| virtual **bool** [get_HasAttributes](../xmlreader/get_hasattributes/)() | Gibt einen Wert zurück, der angibt, ob der aktuelle Knoten Attribute hat. |
+| **bool** [get_HasValue](./get_hasvalue/)() override | Gibt einen Wert zurück, der angibt, ob der aktuelle Knoten ein [XmlTextReader::get_Value](./get_value/) anders als [String::Empty](../../system/string/empty/) haben kann. |
+| **bool** [get_IsDefault](./get_isdefault/)() override | Gibt einen Wert zurück, der angibt, ob der aktuelle Knoten ein Attribut ist, das aus dem in DTD oder Schema definierten Standardwert erzeugt wurde. |
+| **bool** [get_IsEmptyElement](./get_isemptyelement/)() override | Gibt einen Wert zurück, der angibt, ob der aktuelle Knoten ein leeres Element ist (z. B. **<MyElement/>**). |
+| **int32_t** [get_LineNumber](./get_linenumber/)() override | Gibt die aktuelle Zeilennummer zurück. |
+| **int32_t** [get_LinePosition](./get_lineposition/)() override | Gibt die aktuelle Zeilenposition zurück. |
+| [String](../../system/string/) [get_LocalName](./get_localname/)() override | Gibt den lokalen Namen des aktuellen Knotens zurück. |
+| [String](../../system/string/) [get_Name](./get_name/)() override | Gibt den qualifizierten Namen des aktuellen Knotens zurück. |
+| **bool** [get_Namespaces](./get_namespaces/)() | Gibt einen Wert zurück, der angibt, ob Namespace-Unterstützung aktiviert werden soll. |
+| [String](../../system/string/) [get_NamespaceURI](./get_namespaceuri/)() override | Gibt die Namespace-URI (wie in der W3C-Namespacespezifikation definiert) des Knotens zurück, auf dem der Leser positioniert ist. |
+| [SharedPtr](../../system/sharedptr/)\<[XmlNameTable](../xmlnametable/)\> [get_NameTable](./get_nametable/)() override | Gibt das mit dieser Implementierung verbundene [XmlNameTable](../xmlnametable/) zurück. |
+| [XmlNodeType](../xmlnodetype/) [get_NodeType](./get_nodetype/)() override | Gibt den Typ des aktuellen Knotens zurück. |
+| **bool** [get_Normalization](./get_normalization/)() | Gibt einen Wert zurück, der angibt, ob Leerzeichen und Attributwerte normalisiert werden sollen. |
+| [String](../../system/string/) [get_Prefix](./get_prefix/)() override | Gibt das dem aktuellen Knoten zugeordnete Namespace-Präfix zurück. |
+| **bool** [get_ProhibitDtd](./get_prohibitdtd/)() | Gibt einen Wert zurück, der angibt, ob DTD-Verarbeitung erlaubt ist. |
+| char16_t [get_QuoteChar](./get_quotechar/)() override | Gibt das Anführungszeichen-Zeichen zurück, das zum Einschließen des Attributknotenwerts verwendet wird. |
+| [System::Xml::ReadState](../readstate/) [get_ReadState](./get_readstate/)() override | Gibt den Zustand des Lesers zurück. |
+| virtual [SharedPtr](../../system/sharedptr/)\<[Schema::IXmlSchemaInfo](../../system.xml.schema/ixmlschemainfo/)\> [get_SchemaInfo](../xmlreader/get_schemainfo/)() | Gibt die Schema-Informationen zurück, die dem aktuellen Knoten infolge der Schema-Validierung zugewiesen wurden. |
+| virtual [SharedPtr](../../system/sharedptr/)\<[XmlReaderSettings](../xmlreadersettings/)\> [get_Settings](../xmlreader/get_settings/)() | Gibt das [XmlReaderSettings](../xmlreadersettings/)-Objekt zurück, das zur Erstellung dieser [XmlReader](../xmlreader/)-Instanz verwendet wurde. |
+| [String](../../system/string/) [get_Value](./get_value/)() override | Gibt den Textwert des aktuellen Knotens zurück. |
+| virtual [TypeInfo](../../system/typeinfo/) [get_ValueType](../xmlreader/get_valuetype/)() | Gibt den Typ für den aktuellen Knoten zurück. |
+| [System::Xml::WhitespaceHandling](../whitespacehandling/) [get_WhitespaceHandling](./get_whitespacehandling/)() | Gibt einen Wert zurück, der festlegt, wie Leerzeichen behandelt werden. |
+| [String](../../system/string/) [get_XmlLang](./get_xmllang/)() override | Gibt den aktuellen **xml:lang**-Geltungsbereich zurück. |
+| [System::Xml::XmlSpace](../xmlspace/) [get_XmlSpace](./get_xmlspace/)() override | Gibt den aktuellen **xml:space**-Geltungsbereich zurück. |
+| [String](../../system/string/) [GetAttribute](./getattribute/)([String](../../system/string/)) override | Gibt den Wert des Attributs mit dem angegebenen Namen zurück. |
+| [String](../../system/string/) [GetAttribute](./getattribute/)([String](../../system/string/), [String](../../system/string/)) override | Gibt den Wert des Attributs mit dem angegebenen lokalen Namen und der Namespace-URI zurück. |
+| [String](../../system/string/) [GetAttribute](./getattribute/)(**int32_t**) override | Gibt den Wert des Attributs mit dem angegebenen Index zurück. |
+| Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Erhält die Referenzzähler-Datenstruktur, die mit dem Objekt verknüpft ist. |
+| virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | Analog zur C# [Object.GetHashCode()](../../system/object/gethashcode/)-Methode. Ermöglicht das Hashen benutzerdefinierter Objekte. |
+| [SharedPtr](../../system/sharedptr/)\<[Collections::Generic::IDictionary](../../system.collections.generic/idictionary/)\<[String](../../system/string/), [String](../../system/string/)\>\> [GetNamespacesInScope](./getnamespacesinscope/)([XmlNamespaceScope](../xmlnamespacescope/)) override | Gibt eine Sammlung zurück, die alle derzeit im Geltungsbereich befindlichen Namespaces enthält. |
+| [SharedPtr](../../system/sharedptr/)\<[IO::TextReader](../../system.io/textreader/)\> [GetRemainder](./getremainder/)() | Gibt den Rest des gepufferten XML zurück. |
+| virtual const [TypeInfo](../../system/typeinfo/)\& [GetType](../../system/object/gettype/)() const | Erhält den tatsächlichen Typ des Objekts. Analog zum C# [System.Object.GetType()](../../system/object/gettype/)-Aufruf. |
+| **bool** [HasLineInfo](./haslineinfo/)() override | Gibt einen Wert zurück, der angibt, ob die Klasse Zeileninformationen zurückgeben kann. |
+| virtual [String](../../system/string/) [idx_get](../xmlreader/idx_get/)(**int32_t**) | Wird in einer abgeleiteten Klasse überschrieben, gibt den Wert des Attributs mit dem angegebenen Index zurück. |
+| virtual [String](../../system/string/) [idx_get](../xmlreader/idx_get/)([String](../../system/string/)) | Wird in einer abgeleiteten Klasse überschrieben, gibt den Wert des Attributs mit dem angegebenen [XmlReader::get_Name](../xmlreader/get_name/)-Wert zurück. |
+| virtual [String](../../system/string/) [idx_get](../xmlreader/idx_get/)([String](../../system/string/), [String](../../system/string/)) | Wird in einer abgeleiteten Klasse überschrieben, gibt den Wert des Attributs mit den angegebenen [XmlReader::get_LocalName](../xmlreader/get_localname/)- und [XmlReader::get_NamespaceURI](../xmlreader/get_namespaceuri/)-Werten zurück. |
+| virtual **bool** [Is](../../system/object/is/)(const [TypeInfo](../../system/typeinfo/)\&) const | Überprüft, ob das Objekt eine Instanz des durch targetType beschriebenen Typs darstellt. Analog zum C#-'is'-Operator. |
+| static **bool** [IsName](../xmlreader/isname/)(const [String](../../system/string/)\&) | Gibt einen Wert zurück, der angibt, ob das Zeichenkettenargument ein gültiger XML-Name ist. |
+| static **bool** [IsNameToken](../xmlreader/isnametoken/)(const [String](../../system/string/)\&) | Gibt einen Wert zurück, der angibt, ob das Zeichenkettenargument ein gültiges XML-Name-Token ist. |
+| virtual **bool** [IsStartElement](../xmlreader/isstartelement/)() | Ruft [XmlReader::MoveToContent](../xmlreader/movetocontent/) auf und prüft, ob der aktuelle Inhaltsknoten ein Start-Tag oder ein leeres Element-Tag ist. |
+| virtual **bool** [IsStartElement](../xmlreader/isstartelement/)([String](../../system/string/)) | Ruft [XmlReader::MoveToContent](../xmlreader/movetocontent/) auf und prüft, ob der aktuelle Inhaltsknoten ein Start-Tag oder leeres Element-Tag ist und ob der [XmlReader::get_Name](../xmlreader/get_name/)-Wert des gefundenen Elements dem angegebenen Argument entspricht. |
+| virtual **bool** [IsStartElement](../xmlreader/isstartelement/)([String](../../system/string/), [String](../../system/string/)) | Ruft [XmlReader::MoveToContent](../xmlreader/movetocontent/) auf und prüft, ob der aktuelle Inhaltsknoten ein Start-Tag oder leeres Element-Tag ist und ob die [XmlReader::get_LocalName](../xmlreader/get_localname/)- und [XmlReader::get_NamespaceURI](../xmlreader/get_namespaceuri/)-Werte des gefundenen Elements den angegebenen Zeichenketten entsprechen. |
+| void [Lock](../../system/object/lock/)() | Implementiert das C#-lock()-Statement. Direkt aufrufen oder das [LockContext](../../system/lockcontext/)-Wächterobjekt verwenden. |
+| [String](../../system/string/) [LookupNamespace](./lookupnamespace/)(const [String](../../system/string/)\&) override | Löst ein Namespace-Präfix im Geltungsbereich des aktuellen Elements auf. |
+| virtual [ptr](../../system/object/ptr/) [MemberwiseClone](../../system/object/memberwiseclone/)() const | Analog zur C# [Object.MemberwiseClone()](../../system/object/memberwiseclone/)-Methode. Ermöglicht das Klonen benutzerdefinierter Typen. |
+| **bool** [MoveToAttribute](./movetoattribute/)([String](../../system/string/)) override | Wechselt zum Attribut mit dem angegebenen Namen. |
+| **bool** [MoveToAttribute](./movetoattribute/)([String](../../system/string/), [String](../../system/string/)) override | Wechselt zum Attribut mit dem angegebenen lokalen Namen und der Namespace-URI. |
+| void [MoveToAttribute](./movetoattribute/)(**int32_t**) override | Wechselt zum Attribut mit dem angegebenen Index. |
+| virtual [XmlNodeType](../xmlnodetype/) [MoveToContent](../xmlreader/movetocontent/)() | Prüft, ob der aktuelle Knoten ein Inhaltsknoten (nicht-Leerzeichen-Text, **CDATA**, **Element**, **EndElement**, **EntityReference** oder **EndEntity**) ist. Wenn der Knoten kein Inhaltsknoten ist, überspringt der Leser zum nächsten Inhaltsknoten oder zum Dateiende. Es werden Knoten der folgenden Typen übersprungen: **ProcessingInstruction**, **DocumentType**, **Comment**, **Whitespace** oder **SignificantWhitespace**. |
+| **bool** [MoveToElement](./movetoelement/)() override | Wechselt zum Element, das den aktuellen Attributknoten enthält. |
+| **bool** [MoveToFirstAttribute](./movetofirstattribute/)() override | Wechselt zum ersten Attribut. |
+| **bool** [MoveToNextAttribute](./movetonextattribute/)() override | Wechselt zum nächsten Attribut. |
+|   [Object](../../system/object/object/)() | Erstellt ein Objekt. Initialisiert alle internen Datenstrukturen. |
+|   [Object](../../system/object/object/)([Object](../../system/object/) const\&) | Kopierkonstruktor. Kopiert nichts, sondern initialisiert nur ein neues Objekt und ermöglicht das Kopierkonstrukt von Unterklassen. |
+| [Object](../../system/object/)\& [operator=](../../system/object/operator_equal/)([Object](../../system/object/) const\&) | Zuweisungsoperator. Kopiert nichts, sondern initialisiert nur ein neues Objekt und ermöglicht das Kopierkonstrukt von Unterklassen. |
+| **bool** [Read](./read/)() override | Liest den nächsten Knoten aus dem Stream. |
+| **bool** [ReadAttributeValue](./readattributevalue/)() override | Parst den Attributwert in ein oder mehrere **[Text](../../system.text/)**, **EntityReference** oder **EndEntity**-Knoten. |
+| **int32_t** [ReadBase64](./readbase64/)(const [ArrayPtr](../../system/arrayptr/)\<**uint8_t**\>\&, **int32_t**, **int32_t**) | Dekodiert Base64 und gibt die dekodierten Binärbytes zurück. |
+| **int32_t** [ReadBinHex](./readbinhex/)(const [ArrayPtr](../../system/arrayptr/)\<**uint8_t**\>\&, **int32_t**, **int32_t**) | Dekodiert **BinHex** und gibt die dekodierten Binärbytes zurück. |
+| **int32_t** [ReadChars](./readchars/)(const [ArrayPtr](../../system/arrayptr/)\<char16_t\>\&, **int32_t**, **int32_t**) | Liest den Textinhalt eines Elements in einen Zeichenpuffer. Diese Methode ist dafür ausgelegt, große Streams eingebetteten Textes durch wiederholten Aufruf zu lesen. |
+| virtual [SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\> [ReadContentAs](../xmlreader/readcontentas/)(const [TypeInfo](../../system/typeinfo/)\&, [SharedPtr](../../system/sharedptr/)\<[IXmlNamespaceResolver](../ixmlnamespaceresolver/)\>) | Liest den Inhalt als ein Objekt des angegebenen Typs. |
+| **int32_t** [ReadContentAsBase64](./readcontentasbase64/)([ArrayPtr](../../system/arrayptr/)\<**uint8_t**\>, **int32_t**, **int32_t**) override | Liest den Inhalt und gibt die **Base64**-decodierten Binärbytes zurück. |
+| **int32_t** [ReadContentAsBinHex](./readcontentasbinhex/)([ArrayPtr](../../system/arrayptr/)\<**uint8_t**\>, **int32_t**, **int32_t**) override | Liest den Inhalt und gibt die **BinHex**-decodierten Binärbytes zurück. |
+| virtual **bool** [ReadContentAsBoolean](../xmlreader/readcontentasboolean/)() | Liest den Textinhalt an der aktuellen Position als ein [Boolean](../../system/boolean/). |
+| virtual [DateTime](../../system/datetime/) [ReadContentAsDateTime](../xmlreader/readcontentasdatetime/)() | Liest den Textinhalt an der aktuellen Position als ein [DateTime](../../system/datetime/)-Objekt. |
+| virtual [DateTimeOffset](../../system/datetimeoffset/) [ReadContentAsDateTimeOffset](../xmlreader/readcontentasdatetimeoffset/)() | Liest den Textinhalt an der aktuellen Position als ein [DateTimeOffset](../../system/datetimeoffset/)-Objekt. |
+| virtual [Decimal](../../system/decimal/) [ReadContentAsDecimal](../xmlreader/readcontentasdecimal/)() | Liest den Textinhalt an der aktuellen Position als ein [Decimal](../../system/decimal/)-Objekt. |
+| virtual **double** [ReadContentAsDouble](../xmlreader/readcontentasdouble/)() | Liest den Textinhalt an der aktuellen Position als eine double-präzise Fließkommazahl. |
+| virtual **float** [ReadContentAsFloat](../xmlreader/readcontentasfloat/)() | Liest den Textinhalt an der aktuellen Position als eine single-präzise Fließkommazahl. |
+| virtual **int32_t** [ReadContentAsInt](../xmlreader/readcontentasint/)() | Liest den Textinhalt an der aktuellen Position als eine 32-Bit-vorzeichenbehaftete Ganzzahl. |
+| virtual **int64_t** [ReadContentAsLong](../xmlreader/readcontentaslong/)() | Liest den Textinhalt an der aktuellen Position als eine 64-Bit-vorzeichenbehaftete Ganzzahl. |
+| virtual [SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\> [ReadContentAsObject](../xmlreader/readcontentasobject/)() | Liest den Textinhalt an der aktuellen Position als ein [Object](../../system/object/). |
+| virtual [String](../../system/string/) [ReadContentAsString](../xmlreader/readcontentasstring/)() | Liest den Textinhalt an der aktuellen Position als ein [String](../../system/string/)-Objekt. |
+| virtual [SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\> [ReadElementContentAs](../xmlreader/readelementcontentas/)(const [TypeInfo](../../system/typeinfo/)\&, [SharedPtr](../../system/sharedptr/)\<[IXmlNamespaceResolver](../ixmlnamespaceresolver/)\>) | Liest den Elementinhalt als den angeforderten Typ. |
+| virtual [SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\> [ReadElementContentAs](../xmlreader/readelementcontentas/)(const [TypeInfo](../../system/typeinfo/)\&, [SharedPtr](../../system/sharedptr/)\<[IXmlNamespaceResolver](../ixmlnamespaceresolver/)\>, [String](../../system/string/), [String](../../system/string/)) | Überprüft, ob der angegebene lokale Name und der Namespace-URI mit denen des aktuellen Elements übereinstimmen, liest anschließend den Elementinhalt als den angeforderten Typ. |
+| **int32_t** [ReadElementContentAsBase64](./readelementcontentasbase64/)([ArrayPtr](../../system/arrayptr/)\<**uint8_t**\>, **int32_t**, **int32_t**) override | Liest das Element und decodiert den Base64-Inhalt. |
+| **int32_t** [ReadElementContentAsBinHex](./readelementcontentasbinhex/)([ArrayPtr](../../system/arrayptr/)\<**uint8_t**\>, **int32_t**, **int32_t**) override | Liest das Element und decodiert den **BinHex**-Inhalt. |
+| virtual **bool** [ReadElementContentAsBoolean](../xmlreader/readelementcontentasboolean/)() | Liest das aktuelle Element und gibt den Inhalt als ein [Boolean](../../system/boolean/)-Objekt zurück. |
+| virtual **bool** [ReadElementContentAsBoolean](../xmlreader/readelementcontentasboolean/)([String](../../system/string/), [String](../../system/string/)) | Überprüft, ob der angegebene lokale Name und Namespace-URI mit denen des aktuellen Elements übereinstimmen, liest anschließend das aktuelle Element und gibt den Inhalt als ein [Boolean](../../system/boolean/)-Objekt zurück. |
+| virtual [DateTime](../../system/datetime/) [ReadElementContentAsDateTime](../xmlreader/readelementcontentasdatetime/)() | Liest das aktuelle Element und gibt den Inhalt als ein [DateTime](../../system/datetime/)-Objekt zurück. |
+| virtual [DateTime](../../system/datetime/) [ReadElementContentAsDateTime](../xmlreader/readelementcontentasdatetime/)([String](../../system/string/), [String](../../system/string/)) | Überprüft, ob der angegebene lokale Name und Namespace-URI mit denen des aktuellen Elements übereinstimmen, liest anschließend das aktuelle Element und gibt den Inhalt als ein [DateTime](../../system/datetime/)-Objekt zurück. |
+| virtual [Decimal](../../system/decimal/) [ReadElementContentAsDecimal](../xmlreader/readelementcontentasdecimal/)() | Liest das aktuelle Element und gibt den Inhalt als ein [Decimal](../../system/decimal/)-Objekt zurück. |
+| virtual [Decimal](../../system/decimal/) [ReadElementContentAsDecimal](../xmlreader/readelementcontentasdecimal/)([String](../../system/string/), [String](../../system/string/)) | Überprüft, ob der angegebene lokale Name und Namespace-URI mit denen des aktuellen Elements übereinstimmen, liest anschließend das aktuelle Element und gibt den Inhalt als ein [Decimal](../../system/decimal/)-Objekt zurück. |
+| virtual **double** [ReadElementContentAsDouble](../xmlreader/readelementcontentasdouble/)() | Liest das aktuelle Element und gibt den Inhalt als eine double-präzise Fließkommazahl zurück. |
+| virtual **double** [ReadElementContentAsDouble](../xmlreader/readelementcontentasdouble/)([String](../../system/string/), [String](../../system/string/)) | Überprüft, ob der angegebene lokale Name und Namespace-URI mit denen des aktuellen Elements übereinstimmen, liest anschließend das aktuelle Element und gibt den Inhalt als eine double-präzise Fließkommazahl zurück. |
+| virtual **float** [ReadElementContentAsFloat](../xmlreader/readelementcontentasfloat/)() | Liest das aktuelle Element und gibt den Inhalt als single-präzise Fließkommazahl zurück. |
+| virtual **float** [ReadElementContentAsFloat](../xmlreader/readelementcontentasfloat/)([String](../../system/string/), [String](../../system/string/)) | Überprüft, ob der angegebene lokale Name und Namespace-URI mit denen des aktuellen Elements übereinstimmen, liest anschließend das aktuelle Element und gibt den Inhalt als eine single-präzise Fließkommazahl zurück. |
+| virtual **int32_t** [ReadElementContentAsInt](../xmlreader/readelementcontentasint/)() | Liest das aktuelle Element und gibt den Inhalt als eine 32-Bit-vorzeichenbehaftete Ganzzahl zurück. |
+| virtual **int32_t** [ReadElementContentAsInt](../xmlreader/readelementcontentasint/)([String](../../system/string/), [String](../../system/string/)) | Überprüft, ob der angegebene lokale Name und Namespace-URI mit denen des aktuellen Elements übereinstimmen, liest anschließend das aktuelle Element und gibt den Inhalt als eine 32-Bit-vorzeichenbehaftete Ganzzahl zurück. |
+| virtual **int64_t** [ReadElementContentAsLong](../xmlreader/readelementcontentaslong/)() | Liest das aktuelle Element und gibt den Inhalt als eine 64-Bit-vorzeichenbehaftete Ganzzahl zurück. |
+| virtual **int64_t** [ReadElementContentAsLong](../xmlreader/readelementcontentaslong/)([String](../../system/string/), [String](../../system/string/)) | Überprüft, ob der angegebene lokale Name und Namespace-URI mit denen des aktuellen Elements übereinstimmen, liest anschließend das aktuelle Element und gibt den Inhalt als eine 64-Bit-vorzeichenbehaftete Ganzzahl zurück. |
+| virtual [SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\> [ReadElementContentAsObject](../xmlreader/readelementcontentasobject/)() | Liest das aktuelle Element und gibt den Inhalt als ein [Object](../../system/object/) zurück. |
+| virtual [SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\> [ReadElementContentAsObject](../xmlreader/readelementcontentasobject/)([String](../../system/string/), [String](../../system/string/)) | Überprüft, ob der angegebene lokale Name und Namespace-URI mit denen des aktuellen Elements übereinstimmen, liest anschließend das aktuelle Element und gibt den Inhalt als ein [Object](../../system/object/) zurück. |
+| virtual [String](../../system/string/) [ReadElementContentAsString](../xmlreader/readelementcontentasstring/)() | Liest das aktuelle Element und gibt den Inhalt als ein [String](../../system/string/)-Objekt zurück. |
+| virtual [String](../../system/string/) [ReadElementContentAsString](../xmlreader/readelementcontentasstring/)([String](../../system/string/), [String](../../system/string/)) | Überprüft, ob der angegebene lokale Name und Namespace-URI mit denen des aktuellen Elements übereinstimmen, liest anschließend das aktuelle Element und gibt den Inhalt als ein [String](../../system/string/)-Objekt zurück. |
+| virtual [String](../../system/string/) [ReadElementString](../xmlreader/readelementstring/)() | Liest ein rein textbasiertes Element. Es wird jedoch empfohlen, stattdessen die [XmlReader::ReadElementContentAsString](../xmlreader/readelementcontentasstring/)-Methode zu verwenden, da sie eine einfachere Möglichkeit zur Durchführung dieser Operation bietet. |
+| virtual [String](../../system/string/) [ReadElementString](../xmlreader/readelementstring/)([String](../../system/string/)) | Überprüft, ob der [XmlReader::get_Name](../xmlreader/get_name/)-Wert des gefundenen Elements mit der angegebenen Zeichenkette übereinstimmt, bevor ein rein textbasiertes Element gelesen wird. Es wird jedoch empfohlen, stattdessen die [XmlReader::ReadElementContentAsString](../xmlreader/readelementcontentasstring/)-Methode zu verwenden, da sie eine einfachere Möglichkeit zur Durchführung dieser Operation bietet. |
+| virtual [String](../../system/string/) [ReadElementString](../xmlreader/readelementstring/)([String](../../system/string/), [String](../../system/string/)) | Überprüft, ob die [XmlReader::get_LocalName](../xmlreader/get_localname/)- und [XmlReader::get_NamespaceURI](../xmlreader/get_namespaceuri/)-Werte des gefundenen Elements mit den angegebenen Zeichenketten übereinstimmen, bevor ein rein textbasiertes Element gelesen wird. Es wird jedoch empfohlen, stattdessen die [XmlReader::ReadElementContentAsString](../xmlreader/readelementcontentasstring/)-Methode zu verwenden, da sie eine einfachere Möglichkeit zur Durchführung dieser Operation bietet. |
+| virtual void [ReadEndElement](../xmlreader/readendelement/)() | Überprüft, ob der aktuelle Inhaltsknoten ein End-Tag ist und bewegt den Reader zum nächsten Knoten weiter. |
+| virtual [String](../../system/string/) [ReadInnerXml](../xmlreader/readinnerxml/)() | Wird in einer abgeleiteten Klasse überschrieben, liest es den gesamten Inhalt, einschließlich Markup, als Zeichenkette. |
+| virtual [String](../../system/string/) [ReadOuterXml](../xmlreader/readouterxml/)() | Wird in einer abgeleiteten Klasse überschrieben, liest es den Inhalt, einschließlich Markup, der diesen Knoten und alle seine Kinder darstellt. |
+| virtual void [ReadStartElement](../xmlreader/readstartelement/)() | Überprüft, ob der aktuelle Knoten ein Element ist und bewegt den Reader zum nächsten Knoten weiter. |
+| virtual void [ReadStartElement](../xmlreader/readstartelement/)([String](../../system/string/)) | Überprüft, ob der aktuelle Inhaltsknoten ein Element mit dem angegebenen [XmlReader::get_Name](../xmlreader/get_name/)-Wert ist und bewegt den Reader zum nächsten Knoten weiter. |
+| virtual void [ReadStartElement](../xmlreader/readstartelement/)([String](../../system/string/), [String](../../system/string/)) | Überprüft, ob der aktuelle Inhaltsknoten ein Element mit den angegebenen [XmlReader::get_LocalName](../xmlreader/get_localname/)- und [XmlReader::get_NamespaceURI](../xmlreader/get_namespaceuri/)-Werten ist und bewegt den Reader zum nächsten Knoten weiter. |
+| [String](../../system/string/) [ReadString](./readstring/)() override | Liest den Inhalt eines Elements oder Textknotens als Zeichenkette. |
+| virtual [SharedPtr](../../system/sharedptr/)\<[XmlReader](../xmlreader/)\> [ReadSubtree](../xmlreader/readsubtree/)() | Gibt eine neue [XmlReader](../xmlreader/)-Instanz zurück, die zum Lesen des aktuellen Knotens und aller seiner Nachkommen verwendet werden kann. |
+| virtual **bool** [ReadToDescendant](../xmlreader/readtodescendant/)([String](../../system/string/)) | Bewegt den [XmlReader](../xmlreader/) zum nächsten Nachfahren-Element mit dem angegebenen qualifizierten Namen. |
+| virtual **bool** [ReadToDescendant](../xmlreader/readtodescendant/)([String](../../system/string/), [String](../../system/string/)) | Bewegt den [XmlReader](../xmlreader/) zum nächsten Nachfahren-Element mit dem angegebenen lokalen Namen und Namespace-URI. |
+| virtual **bool** [ReadToFollowing](../xmlreader/readtofollowing/)([String](../../system/string/)) | Liest, bis ein Element mit dem angegebenen qualifizierten Namen gefunden wird. |
+| virtual **bool** [ReadToFollowing](../xmlreader/readtofollowing/)([String](../../system/string/), [String](../../system/string/)) | Liest, bis ein Element mit dem angegebenen lokalen Namen und Namespace-URI gefunden wird. |
+| virtual **bool** [ReadToNextSibling](../xmlreader/readtonextsibling/)([String](../../system/string/)) | Bewegt den [XmlReader](../xmlreader/) zum nächsten Geschwister-Element mit dem angegebenen qualifizierten Namen. |
+| virtual **bool** [ReadToNextSibling](../xmlreader/readtonextsibling/)([String](../../system/string/), [String](../../system/string/)) | Bewegt den [XmlReader](../xmlreader/) zum nächsten Geschwister-Element mit dem angegebenen lokalen Namen und Namespace-URI. |
+| virtual **int32_t** [ReadValueChunk](../xmlreader/readvaluechunk/)([ArrayPtr](../../system/arrayptr/)\<char16_t\>, **int32_t**, **int32_t**) | Liest große Textstreams, die in einem XML-Dokument eingebettet sind. |
+| static **bool** [ReferenceEquals](../../system/object/referenceequals/)([ptr](../../system/object/ptr/) const\&, [ptr](../../system/object/ptr/) const\&) | Vergleicht Objekte nach Referenz. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, T const\&) | Vergleicht Objekte nach Referenz. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, std::nullptr_t) | Vergleicht ein Objekt des Werttyps referenziell mit nullptr. |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, std::nullptr_t) | Spezialisierung von [Object::ReferenceEquals](../../system/object/referenceequals/) für den Fall von Zeichenkette und nullptr. |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | Spezialisierung von [Object::ReferenceEquals](../../system/object/referenceequals/) für den Fall von Zeichenketten. |
+| int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Verringert den gemeinsam genutzten Referenzzähler um den angegebenen Wert. |
+| void [ResetState](./resetstate/)() | Setzt den Zustand des Readers auf [ReadState::Initial](../readstate/) zurück. |
+| void [ResolveEntity](./resolveentity/)() override | Löst die Entitätsreferenz für **EntityReference**-Knoten auf. |
+| void [set_DtdProcessing](./set_dtdprocessing/)([System::Xml::DtdProcessing](../dtdprocessing/)) | Setzt die Aufzählung DtdProcessing. |
+| void [set_EntityHandling](./set_entityhandling/)([System::Xml::EntityHandling](../entityhandling/)) | Setzt einen Wert, der festlegt, wie der Reader Entitäten verarbeitet. |
+| void [set_Namespaces](./set_namespaces/)(**bool**) | Setzt einen Wert, der angibt, ob Namespace-Unterstützung aktiviert werden soll. |
+| void [set_Normalization](./set_normalization/)(**bool**) | Setzt einen Wert, der angibt, ob Leerzeichen und Attributwerte normalisiert werden sollen. |
+| void [set_ProhibitDtd](./set_prohibitdtd/)(**bool**) | Setzt einen Wert, der angibt, ob DTD-Verarbeitung erlaubt werden soll. |
+| void [set_WhitespaceHandling](./set_whitespacehandling/)([System::Xml::WhitespaceHandling](../whitespacehandling/)) | Setzt einen Wert, der festlegt, wie Leerzeichen behandelt werden. |
+| void [set_XmlResolver](./set_xmlresolver/)(const [SharedPtr](../../system/sharedptr/)\<[System::Xml::XmlResolver](../xmlresolver/)\>\&) | Setzt das [XmlResolver](../xmlresolver/) zur Auflösung von DTD-Referenzen. |
+| virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | Setzt das n-te Template-Argument auf einen schwachen Zeiger (statt eines shared). Ermöglicht das Umschalten von Zeigern in Containern in den Weak-Modus. |
+| int [SharedCount](../../system/object/sharedcount/)() const | Ermittelt den aktuellen Wert des gemeinsam genutzten Referenzzählers. |
+| [Object](../../system/object/) * [SharedRefAdded](../../system/object/sharedrefadded/)() | Erhöht den gemeinsam genutzten Referenzzähler. Sollte nicht direkt aufgerufen werden; stattdessen Smart-Pointer oder ThisProtector verwenden. |
+| int [SharedRefRemovedSafe](../../system/object/sharedrefremovedsafe/)() | Verringert den gemeinsam genutzten Referenzzähler und gibt ihn zurück. Sollte nicht direkt aufgerufen werden; stattdessen Smart-Pointer oder ThisProtector verwenden. |
+| void [Skip](./skip/)() override | Überspringt die Kinder des aktuellen Knotens. |
+| virtual [String](../../system/string/) [ToString](../../system/object/tostring/)() const | Analog zur C#-Methode [Object.ToString()](../../system/object/tostring/). Ermöglicht die Umwandlung benutzerdefinierter Objekte in eine Zeichenkette. |
+| static const [TypeInfo](../../system/typeinfo/)\& [Type](../../system/object/type/)() | Implementiert das C#-Konstrukt typeof([System.Object](../../system/object/)). |
+| void [Unlock](../../system/object/unlock/)() | Implementiert das Entsperren der C#-lock()-Anweisung. Direkt aufrufen oder das [LockContext](../../system/lockcontext/)-Wächterobjekt verwenden. |
+| Detail::SmartPtrCounter * [WeakRefAdded](../../system/object/weakrefadded/)() | Erhöht den schwachen Referenzzähler. Sollte nicht direkt aufgerufen werden; stattdessen Smart-Pointer oder ThisProtector verwenden. |
+| void [WeakRefRemoved](../../system/object/weakrefremoved/)() | Verringert den schwachen Referenzzähler. Sollte nicht direkt aufgerufen werden; stattdessen Smart-Pointer oder ThisProtector verwenden. |
+|  [XmlTextReader](./xmltextreader/)(const [SharedPtr](../../system/sharedptr/)\<[IO::Stream](../../system.io/stream/)\>\&) | Initialisiert eine neue Instanz der [XmlTextReader](./)-Klasse mit dem angegebenen Stream. |
+|  [XmlTextReader](./xmltextreader/)(const [String](../../system/string/)\&, const [SharedPtr](../../system/sharedptr/)\<[IO::Stream](../../system.io/stream/)\>\&) | Initialisiert eine neue Instanz der [XmlTextReader](./)-Klasse mit der angegebenen URL und dem Stream. |
+|  [XmlTextReader](./xmltextreader/)(const [SharedPtr](../../system/sharedptr/)\<[IO::Stream](../../system.io/stream/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XmlNameTable](../xmlnametable/)\>\&) | Initialisiert eine neue Instanz der [XmlTextReader](./)-Klasse mit dem angegebenen Stream und [XmlNameTable](../xmlnametable/). |
+|  [XmlTextReader](./xmltextreader/)(const [String](../../system/string/)\&, const [SharedPtr](../../system/sharedptr/)\<[IO::Stream](../../system.io/stream/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XmlNameTable](../xmlnametable/)\>\&) | Initialisiert eine neue Instanz der [XmlTextReader](./)-Klasse mit der angegebenen URL, dem Stream und [XmlNameTable](../xmlnametable/). |
+|  [XmlTextReader](./xmltextreader/)(const [SharedPtr](../../system/sharedptr/)\<[IO::TextReader](../../system.io/textreader/)\>\&) | Initialisiert eine neue Instanz der [XmlTextReader](./) Klasse mit dem angegebenen TextReader. |
+|  [XmlTextReader](./xmltextreader/)(const [String](../../system/string/)\&, const [SharedPtr](../../system/sharedptr/)\<[IO::TextReader](../../system.io/textreader/)\>\&) | Initialisiert eine neue Instanz der [XmlTextReader](./) Klasse mit der angegebenen URL und dem TextReader. |
+|  [XmlTextReader](./xmltextreader/)(const [SharedPtr](../../system/sharedptr/)\<[IO::TextReader](../../system.io/textreader/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XmlNameTable](../xmlnametable/)\>\&) | Initialisiert eine neue Instanz der [XmlTextReader](./) Klasse mit dem angegebenen TextReader und [XmlNameTable](../xmlnametable/). |
+|  [XmlTextReader](./xmltextreader/)(const [String](../../system/string/)\&, const [SharedPtr](../../system/sharedptr/)\<[IO::TextReader](../../system.io/textreader/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XmlNameTable](../xmlnametable/)\>\&) | Initialisiert eine neue Instanz der [XmlTextReader](./) Klasse mit der angegebenen URL, dem TextReader und [XmlNameTable](../xmlnametable/). |
+|  [XmlTextReader](./xmltextreader/)(const [SharedPtr](../../system/sharedptr/)\<[IO::Stream](../../system.io/stream/)\>\&, [XmlNodeType](../xmlnodetype/), const [SharedPtr](../../system/sharedptr/)\<[XmlParserContext](../xmlparsercontext/)\>\&) | Initialisiert eine neue Instanz der [XmlTextReader](./) Klasse mit dem angegebenen Stream, XmlNodeType und [XmlParserContext](../xmlparsercontext/). |
+|  [XmlTextReader](./xmltextreader/)(const [String](../../system/string/)\&, [XmlNodeType](../xmlnodetype/), const [SharedPtr](../../system/sharedptr/)\<[XmlParserContext](../xmlparsercontext/)\>\&) | Initialisiert eine neue Instanz der [XmlTextReader](./) Klasse mit dem angegebenen String, XmlNodeType und [XmlParserContext](../xmlparsercontext/). |
+|  [XmlTextReader](./xmltextreader/)(const [String](../../system/string/)\&) | Initialisiert eine neue Instanz der [XmlTextReader](./) Klasse mit der angegebenen Datei. |
+|  [XmlTextReader](./xmltextreader/)(const [String](../../system/string/)\&, const [SharedPtr](../../system/sharedptr/)\<[XmlNameTable](../xmlnametable/)\>\&) | Initialisiert eine neue Instanz der [XmlTextReader](./) Klasse mit der angegebenen Datei und [XmlNameTable](../xmlnametable/). |
+| virtual  [~Object](../../system/object/~object/)() | Zerstört das Objekt. Gibt alle internen Datenstrukturen frei. |
+## Typdefinitionen
+
+| Typedef | Description |
+| --- | --- |
+| [Ptr](./ptr/) | Ein Alias für einen Shared-Pointer zu einer Instanz dieser Klasse. |
+## Hinweise
+
+
+
+Es wird empfohlen, stattdessen die [XmlReader](../xmlreader/) Klasse zu verwenden. 
+
+Objekte dieser Klasse sollten nur mit der [System::MakeObject()](../../system/makeobject/) Funktion alloziert werden. Erstellen Sie niemals Instanzen dieses Typs auf dem Stack oder mit operator new, da dies zu Laufzeitfehlern und/oder Assertion-Fehlern führt. Wickeln Sie diese Klasse immer in einen [System::SmartPtr](../../system/smartptr/) Zeiger und verwenden Sie diesen Zeiger, um ihn als Argument an Funktionen zu übergeben. 
+
+## Siehe auch
+
+* Klasse [XmlReader](../xmlreader/)
+* Klasse [IXmlLineInfo](../ixmllineinfo/)
+* Klasse [IXmlNamespaceResolver](../ixmlnamespaceresolver/)
+* Namensraum [System::Xml](../)
+* Bibliothek [Aspose.Slides](../../)

@@ -1,0 +1,27 @@
+---
+title: set_MaxCharactersInDocument()
+second_title: Aspose.Slides für C++ API Referenz
+description: Legt einen Wert fest, der die maximal zulässige Anzahl von Zeichen in einem XML-Dokument angibt. Ein Wert von Null (0) bedeutet, dass es keine Beschränkungen für die Größe des XML-Dokuments gibt. Ein von Null verschiedener Wert gibt die maximale Größe in Zeichen an.
+type: docs
+weight: 157
+url: /de/system.xml/xmlreadersettings/set_maxcharactersindocument/
+---
+## XmlReaderSettings::set_MaxCharactersInDocument(int64_t) Methode
+
+Legt einen Wert fest, der die maximal zulässige Anzahl von Zeichen in einem XML-Dokument angibt. Ein Wert von Null (0) bedeutet, dass es keine Beschränkungen für die Größe des XML-Dokuments gibt. Ein von Null verschiedener Wert gibt die maximale Größe in Zeichen an.
+
+```cpp
+void System::Xml::XmlReaderSettings::set_MaxCharactersInDocument(int64_t value)
+```
+
+### Argumente
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| value | **int64_t** | Der zu setzende Wert. |
+
+## Siehe auch
+
+* Klasse [XmlReaderSettings](../)
+* Namensraum [System::Xml](../../)
+* Bibliothek [Aspose.Slides](../../../)

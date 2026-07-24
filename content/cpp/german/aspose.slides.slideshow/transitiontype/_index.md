@@ -1,0 +1,82 @@
+---
+title: TransitionType
+second_title: Aspose.Slides für C++ API-Referenz
+description: Stellt den Folienpräsentations-Übergangstyp dar.
+type: docs
+weight: 599
+url: /de/aspose.slides.slideshow/transitiontype/
+---
+## TransitionType Enum
+
+Represent slide show transition type.
+
+```cpp
+enum class TransitionType
+```
+
+### Werte
+
+| Name | Wert | Beschreibung |
+| --- | --- | --- |
+| None | 0 |  |
+| Blinds | 1 |  |
+| Checker | 2 |  |
+| Circle | 3 | Bezieht sich auf den Übergang [Shape](../../aspose.slides/shape/) (mit der Option Circle) in PowerPoint 2010. |
+| Comb | 4 |  |
+| Cover | 5 |  |
+| Cut | 6 |  |
+| Diamond | 7 | Bezieht sich auf den Übergang [Shape](../../aspose.slides/shape/) (mit der Option Diamond) in PowerPoint 2010. |
+| Dissolve | 8 |  |
+| Fade | 9 |  |
+| Newsflash | 10 |  |
+| Plus | 11 | Bezieht sich auf den Übergang [Shape](../../aspose.slides/shape/) (mit der Option Plus) in PowerPoint 2010. |
+| Pull | 12 |  |
+| Push | 13 |  |
+| Random | 14 |  |
+| RandomBar | 15 |  |
+| Split | 16 | Entspricht dem Übergang Wipe in PowerPoint 2010. |
+| Strips | 17 |  |
+| Wedge | 18 | Bezieht sich auf den Übergang Clock (mit der Option Wedge) in PowerPoint 2010. |
+| Wheel | 19 | Bezieht sich auf den Übergang Clock (mit der Option Clockwise) in PowerPoint 2010. |
+| Wipe | 20 |  |
+| Zoom | 21 | Bezieht sich auf den Übergang [Shape](../../aspose.slides/shape/) (mit den Optionen In/Out) in PowerPoint 2010. Siehe auch [TransitionType::Warp](./), das sich auf den Übergang Zoom in PowerPoint 2010 bezieht. |
+| Vortex | 22 | Verfügbar in PowerPoint 2010. |
+| Switch | 23 | Verfügbar in PowerPoint 2010. |
+| Flip | 24 | Verfügbar in PowerPoint 2010. |
+| Ripple | 25 | Verfügbar in PowerPoint 2010. |
+| Honeycomb | 26 | Verfügbar in PowerPoint 2010. |
+| Cube | 27 | Verfügbar in PowerPoint 2010. |
+| Box | 28 | Verfügbar in PowerPoint 2010. |
+| Rotate | 29 | Verfügbar in PowerPoint 2010. |
+| Orbit | 30 | Verfügbar in PowerPoint 2010. |
+| Doors | 31 | Verfügbar in PowerPoint 2010. |
+| Window | 32 | Verfügbar in PowerPoint 2010. |
+| Ferris | 33 | Verfügbar in PowerPoint 2010. |
+| Gallery | 34 | Verfügbar in PowerPoint 2010. |
+| Conveyor | 35 | Verfügbar in PowerPoint 2010. |
+| Pan | 36 | Verfügbar in PowerPoint 2010. |
+| Glitter | 37 | Verfügbar in PowerPoint 2010. |
+| Warp | 38 | Bezieht sich auf den Übergang Zoom in PowerPoint 2010. Verfügbar in PowerPoint 2010. |
+| Flythrough | 39 | Verfügbar in PowerPoint 2010. |
+| Flash | 40 | Verfügbar in PowerPoint 2010. |
+| Shred | 41 | Verfügbar in PowerPoint 2010. |
+| Reveal | 42 | Verfügbar in PowerPoint 2010. |
+| WheelReverse | 43 | Bezieht sich auf den Übergang Clock (mit der Option Counterclockwise) in PowerPoint 2010. Verfügbar in PowerPoint 2010. |
+| FallOver | 44 | Verfügbar in PowerPoint 2013. |
+| Drape | 45 | Verfügbar in PowerPoint 2013. |
+| Curtains | 46 | Verfügbar in PowerPoint 2013. |
+| Wind | 47 | Verfügbar in PowerPoint 2013. |
+| Prestige | 48 | Verfügbar in PowerPoint 2013. |
+| Fracture | 49 | Verfügbar in PowerPoint 2013. |
+| Crush | 50 | Verfügbar in PowerPoint 2013. |
+| PeelOff | 51 | Verfügbar in PowerPoint 2013. |
+| PageCurlDouble | 52 | Verfügbar in PowerPoint 2013. |
+| PageCurlSingle | 53 | Verfügbar in PowerPoint 2013. |
+| Airplane | 54 | Verfügbar in PowerPoint 2013. |
+| Origami | 55 | Verfügbar in PowerPoint 2013. |
+| Morph | 56 | Bezieht sich auf den Übergang Morph (mit der Option Type) in PowerPoint 2019. |
+
+## Siehe auch
+
+* Namensraum [Aspose::Slides::SlideShow](../)
+* Bibliothek [Aspose.Slides](../../)

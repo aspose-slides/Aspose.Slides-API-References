@@ -1,0 +1,36 @@
+---
+title: PdfCompliance
+second_title: Aspose.Slides für C++ API-Referenz
+description: Konstanten, die das PDF-Standardkonformitätsniveau definieren.
+type: docs
+weight: 1002
+url: /de/aspose.slides.export/pdfcompliance/
+---
+## PdfCompliance enum
+
+Konstanten, die das PDF-Standardkonformitätsniveau definieren.
+
+```cpp
+enum class PdfCompliance
+```
+
+### Werte
+
+| Name | Wert | Beschreibung |
+| --- | --- | --- |
+| Pdf15 | 0 | Die Ausgabedatei entspricht dem PDF-1.5-Standard. |
+| Pdf16 | 1 | Die Ausgabedatei entspricht dem PDF-1.6-Standard. |
+| Pdf17 | 2 | Die Ausgabedatei entspricht dem PDF-1.7-Standard. |
+| PdfA1b | 3 | Die Ausgabedatei entspricht dem PDF/A-1b-Standard. |
+| PdfA1a | 4 | Die Ausgabedatei entspricht dem PDF/A-1a-Standard. |
+| PdfA2b | 5 | Die Ausgabedatei entspricht dem PDF/A-2b-Standard. |
+| PdfA2a | 6 | Die Ausgabedatei entspricht dem PDF/A-2a-Standard. |
+| PdfA3b | 7 | Die Ausgabedatei entspricht dem PDF/A-3b-Standard. |
+| PdfA3a | 8 | Die Ausgabedatei entspricht dem PDF/A-3a-Standard. |
+| PdfUa | 9 | Die Ausgabedatei entspricht dem PDF/UA-Standard. |
+| PdfA2u | 10 | Die Ausgabedatei entspricht dem PDF/A-2u-Standard. |
+
+## Siehe auch
+
+* Namensraum [Aspose::Slides::Export](../)
+* Bibliothek [Aspose.Slides](../../)

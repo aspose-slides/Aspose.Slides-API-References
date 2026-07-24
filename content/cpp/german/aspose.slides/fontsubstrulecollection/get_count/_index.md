@@ -1,0 +1,22 @@
+---
+title: get_Count()
+second_title: Aspose.Slides für C++ API-Referenz
+description: Gibt die tatsächlich in der Sammlung enthaltene Anzahl von Elementen zurück. Nur lesend int32_t.
+type: docs
+weight: 1
+url: /de/aspose.slides/fontsubstrulecollection/get_count/
+---
+## FontSubstRuleCollection::get_Count() Methode
+
+
+Gibt die tatsächlich in der Sammlung enthaltene Elementanzahl zurück. Nur lesend **int32_t**.
+
+```cpp
+int32_t Aspose::Slides::FontSubstRuleCollection::get_Count() override
+```
+
+## Siehe auch
+
+* Klasse [FontSubstRuleCollection](../)
+* Namensraum [Aspose::Slides](../../)
+* Bibliothek [Aspose.Slides](../../../)
