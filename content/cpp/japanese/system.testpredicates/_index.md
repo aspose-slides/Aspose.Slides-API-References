@@ -1,0 +1,50 @@
+---
+title: "System::TestPredicates"
+second_title: Aspose.Slides for C++ API リファレンス
+description: 
+type: docs
+weight: 924
+url: /ja/system.testpredicates/
+---
+## 関数
+
+| 関数 | 説明 |
+| --- | --- |
+| std::enable_if\<std::numeric_limits\<T1\>::has_quiet_NaN\&&std::numeric_limits\<T2\>::has_quiet_NaN, **bool**\>::type [AreFPNaN](./arefpnan/)(T1, T2) | 名前空間 [Details](../system.testpredicates.details/) |
+| std::enable_if<\!std::numeric_limits\<T1\>::has_quiet_NaN||\!std::numeric_limits\<T2\>::has_quiet_NaN, **bool**\>::type [AreFPNaN](./arefpnan/)(T1, T2) | 2つの浮動小数点値が両方とも NaN であることを確認します。非シグナリング NaN がサポートされていない場合の状況を処理します。 |
+| testing::AssertionResult [AreEqual](./areequal/)(const char *, const char *, T1\&&, T2\&&) | AreEqual アサーションの翻訳のために引数を等価比較します。 |
+| std::enable_if\<[TypeTraits::AreFPandArithmetic](../system.testpredicates.typetraits/arefpandarithmetic/)\<T1, T2\>::value, testing::AssertionResult\>::type [AreEqualImpl](./areequalimpl/)(const char *, const char *, const T1, const T2, long long) | 浮動小数点と算術型を等価比較します。 |
+| std::enable_if\<[TypeTraits::AnyOfDecimal](../system.testpredicates.typetraits/anyofdecimal/)\<T1, T2\>::value, testing::AssertionResult\>::type [AreEqualImpl](./areequalimpl/)(const char *, const char *, const T1\&, const T2\&, long long) | いずれか、または両方が [Decimal](../system/decimal/) である値を等価比較します。 |
+| std::enable_if<\![IsSmartPtr](../system/issmartptr/)\<T\>::value\&&detail::has_method_equals\<T\>::value, testing::AssertionResult\>::type [AreEqualImpl](./areequalimpl/)(const char *, const char *, const T\&, const T\&, long long) | 提供された Equals メソッドを使用してポインタでない型を等価比較します。 |
+| std::enable_if<\![IsSmartPtr](../system/issmartptr/)\<T\>::value\&&detail::has_method_equals\<T\>::value, testing::AssertionResult\>::type [AreEqualImpl](./areequalimpl/)(const char *, const char *, T\&, const T\&, long long) | 提供された Equals メソッドを使用してポインタでない型を等価比較します。 |
+| std::enable_if<\![IsSmartPtr](../system/issmartptr/)\<T\>::value\&&std::is_class\<T\>::value\&&\!detail::has_method_equals\<T\>::value\&&detail::has_operator_equal\<T\>::value, testing::AssertionResult\>::type [AreEqualImpl](./areequalimpl/)(const char *, const char *, const T\&, const T\&, long long) | 提供された operator == を使用してポインタでない型を等価比較します。 |
+| std::enable_if\<[IsBoxable](../system/isboxable/)\<T\>::value\&&\![IsStringByteSequence](../system/isstringbytesequence/)\<T, char16_t\>::value, testing::AssertionResult\>::type [AreEqualImpl](./areequalimpl/)(const char *, const char *, T, const [System::SharedPtr](../system/sharedptr/)\<[Object](../system/object/)\>\&, long long) | boxable と [SmartPtr](../system/smartptr/) の値を等価比較します。 |
+| std::enable_if\<[IsBoxable](../system/isboxable/)\<T\>::value\&&\![IsStringByteSequence](../system/isstringbytesequence/)\<T, char16_t\>::value, testing::AssertionResult\>::type [AreEqualImpl](./areequalimpl/)(const char *, const char *, const [System::SharedPtr](../system/sharedptr/)\<[Object](../system/object/)\>\&, T, long long) | boxable と [SmartPtr](../system/smartptr/) の値を等価比較します。 |
+| testing::AssertionResult [AreEqualImpl](./areequalimpl/)(const char *, const char *, const char16_t *, const [System::SharedPtr](../system/sharedptr/)\<[Object](../system/object/)\>\&, long long) | アンボックスを使用して、文字列リテラルを [SmartPtr](../system/smartptr/) の値と等価比較します。 |
+| testing::AssertionResult [AreEqualImpl](./areequalimpl/)(const char *, const char *, const [System::SharedPtr](../system/sharedptr/)\<[Object](../system/object/)\>\&, const char16_t *, long long) | アンボックスを使用して、文字列リテラルを [SmartPtr](../system/smartptr/) の値と等価比較します。 |
+| testing::AssertionResult [AreEqualImpl](./areequalimpl/)(const char *, const char *, T, std::nullptr_t, long long) | nullptr とランダム型を等価比較します。 |
+| testing::AssertionResult [AreEqualImpl](./areequalimpl/)(const char *, const char *, std::nullptr_t, T, long long) | nullptr とランダム型を等価比較します。 |
+| std::enable_if\<[IsSmartPtr](../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../system/issmartptr/)\<T2\>::value\&&(\!std::is_base_of\<[System::IO::Stream](../system.io/stream/), typenameT1::Pointee_\>::value||\!std::is_base_of\<[System::IO::Stream](../system.io/stream/), typenameT2::Pointee_\>::value), testing::AssertionResult\>::type [AreEqualImpl](./areequalimpl/)(const char *, const char *, const T1\&, const T2\&, long long) | ポインタ型を等価比較します。 |
+| std::enable_if\<[IsSmartPtr](../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../system/issmartptr/)\<T2\>::value\&&std::is_base_of\<[System::IO::Stream](../system.io/stream/), typenameT1::Pointee_\>::value\&&std::is_base_of\<[System::IO::Stream](../system.io/stream/), typenameT2::Pointee_\>::value, testing::AssertionResult\>::type [AreEqualImpl](./areequalimpl/)(const char *, const char *, const T1\&, const T2\&, long long) | ポインタ型を等価比較します。 |
+| std::enable_if<\!std::is_null_pointer\<T1\>::value\&&\![IsNullable](../system/isnullable/)\<T1\>::value, testing::AssertionResult\>::type [AreEqualImpl](./areequalimpl/)(const char *, const char *, T1, const [Nullable](../system/nullable/)\<T2\>\&, long long) | ランダム型と [Nullable](../system/nullable/) 値を等価比較します。 |
+| std::enable_if<\!std::is_null_pointer\<T2\>::value\&&\![IsNullable](../system/isnullable/)\<T2\>::value, testing::AssertionResult\>::type [AreEqualImpl](./areequalimpl/)(const char *, const char *, const [Nullable](../system/nullable/)\<T1\>\&, T2, long long) | [Nullable](../system/nullable/) の値とランダム型を等価比較します。 |
+| testing::AssertionResult [AreEqualImpl](./areequalimpl/)(const char *, const char *, T1, T2, int) | gtest アルゴリズムを使用してランダム型を等価比較します。 |
+| testing::AssertionResult [AreNotEqual](./arenotequal/)(const char *, const char *, T1\&&, T2\&&) | AreEqual アサーションの翻訳のために引数を不等価比較します。 |
+| std::enable_if\<[TypeTraits::AnyOfDecimal](../system.testpredicates.typetraits/anyofdecimal/)\<T1, T2\>::value, testing::AssertionResult\>::type [AreNotEqualImpl](./arenotequalimpl/)(const char *, const char *, const T1\&, const T2\&, long long) | いずれか、または両方が [Decimal](../system/decimal/) である値を不等価比較します。 |
+| std::enable_if<\![IsSmartPtr](../system/issmartptr/)\<T\>::value\&&detail::has_method_equals\<T\>::value, testing::AssertionResult\>::type [AreNotEqualImpl](./arenotequalimpl/)(const char *, const char *, const T\&, const T\&, long long) | 提供された Equals メソッドを使用してポインタでない型を不等価比較します。 |
+| std::enable_if<\![IsSmartPtr](../system/issmartptr/)\<T\>::value\&&detail::has_method_equals\<T\>::value, testing::AssertionResult\>::type [AreNotEqualImpl](./arenotequalimpl/)(const char *, const char *, T\&, const T\&, long long) | 提供された Equals メソッドを使用してポインタでない型を不等価比較します。 |
+| std::enable_if<\![IsSmartPtr](../system/issmartptr/)\<T\>::value\&&std::is_class\<T\>::value\&&\!detail::has_method_equals\<T\>::value\&&detail::has_operator_equal\<T\>::value, testing::AssertionResult\>::type [AreNotEqualImpl](./arenotequalimpl/)(const char *, const char *, const T\&, const T\&, long long) | 提供された operator != を使用してポインタでない型を不等価比較します。 |
+| std::enable_if\<[IsBoxable](../system/isboxable/)\<T\>::value, testing::AssertionResult\>::type [AreNotEqualImpl](./arenotequalimpl/)(const char *, const char *, T, const [System::SharedPtr](../system/sharedptr/)\<[Object](../system/object/)\>\&, long long) | アンボックスを使用して、boxable と [SmartPtr](../system/smartptr/) の値を不等価比較します。 |
+| std::enable_if\<[IsBoxable](../system/isboxable/)\<T\>::value, testing::AssertionResult\>::type [AreNotEqualImpl](./arenotequalimpl/)(const char *, const char *, const [System::SharedPtr](../system/sharedptr/)\<[Object](../system/object/)\>\&, T, long long) | アンボックスを使用して、boxable と [SmartPtr](../system/smartptr/) の値を不等価比較します。 |
+| testing::AssertionResult [AreNotEqualImpl](./arenotequalimpl/)(const char *, const char *, T, std::nullptr_t, long long) | ランダム型と nullptr を不等価比較します。 |
+| testing::AssertionResult [AreNotEqualImpl](./arenotequalimpl/)(const char *, const char *, std::nullptr_t, T, long long) | ランダム型と nullptr を不等価比較します。 |
+| std::enable_if\<[IsSmartPtr](../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../system/issmartptr/)\<T2\>::value, testing::AssertionResult\>::type [AreNotEqualImpl](./arenotequalimpl/)(const char *, const char *, const T1\&, const T2\&, long long) | ポインタ型を等価比較します。 |
+| testing::AssertionResult [AreNotEqualImpl](./arenotequalimpl/)(const char *, const char *, T1, T2, int) | gtest アルゴリズムを使用してランダム型を等価比較します。 |
+| testing::AssertionResult [AreSame](./aresame/)(const char *, const char *, const T1\&, const T2\&) | AreSame アサーションの翻訳のために引数を同一性比較します。 |
+| std::enable_if\<[IsSmartPtr](../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../system/issmartptr/)\<T2\>::value, testing::AssertionResult\>::type [AreSameImpl](./aresameimpl/)(const char *, const char *, const T1\&, const T2\&, long long) | AreSame アサーションの翻訳のためにスマートポインタを同一性比較します。 |
+| std::enable_if\<[IsExceptionWrapper](../system/isexceptionwrapper/)\<T1\>::value\&&[IsExceptionWrapper](../system/isexceptionwrapper/)\<T2\>::value, testing::AssertionResult\>::type [AreSameImpl](./aresameimpl/)(const char *, const char *, const T1\&, const T2\&, long long) | AreSame アサーションの翻訳のために例外を同一性比較します。 |
+| testing::AssertionResult [AreSameImpl](./aresameimpl/)(const char *, const char *, const T1\&, const T2\&, int) | ポインタでない値を同一性比較します。 |
+| testing::AssertionResult [AreNotSame](./arenotsame/)(const char *, const char *, const T1\&, const T2\&) | AreSame アサーションの翻訳のために引数を非同一性比較します。 |
+| std::enable_if\<[IsSmartPtr](../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../system/issmartptr/)\<T2\>::value, testing::AssertionResult\>::type [AreNotSameImpl](./arenotsameimpl/)(const char *, const char *, const T1\&, const T2\&, long long) | AreSame アサーションの翻訳のためにスマートポインタを非同一性比較します。 |
+| testing::AssertionResult [AreNotSameImpl](./arenotsameimpl/)(const char *, const char *, const T1\&, const T2\&, int) | ポインタでない値を非同一性比較します。 |
+| testing::AssertionResult [IsInstanceOf](./isinstanceof/)(const char *, const char *, const [TypeInfo](../system/typeinfo/)\&, const T\&) | IsInstanceOf アサーションの翻訳のために引数をインスタンス判定比較します。 |

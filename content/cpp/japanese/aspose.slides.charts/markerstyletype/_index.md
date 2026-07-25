@@ -1,0 +1,38 @@
+---
+title: MarkerStyleType
+second_title: Aspose.Slides for C++ APIリファレンス
+description: チャートのデータポイント上のマーカーの形状を決定します。
+type: docs
+weight: 1626
+url: /ja/aspose.slides.charts/markerstyletype/
+---
+## MarkerStyleType 列挙型
+
+
+チャートのデータポイント上のマーカーの形状を決定します。
+
+```cpp
+enum class MarkerStyleType
+```
+
+### 値
+
+| Name | Value | Description |
+| --- | --- | --- |
+| NotDefined | -1 |  |
+| Circle | 0 | 各データポイントに円が描画されることを指定します。 |
+| Dash | 1 | 各データポイントに破線が描画されることを指定します。 |
+| Diamond | 2 | 各データポイントに菱形が描画されることを指定します。 |
+| Dot | 3 | 各データポイントに点が描画されることを指定します。 |
+| None | 4 | 各データポイントに何も描画されないことを指定します。 |
+| Picture | 5 | 各データポイントに画像が描画されることを指定します。 |
+| Plus | 6 | 各データポイントにプラス記号が描画されることを指定します。 |
+| Square | 7 | 各データポイントに正方形が描画されることを指定します。 |
+| Star | 8 | 各データポイントに星形が描画されることを指定します。 |
+| Triangle | 9 | 各データポイントに三角形が描画されることを指定します。 |
+| X | 10 | 各データポイントに X が描画されることを指定します。 |
+
+## 参照
+
+* 名前空間 [Aspose::Slides::Charts](../)
+* ライブラリ [Aspose.Slides](../../)
