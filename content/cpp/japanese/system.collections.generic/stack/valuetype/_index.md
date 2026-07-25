@@ -1,0 +1,21 @@
+---
+title: ValueType
+second_title: Aspose.Slides C++ API リファレンス
+description: 値の型。
+type: docs
+weight: 196
+url: /ja/system.collections.generic/stack/valuetype/
+---
+## ValueType typedef
+
+値の型。
+
+```cpp
+typedef T System::Collections::Generic::Stack< T >::ValueType
+```
+
+## 参照
+
+* クラス [Stack](../)
+* 名前空間 [System::Collections::Generic](../../)
+* ライブラリ [Aspose.Slides](../../../)

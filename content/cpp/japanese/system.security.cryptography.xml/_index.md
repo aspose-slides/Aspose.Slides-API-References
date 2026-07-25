@@ -1,0 +1,29 @@
+---
+title: "System::Security::Cryptography::Xml"
+second_title: Aspose.Slides for C++ API リファレンス
+description: 
+type: docs
+weight: 872
+url: /ja/system.security.cryptography.xml/
+---
+## クラス
+
+| クラス | 説明 |
+| --- | --- |
+| [DataObject](./dataobject/) | フォーマットに依存しないデータ転送メカニズムを定義します。このクラスのオブジェクトは、[System::MakeObject()](../system/makeobject/) 関数を使用してのみ割り当てる必要があります。この型のインスタンスをスタック上で作成したり、operator new を使用して作成したりしないでください。そうしないと、実行時エラーやアサーション障害が発生します。常にこのクラスを [System::SmartPtr](../system/smartptr/) ポインタでラップし、そのポインタを関数への引数として渡してください。 |
+| [DSAKeyValue](./dsakeyvalue/) | [DSA](../system.security.cryptography/dsa/) プライベートキーを表します。このクラスのオブジェクトは、[System::MakeObject()](../system/makeobject/) 関数を使用してのみ割り当てる必要があります。この型のインスタンスをスタック上で作成したり、operator new を使用して作成したりしないでください。そうしないと、実行時エラーやアサーション障害が発生します。常にこのクラスを [System::SmartPtr](../system/smartptr/) ポインタでラップし、そのポインタを関数への引数として渡してください。 |
+| [KeyInfo](./keyinfo/) | [KeyInfo](./keyinfo/) 要素（XML デジタル署名または XML 暗号化の）を表します。このクラスのオブジェクトは、[System::MakeObject()](../system/makeobject/) 関数を使用してのみ割り当てる必要があります。この型のインスタンスをスタック上で作成したり、operator new を使用して作成したりしないでください。そうしないと、実行時エラーやアサーション障害が発生します。常にこのクラスを [System::SmartPtr](../system/smartptr/) ポインタでラップし、そのポインタを関数への引数として渡してください。 |
+| [KeyInfoClause](./keyinfoclause/) | [KeyInfo](./keyinfo/) のサブ要素のすべての実装は、この抽象クラスを継承しなければなりません。このクラスのオブジェクトは、[System::MakeObject()](../system/makeobject/) 関数を使用してのみ割り当てる必要があります。この型のインスタンスをスタック上で作成したり、operator new を使用して作成したりしないでください。そうしないと、実行時エラーやアサーション障害が発生します。常にこのクラスを [System::SmartPtr](../system/smartptr/) ポインタでラップし、そのポインタを関数への引数として渡してください。 |
+| [KeyInfoName](./keyinfoname/) | XMLDSIG の 'KeyName' サブ要素または XML 暗号化の '[KeyInfo](./keyinfo/)' 要素を表します。このクラスのオブジェクトは、[System::MakeObject()](../system/makeobject/) 関数を使用してのみ割り当てる必要があります。この型のインスタンスをスタック上で作成したり、operator new を使用して作成したりしないでください。そうしないと、実行時エラーやアサーション障害が発生します。常にこのクラスを [System::SmartPtr](../system/smartptr/) ポインタでラップし、そのポインタを関数への引数として渡してください。 |
+| [KeyInfoX509Data](./keyinfox509data/) | 'X509Data' 要素を表します。検証または暗号化キーに関連する X.509v3 証明書情報を含みます。このクラスのオブジェクトは、[System::MakeObject()](../system/makeobject/) 関数を使用してのみ割り当てる必要があります。この型のインスタンスをスタック上で作成したり、operator new を使用して作成したりしないでください。そうしないと、実行時エラーやアサーション障害が発生します。常にこのクラスを [System::SmartPtr](../system/smartptr/) ポインタでラップし、そのポインタを関数への引数として渡してください。 |
+| [Reference](./reference/) | XML 署名の作成を支援します。このクラスのオブジェクトは、[System::MakeObject()](../system/makeobject/) 関数を使用してのみ割り当てる必要があります。この型のインスタンスをスタック上で作成したり、operator new を使用して作成したりしないでください。そうしないと、実行時エラーやアサーション障害が発生します。常にこのクラスを [System::SmartPtr](../system/smartptr/) ポインタでラップし、そのポインタを関数への引数として渡してください。 |
+| [RSAKeyValue](./rsakeyvalue/) | XML 署名の '[RSAKeyValue](./rsakeyvalue/)' 要素を表します。このクラスのオブジェクトは、[System::MakeObject()](../system/makeobject/) 関数を使用してのみ割り当てる必要があります。この型のインスタンスをスタック上で作成したり、operator new を使用して作成したりしないでください。そうしないと、実行時エラーやアサーション障害が発生します。常にこのクラスを [System::SmartPtr](../system/smartptr/) ポインタでラップし、そのポインタを関数への引数として渡してください。 |
+| [SignedInfo](./signedinfo/) | XML 署名の '[SignedInfo](./signedinfo/)' 要素を表します。このクラスのオブジェクトは、[System::MakeObject()](../system/makeobject/) 関数を使用してのみ割り当てる必要があります。この型のインスタンスをスタック上で作成したり、operator new を使用して作成したりしないでください。そうしないと、実行時エラーやアサーション障害が発生します。常にこのクラスを [System::SmartPtr](../system/smartptr/) ポインタでラップし、そのポインタを関数への引数として渡してください。 |
+| [SignedXml](./signedxml/) | XML 署名と検証に使用されます。このクラスのオブジェクトは、[System::MakeObject()](../system/makeobject/) 関数を使用してのみ割り当てる必要があります。この型のインスタンスをスタック上で作成したり、operator new を使用して作成したりしないでください。そうしないと、実行時エラーやアサーション障害が発生します。常にこのクラスを [System::SmartPtr](../system/smartptr/) ポインタでラップし、そのポインタを関数への引数として渡してください。 |
+| [Transform](./transform/) | 署名者によるデータ変換に関する情報を提供します。このクラスのオブジェクトは、[System::MakeObject()](../system/makeobject/) 関数を使用してのみ割り当てる必要があります。この型のインスタンスをスタック上で作成したり、operator new を使用して作成したりしないでください。そうしないと、実行時エラーやアサーション障害が発生します。常にこのクラスを [System::SmartPtr](../system/smartptr/) ポインタでラップし、そのポインタを関数への引数として渡してください。 |
+| [TransformChain](./transformchain/) | 変換の順序付けられたチェーンを表します。このクラスのオブジェクトは、[System::MakeObject()](../system/makeobject/) 関数を使用してのみ割り当てる必要があります。この型のインスタンスをスタック上で作成したり、operator new を使用して作成したりしないでください。そうしないと、実行時エラーやアサーション障害が発生します。常にこのクラスを [System::SmartPtr](../system/smartptr/) ポインタでラップし、そのポインタを関数への引数として渡してください。 |
+| [X509IssuerSerial](./x509issuerserial/) | XML 署名の '[X509IssuerSerial](./x509issuerserial/)' 要素を表します。このクラスのオブジェクトは、[System::MakeObject()](../system/makeobject/) 関数を使用してのみ割り当てる必要があります。この型のインスタンスをスタック上で作成したり、operator new を使用して作成したりしないでください。そうしないと、実行時エラーやアサーション障害が発生します。常にこのクラスを [System::SmartPtr](../system/smartptr/) ポインタでラップし、そのポインタを関数への引数として渡してください。 |
+| [XmlDsigC14NTransform](./xmldsigc14ntransform/) | コメントなしのデジタル署名用 C14N XML 正規化変換を表します。このクラスのオブジェクトは、[System::MakeObject()](../system/makeobject/) 関数を使用してのみ割り当てる必要があります。この型のインスタンスをスタック上で作成したり、operator new を使用して作成したりしないでください。そうしないと、実行時エラーやアサーション障害が発生します。常にこのクラスを [System::SmartPtr](../system/smartptr/) ポインタでラップし、そのポインタを関数への引数として渡してください。 |
+| [XmlDsigC14NWithCommentsTransform](./xmldsigc14nwithcommentstransform/) | コメント付きのデジタル署名用 C14N XML 正規化変換を表します。このクラスのオブジェクトは、[System::MakeObject()](../system/makeobject/) 関数を使用してのみ割り当てる必要があります。この型のインスタンスをスタック上で作成したり、operator new を使用して作成したりしないでください。そうしないと、実行時エラーやアサーション障害が発生します。常にこのクラスを [System::SmartPtr](../system/smartptr/) ポインタでラップし、そのポインタを関数への引数として渡してください。 |
+| [XmlDsigEnvelopedSignatureTransform](./xmldsigenvelopedsignaturetransform/) | XML 署名のエンベロープ署名変換を表します。このクラスのオブジェクトは、[System::MakeObject()](../system/makeobject/) 関数を使用してのみ割り当てる必要があります。この型のインスタンスをスタック上で作成したり、operator new を使用して作成したりしないでください。そうしないと、実行時エラーやアサーション障害が発生します。常にこのクラスを [System::SmartPtr](../system/smartptr/) ポインタでラップし、そのポインタを関数への引数として渡してください。 |
+| [XmlDsigExcC14NTransform](./xmldsigexcc14ntransform/) | コメントなしのデジタル署名用専用 C14N XML 正規化変換を表します。このクラスのオブジェクトは、[System::MakeObject()](../system/makeobject/) 関数を使用してのみ割り当てる必要があります。この型のインスタンスをスタック上で作成したり、operator new を使用して作成したりしないでください。そうしないと、実行時エラーやアサーション障害が発生します。常にこのクラスを [System::SmartPtr](../system/smartptr/) ポインタでラップし、そのポインタを関数への引数として渡してください。 |

@@ -1,0 +1,37 @@
+---
+title: operator>()
+second_title: Aspose.Slides for C++ API リファレンス
+description: 現在のオブジェクトが、指定された DateTimeOffset オブジェクトが表す値よりも後の日時を表すかどうかを判定します。
+type: docs
+weight: 573
+url: /ja/system/datetimeoffset/operator_greater/
+---
+## DateTimeOffset::operator>(const DateTimeOffset\&) const メソッド
+
+現在のオブジェクトが、指定された [DateTimeOffset](../) オブジェクトが表す値よりも後の日時を表すかどうかを判断します。
+
+```cpp
+bool System::DateTimeOffset::operator>(const DateTimeOffset &other) const
+```
+
+### 引数
+
+| パラメータ | 型 | 説明 |
+| --- | --- | --- |
+| other | const [DateTimeOffset](../)\& | 現在のオブジェクトと比較する [DateTimeOffset](../) オブジェクト |
+
+### 戻り値
+
+現在のオブジェクトが表す日時が **other** よりも後の場合は true、そうでない場合は false
+
+## DateTimeOffset::operator>(std::nullptr_t) const メソッド
+
+```cpp
+constexpr bool System::DateTimeOffset::operator>(std::nullptr_t) const
+```
+
+## 参照
+
+* クラス [DateTimeOffset](../)
+* 名前空間 [System](../../)
+* ライブラリ [Aspose.Slides](../../../)

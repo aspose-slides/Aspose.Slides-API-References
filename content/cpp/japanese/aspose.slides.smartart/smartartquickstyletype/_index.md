@@ -1,0 +1,39 @@
+---
+title: SmartArtQuickStyleType
+second_title: Aspose.Slides for C++ API リファレンス
+description: SmartArt ダイアグラムのスタイル スキームを表します。
+type: docs
+weight: 170
+url: /ja/aspose.slides.smartart/smartartquickstyletype/
+---
+## SmartArtQuickStyleType 列挙型
+
+[SmartArt](../smartart/) 図のスタイル スキームを表します。
+
+```cpp
+enum class SmartArtQuickStyleType
+```
+
+### 値
+
+| 名前 | 値 | 説明 |
+| --- | --- | --- |
+| SimpleFill | 0 | SimpleFill |
+| WhiteOutline | 1 | WhiteOutline |
+| SubtleEffect | 2 | SubtleEffect |
+| ModerateEffect | 3 | ModerateEffect |
+| IntenceEffect | 4 | IntenceEffect |
+| Polished | 5 | Polished |
+| Inset | 6 | Inset |
+| Cartoon | 7 | Cartoon |
+| Powder | 8 | Powder |
+| BrickScene | 9 | BrickScene |
+| FlatScene | 10 | FlatScene |
+| MetallicScene | 11 | MetallicScene |
+| SunsetScene | 12 | SunsetScene |
+| BirdsEyeScene | 13 | BirdsEyeScene |
+
+## 参照
+
+* 名前空間 [Aspose::Slides::SmartArt](../)
+* ライブラリ [Aspose.Slides](../../)

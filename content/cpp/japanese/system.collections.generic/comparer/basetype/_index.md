@@ -1,0 +1,22 @@
+---
+title: BaseType
+second_title: Aspose.Slides for C++ API リファレンス
+description: インターフェイスが実装されています。
+type: docs
+weight: 14
+url: /ja/system.collections.generic/comparer/basetype/
+---
+## BaseType typedef
+
+
+インターフェイスが実装されています。
+
+```cpp
+using System::Collections::Generic::Comparer< T >::BaseType =  IComparer<T>
+```
+
+## 参照
+
+* クラス [Comparer](../)
+* 名前空間 [System::Collections::Generic](../../)
+* ライブラリ [Aspose.Slides](../../../)
