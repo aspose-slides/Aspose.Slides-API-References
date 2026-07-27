@@ -1,0 +1,46 @@
+---
+title: SaveFormat
+second_title: Aspose.Slides para la referencia de la API de C++
+description: Constantes que definen el formato de una presentación guardada.
+type: docs
+weight: 1041
+url: /es/aspose.slides.export/saveformat/
+---
+## SaveFormat enum
+
+Constantes que definen el formato de una presentación guardada.
+
+```cpp
+enum class SaveFormat
+```
+
+### Valores
+
+| Nombre | Valor | Descripción |
+| --- | --- | --- |
+| Ppt | 0 | Guardar la presentación en formato PPT. |
+| Pdf | 1 | Guardar la presentación en formato PDF. |
+| Xps | 2 | Guardar la presentación en formato XPS. |
+| Pptx | 3 | Guardar la presentación en formato PPTX. |
+| Ppsx | 4 | Guardar la presentación en formato PPSX (presentación de diapositivas). |
+| Tiff | 5 | Guardar la presentación como imagen TIFF de varias páginas. |
+| Odp | 6 | Guardar la presentación en formato ODP. |
+| Pptm | 7 | Guardar la presentación en formato PPTM (presentación con macros). |
+| Ppsm | 9 | Guardar la presentación en formato PPSM (presentación de diapositivas con macros). |
+| Potx | 10 | Guardar la presentación en formato POTX (plantilla). |
+| Potm | 11 | Guardar la presentación en formato POTM (plantilla con macros). |
+| Html | 13 | Guardar la presentación en formato HTML. |
+| Swf | 15 | Guardar la presentación en formato SWF. |
+| Otp | 17 | Guardar la presentación en formato OTP (plantilla de presentación). |
+| Pps | 19 | Guardar la presentación en formato PPS. |
+| Pot | 20 | Guardar la presentación en formato POT. |
+| Fodp | 21 | Guardar la presentación en formato FODP. |
+| Gif | 22 | Guardar la presentación en formato GIF. |
+| Html5 | 23 | Guardar la presentación en formato HTML usando el nuevo sistema de plantillas HTML5. |
+| Md | 24 | Guardar la presentación en formato Markdown |
+| Xml | 25 | Guardar la presentación en formato XML de PowerPoint [Presentation](../../aspose.slides/presentation/). |
+
+## Ver también
+
+* Espacio de nombres [Aspose::Slides::Export](../)
+* Biblioteca [Aspose.Slides](../../)

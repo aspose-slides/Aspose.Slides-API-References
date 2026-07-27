@@ -1,0 +1,42 @@
+---
+title: set_DefaultTextLanguage()
+second_title: Referencia de la API de Aspose.Slides para C++
+description: "Establece el idioma predeterminado para el texto de la presentación. Escriba System::String."
+type: docs
+weight: 326
+url: /es/aspose.slides/loadoptions/set_defaulttextlanguage/
+---
+## LoadOptions::set_DefaultTextLanguage(System::String) método
+
+
+Establece el idioma predeterminado para el texto de la presentación. Escribe [System::String](../../../system/string/).
+
+```cpp
+void Aspose::Slides::LoadOptions::set_DefaultTextLanguage(System::String value) override
+```
+
+## Observaciones
+
+
+Ejemplo: 
+```cpp
+System::SharedPtr<LoadOptions> loadOptions = System::MakeObject<LoadOptions>();
+loadOptions->set_DefaultTextLanguage(u"en-US");
+
+System::SharedPtr<Presentation> pres = System::MakeObject<Presentation>(loadOptions);
+
+// Add new rectangle shape with text
+System::SharedPtr<IAutoShape> shp = pres->get_Slide(0)->get_Shapes()->AddAutoShape(ShapeType::Rectangle, 50.0f, 50.0f, 150.0f, 50.0f);
+shp->get_TextFrame()->set_Text(u"New Text");
+
+// Check the first portion language
+System::SharedPtr<IPortion> portion = shp->get_TextFrame()->get_Paragraph(0)->get_Portion(0);
+System::Console::WriteLine(portion->get_PortionFormat()->get_LanguageId());
+```
+
+## Ver también
+
+* Clase [String](../../../system/string/)
+* Clase [LoadOptions](../)
+* Espacio de nombres [Aspose::Slides](../../)
+* Biblioteca [Aspose.Slides](../../../)
