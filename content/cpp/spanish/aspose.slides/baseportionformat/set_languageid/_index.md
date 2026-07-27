@@ -1,0 +1,22 @@
+---
+title: set_LanguageId()
+second_title: Referencia de API de Aspose.Slides para C++
+description: "Establece el Id de un idioma de corrección. Se usa para comprobar la ortografía y la gramática. Escriba System::String."
+type: docs
+weight: 534
+url: /es/aspose.slides/baseportionformat/set_languageid/
+---
+## BasePortionFormat::set_LanguageId(System::String) método
+
+Establece el Id de un idioma de corrección. Se usa para comprobar la ortografía y la gramática. Escriba [System::String](../../../system/string/).
+
+```cpp
+void Aspose::Slides::BasePortionFormat::set_LanguageId(System::String value) override
+```
+
+## Ver también
+
+* Clase [String](../../../system/string/)
+* Clase [BasePortionFormat](../)
+* Espacio de nombres [Aspose::Slides](../../)
+* Biblioteca [Aspose.Slides](../../../)

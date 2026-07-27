@@ -1,0 +1,37 @@
+---
+title: MarkerStyleType
+second_title: Referencia de API de Aspose.Slides para C++
+description: Determina la forma del marcador en el punto de datos del gráfico.
+type: docs
+weight: 1626
+url: /es/aspose.slides.charts/markerstyletype/
+---
+## MarkerStyleType enum
+
+Determina la forma del marcador en el punto de datos del gráfico.
+
+```cpp
+enum class MarkerStyleType
+```
+
+### Valores
+
+| Nombre | Valor | Descripción |
+| --- | --- | --- |
+| NotDefined | -1 |  |
+| Circle | 0 | Especifica que se dibuje un círculo en cada punto de datos. |
+| Dash | 1 | Especifica que se dibuje un guion en cada punto de datos. |
+| Diamond | 2 | Especifica que se dibuje un diamante en cada punto de datos. |
+| Dot | 3 | Especifica que se dibuje un punto en cada punto de datos. |
+| None | 4 | Especifica que no se dibuje nada en cada punto de datos. |
+| Picture | 5 | Especifica que se dibuje una imagen en cada punto de datos. |
+| Plus | 6 | Especifica que se dibuje un más en cada punto de datos. |
+| Square | 7 | Especifica que se dibuje un cuadrado en cada punto de datos. |
+| Star | 8 | Especifica que se dibuje una estrella en cada punto de datos. |
+| Triangle | 9 | Especifica que se dibuje un triángulo en cada punto de datos. |
+| X | 10 | Especifica que se dibuje una X en cada punto de datos. |
+
+## Ver también
+
+* Espacio de nombres [Aspose::Slides::Charts](../)
+* Biblioteca [Aspose.Slides](../../)

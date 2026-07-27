@@ -1,0 +1,24 @@
+---
+title: get_Aquamarine()
+second_title: Referencia de API de Aspose.Slides para C++
+description: Devuelve un objeto Pen con un ancho de 1 y cuyo color ARGB en notación hexadecimal tiene un valor de #FF7FFFD4.
+type: docs
+weight: 53
+url: /es/system.drawing/pens/get_aquamarine/
+---
+## Pens::get_Aquamarine() método
+
+
+Devuelve un objeto [Pen](../../pen/) con un ancho de 1 y cuyo color ARGB en notación hexadecimal tiene el valor #FF7FFFD4.
+
+```cpp
+static SharedPtr<Pen> System::Drawing::Pens::get_Aquamarine()
+```
+
+## Ver también
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Clase [Pen](../../pen/)
+* Clase [Pens](../)
+* Espacio de nombres [System::Drawing](../../)
+* Biblioteca [Aspose.Slides](../../../)

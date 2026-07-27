@@ -1,0 +1,31 @@
+---
+title: operator--()
+second_title: Referencia de API de Aspose.Slides para C++
+description: 
+type: docs
+weight: 40
+url: /es/system.collections.generic/kvpairiterator/operator_minus_minus/
+---
+## KVPairIterator::operator--() método
+
+
+
+
+```cpp
+KVPairIterator & System::Collections::Generic::KVPairIterator<KVPair, Container>::operator--()
+```
+
+## KVPairIterator::operator--(int) método
+
+
+
+
+```cpp
+KVPairIterator System::Collections::Generic::KVPairIterator<KVPair, Container>::operator--(int)
+```
+
+## Ver también
+
+* Clase [KVPairIterator](../)
+* Espacio de nombres [System::Collections::Generic](../../)
+* Biblioteca [Aspose.Slides](../../../)

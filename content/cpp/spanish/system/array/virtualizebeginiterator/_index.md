@@ -1,0 +1,25 @@
+---
+title: virtualizeBeginIterator()
+second_title: Referencia de API de Aspose.Slides para C++
+description: Obtiene la implementación del iterador de inicio para el contenedor actual.
+type: docs
+weight: 547
+url: /es/system/array/virtualizebeginiterator/
+---
+## Array::virtualizeBeginIterator() método
+
+Obtiene la implementación del iterador de inicio para el contenedor actual.
+
+```cpp
+System::Details::VirtualizedIteratorBase<T> * System::Array<T>::virtualizeBeginIterator() override
+```
+
+### Valor de retorno
+
+Puntero al objeto kernel del iterador recién creado.
+
+## Ver también
+
+* Clase [Array](../)
+* Espacio de nombres [System](../../)
+* Biblioteca [Aspose.Slides](../../../)
