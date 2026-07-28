@@ -1,0 +1,22 @@
+---
+title: virtualized_iterator_element
+second_title: Aspose.Slides dla C++ – Dokumentacja API
+description: Wirtualny typ elementu.
+type: docs
+weight: 339
+url: /pl/aspose.slides.charts/chartcategorycollection/virtualized_iterator_element/
+---
+## virtualized_iterator_element typedef
+
+
+Wirtualny typ elementu.
+
+```cpp
+using Aspose::Slides::Charts::ChartCategoryCollection::virtualized_iterator_element =  typename iterator_holder_type::virtualized_iterator_element
+```
+
+## Zobacz także
+
+* Klasa [ChartCategoryCollection](../)
+* Przestrzeń nazw [Aspose::Slides::Charts](../../)
+* Biblioteka [Aspose.Slides](../../../)
