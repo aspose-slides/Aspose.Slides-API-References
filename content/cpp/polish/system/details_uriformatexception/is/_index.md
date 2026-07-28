@@ -1,0 +1,36 @@
+---
+title: Is()
+second_title: Aspose.Slides dla C++ Dokumentacja API
+description: 
+type: docs
+weight: 27
+url: /pl/system/details_uriformatexception/is/
+---
+## Szczegóły_UriFormatException::Is(const System::TypeInfo\&) const method
+
+
+
+
+```cpp
+bool System::Details_UriFormatException::Is(const System::TypeInfo &target) const override
+```
+
+
+### Argumenty
+
+| Parametr | Typ | Opis |
+| --- | --- | --- |
+| target | const [System::TypeInfo](../../typeinfo/)\& | [TypeInfo](../../typeinfo/) struktura opisująca typ, z którym porównywany jest bieżący obiekt. |
+
+### Wartość zwracana
+
+true jeśli obiekt jest typu oznaczonego lub jego podklasą, false w przeciwnym razie.
+## Uwagi
+
+Sprawdza, czy obiekt jest instancją typu opisanego przez targetType. Odpowiednik operatora C# 'is'.
+## Zobacz także
+
+* Klasa [TypeInfo](../../typeinfo/)
+* Klasa [Details_UriFormatException](../)
+* Przestrzeń nazw [System](../../)
+* Biblioteka [Aspose.Slides](../../../)
