@@ -1,0 +1,121 @@
+---
+title: IMathBox
+second_title: Aspose.Slides a C++ API referenciája
+description: Meghatározza a matematikai elem logikai dobozolását (csomagolását). Például egy dobozolt objektum szolgálhat operátor-emulátorként egy igazítási ponttal vagy anélkül, szolgálhat sortörés-pontként, vagy csoportosítható úgy, hogy ne engedje a sortöréseket benne. Például a \"==\" operátort be kell dobozni, hogy megakadályozzuk a sortöréseket.
+type: docs
+weight: 170
+url: /hu/aspose.slides.mathtext/imathbox/
+---
+## IMathBox osztály
+
+Meghatározza a matematikai elem logikai dobozolását (csomagolását). Például egy dobozolt objektum szolgálhat operátor-emulátorként egy igazítási ponttal vagy anélkül, szolgálhat sortörés-pontként, vagy csoportosítható úgy, hogy ne engedje a sortöréseket benne. Például az "==" operátort be kell dobozni, hogy megakadályozzuk a sortöréseket.
+
+```cpp
+class IMathBox : public virtual Aspose::Slides::MathText::IMathElement
+```
+
+## Módszerek
+
+| Method | Description |
+| --- | --- |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathAccent](../imathaccent/)\> [Accent](../imathelement/accent/)(char16_t) | Beállít egy ékezetjelzőt (egy karakter az elem tetején) |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathFunction](../imathfunction/)\> [AsArgumentOfFunction](../imathelement/asargumentoffunction/)([System::SharedPtr](../../system/sharedptr/)\<[IMathElement](../imathelement/)\>) | A megadott függvényt használja, ahol ez a példány az argumentum |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathFunction](../imathfunction/)\> [AsArgumentOfFunction](../imathelement/asargumentoffunction/)([System::String](../../system/string/)) | A megadott függvényt használja, ahol ez a példány az argumentum |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathFunction](../imathfunction/)\> [AsArgumentOfFunction](../imathelement/asargumentoffunction/)([MathFunctionsOfOneArgument](../mathfunctionsofoneargument/)) | A megadott függvényt használja, ahol ez a példány az argumentum |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathFunction](../imathfunction/)\> [AsArgumentOfFunction](../imathelement/asargumentoffunction/)([MathFunctionsOfTwoArguments](../mathfunctionsoftwoarguments/), [System::SharedPtr](../../system/sharedptr/)\<[IMathElement](../imathelement/)\>) | A megadott függvényt használja, ahol ez a példány az argumentum, valamint a megadott további argumentum |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathFunction](../imathfunction/)\> [AsArgumentOfFunction](../imathelement/asargumentoffunction/)([MathFunctionsOfTwoArguments](../mathfunctionsoftwoarguments/), [System::String](../../system/string/)) | A megadott függvényt használja, ahol ez a példány az argumentum, valamint a megadott további argumentum |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathFraction](../imathfraction/)\> [Divide](../imathelement/divide/)([System::SharedPtr](../../system/sharedptr/)\<[IMathElement](../imathelement/)\>) | Létrehoz egy törtet ezzel a számlálóval és a megadott nevezővel |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathFraction](../imathfraction/)\> [Divide](../imathelement/divide/)([System::String](../../system/string/)) | Létrehoz egy törtet ezzel a számlálóval és a megadott nevezővel |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathFraction](../imathfraction/)\> [Divide](../imathelement/divide/)([System::SharedPtr](../../system/sharedptr/)\<[IMathElement](../imathelement/)\>, [MathFractionTypes](../mathfractiontypes/)) | A megadott típusú törtet hoz létre ezzel a számlálóval és a megadott nevezővel |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathFraction](../imathfraction/)\> [Divide](../imathelement/divide/)([System::String](../../system/string/), [MathFractionTypes](../mathfractiontypes/)) | A megadott típusú törtet hoz létre ezzel a számlálóval és a megadott nevezővel |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathDelimiter](../imathdelimiter/)\> [Enclose](../imathelement/enclose/)() | Egy matematikai elemet zárójelek közé tesz |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathDelimiter](../imathdelimiter/)\> [Enclose](../imathelement/enclose/)(char16_t, char16_t) | Ez az elemet a megadott karakterek közé helyezi, például zárójelek vagy más karakterek keretezésként |
+| virtual **bool** [Equals](../../system/object/equals/)([ptr](../../system/object/ptr/)) | Összehasonlítja az objektumokat C# [Object.Equals](../../system/object/equals/) szemantika szerint. |
+| static std::enable_if\<[IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Referencia típusú objektumokat hasonlít össze C# stílusban. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&\![IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Érték típusú objektumokat hasonlít össze C# stílusban. |
+| static **bool** [Equals](../../system/object/equals/)(**float** const\&, **float** const\&) | C#-stílusú lebegőpontos összehasonlítást emulál, ahol két NaN-t egyenlőnek tekint, bár az IEC 60559:1989 szerint a NaN nem egyenlő semmivel, beleértve a NaN-t is. |
+| static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | C#-stílusú lebegőpontos összehasonlítást emulál, ahol két NaN-t egyenlőnek tekint, bár az IEC 60559:1989 szerint a NaN nem egyenlő semmivel, beleértve a NaN-t is. |
+| virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | Csak belső használatra. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathFunction](../imathfunction/)\> [Function](../imathelement/function/)([System::SharedPtr](../../system/sharedptr/)\<[IMathElement](../imathelement/)\>) | Az argumentum egy függvényét veszi, ahol ez a példány a függvény neve |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathFunction](../imathfunction/)\> [Function](../imathelement/function/)([System::String](../../system/string/)) | Az argumentum egy függvényét veszi, ahol ez a példány a függvény neve |
+| virtual **bool** [get_AlignmentPoint](./get_alignmentpoint/)() | Ha igaz, ez az operátor emulátor igazítási pontként szolgál; más egyenletek kijelölt igazítási pontjai ehhez igazíthatók. Alapértelmezett: false |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathElement](../imathelement/)\> [get_Base](./get_base/)() | Alap argumentum |
+| virtual **bool** [get_Differential](./get_differential/)() | Differenciál. Ha igaz, a doboz differenciálként működik (például \\uD835\\uDC51\\uD835\\uDC65 egy integrandusban), és a megfelelő vízszintes távolságot kapja a matematikai differenciálhoz. Alapértelmezett: false |
+| virtual **uint8_t** [get_ExplicitBreak](./get_explicitbreak/)() | Az explicit sortörés meghatározza, hogy van-e sortörés a Box objektum elején, így a sor a doboz elején törik. Megadja az előző matematikai sor operátorának számát, amelyet az aktuális sor igazítási pontjaként használnak; lehetséges értékek: 1..255 Alapértelmezett: 0 (nincs explicit sortörés). |
+| virtual **bool** [get_NoBreak](./get_nobreak/)() | Nincs sortörés. Ez a tulajdonság a "nem törhető" tulajdonságot határozza meg az objektum dobozon. Ha igaz, a dobozon belül nem fordulhat elő sortörés. Ez fontos lehet több bináris operátorból álló operátor emulátoroknál. Ha ez az elem nincs megadva, a dobozon belül megtörténhet a törés. Alapértelmezett: true |
+| virtual **bool** [get_OperatorEmulator](./get_operatoremulator/)() | Operátor emulátor. Ha igaz, a doboz és tartalma egyetlen operátorként viselkedik, és örökli az operátor tulajdonságait. Ez azt jelenti, például, hogy a karakter szolgálhat sortörés-pontként és igazítható más operátorokhoz. Operátor emulátorokat gyakran használnak, amikor egy vagy több glif kombinálódik egy operátorrá, például "==". Alapértelmezett érték: false |
+| virtual [System::ArrayPtr](../../system/arrayptr/)\<[System::SharedPtr](../../system/sharedptr/)\<[IMathElement](../imathelement/)\>\> [GetChildren](../imathelement/getchildren/)() | Gyermekelemek lekérése |
+| Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Lekéri az objektumhoz társított referenciacsökkentő adatstruktúrát. |
+| virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | A C# [Object.GetHashCode()](../../system/object/gethashcode/) metódus analógja. Lehetővé teszi az egyedi objektumok hash-elését. |
+| virtual const [TypeInfo](../../system/typeinfo/)\& [GetType](../../system/object/gettype/)() const | Lekéri az objektum tényleges típusát. A C# [System.Object.GetType()](../../system/object/gettype/) hívás analógja. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathGroupingCharacter](../imathgroupingcharacter/)\> [Group](../imathelement/group/)() | Ezt az elemet egy csoportba helyezi, az alsó kapcsos zárójel használatával |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathGroupingCharacter](../imathgroupingcharacter/)\> [Group](../imathelement/group/)(char16_t, [MathTopBotPositions](../mathtopbotpositions/), [MathTopBotPositions](../mathtopbotpositions/)) | Ezt az elemet csoportba sorolja egy csoportosító karakterrel, például alsó kapcsos zárójellel vagy más karakterrel |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathNaryOperator](../imathnaryoperator/)\> [Integral](../imathelement/integral/)([MathIntegralTypes](../mathintegraltypes/), [System::SharedPtr](../../system/sharedptr/)\<[IMathElement](../imathelement/)\>, [System::SharedPtr](../../system/sharedptr/)\<[IMathElement](../imathelement/)\>, [MathLimitLocations](../mathlimitlocations/)) | Az integrált veszi. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathNaryOperator](../imathnaryoperator/)\> [Integral](../imathelement/integral/)([MathIntegralTypes](../mathintegraltypes/), [System::SharedPtr](../../system/sharedptr/)\<[IMathElement](../imathelement/)\>, [System::SharedPtr](../../system/sharedptr/)\<[IMathElement](../imathelement/)\>) | Az integrált veszi. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathNaryOperator](../imathnaryoperator/)\> [Integral](../imathelement/integral/)([MathIntegralTypes](../mathintegraltypes/)) | Az integrált határok nélkül veszi. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathNaryOperator](../imathnaryoperator/)\> [Integral](../imathelement/integral/)([MathIntegralTypes](../mathintegraltypes/), [System::String](../../system/string/), [System::String](../../system/string/), [MathLimitLocations](../mathlimitlocations/)) | Az integrált veszi. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathNaryOperator](../imathnaryoperator/)\> [Integral](../imathelement/integral/)([MathIntegralTypes](../mathintegraltypes/), [System::String](../../system/string/), [System::String](../../system/string/)) | Az integrált veszi. |
+| virtual **bool** [Is](../../system/object/is/)(const [TypeInfo](../../system/typeinfo/)\&) const | Ellenőrzi, hogy az objektum a targetType által leírt típus példányát jelenti-e. A C# 'is' operátor analógja. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathBlock](../imathblock/)\> [Join](../imathelement/join/)([System::SharedPtr](../../system/sharedptr/)\<[IMathElement](../imathelement/)\>) | Összekapcsol egy matematikai elemet és matematikai blokkot hoz létre. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathBlock](../imathblock/)\> [Join](../imathelement/join/)([System::String](../../system/string/)) | Összekapcsol egy matematikai szöveget és matematikai blokkot hoz létre. |
+| void [Lock](../../system/object/lock/)() | Megvalósítja a C# lock() utasítást a zároláshoz. Hívja közvetlenül vagy használja a [LockContext](../../system/lockcontext/) sentry objektumot. |
+| virtual [ptr](../../system/object/ptr/) [MemberwiseClone](../../system/object/memberwiseclone/)() const | A C# [Object.MemberwiseClone()](../../system/object/memberwiseclone/) metódus analógja. Lehetővé teszi egyedi típusok klónozását. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathNaryOperator](../imathnaryoperator/)\> [Nary](../imathelement/nary/)([MathNaryOperatorTypes](../mathnaryoperatortypes/), [System::SharedPtr](../../system/sharedptr/)\<[IMathElement](../imathelement/)\>, [System::SharedPtr](../../system/sharedptr/)\<[IMathElement](../imathelement/)\>) | N-áris operátort hoz létre. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathNaryOperator](../imathnaryoperator/)\> [Nary](../imathelement/nary/)([MathNaryOperatorTypes](../mathnaryoperatortypes/), [System::String](../../system/string/), [System::String](../../system/string/)) | N-áris operátort hoz létre. |
+|  [Object](../../system/object/object/)() | Objektumot hoz létre. Inicializálja az összes belső adatstruktúrát. |
+|  [Object](../../system/object/object/)([Object](../../system/object/) const\&) | Másoló konstruktor. Valójában nem másol semmit, csak új objektumot inicializál és lehetővé teszi az alosztályok másolásos konstrukcióját. |
+| [Object](../../system/object/)\& [operator=](../../system/object/operator_equal/)([Object](../../system/object/) const\&) | Értékadási operátor. Valójában nem másol semmit, csak új objektumot inicializál és lehetővé teszi az alosztályok másolásos konstrukcióját. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathBar](../imathbar/)\> [Overbar](../imathelement/overbar/)() | Beállít egy vonalat az elem tetejére. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathRadical](../imathradical/)\> [Radical](../imathelement/radical/)([System::SharedPtr](../../system/sharedptr/)\<[IMathElement](../imathelement/)\>) | Megadja a megadott fokú matematikai gyököt a megadott argumentumból. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathRadical](../imathradical/)\> [Radical](../imathelement/radical/)([System::String](../../system/string/)) | Megadja a megadott fokú matematikai gyököt a megadott argumentumból. |
+| static **bool** [ReferenceEquals](../../system/object/referenceequals/)([ptr](../../system/object/ptr/) const\&, [ptr](../../system/object/ptr/) const\&) | Objektumokat referenciával hasonlít össze. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, T const\&) | Objektumokat referenciával hasonlít össze. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, std::nullptr_t) | Referenciával hasonlítja össze az értéktípust a nullptr értékkel. |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, std::nullptr_t) | [Object::ReferenceEquals](../../system/object/referenceequals/) specializációja karakterlánc és nullptr esetére. |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | [Object::ReferenceEquals](../../system/object/referenceequals/) specializációja karakterláncok esetére. |
+| int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Csökkenti a megosztott referencia számlálót a megadott értékkel. |
+| virtual void [set_AlignmentPoint](./set_alignmentpoint/)(**bool**) | Ha igaz, ez az operátor emulátor igazítási pontként szolgál; más egyenletek kijelölt igazítási pontjai ehhez igazíthatók. Alapértelmezett: false |
+| virtual void [set_Differential](./set_differential/)(**bool**) | Differenciál. Ha igaz, a doboz differenciálként működik (például \\uD835\\uDC51\\uD835\\uDC65 egy integrandusban), és a megfelelő vízszintes távolságot kapja a matematikai differenciálhoz. Alapértelmezett: false |
+| virtual void [set_ExplicitBreak](./set_explicitbreak/)(**uint8_t**) | Az explicit sortörés meghatározza, hogy van-e sortörés a Box objektum elején, így a sor a doboz elején törik. Megadja az előző matematikai sor operátorának számát, amelyet az aktuális sor igazítási pontjaként használnak; lehetséges értékek: 1..255 Alapértelmezett: 0 (nincs explicit sortörés). |
+| virtual void [set_NoBreak](./set_nobreak/)(**bool**) | Nincs sortörés. Ez a tulajdonság a "nem törhető" tulajdonságot határozza meg az objektum dobozon. Ha igaz, a dobozon belül nem fordulhat elő sortörés. Ez fontos lehet több bináris operátorból álló operátor emulátoroknál. Ha ez az elem nincs megadva, a dobozon belül megtörténhet a törés. Alapértelmezett: true |
+| virtual void [set_OperatorEmulator](./set_operatoremulator/)(**bool**) | Operátor emulátor. Ha igaz, a doboz és tartalma egyetlen operátorként viselkedik, és örökli az operátor tulajdonságait. Ez azt jelenti, például, hogy a karakter szolgálhat sortörés-pontként és igazítható más operátorokhoz. Operátor emulátorokat gyakran használnak, amikor egy vagy több glif kombinálódik egy operátorrá, például "==". Alapértelmezett érték: false |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathLimit](../imathlimit/)\> [SetLowerLimit](../imathelement/setlowerlimit/)([System::SharedPtr](../../system/sharedptr/)\<[IMathElement](../imathelement/)\>) | Alsó határt vesz. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathLimit](../imathlimit/)\> [SetLowerLimit](../imathelement/setlowerlimit/)([System::String](../../system/string/)) | Alsó határt vesz. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathSubscriptElement](../imathsubscriptelement/)\> [SetSubscript](../imathelement/setsubscript/)([System::SharedPtr](../../system/sharedptr/)\<[IMathElement](../imathelement/)\>) | Alsó indexet hoz létre. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathSubscriptElement](../imathsubscriptelement/)\> [SetSubscript](../imathelement/setsubscript/)([System::String](../../system/string/)) | Alsó indexet hoz létre. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathLeftSubSuperscriptElement](../imathleftsubsuperscriptelement/)\> [SetSubSuperscriptOnTheLeft](../imathelement/setsubsuperscriptontheleft/)([System::SharedPtr](../../system/sharedptr/)\<[IMathElement](../imathelement/)\>, [System::SharedPtr](../../system/sharedptr/)\<[IMathElement](../imathelement/)\>) | Bal oldalon hoz létre alsó és felső indexet. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathLeftSubSuperscriptElement](../imathleftsubsuperscriptelement/)\> [SetSubSuperscriptOnTheLeft](../imathelement/setsubsuperscriptontheleft/)([System::String](../../system/string/), [System::String](../../system/string/)) | Bal oldalon hoz létre alsó és felső indexet. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathRightSubSuperscriptElement](../imathrightsubsuperscriptelement/)\> [SetSubSuperscriptOnTheRight](../imathelement/setsubsuperscriptontheright/)([System::SharedPtr](../../system/sharedptr/)\<[IMathElement](../imathelement/)\>, [System::SharedPtr](../../system/sharedptr/)\<[IMathElement](../imathelement/)\>) | Jobb oldalon hoz létre alsó és felső indexet. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathRightSubSuperscriptElement](../imathrightsubsuperscriptelement/)\> [SetSubSuperscriptOnTheRight](../imathelement/setsubsuperscriptontheright/)([System::String](../../system/string/), [System::String](../../system/string/)) | Jobb oldalon hoz létre alsó és felső indexet. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathSuperscriptElement](../imathsuperscriptelement/)\> [SetSuperscript](../imathelement/setsuperscript/)([System::SharedPtr](../../system/sharedptr/)\<[IMathElement](../imathelement/)\>) | Felső indexet hoz létre. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathSuperscriptElement](../imathsuperscriptelement/)\> [SetSuperscript](../imathelement/setsuperscript/)([System::String](../../system/string/)) | Felső indexet hoz létre. |
+| virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | Beállítja a n-edik sablonargumentumot gyenge mutatóként (nem megosztottként). Lehetővé teszi a mutatók tárolókban való gyenge módra váltását. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathLimit](../imathlimit/)\> [SetUpperLimit](../imathelement/setupperlimit/)([System::SharedPtr](../../system/sharedptr/)\<[IMathElement](../imathelement/)\>) | Felső határt vesz. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathLimit](../imathlimit/)\> [SetUpperLimit](../imathelement/setupperlimit/)([System::String](../../system/string/)) | Felső határt vesz. |
+| int [SharedCount](../../system/object/sharedcount/)() const | Lekéri a megosztott referencia számláló aktuális értékét. |
+| [Object](../../system/object/) * [SharedRefAdded](../../system/object/sharedrefadded/)() | Növeli a megosztott referencia számlálót. Nem szabad közvetlenül hívni; helyette használjon okos mutatókat vagy ThisProtector-t. |
+| int [SharedRefRemovedSafe](../../system/object/sharedrefremovedsafe/)() | Csökkenti és visszaadja a megosztott referencia számlálót. Nem szabad közvetlenül hívni; helyette használjon okos mutatókat vagy ThisProtector-t. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathBorderBox](../imathborderbox/)\> [ToBorderBox](../imathelement/toborderbox/)() | Ezt az elemet egy szegélydobozba helyezi. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathBorderBox](../imathborderbox/)\> [ToBorderBox](../imathelement/toborderbox/)(**bool**, **bool**, **bool**, **bool**, **bool**, **bool**, **bool**, **bool**) | Ezt az elemet egy szegélydobozba helyezi. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathBox](./)\> [ToBox](../imathelement/tobox/)() | Ezt az elemet egy nem vizuális dobozba (logikai csoportosításba) helyezi, amelyet egyenlet vagy más matematikai szöveg összetevőinek csoportosítására használnak. Egy dobozolt objektum például operátor emulátorként szolgálhat egy igazítási ponttal vagy nélküle, sortörés pontként, vagy úgy csoportosítható, hogy ne engedje a sortörést a belsejében. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathArray](../imatharray/)\> [ToMathArray](../imathelement/tomatharray/)() | Függőleges tömbbe helyezi. |
+| virtual [String](../../system/string/) [ToString](../../system/object/tostring/)() const | A C# [Object.ToString()](../../system/object/tostring/) metódus analógja. Lehetővé teszi egyedi objektumok karakterlánccá konvertálását. |
+| static const [TypeInfo](../../system/typeinfo/)\& [Type](../../system/object/type/)() | Megvalósítja a C# typeof([System.Object](../../system/object/)) konstrukciót. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IMathBar](../imathbar/)\> [Underbar](../imathelement/underbar/)() | Beállít egy vonalat az elem aljára. |
+| void [Unlock](../../system/object/unlock/)() | Megvalósítja a C# lock() utasítás feloldását. Hívja közvetlenül vagy használja a [LockContext](../../system/lockcontext/) sentry objektumot. |
+| Detail::SmartPtrCounter * [WeakRefAdded](../../system/object/weakrefadded/)() | Növeli a gyenge referencia számlálót. Nem szabad közvetlenül hívni; helyette használjon okos mutatókat vagy ThisProtector-t. |
+| void [WeakRefRemoved](../../system/object/weakrefremoved/)() | Csökkenti a gyenge referencia számlálót. Nem szabad közvetlenül hívni; helyette használjon okos mutatókat vagy ThisProtector-t. |
+| virtual  [~Object](../../system/object/~object/)() | Megsemmisíti az objektumot. Felszabadítja az összes belső adatstruktúrát. |
+
+## Megjegyzések
+
+Példa:
+```cpp
+auto box = System::MakeObject<MathematicalText>(u"==")->ToBox();
+```
+
+## Lásd még
+
+* Osztály [IMathElement](../imathelement/)
+* Névtér [Aspose::Slides::MathText](../)
+* Könyvtár [Aspose.Slides](../../)

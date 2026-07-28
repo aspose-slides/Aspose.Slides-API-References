@@ -1,0 +1,20 @@
+---
+title: const_reverse_iterator
+second_title: Aspose.Slides C++ API referencia
+description: 
+type: docs
+weight: 326
+url: /hu/system.collections.objectmodel/collection/const_reverse_iterator/
+---
+## const_reverse_iterator typedef
+
+
+```cpp
+typedef reverse_iterator_prototype<T> System::Collections::ObjectModel::Collection< T >::const_reverse_iterator
+```
+
+## Lásd még
+
+* Osztály [Collection](../)
+* Névtér [System::Collections::ObjectModel](../../)
+* Könyvtár [Aspose.Slides](../../../)

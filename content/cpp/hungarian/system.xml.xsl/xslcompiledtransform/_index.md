@@ -1,0 +1,90 @@
+---
+title: XslCompiledTransform
+second_title: Aspose.Slides C++ API referencia
+description: XML adatokat alakít át egy XSLT stíluslap segítségével.
+type: docs
+weight: 53
+url: /hu/system.xml.xsl/xslcompiledtransform/
+---
+## XslCompiledTransform osztály
+
+Átalakítja az XML adatot egy XSLT stíluslap használatával.
+
+```cpp
+class XslCompiledTransform : public System::Object
+```
+
+## Módszerek
+
+| Módszer | Leírás |
+| --- | --- |
+| virtual **bool** [Equals](../../system/object/equals/)([ptr](../../system/object/ptr/)) | Objektumokat hasonlít össze a C# [Object.Equals](../../system/object/equals/) szemantika használatával. |
+| static std::enable_if\<[IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Referencia típusú objektumokat hasonlít össze C# stílusban. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&\![IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Értéktípusú objektumokat hasonlít össze C# stílusban. |
+| static **bool** [Equals](../../system/object/equals/)(**float** const\&, **float** const\&) | Ugyanazt a C#-stílusú lebegőpontos összehasonlítást utánozza, ahol két NaN egyenlőnek tekinthető, még ha az IEC 60559:1989 szerint a NaN nem egyenlő semmilyen értékkel, beleértve a NaN-t is. |
+| static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | Ugyanazt a C#-stílusú lebegőpontos összehasonlítást utánozza, ahol két NaN egyenlőnek tekinthető, még ha az IEC 60559:1989 szerint a NaN nem egyenlő semmilyen értékkel, beleértve a NaN-t is. |
+| virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | Kizárólag belső célokra. |
+| [SharedPtr](../../system/sharedptr/)\<[XmlWriterSettings](../../system.xml/xmlwritersettings/)\> [get_OutputSettings](./get_outputsettings/)() | Visszaad egy [XmlWriterSettings](../../system.xml/xmlwritersettings/) objektumot, amely tartalmazza a stíluslap **xsl:output** eleméből származó kimeneti információkat. |
+| Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Lekéri az objektummal kapcsolatos referenciaszámláló adatstruktúrát. |
+| virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | A C# [Object.GetHashCode()](../../system/object/gethashcode/) metódus analógja. Lehetővé teszi az egyedi objektumok hash-olását. |
+| virtual const [TypeInfo](../../system/typeinfo/)\& [GetType](../../system/object/gettype/)() const | Lekéri az objektum tényleges típusát. A C# [System.Object.GetType()](../../system/object/gettype/) hívás analógja. |
+| virtual **bool** [Is](../../system/object/is/)(const [TypeInfo](../../system/typeinfo/)\&) const | Ellenőrzi, hogy az objektum a targetType által leírt típus példánya-e. A C# 'is' operátor analógja. |
+| void [Load](./load/)(const [SharedPtr](../../system/sharedptr/)\<[XmlReader](../../system.xml/xmlreader/)\>\&) | Lefordítja a [XmlReader](../../system.xml/xmlreader/)-ban található stíluslapot. |
+| void [Load](./load/)(const [SharedPtr](../../system/sharedptr/)\<[XmlReader](../../system.xml/xmlreader/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XsltSettings](../xsltsettings/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XmlResolver](../../system.xml/xmlresolver/)\>\&) | Lefordítja a [XmlReader](../../system.xml/xmlreader/)-ban található XSLT stíluslapot. A [XmlResolver](../../system.xml/xmlresolver/) feloldja az összes XSLT **import** vagy **include** elemet, és az XSLT beállítások határozzák meg a stíluslap engedélyeit. |
+| void [Load](./load/)(const [String](../../system/string/)\&) | Betölti és lefordítja a megadott URI-n található stíluslapot. |
+| void [Load](./load/)(const [String](../../system/string/)\&, const [SharedPtr](../../system/sharedptr/)\<[XsltSettings](../xsltsettings/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XmlResolver](../../system.xml/xmlresolver/)\>\&) | Betölti és lefordítja a URI által megadott XSLT stíluslapot. A [XmlResolver](../../system.xml/xmlresolver/) feloldja az összes XSLT **import** vagy **include** elemet, és az XSLT beállítások határozzák meg a stíluslap engedélyeit. |
+| void [Load](./load/)(const [SharedPtr](../../system/sharedptr/)\<[System::Xml::XPath::IXPathNavigable](../../system.xml.xpath/ixpathnavigable/)\>\&) | Lefordítja az IXPathNavigable objektumban található stíluslapot. |
+| void [Load](./load/)(const [SharedPtr](../../system/sharedptr/)\<[System::Xml::XPath::IXPathNavigable](../../system.xml.xpath/ixpathnavigable/)\>\&, [SharedPtr](../../system/sharedptr/)\<[XsltSettings](../xsltsettings/)\>, [SharedPtr](../../system/sharedptr/)\<[XmlResolver](../../system.xml/xmlresolver/)\>) | Lefordítja az IXPathNavigable-ben található XSLT stíluslapot. A [XmlResolver](../../system.xml/xmlresolver/) feloldja az összes XSLT **import** vagy **include** elemet, és az XSLT beállítások határozzák meg a stíluslap engedélyeit. |
+| void [Lock](../../system/object/lock/)() | Megvalósítja a C# lock() utasítás zárolását. Hívja közvetlenül vagy használja a [LockContext](../../system/lockcontext/) sentinel objektumot. |
+| virtual [ptr](../../system/object/ptr/) [MemberwiseClone](../../system/object/memberwiseclone/)() const | A C# [Object.MemberwiseClone()](../../system/object/memberwiseclone/) metódus analógja. Lehetővé teszi az egyedi típusok klónozását. |
+|  [Object](../../system/object/object/)() | Létrehoz egy objektumot. Inicializálja az összes belső adatstruktúrát. |
+|  [Object](../../system/object/object/)([Object](../../system/object/) const\&) | Másoló konstruktor. Valójában semmit sem másol, csak egy új objektumot inicializál, és lehetővé teszi az alosztályok másolókonstrukcióját. |
+| [Object](../../system/object/)\& [operator=](../../system/object/operator_equal/)([Object](../../system/object/) const\&) | Értékadó operátor. Valójában semmit sem másol, csak egy új objektumot inicializál, és lehetővé teszi az alosztályok másolókonstrukcióját. |
+| static **bool** [ReferenceEquals](../../system/object/referenceequals/)([ptr](../../system/object/ptr/) const\&, [ptr](../../system/object/ptr/) const\&) | Objektumokat referenciával hasonlít össze. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, T const\&) | Objektumokat referenciával hasonlít össze. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, std::nullptr_t) | Referenciával hasonlítja össze az értéktípusú objektumot a nullptr-tel. |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, std::nullptr_t) | A [Object::ReferenceEquals](../../system/object/referenceequals/) speciális változata string és nullptr esetén. |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | A [Object::ReferenceEquals](../../system/object/referenceequals/) speciális változata stringek esetén. |
+| int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Csökkenti a megosztott referenciaszámlálót a megadott értékkel. |
+| virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | Az n-edik sablonargumentumot gyenge mutatóként (nem megosztottként) állítja be. Lehetővé teszi a mutatók konténerekben való weak módra való átkapcsolását. |
+| int [SharedCount](../../system/object/sharedcount/)() const | Lekéri a megosztott referenciaszámláló aktuális értékét. |
+| [Object](../../system/object/) * [SharedRefAdded](../../system/object/sharedrefadded/)() | Növeli a megosztott referenciaszámlálót. Nem szabad közvetlenül hívni; helyette használjon intelligens mutatókat vagy ThisProtector-t. |
+| int [SharedRefRemovedSafe](../../system/object/sharedrefremovedsafe/)() | Csökkenti és visszaadja a megosztott referenciaszámlálót. Nem szabad közvetlenül hívni; helyette használjon intelligens mutatókat vagy ThisProtector-t. |
+| virtual [String](../../system/string/) [ToString](../../system/object/tostring/)() const | A C# [Object.ToString()](../../system/object/tostring/) metódus analógja. Lehetővé teszi az egyedi objektumok stringgé konvertálását. |
+| void [Transform](./transform/)(const [SharedPtr](../../system/sharedptr/)\<[System::Xml::XPath::IXPathNavigable](../../system.xml.xpath/ixpathnavigable/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XmlWriter](../../system.xml/xmlwriter/)\>\&) | Végrehajtja az átalakítást az IXPathNavigable objektummal megadott bemeneti dokumentum használatával, és az eredményeket egy [XmlWriter](../../system.xml/xmlwriter/)-ba írja. |
+| void [Transform](./transform/)(const [SharedPtr](../../system/sharedptr/)\<[System::Xml::XPath::IXPathNavigable](../../system.xml.xpath/ixpathnavigable/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XsltArgumentList](../xsltargumentlist/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XmlWriter](../../system.xml/xmlwriter/)\>\&) | Végrehajtja az átalakítást az IXPathNavigable objektummal megadott bemeneti dokumentum használatával, és az eredményeket egy [XmlWriter](../../system.xml/xmlwriter/)-ba írja. A [XsltArgumentList](../xsltargumentlist/) további futásidejű argumentumokat biztosít. |
+| void [Transform](./transform/)(const [SharedPtr](../../system/sharedptr/)\<[System::Xml::XPath::IXPathNavigable](../../system.xml.xpath/ixpathnavigable/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XsltArgumentList](../xsltargumentlist/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[IO::TextWriter](../../system.io/textwriter/)\>\&) | Végrehajtja az átalakítást az IXPathNavigable objektummal megadott bemeneti dokumentum használatával, és az eredményeket egy TextWriter-be írja. A [XsltArgumentList](../xsltargumentlist/) további futásidejű argumentumokat biztosít. |
+| void [Transform](./transform/)(const [SharedPtr](../../system/sharedptr/)\<[System::Xml::XPath::IXPathNavigable](../../system.xml.xpath/ixpathnavigable/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XsltArgumentList](../xsltargumentlist/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[IO::Stream](../../system.io/stream/)\>\&) | Végrehajtja az átalakítást az IXPathNavigable objektummal megadott bemeneti dokumentum használatával, és az eredményeket egy folyamba (stream) írja. A [XsltArgumentList](../xsltargumentlist/) további futásidejű argumentumokat biztosít. |
+| void [Transform](./transform/)(const [SharedPtr](../../system/sharedptr/)\<[XmlReader](../../system.xml/xmlreader/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XmlWriter](../../system.xml/xmlwriter/)\>\&) | Végrehajtja az átalakítást a [XmlReader](../../system.xml/xmlreader/) objektummal megadott bemeneti dokumentum használatával, és az eredményeket egy [XmlWriter](../../system.xml/xmlwriter/)-ba írja. |
+| void [Transform](./transform/)(const [SharedPtr](../../system/sharedptr/)\<[XmlReader](../../system.xml/xmlreader/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XsltArgumentList](../xsltargumentlist/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XmlWriter](../../system.xml/xmlwriter/)\>\&) | Végrehajtja az átalakítást a [XmlReader](../../system.xml/xmlreader/) objektummal megadott bemeneti dokumentum használatával, és az eredményeket egy [XmlWriter](../../system.xml/xmlwriter/)-ba írja. A [XsltArgumentList](../xsltargumentlist/) további futásidejű argumentumokat biztosít. |
+| void [Transform](./transform/)(const [SharedPtr](../../system/sharedptr/)\<[XmlReader](../../system.xml/xmlreader/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XsltArgumentList](../xsltargumentlist/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[IO::TextWriter](../../system.io/textwriter/)\>\&) | Végrehajtja az átalakítást a [XmlReader](../../system.xml/xmlreader/) objektummal megadott bemeneti dokumentum használatával, és az eredményeket egy TextWriter-be írja. A [XsltArgumentList](../xsltargumentlist/) további futásidejű argumentumokat biztosít. |
+| void [Transform](./transform/)(const [SharedPtr](../../system/sharedptr/)\<[XmlReader](../../system.xml/xmlreader/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XsltArgumentList](../xsltargumentlist/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[IO::Stream](../../system.io/stream/)\>\&) | Végrehajtja az átalakítást a [XmlReader](../../system.xml/xmlreader/) objektummal megadott bemeneti dokumentummal, és az eredményeket egy folyamba (stream) írja. A [XsltArgumentList](../xsltargumentlist/) további futásidejű argumentumokat biztosít. |
+| void [Transform](./transform/)(const [String](../../system/string/)\&, const [SharedPtr](../../system/sharedptr/)\<[XmlWriter](../../system.xml/xmlwriter/)\>\&) | Végrehajtja az átalakítást a URI-val megadott bemeneti dokumentummal, és az eredményeket egy [XmlWriter](../../system.xml/xmlwriter/)-ba írja. |
+| void [Transform](./transform/)(const [String](../../system/string/)\&, const [SharedPtr](../../system/sharedptr/)\<[XsltArgumentList](../xsltargumentlist/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XmlWriter](../../system.xml/xmlwriter/)\>\&) | Végrehajtja az átalakítást a URI-val megadott bemeneti dokumentummal, és az eredményeket egy [XmlWriter](../../system.xml/xmlwriter/)-ba írja. A [XsltArgumentList](../xsltargumentlist/) további futásidejű argumentumokat biztosít. |
+| void [Transform](./transform/)(const [String](../../system/string/)\&, const [SharedPtr](../../system/sharedptr/)\<[XsltArgumentList](../xsltargumentlist/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[IO::TextWriter](../../system.io/textwriter/)\>\&) | Végrehajtja az átalakítást a URI-val megadott bemeneti dokumentummal, és az eredményeket egy TextWriter-be írja. |
+| void [Transform](./transform/)(const [String](../../system/string/)\&, const [SharedPtr](../../system/sharedptr/)\<[XsltArgumentList](../xsltargumentlist/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[IO::Stream](../../system.io/stream/)\>\&) | Végrehajtja az átalakítást a URI-val megadott bemeneti dokumentummal, és az eredményeket egy folyamba (stream) írja. A [XsltArgumentList](../xsltargumentlist/) további futásidejű argumentumokat biztosít. |
+| void [Transform](./transform/)(const [String](../../system/string/)\&, const [String](../../system/string/)\&) | Végrehajtja az átalakítást a URI-val megadott bemeneti dokumentummal, és az eredményeket egy fájlba írja. |
+| void [Transform](./transform/)(const [SharedPtr](../../system/sharedptr/)\<[XmlReader](../../system.xml/xmlreader/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XsltArgumentList](../xsltargumentlist/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XmlWriter](../../system.xml/xmlwriter/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XmlResolver](../../system.xml/xmlresolver/)\>\&) | Végrehajtja az átalakítást a [XmlReader](../../system.xml/xmlreader/) objektummal megadott bemeneti dokumentummal, és az eredményeket egy [XmlWriter](../../system.xml/xmlwriter/)-ba írja. A [XsltArgumentList](../xsltargumentlist/) további futásidejű argumentumokat biztosít, és a [XmlResolver](../../system.xml/xmlresolver/) feloldja az XSLT **document()** függvényt. |
+| void [Transform](./transform/)(const [SharedPtr](../../system/sharedptr/)\<[System::Xml::XPath::IXPathNavigable](../../system.xml.xpath/ixpathnavigable/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XsltArgumentList](../xsltargumentlist/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XmlWriter](../../system.xml/xmlwriter/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XmlResolver](../../system.xml/xmlresolver/)\>\&) | Az IXPathNavigable objektummal megadott bemeneti dokumentumot használva hajtja végre az átalakítást, és az eredményeket egy [XmlWriter](../../system.xml/xmlwriter/)-ba írja. A [XsltArgumentList](../xsltargumentlist/) további futásidejű argumentumokat biztosít, és a [XmlResolver](../../system.xml/xmlresolver/) feloldja az XSLT **document()** függvényt. |
+| static const [TypeInfo](../../system/typeinfo/)\& [Type](../../system/object/type/)() | Megvalósítja a C# typeof([System.Object](../../system/object/)) konstrukciót. |
+| void [Unlock](../../system/object/unlock/)() | Megvalósítja a C# lock() utasítás feloldását. Hívja közvetlenül vagy használja a [LockContext](../../system/lockcontext/) sentinel objektumot. |
+| Detail::SmartPtrCounter * [WeakRefAdded](../../system/object/weakrefadded/)() | Növeli a gyenge referenciaszámlálót. Nem szabad közvetlenül hívni; helyette használjon intelligens mutatókat vagy ThisProtector-t. |
+| void [WeakRefRemoved](../../system/object/weakrefremoved/)() | Csökkenti a gyenge referenciaszámlálót. Nem szabad közvetlenül hívni; helyette használjon intelligens mutatókat vagy ThisProtector-t. |
+|  [XslCompiledTransform](./xslcompiledtransform/)() | Inicializál egy új példányt a [XslCompiledTransform](./) osztályból. |
+| virtual  [~Object](../../system/object/~object/)() | Megsemmísíti az objektumot. Felszabadítja az összes belső adatstruktúrát. |
+
+## Typedef-ek
+
+| Typedef | Leírás |
+| --- | --- |
+| [Ptr](./ptr/) | Egy alias a megosztott mutatóhoz, amely ennek az osztálynak egy példányára mutat. |
+
+## Megjegyzés
+
+Az osztály objektumait csak a [System::MakeObject()](../../system/makeobject/) függvény használatával szabad lefoglalni. Soha ne hozzon létre példányokat ebből a típusból a stack-en vagy az operator new segítségével, mivel ez futásidejű hibákat és/vagy állításhibákat okozhat. Mindig csomagolja be ezt az osztályt egy [System::SmartPtr](../../system/smartptr/) mutatóba, és használja ezt a mutatót az objektum függvényekhez argumentumként való átadásához. 
+
+## Lásd még
+
+* Osztály [Object](../../system/object/)
+* Névtér [System::Xml::Xsl](../)
+* Könyvtár [Aspose.Slides](../../)

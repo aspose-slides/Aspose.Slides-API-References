@@ -1,0 +1,21 @@
+---
+title: iterator_holder_type
+second_title: Aspose.Slides C++ API referencia
+description: Egy gyűjteménytípus, amelynek az iterátortípusait az aktuális gyűjtemény iterátortípusaiként használja.
+type: docs
+weight: 196
+url: /hu/aspose.slides/drawingguidescollection/iterator_holder_type/
+---
+## iterator_holder_type típusdefiníció
+
+Egy gyűjtemény típusa, amelynek az iterátortípusait használják az aktuális gyűjtemény iterátortípusaiként.
+
+```cpp
+using Aspose::Slides::DrawingGuidesCollection::iterator_holder_type =  System::Collections::Generic::List<System::SharedPtr<IDrawingGuide> >
+```
+
+## Lásd még
+
+* Osztály [DrawingGuidesCollection](../)
+* Névtér [Aspose::Slides](../../)
+* Könyvtár [Aspose.Slides](../../../)
