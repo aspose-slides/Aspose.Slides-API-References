@@ -1,0 +1,22 @@
+---
+title: get_CanTransformMultipleBlocks()
+second_title: Aspose.Slides för C++ API-referens
+description: Hämtar ett värde som indikerar om flera block kan transformeras.
+type: docs
+weight: 27
+url: /sv/system.security.cryptography/frombase64transform/get_cantransformmultipleblocks/
+---
+## FromBase64Transform::get_CanTransformMultipleBlocks() metod
+
+
+Hämtar ett värde som indikerar om flera block kan transformeras.
+
+```cpp
+bool System::Security::Cryptography::FromBase64Transform::get_CanTransformMultipleBlocks()
+```
+
+## Se även
+
+* Klass [FromBase64Transform](../)
+* Namnrymd [System::Security::Cryptography](../../)
+* Bibliotek [Aspose.Slides](../../../)

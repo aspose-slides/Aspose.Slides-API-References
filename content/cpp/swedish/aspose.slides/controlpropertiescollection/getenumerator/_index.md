@@ -1,0 +1,29 @@
+---
+title: GetEnumerator()
+second_title: Aspose.Slides för C++ API-referens
+description: Returnerar en enumerator som itererar genom samlingen.
+type: docs
+weight: 92
+url: /sv/aspose.slides/controlpropertiescollection/getenumerator/
+---
+## ControlPropertiesCollection::GetEnumerator() metod
+
+Returnerar en enumerator som itererar genom samlingen.
+
+```cpp
+System::SharedPtr<System::Collections::Generic::IEnumerator<System::Collections::Generic::KeyValuePair<System::String, System::String>>> Aspose::Slides::ControlPropertiesCollection::GetEnumerator() override
+```
+
+### Returvärde
+
+En [IEnumerator](../../../system.collections.generic/ienumerator/) som kan användas för att iterera genom samlingen.
+
+## Se också
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Klass [IEnumerator](../../../system.collections.generic/ienumerator/)
+* Klass [KeyValuePair](../../../system.collections.generic/keyvaluepair/)
+* Klass [String](../../../system/string/)
+* Klass [ControlPropertiesCollection](../)
+* Namnrymd [Aspose::Slides](../../)
+* Library [Aspose.Slides](../../../)

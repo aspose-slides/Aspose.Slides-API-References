@@ -1,0 +1,31 @@
+---
+title: set_UpperLimit()
+second_title: Aspose.Slides för C++ API-referens
+description: Specificerar övre eller nedre gräns
+type: docs
+weight: 40
+url: /sv/aspose.slides.mathtext/mathlimit/set_upperlimit/
+---
+## MathLimit::set_UpperLimit(bool) metod
+
+
+Anger övre eller nedre gräns
+
+```cpp
+void Aspose::Slides::MathText::MathLimit::set_UpperLimit(bool value) override
+```
+
+## Anmärkningar
+
+
+Exempel:
+```cpp
+auto limitElement = System::MakeObject<MathLimit>(System::MakeObject<MathematicalText>(u"lim"), System::MakeObject<MathematicalText>(u"?\?\u001a?"));
+limitElement->set_UpperLimit(false);
+```
+
+## Se även
+
+* Klass [MathLimit](../)
+* Namnrymd [Aspose::Slides::MathText](../../)
+* Bibliotek [Aspose.Slides](../../../)

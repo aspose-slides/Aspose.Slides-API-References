@@ -1,0 +1,34 @@
+---
+title: HandoutType
+second_title: Aspose.Slides för C++ API-referens
+description: Anger hur många bilder som placeras på sidan och i vilken sekvens.
+type: docs
+weight: 885
+url: /sv/aspose.slides.export/handouttype/
+---
+## HandoutType enum
+
+Anger hur många bilder som placeras på sidan och i vilken sekvens.
+
+```cpp
+enum class HandoutType
+```
+
+### Värden
+
+| Namn | Värde | Beskrivning |
+| --- | --- | --- |
+| Handouts1 | 0 | En bild per sida. |
+| Handouts2 | 1 | Två bilder per sida. |
+| Handouts3 | 2 | Tre bilder per sida. |
+| Handouts4Horizontal | 3 | Fyra bilder per sida i en horisontell sekvens. |
+| Handouts4Vertical | 4 | Fyra bilder per sida i en vertikal sekvens. |
+| Handouts6Horizontal | 5 | Sex bilder per sida i en horisontell sekvens. |
+| Handouts6Vertical | 6 | Sex bilder per sida i en vertikal sekvens. |
+| Handouts9Horizontal | 7 | Nio bilder per sida i en horisontell sekvens. |
+| Handouts9Vertical | 8 | Nio bilder per sida i en vertikal sekvens. |
+
+## Se även
+
+* Namnrymd [Aspose::Slides::Export](../)
+* Bibliotek [Aspose.Slides](../../)
