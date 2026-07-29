@@ -1,0 +1,22 @@
+---
+title: get_Matrix31()
+second_title: Aspose.Slides för C++ API-referens
+description: Returnerar ett värde i den 3:e raden och den 1:a kolumnen.
+type: docs
+weight: 456
+url: /sv/system.drawing.imaging/colormatrix/get_matrix31/
+---
+## ColorMatrix::get_Matrix31() const metod
+
+
+Returnerar ett värde i den 3:e raden och den 1:a kolumnen.
+
+```cpp
+float System::Drawing::Imaging::ColorMatrix::get_Matrix31() const
+```
+
+## Se även
+
+* Klass [ColorMatrix](../)
+* Namnrymd [System::Drawing::Imaging](../../)
+* Bibliotek [Aspose.Slides](../../../)

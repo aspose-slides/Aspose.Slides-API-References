@@ -1,0 +1,67 @@
+---
+title: Details_Exception
+second_title: Aspose.Slides för C++ API-referens
+description: "Representerar ett undantag. Skapa aldrig instanser av den här klassen manuellt. Använd istället Exception-klassen. Omslut aldrig Exception-klassens instanser i System::SmartPtr."
+type: docs
+weight: 417
+url: /sv/system/details_exception/
+---
+## Details_Exception klass
+
+
+Representerar ett undantag. Skapa aldrig instanser av den här klass manuellt. Använd istället Exception klass. Omslut aldrig Exception klassinstanser i [System::SmartPtr](../smartptr/).
+
+```cpp
+class Details_Exception : public System::Object
+```
+
+## Methods
+
+| Metod | Beskrivning |
+| --- | --- |
+| virtual void [DoThrow](./dothrow/)(const [ExceptionPtr](../exceptionptr/)\&) const | Kastar en undantagsinstans som är omsluten av ett undantagsomslag. |
+| virtual **bool** [Equals](../object/equals/)([ptr](../object/ptr/)) | Jämför objekt med C# [Object.Equals](../object/equals/)-semantik. |
+| static std::enable_if\<[IsSmartPtr](../issmartptr/)\<T1\>::value\&&[IsSmartPtr](../issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../object/equals/)(T1 const\&, T2 const\&) | Jämför referenstypobjekt i C#-stil. |
+| static std::enable_if<\![IsSmartPtr](../issmartptr/)\<T1\>::value\&&\![IsSmartPtr](../issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../object/equals/)(T1 const\&, T2 const\&) | Jämför värdetypobjekt i C#-stil. |
+| static **bool** [Equals](../object/equals/)(**float** const\&, **float** const\&) | Emulerar C#-stil flyttalsjämförelse där två NaN betraktas som lika även om enligt IEC 60559:1989 är NaN inte lika med något värde, inklusive NaN. |
+| static **bool** [Equals](../object/equals/)(**double** const\&, **double** const\&) | Emulerar C#-stil flyttalsjämförelse där två NaN betraktas som lika även om enligt IEC 60559:1989 är NaN inte lika med något värde, inklusive NaN. |
+| virtual **bool** [FastCast](../object/fastcast/)(const Details::FastRttiBase\&, void **) const | Endast för interna ändamål. |
+| virtual [SharedPtr](../sharedptr/)\<[Collections::Generic::IDictionary](../../system.collections.generic/idictionary/)\<[SharedPtr](../sharedptr/)\<[Object](../object/)\>, [SharedPtr](../sharedptr/)\<[Object](../object/)\>\>\> [get_Data](./get_data/)() | Returnerar en ordbok med anpassad undantagsdata. |
+| **int32_t** [get_HResult](./get_hresult/)() const | Returnerar ett 32-bitars heltalsvärde som är en HRESULT-kod associerad med undantaget som representeras av det aktuella objektet. |
+| virtual [ExceptionWrapper](../exceptionwrapper/)\<[Details_Exception](./)\> [get_InnerException](./get_innerexception/)() const | Returnerar en referens till objektet som representerar det inre undantaget. |
+| virtual [String](../string/) [get_Message](./get_message/)() const | Returnerar strängen som innehåller felbeskrivningen. |
+| virtual [String](../string/) [get_StackTrace](./get_stacktrace/)() const | Returnerar strängen som innehåller stackspårningen. |
+| virtual [ExceptionWrapper](../exceptionwrapper/)\<[Details_Exception](./)\> [GetBaseException](./getbaseexception/)() const | Returnerar en kopia av Exception-objektet som representerar det innersta undantaget. |
+| Detail::SmartPtrCounter * [GetCounter](../object/getcounter/)() | Hämtar referensräknardatastrukturen som är associerad med objektet. |
+| virtual **int32_t** [GetHashCode](../object/gethashcode/)() const | Analog till C# [Object.GetHashCode()](../object/gethashcode/)-metoden. Möjliggör hashning av anpassade objekt. |
+| virtual const [TypeInfo](../typeinfo/)\& [GetType](../object/gettype/)() const | Hämtar objektets faktiska typ. Analog till C# [System.Object.GetType()](../object/gettype/)-anrop. |
+| virtual **bool** [Is](../object/is/)(const [TypeInfo](../typeinfo/)\&) const | Kontrollerar om objektet representerar en instans av den typ som beskrivs av targetType. Analog till C#-operatorn 'is'. |
+| void [Lock](../object/lock/)() | Implementerar låsning enligt C# lock()-sats. Anropa direkt eller använd [LockContext](../lockcontext/)-vaktobjekt. |
+| virtual [ptr](../object/ptr/) [MemberwiseClone](../object/memberwiseclone/)() const | Analog till C# [Object.MemberwiseClone()](../object/memberwiseclone/)-metoden. Möjliggör kloning av anpassade typer. |
+|  [Object](../object/object/)() | Skapar objekt. Initierar alla interna datastrukturer. |
+|  [Object](../object/object/)([Object](../object/) const\&) | Kopieringskonstruktor. Kopierar faktiskt ingenting, utan initierar bara ett nytt objekt och möjliggör kopieringskonstruktion av underklasser. |
+| [Object](../object/)\& [operator=](../object/operator_equal/)([Object](../object/) const\&) | Tilldelningsoperator. Kopierar faktiskt ingenting, utan initierar bara ett nytt objekt och möjliggör kopieringskonstruktion av underklasser. |
+| static **bool** [ReferenceEquals](../object/referenceequals/)([ptr](../object/ptr/) const\&, [ptr](../object/ptr/) const\&) | Jämför objekt efter referens. |
+| static std::enable_if<\![IsSmartPtr](../issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../object/referenceequals/)(T const\&, T const\&) | Jämför objekt efter referens. |
+| static std::enable_if<\![IsSmartPtr](../issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../object/referenceequals/)(T const\&, std::nullptr_t) | Jämför referensmässigt värdetypobjekt med nullptr. |
+| **bool** [ReferenceEquals](../object/referenceequals/)([String](../string/) const\&, std::nullptr_t) | Specialisering av [Object::ReferenceEquals](../object/referenceequals/) för fallet string och nullptr. |
+| **bool** [ReferenceEquals](../object/referenceequals/)([String](../string/) const\&, [String](../string/) const\&) | Specialisering av [Object::ReferenceEquals](../object/referenceequals/) för fallet strängar. |
+| int [RemovedSharedRefs](../object/removedsharedrefs/)(int) | Minskar delad referensräknare med angivet värde. |
+| void [set_HResult](./set_hresult/)(**int32_t**) | Sätter HRESULT, ett kodat numeriskt värde som tilldelas ett specifikt undantag. |
+| virtual void [SetTemplateWeakPtr](../object/settemplateweakptr/)(**uint32_t**) | Sätter det n:te mallargumentet till en svag pekare (snarare än delad). Tillåter att byta pekare i containrar till svagt läge. |
+| int [SharedCount](../object/sharedcount/)() const | Hämtar aktuellt värde för delad referensräknare. |
+| [Object](../object/) * [SharedRefAdded](../object/sharedrefadded/)() | Ökar delad referensräknare. Bör inte anropas direkt; använd smarta pekare eller ThisProtector istället. |
+| int [SharedRefRemovedSafe](../object/sharedrefremovedsafe/)() | Minskar och returnerar delad referensräknare. Bör inte anropas direkt; använd smarta pekare eller ThisProtector istället. |
+| [String](../string/) [ToString](./tostring/)() const override | Returnerar den strängrepresentation av det nuvarande objektet. |
+| static const [TypeInfo](../typeinfo/)\& [Type](../object/type/)() | Implementerar C# typeof([System.Object](../object/))-konstruktion. |
+| void [Unlock](../object/unlock/)() | Implementerar låsning upp enligt C# lock()-sats. Anropa direkt eller använd [LockContext](../lockcontext/)-vaktobjekt. |
+| Detail::SmartPtrCounter * [WeakRefAdded](../object/weakrefadded/)() | Ökar svag referensräknare. Bör inte anropas direkt; använd smarta pekare eller ThisProtector istället. |
+| void [WeakRefRemoved](../object/weakrefremoved/)() | Minskar svag referensräknare. Bör inte anropas direkt; använd smarta pekare eller ThisProtector istället. |
+| virtual const char * [what](./what/)() const | Implementerar [what()](./what/)-metoden som anropas av klassen [ExceptionWrapper](../exceptionwrapper/). Trots att den här klassen inte ärvs från std::exception kan avledda klasser använda skyddade/privata medlemmar för att implementera sin logik. Att flytta denna metodimplementation till [ExceptionWrapper](../exceptionwrapper/) kan bryta den logiken. |
+| virtual  [~Object](../object/~object/)() | Förstör objektet. Frigör alla interna datastrukturer. |
+
+## Se även
+
+* Klass [Object](../object/)
+* Namnrymd [System](../)
+* Bibliotek [Aspose.Slides](../../)

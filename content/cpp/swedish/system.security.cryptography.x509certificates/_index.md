@@ -1,0 +1,42 @@
+---
+title: "System::Security::Cryptography::X509Certificates"
+second_title: Aspose.Slides för C++ API-referens
+description: 
+type: docs
+weight: 859
+url: /sv/system.security.cryptography.x509certificates/
+---
+## Klasser
+
+| Klass | Beskrivning |
+| --- | --- |
+| [PublicKey](./publickey/) | Representerar information om ett X509-certifikats offentliga nyckel. Objekt av denna klass bör endast allokeras med [System::MakeObject()](../system/makeobject/)-funktionen. Skapa aldrig en instans av denna typ på stacken eller med operator new, eftersom det kommer att leda till körtidsfel och/eller påståendefel. Omslut alltid denna klass med en [System::SmartPtr](../system/smartptr/)-pekare och använd denna pekare för att skicka den till funktioner som argument. |
+| [X500DistinguishedName](./x500distinguishedname/) | Representerar det distinkta namnet för ett X509-certifikat. Objekt av denna klass bör endast allokeras med [System::MakeObject()](../system/makeobject/)-funktionen. Skapa aldrig en instans av denna typ på stacken eller med operator new, eftersom det kan orsaka körtidsfel och/eller påståendefel. Omslut alltid denna klass med en [System::SmartPtr](../system/smartptr/)-pekare och använd den för att skicka den till funktioner som argument. |
+| [X509Certificate](./x509certificate/) | X.509 v.3-certifikat. Krypterade certifikat stöds inte. Endast [X509KeyStorageFlags::DefaultKeySet](./x509keystorageflags/)-flaggan stöds. Objekt av denna klass bör endast allokeras med [System::MakeObject()](../system/makeobject/)-funktionen. Skapa aldrig en instans av denna typ på stacken eller med operator new, eftersom det kan leda till körtidsfel och/eller påståendefel. Omslut alltid denna klass med en [System::SmartPtr](../system/smartptr/)-pekare och använd den för att skicka den till funktioner som argument. |
+| [X509Certificate2](./x509certificate2/) | Representerar ett X509-certifikat. Objekt av denna klass bör endast allokeras med [System::MakeObject()](../system/makeobject/)-funktionen. Skapa aldrig en instans av denna typ på stacken eller med operator new, eftersom det leder till körtidsfel och/eller påståendefel. Omslut alltid klassen med en [System::SmartPtr](../system/smartptr/)-pekare och använd pekaren för att skicka den till funktioner som argument. |
+| [X509Certificate2Collection](./x509certificate2collection/) | Samling av X509-certifikatobjekt. Objekt av denna klass bör endast allokeras med [System::MakeObject()](../system/makeobject/)-funktionen. Skapa aldrig en instans av denna typ på stacken eller med operator new, eftersom det kan resultera i körtidsfel och/eller påståendefel. Omslut alltid klassen med en [System::SmartPtr](../system/smartptr/)-pekare och använd pekaren för att skicka den till funktioner som argument. |
+| [X509Certificate2CollectionPtr](./x509certificate2collectionptr/) | Pekare till en samling av X509-certifikat. Denna typ är en pekare för att hantera raderingen av andra objekt. Den bör allokeras på stacken och skickas till funktioner antingen som värde eller som konstant referens. |
+| [X509CertificateCollection](./x509certificatecollection/) | Samling av X509-certifikatobjekt. Objekt av denna klass bör endast allokeras med [System::MakeObject()](../system/makeobject/)-funktionen. Skapa aldrig en instans av denna typ på stacken eller med operator new, eftersom det kan leda till körtidsfel och/eller påståendefel. Omslut alltid klassen med en [System::SmartPtr](../system/smartptr/)-pekare och använd den för att skicka den till funktioner som argument. |
+| [X509CertificateCollectionPtr](./x509certificatecollectionptr/) | Pekare till en samling av X509-certifikat. Denna typ är en pekare för att hantera raderingen av andra objekt. Den bör allokeras på stacken och skickas till funktioner antingen som värde eller som konstant referens. |
+| [X509Chain](./x509chain/) | Representerar X509-certifikatkedjan. Objekt av denna klass bör endast allokeras med [System::MakeObject()](../system/makeobject/)-funktionen. Skapa aldrig en instans av denna typ på stacken eller med operator new, eftersom det kan orsaka körtidsfel och/eller påståendefel. Omslut alltid klassen med en [System::SmartPtr](../system/smartptr/)-pekare och använd pekaren för att skicka den till funktioner som argument. |
+| [X509ChainPolicy](./x509chainpolicy/) | Kedjepolicyn som kommer att tillämpas vid byggandet av en X509-certifikatkedja. Objekt av denna klass bör endast allokeras med [System::MakeObject()](../system/makeobject/)-funktionen. Skapa aldrig en instans av denna typ på stacken eller med operator new, eftersom det kan leda till körtidsfel och/eller påståendefel. Omslut alltid klassen med en [System::SmartPtr](../system/smartptr/)-pekare och använd den för att skicka den till funktioner som argument. |
+| [X509ChainStatus](./x509chainstatus/) | Lagrar X509-kedjans status och felinformation. Objekt av denna klass bör endast allokeras med [System::MakeObject()](../system/makeobject/)-funktionen. Skapa aldrig en instans av denna typ på stacken eller med operator new, eftersom det kan resultera i körtidsfel och/eller påståendefel. Omslut alltid klassen med en [System::SmartPtr](../system/smartptr/)-pekare och använd den för att skicka den till funktioner som argument. |
+| [X509Extension](./x509extension/) | Extensionsobjekt för att lagra extra information som är associerad med ett X.509-certifikat. Objekt av denna klass bör endast allokeras med [System::MakeObject()](../system/makeobject/)-funktionen. Skapa aldrig en instans av denna typ på stacken eller med operator new, eftersom det kan leda till körtidsfel och/eller påståendefel. Omslut alltid klassen med en [System::SmartPtr](../system/smartptr/)-pekare och använd den för att skicka den till funktioner som argument. |
+| [X509ExtensionCollection](./x509extensioncollection/) | Samling av extensionsobjekt. Objekt av denna klass bör endast allokeras med [System::MakeObject()](../system/makeobject/)-funktionen. Skapa aldrig en instans av denna typ på stacken eller med operator new, eftersom det kan orsaka körtidsfel och/eller påståendefel. Omslut alltid klassen med en [System::SmartPtr](../system/smartptr/)-pekare och använd den för att skicka den till funktioner som argument. |
+| [X509ExtensionCollectionPtr](./x509extensioncollectionptr/) | Pekare till en samling av X509-extensioner. Denna typ är en pekare för att hantera raderingen av andra objekt. Den bör allokeras på stacken och skickas till funktioner antingen som värde eller som konstant referens. |
+| [X509ExtensionEnumerator](./x509extensionenumerator/) | Enumerator för att iterera genom extensionsamlingen. Objekt av denna klass bör endast allokeras med [System::MakeObject()](../system/makeobject/)-funktionen. Skapa aldrig en instans av denna typ på stacken eller med operator new, eftersom det kan leda till körtidsfel och/eller påståendefel. Omslut alltid klassen med en [System::SmartPtr](../system/smartptr/)-pekare och använd den för att skicka den till funktioner som argument. |
+| [X509KeyUsageExtension](./x509keyusageextension/) | Extensionsobjekt för att lagra extra information om nyckelanvändning. Objekt av denna klass bör endast allokeras med [System::MakeObject()](../system/makeobject/)-funktionen. Skapa aldrig en instans av denna typ på stacken eller med operator new, eftersom det kan resultera i körtidsfel och/eller påståendefel. Omslut alltid klassen med en [System::SmartPtr](../system/smartptr/)-pekare och använd den för att skicka den till funktioner som argument. |
+
+## Uppräkningar
+
+| Enumeration | Beskrivning |
+| --- | --- |
+| [X500DistinguishedNameFlags](./x500distinguishednameflags/) | Formateringsregler för X509-certifikatets distinkta namn. |
+| [X509ChainStatusFlags](./x509chainstatusflags/) |  |
+| [X509ContentType](./x509contenttype/) | Format för X.509-certifikat. |
+| [X509IncludeOption](./x509includeoption/) | Anger vilka certifikat som ska inkluderas i kedjan. |
+| [X509KeyStorageFlags](./x509keystorageflags/) | Definierar hur nyckeln ska lagras. |
+| [X509KeyUsageFlags](./x509keyusageflags/) | Definierar hur certifikatnyckeln kan användas. |
+| [X509NameType](./x509nametype/) | Typ av namn som finns i ett X.509-certifikat och som relaterar till antingen utfärdaren eller innehavaren av certifikatet. |
+| [X509RevocationFlag](./x509revocationflag/) |  |
+| [X509VerificationFlags](./x509verificationflags/) |  |

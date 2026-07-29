@@ -1,0 +1,30 @@
+---
+title: GetEnumerator()
+second_title: Aspose.Slides för C++ API-referens
+description: Returnerar en enumerator som itererar genom samlingen.
+type: docs
+weight: 79
+url: /sv/aspose.slides.vba/vbamodulecollection/getenumerator/
+---
+## VbaModuleCollection::GetEnumerator() metod
+
+
+Returnerar en enumerator som itererar genom samlingen.
+
+```cpp
+System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<IVbaModule>>> Aspose::Slides::Vba::VbaModuleCollection::GetEnumerator() override
+```
+
+
+### Returvärde
+
+En [IEnumerator](../../../system.collections.generic/ienumerator/) som kan användas för att iterera genom samlingen.
+
+## Se även
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Klass [IEnumerator](../../../system.collections.generic/ienumerator/)
+* Klass [IVbaModule](../../ivbamodule/)
+* Klass [VbaModuleCollection](../)
+* Namnrymd [Aspose::Slides::Vba](../../)
+* Bibliotek [Aspose.Slides](../../../)

@@ -1,0 +1,46 @@
+---
+title: SaveFormat
+second_title: Aspose.Slides för C++ API-referens
+description: Konstanter som definierar formatet för en sparad presentation.
+type: docs
+weight: 1041
+url: /sv/aspose.slides.export/saveformat/
+---
+## SaveFormat enum
+
+Konstanter som definierar formatet för en sparad presentation.
+
+```cpp
+enum class SaveFormat
+```
+
+### Värden
+
+| Namn | Värde | Beskrivning |
+| --- | --- | --- |
+| Ppt | 0 | Spara presentation i PPT-format. |
+| Pdf | 1 | Spara presentation i PDF-format. |
+| Xps | 2 | Spara presentation i XPS-format. |
+| Pptx | 3 | Spara presentation i PPTX-format. |
+| Ppsx | 4 | Spara presentation i PPSX (bildspel) format. |
+| Tiff | 5 | Spara presentation som flersidig TIFF-bild. |
+| Odp | 6 | Spara presentation i ODP-format. |
+| Pptm | 7 | Spara presentation i PPTM (makroaktiverad presentation) format. |
+| Ppsm | 9 | Spara presentation i PPSM (makroaktiverad bildspel) format. |
+| Potx | 10 | Spara presentation i POTX (mall) format. |
+| Potm | 11 | Spara presentation i POTM (makroaktiverad mall) format. |
+| Html | 13 | Spara presentation i HTML-format. |
+| Swf | 15 | Spara presentation i SWF-format. |
+| Otp | 17 | Spara presentation i OTP (presentationmall) format. |
+| Pps | 19 | Spara presentation i PPS-format. |
+| Pot | 20 | Spara presentation i POT-format. |
+| Fodp | 21 | Spara presentation i FODP-format. |
+| Gif | 22 | Spara presentation i GIF-format. |
+| Html5 | 23 | Spara presentation i HTML-format med det nya HTML5-mallsystemet. |
+| Md | 24 | Spara presentation i Markdown-format |
+| Xml | 25 | Spara presentation i PowerPoint XML [Presentation](../../aspose.slides/presentation/) format. |
+
+## Se även
+
+* Namnrymd [Aspose::Slides::Export](../)
+* Bibliotek [Aspose.Slides](../../)
