@@ -1,0 +1,35 @@
+---
+title: GetDayOfWeek()
+second_title: Riferimento API di Aspose.Slides per C++
+description: Restituisce il giorno della settimana per il punto temporale specificato.
+type: docs
+weight: 66
+url: /it/system.globalization/umalquracalendar/getdayofweek/
+---
+## UmAlQuraCalendar::GetDayOfWeek(DateTime) const metodo
+
+
+Restituisce il giorno della settimana per il punto temporale specificato.
+
+```cpp
+DayOfWeek System::Globalization::UmAlQuraCalendar::GetDayOfWeek(DateTime time) const override
+```
+
+
+### Argomenti
+
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| time | [DateTime](../../../system/datetime/) | Data e ora da cui estrarre i dati. |
+
+### Valore di ritorno
+
+Giorno della settimana nel punto temporale fornito.
+
+## Vedi anche
+
+* Enum [DayOfWeek](../../../system/dayofweek/)
+* Classe [DateTime](../../../system/datetime/)
+* Classe [UmAlQuraCalendar](../)
+* Namespace [System::Globalization](../../)
+* Library [Aspose.Slides](../../../)

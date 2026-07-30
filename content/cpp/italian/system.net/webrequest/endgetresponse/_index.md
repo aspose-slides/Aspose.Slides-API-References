@@ -1,0 +1,34 @@
+---
+title: EndGetResponse()
+second_title: Riferimento API di Aspose.Slides per C++
+description: Attende fino al completamento della richiesta asincrona specificata per la risorsa.
+type: docs
+weight: 287
+url: /it/system.net/webrequest/endgetresponse/
+---
+## WebRequest::EndGetResponse(System::SharedPtr\<IAsyncResult\>) metodo
+
+Attende fino al completamento della richiesta asincrona specificata per la risorsa.
+
+```cpp
+virtual System::SharedPtr<WebResponse> System::Net::WebRequest::EndGetResponse(System::SharedPtr<IAsyncResult> asyncResult)=0
+```
+
+### Argomenti
+
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| asyncResult | [System::SharedPtr](../../../system/sharedptr/)\<[IAsyncResult](../../../system/iasyncresult/)\> | Un oggetto [IAsyncResult](../../../system/iasyncresult/) che rappresenta una richiesta asincrona per la risorsa. |
+
+### Valore restituito
+
+La risposta web.
+
+## Vedi anche
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Classe [WebResponse](../../webresponse/)
+* Classe [IAsyncResult](../../../system/iasyncresult/)
+* Classe [WebRequest](../)
+* Namespace [System::Net](../../)
+* Library [Aspose.Slides](../../../)

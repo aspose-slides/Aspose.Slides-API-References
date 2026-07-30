@@ -1,0 +1,44 @@
+---
+title: SvgEvent
+second_title: Riferimento API di Aspose.Slides per C++
+description: Rappresenta le opzioni per la forma SVG.
+type: docs
+weight: 1067
+url: /it/aspose.slides.export/svgevent/
+---
+## SvgEvent enum
+
+Rappresenta le opzioni per la forma SVG.
+
+```cpp
+enum class SvgEvent
+```
+
+### Valori
+
+| Name | Value | Description |
+| --- | --- | --- |
+| OnFocusIn | 0 | Si verifica quando un elemento riceve il focus, ad esempio quando un testo viene selezionato. |
+| OnFocusOut | 1 | Si verifica quando un elemento perde il focus, ad esempio quando un testo non è più selezionato. |
+| OnActivate | 2 | Si verifica quando un elemento viene attivato, ad esempio tramite un clic del mouse o la pressione di un tasto. |
+| OnClick | 3 | Si verifica quando il pulsante del dispositivo di puntamento viene cliccato su un elemento. |
+| OnMouseDown | 4 | Si verifica quando il pulsante del dispositivo di puntamento viene premuto su un elemento. |
+| OnMouseUp | 5 | Si verifica quando il pulsante del dispositivo di puntamento viene rilasciato su un elemento. |
+| OnMouseOver | 6 | Si verifica quando il dispositivo di puntamento viene spostato su un elemento. |
+| OnMouseMove | 7 | Si verifica quando il dispositivo di puntamento viene spostato mentre è sopra un elemento. |
+| OnMouseOut | 8 | Si verifica quando il dispositivo di puntamento viene spostato via da un elemento. |
+| OnLoad | 9 | Si verifica quando l'agente utente ha analizzato completamente l'elemento e i suoi discendenti e tutte le risorse referenziate, necessarie per renderizzarlo. |
+| OnUnload | 10 | Si verifica quando l'implementazione [DOM](../../aspose.slides.dom/) rimuove un documento da una finestra o da un frame. Applicabile solo agli elementi svg più esterni. |
+| OnAbort | 11 | Si verifica quando il caricamento della pagina viene interrotto prima che un elemento abbia potuto caricarsi completamente. |
+| OnError | 12 | Si verifica quando un elemento non viene caricato correttamente o quando si verifica un errore durante l'esecuzione di uno script. |
+| OnResize | 13 | Si verifica quando la vista del documento viene ridimensionata. Applicabile solo agli elementi svg più esterni. |
+| OnScroll | 14 | Si verifica quando la vista del documento viene spostata lungo l'asse X o Y o entrambi. Applicabile solo agli elementi svg più esterni. |
+| OnZoom | 15 | Si verifica quando il livello di zoom della vista del documento viene modificato. Applicabile solo agli elementi svg più esterni. |
+| OnBegin | 16 | Si verifica quando un elemento di animazione inizia. |
+| OnEnd | 17 | Si verifica quando un elemento di animazione termina. |
+| OnRepeat | 18 | Si verifica quando un elemento di animazione si ripete. |
+
+## Vedi anche
+
+* Spazio dei nomi [Aspose::Slides::Export](../)
+* Libreria [Aspose.Slides](../../)
