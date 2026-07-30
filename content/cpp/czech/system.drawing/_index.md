@@ -1,0 +1,68 @@
+---
+title: "System::Drawing"
+second_title: Aspose.Slides pro C++ API Reference
+description: 
+type: docs
+weight: 482
+url: /cs/system.drawing/
+---
+## Třídy
+
+| Třída | Popis |
+| --- | --- |
+| [Bitmap](./bitmap/) | Representuje bitmapový obrázek GDI+. Objekty této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám během běhu a/nebo k selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání do funkcí jako argument. |
+| [Brush](./brush/) | Základní třída pro třídy, které představují výplně používané k vyplnění vnitřků grafických tvarů. Objekty této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám během běhu a/nebo k selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání do funkcí jako argument. |
+| [Brushes](./brushes/) | Poskytuje sadu předpřipravených objektů [SolidBrush](./solidbrush/). Jedná se o statický typ bez instančních služeb. Nikdy byste neměli vytvářet jeho instance jakýmkoli způsobem. |
+| [CharacterRange](./characterrange/) | Representuje rozsah pozic znaků v řetězci. Tento typ by měl být alokován na zásobníku a předáván funkcím hodnotou nebo odkazem. Nikdy nepoužívejte třídu [System::SmartPtr](../system/smartptr/) k řízení objektů tohoto typu. |
+| [Color](./color/) | Representuje barvu. Tento typ by měl být alokován na zásobníku a předáván funkcím hodnotou nebo odkazem. Nikdy nepoužívejte třídu [System::SmartPtr](../system/smartptr/) k řízení objektů tohoto typu. |
+| [ColorTranslator](./colortranslator/) | Provádí převody barev. Objekty této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám během běhu a/nebo k selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání do funkcí jako argument. |
+| [Font](./font/) | Representuje konkrétní formát textu, včetně typografie, velikosti a stylu. Objekty této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám během běhu a/nebo k selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání do funkcí jako argument. |
+| [FontConverter](./fontconverter/) | Převádí objekty [Font](./font/) z jednoho datového typu na jiný. Objekty této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám během běhu a/nebo k selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání do funkcí jako argument. |
+| [FontFamily](./fontfamily/) | Representuje skupinu typových písma, která sdílejí podobný základní design. Objekty této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám během běhu a/nebo k selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání do funkcí jako argument. |
+| [Graphics](./graphics/) | Representuje kreslicí povrch. Objekty této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám během běhu a/nebo k selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání do funkcí jako argument. |
+| [Icon](./icon/) | Representuje ikonu [Windows](../system.windows/). Objekty této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám během běhu a/nebo k selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání do funkcí jako argument. |
+| [Image](./image/) | Základní třída pro třídy [System::Drawing::Bitmap](./bitmap/) a System::Drawing::Metafile poskytující základní funkčnost. Objekty této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám během běhu a/nebo k selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání do funkcí jako argument. |
+| [ImageConverter](./imageconverter/) | Převádí objekty [Image](./image/) z jednoho datového typu na jiný. Objekty této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám během běhu a/nebo k selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání do funkcí jako argument. |
+| [ImageFormatConverter](./imageformatconverter/) | Převádí objekty ImageFormat z jednoho datového typu na jiný. Objekty této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám během běhu a/nebo k selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání do funkcí jako argument. |
+| [Pen](./pen/) | Representuje vlastnosti jako barvu, šířku apod. čar a křivek kreslených. Objekty této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám během běhu a/nebo k selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání do funkcí jako argument. |
+| [Pens](./pens/) | Poskytuje sadu předpřipravených objektů [Pen](./pen/). Jedná se o statický typ bez instančních služeb. Nikdy byste neměli vytvářet jeho instance jakýmkoli způsobem. |
+| [Point](./point/) | Representuje dvojici celých souřadnic X a Y bodu v 2-rozměrné rovině. Tento typ by měl být alokován na zásobníku a předáván funkcím hodnotou nebo odkazem. Nikdy nepoužívejte třídu [System::SmartPtr](../system/smartptr/) k řízení objektů tohoto typu. |
+| [PointF](./pointf/) | Representuje dvojici souřadnic X a Y typu floating-point s jednoduchou přesností bodu v 2-rozměrné rovině. Tento typ by měl být alokován na zásobníku a předáván funkcím hodnotou nebo odkazem. Nikdy nepoužívejte třídu [System::SmartPtr](../system/smartptr/) k řízení objektů tohoto typu. |
+| [Rectangle](./rectangle/) | Representuje obdélníkovou oblast obrázku definovanou celočísly X a Y levého horního rohu a jeho šířkou a výškou. Tento typ by měl být alokován na zásobníku a předáván funkcím hodnotou nebo odkazem. Nikdy nepoužívejte třídu [System::SmartPtr](../system/smartptr/) k řízení objektů tohoto typu. |
+| [RectangleF](./rectanglef/) | Representuje obdélníkovou oblast obrázku definovanou souřadnicemi X a Y levého horního rohu s jednoduchou přesností a jeho šířkou a výškou. Tento typ by měl být alokován na zásobníku a předáván funkcím hodnotou nebo odkazem. Nikdy nepoužívejte třídu [System::SmartPtr](../system/smartptr/) k řízení objektů tohoto typu. |
+| [Region](./region/) | Representuje vnitřek grafického tvaru. Objekty této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám během běhu a/nebo k selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání do funkcí jako argument. |
+| [Size](./size/) | Representuje dvojici celých čísel představujících šířku a výšku obrázku. Tento typ by měl být alokován na zásobníku a předáván funkcím hodnotou nebo odkazem. Nikdy nepoužívejte třídu [System::SmartPtr](../system/smartptr/) k řízení objektů tohoto typu. |
+| [SizeF](./sizef/) | Representuje dvojici hodnot typu floating-point s jednoduchou přesností představujících šířku a výšku obrázku. Tento typ by měl být alokován na zásobníku a předáván funkcím hodnotou nebo odkazem. Nikdy nepoužívejte třídu [System::SmartPtr](../system/smartptr/) k řízení objektů tohoto typu. |
+| [SolidBrush](./solidbrush/) | Representuje jednofarebný štětec. Objekty této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám během běhu a/nebo k selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání do funkcí jako argument. |
+| [StringFormat](./stringformat/) | Zabaluje informace o rozvržení textu, manipulacích s jeho zobrazením a funkcích OpenType. Objekty této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám během běhu a/nebo k selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání do funkcí jako argument. |
+| [SystemColors](./systemcolors/) | Třída, která poskytuje sadu předpřipravených objektů [Color](./color/) představujících barvy zobrazovacích prvků [Windows](../system.windows/). Jedná se o statický typ bez instančních služeb. Nikdy byste neměli vytvářet jeho instance jakýmkoli způsobem. |
+| [SystemFonts](./systemfonts/) | Poskytuje sadu předpřipravených objektů [Font](./font/) představujících písma používaná k zobrazování textu v zobrazovacích prvcích [Windows](../system.windows/). Jedná se o statický typ bez instančních služeb. Nikdy byste neměli vytvářet jeho instance jakýmkoli způsobem. |
+| [TextureBrush](./texturebrush/) | Representuje štětec, který používá obrázek k vyplnění vnitřku tvaru. Objekty této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám během běhu a/nebo k selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání do funkcí jako argument. |
+## Funkce
+
+| Funkce | Popis |
+| --- | --- |
+| std::ostream\& [operator<<](./operator_less_less/)(std::ostream\&, [Color](./color/)) | Vloží data do proudu pomocí kódování UTF-8. |
+| std::wostream\& [operator<<](./operator_less_less/)(std::wostream\&, [Color](./color/)) | Vloží data do proudu. |
+| std::ostream\& [operator<<](./operator_less_less/)(std::ostream\&, const [Point](./point/)\&) | Vloží data do proudu pomocí kódování UTF-8. |
+| std::wostream\& [operator<<](./operator_less_less/)(std::wostream\&, const [Point](./point/)\&) | Vloží data do proudu. |
+| std::ostream\& [operator<<](./operator_less_less/)(std::ostream\&, const [PointF](./pointf/)\&) | Vloží data do proudu pomocí kódování UTF-8. |
+| std::wostream\& [operator<<](./operator_less_less/)(std::wostream\&, const [PointF](./pointf/)\&) | Vloží data do proudu. |
+| std::ostream\& [operator<<](./operator_less_less/)(std::ostream\&, const [Rectangle](./rectangle/)\&) | Vloží data do proudu pomocí kódování UTF-8. |
+| std::wostream\& [operator<<](./operator_less_less/)(std::wostream\&, const [Rectangle](./rectangle/)\&) | Vloží data do proudu. |
+| std::ostream\& [operator<<](./operator_less_less/)(std::ostream\&, const [RectangleF](./rectanglef/)\&) | Vloží data do proudu pomocí kódování UTF-8. |
+| std::wostream\& [operator<<](./operator_less_less/)(std::wostream\&, const [RectangleF](./rectanglef/)\&) | Vloží data do proudu. |
+## Výčty
+
+| Výčet | Popis |
+| --- | --- |
+| [ContentAlignment](./contentalignment/) | Určuje zarovnání obsahu. |
+| [CopyPixelOperation](./copypixeloperation/) | Určuje, jak je zdrojová barva při operaci kopírování pixelu kombinována s cílovou barvou, aby vznikla výsledná barva. |
+| [FontStyle](./fontstyle/) | Representuje styl písma. |
+| [GraphicsUnit](./graphicsunit/) | Representuje jednotku měření. |
+| [KnownColor](./knowncolor/) | Určuje známé systémové barvy. |
+| [RotateFlipType](./rotatefliptype/) | Určuje typ rotace a/nebo převrácení. |
+| [StringAlignment](./stringalignment/) | Určuje zarovnání řetězce vzhledem k jeho rozvrhovému obdélníku. |
+| [StringDigitSubstitute](./stringdigitsubstitute/) | Určuje, jak jsou číslice v řetězci nahrazovány podle locale nebo jazyka. |
+| [StringFormatFlags](./stringformatflags/) | Určuje informace o zobrazení a rozvržení pro řetězce textu. |
+| [StringTrimming](./stringtrimming/) | Určuje, jak mají být znaky ořezány z řetězce, který se nevejde do rozvrhového tvaru. |
