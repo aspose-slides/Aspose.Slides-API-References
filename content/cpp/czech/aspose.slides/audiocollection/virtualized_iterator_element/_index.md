@@ -1,0 +1,22 @@
+---
+title: virtualized_iterator_element
+second_title: Aspose.Slides pro C++ referenci API
+description: Virtualizovaný typ prvku.
+type: docs
+weight: 248
+url: /cs/aspose.slides/audiocollection/virtualized_iterator_element/
+---
+## virtualized_iterator_element typedef
+
+
+Virtualizovaný typ prvku.
+
+```cpp
+using Aspose::Slides::AudioCollection::virtualized_iterator_element =  typename iterator_holder_type::virtualized_iterator_element
+```
+
+## Viz také
+
+* Třída [AudioCollection](../)
+* Jmenný prostor [Aspose::Slides](../../)
+* Knihovna [Aspose.Slides](../../../)

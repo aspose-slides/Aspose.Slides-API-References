@@ -1,0 +1,85 @@
+---
+title: "System::Collections::Generic"
+second_title: Aspose.Slides pro C++ API Reference
+description: 
+type: docs
+weight: 326
+url: /cs/system.collections.generic/
+---
+## Třídy
+
+| Třída | Popis |
+| --- | --- |
+| [_KeyCollection](./_keycollection/) | Kolekce klíčů [Dictionary](./dictionary/). Odkazuje na kolekci, nic nekopíruje. Objekty této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám za běhu a/nebo k selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předávání do funkcí jako argument. |
+| [_KeyList](./_keylist/) | Implementuje seznam klíčů slovníku. Objekty této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám za běhu a/nebo k selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předávání do funkcí jako argument. |
+| [_ValueCollection](./_valuecollection/) | Kolekce hodnot [Dictionary](./dictionary/). Odkazuje na kolekci, nic nekopíruje. Objekty této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám za běhu a/nebo k selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předávání do funkcí jako argument. |
+| [_ValueList](./_valuelist/) | Implementuje seznam hodnot slovníku. Objekty této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám za běhu a/nebo k selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předávání do funkcí jako argument. |
+| [BaseDictionary](./basedictionary/) | Implementuje společný kód pro různé datové struktury podobné slovníku (např. [Dictionary](./dictionary/), [SortedDictionary](./sorteddictionary/)). Neměl by být používán přímo, kromě dědičnosti při definování kontejnerů. Objekty této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám za běhu a/nebo k selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předávání do funkcí jako argument. |
+| [BaseEnumerator](./baseenumerator/) | Definice enumerátoru pro zabalení typů stylizovaných jako STL pro použití ve stylu C#. Nedělá žádné aserce na strukturu kontejneru kromě existence sekvenčního iterátoru. Používá funkce begin() a end(). Objekty této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám za běhu a/nebo k selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předávání do funkcí jako argument. |
+| [BaseKVCollection](./basekvcollection/) | Obsahuje společný kód pro kolekce klíčů nebo hodnot. Objekty této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám za běhu a/nebo k selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předávání do funkcí jako argument. |
+| [BaseSet](./baseset/) |  |
+| [Comparer](./comparer/) | Poskytuje základní třídu pro implementace generického rozhraní [System.Collections.Generic.IComparer](./icomparer/). |
+| [DefaultComparer](./defaultcomparer/) | Výchozí třída porovnávání. Používá operátor < a operátor == k porovnání hodnot. Objekty této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám za běhu a/nebo k selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předávání do funkcí jako argument. |
+| [Details_KeyNotFoundException](./details_keynotfoundexception/) |  |
+| [Dictionary](./dictionary/) | Předběžná deklarace třídy [Dictionary](./dictionary/). |
+| [DictionaryIterator](./dictionaryiterator/) | Iterátor [Dictionary](./dictionary/) poskytující notaci [KeyValuePair](./keyvaluepair/). |
+| [DictionaryPtr](./dictionaryptr/) | Třída ukazatele [Dictionary](./dictionary/) s přetíženými operátory. Tento typ je ukazatel pro správu mazání jiných objektů. Měl by být alokován na zásobníku a předáván funkcím buď hodnotou, nebo jako konstantní reference. |
+| [EnumerableExt](./enumerableext/) |  |
+| [EnumeratorWrapperIterator](./enumeratorwrapperiterator/) | Iterátor, který zabaluje předem vytvořený enumerátor a přesměrovává do něj všechna volání. |
+| [HashDictionary](./hashdictionary/) | Zástupná třída pro [HashDictionary](./hashdictionary/) (aktuálně neimplementována). Objekty této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám za běhu a/nebo k selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předávání do funkcí jako argument. |
+| [HashSet](./hashset/) | Předběžná deklarace třídy [HashSet](./hashset/). |
+| [HashSetPtr](./hashsetptr/) | Ukazatel pro udržení referencí [HashSet](./hashset/). Tento typ je ukazatel pro správu mazání jiných objektů. Měl by být alokován na zásobníku a předáván funkcím buď hodnotou, nebo jako konstantní reference. |
+| [ICollection](./icollection/) | Rozhraní kolekce prvků. Objekty této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám za běhu a/nebo k selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předávání do funkcí jako argument. |
+| [IComparer](./icomparer/) | Rozhraní, které porovnává dva objekty ve smyslu větší-rovno-menší. Objekty této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám za běhu a/nebo k selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předávání do funkcí jako argument. |
+| [IDictionary](./idictionary/) | Rozhraní pro kontejnery podobné slovníku. Objekty této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám za běhu a/nebo k selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předávání do funkcí jako argument. |
+| [IEnumerable](./ienumerable/) | Rozhraní objektu poskytujícího enumerátor nad obsaženými prvky. |
+| [IEnumerator](./ienumerator/) | Rozhraní enumerátoru, který může být použit k iteraci přes některé prvky. Objekty této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám za běhu a/nebo k selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předávání do funkcí jako argument. |
+| [IEqualityComparer](./iequalitycomparer/) | Rozhraní poskytující prostředky k porovnání dvou objektů na rovnost. Objekty této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám za běhu a/nebo k selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předávání do funkcí jako argument. |
+| [IKVCollection](./ikvcollection/) | Rozhraní kontejneru obsahujícího klíče nebo hodnoty kontejneru podobného slovníku. Objekty této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám za běhu a/nebo k selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předávání do funkcí jako argument. |
+| [IList](./ilist/) | Rozhraní indexovaného kontejneru prvků. Objekty této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám za běhu a/nebo k selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předávání do funkcí jako argument. |
+| [ISet](./iset/) | Rozhraní kolekce obsahující sadu jedinečných prvků. Objekty této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám za běhu a/nebo k selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předávání do funkcí jako argument. |
+| [KeyIterator](./keyiterator/) | Iterátor [Dictionary](./dictionary/) poskytující přístup ke klíči. |
+| [KeyValuePair](./keyvaluepair/) | Pár klíče a hodnoty. Tento typ by měl být alokován na zásobníku a předáván funkcím hodnotou nebo referencí. Nikdy nepoužívejte třídu [System::SmartPtr](../system/smartptr/) k správě objektů tohoto typu. |
+| [KVPairIterator](./kvpairiterator/) | Adaptivní iterátor, který zabaluje std::pair do KVPair očekávaného z [Dictionary](./dictionary/). |
+| [LinkedList](./linkedlist/) | Předběžná deklarace [LinkedList](./linkedlist/). |
+| [LinkedListNode](./linkedlistnode/) | Uzel propojeného seznamu. Implementuje obal nad iterátorem std::list, který je zabalený v propojeném seznamu. Objekty této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám za běhu a/nebo k selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předávání do funkcí jako argument. |
+| [List](./list/) | Předběžná deklarace [List](./list/). |
+| [ListExt](./listext/) | Obecná třída [List](./list/) implementující rozhraní [IListWrapper](../system.collections/ilistwrapper/). |
+| [ListPtr](./listptr/) | Ukazatel [List](./list/) s operátory přístupu. Tento typ je ukazatel pro správu mazání jiných objektů. Měl by být alokován na zásobníku a předáván funkcím buď hodnotou, nebo jako konstantní reference. |
+| [Queue](./queue/) | Předběžná deklarace třídy [Queue](./queue/). |
+| [QueuePtr](./queueptr/) | Ukazatel [Queue](./queue/). Tento typ je ukazatel pro správu mazání jiných objektů. Měl by být alokován na zásobníku a předáván funkcím buď hodnotou, nebo jako konstantní reference. |
+| [ReverseEnumerator](./reverseenumerator/) | Enumerátor, který iteruje v opačném směru skrz kontejner. Objekty této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám za běhu a/nebo k selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předávání do funkcí jako argument. |
+| [SimpleEnumerator](./simpleenumerator/) | Třída iterátoru pro jednoduché kontejnery, které přímo drží prvky pomocí funkcí rbegin() a rend(). Objekty této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám za běhu a/nebo k selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předávání do funkcí jako argument. |
+| [SortedDictionary](./sorteddictionary/) | Předběžná deklarace typu setříděného slovníku. |
+| [SortedDictionaryPtr](./sorteddictionaryptr/) | Ukazatel setříděného slovníku s operátory přístupu. Tento typ je ukazatel pro správu mazání jiných objektů. Měl by být alokován na zásobníku a předáván funkcím buď hodnotou, nebo jako konstantní reference. |
+| [SortedList](./sortedlist/) | Setříděný seznam zabalený strukturu FlatMap. Objekty této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám za běhu a/nebo k selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předávání do funkcí jako argument. |
+| [SortedListHelper](./sortedlisthelper/) | Tato pomocná třída se používá k maskování virtuálních funkcí get_Keys a get_Values, které pocházejí z rozhraní [IDictionary](./idictionary/), a nahradit je funkcemi s jiným návratovým typem. |
+| [SortedSet](./sortedset/) | Předběžná deklarace třídy [SortedSet](./sortedset/). |
+| [SortedSetPtr](./sortedsetptr/) | Ukazatel pro udržení referencí [SortedSet](./sortedset/). Tento typ je ukazatel pro správu mazání jiných objektů. Měl by být alokován na zásobníku a předáván funkcím buď hodnotou, nebo jako konstantní reference. |
+| [Stack](./stack/) | Předběžná deklarace třídy [Stack](./stack/). |
+| [StackPtr](./stackptr/) | Ukazatel [Stack](./stack/). Tento typ je ukazatel pro správu mazání jiných objektů. Měl by být alokován na zásobníku a předáván funkcím buď hodnotou, nebo jako konstantní reference. |
+| [ValueIterator](./valueiterator/) | Iterátor [Dictionary](./dictionary/) poskytující přístup k hodnotě. |
+
+## Struktury
+
+| Struktura | Popis |
+| --- | --- |
+| [ComparerAdapter](./compareradapter/) | Adaptér pro použití [IComparer](./icomparer/) v prostředí STL. Používá [IComparer](./icomparer/), pokud je nastaven; jinak používá operátor < (pokud je dostupný) nebo vrací false (pokud není). |
+| [DictionaryHashSelector](./dictionaryhashselector/) | Selektor hashovací funkce pro třídu [Dictionary](./dictionary/). Tato implementace používá hashování STL, pokud není poskytnuta alternativa. |
+| [EqualityComparerAdapter](./equalitycompareradapter/) | Adaptér umožňující použití [IEqualityComparer](./iequalitycomparer/) s kolekcemi a algoritmy ve stylu STL. Používá [IEqualityComparer](./iequalitycomparer/), pokud je nastaven. Pokud není nastaven, používá operátor ==, [Object::Equals](../system/object/equals/) nebo T::Equals, podle toho, který je dostupný. |
+| [EqualityComparerHashAdapter](./equalitycomparerhashadapter/) | Adaptér pro použití [IEqualityComparer](./iequalitycomparer/) pro hashování. Používá objekt komparátoru, pokud je nastaven; jinak používá dostupnou hashovací metodu vybranou pomocí struktury [DictionaryHashSelector](./dictionaryhashselector/). |
+
+## Funkce
+
+| Funkce | Popis |
+| --- | --- |
+| **bool** [operator==](./operator_equal_equal/)(const [KeyValuePair](./keyvaluepair/)\<TKey, TValue\>\&, const [KeyValuePair](./keyvaluepair/)\<TKey, TValue\>\&) | Porovnává dva páry klíč-hodnota pomocí sémantiky 'equals'. Používá operátor == nebo metodu EqualsTo pro oba klíče i hodnoty, podle toho, která je definována. |
+| **bool** [operator!=](./operator_not_equal/)(const [KeyValuePair](./keyvaluepair/)\<TKey, TValue\>\&, const [KeyValuePair](./keyvaluepair/)\<TKey, TValue\>\&) | Porovnává dva páry klíč-hodnota pomocí inverzní sémantiky 'equals'. |
+| std::ostream\& [operator<<](./operator_less_less/)(std::ostream\&, const [KeyValuePair](./keyvaluepair/)\<TKey, TValue\>\&) | Vloží data do proudu pomocí kódování UTF-8. |
+| std::wostream\& [operator<<](./operator_less_less/)(std::wostream\&, const [KeyValuePair](./keyvaluepair/)\<TKey, TValue\>\&) | Vloží data do proudu. |
+
+## Typedefy
+
+| Typedef | Popis |
+| --- | --- |
+| [KeyNotFoundException](./keynotfoundexception/) |  |

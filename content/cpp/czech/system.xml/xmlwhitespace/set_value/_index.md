@@ -1,0 +1,30 @@
+---
+title: set_Value()
+second_title: Aspose.Slides pro C++ referenci API
+description: Nastaví hodnotu uzlu.
+type: docs
+weight: 53
+url: /cs/system.xml/xmlwhitespace/set_value/
+---
+## XmlWhitespace::set_Value(String) metoda
+
+
+Nastaví hodnotu uzlu.
+
+```cpp
+void System::Xml::XmlWhitespace::set_Value(String value) override
+```
+
+
+### Argumenty
+
+| Parametr | Typ | Popis |
+| --- | --- | --- |
+| value | [String](../../../system/string/) | Hodnota, která se má nastavit. |
+
+## Viz také
+
+* Třída [String](../../../system/string/)
+* Třída [XmlWhitespace](../)
+* Jmenný prostor [System::Xml](../../)
+* Knihovna [Aspose.Slides](../../../)
