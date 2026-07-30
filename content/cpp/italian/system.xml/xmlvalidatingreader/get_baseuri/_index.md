@@ -1,0 +1,28 @@
+---
+title: get_BaseURI()
+second_title: Riferimento API di Aspose.Slides per C++
+description: Restituisce l'URI di base del nodo corrente.
+type: docs
+weight: 105
+url: /it/system.xml/xmlvalidatingreader/get_baseuri/
+---
+## XmlValidatingReader::get_BaseURI() metodo
+
+
+Restituisce l'URI di base del nodo corrente.
+
+```cpp
+String System::Xml::XmlValidatingReader::get_BaseURI() override
+```
+
+
+### Valore di ritorno
+
+L'URI di base del nodo corrente.
+
+## Vedi anche
+
+* Classe [String](../../../system/string/)
+* Classe [XmlValidatingReader](../)
+* Spazio dei nomi [System::Xml](../../)
+* Library [Aspose.Slides](../../../)

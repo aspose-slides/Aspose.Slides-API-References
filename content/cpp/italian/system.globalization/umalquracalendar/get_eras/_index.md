@@ -1,0 +1,26 @@
+---
+title: get_Eras()
+second_title: Riferimento API di Aspose.Slides per C++
+description: Restituisce l'elenco delle ere esistenti nel calendario.
+type: docs
+weight: 53
+url: /it/system.globalization/umalquracalendar/get_eras/
+---
+## UmAlQuraCalendar::get_Eras() const metodo
+
+Restituisce l'elenco delle ere esistenti nel calendario.
+
+```cpp
+ArrayPtr<int> System::Globalization::UmAlQuraCalendar::get_Eras() const override
+```
+
+### Valore di ritorno
+
+[Array](../../../system/array/) di numeri che definiscono i numeri delle ere.
+
+## Vedi anche
+
+* Typedef [ArrayPtr](../../../system/arrayptr/)
+* Classe [UmAlQuraCalendar](../)
+* Spazio dei nomi [System::Globalization](../../)
+* Library [Aspose.Slides](../../../)

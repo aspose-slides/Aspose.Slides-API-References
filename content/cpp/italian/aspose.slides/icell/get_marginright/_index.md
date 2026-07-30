@@ -1,0 +1,21 @@
+---
+title: get_MarginRight()
+second_title: Riferimento API di Aspose.Slides per C++
+description: Restituisce il margine destro in un TextFrame. Leggi double.
+type: docs
+weight: 118
+url: /it/aspose.slides/icell/get_marginright/
+---
+## ICell::get_MarginRight() metodo
+
+Restituisce il margine destro in un [TextFrame](../../textframe/). Leggi **double**.
+
+```cpp
+virtual double Aspose::Slides::ICell::get_MarginRight()=0
+```
+
+## Vedi anche
+
+* Classe [ICell](../)
+* Spazio dei nomi [Aspose::Slides](../../)
+* Libreria [Aspose.Slides](../../../)

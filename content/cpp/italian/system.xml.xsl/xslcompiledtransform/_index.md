@@ -1,0 +1,90 @@
+---
+title: XslCompiledTransform
+second_title: Riferimento API di Aspose.Slides per C++
+description: Trasforma i dati XML utilizzando un foglio di stile XSLT.
+type: docs
+weight: 53
+url: /it/system.xml.xsl/xslcompiledtransform/
+---
+## XslCompiledTransform classe
+
+Trasforma i dati XML utilizzando un foglio di stile XSLT.
+
+```cpp
+class XslCompiledTransform : public System::Object
+```
+
+## Metodi
+
+| Metodo | Descrizione |
+| --- | --- |
+| virtual **bool** [Equals](../../system/object/equals/)([ptr](../../system/object/ptr/)) | Confronta gli oggetti usando la semantica C# [Object.Equals](../../system/object/equals/). |
+| static std::enable_if\<[IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Confronta oggetti di tipo riferimento in stile C#. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&\![IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Confronta oggetti di tipo valore in stile C#. |
+| static **bool** [Equals](../../system/object/equals/)(**float** const\&, **float** const\&) | Emula il confronto in virgola mobile in stile C# dove due NaN sono considerati uguali anche se secondo IEC 60559:1989 NaN non è uguale a nessun valore, incluso NaN. |
+| static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | Emula il confronto in virgola mobile in stile C# dove due NaN sono considerati uguali anche se secondo IEC 60559:1989 NaN non è uguale a nessun valore, incluso NaN. |
+| virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | Solo per scopi interni. |
+| [SharedPtr](../../system/sharedptr/)\<[XmlWriterSettings](../../system.xml/xmlwritersettings/)\> [get_OutputSettings](./get_outputsettings/)() | Restituisce un oggetto [XmlWriterSettings](../../system.xml/xmlwritersettings/) che contiene le informazioni di output derivate dall'elemento **xsl:output** del foglio di stile. |
+| Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Ottiene la struttura dati del contatore di riferimento associata all'oggetto. |
+| virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | Analogo del metodo C# [Object.GetHashCode()](../../system/object/gethashcode/). Abilita l'hashing di oggetti personalizzati. |
+| virtual const [TypeInfo](../../system/typeinfo/)\& [GetType](../../system/object/gettype/)() const | Ottiene il tipo reale dell'oggetto. Analogo della chiamata C# [System.Object.GetType()](../../system/object/gettype/). |
+| virtual **bool** [Is](../../system/object/is/)(const [TypeInfo](../../system/typeinfo/)\&) const | Verifica se l'oggetto rappresenta un'istanza del tipo descritto da targetType. Analogo dell'operatore C# 'is'. |
+| void [Load](./load/)(const [SharedPtr](../../system/sharedptr/)\<[XmlReader](../../system.xml/xmlreader/)\>\&) | Compila il foglio di stile contenuto nel [XmlReader](../../system.xml/xmlreader/). |
+| void [Load](./load/)(const [SharedPtr](../../system/sharedptr/)\<[XmlReader](../../system.xml/xmlreader/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XsltSettings](../xsltsettings/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XmlResolver](../../system.xml/xmlresolver/)\>\&) | Compila il foglio di stile XSLT contenuto nel [XmlReader](../../system.xml/xmlreader/). Il [XmlResolver](../../system.xml/xmlresolver/) risolve tutti gli elementi XSLT **import** o **include** e le impostazioni XSLT determinano i permessi per il foglio di stile. |
+| void [Load](./load/)(const [String](../../system/string/)\&) | Carica e compila il foglio di stile situato all'URI specificato. |
+| void [Load](./load/)(const [String](../../system/string/)\&, const [SharedPtr](../../system/sharedptr/)\<[XsltSettings](../xsltsettings/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XmlResolver](../../system.xml/xmlresolver/)\>\&) | Carica e compila il foglio di stile XSLT specificato dall'URI. Il [XmlResolver](../../system.xml/xmlresolver/) risolve tutti gli elementi XSLT **import** o **include** e le impostazioni XSLT determinano i permessi per il foglio di stile. |
+| void [Load](./load/)(const [SharedPtr](../../system/sharedptr/)\<[System::Xml::XPath::IXPathNavigable](../../system.xml.xpath/ixpathnavigable/)\>\&) | Compila il foglio di stile contenuto nell'oggetto IXPathNavigable. |
+| void [Load](./load/)(const [SharedPtr](../../system/sharedptr/)\<[System::Xml::XPath::IXPathNavigable](../../system.xml.xpath/ixpathnavigable/)\>\&, [SharedPtr](../../system/sharedptr/)\<[XsltSettings](../xsltsettings/)\>, [SharedPtr](../../system/sharedptr/)\<[XmlResolver](../../system.xml/xmlresolver/)\>) | Compila il foglio di stile XSLT contenuto nell'IXPathNavigable. Il [XmlResolver](../../system.xml/xmlresolver/) risolve tutti gli elementi XSLT **import** o **include** e le impostazioni XSLT determinano i permessi per il foglio di stile. |
+| void [Lock](../../system/object/lock/)() | Implementa il blocco lock() di C#. Chiamare direttamente o usare l'oggetto sentinella [LockContext](../../system/lockcontext/). |
+| virtual [ptr](../../system/object/ptr/) [MemberwiseClone](../../system/object/memberwiseclone/)() const | Analogo del metodo C# [Object.MemberwiseClone()](../../system/object/memberwiseclone/). Abilita la clonazione di tipi personalizzati. |
+|  [Object](../../system/object/object/)() | Crea l'oggetto. Inizializza tutte le strutture dati interne. |
+|  [Object](../../system/object/object/)([Object](../../system/object/) const\&) | Costruttore di copia. Non copia realmente nulla, inizializza solo un nuovo oggetto e abilita la copia dei sottoclasse. |
+| [Object](../../system/object/)\& [operator=](../../system/object/operator_equal/)([Object](../../system/object/) const\&) | Operatore di assegnazione. Non copia realmente nulla, inizializza solo un nuovo oggetto e abilita la copia dei sottoclasse. |
+| static **bool** [ReferenceEquals](../../system/object/referenceequals/)([ptr](../../system/object/ptr/) const\&, [ptr](../../system/object/ptr/) const\&) | Confronta gli oggetti per riferimento. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, T const\&) | Confronta gli oggetti per riferimento. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, std::nullptr_t) | Confronta per riferimento l'oggetto di tipo valore con nullptr. |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, std::nullptr_t) | Specializzazione di [Object::ReferenceEquals](../../system/object/referenceequals/) per il caso di stringa e nullptr. |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | Specializzazione di [Object::ReferenceEquals](../../system/object/referenceequals/) per il caso di stringhe. |
+| int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Decrementa il contatore di riferimento condiviso del valore specificato. |
+| virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | Imposta l'argomento n-esimo del template come puntatore debole (anziché condiviso). Consente di passare i puntatori nei contenitori in modalità debole. |
+| int [SharedCount](../../system/object/sharedcount/)() const | Ottiene il valore corrente del contatore di riferimento condiviso. |
+| [Object](../../system/object/) * [SharedRefAdded](../../system/object/sharedrefadded/)() | Incrementa il contatore di riferimento condiviso. Non dovrebbe essere chiamato direttamente; utilizzare invece smart pointer o ThisProtector. |
+| int [SharedRefRemovedSafe](../../system/object/sharedrefremovedsafe/)() | Decrementa e restituisce il contatore di riferimento condiviso. Non dovrebbe essere chiamato direttamente; utilizzare invece smart pointer o ThisProtector. |
+| virtual [String](../../system/string/) [ToString](../../system/object/tostring/)() const | Analogo del metodo C# [Object.ToString()](../../system/object/tostring/). Abilita la conversione di oggetti personalizzati in stringa. |
+| void [Transform](./transform/)(const [SharedPtr](../../system/sharedptr/)\<[System::Xml::XPath::IXPathNavigable](../../system.xml.xpath/ixpathnavigable/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XmlWriter](../../system.xml/xmlwriter/)\>\&) | Esegue la trasformazione usando il documento di input specificato dall'oggetto IXPathNavigable e produce i risultati in un [XmlWriter](../../system.xml/xmlwriter/). |
+| void [Transform](./transform/)(const [SharedPtr](../../system/sharedptr/)\<[System::Xml::XPath::IXPathNavigable](../../system.xml.xpath/ixpathnavigable/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XsltArgumentList](../xsltargumentlist/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XmlWriter](../../system.xml/xmlwriter/)\>\&) | Esegue la trasformazione usando il documento di input specificato dall'oggetto IXPathNavigable e produce i risultati in un [XmlWriter](../../system.xml/xmlwriter/). Il [XsltArgumentList](../xsltargumentlist/) fornisce argomenti di runtime aggiuntivi. |
+| void [Transform](./transform/)(const [SharedPtr](../../system/sharedptr/)\<[System::Xml::XPath::IXPathNavigable](../../system.xml.xpath/ixpathnavigable/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XsltArgumentList](../xsltargumentlist/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[IO::TextWriter](../../system.io/textwriter/)\>\&) | Esegue la trasformazione usando il documento di input specificato dall'oggetto IXPathNavigable e produce i risultati in un TextWriter. Il [XsltArgumentList](../xsltargumentlist/) fornisce argomenti di runtime aggiuntivi. |
+| void [Transform](./transform/)(const [SharedPtr](../../system/sharedptr/)\<[System::Xml::XPath::IXPathNavigable](../../system.xml.xpath/ixpathnavigable/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XsltArgumentList](../xsltargumentlist/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[IO::Stream](../../system.io/stream/)\>\&) | Esegue la trasformazione usando il documento di input specificato dall'oggetto IXPathNavigable e produce i risultati in uno stream. Il [XsltArgumentList](../xsltargumentlist/) fornisce argomenti di runtime aggiuntivi. |
+| void [Transform](./transform/)(const [SharedPtr](../../system/sharedptr/)\<[XmlReader](../../system.xml/xmlreader/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XmlWriter](../../system.xml/xmlwriter/)\>\&) | Esegue la trasformazione usando il documento di input specificato dall'oggetto [XmlReader](../../system.xml/xmlreader/) e produce i risultati in un [XmlWriter](../../system.xml/xmlwriter/). |
+| void [Transform](./transform/)(const [SharedPtr](../../system/sharedptr/)\<[XmlReader](../../system.xml/xmlreader/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XsltArgumentList](../xsltargumentlist/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XmlWriter](../../system.xml/xmlwriter/)\>\&) | Esegue la trasformazione usando il documento di input specificato dall'oggetto [XmlReader](../../system.xml/xmlreader/) e produce i risultati in un [XmlWriter](../../system.xml/xmlwriter/). Il [XsltArgumentList](../xsltargumentlist/) fornisce argomenti di runtime aggiuntivi. |
+| void [Transform](./transform/)(const [SharedPtr](../../system/sharedptr/)\<[XmlReader](../../system.xml/xmlreader/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XsltArgumentList](../xsltargumentlist/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[IO::TextWriter](../../system.io/textwriter/)\>\&) | Esegue la trasformazione usando il documento di input specificato dall'oggetto [XmlReader](../../system.xml/xmlreader/) e produce i risultati in un TextWriter. Il [XsltArgumentList](../xsltargumentlist/) fornisce argomenti di runtime aggiuntivi. |
+| void [Transform](./transform/)(const [SharedPtr](../../system/sharedptr/)\<[XmlReader](../../system.xml/xmlreader/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XsltArgumentList](../xsltargumentlist/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[IO::Stream](../../system.io/stream/)\>\&) | Esegue la trasformazione usando il documento di input specificato dall'oggetto [XmlReader](../../system.xml/xmlreader/) e produce i risultati in uno stream. Il [XsltArgumentList](../xsltargumentlist/) fornisce argomenti di runtime aggiuntivi. |
+| void [Transform](./transform/)(const [String](../../system/string/)\&, const [SharedPtr](../../system/sharedptr/)\<[XmlWriter](../../system.xml/xmlwriter/)\>\&) | Esegue la trasformazione usando il documento di input specificato dall'URI e produce i risultati in un [XmlWriter](../../system.xml/xmlwriter/). |
+| void [Transform](./transform/)(const [String](../../system/string/)\&, const [SharedPtr](../../system/sharedptr/)\<[XsltArgumentList](../xsltargumentlist/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XmlWriter](../../system.xml/xmlwriter/)\>\&) | Esegue la trasformazione usando il documento di input specificato dall'URI e produce i risultati in un [XmlWriter](../../system.xml/xmlwriter/). Il [XsltArgumentList](../xsltargumentlist/) fornisce argomenti di runtime aggiuntivi. |
+| void [Transform](./transform/)(const [String](../../system/string/)\&, const [SharedPtr](../../system/sharedptr/)\<[XsltArgumentList](../xsltargumentlist/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[IO::TextWriter](../../system.io/textwriter/)\>\&) | Esegue la trasformazione usando il documento di input specificato dall'URI e produce i risultati in un TextWriter. |
+| void [Transform](./transform/)(const [String](../../system/string/)\&, const [SharedPtr](../../system/sharedptr/)\<[XsltArgumentList](../xsltargumentlist/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[IO::Stream](../../system.io/stream/)\>\&) | Esegue la trasformazione usando il documento di input specificato dall'URI e produce i risultati in uno stream. Il [XsltArgumentList](../xsltargumentlist/) fornisce argomenti di runtime aggiuntivi. |
+| void [Transform](./transform/)(const [String](../../system/string/)\&, const [String](../../system/string/)\&) | Esegue la trasformazione usando il documento di input specificato dall'URI e produce i risultati in un file. |
+| void [Transform](./transform/)(const [SharedPtr](../../system/sharedptr/)\<[XmlReader](../../system.xml/xmlreader/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XsltArgumentList](../xsltargumentlist/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XmlWriter](../../system.xml/xmlwriter/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XmlResolver](../../system.xml/xmlresolver/)\>\&) | Esegue la trasformazione usando il documento di input specificato dall'oggetto [XmlReader](../../system.xml/xmlreader/) e produce i risultati in un [XmlWriter](../../system.xml/xmlwriter/). Il [XsltArgumentList](../xsltargumentlist/) fornisce argomenti di runtime aggiuntivi e il [XmlResolver](../../system.xml/xmlresolver/) risolve la funzione XSLT **document()**. |
+| void [Transform](./transform/)(const [SharedPtr](../../system/sharedptr/)\<[System::Xml::XPath::IXPathNavigable](../../system.xml.xpath/ixpathnavigable/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XsltArgumentList](../xsltargumentlist/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XmlWriter](../../system.xml/xmlwriter/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[XmlResolver](../../system.xml/xmlresolver/)\>\&) | Esegue la trasformazione usando il documento di input specificato dall'oggetto IXPathNavigable e produce i risultati in un [XmlWriter](../../system.xml/xmlwriter/). Il [XsltArgumentList](../xsltargumentlist/) fornisce argomenti di runtime aggiuntivi e il [XmlResolver](../../system.xml/xmlresolver/) risolve la funzione XSLT **document()**. |
+| static const [TypeInfo](../../system/typeinfo/)\& [Type](../../system/object/type/)() | Implementa la costruttura C# typeof([System.Object](../../system/object/)). |
+| void [Unlock](../../system/object/unlock/)() | Implementa lo sblocco della dichiarazione C# lock(). Chiamare direttamente o usare l'oggetto sentinella [LockContext](../../system/lockcontext/). |
+| Detail::SmartPtrCounter * [WeakRefAdded](../../system/object/weakrefadded/)() | Incrementa il contatore di riferimento debole. Non dovrebbe essere chiamato direttamente; utilizzare invece smart pointer o ThisProtector. |
+| void [WeakRefRemoved](../../system/object/weakrefremoved/)() | Decrementa il contatore di riferimento debole. Non dovrebbe essere chiamato direttamente; utilizzare invece smart pointer o ThisProtector. |
+|  [XslCompiledTransform](./xslcompiledtransform/)() | Inizializza una nuova istanza della classe [XslCompiledTransform](./). |
+| virtual  [~Object](../../system/object/~object/)() | Distrugge l'oggetto. Libera tutte le strutture dati interne. |
+
+## Typedef
+
+| Typedef | Descrizione |
+| --- | --- |
+| [Ptr](./ptr/) | Un alias per shared pointer a un'istanza di questa classe. |
+
+## Osservazioni
+
+Gli oggetti di questa classe dovrebbero essere allocati solo usando la funzione [System::MakeObject()](../../system/makeobject/). Non creare mai istanze di questo tipo sullo stack o usando l'operatore new, poiché ciò provocherà errori di runtime e/o fault di assert. Avvolgere sempre questa classe in un puntatore [System::SmartPtr](../../system/smartptr/) e usare questo puntatore per passarla alle funzioni come argomento. 
+
+## Vedi anche
+
+* Classe [Object](../../system/object/)
+* Namespace [System::Xml::Xsl](../)
+* Libreria [Aspose.Slides](../../)

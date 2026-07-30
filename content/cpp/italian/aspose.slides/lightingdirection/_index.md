@@ -1,0 +1,34 @@
+---
+title: LightingDirection
+second_title: Riferimento API di Aspose.Slides per C++
+description: Costanti che definiscono le direzioni della luce.
+type: docs
+weight: 5942
+url: /it/aspose.slides/lightingdirection/
+---
+## LightingDirection enum
+
+Costanti che definiscono le direzioni della luce.
+
+```cpp
+enum class LightingDirection
+```
+
+### Valori
+
+| Nome | Valore | Descrizione |
+| --- | --- | --- |
+| NotDefined | -1 |  |
+| TopLeft | 0 |  |
+| Top | 1 |  |
+| TopRight | 2 |  |
+| Right | 3 |  |
+| BottomRight | 4 |  |
+| Bottom | 5 |  |
+| BottomLeft | 6 |  |
+| Left | 7 |  |
+
+## Vedi anche
+
+* Spazio dei nomi [Aspose::Slides](../)
+* Libreria [Aspose.Slides](../../)
