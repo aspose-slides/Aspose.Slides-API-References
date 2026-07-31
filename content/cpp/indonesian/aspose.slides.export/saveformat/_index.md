@@ -1,0 +1,46 @@
+---
+title: SaveFormat
+second_title: Referensi API Aspose.Slides untuk C++
+description: Konstanta yang menentukan format presentasi yang disimpan.
+type: docs
+weight: 1041
+url: /id/aspose.slides.export/saveformat/
+---
+## SaveFormat enum
+
+Konstanta yang menentukan format presentasi yang disimpan.
+
+```cpp
+enum class SaveFormat
+```
+
+### Nilai
+
+| Nama | Nilai | Deskripsi |
+| --- | --- | --- |
+| Ppt | 0 | Simpan presentasi dalam format PPT. |
+| Pdf | 1 | Simpan presentasi dalam format PDF. |
+| Xps | 2 | Simpan presentasi dalam format XPS. |
+| Pptx | 3 | Simpan presentasi dalam format PPTX. |
+| Ppsx | 4 | Simpan presentasi dalam format PPSX (slideshow). |
+| Tiff | 5 | Simpan presentasi sebagai gambar TIFF multi-halaman. |
+| Odp | 6 | Simpan presentasi dalam format ODP. |
+| Pptm | 7 | Simpan presentasi dalam format PPTM (presentasi dengan makro). |
+| Ppsm | 9 | Simpan presentasi dalam format PPSM (slideshow dengan makro). |
+| Potx | 10 | Simpan presentasi dalam format POTX (templat). |
+| Potm | 11 | Simpan presentasi dalam format POTM (templat dengan makro). |
+| Html | 13 | Simpan presentasi dalam format HTML. |
+| Swf | 15 | Simpan presentasi dalam format SWF. |
+| Otp | 17 | Simpan presentasi dalam format OTP (templat presentasi). |
+| Pps | 19 | Simpan presentasi dalam format PPS. |
+| Pot | 20 | Simpan presentasi dalam format POT. |
+| Fodp | 21 | Simpan presentasi dalam format FODP. |
+| Gif | 22 | Simpan presentasi dalam format GIF. |
+| Html5 | 23 | Simpan presentasi dalam format HTML menggunakan sistem templat HTML5 baru. |
+| Md | 24 | Simpan presentasi dalam format Markdown |
+| Xml | 25 | Simpan presentasi dalam format PowerPoint XML [Presentation](../../aspose.slides/presentation/). |
+
+## Lihat Juga
+
+* Namespace [Aspose::Slides::Export](../)
+* Library [Aspose.Slides](../../)

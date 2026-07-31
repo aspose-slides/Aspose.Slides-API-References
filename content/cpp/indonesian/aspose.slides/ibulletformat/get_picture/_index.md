@@ -1,0 +1,24 @@
+---
+title: get_Picture()
+second_title: Referensi API Aspose.Slides untuk C++
+description: Mengembalikan gambar yang digunakan sebagai bullet dalam paragraf tanpa pewarisan. Baca-saja ISlidesPicture.
+type: docs
+weight: 118
+url: /id/aspose.slides/ibulletformat/get_picture/
+---
+## IBulletFormat::get_Picture() metode
+
+
+Mengembalikan gambar yang digunakan sebagai bullet dalam paragraf tanpa pewarisan. Baca-saja [ISlidesPicture](../../islidespicture/).
+
+```cpp
+virtual System::SharedPtr<ISlidesPicture> Aspose::Slides::IBulletFormat::get_Picture()=0
+```
+
+## Lihat Juga
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Kelas [ISlidesPicture](../../islidespicture/)
+* Kelas [IBulletFormat](../)
+* RuangNama [Aspose::Slides](../../)
+* Library [Aspose.Slides](../../../)
