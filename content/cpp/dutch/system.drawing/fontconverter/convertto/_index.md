@@ -1,0 +1,39 @@
+---
+title: ConvertTo()
+second_title: Aspose.Slides voor C++ API Referentie
+description: Converteert object naar een specifiek type.
+type: docs
+weight: 14
+url: /nl/system.drawing/fontconverter/convertto/
+---
+## FontConverter::ConvertTo(const System::SharedPtr\<ComponentModel::ITypeDescriptorContext\>\&, const System::SharedPtr\<System::Globalization::CultureInfo\>\&, const System::SharedPtr\<System::Object\>\&, const System::TypeInfo\&) methode
+
+Converteert object naar een specifiek type.
+
+```cpp
+System::SharedPtr<System::Object> System::Drawing::FontConverter::ConvertTo(const System::SharedPtr<ComponentModel::ITypeDescriptorContext> &context, const System::SharedPtr<System::Globalization::CultureInfo> &culture, const System::SharedPtr<System::Object> &value, const System::TypeInfo &destinationType) override
+```
+
+### Argumenten
+
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| context | const [System::SharedPtr](../../../system/sharedptr/)\<[ComponentModel::ITypeDescriptorContext](../../../system.componentmodel/itypedescriptorcontext/)\>\& | [Object](../../../system/object/) conversiecontextinformatie. |
+| culture | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\& | Cultuur die wordt gebruikt bij het converteren van objecten. |
+| value | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\& | Een object om te converteren. |
+| destinationType | const [System::TypeInfo](../../../system/typeinfo/)\& | Type om naar te converteren. |
+
+### Retourwaarde
+
+Geconverteerd object.
+
+## Zie ook
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Klasse [Object](../../../system/object/)
+* Klasse [ITypeDescriptorContext](../../../system.componentmodel/itypedescriptorcontext/)
+* Klasse [CultureInfo](../../../system.globalization/cultureinfo/)
+* Klasse [TypeInfo](../../../system/typeinfo/)
+* Klasse [FontConverter](../)
+* Namespace [System::Drawing](../../)
+* Bibliotheek [Aspose.Slides](../../../)

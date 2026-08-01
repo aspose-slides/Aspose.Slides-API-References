@@ -1,0 +1,21 @@
+---
+title: const_iterator
+second_title: Aspose.Slides voor C++ API-referentie
+description: Const-iterator-type.
+type: docs
+weight: 209
+url: /nl/aspose.slides/gradientstopcollectioneffectivedata/const_iterator/
+---
+## const_iterator typedef
+
+Const-iteratortype.
+
+```cpp
+using Aspose::Slides::GradientStopCollectionEffectiveData::const_iterator =  typename iterator_holder_type::const_iterator
+```
+
+## Zie ook
+
+* Klasse [GradientStopCollectionEffectiveData](../)
+* Naamruimte [Aspose::Slides](../../)
+* Bibliotheek [Aspose.Slides](../../../)

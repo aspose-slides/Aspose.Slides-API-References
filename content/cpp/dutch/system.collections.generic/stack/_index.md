@@ -1,0 +1,192 @@
+---
+title: Stack
+second_title: Aspose.Slides for C++ API Referentie
+description: Stack klasse voorwaartse declaratie.
+type: docs
+weight: 599
+url: /nl/system.collections.generic/stack/
+---
+## Stack klasse
+
+[Stack](./) klasse voorwaartse declaratie.
+
+```cpp
+template<typename T>class Stack : public System::Collections::Generic::IEnumerable<T>
+```
+
+### Sjabloonparameters
+
+| Parameter | Beschrijving |
+| --- | --- |
+| T | Elementtype. |
+
+## Methoden
+
+| Methode | Beschrijving |
+| --- | --- |
+| void [AddRange](./addrange/)([IEnumerablePtr](./ienumerableptr/)) | Voegt elementen toe aan de stack. |
+| [iterator](../ienumerable/iterator/) [begin](../ienumerable/begin/)() | Haalt iterator op die wijst naar het eerste element (indien aanwezig) van de collectie. Deze iterator kan niet worden gebruikt om een gerefereerd object te wijzigen omdat [GetEnumerator()](../ienumerable/getenumerator/) een kopie-object van T retourneert. |
+| [const_iterator](../ienumerable/const_iterator/) [begin](../ienumerable/begin/)() const | Haalt iterator op die wijst naar het eerste element (indien aanwezig) van de const-geverifieerde instantie van de collectie. |
+| [const_iterator](../ienumerable/const_iterator/) [cbegin](../ienumerable/cbegin/)() const | Haalt iterator op die wijst naar het eerste const-geverifieerde element (indien aanwezig) van de collectie. |
+| [const_iterator](../ienumerable/const_iterator/) [cend](../ienumerable/cend/)() const | Haalt iterator op die wijst direct na het laatste const-geverifieerde element (indien aanwezig) van de collectie. |
+| virtual void [Clear](./clear/)() | Verwijdert alle elementen van de stack. |
+| virtual **bool** [Contains](./contains/)(const T&) const | Controleert of een specifiek item aanwezig is in de container; gebruikt operator == voor vergelijking. |
+| [stack_t](./stack_t/)& [data](./data/)() | Toegangsfunctie voor interne datastructuur. |
+| const [stack_t](./stack_t/)& [data](./data/)() const | Toegangsfunctie voor interne datastructuur. |
+| [iterator](../ienumerable/iterator/) [end](../ienumerable/end/)() | Haalt iterator op die wijst direct na het laatste element (indien aanwezig) van de collectie. Deze iterator kan niet worden gebruikt om een gerefereerd object te wijzigen omdat [GetEnumerator()](../ienumerable/getenumerator/) een kopie-object van T retourneert. |
+| [const_iterator](../ienumerable/const_iterator/) [end](../ienumerable/end/)() const | Haalt iterator op die wijst direct na het laatste element (indien aanwezig) van de const-geverifieerde instantie van de collectie. |
+| virtual **bool** [Equals](../../system/object/equals/)([ptr](../../system/object/ptr/)) | Vergelijkt objecten met behulp van C# [Object.Equals](../../system/object/equals/)-semantiek. |
+| static std::enable_if<[IsSmartPtr](../../system/issmartptr/)<T1>::value&&[IsSmartPtr](../../system/issmartptr/)<T2>::value, **bool**>::type [Equals](../../system/object/equals/)(T1 const&, T2 const&) | Vergelijkt objecten van referentietype in C#-stijl. |
+| static std::enable_if<![IsSmartPtr](../../system/issmartptr/)<T1>::value&&![IsSmartPtr](../../system/issmartptr/)<T2>::value, **bool**>::type [Equals](../../system/object/equals/)(T1 const&, T2 const&) | Vergelijkt objecten van waardetype in C#-stijl. |
+| static **bool** [Equals](../../system/object/equals/)(**float** const&, **float** const&) | Imiteert C#-stijl zwevendekomma-vergelijking waarbij twee NaN's als gelijk worden beschouwd, hoewel volgens IEC 60559:1989 NaN niet gelijk is aan enige waarde, inclusief NaN. |
+| static **bool** [Equals](../../system/object/equals/)(**double** const&, **double** const&) | Imiteert C#-stijl zwevendekomma-vergelijking waarbij twee NaN's als gelijk worden beschouwd, hoewel volgens IEC 60559:1989 NaN niet gelijk is aan enige waarde, inclusief NaN. |
+| virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase&, void **) const | Alleen voor intern gebruik. |
+| virtual int [get_Count](./get_count/)() const | Haalt het aantal elementen in de stack op. |
+| Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Haalt de referentieteller-datastructuur op die bij het object hoort. |
+| [IEnumeratorPtr](./ienumeratorptr/) [GetEnumerator](./getenumerator/)() override | Haalt enumerator op om door de huidige stack te itereren. |
+| virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | Analoge van C# [Object.GetHashCode()](../../system/object/gethashcode/)-methode. Maakt hashen van aangepaste objecten mogelijk. |
+| virtual const [TypeInfo](../../system/typeinfo/)& [GetType](../../system/object/gettype/)() const | Haalt het werkelijke type van het object op. Analoge van C# [System.Object.GetType()](../../system/object/gettype/)-aanroep. |
+| virtual **bool** [Is](../../system/object/is/)(const [TypeInfo](../../system/typeinfo/)&) const | Controleert of object een instantie is van het type beschreven door targetType. Analoge van C# 'is'-operator. |
+| T [LINQ_Aggregate](../ienumerable/linq_aggregate/)(const [Func](../../system/func/)<T, T, T>&) | Past een accumulatorfunctie toe op een reeks. |
+| **bool** [LINQ_All](../ienumerable/linq_all/)(std::function<**bool**(T)>) | Bepaalt of alle elementen van een reeks aan een voorwaarde voldoen. |
+| **bool** [LINQ_Any](../ienumerable/linq_any/)() | Bepaalt of een reeks enige elementen bevat. |
+| **bool** [LINQ_Any](../ienumerable/linq_any/)(std::function<**bool**(T)>) | Bepaalt of een element van een reeks bestaat of aan een voorwaarde voldoet. |
+| T [LINQ_Average](../ienumerable/linq_average/)() | Bereken het gemiddelde van een reeks numerieke waarden. |
+| ResultType [LINQ_Average](../ienumerable/linq_average/)(const [Func](../../system/func/)<T, ResultType>&) | Bereken het gemiddelde van een reeks waarden die worden verkregen door een transformatiefunctie toe te passen op elk element van de invoerreeks. |
+| ResultType [LINQ_Average](../ienumerable/linq_average/)(const [Func](../../system/func/)<Source, ResultType>&) |  |
+| [SharedPtr](../../system/sharedptr/)<[IEnumerable](../ienumerable/)<ResultType>> [LINQ_Cast](../ienumerable/linq_cast/)() | Zet de elementen om naar het opgegeven type. |
+| [SharedPtr](../../system/sharedptr/)<[IEnumerable](../ienumerable/)<Result>> [LINQ_Cast](../ienumerable/linq_cast/)() |  |
+| [SharedPtr](../../system/sharedptr/)<[IEnumerable](../ienumerable/)<T>> [LINQ_Concat](../ienumerable/linq_concat/)([SharedPtr](../../system/sharedptr/)<[IEnumerable](../ienumerable/)<T>>) | Voegt twee reeksen samen. |
+| **bool** [LINQ_Contains](../ienumerable/linq_contains/)(T) | Bepaalt of een reeks een opgegeven waarde bevat. |
+| int [LINQ_Count](../ienumerable/linq_count/)() | Retourneert het aantal elementen in de reeks (berekend via directe telling). |
+| int [LINQ_Count](../ienumerable/linq_count/)(const [Func](../../system/func/)<T, **bool**>&) | Retourneert het aantal elementen in de reeks dat voldoet aan de opgegeven voorwaarde. |
+| T [LINQ_ElementAt](../ienumerable/linq_elementat/)(int) | Retourneert het element op een opgegeven index in een reeks. |
+| T [LINQ_ElementAtOrDefault](../ienumerable/linq_elementatordefault/)(int) | Retourneert het element op een opgegeven index in een reeks. |
+| T [LINQ_First](../ienumerable/linq_first/)() | Retourneert het eerste element van een reeks. |
+| T [LINQ_First](../ienumerable/linq_first/)(const [Func](../../system/func/)<T, **bool**>&) | Retourneert het eerste element van een reeks dat voldoet aan de opgegeven voorwaarde. |
+| T [LINQ_FirstOrDefault](../ienumerable/linq_firstordefault/)() | Retourneert het eerste element van een reeks, of een standaardwaarde als de reeks leeg is. |
+| T [LINQ_FirstOrDefault](../ienumerable/linq_firstordefault/)(std::function<**bool**(T)>) | Retourneert het eerste element van de reeks dat voldoet aan een voorwaarde of een standaardwaarde als geen dergelijk element wordt gevonden. |
+| [System::SharedPtr](../../system/sharedptr/)<[IEnumerable](../ienumerable/)<[System::SharedPtr](../../system/sharedptr/)<[System::Linq::IGrouping](../../system.linq/igrouping/)<Key, T>>>> [LINQ_GroupBy](../ienumerable/linq_groupby/)([System::Func](../../system/func/)<T, Key>) | Groepeert de elementen van een reeks. |
+| [System::SharedPtr](../../system/sharedptr/)<[IEnumerable](../ienumerable/)<[System::SharedPtr](../../system/sharedptr/)<[System::Linq::IGrouping](../../system.linq/igrouping/)<Key, Element>>>> [LINQ_GroupBy](../ienumerable/linq_groupby/)([System::Func](../../system/func/)<T, Key>, [System::Func](../../system/func/)<T, Element>) | Groepeert de elementen van een reeks. |
+| [SharedPtr](../../system/sharedptr/)<[IEnumerable](../ienumerable/)<[SharedPtr](../../system/sharedptr/)<[System::Linq::IGrouping](../../system.linq/igrouping/)<Key, Source>>>> [LINQ_GroupBy](../ienumerable/linq_groupby/)([System::Func](../../system/func/)<Source, Key>) |  |
+| [SharedPtr](../../system/sharedptr/)<[IEnumerable](../ienumerable/)<[SharedPtr](../../system/sharedptr/)<[System::Linq::IGrouping](../../system.linq/igrouping/)<Key, Element>>>> [LINQ_GroupBy](../ienumerable/linq_groupby/)([System::Func](../../system/func/)<Source, Key>, [System::Func](../../system/func/)<Source, Element>) |  |
+| T [LINQ_Last](../ienumerable/linq_last/)() | Retourneert het laatste element van een reeks. |
+| T [LINQ_LastOrDefault](../ienumerable/linq_lastordefault/)() | Retourneert het laatste element van een reeks, of een standaardwaarde als de reeks leeg is. |
+| ResultType [LINQ_Max](../ienumerable/linq_max/)(const [Func](../../system/func/)<T, ResultType>&) | Roepen een transformatiefunctie aan op elk element van een generieke reeks en retourneert de maximale resulterende waarde. |
+| ResultType [LINQ_Max](../ienumerable/linq_max/)(const [Func](../../system/func/)<Source, ResultType>&) |  |
+| ResultType [LINQ_Min](../ienumerable/linq_min/)(const [Func](../../system/func/)<T, ResultType>&) | Roepen een transformatiefunctie aan op elk element van een generieke reeks en retourneert de minimale resulterende waarde. |
+| ResultType [LINQ_Min](../ienumerable/linq_min/)(const [Func](../../system/func/)<Source, ResultType>&) |  |
+| [SharedPtr](../../system/sharedptr/)<[IEnumerable](../ienumerable/)<ResultType>> [LINQ_OfType](../ienumerable/linq_oftype/)() | Filtert de elementen van de reeks op basis van het opgegeven type. |
+| [SharedPtr](../../system/sharedptr/)<[IEnumerable](../ienumerable/)<Result>> [LINQ_OfType](../ienumerable/linq_oftype/)() |  |
+| [SharedPtr](../../system/sharedptr/)<[Linq::IOrderedEnumerable](../../system.linq/iorderedenumerable/)<T>> [LINQ_OrderBy](../ienumerable/linq_orderby/)(const [Func](../../system/func/)<T, Key>&) | Sorteert de elementen van een reeks in oplopende volgorde op basis van de sleutelwaarden geselecteerd door keySelector. |
+| [SharedPtr](../../system/sharedptr/)<[Linq::IOrderedEnumerable](../../system.linq/iorderedenumerable/)<Source>> [LINQ_OrderBy](../ienumerable/linq_orderby/)(const [Func](../../system/func/)<Source, Key>&) |  |
+| [SharedPtr](../../system/sharedptr/)<[Linq::IOrderedEnumerable](../../system.linq/iorderedenumerable/)<T>> [LINQ_OrderByDescending](../ienumerable/linq_orderbydescending/)(const [Func](../../system/func/)<T, Key>&) | Sorteert de elementen van een reeks in aflopende volgorde op basis van de sleutelwaarden geselecteerd door keySelector. |
+| [SharedPtr](../../system/sharedptr/)<[Linq::IOrderedEnumerable](../../system.linq/iorderedenumerable/)<Source>> [LINQ_OrderByDescending](../ienumerable/linq_orderbydescending/)(const [Func](../../system/func/)<Source, Key>&) |  |
+| [SharedPtr](../../system/sharedptr/)<[IEnumerable](../ienumerable/)<T>> [LINQ_Reverse](../ienumerable/linq_reverse/)() | Keert de volgorde van de elementen in een reeks om. |
+| [SharedPtr](../../system/sharedptr/)<[IEnumerable](../ienumerable/)<ResultType>> [LINQ_Select](../ienumerable/linq_select/)(const [Func](../../system/func/)<T, ResultType>&) | Transformeert elementen van een reeks. |
+| [SharedPtr](../../system/sharedptr/)<[IEnumerable](../ienumerable/)<ResultType>> [LINQ_Select](../ienumerable/linq_select/)(const [Func](../../system/func/)<T, **int32_t**, ResultType>&) | Transformeert elk element van een reeks in een nieuwe vorm door de index van het element te gebruiken. |
+| [SharedPtr](../../system/sharedptr/)<[IEnumerable](../ienumerable/)<Result>> [LINQ_Select](../ienumerable/linq_select/)(const [Func](../../system/func/)<Source, Result>&) |  |
+| [SharedPtr](../../system/sharedptr/)<[IEnumerable](../ienumerable/)<Result>> [LINQ_Select](../ienumerable/linq_select/)(const [Func](../../system/func/)<Source, **int32_t**, Result>&) |  |
+| [SharedPtr](../../system/sharedptr/)<[IEnumerable](../ienumerable/)<ResultType>> [LINQ_SelectMany](../ienumerable/linq_selectmany/)(const [Func](../../system/func/)<T, [SharedPtr](../../system/sharedptr/)<[IEnumerable](../ienumerable/)<ResultType>>>&) | Projiceert elk element van een reeks en combineert de resulterende reeksen tot één reeks. |
+| [SharedPtr](../../system/sharedptr/)<[IEnumerable](../ienumerable/)<Result>> [LINQ_SelectMany](../ienumerable/linq_selectmany/)(const [Func](../../system/func/)<Source, [SharedPtr](../../system/sharedptr/)<[IEnumerable](../ienumerable/)<Result>>> &) |  |
+| [SharedPtr](../../system/sharedptr/)<[IEnumerable](../ienumerable/)<T>> [LINQ_Skip](../ienumerable/linq_skip/)(**int32_t**) | Slaat een opgegeven aantal aaneengesloten elementen vanaf het begin van een reeks over en retourneert de rest. |
+| [SharedPtr](../../system/sharedptr/)<[IEnumerable](../ienumerable/)<T>> [LINQ_Take](../ienumerable/linq_take/)(**int32_t**) | Retourneert een opgegeven aantal aaneengesloten elementen vanaf het begin van een reeks. |
+| [System::ArrayPtr](../../system/arrayptr/)<T> [LINQ_ToArray](../ienumerable/linq_toarray/)() | Maakt een array aan uit een reeks. |
+| [SharedPtr](../../system/sharedptr/)<[List](../list/)<T>> [LINQ_ToList](../ienumerable/linq_tolist/)() | Maakt een List<T> aan uit een reeks. |
+| [SharedPtr](../../system/sharedptr/)<[IEnumerable](../ienumerable/)<T>> [LINQ_Where](../ienumerable/linq_where/)(std::function<**bool**(T)>) | Filtert een reeks op basis van het opgegeven predicaat. |
+| void [Lock](../../system/object/lock/)() | Implementeert C# lock()-statement vergrendeling. Roep direct aan of gebruik [LockContext](../../system/lockcontext/)-bewakingsobject. |
+| virtual [ptr](../../system/object/ptr/) [MemberwiseClone](../../system/object/memberwiseclone/)() const | Analoge van C# [Object.MemberwiseClone()](../../system/object/memberwiseclone/)-methode. Maakt klonen van aangepaste types mogelijk. |
+| [Object](../../system/object/object/)() | Maakt object aan. Initialiseert alle interne datastructuren. |
+| [Object](../../system/object/object/)([Object](../../system/object/) const&) | Copyconstructor. Kopieert niets echt, initialiseert slechts een nieuw object en maakt kopie-constructie van subklassen mogelijk. |
+| [Object](../../system/object/)& [operator=](../../system/object/operator_equal/)([Object](../../system/object/) const&) | Toewijzingsoperator. Kopieert niets echt, initialiseert slechts een nieuw object en maakt kopie-constructie van subklassen mogelijk. |
+| T [Peek](./peek/)() | Haalt element van de bovenkant van de stack, maar laat het in de stack staan. |
+| T [Pop](./pop/)() | Haalt element van de bovenkant van de stack. |
+| void [Push](./push/)(const T&) | Voegt element toe aan de bovenkant van de stack. |
+| static **bool** [ReferenceEquals](../../system/object/referenceequals/)([ptr](../../system/object/ptr/) const&, [ptr](../../system/object/ptr/) const&) | Vergelijkt objecten op referentie. |
+| static std::enable_if<![IsSmartPtr](../../system/issmartptr/)<T>::value, **bool**>::type [ReferenceEquals](../../system/object/referenceequals/)(T const&, T const&) | Vergelijkt objecten op referentie. |
+| static std::enable_if<![IsSmartPtr](../../system/issmartptr/)<T>::value, **bool**>::type [ReferenceEquals](../../system/object/referenceequals/)(T const&, std::nullptr_t) | Vergelijkt een waardetype-object per referentie met nullptr. |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const&, std::nullptr_t) | Specialisatie van [Object::ReferenceEquals](../../system/object/referenceequals/) voor het geval string en nullptr. |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const&, [String](../../system/string/) const&) | Specialisatie van [Object::ReferenceEquals](../../system/object/referenceequals/) voor het geval strings. |
+| int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Verlaagt de gedeelde referentieteller met de opgegeven waarde. |
+| virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | Stelt het n'th template-argument in op een zwakke pointer (in plaats van gedeelde). Hiermee kan men pointers in containers naar zwakke modus schakelen. |
+| int [SharedCount](../../system/object/sharedcount/)() const | Haalt de huidige waarde van de gedeelde referentieteller op. |
+| [Object](../../system/object/) * [SharedRefAdded](../../system/object/sharedrefadded/)() | Verhoogt de gedeelde referentieteller. Moet niet rechtstreeks worden aangeroepen; gebruik in plaats daarvan slimme pointers of ThisProtector. |
+| int [SharedRefRemovedSafe](../../system/object/sharedrefremovedsafe/)() | Verlaagt en retourneert de gedeelde referentieteller. Moet niet rechtstreeks worden aangeroepen; gebruik in plaats daarvan slimme pointers of ThisProtector. |
+| [Stack](./stack/)() | Construeert een lege stack. |
+| [Stack](./stack/)(int) | Construeert een lege stack. |
+| [Stack](./stack/)([IEnumerablePtr](./ienumerableptr/)) | Copyconstructor. |
+| virtual [ArrayPtr](../../system/arrayptr/)<T> [ToArray](./toarray/)() | Converteert stack naar array. |
+| virtual [String](../../system/string/) [ToString](../../system/object/tostring/)() const | Analoge van C# [Object.ToString()](../../system/object/tostring/)-methode. Maakt converteren van aangepaste objecten naar string mogelijk. |
+| static const [TypeInfo](../../system/typeinfo/)& [Type](../../system/object/type/)() | Implementeert C# typeof([System.Object](../../system/object/))-construct. |
+| void [Unlock](../../system/object/unlock/)() | Implementeert C# lock()-statement ontgrendeling. Roep direct aan of gebruik [LockContext](../../system/lockcontext/)-bewakingsobject. |
+| System::Details::VirtualizedIteratorBase<T> * [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override | Haalt de implementatie op van begin const iterator voor de huidige container. |
+| System::Details::VirtualizedIteratorBase<T> * [virtualizeBeginIterator](./virtualizebeginiterator/)() override | Haalt de implementatie op van begin iterator voor de huidige container. |
+| System::Details::VirtualizedIteratorBase<T> * [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const override | Haalt de implementatie op van end const iterator voor de huidige container. |
+| System::Details::VirtualizedIteratorBase<T> * [virtualizeEndIterator](./virtualizeenditerator/)() override | Haalt de implementatie op van end iterator voor de huidige container. |
+| Detail::SmartPtrCounter * [WeakRefAdded](../../system/object/weakrefadded/)() | Verhoogt de zwakke referentieteller. Moet niet rechtstreeks worden aangeroepen; gebruik in plaats daarvan slimme pointers of ThisProtector. |
+| void [WeakRefRemoved](../../system/object/weakrefremoved/)() | Verlaagt de zwakke referentieteller. Moet niet rechtstreeks worden aangeroepen; gebruik in plaats daarvan slimme pointers of ThisProtector. |
+| virtual [~Object](../../system/object/~object/)() | Vernietigt object. Vrijt alle interne datastructuren. |
+
+## Typedefs
+
+| Typedef | Beschrijving |
+| --- | --- |
+| [ValueType](./valuetype/) | Waarde type. |
+| [stack_t](./stack_t/) | Onderliggend datatype. |
+| [IEnumerablePtr](./ienumerableptr/) | Collectie met elementen van hetzelfde type. |
+| [IEnumeratorPtr](./ienumeratorptr/) | **Enumerator** type. |
+
+## Opmerkingen
+
+[Stack](./) klasse die std::list omsluit. Objecten van deze klasse mogen alleen worden gealloceerd met behulp van de [System::MakeObject()](../../system/makeobject/)-functie. Maak nooit een instantie van dit type op de stack of met operator new, omdat dit leidt tot runtime-fouten en/of assertiefouten. Wikkel deze klasse altijd in een [System::SmartPtr](../../system/smartptr/)-pointer en gebruik deze pointer om deze als argument aan functies door te geven.
+
+```cpp
+#include <system/collections/stack.h>
+#include <system/smart_ptr.h>
+
+using namespace System;
+using namespace System::Collections::Generic;
+
+void PrintItems(const SmartPtr<IEnumerable<int>> &stack)
+{
+  for (const auto item: stack)
+  {
+    std::cout << item << ' ';
+  }
+  std::cout << std::endl;
+}
+
+int main()
+{
+  // Maak een instantie van de Stack-klasse.
+  auto stack = MakeObject<Stack<int>>();
+
+  // Vul de stack.
+  stack->Push(1);
+  stack->Push(2);
+  stack->Push(3);
+
+  // Print het laatste element van de stack. De Peek-methode verwijdert geen element uit de stack.
+  std::cout << stack->Peek() << std::endl;
+  PrintItems(stack);
+
+  // Print het laatste element van de stack. De Pop-methode verwijdert een element uit de stack.
+  std::cout << stack->Pop() << std::endl;
+  PrintItems(stack);
+
+  return 0;
+}
+/*
+Dit codevoorbeeld produceert de volgende uitvoer:
+3
+3 2 1
+3
+2 1
+*/
+```
+
+## Zie ook
+
+* Klasse [IEnumerable](../ienumerable/)
+* Namespace [System::Collections::Generic](../)
+* Bibliotheek [Aspose.Slides](../../)
