@@ -1,0 +1,26 @@
+---
+title: get_Text()
+second_title: Aspose.Slides voor C++ API-referentie
+description: "Haalt de platte tekst op voor een TextFrame. Lees System::String."
+type: docs
+weight: 14
+url: /nl/aspose.slides/itextframe/get_text/
+---
+## ITextFrame::get_Text() methode
+
+Haalt de platte tekst op voor een [TextFrame](../../textframe/). Lees [System::String](../../../system/string/).
+
+```cpp
+virtual System::String Aspose::Slides::ITextFrame::get_Text()=0
+```
+
+## Opmerkingen
+
+De tekst.
+
+## Zie ook
+
+* Klasse [String](../../../system/string/)
+* Klasse [ITextFrame](../)
+* Naamruimte [Aspose::Slides](../../)
+* Bibliotheek [Aspose.Slides](../../../)

@@ -1,0 +1,23 @@
+---
+title: get_AsLiteralString()
+second_title: Aspose.Slides voor C++ API-referentie
+description: "Retourneert de waarde als letterlijke string. Lees System::String."
+type: docs
+weight: 27
+url: /nl/aspose.slides.charts/stringordoublechartvalue/get_asliteralstring/
+---
+## StringOrDoubleChartValue::get_AsLiteralString() methode
+
+
+Retourneert de waarde als letterlijke string. Lees [System::String](../../../system/string/).
+
+```cpp
+System::String Aspose::Slides::Charts::StringOrDoubleChartValue::get_AsLiteralString() override
+```
+
+## Zie ook
+
+* Klasse [String](../../../system/string/)
+* Klasse [StringOrDoubleChartValue](../)
+* Naamruimte [Aspose::Slides::Charts](../../)
+* Bibliotheek [Aspose.Slides](../../../)
