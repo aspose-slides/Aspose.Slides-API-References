@@ -3,7 +3,7 @@ title: GetRect
 second_title: Aspose.Sildes for .NET API Reference
 description: Get coordinates of rect that bounds paragraph. The rect includes all the lines of text in paragraph including empty ones.
 type: docs
-weight: 70
+weight: 80
 url: /aspose.slides/paragraph/getrect/
 ---
 

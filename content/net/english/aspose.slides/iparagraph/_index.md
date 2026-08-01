@@ -29,6 +29,8 @@ public interface IParagraph : ISlideComponent
 
 | Name | Description |
 | --- | --- |
+| [GetImage](../../aspose.slides/iparagraph/getimage#getimage)() | Returns an image of the paragraph. |
+| [GetImage](../../aspose.slides/iparagraph/getimage#getimage_1)(float, float) | Returns an image of the paragraph with the specified scale. |
 | [GetLinesCount](../../aspose.slides/iparagraph/getlinescount)() | Get number of lines in a paragraph. |
 | [GetRect](../../aspose.slides/iparagraph/getrect)() | Get coordinates of rect that bounds paragraph. The rect includes all the lines of text in paragraph, including empty ones. |
 | [JoinPortionsWithSameFormatting](../../aspose.slides/iparagraph/joinportionswithsameformatting)() | Joins runs with same formatting. |
