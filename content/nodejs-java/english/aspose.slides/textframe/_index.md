@@ -57,7 +57,7 @@ url: /aspose.slides/textframe/
 | getParentShape () | Returns the parent shape or null if the parent object does not implement the IShape interface Read-only IShape. |
 
  **Returns:**
-[Shape](../shape), [VideoFrame](../videoframe), [SmartArtShape](../smartartshape), [SummaryZoomSection](../summaryzoomsection), [GroupShape](../groupshape), [ZoomFrame](../zoomframe), [PictureFrame](../pictureframe), [Table](../table), [OleObjectFrame](../oleobjectframe), [LegacyDiagram](../legacydiagram), [AutoShape](../autoshape), [SmartArt](../smartart), [SectionZoomFrame](../sectionzoomframe), [Ink](../ink), [Chart](../chart), [ZoomObject](../zoomobject), [SummaryZoomFrame](../summaryzoomframe), [Connector](../connector), [AudioFrame](../audioframe), [GeometryShape](../geometryshape), [InkActions](../inkactions), [GraphicalObject](../graphicalobject)
+[AutoShape](../autoshape), [ZoomObject](../zoomobject), [SmartArt](../smartart), [LegacyDiagram](../legacydiagram), [SummaryZoomFrame](../summaryzoomframe), [AudioFrame](../audioframe), [SummaryZoomSection](../summaryzoomsection), [VideoFrame](../videoframe), [Table](../table), [GeometryShape](../geometryshape), [InkActions](../inkactions), [SmartArtShape](../smartartshape), [GraphicalObject](../graphicalobject), [Shape](../shape), [OleObjectFrame](../oleobjectframe), [ZoomFrame](../zoomframe), [Ink](../ink), [GroupShape](../groupshape), [Chart](../chart), [SectionZoomFrame](../sectionzoomframe), [PictureFrame](../pictureframe), [Connector](../connector)
 
 
 ---
@@ -83,7 +83,7 @@ url: /aspose.slides/textframe/
 | getSlide () | Returns the parent slide of a TextFrame. Read-only IBaseSlide. |
 
  **Returns:**
-[Slide](../slide), [MasterHandoutSlide](../masterhandoutslide), [MasterSlide](../masterslide), [MasterNotesSlide](../masternotesslide), [BaseSlide](../baseslide), [LayoutSlide](../layoutslide), [NotesSlide](../notesslide)
+[NotesSlide](../notesslide), [MasterSlide](../masterslide), [MasterNotesSlide](../masternotesslide), [BaseSlide](../baseslide), [LayoutSlide](../layoutslide), [MasterHandoutSlide](../masterhandoutslide), [Slide](../slide)
 
 
 ---

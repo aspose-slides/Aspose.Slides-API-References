@@ -15,31 +15,6 @@ url: /aspose.slides/slidesaiagent/
 
 | Name | Description |
 | --- | --- |
-| SlidesAIAgent([OpenAIWebClient](../openaiwebclient)) | Initializes a new instance of SlidesAIAgent with a custom AI client. Use this overload to specify the AI provider, supply your own LLM, or customize the connection (for example, by providing your own java.net.HttpURLConnection). Any implementation of IAIWebClient can be used. To use the built-in AsposeAIWebClient with its default configuration, use the SlidesAIAgent() overload instead. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| aiClient | [OpenAIWebClient](../openaiwebclient) | AI client instance. Any implementation of IAIWebClient can be used. |
-
- **Returns:**
-SlidesAIAgent
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | ArgumentNullException | AI client instance is not provided. |
-
-
----
-
-
-### SlidesAIAgent {#SlidesAIAgent}
-
-| Name | Description |
-| --- | --- |
 | SlidesAIAgent([OpenAICompatibleWebClient](../openaicompatiblewebclient)) | Initializes a new instance of SlidesAIAgent with a custom AI client. Use this overload to specify the AI provider, supply your own LLM, or customize the connection (for example, by providing your own java.net.HttpURLConnection). Any implementation of IAIWebClient can be used. To use the built-in AsposeAIWebClient with its default configuration, use the SlidesAIAgent() overload instead. |
 
  **Parameters:**
@@ -72,6 +47,31 @@ SlidesAIAgent
 | Name | Type | Description |
 | --- | --- | --- |
 | aiClient | [AsposeAIWebClient](../asposeaiwebclient) | AI client instance. Any implementation of IAIWebClient can be used. |
+
+ **Returns:**
+SlidesAIAgent
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentNullException | AI client instance is not provided. |
+
+
+---
+
+
+### SlidesAIAgent {#SlidesAIAgent}
+
+| Name | Description |
+| --- | --- |
+| SlidesAIAgent([OpenAIWebClient](../openaiwebclient)) | Initializes a new instance of SlidesAIAgent with a custom AI client. Use this overload to specify the AI provider, supply your own LLM, or customize the connection (for example, by providing your own java.net.HttpURLConnection). Any implementation of IAIWebClient can be used. To use the built-in AsposeAIWebClient with its default configuration, use the SlidesAIAgent() overload instead. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| aiClient | [OpenAIWebClient](../openaiwebclient) | AI client instance. Any implementation of IAIWebClient can be used. |
 
  **Returns:**
 SlidesAIAgent

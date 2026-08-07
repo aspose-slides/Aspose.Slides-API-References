@@ -96,6 +96,26 @@ url: /aspose.slides/output/
 
 | Name | Description |
 | --- | --- |
+| add (String, [Audio](../audio)) | Adds an output element for the audio. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| path | String | Output path. |
+| audio | [Audio](../audio) | Audio to output. |
+
+ **Returns:**
+[OutputFile](../outputfile)
+
+
+---
+
+
+### add {#add}
+
+| Name | Description |
+| --- | --- |
 | add (String, [FontData](../fontdata), int) | Creates and adds an output file element for the specified font. |
 
  **Parameters:**

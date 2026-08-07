@@ -50,6 +50,39 @@ Paragraph
 ---
 
 
+### getImage {#getImage}
+
+| Name | Description |
+| --- | --- |
+| getImage () | Returns an image of the paragraph. |
+
+ **Returns:**
+SlidesImage
+
+
+---
+
+
+### getImage {#getImage}
+
+| Name | Description |
+| --- | --- |
+| getImage (float, float) | Returns an image of the paragraph with the specified scale. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| scaleX | float | The horizontal scale factor applied to the paragraph image. |
+| scaleY | float | The vertical scale factor applied to the paragraph image. |
+
+ **Returns:**
+SlidesImage
+
+
+---
+
+
 ### getLinesCount {#getLinesCount}
 
 | Name | Description |
@@ -122,7 +155,7 @@ Rectangle2D.Float
 | getSlide () | Returns the parent slide of a paragraph. Read-only BaseSlide. |
 
  **Returns:**
-[Slide](../slide), [MasterHandoutSlide](../masterhandoutslide), [MasterSlide](../masterslide), [MasterNotesSlide](../masternotesslide), [BaseSlide](../baseslide), [LayoutSlide](../layoutslide), [NotesSlide](../notesslide)
+[NotesSlide](../notesslide), [MasterSlide](../masterslide), [MasterNotesSlide](../masternotesslide), [BaseSlide](../baseslide), [LayoutSlide](../layoutslide), [MasterHandoutSlide](../masterhandoutslide), [Slide](../slide)
 
 
 ---
