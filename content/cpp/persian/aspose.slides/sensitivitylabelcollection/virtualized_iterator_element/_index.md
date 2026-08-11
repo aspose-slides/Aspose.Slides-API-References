@@ -1,0 +1,22 @@
+---
+title: virtualized_iterator_element
+second_title: Aspose.Slides برای C++ مرجع API
+description: نوع عنصر مجازی‌سازی‌شده.
+type: docs
+weight: 248
+url: /fa/aspose.slides/sensitivitylabelcollection/virtualized_iterator_element/
+---
+## virtualized_iterator_element typedef
+
+
+نوع عنصر مجازی‌سازی‌شده.
+
+```cpp
+using Aspose::Slides::SensitivityLabelCollection::virtualized_iterator_element =  typename iterator_holder_type::virtualized_iterator_element
+```
+
+## موارد مرتبط
+
+* کلاس [SensitivityLabelCollection](../)
+* فضای نام [Aspose::Slides](../../)
+* کتابخانه [Aspose.Slides](../../../)
