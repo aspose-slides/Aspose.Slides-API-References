@@ -1,0 +1,39 @@
+---
+title: get_SlidesLayoutOptions()
+second_title: مرجع API لـ Aspose.Slides للـ C++
+description: يحصل على الوضع الذي توضع فيه الشرائح على الصفحة عند تصدير عرض تقديمي ISlidesLayoutOptions.
+type: docs
+weight: 1
+url: /ar/aspose.slides.export/htmloptions/get_slideslayoutoptions/
+---
+## HtmlOptions::get_SlidesLayoutOptions() طريقة
+
+يحصل على الوضع الذي تُوضع فيه الشرائح على الصفحة عند تصدير عرض تقديمي [ISlidesLayoutOptions](../../islideslayoutoptions/).
+
+```cpp
+System::SharedPtr<ISlidesLayoutOptions> Aspose::Slides::Export::HtmlOptions::get_SlidesLayoutOptions() override
+```
+
+## ملاحظات
+
+
+مثال: 
+```cpp
+System::SharedPtr<Presentation> pres = System::MakeObject<Presentation>(u"pres.pptx");
+
+System::SharedPtr<HandoutLayoutingOptions> handoutLayoutingOptions = System::MakeObject<HandoutLayoutingOptions>();
+handoutLayoutingOptions->set_Handout(HandoutType::Handouts4Horizontal);
+
+System::SharedPtr<HtmlOptions> options = System::MakeObject<HtmlOptions>();
+options->set_SlidesLayoutOptions(handoutLayoutingOptions);
+
+pres->Save(u"pres.html", SaveFormat::Html, options);
+```
+
+## انظر أيضًا
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* فئة [ISlidesLayoutOptions](../../islideslayoutoptions/)
+* فئة [HtmlOptions](../)
+* نطاق [Aspose::Slides::Export](../../)
+* مكتبة [Aspose.Slides](../../../)

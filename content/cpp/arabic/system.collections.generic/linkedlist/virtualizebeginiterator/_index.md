@@ -1,0 +1,25 @@
+---
+title: virtualizeBeginIterator()
+second_title: مرجع API لـ Aspose.Slides للغة C++
+description: يحصل على تنفيذ مؤشر البداية للحاوية الحالية.
+type: docs
+weight: 339
+url: /ar/system.collections.generic/linkedlist/virtualizebeginiterator/
+---
+## LinkedList::virtualizeBeginIterator() طريقة
+
+يحصل على تنفيذ مؤشر البداية للحاوية الحالية.
+
+```cpp
+System::Details::VirtualizedIteratorBase<T> * System::Collections::Generic::LinkedList<T>::virtualizeBeginIterator() override
+```
+
+### قيمة الإرجاع
+
+مؤشر إلى كائن نواة المؤشر الذي تم إنشاؤه حديثًا.
+
+## انظر أيضًا
+
+* الفئة [LinkedList](../)
+* النطاق [System::Collections::Generic](../../)
+* المكتبة [Aspose.Slides](../../../)

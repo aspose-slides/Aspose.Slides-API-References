@@ -1,0 +1,37 @@
+---
+title: "System::ComponentModel"
+second_title: مرجع API لـ Aspose.Slides للغة C++
+description: 
+type: docs
+weight: 404
+url: /ar/system.componentmodel/
+---
+## الفئات
+
+| Class | الوصف |
+| --- | --- |
+| [AsyncCompletedEventArgs](./asynccompletedeventargs/) | يتم تمرير نسخة من هذه الفئة كوسيطة إلى تفويض AsyncCompletedEventHandler. يجب تخصيص كائنات هذه الفئة فقط باستخدام الدالة [System::MakeObject()](../system/makeobject/). لا تقم بإنشاء نسخة من هذا النوع على المكدس أو باستخدام المشغل new، حيث سيؤدي ذلك إلى أخطاء وقت التشغيل و/أو أخطاء التأكيد. دائمًا قم بلف هذه الفئة في مؤشر [System::SmartPtr](../system/smartptr/) واستخدم هذا المؤشر لتمريره إلى الدوال كوسيطة. |
+| [BackgroundWorker](./backgroundworker/) | يجب تخصيص كائنات هذه الفئة فقط باستخدام الدالة [System::MakeObject()](../system/makeobject/). لا تقم بإنشاء نسخة من هذا النوع على المكدس أو باستخدام المشغل new، حيث سيؤدي ذلك إلى أخطاء وقت التشغيل و/أو أخطاء التأكيد. دائمًا قم بلف هذه الفئة في مؤشر [System::SmartPtr](../system/smartptr/) واستخدم هذا المؤشر لتمريره إلى الدوال كوسيطة. |
+| [CancelEventArgs](./canceleventargs/) | وسائط الحدث القابل للإلغاء. يجب تخصيص كائنات هذه الفئة فقط باستخدام الدالة [System::MakeObject()](../system/makeobject/). لا تقم بإنشاء نسخة من هذا النوع على المكدس أو باستخدام المشغل new، حيث سيؤدي ذلك إلى أخطاء وقت التشغيل و/أو أخطاء التأكيد. دائمًا قم بلف هذه الفئة في مؤشر [System::SmartPtr](../system/smartptr/) واستخدم هذا المؤشر لتمريره إلى الدوال كوسيطة. |
+| [Component](./component/) | فئة وهمية لجعل الشيفرة المترجمة باستخدام الفئة [Component](./component/) قابلة للتجميع. يجب تخصيص كائنات هذه الفئة فقط باستخدام الدالة [System::MakeObject()](../system/makeobject/). لا تقم بإنشاء نسخة من هذا النوع على المكدس أو باستخدام المشغل new، حيث سيؤدي ذلك إلى أخطاء وقت التشغيل و/أو أخطاء التأكيد. دائمًا قم بلف هذه الفئة في مؤشر [System::SmartPtr](../system/smartptr/) واستخدم هذا المؤشر لتمريره إلى الدوال كوسيطة. |
+| [Container](./container/) | فئة وهمية لتشغيل الشيفرة المترجمة باستخدام الفئة [Container](./container/). يجب تخصيص كائنات هذه الفئة فقط باستخدام الدالة [System::MakeObject()](../system/makeobject/). لا تقم بإنشاء نسخة من هذا النوع على المكدس أو باستخدام المشغل new، حيث سيؤدي ذلك إلى أخطاء وقت التشغيل و/أو أخطاء التأكيد. دائمًا قم بلف هذه الفئة في مؤشر [System::SmartPtr](../system/smartptr/) واستخدم هذا المؤشر لتمريره إلى الدوال كوسيطة. |
+| [Details_InvalidEnumArgumentException](./details_invalidenumargumentexception/) |  |
+| [Details_Win32Exception](./details_win32exception/) | يرمي استثناءً لرمز خطأ Win32. لا تقم بإنشاء نسخ من هذه الفئة يدويًا. استخدم فئة Win32Exception بدلاً من ذلك. لا تقم بلف نسخ فئة Win32Exception في [System::SmartPtr](../system/smartptr/). |
+| [DoWorkEventArgs](./doworkeventargs/) | وسائط حدث DoWork. يجب تخصيص كائنات هذه الفئة فقط باستخدام الدالة [System::MakeObject()](../system/makeobject/). لا تقم بإنشاء نسخة من هذا النوع على المكدس أو باستخدام المشغل new، حيث سيؤدي ذلك إلى أخطاء وقت التشغيل و/أو أخطاء التأكيد. دائمًا قم بلف هذه الفئة في مؤشر [System::SmartPtr](../system/smartptr/) واستخدم هذا المؤشر لتمريره إلى الدوال كوسيطة. |
+| [EnumConverter](./enumconverter/) | فئة وهمية لتمكين تجميع الشيفرة المترجمة التي تستخدم EnumConverter. يجب تخصيص كائنات هذه الفئة فقط باستخدام الدالة [System::MakeObject()](../system/makeobject/). لا تقم بإنشاء نسخة من هذا النوع على المكدس أو باستخدام المشغل new، حيث سيؤدي ذلك إلى أخطاء وقت التشغيل و/أو أخطاء التأكيد. دائمًا قم بلف هذه الفئة في مؤشر [System::SmartPtr](../system/smartptr/) واستخدم هذا المؤشر لتمريره إلى الدوال كوسيطة. |
+| [IComponent](./icomponent/) | فئة وهمية لتمكين تجميع الشيفرة التي تستخدم IComponent بعد الترجمة. يجب تخصيص كائنات هذه الفئة فقط باستخدام الدالة [System::MakeObject()](../system/makeobject/). لا تقم بإنشاء نسخة من هذا النوع على المكدس أو باستخدام المشغل new، حيث سيؤدي ذلك إلى أخطاء وقت التشغيل و/أو أخطاء التأكيد. دائمًا قم بلف هذه الفئة في مؤشر [System::SmartPtr](../system/smartptr/) واستخدم هذا المؤشر لتمريره إلى الدوال كوسيطة. |
+| [IContainer](./icontainer/) | واجهة وهمية لتمكين تجميع الشيفرة التي تستخدم IContainer. يجب تخصيص كائنات هذه الفئة فقط باستخدام الدالة [System::MakeObject()](../system/makeobject/). لا تقم بإنشاء نسخة من هذا النوع على المكدس أو باستخدام المشغل new، حيث سيؤدي ذلك إلى أخطاء وقت التشغيل و/أو أخطاء التأكيد. دائمًا قم بلف هذه الفئة في مؤشر [System::SmartPtr](../system/smartptr/) واستخدم هذا المؤشر لتمريره إلى الدوال كوسيطة. |
+| [ITypeDescriptorContext](./itypedescriptorcontext/) | واجهة وهمية لتمكين تجميع الشيفرة التي تستخدم ITypeDescriptorContext. يجب تخصيص كائنات هذه الفئة فقط باستخدام الدالة [System::MakeObject()](../system/makeobject/). لا تقم بإنشاء نسخة من هذا النوع على المكدس أو باستخدام المشغل new، حيث سيؤدي ذلك إلى أخطاء وقت التشغيل و/أو أخطاء التأكيد. دائمًا قم بلف هذه الفئة في مؤشر [System::SmartPtr](../system/smartptr/) واستخدم هذا المؤشر لتمريره إلى الدوال كوسيطة. |
+| [ProgressChangedEventArgs](./progresschangedeventargs/) | يتم تمرير نسخة من هذه الفئة كوسيطة إلى تفويض ProgressChangedEventHandler. يجب تخصيص كائنات هذه الفئة فقط باستخدام الدالة [System::MakeObject()](../system/makeobject/). لا تقم بإنشاء نسخة من هذا النوع على المكدس أو باستخدام المشغل new، حيث سيؤدي ذلك إلى أخطاء وقت التشغيل و/أو أخطاء التأكيد. دائمًا قم بلف هذه الفئة في مؤشر [System::SmartPtr](../system/smartptr/) واستخدم هذا المؤشر لتمريره إلى الدوال كوسيطة. |
+| [PropertyChangedEventArgs](./propertychangedeventargs/) | وسائط حدث PropertyChanged. يجب تخصيص كائنات هذه الفئة فقط باستخدام الدالة [System::MakeObject()](../system/makeobject/). لا تقم بإنشاء نسخة من هذا النوع على المكدس أو باستخدام المشغل new، حيث سيؤدي ذلك إلى أخطاء وقت التشغيل و/أو أخطاء التأكيد. دائمًا قم بلف هذه الفئة في مؤشر [System::SmartPtr](../system/smartptr/) واستخدم هذا المؤشر لتمريره إلى الدوال كوسيطة. |
+| [RunWorkerCompletedEventArgs](./runworkercompletedeventargs/) | يتم تمرير نسخة من هذه الفئة كوسيطة إلى تفويض RunWorkerCompletedEventHandler. يجب تخصيص كائنات هذه الفئة فقط باستخدام الدالة [System::MakeObject()](../system/makeobject/). لا تقم بإنشاء نسخة من هذا النوع على المكدس أو باستخدام المشغل new، حيث سيؤدي ذلك إلى أخطاء وقت التشغيل و/أو أخطاء التأكيد. دائمًا قم بلف هذه الفئة في مؤشر [System::SmartPtr](../system/smartptr/) واستخدم هذا المؤشر لتمريره إلى الدوال كوسيطة. |
+| [TypeConverter](./typeconverter/) | فئة تتعامل مع تحويل الأنواع في نموذج المكوّن. يجب تخصيص كائنات هذه الفئة فقط باستخدام الدالة [System::MakeObject()](../system/makeobject/). لا تقم بإنشاء نسخة من هذا النوع على المكدس أو باستخدام المشغل new، حيث سيؤدي ذلك إلى أخطاء وقت التشغيل و/أو أخطاء التأكيد. دائمًا قم بلف هذه الفئة في مؤشر [System::SmartPtr](../system/smartptr/) واستخدم هذا المؤشر لتمريره إلى الدوال كوسيطة. |
+| [TypeDescriptor](./typedescriptor/) | فئة وهمية لتمكين تجميع الشيفرة التي تستخدم TypeDescriptor بعد الترجمة. يجب تخصيص كائنات هذه الفئة فقط باستخدام الدالة [System::MakeObject()](../system/makeobject/). لا تقم بإنشاء نسخة من هذا النوع على المكدس أو باستخدام المشغل new، حيث سيؤدي ذلك إلى أخطاء وقت التشغيل و/أو أخطاء التأكيد. دائمًا قم بلف هذه الفئة في مؤشر [System::SmartPtr](../system/smartptr/) واستخدم هذا المؤشر لتمريره إلى الدوال كوسيطة. |
+## أنواع التعريف
+
+| Typedef | الوصف |
+| --- | --- |
+| [DoWorkEventHandler](./doworkeventhandler/) | نوع المعالج لمعالجة حدث DoWork. |
+| [PropertyChangedEventHandler](./propertychangedeventhandler/) | نوع المعالج لمعالجة حدث PropertyChanged. |
+| [Win32Exception](./win32exception/) |  |
+| [InvalidEnumArgumentException](./invalidenumargumentexception/) |  |

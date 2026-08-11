@@ -1,0 +1,21 @@
+---
+title: set_ShowHiddenSlides()
+second_title: مرجع API Aspose.Slides للـ C++
+description: يحدد ما إذا كان المستند المُنشأ يجب أن يتضمن الشرائح المخفية أم لا. القيمة الافتراضية هي false.
+type: docs
+weight: 92
+url: /ar/aspose.slides.export/itiffoptions/set_showhiddenslides/
+---
+## ITiffOptions::set_ShowHiddenSlides(bool) طريقة
+
+يحدد ما إذا كان المستند المُنشأ يجب أن يتضمن الشرائح المخفية أم لا. القيمة الافتراضية هي **false**.
+
+```cpp
+virtual void Aspose::Slides::Export::ITiffOptions::set_ShowHiddenSlides(bool value)=0
+```
+
+## انظر أيضًا
+
+* الفئة [ITiffOptions](../)
+* النطاق [Aspose::Slides::Export](../../)
+* المكتبة [Aspose.Slides](../../../)

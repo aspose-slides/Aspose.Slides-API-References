@@ -1,0 +1,70 @@
+---
+title: FromBase64Transform
+second_title: مرجع API Aspose.Slides للغة C++
+description: "يقوم بتحويل مثيل فئة CryptoStream من base 64. يجب تخصيص كائنات هذه الفئة باستخدام دالة System::MakeObject() فقط. لا تقم بإنشاء مثيل من هذا النوع على المكدس أو باستخدام معامل new، لأن ذلك سيسبب أخطاء وقت التشغيل و/أو أخطاء التأكيد. يجب دائمًا تغليف هذه الفئة في مؤشر System::SmartPtr واستخدام هذا المؤشر لتمريره إلى الدوال كوسيط."
+type: docs
+weight: 209
+url: /ar/system.security.cryptography/frombase64transform/
+---
+## FromBase64Transform فئة
+
+Converts the [CryptoStream](../cryptostream/) فئة instance from base 64. Objects of this فئة should only be allocated using [System::MakeObject()](../../system/makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this فئة into [System::SmartPtr](../../system/smartptr/) pointer and use this pointer to pass it to functions as argument.
+
+```cpp
+class FromBase64Transform : public System::Security::Cryptography::ICryptoTransform
+```
+
+## الطرق
+
+| طريقة | وصف |
+| --- | --- |
+| void [Clear](./clear/)() | يطلق جميع الموارد. |
+| void [Dispose](./dispose/)() | يطلق موارد نظام التشغيل التي حصل عليها الكائن الحالي. |
+| virtual **bool** [Equals](../../system/object/equals/)([ptr](../../system/object/ptr/)) | يقارن الكائنات باستخدام دلالات C# [Object.Equals](../../system/object/equals/). |
+| static std::enable_if\<[IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | يقارن كائنات النوع المرجعي بأسلوب C#. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&\![IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | يقارن كائنات النوع القيمي بأسلوب C#. |
+| static **bool** [Equals](../../system/object/equals/)(**float** const\&, **float** const\&) | يحاكي مقارنة النقطة العائمة بأسلوب C# حيث يُعتبر NaNانان متساويين على الرغم من أن IEC 60559:1989 تنص على أن NaN ليس مساويًا لأي قيمة، بما في ذلك NaN. |
+| static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | يحاكي مقارنة النقطة العائمة بأسلوب C# حيث يُعتبر NaNانان متساويين على الرغم من أن IEC 60559:1989 تنص على أن NaN ليس مساويًا لأي قيمة، بما في ذلك NaN. |
+| virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | لأغراض داخلية فقط. |
+| [FromBase64Transform](./frombase64transform/)() | منشئ. |
+| [FromBase64Transform](./frombase64transform/)([FromBase64TransformMode](../frombase64transformmode/)) | منشئ. |
+| virtual **bool** [get_CanReuseTransform](./get_canreusetransform/)() | يحصل على قيمة تشير إلى ما إذا كان التحويل الحالي يمكن إعادة استخدامه. |
+| **bool** [get_CanTransformMultipleBlocks](./get_cantransformmultipleblocks/)() | يحصل على قيمة تشير إلى ما إذا كان يمكن تحويل كتل متعددة. |
+| virtual **int32_t** [get_InputBlockSize](./get_inputblocksize/)() | حجم كتلة الإدخال. |
+| virtual **int32_t** [get_OutputBlockSize](./get_outputblocksize/)() | حجم كتلة الإخراج. |
+| Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | يحصل على بنية بيانات عدّاد المرجع المرتبط بالكائن. |
+| virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | نظير C# [Object.GetHashCode()](../../system/object/gethashcode/). يتيح تجزئة الكائنات المخصصة. |
+| virtual const [TypeInfo](../../system/typeinfo/)\& [GetType](../../system/object/gettype/)() const | يحصل على النوع الفعلي للكائن. نظير استدعاء C# [System.Object.GetType()](../../system/object/gettype/). |
+| virtual **bool** [Is](../../system/object/is/)(const [TypeInfo](../../system/typeinfo/)\&) const | يتحقق مما إذا كان الكائن يمثل مثيلًا للنوع الموصوف بـ targetType. نظير عامل C# 'is'. |
+| void [Lock](../../system/object/lock/)() | ينفذ قفل عبارة lock() في C#. استدع مباشرة أو استخدم كائن الحراسة [LockContext](../../system/lockcontext/). |
+| virtual [ptr](../../system/object/ptr/) [MemberwiseClone](../../system/object/memberwiseclone/)() const | نظير C# [Object.MemberwiseClone()](../../system/object/memberwiseclone/). يتيح استنساخ الأنواع المخصصة. |
+| [Object](../../system/object/object/)() | ينشئ كائنًا. يهيئ جميع بنى البيانات الداخلية. |
+| [Object](../../system/object/object/)([Object](../../system/object/) const\&) | منشئ نسخ. لا ينسخ شيئًا فعليًا، بل يهيئ كائنًا جديدًا ويسمح بنسخ إنشاء الفئات الفرعية. |
+| [Object](../../system/object/)\& [operator=](../../system/object/operator_equal/)([Object](../../system/object/) const\&) | عامل الإسناد. لا ينسخ شيئًا فعليًا، بل يهيئ كائنًا جديدًا ويسمح بنسخ إنشاء الفئات الفرعية. |
+| static **bool** [ReferenceEquals](../../system/object/referenceequals/)([ptr](../../system/object/ptr/) const\&, [ptr](../../system/object/ptr/) const\&) | يقارن الكائنات بالمرجعية. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, T const\&) | يقارن الكائنات بالمرجعية. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, std::nullptr_t) | يقارن مرجعيًا كائن نوع قيم مع nullptr. |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, std::nullptr_t) | تخصيص [Object::ReferenceEquals](../../system/object/referenceequals/) لحالة السلسلة وnullptr. |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | تخصيص [Object::ReferenceEquals](../../system/object/referenceequals/) لحالة السلاسل. |
+| int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | ينقص عدّاد المرجع المشترك بالقيمة المحددة. |
+| virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | يضبط الوسيط القالب الـ n إلى مؤشر ضعيف (بدلاً من مشترك). يسمح بتحويل المؤشرات في الحاويات إلى الوضع الضعيف. |
+| int [SharedCount](../../system/object/sharedcount/)() const | يحصل على القيمة الحالية لعداد المرجع المشترك. |
+| [Object](../../system/object/) * [SharedRefAdded](../../system/object/sharedrefadded/)() | يزيد عدّاد المرجع المشترك. لا ينبغي استدعاؤه مباشرة؛ استخدم المؤشرات الذكية أو ThisProtector. |
+| int [SharedRefRemovedSafe](../../system/object/sharedrefremovedsafe/)() | ينقص ويعيد عدّاد المرجع المشترك. لا ينبغي استدعاؤه مباشرة؛ استخدم المؤشرات الذكية أو ThisProtector. |
+| virtual [String](../../system/string/) [ToString](../../system/object/tostring/)() const | نظير C# [Object.ToString()](../../system/object/tostring/). يتيح تحويل الكائنات المخصصة إلى سلسلة. |
+| **int32_t** [TransformBlock](./transformblock/)([System::ArrayPtr](../../system/arrayptr/)\<**uint8_t**\>, **int32_t**, **int32_t**, [System::ArrayPtr](../../system/arrayptr/)\<**uint8_t**\>, **int32_t**) |  |
+| virtual int [TransformBlock](../icryptotransform/transformblock/)([ArrayPtr](../../system/arrayptr/)\<**uint8_t**\>, int, int, [ArrayPtr](../../system/arrayptr/)\<**uint8_t**\>, int) | يعالج كتلة من البيانات وينسخ البيانات إلى مصفوفة الإخراج. |
+| [System::ArrayPtr](../../system/arrayptr/)\<**uint8_t**\> [TransformFinalBlock](./transformfinalblock/)([System::ArrayPtr](../../system/arrayptr/)\<**uint8_t**\>, **int32_t**, **int32_t**) |  |
+| virtual [ArrayPtr](../../system/arrayptr/)\<**uint8_t**\> [TransformFinalBlock](../icryptotransform/transformfinalblock/)([ArrayPtr](../../system/arrayptr/)\<**uint8_t**\>, int, int) | يعالج آخر كتلة من البيانات ويحسب قيمة الإخراج. |
+| static const [TypeInfo](../../system/typeinfo/)\& [Type](../../system/object/type/)() | ينفذ تركيب C# typeof([System.Object](../../system/object/)). |
+| void [Unlock](../../system/object/unlock/)() | ينفذ إلغاء قفل عبارة lock() في C#. استدع مباشرة أو استخدم كائن الحراسة [LockContext](../../system/lockcontext/). |
+| Detail::SmartPtrCounter * [WeakRefAdded](../../system/object/weakrefadded/)() | يزيد عدّاد المرجع الضعيف. لا ينبغي استدعاؤه مباشرة؛ استخدم المؤشرات الذكية أو ThisProtector. |
+| void [WeakRefRemoved](../../system/object/weakrefremoved/)() | ينقص عدّاد المرجع الضعيف. لا ينبغي استدعاؤه مباشرة؛ استخدم المؤشرات الذكية أو ThisProtector. |
+| virtual  [~FromBase64Transform](./~frombase64transform/)() | مدمر. |
+| virtual  [~Object](../../system/object/~object/)() | يدمر الكائن. يحرر جميع بنى البيانات الداخلية. |
+
+## انظر أيضًا
+
+* فئة [ICryptoTransform](../icryptotransform/)
+* النطاق [System::Security::Cryptography](../)
+* المكتبة [Aspose.Slides](../../)
