@@ -1,0 +1,164 @@
+---
+title: "System::MemoryExtensions"
+second_title: مرجع API Aspose.Slides برای C++
+description: روش‌های گسترشی برای عملیات حافظه بر روی span‌ها و آرایه‌ها ارائه می‌دهد.
+type: docs
+weight: 625
+url: /fa/system.memoryextensions/
+---
+روش‌های توسیعی برای عملیات حافظه بر روی spanها و آرایه‌ها فراهم می‌کند.
+
+## توابع
+
+| تابع | توضیح |
+| --- | --- |
+| [Span](../system/span/)\<T\> [AsSpan](./asspan/)(const [ArrayPtr](../system/arrayptr/)\<T\>\&, **int32_t**, **int32_t**) | Creates a span from an array. |
+| [ReadOnlySpan](../system/readonlyspan/)\<char16_t\> [AsSpan](./asspan/)(const [String](../system/string/)\&, **int32_t**, **int32_t**) | Creates a read-only span from a string. |
+| **int32_t** [BinarySearch](./binarysearch/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const TComparable\&) | Performs binary search on a sorted span. |
+| **int32_t** [BinarySearch](./binarysearch/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const T\&, const [SharedPtr](../system/sharedptr/)\<TComparer\>\&) | Performs binary search on a sorted span using a custom comparer. |
+| **int32_t** [BinarySearch](./binarysearch/)(const [Span](../system/span/)\<T\>\&, const TComparable\&) | Performs binary search on a mutable sorted span. |
+| **int32_t** [BinarySearch](./binarysearch/)(const [Span](../system/span/)\<T\>\&, const T\&, const [SharedPtr](../system/sharedptr/)\<TComparer\>\&) | Performs binary search on a mutable sorted span using a custom comparer. |
+| **int32_t** [CommonPrefixLength](./commonprefixlength/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&) | Finds the length of the common prefix between two spans. |
+| **int32_t** [CommonPrefixLength](./commonprefixlength/)(const [Span](../system/span/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&) | Finds the length of the common prefix between a mutable span and a read-only span. |
+| **int32_t** [CommonPrefixLength](./commonprefixlength/)(const [Span](../system/span/)\<T\>\&, const [Span](../system/span/)\<T\>\&) | Finds the length of the common prefix between two mutable spans. |
+| **int32_t** [CommonPrefixLength](./commonprefixlength/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const [SharedPtr](../system/sharedptr/)\<TEqualityComparer\>\&) | Finds the length of the common prefix between two spans using a custom equality comparer. |
+| **int32_t** [CommonPrefixLength](./commonprefixlength/)(const [Span](../system/span/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const [SharedPtr](../system/sharedptr/)\<TEqualityComparer\>\&) | Finds the length of the common prefix between a mutable span and a read-only span using a custom equality comparer. |
+| **int32_t** [CommonPrefixLength](./commonprefixlength/)(const [Span](../system/span/)\<T\>\&, const [Span](../system/span/)\<T\>\&, const [SharedPtr](../system/sharedptr/)\<TEqualityComparer\>\&) | Finds the length of the common prefix between two mutable spans using a custom equality comparer. |
+| **bool** [Contains](./contains/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const T\&) | Checks if a read-only span contains a specific value. |
+| **bool** [Contains](./contains/)(const [Span](../system/span/)\<T\>\&, const T\&) | Checks if a mutable span contains a specific value. |
+| **bool** [Contains](./contains/)(const [ReadOnlySpan](../system/readonlyspan/)\<char16_t\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<char16_t\>\&, [StringComparison](../system/stringcomparison/)) | Checks if a character span contains another character span with specified comparison rules. |
+| **bool** [ContainsAny](./containsany/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const T\&, const T\&) | Checks if a read-only span contains any of two values. |
+| **bool** [ContainsAny](./containsany/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const T\&, const T\&, const T\&) | Checks if a read-only span contains any of three values. |
+| **bool** [ContainsAny](./containsany/)(const [Span](../system/span/)\<T\>\&, const T\&, const T\&) | Checks if a mutable span contains any of two values. |
+| **bool** [ContainsAny](./containsany/)(const [Span](../system/span/)\<T\>\&, const T\&, const T\&, const T\&) | Checks if a mutable span contains any of three values. |
+| **bool** [ContainsAny](./containsany/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&) | Checks if a read-only span contains any value from another span. |
+| **bool** [ContainsAny](./containsany/)(const [Span](../system/span/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&) | Checks if a mutable span contains any value from a read-only span. |
+| **bool** [ContainsAnyExcept](./containsanyexcept/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const T\&, const T\&, const T\&) | Checks if a read-only span contains any element except three specified values. |
+| **bool** [ContainsAnyExcept](./containsanyexcept/)(const [Span](../system/span/)\<T\>\&, const T\&, const T\&, const T\&) | Checks if a mutable span contains any element except three specified values. |
+| **bool** [ContainsAnyExcept](./containsanyexcept/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const T\&, const T\&) | Checks if a read-only span contains any element except two specified values. |
+| **bool** [ContainsAnyExcept](./containsanyexcept/)(const [Span](../system/span/)\<T\>\&, const T\&, const T\&) | Checks if a mutable span contains any element except two specified values. |
+| **bool** [ContainsAnyExcept](./containsanyexcept/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const T\&) | Checks if a read-only span contains any element except a specified value. |
+| **bool** [ContainsAnyExcept](./containsanyexcept/)(const [Span](../system/span/)\<T\>\&, const T\&) | Checks if a mutable span contains any element except a specified value. |
+| **bool** [ContainsAnyExcept](./containsanyexcept/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&) | Checks if a read-only span contains any element except those in another span. |
+| **bool** [ContainsAnyExcept](./containsanyexcept/)(const [Span](../system/span/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&) | Checks if a mutable span contains any element except those in a read-only span. |
+| **bool** [ContainsAnyExceptInRange](./containsanyexceptinrange/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const T\&, const T\&) | Checks if a read-only span contains any element outside the specified range. |
+| **bool** [ContainsAnyExceptInRange](./containsanyexceptinrange/)(const [Span](../system/span/)\<T\>\&, const T\&, const T\&) | Checks if a mutable span contains any element outside the specified range. |
+| **bool** [ContainsAnyInRange](./containsanyinrange/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const T\&, const T\&) | Checks if a read-only span contains any element within the specified range. |
+| **bool** [ContainsAnyInRange](./containsanyinrange/)(const [Span](../system/span/)\<T\>\&, const T\&, const T\&) | Checks if a mutable span contains any element within the specified range. |
+| void [CopyTo](./copyto/)(const [ArrayPtr](../system/arrayptr/)\<T\>\&, [Span](../system/span/)\<T\>\&) | Copies elements from an array to a span. |
+| **int32_t** [Count](./count/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const T\&) | Counts occurrences of a value in a read-only span. |
+| **int32_t** [Count](./count/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&) | Counts occurrences of a span within another read-only span. |
+| **int32_t** [Count](./count/)(const [Span](../system/span/)\<T\>\&, const T\&) | Counts occurrences of a single value in a Span<T> |
+| **int32_t** [Count](./count/)(const [Span](../system/span/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&) | Counts occurrences of a ReadOnlySpan<T> in a Span<T> |
+| **bool** [EndsWith](./endswith/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const T\&) | Determines if a ReadOnlySpan<T> ends with a single value. |
+| **bool** [EndsWith](./endswith/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&) | Determines if a ReadOnlySpan<T> ends with another ReadOnlySpan<T> |
+| **bool** [EndsWith](./endswith/)(const [Span](../system/span/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&) | Determines if a Span<T> ends with a ReadOnlySpan<T> |
+| **bool** [EndsWith](./endswith/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const [Span](../system/span/)\<T\>\&) | Determines if a ReadOnlySpan<T> ends with a Span<T> |
+| **bool** [EndsWith](./endswith/)(const [Span](../system/span/)\<T\>\&, const [Span](../system/span/)\<T\>\&) | Determines if a Span<T> ends with another Span<T> |
+| **bool** [EndsWith](./endswith/)(const [ReadOnlySpan](../system/readonlyspan/)\<char16_t\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<char16_t\>\&, [StringComparison](../system/stringcomparison/)) | Determines if a ReadOnlySpan<char16_t> ends with the specified value using StringComparison. |
+| **int32_t** [IndexOf](./indexof/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&) | Finds the index of a ReadOnlySpan<T> value in another ReadOnlySpan<T> |
+| **int32_t** [IndexOf](./indexof/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const T\&) | Finds the index of a single value in a ReadOnlySpan<T> |
+| **int32_t** [IndexOf](./indexof/)(const [Span](../system/span/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&) | Finds the index of a ReadOnlySpan<T> value in a Span<T> |
+| **int32_t** [IndexOf](./indexof/)(const [Span](../system/span/)\<T\>\&, const T\&) | Finds the index of a single value in a Span<T> |
+| **int32_t** [IndexOf](./indexof/)(const [ReadOnlySpan](../system/readonlyspan/)\<char16_t\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<char16_t\>\&, [StringComparison](../system/stringcomparison/)) | Finds the index of a ReadOnlySpan<char16_t> value in a ReadOnlySpan<char16_t> with StringComparison. |
+| **int32_t** [IndexOfAny](./indexofany/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const T\&, const T\&) | Finds the index of the first occurrence of any of two specified values in a ReadOnlySpan<T> |
+| **int32_t** [IndexOfAny](./indexofany/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const T\&, const T\&, const T\&) | Finds the index of the first occurrence of any of three specified values in a ReadOnlySpan<T> |
+| **int32_t** [IndexOfAny](./indexofany/)(const [Span](../system/span/)\<T\>\&, const T\&, const T\&) | Finds the index of the first occurrence of any of two specified values in a Span<T> |
+| **int32_t** [IndexOfAny](./indexofany/)(const [Span](../system/span/)\<T\>\&, const T\&, const T\&, const T\&) | Finds the index of the first occurrence of any of three specified values in a Span<T> |
+| **int32_t** [IndexOfAny](./indexofany/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&) | Finds the index of the first occurrence of any value from a span in another ReadOnlySpan<T> |
+| **int32_t** [IndexOfAny](./indexofany/)(const [Span](../system/span/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&) | Finds the index of the first occurrence of any value from a span in a Span<T> |
+| **int32_t** [IndexOfAnyExcept](./indexofanyexcept/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const T\&) | Finds the index of the first element that is not equal to the specified value in a ReadOnlySpan<T> |
+| **int32_t** [IndexOfAnyExcept](./indexofanyexcept/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const T\&, const T\&) | Finds the index of the first element that is not equal to either of two specified values in a ReadOnlySpan<T> |
+| **int32_t** [IndexOfAnyExcept](./indexofanyexcept/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const T\&, const T\&, const T\&) | Finds the index of the first element that is not equal to any of three specified values in a ReadOnlySpan<T> |
+| **int32_t** [IndexOfAnyExcept](./indexofanyexcept/)(const [Span](../system/span/)\<T\>\&, const T\&) | Finds the index of the first element that is not equal to the specified value in a Span<T> |
+| **int32_t** [IndexOfAnyExcept](./indexofanyexcept/)(const [Span](../system/span/)\<T\>\&, const T\&, const T\&) | Finds the index of the first element that is not equal to either of two specified values in a Span<T> |
+| **int32_t** [IndexOfAnyExcept](./indexofanyexcept/)(const [Span](../system/span/)\<T\>\&, const T\&, const T\&, const T\&) | Finds the index of the first element that is not equal to any of three specified values in a Span<T> |
+| **int32_t** [IndexOfAnyExcept](./indexofanyexcept/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&) | Finds the index of the first element that is not equal to any value in a span of values. |
+| **int32_t** [IndexOfAnyExcept](./indexofanyexcept/)(const [Span](../system/span/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&) | Finds the index of the first element that is not equal to any value in a span of values in a Span<T> |
+| **int32_t** [IndexOfAnyExceptInRange](./indexofanyexceptinrange/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const T\&, const T\&) | Finds the index of the first element that is outside the specified range in a ReadOnlySpan<T> |
+| **int32_t** [IndexOfAnyExceptInRange](./indexofanyexceptinrange/)(const [Span](../system/span/)\<T\>\&, const T\&, const T\&) | Finds the index of the first element that is outside the specified range in a Span<T> |
+| **int32_t** [IndexOfAnyInRange](./indexofanyinrange/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const T\&, const T\&) | Finds the index of the first element that is within the specified range in a ReadOnlySpan<T> |
+| **int32_t** [IndexOfAnyInRange](./indexofanyinrange/)(const [Span](../system/span/)\<T\>\&, const T\&, const T\&) | Finds the index of the first element that is within the specified range in a Span<T> |
+| **int32_t** [LastIndexOf](./lastindexof/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&) | Finds the last occurrence of a sequence within a span. |
+| **int32_t** [LastIndexOf](./lastindexof/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const T\&) | Finds the last occurrence of a single value within a span. |
+| **int32_t** [LastIndexOf](./lastindexof/)(const [Span](../system/span/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&) | Finds the last occurrence of a sequence within a mutable span. |
+| **int32_t** [LastIndexOf](./lastindexof/)(const [Span](../system/span/)\<T\>\&, const T\&) | Finds the last occurrence of a single value within a mutable span. |
+| **int32_t** [LastIndexOf](./lastindexof/)(const [ReadOnlySpan](../system/readonlyspan/)\<char16_t\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<char16_t\>\&, [StringComparison](../system/stringcomparison/)) | Finds the last occurrence of a value within a span using specified string comparison. |
+| **int32_t** [LastIndexOfAny](./lastindexofany/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const T\&, const T\&, const T\&) | Finds the last occurrence of any of three specified values within a span. |
+| **int32_t** [LastIndexOfAny](./lastindexofany/)(const [Span](../system/span/)\<T\>\&, const T\&, const T\&, const T\&) | Finds the last occurrence of any of three specified values within a mutable span. |
+| **int32_t** [LastIndexOfAny](./lastindexofany/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const T\&, const T\&) | Finds the last occurrence of any of two specified values within a span. |
+| **int32_t** [LastIndexOfAny](./lastindexofany/)(const [Span](../system/span/)\<T\>\&, const T\&, const T\&) | Finds the last occurrence of any of two specified values within a mutable span. |
+| **int32_t** [LastIndexOfAny](./lastindexofany/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&) | Finds the last occurrence of any value from a sequence within a span. |
+| **int32_t** [LastIndexOfAny](./lastindexofany/)(const [Span](../system/span/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&) | Finds the last occurrence of any value from a sequence within a mutable span. |
+| **int32_t** [LastIndexOfAny](./lastindexofany/)(const [Span](../system/span/)\<T\>\&, const [Span](../system/span/)\<T\>\&) | Finds the last occurrence of any value from a mutable sequence within a mutable span. |
+| **int32_t** [LastIndexOfAnyExcept](./lastindexofanyexcept/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const T\&, const T\&, const T\&) | آخرین وقوع هر عنصری را که به‌جز سه مقدار مشخص، در یک بازه یافت می‌کند. |
+| **int32_t** [LastIndexOfAnyExcept](./lastindexofanyexcept/)(const [Span](../system/span/)\<T\>\&, const T\&, const T\&, const T\&) | آخرین وقوع هر عنصری را که به‌جز سه مقدار مشخص، در یک بازه قابل‌تغییر یافت می‌کند. |
+| **int32_t** [LastIndexOfAnyExcept](./lastindexofanyexcept/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const T\&, const T\&) | آخرین وقوع هر عنصری را که به‌جز دو مقدار مشخص، در یک بازه یافت می‌کند. |
+| **int32_t** [LastIndexOfAnyExcept](./lastindexofanyexcept/)(const [Span](../system/span/)\<T\>\&, const T\&, const T\&) | آخرین وقوع هر عنصری را که به‌جز دو مقدار مشخص، در یک بازه قابل‌تغییر یافت می‌کند. |
+| **int32_t** [LastIndexOfAnyExcept](./lastindexofanyexcept/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const T\&) | آخرین وقوع هر عنصری را که به‌جز یک مقدار مشخص، در یک بازه یافت می‌کند. |
+| **int32_t** [LastIndexOfAnyExcept](./lastindexofanyexcept/)(const [Span](../system/span/)\<T\>\&, const T\&) | آخرین وقوع هر عنصری را که به‌جز یک مقدار مشخص، در یک بازه قابل‌تغییر یافت می‌کند. |
+| **int32_t** [LastIndexOfAnyExcept](./lastindexofanyexcept/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&) | آخرین وقوع هر عنصری را که به‌جز مقادیر یک دنباله، در یک بازه یافت می‌کند. |
+| **int32_t** [LastIndexOfAnyExcept](./lastindexofanyexcept/)(const [Span](../system/span/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&) | آخرین وقوع هر عنصری را که به‌جز مقادیر یک دنباله، در یک بازه قابل‌تغییر یافت می‌کند. |
+| **int32_t** [LastIndexOfAnyExcept](./lastindexofanyexcept/)(const [Span](../system/span/)\<T\>\&, const [Span](../system/span/)\<T\>\&) | آخرین وقوع هر عنصری را که به‌جز مقادیر یک دنباله قابل‌تغییر، در یک بازه قابل‌تغییر یافت می‌کند. |
+| **int32_t** [LastIndexOfAnyExceptInRange](./lastindexofanyexceptinrange/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const T\&, const T\&) | آخرین وقوع هر عنصری را که خارج از بازه مشخص شده، در یک بازه یافت می‌کند. |
+| **int32_t** [LastIndexOfAnyExceptInRange](./lastindexofanyexceptinrange/)(const [Span](../system/span/)\<T\>\&, const T\&, const T\&) | آخرین وقوع هر عنصری را که خارج از بازه مشخص شده، در یک بازه قابل‌تغییر یافت می‌کند. |
+| **int32_t** [LastIndexOfAnyInRange](./lastindexofanyinrange/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const T\&, const T\&) | آخرین وقوع هر عنصری را که در بازه مشخص شده، در یک بازه یافت می‌کند. |
+| **int32_t** [LastIndexOfAnyInRange](./lastindexofanyinrange/)(const [Span](../system/span/)\<T\>\&, const T\&, const T\&) | آخرین وقوع هر عنصری را که در بازه مشخص شده، در یک بازه قابل‌تغییر یافت می‌کند. |
+| **bool** [Overlaps](./overlaps/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&) | تشخیص می‌دهد آیا دو ReadOnlySpan در حافظه همپوشانی دارند بدون محاسبهٔ جابه‌جایی. |
+| **bool** [Overlaps](./overlaps/)(const [Span](../system/span/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&) | تشخیص می‌دهد آیا یک [Span](../system/span/) و [ReadOnlySpan](../system/readonlyspan/) در حافظه همپوشانی دارند بدون محاسبهٔ جابه‌جایی. |
+| **bool** [Overlaps](./overlaps/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, **int32_t**\&) | تشخیص می‌دهد آیا دو ReadOnlySpan در حافظه همپوشانی دارند و جابه‌جایی را محاسبه می‌کند. |
+| **bool** [Overlaps](./overlaps/)(const [Span](../system/span/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, **int32_t**\&) | تشخیص می‌دهد آیا یک [Span](../system/span/) و [ReadOnlySpan](../system/readonlyspan/) در حافظه همپوشانی دارند و جابه‌جایی را محاسبه می‌کند. |
+| void [Replace](./replace/)([Span](../system/span/)\<T\>\&, const T\&, const T\&) | تمام وقوع‌های یک مقدار را با مقدار جدید در یک [Span](../system/span/) جایگزین می‌کند. |
+| void [Replace](./replace/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, [Span](../system/span/)\<T\>\&, const T\&, const T\&) | عناصر را از منبع به مقصد کپی می‌کند و مقادیر مشخص‌شده را در طول کپی جایگزین می‌نماید. |
+| void [Reverse](./reverse/)([Span](../system/span/)\<T\>\&) | ترتیب عناصر را به صورت در-جا در یک [Span](../system/span/) معکوس می‌کند. |
+| **int32_t** [SequenceCompareTo](./sequencecompareto/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&) | دو ReadOnlySpan را به صورت لغوی مقایسه می‌کند. |
+| **int32_t** [SequenceCompareTo](./sequencecompareto/)(const [Span](../system/span/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&) | یک [Span](../system/span/) و [ReadOnlySpan](../system/readonlyspan/) را به صورت لغوی مقایسه می‌کند. |
+| **int32_t** [SequenceCompareTo](./sequencecompareto/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const [Span](../system/span/)\<T\>\&) | یک [ReadOnlySpan](../system/readonlyspan/) و [Span](../system/span/) را به صورت لغوی مقایسه می‌کند. |
+| **bool** [SequenceEqual](./sequenceequal/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&) | تشخیص می‌دهد آیا دو ReadOnlySpan عناصری یکسان در همان ترتیب دارند. |
+| **bool** [SequenceEqual](./sequenceequal/)(const [Span](../system/span/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&) | تشخیص می‌دهد آیا یک [Span](../system/span/) و [ReadOnlySpan](../system/readonlyspan/) عناصری یکسان در همان ترتیب دارند. |
+| **bool** [SequenceEqual](./sequenceequal/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, [SharedPtr](../system/sharedptr/)\<TComparer\>\&) | تشخیص می‌دهد آیا دو ReadOnlySpan با استفاده از یک مقایسه‌کنندهٔ سفارشی عناصر برابر دارند. |
+| **bool** [SequenceEqual](./sequenceequal/)(const [Span](../system/span/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, [SharedPtr](../system/sharedptr/)\<TComparer\>\&) | تشخیص می‌دهد آیا یک [Span](../system/span/) و [ReadOnlySpan](../system/readonlyspan/) با استفاده از یک مقایسه‌کنندهٔ سفارشی عناصر برابر دارند. |
+| void [Sort](./sort/)(const [Span](../system/span/)\<T\>\&, const [SharedPtr](../system/sharedptr/)\<TComparer\>\&) | یک [Span](../system/span/) را با استفاده از یک مقایسه‌کنندهٔ سفارشی مرتب می‌کند. |
+| void [Sort](./sort/)([Span](../system/span/)\<T\>\&) | یک [Span](../system/span/) را با مقایسهٔ پیش‌فرض مرتب می‌کند. |
+| void [Sort](./sort/)([Span](../system/span/)\<TKey\>\&, [Span](../system/span/)\<TValue\>\&, const [SharedPtr](../system/sharedptr/)\<TComparer\>\&) | جفت‌های کلید-مقدار را با استفاده از یک مقایسه‌کنندهٔ سفارشی (کلیدها و مقادیر به‌صورت همزمان مرتب می‌شوند) مرتب می‌کند. |
+| void [Sort](./sort/)([Span](../system/span/)\<TKey\>\&, [Span](../system/span/)\<TValue\>\&, [System::Comparison](../system/comparison/)\<TKey\>) | جفت‌های کلید-مقدار را با استفاده از یک نمایندهٔ مقایسه مرتب می‌کند. |
+| void [Sort](./sort/)([Span](../system/span/)\<TKey\>\&, [Span](../system/span/)\<TValue\>\&) | جفت‌های کلید-مقدار را با مقایسهٔ پیش‌فرض مرتب می‌کند. |
+| **bool** [StartsWith](./startswith/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const T\&) | بررسی می‌کند آیا بازه با مقدار مشخص‌شده شروع می‌شود. |
+| **bool** [StartsWith](./startswith/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&) | بررسی می‌کند آیا بازه با بازهٔ مقدار مشخص‌شده شروع می‌شود. |
+| **bool** [StartsWith](./startswith/)(const [Span](../system/span/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&) | بررسی می‌کند آیا بازه قابل‌تغییر با بازهٔ مقدار فقط-خواندنی مشخص‌شده شروع می‌شود. |
+| **bool** [StartsWith](./startswith/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const [Span](../system/span/)\<T\>\&) | بررسی می‌کند آیا بازه فقط-خواندنی با بازهٔ مقدار قابل‌تغییر مشخص‌شده شروع می‌شود. |
+| **bool** [StartsWith](./startswith/)(const [ReadOnlySpan](../system/readonlyspan/)\<char16_t\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<char16_t\>\&, [StringComparison](../system/stringcomparison/)) | بررسی می‌کند آیا بازهٔ کاراکتر با بازهٔ مقدار مشخص‌شده با استفاده از مقایسهٔ رشته‌ای شروع می‌شود. |
+| **bool** [StartsWith](./startswith/)(const [ReadOnlySpan](../system/readonlyspan/)\<[String](../system/string/)\>\&, const char16_t *) | بررسی می‌کند آیا یک بازهٔ رشته با آرایهٔ کاراکتری مشخص‌شده شروع می‌شود. |
+| [ReadOnlySpan](../system/readonlyspan/)\<T\> [Trim](./trim/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, T) | عنصر مشخص‌شده را از هر دو انتهای یک بازهٔ تایپ‌شده حذف می‌کند. |
+| [Span](../system/span/)\<T\> [Trim](./trim/)([Span](../system/span/)\<T\>\&, T) | عنصر مشخص‌شده را از هر دو انتهای یک بازهٔ تایپ‌شدهٔ قابل‌تغییر حذف می‌کند. |
+| [ReadOnlySpan](../system/readonlyspan/)\<T\> [Trim](./trim/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&) | عناصر مشخص‌شده را از هر دو انتهای یک بازهٔ تایپ‌شده حذف می‌کند. |
+| [Span](../system/span/)\<T\> [Trim](./trim/)([Span](../system/span/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&) | عناصر مشخص‌شده را از هر دو انتهای یک بازهٔ تایپ‌شدهٔ قابل‌تغییر حذف می‌کند. |
+| [ReadOnlySpan](../system/readonlyspan/)\<char16_t\> [Trim](./trim/)(const [ReadOnlySpan](../system/readonlyspan/)\<char16_t\>\&) | کاراکترهای فضای خالی را از هر دو انتهای یک بازهٔ کاراکتری حذف می‌کند. |
+| [Span](../system/span/)\<char16_t\> [Trim](./trim/)([Span](../system/span/)\<char16_t\>\&) | کاراکترهای فضای خالی را از هر دو انتهای یک بازهٔ کاراکتریٔ قابل‌تغییر حذف می‌کند. |
+| [ReadOnlySpan](../system/readonlyspan/)\<T\> [TrimEnd](./trimend/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const T\&) | عنصر مشخص‌شده را از انتهای یک بازهٔ تایپ‌شده حذف می‌کند. |
+| [Span](../system/span/)\<T\> [TrimEnd](./trimend/)([Span](../system/span/)\<T\>\&, const T\&) | عنصر مشخص‌شده را از انتهای یک بازهٔ تایپ‌شدهٔ قابل‌تغییر حذف می‌کند. |
+| [ReadOnlySpan](../system/readonlyspan/)\<T\> [TrimEnd](./trimend/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&) | عناصر مشخص‌شده را از انتهای یک بازهٔ تایپ‌شده حذف می‌کند. |
+| [Span](../system/span/)\<T\> [TrimEnd](./trimend/)([Span](../system/span/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&) | عناصر مشخص‌شده را از انتهای یک بازهٔ تایپ‌شدهٔ قابل‌تغییر حذف می‌کند. |
+| [ReadOnlySpan](../system/readonlyspan/)\<char16_t\> [TrimEnd](./trimend/)(const [ReadOnlySpan](../system/readonlyspan/)\<char16_t\>\&) | کاراکترهای فضای خالی را از انتهای یک بازهٔ کاراکتری حذف می‌کند. |
+| [Span](../system/span/)\<char16_t\> [TrimEnd](./trimend/)([Span](../system/span/)\<char16_t\>\&) | کاراکترهای فضای خالی را از انتهای یک بازهٔ کاراکتریٔ قابل‌تغییر حذف می‌کند. |
+| [ReadOnlySpan](../system/readonlyspan/)\<char16_t\> [TrimEnd](./trimend/)(const [ReadOnlySpan](../system/readonlyspan/)\<char16_t\>\&, char16_t) | کاراکتر مشخص‌شده را از انتهای یک بازهٔ کاراکتری حذف می‌کند. |
+| [Span](../system/span/)\<char16_t\> [TrimEnd](./trimend/)([Span](../system/span/)\<char16_t\>\&, char16_t) | کاراکتر مشخص‌شده را از انتهای یک بازهٔ کاراکتریٔ قابل‌تغییر حذف می‌کند. |
+| [ReadOnlySpan](../system/readonlyspan/)\<char16_t\> [TrimEnd](./trimend/)(const [ReadOnlySpan](../system/readonlyspan/)\<char16_t\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<char16_t\>\&) | کاراکترهای مشخص‌شده را از انتهای یک بازهٔ کاراکتری حذف می‌کند. |
+| [Span](../system/span/)\<char16_t\> [TrimEnd](./trimend/)([Span](../system/span/)\<char16_t\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<char16_t\>\&) | کاراکترهای مشخص‌شده را از انتهای یک بازهٔ کاراکتریٔ قابل‌تغییر حذف می‌کند. |
+| [ReadOnlySpan](../system/readonlyspan/)\<T\> [TrimStart](./trimstart/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const T\&) | عنصر مشخص‌شده را از ابتدای یک بازهٔ تایپ‌شده حذف می‌کند. |
+| [Span](../system/span/)\<T\> [TrimStart](./trimstart/)([Span](../system/span/)\<T\>\&, const T\&) | عنصر مشخص‌شده را از ابتدای یک بازهٔ تایپ‌شدهٔ قابل‌تغییر حذف می‌کند. |
+| [ReadOnlySpan](../system/readonlyspan/)\<T\> [TrimStart](./trimstart/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&) | عناصر مشخص‌شده را از ابتدای یک بازهٔ تایپ‌شده حذف می‌کند. |
+| [Span](../system/span/)\<T\> [TrimStart](./trimstart/)([Span](../system/span/)\<T\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&) | عناصر مشخص‌شده را از ابتدای یک بازهٔ تایپ‌شدهٔ قابل‌تغییر حذف می‌کند. |
+| [ReadOnlySpan](../system/readonlyspan/)\<char16_t\> [TrimStart](./trimstart/)(const [ReadOnlySpan](../system/readonlyspan/)\<char16_t\>\&) | کاراکترهای فضای خالی را از ابتدای یک بازهٔ کاراکتری حذف می‌کند. |
+| [Span](../system/span/)\<char16_t\> [TrimStart](./trimstart/)([Span](../system/span/)\<char16_t\>\&) | کاراکترهای فضای خالی را از ابتدای یک بازهٔ کاراکتریٔ قابل‌تغییر حذف می‌کند. |
+| [ReadOnlySpan](../system/readonlyspan/)\<char16_t\> [TrimStart](./trimstart/)(const [ReadOnlySpan](../system/readonlyspan/)\<char16_t\>\&, char16_t) | کاراکتر مشخص‌شده را از ابتدای یک بازهٔ کاراکتری حذف می‌کند. |
+| [Span](../system/span/)\<char16_t\> [TrimStart](./trimstart/)([Span](../system/span/)\<char16_t\>\&, char16_t) | کاراکتر مشخص‌شده را از ابتدای یک بازهٔ کاراکتریٔ قابل‌تغییر حذف می‌کند. |
+| [ReadOnlySpan](../system/readonlyspan/)\<char16_t\> [TrimStart](./trimstart/)(const [ReadOnlySpan](../system/readonlyspan/)\<char16_t\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<char16_t\>\&) | کاراکترهای مشخص‌شده را از ابتدای یک بازهٔ کاراکتری حذف می‌کند. |
+| [Span](../system/span/)\<char16_t\> [TrimStart](./trimstart/)([Span](../system/span/)\<char16_t\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<char16_t\>\&) | کاراکترهای مشخص‌شده را از ابتدای یک بازهٔ کاراکتریٔ قابل‌تغییر حذف می‌کند. |
+| **int32_t** [CompareTo](./compareto/)(const [ReadOnlySpan](../system/readonlyspan/)\<char16_t\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<char16_t\>\&, [StringComparison](../system/stringcomparison/)) | دو بازهٔ کاراکتری را با قوانین مقایسهٔ رشته‌ای مشخص‌شده مقایسه می‌کند. |
+| **bool** [Equals](./equals/)(const [ReadOnlySpan](../system/readonlyspan/)\<char16_t\>\&, const [ReadOnlySpan](../system/readonlyspan/)\<char16_t\>\&, [StringComparison](../system/stringcomparison/)) | دو ReadOnlySpan<char16_t> را برای برابری با استفاده از StringComparison مقایسه می‌کند. |
+| **bool** [IsWhiteSpace](./iswhitespace/)(const [ReadOnlySpan](../system/readonlyspan/)\<char16_t\>\&) | بررسی می‌کند آیا تمام بازه فقط شامل کاراکترهای فضای خالی است. |
+| **int32_t** [ToLower](./tolower/)(const [ReadOnlySpan](../system/readonlyspan/)\<char16_t\>\&, [Span](../system/span/)\<char16_t\>\&, const [SharedPtr](../system/sharedptr/)\<[Globalization::CultureInfo](../system.globalization/cultureinfo/)\>\&) | کاراکترها را با استفاده از فرهنگ مشخص‌شده به حروف کوچک تبدیل می‌کند. |
+| **int32_t** [ToLowerInvariant](./tolowerinvariant/)(const [ReadOnlySpan](../system/readonlyspan/)\<char16_t\>\&, [Span](../system/span/)\<char16_t\>\&) | کاراکترها را با استفاده از فرهنگ ثابت به حروف کوچک تبدیل می‌کند. |
+| **int32_t** [ToUpper](./toupper/)(const [ReadOnlySpan](../system/readonlyspan/)\<char16_t\>\&, [Span](../system/span/)\<char16_t\>\&, const [SharedPtr](../system/sharedptr/)\<[Globalization::CultureInfo](../system.globalization/cultureinfo/)\>\&) | کاراکترها را با استفاده از فرهنگ مشخص‌شده به حروف بزرگ تبدیل می‌کند. |
+| **int32_t** [ToUpperInvariant](./toupperinvariant/)(const [ReadOnlySpan](../system/readonlyspan/)\<char16_t\>\&, [Span](../system/span/)\<char16_t\>\&) | کاراکترها را با استفاده از فرهنگ ثابت به حروف بزرگ تبدیل می‌کند. |

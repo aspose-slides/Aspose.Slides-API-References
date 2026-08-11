@@ -1,0 +1,22 @@
+---
+title: operator==()
+second_title: مرجع API Aspose.Slides برای C++
+description: همیشه false را برمی‌گرداند.
+type: docs
+weight: 313
+url: /fa/system.drawing/rectangle/operator_equal_equal/
+---
+## Rectangle::operator==(std::nullptr_t) const متد
+
+
+همیشه false را برمی‌گرداند.
+
+```cpp
+bool System::Drawing::Rectangle::operator==(std::nullptr_t) const
+```
+
+## موارد مرتبط
+
+* کلاس [Rectangle](../)
+* فضای نام [System::Drawing](../../)
+* کتابخانه [Aspose.Slides](../../../)
