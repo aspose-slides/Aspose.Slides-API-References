@@ -1,0 +1,21 @@
+---
+title: const_iterator
+second_title: Aspose.Slides لمرجع API C++
+description: نوع المكرر الثابت.
+type: docs
+weight: 248
+url: /ar/aspose.slides.animation/motionpath/const_iterator/
+---
+## const_iterator تعريف النوع
+
+نوع المكرر الثابت.
+
+```cpp
+using Aspose::Slides::Animation::MotionPath::const_iterator =  typename iterator_holder_type::const_iterator
+```
+
+## انظر أيضًا
+
+* فئة [MotionPath](../)
+* النطاق [Aspose::Slides::Animation](../../)
+* المكتبة [Aspose.Slides](../../../)

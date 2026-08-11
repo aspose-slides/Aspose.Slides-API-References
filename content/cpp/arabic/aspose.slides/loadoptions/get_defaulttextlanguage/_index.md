@@ -1,0 +1,40 @@
+---
+title: get_DefaultTextLanguage()
+second_title: مرجع API الخاص بـ Aspose.Slides للغة C++
+description: "يرجع اللغة الافتراضية لنص العرض. اقرأ System::String."
+type: docs
+weight: 313
+url: /ar/aspose.slides/loadoptions/get_defaulttextlanguage/
+---
+## LoadOptions::get_DefaultTextLanguage() طريقة
+
+يرجع اللغة الافتراضية لنص العرض. اقرأ [System::String](../../../system/string/).
+
+```cpp
+System::String Aspose::Slides::LoadOptions::get_DefaultTextLanguage() override
+```
+
+## ملاحظات
+
+مثال:
+```cpp
+System::SharedPtr<LoadOptions> loadOptions = System::MakeObject<LoadOptions>();
+loadOptions->set_DefaultTextLanguage(u"en-US");
+
+System::SharedPtr<Presentation> pres = System::MakeObject<Presentation>(loadOptions);
+
+// Add new rectangle shape with text
+System::SharedPtr<IAutoShape> shp = pres->get_Slide(0)->get_Shapes()->AddAutoShape(ShapeType::Rectangle, 50.0f, 50.0f, 150.0f, 50.0f);
+shp->get_TextFrame()->set_Text(u"New Text");
+
+// Check the first portion language
+System::SharedPtr<IPortion> portion = shp->get_TextFrame()->get_Paragraph(0)->get_Portion(0);
+System::Console::WriteLine(portion->get_PortionFormat()->get_LanguageId());
+```
+
+## انظر أيضًا
+
+* الفئة [String](../../../system/string/)
+* الفئة [LoadOptions](../)
+* النطاق [Aspose::Slides](../../)
+* المكتبة [Aspose.Slides](../../../)

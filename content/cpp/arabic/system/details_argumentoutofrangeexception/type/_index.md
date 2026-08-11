@@ -1,0 +1,31 @@
+---
+title: Type()
+second_title: مرجع API لـ Aspose.Slides للغة C++
+description: 
+type: docs
+weight: 1
+url: /ar/system/details_argumentoutofrangeexception/type/
+---
+## تفاصيل_ArgumentOutOfRangeException::Type() طريقة
+
+
+
+
+```cpp
+static const System::TypeInfo & System::Details_ArgumentOutOfRangeException::Type()
+```
+
+
+### قيمة الإرجاع
+
+معلومات حول النوع الحالي.
+## ملاحظات
+
+
+يرجع معلومات حول النوع الحالي. 
+## انظر أيضًا
+
+* فئة [TypeInfo](../../typeinfo/)
+* فئة [Details_ArgumentOutOfRangeException](../)
+* مجال [System](../../)
+* مكتبة [Aspose.Slides](../../../)

@@ -1,0 +1,23 @@
+---
+title: set_SiteId()
+second_title: Aspose.Slides لـ C++ مرجع API
+description: "يضبط معرف موقع Azure Active Directory (Azure AD) المقابل لسياسة تسمية الحساسية التي تصف تسمية الحساسية. اكتب System::Guid."
+type: docs
+weight: 40
+url: /ar/aspose.slides/isensitivitylabel/set_siteid/
+---
+## ISensitivityLabel::set_SiteId(System::Guid) طريقة
+
+
+يضبط معرف موقع Azure Active Directory (Azure AD) المقابل لسياسة تسمية الحساسية التي تصف تسمية الحساسية. اكتب [System::Guid](../../../system/guid/).
+
+```cpp
+virtual void Aspose::Slides::ISensitivityLabel::set_SiteId(System::Guid value)=0
+```
+
+## انظر أيضًا
+
+* فئة [Guid](../../../system/guid/)
+* فئة [ISensitivityLabel](../)
+* مساحة الأسماء [Aspose::Slides](../../)
+* مكتبة [Aspose.Slides](../../../)

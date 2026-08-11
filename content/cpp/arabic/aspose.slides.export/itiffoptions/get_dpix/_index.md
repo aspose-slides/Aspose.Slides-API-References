@@ -1,0 +1,21 @@
+---
+title: get_DpiX()
+second_title: Aspose.Slides للغة C++ مرجع API
+description: يحدد الدقة الأفقية بالنقاط لكل بوصة. قراءة uint32_t.
+type: docs
+weight: 27
+url: /ar/aspose.slides.export/itiffoptions/get_dpix/
+---
+## ITiffOptions::get_DpiX() طريقة
+
+يحدد الدقة الأفقية بالنقاط لكل بوصة. قراءة **uint32_t**.
+
+```cpp
+virtual uint32_t Aspose::Slides::Export::ITiffOptions::get_DpiX()=0
+```
+
+## انظر أيضًا
+
+* الفئة [ITiffOptions](../)
+* فضاء الأسماء [Aspose::Slides::Export](../../)
+* المكتبة [Aspose.Slides](../../../)
