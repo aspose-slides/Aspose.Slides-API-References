@@ -1,0 +1,21 @@
+---
+title: iterator_holder_type
+second_title: Aspose.Slides के लिए C++ API रेफ़रेंस
+description: एक संग्रह प्रकार जिसका इटररेटर प्रकार वर्तमान संग्रह में इटररेटर प्रकार के रूप में उपयोग किया जाता है।
+type: docs
+weight: 183
+url: /hi/aspose.slides.smartart/smartartshapecollection/iterator_holder_type/
+---
+## iterator_holder_type टाइपडिफ
+
+एक संग्रह प्रकार जिसका इटररेटर प्रकार वर्तमान संग्रह में इटररेटर प्रकार के रूप में उपयोग किया जाता है।
+
+```cpp
+using Aspose::Slides::SmartArt::SmartArtShapeCollection::iterator_holder_type =  System::Collections::Generic::List<System::SharedPtr<ISmartArtShape> >
+```
+
+## संबंधित देखें
+
+* क्लास [SmartArtShapeCollection](../)
+* नेमस्पेस [Aspose::Slides::SmartArt](../../)
+* लाइब्रेरी [Aspose.Slides](../../../)

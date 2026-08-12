@@ -1,0 +1,24 @@
+---
+title: get_Chartreuse()
+second_title: Aspose.Slides for C++ API संदर्भ
+description: एक Pen वस्तु लौटाता है जिसकी चौड़ाई 1 है और जिसका ARGB रंग हेक्साडेसिमल नोटेशन में #FF7FFF00 मान रखता है।
+type: docs
+weight: 196
+url: /hi/system.drawing/pens/get_chartreuse/
+---
+## Pens::get_Chartreuse() विधि
+
+
+एक [Pen](../../pen/) वस्तु लौटाता है जिसकी चौड़ाई 1 है और जिसका ARGB रंग हेक्साडेसिमल नोटेशन में #FF7FFF00 मान रखता है।
+
+```cpp
+static SharedPtr<Pen> System::Drawing::Pens::get_Chartreuse()
+```
+
+## और देखें
+
+* टाइपडिफ़ [SharedPtr](../../../system/sharedptr/)
+* क्लास [Pen](../../pen/)
+* क्लास [Pens](../)
+* नेमस्पेस [System::Drawing](../../)
+* लाइब्रेरी [Aspose.Slides](../../../)

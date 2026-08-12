@@ -1,0 +1,21 @@
+---
+title: get_Count()
+second_title: C++ के लिए Aspose.Slides API संदर्भ
+description: एक संग्रह में ग्रेडिएंट स्टॉप्स की संख्या लौटाता है। केवल-पढ़ने-योग्य int32_t।
+type: docs
+weight: 1
+url: /hi/aspose.slides/gradientstopcollectioneffectivedata/get_count/
+---
+## GradientStopCollectionEffectiveData::get_Count() विधि
+
+एक संग्रह में ग्रेडिएंट स्टॉप्स की संख्या लौटाता है। केवल-पढ़ने-योग्य **int32_t**।
+
+```cpp
+int32_t Aspose::Slides::GradientStopCollectionEffectiveData::get_Count() override
+```
+
+## संबंधित देखें
+
+* क्लास [GradientStopCollectionEffectiveData](../)
+* नामस्थान [Aspose::Slides](../../)
+* लाइब्रेरी [Aspose.Slides](../../../)

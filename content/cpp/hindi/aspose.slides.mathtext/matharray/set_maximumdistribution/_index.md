@@ -1,0 +1,31 @@
+---
+title: set_MaximumDistribution()
+second_title: Aspose.Slides for C++ API संदर्भ
+description: अधिकतम वितरण जब true हो, तो एरे को शामिल तत्व (पृष्ठ, स्तंभ, कोशिका, आदि) की अधिकतम चौड़ाई के अनुसार व्यवस्थित किया जाता है।
+type: docs
+weight: 53
+url: /hi/aspose.slides.mathtext/matharray/set_maximumdistribution/
+---
+## MathArray::set_MaximumDistribution(bool) विधि
+
+
+अधिकतम वितरण जब true हो, तो एरे को शामिल तत्व (पृष्ठ, स्तंभ, कोशिका, आदि) की अधिकतम चौड़ाई के अनुसार व्यवस्थित किया जाता है।
+
+```cpp
+void Aspose::Slides::MathText::MathArray::set_MaximumDistribution(bool value) override
+```
+
+## टिप्पणियाँ
+
+
+उदाहरण: 
+```cpp
+auto mathArray = System::MakeObject<MathArray>(System::MakeObject<MathematicalText>(u"item1"));
+mathArray->set_MaximumDistribution(true);
+```
+
+## संबंधित देखें
+
+* कक्षा [MathArray](../)
+* नामस्थान [Aspose::Slides::MathText](../../)
+* लाइब्रेरी [Aspose.Slides](../../../)

@@ -1,0 +1,21 @@
+---
+title: set_UseFrameSize()
+second_title: Aspose.Slides for C++ API संदर्भ
+description: निर्धारित करता है कि टेक्स्ट फ्रेम को रेंडरिंग क्षेत्र में शामिल किया जाएगा या नहीं। लिखें bool। डिफ़ॉल्ट मान false है।
+type: docs
+weight: 248
+url: /hi/aspose.slides.export/isvgoptions/set_useframesize/
+---
+## ISVGOptions::set_UseFrameSize(bool) विधि
+
+निरधारित करता है कि टेक्स्ट फ्रेम को रेंडरिंग क्षेत्र में शामिल किया जाएगा या नहीं। लिखें **bool**। डिफ़ॉल्ट मान false है।
+
+```cpp
+virtual void Aspose::Slides::Export::ISVGOptions::set_UseFrameSize(bool value)=0
+```
+
+## देखें
+
+* क्लास [ISVGOptions](../)
+* नेमस्पेस [Aspose::Slides::Export](../../)
+* लाइब्रेरी [Aspose.Slides](../../../)

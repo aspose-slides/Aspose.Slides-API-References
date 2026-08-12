@@ -1,0 +1,21 @@
+---
+title: Ptr
+second_title: C++ के लिए Aspose.Slides API संदर्भ
+description: इस क्लास की एक इंस्टेंस के लिए साझा पॉइंटर का उपनाम।
+type: docs
+weight: 105
+url: /hi/system.xml.schema/xmlschemaattributegroup/ptr/
+---
+## Ptr टाइपडिफ़
+
+इस क्लास की एक इंस्टेंस के लिए साझा पॉइंटर का उपनाम।
+
+```cpp
+using System::Xml::Schema::XmlSchemaAttributeGroup::Ptr =  SharedPtr<XmlSchemaAttributeGroup>
+```
+
+## संबंधित देखें
+
+* क्लास [XmlSchemaAttributeGroup](../)
+* नेमस्पेस [System::Xml::Schema](../../)
+* लाइब्रेरी [Aspose.Slides](../../../)

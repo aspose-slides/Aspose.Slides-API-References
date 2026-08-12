@@ -1,0 +1,22 @@
+---
+title: get_EastAsianLineBreak()
+second_title: Aspose.Slides के लिए C++ API संदर्भ
+description: निर्धारित करता है कि पैराग्राफ में East Asian लाइन ब्रेक उपयोग किया जाता है या नहीं। केवल-पढ़ने योग्य bool.
+type: docs
+weight: 79
+url: /hi/aspose.slides/iparagraphformateffectivedata/get_eastasianlinebreak/
+---
+## IParagraphFormatEffectiveData::get_EastAsianLineBreak() विधि
+
+
+निर्धारित करता है कि East Asian लाइन ब्रेक पैराग्राफ में उपयोग किया जाता है या नहीं। केवल-पढ़ने योग्य **bool**.
+
+```cpp
+virtual bool Aspose::Slides::IParagraphFormatEffectiveData::get_EastAsianLineBreak()=0
+```
+
+## संबंधित देखें
+
+* क्लास [IParagraphFormatEffectiveData](../)
+* नेमस्पेस [Aspose::Slides](../../)
+* लाइब्रेरी [Aspose.Slides](../../../)

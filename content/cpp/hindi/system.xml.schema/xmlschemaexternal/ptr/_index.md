@@ -1,0 +1,21 @@
+---
+title: Ptr
+second_title: Aspose.Slides के लिए C++ API रेफ़रेंस
+description: इस क्लास के एक इंस्टेंस के लिए shared pointer का उपनाम।
+type: docs
+weight: 118
+url: /hi/system.xml.schema/xmlschemaexternal/ptr/
+---
+## Ptr टाइपडिफ़
+
+इस क्लास के एक इंस्टेंस के लिए shared pointer का उपनाम।
+
+```cpp
+using System::Xml::Schema::XmlSchemaExternal::Ptr =  SharedPtr<XmlSchemaExternal>
+```
+
+## संबंधित देखें
+
+* क्लास [XmlSchemaExternal](../)
+* नामस्थान [System::Xml::Schema](../../)
+* लाइब्रेरी [Aspose.Slides](../../../)
