@@ -1,0 +1,50 @@
+---
+title: GetFontEmbeddingLevel()
+second_title: Aspose.Slides for C++ API संदर्भ
+description: दिए गए बाइट एरे और फ़ॉन्ट नाम से फ़ॉन्ट का एम्बेडिंग स्तर निर्धारित करता है।
+type: docs
+weight: 144
+url: /hi/aspose.slides/fontsmanager/getfontembeddinglevel/
+---
+## FontsManager::GetFontEmbeddingLevel(System::ArrayPtr\<uint8_t\>, System::String) विधि
+
+दिए गए बाइट एरे और फ़ॉन्ट नाम से फ़ॉन्ट का एम्बेडिंग स्तर निर्धारित करता है।
+
+```cpp
+Aspose::Slides::EmbeddingLevel Aspose::Slides::FontsManager::GetFontEmbeddingLevel(System::ArrayPtr<uint8_t> fontBytes, System::String fontName) override
+```
+
+### आर्ग्युमेंट्स
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontBytes | [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\> | फ़ॉन्ट डेटा को शामिल करने वाला बाइट एरे। |
+| fontName | [System::String](../../../system/string/) | फ़ॉन्ट का नाम। |
+
+### वापसी मान
+
+निर्दिष्ट फ़ॉन्ट का एम्बेडिंग स्तर।
+
+## टिप्पणियाँ
+
+```cpp
+System::SharedPtr<Presentation> pres = System::MakeObject<Presentation>(u"Presentation.pptx");
+
+// Retrieve all fonts used in the presentation
+System::ArrayPtr<System::SharedPtr<IFontData>> fontDatas = pres->get_FontsManager()->GetFonts();
+
+// Get the byte array representing the regular style of the first font in the presentation
+System::ArrayPtr<uint8_t> bytes = pres->get_FontsManager()->GetFontBytes(fontDatas[0], System::Drawing::FontStyle::Regular);
+
+// Determine the embedding level of the font
+EmbeddingLevel embeddingLevel = pres->get_FontsManager()->GetFontEmbeddingLevel(bytes, fontDatas[0]->get_FontName());
+```
+
+## संबंधित देखें
+
+* Enum [EmbeddingLevel](../../embeddinglevel/)
+* Typedef [ArrayPtr](../../../system/arrayptr/)
+* क्लास [String](../../../system/string/)
+* क्लास [FontsManager](../)
+* नेमस्पेस [Aspose::Slides](../../)
+* Library [Aspose.Slides](../../../)

@@ -1,0 +1,23 @@
+---
+title: get_Peru()
+second_title: Aspose.Slides के लिए C++ API संदर्भ
+description: हैक्साडेसिमल मान #FFCD853F वाला ठोस भराव रंग लौटाता है।
+type: docs
+weight: 1405
+url: /hi/system.drawing/brushes/get_peru/
+---
+## Brushes::get_Peru() विधि
+
+हैक्साडेसिमल मान #FFCD853F वाला ठोस भराव रंग लौटाता है।
+
+```cpp
+static SharedPtr<Brush> System::Drawing::Brushes::get_Peru()
+```
+
+## संबंधित देखें
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* क्लास [Brush](../../brush/)
+* क्लास [Brushes](../)
+* नेमस्पेस [System::Drawing](../../)
+* Library [Aspose.Slides](../../../)

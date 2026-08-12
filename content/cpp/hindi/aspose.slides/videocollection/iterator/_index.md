@@ -1,0 +1,22 @@
+---
+title: iterator
+second_title: Aspose.Slides के लिए C++ API संदर्भ
+description: इटररेटर प्रकार।
+type: docs
+weight: 222
+url: /hi/aspose.slides/videocollection/iterator/
+---
+## इटररेटर टाइपडिफ
+
+
+इटररेटर प्रकार।
+
+```cpp
+using Aspose::Slides::VideoCollection::iterator =  typename iterator_holder_type::iterator
+```
+
+## संबंधित देखें
+
+* क्लास [VideoCollection](../)
+* नेमस्पेस [Aspose::Slides](../../)
+* लाइब्रेरी [Aspose.Slides](../../../)

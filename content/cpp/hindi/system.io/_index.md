@@ -1,0 +1,94 @@
+---
+title: "System::IO"
+second_title: Aspose.Slides for C++ API संदर्भ
+description: 
+type: docs
+weight: 573
+url: /hi/system.io/
+---
+## क्लासेस
+
+| क्लास | विवरण |
+| --- | --- |
+| [BasicSTDIOStreamWrapper](./basicstdiostreamwrapper/) | एक [System.IO.Stream](./stream/)-समान रैपर का प्रतिनिधित्व करता है जो std::basic_iostream और उसके व्युत्पन्न ऑब्जेक्ट्स के लिए है। इस क्लास की ऑब्जेक्ट्स को केवल [System::MakeObject()](../system/makeobject/) फ़ंक्शन का उपयोग करके ही आवंटित किया जाना चाहिए। कभी भी इस प्रकार का इंस्टेंस स्टैक पर या operator new का उपयोग करके न बनाएँ, क्योंकि इससे रन-टाइम त्रुटियों और/या असर्शन त्रुटियों का सामना हो सकता है। हमेशा इस क्लास को [System::SmartPtr](../system/smartptr/) पॉइंटर में रैप करें और इस पॉइंटर का उपयोग फ़ंक्शनों को तर्क के रूप में पास करने के लिए करें। |
+| [BasicSTDIStreamWrapper](./basicstdistreamwrapper/) | एक [System.IO.Stream](./stream/)-समान रैपर का प्रतिनिधित्व करता है जो std::basic_istream और उसके व्युत्पन्न ऑब्जेक्ट्स के लिए है। इस क्लास की ऑब्जेक्ट्स को केवल [System::MakeObject()](../system/makeobject/) फ़ंक्शन का उपयोग करके ही आवंटित किया जाना चाहिए। कभी भी इस प्रकार का इंस्टेंस स्टैक पर या operator new का उपयोग करके न बनाएँ, क्योंकि इससे रन-टाइम त्रुटियों और/या असर्शन त्रुटियों का सामना हो सकता है। हमेशा इस क्लास को [System::SmartPtr](../system/smartptr/) पॉइंटर में रैप करें और इस पॉइंटर का उपयोग फ़ंक्शनों को तर्क के रूप में पास करने के लिए करें। |
+| [BasicSTDOStreamWrapper](./basicstdostreamwrapper/) | एक [System.IO.Stream](./stream/)-समान रैपर का प्रतिनिधित्व करता है जो std::basic_ostream और उसके व्युत्पन्न ऑब्जेक्ट्स के लिए है। इस क्लास की ऑब्जेक्ट्स को केवल [System::MakeObject()](../system/makeobject/) फ़ंक्शन का उपयोग करके ही आवंटित किया जाना चाहिए। कभी भी इस प्रकार का इंस्टेंस स्टैक पर या operator new का उपयोग करके न बनाएँ, क्योंकि इससे रन-टाइम त्रुटियों और/या असर्शन त्रुटियों का सामना हो सकता है। हमेशा इस क्लास को [System::SmartPtr](../system/smartptr/) पॉइंटर में रैप करें और इस पॉइंटर का उपयोग फ़ंक्शनों को तर्क के रूप में पास करने के लिए करें। |
+| [BasicSystemIOStreamBuf](./basicsystemiostreambuf/) | एक बफ़र का प्रतिनिधित्व करता है जो [System::IO::Stream](./stream/)-समान स्ट्रीम्स को रैप करता है और उन्हें std::iostream-समतुल्य स्ट्रीम्स के आंतरिक बफ़र के रूप में उपयोग करने की अनुमति देता है। |
+| [BasicSystemIOStreamWrapper](./basicsystemiostreamwrapper/) | एक std::iostream-समतुल्य रैपर का प्रतिनिधित्व करता है जो [BasicSystemIOStreamBuf](./basicsystemiostreambuf/) को आंतरिक बफ़र के रूप में उपयोग करता है। |
+| [BasicSystemIStreamWrapper](./basicsystemistreamwrapper/) | एक std::istream-समतुल्य रैपर का प्रतिनिधित्व करता है जो [BasicSystemIOStreamBuf](./basicsystemiostreambuf/) को आंतरिक बफ़र के रूप में उपयोग करता है। |
+| [BasicSystemOStreamWrapper](./basicsystemostreamwrapper/) | एक std::ostream-समतुल्य रैपर का प्रतिनिधित्व करता है जो [BasicSystemIOStreamBuf](./basicsystemiostreambuf/) को आंतरिक बफ़र के रूप में उपयोग करता है। |
+| [BinaryReader](./binaryreader/) | एक रीडर का प्रतिनिधित्व करता है जो प्रिमिटिव डेटा टाइप्स को विशेष एन्कोडिंग में बाइनरी डेटा के रूप में पढ़ता है। इस क्लास की ऑब्जेक्ट्स को केवल [System::MakeObject()](../system/makeobject/) फ़ंक्शन का उपयोग करके ही आवंटित किया जाना चाहिए। कभी भी इस प्रकार का इंस्टेंस स्टैक पर या operator new का उपयोग करके न बनाएँ, क्योंकि इससे रन-टाइम त्रुटियों और/या असर्शन त्रुटियों का सामना हो सकता है। हमेशा इस क्लास को [System::SmartPtr](../system/smartptr/) पॉइंटर में रैप करें और इस पॉइंटर का उपयोग फ़ंक्शनों को तर्क के रूप में पास करने के लिए करें। |
+| [BinaryWriter](./binarywriter/) | एक राइटर का प्रतिनिधित्व करता है जो प्रिमिटिव टाइप्स के मानों को बाइट स्ट्रीम में लिखता है। इस क्लास की ऑब्जेक्ट्स को केवल [System::MakeObject()](../system/makeobject/) फ़ंक्शन का उपयोग करके ही आवंटित किया जाना चाहिए। कभी भी इस प्रकार का इंस्टेंस स्टैक पर या operator new का उपयोग करके न बनाएँ, क्योंकि इससे रन-टाइम त्रुटियों और/या असर्शन त्रुटियों का सामना हो सकता है। हमेशा इस क्लास को [System::SmartPtr](../system/smartptr/) पॉइंटर में रैप करें और इस पॉइंटर का उपयोग फ़ंक्शनों को तर्क के रूप में पास करने के लिए करें। |
+| [BufferedStream](./bufferedstream/) | किसी अन्य स्ट्रीम के ऊपर एक बफ़रिंग लेयर जोड़ता है। इस क्लास की ऑब्जेक्ट्स को केवल [System::MakeObject()](../system/makeobject/) फ़ंक्शन का उपयोग करके ही आवंटित किया जाना चाहिए। कभी भी इस प्रकार का इंस्टेंस स्टैक पर या operator new का उपयोग करके न बनाएँ, क्योंकि इससे रन-टाइम त्रुटियों और/या असर्शन त्रुटियों का सामना हो सकता है। हमेशा इस क्लास को [System::SmartPtr](../system/smartptr/) पॉइंटर में रैप करें और इस पॉइंटर का उपयोग फ़ंक्शनों को तर्क के रूप में पास करने के लिए करें। |
+| [Details_DirectoryNotFoundException](./details_directorynotfoundexception/) |  |
+| [Details_DriveNotFoundException](./details_drivenotfoundexception/) |  |
+| [Details_EndOfStreamException](./details_endofstreamexception/) |  |
+| [Details_FileLoadException](./details_fileloadexception/) |  |
+| [Details_FileNotFoundException](./details_filenotfoundexception/) | वह अपवाद जिसे फेंका जाता है जब डिस्क पर मौजूद न होने वाली फ़ाइल तक पहुँचने का प्रयास विफल हो जाता है। इस क्लास के इंस्टेंस को मैन्युअल रूप से कभी न बनाएँ। इसके बजाय FileNotFoundException क्लास का उपयोग करें। FileNotFoundException क्लास के इंस्टेंस को [System::SmartPtr](../system/smartptr/) में रैप न करें। |
+| [Details_InvalidDataException](./details_invaliddataexception/) |  |
+| [Details_IOException](./details_ioexception/) |  |
+| [Details_PathTooLongException](./details_pathtoolongexception/) |  |
+| [Directory](./directory/) | डायरेक्टरीज़ को संशोधित करने के लिए मेथड्स रखता है। यह एक स्टेटिक टाइप है जिसका कोई इंस्टेंस नहीं है। आपको इसे किसी भी साधन से इंस्टेंस नहीं बनाना चाहिए। |
+| [DirectoryInfo](./directoryinfo/) | एक फ़ाइल सिस्टम पथ, उस पथ द्वारा दर्शाई गई डायरेक्टरी का प्रतिनिधित्व करता है और डायरेक्टरीज़ को संशोधित करने के लिए इंस्टेंस मेथड्स प्रदान करता है। इस क्लास की ऑब्जेक्ट्स को केवल [System::MakeObject()](../system/makeobject/) फ़ंक्शन का उपयोग करके ही आवंटित किया जाना चाहिए। कभी भी इस प्रकार का इंस्टेंस स्टैक पर या operator new का उपयोग करके न बनाएँ, क्योंकि इससे रन-टाइम त्रुटियों और/या असर्शन त्रुटियों का सामना हो सकता है। हमेशा इस क्लास को [System::SmartPtr](../system/smartptr/) पॉइंटर में रैप करें और इस पॉइंटर का उपयोग फ़ंक्शनों को तर्क के रूप में पास करने के लिए करें। |
+| [File](./file/) | फ़ाइलों को संशोधित करने के लिए मेथड्स प्रदान करता है। यह एक स्टेटिक टाइप है जिसका कोई इंस्टेंस नहीं है। आपको इसे किसी भी साधन से इंस्टेंस नहीं बनाना चाहिए। |
+| [FileInfo](./fileinfo/) | एक फ़ाइल के पथ और उस फ़ाइल का प्रतिनिधित्व करता है तथा उसे संशोधित करने के लिए मेथड्स प्रदान करता है। इस क्लास की ऑब्जेक्ट्स को केवल [System::MakeObject()](../system/makeobject/) फ़ंक्शन का उपयोग करके ही आवंटित किया जाना चाहिए। कभी भी इस प्रकार का इंस्टेंस स्टैक पर या operator new का उपयोग करके न बनाएँ, क्योंकि इससे रन-टाइम त्रुटियों और/या असर्शन त्रुटियों का सामना हो सकता है। हमेशा इस क्लास को [System::SmartPtr](../system/smartptr/) पॉइंटर में रैप करें और इस पॉइंटर का उपयोग फ़ंक्शनों को तर्क के रूप में पास करने के लिए करें। |
+| [FileStream](./filestream/) | एक फ़ाइल स्ट्रीम प्रतिनिधित्व करता है जो सिंक्रोनस और एसिंक्रोनस पढ़ने-लिखने कार्यों का समर्थन करता है। इस क्लास की ऑब्जेक्ट्स को केवल [System::MakeObject()](../system/makeobject/) फ़ंक्शन का उपयोग करके ही आवंटित किया जाना चाहिए। कभी भी इस प्रकार का इंस्टेंस स्टैक पर या operator new का उपयोग करके न बनाएँ, क्योंकि इससे रन-टाइम त्रुटियों और/या असर्शन त्रुटियों का सामना हो सकता है। हमेशा इस क्लास को [System::SmartPtr](../system/smartptr/) पॉइंटर में रैप करें और इस पॉइंटर का उपयोग फ़ंक्शनों को तर्क के रूप में पास करने के लिए करें। |
+| [FileSystemInfo](./filesysteminfo/) | [FileInfo](./fileinfo/) और [DirectoryInfo](./directoryinfo/) के लिए बेस क्लास है। इस क्लास की ऑब्जेक्ट्स को केवल [System::MakeObject()](../system/makeobject/) फ़ंक्शन का उपयोग करके ही आवंटित किया जाना चाहिए। कभी भी इस प्रकार का इंस्टेंस स्टैक पर या operator new का उपयोग करके न बनाएँ, क्योंकि इससे रन-टाइम त्रुटियों और/या असर्शन त्रुटियों का सामना हो सकता है। हमेशा इस क्लास को [System::SmartPtr](../system/smartptr/) पॉइंटर में रैप करें और इस पॉइंटर का उपयोग फ़ंक्शनों को तर्क के रूप में पास करने के लिए करें। |
+| [FileSystemInfoStat](./filesysteminfostat/) | फ़ाइल या डायरेक्टरी के बारे में जानकारी का प्रतिनिधित्व करता है। |
+| [MemoryStream](./memorystream/) | एक स्ट्रीम का प्रतिनिधित्व करता है जो मेमोरी से पढ़ता और लिखता है। इस क्लास की ऑब्जेक्ट्स को केवल [System::MakeObject()](../system/makeobject/) फ़ंक्शन का उपयोग करके ही आवंटित किया जाना चाहिए। कभी भी इस प्रकार का इंस्टेंस स्टैक पर या operator new का उपयोग करके न बनाएँ, क्योंकि इससे रन-टाइम त्रुटियों और/या असर्शन त्रुटियों का सामना हो सकता है। हमेशा इस क्लास को [System::SmartPtr](../system/smartptr/) पॉइंटर में रैप करें और इस पॉइंटर का उपयोग फ़ंक्शनों को तर्क के रूप में पास करने के लिए करें। |
+| [Path](./path/) | पाथ्स को संशोधित करने के लिए मेथड्स प्रदान करता है। यह एक स्टेटिक टाइप है जिसका कोई इंस्टेंस नहीं है। आपको इसे किसी भी साधन से इंस्टेंस नहीं बनाना चाहिए। |
+| [STDIOStreamWrapperBase](./stdiostreamwrapperbase/) | [System.IO.Stream](./stream/)-समान रैपर्स के लिए बेस क्लास का प्रतिनिधित्व करता है। इस क्लास की ऑब्जेक्ट्स को केवल [System::MakeObject()](../system/makeobject/) फ़ंक्शन का उपयोग करके ही आवंटित किया जाना चाहिए। कभी भी इस प्रकार का इंस्टेंस स्टैक पर या operator new का उपयोग करके न बनाएँ, क्योंकि इससे रन-टाइम त्रुटियों और/या असर्शन त्रुटियों का सामना हो सकता है। हमेशा इस क्लास को [System::SmartPtr](../system/smartptr/) पॉइंटर में रैप करें और इस पॉइंटर का उपयोग फ़ंक्शनों को तर्क के रूप में पास करने के लिए करें। |
+| [Stream](./stream/) | विभिन्न स्ट्रीम इम्प्लीमेंटेशन्स के लिए एक बेस क्लास का प्रतिनिधित्व करता है। इस क्लास की ऑब्जेक्ट्स को केवल [System::MakeObject()](../system/makeobject/) फ़ंक्शन का उपयोग करके ही आवंटित किया जाना चाहिए। कभी भी इस प्रकार का इंस्टेंस स्टैक पर या operator new का उपयोग करके न बनाएँ, क्योंकि इससे रन-टाइम त्रुटियों और/या असर्शन त्रुटियों का सामना हो सकता है। हमेशा इस क्लास को [System::SmartPtr](../system/smartptr/) पॉइंटर में रैप करें और इस पॉइंटर का उपयोग फ़ंक्शनों को तर्क के रूप में पास करने के लिए करें। |
+| [StreamReader](./streamreader/) | एक रीडर का प्रतिनिधित्व करता है जो बाइट स्ट्रीम से अक्षर पढ़ता है। इस क्लास की ऑब्जेक्ट्स को केवल [System::MakeObject()](../system/makeobject/) फ़ंक्शन का उपयोग करके ही आवंटित किया जाना चाहिए। कभी भी इस प्रकार का इंस्टेंस स्टैक पर या operator new का उपयोग करके न बनाएँ, क्योंकि इससे रन-टाइम त्रुटियों और/या असर्शन त्रुटियों का सामना हो सकता है। हमेशा इस क्लास को [System::SmartPtr](../system/smartptr/) पॉइंटर में रैप करें और इस पॉइंटर का उपयोग फ़ंक्शनों को तर्क के रूप में पास करने के लिए करें। |
+| [StreamWriter](./streamwriter/) | एक राइटर का प्रतिनिधित्व करता है जो बाइट स्ट्रीम में अक्षर लिखता है। इस क्लास की ऑब्जेक्ट्स को केवल [System::MakeObject()](../system/makeobject/) फ़ंक्शन का उपयोग करके ही आवंटित किया जाना चाहिए। कभी भी इस प्रकार का इंस्टेंस स्टैक पर या operator new का उपयोग करके न बनाएँ, क्योंकि इससे रन-टाइम त्रुटियों और/या असर्शन त्रुटियों का सामना हो सकता है। हमेशा इस क्लास को [System::SmartPtr](../system/smartptr/) पॉइंटर में रैप करें और इस पॉइंटर का उपयोग फ़ंक्शनों को तर्क के रूप में पास करने के लिए करें। |
+| [StringReader](./stringreader/) | एक रीडर का प्रतिनिधित्व करता है जो स्ट्रिंग से अक्षर पढ़ता है। इस क्लास की ऑब्जेक्ट्स को केवल [System::MakeObject()](../system/makeobject/) फ़ंक्शन का उपयोग करके ही आवंटित किया जाना चाहिए। कभी भी इस प्रकार का इंस्टेंस स्टैक पर या operator new का उपयोग करके न बनाएँ, क्योंकि इससे रन-टाइम त्रुटियों और/या असर्शन त्रुटियों का सामना हो सकता है। हमेशा इस क्लास को [System::SmartPtr](../system/smartptr/) पॉइंटर में रैप करें और इस पॉइंटर का उपयोग फ़ंक्शनों को तर्क के रूप में पास करने के लिए करें। |
+| [StringWriter](./stringwriter/) | एक [TextWriter](./textwriter/) को लागू करता है जो स्ट्रिंग में जानकारी लिखता है। इस क्लास की ऑब्जेक्ट्स को केवल [System::MakeObject()](../system/makeobject/) फ़ंक्शन का उपयोग करके ही आवंटित किया जाना चाहिए। कभी भी इस प्रकार का इंस्टेंस स्टैक पर या operator new का उपयोग करके न बनाएँ, क्योंकि इससे रन-टाइम त्रुटियों और/या असर्शन त्रुटियों का सामना हो सकता है। हमेशा इस क्लास को [System::SmartPtr](../system/smartptr/) पॉइंटर में रैप करें और इस पॉइंटर का उपयोग फ़ंक्शनों को तर्क के रूप में पास करने के लिए करें। |
+| [TextReader](./textreader/) | विभिन्न स्रोतों से अक्षर क्रम पढ़ने वाले रीडर्स का प्रतिनिधित्व करने वाली क्लासेज़ के लिए बेस क्लास है। इस क्लास की ऑब्जेक्ट्स को केवल [System::MakeObject()](../system/makeobject/) फ़ंक्शन का उपयोग करके ही आवंटित किया जाना चाहिए। कभी भी इस प्रकार का इंस्टेंस स्टैक पर या operator new का उपयोग करके न बनाएँ, क्योंकि इससे रन-टाइम त्रुटियों और/या असर्शन त्रुटियों का सामना हो सकता है। हमेशा इस क्लास को [System::SmartPtr](../system/smartptr/) पॉइंटर में रैप करें और इस पॉइंटर का उपयोग फ़ंक्शनों को तर्क के रूप में पास करने के लिए करें। |
+| [TextWriter](./textwriter/) | विभिन्न गंतव्यों पर अक्षर क्रम लिखने वाले राइटर्स का प्रतिनिधित्व करने वाली क्लासेज़ के लिए बेस क्लास है। इस क्लास की ऑब्जेक्ट्स को केवल [System::MakeObject()](../system/makeobject/) फ़ंक्शन का उपयोग करके ही आवंटित किया जाना चाहिए। कभी भी इस प्रकार का इंस्टेंस स्टैक पर या operator new का उपयोग करके न बनाएँ, क्योंकि इससे रन-टाइम त्रुटियों और/या असर्शन त्रुटियों का सामना हो सकता है। हमेशा इस क्लास को [System::SmartPtr](../system/smartptr/) पॉइंटर में रैप करें और इस पॉइंटर का उपयोग फ़ंक्शनों को तर्क के रूप में पास करने के लिए करें। |
+| [UnmanagedMemoryStream](./unmanagedmemorystream/) | अनमैनेज्ड मेमोरी तक पहुँच प्रदान करता है। इस क्लास की ऑब्जेक्ट्स को केवल [System::MakeObject()](../system/makeobject/) फ़ंक्शन का उपयोग करके ही आवंटित किया जाना चाहिए। कभी भी इस प्रकार का इंस्टेंस स्टैक पर या operator new का उपयोग करके न बनाएँ, क्योंकि इससे रन-टाइम त्रुटियों और/या असर्शन त्रुटियों का सामना हो सकता है। हमेशा इस क्लास को [System::SmartPtr](../system/smartptr/) पॉइंटर में रैप करें और इस पॉइंटर का उपयोग फ़ंक्शनों को तर्क के रूप में पास करने के लिए करें। |
+## फ़ंक्शन
+
+| फ़ंक्शन | विवरण |
+| --- | --- |
+| [SharedPtr](../system/sharedptr/)\<[Stream](./stream/)\> [WrapSTDIOStream](./wrapstdiostream/)(std::basic_istream\<char_type, traits_type\>\&, [STDIOStreamWrappingMode](./stdiostreamwrappingmode/)) | std::basic_istream-समतुल्य स्ट्रीम्स के लिए रैपर फ़ंक्शन। |
+| [SharedPtr](../system/sharedptr/)\<[Stream](./stream/)\> [WrapSTDIOStream](./wrapstdiostream/)(std::basic_ostream\<char_type, traits_type\>\&, [STDIOStreamWrappingMode](./stdiostreamwrappingmode/)) | std::basic_ostream-समतुल्य स्ट्रीम्स के लिए रैपर फ़ंक्शन। |
+| [SharedPtr](../system/sharedptr/)\<[Stream](./stream/)\> [WrapSTDIOStream](./wrapstdiostream/)(std::basic_iostream\<char_type, traits_type\>\&, [STDIOStreamWrappingMode](./stdiostreamwrappingmode/), [STDIOStreamPositionPreference](./stdiostreampositionpreference/)) | std::basic_iostream-समतुल्य स्ट्रीम्स के लिए रैपर फ़ंक्शन। |
+## एनम
+
+| एनम | विवरण |
+| --- | --- |
+| [FileAccess](./fileaccess/) | फ़ाइल खोलते समय एक्सेस के प्रकार को निर्दिष्ट करता है। |
+| [FileAttributes](./fileattributes/) | डायरेक्टरी या फ़ाइल के गुणों का प्रतिनिधित्व करता है। |
+| [FileMode](./filemode/) | फ़ाइल को कैसे खोलना है, यह निर्दिष्ट करता है। |
+| [FileOptions](./fileoptions/) | [FileStream](./filestream/) ऑब्जेक्ट बनाते समय उन्नत विकल्पों का प्रतिनिधित्व करता है। |
+| [FileShare](./fileshare/) | अन्य [FileStream](./filestream/) ऑब्जेक्ट्स को खुल रही फ़ाइल तक किस प्रकार का एक्सेस मिल सकता है, यह निर्दिष्ट करता है। |
+| [SearchOption](./searchoption/) | यह निर्धारित करता है कि खोज केवल वर्तमान डायरेक्टरी में की जानी चाहिए, या वर्तमान डायरेक्टरी और उसकी सभी सबडायरेक्टरीज़ में। |
+| [SeekOrigin](./seekorigin/) | स्ट्रीम में उस संदर्भ स्थिति को निर्दिष्ट करता है जिसके सापेक्ष सीक पोज़ीशन निर्धारित की जाती है। |
+| [STDIOStreamWrappingMode](./stdiostreamwrappingmode/) | उन I/O ऑपरेशनों के मोड को निर्दिष्ट करता है जो रैपर std::iostream-समतुल्य स्ट्रीम्स पर करेंगे। |
+| [STDIOStreamPositionPreference](./stdiostreampositionpreference/) | यह निर्धारित करता है कि std::basic_iostream और उसके डीसेंडेंट्स के पास अलग-अलग रीड और राइट पोज़ीशन होने पर कौन-सी पोज़ीशन को सामान्य रीड-राइट पोज़ीशन के रूप में उपयोग किया जाना चाहिए। |
+| [SystemIOStreamWrappingMode](./systemiostreamwrappingmode/) | उन I/O ऑपरेशनों के मोड को निर्दिष्ट करता है जो रैपर [System::IO::Stream](./stream/)-समान स्ट्रीम्स पर करेंगे। |
+## टाइपडिफ़
+
+| टाइपडिफ़ | विवरण |
+| --- | --- |
+| [IOException](./ioexception/) |  |
+| [EndOfStreamException](./endofstreamexception/) |  |
+| [InvalidDataException](./invaliddataexception/) |  |
+| [DirectoryNotFoundException](./directorynotfoundexception/) |  |
+| [FileLoadException](./fileloadexception/) |  |
+| [PathTooLongException](./pathtoolongexception/) |  |
+| [DriveNotFoundException](./drivenotfoundexception/) |  |
+| [BinaryWriterPtr](./binarywriterptr/) | इस क्लास के लिए एक शैर्ड पॉइंटर का उपनाम। |
+| [FileNotFoundException](./filenotfoundexception/) | वह अपवाद जिसे फेंका जाता है जब डिस्क पर मौजूद न होने वाली फ़ाइल तक पहुँचने का प्रयास विफल हो जाता है। FileNotFoundException क्लास के इंस्टेंस को [System::SmartPtr](../system/smartptr/) में रैप न करें। |
+| [STDIStreamWrapper](./stdistreamwrapper/) | char कैरेक्टर टाइप्स के लिए [BasicSTDIStreamWrapper](./basicstdistreamwrapper/) की विशेषीकरण। |
+| [STDWIStreamWrapper](./stdwistreamwrapper/) | **wchar_t** कैरेक्टर टाइप्स के लिए [BasicSTDIStreamWrapper](./basicstdistreamwrapper/) की विशेषीकरण। |
+| [STDOStreamWrapper](./stdostreamwrapper/) | char कैरेक्टर टाइप्स के लिए [BasicSTDOStreamWrapper](./basicstdostreamwrapper/) की विशेषीकरण। |
+| [STDWOStreamWrapper](./stdwostreamwrapper/) | **wchar_t** कैरेक्टर टाइप्स के लिए [BasicSTDOStreamWrapper](./basicstdostreamwrapper/) की विशेषीकरण। |
+| [STDIOStreamWrapper](./stdiostreamwrapper/) | char कैरेक्टर टाइप्स के लिए [BasicSTDIOStreamWrapper](./basicstdiostreamwrapper/) की विशेषीकरण। |
+| [STDWIOStreamWrapper](./stdwiostreamwrapper/) | **wchar_t** कैरेक्टर टाइप्स के लिए [BasicSTDIOStreamWrapper](./basicstdiostreamwrapper/) की विशेषीकरण। |
+| [SystemIStreamWrapper](./systemistreamwrapper/) | char कैरेक्टर टाइप्स के लिए [BasicSystemIStreamWrapper](./basicsystemistreamwrapper/) की विशेषीकरण। |
+| [SystemWIStreamWrapper](./systemwistreamwrapper/) | **wchar_t** कैरेक्टर टाइप्स के लिए [BasicSystemIStreamWrapper](./basicsystemistreamwrapper/) की विशेषीकरण। |
+| [SystemOStreamWrapper](./systemostreamwrapper/) | char कैरेक्टर टाइप्स के लिए [BasicSystemOStreamWrapper](./basicsystemostreamwrapper/) की विशेषीकरण। |
+| [SystemWOStreamWrapper](./systemwostreamwrapper/) | **wchar_t** कैरेक्टर टाइप्स के लिए [BasicSystemOStreamWrapper](./basicsystemostreamwrapper/) की विशेषीकरण। |
+| [SystemIOStreamWrapper](./systemiostreamwrapper/) | char कैरेक्टर टाइप्स के लिए [BasicSystemIOStreamWrapper](./basicsystemiostreamwrapper/) की विशेषीकरण। |
+| [SystemWIOStreamWrapper](./systemwiostreamwrapper/) | **wchar_t** कैरेक्टर टाइप्स के लिए [BasicSystemIOStreamWrapper](./basicsystemiostreamwrapper/) की विशेषीकरण। |

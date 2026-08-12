@@ -1,0 +1,37 @@
+---
+title: get_TrimFromStart()
+second_title: Aspose.Slides for C++ API संदर्भ
+description: प्लेबैक के दौरान मीडिया की शुरुआत से हटाये जाने वाले समय अवधि को मिलिसेकंड में निर्दिष्ट करता है। पढ़ें float.
+type: docs
+weight: 404
+url: /hi/aspose.slides/audioframe/get_trimfromstart/
+---
+## AudioFrame::get_TrimFromStart() विधि
+
+
+मीडिया को प्ले करने के दौरान शुरुआत से हटाने के लिए समय अवधि को मिलिसेकंड में निर्दिष्ट करता है। पढ़ें **float**।
+
+```cpp
+float Aspose::Slides::AudioFrame::get_TrimFromStart() override
+```
+
+## टिप्पणियाँ
+
+
+उदाहरण: 
+```cpp
+System::SharedPtr<Presentation> pres = System::MakeObject<Presentation>();
+
+// ऑडियो फ्रेम जोड़ें
+System::SharedPtr<IAudio> audio = pres->get_Audios()->AddAudio(System::IO::File::ReadAllBytes(u"sampleaudio.mp3"));
+System::SharedPtr<IAudioFrame> audioFrame = pres->get_Slide(0)->get_Shapes()->AddAudioFrameEmbedded(50.0f, 50.0f, 100.0f, 100.0f, audio);
+
+// प्रारम्भिक ट्रिमिंग समय 1.5 सेकंड सेट करें
+audioFrame->set_TrimFromStart(1500.0f);
+```
+
+## देखें
+
+* क्लास [AudioFrame](../)
+* नेमस्पेस [Aspose::Slides](../../)
+* लाइब्रेरी [Aspose.Slides](../../../)

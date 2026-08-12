@@ -1,0 +1,21 @@
+---
+title: set_SizeLocked()
+second_title: Aspose.Slides for C++ API संदर्भ
+description: निर्धारित करता है कि इस आकार को बदलना प्रतिबंधित है या नहीं। लिखें bool.
+type: docs
+weight: 144
+url: /hi/aspose.slides/graphicalobjectlock/set_sizelocked/
+---
+## GraphicalObjectLock::set_SizeLocked(bool) मेथड
+
+निर्धारित करता है कि इस आकार को बदलना प्रतिबंधित है या नहीं। लिखें **bool**।
+
+```cpp
+void Aspose::Slides::GraphicalObjectLock::set_SizeLocked(bool value) override
+```
+
+## संबंधित देखें
+
+* क्लास [GraphicalObjectLock](../)
+* नेमस्पेस [Aspose::Slides](../../)
+* लाइब्रेरी [Aspose.Slides](../../../)

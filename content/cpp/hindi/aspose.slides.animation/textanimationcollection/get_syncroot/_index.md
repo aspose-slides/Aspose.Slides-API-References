@@ -1,0 +1,24 @@
+---
+title: get_SyncRoot()
+second_title: Aspose.Slides के लिये C++ API संदर्भ
+description: "एक सिंक्रनाइज़ेशन रूट लौटाता है। केवल पढ़ने योग्य System::Object."
+type: docs
+weight: 27
+url: /hi/aspose.slides.animation/textanimationcollection/get_syncroot/
+---
+## TextAnimationCollection::get_SyncRoot() विधि
+
+
+एक सिंक्रनाइज़ेशन रूट लौटाता है। केवल-पढ़ने योग्य [System::Object](../../../system/object/).
+
+```cpp
+System::SharedPtr<System::Object> Aspose::Slides::Animation::TextAnimationCollection::get_SyncRoot() override
+```
+
+## देखें भी
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* क्लास [Object](../../../system/object/)
+* क्लास [TextAnimationCollection](../)
+* नेमस्पेस [Aspose::Slides::Animation](../../)
+* लाइब्रेरी [Aspose.Slides](../../../)

@@ -1,0 +1,22 @@
+---
+title: get_Azure()
+second_title: Aspose.Slides for C++ API संदर्भ
+description: एक ऐसा रंग लौटाता है जिसका ARGB मान हेक्साडेसिमल नोटेशन में #FFF0FFFF है।
+type: docs
+weight: 339
+url: /hi/system.drawing/color/get_azure/
+---
+## Color::get_Azure() विधि
+
+
+एक रंग लौटाता है जिसका ARGB मान हेक्साडेसिमल नोटेशन में #FFF0FFFF है।
+
+```cpp
+static Color System::Drawing::Color::get_Azure()
+```
+
+## संबंधित देखें
+
+* क्लास [Color](../)
+* नामस्थान [System::Drawing](../../)
+* लाइब्रेरी [Aspose.Slides](../../../)

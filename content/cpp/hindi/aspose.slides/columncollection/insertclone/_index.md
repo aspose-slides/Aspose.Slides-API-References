@@ -1,0 +1,36 @@
+---
+title: InsertClone()
+second_title: Aspose.Slides के लिए C++ API संदर्भ
+description: निर्दिष्ट टेम्पलेट कॉलम की एक कॉपी बनाता है और उसे तालिका में निर्दिष्ट स्थिति पर डालता है।
+type: docs
+weight: 66
+url: /hi/aspose.slides/columncollection/insertclone/
+---
+## ColumnCollection::InsertClone(int32_t, System::SharedPtr\<IColumn\>, bool) मेथड
+
+निर्दिष्ट टेम्पलेट कॉलम की एक कॉपी बनाता है और उसे तालिका में निर्दिष्ट स्थिति पर डालता है।
+
+```cpp
+System::ArrayPtr<System::SharedPtr<IColumn>> Aspose::Slides::ColumnCollection::InsertClone(int32_t index, System::SharedPtr<IColumn> templ, bool withAttachedColumns) override
+```
+
+### आर्ग्युमेंट्स
+
+| पैरामीटर | टाइप | विवरण |
+| --- | --- | --- |
+| index | **int32_t** | नए कॉलम का सूचकांक। |
+| templ | [System::SharedPtr](../../../system/sharedptr/)\<[IColumn](../../icolumn/)\> | [Column](../../column/) जो टेम्पलेट के रूप में उपयोग किया जाता है। |
+| withAttachedColumns | **bool** | टेम्पलेट कॉलम से जुड़े सभी कॉलम को भी कॉपी करने के लिए True। |
+
+### रिटर्न वैल्यू
+
+डाली गई कॉलमें।
+
+## संबंधित देखें
+
+* Typedef [ArrayPtr](../../../system/arrayptr/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* क्लास [IColumn](../../icolumn/)
+* क्लास [ColumnCollection](../)
+* नेमस्पेस [Aspose::Slides](../../)
+* लाइब्रेरी [Aspose.Slides](../../../)

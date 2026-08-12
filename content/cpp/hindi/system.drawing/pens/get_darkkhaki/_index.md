@@ -1,0 +1,24 @@
+---
+title: get_DarkKhaki()
+second_title: Aspose.Slides for C++ API संदर्भ
+description: लौटाता है एक Pen ऑब्जेक्ट जिसकी चौड़ाई 1 है और जिसका ARGB रंग हेक्साडेसिमल नोटेशन में #FFBDB76B मान रखता है।
+type: docs
+weight: 352
+url: /hi/system.drawing/pens/get_darkkhaki/
+---
+## Pens::get_DarkKhaki() मेथड
+
+
+वापसी करता है एक [Pen](../../pen/) वस्तु जिसकी चौड़ाई 1 है और जिसका ARGB रंग हेक्साडेसिमल नोटेशन में #FFBDB76B मान रखता है।
+
+```cpp
+static SharedPtr<Pen> System::Drawing::Pens::get_DarkKhaki()
+```
+
+## संबंधित देखें
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* क्लास [Pen](../../pen/)
+* क्लास [Pens](../)
+* नेमस्पेस [System::Drawing](../../)
+* लाइब्रेरी [Aspose.Slides](../../../)
