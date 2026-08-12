@@ -1,0 +1,58 @@
+---
+title: IsLeapDay()
+second_title: Aspose.Slides สำหรับ C++ API Reference
+description: ตรวจสอบว่าวันนั้นเป็นปีอธิกสุรทินหรือไม่.
+type: docs
+weight: 378
+url: /th/system.globalization/calendar/isleapday/
+---
+## Calendar::IsLeapDay(int, int, int) const method
+
+
+ตรวจสอบว่าวันนั้นเป็นปีอธิกสุรทินหรือไม่.
+
+```cpp
+virtual bool System::Globalization::Calendar::IsLeapDay(int year, int month, int day) const
+```
+
+
+### อาร์กิวเมนต์
+
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| --- | --- | --- |
+| year | int | ปี. |
+| month | int | เดือน. |
+| day | int | วัน. |
+
+### ค่าที่ส่งกลับ
+
+True หากวันที่ระบุเป็นปีอธิกสุรทิน, false มิฉะนั้น.
+
+## Calendar::IsLeapDay(int, int, int, int) const method
+
+
+ตรวจสอบว่าวันนั้นเป็นปีอธิกสุรทินหรือไม่.
+
+```cpp
+virtual bool System::Globalization::Calendar::IsLeapDay(int year, int month, int day, int era) const =0
+```
+
+
+### อาร์กิวเมนต์
+
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| --- | --- | --- |
+| year | int | ปี. |
+| month | int | เดือน. |
+| day | int | วัน. |
+| era | int | ยุค. |
+
+### ค่าที่ส่งกลับ
+
+True หากวันที่ระบุเป็นปีอธิกสุรทิน, false มิฉะนั้น.
+
+## ดูเพิ่มเติม
+
+* คลาส [Calendar](../)
+* เนมสเปซ [System::Globalization](../../)
+* ไลบรารี [Aspose.Slides](../../../)

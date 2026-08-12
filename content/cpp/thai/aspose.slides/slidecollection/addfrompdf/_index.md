@@ -1,0 +1,150 @@
+---
+title: AddFromPdf()
+second_title: Aspose.Slides สำหรับ C++ API อ้างอิง
+description: สร้างสไลด์จากเอกสาร PDF และเพิ่มเข้าไปที่ส่วนท้ายของคอลเลกชัน
+type: docs
+weight: 183
+url: /th/aspose.slides/slidecollection/addfrompdf/
+---
+## SlideCollection::AddFromPdf(System::String) เมธอด
+
+สร้างสไลด์จากเอกสาร PDF และเพิ่มเข้าไปที่ส่วนท้ายของคอลเลกชัน
+
+```cpp
+System::ArrayPtr<System::SharedPtr<ISlide>> Aspose::Slides::SlideCollection::AddFromPdf(System::String path) override
+```
+
+### อาร์กิวเมนต์
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | [System::String](../../../system/string/) | เส้นทางไปยังเอกสาร PDF |
+
+### ค่าที่ส่งคืน
+
+สไลด์ที่เพิ่มเข้ามา
+
+## หมายเหตุ
+
+
+
+ตัวอย่าง: 
+```cpp
+auto pres = MakeObject<Presentation>();
+pres->get_Slides()->AddFromPdf(u"document.pdf");
+pres->Save(u"fromPdfDocument.pptx", SaveFormat::Pptx);
+```
+
+## SlideCollection::AddFromPdf(System::String, System::SharedPtr\<Import::PdfImportOptions\>) เมธอด
+
+สร้างสไลด์จากเอกสาร PDF และเพิ่มเข้าไปที่ส่วนท้ายของคอลเลกชันโดยพิจารณาตัวเลือกการนำเข้า PDF
+
+```cpp
+System::ArrayPtr<System::SharedPtr<ISlide>> Aspose::Slides::SlideCollection::AddFromPdf(System::String path, System::SharedPtr<Import::PdfImportOptions> pdfImportOptions) override
+```
+
+### อาร์กิวเมนต์
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | [System::String](../../../system/string/) | เส้นทางไปยังเอกสาร PDF |
+| pdfImportOptions | [System::SharedPtr](../../../system/sharedptr/)\<[Import::PdfImportOptions](../../../aspose.slides.import/pdfimportoptions/)\> | ตัวเลือกสำหรับการนำเข้า PDF |
+
+### ค่าที่ส่งคืน
+
+สไลด์ที่เพิ่มเข้ามา
+
+## หมายเหตุ
+
+
+
+ตัวอย่าง: 
+```cpp
+System::SharedPtr<Presentation> pres = System::MakeObject<Presentation>();
+
+System::SharedPtr<PdfImportOptions> options = System::MakeObject<PdfImportOptions>();
+options->set_DetectTables(true);
+
+pres->get_Slides()->AddFromPdf(u"document.pdf", options);
+pres->Save(u"fromPdfDocument.pptx", SaveFormat::Pptx);
+```
+
+## SlideCollection::AddFromPdf(System::SharedPtr\<System::IO::Stream\>) เมธอด
+
+สร้างสไลด์จากเอกสาร PDF และเพิ่มเข้าไปที่ส่วนท้ายของคอลเลกชัน
+
+```cpp
+System::ArrayPtr<System::SharedPtr<ISlide>> Aspose::Slides::SlideCollection::AddFromPdf(System::SharedPtr<System::IO::Stream> pdfStream) override
+```
+
+### อาร์กิวเมนต์
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pdfStream | [System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\> | สตรีมที่ใช้เป็นแหล่งที่มาของเอกสาร PDF |
+
+### ค่าที่ส่งคืน
+
+สไลด์ที่เพิ่มเข้ามา
+
+## หมายเหตุ
+
+
+
+ตัวอย่าง: 
+```cpp
+auto pres = MakeObject<Presentation>();
+auto stream = MakeObject<IO::FileStream>(u"document.pdf", IO::FileMode::Open, IO::FileAccess::Read, IO::FileShare::Read);
+pres->get_Slides()->AddFromPdf(stream);
+pres->Save(u"fromPdfDocument.pptx", SaveFormat::Pptx);
+```
+
+## SlideCollection::AddFromPdf(System::SharedPtr\<System::IO::Stream\>, System::SharedPtr\<Import::PdfImportOptions\>) เมธอด
+
+สร้างสไลด์จากเอกสาร PDF และเพิ่มเข้าไปที่ส่วนท้ายของคอลเลกชัน
+
+```cpp
+System::ArrayPtr<System::SharedPtr<ISlide>> Aspose::Slides::SlideCollection::AddFromPdf(System::SharedPtr<System::IO::Stream> pdfStream, System::SharedPtr<Import::PdfImportOptions> pdfImportOptions) override
+```
+
+### อาร์กิวเมนต์
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pdfStream | [System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\> | สตรีมที่ใช้เป็นแหล่งที่มาของเอกสาร PDF |
+| pdfImportOptions | [System::SharedPtr](../../../system/sharedptr/)\<[Import::PdfImportOptions](../../../aspose.slides.import/pdfimportoptions/)\> | ตัวเลือกสำหรับการนำเข้า PDF |
+
+### ค่าที่ส่งคืน
+
+สไลด์ที่เพิ่มเข้ามา
+
+## หมายเหตุ
+
+
+
+ตัวอย่าง: 
+```cpp
+System::SharedPtr<Presentation> pres = System::MakeObject<Presentation>();
+
+System::SharedPtr<Stream> stream = System::MakeObject<FileStream>(u"document.pdf", System::IO::FileMode::Open, System::IO::FileAccess::Read, System::IO::FileShare::Read);
+
+System::SharedPtr<PdfImportOptions> options = System::MakeObject<PdfImportOptions>();
+options->set_DetectTables(true);
+
+// ตั้งค่าการตรวจจับตาราง
+pres->get_Slides()->AddFromPdf(stream, options);
+
+pres->Save(u"fromPdfDocument.pptx", SaveFormat::Pptx);
+```
+
+## ดูเพิ่มเติม
+
+* Typedef [ArrayPtr](../../../system/arrayptr/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [ISlide](../../islide/)
+* Class [String](../../../system/string/)
+* Class [SlideCollection](../)
+* Class [PdfImportOptions](../../../aspose.slides.import/pdfimportoptions/)
+* Class [Stream](../../../system.io/stream/)
+* Namespace [Aspose::Slides](../../)
+* Library [Aspose.Slides](../../../)
