@@ -1,0 +1,33 @@
+---
+title: set_AnimateTransitions()
+second_title: Aspose.Slides สำหรับ C++ เอกสารอ้างอิง API
+description: ตั้งค่าตัวเลือกการเคลื่อนที่ของการเปลี่ยนแปลง. เขียน bool.
+type: docs
+weight: 14
+url: /th/aspose.slides.export/ihtml5options/set_animatetransitions/
+---
+## IHtml5Options::set_AnimateTransitions(bool) วิธีการ
+
+ตั้งค่าตัวเลือกการเคลื่อนที่ของการเปลี่ยนแปลง. เขียน **bool**.
+
+```cpp
+virtual void Aspose::Slides::Export::IHtml5Options::set_AnimateTransitions(bool value)=0
+```
+
+## หมายเหตุ
+
+ตัวอย่าง:
+```cpp
+auto pres = System::MakeObject<Presentation>(u"demo.pptx");
+
+auto options = System::MakeObject<Html5Options>();
+options->set_AnimateTransitions(true);
+
+pres->Save(u"demo-animate-transitions.html", SaveFormat::Html5, options);
+```
+
+## ดูเพิ่มเติม
+
+* คลาส [IHtml5Options](../)
+* เนมสเปซ [Aspose::Slides::Export](../../)
+* ไลบรารี [Aspose.Slides](../../../)

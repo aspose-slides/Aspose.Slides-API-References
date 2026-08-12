@@ -1,0 +1,28 @@
+---
+title: get_Eras()
+second_title: อ้างอิง API ของ Aspose.Slides สำหรับ C++
+description: รับรายการยุคที่มีอยู่ในปฏิทิน.
+type: docs
+weight: 53
+url: /th/system.globalization/japanesecalendar/get_eras/
+---
+## JapaneseCalendar::get_Eras() const เมธอด
+
+
+รับรายการยุคที่มีอยู่ในปฏิทิน.
+
+```cpp
+ArrayPtr<int> System::Globalization::JapaneseCalendar::get_Eras() const override
+```
+
+
+### ค่าที่ส่งคืน
+
+[Array](../../../system/array/) ของตัวเลขที่กำหนดหมายเลขยุค.
+
+## ดูเพิ่มเติม
+
+* Typedef [ArrayPtr](../../../system/arrayptr/)
+* คลาส [JapaneseCalendar](../)
+* เนมสเปซ [System::Globalization](../../)
+* Library [Aspose.Slides](../../../)

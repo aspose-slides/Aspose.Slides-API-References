@@ -1,0 +1,27 @@
+---
+title: SetLength()
+second_title: Aspose.Slides สำหรับ C++ API Reference
+description: กำหนดความยาวของสตรีมที่แสดงโดยอ็อบเจ็กต์ปัจจุบัน.
+type: docs
+weight: 92
+url: /th/system.io/stream/setlength/
+---
+## Stream::SetLength(int64_t) เมธอด
+
+ตั้งค่าความยาวของสตรีมที่แสดงโดยอ็อบเจ็กต์ปัจจุบัน.
+
+```cpp
+virtual void System::IO::Stream::SetLength(int64_t value)=0
+```
+
+### อาร์กิวเมนต์
+
+| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| --- | --- | --- |
+| value | **int64_t** | ความยาวเป็นไบต์ที่ต้องตั้งค่า |
+
+## ดูเพิ่มเติม
+
+* คลาส [Stream](../)
+* เนมสเปซ [System::IO](../../)
+* ไลบรารี [Aspose.Slides](../../../)

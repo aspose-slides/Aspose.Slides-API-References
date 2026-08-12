@@ -1,0 +1,22 @@
+---
+title: Ptr
+second_title: Aspose.Slides สำหรับ C++ API Reference
+description: นามแฝงสำหรับ shared pointer ไปยังอินสแตนซ์ของคลาสนี้.
+type: docs
+weight: 105
+url: /th/system.xml.schema/xmlschemacomplexcontentextension/ptr/
+---
+## กำหนดประเภท Ptr
+
+
+นามแฝงสำหรับ shared pointer ไปยังอินสแตนซ์ของคลาสนี้.
+
+```cpp
+using System::Xml::Schema::XmlSchemaComplexContentExtension::Ptr =  SharedPtr<XmlSchemaComplexContentExtension>
+```
+
+## ดูเพิ่มเติม
+
+* คลาส [XmlSchemaComplexContentExtension](../)
+* เนมสเปซ [System::Xml::Schema](../../)
+* ไลบรารี [Aspose.Slides](../../../)

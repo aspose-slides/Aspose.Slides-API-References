@@ -1,0 +1,65 @@
+---
+title: SlideSize
+second_title: Aspose.Slides สำหรับ C++ API Reference
+description: แสดงถึงขนาดและทิศทางของสไลด์.
+type: docs
+weight: 5240
+url: /th/aspose.slides/slidesize/
+---
+## คลาส SlideSize
+
+แสดงขนาดและการวางแนวของสไลด์.
+
+```cpp
+class SlideSize : public Aspose::Slides::DomObject<System::SharedPtr<Aspose::Slides::Presentation>>,
+                  public Aspose::Slides::ISlideSize
+```
+
+## เมธอด
+
+| เมธอด | คำอธิบาย |
+| --- | --- |
+| virtual **bool** [Equals](../../system/object/equals/)([ptr](../../system/object/ptr/)) | เปรียบเทียบอ็อบเจกต์โดยใช้หลักการของ C# [Object.Equals](../../system/object/equals/) |
+| static std::enable_if\<[IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | เปรียบเทียบอ็อบเจกต์ชนิดอ้างอิงในสไตล์ของ C# |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&\![IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | เปรียบเทียบอ็อบเจกต์ชนิดค่าในสไตล์ของ C# |
+| static **bool** [Equals](../../system/object/equals/)(**float** const\&, **float** const\&) | จำลองการเปรียบเทียบจุดลอยแบบ C# ที่ NaN สองค่าถูกพิจารณาว่าเท่ากัน แม้ว่าตาม IEC 60559:1989 NaN จะไม่เท่ากับค่าใด ๆ รวมถึง NaN ด้วย |
+| static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | จำลองการเปรียบเทียบจุดลอยแบบ C# ที่ NaN สองค่าถูกพิจารณาว่าเท่ากัน แม้ว่าตาม IEC 60559:1989 NaN จะไม่เท่ากับค่าใด ๆ รวมถึง NaN ด้วย |
+| virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | สำหรับการใช้งานภายในเท่านั้น |
+| [SlideOrientation](../slideorientation/) [get_Orientation](./get_orientation/)() override | รับการวางแนวของสไลด์ |
+| [System::Drawing::SizeF](../../system.drawing/sizef/) [get_Size](./get_size/)() override | รับขนาดของสไลด์เป็นหน่วยพอยท์ |
+| [SlideSizeType](../slidesizetype/) [get_Type](./get_type/)() override | รับประเภทขนาดของสไลด์ |
+| Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | รับโครงสร้างข้อมูลตัวนับอ้างอิงที่เชื่อมโยงกับอ็อบเจกต์ |
+| virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | เป็นแบบจำลองของเมธอด C# [Object.GetHashCode()](../../system/object/gethashcode/) ซึ่งเปิดใช้งานการแฮชอ็อบเจกต์ที่กำหนดเอง |
+| virtual const [TypeInfo](../../system/typeinfo/)\& [GetType](../../system/object/gettype/)() const | รับประเภทจริงของอ็อบเจกต์ เป็นแบบจำลองของการเรียก C# [System.Object.GetType()](../../system/object/gettype/) |
+| virtual **bool** [Is](../../system/object/is/)(const [TypeInfo](../../system/typeinfo/)\&) const | ตรวจสอบว่าอ็อบเจกต์เป็นอินสแตนซ์ของประเภทที่อธิบายโดย targetType หรือไม่ เป็นแบบจำลองของตัวดำเนินการ 'is' ของ C# |
+| void [Lock](../../system/object/lock/)() | ทำงานตามคำสั่ง lock() ของ C# เพื่อทำการล็อก เรียกโดยตรงหรือใช้วัตถุ sentinel [LockContext](../../system/lockcontext/) |
+| virtual [ptr](../../system/object/ptr/) [MemberwiseClone](../../system/object/memberwiseclone/)() const | เป็นแบบจำลองของเมธอด C# [Object.MemberwiseClone()](../../system/object/memberwiseclone/) ทำให้สามารถทำสำเนาชนิดที่กำหนดเองได้ |
+|  [Object](../../system/object/object/)() | สร้างอ็อบเจกต์ เริ่มต้นโครงสร้างข้อมูลภายในทั้งหมด |
+|  [Object](../../system/object/object/)([Object](../../system/object/) const\&) | คอนสตรัคเตอร์คัดลอก ไม่ได้คัดลอกอะไรจริง ๆ เพียงเริ่มต้นอ็อบเจกต์ใหม่และเปิดใช้งานการคัดลอกสร้างซับคลาส |
+| [Object](../../system/object/)\& [operator=](../../system/object/operator_equal/)([Object](../../system/object/) const\&) | โอเปอเรเตอร์การกำหนดค่า ไม่ได้คัดลอกอะไรจริง ๆ เพียงเริ่มต้นอ็อบเจกต์ใหม่และเปิดใช้งานการคัดลอกสร้างซับคลาส |
+| static **bool** [ReferenceEquals](../../system/object/referenceequals/)([ptr](../../system/object/ptr/) const\&, [ptr](../../system/object/ptr/) const\&) | เปรียบเทียบอ็อบเจกต์โดยอ้างอิง |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, T const\&) | เปรียบเทียบอ็อบเจกต์โดยอ้างอิง |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, std::nullptr_t) | เปรียบเทียบอ็อบเจกต์ชนิดค่ากับ nullptr โดยอ้างอิง |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, std::nullptr_t) | การเจาะจงของ [Object::ReferenceEquals](../../system/object/referenceequals/) สำหรับกรณีของสตริงและ nullptr |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | การเจาะจงของ [Object::ReferenceEquals](../../system/object/referenceequals/) สำหรับกรณีของสตริงหลายค่า |
+| int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | ลดตัวนับอ้างอิงที่แชร์ลงตามค่าที่ระบุ |
+| void [set_Orientation](./set_orientation/)([SlideOrientation](../slideorientation/)) override | ตั้งการวางแนวของสไลด์ |
+| void [SetSize](./setsize/)([SlideSizeType](../slidesizetype/), [SlideSizeScaleType](../slidesizescaletype/)) override | ตั้งขนาดสไลด์ตามประเภทและปรับสเกลเนื้อหาที่มีอยู่ |
+| void [SetSize](./setsize/)(**float**, **float**, [SlideSizeScaleType](../slidesizescaletype/)) override | ตั้งขนาดสไลด์โดยเจาะจงและปรับสเกลเนื้อหาที่มีอยู่ |
+| void [SetTemplateWeakPtr](./settemplateweakptr/)(**uint32_t**) override | ตั้งค่าอาร์กูเมนท์เท็มเพลตที่ n ให้เป็น weak pointer (แทนที่จะเป็น shared) เพื่อเปลี่ยนพอยน์เตอร์ในคอนเทนเนอร์เป็นโหมด weak |
+| int [SharedCount](../../system/object/sharedcount/)() const | รับค่าปัจจุบันของตัวนับอ้างอิงที่แชร์ |
+| [Object](../../system/object/) * [SharedRefAdded](../../system/object/sharedrefadded/)() | เพิ่มตัวนับอ้างอิงที่แชร์ ไม่ควรเรียกโดยตรง; แทนที่นั้นให้ใช้สมาร์ทพอยน์เตอร์หรือ ThisProtector |
+| int [SharedRefRemovedSafe](../../system/object/sharedrefremovedsafe/)() | ลดและคืนค่าตัวนับอ้างอิงที่แชร์ ไม่ควรเรียกโดยตรง; แทนที่นั้นให้ใช้สมาร์ทพอยน์เตอร์หรือ ThisProtector |
+| virtual [String](../../system/string/) [ToString](../../system/object/tostring/)() const | เป็นแบบจำลองของเมธอด C# [Object.ToString()](../../system/object/tostring/) ซึ่งเปิดใช้งานการแปลงอ็อบเจกต์ที่กำหนดเองเป็นสตริง |
+| static const [TypeInfo](../../system/typeinfo/)\& [Type](../../system/object/type/)() | ทำงานตามโครงสร้าง typeof([System.Object](../../system/object/)) ของ C# |
+| void [Unlock](../../system/object/unlock/)() | ทำงานตามคำสั่ง lock() ของ C# เพื่อปลดล็อก เรียกโดยตรงหรือใช้วัตถุ sentinel [LockContext](../../system/lockcontext/) |
+| Detail::SmartPtrCounter * [WeakRefAdded](../../system/object/weakrefadded/)() | เพิ่มตัวนับอ้างอิงแบบ weak ไม่ควรเรียกโดยตรง; แทนที่นั้นให้ใช้สมาร์ทพอยน์เตอร์หรือ ThisProtector |
+| void [WeakRefRemoved](../../system/object/weakrefremoved/)() | ลดตัวนับอ้างอิงแบบ weak ไม่ควรเรียกโดยตรง; แทนที่นั้นให้ใช้สมาร์ทพอยน์เตอร์หรือ ThisProtector |
+| virtual  [~Object](../../system/object/~object/)() | ทำลายอ็อบเจกต์ ปล่อยโครงสร้างข้อมูลภายในทั้งหมด |
+
+## ดูเพิ่มเติม
+
+* คลาส [DomObject](../domobject/)
+* คลาส [ISlideSize](../islidesize/)
+* เนมสเปซ [Aspose::Slides](../)
+* ไลบรารี [Aspose.Slides](../../)

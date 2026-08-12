@@ -1,0 +1,23 @@
+---
+title: get_SyncRoot()
+second_title: Aspose.Slides สำหรับอ้างอิง API ของ C++
+description: "ส่งคืนรากการซิงโครไนซ์. อ่านอย่างเดียว System::Object."
+type: docs
+weight: 27
+url: /th/aspose.slides/tagcollection/get_syncroot/
+---
+## TagCollection::get_SyncRoot() เมธอด
+
+ส่งคืนรากการซิงโครไนซ์. อ่านอย่างเดียว [System::Object](../../../system/object/).
+
+```cpp
+System::SharedPtr<System::Object> Aspose::Slides::TagCollection::get_SyncRoot() override
+```
+
+## ดูเพิ่มเติม
+
+* นิยามชนิด [SharedPtr](../../../system/sharedptr/)
+* คลาส [Object](../../../system/object/)
+* คลาส [TagCollection](../)
+* เนมสเปซ [Aspose::Slides](../../)
+* ไลบรารี [Aspose.Slides](../../../)
