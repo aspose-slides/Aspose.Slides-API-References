@@ -1,0 +1,57 @@
+---
+title: "Aspose::Slides::Theme"
+second_title: Aspose.Slides C++ API 레퍼런스
+description: 
+type: docs
+weight: 222
+url: /ko/aspose.slides.theme/
+---
+## 클래스
+
+| 클래스 | 설명 |
+| --- | --- |
+| [BaseOverrideThemeManager](./baseoverridethememanager/) | 다양한 유형의 재정의된 테마에 대한 액세스를 제공하는 클래스의 기본 클래스. |
+| [BaseThemeManager](./basethememanager/) | 다양한 유형의 테마에 대한 액세스를 제공하는 클래스의 기본 클래스. |
+| [ChartThemeManager](./chartthememanager/) | 차트 테마 재정의에 대한 액세스를 제공합니다. |
+| [ColorScheme](./colorscheme/) | 테마에서 정의된 색상을 저장합니다. |
+| [EffectStyle](./effectstyle/) | 효과 스타일을 나타냅니다. |
+| [EffectStyleCollection](./effectstylecollection/) | 효과 스타일 컬렉션을 나타냅니다. |
+| [ExtraColorScheme](./extracolorscheme/) | 슬라이드에 할당할 수 있는 추가 색 구성표를 나타냅니다. |
+| [ExtraColorSchemeCollection](./extracolorschemecollection/) | 추가 색 구성표 컬렉션을 나타냅니다. |
+| [FillFormatCollection](./fillformatcollection/) | 채우기 스타일 컬렉션을 나타냅니다. |
+| [FontScheme](./fontscheme/) | 테마에서 정의된 글꼴을 저장합니다. |
+| [FormatScheme](./formatscheme/) | 도형에 대한 테마 정의 형식을 저장합니다. |
+| [IColorScheme](./icolorscheme/) | 테마에서 정의된 색상을 저장합니다. |
+| [IColorSchemeEffectiveData](./icolorschemeeffectivedata/) | 실제 색 구성표 속성을 포함하는 불변 객체입니다. |
+| [IEffectStyle](./ieffectstyle/) | 효과 스타일을 나타냅니다. |
+| [IEffectStyleCollection](./ieffectstylecollection/) | 효과 스타일 컬렉션을 나타냅니다. |
+| [IEffectStyleCollectionEffectiveData](./ieffectstylecollectioneffectivedata/) | 실제 효과 스타일의 읽기 전용 컬렉션을 나타내는 불변 객체입니다. |
+| [IEffectStyleEffectiveData](./ieffectstyleeffectivedata/) | 실제 효과 스타일 속성을 포함하는 불변 객체입니다. |
+| [IExtraColorScheme](./iextracolorscheme/) | 슬라이드에 할당할 수 있는 추가 색 구성표를 나타냅니다. |
+| [IExtraColorSchemeCollection](./iextracolorschemecollection/) | 추가 색 구성표 컬렉션을 나타냅니다. |
+| [IFillFormatCollection](./ifillformatcollection/) | 채우기 스타일 컬렉션을 나타냅니다. |
+| [IFillFormatCollectionEffectiveData](./ifillformatcollectioneffectivedata/) | 실제 채우기 형식의 읽기 전용 컬렉션을 나타내는 불변 객체입니다. |
+| [IFontScheme](./ifontscheme/) | 테마에서 정의된 글꼴을 저장합니다. |
+| [IFontSchemeEffectiveData](./ifontschemeeffectivedata/) | 실제 글꼴 구성표 속성을 포함하는 불변 객체입니다. |
+| [IFormatScheme](./iformatscheme/) | 도형에 대한 테마 정의 형식을 저장합니다. |
+| [IFormatSchemeEffectiveData](./iformatschemeeffectivedata/) | 실제 형식 구성표 속성을 포함하는 불변 객체입니다. |
+| [ILineFormatCollection](./ilineformatcollection/) | 선 스타일 컬렉션을 나타냅니다. |
+| [ILineFormatCollectionEffectiveData](./ilineformatcollectioneffectivedata/) | 실제 선 형식의 읽기 전용 컬렉션을 나타내는 불변 객체입니다. |
+| [IMasterTheme](./imastertheme/) | 마스터 테마를 나타냅니다. |
+| [IMasterThemeable](./imasterthemeable/) | 마스터 테마 관리자를 나타냅니다. |
+| [IMasterThemeManager](./imasterthememanager/) | 프레젠테이션 마스터 테마에 대한 액세스를 제공합니다. |
+| [IOverrideTheme](./ioverridetheme/) | 오버라이딩 테마를 나타냅니다. |
+| [IOverrideThemeable](./ioverridethemeable/) | 오버라이드 테마 관리자를 나타냅니다. |
+| [IOverrideThemeManager](./ioverridethememanager/) | 다양한 유형의 재정의된 테마에 대한 액세스를 제공합니다. |
+| [ITheme](./itheme/) | 테마를 나타냅니다. |
+| [IThemeable](./ithemeable/) | [ITheme](./itheme/) 로 테마를 적용할 수 있는 객체를 나타냅니다. |
+| [IThemeEffectiveData](./ithemeeffectivedata/) | 실제 테마 속성을 포함하는 불변 객체입니다. |
+| [IThemeManager](./ithememanager/) | 테마 속성을 나타냅니다. |
+| [LayoutSlideThemeManager](./layoutslidethememanager/) | 레이아웃 슬라이드 테마 재정의에 대한 액세스를 제공합니다. |
+| [LineFormatCollection](./lineformatcollection/) | 선 스타일 컬렉션을 나타냅니다. |
+| [MasterTheme](./mastertheme/) | 마스터 테마를 나타냅니다. |
+| [MasterThemeManager](./masterthememanager/) | 프레젠테이션 마스터 테마에 대한 액세스를 제공합니다. |
+| [NotesSlideThemeManager](./notesslidethememanager/) | 노트 슬라이드 테마 재정의에 대한 액세스를 제공합니다. |
+| [OverrideTheme](./overridetheme/) | 오버라이딩 테마를 나타냅니다. |
+| [SlideThemeManager](./slidethememanager/) | 슬라이드 테마 재정의에 대한 액세스를 제공합니다. |
+| [Theme](./theme/) | 테마를 나타냅니다. |

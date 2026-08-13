@@ -1,0 +1,39 @@
+---
+title: Is()
+second_title: Aspose.Slides for C++ API 레퍼런스
+description: 
+type: docs
+weight: 27
+url: /ko/system/details_platformnotsupportedexception/is/
+---
+## Details_PlatformNotSupportedException::Is(const System::TypeInfo\&) const method
+
+
+
+
+```cpp
+bool System::Details_PlatformNotSupportedException::Is(const System::TypeInfo &target) const override
+```
+
+
+### 인수
+
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| target | const [System::TypeInfo](../../typeinfo/)\& | [TypeInfo](../../typeinfo/) 구조체는 현재 객체를 테스트할 유형을 설명합니다. |
+
+### 반환 값
+
+True if object is of tagged type or its subclass, false otherwise.
+
+## 비고
+
+
+Check if object represents an instance of type described by targetType. Analog of C# 'is' operator. 
+
+## 또 보기
+
+* 클래스 [TypeInfo](../../typeinfo/)
+* 클래스 [Details_PlatformNotSupportedException](../)
+* 네임스페이스 [System](../../)
+* 라이브러리 [Aspose.Slides](../../../)

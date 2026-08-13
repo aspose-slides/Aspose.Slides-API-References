@@ -1,0 +1,21 @@
+---
+title: get_Width()
+second_title: Aspose.Slides for C++ API 레퍼런스
+description: 프레임의 너비를 반환합니다. 읽기 전용 float.
+type: docs
+weight: 27
+url: /ko/aspose.slides/shapeframe/get_width/
+---
+## ShapeFrame::get_Width() 메서드
+
+프레임의 너비를 반환합니다. 읽기 전용 **float**.
+
+```cpp
+float Aspose::Slides::ShapeFrame::get_Width() override
+```
+
+## 참조
+
+* 클래스 [ShapeFrame](../)
+* 네임스페이스 [Aspose::Slides](../../)
+* 라이브러리 [Aspose.Slides](../../../)

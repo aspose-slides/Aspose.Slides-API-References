@@ -1,0 +1,75 @@
+---
+title: IsLeapDay()
+second_title: Aspose.Slides for C++ API 레퍼런스
+description: 해당 날짜가 윤일인지 확인합니다.
+type: docs
+weight: 170
+url: /ko/system.globalization/hebrewcalendar/isleapday/
+---
+## HebrewCalendar::IsLeapDay(int, int, int, int) const 메서드
+
+해당 날짜가 윤일인지 확인합니다.
+
+```cpp
+bool System::Globalization::HebrewCalendar::IsLeapDay(int year, int month, int day, int era) const override
+```
+
+### 매개변수
+
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| year | int | 연도. |
+| month | int | 월. |
+| day | int | 일. |
+| era | int | 시대. |
+
+### 반환 값
+
+지정된 날짜가 윤일이면 true, 그렇지 않으면 false.
+
+## HebrewCalendar::IsLeapDay(int, int, int) const 메서드
+
+해당 날짜가 윤일인지 확인합니다.
+
+```cpp
+virtual bool System::Globalization::Calendar::IsLeapDay(int year, int month, int day) const
+```
+
+### 매개변수
+
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| year | int | 연도. |
+| month | int | 월. |
+| day | int | 일. |
+
+### 반환 값
+
+지정된 날짜가 윤일이면 true, 그렇지 않으면 false.
+
+## HebrewCalendar::IsLeapDay(int, int, int, int) const 메서드
+
+해당 날짜가 윤일인지 확인합니다.
+
+```cpp
+virtual bool System::Globalization::Calendar::IsLeapDay(int year, int month, int day, int era) const=0
+```
+
+### 매개변수
+
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| year | int | 연도. |
+| month | int | 월. |
+| day | int | 일. |
+| era | int | 시대. |
+
+### 반환 값
+
+지정된 날짜가 윤일이면 true, 그렇지 않으면 false.
+
+## 참고
+
+* 클래스 [HebrewCalendar](../)
+* 네임스페이스 [System::Globalization](../../)
+* 라이브러리 [Aspose.Slides](../../../)

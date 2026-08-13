@@ -1,0 +1,22 @@
+---
+title: set_PositionLocked()
+second_title: Aspose.Slides for C++ API 참조
+description: 이 모양을 이동하는 것이 금지되는지 여부를 결정합니다. bool를 씁니다.
+type: docs
+weight: 144
+url: /ko/aspose.slides/igroupshapelock/set_positionlocked/
+---
+## IGroupShapeLock::set_PositionLocked(bool) 메서드
+
+
+이 모양을 이동하는 것이 금지되는지 여부를 결정합니다. **bool**를 씁니다.
+
+```cpp
+virtual void Aspose::Slides::IGroupShapeLock::set_PositionLocked(bool value)=0
+```
+
+## 관련 항목
+
+* 클래스 [IGroupShapeLock](../)
+* 네임스페이스 [Aspose::Slides](../../)
+* 라이브러리 [Aspose.Slides](../../../)

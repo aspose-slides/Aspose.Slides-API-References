@@ -1,0 +1,50 @@
+---
+title: "System::TestPredicates"
+second_title: Aspose.Slides for C++ API 레퍼런스
+description: 
+type: docs
+weight: 924
+url: /ko/system.testpredicates/
+---
+## 함수
+
+| 함수 | 설명 |
+| --- | --- |
+| std::enable_if\<std::numeric_limits\<T1\>::has_quiet_NaN\&&std::numeric_limits\<T2\>::has_quiet_NaN, **bool**\>::type [AreFPNaN](./arefpnan/)(T1, T2) | 네임스페이스 [Details](../system.testpredicates.details/) |
+| std::enable_if<\!std::numeric_limits\<T1\>::has_quiet_NaN||\!std::numeric_limits\<T2\>::has_quiet_NaN, **bool**\>::type [AreFPNaN](./arefpnan/)(T1, T2) | 두 부동 소수점 값이 모두 NaN인지 확인합니다. 비신호 NaN이 지원되지 않을 때의 상황을 처리합니다. |
+| testing::AssertionResult [AreEqual](./areequal/)(const char *, const char *, T1\&&, T2\&&) | AreEqual 단언 번역을 위해 인수를 동일하게 비교합니다. |
+| std::enable_if\<[TypeTraits::AreFPandArithmetic](../system.testpredicates.typetraits/arefpandarithmetic/)\<T1, T2\>::value, testing::AssertionResult\>::type [AreEqualImpl](./areequalimpl/)(const char *, const char *, const T1, const T2, long long) | 부동 소수점과 산술 타입을 동일하게 비교합니다. |
+| std::enable_if\<[TypeTraits::AnyOfDecimal](../system.testpredicates.typetraits/anyofdecimal/)\<T1, T2\>::value, testing::AssertionResult\>::type [AreEqualImpl](./areequalimpl/)(const char *, const char *, const T1\&, const T2\&, long long) | 값 중 하나 혹은 둘 다가 [Decimal](../system/decimal/)인 경우를 동일하게 비교합니다. |
+| std::enable_if<\![IsSmartPtr](../system/issmartptr/)\<T\>::value\&&detail::has_method_equals\<T\>::value, testing::AssertionResult\>::type [AreEqualImpl](./areequalimpl/)(const char *, const char *, const T\&, const T\&, long long) | 제공된 Equals 메서드를 사용하여 포인터가 아닌 타입을 동일하게 비교합니다. |
+| std::enable_if<\![IsSmartPtr](../system/issmartptr/)\<T\>::value\&&detail::has_method_equals\<T\>::value, testing::AssertionResult\>::type [AreEqualImpl](./areequalimpl/)(const char *, const char *, T\&, const T\&, long long) | 제공된 Equals 메서드를 사용하여 포인터가 아닌 타입을 동일하게 비교합니다. |
+| std::enable_if<\![IsSmartPtr](../system/issmartptr/)\<T\>::value\&&std::is_class\<T\>::value\&&\!detail::has_method_equals\<T\>::value\&&detail::has_operator_equal\<T\>::value, testing::AssertionResult\>::type [AreEqualImpl](./areequalimpl/)(const char *, const char *, const T\&, const T\&, long long) | 제공된 == 연산자를 사용하여 포인터가 아닌 타입을 동일하게 비교합니다. |
+| std::enable_if\<[IsBoxable](../system/isboxable/)\<T\>::value\&&\![IsStringByteSequence](../system/isstringbytesequence/)\<T, char16_t\>::value, testing::AssertionResult\>::type [AreEqualImpl](./areequalimpl/)(const char *, const char *, T, const [System::SharedPtr](../system/sharedptr/)\<[Object](../system/object/)\>\&, long long) | [SmartPtr](../system/smartptr/) 값과 박싱 가능한 값을 동일하게 비교합니다. |
+| std::enable_if\<[IsBoxable](../system/isboxable/)\<T\>::value\&&\![IsStringByteSequence](../system/isstringbytesequence/)\<T, char16_t\>::value, testing::AssertionResult\>::type [AreEqualImpl](./areequalimpl/)(const char *, const char *, const [System::SharedPtr](../system/sharedptr/)\<[Object](../system/object/)\>\&, T, long long) | [SmartPtr](../system/smartptr/) 값과 박싱 가능한 값을 동일하게 비교합니다. |
+| testing::AssertionResult [AreEqualImpl](./areequalimpl/)(const char *, const char *, const char16_t *, const [System::SharedPtr](../system/sharedptr/)\<[Object](../system/object/)\>\&, long long) | 언박싱을 사용하여 문자열 리터럴을 [SmartPtr](../system/smartptr/) 값과 동일하게 비교합니다. |
+| testing::AssertionResult [AreEqualImpl](./areequalimpl/)(const char *, const char *, const [System::SharedPtr](../system/sharedptr/)\<[Object](../system/object/)\>\&, const char16_t *, long long) | 언박싱을 사용하여 문자열 리터럴을 [SmartPtr](../system/smartptr/) 값과 동일하게 비교합니다. |
+| testing::AssertionResult [AreEqualImpl](./areequalimpl/)(const char *, const char *, T, std::nullptr_t, long long) | 무작위 타입을 nullptr와 동일하게 비교합니다. |
+| testing::AssertionResult [AreEqualImpl](./areequalimpl/)(const char *, const char *, std::nullptr_t, T, long long) | 무작위 타입을 nullptr와 동일하게 비교합니다. |
+| std::enable_if\<[IsSmartPtr](../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../system/issmartptr/)\<T2\>::value\&&(\!std::is_base_of\<[System::IO::Stream](../system.io/stream/), typenameT1::Pointee_\>::value||\!std::is_base_of\<[System::IO::Stream](../system.io/stream/), typenameT2::Pointee_\>::value), testing::AssertionResult\>::type [AreEqualImpl](./areequalimpl/)(const char *, const char *, const T1\&, const T2\&, long long) | 포인터 타입을 동일하게 비교합니다. |
+| std::enable_if\<[IsSmartPtr](../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../system/issmartptr/)\<T2\>::value\&&std::is_base_of\<[System::IO::Stream](../system.io/stream/), typenameT1::Pointee_\>::value\&&std::is_base_of\<[System::IO::Stream](../system.io/stream/), typenameT2::Pointee_\>::value, testing::AssertionResult\>::type [AreEqualImpl](./areequalimpl/)(const char *, const char *, const T1\&, const T2\&, long long) | 포인터 타입을 동일하게 비교합니다. |
+| std::enable_if<\!std::is_null_pointer\<T1\>::value\&&\![IsNullable](../system/isnullable/)\<T1\>::value, testing::AssertionResult\>::type [AreEqualImpl](./areequalimpl/)(const char *, const char *, T1, const [Nullable](../system/nullable/)\<T2\>\&, long long) | 무작위 타입을 [Nullable](../system/nullable/) 값과 동일하게 비교합니다. |
+| std::enable_if<\!std::is_null_pointer\<T2\>::value\&&\![IsNullable](../system/isnullable/)\<T2\>::value, testing::AssertionResult\>::type [AreEqualImpl](./areequalimpl/)(const char *, const char *, const [Nullable](../system/nullable/)\<T1\>\&, T2, long long) | [Nullable](../system/nullable/) 값을 무작위 타입과 동일하게 비교합니다. |
+| testing::AssertionResult [AreEqualImpl](./areequalimpl/)(const char *, const char *, T1, T2, int) | gtest 알고리즘을 사용하여 무작위 타입을 동일하게 비교합니다. |
+| testing::AssertionResult [AreNotEqual](./arenotequal/)(const char *, const char *, T1\&&, T2\&&) | AreEqual 단언 번역을 위해 인수를 같지 않게 비교합니다. |
+| std::enable_if\<[TypeTraits::AnyOfDecimal](../system.testpredicates.typetraits/anyofdecimal/)\<T1, T2\>::value, testing::AssertionResult\>::type [AreNotEqualImpl](./arenotequalimpl/)(const char *, const char *, const T1\&, const T2\&, long long) | 값 중 하나 혹은 둘 다가 [Decimal](../system/decimal/)인 경우를 같지 않게 비교합니다. |
+| std::enable_if<\![IsSmartPtr](../system/issmartptr/)\<T\>::value\&&detail::has_method_equals\<T\>::value, testing::AssertionResult\>::type [AreNotEqualImpl](./arenotequalimpl/)(const char *, const char *, const T\&, const T\&, long long) | 제공된 Equals 메서드를 사용하여 포인터가 아닌 타입을 같지 않게 비교합니다. |
+| std::enable_if<\![IsSmartPtr](../system/issmartptr/)\<T\>::value\&&detail::has_method_equals\<T\>::value, testing::AssertionResult\>::type [AreNotEqualImpl](./arenotequalimpl/)(const char *, const char *, T\&, const T\&, long long) | 제공된 Equals 메서드를 사용하여 포인터가 아닌 타입을 같지 않게 비교합니다. |
+| std::enable_if<\![IsSmartPtr](../system/issmartptr/)\<T\>::value\&&std::is_class\<T\>::value\&&\!detail::has_method_equals\<T\>::value\&&detail::has_operator_equal\<T\>::value, testing::AssertionResult\>::type [AreNotEqualImpl](./arenotequalimpl/)(const char *, const char *, const T\&, const T\&, long long) | 제공된 != 연산자를 사용하여 포인터가 아닌 타입을 같지 않게 비교합니다. |
+| std::enable_if\<[IsBoxable](../system/isboxable/)\<T\>::value, testing::AssertionResult\>::type [AreNotEqualImpl](./arenotequalimpl/)(const char *, const char *, T, const [System::SharedPtr](../system/sharedptr/)\<[Object](../system/object/)\>\&, long long) | [SmartPtr](../system/smartptr/) 값과 박싱 가능한 값을 언박싱을 사용하여 같지 않게 비교합니다. |
+| std::enable_if\<[IsBoxable](../system/isboxable/)\<T\>::value, testing::AssertionResult\>::type [AreNotEqualImpl](./arenotequalimpl/)(const char *, const char *, const [System::SharedPtr](../system/sharedptr/)\<[Object](../system/object/)\>\&, T, long long) | [SmartPtr](../system/smartptr/) 값과 박싱 가능한 값을 언박싱을 사용하여 같지 않게 비교합니다. |
+| testing::AssertionResult [AreNotEqualImpl](./arenotequalimpl/)(const char *, const char *, T, std::nullptr_t, long long) | 무작위 타입을 nullptr와 같지 않게 비교합니다. |
+| testing::AssertionResult [AreNotEqualImpl](./arenotequalimpl/)(const char *, const char *, std::nullptr_t, T, long long) | 무작위 타입을 nullptr와 같지 않게 비교합니다. |
+| std::enable_if\<[IsSmartPtr](../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../system/issmartptr/)\<T2\>::value, testing::AssertionResult\>::type [AreNotEqualImpl](./arenotequalimpl/)(const char *, const char *, const T1\&, const T2\&, long long) | 포인터 타입을 동일하게 비교합니다. |
+| testing::AssertionResult [AreNotEqualImpl](./arenotequalimpl/)(const char *, const char *, T1, T2, int) | gtest 알고리즘을 사용하여 무작위 타입을 동일하게 비교합니다. |
+| testing::AssertionResult [AreSame](./aresame/)(const char *, const char *, const T1\&, const T2\&) | AreSame 단언 번역을 위해 인수를 동일하게 비교합니다. |
+| std::enable_if\<[IsSmartPtr](../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../system/issmartptr/)\<T2\>::value, testing::AssertionResult\>::type [AreSameImpl](./aresameimpl/)(const char *, const char *, const T1\&, const T2\&, long long) | 스마트 포인터를 동일하게 비교합니다. |
+| std::enable_if\<[IsExceptionWrapper](../system/isexceptionwrapper/)\<T1\>::value\&&[IsExceptionWrapper](../system/isexceptionwrapper/)\<T2\>::value, testing::AssertionResult\>::type [AreSameImpl](./aresameimpl/)(const char *, const char *, const T1\&, const T2\&, long long) | 예외를 동일하게 비교합니다. |
+| testing::AssertionResult [AreSameImpl](./aresameimpl/)(const char *, const char *, const T1\&, const T2\&, int) | 포인터가 아닌 값을 동일하게 비교합니다. |
+| testing::AssertionResult [AreNotSame](./arenotsame/)(const char *, const char *, const T1\&, const T2\&) | AreSame 단언 번역을 위해 인수를 동일하지 않게 비교합니다. |
+| std::enable_if\<[IsSmartPtr](../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../system/issmartptr/)\<T2\>::value, testing::AssertionResult\>::type [AreNotSameImpl](./arenotsameimpl/)(const char *, const char *, const T1\&, const T2\&, long long) | 스마트 포인터를 동일하지 않게 비교합니다. |
+| testing::AssertionResult [AreNotSameImpl](./arenotsameimpl/)(const char *, const char *, const T1\&, const T2\&, int) | 포인터가 아닌 값을 동일하지 않게 비교합니다. |
+| testing::AssertionResult [IsInstanceOf](./isinstanceof/)(const char *, const char *, const [TypeInfo](../system/typeinfo/)\&, const T\&) | IsInstanceOf 단언 번역을 위해 인수를 인스턴스인지 여부로 비교합니다. |

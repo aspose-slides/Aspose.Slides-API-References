@@ -1,0 +1,30 @@
+---
+title: set_DelimiterShape()
+second_title: Aspose.Slides for C++ API 참조
+description: "구분자 객체에서 구분자의 모양을 지정합니다. MathDelimiterShape::Centered인 경우, 구분자는 수학 텍스트의 수학 축을 중심으로 배치되며 내용 전체 높이에 맞게 조정됩니다. MathDelimiterShape::Match인 경우, 구분자의 높이와 모양이 내용에 정확히 맞도록 변경됩니다."
+type: docs
+weight: 131
+url: /ko/aspose.slides.mathtext/mathdelimiter/set_delimitershape/
+---
+## MathDelimiter::set_DelimiterShape(MathDelimiterShape) 메서드
+
+구분자 객체에서 구분자의 모양을 지정합니다. [MathDelimiterShape::Centered](../../mathdelimitershape/)인 경우, 구분자는 수학 텍스트의 수학 축을 중심으로 배치되며 내용 전체 높이에 맞게 조정됩니다. [MathDelimiterShape::Match](../../mathdelimitershape/)인 경우, 구분자의 높이와 모양이 내용에 정확히 맞도록 변경됩니다.
+
+```cpp
+void Aspose::Slides::MathText::MathDelimiter::set_DelimiterShape(MathDelimiterShape value) override
+```
+
+## 비고
+
+예시: 
+```cpp
+auto delimiter = System::MakeObject<MathematicalText>(u"x")->Divide(u"y")->Enclose();
+delimiter->set_DelimiterShape(MathDelimiterShape::Match);
+```
+
+## 관련 항목
+
+* Enum [MathDelimiterShape](../../mathdelimitershape/)
+* Class [MathDelimiter](../)
+* Namespace [Aspose::Slides::MathText](../../)
+* Library [Aspose.Slides](../../../)
