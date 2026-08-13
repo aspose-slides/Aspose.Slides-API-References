@@ -1,0 +1,36 @@
+---
+title: EnumerateFileSystemEntries()
+second_title: Aspose.Slides for C++ API 참조
+description: 지정된 디렉터리 또는 지정된 디렉터리를 루트로 하는 전체 디렉터리 트리에서 지정된 검색 기준을 만족하는 파일 및 디렉터리를 검색합니다.
+type: docs
+weight: 53
+url: /ko/system.io/directory/enumeratefilesystementries/
+---
+## Directory::EnumerateFileSystemEntries(const String\&, const String\&, SearchOption) 메서드
+
+지정된 디렉터리 또는 지정된 디렉터리를 루트로 하는 전체 디렉터리 트리에서 지정된 검색 기준을 만족하는 파일 및 디렉터리를 검색합니다.
+
+```cpp
+static StringEnumerablePtr System::IO::Directory::EnumerateFileSystemEntries(const String &path, const String &searchPattern=u"*", SearchOption searchOption=SearchOption::TopDirectoryOnly)
+```
+
+### 인수
+
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| path | const [String](../../../system/string/)\& | 검색할 디렉터리의 전체 경로나 상대 경로 |
+| searchPattern | const [String](../../../system/string/)\& | 검색하려는 파일 및 디렉터리의 이름 패턴 |
+| searchOption | [SearchOption](../../searchoption/) | 검색을 지정된 디렉터리에서만 수행할지, 지정된 디렉터리를 루트로 하는 전체 디렉터리 트리에서 수행할지 지정합니다 |
+
+### 반환 값
+
+이름이 **searchPattern**와 일치하는 찾은 파일 및 디렉터리의 전체 경로를 포함하는 열거 가능한 컬렉션
+
+## 참고
+
+* Enum [SearchOption](../../searchoption/)
+* Typedef [StringEnumerablePtr](../stringenumerableptr/)
+* Class [String](../../../system/string/)
+* Class [Directory](../)
+* Namespace [System::IO](../../)
+* Library [Aspose.Slides](../../../)

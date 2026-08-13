@@ -1,0 +1,26 @@
+---
+title: get_Id()
+second_title: Aspose.Slides for C++ API 레퍼런스
+description: 문자열 id를 반환합니다.
+type: docs
+weight: 1
+url: /ko/system.xml.schema/xmlschemaannotation/get_id/
+---
+## XmlSchemaAnnotation::get_Id() 메서드
+
+문자열 id를 반환합니다.
+
+```cpp
+String System::Xml::Schema::XmlSchemaAnnotation::get_Id()
+```
+
+### 반환값
+
+문자열 id입니다. 기본값은 [String::Empty](../../../system/string/empty/)입니다. 선택 사항입니다.
+
+## 참고
+
+* 클래스 [String](../../../system/string/)
+* 클래스 [XmlSchemaAnnotation](../)
+* 네임스페이스 [System::Xml::Schema](../../)
+* 라이브러리 [Aspose.Slides](../../../)

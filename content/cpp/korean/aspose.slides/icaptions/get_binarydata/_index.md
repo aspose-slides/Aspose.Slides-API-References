@@ -1,0 +1,23 @@
+---
+title: get_BinaryData()
+second_title: Aspose.Slides for C++ API 레퍼런스
+description: 닫힌 캡션의 바이너리 데이터를 반환합니다. 읽기 전용 uint8_t[].
+type: docs
+weight: 40
+url: /ko/aspose.slides/icaptions/get_binarydata/
+---
+## ICaptions::get_BinaryData() 메서드
+
+
+닫힌 캡션의 바이너리 데이터를 반환합니다. 읽기 전용 **uint8_t**[].
+
+```cpp
+virtual System::ArrayPtr<uint8_t> Aspose::Slides::ICaptions::get_BinaryData()=0
+```
+
+## 참고
+
+* 타입 정의 [ArrayPtr](../../../system/arrayptr/)
+* 클래스 [ICaptions](../)
+* 네임스페이스 [Aspose::Slides](../../)
+* 라이브러리 [Aspose.Slides](../../../)

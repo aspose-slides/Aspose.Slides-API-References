@@ -1,0 +1,155 @@
+---
+title: StartsWith()
+second_title: Aspose.Slides C++ API 참조
+description: span이 지정된 값으로 시작하는지 확인합니다.
+type: docs
+weight: 352
+url: /ko/system.memoryextensions/startswith/
+---
+## System::MemoryExtensions::StartsWith(const ReadOnlySpan\<T\>\&, const T\&) 함수
+
+span이 지정된 값으로 시작하는지 확인합니다.
+
+```cpp
+template<typename T> bool System::MemoryExtensions::StartsWith(const ReadOnlySpan<T> &span, const T &value)
+```
+
+### 템플릿 매개변수
+
+| 매개변수 | 설명 |
+| --- | --- |
+| T | The type of elements in the span |
+
+### 인수
+
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The span to check |
+| value | const T\& | The value to check for at the beginning of the span |
+
+### 반환 값
+
+true if the span starts with the value, false otherwise
+
+## System::MemoryExtensions::StartsWith(const ReadOnlySpan\<T\>\&, const ReadOnlySpan\<T\>\&) 함수
+
+span이 지정된 값 span으로 시작하는지 확인합니다.
+
+```cpp
+template<typename T> bool System::MemoryExtensions::StartsWith(const ReadOnlySpan<T> &span, const ReadOnlySpan<T> &value)
+```
+
+### 템플릿 매개변수
+
+| 매개변수 | 설명 |
+| --- | --- |
+| T | The type of elements in the spans |
+
+### 인수
+
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The span to check |
+| value | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The span containing values to check for at the beginning |
+
+### 반환 값
+
+true if the span starts with the value span, false otherwise
+
+## System::MemoryExtensions::StartsWith(const Span\<T\>\&, const ReadOnlySpan\<T\>\&) 함수
+
+가변 span이 지정된 읽기 전용 값 span으로 시작하는지 확인합니다.
+
+```cpp
+template<typename T> bool System::MemoryExtensions::StartsWith(const Span<T> &span, const ReadOnlySpan<T> &value)
+```
+
+### 템플릿 매개변수
+
+| 매개변수 | 설명 |
+| --- | --- |
+| T | The type of elements in the spans |
+
+### 인수
+
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| span | const [Span](../../system/span/)\<T\>\& | The mutable span to check |
+| value | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The read-only span containing values to check for |
+
+### 반환 값
+
+true if the span starts with the value span, false otherwise
+
+## System::MemoryExtensions::StartsWith(const ReadOnlySpan\<T\>\&, const Span\<T\>\&) 함수
+
+읽기 전용 span이 지정된 가변 값 span으로 시작하는지 확인합니다.
+
+```cpp
+template<typename T> bool System::MemoryExtensions::StartsWith(const ReadOnlySpan<T> &span, const Span<T> &value)
+```
+
+### 템플릿 매개변수
+
+| 매개변수 | 설명 |
+| --- | --- |
+| T | The type of elements in the spans |
+
+### 인수
+
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The read-only span to check |
+| value | const [Span](../../system/span/)\<T\>\& | The mutable span containing values to check for |
+
+### 반환 값
+
+true if the span starts with the value span, false otherwise
+
+## System::MemoryExtensions::StartsWith(const ReadOnlySpan\<char16_t\>\&, const ReadOnlySpan\<char16_t\>\&, StringComparison) 함수
+
+문자 span이 문자열 비교를 사용하여 지정된 값 span으로 시작하는지 확인합니다.
+
+```cpp
+bool System::MemoryExtensions::StartsWith(const ReadOnlySpan<char16_t> &span, const ReadOnlySpan<char16_t> &value, StringComparison comparisonType)
+```
+
+### 인수
+
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>\& | The character span to check |
+| value | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>\& | The character span containing values to check for |
+| comparisonType | [StringComparison](../../system/stringcomparison/) | The type of string comparison to perform |
+
+### 반환 값
+
+true if the span starts with the value span, false otherwise
+
+## System::MemoryExtensions::StartsWith(const ReadOnlySpan\<String\>\&, const char16_t *) 함수
+
+문자열 span이 지정된 문자 배열로 시작하는지 확인합니다.
+
+```cpp
+bool System::MemoryExtensions::StartsWith(const ReadOnlySpan<String> &span, const char16_t *val)
+```
+
+### 인수
+
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<[String](../../system/string/)\>\& | The string span to check |
+| val | const char16_t * | The character array to check for at the beginning |
+
+### 반환 값
+
+true if the span starts with the character array, false otherwise
+
+## 또 보기
+
+* Enum [StringComparison](../../system/stringcomparison/)
+* Class [ReadOnlySpan](../../system/readonlyspan/)
+* Class [Span](../../system/span/)
+* Class [String](../../system/string/)
+* Namespace [System::MemoryExtensions](../)
+* Library [Aspose.Slides](../../)

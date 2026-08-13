@@ -1,0 +1,24 @@
+---
+title: get_LightCoral()
+second_title: Aspose.Slides for C++ API 레퍼런스
+description: 16진수 값이 #FFF08080인 단색 채우기 색을 반환합니다.
+type: docs
+weight: 833
+url: /ko/system.drawing/brushes/get_lightcoral/
+---
+## Brushes::get_LightCoral() 메서드
+
+
+16진수 값이 #FFF08080인 단색 채우기 색을 반환합니다.
+
+```cpp
+static SharedPtr<Brush> System::Drawing::Brushes::get_LightCoral()
+```
+
+## 참고
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* 클래스 [Brush](../../brush/)
+* 클래스 [Brushes](../)
+* 네임스페이스 [System::Drawing](../../)
+* Library [Aspose.Slides](../../../)
