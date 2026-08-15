@@ -1,0 +1,23 @@
+---
+title: set_VbaProject()
+second_title: Aspose.Slides for C++ API 參考文件
+description: "設定包含簡報巨集的 VBA 專案。寫入 Vba::IVbaProject."
+type: docs
+weight: 313
+url: /zh-hant/aspose.slides/presentation/set_vbaproject/
+---
+## Presentation::set_VbaProject(System::SharedPtr\<Vba::IVbaProject\>) 方法
+
+設定包含簡報巨集的 VBA 專案。寫入 [Vba::IVbaProject](../../../aspose.slides.vba/ivbaproject/).
+
+```cpp
+void Aspose::Slides::Presentation::set_VbaProject(System::SharedPtr<Vba::IVbaProject> value) override
+```
+
+## 另請參閱
+
+* 類型定義 [SharedPtr](../../../system/sharedptr/)
+* 類別 [IVbaProject](../../../aspose.slides.vba/ivbaproject/)
+* 類別 [Presentation](../)
+* 命名空間 [Aspose::Slides](../../)
+* 函式庫 [Aspose.Slides](../../../)

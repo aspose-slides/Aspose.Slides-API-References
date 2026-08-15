@@ -1,0 +1,91 @@
+---
+title: DrawPie()
+second_title: Aspose.Slides for C++ API 參考
+description: 使用指定的筆在目前物件表示的表面上繪製指定的餡餅。
+type: docs
+weight: 261
+url: /zh-hant/system.drawing/graphics/drawpie/
+---
+## Graphics::DrawPie(const SharedPtr\<Pen\>\&, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t) 方法
+
+在由目前物件表示的表面上，使用指定的筆繪製指定的餡餅。
+
+```cpp
+void System::Drawing::Graphics::DrawPie(const SharedPtr<Pen> &pen, int32_t x, int32_t y, int32_t width, int32_t height, int32_t startAngle, int32_t sweepAngle)
+```
+
+### 參數
+
+| 參數 | 類型 | 說明 |
+| --- | --- | --- |
+| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\& | 在繪製餡餅時使用的筆 |
+| x | **int32_t** | 定義橢圓之矩形左上角的 X 座標 |
+| y | **int32_t** | 定義橢圓之矩形左上角的 Y 座標 |
+| width | **int32_t** | 定義橢圓之矩形的寬度 |
+| height | **int32_t** | 定義橢圓之矩形的高度 |
+| startAngle | **int32_t** | 從 X 軸順時針測量至餡餅起始點的角度（以度為單位） |
+| sweepAngle | **int32_t** | 從 **startAngle** 順時針測量至餡餅結束點的角度（以度為單位） |
+
+## Graphics::DrawPie(const SharedPtr\<Pen\>\&, float, float, float, float, float, float) 方法
+
+在由目前物件表示的表面上，使用指定的筆繪製指定的餡餅。
+
+```cpp
+void System::Drawing::Graphics::DrawPie(const SharedPtr<Pen> &pen, float x, float y, float width, float height, float startAngle, float sweepAngle)
+```
+
+### 參數
+
+| 參數 | 類型 | 說明 |
+| --- | --- | --- |
+| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\& | 在繪製餡餅時使用的筆 |
+| x | **float** | 定義橢圓之矩形左上角的 X 座標 |
+| y | **float** | 定義橢圓之矩形左上角的 Y 座標 |
+| width | **float** | 定義橢圓之矩形的寬度 |
+| height | **float** | 定義橢圓之矩形的高度 |
+| startAngle | **float** | 從 X 軸順時針測量至餡餅起始點的角度（以度為單位） |
+| sweepAngle | **float** | 從 **startAngle** 順時針測量至餡餅結束點的角度（以度為單位） |
+
+## Graphics::DrawPie(const SharedPtr\<Pen\>\&, Rectangle, float, float) 方法
+
+在由目前物件表示的表面上，使用指定的筆繪製指定的餡餅。
+
+```cpp
+void System::Drawing::Graphics::DrawPie(const SharedPtr<Pen> &pen, Rectangle rect, float startAngle, float sweepAngle)
+```
+
+### 參數
+
+| 參數 | 類型 | 說明 |
+| --- | --- | --- |
+| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\& | 在繪製餡餅時使用的筆 |
+| rect | [Rectangle](../../rectangle/) | 定義橢圓的矩形 |
+| startAngle | **float** | 從 X 軸順時針測量至餡餅起始點的角度（以度為單位） |
+| sweepAngle | **float** | 從 **startAngle** 順時針測量至餡餅結束點的角度（以度為單位） |
+
+## Graphics::DrawPie(const SharedPtr\<Pen\>\&, RectangleF, float, float) 方法
+
+在由目前物件表示的表面上，使用指定的筆繪製指定的餡餅。
+
+```cpp
+void System::Drawing::Graphics::DrawPie(const SharedPtr<Pen> &pen, RectangleF rect, float startAngle, float sweepAngle)
+```
+
+### 參數
+
+| 參數 | 類型 | 說明 |
+| --- | --- | --- |
+| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\& | 在繪製餡餅時使用的筆 |
+| rect | [RectangleF](../../rectanglef/) | 定義橢圓的矩形 |
+| startAngle | **float** | 從 X 軸順時針測量至餡餅起始點的角度（以度為單位） |
+| sweepAngle | **float** | 從 **startAngle** 順時針測量至餡餅結束點的角度（以度為單位） |
+
+## 另見
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [Pen](../../pen/)
+* Class [Graphics](../)
+* Class [Rectangle](../../rectangle/)
+* Class [RectangleF](../../rectanglef/)
+* Namespace [System::Drawing](../../)
+* Library [Aspose.Slides](../../../)
