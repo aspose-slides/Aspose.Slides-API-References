@@ -1,0 +1,30 @@
+---
+title: Type()
+second_title: Aspose.Slides for C++ API 參考
+description: 
+type: docs
+weight: 1
+url: /zh-hant/system/details_datamisalignedexception/type/
+---
+## Details_DataMisalignedException::Type() 方法
+
+
+
+```cpp
+static const System::TypeInfo & System::Details_DataMisalignedException::Type()
+```
+
+
+### 返回值
+
+有關目前型別的資訊。
+## 備註
+
+
+返回有關目前型別的資訊。 
+## 另請參閱
+
+* 類別 [TypeInfo](../../typeinfo/)
+* 類別 [Details_DataMisalignedException](../)
+* 命名空間 [System](../../)
+* 程式庫 [Aspose.Slides](../../../)

@@ -1,0 +1,101 @@
+---
+title: TableStylePreset
+second_title: Aspose.Slides for C++ API 參考
+description: 表示內建的表格樣式。
+type: docs
+weight: 6514
+url: /zh-hant/aspose.slides/tablestylepreset/
+---
+## TableStylePreset enum
+
+Represents builtin table styles.
+
+```cpp
+enum class TableStylePreset
+```
+
+### Values
+
+| 名稱 | 值 | 說明 |
+| --- | --- | --- |
+| Custom | -1 | [Table](../table/) 有自訂樣式。此為僅返回值。 |
+| None | 0 | 無樣式。 |
+| MediumStyle2Accent1 | 1 | 中等樣式 2 - 重點 1。 |
+| MediumStyle2 | 2 | 中等樣式 2。 |
+| NoStyleNoGrid | 3 | 無樣式，無格線。 |
+| ThemedStyle1Accent1 | 4 | 主題樣式 1 - 重點 1。 |
+| ThemedStyle1Accent2 | 5 | 主題樣式 1 - 重點 2。 |
+| ThemedStyle1Accent3 | 6 | 主題樣式 1 - 重點 3。 |
+| ThemedStyle1Accent4 | 7 | 主題樣式 1 - 重點 4。 |
+| ThemedStyle1Accent5 | 8 | 主題樣式 1 - 重點 5。 |
+| ThemedStyle1Accent6 | 9 | 主題樣式 1 - 重點 6。 |
+| NoStyleTableGrid | 10 | 無樣式，[Table](../table/) 格線。 |
+| ThemedStyle2Accent1 | 11 | 主題樣式 2 - 重點 1。 |
+| ThemedStyle2Accent2 | 12 | 主題樣式 2 - 重點 2。 |
+| ThemedStyle2Accent3 | 13 | 主題樣式 2 - 重點 3。 |
+| ThemedStyle2Accent4 | 14 | 主題樣式 2 - 重點 4。 |
+| ThemedStyle2Accent5 | 15 | 主題樣式 2 - 重點 5。 |
+| ThemedStyle2Accent6 | 16 | 主題樣式 2 - 重點 6。 |
+| LightStyle1 | 17 | 輕鬆樣式 1 |
+| LightStyle1Accent1 | 18 | 輕鬆樣式 1 - 重點 1。 |
+| LightStyle1Accent2 | 19 | 輕鬆樣式 1 - 重點 2。 |
+| LightStyle1Accent3 | 20 | 輕鬆樣式 1 - 重點 3。 |
+| LightStyle1Accent4 | 21 | 輕鬆樣式 1 - 重點 4。 |
+| LightStyle2Accent5 | 22 | 輕鬆樣式 2 - 重點 5。 |
+| LightStyle1Accent6 | 23 | 輕鬆樣式 1 - 重點 6。 |
+| LightStyle2 | 24 | 輕鬆樣式 2。 |
+| LightStyle2Accent1 | 25 | 輕鬆樣式 2 - 重點 1。 |
+| LightStyle2Accent2 | 26 | 輕鬆樣式 2 - 重點 2。 |
+| LightStyle2Accent3 | 27 | 輕鬆樣式 2 - 重點 3。 |
+| MediumStyle2Accent3 | 28 | 中等樣式 2 - 重點 3。 |
+| MediumStyle2Accent4 | 29 | 中等樣式 2 - 重點 4。 |
+| MediumStyle2Accent5 | 30 | 中等樣式 2 - 重點 5。 |
+| LightStyle2Accent6 | 31 | 輕鬆樣式 2 - 重點 6。 |
+| LightStyle2Accent4 | 32 | 輕鬆樣式 2 - 重點 4。 |
+| LightStyle3 | 33 | 輕鬆樣式 3。 |
+| LightStyle3Accent1 | 34 | 輕鬆樣式 3 - 重點 1。 |
+| MediumStyle2Accent2 | 35 | 中等樣式 2 - 重點 2。 |
+| LightStyle3Accent2 | 36 | 輕鬆樣式 3 - 重點 2。 |
+| LightStyle3Accent3 | 37 | 輕鬆樣式 3 - 重點 3。 |
+| LightStyle3Accent4 | 38 | 輕鬆樣式 3 - 重點 4。 |
+| LightStyle3Accent5 | 39 | 輕鬆樣式 3 - 重點 5。 |
+| LightStyle3Accent6 | 40 | 輕鬆樣式 3 - 重點 6。 |
+| MediumStyle1 | 41 | 中等樣式 1。 |
+| MediumStyle1Accent1 | 42 | 中等樣式 1 - 重點 1。 |
+| MediumStyle1Accent2 | 43 | 中等樣式 1 - 重點 2。 |
+| MediumStyle1Accent3 | 44 | 中等樣式 1 - 重點 3。 |
+| MediumStyle1Accent4 | 45 | 中等樣式 1 - 重點 4。 |
+| MediumStyle1Accent5 | 46 | 中等樣式 1 - 重點 5。 |
+| MediumStyle1Accent6 | 47 | 中等樣式 1 - 重點 6。 |
+| MediumStyle2Accent6 | 48 | 中等樣式 2 - 重點 6。 |
+| MediumStyle3 | 49 | 中等樣式 3。 |
+| MediumStyle3Accent1 | 50 | 中等樣式 3 - 重點 1。 |
+| MediumStyle3Accent2 | 51 | 中等樣式 3 - 重點 2。 |
+| MediumStyle3Accent3 | 52 | 中等樣式 3 - 重點 3。 |
+| MediumStyle3Accent4 | 53 | 中等樣式 3 - 重點 4。 |
+| MediumStyle3Accent5 | 54 | 中等樣式 3 - 重點 5。 |
+| MediumStyle3Accent6 | 55 | 中等樣式 3 - 重點 6。 |
+| MediumStyle4 | 56 | 中等樣式 4。 |
+| MediumStyle4Accent1 | 57 | 中等樣式 4 - 重點 1。 |
+| MediumStyle4Accent2 | 58 | 中等樣式 4 - 重點 2。 |
+| MediumStyle4Accent3 | 59 | 中等樣式 4 - 重點 3。 |
+| MediumStyle4Accent4 | 60 | 中等樣式 4 - 重點 4。 |
+| MediumStyle4Accent5 | 61 | 中等樣式 4 - 重點 5。 |
+| MediumStyle4Accent6 | 62 | 中等樣式 4 - 重點 6。 |
+| DarkStyle1 | 63 | 深色樣式 1。 |
+| DarkStyle1Accent1 | 64 | 深色樣式 1 - 重點 1。 |
+| DarkStyle1Accent2 | 65 | 深色樣式 1 - 重點 2。 |
+| DarkStyle1Accent3 | 66 | 深色樣式 1 - 重點 3。 |
+| DarkStyle1Accent4 | 67 | 深色樣式 1 - 重點 4。 |
+| DarkStyle1Accent5 | 68 | 深色樣式 1 - 重點 5。 |
+| DarkStyle1Accent6 | 69 | 深色樣式 1 - 重點 6。 |
+| DarkStyle2 | 70 | 深色樣式 2。 |
+| DarkStyle2Accent1Accent2 | 71 | 深色樣式 2 - 重點 1/重點 2。 |
+| DarkStyle2Accent3Accent4 | 72 | 深色樣式 2 - 重點 3/重點 4。 |
+| DarkStyle2Accent5Accent6 | 73 | 深色樣式 2 - 重點 5/重點 6。 |
+| LightStyle1Accent5 | 74 | 輕鬆樣式 1 - 重點 5。 |
+
+## 另請參閱
+
+* 命名空間 [Aspose::Slides](../)
+* 函式庫 [Aspose.Slides](../../)

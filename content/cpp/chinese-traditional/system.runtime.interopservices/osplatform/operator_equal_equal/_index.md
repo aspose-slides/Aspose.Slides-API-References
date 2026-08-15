@@ -1,0 +1,22 @@
+---
+title: operator==()
+second_title: Aspose.Slides for C++ API 參考文件
+description: 
+type: docs
+weight: 79
+url: /zh-hant/system.runtime.interopservices/osplatform/operator_equal_equal/
+---
+## OSPlatform::operator==(const OSPlatform\&) const 方法
+
+
+
+
+```cpp
+bool System::Runtime::InteropServices::OSPlatform::operator==(const OSPlatform &other) const
+```
+
+## 另請參閱
+
+* 類別 [OSPlatform](../)
+* 命名空間 [System::Runtime::InteropServices](../../)
+* 函式庫 [Aspose.Slides](../../../)
