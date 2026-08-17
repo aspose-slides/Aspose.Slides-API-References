@@ -1,7 +1,7 @@
 ---
 title: OpenAICompatibleWebClient
-second_title: Aspose.Slides для Java: справочник API
-description: Встроенная реализация, которая подключается к поставщику LLM, совместимому с OpenAI, по указанному базовому URL.
+second_title: Справочник API Aspose.Slides для Java
+description: Встроенная реализация, которая подключается к совместимому с OpenAI поставщику LLM по указанному базовому URL.
 type: docs
 url: /ru/com.aspose.slides/openaicompatiblewebclient/
 ---
@@ -14,89 +14,103 @@ java.lang.Object
 public final class OpenAICompatibleWebClient implements IAIWebClient, System.IDisposable
 ```
 
-Встроенная [IAIWebClient](../../com.aspose.slides/iaiwebclient) реализация, которая подключается к поставщику LLM, совместимому с OpenAI, по указанному базовому URL.
+Встроенная [IAIWebClient](../../com.aspose.slides/iaiwebclient) реализация, которая подключается к совместимому с OpenAI поставщику LLM по указанному базовому URL.
 ## Конструкторы
 
 | Конструктор | Описание |
 | --- | --- |
-| [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-) | Создает экземпляр веб-клиента, совместимого с OpenAI. |
-| [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl, HttpURLConnection httpClient)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | Создает экземпляр веб-клиента, совместимого с OpenAI, использующего внешне управляемый HttpClient . |
+| [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-) | Создаёт экземпляр совместимого с OpenAI веб-клиента. |
+| [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl, HttpURLConnection httpClient)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | Создаёт экземпляр совместимого с OpenAI веб-клиента, использующего внешне управляемый HttpURLConnection. |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [callChat(String instruction)](#callChat-java.lang.String-) |  |
-| [createConversation()](#createConversation--) | Создает экземпляр беседы. |
+| [callChat(String instruction)](#callChat-java.lang.String-) | Отправляет инструкцию чата модели ИИ, используя внешне управляемый экземпляр HttpURLConnection, и возвращает сообщение-ответ на данную инструкцию. |
+| [createConversation()](#createConversation--) | Создаёт экземпляр разговора. |
 | [dispose()](#dispose--) | Освобождает ресурсы, используемые этим экземпляром. |
 ### OpenAICompatibleWebClient(String model, String apiKey, String baseUrl) {#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-}
 ```
 public OpenAICompatibleWebClient(String model, String apiKey, String baseUrl)
 ```
 
-Создает экземпляр веб-клиента, совместимого с OpenAI.
+Создаёт экземпляр совместимого с OpenAI веб-клиента.
 
 **Параметры:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| model | java.lang.String | Название модели, поддерживаемой поставщиком LLM. |
+| model | java.lang.String | Имя модели, поддерживаемой поставщиком LLM. |
 | apiKey | java.lang.String | Ключ API (токен). |
 | baseUrl | java.lang.String | Базовый URL совместимого с OpenAI LLM. |
 ```
-using (OpenAICompatibleWebClient aiClient = new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1"))
- {
+OpenAICompatibleWebClient aiClient =
+         new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1");
+ try {
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (aiClient != null) aiClient.dispose();
  }
 ``` |
+
 ### OpenAICompatibleWebClient(String model, String apiKey, String baseUrl, HttpURLConnection httpClient) {#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-}
 ```
 public OpenAICompatibleWebClient(String model, String apiKey, String baseUrl, HttpURLConnection httpClient)
 ```
 
-Создает экземпляр веб-клиента, совместимого с OpenAI, использующего внешне управляемый HttpClient . Предоставленный HttpClient не будет освобождён этим экземпляром и остаётся в собственности вызывающего кода.
+Создаёт экземпляр совместимого с OpenAI веб-клиента, использующего внешне управляемый HttpURLConnection. Предоставленный HttpURLConnection не будет освобожден этим экземпляром и остаётся под управлением вызывающего кода.
 
 **Параметры:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| model | java.lang.String | Название модели, поддерживаемой поставщиком LLM. |
+| model | java.lang.String | Имя модели, поддерживаемой поставщиком LLM. |
 | apiKey | java.lang.String | Ключ API (токен). |
 | baseUrl | java.lang.String | Базовый URL совместимого с OpenAI LLM. |
-| httpClient | java.net.HttpURLConnection | Внешне управляемый экземпляр HttpClient. |
+| httpClient | java.net.HttpURLConnection | Внешне управляемый экземпляр HttpURLConnection. |
 ```
-using (HttpClient httpClient = new HttpClient())
- {
-     OpenAICompatibleWebClient aiClient = new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1", httpClient);
+URL url = new URL(url);
+ HttpURLConnection httpClient = (HttpURLConnection) url.openConnection();
+ try {
+     OpenAICompatibleWebClient aiClient =
+             new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1", httpClient);
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (httpClient != null) httpClient.disconnect();
  }
 ``` |
+
 ### callChat(String instruction) {#callChat-java.lang.String-}
 ```
 public String callChat(String instruction)
 ```
 
-Отправляет чат-инструкцию модели ИИ, используя предоставленный экземпляр HttpConnection, и возвращает сообщение-ответ на данную инструкцию.
+Отправляет инструкцию чата модели ИИ, используя внешне управляемый экземпляр HttpURLConnection, и возвращает сообщение-ответ на данную инструкцию.
 
 **Параметры:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| instruction | java.lang.String |  |
+| instruction | java.lang.String | Инструкция или сообщение, которые будут обработаны моделью ИИ. |
+
 **Возвращаемое значение:**
-java.lang.String
+java.lang.String - Сообщение, сгенерированное моделью ИИ в ответ на данную инструкцию.
 ### createConversation() {#createConversation--}
 ```
 public final IIAConversation createConversation()
 ```
 
-Создает экземпляр беседы. В отличие от обычных вызовов ИИ, беседы сохраняют весь контекст.
+Создаёт экземпляр разговора. В отличие от обычных вызовов ИИ, разговоры сохраняют весь контекст.
 
 **Возвращаемое значение:**
 [IAIConversation](../../com.aspose.slides/iaiconversation) - Экземпляр [IAIConversation](../../com.aspose.slides/iaiconversation).

@@ -1,51 +1,48 @@
 ---
 title: SlidesAIAgent
-second_title: Aspose.Slides για την τεκμηρίωση API της Java
-description: Παρέχει δυνατότητες με τεχνητή νοημοσύνη για την επεξεργασία παρουσιάσεων.
+second_title: Αναφορά API Aspose.Slides για Java
+description: Παρέχει λειτουργίες με τεχνητή νοημοσύνη για την επεξεργασία παρουσιάσεων.
 type: docs
 url: /el/com.aspose.slides/slidesaiagent/
 ---
-**Κληρονομικότητα:**
-java.lang.Object
+**Inheritance:**  
+java.lang.Object  
 ```
 public class SlidesAIAgent
 ```
 
-Παρέχει δυνατότητες με τεχνητή νοημοσύνη για την επεξεργασία παρουσιάσεων.
-
+Παρέχει δυνατότητες AI για την επεξεργασία παρουσιάσεων.
 ## Κατασκευαστές
 
 | Κατασκευαστής | Περιγραφή |
 | --- | --- |
-| [SlidesAIAgent(IAIWebClient aiClient)](#SlidesAIAgent-com.aspose.slides.IAIWebClient-) | Αρχικοποιεί ένα νέο παράδειγμα του [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) με προσαρμοσμένο πελάτη AI. |
-| [SlidesAIAgent()](#SlidesAIAgent--) | Αρχικοποιεί ένα νέο παράδειγμα του [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) χρησιμοποιώντας το ενσωματωμένο [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient) με την προεπιλεγμένη του διαμόρφωση. |
-
+| [SlidesAIAgent(IAIWebClient aiClient)](#SlidesAIAgent-com.aspose.slides.IAIWebClient-) | Αρχικοποιεί ένα νέο στιγμιότυπο του [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) με προσαρμοσμένο πελάτη AI. |
+| [SlidesAIAgent()](#SlidesAIAgent--) | Αρχικοποιεί ένα νέο στιγμιότυπο του [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) χρησιμοποιώντας το ενσωματωμένο [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient) με την προεπιλεγμένη του διαμόρφωση. |
 ## Μέθοδοι
 
 | Μέθοδος | Περιγραφή |
 | --- | --- |
 | [translate(IPresentation presentation, String language)](#translate-com.aspose.slides.IPresentation-java.lang.String-) | Μεταφράζει μια παρουσίαση στην καθορισμένη γλώσσα χρησιμοποιώντας AI (συγχρονική έκδοση). |
-| [generatePresentation(String description, int presentationContentAmount)](#generatePresentation-java.lang.String-int-) | Δημιουργεί ένα παράδειγμα παρουσίασης από περιγραφή κειμένου. |
-| [generatePresentation(String description, int presentationContentAmount, IPresentation presentationTemplate)](#generatePresentation-java.lang.String-int-com.aspose.slides.IPresentation-) | Δημιουργεί ένα παράδειγμα παρουσίασης από περιγραφή κειμένου. |
-
+| [generatePresentation(String description, int presentationContentAmount)](#generatePresentation-java.lang.String-int-) | Δημιουργεί ένα στιγμιότυπο παρουσίασης από περιγραφή κειμένου. |
+| [generatePresentation(String description, int presentationContentAmount, IPresentation presentationTemplate)](#generatePresentation-java.lang.String-int-com.aspose.slides.IPresentation-) | Δημιουργεί ένα στιγμιότυπο παρουσίασης από περιγραφή κειμένου. |
 ### SlidesAIAgent(IAIWebClient aiClient) {#SlidesAIAgent-com.aspose.slides.IAIWebClient-}
 ```
 public SlidesAIAgent(IAIWebClient aiClient)
 ```
 
-Αρχικοποιεί ένα νέο παράδειγμα του [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) με προσαρμοσμένο πελάτη AI. Χρησιμοποιήστε αυτήν την υπερφόρτωση για να καθορίσετε τον πάροχο AI, να παρέχετε το δικό σας LLM ή να προσαρμόσετε τη σύνδεση (για παράδειγμα, παρέχοντας το δικό σας java.net.HttpURLConnection). Μπορεί να χρησιμοποιηθεί οποιαδήποτε υλοποίηση του [IAIWebClient](../../com.aspose.slides/iaiwebclient). Για να χρησιμοποιήσετε το ενσωματωμένο [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient) με την προεπιλεγμένη του διαμόρφωση, χρησιμοποιήστε την υπερφόρτωση SlidesAIAgent() αντί αυτού.
+Αρχικοποιεί ένα νέο στιγμιότυπο του [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) με προσαρμοσμένο πελάτη AI. Χρησιμοποιήστε αυτήν τη υπερφόρτωση για να καθορίσετε τον πάροχο AI, να παρέχετε το δικό σας LLM ή να προσαρμόσετε τη σύνδεση (για παράδειγμα, παρέχοντας το δικό σας java.net.HttpURLConnection). Μπορεί να χρησιμοποιηθεί οποιαδήποτε υλοποίηση του [IAIWebClient](../../com.aspose.slides/iaiwebclient). Για χρήση του ενσωματωμένου [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient) με την προεπιλεγμένη του διαμόρφωση, χρησιμοποιήστε την υπερφόρτωση SlidesAIAgent().
 
-**Παράμετροι:**
+**Parameters:**  
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| aiClient | [IAIWebClient](../../com.aspose.slides/iaiwebclient) | Παράδειγμα πελάτη AI. Μπορεί να χρησιμοποιηθεί οποιαδήποτε υλοποίηση του [IAIWebClient](../../com.aspose.slides/iaiwebclient). |
+| aiClient | [IAIWebClient](../../com.aspose.slides/iaiwebclient) | Στιγμιότυπο πελάτη AI. Μπορεί να χρησιμοποιηθεί οποιαδήποτε υλοποίηση του [IAIWebClient](../../com.aspose.slides/iaiwebclient). |
 
 ### SlidesAIAgent() {#SlidesAIAgent--}
 ```
 public SlidesAIAgent()
 ```
 
-Αρχικοποιεί ένα νέο παράδειγμα του [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) χρησιμοποιώντας το ενσωματωμένο [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient) με την προεπιλεγμένη του διαμόρφωση. Ο πελάτης συνδέεται με το δικό του LLM της Aspose και δεν απαιτεί πρόσθετη διαμόρφωση. Για να χρησιμοποιήσετε διαφορετικό πελάτη AI, χρησιμοποιήστε την υπερφόρτωση SlidesAIAgent(IAIWebClient) αντί αυτού.
+Αρχικοποιεί ένα νέο στιγμιότυπο του [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) χρησιμοποιώντας το ενσωματωμένο [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient) με την προεπιλεγμένη του διαμόρφωση. Ο πελάτης συνδέεται με το δικό του LLM της Aspose και δεν απαιτεί πρόσθετη διαμόρφωση.
 
 ### translate(IPresentation presentation, String language) {#translate-com.aspose.slides.IPresentation-java.lang.String-}
 ```
@@ -54,15 +51,15 @@ public final void translate(IPresentation presentation, String language)
 
 Μεταφράζει μια παρουσίαση στην καθορισμένη γλώσσα χρησιμοποιώντας AI (συγχρονική έκδοση).
 
-**Παράμετροι:**
+**Parameters:**  
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| presentation | [IPresentation](../../com.aspose.slides/ipresentation) | Παρουσίαση-στόχος |
-| language | java.lang.String | Γλώσσα-στόχος |
+| presentation | [IPresentation](../../com.aspose.slides/ipresentation) | Στόχος παρουσίασης |
+| language | java.lang.String | Στόχος γλώσσα  
 
 --------------------
 
-Το παρακάτω παράδειγμα χρησιμοποιεί το προεπιλεγμένο [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient), το οποίο δημιουργείται από τον κατασκευαστή SlidesAIAgent() χωρίς παραμέτρους και συνδέεται με το δικό της LLM της Aspose. Για να χρησιμοποιήσετε διαφορετικό πάροχο AI, να παρέχετε το δικό σας LLM ή να προσαρμόσετε τη σύνδεση (για παράδειγμα, παρέχοντας το δικό σας java.net.HttpURLConnection), περάστε μια υλοποίηση [IAIWebClient](../../com.aspose.slides/iaiwebclient) στον κατασκευαστή SlidesAIAgent(IAIWebClient).
+Το παρακάτω παράδειγμα χρησιμοποιεί το προεπιλεγμένο [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient), το οποίο δημιουργείται από τον κατασκευαστή SlidesAIAgent() χωρίς παραμέτρους και συνδέεται με το δικό του LLM της Aspose. Για χρήση διαφορετικού παρόχου AI, παροχή του δικού σας LLM ή προσαρμογή της σύνδεσης (για παράδειγμα, παρέχοντας το δικό σας java.net.HttpURLConnection), περάστε μια υλοποίηση [IAIWebClient](../../com.aspose.slides/iaiwebclient) στον κατασκευαστή SlidesAIAgent(IAIWebClient).
 
 ```
 Presentation presentation = new Presentation("Presentation.pptx");
@@ -81,13 +78,13 @@ Presentation presentation = new Presentation("Presentation.pptx");
 public final IPresentation generatePresentation(String description, int presentationContentAmount)
 ```
 
-Δημιουργεί ένα παράδειγμα παρουσίασης από περιγραφή κειμένου. Παρέχετε ένα θέμα, ιδέες, παραθέσεις ή αποσπάσματα κειμένου στην απαιτούμενη γλώσσα.
+Δημιουργεί ένα στιγμιότυπο παρουσίασης από περιγραφή κειμένου. Παρέχετε ένα θέμα, ιδέες, παραθέσεις ή αποσπάσματα κειμένου στην απαιτούμενη γλώσσα.
 
-**Παράμετροι:**
+**Parameters:**  
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | description | java.lang.String | Το θέμα, οι ιδέες, οι παραθέσεις ή τα αποσπάσματα κειμένου. |
-| presentationContentAmount | int | Η ποσότητα του περιεχομένου στην προκύπτουσα παρουσίαση. |
+| presentationContentAmount | int | Η ποσότητα περιεχομένου στην τελική παρουσίαση.  
 
 ```
 String prompt = "Generate a presentation about Aspose.Slides for Java. Highlight its key features, use cases, and explain why it is better than its competitors.";
@@ -101,26 +98,25 @@ String prompt = "Generate a presentation about Aspose.Slides for Java. Highlight
  }
 ``` |
 
-**Επιστρέφει:**
+**Returns:**  
 [IPresentation](../../com.aspose.slides/ipresentation)
-
 ### generatePresentation(String description, int presentationContentAmount, IPresentation presentationTemplate) {#generatePresentation-java.lang.String-int-com.aspose.slides.IPresentation-}
 ```
 public final IPresentation generatePresentation(String description, int presentationContentAmount, IPresentation presentationTemplate)
 ```
 
-Δημιουργεί ένα παράδειγμα παρουσίασης από περιγραφή κειμένου. Παρέχετε ένα θέμα, ιδέες, παραθέσεις ή αποσπάσματα κειμένου στην απαιτούμενη γλώσσα.
+Δημιουργεί ένα στιγμιότυπο παρουσίασης από περιγραφή κειμένου. Παρέχετε ένα θέμα, ιδέες, παραθέσεις ή αποσπάσματα κειμένου στην απαιτούμενη γλώσσα.
 
-**Παράμετροι:**
+**Parameters:**  
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | description | java.lang.String | Το θέμα, οι ιδέες, οι παραθέσεις ή τα αποσπάσματα κειμένου. |
-| presentationContentAmount | int | Η ποσότητα του περιεχομένου στην προκύπτουσα παρουσίαση. |
-| presentationTemplate | [IPresentation](../../com.aspose.slides/ipresentation) | Μια παρουσίαση προς χρήση ως πρότυπο για διάταξη και σχεδίαση, αντικαθιστώντας το προεπιλεγμένο πρότυπο. |
+| presentationContentAmount | int | Η ποσότητα περιεχομένου στην τελική παρουσίαση. |
+| presentationTemplate | [IPresentation](../../com.aspose.slides/ipresentation) | Μια παρουσίαση που θα χρησιμοποιηθεί ως πρότυπο για τη διάταξη και το σχέδιο, αντικαθιστώντας το προεπιλεγμένο πρότυπο.  
 
 --------------------
 
-Το παρακάτω παράδειγμα χρησιμοποιεί το προεπιλεγμένο [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient), το οποίο δημιουργείται από τον κατασκευαστή SlidesAIAgent() χωρίς παραμέτρους και συνδέεται με το δικό της LLM της Aspose. Για να χρησιμοποιήσετε διαφορετικό πάροχο AI, να παρέχετε το δικό σας LLM ή να προσαρμόσετε τη σύνδεση (για παράδειγμα, παρέχοντας το δικό σας java.net.HttpURLConnection), περάστε μια υλοποίηση [IAIWebClient](../../com.aspose.slides/iaiwebclient) στον κατασκευαστή SlidesAIAgent(IAIWebClient).
+Το παρακάτω παράδειγμα χρησιμοποιεί το προεπιλεγμένο [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient), το οποίο δημιουργείται από τον κατασκευαστή SlidesAIAgent() χωρίς παραμέτρους και συνδέεται με το δικό του LLM της Aspose. Για χρήση διαφορετικού παρόχου AI, παροχή του δικού σας LLM ή προσαρμογή της σύνδεσης (για παράδειγμα, παρέχοντας το δικό σας java.net.HttpURLConnection), περάστε μια υλοποίηση [IAIWebClient](../../com.aspose.slides/iaiwebclient) στον κατασκευαστή SlidesAIAgent(IAIWebClient).
 
 ```
 String prompt = "Generate a presentation about Aspose.Slides for Java. Highlight its key features, use cases, and explain why it is better than its competitors.";
@@ -140,5 +136,5 @@ String prompt = "Generate a presentation about Aspose.Slides for Java. Highlight
  }
 ``` |
 
-**Επιστρέφει:**
+**Returns:**  
 [IPresentation](../../com.aspose.slides/ipresentation)

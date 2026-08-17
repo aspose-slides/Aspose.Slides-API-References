@@ -1,6 +1,6 @@
 ---
 title: Html5Options
-second_title: Aspose.Slides для Java – справочник API
+second_title: Aspose.Slides для Java API Reference
 description: Представляет параметры экспорта HTML5.
 type: docs
 url: /ru/com.aspose.slides/html5options/
@@ -32,65 +32,42 @@ public class Html5Options extends SaveOptions implements IHtml5Options
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-## Constructors
+## Конструкторы
 
-| Constructor | Description |
+| Конструктор | Описание |
 | --- | --- |
-| [Html5Options()](#Html5Options--) | Default constructor. |
-## Methods
+| [Html5Options()](#Html5Options--) | Конструктор по умолчанию. |
+## Методы
 
-| Method | Description |
+| Метод | Описание |
 | --- | --- |
-| [getAnimateTransitions()](#getAnimateTransitions--) | Returns or sets transitions animation option. |
-| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | Returns or sets transitions animation option. |
-| [getAnimateShapes()](#getAnimateShapes--) | Returns or sets shapes animation option. |
-| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Returns or sets shapes animation option. |
-| [getEmbedImages()](#getEmbedImages--) | Returns or sets images embedding option. |
-| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Returns or sets images embedding option. |
-| [getOutputPath()](#getOutputPath--) | Determines where external resources should be stored. |
-| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Determines where external resources should be stored. |
-| [getPicturesCompression()](#getPicturesCompression--) | Represents the pictures compression level |
-| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Represents the pictures compression level |
-| [getDisableFontLigatures()](#getDisableFontLigatures--) | Gets or sets a value indicating whether text is rendered without using ligatures. |
-| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Gets or sets a value indicating whether text is rendered without using ligatures. |
-| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
-| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [getAnimateTransitions()](#getAnimateTransitions--) | Возвращает или задает параметр анимации переходов. |
+| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | Возвращает или задает параметр анимации переходов. |
+| [getAnimateShapes()](#getAnimateShapes--) | Возвращает или задает параметр анимации фигур. |
+| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Возвращает или задает параметр анимации фигур. |
+| [getEmbedImages()](#getEmbedImages--) | Возвращает или задает параметр встраивания изображений. |
+| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Возвращает или задает параметр встраивания изображений. |
+| [getOutputPath()](#getOutputPath--) | Определяет, где должны храниться внешние ресурсы. |
+| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Определяет, где должны храниться внешние ресурсы. |
+| [getPicturesCompression()](#getPicturesCompression--) | Представляет уровень сжатия изображений |
+| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Представляет уровень сжатия изображений |
+| [getDisableFontLigatures()](#getDisableFontLigatures--) | Получает или задает значение, указывающее, отображается ли текст без использования лигатур. |
+| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Получает или задает значение, указывающее, отображается ли текст без использования лигатур. |
+| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Получает или задает режим размещения слайдов на странице при экспорте презентации [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Получает или задает режим размещения слайдов на странице при экспорте презентации [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 ### Html5Options() {#Html5Options--}
 ```
 public Html5Options()
 ```
 
-Default constructor.
+
+Конструктор по умолчанию.
 
 ### getAnimateTransitions() {#getAnimateTransitions--}
 ```
 public final boolean getAnimateTransitions()
 ```
 
-Returns or sets transitions animation option. Read/write boolean.
-
---------------------
-
-> ```
-> Example:
->  
->  Presentation pres = new Presentation("demo.pptx");
->  try {
->      Html5Options htmlOptions = new Html5Options();
->      htmlOptions.setAnimateTransitions(true);
-> 
->      pres.save("demo-animate-transitions.html", SaveFormat.Html5, htmlOptions);
->  } finally {
->      if (pres != null) pres.dispose();
->  }
-> ```
-
-**Returns:**
-boolean
-### setAnimateTransitions(boolean value) {#setAnimateTransitions-boolean-}
-```
-public final void setAnimateTransitions(boolean value)
-```
 
 Возвращает или задает параметр анимации переходов. Чтение/запись boolean.
 
@@ -110,8 +87,34 @@ public final void setAnimateTransitions(boolean value)
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**Возврат:**
+boolean
+### setAnimateTransitions(boolean value) {#setAnimateTransitions-boolean-}
+```
+public final void setAnimateTransitions(boolean value)
+```
+
+
+Возвращает или задает параметр анимации переходов. Чтение/запись boolean.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("demo.pptx");
+>  try {
+>      Html5Options htmlOptions = new Html5Options();
+>      htmlOptions.setAnimateTransitions(true);
+> 
+>      pres.save("demo-animate-transitions.html", SaveFormat.Html5, htmlOptions);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Параметры:**
+| Параметр | Тип | Описание |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -120,6 +123,7 @@ public final void setAnimateTransitions(boolean value)
 public final boolean getAnimateShapes()
 ```
 
+
 Возвращает или задает параметр анимации фигур. Чтение/запись boolean.
 
 --------------------
@@ -138,13 +142,14 @@ public final boolean getAnimateShapes()
 >  }
 > ```
 
-**Returns:**
+**Возврат:**
 boolean
 ### setAnimateShapes(boolean value) {#setAnimateShapes-boolean-}
 ```
 public final void setAnimateShapes(boolean value)
 ```
 
+
 Возвращает или задает параметр анимации фигур. Чтение/запись boolean.
 
 --------------------
@@ -163,8 +168,8 @@ public final void setAnimateShapes(boolean value)
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**Параметры:**
+| Параметр | Тип | Описание |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -173,7 +178,8 @@ public final void setAnimateShapes(boolean value)
 public final boolean getEmbedImages()
 ```
 
-Returns or sets images embedding option. Read/write boolean.
+
+Возвращает или задает параметр встраивания изображений. Чтение/запись boolean.
 
 --------------------
 
@@ -190,14 +196,15 @@ Returns or sets images embedding option. Read/write boolean.
 >  }
 > ```
 
-**Returns:**
+**Возврат:**
 boolean
 ### setEmbedImages(boolean value) {#setEmbedImages-boolean-}
 ```
 public final void setEmbedImages(boolean value)
 ```
 
-Returns or sets images embedding option. Read/write boolean.
+
+Возвращает или задает параметр встраивания изображений. Чтение/запись boolean.
 
 --------------------
 
@@ -214,8 +221,8 @@ Returns or sets images embedding option. Read/write boolean.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**Параметры:**
+| Параметр | Тип | Описание |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -224,7 +231,8 @@ Returns or sets images embedding option. Read/write boolean.
 public final String getOutputPath()
 ```
 
-Determines where external resources should be stored. Read/write String.
+
+Определяет, где должны храниться внешние ресурсы. Чтение/запись String.
 
 --------------------
 
@@ -242,14 +250,15 @@ Determines where external resources should be stored. Read/write String.
 >  }
 > ```
 
-**Returns:**
+**Возврат:**
 java.lang.String
 ### setOutputPath(String value) {#setOutputPath-java.lang.String-}
 ```
 public final void setOutputPath(String value)
 ```
 
-Determines where external resources should be stored. Read/write String.
+
+Определяет, где должны храниться внешние ресурсы. Чтение/запись String.
 
 --------------------
 
@@ -267,8 +276,8 @@ Determines where external resources should be stored. Read/write String.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**Параметры:**
+| Параметр | Тип | Описание |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
@@ -277,19 +286,21 @@ Determines where external resources should be stored. Read/write String.
 public final int getPicturesCompression()
 ```
 
+
 Представляет уровень сжатия изображений
 
-**Returns:**
+**Возврат:**
 int
 ### setPicturesCompression(int value) {#setPicturesCompression-int-}
 ```
 public final void setPicturesCompression(int value)
 ```
 
-Represents the pictures compression level
 
-**Parameters:**
-| Parameter | Type | Description |
+Представляет уровень сжатия изображений
+
+**Параметры:**
+| Параметр | Тип | Описание |
 | --- | --- | --- |
 | value | int |  |
 
@@ -298,9 +309,8 @@ Represents the pictures compression level
 public final boolean getDisableFontLigatures()
 ```
 
-Gets or sets a value indicating whether text is rendered without using ligatures. When set 
-to true, ligatures will be disabled in the rendered output. By default, this property 
-is set to false.
+
+Получает или задает значение, указывающее, отображается ли текст без использования лигатур. При установке в true лигатуры будут отключены в выводе. По умолчанию значение свойства равно false.
 
 --------------------
 
@@ -310,7 +320,7 @@ is set to false.
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      Html5Options options = new Html5Options();
->      options.setDisableFontLigatures(true); // Отключить лигатуры при отображении текста
+>      options.setDisableFontLigatures(true); // Отключить лигатуры при рендеринге текста
 > 
 >      pres.save("output.html", SaveFormat.Html5, options);
 >  } finally {
@@ -318,14 +328,15 @@ is set to false.
 >  }
 > ```
 
-**Returns:**
+**Возврат:**
 boolean
 ### setDisableFontLigatures(boolean value) {#setDisableFontLigatures-boolean-}
 ```
 public final void setDisableFontLigatures(boolean value)
 ```
 
-Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false.
+
+Получает или задает значение, указывающее, отображается ли текст без использования лигатур. При установке в true лигатуры будут отключены в выводе. По умолчанию значение свойства равно false.
 
 --------------------
 
@@ -335,7 +346,7 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      Html5Options options = new Html5Options();
->      options.setDisableFontLigatures(true); // Отключить лигатуры при отображении текста
+>      options.setDisableFontLigatures(true); // Отключить лигатуры при рендеринге текста
 > 
 >      pres.save("output.html", SaveFormat.Html5, options);
 >  } finally {
@@ -343,8 +354,8 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**Параметры:**
+| Параметр | Тип | Описание |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -353,7 +364,8 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 public final ISlidesLayoutOptions getSlidesLayoutOptions()
 ```
 
-Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+
+Получает или задает режим размещения слайдов на странице при экспорте презентации [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
 
@@ -373,11 +385,12 @@ Gets or sets the mode in which slides are placed on the page when exporting a pr
 >  }
 > ```
 
-**Returns:**
+**Возврат:**
 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)
 ### setSlidesLayoutOptions(ISlidesLayoutOptions value) {#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-}
 ```
 public final void setSlidesLayoutOptions(ISlidesLayoutOptions value)
+```
 
 
 Получает или задает режим размещения слайдов на странице при экспорте презентации [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).

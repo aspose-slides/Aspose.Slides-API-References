@@ -14,33 +14,34 @@ java.lang.Object
 public class OpenAIWebClient implements IAIWebClient, Closeable
 ```
 
-Μία ενσωματωμένη [IAIWebClient](../../com.aspose.slides/iaiwebclient) υλοποίηση που συνδέεται με το OpenAI API.
+Μια ενσωματωμένη [IAIWebClient](../../com.aspose.slides/iaiwebclient) υλοποίηση που συνδέεται με το OpenAI API.
 ## Κατασκευαστές
 
 | Κατασκευαστής | Περιγραφή |
 | --- | --- |
-| [OpenAIWebClient(String model, String apiKey, String organizationId)](#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-) | Δημιουργεί ένα στιγμιότυπο του πελάτη web OpenAI. |
-| [OpenAIWebClient(String model, String apiKey, String organizationId, HttpURLConnection httpClient)](#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | Δημιουργεί ένα στιγμιότυπο του πελάτη web OpenAI που χρησιμοποιεί εξωτερικά διαχειριζόμενο HttpClient. |
+| [OpenAIWebClient(String model, String apiKey, String organizationId)](#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-) | Δημιουργεί μια παρουσία του OpenAI web client. |
+| [OpenAIWebClient(String model, String apiKey, String organizationId, HttpURLConnection httpClient)](#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | Δημιουργεί μια παρουσία του OpenAI web client που χρησιμοποιεί έναν εξωτερικά διαχειριζόμενο HttpClient . |
+
 ## Μέθοδοι
 
 | Μέθοδος | Περιγραφή |
 | --- | --- |
 | [callChat(String instruction)](#callChat-java.lang.String-) |  |
 | [createConversation()](#createConversation--) | Δημιουργεί μια παρουσία συνομιλίας. |
-| [close()](#close--) | Αποδεσμεύει τους πόρους που χρησιμοποιεί αυτή η παρουσία. |
+| [close()](#close--) | Απελευθερώνει τους πόρους που χρησιμοποιούνται από αυτήν την παρουσία. |
 ### OpenAIWebClient(String model, String apiKey, String organizationId) {#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-}
 ```
 public OpenAIWebClient(String model, String apiKey, String organizationId)
 ```
 
-Δημιουργεί ένα στιγμιότυπο του πελάτη web OpenAI.
+Δημιουργεί μια παρουσία του OpenAI web client.
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | model | java.lang.String | Μοντέλο γλώσσας OpenAI. Πιθανές τιμές: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
 | apiKey | java.lang.String | Κλειδί API OpenAI. |
-| organizationId | java.lang.String | Αναγνωριστικό οργανισμού (προαιρετικό). |
+| organizationId | java.lang.String | Αναγνωριστικό Οργανισμού (προαιρετικό). |
 ```
 using (OpenAIWebClient aiClient = new OpenAIWebClient("gpt-4o-mini", apiKey, null))
  {
@@ -58,14 +59,14 @@ using (OpenAIWebClient aiClient = new OpenAIWebClient("gpt-4o-mini", apiKey, nul
 public OpenAIWebClient(String model, String apiKey, String organizationId, HttpURLConnection httpClient)
 ```
 
-Δημιουργεί ένα στιγμιότυπο του πελάτη web OpenAI που χρησιμοποιεί εξωτερικά διαχειριζόμενο HttpClient. Ο παρεχόμενος HttpClient δεν διατίθεται από αυτή την παρουσία και παραμένει ιδιοκτησία του καλούντος.
+Δημιουργεί μια παρουσία του OpenAI web client που χρησιμοποιεί έναν εξωτερικά διαχειριζόμενο HttpClient. Ο παρεχόμενος HttpClient δεν διαγράφεται από αυτήν την παρουσία και παραμένει στην ιδιοκτησία του καλούντος.
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | model | java.lang.String | Μοντέλο γλώσσας OpenAI. Πιθανές τιμές: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
 | apiKey | java.lang.String | Κλειδί API OpenAI |
-| organizationId | java.lang.String | Αναγνωριστικό οργανισμού (προαιρετικό) |
+| organizationId | java.lang.String | Αναγνωριστικό Οργανισμού (προαιρετικό) |
 | httpClient | java.net.HttpURLConnection | Μια εξωτερικά διαχειριζόμενη παρουσία HttpClient |
 ```
 using (HttpClient httpClient = new HttpClient())
@@ -85,13 +86,12 @@ using (HttpClient httpClient = new HttpClient())
 public String callChat(String instruction)
 ```
 
-Αποστέλλει μια εντολή συνομιλίας στο μοντέλο AI χρησιμοποιώντας μια παρεχόμενη παρουσία HttpConnection και επιστρέφει το μήνυμα απόκρισης στην εντολή.
+Στέλνει μια οδηγία συνομιλίας στο μοντέλο AI χρησιμοποιώντας μια παρεχόμενη παρουσία HttpConnection και επιστέλνει το μήνυμα απάντησης στην δεδομένη οδηγία.
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | instruction | java.lang.String |  |
-
 **Επιστρέφει:**
 java.lang.String
 ### createConversation() {#createConversation--}
@@ -99,13 +99,13 @@ java.lang.String
 public final IAIConversation createConversation()
 ```
 
-Δημιουργεί μια παρουσία συνομιλίας. Σε αντίθεση με τις κανονικές κλήσεις AI, οι συνομιλίες διατηρούν όλο το πλαίσιο.
+Δημιουργεί μια παρουσία συνομιλίας. Σε αντίθεση με τις κανονικές κλήσεις AI, οι συνομιλίες διατηρούν όλο το περιεχόμενο.
 
 **Επιστρέφει:**
-[IAIConversation](../../com.aspose.slides/iaiconversation) - Μια [IAIConversation](../../com.aspose.slides/iaiconversation) παράδειγμα.
+[IAIConversation](../../com.aspose.slides/iaiconversation) - Μία [IAIConversation](../../com.aspose.slides/iaiconversation) παρουσία.
 ### close() {#close--}
 ```
 public final void close()
 ```
 
-Αποδεσμεύει τους πόρους που χρησιμοποιεί αυτή η παρουσία.
+Απελευθερώνει τους πόρους που χρησιμοποιούνται από αυτήν την παρουσία.
