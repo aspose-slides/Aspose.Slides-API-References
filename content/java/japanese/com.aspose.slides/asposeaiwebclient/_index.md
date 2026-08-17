@@ -1,7 +1,7 @@
 ---
 title: AsposeAIWebClient
 second_title: Aspose.Slides の Java API リファレンス
-description: Aspose 独自の LLM に接続する組み込み実装です。
+description: Asposeの独自LLMに接続する組み込み実装です。
 type: docs
 url: /ja/com.aspose.slides/asposeaiwebclient/
 ---
@@ -14,41 +14,43 @@ java.lang.Object
 public final class AsposeAIWebClient implements IAIWebClient, System.IDisposable
 ```
 
-Aspose独自のLLMに接続する組み込みの[IAIWebClient](../../com.aspose.slides/iaiwebclient)実装です。これはパラメータなしの  SlidesAIAgent()  コンストラクタで使用されるデフォルトクライアントです。
-
+Aspose独自のLLMに接続する組み込み[IAIWebClient](../../com.aspose.slides/iaiwebclient)実装です。これはパラメータなしの SlidesAIAgent() コンストラクタで使用されるデフォルトのクライアントです。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
 | --- | --- |
-| [AsposeAIWebClient()](#AsposeAIWebClient--) | デフォルトの Aspose LLM エンドポイントに接続する Aspose AI Web クライアントのインスタンスを作成します。 |
-| [AsposeAIWebClient(HttpURLConnection httpClient)](#AsposeAIWebClient-java.net.HttpURLConnection-) | 外部で管理された  HttpClient  を使用して、デフォルトの Aspose LLM エンドポイントに接続する Aspose AI Web クライアントのインスタンスを作成します。 |
-| [AsposeAIWebClient(String url)](#AsposeAIWebClient-java.lang.String-) | カスタムエンドポイント URL に接続する Aspose AI Web クライアントのインスタンスを作成します。 |
-| [AsposeAIWebClient(String url, HttpURLConnection httpClient)](#AsposeAIWebClient-java.lang.String-java.net.HttpURLConnection-) | 外部で管理された  HttpClient  を使用して、カスタムエンドポイント URL に接続する Aspose AI Web クライアントのインスタンスを作成します。 |
-
+| [AsposeAIWebClient()](#AsposeAIWebClient--) | AsposeのデフォルトLLMエンドポイントに接続するAspose AIウェブクライアントのインスタンスを作成します。 |
+| [AsposeAIWebClient(HttpURLConnection httpClient)](#AsposeAIWebClient-java.net.HttpURLConnection-) | 外部で管理された  HttpURLConnection  を使用して、AsposeのデフォルトLLMエンドポイントに接続するAspose AIウェブクライアントのインスタンスを作成します。 |
+| [AsposeAIWebClient(String url)](#AsposeAIWebClient-java.lang.String-) | カスタムエンドポイントURLに接続するAspose AIウェブクライアントのインスタンスを作成します。 |
+| [AsposeAIWebClient(String url, HttpURLConnection httpClient)](#AsposeAIWebClient-java.lang.String-java.net.HttpURLConnection-) | 外部で管理された  HttpURLConnection  を使用して、カスタムエンドポイントURLに接続するAspose AIウェブクライアントのインスタンスを作成します。 |
 ## メソッド
 
 | メソッド | 説明 |
 | --- | --- |
-| [callChat(String instruction)](#callChat-java.lang.String-) |  |
+| [callChat(String instruction)](#callChat-java.lang.String-) | AIモデルにチャット指示を送信し、指定された指示に対する応答メッセージを返します。 |
 | [createConversation()](#createConversation--) | 会話インスタンスを作成します。 |
 | [dispose()](#dispose--) | このインスタンスが使用するリソースを解放します。 |
-
 ### AsposeAIWebClient() {#AsposeAIWebClient--}
 ```
 public AsposeAIWebClient()
 ```
 
-デフォルトの Aspose LLM エンドポイントに接続する Aspose AI Web クライアントのインスタンスを作成します。これはパラメータなしの  SlidesAIAgent()  コンストラクタで使用されるクライアントであるため、クライアントを  SlidesAIAgent(IAIWebClient)  コンストラクタに直接渡す場合にのみ明示的に作成する必要があります。
+
+デフォルトのAspose LLMエンドポイントに接続するAspose AIウェブクライアントのインスタンスを作成します。これはパラメータなしの SlidesAIAgent() コンストラクタで使用されるクライアントであるため、クライアントを SlidesAIAgent(IAIWebClient) コンストラクタに直接渡す場合にのみ、明示的に作成する必要があります。
 
 ```
-using (AsposeAIWebClient aiClient = new AsposeAIWebClient())
- {
+AsposeAIWebClient aiClient = new AsposeAIWebClient();
+ try {
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (aiClient != null) aiClient.dispose();
  }
 ```
 
@@ -57,21 +59,29 @@ using (AsposeAIWebClient aiClient = new AsposeAIWebClient())
 public AsposeAIWebClient(HttpURLConnection httpClient)
 ```
 
-外部で管理された  HttpClient  を使用して、デフォルトの Aspose LLM エンドポイントに接続する Aspose AI Web クライアントのインスタンスを作成します。提供された  HttpClient  はこのインスタンスによって破棄されず、呼び出し元が所有し続けます。
 
-**Parameters:**
-| Parameter | Type | Description |
+外部で管理された  HttpURLConnection  を使用して、デフォルトのAspose LLMエンドポイントに接続するAspose AIウェブクライアントのインスタンスを作成します。提供された  HttpURLConnection  はこのインスタンスによって破棄されず、呼び出し元が所有し続けます。
+
+**パラメータ:**
+| パラメータ | 型 | 説明 |
 | --- | --- | --- |
-| httpClient | java.net.HttpURLConnection | 外部で管理された  HttpClient  インスタンス。```
-using (HttpClient httpClient = new HttpClient())
- {
+| httpClient | java.net.HttpURLConnection | 外部で管理された  HttpURLConnection  インスタンスです。
+
+```
+URL url = new URL(url);
+ HttpURLConnection httpClient = (HttpURLConnection) url.openConnection();
+ try {
      AsposeAIWebClient aiClient = new AsposeAIWebClient(httpClient);
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (httpClient != null) httpClient.disconnect();
  }
 ``` |
 
@@ -80,20 +90,27 @@ using (HttpClient httpClient = new HttpClient())
 public AsposeAIWebClient(String url)
 ```
 
-カスタムエンドポイント URL に接続する Aspose AI Web クライアントのインスタンスを作成します。Aspose.Slides チームから提供された URL がある場合にこのオーバーロードを使用し、そうでない場合はデフォルト URL を持つ  AsposeAIWebClient()  オーバーロードを使用してください。
 
-**Parameters:**
-| Parameter | Type | Description |
+カスタムエンドポイントURLに接続するAspose AIウェブクライアントのインスタンスを作成します。Aspose.Slidesチームが提供するURLがある場合にこのオーバーロードを使用し、それ以外の場合はデフォルトURLの AsposeAIWebClient() オーバーロードを使用してください。
+
+**パラメータ:**
+| パラメータ | 型 | 説明 |
 | --- | --- | --- |
-| url | java.lang.String | Aspose.Slides チームが提供する Aspose LLM のエンドポイント URL。```
-using (AsposeAIWebClient aiClient = new AsposeAIWebClient(customUrl))
- {
+| url | java.lang.String | Aspose.Slidesチームが提供するAspose LLMのエンドポイントURLです。
+
+```
+AsposeAIWebClient aiClient = new AsposeAIWebClient(customUrl);
+ try {
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (aiClient != null) aiClient.dispose();
  }
 ``` |
 
@@ -102,22 +119,30 @@ using (AsposeAIWebClient aiClient = new AsposeAIWebClient(customUrl))
 public AsposeAIWebClient(String url, HttpURLConnection httpClient)
 ```
 
-外部で管理された  HttpClient  を使用して、カスタムエンドポイント URL に接続する Aspose AI Web クライアントのインスタンスを作成します。提供された  HttpClient  はこのインスタンスによって破棄されず、呼び出し元が所有し続けます。Aspose.Slides チームが提供する URL があり、独自の  HttpClient  を使用したい場合にこのオーバーロードを使用してください。デフォルト URL で独自の  HttpClient  のみが必要な場合は、  AsposeAIWebClient(HttpClient)  オーバーロードを使用してください。
 
-**Parameters:**
-| Parameter | Type | Description |
+外部で管理された  HttpURLConnection  を使用して、カスタムエンドポイントURLに接続するAspose AIウェブクライアントのインスタンスを作成します。提供された  HttpURLConnection  はこのインスタンスによって破棄されず、呼び出し元が所有し続けます。Aspose.Slidesチームが提供するURLがあり、独自の  HttpURLConnection  を提供したい場合にこのオーバーロードを使用してください。デフォルトURLで独自の  HttpURLConnection  のみが必要な場合は、AsposeAIWebClient(HttpURLConnection) オーバーロードを使用してください。
+
+**パラメータ:**
+| パラメータ | 型 | 説明 |
 | --- | --- | --- |
-| url | java.lang.String | Aspose.Slides チームが提供する Aspose LLM のエンドポイント URL。 |
-| httpClient | java.net.HttpURLConnection | 外部で管理された  HttpClient  インスタンス。```
-using (HttpClient httpClient = new HttpClient())
- {
+| url | java.lang.String | Aspose.Slidesチームが提供するAspose LLMのエンドポイントURLです。 |
+| httpClient | java.net.HttpURLConnection | 外部で管理された  HttpURLConnection  インスタンスです。
+
+```
+URL url = new URL(url);
+ HttpURLConnection httpClient = (HttpURLConnection) url.openConnection();
+ try {
      AsposeAIWebClient aiClient = new AsposeAIWebClient(customUrl, httpClient);
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (httpClient != null) httpClient.disconnect();
  }
 ``` |
 
@@ -126,29 +151,30 @@ using (HttpClient httpClient = new HttpClient())
 public String callChat(String instruction)
 ```
 
-提供された HttpConnection インスタンスを使用して AI モデルにチャット指示を送信し、指示に対する応答メッセージを返します。
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| instruction | java.lang.String |  |
+AIモデルにチャット指示を送信し、指定された指示に対する応答メッセージを返します。
 
-**Returns:**
-java.lang.String
+**パラメータ:**
+| パラメータ | 型 | 説明 |
+| --- | --- | |
+| instruction | java.lang.String | AIモデルが処理する指示またはメッセージです。
 
+**戻り値:**
+java.lang.String - 指定された指示に応答してAIモデルが生成したメッセージです。
 ### createConversation() {#createConversation--}
 ```
-public final IAIConversation createConversation()
+public final IIAConversation createConversation()
 ```
 
-会話インスタンスを作成します。通常の AI 呼び出しとは異なり、会話は全体のコンテキストを保持します。
 
-**Returns:**
-[IAIConversation](../../com.aspose.slides/iaiconversation) - An [IAIConversation](../../com.aspose.slides/iaiconversation) instance.
+会話インスタンスを作成します。通常のAI呼び出しとは異なり、会話は全体のコンテキストを保持します。
 
+**戻り値:**
+[IAIConversation](../../com.aspose.slides/iaiconversation) - [IAIConversation](../../com.aspose.slides/iaiconversation) インスタンスです。
 ### dispose() {#dispose--}
 ```
 public final void dispose()
 ```
+
 
 このインスタンスが使用するリソースを解放します。
