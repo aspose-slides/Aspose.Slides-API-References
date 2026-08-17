@@ -1,0 +1,70 @@
+---
+title: ShredTransition
+second_title: Αναφορά API Aspose.Slides για Java
+description: Εφέ μετάβασης Shred slide.
+type: docs
+url: /el/com.aspose.slides/shredtransition/
+---
+**Κληρονομικότητα:**  
+java.lang.Object, [com.aspose.slides.TransitionValueBase](../../com.aspose.slides/transitionvaluebase)
+
+**Όλες οι Υλοποιημένες Διεπαφές:**  
+[com.aspose.slides.IShredTransition](../../com.aspose.slides/ishredtransition)  
+```
+public class ShredTransition extends TransitionValueBase implements IShredTransition
+```
+
+Εφέ μετάβασης Shred slide.
+
+## Μέθοδοι
+
+| Μέθοδος | Περιγραφή |
+| --- | --- |
+| [getDirection()](#getDirection--) | Κατεύθυνση μετάβασης. |
+| [setDirection(int value)](#setDirection-int-) | Κατεύθυνση μετάβασης. |
+| [getPattern()](#getPattern--) | Καθορίζει το σχήμα των οπτικών στοιχείων που χρησιμοποιούνται κατά τη μετάβαση. |
+| [setPattern(int value)](#setPattern-int-) | Καθορίζει το σχήμα των οπτικών στοιχείων που χρησιμοποιούνται κατά τη μετάβαση. |
+
+### getDirection() {#getDirection--}
+```
+public final int getDirection()
+```
+
+Κατεύθυνση μετάβασης. Ανάγνωση/εγγραφή [TransitionInOutDirectionType](../../com.aspose.slides/transitioninoutdirectiontype).
+
+**Επιστρέφει:**  
+int
+
+### setDirection(int value) {#setDirection-int-}
+```
+public final void setDirection(int value)
+```
+
+Κατεύθυνση μετάβασης. Ανάγνωση/εγγραφή [TransitionInOutDirectionType](../../com.aspose.slides/transitioninoutdirectiontype).
+
+**Παράμετροι:**
+| Παράμετρος | Τύπος | Περιγραφή |
+| --- | --- | --- |
+| value | int |  |
+
+### getPattern() {#getPattern--}
+```
+public final int getPattern()
+```
+
+Καθορίζει το σχήμα των οπτικών στοιχείων που χρησιμοποιούνται κατά τη μετάβαση. Ανάγνωση/εγγραφή [TransitionShredPattern](../../com.aspose.slides/transitionshredpattern).
+
+**Επιστρέφει:**  
+int
+
+### setPattern(int value) {#setPattern-int-}
+```
+public final void setPattern(int value)
+```
+
+Καθορίζει το σχήμα των οπτικών στοιχείων που χρησιμοποιούνται κατά τη μετάβαση. Ανάγνωση/εγγραφή [TransitionShredPattern](../../com.aspose.slides/transitionshredpattern).
+
+**Παράμετροι:**
+| Παράμετρος | Τύπος | Περιγραφή |
+| --- | --- | --- |
+| value | int |  |

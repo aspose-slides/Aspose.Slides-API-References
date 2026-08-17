@@ -1,6 +1,6 @@
 ---
 title: Html5Options
-second_title: Aspose.Slides για την αναφορά API της Java
+second_title: Αναφορά API Aspose.Slides για Java
 description: Αντιπροσωπεύει επιλογές εξαγωγής HTML5.
 type: docs
 url: /el/com.aspose.slides/html5options/
@@ -8,7 +8,7 @@ url: /el/com.aspose.slides/html5options/
 **Κληρονομικότητα:**
 java.lang.Object, [com.aspose.slides.SaveOptions](../../com.aspose.slides/saveoptions)
 
-**Όλες οι Πραγματοποιημένες Διεπαφές:**
+**Όλες οι Υλοποιημένες Διεπαφές:**
 [com.aspose.slides.IHtml5Options](../../com.aspose.slides/ihtml5options)
 ```
 public class Html5Options extends SaveOptions implements IHtml5Options
@@ -32,42 +32,43 @@ public class Html5Options extends SaveOptions implements IHtml5Options
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-## Constructors
 
-| Constructor | Description |
-| --- | --- |
-| [Html5Options()](#Html5Options--) | Default constructor. |
-## Methods
+## Κατασκευαστές
 
-| Method | Description |
+| Κατασκευαστής | Περιγραφή |
 | --- | --- |
-| [getAnimateTransitions()](#getAnimateTransitions--) | Returns or sets transitions animation option. |
-| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | Returns or sets transitions animation option. |
-| [getAnimateShapes()](#getAnimateShapes--) | Returns or sets shapes animation option. |
-| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Returns or sets shapes animation option. |
-| [getEmbedImages()](#getEmbedImages--) | Returns or sets images embedding option. |
-| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Returns or sets images embedding option. |
-| [getOutputPath()](#getOutputPath--) | Determines where external resources should be stored. |
-| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Determines where external resources should be stored. |
-| [getPicturesCompression()](#getPicturesCompression--) | Represents the pictures compression level |
-| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Represents the pictures compression level |
-| [getDisableFontLigatures()](#getDisableFontLigatures--) | Gets or sets a value indicating whether text is rendered without using ligatures. |
-| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Gets or sets a value indicating whether text is rendered without using ligatures. |
-| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
-| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [Html5Options()](#Html5Options--) | Προεπιλεγμένος κατασκευαστής. |
+## Μέθοδοι
+
+| Μέθοδος | Περιγραφή |
+| --- | --- |
+| [getAnimateTransitions()](#getAnimateTransitions--) | Επιστρέφει ή ρυθμίζει την επιλογή κίνησης μεταβάσεων. |
+| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | Επιστρέφει ή ρυθμίζει την επιλογή κίνησης μεταβάσεων. |
+| [getAnimateShapes()](#getAnimateShapes--) | Επιστρέφει ή ρυθμίζει την επιλογή κίνησης σχημάτων. |
+| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Επιστρέφει ή ρυθμίζει την επιλογή κίνησης σχημάτων. |
+| [getEmbedImages()](#getEmbedImages--) | Επιστρέφει ή ρυθμίζει την επιλογή ενσωμάτωσης εικόνων. |
+| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Επιστρέφει ή ρυθμίζει την επιλογή ενσωμάτωσης εικόνων. |
+| [getOutputPath()](#getOutputPath--) | Καθορίζει πού πρέπει να αποθηκευτούν οι εξωτερικοί πόροι. |
+| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Καθορίζει πού πρέπει να αποθηκευτούν οι εξωτερικοί πόροι. |
+| [getPicturesCompression()](#getPicturesCompression--) | Αντιπροσωπεύει το επίπεδο συμπίεσης εικόνων |
+| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Αντιπροσωπεύει το επίπεδο συμπίεσης εικόνων |
+| [getDisableFontLigatures()](#getDisableFontLigatures--) | Λαμβάνει ή ρυθμίζει μια τιμή που υποδεικνύει εάν το κείμενο αποτυπώνεται χωρίς χρήση συνδέσεων (ligatures). |
+| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Λαμβάνει ή ρυθμίζει μια τιμή που υποδεικνύει εάν το κείμενο αποτυπώνεται χωρίς χρήση συνδέσεων (ligatures). |
+| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Λαμβάνει ή ρυθμίζει τη λειτουργία με την οποία οι διαφάνειες τοποθετούνται στη σελίδα κατά την εξαγωγή μιας παρουσίασης [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Λαμβάνει ή ρυθμίζει τη λειτουργία με την οποία οι διαφάνειες τοποθετούνται στη σελίδα κατά την εξαγωγή μιας παρουσίασης [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 ### Html5Options() {#Html5Options--}
 ```
 public Html5Options()
 ```
 
-Default constructor.
+Προεπιλεγμένος κατασκευαστής.
 
 ### getAnimateTransitions() {#getAnimateTransitions--}
 ```
 public final boolean getAnimateTransitions()
 ```
 
-Returns or sets transitions animation option. Read/write boolean.
+Επιστρέφει ή ρυθμίζει την επιλογή κίνησης μεταβάσεων. Αναγνώσιμο/εγγράψιμο boolean.
 
 --------------------
 
@@ -85,14 +86,15 @@ Returns or sets transitions animation option. Read/write boolean.
 >  }
 > ```
 
-**Returns:**
+
+**Επιστρέφει:**
 boolean
 ### setAnimateTransitions(boolean value) {#setAnimateTransitions-boolean-}
 ```
 public final void setAnimateTransitions(boolean value)
 ```
 
-Returns or sets transitions animation option. Read/write boolean.
+Επιστρέφει ή ρυθμίζει την επιλογή κίνησης μεταβάσεων. Αναγνώσιμο/εγγράψιμο boolean.
 
 --------------------
 
@@ -110,8 +112,9 @@ Returns or sets transitions animation option. Read/write boolean.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+
+**Παράμετροι:**
+| Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -120,7 +123,7 @@ Returns or sets transitions animation option. Read/write boolean.
 public final boolean getAnimateShapes()
 ```
 
-Επιστρέφει ή ορίζει την επιλογή κίνησης σχημάτων. Αναγνώσιμη/εγγράψιμη boolean.
+Επιστρέφει ή ρυθμίζει την επιλογή κίνησης σχημάτων. Αναγνώσιμο/εγγράψιμο boolean.
 
 --------------------
 
@@ -138,14 +141,14 @@ public final boolean getAnimateShapes()
 >  }
 > ```
 
-**Returns:**
+**Επιστρέφει:**
 boolean
 ### setAnimateShapes(boolean value) {#setAnimateShapes-boolean-}
 ```
 public final void setAnimateShapes(boolean value)
 ```
 
-Επιστρέφει ή ορίζει την επιλογή κίνησης σχημάτων. Αναγνώσιμη/εγγράψιμη boolean.
+Επιστρέφει ή ρυθμίζει την επιλογή κίνησης σχημάτων. Αναγνώσιμο/εγγράψιμο boolean.
 
 --------------------
 
@@ -163,8 +166,9 @@ public final void setAnimateShapes(boolean value)
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+
+**Παράμετροι:**
+| Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -173,7 +177,7 @@ public final void setAnimateShapes(boolean value)
 public final boolean getEmbedImages()
 ```
 
-Επιστρέφει ή ορίζει την επιλογή ενσωμάτωσης εικόνων. Αναγνώσιμη/εγγράψιμη boolean.
+Επιστρέφει ή ρυθμίζει την επιλογή ενσωμάτωσης εικόνων. Αναγνώσιμο/εγγράψιμο boolean.
 
 --------------------
 
@@ -190,14 +194,14 @@ public final boolean getEmbedImages()
 >  }
 > ```
 
-**Returns:**
+**Επιστρέφει:**
 boolean
 ### setEmbedImages(boolean value) {#setEmbedImages-boolean-}
 ```
 public final void setEmbedImages(boolean value)
 ```
 
-Returns or sets images embedding option. Read/write boolean.
+Επιστρέφει ή ρυθμίζει την επιλογή ενσωμάτωσης εικόνων. Αναγνώσιμο/εγγράψιμο boolean.
 
 --------------------
 
@@ -214,8 +218,8 @@ Returns or sets images embedding option. Read/write boolean.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**Παράμετροι:**
+| Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -224,7 +228,7 @@ Returns or sets images embedding option. Read/write boolean.
 public final String getOutputPath()
 ```
 
-Καθορίζει πού πρέπει να αποθηκευτούν οι εξωτερικοί πόροι. Αναγνώσιμη/εγγράψιμη String.
+Καθορίζει πού πρέπει να αποθηκευτούν οι εξωτερικοί πόροι. Αναγνώσιμο/εγγράψιμο String.
 
 --------------------
 
@@ -242,14 +246,14 @@ public final String getOutputPath()
 >  }
 > ```
 
-**Returns:**
+**Επιστρέφει:**
 java.lang.String
 ### setOutputPath(String value) {#setOutputPath-java.lang.String-}
 ```
 public final void setOutputPath(String value)
 ```
 
-Καθορίζει πού πρέπει να αποθηκευτούν οι εξωτερικοί πόροι. Αναγνώσιμη/εγγράψιμη String.
+Καθορίζει πού πρέπει να αποθηκευτούν οι εξωτερικοί πόροι. Αναγνώσιμο/εγγράψιμο String.
 
 --------------------
 
@@ -267,8 +271,8 @@ public final void setOutputPath(String value)
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**Παράμετροι:**
+| Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
@@ -277,19 +281,19 @@ public final void setOutputPath(String value)
 public final int getPicturesCompression()
 ```
 
-Αντιπροσωπεύει το επίπεδο συμπίεσης των εικόνων
+Αντιπροσωπεύει το επίπεδο συμπίεσης εικόνων
 
-**Returns:**
+**Επιστρέφει:**
 int
 ### setPicturesCompression(int value) {#setPicturesCompression-int-}
 ```
 public final void setPicturesCompression(int value)
 ```
 
-Αντιπροσωπεύει το επίπεδο συμπίεσης των εικόνων
+Αντιπροσωπεύει το επίπεδο συμπίεσης εικόνων
 
-**Parameters:**
-| Parameter | Type | Description |
+**Παράμετροι:**
+| Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | value | int |  |
 
@@ -298,7 +302,7 @@ public final void setPicturesCompression(int value)
 public final boolean getDisableFontLigatures()
 ```
 
-Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν το κείμενο αποδίδεται χωρίς χρήση λιγατούρων. Όταν οριστεί σε true, οι λιγατούρες θα απενεργοποιηθούν στην παραγόμενη έξοδο. Από προεπιλογή, αυτή η ιδιότητα ορίζεται σε false.
+Λαμβάνει ή ρυθμίζει μια τιμή που υποδεικνύει εάν το κείμενο αποτυπώνεται χωρίς χρήση συνδέσεων (ligatures). Όταν ορίζεται σε true, οι συνδέσεις θα απενεργοποιηθούν στο αποτυπωμένο αποτέλεσμα. Προεπιλεγμένα, αυτή η ιδιότητα είναι ορισμένη σε false.
 
 --------------------
 
@@ -308,7 +312,7 @@ public final boolean getDisableFontLigatures()
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      Html5Options options = new Html5Options();
->      options.setDisableFontLigatures(true); // Απενεργοποίηση λιγατούρων στην απόδοση κειμένου
+>      options.setDisableFontLigatures(true); // Απενεργοποίηση συνδέσεων κατά την απόδοση κειμένου
 > 
 >      pres.save("output.html", SaveFormat.Html5, options);
 >  } finally {
@@ -316,14 +320,15 @@ public final boolean getDisableFontLigatures()
 >  }
 > ```
 
-**Returns:**
+
+**Επιστρέφει:**
 boolean
 ### setDisableFontLigatures(boolean value) {#setDisableFontLigatures-boolean-}
 ```
 public final void setDisableFontLigatures(boolean value)
 ```
 
-Λαμβάνει ή ορίζει τιμή που υποδεικνύει εάν το κείμενο αποδίδεται χωρίς χρήση λιγατούρων. Όταν οριστεί σε true, οι λιγατούρες θα απενεργοποιηθούν στην παραγόμενη έξοδο. Από προεπιλογή, αυτή η ιδιότητα ορίζεται σε false.
+Λαμβάνει ή ρυθμίζει μια τιμή που υποδεικνύει εάν το κείμενο αποτυπώνεται χωρίς χρήση συνδέσεων (ligatures). Όταν ορίζεται σε true, οι συνδέσεις θα απενεργοποιηθούν στο αποτυπωμένο αποτέλεσμα. Προεπιλεγμένα, αυτή η ιδιότητα είναι ορισμένη σε false.
 
 --------------------
 
@@ -333,7 +338,7 @@ public final void setDisableFontLigatures(boolean value)
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      Html5Options options = new Html5Options();
->      options.setDisableFontLigatures(true); // Απενεργοποίηση λιγατούρων στην απόδοση κειμένου
+>      options.setDisableFontLigatures(true); // Απενεργοποίηση συνδέσεων κατά την απόδοση κειμένου
 > 
 >      pres.save("output.html", SaveFormat.Html5, options);
 >  } finally {
@@ -341,8 +346,8 @@ public final void setDisableFontLigatures(boolean value)
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**Παράμετροι:**
+| Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -351,7 +356,7 @@ public final void setDisableFontLigatures(boolean value)
 public final ISlidesLayoutOptions getSlidesLayoutOptions()
 ```
 
-Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+Λαμβάνει ή ρυθμίζει τη λειτουργία με την οποία οι διαφάνειες τοποθετούνται στη σελίδα κατά την εξαγωγή μιας παρουσίασης [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
 
@@ -371,14 +376,14 @@ Gets or sets the mode in which slides are placed on the page when exporting a pr
 >  }
 > ```
 
-**Returns:**
+**Επιστρέφει:**
 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)
 ### setSlidesLayoutOptions(ISlidesLayoutOptions value) {#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-}
 ```
 public final void setSlidesLayoutOptions(ISlidesLayoutOptions value)
+```
 
-
-Λαμβάνει ή ορίζει τη λειτουργία με την οποία οι διαφάνειες τοποθετούνται στη σελίδα κατά την εξαγωγή μιας παρουσίασης [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+Λαμβάνει ή ρυθμίζει τη λειτουργία με την οποία οι διαφάνειες τοποθετούνται στη σελίδα κατά την εξαγωγή μιας παρουσίασης [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
 

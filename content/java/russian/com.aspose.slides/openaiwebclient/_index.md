@@ -1,7 +1,7 @@
 ---
 title: OpenAIWebClient
-second_title: Справочник API Aspose.Slides для Java
-description: Встроенная реализация, которая подключается к API OpenAI.
+second_title: Aspose.Slides для Java: справочник API
+description: Встроенная реализация, подключающаяся к API OpenAI.
 type: docs
 url: /ru/com.aspose.slides/openaiwebclient/
 ---
@@ -14,36 +14,37 @@ java.lang.Object
 public class OpenAIWebClient implements IAIWebClient, Closeable
 ```
 
-Встроенная [IAIWebClient](../../com.aspose.slides/iaiwebclient) реализация, которая подключается к API OpenAI.
+Встроенная реализация [IAIWebClient](../../com.aspose.slides/iaiwebclient), которая подключается к API OpenAI.
+
 ## Конструкторы
 
-| Конструктор | Описание |
+| Constructor | Description |
 | --- | --- |
-| [OpenAIWebClient(String model, String apiKey, String organizationId)](#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-) | Создаёт экземпляр веб-клиента OpenAI. |
-| [OpenAIWebClient(String model, String apiKey, String organizationId, HttpURLConnection httpClient)](#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | Создаёт экземпляр веб-клиента OpenAI, использующего внешне управляемый HttpClient. |
+| [OpenAIWebClient(String model, String apiKey, String organizationId)](#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-) | Создает экземпляр веб-клиента OpenAI. |
+| [OpenAIWebClient(String model, String apiKey, String organizationId, HttpURLConnection httpClient)](#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | Создает экземпляр веб-клиента OpenAI, использующего внешне управляемый HttpClient. |
+
 ## Методы
 
-| Метод | Описание |
+| Method | Description |
 | --- | --- |
 | [callChat(String instruction)](#callChat-java.lang.String-) |  |
-| [createConversation()](#createConversation--) | Создаёт экземпляр разговора. |
-| [close()](#close--) | Освобождает ресурсы, используемые этим объектом. |
+| [createConversation()](#createConversation--) | Создает экземпляр беседы. |
+| [close()](#close--) | Освобождает ресурсы, используемые этим экземпляром. |
 ### OpenAIWebClient(String model, String apiKey, String organizationId) {#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-}
 ```
 public OpenAIWebClient(String model, String apiKey, String organizationId)
 ```
 
+Создает экземпляр веб-клиента OpenAI.
 
-Создаёт экземпляр веб-клиента OpenAI.
-
-**Параметры:**
-| Параметр | Тип | Описание |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | model | java.lang.String | Языковая модель OpenAI. Возможные значения: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
 | apiKey | java.lang.String | Ключ API OpenAI. |
 | organizationId | java.lang.String | Идентификатор организации (необязательно). |
 
-```
+```csharp
 using (OpenAIWebClient aiClient = new OpenAIWebClient("gpt-4o-mini", apiKey, null))
  {
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
@@ -59,16 +60,15 @@ using (OpenAIWebClient aiClient = new OpenAIWebClient("gpt-4o-mini", apiKey, nul
 public OpenAIWebClient(String model, String apiKey, String organizationId, HttpURLConnection httpClient)
 ```
 
+Создает экземпляр веб-клиента OpenAI, использующего внешне управляемый HttpClient. Предоставленный HttpClient не уничтожается этим экземпляром и остается владельцем вызывающего кода.
 
-Создаёт экземпляр веб-клиента OpenAI, использующего внешне управляемый HttpClient. Предоставленный HttpClient не будет освобождён этим объектом и остаётся под управлением вызывающего кода.
-
-**Параметры:**
-| Параметр | Тип | Описание |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | model | java.lang.String | Языковая модель OpenAI. Возможные значения: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
 | apiKey | java.lang.String | Ключ API OpenAI |
 | organizationId | java.lang.String | Идентификатор организации (необязательно) |
-| httpClient | java.net.HttpURLConnection | Внешне управляемый экземпляр HttpClient |
+| httpClient | java.net.HttpURLConnection | Экземпляр внешне управляемого HttpClient |
 
 ```
 using (HttpClient httpClient = new HttpClient())
@@ -87,30 +87,27 @@ using (HttpClient httpClient = new HttpClient())
 public String callChat(String instruction)
 ```
 
+Отправляет инструкцию чата в модель ИИ, используя предоставленный экземпляр HttpConnection, и возвращает ответное сообщение на данную инструкцию.
 
-Отправляет инструкцию чата модели ИИ, используя предоставленный HttpConnection, и возвращает ответное сообщение на данную инструкцию.
-
-**Параметры:**
-| Параметр | Тип | Описание |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | instruction | java.lang.String |  |
 
-**Возвращаемое значение:**
+**Returns:**
 java.lang.String
 ### createConversation() {#createConversation--}
 ```
 public final IAIConversation createConversation()
 ```
 
+Создает экземпляр беседы. В отличие от обычных вызовов ИИ, беседы сохраняют весь контекст.
 
-Создаёт экземпляр разговора. В отличие от обычных вызовов ИИ, разговоры сохраняют весь контекст.
-
-**Возвращаемое значение:**
-[IAIConversation](../../com.aspose.slides/iaiconversation) - An [IAIConversation](../../com.aspose.slides/iaiconversation) instance.
+**Returns:**
+[IAIConversation](../../com.aspose.slides/iaiconversation) - экземпляр [IAIConversation](../../com.aspose.slides/iaiconversation).
 ### close() {#close--}
 ```
 public final void close()
 ```
 
-
-Освобождает ресурсы, используемые этим объектом.
+Освобождает ресурсы, используемые этим экземпляром.

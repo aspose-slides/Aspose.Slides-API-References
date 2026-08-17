@@ -1,54 +1,58 @@
 ---
 title: AsposeAIWebClient
-second_title: Aspose.Slides για την Αναφορά API της Java
-description: Μια ενσωματωμένη  υλοποίηση που συνδέεται με το δικό της LLM της Aspose.
+second_title: Αναφορά API Aspose.Slides για Java
+description: Μια ενσωματωμένη υλοποίηση που συνδέεται με το δικό της LLM της Aspose.
 type: docs
 url: /el/com.aspose.slides/asposeaiwebclient/
 ---
-**Κληρονομικότητα:**  
+**Κληρονομικότητα:**
 java.lang.Object
 
-**Όλες οι Υλοποιημένες Διεπαφές:**  
-[com.aspose.slides.IAIWebClient](../../com.aspose.slides/iaiwebclient), com.aspose.ms.System.IDisposable  
+**Όλες οι Υλοποιημένες Διεπαφές:**
+[com.aspose.slides.IAIWebClient](../../com.aspose.slides/iaiwebclient), com.aspose.ms.System.IDisposable
 ```
 public final class AsposeAIWebClient implements IAIWebClient, System.IDisposable
 ```
 
-Μία ενσωματωμένη [IAIWebClient](../../com.aspose.slides/iaiwebclient) υλοποίηση που συνδέεται με το δικό της LLM της Aspose. Αυτός είναι ο προεπιλεγμένος πελάτης που χρησιμοποιείται από τον κατασκευαστή SlidesAIAgent() χωρίς παραμέτρους.
+Μια ενσωματωμένη υλοποίηση [IAIWebClient](../../com.aspose.slides/iaiwebclient) που συνδέεται με το δικό της LLM της Aspose. Αυτός είναι ο προεπιλεγμένος πελάτης που χρησιμοποιείται από τον κατασκευαστή χωρίς παραμέτρων  SlidesAIAgent()  .
 
 ## Κατασκευαστές
 
 | Κατασκευαστής | Περιγραφή |
 | --- | --- |
-| [AsposeAIWebClient()](#AsposeAIWebClient--) | Δημιουργεί ένα παράδειγμα του Aspose AI web client που συνδέεται στο προεπιλεγμένο τελικό σημείο Aspose LLM. |
-| [AsposeAIWebClient(HttpURLConnection httpClient)](#AsposeAIWebClient-java.net.HttpURLConnection-) | Δημιουργεί ένα παράδειγμα του Aspose AI web client που συνδέεται στο προεπιλεγμένο τελικό σημείο Aspose LLM χρησιμοποιώντας έναν εξωτερικά διαχειριζόμενο HttpClient. |
-| [AsposeAIWebClient(String url)](#AsposeAIWebClient-java.lang.String-) | Δημιουργεί ένα παράδειγμα του Aspose AI web client που συνδέεται σε ένα προσαρμοσμένο URL τελικού σημείου. |
-| [AsposeAIWebClient(String url, HttpURLConnection httpClient)](#AsposeAIWebClient-java.lang.String-java.net.HttpURLConnection-) | Δημιουργεί ένα παράδειγμα του Aspose AI web client που συνδέεται σε ένα προσαρμοσμένο URL τελικού σημείου χρησιμοποιώντας έναν εξωτερικά διαχειριζόμενο HttpClient. |
+| [AsposeAIWebClient()](#AsposeAIWebClient--) | Δημιουργεί μια παρουσία του Aspose AI web client που συνδέεται με το προεπιλεγμένο άκρο Aspose LLM. |
+| [AsposeAIWebClient(HttpURLConnection httpClient)](#AsposeAIWebClient-java.net.HttpURLConnection-) | Δημιουργεί μια παρουσία του Aspose AI web client που συνδέεται με το προεπιλεγμένο άκρο Aspose LLM χρησιμοποιώντας ένα εξωτερικά διαχειριζόμενο  HttpURLConnection . |
+| [AsposeAIWebClient(String url)](#AsposeAIWebClient-java.lang.String-) | Δημιουργεί μια παρουσία του Aspose AI web client που συνδέεται με μια προσαρμοσμένη διεύθυνση URL άκρου. |
+| [AsposeAIWebClient(String url, HttpURLConnection httpClient)](#AsposeAIWebClient-java.lang.String-java.net.HttpURLConnection-) | Δημιουργεί μια παρουσία του Aspose AI web client που συνδέεται με μια προσαρμοσμένη διεύθυνση URL άκρου χρησιμοποιώντας ένα εξωτερικά διαχειριζόμενο  HttpURLConnection . |
 
 ## Μέθοδοι
 
 | Μέθοδος | Περιγραφή |
 | --- | --- |
-| [callChat(String instruction)](#callChat-java.lang.String-) |  |
-| [createConversation()](#createConversation--) | Δημιουργεί ένα παράδειγμα συνομιλίας. |
-| [dispose()](#dispose--) | Απελευθερώνει τους πόρους που χρησιμοποιεί αυτό το παράδειγμα. |
+| [callChat(String instruction)](#callChat-java.lang.String-) | Στέλνει μια οδηγία συνομιλίας στο μοντέλο AI και επιστρέφει το μήνυμα απάντησης στην δεδομένη οδηγία. |
+| [createConversation()](#createConversation--) | Δημιουργεί μια παρουσία συνομιλίας. |
+| [dispose()](#dispose--) | Απελευθερώνει τους πόρους που χρησιμοποιούνται από αυτήν την παρουσία. |
 
 ### AsposeAIWebClient() {#AsposeAIWebClient--}
 ```
 public AsposeAIWebClient()
 ```
 
-Δημιουργεί ένα παράδειγμα του Aspose AI web client που συνδέεται στο προεπιλεγμένο τελικό σημείο Aspose LLM. Αυτός είναι ο πελάτης που χρησιμοποιείται από τον κατασκευαστή SlidesAIAgent() χωρίς παραμέτρους, επομένως η ρητή δημιουργία του απαιτείται μόνο όταν ο πελάτης περνιέται άμεσα στον κατασκευαστή SlidesAIAgent(IAIWebClient).
+Δημιουργεί μια παρουσία του Aspose AI web client που συνδέεται με το προεπιλεγμένο άκρο Aspose LLM. Αυτή είναι η πελάτης που χρησιμοποιείται από τον κατασκευαστή χωρίς παραμέτρους  SlidesAIAgent() , οπότε η ρητή δημιουργία του είναι απαραίτητη μόνο όταν περνάτε τον πελάτη στον κατασκευαστή  SlidesAIAgent(IAIWebClient)  απευθείας.
 
 ```
-using (AsposeAIWebClient aiClient = new AsposeAIWebClient())
- {
+AsposeAIWebClient aiClient = new AsposeAIWebClient();
+ try {
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (aiClient != null) aiClient.dispose();
  }
 ```
 
@@ -57,23 +61,28 @@ using (AsposeAIWebClient aiClient = new AsposeAIWebClient())
 public AsposeAIWebClient(HttpURLConnection httpClient)
 ```
 
-Δημιουργεί ένα παράδειγμα του Aspose AI web client που συνδέεται στο προεπιλεγμένο τελικό σημείο Aspose LLM χρησιμοποιώντας έναν εξωτερικά διαχειριζόμενο HttpClient. Ο παρεχόμενος HttpClient δεν διαγράφεται από αυτό το παράδειγμα και παραμένει στην ιδιοκτησία του καλούντος.
+Δημιουργεί μια παρουσία του Aspose AI web client που συνδέεται με το προεπιλεγμένο άκρο Aspose LLM χρησιμοποιώντας ένα εξωτερικά διαχειριζόμενο  HttpURLConnection . Το παρεχόμενο  HttpURLConnection  δεν διαχειρίζεται από αυτήν την παρουσία και παραμένει στην κατοχή του καλούντος.
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| httpClient | java.net.HttpURLConnection | Ένα εξωτερικά διαχειριζόμενο αντικείμενο HttpClient. |
+| httpClient | java.net.HttpURLConnection | Μια εξωτερικά διαχειριζόμενη  HttpURLConnection  παρουσία. |
 
 ```
-using (HttpClient httpClient = new HttpClient())
- {
+URL url = new URL(url);
+ HttpURLConnection httpClient = (HttpURLConnection) url.openConnection();
+ try {
      AsposeAIWebClient aiClient = new AsposeAIWebClient(httpClient);
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (httpClient != null) httpClient.disconnect();
  }
 ``` |
 
@@ -82,22 +91,26 @@ using (HttpClient httpClient = new HttpClient())
 public AsposeAIWebClient(String url)
 ```
 
-Δημιουργεί ένα παράδειγμα του Aspose AI web client που συνδέεται σε ένα προσαρμοσμένο URL τελικού σημείου. Χρησιμοποιήστε αυτήν τη μεταφόρτωση όταν διαθέτετε ένα URL που παρέχεται από την ομάδα Aspose.Slides· διαφορετικά, χρησιμοποιήστε τη μεταφόρτωση AsposeAIWebClient() με το προεπιλεγμένο URL.
+Δημιουργεί μια παρουσία του Aspose AI web client που συνδέεται με μια προσαρμοσμένη διεύθυνση URL άκρου. Χρησιμοποιήστε αυτήν την υπερφόρτωση όταν έχετε μια URL που παρέχεται από την ομάδα Aspose.Slides· διαφορετικά, χρησιμοποιήστε την υπερφόρτωση  AsposeAIWebClient()  με την προεπιλεγμένη URL.
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| url | java.lang.String | Το URL τελικού σημείου του Aspose LLM, που παρέχεται από την ομάδα Aspose.Slides. |
+| url | java.lang.String | Διεύθυνση URL άκρου του Aspose LLM, που παρέχεται από την ομάδα Aspose.Slides. |
 
 ```
-using (AsposeAIWebClient aiClient = new AsposeAIWebClient(customUrl))
- {
+AsposeAIWebClient aiClient = new AsposeAIWebClient(customUrl);
+ try {
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (aiClient != null) aiClient.dispose();
  }
 ``` |
 
@@ -106,24 +119,29 @@ using (AsposeAIWebClient aiClient = new AsposeAIWebClient(customUrl))
 public AsposeAIWebClient(String url, HttpURLConnection httpClient)
 ```
 
-Δημιουργεί ένα παράδειγμα του Aspose AI web client που συνδέεται σε ένα προσαρμοσμένο URL τελικού σημείου χρησιμοποιώντας έναν εξωτερικά διαχειριζόμενο HttpClient. Ο παρεχόμενος HttpClient δεν διαγράφεται από αυτό το παράδειγμα και παραμένει στην ιδιοκτησία του καλούντος. Χρησιμοποιήστε αυτήν τη μεταφόρτωση όταν διαθέτετε ένα URL που παρέχεται από την ομάδα Aspose.Slides και θέλετε να παρέχετε το δικό σας HttpClient· εάν χρειάζεστε μόνο το δικό σας HttpClient με το προεπιλεγμένο URL, χρησιμοποιήστε αντί αυτού τη μεταφόρτωση AsposeAIWebClient(HttpClient).
+Δημιουργεί μια παρουσία του Aspose AI web client που συνδέεται με μια προσαρμοσμένη διεύθυνση URL άκρου χρησιμοποιώντας ένα εξωτερικά διαχειριζόμενο  HttpURLConnection . Το παρεχόμενο  HttpURLConnection  δεν διαχειρίζεται από αυτήν την παρουσία και παραμένει στην κατοχή του καλούντος. Χρησιμοποιήστε αυτήν την υπερφόρτωση όταν έχετε μια URL που παρέχεται από την ομάδα Aspose.Slides και θέλετε να παρέχετε το δικό σας  HttpURLConnection· αν χρειάζεστε μόνο το δικό σας  HttpURLConnection  με την προεπιλεγμένη URL, χρησιμοποιήστε την υπερφόρτωση  AsposeAIWebClient(HttpURLConnection)  αντ' αυτού.
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| url | java.lang.String | Το URL τελικού σημείου του Aspose LLM, που παρέχεται από την ομάδα Aspose.Slides. |
-| httpClient | java.net.HttpURLConnection | Ένα εξωτερικά διαχειριζόμενο αντικείμενο HttpClient. |
+| url | java.lang.String | Διεύθυνση URL άκρου του Aspose LLM, που παρέχεται από την ομάδα Aspose.Slides. |
+| httpClient | java.net.HttpURLConnection | Μια εξωτερικά διαχειριζόμενη  HttpURLConnection  παρουσία. |
 
 ```
-using (HttpClient httpClient = new HttpClient())
- {
+URL url = new URL(url);
+ HttpURLConnection httpClient = (HttpURLConnection) url.openConnection();
+ try {
      AsposeAIWebClient aiClient = new AsposeAIWebClient(customUrl, httpClient);
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (httpClient != null) httpClient.disconnect();
  }
 ``` |
 
@@ -132,29 +150,29 @@ using (HttpClient httpClient = new HttpClient())
 public String callChat(String instruction)
 ```
 
-Στέλνει μια εντολή συνομιλίας στο μοντέλο AI χρησιμοποιώντας ένα παρεχόμενο αντικείμενο HttpConnection και επιστρέφει το μήνυμα απάντησης στην δεδομένη εντολή.
+Στέλνει μια οδηγία συνομιλίας στο μοντέλο AI και επιστρέφει το μήνυμα απάντησης στην δοθείσα οδηγία.
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| instruction | java.lang.String |  |
+| instruction | java.lang.String | Η οδηγία ή το μήνυμα που θα επεξεργαστεί το μοντέλο AI. |
 
-**Επιστροφή:**
-java.lang.String
+**Επιστρέφει:**
+java.lang.String - Το μήνυμα που δημιουργήθηκε από το μοντέλο AI ως απάντηση στην δεδομένη οδηγία.
 
 ### createConversation() {#createConversation--}
 ```
 public final IAIConversation createConversation()
 ```
 
-Δημιουργεί ένα παράδειγμα συνομιλίας. Σε αντίθεση με τις κανονικές κλήσεις AI, οι συνομιλίες διατηρούν όλο το πλαίσιο.
+Δημιουργεί μια παρουσία συνομιλίας. Σε αντίθεση με τις κανονικές κλήσεις AI, οι συνομιλίες διατηρούν όλο το συμφραζόμενο.
 
-**Επιστροφή:**
-[IAIConversation](../../com.aspose.slides/iaiconversation) - Ένα [IAIConversation](../../com.aspose.slides/iaiconversation) παράδειγμα.
+**Επιστρέφει:**
+[IAIConversation](../../com.aspose.slides/iaiconversation) - Μία [IAIConversation](../../com.aspose.slides/iaiconversation) παρουσία.
 
 ### dispose() {#dispose--}
 ```
 public final void dispose()
 ```
 
-Απελευθερώνει τους πόρους που χρησιμοποιεί αυτό το παράδειγμα.
+Απελευθερώνει τους πόρους που χρησιμοποιούνται από αυτήν την παρουσία.
