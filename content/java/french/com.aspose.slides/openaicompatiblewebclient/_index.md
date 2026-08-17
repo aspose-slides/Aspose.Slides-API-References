@@ -20,12 +20,12 @@ Une implémentation intégrée [IAIWebClient](../../com.aspose.slides/iaiwebclie
 | Constructeur | Description |
 | --- | --- |
 | [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-) | Crée une instance du client web compatible OpenAI. |
-| [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl, HttpURLConnection httpClient)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | Crée une instance du client web compatible OpenAI qui utilise un HttpClient géré à l'extérieur. Le HttpClient fourni n'est pas libéré par cette instance et reste la propriété de l'appelant. |
+| [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl, HttpURLConnection httpClient)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | Crée une instance du client web compatible OpenAI qui utilise un HttpURLConnection géré en externe . |
 ## Méthodes
 
 | Méthode | Description |
 | --- | --- |
-| [callChat(String instruction)](#callChat-java.lang.String-) |  |
+| [callChat(String instruction)](#callChat-java.lang.String-) | Envoie une instruction de chat au modèle d'IA en utilisant une instance HttpURLConnection gérée en externe et renvoie le message de réponse à l'instruction donnée. |
 | [createConversation()](#createConversation--) | Crée une instance de conversation. |
 | [dispose()](#dispose--) | Libère les ressources utilisées par cette instance. |
 ### OpenAICompatibleWebClient(String model, String apiKey, String baseUrl) {#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-}
@@ -40,25 +40,30 @@ Crée une instance du client web compatible OpenAI.
 | --- | --- | --- |
 | model | java.lang.String | Nom du modèle pris en charge par le fournisseur LLM. |
 | apiKey | java.lang.String | Clé API (jeton). |
-| baseUrl | java.lang.String | URL de base du LLM compatible OpenAI. |
+| baseUrl | java.lang.String | URL de base du LLM compatible OpenAI.
+
 ```
-using (OpenAICompatibleWebClient aiClient = new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1"))
- {
+OpenAICompatibleWebClient aiClient =
+         new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1");
+ try {
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (aiClient != null) aiClient.dispose();
  }
 ``` |
-
 ### OpenAICompatibleWebClient(String model, String apiKey, String baseUrl, HttpURLConnection httpClient) {#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-}
 ```
 public OpenAICompatibleWebClient(String model, String apiKey, String baseUrl, HttpURLConnection httpClient)
 ```
 
-Crée une instance du client web compatible OpenAI qui utilise un HttpClient géré à l'extérieur. Le HttpClient fourni n'est pas libéré par cette instance et reste la propriété de l'appelant.
+Crée une instance du client web compatible OpenAI qui utilise un HttpURLConnection géré en externe . Le HttpURLConnection fourni n'est pas libéré par cette instance et reste la propriété de l'appelant.
 
 **Paramètres :**
 | Paramètre | Type | Description |
@@ -66,43 +71,49 @@ Crée une instance du client web compatible OpenAI qui utilise un HttpClient gé
 | model | java.lang.String | Nom du modèle pris en charge par le fournisseur LLM. |
 | apiKey | java.lang.String | Clé API (jeton). |
 | baseUrl | java.lang.String | URL de base du LLM compatible OpenAI. |
-| httpClient | java.net.HttpURLConnection | Une instance HttpClient gérée à l'extérieur. |
+| httpClient | java.net.HttpURLConnection | Une instance HttpURLConnection gérée en externe.
+
 ```
-using (HttpClient httpClient = new HttpClient())
- {
-     OpenAICompatibleWebClient aiClient = new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1", httpClient);
+URL url = new URL(url);
+ HttpURLConnection httpClient = (HttpURLConnection) url.openConnection();
+ try {
+     OpenAICompatibleWebClient aiClient =
+             new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1", httpClient);
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (httpClient != null) httpClient.disconnect();
  }
 ``` |
-
 ### callChat(String instruction) {#callChat-java.lang.String-}
 ```
 public String callChat(String instruction)
 ```
 
-Envoie une instruction de chat au modèle d'IA en utilisant une instance HttpConnection fournie et renvoie le message de réponse à l'instruction donnée.
+Envoie une instruction de chat au modèle d'IA en utilisant une instance HttpURLConnection gérée en externe et renvoie le message de réponse à l'instruction donnée.
 
 **Paramètres :**
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| instruction | java.lang.String |  |
+| instruction | java.lang.String | L'instruction ou le message à traiter par le modèle d'IA. |
 
-**Retour :**
-java.lang.String
+**Renvoie :**
+java.lang.String - Le message généré par le modèle d'IA en réponse à l'instruction donnée.
 ### createConversation() {#createConversation--}
 ```
 public final IAIConversation createConversation()
 ```
 
-Crée une instance de conversation. Contrairement aux appels d'IA ordinaires, les conversations conservent tout le contexte.
+Crée une instance de conversation. Contrairement aux appels d'IA habituels, les conversations conservent tout le contexte.
 
-**Retour :**
-[IAIConversation](../../com.aspose.slides/iaiconversation) - Une [IAIConversation](../../com.aspose.slides/iaiconversation) instance.
+**Renvoie :**
+[IAIConversation](../../com.aspose.slides/iaiconversation) - Une instance [IAIConversation](../../com.aspose.slides/iaiconversation).
 ### dispose() {#dispose--}
 ```
 public final void dispose()
