@@ -1,7 +1,7 @@
 ---
 title: SlidesAIAgent
 second_title: Aspose.Slides for Java API Referansı
-description: Sunumları işlemek için yapay zeka destekli özellikler sağlar.
+description: Sunumları işlemek için AI destekli özellikler sağlar.
 type: docs
 url: /tr/com.aspose.slides/slidesaiagent/
 ---
@@ -11,58 +11,55 @@ java.lang.Object
 public class SlidesAIAgent
 ```
 
-Sunumları işlemek için yapay zeka destekli özellikler sağlar.
-
+Sunumları işlemek için AI destekli özellikler sağlar.
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
 | --- | --- |
-| [SlidesAIAgent(IAIWebClient aiClient)](#SlidesAIAgent-com.aspose.slides.IAIWebClient-) | Yeni bir [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) örneğini özel bir AI istemcisiyle başlatır. |
-| [SlidesAIAgent()](#SlidesAIAgent--) | Yeni bir [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) örneğini dahili [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient) kullanarak varsayılan yapılandırmasıyla başlatır. |
+| [SlidesAIAgent(IAIWebClient aiClient)](#SlidesAIAgent-com.aspose.slides.IAIWebClient-) | Özel bir AI istemcisiyle [SlidesAIAgent](../../com.aspose.slides/slidesaiagent)'nin yeni bir örneğini başlatır. |
+| [SlidesAIAgent()](#SlidesAIAgent--) | Yerleşik [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient)'yi varsayılan yapılandırmasıyla kullanarak [SlidesAIAgent](../../com.aspose.slides/slidesaiagent)'nin yeni bir örneğini başlatır. |
+## Yöntemler
 
-## Metotlar
-
-| Metot | Açıklama |
+| Yöntem | Açıklama |
 | --- | --- |
-| [translate(IPresentation presentation, String language)](#translate-com.aspose.slides.IPresentation-java.lang.String-) | Bir sunumu belirlenen dile AI kullanarak çevirir (senkron sürüm). |
+| [translate(IPresentation presentation, String language)](#translate-com.aspose.slides.IPresentation-java.lang.String-) | AI kullanarak (senkron sürüm) bir sunumu belirtilen dile çevirir. |
 | [generatePresentation(String description, int presentationContentAmount)](#generatePresentation-java.lang.String-int-) | Metin açıklamasından bir sunum örneği oluşturur. |
 | [generatePresentation(String description, int presentationContentAmount, IPresentation presentationTemplate)](#generatePresentation-java.lang.String-int-com.aspose.slides.IPresentation-) | Metin açıklamasından bir sunum örneği oluşturur. |
-
 ### SlidesAIAgent(IAIWebClient aiClient) {#SlidesAIAgent-com.aspose.slides.IAIWebClient-}
 ```
 public SlidesAIAgent(IAIWebClient aiClient)
 ```
 
-Yeni bir [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) örneğini özel bir AI istemcisiyle başlatır. Bu aşırı yüklemeyi AI sağlayıcısını belirtmek, kendi LLM'nizi sağlamak veya bağlantıyı özelleştirmek için kullanın (örneğin, kendi java.net.HttpURLConnection'ınızı sağlayarak). [IAIWebClient](../../com.aspose.slides/iaiwebclient)‘nin herhangi bir uygulaması kullanılabilir. Dahili [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient)'yi varsayılan yapılandırmasıyla kullanmak için SlidesAIAgent() aşırı yüklemesini kullanın.
+Özel bir AI istemcisiyle [SlidesAIAgent](../../com.aspose.slides/slidesaiagent)'nin yeni bir örneğini başlatır. Bu aşırı yüklemeyi AI sağlayıcısını belirtmek, kendi LLM'nizi sağlamak veya bağlantıyı özelleştirmek için kullanın (örneğin, kendi java.net.HttpURLConnection'ınızı sağlayarak). [IAIWebClient](../../com.aspose.slides/iaiwebclient)'nin herhangi bir uygulaması kullanılabilir. Yerleşik [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient)'yi varsayılan yapılandırmasıyla kullanmak için SlidesAIAgent() aşırı yüklemesini kullanın.
 
 **Parametreler:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| aiClient | [IAIWebClient](../../com.aspose.slides/iaiwebclient) | AI istemci örneği. [IAIWebClient](../../com.aspose.slides/iaiwebclient)‘nin herhangi bir uygulaması kullanılabilir. |
+| aiClient | [IAIWebClient](../../com.aspose.slides/iaiwebclient) | AI istemci örneği. [IAIWebClient](../../com.aspose.slides/iaiwebclient)'nin herhangi bir uygulaması kullanılabilir. |
 
 ### SlidesAIAgent() {#SlidesAIAgent--}
 ```
 public SlidesAIAgent()
 ```
 
-Yeni bir [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) örneğini dahili [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient) kullanarak varsayılan yapılandırmasıyla başlatır. İstemci Aspose'un kendi LLM'sine bağlanır ve ek yapılandırma gerektirmez. Farklı bir AI istemcisi kullanmak için SlidesAIAgent(IAIWebClient) aşırı yüklemesini kullanın.
+[SlidesAIAgent](../../com.aspose.slides/slidesaiagent)'nin yeni bir örneğini, yerleşik [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient)'yi varsayılan yapılandırmasıyla kullanarak başlatır. İstemci Aspose'un kendi LLM'sine bağlanır ve ek bir yapılandırma gerektirmez. Farklı bir AI istemcisi kullanmak için SlidesAIAgent(IAIWebClient) aşırı yüklemesini kullanın.
 
 ### translate(IPresentation presentation, String language) {#translate-com.aspose.slides.IPresentation-java.lang.String-}
 ```
 public final void translate(IPresentation presentation, String language)
 ```
 
-Bir sunumu belirlenen dile AI kullanarak çevirir (senkron sürüm).
+AI kullanarak (senkron sürüm) bir sunumu belirtilen dile çevirir.
 
 **Parametreler:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | presentation | [IPresentation](../../com.aspose.slides/ipresentation) | Hedef sunum |
-| language | java.lang.String | Hedef dil |
+| language | java.lang.String | Hedef dil
 
 --------------------
 
-Aşağıdaki örnek, parametresiz SlidesAIAgent() yapıcısı tarafından oluşturulan ve Aspose'un kendi LLM'sine bağlanan varsayılan [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient)‘yi kullanır. Farklı bir AI sağlayıcısı kullanmak, kendi LLM'nizi sağlamak veya bağlantıyı özelleştirmek (örneğin, kendi java.net.HttpURLConnection'ınızı sağlayarak) için bir [IAIWebClient](../../com.aspose.slides/iaiwebclient) uygulamasını SlidesAIAgent(IAIWebClient) yapıcısına geçirin.
+Aşağıdaki örnek, parametresiz SlidesAIAgent() yapıcı tarafından oluşturulan ve Aspose'un kendi LLM'sine bağlanan varsayılan [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient)'ı kullanır. Farklı bir AI sağlayıcı kullanmak, kendi LLM'nizi sağlamak veya bağlantıyı özelleştirmek (örneğin, kendi java.net.HttpURLConnection'ınızı sağlayarak) için SlidesAIAgent(IAIWebClient) yapıcısına bir [IAIWebClient](../../com.aspose.slides/iaiwebclient) uygulaması geçirin.
 
 ```
 Presentation presentation = new Presentation("Presentation.pptx");
@@ -81,13 +78,13 @@ Presentation presentation = new Presentation("Presentation.pptx");
 public final IPresentation generatePresentation(String description, int presentationContentAmount)
 ```
 
-Metin açıklamasından bir sunum örneği oluşturur. Gereken dilde bir konu, fikir, alıntı ya da metin parçacığı sağlayın.
+Metin açıklamasından bir sunum örneği oluşturur. Gerekli dilde bir konu, fikir, alıntı veya metin parçacığı sağlayın.
 
 **Parametreler:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| description | java.lang.String | Konu, fikirler, alıntılar veya metin parçacıkları. |
-| presentationContentAmount | int | Ortaya çıkan sunumdaki içerik miktarı. |
+| description | java.lang.String | Konu, fikir, alıntı veya metin parçacıkları. |
+| presentationContentAmount | int | Oluşturulan sunumdaki içerik miktarı.
 
 ```
 String prompt = "Generate a presentation about Aspose.Slides for Java. Highlight its key features, use cases, and explain why it is better than its competitors.";
@@ -101,26 +98,25 @@ String prompt = "Generate a presentation about Aspose.Slides for Java. Highlight
  }
 ``` |
 
-**Döndürür:**
+**Dönüş:**
 [IPresentation](../../com.aspose.slides/ipresentation)
-
 ### generatePresentation(String description, int presentationContentAmount, IPresentation presentationTemplate) {#generatePresentation-java.lang.String-int-com.aspose.slides.IPresentation-}
 ```
 public final IPresentation generatePresentation(String description, int presentationContentAmount, IPresentation presentationTemplate)
 ```
 
-Metin açıklamasından bir sunum örneği oluşturur. Gereken dilde bir konu, fikir, alıntı ya da metin parçacığı sağlayın.
+Metin açıklamasından bir sunum örneği oluşturur. Gerekli dilde bir konu, fikir, alıntı veya metin parçacığı sağlayın.
 
 **Parametreler:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| description | java.lang.String | Konu, fikirler, alıntılar veya metin parçacıkları. |
-| presentationContentAmount | int | Ortaya çıkan sunumdaki içerik miktarı. |
-| presentationTemplate | [IPresentation](../../com.aspose.slides/ipresentation) | Düzen ve tasarım için bir şablon olarak kullanılacak sunum, varsayılan şablonun yerine geçer. |
+| description | java.lang.String | Konu, fikir, alıntı veya metin parçacıkları. |
+| presentationContentAmount | int | Oluşturulan sunumdaki içerik miktarı. |
+| presentationTemplate | [IPresentation](../../com.aspose.slides/ipresentation) | Düzen ve tasarım için şablon olarak kullanılacak bir sunum, varsayılan şablonu değiştirir.
 
 --------------------
 
-Aşağıdaki örnek, parametresiz SlidesAIAgent() yapıcısı tarafından oluşturulan ve Aspose'un kendi LLM'sine bağlanan varsayılan [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient)‘yi kullanır. Farklı bir AI sağlayıcısı kullanmak, kendi LLM'nizi sağlamak veya bağlantıyı özelleştirmek (örneğin, kendi java.net.HttpURLConnection'ınızı sağlayarak) için bir [IAIWebClient](../../com.aspose.slides/iaiwebclient) uygulamasını SlidesAIAgent(IAIWebClient) yapıcısına geçirin.
+Aşağıdaki örnek, parametresiz SlidesAIAgent() yapıcı tarafından oluşturulan ve Aspose'un kendi LLM'sine bağlanan varsayılan [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient)'yi kullanır. Farklı bir AI sağlayıcı kullanmak, kendi LLM'nizi sağlamak veya bağlantıyı özelleştirmek (örneğin, kendi java.net.HttpURLConnection'ınızı sağlayarak) için SlidesAIAgent(IAIWebClient) yapıcısına bir [IAIWebClient](../../com.aspose.slides/iaiwebclient) uygulaması geçirin.
 
 ```
 String prompt = "Generate a presentation about Aspose.Slides for Java. Highlight its key features, use cases, and explain why it is better than its competitors.";
@@ -140,5 +136,5 @@ String prompt = "Generate a presentation about Aspose.Slides for Java. Highlight
  }
 ``` |
 
-**Döndürür:**
+**Dönüş:**
 [IPresentation](../../com.aspose.slides/ipresentation)

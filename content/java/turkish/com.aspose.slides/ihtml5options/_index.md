@@ -1,11 +1,11 @@
 ---
 title: IHtml5Options
-second_title: Aspose.Slides for Java API Referansı
+second_title: Aspose.Slides Java API Referansı
 description: HTML5 dışa aktarma seçeneklerini temsil eder.
 type: docs
 url: /tr/com.aspose.slides/ihtml5options/
 ---
-**Tüm Uygulanan Arayüzler:**
+**Uygulanan Tüm Arayüzler:**
 [com.aspose.slides.ISaveOptions](../../com.aspose.slides/isaveoptions)
 ```
 public interface IHtml5Options extends ISaveOptions
@@ -29,30 +29,30 @@ HTML5 dışa aktarma seçeneklerini temsil eder.
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-## Methods
+## Yöntemler
 
-| Method | Description |
+| Yöntem | Açıklama |
 | --- | --- |
-| [getAnimateTransitions()](#getAnimateTransitions--) | Returns or sets transitions animation option. |
-| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | Returns or sets transitions animation option. |
-| [getAnimateShapes()](#getAnimateShapes--) | Returns or sets shapes animation option. |
-| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Returns or sets shapes animation option. |
-| [getEmbedImages()](#getEmbedImages--) | Returns or sets images embedding option. |
-| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Returns or sets images embedding option. |
-| [getOutputPath()](#getOutputPath--) | Determines where external resources should be stored. |
-| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Determines where external resources should be stored. |
-| [getPicturesCompression()](#getPicturesCompression--) | Represents the pictures compression level Read/write  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
-| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Represents the pictures compression level Read/write  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
-| [getDisableFontLigatures()](#getDisableFontLigatures--) | Gets or sets a value indicating whether text is rendered without using ligatures. |
-| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Gets or sets a value indicating whether text is rendered without using ligatures. |
-| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
-| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [getAnimateTransitions()](#getAnimateTransitions--) | Geçiş animasyonu seçeneğini alır veya ayarlar. |
+| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | Geçiş animasyonu seçeneğini alır veya ayarlar. |
+| [getAnimateShapes()](#getAnimateShapes--) | Şekil animasyonu seçeneğini alır veya ayarlar. |
+| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Şekil animasyonu seçeneğini alır veya ayarlar. |
+| [getEmbedImages()](#getEmbedImages--) | Görsel yerleştirme seçeneğini alır veya ayarlar. |
+| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Görsel yerleştirme seçeneğini alır veya ayarlar. |
+| [getOutputPath()](#getOutputPath--) | Harici kaynakların nerede depolanacağını belirler. |
+| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Harici kaynakların nerede depolanacağını belirler. |
+| [getPicturesCompression()](#getPicturesCompression--) | Görsellerin sıkıştırma seviyesini temsil eder Okuma/Yazma PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
+| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Görsellerin sıkıştırma seviyesini temsil eder Okuma/Yazma PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
+| [getDisableFontLigatures()](#getDisableFontLigatures--) | Metnin ligatür kullanılmadan render edilip edilmediğini belirten bir değeri alır veya ayarlar. |
+| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Metnin ligatür kullanılmadan render edilip edilmediğini belirten bir değeri alır veya ayarlar. |
+| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Sunumu dışa aktarırken slaytların sayfada yerleştirildiği modu alır veya ayarlar [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Sunumu dışa aktarırken slaytların sayfada yerleştirildiği modu alır veya ayarlar [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 ### getAnimateTransitions() {#getAnimateTransitions--}
 ```
 public abstract boolean getAnimateTransitions()
 ```
 
-Returns or sets transitions animation option. Read/write boolean.
+Geçiş animasyonu seçeneğini alır veya ayarlar. Okuma/Yazma boolean.
 
 --------------------
 
@@ -70,14 +70,14 @@ Returns or sets transitions animation option. Read/write boolean.
 >  }
 > ```
 
-**Returns:**
+**Döndürür:**
 boolean
 ### setAnimateTransitions(boolean value) {#setAnimateTransitions-boolean-}
 ```
 public abstract void setAnimateTransitions(boolean value)
 ```
 
-Returns or sets transitions animation option. Read/write boolean.
+Geçiş animasyonu seçeneğini alır veya ayarlar. Okuma/Yazma boolean.
 
 --------------------
 
@@ -95,8 +95,8 @@ Returns or sets transitions animation option. Read/write boolean.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**Parametreler:**
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -105,7 +105,7 @@ Returns or sets transitions animation option. Read/write boolean.
 public abstract boolean getAnimateShapes()
 ```
 
-Returns or sets shapes animation option. Read/write boolean.
+Şekil animasyonu seçeneğini alır veya ayarlar. Okuma/Yazma boolean.
 
 --------------------
 
@@ -123,14 +123,14 @@ Returns or sets shapes animation option. Read/write boolean.
 >  }
 > ```
 
-**Returns:**
+**Döndürür:**
 boolean
 ### setAnimateShapes(boolean value) {#setAnimateShapes-boolean-}
 ```
 public abstract void setAnimateShapes(boolean value)
 ```
 
-Returns or sets shapes animation option. Read/write boolean.
+Şekil animasyonu seçeneğini alır veya ayarlar. Okuma/Yazma boolean.
 
 --------------------
 
@@ -148,8 +148,8 @@ Returns or sets shapes animation option. Read/write boolean.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**Parametreler:**
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -158,7 +158,7 @@ Returns or sets shapes animation option. Read/write boolean.
 public abstract boolean getEmbedImages()
 ```
 
-Returns or sets images embedding option. Read/write boolean.
+Görsel yerleştirme seçeneğini alır veya ayarlar. Okuma/Yazma boolean.
 
 --------------------
 
@@ -175,14 +175,14 @@ Returns or sets images embedding option. Read/write boolean.
 >  }
 > ```
 
-**Returns:**
+**Döndürür:**
 boolean
 ### setEmbedImages(boolean value) {#setEmbedImages-boolean-}
 ```
 public abstract void setEmbedImages(boolean value)
 ```
 
-Returns or sets images embedding option. Read/write boolean.
+Görsel yerleştirme seçeneğini alır veya ayarlar. Okuma/Yazma boolean.
 
 --------------------
 
@@ -199,8 +199,8 @@ Returns or sets images embedding option. Read/write boolean.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**Parametreler:**
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -209,7 +209,7 @@ Returns or sets images embedding option. Read/write boolean.
 public abstract String getOutputPath()
 ```
 
-Determines where external resources should be stored. Read/write String.
+Harici kaynakların nerede depolanacağını belirler. Okuma/Yazma String.
 
 --------------------
 
@@ -227,14 +227,14 @@ Determines where external resources should be stored. Read/write String.
 >  }
 > ```
 
-**Returns:**
+**Döndürür:**
 java.lang.String
 ### setOutputPath(String value) {#setOutputPath-java.lang.String-}
 ```
 public abstract void setOutputPath(String value)
 ```
 
-Determines where external resources should be stored. Read/write String.
+Harici kaynakların nerede depolanacağını belirler. Okuma/Yazma String.
 
 --------------------
 
@@ -252,8 +252,8 @@ Determines where external resources should be stored. Read/write String.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**Parametreler:**
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
@@ -262,19 +262,19 @@ Determines where external resources should be stored. Read/write String.
 public abstract int getPicturesCompression()
 ```
 
-Represents the pictures compression level Read/write  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
+Görsellerin sıkıştırma seviyesini temsil eder Okuma/Yazma PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
 
-**Returns:**
+**Döndürür:**
 int
 ### setPicturesCompression(int value) {#setPicturesCompression-int-}
 ```
 public abstract void setPicturesCompression(int value)
 ```
 
-Represents the pictures compression level Read/write  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
+Görsellerin sıkıştırma seviyesini temsil eder Okuma/Yazma PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
 
-**Parameters:**
-| Parameter | Type | Description |
+**Parametreler:**
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | value | int |  |
 
@@ -283,7 +283,7 @@ Represents the pictures compression level Read/write  PicturesCompression (\#get
 public abstract boolean getDisableFontLigatures()
 ```
 
-Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false.
+Metnin ligatür kullanılmadan render edilip edilmediğini belirten bir değeri alır veya ayarlar. True olarak ayarlandığında, ligatürler render edilmiş çıktıda devre dışı bırakılır. Varsayılan olarak bu özellik false olarak ayarlanmıştır.
 
 --------------------
 
@@ -301,14 +301,14 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 >  }
 > ```
 
-**Returns:**
+**Döndürür:**
 boolean
 ### setDisableFontLigatures(boolean value) {#setDisableFontLigatures-boolean-}
 ```
 public abstract void setDisableFontLigatures(boolean value)
 ```
 
-Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false.
+Metnin ligatür kullanılmadan render edilip edilmediğini belirten bir değeri alır veya ayarlar. True olarak ayarlandığında, ligatürler render edilmiş çıktıda devre dışı bırakılır. Varsayılan olarak bu özellik false olarak ayarlanmıştır.
 
 --------------------
 
@@ -326,8 +326,8 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**Parametreler:**
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -336,7 +336,7 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 public abstract ISlidesLayoutOptions getSlidesLayoutOptions()
 ```
 
-Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+Sunumu dışa aktarırken slaytların sayfada yerleştirildiği modu alır veya ayarlar [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
 
@@ -356,12 +356,12 @@ Gets or sets the mode in which slides are placed on the page when exporting a pr
 >  }
 > ```
 
-**Returns:**
+**Döndürür:**
 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)
 ### setSlidesLayoutOptions(ISlidesLayoutOptions value) {#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-}
 ```
 public abstract void setSlidesLayoutOptions(ISlidesLayoutOptions value)
-
+```
 
 Sunumu dışa aktarırken slaytların sayfada yerleştirildiği modu alır veya ayarlar [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
