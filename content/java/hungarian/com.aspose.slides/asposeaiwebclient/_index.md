@@ -1,7 +1,7 @@
 ---
 title: AsposeAIWebClient
-second_title: Aspose.Slides Java API referencia
-description: Beépített megvalósítás, amely az Aspose saját LLM-jéhez csatlakozik.
+second_title: Aspose.Slides Java API hivatkozás
+description: Beépített implementáció, amely az Aspose saját LLM-jéhez csatlakozik.
 type: docs
 url: /hu/com.aspose.slides/asposeaiwebclient/
 ---
@@ -14,135 +14,162 @@ java.lang.Object
 public final class AsposeAIWebClient implements IAIWebClient, System.IDisposable
 ```
 
-Egy beépített [IAIWebClient](../../com.aspose.slides/iaiwebclient) megvalósítás, amely az Aspose saját LLM-jéhez csatlakozik. Ez az alapértelmezett kliens, amelyet a paraméter nélküli  SlidesAIAgent()  konstruktor használ.
+Egy beépített [IAIWebClient](../../com.aspose.slides/iaiwebclient) megvalósítás, amely az Aspose saját LLM-jéhez csatlakozik.  Ez az alapértelmezett kliens, amelyet a paraméter nélküli  SlidesAIAgent()  konstruktor használ.
+
 ## Konstruktorok
 
 | Konstruktor | Leírás |
 | --- | --- |
-| [AsposeAIWebClient()](#AsposeAIWebClient--) | Létrehozza az Aspose AI webkliens egy példányát, amely a alapértelmezett Aspose LLM végponthoz csatlakozik. |
-| [AsposeAIWebClient(HttpURLConnection httpClient)](#AsposeAIWebClient-java.net.HttpURLConnection-) | Létrehozza az Aspose AI webkliens egy példányát, amely a alapértelmezett Aspose LLM végponthoz csatlakozik egy külsőleg kezelt HttpClient használatával. |
-| [AsposeAIWebClient(String url)](#AsposeAIWebClient-java.lang.String-) | Létrehozza az Aspose AI webkliens egy példányát, amely egy egyéni végpont URL-hez csatlakozik. |
-| [AsposeAIWebClient(String url, HttpURLConnection httpClient)](#AsposeAIWebClient-java.lang.String-java.net.HttpURLConnection-) | Létrehozza az Aspose AI webkliens egy példányát, amely egy egyéni végpont URL-hez csatlakozik egy külsőleg kezelt HttpClient használatával. |
+| [AsposeAIWebClient()](#AsposeAIWebClient--) | Létrehoz egy példányt az Aspose AI webkliensből, amely az alapértelmezett Aspose LLM végponthoz csatlakozik. |
+| [AsposeAIWebClient(HttpURLConnection httpClient)](#AsposeAIWebClient-java.net.HttpURLConnection-) | Létrehoz egy példányt az Aspose AI webkliensből, amely az alapértelmezett Aspose LLM végponthoz csatlakozik egy külsőleg kezelt HttpURLConnection használatával. |
+| [AsposeAIWebClient(String url)](#AsposeAIWebClient-java.lang.String-) | Létrehoz egy példányt az Aspose AI webkliensből, amely egy egyedi végpont URL-hez csatlakozik. |
+| [AsposeAIWebClient(String url, HttpURLConnection httpClient)](#AsposeAIWebClient-java.lang.String-java.net.HttpURLConnection-) | Létrehoz egy példányt az Aspose AI webkliensből, amely egy egyedi végpont URL-hez csatlakozik egy külsőleg kezelt HttpURLConnection használatával. |
+
 ## Metódusok
 
 | Metódus | Leírás |
 | --- | --- |
-| [callChat(String instruction)](#callChat-java.lang.String-) |  |
-| [createConversation()](#createConversation--) | Létrehoz egy beszélgetéspéldányt. |
+| [callChat(String instruction)](#callChat-java.lang.String-) | Chatutasítást küld az AI modellnek, és visszaadja a válaszüzenetet a megadott utasításra. |
+| [createConversation()](#createConversation--) | Létrehoz egy beszélgetés példányt. |
 | [dispose()](#dispose--) | Felszabadítja az ezen példány által használt erőforrásokat. |
+
 ### AsposeAIWebClient() {#AsposeAIWebClient--}
 ```
 public AsposeAIWebClient()
 ```
 
-Létrehozza az Aspose AI webkliens egy példányát, amely a alapértelmezett Aspose LLM végponthoz csatlakozik. Ez a kliens a paraméter nélküli SlidesAIAgent() konstruktor által használt, így explicit módon csak akkor szükséges létrehozni, ha a klienst közvetlenül a SlidesAIAgent(IAIWebClient) konstruktorba adjuk át.
+Létrehoz egy példányt az Aspose AI webkliensből, amely az alapértelmezett Aspose LLM végponthoz csatlakozik.  Ez a kliens a paraméter nélküli  SlidesAIAgent()  konstruktor által használt, így expliciten csak akkor kell létrehozni, ha a klienst közvetlenül a  SlidesAIAgent(IAIWebClient)  konstruktorba szeretnénk átadni.
 
 ```
-using (AsposeAIWebClient aiClient = new AsposeAIWebClient())
- {
+AsposeAIWebClient aiClient = new AsposeAIWebClient();
+ try {
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (aiClient != null) aiClient.dispose();
  }
 ```
+
 ### AsposeAIWebClient(HttpURLConnection httpClient) {#AsposeAIWebClient-java.net.HttpURLConnection-}
 ```
 public AsposeAIWebClient(HttpURLConnection httpClient)
 ```
 
-Létrehozza az Aspose AI webkliens egy példányát, amely a alapértelmezett Aspose LLM végponthoz csatlakozik egy külsőleg kezelt HttpClient használatával. A biztosított HttpClient-et ez a példány nem zárja le, és a hívó marad a tulajdonosa.
+Létrehoz egy példányt az Aspose AI webkliensből, amely az alapértelmezett Aspose LLM végponthoz csatlakozik egy külsőleg kezelt HttpURLConnection használatával. A megadott HttpURLConnection-t ez a példány nem zárja le, és a hívó marad annak tulajdonosa.
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| httpClient | java.net.HttpURLConnection | Külsőleg kezelt HttpClient példány.
+| httpClient | java.net.HttpURLConnection | Külsőleg kezelt HttpURLConnection példány. |
 
 ```
-using (HttpClient httpClient = new HttpClient())
- {
+URL url = new URL(url);
+ HttpURLConnection httpClient = (HttpURLConnection) url.openConnection();
+ try {
      AsposeAIWebClient aiClient = new AsposeAIWebClient(httpClient);
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (httpClient != null) httpClient.disconnect();
  }
 ``` |
+
 ### AsposeAIWebClient(String url) {#AsposeAIWebClient-java.lang.String-}
 ```
 public AsposeAIWebClient(String url)
 ```
 
-Létrehozza az Aspose AI webkliens egy példányát, amely egy egyéni végpont URL-hez csatlakozik. Ezt a túlterhelést akkor használja, ha az Aspose.Slides csapat által megadott URL-vel rendelkezik; egyébként használja az AsposeAIWebClient() túlterhelést az alapértelmezett URL-lel.
-
-**Paraméterek:**
-| Paraméter | Típus | Leírás |
-| --- | --- | --- |
-| url | java.lang.String | Az Aspose LLM végpont URL-je, amelyet az Aspose.Slides csapat biztosít.
-
-```
-using (AsposeAIWebClient aiClient = new AsposeAIWebClient(customUrl))
- {
-     SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
-     }
- }
-``` |
-### AsposeAIWebClient(String url, HttpURLConnection httpClient) {#AsposeAIWebClient-java.lang.String-java.net.HttpURLConnection-}
-```
-public AsposeAIWebClient(String url, HttpURLConnection httpClient)
-```
-
-Létrehozza az Aspose AI webkliens egy példányát, amely egy egyéni végpont URL-hez csatlakozik egy külsőleg kezelt HttpClient használatával. A biztosított HttpClient-et ez a példány nem zárja le, és a hívó marad a tulajdonosa. Ezt a túlterhelést akkor használja, ha az Aspose.Slides csapat által megadott URL-vel rendelkezik, és saját HttpClient-et szeretne biztosítani; ha csak a saját HttpClient-re van szüksége az alapértelmezett URL-lel, használja az AsposeAIWebClient(HttpClient) túlterhelést.
+Létrehoz egy példányt az Aspose AI webkliensből, amely egy egyedi végpont URL-hez csatlakozik. Használd ezt a túlterhelést, ha az Aspose.Slides csapat által biztosított URL-t használod; ellenkező esetben használd a  AsposeAIWebClient()  túlterhelést az alapértelmezett URL-lel.
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
 | url | java.lang.String | Az Aspose LLM végpont URL-je, amelyet az Aspose.Slides csapat biztosít. |
-| httpClient | java.net.HttpURLConnection | Külsőleg kezelt HttpClient példány.
 
 ```
-using (HttpClient httpClient = new HttpClient())
- {
-     AsposeAIWebClient aiClient = new AsposeAIWebClient(customUrl, httpClient);
+AsposeAIWebClient aiClient = new AsposeAIWebClient(customUrl);
+ try {
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (aiClient != null) aiClient.dispose();
  }
 ``` |
+
+### AsposeAIWebClient(String url, HttpURLConnection httpClient) {#AsposeAIWebClient-java.lang.String-java.net.HttpURLConnection-}
+```
+public AsposeAIWebClient(String url, HttpURLConnection httpClient)
+```
+
+Létrehoz egy példányt az Aspose AI webkliensből, amely egy egyedi végpont URL-hez csatlakozik egy külsőleg kezelt HttpURLConnection használatával. A megadott HttpURLConnection-t ez a példány nem zárja le, és a hívó marad annak tulajdonosa. Használd ezt a túlterhelést, ha az Aspose.Slides csapat által biztosított URL-t szeretnéd saját HttpURLConnection-oddal ellátni; ha csak a saját HttpURLConnection-t akarod az alapértelmezett URL-lel, akkor használd az AsposeAIWebClient(HttpURLConnection) túlterhelést.
+
+**Paraméterek:**
+| Paraméter | Típus | Leírás |
+| --- | --- | --- |
+| url | java.lang.String | Az Aspose LLM végpont URL-je, amelyet az Aspose.Slides csapat biztosít. |
+| httpClient | java.net.HttpURLConnection | Külsőleg kezelt HttpURLConnection példány. |
+
+```
+URL url = new URL(url);
+ HttpURLConnection httpClient = (HttpURLConnection) url.openConnection();
+ try {
+     AsposeAIWebClient aiClient = new AsposeAIWebClient(customUrl, httpClient);
+     SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
+     }
+ } finally {
+     if (httpClient != null) httpClient.disconnect();
+ }
+``` |
+
 ### callChat(String instruction) {#callChat-java.lang.String-}
 ```
 public String callChat(String instruction)
 ```
 
-Egy csevegési utasítást küld az AI modellnek a megadott HttpConnection példány használatával, és visszaadja a válaszüzenetet az adott utasításra.
+Chatutasítást küld az AI modellnek, és visszaadja a válaszüzenetet a megadott utasításra.
 
 **Paraméterek:**
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| instruction | java.lang.String |  |
+| instruction | java.lang.String | Az AI modell által feldolgozandó utasítás vagy üzenet. |
 
 **Visszatérési érték:**
-java.lang.String
+java.lang.String - Az AI modell által a megadott utasításra generált üzenet.
+
 ### createConversation() {#createConversation--}
 ```
 public final IAIConversation createConversation()
 ```
 
-Létrehoz egy beszélgetéspéldányt. A normál AI hívásokhoz képest a beszélgetések az egész kontextust megtartják.
+Létrehoz egy beszélgetés példányt. A szokásos AI hívásokkal ellentétben a beszélgetések megőrzik a teljes kontextust.
 
 **Visszatérési érték:**
 [IAIConversation](../../com.aspose.slides/iaiconversation) - Egy [IAIConversation](../../com.aspose.slides/iaiconversation) példány.
+
 ### dispose() {#dispose--}
 ```
 public final void dispose()
