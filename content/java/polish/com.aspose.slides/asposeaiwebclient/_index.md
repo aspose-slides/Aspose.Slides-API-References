@@ -1,35 +1,35 @@
 ---
 title: AsposeAIWebClient
-second_title: Aspose.Slides dla Java - Referencja API
+second_title: Aspose.Slides dla Java - odniesienie API
 description: Wbudowana implementacja, która łączy się z własnym LLM firmy Aspose.
 type: docs
 url: /pl/com.aspose.slides/asposeaiwebclient/
 ---
-**Dziedziczenie:**  
+**Dziedziczenie:**
 java.lang.Object
 
-**Wszystkie zaimplementowane interfejsy:**  
-[com.aspose.slides.IAIWebClient](../../com.aspose.slides/iaiwebclient), com.aspose.ms.System.IDisposable  
+**Wszystkie zaimplementowane interfejsy:**
+[com.aspose.slides.IAIWebClient](../../com.aspose.slides/iaiwebclient), com.aspose.ms.System.IDisposable
 ```
 public final class AsposeAIWebClient implements IAIWebClient, System.IDisposable
 ```
 
-Wbudowana [IAIWebClient](../../com.aspose.slides/iaiwebclient) implementacja, która łączy się z własnym LLM firmy Aspose. Jest to domyślny klient używany przez konstruktor SlidesAIAgent() bez parametrów.
+Wbudowana implementacja [IAIWebClient](../../com.aspose.slides/iaiwebclient) łączy się z własnym LLM firmy Aspose. Jest to domyślny klient używany przez konstruktor bezparametrowy  SlidesAIAgent()  .
 
 ## Konstruktory
 
 | Konstruktor | Opis |
 | --- | --- |
-| [AsposeAIWebClient()](#AsposeAIWebClient--) | Tworzy instancję klienta sieciowego Aspose AI, który łączy się z domyślnym punktem końcowym Aspose LLM. |
-| [AsposeAIWebClient(HttpURLConnection httpClient)](#AsposeAIWebClient-java.net.HttpURLConnection-) | Tworzy instancję klienta sieciowego Aspose AI, który łączy się z domyślnym punktem końcowym Aspose LLM przy użyciu zarządzanego zewnętrznie HttpClient. |
-| [AsposeAIWebClient(String url)](#AsposeAIWebClient-java.lang.String-) | Tworzy instancję klienta sieciowego Aspose AI, który łączy się z niestandardowym adresem URL punktu końcowego. |
-| [AsposeAIWebClient(String url, HttpURLConnection httpClient)](#AsposeAIWebClient-java.lang.String-java.net.HttpURLConnection-) | Tworzy instancję klienta sieciowego Aspose AI, który łączy się z niestandardowym adresem URL punktu końcowego przy użyciu zarządzanego zewnętrznie HttpClient. |
+| [AsposeAIWebClient()](#AsposeAIWebClient--) | Tworzy instancję klienta webowego Aspose AI, który łączy się z domyślnym punktem końcowym Aspose LLM. |
+| [AsposeAIWebClient(HttpURLConnection httpClient)](#AsposeAIWebClient-java.net.HttpURLConnection-) | Tworzy instancję klienta webowego Aspose AI, który łączy się z domyślnym punktem końcowym Aspose LLM przy użyciu zewnętrznie zarządzanego  HttpURLConnection . |
+| [AsposeAIWebClient(String url)](#AsposeAIWebClient-java.lang.String-) | Tworzy instancję klienta webowego Aspose AI, który łączy się z niestandardowym URL punktu końcowego. |
+| [AsposeAIWebClient(String url, HttpURLConnection httpClient)](#AsposeAIWebClient-java.lang.String-java.net.HttpURLConnection-) | Tworzy instancję klienta webowego Aspose AI, który łączy się z niestandardowym URL punktu końcowego przy użyciu zewnętrznie zarządzanego  HttpURLConnection . |
 
 ## Metody
 
 | Metoda | Opis |
 | --- | --- |
-| [callChat(String instruction)](#callChat-java.lang.String-) |  |
+| [callChat(String instruction)](#callChat-java.lang.String-) | Wysyła instrukcję czatu do modelu AI i zwraca wiadomość odpowiedzi na podaną instrukcję. |
 | [createConversation()](#createConversation--) | Tworzy instancję konwersacji. |
 | [dispose()](#dispose--) | Zwalnia zasoby używane przez tę instancję. |
 
@@ -38,17 +38,21 @@ Wbudowana [IAIWebClient](../../com.aspose.slides/iaiwebclient) implementacja, kt
 public AsposeAIWebClient()
 ```
 
-Tworzy instancję klienta sieciowego Aspose AI, który łączy się z domyślnym punktem końcowym Aspose LLM. Jest to klient używany przez konstruktor SlidesAIAgent() bez parametrów, więc tworzenie go explicite jest wymagane jedynie w przypadku przekazania klienta bezpośrednio do konstruktora SlidesAIAgent(IAIWebClient)  bezpośrednio.
+Tworzy instancję klienta webowego Aspose AI, który łączy się z domyślnym punktem końcowym Aspose LLM. Jest to klient używany przez konstruktor bezparametrowy  SlidesAIAgent() , więc tworzenie go jawnie jest wymagane tylko wtedy, gdy klient jest przekazywany bezpośrednio do konstruktora  SlidesAIAgent(IAIWebClient) .
 
 ```
-using (AsposeAIWebClient aiClient = new AsposeAIWebClient())
- {
+AsposeAIWebClient aiClient = new AsposeAIWebClient();
+ try {
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (aiClient != null) aiClient.dispose();
  }
 ```
 
@@ -57,23 +61,28 @@ using (AsposeAIWebClient aiClient = new AsposeAIWebClient())
 public AsposeAIWebClient(HttpURLConnection httpClient)
 ```
 
-Tworzy instancję klienta sieciowego Aspose AI, który łączy się z domyślnym punktem końcowym Aspose LLM przy użyciu zarządzanego zewnętrznie HttpClient. Dostarczony HttpClient nie jest zwalniany przez tę instancję i pozostaje własnością wywołującego.
+Tworzy instancję klienta webowego Aspose AI, który łączy się z domyślnym punktem końcowym Aspose LLM przy użyciu zewnętrznie zarządzanego  HttpURLConnection . Dostarczony  HttpURLConnection  nie jest zwalniany przez tę instancję i pozostaje własnością wywołującego.
 
 **Parametry:**
 | Parametr | Typ | Opis |
 | --- | --- | --- |
-| httpClient | java.net.HttpURLConnection | Zarządzana zewnętrznie instancja HttpClient. |
+| httpClient | java.net.HttpURLConnection | Instancja zewnętrznie zarządzanego  HttpURLConnection . |
 
 ```
-using (HttpClient httpClient = new HttpClient())
- {
+URL url = new URL(url);
+ HttpURLConnection httpClient = (HttpURLConnection) url.openConnection();
+ try {
      AsposeAIWebClient aiClient = new AsposeAIWebClient(httpClient);
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (httpClient != null) httpClient.disconnect();
  }
 ``` |
 
@@ -82,22 +91,26 @@ using (HttpClient httpClient = new HttpClient())
 public AsposeAIWebClient(String url)
 ```
 
-Tworzy instancję klienta sieciowego Aspose AI, który łączy się z niestandardowym adresem URL punktu końcowego. Użyj tego przeciążenia, gdy posiadasz URL dostarczony przez zespół Aspose.Slides; w przeciwnym razie użyj przeciążenia AsposeAIWebClient() z domyślnym URL.
+Tworzy instancję klienta webowego Aspose AI, który łączy się z niestandardowym URL punktu końcowego. Użyj tego przeciążenia, gdy masz URL dostarczony przez zespół Aspose.Slides; w przeciwnym razie użyj przeciążenia  AsposeAIWebClient()  z domyślnym URL.
 
 **Parametry:**
 | Parametr | Typ | Opis |
 | --- | --- | --- |
-| url | java.lang.String | Adres URL punktu końcowego Aspose LLM, dostarczony przez zespół Aspose.Slides. |
+| url | java.lang.String | URL punktu końcowego Aspose LLM, dostarczony przez zespół Aspose.Slides. |
 
 ```
-using (AsposeAIWebClient aiClient = new AsposeAIWebClient(customUrl))
- {
+AsposeAIWebClient aiClient = new AsposeAIWebClient(customUrl);
+ try {
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (aiClient != null) aiClient.dispose();
  }
 ``` |
 
@@ -106,24 +119,29 @@ using (AsposeAIWebClient aiClient = new AsposeAIWebClient(customUrl))
 public AsposeAIWebClient(String url, HttpURLConnection httpClient)
 ```
 
-Tworzy instancję klienta sieciowego Aspose AI, który łączy się z niestandardowym adresem URL punktu końcowego przy użyciu zarządzanego zewnętrznie HttpClient. Dostarczony HttpClient nie jest zwalniany przez tę instancję i pozostaje własnością wywołującego. Użyj tego przeciążenia, gdy posiadasz URL dostarczony przez zespół Aspose.Slides i chcesz podać własny HttpClient; jeśli potrzebujesz własny HttpClient tylko z domyślnym URL, użyj przeciążenia AsposeAIWebClient(HttpClient).
+Tworzy instancję klienta webowego Aspose AI, który łączy się z niestandardowym URL punktu końcowego przy użyciu zewnętrznie zarządzanego  HttpURLConnection . Dostarczony  HttpURLConnection  nie jest zwalniany przez tę instancję i pozostaje własnością wywołującego. Użyj tego przeciążenia, gdy masz URL dostarczony przez zespół Aspose.Slides i chcesz dostarczyć własny  HttpURLConnection ; jeśli potrzebujesz własnego  HttpURLConnection  z domyślnym URL, użyj przeciążenia  AsposeAIWebClient(HttpURLConnection)  zamiast tego.
 
 **Parametry:**
 | Parametr | Typ | Opis |
 | --- | --- | --- |
-| url | java.lang.String | Adres URL punktu końcowego Aspose LLM, dostarczony przez zespół Aspose.Slides. |
-| httpClient | java.net.HttpURLConnection | Zarządzana zewnętrznie instancja HttpClient. |
+| url | java.lang.String | URL punktu końcowego Aspose LLM, dostarczony przez zespół Aspose.Slides. |
+| httpClient | java.net.HttpURLConnection | Instancja zewnętrznie zarządzanego  HttpURLConnection . |
 
 ```
-using (HttpClient httpClient = new HttpClient())
- {
+URL url = new URL(url);
+ HttpURLConnection httpClient = (HttpURLConnection) url.openConnection();
+ try {
      AsposeAIWebClient aiClient = new AsposeAIWebClient(customUrl, httpClient);
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (httpClient != null) httpClient.disconnect();
  }
 ``` |
 
@@ -132,15 +150,15 @@ using (HttpClient httpClient = new HttpClient())
 public String callChat(String instruction)
 ```
 
-Wysyła instrukcję czatu do modelu AI przy użyciu dostarczonej instancji HttpConnection i zwraca wiadomość odpowiedzi na podaną instrukcję.
+Wysyła instrukcję czatu do modelu AI i zwraca wiadomość odpowiedzi na podaną instrukcję.
 
 **Parametry:**
 | Parametr | Typ | Opis |
 | --- | --- | --- |
-| instruction | java.lang.String |  |
+| instruction | java.lang.String | Instrukcja lub wiadomość do przetworzenia przez model AI. |
 
 **Zwraca:**
-java.lang.String
+java.lang.String - Wiadomość wygenerowana przez model AI w odpowiedzi na podaną instrukcję.
 
 ### createConversation() {#createConversation--}
 ```

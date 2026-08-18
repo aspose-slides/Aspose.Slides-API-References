@@ -1,7 +1,7 @@
 ---
 title: OpenAICompatibleWebClient
-second_title: Aspose.Slides dla Java – Dokumentacja API
-description: Wbudowana implementacja, która łączy się z dostawcą LLM zgodnym z OpenAI pod określonym podstawowym adresem URL.
+second_title: Aspose.Slides dla Java – dokumentacja API
+description: Wbudowana implementacja, która łączy się z dostawcą LLM kompatybilnym z OpenAI pod określonym adresem bazowym URL.
 type: docs
 url: /pl/com.aspose.slides/openaicompatiblewebclient/
 ---
@@ -14,42 +14,50 @@ java.lang.Object
 public final class OpenAICompatibleWebClient implements IAIWebClient, System.IDisposable
 ```
 
-Wbudowana [IAIWebClient](../../com.aspose.slides/iaiwebclient) implementacja, która łączy się z dostawcą LLM zgodnym z OpenAI pod określonym podstawowym adresem URL.
+Wbudowana implementacja [IAIWebClient](../../com.aspose.slides/iaiwebclient) łącząca się z dostawcą LLM kompatybilnym z OpenAI pod określonym adresem bazowym URL.
+
 ## Konstruktory
 
 | Konstruktor | Opis |
 | --- | --- |
-| [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-) | Tworzy instancję klienta internetowego zgodnego z OpenAI. |
-| [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl, HttpURLConnection httpClient)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | Tworzy instancję klienta internetowego zgodnego z OpenAI, który używa zewnętrznie zarządzanego HttpClient. |
+| [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-) | Tworzy instancję klienta sieciowego kompatybilnego z OpenAI. |
+| [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl, HttpURLConnection httpClient)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | Tworzy instancję klienta sieciowego kompatybilnego z OpenAI, który używa zewnętrznie zarządzanego HttpURLConnection. |
+
 ## Metody
 
 | Metoda | Opis |
 | --- | --- |
-| [callChat(String instruction)](#callChat-java.lang.String-) |  |
-| [createConversation()](#createConversation--) | Tworzy instancję konwersacji. |
+| [callChat(String instruction)](#callChat-java.lang.String-) | Wysyła instrukcję czatu do modelu AI przy użyciu zewnętrznie zarządzanej instancji HttpURLConnection i zwraca wiadomość odpowiedzi na podaną instrukcję. |
+| [createConversation()](#createConversation--) | Tworzy instancję rozmowy. |
 | [dispose()](#dispose--) | Zwalnia zasoby używane przez tę instancję. |
+
 ### OpenAICompatibleWebClient(String model, String apiKey, String baseUrl) {#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-}
 ```
 public OpenAICompatibleWebClient(String model, String apiKey, String baseUrl)
 ```
 
-Tworzy instancję klienta internetowego zgodnego z OpenAI.
+Tworzy instancję klienta sieciowego kompatybilnego z OpenAI.
 
 **Parametry:**
 | Parametr | Typ | Opis |
 | --- | --- | --- |
 | model | java.lang.String | Nazwa modelu obsługiwanego przez dostawcę LLM. |
 | apiKey | java.lang.String | Klucz API (token). |
-| baseUrl | java.lang.String | Podstawowy adres URL zgodnego z OpenAI LLM. |
+| baseUrl | java.lang.String | Adres bazowy URL LLM kompatybilnego z OpenAI. |
 ```
-using (OpenAICompatibleWebClient aiClient = new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1"))
- {
+OpenAICompatibleWebClient aiClient =
+         new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1");
+ try {
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (aiClient != null) aiClient.dispose();
  }
 ``` |
 
@@ -58,25 +66,31 @@ using (OpenAICompatibleWebClient aiClient = new OpenAICompatibleWebClient("model
 public OpenAICompatibleWebClient(String model, String apiKey, String baseUrl, HttpURLConnection httpClient)
 ```
 
-Tworzy instancję klienta internetowego zgodnego z OpenAI, który używa zewnętrznie zarządzanego HttpClient. Dostarczony HttpClient nie jest zwalniany przez tę instancję i pozostaje własnością wywołującego.
+Tworzy instancję klienta sieciowego kompatybilnego z OpenAI, który używa zewnętrznie zarządzanego HttpURLConnection. Dostarczony HttpURLConnection nie jest zwalniany przez tę instancję i pozostaje własnością wywołującego.
 
 **Parametry:**
 | Parametr | Typ | Opis |
 | --- | --- | --- |
 | model | java.lang.String | Nazwa modelu obsługiwanego przez dostawcę LLM. |
 | apiKey | java.lang.String | Klucz API (token). |
-| baseUrl | java.lang.String | Podstawowy adres URL zgodnego z OpenAI LLM. |
-| httpClient | java.net.HttpURLConnection | Instancja HttpClient zarządzana zewnętrznie. |
+| baseUrl | java.lang.String | Adres bazowy URL LLM kompatybilnego z OpenAI. |
+| httpClient | java.net.HttpURLConnection | Instancja zewnętrznie zarządzanego HttpURLConnection. |
 ```
-using (HttpClient httpClient = new HttpClient())
- {
-     OpenAICompatibleWebClient aiClient = new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1", httpClient);
+URL url = new URL(url);
+ HttpURLConnection httpClient = (HttpURLConnection) url.openConnection();
+ try {
+     OpenAICompatibleWebClient aiClient =
+             new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1", httpClient);
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (httpClient != null) httpClient.disconnect();
  }
 ``` |
 
@@ -85,24 +99,26 @@ using (HttpClient httpClient = new HttpClient())
 public String callChat(String instruction)
 ```
 
-Wysyła instrukcję czatu do modelu AI przy użyciu dostarczonej instancji HttpConnection i zwraca wiadomość odpowiedzi na podaną instrukcję.
+Wysyła instrukcję czatu do modelu AI przy użyciu zewnętrznie zarządzanej instancji HttpURLConnection i zwraca wiadomość odpowiedzi na podaną instrukcję.
 
 **Parametry:**
 | Parametr | Typ | Opis |
 | --- | --- | --- |
-| instruction | java.lang.String |  |
+| instruction | java.lang.String | Instrukcja lub wiadomość do przetworzenia przez model AI. |
 
 **Zwraca:**
-java.lang.String
+java.lang.String - Wiadomość wygenerowana przez model AI w odpowiedzi na podaną instrukcję.
+
 ### createConversation() {#createConversation--}
 ```
-public final IAIConversation createConversation()
-```
+public final IIAConversation createConversation()
+```}
 
-Tworzy instancję konwersacji. W przeciwieństwie do standardowych wywołań AI, konwersacje zachowują cały kontekst.
+Tworzy instancję rozmowy. W przeciwieństwie do zwykłych wywołań AI, rozmowy zachowują pełny kontekst.
 
 **Zwraca:**
 [IAIConversation](../../com.aspose.slides/iaiconversation) - Instancja [IAIConversation](../../com.aspose.slides/iaiconversation).
+
 ### dispose() {#dispose--}
 ```
 public final void dispose()

@@ -1,6 +1,6 @@
 ---
 title: Html5Options
-second_title: Aspose.Slides dla Java – dokumentacja API
+second_title: Aspose.Slides dla Java - odniesienie API
 description: Reprezentuje opcje eksportu HTML5.
 type: docs
 url: /pl/com.aspose.slides/html5options/
@@ -32,42 +32,44 @@ Reprezentuje opcje eksportu HTML5.
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-## Constructors
+## Konstruktorzy
 
-| Constructor | Description |
+| Konstruktor | Opis |
 | --- | --- |
-| [Html5Options()](#Html5Options--) | Default constructor. |
-## Methods
+| [Html5Options()](#Html5Options--) | Domyślny konstruktor. |
+## Metody
 
-| Method | Description |
+| Metoda | Opis |
 | --- | --- |
-| [getAnimateTransitions()](#getAnimateTransitions--) | Returns or sets transitions animation option. |
-| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | Returns or sets transitions animation option. |
-| [getAnimateShapes()](#getAnimateShapes--) | Returns or sets shapes animation option. |
-| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Returns or sets shapes animation option. |
-| [getEmbedImages()](#getEmbedImages--) | Returns or sets images embedding option. |
-| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Returns or sets images embedding option. |
-| [getOutputPath()](#getOutputPath--) | Determines where external resources should be stored. |
-| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Determines where external resources should be stored. |
-| [getPicturesCompression()](#getPicturesCompression--) | Represents the pictures compression level |
-| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Represents the pictures compression level |
-| [getDisableFontLigatures()](#getDisableFontLigatures--) | Gets or sets a value indicating whether text is rendered without using ligatures. |
-| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Gets or sets a value indicating whether text is rendered without using ligatures. |
-| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
-| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [getAnimateTransitions()](#getAnimateTransitions--) | Zwraca lub ustawia opcję animacji przejść. |
+| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | Zwraca lub ustawia opcję animacji przejść. |
+| [getAnimateShapes()](#getAnimateShapes--) | Zwraca lub ustawia opcję animacji kształtów. |
+| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Zwraca lub ustawia opcję animacji kształtów. |
+| [getEmbedImages()](#getEmbedImages--) | Zwraca lub ustawia opcję osadzania obrazów. |
+| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Zwraca lub ustawia opcję osadzania obrazów. |
+| [getOutputPath()](#getOutputPath--) | Określa, gdzie powinny być przechowywane zasoby zewnętrzne. |
+| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Określa, gdzie powinny być przechowywane zasoby zewnętrzne. |
+| [getPicturesCompression()](#getPicturesCompression--) | Reprezentuje poziom kompresji obrazów |
+| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Reprezentuje poziom kompresji obrazów |
+| [getDisableFontLigatures()](#getDisableFontLigatures--) | Pobiera lub ustawia wartość określającą, czy tekst jest renderowany bez użycia ligatur. |
+| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Pobiera lub ustawia wartość określającą, czy tekst jest renderowany bez użycia ligatur. |
+| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Pobiera lub ustawia tryb, w którym slajdy są umieszczane na stronie przy eksportowaniu prezentacji [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Pobiera lub ustawia tryb, w którym slajdy są umieszczane na stronie przy eksportowaniu prezentacji [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 ### Html5Options() {#Html5Options--}
 ```
 public Html5Options()
 ```
 
-Default constructor.
+
+Domyślny konstruktor.
 
 ### getAnimateTransitions() {#getAnimateTransitions--}
 ```
 public final boolean getAnimateTransitions()
 ```
 
-Returns or sets transitions animation option. Read/write boolean.
+
+Zwraca lub ustawia opcję animacji przejść. Odczyt/zapis boolean.
 
 --------------------
 
@@ -85,14 +87,15 @@ Returns or sets transitions animation option. Read/write boolean.
 >  }
 > ```
 
-**Returns:**
+**Zwraca:**
 boolean
 ### setAnimateTransitions(boolean value) {#setAnimateTransitions-boolean-}
 ```
 public final void setAnimateTransitions(boolean value)
 ```
 
-Returns or sets transitions animation option. Read/write boolean.
+
+Zwraca lub ustawia opcję animacji przejść. Odczyt/zapis boolean.
 
 --------------------
 
@@ -110,7 +113,7 @@ Returns or sets transitions animation option. Read/write boolean.
 >  }
 > ```
 
-**Parameters:**
+**Parametry:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
@@ -120,7 +123,8 @@ Returns or sets transitions animation option. Read/write boolean.
 public final boolean getAnimateShapes()
 ```
 
-Returns or sets shapes animation option. Read/write boolean.
+
+Zwraca lub ustawia opcję animacji kształtów. Odczyt/zapis boolean.
 
 --------------------
 
@@ -138,14 +142,15 @@ Returns or sets shapes animation option. Read/write boolean.
 >  }
 > ```
 
-**Returns:**
+**Zwraca:**
 boolean
 ### setAnimateShapes(boolean value) {#setAnimateShapes-boolean-}
 ```
 public final void setAnimateShapes(boolean value)
 ```
 
-Returns or sets shapes animation option. Read/write boolean.
+
+Zwraca lub ustawia opcję animacji kształtów. Odczyt/zapis boolean.
 
 --------------------
 
@@ -163,7 +168,7 @@ Returns or sets shapes animation option. Read/write boolean.
 >  }
 > ```
 
-**Parameters:**
+**Parametry:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
@@ -173,7 +178,8 @@ Returns or sets shapes animation option. Read/write boolean.
 public final boolean getEmbedImages()
 ```
 
-Returns or sets images embedding option. Read/write boolean.
+
+Zwraca lub ustawia opcję osadzania obrazów. Odczyt/zapis boolean.
 
 --------------------
 
@@ -190,14 +196,15 @@ Returns or sets images embedding option. Read/write boolean.
 >  }
 > ```
 
-**Returns:**
+**Zwraca:**
 boolean
 ### setEmbedImages(boolean value) {#setEmbedImages-boolean-}
 ```
 public final void setEmbedImages(boolean value)
 ```
 
-Returns or sets images embedding option. Read/write boolean.
+
+Zwraca lub ustawia opcję osadzania obrazów. Odczyt/zapis boolean.
 
 --------------------
 
@@ -214,7 +221,7 @@ Returns or sets images embedding option. Read/write boolean.
 >  }
 > ```
 
-**Parameters:**
+**Parametry:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
@@ -224,6 +231,7 @@ Returns or sets images embedding option. Read/write boolean.
 public final String getOutputPath()
 ```
 
+
 Określa, gdzie powinny być przechowywane zasoby zewnętrzne. Odczyt/zapis String.
 
 --------------------
@@ -242,13 +250,14 @@ Określa, gdzie powinny być przechowywane zasoby zewnętrzne. Odczyt/zapis Stri
 >  }
 > ```
 
-**Returns:**
+**Zwraca:**
 java.lang.String
 ### setOutputPath(String value) {#setOutputPath-java.lang.String-}
 ```
 public final void setOutputPath(String value)
 ```
 
+
 Określa, gdzie powinny być przechowywane zasoby zewnętrzne. Odczyt/zapis String.
 
 --------------------
@@ -267,7 +276,7 @@ Określa, gdzie powinny być przechowywane zasoby zewnętrzne. Odczyt/zapis Stri
 >  }
 > ```
 
-**Parameters:**
+**Parametry:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
@@ -277,18 +286,20 @@ Określa, gdzie powinny być przechowywane zasoby zewnętrzne. Odczyt/zapis Stri
 public final int getPicturesCompression()
 ```
 
+
 Reprezentuje poziom kompresji obrazów
 
-**Returns:**
+**Zwraca:**
 int
 ### setPicturesCompression(int value) {#setPicturesCompression-int-}
 ```
 public final void setPicturesCompression(int value)
 ```
 
+
 Reprezentuje poziom kompresji obrazów
 
-**Parameters:**
+**Parametry:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
@@ -298,7 +309,8 @@ Reprezentuje poziom kompresji obrazów
 public final boolean getDisableFontLigatures()
 ```
 
-Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false.
+
+Pobiera lub ustawia wartość określającą, czy tekst jest renderowany bez użycia ligatur. Gdy ustawione na true, ligatury zostaną wyłączone w renderowanym wyjściu. Domyślnie właściwość ma wartość false.
 
 --------------------
 
@@ -316,13 +328,15 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 >  }
 > ```
 
-**Returns:**
+**Zwraca:**
 boolean
 ### setDisableFontLigatures(boolean value) {#setDisableFontLigatures-boolean-}
 ```
 public final void setDisableFontLigatures(boolean value)
 ```
-Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false.
+
+
+Pobiera lub ustawia wartość określającą, czy tekst jest renderowany bez użycia ligatur. Gdy ustawione na true, ligatury zostaną wyłączone w renderowanym wyjściu. Domyślnie właściwość ma wartość false.
 
 --------------------
 
@@ -340,7 +354,7 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 >  }
 > ```
 
-**Parameters:**
+**Parametry:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
@@ -350,7 +364,8 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 public final ISlidesLayoutOptions getSlidesLayoutOptions()
 ```
 
-Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+
+Pobiera lub ustawia tryb, w którym slajdy są umieszczane na stronie przy eksportowaniu prezentacji [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
 
@@ -370,14 +385,15 @@ Gets or sets the mode in which slides are placed on the page when exporting a pr
 >  }
 > ```
 
-**Returns:**
+**Zwraca:**
 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)
 ### setSlidesLayoutOptions(ISlidesLayoutOptions value) {#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-}
 ```
 public final void setSlidesLayoutOptions(ISlidesLayoutOptions value)
+```
 
 
-Pobiera lub ustawia tryb, w jakim slajdy są rozmieszczane na stronie podczas eksportu prezentacji [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+Pobiera lub ustawia tryb, w którym slajdy są umieszczane na stronie przy eksportowaniu prezentacji [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
 
@@ -398,6 +414,6 @@ Pobiera lub ustawia tryb, w jakim slajdy są rozmieszczane na stronie podczas ek
 > ```
 
 **Parametry:**
-| Parametr | Typ | Opis |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) |  |

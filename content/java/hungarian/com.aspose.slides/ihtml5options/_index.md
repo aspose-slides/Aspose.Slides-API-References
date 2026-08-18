@@ -1,17 +1,17 @@
 ---
 title: IHtml5Options
-second_title: Aspose.Slides for Java API-referencia
-description: HTML5 exportálási beállításokat reprezentál.
+second_title: Aspose.Slides Java API referencia
+description: HTML5 exportálási beállításokat képviseli.
 type: docs
 url: /hu/com.aspose.slides/ihtml5options/
 ---
-**Minden megvalósított interfész:**
+**Az összes megvalósított interfész:**
 [com.aspose.slides.ISaveOptions](../../com.aspose.slides/isaveoptions)
 ```
 public interface IHtml5Options extends ISaveOptions
 ```
 
-HTML5 exportálási beállításokat reprezentál.
+HTML5 exportálási beállításokat képviseli.
 
 --------------------
 
@@ -29,30 +29,31 @@ HTML5 exportálási beállításokat reprezentál.
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-## Methods
+## Metódusok
 
-| Method | Description |
+| Metódus | Leírás |
 | --- | --- |
-| [getAnimateTransitions()](#getAnimateTransitions--) | Returns or sets transitions animation option. |
-| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | Returns or sets transitions animation option. |
-| [getAnimateShapes()](#getAnimateShapes--) | Returns or sets shapes animation option. |
-| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Returns or sets shapes animation option. |
-| [getEmbedImages()](#getEmbedImages--) | Returns or sets images embedding option. |
-| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Returns or sets images embedding option. |
-| [getOutputPath()](#getOutputPath--) | Determines where external resources should be stored. |
-| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Determines where external resources should be stored. |
-| [getPicturesCompression()](#getPicturesCompression--) | Represents the pictures compression level Read/write  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
-| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Represents the pictures compression level Read/write  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
-| [getDisableFontLigatures()](#getDisableFontLigatures--) | Gets or sets a value indicating whether text is rendered without using ligatures. |
-| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Gets or sets a value indicating whether text is rendered without using ligatures. |
-| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
-| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [getAnimateTransitions()](#getAnimateTransitions--) | Lekérdezi vagy beállítja a tranzíciók animációjának beállítását. |
+| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | Lekérdezi vagy beállítja a tranzíciók animációjának beállítását. |
+| [getAnimateShapes()](#getAnimateShapes--) | Lekérdezi vagy beállítja a formák animációjának beállítását. |
+| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Lekérdezi vagy beállítja a formák animációjának beállítását. |
+| [getEmbedImages()](#getEmbedImages--) | Lekérdezi vagy beállítja a képek beágyazásának beállítását. |
+| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Lekérdezi vagy beállítja a képek beágyazásának beállítását. |
+| [getOutputPath()](#getOutputPath--) | Meghatározza, hogy a külső erőforrások hol legyenek tárolva. |
+| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Meghatározza, hogy a külső erőforrások hol legyenek tárolva. |
+| [getPicturesCompression()](#getPicturesCompression--) | Kép tömörítési szintet képviseli Read/write  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
+| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Kép tömörítési szintet képviseli Read/write  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
+| [getDisableFontLigatures()](#getDisableFontLigatures--) | Lekérdezi vagy beállítja, hogy a szöveget ligatúrák használata nélkül renderelje. |
+| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Lekérdezi vagy beállítja, hogy a szöveget ligatúrák használata nélkül renderelje. |
+| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Lekérdezi vagy beállítja a módot, ahogyan a diák az oldalra kerülnek a prezentáció exportálásakor [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Lekérdezi vagy beállítja a módot, ahogyan a diák az oldalra kerülnek a prezentáció exportálásakor [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 ### getAnimateTransitions() {#getAnimateTransitions--}
 ```
 public abstract boolean getAnimateTransitions()
 ```
 
-Returns or sets transitions animation option. Read/write boolean.
+
+Lekérdezi vagy beállítja a tranzíciók animációjának beállítását. Read/write boolean.
 
 --------------------
 
@@ -70,14 +71,15 @@ Returns or sets transitions animation option. Read/write boolean.
 >  }
 > ```
 
-**Returns:**
+**Visszatérési érték:**
 boolean
 ### setAnimateTransitions(boolean value) {#setAnimateTransitions-boolean-}
 ```
 public abstract void setAnimateTransitions(boolean value)
 ```
 
-Returns or sets transitions animation option. Read/write boolean.
+
+Lekérdezi vagy beállítja a tranzíciók animációjának beállítását. Read/write boolean.
 
 --------------------
 
@@ -95,8 +97,8 @@ Returns or sets transitions animation option. Read/write boolean.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**Paraméterek:**
+| Paraméter | Típus | Leírás |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -105,7 +107,8 @@ Returns or sets transitions animation option. Read/write boolean.
 public abstract boolean getAnimateShapes()
 ```
 
-Returns or sets shapes animation option. Read/write boolean.
+
+Lekérdezi vagy beállítja a formák animációjának beállítását. Read/write boolean.
 
 --------------------
 
@@ -123,14 +126,15 @@ Returns or sets shapes animation option. Read/write boolean.
 >  }
 > ```
 
-**Returns:**
+**Visszatérési érték:**
 boolean
 ### setAnimateShapes(boolean value) {#setAnimateShapes-boolean-}
 ```
 public abstract void setAnimateShapes(boolean value)
 ```
 
-Returns or sets shapes animation option. Read/write boolean.
+
+Lekérdezi vagy beállítja a formák animációjának beállítását. Read/write boolean.
 
 --------------------
 
@@ -148,8 +152,8 @@ Returns or sets shapes animation option. Read/write boolean.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**Paraméterek:**
+| Paraméter | Típus | Leírás |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -158,7 +162,8 @@ Returns or sets shapes animation option. Read/write boolean.
 public abstract boolean getEmbedImages()
 ```
 
-Returns or sets images embedding option. Read/write boolean.
+
+Lekérdezi vagy beállítja a képek beágyazásának beállítását. Read/write boolean.
 
 --------------------
 
@@ -175,14 +180,15 @@ Returns or sets images embedding option. Read/write boolean.
 >  }
 > ```
 
-**Returns:**
+**Visszatérési érték:**
 boolean
 ### setEmbedImages(boolean value) {#setEmbedImages-boolean-}
 ```
 public abstract void setEmbedImages(boolean value)
 ```
 
-Returns or sets images embedding option. Read/write boolean.
+
+Lekérdezi vagy beállítja a képek beágyazásának beállítását. Read/write boolean.
 
 --------------------
 
@@ -199,8 +205,8 @@ Returns or sets images embedding option. Read/write boolean.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**Paraméterek:**
+| Paraméter | Típus | Leírás |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -209,7 +215,8 @@ Returns or sets images embedding option. Read/write boolean.
 public abstract String getOutputPath()
 ```
 
-Determines where external resources should be stored. Read/write String.
+
+Meghatározza, hogy a külső erőforrások hol legyenek tárolva. Read/write String.
 
 --------------------
 
@@ -227,14 +234,15 @@ Determines where external resources should be stored. Read/write String.
 >  }
 > ```
 
-**Returns:**
+**Visszatérési érték:**
 java.lang.String
 ### setOutputPath(String value) {#setOutputPath-java.lang.String-}
 ```
 public abstract void setOutputPath(String value)
 ```
 
-Determines where external resources should be stored. Read/write String.
+
+Meghatározza, hogy a külső erőforrások hol legyenek tárolva. Read/write String.
 
 --------------------
 
@@ -252,8 +260,8 @@ Determines where external resources should be stored. Read/write String.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**Paraméterek:**
+| Paraméter | Típus | Leírás |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
@@ -262,19 +270,21 @@ Determines where external resources should be stored. Read/write String.
 public abstract int getPicturesCompression()
 ```
 
-Represents the pictures compression level Read/write  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
 
-**Returns:**
+Kép tömörítési szintet képviseli Read/write  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
+
+**Visszatérési érték:**
 int
 ### setPicturesCompression(int value) {#setPicturesCompression-int-}
 ```
 public abstract void setPicturesCompression(int value)
 ```
 
-Represents the pictures compression level Read/write  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
 
-**Parameters:**
-| Parameter | Type | Description |
+Kép tömörítési szintet képviseli Read/write  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
+
+**Paraméterek:**
+| Paraméter | Típus | Leírás |
 | --- | --- | --- |
 | value | int |  |
 
@@ -283,7 +293,8 @@ Represents the pictures compression level Read/write  PicturesCompression (\#get
 public abstract boolean getDisableFontLigatures()
 ```
 
-Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false.
+
+Lekérdezi vagy beállítja, hogy a szöveget ligatúrák használata nélkül renderelje. Ha igazra van állítva, a ligatúrák le lesznek tiltva a megjelenített kimenetben. Alapértelmezés szerint ez a tulajdonság hamis.
 
 --------------------
 
@@ -293,7 +304,7 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      Html5Options options = new Html5Options();
->      options.setDisableFontLigatures(true); // Ligaturek letiltása a szöveg renderelésében
+>      options.setDisableFontLigatures(true); // Ligatúrák letiltása a szöveg renderelésében
 > 
 >      pres.save("output.html", SaveFormat.Html5, options);
 >  } finally {
@@ -301,14 +312,15 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 >  }
 > ```
 
-**Returns:**
+**Visszatérési érték:**
 boolean
 ### setDisableFontLigatures(boolean value) {#setDisableFontLigatures-boolean-}
 ```
 public abstract void setDisableFontLigatures(boolean value)
 ```
 
-Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false.
+
+Lekérdezi vagy beállítja, hogy a szöveget ligatúrák használata nélkül renderelje. Ha igazra van állítva, a ligatúrák le lesznek tiltva a megjelenített kimenetben. Alapértelmezés szerint ez a tulajdonság hamis.
 
 --------------------
 
@@ -318,7 +330,7 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      Html5Options options = new Html5Options();
->      options.setDisableFontLigatures(true); // Ligaturek letiltása a szöveg renderelésében
+>      options.setDisableFontLigatures(true); // Ligatúrák letiltása a szöveg renderelésében
 > 
 >      pres.save("output.html", SaveFormat.Html5, options);
 >  } finally {
@@ -326,8 +338,8 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**Paraméterek:**
+| Paraméter | Típus | Leírás |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -336,7 +348,8 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 public abstract ISlidesLayoutOptions getSlidesLayoutOptions()
 ```
 
-Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+
+Lekérdezi vagy beállítja a módot, ahogyan a diák az oldalra kerülnek a prezentáció exportálásakor [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
 
@@ -356,14 +369,15 @@ Gets or sets the mode in which slides are placed on the page when exporting a pr
 >  }
 > ```
 
-**Returns:**
+**Visszatérési érték:**
 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)
 ### setSlidesLayoutOptions(ISlidesLayoutOptions value) {#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-}
 ```
 public abstract void setSlidesLayoutOptions(ISlidesLayoutOptions value)
+```
 
 
-Megkapja vagy beállítja a módot, ahogyan a diák az oldalon elhelyezésre kerülnek egy prezentáció exportálásakor [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+Lekérdezi vagy beállítja a módot, ahogyan a diák az oldalra kerülnek a prezentáció exportálásakor [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
 
