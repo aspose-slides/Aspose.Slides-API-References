@@ -1,7 +1,7 @@
 ---
 title: OpenAIWebClient
-second_title: Riferimento API Aspose.Slides per Java
-description: Un'implementazione incorporata che si collega all'API OpenAI.
+second_title: Riferimento API di Aspose.Slides per Java
+description: Un'implementazione integrata che si collega all'API OpenAI.
 type: docs
 url: /it/com.aspose.slides/openaiwebclient/
 ---
@@ -11,10 +11,10 @@ java.lang.Object
 **Tutte le interfacce implementate:**
 [com.aspose.slides.IAIWebClient](../../com.aspose.slides/iaiwebclient), java.io.Closeable
 ```
-public class OpenAIWebClient implements IAIWebClient, Closeable
+public class OpenAIWebClient implements IIAWebClient, Closeable
 ```
 
-Un'implementazione [IAIWebClient](../../com.aspose.slides/iaiwebclient) incorporata che si collega all'API OpenAI.
+Un'implementazione integrata [IAIWebClient](../../com.aspose.slides/iaiwebclient) che si collega all'API OpenAI.
 ## Costruttori
 
 | Costruttore | Descrizione |
@@ -33,6 +33,7 @@ Un'implementazione [IAIWebClient](../../com.aspose.slides/iaiwebclient) incorpor
 public OpenAIWebClient(String model, String apiKey, String organizationId)
 ```
 
+
 Crea un'istanza del client web OpenAI.
 
 **Parametri:**
@@ -40,7 +41,8 @@ Crea un'istanza del client web OpenAI.
 | --- | --- | --- |
 | model | java.lang.String | Modello linguistico OpenAI. Valori possibili: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
 | apiKey | java.lang.String | Chiave API OpenAI. |
-| organizationId | java.lang.String | ID organizzazione (opzionale). |
+| organizationId | java.lang.String | ID organizzazione (opzionale).
+
 ```
 using (OpenAIWebClient aiClient = new OpenAIWebClient("gpt-4o-mini", apiKey, null))
  {
@@ -58,6 +60,7 @@ using (OpenAIWebClient aiClient = new OpenAIWebClient("gpt-4o-mini", apiKey, nul
 public OpenAIWebClient(String model, String apiKey, String organizationId, HttpURLConnection httpClient)
 ```
 
+
 Crea un'istanza del client web OpenAI che utilizza un HttpClient gestito esternamente. L'HttpClient fornito non viene eliminato da questa istanza e rimane di proprietà del chiamante.
 
 **Parametri:**
@@ -66,7 +69,8 @@ Crea un'istanza del client web OpenAI che utilizza un HttpClient gestito esterna
 | model | java.lang.String | Modello linguistico OpenAI. Valori possibili: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
 | apiKey | java.lang.String | Chiave API OpenAI |
 | organizationId | java.lang.String | ID organizzazione (opzionale) |
-| httpClient | java.net.HttpURLConnection | Un'istanza HttpClient gestita esternamente |
+| httpClient | java.net.HttpURLConnection | Un'istanza di HttpClient gestita esternamente
+
 ```
 using (HttpClient httpClient = new HttpClient())
  {
@@ -85,26 +89,30 @@ using (HttpClient httpClient = new HttpClient())
 public String callChat(String instruction)
 ```
 
-Invia un'istruzione di chat al modello AI usando un'istanza HttpConnection fornita e restituisce il messaggio di risposta all'istruzione data.
+
+Invia un'istruzione di chat al modello AI utilizzando un'istanza HttpConnection fornita e restituisce il messaggio di risposta all'istruzione data.
 
 **Parametri:**
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | instruction | java.lang.String |  |
-**Restituisce:**
+
+**Valore restituito:**
 java.lang.String
 ### createConversation() {#createConversation--}
 ```
 public final IAIConversation createConversation()
 ```
 
-Crea un'istanza di conversazione. A differenza delle chiamate AI regolari, le conversazioni conservano l'intero contesto.
 
-**Restituisce:**
+Crea un'istanza di conversazione. A differenza delle chiamate AI regolari, le conversazioni mantengono l'intero contesto.
+
+**Valore restituito:**
 [IAIConversation](../../com.aspose.slides/iaiconversation) - Un'istanza [IAIConversation](../../com.aspose.slides/iaiconversation).
 ### close() {#close--}
 ```
 public final void close()
 ```
+
 
 Rilascia le risorse utilizzate da questa istanza.

@@ -1,0 +1,44 @@
+---
+title: ResourceLoadingAction
+second_title: Aspose.Slides för Java API-referens
+description: Specificerar läget för extern resursladdning.
+type: docs
+url: /sv/com.aspose.slides/resourceloadingaction/
+---
+**Arv:**
+java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
+```
+public final class ResourceLoadingAction extends System.Enum
+```
+
+Specificerar läget för extern resursladdning.
+## Fält
+
+| Fält | Beskrivning |
+| --- | --- |
+| [Default](#Default) | Aspose.Slides kommer att ladda externa resurser som vanligt. |
+| [Skip](#Skip) | Aspose.Slides kommer att hoppa över laddning av externa resurser. |
+| [UserProvided](#UserProvided) | Aspose.Slides kommer att använda byte-arrayen som tillhandahålls av användaren i [IResourceLoadingArgs.setData(byte[])](../../com.aspose.slides/iresourceloadingargs\#setData-byte---) som bilddata. |
+### Default {#Default}
+```
+public static final int Default
+```
+
+
+Aspose.Slides kommer att ladda externa resurser som vanligt.
+
+### Skip {#Skip}
+```
+public static final int Skip
+```
+
+
+Aspose.Slides kommer att hoppa över laddning av externa resurser. Endast länken utan data kommer att lagras för en bild.
+
+### UserProvided {#UserProvided}
+```
+public static final int UserProvided
+```
+
+
+Aspose.Slides kommer att använda byte-arrayen som tillhandahålls av användaren i [IResourceLoadingArgs.setData(byte[])](../../com.aspose.slides/iresourceloadingargs\#setData-byte---) som bilddata.

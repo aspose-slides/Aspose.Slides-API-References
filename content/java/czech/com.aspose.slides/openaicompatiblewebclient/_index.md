@@ -1,14 +1,14 @@
 ---
 title: OpenAICompatibleWebClient
-second_title: Aspose.Slides pro Java – referenční příručka API
+second_title: Aspose.Slides pro Java – referenční dokumentace API
 description: Vestavěná implementace, která se připojuje k poskytovateli LLM kompatibilnímu s OpenAI na zadané základní URL.
 type: docs
 url: /cs/com.aspose.slides/openaicompatiblewebclient/
 ---
-**Dědičnost:**
+**Inheritance:**
 java.lang.Object
 
-**Všechny implementované rozhraní:**
+**All Implemented Interfaces:**
 [com.aspose.slides.IAIWebClient](../../com.aspose.slides/iaiwebclient), com.aspose.ms.System.IDisposable
 ```
 public final class OpenAICompatibleWebClient implements IAIWebClient, System.IDisposable
@@ -19,13 +19,13 @@ Vestavěná [IAIWebClient](../../com.aspose.slides/iaiwebclient) implementace, k
 
 | Konstruktor | Popis |
 | --- | --- |
-| [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-) | Vytvoří instanci webového klienta kompatibilního s OpenAI. |
-| [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl, HttpURLConnection httpClient)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | Vytvoří instanci webového klienta kompatibilního s OpenAI, který používá externě spravovaný  HttpClient . |
+| [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-) | Vytvoří novou instanci webového klienta kompatibilního s OpenAI. |
+| [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl, HttpURLConnection httpClient)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | Vytvoří novou instanci webového klienta kompatibilního s OpenAI, který používá externě spravované  HttpURLConnection . |
 ## Metody
 
 | Metoda | Popis |
 | --- | --- |
-| [callChat(String instruction)](#callChat-java.lang.String-) |  |
+| [callChat(String instruction)](#callChat-java.lang.String-) | Odesílá instrukci chatu do AI modelu pomocí externě spravované HttpURLConnection instance a vrací odpovědní zprávu na danou instrukci. |
 | [createConversation()](#createConversation--) | Vytvoří instanci konverzace. |
 | [dispose()](#dispose--) | Uvolní prostředky používané touto instancí. |
 ### OpenAICompatibleWebClient(String model, String apiKey, String baseUrl) {#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-}
@@ -33,23 +33,29 @@ Vestavěná [IAIWebClient](../../com.aspose.slides/iaiwebclient) implementace, k
 public OpenAICompatibleWebClient(String model, String apiKey, String baseUrl)
 ```
 
-Vytvoří instanci webového klienta kompatibilního s OpenAI.
+Vytvoří novou instanci webového klienta kompatibilního s OpenAI.
 
 **Parametry:**
 | Parametr | Typ | Popis |
 | --- | --- | --- |
-| model | java.lang.String | Název modelu podporovaný poskytovatelem LLM. |
+| model | java.lang.String | Název modelu podporovaného poskytovatelem LLM. |
 | apiKey | java.lang.String | API klíč (token). |
-| baseUrl | java.lang.String | Základní URL LLM kompatibilního s OpenAI. |
+| baseUrl | java.lang.String | Základní URL OpenAI-kompatibilního LLM.
+
 ```
-using (OpenAICompatibleWebClient aiClient = new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1"))
- {
+OpenAICompatibleWebClient aiClient =
+         new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1");
+ try {
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (aiClient != null) aiClient.dispose();
  }
 ``` |
 
@@ -58,25 +64,32 @@ using (OpenAICompatibleWebClient aiClient = new OpenAICompatibleWebClient("model
 public OpenAICompatibleWebClient(String model, String apiKey, String baseUrl, HttpURLConnection httpClient)
 ```
 
-Vytvoří instanci webového klienta kompatibilního s OpenAI, který používá externě spravovaný HttpClient. Poskytnutý HttpClient není touto instancí uvolněn a zůstává ve vlastnictví volajícího.
+Vytvoří novou instanci webového klienta kompatibilního s OpenAI, který používá externě spravované  HttpURLConnection . Poskytnuté  HttpURLConnection  není touto instancí uvolněno a zůstává ve vlastnictví volajícího.
 
 **Parametry:**
 | Parametr | Typ | Popis |
 | --- | --- | --- |
-| model | java.lang.String | Název modelu podporovaný poskytovatelem LLM. |
+| model | java.lang.String | Název modelu podporovaného poskytovatelem LLM. |
 | apiKey | java.lang.String | API klíč (token). |
-| baseUrl | java.lang.String | Základní URL LLM kompatibilního s OpenAI. |
-| httpClient | java.net.HttpURLConnection | Externě spravovaná instance HttpClient. |
+| baseUrl | java.lang.String | Základní URL OpenAI-kompatibilního LLM. |
+| httpClient | java.net.HttpURLConnection | Externě spravovaná  HttpURLConnection  instance.
+
 ```
-using (HttpClient httpClient = new HttpClient())
- {
-     OpenAICompatibleWebClient aiClient = new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1", httpClient);
+URL url = new URL(url);
+ HttpURLConnection httpClient = (HttpURLConnection) url.openConnection();
+ try {
+     OpenAICompatibleWebClient aiClient =
+             new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1", httpClient);
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (httpClient != null) httpClient.disconnect();
  }
 ``` |
 
@@ -85,27 +98,27 @@ using (HttpClient httpClient = new HttpClient())
 public String callChat(String instruction)
 ```
 
-Odešle chatovou instrukci modelu AI pomocí poskytnuté instance HttpConnection a vrátí odpovědní zprávu k dané instrukci.
+Odesílá instrukci chatu do AI modelu pomocí externě spravované HttpURLConnection instance a vrací odpovědní zprávu na danou instrukci.
 
 **Parametry:**
 | Parametr | Typ | Popis |
 | --- | --- | --- |
-| instruction | java.lang.String |  |
+| instruction | java.lang.String | Instrukce nebo zpráva, kterou má AI model zpracovat. |
 
-**Vrací:**
-java.lang.String
+**Návratová hodnota:**
+java.lang.String - Zpráva vygenerovaná AI modelem jako odpověď na danou instrukci.
 ### createConversation() {#createConversation--}
 ```
 public final IIAConversation createConversation()
 ```
 
-Vytvoří instanci konverzace. Na rozdíl od běžných AI volání konverzace zachovávají celý kontext.
+Vytvoří instanci konverzace. Na rozdíl od běžných volání AI konverzace zachovává celý kontext.
 
-**Vrací:**
-[IAIConversation](../../com.aspose.slides/iaiconversation) – instanci [IAIConversation](../../com.aspose.slides/iaiconversation).
+**Návratová hodnota:**
+[IAIConversation](../../com.aspose.slides/iaiconversation) - Instance [IAIConversation](../../com.aspose.slides/iaiconversation).
 ### dispose() {#dispose--}
 ```
 public final void dispose()
 ```
 
-Uvolní prostředky používané touto instancí.
+Uvolní prostředky používané touttouto instancí.
