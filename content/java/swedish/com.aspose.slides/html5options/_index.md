@@ -32,42 +32,44 @@ Representerar alternativ för HTML5-export.
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-## Constructors
+## Konstruktorer
 
-| Constructor | Description |
+| Konstruktor | Beskrivning |
 | --- | --- |
-| [Html5Options()](#Html5Options--) | Default constructor. |
-## Methods
+| [Html5Options()](#Html5Options--) | Standardkonstruktor. |
+## Metoder
 
-| Method | Description |
+| Metod | Beskrivning |
 | --- | --- |
-| [getAnimateTransitions()](#getAnimateTransitions--) | Returns or sets transitions animation option. |
-| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | Returns or sets transitions animation option. |
-| [getAnimateShapes()](#getAnimateShapes--) | Returns or sets shapes animation option. |
-| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Returns or sets shapes animation option. |
-| [getEmbedImages()](#getEmbedImages--) | Returns or sets images embedding option. |
-| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Returns or sets images embedding option. |
-| [getOutputPath()](#getOutputPath--) | Determines where external resources should be stored. |
-| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Determines where external resources should be stored. |
-| [getPicturesCompression()](#getPicturesCompression--) | Represents the pictures compression level |
-| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Represents the pictures compression level |
-| [getDisableFontLigatures()](#getDisableFontLigatures--) | Gets or sets a value indicating whether text is rendered without using ligatures. |
-| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Gets or sets a value indicating whether text is rendered without using ligatures. |
-| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
-| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [getAnimateTransitions()](#getAnimateTransitions--) | Returnerar eller anger alternativ för övergångsanimation. |
+| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | Returnerar eller anger alternativ för övergångsanimation. |
+| [getAnimateShapes()](#getAnimateShapes--) | Returnerar eller anger alternativ för formanimation. |
+| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Returnerar eller anger alternativ för formanimation. |
+| [getEmbedImages()](#getEmbedImages--) | Returnerar eller anger alternativ för inbäddning av bilder. |
+| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Returnerar eller anger alternativ för inbäddning av bilder. |
+| [getOutputPath()](#getOutputPath--) | Bestämmer var externa resurser ska lagras. |
+| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Bestämmer var externa resurser ska lagras. |
+| [getPicturesCompression()](#getPicturesCompression--) | Representerar komprimeringsnivån för bilderna |
+| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Representerar komprimeringsnivån för bilderna |
+| [getDisableFontLigatures()](#getDisableFontLigatures--) | Hämtar eller anger ett värde som visar om text renderas utan att använda ligaturer. |
+| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Hämtar eller anger ett värde som visar om text renderas utan att använda ligaturer. |
+| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Hämtar eller anger läget i vilket bilder placeras på sidan vid export av en presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Hämtar eller anger läget i vilket bilder placeras på sidan vid export av en presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 ### Html5Options() {#Html5Options--}
 ```
 public Html5Options()
 ```
 
-Default constructor.
+
+Standardkonstruktor.
 
 ### getAnimateTransitions() {#getAnimateTransitions--}
 ```
 public final boolean getAnimateTransitions()
 ```
 
-Returns or sets transitions animation option. Read/write boolean.
+
+Returnerar eller anger alternativ för övergångsanimation. Läs/skriv boolean.
 
 --------------------
 
@@ -85,14 +87,15 @@ Returns or sets transitions animation option. Read/write boolean.
 >  }
 > ```
 
-**Returns:**
+**Returnerar:**
 boolean
 ### setAnimateTransitions(boolean value) {#setAnimateTransitions-boolean-}
 ```
 public final void setAnimateTransitions(boolean value)
 ```
 
-Returns or sets transitions animation option. Read/write boolean.
+
+Returnerar eller anger alternativ för övergångsanimation. Läs/skriv boolean.
 
 --------------------
 
@@ -110,8 +113,8 @@ Returns or sets transitions animation option. Read/write boolean.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**Parametrar:**
+| Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -120,7 +123,8 @@ Returns or sets transitions animation option. Read/write boolean.
 public final boolean getAnimateShapes()
 ```
 
-Returns or sets shapes animation option. Read/write boolean.
+
+Returnerar eller anger alternativ för formanimation. Läs/skriv boolean.
 
 --------------------
 
@@ -138,14 +142,15 @@ Returns or sets shapes animation option. Read/write boolean.
 >  }
 > ```
 
-**Returns:**
+**Returnerar:**
 boolean
 ### setAnimateShapes(boolean value) {#setAnimateShapes-boolean-}
 ```
 public final void setAnimateShapes(boolean value)
 ```
 
-Returns or sets shapes animation option. Read/write boolean.
+
+Returnerar eller anger alternativ för formanimation. Läs/skriv boolean.
 
 --------------------
 
@@ -163,8 +168,8 @@ Returns or sets shapes animation option. Read/write boolean.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**Parametrar:**
+| Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -173,7 +178,8 @@ Returns or sets shapes animation option. Read/write boolean.
 public final boolean getEmbedImages()
 ```
 
-Returns or sets images embedding option. Read/write boolean.
+
+Returnerar eller anger alternativ för inbäddning av bilder. Läs/skriv boolean.
 
 --------------------
 
@@ -190,14 +196,15 @@ Returns or sets images embedding option. Read/write boolean.
 >  }
 > ```
 
-**Returns:**
+**Returnerar:**
 boolean
 ### setEmbedImages(boolean value) {#setEmbedImages-boolean-}
 ```
 public final void setEmbedImages(boolean value)
 ```
 
-Returns or sets images embedding option. Read/write boolean.
+
+Returnerar eller anger alternativ för inbäddning av bilder. Läs/skriv boolean.
 
 --------------------
 
@@ -214,8 +221,8 @@ Returns or sets images embedding option. Read/write boolean.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**Parametrar:**
+| Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -224,7 +231,8 @@ Returns or sets images embedding option. Read/write boolean.
 public final String getOutputPath()
 ```
 
-Determines where external resources should be stored. Read/write String.
+
+Bestämmer var externa resurser ska lagras. Läs/skriv String.
 
 --------------------
 
@@ -242,14 +250,15 @@ Determines where external resources should be stored. Read/write String.
 >  }
 > ```
 
-**Returns:**
+**Returnerar:**
 java.lang.String
 ### setOutputPath(String value) {#setOutputPath-java.lang.String-}
 ```
 public final void setOutputPath(String value)
 ```
 
-Determines where external resources should be stored. Read/write String.
+
+Bestämmer var externa resurser ska lagras. Läs/skriv String.
 
 --------------------
 
@@ -259,16 +268,16 @@ Determines where external resources should be stored. Read/write String.
 >  Presentation pres = new Presentation("demo.pptx");
 >  try {
 >      Html5Options html5Options = new Html5Options();
->      Html5Options.html5Options.setEmbedImages(false);
->      Html5Options.html5Options.setOutputPath(the_desired_path);
+>      html5Options.setEmbedImages(false);
+>      html5Options.setOutputPath(the_desired_path);
 >      pres.save("demo-linked-images.html", SaveFormat.Html5, html5Options);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**Parametrar:**
+| Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
@@ -277,19 +286,21 @@ Determines where external resources should be stored. Read/write String.
 public final int getPicturesCompression()
 ```
 
-Representerar bildkomprimeringsnivån
 
-**Returns:**
+Representerar komprimeringsnivån för bilderna
+
+**Returnerar:**
 int
 ### setPicturesCompression(int value) {#setPicturesCompression-int-}
 ```
 public final void setPicturesCompression(int value)
 ```
 
-Represents the pictures compression level
 
-**Parameters:**
-| Parameter | Type | Description |
+Representerar komprimeringsnivån för bilderna
+
+**Parametrar:**
+| Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | value | int |  |
 
@@ -298,7 +309,8 @@ Represents the pictures compression level
 public final boolean getDisableFontLigatures()
 ```
 
-Hämtar eller anger ett värde som visar om text renderas utan att använda ligaturer. När den är satt till true kommer ligaturer att vara inaktiverade i den renderade utskriften. Som standard är denna egenskap satt till false.
+
+Hämtar eller anger ett värde som visar om text renderas utan att använda ligaturer. När den är satt till true kommer ligaturer att vara inaktiverade i den renderade utdata. Som standard är detta värde satt till false.
 
 --------------------
 
@@ -316,13 +328,15 @@ Hämtar eller anger ett värde som visar om text renderas utan att använda liga
 >  }
 > ```
 
-**Returns:**
+**Returnerar:**
 boolean
 ### setDisableFontLigatures(boolean value) {#setDisableFontLigatures-boolean-}
 ```
 public final void setDisableFontLigatures(boolean value)
 ```
-Hämtar eller anger ett värde som visar om text renderas utan att använda ligaturer. När den är satt till true kommer ligaturer att vara inaktiverade i den renderade utskriften. Som standard är denna egenskap satt till false.
+
+
+Hämtar eller anger ett värde som visar om text renderas utan att använda ligaturer. När den är satt till true kommer ligaturer att vara inaktiverade i den renderade utdata. Som standard är detta värde satt till false.
 
 --------------------
 
@@ -340,8 +354,8 @@ Hämtar eller anger ett värde som visar om text renderas utan att använda liga
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**Parametrar:**
+| Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -350,7 +364,8 @@ Hämtar eller anger ett värde som visar om text renderas utan att använda liga
 public final ISlidesLayoutOptions getSlidesLayoutOptions()
 ```
 
-Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+
+Hämtar eller anger läget i vilket bilder placeras på sidan vid export av en presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
 
@@ -370,11 +385,12 @@ Gets or sets the mode in which slides are placed on the page when exporting a pr
 >  }
 > ```
 
-**Returns:** 
+**Returnerar:**
 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)
 ### setSlidesLayoutOptions(ISlidesLayoutOptions value) {#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-}
 ```
 public final void setSlidesLayoutOptions(ISlidesLayoutOptions value)
+```
 
 
 Hämtar eller anger läget i vilket bilder placeras på sidan vid export av en presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).

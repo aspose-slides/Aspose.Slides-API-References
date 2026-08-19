@@ -1,7 +1,7 @@
 ---
 title: AsposeAIWebClient
 second_title: Aspose.Slides för Java API-referens
-description: En inbyggd implementation som ansluter till Asposes egna LLM.
+description: En inbyggd implementation som ansluter till Asposes egen LLM.
 type: docs
 url: /sv/com.aspose.slides/asposeaiwebclient/
 ---
@@ -14,38 +14,42 @@ java.lang.Object
 public final class AsposeAIWebClient implements IAIWebClient, System.IDisposable
 ```
 
-En inbyggd [IAIWebClient](../../com.aspose.slides/iaiwebclient) implementation som ansluter till Asposes egna LLM. Detta är standardklienten som används av den parameterlösa SlidesAIAgent()-konstruktorn.
+En inbyggd [IAIWebClient](../../com.aspose.slides/iaiwebclient)-implementation som ansluter till Asposes egen LLM. Detta är standardklienten som används av den parameterlösa SlidesAIAgent()-konstruktorn.
 ## Konstruktörer
 
 | Konstruktor | Beskrivning |
 | --- | --- |
-| [AsposeAIWebClient()](#AsposeAIWebClient--) | Skapar en instans av Aspose AI-webbklienten som ansluter till standard-Aspose LLM-slutpunkten. |
-| [AsposeAIWebClient(HttpURLConnection httpClient)](#AsposeAIWebClient-java.net.HttpURLConnection-) | Skapar en instans av Aspose AI-webbklienten som ansluter till standard-Aspose LLM-slutpunkten med en externt hanterad HttpClient. |
-| [AsposeAIWebClient(String url)](#AsposeAIWebClient-java.lang.String-) | Skapar en instans av Aspose AI-webbklienten som ansluter till en anpassad slutpunkts-URL. |
-| [AsposeAIWebClient(String url, HttpURLConnection httpClient)](#AsposeAIWebClient-java.lang.String-java.net.HttpURLConnection-) | Skapar en instans av Aspose AI-webbklienten som ansluter till en anpassad slutpunkts-URL med en externt hanterad HttpClient. |
+| [AsposeAIWebClient()](#AsposeAIWebClient--) | Skapar en instans av Aspose AI web client som ansluter till standard Aspose LLM-slutpunkt. |
+| [AsposeAIWebClient(HttpURLConnection httpClient)](#AsposeAIWebClient-java.net.HttpURLConnection-) | Skapar en instans av Aspose AI web client som ansluter till standard Aspose LLM-slutpunkt med en externt hanterad  HttpURLConnection . |
+| [AsposeAIWebClient(String url)](#AsposeAIWebClient-java.lang.String-) | Skapar en instans av Aspose AI web client som ansluter till en anpassad endpoint URL. |
+| [AsposeAIWebClient(String url, HttpURLConnection httpClient)](#AsposeAIWebClient-java.lang.String-java.net.HttpURLConnection-) | Skapar en instans av Aspose AI web client som ansluter till en anpassad endpoint URL med en externt hanterad  HttpURLConnection . |
 ## Metoder
 
 | Metod | Beskrivning |
 | --- | --- |
-| [callChat(String instruction)](#callChat-java.lang.String-) |  |
+| [callChat(String instruction)](#callChat-java.lang.String-) | Skickar en chatinstruktion till AI-modellen och returnerar svarmeddelandet för den givna instruktionen. |
 | [createConversation()](#createConversation--) | Skapar en konversationsinstans. |
-| [dispose()](#dispose--) | Frigör resurser som används av denna instans. |
+| [dispose()](#dispose--) | Frigir resurser som används av denna instans. |
 ### AsposeAIWebClient() {#AsposeAIWebClient--}
 ```
 public AsposeAIWebClient()
 ```
 
-Skapar en instans av Aspose AI-webbklienten som ansluter till standard-Aspose LLM-slutpunkten. Detta är den klient som används av den parameterlösa SlidesAIAgent()-konstruktorn, så att skapa den explicit krävs endast när klienten skickas direkt till SlidesAIAgent(IAIWebClient)-konstruktorn.
+Skapar en instans av Aspose AI web client som ansluter till standard Aspose LLM-slutpunkt. Detta är klienten som används av den parameterlösa SlidesAIAgent()-konstruktorn, så att skapa den explicit krävs endast när klienten skickas direkt till SlidesAIAgent(IAIWebClient)-konstruktorn.
 
 ```
-using (AsposeAIWebClient aiClient = new AsposeAIWebClient())
- {
+AsposeAIWebClient aiClient = new AsposeAIWebClient();
+ try {
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (aiClient != null) aiClient.dispose();
  }
 ```
 
@@ -54,22 +58,28 @@ using (AsposeAIWebClient aiClient = new AsposeAIWebClient())
 public AsposeAIWebClient(HttpURLConnection httpClient)
 ```
 
-Skapar en instans av Aspose AI-webbklienten som ansluter till standard-Aspose LLM-slutpunkten med en externt hanterad HttpClient. Den tillhandahållna HttpClient-instansen tas inte bort av denna instans och förblir ägd av anroparen.
+Skapar en instans av Aspose AI web client som ansluter till standard Aspose LLM-slutpunkt med en externt hanterad  HttpURLConnection . Den tillhandahållna HttpURLConnection-disposeras inte av denna instans och förblir ägd av anroparen.
 
 **Parametrar:**
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| httpClient | java.net.HttpURLConnection | En externt hanterad HttpClient-instans. |
+| httpClient | java.net.HttpURLConnection | En externt hanterad  HttpURLConnection  instans.
+
 ```
-using (HttpClient httpClient = new HttpClient())
- {
+URL url = new URL(url);
+ HttpURLConnection httpClient = (HttpURLConnection) url.openConnection();
+ try {
      AsposeAIWebClient aiClient = new AsposeAIWebClient(httpClient);
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (httpClient != null) httpClient.disconnect();
  }
 ``` |
 
@@ -78,21 +88,26 @@ using (HttpClient httpClient = new HttpClient())
 public AsposeAIWebClient(String url)
 ```
 
-Skapar en instans av Aspose AI-webbklienten som ansluter till en anpassad slutpunkts-URL. Använd denna överlagring när du har en URL som tillhandahålls av Aspose.Slides-teamet; annars, använd AsposeAIWebClient()-överlagringen med standard-URL.
+Skapar en instans av Aspose AI web client som ansluter till en anpassad endpoint-URL. Använd detta överlagringsalternativ när du har en URL som tillhandahålls av Aspose.Slides-teamet; annars, använd AsposeAIWebClient()-överlagringen med standard-URL.
 
 **Parametrar:**
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| url | java.lang.String | Slutpunkts-URL för Aspose LLM, tillhandahållen av Aspose.Slides-teamet. |
+| url | java.lang.String | Endpoint-URL för Aspose LLM, tillhandahållen av Aspose.Slides-teamet.
+
 ```
-using (AsposeAIWebClient aiClient = new AsposeAIWebClient(customUrl))
- {
+AsposeAIWebClient aiClient = new AsposeAIWebClient(customUrl);
+ try {
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (aiClient != null) aiClient.dispose();
  }
 ``` |
 
@@ -101,23 +116,29 @@ using (AsposeAIWebClient aiClient = new AsposeAIWebClient(customUrl))
 public AsposeAIWebClient(String url, HttpURLConnection httpClient)
 ```
 
-Skapar en instans av Aspose AI-webbklienten som ansluter till en anpassad slutpunkts-URL med en externt hanterad HttpClient. Den tillhandahållna HttpClient-instansen tas inte bort av denna instans och förblir ägd av anroparen. Använd denna överlagring när du har en URL som tillhandahålls av Aspose.Slides-teamet och vill ange din egen HttpClient; om du bara behöver din egen HttpClient med standard-URL, använd AsposeAIWebClient(HttpClient)-överlagringen istället.
+Skapar en instans av Aspose AI web client som ansluter till en anpassad endpoint-URL med en externt hanterad  HttpURLConnection . Den tillhandahållna HttpURLConnection-disposeras inte av denna instans och förblir ägd av anroparen. Använd detta överlagringsalternativ när du har en URL som tillhandahålls av Aspose.Slides-teamet och vill tillhandahålla din egen HttpURLConnection; om du bara behöver din egen HttpURLConnection med standard-URL, använd istället AsposeAIWebClient(HttpURLConnection)-överlagringen.
 
 **Parametrar:**
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| url | java.lang.String | Slutpunkts-URL för Aspose LLM, tillhandahållen av Aspose.Slides-teamet. |
-| httpClient | java.net.HttpURLConnection | En externt hanterad HttpClient-instans. |
+| url | java.lang.String | Endpoint-URL för Aspose LLM, tillhandahållen av Aspose.Slides-teamet. |
+| httpClient | java.net.HttpURLConnection | En externt hanterad  HttpURLConnection  instans.
+
 ```
-using (HttpClient httpClient = new HttpClient())
- {
+URL url = new URL(url);
+ HttpURLConnection httpClient = (HttpURLConnection) url.openConnection();
+ try {
      AsposeAIWebClient aiClient = new AsposeAIWebClient(customUrl, httpClient);
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (httpClient != null) httpClient.disconnect();
  }
 ``` |
 
@@ -126,15 +147,15 @@ using (HttpClient httpClient = new HttpClient())
 public String callChat(String instruction)
 ```
 
-Skickar en chattinstruktion till AI-modellen med en tillhandahållen HttpConnection-instans och returnerar svarmeddelandet för den givna instruktionen.
+Skickar en chatinstruktion till AI-modellen och returnerar svarmeddelandet för den givna instruktionen.
 
 **Parametrar:**
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| instruction | java.lang.String |  |
+| instruction | java.lang.String | Instruktionen eller meddelandet som ska bearbetas av AI-modellen. |
 
-**Returnerar:**
-java.lang.String
+**Returvärde:**
+java.lang.String - Meddelandet som genererats av AI-modellen som svar på den givna instruktionen.
 ### createConversation() {#createConversation--}
 ```
 public final IAIConversation createConversation()
@@ -142,11 +163,11 @@ public final IAIConversation createConversation()
 
 Skapar en konversationsinstans. Till skillnad från vanliga AI-anrop behåller konversationer hela kontexten.
 
-**Returnerar:**
-[IAIConversation](../../com.aspose.slides/iaiconversation) - En [IAIConversation](../../com.aspose.slides/iaiconversation) instans.
+**Returvärde:**
+[IAIConversation](../../com.aspose.slides/iaiconversation) - En [IAIConversation](../../com.aspose.slides/iaiconversation)-instans.
 ### dispose() {#dispose--}
 ```
 public final void dispose()
 ```
 
-Frigör resurser som används av denna instans.
+Frigir resurser som används av denna instans.
