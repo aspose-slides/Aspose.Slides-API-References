@@ -14,33 +14,34 @@ java.lang.Object
 public class OpenAIWebClient implements IAIWebClient, Closeable
 ```
 
-Implementasi bawaan [IAIWebClient](../../com.aspose.slides/iaiwebclient) yang terhubung ke API OpenAI.
+Implementasi [IAIWebClient](../../com.aspose.slides/iaiwebclient) bawaan yang terhubung ke API OpenAI.
 ## Konstruktor
 
 | Konstruktor | Deskripsi |
 | --- | --- |
-| [OpenAIWebClient(String model, String apiKey, String organizationId)](#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-) | Membuat sebuah instance klien web OpenAI. |
-| [OpenAIWebClient(String model, String apiKey, String organizationId, HttpURLConnection httpClient)](#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | Membuat sebuah instance klien web OpenAI yang menggunakan HttpClient yang dikelola secara eksternal. |
+| [OpenAIWebClient(String model, String apiKey, String organizationId)](#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-) | Membuat sebuah instance dari klien web OpenAI. |
+| [OpenAIWebClient(String model, String apiKey, String organizationId, HttpURLConnection httpClient)](#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | Membuat sebuah instance dari klien web OpenAI yang menggunakan HttpClient yang dikelola secara eksternal. |
 ## Metode
 
 | Metode | Deskripsi |
 | --- | --- |
 | [callChat(String instruction)](#callChat-java.lang.String-) |  |
 | [createConversation()](#createConversation--) | Membuat sebuah instance percakapan. |
-| [close()](#close--) | Membebaskan sumber daya yang digunakan oleh instance ini. |
+| [close()](#close--) | Melepaskan sumber daya yang digunakan oleh instance ini. |
 ### OpenAIWebClient(String model, String apiKey, String organizationId) {#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-}
 ```
 public OpenAIWebClient(String model, String apiKey, String organizationId)
 ```
 
-Membuat sebuah instance klien web OpenAI.
+Membuat sebuah instance dari klien web OpenAI.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | model | java.lang.String | Model bahasa OpenAI. Nilai yang mungkin: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
 | apiKey | java.lang.String | Kunci API OpenAI. |
-| organizationId | java.lang.String | ID organisasi (opsional). |
+| organizationId | java.lang.String | ID Organisasi (opsional). |
+
 ```
 using (OpenAIWebClient aiClient = new OpenAIWebClient("gpt-4o-mini", apiKey, null))
  {
@@ -52,21 +53,21 @@ using (OpenAIWebClient aiClient = new OpenAIWebClient("gpt-4o-mini", apiKey, nul
      }
  }
 ``` |
-
 ### OpenAIWebClient(String model, String apiKey, String organizationId, HttpURLConnection httpClient) {#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-}
 ```
 public OpenAIWebClient(String model, String apiKey, String organizationId, HttpURLConnection httpClient)
 ```
 
-Membuat sebuah instance klien web OpenAI yang menggunakan HttpClient yang dikelola secara eksternal. HttpClient yang diberikan tidak dibuang oleh instance ini dan tetap dimiliki oleh pemanggil.
+Membuat sebuah instance dari klien web OpenAI yang menggunakan HttpClient yang dikelola secara eksternal. HttpClient yang diberikan tidak dibuang oleh instance ini dan tetap dimiliki oleh pemanggil.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | model | java.lang.String | Model bahasa OpenAI. Nilai yang mungkin: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
 | apiKey | java.lang.String | Kunci API OpenAI |
-| organizationId | java.lang.String | ID organisasi (opsional) |
+| organizationId | java.lang.String | ID Organisasi (opsional) |
 | httpClient | java.net.HttpURLConnection | Sebuah instance HttpClient yang dikelola secara eksternal |
+
 ```
 using (HttpClient httpClient = new HttpClient())
  {
@@ -79,13 +80,12 @@ using (HttpClient httpClient = new HttpClient())
      }
  }
 ``` |
-
 ### callChat(String instruction) {#callChat-java.lang.String-}
 ```
 public String callChat(String instruction)
 ```
 
-Mengirim instruksi obrolan ke model AI menggunakan instance HttpConnection yang disediakan dan mengembalikan pesan respons terhadap instruksi tersebut.
+Mengirimkan instruksi chat ke model AI menggunakan instance HttpConnection yang disediakan dan mengembalikan pesan respons untuk instruksi yang diberikan.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
@@ -96,16 +96,16 @@ Mengirim instruksi obrolan ke model AI menggunakan instance HttpConnection yang 
 java.lang.String
 ### createConversation() {#createConversation--}
 ```
-public final IIAConversation createConversation()
+public final IAIConversation createConversation()
 ```
 
-Membuat sebuah instance percakapan. Tidak seperti panggilan AI biasa, percakapan mempertahankan seluruh konteks.
+Membuat sebuah instance percakapan. Berbeda dengan panggilan AI reguler, percakapan mempertahankan seluruh konteks.
 
 **Mengembalikan:**
-[IAIConversation](../../com.aspose.slides/iaiconversation) - Sebuah instance [IAIConversation](../../com.aspose.slides/iaiconversation).
+[IAIConversation](../../com.aspose.slides/iaiconversation) - Sebuah [IAIConversation](../../com.aspose.slides/iaiconversation) instance.
 ### close() {#close--}
 ```
 public final void close()
 ```
 
-Membebaskan sumber daya yang digunakan oleh instance ini.
+Melepaskan sumber daya yang digunakan oleh instance ini.

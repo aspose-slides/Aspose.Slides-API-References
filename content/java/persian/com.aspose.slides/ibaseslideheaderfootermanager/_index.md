@@ -1,0 +1,112 @@
+---
+title: IBaseSlideHeaderFooterManager
+second_title: Aspose.Slides برای مرجع API جاوا
+description: مدیری را نشان می‌دهد که رفتار جای‌گذاری‌های پاورقی، تاریخ-زمان و شماره صفحه را برای تمام انواع اسلایدها نگه می‌دارد.
+type: docs
+url: /fa/com.aspose.slides/ibaseslideheaderfootermanager/
+---
+**تمام رابط‌های پیاده‌سازی‌شده:**
+[com.aspose.slides.IBaseHeaderFooterManager](../../com.aspose.slides/ibaseheaderfootermanager)
+```
+public interface IBaseSlideHeaderFooterManager extends IBaseHeaderFooterManager
+```
+
+مدیری را نشان می‌دهد که رفتار جایگذاری‌های پاورقی، تاریخ-زمان و شماره صفحه را برای تمام انواع اسلایدها نگه می‌دارد.
+## متدها
+
+| متد | شرح |
+| --- | --- |
+| [isFooterVisible()](#isFooterVisible--) | مقداری را برمی‌گرداند که نشان می‌دهد یک جایگذاری پاورقی موجود است. |
+| [isSlideNumberVisible()](#isSlideNumberVisible--) | مقداری را برمی‌گرداند که نشان می‌دهد یک جایگذاری شماره صفحه موجود است. |
+| [isDateTimeVisible()](#isDateTimeVisible--) | مقداری را برمی‌گرداند که نشان می‌دهد یک جایگذاری تاریخ-زمان موجود است. |
+| [setFooterVisibility(boolean isVisible)](#setFooterVisibility-boolean-) | قابلیت نمایش جایگذاری پاورقی اسلاید را تغییر می‌دهد. |
+| [setSlideNumberVisibility(boolean isVisible)](#setSlideNumberVisibility-boolean-) | قابلیت نمایش جایگذاری شماره صفحه اسلاید را تغییر می‌دهد. |
+| [setDateTimeVisibility(boolean isVisible)](#setDateTimeVisibility-boolean-) | قابلیت نمایش جایگذاری تاریخ-زمان اسلاید را تغییر می‌دهد. |
+| [setFooterText(String text)](#setFooterText-java.lang.String-) | متن را برای جایگذاری پاورقی اسلاید تنظیم می‌کند. |
+| [setDateTimeText(String text)](#setDateTimeText-java.lang.String-) | متن را برای جایگذاری تاریخ-زمان اسلاید تنظیم می‌کند. |
+### isFooterVisible() {#isFooterVisible--}
+```
+public abstract boolean isFooterVisible()
+```
+
+مقداری را برمی‌گرداند که نشان می‌دهد یک جایگذاری پاورقی موجود است. بولی.
+
+**بازگشت:**
+boolean
+### isSlideNumberVisible() {#isSlideNumberVisible--}
+```
+public abstract boolean isSlideNumberVisible()
+```
+
+مقداری را برمی‌گرداند که نشان می‌دهد یک جایگذاری شماره صفحه موجود است. بولی.
+
+**بازگشت:**
+boolean
+### isDateTimeVisible() {#isDateTimeVisible--}
+```
+public abstract boolean isDateTimeVisible()
+```
+
+مقداری را برمی‌گرداند که نشان می‌دهد یک جایگذاری تاریخ-زمان موجود است. بولی.
+
+**بازگشت:**
+boolean
+### setFooterVisibility(boolean isVisible) {#setFooterVisibility-boolean-}
+```
+public abstract void setFooterVisibility(boolean isVisible)
+```
+
+قابلیت نمایش جایگذاری پاورقی اسلاید را تغییر می‌دهد.
+
+**پارامترها:**
+| پارامتر | نوع | توضیح |
+| --- | --- | --- |
+| isVisible | boolean | true - جایگذاری پاورقی را قابل مشاهده می‌کند، در غیر این صورت آن را مخفی می‌کند. |
+
+### setSlideNumberVisibility(boolean isVisible) {#setSlideNumberVisibility-boolean-}
+```
+public abstract void setSlideNumberVisibility(boolean isVisible)
+```
+
+قابلیت نمایش جایگذاری شماره صفحه اسلاید را تغییر می‌دهد.
+
+**پارامترها:**
+| پارامتر | نوع | توضیح |
+| --- | --- | --- |
+| isVisible | boolean | true - جایگذاری شماره صفحه را قابل مشاهده می‌کند، در غیر این صورت آن را مخفی می‌کند. |
+
+### setDateTimeVisibility(boolean isVisible) {#setDateTimeVisibility-boolean-}
+```
+public abstract void setDateTimeVisibility(boolean isVisible)
+```
+
+قابلیت نمایش جایگذاری تاریخ-زمان اسلاید را تغییر می‌دهد.
+
+**پارامترها:**
+| پارامتر | نوع | توضیح |
+| --- | --- | --- |
+| isVisible | boolean | true - جایگذاری تاریخ-زمان را قابل مشاهده می‌کند، در غیر این صورت آن را مخفی می‌کند. |
+
+### setFooterText(String text) {#setFooterText-java.lang.String-}
+```
+public abstract void setFooterText(String text)
+```
+
+متن را برای جایگذاری پاورقی اسلاید تنظیم می‌کند.
+
+**پارامترها:**
+| پارامتر | نوع | توضیح |
+| --- | --- | --- |
+| text | java.lang.String | متنی که باید تنظیم شود. |
+
+### setDateTimeText(String text) {#setDateTimeText-java.lang.String-}
+```
+public abstract void setDateTimeText(String text)
+```
+
+متن را برای جایگذاری تاریخ-زمان اسلاید تنظیم می‌کند.
+
+**پارامترها:**
+| پارامتر | نوع | توضیح |
+| --- | --- | --- |
+| text | java.lang.String | متنی که باید تنظیم شود. |

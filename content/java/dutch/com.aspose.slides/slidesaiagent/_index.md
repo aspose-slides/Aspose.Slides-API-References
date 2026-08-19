@@ -5,7 +5,7 @@ description: Biedt AI-ondersteunde functies voor het verwerken van presentaties.
 type: docs
 url: /nl/com.aspose.slides/slidesaiagent/
 ---
-**Erfenis:**
+**Inheritance:**
 java.lang.Object
 ```
 public class SlidesAIAgent
@@ -16,50 +16,53 @@ Biedt AI-ondersteunde functies voor het verwerken van presentaties.
 
 | Constructor | Beschrijving |
 | --- | --- |
-| [SlidesAIAgent(IAIWebClient aiClient)](#SlidesAIAgent-com.aspose.slides.IAIWebClient-) | Initialiseert een nieuw exemplaar van [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) met een aangepaste AI-client. |
-| [SlidesAIAgent()](#SlidesAIAgent--) | Initialiseert een nieuw exemplaar van [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) met de ingebouwde [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient) met de standaardconfiguratie. |
+| [SlidesAIAgent(IAIWebClient aiClient)](#SlidesAIAgent-com.aspose.slides.IAIWebClient-) | Initialises a new instance of [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) with a custom AI client. |
+| [SlidesAIAgent()](#SlidesAIAgent--) | Initialises a new instance of [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) using the built-in [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient) with its default configuration. |
 ## Methods
 
-| Methode | Beschrijving |
+| Method | Beschrijving |
 | --- | --- |
-| [translate(IPresentation presentation, String language)](#translate-com.aspose.slides.IPresentation-java.lang.String-) | Vertelt een presentatie naar de opgegeven taal met behulp van AI (synchrone versie). |
-| [generatePresentation(String description, int presentationContentAmount)](#generatePresentation-java.lang.String-int-) | Genereert een presentatie-exemplaar vanuit een tekstbeschrijving. |
-| [generatePresentation(String description, int presentationContentAmount, IPresentation presentationTemplate)](#generatePresentation-java.lang.String-int-com.aspose.slides.IPresentation-) | Genereert een presentatie-exemplaar vanuit een tekstbeschrijving. |
+| [translate(IPresentation presentation, String language)](#translate-com.aspose.slides.IPresentation-java.lang.String-) | Translates a presentation to the specified language using AI (synchronous version). |
+| [generatePresentation(String description, int presentationContentAmount)](#generatePresentation-java.lang.String-int-) | Generates a presentation instance from a text description. |
+| [generatePresentation(String description, int presentationContentAmount, IPresentation presentationTemplate)](#generatePresentation-java.lang.String-int-com.aspose.slides.IPresentation-) | Generates a presentation instance from a text description. |
 ### SlidesAIAgent(IAIWebClient aiClient) {#SlidesAIAgent-com.aspose.slides.IAIWebClient-}
 ```
 public SlidesAIAgent(IAIWebClient aiClient)
 ```
 
-Initialiseert een nieuw exemplaar van [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) met een aangepaste AI-client. Gebruik deze overload om de AI-provider op te geven, uw eigen LLM te leveren, of de verbinding aan te passen (bijvoorbeeld door uw eigen java.net.HttpURLConnection te verstrekken). Elke implementatie van [IAIWebClient](../../com.aspose.slides/iaiwebclient) kan worden gebruikt. Om de ingebouwde [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient) met de standaardconfiguratie te gebruiken, gebruik dan de overload SlidesAIAgent().
+
+Initialises a new instance of [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) with a custom AI client. Use this overload to specify the AI provider, supply your own LLM, or customise the connection (for example, by providing your own java.net.HttpURLConnection). Any implementation of [IAIWebClient](../../com.aspose.slides/iaiwebclient) can be used. To use the built-in [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient) with its default configuration, use the  SlidesAIAgent()  overload instead.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| aiClient | [IAIWebClient](../../com.aspose.slides/iaiwebclient) | AI-client instantie. Elke implementatie van [IAIWebClient](../../com.aspose.slides/iaiwebclient) kan worden gebruikt. |
+| aiClient | [IAIWebClient](../../com.aspose.slides/iaiwebclient) | AI client instance. Any implementation of [IAIWebClient](../../com.aspose.slides/iaiwebclient) can be used. |
 
 ### SlidesAIAgent() {#SlidesAIAgent--}
 ```
 public SlidesAIAgent()
 ```
 
-Initialiseert een nieuw exemplaar van [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) met de ingebouwde [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient) met de standaardconfiguratie. De client maakt verbinding met Aspose’s eigen LLM en vereist geen extra configuratie. Om een andere AI-client te gebruiken, gebruik dan de overload SlidesAIAgent(IAIWebClient).
+
+Initialises a new instance of [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) using the built-in [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient) with its default configuration. The client connects to Aspose's own LLM and requires no additional configuration. To use a different AI client, use the SlidesAIAgent(IAIWebClient) overload instead.
 
 ### translate(IPresentation presentation, String language) {#translate-com.aspose.slides.IPresentation-java.lang.String-}
 ```
 public final void translate(IPresentation presentation, String language)
 ```
 
-Vertelt een presentatie naar de opgegeven taal met behulp van AI (synchrone versie).
+
+Translates a presentation to the specified language using AI (synchronous version).
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| presentation | [IPresentation](../../com.aspose.slides/ipresentation) | Doel-presentatie |
-| language | java.lang.String | Doeltaal |
+| presentation | [IPresentation](../../com.aspose.slides/ipresentation) | Target presentation |
+| language | java.lang.String | Target language
 
 --------------------
 
-Het voorbeeld hieronder gebruikt de standaard [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient), die wordt gecreëerd door de parameterloze SlidesAIAgent()-constructor en maakt verbinding met Aspose’s eigen LLM. Om een andere AI-provider te gebruiken, uw eigen LLM te leveren, of de verbinding aan te passen (bijvoorbeeld door uw eigen java.net.HttpURLConnection te verstrekken), geef een [IAIWebClient](../../com.aspose.slides/iaiwebclient)-implementatie door aan de SlidesAIAgent(IAIWebClient)-constructor.
+Het onderstaande voorbeeld gebruikt de standaard [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient), die wordt aangemaakt door de parameterloze SlidesAIAgent()-constructor en verbinding maakt met Aspose's eigen LLM. Om een andere AI-provider te gebruiken, uw eigen LLM te leveren of de verbinding aan te passen (bijvoorbeeld door uw eigen java.net.HttpURLConnection te voorzien), geeft u een [IAIWebClient](../../com.aspose.slides/iaiwebclient)-implementatie door aan de SlidesAIAgent(IAIWebClient)-constructor.
 
 ```
 Presentation presentation = new Presentation("Presentation.pptx");
@@ -72,18 +75,20 @@ Presentation presentation = new Presentation("Presentation.pptx");
      if (presentation != null) presentation.dispose();
  }
 ``` |
+
 ### generatePresentation(String description, int presentationContentAmount) {#generatePresentation-java.lang.String-int-}
 ```
 public final IPresentation generatePresentation(String description, int presentationContentAmount)
 ```
 
-Genereert een presentatie-exemplaar vanuit een tekstbeschrijving. Geef een onderwerp, ideeën, citaten of tekstfragmenten op in de vereiste taal.
+
+Generates a presentation instance from a text description. Provide a topic, ideas, quotes, or text snippets in the required language.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| description | java.lang.String | Het onderwerp, de ideeën, citaten of tekstfragmenten. |
-| presentationContentAmount | int | De hoeveelheid inhoud in de resulterende presentatie.
+| description | java.lang.String | The topic, ideas, quotes, or text snippets. |
+| presentationContentAmount | int | The amount of content in the resulting presentation.
 
 ```
 String prompt = "Generate a presentation about Aspose.Slides for Java. Highlight its key features, use cases, and explain why it is better than its competitors.";
@@ -97,25 +102,26 @@ String prompt = "Generate a presentation about Aspose.Slides for Java. Highlight
  }
 ``` |
 
-**Returns:**
+**Retour:**
 [IPresentation](../../com.aspose.slides/ipresentation)
 ### generatePresentation(String description, int presentationContentAmount, IPresentation presentationTemplate) {#generatePresentation-java.lang.String-int-com.aspose.slides.IPresentation-}
 ```
 public final IPresentation generatePresentation(String description, int presentationContentAmount, IPresentation presentationTemplate)
 ```
 
-Genereert een presentatie-exemplaar vanuit een tekstbeschrijving. Geef een onderwerp, ideeën, citaten of tekstfragmenten op in de vereiste taal.
+
+Generates a presentation instance from a text description. Provide a topic, ideas, quotes, or text snippets in the required language.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| description | java.lang.String | Het onderwerp, de ideeën, citaten of tekstfragmenten. |
-| presentationContentAmount | int | De hoeveelheid inhoud in de resulterende presentatie. |
-| presentationTemplate | [IPresentation](../../com.aspose.slides/ipresentation) | Een presentatie die wordt gebruikt als sjabloon voor lay-out en ontwerp, ter vervanging van de standaard sjabloon.
+| description | java.lang.String | The topic, ideas, quotes, or text snippets. |
+| presentationContentAmount | int | The amount of content in the resulting presentation. |
+| presentationTemplate | [IPresentation](../../com.aspose.slides/ipresentation) | A presentation to use as a template for layout and design, replacing the default template.
 
 --------------------
 
-Het voorbeeld hieronder gebruikt de standaard [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient), die wordt gecreëerd door de parameterloze SlidesAIAgent()-constructor en maakt verbinding met Aspose’s eigen LLM. Om een andere AI-provider te gebruiken, uw eigen LLM te leveren, of de verbinding aan te passen (bijvoorbeeld door uw eigen java.net.HttpURLConnection te verstrekken), geef een [IAIWebClient](../../com.aspose.slides/iaiwebclient)-implementatie door aan de SlidesAIAgent(IAIWebClient)-constructor.
+Het onderstaande voorbeeld gebruikt de standaard [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient), die wordt aangemaakt door de parameterloze SlidesAIAgent()-constructor en verbinding maakt met Aspose's eigen LLM. Om een andere AI-provider te gebruiken, uw eigen LLM te leveren of de verbinding aan te passen (bijvoorbeeld door uw eigen java.net.HttpURLConnection te voorzien), geeft u een [IAIWebClient](../../com.aspose.slides/iaiwebclient)-implementatie door aan de SlidesAIAgent(IAIWebClient)-constructor.
 
 ```
 String prompt = "Generate a presentation about Aspose.Slides for Java. Highlight its key features, use cases, and explain why it is better than its competitors.";
@@ -135,5 +141,5 @@ String prompt = "Generate a presentation about Aspose.Slides for Java. Highlight
  }
 ``` |
 
-**Returns:**
+**Retour:**
 [IPresentation](../../com.aspose.slides/ipresentation)

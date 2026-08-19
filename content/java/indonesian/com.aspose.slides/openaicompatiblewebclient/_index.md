@@ -14,18 +14,18 @@ java.lang.Object
 public final class OpenAICompatibleWebClient implements IAIWebClient, System.IDisposable
 ```
 
-Implementasi bawaan [IAIWebClient](../../com.aspose.slides/iaiwebclient) yang terhubung ke penyedia LLM yang kompatibel dengan OpenAI pada URL dasar yang ditentukan.
+Implementasi bawaan [IAIWebClient](../../com.aspose.slides/iaiwebclient) yang menghubungkan ke penyedia LLM yang kompatibel dengan OpenAI pada URL dasar yang ditentukan.
 ## Konstruktor
 
 | Konstruktor | Deskripsi |
 | --- | --- |
-| [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-) | Membuat instance klien web yang kompatibel dengan OpenAI. |
-| [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl, HttpURLConnection httpClient)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | Membuat instance klien web yang kompatibel dengan OpenAI yang menggunakan HttpClient yang dikelola secara eksternal. |
+| [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-) | Membuat instance dari klien web yang kompatibel dengan OpenAI. |
+| [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl, HttpURLConnection httpClient)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | Membuat instance dari klien web yang kompatibel dengan OpenAI yang menggunakan HttpURLConnection yang dikelola secara eksternal. |
 ## Metode
 
 | Metode | Deskripsi |
 | --- | --- |
-| [callChat(String instruction)](#callChat-java.lang.String-) |  |
+| [callChat(String instruction)](#callChat-java.lang.String-) | Mengirimkan instruksi obrolan ke model AI menggunakan instance HttpURLConnection yang dikelola secara eksternal dan mengembalikan pesan respons untuk instruksi yang diberikan. |
 | [createConversation()](#createConversation--) | Membuat instance percakapan. |
 | [dispose()](#dispose--) | Melepaskan sumber daya yang digunakan oleh instance ini. |
 ### OpenAICompatibleWebClient(String model, String apiKey, String baseUrl) {#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-}
@@ -33,23 +33,30 @@ Implementasi bawaan [IAIWebClient](../../com.aspose.slides/iaiwebclient) yang te
 public OpenAICompatibleWebClient(String model, String apiKey, String baseUrl)
 ```
 
-Membuat instance klien web yang kompatibel dengan OpenAI.
+
+Membuat instance dari klien web yang kompatibel dengan OpenAI.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | model | java.lang.String | Nama model yang didukung oleh penyedia LLM. |
 | apiKey | java.lang.String | Kunci API (token). |
-| baseUrl | java.lang.String | URL dasar LLM yang kompatibel dengan OpenAI. |
+| baseUrl | java.lang.String | URL dasar dari LLM yang kompatibel dengan OpenAI.
+
 ```
-using (OpenAICompatibleWebClient aiClient = new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1"))
- {
+OpenAICompatibleWebClient aiClient =
+         new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1");
+ try {
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (aiClient != null) aiClient.dispose();
  }
 ``` |
 
@@ -58,25 +65,33 @@ using (OpenAICompatibleWebClient aiClient = new OpenAICompatibleWebClient("model
 public OpenAICompatibleWebClient(String model, String apiKey, String baseUrl, HttpURLConnection httpClient)
 ```
 
-Membuat instance klien web yang kompatibel dengan OpenAI yang menggunakan HttpClient yang dikelola secara eksternal. HttpClient yang diberikan tidak dibuang oleh instance ini dan tetap dimiliki oleh pemanggil.
+
+Membuat instance dari klien web yang kompatibel dengan OpenAI yang menggunakan HttpURLConnection yang dikelola secara eksternal. HttpURLConnection yang disediakan tidak dibuang oleh instance ini dan tetap dimiliki oleh pemanggil.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | model | java.lang.String | Nama model yang didukung oleh penyedia LLM. |
 | apiKey | java.lang.String | Kunci API (token). |
-| baseUrl | java.lang.String | URL dasar LLM yang kompatibel dengan OpenAI. |
-| httpClient | java.net.HttpURLConnection | Sebuah instance HttpClient yang dikelola secara eksternal. |
+| baseUrl | java.lang.String | URL dasar dari LLM yang kompatibel dengan OpenAI. |
+| httpClient | java.net.HttpURLConnection | Instance HttpURLConnection yang dikelola secara eksternal.
+
 ```
-using (HttpClient httpClient = new HttpClient())
- {
-     OpenAICompatibleWebClient aiClient = new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1", httpClient);
+URL url = new URL(url);
+ HttpURLConnection httpClient = (HttpURLConnection) url.openConnection();
+ try {
+     OpenAICompatibleWebClient aiClient =
+             new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1", httpClient);
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (httpClient != null) httpClient.disconnect();
  }
 ``` |
 
@@ -85,19 +100,21 @@ using (HttpClient httpClient = new HttpClient())
 public String callChat(String instruction)
 ```
 
-Mengirimkan instruksi chat ke model AI menggunakan instance HttpConnection yang disediakan dan mengembalikan pesan respons ke instruksi yang diberikan.
+
+Mengirimkan instruksi obrolan ke model AI menggunakan instance HttpURLConnection yang dikelola secara eksternal dan mengembalikan pesan respons untuk instruksi yang diberikan.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| instruction | java.lang.String |  |
+| instruction | java.lang.String | Instruksi atau pesan yang akan diproses oleh model AI. |
 
 **Mengembalikan:**
-java.lang.String
+java.lang.String - Pesan yang dihasilkan oleh model AI sebagai respons terhadap instruksi yang diberikan.
 ### createConversation() {#createConversation--}
 ```
 public final IAIConversation createConversation()
 ```
+
 
 Membuat instance percakapan. Tidak seperti panggilan AI reguler, percakapan mempertahankan seluruh konteks.
 
@@ -107,5 +124,6 @@ Membuat instance percakapan. Tidak seperti panggilan AI reguler, percakapan memp
 ```
 public final void dispose()
 ```
+
 
 Melepaskan sumber daya yang digunakan oleh instance ini.

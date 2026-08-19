@@ -1,20 +1,20 @@
 ---
 title: Html5Options
-second_title: Aspose.Slides برای Java API مرجع
-description: نمایانگر گزینه‌های خروجی HTML5 است.
+second_title: Aspose.Slides برای مرجع API جاوا
+description: نمایشگر گزینه‌های خروجی HTML5.
 type: docs
 url: /fa/com.aspose.slides/html5options/
 ---
-**ارث‌بری:**
+**Inheritance:**
 java.lang.Object, [com.aspose.slides.SaveOptions](../../com.aspose.slides/saveoptions)
 
-**تمام رابط‌های پیاده‌سازی‌شده:**
+**All Implemented Interfaces:**
 [com.aspose.slides.IHtml5Options](../../com.aspose.slides/ihtml5options)
 ```
 public class Html5Options extends SaveOptions implements IHtml5Options
 ```
 
-نمایانگر گزینه‌های خروجی HTML5 است.
+نمایشگر گزینه‌های خروجی HTML5.
 
 --------------------
 
@@ -32,43 +32,43 @@ public class Html5Options extends SaveOptions implements IHtml5Options
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-## Constructors
 
-| Constructor | Description |
-| --- | --- |
-| [Html5Options()](#Html5Options--) | Default constructor. |
-## Methods
+## سازندگان
 
-| Method | Description |
+| سازنده | توضیح |
 | --- | --- |
-| [getAnimateTransitions()](#getAnimateTransitions--) | Returns or sets transitions animation option. |
-| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | Returns or sets transitions animation option. |
-| [getAnimateShapes()](#getAnimateShapes--) | Returns or sets shapes animation option. |
-| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Returns or sets shapes animation option. |
-| [getEmbedImages()](#getEmbedImages--) | Returns or sets images embedding option. |
-| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Returns or sets images embedding option. |
-| [getOutputPath()](#getOutputPath--) | Determines where external resources should be stored. |
-| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Determines where external resources should be stored. |
-| [getPicturesCompression()](#getPicturesCompression--) | Represents the pictures compression level |
-| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Represents the pictures compression level |
-| [getDisableFontLigatures()](#getDisableFontLigatures--) | Gets or sets a value indicating whether text is rendered without using ligatures. |
-| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Gets or sets a value indicating whether text is rendered without using ligatures. |
-| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
-| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [Html5Options()](#Html5Options--) | سازنده پیش‌فرض. |
+## متدها
+
+| متد | توضیح |
+| --- | --- |
+| [getAnimateTransitions()](#getAnimateTransitions--) | مقدار یا تنظیم گزینهٔ انیمیشن انتقال‌ها. |
+| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | مقدار یا تنظیم گزینهٔ انیمیشن انتقال‌ها. |
+| [getAnimateShapes()](#getAnimateShapes--) | مقدار یا تنظیم گزینهٔ انیمیشن اشکال. |
+| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | مقدار یا تنظیم گزینهٔ انیمیشن اشکال. |
+| [getEmbedImages()](#getEmbedImages--) | مقدار یا تنظیم گزینهٔ درج تصاویر. |
+| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | مقدار یا تنظیم گزینهٔ درج تصاویر. |
+| [getOutputPath()](#getOutputPath--) | تعیین مکان ذخیره‌سازی منابع خارجی. |
+| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | تعیین مکان ذخیره‌سازی منابع خارجی. |
+| [getPicturesCompression()](#getPicturesCompression--) | نمایانگر سطح فشرده‌سازی تصاویر |
+| [setPicturesCompression(int value)](#setPicturesCompression-int-) | نمایانگر سطح فشرده‌سازی تصاویر |
+| [getDisableFontLigatures()](#getDisableFontLigatures--) | دریافت یا تنظیم مقداری که نشان می‌دهد متن بدون استفاده از لیگاتورها رندر می‌شود. |
+| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | دریافت یا تنظیم مقداری که نشان می‌دهد متن بدون استفاده از لیگاتورها رندر می‌شود. |
+| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | دریافت یا تنظیم حالت قرارگیری اسلایدها در صفحه هنگام خروجی گرفتن یک ارائه [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | دریافت یا تنظیم حالت قرارگیری اسلایدها در صفحه هنگام خروجی گرفتن یک ارائه [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 ### Html5Options() {#Html5Options--}
 ```
 public Html5Options()
 ```
 
-
-Default constructor.
+سازنده پیش‌فرض.
 
 ### getAnimateTransitions() {#getAnimateTransitions--}
 ```
 public final boolean getAnimateTransitions()
 ```
 
-Returns or sets transitions animation option. Read/write boolean.
+دریافت یا تنظیم گزینهٔ انیمیشن انتقال‌ها. متغیر boolean قابل خواندن/نوشتن.
 
 --------------------
 
@@ -86,14 +86,14 @@ Returns or sets transitions animation option. Read/write boolean.
 >  }
 > ```
 
-**Returns:**
+**بازگشت:**
 boolean
 ### setAnimateTransitions(boolean value) {#setAnimateTransitions-boolean-}
 ```
 public final void setAnimateTransitions(boolean value)
 ```
 
-Returns or sets transitions animation option. Read/write boolean.
+دریافت یا تنظیم گزینهٔ انیمیشن انتقال‌ها. متغیر boolean قابل خواندن/نوشتن.
 
 --------------------
 
@@ -111,8 +111,8 @@ Returns or sets transitions animation option. Read/write boolean.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**پارامترها:**
+| پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -121,7 +121,7 @@ Returns or sets transitions animation option. Read/write boolean.
 public final boolean getAnimateShapes()
 ```
 
-گزینهٔ انیمیشن اشکال را برمی‌گرداند یا تنظیم می‌کند. بولی قابل خواندن/نوشتن.
+دریافت یا تنظیم گزینهٔ انیمیشن اشکال. متغیر boolean قابل خواندن/نوشتن.
 
 --------------------
 
@@ -139,14 +139,14 @@ public final boolean getAnimateShapes()
 >  }
 > ```
 
-**Returns:**
+**بازگشت:**
 boolean
 ### setAnimateShapes(boolean value) {#setAnimateShapes-boolean-}
 ```
 public final void setAnimateShapes(boolean value)
 ```
 
-Returns or sets shapes animation option. Read/write boolean.
+دریافت یا تنظیم گزینهٔ انیمیشن اشکال. متغیر boolean قابل خواندن/نوشتن.
 
 --------------------
 
@@ -164,8 +164,8 @@ Returns or sets shapes animation option. Read/write boolean.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**پارامترها:**
+| پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -174,7 +174,7 @@ Returns or sets shapes animation option. Read/write boolean.
 public final boolean getEmbedImages()
 ```
 
-Returns or sets images embedding option. Read/write boolean.
+دریافت یا تنظیم گزینهٔ درج تصاویر. متغیر boolean قابل خواندن/نوشتن.
 
 --------------------
 
@@ -191,14 +191,14 @@ Returns or sets images embedding option. Read/write boolean.
 >  }
 > ```
 
-**Returns:**
+**بازگشت:**
 boolean
 ### setEmbedImages(boolean value) {#setEmbedImages-boolean-}
 ```
 public final void setEmbedImages(boolean value)
 ```
 
-Returns or sets images embedding option. Read/write boolean.
+دریافت یا تنظیم گزینهٔ درج تصاویر. متغیر boolean قابل خواندن/نوشتن.
 
 --------------------
 
@@ -215,8 +215,8 @@ Returns or sets images embedding option. Read/write boolean.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**پارامترها:**
+| پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -225,7 +225,7 @@ Returns or sets images embedding option. Read/write boolean.
 public final String getOutputPath()
 ```
 
-Determines where external resources should be stored. Read/write String.
+تعیین مکان ذخیره‌سازی منابع خارجی. متغیر String قابل خواندن/نوشتن.
 
 --------------------
 
@@ -243,19 +243,19 @@ Determines where external resources should be stored. Read/write String.
 >  }
 > ```
 
-**Returns:**
+**بازگشت:**
 java.lang.String
 ### setOutputPath(String value) {#setOutputPath-java.lang.String-}
 ```
 public final void setOutputPath(String value)
 ```
 
-مشخص می‌کند که منابع خارجی در کجا ذخیره شوند. رشته قابل خواندن/نوشتن.
+تعیین مکان ذخیره‌سازی منابع خارجی. متغیر String قابل خواندن/نوشتن.
 
 --------------------
 
 > ```
-> مثال:
+> Example:
 >  
 >  Presentation pres = new Presentation("demo.pptx");
 >  try {
@@ -268,8 +268,8 @@ public final void setOutputPath(String value)
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**پارامترها:**
+| پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
@@ -278,19 +278,19 @@ public final void setOutputPath(String value)
 public final int getPicturesCompression()
 ```
 
-Represents the pictures compression level
+نمایانگر سطح فشرده‌سازی تصاویر
 
-**Returns:**
+**بازگشت:**
 int
 ### setPicturesCompression(int value) {#setPicturesCompression-int-}
 ```
 public final void setPicturesCompression(int value)
 ```
 
-سطح فشرده‌سازی تصاویر را نشان می‌دهد
+نمایانگر سطح فشرده‌سازی تصاویر
 
-**Parameters:**
-| Parameter | Type | Description |
+**پارامترها:**
+| پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | value | int |  |
 
@@ -299,7 +299,7 @@ public final void setPicturesCompression(int value)
 public final boolean getDisableFontLigatures()
 ```
 
-Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false.
+دریافت یا تنظیم مقداری که نشان می‌دهد متن بدون استفاده از لیگاتورها رندر می‌شود. هنگام تنظیم به true، لیگاتورها در خروجی رندر شده غیرفعال می‌شوند. به‌طور پیش‌فرض، این ویژگی برابر false است.
 
 --------------------
 
@@ -309,7 +309,7 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      Html5Options options = new Html5Options();
->      options.setDisableFontLigatures(true); // غیرفعال کردن لیگچرها در رندر متن
+>      options.setDisableFontLigatures(true); // در رندر متن لیگاتورها را غیرفعال کنید
 > 
 >      pres.save("output.html", SaveFormat.Html5, options);
 >  } finally {
@@ -317,14 +317,14 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 >  }
 > ```
 
-**Returns:**
+**بازگشت:**
 boolean
 ### setDisableFontLigatures(boolean value) {#setDisableFontLigatures-boolean-}
 ```
 public final void setDisableFontLigatures(boolean value)
 ```
 
-Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false.
+دریافت یا تنظیم مقداری که نشان می‌دهد متن بدون استفاده از لیگاتورها رندر می‌شود. هنگام تنظیم به true، لیگاتورها در خروجی رندر شده غیرفعال می‌شوند. به‌طور پیش‌فرض، این ویژگی برابر false است.
 
 --------------------
 
@@ -334,7 +334,7 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      Html5Options options = new Html5Options();
->      options.setDisableFontLigatures(true); // غیرفعال کردن لیگچرها در رندر متن
+>      options.setDisableFontLigatures(true); // در رندر متن لیگاتورها را غیرفعال کنید
 > 
 >      pres.save("output.html", SaveFormat.Html5, options);
 >  } finally {
@@ -342,8 +342,8 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**پارامترها:**
+| پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -352,7 +352,7 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 public final ISlidesLayoutOptions getSlidesLayoutOptions()
 ```
 
-Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+دریافت یا تنظیم حالت قرارگیری اسلایدها در صفحه هنگام خروجی گرفتن یک ارائه [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
 
@@ -372,19 +372,19 @@ Gets or sets the mode in which slides are placed on the page when exporting a pr
 >  }
 > ```
 
-**Returns:**
+**بازگشت:**
 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)
 ### setSlidesLayoutOptions(ISlidesLayoutOptions value) {#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-}
 ```
 public final void setSlidesLayoutOptions(ISlidesLayoutOptions value)
+```
 
-
-حالت قرارگیری اسلایدها بر روی صفحه هنگام خروجی‌گیری ارائه را دریافت یا تنظیم می‌کند [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+دریافت یا تنظیم حالت قرارگیری اسلایدها در صفحه هنگام خروجی گرفتن یک ارائه [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
 
 > ```
-> مثال:
+> Example:
 >  
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
@@ -397,7 +397,7 @@ public final void setSlidesLayoutOptions(ISlidesLayoutOptions value)
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
->  ```
+> ```
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
