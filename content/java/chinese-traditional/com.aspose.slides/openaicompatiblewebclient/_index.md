@@ -1,67 +1,60 @@
 ---
 title: OpenAICompatibleWebClient
-second_title: Aspose.Slides for Java API 參考
-description: 一個內建的實作，可在指定的基礎 URL 連接相容 OpenAI 的 LLM 提供者。
+second_title: Aspose.Slides 的 Java API 參考
+description: 一個內建的實作，可於指定的基礎 URL 連接至相容 OpenAI 的 LLM 提供者。
 type: docs
 url: /zh-hant/com.aspose.slides/openaicompatiblewebclient/
 ---
-**Inheritance:**  
-繼承：
-
+**繼承：**
 java.lang.Object
 
-**All Implemented Interfaces:**  
-所有已實作的介面：
-
-[com.aspose.slides.IAIWebClient](../../com.aspose.slides/iaiwebclient), com.aspose.ms.System.IDisposable  
+**全部已實作的介面：**
+[com.aspose.slides.IAIWebClient](../../com.aspose.slides/iaiwebclient), com.aspose.ms.System.IDisposable
 ```
 public final class OpenAICompatibleWebClient implements IAIWebClient, System.IDisposable
 ```
 
-一個內建的 [IAIWebClient](../../com.aspose.slides/iaiwebclient) 實作，可在指定的基礎 URL 連接相容 OpenAI 的 LLM 提供者。
+一個內建的 [IAIWebClient](../../com.aspose.slides/iaiwebclient) 實作，能於指定的基礎 URL 連接至相容 OpenAI 的 LLM 提供者。
+## 建構子
 
-## Constructors  
-## 建構函式
-
-| Constructor | Description |
+| 建構子 | 說明 |
 | --- | --- |
-| [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-) | 建立 OpenAI 相容網路用戶端的實例。 |
-| [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl, HttpURLConnection httpClient)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | 建立使用外部管理的 HttpClient 的 OpenAI 相容網路用戶端實例。 |
-
-## Methods  
+| [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-) | 建立 OpenAI 相容的 Web 客戶端實例。 |
+| [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl, HttpURLConnection httpClient)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | 建立使用外部管理的 HttpURLConnection 的 OpenAI 相容 Web 客戶端實例。 |
 ## 方法
 
-| Method | Description |
+| 方法 | 說明 |
 | --- | --- |
-| [callChat(String instruction)](#callChat-java.lang.String-) |  |
+| [callChat(String instruction)](#callChat-java.lang.String-) | 使用外部管理的 HttpURLConnection 實例向 AI 模型發送聊天指令，並回傳對給定指令的回應訊息。 |
 | [createConversation()](#createConversation--) | 建立會話實例。 |
-| [dispose()](#dispose--) | 釋放此實例所使用的資源。 |
-
+| [dispose()](#dispose--) | 釋放此實例使用的資源。 |
 ### OpenAICompatibleWebClient(String model, String apiKey, String baseUrl) {#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-}
 ```
 public OpenAICompatibleWebClient(String model, String apiKey, String baseUrl)
 ```
 
-建立 OpenAI 相容網路用戶端的實例。
+建立 OpenAI 相容的 Web 客戶端實例。
 
-**Parameters:**  
 **參數：**
-
-| Parameter | Type | Description |
+| 參數 | 型別 | 說明 |
 | --- | --- | --- |
 | model | java.lang.String | LLM 提供者支援的模型名稱。 |
 | apiKey | java.lang.String | API 金鑰（令牌）。 |
 | baseUrl | java.lang.String | OpenAI 相容 LLM 的基礎 URL。 |
-
 ```
-using (OpenAICompatibleWebClient aiClient = new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1"))
- {
+OpenAICompatibleWebClient aiClient =
+         new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1");
+ try {
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (aiClient != null) aiClient.dispose();
  }
 ``` |
 
@@ -70,28 +63,31 @@ using (OpenAICompatibleWebClient aiClient = new OpenAICompatibleWebClient("model
 public OpenAICompatibleWebClient(String model, String apiKey, String baseUrl, HttpURLConnection httpClient)
 ```
 
-建立使用外部管理的 HttpClient 的 OpenAI 相容網路用戶端實例。提供的 HttpClient 不會在此實例中被釋放，仍由呼叫端負責管理。
+建立使用外部管理的 HttpURLConnection 的 OpenAI 相容 Web 客戶端實例。提供的 HttpURLConnection 不會被此實例處置，且仍由呼叫端擁有。
 
-**Parameters:**  
 **參數：**
-
-| Parameter | Type | Description |
+| 參數 | 型別 | 說明 |
 | --- | --- | --- |
 | model | java.lang.String | LLM 提供者支援的模型名稱。 |
 | apiKey | java.lang.String | API 金鑰（令牌）。 |
 | baseUrl | java.lang.String | OpenAI 相容 LLM 的基礎 URL。 |
-| httpClient | java.net.HttpURLConnection | 外部管理的 HttpClient 實例。 |
-
+| httpClient | java.net.HttpURLConnection | 一個外部管理的 HttpURLConnection 實例。 |
 ```
-using (HttpClient httpClient = new HttpClient())
- {
-     OpenAICompatibleWebClient aiClient = new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1", httpClient);
+URL url = new URL(url);
+ HttpURLConnection httpClient = (HttpURLConnection) url.openConnection();
+ try {
+     OpenAICompatibleWebClient aiClient =
+             new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1", httpClient);
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (httpClient != null) httpClient.disconnect();
  }
 ``` |
 
@@ -100,30 +96,24 @@ using (HttpClient httpClient = new HttpClient())
 public String callChat(String instruction)
 ```
 
-使用提供的 HttpConnection 實例向 AI 模型傳送聊天指令，並返回對該指令的回應訊息。
+使用外部管理的 HttpURLConnection 實例向 AI 模型發送聊天指令，並回傳對給定指令的回應訊息。
 
-**Parameters:**  
 **參數：**
-
-| Parameter | Type | Description |
+| 參數 | 型別 | 說明 |
 | --- | --- | --- |
-| instruction | java.lang.String |  |
+| instruction | java.lang.String | 要由 AI 模型處理的指令或訊息。 |
 
-**Returns:**  
-返回值：
-
-java.lang.String
+**傳回：**
+java.lang.String - 針對給定指令由 AI 模型產生的訊息。
 
 ### createConversation() {#createConversation--}
 ```
-public final IAIConversation createConversation()
+public final IIAConversation createConversation()
 ```
 
-建立會話實例。與普通 AI 呼叫不同，會話會保留完整的上下文。
+建立會話實例。與一般的 AI 呼叫不同，會話會保留完整的上下文。
 
-**Returns:**  
-返回值：
-
+**傳回：**
 [IAIConversation](../../com.aspose.slides/iaiconversation) - 一個 [IAIConversation](../../com.aspose.slides/iaiconversation) 實例。
 
 ### dispose() {#dispose--}
@@ -131,4 +121,4 @@ public final IAIConversation createConversation()
 public final void dispose()
 ```
 
-釋放此實例所使用的資源。
+釋放此實例使用的資源。

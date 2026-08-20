@@ -1,0 +1,105 @@
+---
+title: ColorOffset
+second_title: Aspose.Slides for Java API 참조
+description: 색 오프셋을 나타냅니다.
+type: docs
+url: /ko/com.aspose.slides/coloroffset/
+---
+**Inheritance:**  
+java.lang.Object
+
+**All Implemented Interfaces:**  
+[com.aspose.slides.IColorOffset](../../com.aspose.slides/icoloroffset)  
+```
+public class ColorOffset implements IColorOffset
+```
+
+색 오프셋을 나타냅니다.
+
+## 생성자
+
+| 생성자 | 설명 |
+| --- | --- |
+| [ColorOffset()](#ColorOffset--) |  |
+
+## 메서드
+
+| 메서드 | 설명 |
+| --- | --- |
+| [getValue0()](#getValue0--) | 오프셋의 첫 번째 값을 정의합니다. |
+| [setValue0(float value)](#setValue0-float-) | 오프셋의 첫 번째 값을 정의합니다. |
+| [getValue1()](#getValue1--) | 오프셋의 두 번째 값을 정의합니다. |
+| [setValue1(float value)](#setValue1-float-) | 오프셋의 두 번째 값을 정의합니다. |
+| [getValue2()](#getValue2--) | 오프셋의 세 번째 값을 정의합니다. |
+| [setValue2(float value)](#setValue2-float-) | 오프셋의 세 번째 값을 정의합니다. |
+
+### ColorOffset() {#ColorOffset--}
+```
+public ColorOffset()
+```
+
+### getValue0() {#getValue0--}
+```
+public final float getValue0()
+```
+
+오프셋의 첫 번째 값을 정의합니다. 읽기/쓰기 float.
+
+**Returns:**  
+float
+
+### setValue0(float value) {#setValue0-float-}
+```
+public final void setValue0(float value)
+```
+
+오프셋의 첫 번째 값을 정의합니다. 읽기/쓰기 float.
+
+**Parameters:**  
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| value | float |  |
+
+### getValue1() {#getValue1--}
+```
+public final float getValue1()
+```
+
+오프셋의 두 번째 값을 정의합니다. 읽기/쓰기 float.
+
+**Returns:**  
+float
+
+### setValue1(float value) {#setValue1-float-}
+```
+public final void setValue1(float value)
+```
+
+오프셋의 두 번째 값을 정의합니다. 읽기/쓰기 float.
+
+**Parameters:**  
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| value | float |  |
+
+### getValue2() {#getValue2--}
+```
+public final float getValue2()
+```
+
+오프셋의 세 번째 값을 정의합니다. 읽기/쓰기 float.
+
+**Returns:**  
+float
+
+### setValue2(float value) {#setValue2-float-}
+```
+public final void setValue2(float value)
+```
+
+오프셋의 세 번째 값을 정의합니다. 읽기/쓰기 float.
+
+**Parameters:**  
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| value | float |  |
