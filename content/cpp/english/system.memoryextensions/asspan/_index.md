@@ -3,7 +3,7 @@ title: AsSpan()
 second_title: Aspose.Slides for C++ API Reference
 description: Creates a span from an array.
 type: docs
-weight: 1
+weight: 14
 url: /system.memoryextensions/asspan/
 ---
 ## System::MemoryExtensions::AsSpan(const ArrayPtr\<T\>\&, int32_t, int32_t) function

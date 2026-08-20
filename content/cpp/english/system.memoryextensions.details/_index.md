@@ -3,7 +3,7 @@ title: "System::MemoryExtensions::Details"
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 638
+weight: 651
 url: /system.memoryextensions.details/
 ---
 

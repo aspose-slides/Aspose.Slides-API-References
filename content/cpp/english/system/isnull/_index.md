@@ -3,7 +3,7 @@ title: IsNull()
 second_title: Aspose.Slides for C++ API Reference
 description: Implements 'is null' pattern.
 type: docs
-weight: 2315
+weight: 2341
 url: /system/isnull/
 ---
 ## System::IsNull(const T\&) function

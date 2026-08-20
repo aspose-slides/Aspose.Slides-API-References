@@ -3,7 +3,7 @@ title: Count()
 second_title: Aspose.Slides for C++ API Reference
 description: Counts occurrences of a value in a read-only span.
 type: docs
-weight: 118
+weight: 131
 url: /system.memoryextensions/count/
 ---
 ## System::MemoryExtensions::Count(const ReadOnlySpan\<T\>\&, const T\&) function

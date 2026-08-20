@@ -3,7 +3,7 @@ title: "System::MemoryExtensions"
 second_title: Aspose.Slides for C++ API Reference
 description: Provides extension methods for memory operations on spans and arrays.
 type: docs
-weight: 625
+weight: 638
 url: /system.memoryextensions/
 ---
 
@@ -13,6 +13,14 @@ Provides extension methods for memory operations on spans and arrays.
 
 | Function | Description |
 | --- | --- |
+| [ReadOnlyMemory](../system/readonlymemory/)\<char16_t\> [AsMemory](./asmemory/)(const [System::String](../system/string/)\&) | Creates a read-only memory from a string. |
+| [ReadOnlyMemory](../system/readonlymemory/)\<char16_t\> [AsMemory](./asmemory/)(const [System::String](../system/string/)\&, **int32_t**) | Creates a read-only memory from a string slice. |
+| [ReadOnlyMemory](../system/readonlymemory/)\<char16_t\> [AsMemory](./asmemory/)(const [System::String](../system/string/)\&, **int32_t**, **int32_t**) | Creates a read-only memory from a string slice. |
+| [Memory](../system/memory/)\<T\> [AsMemory](./asmemory/)(const [ArrayPtr](../system/arrayptr/)\<T\>\&) | Creates a mutable memory from an array. |
+| [Memory](../system/memory/)\<T\> [AsMemory](./asmemory/)(const [ArrayPtr](../system/arrayptr/)\<T\>\&, **int32_t**) | Creates a mutable memory from an array slice. |
+| [Memory](../system/memory/)\<T\> [AsMemory](./asmemory/)(const [ArrayPtr](../system/arrayptr/)\<T\>\&, **int32_t**, **int32_t**) | Creates a mutable memory from an array slice. |
+| [Memory](../system/memory/)\<T\> [AsMemory](./asmemory/)(const [ArraySegment](../system/arraysegment/)\<T\>\&) | Creates a mutable memory from an array segment. |
+| [Memory](../system/memory/)\<T\> [AsMemory](./asmemory/)(const [ArrayPtr](../system/arrayptr/)\<T\>\&, const [Range](../system/range/)\&) | Creates a mutable memory from a range within an array. |
 | [Span](../system/span/)\<T\> [AsSpan](./asspan/)(const [ArrayPtr](../system/arrayptr/)\<T\>\&, **int32_t**, **int32_t**) | Creates a span from an array. |
 | [ReadOnlySpan](../system/readonlyspan/)\<char16_t\> [AsSpan](./asspan/)(const [String](../system/string/)\&, **int32_t**, **int32_t**) | Creates a read-only span from a string. |
 | **int32_t** [BinarySearch](./binarysearch/)(const [ReadOnlySpan](../system/readonlyspan/)\<T\>\&, const TComparable\&) | Performs binary search on a sorted span. |

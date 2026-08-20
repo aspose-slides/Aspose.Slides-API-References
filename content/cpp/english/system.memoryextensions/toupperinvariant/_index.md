@@ -3,7 +3,7 @@ title: ToUpperInvariant()
 second_title: Aspose.Slides for C++ API Reference
 description: Converts characters to uppercase using invariant culture.
 type: docs
-weight: 482
+weight: 495
 url: /system.memoryextensions/toupperinvariant/
 ---
 ## System::MemoryExtensions::ToUpperInvariant(const ReadOnlySpan\<char16_t\>\&, Span\<char16_t\>\&) function

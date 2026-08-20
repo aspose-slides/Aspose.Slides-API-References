@@ -3,7 +3,7 @@ title: MakeConstRef_t
 second_title: Aspose.Slides for C++ API Reference
 description: Helper type for MakeConstRef modifier.
 type: docs
-weight: 4174
+weight: 4213
 url: /system/makeconstref_t/
 ---
 ## MakeConstRef_t typedef

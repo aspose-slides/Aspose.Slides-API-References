@@ -3,7 +3,7 @@ title: GetThumbnailImageAbort
 second_title: Aspose.Slides for C++ API Reference
 description: A callback to cancel GetThumbnailImage execution.
 type: docs
-weight: 404
+weight: 430
 url: /system.drawing/image/getthumbnailimageabort/
 ---
 ## GetThumbnailImageAbort typedef

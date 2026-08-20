@@ -3,7 +3,7 @@ title: "System::Reflection"
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 755
+weight: 768
 url: /system.reflection/
 ---
 

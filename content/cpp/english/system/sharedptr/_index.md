@@ -3,7 +3,7 @@ title: SharedPtr
 second_title: Aspose.Slides for C++ API Reference
 description: Alias for smart pointer widely used in the library.
 type: docs
-weight: 4213
+weight: 4252
 url: /system/sharedptr/
 ---
 ## SharedPtr typedef

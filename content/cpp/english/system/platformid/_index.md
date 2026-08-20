@@ -3,7 +3,7 @@ title: PlatformID
 second_title: Aspose.Slides for C++ API Reference
 description: Represents an operating system platform.
 type: docs
-weight: 3173
+weight: 3212
 url: /system/platformid/
 ---
 ## PlatformID enum

@@ -20,7 +20,7 @@ static IntPtr System::Runtime::InteropServices::Marshal::ReadIntPtr(IntPtr ptr, 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ptr | IntPtr | Memory buffer. |
+| ptr | IntPtr | [Memory](../../../system/memory/) buffer. |
 | offset | int | Offset to memory buffer. |
 
 ### Return Value

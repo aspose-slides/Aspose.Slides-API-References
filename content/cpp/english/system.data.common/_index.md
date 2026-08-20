@@ -3,7 +3,7 @@ title: "System::Data::Common"
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 443
+weight: 456
 url: /system.data.common/
 ---
 

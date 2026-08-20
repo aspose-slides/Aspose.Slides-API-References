@@ -3,7 +3,7 @@ title: "System::Threading::Tasks"
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 1015
+weight: 1028
 url: /system.threading.tasks/
 ---
 

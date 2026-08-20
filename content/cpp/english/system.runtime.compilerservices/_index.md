@@ -3,7 +3,7 @@ title: "System::Runtime::CompilerServices"
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 768
+weight: 781
 url: /system.runtime.compilerservices/
 ---
 
@@ -22,5 +22,6 @@ url: /system.runtime.compilerservices/
 | [ResultValueTaskAwaiter](./resultvaluetaskawaiter/) |  |
 | [RuntimeHelpers](./runtimehelpers/) | Helper class to get some object information in runtime. |
 | [TaskAwaiter](./taskawaiter/) |  |
+| [Unsafe](./unsafe/) | Provides low-level operations for unsafe memory manipulation. |
 | [ValueTaskAwaiter](./valuetaskawaiter/) |  |
 | [YieldAwaitable](./yieldawaitable/) | An awaitable type that is returned from TaskUtils::Yield(). |

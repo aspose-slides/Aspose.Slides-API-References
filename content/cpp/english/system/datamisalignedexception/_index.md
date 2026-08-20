@@ -3,7 +3,7 @@ title: DataMisalignedException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 4148
+weight: 4187
 url: /system/datamisalignedexception/
 ---
 ## DataMisalignedException typedef

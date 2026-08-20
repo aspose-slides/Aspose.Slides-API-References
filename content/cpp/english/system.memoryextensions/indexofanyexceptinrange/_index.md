@@ -3,7 +3,7 @@ title: IndexOfAnyExceptInRange()
 second_title: Aspose.Slides for C++ API Reference
 description: Finds the index of the first element that is outside the specified range in a ReadOnlySpan<T>
 type: docs
-weight: 183
+weight: 196
 url: /system.memoryextensions/indexofanyexceptinrange/
 ---
 ## System::MemoryExtensions::IndexOfAnyExceptInRange(const ReadOnlySpan\<T\>\&, const T\&, const T\&) function

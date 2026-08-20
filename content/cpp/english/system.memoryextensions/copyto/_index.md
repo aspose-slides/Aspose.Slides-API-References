@@ -3,7 +3,7 @@ title: CopyTo()
 second_title: Aspose.Slides for C++ API Reference
 description: Copies elements from an array to a span.
 type: docs
-weight: 105
+weight: 118
 url: /system.memoryextensions/copyto/
 ---
 ## System::MemoryExtensions::CopyTo(const ArrayPtr\<T\>\&, Span\<T\>\&) function
