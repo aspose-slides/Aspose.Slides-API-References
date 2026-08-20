@@ -1,58 +1,63 @@
 ---
 title: OpenAICompatibleWebClient
-second_title: Aspose.Slides जावा के लिए API संदर्भ
-description: एक बिल्ट-इन इम्प्लीमेंटेशन जो निर्दिष्ट बेस URL पर OpenAI-संगत LLM प्रदाता से कनेक्ट होता है।
+second_title: Aspose.Slides for Java API संदर्भ
+description: एक अंतर्निर्मित कार्यान्वयन जो एक निर्दिष्ट बेस URL पर OpenAI-समर्थित LLM प्रदाता से जुड़ता है।
 type: docs
 url: /hi/com.aspose.slides/openaicompatiblewebclient/
 ---
-**विरासत:**  
+**विरासत:**
 java.lang.Object
 
-**सभी लागू इंटरफ़ेस:**  
-[com.aspose.slides.IAIWebClient](../../com.aspose.slides/iaiwebclient), com.aspose.ms.System.IDisposable  
+**सभी कार्यान्वित इंटरफ़ेस:**
+[com.aspose.slides.IAIWebClient](../../com.aspose.slides/iaiwebclient), com.aspose.ms.System.IDisposable
 ```
 public final class OpenAICompatibleWebClient implements IAIWebClient, System.IDisposable
 ```
 
-एक बिल्ट-इन [IAIWebClient](../../com.aspose.slides/iaiwebclient) इम्प्लीमेंटेशन जो निर्दिष्ट बेस URL पर OpenAI-संगत LLM प्रदाता से कनेक्ट करता है।  
+एक अंतर्निर्मित [IAIWebClient](../../com.aspose.slides/iaiwebclient) कार्यान्वयन जो एक निर्दिष्ट बेस URL पर OpenAI-समर्थित LLM प्रदाता से जुड़ता है।
 
-## कन्स्ट्रक्टर
+## निर्माता
 
-| कन्स्ट्रक्टर | वर्णन |
+| निर्माता | विवरण |
 | --- | --- |
-| [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-) | OpenAI-संगत वेब क्लाइंट का एक उदाहरण बनाता है। |
-| [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl, HttpURLConnection httpClient)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | बाहरी रूप से प्रबंधित HttpClient का उपयोग करने वाला OpenAI-संगत वेब क्लाइंट का एक उदाहरण बनाता है। |
+| [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-) | OpenAI-समर्थित वेब क्लाइंट का एक उदाहरण बनाता है। |
+| [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl, HttpURLConnection httpClient)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | OpenAI-समर्थित वेब क्लाइंट का एक उदाहरण बनाता है जो एक बाहरी रूप से प्रबंधित  HttpURLConnection  का उपयोग करता है। |
 
-## मेथड्स
+## विधियाँ
 
-| मेथड | वर्णन |
+| विधि | विवरण |
 | --- | --- |
-| [callChat(String instruction)](#callChat-java.lang.String-) |  |
-| [createConversation()](#createConversation--) | एक वार्ता (conversation) का उदाहरण बनाता है। |
-| [dispose()](#dispose--) | इस उदाहरण द्वारा उपयोग किए गए संसाधनों को रिलीज़ करता है। |
+| [callChat(String instruction)](#callChat-java.lang.String-) | बाहरी रूप से प्रबंधित HttpURLConnection उदाहरण का उपयोग करके AI मॉडल को एक चैट निर्देश भेजता है और दिए गए निर्देश के लिए प्रतिक्रिया संदेश लौटाता है। |
+| [createConversation()](#createConversation--) | एक संवाद उदाहरण बनाता है। |
+| [dispose()](#dispose--) | इस उदाहरण द्वारा उपयोग किए गए संसाधनों को मुक्त करता है। |
 
 ### OpenAICompatibleWebClient(String model, String apiKey, String baseUrl) {#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-}
 ```
 public OpenAICompatibleWebClient(String model, String apiKey, String baseUrl)
 ```
 
-OpenAI-संगत वेब क्लाइंट का एक उदाहरण बनाता है।
+OpenAI-समर्थित वेब क्लाइंट का एक उदाहरण बनाता है।
 
-**पैरामीटर:**  
-| पैरामीटर | प्रकार | वर्णन |
+**पैरामीटर:**
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | model | java.lang.String | LLM प्रदाता द्वारा समर्थित मॉडल का नाम। |
 | apiKey | java.lang.String | API कुंजी (टोकन)। |
-| baseUrl | java.lang.String | OpenAI-संगत LLM का बेस URL। |
+| baseUrl | java.lang.String | OpenAI-समर्थित LLM का बेस URL। |
 ```
-using (OpenAICompatibleWebClient aiClient = new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1"))
- {
+OpenAICompatibleWebClient aiClient =
+         new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1");
+ try {
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (aiClient != null) aiClient.dispose();
  }
 ``` |
 
@@ -61,25 +66,31 @@ using (OpenAICompatibleWebClient aiClient = new OpenAICompatibleWebClient("model
 public OpenAICompatibleWebClient(String model, String apiKey, String baseUrl, HttpURLConnection httpClient)
 ```
 
-बाहरी रूप से प्रबंधित HttpClient का उपयोग करने वाला OpenAI-संगत वेब क्लाइंट का एक उदाहरण बनाता है। प्रदान किया गया HttpClient इस उदाहरण द्वारा डिस्पोज़ नहीं किया जाता और कॉलर के स्वामित्व में रहता है।
+OpenAI-समर्थित वेब क्लाइंट का एक उदाहरण बनाता है जो बाहरी रूप से प्रबंधित  HttpURLConnection  का उपयोग करता है। प्रदान किया गया HttpURLConnection इस उदाहरण द्वारा नष्ट नहीं किया जाता और कॉलर द्वारा ही स्वामित्व में रहता है।
 
-**पैरामीटर:**  
-| पैरामीटर | प्रकार | वर्णन |
+**पैरामीटर:**
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | model | java.lang.String | LLM प्रदाता द्वारा समर्थित मॉडल का नाम। |
 | apiKey | java.lang.String | API कुंजी (टोकन)। |
-| baseUrl | java.lang.String | OpenAI-संगत LLM का बेस URL। |
-| httpClient | java.net.HttpURLConnection | बाहरी रूप से प्रबंधित HttpClient उदाहरण। |
+| baseUrl | java.lang.String | OpenAI-समर्थित LLM का बेस URL। |
+| httpClient | java.net.HttpURLConnection | एक बाहरी रूप से प्रबंधित  HttpURLConnection  उदाहरण। |
 ```
-using (HttpClient httpClient = new HttpClient())
- {
-     OpenAICompatibleWebClient aiClient = new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1", httpClient);
+URL url = new URL(url);
+ HttpURLConnection httpClient = (HttpURLConnection) url.openConnection();
+ try {
+     OpenAICompatibleWebClient aiClient =
+             new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1", httpClient);
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (httpClient != null) httpClient.disconnect();
  }
 ``` |
 
@@ -88,28 +99,29 @@ using (HttpClient httpClient = new HttpClient())
 public String callChat(String instruction)
 ```
 
-प्रदान किए गए HttpConnection उदाहरण का उपयोग करके AI मॉडल को चैट निर्देश भेजता है और दिए गए निर्देश के लिए प्रतिक्रिया संदेश लौटाता है।
+बाहरी रूप से प्रबंधित HttpURLConnection उदाहरण का उपयोग करके AI मॉडल को एक चैट निर्देश भेजता है और दिए गए निर्देश के लिए प्रतिक्रिया संदेश लौटाता है।
 
-**पैरामीटर:**  
-| पैरामीटर | प्रकार | वर्णन |
+**पैरामीटर:**
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| instruction | java.lang.String |  |
-**रिटर्न:**  
-java.lang.String
+| instruction | java.lang.String | AI मॉडल द्वारा संसाधित करने के लिए निर्देश या संदेश। |
+
+**वापसी:**
+java.lang.String - AI मॉडल द्वारा दिए गए निर्देश के उत्तर में उत्पन्न किया गया संदेश।
 
 ### createConversation() {#createConversation--}
 ```
-public final IIAConversation createConversation()
+public final IAIConversation createConversation()
 ```
 
-एक वार्ता (conversation) का उदाहरण बनाता है। नियमित AI कॉलों के विपरीत, वार्ताएँ पूरे संदर्भ को बरकरार रखती हैं।
+एक संवाद उदाहरण बनाता है। नियमित AI कॉल्स के विपरीत, संवाद संपूर्ण संदर्भ को बनाए रखते हैं।
 
-**रिटर्न:**  
-[IAIConversation](../../com.aspose.slides/iaiconversation) - एक [IAIConversation](../../com.aspose.slides/iaiconversation) उदाहरण।
+**वापसी:**
+[IAIConversation](../../com.aspose.slides/iaiconversation) - An [IAIConversation](../../com.aspose.slides/iaiconversation) instance.
 
 ### dispose() {#dispose--}
 ```
 public final void dispose()
 ```
 
-इस उदाहरण द्वारा उपयोग किए गए संसाधनों को रिलीज़ करता है।
+इस उदाहरण द्वारा उपयोग किए गए संसाधनों को मुक्त करता है।

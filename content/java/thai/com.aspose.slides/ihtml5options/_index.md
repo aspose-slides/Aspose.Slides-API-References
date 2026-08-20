@@ -1,17 +1,17 @@
 ---
 title: IHtml5Options
-second_title: Aspose.Slides สำหรับ Java API Reference
-description: เป็นตัวเลือกการส่งออก HTML5.
+second_title: Aspose.Slides สำหรับการอ้างอิง API ของ Java
+description: แสดงตัวเลือกการส่งออก HTML5.
 type: docs
 url: /th/com.aspose.slides/ihtml5options/
 ---
-**อินเทอร์เฟซที่ทำทั้งหมด:**
+**ทั้งหมดของอินเทอร์เฟซที่นำไปใช้:**
 [com.aspose.slides.ISaveOptions](../../com.aspose.slides/isaveoptions)
 ```
 public interface IHtml5Options extends ISaveOptions
 ```
 
-เป็นตัวเลือกการส่งออก HTML5
+แสดงตัวเลือกการส่งออกเป็น HTML5
 
 --------------------
 
@@ -29,30 +29,30 @@ public interface IHtml5Options extends ISaveOptions
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-## Methods
+## เมธอด
 
-| Method | Description |
+| เมธอด | คำอธิบาย |
 | --- | --- |
-| [getAnimateTransitions()](#getAnimateTransitions--) | Returns or sets transitions animation option. |
-| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | Returns or sets transitions animation option. |
-| [getAnimateShapes()](#getAnimateShapes--) | Returns or sets shapes animation option. |
-| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Returns or sets shapes animation option. |
-| [getEmbedImages()](#getEmbedImages--) | Returns or sets images embedding option. |
-| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Returns or sets images embedding option. |
-| [getOutputPath()](#getOutputPath--) | Determines where external resources should be stored. |
-| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Determines where external resources should be stored. |
-| [getPicturesCompression()](#getPicturesCompression--) | Represents the pictures compression level Read/write  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
-| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Represents the pictures compression level Read/write  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
-| [getDisableFontLigatures()](#getDisableFontLigatures--) | Gets or sets a value indicating whether text is rendered without using ligatures. |
-| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Gets or sets a value indicating whether text is rendered without using ligatures. |
-| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
-| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [getAnimateTransitions()](#getAnimateTransitions--) | รับหรือกำหนดค่าตัวเลือกรายการแอนิเมชันการเปลี่ยนแปลง. |
+| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | รับหรือกำหนดค่าตัวเลือกรายการแอนิเมชันการเปลี่ยนแปลง. |
+| [getAnimateShapes()](#getAnimateShapes--) | รับหรือกำหนดค่าตัวเลือกรายการแอนิเมชันรูปร่าง. |
+| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | รับหรือกำหนดค่าตัวเลือกรายการแอนิเมชันรูปร่าง. |
+| [getEmbedImages()](#getEmbedImages--) | รับหรือกำหนดค่าตัวเลือกการฝังภาพ. |
+| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | รับหรือกำหนดค่าตัวเลือกการฝังภาพ. |
+| [getOutputPath()](#getOutputPath--) | กำหนดตำแหน่งที่ควรจัดเก็บทรัพยากรภายนอก. |
+| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | กำหนดตำแหน่งที่ควรจัดเก็บทรัพยากรภายนอก. |
+| [getPicturesCompression()](#getPicturesCompression--) | แสดงระดับการบีบอัดรูปภาพ อ่าน/เขียน  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
+| [setPicturesCompression(int value)](#setPicturesCompression-int-) | แสดงระดับการบีบอัดรูปภาพ อ่าน/เขียน  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
+| [getDisableFontLigatures()](#getDisableFontLigatures--) | รับหรือกำหนดค่าที่บ่งชี้ว่าข้อความถูกแสดงโดยไม่ใช้ ligatures. |
+| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | รับหรือกำหนดค่าที่บ่งชี้ว่าข้อความถูกแสดงโดยไม่ใช้ ligatures. |
+| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | รับหรือกำหนดโหมดที่สไลด์ถูกจัดวางบนหน้าเมื่อส่งออกงานนำเสนอ [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | รับหรือกำหนดโหมดที่สไลด์ถูกจัดวางบนหน้าเมื่อส่งออกงานนำเสนอ [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 ### getAnimateTransitions() {#getAnimateTransitions--}
 ```
 public abstract boolean getAnimateTransitions()
 ```
 
-Returns or sets transitions animation option. Read/write boolean.
+รับหรือกำหนดค่าตัวเลือกรายการแอนิเมชันการเปลี่ยนแปลง. อ่าน/เขียน boolean.
 
 --------------------
 
@@ -70,14 +70,14 @@ Returns or sets transitions animation option. Read/write boolean.
 >  }
 > ```
 
-**Returns:**
+**คืนค่า:**
 boolean
 ### setAnimateTransitions(boolean value) {#setAnimateTransitions-boolean-}
 ```
 public abstract void setAnimateTransitions(boolean value)
 ```
 
-Returns or sets transitions animation option. Read/write boolean.
+รับหรือกำหนดค่าตัวเลือกรายการแอนิเมชันการเปลี่ยนแปลง. อ่าน/เขียน boolean.
 
 --------------------
 
@@ -95,8 +95,8 @@ Returns or sets transitions animation option. Read/write boolean.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**พารามิเตอร์:**
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -105,7 +105,7 @@ Returns or sets transitions animation option. Read/write boolean.
 public abstract boolean getAnimateShapes()
 ```
 
-Returns or sets shapes animation option. Read/write boolean.
+รับหรือกำหนดค่าตัวเลือกรายการแอนิเมชันรูปร่าง. อ่าน/เขียน boolean.
 
 --------------------
 
@@ -123,14 +123,14 @@ Returns or sets shapes animation option. Read/write boolean.
 >  }
 > ```
 
-**Returns:**
+**คืนค่า:**
 boolean
 ### setAnimateShapes(boolean value) {#setAnimateShapes-boolean-}
 ```
 public abstract void setAnimateShapes(boolean value)
 ```
 
-Returns or sets shapes animation option. Read/write boolean.
+รับหรือกำหนดค่าตัวเลือกรายการแอนิเมชันรูปร่าง. อ่าน/เขียน boolean.
 
 --------------------
 
@@ -148,8 +148,8 @@ Returns or sets shapes animation option. Read/write boolean.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**พารามิเตอร์:**
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -158,8 +158,7 @@ Returns or sets shapes animation option. Read/write boolean.
 public abstract boolean getEmbedImages()
 ```
 
-
-Returns or sets images embedding option. Read/write boolean.
+รับหรือกำหนดค่าตัวเลือกการฝังภาพ. อ่าน/เขียน boolean.
 
 --------------------
 
@@ -176,14 +175,14 @@ Returns or sets images embedding option. Read/write boolean.
 >  }
 > ```
 
-**Returns:**
+**คืนค่า:**
 boolean
 ### setEmbedImages(boolean value) {#setEmbedImages-boolean-}
 ```
 public abstract void setEmbedImages(boolean value)
 ```
 
-Returns or sets images embedding option. Read/write boolean.
+รับหรือกำหนดค่าตัวเลือกการฝังภาพ. อ่าน/เขียน boolean.
 
 --------------------
 
@@ -200,8 +199,8 @@ Returns or sets images embedding option. Read/write boolean.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**พารามิเตอร์:**
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -210,7 +209,7 @@ Returns or sets images embedding option. Read/write boolean.
 public abstract String getOutputPath()
 ```
 
-Determines where external resources should be stored. Read/write String.
+กำหนดตำแหน่งที่ควรจัดเก็บทรัพยากรภายนอก. อ่าน/เขียน String.
 
 --------------------
 
@@ -228,14 +227,14 @@ Determines where external resources should be stored. Read/write String.
 >  }
 > ```
 
-**Returns:**
+**คืนค่า:**
 java.lang.String
 ### setOutputPath(String value) {#setOutputPath-java.lang.String-}
 ```
 public abstract void setOutputPath(String value)
 ```
 
-Determines where external resources should be stored. Read/write String.
+กำหนดตำแหน่งที่ควรจัดเก็บทรัพยากรภายนอก. อ่าน/เขียน String.
 
 --------------------
 
@@ -253,8 +252,8 @@ Determines where external resources should be stored. Read/write String.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**พารามิเตอร์:**
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
@@ -263,19 +262,19 @@ Determines where external resources should be stored. Read/write String.
 public abstract int getPicturesCompression()
 ```
 
-Represents the pictures compression level Read/write  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
+แสดงระดับการบีบอัดรูปภาพ อ่าน/เขียน  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
 
-**Returns:**
+**คืนค่า:**
 int
 ### setPicturesCompression(int value) {#setPicturesCompression-int-}
 ```
 public abstract void setPicturesCompression(int value)
 ```
 
-Represents the pictures compression level Read/write  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
+แสดงระดับการบีบอัดรูปภาพ อ่าน/เขียน  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
 
-**Parameters:**
-| Parameter | Type | Description |
+**พารามิเตอร์:**
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
 | value | int |  |
 
@@ -284,7 +283,7 @@ Represents the pictures compression level Read/write  PicturesCompression (\#get
 public abstract boolean getDisableFontLigatures()
 ```
 
-Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false.
+รับหรือกำหนดค่าที่บ่งชี้ว่าข้อความถูกแสดงโดยไม่ใช้ ligatures. เมื่อกำหนดเป็น true จะปิดการใช้งาน ligatures ในผลลัพธ์ที่แสดงโดยค่าเริ่มต้นคุณสมบัตินี้ตั้งค่าเป็น false.
 
 --------------------
 
@@ -294,7 +293,7 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      Html5Options options = new Html5Options();
->      options.setDisableFontLigatures(true); // ปิดการใช้ลิเกเจอร์ในการแสดงผลข้อความ
+>      options.setDisableFontLigatures(true); // ปิดการใช้ ligatures ในการแสดงผลข้อความ
 > 
 >      pres.save("output.html", SaveFormat.Html5, options);
 >  } finally {
@@ -302,14 +301,14 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 >  }
 > ```
 
-**Returns:**
+**คืนค่า:**
 boolean
 ### setDisableFontLigatures(boolean value) {#setDisableFontLigatures-boolean-}
 ```
 public abstract void setDisableFontLigatures(boolean value)
 ```
 
-Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false.
+รับหรือกำหนดค่าที่บ่งชี้ว่าข้อความถูกแสดงโดยไม่ใช้ ligatures. เมื่อกำหนดเป็น true จะปิดการใช้งาน ligatures ในผลลัพธ์ที่แสดงโดยค่าเริ่มต้นคุณสมบัตินี้ตั้งค่าเป็น false.
 
 --------------------
 
@@ -319,7 +318,7 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      Html5Options options = new Html5Options();
->      options.setDisableFontLigatures(true); // ปิดการใช้ลิเกเจอร์ในการแสดงผลข้อความ
+>      options.setDisableFontLigatures(true); // ปิดการใช้ ligatures ในการแสดงผลข้อความ
 > 
 >      pres.save("output.html", SaveFormat.Html5, options);
 >  } finally {
@@ -327,8 +326,8 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**พารามิเตอร์:**
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -337,7 +336,7 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 public abstract ISlidesLayoutOptions getSlidesLayoutOptions()
 ```
 
-Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+รับหรือกำหนดโหมดที่สไลด์ถูกจัดวางบนหน้าเมื่อส่งออกงานนำเสนอ [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
 
@@ -357,18 +356,19 @@ Gets or sets the mode in which slides are placed on the page when exporting a pr
 >  }
 > ```
 
-**Returns:**
+**คืนค่า:**
 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)
 ### setSlidesLayoutOptions(ISlidesLayoutOptions value) {#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-}
 ```
 public abstract void setSlidesLayoutOptions(ISlidesLayoutOptions value)
+```
 
-รับหรือกำหนดโหมดที่สไลด์ถูกวางบนหน้าเมื่อส่งออกงานนำเสนอ [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+รับหรือกำหนดโหมดที่สไลด์ถูกจัดวางบนหน้าเมื่อส่งออกงานนำเสนอ [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
 
 > ```
-> ตัวอย่าง:
+> Example:
 >  
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
@@ -384,6 +384,6 @@ public abstract void setSlidesLayoutOptions(ISlidesLayoutOptions value)
 > ```
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
 | value | [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) |  |

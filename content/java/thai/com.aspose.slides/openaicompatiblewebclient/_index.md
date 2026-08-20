@@ -1,111 +1,127 @@
 ---
 title: OpenAICompatibleWebClient
-second_title: Aspose.Slides สำหรับ Java API Reference
-description: การทำงานในตัวที่เชื่อมต่อกับผู้ให้บริการ LLM ที่เข้ากันได้กับ OpenAI ที่ URL ฐานที่ระบุ
+second_title: Aspose.Slides สำหรับอ้างอิง API ของ Java
+description: การทำงานในตัวที่สร้างมาแล้วซึ่งเชื่อมต่อกับผู้ให้บริการ LLM ที่เข้ากันได้กับ OpenAI ณ URL ฐานที่ระบุ
 type: docs
 url: /th/com.aspose.slides/openaicompatiblewebclient/
 ---
 **การสืบทอด:**
 java.lang.Object
 
-**อินเทอร์เฟซที่ทำการ Implement ทั้งหมด:**
+**อินเทอร์เฟซที่ทำการใช้งานทั้งหมด:**
 [com.aspose.slides.IAIWebClient](../../com.aspose.slides/iaiwebclient), com.aspose.ms.System.IDisposable
 ```
-public final class OpenAICompatibleWebClient implements IAIWebClient, System.IDisposable
+public final class OpenAICompatibleWebClient implements IIAWebClient, System.IDisposable
 ```
 
-การทำงานที่สร้างขึ้นโดยอัตโนมัติ [IAIWebClient](../../com.aspose.slides/iaiwebclient) ที่เชื่อมต่อกับผู้ให้บริการ LLM ที่เข้ากันได้กับ OpenAI ที่ URL ฐานที่ระบุ
-## ตัวสร้าง
+การทำงานในตัว [IAIWebClient](../../com.aspose.slides/iaiwebclient) ที่เชื่อมต่อกับผู้ให้บริการ LLM ที่เข้ากันได้กับ OpenAI ที่กำหนด URL ฐาน
 
-| ตัวสร้าง | คำอธิบาย |
+## คอนสตรัคเตอร์
+
+| คอนสตรัคเตอร์ | คำอธิบาย |
 | --- | --- |
-| [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-) | สร้างอินสแตนซ์ของไคลเอนต์เว็บที่เข้ากันได้กับ OpenAI |
-| [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl, HttpURLConnection httpClient)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | สร้างอินสแตนซ์ของไคลเอนต์เว็บที่เข้ากันได้กับ OpenAI ที่ใช้ HttpClient ที่จัดการจากภายนอก |
+| [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-) | สร้างอินสแตนซ์ของเว็บไคลเอนต์ที่เข้ากันได้กับ OpenAI |
+| [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl, HttpURLConnection httpClient)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | สร้างอินสแตนซ์ของเว็บไคลเอนต์ที่เข้ากันได้กับ OpenAI ที่ใช้ HttpURLConnection ที่จัดการจากภายนอก |
+
 ## เมธอด
 
 | เมธอด | คำอธิบาย |
 | --- | --- |
-| [callChat(String instruction)](#callChat-java.lang.String-) |  |
+| [callChat(String instruction)](#callChat-java.lang.String-) | ส่งคำสั่งแช็ตไปยังโมเดล AI โดยใช้อินสแตนซ์ HttpURLConnection ที่จัดการจากภายนอกและคืนข้อความตอบกลับสำหรับคำสั่งที่กำหนด |
 | [createConversation()](#createConversation--) | สร้างอินสแตนซ์ของการสนทนา |
-| [dispose()](#dispose--) | ปล่อยทรัพยากรที่อินสแตนซ์นี้ใช้ |
+| [dispose()](#dispose--) | ปล่อยทรัพยากรที่ใช้โดยอินสแตนซ์นี้ |
+
 ### OpenAICompatibleWebClient(String model, String apiKey, String baseUrl) {#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-}
 ```
 public OpenAICompatibleWebClient(String model, String apiKey, String baseUrl)
 ```
 
-สร้างอินสแตนซ์ของไคลเอนต์เว็บที่เข้ากันได้กับ OpenAI
+สร้างอินสแตนซ์ของเว็บไคลเอนต์ที่เข้ากันได้กับ OpenAI.
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
-| model | java.lang.String | ชื่อโมเดลที่ผู้ให้บริการ LLM รองรับ |
-| apiKey | java.lang.String | คีย์ API (โทเค็น) |
-| baseUrl | java.lang.String | URL ฐานของ LLM ที่เข้ากันได้กับ OpenAI |
-
+| model | java.lang.String | ชื่อโมเดลที่ผู้ให้บริการ LLM รองรับ. |
+| apiKey | java.lang.String | คีย์ API (โทเคน). |
+| baseUrl | java.lang.String | URL ฐานของ LLM ที่เข้ากันได้กับ OpenAI. |
 ```
-using (OpenAICompatibleWebClient aiClient = new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1"))
- {
+OpenAICompatibleWebClient aiClient =
+         new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1");
+ try {
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (aiClient != null) aiClient.dispose();
  }
 ``` |
+
 ### OpenAICompatibleWebClient(String model, String apiKey, String baseUrl, HttpURLConnection httpClient) {#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-}
 ```
 public OpenAICompatibleWebClient(String model, String apiKey, String baseUrl, HttpURLConnection httpClient)
 ```
 
-สร้างอินสแตนซ์ของไคลเอนต์เว็บที่เข้ากันได้กับ OpenAI ที่ใช้ HttpClient ที่จัดการจากภายนอก  HttpClient ที่ให้มา ไม่ถูกทำลายโดยอินสแตนซ์นี้และยังคงเป็นของผู้เรียกใช้งาน
+สร้างอินสแตนซ์ของเว็บไคลเอนต์ที่เข้ากันได้กับ OpenAI ที่ใช้ HttpURLConnection ที่จัดการจากภายนอก โดย HttpURLConnection ที่ส่งเข้ามานั้นจะไม่ถูกทำลายโดยอินสแตนซ์นี้และยังคงเป็นของผู้เรียกใช้.
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
-| model | java.lang.String | ชื่อโมเดลที่ผู้ให้บริการ LLM รองรับ |
-| apiKey | java.lang.String | คีย์ API (โทเค็น) |
-| baseUrl | java.lang.String | URL ฐานของ LLM ที่เข้ากันได้กับ OpenAI |
-| httpClient | java.net.HttpURLConnection | อินสแตนซ์ HttpClient ที่จัดการจากภายนอก |
-
+| model | java.lang.String | ชื่อโมเดลที่ผู้ให้บริการ LLM รองรับ. |
+| apiKey | java.lang.String | คีย์ API (โทเคน). |
+| baseUrl | java.lang.String | URL ฐานของ LLM ที่เข้ากันได้กับ OpenAI. |
+| httpClient | java.net.HttpURLConnection | อินสแตนซ์ HttpURLConnection ที่จัดการจากภายนอก. |
 ```
-using (HttpClient httpClient = new HttpClient())
- {
-     OpenAICompatibleWebClient aiClient = new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1", httpClient);
+URL url = new URL(url);
+ HttpURLConnection httpClient = (HttpURLConnection) url.openConnection();
+ try {
+     OpenAICompatibleWebClient aiClient =
+             new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1", httpClient);
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (httpClient != null) httpClient.disconnect();
  }
 ``` |
+
 ### callChat(String instruction) {#callChat-java.lang.String-}
 ```
 public String callChat(String instruction)
 ```
 
-ส่งคำสั่งแชทไปยังโมเดล AI โดยใช้อินสแตนซ์ HttpConnection ที่ให้มาและคืนข้อความตอบกลับต่อคำสั่งที่ให้
+ส่งคำสั่งแช็ตไปยังโมเดล AI โดยใช้อินสแตนซ์ HttpURLConnection ที่จัดการจากภายนอกและคืนข้อความตอบกลับสำหรับคำสั่งที่ให้.
 
 **พารามิเตอร์:**
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
-| instruction | java.lang.String |  |
+| instruction | java.lang.String | คำสั่งหรือข้อความที่จะให้โมเดล AI ประมวลผล. |
 
-**คืนค่า:**
-java.lang.String
+**ผลลัพธ์:**
+java.lang.String - ข้อความที่โมเดล AI สร้างขึ้นเพื่อตอบกลับต่อคำสั่งที่ให้.
+
 ### createConversation() {#createConversation--}
 ```
-public final IIAConversation createConversation()
+public final IAIConversation createConversation()
 ```
 
-สร้างอินสแตนซ์ของการสนทนา  การสนทนาจะรักษาบริบททั้งหมดต่างจากการเรียก AI ปกติ
+สร้างอินสแตนซ์ของการสนทนา โดยการสนทนาจะรักษาบริบททั้งหมดไว้ ต่างจากการเรียก AI ปกติ.
 
-**คืนค่า:**
-[IAIConversation](../../com.aspose.slides/iaiconversation) - เป็นอินสแตนซ์ของ [IAIConversation](../../com.aspose.slides/iaiconversation)
+**ผลลัพธ์:**
+[IAIConversation](../../com.aspose.slides/iaiconversation) - อินสแตนซ์ [IAIConversation](../../com.aspose.slides/iaiconversation)
+
 ### dispose() {#dispose--}
 ```
 public final void dispose()
 ```
 
-ปล่อยทรัพยากรที่อินสแตนซ์นี้ใช้.
+ปล่อยทรัพยากรที่ใช้งานโดยอินสแตนซ์นี้.

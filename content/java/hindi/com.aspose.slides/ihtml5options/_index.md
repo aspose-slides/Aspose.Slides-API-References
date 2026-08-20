@@ -1,11 +1,11 @@
 ---
 title: IHtml5Options
-second_title: Aspose.Slides के लिए जावा API संदर्भ
+second_title: Aspose.Slides for Java API संदर्भ
 description: HTML5 निर्यात विकल्पों का प्रतिनिधित्व करता है।
 type: docs
 url: /hi/com.aspose.slides/ihtml5options/
 ---
-**All Implemented Interfaces:**
+**सभी लागू इंटरफ़ेस:**
 [com.aspose.slides.ISaveOptions](../../com.aspose.slides/isaveoptions)
 ```
 public interface IHtml5Options extends ISaveOptions
@@ -29,30 +29,31 @@ HTML5 निर्यात विकल्पों का प्रतिन�
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-## Methods
+## विधियाँ
 
-| Method | Description |
+| विधि | विवरण |
 | --- | --- |
-| [getAnimateTransitions()](#getAnimateTransitions--) | Returns or sets transitions animation option. |
-| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | Returns or sets transitions animation option. |
-| [getAnimateShapes()](#getAnimateShapes--) | Returns or sets shapes animation option. |
-| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Returns or sets shapes animation option. |
-| [getEmbedImages()](#getEmbedImages--) | Returns or sets images embedding option. |
-| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Returns or sets images embedding option. |
-| [getOutputPath()](#getOutputPath--) | Determines where external resources should be stored. |
-| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Determines where external resources should be stored. |
-| [getPicturesCompression()](#getPicturesCompression--) | Represents the pictures compression level Read/write  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
-| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Represents the pictures compression level Read/write  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
-| [getDisableFontLigatures()](#getDisableFontLigatures--) | Gets or sets a value indicating whether text is rendered without using ligatures. |
-| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Gets or sets a value indicating whether text is rendered without using ligatures. |
-| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
-| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [getAnimateTransitions()](#getAnimateTransitions--) | ट्रांज़िशन एनीमेशन विकल्प को लौटाता है या सेट करता है। |
+| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | ट्रांज़िशन एनीमेशन विकल्प को लौटाता है या सेट करता है। |
+| [getAnimateShapes()](#getAnimateShapes--) | आकृति एनीमेशन विकल्प को लौटाता है या सेट करता है। |
+| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | आकृति एनीमेशन विकल्प को लौटाता है या सेट करता है। |
+| [getEmbedImages()](#getEmbedImages--) | छवि एम्बेड विकल्प को लौटाता है या सेट करता है। |
+| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | छवि एम्बेड विकल्प को लौटाता है या सेट करता है। |
+| [getOutputPath()](#getOutputPath--) | निर्धारित करता है कि बाहरी संसाधन कहाँ संग्रहीत किए जाने चाहिए। |
+| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | निर्धारित करता है कि बाहरी संसाधन कहाँ संग्रहीत किए जाने चाहिए। |
+| [getPicturesCompression()](#getPicturesCompression--) | चित्र संपीड़न स्तर का प्रतिनिधित्व करता है पढ़ें/लिखें PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
+| [setPicturesCompression(int value)](#setPicturesCompression-int-) | चित्र संपीड़न स्तर का प्रतिनिधित्व करता है पढ़ें/लिखें PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
+| [getDisableFontLigatures()](#getDisableFontLigatures--) | एक मान प्राप्त करता है या सेट करता है जो दर्शाता है कि टेक्स्ट लिगेचर का उपयोग किए बिना रेंडर किया जाता है। |
+| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | एक मान प्राप्त करता है या सेट करता है जो दर्शाता है कि टेक्स्ट लिगेचर का उपयोग किए बिना रेंडर किया जाता है। |
+| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | प्रेजेंटेशन निर्यात करते समय स्लाइड्स को पृष्ठ पर रखने के मोड को प्राप्त करता है या सेट करता है [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)। |
+| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | प्रेजेंटेशन निर्यात करते समय स्लाइड्स को पृष्ठ पर रखने के मोड को प्राप्त करता है या सेट करता है [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)। |
+
 ### getAnimateTransitions() {#getAnimateTransitions--}
 ```
 public abstract boolean getAnimateTransitions()
 ```
 
-Returns or sets transitions animation option. Read/write boolean.
+ट्रांज़िशन एनीमेशन विकल्प को लौटाता है या सेट करता है। पढ़ें/लिखें boolean.
 
 --------------------
 
@@ -70,14 +71,14 @@ Returns or sets transitions animation option. Read/write boolean.
 >  }
 > ```
 
-**Returns:**
+**रिटर्न:**  
 boolean
 ### setAnimateTransitions(boolean value) {#setAnimateTransitions-boolean-}
 ```
 public abstract void setAnimateTransitions(boolean value)
 ```
 
-Returns or sets transitions animation option. Read/write boolean.
+ट्रांज़िशन एनीमेशन विकल्प को लौटाता है या सेट करता है। पढ़ें/लिखें boolean.
 
 --------------------
 
@@ -95,8 +96,8 @@ Returns or sets transitions animation option. Read/write boolean.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**पैरामीटर:**  
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -105,7 +106,7 @@ Returns or sets transitions animation option. Read/write boolean.
 public abstract boolean getAnimateShapes()
 ```
 
-Returns or sets shapes animation option. Read/write boolean.
+आकृति एनीमेशन विकल्प को लौटाता है या सेट करता है। पढ़ें/लिखें boolean.
 
 --------------------
 
@@ -123,14 +124,14 @@ Returns or sets shapes animation option. Read/write boolean.
 >  }
 > ```
 
-**Returns:**
+**रिटर्न:**  
 boolean
 ### setAnimateShapes(boolean value) {#setAnimateShapes-boolean-}
 ```
 public abstract void setAnimateShapes(boolean value)
 ```
 
-Returns or sets shapes animation option. Read/write boolean.
+आकृति एनीमेशन विकल्प को लौटाता है या सेट करता है। पढ़ें/लिखें boolean.
 
 --------------------
 
@@ -148,8 +149,8 @@ Returns or sets shapes animation option. Read/write boolean.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**पैरामीटर:**  
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -158,7 +159,7 @@ Returns or sets shapes animation option. Read/write boolean.
 public abstract boolean getEmbedImages()
 ```
 
-Returns or sets images embedding option. Read/write boolean.
+छवि एम्बेड विकल्प को लौटाता है या सेट करता है। पढ़ें/लिखें boolean.
 
 --------------------
 
@@ -175,14 +176,14 @@ Returns or sets images embedding option. Read/write boolean.
 >  }
 > ```
 
-**Returns:**
+**रिटर्न:**  
 boolean
 ### setEmbedImages(boolean value) {#setEmbedImages-boolean-}
 ```
 public abstract void setEmbedImages(boolean value)
 ```
 
-Returns or sets images embedding option. Read/write boolean.
+छवि एम्बेड विकल्प को लौटाता है या सेट करता है। पढ़ें/लिखें boolean.
 
 --------------------
 
@@ -199,8 +200,8 @@ Returns or sets images embedding option. Read/write boolean.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**पैरामीटर:**  
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -209,7 +210,7 @@ Returns or sets images embedding option. Read/write boolean.
 public abstract String getOutputPath()
 ```
 
-Determines where external resources should be stored. Read/write String.
+निर्धारित करता है कि बाहरी संसाधन कहाँ संग्रहीत किए जाने चाहिए। पढ़ें/लिखें String.
 
 --------------------
 
@@ -227,14 +228,14 @@ Determines where external resources should be stored. Read/write String.
 >  }
 > ```
 
-**Returns:**
+**रिटर्न:**  
 java.lang.String
 ### setOutputPath(String value) {#setOutputPath-java.lang.String-}
 ```
 public abstract void setOutputPath(String value)
 ```
 
-Determines where external resources should be stored. Read/write String.
+निर्धारित करता है कि बाहरी संसाधन कहाँ संग्रहीत किए जाने चाहिए। पढ़ें/लिखें String.
 
 --------------------
 
@@ -252,8 +253,8 @@ Determines where external resources should be stored. Read/write String.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**पैरामीटर:**  
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
@@ -262,19 +263,19 @@ Determines where external resources should be stored. Read/write String.
 public abstract int getPicturesCompression()
 ```
 
-Represents the pictures compression level Read/write  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
+चित्र संपीड़न स्तर का प्रतिनिधित्व करता है पढ़ें/लिखें PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int))।
 
-**Returns:**
+**रिटर्न:**  
 int
 ### setPicturesCompression(int value) {#setPicturesCompression-int-}
 ```
 public abstract void setPicturesCompression(int value)
 ```
 
-Represents the pictures compression level Read/write  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
+चित्र संपीड़न स्तर का प्रतिनिधित्व करता है पढ़ें/लिखें PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int))।
 
-**Parameters:**
-| Parameter | Type | Description |
+**पैरामीटर:**  
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | value | int |  |
 
@@ -283,7 +284,7 @@ Represents the pictures compression level Read/write  PicturesCompression (\#get
 public abstract boolean getDisableFontLigatures()
 ```
 
-Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false.
+एक मान प्राप्त करता है या सेट करता है जो दर्शाता है कि टेक्स्ट लिगेचर का उपयोग किए बिना रेंडर किया जाता है। जब true पर सेट किया जाता है, तो रेंडर आउटपुट में लिगेचर अक्षम हो जाते हैं। डिफ़ॉल्ट रूप से, यह प्रॉपर्टी false पर सेट होती है।
 
 --------------------
 
@@ -301,14 +302,14 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 >  }
 > ```
 
-**Returns:**
+**रिटर्न:**  
 boolean
 ### setDisableFontLigatures(boolean value) {#setDisableFontLigatures-boolean-}
 ```
 public abstract void setDisableFontLigatures(boolean value)
 ```
 
-Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false.
+एक मान प्राप्त करता है या सेट करता है जो दर्शाता है कि टेक्स्ट लिगेचर का उपयोग किए बिना रेंडर किया जाता है। जब true पर सेट किया जाता है, तो रेंडर आउटपुट में लिगेचर अक्षम हो जाते हैं। डिफ़ॉल्ट रूप से, यह प्रॉपर्टी false पर सेट होती है।
 
 --------------------
 
@@ -326,8 +327,8 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**पैरामीटर:**  
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -336,7 +337,7 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 public abstract ISlidesLayoutOptions getSlidesLayoutOptions()
 ```
 
-Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+प्रेजेंटेशन निर्यात करते समय स्लाइड्स को पृष्ठ पर रखने के मोड को प्राप्त करता है या सेट करता है [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)।
 
 --------------------
 
@@ -356,13 +357,14 @@ Gets or sets the mode in which slides are placed on the page when exporting a pr
 >  }
 > ```
 
-**Returns:**
+**रिटर्न:**  
 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)
 ### setSlidesLayoutOptions(ISlidesLayoutOptions value) {#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-}
 ```
 public abstract void setSlidesLayoutOptions(ISlidesLayoutOptions value)
+```
 
-प्रस्तुति निर्यात करने पर पृष्ठ पर स्लाइड्स को रखने के मोड को प्राप्त करता है या सेट करता है [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)।
+प्रेजेंटेशन निर्यात करते समय स्लाइड्स को पृष्ठ पर रखने के मोड को प्राप्त करता है या सेट करता है [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)।
 
 --------------------
 
@@ -382,7 +384,7 @@ public abstract void setSlidesLayoutOptions(ISlidesLayoutOptions value)
 >  }
 > ```
 
-**पर्याय:**
-| Parameter | Type | Description |
+**पैरामीटर:**  
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | value | [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) |  |
