@@ -3,7 +3,7 @@ title: YieldAwaitable
 second_title: Aspose.Slides for C++ API Reference
 description: "An awaitable type that is returned from TaskUtils::Yield()."
 type: docs
-weight: 131
+weight: 144
 url: /system.runtime.compilerservices/yieldawaitable/
 ---
 ## YieldAwaitable class

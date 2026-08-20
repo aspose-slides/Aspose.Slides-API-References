@@ -63,6 +63,7 @@ class Bitmap : public System::Drawing::Image
 | IntPtr [GetHbitmap](./gethbitmap/)() | Creates a GDI bitmap object from the bitmap represented by the current object. |
 | [Color](../color/) [GetPixel](./getpixel/)(int, int) | Returns the color of the specified pixel. |
 | static int [GetPixelFormatSize](../image/getpixelformatsize/)([Imaging::PixelFormat](../../system.drawing.imaging/pixelformat/)) | Returns the number of bits used to represent the color depth in the specified pixel format. |
+| [SharedPtr](../../system/sharedptr/)\<[Imaging::PropertyItem](../../system.drawing.imaging/propertyitem/)\> [GetPropertyItem](../image/getpropertyitem/)(int) const | Gets the property item with the specified ID from this image. |
 | const SkBitmap * [GetSkBitmap](./getskbitmap/)() const override | Returns a raw pointer to the underlying SkBitmap object. |
 | [SharedPtr](../../system/sharedptr/)\<[Image](../image/)\> [GetThumbnailImage](../image/getthumbnailimage/)(int, int, [Image::GetThumbnailImageAbort](../image/getthumbnailimageabort/), IntPtr) | Gets a thumbnail for this [System::Drawing::Image](../image/) object. |
 | virtual const [TypeInfo](../../system/typeinfo/)\& [GetType](../../system/object/gettype/)() const | Gets actual type of object. Analog of C# [System.Object.GetType()](../../system/object/gettype/) call. |
@@ -96,6 +97,7 @@ class Bitmap : public System::Drawing::Image
 | void [set_Palette](./set_palette/)([Imaging::ColorPalettePtr](../../system.drawing.imaging/colorpaletteptr/)) override | Sets the color palette used by the image represented by the current object. |
 | virtual void [set_Tag](../image/set_tag/)(const [System::SharedPtr](../../system/sharedptr/)\<[System::Object](../../system/object/)\>) | Sets an object that provides additional data about the image. |
 | void [SetPixel](./setpixel/)(int, int, [Color](../color/)) | Sets the color of the specified pixel in the bitmap image represented by the current object. |
+| void [SetPropertyItem](../image/setpropertyitem/)(const [SharedPtr](../../system/sharedptr/)\<[Imaging::PropertyItem](../../system.drawing.imaging/propertyitem/)\>\&) | Sets the specified property item for this image. |
 | void [SetResolution](./setresolution/)(**float**, **float**) | Sets the resolution of the image. |
 | virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode. |
 | int [SharedCount](../../system/object/sharedcount/)() const | Gets current value of shared reference counter. |

@@ -3,7 +3,7 @@ title: Discard()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns the default-constructed temporary instance of the specified type, which can be placed instead of discarding '_' argument.
 type: docs
-weight: 2237
+weight: 2263
 url: /system/discard/
 ---
 ## System::Discard(T\&&) function

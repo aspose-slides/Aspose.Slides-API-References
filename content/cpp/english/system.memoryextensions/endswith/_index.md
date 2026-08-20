@@ -3,7 +3,7 @@ title: EndsWith()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines if a ReadOnlySpan<T> ends with a single value.
 type: docs
-weight: 131
+weight: 144
 url: /system.memoryextensions/endswith/
 ---
 ## System::MemoryExtensions::EndsWith(const ReadOnlySpan\<T\>\&, const T\&) function

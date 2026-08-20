@@ -3,7 +3,7 @@ title: ContainsAnyExceptInRange()
 second_title: Aspose.Slides for C++ API Reference
 description: Checks if a read-only span contains any element outside the specified range.
 type: docs
-weight: 79
+weight: 92
 url: /system.memoryextensions/containsanyexceptinrange/
 ---
 ## System::MemoryExtensions::ContainsAnyExceptInRange(const ReadOnlySpan\<T\>\&, const T\&, const T\&) function

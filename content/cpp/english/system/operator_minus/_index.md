@@ -3,7 +3,7 @@ title: operator-()
 second_title: Aspose.Slides for C++ API Reference
 description: Calculates the number of days between two days of week.
 type: docs
-weight: 2172
+weight: 2198
 url: /system/operator_minus/
 ---
 ## System::operator-(DayOfWeek, DayOfWeek) function

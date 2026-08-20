@@ -3,7 +3,7 @@ title: Get()
 second_title: Aspose.Slides for C++ API Reference
 description: Function to get N-th element of tuple given. Overload for base object.
 type: docs
-weight: 2406
+weight: 2432
 url: /system/get/
 ---
 ## System::Get(const SharedPtr\<Object\>\&) function

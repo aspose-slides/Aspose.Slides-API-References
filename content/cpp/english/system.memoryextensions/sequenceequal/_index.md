@@ -3,7 +3,7 @@ title: SequenceEqual()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines if two ReadOnlySpans contain identical elements in the same order.
 type: docs
-weight: 326
+weight: 339
 url: /system.memoryextensions/sequenceequal/
 ---
 ## System::MemoryExtensions::SequenceEqual(const ReadOnlySpan\<T\>\&, const ReadOnlySpan\<T\>\&) function

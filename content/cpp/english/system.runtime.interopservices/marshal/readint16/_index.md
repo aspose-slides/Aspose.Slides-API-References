@@ -20,7 +20,7 @@ static int16_t System::Runtime::InteropServices::Marshal::ReadInt16(IntPtr ptr, 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ptr | IntPtr | Memory buffer. |
+| ptr | IntPtr | [Memory](../../../system/memory/) buffer. |
 | offset | int | Offset to memory buffer. |
 
 ### Return Value

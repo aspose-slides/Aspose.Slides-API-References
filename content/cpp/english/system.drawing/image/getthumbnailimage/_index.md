@@ -3,7 +3,7 @@ title: GetThumbnailImage()
 second_title: Aspose.Slides for C++ API Reference
 description: "Gets a thumbnail for this System::Drawing::Image object."
 type: docs
-weight: 326
+weight: 352
 url: /system.drawing/image/getthumbnailimage/
 ---
 ## Image::GetThumbnailImage(int, int, Image::GetThumbnailImageAbort, IntPtr) method

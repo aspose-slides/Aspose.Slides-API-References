@@ -3,7 +3,7 @@ title: MakeAsync()
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 3017
+weight: 3056
 url: /system/makeasync/
 ---
 ## System::MakeAsync(const Details::AsyncFunction\&) function

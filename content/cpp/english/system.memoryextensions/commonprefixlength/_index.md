@@ -3,7 +3,7 @@ title: CommonPrefixLength()
 second_title: Aspose.Slides for C++ API Reference
 description: Finds the length of the common prefix between two spans.
 type: docs
-weight: 27
+weight: 40
 url: /system.memoryextensions/commonprefixlength/
 ---
 ## System::MemoryExtensions::CommonPrefixLength(const ReadOnlySpan\<T\>\&, const ReadOnlySpan\<T\>\&) function

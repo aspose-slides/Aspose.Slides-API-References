@@ -3,7 +3,7 @@ title: LastIndexOf()
 second_title: Aspose.Slides for C++ API Reference
 description: Finds the last occurrence of a sequence within a span.
 type: docs
-weight: 209
+weight: 222
 url: /system.memoryextensions/lastindexof/
 ---
 ## System::MemoryExtensions::LastIndexOf(const ReadOnlySpan\<T\>\&, const ReadOnlySpan\<T\>\&) function

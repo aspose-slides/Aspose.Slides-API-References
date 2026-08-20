@@ -3,7 +3,7 @@ title: Contains()
 second_title: Aspose.Slides for C++ API Reference
 description: Checks if a read-only span contains a specific value.
 type: docs
-weight: 40
+weight: 53
 url: /system.memoryextensions/contains/
 ---
 ## System::MemoryExtensions::Contains(const ReadOnlySpan\<T\>\&, const T\&) function

@@ -20,7 +20,7 @@ static void System::Runtime::InteropServices::Marshal::WriteByte(IntPtr ptr, int
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ptr | IntPtr | Memory buffer. |
+| ptr | IntPtr | [Memory](../../../system/memory/) buffer. |
 | offset | int | Offset to memory buffer. |
 | value | **uint8_t** | to write. |
 
@@ -38,7 +38,7 @@ static void System::Runtime::InteropServices::Marshal::WriteByte(IntPtr ptr, uin
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ptr | IntPtr | Memory buffer. |
+| ptr | IntPtr | [Memory](../../../system/memory/) buffer. |
 | value | **uint8_t** | to write. |
 
 ## See Also

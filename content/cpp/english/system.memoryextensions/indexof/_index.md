@@ -3,7 +3,7 @@ title: IndexOf()
 second_title: Aspose.Slides for C++ API Reference
 description: Finds the index of a ReadOnlySpan<T> value in another ReadOnlySpan<T>
 type: docs
-weight: 144
+weight: 157
 url: /system.memoryextensions/indexof/
 ---
 ## System::MemoryExtensions::IndexOf(const ReadOnlySpan\<T\>\&, const ReadOnlySpan\<T\>\&) function

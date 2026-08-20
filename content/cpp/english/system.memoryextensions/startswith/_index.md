@@ -3,7 +3,7 @@ title: StartsWith()
 second_title: Aspose.Slides for C++ API Reference
 description: Checks if the span starts with the specified value.
 type: docs
-weight: 352
+weight: 365
 url: /system.memoryextensions/startswith/
 ---
 ## System::MemoryExtensions::StartsWith(const ReadOnlySpan\<T\>\&, const T\&) function

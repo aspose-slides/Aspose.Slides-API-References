@@ -50,6 +50,7 @@ class Metafile : public System::Drawing::Image
 | IntPtr [GetHenhmetafile](./gethenhmetafile/)() | NOT IMPLEMENTED. |
 | [SharedPtr](../../system/sharedptr/)\<[MetafileHeader](../metafileheader/)\> [GetMetafileHeader](./getmetafileheader/)() | Returns a header associated with the current object. |
 | static int [GetPixelFormatSize](../../system.drawing/image/getpixelformatsize/)([Imaging::PixelFormat](../pixelformat/)) | Returns the number of bits used to represent the color depth in the specified pixel format. |
+| [SharedPtr](../../system/sharedptr/)\<[Imaging::PropertyItem](../propertyitem/)\> [GetPropertyItem](../../system.drawing/image/getpropertyitem/)(int) const | Gets the property item with the specified ID from this image. |
 | [SharedPtr](../../system/sharedptr/)\<[Image](../../system.drawing/image/)\> [GetThumbnailImage](../../system.drawing/image/getthumbnailimage/)(int, int, [Image::GetThumbnailImageAbort](../../system.drawing/image/getthumbnailimageabort/), IntPtr) | Gets a thumbnail for this [System::Drawing::Image](../../system.drawing/image/) object. |
 | virtual const [TypeInfo](../../system/typeinfo/)\& [GetType](../../system/object/gettype/)() const | Gets actual type of object. Analog of C# [System.Object.GetType()](../../system/object/gettype/) call. |
 | virtual **bool** [Is](../../system/object/is/)(const [TypeInfo](../../system/typeinfo/)\&) const | Check if object represents an instance of type described by targetType. Analog of C# 'is' operator. |
@@ -85,6 +86,7 @@ class Metafile : public System::Drawing::Image
 | int [SelectActiveFrame](../../system.drawing/image/selectactiveframe/)(const [Imaging::FrameDimensionPtr](../framedimensionptr/)\&, int) | Selects the specified frame. |
 | virtual void [set_Palette](../../system.drawing/image/set_palette/)([Imaging::ColorPalettePtr](../colorpaletteptr/)) | Sets the color palette used by the image represented by the current object. |
 | virtual void [set_Tag](../../system.drawing/image/set_tag/)(const [System::SharedPtr](../../system/sharedptr/)\<[System::Object](../../system/object/)\>) | Sets an object that provides additional data about the image. |
+| void [SetPropertyItem](../../system.drawing/image/setpropertyitem/)(const [SharedPtr](../../system/sharedptr/)\<[Imaging::PropertyItem](../propertyitem/)\>\&) | Sets the specified property item for this image. |
 | virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode. |
 | int [SharedCount](../../system/object/sharedcount/)() const | Gets current value of shared reference counter. |
 | [Object](../../system/object/) * [SharedRefAdded](../../system/object/sharedrefadded/)() | Increments shared reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |

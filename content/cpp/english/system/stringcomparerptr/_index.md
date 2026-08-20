@@ -3,7 +3,7 @@ title: StringComparerPtr
 second_title: Aspose.Slides for C++ API Reference
 description: An alias for a shared pointer to an instance of StringComparer class.
 type: docs
-weight: 4226
+weight: 4265
 url: /system/stringcomparerptr/
 ---
 ## StringComparerPtr typedef

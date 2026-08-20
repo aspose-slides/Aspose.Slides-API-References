@@ -3,7 +3,7 @@ title: ValueTuple
 second_title: Aspose.Slides for C++ API Reference
 description: Class that represents a ValueTuple data structure.
 type: docs
-weight: 1444
+weight: 1470
 url: /system/valuetuple/
 ---
 ## ValueTuple class

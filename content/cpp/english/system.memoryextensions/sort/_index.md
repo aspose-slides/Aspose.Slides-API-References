@@ -3,7 +3,7 @@ title: Sort()
 second_title: Aspose.Slides for C++ API Reference
 description: Sorts a Span using a custom comparer.
 type: docs
-weight: 339
+weight: 352
 url: /system.memoryextensions/sort/
 ---
 ## System::MemoryExtensions::Sort(const Span\<T\>\&, const SharedPtr\<TComparer\>\&) function

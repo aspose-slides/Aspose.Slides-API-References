@@ -3,7 +3,7 @@ title: BinarySearch()
 second_title: Aspose.Slides for C++ API Reference
 description: Performs binary search on a sorted span.
 type: docs
-weight: 14
+weight: 27
 url: /system.memoryextensions/binarysearch/
 ---
 ## System::MemoryExtensions::BinarySearch(const ReadOnlySpan\<T\>\&, const TComparable\&) function
