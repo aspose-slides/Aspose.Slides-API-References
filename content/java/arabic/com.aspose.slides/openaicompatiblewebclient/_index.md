@@ -1,42 +1,42 @@
 ---
 title: OpenAICompatibleWebClient
-second_title: مرجع API Aspose.Slides للـ Java
+second_title: مرجع API Aspose.Slides للغة Java
 description: تنفيذ مدمج يتصل بموفر LLM متوافق مع OpenAI عبر عنوان URL أساسي محدد.
 type: docs
 url: /ar/com.aspose.slides/openaicompatiblewebclient/
 ---
-**الوراثة:**
+**الوراثة:**  
 java.lang.Object
 
-**جميع الواجهات المُطبقة:**
-[com.aspose.slides.IAIWebClient](../../com.aspose.slides/iaiwebclient), com.aspose.ms.System.IDisposable
+**جميع الواجهات المنفذة:**  
+[com.aspose.slides.IAIWebClient](../../com.aspose.slides/iaiwebclient), com.aspose.ms.System.IDisposable  
 ```
 public final class OpenAICompatibleWebClient implements IAIWebClient, System.IDisposable
 ```
 
-تنفيذ مدمج [IAIWebClient](../../com.aspose.slides/iaiwebclient) يتصل بموفر LLM متوافق مع OpenAI عبر عنوان URL أساسي محدد.
+تنفيذ مدمج [IAIWebClient](../../com.aspose.slides/iaiwebclient) يتصل بموفر LLM متوافق مع OpenAI على عنوان URL أساسي محدد.
 
 ## المُنشئات
 
-| المنشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-) | ينشئ مثلاً لعميل ويب متوافق مع OpenAI. |
-| [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl, HttpURLConnection httpClient)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | ينشئ مثلاً لعميل ويب متوافق مع OpenAI يستخدم HttpClient مدارً خارجياً. |
+| [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-) | ينشئ مثيلاً لعميل ويب متوافق مع OpenAI. |
+| [OpenAICompatibleWebClient(String model, String apiKey, String baseUrl, HttpURLConnection httpClient)](#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | ينشئ مثيلاً لعميل ويب متوافق مع OpenAI يستخدم HttpURLConnection مدارًا خارجيًا. |
 
 ## الطرق
 
 | الطريقة | الوصف |
 | --- | --- |
-| [callChat(String instruction)](#callChat-java.lang.String-) |  |
-| [createConversation()](#createConversation--) | ينشئ مثلاً لمحادثة. |
-| [dispose()](#dispose--) | يحرر الموارد المستخدمة بواسطة هذا المثيل. |
+| [callChat(String instruction)](#callChat-java.lang.String-) | يرسل تعليمات محادثة إلى نموذج الذكاء الاصطناعي باستخدام مثيل HttpURLConnection مدارًا خارجيًا ويعيد رسالة الاستجابة للتعليمات المعطاة. |
+| [createConversation()](#createConversation--) | ينشئ مثيلاً لمحادثة. |
+| [dispose()](#dispose--) | يطلق الموارد المستخدمة بواسطة هذا المثيل. |
 
 ### OpenAICompatibleWebClient(String model, String apiKey, String baseUrl) {#OpenAICompatibleWebClient-java.lang.String-java.lang.String-java.lang.String-}
 ```
 public OpenAICompatibleWebClient(String model, String apiKey, String baseUrl)
 ```
 
-ينشئ مثلاً لعميل ويب متوافق مع OpenAI.
+ينشئ مثيلاً لعميل ويب متوافق مع OpenAI.
 
 **المعاملات:**
 | المعامل | النوع | الوصف |
@@ -45,14 +45,19 @@ public OpenAICompatibleWebClient(String model, String apiKey, String baseUrl)
 | apiKey | java.lang.String | مفتاح API (الرمز). |
 | baseUrl | java.lang.String | عنوان URL الأساسي للـ LLM المتوافق مع OpenAI. |
 ```
-using (OpenAICompatibleWebClient aiClient = new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1"))
- {
+OpenAICompatibleWebClient aiClient =
+         new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1");
+ try {
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (aiClient != null) aiClient.dispose();
  }
 ``` |
 
@@ -61,7 +66,7 @@ using (OpenAICompatibleWebClient aiClient = new OpenAICompatibleWebClient("model
 public OpenAICompatibleWebClient(String model, String apiKey, String baseUrl, HttpURLConnection httpClient)
 ```
 
-ينشئ مثلاً لعميل ويب متوافق مع OpenAI يستخدم HttpClient مدارً خارجياً. لا يتم إتلاف HttpClient المقدم بواسطة هذا المثيل ويظل مملوكاً للمتصل.
+ينشئ مثيلاً لعميل ويب متوافق مع OpenAI يستخدم HttpURLConnection مدارًا خارجيًا. لا يقوم هذا المثيل بتفريغ HttpURLConnection المزود ويظل مملوكًا للمتصل.
 
 **المعاملات:**
 | المعامل | النوع | الوصف |
@@ -69,17 +74,23 @@ public OpenAICompatibleWebClient(String model, String apiKey, String baseUrl, Ht
 | model | java.lang.String | اسم النموذج المدعوم من موفر LLM. |
 | apiKey | java.lang.String | مفتاح API (الرمز). |
 | baseUrl | java.lang.String | عنوان URL الأساسي للـ LLM المتوافق مع OpenAI. |
-| httpClient | java.net.HttpURLConnection | مثيل HttpClient مداراً خارجياً. |
+| httpClient | java.net.HttpURLConnection | مثيل HttpURLConnection مدارًا خارجيًا. |
 ```
-using (HttpClient httpClient = new HttpClient())
- {
-     OpenAICompatibleWebClient aiClient = new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1", httpClient);
+URL url = new URL(url);
+ HttpURLConnection httpClient = (HttpURLConnection) url.openConnection();
+ try {
+     OpenAICompatibleWebClient aiClient =
+             new OpenAICompatibleWebClient("model-name", apiKey, "https://api.llm-provider.com/v1", httpClient);
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (httpClient != null) httpClient.disconnect();
  }
 ``` |
 
@@ -88,21 +99,22 @@ using (HttpClient httpClient = new HttpClient())
 public String callChat(String instruction)
 ```
 
-يرسل تعليمات دردشة إلى نموذج الذكاء الاصطناعي باستخدام مثيل HttpConnection مقدم ويعيد رسالة الاستجابة إلى التعليمات المعطاة.
+يرسل تعليمات محادثة إلى نموذج الذكاء الاصطناعي باستخدام مثيل HttpURLConnection مدارًا خارجيًا ويعيد رسالة الاستجابة للتعليمات المعطاة.
 
 **المعاملات:**
 | المعامل | النوع | الوصف |
 | --- | --- | --- |
-| instruction | java.lang.String |  |
+| instruction | java.lang.String | التعليمات أو الرسالة التي سيعالجها نموذج الذكاء الاصطناعي. |
+
 **القيمة المرجعة:**
-java.lang.String
+java.lang.String - الرسالة التي تم توليدها بواسطة نموذج الذكاء الاصطناعي استجابةً للتعليمات المعطاة.
 
 ### createConversation() {#createConversation--}
 ```
-public final IIAConversation createConversation()
+public final IAIConversation createConversation()
 ```
 
-ينشئ مثلاً لمحادثة. على عكس الاستدعاءات العادية للذكاء الاصطناعي، تحتفظ المحادثات بكامل السياق.
+ينشئ مثيلاً لمحادثة. على عكس المكالمات العادية للذكاء الاصطناعي، تحتفظ المحادثات بالسياق بالكامل.
 
 **القيمة المرجعة:**
 [IAIConversation](../../com.aspose.slides/iaiconversation) - مثيل [IAIConversation](../../com.aspose.slides/iaiconversation).
@@ -112,4 +124,4 @@ public final IIAConversation createConversation()
 public final void dispose()
 ```
 
-يحرر الموارد المستخدمة بواسطة هذا المثيل.
+يطلق الموارد المستخدمة بواسطة هذا المثيل.

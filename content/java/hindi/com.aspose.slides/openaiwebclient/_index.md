@@ -1,6 +1,6 @@
 ---
 title: OpenAIWebClient
-second_title: Aspose.Slides के लिए जावा API संदर्भ
+second_title: Aspose.Slides for Java API संदर्भ
 description: एक अंतर्निहित कार्यान्वयन जो OpenAI API से जुड़ता है।
 type: docs
 url: /hi/com.aspose.slides/openaiwebclient/
@@ -8,7 +8,7 @@ url: /hi/com.aspose.slides/openaiwebclient/
 **विरासत:**
 java.lang.Object
 
-**सभी लागू इंटरफेस:**
+**सभी कार्यान्वित इंटरफ़ेस:**
 [com.aspose.slides.IAIWebClient](../../com.aspose.slides/iaiwebclient), java.io.Closeable
 ```
 public class OpenAIWebClient implements IAIWebClient, Closeable
@@ -16,34 +16,34 @@ public class OpenAIWebClient implements IAIWebClient, Closeable
 
 एक अंतर्निहित [IAIWebClient](../../com.aspose.slides/iaiwebclient) कार्यान्वयन जो OpenAI API से जुड़ता है।
 
-## कंस्ट्रक्टर्स
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [OpenAIWebClient(String model, String apiKey, String organizationId)](#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-) | OpenAI वेब क्लाइंट का एक उदाहरण बनाता है। |
-| [OpenAIWebClient(String model, String apiKey, String organizationId, HttpURLConnection httpClient)](#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | OpenAI वेब क्लाइंट का एक उदाहरण बनाता है जो बाहरी रूप से प्रबंधित HttpClient का उपयोग करता है। |
+| [OpenAIWebClient(String model, String apiKey, String organizationId)](#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-) | OpenAI वेब क्लाइंट का एक इंस्टेंस बनाता है। |
+| [OpenAIWebClient(String model, String apiKey, String organizationId, HttpURLConnection httpClient)](#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | एक बाहरी रूप से प्रबंधित HttpClient का उपयोग करने वाला OpenAI वेब क्लाइंट का इंस्टेंस बनाता है। |
 
-## मेथड्स
+## विधियाँ
 
-| मेथड | विवरण |
+| विधि | विवरण |
 | --- | --- |
 | [callChat(String instruction)](#callChat-java.lang.String-) |  |
-| [createConversation()](#createConversation--) | एक वार्तालाप उदाहरण बनाता है। |
-| [close()](#close--) | इस उदाहरण द्वारा उपयोग किए गए संसाधनों को मुक्त करता है। |
+| [createConversation()](#createConversation--) | एक वार्तालाप इंस्टेंस बनाता है। |
+| [close()](#close--) | इस इंस्टैंस द्वारा उपयोग किए गए संसाधनों को रिलीज़ करता है। |
 
 ### OpenAIWebClient(String model, String apiKey, String organizationId) {#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-}
 ```
 public OpenAIWebClient(String model, String apiKey, String organizationId)
 ```
 
-OpenAI वेब क्लाइंट का एक उदाहरण बनाता है।
+OpenAI वेब क्लाइंट का एक इंस्टेंस बनाता है।
 
 **पैरामीटर:**
-| पैरामीटर | प्रकार | विवरण |
+| परामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| model | java.lang.String | OpenAI भाषा मॉडल। संभव मान: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
+| model | java.lang.String | OpenAI भाषा मॉडल। संभावित मान: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
 | apiKey | java.lang.String | OpenAI API कुंजी। |
-| organizationId | java.lang.String | संस्था ID (वैकल्पिक)। |
+| organizationId | java.lang.String | संगठन ID (वैकल्पिक)। |
 
 ```
 using (OpenAIWebClient aiClient = new OpenAIWebClient("gpt-4o-mini", apiKey, null))
@@ -55,22 +55,22 @@ using (OpenAIWebClient aiClient = new OpenAIWebClient("gpt-4o-mini", apiKey, nul
          presentation.Save("translated.pptx", SaveFormat.Pptx);
      }
  }
-``` |
+``` 
 
 ### OpenAIWebClient(String model, String apiKey, String organizationId, HttpURLConnection httpClient) {#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-}
 ```
 public OpenAIWebClient(String model, String apiKey, String organizationId, HttpURLConnection httpClient)
 ```
 
-OpenAI वेब क्लाइंट का एक उदाहरण बनाता है जो बाहरी रूप से प्रबंधित HttpClient का उपयोग करता है। प्रदान किया गया HttpClient इस उदाहरण द्वारा नष्ट नहीं किया जाता और कॉलर के स्वामित्व में रहता है।
+एक बाहरी रूप से प्रबंधित HttpClient का उपयोग करने वाला OpenAI वेब क्लाइंट का इंस्टेंस बनाता है। प्रदान किया गया HttpClient इस इंस्टैंस द्वारा डिस्पोज़ नहीं किया जाता और कॉलर के द्वारा मालिकाना बना रहता है।
 
 **पैरामीटर:**
-| पैरामीटर | प्रकार | विवरण |
+| परामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| model | java.lang.String | OpenAI भाषा मॉडल। संभव मान: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
+| model | java.lang.String | OpenAI भाषा मॉडल। संभावित मान: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
 | apiKey | java.lang.String | OpenAI API कुंजी |
-| organizationId | java.lang.String | संस्था ID (वैकल्पिक) |
-| httpClient | java.net.HttpURLConnection | एक बाहरी रूप से प्रबंधित HttpClient उदाहरण |
+| organizationId | java.lang.String | संगठन ID (वैकल्पिक) |
+| httpClient | java.net.HttpURLConnection | एक बाहरी रूप से प्रबंधित HttpClient इंस्टेंस |
 
 ```
 using (HttpClient httpClient = new HttpClient())
@@ -83,21 +83,21 @@ using (HttpClient httpClient = new HttpClient())
          presentation.Save("translated.pptx", SaveFormat.Pptx);
      }
  }
-``` |
+``` 
 
 ### callChat(String instruction) {#callChat-java.lang.String-}
 ```
 public String callChat(String instruction)
 ```
 
-प्रदान किए गए HttpConnection उदाहरण का उपयोग करके AI मॉडल को एक चैट निर्देश भेजता है और दिए गए निर्देश के लिए प्रतिक्रिया संदेश लौटाता है।
+एक प्रदान किए गए HttpConnection इंस्टेंस का उपयोग करके AI मॉडल को एक चैट निर्देश भेजता है और दिए गए निर्देश के लिए प्रतिक्रिया संदेश लौटाता है।
 
 **पैरामीटर:**
-| पैरामीटर | प्रकार | विवरण |
+| परामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | instruction | java.lang.String |  |
 
-**वापसी:**
+**रिटर्न:**
 java.lang.String
 
 ### createConversation() {#createConversation--}
@@ -105,14 +105,14 @@ java.lang.String
 public final IAIConversation createConversation()
 ```
 
-एक वार्तालाप उदाहरण बनाता है। नियमित AI कॉलों के विपरीत, वार्तालाप पूरे संदर्भ को बनाए रखते हैं।
+एक वार्तालाप इंस्टेंस बनाता है। नियमित AI कॉल्स के विपरीत, वार्तालाप पूरी संदर्भ को रखता है।
 
-**वापसी:**
-[IAIConversation](../../com.aspose.slides/iaiconversation) - एक [IAIConversation](../../com.aspose.slides/iaiconversation) उदाहरण।
+**रिटर्न:**
+[IAIConversation](../../com.aspose.slides/iaiconversation) - एक [IAIConversation](../../com.aspose.slides/iaiconversation) इंस्टेंस।
 
 ### close() {#close--}
 ```
 public final void close()
 ```
 
-इस उदाहरण द्वारा उपयोग किए गए संसाधनों को मुक्त करता है।
+इस इंस्टैंस द्वारा उपयोग किए गए संसाधनों को रिलीज़ करता है।

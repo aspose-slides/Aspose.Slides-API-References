@@ -1,11 +1,11 @@
 ---
 title: IHtml5Options
-second_title: مرجع Aspose.Slides للـ Java
+second_title: مرجع واجهة برمجة تطبيقات Aspose.Slides للـ Java
 description: يمثل خيارات تصدير HTML5.
 type: docs
 url: /ar/com.aspose.slides/ihtml5options/
 ---
-**جميع الواجهات المُنفذة:**
+**جميع الواجهات المنفذة:**
 [com.aspose.slides.ISaveOptions](../../com.aspose.slides/isaveoptions)
 ```
 public interface IHtml5Options extends ISaveOptions
@@ -29,31 +29,31 @@ public interface IHtml5Options extends ISaveOptions
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-## Methods
+## الأساليب
 
-| Method | Description |
+| الطريقة | الوصف |
 | --- | --- |
-| [getAnimateTransitions()](#getAnimateTransitions--) | Returns or sets transitions animation option. |
-| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | Returns or sets transitions animation option. |
-| [getAnimateShapes()](#getAnimateShapes--) | Returns or sets shapes animation option. |
-| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Returns or sets shapes animation option. |
-| [getEmbedImages()](#getEmbedImages--) | Returns or sets images embedding option. |
-| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Returns or sets images embedding option. |
-| [getOutputPath()](#getOutputPath--) | Determines where external resources should be stored. |
-| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Determines where external resources should be stored. |
-| [getPicturesCompression()](#getPicturesCompression--) | Represents the pictures compression level Read/write  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
-| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Represents the pictures compression level Read/write  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
-| [getDisableFontLigatures()](#getDisableFontLigatures--) | Gets or sets a value indicating whether text is rendered without using ligatures. |
-| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Gets or sets a value indicating whether text is rendered without using ligatures. |
-| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
-| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [getAnimateTransitions()](#getAnimateTransitions--) | يُعيد أو يُحدد خيار حركة الانتقالات. قراءة/كتابة boolean. |
+| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | يُعيد أو يُحدد خيار حركة الانتقالات. قراءة/كتابة boolean. |
+| [getAnimateShapes()](#getAnimateShapes--) | يُعيد أو يُحدد خيار حركة الأشكال. قراءة/كتابة boolean. |
+| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | يُعيد أو يُحدد خيار حركة الأشكال. قراءة/كتابة boolean. |
+| [getEmbedImages()](#getEmbedImages--) | يُعيد أو يُحدد خيار تضمين الصور. قراءة/كتابة boolean. |
+| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | يُعيد أو يُحدد خيار تضمين الصور. قراءة/كتابة boolean. |
+| [getOutputPath()](#getOutputPath--) | يحدد أين يجب تخزين الموارد الخارجية. قراءة/كتابة String. |
+| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | يحدد أين يجب تخزين الموارد الخارجية. قراءة/كتابة String. |
+| [getPicturesCompression()](#getPicturesCompression--) | يمثل مستوى ضغط الصور قراءة/كتابة PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
+| [setPicturesCompression(int value)](#setPicturesCompression-int-) | يمثل مستوى ضغط الصور قراءة/كتابة PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
+| [getDisableFontLigatures()](#getDisableFontLigatures--) | يحصل أو يحدد قيمة تشير إلى ما إذا كان النص يُعرض دون استخدام الأحرف المتصلة. |
+| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | يحصل أو يحدد قيمة تشير إلى ما إذا كان النص يُعرض دون استخدام الأحرف المتصلة. |
+| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | يحصل أو يحدد وضع وضع الشرائح على الصفحة عند تصدير عرض تقديمي [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | يحصل أو يحدد وضع وضع الشرائح على الصفحة عند تصدير عرض تقديمي [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+
 ### getAnimateTransitions() {#getAnimateTransitions--}
 ```
 public abstract boolean getAnimateTransitions()
 ```
 
-
-Returns or sets transitions animation option. Read/write boolean.
+يُعيد أو يُحدد خيار حركة الانتقالات. قراءة/كتابة boolean.
 
 --------------------
 
@@ -71,15 +71,14 @@ Returns or sets transitions animation option. Read/write boolean.
 >  }
 > ```
 
-**Returns:**
+**القيمة المرجعة:**
 boolean
 ### setAnimateTransitions(boolean value) {#setAnimateTransitions-boolean-}
 ```
 public abstract void setAnimateTransitions(boolean value)
 ```
 
-
-Returns or sets transitions animation option. Read/write boolean.
+يُعيد أو يُحدد خيار حركة الانتقالات. قراءة/كتابة boolean.
 
 --------------------
 
@@ -97,8 +96,8 @@ Returns or sets transitions animation option. Read/write boolean.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**المعلمات:**
+| المعلمة | النوع | الوصف |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -107,8 +106,7 @@ Returns or sets transitions animation option. Read/write boolean.
 public abstract boolean getAnimateShapes()
 ```
 
-
-Returns or sets shapes animation option. Read/write boolean.
+يُعيد أو يُحدد خيار حركة الأشكال. قراءة/كتابة boolean.
 
 --------------------
 
@@ -126,15 +124,14 @@ Returns or sets shapes animation option. Read/write boolean.
 >  }
 > ```
 
-**Returns:**
+**القيمة المرجعة:**
 boolean
 ### setAnimateShapes(boolean value) {#setAnimateShapes-boolean-}
 ```
 public abstract void setAnimateShapes(boolean value)
 ```
 
-
-Returns or sets shapes animation option. Read/write boolean.
+يُعيد أو يُحدد خيار حركة الأشكال. قراءة/كتابة boolean.
 
 --------------------
 
@@ -152,8 +149,8 @@ Returns or sets shapes animation option. Read/write boolean.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**المعلمات:**
+| المعلمة | النوع | الوصف |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -162,8 +159,7 @@ Returns or sets shapes animation option. Read/write boolean.
 public abstract boolean getEmbedImages()
 ```
 
-
-Returns or sets images embedding option. Read/write boolean.
+يُعيد أو يُحدد خيار تضمين الصور. قراءة/كتابة boolean.
 
 --------------------
 
@@ -180,14 +176,14 @@ Returns or sets images embedding option. Read/write boolean.
 >  }
 > ```
 
-**Returns:**
+**القيمة المرجعة:**
 boolean
 ### setEmbedImages(boolean value) {#setEmbedImages-boolean-}
 ```
 public abstract void setEmbedImages(boolean value)
 ```
 
-Returns or sets images embedding option. Read/write boolean.
+يُعيد أو يُحدد خيار تضمين الصور. قراءة/كتابة boolean.
 
 --------------------
 
@@ -204,8 +200,8 @@ Returns or sets images embedding option. Read/write boolean.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**المعلمات:**
+| المعلمة | النوع | الوصف |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -214,7 +210,7 @@ Returns or sets images embedding option. Read/write boolean.
 public abstract String getOutputPath()
 ```
 
-Determines where external resources should be stored. Read/write String.
+يحدد أين يجب تخزين الموارد الخارجية. قراءة/كتابة String.
 
 --------------------
 
@@ -232,14 +228,14 @@ Determines where external resources should be stored. Read/write String.
 >  }
 > ```
 
-**Returns:**
+**القيمة المرجعة:**
 java.lang.String
 ### setOutputPath(String value) {#setOutputPath-java.lang.String-}
 ```
 public abstract void setOutputPath(String value)
 ```
 
-Determines where external resources should be stored. Read/write String.
+يحدد أين يجب تخزين الموارد الخارجية. قراءة/كتابة String.
 
 --------------------
 
@@ -257,8 +253,8 @@ Determines where external resources should be stored. Read/write String.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**المعلمات:**
+| المعلمة | النوع | الوصف |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
@@ -267,19 +263,19 @@ Determines where external resources should be stored. Read/write String.
 public abstract int getPicturesCompression()
 ```
 
-Represents the pictures compression level Read/write  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
+يمثل مستوى ضغط الصور قراءة/كتابة PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
 
-**Returns:**
+**القيمة المرجعة:**
 int
 ### setPicturesCompression(int value) {#setPicturesCompression-int-}
 ```
 public abstract void setPicturesCompression(int value)
 ```
 
-Represents the pictures compression level Read/write  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
+يمثل مستوى ضغط الصور قراءة/كتابة PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
 
-**Parameters:**
-| Parameter | Type | Description |
+**المعلمات:**
+| المعلمة | النوع | الوصف |
 | --- | --- | --- |
 | value | int |  |
 
@@ -288,7 +284,7 @@ Represents the pictures compression level Read/write  PicturesCompression (\#get
 public abstract boolean getDisableFontLigatures()
 ```
 
-Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false.
+يحصل أو يحدد قيمة تشير إلى ما إذا كان النص يُعرض دون استخدام الأحرف المتصلة. عندما تُضبط على true، سيتم تعطيل الأحرف المتصلة في المخرجات المرسومة. بشكل افتراضي، تُضبط هذه الخاصية على false.
 
 --------------------
 
@@ -306,14 +302,14 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 >  }
 > ```
 
-**Returns:**
+**القيمة المرجعة:**
 boolean
 ### setDisableFontLigatures(boolean value) {#setDisableFontLigatures-boolean-}
 ```
 public abstract void setDisableFontLigatures(boolean value)
 ```
 
-Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false.
+يحصل أو يحدد قيمة تشير إلى ما إذا كان النص يُعرض دون استخدام الأحرف المتصلة. عندما تُضبط على true، سيتم تعطيل الأحرف المتصلة في المخرجات المرسومة. بشكل افتراضي، تُضبط هذه الخاصية على false.
 
 --------------------
 
@@ -331,8 +327,8 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**المعلمات:**
+| المعلمة | النوع | الوصف |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -341,7 +337,7 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 public abstract ISlidesLayoutOptions getSlidesLayoutOptions()
 ```
 
-Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+يحصل أو يحدد وضع وضع الشرائح على الصفحة عند تصدير عرض تقديمي [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
 
@@ -361,12 +357,14 @@ Gets or sets the mode in which slides are placed on the page when exporting a pr
 >  }
 > ```
 
-**Returns:**
+**القيمة المرجعة:**
 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)
 ### setSlidesLayoutOptions(ISlidesLayoutOptions value) {#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-}
 ```
 public abstract void setSlidesLayoutOptions(ISlidesLayoutOptions value)
-Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+```
+
+يحصل أو يحدد وضع وضع الشرائح على الصفحة عند تصدير عرض تقديمي [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
 
@@ -387,6 +385,6 @@ Gets or sets the mode in which slides are placed on the page when exporting a pr
 > ```
 
 **المعلمات:**
-| المعامل | النوع | الوصف |
+| المعلمة | النوع | الوصف |
 | --- | --- | --- |
 | value | [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) |  |

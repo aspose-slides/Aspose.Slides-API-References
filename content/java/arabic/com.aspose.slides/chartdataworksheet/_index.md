@@ -1,0 +1,44 @@
+---
+title: ChartDataWorksheet
+second_title: مرجع API Aspose.Slides للغة جافا
+description: يمثل ورقة عمل مرتبطة بـ
+type: docs
+url: /ar/com.aspose.slides/chartdataworksheet/
+---
+**الوراثة:**  
+java.lang.Object, com.aspose.slides.DomObject
+
+**جميع الواجهات المُطبقة:**  
+[com.aspose.slides.IChartDataWorksheet](../../com.aspose.slides/ichartdataworksheet)  
+```
+public class ChartDataWorksheet extends DomObject<ChartDataWorksheetCollection> implements IChartDataWorksheet
+```
+
+يمثل ورقة عمل مرتبطة بـ [IChartDataCell](../../com.aspose.slides/ichartdatacell)
+
+## الطرق
+
+| الطريقة | الوصف |
+| --- | --- |
+| [getName()](#getName--) | يرجع اسم ورقة العمل. |
+| [getIndex()](#getIndex--) | يحصل على فهرس ورقة العمل. |
+
+### getName() {#getName--}
+```
+public final String getName()
+```
+
+يرجع اسم ورقة العمل. String للقراءة فقط.
+
+**القيمة المرجعة:**  
+java.lang.String
+
+### getIndex() {#getIndex--}
+```
+public final int getIndex()
+```
+
+يحصل على فهرس ورقة العمل. int للقراءة فقط.
+
+**القيمة المرجعة:**  
+int
