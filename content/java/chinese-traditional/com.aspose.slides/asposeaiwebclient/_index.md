@@ -1,54 +1,58 @@
 ---
 title: AsposeAIWebClient
 second_title: Aspose.Slides for Java API 參考
-description: 內建的實作，連接至 Aspose 自家的 LLM。
+description: 一個內建的實作，可連接至 Aspose 自己的 LLM。
 type: docs
 url: /zh-hant/com.aspose.slides/asposeaiwebclient/
 ---
-**繼承:**  
+**繼承：**
 java.lang.Object
 
-**已實作的介面:**  
-[com.aspose.slides.IAIWebClient](../../com.aspose.slides/iaiwebclient), com.aspose.ms.System.IDisposable  
+**全部已實作介面：**
+[com.aspose.slides.IAIWebClient](../../com.aspose.slides/iaiwebclient), com.aspose.ms.System.IDisposable
 ```
 public final class AsposeAIWebClient implements IAIWebClient, System.IDisposable
 ```
 
-一個內建的 [IAIWebClient](../../com.aspose.slides/iaiwebclient) 實作，連接至 Aspose 自己的 LLM。這是參數為空的 SlidesAIAgent() 建構函式所使用的預設客戶端。
+一個內建的 [IAIWebClient](../../com.aspose.slides/iaiwebclient) 實作，可連接至 Aspose 自己的 LLM。這是參數為空的 SlidesAIAgent() 建構函式所使用的預設用戶端。
 
 ## 建構函式
 
 | 建構函式 | 說明 |
 | --- | --- |
-| [AsposeAIWebClient()](#AsposeAIWebClient--) | 建立一個連接至預設 Aspose LLM 端點的 Aspose AI 網路客戶端實例。 |
-| [AsposeAIWebClient(HttpURLConnection httpClient)](#AsposeAIWebClient-java.net.HttpURLConnection-) | 建立一個使用外部管理的 HttpClient，連接至預設 Aspose LLM 端點的 Aspose AI 網路客戶端實例。 |
-| [AsposeAIWebClient(String url)](#AsposeAIWebClient-java.lang.String-) | 建立一個連接至自訂端點 URL 的 Aspose AI 網路客戶端實例。 |
-| [AsposeAIWebClient(String url, HttpURLConnection httpClient)](#AsposeAIWebClient-java.lang.String-java.net.HttpURLConnection-) | 建立一個使用外部管理的 HttpClient，連接至自訂端點 URL 的 Aspose AI 網路客戶端實例。 |
+| [AsposeAIWebClient()](#AsposeAIWebClient--) | 建立 Aspose AI web client 的實例，以連接預設 Aspose LLM 端點。 |
+| [AsposeAIWebClient(HttpURLConnection httpClient)](#AsposeAIWebClient-java.net.HttpURLConnection-) | 建立 Aspose AI web client 的實例，以使用外部管理的 HttpURLConnection 連接預設 Aspose LLM 端點。 |
+| [AsposeAIWebClient(String url)](#AsposeAIWebClient-java.lang.String-) | 建立 Aspose AI web client 的實例，以連接自訂端點 URL。 |
+| [AsposeAIWebClient(String url, HttpURLConnection httpClient)](#AsposeAIWebClient-java.lang.String-java.net.HttpURLConnection-) | 建立 Aspose AI web client 的實例，以使用外部管理的 HttpURLConnection 連接自訂端點 URL。 |
 
 ## 方法
 
 | 方法 | 說明 |
 | --- | --- |
-| [callChat(String instruction)](#callChat-java.lang.String-) |  |
+| [callChat(String instruction)](#callChat-java.lang.String-) | 將聊天指令傳送至 AI 模型，並回傳對給定指令的回應訊息。 |
 | [createConversation()](#createConversation--) | 建立對話實例。 |
-| [dispose()](#dispose--) | 釋放此實例使用的資源。 |
+| [dispose()](#dispose--) | 釋放此實例所使用的資源。 |
 
 ### AsposeAIWebClient() {#AsposeAIWebClient--}
 ```
 public AsposeAIWebClient()
 ```
 
-建立一個連接至預設 Aspose LLM 端點的 Aspose AI 網路客戶端實例。這是參數為空的 SlidesAIAgent() 建構函式所使用的客戶端，因此僅在需要將客戶端直接傳遞給 SlidesAIAgent(IAIWebClient) 建構函式時才需要明確建立它。
+建立連接預設 Aspose LLM 端點的 Aspose AI web client 實例。此用戶端是參數為空的 SlidesAIAgent() 建構函式所使用的客戶端，只有在直接將此客戶端傳遞給 SlidesAIAgent(IAIWebClient) 建構函式時才需要顯式建立。
 
 ```
-using (AsposeAIWebClient aiClient = new AsposeAIWebClient())
- {
+AsposeAIWebClient aiClient = new AsposeAIWebClient();
+ try {
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (aiClient != null) aiClient.dispose();
  }
 ```
 
@@ -57,23 +61,28 @@ using (AsposeAIWebClient aiClient = new AsposeAIWebClient())
 public AsposeAIWebClient(HttpURLConnection httpClient)
 ```
 
-建立一個使用外部管理的 HttpClient，連接至預設 Aspose LLM 端點的 Aspose AI 網路客戶端實例。提供的 HttpClient 不會由此實例釋放，仍由呼叫端負責管理。
+建立使用外部管理的 HttpURLConnection 連接預設 Aspose LLM 端點的 Aspose AI web client 實例。此實例不會釋放提供的 HttpURLConnection，且該連線仍由呼叫端負責管理。
 
 **參數：**
-| 參數 | 型別 | 說明 |
+| 參數 | 類型 | 說明 |
 | --- | --- | --- |
-| httpClient | java.net.HttpURLConnection | 由外部管理的 HttpClient 實例。
+| httpClient | java.net.HttpURLConnection | 外部管理的 HttpURLConnection 實例。
 
 ```
-using (HttpClient httpClient = new HttpClient())
- {
+URL url = new URL(url);
+ HttpURLConnection httpClient = (HttpURLConnection) url.openConnection();
+ try {
      AsposeAIWebClient aiClient = new AsposeAIWebClient(httpClient);
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (httpClient != null) httpClient.disconnect();
  }
 ``` |
 
@@ -82,22 +91,26 @@ using (HttpClient httpClient = new HttpClient())
 public AsposeAIWebClient(String url)
 ```
 
-建立一個連接至自訂端點 URL 的 Aspose AI 網路客戶端實例。當您取得 Aspose.Slides 團隊提供的 URL 時使用此載入項；否則，請使用預設 URL 的 AsposeAIWebClient() 載入項。
+建立連接自訂端點 URL 的 Aspose AI web client 實例。當您擁有由 Aspose.Slides 團隊提供的 URL 時，請使用此重載；否則，請使用以預設 URL 的 AsposeAIWebClient() 重載。
 
 **參數：**
-| 參數 | 型別 | 說明 |
+| 參數 | 類型 | 說明 |
 | --- | --- | --- |
 | url | java.lang.String | 由 Aspose.Slides 團隊提供的 Aspose LLM 端點 URL。
 
 ```
-using (AsposeAIWebClient aiClient = new AsposeAIWebClient(customUrl))
- {
+AsposeAIWebClient aiClient = new AsposeAIWebClient(customUrl);
+ try {
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (aiClient != null) aiClient.dispose();
  }
 ``` |
 
@@ -106,24 +119,29 @@ using (AsposeAIWebClient aiClient = new AsposeAIWebClient(customUrl))
 public AsposeAIWebClient(String url, HttpURLConnection httpClient)
 ```
 
-建立一個使用外部管理的 HttpClient，連接至自訂端點 URL 的 Aspose AI 網路客戶端實例。提供的 HttpClient 不會由此實例釋放，仍由呼叫端負責管理。當您取得 Aspose.Slides 團隊提供的 URL 且想自行提供 HttpClient 時使用此載入項；如果只需要自行提供 HttpClient 而使用預設 URL，請改用 AsposeAIWebClient(HttpClient) 載入項。
+建立使用外部管理的 HttpURLConnection 連接自訂端點 URL 的 Aspose AI web client 實例。此實例不會釋放提供的 HttpURLConnection，且該連線仍由呼叫端負責管理。當您擁有由 Aspose.Slides 團隊提供的 URL 且想自行提供 HttpURLConnection 時，請使用此重載；如果只需要在預設 URL 下使用自行提供的 HttpURLConnection，請改用 AsposeAIWebClient(HttpURLConnection) 重載。
 
 **參數：**
-| 參數 | 型別 | 說明 |
+| 參數 | 類型 | 說明 |
 | --- | --- | --- |
 | url | java.lang.String | 由 Aspose.Slides 團隊提供的 Aspose LLM 端點 URL。 |
-| httpClient | java.net.HttpURLConnection | 由外部管理的 HttpClient 實例。
+| httpClient | java.net.HttpURLConnection | 外部管理的 HttpURLConnection 實例。
 
 ```
-using (HttpClient httpClient = new HttpClient())
- {
+URL url = new URL(url);
+ HttpURLConnection httpClient = (HttpURLConnection) url.openConnection();
+ try {
      AsposeAIWebClient aiClient = new AsposeAIWebClient(customUrl, httpClient);
      SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
-     using (Presentation presentation = new Presentation("Presentation.pptx"))
-     {
-         await aiAgent.TranslateAsync(presentation, "spanish");
-         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     Presentation presentation = new Presentation("Presentation.pptx");
+     try {
+         aiAgent.translate(presentation, "spanish");
+         presentation.save("translated.pptx", SaveFormat.Pptx);
+     } finally {
+         if (presentation != null) presentation.dispose();
      }
+ } finally {
+     if (httpClient != null) httpClient.disconnect();
  }
 ``` |
 
@@ -132,22 +150,22 @@ using (HttpClient httpClient = new HttpClient())
 public String callChat(String instruction)
 ```
 
-使用提供的 HttpConnection 實例向 AI 模型傳送聊天指令，並返回對該指令的回應訊息。
+將聊天指令傳送至 AI 模型，並回傳對給定指令的回應訊息。
 
 **參數：**
-| 參數 | 型別 | 說明 |
+| 參數 | 類型 | 說明 |
 | --- | --- | --- |
-| instruction | java.lang.String |  |
+| instruction | java.lang.String | 要由 AI 模型處理的指令或訊息。
 
 **傳回值：**
-java.lang.String
+java.lang.String - AI 模型對給定指令產生的訊息。
 
 ### createConversation() {#createConversation--}
 ```
-public final IAIConversation createConversation()
+public final IIAConversation createConversation()
 ```
 
-建立對話實例。與一般 AI 呼叫不同，對話會保留完整的上下文。
+建立對話實例。與一般的 AI 呼叫不同，對話會保留全部上下文。
 
 **傳回值：**
 [IAIConversation](../../com.aspose.slides/iaiconversation) - 一個 [IAIConversation](../../com.aspose.slides/iaiconversation) 實例。

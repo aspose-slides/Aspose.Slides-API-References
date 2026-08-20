@@ -21,7 +21,7 @@ OpenAI API에 연결하는 내장 [IAIWebClient](../../com.aspose.slides/iaiwebc
 | 생성자 | 설명 |
 | --- | --- |
 | [OpenAIWebClient(String model, String apiKey, String organizationId)](#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-) | OpenAI 웹 클라이언트의 인스턴스를 생성합니다. |
-| [OpenAIWebClient(String model, String apiKey, String organizationId, HttpURLConnection httpClient)](#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | 외부에서 관리되는 HttpClient 를 사용하는 OpenAI 웹 클라이언트의 인스턴스를 생성합니다. |
+| [OpenAIWebClient(String model, String apiKey, String organizationId, HttpURLConnection httpClient)](#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | 외부에서 관리되는 HttpClient를 사용하는 OpenAI 웹 클라이언트의 인스턴스를 생성합니다. |
 
 ## 메서드
 
@@ -29,7 +29,7 @@ OpenAI API에 연결하는 내장 [IAIWebClient](../../com.aspose.slides/iaiwebc
 | --- | --- |
 | [callChat(String instruction)](#callChat-java.lang.String-) |  |
 | [createConversation()](#createConversation--) | 대화 인스턴스를 생성합니다. |
-| [close()](#close--) | 이 인스턴스에서 사용된 리소스를 해제합니다. |
+| [close()](#close--) | 이 인스턴스가 사용하는 리소스를 해제합니다. |
 
 ### OpenAIWebClient(String model, String apiKey, String organizationId) {#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-}
 ```
@@ -55,14 +55,14 @@ using (OpenAIWebClient aiClient = new OpenAIWebClient("gpt-4o-mini", apiKey, nul
          presentation.Save("translated.pptx", SaveFormat.Pptx);
      }
  }
-``` |
+``` 
 
 ### OpenAIWebClient(String model, String apiKey, String organizationId, HttpURLConnection httpClient) {#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-}
 ```
 public OpenAIWebClient(String model, String apiKey, String organizationId, HttpURLConnection httpClient)
 ```
 
-외부에서 관리되는 HttpClient 를 사용하는 OpenAI 웹 클라이언트의 인스턴스를 생성합니다. 제공된 HttpClient 는 이 인스턴스에 의해 해제되지 않으며 호출자에게 소유가 남아 있습니다.
+외부에서 관리되는 HttpClient를 사용하는 OpenAI 웹 클라이언트의 인스턴스를 생성합니다. 제공된 HttpClient는 이 인스턴스에 의해 해제되지 않으며 호출자에게 소유가 유지됩니다.
 
 **매개변수:**
 | 매개변수 | 형식 | 설명 |
@@ -83,14 +83,14 @@ using (HttpClient httpClient = new HttpClient())
          presentation.Save("translated.pptx", SaveFormat.Pptx);
      }
  }
-``` |
+``` 
 
 ### callChat(String instruction) {#callChat-java.lang.String-}
 ```
 public String callChat(String instruction)
 ```
 
-제공된 HttpConnection 인스턴스를 사용하여 AI 모델에 채팅 지시를 전송하고 해당 지시의 응답 메시지를 반환합니다.
+제공된 HttpConnection 인스턴스를 사용하여 AI 모델에 채팅 지시를 보내고 해당 지시에 대한 응답 메시지를 반환합니다.
 
 **매개변수:**
 | 매개변수 | 형식 | 설명 |
@@ -108,11 +108,11 @@ public final IAIConversation createConversation()
 대화 인스턴스를 생성합니다. 일반 AI 호출과 달리 대화는 전체 컨텍스트를 유지합니다.
 
 **반환값:**
-[IAIConversation](../../com.aspose.slides/iaiconversation) - 하나의 [IAIConversation](../../com.aspose.slides/iaiconversation) 인스턴스.
+[IAIConversation](../../com.aspose.slides/iaiconversation) - [IAIConversation](../../com.aspose.slides/iaiconversation) 인스턴스.
 
 ### close() {#close--}
 ```
 public final void close()
 ```
 
-이 인스턴스에서 사용된 리소스를 해제합니다.
+이 인스턴스가 사용하는 리소스를 해제합니다.

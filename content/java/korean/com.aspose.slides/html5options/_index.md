@@ -1,15 +1,15 @@
 ---
 title: Html5Options
-second_title: Aspose.Slides Java API 참조
+second_title: Aspose.Slides for Java API 레퍼런스
 description: HTML5 내보내기 옵션을 나타냅니다.
 type: docs
 url: /ko/com.aspose.slides/html5options/
 ---
-**상속:**  
+**상속:**
 java.lang.Object, [com.aspose.slides.SaveOptions](../../com.aspose.slides/saveoptions)
 
-**구현된 모든 인터페이스:**  
-[com.aspose.slides.IHtml5Options](../../com.aspose.slides/ihtml5options)  
+**구현된 모든 인터페이스:**
+[com.aspose.slides.IHtml5Options](../../com.aspose.slides/ihtml5options)
 ```
 public class Html5Options extends SaveOptions implements IHtml5Options
 ```
@@ -32,42 +32,42 @@ HTML5 내보내기 옵션을 나타냅니다.
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-## Constructors
+## 생성자
 
-| Constructor | Description |
+| 생성자 | 설명 |
 | --- | --- |
-| [Html5Options()](#Html5Options--) | Default constructor. |
-## Methods
+| [Html5Options()](#Html5Options--) | 기본 생성자. |
+## 메서드
 
-| Method | Description |
+| 메서드 | 설명 |
 | --- | --- |
-| [getAnimateTransitions()](#getAnimateTransitions--) | Returns or sets transitions animation option. |
-| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | Returns or sets transitions animation option. |
-| [getAnimateShapes()](#getAnimateShapes--) | Returns or sets shapes animation option. |
-| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Returns or sets shapes animation option. |
-| [getEmbedImages()](#getEmbedImages--) | Returns or sets images embedding option. |
-| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Returns or sets images embedding option. |
-| [getOutputPath()](#getOutputPath--) | Determines where external resources should be stored. |
-| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Determines where external resources should be stored. |
-| [getPicturesCompression()](#getPicturesCompression--) | Represents the pictures compression level |
-| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Represents the pictures compression level |
-| [getDisableFontLigatures()](#getDisableFontLigatures--) | Gets or sets a value indicating whether text is rendered without using ligatures. |
-| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Gets or sets a value indicating whether text is rendered without using ligatures. |
-| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
-| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [getAnimateTransitions()](#getAnimateTransitions--) | 전환 애니메이션 옵션을 가져오거나 설정합니다. |
+| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | 전환 애니메이션 옵션을 가져오거나 설정합니다. |
+| [getAnimateShapes()](#getAnimateShapes--) | 도형 애니메이션 옵션을 가져오거나 설정합니다. |
+| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | 도형 애니메이션 옵션을 가져오거나 설정합니다. |
+| [getEmbedImages()](#getEmbedImages--) | 이미지 임베드 옵션을 가져오거나 설정합니다. |
+| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | 이미지 임베드 옵션을 가져오거나 설정합니다. |
+| [getOutputPath()](#getOutputPath--) | 외부 리소스가 저장될 위치를 결정합니다. |
+| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | 외부 리소스가 저장될 위치를 결정합니다. |
+| [getPicturesCompression()](#getPicturesCompression--) | 사진 압축 수준을 나타냅니다 |
+| [setPicturesCompression(int value)](#setPicturesCompression-int-) | 사진 압축 수준을 나타냅니다 |
+| [getDisableFontLigatures()](#getDisableFontLigatures--) | 텍스트가 합자를 사용하지 않고 렌더링되는지 여부를 나타내는 값을 가져오거나 설정합니다. |
+| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | 텍스트가 합자를 사용하지 않고 렌더링되는지 여부를 나타내는 값을 가져오거나 설정합니다. |
+| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | 프레젠테이션을 내보낼 때 슬라이드가 페이지에 배치되는 모드를 가져오거나 설정합니다 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | 프레젠테이션을 내보낼 때 슬라이드가 페이지에 배치되는 모드를 가져오거나 설정합니다 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 ### Html5Options() {#Html5Options--}
 ```
 public Html5Options()
 ```
 
-Default constructor.
+기본 생성자.
 
 ### getAnimateTransitions() {#getAnimateTransitions--}
 ```
 public final boolean getAnimateTransitions()
 ```
 
-Returns or sets transitions animation option. Read/write boolean.
+전환 애니메이션 옵션을 가져오거나 설정합니다. 읽기/쓰기 boolean.
 
 --------------------
 
@@ -85,14 +85,14 @@ Returns or sets transitions animation option. Read/write boolean.
 >  }
 > ```
 
-**Returns:**
+**반환:**
 boolean
 ### setAnimateTransitions(boolean value) {#setAnimateTransitions-boolean-}
 ```
 public final void setAnimateTransitions(boolean value)
 ```
 
-Returns or sets transitions animation option. Read/write boolean.
+전환 애니메이션 옵션을 가져오거나 설정합니다. 읽기/쓰기 boolean.
 
 --------------------
 
@@ -110,8 +110,8 @@ Returns or sets transitions animation option. Read/write boolean.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**매개변수:**
+| 매개변수 | 타입 | 설명 |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -120,7 +120,7 @@ Returns or sets transitions animation option. Read/write boolean.
 public final boolean getAnimateShapes()
 ```
 
-Returns or sets shapes animation option. Read/write boolean.
+도형 애니메이션 옵션을 가져오거나 설정합니다. 읽기/쓰기 boolean.
 
 --------------------
 
@@ -138,14 +138,14 @@ Returns or sets shapes animation option. Read/write boolean.
 >  }
 > ```
 
-**Returns:**
+**반환:**
 boolean
 ### setAnimateShapes(boolean value) {#setAnimateShapes-boolean-}
 ```
 public final void setAnimateShapes(boolean value)
 ```
 
-Returns or sets shapes animation option. Read/write boolean.
+도형 애니메이션 옵션을 가져오거나 설정합니다. 읽기/쓰기 boolean.
 
 --------------------
 
@@ -163,8 +163,8 @@ Returns or sets shapes animation option. Read/write boolean.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**매개변수:**
+| 매개변수 | 타입 | 설명 |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -173,7 +173,7 @@ Returns or sets shapes animation option. Read/write boolean.
 public final boolean getEmbedImages()
 ```
 
-Returns or sets images embedding option. Read/write boolean.
+이미지 임베드 옵션을 가져오거나 설정합니다. 읽기/쓰기 boolean.
 
 --------------------
 
@@ -190,14 +190,14 @@ Returns or sets images embedding option. Read/write boolean.
 >  }
 > ```
 
-**Returns:**
+**반환:**
 boolean
 ### setEmbedImages(boolean value) {#setEmbedImages-boolean-}
 ```
 public final void setEmbedImages(boolean value)
 ```
 
-Returns or sets images embedding option. Read/write boolean.
+이미지 임베드 옵션을 가져오거나 설정합니다. 읽기/쓰기 boolean.
 
 --------------------
 
@@ -214,8 +214,8 @@ Returns or sets images embedding option. Read/write boolean.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**매개변수:**
+| 매개변수 | 타입 | 설명 |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -224,7 +224,7 @@ Returns or sets images embedding option. Read/write boolean.
 public final String getOutputPath()
 ```
 
-Determines where external resources should be stored. Read/write String.
+외부 리소스가 저장될 위치를 결정합니다. 읽기/쓰기 String.
 
 --------------------
 
@@ -242,14 +242,14 @@ Determines where external resources should be stored. Read/write String.
 >  }
 > ```
 
-**Returns:**
+**반환:**
 java.lang.String
 ### setOutputPath(String value) {#setOutputPath-java.lang.String-}
 ```
 public final void setOutputPath(String value)
 ```
 
-Determines where external resources should be stored. Read/write String.
+외부 리소스가 저장될 위치를 결정합니다. 읽기/쓰기 String.
 
 --------------------
 
@@ -267,8 +267,8 @@ Determines where external resources should be stored. Read/write String.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**매개변수:**
+| 매개변수 | 타입 | 설명 |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
@@ -277,19 +277,19 @@ Determines where external resources should be stored. Read/write String.
 public final int getPicturesCompression()
 ```
 
-Represents the pictures compression level
+사진 압축 수준을 나타냅니다
 
-**Returns:**
+**반환:**
 int
 ### setPicturesCompression(int value) {#setPicturesCompression-int-}
 ```
 public final void setPicturesCompression(int value)
 ```
 
-Represents the pictures compression level
+사진 압축 수준을 나타냅니다
 
-**Parameters:**
-| Parameter | Type | Description |
+**매개변수:**
+| 매개변수 | 타입 | 설명 |
 | --- | --- | --- |
 | value | int |  |
 
@@ -298,7 +298,7 @@ Represents the pictures compression level
 public final boolean getDisableFontLigatures()
 ```
 
-Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false.
+텍스트가 합자를 사용하지 않고 렌더링되는지 여부를 나타내는 값을 가져오거나 설정합니다. true로 설정하면 렌더링된 출력에서 합자가 비활성화됩니다. 기본값은 false입니다.
 
 --------------------
 
@@ -308,7 +308,7 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      Html5Options options = new Html5Options();
->      options.setDisableFontLigatures(true); // 텍스트 렌더링에서 리가처 비활성화
+>      options.setDisableFontLigatures(true); // 텍스트 렌더링에서 합자를 비활성화합니다
 > 
 >      pres.save("output.html", SaveFormat.Html5, options);
 >  } finally {
@@ -316,13 +316,14 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 >  }
 > ```
 
-**Returns:**
+**반환:**
 boolean
 ### setDisableFontLigatures(boolean value) {#setDisableFontLigatures-boolean-}
 ```
 public final void setDisableFontLigatures(boolean value)
 ```
-Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false.
+
+텍스트가 합자를 사용하지 않고 렌더링되는지 여부를 나타내는 값을 가져오거나 설정합니다. true로 설정하면 렌더링된 출력에서 합자가 비활성화됩니다. 기본값은 false입니다.
 
 --------------------
 
@@ -332,7 +333,7 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      Html5Options options = new Html5Options();
->      options.setDisableFontLigatures(true); // 텍스트 렌더링에서 리가처 비활성화
+>      options.setDisableFontLigatures(true); // 텍스트 렌더링에서 합자를 비활성화합니다
 > 
 >      pres.save("output.html", SaveFormat.Html5, options);
 >  } finally {
@@ -340,8 +341,8 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**매개변수:**
+| 매개변수 | 타입 | 설명 |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -350,7 +351,7 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 public final ISlidesLayoutOptions getSlidesLayoutOptions()
 ```
 
-Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+프레젠테이션을 내보낼 때 슬라이드가 페이지에 배치되는 모드를 가져오거나 설정합니다 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
 
@@ -370,14 +371,14 @@ Gets or sets the mode in which slides are placed on the page when exporting a pr
 >  }
 > ```
 
-**Returns:**
+**반환:**
 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)
 ### setSlidesLayoutOptions(ISlidesLayoutOptions value) {#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-}
 ```
 public final void setSlidesLayoutOptions(ISlidesLayoutOptions value)
+```
 
-
-프레젠테이션을 내보낼 때 슬라이드가 페이지에 배치되는 방식을 가져오거나 설정합니다 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+프레젠테이션을 내보낼 때 슬라이드가 페이지에 배치되는 모드를 가져오거나 설정합니다 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
 
@@ -398,6 +399,6 @@ public final void setSlidesLayoutOptions(ISlidesLayoutOptions value)
 > ```
 
 **매개변수:**
-| 매개변수 | 유형 | 설명 |
+| 매개변수 | 타입 | 설명 |
 | --- | --- | --- |
 | value | [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) |  |
