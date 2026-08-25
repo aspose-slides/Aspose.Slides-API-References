@@ -1,0 +1,42 @@
+---
+title: Collect
+second_title: Aspose.Sildes pour PHP via la référence de l'API Java
+description: 
+type: docs
+
+url: /fr/aspose.slides/collect/
+---
+## Collect classe
+
+ Représente un groupe de méthodes destinées à collecter des objets modèle de différents types à partir de Presentation.
+ 
+### Collect {#Collect}
+
+| Nom | Description |
+| --- | --- |
+| Collect() |  |
+
+ **Retour:**  
+Collect
+
+
+---
+
+
+### shapes {#shapes}
+
+| Nom | Description |
+| --- | --- |
+| shapes ([Presentation](../presentation)) | Collecte toutes les instances de Shape dans la Presentation. |
+
+ **Paramètres:**
+
+| Nom | Type | Description |
+| --- | --- | --- |
+| pres | [Presentation](../presentation) | Presentation pour collecter les formes |
+
+ **Retour:**  
+[CommentCollection](../commentcollection), [BehaviorPropertyCollection](../behaviorpropertycollection), [LineFormatCollection](../lineformatcollection), [ColumnCollection](../columncollection), SortedList, [ChartDataWorksheetCollection](../chartdataworksheetcollection), [SensitivityLabelCollection](../sensitivitylabelcollection), [EffectStyleCollection](../effectstylecollection), [GradientStopCollectionEffectiveData](../gradientstopcollectioneffectivedata), [SmartArtNodeCollection](../smartartnodecollection), [DigitalSignatureCollection](../digitalsignaturecollection), [TabCollection](../tabcollection), [PieSplitCustomPointCollection](../piesplitcustompointcollection), [SlideCollection](../slidecollection), List, [DrawingGuidesCollection](../drawingguidescollection), [ChartCategoryCollection](../chartcategorycollection), [SmartArtShapeCollection](../smartartshapecollection), [ShapeCollection](../shapecollection), [ImageTransformOperationCollection](../imagetransformoperationcollection), [FontFallBackRulesCollection](../fontfallbackrulescollection), SortedDictionary, [Sequence](../sequence), [RowCollection](../rowcollection), [SummaryZoomSectionCollection](../summaryzoomsectioncollection), LinkedList, [ChartSeriesCollection](../chartseriescollection), Stack, [ChartCellCollection](../chartcellcollection), [CommentAuthorCollection](../commentauthorcollection), Collection, [Row](../row), [AudioCollection](../audiocollection), [CustomXmlPartCollection](../customxmlpartcollection), [DataLabelCollection](../datalabelcollection), Dictionary, [MathBlock](../mathblock), [ImageTransformOCollectionEffectiveData](../imagetransformocollectioneffectivedata), [CaptionsCollection](../captionscollection), [TrendlineCollection](../trendlinecollection), [ParagraphCollection](../paragraphcollection), [MasterSlideCollection](../masterslidecollection), [TextAnimationCollection](../textanimationcollection), ReadOnlyCollection, [SectionCollection](../sectioncollection), [ChartDataPointCollection](../chartdatapointcollection), [MotionPath](../motionpath), [ControlPropertiesCollection](../controlpropertiescollection), [FontSubstRuleCollection](../fontsubstrulecollection), [BehaviorCollection](../behaviorcollection), [Column](../column), [VbaReferenceCollection](../vbareferencecollection), [PointCollection](../pointcollection), [ImageCollection](../imagecollection), [MasterLayoutSlideCollection](../masterlayoutslidecollection), [FillFormatCollection](../fillformatcollection), [GradientStopCollection](../gradientstopcollection), [PortionCollection](../portioncollection), [LayoutSlideCollection](../layoutslidecollection), Queue, [GlobalLayoutSlideCollection](../globallayoutslidecollection), [TagCollection](../tagcollection), [SequenceCollection](../sequencecollection), [ControlCollection](../controlcollection), [ExtraColorSchemeCollection](../extracolorschemecollection), [SectionSlideCollection](../sectionslidecollection), [ColorOperationCollection](../coloroperationcollection), [CellCollection](../cellcollection), [VbaModuleCollection](../vbamodulecollection), KeyedCollection, [MathParagraph](../mathparagraph), [VideoCollection](../videocollection)
+
+
+---
