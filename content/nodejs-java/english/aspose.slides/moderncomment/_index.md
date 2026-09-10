@@ -18,7 +18,7 @@ url: /aspose.slides/moderncomment/
 | getShape () | Returns a shape associated with the comment. Read-only IShape. |
 
  **Returns:**
-[AutoShape](../autoshape), [ZoomObject](../zoomobject), [SmartArt](../smartart), [LegacyDiagram](../legacydiagram), [SummaryZoomFrame](../summaryzoomframe), [AudioFrame](../audioframe), [SummaryZoomSection](../summaryzoomsection), [VideoFrame](../videoframe), [Table](../table), [GeometryShape](../geometryshape), [InkActions](../inkactions), [SmartArtShape](../smartartshape), [GraphicalObject](../graphicalobject), [Shape](../shape), [OleObjectFrame](../oleobjectframe), [ZoomFrame](../zoomframe), [Ink](../ink), [GroupShape](../groupshape), [Chart](../chart), [SectionZoomFrame](../sectionzoomframe), [PictureFrame](../pictureframe), [Connector](../connector)
+[GeometryShape](../geometryshape), [PictureFrame](../pictureframe), [Ink](../ink), [Shape](../shape), [AutoShape](../autoshape), [Table](../table), [ZoomFrame](../zoomframe), [Chart](../chart), [SmartArt](../smartart), [LegacyDiagram](../legacydiagram), [ZoomObject](../zoomobject), [GraphicalObject](../graphicalobject), [InkActions](../inkactions), [SummaryZoomSection](../summaryzoomsection), [SummaryZoomFrame](../summaryzoomframe), [GroupShape](../groupshape), [Connector](../connector), [OleObjectFrame](../oleobjectframe), [VideoFrame](../videoframe), [SmartArtShape](../smartartshape), [AudioFrame](../audioframe), [SectionZoomFrame](../sectionzoomframe)
 
 
 ---

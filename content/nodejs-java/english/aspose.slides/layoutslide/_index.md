@@ -109,7 +109,7 @@ boolean
 | getThemeManager () | Returns the overriding theme manager. Read-only IOverrideThemeManager. |
 
  **Returns:**
-[BaseOverrideThemeManager](../baseoverridethememanager), [SlideThemeManager](../slidethememanager), [NotesSlideThemeManager](../notesslidethememanager), [ChartThemeManager](../chartthememanager), [LayoutSlideThemeManager](../layoutslidethememanager)
+[LayoutSlideThemeManager](../layoutslidethememanager), [NotesSlideThemeManager](../notesslidethememanager), [SlideThemeManager](../slidethememanager), [BaseOverrideThemeManager](../baseoverridethememanager), [ChartThemeManager](../chartthememanager)
 
 
 ---

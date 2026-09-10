@@ -15,13 +15,13 @@ url: /aspose.slides/behaviorcollection/
 
 | Name | Description |
 | --- | --- |
-| add ([MotionEffect](../motioneffect)) | Add new behavior to a collection. |
+| add ([CommandEffect](../commandeffect)) | Add new behavior to a collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [MotionEffect](../motioneffect) | Behavior to add. |
+| item | [CommandEffect](../commandeffect) | Behavior to add. |
 
 
 ---
@@ -111,13 +111,13 @@ url: /aspose.slides/behaviorcollection/
 
 | Name | Description |
 | --- | --- |
-| add ([CommandEffect](../commandeffect)) | Add new behavior to a collection. |
+| add ([MotionEffect](../motioneffect)) | Add new behavior to a collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [CommandEffect](../commandeffect) | Behavior to add. |
+| item | [MotionEffect](../motioneffect) | Behavior to add. |
 
 
 ---
@@ -153,13 +153,13 @@ url: /aspose.slides/behaviorcollection/
 
 | Name | Description |
 | --- | --- |
-| contains ([MotionEffect](../motioneffect)) | Determines whether the IGenericCollection contains a specific value. |
+| contains ([CommandEffect](../commandeffect)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [MotionEffect](../motioneffect) | The object to locate in the IGenericCollection. |
+| item | [CommandEffect](../commandeffect) | The object to locate in the IGenericCollection. |
 
  **Returns:**
 boolean
@@ -267,13 +267,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| contains ([CommandEffect](../commandeffect)) | Determines whether the IGenericCollection contains a specific value. |
+| contains ([MotionEffect](../motioneffect)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [CommandEffect](../commandeffect) | The object to locate in the IGenericCollection. |
+| item | [MotionEffect](../motioneffect) | The object to locate in the IGenericCollection. |
 
  **Returns:**
 boolean
@@ -350,7 +350,7 @@ int
 | index | int | Index of a behavior to return. |
 
  **Returns:**
-[MotionEffect](../motioneffect), [ScaleEffect](../scaleeffect), [Behavior](../behavior), [SetEffect](../seteffect), [FilterEffect](../filtereffect), [RotationEffect](../rotationeffect), [CommandEffect](../commandeffect), [ColorEffect](../coloreffect)
+[CommandEffect](../commandeffect), [ScaleEffect](../scaleeffect), [Behavior](../behavior), [SetEffect](../seteffect), [FilterEffect](../filtereffect), [RotationEffect](../rotationeffect), [MotionEffect](../motioneffect), [ColorEffect](../coloreffect)
 
 
 ---
@@ -360,13 +360,13 @@ int
 
 | Name | Description |
 | --- | --- |
-| indexOf ([MotionEffect](../motioneffect)) | Determines the index of a specific item in the List. |
+| indexOf ([CommandEffect](../commandeffect)) | Determines the index of a specific item in the List. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [MotionEffect](../motioneffect) | The object to locate in the List. |
+| item | [CommandEffect](../commandeffect) | The object to locate in the List. |
 
  **Returns:**
 int
@@ -474,13 +474,13 @@ int
 
 | Name | Description |
 | --- | --- |
-| indexOf ([CommandEffect](../commandeffect)) | Determines the index of a specific item in the List. |
+| indexOf ([MotionEffect](../motioneffect)) | Determines the index of a specific item in the List. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [CommandEffect](../commandeffect) | The object to locate in the List. |
+| item | [MotionEffect](../motioneffect) | The object to locate in the List. |
 
  **Returns:**
 int
@@ -512,14 +512,14 @@ int
 
 | Name | Description |
 | --- | --- |
-| insert (int, [MotionEffect](../motioneffect)) | Inserts new behavior to a collection at the specified index. |
+| insert (int, [CommandEffect](../commandeffect)) | Inserts new behavior to a collection at the specified index. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index where new behavior should be inserted. |
-| item | [MotionEffect](../motioneffect) | Behavior to insert. |
+| item | [CommandEffect](../commandeffect) | Behavior to insert. |
 
 
 ---
@@ -614,14 +614,14 @@ int
 
 | Name | Description |
 | --- | --- |
-| insert (int, [CommandEffect](../commandeffect)) | Inserts new behavior to a collection at the specified index. |
+| insert (int, [MotionEffect](../motioneffect)) | Inserts new behavior to a collection at the specified index. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index where new behavior should be inserted. |
-| item | [CommandEffect](../commandeffect) | Behavior to insert. |
+| item | [MotionEffect](../motioneffect) | Behavior to insert. |
 
 
 ---
@@ -687,13 +687,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| remove ([MotionEffect](../motioneffect)) | Removes specified behavior from a collection. |
+| remove ([CommandEffect](../commandeffect)) | Removes specified behavior from a collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [MotionEffect](../motioneffect) | Behavior to remove. |
+| item | [CommandEffect](../commandeffect) | Behavior to remove. |
 
  **Returns:**
 boolean
@@ -801,13 +801,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| remove ([CommandEffect](../commandeffect)) | Removes specified behavior from a collection. |
+| remove ([MotionEffect](../motioneffect)) | Removes specified behavior from a collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [CommandEffect](../commandeffect) | Behavior to remove. |
+| item | [MotionEffect](../motioneffect) | Behavior to remove. |
 
  **Returns:**
 boolean
@@ -855,7 +855,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| set_Item (int, [MotionEffect](../motioneffect)) | Sets a behavior at the specified index. |
+| set_Item (int, [CommandEffect](../commandeffect)) | Sets a behavior at the specified index. |
 
  **Parameters:**
 
@@ -951,7 +951,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| set_Item (int, [CommandEffect](../commandeffect)) | Sets a behavior at the specified index. |
+| set_Item (int, [MotionEffect](../motioneffect)) | Sets a behavior at the specified index. |
 
  **Parameters:**
 

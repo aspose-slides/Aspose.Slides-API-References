@@ -19,165 +19,13 @@ url: /aspose.slides/mathphantom/
 
 | Name | Description |
 | --- | --- |
-| MathPhantom([MathRadical](../mathradical)) | Initializes a new instance of the MathPhantom class using the specified base math element. |
+| MathPhantom([MathAccent](../mathaccent)) | Initializes a new instance of the MathPhantom class using the specified base math element. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathRadical](../mathradical) | The base IMathElement whose visibility and layout will be controlled by the phantom. This element defines the content that may be hidden or shown, while still affecting the geometric alignment of the surrounding math. The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element &lt;m:phant&gt;. |
-
- **Returns:**
-MathPhantom
-
-
----
-
-
-### MathPhantom {#MathPhantom}
-
-| Name | Description |
-| --- | --- |
-| MathPhantom([MathBar](../mathbar)) | Initializes a new instance of the MathPhantom class using the specified base math element. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathBar](../mathbar) | The base IMathElement whose visibility and layout will be controlled by the phantom. This element defines the content that may be hidden or shown, while still affecting the geometric alignment of the surrounding math. The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element &lt;m:phant&gt;. |
-
- **Returns:**
-MathPhantom
-
-
----
-
-
-### MathPhantom {#MathPhantom}
-
-| Name | Description |
-| --- | --- |
-| MathPhantom([MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathPhantom class using the specified base math element. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathSuperscriptElement](../mathsuperscriptelement) | The base IMathElement whose visibility and layout will be controlled by the phantom. This element defines the content that may be hidden or shown, while still affecting the geometric alignment of the surrounding math. The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element &lt;m:phant&gt;. |
-
- **Returns:**
-MathPhantom
-
-
----
-
-
-### MathPhantom {#MathPhantom}
-
-| Name | Description |
-| --- | --- |
-| MathPhantom([MathMatrix](../mathmatrix)) | Initializes a new instance of the MathPhantom class using the specified base math element. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathMatrix](../mathmatrix) | The base IMathElement whose visibility and layout will be controlled by the phantom. This element defines the content that may be hidden or shown, while still affecting the geometric alignment of the surrounding math. The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element &lt;m:phant&gt;. |
-
- **Returns:**
-MathPhantom
-
-
----
-
-
-### MathPhantom {#MathPhantom}
-
-| Name | Description |
-| --- | --- |
-| MathPhantom([MathBox](../mathbox)) | Initializes a new instance of the MathPhantom class using the specified base math element. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathBox](../mathbox) | The base IMathElement whose visibility and layout will be controlled by the phantom. This element defines the content that may be hidden or shown, while still affecting the geometric alignment of the surrounding math. The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element &lt;m:phant&gt;. |
-
- **Returns:**
-MathPhantom
-
-
----
-
-
-### MathPhantom {#MathPhantom}
-
-| Name | Description |
-| --- | --- |
-| MathPhantom([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathPhantom class using the specified base math element. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | The base IMathElement whose visibility and layout will be controlled by the phantom. This element defines the content that may be hidden or shown, while still affecting the geometric alignment of the surrounding math. The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element &lt;m:phant&gt;. |
-
- **Returns:**
-MathPhantom
-
-
----
-
-
-### MathPhantom {#MathPhantom}
-
-| Name | Description |
-| --- | --- |
-| MathPhantom([MathFunction](../mathfunction)) | Initializes a new instance of the MathPhantom class using the specified base math element. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFunction](../mathfunction) | The base IMathElement whose visibility and layout will be controlled by the phantom. This element defines the content that may be hidden or shown, while still affecting the geometric alignment of the surrounding math. The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element &lt;m:phant&gt;. |
-
- **Returns:**
-MathPhantom
-
-
----
-
-
-### MathPhantom {#MathPhantom}
-
-| Name | Description |
-| --- | --- |
-| MathPhantom([BaseScript](../basescript)) | Initializes a new instance of the MathPhantom class using the specified base math element. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [BaseScript](../basescript) | The base IMathElement whose visibility and layout will be controlled by the phantom. This element defines the content that may be hidden or shown, while still affecting the geometric alignment of the surrounding math. The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element &lt;m:phant&gt;. |
-
- **Returns:**
-MathPhantom
-
-
----
-
-
-### MathPhantom {#MathPhantom}
-
-| Name | Description |
-| --- | --- |
-| MathPhantom([MathFraction](../mathfraction)) | Initializes a new instance of the MathPhantom class using the specified base math element. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFraction](../mathfraction) | The base IMathElement whose visibility and layout will be controlled by the phantom. This element defines the content that may be hidden or shown, while still affecting the geometric alignment of the surrounding math. The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element &lt;m:phant&gt;. |
+| element | [MathAccent](../mathaccent) | The base IMathElement whose visibility and layout will be controlled by the phantom. This element defines the content that may be hidden or shown, while still affecting the geometric alignment of the surrounding math. The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element &lt;m:phant&gt;. |
 
  **Returns:**
 MathPhantom
@@ -209,13 +57,13 @@ MathPhantom
 
 | Name | Description |
 | --- | --- |
-| MathPhantom([MathAccent](../mathaccent)) | Initializes a new instance of the MathPhantom class using the specified base math element. |
+| MathPhantom([MathBox](../mathbox)) | Initializes a new instance of the MathPhantom class using the specified base math element. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathAccent](../mathaccent) | The base IMathElement whose visibility and layout will be controlled by the phantom. This element defines the content that may be hidden or shown, while still affecting the geometric alignment of the surrounding math. The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element &lt;m:phant&gt;. |
+| element | [MathBox](../mathbox) | The base IMathElement whose visibility and layout will be controlled by the phantom. This element defines the content that may be hidden or shown, while still affecting the geometric alignment of the surrounding math. The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element &lt;m:phant&gt;. |
 
  **Returns:**
 MathPhantom
@@ -228,13 +76,32 @@ MathPhantom
 
 | Name | Description |
 | --- | --- |
-| MathPhantom([MathElementBase](../mathelementbase)) | Initializes a new instance of the MathPhantom class using the specified base math element. |
+| MathPhantom([MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathPhantom class using the specified base math element. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathElementBase](../mathelementbase) | The base IMathElement whose visibility and layout will be controlled by the phantom. This element defines the content that may be hidden or shown, while still affecting the geometric alignment of the surrounding math. The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element &lt;m:phant&gt;. |
+| element | [MathematicalText](../mathematicaltext) | The base IMathElement whose visibility and layout will be controlled by the phantom. This element defines the content that may be hidden or shown, while still affecting the geometric alignment of the surrounding math. The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element &lt;m:phant&gt;. |
+
+ **Returns:**
+MathPhantom
+
+
+---
+
+
+### MathPhantom {#MathPhantom}
+
+| Name | Description |
+| --- | --- |
+| MathPhantom([MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathPhantom class using the specified base math element. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter](../mathgroupingcharacter) | The base IMathElement whose visibility and layout will be controlled by the phantom. This element defines the content that may be hidden or shown, while still affecting the geometric alignment of the surrounding math. The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element &lt;m:phant&gt;. |
 
  **Returns:**
 MathPhantom
@@ -266,13 +133,13 @@ MathPhantom
 
 | Name | Description |
 | --- | --- |
-| MathPhantom([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathPhantom class using the specified base math element. |
+| MathPhantom([MathLimit](../mathlimit)) | Initializes a new instance of the MathPhantom class using the specified base math element. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | The base IMathElement whose visibility and layout will be controlled by the phantom. This element defines the content that may be hidden or shown, while still affecting the geometric alignment of the surrounding math. The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element &lt;m:phant&gt;. |
+| element | [MathLimit](../mathlimit) | The base IMathElement whose visibility and layout will be controlled by the phantom. This element defines the content that may be hidden or shown, while still affecting the geometric alignment of the surrounding math. The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element &lt;m:phant&gt;. |
 
  **Returns:**
 MathPhantom
@@ -285,13 +152,108 @@ MathPhantom
 
 | Name | Description |
 | --- | --- |
-| MathPhantom([MathLimit](../mathlimit)) | Initializes a new instance of the MathPhantom class using the specified base math element. |
+| MathPhantom([MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathPhantom class using the specified base math element. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathLimit](../mathlimit) | The base IMathElement whose visibility and layout will be controlled by the phantom. This element defines the content that may be hidden or shown, while still affecting the geometric alignment of the surrounding math. The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element &lt;m:phant&gt;. |
+| element | [MathNaryOperator](../mathnaryoperator) | The base IMathElement whose visibility and layout will be controlled by the phantom. This element defines the content that may be hidden or shown, while still affecting the geometric alignment of the surrounding math. The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element &lt;m:phant&gt;. |
+
+ **Returns:**
+MathPhantom
+
+
+---
+
+
+### MathPhantom {#MathPhantom}
+
+| Name | Description |
+| --- | --- |
+| MathPhantom([MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathPhantom class using the specified base math element. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathSuperscriptElement](../mathsuperscriptelement) | The base IMathElement whose visibility and layout will be controlled by the phantom. This element defines the content that may be hidden or shown, while still affecting the geometric alignment of the surrounding math. The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element &lt;m:phant&gt;. |
+
+ **Returns:**
+MathPhantom
+
+
+---
+
+
+### MathPhantom {#MathPhantom}
+
+| Name | Description |
+| --- | --- |
+| MathPhantom([MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathPhantom class using the specified base math element. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBorderBox](../mathborderbox) | The base IMathElement whose visibility and layout will be controlled by the phantom. This element defines the content that may be hidden or shown, while still affecting the geometric alignment of the surrounding math. The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element &lt;m:phant&gt;. |
+
+ **Returns:**
+MathPhantom
+
+
+---
+
+
+### MathPhantom {#MathPhantom}
+
+| Name | Description |
+| --- | --- |
+| MathPhantom([MathFraction](../mathfraction)) | Initializes a new instance of the MathPhantom class using the specified base math element. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFraction](../mathfraction) | The base IMathElement whose visibility and layout will be controlled by the phantom. This element defines the content that may be hidden or shown, while still affecting the geometric alignment of the surrounding math. The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element &lt;m:phant&gt;. |
+
+ **Returns:**
+MathPhantom
+
+
+---
+
+
+### MathPhantom {#MathPhantom}
+
+| Name | Description |
+| --- | --- |
+| MathPhantom([MathRadical](../mathradical)) | Initializes a new instance of the MathPhantom class using the specified base math element. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathRadical](../mathradical) | The base IMathElement whose visibility and layout will be controlled by the phantom. This element defines the content that may be hidden or shown, while still affecting the geometric alignment of the surrounding math. The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element &lt;m:phant&gt;. |
+
+ **Returns:**
+MathPhantom
+
+
+---
+
+
+### MathPhantom {#MathPhantom}
+
+| Name | Description |
+| --- | --- |
+| MathPhantom([MathElementBase](../mathelementbase)) | Initializes a new instance of the MathPhantom class using the specified base math element. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathElementBase](../mathelementbase) | The base IMathElement whose visibility and layout will be controlled by the phantom. This element defines the content that may be hidden or shown, while still affecting the geometric alignment of the surrounding math. The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element &lt;m:phant&gt;. |
 
  **Returns:**
 MathPhantom
@@ -342,6 +304,63 @@ MathPhantom
 
 | Name | Description |
 | --- | --- |
+| MathPhantom([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathPhantom class using the specified base math element. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | The base IMathElement whose visibility and layout will be controlled by the phantom. This element defines the content that may be hidden or shown, while still affecting the geometric alignment of the surrounding math. The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element &lt;m:phant&gt;. |
+
+ **Returns:**
+MathPhantom
+
+
+---
+
+
+### MathPhantom {#MathPhantom}
+
+| Name | Description |
+| --- | --- |
+| MathPhantom([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathPhantom class using the specified base math element. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | The base IMathElement whose visibility and layout will be controlled by the phantom. This element defines the content that may be hidden or shown, while still affecting the geometric alignment of the surrounding math. The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element &lt;m:phant&gt;. |
+
+ **Returns:**
+MathPhantom
+
+
+---
+
+
+### MathPhantom {#MathPhantom}
+
+| Name | Description |
+| --- | --- |
+| MathPhantom([MathFunction](../mathfunction)) | Initializes a new instance of the MathPhantom class using the specified base math element. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFunction](../mathfunction) | The base IMathElement whose visibility and layout will be controlled by the phantom. This element defines the content that may be hidden or shown, while still affecting the geometric alignment of the surrounding math. The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element &lt;m:phant&gt;. |
+
+ **Returns:**
+MathPhantom
+
+
+---
+
+
+### MathPhantom {#MathPhantom}
+
+| Name | Description |
+| --- | --- |
 | MathPhantom([MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathPhantom class using the specified base math element. |
 
  **Parameters:**
@@ -361,13 +380,13 @@ MathPhantom
 
 | Name | Description |
 | --- | --- |
-| MathPhantom([MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathPhantom class using the specified base math element. |
+| MathPhantom([BaseScript](../basescript)) | Initializes a new instance of the MathPhantom class using the specified base math element. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathGroupingCharacter](../mathgroupingcharacter) | The base IMathElement whose visibility and layout will be controlled by the phantom. This element defines the content that may be hidden or shown, while still affecting the geometric alignment of the surrounding math. The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element &lt;m:phant&gt;. |
+| element | [BaseScript](../basescript) | The base IMathElement whose visibility and layout will be controlled by the phantom. This element defines the content that may be hidden or shown, while still affecting the geometric alignment of the surrounding math. The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element &lt;m:phant&gt;. |
 
  **Returns:**
 MathPhantom
@@ -380,13 +399,13 @@ MathPhantom
 
 | Name | Description |
 | --- | --- |
-| MathPhantom([MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathPhantom class using the specified base math element. |
+| MathPhantom([MathBar](../mathbar)) | Initializes a new instance of the MathPhantom class using the specified base math element. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathematicalText](../mathematicaltext) | The base IMathElement whose visibility and layout will be controlled by the phantom. This element defines the content that may be hidden or shown, while still affecting the geometric alignment of the surrounding math. The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element &lt;m:phant&gt;. |
+| element | [MathBar](../mathbar) | The base IMathElement whose visibility and layout will be controlled by the phantom. This element defines the content that may be hidden or shown, while still affecting the geometric alignment of the surrounding math. The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element &lt;m:phant&gt;. |
 
  **Returns:**
 MathPhantom
@@ -399,32 +418,13 @@ MathPhantom
 
 | Name | Description |
 | --- | --- |
-| MathPhantom([MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathPhantom class using the specified base math element. |
+| MathPhantom([MathMatrix](../mathmatrix)) | Initializes a new instance of the MathPhantom class using the specified base math element. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBorderBox](../mathborderbox) | The base IMathElement whose visibility and layout will be controlled by the phantom. This element defines the content that may be hidden or shown, while still affecting the geometric alignment of the surrounding math. The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element &lt;m:phant&gt;. |
-
- **Returns:**
-MathPhantom
-
-
----
-
-
-### MathPhantom {#MathPhantom}
-
-| Name | Description |
-| --- | --- |
-| MathPhantom([MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathPhantom class using the specified base math element. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathNaryOperator](../mathnaryoperator) | The base IMathElement whose visibility and layout will be controlled by the phantom. This element defines the content that may be hidden or shown, while still affecting the geometric alignment of the surrounding math. The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element &lt;m:phant&gt;. |
+| element | [MathMatrix](../mathmatrix) | The base IMathElement whose visibility and layout will be controlled by the phantom. This element defines the content that may be hidden or shown, while still affecting the geometric alignment of the surrounding math. The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element &lt;m:phant&gt;. |
 
  **Returns:**
 MathPhantom
@@ -440,7 +440,7 @@ MathPhantom
 | getBase () | Base argument |
 
  **Returns:**
-[MathRadical](../mathradical), [MathBar](../mathbar), [MathSuperscriptElement](../mathsuperscriptelement), [MathMatrix](../mathmatrix), [MathBox](../mathbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFunction](../mathfunction), [BaseScript](../basescript), [MathFraction](../mathfraction), [MathBlock](../mathblock), [MathAccent](../mathaccent), [MathElementBase](../mathelementbase), [MathSubscriptElement](../mathsubscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLimit](../mathlimit), [MathPhantom](../mathphantom), [MathArray](../matharray), [MathDelimiter](../mathdelimiter), [MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext), [MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator)
+[MathAccent](../mathaccent), [MathBlock](../mathblock), [MathBox](../mathbox), [MathematicalText](../mathematicaltext), [MathGroupingCharacter](../mathgroupingcharacter), [MathSubscriptElement](../mathsubscriptelement), [MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement), [MathBorderBox](../mathborderbox), [MathFraction](../mathfraction), [MathRadical](../mathradical), [MathElementBase](../mathelementbase), [MathPhantom](../mathphantom), [MathArray](../matharray), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter), [BaseScript](../basescript), [MathBar](../mathbar), [MathMatrix](../mathmatrix)
 
 
 ---
@@ -453,7 +453,7 @@ MathPhantom
 | getChildren () | Get children elements |
 
  **Returns:**
-[MathRadical](../mathradical), [MathBar](../mathbar), [MathSuperscriptElement](../mathsuperscriptelement), [MathMatrix](../mathmatrix), [MathBox](../mathbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFunction](../mathfunction), [BaseScript](../basescript), [MathFraction](../mathfraction), [MathBlock](../mathblock), [MathAccent](../mathaccent), [MathElementBase](../mathelementbase), [MathSubscriptElement](../mathsubscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLimit](../mathlimit), [MathPhantom](../mathphantom), [MathArray](../matharray), [MathDelimiter](../mathdelimiter), [MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext), [MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator)
+[MathAccent](../mathaccent), [MathBlock](../mathblock), [MathBox](../mathbox), [MathematicalText](../mathematicaltext), [MathGroupingCharacter](../mathgroupingcharacter), [MathSubscriptElement](../mathsubscriptelement), [MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement), [MathBorderBox](../mathborderbox), [MathFraction](../mathfraction), [MathRadical](../mathradical), [MathElementBase](../mathelementbase), [MathPhantom](../mathphantom), [MathArray](../matharray), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter), [BaseScript](../basescript), [MathBar](../mathbar), [MathMatrix](../mathmatrix)
 
 
 ---
