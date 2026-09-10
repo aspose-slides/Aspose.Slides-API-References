@@ -257,7 +257,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| process (java.lang.String[], String, [TiffOptions](../tiffoptions)) | Merges multiple PowerPoint presentations of the same format into a single presentation file. |
+| process (java.lang.String[], String, [Html5Options](../html5options)) | Merges multiple PowerPoint presentations of the same format into a single presentation file. |
 
  **Parameters:**
 
@@ -265,7 +265,7 @@ void
 | --- | --- | --- |
 | inputFileNames | java.lang.String[] | An array of the input presentation file names. |
 | outputFileName | String | The output file name of the resulting merged presentation file. |
-| options | [TiffOptions](../tiffoptions) | The additional options that define how the merged presentation is saved. |
+| options | [Html5Options](../html5options) | The additional options that define how the merged presentation is saved. |
 
  **Returns:**
 void
@@ -284,7 +284,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| process (java.lang.String[], String, [Html5Options](../html5options)) | Merges multiple PowerPoint presentations of the same format into a single presentation file. |
+| process (java.lang.String[], String, [TiffOptions](../tiffoptions)) | Merges multiple PowerPoint presentations of the same format into a single presentation file. |
 
  **Parameters:**
 
@@ -292,7 +292,7 @@ void
 | --- | --- | --- |
 | inputFileNames | java.lang.String[] | An array of the input presentation file names. |
 | outputFileName | String | The output file name of the resulting merged presentation file. |
-| options | [Html5Options](../html5options) | The additional options that define how the merged presentation is saved. |
+| options | [TiffOptions](../tiffoptions) | The additional options that define how the merged presentation is saved. |
 
  **Returns:**
 void
@@ -661,7 +661,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| process (java.lang.String[], OutputStream, [TiffOptions](../tiffoptions)) | Merges multiple PowerPoint presentations of the same format into a single presentation file. |
+| process (java.lang.String[], OutputStream, [Html5Options](../html5options)) | Merges multiple PowerPoint presentations of the same format into a single presentation file. |
 
  **Parameters:**
 
@@ -669,7 +669,7 @@ void
 | --- | --- | --- |
 | inputFileNames | java.lang.String[] | An array of the input presentation file names. |
 | outputStream | OutputStream | The output stream. |
-| options | [TiffOptions](../tiffoptions) | The additional options that define how the merged presentation is saved. |
+| options | [Html5Options](../html5options) | The additional options that define how the merged presentation is saved. |
 
  **Returns:**
 void
@@ -688,7 +688,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| process (java.lang.String[], OutputStream, [Html5Options](../html5options)) | Merges multiple PowerPoint presentations of the same format into a single presentation file. |
+| process (java.lang.String[], OutputStream, [TiffOptions](../tiffoptions)) | Merges multiple PowerPoint presentations of the same format into a single presentation file. |
 
  **Parameters:**
 
@@ -696,7 +696,7 @@ void
 | --- | --- | --- |
 | inputFileNames | java.lang.String[] | An array of the input presentation file names. |
 | outputStream | OutputStream | The output stream. |
-| options | [Html5Options](../html5options) | The additional options that define how the merged presentation is saved. |
+| options | [TiffOptions](../tiffoptions) | The additional options that define how the merged presentation is saved. |
 
  **Returns:**
 void

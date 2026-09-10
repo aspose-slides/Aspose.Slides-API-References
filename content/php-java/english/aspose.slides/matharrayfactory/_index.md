@@ -125,13 +125,13 @@ MathArrayFactory
 
 | Name | Description |
 | --- | --- |
-| createMathArray ([MathArray](../matharray)) | Creates a math array and places the specified element in it |
+| createMathArray ([MathPhantom](../mathphantom)) | Creates a math array and places the specified element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathArray](../matharray) | math element to place in array |
+| element | [MathPhantom](../mathphantom) | math element to place in array |
 
  **Returns:**
 [MathArray](../matharray)
@@ -144,13 +144,13 @@ MathArrayFactory
 
 | Name | Description |
 | --- | --- |
-| createMathArray ([MathPhantom](../mathphantom)) | Creates a math array and places the specified element in it |
+| createMathArray ([MathArray](../matharray)) | Creates a math array and places the specified element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathPhantom](../mathphantom) | math element to place in array |
+| element | [MathArray](../matharray) | math element to place in array |
 
  **Returns:**
 [MathArray](../matharray)
@@ -182,25 +182,6 @@ MathArrayFactory
 
 | Name | Description |
 | --- | --- |
-| createMathArray ([MathNaryOperator](../mathnaryoperator)) | Creates a math array and places the specified element in it |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathNaryOperator](../mathnaryoperator) | math element to place in array |
-
- **Returns:**
-[MathArray](../matharray)
-
-
----
-
-
-### createMathArray {#createMathArray}
-
-| Name | Description |
-| --- | --- |
 | createMathArray ([MathAccent](../mathaccent)) | Creates a math array and places the specified element in it |
 
  **Parameters:**
@@ -220,13 +201,13 @@ MathArrayFactory
 
 | Name | Description |
 | --- | --- |
-| createMathArray ([MathBorderBox](../mathborderbox)) | Creates a math array and places the specified element in it |
+| createMathArray ([MathNaryOperator](../mathnaryoperator)) | Creates a math array and places the specified element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBorderBox](../mathborderbox) | math element to place in array |
+| element | [MathNaryOperator](../mathnaryoperator) | math element to place in array |
 
  **Returns:**
 [MathArray](../matharray)
@@ -258,13 +239,13 @@ MathArrayFactory
 
 | Name | Description |
 | --- | --- |
-| createMathArray ([MathBar](../mathbar)) | Creates a math array and places the specified element in it |
+| createMathArray ([MathBorderBox](../mathborderbox)) | Creates a math array and places the specified element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBar](../mathbar) | math element to place in array |
+| element | [MathBorderBox](../mathborderbox) | math element to place in array |
 
  **Returns:**
 [MathArray](../matharray)
@@ -277,13 +258,13 @@ MathArrayFactory
 
 | Name | Description |
 | --- | --- |
-| createMathArray ([MathSuperscriptElement](../mathsuperscriptelement)) | Creates a math array and places the specified element in it |
+| createMathArray ([MathBar](../mathbar)) | Creates a math array and places the specified element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSuperscriptElement](../mathsuperscriptelement) | math element to place in array |
+| element | [MathBar](../mathbar) | math element to place in array |
 
  **Returns:**
 [MathArray](../matharray)
@@ -315,13 +296,13 @@ MathArrayFactory
 
 | Name | Description |
 | --- | --- |
-| createMathArray ([MathSubscriptElement](../mathsubscriptelement)) | Creates a math array and places the specified element in it |
+| createMathArray ([MathSuperscriptElement](../mathsuperscriptelement)) | Creates a math array and places the specified element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSubscriptElement](../mathsubscriptelement) | math element to place in array |
+| element | [MathSuperscriptElement](../mathsuperscriptelement) | math element to place in array |
 
  **Returns:**
 [MathArray](../matharray)
@@ -334,13 +315,13 @@ MathArrayFactory
 
 | Name | Description |
 | --- | --- |
-| createMathArray ([MathFraction](../mathfraction)) | Creates a math array and places the specified element in it |
+| createMathArray ([MathSubscriptElement](../mathsubscriptelement)) | Creates a math array and places the specified element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFraction](../mathfraction) | math element to place in array |
+| element | [MathSubscriptElement](../mathsubscriptelement) | math element to place in array |
 
  **Returns:**
 [MathArray](../matharray)
@@ -391,13 +372,13 @@ MathArrayFactory
 
 | Name | Description |
 | --- | --- |
-| createMathArray ([MathBox](../mathbox)) | Creates a math array and places the specified element in it |
+| createMathArray ([MathFraction](../mathfraction)) | Creates a math array and places the specified element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBox](../mathbox) | math element to place in array |
+| element | [MathFraction](../mathfraction) | math element to place in array |
 
  **Returns:**
 [MathArray](../matharray)
@@ -417,6 +398,25 @@ MathArrayFactory
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathElementBase](../mathelementbase) | math element to place in array |
+
+ **Returns:**
+[MathArray](../matharray)
+
+
+---
+
+
+### createMathArray {#createMathArray}
+
+| Name | Description |
+| --- | --- |
+| createMathArray ([MathBox](../mathbox)) | Creates a math array and places the specified element in it |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBox](../mathbox) | math element to place in array |
 
  **Returns:**
 [MathArray](../matharray)

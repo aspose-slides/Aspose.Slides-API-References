@@ -31,7 +31,7 @@ int
 | getContentMarkTypes () | Returns the list of types of content marking that ought to be applied to a file. |
 
  **Returns:**
-[BehaviorPropertyCollection](../behaviorpropertycollection), KeyedCollection, Collection, ReadOnlyCollection, List
+[BehaviorPropertyCollection](../behaviorpropertycollection), KeyedCollection, ReadOnlyCollection, Collection, List
 
 
 ---
