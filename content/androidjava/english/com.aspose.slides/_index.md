@@ -22,6 +22,7 @@ url: /com.aspose.slides/
 | [AlphaReplace](../com.aspose.slides/alphareplace) | Represents and Alpha Replace effect. |
 | [AnimateTextType](../com.aspose.slides/animatetexttype) | Represents the animate text type of an animation effect. |
 | [AnimationTimeLine](../com.aspose.slides/animationtimeline) | Represents timeline of animation. |
+| [AsposeAIWebClient](../com.aspose.slides/asposeaiwebclient) | A built-in [IAIWebClient](../com.aspose.slides/iaiwebclient) implementation that connects to Aspose's own LLM. |
 | [AsposeLicenseException](../com.aspose.slides/asposelicenseexception) | This exception is thrown if any errors with license are detected. |
 | [Audio](../com.aspose.slides/audio) | Represents an embedded audio file. |
 | [AudioCollection](../com.aspose.slides/audiocollection) | Represents a collection of embedded audio files. |
@@ -422,7 +423,8 @@ url: /com.aspose.slides/
 | [OdpReadException](../com.aspose.slides/odpreadexception) | Represents an exception which thrown on presentation reading errors. |
 | [OleEmbeddedDataInfo](../com.aspose.slides/oleembeddeddatainfo) | Represents embedded data info for OLE object. |
 | [OleObjectFrame](../com.aspose.slides/oleobjectframe) | Represents an OLE object on a slide. |
-| [OpenAIWebClient](../com.aspose.slides/openaiwebclient) | Build-in lightweight OpenAI web client |
+| [OpenAICompatibleWebClient](../com.aspose.slides/openaicompatiblewebclient) | A built-in [IAIWebClient](../com.aspose.slides/iaiwebclient) implementation that connects to an OpenAI-compatible LLM provider at a specified base URL. |
+| [OpenAIWebClient](../com.aspose.slides/openaiwebclient) | A built-in [IAIWebClient](../com.aspose.slides/iaiwebclient) implementation that connects to the OpenAI API. |
 | [OptionalBlackTransition](../com.aspose.slides/optionalblacktransition) | Optional black slide transition effect. |
 | [OrganizationChartLayoutType](../com.aspose.slides/organizationchartlayouttype) | Represents formatting type the child nodes in an organization chart |
 | [Orientation](../com.aspose.slides/orientation) | Represents the orientation of a shape. |

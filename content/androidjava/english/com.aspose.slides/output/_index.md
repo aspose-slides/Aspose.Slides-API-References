@@ -20,6 +20,7 @@ Represents a collection of output elements for IWebDocument.
 | [add(String path, IPPImage image)](#add-java.lang.String-com.aspose.slides.IPPImage-) | Adds an output element for the image. |
 | [add(String path, IImage image)](#add-java.lang.String-com.aspose.slides.IImage-) | Adds an output element for the image. |
 | [add(String path, IVideo video)](#add-java.lang.String-com.aspose.slides.IVideo-) | Adds an output element for the video. |
+| [add(String path, IAudio audio)](#add-java.lang.String-com.aspose.slides.IAudio-) | Adds an output element for the audio. |
 | [add(String path, IFontData fontData, int fontStyle)](#add-java.lang.String-com.aspose.slides.IFontData-int-) | Creates and adds an output file element for the specified font. |
 | [add(String path, String textContent)](#add-java.lang.String-java.lang.String-) | Adds an output element for the text content. |
 | [bindResource(IOutputFile outputFile, Object obj)](#bindResource-com.aspose.slides.IOutputFile-java.lang.Object-) | Binds resource to output file. |
@@ -89,6 +90,22 @@ Adds an output element for the video.
 
 **Returns:**
 [IOutputFile](../../com.aspose.slides/ioutputfile) - [IOutputFile](../../com.aspose.slides/ioutputfile) object for the video.
+### add(String path, IAudio audio) {#add-java.lang.String-com.aspose.slides.IAudio-}
+```
+public final IOutputFile add(String path, IAudio audio)
+```
+
+
+Adds an output element for the audio.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | java.lang.String | Output path. |
+| audio | [IAudio](../../com.aspose.slides/iaudio) | Audio to output. |
+
+**Returns:**
+[IOutputFile](../../com.aspose.slides/ioutputfile) - [IOutputFile](../../com.aspose.slides/ioutputfile) object for the audio.
 ### add(String path, IFontData fontData, int fontStyle) {#add-java.lang.String-com.aspose.slides.IFontData-int-}
 ```
 public final IOutputFile add(String path, IFontData fontData, int fontStyle)
