@@ -1,11 +1,11 @@
 ---
 title: Html5Options
-second_title: Referensi API Java Aspose.Slides untuk Android
+second_title: Aspose.Slides untuk Android melalui Referensi API Java
 description: Mewakili opsi ekspor HTML5.
 type: docs
 url: /id/com.aspose.slides/html5options/
 ---
-**Pewarisan:**
+**Warisan:**
 java.lang.Object, [com.aspose.slides.SaveOptions](../../com.aspose.slides/saveoptions)
 
 **Semua Antarmuka yang Diimplementasikan:**
@@ -49,6 +49,8 @@ Mewakili opsi ekspor HTML5.
 | [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Mengembalikan atau mengatur opsi penyematan gambar. |
 | [getOutputPath()](#getOutputPath--) | Menentukan di mana sumber daya eksternal harus disimpan. |
 | [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Menentukan di mana sumber daya eksternal harus disimpan. |
+| [getPicturesCompression()](#getPicturesCompression--) | Mewakili tingkat kompresi gambar |
+| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Mewakili tingkat kompresi gambar |
 | [getDisableFontLigatures()](#getDisableFontLigatures--) | Mendapatkan atau mengatur nilai yang menunjukkan apakah teks dirender tanpa menggunakan ligatur. |
 | [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Mendapatkan atau mengatur nilai yang menunjukkan apakah teks dirender tanpa menggunakan ligatur. |
 | [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Mendapatkan atau mengatur mode di mana slide ditempatkan pada halaman saat mengekspor presentasi [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
@@ -58,12 +60,14 @@ Mewakili opsi ekspor HTML5.
 public Html5Options()
 ```
 
+
 Konstruktor default.
 
 ### getAnimateTransitions() {#getAnimateTransitions--}
 ```
 public final boolean getAnimateTransitions()
 ```
+
 
 Mengembalikan atau mengatur opsi animasi transisi. Baca/tulis boolean.
 
@@ -90,6 +94,7 @@ boolean
 public final void setAnimateTransitions(boolean value)
 ```
 
+
 Mengembalikan atau mengatur opsi animasi transisi. Baca/tulis boolean.
 
 --------------------
@@ -108,9 +113,8 @@ Mengembalikan atau mengatur opsi animasi transisi. Baca/tulis boolean.
 >  }
 > ```
 
-
 **Parameter:**
-| Parameter | Type | Description |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -118,6 +122,7 @@ Mengembalikan atau mengatur opsi animasi transisi. Baca/tulis boolean.
 ```
 public final boolean getAnimateShapes()
 ```
+
 
 Mengembalikan atau mengatur opsi animasi bentuk. Baca/tulis boolean.
 
@@ -144,6 +149,7 @@ boolean
 public final void setAnimateShapes(boolean value)
 ```
 
+
 Mengembalikan atau mengatur opsi animasi bentuk. Baca/tulis boolean.
 
 --------------------
@@ -163,7 +169,7 @@ Mengembalikan atau mengatur opsi animasi bentuk. Baca/tulis boolean.
 > ```
 
 **Parameter:**
-| Parameter | Type | Description |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -171,6 +177,7 @@ Mengembalikan atau mengatur opsi animasi bentuk. Baca/tulis boolean.
 ```
 public final boolean getEmbedImages()
 ```
+
 
 Mengembalikan atau mengatur opsi penyematan gambar. Baca/tulis boolean.
 
@@ -196,6 +203,7 @@ boolean
 public final void setEmbedImages(boolean value)
 ```
 
+
 Mengembalikan atau mengatur opsi penyematan gambar. Baca/tulis boolean.
 
 --------------------
@@ -214,7 +222,7 @@ Mengembalikan atau mengatur opsi penyematan gambar. Baca/tulis boolean.
 > ```
 
 **Parameter:**
-| Parameter | Type | Description |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -222,6 +230,7 @@ Mengembalikan atau mengatur opsi penyematan gambar. Baca/tulis boolean.
 ```
 public final String getOutputPath()
 ```
+
 
 Menentukan di mana sumber daya eksternal harus disimpan. Baca/tulis String.
 
@@ -248,6 +257,7 @@ java.lang.String
 public final void setOutputPath(String value)
 ```
 
+
 Menentukan di mana sumber daya eksternal harus disimpan. Baca/tulis String.
 
 --------------------
@@ -267,16 +277,40 @@ Menentukan di mana sumber daya eksternal harus disimpan. Baca/tulis String.
 > ```
 
 **Parameter:**
-| Parameter | Type | Description |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### getPicturesCompression() {#getPicturesCompression--}
+```
+public final int getPicturesCompression()
+```
+
+
+Mewakili tingkat kompresi gambar
+
+**Mengembalikan:**
+int
+### setPicturesCompression(int value) {#setPicturesCompression-int-}
+```
+public final void setPicturesCompression(int value)
+```
+
+
+Mewakili tingkat kompresi gambar
+
+**Parameter:**
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| value | int |  |
 
 ### getDisableFontLigatures() {#getDisableFontLigatures--}
 ```
 public final boolean getDisableFontLigatures()
 ```
 
-Mendapatkan atau mengatur nilai yang menunjukkan apakah teks dirender tanpa menggunakan ligatur. Saat disetel ke true, ligatur akan dinonaktifkan dalam output yang dirender. Secara default, properti ini disetel ke false.
+
+Mendapatkan atau mengatur nilai yang menunjukkan apakah teks dirender tanpa menggunakan ligatur. Ketika diatur ke true, ligatur akan dinonaktifkan dalam output yang dirender. Secara default, properti ini diatur ke false.
 
 --------------------
 
@@ -302,7 +336,8 @@ boolean
 public final void setDisableFontLigatures(boolean value)
 ```
 
-Mendapatkan atau mengatur nilai yang menunjukkan apakah teks dirender tanpa menggunakan ligatur. Saat disetel ke true, ligatur akan dinonaktifkan dalam output yang dirender. Secara default, properti ini disetel ke false.
+
+Mendapatkan atau mengatur nilai yang menunjukkan apakah teks dirender tanpa menggunakan ligatur. Ketika diatur ke true, ligatur akan dinonaktifkan dalam output yang dirender. Secara default, properti ini diatur ke false.
 
 --------------------
 
@@ -321,7 +356,7 @@ Mendapatkan atau mengatur nilai yang menunjukkan apakah teks dirender tanpa meng
 > ```
 
 **Parameter:**
-| Parameter | Type | Description |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -329,6 +364,7 @@ Mendapatkan atau mengatur nilai yang menunjukkan apakah teks dirender tanpa meng
 ```
 public final ISlidesLayoutOptions getSlidesLayoutOptions()
 ```
+
 
 Mendapatkan atau mengatur mode di mana slide ditempatkan pada halaman saat mengekspor presentasi [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
@@ -357,6 +393,7 @@ Mendapatkan atau mengatur mode di mana slide ditempatkan pada halaman saat menge
 public final void setSlidesLayoutOptions(ISlidesLayoutOptions value)
 ```
 
+
 Mendapatkan atau mengatur mode di mana slide ditempatkan pada halaman saat mengekspor presentasi [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
@@ -378,6 +415,6 @@ Mendapatkan atau mengatur mode di mana slide ditempatkan pada halaman saat menge
 > ```
 
 **Parameter:**
-| Parameter | Type | Description |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | value | [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) |  |

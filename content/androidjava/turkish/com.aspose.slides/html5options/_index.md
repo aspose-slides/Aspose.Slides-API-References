@@ -1,6 +1,6 @@
 ---
 title: Html5Options
-second_title: Aspose.Slides for Android via Java API Referansı
+second_title: Aspose.Slides for Android için Java API Referansı
 description: HTML5 dışa aktarma seçeneklerini temsil eder.
 type: docs
 url: /tr/com.aspose.slides/html5options/
@@ -8,7 +8,7 @@ url: /tr/com.aspose.slides/html5options/
 **Kalıtım:**
 java.lang.Object, [com.aspose.slides.SaveOptions](../../com.aspose.slides/saveoptions)
 
-**Tüm Uygulanan Arabirimler:**
+**Uygulanan Tüm Arayüzler:**
 [com.aspose.slides.IHtml5Options](../../com.aspose.slides/ihtml5options)
 ```
 public class Html5Options extends SaveOptions implements IHtml5Options
@@ -41,18 +41,20 @@ HTML5 dışa aktarma seçeneklerini temsil eder.
 
 | Yöntem | Açıklama |
 | --- | --- |
-| [getAnimateTransitions()](#getAnimateTransitions--) | Geçiş animasyonu seçeneğini alır veya ayarlar. |
-| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | Geçiş animasyonu seçeneğini alır veya ayarlar. |
-| [getAnimateShapes()](#getAnimateShapes--) | Şekil animasyonu seçeneğini alır veya ayarlar. |
-| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Şekil animasyonu seçeneğini alır veya ayarlar. |
-| [getEmbedImages()](#getEmbedImages--) | Görüntü gömme seçeneğini alır veya ayarlar. |
-| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Görüntü gömme seçeneğini alır veya ayarlar. |
+| [getAnimateTransitions()](#getAnimateTransitions--) | Geçiş animasyon seçeneğini alır veya ayarlar. |
+| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | Geçiş animasyon seçeneğini alır veya ayarlar. |
+| [getAnimateShapes()](#getAnimateShapes--) | Şekil animasyon seçeneğini alır veya ayarlar. |
+| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Şekil animasyon seçeneğini alır veya ayarlar. |
+| [getEmbedImages()](#getEmbedImages--) | Görüntü yerleştirme seçeneğini alır veya ayarlar. |
+| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Görüntü yerleştirme seçeneğini alır veya ayarlar. |
 | [getOutputPath()](#getOutputPath--) | Harici kaynakların nerede depolanacağını belirler. |
 | [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Harici kaynakların nerede depolanacağını belirler. |
-| [getDisableFontLigatures()](#getDisableFontLigatures--) | Metnin ligatürler kullanılmadan render edilip edilmediğini gösteren bir değeri alır veya ayarlar. |
-| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Metnin ligatürler kullanılmadan render edilip edilmediğini gösteren bir değeri alır veya ayarlar. |
-| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Sunumu dışa aktarırken slaytların sayfada yerleştirildiği modu alır veya ayarlar [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
-| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Sunumu dışa aktarırken slaytların sayfada yerleştirildiği modu alır veya ayarlar [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [getPicturesCompression()](#getPicturesCompression--) | Resim sıkıştırma seviyesini temsil eder |
+| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Resim sıkıştırma seviyesini temsil eder |
+| [getDisableFontLigatures()](#getDisableFontLigatures--) | Metnin ligatürler kullanılmadan render edilip edilmediğini belirten bir değeri alır veya ayarlar. |
+| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Metnin ligatürler kullanılmadan render edilip edilmediğini belirten bir değeri alır veya ayarlar. |
+| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Sunum dışa aktarılırken slaytların sayfada yerleştirildiği modu alır veya ayarlar [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Sunum dışa aktarılırken slaytların sayfada yerleştirildiği modu alır veya ayarlar [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 ### Html5Options() {#Html5Options--}
 ```
 public Html5Options()
@@ -67,7 +69,7 @@ public final boolean getAnimateTransitions()
 ```
 
 
-Geçiş animasyonu seçeneğini alır veya ayarlar. Okunur/Yazılabilir boolean.
+Geçiş animasyon seçeneğini alır veya ayarlar. Okunur/yazılır boolean.
 
 --------------------
 
@@ -93,7 +95,7 @@ public final void setAnimateTransitions(boolean value)
 ```
 
 
-Geçiş animasyonu seçeneğini alır veya ayarlar. Okunur/Yazılabilir boolean.
+Geçiş animasyon seçeneğini alır veya ayarlar. Okunur/yazılır boolean.
 
 --------------------
 
@@ -112,7 +114,7 @@ Geçiş animasyonu seçeneğini alır veya ayarlar. Okunur/Yazılabilir boolean.
 > ```
 
 **Parametreler:**
-| Parametre | Tür | Açıklama |
+| Parametre | Tip | Açıklama |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -122,7 +124,7 @@ public final boolean getAnimateShapes()
 ```
 
 
-Şekil animasyonu seçeneğini alır veya ayarlar. Okunur/Yazılabilir boolean.
+Şekil animasyon seçeneğini alır veya ayarlar. Okunur/yazılır boolean.
 
 --------------------
 
@@ -148,7 +150,7 @@ public final void setAnimateShapes(boolean value)
 ```
 
 
-Şekil animasyonu seçeneğini alır veya ayarlar. Okunur/Yazılabilir boolean.
+Şekil animasyon seçeneğini alır veya ayarlar. Okunur/yazılır boolean.
 
 --------------------
 
@@ -167,7 +169,7 @@ public final void setAnimateShapes(boolean value)
 > ```
 
 **Parametreler:**
-| Parametre | Tür | Açıklama |
+| Parametre | Tip | Açıklama |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -177,7 +179,7 @@ public final boolean getEmbedImages()
 ```
 
 
-Görüntü gömme seçeneğini alır veya ayarlar. Okunur/Yazılabilir boolean.
+Görüntü yerleştirme seçeneğini alır veya ayarlar. Okunur/yazılır boolean.
 
 --------------------
 
@@ -202,7 +204,7 @@ public final void setEmbedImages(boolean value)
 ```
 
 
-Görüntü gömme seçeneğini alır veya ayarlar. Okunur/Yazılabilir boolean.
+Görüntü yerleştirme seçeneğini alır veya ayarlar. Okunur/yazılır boolean.
 
 --------------------
 
@@ -220,7 +222,7 @@ Görüntü gömme seçeneğini alır veya ayarlar. Okunur/Yazılabilir boolean.
 > ```
 
 **Parametreler:**
-| Parametre | Tür | Açıklama |
+| Parametre | Tip | Açıklama |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -230,7 +232,7 @@ public final String getOutputPath()
 ```
 
 
-Harici kaynakların nerede depolanacağını belirler. Okunur/Yazılabilir String.
+Harici kaynakların nerede depolanacağını belirler. Okunur/yazılır String.
 
 --------------------
 
@@ -256,7 +258,7 @@ public final void setOutputPath(String value)
 ```
 
 
-Harici kaynakların nerede depolanacağını belirler. Okunur/Yazılabilir String.
+Harici kaynakların nerede depolanacağını belirler. Okunur/yazılır String.
 
 --------------------
 
@@ -275,9 +277,32 @@ Harici kaynakların nerede depolanacağını belirler. Okunur/Yazılabilir Strin
 > ```
 
 **Parametreler:**
-| Parametre | Tür | Açıklama |
+| Parametre | Tip | Açıklama |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### getPicturesCompression() {#getPicturesCompression--}
+```
+public final int getPicturesCompression()
+```
+
+
+Resim sıkıştırma seviyesini temsil eder
+
+**Döndürür:**
+int
+### setPicturesCompression(int value) {#setPicturesCompression-int-}
+```
+public final void setPicturesCompression(int value)
+```
+
+
+Resim sıkıştırma seviyesini temsil eder
+
+**Parametreler:**
+| Parametre | Tip | Açıklama |
+| --- | --- | --- |
+| value | int |  |
 
 ### getDisableFontLigatures() {#getDisableFontLigatures--}
 ```
@@ -285,7 +310,7 @@ public final boolean getDisableFontLigatures()
 ```
 
 
-Metnin ligatürler kullanılmadan render edilip edilmediğini gösteren bir değeri alır veya ayarlar. Değer true olarak ayarlandığında, render edilen çıktıda ligatürler devre dışı bırakılır. Varsayılan olarak bu özellik false olarak ayarlanmıştır.
+Metnin ligatürler kullanılmadan render edilip edilmediğini belirten bir değeri alır veya ayarlar. Değer true olarak ayarlandığında, render edilmiş çıktıda ligatürler devre dışı bırakılır. Varsayılan olarak bu özellik false olarak ayarlanmıştır.
 
 --------------------
 
@@ -295,7 +320,7 @@ Metnin ligatürler kullanılmadan render edilip edilmediğini gösteren bir değ
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      Html5Options options = new Html5Options();
->      options.setDisableFontLigatures(true); // Metin render etmede ligatürleri devre dışı bırak
+>      options.setDisableFontLigatures(true); // Metin render'ında ligatürleri devre dışı bırak
 > 
 >      pres.save("output.html", SaveFormat.Html5, options);
 >  } finally {
@@ -311,7 +336,7 @@ public final void setDisableFontLigatures(boolean value)
 ```
 
 
-Metnin ligatürler kullanılmadan render edilip edilmediğini gösteren bir değeri alır veya ayarlar. Değer true olarak ayarlandığında, render edilen çıktıda ligatürler devre dışı bırakılır. Varsayılan olarak bu özellik false olarak ayarlanmıştır.
+Metnin ligatürler kullanılmadan render edilip edilmediğini belirten bir değeri alır veya ayarlar. Değer true olarak ayarlandığında, render edilmiş çıktıda ligatürler devre dışı bırakılır. Varsayılan olarak bu özellik false olarak ayarlanmıştır.
 
 --------------------
 
@@ -321,7 +346,7 @@ Metnin ligatürler kullanılmadan render edilip edilmediğini gösteren bir değ
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      Html5Options options = new Html5Options();
->      options.setDisableFontLigatures(true); // Metin render etmede ligatürleri devre dışı bırak
+>      options.setDisableFontLigatures(true); // Metin render'ında ligatürleri devre dışı bırak
 > 
 >      pres.save("output.html", SaveFormat.Html5, options);
 >  } finally {
@@ -330,7 +355,7 @@ Metnin ligatürler kullanılmadan render edilip edilmediğini gösteren bir değ
 > ```
 
 **Parametreler:**
-| Parametre | Tür | Açıklama |
+| Parametre | Tip | Açıklama |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -340,7 +365,7 @@ public final ISlidesLayoutOptions getSlidesLayoutOptions()
 ```
 
 
-Sunumu dışa aktarırken slaytların sayfada yerleştirildiği modu alır veya ayarlar [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+Sunum dışa aktarılırken slaytların sayfada yerleştirildiği modu alır veya ayarlar [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
 
@@ -368,7 +393,7 @@ public final void setSlidesLayoutOptions(ISlidesLayoutOptions value)
 ```
 
 
-Sunumu dışa aktarırken slaytların sayfada yerleştirildiği modu alır veya ayarlar [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+Sunum dışa aktarılırken slaytların sayfada yerleştirildiği modu alır veya ayarlar [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
 
@@ -389,6 +414,6 @@ Sunumu dışa aktarırken slaytların sayfada yerleştirildiği modu alır veya 
 > ```
 
 **Parametreler:**
-| Parametre | Tür | Açıklama |
+| Parametre | Tip | Açıklama |
 | --- | --- | --- |
 | value | [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) |  |

@@ -1,77 +1,75 @@
 ---
 title: IParagraph
-second_title: Aspose.Slides for Android via Java API 參考
+second_title: Aspose.Slides for Android 透過 Java API 參考
 description: 表示文字段落。
 type: docs
 url: /zh-hant/com.aspose.slides/iparagraph/
 ---
-**已實作的介面：**
+**已實作的所有介面：**
 [com.aspose.slides.ISlideComponent](../../com.aspose.slides/islidecomponent)
 ```
 public interface IParagraph extends ISlideComponent
 ```
 
 表示文字段落。
-
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
-| [getPortions()](#getPortions--) | 返回文字部分的集合。 |
-| [getParagraphFormat()](#getParagraphFormat--) | 返回此段落的格式化對象。 |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | 合併具有相同格式的執行。 |
+| [getPortions()](#getPortions--) | 傳回文字片段的集合。 |
+| [getParagraphFormat()](#getParagraphFormat--) | 傳回此段落的格式化物件。 |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | 合併具有相同格式的執行序。 |
 | [getText()](#getText--) | 取得或設定段落的純文字。 |
 | [setText(String value)](#setText-java.lang.String-) | 取得或設定段落的純文字。 |
-| [getRect()](#getRect--) | 取得段落外接矩形的座標。 |
-| [getLinesCount()](#getLinesCount--) | 取得段落的行數。 |
-| [getEndParagraphPortionFormat()](#getEndParagraphPortionFormat--) | 指定在最後一個部分之後插入另一部分時要使用的部分屬性。 |
-| [setEndParagraphPortionFormat(IPortionFormat value)](#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-) | 指定在最後一個部分之後插入另一部分時要使用的部分屬性。 |
+| [getRect()](#getRect--) | 取得限定段落的矩形座標。 |
+| [getLinesCount()](#getLinesCount--) | 取得段落中的行數。 |
+| [getImage()](#getImage--) | 傳回段落的影像。 |
+| [getImage(float scaleX, float scaleY)](#getImage-float-float-) | 傳回具指定比例的段落影像。 |
+| [getEndParagraphPortionFormat()](#getEndParagraphPortionFormat--) | 指定在最後一個片段之後插入另一個片段時所使用的片段屬性。 |
+| [setEndParagraphPortionFormat(IPortionFormat value)](#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-) | 指定在最後一個片段之後插入另一個片段時所使用的片段屬性。 |
 
 ### getPortions() {#getPortions--}
 ```
 public abstract IPortionCollection getPortions()
 ```
 
-返回文字部分的集合。唯讀 [IPortionCollection](../../com.aspose.slides/iportioncollection)。
+傳回文字片段的集合。唯讀 [IPortionCollection](../../com.aspose.slides/iportioncollection)。
 
-**返回值：**
+**傳回：**
 [IPortionCollection](../../com.aspose.slides/iportioncollection)
-
 ### getParagraphFormat() {#getParagraphFormat--}
 ```
 public abstract IParagraphFormat getParagraphFormat()
 ```
 
-返回此段落的格式化對象。唯讀 [IParagraphFormat](../../com.aspose.slides/iparagraphformat)。
+傳回此段落的格式化物件。唯讀 [IParagraphFormat](../../com.aspose.slides/iparagraphformat)。
 
-**返回值：**
+**傳回：**
 [IParagraphFormat](../../com.aspose.slides/iparagraphformat)
-
 ### joinPortionsWithSameFormatting() {#joinPortionsWithSameFormatting--}
 ```
 public abstract void joinPortionsWithSameFormatting()
 ```
 
-合併具有相同格式的執行。
+合併具有相同格式的執行序。
 
 ### getText() {#getText--}
 ```
 public abstract String getText()
 ```
 
-取得或設定段落的純文字。讀/寫 String。
+取得或設定段落的純文字。讀寫 String。
 
 值：文字。
 
-**返回值：**
+**傳回：**
 java.lang.String
-
 ### setText(String value) {#setText-java.lang.String-}
 ```
 public abstract void setText(String value)
 ```
 
-取得或設定段落的純文字。讀/寫 String。
+取得或設定段落的純文字。讀寫 String。
 
 值：文字。
 
@@ -79,23 +77,21 @@ public abstract void setText(String value)
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
 | value | java.lang.String |  |
-
 ### getRect() {#getRect--}
 ```
 public abstract RectF getRect()
 ```
 
-取得段落外接矩形的座標。該矩形包含段落中所有文字行，包括空白行。
+取得限定段落的矩形座標。該矩形包含段落中所有文字行，包括空白行。
 
-**返回值：**
-android.graphics.RectF - 包圍段落的矩形 android.graphics.RectF
-
+**傳回：**
+android.graphics.RectF - 限定段落的矩形
 ### getLinesCount() {#getLinesCount--}
 ```
 public abstract int getLinesCount()
 ```
 
-取得段落的行數。
+取得段落中的行數。
 
 --------------------
 
@@ -115,25 +111,106 @@ public abstract int getLinesCount()
 >  }
 > ```
 
-**返回值：**
-int - 段落中的行數
 
+**傳回：**
+int - 段落中的行數
+### getImage() {#getImage--}
+```
+public abstract IImage getImage()
+```
+
+傳回段落的影像。
+
+--------------------
+
+> ```
+> The following example shows how to render a paragraph as an image:
+>   
+>  Presentation pres = new Presentation();
+>  try {
+>      IAutoShape shape = pres.getSlides().get_Item(0).getShapes().addAutoShape(
+>          ShapeType.Rectangle, 50, 50, 150, 50);
+>      IParagraph paragraph = shape.getTextFrame().getParagraphs().get_Item(0);
+>      paragraph.setText("Aspose Paragraph GetImage() Example");
+>      IImage paragraphImage = paragraph.getImage();
+>      try {
+>          paragraphImage.save("paragraph.png");
+>      } finally {
+>          if (paragraphImage != null) paragraphImage.dispose();
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**傳回：**
+[IImage](../../com.aspose.slides/iimage) - 包含已渲染段落的影像；如果在父集合中找不到段落、沒有有效的渲染邊界，或在渲染影像時發生錯誤，則為 null。
+### getImage(float scaleX, float scaleY) {#getImage-float-float-}
+```
+public abstract IImage getImage(float scaleX, float scaleY)
+```
+
+傳回具指定比例的段落影像。
+
+--------------------
+
+> ```
+> The following example shows how to render each text box paragraph on a slide as an image with custom scaling:
+>   
+>  Presentation pres = new Presentation("sample.pptx");
+>  try {
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      int shapeIndex = 0;
+>      for (IShape shape : slide.getShapes())
+>      {
+>          shapeIndex++;
+>          if (shape instanceof IAutoShape) {
+>              IAutoShape autoShape = (IAutoShape)shape;
+>              int paragraphIndex = 0;
+>              for (IParagraph paragraph : autoShape.getTextFrame().getParagraphs())
+>              {
+>                  paragraphIndex++;
+>                  IImage paragraphImage = paragraph.getImage(2f, 2f);
+>                  try {
+>                      if (paragraphImage != null)
+>                          paragraphImage.save("shape"+shapeIndex+"_paragraph"+paragraphIndex+".png");
+> 
+>                  } finally {
+>                      if (paragraphImage != null) paragraphImage.dispose();
+>                  }
+>              }
+>          }
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**參數：**
+| 參數 | 類型 | 說明 |
+| --- | --- | --- |
+| scaleX | float | 套用於段落影像的水平比例因子。 |
+| scaleY | float | 套用於段落影像的垂直比例因子。 |
+
+**傳回：**
+[IImage](../../com.aspose.slides/iimage) - 包含已渲染段落的影像；如果在父集合中找不到段落、沒有有效的渲染邊界，或在渲染影像時發生錯誤，則為 null。
 ### getEndParagraphPortionFormat() {#getEndParagraphPortionFormat--}
 ```
 public abstract IPortionFormat getEndParagraphPortionFormat()
 ```
 
-指定在最後一個部分之後插入另一部分時要使用的部分屬性。
+指定在最後一個片段之後插入另一片段時所使用的片段屬性。
 
-**返回值：**
+**傳回：**
 [IPortionFormat](../../com.aspose.slides/iportionformat)
-
 ### setEndParagraphPortionFormat(IPortionFormat value) {#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-}
 ```
 public abstract void setEndParagraphPortionFormat(IPortionFormat value)
 ```
 
-指定在最後一個部分之後插入另一部分時要使用的部分屬性。
+指定在最後一個片段之後插入另一片段時所使用的片段屬性。
 
 **參數：**
 | 參數 | 類型 | 說明 |

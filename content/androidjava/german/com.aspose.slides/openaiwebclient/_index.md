@@ -1,7 +1,7 @@
 ---
 title: OpenAIWebClient
 second_title: Aspose.Slides für Android über die Java-API-Referenz
-description: Eingebauter leichter OpenAI-Webclient
+description: Eine integrierte  Implementierung, die eine Verbindung zur OpenAI-API herstellt.
 type: docs
 url: /de/com.aspose.slides/openaiwebclient/
 ---
@@ -14,19 +14,19 @@ java.lang.Object
 public class OpenAIWebClient implements IAIWebClient, Closeable
 ```
 
-Eingebauter leichter OpenAI-Webclient
+Eine eingebaute [IAIWebClient](../../com.aspose.slides/iaiwebclient)-Implementierung, die eine Verbindung zur OpenAI-API herstellt.
 ## Konstruktoren
 
 | Konstruktor | Beschreibung |
 | --- | --- |
 | [OpenAIWebClient(String model, String apiKey, String organizationId)](#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-) | Erstellt eine Instanz des OpenAI-Webclients. |
-| [OpenAIWebClient(String model, String apiKey, String organizationId, HttpURLConnection httpClient)](#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | Erstellt eine Instanz des OpenAI-Webclients. |
+| [OpenAIWebClient(String model, String apiKey, String organizationId, HttpURLConnection httpClient)](#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | Erstellt eine Instanz des OpenAI-Webclients, der einen extern verwalteten HttpClient verwendet. |
 ## Methoden
 
 | Methode | Beschreibung |
 | --- | --- |
-| [callChat(String instruction)](#callChat-java.lang.String-) | Sendet eine Chat-Anweisung an das KI-Modell unter Verwendung einer extern verwalteten  Instanz und gibt die Antwortnachricht auf die gegebene Anweisung zurück. |
-| [createConversation()](#createConversation--) | Erstellt eine Gesprächsinstanz. |
+| [callChat(String instruction)](#callChat-java.lang.String-) |  |
+| [createConversation()](#createConversation--) | Erstellt eine Konversationsinstanz. |
 | [close()](#close--) | Gibt Ressourcen frei, die von dieser Instanz verwendet werden. |
 ### OpenAIWebClient(String model, String apiKey, String organizationId) {#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-}
 ```
@@ -40,16 +40,27 @@ Erstellt eine Instanz des OpenAI-Webclients.
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | model | java.lang.String | OpenAI-Sprachmodell. Mögliche Werte: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
-| apiKey | java.lang.String | OpenAI-API-Schlüssel |
-| organizationId | java.lang.String | Organisations-ID (optional) |
+| apiKey | java.lang.String | OpenAI-API-Schlüssel. |
+| organizationId | java.lang.String | Organisations-ID (optional).
 
+```
+using (OpenAIWebClient aiClient = new OpenAIWebClient("gpt-4o-mini", apiKey, null))
+ {
+     SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
+     using (Presentation presentation = new Presentation("Presentation.pptx"))
+     {
+         await aiAgent.TranslateAsync(presentation, "spanish");
+         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     }
+ }
+``` |
 ### OpenAIWebClient(String model, String apiKey, String organizationId, HttpURLConnection httpClient) {#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-}
 ```
 public OpenAIWebClient(String model, String apiKey, String organizationId, HttpURLConnection httpClient)
 ```
 
 
-Erstellt eine Instanz des OpenAI-Webclients.
+Erstellt eine Instanz des OpenAI-Webclients, der einen extern verwalteten HttpClient verwendet. Der bereitgestellte HttpClient wird von dieser Instanz nicht freigegeben und bleibt im Besitz des Aufrufers.
 
 **Parameter:**
 | Parameter | Typ | Beschreibung |
@@ -57,32 +68,44 @@ Erstellt eine Instanz des OpenAI-Webclients.
 | model | java.lang.String | OpenAI-Sprachmodell. Mögliche Werte: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
 | apiKey | java.lang.String | OpenAI-API-Schlüssel |
 | organizationId | java.lang.String | Organisations-ID (optional) |
-| httpClient | java.net.HttpURLConnection | Eine extern verwaltete HttpURLConnection-Instanz. |
+| httpClient | java.net.HttpURLConnection | Eine extern verwaltete HttpClient-Instanz
 
+```
+using (HttpClient httpClient = new HttpClient())
+ {
+     OpenAIWebClient aiClient = new OpenAIWebClient("gpt-4o-mini", apiKey, null, httpClient);
+     SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
+     using (Presentation presentation = new Presentation("Presentation.pptx"))
+     {
+         await aiAgent.TranslateAsync(presentation, "spanish");
+         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     }
+ }
+``` |
 ### callChat(String instruction) {#callChat-java.lang.String-}
 ```
 public String callChat(String instruction)
 ```
 
 
-Sendet eine Chat-Anweisung an das KI-Modell unter Verwendung einer extern verwalteten  Instanz und gibt die Antwortnachricht auf die gegebene Anweisung zurück.
+Sendet eine Chat-Anweisung an das KI-Modell unter Verwendung einer bereitgestellten HttpConnection-Instanz und gibt die Antwortnachricht zur angegebenen Anweisung zurück.
 
 **Parameter:**
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| instruction | java.lang.String | Die Anweisung oder Nachricht, die vom KI-Modell verarbeitet werden soll |
+| instruction | java.lang.String |  |
 
-**Rückgabe:**
-java.lang.String - Die vom KI-Modell generierte Nachricht als Antwort auf die gegebene Anweisung.
+**Rückgabewert:**
+java.lang.String
 ### createConversation() {#createConversation--}
 ```
 public final IAIConversation createConversation()
 ```
 
 
-Erstellt eine Gesprächsinstanz. Im Gegensatz zu regulären KI-Aufrufen behalten Gespräche den gesamten Kontext.
+Erstellt eine Konversationsinstanz. Im Gegensatz zu regulären KI-Aufrufen behalten Unterhaltungen den gesamten Kontext bei.
 
-**Rückgabe:**
+**Rückgabewert:**
 [IAIConversation](../../com.aspose.slides/iaiconversation) - Eine [IAIConversation](../../com.aspose.slides/iaiconversation)-Instanz.
 ### close() {#close--}
 ```

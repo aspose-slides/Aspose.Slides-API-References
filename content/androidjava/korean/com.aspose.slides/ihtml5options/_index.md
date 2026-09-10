@@ -1,6 +1,6 @@
 ---
 title: IHtml5Options
-second_title: Aspose.Slides for Android Java API 참조
+second_title: Java API 레퍼런스를 통한 Android용 Aspose.Slides
 description: HTML5 내보내기 옵션을 나타냅니다.
 type: docs
 url: /ko/com.aspose.slides/ihtml5options/
@@ -39,19 +39,21 @@ HTML5 내보내기 옵션을 나타냅니다.
 | [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | 도형 애니메이션 옵션을 반환하거나 설정합니다. |
 | [getEmbedImages()](#getEmbedImages--) | 이미지 포함 옵션을 반환하거나 설정합니다. |
 | [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | 이미지 포함 옵션을 반환하거나 설정합니다. |
-| [getOutputPath()](#getOutputPath--) | 외부 리소스를 저장할 위치를 결정합니다. |
-| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | 외부 리소스를 저장할 위치를 결정합니다. |
-| [getDisableFontLigatures()](#getDisableFontLigatures--) | 텍스트가 리가처를 사용하지 않고 렌더링되는지를 나타내는 값을 가져오거나 설정합니다. |
-| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | 텍스트가 리가처를 사용하지 않고 렌더링되는지를 나타내는 값을 가져오거나 설정합니다. |
-| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | 프레젠테이션을 내보낼 때 슬라이드가 페이지에 배치되는 모드를 가져오거나 설정합니다 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
-| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | 프레젠테이션을 내보낼 때 슬라이드가 페이지에 배치되는 모드를 가져오거나 설정합니다 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [getOutputPath()](#getOutputPath--) | 외부 리소스가 저장될 위치를 결정합니다. |
+| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | 외부 리소스가 저장될 위치를 결정합니다. |
+| [getPicturesCompression()](#getPicturesCompression--) | 그림 압축 수준을 나타냅니다 읽기/쓰기 PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
+| [setPicturesCompression(int value)](#setPicturesCompression-int-) | 그림 압축 수준을 나타냅니다 읽기/쓰기 PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
+| [getDisableFontLigatures()](#getDisableFontLigatures--) | 텍스트가 리가처를 사용하지 않고 렌더링되는지 여부를 가져오거나 설정합니다. |
+| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | 텍스트가 리가처를 사용하지 않고 렌더링되는지 여부를 가져오거나 설정합니다. |
+| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | 프레젠테이션을 내보낼 때 페이지에 슬라이드가 배치되는 모드를 가져오거나 설정합니다 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | 프레젠테이션을 내보낼 때 페이지에 슬라이드가 배치되는 모드를 가져오거나 설정합니다 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 
 ### getAnimateTransitions() {#getAnimateTransitions--}
 ```
 public abstract boolean getAnimateTransitions()
 ```
 
-전환 애니메이션 옵션을 반환하거나 설정합니다. 읽기/쓰기 부울.
+전환 애니메이션 옵션을 반환하거나 설정합니다. 읽기/쓰기 boolean.
 
 --------------------
 
@@ -69,14 +71,14 @@ public abstract boolean getAnimateTransitions()
 >  }
 > ```
 
-**반환값:**
+**반환값:**  
 boolean
 ### setAnimateTransitions(boolean value) {#setAnimateTransitions-boolean-}
 ```
 public abstract void setAnimateTransitions(boolean value)
 ```
 
-전환 애니메이션 옵션을 반환하거나 설정합니다. 읽기/쓰기 부울.
+전환 애니메이션 옵션을 반환하거나 설정합니다. 읽기/쓰기 boolean.
 
 --------------------
 
@@ -94,8 +96,8 @@ public abstract void setAnimateTransitions(boolean value)
 >  }
 > ```
 
-**매개변수:**
-| 매개변수 | 유형 | 설명 |
+**매개변수:**  
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -104,7 +106,7 @@ public abstract void setAnimateTransitions(boolean value)
 public abstract boolean getAnimateShapes()
 ```
 
-도형 애니메이션 옵션을 반환하거나 설정합니다. 읽기/쓰기 부울.
+도형 애니메이션 옵션을 반환하거나 설정합니다. 읽기/쓰기 boolean.
 
 --------------------
 
@@ -122,14 +124,15 @@ public abstract boolean getAnimateShapes()
 >  }
 > ```
 
-**반환값:**
+
+**반환값:**  
 boolean
 ### setAnimateShapes(boolean value) {#setAnimateShapes-boolean-}
 ```
 public abstract void setAnimateShapes(boolean value)
 ```
 
-도형 애니메이션 옵션을 반환하거나 설정합니다. 읽기/쓰기 부울.
+도형 애니메이션 옵션을 반환하거나 설정합니다. 읽기/쓰기 boolean.
 
 --------------------
 
@@ -147,8 +150,8 @@ public abstract void setAnimateShapes(boolean value)
 >  }
 > ```
 
-**매개변수:**
-| 매개변수 | 유형 | 설명 |
+**매개변수:**  
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -157,7 +160,7 @@ public abstract void setAnimateShapes(boolean value)
 public abstract boolean getEmbedImages()
 ```
 
-이미지 포함 옵션을 반환하거나 설정합니다. 읽기/쓰기 부울.
+이미지 포함 옵션을 반환하거나 설정합니다. 읽기/쓰기 boolean.
 
 --------------------
 
@@ -174,14 +177,14 @@ public abstract boolean getEmbedImages()
 >  }
 > ```
 
-**반환값:**
+**반환값:**  
 boolean
 ### setEmbedImages(boolean value) {#setEmbedImages-boolean-}
 ```
 public abstract void setEmbedImages(boolean value)
 ```
 
-이미지 포함 옵션을 반환하거나 설정합니다. 읽기/쓰기 부울.
+이미지 포함 옵션을 반환하거나 설정합니다. 읽기/쓰기 boolean.
 
 --------------------
 
@@ -198,8 +201,8 @@ public abstract void setEmbedImages(boolean value)
 >  }
 > ```
 
-**매개변수:**
-| 매개변수 | 유형 | 설명 |
+**매개변수:**  
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -208,7 +211,7 @@ public abstract void setEmbedImages(boolean value)
 public abstract String getOutputPath()
 ```
 
-외부 리소스를 저장할 위치를 결정합니다. 읽기/쓰기 문자열.
+외부 리소스가 저장될 위치를 결정합니다. 읽기/쓰기 String.
 
 --------------------
 
@@ -226,14 +229,14 @@ public abstract String getOutputPath()
 >  }
 > ```
 
-**반환값:**
+**반환값:**  
 java.lang.String
 ### setOutputPath(String value) {#setOutputPath-java.lang.String-}
 ```
 public abstract void setOutputPath(String value)
 ```
 
-외부 리소스를 저장할 위치를 결정합니다. 읽기/쓰기 문자열.
+외부 리소스가 저장될 위치를 결정합니다. 읽기/쓰기 String.
 
 --------------------
 
@@ -251,17 +254,38 @@ public abstract void setOutputPath(String value)
 >  }
 > ```
 
-**매개변수:**
-| 매개변수 | 유형 | 설명 |
+**매개변수:**  
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### getPicturesCompression() {#getPicturesCompression--}
+```
+public abstract int getPicturesCompression()
+```
+
+그림 압축 수준을 나타냅니다 읽기/쓰기 PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
+
+**반환값:**  
+int
+### setPicturesCompression(int value) {#setPicturesCompression-int-}
+```
+public abstract void setPicturesCompression(int value)
+```
+
+그림 압축 수준을 나타냅니다 읽기/쓰기 PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
+
+**매개변수:**  
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| value | int |  |
 
 ### getDisableFontLigatures() {#getDisableFontLigatures--}
 ```
 public abstract boolean getDisableFontLigatures()
 ```
 
-텍스트가 리가처를 사용하지 않고 렌더링되는지를 나타내는 값을 가져오거나 설정합니다. true로 설정하면 렌더링된 출력에서 리가처가 비활성화됩니다. 기본값은 false입니다.
+텍스트가 리가처를 사용하지 않고 렌더링되는지 여부를 가져오거나 설정합니다. true로 설정하면 렌더링 출력에서 리가처가 사용되지 않게 됩니다. 기본값은 false입니다.
 
 --------------------
 
@@ -279,14 +303,14 @@ public abstract boolean getDisableFontLigatures()
 >  }
 > ```
 
-**반환값:**
+**반환값:**  
 boolean
 ### setDisableFontLigatures(boolean value) {#setDisableFontLigatures-boolean-}
 ```
 public abstract void setDisableFontLigatures(boolean value)
 ```
 
-텍스트가 리가처를 사용하지 않고 렌더링되는지를 나타내는 값을 가져오거나 설정합니다. true로 설정하면 렌더링된 출력에서 리가처가 비활성화됩니다. 기본값은 false입니다.
+텍스트가 리가처를 사용하지 않고 렌더링되는지 여부를 가져오거나 설정합니다. true로 설정하면 렌더링 출력에서 리가처가 사용되지 않게 됩니다. 기본값은 false입니다.
 
 --------------------
 
@@ -304,8 +328,8 @@ public abstract void setDisableFontLigatures(boolean value)
 >  }
 > ```
 
-**매개변수:**
-| 매개변수 | 유형 | 설명 |
+**매개변수:**  
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -314,7 +338,7 @@ public abstract void setDisableFontLigatures(boolean value)
 public abstract ISlidesLayoutOptions getSlidesLayoutOptions()
 ```
 
-프레젠테이션을 내보낼 때 슬라이드가 페이지에 배치되는 모드를 가져오거나 설정합니다 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+프레젠테이션을 내보낼 때 페이지에 슬라이드가 배치되는 모드를 가져오거나 설정합니다 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
 
@@ -334,14 +358,14 @@ public abstract ISlidesLayoutOptions getSlidesLayoutOptions()
 >  }
 > ```
 
-**반환값:**
+**반환값:**  
 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)
 ### setSlidesLayoutOptions(ISlidesLayoutOptions value) {#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-}
 ```
 public abstract void setSlidesLayoutOptions(ISlidesLayoutOptions value)
 ```
 
-프레젠테이션을 내보낼 때 슬라이드가 페이지에 배치되는 모드를 가져오거나 설정합니다 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+프레젠테이션을 내보낼 때 페이지에 슬라이드가 배치되는 모드를 가져오거나 설정합니다 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
 
@@ -361,7 +385,7 @@ public abstract void setSlidesLayoutOptions(ISlidesLayoutOptions value)
 >  }
 > ```
 
-**매개변수:**
-| 매개변수 | 유형 | 설명 |
+**매개변수:**  
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
 | value | [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) |  |

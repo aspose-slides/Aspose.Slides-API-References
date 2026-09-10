@@ -1,6 +1,6 @@
 ---
 title: IHtml5Options
-second_title: Aspose.Slides für Android über die Java-API-Referenz
+second_title: Aspose.Slides für Android über die Java API Referenz
 description: Stellt HTML5-Exportoptionen dar.
 type: docs
 url: /de/com.aspose.slides/ihtml5options/
@@ -41,17 +41,18 @@ Stellt HTML5-Exportoptionen dar.
 | [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Gibt die Bild-Einbettungsoption zurück oder legt sie fest. |
 | [getOutputPath()](#getOutputPath--) | Bestimmt, wo externe Ressourcen gespeichert werden sollen. |
 | [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Bestimmt, wo externe Ressourcen gespeichert werden sollen. |
-| [getDisableFontLigatures()](#getDisableFontLigatures--) | Gibt einen Wert zurück oder legt ihn fest, der angibt, ob Text ohne Ligaturen gerendert wird. |
-| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Gibt einen Wert zurück oder legt ihn fest, der angibt, ob Text ohne Ligaturen gerendert wird. |
-| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Gibt den Modus zurück oder legt ihn fest, in dem Folien beim Export einer Präsentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) auf der Seite angeordnet werden. |
-| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Gibt den Modus zurück oder legt ihn fest, in dem Folien beim Export einer Präsentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) auf der Seite angeordnet werden. |
-
+| [getPicturesCompression()](#getPicturesCompression--) | Stellt die Kompressionsstufe für Bilder dar Lesen/Schreiben PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
+| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Stellt die Kompressionsstufe für Bilder dar Lesen/Schreiben PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
+| [getDisableFontLigatures()](#getDisableFontLigatures--) | Liest oder legt einen Wert fest, der angibt, ob Text ohne Ligaturen gerendert wird. |
+| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Liest oder legt einen Wert fest, der angibt, ob Text ohne Ligaturen gerendert wird. |
+| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Liest oder legt den Modus fest, in dem Folien beim Export einer Präsentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) angeordnet werden. |
+| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Liest oder legt den Modus fest, in dem Folien beim Export einer Präsentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) angeordnet werden. |
 ### getAnimateTransitions() {#getAnimateTransitions--}
 ```
 public abstract boolean getAnimateTransitions()
 ```
 
-Gibt die Übergangsanimationsoption zurück oder legt sie fest. Lese-/Schreibzugriff boolean.
+Gibt die Übergangsanimationsoption zurück oder legt sie fest. Lesen/Schreiben boolesch.
 
 --------------------
 
@@ -69,14 +70,14 @@ Gibt die Übergangsanimationsoption zurück oder legt sie fest. Lese-/Schreibzug
 >  }
 > ```
 
-**Rückgabe:**  
+**Rückgabe:**
 boolean
 ### setAnimateTransitions(boolean value) {#setAnimateTransitions-boolean-}
 ```
 public abstract void setAnimateTransitions(boolean value)
 ```
 
-Gibt die Übergangsanimationsoption zurück oder legt sie fest. Lese-/Schreibzugriff boolean.
+Gibt die Übergangsanimationsoption zurück oder legt sie fest. Lesen/Schreiben boolesch.
 
 --------------------
 
@@ -104,7 +105,7 @@ Gibt die Übergangsanimationsoption zurück oder legt sie fest. Lese-/Schreibzug
 public abstract boolean getAnimateShapes()
 ```
 
-Gibt die Formenanimationsoption zurück oder legt sie fest. Lese-/Schreibzugriff boolean.
+Gibt die Formenanimationsoption zurück oder legt sie fest. Lesen/Schreiben boolesch.
 
 --------------------
 
@@ -122,14 +123,14 @@ Gibt die Formenanimationsoption zurück oder legt sie fest. Lese-/Schreibzugriff
 >  }
 > ```
 
-**Rückgabe:**  
+**Rückgabe:**
 boolean
 ### setAnimateShapes(boolean value) {#setAnimateShapes-boolean-}
 ```
 public abstract void setAnimateShapes(boolean value)
 ```
 
-Gibt die Formenanimationsoption zurück oder legt sie fest. Lese-/Schreibzugriff boolean.
+Gibt die Formenanimationsoption zurück oder legt sie fest. Lesen/Schreiben boolesch.
 
 --------------------
 
@@ -157,7 +158,7 @@ Gibt die Formenanimationsoption zurück oder legt sie fest. Lese-/Schreibzugriff
 public abstract boolean getEmbedImages()
 ```
 
-Gibt die Bild-Einbettungsoption zurück oder legt sie fest. Lese-/Schreibzugriff boolean.
+Gibt die Bild-Einbettungsoption zurück oder legt sie fest. Lesen/Schreiben boolesch.
 
 --------------------
 
@@ -174,14 +175,14 @@ Gibt die Bild-Einbettungsoption zurück oder legt sie fest. Lese-/Schreibzugriff
 >  }
 > ```
 
-**Rückgabe:**  
+**Rückgabe:**
 boolean
 ### setEmbedImages(boolean value) {#setEmbedImages-boolean-}
 ```
 public abstract void setEmbedImages(boolean value)
 ```
 
-Gibt die Bild-Einbettungsoption zurück oder legt sie fest. Lese-/Schreibzugriff boolean.
+Gibt die Bild-Einbettungsoption zurück oder legt sie fest. Lesen/Schreiben boolesch.
 
 --------------------
 
@@ -208,7 +209,7 @@ Gibt die Bild-Einbettungsoption zurück oder legt sie fest. Lese-/Schreibzugriff
 public abstract String getOutputPath()
 ```
 
-Bestimmt, wo externe Ressourcen gespeichert werden sollen. Lese-/Schreibzugriff String.
+Bestimmt, wo externe Ressourcen gespeichert werden sollen. Lesen/Schreiben String.
 
 --------------------
 
@@ -226,14 +227,14 @@ Bestimmt, wo externe Ressourcen gespeichert werden sollen. Lese-/Schreibzugriff 
 >  }
 > ```
 
-**Rückgabe:**  
+**Rückgabe:**
 java.lang.String
 ### setOutputPath(String value) {#setOutputPath-java.lang.String-}
 ```
 public abstract void setOutputPath(String value)
 ```
 
-Bestimmt, wo externe Ressourcen gespeichert werden sollen. Lese-/Schreibzugriff String.
+Bestimmt, wo externe Ressourcen gespeichert werden sollen. Lesen/Schreiben String.
 
 --------------------
 
@@ -256,12 +257,33 @@ Bestimmt, wo externe Ressourcen gespeichert werden sollen. Lese-/Schreibzugriff 
 | --- | --- | --- |
 | value | java.lang.String |  |
 
+### getPicturesCompression() {#getPicturesCompression--}
+```
+public abstract int getPicturesCompression()
+```
+
+Stellt die Kompressionsstufe für Bilder dar Lesen/Schreiben PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
+
+**Rückgabe:**
+int
+### setPicturesCompression(int value) {#setPicturesCompression-int-}
+```
+public abstract void setPicturesCompression(int value)
+```
+
+Stellt die Kompressionsstufe für Bilder dar Lesen/Schreiben PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
+
+**Parameter:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| value | int |  |
+
 ### getDisableFontLigatures() {#getDisableFontLigatures--}
 ```
 public abstract boolean getDisableFontLigatures()
 ```
 
-Gibt einen Wert zurück oder legt ihn fest, der angibt, ob Text ohne Ligaturen gerendert wird. Bei true werden Ligaturen in der Ausgabe deaktiviert. Standardmäßig ist diese Eigenschaft auf false gesetzt.
+Liest oder legt einen Wert fest, der angibt, ob Text ohne Ligaturen gerendert wird. Wird auf true gesetzt, werden Ligaturen in der Ausgabe deaktiviert. Standardmäßig ist diese Eigenschaft auf false gesetzt.
 
 --------------------
 
@@ -279,14 +301,14 @@ Gibt einen Wert zurück oder legt ihn fest, der angibt, ob Text ohne Ligaturen g
 >  }
 > ```
 
-**Rückgabe:**  
+**Rückgabe:**
 boolean
 ### setDisableFontLigatures(boolean value) {#setDisableFontLigatures-boolean-}
 ```
 public abstract void setDisableFontLigatures(boolean value)
 ```
 
-Gibt einen Wert zurück oder legt ihn fest, der angibt, ob Text ohne Ligaturen gerendert wird. Bei true werden Ligaturen in der Ausgabe deaktiviert. Standardmäßig ist diese Eigenschaft auf false gesetzt.
+Liest oder legt einen Wert fest, der angibt, ob Text ohne Ligaturen gerendert wird. Wird auf true gesetzt, werden Ligaturen in der Ausgabe deaktiviert. Standardmäßig ist diese Eigenschaft auf false gesetzt.
 
 --------------------
 
@@ -314,7 +336,7 @@ Gibt einen Wert zurück oder legt ihn fest, der angibt, ob Text ohne Ligaturen g
 public abstract ISlidesLayoutOptions getSlidesLayoutOptions()
 ```
 
-Gibt den Modus zurück oder legt ihn fest, in dem Folien beim Export einer Präsentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) auf der Seite angeordnet werden.
+Liest oder legt den Modus fest, in dem Folien beim Export einer Präsentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) angeordnet werden.
 
 --------------------
 
@@ -334,14 +356,14 @@ Gibt den Modus zurück oder legt ihn fest, in dem Folien beim Export einer Präs
 >  }
 > ```
 
-**Rückgabe:**  
+**Rückgabe:**
 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)
 ### setSlidesLayoutOptions(ISlidesLayoutOptions value) {#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-}
 ```
 public abstract void setSlidesLayoutOptions(ISlidesLayoutOptions value)
 ```
 
-Gibt den Modus zurück oder legt ihn fest, in dem Folien beim Export einer Präsentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) auf der Seite angeordnet werden.
+Liest oder legt den Modus fest, in dem Folien beim Export einer Präsentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) angeordnet werden.
 
 --------------------
 

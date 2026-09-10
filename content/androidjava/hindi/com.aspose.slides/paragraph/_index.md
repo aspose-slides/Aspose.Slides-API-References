@@ -1,60 +1,67 @@
 ---
 title: Paragraph
-second_title: Aspose.Slides for Android Java API संदर्भ के माध्यम से
-description: टेक्स्ट के एक पैराग्राफ का प्रतिनिधित्व करता है।
+second_title: Aspose.Slides for Android द्वारा Java API संदर्भ
+description: एक पैराग्राफ़ के टेक्स्ट का प्रतिनिधित्व करता है।
 type: docs
 url: /hi/com.aspose.slides/paragraph/
 ---
-**विरासत:**
-java.lang.Object
+**Inheritance:**  
+विरासत:
 
-**सभी कार्यान्वित इंटरफ़ेस:**
-[com.aspose.slides.IParagraph](../../com.aspose.slides/iparagraph), com.aspose.slides.IDOMObject
+`java.lang.Object`
+
+**All Implemented Interfaces:**  
+सभी लागू इंटरफ़ेस:
+
+[com.aspose.slides.IParagraph](../../com.aspose.slides/iparagraph), com.aspose.slides.IDOMObject  
 ```
 public final class Paragraph implements IParagraph, IDOMObject
 ```
 
-टेक्स्ट का एक पैराग्राफ दर्शाता है।
+एक पैराग्राफ़ के टेक्स्ट का प्रतिनिधित्व करता है।
 
-## निर्माताएँ
+## Constructors
 
-| निर्माता | विवरण |
+| Constructor | Description |
 | --- | --- |
-| [Paragraph()](#Paragraph--) | Paragraph क्लास का एक नया उदाहरण डिफ़ॉल्ट प्रॉपर्टीज़ के साथ प्रारंभ करता है। |
-| [Paragraph(Paragraph para)](#Paragraph-com.aspose.slides.Paragraph-) | कॉपी कंस्ट्रक्टर जो Paragraph क्लास का एक नया उदाहरण प्रारंभ करता है। |
+| [Paragraph()](#Paragraph--) | डिफ़ॉल्ट गुणों के साथ Paragraph क्लास का नया उदाहरण इनिशियलाइज़ करता है। |
+| [Paragraph(Paragraph para)](#Paragraph-com.aspose.slides.Paragraph-) | कॉपी कंस्ट्रक्टर जो Paragraph क्लास का नया उदाहरण इनिशियलाइज़ करता है। |
 
-## मेथड्स
+## Methods
 
-| विधि | विवरण |
+| Method | Description |
 | --- | --- |
-| [getPortions()](#getPortions--) | टेक्स्ट भागों का संग्रह लौटाता है। |
-| [getParagraphFormat()](#getParagraphFormat--) | इस पैराग्राफ के लिए फ़ॉर्मेटिंग ऑब्जेक्ट लौटाता है। |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | एक ही फ़ॉर्मेटिंग वाले रन को जोड़ता है। |
-| [getText()](#getText--) | पैराग्राफ का प्लेन टेक्स्ट प्राप्त करता है या सेट करता है। |
-| [setText(String value)](#setText-java.lang.String-) | पैराग्राफ का प्लेन टेक्स्ट प्राप्त करता है या सेट करता है। |
-| [getRect()](#getRect--) | पैराग्राफ को सीमित करने वाले रेक्ट के निर्देशांक प्राप्त करता है। |
-| [getLinesCount()](#getLinesCount--) | पैराग्राफ में लाइनों की संख्या प्राप्त करता है। |
-| [getEndParagraphPortionFormat()](#getEndParagraphPortionFormat--) | यदि अंतिम भाग के बाद दूसरा भाग डाला जाता है तो उपयोग होने वाली भाग प्रॉपर्टीज़ निर्दिष्ट करता है। |
-| [setEndParagraphPortionFormat(IPortionFormat value)](#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-) | यदि अंतिम भाग के बाद दूसरा भाग डाला जाता है तो उपयोग होने वाली भाग प्रॉपर्टीज़ निर्दिष्ट करता है। |
+| [getPortions()](#getPortions--) | टेक्स्ट हिस्सों का संग्रह लौटाता है। |
+| [getParagraphFormat()](#getParagraphFormat--) | इस पैराग्राफ़ के फ़ॉर्मैटिंग ऑब्जेक्ट को लौटाता है। |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | समान फ़ॉर्मैटिंग वाले रन को जोड़ता है। |
+| [getText()](#getText--) | पैराग्राफ़ का साधा टेक्स्ट प्राप्त या सेट करता है। |
+| [setText(String value)](#setText-java.lang.String-) | पैराग्राफ़ का साधा टेक्स्ट प्राप्त या सेट करता है। |
+| [getRect()](#getRect--) | पैराग्राफ़ को सीमित करने वाले आयत के कॉर्डिनेट्स प्राप्त करता है। |
+| [getLinesCount()](#getLinesCount--) | पैराग्राफ़ में लाइनों की संख्या प्राप्त करता है। |
+| [getImage()](#getImage--) | पैराग्राफ़ की एक छवि लौटाता है। |
+| [getImage(float scaleX, float scaleY)](#getImage-float-float-) | निर्दिष्ट स्केल के साथ पैराग्राफ़ की एक छवि लौटाता है। |
+| [getEndParagraphPortionFormat()](#getEndParagraphPortionFormat--) | यदि अंतिम हिस्से के बाद एक नया हिस्सा डाला जाता है तो उपयोग की जाने वाली हिस्से की प्रॉपर्टीज़ को निर्दिष्ट करता है। |
+| [setEndParagraphPortionFormat(IPortionFormat value)](#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-) | यदि अंतिम हिस्से के बाद एक नया हिस्सा डाला जाता है तो उपयोग की जाने वाली हिस्से की प्रॉपर्टीज़ को निर्दिष्ट करता है। |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-| [getSlide()](#getSlide--) | पैराग्राफ का पैरेंट स्लाइड लौटाता है। |
-| [getPresentation()](#getPresentation--) | पैराग्राफ का पैरेंट प्रेज़ेंटेशन लौटाता है। |
+| [getSlide()](#getSlide--) | पैराग्राफ़ की पैरेंट स्लाइड को लौटाता है। |
+| [getPresentation()](#getPresentation--) | पैराग्राफ़ की पैरेंट प्रेजेंटेशन को लौटाता है। |
+
 ### Paragraph() {#Paragraph--}
 ```
 public Paragraph()
 ```
 
-Paragraph क्लास का एक नया उदाहरण डिफ़ॉल्ट प्रॉपर्टीज़ के साथ प्रारंभ करता है।
+डिफ़ॉल्ट गुणों के साथ Paragraph क्लास का नया उदाहरण इनिशियलाइज़ करता है।
 
 ### Paragraph(Paragraph para) {#Paragraph-com.aspose.slides.Paragraph-}
 ```
 public Paragraph(Paragraph para)
 ```
 
-कॉपी कंस्ट्रक्टर जो Paragraph क्लास का एक नया उदाहरण प्रारंभ करता है।
+कॉपी कंस्ट्रक्टर जो Paragraph क्लास का नया उदाहरण इनिशियलाइज़ करता है।
 
-**पैरामीटर:**
-| पैरामीटर | प्रकार | विवरण |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | para | [Paragraph](../../com.aspose.slides/paragraph) |  |
 
@@ -63,54 +70,57 @@ public Paragraph(Paragraph para)
 public final IPortionCollection getPortions()
 ```
 
-टेक्स्ट भागों का संग्रह लौटाता है। केवल पढ़ने योग्य [IPortionCollection](../../com.aspose.slides/iportioncollection)।
+टेक्स्ट हिस्सों का संग्रह लौटाता है। केवल पढ़ने योग्य [IPortionCollection](../../com.aspose.slides/iportioncollection)।
 
-**वापसी:**
+**Returns:**
 [IPortionCollection](../../com.aspose.slides/iportioncollection)
+
 ### getParagraphFormat() {#getParagraphFormat--}
 ```
 public final IParagraphFormat getParagraphFormat()
 ```
 
-इस पैराग्राफ के लिए फ़ॉर्मेटिंग ऑब्जेक्ट लौटाता है। केवल पढ़ने योग्य [IParagraphFormat](../../com.aspose.slides/iparagraphformat)।
+इस पैराग्राफ़ के फ़ॉर्मैटिंग ऑब्जेक्ट को लौटाता है। केवल पढ़ने योग्य [IParagraphFormat](../../com.aspose.slides/iparagraphformat)।
 
 --------------------
 
-फ़ॉर्मेटिंग ऑब्जेक्ट केवल वर्तमान पैराग्राफ के लिए परिभाषित फ़ॉर्मेटिंग पैरामीटर रखता है, विरासत में मिली डेटा लागू नहीं होती।
+फ़ॉर्मैटिंग ऑब्जेक्ट में केवल वर्तमान पैराग्राफ़ के लिए परिभाषित फ़ॉर्मैटिंग पैरामीटर होते हैं, विरासत डेटा लागू नहीं होता।
 
-विरासत में मिली मानों सहित प्रभावी मान प्राप्त करने के लिए [ParagraphFormat.getEffective](../../com.aspose.slides/paragraphformat\#getEffective) मेथड का उपयोग करें।
+विरासत वाले मानों सहित प्रभावी मान प्राप्त करने के लिए [ParagraphFormat.getEffective](../../com.aspose.slides/paragraphformat\#getEffective) मेथड का उपयोग करें।
 
-**वापसी:**
+**Returns:**
 [IParagraphFormat](../../com.aspose.slides/iparagraphformat)
+
 ### joinPortionsWithSameFormatting() {#joinPortionsWithSameFormatting--}
 ```
 public final void joinPortionsWithSameFormatting()
 ```
 
-एक ही फ़ॉर्मेटिंग वाले रन को जोड़ता है।
+एक ही फ़ॉर्मैटिंग वाले रन को जोड़ता है।
 
 ### getText() {#getText--}
 ```
 public final String getText()
 ```
 
-पैराग्राफ का प्लेन टेक्स्ट प्राप्त करता है या सेट करता है। पढ़ने/लिखने योग्य स्ट्रिंग।
+पैराग्राफ़ का साधा टेक्स्ट प्राप्त या सेट करता है। पढ़ने/लिखने योग्य String।
 
-मान: टेक्स्ट।
+मान: पाठ।
 
-**वापसी:**
+**Returns:**
 java.lang.String
+
 ### setText(String value) {#setText-java.lang.String-}
 ```
 public final void setText(String value)
 ```
 
-पैराग्राफ का प्लेन टेक्स्ट प्राप्त करता है या सेट करता है। पढ़ने/लिखने योग्य स्ट्रिंग।
+पैराग्राफ़ का साधा टेक्स्ट प्राप्त या सेट करता है। पढ़ने/लिखने योग्य String।
 
-मान: टेक्स्ट।
+मान: पाठ।
 
-**पैरामीटर:**
-| पैरामीटर | प्रकार | विवरण |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
@@ -119,16 +129,17 @@ public final void setText(String value)
 public final RectF getRect()
 ```
 
-पैराग्राफ को सीमित करने वाले रेक्ट के निर्देशांक प्राप्त करता है। रेक्ट में पैराग्राफ की सभी पाठ लाइनों, खाली लाइनों सहित, शामिल हैं।
+पैराग्राफ़ को सीमित करने वाले आयत के कॉर्डिनेट्स प्राप्त करता है। आयत में पैराग्राफ़ की सभी पंक्तियाँ, खाली पंक्तियाँ सहित, सम्मिलित होती हैं।
 
-**वापसी:**
+**Returns:**
 android.graphics.RectF
+
 ### getLinesCount() {#getLinesCount--}
 ```
 public final int getLinesCount()
 ```
 
-पैराग्राफ में लाइनों की संख्या प्राप्त करता है।
+पैराग्राफ़ में लाइनों की संख्या प्राप्त करता है।
 
 --------------------
 
@@ -148,26 +159,110 @@ public final int getLinesCount()
 >  }
 > ```
 
-**वापसी:**
-int - पैराग्राफ में लाइनों की गिनती
+**Returns:**
+int - पैराग्राफ में पंक्तियों की संख्या
+
+### getImage() {#getImage--}
+```
+public final IImage getImage()
+```
+
+पैराग्राफ़ की एक छवि लौटाता है।
+
+--------------------
+
+> ```
+> The following example shows how to render a paragraph as an image:
+>   
+>  Presentation pres = new Presentation();
+>  try {
+>      IAutoShape shape = pres.getSlides().get_Item(0).getShapes().addAutoShape(
+>          ShapeType.Rectangle, 50, 50, 150, 50);
+>      IParagraph paragraph = shape.getTextFrame().getParagraphs().get_Item(0);
+>      paragraph.setText("Aspose Paragraph GetImage() Example");
+>      IImage paragraphImage = paragraph.getImage();
+>      try {
+>          paragraphImage.save("paragraph.png");
+>      } finally {
+>          if (paragraphImage != null) paragraphImage.dispose();
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+[IImage](../../com.aspose.slides/iimage) - रेंडर किए गए पैराग्राफ़ वाली छवि, या null यदि पैराग्राफ़ को उसके पैरेंट संग्रह में नहीं पाया जा सकता, वैध रेंडरिंग बाउंड्स नहीं हैं, या छवि रेंडर करते समय त्रुटि आती है।
+
+### getImage(float scaleX, float scaleY) {#getImage-float-float-}
+```
+public final IImage getImage(float scaleX, float scaleY)
+```
+
+निर्दिष्ट स्केल के साथ पैराग्राफ़ की एक छवि लौटाता है।
+
+--------------------
+
+> ```
+> The following example shows how to render each text box paragraph on a slide as an image with custom scaling:
+>   
+>  Presentation pres = new Presentation("sample.pptx");
+>  try {
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      int shapeIndex = 0;
+>      for (IShape shape : slide.getShapes())
+>      {
+>          shapeIndex++;
+>          if (shape instanceof IAutoShape) {
+>              IAutoShape autoShape = (IAutoShape)shape;
+>              int paragraphIndex = 0;
+>              for (IParagraph paragraph : autoShape.getTextFrame().getParagraphs())
+>              {
+>                  paragraphIndex++;
+>                  IImage paragraphImage = paragraph.getImage(2f, 2f);
+>                  try {
+>                      if (paragraphImage != null)
+>                          paragraphImage.save("shape"+shapeIndex+"_paragraph"+paragraphIndex+".png");
+> 
+>                  } finally {
+>                      if (paragraphImage != null) paragraphImage.dispose();
+>                  }
+>              }
+>          }
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| scaleX | float | पैराग्राफ़ की छवि पर लागू किया गया क्षैतिज स्केल फ़ैक्टर। |
+| scaleY | float | पैराग्राफ़ की छवि पर लागू किया गया लंबवत स्केल फ़ैक्टर। |
+
+**Returns:**
+[IImage](../../com.aspose.slides/iimage) - रेंडर किए गए पैराग्राफ़ वाली छवि, या null यदि पैराग्राफ़ को उसके पैरेंट संग्रह में नहीं पाया जा सकता, वैध रेंडरिंग बाउंड्स नहीं हैं, या छवि रेंडर करते समय त्रुटि आती है।
+
 ### getEndParagraphPortionFormat() {#getEndParagraphPortionFormat--}
 ```
 public final IPortionFormat getEndParagraphPortionFormat()
 ```
 
-यदि अंतिम भाग के बाद दूसरा भाग डाला जाता है तो उपयोग होने वाली भाग प्रॉपर्टीज़ निर्दिष्ट करता है।
+यदि अंतिम हिस्से के बाद एक नया हिस्सा डाला जाता है तो उपयोग की जाने वाली हिस्से की प्रॉपर्टीज़ को निर्दिष्ट करता है।
 
-**वापसी:**
+**Returns:**
 [IPortionFormat](../../com.aspose.slides/iportionformat)
+
 ### setEndParagraphPortionFormat(IPortionFormat value) {#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-}
 ```
 public final void setEndParagraphPortionFormat(IPortionFormat value)
 ```
 
-यदि अंतिम भाग के बाद दूसरा भाग डाला जाता है तो उपयोग होने वाली भाग प्रॉपर्टीज़ निर्दिष्ट करता है।
+यदि अंतिम हिस्से के बाद एक नया हिस्सा डाला जाता है तो उपयोग की जाने वाली हिस्से की प्रॉपर्टीज़ को निर्दिष्ट करता है।
 
-**पैरामीटर:**
-| पैरामीटर | प्रकार | विवरण |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IPortionFormat](../../com.aspose.slides/iportionformat) |  |
 
@@ -178,23 +273,25 @@ public final IDOMObject getParent_Immediate()
 
 Parent_Immediate ऑब्जेक्ट लौटाता है। केवल पढ़ने योग्य IDOMObject।
 
-**वापसी:**
+**Returns:**
 com.aspose.slides.IDOMObject
+
 ### getSlide() {#getSlide--}
 ```
 public final IBaseSlide getSlide()
 ```
 
-पैराग्राफ का पैरेंट स्लाइड लौटाता है। केवल पढ़ने योग्य [BaseSlide](../../com.aspose.slides/baseslide)।
+पैराग्राफ़ की पैरेंट स्लाइड को लौटाता है। केवल पढ़ने योग्य [BaseSlide](../../com.aspose.slides/baseslide)।
 
-**वापसी:**
+**Returns:**
 [IBaseSlide](../../com.aspose.slides/ibaseslide)
+
 ### getPresentation() {#getPresentation--}
 ```
 public final IPresentation getPresentation()
 ```
 
-पैराग्राफ का पैरेंट प्रेज़ेंटेशन लौटाता है। केवल पढ़ने योग्य [IPresentation](../../com.aspose.slides/ipresentation)।
+पैराग्राफ़ की पैरेंट प्रेजेंटेशन को लौटाता है। केवल पढ़ने योग्य [IPresentation](../../com.aspose.slides/ipresentation)।
 
-**वापसी:**
+**Returns:**
 [IPresentation](../../com.aspose.slides/ipresentation)

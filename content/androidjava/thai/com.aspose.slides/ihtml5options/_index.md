@@ -1,17 +1,17 @@
 ---
 title: IHtml5Options
-second_title: Aspose.Slides สำหรับ Android ผ่านการอ้างอิง Java API
-description: แสดงตัวเลือกการส่งออก HTML5
+second_title: Aspose.Slides สำหรับ Android ผ่านการอ้างอิง API ของ Java
+description: เป็นตัวเลือกการส่งออก HTML5.
 type: docs
 url: /th/com.aspose.slides/ihtml5options/
 ---
-**ส่วนติดต่อที่ใช้งานทั้งหมด:**
+**ทั้งหมดของอินเทอร์เฟซที่นำมาใช้:**
 [com.aspose.slides.ISaveOptions](../../com.aspose.slides/isaveoptions)
 ```
 public interface IHtml5Options extends ISaveOptions
 ```
 
-แสดงตัวเลือกการส่งออก HTML5
+แสดงตัวเลือกการส่งออก HTML5.
 
 --------------------
 
@@ -29,28 +29,30 @@ public interface IHtml5Options extends ISaveOptions
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-## Methods
+## เมธอด
 
-| Method | Description |
+| เมธอด | คำอธิบาย |
 | --- | --- |
-| [getAnimateTransitions()](#getAnimateTransitions--) | คืนค่าหรือกำหนดตัวเลือกการเคลื่อนไหวของการเปลี่ยนแปลง. |
-| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | คืนค่าหรือกำหนดตัวเลือกการเคลื่อนไหวของการเปลี่ยนแปลง. |
-| [getAnimateShapes()](#getAnimateShapes--) | คืนค่าหรือกำหนดตัวเลือกการเคลื่อนไหวของรูปร่าง. |
-| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | คืนค่าหรือกำหนดตัวเลือกการเคลื่อนไหวของรูปร่าง. |
-| [getEmbedImages()](#getEmbedImages--) | คืนค่าหรือกำหนดตัวเลือกการฝังรูปภาพ. |
-| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | คืนค่าหรือกำหนดตัวเลือกการฝังรูปภาพ. |
-| [getOutputPath()](#getOutputPath--) | กำหนดตำแหน่งที่จะเก็บทรัพยากรภายนอก. |
-| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | กำหนดตำแหน่งที่จะเก็บทรัพยากรภายนอก. |
-| [getDisableFontLigatures()](#getDisableFontLigatures--) | ได้รับหรือกำหนดค่าที่บ่งชี้ว่าข้อความจะถูกแสดงโดยไม่ใช้ลิการเจอร์. |
-| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | ได้รับหรือกำหนดค่าที่บ่งชี้ว่าข้อความจะถูกแสดงโดยไม่ใช้ลิการเจอร์. |
-| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | ได้รับหรือกำหนดโหมดที่สไลด์จะถูกจัดวางบนหน้าเมื่อส่งออกงานนำเสนอ [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
-| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | ได้รับหรือกำหนดโหมดที่สไลด์จะถูกจัดวางบนหน้าเมื่อส่งออกงานนำเสนอ [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [getAnimateTransitions()](#getAnimateTransitions--) | คืนค่า或กำหนดตัวเลือกการเคลื่อนไหวการเปลี่ยนแปลง. |
+| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | คืนค่า或กำหนดตัวเลือกการเคลื่อนไหวการเปลี่ยนแปลง. |
+| [getAnimateShapes()](#getAnimateShapes--) | คืนค่า或กำหนดตัวเลือกการเคลื่อนไหวนรูปทรง. |
+| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | คืนค่า或กำหนดตัวเลือกการเคลื่อนไหวนรูปทรง. |
+| [getEmbedImages()](#getEmbedImages--) | คืนค่า或กำหนดตัวเลือกการฝังภาพ. |
+| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | คืนค่า或กำหนดตัวเลือกการฝังภาพ. |
+| [getOutputPath()](#getOutputPath--) | กำหนดว่าทรัพยากรภายนอกควรถูกจัดเก็บที่ใด. |
+| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | กำหนดว่าทรัพยากรภายนอกควรถูกจัดเก็บที่ใด. |
+| [getPicturesCompression()](#getPicturesCompression--) | แสดงระดับการบีบอัดรูปภาพ อ่าน/เขียน  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
+| [setPicturesCompression(int value)](#setPicturesCompression-int-) | แสดงระดับการบีบอัดรูปภาพ อ่าน/เขียน  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
+| [getDisableFontLigatures()](#getDisableFontLigatures--) | รับหรือกำหนดค่าที่บ่งชี้ว่าข้อความจะถูกแสดงโดยไม่ใช้ลิเกเจอร์. |
+| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | รับหรือกำหนดค่าที่บ่งชี้ว่าข้อความจะถูกแสดงโดยไม่ใช้ลิเกเจอร์. |
+| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | รับหรือกำหนดโหมดที่สไลด์ถูกจัดวางบนหน้าเมื่อส่งออกการนำเสนอ [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | รับหรือกำหนดโหมดที่สไลด์ถูกจัดวางบนหน้าเมื่อส่งออกการนำเสนอ [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 ### getAnimateTransitions() {#getAnimateTransitions--}
 ```
 public abstract boolean getAnimateTransitions()
 ```
 
-คืนค่าหรือกำหนดตัวเลือกการเคลื่อนไหวของการเปลี่ยนแปลง. อ่าน/เขียน boolean.
+คืนค่า或กำหนดตัวเลือกการเคลื่อนไหวการเปลี่ยนแปลง. อ่าน/เขียน boolean.
 
 --------------------
 
@@ -75,7 +77,7 @@ boolean
 public abstract void setAnimateTransitions(boolean value)
 ```
 
-คืนค่าหรือกำหนดตัวเลือกการเคลื่อนไหวของการเปลี่ยนแปลง. อ่าน/เขียน boolean.
+คืนค่า或กำหนดตัวเลือกการเคลื่อนไหวการเปลี่ยนแปลง. อ่าน/เขียน boolean.
 
 --------------------
 
@@ -103,7 +105,7 @@ public abstract void setAnimateTransitions(boolean value)
 public abstract boolean getAnimateShapes()
 ```
 
-คืนค่าหรือกำหนดตัวเลือกการเคลื่อนไหวของรูปร่าง. อ่าน/เขียน boolean.
+คืนค่า或กำหนดตัวเลือกการเคลื่อนไหวนรูปทรง. อ่าน/เขียน boolean.
 
 --------------------
 
@@ -128,7 +130,7 @@ boolean
 public abstract void setAnimateShapes(boolean value)
 ```
 
-คืนค่าหรือกำหนดตัวเลือกการเคลื่อนไหวของรูปร่าง. อ่าน/เขียน boolean.
+คืนค่า或กำหนดตัวเลือกการเคลื่อนไหวนรูปทรง. อ่าน/เขียน boolean.
 
 --------------------
 
@@ -156,7 +158,7 @@ public abstract void setAnimateShapes(boolean value)
 public abstract boolean getEmbedImages()
 ```
 
-คืนค่าหรือกำหนดตัวเลือกการฝังรูปภาพ. อ่าน/เขียน boolean.
+คืนค่า或กำหนดตัวเลือกการฝังภาพ. อ่าน/เขียน boolean.
 
 --------------------
 
@@ -180,7 +182,7 @@ boolean
 public abstract void setEmbedImages(boolean value)
 ```
 
-คืนค่าหรือกำหนดตัวเลือกการฝังรูปภาพ. อ่าน/เขียน boolean.
+คืนค่า或กำหนดตัวเลือกการฝังภาพ. อ่าน/เขียน boolean.
 
 --------------------
 
@@ -207,7 +209,7 @@ public abstract void setEmbedImages(boolean value)
 public abstract String getOutputPath()
 ```
 
-กำหนดตำแหน่งที่จะแสดงทรัพยากรภายนอก. อ่าน/เขียน String.
+กำหนดว่าทรัพยากรภายนอกควรถูกจัดเก็บที่ใด. อ่าน/เขียน String.
 
 --------------------
 
@@ -232,7 +234,7 @@ java.lang.String
 public abstract void setOutputPath(String value)
 ```
 
-กำหนดตำแหน่งที่จะแสดงทรัพยากรภายนอก. อ่าน/เขียน String.
+กำหนดว่าทรัพยากรภายนอกควรถูกจัดเก็บที่ใด. อ่าน/เขียน String.
 
 --------------------
 
@@ -255,12 +257,33 @@ public abstract void setOutputPath(String value)
 | --- | --- | --- |
 | value | java.lang.String |  |
 
+### getPicturesCompression() {#getPicturesCompression--}
+```
+public abstract int getPicturesCompression()
+```
+
+แสดงระดับการบีบอัดรูปภาพ อ่าน/เขียน  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
+
+**คืนค่า:**
+int
+### setPicturesCompression(int value) {#setPicturesCompression-int-}
+```
+public abstract void setPicturesCompression(int value)
+```
+
+แสดงระดับการบีบอัดรูปภาพ อ่าน/เขียน  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
+
+**พารามิเตอร์:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
 ### getDisableFontLigatures() {#getDisableFontLigatures--}
 ```
 public abstract boolean getDisableFontLigatures()
 ```
 
-ได้รับหรือกำหนดค่าที่บ่งชี้ว่าข้อความจะถูกแสดงโดยไม่ใช้ลิการเจอร์. เมื่อกำหนดเป็น true, ลิการเจอร์จะถูกปิดใช้งานในผลลัพธ์ที่แสดง. โดยค่าเริ่มต้น property นี้ตั้งเป็น false.
+รับหรือกำหนดค่าที่บ่งชี้ว่าข้อความจะถูกแสดงโดยไม่ใช้ลิเกเจอร์. เมื่อกำหนดเป็น true ลิเกเจอร์จะถูกปิดการใช้งานในผลลัพธ์ที่แสดง. ค่าเริ่มต้นของคุณสมบัตินี้คือ false.
 
 --------------------
 
@@ -270,7 +293,7 @@ public abstract boolean getDisableFontLigatures()
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      Html5Options options = new Html5Options();
->      options.setDisableFontLigatures(true); // ปิดการใช้งานลิการเจอร์ในการแสดงผลข้อความ
+>      options.setDisableFontLigatures(true); // ปิดการใช้งานลิเกเจอร์ในการแสดงผลข้อความ
 > 
 >      pres.save("output.html", SaveFormat.Html5, options);
 >  } finally {
@@ -285,7 +308,7 @@ boolean
 public abstract void setDisableFontLigatures(boolean value)
 ```
 
-ได้รับหรือกำหนดค่าที่บ่งชี้ว่าข้อความจะถูกแสดงโดยไม่ใช้ลิการเจอร์. เมื่อกำหนดเป็น true, ลิการเจอร์จะถูกปิดใช้งานในผลลัพธ์ที่แสดง. โดยค่าเริ่มต้น property นี้ตั้งเป็น false.
+รับหรือกำหนดค่าที่บ่งชี้ว่าข้อความจะถูกแสดงโดยไม่ใช้ลิเกเจอร์. เมื่อกำหนดเป็น true ลิเกเจอร์จะถูกปิดการใช้งานในผลลัพธ์ที่แสดง. ค่าเริ่มต้นของคุณสมบัตินี้คือ false.
 
 --------------------
 
@@ -295,7 +318,7 @@ public abstract void setDisableFontLigatures(boolean value)
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      Html5Options options = new Html5Options();
->      options.setDisableFontLigatures(true); // ปิดการใช้งานลิการเจอร์ในการแสดงผลข้อความ
+>      options.setDisableFontLigatures(true); // ปิดการใช้งานลิเกเจอร์ในการแสดงผลข้อความ
 > 
 >      pres.save("output.html", SaveFormat.Html5, options);
 >  } finally {
@@ -313,7 +336,7 @@ public abstract void setDisableFontLigatures(boolean value)
 public abstract ISlidesLayoutOptions getSlidesLayoutOptions()
 ```
 
-ได้รับหรือกำหนดโหมดที่สไลด์จะถูกจัดวางบนหน้าเมื่อส่งออกงานนำเสนอ [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+รับหรือกำหนดโหมดที่สไลด์ถูกจัดวางบนหน้าเมื่อส่งออกการนำเสนอ [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
 
@@ -340,7 +363,7 @@ public abstract ISlidesLayoutOptions getSlidesLayoutOptions()
 public abstract void setSlidesLayoutOptions(ISlidesLayoutOptions value)
 ```
 
-ได้รับหรือกำหนดโหมดที่สไลด์จะถูกจัดวางบนหน้าเมื่อส่งออกงานนำเสนอ [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+รับหรือกำหนดโหมดที่สไลด์ถูกจัดวางบนหน้าเมื่อส่งออกการนำเสนอ [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
 

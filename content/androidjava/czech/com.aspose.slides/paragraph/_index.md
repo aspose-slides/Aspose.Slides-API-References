@@ -1,20 +1,20 @@
 ---
 title: Paragraph
-second_title: Aspose.Slides pro Android pomocí Java API Reference
-description: Reprezentuje odstavec textu.
+second_title: Aspose.Slides pro Android prostřednictvím Java API Reference
+description: Představuje odstavec textu.
 type: docs
 url: /cs/com.aspose.slides/paragraph/
 ---
-**Inheritance:**
+**Dědičnost:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**Všechny implementované rozhraní:**
 [com.aspose.slides.IParagraph](../../com.aspose.slides/iparagraph), com.aspose.slides.IDOMObject
 ```
 public final class Paragraph implements IParagraph, IDOMObject
 ```
 
-Represents a paragraph of text.
+Představuje odstavec textu.
 ## Konstruktory
 
 | Konstruktor | Popis |
@@ -27,13 +27,15 @@ Represents a paragraph of text.
 | --- | --- |
 | [getPortions()](#getPortions--) | Vrací kolekci textových částí. |
 | [getParagraphFormat()](#getParagraphFormat--) | Vrací objekt formátování pro tento odstavec. |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Spojí úseky se stejným formátováním. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Spojuje úseky se stejným formátováním. |
 | [getText()](#getText--) | Získá nebo nastaví prostý text odstavce. |
 | [setText(String value)](#setText-java.lang.String-) | Získá nebo nastaví prostý text odstavce. |
 | [getRect()](#getRect--) | Získá souřadnice obdélníku ohraničujícího odstavec. |
 | [getLinesCount()](#getLinesCount--) | Získá počet řádků v odstavci. |
-| [getEndParagraphPortionFormat()](#getEndParagraphPortionFormat--) | Určuje vlastnosti úseku, které se použijí, pokud je po posledním úseku vložen další úsek. |
-| [setEndParagraphPortionFormat(IPortionFormat value)](#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-) | Určuje vlastnosti úseku, které se použijí, pokud je po posledním úseku vložen další úsek. |
+| [getImage()](#getImage--) | Vrací obrázek odstavce. |
+| [getImage(float scaleX, float scaleY)](#getImage-float-float-) | Vrací obrázek odstavce se zadaným měřítkem. |
+| [getEndParagraphPortionFormat()](#getEndParagraphPortionFormat--) | Určuje vlastnosti části, které se mají použít, pokud je po poslední vložena další část. |
+| [setEndParagraphPortionFormat(IPortionFormat value)](#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-) | Určuje vlastnosti části, které se mají použít, pokud je po poslední vložena další část. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
 | [getSlide()](#getSlide--) | Vrací nadřazený snímek odstavce. |
 | [getPresentation()](#getPresentation--) | Vrací nadřazenou prezentaci odstavce. |
@@ -42,14 +44,12 @@ Represents a paragraph of text.
 public Paragraph()
 ```
 
-
 Inicializuje novou instanci třídy Paragraph s výchozími vlastnostmi.
 
 ### Paragraph(Paragraph para) {#Paragraph-com.aspose.slides.Paragraph-}
 ```
 public Paragraph(Paragraph para)
 ```
-
 
 Kopírovací konstruktor, který inicializuje novou instanci třídy Paragraph.
 
@@ -63,54 +63,49 @@ Kopírovací konstruktor, který inicializuje novou instanci třídy Paragraph.
 public final IPortionCollection getPortions()
 ```
 
+Vrací kolekci textových částí. Pouze ke čtení [IPortionCollection](../../com.aspose.slides/iportioncollection).
 
-Vrací kolekci textových částí. Pouze pro čtení [IPortionCollection](../../com.aspose.slides/iportioncollection).
-
-**Vrací:**
+**Návratová hodnota:**
 [IPortionCollection](../../com.aspose.slides/iportioncollection)
 ### getParagraphFormat() {#getParagraphFormat--}
 ```
 public final IParagraphFormat getParagraphFormat()
 ```
 
-
-Vrací objekt formátování pro tento odstavec. Pouze pro čtení [IParagraphFormat](../../com.aspose.slides/iparagraphformat).
+Vrací objekt formátování pro tento odstavec. Pouze ke čtení [IParagraphFormat](../../com.aspose.slides/iparagraphformat).
 
 --------------------
 
-Objekt formátování obsahuje parametry formátování definované pouze pro aktuální odstavec, zděděná data nejsou použita.
+Objekt formátování obsahuje parametry formátování definované pouze pro aktuální odstavec, zděděná data se nepoužívají.
 
 Pro získání efektivních hodnot včetně zděděných použijte metodu [ParagraphFormat.getEffective](../../com.aspose.slides/paragraphformat\#getEffective).
 
-**Vrací:**
+**Návratová hodnota:**
 [IParagraphFormat](../../com.aspose.slides/iparagraphformat)
 ### joinPortionsWithSameFormatting() {#joinPortionsWithSameFormatting--}
 ```
 public final void joinPortionsWithSameFormatting()
 ```
 
-
-Spojí úseky se stejným formátováním.
+Spojuje úseky se stejným formátováním.
 
 ### getText() {#getText--}
 ```
 public final String getText()
 ```
 
-
-Získá nebo nastaví prostý text odstavce. Čtení/zápis String.
+Získá nebo nastaví prostý text odstavce. Čtení/Zápis String.
 
 Hodnota: Text.
 
-**Vrací:**
+**Návratová hodnota:**
 java.lang.String
 ### setText(String value) {#setText-java.lang.String-}
 ```
 public final void setText(String value)
 ```
 
-
-Získá nebo nastaví prostý text odstavce. Čtení/zápis String.
+Získá nebo nastaví prostý text odstavce. Čtení/Zápis String.
 
 Hodnota: Text.
 
@@ -124,16 +119,14 @@ Hodnota: Text.
 public final RectF getRect()
 ```
 
-
 Získá souřadnice obdélníku ohraničujícího odstavec. Obdélník zahrnuje všechny řádky textu v odstavci, včetně prázdných.
 
-**Vrací:**
+**Návratová hodnota:**
 android.graphics.RectF
 ### getLinesCount() {#getLinesCount--}
 ```
 public final int getLinesCount()
 ```
-
 
 Získá počet řádků v odstavci.
 
@@ -155,26 +148,103 @@ Získá počet řádků v odstavci.
 >  }
 > ```
 
+**Návratová hodnota:**
+int – Počet řádků v odstavci
+### getImage() {#getImage--}
+```
+public final IImage getImage()
+```
 
-**Vrací:**
-int - Počet řádků v odstavci
+Vrací obrázek odstavce.
+
+--------------------
+
+> ```
+> The following example shows how to render a paragraph as an image:
+>   
+>  Presentation pres = new Presentation();
+>  try {
+>      IAutoShape shape = pres.getSlides().get_Item(0).getShapes().addAutoShape(
+>          ShapeType.Rectangle, 50, 50, 150, 50);
+>      IParagraph paragraph = shape.getTextFrame().getParagraphs().get_Item(0);
+>      paragraph.setText("Aspose Paragraph GetImage() Example");
+>      IImage paragraphImage = paragraph.getImage();
+>      try {
+>          paragraphImage.save("paragraph.png");
+>      } finally {
+>          if (paragraphImage != null) paragraphImage.dispose();
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Návratová hodnota:**
+[IImage](../../com.aspose.slides/iimage) – Obrázek obsahující vykreslený odstavec, nebo null, pokud odstavec nelze najít v jeho nadřazené kolekci, nemá platné vykreslovací hranice, nebo dojde k chybě při vykreslování obrázku.
+### getImage(float scaleX, float scaleY) {#getImage-float-float-}
+```
+public final IImage getImage(float scaleX, float scaleY)
+```
+
+Vrací obrázek odstavce se zadaným měřítkem.
+
+--------------------
+
+> ```
+> The following example shows how to render each text box paragraph on a slide as an image with custom scaling:
+>   
+>  Presentation pres = new Presentation("sample.pptx");
+>  try {
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      int shapeIndex = 0;
+>      for (IShape shape : slide.getShapes())
+>      {
+>          shapeIndex++;
+>          if (shape instanceof IAutoShape) {
+>              IAutoShape autoShape = (IAutoShape)shape;
+>              int paragraphIndex = 0;
+>              for (IParagraph paragraph : autoShape.getTextFrame().getParagraphs())
+>              {
+>                  paragraphIndex++;
+>                  IImage paragraphImage = paragraph.getImage(2f, 2f);
+>                  try {
+>                      if (paragraphImage != null)
+>                          paragraphImage.save("shape"+shapeIndex+"_paragraph"+paragraphIndex+".png");
+> 
+>                  } finally {
+>                      if (paragraphImage != null) paragraphImage.dispose();
+>                  }
+>              }
+>          }
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parametry:**
+| Parametr | Typ | Popis |
+| --- | --- | --- |
+| scaleX | float | Horizontální měřítkový faktor aplikovaný na obrázek odstavce. |
+| scaleY | float | Vertikální měřítkový faktor aplikovaný na obrázek odstavce. |
+
+**Návratová hodnota:**
+[IImage](../../com.aspose.slides/iimage) – Obrázek obsahující vykreslený odstavec, nebo null, pokud odstavec nelze najít v jeho nadřazené kolekci, nemá platné vykreslovací hranice, nebo dojde k chybě při vykreslování obrázku.
 ### getEndParagraphPortionFormat() {#getEndParagraphPortionFormat--}
 ```
 public final IPortionFormat getEndParagraphPortionFormat()
 ```
 
+Určuje vlastnosti části, které se mají použít, pokud je po poslední vložena další část.
 
-Určuje vlastnosti úseku, které se použijí, pokud je po posledním úseku vložen další úsek.
-
-**Vrací:**
+**Návratová hodnota:**
 [IPortionFormat](../../com.aspose.slides/iportionformat)
 ### setEndParagraphPortionFormat(IPortionFormat value) {#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-}
 ```
 public final void setEndParagraphPortionFormat(IPortionFormat value)
 ```
 
-
-Určuje vlastnosti úseku, které se použijí, pokud je po posledním úseku vložen další úsek.
+Určuje vlastnosti části, které se mají použít, pokud je po poslední vložena další část.
 
 **Parametry:**
 | Parametr | Typ | Popis |
@@ -186,28 +256,25 @@ Určuje vlastnosti úseku, které se použijí, pokud je po posledním úseku vl
 public final IDOMObject getParent_Immediate()
 ```
 
+Vrací objekt Parent_Immediate. Pouze ke čtení IDOMObject.
 
-Vrací objekt Parent_Immediate. Pouze pro čtení IDOMObject.
-
-**Vrací:**
+**Návratová hodnota:**
 com.aspose.slides.IDOMObject
 ### getSlide() {#getSlide--}
 ```
 public final IBaseSlide getSlide()
 ```
 
+Vrací nadřazený snímek odstavce. Pouze ke čtení [BaseSlide](../../com.aspose.slides/baseslide).
 
-Vrací nadřazený snímek odstavce. Pouze pro čtení [BaseSlide](../../com.aspose.slides/baseslide).
-
-**Vrací:**
+**Návratová hodnota:**
 [IBaseSlide](../../com.aspose.slides/ibaseslide)
 ### getPresentation() {#getPresentation--}
 ```
 public final IPresentation getPresentation()
 ```
 
+Vrací nadřazenou prezentaci odstavce. Pouze ke čtení [IPresentation](../../com.aspose.slides/ipresentation).
 
-Vrací nadřazenou prezentaci odstavce. Pouze pro čtení [IPresentation](../../com.aspose.slides/ipresentation).
-
-**Vrací:**
+**Návratová hodnota:**
 [IPresentation](../../com.aspose.slides/ipresentation)

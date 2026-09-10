@@ -18,18 +18,19 @@ Stellt einen Absatz eines Textes dar.
 | --- | --- |
 | [getPortions()](#getPortions--) | Gibt die Sammlung von Textabschnitten zurück. |
 | [getParagraphFormat()](#getParagraphFormat--) | Gibt das Formatierungsobjekt für diesen Absatz zurück. |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Verbindet Läufe mit gleicher Formatierung. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Verbindet Läufe mit derselben Formatierung. |
 | [getText()](#getText--) | Liest oder setzt den reinen Text eines Absatzes. |
 | [setText(String value)](#setText-java.lang.String-) | Liest oder setzt den reinen Text eines Absatzes. |
-| [getRect()](#getRect--) | Liefert die Koordinaten des Rechtecks, das den Absatz begrenzt. |
-| [getLinesCount()](#getLinesCount--) | Liefert die Zeilenanzahl in einem Absatz. |
-| [getEndParagraphPortionFormat()](#getEndParagraphPortionFormat--) | Gibt die Abschnitteigenschaften an, die verwendet werden sollen, wenn ein weiterer Abschnitt nach dem letzten eingefügt wird. |
-| [setEndParagraphPortionFormat(IPortionFormat value)](#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-) | Gibt die Abschnitteigenschaften an, die verwendet werden sollen, wenn ein weiterer Abschnitt nach dem letzten eingefügt wird. |
+| [getRect()](#getRect--) | Ermittelt die Koordinaten des Rechtecks, das den Absatz begrenzt. |
+| [getLinesCount()](#getLinesCount--) | Ermittelt die Anzahl der Zeilen in einem Absatz. |
+| [getImage()](#getImage--) | Gibt ein Bild des Absatzes zurück. |
+| [getImage(float scaleX, float scaleY)](#getImage-float-float-) | Gibt ein Bild des Absatzes mit dem angegebenen Maßstab zurück. |
+| [getEndParagraphPortionFormat()](#getEndParagraphPortionFormat--) | Legt die Abschnittseigenschaften fest, die verwendet werden sollen, wenn ein weiterer Abschnitt nach dem letzten eingefügt wird. |
+| [setEndParagraphPortionFormat(IPortionFormat value)](#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-) | Legt die Abschnittseigenschaften fest, die verwendet werden sollen, wenn ein weiterer Abschnitt nach dem letzten eingefügt wird. |
 ### getPortions() {#getPortions--}
 ```
 public abstract IPortionCollection getPortions()
 ```
-
 
 Gibt die Sammlung von Textabschnitten zurück. Nur lesbar [IPortionCollection](../../com.aspose.slides/iportioncollection).
 
@@ -40,7 +41,6 @@ Gibt die Sammlung von Textabschnitten zurück. Nur lesbar [IPortionCollection](.
 public abstract IParagraphFormat getParagraphFormat()
 ```
 
-
 Gibt das Formatierungsobjekt für diesen Absatz zurück. Nur lesbar [IParagraphFormat](../../com.aspose.slides/iparagraphformat).
 
 **Rückgabe:**
@@ -50,16 +50,14 @@ Gibt das Formatierungsobjekt für diesen Absatz zurück. Nur lesbar [IParagraphF
 public abstract void joinPortionsWithSameFormatting()
 ```
 
-
-Verbindet Läufe mit gleicher Formatierung.
+Verbindet Läufe mit derselben Formatierung.
 
 ### getText() {#getText--}
 ```
 public abstract String getText()
 ```
 
-
-Liest oder setzt den reinen Text eines Absatzes. Lese/Schreib-String.
+Liest oder setzt den reinen Text eines Absatzes. Lese-/Schreibzugriff String.
 
 Wert: Der Text.
 
@@ -70,8 +68,7 @@ java.lang.String
 public abstract void setText(String value)
 ```
 
-
-Liest oder setzt den reinen Text eines Absatzes. Lese/Schreib-String.
+Liest oder setzt den reinen Text eines Absatzes. Lese-/Schreibzugriff String.
 
 Wert: Der Text.
 
@@ -84,8 +81,7 @@ Wert: Der Text.
 public abstract RectF getRect()
 ```
 
-
-Liefert die Koordinaten des Rechtecks, das den Absatz begrenzt. Das Rechteck umfasst alle Textzeilen im Absatz, einschließlich leerer Zeilen.
+Ermittelt die Koordinaten des Rechtecks, das den Absatz begrenzt. Das Rechteck umfasst alle Textzeilen im Absatz, inklusive leerer Zeilen.
 
 **Rückgabe:**
 android.graphics.RectF - Rechteck, das den Absatz begrenzt android.graphics.RectF
@@ -94,8 +90,7 @@ android.graphics.RectF - Rechteck, das den Absatz begrenzt android.graphics.Rect
 public abstract int getLinesCount()
 ```
 
-
-Liefert die Anzahl der Zeilen in einem Absatz.
+Ermittelt die Anzahl der Zeilen in einem Absatz.
 
 --------------------
 
@@ -118,13 +113,92 @@ Liefert die Anzahl der Zeilen in einem Absatz.
 
 **Rückgabe:**
 int - Zeilenanzahl in einem Absatz
+### getImage() {#getImage--}
+```
+public abstract IImage getImage()
+```
+
+Gibt ein Bild des Absatzes zurück.
+
+--------------------
+
+> ```
+> The following example shows how to render a paragraph as an image:
+>   
+>  Presentation pres = new Presentation();
+>  try {
+>      IAutoShape shape = pres.getSlides().get_Item(0).getShapes().addAutoShape(
+>          ShapeType.Rectangle, 50, 50, 150, 50);
+>      IParagraph paragraph = shape.getTextFrame().getParagraphs().get_Item(0);
+>      paragraph.setText("Aspose Paragraph GetImage() Example");
+>      IImage paragraphImage = paragraph.getImage();
+>      try {
+>          paragraphImage.save("paragraph.png");
+>      } finally {
+>          if (paragraphImage != null) paragraphImage.dispose();
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Rückgabe:**
+[IImage](../../com.aspose.slides/iimage) - Ein Bild, das den gerenderten Absatz enthält, oder null, wenn der Absatz in seiner übergeordneten Sammlung nicht gefunden werden kann, keine gültigen Rendergrenzen hat oder beim Rendern des Bildes ein Fehler auftritt.
+### getImage(float scaleX, float scaleY) {#getImage-float-float-}
+```
+public abstract IImage getImage(float scaleX, float scaleY)
+```
+
+Gibt ein Bild des Absatzes mit dem angegebenen Maßstab zurück.
+
+--------------------
+
+> ```
+> The following example shows how to render each text box paragraph on a slide as an image with custom scaling:
+>   
+>  Presentation pres = new Presentation("sample.pptx");
+>  try {
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      int shapeIndex = 0;
+>      for (IShape shape : slide.getShapes())
+>      {
+>          shapeIndex++;
+>          if (shape instanceof IAutoShape) {
+>              IAutoShape autoShape = (IAutoShape)shape;
+>              int paragraphIndex = 0;
+>              for (IParagraph paragraph : autoShape.getTextFrame().getParagraphs())
+>              {
+>                  paragraphIndex++;
+>                  IImage paragraphImage = paragraph.getImage(2f, 2f);
+>                  try {
+>                      if (paragraphImage != null)
+>                          paragraphImage.save("shape"+shapeIndex+"_paragraph"+paragraphIndex+".png");
+> 
+>                  } finally {
+>                      if (paragraphImage != null) paragraphImage.dispose();
+>                  }
+>              }
+>          }
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameter:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| scaleX | float | Der horizontale Skalierungsfaktor, der auf das Absatzbild angewendet wird. |
+| scaleY | float | Der vertikale Skalierungsfaktor, der auf das Absatzbild angewendet wird. |
+
+**Rückgabe:**
+[IImage](../../com.aspose.slides/iimage) - Ein Bild, das den gerenderten Absatz enthält, oder null, wenn der Absatz in seiner übergeordneten Sammlung nicht gefunden werden kann, keine gültigen Rendergrenzen hat oder beim Rendern des Bildes ein Fehler auftritt.
 ### getEndParagraphPortionFormat() {#getEndParagraphPortionFormat--}
 ```
 public abstract IPortionFormat getEndParagraphPortionFormat()
 ```
 
-
-Gibt die Abschnitteigenschaften an, die verwendet werden sollen, wenn ein weiterer Abschnitt nach dem letzten eingefügt wird.
+Legt die Abschnittseigenschaften fest, die verwendet werden sollen, wenn ein weiterer Abschnitt nach dem letzten eingefügt wird.
 
 **Rückgabe:**
 [IPortionFormat](../../com.aspose.slides/iportionformat)
@@ -133,8 +207,7 @@ Gibt die Abschnitteigenschaften an, die verwendet werden sollen, wenn ein weiter
 public abstract void setEndParagraphPortionFormat(IPortionFormat value)
 ```
 
-
-Gibt die Abschnitteigenschaften an, die verwendet werden sollen, wenn ein weiterer Abschnitt nach dem letzten eingefügt wird.
+Legt die Abschnittseigenschaften fest, die verwendet werden sollen, wenn ein weiterer Abschnitt nach dem letzten eingefügt wird.
 
 **Parameter:**
 | Parameter | Typ | Beschreibung |

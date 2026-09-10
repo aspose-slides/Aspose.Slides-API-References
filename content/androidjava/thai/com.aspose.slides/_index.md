@@ -1,6 +1,6 @@
 ---
 title: com.aspose.slides
-second_title: Aspose.Slides สำหรับ Android ผ่านอ้างอิง API ของ Java
+second_title: Aspose.Slides สำหรับ Android ผ่าน Java API Reference
 description: 
 type: docs
 url: /th/com.aspose.slides/
@@ -9,1181 +9,1183 @@ url: /th/com.aspose.slides/
 
 | คลาส | คำอธิบาย |
 | --- | --- |
-| [AdjustValue](../com.aspose.slides/adjustvalue) | Represents a geometry shape's adjustment value. |
-| [AdjustValueCollection](../com.aspose.slides/adjustvaluecollection) | Reprasents a collection of shape's adjustments. |
-| [AfterAnimationType](../com.aspose.slides/afteranimationtype) | Represents the after animation type of an animation effect. |
-| [AlphaBiLevel](../com.aspose.slides/alphabilevel) | Represents an Alpha Bi-Level effect. |
-| [AlphaCeiling](../com.aspose.slides/alphaceiling) | Represents an Alpha Ceiling effect. |
-| [AlphaFloor](../com.aspose.slides/alphafloor) | Represents an Alpha Floor effect. |
-| [AlphaInverse](../com.aspose.slides/alphainverse) | Represents an Alpha Inverse effect. |
-| [AlphaModulate](../com.aspose.slides/alphamodulate) | Represents an Alpha Modulate effect. |
-| [AlphaModulateFixed](../com.aspose.slides/alphamodulatefixed) | Represents an Alpha Modulate Fixed effect. |
-| [AlphaReplace](../com.aspose.slides/alphareplace) | Represents and Alpha Replace effect. |
-| [AnimateTextType](../com.aspose.slides/animatetexttype) | Represents the animate text type of an animation effect. |
-| [AnimationTimeLine](../com.aspose.slides/animationtimeline) | Represents timeline of animation. |
-| [AsposeLicenseException](../com.aspose.slides/asposelicenseexception) | This exception is thrown if any errors with license are detected. |
-| [Audio](../com.aspose.slides/audio) | Represents an embedded audio file. |
-| [AudioCollection](../com.aspose.slides/audiocollection) | Represents a collection of embedded audio files. |
-| [AudioFrame](../com.aspose.slides/audioframe) | Represents an audio clip on a slide. |
-| [AudioPlayModePreset](../com.aspose.slides/audioplaymodepreset) | Constants which define how a sound is played. |
-| [AudioVolumeMode](../com.aspose.slides/audiovolumemode) | Constants which define audio volume. |
-| [AutoShape](../com.aspose.slides/autoshape) | Represents an AutoShape. |
-| [AutoShapeLock](../com.aspose.slides/autoshapelock) | Determines which operations are disabled on the parent AutoshapeEx. |
-| [AxesCompositionNotCombinableException](../com.aspose.slides/axescompositionnotcombinableexception) | Exception which thrown when axes composition of the series is not combinable with present axes composition in chart. |
-| [AxesManager](../com.aspose.slides/axesmanager) | Provides access to chart axes. |
-| [Axis](../com.aspose.slides/axis) | Encapsulates the object that represents a chart's axis. |
-| [AxisAggregationType](../com.aspose.slides/axisaggregationtype) | Represents aggregation type of category axis. |
-| [AxisFormat](../com.aspose.slides/axisformat) | Represents chart format properties. |
-| [AxisPositionType](../com.aspose.slides/axispositiontype) | Determines a position of axis. |
-| [Backdrop3DScene](../com.aspose.slides/backdrop3dscene) | Defines a plane in which effects, such as glow and shadow, are applied in relation to the shape they are being applied to. |
-| [Background](../com.aspose.slides/background) | Represents background of a slide. |
-| [BackgroundType](../com.aspose.slides/backgroundtype) | Defines the slide background fill source. |
-| [BaseChartValue](../com.aspose.slides/basechartvalue) | Represents a value of a chart. |
-| [BaseHandoutNotesSlideHeaderFooterManager](../com.aspose.slides/basehandoutnotesslideheaderfootermanager) | Represents manager which holds behavior of the placeholders, including header placeholder for all types handout and notes slides. |
-| [BaseHeaderFooterManager](../com.aspose.slides/baseheaderfootermanager) | Represents manager which holds behavior of the footer, date-time, page number placeholders for all slide types. |
-| [BaseOverrideThemeManager](../com.aspose.slides/baseoverridethememanager) | Base class for classes that provide access to different types of overriden themes. |
-| [BasePortionFormat](../com.aspose.slides/baseportionformat) | Common text portion formatting properties. |
-| [BaseScript](../com.aspose.slides/basescript) | Math script |
-| [BaseShapeLock](../com.aspose.slides/baseshapelock) | Represents a base class for locks (disabled operation). |
-| [BaseSlide](../com.aspose.slides/baseslide) | Represents common data for all slide types. |
-| [BaseSlideHeaderFooterManager](../com.aspose.slides/baseslideheaderfootermanager) | Represents manager which holds behavior of the footer, date-time, page number placeholders for all slide types. |
-| [BaseThemeManager](../com.aspose.slides/basethememanager) | Base class for classes that provide access to different types of themes. |
-| [Behavior](../com.aspose.slides/behavior) | Represent base class behavior of effect. |
-| [BehaviorAccumulateType](../com.aspose.slides/behavioraccumulatetype) | Represents types of accumulation of effect behaviors. |
-| [BehaviorAdditiveType](../com.aspose.slides/behavioradditivetype) | Represents additive type for effect behavior. |
-| [BehaviorCollection](../com.aspose.slides/behaviorcollection) | Represents collection of behavior effects. |
-| [BehaviorFactory](../com.aspose.slides/behaviorfactory) | Allows to create animation effects |
-| [BehaviorProperty](../com.aspose.slides/behaviorproperty) | Represent property types for animation behavior. |
-| [BehaviorPropertyCollection](../com.aspose.slides/behaviorpropertycollection) | Represents timing properties for the effect behavior. |
-| [BevelPresetType](../com.aspose.slides/bevelpresettype) | Constants which define 3D bevel of shape. |
-| [BiLevel](../com.aspose.slides/bilevel) | Represents a Bi-Level (black/white) effect. |
-| [BlackWhiteConversionMode](../com.aspose.slides/blackwhiteconversionmode) | Provides options that control how slides' images will be converted to bitonal images. |
-| [BlackWhiteMode](../com.aspose.slides/blackwhitemode) | Determines how colored shape should be transformed into black and white. |
-| [BlobManagementOptions](../com.aspose.slides/blobmanagementoptions) | Represents options which can be used to manage BLOB handling rules and other BLOB settings. |
-| [Blur](../com.aspose.slides/blur) | Represents a Blur effect that is applied to the entire shape, including its fill. |
-| [BrightnessContrast](../com.aspose.slides/brightnesscontrast) | Represents a BrightnessContrast effect. |
-| [BrowsedAtKiosk](../com.aspose.slides/browsedatkiosk) | Browsed at a kiosk (full screen) |
-| [BrowsedByIndividual](../com.aspose.slides/browsedbyindividual) | Browsed by individual (window) |
-| [BubbleSizeRepresentationType](../com.aspose.slides/bubblesizerepresentationtype) | Specifies the possible ways to represent data as bubble chart sizes. |
-| [BuildType](../com.aspose.slides/buildtype) | Determines how text will appear on a shape during animation. |
-| [BuildVersionInfo](../com.aspose.slides/buildversioninfo) | Contains information about version of Aspose.Slides. |
-| [BulletFormat](../com.aspose.slides/bulletformat) | Represents paragraph bullet formatting properties. |
-| [BulletType](../com.aspose.slides/bullettype) | Represents the type of the extended bullets. |
-| [Camera](../com.aspose.slides/camera) | Represents Camera. |
-| [CameraPresetType](../com.aspose.slides/camerapresettype) | Constants which define camera preset type. |
-| [CannotCombine2DAnd3DChartsException](../com.aspose.slides/cannotcombine2dand3dchartsexception) | Exception which thrown when trying to combine 2D and 3D chart types. |
-| [Captions](../com.aspose.slides/captions) | Represents the WebVTT closed captions. |
-| [CaptionsCollection](../com.aspose.slides/captionscollection) | Represents a collection of the closed captions. |
-| [CategoryAxisType](../com.aspose.slides/categoryaxistype) | Represents a type of a category axis. |
-| [Cell](../com.aspose.slides/cell) | Represents a cell of a table. |
-| [CellCircularReferenceException](../com.aspose.slides/cellcircularreferenceexception) | The exception that is thrown when one or more circular references are detected where a formula refers to its own cell either directly or indirectly. |
-| [CellCollection](../com.aspose.slides/cellcollection) | Represents a collection of cells. |
-| [CellFormat](../com.aspose.slides/cellformat) | Represents format of a table cell. |
-| [CellInvalidFormulaException](../com.aspose.slides/cellinvalidformulaexception) | The exception that is thrown when a calculated formula is not correct or was not parsed. |
-| [CellInvalidReferenceException](../com.aspose.slides/cellinvalidreferenceexception) | The exception that is thrown when an invalid cell reference is encountered. |
-| [CellUnsupportedDataException](../com.aspose.slides/cellunsupporteddataexception) | The exception that is thrown when an unsupported data is encountered in a spreadsheet cell. |
-| [Chart](../com.aspose.slides/chart) | Represents an graphic chart on a slide. |
-| [ChartCategory](../com.aspose.slides/chartcategory) | Represents chart categories. |
-| [ChartCategoryCollection](../com.aspose.slides/chartcategorycollection) | Represents collection of [ChartCategory](../com.aspose.slides/chartcategory) |
-| [ChartCategoryLevelsManager](../com.aspose.slides/chartcategorylevelsmanager) | Managed container of the values of the chart category levels. |
-| [ChartCellCollection](../com.aspose.slides/chartcellcollection) | Represents collection of a cells with data. |
-| [ChartData](../com.aspose.slides/chartdata) | Represents data used for a chart plotting. |
-| [ChartDataCell](../com.aspose.slides/chartdatacell) | Represents cell for chart data. |
-| [ChartDataPoint](../com.aspose.slides/chartdatapoint) | Represents series data point. |
-| [ChartDataPointCollection](../com.aspose.slides/chartdatapointcollection) | Represents collection of a series data point. |
-| [ChartDataPointLevel](../com.aspose.slides/chartdatapointlevel) | Represents data point level. |
-| [ChartDataPointLevelsManager](../com.aspose.slides/chartdatapointlevelsmanager) | Container of data point levels. |
-| [ChartDataSourceType](../com.aspose.slides/chartdatasourcetype) | Represents a type of data source of the chart |
-| [ChartDataWorkbook](../com.aspose.slides/chartdataworkbook) | Provides access to embedded Excel workbook |
-| [ChartDataWorksheet](../com.aspose.slides/chartdataworksheet) | Represents worksheet associated with [IChartDataCell](../com.aspose.slides/ichartdatacell) |
-| [ChartDataWorksheetCollection](../com.aspose.slides/chartdataworksheetcollection) | Represents the collection of worksheets of chart data workbook. |
-| [ChartLinesFormat](../com.aspose.slides/chartlinesformat) | Represents gridlines format properties. |
-| [ChartPlotArea](../com.aspose.slides/chartplotarea) | Represents rectangle where chart should be plotted. |
-| [ChartPortionFormat](../com.aspose.slides/chartportionformat) | This class contains the chart portion formatting properties used in charts. |
-| [ChartSeries](../com.aspose.slides/chartseries) | Represents a chart series. |
-| [ChartSeriesCollection](../com.aspose.slides/chartseriescollection) | Represents collection of [ChartSeries](../com.aspose.slides/chartseries) |
-| [ChartSeriesGroup](../com.aspose.slides/chartseriesgroup) | Represents group of series. |
-| [ChartShapeType](../com.aspose.slides/chartshapetype) | Represents a shape of chart. |
-| [ChartTextFormat](../com.aspose.slides/charttextformat) | Specifies default text formatting for chart text elements. |
-| [ChartThemeManager](../com.aspose.slides/chartthememanager) | Provides access to chart theme overriden. |
-| [ChartTitle](../com.aspose.slides/charttitle) | Represents chart title properties. |
-| [ChartType](../com.aspose.slides/charttype) | Represents a type of chart. |
-| [ChartTypeCharacterizer](../com.aspose.slides/charttypecharacterizer) | Helper for getting additional information about charts and series by its ChartType. |
-| [ChartWall](../com.aspose.slides/chartwall) | Represents walls on 3d charts. |
-| [Collect](../com.aspose.slides/collect) | Represents a group of methods intended to collect model objects of different types from [Presentation](../com.aspose.slides/presentation). |
-| [ColorChange](../com.aspose.slides/colorchange) | Represents a Color Change effect. |
-| [ColorDirection](../com.aspose.slides/colordirection) | Represents color direction for color effect behavior. |
-| [ColorEffect](../com.aspose.slides/coloreffect) | Represents a color effect for an animation behavior. |
-| [ColorFormat](../com.aspose.slides/colorformat) | Represents a color used in a presentation. |
-| [ColorOffset](../com.aspose.slides/coloroffset) | Represent color offset. |
-| [ColorOperation](../com.aspose.slides/coloroperation) | Represents different color operations used for color transformations. |
-| [ColorOperationCollection](../com.aspose.slides/coloroperationcollection) | Represents a collection of color transform operations. |
-| [ColorReplace](../com.aspose.slides/colorreplace) | Represents a Color Replacement effect. |
-| [ColorScheme](../com.aspose.slides/colorscheme) | Stores theme-defined colors. |
-| [ColorSchemeIndex](../com.aspose.slides/colorschemeindex) | Represents an index in a colorscheme. |
-| [ColorSpace](../com.aspose.slides/colorspace) | Represents color space for color effect behavior. |
-| [ColorStringFormat](../com.aspose.slides/colorstringformat) | Represents a type of hyperlink action. |
-| [ColorTransformOperation](../com.aspose.slides/colortransformoperation) | Defines color transform operation. |
-| [ColorType](../com.aspose.slides/colortype) | Represents different color modes. |
-| [Column](../com.aspose.slides/column) | Represents a column in a table. |
-| [ColumnCollection](../com.aspose.slides/columncollection) | Represents collection of columns in a table. |
-| [ColumnFormat](../com.aspose.slides/columnformat) | Represents format of a table column. |
-| [CombinableSeriesTypesGroup](../com.aspose.slides/combinableseriestypesgroup) | Enumeration of groups of combinable series types. |
-| [CommandEffect](../com.aspose.slides/commandeffect) | Represents a command effect for an animation behavior. |
-| [CommandEffectType](../com.aspose.slides/commandeffecttype) | Represents command effect type for command effect behavior. |
-| [Comment](../com.aspose.slides/comment) | Represents a comment on a slide. |
-| [CommentAuthor](../com.aspose.slides/commentauthor) | Represents an author of comments. |
-| [CommentAuthorCollection](../com.aspose.slides/commentauthorcollection) | Represents a collection of comment authors. |
-| [CommentCollection](../com.aspose.slides/commentcollection) | Represents a collection of comments of one author. |
-| [CommentsPositions](../com.aspose.slides/commentspositions) | Represents the rule to render comments into exported document |
-| [CommonSlideViewProperties](../com.aspose.slides/commonslideviewproperties) | Represents common slide view properties. |
-| [Compress](../com.aspose.slides/compress) | Represents a group of methods intended to compress [Presentation](../com.aspose.slides/presentation). |
-| [CompressionLevel](../com.aspose.slides/compressionlevel) | Specifies ZIP compression levels for OpenXML file. |
-| [Conformance](../com.aspose.slides/conformance) | Specifies the conformance class to which the PresentationML document conforms. |
-| [Connector](../com.aspose.slides/connector) | Represents a connector. |
-| [ConnectorLock](../com.aspose.slides/connectorlock) | Determines which operations are disabled on the parent Connector. |
-| [Control](../com.aspose.slides/control) | Represents an ActiveX control. |
-| [ControlCollection](../com.aspose.slides/controlcollection) | A collection of ActiveX controls. |
-| [ControlPropertiesCollection](../com.aspose.slides/controlpropertiescollection) | A collection of AcitveX properties. |
-| [ControlType](../com.aspose.slides/controltype) | Defines a control type which should be embedded by [IControlCollection.\#addControl(int,float,float,float,float)](../com.aspose.slides/icontrolcollection\#addControl-int-float-float-float-float-). |
-| [Convert](../com.aspose.slides/convert) | Represents a group of methods intended to convert [Presentation](../com.aspose.slides/presentation). |
-| [CornerDirectionTransition](../com.aspose.slides/cornerdirectiontransition) | Corner direction slide transition effect. |
-| [CrossesType](../com.aspose.slides/crossestype) | Determines where axis will cross. |
-| [CurrentThreadSettings](../com.aspose.slides/currentthreadsettings) | Auxiliary class that allows to define default Locale for current thread |
-| [CustomData](../com.aspose.slides/customdata) | Represents container for custom data. |
-| [CustomXmlPart](../com.aspose.slides/customxmlpart) | Represents custom xml part. |
-| [CustomXmlPartCollection](../com.aspose.slides/customxmlpartcollection) | Represents collection of custom xml parts. |
-| [DataLabel](../com.aspose.slides/datalabel) | Represents a series labels. |
-| [DataLabelCollection](../com.aspose.slides/datalabelcollection) | Represents a series labels. |
-| [DataLabelFormat](../com.aspose.slides/datalabelformat) | Represents formatting options for DataLabel. |
-| [DataSourceType](../com.aspose.slides/datasourcetype) | Data source types. |
-| [DataSourceTypeForErrorBarsCustomValues](../com.aspose.slides/datasourcetypeforerrorbarscustomvalues) | Specifies types of values in ChartDataPoint.ErrorBarsCustomValues properties list |
-| [DataTable](../com.aspose.slides/datatable) | Represents data table properties. |
-| [DigitalSignature](../com.aspose.slides/digitalsignature) | Digital signature in signed file. |
-| [DigitalSignatureCollection](../com.aspose.slides/digitalsignaturecollection) | Represents a collection of digital signatures attached to a document. |
-| [DisplayBlanksAsType](../com.aspose.slides/displayblanksastype) | Determines how missing data will be displayed. |
-| [DisplayUnitType](../com.aspose.slides/displayunittype) | Determines multiplicity of the displayed data. |
-| [DocumentProperties](../com.aspose.slides/documentproperties) | Represents properties of a presentation. |
-| [DomObject<TParent>](../com.aspose.slides/domobject) | Base DOM object |
-| [DoubleChartValue](../com.aspose.slides/doublechartvalue) | Represent double value which can be stored in pptx presentation document in two ways: 1) in cell/cells of workbook related to chart; 2) as literal value. |
-| [DrawingGuide](../com.aspose.slides/drawingguide) | Represents an adjustable drawing guide. |
-| [DrawingGuidesCollection](../com.aspose.slides/drawingguidescollection) | Represents a collection of the adjustable drawing guides. |
-| [Duotone](../com.aspose.slides/duotone) | Represents a Duotone effect. |
-| [Effect](../com.aspose.slides/effect) | Represents animation effect. |
-| [EffectChartMajorGroupingType](../com.aspose.slides/effectchartmajorgroupingtype) | Represents the type of an animation effect for chart's element. |
-| [EffectChartMinorGroupingType](../com.aspose.slides/effectchartminorgroupingtype) | Represents the type of an animation effect for chart's element in series or category. |
-| [EffectFactory](../com.aspose.slides/effectfactory) | Allows to create effects |
-| [EffectFillType](../com.aspose.slides/effectfilltype) | Represent fill types. |
-| [EffectFormat](../com.aspose.slides/effectformat) | Represents effect properties of shape. |
-| [EffectPresetClassType](../com.aspose.slides/effectpresetclasstype) | Represent effect class types. |
-| [EffectRestartType](../com.aspose.slides/effectrestarttype) | Represent restart types for timing. |
-| [EffectStyle](../com.aspose.slides/effectstyle) | Represents an effect style. |
-| [EffectStyleCollection](../com.aspose.slides/effectstylecollection) | Represents a collection of effect styles. |
-| [EffectSubtype](../com.aspose.slides/effectsubtype) | Represents subtypes of animation effect. |
-| [EffectTriggerType](../com.aspose.slides/effecttriggertype) | Represent trigger type of effect. |
-| [EffectType](../com.aspose.slides/effecttype) | Represents the type of an animation effect. |
-| [EightDirectionTransition](../com.aspose.slides/eightdirectiontransition) | Eight direction slide transition effect. |
-| [EmbedAllFontsHtmlController](../com.aspose.slides/embedallfontshtmlcontroller) | The formatting controller class to use for embedding all presentation fonts in WOFF format. |
-| [EmbedFontCharacters](../com.aspose.slides/embedfontcharacters) | Represents the rule to use for adding new embedding font into [IPresentation](../com.aspose.slides/ipresentation) |
-| [EmbeddedEotFontsHtmlController](../com.aspose.slides/embeddedeotfontshtmlcontroller) | The formatting controller class to use for fonts embedding in EOT format |
-| [EmbeddedWoffFontsHtmlController](../com.aspose.slides/embeddedwofffontshtmlcontroller) | The formatting controller class to use for fonts embedding in WOFF format |
-| [EmbeddingLevel](../com.aspose.slides/embeddinglevel) | Represents the licensing rights for embedding the font. |
-| [EmptyTransition](../com.aspose.slides/emptytransition) | Empty slide transition effect. |
-| [ErrorBarType](../com.aspose.slides/errorbartype) | Represents type of error bar |
-| [ErrorBarValueType](../com.aspose.slides/errorbarvaluetype) | Represents type of error bar value |
-| [ErrorBarsCustomValues](../com.aspose.slides/errorbarscustomvalues) | Specifies the errors bar values. |
-| [ErrorBarsFormat](../com.aspose.slides/errorbarsformat) | Represents error bars of chart series. |
-| [ExcelDataCell](../com.aspose.slides/exceldatacell) | Represents a single cell in an Excel workbook. |
-| [ExcelDataWorkbook](../com.aspose.slides/exceldataworkbook) | Represents a workbook that provides access to Excel data for general use. |
-| [ExcelWorkbookImporter](../com.aspose.slides/excelworkbookimporter) | Provides functionality for importing content from an Excel workbook into a presentation. |
-| [ExternalResourceResolver](../com.aspose.slides/externalresourceresolver) | Callback class used to resolve external resources during Html, Svg documents import. |
-| [ExtraColorScheme](../com.aspose.slides/extracolorscheme) | Represents an additional color scheme which can be assigned to a slide. |
-| [ExtraColorSchemeCollection](../com.aspose.slides/extracolorschemecollection) | Represents a collection of additional color schemes. |
-| [Field](../com.aspose.slides/field) | Represents a field. |
-| [FieldType](../com.aspose.slides/fieldtype) | Represents a type of field. |
-| [FillBlendMode](../com.aspose.slides/fillblendmode) | Determines blend mode. |
-| [FillFormat](../com.aspose.slides/fillformat) | Represents a fill formatting options. |
-| [FillFormatCollection](../com.aspose.slides/fillformatcollection) | Represents the collection of fill styles. |
-| [FillOverlay](../com.aspose.slides/filloverlay) | Represents a Fill Overlay effect. |
-| [FillType](../com.aspose.slides/filltype) | Specifies the interior fill type of various visual objects. |
-| [FilterEffect](../com.aspose.slides/filtereffect) | Represent filter effect of behavior. |
-| [FilterEffectRevealType](../com.aspose.slides/filtereffectrevealtype) | Represents filter reveal type. |
-| [FilterEffectSubtype](../com.aspose.slides/filtereffectsubtype) | Represents filter effect subtypes. |
-| [FilterEffectType](../com.aspose.slides/filtereffecttype) | Represents filter effect types. |
-| [Flavor](../com.aspose.slides/flavor) | All markdown specifications used in program. |
-| [FlyThroughTransition](../com.aspose.slides/flythroughtransition) | Fly-through slide transition effect. |
-| [FontAlignment](../com.aspose.slides/fontalignment) | Represents vertical font alignment. |
-| [FontCollectionIndex](../com.aspose.slides/fontcollectionindex) | Represents font's index in a collection. |
-| [FontData](../com.aspose.slides/fontdata) | Represents a font definition. |
-| [FontDataFactory](../com.aspose.slides/fontdatafactory) | FontData factory |
-| [FontFallBackRule](../com.aspose.slides/fontfallbackrule) | Represents font fallback rule |
-| [FontFallBackRulesCollection](../com.aspose.slides/fontfallbackrulescollection) | Represents a collection of FontFallBack rules, defined by user |
-| [FontScheme](../com.aspose.slides/fontscheme) | Stores theme-defined fonts. |
-| [FontSources](../com.aspose.slides/fontsources) | Provides file and memory sources for external fonts. |
-| [FontStyleType](../com.aspose.slides/fontstyletype) | Defines formatting styles that can be applied to text. |
-| [FontSubstCondition](../com.aspose.slides/fontsubstcondition) | Represents a rule fot font substitution |
-| [FontSubstRule](../com.aspose.slides/fontsubstrule) | Represents font subtituition information |
-| [FontSubstRuleCollection](../com.aspose.slides/fontsubstrulecollection) | Represents collection of fonts substitution. |
-| [FontSubstitutionInfo](../com.aspose.slides/fontsubstitutioninfo) | This structure represents the information about the font replacement when it will be rendered. |
-| [Fonts](../com.aspose.slides/fonts) | Fonts collection. |
-| [FontsLoader](../com.aspose.slides/fontsloader) | Class for loading custom fonts defined by user. |
-| [FontsManager](../com.aspose.slides/fontsmanager) | Manages fonts across the presentation. |
-| [ForEach](../com.aspose.slides/foreach) | Represents a group of methods intended to iterate over different [Presentation](../com.aspose.slides/presentation) model objects. |
-| [Format](../com.aspose.slides/format) | Represents chart format properties. |
-| [FormatFactory](../com.aspose.slides/formatfactory) | Allows to create formats via COM interface. |
-| [FormatScheme](../com.aspose.slides/formatscheme) | Stores theme-defined formats for the shapes. |
-| [FrameTickEventArgs](../com.aspose.slides/frametickeventargs) | Represents arguments of the PresentationPlayer.FrameTick event. |
-| [GeometryPath](../com.aspose.slides/geometrypath) | Represents geometry path of GeometryShape |
-| [GeometryShape](../com.aspose.slides/geometryshape) | Represents the parent class for all geometric shapes. |
-| [GifOptions](../com.aspose.slides/gifoptions) | Represents GIF exporting options. |
-| [GlitterTransition](../com.aspose.slides/glittertransition) | Glitter slide transition effect. |
-| [GlobalLayoutSlideCollection](../com.aspose.slides/globallayoutslidecollection) | Represents a collection of all layout slides in presentation. |
-| [Glow](../com.aspose.slides/glow) | Represents a Glow effect, in which a color blurred outline is added outside the edges of the object. |
-| [GradientDirection](../com.aspose.slides/gradientdirection) | Represents the gradient style. |
-| [GradientFormat](../com.aspose.slides/gradientformat) | Represent a gradient format. |
-| [GradientShape](../com.aspose.slides/gradientshape) | Represents the shape of gradient fill. |
-| [GradientStop](../com.aspose.slides/gradientstop) | Represents a gradient format. |
-| [GradientStopCollection](../com.aspose.slides/gradientstopcollection) | Represnts a collection of gradient stops. |
-| [GradientStopCollectionEffectiveData](../com.aspose.slides/gradientstopcollectioneffectivedata) | Represents a collection of GradientStopData objects. |
-| [GradientStopEffectiveData](../com.aspose.slides/gradientstopeffectivedata) | Immutable object which represents a gradient stop. |
-| [GradientStyle](../com.aspose.slides/gradientstyle) | Represents the available gradient styles. |
-| [GraphicalObject](../com.aspose.slides/graphicalobject) | Represents abstract graphical object. |
-| [GraphicalObjectLock](../com.aspose.slides/graphicalobjectlock) | Determines which operations are disabled on the parent GraphicalObject. |
-| [GrayScale](../com.aspose.slides/grayscale) | Represents a Gray Scale effect. |
-| [GroupShape](../com.aspose.slides/groupshape) | Represents a group of shapes on a slide. |
-| [GroupShapeLock](../com.aspose.slides/groupshapelock) | Determines which operations are disabled on the parent GroupShape. |
-| [HSL](../com.aspose.slides/hsl) | Represents a Hue/Saturation/Luminance effect. |
-| [HandleRepeatedSpaces](../com.aspose.slides/handlerepeatedspaces) | Specifies how repeated regular space characters should be handled during Markdown export. |
-| [HandoutLayoutingOptions](../com.aspose.slides/handoutlayoutingoptions) | Represents the handout presentation layout mode for export. |
-| [HandoutType](../com.aspose.slides/handouttype) | Specifies how many slides and in what sequence will be placed on the page. |
-| [HeadingPair](../com.aspose.slides/headingpair) | Represents a 'Heading pair' property of the document. |
-| [Html5Options](../com.aspose.slides/html5options) | Represents a HTML5 exporting options. |
-| [HtmlExternalResolver](../com.aspose.slides/htmlexternalresolver) | Callback object used by HTML import routine to obtain referrenced objects such as images. |
-| [HtmlFormatter](../com.aspose.slides/htmlformatter) | Represents HTML file template. |
-| [HtmlGenerator](../com.aspose.slides/htmlgenerator) | Html generator. |
-| [HtmlOptions](../com.aspose.slides/htmloptions) | Represents a HTML exporting options. |
-| [Hyperlink](../com.aspose.slides/hyperlink) | Represents a hyperlink. |
-| [HyperlinkActionType](../com.aspose.slides/hyperlinkactiontype) | Represents a type of hyperlink action. |
-| [HyperlinkColorSource](../com.aspose.slides/hyperlinkcolorsource) | Represents source of hyperlink color. |
-| [HyperlinkManager](../com.aspose.slides/hyperlinkmanager) | Provide hyperlinks management (adding, removing). |
-| [HyperlinkQueries](../com.aspose.slides/hyperlinkqueries) | Provide easy access to contained hyperlinks. |
-| [ImageCollection](../com.aspose.slides/imagecollection) | Represents collection of PPImage. |
-| [ImageFormat](../com.aspose.slides/imageformat) | Represents the file format of the image. |
-| [ImagePixelFormat](../com.aspose.slides/imagepixelformat) | Specifies the pixel format for the generated images. |
-| [ImageTransformOCollectionEffectiveData](../com.aspose.slides/imagetransformocollectioneffectivedata) | Immutable object that represents a readonly collection of effective image transform effects. |
-| [ImageTransformOperation](../com.aspose.slides/imagetransformoperation) | Represents abstract image transformation effect. |
-| [ImageTransformOperationCollection](../com.aspose.slides/imagetransformoperationcollection) | Represents a collection of effects apllied to an image. |
-| [ImageTransformOperationFactory](../com.aspose.slides/imagetransformoperationfactory) | Allows to create image transform operations |
-| [Images](../com.aspose.slides/images) | Methods to instantiate and work with [IImage](../com.aspose.slides/iimage). |
-| [InOutTransition](../com.aspose.slides/inouttransition) | In-Out slide transition effect. |
-| [Ink](../com.aspose.slides/ink) | Represents an ink object on a slide. |
-| [InkActions](../com.aspose.slides/inkactions) | Represents the root of ink actions. |
-| [InkBrush](../com.aspose.slides/inkbrush) | Represents an inkBrush object. |
-| [InkEffectType](../com.aspose.slides/inkeffecttype) | Specifies a set of predefined visual effects for ink rendering. |
-| [InkOptions](../com.aspose.slides/inkoptions) | Provides options that control the look of Ink objects in exported document. |
-| [InkTrace](../com.aspose.slides/inktrace) | Represents an Trace object. |
-| [InnerShadow](../com.aspose.slides/innershadow) | Represents a Inner Shadow effect. |
-| [Input](../com.aspose.slides/input) | Represents a collection of input elements (templates). |
-| [InterruptionToken](../com.aspose.slides/interruptiontoken) | This class represents the token to use for signaling long running tasks whether the interruption was requested. |
-| [InterruptionTokenSource](../com.aspose.slides/interruptiontokensource) | Represents the source of [InterruptionToken](../com.aspose.slides/interruptiontoken). |
-| [InvalidPasswordException](../com.aspose.slides/invalidpasswordexception) | Exception which thrown when presentation file format is unsupported. |
-| [LayoutPlaceholderManager](../com.aspose.slides/layoutplaceholdermanager) | Represents manager that allows you to add placeholders to the layout slide. |
-| [LayoutSlide](../com.aspose.slides/layoutslide) | Represents a layout slide. |
-| [LayoutSlideCollection](../com.aspose.slides/layoutslidecollection) | Represents a base class for collection of a layout slides. |
-| [LayoutSlideHeaderFooterManager](../com.aspose.slides/layoutslideheaderfootermanager) | Represents manager which holds behavior of the layout slide footer, date-time, page number placeholders and all child placeholders. |
-| [LayoutSlideThemeManager](../com.aspose.slides/layoutslidethememanager) | Provides access to layout slide theme overriden. |
-| [LayoutTargetType](../com.aspose.slides/layouttargettype) | If layout of the plot area defined manually this property specifies whether to layout the plot area by its inside (not including axis and axis labels) or outside (including axis and axis labels). |
-| [LeftRightDirectionTransition](../com.aspose.slides/leftrightdirectiontransition) | Left-right direction slide transition effect. |
-| [LegacyDiagram](../com.aspose.slides/legacydiagram) | Represents a legacy diagram object. |
-| [Legend](../com.aspose.slides/legend) | Represents chart's legend properties. |
-| [LegendDataLabelPosition](../com.aspose.slides/legenddatalabelposition) | Determines position of data labels. |
-| [LegendEntryCollection](../com.aspose.slides/legendentrycollection) | Represents legends collection. |
-| [LegendEntryProperties](../com.aspose.slides/legendentryproperties) | Represents legend properties of a chart. |
-| [LegendPositionType](../com.aspose.slides/legendpositiontype) | Determines a position of legend on a chart. |
-| [License](../com.aspose.slides/license) | Provides methods to license the component. |
-| [LightRig](../com.aspose.slides/lightrig) | Represents LightRig. |
-| [LightRigPresetType](../com.aspose.slides/lightrigpresettype) | Constants which define light preset types. |
-| [LightingDirection](../com.aspose.slides/lightingdirection) | Constants which define light directions. |
-| [LineAlignment](../com.aspose.slides/linealignment) | Represents the lines alignment type. |
-| [LineArrowheadLength](../com.aspose.slides/linearrowheadlength) | Represents the length of an arrowhead. |
-| [LineArrowheadStyle](../com.aspose.slides/linearrowheadstyle) | Represents the style of an arrowhead. |
-| [LineArrowheadWidth](../com.aspose.slides/linearrowheadwidth) | Represents the width of an arrowhead. |
-| [LineCapStyle](../com.aspose.slides/linecapstyle) | Represents the line cap style. |
-| [LineDashStyle](../com.aspose.slides/linedashstyle) | Represents the line dash style. |
-| [LineFillFormat](../com.aspose.slides/linefillformat) | Represents properties for lines filling. |
-| [LineFormat](../com.aspose.slides/lineformat) | Represents format of a line. |
-| [LineFormatCollection](../com.aspose.slides/lineformatcollection) | Represents the collection of line styles. |
-| [LineJoinStyle](../com.aspose.slides/linejoinstyle) | Represents the lines join style. |
-| [LineSketchType](../com.aspose.slides/linesketchtype) | Represents which sketch type or effect a shape has been assigned. |
-| [LineStyle](../com.aspose.slides/linestyle) | Represents the style of a line. |
-| [LinkEmbedDecision](../com.aspose.slides/linkembeddecision) | Determines how object will be processed during saving. |
-| [LoadFormat](../com.aspose.slides/loadformat) | Indicates the format of the document that is to be loaded. |
-| [LoadOptions](../com.aspose.slides/loadoptions) | Allows to specify additional options (such as format or default font) when loading a presentation. |
-| [LoadingStreamBehavior](../com.aspose.slides/loadingstreambehavior) | The java.io.InputStream passed to a method is considered as a Binary Large Object (BLOB) (see [IBlobManagementOptions](../com.aspose.slides/iblobmanagementoptions) description). |
-| [Luminance](../com.aspose.slides/luminance) | Represents a Luminance effect. |
-| [MarkdownExportType](../com.aspose.slides/markdownexporttype) | Type of rendering document. |
-| [MarkdownSaveOptions](../com.aspose.slides/markdownsaveoptions) | Represents options that control how presentation should be saved to markdown. |
-| [Marker](../com.aspose.slides/marker) | Represents marker of a chert. |
-| [MarkerStyleType](../com.aspose.slides/markerstyletype) | Determines form of marker on chart's data point. |
-| [MasterHandoutSlide](../com.aspose.slides/masterhandoutslide) | Represents master slide for handouts. |
-| [MasterHandoutSlideHeaderFooterManager](../com.aspose.slides/masterhandoutslideheaderfootermanager) | Represents manager which holds behavior of the master handout slide placeholders, including header placeholder. |
-| [MasterLayoutSlideCollection](../com.aspose.slides/masterlayoutslidecollection) | Represents a collections of all layout slides of defined master slide. |
-| [MasterNotesSlide](../com.aspose.slides/masternotesslide) | Represents master slide for notes. |
-| [MasterNotesSlideHeaderFooterManager](../com.aspose.slides/masternotesslideheaderfootermanager) | Represents manager which holds behavior of the master notes slide footer, date-time, page number placeholders for all slide types. |
-| [MasterSlide](../com.aspose.slides/masterslide) | Represents a master slide in a presentation. |
-| [MasterSlideCollection](../com.aspose.slides/masterslidecollection) | Represents a collection of master slides. |
-| [MasterSlideHeaderFooterManager](../com.aspose.slides/masterslideheaderfootermanager) | Represents manager which holds behavior of the master slide footer, date-time, page number placeholders for all slide types. |
-| [MasterTheme](../com.aspose.slides/mastertheme) | Represents a master theme. |
-| [MasterThemeManager](../com.aspose.slides/masterthememanager) | Provides access to presentation master theme. |
-| [MaterialPresetType](../com.aspose.slides/materialpresettype) | Constants which define material of shape. |
-| [MathAccent](../com.aspose.slides/mathaccent) | Specifies the accent function, consisting of a base and a combining diacritical mark Example: \\ud835\\udc4e\\u0301 |
-| [MathAccentFactory](../com.aspose.slides/mathaccentfactory) | Allows to create a math accent |
-| [MathArray](../com.aspose.slides/matharray) | Specifies a vertical array of equations or any mathematical objects |
-| [MathArrayFactory](../com.aspose.slides/matharrayfactory) | Allows to create a math array |
-| [MathBar](../com.aspose.slides/mathbar) | Specifies the bar function, consisting of a base argument and an overbar or underbar |
-| [MathBarFactory](../com.aspose.slides/mathbarfactory) | Allows to create a math bar |
-| [MathBlock](../com.aspose.slides/mathblock) | Specifies an instance of mathematical text that contained within a MathParagraph and starts on its own line. |
-| [MathBlockFactory](../com.aspose.slides/mathblockfactory) | Allows to create a math block |
-| [MathBorderBox](../com.aspose.slides/mathborderbox) | Draws a rectangular or some other border around the IMathElement. |
-| [MathBorderBoxFactory](../com.aspose.slides/mathborderboxfactory) | Allows to create a math border box |
-| [MathBox](../com.aspose.slides/mathbox) | Specifies the logical boxing (packaging) of mathematical element. |
-| [MathBoxFactory](../com.aspose.slides/mathboxfactory) | Allows to create a math box |
-| [MathDelimiter](../com.aspose.slides/mathdelimiter) | Specifies the delimiter object, consisting of opening and closing characters (such as parentheses, braces, brackets, and vertical bars), and one or more mathematical elements inside, separated by a specified character. |
-| [MathDelimiterFactory](../com.aspose.slides/mathdelimiterfactory) | Allows to create a math delimiter |
-| [MathDelimiterShape](../com.aspose.slides/mathdelimitershape) | The location and size of the delimiters relative to the content of the operands |
-| [MathElementBase](../com.aspose.slides/mathelementbase) | Base class for IMathElement with the implementation of some methods that are common to all inherited classes For internal use only. |
-| [MathFraction](../com.aspose.slides/mathfraction) | Specifies the fraction object, consisting of a numerator and denominator separated by a fraction bar. |
-| [MathFractionFactory](../com.aspose.slides/mathfractionfactory) | Allows to create a math fraction |
-| [MathFractionTypes](../com.aspose.slides/mathfractiontypes) | Fraction Types |
-| [MathFunction](../com.aspose.slides/mathfunction) | Specifies a function of an argument. |
-| [MathFunctionFactory](../com.aspose.slides/mathfunctionfactory) | Allows to create a math function |
-| [MathFunctionsOfOneArgument](../com.aspose.slides/mathfunctionsofoneargument) | Common mathematical functions of one argument |
-| [MathFunctionsOfTwoArguments](../com.aspose.slides/mathfunctionsoftwoarguments) | Common mathematical functions of two arguments |
-| [MathGroupingCharacter](../com.aspose.slides/mathgroupingcharacter) | Specifies a grouping symbol above or below an expression, usually to highlight the relationship between elements |
-| [MathGroupingCharacterFactory](../com.aspose.slides/mathgroupingcharacterfactory) | Allows to create a math grouping character |
-| [MathHorizontalAlignment](../com.aspose.slides/mathhorizontalalignment) | Horizontal Alignment |
-| [MathIntegralTypes](../com.aspose.slides/mathintegraltypes) | Mathematical integral types |
-| [MathJustification](../com.aspose.slides/mathjustification) | Specifies justification of the math paragraph (a series of adjacent instances of mathematical text within the same paragraph) |
-| [MathLeftSubSuperscriptElement](../com.aspose.slides/mathleftsubsuperscriptelement) | Specifies the Sub-Superscript object, which consists of a base and a subscript and superscript placed to the left of the base. |
-| [MathLimit](../com.aspose.slides/mathlimit) | Specifies the Limit object, consisting of text on the baseline and reduced-size text immediately above or below it. |
-| [MathLimitFactory](../com.aspose.slides/mathlimitfactory) | Allows to create IMathLimit |
-| [MathLimitLocations](../com.aspose.slides/mathlimitlocations) | Location of limits (subscript/superscript) in n-ary operators. |
-| [MathMatrix](../com.aspose.slides/mathmatrix) | Specifies the Matrix object, consisting of child elements laid out in one or more rows and columns. |
-| [MathMatrixFactory](../com.aspose.slides/mathmatrixfactory) | Allows to create a math matrix |
-| [MathNaryOperator](../com.aspose.slides/mathnaryoperator) | Specifies an N-ary mathematical object, such as Summation and Integral. |
-| [MathNaryOperatorFactory](../com.aspose.slides/mathnaryoperatorfactory) | Allows to create IMathNaryOperator |
-| [MathNaryOperatorTypes](../com.aspose.slides/mathnaryoperatortypes) | Nary operator IMathNaryOperator types (excluding integrals) For integrals [MathIntegralTypes](../com.aspose.slides/mathintegraltypes) |
-| [MathParagraph](../com.aspose.slides/mathparagraph) | Mathematical paragraph that is a container for mathematical blocks (IMathBlock) |
-| [MathParagraphFactory](../com.aspose.slides/mathparagraphfactory) | Allows to create a math paragraph |
-| [MathPhantom](../com.aspose.slides/mathphantom) | Represents a phantom math object (<m:phant>) that affects the layout of its child element without necessarily displaying it. |
-| [MathPortion](../com.aspose.slides/mathportion) | Represents a portion with mathematical context inside. |
-| [MathRadical](../com.aspose.slides/mathradical) | Specifies the radical function, consisting of a base, and an optional degree. |
-| [MathRadicalFactory](../com.aspose.slides/mathradicalfactory) | Allows to create math radical |
-| [MathRightSubSuperscriptElement](../com.aspose.slides/mathrightsubsuperscriptelement) | Specifies the Sub-Superscript object, which consists of a base and a subscript and superscript placed to the right of the base. |
-| [MathRightSubSuperscriptElementFactory](../com.aspose.slides/mathrightsubsuperscriptelementfactory) | Allows to create IMathRightSubSuperscriptElementFactory |
-| [MathRowSpacingRule](../com.aspose.slides/mathrowspacingrule) | The type of vertical spacing between columns in a matrix or array |
-| [MathSpacingRules](../com.aspose.slides/mathspacingrules) | Types of gap (horizontal spacing) between columns of a matrix |
-| [MathSubscriptElement](../com.aspose.slides/mathsubscriptelement) | Specifies the subscript object, which consists of a base and a reduced-size subscript placed below and to the right. |
-| [MathSubscriptElementFactory](../com.aspose.slides/mathsubscriptelementfactory) | Allows to create IMathSubscriptElement |
-| [MathSuperscriptElement](../com.aspose.slides/mathsuperscriptelement) | Specifies the superscript object, which consists of a base and a reduced-size superscript placed above and to the right |
-| [MathSuperscriptElementFactory](../com.aspose.slides/mathsuperscriptelementfactory) | Allows to create IMathSuperscriptElement |
-| [MathTopBotPositions](../com.aspose.slides/mathtopbotpositions) | Top/bottom positions enumeration |
-| [MathVerticalAlignment](../com.aspose.slides/mathverticalalignment) | Vertical Alignment |
-| [MathematicalText](../com.aspose.slides/mathematicaltext) | Mathematical text |
-| [MathematicalTextFactory](../com.aspose.slides/mathematicaltextfactory) | Allows to create a MathematicalText element |
-| [Merger](../com.aspose.slides/merger) | Represents a group of methods for merging PowerPoint presentations of the same format into one file. |
-| [Metered](../com.aspose.slides/metered) | Provides methods to set metered key. |
-| [ModernComment](../com.aspose.slides/moderncomment) | Represents a comment on a slide. |
-| [ModernCommentStatus](../com.aspose.slides/moderncommentstatus) | Represents the status of a modern comment. |
-| [MorphTransition](../com.aspose.slides/morphtransition) | Ripple slide transition effect. |
-| [MotionCmdPath](../com.aspose.slides/motioncmdpath) | Represent one command of a path. |
-| [MotionCommandPathType](../com.aspose.slides/motioncommandpathtype) | Represent types of command for animation motion effect behavior. |
-| [MotionEffect](../com.aspose.slides/motioneffect) | Represent motion effect behavior of effect. |
-| [MotionOriginType](../com.aspose.slides/motionorigintype) | Specifies what the origin of the motion path is relative to. |
-| [MotionPath](../com.aspose.slides/motionpath) | Represent motion path. |
-| [MotionPathEditMode](../com.aspose.slides/motionpatheditmode) | Specifies how the motion path moves when the target shape is moved |
-| [MotionPathPointsType](../com.aspose.slides/motionpathpointstype) | Represent types of points in animation motion path. |
-| [NewLineType](../com.aspose.slides/newlinetype) | Type of new line that will be used in generated document. |
-| [NormalViewProperties](../com.aspose.slides/normalviewproperties) | Represents normal view properties. |
-| [NormalViewRestoredProperties](../com.aspose.slides/normalviewrestoredproperties) | Specifies the sizing of the slide region ((width when a child of restoredTop, height when a child of restoredLeft) of the normal view, when the region is of a variable restored size(neither minimized nor maximized). |
-| [NotesCommentsLayoutingOptions](../com.aspose.slides/notescommentslayoutingoptions) | Provides options that control the look of layouting of notes and comments in exported document. |
-| [NotesPositions](../com.aspose.slides/notespositions) | Represents the rule to render notes into exported document |
-| [NotesSize](../com.aspose.slides/notessize) | Represents a size of notes slide. |
-| [NotesSlide](../com.aspose.slides/notesslide) | Represents a notes slide in a presentation. |
-| [NotesSlideHeaderFooterManager](../com.aspose.slides/notesslideheaderfootermanager) | Represents manager which holds behavior of the notes slide placeholders, including header placeholder. |
-| [NotesSlideManager](../com.aspose.slides/notesslidemanager) | Notes slide manager. |
-| [NotesSlideThemeManager](../com.aspose.slides/notesslidethememanager) | Provides access to notes slide theme overriden. |
-| [NullableBool](../com.aspose.slides/nullablebool) | Represents triple boolean values. |
-| [NumberedBulletStyle](../com.aspose.slides/numberedbulletstyle) | Represents the style of the numbered bullets. |
-| [OOXMLCorruptFileException](../com.aspose.slides/ooxmlcorruptfileexception) | Exception which thrown when Office Open XML file format is corrupted. |
-| [OOXMLException](../com.aspose.slides/ooxmlexception) | Represents a standard internal exception type related to Office Open XML file format. |
-| [OdpException](../com.aspose.slides/odpexception) | Represents a standard internal exception type. |
-| [OdpReadException](../com.aspose.slides/odpreadexception) | Represents an exception which thrown on presentation reading errors. |
-| [OleEmbeddedDataInfo](../com.aspose.slides/oleembeddeddatainfo) | Represents embedded data info for OLE object. |
-| [OleObjectFrame](../com.aspose.slides/oleobjectframe) | Represents an OLE object on a slide. |
-| [OpenAIWebClient](../com.aspose.slides/openaiwebclient) | Build-in lightweight OpenAI web client |
-| [OptionalBlackTransition](../com.aspose.slides/optionalblacktransition) | Optional black slide transition effect. |
-| [OrganizationChartLayoutType](../com.aspose.slides/organizationchartlayouttype) | Represents formatting type the child nodes in an organization chart |
-| [Orientation](../com.aspose.slides/orientation) | Represents the orientation of a shape. |
-| [OrientationTransition](../com.aspose.slides/orientationtransition) | Orientation slide transition effect. |
-| [OuterShadow](../com.aspose.slides/outershadow) | Represents an Outer Shadow effect. |
-| [Output](../com.aspose.slides/output) | Represents a collection of output elements for IWebDocument. |
-| [OutputFile](../com.aspose.slides/outputfile) | Represents an output file. |
-| [OverrideTheme](../com.aspose.slides/overridetheme) | Represents a overriding theme. |
-| [PPImage](../com.aspose.slides/ppimage) | Represents an image in a presentation. |
-| [PVIObject](../com.aspose.slides/pviobject) | Encapsulates basic service infrastructure for objects can be a subject of property value inheritance. |
-| [Paragraph](../com.aspose.slides/paragraph) | Represents a paragraph of text. |
-| [ParagraphCollection](../com.aspose.slides/paragraphcollection) | Represents a collection of a paragraphs. |
-| [ParagraphFactory](../com.aspose.slides/paragraphfactory) | Allows to create paragraphs |
-| [ParagraphFormat](../com.aspose.slides/paragraphformat) | This class contains the paragraph formatting properties. |
-| [ParentLabelLayoutType](../com.aspose.slides/parentlabellayouttype) | Represents layout of category data labels. |
-| [PathCommandType](../com.aspose.slides/pathcommandtype) | Represents graphics path commands |
-| [PathFillModeType](../com.aspose.slides/pathfillmodetype) | Specifies the manner in which a path should be filled |
-| [PathSegment](../com.aspose.slides/pathsegment) | Represents segment of graphics path of GeometryShape |
-| [PatternFormat](../com.aspose.slides/patternformat) | Represents a pattern to fill a shape. |
-| [PatternStyle](../com.aspose.slides/patternstyle) | Represents the pattern style. |
-| [PdfAccessPermissions](../com.aspose.slides/pdfaccesspermissions) | Contains a set of flags specifying which access permissions should be granted when the document is opened with user access. |
-| [PdfCompliance](../com.aspose.slides/pdfcompliance) | Constants which define the PDF standards compliance level. |
-| [PdfImportOptions](../com.aspose.slides/pdfimportoptions) | Represents the PDF import options |
-| [PdfOptions](../com.aspose.slides/pdfoptions) | Provides options that control how a presentation is saved in Pdf format. |
-| [PdfTextCompression](../com.aspose.slides/pdftextcompression) | Constants which define the type of a compression applied to all content in the PDF file except images. |
-| [PersistenceType](../com.aspose.slides/persistencetype) | Specifies the method used to store properties of the ActiveX control. |
-| [Picture](../com.aspose.slides/picture) | Represents a picture in a presentation. |
-| [PictureFillFormat](../com.aspose.slides/picturefillformat) | Represents a picture fill style. |
-| [PictureFillMode](../com.aspose.slides/picturefillmode) | Determines how picture will fill area. |
-| [PictureFrame](../com.aspose.slides/pictureframe) | Represents a frame with a picture inside. |
-| [PictureFrameLock](../com.aspose.slides/pictureframelock) | Determines which operations are disabled on the parent PictureFrame. |
-| [PictureType](../com.aspose.slides/picturetype) | Determines mode of bar picture filling. |
-| [PicturesCompression](../com.aspose.slides/picturescompression) | Represents the pictures compression level |
-| [PieSplitCustomPointCollection](../com.aspose.slides/piesplitcustompointcollection) | Represents a collection of points for splitting point in a bar-of-pie or pie-of-pie chart with a custom split. |
-| [PieSplitType](../com.aspose.slides/piesplittype) | Represents a type of splitting points in the second pie or bar on a pie-of-pie or bar-of-pie chart. |
-| [Placeholder](../com.aspose.slides/placeholder) | Represents a placeholder on a slide. |
-| [PlaceholderSize](../com.aspose.slides/placeholdersize) | Represents the size of a placeholder. |
-| [PlaceholderType](../com.aspose.slides/placeholdertype) | Represents the type of a placeholder. |
-| [Point](../com.aspose.slides/point) | Represent animation point. |
-| [PointCollection](../com.aspose.slides/pointcollection) | Represent collection of animation points. |
-| [Portion](../com.aspose.slides/portion) | Represents a portion of text inside a text paragraph. |
-| [PortionCollection](../com.aspose.slides/portioncollection) | Represents a collection of portions. |
-| [PortionFactory](../com.aspose.slides/portionfactory) | Allows to create test portions |
-| [PortionFormat](../com.aspose.slides/portionformat) | This class contains the text portion formatting properties. |
-| [PptCorruptFileException](../com.aspose.slides/pptcorruptfileexception) | Exception which thrown when presentation file is probably corrupt. |
-| [PptEditException](../com.aspose.slides/ppteditexception) | Represents an exception thrown when edit presentation error is detected. |
-| [PptException](../com.aspose.slides/pptexception) | Represents a standard internal exception type. |
-| [PptOptions](../com.aspose.slides/pptoptions) | Provides options that control how a presentation is saved in PPT format. |
-| [PptReadException](../com.aspose.slides/pptreadexception) | Represents an exception which thrown on presentation reading errors. |
-| [PptUnsupportedFormatException](../com.aspose.slides/pptunsupportedformatexception) | Exception which thrown when presentation file format is unsupported. |
-| [PptxCorruptFileException](../com.aspose.slides/pptxcorruptfileexception) | Exception which thrown when presentation file is probably corrupt. |
-| [PptxEditException](../com.aspose.slides/pptxeditexception) | Represents an exception thrown when edit presentation error is detected. |
-| [PptxException](../com.aspose.slides/pptxexception) | Represents a standard internal exception type. |
-| [PptxOptions](../com.aspose.slides/pptxoptions) | Represents options for saving OpenXml presentations (PPTX, PPSX, POTX, PPTM, PPSM, POTM). |
-| [PptxReadException](../com.aspose.slides/pptxreadexception) | Represents an exception which thrown on presentation reading errors. |
-| [PptxUnsupportedFormatException](../com.aspose.slides/pptxunsupportedformatexception) | Exception which thrown when presentation file format is unsupported. |
-| [Presentation](../com.aspose.slides/presentation) | Represents a Microsoft PowerPoint presentation. |
-| [PresentationAnimationsGenerator](../com.aspose.slides/presentationanimationsgenerator) | Represents a generator of the animations in the [Presentation](../com.aspose.slides/presentation). |
-| [PresentationContentAmountType](../com.aspose.slides/presentationcontentamounttype) | Specifies the amount of content included in the generated presentation, influencing both the number of slides and the level of detail per slide. |
-| [PresentationFactory](../com.aspose.slides/presentationfactory) | Allows to create presentation via COM interface |
-| [PresentationHeaderFooterManager](../com.aspose.slides/presentationheaderfootermanager) | Represents manager which holds behavior of all footer, date-time and page number placeholders of presentation. |
-| [PresentationInfo](../com.aspose.slides/presentationinfo) | Information about presentation file |
-| [PresentationLockingBehavior](../com.aspose.slides/presentationlockingbehavior) | Represents the behavior regarding treating the [IPresentation](../com.aspose.slides/ipresentation) source (file or java.io.InputStream) while loading and working with an instance of [IPresentation](../com.aspose.slides/ipresentation). |
-| [PresentationPlayer](../com.aspose.slides/presentationplayer) | Represents the player of animations associated with the [Presentation](../com.aspose.slides/presentation). |
-| [PresentationText](../com.aspose.slides/presentationtext) | Represents the text extracted from the presentation |
-| [PresentedBySpeaker](../com.aspose.slides/presentedbyspeaker) | Presented by a speaker (full screen) |
-| [PresetColor](../com.aspose.slides/presetcolor) | Represents predefined color presets. |
-| [PresetShadow](../com.aspose.slides/presetshadow) | Represents a Preset Shadow effect. |
-| [PresetShadowType](../com.aspose.slides/presetshadowtype) | Represents a preset for a shadow effect. |
-| [PropertyCalcModeType](../com.aspose.slides/propertycalcmodetype) | Represent calc mode for animation property. |
-| [PropertyEffect](../com.aspose.slides/propertyeffect) | Represent property effect behavior. |
-| [PropertyValueType](../com.aspose.slides/propertyvaluetype) | Represent property value types. |
-| [ProtectionManager](../com.aspose.slides/protectionmanager) | Presentation password protection management. |
-| [QuartileMethodType](../com.aspose.slides/quartilemethodtype) | Returns type of quartile method |
-| [RectangleAlignment](../com.aspose.slides/rectanglealignment) | Defines 2-dimension allignment. |
-| [Reflection](../com.aspose.slides/reflection) | Represents a Reflection effect. |
-| [RenderingOptions](../com.aspose.slides/renderingoptions) | Provides options that control how a presentation/slide is rendered. |
-| [ResourceLoadingAction](../com.aspose.slides/resourceloadingaction) | Specifies the mode of external resource loading. |
-| [ResponsiveHtmlController](../com.aspose.slides/responsivehtmlcontroller) | Responsive HTML Controller |
-| [ReturnAction](../com.aspose.slides/returnaction) | Represents warning callback decision options. |
-| [RevealTransition](../com.aspose.slides/revealtransition) | Reveal slide transition effect. |
-| [RippleTransition](../com.aspose.slides/rippletransition) | Ripple slide transition effect. |
-| [Rotation3D](../com.aspose.slides/rotation3d) | Represents 3D rotation of a chart. |
-| [RotationEffect](../com.aspose.slides/rotationeffect) | Represent rotation behavior of effect. |
-| [Row](../com.aspose.slides/row) | Represents a row in a table. |
-| [RowCollection](../com.aspose.slides/rowcollection) | Represents table row collection. |
-| [RowFormat](../com.aspose.slides/rowformat) | Represents format of a table row. |
-| [SVGOptions](../com.aspose.slides/svgoptions) | Represents an SVG options. |
-| [SaveFormat](../com.aspose.slides/saveformat) | Constants which define the format of a saved presentation. |
-| [SaveOptions](../com.aspose.slides/saveoptions) | Abstract class with options that control how a presentation is saved. |
-| [SaveOptionsFactory](../com.aspose.slides/saveoptionsfactory) | Allows to create save options' instances |
-| [ScaleEffect](../com.aspose.slides/scaleeffect) | Represents animation scale effect. |
-| [SchemeColor](../com.aspose.slides/schemecolor) | Represents colors in a color scheme. |
-| [Section](../com.aspose.slides/section) | Represents section of slides. |
-| [SectionCollection](../com.aspose.slides/sectioncollection) | Represents a collection of sections. |
-| [SectionSlideCollection](../com.aspose.slides/sectionslidecollection) | Represents a collection of slides in the section. |
-| [SectionZoomFrame](../com.aspose.slides/sectionzoomframe) | Represents a Section Zoom object in a slide. |
-| [SensitivityLabel](../com.aspose.slides/sensitivitylabel) | Represents the sensitivity label from Microsoft Purview Information Protection. |
-| [SensitivityLabelAssignmentType](../com.aspose.slides/sensitivitylabelassignmenttype) | Represents the assignment method for the sensitivity label. |
-| [SensitivityLabelCollection](../com.aspose.slides/sensitivitylabelcollection) | Represents a collection of sensitivity labels applied to the document. |
-| [SensitivityLabelContentType](../com.aspose.slides/sensitivitylabelcontenttype) | Represents the types of content marking that ought to be applied to a document. |
-| [Sequence](../com.aspose.slides/sequence) | Represents sequence (collection of effects). |
-| [SequenceCollection](../com.aspose.slides/sequencecollection) | Represents collection of interactive sequences. |
-| [SetEffect](../com.aspose.slides/seteffect) | Represents a set effect for an animation behavior. |
-| [Shape](../com.aspose.slides/shape) | Represents a shape on a slide. |
-| [ShapeAdjustmentType](../com.aspose.slides/shapeadjustmenttype) | Specifies different types of shape adjustment values. |
-| [ShapeBevel](../com.aspose.slides/shapebevel) | Contains the properties of shape's main face relief. |
-| [ShapeCollection](../com.aspose.slides/shapecollection) | Represents a collection of shapes. |
-| [ShapeElement](../com.aspose.slides/shapeelement) | Represents a part of shape with same outline and fill properties. |
-| [ShapeElementFillSource](../com.aspose.slides/shapeelementfillsource) | Represents how shape element should be filled. |
-| [ShapeElementStrokeSource](../com.aspose.slides/shapeelementstrokesource) | Represents how shape element should be drawn. |
-| [ShapeFrame](../com.aspose.slides/shapeframe) | Represents shape frame's properties. |
-| [ShapeStyle](../com.aspose.slides/shapestyle) | Represent shape's style reference. |
-| [ShapeThumbnailBounds](../com.aspose.slides/shapethumbnailbounds) | Enumeration of types of shape thumbnail bounds. |
-| [ShapeType](../com.aspose.slides/shapetype) | Represents preset geometry of geometry shapes. |
-| [ShapeUtil](../com.aspose.slides/shapeutil) | Offer methods which helps to process shapes objects. |
-| [ShapesAlignmentType](../com.aspose.slides/shapesalignmenttype) | Defines a way to change the placement of selected shapes on the slide. |
-| [ShredTransition](../com.aspose.slides/shredtransition) | Shred slide transition effect. |
-| [SideDirectionTransition](../com.aspose.slides/sidedirectiontransition) | Side direction slide transition effect. |
-| [SketchFormat](../com.aspose.slides/sketchformat) | Represents properties for lines sketch format. |
-| [Slide](../com.aspose.slides/slide) | Represents a slide in a presentation. |
-| [SlideCollection](../com.aspose.slides/slidecollection) | Represents a collection of a slides. |
-| [SlideHeaderFooterManager](../com.aspose.slides/slideheaderfootermanager) | Represents manager which holds behavior of the slide footer, date-time, page number placeholders. |
-| [SlideImageFormat](../com.aspose.slides/slideimageformat) | Determines format in which slide image will be saved for presentation to HTML export. |
-| [SlideLayoutType](../com.aspose.slides/slidelayouttype) | Represents the slide layout type. |
-| [SlideOrientation](../com.aspose.slides/slideorientation) | Represents the slide orientation. |
-| [SlideShowSettings](../com.aspose.slides/slideshowsettings) | Represents the slide show settings for the presentation. |
-| [SlideShowTransition](../com.aspose.slides/slideshowtransition) | Represents slide show transition. |
-| [SlideShowType](../com.aspose.slides/slideshowtype) | Base slide show settings. |
-| [SlideSize](../com.aspose.slides/slidesize) | Represents the size and orientation of a slide. |
-| [SlideSizeScaleType](../com.aspose.slides/slidesizescaletype) | Represents the scale type of slide content. |
-| [SlideSizeType](../com.aspose.slides/slidesizetype) | Represents the slide size preset. |
-| [SlideThemeManager](../com.aspose.slides/slidethememanager) | Provides access to slide theme overriden. |
-| [SlideUtil](../com.aspose.slides/slideutil) | Offer methods which help to search shapes and text in a presentation. |
-| [SlidesAIAgent](../com.aspose.slides/slidesaiagent) | Provides AI-powered features for processing presentations. |
-| [SlidesAIAgentException](../com.aspose.slides/slidesaiagentexception) | Represents Slides AI Agent related exceptions. |
-| [SlidesRange](../com.aspose.slides/slidesrange) | Slides range |
-| [SmartArt](../com.aspose.slides/smartart) | Represents a SmartArt diagram |
-| [SmartArtColorType](../com.aspose.slides/smartartcolortype) | Represents color scheme of a SmartArt diagram. |
-| [SmartArtLayoutType](../com.aspose.slides/smartartlayouttype) | Represents layout type of a SmartArt diagram. |
-| [SmartArtNode](../com.aspose.slides/smartartnode) | Represents node of a SmartArt object |
-| [SmartArtNodeCollection](../com.aspose.slides/smartartnodecollection) | Represents a collection of SmartArt nodes. |
-| [SmartArtQuickStyleType](../com.aspose.slides/smartartquickstyletype) | Represents style scheme of a SmartArt diagram. |
-| [SmartArtShape](../com.aspose.slides/smartartshape) | Represents SmartArt shape |
-| [SmartArtShapeCollection](../com.aspose.slides/smartartshapecollection) | Represents a collection of a SmartArt shapes |
-| [SoftEdge](../com.aspose.slides/softedge) | Represents a soft edge effect. |
-| [SourceFormat](../com.aspose.slides/sourceformat) | Represents source file format. |
-| [SplitTransition](../com.aspose.slides/splittransition) | Split slide transition effect. |
-| [SplitterBarStateType](../com.aspose.slides/splitterbarstatetype) | Specifies the state that the splitter bar should be shown in. |
-| [SpreadsheetOptions](../com.aspose.slides/spreadsheetoptions) | Represents options which can be used to specify additional spreadsheets behavior. |
-| [Storage](../com.aspose.slides/storage) | Represents a temporary data storage for [WebDocument](../com.aspose.slides/webdocument). |
-| [StringChartValue](../com.aspose.slides/stringchartvalue) | Represent string value which can be stored in pptx presentation document in two ways: 1) in cell/cells of workbook related to chart; 2) as literal value. |
-| [StringOrDoubleChartValue](../com.aspose.slides/stringordoublechartvalue) | Represent string or double value which can be stored in pptx presentation document in two ways: 1) in cell/cells of workbook related to chart; 2) as literal value. |
-| [StyleType](../com.aspose.slides/styletype) | Represents chart style. |
-| [SummaryZoomFrame](../com.aspose.slides/summaryzoomframe) | Represents a Summary Zoom object in a slide. |
-| [SummaryZoomSection](../com.aspose.slides/summaryzoomsection) | Represents a Summary Zoom Section object in a Summary Zoom frame. |
-| [SummaryZoomSectionCollection](../com.aspose.slides/summaryzoomsectioncollection) | Represents a collection of Summary Zoom Section objects. |
-| [SvgCoordinateUnit](../com.aspose.slides/svgcoordinateunit) | Represents CSS2 coordinate units used to define SVG coordinates. |
-| [SvgEvent](../com.aspose.slides/svgevent) | Represents options for SVG shape. |
-| [SvgExternalFontsHandling](../com.aspose.slides/svgexternalfontshandling) | Represents a way to handle external fonts used for text drawing. |
-| [SvgImage](../com.aspose.slides/svgimage) | Represents an SVG image. |
-| [SvgShape](../com.aspose.slides/svgshape) | Represents options for SVG shape. |
-| [SvgTSpan](../com.aspose.slides/svgtspan) | Represents options for SVG text portion ("tspan"). |
-| [SwfOptions](../com.aspose.slides/swfoptions) | Provides options that control how a presentation is saved in Swf format. |
-| [SystemColor](../com.aspose.slides/systemcolor) | Represents predefined system colors. |
-| [Tab](../com.aspose.slides/tab) | Represents a tabulation for a text. |
-| [TabAlignment](../com.aspose.slides/tabalignment) | Represents the tab alignment. |
-| [TabCollection](../com.aspose.slides/tabcollection) | Represents a collection of tabs. |
-| [TabFactory](../com.aspose.slides/tabfactory) | Allows to create ITab instances |
-| [Table](../com.aspose.slides/table) | Represents a table on a slide. |
-| [TableFormat](../com.aspose.slides/tableformat) | Represents format of a table. |
-| [TableStylePreset](../com.aspose.slides/tablestylepreset) | Represents builtin table styles. |
-| [TagCollection](../com.aspose.slides/tagcollection) | Represents the collection of tags (user defined pairs of strings) |
-| [TemplateContext<TObject>](../com.aspose.slides/templatecontext) | Represents a model object interface for a template engine. |
-| [TextAlignment](../com.aspose.slides/textalignment) | Represents different text alignment styles. |
-| [TextAnchorType](../com.aspose.slides/textanchortype) | text box alignment within a text area. |
-| [TextAnimation](../com.aspose.slides/textanimation) | Represent text animation. |
-| [TextAnimationCollection](../com.aspose.slides/textanimationcollection) | Represents collection of text animations. |
-| [TextAutofitType](../com.aspose.slides/textautofittype) | Represents text autofit mode. |
-| [TextCapType](../com.aspose.slides/textcaptype) | Represents the type of text capitalisation. |
-| [TextExtractionArrangingMode](../com.aspose.slides/textextractionarrangingmode) | Represents the mode to use during text extraction |
-| [TextFrame](../com.aspose.slides/textframe) | Represents a TextFrame. |
-| [TextFrameFormat](../com.aspose.slides/textframeformat) | Contains the TextFrame's formatTextFrameFormatting properties. |
-| [TextHighlightingOptions](../com.aspose.slides/texthighlightingoptions) | Represents options which can be used to highlight text in text frame. |
-| [TextInheritanceLimit](../com.aspose.slides/textinheritancelimit) | Controls the depth of the text properties inheritance. |
-| [TextSearchOptions](../com.aspose.slides/textsearchoptions) | Represents options that can be used to search for text in a Presentation, Slide or TextFrame. |
-| [TextShapeType](../com.aspose.slides/textshapetype) | Represents text wrapping shape. |
-| [TextStrikethroughType](../com.aspose.slides/textstrikethroughtype) | Represents the type of text strikethrough. |
-| [TextStyle](../com.aspose.slides/textstyle) | This class contains the text style formatting properties. |
-| [TextToHtmlConversionOptions](../com.aspose.slides/texttohtmlconversionoptions) | Options for extracting HTML from the Pptx text. |
-| [TextUnderlineType](../com.aspose.slides/textunderlinetype) | Represents the type of text underline. |
-| [TextVerticalOverflowType](../com.aspose.slides/textverticaloverflowtype) | Represents text vertical overflow type. |
-| [TextVerticalType](../com.aspose.slides/textverticaltype) | Determines vertical writing mode for a text. |
-| [Theme](../com.aspose.slides/theme) | Represents a theme. |
-| [ThreeDFormat](../com.aspose.slides/threedformat) | Represents 3-D properties. |
-| [TickLabelPositionType](../com.aspose.slides/ticklabelpositiontype) | Represents the position type of tick-mark labels on the specified axis. |
-| [TickMarkType](../com.aspose.slides/tickmarktype) | Represents the tick mark type for the specified axis. |
-| [TiffCompressionTypes](../com.aspose.slides/tiffcompressiontypes) | Provides options that control how a presentation is compressed in TIFF format. |
-| [TiffOptions](../com.aspose.slides/tiffoptions) | Provides options that control how a presentation is saved in TIFF format. |
-| [TileFlip](../com.aspose.slides/tileflip) | Defines tile flipping mode. |
-| [TimeUnitType](../com.aspose.slides/timeunittype) | Represents the base unit for the category axis |
-| [Timing](../com.aspose.slides/timing) | Represents animation timing. |
-| [Tint](../com.aspose.slides/tint) | Represents a Tint effect. |
-| [TransitionCornerAndCenterDirectionType](../com.aspose.slides/transitioncornerandcenterdirectiontype) | Specifies a direction restricted to the corners and center. |
-| [TransitionCornerDirectionType](../com.aspose.slides/transitioncornerdirectiontype) | Represent corner direction transition types. |
-| [TransitionEightDirectionType](../com.aspose.slides/transitioneightdirectiontype) | Represent eight direction transition types. |
-| [TransitionInOutDirectionType](../com.aspose.slides/transitioninoutdirectiontype) | Represent in or out direction transition types. |
-| [TransitionLeftRightDirectionType](../com.aspose.slides/transitionleftrightdirectiontype) | Specifies a direction restricted to the values of left and right. |
-| [TransitionMorphType](../com.aspose.slides/transitionmorphtype) | Represent a type of morph transition. |
-| [TransitionPattern](../com.aspose.slides/transitionpattern) | Specifies a geometric pattern that tiles together to fill a larger area. |
-| [TransitionShredPattern](../com.aspose.slides/transitionshredpattern) | Specifies a geometric shape that tiles together to fill a larger area. |
-| [TransitionSideDirectionType](../com.aspose.slides/transitionsidedirectiontype) | Represent side direction transition types. |
-| [TransitionSoundMode](../com.aspose.slides/transitionsoundmode) | Represent sound mode of transition. |
-| [TransitionSpeed](../com.aspose.slides/transitionspeed) | Represent transition speed types. |
-| [TransitionType](../com.aspose.slides/transitiontype) | Represent slide show transition type. |
-| [TransitionValueBase](../com.aspose.slides/transitionvaluebase) | Base class for slide transition effects. |
-| [Trendline](../com.aspose.slides/trendline) | Class represents trend line of chart series |
-| [TrendlineCollection](../com.aspose.slides/trendlinecollection) | Represents a collection of Trendline |
-| [TrendlineType](../com.aspose.slides/trendlinetype) | Represents type of trend line |
-| [UpDownBarsManager](../com.aspose.slides/updownbarsmanager) | Provide access to up/down bars of Line- or Stock-chart. |
-| [VbaModule](../com.aspose.slides/vbamodule) | Represents module that is contained in VBA project. |
-| [VbaModuleCollection](../com.aspose.slides/vbamodulecollection) | Represents a collection of a VBA Project modules. |
-| [VbaProject](../com.aspose.slides/vbaproject) | Represents VBA project with presentation macros. |
-| [VbaProjectFactory](../com.aspose.slides/vbaprojectfactory) | Allows to create VBA project via COM interface |
-| [VbaReferenceCollection](../com.aspose.slides/vbareferencecollection) | Represents a collection of a VBA Project references. |
-| [VbaReferenceFactory](../com.aspose.slides/vbareferencefactory) | Allows to create VBA project references via COM interface |
-| [VbaReferenceOleTypeLib](../com.aspose.slides/vbareferenceoletypelib) | Represents OLE Automation type library reference. |
-| [Video](../com.aspose.slides/video) | Represents an image embedded into a presentation. |
-| [VideoCollection](../com.aspose.slides/videocollection) | Represents a collection of Video objects. |
-| [VideoFrame](../com.aspose.slides/videoframe) | Represents a video clip on a slide. |
-| [VideoPlayModePreset](../com.aspose.slides/videoplaymodepreset) | Constants which define how a video is played. |
-| [VideoPlayerHtmlController](../com.aspose.slides/videoplayerhtmlcontroller) | This class allows export of video and audio files into a HTML |
-| [VideoPlayerHtmlControllerFactory](../com.aspose.slides/videoplayerhtmlcontrollerfactory) | Allows to create VideoPlayerHtmlController. |
-| [ViewProperties](../com.aspose.slides/viewproperties) | Presentation wide view properties. |
-| [ViewType](../com.aspose.slides/viewtype) | Presentation view types |
-| [WarningType](../com.aspose.slides/warningtype) | Represents a type of warning. |
-| [WebDocument](../com.aspose.slides/webdocument) | Represents a transition form of the presentation for saving into a web format. |
-| [WebDocumentOptions](../com.aspose.slides/webdocumentoptions) | Represents an options set for [WebDocument](../com.aspose.slides/webdocument) saving. |
-| [WheelTransition](../com.aspose.slides/wheeltransition) | Wheel slide transition effect. |
-| [WorkbookType](../com.aspose.slides/workbooktype) | Specifies the type of Open XML workbook file. |
-| [XamlOptions](../com.aspose.slides/xamloptions) | Options that control how a XAML document is saved. |
-| [XpsOptions](../com.aspose.slides/xpsoptions) | Provides options that control how a presentation is saved in XPS format. |
-| [Zip64Mode](../com.aspose.slides/zip64mode) | Specifies when to use ZIP64 format extensions for OpenXML file. |
-| [ZoomFrame](../com.aspose.slides/zoomframe) | Represents a Slide Zoom object in a slide. |
-| [ZoomImageType](../com.aspose.slides/zoomimagetype) | Defines whether the Zoom object is using the slide preview or a cover image. |
-| [ZoomLayout](../com.aspose.slides/zoomlayout) | Specifies the summary zoom layout. |
-| [ZoomObject](../com.aspose.slides/zoomobject) | Represents an Zoom object in a slide. |
+| [AdjustValue](../com.aspose.slides/adjustvalue) | เป็นค่าการปรับของรูปทรงเรขาคณิต. |
+| [AdjustValueCollection](../com.aspose.slides/adjustvaluecollection) | เป็นคอลเลกชันของการปรับของรูปทรง. |
+| [AfterAnimationType](../com.aspose.slides/afteranimationtype) | เป็นประเภทการเคลื่อนไหวหลังของเอฟเฟกต์การเคลื่อนไหว. |
+| [AlphaBiLevel](../com.aspose.slides/alphabilevel) | เป็นเอฟเฟกต์ Alpha Bi-Level. |
+| [AlphaCeiling](../com.aspose.slides/alphaceiling) | เป็นเอฟเฟกต์ Alpha Ceiling. |
+| [AlphaFloor](../com.aspose.slides/alphafloor) | เป็นเอฟเฟกต์ Alpha Floor. |
+| [AlphaInverse](../com.aspose.slides/alphainverse) | เป็นเอฟเฟกต์ Alpha Inverse. |
+| [AlphaModulate](../com.aspose.slides/alphamodulate) | เป็นเอฟเฟกต์ Alpha Modulate. |
+| [AlphaModulateFixed](../com.aspose.slides/alphamodulatefixed) | เป็นเอฟเฟกต์ Alpha Modulate Fixed. |
+| [AlphaReplace](../com.aspose.slides/alphareplace) | เป็นเอฟเฟกต์ Alpha Replace. |
+| [AnimateTextType](../com.aspose.slides/animatetexttype) | เป็นประเภทข้อความเคลื่อนไหวของเอฟเฟกต์การเคลื่อนไหว. |
+| [AnimationTimeLine](../com.aspose.slides/animationtimeline) | เป็นไทม์ไลน์ของการเคลื่อนไหว. |
+| [AsposeAIWebClient](../com.aspose.slides/asposeaiwebclient) | การนำไปใช้ [IAIWebClient](../com.aspose.slides/iaiwebclient) ในตัวที่สร้างขึ้นซึ่งเชื่อมต่อกับ LLM ของ Aspose |
+| [AsposeLicenseException](../com.aspose.slides/asposelicenseexception) | ข้อยกเว้นนี้จะถูกโยนเมื่อพบข้อผิดพลาดเกี่ยวกับใบอนุญาตใด ๆ |
+| [Audio](../com.aspose.slides/audio) | เป็นไฟล์เสียงที่ฝังในเอกสาร. |
+| [AudioCollection](../com.aspose.slides/audiocollection) | เป็นคอลเลกชันของไฟล์เสียงที่ฝังในเอกสาร. |
+| [AudioFrame](../com.aspose.slides/audioframe) | เป็นคลิปเสียงบนสไลด์. |
+| [AudioPlayModePreset](../com.aspose.slides/audioplaymodepreset) | ค่าคงที่ที่กำหนดวิธีการเล่นเสียง. |
+| [AudioVolumeMode](../com.aspose.slides/audiovolumemode) | ค่าคงที่ที่กำหนดระดับเสียง. |
+| [AutoShape](../com.aspose.slides/autoshape) | เป็น AutoShape. |
+| [AutoShapeLock](../com.aspose.slides/autoshapelock) | กำหนดว่าการดำเนินการใดจะถูกปิดการใช้งานบน AutoshapeEx พาเรนต์. |
+| [AxesCompositionNotCombinableException](../com.aspose.slides/axescompositionnotcombinableexception) | ข้อยกเว้นที่ถูกโยนเมื่อโครงสร้างแกนของซีรีส์ไม่สามารถรวมเข้ากับโครงสร้างแกนที่มีอยู่ในแผนภูมิ. |
+| [AxesManager](../com.aspose.slides/axesmanager) | ให้การเข้าถึงแกนของแผนภูมิ. |
+| [Axis](../com.aspose.slides/axis) | ห่อหุ้มอ็อบเจ็กต์ที่แสดงแกนของแผนภูมิ. |
+| [AxisAggregationType](../com.aspose.slides/axisaggregationtype) | เป็นประเภทการรวมของแกนประเภท. |
+| [AxisFormat](../com.aspose.slides/axisformat) | เป็นคุณสมบัติรูปแบบของแผนภูมิ. |
+| [AxisPositionType](../com.aspose.slides/axispositiontype) | กำหนดตำแหน่งของแกน. |
+| [Backdrop3DScene](../com.aspose.slides/backdrop3dscene) | กำหนดระนาบที่เอฟเฟกต์เช่นแสงเรืองแสงและเงาถูกนำไปใช้สัมพันธ์กับรูปทรงที่นำไปใช้. |
+| [Background](../com.aspose.slides/background) | เป็นพื้นหลังของสไลด์. |
+| [BackgroundType](../com.aspose.slides/backgroundtype) | กำหนดแหล่งที่มาของการเติมพื้นหลังสไลด์. |
+| [BaseChartValue](../com.aspose.slides/basechartvalue) | เป็นค่าของแผนภูมิ. |
+| [BaseHandoutNotesSlideHeaderFooterManager](../com.aspose.slides/basehandoutnotesslideheaderfootermanager) | เป็นผู้จัดการที่เก็บพฤติกรรมของตัวแทรกรวมถึงตัวแทรกหัวกระดาษสำหรับสไลด์ประเภทต่าง ๆ เช่น handout และ notes. |
+| [BaseHeaderFooterManager](../com.aspose.slides/baseheaderfootermanager) | เป็นผู้จัดการที่เก็บพฤติกรรมของตัวแทรกส่วนท้าย, วันที่-เวลา, ตัวเลขหน้าสำหรับสไลด์ทุกประเภท. |
+| [BaseOverrideThemeManager](../com.aspose.slides/baseoverridethememanager) | คลาสฐานสำหรับคลาสที่ให้การเข้าถึงธีมที่ถูกเขียนทับประเภทต่าง ๆ. |
+| [BasePortionFormat](../com.aspose.slides/baseportionformat) | คุณสมบัติการจัดรูปแบบส่วนข้อความทั่วไป. |
+| [BaseScript](../com.aspose.slides/basescript) | สคริปต์คณิตศาสตร์ |
+| [BaseShapeLock](../com.aspose.slides/baseshapelock) | เป็นคลาสฐานสำหรับล็อค (การดำเนินการที่ปิดการใช้งาน). |
+| [BaseSlide](../com.aspose.slides/baseslide) | เป็นข้อมูลทั่วไปสำหรับสไลด์ทุกประเภท. |
+| [BaseSlideHeaderFooterManager](../com.aspose.slides/baseslideheaderfootermanager) | เป็นผู้จัดการที่เก็บพฤติกรรมของตัวแทรกส่วนท้าย, วันที่-เวลา, ตัวเลขหน้า สำหรับสไลด์ทุกประเภท. |
+| [BaseThemeManager](../com.aspose.slides/basethememanager) | คลาสฐานสำหรับคลาสที่ให้การเข้าถึงธีมประเภทต่าง ๆ. |
+| [Behavior](../com.aspose.slides/behavior) | เป็นพฤติกรรมคลาสฐานของเอฟเฟกต์. |
+| [BehaviorAccumulateType](../com.aspose.slides/behavioraccumulatetype) | เป็นประเภทของการสะสมพฤติกรรมเอฟเฟกต์. |
+| [BehaviorAdditiveType](../com.aspose.slides/behavioradditivetype) | เป็นประเภทแบบบวกสำหรับพฤติกรรมเอฟเฟกต์. |
+| [BehaviorCollection](../com.aspose.slides/behaviorcollection) | เป็นคอลเลกชันของเอฟเฟกต์พฤติกรรม. |
+| [BehaviorFactory](../com.aspose.slides/behaviorfactory) | อนุญาตให้สร้างเอฟเฟกต์การเคลื่อนไหว |
+| [BehaviorProperty](../com.aspose.slides/behaviorproperty) | เป็นประเภทของคุณสมบัติสำหรับพฤติกรรมการเคลื่อนไหว. |
+| [BehaviorPropertyCollection](../com.aspose.slides/behaviorpropertycollection) | เป็นคุณสมบัติการกำหนดเวลาสำหรับพฤติกรรมเอฟเฟกต์. |
+| [BevelPresetType](../com.aspose.slides/bevelpresettype) | ค่าคงที่ที่กำหนดมุมบีเวิล 3 มิติของรูปทรง. |
+| [BiLevel](../com.aspose.slides/bilevel) | เป็นเอฟเฟกต์ Bi-Level (ขาว-ดำ). |
+| [BlackWhiteConversionMode](../com.aspose.slides/blackwhiteconversionmode) | ให้ตัวเลือกที่ควบคุมวิธีการแปลงภาพสไลด์เป็นภาพไบโทนัล. |
+| [BlackWhiteMode](../com.aspose.slides/blackwhitemode) | กำหนดวิธีที่รูปทรงสีจะถูกแปลงเป็นสีขาวและดำ. |
+| [BlobManagementOptions](../com.aspose.slides/blobmanagementoptions) | เป็นตัวเลือกที่สามารถใช้จัดการกฎการจัดการ BLOB และการตั้งค่า BLOB อื่น ๆ. |
+| [Blur](../com.aspose.slides/blur) | เป็นเอฟเฟกต์ Blur ที่ใช้กับรูปทรงทั้งหมดรวมถึงการเติมของมัน. |
+| [BrightnessContrast](../com.aspose.slides/brightnesscontrast) | เป็นเอฟเฟกต์ BrightnessContrast. |
+| [BrowsedAtKiosk](../com.aspose.slides/browsedatkiosk) | ถูกเรียกดูที่คีออส (เต็มหน้าจอ) |
+| [BrowsedByIndividual](../com.aspose.slides/browsedbyindividual) | ถูกเรียกดูโดยผู้ใช้ (หน้าต่าง) |
+| [BubbleSizeRepresentationType](../com.aspose.slides/bubblesizerepresentationtype) | ระบุวิธีที่เป็นไปได้ในการแสดงข้อมูลเป็นขนาดของแผนภูมิบับเบิล. |
+| [BuildType](../com.aspose.slides/buildtype) | กำหนดว่าข้อความจะปรากฏบนรูปทรงอย่างไรระหว่างการเคลื่อนไหว. |
+| [BuildVersionInfo](../com.aspose.slides/buildversioninfo) | บรรจุข้อมูลเกี่ยวกับเวอร์ชันของ Aspose.Slides. |
+| [BulletFormat](../com.aspose.slides/bulletformat) | เป็นคุณสมบัติการจัดรูปแบบหัวข้อย่อหน้าของ bullet. |
+| [BulletType](../com.aspose.slides/bullettype) | เป็นประเภทของ bullet ที่ขยาย. |
+| [Camera](../com.aspose.slides/camera) | เป็น Camera. |
+| [CameraPresetType](../com.aspose.slides/camerapresettype) | ค่าคงที่ที่กำหนดประเภทของกล้องล่วงหน้า. |
+| [CannotCombine2DAnd3DChartsException](../com.aspose.slides/cannotcombine2dand3dchartsexception) | ข้อยกเว้นที่โยนเมื่อพยายามรวมประเภทแผนภูมิ 2D และ 3D. |
+| [Captions](../com.aspose.slides/captions) | เป็นคำอธิบายปิด WebVTT. |
+| [CaptionsCollection](../com.aspose.slides/captionscollection) | เป็นคอลเลกชันของคำอธิบายปิด. |
+| [CategoryAxisType](../com.aspose.slides/categoryaxistype) | เป็นประเภทของแกนประเภท. |
+| [Cell](../com.aspose.slides/cell) | เป็นเซลล์ของตาราง. |
+| [CellCircularReferenceException](../com.aspose.slides/cellcircularreferenceexception) | ข้อยกเว้นที่โยนเมื่อพบการอ้างอิงแบบวงกลมหนึ่งหรือหลายอันที่สูตรอ้างอิงถึงเซลล์ของตนเองโดยตรงหรือโดยอ้อม. |
+| [CellCollection](../com.aspose.slides/cellcollection) | เป็นคอลเลกชันของเซลล์. |
+| [CellFormat](../com.aspose.slides/cellformat) | เป็นรูปแบบของเซลล์ตาราง. |
+| [CellInvalidFormulaException](../com.aspose.slides/cellinvalidformulaexception) | ข้อยกเว้นที่โยนเมื่อสูตรที่คำนวณไม่ถูกต้องหรือไม่สามารถพาร์สได้. |
+| [CellInvalidReferenceException](../com.aspose.slides/cellinvalidreferenceexception) | ข้อยกเว้นที่โยนเมื่อพบการอ้างอิงเซลล์ที่ไม่ถูกต้อง. |
+| [CellUnsupportedDataException](../com.aspose.slides/cellunsupporteddataexception) | ข้อยกเว้นที่โยนเมื่อพบข้อมูลที่ไม่รองรับในเซลล์สเปรดชีต. |
+| [Chart](../com.aspose.slides/chart) | เป็นแผนภูมิกราฟิกบนสไลด์. |
+| [ChartCategory](../com.aspose.slides/chartcategory) | เป็นประเภทของแผนภูมิ. |
+| [ChartCategoryCollection](../com.aspose.slides/chartcategorycollection) | เป็นคอลเลกชันของ [ChartCategory](../com.aspose.slides/chartcategory) |
+| [ChartCategoryLevelsManager](../com.aspose.slides/chartcategorylevelsmanager) | คอนเทนเนอร์ที่จัดการค่าของระดับหมวดหมู่แผนภูมิ. |
+| [ChartCellCollection](../com.aspose.slides/chartcellcollection) | เป็นคอลเลกชันของเซลล์ที่มีข้อมูล. |
+| [ChartData](../com.aspose.slides/chartdata) | เป็นข้อมูลที่ใช้สำหรับการพล็อตแผนภูมิ. |
+| [ChartDataCell](../com.aspose.slides/chartdatacell) | เป็นเซลล์สำหรับข้อมูลแผนภูมิ. |
+| [ChartDataPoint](../com.aspose.slides/chartdatapoint) | เป็นจุดข้อมูลชุด. |
+| [ChartDataPointCollection](../com.aspose.slides/chartdatapointcollection) | เป็นคอลเลกชันของจุดข้อมูลชุด. |
+| [ChartDataPointLevel](../com.aspose.slides/chartdatapointlevel) | เป็นระดับของจุดข้อมูล. |
+| [ChartDataPointLevelsManager](../com.aspose.slides/chartdatapointlevelsmanager) | คอนเทนเนอร์ของระดับจุดข้อมูล. |
+| [ChartDataSourceType](../com.aspose.slides/chartdatasourcetype) | เป็นประเภทของแหล่งข้อมูลของแผนภูมิ |
+| [ChartDataWorkbook](../com.aspose.slides/chartdataworkbook) | ให้การเข้าถึง Excel workbook ที่ฝังอยู่ |
+| [ChartDataWorksheet](../com.aspose.slides/chartdataworksheet) | เป็นแผ่นงานที่เชื่อมโยงกับ [IChartDataCell](../com.aspose.slides/ichartdatacell) |
+| [ChartDataWorksheetCollection](../com.aspose.slides/chartdataworksheetcollection) | เป็นคอลเลกชันของแผ่นงานของ workbook ข้อมูลแผนภูมิ. |
+| [ChartLinesFormat](../com.aspose.slides/chartlinesformat) | เป็นคุณสมบัติการจัดรูปแบบเส้นกริด. |
+| [ChartPlotArea](../com.aspose.slides/chartplotarea) | เป็นสี่เหลี่ยมที่ควรพล็อตแผนภูมิ. |
+| [ChartPortionFormat](../com.aspose.slides/chartportionformat) | คลาสนี้บรรจุคุณสมบัติการจัดรูปแบบส่วนของแผนภูมิที่ใช้ในแผนภูมิ. |
+| [ChartSeries](../com.aspose.slides/chartseries) | เป็นชุดข้อมูลของแผนภูมิ. |
+| [ChartSeriesCollection](../com.aspose.slides/chartseriescollection) | เป็นคอลเลกชันของ [ChartSeries](../com.aspose.slides/chartseries) |
+| [ChartSeriesGroup](../com.aspose.slides/chartseriesgroup) | เป็นกลุ่มของชุดข้อมูล. |
+| [ChartShapeType](../com.aspose.slides/chartshapetype) | เป็นรูปทรงของแผนภูมิ. |
+| [ChartTextFormat](../com.aspose.slides/charttextformat) | ระบุการจัดรูปแบบข้อความเริ่มต้นสำหรับองค์ประกอบข้อความของแผนภูมิ. |
+| [ChartThemeManager](../com.aspose.slides/chartthememanager) | ให้การเข้าถึงธีมแผนภูมิที่ถูกเขียนทับ. |
+| [ChartTitle](../com.aspose.slides/charttitle) | เป็นคุณสมบัติของชื่อแผนภูมิ. |
+| [ChartType](../com.aspose.slides/charttype) | เป็นประเภทของแผนภูมิ. |
+| [ChartTypeCharacterizer](../com.aspose.slides/charttypecharacterizer) | ตัวช่วยในการรับข้อมูลเพิ่มเติมเกี่ยวกับแผนภูมิและชุดข้อมูลตาม ChartType ของมัน. |
+| [ChartWall](../com.aspose.slides/chartwall) | เป็นผนังบนแผนภูมิ 3 มิติ. |
+| [Collect](../com.aspose.slides/collect) | เป็นกลุ่มของเมธอดที่ตั้งใจเก็บอ็อบเจ็กต์โมเดลชนิดต่าง ๆ จาก [Presentation](../com.aspose.slides/presentation). |
+| [ColorChange](../com.aspose.slides/colorchange) | เป็นเอฟเฟกต์ Color Change. |
+| [ColorDirection](../com.aspose.slides/colordirection) | เป็นทิศทางสีสำหรับพฤติกรรมเอฟเฟกต์สี. |
+| [ColorEffect](../com.aspose.slides/coloreffect) | เป็นเอฟเฟกต์สีสำหรับพฤติกรรมการเคลื่อนไหว. |
+| [ColorFormat](../com.aspose.slides/colorformat) | เป็นสีที่ใช้ในงานนำเสนอ. |
+| [ColorOffset](../com.aspose.slides/coloroffset) | เป็นการเลื่อนสี. |
+| [ColorOperation](../com.aspose.slides/coloroperation) | เป็นการดำเนินการสีต่าง ๆ ที่ใช้สำหรับการแปลงสี. |
+| [ColorOperationCollection](../com.aspose.slides/coloroperationcollection) | เป็นคอลเลกชันของการดำเนินการแปลงสี. |
+| [ColorReplace](../com.aspose.slides/colorreplace) | เป็นเอฟเฟกต์ Color Replacement. |
+| [ColorScheme](../com.aspose.slides/colorscheme) | เก็บสีที่กำหนดโดยธีม. |
+| [ColorSchemeIndex](../com.aspose.slides/colorschemeindex) | เป็นดัชนีในชุดสี. |
+| [ColorSpace](../com.aspose.slides/colorspace) | เป็นพื้นที่สีสำหรับพฤติกรรมเอฟเฟกต์สี. |
+| [ColorStringFormat](../com.aspose.slides/colorstringformat) | เป็นประเภทของการกระทำไฮเปอร์ลิงก์. |
+| [ColorTransformOperation](../com.aspose.slides/colortransformoperation) | กำหนดการดำเนินการแปลงสี. |
+| [ColorType](../com.aspose.slides/colortype) | เป็นโหมดสีต่าง ๆ. |
+| [Column](../com.aspose.slides/column) | เป็นคอลัมน์ในตาราง. |
+| [ColumnCollection](../com.aspose.slides/columncollection) | เป็นคอลเลกชันของคอลัมน์ในตาราง. |
+| [ColumnFormat](../com.aspose.slides/columnformat) | เป็นรูปแบบของคอลัมน์ตาราง. |
+| [CombinableSeriesTypesGroup](../com.aspose.slides/combinableseriestypesgroup) | การนับจำนวนของกลุ่มประเภทชุดข้อมูลที่สามารถรวมกันได้. |
+| [CommandEffect](../com.aspose.slides/commandeffect) | เป็นเอฟเฟกต์คำสั่งสำหรับพฤติกรรมการเคลื่อนไหว. |
+| [CommandEffectType](../com.aspose.slides/commandeffecttype) | เป็นประเภทของเอฟเฟกต์คำสั่งสำหรับพฤติกรรมเอฟเฟกต์คำสั่ง. |
+| [Comment](../com.aspose.slides/comment) | เป็นความคิดเห็นบนสไลด์. |
+| [CommentAuthor](../com.aspose.slides/commentauthor) | เป็นผู้เขียนของความคิดเห็น. |
+| [CommentAuthorCollection](../com.aspose.slides/commentauthorcollection) | เป็นคอลเลกชันของผู้เขียนความคิดเห็น. |
+| [CommentCollection](../com.aspose.slides/commentcollection) | เป็นคอลเลกชันของความคิดเห็นของผู้เขียนคนเดียว. |
+| [CommentsPositions](../com.aspose.slides/commentspositions) | เป็นกฎสำหรับการแสดงผลความคิดเห็นในเอกสารที่ส่งออก |
+| [CommonSlideViewProperties](../com.aspose.slides/commonslideviewproperties) | เป็นคุณสมบัติมุมมองสไลด์ทั่วไป. |
+| [Compress](../com.aspose.slides/compress) | เป็นกลุ่มของเมธอดที่ตั้งใจบีบอัด [Presentation](../com.aspose.slides/presentation). |
+| [CompressionLevel](../com.aspose.slides/compressionlevel) | ระบุระดับการบีบอัด ZIP สำหรับไฟล์ OpenXML. |
+| [Conformance](../com.aspose.slides/conformance) | ระบุคลาสการปฏิบัติตามที่เอกสาร PresentationML ปฏิบัติตาม. |
+| [Connector](../com.aspose.slides/connector) | เป็นตัวเชื่อมต่อ. |
+| [ConnectorLock](../com.aspose.slides/connectorlock) | กำหนดว่าการดำเนินการใดจะถูกปิดการใช้งานบน Connector พาเรนต์. |
+| [Control](../com.aspose.slides/control) | เป็นคอนโทรล ActiveX. |
+| [ControlCollection](../com.aspose.slides/controlcollection) | คอลเลกชันของคอนโทรล ActiveX. |
+| [ControlPropertiesCollection](../com.aspose.slides/controlpropertiescollection) | คอลเลกชันของคุณสมบัติ AcitveX. |
+| [ControlType](../com.aspose.slides/controltype) | กำหนดประเภทคอนโทรลที่ควรฝังโดย [IControlCollection.\#addControl(int,float,float,float,float)](../com.aspose.slides/icontrolcollection\#addControl-int-float-float-float-float-). |
+| [Convert](../com.aspose.slides/convert) | เป็นกลุ่มของเมธอดที่ตั้งใจแปลง [Presentation](../com.aspose.slides/presentation). |
+| [CornerDirectionTransition](../com.aspose.slides/cornerdirectiontransition) | เอฟเฟกต์การเปลี่ยนสไลด์ทิศทางมุม. |
+| [CrossesType](../com.aspose.slides/crossestype) | กำหนดจุดตัดของแกน. |
+| [CurrentThreadSettings](../com.aspose.slides/currentthreadsettings) | คลาสช่วยเหลือที่อนุญาตกำหนด Locale เริ่มต้นสำหรับเธรดปัจจุบัน |
+| [CustomData](../com.aspose.slides/customdata) | เป็นคอนเทนเนอร์สำหรับข้อมูลกำหนดเอง. |
+| [CustomXmlPart](../com.aspose.slides/customxmlpart) | เป็นส่วน XML กำหนดเอง. |
+| [CustomXmlPartCollection](../com.aspose.slides/customxmlpartcollection) | เป็นคอลเลกชันของส่วน XML กำหนดเอง. |
+| [DataLabel](../com.aspose.slides/datalabel) | เป็นป้ายกำกับชุดข้อมูล. |
+| [DataLabelCollection](../com.aspose.slides/datalabelcollection) | เป็นป้ายกำกับชุดข้อมูล. |
+| [DataLabelFormat](../com.aspose.slides/datalabelformat) | เป็นตัวเลือกการจัดรูปแบบสำหรับ DataLabel. |
+| [DataSourceType](../com.aspose.slides/datasourcetype) | ประเภทของแหล่งข้อมูล. |
+| [DataSourceTypeForErrorBarsCustomValues](../com.aspose.slides/datasourcetypeforerrorbarscustomvalues) | ระบุประเภทของค่าในรายการคุณสมบัติ ChartDataPoint.ErrorBarsCustomValues. |
+| [DataTable](../com.aspose.slides/datatable) | เป็นคุณสมบัติของตารางข้อมูล. |
+| [DigitalSignature](../com.aspose.slides/digitalsignature) | ลายเซ็นดิจิทัลในไฟล์ที่ลงนาม. |
+| [DigitalSignatureCollection](../com.aspose.slides/digitalsignaturecollection) | เป็นคอลเลกชันของลายเซ็นดิจิทัลที่แนบกับเอกสาร. |
+| [DisplayBlanksAsType](../com.aspose.slides/displayblanksastype) | กำหนดวิธีการแสดงข้อมูลที่ขาดหาย. |
+| [DisplayUnitType](../com.aspose.slides/displayunittype) | กำหนดความซ้ำซ้อนของข้อมูลที่แสดง. |
+| [DocumentProperties](../com.aspose.slides/documentproperties) | เป็นคุณสมบัติของงานนำเสนอ. |
+| [DomObject<TParent>](../com.aspose.slides/domobject) | อ็อบเจ็กต์ DOM ฐาน |
+| [DoubleChartValue](../com.aspose.slides/doublechartvalue) | เป็นค่าชนิด double ที่สามารถจัดเก็บในเอกสารพรีเซนเทชั่น pptx ได้สองวิธี: 1) ในเซลล์ของ workbook ที่เกี่ยวข้องกับแผนภูมิ; 2) เป็นค่าตัวอักษร. |
+| [DrawingGuide](../com.aspose.slides/drawingguide) | เป็นไกด์การวาดที่ปรับได้. |
+| [DrawingGuidesCollection](../com.aspose.slides/drawingguidescollection) | เป็นคอลเลกชันของไกด์การวาดที่ปรับได้. |
+| [Duotone](../com.aspose.slides/duotone) | เป็นเอฟเฟกต์ Duotone. |
+| [Effect](../com.aspose.slides/effect) | เป็นเอฟเฟกต์การเคลื่อนไหว. |
+| [EffectChartMajorGroupingType](../com.aspose.slides/effectchartmajorgroupingtype) | เป็นประเภทของเอฟเฟกต์การเคลื่อนไหวสำหรับองค์ประกอบของแผนภูมิ. |
+| [EffectChartMinorGroupingType](../com.aspose.slides/effectchartminorgroupingtype) | เป็นประเภทของเอฟเฟกต์การเคลื่อนไหวสำหรับองค์ประกอบของแผนภูมิในชุดหรือประเภท. |
+| [EffectFactory](../com.aspose.slides/effectfactory) | อนุญาตให้สร้างเอฟเฟกต์ |
+| [EffectFillType](../com.aspose.slides/effectfilltype) | เป็นประเภทการเติม. |
+| [EffectFormat](../com.aspose.slides/effectformat) | เป็นคุณสมบัติเอฟเฟกต์ของรูปทรง. |
+| [EffectPresetClassType](../com.aspose.slides/effectpresetclasstype) | เป็นประเภทคลาสของเอฟเฟกต์. |
+| [EffectRestartType](../com.aspose.slides/effectrestarttype) | เป็นประเภทการรีสตาร์ทสำหรับการกำหนดเวลา. |
+| [EffectStyle](../com.aspose.slides/effectstyle) | เป็นสไตล์ของเอฟเฟกต์. |
+| [EffectStyleCollection](../com.aspose.slides/effectstylecollection) | เป็นคอลเลกชันของสไตล์เอฟเฟกต์. |
+| [EffectSubtype](../com.aspose.slides/effectsubtype) | เป็นประเภทย่อยของเอฟเฟกต์การเคลื่อนไหว. |
+| [EffectTriggerType](../com.aspose.slides/effecttriggertype) | เป็นประเภททริกเกอร์ของเอฟเฟกต์. |
+| [EffectType](../com.aspose.slides/effecttype) | เป็นประเภทของเอฟเฟกต์การเคลื่อนไหว. |
+| [EightDirectionTransition](../com.aspose.slides/eightdirectiontransition) | เอฟเฟกต์การเปลี่ยนสไลด์แปดทิศทาง. |
+| [EmbedAllFontsHtmlController](../com.aspose.slides/embedallfontshtmlcontroller) | คลาสตัวควบคุมการจัดรูปแบบที่ใช้สำหรับฝังแบบอักษรทั้งหมดของพรีเซนเทชั่นในรูปแบบ WOFF. |
+| [EmbedFontCharacters](../com.aspose.slides/embedfontcharacters) | เป็นกฎที่ใช้สำหรับเพิ่มแบบอักษรฝังใหม่เข้าไปใน [IPresentation](../com.aspose.slides/ipresentation) |
+| [EmbeddedEotFontsHtmlController](../com.aspose.slides/embeddedeotfontshtmlcontroller) | คลาสตัวควบคุมการจัดรูปแบบที่ใช้สำหรับฝังแบบอักษรในรูปแบบ EOT |
+| [EmbeddedWoffFontsHtmlController](../com.aspose.slides/embeddedwofffontshtmlcontroller) | คลาสตัวควบคุมการจัดรูปแบบที่ใช้สำหรับฝังแบบอักษรในรูปแบบ WOFF |
+| [EmbeddingLevel](../com.aspose.slides/embeddinglevel) | เป็นสิทธิ์การใช้ลิขสิทธิ์สำหรับการฝังแบบอักษร. |
+| [EmptyTransition](../com.aspose.slides/emptytransition) | เอฟเฟกต์การเปลี่ยนสไลด์เปล่า. |
+| [ErrorBarType](../com.aspose.slides/errorbartype) | เป็นประเภทของ error bar |
+| [ErrorBarValueType](../com.aspose.slides/errorbarvaluetype) | แสดงประเภทของค่าบาร์ข้อผิดพลาด |
+| [ErrorBarsCustomValues](../com.aspose.slides/errorbarscustomvalues) | กำหนดค่าบาร์ข้อผิดพลาด |
+| [ErrorBarsFormat](../com.aspose.slides/errorbarsformat) | แสดงบาร์ข้อผิดพลาดของชุดข้อมูลแผนภูมิ |
+| [ExcelDataCell](../com.aspose.slides/exceldatacell) | แสดงเซลล์เดียวในเวิร์กบุ๊ก Excel |
+| [ExcelDataWorkbook](../com.aspose.slides/exceldataworkbook) | แสดงเวิร์กบุ๊กที่ให้การเข้าถึงข้อมูล Excel สำหรับการใช้ทั่วไป |
+| [ExcelWorkbookImporter](../com.aspose.slides/excelworkbookimporter) | ให้ฟังก์ชันการนำเข้าข้อมูลจากเวิร์กบุ๊ก Excel ไปยังพรีเซนเทชัน |
+| [ExternalResourceResolver](../com.aspose.slides/externalresourceresolver) | คลาส Callback ที่ใช้ในการแก้ไขทรัพยากรภายนอกระหว่างการนำเข้าเอกสาร Html, Svg |
+| [ExtraColorScheme](../com.aspose.slides/extracolorscheme) | แสดงชุดสีเพิ่มเติมที่สามารถกำหนดให้สไลด์ |
+| [ExtraColorSchemeCollection](../com.aspose.slides/extracolorschemecollection) | แสดงคอลเลกชันของชุดสีเพิ่มเติม |
+| [Field](../com.aspose.slides/field) | แสดงฟิลด์ |
+| [FieldType](../com.aspose.slides/fieldtype) | แสดงประเภทของฟิลด์ |
+| [FillBlendMode](../com.aspose.slides/fillblendmode) | กำหนดโหมดการผสม |
+| [FillFormat](../com.aspose.slides/fillformat) | แสดงตัวเลือกการจัดรูปแบบการเติม |
+| [FillFormatCollection](../com.aspose.slides/fillformatcollection) | แสดงคอลเลกชันของสไตล์การเติม |
+| [FillOverlay](../com.aspose.slides/filloverlay) | แสดงเอฟเฟ็กต์ Fill Overlay |
+| [FillType](../com.aspose.slides/filltype) | ระบุประเภทการเติมภายในของวัตถุภาพต่างๆ |
+| [FilterEffect](../com.aspose.slides/filtereffect) | แสดงเอฟเฟ็กต์ฟิลเตอร์ของพฤติกรรม |
+| [FilterEffectRevealType](../com.aspose.slides/filtereffectrevealtype) | แสดงประเภทการเปิดเผยฟิลเตอร์ |
+| [FilterEffectSubtype](../com.aspose.slides/filtereffectsubtype) | แสดงประเภทย่อยของเอฟเฟ็กต์ฟิลเตอร์ |
+| [FilterEffectType](../com.aspose.slides/filtereffecttype) | แสดงประเภทของเอฟเฟ็กต์ฟิลเตอร์ |
+| [Flavor](../com.aspose.slides/flavor) | สเปค markdown ทั้งหมดที่ใช้ในโปรแกรม |
+| [FlyThroughTransition](../com.aspose.slides/flythroughtransition) | เอฟเฟ็กต์การเปลี่ยนสไลด์แบบ Fly-through |
+| [FontAlignment](../com.aspose.slides/fontalignment) | แสดงการจัดแนวฟอนต์แนวตั้ง |
+| [FontCollectionIndex](../com.aspose.slides/fontcollectionindex) | แสดงดัชนีของฟอนต์ในคอลเลกชัน |
+| [FontData](../com.aspose.slides/fontdata) | แสดงการกำหนดฟอนต์ |
+| [FontDataFactory](../com.aspose.slides/fontdatafactory) | ฟังก์ชันสร้าง FontData |
+| [FontFallBackRule](../com.aspose.slides/fontfallbackrule) | แสดงกฎการสำรองฟอนต์ |
+| [FontFallBackRulesCollection](../com.aspose.slides/fontfallbackrulescollection) | แสดงคอลเลกชันของกฎ FontFallBack ที่ผู้ใช้กำหนด |
+| [FontScheme](../com.aspose.slides/fontscheme) | เก็บฟอนต์ที่กำหนดโดยธีม |
+| [FontSources](../com.aspose.slides/fontsources) | ให้แหล่งไฟล์และหน่วยความจำสำหรับฟอนต์ภายนอก |
+| [FontStyleType](../com.aspose.slides/fontstyletype) | กำหนดสไตล์การจัดรูปแบบที่สามารถใช้กับข้อความได้ |
+| [FontSubstCondition](../com.aspose.slides/fontsubstcondition) | แสดงกฎสำหรับการแทนที่ฟอนต์ |
+| [FontSubstRule](../com.aspose.slides/fontsubstrule) | แสดงข้อมูลการแทนที่ฟอนต์ |
+| [FontSubstRuleCollection](../com.aspose.slides/fontsubstrulecollection) | แสดงคอลเลกชันของการแทนที่ฟอนต์ |
+| [FontSubstitutionInfo](../com.aspose.slides/fontsubstitutioninfo) | โครงสร้างนี้แสดงข้อมูลเกี่ยวกับการเปลี่ยนฟอนต์เมื่อทำการเรนเดอร์ |
+| [Fonts](../com.aspose.slides/fonts) | คอลเลกชันฟอนต์ |
+| [FontsLoader](../com.aspose.slides/fontsloader) | คลาสสำหรับโหลดฟอนต์ที่กำหนดโดยผู้ใช้ |
+| [FontsManager](../com.aspose.slides/fontsmanager) | จัดการฟอนต์ทั่วพรีเซนเทชัน |
+| [ForEach](../com.aspose.slides/foreach) | แสดงกลุ่มเมธอดที่ตั้งใจให้วนซ้ำวัตถุโมเดล [Presentation](../com.aspose.slides/presentation) ต่างๆ |
+| [Format](../com.aspose.slides/format) | แสดงคุณสมบัติการจัดรูปแบบแผนภูมิ |
+| [FormatFactory](../com.aspose.slides/formatfactory) | อนุญาตให้สร้างฟอร์แมตผ่านอินเทอร์เฟซ COM |
+| [FormatScheme](../com.aspose.slides/formatscheme) | เก็บฟอร์แมตที่กำหนดโดยธีมสำหรับรูปร่าง |
+| [FrameTickEventArgs](../com.aspose.slides/frametickeventargs) | แสดงอาร์กิวเมนต์ของเหตุการณ์ PresentationPlayer.FrameTick |
+| [GeometryPath](../com.aspose.slides/geometrypath) | แสดงเส้นทางเรขาคณิตของ GeometryShape |
+| [GeometryShape](../com.aspose.slides/geometryshape) | แสดงคลาสพาเรนต์สำหรับรูปร่างเรขาคณิตทั้งหมด |
+| [GifOptions](../com.aspose.slides/gifoptions) | แสดงตัวเลือกการส่งออก GIF |
+| [GlitterTransition](../com.aspose.slides/glittertransition) | เอฟเฟ็กต์การเปลี่ยนสไลด์แบบ Glitter |
+| [GlobalLayoutSlideCollection](../com.aspose.slides/globallayoutslidecollection) | แสดงคอลเลกชันของสไลด์เลย์เอาต์ทั้งหมดในพรีเซนเทชัน |
+| [Glow](../com.aspose.slides/glow) | แสดงเอฟเฟ็กต์ Glow โดยเพิ่มขอบสีเบลอรอบนอกวัตถุ |
+| [GradientDirection](../com.aspose.slides/gradientdirection) | แสดงสไตล์ไล่สี |
+| [GradientFormat](../com.aspose.slides/gradientformat) | แสดงฟอร์แมตไล่สี |
+| [GradientShape](../com.aspose.slides/gradientshape) | แสดงรูปร่างของการเติมไล่สี |
+| [GradientStop](../com.aspose.slides/gradientstop) | แสดงฟอร์แมตไล่สี |
+| [GradientStopCollection](../com.aspose.slides/gradientstopcollection) | แสดงคอลเลกชันของจุดหยุดไล่สี |
+| [GradientStopCollectionEffectiveData](../com.aspose.slides/gradientstopcollectioneffectivedata) | แสดงคอลเลกชันของอ็อบเจกต์ GradientStopData |
+| [GradientStopEffectiveData](../com.aspose.slides/gradientstopeffectivedata) | อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งแสดงจุดหยุดไล่สี |
+| [GradientStyle](../com.aspose.slides/gradientstyle) | แสดงสไตล์ไล่สีที่มีอยู่ |
+| [GraphicalObject](../com.aspose.slides/graphicalobject) | แสดงวัตถุกราฟิกเชิงนามธรรม |
+| [GraphicalObjectLock](../com.aspose.slides/graphicalobjectlock) | กำหนดว่าการดำเนินการใดถูกปิดใช้งานบน GraphicalObject พาเรนต์ |
+| [GrayScale](../com.aspose.slides/grayscale) | แสดงเอฟเฟ็กต์ Gray Scale |
+| [GroupShape](../com.aspose.slides/groupshape) | แสดงกลุ่มรูปร่างบนสไลด์ |
+| [GroupShapeLock](../com.aspose.slides/groupshapelock) | กำหนดว่าการดำเนินการใดถูกปิดใช้งานบน GroupShape พาเรนต์ |
+| [HSL](../com.aspose.slides/hsl) | แสดงเอฟเฟ็กต์ Hue/Saturation/Luminance |
+| [HandleRepeatedSpaces](../com.aspose.slides/handlerepeatedspaces) | ระบุวิธีการจัดการอักขระช่องว่างปกติที่ซ้ำกันระหว่างการส่งออก Markdown |
+| [HandoutLayoutingOptions](../com.aspose.slides/handoutlayoutingoptions) | แสดงโหมดการจัดวางการพิมพ์ออกของพรีเซนเทชันสำหรับการส่งออก |
+| [HandoutType](../com.aspose.slides/handouttype) | ระบุจำนวนสไลด์และลำดับที่วางบนหน้า |
+| [HeadingPair](../com.aspose.slides/headingpair) | แสดงคุณสมบัติ 'Heading pair' ของเอกสาร |
+| [Html5Options](../com.aspose.slides/html5options) | แสดงตัวเลือกการส่งออก HTML5 |
+| [HtmlExternalResolver](../com.aspose.slides/htmlexternalresolver) | อ็อบเจกต์ Callback ที่ใช้โดยกระบวนการนำเข้า HTML เพื่อรับวัตถุอ้างอิงเช่นรูปภาพ |
+| [HtmlFormatter](../com.aspose.slides/htmlformatter) | แสดงเทมเพลตไฟล์ HTML |
+| [HtmlGenerator](../com.aspose.slides/htmlgenerator) | ตัวสร้าง Html |
+| [HtmlOptions](../com.aspose.slides/htmloptions) | แสดงตัวเลือกการส่งออก HTML |
+| [Hyperlink](../com.aspose.slides/hyperlink) | แสดงไฮเปอร์ลิงก์ |
+| [HyperlinkActionType](../com.aspose.slides/hyperlinkactiontype) | แสดงประเภทของการทำงานไฮเปอร์ลิงก์ |
+| [HyperlinkColorSource](../com.aspose.slides/hyperlinkcolorsource) | แสดงแหล่งสีของไฮเปอร์ลิงก์ |
+| [HyperlinkManager](../com.aspose.slides/hyperlinkmanager) | ให้การจัดการไฮเปอร์ลิงก์ (เพิ่ม, ลบ) |
+| [HyperlinkQueries](../com.aspose.slides/hyperlinkqueries) | ให้การเข้าถึงไฮเปอร์ลิงก์ที่บรรจุอยู่ได้ง่าย |
+| [ImageCollection](../com.aspose.slides/imagecollection) | แสดงคอลเลกชันของ PPImage |
+| [ImageFormat](../com.aspose.slides/imageformat) | แสดงรูปแบบไฟล์ของภาพ |
+| [ImagePixelFormat](../com.aspose.slides/imagepixelformat) | ระบุรูปแบบพิกเซลสำหรับภาพที่สร้างขึ้น |
+| [ImageTransformOCollectionEffectiveData](../com.aspose.slides/imagetransformocollectioneffectivedata) | อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งแสดงคอลเลกชันแบบอ่านอย่างเดียวของเอฟเฟ็กต์การแปลงภาพที่มีผล |
+| [ImageTransformOperation](../com.aspose.slides/imagetransformoperation) | แสดงเอฟเฟ็กต์การแปลงภาพเชิงนามธรรม |
+| [ImageTransformOperationCollection](../com.aspose.slides/imagetransformoperationcollection) | แสดงคอลเลกชันของเอฟเฟ็กต์ที่ใช้กับภาพ |
+| [ImageTransformOperationFactory](../com.aspose.slides/imagetransformoperationfactory) | อนุญาตให้สร้างการดำเนินการแปลงภาพ |
+| [Images](../com.aspose.slides/images) | เมธอดสำหรับสร้างอินสแตนซ์และทำงานกับ [IImage](../com.aspose.slides/iimage) |
+| [InOutTransition](../com.aspose.slides/inouttransition) | เอฟเฟ็กต์การเปลี่ยนสไลด์ In-Out |
+| [Ink](../com.aspose.slides/ink) | แสดงอ็อบเจกต์หมึกบนสไลด์ |
+| [InkActions](../com.aspose.slides/inkactions) | แสดงรากของการกระทำหมึก |
+| [InkBrush](../com.aspose.slides/inkbrush) | แสดงอ็อบเจกต์ inkBrush |
+| [InkEffectType](../com.aspose.slides/inkeffecttype) | ระบุชุดของเอฟเฟ็กต์ภาพที่กำหนดล่วงหน้าสำหรับการแสดงผลหมึก |
+| [InkOptions](../com.aspose.slides/inkoptions) | ให้ตัวเลือกที่ควบคุมลักษณะของอ็อบเจกต์ Ink ในเอกสารที่ส่งออก |
+| [InkTrace](../com.aspose.slides/inktrace) | แสดงอ็อบเจกต์ Trace |
+| [InnerShadow](../com.aspose.slides/innershadow) | แสดงเอฟเฟ็กต์ Inner Shadow |
+| [Input](../com.aspose.slides/input) | แสดงคอลเลกชันขององค์ประกอบอินพุต (เทมเพลต) |
+| [InterruptionToken](../com.aspose.slides/interruptiontoken) | คลาสนี้แสดงโทเค็นที่ใช้สำหรับบ่งชี้งานที่ทำงานนานว่ามีการขัดจังหวะหรือไม่ |
+| [InterruptionTokenSource](../com.aspose.slides/interruptiontokensource) | แสดงแหล่งของ [InterruptionToken](../com.aspose.slides/interruptiontoken) |
+| [InvalidPasswordException](../com.aspose.slides/invalidpasswordexception) | ข้อยกเว้นที่ถูกโยนเมื่อรูปแบบไฟล์พรีเซนเทชันไม่รองรับ |
+| [LayoutPlaceholderManager](../com.aspose.slides/layoutplaceholdermanager) | แสดงผู้จัดการที่อนุญาตให้คุณเพิ่มตัวเก็บตำแหน่งในสไลด์เลย์เอาต์ |
+| [LayoutSlide](../com.aspose.slides/layoutslide) | แสดงสไลด์เลย์เอาต์ |
+| [LayoutSlideCollection](../com.aspose.slides/layoutslidecollection) | แสดงคลาสฐานสำหรับคอลเลกชันของสไลด์เลย์เอาต์ |
+| [LayoutSlideHeaderFooterManager](../com.aspose.slides/layoutslideheaderfootermanager) | แสดงผู้จัดการที่ควบคุมพฤติกรรมของส่วนท้ายสไลด์เลย์เอาต์, วันที่-เวลา, ตัวเลขหน้าและตัวเก็บตำแหน่งย่อยทั้งหมด |
+| [LayoutSlideThemeManager](../com.aspose.slides/layoutslidethememanager) | ให้การเข้าถึงธีมสไลด์เลย์เอาต์ที่ถูกแทนที่ |
+| [LayoutTargetType](../com.aspose.slides/layouttargettype) | หากการจัดวางพื้นที่พล็อตกำหนดด้วยตนเองคุณสมบัตินี้ระบุว่าจะจัดวางพื้นที่พล็อตโดยด้านใน (ไม่รวมแกนและป้ายแกน) หรือด้านนอก (รวมแกนและป้ายแกน) |
+| [LeftRightDirectionTransition](../com.aspose.slides/leftrightdirectiontransition) | เอฟเฟ็กต์การเปลี่ยนสไลด์แนวซ้าย-ขวา |
+| [LegacyDiagram](../com.aspose.slides/legacydiagram) | แสดงอ็อบเจกต์แผนภาพเก่า |
+| [Legend](../com.aspose.slides/legend) | แสดงคุณสมบัติของคำอธิบายแผนภูมิ |
+| [LegendDataLabelPosition](../com.aspose.slides/legenddatalabelposition) | กำหนดตำแหน่งของป้ายข้อมูล |
+| [LegendEntryCollection](../com.aspose.slides/legendentrycollection) | แสดงคอลเลกชันของคำอธิบาย |
+| [LegendEntryProperties](../com.aspose.slides/legendentryproperties) | แสดงคุณสมบัติของคำอธิบายในแผนภูมิ |
+| [LegendPositionType](../com.aspose.slides/legendpositiontype) | กำหนดตำแหน่งของคำอธิบายในแผนภูมิ |
+| [License](../com.aspose.slides/license) | ให้เมธอดสำหรับลงลิขสิทธิ์คอมโพเนนต์ |
+| [LightRig](../com.aspose.slides/lightrig) | แสดง LightRig |
+| [LightRigPresetType](../com.aspose.slides/lightrigpresettype) | ค่าคงที่ที่กำหนดประเภทของแสงแบบพรีเซ็ต |
+| [LightingDirection](../com.aspose.slides/lightingdirection) | ค่าคงที่ที่กำหนดทิศทางของแสง |
+| [LineAlignment](../com.aspose.slides/linealignment) | แสดงประเภทการจัดแนวของเส้น |
+| [LineArrowheadLength](../com.aspose.slides/linearrowheadlength) | แสดงความยาวของหัวลูกศร |
+| [LineArrowheadStyle](../com.aspose.slides/linearrowheadstyle) | แสดงสไตล์ของหัวลูกศร |
+| [LineArrowheadWidth](../com.aspose.slides/linearrowheadwidth) | แสดงความกว้างของหัวลูกศร |
+| [LineCapStyle](../com.aspose.slides/linecapstyle) | แสดงสไตล์ของ line cap |
+| [LineDashStyle](../com.aspose.slides/linedashstyle) | แสดงสไตล์ของ line dash |
+| [LineFillFormat](../com.aspose.slides/linefillformat) | แสดงคุณสมบัติสำหรับการเติมเส้น |
+| [LineFormat](../com.aspose.slides/lineformat) | แสดงรูปแบบของเส้น |
+| [LineFormatCollection](../com.aspose.slides/lineformatcollection) | แสดงคอลเลกชันของสไตล์เส้น |
+| [LineJoinStyle](../com.aspose.slides/linejoinstyle) | แสดงสไตล์ของการเชื่อมต่อเส้น |
+| [LineSketchType](../com.aspose.slides/linesketchtype) | แสดงประเภทสเก็ตช์หรือเอฟเฟ็กต์ที่กำหนดให้กับรูปร่าง |
+| [LineStyle](../com.aspose.slides/linestyle) | แสดงสไตล์ของเส้น |
+| [LinkEmbedDecision](../com.aspose.slides/linkembeddecision) | กำหนดวิธีการประมวลผลวัตถุระหว่างการบันทึก |
+| [LoadFormat](../com.aspose.slides/loadformat) | ระบุรูปแบบของเอกสารที่ต้องการโหลด |
+| [LoadOptions](../com.aspose.slides/loadoptions) | อนุญาตระบุตัวเลือกเพิ่มเติม (เช่นรูปแบบหรือฟอนต์เริ่มต้น) เมื่อโหลดพรีเซนเทชัน |
+| [LoadingStreamBehavior](../com.aspose.slides/loadingstreambehavior) | java.io.InputStream ที่ส่งให้เมธอดจะถือว่าเป็น Binary Large Object (BLOB) (ดูคำอธิบายของ [IBlobManagementOptions](../com.aspose.slides/iblobmanagementoptions)) |
+| [Luminance](../com.aspose.slides/luminance) | แสดงเอฟเฟ็กต์ Luminance |
+| [MarkdownExportType](../com.aspose.slides/markdownexporttype) | ประเภทของเอกสารการเรนเดอร์ |
+| [MarkdownSaveOptions](../com.aspose.slides/markdownsaveoptions) | แสดงตัวเลือกที่ควบคุมวิธีการบันทึกพรีเซนเทชันเป็น markdown |
+| [Marker](../com.aspose.slides/marker) | แสดงตัวทำเครื่องหมายของชาร์ต |
+| [MarkerStyleType](../com.aspose.slides/markerstyletype) | กำหนดรูปแบบของตัวทำเครื่องหมายบนจุดข้อมูลของแผนภูมิ |
+| [MasterHandoutSlide](../com.aspose.slides/masterhandoutslide) | แสดงสไลด์มาสเตอร์สำหรับ handouts |
+| [MasterHandoutSlideHeaderFooterManager](../com.aspose.slides/masterhandoutslideheaderfootermanager) | แสดงผู้จัดการที่ควบคุมพฤติกรรมของตัวเก็บตำแหน่งสไลด์มาสเตอร์ handout รวมถึงตัวเก็บตำแหน่งส่วนหัว |
+| [MasterLayoutSlideCollection](../com.aspose.slides/masterlayoutslidecollection) | แสดงคอลเลกชันของสไลด์เลย์เอาต์ทั้งหมดของสไลด์มาสเตอร์ที่กำหนด |
+| [MasterNotesSlide](../com.aspose.slides/masternotesslide) | แสดงสไลด์มาสเตอร์สำหรับโน๊ต |
+| [MasterNotesSlideHeaderFooterManager](../com.aspose.slides/masternotesslideheaderfootermanager) | แสดงผู้จัดการที่ควบคุมพฤติกรรมของส่วนท้ายสไลด์มาสเตอร์โน๊ต, วันที่-เวลา, ตัวเลขหน้าและตัวเก็บตำแหน่งย่อยทั้งหมด |
+| [MasterSlide](../com.aspose.slides/masterslide) | แสดงสไลด์มาสเตอร์ในพรีเซนเทชัน |
+| [MasterSlideCollection](../com.aspose.slides/masterslidecollection) | แสดงคอลเลกชันของสไลด์มาสเตอร์ |
+| [MasterSlideHeaderFooterManager](../com.aspose.slides/masterslideheaderfootermanager) | แสดงผู้จัดการที่ควบคุมพฤติกรรมของส่วนท้ายสไลด์มาสเตอร์, วันที่-เวลา, ตัวเลขหน้าและตัวเก็บตำแหน่งย่อยทั้งหมด |
+| [MasterTheme](../com.aspose.slides/mastertheme) | แสดงธีมมาสเตอร์ |
+| [MasterThemeManager](../com.aspose.slides/masterthememanager) | ให้การเข้าถึงธีมมาสเตอร์ของพรีเซนเทชัน |
+| [MaterialPresetType](../com.aspose.slides/materialpresettype) | ค่าคงที่ที่กำหนดวัสดุของรูปร่าง |
+| [MathAccent](../com.aspose.slides/mathaccent) | ระบุฟังก์ชัน accent ที่ประกอบด้วยฐานและเครื่องหมายไดอะคริติกผสม เช่น \\ud835\\udc4e\\u0301 |
+| [MathAccentFactory](../com.aspose.slides/mathaccentfactory) | อนุญาตให้สร้าง accent ของคณิตศาสตร์ |
+| [MathArray](../com.aspose.slides/matharray) | ระบุอาเรย์แนวตั้งของสมการหรือวัตถุคณิตศาสตร์ใด ๆ |
+| [MathArrayFactory](../com.aspose.slides/matharrayfactory) | อนุญาตให้สร้างอาเรย์คณิตศาสตร์ |
+| [MathBar](../com.aspose.slides/mathbar) | ระบุฟังก์ชัน bar ที่ประกอบด้วยอาร์กิวเมนต์ฐานและ overbar หรือ underbar |
+| [MathBarFactory](../com.aspose.slides/mathbarfactory) | อนุญาตให้สร้าง bar ของคณิตศาสตร์ |
+| [MathBlock](../com.aspose.slides/mathblock) | ระบุอินสแตนซ์ของข้อความคณิตศาสตร์ที่อยู่ใน MathParagraph และเริ่มบนบรรทัดใหม่ |
+| [MathBlockFactory](../com.aspose.slides/mathblockfactory) | อนุญาตให้สร้างบล็อกคณิตศาสตร์ |
+| [MathBorderBox](../com.aspose.slides/mathborderbox) | วาดสี่เหลี่ยมหรือกรอบอื่น ๆ รอบ IMathElement |
+| [MathBorderBoxFactory](../com.aspose.slides/mathborderboxfactory) | อนุญาตให้สร้าง box ขอบของคณิตศาสตร์ |
+| [MathBox](../com.aspose.slides/mathbox) | ระบุการบรรจุ (boxing) เชิงตรรกะขององค์ประกอบคณิตศาสตร์ |
+| [MathBoxFactory](../com.aspose.slides/mathboxfactory) | อนุญาตให้สร้างกล่องคณิตศาสตร์ |
+| [MathDelimiter](../com.aspose.slides/mathdelimiter) | ระบุอ็อบเจกต์ delimiter ที่ประกอบด้วยอักขระเปิดและปิด (เช่น วงเล็บ, ปีกกา, เครื่องหมายวงกต, และแท่งตั้ง) และหนึ่งหรือหลายองค์ประกอบคณิตศาสตร์ภายใน โดยคั่นด้วยอักขระที่ระบุ |
+| [MathDelimiterFactory](../com.aspose.slides/mathdelimiterfactory) | อนุญาตให้สร้าง delimiter ของคณิตศาสตร์ |
+| [MathDelimiterShape](../com.aspose.slides/mathdelimitershape) | ตำแหน่งและขนาดของ delimiter ที่สัมพันธ์กับเนื้อหาของตัวดำเนินการ |
+| [MathElementBase](../com.aspose.slides/mathelementbase) | คลาสพื้นฐานสำหรับ IMathElement พร้อมการทำงานของเมธอดบางส่วนที่เป็นส่วนร่วมของคลาสที่สืบทอดทั้งหมด ใช้ภายในเท่านั้น |
+| [MathFraction](../com.aspose.slides/mathfraction) | ระบุอ็อบเจกต์ fraction ที่ประกอบด้วยตัวเศษและตัวส่วนที่คั่นด้วยเส้นแบ่งส่วน |
+| [MathFractionFactory](../com.aspose.slides/mathfractionfactory) | อนุญาตให้สร้าง fraction ของคณิตศาสตร์ |
+| [MathFractionTypes](../com.aspose.slides/mathfractiontypes) | ประเภทของ Fraction |
+| [MathFunction](../com.aspose.slides/mathfunction) | ระบุฟังก์ชันของอาร์กิวเมนต์ |
+| [MathFunctionFactory](../com.aspose.slides/mathfunctionfactory) | ออนุญาตให้สร้างฟังก์ชันคณิตศาสตร์ |
+| [MathFunctionsOfOneArgument](../com.aspose.slides/mathfunctionsofoneargument) | ฟังก์ชันคณิตศาสตร์ทั่วไปที่รับอาร์กิวเมนต์เดียว |
+| [MathFunctionsOfTwoArguments](../com.aspose.slides/mathfunctionsoftwoarguments) | ฟังก์ชันคณิตศาสตร์ทั่วไปที่รับสองอาร์กิวเมนต์ |
+| [MathGroupingCharacter](../com.aspose.slides/mathgroupingcharacter) | ระบุสัญลักษณ์การจัดกลุ่มเหนือหรือล่างนิพจน์ เพื่อเน้นความสัมพันธ์ระหว่างองค์ประกอบ |
+| [MathGroupingCharacterFactory](../com.aspose.slides/mathgroupingcharacterfactory) | ออนุญาตให้สร้างอักขระการจัดกลุ่มคณิตศาสตร์ |
+| [MathHorizontalAlignment](../com.aspose.slides/mathhorizontalalignment) | การจัดแนวนอน |
+| [MathIntegralTypes](../com.aspose.slides/mathintegraltypes) | ประเภทของอินทีเกรัลคณิตศาสตร์ |
+| [MathJustification](../com.aspose.slides/mathjustification) | ระบุการจัดแนวของย่อหน้าคณิตศาสตร์ (ชุดของอินสแตนซ์ข้อความคณิตศาสตร์ที่ต่อเนื่องภายในย่อหน้าเดียวกัน) |
+| [MathLeftSubSuperscriptElement](../com.aspose.slides/mathleftsubsuperscriptelement) | ระบุวัตถุ Sub-Superscript ซึ่งประกอบด้วยฐานและตัวห้อยและตัวหัวที่วางทางซ้ายของฐาน |
+| [MathLimit](../com.aspose.slides/mathlimit) | ระบุวัตถุ Limit ซึ่งประกอบด้วยข้อความบนเส้นฐานและข้อความขนาดลดลงที่อยู่เหนือหรือใต้ทันที |
+| [MathLimitFactory](../com.aspose.slides/mathlimitfactory) | อนุญาตให้สร้าง IMathLimit |
+| [MathLimitLocations](../com.aspose.slides/mathlimitlocations) | ตำแหน่งของ limit (ตัวห้อย/ตัวหัว) ในตัวดำเนินการ n-ary |
+| [MathMatrix](../com.aspose.slides/mathmatrix) | ระบุวัตถุ Matrix ซึ่งประกอบด้วยองค์ประกอบลูกที่จัดเรียงในหนึ่งหรือหลายแถวและคอลัมน์ |
+| [MathMatrixFactory](../com.aspose.slides/mathmatrixfactory) | อนุญาตให้สร้างเมทริกซ์คณิตศาสตร์ |
+| [MathNaryOperator](../com.aspose.slides/mathnaryoperator) | ระบุวัตถุคณิตศาสตร์ N-ary เช่น Summation และ Integral |
+| [MathNaryOperatorFactory](../com.aspose.slides/mathnaryoperatorfactory) | อนุญาตให้สร้าง IMathNaryOperator |
+| [MathNaryOperatorTypes](../com.aspose.slides/mathnaryoperatortypes) | ชนิดของ Nary operator IMathNaryOperator (ยกเว้น integral) สำหรับ integral [MathIntegralTypes](../com.aspose.slides/mathintegraltypes) |
+| [MathParagraph](../com.aspose.slides/mathparagraph) | ย่อหน้าคณิตศาสตร์ที่เป็นคอนเทนเนอร์สำหรับบล็อกคณิตศาสตร์ (IMathBlock) |
+| [MathParagraphFactory](../com.aspose.slides/mathparagraphfactory) | อนุญาตให้สร้างย่อหน้าคณิตศาสตร์ |
+| [MathPhantom](../com.aspose.slides/mathphantom) | แสดงวัตถุคณิตศาสตร์ phantom (<m:phant>) ที่มีผลต่อการจัดรูปแบบขององค์ประกอบลูกโดยไม่จำเป็นต้องแสดงออกมา |
+| [MathPortion](../com.aspose.slides/mathportion) | แสดงส่วนที่มีบริบทคณิตศาสตร์ภายใน |
+| [MathRadical](../com.aspose.slides/mathradical) | ระบุฟังก์ชันรูท ซึ่งประกอบด้วยฐานและระดับ (degree) ที่ไม่บังคับ |
+| [MathRadicalFactory](../com.aspose.slides/mathradicalfactory) | อนุญาตให้สร้างรูทคณิตศาสตร์ |
+| [MathRightSubSuperscriptElement](../com.aspose.slides/mathrightsubsuperscriptelement) | ระบุวัตถุ Sub-Superscript ซึ่งประกอบด้วยฐานและตัวห้อยและตัวหัวที่วางทางขวาของฐาน |
+| [MathRightSubSuperscriptElementFactory](../com.aspose.slides/mathrightsubsuperscriptelementfactory) | อนุญาตให้สร้าง IMathRightSubSuperscriptElementFactory |
+| [MathRowSpacingRule](../com.aspose.slides/mathrowspacingrule) | ประเภทของช่องว่างแนวตั้งระหว่างคอลัมน์ในเมทริกซ์หรืออาเรย์ |
+| [MathSpacingRules](../com.aspose.slides/mathspacingrules) | ชนิดของช่องว่าง (ช่องว่างแนวนอน) ระหว่างคอลัมน์ของเมทริกซ์ |
+| [MathSubscriptElement](../com.aspose.slides/mathsubscriptelement) | ระบุวัตถุ subscript ซึ่งประกอบด้วยฐานและตัวห้อยขนาดลดลงที่วางด้านล่างและทางขวา |
+| [MathSubscriptElementFactory](../com.aspose.slides/mathsubscriptelementfactory) | อนุญาตให้สร้าง IMathSubscriptElement |
+| [MathSuperscriptElement](../com.aspose.slides/mathsuperscriptelement) | ระบุวัตถุ superscript ซึ่งประกอบด้วยฐานและตัวหัวขนาดลดลงที่วางด้านบนและทางขวา |
+| [MathSuperscriptElementFactory](../com.aspose.slides/mathsuperscriptelementfactory) | อนุญาตให้สร้าง IMathSuperscriptElement |
+| [MathTopBotPositions](../com.aspose.slides/mathtopbotpositions) | การระบุค่าตำแหน่งบน/ล่าง |
+| [MathVerticalAlignment](../com.aspose.slides/mathverticalalignment) | การจัดแนวแนวตั้ง |
+| [MathematicalText](../com.aspose.slides/mathematicaltext) | ข้อความคณิตศาสตร์ |
+| [MathematicalTextFactory](../com.aspose.slides/mathematicaltextfactory) | อนุญาตให้สร้างองค์ประกอบ MathematicalText |
+| [Merger](../com.aspose.slides/merger) | แสดงกลุ่มเมธอดสำหรับการรวมงานนำเสนอ PowerPoint ที่มีรูปแบบเดียวกันเป็นไฟล์เดียว |
+| [Metered](../com.aspose.slides/metered) | ให้เมธอดสำหรับตั้งค่า metered key |
+| [ModernComment](../com.aspose.slides/moderncomment) | แสดงความคิดเห็นบนสไลด์ |
+| [ModernCommentStatus](../com.aspose.slides/moderncommentstatus) | แสดงสถานะของความคิดเห็นสมัยใหม่ |
+| [MorphTransition](../com.aspose.slides/morphtransition) | เอฟเฟกต์การเปลี่ยนสไลด์ Ripple |
+| [MotionCmdPath](../com.aspose.slides/motioncmdpath) | แสดงคำสั่งหนึ่งของเส้นทาง |
+| [MotionCommandPathType](../com.aspose.slides/motioncommandpathtype) | แสดงประเภทของคำสั่งสำหรับพฤติกรรมเอฟเฟกต์การเคลื่อนที่ของแอนิเมชัน |
+| [MotionEffect](../com.aspose.slides/motioneffect) | แสดงพฤติกรรมของเอฟเฟกต์การเคลื่อนที่ |
+| [MotionOriginType](../com.aspose.slides/motionorigintype) | ระบุว่าต้นกำเนิดของเส้นทางการเคลื่อนที่สัมพันธ์กับอะไร |
+| [MotionPath](../com.aspose.slides/motionpath) | แสดงเส้นทางการเคลื่อนที่ |
+| [MotionPathEditMode](../com.aspose.slides/motionpatheditmode) | ระบุว่าเส้นทางการเคลื่อนที่เคลื่อนที่อย่างไรเมื่อรูปร่างเป้าหมายถูกย้าย |
+| [MotionPathPointsType](../com.aspose.slides/motionpathpointstype) | แสดงประเภทของจุดในเส้นทางการเคลื่อนที่ของแอนิเมชัน |
+| [NewLineType](../com.aspose.slides/newlinetype) | ประเภทของบรรทัดใหม่ที่จะใช้ในเอกสารที่สร้างขึ้น |
+| [NormalViewProperties](../com.aspose.slides/normalviewproperties) | แสดงคุณสมบัติของมุมมองปกติ |
+| [NormalViewRestoredProperties](../com.aspose.slides/normalviewrestoredproperties) | ระบุขนาดของบริเวณสไลด์ ((ความกว้างเมื่อเป็นลูกของ restoredTop, ความสูงเมื่อเป็นลูกของ restoredLeft) ของมุมมองปกติ, เมื่อบริเวณมีขนาดที่ปรับกลับได้ (ไม่ย่อหรือขยายเต็ม) |
+| [NotesCommentsLayoutingOptions](../com.aspose.slides/notescommentslayoutingoptions) | ให้ตัวเลือกที่ควบคุมลักษณะการจัดวางของโน้ตและความเห็นในเอกสารที่ส่งออก |
+| [NotesPositions](../com.aspose.slides/notespositions) | แสดงกฎสำหรับการแสดงโน้ตในเอกสารที่ส่งออก |
+| [NotesSize](../com.aspose.slides/notessize) | แสดงขนาดของสไลด์โน้ต |
+| [NotesSlide](../com.aspose.slides/notesslide) | แสดงสไลด์โน้ตในงานนำเสนอ |
+| [NotesSlideHeaderFooterManager](../com.aspose.slides/notesslideheaderfootermanager) | แสดงตัวจัดการที่เก็บพฤติกรรมของช่องใส่ข้อความสไลด์โน้ตรวมถึงช่องใส่หัวเรื่อง |
+| [NotesSlideManager](../com.aspose.slides/notesslidemanager) | ตัวจัดการสไลด์โน้ต |
+| [NotesSlideThemeManager](../com.aspose.slides/notesslidethememanager) | ให้การเข้าถึงธีมสไลด์โน้ตที่ถูกแทนที่ |
+| [NullableBool](../com.aspose.slides/nullablebool) | แสดงค่าบูลีนแบบสามค่า |
+| [NumberedBulletStyle](../com.aspose.slides/numberedbulletstyle) | แสดงสไตล์ของสัญลักษณ์หมายเลข |
+| [OOXMLCorruptFileException](../com.aspose.slides/ooxmlcorruptfileexception) | ข้อยกเว้นที่ถูกโยนเมื่อรูปแบบไฟล์ Office Open XML เสียหาย |
+| [OOXMLException](../com.aspose.slides/ooxmlexception) | แสดงประเภทข้อยกเว้นภายในมาตรฐานที่เกี่ยวข้องกับรูปแบบไฟล์ Office Open XML |
+| [OdpException](../com.aspose.slides/odpexception) | แสดงประเภทข้อยกเว้นภายในมาตรฐาน |
+| [OdpReadException](../com.aspose.slides/odpreadexception) | แสดงข้อยกเว้นที่ถูกโยนเมื่อเกิดข้อผิดพลาดในการอ่านงานนำเสนอ |
+| [OleEmbeddedDataInfo](../com.aspose.slides/oleembeddeddatainfo) | แสดงข้อมูลข้อมูลที่ฝังไว้สำหรับวัตถุ OLE |
+| [OleObjectFrame](../com.aspose.slides/oleobjectframe) | แสดงวัตถุ OLE บนสไลด์ |
+| [OpenAICompatibleWebClient](../com.aspose.slides/openaicompatiblewebclient) | การทำงานในตัวของ [IAIWebClient](../com.aspose.slides/iaiwebclient) ที่เชื่อมต่อกับผู้ให้บริการ LLM ที่เข้ากันได้กับ OpenAI ที่ URL พื้นฐานที่ระบุ |
+| [OpenAIWebClient](../com.aspose.slides/openaiwebclient) | การทำงานในตัวของ [IAIWebClient](../com.aspose.slides/iaiwebclient) ที่เชื่อมต่อกับ OpenAI API |
+| [OptionalBlackTransition](../com.aspose.slides/optionalblacktransition) | เอฟเฟกต์การเปลี่ยนสไลด์สีดำแบบเลือกใช้ |
+| [OrganizationChartLayoutType](../com.aspose.slides/organizationchartlayouttype) | แสดงประเภทการจัดรูปแบบของโหนดลูกในแผนภาพองค์กร |
+| [Orientation](../com.aspose.slides/orientation) | แสดงทิศทางของรูปทรง |
+| [OrientationTransition](../com.aspose.slides/orientationtransition) | เอฟเฟกต์การเปลี่ยนสไลด์ Orientation |
+| [OuterShadow](../com.aspose.slides/outershadow) | แสดงเอฟเฟกต์เงานอก |
+| [Output](../com.aspose.slides/output) | แสดงคอลเลกชันขององค์ประกอบผลลัพธ์สำหรับ IWebDocument |
+| [OutputFile](../com.aspose.slides/outputfile) | แสดงไฟล์ผลลัพธ์ |
+| [OverrideTheme](../com.aspose.slides/overridetheme) | แสดงธีมที่แทนที่ |
+| [PPImage](../com.aspose.slides/ppimage) | แสดงภาพในงานนำเสนอ |
+| [PVIObject](../com.aspose.slides/pviobject) | ห่อหุ้มโครงสร้างบริการพื้นฐานสำหรับวัตถุที่อาจเป็นหัวข้อของการสืบทอดค่าคุณสมบัติ |
+| [Paragraph](../com.aspose.slides/paragraph) | แสดงย่อหน้าของข้อความ |
+| [ParagraphCollection](../com.aspose.slides/paragraphcollection) | แสดงคอลเลกชันของย่อหน้า |
+| [ParagraphFactory](../com.aspose.slides/paragraphfactory) | อนุญาตให้สร้างย่อหน้า |
+| [ParagraphFormat](../com.aspose.slides/paragraphformat) | คลาสนี้บรรจุคุณสมบัติการจัดรูปแบบย่อหน้า |
+| [ParentLabelLayoutType](../com.aspose.slides/parentlabellayouttype) | แสดงการจัดวางของป้ายข้อมูลประเภท |
+| [PathCommandType](../com.aspose.slides/pathcommandtype) | แสดงคำสั่งเส้นทางกราฟิก |
+| [PathFillModeType](../com.aspose.slides/pathfillmodetype) | ระบุวิธีที่เส้นทางควรเติมเต็ม |
+| [PathSegment](../com.aspose.slides/pathsegment) | แสดงส่วนของเส้นทางกราฟิกของ GeometryShape |
+| [PatternFormat](../com.aspose.slides/patternformat) | แสดงลวดลายสำหรับเติมเต็มรูปทรง |
+| [PatternStyle](../com.aspose.slides/patternstyle) | แสดงสไตล์ของลวดลาย |
+| [PdfAccessPermissions](../com.aspose.slides/pdfaccesspermissions) | บรรจุชุดของแฟลกที่ระบุว่าจะให้สิทธิ์การเข้าถึงใดบ้างเมื่อเปิดเอกสารด้วยการเข้าถึงของผู้ใช้ |
+| [PdfCompliance](../com.aspose.slides/pdfcompliance) | ค่าคงที่ที่กำหนดระดับการปฏิบัติตามมาตรฐาน PDF |
+| [PdfImportOptions](../com.aspose.slides/pdfimportoptions) | แสดงตัวเลือกการนำเข้า PDF |
+| [PdfOptions](../com.aspose.slides/pdfoptions) | ให้ตัวเลือกที่ควบคุมวิธีการบันทึกงานนำเสนอเป็นรูปแบบ PDF |
+| [PdfTextCompression](../com.aspose.slides/pdftextcompression) | ค่าคงที่ที่กำหนดประเภทของการบีบอัดที่ใช้กับเนื้อหาทั้งหมดในไฟล์ PDF ยกเว้นรูปภาพ |
+| [PersistenceType](../com.aspose.slides/persistencetype) | ระบุวิธีที่ใช้เก็บคุณสมบัติของคอนโทรล ActiveX |
+| [Picture](../com.aspose.slides/picture) | แสดงรูปภาพในงานนำเสนอ |
+| [PictureFillFormat](../com.aspose.slides/picturefillformat) | แสดงสไตล์การเติมรูปภาพ |
+| [PictureFillMode](../com.aspose.slides/picturefillmode) | กำหนดว่าภาพจะเติมพื้นที่อย่างไร |
+| [PictureFrame](../com.aspose.slides/pictureframe) | แสดงเฟรมที่มีรูปภาพภายใน |
+| [PictureFrameLock](../com.aspose.slides/pictureframelock) | กำหนดการดำเนินการใดที่ถูกปิดใช้งานบน PictureFrame พาเรนต์ |
+| [PictureType](../com.aspose.slides/picturetype) | กำหนดโหมดการเติมภาพบาร์ |
+| [PicturesCompression](../com.aspose.slides/picturescompression) | แสดงระดับการบีบอัดรูปภาพ |
+| [PieSplitCustomPointCollection](../com.aspose.slides/piesplitcustompointcollection) | แสดงคอลเลกชันของจุดสำหรับจุดแบ่งในแผนภูมิ bar-of-pie หรือ pie-of-pie พร้อมการแบ่งแบบกำหนดเอง |
+| [PieSplitType](../com.aspose.slides/piesplittype) | แสดงประเภทของจุดแบ่งในพายหรือบาร์ที่สองบนแผนภูมิ pie-of-pie หรือ bar-of-pie |
+| [Placeholder](../com.aspose.slides/placeholder) | แสดงตัวยึดตำแหน่งบนสไลด์ |
+| [PlaceholderSize](../com.aspose.slides/placeholdersize) | แสดงขนาดของตัวยึดตำแหน่ง |
+| [PlaceholderType](../com.aspose.slides/placeholdertype) | แสดงประเภทของตัวยึดตำแหน่ง |
+| [Point](../com.aspose.slides/point) | แสดงจุดแอนิเมชัน |
+| [PointCollection](../com.aspose.slides/pointcollection) | แสดงคอลเลกชันของจุดแอนิเมชัน |
+| [Portion](../com.aspose.slides/portion) | แสดงส่วนของข้อความภายในย่อความข้อความ |
+| [PortionCollection](../com.aspose.slides/portioncollection) | แสดงคอลเลกชันของส่วน |
+| [PortionFactory](../com.aspose.slides/portionfactory) | อนุญาตให้สร้างส่วนทดสอบ |
+| [PortionFormat](../com.aspose.slides/portionformat) | คลาสนี้บรรจุคุณสมบัติการจัดรูปแบบส่วนของข้อความ |
+| [PptCorruptFileException](../com.aspose.slides/pptcorruptfileexception) | ข้อยกเว้นที่ถูกโยนเมื่อไฟล์งานนำเสนอน่าจะเสียหาย |
+| [PptEditException](../com.aspose.slides/ppteditexception) | แสดงข้อยกเว้นที่ถูกโยนเมื่อพบข้อผิดพลาดในการแก้ไขงานนำเสนอ |
+| [PptException](../com.aspose.slides/pptexception) | แสดงประเภทข้อยกเว้นภายในมาตรฐาน |
+| [PptOptions](../com.aspose.slides/pptoptions) | ให้ตัวเลือกที่ควบคุมวิธีการบันทึกงานนำเสนอเป็นรูปแบบ PPT |
+| [PptReadException](../com.aspose.slides/pptreadexception) | แสดงข้อยกเว้นที่ถูกโยนเมื่อเกิดข้อผิดพลาดในการอ่านงานนำเสนอ |
+| [PptUnsupportedFormatException](../com.aspose.slides/pptunsupportedformatexception) | ข้อยกเว้นที่ถูกโยนเมื่อรูปแบบไฟล์งานนำเสนอไม่รองรับ |
+| [PptxCorruptFileException](../com.aspose.slides/pptxcorruptfileexception) | ข้อยกเว้นที่ถูกโยนเมื่อไฟล์งานนำเสนออาจเสียหาย |
+| [PptxEditException](../com.aspose.slides/pptxeditexception) | แสดงข้อยกเว้นที่ถูกโยนเมื่อพบข้อผิดพลาดในการแก้ไขงานนำเสนอ |
+| [PptxException](../com.aspose.slides/pptxexception) | แสดงประเภทข้อยกเว้นภายในมาตรฐาน |
+| [PptxOptions](../com.aspose.slides/pptxoptions) | แสดงตัวเลือกสำหรับการบันทึกรายการ OpenXml (PPTX, PPSX, POTX, PPTM, PPSM, POTM) |
+| [PptxReadException](../com.aspose.slides/pptxreadexception) | แสดงข้อยกเว้นที่ถูกโยนเมื่อเกิดข้อผิดพลาดในการอ่านงานนำเสนอ |
+| [PptxUnsupportedFormatException](../com.aspose.slides/pptxunsupportedformatexception) | ข้อยกเว้นที่ถูกโยนเมื่อรูปแบบไฟล์งานนำเสนอไม่รองรับ |
+| [Presentation](../com.aspose.slides/presentation) | แสดงงานนำเสนอ Microsoft PowerPoint |
+| [PresentationAnimationsGenerator](../com.aspose.slides/presentationanimationsgenerator) | แสดงเครื่องมือสร้างแอนิเมชันใน [Presentation](../com.aspose.slides/presentation) |
+| [PresentationContentAmountType](../com.aspose.slides/presentationcontentamounttype) | ระบุปริมาณเนื้อหาที่รวมอยู่ในงานนำเสนอที่สร้างขึ้น, มีผลต่อจำนวนสไลด์และระดับความละเอียดต่อสไลด์ |
+| [PresentationFactory](../com.aspose.slides/presentationfactory) | อนุญาตให้สร้างงานนำเสนอผ่านอินเทอร์เฟซ COM |
+| [PresentationHeaderFooterManager](../com.aspose.slides/presentationheaderfootermanager) | แสดงตัวจัดการที่เก็บพฤติกรรมของตัวยึดส่วนท้าย, วันที่-เวลาและหมายเลขหน้าในงานนำเสนอทั้งหมด |
+| [PresentationInfo](../com.aspose.slides/presentationinfo) | ข้อมูลเกี่ยวกับไฟล์งานนำเสนอ |
+| [PresentationLockingBehavior](../com.aspose.slides/presentationlockingbehavior) | แสดงพฤติกรรมที่เกี่ยวกับการจัดการแหล่งที่มาของ [IPresentation](../com.aspose.slides/ipresentation) (ไฟล์หรือ java.io.InputStream) ระหว่างการโหลดและทำงานกับอินสแตนซ์ของ [IPresentation](../com.aspose.slides/ipresentation) |
+| [PresentationPlayer](../com.aspose.slides/presentationplayer) | แสดงผู้เล่นแอนิเมชันที่เชื่อมโยงกับ [Presentation](../com.aspose.slides/presentation) |
+| [PresentationText](../com.aspose.slides/presentationtext) | แสดงข้อความที่สกัดจากงานนำเสนอ |
+| [PresentedBySpeaker](../com.aspose.slides/presentedbyspeaker) | แสดงโดยวิทยากร (เต็มหน้าจอ) |
+| [PresetColor](../com.aspose.slides/presetcolor) | แสดงชุดสีที่กำหนดไว้ล่วงหน้า |
+| [PresetShadow](../com.aspose.slides/presetshadow) | แสดงเอฟเฟกต์เงาที่กำหนดไว้ล่วงหน้า |
+| [PresetShadowType](../com.aspose.slides/presetshadowtype) | แสดงการตั้งล่วงหน้าสำหรับเอฟเฟกต์เงา |
+| [PropertyCalcModeType](../com.aspose.slides/propertycalcmodetype) | แสดงโหมดคำนวณสำหรับคุณสมบัติแอนิเมชัน |
+| [PropertyEffect](../com.aspose.slides/propertyeffect) | แสดงพฤติกรรมผลของคุณสมบัติ |
+| [PropertyValueType](../com.aspose.slides/propertyvaluetype) | แสดงประเภทของค่าคุณสมบัติ |
+| [ProtectionManager](../com.aspose.slides/protectionmanager) | การจัดการการป้องกันด้วยรหัสผ่านของงานนำเสนอ |
+| [QuartileMethodType](../com.aspose.slides/quartilemethodtype) | ส่งคืนประเภทของวิธี quartile |
+| [RectangleAlignment](../com.aspose.slides/rectanglealignment) | กำหนดการจัดตำแหน่งสองมิติ |
+| [Reflection](../com.aspose.slides/reflection) | แสดงเอฟเฟกต์สะท้อน |
+| [RenderingOptions](../com.aspose.slides/renderingoptions) | ให้ตัวเลือกที่ควบคุมวิธีการแสดงผลงานนำเสนอ/สไลด์ |
+| [ResourceLoadingAction](../com.aspose.slides/resourceloadingaction) | ระบุโหมดการโหลดทรัพยากรภายนอก |
+| [ResponsiveHtmlController](../com.aspose.slides/responsivehtmlcontroller) | ตัวควบคุม HTML ที่ตอบสนอง |
+| [ReturnAction](../com.aspose.slides/returnaction) | แสดงตัวเลือกการตัดสินใจของการเรียกคืนคำเตือน |
+| [RevealTransition](../com.aspose.slides/revealtransition) | เอฟเฟกต์การเปลี่ยนสไลด์ Reveal |
+| [RippleTransition](../com.aspose.slides/rippletransition) | เอฟเฟกต์การเปลี่ยนสไลด์ Ripple |
+| [Rotation3D](../com.aspose.slides/rotation3d) | แสดงการหมุน 3D ของแผนภูมิ |
+| [RotationEffect](../com.aspose.slides/rotationeffect) | แสดงพฤติกรรมการหมุนของเอฟเฟกต์ |
+| [Row](../com.aspose.slides/row) | แสดงแถวในตาราง |
+| [RowCollection](../com.aspose.slides/rowcollection) | แสดงคอลเลกชันของแถวตาราง |
+| [RowFormat](../com.aspose.slides/rowformat) | แสดงรูปแบบของแถวตาราง |
+| [SVGOptions](../com.aspose.slides/svgoptions) | แสดงตัวเลือก SVG |
+| [SaveFormat](../com.aspose.slides/saveformat) | ค่าคงที่ที่กำหนดรูปแบบของงานนำเสนอที่บันทึกไว้ |
+| [SaveOptions](../com.aspose.slides/saveoptions) | คลาสเชิงนามธรรมที่มีตัวเลือกควบคุมวิธีการบันทึกงานนำเสนอ |
+| [SaveOptionsFactory](../com.aspose.slides/saveoptionsfactory) | อนุญาตให้สร้างอินสแตนซ์ของตัวเลือกการบันทึก |
+| [ScaleEffect](../com.aspose.slides/scaleeffect) | แสดงเอฟเฟกต์สเกลแอนิเมชัน |
+| [SchemeColor](../com.aspose.slides/schemecolor) | แสดงสีในโครงสร้างสี |
+| [Section](../com.aspose.slides/section) | แสดงส่วนของสไลด์ |
+| [SectionCollection](../com.aspose.slides/sectioncollection) | แสดงคอลเลกชันของส่วน |
+| [SectionSlideCollection](../com.aspose.slides/sectionslidecollection) | แสดงคอลเลกชันของสไลด์ในส่วน |
+| [SectionZoomFrame](../com.aspose.slides/sectionzoomframe) | แสดงวัตถุ Section Zoom ในสไลด์ |
+| [SensitivityLabel](../com.aspose.slides/sensitivitylabel) | แสดงป้ายความอ่อนไหวจาก Microsoft Purview Information Protection |
+| [SensitivityLabelAssignmentType](../com.aspose.slides/sensitivitylabelassignmenttype) | แสดงวิธีการกำหนดป้ายความอ่อนไหว |
+| [SensitivityLabelCollection](../com.aspose.slides/sensitivitylabelcollection) | แสดงคอลเลกชันของป้ายความอ่อนไหวที่ใช้กับเอกสาร |
+| [SensitivityLabelContentType](../com.aspose.slides/sensitivitylabelcontenttype) | แสดงประเภทของการทำเครื่องหมายเนื้อหาที่ควรนำไปใช้กับเอกสาร |
+| [Sequence](../com.aspose.slides/sequence) | แสดงลำดับ (คอลเลกชันของเอฟเฟกต์) |
+| [SequenceCollection](../com.aspose.slides/sequencecollection) | แสดงคอลเลกชันของลำดับเชิงโต้ตอบ |
+| [SetEffect](../com.aspose.slides/seteffect) | แสดงชุดเอฟเฟกต์สำหรับพฤติกรรมแอนิเมชัน |
+| [Shape](../com.aspose.slides/shape) | แสดงรูปร่างบนสไลด์ |
+| [ShapeAdjustmentType](../com.aspose.slides/shapeadjustmenttype) | ระบุประเภทต่าง ๆ ของค่าการปรับรูปร่าง |
+| [ShapeBevel](../com.aspose.slides/shapebevel) | บรรจุคุณสมบัติของการยกลายหน้าเด่นของรูปร่าง
+| [ShapeCollection](../com.aspose.slides/shapecollection) | เป็นตัวแทนของคอลเล็กชันของรูปร่าง. |
+| [ShapeElement](../com.aspose.slides/shapeelement) | เป็นตัวแทนของส่วนของรูปร่างที่มีคุณสมบัติการทำขอบและการเติมสีเดียวกัน. |
+| [ShapeElementFillSource](../com.aspose.slides/shapeelementfillsource) | ระบุวิธีการเติมส่วนประกอบของรูปร่าง. |
+| [ShapeElementStrokeSource](../com.aspose.slides/shapeelementstrokesource) | ระบุวิธีการวาดส่วนประกอบของรูปร่าง. |
+| [ShapeFrame](../com.aspose.slides/shapeframe) | เป็นตัวแทนของคุณสมบัติของกรอบรูปร่าง. |
+| [ShapeStyle](../com.aspose.slides/shapestyle) | เป็นการอ้างอิงสไตล์ของรูปร่าง. |
+| [ShapeThumbnailBounds](../com.aspose.slides/shapethumbnailbounds) | การนับจำนวนประเภทของขอบเขตภาพย่อของรูปร่าง. |
+| [ShapeType](../com.aspose.slides/shapetype) | เป็นตัวแทนของรูปร่างเรขาคณิตที่กำหนดไว้ล่วงหน้า. |
+| [ShapeUtil](../com.aspose.slides/shapeutil) | ให้เมธอดที่ช่วยประมวลผลวัตถุรูปร่าง. |
+| [ShapesAlignmentType](../com.aspose.slides/shapesalignmenttype) | กำหนดวิธีการเปลี่ยนตำแหน่งของรูปร่างที่เลือกบนสไลด์. |
+| [ShredTransition](../com.aspose.slides/shredtransition) | เอฟเฟกต์การเปลี่ยนสไลด์แบบ Shred. |
+| [SideDirectionTransition](../com.aspose.slides/sidedirectiontransition) | เอฟเฟกต์การเปลี่ยนสไลด์ในแนวด้านข้าง. |
+| [SketchFormat](../com.aspose.slides/sketchformat) | เป็นตัวแทนของคุณสมบัติสำหรับรูปแบบการวาดเส้น. |
+| [Slide](../com.aspose.slides/slide) | เป็นตัวแทนของสไลด์ในงานนำเสนอ. |
+| [SlideCollection](../com.aspose.slides/slidecollection) | เป็นตัวแทนของคอลเล็กชันของสไลด์. |
+| [SlideHeaderFooterManager](../com.aspose.slides/slideheaderfootermanager) | เป็นตัวแทนของผู้จัดการที่ควบคุมพฤติกรรมของส่วนท้ายสไลด์, ตัวแสดงวันที่-เวลา, ตัวแสดงเลขหน้า. |
+| [SlideImageFormat](../com.aspose.slides/slideimageformat) | กำหนดรูปแบบที่ภาพสไลด์จะถูกบันทึกสำหรับการส่งออกเป็น HTML. |
+| [SlideLayoutType](../com.aspose.slides/slidelayouttype) | เป็นตัวแทนของประเภทการจัดวางสไลด์. |
+| [SlideOrientation](../com.aspose.slides/slideorientation) | เป็นตัวแทนของทิศทางของสไลด์. |
+| [SlideShowSettings](../com.aspose.slides/slideshowsettings) | เป็นตัวแทนของการตั้งค่าสไลด์โชว์สำหรับงานนำเสนอ. |
+| [SlideShowTransition](../com.aspose.slides/slideshowtransition) | เป็นตัวแทนของการเปลี่ยนสไลด์โชว์. |
+| [SlideShowType](../com.aspose.slides/slideshowtype) | การตั้งค่าสไลด์โชว์พื้นฐาน. |
+| [SlideSize](../com.aspose.slides/slidesize) | เป็นตัวแทนของขนาดและทิศทางของสไลด์. |
+| [SlideSizeScaleType](../com.aspose.slides/slidesizescaletype) | เป็นตัวแทนของประเภทการสเกลของเนื้อหาสไลด์. |
+| [SlideSizeType](../com.aspose.slides/slidesizetype) | เป็นตัวแทนของค่าพรีเซ็ตขนาดสไลด์. |
+| [SlideThemeManager](../com.aspose.slides/slidethememanager) | ให้การเข้าถึงธีมสไลด์ที่ถูกแทนที่. |
+| [SlideUtil](../com.aspose.slides/slideutil) | ให้เมธอดที่ช่วยค้นหารูปร่างและข้อความในงานนำเสนอ. |
+| [SlidesAIAgent](../com.aspose.slides/slidesaiagent) | ให้ฟีเจอร์ที่ใช้ AI สำหรับประมวลผลงานนำเสนอ. |
+| [SlidesAIAgentException](../com.aspose.slides/slidesaiagentexception) | เป็นตัวแทนของข้อยกเว้นที่เกี่ยวข้องกับ Slides AI Agent. |
+| [SlidesRange](../com.aspose.slides/slidesrange) | ช่วงสไลด์ |
+| [SmartArt](../com.aspose.slides/smartart) | เป็นตัวแทนของไดอะแกรม SmartArt |
+| [SmartArtColorType](../com.aspose.slides/smartartcolortype) | เป็นตัวแทนของโทนสีของไดอะแกรม SmartArt. |
+| [SmartArtLayoutType](../com.aspose.slides/smartartlayouttype) | เป็นตัวแทนของประเภทการจัดวางของไดอะแกรม SmartArt. |
+| [SmartArtNode](../com.aspose.slides/smartartnode) | เป็นตัวแทนของโหนดของอ็อบเจกต์ SmartArt. |
+| [SmartArtNodeCollection](../com.aspose.slides/smartartnodecollection) | เป็นตัวแทนของคอลเล็กชันของโหนด SmartArt. |
+| [SmartArtQuickStyleType](../com.aspose.slides/smartartquickstyletype) | เป็นตัวแทนของสไลด์สไตล์ของไดอะแกรม SmartArt. |
+| [SmartArtShape](../com.aspose.slides/smartartshape) | เป็นตัวแทนของรูปร่าง SmartArt. |
+| [SmartArtShapeCollection](../com.aspose.slides/smartartshapecollection) | เป็นตัวแทนของคอลเล็กชันของรูปร่าง SmartArt. |
+| [SoftEdge](../com.aspose.slides/softedge) | เป็นตัวแทนของเอฟเฟกต์ขอบนุ่ม. |
+| [SourceFormat](../com.aspose.slides/sourceformat) | เป็นตัวแทนของรูปแบบไฟล์ต้นฉบับ. |
+| [SplitTransition](../com.aspose.slides/splittransition) | เอฟเฟกต์การเปลี่ยนสไลด์แบบ Split. |
+| [SplitterBarStateType](../com.aspose.slides/splitterbarstatetype) | ระบุสถานะที่แถบแยกควรจะแสดง. |
+| [SpreadsheetOptions](../com.aspose.slides/spreadsheetoptions) | เป็นตัวแทนของตัวเลือกที่ใช้กำหนดพฤติกรรมเพิ่มเติมของสเปรดชีต. |
+| [Storage](../com.aspose.slides/storage) | เป็นตัวแทนของที่เก็บข้อมูลชั่วคราวสำหรับ [WebDocument](../com.aspose.slides/webdocument). |
+| [StringChartValue](../com.aspose.slides/stringchartvalue) | เป็นค่าข้อความที่สามารถเก็บในเอกสารพรีเซนเทชัน pptx ได้สองวิธี: 1) ในเซลล์ของเวิร์กบุ๊กที่เกี่ยวข้องกับแผนภูมิ; 2) เป็นค่าลิเทอรัล. |
+| [StringOrDoubleChartValue](../com.aspose.slides/stringordoublechartvalue) | เป็นค่าข้อความหรือค่า double ที่สามารถเก็บในเอกสารพรีเซนเทชัน pptx ได้สองวิธี: 1) ในเซลล์ของเวิร์กบุ๊กที่เกี่ยวข้องกับแผนภูมิ; 2) เป็นค่าลิเทอรัล. |
+| [StyleType](../com.aspose.slides/styletype) | เป็นตัวแทนของสไตล์แผนภูมิ. |
+| [SummaryZoomFrame](../com.aspose.slides/summaryzoomframe) | เป็นตัวแทนของอ็อบเจกต์ Summary Zoom ในสไลด์. |
+| [SummaryZoomSection](../com.aspose.slides/summaryzoomsection) | เป็นตัวแทนของอ็อบเจกต์ Summary Zoom Section ในเฟรม Summary Zoom. |
+| [SummaryZoomSectionCollection](../com.aspose.slides/summaryzoomsectioncollection) | เป็นตัวแทนของคอลเล็กชันของอ็อบเจกต์ Summary Zoom Section. |
+| [SvgCoordinateUnit](../com.aspose.slides/svgcoordinateunit) | เป็นตัวแทนของหน่วยพิกัด CSS2 ที่ใช้กำหนดพิกัด SVG. |
+| [SvgEvent](../com.aspose.slides/svgevent) | เป็นตัวแทนของตัวเลือกสำหรับรูปร่าง SVG. |
+| [SvgExternalFontsHandling](../com.aspose.slides/svgexternalfontshandling) | เป็นวิธีการจัดการฟอนต์ภายนอกที่ใช้สำหรับการวาดข้อความ. |
+| [SvgImage](../com.aspose.slides/svgimage) | เป็นตัวแทนของภาพ SVG. |
+| [SvgShape](../com.aspose.slides/svgshape) | เป็นตัวแทนของตัวเลือกสำหรับรูปร่าง SVG. |
+| [SvgTSpan](../com.aspose.slides/svgtspan) | เป็นตัวแทนของตัวเลือกสำหรับส่วนข้อความ SVG ("tspan"). |
+| [SwfOptions](../com.aspose.slides/swfoptions) | ให้ตัวเลือกที่ควบคุมวิธีการบันทึกงานนำเสนอเป็นรูปแบบ Swf. |
+| [SystemColor](../com.aspose.slides/systemcolor) | เป็นตัวแทนของสีระบบที่กำหนดล่วงหน้า. |
+| [Tab](../com.aspose.slides/tab) | เป็นตัวแทนของการทำแท็บในข้อความ. |
+| [TabAlignment](../com.aspose.slides/tabalignment) | เป็นตัวแทนของการจัดแนวแท็บ. |
+| [TabCollection](../com.aspose.slides/tabcollection) | เป็นตัวแทนของคอลเล็กชันของแท็บ. |
+| [TabFactory](../com.aspose.slides/tabfactory) | อนุญาตให้สร้างอินสแตนซ์ ITab. |
+| [Table](../com.aspose.slides/table) | เป็นตัวแทนของตารางบนสไลด์. |
+| [TableFormat](../com.aspose.slides/tableformat) | เป็นตัวแทนของรูปแบบของตาราง. |
+| [TableStylePreset](../com.aspose.slides/tablestylepreset) | เป็นตัวแทนของสไตล์ตารางในตัว. |
+| [TagCollection](../com.aspose.slides/tagcollection) | เป็นตัวแทนของคอลเล็กชันของแท็ก (คู่สตริงที่ผู้ใช้กำหนด). |
+| [TemplateContext<TObject>](../com.aspose.slides/templatecontext) | เป็นอินเทอร์เฟซอ็อบเจกต์โมเดลสำหรับเครื่องมือเทมเพลต. |
+| [TextAlignment](../com.aspose.slides/textalignment) | เป็นตัวแทนของสไตล์การจัดแนวข้อความที่แตกต่างกัน. |
+| [TextAnchorType](../com.aspose.slides/textanchortype) | การจัดแนวกล่องข้อความภายในพื้นที่ข้อความ. |
+| [TextAnimation](../com.aspose.slides/textanimation) | เป็นตัวแทนของแอนิเมชันข้อความ. |
+| [TextAnimationCollection](../com.aspose.slides/textanimationcollection) | เป็นตัวแทนของคอลเล็กชันของแอนิเมชันข้อความ. |
+| [TextAutofitType](../com.aspose.slides/textautofittype) | เป็นตัวแทนของโหมดการปรับขนาดอัตโนมัติของข้อความ. |
+| [TextCapType](../com.aspose.slides/textcaptype) | เป็นตัวแทนของประเภทการพิมพ์ใหญ่ของข้อความ. |
+| [TextExtractionArrangingMode](../com.aspose.slides/textextractionarrangingmode) | เป็นตัวแทนของโหมดที่ใช้ระหว่างการสกัดข้อความ. |
+| [TextFrame](../com.aspose.slides/textframe) | เป็นตัวแทนของ TextFrame. |
+| [TextFrameFormat](../com.aspose.slides/textframeformat) | บรรจุคุณสมบัติของ TextFrame's formatTextFrameFormatting. |
+| [TextHighlightingOptions](../com.aspose.slides/texthighlightingoptions) | เป็นตัวแทนของตัวเลือกที่ใช้ทำไฮไลต์ข้อความใน TextFrame. |
+| [TextInheritanceLimit](../com.aspose.slides/textinheritancelimit) | ควบคุมความลึกของการสืบทอดคุณสมบัติข้อความ. |
+| [TextSearchOptions](../com.aspose.slides/textsearchoptions) | เป็นตัวแทนของตัวเลือกที่ใช้ค้นหาข้อความใน Presentation, Slide หรือ TextFrame. |
+| [TextShapeType](../com.aspose.slides/textshapetype) | เป็นตัวแทนของรูปแบบการห่อหุ้มข้อความ. |
+| [TextStrikethroughType](../com.aspose.slides/textstrikethroughtype) | เป็นตัวแทนของประเภทการขีดฆ่าข้อความ. |
+| [TextStyle](../com.aspose.slides/textstyle) | คลาสนี้บรรจุคุณสมบัติการจัดรูปแบบสไตล์ข้อความ. |
+| [TextToHtmlConversionOptions](../com.aspose.slides/texttohtmlconversionoptions) | ตัวเลือกสำหรับการสกัด HTML จากข้อความ Pptx. |
+| [TextUnderlineType](../com.aspose.slides/textunderlinetype) | เป็นตัวแทนของประเภทการขีดเส้นใต้ข้อความ. |
+| [TextVerticalOverflowType](../com.aspose.slides/textverticaloverflowtype) | เป็นตัวแทนของประเภทการล้นแนวตั้งของข้อความ. |
+| [TextVerticalType](../com.aspose.slides/textverticaltype) | กำหนดโหมดการเขียนแนวตั้งสำหรับข้อความ. |
+| [Theme](../com.aspose.slides/theme) | เป็นตัวแทนของธีม. |
+| [ThreeDFormat](../com.aspose.slides/threedformat) | เป็นตัวแทนของคุณสมบัติ 3 มิติ. |
+| [TickLabelPositionType](../com.aspose.slides/ticklabelpositiontype) | เป็นตัวแทนของประเภทตำแหน่งของป้ายเข็มบนแกนที่ระบุ. |
+| [TickMarkType](../com.aspose.slides/tickmarktype) | เป็นตัวแทนของประเภทของเครื่องหมาย tick บนแกนที่ระบุ. |
+| [TiffCompressionTypes](../com.aspose.slides/tiffcompressiontypes) | ให้ตัวเลือกที่ควบคุมการบีบอัดงานนำเสนอเป็นรูปแบบ TIFF. |
+| [TiffOptions](../com.aspose.slides/tiffoptions) | ให้ตัวเลือกที่ควบคุมวิธีการบันทึกงานนำเสนอเป็นรูปแบบ TIFF. |
+| [TileFlip](../com.aspose.slides/tileflip) | กำหนดโหมดการพลิกแผ่นกระเบื้อง. |
+| [TimeUnitType](../com.aspose.slides/timeunittype) | เป็นตัวแทนของหน่วยฐานสำหรับแกนประเภท. |
+| [Timing](../com.aspose.slides/timing) | เป็นตัวแทนของการกำหนดเวลาแอนิเมชัน. |
+| [Tint](../com.aspose.slides/tint) | เป็นตัวแทนของเอฟเฟกต์ Tint. |
+| [TransitionCornerAndCenterDirectionType](../com.aspose.slides/transitioncornerandcenterdirectiontype) | ระบุทิศทางที่จำกัดอยู่ที่มุมและศูนย์กลาง. |
+| [TransitionCornerDirectionType](../com.aspose.slides/transitioncornerdirectiontype) | เป็นตัวแทนของประเภทการเปลี่ยนแปลงทิศทางที่มุม. |
+| [TransitionEightDirectionType](../com.aspose.slides/transitioneightdirectiontype) | เป็นตัวแทนของประเภทการเปลี่ยนแปลงทิศทางแปดทิศ. |
+| [TransitionInOutDirectionType](../com.aspose.slides/transitioninoutdirectiontype) | เป็นตัวแทนของประเภทการเปลี่ยนทิศทางเข้า หรือออก. |
+| [TransitionLeftRightDirectionType](../com.aspose.slides/transitionleftrightdirectiontype) | ระบุทิศทางที่จำกัดอยู่ที่ค่าซ้ายและขวา. |
+| [TransitionMorphType](../com.aspose.slides/transitionmorphtype) | เป็นตัวแทนของประเภทการเปลี่ยนแปลง Morph. |
+| [TransitionPattern](../com.aspose.slides/transitionpattern) | ระบุรูปแบบเรขาคณิตที่ต่อกันเพื่อเติมพื้นที่ขนาดใหญ่. |
+| [TransitionShredPattern](../com.aspose.slides/transitionshredpattern) | ระบุรูปร่างเรขาคณิตที่ต่อกันเพื่อเติมพื้นที่ขนาดใหญ่. |
+| [TransitionSideDirectionType](../com.aspose.slides/transitionsidedirectiontype) | เป็นตัวแทนของประเภทการเปลี่ยนแปลงทิศทางด้านข้าง. |
+| [TransitionSoundMode](../com.aspose.slides/transitionsoundmode) | เป็นตัวแทนของโหมดเสียงของการเปลี่ยนแปลง. |
+| [TransitionSpeed](../com.aspose.slides/transitionspeed) | เป็นตัวแทนของประเภทความเร็วของการเปลี่ยนแปลง. |
+| [TransitionType](../com.aspose.slides/transitiontype) | เป็นตัวแทนของประเภทการเปลี่ยนแปลงสไลด์โชว์. |
+| [TransitionValueBase](../com.aspose.slides/transitionvaluebase) | คลาสพื้นฐานสำหรับเอฟเฟกต์การเปลี่ยนสไลด์. |
+| [Trendline](../com.aspose.slides/trendline) | คลาสนี้เป็นตัวแทนของเส้นเทรนด์ของชุดข้อมูลแผนภูมิ. |
+| [TrendlineCollection](../com.aspose.slides/trendlinecollection) | เป็นตัวแทนของคอลเล็กชันของ Trendline. |
+| [TrendlineType](../com.aspose.slides/trendlinetype) | เป็นตัวแทนของประเภทของเส้นเทรนด์. |
+| [UpDownBarsManager](../com.aspose.slides/updownbarsmanager) | ให้การเข้าถึงแท่งขึ้น/ลงของแผนภูมิ Line หรือ Stock. |
+| [VbaModule](../com.aspose.slides/vbamodule) | เป็นตัวแทนของโมดูลที่อยู่ในโครงการ VBA. |
+| [VbaModuleCollection](../com.aspose.slides/vbamodulecollection) | เป็นตัวแทนของคอลเล็กชันของโมดูลในโครงการ VBA. |
+| [VbaProject](../com.aspose.slides/vbaproject) | เป็นตัวแทนของโครงการ VBA ที่มีมาโครของงานนำเสนอ. |
+| [VbaProjectFactory](../com.aspose.slides/vbaprojectfactory) | อนุญาตให้สร้างโครงการ VBA ผ่านอินเทอร์เฟซ COM. |
+| [VbaReferenceCollection](../com.aspose.slides/vbareferencecollection) | เป็นตัวแทนของคอลเล็กชันของอ้างอิงโครงการ VBA. |
+| [VbaReferenceFactory](../com.aspose.slides/vbareferencefactory) | อนุญาตให้สร้างอ้างอิงโครงการ VBA ผ่านอินเทอร์เฟซ COM. |
+| [VbaReferenceOleTypeLib](../com.aspose.slides/vbareferenceoletypelib) | เป็นตัวแทนของการอ้างอิงไลบรารีประเภท OLE Automation. |
+| [Video](../com.aspose.slides/video) | เป็นตัวแทนของภาพที่ฝังในงานนำเสนอ. |
+| [VideoCollection](../com.aspose.slides/videocollection) | เป็นตัวแทนของคอลเล็กชันของวัตถุวิดีโอ. |
+| [VideoFrame](../com.aspose.slides/videoframe) | เป็นตัวแทนของคลิปวิดีโอบนสไลด์. |
+| [VideoPlayModePreset](../com.aspose.slides/videoplaymodepreset) | ค่าคงที่ที่กำหนดวิธีการเล่นวิดีโอ. |
+| [VideoPlayerHtmlController](../com.aspose.slides/videoplayerhtmlcontroller) | คลาสนี้อนุญาตให้ส่งออกไฟล์วิดีโอและเสียงเป็น HTML. |
+| [VideoPlayerHtmlControllerFactory](../com.aspose.slides/videoplayerhtmlcontrollerfactory) | อนุญาตให้สร้าง VideoPlayerHtmlController. |
+| [ViewProperties](../com.aspose.slides/viewproperties) | คุณสมบัติการมองเห็นทั่วงานนำเสนอ. |
+| [ViewType](../com.aspose.slides/viewtype) | ประเภทมุมมองของงานนำเสนอ. |
+| [WarningType](../com.aspose.slides/warningtype) | เป็นตัวแทนของประเภทของคำเตือน. |
+| [WebDocument](../com.aspose.slides/webdocument) | เป็นตัวแทนของรูปแบบการเปลี่ยนของงานนำเสนอสำหรับการบันทึกเป็นรูปแบบเว็บ. |
+| [WebDocumentOptions](../com.aspose.slides/webdocumentoptions) | เป็นตัวแทนของชุดตัวเลือกสำหรับการบันทึก [WebDocument](../com.aspose.slides/webdocument). |
+| [WheelTransition](../com.aspose.slides/wheeltransition) | เอฟเฟกต์การเปลี่ยนสไลด์แบบ Wheel. |
+| [WorkbookType](../com.aspose.slides/workbooktype) | ระบุประเภทไฟล์ Open XML workbook. |
+| [XamlOptions](../com.aspose.slides/xamloptions) | ตัวเลือกที่ควบคุมการบันทึกเอกสาร XAML. |
+| [XpsOptions](../com.aspose.slides/xpsoptions) | ให้ตัวเลือกที่ควบคุมการบันทึกงานนำเสนอเป็นรูปแบบ XPS. |
+| [Zip64Mode](../com.aspose.slides/zip64mode) | ระบุเมื่อใช้ส่วนขยายรูปแบบ ZIP64 สำหรับไฟล์ OpenXML. |
+| [ZoomFrame](../com.aspose.slides/zoomframe) | เป็นตัวแทนของอ็อบเจกต์ Slide Zoom ในสไลด์. |
+| [ZoomImageType](../com.aspose.slides/zoomimagetype) | กำหนดว่าอ็อบเจกต์ Zoom ใช้ภาพตัวอย่างสไลด์หรือภาพหน้าปก. |
+| [ZoomLayout](../com.aspose.slides/zoomlayout) | ระบุการจัดวาง Summary Zoom. |
+| [ZoomObject](../com.aspose.slides/zoomobject) | เป็นตัวแทนของอ็อบเจกต์ Zoom ในสไลด์. |
 
 ## อินเทอร์เฟซ
 
 | อินเทอร์เฟซ | คำอธิบาย |
 | --- | --- |
-| [IAIConversation](../com.aspose.slides/iaiconversation) | Represents a conversation instance. |
-| [IAIWebClient](../com.aspose.slides/iaiwebclient) | AI Web client interface. |
-| [IAccessiblePVIObject<T>](../com.aspose.slides/iaccessiblepviobject) | Represents a type that can return corresponding effective data with the inheritance applied. |
-| [IActualLayout](../com.aspose.slides/iactuallayout) | Specifies actual position of a chart element. |
-| [IAdjustValue](../com.aspose.slides/iadjustvalue) | Represents a geometry shape's adjustment value. |
-| [IAdjustValueCollection](../com.aspose.slides/iadjustvaluecollection) | Reprasents a collection of shape's adjustments. |
-| [IAlphaBiLevel](../com.aspose.slides/ialphabilevel) | Represents an Alpha Bi-Level effect. |
-| [IAlphaBiLevelEffectiveData](../com.aspose.slides/ialphabileveleffectivedata) | Immutable object which represents an Alpha Bi-Level effect. |
-| [IAlphaCeiling](../com.aspose.slides/ialphaceiling) | Represents an Alpha Ceiling effect. |
-| [IAlphaCeilingEffectiveData](../com.aspose.slides/ialphaceilingeffectivedata) | Immutable object which represents an Alpha Ceiling effect. |
-| [IAlphaFloor](../com.aspose.slides/ialphafloor) | Represents an Alpha Floor effect. |
-| [IAlphaFloorEffectiveData](../com.aspose.slides/ialphaflooreffectivedata) | Immutable object which represents an Alpha Floor effect. |
-| [IAlphaInverse](../com.aspose.slides/ialphainverse) | Represents an Alpha Inverse effect. |
-| [IAlphaInverseEffectiveData](../com.aspose.slides/ialphainverseeffectivedata) | Immutable object which represents an Alpha Inverse effect. |
-| [IAlphaModulate](../com.aspose.slides/ialphamodulate) | Represents an Alpha Modulate effect. |
-| [IAlphaModulateEffectiveData](../com.aspose.slides/ialphamodulateeffectivedata) | Immutable object which represents an Alpha Modulate effect. |
-| [IAlphaModulateFixed](../com.aspose.slides/ialphamodulatefixed) | Represents an Alpha Modulate Fixed effect. |
-| [IAlphaModulateFixedEffectiveData](../com.aspose.slides/ialphamodulatefixedeffectivedata) | Immutable object which represents an Alpha Modulate Fixed effect. |
-| [IAlphaReplace](../com.aspose.slides/ialphareplace) | Represents base IImageTransformOperation interface. |
-| [IAlphaReplaceEffectiveData](../com.aspose.slides/ialphareplaceeffectivedata) | Immutable object which represents and Alpha Replace effect. |
-| [IAnimationTimeLine](../com.aspose.slides/ianimationtimeline) | Represents timeline of animation. |
-| [IAudio](../com.aspose.slides/iaudio) | Represents an embedded audio file. |
-| [IAudioCollection](../com.aspose.slides/iaudiocollection) | Represents a collection of embedded audio files. |
-| [IAudioFrame](../com.aspose.slides/iaudioframe) | Represents an audio clip on a slide. |
-| [IAutoShape](../com.aspose.slides/iautoshape) | Represents an AutoShape. |
-| [IAutoShapeLock](../com.aspose.slides/iautoshapelock) | Determines which operations are disabled on the parent AutoshapeEx. |
-| [IAxesManager](../com.aspose.slides/iaxesmanager) | Provides access to chart axes. |
-| [IAxis](../com.aspose.slides/iaxis) | Encapsulates the object that represents a chart's axis. |
-| [IAxisFormat](../com.aspose.slides/iaxisformat) | Represents chart format properties. |
-| [IBackdrop3DScene](../com.aspose.slides/ibackdrop3dscene) | Defines a plane in which effects, such as glow and shadow, are applied in relation to the shape they are being applied to. |
-| [IBackground](../com.aspose.slides/ibackground) | Represents background of a slide. |
-| [IBackgroundEffectiveData](../com.aspose.slides/ibackgroundeffectivedata) | Immutable object which contains effective background properties. |
-| [IBaseChartValue](../com.aspose.slides/ibasechartvalue) | Represents a value of a chart. |
-| [IBaseHandoutNotesSlideHeaderFooterManag](../com.aspose.slides/ibasehandoutnotesslideheaderfootermanag) | Represents manager which holds behavior of the placeholders, including header placeholder for all types handout and notes slides. |
-| [IBaseHeaderFooterManager](../com.aspose.slides/ibaseheaderfootermanager) | Represents manager which holds behavior of the footer, date-time, page number placeholders for all slide types. |
-| [IBasePortionFormat](../com.aspose.slides/ibaseportionformat) | This class contains the text portion formatting properties. |
-| [IBasePortionFormatEffectiveData](../com.aspose.slides/ibaseportionformateffectivedata) | Base interface for immutable objects which contain effective text portion formatting properties. |
-| [IBaseShapeLock](../com.aspose.slides/ibaseshapelock) | Represents Shape lock (disabled operation). |
-| [IBaseSlide](../com.aspose.slides/ibaseslide) | Represents common data for all slide types. |
-| [IBaseSlideHeaderFooterManager](../com.aspose.slides/ibaseslideheaderfootermanager) | Represents manager which holds behavior of the footer, date-time, page number placeholders for all slide types. |
-| [IBaseTableFormatEffectiveData](../com.aspose.slides/ibasetableformateffectivedata) | Base interface for immutable objects which contain effective table formatting properties. |
-| [IBehavior](../com.aspose.slides/ibehavior) | Represent base class behavior of effect. |
-| [IBehaviorCollection](../com.aspose.slides/ibehaviorcollection) | Represents collection of behavior effects. |
-| [IBehaviorFactory](../com.aspose.slides/ibehaviorfactory) | Allows to create animation effects |
-| [IBehaviorProperty](../com.aspose.slides/ibehaviorproperty) | Represent property types for animation behavior. |
-| [IBehaviorPropertyCollection](../com.aspose.slides/ibehaviorpropertycollection) | Represents timing properties for the effect behavior. |
-| [IBiLevel](../com.aspose.slides/ibilevel) | Represents base IImageTransformOperation interface. |
-| [IBiLevelEffectiveData](../com.aspose.slides/ibileveleffectivedata) | Immutable object which represents a Bi-Level (black/white) effect. |
-| [IBlobManagementOptions](../com.aspose.slides/iblobmanagementoptions) | A Binary Large Object (BLOB) is a binary data stored as a single entity - i.e. |
-| [IBlur](../com.aspose.slides/iblur) | Represents a Blur effect that is applied to the entire shape, including its fill. |
-| [IBlurEffectiveData](../com.aspose.slides/iblureffectivedata) | Immutable object which represents a Blur effect that is applied to the entire shape, including its fill. |
-| [IBrightnessContrast](../com.aspose.slides/ibrightnesscontrast) | Represents a BrightnessContrast effect. |
-| [IBrightnessContrastEffectiveData](../com.aspose.slides/ibrightnesscontrasteffectivedata) | Immutable object which represents a BrightnessContrast effect. |
-| [IBulkTextFormattable](../com.aspose.slides/ibulktextformattable) | Represents an object with possibility of bulk setting child text elements' formats. |
-| [IBulletFormat](../com.aspose.slides/ibulletformat) | Represents paragraph bullet formatting properties. |
-| [IBulletFormatEffectiveData](../com.aspose.slides/ibulletformateffectivedata) | Immutable object which contains effective paragraph bullet formatting properties. |
-| [ICamera](../com.aspose.slides/icamera) | Represents Camera. |
-| [ICameraEffectiveData](../com.aspose.slides/icameraeffectivedata) | Immutable object which contains effective camera properties. |
-| [ICaptions](../com.aspose.slides/icaptions) | Represents the WebVTT closed captions. |
-| [ICaptionsCollection](../com.aspose.slides/icaptionscollection) | Represents a collection of the closed captions. |
-| [ICell](../com.aspose.slides/icell) | Represents a cell in a table. |
-| [ICellCollection](../com.aspose.slides/icellcollection) | Represents a collection of cells. |
-| [ICellFormat](../com.aspose.slides/icellformat) | Represents format of a table cell. |
-| [ICellFormatEffectiveData](../com.aspose.slides/icellformateffectivedata) | Immutable object which contains effective table cell formatting properties. |
-| [IChart](../com.aspose.slides/ichart) | Represents an graphic chart on a slide. |
-| [IChartCategory](../com.aspose.slides/ichartcategory) | Represents chart categories. |
-| [IChartCategoryCollection](../com.aspose.slides/ichartcategorycollection) | Represents collection of [IChartCategory](../com.aspose.slides/ichartcategory) |
-| [IChartCategoryLevelsManager](../com.aspose.slides/ichartcategorylevelsmanager) | Managed container of the values of the chart category levels. |
-| [IChartCellCollection](../com.aspose.slides/ichartcellcollection) | Represents collection of a cells with data. |
-| [IChartComponent](../com.aspose.slides/ichartcomponent) | Represents a component of a chart. |
-| [IChartData](../com.aspose.slides/ichartdata) | Represents data used for a chart plotting. |
-| [IChartDataCell](../com.aspose.slides/ichartdatacell) | Represents cell for chart data. |
-| [IChartDataPoint](../com.aspose.slides/ichartdatapoint) | Represents series data point. |
-| [IChartDataPointCollection](../com.aspose.slides/ichartdatapointcollection) | Represents collection of a series data point. |
-| [IChartDataPointLevel](../com.aspose.slides/ichartdatapointlevel) | Represents data point level. |
-| [IChartDataPointLevelsManager](../com.aspose.slides/ichartdatapointlevelsmanager) | Container of data point levels. |
-| [IChartDataWorkbook](../com.aspose.slides/ichartdataworkbook) | Provides access to embedded Excel workbook |
-| [IChartDataWorksheet](../com.aspose.slides/ichartdataworksheet) | Represents worksheet associated with [IChartDataCell](../com.aspose.slides/ichartdatacell) |
-| [IChartDataWorksheetCollection](../com.aspose.slides/ichartdataworksheetcollection) | Represents the collection of worksheets of chart data workbook. |
-| [IChartLinesFormat](../com.aspose.slides/ichartlinesformat) | Represents gridlines format properties. |
-| [IChartParagraphFormat](../com.aspose.slides/ichartparagraphformat) | Represents a paragraph formatting properties of a chart. |
-| [IChartPlotArea](../com.aspose.slides/ichartplotarea) | Represents chart title properties. |
-| [IChartPortionFormat](../com.aspose.slides/ichartportionformat) | Represents the chart portion formatting properties used in charts. |
-| [IChartSeries](../com.aspose.slides/ichartseries) | Represents a chart series. |
-| [IChartSeriesCollection](../com.aspose.slides/ichartseriescollection) | Represents collection of [IChartSeries](../com.aspose.slides/ichartseries) |
-| [IChartSeriesGroup](../com.aspose.slides/ichartseriesgroup) | Represents group of series. |
-| [IChartSeriesGroupCollection](../com.aspose.slides/ichartseriesgroupcollection) | Represents the collection of groups of combinable series. |
-| [IChartSeriesReadonlyCollection](../com.aspose.slides/ichartseriesreadonlycollection) | Represents a readonly collection of [IChartSeries](../com.aspose.slides/ichartseries) |
-| [IChartTextBlockFormat](../com.aspose.slides/icharttextblockformat) | Represents formatting properties for chart text elements. |
-| [IChartTextFormat](../com.aspose.slides/icharttextformat) | Chart operate with restricted set of text format properties. |
-| [IChartTitle](../com.aspose.slides/icharttitle) | Represents chart title properties. |
-| [IChartWall](../com.aspose.slides/ichartwall) | Represents walls on 3d charts. |
-| [IColorChange](../com.aspose.slides/icolorchange) | Represents a Color Change effect. |
-| [IColorChangeEffectiveData](../com.aspose.slides/icolorchangeeffectivedata) | Immutable object which represents a Color Change effect. |
-| [IColorEffect](../com.aspose.slides/icoloreffect) | Represents a color effect for an animation behavior. |
-| [IColorFormat](../com.aspose.slides/icolorformat) | Represents a color used in a presentation. |
-| [IColorOffset](../com.aspose.slides/icoloroffset) | Represent color offset. |
-| [IColorOperation](../com.aspose.slides/icoloroperation) | Represents different color operations used for color transformations. |
-| [IColorOperationCollection](../com.aspose.slides/icoloroperationcollection) | Represents a collection of color transform operations. |
-| [IColorReplace](../com.aspose.slides/icolorreplace) | Represents a Color Replacement effect. |
-| [IColorReplaceEffectiveData](../com.aspose.slides/icolorreplaceeffectivedata) | Immutable object which represents a Color Replacement effect. |
-| [IColorScheme](../com.aspose.slides/icolorscheme) | Stores theme-defined colors. |
-| [IColorSchemeEffectiveData](../com.aspose.slides/icolorschemeeffectivedata) | Immutable object which contains effective color scheme properties. |
-| [IColumn](../com.aspose.slides/icolumn) | Represents a column in a table. |
-| [IColumnCollection](../com.aspose.slides/icolumncollection) | Represents collection of columns in a table. |
-| [IColumnFormat](../com.aspose.slides/icolumnformat) | Represents format of a table column. |
-| [IColumnFormatEffectiveData](../com.aspose.slides/icolumnformateffectivedata) | Immutable object which contains effective table column formatting properties. |
-| [ICommandEffect](../com.aspose.slides/icommandeffect) | Represents a command effect for an animation behavior. |
-| [IComment](../com.aspose.slides/icomment) | Represents a comment on a slide. |
-| [ICommentAuthor](../com.aspose.slides/icommentauthor) | Represents an author of comments. |
-| [ICommentAuthorCollection](../com.aspose.slides/icommentauthorcollection) | Represents a collection of comment authors. |
-| [ICommentCollection](../com.aspose.slides/icommentcollection) | Represents a collection of comments of one author. |
-| [ICommonSlideViewProperties](../com.aspose.slides/icommonslideviewproperties) | Represents common slide view properties. |
-| [IConnector](../com.aspose.slides/iconnector) | Represents a connector. |
-| [IConnectorLock](../com.aspose.slides/iconnectorlock) | Determines which operations are disabled on the parent Connector. |
-| [IControl](../com.aspose.slides/icontrol) | Represents an ActiveX control. |
-| [IControlCollection](../com.aspose.slides/icontrolcollection) | A collection of ActiveX controls. |
-| [IControlPropertiesCollection](../com.aspose.slides/icontrolpropertiescollection) | A collection of ActiveX controls. |
-| [ICornerDirectionTransition](../com.aspose.slides/icornerdirectiontransition) | Corner direction slide transition effect. |
-| [ICustomData](../com.aspose.slides/icustomdata) | Represents container for custom data. |
-| [ICustomXmlPart](../com.aspose.slides/icustomxmlpart) | Represents custom xml part. |
-| [ICustomXmlPartCollection](../com.aspose.slides/icustomxmlpartcollection) | Represents collection of custom xml parts. |
-| [IDataLabel](../com.aspose.slides/idatalabel) | Represents a series labels. |
-| [IDataLabelCollection](../com.aspose.slides/idatalabelcollection) | Represents a series labels. |
-| [IDataLabelFormat](../com.aspose.slides/idatalabelformat) | Represents formatting options for DataLabel. |
-| [IDataSourceTypeForErrorBarsCustomValues](../com.aspose.slides/idatasourcetypeforerrorbarscustomvalues) | Specifies types of values in ChartDataPoint.ErrorBarsCustomValues properties list |
-| [IDataTable](../com.aspose.slides/idatatable) | Represents data table properties. |
-| [IDigitalSignature](../com.aspose.slides/idigitalsignature) | Digital signature in signed file. |
-| [IDigitalSignatureCollection](../com.aspose.slides/idigitalsignaturecollection) | Represents a collection of digital signatures attached to a document. |
-| [IDocumentProperties](../com.aspose.slides/idocumentproperties) | Represents properties of a presentation. |
-| [IDoubleChartValue](../com.aspose.slides/idoublechartvalue) | Represent double value which can be stored in pptx presentation document in two ways: 1) in cell/cells of workbook related to chart; 2) as literal value. |
-| [IDrawingGuide](../com.aspose.slides/idrawingguide) | Represents an adjustable drawing guide. |
-| [IDrawingGuidesCollection](../com.aspose.slides/idrawingguidescollection) | Represents a collection of the adjustable drawing guides. |
-| [IDuotone](../com.aspose.slides/iduotone) | Represents a Duotone effect. |
-| [IDuotoneEffectiveData](../com.aspose.slides/iduotoneeffectivedata) | Immutable object which represents a Duotone effect. |
-| [IEffect](../com.aspose.slides/ieffect) | Represents animation effect. |
-| [IEffectEffectiveData](../com.aspose.slides/ieffecteffectivedata) | Base class for immutable objects, which represent effect. |
-| [IEffectFactory](../com.aspose.slides/ieffectfactory) | Allows to create effects' instances |
-| [IEffectFormat](../com.aspose.slides/ieffectformat) | Represents effect properties of shape. |
-| [IEffectFormatEffectiveData](../com.aspose.slides/ieffectformateffectivedata) | Imutable object which contains effective effect formatting properties. |
-| [IEffectParamSource](../com.aspose.slides/ieffectparamsource) | Auxiliary effect parameters interface. |
-| [IEffectStyle](../com.aspose.slides/ieffectstyle) | Represents an effect style. |
-| [IEffectStyleCollection](../com.aspose.slides/ieffectstylecollection) | Represents a collection of effect styles. |
-| [IEffectStyleCollectionEffectiveData](../com.aspose.slides/ieffectstylecollectioneffectivedata) | Immutable object that represents a readonly collection of effective effect styles. |
-| [IEffectStyleEffectiveData](../com.aspose.slides/ieffectstyleeffectivedata) | Immutable object which contains effective effect style properties. |
-| [IEightDirectionTransition](../com.aspose.slides/ieightdirectiontransition) | Eight direction slide transition effect. |
-| [IEmbeddedEotFontsHtmlController](../com.aspose.slides/iembeddedeotfontshtmlcontroller) | Embedded Eot fonts HTML controller. |
-| [IEmbeddedWoffFontsHtmlController](../com.aspose.slides/iembeddedwofffontshtmlcontroller) | Embedded woff fonts html controller. |
-| [IEmptyTransition](../com.aspose.slides/iemptytransition) | Empty slide transition effect. |
-| [IErrorBarsCustomValues](../com.aspose.slides/ierrorbarscustomvalues) | Specifies the errors bar values. |
-| [IErrorBarsFormat](../com.aspose.slides/ierrorbarsformat) | Represents error bars of chart series. |
-| [IExcelDataCell](../com.aspose.slides/iexceldatacell) | Represents a single cell in an Excel workbook. |
-| [IExcelDataWorkbook](../com.aspose.slides/iexceldataworkbook) | Represents a workbook that provides access to Excel data for general use. |
-| [IExternalResourceResolver](../com.aspose.slides/iexternalresourceresolver) | Callback interface used to resolve external resources during Html, Svg documents import. |
-| [IExtraColorScheme](../com.aspose.slides/iextracolorscheme) | Represents an additional color scheme which can be assigned to a slide. |
-| [IExtraColorSchemeCollection](../com.aspose.slides/iextracolorschemecollection) | Represents a collection of additional color schemes. |
-| [IField](../com.aspose.slides/ifield) | Represents a field. |
-| [IFieldType](../com.aspose.slides/ifieldtype) | Represents a type of field. |
-| [IFillFormat](../com.aspose.slides/ifillformat) | Represents a fill formatting options. |
-| [IFillFormatCollection](../com.aspose.slides/ifillformatcollection) | Represents the collection of fill styles. |
-| [IFillFormatCollectionEffectiveData](../com.aspose.slides/ifillformatcollectioneffectivedata) | Immutable object that represents a readonly collection of effective fill formats. |
-| [IFillFormatEffectiveData](../com.aspose.slides/ifillformateffectivedata) | Immutable object which contains effective fill formatting properties. |
-| [IFillOverlay](../com.aspose.slides/ifilloverlay) | Represents a Fill Overlay effect. |
-| [IFillOverlayEffectiveData](../com.aspose.slides/ifilloverlayeffectivedata) | Immutable object which represents a Fill Overlay effect. |
-| [IFillParamSource](../com.aspose.slides/ifillparamsource) | Auxiliary fill parameters interface. |
-| [IFilterEffect](../com.aspose.slides/ifiltereffect) | Represent filter effect of behavior. |
-| [IFindResultCallback](../com.aspose.slides/ifindresultcallback) | Callback interface used to getting search text result. |
-| [IFlyThroughTransition](../com.aspose.slides/iflythroughtransition) | Fly-through slide transition effect. |
-| [IFontData](../com.aspose.slides/ifontdata) | Represents a font definition. |
-| [IFontDataFactory](../com.aspose.slides/ifontdatafactory) | FontData factory interface |
-| [IFontFallBackRule](../com.aspose.slides/ifontfallbackrule) | Represents font fallback rule |
-| [IFontFallBackRulesCollection](../com.aspose.slides/ifontfallbackrulescollection) | Represents a collection of FontFallBack rules, defined by user |
-| [IFontScheme](../com.aspose.slides/ifontscheme) | Stores theme-defined fonts. |
-| [IFontSchemeEffectiveData](../com.aspose.slides/ifontschemeeffectivedata) | Immutable object which contains effective font scheme properties. |
-| [IFontSources](../com.aspose.slides/ifontsources) | Provides file and memory sources for external fonts. |
-| [IFontSubstRule](../com.aspose.slides/ifontsubstrule) | Represents font subtituition information |
-| [IFontSubstRuleCollection](../com.aspose.slides/ifontsubstrulecollection) | Represents collection of fonts substitution. |
-| [IFonts](../com.aspose.slides/ifonts) | Represents fonts collection. |
-| [IFontsEffectiveData](../com.aspose.slides/ifontseffectivedata) | Immutable object which contains effective fonts set. |
-| [IFontsLoader](../com.aspose.slides/ifontsloader) | Class for loading custom fonts defined by user. |
-| [IFontsManager](../com.aspose.slides/ifontsmanager) | Manages fonts across the presentation. |
-| [IFormat](../com.aspose.slides/iformat) | Represents chart format properties. |
-| [IFormatFactory](../com.aspose.slides/iformatfactory) | Allows to create formats via COM interface. |
-| [IFormatScheme](../com.aspose.slides/iformatscheme) | Stores theme-defined formats for the shapes. |
-| [IFormatSchemeEffectiveData](../com.aspose.slides/iformatschemeeffectivedata) | Immutable object which contains effective format scheme properties. |
-| [IFormattedTextContainer](../com.aspose.slides/iformattedtextcontainer) | Represents chart text format. |
-| [IGenericCloneable<T>](../com.aspose.slides/igenericcloneable) | Represents generic version of ICloneable |
-| [IGenericCollection<T>](../com.aspose.slides/igenericcollection) | Auxiliary generic collection interface. |
-| [IGeometryPath](../com.aspose.slides/igeometrypath) | Represents geometry path of GeometryShape |
-| [IGeometryShape](../com.aspose.slides/igeometryshape) | Represents the parent class for all geometric shapes. |
-| [IGifOptions](../com.aspose.slides/igifoptions) | Represents GIF exporting options. |
-| [IGlitterTransition](../com.aspose.slides/iglittertransition) | Glitter slide transition effect. |
-| [IGlobalLayoutSlideCollection](../com.aspose.slides/igloballayoutslidecollection) | Represents a collection of all layout slides in presentation. |
-| [IGlow](../com.aspose.slides/iglow) | Represents a Glow effect, in which a color blurred outline is added outside the edges of the object. |
-| [IGlowEffectiveData](../com.aspose.slides/igloweffectivedata) | Immutable object which represents a Glow effect, in which a color blurred outline is added outside the edges of the object. |
-| [IGradientFormat](../com.aspose.slides/igradientformat) | Represent a gradient format. |
-| [IGradientFormatEffectiveData](../com.aspose.slides/igradientformateffectivedata) | Imutable object which contains effective gradient filling properties. |
-| [IGradientStop](../com.aspose.slides/igradientstop) | Represents a gradient format. |
-| [IGradientStopCollection](../com.aspose.slides/igradientstopcollection) | Represnts a collection of gradient stops. |
-| [IGradientStopCollectionEffectiveData](../com.aspose.slides/igradientstopcollectioneffectivedata) | Represents a collection of GradientStopData objects. |
-| [IGradientStopEffectiveData](../com.aspose.slides/igradientstopeffectivedata) | immutable object which represents a gradient stop. |
-| [IGraphicalObject](../com.aspose.slides/igraphicalobject) | Represents abstract graphical object. |
-| [IGraphicalObjectLock](../com.aspose.slides/igraphicalobjectlock) | Determines which operations are disabled on the parent GraphicalObject. |
-| [IGrayScale](../com.aspose.slides/igrayscale) | Represents IImageTransformOperation interface. |
-| [IGrayScaleEffectiveData](../com.aspose.slides/igrayscaleeffectivedata) | Immutable object which representsepresents a Gray Scale effect. |
-| [IGroupShape](../com.aspose.slides/igroupshape) | Represents a group of shapes on a slide. |
-| [IGroupShapeLock](../com.aspose.slides/igroupshapelock) | Determines which operations are disabled on the parent GroupShape. |
-| [IHSL](../com.aspose.slides/ihsl) | Represents a Hue/Saturation/Luminance effect. |
-| [IHSLEffectiveData](../com.aspose.slides/ihsleffectivedata) | Represents a Hue/Saturation/Luminance effect. |
-| [IHeadingPair](../com.aspose.slides/iheadingpair) | Represents a 'Heading pair' property of the document. |
-| [IHtml5Options](../com.aspose.slides/ihtml5options) | Represents a HTML5 exporting options. |
-| [IHtmlExternalResolver](../com.aspose.slides/ihtmlexternalresolver) | Callback interface used by HTML import routine to obtain referrenced objects such as images. |
-| [IHtmlFormatter](../com.aspose.slides/ihtmlformatter) | Represents HTML file template. |
-| [IHtmlFormattingController](../com.aspose.slides/ihtmlformattingcontroller) | Controls a html file generation. |
-| [IHtmlGenerator](../com.aspose.slides/ihtmlgenerator) | Html generator. |
-| [IHtmlOptions](../com.aspose.slides/ihtmloptions) | Represents a HTML exporting options. |
-| [IHyperlink](../com.aspose.slides/ihyperlink) | Represents a hyperlink. |
-| [IHyperlinkContainer](../com.aspose.slides/ihyperlinkcontainer) | Represents hyperlink object. |
-| [IHyperlinkManager](../com.aspose.slides/ihyperlinkmanager) | Provide hyperlinks management (adding, removing). |
-| [IHyperlinkQueries](../com.aspose.slides/ihyperlinkqueries) | Provide easy access to contained hyperlinks. |
-| [IImage](../com.aspose.slides/iimage) | Represents a raster or vector image. |
-| [IImageCollection](../com.aspose.slides/iimagecollection) | Represents collection of PPImage. |
-| [IImageTransformOCollectionEffectiveData](../com.aspose.slides/iimagetransformocollectioneffectivedata) | Immutable object that represents a readonly collection of effective image transform effects. |
-| [IImageTransformOperation](../com.aspose.slides/iimagetransformoperation) | Represents abstract image transformation effect. |
-| [IImageTransformOperationCollection](../com.aspose.slides/iimagetransformoperationcollection) | Represents a collection of effects apllied to an image. |
-| [IImageTransformOperationFactory](../com.aspose.slides/iimagetransformoperationfactory) | Allows to create image effects' instances |
-| [IInOutTransition](../com.aspose.slides/iinouttransition) | In-Out slide transition effect. |
-| [IInk](../com.aspose.slides/iink) | Represents an ink object on a slide. |
-| [IInkActions](../com.aspose.slides/iinkactions) | Represents an ink object on a slide. |
-| [IInkBrush](../com.aspose.slides/iinkbrush) | Represents trace brush. |
-| [IInkOptions](../com.aspose.slides/iinkoptions) | Provides options that control the look of Ink objects in exported document. |
-| [IInkTrace](../com.aspose.slides/iinktrace) | Represents handwritten line in an Ink object. |
-| [IInnerShadow](../com.aspose.slides/iinnershadow) | Represents a inner shadow effect. |
-| [IInnerShadowEffectiveData](../com.aspose.slides/iinnershadoweffectivedata) | Immutable object which represents a inner shadow effect. |
-| [IInterruptionToken](../com.aspose.slides/iinterruptiontoken) | This class represents the token to use for signaling long running tasks whether the interruption was requested. |
-| [IInterruptionTokenSource](../com.aspose.slides/iinterruptiontokensource) | Represents the source of [IInterruptionToken](../com.aspose.slides/iinterruptiontoken). |
-| [IKnownIssueWarningInfo](../com.aspose.slides/iknownissuewarninginfo) | Represents a warning about known issue which won't be fixed in the near future. |
-| [ILayoutPlaceholderManager](../com.aspose.slides/ilayoutplaceholdermanager) | Represents manager that allows you to add placeholders to the layout slide. |
-| [ILayoutSlide](../com.aspose.slides/ilayoutslide) | Represents a layout slide. |
-| [ILayoutSlideCollection](../com.aspose.slides/ilayoutslidecollection) | Represents a base class for collection of a layout slides. |
-| [ILayoutSlideHeaderFooterManager](../com.aspose.slides/ilayoutslideheaderfootermanager) | Represents manager which holds behavior of the layout slide footer, date-time, page number placeholders and all child placeholders. |
-| [ILayoutable](../com.aspose.slides/ilayoutable) | Specifies the exact position of a chart element. |
-| [ILeftRightDirectionTransition](../com.aspose.slides/ileftrightdirectiontransition) | Left-right direction slide transition effect. |
-| [ILegacyDiagram](../com.aspose.slides/ilegacydiagram) | Represents a legacy diagram object |
-| [ILegend](../com.aspose.slides/ilegend) | Represents chart's legend properties. |
-| [ILegendEntryCollection](../com.aspose.slides/ilegendentrycollection) | Represents legends collection. |
-| [ILegendEntryProperties](../com.aspose.slides/ilegendentryproperties) | Represents legend properties of a chart. |
-| [ILicense](../com.aspose.slides/ilicense) | Provides methods to license the component. |
-| [ILightRig](../com.aspose.slides/ilightrig) | Represents LightRig. |
-| [ILightRigEffectiveData](../com.aspose.slides/ilightrigeffectivedata) | Immutable object which contains effective light rig properties. |
-| [ILineFillFormat](../com.aspose.slides/ilinefillformat) | Represents properties for lines filling. |
-| [ILineFillFormatEffectiveData](../com.aspose.slides/ilinefillformateffectivedata) | Immutable object which contains effective line filling properties. |
-| [ILineFormat](../com.aspose.slides/ilineformat) | Represents format of a line. |
-| [ILineFormatCollection](../com.aspose.slides/ilineformatcollection) | Represents the collection of line styles. |
-| [ILineFormatCollectionEffectiveData](../com.aspose.slides/ilineformatcollectioneffectivedata) | Immutable object that represents a readonly collection of effective line formats. |
-| [ILineFormatEffectiveData](../com.aspose.slides/ilineformateffectivedata) | Immutable object which contains effective line formatting properties. |
-| [ILineParamSource](../com.aspose.slides/ilineparamsource) | Auxiliary line parameters interface. |
-| [ILinkEmbedController](../com.aspose.slides/ilinkembedcontroller) | Callback interface used to determine how object should be processed during saving. |
-| [ILoadOptions](../com.aspose.slides/iloadoptions) | Allows to specify additional options (such as format or default font) when loading a presentation. |
-| [ILuminance](../com.aspose.slides/iluminance) | Represents a Luminance effect. |
-| [ILuminanceEffectiveData](../com.aspose.slides/iluminanceeffectivedata) | Represents a Luminance effect. |
-| [IMarker](../com.aspose.slides/imarker) | Represents marker of a chert. |
-| [IMasterHandoutSlide](../com.aspose.slides/imasterhandoutslide) | Represents master slide for handouts. |
-| [IMasterHandoutSlideHeaderFooterManager](../com.aspose.slides/imasterhandoutslideheaderfootermanager) | Represents manager which holds behavior of the master handout slide placeholders, including header placeholder. |
-| [IMasterHandoutSlideManager](../com.aspose.slides/imasterhandoutslidemanager) | Master handout slide manager. |
-| [IMasterLayoutSlideCollection](../com.aspose.slides/imasterlayoutslidecollection) | Represents a collections of all layout slides of defined master slide. |
-| [IMasterNotesSlide](../com.aspose.slides/imasternotesslide) | Represents master slide for notes. |
-| [IMasterNotesSlideHeaderFooterManager](../com.aspose.slides/imasternotesslideheaderfootermanager) | Represents manager which holds behavior of the master notes slide footer, date-time, page number placeholders and all child placeholders. |
-| [IMasterNotesSlideManager](../com.aspose.slides/imasternotesslidemanager) | Master notes slide manager. |
-| [IMasterSlide](../com.aspose.slides/imasterslide) | Represents a master slide in a presentation. |
-| [IMasterSlideCollection](../com.aspose.slides/imasterslidecollection) | Represents a collection of master slides. |
-| [IMasterSlideHeaderFooterManager](../com.aspose.slides/imasterslideheaderfootermanager) | Represents manager which holds behavior of the master slide footer, date-time, page number placeholders and all child placeholders. |
-| [IMasterTheme](../com.aspose.slides/imastertheme) | Represents a master theme. |
-| [IMasterThemeManager](../com.aspose.slides/imasterthememanager) | Provides access to presentation master theme. |
-| [IMasterThemeable](../com.aspose.slides/imasterthemeable) | Represent master theme manager. |
-| [IMathAccent](../com.aspose.slides/imathaccent) | Specifies the accent function, consisting of a base and a combining diacritical mark Example: \\ud835\\udc4e\\u0301 |
-| [IMathAccentFactory](../com.aspose.slides/imathaccentfactory) | Allows to create a math accent |
-| [IMathArray](../com.aspose.slides/imatharray) | Specifies a vertical array of equations or any mathematical objects |
-| [IMathArrayFactory](../com.aspose.slides/imatharrayfactory) | Allows to create a math array |
-| [IMathBar](../com.aspose.slides/imathbar) | Specifies the bar function, consisting of a base argument and an overbar or underbar |
-| [IMathBarFactory](../com.aspose.slides/imathbarfactory) | Allows to create a math bar |
-| [IMathBlock](../com.aspose.slides/imathblock) | Specifies an instance of mathematical text that contained within a MathParagraph and starts on its own line. |
-| [IMathBlockCollection](../com.aspose.slides/imathblockcollection) | Collection of math blocks (IMathBlock) |
-| [IMathBlockFactory](../com.aspose.slides/imathblockfactory) | Allows to create a math block |
-| [IMathBorderBox](../com.aspose.slides/imathborderbox) | Draws a rectangular or some other border around the IMathElement. |
-| [IMathBorderBoxFactory](../com.aspose.slides/imathborderboxfactory) | Allows to create a math border box |
-| [IMathBox](../com.aspose.slides/imathbox) | Specifies the logical boxing (packaging) of mathematical element. |
-| [IMathBoxFactory](../com.aspose.slides/imathboxfactory) | Allows to create a math box |
-| [IMathDelimiter](../com.aspose.slides/imathdelimiter) | Specifies the delimiter object, consisting of opening and closing characters (such as parentheses, braces, brackets, and vertical bars), and one or more mathematical elements inside, separated by a specified character. |
-| [IMathDelimiterFactory](../com.aspose.slides/imathdelimiterfactory) | Allows to create a math delimiter |
-| [IMathElement](../com.aspose.slides/imathelement) | Base interface of any mathematical element: fraction, mathmatical text, function, expression with multiple elements etc |
-| [IMathElementCollection](../com.aspose.slides/imathelementcollection) | Represents a collection of mathematical elements (MathElement). |
-| [IMathFraction](../com.aspose.slides/imathfraction) | Specifies the fraction object, consisting of a numerator and denominator separated by a fraction bar. |
-| [IMathFractionFactory](../com.aspose.slides/imathfractionfactory) | Allows to create a math fraction |
-| [IMathFunction](../com.aspose.slides/imathfunction) | Specifies a function of an argument. |
-| [IMathFunctionFactory](../com.aspose.slides/imathfunctionfactory) | Allows to create a math function |
-| [IMathGroupingCharacter](../com.aspose.slides/imathgroupingcharacter) | Specifies a grouping symbol above or below an expression, usually to highlight the relationship between elements |
-| [IMathGroupingCharacterFactory](../com.aspose.slides/imathgroupingcharacterfactory) | Allows to create a math grouping character |
-| [IMathLeftSubSuperscriptElement](../com.aspose.slides/imathleftsubsuperscriptelement) | Specifies the Sub-Superscript object, which consists of a base and a subscript and superscript placed to the left of the base. |
-| [IMathLimit](../com.aspose.slides/imathlimit) | Specifies the Limit object, consisting of text on the baseline and reduced-size text immediately above or below it. |
-| [IMathLimitFactory](../com.aspose.slides/imathlimitfactory) | Allows to create IMathLimit |
-| [IMathMatrix](../com.aspose.slides/imathmatrix) | Specifies the Matrix object, consisting of child elements laid out in one or more rows and columns. |
-| [IMathMatrixFactory](../com.aspose.slides/imathmatrixfactory) | Allows to create a math matrix |
-| [IMathNaryOperator](../com.aspose.slides/imathnaryoperator) | Specifies an N-ary mathematical object, such as Summation and Integral. |
-| [IMathNaryOperatorFactory](../com.aspose.slides/imathnaryoperatorfactory) | Allows to create IMathNaryOperator |
-| [IMathNaryOperatorProperties](../com.aspose.slides/imathnaryoperatorproperties) | Specifies properties of IMathNaryOperator |
-| [IMathParagraph](../com.aspose.slides/imathparagraph) | Mathematical paragraph that is a container for mathematical blocks (IMathBlock) |
-| [IMathParagraphFactory](../com.aspose.slides/imathparagraphfactory) | Allows to create a math paragraph |
-| [IMathPhantom](../com.aspose.slides/imathphantom) | Represents a phantom math object (<m:phant>) that affects the layout of its child element without necessarily displaying it. |
-| [IMathPortion](../com.aspose.slides/imathportion) | Represents a portion with mathematical context inside. |
-| [IMathRadical](../com.aspose.slides/imathradical) | Specifies the radical function, consisting of a base, and an optional degree. |
-| [IMathRadicalFactory](../com.aspose.slides/imathradicalfactory) | Allows to create math radical |
-| [IMathRightSubSuperscriptElement](../com.aspose.slides/imathrightsubsuperscriptelement) | Specifies the Sub-Superscript object, which consists of a base and a subscript and superscript placed to the right of the base. |
-| [IMathRightSubSuperscriptElementFactory](../com.aspose.slides/imathrightsubsuperscriptelementfactory) | Allows to create IMathRightSubSuperscriptElementFactory |
-| [IMathSubscriptElement](../com.aspose.slides/imathsubscriptelement) | Specifies the subscript object, which consists of a base and a reduced-size subscript placed below and to the right. |
-| [IMathSubscriptElementFactory](../com.aspose.slides/imathsubscriptelementfactory) | Allows to create IMathSubscriptElement |
-| [IMathSuperscriptElement](../com.aspose.slides/imathsuperscriptelement) | Specifies the superscript object, which consists of a base and a reduced-size superscript placed above and to the right |
-| [IMathSuperscriptElementFactory](../com.aspose.slides/imathsuperscriptelementfactory) | Allows to create IMathSuperscriptElement |
-| [IMathematicalText](../com.aspose.slides/imathematicaltext) | Mathematical text |
-| [IMathematicalTextFactory](../com.aspose.slides/imathematicaltextfactory) | Allows to create a MathematicalText element |
-| [IMetered](../com.aspose.slides/imetered) | Provides methods to set metered key. |
-| [IModernComment](../com.aspose.slides/imoderncomment) | Represents a comment on a slide. |
-| [IMorphTransition](../com.aspose.slides/imorphtransition) | Ripple slide transition effect. |
-| [IMotionCmdPath](../com.aspose.slides/imotioncmdpath) | Represent one command of a path. |
-| [IMotionEffect](../com.aspose.slides/imotioneffect) | Represent motion effect behavior of effect. |
-| [IMotionPath](../com.aspose.slides/imotionpath) | Represent motion path. |
-| [IMultipleCellChartValue](../com.aspose.slides/imultiplecellchartvalue) | Represents a collection of a chart cells. |
-| [INormalViewProperties](../com.aspose.slides/inormalviewproperties) | Represents normal view properties. |
-| [INormalViewRestoredProperties](../com.aspose.slides/inormalviewrestoredproperties) | Specifies the sizing of the slide region ((width when a child of restoredTop, height when a child of restoredLeft) of the normal view, when the region is of a variable restored size(neither minimized nor maximized). |
-| [INotImplementedWarningInfo](../com.aspose.slides/inotimplementedwarninginfo) | Represents a warning about known not implemented feature which won't be implemented in the near future. |
-| [INotesSize](../com.aspose.slides/inotessize) | Represents a size of notes slide. |
-| [INotesSlide](../com.aspose.slides/inotesslide) | Represents a notes slide in a presentation. |
-| [INotesSlideHeaderFooterManager](../com.aspose.slides/inotesslideheaderfootermanager) | Represents manager which holds behavior of the notes slide placeholders, including header placeholder. |
-| [INotesSlideManager](../com.aspose.slides/inotesslidemanager) | Notes slide manager. |
-| [IObsoletePresLockingBehaviorWarningInfo](../com.aspose.slides/iobsoletepreslockingbehaviorwarninginfo) | This warning indicates that an obsolete presentation locking behavior is used. |
-| [IOleEmbeddedDataInfo](../com.aspose.slides/ioleembeddeddatainfo) | Represents embedded data info for OLE object. |
-| [IOleObjectFrame](../com.aspose.slides/ioleobjectframe) | Represents an OLE object on a slide. |
-| [IOptionalBlackTransition](../com.aspose.slides/ioptionalblacktransition) | Optional black slide transition effect. |
-| [IOrientationTransition](../com.aspose.slides/iorientationtransition) | Orientation slide transition effect. |
-| [IOuterShadow](../com.aspose.slides/ioutershadow) | Represents an Outer Shadow effect. |
-| [IOuterShadowEffectiveData](../com.aspose.slides/ioutershadoweffectivedata) | Immutable object which represents an Outer Shadow effect. |
-| [IOutputFile](../com.aspose.slides/ioutputfile) | Represents an output file. |
-| [IOutputSaver](../com.aspose.slides/ioutputsaver) | Represents an output saving service. |
-| [IOverridableText](../com.aspose.slides/ioverridabletext) | Represents overridable text for a chart. |
-| [IOverrideTheme](../com.aspose.slides/ioverridetheme) | Represents a overriding theme. |
-| [IOverrideThemeManager](../com.aspose.slides/ioverridethememanager) | Provides access to different types of overriden themes. |
-| [IOverrideThemeable](../com.aspose.slides/ioverridethemeable) | Represents override theme manager. |
-| [IPPImage](../com.aspose.slides/ippimage) | Represents an image in a presentation. |
-| [IParagraph](../com.aspose.slides/iparagraph) | Represents a paragraph of a text. |
-| [IParagraphCollection](../com.aspose.slides/iparagraphcollection) | Represents a collection of a paragraphs. |
-| [IParagraphFactory](../com.aspose.slides/iparagraphfactory) | Allows to create paragraphs |
-| [IParagraphFormat](../com.aspose.slides/iparagraphformat) | This class contains the paragraph formatting properties. |
-| [IParagraphFormatEffectiveData](../com.aspose.slides/iparagraphformateffectivedata) | Immutable object which contains effective paragraph formatting properties. |
-| [IPathSegment](../com.aspose.slides/ipathsegment) | Represents segment of graphics path of GeometryShape |
-| [IPatternFormat](../com.aspose.slides/ipatternformat) | Represents a pattern to fill a shape. |
-| [IPatternFormatEffectiveData](../com.aspose.slides/ipatternformateffectivedata) | Immutable object which contains effective pattern filling properties. |
-| [IPdfOptions](../com.aspose.slides/ipdfoptions) | Provides options that control how a presentation is saved in Pdf format. |
-| [IPictureEffectiveData](../com.aspose.slides/ipictureeffectivedata) | Immutable object which contains effective picture properties. |
-| [IPictureFillFormat](../com.aspose.slides/ipicturefillformat) | Represents a picture fill style. |
-| [IPictureFillFormatEffectiveData](../com.aspose.slides/ipicturefillformateffectivedata) | Immutable object which contains the properties of picture fill. |
-| [IPictureFrame](../com.aspose.slides/ipictureframe) | Represents a frame with a picture inside. |
-| [IPictureFrameLock](../com.aspose.slides/ipictureframelock) | Determines which operations are disabled on the parent PictureFrameEx. |
-| [IPieSplitCustomPointCollection](../com.aspose.slides/ipiesplitcustompointcollection) | Represents a collection of points that shall be drawn in the second pie or bar on a bar-of-pie or pie-of-pie chart with a custom split. |
-| [IPlaceholder](../com.aspose.slides/iplaceholder) | Represents a placeholder on a slide. |
-| [IPoint](../com.aspose.slides/ipoint) | Represent animation point. |
-| [IPointCollection](../com.aspose.slides/ipointcollection) | Represents a collection of portions. |
-| [IPortion](../com.aspose.slides/iportion) | Represents a portion of text inside a text paragraph. |
-| [IPortionCollection](../com.aspose.slides/iportioncollection) | Represents a collection of a portions. |
-| [IPortionFactory](../com.aspose.slides/iportionfactory) | Allows to create test portions |
-| [IPortionFormat](../com.aspose.slides/iportionformat) | This class contains the text portion formatting properties. |
-| [IPortionFormatEffectiveData](../com.aspose.slides/iportionformateffectivedata) | Immutable object which contains effective text portion formatting properties. |
-| [IPptOptions](../com.aspose.slides/ipptoptions) | Provides options that control how a presentation is saved in PPT format. |
-| [IPptxOptions](../com.aspose.slides/ipptxoptions) | Represents options for saving OpenXml presentations (PPTX, PPSX, POTX, PPTM, PPSM, POTM). |
-| [IPresentation](../com.aspose.slides/ipresentation) | Presentation document |
-| [IPresentationAnimationPlayer](../com.aspose.slides/ipresentationanimationplayer) | Represents a player of the animation. |
-| [IPresentationComponent](../com.aspose.slides/ipresentationcomponent) | Represents a component of a presentation. |
-| [IPresentationFactory](../com.aspose.slides/ipresentationfactory) | Allows to create presentation via COM interface |
-| [IPresentationHeaderFooterManager](../com.aspose.slides/ipresentationheaderfootermanager) | Represents manager which holds behavior of all footer, date-time and page number placeholders of presentation. |
-| [IPresentationInfo](../com.aspose.slides/ipresentationinfo) | Information about presentation file |
-| [IPresentationSignedWarningInfo](../com.aspose.slides/ipresentationsignedwarninginfo) | This warning indicates that the presentation being read has the signature and this signature will be removed during processing. |
-| [IPresentationText](../com.aspose.slides/ipresentationtext) | Represents the text extracted from the slide |
-| [IPresetShadow](../com.aspose.slides/ipresetshadow) | Represents a Preset Shadow effect. |
-| [IPresetShadowEffectiveData](../com.aspose.slides/ipresetshadoweffectivedata) | Immutable object which represents a Preset Shadow effect. |
-| [IProgressCallback](../com.aspose.slides/iprogresscallback) | Represents a callback object for saving progress updates in percentage. |
-| [IPropertyEffect](../com.aspose.slides/ipropertyeffect) | Represent property effect behavior. |
-| [IProtectionManager](../com.aspose.slides/iprotectionmanager) | Presentation password protection management. |
-| [IReflection](../com.aspose.slides/ireflection) | Represents a reflection effect. |
-| [IReflectionEffectiveData](../com.aspose.slides/ireflectioneffectivedata) | Immutable object which represents a Reflection effect. |
-| [IRenderingOptions](../com.aspose.slides/irenderingoptions) | Provides options that control how a presentation/slide is rendered. |
-| [IResourceLoadingArgs](../com.aspose.slides/iresourceloadingargs) | Interface for external resource loading arguments. |
-| [IResourceLoadingCallback](../com.aspose.slides/iresourceloadingcallback) | Callback interface used to manage external resources loading. |
-| [IResponsiveHtmlController](../com.aspose.slides/iresponsivehtmlcontroller) | Responsive HTML Controller |
-| [IRevealTransition](../com.aspose.slides/irevealtransition) | Reveal slide transition effect. |
-| [IRippleTransition](../com.aspose.slides/irippletransition) | Ripple slide transition effect. |
-| [IRotation3D](../com.aspose.slides/irotation3d) | Represents 3D rotation of a chart. |
-| [IRotationEffect](../com.aspose.slides/irotationeffect) | Represent rotation behavior of effect. |
-| [IRow](../com.aspose.slides/irow) | Represents a row in a table. |
-| [IRowCollection](../com.aspose.slides/irowcollection) | Represents table row collection. |
-| [IRowFormat](../com.aspose.slides/irowformat) | Represents format of a table row. |
-| [IRowFormatEffectiveData](../com.aspose.slides/irowformateffectivedata) | Immutable object which contains effective table row formatting properties. |
-| [ISVGOptions](../com.aspose.slides/isvgoptions) | Represents an SVG options. |
-| [ISaveOptions](../com.aspose.slides/isaveoptions) | Options that control how a presentation is saved. |
-| [ISaveOptionsFactory](../com.aspose.slides/isaveoptionsfactory) | Allows to create save options' instances |
-| [IScaleEffect](../com.aspose.slides/iscaleeffect) | Represents animation scale effect. |
-| [ISection](../com.aspose.slides/isection) | Represents section of slides. |
-| [ISectionCollection](../com.aspose.slides/isectioncollection) | Represents a collection of sections. |
-| [ISectionSlideCollection](../com.aspose.slides/isectionslidecollection) | Represents a collection of a slides in the section. |
-| [ISectionZoomFrame](../com.aspose.slides/isectionzoomframe) | Represents a Section Zoom object in a slide. |
-| [ISensitivityLabel](../com.aspose.slides/isensitivitylabel) | Represents the sensitivity label from Microsoft Purview Information Protection. |
-| [ISensitivityLabelCollection](../com.aspose.slides/isensitivitylabelcollection) | Represents a collection of sensitivity labels applied to the document. |
-| [ISequence](../com.aspose.slides/isequence) | Represents sequence (collection of effects). |
-| [ISequenceCollection](../com.aspose.slides/isequencecollection) | Represents collection of interactive sequences. |
-| [ISetEffect](../com.aspose.slides/iseteffect) | Represents a set effect for an animation behavior. |
-| [IShape](../com.aspose.slides/ishape) | Represents a shape on a slide. |
-| [IShapeBevel](../com.aspose.slides/ishapebevel) | Represents properties of shape's main face relief. |
-| [IShapeBevelEffectiveData](../com.aspose.slides/ishapebeveleffectivedata) | Immutable object which contains effective shape's face relief properties. |
-| [IShapeCollection](../com.aspose.slides/ishapecollection) | Represents a collection of shapes. |
-| [IShapeElement](../com.aspose.slides/ishapeelement) | Represents a part of shape with same outline and fill properties. |
-| [IShapeFrame](../com.aspose.slides/ishapeframe) | Represents shape frame's properties. |
-| [IShapeStyle](../com.aspose.slides/ishapestyle) | Represent shape's style reference. |
-| [IShredTransition](../com.aspose.slides/ishredtransition) | Shred slide transition effect. |
-| [ISideDirectionTransition](../com.aspose.slides/isidedirectiontransition) | Side direction slide transition effect. |
-| [ISingleCellChartValue](../com.aspose.slides/isinglecellchartvalue) | Represents a chart data cell. |
-| [ISketchFormat](../com.aspose.slides/isketchformat) | Represents properties for lines sketch format. |
-| [ISketchFormatEffectiveData](../com.aspose.slides/isketchformateffectivedata) | Immutable object which contains effective line sketch properties. |
-| [ISlide](../com.aspose.slides/islide) | Represents a slide in a presentation. |
-| [ISlideCollection](../com.aspose.slides/islidecollection) | Represents a collection of a slides. |
-| [ISlideComponent](../com.aspose.slides/islidecomponent) | Represents a component of a slide. |
-| [ISlideHeaderFooterManager](../com.aspose.slides/islideheaderfootermanager) | Represents manager which holds behavior of the slide footer, date-time, page number placeholders. |
-| [ISlideImageFormat](../com.aspose.slides/islideimageformat) | Determines format in which slide image will be saved for presentation to HTML export. |
-| [ISlideShowTransition](../com.aspose.slides/islideshowtransition) | Represents slide show transition. |
-| [ISlideSize](../com.aspose.slides/islidesize) | Represents the size and orientation of a slide. |
-| [ISlideText](../com.aspose.slides/islidetext) | Represents the text extracted from the slide |
-| [ISlidesLayoutOptions](../com.aspose.slides/islideslayoutoptions) | Represents the presentation layout mode for export. |
-| [ISlidesPicture](../com.aspose.slides/islidespicture) | Represents a picture in a presentation. |
-| [ISmartArt](../com.aspose.slides/ismartart) | Represents a SmartArt diagram. |
-| [ISmartArtNode](../com.aspose.slides/ismartartnode) | Represents node of a SmartArt diagram. |
-| [ISmartArtNodeCollection](../com.aspose.slides/ismartartnodecollection) | Represents a collection of SmartArt nodes. |
-| [ISmartArtShape](../com.aspose.slides/ismartartshape) | Represents a shape inside SmartArt diagram |
-| [ISmartArtShapeCollection](../com.aspose.slides/ismartartshapecollection) | Represents a collection of SmartArt shapes |
-| [ISoftEdge](../com.aspose.slides/isoftedge) | Represents a Soft Edge effect. |
-| [ISoftEdgeEffectiveData](../com.aspose.slides/isoftedgeeffectivedata) | Immutable object which represents a soft edge effect. |
-| [ISplitTransition](../com.aspose.slides/isplittransition) | Split slide transition effect. |
-| [ISpreadsheetOptions](../com.aspose.slides/ispreadsheetoptions) | Represents options which can be used to specify additional spreadsheets behavior. |
-| [IStringChartValue](../com.aspose.slides/istringchartvalue) | Represent string value which can be stored in pptx presentation document in two ways: 1) in cell/cells of workbook related to chart; 2) as literal value. |
-| [IStringOrDoubleChartValue](../com.aspose.slides/istringordoublechartvalue) | Represent string or double value which can be stored in pptx presentation document in two ways: 1) in cell/cells of workbook related to chart; 2) as literal value. |
-| [ISummaryZoomFrame](../com.aspose.slides/isummaryzoomframe) | Represents a Summary Zoom frame in a slide. |
-| [ISummaryZoomSection](../com.aspose.slides/isummaryzoomsection) | Represents a Summary Zoom Section object in a Summary Zoom frame. |
-| [ISummaryZoomSectionCollection](../com.aspose.slides/isummaryzoomsectioncollection) | Represents a collection of Summary Zoom Section objects. |
-| [ISvgImage](../com.aspose.slides/isvgimage) | Represents an SVG image. |
-| [ISvgShape](../com.aspose.slides/isvgshape) | Represents options for SVG shape. |
-| [ISvgShapeAndTextFormattingController](../com.aspose.slides/isvgshapeandtextformattingcontroller) | Controls SVG shape and text generation. |
-| [ISvgShapeFormattingController](../com.aspose.slides/isvgshapeformattingcontroller) | Controls SVG shape generation. |
-| [ISvgTSpan](../com.aspose.slides/isvgtspan) | Represents options for SVG text portion ("tspan"). |
-| [ISwfOptions](../com.aspose.slides/iswfoptions) | Provides options that control how a presentation is saved in SWF format. |
-| [ITab](../com.aspose.slides/itab) | Represents a tabulation for a text. |
-| [ITabCollection](../com.aspose.slides/itabcollection) | Represents a collection of tabs. |
-| [ITabEffectiveData](../com.aspose.slides/itabeffectivedata) | Immutable object which contains effective text's tabulation stop properties. |
-| [ITabFactory](../com.aspose.slides/itabfactory) | Allow to create ITab instances |
-| [ITable](../com.aspose.slides/itable) | Represents a table on a slide. |
-| [ITableFormat](../com.aspose.slides/itableformat) | Represents format of a table. |
-| [ITableFormatEffectiveData](../com.aspose.slides/itableformateffectivedata) | Immutable object which contains effective table formatting properties. |
-| [ITagCollection](../com.aspose.slides/itagcollection) | Represents the collection of tags (user defined pairs of strings) |
-| [ITemplateEngine](../com.aspose.slides/itemplateengine) | Represents a template engine that transforms template and data pair into resulting output (usually HTML). |
-| [ITextAnimation](../com.aspose.slides/itextanimation) | Represent text animation. |
-| [ITextAnimationCollection](../com.aspose.slides/itextanimationcollection) | Represents collection of text animations. |
-| [ITextFrame](../com.aspose.slides/itextframe) | Represents a TextFrame. |
-| [ITextFrameFormat](../com.aspose.slides/itextframeformat) | Contains the TextFrame's formatting properties. |
-| [ITextFrameFormatEffectiveData](../com.aspose.slides/itextframeformateffectivedata) | Immutable object which contains effective text frame formatting properties. |
-| [ITextHighlightingOptions](../com.aspose.slides/itexthighlightingoptions) | Represents options which can be used to highlight text in text frame. |
-| [ITextSearchOptions](../com.aspose.slides/itextsearchoptions) | Represents options that can be used to search for text in a Presentation, Slide or TextFrame. |
-| [ITextStyle](../com.aspose.slides/itextstyle) | Text style formatting properties. |
-| [ITextStyleEffectiveData](../com.aspose.slides/itextstyleeffectivedata) | Immutable object which contains effective text style properties. |
-| [ITextToHtmlConversionOptions](../com.aspose.slides/itexttohtmlconversionoptions) | Options for extracting HTML from the Pptx text. |
-| [ITheme](../com.aspose.slides/itheme) | Represents a theme. |
-| [IThemeEffectiveData](../com.aspose.slides/ithemeeffectivedata) | Immutable object which contains effective theme properties. |
-| [IThemeManager](../com.aspose.slides/ithememanager) | Represent theme properties. |
-| [IThemeable](../com.aspose.slides/ithemeable) | Represents objects that can be themed with [ITheme](../com.aspose.slides/itheme). |
-| [IThreeDFormat](../com.aspose.slides/ithreedformat) | Represents 3-D properties. |
-| [IThreeDFormatEffectiveData](../com.aspose.slides/ithreedformateffectivedata) | Immutable object which represents effective 3-D formatting properties. |
-| [IThreeDParamSource](../com.aspose.slides/ithreedparamsource) | 3D properties source auxiliary interface |
-| [ITiffOptions](../com.aspose.slides/itiffoptions) | Provides options that control how a presentation is saved in TIFF format. |
-| [ITiming](../com.aspose.slides/itiming) | Represents animation timing. |
-| [ITint](../com.aspose.slides/itint) | Represents a Tint effect. |
-| [ITintEffectiveData](../com.aspose.slides/itinteffectivedata) | Immutable object which represents a Tint effect. |
-| [ITransitionValueBase](../com.aspose.slides/itransitionvaluebase) | Represents base class for slide transition effects. |
-| [ITrendline](../com.aspose.slides/itrendline) | Class represents trend line of chart series |
-| [ITrendlineCollection](../com.aspose.slides/itrendlinecollection) | Represents a collection of TrendlineEx |
-| [IUpDownBarsManager](../com.aspose.slides/iupdownbarsmanager) | Provide access to up/down bars of Line- or Stock-chart. |
-| [IVbaModule](../com.aspose.slides/ivbamodule) | Represents module that is contained in VBA project. |
-| [IVbaModuleCollection](../com.aspose.slides/ivbamodulecollection) | Represents a collection of a VBA Project modules. |
-| [IVbaProject](../com.aspose.slides/ivbaproject) | Represents VBA project with presentation macros. |
-| [IVbaProjectFactory](../com.aspose.slides/ivbaprojectfactory) | Allows to create VBA project via COM interface |
-| [IVbaReference](../com.aspose.slides/ivbareference) | Represents the name of the VBA project reference. |
-| [IVbaReferenceCollection](../com.aspose.slides/ivbareferencecollection) | Represents a collection of a VBA Project references. |
-| [IVbaReferenceFactory](../com.aspose.slides/ivbareferencefactory) | Allows to create VBA project references via COM interface |
-| [IVbaReferenceOleTwiddledTypeLib](../com.aspose.slides/ivbareferenceoletwiddledtypelib) | Represents modified OLE Automation type library reference in which all controls are marked as extensible. |
-| [IVbaReferenceOleTypeLib](../com.aspose.slides/ivbareferenceoletypelib) | Represents OLE Automation type library reference. |
-| [IVbaReferenceProject](../com.aspose.slides/ivbareferenceproject) | Represents reference to an external VBA project. |
-| [IVideo](../com.aspose.slides/ivideo) | Represents a video embedded into a presentation. |
-| [IVideoCollection](../com.aspose.slides/ivideocollection) | Represents a collection of Video objects. |
-| [IVideoFrame](../com.aspose.slides/ivideoframe) | Represents a video clip on a slide. |
-| [IVideoPlayerHtmlController](../com.aspose.slides/ivideoplayerhtmlcontroller) | This class allows export of video and audio files into a HTML |
-| [IVideoPlayerHtmlControllerFactory](../com.aspose.slides/ivideoplayerhtmlcontrollerfactory) | Allows to create VideoPlayerHtmlController. |
-| [IViewProperties](../com.aspose.slides/iviewproperties) | Presentation wide view properties. |
-| [IWarningCallback](../com.aspose.slides/iwarningcallback) | Interface for classes which receive warning |
-| [IWarningInfo](../com.aspose.slides/iwarninginfo) | Represents a base interface for all warnings. |
-| [IWheelTransition](../com.aspose.slides/iwheeltransition) | Wheel slide transition effect. |
-| [IXamlOptions](../com.aspose.slides/ixamloptions) | Options that control how a XAML document is saved. |
-| [IXamlOutputSaver](../com.aspose.slides/ixamloutputsaver) | Represents an output saver implementation for transfer data to the external storage. |
-| [IXpsOptions](../com.aspose.slides/ixpsoptions) | Provides options that control how a presentation is saved in XPS format. |
-| [IZoomFrame](../com.aspose.slides/izoomframe) | Represents a Slide Zoom object in a slide. |
-| [IZoomObject](../com.aspose.slides/izoomobject) | Represents a Zoom object in a slide. |
+| [IAIConversation](../com.aspose.slides/iaiconversation) | เป็นตัวแทนของอินสแตนซ์การสนทนา. |
+| [IAIWebClient](../com.aspose.slides/iaiwebclient) | อินเทอร์เฟซไคลเอนต์ AI Web. |
+| [IAccessiblePVIObject<T>](../com.aspose.slides/iaccessiblepviobject) | เป็นตัวแทนของประเภทที่สามารถคืนค่าข้อมูลที่มีผลตามสืบทอดที่ใช้แล้ว |
+| [IActualLayout](../com.aspose.slides/iactuallayout) | ระบุตำแหน่งจริงของอองค์ประกอบแผนภูมิ |
+| [IAdjustValue](../com.aspose.slides/iadjustvalue) | เป็นตัวแทนของค่าการปรับรูปร่างเรขาคณิต |
+| [IAdjustValueCollection](../com.aspose.slides/iadjustvaluecollection) | เป็นตัวแทนของคอลเล็กชันของการปรับรูปร่าง |
+| [IAlphaBiLevel](../com.aspose.slides/ialphabilevel) | เป็นตัวแทนของเอฟเฟกต์ Alpha Bi-Level |
+| [IAlphaBiLevelEffectiveData](../com.aspose.slides/ialphabileveleffectivedata) | อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของเอฟเฟกต์ Alpha Bi-Level |
+| [IAlphaCeiling](../com.aspose.slides/ialphaceiling) | เป็นตัวแทนของเอฟเฟกต์ Alpha Ceiling |
+| [IAlphaCeilingEffectiveData](../com.aspose.slides/ialphaceilingeffectivedata) | อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของเอฟเฟกต์ Alpha Ceiling |
+| [IAlphaFloor](../com.aspose.slides/ialphafloor) | เป็นตัวแทนของเอฟเฟกต์ Alpha Floor |
+| [IAlphaFloorEffectiveData](../com.aspose.slides/ialphaflooreffectivedata) | อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของเอฟเฟกต์ Alpha Floor |
+| [IAlphaInverse](../com.aspose.slides/ialphainverse) | เป็นตัวแทนของเอฟเฟกต์ Alpha Inverse |
+| [IAlphaInverseEffectiveData](../com.aspose.slides/ialphainverseeffectivedata) | อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของเอฟเฟกต์ Alpha Inverse |
+| [IAlphaModulate](../com.aspose.slides/ialphamodulate) | เป็นตัวแทนของเอฟเฟกต์ Alpha Modulate |
+| [IAlphaModulateEffectiveData](../com.aspose.slides/ialphamodulateeffectivedata) | อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของเอฟเฟกต์ Alpha Modulate |
+| [IAlphaModulateFixed](../com.aspose.slides/ialphamodulatefixed) | เป็นตัวแทนของเอฟเฟกต์ Alpha Modulate Fixed |
+| [IAlphaModulateFixedEffectiveData](../com.aspose.slides/ialphamodulatefixedeffectivedata) | อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของเอฟเฟกต์ Alpha Modulate Fixed |
+| [IAlphaReplace](../com.aspose.slides/ialphareplace) | เป็นตัวแทนของอินเทอร์เฟซ IImageTransformOperation เบื้องต้น |
+| [IAlphaReplaceEffectiveData](../com.aspose.slides/ialphareplaceeffectivedata) | อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของเอฟเฟกต์ Alpha Replace |
+| [IAnimationTimeLine](../com.aspose.slides/ianimationtimeline) | เป็นตัวแทนของไทม์ไลน์ของแอนิเมชัน |
+| [IAudio](../com.aspose.slides/iaudio) | เป็นตัวแทนของไฟล์เสียงที่ฝังอยู่ |
+| [IAudioCollection](../com.aspose.slides/iaudiocollection) | เป็นตัวแทนของคอลเล็กชันของไฟล์เสียงที่ฝังอยู่ |
+| [IAudioFrame](../com.aspose.slides/iaudioframe) | เป็นตัวแทนของคลิปเสียงบนสไลด์ |
+| [IAutoShape](../com.aspose.slides/iautoshape) | เป็นตัวแทนของ AutoShape |
+| [IAutoShapeLock](../com.aspose.slides/iautoshapelock) | กำหนดว่าโอเปอเรชั่นใดถูกปิดการใช้งานบน AutoshapeEx พาเรนท์ |
+| [IAxesManager](../com.aspose.slides/iaxesmanager) | ให้การเข้าถึงแกนของแผนภูมิ |
+| [IAxis](../com.aspose.slides/iaxis) | ห่อหุ้มอ็อบเจกต์ที่เป็นตัวแทนของแกนของแผนภูมิ |
+| [IAxisFormat](../com.aspose.slides/iaxisformat) | เป็นตัวแทนของคุณสมบัติรูปแบบของแผนภูมิ |
+| [IBackdrop3DScene](../com.aspose.slides/ibackdrop3dscene) | กำหนดระนาบที่เอฟเฟกต์ เช่น แสงเรืองแสงและเงา ถูกนำไปใช้สัมพันธ์กับรูปร่างที่ถูกนำไปใช้ |
+| [IBackground](../com.aspose.slides/ibackground) | เป็นตัวแทนของพื้นหลังของสไลด์ |
+| [IBackgroundEffectiveData](../com.aspose.slides/ibackgroundeffectivedata) | อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติเพื้นหลังที่มีผล |
+| [IBaseChartValue](../com.aspose.slides/ibasechartvalue) | เป็นตัวแทนของค่าของแผนภูมิ |
+| [IBaseHandoutNotesSlideHeaderFooterManag](../com.aspose.slides/ibasehandoutnotesslideheaderfootermanag) | เป็นตัวแทนของผู้จัดการที่ควบคุมการทำงานของตัวแทนตำแหน่ง รวมถึงหัวกระดาษสำหรับสไลด์ handout และ notes ทุกประเภท |
+| [IBaseHeaderFooterManager](../com.aspose.slides/ibaseheaderfootermanager) | เป็นตัวแทนของผู้จัดการที่ควบคุมการทำงานของส่วนท้าย, วันที่-เวลา, ตัวเลขหน้าในตัวแทนตำแหน่งสำหรับสไลด์ทุกประเภท |
+| [IBasePortionFormat](../com.aspose.slides/ibaseportionformat) | คลาสนี้บรรจุคุณสมบัติการจัดรูปแบบส่วนของข้อความ |
+| [IBasePortionFormatEffectiveData](../com.aspose.slides/ibaseportionformateffectivedata) | อินเทอร์เฟซพื้นฐานสำหรับอ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติการจัดรูปแบบส่วนของข้อความที่มีผล |
+| [IBaseShapeLock](../com.aspose.slides/ibaseshapelock) | เป็นตัวแทนของการล็อก Shape (การดำเนินการที่ปิดการใช้งาน) |
+| [IBaseSlide](../com.aspose.slides/ibaseslide) | เป็นตัวแทนของข้อมูลทั่วไปสำหรับสไลด์ทุกประเภท |
+| [IBaseSlideHeaderFooterManager](../com.aspose.slides/ibaseslideheaderfootermanager) | เป็นตัวแทนของผู้จัดการที่ควบคุมการทำงานของส่วนท้าย, วันที่-เวลา, ตัวเลขหน้าในตัวแทนตำแหน่งสำหรับสไลด์ทุกประเภท |
+| [IBaseTableFormatEffectiveData](../com.aspose.slides/ibasetableformateffectivedata) | อินเทอร์เฟซพื้นฐานสำหรับอ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติการจัดรูปแบบตารางที่มีผล |
+| [IBehavior](../com.aspose.slides/ibehavior) | เป็นตัวแทนพฤติกรรมของคลาสพื้นฐานของเอฟเฟกต์ |
+| [IBehaviorCollection](../com.aspose.slides/ibehaviorcollection) | เป็นตัวแทนคอลเลกชันของเอฟเฟกต์พฤติกรรม |
+| [IBehaviorFactory](../com.aspose.slides/ibehaviorfactory) | อนุญาตให้สร้างเอฟเฟกต์แอนิเมชัน |
+| [IBehaviorProperty](../com.aspose.slides/ibehaviorproperty) | เป็นตัวแทนประเภทคุณสมบัติสำหรับพฤติกรรมแอนิเมชัน |
+| [IBehaviorPropertyCollection](../com.aspose.slides/ibehaviorpropertycollection) | เป็นตัวแทนคุณสมบัติการตั้งเวลาเพื่อพฤติกรรมของเอฟเฟ็กต์ |
+| [IBiLevel](../com.aspose.slides/ibilevel) | เป็นตัวแทนอินเทอร์เฟซ IImageTransformOperation พื้นฐาน |
+| [IBiLevelEffectiveData](../com.aspose.slides/ibileveleffectivedata) | อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของเอฟเฟกต์ระดับสอง (สีดำ/ขาว) |
+| [IBlobManagementOptions](../com.aspose.slides/iblobmanagementoptions) | Binary Large Object (BLOB) คือข้อมูลไบนารีที่จัดเก็บเป็นเอนทิตีเดียว - ตัวอย่างเช่น |
+| [IBlur](../com.aspose.slides/iblur) | เป็นตัวแทนเอฟเฟกต์เบลอร์ที่ใช้กับรูปทรงทั้งหมด รวมถึงการเติมสีของมัน |
+| [IBlurEffectiveData](../com.aspose.slides/iblureffectivedata) | อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของเอฟเฟกต์เบลอร์ที่ใช้กับรูปทรงทั้งหมด รวมถึงการเติมสีของมัน |
+| [IBrightnessContrast](../com.aspose.slides/ibrightnesscontrast) | เป็นตัวแทนเอฟเฟกต์ BrightnessContrast |
+| [IBrightnessContrastEffectiveData](../com.aspose.slides/ibrightnesscontrasteffectivedata) | อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของเอฟเฟกต์ BrightnessContrast |
+| [IBulkTextFormattable](../com.aspose.slides/ibulktextformattable) | เป็นตัวแทนอ็อบเจกต์ที่สามารถตั้งค่าฟอร์แมตขององค์ประกอบข้อความย่อยเป็นกลุ่มได้ |
+| [IBulletFormat](../com.aspose.slides/ibulletformat) | เป็นตัวแทนคุณสมบัติการจัดรูปแบบสัญญาณแท่งในย่อหน้า |
+| [IBulletFormatEffectiveData](../com.aspose.slides/ibulletformateffectivedata) | อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติการจัดรูปแบบสัญญาณแท่งที่มีผลในย่อหน้า |
+| [ICamera](../com.aspose.slides/icamera) | เป็นตัวแทนกล้อง |
+| [ICameraEffectiveData](../com.aspose.slides/icameraeffectivedata) | อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติกล้องที่มีผล |
+| [ICaptions](../com.aspose.slides/icaptions) | เป็นตัวแทนคำบรรยายปิดของ WebVTT |
+| [ICaptionsCollection](../com.aspose.slides/icaptionscollection) | เป็นตัวแทนคอลเลกชันของคำบรรยายปิด |
+| [ICell](../com.aspose.slides/icell) | เป็นตัวแทนเซลล์ในตาราง |
+| [ICellCollection](../com.aspose.slides/icellcollection) | เป็นตัวแทนคอลเลกชันของเซลล์ |
+| [ICellFormat](../com.aspose.slides/icellformat) | เป็นตัวแทนรูปแบบของเซลล์ตาราง |
+| [ICellFormatEffectiveData](../com.aspose.slides/icellformateffectivedata) | อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติการจัดรูปแบบเซลล์ตารางที่มีผล |
+| [IChart](../com.aspose.slides/ichart) | เป็นตัวแทนแผนภูมิกราฟิกบนสไลด์ |
+| [IChartCategory](../com.aspose.slides/ichartcategory) | เป็นตัวแทนหมวดหมู่ของแผนภูมิ |
+| [IChartCategoryCollection](../com.aspose.slides/ichartcategorycollection) | เป็นตัวแทนคอลเลกชันของ [IChartCategory](../com.aspose.slides/ichartcategory) |
+| [IChartCategoryLevelsManager](../com.aspose.slides/ichartcategorylevelsmanager) | คอนเทนเนอร์ที่จัดการค่าของระดับหมวดหมู่แผนภูมิ |
+| [IChartCellCollection](../com.aspose.slides/ichartcellcollection) | เป็นตัวแทนคอลเลกชันของเซลล์ที่มีข้อมูล |
+| [IChartComponent](../com.aspose.slides/ichartcomponent) | เป็นตัวแทนส่วนประกอบของแผนภูมิ |
+| [IChartData](../com.aspose.slides/ichartdata) | เป็นตัวแทนข้อมูลที่ใช้ในการพล็อตแผนภูมิ |
+| [IChartDataCell](../com.aspose.slides/ichartdatacell) | เป็นตัวแทนเซลล์สำหรับข้อมูลแผนภูมิ |
+| [IChartDataPoint](../com.aspose.slides/ichartdatapoint) | เป็นตัวแทนจุดข้อมูลของชุด |
+| [IChartDataPointCollection](../com.aspose.slides/ichartdatapointcollection) | เป็นตัวแทนคอลเลกชันของจุดข้อมูลของชุด |
+| [IChartDataPointLevel](../com.aspose.slides/ichartdatapointlevel) | เป็นตัวแทนระดับของจุดข้อมูล |
+| [IChartDataPointLevelsManager](../com.aspose.slides/ichartdatapointlevelsmanager) | คอนเทนเนอร์ของระดับจุดข้อมูล |
+| [IChartDataWorkbook](../com.aspose.slides/ichartdataworkbook) | ให้การเข้าถึงเวิร์กบุ๊ก Excel ที่ฝังอยู่ |
+| [IChartDataWorksheet](../com.aspose.slides/ichartdataworksheet) | เป็นเวิร์กชีตที่เชื่อมโยงกับ [IChartDataCell](../com.aspose.slides/ichartdatacell) |
+| [IChartDataWorksheetCollection](../com.aspose.slides/ichartdataworksheetcollection) | เป็นตัวแทนคอลเลกชันของเวิร์กชีตของเวิร์กบุ๊กข้อมูลแผนภูมิ |
+| [IChartLinesFormat](../com.aspose.slides/ichartlinesformat) | เป็นตัวแทนคุณสมบัติการจัดรูปแบบเส้นกริด |
+| [IChartParagraphFormat](../com.aspose.slides/ichartparagraphformat) | เป็นตัวแทนคุณสมบัติการจัดรูปแบบย่อหน้าของแผนภูมิ |
+| [IChartPlotArea](../com.aspose.slides/ichartplotarea) | เป็นตัวแทนคุณสมบัติหัวเรื่องของแผนภูมิ |
+| [IChartPortionFormat](../com.aspose.slides/ichartportionformat) | เป็นตัวแทนคุณสมบัติการจัดรูปแบบส่วนของแผนภูมิที่ใช้ในแผนภูมิ |
+| [IChartSeries](../com.aspose.slides/ichartseries) | เป็นตัวแทนชุดของแผนภูมิ |
+| [IChartSeriesCollection](../com.aspose.slides/ichartseriescollection) | เป็นตัวแทนคอลเลกชันของ [IChartSeries](../com.aspose.slides/ichartseries) |
+| [IChartSeriesGroup](../com.aspose.slides/ichartseriesgroup) | เป็นตัวแทนกลุ่มของชุด |
+| [IChartSeriesGroupCollection](../com.aspose.slides/ichartseriesgroupcollection) | เป็นตัวแทนคอลเลกชันของกลุ่มของชุดที่สามารถรวมกันได้ |
+| [IChartSeriesReadonlyCollection](../com.aspose.slides/ichartseriesreadonlycollection) | เป็นคอลเลกชันแบบอ่านอย่างเดียวของ [IChartSeries](../com.aspose.slides/ichartseries) |
+| [IChartTextBlockFormat](../com.aspose.slides/icharttextblockformat) | เป็นตัวแทนคุณสมบัติการจัดรูปแบบสำหรับองค์ประกอบข้อความของแผนภูมิ |
+| [IChartTextFormat](../com.aspose.slides/icharttextformat) | แผนภูมิทำงานด้วยชุดจำกัดของคุณสมบัติการจัดรูปแบบข้อความ |
+| [IChartTitle](../com.aspose.slides/icharttitle) | เป็นตัวแทนคุณสมบัติหัวเรื่องของแผนภูมิ |
+| [IChartWall](../com.aspose.slides/ichartwall) | เป็นตัวแทนผนังในแผนภูมิ 3 มิติ |
+| [IColorChange](../com.aspose.slides/icolorchange) | เป็นตัวแทนเอฟเฟกต์การเปลี่ยนสี |
+| [IColorChangeEffectiveData](../com.aspose.slides/icolorchangeeffectivedata) | อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของเอฟเฟกต์การเปลี่ยนสี |
+| [IColorEffect](../com.aspose.slides/icoloreffect) | เป็นตัวแทนเอฟเฟ็กต์สีสำหรับพฤติกรรมแอนิเมชัน |
+| [IColorFormat](../com.aspose.slides/icolorformat) | เป็นตัวแทนสีที่ใช้ในงานนำเสนอ |
+| [IColorOffset](../com.aspose.slides/icoloroffset) | เป็นตัวแทนการเยื้องสี |
+| [IColorOperation](../com.aspose.slides/icoloroperation) | เป็นตัวแทนการดำเนินการสีต่างๆ ที่ใช้ในการแปลงสี |
+| [IColorOperationCollection](../com.aspose.slides/icoloroperationcollection) | เป็นตัวแทนคอลเลกชันของการดำเนินการแปลงสี |
+| [IColorReplace](../com.aspose.slides/icolorreplace) | เป็นตัวแทนเอฟเฟกต์การแทนที่สี |
+| [IColorReplaceEffectiveData](../com.aspose.slides/icolorreplaceeffectivedata) | อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของเอฟเฟกต์การแทนที่สี |
+| [IColorScheme](../com.aspose.slides/icolorscheme) | เก็บสีที่กำหนดโดยธีม |
+| [IColorSchemeEffectiveData](../com.aspose.slides/icolorschemeeffectivedata) | อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติโครงร่างสีที่มีผล |
+| [IColumn](../com.aspose.slides/icolumn) | เป็นตัวแทนคอลัมน์ในตาราง |
+| [IColumnCollection](../com.aspose.slides/icolumncollection) | เป็นตัวแทนคอลเลกชันของคอลัมน์ในตาราง |
+| [IColumnFormat](../com.aspose.slides/icolumnformat) | เป็นตัวแทนรูปแบบของคอลัมน์ตาราง |
+| [IColumnFormatEffectiveData](../com.aspose.slides/icolumnformateffectivedata) | อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติการจัดรูปแบบคอลัมน์ตารางที่มีผล |
+| [ICommandEffect](../com.aspose.slides/icommandeffect) | เป็นตัวแทนเอฟเฟกต์คำสั่งสำหรับพฤติกรรมแอนิเมชัน |
+| [IComment](../com.aspose.slides/icomment) | เป็นตัวแทนความคิดเห็นบนสไลด์ |
+| [ICommentAuthor](../com.aspose.slides/icommentauthor) | เป็นตัวแทนผู้เขียนความคิดเห็น |
+| [ICommentAuthorCollection](../com.aspose.slides/icommentauthorcollection) | เป็นคอลเลกชันของผู้เขียนความคิดเห็น |
+| [ICommentCollection](../com.aspose.slides/icommentcollection) | เป็นคอลเลกชันของความคิดเห็นจากผู้เขียนคนเดียว |
+| [ICommonSlideViewProperties](../com.aspose.slides/icommonslideviewproperties) | เป็นตัวแทนคุณสมบัติวิวของสไลด์ทั่วไป |
+| [IConnector](../com.aspose.slides/iconnector) | เป็นตัวแทนคอนเนคเตอร์ |
+| [IConnectorLock](../com.aspose.slides/iconnectorlock) | กำหนดว่าการดำเนินการใดที่ถูกปิดการใช้งานบนคอนเนคเตอร์แม่ |
+| [IControl](../com.aspose.slides/icontrol) | เป็นตัวแทนคอนโทรล ActiveX |
+| [IControlCollection](../com.aspose.slides/icontrolcollection) | คอลเลกชันของคอนโทรล ActiveX |
+| [IControlPropertiesCollection](../com.aspose.slides/icontrolpropertiescollection) | คอลเลกชันของคอนโทรล ActiveX |
+| [ICornerDirectionTransition](../com.aspose.slides/icornerdirectiontransition) | เอฟเฟกต์การเปลี่ยนสไลด์แบบมุมมองมุม |
+| [ICustomData](../com.aspose.slides/icustomdata) | เป็นคอนเทนเนอร์สำหรับข้อมูลกำหนดเอง |
+| [ICustomXmlPart](../com.aspose.slides/icustomxmlpart) | เป็นส่วน XML กำหนดเอง |
+| [ICustomXmlPartCollection](../com.aspose.slides/icustomxmlpartcollection) | เป็นคอลเลกชันของส่วน XML กำหนดเอง |
+| [IDataLabel](../com.aspose.slides/idatalabel) | เป็นตัวแทนป้ายกำกับชุด |
+| [IDataLabelCollection](../com.aspose.slides/idatalabelcollection) | เป็นตัวแทนป้ายกำกับชุด |
+| [IDataLabelFormat](../com.aspose.slides/idatalabelformat) | เป็นตัวแทนตัวเลือกการจัดรูปแบบสำหรับ DataLabel |
+| [IDataSourceTypeForErrorBarsCustomValues](../com.aspose.slides/idatasourcetypeforerrorbarscustomvalues) | ระบุประเภทของค่าในรายการคุณสมบัติ ChartDataPoint.ErrorBarsCustomValues |
+| [IDataTable](../com.aspose.slides/idatatable) | เป็นตัวแทนคุณสมบัติของตารางข้อมูล |
+| [IDigitalSignature](../com.aspose.slides/idigitalsignature) | ลายเซ็นดิจิทัลในไฟล์ที่ลงนาม |
+| [IDigitalSignatureCollection](../com.aspose.slides/idigitalsignaturecollection) | เป็นคอลเลกชันของลายเซ็นดิจิทัลที่แนบกับเอกสาร |
+| [IDocumentProperties](../com.aspose.slides/idocumentproperties) | เป็นตัวแทนคุณสมบัติของงานนำเสนอ |
+| [IDoubleChartValue](../com.aspose.slides/idoublechartvalue) | เป็นตัวแทนค่าทศนิยมที่สามารถจัดเก็บในเอกสารงานนำเสนอ pptx ได้สองวิธี: 1) ในเซลล์/หลายเซลล์ของเวิร์กบุ๊กที่เกี่ยวข้องกับแผนภูมิ; 2) เป็นค่าตรง |
+| [IDrawingGuide](../com.aspose.slides/idrawingguide) | เป็นตัวแทนไกด์วาดที่ปรับได้ |
+| [IDrawingGuidesCollection](../com.aspose.slides/idrawingguidescollection) | เป็นคอลเลกชันของไกด์วาดที่ปรับได้ |
+| [IDuotone](../com.aspose.slides/iduotone) | เป็นตัวแทนเอฟเฟกต์ Duotone |
+| [IDuotoneEffectiveData](../com.aspose.slides/iduotoneeffectivedata) | อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนเอฟเฟกต์ Duotone |
+| [IEffect](../com.aspose.slides/ieffect) | เป็นตัวแทนเอฟเฟกต์แอนิเมชัน |
+| [IEffectEffectiveData](../com.aspose.slides/ieffecteffectivedata) | คลาสพื้นฐานสำหรับอ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนเอฟเฟกต์ |
+| [IEffectFactory](../com.aspose.slides/ieffectfactory) | อนุญาตให้สร้างอินสแตนซ์ของเอฟเฟกต์ |
+| [IEffectFormat](../com.aspose.slides/ieffectformat) | เป็นตัวแทนคุณสมบัติเอฟเฟกต์ของรูปร่าง |
+| [IEffectFormatEffectiveData](../com.aspose.slides/ieffectformateffectivedata) | อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติการจัดรูปแบบเอฟเฟกต์ที่มีผล |
+| [IEffectParamSource](../com.aspose.slides/ieffectparamsource) | อินเทอร์เฟซพารามิเตอร์เอฟเฟกต์ช่วยเหลือ |
+| [IEffectStyle](../com.aspose.slides/ieffectstyle) | เป็นตัวแทนสไตล์เอฟเฟกต์ |
+| [IEffectStyleCollection](../com.aspose.slides/ieffectstylecollection) | เป็นคอลเลกชันของสไตล์เอฟเฟกต์ |
+| [IEffectStyleCollectionEffectiveData](../com.aspose.slides/ieffectstylecollectioneffectivedata) | อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นคอลเลกชันแบบอ่านอย่างเดียวของสไตล์เอฟเฟกต์ที่มีผล |
+| [IEffectStyleEffectiveData](../com.aspose.slides/ieffectstyleeffectivedata) | อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติสไตล์เอฟเฟกต์ที่มีผล |
+| [IEightDirectionTransition](../com.aspose.slides/ieightdirectiontransition) | เอฟเฟกต์การเปลี่ยนสไลด์ในแปดทิศทาง |
+| [IEmbeddedEotFontsHtmlController](../com.aspose.slides/iembeddedeotfontshtmlcontroller) | ตัวควบคุม HTML สำหรับฟอนต์ Eot ฝัง |
+| [IEmbeddedWoffFontsHtmlController](../com.aspose.slides/iembeddedwofffontshtmlcontroller) | ตัวควบคุม HTML สำหรับฟอนต์ woff ฝัง |
+| [IEmptyTransition](../com.aspose.slides/iemptytransition) | เอฟเฟกต์การเปลี่ยนสไลด์เปล่า |
+| [IErrorBarsCustomValues](../com.aspose.slides/ierrorbarscustomvalues) | ระบุค่าของแถบข้อผิดพลาด |
+| [IErrorBarsFormat](../com.aspose.slides/ierrorbarsformat) | เป็นตัวแทนแถบข้อผิดพลาดของชุดแผนภูมิ |
+| [IExcelDataCell](../com.aspose.slides/iexceldatacell) | เป็นตัวแทนเซลล์เดียวในเวิร์กบุ๊ก Excel |
+| [IExcelDataWorkbook](../com.aspose.slides/iexceldataworkbook) | เป็นเวิร์กบุ๊กที่ให้การเข้าถึงข้อมูล Excel เพื่อการใช้งานทั่วไป |
+| [IExternalResourceResolver](../com.aspose.slides/iexternalresourceresolver) | อินเทอร์เฟซคอลแบ็กที่ใช้ในการแก้ไขทรัพยากรภายนอกระหว่างการนำเข้าเอกสาร Html, Svg |
+| [IExtraColorScheme](../com.aspose.slides/iextracolorscheme) | เป็นตัวแทนโครงร่างสีเพิ่มเติมที่สามารถกำหนดให้กับสไลด์ได้ |
+| [IExtraColorSchemeCollection](../com.aspose.slides/iextracolorschemecollection) | เป็นคอลเลกชันของโครงร่างสีเพิ่มเติม |
+| [IField](../com.aspose.slides/ifield) | เป็นตัวแทนฟิลด์ |
+| [IFieldType](../com.aspose.slides/ifieldtype) | เป็นตัวแทนประเภทของฟิลด์ |
+| [IFillFormat](../com.aspose.slides/ifillformat) | เป็นตัวแทนตัวเลือกการจัดรูปแบบการเติม |
+| [IFillFormatCollection](../com.aspose.slides/ifillformatcollection) | เป็นคอลเลกชันของสไตล์การเติม |
+| [IFillFormatCollectionEffectiveData](../com.aspose.slides/ifillformatcollectioneffectivedata) | อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นคอลเลกชันแบบอ่านอย่างเดียวของรูปแบบการเติมที่มีผล |
+| [IFillFormatEffectiveData](../com.aspose.slides/ifillformateffectivedata) | อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติการจัดรูปแบบการเติมที่มีผล |
+| [IFillOverlay](../com.aspose.slides/ifilloverlay) | เป็นตัวแทนเอฟเฟกต์ Fill Overlay |
+| [IFillOverlayEffectiveData](../com.aspose.slides/ifilloverlayeffectivedata) | อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนเอฟเฟกต์ Fill Overlay |
+| [IFillParamSource](../com.aspose.slides/ifillparamsource) | อินเทอร์เฟซพารามิเตอร์การเติมช่วยเหลือ |
+| [IFilterEffect](../com.aspose.slides/ifiltereffect) | เป็นตัวแทนเอฟเฟกต์ตัวกรองของพฤติกรรม |
+| [IFindResultCallback](../com.aspose.slides/ifindresultcallback) | อินเทอร์เฟซคอลแบ็กที่ใช้ในการรับผลลัพธ์การค้นหาข้อความ |
+| [IFlyThroughTransition](../com.aspose.slides/iflythroughtransition) | เอฟเฟกต์การเปลี่ยนสไลด์แบบบินผ่าน |
+| [IFontData](../com.aspose.slides/ifontdata) | เป็นตัวแทนคำนิยามฟอนต์ |
+| [IFontDataFactory](../com.aspose.slides/ifontdatafactory) | อินเทอร์เฟซโรงงาน FontData |
+| [IFontFallBackRule](../com.aspose.slides/ifontfallbackrule) | เป็นตัวแทนกฎการสำรองฟอนต์ |
+| [IFontFallBackRulesCollection](../com.aspose.slides/ifontfallbackrulescollection) | เป็นคอลเลกชันของกฎ FontFallBack ที่ผู้ใช้กำหนด |
+| [IFontScheme](../com.aspose.slides/ifontscheme) | เก็บฟอนต์ที่กำหนดโดยธีม |
+| [IFontSchemeEffectiveData](../com.aspose.slides/ifontschemeeffectivedata) | อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติโครงร่างฟอนต์ที่มีผล |
+| [IFontSources](../com.aspose.slides/ifontsources) | ให้แหล่งไฟล์และหน่วยความจำสำหรับฟอนต์ภายนอก |
+| [IFontSubstRule](../com.aspose.slides/ifontsubstrule) | เป็นตัวแทนข้อมูลการแทนที่ฟอนต์ |
+| [IFontSubstRuleCollection](../com.aspose.slides/ifontsubstrulecollection) | เป็นคอลเลกชันของการแทนที่ฟอนต์ |
+| [IFonts](../com.aspose.slides/ifonts) | เป็นคอลเลกชันของฟอนต์ |
+| [IFontsEffectiveData](../com.aspose.slides/ifontseffectivedata) | อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งมีชุดฟอนต์ที่มีผล |
+| [IFontsLoader](../com.aspose.slides/ifontsloader) | คลาสสำหรับโหลดฟอนต์กำหนดเองที่ผู้กำหนด |
+| [IFontsManager](../com.aspose.slides/ifontsmanager) | จัดการฟอนต์ทั่วทั้งงานนำเสนอ |
+| [IFormat](../com.aspose.slides/iformat) | เป็นตัวแทนคุณสมบัติรูปแบบของแผนภูมิ |
+| [IFormatFactory](../com.aspose.slides/iformatfactory) | อนุญาตให้สร้างรูปแบบผ่านอินเทอร์เฟซ COM |
+| [IFormatScheme](../com.aspose.slides/iformatscheme) | เก็บรูปแบบที่กำหนดโดยธีมสำหรับรูปร่าง |
+| [IFormatSchemeEffectiveData](../com.aspose.slides/iformatschemeeffectivedata) | อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติโครงร่างรูปแบบที่มีผล |
+| [IFormattedTextContainer](../com.aspose.slides/iformattedtextcontainer) | เป็นตัวแทนรูปแบบข้อความของแผนภูมิ |
+| [IGenericCloneable<T>](../com.aspose.slides/igenericcloneable) | เป็นเวอร์ชันทั่วไปของ ICloneable |
+| [IGenericCollection<T>](../com.aspose.slides/igenericcollection) | อินเทอร์เฟซคอลเลกชันทั่วไปช่วยเหลือ |
+| [IGeometryPath](../com.aspose.slides/igeometrypath) | เป็นตัวแทนเส้นทางเรขาคณิตของ GeometryShape |
+| [IGeometryShape](../com.aspose.slides/igeometryshape) | เป็นคลาสแม่สำหรับรูปร่างเรขาคณิตทั้งหมด |
+| [IGifOptions](../com.aspose.slides/igifoptions) | เป็นตัวแทนตัวเลือกการส่งออก GIF |
+| [IGlitterTransition](../com.aspose.slides/iglittertransition) | เอฟเฟกต์การเปลี่ยนสไลด์แบบแวววาว |
+| [IGlobalLayoutSlideCollection](../com.aspose.slides/igloballayoutslidecollection) | เป็นคอลเลกชันของสไลด์จัดวางทั้งหมดในงานนำเสนอ |
+| [IGlow](../com.aspose.slides/iglow) | เป็นตัวแทนเอฟเฟกต์ Glow ที่มีเส้นรอบสีเบลอร์เพิ่มขึ้นนอกขอบของวัตถุ |
+| [IGlowEffectiveData](../com.aspose.slides/igloweffectivedata) | อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนเอฟเฟกต์ Glow ที่มีเส้นรอบสีเบลอร์เพิ่มขึ้นนอกขอบของวัตถุ |
+| [IGradientFormat](../com.aspose.slides/igradientformat) | เป็นตัวแทนรูปแบบไล่ระดับสี |
+| [IGradientFormatEffectiveData](../com.aspose.slides/igradientformateffectivedata) | อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติการเติมไล่ระดับสีที่มีผล |
+| [IGradientStop](../com.aspose.slides/igradientstop) | เป็นตัวแทนรูปแบบไล่ระดับสี |
+| [IGradientStopCollection](../com.aspose.slides/igradientstopcollection) | เป็นคอลเลกชันของจุดหยุดไล่ระดับสี |
+| [IGradientStopCollectionEffectiveData](../com.aspose.slides/igradientstopcollectioneffectivedata) | เป็นคอลเลกชันของอ็อบเจกต์ GradientStopData |
+| [IGradientStopEffectiveData](../com.aspose.slides/igradientstopeffectivedata) | อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนจุดหยุดไล่ระดับสี |
+| [IGraphicalObject](../com.aspose.slides/igraphicalobject) | เป็นตัวแทนอ็อบเจกต์กราฟิกเชิงนามธรรม |
+| [IGraphicalObjectLock](../com.aspose.slides/igraphicalobjectlock) | กำหนดว่าการดำเนินการใดที่ถูกปิดการใช้งานบน GraphicalObject แม่ |
+| [IGrayScale](../com.aspose.slides/igrayscale) | เป็นตัวแทนอินเทอร์เฟซ IImageTransformOperation |
+| [IGrayScaleEffectiveData](../com.aspose.slides/igrayscaleeffectivedata) | อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของเอฟเฟกต์ Gray Scale |
+| [IGroupShape](../com.aspose.slides/igroupshape) | เป็นตัวแทนกลุ่มของรูปร่างบนสไลด์ |
+| [IGroupShapeLock](../com.aspose.slides/igroupshapelock) | กำหนดว่าการดำเนินการใดที่ถูกปิดการใช้งานบน GroupShape แม่ |
+| [IHSL](../com.aspose.slides/ihsl) | เป็นตัวแทนเอฟเฟกต์ Hue/Saturation/Luminance |
+| [IHSLEffectiveData](../com.aspose.slides/ihsleffectivedata) | เป็นตัวแทนเอฟเฟกต์ Hue/Saturation/Luminance |
+| [IHeadingPair](../com.aspose.slides/iheadingpair) | เป็นคุณสมบัติ 'Heading pair' ของเอกสาร |
+| [IHtml5Options](../com.aspose.slides/ihtml5options) | เป็นตัวเลือกการส่งออก HTML5 |
+| [IHtmlExternalResolver](../com.aspose.slides/ihtmlexternalresolver) | อินเทอร์เฟซคอลแบ็กที่ใช้โดยขั้นตอนการนำเข้า HTML เพื่อรับอ็อบเจกต์ที่อ้างอิงเช่นรูปภาพ |
+| [IHtmlFormatter](../com.aspose.slides/ihtmlformatter) | เป็นเทมเพลตไฟล์ HTML |
+| [IHtmlFormattingController](../com.aspose.slides/ihtmlformattingcontroller) | ควบคุมการสร้างไฟล์ html |
+| [IHtmlGenerator](../com.aspose.slides/ihtmlgenerator) | ตัวสร้าง Html |
+| [IHtmlOptions](../com.aspose.slides/ihtmloptions) | เป็นตัวเลือกการส่งออก HTML |
+| [IHyperlink](../com.aspose.slides/ihyperlink) | เป็นตัวแทนไฮเปอร์ลิงก์ |
+| [IHyperlinkContainer](../com.aspose.slides/ihyperlinkcontainer) | เป็นอ็อบเจกต์ไฮเปอร์ลิงก์ |
+| [IHyperlinkManager](../com.aspose.slides/ihyperlinkmanager) | ให้การจัดการไฮเปอร์ลิงก์ (การเพิ่ม, การลบ) |
+| [IHyperlinkQueries](../com.aspose.slides/ihyperlinkqueries) | ให้การเข้าถึงไฮเปอร์ลิงก์ที่บรรจุอยู่ได้อย่างง่ายดาย |
+| [IImage](../com.aspose.slides/iimage) | เป็นตัวแทนภาพแบบแรสเตอร์หรือเวกเตอร์ |
+| [IImageCollection](../com.aspose.slides/iimagecollection) | เป็นคอลเลกชันของ PPImage |
+| [IImageTransformOCollectionEffectiveData](../com.aspose.slides/iimagetransformocollectioneffectivedata) | อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นคอลเลกชันแบบอ่านอย่างเดียวของเอฟเฟกต์การแปลงภาพที่มีผล |
+| [IImageTransformOperation](../com.aspose.slides/iimagetransformoperation) | เป็นตัวแทนเอฟเฟกต์การแปลงภาพเชิงนามธรรม |
+| [IImageTransformOperationCollection](../com.aspose.slides/iimagetransformoperationcollection) | เป็นคอลเลกชันของเอฟเฟกต์ที่ใช้กับภาพ |
+| [IImageTransformOperationFactory](../com.aspose.slides/iimagetransformoperationfactory) | อนุญาตให้สร้างอินสแตนซ์ของเอฟเฟกต์ภาพ |
+| [IInOutTransition](../com.aspose.slides/iinouttransition) | เอฟเฟกต์การเปลี่ยนสไลด์แบบเข้า-ออก |
+| [IInk](../com.aspose.slides/iink) | เป็นตัวแทนอ็อบเจกต์หมึกบนสไลด์ |
+| [IInkActions](../com.aspose.slides/iinkactions) | เป็นตัวแทนอ็อบเจกต์หมึกบนสไลด์ |
+| [IInkBrush](../com.aspose.slides/iinkbrush) | เป็นตัวแทนแปรงร่าง |
+| [IInkOptions](../com.aspose.slides/iinkoptions) | ให้ตัวเลือกที่ควบคุมรูปลักษณ์ของวัตถุ Ink ในเอกสารที่ส่งออก |
+| [IInkTrace](../com.aspose.slides/iinktrace) | แสดงเส้นเขียนด้วยมือในวัตถุ Ink |
+| [IInnerShadow](../com.aspose.slides/iinnershadow) | แสดงเอฟเฟกต์เงาภายใน |
+| [IInnerShadowEffectiveData](../com.aspose.slides/iinnershadoweffectivedata) | อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งแสดงเอฟเฟกต์เงาภายใน |
+| [IInterruptionToken](../com.aspose.slides/iinterruptiontoken) | คลาสนี้แทนโทเคนที่ใช้สื่อสารงานที่ทำงานเป็นระยะเวลานานว่ามีการร้องขอการหยุดหรือไม่ |
+| [IInterruptionTokenSource](../com.aspose.slides/iinterruptiontokensource) | แสดงแหล่งที่มาของ [IInterruptionToken](../com.aspose.slides/iinterruptiontoken) |
+| [IKnownIssueWarningInfo](../com.aspose.slides/iknownissuewarninginfo) | แสดงคำเตือนเกี่ยวกับปัญหาที่รู้จักและจะไม่ถูกแก้ไขในเร็ว ๆ นี้ |
+| [ILayoutPlaceholderManager](../com.aspose.slides/ilayoutplaceholdermanager) | แสดงผู้จัดการที่อนุญาตให้คุณเพิ่มตัวเติมในสไลด์เค้าโครง |
+| [ILayoutSlide](../com.aspose.slides/ilayoutslide) | แสดงสไลด์เค้าโครง |
+| [ILayoutSlideCollection](../com.aspose.slides/ilayoutslidecollection) | แสดงคลาสฐานสำหรับการเก็บรวบรวมสไลด์เค้าโครง |
+| [ILayoutSlideHeaderFooterManager](../com.aspose.slides/ilayoutslideheaderfootermanager) | แสดงผู้จัดการที่ควบคุมพฤติกรรมของส่วนท้ายสไลด์เค้าโครง, ตัวเติมวันที่-เวลา, ตัวเติมเลขหน้าและตัวเติมทั้งหมดของลูก |
+| [ILayoutable](../com.aspose.slides/ilayoutable) | ระบุตำแหน่งที่แน่นอนขององค์ประกอบแผนภูมิ |
+| [ILeftRightDirectionTransition](../com.aspose.slides/ileftrightdirectiontransition) | เอฟเฟกต์การเปลี่ยนสไลด์ทิศทางซ้าย-ขวา |
+| [ILegacyDiagram](../com.aspose.slides/ilegacydiagram) | แสดงอ็อบเจ็กต์ไดอะแกรมแบบเก่า |
+| [ILegend](../com.aspose.slides/ilegend) | แสดงคุณสมบัติของคำอธิบายแผนภูมิ |
+| [ILegendEntryCollection](../com.aspose.slides/ilegendentrycollection) | แสดงคอลเลกชันของคำอธิบาย |
+| [ILegendEntryProperties](../com.aspose.slides/ilegendentryproperties) | แสดงคุณสมบัติของคำอธิบายของแผนภูมิ |
+| [ILicense](../com.aspose.slides/ilicense) | ให้เมธอดสำหรับทำลิขสิทธิ์คอมโพเนนท์ |
+| [ILightRig](../com.aspose.slides/ilightrig) | แสดง LightRig |
+| [ILightRigEffectiveData](../com.aspose.slides/ilightrigeffectivedata) | อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติของ LightRig ที่มีผล |
+| [ILineFillFormat](../com.aspose.slides/ilinefillformat) | แสดงคุณสมบัติสำหรับการเติมเส้น |
+| [ILineFillFormatEffectiveData](../com.aspose.slides/ilinefillformateffectivedata) | อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติการเติมเส้นที่มีผล |
+| [ILineFormat](../com.aspose.slides/ilineformat) | แสดงรูปแบบของเส้น |
+| [ILineFormatCollection](../com.aspose.slides/ilineformatcollection) | แสดงคอลเลกชันของสไตล์เส้น |
+| [ILineFormatCollectionEffectiveData](../com.aspose.slides/ilineformatcollectioneffectivedata) | อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งแสดงคอลเลกชันแบบอ่านได้อย่างเดียวของรูปแบบเส้นที่มีผล |
+| [ILineFormatEffectiveData](../com.aspose.slides/ilineformateffectivedata) | อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติการจัดรูปแบบเส้นที่มีผล |
+| [ILineParamSource](../com.aspose.slides/ilineparamsource) | อินเทอร์เฟซพารามิเตอร์เสริมของเส้น |
+| [ILinkEmbedController](../com.aspose.slides/ilinkembedcontroller) | อินเทอร์เฟซคอลแบ็กที่ใช้กำหนดวิธีการประมวลผลอ็อบเจ็กต์ระหว่างการบันทึก |
+| [ILoadOptions](../com.aspose.slides/iloadoptions) | อนุญาตให้ระบุตัวเลือกเพิ่มเติม (เช่น ฟอร์แมตหรือฟอนต์เริ่มต้น) เมื่อโหลดงานนำเสนอ |
+| [ILuminance](../com.aspose.slides/iluminance) | แสดงเอฟเฟกต์ Luminance |
+| [ILuminanceEffectiveData](../com.aspose.slides/iluminanceeffectivedata) | แสดงเอฟเฟกต์ Luminance |
+| [IMarker](../com.aspose.slides/imarker) | แสดงมาร์กเกอร์ของ chert |
+| [IMasterHandoutSlide](../com.aspose.slides/imasterhandoutslide) | แสดงสไลด์มาสเตอร์สำหรับเอกสารแจก |
+| [IMasterHandoutSlideHeaderFooterManager](../com.aspose.slides/imasterhandoutslideheaderfootermanager) | แสดงผู้จัดการที่ควบคุมพฤติกรรมของตัวเติมสไลด์มาสเตอร์เอกสารแจก รวมถึงตัวเติมส่วนหัว |
+| [IMasterHandoutSlideManager](../com.aspose.slides/imasterhandoutslidemanager) | ผู้จัดการสไลด์มาสเตอร์เอกสารแจก |
+| [IMasterLayoutSlideCollection](../com.aspose.slides/imasterlayoutslidecollection) | แสดงคอลเลกชันของสไลด์เค้าโครงทั้งหมดของสไลด์มาสเตอร์ที่กำหนด |
+| [IMasterNotesSlide](../com.aspose.slides/imasternotesslide) | แสดงสไลด์มาสเตอร์สำหรับบันทึกย่อ |
+| [IMasterNotesSlideHeaderFooterManager](../com.aspose.slides/imasternotesslideheaderfootermanager) | แสดงผู้จัดการที่ควบคุมพฤติกรรมของส่วนท้ายสไลด์มาสเตอร์บันทึกย่อ, ตัวเติมวันที่-เวลา, ตัวเติมเลขหน้าและตัวเติมทั้งหมดของลูก |
+| [IMasterNotesSlideManager](../com.aspose.slides/imasternotesslidemanager) | ผู้จัดการสไลด์มาสเตอร์บันทึกย่อ |
+| [IMasterSlide](../com.aspose.slides/imasterslide) | แสดงสไลด์มาสเตอร์ในงานนำเสนอ |
+| [IMasterSlideCollection](../com.aspose.slides/imasterslidecollection) | แสดงคอลเลกชันของสไลด์มาสเตอร์ |
+| [IMasterSlideHeaderFooterManager](../com.aspose.slides/imasterslideheaderfootermanager) | แสดงผู้จัดการที่ควบคุมพฤติกรรมของส่วนท้ายสไลด์มาสเตอร์, ตัวเติมวันที่-เวลา, ตัวเติมเลขหน้าและตัวเติมทั้งหมดของลูก |
+| [IMasterTheme](../com.aspose.slides/imastertheme) | แสดงธีมมาสเตอร์ |
+| [IMasterThemeManager](../com.aspose.slides/imasterthememanager) | ให้การเข้าถึงธีมมาสเตอร์ของงานนำเสนอ |
+| [IMasterThemeable](../com.aspose.slides/imasterthemeable) | แสดงผู้จัดการธีมมาสเตอร์ |
+| [IMathAccent](../com.aspose.slides/imathaccent) | ระบุฟังก์ชันสำเนียง ประกอบด้วยฐานและเครื่องหมายไดอะคริติกผสม ตัวอย่าง: \\ud835\\udc4e\\u0301 |
+| [IMathAccentFactory](../com.aspose.slides/imathaccentfactory) | อนุญาตให้สร้างสำเนียงคณิตศาสตร์ |
+| [IMathArray](../com.aspose.slides/imatharray) | ระบุอาเรย์แนวตั้งของสมการหรืออ็อบเจ็กต์คณิตศาสตร์ใด ๆ |
+| [IMathArrayFactory](../com.aspose.slides/imatharrayfactory) | อนุญาตให้สร้างอาเรย์คณิตศาสตร์ |
+| [IMathBar](../com.aspose.slides/imathbar) | ระบุฟังก์ชันบาร์ ประกอบด้วยอากิวเมนต์ฐานและบาร์เหนือหรือบาร์ใต้ |
+| [IMathBarFactory](../com.aspose.slides/imathbarfactory) | อนุญาตให้สร้างบาร์คณิตศาสตร์ |
+| [IMathBlock](../com.aspose.slides/imathblock) | ระบุอินสแตนซ์ของข้อความคณิตศาสตร์ที่อยู่ใน MathParagraph และเริ่มบนบรรทัดของตนเอง |
+| [IMathBlockCollection](../com.aspose.slides/imathblockcollection) | คอลเลกชันของบล็อกคณิตศาสตร์ (IMathBlock) |
+| [IMathBlockFactory](../com.aspose.slides/imathblockfactory) | อนุญาตให้สร้างบล็อกคณิตศาสตร์ |
+| [IMathBorderBox](../com.aspose.slides/imathborderbox) | วาดสี่เหลี่ยมหรือเส้นขอบอื่น ๆ รอบ IMathElement |
+| [IMathBorderBoxFactory](../com.aspose.slides/imathborderboxfactory) | อนุญาตให้สร้างกล่องขอบคณิตศาสตร์ |
+| [IMathBox](../com.aspose.slides/imathbox) | ระบุการบ็อกซ์เชิงตรรกะ (การบรรจุ) ของอ็อบเจ็กต์คณิตศาสตร์ |
+| [IMathBoxFactory](../com.aspose.slides/imathboxfactory) | อนุญาตให้สร้างกล่องคณิตศาสตร์ |
+| [IMathDelimiter](../com.aspose.slides/imathdelimiter) | ระบุอ็อบเจ็กต์ตัวคั่น ประกอบด้วยอักขระเปิดและปิด (เช่น วงเล็บ, กรรไกร, สี่เหลี่ยมเหลี่ยม, และบาร์แนวตั้ง) และอ็อบเจ็กต์คณิตศาสตร์หนึ่งหรือหลายตัวภายใน แยกด้วยอักขระที่กำหนด |
+| [IMathDelimiterFactory](../com.aspose.slides/imathdelimiterfactory) | อนุญาตให้สร้างตัวคั่นคณิตศาสตร์ |
+| [IMathElement](../com.aspose.slides/imathelement) | อินเทอร์เฟซฐานของอ็อบเจ็กต์คณิตศาสตร์ใด ๆ: เศษส่วน, ข้อความคณิตศาสตร์, ฟังก์ชัน, นิพจน์ที่มีหลายองค์ประกอบ ฯลฯ |
+| [IMathElementCollection](../com.aspose.slides/imathelementcollection) | แสดงคอลเลกชันของอ็อบเจ็กต์คณิตศาสตร์ (MathElement) |
+| [IMathFraction](../com.aspose.slides/imathfraction) | ระบุอ็อบเจ็กต์เศษส่วน ประกอบด้วยเศษและส่วนที่แยกด้วยบาร์ส่วน |
+| [IMathFractionFactory](../com.aspose.slides/imathfractionfactory) | อนุญาตให้สร้างเศษส่วนคณิตศาสตร์ |
+| [IMathFunction](../com.aspose.slides/imathfunction) | ระบุฟังก์ชันของอากิวเมนต์ |
+| [IMathFunctionFactory](../com.aspose.slides/imathfunctionfactory) | อนุญาตให้สร้างฟังก์ชันคณิตศาสตร์ |
+| [IMathGroupingCharacter](../com.aspose.slides/imathgroupingcharacter) | ระบุสัญลักษณ์การจัดกลุ่มเหนือหรือใต้นิพจน์ เพื่อเน้นความสัมพันธ์ระหว่างองค์ประกอบ |
+| [IMathGroupingCharacterFactory](../com.aspose.slides/imathgroupingcharacterfactory) | อนุญาตให้สร้างอักขระการจัดกลุ่มคณิตศาสตร์ |
+| [IMathLeftSubSuperscriptElement](../com.aspose.slides/imathleftsubsuperscriptelement) | ระบุอ็อบเจ็กต์ Sub-Superscript ซึ่งประกอบด้วยฐานและตัวล่างและตัวบนที่วางทางซ้ายของฐาน |
+| [IMathLimit](../com.aspose.slides/imathlimit) | ระบุอ็อบเจ็กต์ Limit ซึ่งประกอบด้วยข้อความบนเส้นฐานและข้อความขนาดเล็กที่วางเหนือหรือใต้ทันที |
+| [IMathLimitFactory](../com.aspose.slides/imathlimitfactory) | อนุญาตให้สร้าง IMathLimit |
+| [IMathMatrix](../com.aspose.slides/imathmatrix) | ระบุอ็อบเจ็กต์ Matrix ซึ่งประกอบด้วยอิลิเมนต์ลูกที่จัดเรียงเป็นหนึ่งหรือหลายแถวและคอลัมน์ |
+| [IMathMatrixFactory](../com.aspose.slides/imathmatrixfactory) | อนุญาตให้สร้างเมทริกซ์คณิตศาสตร์ |
+| [IMathNaryOperator](../com.aspose.slides/imathnaryoperator) | ระบุอ็อบเจ็กต์คณิตศาสตร์แบบ N-ary เช่น Summation และ Integral |
+| [IMathNaryOperatorFactory](../com.aspose.slides/imathnaryoperatorfactory) | อนุญาตให้สร้าง IMathNaryOperator |
+| [IMathNaryOperatorProperties](../com.aspose.slides/imathnaryoperatorproperties) | ระบุคุณสมบัติของ IMathNaryOperator |
+| [IMathParagraph](../com.aspose.slides/imathparagraph) | ย่อหน้าคณิตศาสตร์ที่เป็นคอนเทนเนอร์สำหรับบล็อกคณิตศาสตร์ (IMathBlock) |
+| [IMathParagraphFactory](../com.aspose.slides/imathparagraphfactory) | อนุญาตให้สร้างย่อหน้าคณิตศาสตร์ |
+| [IMathPhantom](../com.aspose.slides/imathphantom) | แสดงอ็อบเจ็กต์คณิตศาสตร์ขี้โม้ (<m:phant>) ที่ส่งผลต่อการจัดวางอิลิเมนต์ลูกโดยไม่จำเป็นต้องแสดง |
+| [IMathPortion](../com.aspose.slides/imathportion) | แสดงส่วนที่มีบริบทคณิตศาสตร์ภายใน |
+| [IMathRadical](../com.aspose.slides/imathradical) | ระบุฟังก์ชันราก (radical) ประกอบด้วยฐานและระดับที่เป็นตัวเลือก |
+| [IMathRadicalFactory](../com.aspose.slides/imathradicalfactory) | อนุญาตให้สร้างรากคณิตศาสตร์ |
+| [IMathRightSubSuperscriptElement](../com.aspose.slides/imathrightsubsuperscriptelement) | ระบุอ็อบเจ็กต์ Sub-Superscript ซึ่งประกอบด้วยฐานและตัวล่างและตัวบนที่วางทางขวาของฐาน |
+| [IMathRightSubSuperscriptElementFactory](../com.aspose.slides/imathrightsubsuperscriptelementfactory) | อนุญาตให้สร้าง IMathRightSubSuperscriptElementFactory |
+| [IMathSubscriptElement](../com.aspose.slides/imathsubscriptelement) | ระบุอ็อบเจ็กต์ subscript ซึ่งประกอบด้วยฐานและ subscript ขนาดเล็กที่วางด้านล่างและด้านขวา |
+| [IMathSubscriptElementFactory](../com.aspose.slides/imathsubscriptelementfactory) | อนุญาตให้สร้าง IMathSubscriptElement |
+| [IMathSuperscriptElement](../com.aspose.slides/imathsuperscriptelement) | ระบุอ็อบเจ็กต์ superscript ซึ่งประกอบด้วยฐานและ superscript ขนาดเล็กที่วางเหนือและด้านขวา |
+| [IMathSuperscriptElementFactory](../com.aspose.slides/imathsuperscriptelementfactory) | อนุญาตให้สร้าง IMathSuperscriptElement |
+| [IMathematicalText](../com.aspose.slides/imathematicaltext) | ข้อความคณิตศาสตร์ |
+| [IMathematicalTextFactory](../com.aspose.slides/imathematicaltextfactory) | อนุญาตให้สร้างอิลิเมนต์ MathematicalText |
+| [IMetered](../com.aspose.slides/imetered) | ให้เมธอดสำหรับตั้งค่า metered key |
+| [IModernComment](../com.aspose.slides/imoderncomment) | แสดงความเห็นบนสไลด์ |
+| [IMorphTransition](../com.aspose.slides/imorphtransition) | เอฟเฟกต์การเปลี่ยนสไลด์ Ripple |
+| [IMotionCmdPath](../com.aspose.slides/imotioncmdpath) | แสดงคำสั่งหนึ่งของเส้นทาง |
+| [IMotionEffect](../com.aspose.slides/imotioneffect) | แสดงพฤติกรรมเอฟเฟกต์การเคลื่อนที่ของเอฟเฟกต์ |
+| [IMotionPath](../com.aspose.slides/imotionpath) | แสดงเส้นทางการเคลื่อนที่ |
+| [IMultipleCellChartValue](../com.aspose.slides/imultiplecellchartvalue) | แสดงคอลเลกชันของเซลล์แผนภูมิ |
+| [INormalViewProperties](../com.aspose.slides/inormalviewproperties) | แสดงคุณสมบัติการมองเห็นแบบปกติ |
+| [INormalViewRestoredProperties](../com.aspose.slides/inormalviewrestoredproperties) | ระบุขนาดของพื้นที่สไลด์ ((ความกว้างเมื่อเป็นลูกของ restoredTop, ความสูงเมื่อเป็นลูกของ restoredLeft) ของมุมมองปกติ เมื่อพื้นที่มีขนาดเปลี่ยนแปลงที่กู้คืนได้ (ไม่เป็นการย่อหรือขยาย) |
+| [INotImplementedWarningInfo](../com.aspose.slides/inotimplementedwarninginfo) | แสดงคำเตือนเกี่ยวกับฟีเจอร์ที่ทราบว่าไม่ได้ทำการนำมาใช้และจะไม่ถูกนำมาใช้ในเร็ว ๆ นี้ |
+| [INotesSize](../com.aspose.slides/inotessize) | แสดงขนาดของสไลด์บันทึกย่อ |
+| [INotesSlide](../com.aspose.slides/inotesslide) | แสดงสไลด์บันทึกย่อในงานนำเสนอ |
+| [INotesSlideHeaderFooterManager](../com.aspose.slides/inotesslideheaderfootermanager) | แสดงผู้จัดการที่ควบคุมพฤติกรรมของตัวเติมสไลด์บันทึกย่อ รวมถึงตัวเติมส่วนหัว |
+| [INotesSlideManager](../com.aspose.slides/inotesslidemanager) | ผู้จัดการสไลด์บันทึกย่อ |
+| [IObsoletePresLockingBehaviorWarningInfo](../com.aspose.slides/iobsoletepreslockingbehaviorwarninginfo) | คำเตือนนี้บ่งชี้ว่ามีการใช้พฤติกรรมการล็อกงานนำเสนอที่ล้าสมัย |
+| [IOleEmbeddedDataInfo](../com.aspose.slides/ioleembeddeddatainfo) | แสดงข้อมูลข้อมูลฝังสำหรับอ็อบเจ็กต์ OLE |
+| [IOleObjectFrame](../com.aspose.slides/ioleobjectframe) | แสดงอ็อบเจ็กต์ OLE บนสไลด์ |
+| [IOptionalBlackTransition](../com.aspose.slides/ioptionalblacktransition) | เอฟเฟกต์การเปลี่ยนสไลด์สีดำแบบเลือกได้ |
+| [IOrientationTransition](../com.aspose.slides/iorientationtransition) | เอฟเฟกต์การเปลี่ยนสไลด์แบบการวางแนว |
+| [IOuterShadow](../com.aspose.slides/ioutershadow) | แสดงเอฟเฟกต์ Outer Shadow |
+| [IOuterShadowEffectiveData](../com.aspose.slides/ioutershadoweffectivedata) | อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งแสดงเอฟเฟกต์ Outer Shadow |
+| [IOutputFile](../com.aspose.slides/ioutputfile) | แสดงไฟล์ผลลัพธ์ |
+| [IOutputSaver](../com.aspose.slides/ioutputsaver) | แสดงบริการบันทึกผลลัพธ์ |
+| [IOverridableText](../com.aspose.slides/ioverridabletext) | แสดงข้อความที่สามารถเขียนทับได้สำหรับแผนภูมิ |
+| [IOverrideTheme](../com.aspose.slides/ioverridetheme) | แสดงธีมที่เขียนทับ |
+| [IOverrideThemeManager](../com.aspose.slides/ioverridethememanager) | ให้การเข้าถึงประเภทต่าง ๆ ของธีมที่เขียนทับ |
+| [IOverrideThemeable](../com.aspose.slides/ioverridethemeable) | แสดงผู้จัดการธีมที่เขียนทับ |
+| [IPPImage](../com.aspose.slides/ippimage) | แสดงภาพในงานนำเสนอ |
+| [IParagraph](../com.aspose.slides/iparagraph) | แสดงย่อหน้าของข้อความ |
+| [IParagraphCollection](../com.aspose.slides/iparagraphcollection) | แสดงคอลเลกชันของย่อหน้า |
+| [IParagraphFactory](../com.aspose.slides/iparagraphfactory) | อนุญาตให้สร้างย่อหน้า |
+| [IParagraphFormat](../com.aspose.slides/iparagraphformat) | คลาสนี้บรรจุคุณสมบัติการตั้งรูปแบบย่อหน้า |
+| [IParagraphFormatEffectiveData](../com.aspose.slides/iparagraphformateffectivedata) | อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติการตั้งรูปแบบย่อหน้าที่มีผล |
+| [IPathSegment](../com.aspose.slides/ipathsegment) | แสดงส่วนของเส้นกราฟิกของ GeometryShape |
+| [IPatternFormat](../com.aspose.slides/ipatternformat) | แสดงลวดลายสำหรับเติมรูปร่าง |
+| [IPatternFormatEffectiveData](../com.aspose.slides/ipatternformateffectivedata) | อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติการเติมลวดลายที่มีผล |
+| [IPdfOptions](../com.aspose.slides/ipdfoptions) | ให้ตัวเลือกที่ควบคุมวิธีการบันทึกงานนำเสนอเป็นรูปแบบ Pdf |
+| [IPictureEffectiveData](../com.aspose.slides/ipictureeffectivedata) | อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติภาพที่มีผล |
+| [IPictureFillFormat](../com.aspose.slides/ipicturefillformat) | แสดงสไตล์การเติมรูปภาพ |
+| [IPictureFillFormatEffectiveData](../com.aspose.slides/ipicturefillformateffectivedata) | อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติของการเติมรูปภาพ |
+| [IPictureFrame](../com.aspose.slides/ipictureframe) | แสดงเฟรมที่มีรูปภาพอยู่ภายใน |
+| [IPictureFrameLock](../com.aspose.slides/ipictureframelock) | กำหนดว่าการทำงานใดบ้างที่ถูกปิดการใช้งานบน PictureFrameEx พาเรนต์ |
+| [IPieSplitCustomPointCollection](../com.aspose.slides/ipiesplitcustompointcollection) | แสดงคอลเลกชันของจุดที่ต้องวาดในพายหรือแถบที่สองบนกราฟ bar-of-pie หรือ pie-of-pie ที่มีการแบ่งแบบกำหนดเอง |
+| [IPlaceholder](../com.aspose.slides/iplaceholder) | แสดงตัวเติมบนสไลด์ |
+| [IPoint](../com.aspose.slides/ipoint) | แสดงจุดแอนิเมชัน |
+| [IPointCollection](../com.aspose.slides/ipointcollection) | แสดงคอลเลกชันของส่วน |
+| [IPortion](../com.aspose.slides/iportion) | แสดงส่วนของข้อความภายในย่อความข้อความ |
+| [IPortionCollection](../com.aspose.slides/iportioncollection) | แสดงคอลเลกชันของส่วน |
+| [IPortionFactory](../com.aspose.slides/iportionfactory) | อนุญาตให้สร้างส่วนทดสอบ |
+| [IPortionFormat](../com.aspose.slides/iportionformat) | คลาสนี้บรรจุคุณสมบัติการตั้งรูปแบบส่วนของข้อความ |
+| [IPortionFormatEffectiveData](../com.aspose.slides/iportionformateffectivedata) | อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติการตั้งรูปแบบส่วนของข้อความที่มีผล |
+| [IPptOptions](../com.aspose.slides/ipptoptions) | ให้ตัวเลือกที่ควบคุมวิธีการบันทึกงานนำเสนอเป็นรูปแบบ PPT |
+| [IPptxOptions](../com.aspose.slides/ipptxoptions) | แสดงตัวเลือกสำหรับบันทึกงานนำเสนอ OpenXml (PPTX, PPSX, POTX, PPTM, PPSM, POTM) |
+| [IPresentation](../com.aspose.slides/ipresentation) | เอกสารงานนำเสนอ |
+| [IPresentationAnimationPlayer](../com.aspose.slides/ipresentationanimationplayer) | แสดงผู้เล่นของแอนิเมชัน |
+| [IPresentationComponent](../com.aspose.slides/ipresentationcomponent) | แสดงคอมโพเนนท์ของงานนำเสนอ |
+| [IPresentationFactory](../com.aspose.slides/ipresentationfactory) | อนุญาตให้สร้างงานนำเสนอผ่านอินเทอร์เฟซ COM |
+| [IPresentationHeaderFooterManager](../com.aspose.slides/ipresentationheaderfootermanager) | แสดงผู้จัดการที่ควบคุมพฤติกรรมของตัวเติมส่วนท้าย, วันที่-เวลาและเลขหน้าทั้งหมดของงานนำเสนอ |
+| [IPresentationInfo](../com.aspose.slides/ipresentationinfo) | ข้อมูลเกี่ยวกับไฟล์งานนำเสนอ |
+| [IPresentationSignedWarningInfo](../com.aspose.slides/ipresentationsignedwarninginfo) | คำเตือนนี้บ่งชี้ว่างานนำเสนอที่อ่านมีลายเซ็นและลายเซ็นนี้จะถูกลบระหว่างการประมวลผล |
+| [IPresentationText](../com.aspose.slides/ipresentationtext) | แสดงข้อความที่ดึงมาจากสไลด์ |
+| [IPresetShadow](../com.aspose.slides/ipresetshadow) | แสดงเอฟเฟกต์ Preset Shadow |
+| [IPresetShadowEffectiveData](../com.aspose.slides/ipresetshadoweffectivedata) | อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งแสดงเอฟเฟกต์ Preset Shadow |
+| [IProgressCallback](../com.aspose.slides/iprogresscallback) | แสดงอ็อบเจ็กต์คอลแบ็กสำหรับอัปเดตความคืบหน้าการบันทึกเป็นเปอร์เซ็นต์ |
+| [IPropertyEffect](../com.aspose.slides/ipropertyeffect) | แสดงพฤติกรรมเอฟเฟกต์ของคุณสมบัติ |
+| [IProtectionManager](../com.aspose.slides/iprotectionmanager) | การจัดการการป้องกันด้วยรหัสผ่านของงานนำเสนอ |
+| [IReflection](../com.aspose.slides/ireflection) | แสดงเอฟเฟกต์การสะท้อน |
+| [IReflectionEffectiveData](../com.aspose.slides/ireflectioneffectivedata) | อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งแสดงเอฟเฟกต์ Reflection |
+| [IRenderingOptions](../com.aspose.slides/irenderingoptions) | ให้ตัวเลือกที่ควบคุมวิธีการเรนเดอร์งานนำเสนอ/สไลด์ |
+| [IResourceLoadingArgs](../com.aspose.slides/iresourceloadingargs) | อินเทอร์เฟซสำหรับอาร์กิวเมนต์การโหลดทรัพยากรภายนอก |
+| [IResourceLoadingCallback](../com.aspose.slides/iresourceloadingcallback) | อินเทอร์เฟซคอลแบ็กที่ใช้จัดการการโหลดทรัพยากรภายนอก |
+| [IResponsiveHtmlController](../com.aspose.slides/iresponsivehtmlcontroller) | ตัวควบคุม HTML แบบตอบสนอง |
+| [IRevealTransition](../com.aspose.slides/irevealtransition) | เอฟเฟกต์การเปลี่ยนสไลด์แบบ Reveal. |
+| [IRippleTransition](../com.aspose.slides/irippletransition) | เอฟเฟกต์การเปลี่ยนสไลด์แบบ Ripple. |
+| [IRotation3D](../com.aspose.slides/irotation3d) | แสดงการหมุน 3D ของแผนภูมิ. |
+| [IRotationEffect](../com.aspose.slides/irotationeffect) | แสดงพฤติกรรมการหมุนของเอฟเฟกต์. |
+| [IRow](../com.aspose.slides/irow) | แสดงแถวในตาราง. |
+| [IRowCollection](../com.aspose.slides/irowcollection) | แสดงชุดแถวของตาราง. |
+| [IRowFormat](../com.aspose.slides/irowformat) | แสดงรูปแบบของแถวตาราง. |
+| [IRowFormatEffectiveData](../com.aspose.slides/irowformateffectivedata) | อ็อบเจ็กต์ที่ไม่สามารถแก้ไขได้ซึ่งบรรจุคุณลักษณะการจัดรูปแบบของแถวตารางที่มีผล. |
+| [ISVGOptions](../com.aspose.slides/isvgoptions) | แสดงตัวเลือก SVG. |
+| [ISaveOptions](../com.aspose.slides/isaveoptions) | ตัวเลือกที่ควบคุมวิธีการบันทึกการนำเสนอ. |
+| [ISaveOptionsFactory](../com.aspose.slides/isaveoptionsfactory) | อนุญาตให้สร้างอินสแตนซ์ของตัวเลือกการบันทึก |
+| [IScaleEffect](../com.aspose.slides/iscaleeffect) | แสดงเอฟเฟกต์การปรับสเกลของแอนิเมชัน. |
+| [ISection](../com.aspose.slides/isection) | แสดงส่วนของสไลด์. |
+| [ISectionCollection](../com.aspose.slides/isectioncollection) | แสดงคอลเลกชันของส่วน. |
+| [ISectionSlideCollection](../com.aspose.slides/isectionslidecollection) | แสดงคอลเลกชันของสไลด์ในส่วน. |
+| [ISectionZoomFrame](../com.aspose.slides/isectionzoomframe) | แสดงอ็อบเจ็กต์ Section Zoom ในสไลด์. |
+| [ISensitivityLabel](../com.aspose.slides/isensitivitylabel) | แสดงป้ายความไวจาก Microsoft Purview Information Protection. |
+| [ISensitivityLabelCollection](../com.aspose.slides/isensitivitylabelcollection) | แสดงคอลเลกชันของป้ายความไวที่ใช้กับเอกสาร. |
+| [ISequence](../com.aspose.slides/isequence) | แสดงลำดับ (คอลเลกชันของเอฟเฟกต์). |
+| [ISequenceCollection](../com.aspose.slides/isequencecollection) | แสดงคอลเลกชันของลำดับโต้ตอบ. |
+| [ISetEffect](../com.aspose.slides/iseteffect) | แสดงเอฟเฟกต์ชุดสำหรับพฤติกรรมแอนิเมชัน. |
+| [IShape](../com.aspose.slides/ishape) | แสดงรูปทรงบนสไลด์. |
+| [IShapeBevel](../com.aspose.slides/ishapebevel) | แสดงคุณสมบัติของการยกพื้นผิวด้านหลักของรูปทรง. |
+| [IShapeBevelEffectiveData](../com.aspose.slides/ishapebeveleffectivedata) | อ็อบเจ็กต์ที่ไม่สามารถแก้ไขได้ซึ่งบรรจุคุณสมบัติการยกพื้นผิวด้านของรูปทรงที่มีผล. |
+| [IShapeCollection](../com.aspose.slides/ishapecollection) | แสดงคอลเลกชันของรูปทรง. |
+| [IShapeElement](../com.aspose.slides/ishapeelement) | แสดงส่วนของรูปทรงที่มีลักษณะขอบและการเติมสีเดียวกัน. |
+| [IShapeFrame](../com.aspose.slides/ishapeframe) | แสดงคุณสมบัติของกรอบรูปทรง. |
+| [IShapeStyle](../com.aspose.slides/ishapestyle) | แสดงการอ้างอิงสไตล์ของรูปทรง. |
+| [IShredTransition](../com.aspose.slides/ishredtransition) | เอฟเฟกต์การเปลี่ยนสไลด์แบบ Shred. |
+| [ISideDirectionTransition](../com.aspose.slides/isidedirectiontransition) | เอฟเฟกต์การเปลี่ยนสไลด์แบบด้านข้าง. |
+| [ISingleCellChartValue](../com.aspose.slides/isinglecellchartvalue) | แสดงเซลล์ข้อมูลของแผนภูมิ. |
+| [ISketchFormat](../com.aspose.slides/isketchformat) | แสดงคุณสมบัติสำหรับรูปแบบการวาดเส้น. |
+| [ISketchFormatEffectiveData](../com.aspose.slides/isketchformateffectivedata) | อ็อบเจ็กต์ที่ไม่สามารถแก้ไขได้ซึ่งบรรจุคุณสมบัติการวาดเส้นที่มีผล. |
+| [ISlide](../com.aspose.slides/islide) | แสดงสไลด์ในงานนำเสนอ. |
+| [ISlideCollection](../com.aspose.slides/islidecollection) | แสดงคอลเลกชันของสไลด์. |
+| [ISlideComponent](../com.aspose.slides/islidecomponent) | แสดงส่วนประกอบของสไลด์. |
+| [ISlideHeaderFooterManager](../com.aspose.slides/islideheaderfootermanager) | แสดงผู้จัดการที่เก็บพฤติกรรมของส่วนท้ายสไลด์, วันที่-เวลา, ตัวเก็บตำแหน่งหมายเลขหน้า. |
+| [ISlideImageFormat](../com.aspose.slides/islideimageformat) | กำหนดรูปแบบที่ภาพสไลด์จะถูกบันทึกสำหรับการส่งออกเป็น HTML ของงานนำเสนอ. |
+| [ISlideShowTransition](../com.aspose.slides/islideshowtransition) | แสดงการเปลี่ยนภาพสไลด์โชว์. |
+| [ISlideSize](../com.aspose.slides/islidesize) | แสดงขนาดและแนวตั้งของสไลด์. |
+| [ISlideText](../com.aspose.slides/islidetext) | แสดงข้อความที่สกัดจากสไลด์ |
+| [ISlidesLayoutOptions](../com.aspose.slides/islideslayoutoptions) | แสดงโหมดการจัดวางของงานนำเสนอสำหรับการส่งออก. |
+| [ISlidesPicture](../com.aspose.slides/islidespicture) | แสดงรูปภาพในงานนำเสนอ. |
+| [ISmartArt](../com.aspose.slides/ismartart) | แสดงแผนผัง SmartArt. |
+| [ISmartArtNode](../com.aspose.slides/ismartartnode) | แสดงโหนดของแผนผัง SmartArt. |
+| [ISmartArtNodeCollection](../com.aspose.slides/ismartartnodecollection) | แสดงคอลเลกชันของโหนด SmartArt. |
+| [ISmartArtShape](../com.aspose.slides/ismartartshape) | แสดงรูปทรงภายในแผนผัง SmartArt |
+| [ISmartArtShapeCollection](../com.aspose.slides/ismartartshapecollection) | แสดงคอลเลกชันของรูปทรง SmartArt |
+| [ISoftEdge](../com.aspose.slides/isoftedge) | แสดงเอฟเฟกต์ Soft Edge. |
+| [ISoftEdgeEffectiveData](../com.aspose.slides/isoftedgeeffectivedata) | อ็อบเจ็กต์ที่ไม่สามารถแก้ไขได้ซึ่งแสดงเอฟเฟกต์ Soft Edge. |
+| [ISplitTransition](../com.aspose.slides/isplittransition) | เอฟเฟกต์การเปลี่ยนสไลด์แบบ Split. |
+| [ISpreadsheetOptions](../com.aspose.slides/ispreadsheetoptions) | แสดงตัวเลือกที่ใช้ระบุพฤติกรรมเพิ่มเติมของสเปรดชีต. |
+| [IStringChartValue](../com.aspose.slides/istringchartvalue) | แสดงค่า string ที่สามารถเก็บในเอกสารพรีเซนเทชัน pptx ได้สองวิธี: 1) ในเซลล์ของเวิร์กบุ๊กที่เกี่ยวข้องกับแผนภูมิ; 2) เป็นค่าตรง. |
+| [IStringOrDoubleChartValue](../com.aspose.slides/istringordoublechartvalue) | แสดงค่า string หรือ double ที่สามารถเก็บในเอกสารพรีเซนเทชัน pptx ได้สองวิธี: 1) ในเซลล์ของเวิร์กบุ๊กที่เกี่ยวข้องกับแผนภูมิ; 2) เป็นค่าตรง. |
+| [ISummaryZoomFrame](../com.aspose.slides/isummaryzoomframe) | แสดงกรอบ Summary Zoom ในสไลด์. |
+| [ISummaryZoomSection](../com.aspose.slides/isummaryzoomsection) | แสดงอ็อบเจ็กต์ Summary Zoom Section ในกรอบ Summary Zoom. |
+| [ISummaryZoomSectionCollection](../com.aspose.slides/isummaryzoomsectioncollection) | แสดงคอลเลกชันของอ็อบเจ็กต์ Summary Zoom Section. |
+| [ISvgImage](../com.aspose.slides/isvgimage) | แสดงภาพ SVG. |
+| [ISvgShape](../com.aspose.slides/isvgshape) | แสดงตัวเลือกสำหรับรูปทรง SVG. |
+| [ISvgShapeAndTextFormattingController](../com.aspose.slides/isvgshapeandtextformattingcontroller) | ควบคุมการสร้างรูปทรงและข้อความ SVG. |
+| [ISvgShapeFormattingController](../com.aspose.slides/isvgshapeformattingcontroller) | ควบคุมการสร้างรูปทรง SVG. |
+| [ISvgTSpan](../com.aspose.slides/isvgtspan) | แสดงตัวเลือกสำหรับส่วนข้อความ SVG ("tspan"). |
+| [ISwfOptions](../com.aspose.slides/iswfoptions) | ให้ตัวเลือกที่ควบคุมการบันทึกพรีเซนเทชันในรูปแบบ SWF. |
+| [ITab](../com.aspose.slides/itab) | แสดงการจัดตารางสำหรับข้อความ. |
+| [ITabCollection](../com.aspose.slides/itabcollection) | แสดงคอลเลกชันของแท็บ. |
+| [ITabEffectiveData](../com.aspose.slides/itabeffectivedata) | อ็อบเจ็กต์ที่ไม่สามารถแก้ไขได้ซึ่งบรรจุคุณสมบัติการหยุดแท็บของข้อความที่มีผล. |
+| [ITabFactory](../com.aspose.slides/itabfactory) | อนุญาตให้สร้างอินสแตนซ์ของ ITab |
+| [ITable](../com.aspose.slides/itable) | แสดงตารางบนสไลด์. |
+| [ITableFormat](../com.aspose.slides/itableformat) | แสดงรูปแบบของตาราง. |
+| [ITableFormatEffectiveData](../com.aspose.slides/itableformateffectivedata) | อ็อบเจ็กต์ที่ไม่สามารถแก้ไขได้ซึ่งบรรจุคุณสมบัติการจัดรูปแบบตารางที่มีผล. |
+| [ITagCollection](../com.aspose.slides/itagcollection) | แสดงคอลเลกชันของแท็ก (คู่ของสตริงที่ผู้ใช้กำหนด). |
+| [ITemplateEngine](../com.aspose.slides/itemplateengine) | แสดงเครื่องยนต์เทมเพลตที่แปลงเทมเพลตและคู่ข้อมูลเป็นผลลัพธ์ (โดยปกติเป็น HTML). |
+| [ITextAnimation](../com.aspose.slides/itextanimation) | แสดงแอนิเมชันข้อความ. |
+| [ITextAnimationCollection](../com.aspose.slides/itextanimationcollection) | แสดงคอลเลกชันของแอนิเมชันข้อความ. |
+| [ITextFrame](../com.aspose.slides/itextframe) | แสดง TextFrame. |
+| [ITextFrameFormat](../com.aspose.slides/itextframeformat) | บรรจุคุณสมบัติการจัดรูปแบบของ TextFrame. |
+| [ITextFrameFormatEffectiveData](../com.aspose.slides/itextframeformateffectivedata) | อ็อบเจ็กต์ที่ไม่สามารถแก้ไขได้ซึ่งบรรจุคุณสมบัติการจัดรูปแบบของ TextFrame ที่มีผล. |
+| [ITextHighlightingOptions](../com.aspose.slides/itexthighlightingoptions) | แสดงตัวเลือกที่ใช้เน้นข้อความใน TextFrame. |
+| [ITextSearchOptions](../com.aspose.slides/itextsearchoptions) | แสดงตัวเลือกที่ใช้ค้นหาข้อความในพรีเซนเทชัน, สไลด์ หรือ TextFrame. |
+| [ITextStyle](../com.aspose.slides/itextstyle) | คุณสมบัติการจัดรูปแบบสไตล์ข้อความ. |
+| [ITextStyleEffectiveData](../com.aspose.slides/itextstyleeffectivedata) | อ็อบเจ็กต์ที่ไม่สามารถแก้ไขได้ซึ่งบรรจุคุณสมบัติสไตล์ข้อความที่มีผล. |
+| [ITextToHtmlConversionOptions](../com.aspose.slides/itexttohtmlconversionoptions) | ตัวเลือกสำหรับการสกัด HTML จากข้อความ Pptx. |
+| [ITheme](../com.aspose.slides/itheme) | แสดงธีม. |
+| [IThemeEffectiveData](../com.aspose.slides/ithemeeffectivedata) | อ็อบเจ็กต์ที่ไม่สามารถแก้ไขได้ซึ่งบรรจุคุณสมบัติธีมที่มีผล. |
+| [IThemeManager](../com.aspose.slides/ithememanager) | แสดงคุณสมบัติธีม. |
+| [IThemeable](../com.aspose.slides/ithemeable) | แสดงอ็อบเจ็กต์ที่สามารถกำหนดธีมด้วย [ITheme](../com.aspose.slides/itheme). |
+| [IThreeDFormat](../com.aspose.slides/ithreedformat) | แสดงคุณสมบัติ 3-D. |
+| [IThreeDFormatEffectiveData](../com.aspose.slides/ithreedformateffectivedata) | อ็อบเจ็กต์ที่ไม่สามารถแก้ไขได้ซึ่งแสดงคุณสมบัติการจัดรูปแบบ 3-D ที่มีผล. |
+| [IThreeDParamSource](../com.aspose.slides/ithreedparamsource) | อินเทอร์เฟซช่วยเหลือแหล่งที่มาของคุณสมบัติ 3D |
+| [ITiffOptions](../com.aspose.slides/itiffoptions) | ให้ตัวเลือกที่ควบคุมการบันทึกพรีเซนเทชันในรูปแบบ TIFF. |
+| [ITiming](../com.aspose.slides/itiming) | แสดงการกำหนดเวลาแอนิเมชัน. |
+| [ITint](../com.aspose.slides/itint) | แสดงเอฟเฟกต์ Tint. |
+| [ITintEffectiveData](../com.aspose.slides/itinteffectivedata) | อ็อบเจ็กต์ที่ไม่สามารถแก้ไขได้ซึ่งแสดงเอฟเฟกต์ Tint. |
+| [ITransitionValueBase](../com.aspose.slides/itransitionvaluebase) | แสดงคลาสฐานสำหรับเอฟเฟกต์การเปลี่ยนสไลด์. |
+| [ITrendline](../com.aspose.slides/itrendline) | คลาสแสดงเส้นแนวโน้มของชุดข้อมูลแผนภูมิ |
+| [ITrendlineCollection](../com.aspose.slides/itrendlinecollection) | แสดงคอลเลกชันของ TrendlineEx |
+| [IUpDownBarsManager](../com.aspose.slides/iupdownbarsmanager) | ให้การเข้าถึงบาร์ขึ้น/ลงของแผนภูมิเส้นหรือหุ้น. |
+| [IVbaModule](../com.aspose.slides/ivbamodule) | แสดงโมดูลที่อยู่ในโครงการ VBA. |
+| [IVbaModuleCollection](../com.aspose.slides/ivbamodulecollection) | แสดงคอลเลกชันของโมดูลในโครงการ VBA. |
+| [IVbaProject](../com.aspose.slides/ivbaproject) | แสดงโครงการ VBA ที่มีแมโครในพรีเซนเทชัน. |
+| [IVbaProjectFactory](../com.aspose.slides/ivbaprojectfactory) | อนุญาตให้สร้างโครงการ VBA ผ่านอินเทอร์เฟซ COM |
+| [IVbaReference](../com.aspose.slides/ivbareference) | แสดงชื่อของการอ้างอิงโครงการ VBA. |
+| [IVbaReferenceCollection](../com.aspose.slides/ivbareferencecollection) | แสดงคอลเลกชันของการอ้างอิงโครงการ VBA. |
+| [IVbaReferenceFactory](../com.aspose.slides/ivbareferencefactory) | อนุญาตให้สร้างการอ้างอิงโครงการ VBA ผ่านอินเทอร์เฟซ COM |
+| [IVbaReferenceOleTwiddledTypeLib](../com.aspose.slides/ivbareferenceoletwiddledtypelib) | แสดงการอ้างอิงไลบรารีประเภท OLE Automation ที่แก้ไขแล้วซึ่งคอนโทรลทั้งหมดถูกทำเครื่องหมายว่าเป็นแบบขยายได้. |
+| [IVbaReferenceOleTypeLib](../com.aspose.slides/ivbareferenceoletypelib) | แสดงการอ้างอิงไลบรารีประเภท OLE Automation. |
+| [IVbaReferenceProject](../com.aspose.slides/ivbareferenceproject) | แสดงการอ้างอิงไปยังโครงการ VBA ภายนอก. |
+| [IVideo](../com.aspose.slides/ivideo) | แสดงวิดีโอที่ฝังในพรีเซนเทชัน. |
+| [IVideoCollection](../com.aspose.slides/ivideocollection) | แสดงคอลเลกชันของอ็อบเจ็กต์ Video. |
+| [IVideoFrame](../com.aspose.slides/ivideoframe) | แสดงคลิปวิดีโอบนสไลด์. |
+| [IVideoPlayerHtmlController](../com.aspose.slides/ivideoplayerhtmlcontroller) | คลาสนี้อนุญาตให้ส่งออกไฟล์วิดีโอและออดิโอเป็น HTML |
+| [IVideoPlayerHtmlControllerFactory](../com.aspose.slides/ivideoplayerhtmlcontrollerfactory) | อนุญาตให้สร้าง VideoPlayerHtmlController. |
+| [IViewProperties](../com.aspose.slides/iviewproperties) | คุณสมบัติเกี่ยวกับมุมมองทั่วพรีเซนเทชัน. |
+| [IWarningCallback](../com.aspose.slides/iwarningcallback) | อินเทอร์เฟซสำหรับคลาสที่รับคำเตือน |
+| [IWarningInfo](../com.aspose.slides/iwarninginfo) | แสดงอินเทอร์เฟซฐานสำหรับคำเตือนทั้งหมด. |
+| [IWheelTransition](../com.aspose.slides/iwheeltransition) | เอฟเฟกต์การเปลี่ยนสไลด์แบบ Wheel. |
+| [IXamlOptions](../com.aspose.slides/ixamloptions) | ตัวเลือกที่ควบคุมการบันทึกเอกสาร XAML. |
+| [IXamlOutputSaver](../com.aspose.slides/ixamloutputsaver) | แสดงการนำไปใช้ของตัวบันทึกผลลัพธ์สำหรับการส่งข้อมูลไปยังที่เก็บภายนอก. |
+| [IXpsOptions](../com.aspose.slides/ixpsoptions) | ให้ตัวเลือกที่ควบคุมการบันทึกพรีเซนเทชันในรูปแบบ XPS. |
+| [IZoomFrame](../com.aspose.slides/izoomframe) | แสดงอ็อบเจ็กต์ Slide Zoom ในสไลด์. |
+| [IZoomObject](../com.aspose.slides/izoomobject) | แสดงอ็อบเจ็กต์ Zoom ในสไลด์. |

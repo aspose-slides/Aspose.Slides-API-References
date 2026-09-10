@@ -1,6 +1,6 @@
 ---
 title: IHtml5Options
-second_title: Aspose.Slides dla Androida za pośrednictwem dokumentacji API Java
+second_title: Aspose.Slides for Android – odniesienie API Java
 description: Reprezentuje opcje eksportu HTML5.
 type: docs
 url: /pl/com.aspose.slides/ihtml5options/
@@ -39,10 +39,12 @@ Reprezentuje opcje eksportu HTML5.
 | [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Zwraca lub ustawia opcję animacji kształtów. |
 | [getEmbedImages()](#getEmbedImages--) | Zwraca lub ustawia opcję osadzania obrazów. |
 | [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Zwraca lub ustawia opcję osadzania obrazów. |
-| [getOutputPath()](#getOutputPath--) | Określa, gdzie należy przechowywać zasoby zewnętrzne. |
-| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Określa, gdzie należy przechowywać zasoby zewnętrzne. |
-| [getDisableFontLigatures()](#getDisableFontLigatures--) | Pobiera lub ustawia wartość wskazującą, czy tekst jest renderowany bez użycia ligatur. |
-| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Pobiera lub ustawia wartość wskazującą, czy tekst jest renderowany bez użycia ligatur. |
+| [getOutputPath()](#getOutputPath--) | Określa, gdzie powinny być przechowywane zasoby zewnętrzne. |
+| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Określa, gdzie powinny być przechowywane zasoby zewnętrzne. |
+| [getPicturesCompression()](#getPicturesCompression--) | Reprezentuje poziom kompresji obrazów Odczyt/zapis  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
+| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Reprezentuje poziom kompresji obrazów Odczyt/zapis  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
+| [getDisableFontLigatures()](#getDisableFontLigatures--) | Pobiera lub ustawia wartość określającą, czy tekst jest renderowany bez użycia ligatur. |
+| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Pobiera lub ustawia wartość określającą, czy tekst jest renderowany bez użycia ligatur. |
 | [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Pobiera lub ustawia tryb, w którym slajdy są rozmieszczane na stronie podczas eksportu prezentacji [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 | [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Pobiera lub ustawia tryb, w którym slajdy są rozmieszczane na stronie podczas eksportu prezentacji [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 ### getAnimateTransitions() {#getAnimateTransitions--}
@@ -94,7 +96,7 @@ Zwraca lub ustawia opcję animacji przejść. Odczyt/zapis boolean.
 > ```
 
 **Parametry:**
-| Parametr | Typ | Opis |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -147,7 +149,7 @@ Zwraca lub ustawia opcję animacji kształtów. Odczyt/zapis boolean.
 > ```
 
 **Parametry:**
-| Parametr | Typ | Opis |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -198,7 +200,7 @@ Zwraca lub ustawia opcję osadzania obrazów. Odczyt/zapis boolean.
 > ```
 
 **Parametry:**
-| Parametr | Typ | Opis |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -207,7 +209,7 @@ Zwraca lub ustawia opcję osadzania obrazów. Odczyt/zapis boolean.
 public abstract String getOutputPath()
 ```
 
-Określa, gdzie należy przechowywać zasoby zewnętrzne. Odczyt/zapis String.
+Określa, gdzie powinny być przechowywane zasoby zewnętrzne. Odczyt/zapis String.
 
 --------------------
 
@@ -232,7 +234,7 @@ java.lang.String
 public abstract void setOutputPath(String value)
 ```
 
-Określa, gdzie należy przechowywać zasoby zewnętrzne. Odczyt/zapis String.
+Określa, gdzie powinny być przechowywane zasoby zewnętrzne. Odczyt/zapis String.
 
 --------------------
 
@@ -251,16 +253,37 @@ Określa, gdzie należy przechowywać zasoby zewnętrzne. Odczyt/zapis String.
 > ```
 
 **Parametry:**
-| Parametr | Typ | Opis |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### getPicturesCompression() {#getPicturesCompression--}
+```
+public abstract int getPicturesCompression()
+```
+
+Reprezentuje poziom kompresji obrazów Odczyt/zapis  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
+
+**Zwraca:**
+int
+### setPicturesCompression(int value) {#setPicturesCompression-int-}
+```
+public abstract void setPicturesCompression(int value)
+```
+
+Reprezentuje poziom kompresji obrazów Odczyt/zapis  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
+
+**Parametry:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### getDisableFontLigatures() {#getDisableFontLigatures--}
 ```
 public abstract boolean getDisableFontLigatures()
 ```
 
-Pobiera lub ustawia wartość wskazującą, czy tekst jest renderowany bez użycia ligatur. Gdy ustawione na true, ligatury zostaną wyłączone w renderowanym wyniku. Domyślnie ta właściwość ma wartość false.
+Pobiera lub ustawia wartość określającą, czy tekst jest renderowany bez użycia ligatur. Gdy ustawiona na true, ligatury będą wyłączone w renderowanym wyjściu. Domyślnie właściwość jest ustawiona na false.
 
 --------------------
 
@@ -285,7 +308,7 @@ boolean
 public abstract void setDisableFontLigatures(boolean value)
 ```
 
-Pobiera lub ustawia wartość wskazującą, czy tekst jest renderowany bez użycia ligatur. Gdy ustawione na true, ligatury zostaną wyłączone w renderowanym wyniku. Domyślnie ta właściwość ma wartość false.
+Pobiera lub ustawia wartość określającą, czy tekst jest renderowany bez użycia ligatur. Gdy ustawiona na true, ligatury będą wyłączone w renderowanym wyjściu. Domyślnie właściwość jest ustawiona na false.
 
 --------------------
 
@@ -304,7 +327,7 @@ Pobiera lub ustawia wartość wskazującą, czy tekst jest renderowany bez użyc
 > ```
 
 **Parametry:**
-| Parametr | Typ | Opis |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -361,6 +384,6 @@ Pobiera lub ustawia tryb, w którym slajdy są rozmieszczane na stronie podczas 
 > ```
 
 **Parametry:**
-| Parametr | Typ | Opis |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) |  |

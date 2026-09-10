@@ -1,7 +1,7 @@
 ---
 title: IHtml5Options
 second_title: Aspose.Slides för Android via Java API-referens
-description: Representerar alternativ för HTML5-export.
+description: Representerar HTML5-exportalternativ.
 type: docs
 url: /sv/com.aspose.slides/ihtml5options/
 ---
@@ -29,29 +29,31 @@ Representerar HTML5-exportalternativ.
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-
 ## Metoder
 
 | Metod | Beskrivning |
 | --- | --- |
 | [getAnimateTransitions()](#getAnimateTransitions--) | Returnerar eller anger alternativ för övergångsanimation. |
 | [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | Returnerar eller anger alternativ för övergångsanimation. |
-| [getAnimateShapes()](#getAnimateShapes--) | Returnerar eller anger alternativ för formanimation. |
-| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Returnerar eller anger alternativ för formanimation. |
+| [getAnimateShapes()](#getAnimateShapes--) | Returnerar eller anger alternativ för animering av former. |
+| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Returnerar eller anger alternativ för animering av former. |
 | [getEmbedImages()](#getEmbedImages--) | Returnerar eller anger alternativ för inbäddning av bilder. |
 | [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Returnerar eller anger alternativ för inbäddning av bilder. |
 | [getOutputPath()](#getOutputPath--) | Bestämmer var externa resurser ska lagras. |
 | [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Bestämmer var externa resurser ska lagras. |
-| [getDisableFontLigatures()](#getDisableFontLigatures--) | Hämtar eller anger ett värde som indikerar om text renderas utan att använda ligaturer. |
-| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Hämtar eller anger ett värde som indikerar om text renderas utan att använda ligaturer. |
-| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Hämtar eller anger läget i vilket bilder placeras på sidan vid export av en presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
-| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Hämtar eller anger läget i vilket bilder placeras på sidan vid export av en presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [getPicturesCompression()](#getPicturesCompression--) | Representerar bildkomprimeringsnivån Läs/skriv  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
+| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Representerar bildkomprimeringsnivån Läs/skriv  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
+| [getDisableFontLigatures()](#getDisableFontLigatures--) | Hämtar eller anger ett värde som indikerar om text renderas utan ligaturer. |
+| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Hämtar eller anger ett värde som indikerar om text renderas utan ligaturer. |
+| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Hämtar eller anger läget där bilder placeras på sidan vid export av en presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Hämtar eller anger läget där bilder placeras på sidan vid export av en presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 ### getAnimateTransitions() {#getAnimateTransitions--}
 ```
 public abstract boolean getAnimateTransitions()
 ```
 
-Returnerar eller anger alternativ för övergångsanimation. Läs/skriv boolesk.
+
+Returnerar eller anger alternativ för övergångsanimation. Läs/skriv boolean.
 
 --------------------
 
@@ -76,7 +78,8 @@ boolean
 public abstract void setAnimateTransitions(boolean value)
 ```
 
-Returnerar eller anger alternativ för övergångsanimation. Läs/skriv boolesk.
+
+Returnerar eller anger alternativ för övergångsanimation. Läs/skriv boolean.
 
 --------------------
 
@@ -104,7 +107,8 @@ Returnerar eller anger alternativ för övergångsanimation. Läs/skriv boolesk.
 public abstract boolean getAnimateShapes()
 ```
 
-Returnerar eller anger alternativ för formanimation. Läs/skriv boolesk.
+
+Returnerar eller anger alternativ för animering av former. Läs/skriv boolean.
 
 --------------------
 
@@ -129,7 +133,8 @@ boolean
 public abstract void setAnimateShapes(boolean value)
 ```
 
-Returnerar eller anger alternativ för formanimation. Läs/skriv boolesk.
+
+Returnerar eller anger alternativ för animering av former. Läs/skriv boolean.
 
 --------------------
 
@@ -157,7 +162,8 @@ Returnerar eller anger alternativ för formanimation. Läs/skriv boolesk.
 public abstract boolean getEmbedImages()
 ```
 
-Returnerar eller anger alternativ för inbäddning av bilder. Läs/skriv boolesk.
+
+Returnerar eller anger alternativ för inbäddning av bilder. Läs/skriv boolean.
 
 --------------------
 
@@ -174,7 +180,6 @@ Returnerar eller anger alternativ för inbäddning av bilder. Läs/skriv boolesk
 >  }
 > ```
 
-
 **Returnerar:**
 boolean
 ### setEmbedImages(boolean value) {#setEmbedImages-boolean-}
@@ -182,7 +187,8 @@ boolean
 public abstract void setEmbedImages(boolean value)
 ```
 
-Returnerar eller anger alternativ för inbäddning av bilder. Läs/skriv boolesk.
+
+Returnerar eller anger alternativ för inbäddning av bilder. Läs/skriv boolean.
 
 --------------------
 
@@ -209,7 +215,8 @@ Returnerar eller anger alternativ för inbäddning av bilder. Läs/skriv boolesk
 public abstract String getOutputPath()
 ```
 
-Bestämmer var externa resurser ska lagras. Läs/skriv sträng.
+
+Bestämmer var externa resurser ska lagras. Läs/skriv String.
 
 --------------------
 
@@ -234,7 +241,8 @@ java.lang.String
 public abstract void setOutputPath(String value)
 ```
 
-Bestämmer var externa resurser ska lagras. Läs/skriv sträng.
+
+Bestämmer var externa resurser ska lagras. Läs/skriv String.
 
 --------------------
 
@@ -257,12 +265,36 @@ Bestämmer var externa resurser ska lagras. Läs/skriv sträng.
 | --- | --- | --- |
 | value | java.lang.String |  |
 
+### getPicturesCompression() {#getPicturesCompression--}
+```
+public abstract int getPicturesCompression()
+```
+
+
+Representerar bildkomprimeringsnivån Läs/skriv  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
+
+**Returnerar:**
+int
+### setPicturesCompression(int value) {#setPicturesCompression-int-}
+```
+public abstract void setPicturesCompression(int value)
+```
+
+
+Representerar bildkomprimeringsnivån Läs/skriv  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
+
+**Parametrar:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| value | int |  |
+
 ### getDisableFontLigatures() {#getDisableFontLigatures--}
 ```
 public abstract boolean getDisableFontLigatures()
 ```
 
-Hämtar eller anger ett värde som indikerar om text renderas utan att använda ligaturer. När den är satt till true kommer ligaturer att inaktiveras i den renderade utdata. Som standard är detta egenskap satt till false.
+
+Hämtar eller anger ett värde som indikerar om text renderas utan ligaturer. När den är satt till true kommer ligaturer att inaktiveras i den renderade utdata. Som standard är detta egenskapen satt till false.
 
 --------------------
 
@@ -287,7 +319,8 @@ boolean
 public abstract void setDisableFontLigatures(boolean value)
 ```
 
-Hämtar eller anger ett värde som indikerar om text renderas utan att använda ligaturer. När den är satt till true kommer ligaturer att inaktiveras i den renderade utdata. Som standard är detta egenskap satt till false.
+
+Hämtar eller anger ett värde som indikerar om text renderas utan ligaturer. När den är satt till true kommer ligaturer att inaktiveras i den renderade utdata. Som standard är detta egenskapen satt till false.
 
 --------------------
 
@@ -315,7 +348,8 @@ Hämtar eller anger ett värde som indikerar om text renderas utan att använda 
 public abstract ISlidesLayoutOptions getSlidesLayoutOptions()
 ```
 
-Hämtar eller anger läget i vilket bilder placeras på sidan vid export av en presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+
+Hämtar eller anger läget där bilder placeras på sidan vid export av en presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
 
@@ -342,7 +376,8 @@ Hämtar eller anger läget i vilket bilder placeras på sidan vid export av en p
 public abstract void setSlidesLayoutOptions(ISlidesLayoutOptions value)
 ```
 
-Hämtar eller anger läget i vilket bilder placeras på sidan vid export av en presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+
+Hämtar eller anger läget där bilder placeras på sidan vid export av en presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
 

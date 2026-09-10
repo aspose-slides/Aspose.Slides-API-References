@@ -1,7 +1,7 @@
 ---
 title: Html5Options
-second_title: Aspose.Slides για Android μέσω αναφοράς Java API
-description: Αναπαριστά επιλογές εξαγωγής HTML5.
+second_title: Aspose.Slides για Android μέσω Java API Αναφορά
+description: Αντιπροσωπεί επιλογές εξαγωγής HTML5.
 type: docs
 url: /el/com.aspose.slides/html5options/
 ---
@@ -14,7 +14,7 @@ java.lang.Object, [com.aspose.slides.SaveOptions](../../com.aspose.slides/saveop
 public class Html5Options extends SaveOptions implements IHtml5Options
 ```
 
-Αναπαριστά επιλογές εξαγωγής HTML5.
+Αντιπροσωπεί επιλογές εξαγωγής HTML5.
 
 --------------------
 
@@ -41,22 +41,25 @@ public class Html5Options extends SaveOptions implements IHtml5Options
 
 | Μέθοδος | Περιγραφή |
 | --- | --- |
-| [getAnimateTransitions()](#getAnimateTransitions--) | Λαμβάνει ή ορίζει επιλογή animation μεταβάσεων. |
-| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | Λαμβάνει ή ορίζει επιλογή animation μεταβάσεων. |
-| [getAnimateShapes()](#getAnimateShapes--) | Λαμβάνει ή ορίζει επιλογή animation σχημάτων. |
-| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Λαμβάνει ή ορίζει επιλογή animation σχημάτων. |
-| [getEmbedImages()](#getEmbedImages--) | Λαμβάνει ή ορίζει επιλογή ενσωμάτωσης εικόνων. |
-| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Λαμβάνει ή ορίζει επιλογή ενσωμάτωσης εικόνων. |
-| [getOutputPath()](#getOutputPath--) | Καθορίζει πού πρέπει να αποθηκευθούν οι εξωτερικοί πόροι. |
-| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Καθορίζει πού πρέπει να αποθηκευθούν οι εξωτερικοί πόροι. |
-| [getDisableFontLigatures()](#getDisableFontLigatures--) | Λαμβάνει ή ορίζει τιμή που υποδεικνύει εάν το κείμενο αποδίδεται χωρίς χρήση λογών. |
-| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Λαμβάνει ή ορίζει τιμή που υποδεικνύει εάν το κείμενο αποδίδεται χωρίς χρήση λογών. |
-| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Λαμβάνει ή ορίζει τη λειτουργία με την οποία οι διαφάνειες τοποθετούνται στη σελίδα κατά την εξαγωγή παρουσίασης [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
-| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Λαμβάνει ή ορίζει τη λειτουργία με την οποία οι διαφάνειες τοποθετούνται στη σελίδα κατά την εξαγωγή παρουσίασης [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [getAnimateTransitions()](#getAnimateTransitions--) | Επιστρέφει ή ορίζει την επιλογή κίνησης μεταβάσεων. |
+| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | Επιστρέφει ή ορίζει την επιλογή κίνησης μεταβάσεων. |
+| [getAnimateShapes()](#getAnimateShapes--) | Επιστρέφει ή ορίζει την επιλογή κίνησης σχήματος. |
+| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Επιστρέφει ή ορίζει την επιλογή κίνησης σχήματος. |
+| [getEmbedImages()](#getEmbedImages--) | Επιστρέφει ή ορίζει την επιλογή ενσωμάτωσης εικόνων. |
+| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Επιστρέφει ή ορίζει την επιλογή ενσωμάτωσης εικόνων. |
+| [getOutputPath()](#getOutputPath--) | Καθορίζει πού θα αποθηκευτούν οι εξωτερικοί πόροι. |
+| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Καθορίζει πού θα αποθηκευτούν οι εξωτερικοί πόροι. |
+| [getPicturesCompression()](#getPicturesCompression--) | Αντιπροσωπεί το επίπεδο συμπίεσης των εικόνων. |
+| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Αντιπροσωπεί το επίπεδο συμπίεσης των εικόνων. |
+| [getDisableFontLigatures()](#getDisableFontLigatures--) | Ανακτά ή ορίζει μια τιμή που υποδεικνύει εάν το κείμενο αποδίδεται χωρίς χρήση συνόλων χαρακτήρων (ligatures). |
+| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Ανακτά ή ορίζει μια τιμή που υποδεικνύει εάν το κείμενο αποδίδεται χωρίς χρήση συνόλων χαρακτήρων (ligatures). |
+| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Ανακτά ή ορίζει τη λειτουργία με την οποία τα διαφάνειες τοποθετούνται στη σελίδα κατά την εξαγωγή μιας παρουσίασης [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Ανακτά ή ορίζει τη λειτουργία με την οποία τα διαφάνειες τοποθετούνται στη σελίδα κατά την εξαγωγή μιας παρουσίασης [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 ### Html5Options() {#Html5Options--}
 ```
 public Html5Options()
 ```
+
 
 Προεπιλεγμένος κατασκευαστής.
 
@@ -65,7 +68,8 @@ public Html5Options()
 public final boolean getAnimateTransitions()
 ```
 
-Λαμβάνει ή ορίζει επιλογή animation μεταβάσεων. Ανάγνωση/εγγραφή boolean.
+
+Επιστρέφει ή ορίζει την επιλογή κίνησης μεταβάσεων. Αναγνώσιμο/εγγράψιμο boolean.
 
 --------------------
 
@@ -90,7 +94,8 @@ boolean
 public final void setAnimateTransitions(boolean value)
 ```
 
-Λαμβάνει ή ορίζει επιλογή animation μεταβάσεων. Ανάγνωση/εγγραφή boolean.
+
+Επιστρέφει ή ορίζει την επιλογή κίνησης μεταβάσεων. Αναγνώσιμο/εγγράψιμο boolean.
 
 --------------------
 
@@ -118,7 +123,8 @@ public final void setAnimateTransitions(boolean value)
 public final boolean getAnimateShapes()
 ```
 
-Λαμβάνει ή ορίζει επιλογή animation σχημάτων. Ανάγνωση/εγγραφή boolean.
+
+Επιστρέφει ή ορίζει την επιλογή κίνησης σχήματος. Αναγνώσιμο/εγγράψιμο boolean.
 
 --------------------
 
@@ -143,7 +149,8 @@ boolean
 public final void setAnimateShapes(boolean value)
 ```
 
-Λαμβάνει ή ορίζει επιλογή animation σχημάτων. Ανάγνωση/εγγραφή boolean.
+
+Επιστρέφει ή ορίζει την επιλογή κίνησης σχήματος. Αναγνώσιμο/εγγράψιμο boolean.
 
 --------------------
 
@@ -171,7 +178,8 @@ public final void setAnimateShapes(boolean value)
 public final boolean getEmbedImages()
 ```
 
-Λαμβάνει ή ορίζει επιλογή ενσωμάτωσης εικόνων. Ανάγνωση/εγγραφή boolean.
+
+Επιστρέφει ή ορίζει την επιλογή ενσωμάτωσης εικόνων. Αναγνώσιμο/εγγράψιμο boolean.
 
 --------------------
 
@@ -195,7 +203,8 @@ boolean
 public final void setEmbedImages(boolean value)
 ```
 
-Λαμβάνει ή ορίζει επιλογή ενσωμάτωσης εικόνων. Ανάγνωση/εγγραφή boolean.
+
+Επιστρέφει ή ορίζει την επιλογή ενσωμάτωσης εικόνων. Αναγνώσιμο/εγγράψιμο boolean.
 
 --------------------
 
@@ -222,7 +231,8 @@ public final void setEmbedImages(boolean value)
 public final String getOutputPath()
 ```
 
-Καθορίζει πού πρέπει να αποθηκευθούν οι εξωτερικοί πόροι. Ανάγνωση/εγγραφή String.
+
+Καθορίζει πού θα αποθηκευτούν οι εξωτερικοί πόροι. Αναγνώσιμο/εγγράψιμο String.
 
 --------------------
 
@@ -247,7 +257,8 @@ java.lang.String
 public final void setOutputPath(String value)
 ```
 
-Καθορίζει πού πρέπει να αποθηκευθούν οι εξωτερικοί πόροι. Ανάγνωση/εγγραφή String.
+
+Καθορίζει πού θα αποθηκευτούν οι εξωτερικοί πόροι. Αναγνώσιμο/εγγράψιμο String.
 
 --------------------
 
@@ -270,12 +281,36 @@ public final void setOutputPath(String value)
 | --- | --- | --- |
 | value | java.lang.String |  |
 
+### getPicturesCompression() {#getPicturesCompression--}
+```
+public final int getPicturesCompression()
+```
+
+
+Αντιπροσωπεί το επίπεδο συμπίεσης των εικόνων.
+
+**Επιστρέφει:**
+int
+### setPicturesCompression(int value) {#setPicturesCompression-int-}
+```
+public final void setPicturesCompression(int value)
+```
+
+
+Αντιπροσωπεί το επίπεδο συμπίεσης των εικόνων.
+
+**Παράμετροι:**
+| Παράμετρος | Τύπος | Περιγραφή |
+| --- | --- | --- |
+| value | int |  |
+
 ### getDisableFontLigatures() {#getDisableFontLigatures--}
 ```
 public final boolean getDisableFontLigatures()
 ```
 
-Λαμβάνει ή ορίζει τιμή που υποδεικνύει εάν το κείμενο αποδίδεται χωρίς χρήση λογών. Όταν οριστεί σε true, οι λογόνοι θα απενεργοποιηθούν στην αποδοχή εξόδου. Η προεπιλογή είναι false.
+
+Ανακτά ή ορίζει μια τιμή που υποδεικνύει εάν το κείμενο αποδίδεται χωρίς χρήση συνόλων χαρακτήρων (ligatures). Όταν οριστεί σε true, οι συνόλοι χαρακτήρων θα απενεργοποιηθούν στην παραγόμενη έξοδο. Από προεπιλογή, αυτή η ιδιότητα είναι false.
 
 --------------------
 
@@ -285,7 +320,7 @@ public final boolean getDisableFontLigatures()
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      Html5Options options = new Html5Options();
->      options.setDisableFontLigatures(true); // Απενεργοποίηση λογών στην απόδοση κειμένου
+>      options.setDisableFontLigatures(true); // Απενεργοποίηση συνόλων χαρακτήρων στην απόδοση κειμένου
 > 
 >      pres.save("output.html", SaveFormat.Html5, options);
 >  } finally {
@@ -300,7 +335,8 @@ boolean
 public final void setDisableFontLigatures(boolean value)
 ```
 
-Λαμβάνει ή ορίζει τιμή που υποδεικνύει εάν το κείμενο αποδίδεται χωρίς χρήση λογών. Όταν οριστεί σε true, οι λογόνοι θα απενεργοποιηθούν στην αποδοχή εξόδου. Η προεπιλογή είναι false.
+
+Ανακτά ή ορίζει μια τιμή που υποδεικνύει εάν το κείμενο αποδίδεται χωρίς χρήση συνόλων χαρακτήρων (ligatures). Όταν οριστεί σε true, οι συνόλοι χαρακτήρων θα απενεργοποιηθούν στην παραγόμενη έξοδο. Από προεπιλογή, αυτή η ιδιότητα είναι false.
 
 --------------------
 
@@ -310,7 +346,7 @@ public final void setDisableFontLigatures(boolean value)
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      Html5Options options = new Html5Options();
->      options.setDisableFontLigatures(true); // Απενεργοποίηση λογών στην απόδοση κειμένου
+>      options.setDisableFontLigatures(true); // Απενεργοποίηση συνόλων χαρακτήρων στην απόδοση κειμένου
 > 
 >      pres.save("output.html", SaveFormat.Html5, options);
 >  } finally {
@@ -328,7 +364,8 @@ public final void setDisableFontLigatures(boolean value)
 public final ISlidesLayoutOptions getSlidesLayoutOptions()
 ```
 
-Λαμβάνει ή ορίζει τη λειτουργία με την οποία οι διαφάνειες τοποθετούνται στη σελίδα κατά την εξαγωγή παρουσίασης [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+
+Ανακτά ή ορίζει τη λειτουργία με την οποία τα διαφάνειες τοποθετούνται στη σελίδα κατά την εξαγωγή μιας παρουσίασης [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
 
@@ -355,7 +392,8 @@ public final ISlidesLayoutOptions getSlidesLayoutOptions()
 public final void setSlidesLayoutOptions(ISlidesLayoutOptions value)
 ```
 
-Λαμβάνει ή ορίζει τη λειτουργία με την οποία οι διαφάνειες τοποθετούνται στη σελίδα κατά την εξαγωγή παρουσίασης [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+
+Ανακτά ή ορίζει τη λειτουργία με την οποία τα διαφάνειες τοποθετούνται στη σελίδα κατά την εξαγωγή μιας παρουσίασης [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
 

@@ -1,7 +1,7 @@
 ---
 title: Html5Options
-second_title: Aspose.Slides pour Android via la référence de l'API Java
-description: Représente des options d'exportation HTML5.
+second_title: Aspose.Slides pour Android via la référence API Java
+description: Représente les options d'exportation HTML5.
 type: docs
 url: /fr/com.aspose.slides/html5options/
 ---
@@ -14,7 +14,7 @@ java.lang.Object, [com.aspose.slides.SaveOptions](../../com.aspose.slides/saveop
 public class Html5Options extends SaveOptions implements IHtml5Options
 ```
 
-Représente des options d'exportation HTML5.
+Représente les options d'exportation HTML5.
 
 --------------------
 
@@ -32,40 +32,42 @@ Représente des options d'exportation HTML5.
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-## Constructors
+## Constructeurs
 
-| Constructor | Description |
+| Constructeur | Description |
 | --- | --- |
-| [Html5Options()](#Html5Options--) | Default constructor. |
-## Methods
+| [Html5Options()](#Html5Options--) | Constructeur par défaut. |
+## Méthodes
 
-| Method | Description |
+| Méthode | Description |
 | --- | --- |
-| [getAnimateTransitions()](#getAnimateTransitions--) | Returns or sets transitions animation option. |
-| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | Returns or sets transitions animation option. |
-| [getAnimateShapes()](#getAnimateShapes--) | Returns or sets shapes animation option. |
-| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Returns or sets shapes animation option. |
-| [getEmbedImages()](#getEmbedImages--) | Returns or sets images embedding option. |
-| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Returns or sets images embedding option. |
-| [getOutputPath()](#getOutputPath--) | Determines where external resources should be stored. |
-| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Determines where external resources should be stored. |
-| [getDisableFontLigatures()](#getDisableFontLigatures--) | Gets or sets a value indicating whether text is rendered without using ligatures. |
-| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Gets or sets a value indicating whether text is rendered without using ligatures. |
-| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
-| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [getAnimateTransitions()](#getAnimateTransitions--) | Renvoie ou définit l'option d'animation des transitions. |
+| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | Renvoie ou définit l'option d'animation des transitions. |
+| [getAnimateShapes()](#getAnimateShapes--) | Renvoie ou définit l'option d'animation des formes. |
+| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Renvoie ou définit l'option d'animation des formes. |
+| [getEmbedImages()](#getEmbedImages--) | Renvoie ou définit l'option d'intégration des images. |
+| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Renvoie ou définit l'option d'intégration des images. |
+| [getOutputPath()](#getOutputPath--) | Détermine où les ressources externes doivent être stockées. |
+| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Détermine où les ressources externes doivent être stockées. |
+| [getPicturesCompression()](#getPicturesCompression--) | Représente le niveau de compression des images |
+| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Représente le niveau de compression des images |
+| [getDisableFontLigatures()](#getDisableFontLigatures--) | Obtient ou définit une valeur indiquant si le texte est rendu sans utiliser de ligatures. |
+| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Obtient ou définit une valeur indiquant si le texte est rendu sans utiliser de ligatures. |
+| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Obtient ou définit le mode dans lequel les diapositives sont placées sur la page lors de l'exportation d'une présentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Obtient ou définit le mode dans lequel les diapositives sont placées sur la page lors de l'exportation d'une présentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 ### Html5Options() {#Html5Options--}
 ```
 public Html5Options()
 ```
 
-Default constructor.
+Constructeur par défaut.
 
 ### getAnimateTransitions() {#getAnimateTransitions--}
 ```
 public final boolean getAnimateTransitions()
 ```
 
-Returns or sets transitions animation option. Read/write boolean.
+Renvoie ou définit l'option d'animation des transitions. Lecture/écriture boolean.
 
 --------------------
 
@@ -83,14 +85,14 @@ Returns or sets transitions animation option. Read/write boolean.
 >  }
 > ```
 
-**Returns:**
+**Retour :**
 boolean
 ### setAnimateTransitions(boolean value) {#setAnimateTransitions-boolean-}
 ```
 public final void setAnimateTransitions(boolean value)
 ```
 
-Returns or sets transitions animation option. Read/write boolean.
+Renvoie ou définit l'option d'animation des transitions. Lecture/écriture boolean.
 
 --------------------
 
@@ -108,8 +110,8 @@ Returns or sets transitions animation option. Read/write boolean.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**Paramètres :**
+| Paramètre | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -118,7 +120,7 @@ Returns or sets transitions animation option. Read/write boolean.
 public final boolean getAnimateShapes()
 ```
 
-Returns or sets shapes animation option. Read/write boolean.
+Renvoie ou définit l'option d'animation des formes. Lecture/écriture boolean.
 
 --------------------
 
@@ -136,14 +138,14 @@ Returns or sets shapes animation option. Read/write boolean.
 >  }
 > ```
 
-**Returns:**
+**Retour :**
 boolean
 ### setAnimateShapes(boolean value) {#setAnimateShapes-boolean-}
 ```
 public final void setAnimateShapes(boolean value)
 ```
 
-Returns or sets shapes animation option. Read/write boolean.
+Renvoie ou définit l'option d'animation des formes. Lecture/écriture boolean.
 
 --------------------
 
@@ -161,8 +163,8 @@ Returns or sets shapes animation option. Read/write boolean.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**Paramètres :**
+| Paramètre | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -171,7 +173,7 @@ Returns or sets shapes animation option. Read/write boolean.
 public final boolean getEmbedImages()
 ```
 
-Returns or sets images embedding option. Read/write boolean.
+Renvoie ou définit l'option d'intégration des images. Lecture/écriture boolean.
 
 --------------------
 
@@ -188,19 +190,19 @@ Returns or sets images embedding option. Read/write boolean.
 >  }
 > ```
 
-**Returns:**
+**Retour :**
 boolean
 ### setEmbedImages(boolean value) {#setEmbedImages-boolean-}
 ```
 public final void setEmbedImages(boolean value)
 ```
 
-Renvoie ou définit l'option d'intégration des images. Booléen en lecture/écriture.
+Renvoie ou définit l'option d'intégration des images. Lecture/écriture boolean.
 
 --------------------
 
 > ```
-> Exemple:
+> Example:
 >  
 >  Presentation pres = new Presentation("demo.pptx");
 >  try {
@@ -212,8 +214,8 @@ Renvoie ou définit l'option d'intégration des images. Booléen en lecture/écr
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**Paramètres :**
+| Paramètre | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -240,7 +242,7 @@ Détermine où les ressources externes doivent être stockées. Lecture/écritur
 >  }
 > ```
 
-**Returns:**
+**Retour :**
 java.lang.String
 ### setOutputPath(String value) {#setOutputPath-java.lang.String-}
 ```
@@ -252,7 +254,7 @@ Détermine où les ressources externes doivent être stockées. Lecture/écritur
 --------------------
 
 > ```
-> Exemple:
+> Example:
 >  
 >  Presentation pres = new Presentation("demo.pptx");
 >  try {
@@ -265,17 +267,38 @@ Détermine où les ressources externes doivent être stockées. Lecture/écritur
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**Paramètres :**
+| Paramètre | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### getPicturesCompression() {#getPicturesCompression--}
+```
+public final int getPicturesCompression()
+```
+
+Représente le niveau de compression des images
+
+**Retour :**
+int
+### setPicturesCompression(int value) {#setPicturesCompression-int-}
+```
+public final void setPicturesCompression(int value)
+```
+
+Représente le niveau de compression des images
+
+**Paramètres :**
+| Paramètre | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### getDisableFontLigatures() {#getDisableFontLigatures--}
 ```
 public final boolean getDisableFontLigatures()
 ```
 
-Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false.
+Obtient ou définit une valeur indiquant si le texte est rendu sans utiliser de ligatures. Lorsqu'elle est définie sur true, les ligatures seront désactivées dans la sortie rendue. Par défaut, cette propriété est définie sur false.
 
 --------------------
 
@@ -285,7 +308,7 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      Html5Options options = new Html5Options();
->      options.setDisableFontLigatures(true); // Désactiver les ligatures dans le rendu du texte
+>      options.setDisableFontLigatures(true); // Désactiver les ligatures lors du rendu du texte
 > 
 >      pres.save("output.html", SaveFormat.Html5, options);
 >  } finally {
@@ -293,14 +316,14 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 >  }
 > ```
 
-**Returns:**
+**Retour :**
 boolean
 ### setDisableFontLigatures(boolean value) {#setDisableFontLigatures-boolean-}
 ```
 public final void setDisableFontLigatures(boolean value)
 ```
 
-Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false.
+Obtient ou définit une valeur indiquant si le texte est rendu sans utiliser de ligatures. Lorsqu'elle est définie sur true, les ligatures seront désactivées dans la sortie rendue. Par défaut, cette propriété est définie sur false.
 
 --------------------
 
@@ -310,7 +333,7 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      Html5Options options = new Html5Options();
->      options.setDisableFontLigatures(true); // Désactiver les ligatures dans le rendu du texte
+>      options.setDisableFontLigatures(true); // Désactiver les ligatures lors du rendu du texte
 > 
 >      pres.save("output.html", SaveFormat.Html5, options);
 >  } finally {
@@ -318,8 +341,8 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**Paramètres :**
+| Paramètre | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -328,7 +351,7 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 public final ISlidesLayoutOptions getSlidesLayoutOptions()
 ```
 
-Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+Obtient ou définit le mode dans lequel les diapositives sont placées sur la page lors de l'exportation d'une présentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
 
@@ -348,19 +371,19 @@ Gets or sets the mode in which slides are placed on the page when exporting a pr
 >  }
 > ```
 
-**Returns:**
+**Retour :**
 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)
 ### setSlidesLayoutOptions(ISlidesLayoutOptions value) {#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-}
 ```
 public final void setSlidesLayoutOptions(ISlidesLayoutOptions value)
-
+```
 
 Obtient ou définit le mode dans lequel les diapositives sont placées sur la page lors de l'exportation d'une présentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
 
 > ```
-> Exemple:
+> Example:
 >  
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
@@ -375,7 +398,7 @@ Obtient ou définit le mode dans lequel les diapositives sont placées sur la pa
 >  }
 > ```
 
-**Paramètres:**
+**Paramètres :**
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | value | [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) |  |

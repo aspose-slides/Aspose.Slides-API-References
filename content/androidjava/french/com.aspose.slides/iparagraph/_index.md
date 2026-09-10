@@ -1,31 +1,32 @@
 ---
 title: IParagraph
-second_title: Aspose.Slides pour Android via la référence d'API Java
+second_title: Aspose.Slides pour Android via la référence API Java
 description: Représente un paragraphe de texte.
 type: docs
 url: /fr/com.aspose.slides/iparagraph/
 ---
-**Toutes les interfaces implémentées :**  
+**All Implemented Interfaces:**
 [com.aspose.slides.ISlideComponent](../../com.aspose.slides/islidecomponent)
 ```
 public interface IParagraph extends ISlideComponent
 ```
 
-Représente un paragraphe de texte.  
+Représente un paragraphe d'un texte.
 ## Méthodes
 
-| Méthode | Description |
+| Method | Description |
 | --- | --- |
 | [getPortions()](#getPortions--) | Renvoie la collection des portions de texte. |
-| [getParagraphFormat()](#getParagraphFormat--) | Renvoie l’objet de mise en forme pour ce paragraphe. |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Fusionne les portions avec la même mise en forme. |
-| [getText()](#getText--) | Obtient ou définit le texte brut d’un paragraphe. |
-| [setText(String value)](#setText-java.lang.String-) | Obtient ou définit le texte brut d’un paragraphe. |
+| [getParagraphFormat()](#getParagraphFormat--) | Renvoie l'objet de mise en forme pour ce paragraphe. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Fusionne les séquences avec la même mise en forme. |
+| [getText()](#getText--) | Obtient ou définit le texte brut d'un paragraphe. |
+| [setText(String value)](#setText-java.lang.String-) | Obtient ou définit le texte brut d'un paragraphe. |
 | [getRect()](#getRect--) | Obtient les coordonnées du rectangle qui encadre le paragraphe. |
-| [getLinesCount()](#getLinesCount--) | Obtient le nombre de lignes d’un paragraphe. |
-| [getEndParagraphPortionFormat()](#getEndParagraphPortionFormat--) | Spécifie les propriétés de la portion à utiliser si une autre portion est insérée après la dernière. |
-| [setEndParagraphPortionFormat(IPortionFormat value)](#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-) | Spécifie les propriétés de la portion à utiliser si une autre portion est insérée après la dernière. |
-
+| [getLinesCount()](#getLinesCount--) | Obtient le nombre de lignes dans un paragraphe. |
+| [getImage()](#getImage--) | Renvoie une image du paragraphe. |
+| [getImage(float scaleX, float scaleY)](#getImage-float-float-) | Renvoie une image du paragraphe avec l'échelle spécifiée. |
+| [getEndParagraphPortionFormat()](#getEndParagraphPortionFormat--) | Spécifie les propriétés de portion qui doivent être utilisées si une autre portion est insérée après la dernière. |
+| [setEndParagraphPortionFormat(IPortionFormat value)](#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-) | Spécifie les propriétés de portion qui doivent être utilisées si une autre portion est insérée après la dernière. |
 ### getPortions() {#getPortions--}
 ```
 public abstract IPortionCollection getPortions()
@@ -33,52 +34,48 @@ public abstract IPortionCollection getPortions()
 
 Renvoie la collection des portions de texte. Lecture seule [IPortionCollection](../../com.aspose.slides/iportioncollection).
 
-**Retour :**  
+**Renvoie :**
 [IPortionCollection](../../com.aspose.slides/iportioncollection)
-
 ### getParagraphFormat() {#getParagraphFormat--}
 ```
 public abstract IParagraphFormat getParagraphFormat()
 ```
 
-Renvoie l’objet de mise en forme pour ce paragraphe. Lecture seule [IParagraphFormat](../../com.aspose.slides/iparagraphformat).
+Renvoie l'objet de mise en forme pour ce paragraphe. Lecture seule [IParagraphFormat](../../com.aspose.slides/iparagraphformat).
 
-**Retour :**  
+**Renvoie :**
 [IParagraphFormat](../../com.aspose.slides/iparagraphformat)
-
 ### joinPortionsWithSameFormatting() {#joinPortionsWithSameFormatting--}
 ```
 public abstract void joinPortionsWithSameFormatting()
 ```
 
-Fusionne les portions avec la même mise en forme.
+Fusionne les séquences avec la même mise en forme.
 
 ### getText() {#getText--}
 ```
 public abstract String getText()
 ```
 
-Obtient ou définit le texte brut d’un paragraphe. Lecture/écriture String.
+Obtient ou définit le texte brut d'un paragraphe. Lecture/écriture String.
 
 Valeur : Le texte.
 
-**Retour :**  
+**Renvoie :**
 java.lang.String
-
 ### setText(String value) {#setText-java.lang.String-}
 ```
 public abstract void setText(String value)
 ```
 
-Obtient ou définit le texte brut d’un paragraphe. Lecture/écriture String.
+Obtient ou définit le texte brut d'un paragraphe. Lecture/écriture String.
 
 Valeur : Le texte.
 
-**Paramètres :**  
+**Paramètres :**
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
-
 ### getRect() {#getRect--}
 ```
 public abstract RectF getRect()
@@ -86,15 +83,14 @@ public abstract RectF getRect()
 
 Obtient les coordonnées du rectangle qui encadre le paragraphe. Le rectangle comprend toutes les lignes de texte du paragraphe, y compris les lignes vides.
 
-**Retour :**  
+**Renvoie :**
 android.graphics.RectF - Rectangle qui encadre le paragraphe android.graphics.RectF
-
 ### getLinesCount() {#getLinesCount--}
 ```
 public abstract int getLinesCount()
 ```
 
-Obtient le nombre de lignes d’un paragraphe.
+Obtient le nombre de lignes dans un paragraphe.
 
 --------------------
 
@@ -114,24 +110,108 @@ Obtient le nombre de lignes d’un paragraphe.
 >  }
 > ```
 
-**Returns:**
-int - Lines count in a paragraph
+
+**Renvoie :**
+int - Nombre de lignes dans un paragraphe
+### getImage() {#getImage--}
+```
+public abstract IImage getImage()
+```
+
+Renvoie une image du paragraphe.
+
+--------------------
+
+> ```
+> The following example shows how to render a paragraph as an image:
+>   
+>  Presentation pres = new Presentation();
+>  try {
+>      IAutoShape shape = pres.getSlides().get_Item(0).getShapes().addAutoShape(
+>          ShapeType.Rectangle, 50, 50, 150, 50);
+>      IParagraph paragraph = shape.getTextFrame().getParagraphs().get_Item(0);
+>      paragraph.setText("Aspose Paragraph GetImage() Example");
+>      IImage paragraphImage = paragraph.getImage();
+>      try {
+>          paragraphImage.save("paragraph.png");
+>      } finally {
+>          if (paragraphImage != null) paragraphImage.dispose();
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Renvoie :**
+[IImage](../../com.aspose.slides/iimage) - Une image contenant le paragraphe rendu, ou null si le paragraphe ne peut pas être trouvé dans sa collection parente, n’a pas de limites de rendu valides, ou qu’une erreur se produit lors du rendu de l’image.
+### getImage(float scaleX, float scaleY) {#getImage-float-float-}
+```
+public abstract IImage getImage(float scaleX, float scaleY)
+```
+
+Renvoie une image du paragraphe avec l'échelle spécifiée.
+
+--------------------
+
+> ```
+> The following example shows how to render each text box paragraph on a slide as an image with custom scaling:
+>   
+>  Presentation pres = new Presentation("sample.pptx");
+>  try {
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      int shapeIndex = 0;
+>      for (IShape shape : slide.getShapes())
+>      {
+>          shapeIndex++;
+>          if (shape instanceof IAutoShape) {
+>              IAutoShape autoShape = (IAutoShape)shape;
+>              int paragraphIndex = 0;
+>              for (IParagraph paragraph : autoShape.getTextFrame().getParagraphs())
+>              {
+>                  paragraphIndex++;
+>                  IImage paragraphImage = paragraph.getImage(2f, 2f);
+>                  try {
+>                      if (paragraphImage != null)
+>                          paragraphImage.save("shape"+shapeIndex+"_paragraph"+paragraphIndex+".png");
+> 
+>                  } finally {
+>                      if (paragraphImage != null) paragraphImage.dispose();
+>                  }
+>              }
+>          }
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Paramètres :**
+| Paramètre | Type | Description |
+| --- | --- | --- |
+| scaleX | float | Le facteur d’échelle horizontal appliqué à l’image du paragraphe. |
+| scaleY | float | Le facteur d’échelle vertical appliqué à l’image du paragraphe. |
+
+**Renvoie :**
+[IImage](../../com.aspose.slides/iimage) - Une image contenant le paragraphe rendu, ou null si le paragraphe ne peut pas être trouvé dans sa collection parente, n’a pas de limites de rendu valides, ou qu’une erreur se produit lors du rendu de l’image.
 ### getEndParagraphPortionFormat() {#getEndParagraphPortionFormat--}
 ```
 public abstract IPortionFormat getEndParagraphPortionFormat()
 ```
 
-Specifies the portion properties that are to be used if another portion is inserted after the last one.
+Spécifie les propriétés de portion qui doivent être utilisées si une autre portion est insérée après la dernière.
 
-**Returns:**
+**Renvoie :**
 [IPortionFormat](../../com.aspose.slides/iportionformat)
 ### setEndParagraphPortionFormat(IPortionFormat value) {#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-}
 ```
 public abstract void setEndParagraphPortionFormat(IPortionFormat value)
+```
 
-Spécifie les propriétés de la portion à utiliser si une autre portion est insérée après la dernière.
+Spécifie les propriétés de portion qui doivent être utilisées si une autre portion est insérée après la dernière.
 
-**Paramètres :**  
+**Paramètres :**
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | value | [IPortionFormat](../../com.aspose.slides/iportionformat) |  |

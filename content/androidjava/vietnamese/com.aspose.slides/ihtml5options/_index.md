@@ -1,17 +1,17 @@
 ---
 title: IHtml5Options
 second_title: Aspose.Slides cho Android qua Tham chiếu API Java
-description: Đại diện cho các tùy chọn xuất HTML5.
+description: Mô tả các tùy chọn xuất HTML5.
 type: docs
 url: /vi/com.aspose.slides/ihtml5options/
 ---
-**All Implemented Interfaces:**
+**Tất cả các giao diện đã thực hiện:**
 [com.aspose.slides.ISaveOptions](../../com.aspose.slides/isaveoptions)
 ```
 public interface IHtml5Options extends ISaveOptions
 ```
 
-Đại diện cho các tùy chọn xuất HTML5.
+Mô tả các tùy chọn xuất HTML5.
 
 --------------------
 
@@ -33,25 +33,27 @@ public interface IHtml5Options extends ISaveOptions
 
 | Phương thức | Mô tả |
 | --- | --- |
-| [getAnimateTransitions()](#getAnimateTransitions--) | Returns or sets transitions animation option. |
-| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | Returns or sets transitions animation option. |
-| [getAnimateShapes()](#getAnimateShapes--) | Returns or sets shapes animation option. |
-| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Returns or sets shapes animation option. |
-| [getEmbedImages()](#getEmbedImages--) | Returns or sets images embedding option. |
-| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Returns or sets images embedding option. |
-| [getOutputPath()](#getOutputPath--) | Determines where external resources should be stored. |
-| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Determines where external resources should be stored. |
-| [getDisableFontLigatures()](#getDisableFontLigatures--) | Gets or sets a value indicating whether text is rendered without using ligatures. |
-| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Gets or sets a value indicating whether text is rendered without using ligatures. |
-| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
-| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [getAnimateTransitions()](#getAnimateTransitions--) | Trả về hoặc đặt tùy chọn hoạt ảnh chuyển đổi. |
+| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | Trả về hoặc đặt tùy chọn hoạt ảnh chuyển đổi. |
+| [getAnimateShapes()](#getAnimateShapes--) | Trả về hoặc đặt tùy chọn hoạt ảnh hình dạng. |
+| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Trả về hoặc đặt tùy chọn hoạt ảnh hình dạng. |
+| [getEmbedImages()](#getEmbedImages--) | Trả về hoặc đặt tùy chọn nhúng hình ảnh. |
+| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Trả về hoặc đặt tùy chọn nhúng hình ảnh. |
+| [getOutputPath()](#getOutputPath--) | Xác định nơi lưu trữ tài nguyên bên ngoài. |
+| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Xác định nơi lưu trữ tài nguyên bên ngoài. |
+| [getPicturesCompression()](#getPicturesCompression--) | Mô tả mức nén hình ảnh Đọc/ghi  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
+| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Mô tả mức nén hình ảnh Đọc/ghi  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
+| [getDisableFontLigatures()](#getDisableFontLigatures--) | Lấy hoặc đặt giá trị cho biết văn bản có được hiển thị mà không dùng ligature hay không. |
+| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Lấy hoặc đặt giá trị cho biết văn bản có được hiển thị mà không dùng ligature hay không. |
+| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Lấy hoặc đặt chế độ sắp xếp các slide trên trang khi xuất bản trình chiếu [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Lấy hoặc đặt chế độ sắp xếp các slide trên trang khi xuất bản trình chiếu [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+
 ### getAnimateTransitions() {#getAnimateTransitions--}
 ```
 public abstract boolean getAnimateTransitions()
 ```
 
-
-Trả về hoặc thiết lập tùy chọn hoạt ảnh chuyển đổi. Đọc/ghi boolean.
+Trả về hoặc đặt tùy chọn hoạt ảnh chuyển đổi. Đọc/ghi boolean.
 
 --------------------
 
@@ -76,8 +78,7 @@ boolean
 public abstract void setAnimateTransitions(boolean value)
 ```
 
-
-Trả về hoặc thiết lập tùy chọn hoạt ảnh chuyển đổi. Đọc/ghi boolean.
+Trả về hoặc đặt tùy chọn hoạt ảnh chuyển đổi. Đọc/ghi boolean.
 
 --------------------
 
@@ -105,8 +106,7 @@ Trả về hoặc thiết lập tùy chọn hoạt ảnh chuyển đổi. Đọc
 public abstract boolean getAnimateShapes()
 ```
 
-
-Trả về hoặc thiết lập tùy chọn hoạt ảnh hình dạng. Đọc/ghi boolean.
+Trả về hoặc đặt tùy chọn hoạt ảnh hình dạng. Đọc/ghi boolean.
 
 --------------------
 
@@ -131,8 +131,7 @@ boolean
 public abstract void setAnimateShapes(boolean value)
 ```
 
-
-Trả về hoặc thiết lập tùy chọn hoạt ảnh hình dạng. Đọc/ghi boolean.
+Trả về hoặc đặt tùy chọn hoạt ảnh hình dạng. Đọc/ghi boolean.
 
 --------------------
 
@@ -160,8 +159,7 @@ Trả về hoặc thiết lập tùy chọn hoạt ảnh hình dạng. Đọc/gh
 public abstract boolean getEmbedImages()
 ```
 
-
-Trả về hoặc thiết lập tùy chọn nhúng hình ảnh. Đọc/ghi boolean.
+Trả về hoặc đặt tùy chọn nhúng hình ảnh. Đọc/ghi boolean.
 
 --------------------
 
@@ -185,8 +183,7 @@ boolean
 public abstract void setEmbedImages(boolean value)
 ```
 
-
-Trả về hoặc thiết lập tùy chọn nhúng hình ảnh. Đọc/ghi boolean.
+Trả về hoặc đặt tùy chọn nhúng hình ảnh. Đọc/ghi boolean.
 
 --------------------
 
@@ -213,8 +210,7 @@ Trả về hoặc thiết lập tùy chọn nhúng hình ảnh. Đọc/ghi boole
 public abstract String getOutputPath()
 ```
 
-
-Xác định nơi lưu trữ các tài nguyên bên ngoài. Đọc/ghi String.
+Xác định nơi lưu trữ tài nguyên bên ngoài. Đọc/ghi String.
 
 --------------------
 
@@ -239,8 +235,7 @@ java.lang.String
 public abstract void setOutputPath(String value)
 ```
 
-
-Xác định nơi lưu trữ các tài nguyên bên ngoài. Đọc/ghi String.
+Xác định nơi lưu trữ tài nguyên bên ngoài. Đọc/ghi String.
 
 --------------------
 
@@ -263,13 +258,33 @@ Xác định nơi lưu trữ các tài nguyên bên ngoài. Đọc/ghi String.
 | --- | --- | --- |
 | value | java.lang.String |  |
 
+### getPicturesCompression() {#getPicturesCompression--}
+```
+public abstract int getPicturesCompression()
+```
+
+Mô tả mức nén hình ảnh Đọc/ghi  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
+
+**Trả về:**
+int
+### setPicturesCompression(int value) {#setPicturesCompression-int-}
+```
+public abstract void setPicturesCompression(int value)
+```
+
+Mô tả mức nén hình ảnh Đọc/ghi  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
+
+**Tham số:**
+| Tham số | Kiểu | Mô tả |
+| --- | --- | --- |
+| value | int |  |
+
 ### getDisableFontLigatures() {#getDisableFontLigatures--}
 ```
 public abstract boolean getDisableFontLigatures()
 ```
 
-
-Lấy hoặc đặt giá trị cho biết liệu văn bản có được hiển thị mà không sử dụng ligatures hay không. Khi được đặt thành true, các ligatures sẽ bị tắt trong đầu ra đã render. Mặc định, thuộc tính này được đặt là false.
+Lấy hoặc đặt giá trị cho biết văn bản có được hiển thị mà không dùng ligature hay không. Khi đặt là true, ligature sẽ bị tắt trong kết quả hiển thị. Mặc định, thuộc tính này được đặt là false.
 
 --------------------
 
@@ -279,7 +294,7 @@ Lấy hoặc đặt giá trị cho biết liệu văn bản có được hiển 
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      Html5Options options = new Html5Options();
->      options.setDisableFontLigatures(true); // Vô hiệu hoá ligatures trong việc hiển thị văn bản
+>      options.setDisableFontLigatures(true); // Vô hiệu hoá ligature khi hiển thị văn bản
 > 
 >      pres.save("output.html", SaveFormat.Html5, options);
 >  } finally {
@@ -294,8 +309,7 @@ boolean
 public abstract void setDisableFontLigatures(boolean value)
 ```
 
-
-Lấy hoặc đặt giá trị cho biết liệu văn bản có được hiển thị mà không sử dụng ligatures hay không. Khi được đặt thành true, các ligatures sẽ bị tắt trong đầu ra đã render. Mặc định, thuộc tính này được đặt là false.
+Lấy hoặc đặt giá trị cho biết văn bản có được hiển thị mà không dùng ligature hay không. Khi đặt là true, ligature sẽ bị tắt trong kết quả hiển thị. Mặc định, thuộc tính này được đặt là false.
 
 --------------------
 
@@ -305,7 +319,7 @@ Lấy hoặc đặt giá trị cho biết liệu văn bản có được hiển 
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      Html5Options options = new Html5Options();
->      options.setDisableFontLigatures(true); // Vô hiệu hoá ligatures trong việc hiển thị văn bản
+>      options.setDisableFontLigatures(true); // Vô hiệu hoá ligature khi hiển thị văn bản
 > 
 >      pres.save("output.html", SaveFormat.Html5, options);
 >  } finally {
@@ -322,7 +336,6 @@ Lấy hoặc đặt giá trị cho biết liệu văn bản có được hiển 
 ```
 public abstract ISlidesLayoutOptions getSlidesLayoutOptions()
 ```
-
 
 Lấy hoặc đặt chế độ sắp xếp các slide trên trang khi xuất bản trình chiếu [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
@@ -350,7 +363,6 @@ Lấy hoặc đặt chế độ sắp xếp các slide trên trang khi xuất b�
 ```
 public abstract void setSlidesLayoutOptions(ISlidesLayoutOptions value)
 ```
-
 
 Lấy hoặc đặt chế độ sắp xếp các slide trên trang khi xuất bản trình chiếu [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 

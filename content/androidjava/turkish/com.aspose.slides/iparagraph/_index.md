@@ -1,36 +1,38 @@
 ---
 title: IParagraph
-second_title: Aspose.Slides for Android, Java API Referansı ile
-description: Bir metnin paragrafını temsil eder.
+second_title: Java API Referansı aracılığıyla Android için Aspose.Slides
+description: Metnin bir paragrafını temsil eder.
 type: docs
 url: /tr/com.aspose.slides/iparagraph/
 ---
-**Uygulanan Tüm Arayüzler:**
+**Tüm Uygulanan Arabirimler:**
 [com.aspose.slides.ISlideComponent](../../com.aspose.slides/islidecomponent)
 ```
 public interface IParagraph extends ISlideComponent
 ```
 
-Bir metin paragrafını temsil eder.
+Metnin bir paragrafını temsil eder.
 ## Yöntemler
 
-| Method | Description |
+| Yöntem | Açıklama |
 | --- | --- |
 | [getPortions()](#getPortions--) | Metin bölümlerinin koleksiyonunu döndürür. |
 | [getParagraphFormat()](#getParagraphFormat--) | Bu paragraf için biçimlendirme nesnesini döndürür. |
 | [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Aynı biçimlendirmeye sahip koşuları birleştirir. |
 | [getText()](#getText--) | Bir paragrafın düz metnini alır veya ayarlar. |
 | [setText(String value)](#setText-java.lang.String-) | Bir paragrafın düz metnini alır veya ayarlar. |
-| [getRect()](#getRect--) | Paragrafı sınırlayan dikdörtgenin koordinatlarını alır. |
-| [getLinesCount()](#getLinesCount--) | Bir paragraftaki satır sayısını alır. |
-| [getEndParagraphPortionFormat()](#getEndParagraphPortionFormat--) | Başka bir bölüm sonuncusunun ardından eklenecekse kullanılacak bölüm özelliklerini belirtir. |
-| [setEndParagraphPortionFormat(IPortionFormat value)](#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-) | Başka bir bölüm sonuncusunun ardından eklenecekse kullanılacak bölüm özelliklerini belirtir. |
+| [getRect()](#getRect--) | Paragrafı sınırlayan dikdörtgenin koordinatlarını al. |
+| [getLinesCount()](#getLinesCount--) | Paragraftaki satır sayısını al. |
+| [getImage()](#getImage--) | Paragrafın bir görüntüsünü döndürür. |
+| [getImage(float scaleX, float scaleY)](#getImage-float-float-) | Belirtilen ölçekte paragrafın bir görüntüsünü döndürür. |
+| [getEndParagraphPortionFormat()](#getEndParagraphPortionFormat--) | Son bölümden sonra başka bir bölüm eklenirse kullanılacak bölüm özelliklerini belirtir. |
+| [setEndParagraphPortionFormat(IPortionFormat value)](#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-) | Son bölümden sonra başka bir bölüm eklenirse kullanılacak bölüm özelliklerini belirtir. |
 ### getPortions() {#getPortions--}
 ```
 public abstract IPortionCollection getPortions()
 ```
 
-Metin bölümlerinin koleksiyonunu döndürür. Yalnızca okunabilir [IPortionCollection](../../com.aspose.slides/iportioncollection).
+Metin bölümlerinin koleksiyonunu döndürür. Salt okunur [IPortionCollection](../../com.aspose.slides/iportioncollection).
 
 **Döndürür:**
 [IPortionCollection](../../com.aspose.slides/iportioncollection)
@@ -39,7 +41,7 @@ Metin bölümlerinin koleksiyonunu döndürür. Yalnızca okunabilir [IPortionCo
 public abstract IParagraphFormat getParagraphFormat()
 ```
 
-Bu paragraf için biçimlendirme nesnesini döndürür. Yalnızca okunabilir [IParagraphFormat](../../com.aspose.slides/iparagraphformat).
+Bu paragraf için biçimlendirme nesnesini döndürür. Salt okunur [IParagraphFormat](../../com.aspose.slides/iparagraphformat).
 
 **Döndürür:**
 [IParagraphFormat](../../com.aspose.slides/iparagraphformat)
@@ -55,7 +57,7 @@ Aynı biçimlendirmeye sahip koşuları birleştirir.
 public abstract String getText()
 ```
 
-Bir paragrafın düz metnini alır veya ayarlar. Okuma/yazma String.
+Bir paragrafın düz metnini alır veya ayarlar. Okunur/yazılabilir String.
 
 Değer: Metin.
 
@@ -66,7 +68,7 @@ java.lang.String
 public abstract void setText(String value)
 ```
 
-Bir paragrafın düz metnini alır veya ayarlar. Okuma/yazma String.
+Bir paragrafın düz metnini alır veya ayarlar. Okunur/yazılabilir String.
 
 Değer: Metin.
 
@@ -80,7 +82,7 @@ Değer: Metin.
 public abstract RectF getRect()
 ```
 
-Paragrafı sınırlayan dikdörtgenin koordinatlarını alır. Dikdörtgen, paragraftaki tüm metin satırlarını, boş satırları da dahil olmak üzere, içerir.
+Paragrafı sınırlayan dikdörtgenin koordinatlarını al. Dikdörtgen, paragraftaki tüm metin satırlarını, boş olanlar da dahil, içerir.
 
 **Döndürür:**
 android.graphics.RectF - Paragrafı sınırlayan dikdörtgen android.graphics.RectF
@@ -89,7 +91,7 @@ android.graphics.RectF - Paragrafı sınırlayan dikdörtgen android.graphics.Re
 public abstract int getLinesCount()
 ```
 
-Bir paragraftaki satır sayısını alır.
+Paragraftaki satır sayısını al.
 
 --------------------
 
@@ -112,12 +114,94 @@ Bir paragraftaki satır sayısını alır.
 
 **Döndürür:**
 int - Paragraftaki satır sayısı
+### getImage() {#getImage--}
+```
+public abstract IImage getImage()
+```
+
+Paragrafın bir görüntüsünü döndürür.
+
+--------------------
+
+> ```
+> The following example shows how to render a paragraph as an image:
+>   
+>  Presentation pres = new Presentation();
+>  try {
+>      IAutoShape shape = pres.getSlides().get_Item(0).getShapes().addAutoShape(
+>          ShapeType.Rectangle, 50, 50, 150, 50);
+>      IParagraph paragraph = shape.getTextFrame().getParagraphs().get_Item(0);
+>      paragraph.setText("Aspose Paragraph GetImage() Example");
+>      IImage paragraphImage = paragraph.getImage();
+>      try {
+>          paragraphImage.save("paragraph.png");
+>      } finally {
+>          if (paragraphImage != null) paragraphImage.dispose();
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Döndürür:**
+[IImage](../../com.aspose.slides/iimage) - Oluşturulmuş paragrafı içeren bir görüntü, ya da paragraf üst koleksiyonunda bulunamazsa, geçerli bir render sınırı yoksa veya görüntü renderlenirken bir hata oluşursa null.
+### getImage(float scaleX, float scaleY) {#getImage-float-float-}
+```
+public abstract IImage getImage(float scaleX, float scaleY)
+```
+
+Belirtilen ölçekte paragrafın bir görüntüsünü döndürür.
+
+--------------------
+
+> ```
+> The following example shows how to render each text box paragraph on a slide as an image with custom scaling:
+>   
+>  Presentation pres = new Presentation("sample.pptx");
+>  try {
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      int shapeIndex = 0;
+>      for (IShape shape : slide.getShapes())
+>      {
+>          shapeIndex++;
+>          if (shape instanceof IAutoShape) {
+>              IAutoShape autoShape = (IAutoShape)shape;
+>              int paragraphIndex = 0;
+>              for (IParagraph paragraph : autoShape.getTextFrame().getParagraphs())
+>              {
+>                  paragraphIndex++;
+>                  IImage paragraphImage = paragraph.getImage(2f, 2f);
+>                  try {
+>                      if (paragraphImage != null)
+>                          paragraphImage.save("shape"+shapeIndex+"_paragraph"+paragraphIndex+".png");
+> 
+>                  } finally {
+>                      if (paragraphImage != null) paragraphImage.dispose();
+>                  }
+>              }
+>          }
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Parametreler:**
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| scaleX | float | Paragraf görüntüsüne uygulanan yatay ölçek faktörü. |
+| scaleY | float | Paragraf görüntüsüne uygulanan dikey ölçek faktörü. |
+
+**Döndürür:**
+[IImage](../../com.aspose.slides/iimage) - Oluşturulmuş paragrafı içeren bir görüntü, ya da paragraf üst koleksiyonunda bulunamazsa, geçerli bir render sınırı yoksa veya görüntü renderlenirken bir hata oluşursa null.
 ### getEndParagraphPortionFormat() {#getEndParagraphPortionFormat--}
 ```
 public abstract IPortionFormat getEndParagraphPortionFormat()
 ```
 
-Başka bir bölüm sonuncusunun ardından eklenecekse kullanılacak bölüm özelliklerini belirtir.
+Son bölümden sonra başka bir bölüm eklenirse kullanılacak bölüm özelliklerini belirtir.
 
 **Döndürür:**
 [IPortionFormat](../../com.aspose.slides/iportionformat)
@@ -126,7 +210,7 @@ Başka bir bölüm sonuncusunun ardından eklenecekse kullanılacak bölüm öze
 public abstract void setEndParagraphPortionFormat(IPortionFormat value)
 ```
 
-Başka bir bölüm sonuncusunun ardından eklenecekse kullanılacak bölüm özelliklerini belirtir.
+Son bölümden sonra başka bir bölüm eklenirse kullanılacak bölüm özelliklerini belirtir.
 
 **Parametreler:**
 | Parametre | Tür | Açıklama |

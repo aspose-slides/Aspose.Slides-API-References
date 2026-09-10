@@ -1,11 +1,11 @@
 ---
 title: IHtml5Options
-second_title: Aspose.Slides for Android via Java API 参考
+second_title: 适用于 Android 的 Aspose.Slides Java API 参考
 description: 表示 HTML5 导出选项。
 type: docs
 url: /zh/com.aspose.slides/ihtml5options/
 ---
-**所有实现的接口:**
+**所有已实现的接口：**
 [com.aspose.slides.ISaveOptions](../../com.aspose.slides/isaveoptions)
 ```
 public interface IHtml5Options extends ISaveOptions
@@ -29,28 +29,31 @@ public interface IHtml5Options extends ISaveOptions
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-## Methods
+## 方法
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [getAnimateTransitions()](#getAnimateTransitions--) | Returns or sets transitions animation option. |
-| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | Returns or sets transitions animation option. |
-| [getAnimateShapes()](#getAnimateShapes--) | Returns or sets shapes animation option. |
-| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Returns or sets shapes animation option. |
-| [getEmbedImages()](#getEmbedImages--) | Returns or sets images embedding option. |
-| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Returns or sets images embedding option. |
-| [getOutputPath()](#getOutputPath--) | Determines where external resources should be stored. |
-| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Determines where external resources should be stored. |
-| [getDisableFontLigatures()](#getDisableFontLigatures--) | Gets or sets a value indicating whether text is rendered without using ligatures. |
-| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Gets or sets a value indicating whether text is rendered without using ligatures. |
-| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
-| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [getAnimateTransitions()](#getAnimateTransitions--) | 返回或设置转换动画选项。 |
+| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | 返回或设置转换动画选项。 |
+| [getAnimateShapes()](#getAnimateShapes--) | 返回或设置形状动画选项。 |
+| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | 返回或设置形状动画选项。 |
+| [getEmbedImages()](#getEmbedImages--) | 返回或设置图像嵌入选项。 |
+| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | 返回或设置图像嵌入选项。 |
+| [getOutputPath()](#getOutputPath--) | 确定外部资源的存储位置。 |
+| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | 确定外部资源的存储位置。 |
+| [getPicturesCompression()](#getPicturesCompression--) | 表示图片压缩级别 读/写  PicturesCompression (#getPicturesCompression.getPicturesCompression/#setPicturesCompression(int).setPicturesCompression(int)). |
+| [setPicturesCompression(int value)](#setPicturesCompression-int-) | 表示图片压缩级别 读/写  PicturesCompression (#getPicturesCompression.getPicturesCompression/#setPicturesCompression(int).setPicturesCompression(int)). |
+| [getDisableFontLigatures()](#getDisableFontLigatures--) | 获取或设置一个值，指示文本是否在渲染时不使用连字。 |
+| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | 获取或设置一个值，指示文本是否在渲染时不使用连字。 |
+| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | 获取或设置导出演示文稿时幻灯片在页面上的放置模式 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)。 |
+| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | 获取或设置导出演示文稿时幻灯片在页面上的放置模式 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)。 |
 ### getAnimateTransitions() {#getAnimateTransitions--}
 ```
 public abstract boolean getAnimateTransitions()
 ```
 
-Returns or sets transitions animation option. Read/write boolean.
+
+返回或设置转换动画选项。读/写 boolean。
 
 --------------------
 
@@ -68,14 +71,15 @@ Returns or sets transitions animation option. Read/write boolean.
 >  }
 > ```
 
-**Returns:**
+**返回：**
 boolean
 ### setAnimateTransitions(boolean value) {#setAnimateTransitions-boolean-}
 ```
 public abstract void setAnimateTransitions(boolean value)
 ```
 
-Returns or sets transitions animation option. Read/write boolean.
+
+返回或设置转换动画选项。读/写 boolean。
 
 --------------------
 
@@ -93,8 +97,8 @@ Returns or sets transitions animation option. Read/write boolean.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数：**
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -103,7 +107,8 @@ Returns or sets transitions animation option. Read/write boolean.
 public abstract boolean getAnimateShapes()
 ```
 
-Returns or sets shapes animation option. Read/write boolean.
+
+返回或设置形状动画选项。读/写 boolean。
 
 --------------------
 
@@ -121,14 +126,15 @@ Returns or sets shapes animation option. Read/write boolean.
 >  }
 > ```
 
-**Returns:**
+**返回：**
 boolean
 ### setAnimateShapes(boolean value) {#setAnimateShapes-boolean-}
 ```
 public abstract void setAnimateShapes(boolean value)
 ```
 
-Returns or sets shapes animation option. Read/write boolean.
+
+返回或设置形状动画选项。读/写 boolean。
 
 --------------------
 
@@ -146,8 +152,8 @@ Returns or sets shapes animation option. Read/write boolean.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数：**
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -156,31 +162,8 @@ Returns or sets shapes animation option. Read/write boolean.
 public abstract boolean getEmbedImages()
 ```
 
-返回或设置图像嵌入选项。读/写布尔值。
 
---------------------
-
-> ```
-> 示例：
->  
->  Presentation pres = new Presentation("demo.pptx");
->  try {
->      Html5Options html5Options = new Html5Options();
->      html5Options.setEmbedImages(false);
->      pres.save("demo-linked-images.html", SaveFormat.Html5, html5Options);
->  } finally {
->      if (pres != null) pres.dispose();
->  }
-> ```
-
-**Returns:**
-boolean
-### setEmbedImages(boolean value) {#setEmbedImages-boolean-}
-```
-public abstract void setEmbedImages(boolean value)
-```
-
-Returns or sets images embedding option. Read/write boolean.
+返回或设置图像嵌入选项。读/写 boolean。
 
 --------------------
 
@@ -197,8 +180,33 @@ Returns or sets images embedding option. Read/write boolean.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**返回：**
+boolean
+### setEmbedImages(boolean value) {#setEmbedImages-boolean-}
+```
+public abstract void setEmbedImages(boolean value)
+```
+
+
+返回或设置图像嵌入选项。读/写 boolean。
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("demo.pptx");
+>  try {
+>      Html5Options html5Options = new Html5Options();
+>      html5Options.setEmbedImages(false);
+>      pres.save("demo-linked-images.html", SaveFormat.Html5, html5Options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**参数：**
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -207,7 +215,8 @@ Returns or sets images embedding option. Read/write boolean.
 public abstract String getOutputPath()
 ```
 
-Determines where external resources should be stored. Read/write String.
+
+确定外部资源的存储位置。读/写 String。
 
 --------------------
 
@@ -225,14 +234,15 @@ Determines where external resources should be stored. Read/write String.
 >  }
 > ```
 
-**Returns:**
+**返回：**
 java.lang.String
 ### setOutputPath(String value) {#setOutputPath-java.lang.String-}
 ```
 public abstract void setOutputPath(String value)
 ```
 
-Determines where external resources should be stored. Read/write String.
+
+确定外部资源的存储位置。读/写 String。
 
 --------------------
 
@@ -250,16 +260,41 @@ Determines where external resources should be stored. Read/write String.
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数：**
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### getPicturesCompression() {#getPicturesCompression--}
+```
+public abstract int getPicturesCompression()
+```
+
+
+表示图片压缩级别 读/写  PicturesCompression (#getPicturesCompression.getPicturesCompression/#setPicturesCompression(int).setPicturesCompression(int))。
+
+**返回：**
+int
+### setPicturesCompression(int value) {#setPicturesCompression-int-}
+```
+public abstract void setPicturesCompression(int value)
+```
+
+
+表示图片压缩级别 读/写  PicturesCompression (#getPicturesCompression.getPicturesCompression/#setPicturesCompression(int).setPicturesCompression(int))。
+
+**参数：**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| value | int |  |
 
 ### getDisableFontLigatures() {#getDisableFontLigatures--}
 ```
 public abstract boolean getDisableFontLigatures()
 ```
-Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false.
+
+
+获取或设置一个值，指示文本在渲染时是否不使用连字。设置为 true 时，渲染输出中将禁用连字。默认情况下，此属性为 false。
 
 --------------------
 
@@ -277,13 +312,15 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 >  }
 > ```
 
-**Returns:**
+**返回：**
 boolean
 ### setDisableFontLigatures(boolean value) {#setDisableFontLigatures-boolean-}
 ```
 public abstract void setDisableFontLigatures(boolean value)
 ```
-Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false.
+
+
+获取或设置一个值，指示文本在渲染时是否不使用连字。设置为 true 时，渲染输出中将禁用连字。默认情况下，此属性为 false。
 
 --------------------
 
@@ -301,8 +338,8 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 >  }
 > ```
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数：**
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -310,7 +347,9 @@ Gets or sets a value indicating whether text is rendered without using ligatures
 ```
 public abstract ISlidesLayoutOptions getSlidesLayoutOptions()
 ```
-Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+
+
+获取或设置导出演示文稿时幻灯片在页面上的放置模式 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)。
 
 --------------------
 
@@ -330,14 +369,15 @@ Gets or sets the mode in which slides are placed on the page when exporting a pr
 >  }
 > ```
 
-**Returns:**
+**返回：**
 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)
 ### setSlidesLayoutOptions(ISlidesLayoutOptions value) {#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-}
 ```
 public abstract void setSlidesLayoutOptions(ISlidesLayoutOptions value)
+```
 
 
-获取或设置在导出演示文稿时幻灯片在页面上放置的模式 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)。
+获取或设置导出演示文稿时幻灯片在页面上的放置模式 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)。
 
 --------------------
 
@@ -357,7 +397,7 @@ public abstract void setSlidesLayoutOptions(ISlidesLayoutOptions value)
 >  }
 > ```
 
-**参数:**
-| Parameter | 类型 | 描述 |
+**参数：**
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | value | [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) |  |

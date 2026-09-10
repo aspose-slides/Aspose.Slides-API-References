@@ -17,12 +17,14 @@ public interface IParagraph extends ISlideComponent
 | メソッド | 説明 |
 | --- | --- |
 | [getPortions()](#getPortions--) | テキスト部分のコレクションを返します。 |
-| [getParagraphFormat()](#getParagraphFormat--) | この段落の書式オブジェクトを返します。 |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | 同じ書式のランを結合します。 |
+| [getParagraphFormat()](#getParagraphFormat--) | この段落の書式設定オブジェクトを返します。 |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | 同じ書式設定のランを結合します。 |
 | [getText()](#getText--) | 段落のプレーンテキストを取得または設定します。 |
 | [setText(String value)](#setText-java.lang.String-) | 段落のプレーンテキストを取得または設定します。 |
 | [getRect()](#getRect--) | 段落を囲む矩形の座標を取得します。 |
 | [getLinesCount()](#getLinesCount--) | 段落の行数を取得します。 |
+| [getImage()](#getImage--) | 段落の画像を返します。 |
+| [getImage(float scaleX, float scaleY)](#getImage-float-float-) | 指定されたスケールで段落の画像を返します。 |
 | [getEndParagraphPortionFormat()](#getEndParagraphPortionFormat--) | 最後の部分の後に別の部分が挿入された場合に使用される部分プロパティを指定します。 |
 | [setEndParagraphPortionFormat(IPortionFormat value)](#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-) | 最後の部分の後に別の部分が挿入された場合に使用される部分プロパティを指定します。 |
 
@@ -31,51 +33,53 @@ public interface IParagraph extends ISlideComponent
 public abstract IPortionCollection getPortions()
 ```
 
-テキスト部分のコレクションを返します。読み取り専用 [IPortionCollection](../../com.aspose.slides/iportioncollection)。
+
+テキスト部分のコレクションを返します。 読み取り専用 [IPortionCollection](../../com.aspose.slides/iportioncollection)。
 
 **戻り値:**
 [IPortionCollection](../../com.aspose.slides/iportioncollection)
-
 ### getParagraphFormat() {#getParagraphFormat--}
 ```
 public abstract IParagraphFormat getParagraphFormat()
 ```
 
-この段落の書式オブジェクトを返します。読み取り専用 [IParagraphFormat](../../com.aspose.slides/iparagraphformat)。
+
+この段落の書式設定オブジェクトを返します。 読み取り専用 [IParagraphFormat](../../com.aspose.slides/iparagraphformat)。
 
 **戻り値:**
 [IParagraphFormat](../../com.aspose.slides/iparagraphformat)
-
 ### joinPortionsWithSameFormatting() {#joinPortionsWithSameFormatting--}
 ```
 public abstract void joinPortionsWithSameFormatting()
 ```
 
-同じ書式のランを結合します。
+
+同じ書式設定のランを結合します。
 
 ### getText() {#getText--}
 ```
 public abstract String getText()
 ```
 
-段落のプレーンテキストを取得または設定します。読み取り/書き込み String。
+
+段落のプレーンテキストを取得または設定します。 読み取り/書き込み String.
 
 値: テキスト。
 
 **戻り値:**
 java.lang.String
-
 ### setText(String value) {#setText-java.lang.String-}
 ```
 public abstract void setText(String value)
 ```
 
-段落のプレーンテキストを取得または設定します。読み取り/書き込み String。
+
+段落のプレーンテキストを取得または設定します。 読み取り/書き込み String.
 
 値: テキスト。
 
-**パラメーター:**
-| パラメーター | 型 | 説明 |
+**パラメータ:**
+| パラメータ | 型 | 説明 |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
@@ -84,15 +88,16 @@ public abstract void setText(String value)
 public abstract RectF getRect()
 ```
 
-段落を囲む矩形の座標を取得します。矩形は段落内のすべてのテキスト行（空行も含む）を含みます。
+
+段落を囲む矩形の座標を取得します。矩形には空行を含む、段落内のすべてのテキスト行が含まれます。
 
 **戻り値:**
 android.graphics.RectF - 段落を囲む矩形 android.graphics.RectF
-
 ### getLinesCount() {#getLinesCount--}
 ```
 public abstract int getLinesCount()
 ```
+
 
 段落の行数を取得します。
 
@@ -114,26 +119,109 @@ public abstract int getLinesCount()
 >  }
 > ```
 
-**戻り値:** int - 段落の行数
+**戻り値:**
+int - 段落の行数
+### getImage() {#getImage--}
+```
+public abstract IImage getImage()
+```
 
+
+段落の画像を返します。
+
+--------------------
+
+> ```
+> The following example shows how to render a paragraph as an image:
+>   
+>  Presentation pres = new Presentation();
+>  try {
+>      IAutoShape shape = pres.getSlides().get_Item(0).getShapes().addAutoShape(
+>          ShapeType.Rectangle, 50, 50, 150, 50);
+>      IParagraph paragraph = shape.getTextFrame().getParagraphs().get_Item(0);
+>      paragraph.setText("Aspose Paragraph GetImage() Example");
+>      IImage paragraphImage = paragraph.getImage();
+>      try {
+>          paragraphImage.save("paragraph.png");
+>      } finally {
+>          if (paragraphImage != null) paragraphImage.dispose();
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**戻り値:**
+[IImage](../../com.aspose.slides/iimage) - レンダリングされた段落を含む画像、または段落が親コレクション内に見つからない、レンダリング境界が有効でない、または画像のレンダリング中にエラーが発生した場合は null。
+### getImage(float scaleX, float scaleY) {#getImage-float-float-}
+```
+public abstract IImage getImage(float scaleX, float scaleY)
+```
+
+
+指定されたスケールで段落の画像を返します。
+
+--------------------
+
+> ```
+> The following example shows how to render each text box paragraph on a slide as an image with custom scaling:
+>   
+>  Presentation pres = new Presentation("sample.pptx");
+>  try {
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      int shapeIndex = 0;
+>      for (IShape shape : slide.getShapes())
+>      {
+>          shapeIndex++;
+>          if (shape instanceof IAutoShape) {
+>              IAutoShape autoShape = (IAutoShape)shape;
+>              int paragraphIndex = 0;
+>              for (IParagraph paragraph : autoShape.getTextFrame().getParagraphs())
+>              {
+>                  paragraphIndex++;
+>                  IImage paragraphImage = paragraph.getImage(2f, 2f);
+>                  try {
+>                      if (paragraphImage != null)
+>                          paragraphImage.save("shape"+shapeIndex+"_paragraph"+paragraphIndex+".png");
+> 
+>                  } finally {
+>                      if (paragraphImage != null) paragraphImage.dispose();
+>                  }
+>              }
+>          }
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**パラメータ:**
+| パラメータ | 型 | 説明 |
+| --- | --- | --- |
+| scaleX | float | 段落画像に適用される水平スケール係数。 |
+| scaleY | float | 段落画像に適用される垂直スケール係数。 |
+
+**戻り値:**
+[IImage](../../com.aspose.slides/iimage) - レンダリングされた段落を含む画像、または段落が親コレクション内に見つからない、レンダリング境界が有効でない、または画像のレンダリング中にエラーが発生した場合は null。
 ### getEndParagraphPortionFormat() {#getEndParagraphPortionFormat--}
 ```
 public abstract IPortionFormat getEndParagraphPortionFormat()
 ```
 
+
 最後の部分の後に別の部分が挿入された場合に使用される部分プロパティを指定します。
 
 **戻り値:**
 [IPortionFormat](../../com.aspose.slides/iportionformat)
-
 ### setEndParagraphPortionFormat(IPortionFormat value) {#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-}
 ```
 public abstract void setEndParagraphPortionFormat(IPortionFormat value)
 ```
 
+
 最後の部分の後に別の部分が挿入された場合に使用される部分プロパティを指定します。
 
-**パラメーター:**
-| パラメーター | 型 | 説明 |
+**パラメータ:**
+| パラメータ | 型 | 説明 |
 | --- | --- | --- |
 | value | [IPortionFormat](../../com.aspose.slides/iportionformat) |  |

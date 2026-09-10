@@ -1,6 +1,6 @@
 ---
 title: IParagraph
-second_title: Aspose.Slides برای اندروید از طریق مرجع API جاوا
+second_title: مرجع API جاوا برای Aspose.Slides در اندروید
 description: نمایانگر یک پاراگراف از متن است.
 type: docs
 url: /fa/com.aspose.slides/iparagraph/
@@ -11,62 +11,63 @@ url: /fa/com.aspose.slides/iparagraph/
 public interface IParagraph extends ISlideComponent
 ```
 
-یک پاراگراف از متن را نمایش می‌دهد.
+نمایانگر یک پاراگراف از متن است.
 ## متدها
 
 | متد | توضیح |
 | --- | --- |
 | [getPortions()](#getPortions--) | مجموعه‌ای از بخش‌های متن را برمی‌گرداند. |
 | [getParagraphFormat()](#getParagraphFormat--) | شیء قالب‌بندی برای این پاراگراف را برمی‌گرداند. |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | دو تکه متن با قالب‌بندی یکسان را به هم می‌پیوندد. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | قطعات متنی با قالب‌بندی یکسان را به هم می‌پیوندد. |
 | [getText()](#getText--) | متن ساده یک پاراگراف را دریافت یا تنظیم می‌کند. |
 | [setText(String value)](#setText-java.lang.String-) | متن ساده یک پاراگراف را دریافت یا تنظیم می‌کند. |
-| [getRect()](#getRect--) | مختصات مستطیلی که پاراگراف را محصور می‌کند دریافت می‌کند. |
-| [getLinesCount()](#getLinesCount--) | تعداد خطوط در یک پاراگراف را دریافت می‌کند. |
-| [getEndParagraphPortionFormat()](#getEndParagraphPortionFormat--) | ویژگی‌های بخش را مشخص می‌کند که در صورت افزودن بخش دیگری پس از آخرین بخش، استفاده شوند. |
-| [setEndParagraphPortionFormat(IPortionFormat value)](#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-) | ویژگی‌های بخش را مشخص می‌کند که در صورت افزودن بخش دیگری پس از آخرین بخش، استفاده شوند. |
+| [getRect()](#getRect--) | مختصات مستطیلی که پاراگراف را محدود می‌کند را دریافت کنید. |
+| [getLinesCount()](#getLinesCount--) | تعداد خطوط در یک پاراگراف را دریافت کنید. |
+| [getImage()](#getImage--) | تصویری از پاراگراف را برمی‌گرداند. |
+| [getImage(float scaleX, float scaleY)](#getImage-float-float-) | تصویری از پاراگراف را با مقیاس مشخص شده برمی‌گرداند. |
+| [getEndParagraphPortionFormat()](#getEndParagraphPortionFormat--) | خصوصیات بخش را که در صورت افزودن بخش دیگر پس از آخرین بخش استفاده می‌شود، مشخص می‌کند. |
+| [setEndParagraphPortionFormat(IPortionFormat value)](#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-) | خصوصیات بخش را که در صورت افزودن بخش دیگر پس از آخرین بخش استفاده می‌شود، مشخص می‌کند. |
 ### getPortions() {#getPortions--}
 ```
 public abstract IPortionCollection getPortions()
 ```
 
-مجموعه‌ای از بخش‌های متن را برمی‌گرداند. فقط-خواندنی [IPortionCollection](../../com.aspose.slides/iportioncollection).
+مجموعه‌ای از بخش‌های متن را برمی‌گرداند. فقط خواندنی [IPortionCollection](../../com.aspose.slides/iportioncollection).
 
-**بازگشت:**
+**باز می‌گرداند:**
 [IPortionCollection](../../com.aspose.slides/iportioncollection)
 ### getParagraphFormat() {#getParagraphFormat--}
 ```
 public abstract IParagraphFormat getParagraphFormat()
 ```
 
-شیء قالب‌بندی برای این پاراگراف را برمی‌گرداند. فقط-خواندنی [IParagraphFormat](../../com.aspose.slides/iparagraphformat).
+شیء قالب‌بندی برای این پاراگراف را برمی‌گرداند. فقط خواندنی [IParagraphFormat](../../com.aspose.slides/iparagraphformat).
 
-**بازگشت:**
+**باز می‌گرداند:**
 [IParagraphFormat](../../com.aspose.slides/iparagraphformat)
 ### joinPortionsWithSameFormatting() {#joinPortionsWithSameFormatting--}
 ```
 public abstract void joinPortionsWithSameFormatting()
 ```
 
-دو تکه متن با قالب‌بندی یکسان را به هم می‌پیوندد.
-
+قطعات متنی با قالب‌بندی یکسان را به هم می‌پیوندد.
 ### getText() {#getText--}
 ```
 public abstract String getText()
 ```
 
-متن ساده یک پاراگراف را دریافت یا تنظیم می‌کند. خواندن/نوشتن String.
+متن ساده یک پاراگراف را دریافت یا تنظیم می‌کند. قابل نوشتن String.
 
 مقدار: متن.
 
-**بازگشت:**
+**باز می‌گرداند:**
 java.lang.String
 ### setText(String value) {#setText-java.lang.String-}
 ```
 public abstract void setText(String value)
 ```
 
-متن ساده یک پاراگراف را دریافت یا تنظیم می‌کند. خواندن/نوشتن String.
+متن ساده یک پاراگراف را دریافت یا تنظیم می‌کند. قابل نوشتن String.
 
 مقدار: متن.
 
@@ -79,16 +80,16 @@ public abstract void setText(String value)
 public abstract RectF getRect()
 ```
 
-مختصات مستطیلی که پاراگراف را محصور می‌کند دریافت می‌کند. این مستطیل شامل تمام خطوط متن در پاراگراف است، حتی خطوط خالی.
+مختصات مستطیلی که پاراگراف را محدود می‌کند را دریافت کنید. این مستطیل شامل تمام خطوط متن در پاراگراف، حتی خطوط خالی است.
 
-**بازگشت:**
-android.graphics.RectF - مستطیلی که پاراگراف را محصور می‌کند android.graphics.RectF
+**باز می‌گرداند:**
+android.graphics.RectF - Rectangle that bounds paragraph android.graphics.RectF
 ### getLinesCount() {#getLinesCount--}
 ```
 public abstract int getLinesCount()
 ```
 
-تعداد خطوط در یک پاراگراف را دریافت می‌کند.
+تعداد خطوط در یک پاراگراف را دریافت کنید.
 
 --------------------
 
@@ -108,23 +109,103 @@ public abstract int getLinesCount()
 >  }
 > ```
 
-**بازگشت:**
+**باز می‌گرداند:**
 int - تعداد خطوط در یک پاراگراف
+### getImage() {#getImage--}
+```
+public abstract IImage getImage()
+```
+
+تصویری از پاراگراف را برمی‌گرداند.
+
+--------------------
+
+> ```
+> The following example shows how to render a paragraph as an image:
+>   
+>  Presentation pres = new Presentation();
+>  try {
+>      IAutoShape shape = pres.getSlides().get_Item(0).getShapes().addAutoShape(
+>          ShapeType.Rectangle, 50, 50, 150, 50);
+>      IParagraph paragraph = shape.getTextFrame().getParagraphs().get_Item(0);
+>      paragraph.setText("Aspose Paragraph GetImage() Example");
+>      IImage paragraphImage = paragraph.getImage();
+>      try {
+>          paragraphImage.save("paragraph.png");
+>      } finally {
+>          if (paragraphImage != null) paragraphImage.dispose();
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**باز می‌گرداند:**
+[IImage](../../com.aspose.slides/iimage) - تصویری که شامل پاراگراف رندر شده است، یا null اگر پاراگراف در مجموعه والد یافت نشود، مرزهای رندر معتبری نداشته باشد، یا خطایی هنگام رندر تصویر رخ دهد.
+### getImage(float scaleX, float scaleY) {#getImage-float-float-}
+```
+public abstract IImage getImage(float scaleX, float scaleY)
+```
+
+تصویری از پاراگراف را با مقیاس مشخص شده برمی‌گرداند.
+
+--------------------
+
+> ```
+> The following example shows how to render each text box paragraph on a slide as an image with custom scaling:
+>   
+>  Presentation pres = new Presentation("sample.pptx");
+>  try {
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      int shapeIndex = 0;
+>      for (IShape shape : slide.getShapes())
+>      {
+>          shapeIndex++;
+>          if (shape instanceof IAutoShape) {
+>              IAutoShape autoShape = (IAutoShape)shape;
+>              int paragraphIndex = 0;
+>              for (IParagraph paragraph : autoShape.getTextFrame().getParagraphs())
+>              {
+>                  paragraphIndex++;
+>                  IImage paragraphImage = paragraph.getImage(2f, 2f);
+>                  try {
+>                      if (paragraphImage != null)
+>                          paragraphImage.save("shape"+shapeIndex+"_paragraph"+paragraphIndex+".png");
+> 
+>                  } finally {
+>                      if (paragraphImage != null) paragraphImage.dispose();
+>                  }
+>              }
+>          }
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**پارامترها:**
+| پارامتر | نوع | توضیح |
+| --- | --- | --- |
+| scaleX | float | عامل مقیاس افقی اعمال شده بر تصویر پاراگراف. |
+| scaleY | float | عامل مقیاس عمودی اعمال شده بر تصویر پاراگراف. |
+
+**باز می‌گرداند:**
+[IImage](../../com.aspose.slides/iimage) - تصویری که شامل پاراگراف رندر شده است، یا null اگر پاراگراف در مجموعه والد یافت نشود، مرزهای رندر معتبری نداشته باشد، یا خطایی هنگام رندر تصویر رخ دهد.
 ### getEndParagraphPortionFormat() {#getEndParagraphPortionFormat--}
 ```
 public abstract IPortionFormat getEndParagraphPortionFormat()
 ```
 
-ویژگی‌های بخش را مشخص می‌کند که در صورت افزودن بخش دیگری پس از آخرین بخش، استفاده شوند.
+خصوصیات بخش را که در صورت افزودن بخش دیگر پس از آخرین بخش استفاده می‌شود، مشخص می‌کند.
 
-**بازگشت:**
+**باز می‌گرداند:**
 [IPortionFormat](../../com.aspose.slides/iportionformat)
 ### setEndParagraphPortionFormat(IPortionFormat value) {#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-}
 ```
 public abstract void setEndParagraphPortionFormat(IPortionFormat value)
 ```
 
-ویژگی‌های بخش را مشخص می‌کند که در صورت افزودن بخش دیگری پس از آخرین بخش، استفاده شوند.
+خصوصیات بخش را که در صورت افزودن بخش دیگر پس از آخرین بخش استفاده می‌شود، مشخص می‌کند.
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |

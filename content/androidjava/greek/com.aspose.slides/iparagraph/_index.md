@@ -1,6 +1,6 @@
 ---
 title: IParagraph
-second_title: Aspose.Slides για Android μέσω Java API Αναφορά
+second_title: Aspose.Slides για Android μέσω Αναφοράς API Java
 description: Αναπαριστά μια παράγραφο κειμένου.
 type: docs
 url: /el/com.aspose.slides/iparagraph/
@@ -11,26 +11,28 @@ url: /el/com.aspose.slides/iparagraph/
 public interface IParagraph extends ISlideComponent
 ```
 
-Αναπαριστά μια παράγραφο κειμένου.
+Represents a paragraph of a text.
 ## Μέθοδοι
 
 | Μέθοδος | Περιγραφή |
 | --- | --- |
-| [getPortions()](#getPortions--) | Επιστρέφει τη συλλογή των τμημάτων κειμένου. |
+| [getPortions()](#getPortions--) | Επιστρέφει τη συλλογή τμημάτων κειμένου. |
 | [getParagraphFormat()](#getParagraphFormat--) | Επιστρέφει το αντικείμενο μορφοποίησης για αυτήν την παράγραφο. |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Συνδέει τμήματα με ίδια μορφοποίηση. |
-| [getText()](#getText--) | Ανακτά ή ορίζει το καθαρό κείμενο μιας παραγράφου. |
-| [setText(String value)](#setText-java.lang.String-) | Ανακτά ή ορίζει το καθαρό κείμενο μιας παραγράφου. |
-| [getRect()](#getRect--) | Λαμβάνει τις συντεταγμένες του ορθογωνίου που περιορίζει την παράγραφο. |
-| [getLinesCount()](#getLinesCount--) | Λαμβάνει τον αριθμό των γραμμών σε μια παράγραφο. |
-| [getEndParagraphPortionFormat()](#getEndParagraphPortionFormat--) | Καθορίζει τις ιδιότητες τμήματος που θα χρησιμοποιηθούν εάν εισαχθεί ένα άλλο τμήμα μετά το τελευταίο. |
-| [setEndParagraphPortionFormat(IPortionFormat value)](#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-) | Καθορίζει τις ιδιότητες τμήματος που θα χρησιμοποιηθούν εάν εισαχθεί ένα άλλο τμήμα μετά το τελευταίο. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Ενώνει τις ακολουθίες με την ίδια μορφοποίηση. |
+| [getText()](#getText--) | Λαμβάνει ή ορίζει το απλό κείμενο μιας παραγράφου. |
+| [setText(String value)](#setText-java.lang.String-) | Λαμβάνει ή ορίζει το απλό κείμενο μιας παραγράφου. |
+| [getRect()](#getRect--) | Λαμβάνει τις συντεταγμένες του ορθογωνίου που περιβάλλει την παράγραφο. |
+| [getLinesCount()](#getLinesCount--) | Λαμβάνει τον αριθμό γραμμών σε μια παράγραφο. |
+| [getImage()](#getImage--) | Επιστρέφει μια εικόνα της παραγράφου. |
+| [getImage(float scaleX, float scaleY)](#getImage-float-float-) | Επιστρέφει μια εικόνα της παραγράφου με την καθορισμένη κλίμακα. |
+| [getEndParagraphPortionFormat()](#getEndParagraphPortionFormat--) | Καθορίζει τις ιδιότητες τμήματος που θα χρησιμοποιηθούν εάν ένα άλλο τμήμα εισαχθεί μετά το τελευταίο. |
+| [setEndParagraphPortionFormat(IPortionFormat value)](#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-) | Καθορίζει τις ιδιότητες τμήματος που θα χρησιμοποιηθούν εάν ένα άλλο τμήμα εισαχθεί μετά το τελευταίο. |
 ### getPortions() {#getPortions--}
 ```
 public abstract IPortionCollection getPortions()
 ```
 
-Επιστρέφει τη συλλογή των τμημάτων κειμένου. Μόνο ανάγνωση [IPortionCollection](../../com.aspose.slides/iportioncollection).
+Επιστρέφει τη συλλογή τμημάτων κειμένου. Μόνο για ανάγνωση [IPortionCollection](../../com.aspose.slides/iportioncollection).
 
 **Επιστρέφει:**
 [IPortionCollection](../../com.aspose.slides/iportioncollection)
@@ -39,7 +41,7 @@ public abstract IPortionCollection getPortions()
 public abstract IParagraphFormat getParagraphFormat()
 ```
 
-Επιστρέφει το αντικείμενο μορφοποίησης για αυτήν την παράγραφο. Μόνο ανάγνωση [IParagraphFormat](../../com.aspose.slides/iparagraphformat).
+Επιστρέφει το αντικείμενο μορφοποίησης για αυτήν την παράγραφο. Μόνο για ανάγνωση [IParagraphFormat](../../com.aspose.slides/iparagraphformat).
 
 **Επιστρέφει:**
 [IParagraphFormat](../../com.aspose.slides/iparagraphformat)
@@ -48,14 +50,14 @@ public abstract IParagraphFormat getParagraphFormat()
 public abstract void joinPortionsWithSameFormatting()
 ```
 
-Συνδέει τμήματα με ίδια μορφοποίηση.
+Ενώνει τις ακολουθίες με την ίδια μορφοποίηση.
 
 ### getText() {#getText--}
 ```
 public abstract String getText()
 ```
 
-Ανακτά ή ορίζει το καθαρό κείμενο μιας παραγράφου. Ανάγνωση/Εγγραφή String.
+Λαμβάνει ή ορίζει το απλό κείμενο μιας παραγράφου. Ανάγνωση/εγγραφή String.
 
 Τιμή: Το κείμενο.
 
@@ -66,7 +68,7 @@ java.lang.String
 public abstract void setText(String value)
 ```
 
-Ανακτά ή ορίζει το καθαρό κείμενο μιας παραγράφου. Ανάγνωση/Εγγραφή String.
+Λαμβάνει ή ορίζει το απλό κείμενο μιας παραγράφου. Ανάγνωση/εγγραφή String.
 
 Τιμή: Το κείμενο.
 
@@ -80,16 +82,16 @@ public abstract void setText(String value)
 public abstract RectF getRect()
 ```
 
-Λαμβάνει τις συντεταγμένες του ορθογωνίου που περιορίζει την παράγραφο. Το ορθογώνιο περιλαμβάνει όλες τις γραμμές κειμένου στην παράγραφο, συμπεριλαμβανομένων των κενών.
+Λαμβάνει τις συντεταγμένες του ορθογωνίου που περιβάλλει την παράγραφο. Το ορθογώνιο περιλαμβάνει όλες τις γραμμές κειμένου στην παράγραφο, συμπεριλαμβανομένων των κενών.
 
 **Επιστρέφει:**
-android.graphics.RectF - Ορθογώνιο που περιορίζει την παράγραφο android.graphics.RectF
+android.graphics.RectF - Ορθογώνιο που περιβάλλει την παράγραφο android.graphics.RectF
 ### getLinesCount() {#getLinesCount--}
 ```
 public abstract int getLinesCount()
 ```
 
-Λαμβάνει τον αριθμό των γραμμών σε μια παράγραφο.
+Λαμβάνει τον αριθμό γραμμών σε μια παράγραφο.
 
 --------------------
 
@@ -112,12 +114,94 @@ public abstract int getLinesCount()
 
 **Επιστρέφει:**
 int - Αριθμός γραμμών σε μια παράγραφο
+### getImage() {#getImage--}
+```
+public abstract IImage getImage()
+```
+
+Επιστρέφει μια εικόνα της παραγράφου.
+
+--------------------
+
+> ```
+> The following example shows how to render a paragraph as an image:
+>   
+>  Presentation pres = new Presentation();
+>  try {
+>      IAutoShape shape = pres.getSlides().get_Item(0).getShapes().addAutoShape(
+>          ShapeType.Rectangle, 50, 50, 150, 50);
+>      IParagraph paragraph = shape.getTextFrame().getParagraphs().get_Item(0);
+>      paragraph.setText("Aspose Paragraph GetImage() Example");
+>      IImage paragraphImage = paragraph.getImage();
+>      try {
+>          paragraphImage.save("paragraph.png");
+>      } finally {
+>          if (paragraphImage != null) paragraphImage.dispose();
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Επιστρέφει:**
+[IImage](../../com.aspose.slides/iimage) - Μια εικόνα που περιέχει την αποδιδόμενη παράγραφο, ή null εάν η παράγραφος δεν μπορεί να βρεθεί στη γονική συλλογή της, δεν έχει έγκυρα όρια απόδοσης, ή προκύψει σφάλμα κατά την απόδοση της εικόνας.
+### getImage(float scaleX, float scaleY) {#getImage-float-float-}
+```
+public abstract IImage getImage(float scaleX, float scaleY)
+```
+
+Επιστρέφει μια εικόνα της παραγράφου με την καθορισμένη κλίμακα.
+
+--------------------
+
+> ```
+> Το παρακάτω παράδειγμα δείχνει πώς να αποδίδεται κάθε παράγραφος πλαισίου κειμένου σε μια διαφάνεια ως εικόνα με προσαρμοσμένη κλίμακα:
+>   
+>  Presentation pres = new Presentation("sample.pptx");
+>  try {
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      int shapeIndex = 0;
+>      for (IShape shape : slide.getShapes())
+>      {
+>          shapeIndex++;
+>          if (shape instanceof IAutoShape) {
+>              IAutoShape autoShape = (IAutoShape)shape;
+>              int paragraphIndex = 0;
+>              for (IParagraph paragraph : autoShape.getTextFrame().getParagraphs())
+>              {
+>                  paragraphIndex++;
+>                  IImage paragraphImage = paragraph.getImage(2f, 2f);
+>                  try {
+>                      if (paragraphImage != null)
+>                          paragraphImage.save("shape"+shapeIndex+"_paragraph"+paragraphIndex+".png");
+> 
+>                  } finally {
+>                      if (paragraphImage != null) paragraphImage.dispose();
+>                  }
+>              }
+>          }
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Παράμετροι:**
+| Παράμετρος | Τύπος | Περιγραφή |
+| --- | --- | --- |
+| scaleX | float | Ο οριζόντιος παράγοντας κλίμακας που εφαρμόζεται στην εικόνα της παραγράφου. |
+| scaleY | float | Ο κάθετος παράγοντας κλίμακας που εφαρμόζεται στην εικόνα της παραγράφου. |
+
+**Επιστρέφει:**
+[IImage](../../com.aspose.slides/iimage) - Μια εικόνα που περιέχει την αποδιδόμενη παράγραφο, ή null εάν η παράγραφος δεν μπορεί να βρεθεί στη γονική συλλογή της, δεν έχει έγκυρα όρια απόδοσης, ή προκύψει σφάλμα κατά την απόδοση της εικόνας.
 ### getEndParagraphPortionFormat() {#getEndParagraphPortionFormat--}
 ```
 public abstract IPortionFormat getEndParagraphPortionFormat()
 ```
 
-Καθορίζει τις ιδιότητες τμήματος που θα χρησιμοποιηθούν εάν εισαχθεί ένα άλλο τμήμα μετά το τελευταίο.
+Καθορίζει τις ιδιότητες τμήματος που θα χρησιμοποιηθούν εάν ένα άλλο τμήμα εισαχθεί μετά το τελευταίο.
 
 **Επιστρέφει:**
 [IPortionFormat](../../com.aspose.slides/iportionformat)
@@ -126,7 +210,7 @@ public abstract IPortionFormat getEndParagraphPortionFormat()
 public abstract void setEndParagraphPortionFormat(IPortionFormat value)
 ```
 
-Καθορίζει τις ιδιότητες τμήματος που θα χρησιμοποιηθούν εάν εισαχθεί ένα άλλο τμήμα μετά το τελευταίο.
+Καθορίζει τις ιδιότητες τμήματος που θα χρησιμοποιηθούν εάν ένα άλλο τμήμα εισαχθεί μετά το τελευταίο.
 
 **Παράμετροι:**
 | Παράμετρος | Τύπος | Περιγραφή |

@@ -1,11 +1,11 @@
 ---
 title: IParagraph
-second_title: Aspose.Slides pro Android přes Java API Reference
-description: Představuje odstavec textu.
+second_title: Aspose.Slides pro Android prostřednictvím reference Java API
+description: Reprezentuje odstavec textu.
 type: docs
 url: /cs/com.aspose.slides/iparagraph/
 ---
-**Všechny implementované rozhraní:**
+**All Implemented Interfaces:**
 [com.aspose.slides.ISlideComponent](../../com.aspose.slides/islidecomponent)
 ```
 public interface IParagraph extends ISlideComponent
@@ -18,19 +18,21 @@ Represents a paragraph of a text.
 | --- | --- |
 | [getPortions()](#getPortions--) | Vrací kolekci textových částí. |
 | [getParagraphFormat()](#getParagraphFormat--) | Vrací objekt formátování pro tento odstavec. |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Spojí úseky se stejným formátováním. |
-| [getText()](#getText--) | Načte nebo nastaví prostý text odstavce. |
-| [setText(String value)](#setText-java.lang.String-) | Načte nebo nastaví prostý text odstavce. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Spojuje běhy se stejným formátováním. |
+| [getText()](#getText--) | Získá nebo nastaví prostý text odstavce. |
+| [setText(String value)](#setText-java.lang.String-) | Získá nebo nastaví prostý text odstavce. |
 | [getRect()](#getRect--) | Získá souřadnice obdélníku ohraničujícího odstavec. |
 | [getLinesCount()](#getLinesCount--) | Získá počet řádků v odstavci. |
-| [getEndParagraphPortionFormat()](#getEndParagraphPortionFormat--) | Určuje vlastnosti části, které mají být použity, pokud je po poslední vložena další část. |
-| [setEndParagraphPortionFormat(IPortionFormat value)](#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-) | Určuje vlastnosti části, které mají být použity, pokud je po poslední vložena další část. |
+| [getImage()](#getImage--) | Vrací obrázek odstavce. |
+| [getImage(float scaleX, float scaleY)](#getImage-float-float-) | Vrací obrázek odstavce se zadaným měřítkem. |
+| [getEndParagraphPortionFormat()](#getEndParagraphPortionFormat--) | Určuje vlastnosti části, které se použijí, pokud je po poslední vložena další část. |
+| [setEndParagraphPortionFormat(IPortionFormat value)](#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-) | Určuje vlastnosti části, které se použijí, pokud je po poslední vložena další část. |
 ### getPortions() {#getPortions--}
 ```
 public abstract IPortionCollection getPortions()
 ```
 
-Vrací kolekci textových částí. Pouze pro čtení [IPortionCollection](../../com.aspose.slides/iportioncollection).
+Vrací kolekci textových částí. **Jen pro čtení** [IPortionCollection](../../com.aspose.slides/iportioncollection).
 
 **Vrací:**
 [IPortionCollection](../../com.aspose.slides/iportioncollection)
@@ -39,7 +41,7 @@ Vrací kolekci textových částí. Pouze pro čtení [IPortionCollection](../..
 public abstract IParagraphFormat getParagraphFormat()
 ```
 
-Vrací objekt formátování pro tento odstavec. Pouze pro čtení [IParagraphFormat](../../com.aspose.slides/iparagraphformat).
+Vrací objekt formátování pro tento odstavec. **Jen pro čtení** [IParagraphFormat](../../com.aspose.slides/iparagraphformat).
 
 **Vrací:**
 [IParagraphFormat](../../com.aspose.slides/iparagraphformat)
@@ -48,14 +50,14 @@ Vrací objekt formátování pro tento odstavec. Pouze pro čtení [IParagraphFo
 public abstract void joinPortionsWithSameFormatting()
 ```
 
-Spojí úseky se stejným formátováním.
+Spojuje běhy se stejným formátováním.
 
 ### getText() {#getText--}
 ```
 public abstract String getText()
 ```
 
-Načte nebo nastaví prostý text odstavce. Čtení/zápis String.
+Získá nebo nastaví prostý text odstavce. **Čtení/zápis** String.
 
 Hodnota: Text.
 
@@ -66,7 +68,7 @@ java.lang.String
 public abstract void setText(String value)
 ```
 
-Načte nebo nastaví prostý text odstavce. Čtení/zápis String.
+Získá nebo nastaví prostý text odstavce. **Čtení/zápis** String.
 
 Hodnota: Text.
 
@@ -74,6 +76,7 @@ Hodnota: Text.
 | Parametr | Typ | Popis |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
 ### getRect() {#getRect--}
 ```
 public abstract RectF getRect()
@@ -82,7 +85,7 @@ public abstract RectF getRect()
 Získá souřadnice obdélníku ohraničujícího odstavec. Obdélník zahrnuje všechny řádky textu v odstavci, včetně prázdných.
 
 **Vrací:**
-android.graphics.RectF - Obdélník ohraničující odstavec android.graphics.RectF
+android.graphics.RectF - Obdélník, který ohraničuje odstavec android.graphics.RectF
 ### getLinesCount() {#getLinesCount--}
 ```
 public abstract int getLinesCount()
@@ -111,12 +114,94 @@ Získá počet řádků v odstavci.
 
 **Vrací:**
 int - Počet řádků v odstavci
+### getImage() {#getImage--}
+```
+public abstract IImage getImage()
+```
+
+Vrací obrázek odstavce.
+
+--------------------
+
+> ```
+> The following example shows how to render a paragraph as an image:
+>   
+>  Presentation pres = new Presentation();
+>  try {
+>      IAutoShape shape = pres.getSlides().get_Item(0).getShapes().addAutoShape(
+>          ShapeType.Rectangle, 50, 50, 150, 50);
+>      IParagraph paragraph = shape.getTextFrame().getParagraphs().get_Item(0);
+>      paragraph.setText("Aspose Paragraph GetImage() Example");
+>      IImage paragraphImage = paragraph.getImage();
+>      try {
+>          paragraphImage.save("paragraph.png");
+>      } finally {
+>          if (paragraphImage != null) paragraphImage.dispose();
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Vrací:**
+[IImage](../../com.aspose.slides/iimage) - Obrázek obsahující vykreslený odstavec, nebo null, pokud odstavec nelze najít v nadřazené kolekci, nemá platné vykreslovací hranice nebo během vykreslování dojde k chybě.
+### getImage(float scaleX, float scaleY) {#getImage-float-float-}
+```
+public abstract IImage getImage(float scaleX, float scaleY)
+```
+
+Vrací obrázek odstavce se zadaným měřítkem.
+
+--------------------
+
+> ```
+> The following example shows how to render each text box paragraph on a slide as an image with custom scaling:
+>   
+>  Presentation pres = new Presentation("sample.pptx");
+>  try {
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      int shapeIndex = 0;
+>      for (IShape shape : slide.getShapes())
+>      {
+>          shapeIndex++;
+>          if (shape instanceof IAutoShape) {
+>              IAutoShape autoShape = (IAutoShape)shape;
+>              int paragraphIndex = 0;
+>              for (IParagraph paragraph : autoShape.getTextFrame().getParagraphs())
+>              {
+>                  paragraphIndex++;
+>                  IImage paragraphImage = paragraph.getImage(2f, 2f);
+>                  try {
+>                      if (paragraphImage != null)
+>                          paragraphImage.save("shape"+shapeIndex+"_paragraph"+paragraphIndex+".png");
+> 
+>                  } finally {
+>                      if (paragraphImage != null) paragraphImage.dispose();
+>                  }
+>              }
+>          }
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Parametry:**
+| Parametr | Typ | Popis |
+| --- | --- | --- |
+| scaleX | float | Horizontální faktor měřítka aplikovaný na obrázek odstavce. |
+| scaleY | float | Vertikální faktor měřítka aplikovaný na obrázek odstavce. |
+
+**Vrací:**
+[IImage](../../com.aspose.slides/iimage) - Obrázek obsahující vykreslený odstavec, nebo null, pokud odstavec nelze najít v nadřazené kolekci, nemá platné vykreslovací hranice nebo během vykreslování dojde k chybě.
 ### getEndParagraphPortionFormat() {#getEndParagraphPortionFormat--}
 ```
 public abstract IPortionFormat getEndParagraphPortionFormat()
 ```
 
-Určuje vlastnosti části, které mají být použity, pokud je po poslední vložena další část.
+Určuje vlastnosti části, které se použijí, pokud je po poslední vložena další část.
 
 **Vrací:**
 [IPortionFormat](../../com.aspose.slides/iportionformat)
@@ -125,7 +210,7 @@ Určuje vlastnosti části, které mají být použity, pokud je po poslední vl
 public abstract void setEndParagraphPortionFormat(IPortionFormat value)
 ```
 
-Určuje vlastnosti části, které mají být použity, pokud je po poslední vložena další část.
+Určuje vlastnosti části, které se použijí, pokud je po poslední vložena další část.
 
 **Parametry:**
 | Parametr | Typ | Popis |

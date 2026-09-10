@@ -5,34 +5,36 @@ description: يمثل فقرة من نص.
 type: docs
 url: /ar/com.aspose.slides/iparagraph/
 ---
-**جميع الواجهات المنفذة:**  
+**جميع الواجهات المُنفذة:**
 [com.aspose.slides.ISlideComponent](../../com.aspose.slides/islidecomponent)
 ```
 public interface IParagraph extends ISlideComponent
 ```
 
-يمثل فقرة من نص.
+يمثل فقرة من النص.
 ## الطرق
 
 | الطريقة | الوصف |
 | --- | --- |
-| [getPortions()](#getPortions--) | إرجاع مجموعة أجزاء النص. |
+| [getPortions()](#getPortions--) | إرجاع مجموعة من أجزاء النص. |
 | [getParagraphFormat()](#getParagraphFormat--) | إرجاع كائن التنسيق لهذه الفقرة. |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | دمج المقاطع التي لها نفس التنسيق. |
-| [getText()](#getText--) | الحصول أو تعيين النص العادي للفقرة. |
-| [setText(String value)](#setText-java.lang.String-) | الحصول أو تعيين النص العادي للفقرة. |
-| [getRect()](#getRect--) | الحصول على إحداثيات المستطيل الذي يحد الفقرة. |
-| [getLinesCount()](#getLinesCount--) | الحصول على عدد الأسطر في الفقرة. |
-| [getEndParagraphPortionFormat()](#getEndParagraphPortionFormat--) | تحديد خصائص الجزء الذي سيُستخدم إذا تم إدراج جزء آخر بعد الأخير. |
-| [setEndParagraphPortionFormat(IPortionFormat value)](#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-) | تحديد خصائص الجزء الذي سيُستخدم إذا تم إدراج جزء آخر بعد الأخير. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | يجمع السلاسل ذات التنسيق نفسه. |
+| [getText()](#getText--) | يحصل أو يعيّن النص العادي للفقرة. |
+| [setText(String value)](#setText-java.lang.String-) | يحصل أو يعيّن النص العادي للفقرة. |
+| [getRect()](#getRect--) | يحصل على إحداثيات المستطيل الذي يحد الفقرة. |
+| [getLinesCount()](#getLinesCount--) | يحصل على عدد أسطر الفقرة. |
+| [getImage()](#getImage--) | إرجاع صورة للفقرة. |
+| [getImage(float scaleX, float scaleY)](#getImage-float-float-) | إرجاع صورة للفقرة بالمقياس المحدد. |
+| [getEndParagraphPortionFormat()](#getEndParagraphPortionFormat--) | يحدد خصائص الجزء التي سيتم استخدامها إذا تم إدراج جزء آخر بعد الأخير. |
+| [setEndParagraphPortionFormat(IPortionFormat value)](#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-) | يحدد خصائص الجزء التي سيتم استخدامها إذا تم إدراج جزء آخر بعد الأخير. |
 ### getPortions() {#getPortions--}
 ```
 public abstract IPortionCollection getPortions()
 ```
 
-إرجاع مجموعة أجزاء النص. للقراءة فقط [IPortionCollection](../../com.aspose.slides/iportioncollection).
+إرجاع مجموعة من أجزاء النص. للقراءة فقط [IPortionCollection](../../com.aspose.slides/iportioncollection).
 
-**القيمة المرجعة:**
+**الإرجاع:**
 [IPortionCollection](../../com.aspose.slides/iportioncollection)
 ### getParagraphFormat() {#getParagraphFormat--}
 ```
@@ -41,36 +43,37 @@ public abstract IParagraphFormat getParagraphFormat()
 
 إرجاع كائن التنسيق لهذه الفقرة. للقراءة فقط [IParagraphFormat](../../com.aspose.slides/iparagraphformat).
 
-**القيمة المرجعة:**
+**الإرجاع:**
 [IParagraphFormat](../../com.aspose.slides/iparagraphformat)
 ### joinPortionsWithSameFormatting() {#joinPortionsWithSameFormatting--}
 ```
 public abstract void joinPortionsWithSameFormatting()
 ```
 
-دمج المقاطع التي لها نفس التنسيق.
+يجمع السلاسل ذات التنسيق نفسه.
+
 ### getText() {#getText--}
 ```
 public abstract String getText()
 ```
 
-الحصول على النص العادي للفقرة أو تعيينه. قابل للقراءة والكتابة String.
+يحصل أو يعيّن النص العادي للفقرة. قابل للقراءة والكتابة String.
 
 القيمة: النص.
 
-**القيمة المرجعة:**
+**الإرجاع:**
 java.lang.String
 ### setText(String value) {#setText-java.lang.String-}
 ```
 public abstract void setText(String value)
 ```
 
-الحصول على النص العادي للفقرة أو تعيينه. قابل للقراءة والكتابة String.
+يحصل أو يعيّن النص العادي للفقرة. قابل للقراءة والكتابة String.
 
 القيمة: النص.
 
 **المعلمات:**
-| المعامل | النوع | الوصف |
+| المعلمة | النوع | الوصف |
 | --- | --- | --- |
 | value | java.lang.String |  |
 ### getRect() {#getRect--}
@@ -78,16 +81,16 @@ public abstract void setText(String value)
 public abstract RectF getRect()
 ```
 
-الحصول على إحداثيات المستطيل الذي يحد الفقرة. يشمل المستطيل جميع أسطر النص في الفقرة، بما في ذلك الفارغة.
+يحصل على إحداثيات المستطيل الذي يحد الفقرة. المستطيل يتضمن جميع أسطر النص في الفقرة، بما في ذلك الفارغة.
 
-**القيمة المرجعة:**
-android.graphics.RectF - المستطيل الذي يحد الفقرة android.graphics.RectF
+**الإرجاع:**
+android.graphics.RectF - مستطيل يحد الفقرة android.graphics.RectF
 ### getLinesCount() {#getLinesCount--}
 ```
 public abstract int getLinesCount()
 ```
 
-الحصول على عدد الأسطر في الفقرة.
+يحصل على عدد أسطر الفقرة.
 
 --------------------
 
@@ -107,25 +110,108 @@ public abstract int getLinesCount()
 >  }
 > ```
 
-**القيمة المرجعة:**
+
+**الإرجاع:**
 int - عدد الأسطر في الفقرة
+### getImage() {#getImage--}
+```
+public abstract IImage getImage()
+```
+
+إرجاع صورة للفقرة.
+
+--------------------
+
+> ```
+> The following example shows how to render a paragraph as an image:
+>   
+>  Presentation pres = new Presentation();
+>  try {
+>      IAutoShape shape = pres.getSlides().get_Item(0).getShapes().addAutoShape(
+>          ShapeType.Rectangle, 50, 50, 150, 50);
+>      IParagraph paragraph = shape.getTextFrame().getParagraphs().get_Item(0);
+>      paragraph.setText("Aspose Paragraph GetImage() Example");
+>      IImage paragraphImage = paragraph.getImage();
+>      try {
+>          paragraphImage.save("paragraph.png");
+>      } finally {
+>          if (paragraphImage != null) paragraphImage.dispose();
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**الإرجاع:**
+[IImage](../../com.aspose.slides/iimage) - صورة تحتوي على الفقرة المُرسومة، أو null إذا تعذر العثور على الفقرة في المجموعة الأصلية، أو لا تحتوي على حدود عرض صالحة، أو حدث خطأ أثناء رسم الصورة.
+### getImage(float scaleX, float scaleY) {#getImage-float-float-}
+```
+public abstract IImage getImage(float scaleX, float scaleY)
+```
+
+إرجاع صورة للفقرة بالمقياس المحدد.
+
+--------------------
+
+> ```
+> The following example shows how to render each text box paragraph on a slide as an image with custom scaling:
+>   
+>  Presentation pres = new Presentation("sample.pptx");
+>  try {
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      int shapeIndex = 0;
+>      for (IShape shape : slide.getShapes())
+>      {
+>          shapeIndex++;
+>          if (shape instanceof IAutoShape) {
+>              IAutoShape autoShape = (IAutoShape)shape;
+>              int paragraphIndex = 0;
+>              for (IParagraph paragraph : autoShape.getTextFrame().getParagraphs())
+>              {
+>                  paragraphIndex++;
+>                  IImage paragraphImage = paragraph.getImage(2f, 2f);
+>                  try {
+>                      if (paragraphImage != null)
+>                          paragraphImage.save("shape"+shapeIndex+"_paragraph"+paragraphIndex+".png");
+> 
+>                  } finally {
+>                      if (paragraphImage != null) paragraphImage.dispose();
+>                  }
+>              }
+>          }
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**المعلمات:**
+| المعلمة | النوع | الوصف |
+| --- | --- | --- |
+| scaleX | float | عامل المقياس الأفقي المطبق على صورة الفقرة. |
+| scaleY | float | عامل المقياس الرأسي المطبق على صورة الفقرة. |
+
+**الإرجاع:**
+[IImage](../../com.aspose.slides/iimage) - صورة تحتوي على الفقرة المُرسومة، أو null إذا تعذر العثور على الفقرة في المجموعة الأصلية، أو لا تحتوي على حدود عرض صالحة، أو حدث خطأ أثناء رسم الصورة.
 ### getEndParagraphPortionFormat() {#getEndParagraphPortionFormat--}
 ```
 public abstract IPortionFormat getEndParagraphPortionFormat()
 ```
 
-تحديد خصائص الجزء الذي سيُستخدم إذا تم إدراج جزء آخر بعد الأخير.
+يحدد خصائص الجزء التي سيتم استخدامها إذا تم إدراج جزء آخر بعد الأخير.
 
-**القيمة المرجعة:**
+**الإرجاع:**
 [IPortionFormat](../../com.aspose.slides/iportionformat)
 ### setEndParagraphPortionFormat(IPortionFormat value) {#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-}
 ```
 public abstract void setEndParagraphPortionFormat(IPortionFormat value)
 ```
 
-تحديد خصائص الجزء الذي سيُستخدم إذا تم إدراج جزء آخر بعد الأخير.
+يحدد خصائص الجزء التي سيتم استخدامها إذا تم إدراج جزء آخر بعد الأخير.
 
 **المعلمات:**
-| المعامل | النوع | الوصف |
+| المعلمة | النوع | الوصف |
 | --- | --- | --- |
 | value | [IPortionFormat](../../com.aspose.slides/iportionformat) |  |

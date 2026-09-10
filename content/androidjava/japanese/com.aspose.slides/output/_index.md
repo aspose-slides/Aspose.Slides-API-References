@@ -1,7 +1,7 @@
 ---
 title: Output
-second_title: Java API リファレンスを使用した Aspose.Slides for Android
-description: IWebDocument 用の出力要素のコレクションを表します。
+second_title: Java API リファレンスによる Android 向け Aspose.Slides
+description: IWebDocument の出力要素のコレクションを表します。
 type: docs
 url: /ja/com.aspose.slides/output/
 ---
@@ -11,7 +11,7 @@ java.lang.Object
 public final class Output
 ```
 
-IWebDocument 用の出力要素コレクションを表します。
+IWebDocument の出力要素のコレクションを表します。
 ## メソッド
 
 | メソッド | 説明 |
@@ -20,7 +20,8 @@ IWebDocument 用の出力要素コレクションを表します。
 | [add(String path, IPPImage image)](#add-java.lang.String-com.aspose.slides.IPPImage-) | 画像の出力要素を追加します。 |
 | [add(String path, IImage image)](#add-java.lang.String-com.aspose.slides.IImage-) | 画像の出力要素を追加します。 |
 | [add(String path, IVideo video)](#add-java.lang.String-com.aspose.slides.IVideo-) | 動画の出力要素を追加します。 |
-| [add(String path, IFontData fontData, int fontStyle)](#add-java.lang.String-com.aspose.slides.IFontData-int-) | 指定されたフォントの出力ファイル要素を作成して追加します。 |
+| [add(String path, IAudio audio)](#add-java.lang.String-com.aspose.slides.IAudio-) | オーディオの出力要素を追加します。 |
+| [add(String path, IFontData fontData, int fontStyle)](#add-java.lang.String-com.aspose.slides.IFontData-int-) | 指定されたフォントの出力ファイル要素を作成し、追加します。 |
 | [add(String path, String textContent)](#add-java.lang.String-java.lang.String-) | テキストコンテンツの出力要素を追加します。 |
 | [bindResource(IOutputFile outputFile, Object obj)](#bindResource-com.aspose.slides.IOutputFile-java.lang.Object-) | リソースを出力ファイルにバインドします。 |
 | [getResourcePath(Object obj)](#getResourcePath-java.lang.Object-) | 指定されたリソースのパスを返します。 |
@@ -29,13 +30,14 @@ IWebDocument 用の出力要素コレクションを表します。
 public final IOutputFile <TContextObject>add(String path, String templateKey, TContextObject contextObject)
 ```
 
+
 コンテキストオブジェクトの出力要素を追加します。
 
 **パラメータ:**
 | パラメータ | 型 | 説明 |
 | --- | --- | --- |
 | path | java.lang.String | 出力パス。 |
-| templateKey | java.lang.String | 出力前にコンテキストオブジェクトを変換するために使用されるテンプレートのキー。 |
+| templateKey | java.lang.String | 出力前にコンテキストオブジェクト変換に使用されるテンプレートのキー。 |
 | contextObject | TContextObject | コンテキストオブジェクト。 |
 
 **戻り値:**
@@ -45,6 +47,7 @@ public final IOutputFile <TContextObject>add(String path, String templateKey, TC
 ```
 public final IOutputFile add(String path, IPPImage image)
 ```
+
 
 画像の出力要素を追加します。
 
@@ -62,6 +65,7 @@ public final IOutputFile add(String path, IPPImage image)
 public final IOutputFile add(String path, IImage image)
 ```
 
+
 画像の出力要素を追加します。
 
 **パラメータ:**
@@ -78,6 +82,7 @@ public final IOutputFile add(String path, IImage image)
 public final IOutputFile add(String path, IVideo video)
 ```
 
+
 動画の出力要素を追加します。
 
 **パラメータ:**
@@ -89,18 +94,36 @@ public final IOutputFile add(String path, IVideo video)
 **戻り値:**
 [IOutputFile](../../com.aspose.slides/ioutputfile) - [IOutputFile](../../com.aspose.slides/ioutputfile) 動画用のオブジェクト。
 
+### add(String path, IAudio audio) {#add-java.lang.String-com.aspose.slides.IAudio-}
+```
+public final IOutputFile add(String path, IAudio audio)
+```
+
+
+オーディオの出力要素を追加します。
+
+**パラメータ:**
+| パラメータ | 型 | 説明 |
+| --- | --- | --- |
+| path | java.lang.String | 出力パス。 |
+| audio | [IAudio](../../com.aspose.slides/iaudio) | 出力するオーディオ。 |
+
+**戻り値:**
+[IOutputFile](../../com.aspose.slides/ioutputfile) - [IOutputFile](../../com.aspose.slides/ioutputfile) オーディオ用のオブジェクト。
+
 ### add(String path, IFontData fontData, int fontStyle) {#add-java.lang.String-com.aspose.slides.IFontData-int-}
 ```
 public final IOutputFile add(String path, IFontData fontData, int fontStyle)
 ```
 
-指定されたフォントの出力ファイル要素を作成して追加します。
+
+指定されたフォントの出力ファイル要素を作成し、追加します。
 
 **パラメータ:**
 | パラメータ | 型 | 説明 |
 | --- | --- | --- |
-| path | java.lang.String | フォント出力を保存するファイルパス。 |
-| fontData | [IFontData](../../com.aspose.slides/ifontdata) | 出力に書き込むフォントデータ。 |
+| path | java.lang.String | フォント出力が保存されるファイルパス。 |
+| fontData | [IFontData](../../com.aspose.slides/ifontdata) | 出力に書き込まれるフォントデータ。 |
 | fontStyle | int | フォントのスタイル（例: Regular, Bold, Italic）。 |
 
 **戻り値:**
@@ -110,6 +133,7 @@ public final IOutputFile add(String path, IFontData fontData, int fontStyle)
 ```
 public final IOutputFile add(String path, String textContent)
 ```
+
 
 テキストコンテンツの出力要素を追加します。
 
@@ -127,6 +151,7 @@ public final IOutputFile add(String path, String textContent)
 public final void bindResource(IOutputFile outputFile, Object obj)
 ```
 
+
 リソースを出力ファイルにバインドします。
 
 **パラメータ:**
@@ -140,6 +165,7 @@ public final void bindResource(IOutputFile outputFile, Object obj)
 public final String getResourcePath(Object obj)
 ```
 
+
 指定されたリソースのパスを返します。
 
 **パラメータ:**
@@ -148,4 +174,4 @@ public final String getResourcePath(Object obj)
 | obj | java.lang.Object | リソースオブジェクト。 |
 
 **戻り値:**
-java.lang.String - リソースパス。
+java.lang.String - リソースのパス。

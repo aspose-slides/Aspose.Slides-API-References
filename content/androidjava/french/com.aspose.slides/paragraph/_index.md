@@ -1,14 +1,14 @@
 ---
 title: Paragraph
-second_title: Référence API Java pour Aspose.Slides for Android
+second_title: Aspose.Slides pour Android via la référence de l'API Java
 description: Représente un paragraphe de texte.
 type: docs
 url: /fr/com.aspose.slides/paragraph/
 ---
-**Héritage :**
+**Héritage:**
 java.lang.Object
 
-**Toutes les interfaces implémentées :**
+**Toutes les interfaces implémentées:**
 [com.aspose.slides.IParagraph](../../com.aspose.slides/iparagraph), com.aspose.slides.IDOMObject
 ```
 public final class Paragraph implements IParagraph, IDOMObject
@@ -20,23 +20,25 @@ Représente un paragraphe de texte.
 | Constructeur | Description |
 | --- | --- |
 | [Paragraph()](#Paragraph--) | Initialise une nouvelle instance de la classe Paragraph avec les propriétés par défaut. |
-| [Paragraph(Paragraph para)](#Paragraph-com.aspose.slides.Paragraph-) | Constructeur de copie qui initialise une nouvelle instance d’une classe Paragraph. |
+| [Paragraph(Paragraph para)](#Paragraph-com.aspose.slides.Paragraph-) | Constructeur de copie qui initialise une nouvelle instance d'une classe Paragraph. |
 ## Méthodes
 
 | Méthode | Description |
 | --- | --- |
 | [getPortions()](#getPortions--) | Renvoie la collection de portions de texte. |
-| [getParagraphFormat()](#getParagraphFormat--) | Renvoie l’objet de formatage pour ce paragraphe. |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Fusionne les runs avec le même formatage. |
-| [getText()](#getText--) | Obtient ou définit le texte brut d’un paragraphe. |
-| [setText(String value)](#setText-java.lang.String-) | Obtient ou définit le texte brut d’un paragraphe. |
+| [getParagraphFormat()](#getParagraphFormat--) | Renvoie l'objet de formatage de ce paragraphe. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Fusionne les séquences avec le même formatage. |
+| [getText()](#getText--) | Obtient ou définit le texte brut d'un paragraphe. |
+| [setText(String value)](#setText-java.lang.String-) | Obtient ou définit le texte brut d'un paragraphe. |
 | [getRect()](#getRect--) | Obtient les coordonnées du rectangle qui encadre le paragraphe. |
-| [getLinesCount()](#getLinesCount--) | Obtient le nombre de lignes d’un paragraphe. |
-| [getEndParagraphPortionFormat()](#getEndParagraphPortionFormat--) | Spécifie les propriétés de la portion à utiliser si une autre portion est insérée après la dernière. |
-| [setEndParagraphPortionFormat(IPortionFormat value)](#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-) | Spécifie les propriétés de la portion à utiliser si une autre portion est insérée après la dernière. |
+| [getLinesCount()](#getLinesCount--) | Obtient le nombre de lignes d'un paragraphe. |
+| [getImage()](#getImage--) | Renvoie une image du paragraphe. |
+| [getImage(float scaleX, float scaleY)](#getImage-float-float-) | Renvoie une image du paragraphe avec l'échelle spécifiée. |
+| [getEndParagraphPortionFormat()](#getEndParagraphPortionFormat--) | Spécifie les propriétés de portion qui doivent être utilisées si une autre portion est insérée après la dernière. |
+| [setEndParagraphPortionFormat(IPortionFormat value)](#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-) | Spécifie les propriétés de portion qui doivent être utilisées si une autre portion est insérée après la dernière. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-| [getSlide()](#getSlide--) | Renvoie la diapositive parent d’un paragraphe. |
-| [getPresentation()](#getPresentation--) | Renvoie la présentation parent d’un paragraphe. |
+| [getSlide()](#getSlide--) | Renvoie la diapositive parente d'un paragraphe. |
+| [getPresentation()](#getPresentation--) | Renvoie la présentation parente d'un paragraphe. |
 ### Paragraph() {#Paragraph--}
 ```
 public Paragraph()
@@ -49,7 +51,7 @@ Initialise une nouvelle instance de la classe Paragraph avec les propriétés pa
 public Paragraph(Paragraph para)
 ```
 
-Constructeur de copie qui initialise une nouvelle instance d’une classe Paragraph.
+Constructeur de copie qui initialise une nouvelle instance d'une classe Paragraph.
 
 **Paramètres :**
 | Paramètre | Type | Description |
@@ -70,13 +72,13 @@ Renvoie la collection de portions de texte. Lecture seule [IPortionCollection](.
 public final IParagraphFormat getParagraphFormat()
 ```
 
-Renvoie l’objet de formatage pour ce paragraphe. Lecture seule [IParagraphFormat](../../com.aspose.slides/iparagraphformat).
+Renvoie l'objet de formatage de ce paragraphe. Lecture seule [IParagraphFormat](../../com.aspose.slides/iparagraphformat).
 
 --------------------
 
-L’objet de formatage contient les paramètres de formatage définis uniquement pour le paragraphe actuel, les données héritées n’étant pas appliquées.
+L'objet de formatage contient les paramètres de formatage définis uniquement pour le paragraphe actuel, les données héritées ne sont pas appliquées.
 
-Pour obtenir les valeurs effectives incluant celles héritées, utilisez la méthode [ParagraphFormat.getEffective](../../com.aspose.slides/paragraphformat\#getEffective).
+Afin d'obtenir les valeurs effectives incluant celles héritées, utilisez la méthode [ParagraphFormat.getEffective](../../com.aspose.slides/paragraphformat\#getEffective).
 
 **Renvoie :**
 [IParagraphFormat](../../com.aspose.slides/iparagraphformat)
@@ -85,14 +87,14 @@ Pour obtenir les valeurs effectives incluant celles héritées, utilisez la mét
 public final void joinPortionsWithSameFormatting()
 ```
 
-Fusionne les runs avec le même formatage.
+Fusionne les séquences avec le même formatage.
 
 ### getText() {#getText--}
 ```
 public final String getText()
 ```
 
-Obtient ou définit le texte brut d’un paragraphe. Lecture/écriture String.
+Obtient ou définit le texte brut d'un paragraphe. Lecture/écriture String.
 
 Valeur : Le texte.
 
@@ -103,7 +105,7 @@ java.lang.String
 public final void setText(String value)
 ```
 
-Obtient ou définit le texte brut d’un paragraphe. Lecture/écriture String.
+Obtient ou définit le texte brut d'un paragraphe. Lecture/écriture String.
 
 Valeur : Le texte.
 
@@ -126,7 +128,7 @@ android.graphics.RectF
 public final int getLinesCount()
 ```
 
-Obtient le nombre de lignes d’un paragraphe.
+Obtient le nombre de lignes d'un paragraphe.
 
 --------------------
 
@@ -146,27 +148,106 @@ Obtient le nombre de lignes d’un paragraphe.
 >  }
 > ```
 
-**Returns:**
-int - Lines count in a paragraph
+**Renvoie :**
+int - Nombre de lignes dans un paragraphe
+### getImage() {#getImage--}
+```
+public final IImage getImage()
+```
+
+Renvoie une image du paragraphe.
+
+--------------------
+
+> ```
+> The following example shows how to render a paragraph as an image:
+>   
+>  Presentation pres = new Presentation();
+>  try {
+>      IAutoShape shape = pres.getSlides().get_Item(0).getShapes().addAutoShape(
+>          ShapeType.Rectangle, 50, 50, 150, 50);
+>      IParagraph paragraph = shape.getTextFrame().getParagraphs().get_Item(0);
+>      paragraph.setText("Aspose Paragraph GetImage() Example");
+>      IImage paragraphImage = paragraph.getImage();
+>      try {
+>          paragraphImage.save("paragraph.png");
+>      } finally {
+>          if (paragraphImage != null) paragraphImage.dispose();
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Renvoie :**
+[IImage](../../com.aspose.slides/iimage) - Une image contenant le paragraphe rendu, ou null si le paragraphe ne peut pas être trouvé dans sa collection parente, n'a pas de limites de rendu valides, ou si une erreur se produit lors du rendu de l'image.
+### getImage(float scaleX, float scaleY) {#getImage-float-float-}
+```
+public final IImage getImage(float scaleX, float scaleY)
+```
+
+Renvoie une image du paragraphe avec l'échelle spécifiée.
+
+--------------------
+
+> ```
+> The following example shows how to render each text box paragraph on a slide as an image with custom scaling:
+>   
+>  Presentation pres = new Presentation("sample.pptx");
+>  try {
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      int shapeIndex = 0;
+>      for (IShape shape : slide.getShapes())
+>      {
+>          shapeIndex++;
+>          if (shape instanceof IAutoShape) {
+>              IAutoShape autoShape = (IAutoShape)shape;
+>              int paragraphIndex = 0;
+>              for (IParagraph paragraph : autoShape.getTextFrame().getParagraphs())
+>              {
+>                  paragraphIndex++;
+>                  IImage paragraphImage = paragraph.getImage(2f, 2f);
+>                  try {
+>                      if (paragraphImage != null)
+>                          paragraphImage.save("shape"+shapeIndex+"_paragraph"+paragraphIndex+".png");
+> 
+>                  } finally {
+>                      if (paragraphImage != null) paragraphImage.dispose();
+>                  }
+>              }
+>          }
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Paramètres :**
+| Paramètre | Type | Description |
+| --- | --- | --- |
+| scaleX | float | Le facteur d'échelle horizontal appliqué à l'image du paragraphe. |
+| scaleY | float | Le facteur d'échelle vertical appliqué à l'image du paragraphe. |
+
+**Renvoie :**
+[IImage](../../com.aspose.slides/iimage) - Une image contenant le paragraphe rendu, ou null si le paragraphe ne peut pas être trouvé dans sa collection parente, n'a pas de limites de rendu valides, ou si une erreur se produit lors du rendu de l'image.
 ### getEndParagraphPortionFormat() {#getEndParagraphPortionFormat--}
 ```
 public final IPortionFormat getEndParagraphPortionFormat()
 ```
 
-Specifies the portion properties that are to be used if another portion is inserted after the last one.
+Spécifie les propriétés de portion qui doivent être utilisées si une autre portion est insérée après la dernière.
 
-**Returns:**
+**Renvoie :**
 [IPortionFormat](../../com.aspose.slides/iportionformat)
 ### setEndParagraphPortionFormat(IPortionFormat value) {#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-}
 ```
 public final void setEndParagraphPortionFormat(IPortionFormat value)
 ```
 
+Spécifie les propriétés de portion qui doivent être utilisées si une autre portion est insérée après la dernière.
 
-Specifies the portion properties that are to be used if another portion is inserted after the last one.
-
-**Parameters:**
-| Parameter | Type | Description |
+**Paramètres :**
+| Paramètre | Type | Description |
 | --- | --- | --- |
 | value | [IPortionFormat](../../com.aspose.slides/iportionformat) |  |
 
@@ -175,27 +256,25 @@ Specifies the portion properties that are to be used if another portion is inser
 public final IDOMObject getParent_Immediate()
 ```
 
+Renvoie l'objet Parent_Immediate. Lecture seule IDOMObject.
 
-Returns Parent_Immediate object. Read-only IDOMObject.
-
-**Returns:**
+**Renvoie :**
 com.aspose.slides.IDOMObject
 ### getSlide() {#getSlide--}
 ```
 public final IBaseSlide getSlide()
 ```
 
+Renvoie la diapositive parente d'un paragraphe. Lecture seule [BaseSlide](../../com.aspose.slides/baseslide).
 
-Returns the parent slide of a paragraph. Read-only [BaseSlide](../../com.aspose.slides/baseslide).
-
-**Returns:**
+**Renvoie :**
 [IBaseSlide](../../com.aspose.slides/ibaseslide)
 ### getPresentation() {#getPresentation--}
 ```
 public final IPresentation getPresentation()
+```
 
-
-Renvoie la présentation parent d’un paragraphe. Lecture seule [IPresentation](../../com.aspose.slides/ipresentation).
+Renvoie la présentation parente d'un paragraphe. Lecture seule [IPresentation](../../com.aspose.slides/ipresentation).
 
 **Renvoie :**
 [IPresentation](../../com.aspose.slides/ipresentation)

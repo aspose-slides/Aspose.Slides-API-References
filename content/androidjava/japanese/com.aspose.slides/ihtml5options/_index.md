@@ -5,7 +5,7 @@ description: HTML5 エクスポートオプションを表します。
 type: docs
 url: /ja/com.aspose.slides/ihtml5options/
 ---
-**実装されているすべてのインターフェイス:**
+**すべての実装インターフェイス:**
 [com.aspose.slides.ISaveOptions](../../com.aspose.slides/isaveoptions)
 ```
 public interface IHtml5Options extends ISaveOptions
@@ -35,22 +35,25 @@ HTML5 エクスポートオプションを表します。
 | --- | --- |
 | [getAnimateTransitions()](#getAnimateTransitions--) | 遷移アニメーションオプションを取得または設定します。 |
 | [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | 遷移アニメーションオプションを取得または設定します。 |
-| [getAnimateShapes()](#getAnimateShapes--) | シェイプアニメーションオプションを取得または設定します。 |
-| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | シェイプアニメーションオプションを取得または設定します。 |
+| [getAnimateShapes()](#getAnimateShapes--) | シェイプ アニメーションオプションを取得または設定します。 |
+| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | シェイプ アニメーションオプションを取得または設定します。 |
 | [getEmbedImages()](#getEmbedImages--) | 画像埋め込みオプションを取得または設定します。 |
 | [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | 画像埋め込みオプションを取得または設定します。 |
 | [getOutputPath()](#getOutputPath--) | 外部リソースの保存場所を決定します。 |
 | [setOutputPath(String value)](#setOutputPath-java.lang.String-) | 外部リソースの保存場所を決定します。 |
-| [getDisableFontLigatures()](#getDisableFontLigatures--) | リガチャを使用せずにテキストが描画されるかどうかを示す値を取得または設定します。 |
-| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | リガチャを使用せずにテキストが描画されるかどうかを示す値を取得または設定します。 |
-| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | プレゼンテーション [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) をエクスポートする際に、スライドがページ上に配置されるモードを取得または設定します。 |
-| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | プレゼンテーション [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) をエクスポートする際に、スライドがページ上に配置されるモードを取得または設定します。 |
+| [getPicturesCompression()](#getPicturesCompression--) | 画像圧縮レベルを表します 読み取り/書き込み  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
+| [setPicturesCompression(int value)](#setPicturesCompression-int-) | 画像圧縮レベルを表します 読み取り/書き込み  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
+| [getDisableFontLigatures()](#getDisableFontLigatures--) | テキストをリガチャを使用せずにレンダリングするかどうかを示す値を取得または設定します。 |
+| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | テキストをリガチャを使用せずにレンダリングするかどうかを示す値を取得または設定します。 |
+| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | プレゼンテーションをエクスポートする際にスライドがページ上に配置されるモードを取得または設定します [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)。 |
+| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | プレゼンテーションをエクスポートする際にスライドがページ上に配置されるモードを取得または設定します [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)。 |
 ### getAnimateTransitions() {#getAnimateTransitions--}
 ```
 public abstract boolean getAnimateTransitions()
 ```
 
-遷移アニメーションオプションを取得または設定します。読み書き可能な boolean。
+
+遷移アニメーションオプションを取得または設定します。 読み取り/書き込み boolean.
 
 --------------------
 
@@ -75,7 +78,8 @@ boolean
 public abstract void setAnimateTransitions(boolean value)
 ```
 
-遷移アニメーションオプションを取得または設定します。読み書き可能な boolean。
+
+遷移アニメーションオプションを取得または設定します。 読み取り/書き込み boolean.
 
 --------------------
 
@@ -93,16 +97,18 @@ public abstract void setAnimateTransitions(boolean value)
 >  }
 > ```
 
-**パラメータ:**
-| パラメータ | 型 | 説明 |
+**パラメーター:**
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | value | boolean |  |
+
 ### getAnimateShapes() {#getAnimateShapes--}
 ```
 public abstract boolean getAnimateShapes()
 ```
 
-シェイプアニメーションオプションを取得または設定します。読み書き可能な boolean。
+
+シェイプ アニメーションオプションを取得または設定します。 読み取り/書き込み boolean.
 
 --------------------
 
@@ -127,7 +133,8 @@ boolean
 public abstract void setAnimateShapes(boolean value)
 ```
 
-シェイプアニメーションオプションを取得または設定します。読み書き可能な boolean。
+
+シェイプ アニメーションオプションを取得または設定します。 読み取り/書き込み boolean.
 
 --------------------
 
@@ -145,16 +152,18 @@ public abstract void setAnimateShapes(boolean value)
 >  }
 > ```
 
-**パラメータ:**
-| パラメータ | 型 | 説明 |
+**パラメーター:**
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | value | boolean |  |
+
 ### getEmbedImages() {#getEmbedImages--}
 ```
 public abstract boolean getEmbedImages()
 ```
 
-画像埋め込みオプションを取得または設定します。読み書き可能な boolean。
+
+画像埋め込みオプションを取得または設定します。 読み取り/書き込み boolean.
 
 --------------------
 
@@ -178,7 +187,8 @@ boolean
 public abstract void setEmbedImages(boolean value)
 ```
 
-画像埋め込みオプションを取得または設定します。読み書き可能な boolean。
+
+画像埋め込みオプションを取得または設定します。 読み取り/書き込み boolean.
 
 --------------------
 
@@ -195,16 +205,18 @@ public abstract void setEmbedImages(boolean value)
 >  }
 > ```
 
-**パラメータ:**
-| パラメータ | 型 | 説明 |
+**パラメーター:**
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| value | boolean |  |
+| value | java.lang.String |  |
+
 ### getOutputPath() {#getOutputPath--}
 ```
 public abstract String getOutputPath()
 ```
 
-外部リソースの保存場所を決定します。読み書き可能な String。
+
+外部リソースの保存場所を決定します。 読み取り/書き込み String.
 
 --------------------
 
@@ -229,7 +241,8 @@ java.lang.String
 public abstract void setOutputPath(String value)
 ```
 
-外部リソースの保存場所を決定します。読み書き可能な String。
+
+外部リソースの保存場所を決定します。 読み取り/書き込み String.
 
 --------------------
 
@@ -247,16 +260,41 @@ public abstract void setOutputPath(String value)
 >  }
 > ```
 
-**パラメータ:**
-| パラメータ | 型 | 説明 |
+**パラメーター:**
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### getPicturesCompression() {#getPicturesCompression--}
+```
+public abstract int getPicturesCompression()
+```
+
+
+画像圧縮レベルを表します 読み取り/書き込み  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int))。
+
+**戻り値:**
+int
+### setPicturesCompression(int value) {#setPicturesCompression-int-}
+```
+public abstract void setPicturesCompression(int value)
+```
+
+
+画像圧縮レベルを表します 読み取り/書き込み  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int))。
+
+**パラメーター:**
+| パラメーター | 型 | 説明 |
+| --- | --- | --- |
+| value | int |  |
+
 ### getDisableFontLigatures() {#getDisableFontLigatures--}
 ```
 public abstract boolean getDisableFontLigatures()
 ```
 
-リガチャを使用せずにテキストが描画されるかどうかを示す値を取得または設定します。true に設定すると、レンダリングされた出力でリガチャが無効になります。既定では、このプロパティは false に設定されています。
+
+リガチャを使用せずにテキストをレンダリングするかどうかを示す値を取得または設定します。true に設定すると、レンダリング結果でリガチャが無効になります。デフォルトでは、このプロパティは false に設定されています。
 
 --------------------
 
@@ -266,7 +304,7 @@ public abstract boolean getDisableFontLigatures()
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      Html5Options options = new Html5Options();
->      options.setDisableFontLigatures(true); // テキスト描画時にリガチャを無効にする
+>      options.setDisableFontLigatures(true); // テキストのレンダリングでリガチャを無効にする
 > 
 >      pres.save("output.html", SaveFormat.Html5, options);
 >  } finally {
@@ -281,7 +319,8 @@ boolean
 public abstract void setDisableFontLigatures(boolean value)
 ```
 
-リガチャを使用せずにテキストが描画されるかどうかを示す値を取得または設定します。true に設定すると、レンダリングされた出力でリガチャが無効になります。既定では、このプロパティは false に設定されています。
+
+リガチャを使用せずにテキストをレンダリングするかどうかを示す値を取得または設定します。true に設定すると、レンダリング結果でリガチャが無効になります。デフォルトでは、このプロパティは false に設定されています。
 
 --------------------
 
@@ -291,7 +330,7 @@ public abstract void setDisableFontLigatures(boolean value)
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      Html5Options options = new Html5Options();
->      options.setDisableFontLigatures(true); // テキスト描画時にリガチャを無効にする
+>      options.setDisableFontLigatures(true); // テキストのレンダリングでリガチャを無効にする
 > 
 >      pres.save("output.html", SaveFormat.Html5, options);
 >  } finally {
@@ -299,16 +338,18 @@ public abstract void setDisableFontLigatures(boolean value)
 >  }
 > ```
 
-**パラメータ:**
-| パラメータ | 型 | 説明 |
+**パラメーター:**
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | value | boolean |  |
+
 ### getSlidesLayoutOptions() {#getSlidesLayoutOptions--}
 ```
 public abstract ISlidesLayoutOptions getSlidesLayoutOptions()
 ```
 
-プレゼンテーション [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) をエクスポートする際に、スライドがページ上に配置されるモードを取得または設定します。
+
+プレゼンテーションをエクスポートする際にスライドがページ上に配置されるモードを取得または設定します [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)。
 
 --------------------
 
@@ -335,7 +376,8 @@ public abstract ISlidesLayoutOptions getSlidesLayoutOptions()
 public abstract void setSlidesLayoutOptions(ISlidesLayoutOptions value)
 ```
 
-プレゼンテーション [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) をエクスポートする際に、スライドがページ上に配置されるモードを取得または設定します。
+
+プレゼンテーションをエクスポートする際にスライドがページ上に配置されるモードを取得または設定します [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)。
 
 --------------------
 
@@ -355,7 +397,7 @@ public abstract void setSlidesLayoutOptions(ISlidesLayoutOptions value)
 >  }
 > ```
 
-**パラメータ:**
-| パラメータ | 型 | 説明 |
+**パラメーター:**
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | value | [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) |  |

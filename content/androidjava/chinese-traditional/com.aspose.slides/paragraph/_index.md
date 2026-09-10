@@ -1,39 +1,41 @@
 ---
 title: Paragraph
-second_title: 適用於 Android 的 Aspose.Slides Java API 參考
-description: 表示一段文字。
+second_title: Aspose.Slides for Android via Java API 參考
+description: 代表一段文字。
 type: docs
 url: /zh-hant/com.aspose.slides/paragraph/
 ---
 **繼承：**
 java.lang.Object
 
-**所有已實作介面：**
+**所有實作的介面：**
 [com.aspose.slides.IParagraph](../../com.aspose.slides/iparagraph), com.aspose.slides.IDOMObject
 ```
 public final class Paragraph implements IParagraph, IDOMObject
 ```
 
 表示一段文字。
-## 建構子
+## 建構函式
 
-| 建構子 | 說明 |
+| 建構函式 | 說明 |
 | --- | --- |
 | [Paragraph()](#Paragraph--) | 使用預設屬性初始化 Paragraph 類別的新執行個體。 |
-| [Paragraph(Paragraph para)](#Paragraph-com.aspose.slides.Paragraph-) | 複製建構子，初始化 Paragraph 類別的新執行個體。 |
+| [Paragraph(Paragraph para)](#Paragraph-com.aspose.slides.Paragraph-) | 複製建構函式，用於初始化 Paragraph 類別的新執行個體。 |
 ## 方法
 
 | 方法 | 說明 |
 | --- | --- |
 | [getPortions()](#getPortions--) | 傳回文字片段的集合。 |
 | [getParagraphFormat()](#getParagraphFormat--) | 傳回此段落的格式化物件。 |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | 合併具有相同格式的執行段。 |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | 合併具有相同格式的執行序列。 |
 | [getText()](#getText--) | 取得或設定段落的純文字。 |
 | [setText(String value)](#setText-java.lang.String-) | 取得或設定段落的純文字。 |
 | [getRect()](#getRect--) | 取得限定段落的矩形座標。 |
 | [getLinesCount()](#getLinesCount--) | 取得段落的行數。 |
-| [getEndParagraphPortionFormat()](#getEndParagraphPortionFormat--) | 指定當在最後一個片段之後插入另一個片段時使用的片段屬性。 |
-| [setEndParagraphPortionFormat(IPortionFormat value)](#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-) | 指定當在最後一個片段之後插入另一個片段時使用的片段屬性。 |
+| [getImage()](#getImage--) | 傳回段落的影像。 |
+| [getImage(float scaleX, float scaleY)](#getImage-float-float-) | 傳回以指定比例顯示的段落影像。 |
+| [getEndParagraphPortionFormat()](#getEndParagraphPortionFormat--) | 指定在最後一個文字片段之後插入另一個文字片段時使用的屬性。 |
+| [setEndParagraphPortionFormat(IPortionFormat value)](#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-) | 指定在最後一個文字片段之後插入另一個文字片段時使用的屬性。 |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
 | [getSlide()](#getSlide--) | 傳回段落的父投影片。 |
 | [getPresentation()](#getPresentation--) | 傳回段落的父簡報。 |
@@ -49,13 +51,12 @@ public Paragraph()
 public Paragraph(Paragraph para)
 ```
 
-複製建構子，初始化 Paragraph 類別的新執行個體。
+複製建構函式，用於初始化 Paragraph 類別的新執行個體。
 
 **參數：**
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
 | para | [Paragraph](../../com.aspose.slides/paragraph) |  |
-
 ### getPortions() {#getPortions--}
 ```
 public final IPortionCollection getPortions()
@@ -74,9 +75,9 @@ public final IParagraphFormat getParagraphFormat()
 
 --------------------
 
-此格式化物件僅包含針對目前段落定義的格式參數，不會套用繼承的資料。
+格式化物件僅包含針對目前段落定義的格式參數，未套用繼承的資料。
 
-若要取得包含繼承值的有效值，請使用 [ParagraphFormat.getEffective](../../com.aspose.slides/paragraphformat\#getEffective) 方法。
+若要取得包括繼承值在內的實際值，請使用 [ParagraphFormat.getEffective](../../com.aspose.slides/paragraphformat\#getEffective) 方法。
 
 **傳回值：**
 [IParagraphFormat](../../com.aspose.slides/iparagraphformat)
@@ -85,16 +86,15 @@ public final IParagraphFormat getParagraphFormat()
 public final void joinPortionsWithSameFormatting()
 ```
 
-合併具有相同格式的執行段。
-
+合併具有相同格式的執行序列。
 ### getText() {#getText--}
 ```
 public final String getText()
 ```
 
-取得或設定段落的純文字。可讀寫 String。
+取得或設定段落的純文字。讀/寫 String。
 
-值：文字。
+Value: The text.
 
 **傳回值：**
 java.lang.String
@@ -103,21 +103,20 @@ java.lang.String
 public final void setText(String value)
 ```
 
-取得或設定段落的純文字。可讀寫 String。
+取得或設定段落的純文字。讀/寫 String。
 
-值：文字。
+Value: The text.
 
 **參數：**
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
 | value | java.lang.String |  |
-
 ### getRect() {#getRect--}
 ```
 public final RectF getRect()
 ```
 
-取得限定段落的矩形座標。該矩形包含段落中所有文字行，包括空行。
+取得限定段落的矩形座標。該矩形包含段落中所有文字行，包括空白行。
 
 **傳回值：**
 android.graphics.RectF
@@ -131,7 +130,7 @@ public final int getLinesCount()
 --------------------
 
 > ```
-> 範例：
+> Example:
 >  
 >  Presentation pres = new Presentation();
 >  try {
@@ -148,12 +147,93 @@ public final int getLinesCount()
 
 **傳回值：**
 int - 段落的行數
+### getImage() {#getImage--}
+```
+public final IImage getImage()
+```
+
+傳回段落的影像。
+
+--------------------
+
+> ```
+> The following example shows how to render a paragraph as an image:
+>   
+>  Presentation pres = new Presentation();
+>  try {
+>      IAutoShape shape = pres.getSlides().get_Item(0).getShapes().addAutoShape(
+>          ShapeType.Rectangle, 50, 50, 150, 50);
+>      IParagraph paragraph = shape.getTextFrame().getParagraphs().get_Item(0);
+>      paragraph.setText("Aspose Paragraph GetImage() Example");
+>      IImage paragraphImage = paragraph.getImage();
+>      try {
+>          paragraphImage.save("paragraph.png");
+>      } finally {
+>          if (paragraphImage != null) paragraphImage.dispose();
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**傳回值：**
+[IImage](../../com.aspose.slides/iimage) - 包含已渲染段落的影像，若在其父集合中找不到段落、沒有有效的渲染界限，或在渲染影像時發生錯誤，則為 null。
+### getImage(float scaleX, float scaleY) {#getImage-float-float-}
+```
+public final IImage getImage(float scaleX, float scaleY)
+```
+
+傳回以指定比例顯示的段落影像。
+
+--------------------
+
+> ```
+> The following example shows how to render each text box paragraph on a slide as an image with custom scaling:
+>   
+>  Presentation pres = new Presentation("sample.pptx");
+>  try {
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      int shapeIndex = 0;
+>      for (IShape shape : slide.getShapes())
+>      {
+>          shapeIndex++;
+>          if (shape instanceof IAutoShape) {
+>              IAutoShape autoShape = (IAutoShape)shape;
+>              int paragraphIndex = 0;
+>              for (IParagraph paragraph : autoShape.getTextFrame().getParagraphs())
+>              {
+>                  paragraphIndex++;
+>                  IImage paragraphImage = paragraph.getImage(2f, 2f);
+>                  try {
+>                      if (paragraphImage != null)
+>                          paragraphImage.save("shape"+shapeIndex+"_paragraph"+paragraphIndex+".png");
+> 
+>                  } finally {
+>                      if (paragraphImage != null) paragraphImage.dispose();
+>                  }
+>              }
+>          }
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**參數：**
+| 參數 | 類型 | 說明 |
+| --- | --- | --- |
+| scaleX | float | 套用於段落影像的水平比例因子。 |
+| scaleY | float | 套用於段落影像的垂直比例因子。 |
+
+**傳回值：**
+[IImage](../../com.aspose.slides/iimage) - 包含已渲染段落的影像，若在其父集合中找不到段落、沒有有效的渲染界限，或在渲染影像時發生錯誤，則為 null。
 ### getEndParagraphPortionFormat() {#getEndParagraphPortionFormat--}
 ```
 public final IPortionFormat getEndParagraphPortionFormat()
 ```
 
-指定當在最後一個片段之後插入另一個片段時使用的片段屬性。
+指定在最後一個文字片段之後插入另一個文字片段時使用的屬性。
 
 **傳回值：**
 [IPortionFormat](../../com.aspose.slides/iportionformat)
@@ -162,13 +242,12 @@ public final IPortionFormat getEndParagraphPortionFormat()
 public final void setEndParagraphPortionFormat(IPortionFormat value)
 ```
 
-指定當在最後一個片段之後插入另一個片段時使用的片段屬性。
+指定在最後一個文字片段之後插入另一個文字片段時使用的屬性。
 
 **參數：**
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
 | value | [IPortionFormat](../../com.aspose.slides/iportionformat) |  |
-
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
 public final IDOMObject getParent_Immediate()

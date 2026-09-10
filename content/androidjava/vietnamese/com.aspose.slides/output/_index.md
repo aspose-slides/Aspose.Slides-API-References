@@ -1,7 +1,7 @@
 ---
 title: Output
 second_title: Aspose.Slides cho Android qua Tham chiếu API Java
-description: Đại diện cho một tập hợp các phần tử đầu ra cho IWebDocument.
+description: Biểu diễn một tập hợp các phần tử đầu ra cho IWebDocument.
 type: docs
 url: /vi/com.aspose.slides/output/
 ---
@@ -12,6 +12,7 @@ public final class Output
 ```
 
 Biểu diễn một tập hợp các phần tử đầu ra cho IWebDocument.
+
 ## Phương thức
 
 | Phương thức | Mô tả |
@@ -20,15 +21,15 @@ Biểu diễn một tập hợp các phần tử đầu ra cho IWebDocument.
 | [add(String path, IPPImage image)](#add-java.lang.String-com.aspose.slides.IPPImage-) | Thêm một phần tử đầu ra cho hình ảnh. |
 | [add(String path, IImage image)](#add-java.lang.String-com.aspose.slides.IImage-) | Thêm một phần tử đầu ra cho hình ảnh. |
 | [add(String path, IVideo video)](#add-java.lang.String-com.aspose.slides.IVideo-) | Thêm một phần tử đầu ra cho video. |
+| [add(String path, IAudio audio)](#add-java.lang.String-com.aspose.slides.IAudio-) | Thêm một phần tử đầu ra cho âm thanh. |
 | [add(String path, IFontData fontData, int fontStyle)](#add-java.lang.String-com.aspose.slides.IFontData-int-) | Tạo và thêm một phần tử tệp đầu ra cho phông chữ được chỉ định. |
 | [add(String path, String textContent)](#add-java.lang.String-java.lang.String-) | Thêm một phần tử đầu ra cho nội dung văn bản. |
-| [bindResource(IOutputFile outputFile, Object obj)](#bindResource-com.aspose.slides.IOutputFile-java.lang.Object-) | Liên kết tài nguyên với tệp đầu ra. |
-| [getResourcePath(Object obj)](#getResourcePath-java.lang.Object-) | Trả về đường dẫn cho một tài nguyên cho trước. |
+| [bindResource(IOutputFile outputFile, Object obj)](#bindResource-com.aspose.slides.IOutputFile-java.lang.Object-) | Gắn tài nguyên vào tệp đầu ra. |
+| [getResourcePath(Object obj)](#getResourcePath-java.lang.Object-) | Trả về đường dẫn cho một tài nguyên đã cho. |
 ### <TContextObject>add(String path, String templateKey, TContextObject contextObject) {#-TContextObject-add-java.lang.String-java.lang.String-TContextObject-}
 ```
 public final IOutputFile <TContextObject>add(String path, String templateKey, TContextObject contextObject)
 ```
-
 
 Thêm một phần tử đầu ra cho đối tượng ngữ cảnh.
 
@@ -41,11 +42,11 @@ Thêm một phần tử đầu ra cho đối tượng ngữ cảnh.
 
 **Trả về:**
 [IOutputFile](../../com.aspose.slides/ioutputfile) - [IOutputFile](../../com.aspose.slides/ioutputfile) đối tượng cho đối tượng ngữ cảnh.
+
 ### add(String path, IPPImage image) {#add-java.lang.String-com.aspose.slides.IPPImage-}
 ```
 public final IOutputFile add(String path, IPPImage image)
 ```
-
 
 Thêm một phần tử đầu ra cho hình ảnh.
 
@@ -57,11 +58,11 @@ Thêm một phần tử đầu ra cho hình ảnh.
 
 **Trả về:**
 [IOutputFile](../../com.aspose.slides/ioutputfile) - [IOutputFile](../../com.aspose.slides/ioutputfile) đối tượng cho hình ảnh.
+
 ### add(String path, IImage image) {#add-java.lang.String-com.aspose.slides.IImage-}
 ```
 public final IOutputFile add(String path, IImage image)
 ```
-
 
 Thêm một phần tử đầu ra cho hình ảnh.
 
@@ -73,11 +74,11 @@ Thêm một phần tử đầu ra cho hình ảnh.
 
 **Trả về:**
 [IOutputFile](../../com.aspose.slides/ioutputfile) - [IOutputFile](../../com.aspose.slides/ioutputfile) đối tượng cho hình ảnh.
+
 ### add(String path, IVideo video) {#add-java.lang.String-com.aspose.slides.IVideo-}
 ```
 public final IOutputFile add(String path, IVideo video)
 ```
-
 
 Thêm một phần tử đầu ra cho video.
 
@@ -89,11 +90,27 @@ Thêm một phần tử đầu ra cho video.
 
 **Trả về:**
 [IOutputFile](../../com.aspose.slides/ioutputfile) - [IOutputFile](../../com.aspose.slides/ioutputfile) đối tượng cho video.
+
+### add(String path, IAudio audio) {#add-java.lang.String-com.aspose.slides.IAudio-}
+```
+public final IOutputFile add(String path, IAudio audio)
+```
+
+Thêm một phần tử đầu ra cho âm thanh.
+
+**Tham số:**
+| Tham số | Kiểu | Mô tả |
+| --- | --- | --- |
+| path | java.lang.String | Đường dẫn đầu ra. |
+| audio | [IAudio](../../com.aspose.slides/iaudio) | Âm thanh để xuất. |
+
+**Trả về:**
+[IOutputFile](../../com.aspose.slides/ioutputfile) - [IOutputFile](../../com.aspose.slides/ioutputfile) đối tượng cho âm thanh.
+
 ### add(String path, IFontData fontData, int fontStyle) {#add-java.lang.String-com.aspose.slides.IFontData-int-}
 ```
 public final IOutputFile add(String path, IFontData fontData, int fontStyle)
 ```
-
 
 Tạo và thêm một phần tử tệp đầu ra cho phông chữ được chỉ định.
 
@@ -101,16 +118,16 @@ Tạo và thêm một phần tử tệp đầu ra cho phông chữ được ch�
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | path | java.lang.String | Đường dẫn tệp nơi phông chữ sẽ được lưu. |
-| fontData | [IFontData](../../com.aspose.slides/ifontdata) | Dữ liệu phông chữ sẽ được ghi vào đầu ra. |
-| fontStyle | int | Kiểu phông chữ (ví dụ: Regular, Bold, Italic). |
+| fontData | [IFontData](../../com.aspose.slides/ifontdata) | Dữ liệu phông chữ sẽ ghi vào đầu ra. |
+| fontStyle | int | Kiểu của phông chữ (ví dụ: Regular, Bold, Italic). |
 
 **Trả về:**
-[IOutputFile](../../com.aspose.slides/ioutputfile) - Một [IOutputFile](../../com.aspose.slides/ioutputfile) instance cho phông chữ đã tạo.
+[IOutputFile](../../com.aspose.slides/ioutputfile) - Một thể hiện [IOutputFile](../../com.aspose.slides/ioutputfile) cho phông chữ được tạo.
+
 ### add(String path, String textContent) {#add-java.lang.String-java.lang.String-}
 ```
 public final IOutputFile add(String path, String textContent)
 ```
-
 
 Thêm một phần tử đầu ra cho nội dung văn bản.
 
@@ -122,13 +139,13 @@ Thêm một phần tử đầu ra cho nội dung văn bản.
 
 **Trả về:**
 [IOutputFile](../../com.aspose.slides/ioutputfile) - [IOutputFile](../../com.aspose.slides/ioutputfile) đối tượng cho nội dung văn bản.
+
 ### bindResource(IOutputFile outputFile, Object obj) {#bindResource-com.aspose.slides.IOutputFile-java.lang.Object-}
 ```
 public final void bindResource(IOutputFile outputFile, Object obj)
 ```
 
-
-Liên kết tài nguyên với tệp đầu ra.
+Gắn tài nguyên vào tệp đầu ra.
 
 **Tham số:**
 | Tham số | Kiểu | Mô tả |
@@ -141,8 +158,7 @@ Liên kết tài nguyên với tệp đầu ra.
 public final String getResourcePath(Object obj)
 ```
 
-
-Trả về đường dẫn cho một tài nguyên cho trước.
+Trả về đường dẫn cho một tài nguyên đã cho.
 
 **Tham số:**
 | Tham số | Kiểu | Mô tả |

@@ -1,7 +1,7 @@
 ---
 title: SlidesAIAgent
 second_title: Aspose.Slides برای اندروید از طریق مرجع API جاوا
-description: قابلیت‌های مجهز به هوش مصنوعی برای پردازش ارائه‌ها را فراهم می‌کند.
+description: قابلیت‌های مبتنی بر هوش مصنوعی برای پردازش ارائه‌ها را فراهم می‌کند.
 type: docs
 url: /fa/com.aspose.slides/slidesaiagent/
 ---
@@ -11,17 +11,18 @@ java.lang.Object
 public class SlidesAIAgent
 ```
 
-قابلیت‌های مجهز به هوش مصنوعی برای پردازش ارائه‌ها را فراهم می‌کند.
+قابلیت‌های مبتنی بر هوش مصنوعی برای پردازش ارائه‌ها را فراهم می‌کند.
 ## سازنده‌ها
 
 | سازنده | توضیح |
 | --- | --- |
-| [SlidesAIAgent(IAIWebClient aiClient)](#SlidesAIAgent-com.aspose.slides.IAIWebClient-) | سازنده SlidesAIAgent |
+| [SlidesAIAgent(IAIWebClient aiClient)](#SlidesAIAgent-com.aspose.slides.IAIWebClient-) | یک نمونه جدید از [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) را با یک مشتری AI سفارشی راه‌اندازی می‌کند. |
+| [SlidesAIAgent()](#SlidesAIAgent--) | یک نمونه جدید از [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) را با استفاده از [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient) داخلی با پیکربندی پیش‌فرض آن راه‌اندازی می‌کند. |
 ## متدها
 
 | متد | توضیح |
 | --- | --- |
-| [translate(IPresentation presentation, String language)](#translate-com.aspose.slides.IPresentation-java.lang.String-) | یک ارائه را به زبان مشخص شده با استفاده از هوش مصنوعی ترجمه می‌کند (نسخه هماهنگ). |
+| [translate(IPresentation presentation, String language)](#translate-com.aspose.slides.IPresentation-java.lang.String-) | یک ارائه را به زبان مشخص شده با استفاده از AI (نسخه همزمان) ترجمه می‌کند. |
 | [generatePresentation(String description, int presentationContentAmount)](#generatePresentation-java.lang.String-int-) | یک نمونه ارائه را از توصیف متنی تولید می‌کند. |
 | [generatePresentation(String description, int presentationContentAmount, IPresentation presentationTemplate)](#generatePresentation-java.lang.String-int-com.aspose.slides.IPresentation-) | یک نمونه ارائه را از توصیف متنی تولید می‌کند. |
 ### SlidesAIAgent(IAIWebClient aiClient) {#SlidesAIAgent-com.aspose.slides.IAIWebClient-}
@@ -29,27 +30,36 @@ public class SlidesAIAgent
 public SlidesAIAgent(IAIWebClient aiClient)
 ```
 
-
-سازنده SlidesAIAgent
+یک نمونه جدید از [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) را با یک مشتری AI سفارشی راه‌اندازی می‌کند. از این overload برای مشخص کردن ارائه‌دهنده AI، ارائه LLM خودتان، یا سفارشی‌سازی اتصال (به عنوان مثال، با ارائه java.net.HttpURLConnection خود) استفاده کنید. هر پیاده‌سازی از [IAIWebClient](../../com.aspose.slides/iaiwebclient) می‌تواند استفاده شود. برای استفاده از [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient) داخلی با پیکربندی پیش‌فرض، به‌جای آن از  SlidesAIAgent()  overload استفاده کنید.
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
-| aiClient | [IAIWebClient](../../com.aspose.slides/iaiwebclient) | نمونهٔ کلاینت AI |
+| aiClient | [IAIWebClient](../../com.aspose.slides/iaiwebclient) | نمونهٔ مشتری AI. هر پیاده‌سازی از [IAIWebClient](../../com.aspose.slides/iaiwebclient) می‌تواند استفاده شود. |
+
+### SlidesAIAgent() {#SlidesAIAgent--}
+```
+public SlidesAIAgent()
+```
+
+یک نمونه جدید از [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) را با استفاده از [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient) داخلی با پیکربندی پیش‌فرض آن راه‌اندازی می‌کند. مشتری به LLM خود Aspose متصل می‌شود و نیازی به پیکربندی اضافی ندارد. برای استفاده از یک مشتری AI متفاوت، به‌جای آن از overload SlidesAIAgent(IAIWebClient) استفاده کنید.
 
 ### translate(IPresentation presentation, String language) {#translate-com.aspose.slides.IPresentation-java.lang.String-}
 ```
-public void translate(IPresentation presentation, String language)
+public final void translate(IPresentation presentation, String language)
 ```
 
-
-یک ارائه را به زبان مشخص شده با استفاده از هوش مصنوعی ترجمه می‌کند (نسخه هماهنگ).
+یک ارائه را به زبان مشخص شده با استفاده از AI (نسخه همزمان) ترجمه می‌کند.
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | presentation | [IPresentation](../../com.aspose.slides/ipresentation) | ارائه هدف |
 | language | java.lang.String | زبان هدف
+
+--------------------
+
+مثال زیر از [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient) پیش‌فرض استفاده می‌کند که توسط سازندهٔ بدون پارامتر SlidesAIAgent() ایجاد می‌شود و به LLM خود Aspose متصل می‌شود. برای استفاده از ارائه‌دهنده AI متفاوت، LLM خود را تامین کنید، یا اتصال را سفارشی‌سازی کنید (به عنوان مثال، با ارائه java.net.HttpURLConnection خود)، یک پیاده‌سازی [IAIWebClient](../../com.aspose.slides/iaiwebclient) را به سازندهٔ SlidesAIAgent(IAIWebClient) پاس بدهید.
 
 ```
 Presentation presentation = new Presentation("Presentation.pptx");
@@ -68,14 +78,13 @@ Presentation presentation = new Presentation("Presentation.pptx");
 public final IPresentation generatePresentation(String description, int presentationContentAmount)
 ```
 
-
-یک نمونه ارائه را از توصیف متنی تولید می‌کند. یک موضوع، ایده‌ها، نقل‌قول‌ها یا قطعات متن را در زبان مورد نیاز فراهم کنید.
+یک نمونه ارائه را از توصیف متنی تولید می‌کند. یک موضوع، ایده‌ها، نقل قول‌ها یا قطعه‌های متنی را به زبان مورد نیاز ارائه دهید.
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
-| description | java.lang.String | موضوع، ایده‌ها، نقل‌قول‌ها یا قطعات متن. |
-| presentationContentAmount | int | مقدار محتوا در ارائهٔ خروجی.
+| description | java.lang.String | موضوع، ایده‌ها، نقل قول‌ها یا قطعه‌های متنی. |
+| presentationContentAmount | int | مقدار محتوا در ارائهٔ حاصل. |
 
 ```
 String prompt = "Generate a presentation about Aspose.Slides for Android via Java. Highlight its key features, use cases, and explain why it is better than its competitors.";
@@ -96,15 +105,18 @@ String prompt = "Generate a presentation about Aspose.Slides for Android via Jav
 public final IPresentation generatePresentation(String description, int presentationContentAmount, IPresentation presentationTemplate)
 ```
 
-
-یک نمونه ارائه را از توصیف متنی تولید می‌کند. یک موضوع، ایده‌ها، نقل‌قول‌ها یا قطعات متن را در زبان مورد نیاز فراهم کنید.
+یک نمونه ارائه را از توصیف متنی تولید می‌کند. یک موضوع، ایده‌ها، نقل قول‌ها یا قطعه‌های متنی را به زبان مورد نیاز ارائه دهید.
 
 **پارامترها:**
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
-| description | java.lang.String | موضوع، ایده‌ها، نقل‌قول‌ها یا قطعات متن. |
-| presentationContentAmount | int | مقدار محتوی در ارائهٔ خروجی. |
-| presentationTemplate | [IPresentation](../../com.aspose.slides/ipresentation) | یک ارائه برای استفاده به عنوان قالب برای چینش و طراحی، که قالب پیش‌فرض را جایگزین می‌کند.
+| description | java.lang.String | موضوع، ایده‌ها، نقل قول‌ها یا قطعه‌های متنی. |
+| presentationContentAmount | int | مقدار محتوا در ارائهٔ حاصل. |
+| presentationTemplate | [IPresentation](../../com.aspose.slides/ipresentation) | یک ارائه برای استفاده به عنوان قالب برای طرح‌بندی و طراحی، که قالب پیش‌فرض را جایگزین می‌کند. |
+
+--------------------
+
+مثال زیر از [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient) پیش‌فرض استفاده می‌کند که توسط سازندهٔ بدون پارامتر SlidesAIAgent() ایجاد می‌شود و به LLM خود Aspose متصل می‌شود. برای استفاده از ارائه‌دهنده AI متفاوت، LLM خود را تامین کنید، یا اتصال را سفارشی‌سازی کنید (به عنوان مثال، با ارائه java.net.HttpURLConnection خود)، یک پیاده‌سازی [IAIWebClient](../../com.aspose.slides/iaiwebclient) را به سازندهٔ SlidesAIAgent(IAIWebClient) پاس بدهید.
 
 ```
 String prompt = "Generate a presentation about Aspose.Slides for Android via Java. Highlight its key features, use cases, and explain why it is better than its competitors.";
