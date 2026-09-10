@@ -1,6 +1,6 @@
 ---
 title: Html5Options
-second_title: Java API 레퍼런스를 통한 Android용 Aspose.Slides
+second_title: Java API 참조를 통한 Android용 Aspose.Slides
 description: HTML5 내보내기 옵션을 나타냅니다.
 type: docs
 url: /ko/com.aspose.slides/html5options/
@@ -32,27 +32,29 @@ HTML5 내보내기 옵션을 나타냅니다.
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-## Constructors
+## 생성자
 
 | 생성자 | 설명 |
 | --- | --- |
 | [Html5Options()](#Html5Options--) | 기본 생성자. |
-## Methods
+## 메서드
 
 | 메서드 | 설명 |
 | --- | --- |
 | [getAnimateTransitions()](#getAnimateTransitions--) | 전환 애니메이션 옵션을 반환하거나 설정합니다. |
 | [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | 전환 애니메이션 옵션을 반환하거나 설정합니다. |
-| [getAnimateShapes()](#getAnimateShapes--) | 형태 애니메이션 옵션을 반환하거나 설정합니다. |
-| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | 형태 애니메이션 옵션을 반환하거나 설정합니다. |
-| [getEmbedImages()](#getEmbedImages--) | 이미지 임베딩 옵션을 반환하거나 설정합니다. |
-| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | 이미지 임베딩 옵션을 반환하거나 설정합니다. |
+| [getAnimateShapes()](#getAnimateShapes--) | 도형 애니메이션 옵션을 반환하거나 설정합니다. |
+| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | 도형 애니메이션 옵션을 반환하거나 설정합니다. |
+| [getEmbedImages()](#getEmbedImages--) | 이미지 포함 옵션을 반환하거나 설정합니다. |
+| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | 이미지 포함 옵션을 반환하거나 설정합니다. |
 | [getOutputPath()](#getOutputPath--) | 외부 리소스가 저장될 위치를 결정합니다. |
 | [setOutputPath(String value)](#setOutputPath-java.lang.String-) | 외부 리소스가 저장될 위치를 결정합니다. |
-| [getDisableFontLigatures()](#getDisableFontLigatures--) | 리그처를 사용하지 않고 텍스트를 렌더링하는지 여부를 나타내는 값을 가져오거나 설정합니다. |
-| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | 리그처를 사용하지 않고 텍스트를 렌더링하는지 여부를 나타내는 값을 가져오거나 설정합니다. |
-| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | 프레젠테이션을 내보낼 때 슬라이드가 페이지에 배치되는 모드를 가져오거나 설정합니다 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
-| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | 프레젠테이션을 내보낼 때 슬라이드가 페이지에 배치되는 모드를 가져오거나 설정합니다 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [getPicturesCompression()](#getPicturesCompression--) | 그림 압축 수준을 나타냅니다 |
+| [setPicturesCompression(int value)](#setPicturesCompression-int-) | 그림 압축 수준을 나타냅니다 |
+| [getDisableFontLigatures()](#getDisableFontLigatures--) | 텍스트를 합자 없이 렌더링할지 여부를 나타내는 값을 가져오거나 설정합니다. |
+| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | 텍스트를 합자 없이 렌더링할지 여부를 나타내는 값을 가져오거나 설정합니다. |
+| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | 프레젠테이션 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)을(를) 내보낼 때 슬라이드가 페이지에 배치되는 모드를 가져오거나 설정합니다. |
+| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | 프레젠테이션 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)을(를) 내보낼 때 슬라이드가 페이지에 배치되는 모드를 가져오거나 설정합니다. |
 ### Html5Options() {#Html5Options--}
 ```
 public Html5Options()
@@ -83,7 +85,7 @@ public final boolean getAnimateTransitions()
 >  }
 > ```
 
-**반환값:**
+**반환:**
 boolean
 ### setAnimateTransitions(boolean value) {#setAnimateTransitions-boolean-}
 ```
@@ -109,7 +111,7 @@ public final void setAnimateTransitions(boolean value)
 > ```
 
 **매개변수:**
-| 매개변수 | 유형 | 설명 |
+| 매개변수 | 타입 | 설명 |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -118,7 +120,7 @@ public final void setAnimateTransitions(boolean value)
 public final boolean getAnimateShapes()
 ```
 
-형태 애니메이션 옵션을 반환하거나 설정합니다. 읽기/쓰기 boolean.
+도형 애니메이션 옵션을 반환하거나 설정합니다. 읽기/쓰기 boolean.
 
 --------------------
 
@@ -136,14 +138,14 @@ public final boolean getAnimateShapes()
 >  }
 > ```
 
-**반환값:**
+**반환:**
 boolean
 ### setAnimateShapes(boolean value) {#setAnimateShapes-boolean-}
 ```
 public final void setAnimateShapes(boolean value)
 ```
 
-형태 애니메이션 옵션을 반환하거나 설정합니다. 읽기/쓰기 boolean.
+도형 애니메이션 옵션을 반환하거나 설정합니다. 읽기/쓰기 boolean.
 
 --------------------
 
@@ -162,7 +164,7 @@ public final void setAnimateShapes(boolean value)
 > ```
 
 **매개변수:**
-| 매개변수 | 유형 | 설명 |
+| 매개변수 | 타입 | 설명 |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -171,7 +173,7 @@ public final void setAnimateShapes(boolean value)
 public final boolean getEmbedImages()
 ```
 
-이미지 임베딩 옵션을 반환하거나 설정합니다. 읽기/쓰기 boolean.
+이미지 포함 옵션을 반환하거나 설정합니다. 읽기/쓰기 boolean.
 
 --------------------
 
@@ -188,14 +190,14 @@ public final boolean getEmbedImages()
 >  }
 > ```
 
-**반환값:**
+**반환:**
 boolean
 ### setEmbedImages(boolean value) {#setEmbedImages-boolean-}
 ```
 public final void setEmbedImages(boolean value)
 ```
 
-이미지 임베딩 옵션을 반환하거나 설정합니다. 읽기/쓰기 boolean.
+이미지 포함 옵션을 반환하거나 설정합니다. 읽기/쓰기 boolean.
 
 --------------------
 
@@ -213,7 +215,7 @@ public final void setEmbedImages(boolean value)
 > ```
 
 **매개변수:**
-| 매개변수 | 유형 | 설명 |
+| 매개변수 | 타입 | 설명 |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -240,7 +242,7 @@ public final String getOutputPath()
 >  }
 > ```
 
-**반환값:**
+**반환:**
 java.lang.String
 ### setOutputPath(String value) {#setOutputPath-java.lang.String-}
 ```
@@ -266,16 +268,37 @@ public final void setOutputPath(String value)
 > ```
 
 **매개변수:**
-| 매개변수 | 유형 | 설명 |
+| 매개변수 | 타입 | 설명 |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### getPicturesCompression() {#getPicturesCompression--}
+```
+public final int getPicturesCompression()
+```
+
+그림 압축 수준을 나타냅니다
+
+**반환:**
+int
+### setPicturesCompression(int value) {#setPicturesCompression-int-}
+```
+public final void setPicturesCompression(int value)
+```
+
+그림 압축 수준을 나타냅니다
+
+**매개변수:**
+| 매개변수 | 타입 | 설명 |
+| --- | --- | --- |
+| value | int |  |
 
 ### getDisableFontLigatures() {#getDisableFontLigatures--}
 ```
 public final boolean getDisableFontLigatures()
 ```
 
-리그처를 사용하지 않고 텍스트를 렌더링하는지 여부를 나타내는 값을 가져오거나 설정합니다. true로 설정하면 렌더링된 출력에서 리그처가 비활성화됩니다. 기본값은 false로 설정됩니다.
+텍스트를 합자 없이 렌더링할지 여부를 나타내는 값을 가져오거나 설정합니다. true로 설정하면 렌더링 출력에서 합자가 비활성화됩니다. 기본값은 false입니다.
 
 --------------------
 
@@ -285,7 +308,7 @@ public final boolean getDisableFontLigatures()
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      Html5Options options = new Html5Options();
->      options.setDisableFontLigatures(true); // 텍스트 렌더링에서 리그처를 비활성화
+>      options.setDisableFontLigatures(true); // 텍스트 렌더링에서 합자를 비활성화합니다
 > 
 >      pres.save("output.html", SaveFormat.Html5, options);
 >  } finally {
@@ -293,14 +316,14 @@ public final boolean getDisableFontLigatures()
 >  }
 > ```
 
-**반환값:**
+**반환:**
 boolean
 ### setDisableFontLigatures(boolean value) {#setDisableFontLigatures-boolean-}
 ```
 public final void setDisableFontLigatures(boolean value)
 ```
 
-리그처를 사용하지 않고 텍스트를 렌더링하는지 여부를 나타내는 값을 가져오거나 설정합니다. true로 설정하면 렌더링된 출력에서 리그처가 비활성화됩니다. 기본값은 false로 설정됩니다.
+텍스트를 합자 없이 렌더링할지 여부를 나타내는 값을 가져오거나 설정합니다. true로 설정하면 렌더링 출력에서 합자가 비활성화됩니다. 기본값은 false입니다.
 
 --------------------
 
@@ -310,7 +333,7 @@ public final void setDisableFontLigatures(boolean value)
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      Html5Options options = new Html5Options();
->      options.setDisableFontLigatures(true); // 텍스트 렌더링에서 리그처를 비활성화
+>      options.setDisableFontLigatures(true); // 텍스트 렌더링에서 합자를 비활성화합니다
 > 
 >      pres.save("output.html", SaveFormat.Html5, options);
 >  } finally {
@@ -319,7 +342,7 @@ public final void setDisableFontLigatures(boolean value)
 > ```
 
 **매개변수:**
-| 매개변수 | 유형 | 설명 |
+| 매개변수 | 타입 | 설명 |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -328,7 +351,7 @@ public final void setDisableFontLigatures(boolean value)
 public final ISlidesLayoutOptions getSlidesLayoutOptions()
 ```
 
-프레젠테이션을 내보낼 때 슬라이드가 페이지에 배치되는 모드를 가져오거나 설정합니다 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+프레젠테이션 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)을(를) 내보낼 때 슬라이드가 페이지에 배치되는 모드를 가져오거나 설정합니다.
 
 --------------------
 
@@ -348,14 +371,14 @@ public final ISlidesLayoutOptions getSlidesLayoutOptions()
 >  }
 > ```
 
-**반환값:**
+**반환:**
 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)
 ### setSlidesLayoutOptions(ISlidesLayoutOptions value) {#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-}
 ```
 public final void setSlidesLayoutOptions(ISlidesLayoutOptions value)
 ```
 
-프레젠테이션을 내보낼 때 슬라이드가 페이지에 배치되는 모드를 가져오거나 설정합니다 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+프레젠테이션 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)을(를) 내보낼 때 슬라이드가 페이지에 배치되는 모드를 가져오거나 설정합니다.
 
 --------------------
 
@@ -376,6 +399,6 @@ public final void setSlidesLayoutOptions(ISlidesLayoutOptions value)
 > ```
 
 **매개변수:**
-| 매개변수 | 유형 | 설명 |
+| 매개변수 | 타입 | 설명 |
 | --- | --- | --- |
 | value | [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) |  |

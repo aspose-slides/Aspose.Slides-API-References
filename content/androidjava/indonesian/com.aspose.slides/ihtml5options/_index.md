@@ -1,6 +1,6 @@
 ---
 title: IHtml5Options
-second_title: Aspose.Slides untuk Android melalui Referensi API Java
+second_title: Referensi API Java Aspose.Slides untuk Android
 description: Mewakili opsi ekspor HTML5.
 type: docs
 url: /id/com.aspose.slides/ihtml5options/
@@ -41,15 +41,17 @@ Mewakili opsi ekspor HTML5.
 | [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Mengembalikan atau mengatur opsi penyematan gambar. |
 | [getOutputPath()](#getOutputPath--) | Menentukan di mana sumber daya eksternal harus disimpan. |
 | [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Menentukan di mana sumber daya eksternal harus disimpan. |
+| [getPicturesCompression()](#getPicturesCompression--) | Mewakili tingkat kompresi gambar Baca/tulis  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
+| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Mewakili tingkat kompresi gambar Baca/tulis  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
 | [getDisableFontLigatures()](#getDisableFontLigatures--) | Mengambil atau mengatur nilai yang menunjukkan apakah teks dirender tanpa menggunakan ligatur. |
 | [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Mengambil atau mengatur nilai yang menunjukkan apakah teks dirender tanpa menggunakan ligatur. |
 | [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Mengambil atau mengatur mode penempatan slide pada halaman saat mengekspor presentasi [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 | [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Mengambil atau mengatur mode penempatan slide pada halaman saat mengekspor presentasi [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+
 ### getAnimateTransitions() {#getAnimateTransitions--}
 ```
 public abstract boolean getAnimateTransitions()
 ```
-
 
 Mengembalikan atau mengatur opsi animasi transisi. Baca/tulis boolean.
 
@@ -69,13 +71,12 @@ Mengembalikan atau mengatur opsi animasi transisi. Baca/tulis boolean.
 >  }
 > ```
 
-**Mengembalikan:** 
+**Mengembalikan:**
 boolean
 ### setAnimateTransitions(boolean value) {#setAnimateTransitions-boolean-}
 ```
 public abstract void setAnimateTransitions(boolean value)
 ```
-
 
 Mengembalikan atau mengatur opsi animasi transisi. Baca/tulis boolean.
 
@@ -105,7 +106,6 @@ Mengembalikan atau mengatur opsi animasi transisi. Baca/tulis boolean.
 public abstract boolean getAnimateShapes()
 ```
 
-
 Mengembalikan atau mengatur opsi animasi bentuk. Baca/tulis boolean.
 
 --------------------
@@ -124,13 +124,12 @@ Mengembalikan atau mengatur opsi animasi bentuk. Baca/tulis boolean.
 >  }
 > ```
 
-**Mengembalikan:** 
+**Mengembalikan:**
 boolean
 ### setAnimateShapes(boolean value) {#setAnimateShapes-boolean-}
 ```
 public abstract void setAnimateShapes(boolean value)
 ```
-
 
 Mengembalikan atau mengatur opsi animasi bentuk. Baca/tulis boolean.
 
@@ -160,7 +159,6 @@ Mengembalikan atau mengatur opsi animasi bentuk. Baca/tulis boolean.
 public abstract boolean getEmbedImages()
 ```
 
-
 Mengembalikan atau mengatur opsi penyematan gambar. Baca/tulis boolean.
 
 --------------------
@@ -178,13 +176,12 @@ Mengembalikan atau mengatur opsi penyematan gambar. Baca/tulis boolean.
 >  }
 > ```
 
-**Mengembalikan:** 
+**Mengembalikan:**
 boolean
 ### setEmbedImages(boolean value) {#setEmbedImages-boolean-}
 ```
 public abstract void setEmbedImages(boolean value)
 ```
-
 
 Mengembalikan atau mengatur opsi penyematan gambar. Baca/tulis boolean.
 
@@ -213,7 +210,6 @@ Mengembalikan atau mengatur opsi penyematan gambar. Baca/tulis boolean.
 public abstract String getOutputPath()
 ```
 
-
 Menentukan di mana sumber daya eksternal harus disimpan. Baca/tulis String.
 
 --------------------
@@ -232,13 +228,12 @@ Menentukan di mana sumber daya eksternal harus disimpan. Baca/tulis String.
 >  }
 > ```
 
-**Mengembalikan:** 
+**Mengembalikan:**
 java.lang.String
 ### setOutputPath(String value) {#setOutputPath-java.lang.String-}
 ```
 public abstract void setOutputPath(String value)
 ```
-
 
 Menentukan di mana sumber daya eksternal harus disimpan. Baca/tulis String.
 
@@ -263,13 +258,33 @@ Menentukan di mana sumber daya eksternal harus disimpan. Baca/tulis String.
 | --- | --- | --- |
 | value | java.lang.String |  |
 
+### getPicturesCompression() {#getPicturesCompression--}
+```
+public abstract int getPicturesCompression()
+```
+
+Mewakili tingkat kompresi gambar Baca/tulis  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
+
+**Mengembalikan:**
+int
+### setPicturesCompression(int value) {#setPicturesCompression-int-}
+```
+public abstract void setPicturesCompression(int value)
+```
+
+Mewakili tingkat kompresi gambar Baca/tulis  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
+
+**Parameter:**
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| value | int |  |
+
 ### getDisableFontLigatures() {#getDisableFontLigatures--}
 ```
 public abstract boolean getDisableFontLigatures()
 ```
 
-
-Mengambil atau mengatur nilai yang menunjukkan apakah teks dirender tanpa menggunakan ligatur. Jika diatur ke true, ligatur akan dinonaktifkan dalam output yang dirender. Secara default, properti ini diatur ke false.
+Mengambil atau mengatur nilai yang menunjukkan apakah teks dirender tanpa menggunakan ligatur. Saat diatur ke true, ligatur akan dinonaktifkan dalam output yang dirender. Secara default, properti ini disetel ke false.
 
 --------------------
 
@@ -279,7 +294,7 @@ Mengambil atau mengatur nilai yang menunjukkan apakah teks dirender tanpa menggu
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      Html5Options options = new Html5Options();
->      options.setDisableFontLigatures(true); // Nonaktifkan ligatur dalam perenderan teks
+>      options.setDisableFontLigatures(true); // Nonaktifkan ligatur dalam rendering teks
 > 
 >      pres.save("output.html", SaveFormat.Html5, options);
 >  } finally {
@@ -287,15 +302,14 @@ Mengambil atau mengatur nilai yang menunjukkan apakah teks dirender tanpa menggu
 >  }
 > ```
 
-**Mengembalikan:** 
+**Mengembalikan:**
 boolean
 ### setDisableFontLigatures(boolean value) {#setDisableFontLigatures-boolean-}
 ```
 public abstract void setDisableFontLigatures(boolean value)
 ```
 
-
-Mengambil atau mengatur nilai yang menunjukkan apakah teks dirender tanpa menggunakan ligatur. Jika diatur ke true, ligatur akan dinonaktifkan dalam output yang dirender. Secara default, properti ini diatur ke false.
+Mengambil atau mengatur nilai yang menunjukkan apakah teks dirender tanpa menggunakan ligatur. Saat diatur ke true, ligatur akan dinonaktifkan dalam output yang dirender. Secara default, properti ini disetel ke false.
 
 --------------------
 
@@ -305,7 +319,7 @@ Mengambil atau mengatur nilai yang menunjukkan apakah teks dirender tanpa menggu
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      Html5Options options = new Html5Options();
->      options.setDisableFontLigatures(true); // Nonaktifkan ligatur dalam perenderan teks
+>      options.setDisableFontLigatures(true); // Nonaktifkan ligatur dalam rendering teks
 > 
 >      pres.save("output.html", SaveFormat.Html5, options);
 >  } finally {
@@ -322,7 +336,6 @@ Mengambil atau mengatur nilai yang menunjukkan apakah teks dirender tanpa menggu
 ```
 public abstract ISlidesLayoutOptions getSlidesLayoutOptions()
 ```
-
 
 Mengambil atau mengatur mode penempatan slide pada halaman saat mengekspor presentasi [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
@@ -344,13 +357,12 @@ Mengambil atau mengatur mode penempatan slide pada halaman saat mengekspor prese
 >  }
 > ```
 
-**Mengembalikan:** 
+**Mengembalikan:**
 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)
 ### setSlidesLayoutOptions(ISlidesLayoutOptions value) {#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-}
 ```
 public abstract void setSlidesLayoutOptions(ISlidesLayoutOptions value)
 ```
-
 
 Mengambil atau mengatur mode penempatan slide pada halaman saat mengekspor presentasi [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 

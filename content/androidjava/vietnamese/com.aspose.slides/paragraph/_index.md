@@ -1,6 +1,6 @@
 ---
 title: Paragraph
-second_title: Aspose.Slides cho Android qua Tham chiếu API Java
+second_title: Aspose.Slides cho Android thông qua Tham chiếu API Java
 description: Biểu diễn một đoạn văn bản.
 type: docs
 url: /vi/com.aspose.slides/paragraph/
@@ -15,28 +15,30 @@ public final class Paragraph implements IParagraph, IDOMObject
 ```
 
 Biểu diễn một đoạn văn bản.
-## Khởi tạo
+## Hàm tạo
 
-| Constructor | Mô tả |
+| Hàm tạo | Mô tả |
 | --- | --- |
 | [Paragraph()](#Paragraph--) | Khởi tạo một thể hiện mới của lớp Paragraph với các thuộc tính mặc định. |
-| [Paragraph(Paragraph para)](#Paragraph-com.aspose.slides.Paragraph-) | Hàm tạo sao chép khởi tạo một thể hiện mới của một lớp Paragraph. |
+| [Paragraph(Paragraph para)](#Paragraph-com.aspose.slides.Paragraph-) | Hàm khởi tạo sao chép, khởi tạo một thể hiện mới của lớp Paragraph. |
 ## Phương thức
 
 | Phương thức | Mô tả |
 | --- | --- |
-| [getPortions()](#getPortions--) | Trả về bộ sưu tập các đoạn văn bản. |
+| [getPortions()](#getPortions--) | Trả về tập hợp các phần văn bản. |
 | [getParagraphFormat()](#getParagraphFormat--) | Trả về đối tượng định dạng cho đoạn văn này. |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Nối các đoạn có cùng định dạng. |
-| [getText()](#getText--) | Lấy hoặc đặt văn bản thuần của một đoạn. |
-| [setText(String value)](#setText-java.lang.String-) | Lấy hoặc đặt văn bản thuần của một đoạn. |
-| [getRect()](#getRect--) | Lấy tọa độ của hình chữ nhật bao quanh đoạn. |
-| [getLinesCount()](#getLinesCount--) | Lấy số dòng trong một đoạn. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Ghép các đoạn chạy có cùng định dạng. |
+| [getText()](#getText--) | Lấy hoặc đặt văn bản thuần của một đoạn văn. |
+| [setText(String value)](#setText-java.lang.String-) | Lấy hoặc đặt văn bản thuần của một đoạn văn. |
+| [getRect()](#getRect--) | Lấy tọa độ của hình chữ nhật bao quanh đoạn văn. |
+| [getLinesCount()](#getLinesCount--) | Lấy số dòng trong một đoạn văn. |
+| [getImage()](#getImage--) | Trả về hình ảnh của đoạn văn. |
+| [getImage(float scaleX, float scaleY)](#getImage-float-float-) | Trả về hình ảnh của đoạn văn với tỷ lệ được chỉ định. |
 | [getEndParagraphPortionFormat()](#getEndParagraphPortionFormat--) | Xác định các thuộc tính phần sẽ được sử dụng nếu một phần khác được chèn sau phần cuối cùng. |
 | [setEndParagraphPortionFormat(IPortionFormat value)](#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-) | Xác định các thuộc tính phần sẽ được sử dụng nếu một phần khác được chèn sau phần cuối cùng. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-| [getSlide()](#getSlide--) | Trả về slide cha của một đoạn. |
-| [getPresentation()](#getPresentation--) | Trả về bản trình bày cha của một đoạn. |
+| [getSlide()](#getSlide--) | Trả về slide cha của một đoạn văn. |
+| [getPresentation()](#getPresentation--) | Trả về bản trình bày cha của một đoạn văn. |
 ### Paragraph() {#Paragraph--}
 ```
 public Paragraph()
@@ -49,7 +51,7 @@ Khởi tạo một thể hiện mới của lớp Paragraph với các thuộc t
 public Paragraph(Paragraph para)
 ```
 
-Hàm tạo sao chép khởi tạo một thể hiện mới của lớp Paragraph.
+Hàm khởi tạo sao chép, khởi tạo một thể hiện mới của lớp Paragraph.
 
 **Tham số:**
 | Tham số | Kiểu | Mô tả |
@@ -61,7 +63,7 @@ Hàm tạo sao chép khởi tạo một thể hiện mới của lớp Paragraph
 public final IPortionCollection getPortions()
 ```
 
-Trả về bộ sưu tập các đoạn văn bản. Chỉ đọc [IPortionCollection](../../com.aspose.slides/iportioncollection).
+Trả về tập hợp các phần văn bản. Chỉ đọc [IPortionCollection](../../com.aspose.slides/iportioncollection).
 
 **Trả về:**
 [IPortionCollection](../../com.aspose.slides/iportioncollection)
@@ -74,9 +76,9 @@ Trả về đối tượng định dạng cho đoạn văn này. Chỉ đọc [I
 
 --------------------
 
-Đối tượng định dạng chứa các tham số định dạng được định nghĩa chỉ cho đoạn hiện tại, dữ liệu kế thừa không được áp dụng.
+Đối tượng định dạng chứa các tham số định dạng được định nghĩa cho đoạn văn hiện tại chỉ, dữ liệu kế thừa không được áp dụng.
 
-Để lấy các giá trị hiệu lực bao gồm cả những giá trị kế thừa, hãy sử dụng phương thức [ParagraphFormat.getEffective](../../com.aspose.slides/paragraphformat\#getEffective).
+Để lấy các giá trị hiệu quả bao gồm các giá trị kế thừa, hãy sử dụng phương thức [ParagraphFormat.getEffective](../../com.aspose.slides/paragraphformat\#getEffective).
 
 **Trả về:**
 [IParagraphFormat](../../com.aspose.slides/iparagraphformat)
@@ -85,14 +87,14 @@ Trả về đối tượng định dạng cho đoạn văn này. Chỉ đọc [I
 public final void joinPortionsWithSameFormatting()
 ```
 
-Nối các đoạn có cùng định dạng.
+Ghép các đoạn chạy có cùng định dạng.
 
 ### getText() {#getText--}
 ```
 public final String getText()
 ```
 
-Lấy hoặc đặt văn bản thuần của một đoạn. Đọc/ghi String.
+Lấy hoặc đặt văn bản thuần của một đoạn văn. Đọc/ghi String.
 
 Giá trị: Văn bản.
 
@@ -103,7 +105,7 @@ java.lang.String
 public final void setText(String value)
 ```
 
-Lấy hoặc đặt văn bản thuần của một đoạn. Đọc/ghi String.
+Lấy hoặc đặt văn bản thuần của một đoạn văn. Đọc/ ghi String.
 
 Giá trị: Văn bản.
 
@@ -117,7 +119,7 @@ Giá trị: Văn bản.
 public final RectF getRect()
 ```
 
-Lấy tọa độ của hình chữ nhật bao quanh đoạn. Hình chữ nhật bao gồm tất cả các dòng văn bản trong đoạn, kể cả các dòng trống.
+Lấy tọa độ của hình chữ nhật bao quanh đoạn văn. Hình chữ nhật bao gồm tất cả các dòng văn bản trong đoạn, kể cả các dòng trống.
 
 **Trả về:**
 android.graphics.RectF
@@ -126,7 +128,7 @@ android.graphics.RectF
 public final int getLinesCount()
 ```
 
-Lấy số dòng trong một đoạn.
+Lấy số dòng trong một đoạn văn.
 
 --------------------
 
@@ -147,7 +149,89 @@ Lấy số dòng trong một đoạn.
 > ```
 
 **Trả về:**
-int - Số dòng trong một đoạn
+int - Số dòng trong một đoạn văn
+### getImage() {#getImage--}
+```
+public final IImage getImage()
+```
+
+Trả về hình ảnh của đoạn văn.
+
+--------------------
+
+> ```
+> The following example shows how to render a paragraph as an image:
+>   
+>  Presentation pres = new Presentation();
+>  try {
+>      IAutoShape shape = pres.getSlides().get_Item(0).getShapes().addAutoShape(
+>          ShapeType.Rectangle, 50, 50, 150, 50);
+>      IParagraph paragraph = shape.getTextFrame().getParagraphs().get_Item(0);
+>      paragraph.setText("Aspose Paragraph GetImage() Example");
+>      IImage paragraphImage = paragraph.getImage();
+>      try {
+>          paragraphImage.save("paragraph.png");
+>      } finally {
+>          if (paragraphImage != null) paragraphImage.dispose();
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Trả về:**
+[IImage](../../com.aspose.slides/iimage) - Một hình ảnh chứa đoạn văn đã được render, hoặc null nếu đoạn văn không thể tìm thấy trong bộ sưu tập cha, không có giới hạn render hợp lệ, hoặc xảy ra lỗi khi render hình ảnh.
+### getImage(float scaleX, float scaleY) {#getImage-float-float-}
+```
+public final IImage getImage(float scaleX, float scaleY)
+```
+
+Trả về hình ảnh của đoạn văn với tỷ lệ được chỉ định.
+
+--------------------
+
+> ```
+> Ví dụ sau đây cho thấy cách render mỗi đoạn văn trong hộp văn bản trên một slide thành hình ảnh với tỷ lệ tùy chỉnh:
+>   
+>  Presentation pres = new Presentation("sample.pptx");
+>  try {
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      int shapeIndex = 0;
+>      for (IShape shape : slide.getShapes())
+>      {
+>          shapeIndex++;
+>          if (shape instanceof IAutoShape) {
+>              IAutoShape autoShape = (IAutoShape)shape;
+>              int paragraphIndex = 0;
+>              for (IParagraph paragraph : autoShape.getTextFrame().getParagraphs())
+>              {
+>                  paragraphIndex++;
+>                  IImage paragraphImage = paragraph.getImage(2f, 2f);
+>                  try {
+>                      if (paragraphImage != null)
+>                          paragraphImage.save("shape"+shapeIndex+"_paragraph"+paragraphIndex+".png");
+> 
+>                  } finally {
+>                      if (paragraphImage != null) paragraphImage.dispose();
+>                  }
+>              }
+>          }
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Tham số:**
+| Tham số | Kiểu | Mô tả |
+| --- | --- | --- |
+| scaleX | float | Hệ số tỷ lệ ngang được áp dụng cho hình ảnh đoạn văn. |
+| scaleY | float | Hệ số tỷ lệ dọc được áp dụng cho hình ảnh đoạn văn. |
+
+**Trả về:**
+[IImage](../../com.aspose.slides/iimage) - Một hình ảnh chứa đoạn văn đã được render, hoặc null nếu đoạn văn không thể tìm thấy trong bộ sưu tập cha, không có giới hạn render hợp lệ, hoặc xảy ra lỗi khi render hình ảnh.
 ### getEndParagraphPortionFormat() {#getEndParagraphPortionFormat--}
 ```
 public final IPortionFormat getEndParagraphPortionFormat()
@@ -183,7 +267,7 @@ com.aspose.slides.IDOMObject
 public final IBaseSlide getSlide()
 ```
 
-Trả về slide cha của một đoạn. Chỉ đọc [BaseSlide](../../com.aspose.slides/baseslide).
+Trả về slide cha của một đoạn văn. Chỉ đọc [BaseSlide](../../com.aspose.slides/baseslide).
 
 **Trả về:**
 [IBaseSlide](../../com.aspose.slides/ibaseslide)
@@ -192,7 +276,7 @@ Trả về slide cha của một đoạn. Chỉ đọc [BaseSlide](../../com.asp
 public final IPresentation getPresentation()
 ```
 
-Trả về bản trình bày cha của một đoạn. Chỉ đọc [IPresentation](../../com.aspose.slides/ipresentation).
+Trả về bản trình bày cha của một đoạn văn. Chỉ đọc [IPresentation](../../com.aspose.slides/ipresentation).
 
 **Trả về:**
 [IPresentation](../../com.aspose.slides/ipresentation)

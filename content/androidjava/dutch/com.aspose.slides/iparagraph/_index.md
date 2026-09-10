@@ -1,7 +1,7 @@
 ---
 title: IParagraph
 second_title: Aspose.Slides voor Android via Java API-referentie
-description: Vertegenwoordigt een alinea van tekst.
+description: Stelt een alinea van een tekst voor.
 type: docs
 url: /nl/com.aspose.slides/iparagraph/
 ---
@@ -11,29 +11,31 @@ url: /nl/com.aspose.slides/iparagraph/
 public interface IParagraph extends ISlideComponent
 ```
 
-Vertegenwoordigt een alinea van tekst.
+Stelt een alinea van een tekst voor.
 ## Methoden
 
 | Methode | Beschrijving |
 | --- | --- |
-| [getPortions()](#getPortions--) | Geeft de collectie van tekstgedeelten terug. |
-| [getParagraphFormat()](#getParagraphFormat--) | Geeft het opmaakobject voor deze alinea terug. |
+| [getPortions()](#getPortions--) | Retourneert de verzameling van tekstdelen. |
+| [getParagraphFormat()](#getParagraphFormat--) | Retourneert het opmaakobject voor deze alinea. |
 | [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Voegt runs samen met dezelfde opmaak. |
-| [getText()](#getText--) | Haalt de platte tekst van een alinea op of stelt deze in. |
-| [setText(String value)](#setText-java.lang.String-) | Haalt de platte tekst van een alinea op of stelt deze in. |
-| [getRect()](#getRect--) | Haal de coördinaten op van de rechthoek die de alinea begrenst. |
-| [getLinesCount()](#getLinesCount--) | Haal het aantal regels in een alinea op. |
-| [getEndParagraphPortionFormat()](#getEndParagraphPortionFormat--) | Specificeert de gedeelte-eigenschappen die moeten worden gebruikt als een ander gedeelte wordt ingevoegd na het laatste. |
-| [setEndParagraphPortionFormat(IPortionFormat value)](#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-) | Specificeert de gedeelte-eigenschappen die moeten worden gebruikt als een ander gedeelte wordt ingevoegd na het laatste. |
+| [getText()](#getText--) | Haalt of stelt de platte tekst van een alinea in. |
+| [setText(String value)](#setText-java.lang.String-) | Haalt of stelt de platte tekst van een alinea in. |
+| [getRect()](#getRect--) | Haalt de coördinaten op van de rechthoek die de alinea begrenst. |
+| [getLinesCount()](#getLinesCount--) | Haalt het aantal regels op in een alinea. |
+| [getImage()](#getImage--) | Retourneert een afbeelding van de alinea. |
+| [getImage(float scaleX, float scaleY)](#getImage-float-float-) | Retourneert een afbeelding van de alinea met de opgegeven schaal. |
+| [getEndParagraphPortionFormat()](#getEndParagraphPortionFormat--) | Specificeert de deel-eigenschappen die moeten worden gebruikt als een ander deel na het laatste wordt ingevoegd. |
+| [setEndParagraphPortionFormat(IPortionFormat value)](#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-) | Specificeert de deel-eigenschappen die moeten worden gebruikt als een ander deel na het laatste wordt ingevoegd. |
 ### getPortions() {#getPortions--}
 ```
 public abstract IPortionCollection getPortions()
 ```
 
 
-Geeft de collectie van tekstgedeelten terug. Alleen-lezen [IPortionCollection](../../com.aspose.slides/iportioncollection).
+Retourneert de verzameling van tekstdelen. Alleen-lezen [IPortionCollection](../../com.aspose.slides/iportioncollection).
 
-**Retourneert:**
+**Retour:**
 [IPortionCollection](../../com.aspose.slides/iportioncollection)
 ### getParagraphFormat() {#getParagraphFormat--}
 ```
@@ -41,9 +43,9 @@ public abstract IParagraphFormat getParagraphFormat()
 ```
 
 
-Geeft het opmaakobject voor deze alinea terug. Alleen-lezen [IParagraphFormat](../../com.aspose.slides/iparagraphformat).
+Retourneert het opmaakobject voor deze alinea. Alleen-lezen [IParagraphFormat](../../com.aspose.slides/iparagraphformat).
 
-**Retourneert:**
+**Retour:**
 [IParagraphFormat](../../com.aspose.slides/iparagraphformat)
 ### joinPortionsWithSameFormatting() {#joinPortionsWithSameFormatting--}
 ```
@@ -59,11 +61,11 @@ public abstract String getText()
 ```
 
 
-Haalt de platte tekst van een alinea op of stelt deze in. Lezen/schrijven String.
+Haalt of stelt de platte tekst van een alinea in. Lezen/Schrijven String.
 
 Waarde: De tekst.
 
-**Retourneert:**
+**Retour:**
 java.lang.String
 ### setText(String value) {#setText-java.lang.String-}
 ```
@@ -71,7 +73,7 @@ public abstract void setText(String value)
 ```
 
 
-Haalt de platte tekst van een alinea op of stelt deze in. Lezen/schrijven String.
+Haalt of stelt de platte tekst van een alinea in. Lezen/Schrijven String.
 
 Waarde: De tekst.
 
@@ -86,9 +88,9 @@ public abstract RectF getRect()
 ```
 
 
-Haal de coördinaten op van de rechthoek die de alinea begrenst. De rechthoek omvat alle regels tekst in de alinea, inclusief lege regels.
+Haalt de coördinaten op van de rechthoek die de alinea begrenst. De rechthoek omvat alle tekstregels in de alinea, inclusief lege.
 
-**Retourneert:**
+**Retour:**
 android.graphics.RectF - Rechthoek die de alinea begrenst android.graphics.RectF
 ### getLinesCount() {#getLinesCount--}
 ```
@@ -96,7 +98,7 @@ public abstract int getLinesCount()
 ```
 
 
-Haal het aantal regels in een alinea op.
+Haalt het aantal regels op in een alinea.
 
 --------------------
 
@@ -116,17 +118,102 @@ Haal het aantal regels in een alinea op.
 >  }
 > ```
 
-**Retourneert:**
+
+**Retour:**
 int - Aantal regels in een alinea
+### getImage() {#getImage--}
+```
+public abstract IImage getImage()
+```
+
+
+Retourneert een afbeelding van de alinea.
+
+--------------------
+
+> ```
+> The following example shows how to render a paragraph as an image:
+>   
+>  Presentation pres = new Presentation();
+>  try {
+>      IAutoShape shape = pres.getSlides().get_Item(0).getShapes().addAutoShape(
+>          ShapeType.Rectangle, 50, 50, 150, 50);
+>      IParagraph paragraph = shape.getTextFrame().getParagraphs().get_Item(0);
+>      paragraph.setText("Aspose Paragraph GetImage() Example");
+>      IImage paragraphImage = paragraph.getImage();
+>      try {
+>          paragraphImage.save("paragraph.png");
+>      } finally {
+>          if (paragraphImage != null) paragraphImage.dispose();
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Retour:**
+[IImage](../../com.aspose.slides/iimage) - Een afbeelding die de gerenderde alinea bevat, of null als de alinea niet kan worden gevonden in de bovenliggende verzameling, geen geldige renderbounds heeft, of er een fout optreedt tijdens het renderen van de afbeelding.
+### getImage(float scaleX, float scaleY) {#getImage-float-float-}
+```
+public abstract IImage getImage(float scaleX, float scaleY)
+```
+
+
+Retourneert een afbeelding van de alinea met de opgegeven schaal.
+
+--------------------
+
+> ```
+> The following example shows how to render each text box paragraph on a slide as an image with custom scaling:
+>   
+>  Presentation pres = new Presentation("sample.pptx");
+>  try {
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      int shapeIndex = 0;
+>      for (IShape shape : slide.getShapes())
+>      {
+>          shapeIndex++;
+>          if (shape instanceof IAutoShape) {
+>              IAutoShape autoShape = (IAutoShape)shape;
+>              int paragraphIndex = 0;
+>              for (IParagraph paragraph : autoShape.getTextFrame().getParagraphs())
+>              {
+>                  paragraphIndex++;
+>                  IImage paragraphImage = paragraph.getImage(2f, 2f);
+>                  try {
+>                      if (paragraphImage != null)
+>                          paragraphImage.save("shape"+shapeIndex+"_paragraph"+paragraphIndex+".png");
+> 
+>                  } finally {
+>                      if (paragraphImage != null) paragraphImage.dispose();
+>                  }
+>              }
+>          }
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Parameters:**
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| scaleX | float | De horizontale schaalfactor die op de alinea-afbeelding wordt toegepast. |
+| scaleY | float | De verticale schaalfactor die op de alinea-afbeelding wordt toegepast. |
+
+**Retour:**
+[IImage](../../com.aspose.slides/iimage) - Een afbeelding die de gerenderde alinea bevat, of null als de alinea niet kan worden gevonden in de bovenliggende verzameling, geen geldige renderbounds heeft, of er een fout optreedt tijdens het renderen van de afbeelding.
 ### getEndParagraphPortionFormat() {#getEndParagraphPortionFormat--}
 ```
 public abstract IPortionFormat getEndParagraphPortionFormat()
 ```
 
 
-Specificeert de gedeelte-eigenschappen die moeten worden gebruikt als een ander gedeelte wordt ingevoegd na het laatste.
+Specificeert de deel-eigenschappen die moeten worden gebruikt als een ander deel na het laatste wordt ingevoegd.
 
-**Retourneert:**
+**Retour:**
 [IPortionFormat](../../com.aspose.slides/iportionformat)
 ### setEndParagraphPortionFormat(IPortionFormat value) {#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-}
 ```
@@ -134,7 +221,7 @@ public abstract void setEndParagraphPortionFormat(IPortionFormat value)
 ```
 
 
-Specificeert de gedeelte-eigenschappen die moeten worden gebruikt als een ander gedeelte wordt ingevoegd na het laatste.
+Specificeert de deel-eigenschappen die moeten worden gebruikt als een ander deel na het laatste wordt ingevoegd.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

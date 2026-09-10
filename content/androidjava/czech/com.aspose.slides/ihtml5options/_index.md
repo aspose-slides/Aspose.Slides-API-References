@@ -1,17 +1,17 @@
 ---
 title: IHtml5Options
-second_title: Aspose.Slides pro Android přes Java API Reference
-description: Reprezentuje možnosti exportu do HTML5.
+second_title: Aspose.Slides pro Android pomocí Java API Reference
+description: Představuje možnosti exportu do HTML5.
 type: docs
 url: /cs/com.aspose.slides/ihtml5options/
 ---
-**All Implemented Interfaces:**
+**Všechny implementované rozhraní:**
 [com.aspose.slides.ISaveOptions](../../com.aspose.slides/isaveoptions)
 ```
 public interface IHtml5Options extends ISaveOptions
 ```
 
-Represents a HTML5 exporting options.
+Představuje možnosti exportu do HTML5.
 
 --------------------
 
@@ -39,19 +39,21 @@ Represents a HTML5 exporting options.
 | [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Vrací nebo nastavuje možnost animace tvarů. |
 | [getEmbedImages()](#getEmbedImages--) | Vrací nebo nastavuje možnost vkládání obrázků. |
 | [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Vrací nebo nastavuje možnost vkládání obrázků. |
-| [getOutputPath()](#getOutputPath--) | Určuje, kde mají být uloženy externí zdroje. |
-| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Určuje, kde mají být uloženy externí zdroje. |
-| [getDisableFontLigatures()](#getDisableFontLigatures--) | Získává nebo nastavuje hodnotu indikující, zda je text vykreslován bez použití ligatur. |
-| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Získává nebo nastavuje hodnotu indikující, zda je text vykreslován bez použití ligatur. |
+| [getOutputPath()](#getOutputPath--) | Určuje, kde by měly být uloženy externí zdroje. |
+| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Určuje, kde by měly být uloženy externí zdroje. |
+| [getPicturesCompression()](#getPicturesCompression--) | Představuje úroveň komprese obrázků Čtení/Zápis  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
+| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Představuje úroveň komprese obrázků Čtení/Zápis  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
+| [getDisableFontLigatures()](#getDisableFontLigatures--) | Získává nebo nastavuje hodnotu určující, zda je text vykreslován bez použití ligatur. |
+| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Získává nebo nastavuje hodnotu určující, zda je text vykreslován bez použití ligatur. |
 | [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Získává nebo nastavuje režim, ve kterém jsou snímky umístěny na stránce při exportu prezentace [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 | [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Získává nebo nastavuje režim, ve kterém jsou snímky umístěny na stránce při exportu prezentace [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
-
 ### getAnimateTransitions() {#getAnimateTransitions--}
 ```
 public abstract boolean getAnimateTransitions()
 ```
 
-Vrací nebo nastavuje možnost animace přechodů. Čtení/zápis boolean.
+
+Vrací nebo nastavuje možnost animace přechodů. Čtení/Zápis boolean.
 
 --------------------
 
@@ -69,14 +71,15 @@ Vrací nebo nastavuje možnost animace přechodů. Čtení/zápis boolean.
 >  }
 > ```
 
-**Vrací:**
+**Vrací:** 
 boolean
 ### setAnimateTransitions(boolean value) {#setAnimateTransitions-boolean-}
 ```
 public abstract void setAnimateTransitions(boolean value)
 ```
 
-Vrací nebo nastavuje možnost animace přechodů. Čtení/zápis boolean.
+
+Vrací nebo nastavuje možnost animace přechodů. Čtení/Zápis boolean.
 
 --------------------
 
@@ -104,7 +107,8 @@ Vrací nebo nastavuje možnost animace přechodů. Čtení/zápis boolean.
 public abstract boolean getAnimateShapes()
 ```
 
-Vrací nebo nastavuje možnost animace tvarů. Čtení/zápis boolean.
+
+Vrací nebo nastavuje možnost animace tvarů. Čtení/Zápis boolean.
 
 --------------------
 
@@ -122,14 +126,12 @@ Vrací nebo nastavuje možnost animace tvarů. Čtení/zápis boolean.
 >  }
 > ```
 
-**Vrací:**
+**Vrací:** 
 boolean
 ### setAnimateShapes(boolean value) {#setAnimateShapes-boolean-}
 ```
 public abstract void setAnimateShapes(boolean value)
 ```
-
-Vrací nebo nastavuje možnost animace tvarů. Čtení/zápis boolean.
 
 --------------------
 
@@ -157,7 +159,8 @@ Vrací nebo nastavuje možnost animace tvarů. Čtení/zápis boolean.
 public abstract boolean getEmbedImages()
 ```
 
-Vrací nebo nastavuje možnost vkládání obrázků. Čtení/zápis boolean.
+
+Vrací nebo nastavuje možnost vkládání obrázků. Čtení/Zápis boolean.
 
 --------------------
 
@@ -174,14 +177,12 @@ Vrací nebo nastavuje možnost vkládání obrázků. Čtení/zápis boolean.
 >  }
 > ```
 
-**Vrací:**
+**Vrací:** 
 boolean
 ### setEmbedImages(boolean value) {#setEmbedImages-boolean-}
 ```
 public abstract void setEmbedImages(boolean value)
 ```
-
-Vrací nebo nastavuje možnost vkládání obrázků. Čtení/zápis boolean.
 
 --------------------
 
@@ -208,7 +209,8 @@ Vrací nebo nastavuje možnost vkládání obrázků. Čtení/zápis boolean.
 public abstract String getOutputPath()
 ```
 
-Určuje, kde mají být uloženy externí zdroje. Čtení/zápis String.
+
+Určuje, kde by měly být uloženy externí zdroje. Čtení/Zápis String.
 
 --------------------
 
@@ -226,15 +228,12 @@ Určuje, kde mají být uloženy externí zdroje. Čtení/zápis String.
 >  }
 > ```
 
-
-**Vrací:**
+**Vrací:** 
 java.lang.String
 ### setOutputPath(String value) {#setOutputPath-java.lang.String-}
 ```
 public abstract void setOutputPath(String value)
 ```
-
-Určuje, kde mají být uloženy externí zdroje. Čtení/zápis String.
 
 --------------------
 
@@ -257,12 +256,33 @@ Určuje, kde mají být uloženy externí zdroje. Čtení/zápis String.
 | --- | --- | --- |
 | value | java.lang.String |  |
 
+### getPicturesCompression() {#getPicturesCompression--}
+```
+public abstract int getPicturesCompression()
+```
+
+Představuje úroveň komprese obrázků Čtení/Zápis  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
+
+**Vrací:** 
+int
+### setPicturesCompression(int value) {#setPicturesCompression-int-}
+```
+public abstract void setPicturesCompression(int value)
+```
+
+Představuje úroveň komprese obrázků Čtení/Zápis  PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
+
+**Parametry:**
+| Parametr | Typ | Popis |
+| --- | --- | --- |
+| value | int |  |
+
 ### getDisableFontLigatures() {#getDisableFontLigatures--}
 ```
 public abstract boolean getDisableFontLigatures()
 ```
 
-Získává nebo nastavuje hodnotu indikující, zda je text vykreslován bez použití ligatur. Pokud je nastaveno na true, ligatury budou ve výstupu zakázány. Ve výchozím nastavení je tato vlastnost nastavena na false.
+Získává nebo nastavuje hodnotu určující, zda je text vykreslován bez použití ligatur. Pokud je nastaveno na true, ligatury budou ve výstupu zakázány. Ve výchozím nastavení je tato vlastnost nastavena na false.
 
 --------------------
 
@@ -272,7 +292,7 @@ Získává nebo nastavuje hodnotu indikující, zda je text vykreslován bez pou
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      Html5Options options = new Html5Options();
->      options.setDisableFontLigatures(true); // Zakázat ligatury ve vykreslování textu
+>      options.setDisableFontLigatures(true); // Zakázat ligatury při vykreslování textu
 > 
 >      pres.save("output.html", SaveFormat.Html5, options);
 >  } finally {
@@ -280,14 +300,12 @@ Získává nebo nastavuje hodnotu indikující, zda je text vykreslován bez pou
 >  }
 > ```
 
-**Vrací:**
+**Vrací:** 
 boolean
 ### setDisableFontLigatures(boolean value) {#setDisableFontLigatures-boolean-}
 ```
 public abstract void setDisableFontLigatures(boolean value)
 ```
-
-Získává nebo nastavuje hodnotu indikující, zda je text vykreslován bez použití ligatur. Pokud je nastaveno na true, ligatury budou ve výstupu zakázány. Ve výchozím nastavení je tato vlastnost nastavena na false.
 
 --------------------
 
@@ -335,7 +353,7 @@ Získává nebo nastavuje režim, ve kterém jsou snímky umístěny na stránce
 >  }
 > ```
 
-**Vrací:**
+**Vrací:** 
 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)
 ### setSlidesLayoutOptions(ISlidesLayoutOptions value) {#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-}
 ```

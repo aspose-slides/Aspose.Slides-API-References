@@ -1,6 +1,6 @@
 ---
 title: Paragraph
-second_title: Aspose.Slides untuk Android melalui Referensi API Java
+second_title: Aspose.Slides untuk Android via Referensi API Java
 description: Mewakili sebuah paragraf teks.
 type: docs
 url: /id/com.aspose.slides/paragraph/
@@ -19,19 +19,21 @@ Mewakili sebuah paragraf teks.
 
 | Konstruktor | Deskripsi |
 | --- | --- |
-| [Paragraph()](#Paragraph--) | Menginisialisasi instance baru dari kelas Paragraph dengan properti default. |
-| [Paragraph(Paragraph para)](#Paragraph-com.aspose.slides.Paragraph-) | Konstruktor salin yang menginisialisasi instance baru dari kelas Paragraph. |
+| [Paragraph()](#Paragraph--) | Menginisialisasi sebuah instance baru dari kelas Paragraph dengan properti default. |
+| [Paragraph(Paragraph para)](#Paragraph-com.aspose.slides.Paragraph-) | Konstruktor penyalinan yang menginisialisasi sebuah instance baru dari kelas Paragraph. |
 ## Metode
 
 | Metode | Deskripsi |
 | --- | --- |
 | [getPortions()](#getPortions--) | Mengembalikan koleksi bagian teks. |
 | [getParagraphFormat()](#getParagraphFormat--) | Mengembalikan objek format untuk paragraf ini. |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Menggabungkan run dengan format yang sama. |
-| [getText()](#getText--) | Mendapatkan atau mengatur teks biasa dari sebuah paragraf. |
-| [setText(String value)](#setText-java.lang.String-) | Mendapatkan atau mengatur teks biasa dari sebuah paragraf. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Menggabungkan run dengan pemformatan yang sama. |
+| [getText()](#getText--) | Mendapatkan atau menetapkan teks polos dari sebuah paragraf. |
+| [setText(String value)](#setText-java.lang.String-) | Mendapatkan atau menetapkan teks polos dari sebuah paragraf. |
 | [getRect()](#getRect--) | Mendapatkan koordinat rect yang membatasi paragraf. |
-| [getLinesCount()](#getLinesCount--) | Mendapatkan jumlah baris dalam paragraf. |
+| [getLinesCount()](#getLinesCount--) | Mendapatkan jumlah baris dalam sebuah paragraf. |
+| [getImage()](#getImage--) | Mengembalikan gambar paragraf. |
+| [getImage(float scaleX, float scaleY)](#getImage-float-float-) | Mengembalikan gambar paragraf dengan skala yang ditentukan. |
 | [getEndParagraphPortionFormat()](#getEndParagraphPortionFormat--) | Menentukan properti bagian yang akan digunakan jika bagian lain disisipkan setelah yang terakhir. |
 | [setEndParagraphPortionFormat(IPortionFormat value)](#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-) | Menentukan properti bagian yang akan digunakan jika bagian lain disisipkan setelah yang terakhir. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
@@ -42,25 +44,29 @@ Mewakili sebuah paragraf teks.
 public Paragraph()
 ```
 
-Menginisialisasi instance baru dari kelas Paragraph dengan properti default.
+
+Menginisialisasi sebuah instance baru dari kelas Paragraph dengan properti default.
 
 ### Paragraph(Paragraph para) {#Paragraph-com.aspose.slides.Paragraph-}
 ```
 public Paragraph(Paragraph para)
 ```
 
-Konstruktor salin yang menginisialisasi instance baru dari kelas Paragraph.
+
+Konstruktor penyalinan yang menginisialisasi sebuah instance baru dari kelas Paragraph.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | para | [Paragraph](../../com.aspose.slides/paragraph) |  |
+
 ### getPortions() {#getPortions--}
 ```
 public final IPortionCollection getPortions()
 ```
 
-Mengembalikan koleksi bagian teks. Baca-saja [IPortionCollection](../../com.aspose.slides/iportioncollection).
+
+Mengembalikan koleksi bagian teks. Hanya Baca [IPortionCollection](../../com.aspose.slides/iportioncollection).
 
 **Mengembalikan:**
 [IPortionCollection](../../com.aspose.slides/iportioncollection)
@@ -69,11 +75,12 @@ Mengembalikan koleksi bagian teks. Baca-saja [IPortionCollection](../../com.aspo
 public final IParagraphFormat getParagraphFormat()
 ```
 
-Mengembalikan objek format untuk paragraf ini. Baca-saja [IParagraphFormat](../../com.aspose.slides/iparagraphformat).
+
+Mengembalikan objek format untuk paragraf ini. Hanya Baca [IParagraphFormat](../../com.aspose.slides/iparagraphformat).
 
 --------------------
 
-Objek format berisi parameter format yang didefinisikan hanya untuk paragraf saat ini, data yang diwariskan tidak diterapkan.
+Objek format berisi parameter format yang hanya didefinisikan untuk paragraf saat ini, data yang diwariskan tidak diterapkan.
 
 Untuk mendapatkan nilai efektif termasuk yang diwariskan, gunakan metode [ParagraphFormat.getEffective](../../com.aspose.slides/paragraphformat\#getEffective).
 
@@ -84,16 +91,18 @@ Untuk mendapatkan nilai efektif termasuk yang diwariskan, gunakan metode [Paragr
 public final void joinPortionsWithSameFormatting()
 ```
 
-Menggabungkan run dengan format yang sama.
+
+Menggabungkan run dengan pemformatan yang sama.
 
 ### getText() {#getText--}
 ```
 public final String getText()
 ```
 
-Mendapatkan atau mengatur teks biasa dari sebuah paragraf. Baca/tulis String.
 
-Value: Teks.
+Mendapatkan atau menetapkan teks polos dari sebuah paragraf. Baca/Tulis String.
+
+Nilai: Teks.
 
 **Mengembalikan:**
 java.lang.String
@@ -102,18 +111,21 @@ java.lang.String
 public final void setText(String value)
 ```
 
-Mendapatkan atau mengatur teks biasa dari sebuah paragraf. Baca/tulis String.
 
-Value: Teks.
+Mendapatkan atau menetapkan teks polos dari sebuah paragraf. Baca/Tulis String.
+
+Nilai: Teks.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
 ### getRect() {#getRect--}
 ```
 public final RectF getRect()
 ```
+
 
 Mendapatkan koordinat rect yang membatasi paragraf. Rect mencakup semua baris teks dalam paragraf, termasuk yang kosong.
 
@@ -124,7 +136,8 @@ android.graphics.RectF
 public final int getLinesCount()
 ```
 
-Mendapatkan jumlah baris dalam paragraf.
+
+Mendapatkan jumlah baris dalam sebuah paragraf.
 
 --------------------
 
@@ -144,13 +157,95 @@ Mendapatkan jumlah baris dalam paragraf.
 >  }
 > ```
 
+**Mengembalikan:**
+int - Jumlah baris dalam sebuah paragraf
+### getImage() {#getImage--}
+```
+public final IImage getImage()
+```
+
+
+Mengembalikan gambar paragraf.
+
+--------------------
+
+> ```
+> The following example shows how to render a paragraph as an image:
+>   
+>  Presentation pres = new Presentation();
+>  try {
+>      IAutoShape shape = pres.getSlides().get_Item(0).getShapes().addAutoShape(
+>          ShapeType.Rectangle, 50, 50, 150, 50);
+>      IParagraph paragraph = shape.getTextFrame().getParagraphs().get_Item(0);
+>      paragraph.setText("Aspose Paragraph GetImage() Example");
+>      IImage paragraphImage = paragraph.getImage();
+>      try {
+>          paragraphImage.save("paragraph.png");
+>      } finally {
+>          if (paragraphImage != null) paragraphImage.dispose();
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 
 **Mengembalikan:**
-int - Jumlah baris dalam paragraf
+[IImage](../../com.aspose.slides/iimage) - Sebuah gambar yang berisi paragraf yang dirender, atau null jika paragraf tidak dapat ditemukan dalam koleksi induknya, tidak memiliki batas render yang valid, atau terjadi kesalahan saat merender gambar.
+### getImage(float scaleX, float scaleY) {#getImage-float-float-}
+```
+public final IImage getImage(float scaleX, float scaleY)
+```
+
+
+Mengembalikan gambar paragraf dengan skala yang ditentukan.
+
+--------------------
+
+> ```
+> The following example shows how to render each text box paragraph on a slide as an image with custom scaling:
+>   
+>  Presentation pres = new Presentation("sample.pptx");
+>  try {
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      int shapeIndex = 0;
+>      for (IShape shape : slide.getShapes())
+>      {
+>          shapeIndex++;
+>          if (shape instanceof IAutoShape) {
+>              IAutoShape autoShape = (IAutoShape)shape;
+>              int paragraphIndex = 0;
+>              for (IParagraph paragraph : autoShape.getTextFrame().getParagraphs())
+>              {
+>                  paragraphIndex++;
+>                  IImage paragraphImage = paragraph.getImage(2f, 2f);
+>                  try {
+>                      if (paragraphImage != null)
+>                          paragraphImage.save("shape"+shapeIndex+"_paragraph"+paragraphIndex+".png");
+> 
+>                  } finally {
+>                      if (paragraphImage != null) paragraphImage.dispose();
+>                  }
+>              }
+>          }
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameter:**
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| scaleX | float | Faktor skala horizontal yang diterapkan pada gambar paragraf. |
+| scaleY | float | Faktor skala vertikal yang diterapkan pada gambar paragraf. |
+
+**Mengembalikan:**
+[IImage](../../com.aspose.slides/iimage) - Sebuah gambar yang berisi paragraf yang dirender, atau null jika paragraf tidak dapat ditemukan dalam koleksi induknya, tidak memiliki batas render yang valid, atau terjadi kesalahan saat merender gambar.
 ### getEndParagraphPortionFormat() {#getEndParagraphPortionFormat--}
 ```
 public final IPortionFormat getEndParagraphPortionFormat()
 ```
+
 
 Menentukan properti bagian yang akan digunakan jika bagian lain disisipkan setelah yang terakhir.
 
@@ -161,18 +256,21 @@ Menentukan properti bagian yang akan digunakan jika bagian lain disisipkan setel
 public final void setEndParagraphPortionFormat(IPortionFormat value)
 ```
 
+
 Menentukan properti bagian yang akan digunakan jika bagian lain disisipkan setelah yang terakhir.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | value | [IPortionFormat](../../com.aspose.slides/iportionformat) |  |
+
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
 public final IDOMObject getParent_Immediate()
 ```
 
-Mengembalikan objek Parent_Immediate. Baca-saja IDOMObject.
+
+Mengembalikan objek Parent_Immediate. Hanya Baca IDOMObject.
 
 **Mengembalikan:**
 com.aspose.slides.IDOMObject
@@ -181,7 +279,8 @@ com.aspose.slides.IDOMObject
 public final IBaseSlide getSlide()
 ```
 
-Mengembalikan slide induk dari sebuah paragraf. Baca-saja [BaseSlide](../../com.aspose.slides/baseslide).
+
+Mengembalikan slide induk dari sebuah paragraf. Hanya Baca [BaseSlide](../../com.aspose.slides/baseslide).
 
 **Mengembalikan:**
 [IBaseSlide](../../com.aspose.slides/ibaseslide)
@@ -190,7 +289,8 @@ Mengembalikan slide induk dari sebuah paragraf. Baca-saja [BaseSlide](../../com.
 public final IPresentation getPresentation()
 ```
 
-Mengembalikan presentasi induk dari sebuah paragraf. Baca-saja [IPresentation](../../com.aspose.slides/ipresentation).
+
+Mengembalikan presentasi induk dari sebuah paragraf. Hanya Baca [IPresentation](../../com.aspose.slides/ipresentation).
 
 **Mengembalikan:**
 [IPresentation](../../com.aspose.slides/ipresentation)

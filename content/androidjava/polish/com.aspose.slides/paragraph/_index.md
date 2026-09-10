@@ -1,6 +1,6 @@
 ---
 title: Paragraph
-second_title: Aspose.Slides dla Androida – odwołanie do API Java
+second_title: Aspose.Slides dla Androida za pomocą Java API Reference
 description: Reprezentuje akapit tekstu.
 type: docs
 url: /pl/com.aspose.slides/paragraph/
@@ -27,13 +27,15 @@ Reprezentuje akapit tekstu.
 | --- | --- |
 | [getPortions()](#getPortions--) | Zwraca kolekcję fragmentów tekstu. |
 | [getParagraphFormat()](#getParagraphFormat--) | Zwraca obiekt formatowania dla tego akapitu. |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Łączy ciągi o tym samym formatowaniu. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Łączy segmenty o tym samym formatowaniu. |
 | [getText()](#getText--) | Pobiera lub ustawia zwykły tekst akapitu. |
 | [setText(String value)](#setText-java.lang.String-) | Pobiera lub ustawia zwykły tekst akapitu. |
-| [getRect()](#getRect--) | Pobiera współrzędne prostokąta otaczającego akapit. |
+| [getRect()](#getRect--) | Pobiera współrzędne prostokąta obejmującego akapit. |
 | [getLinesCount()](#getLinesCount--) | Pobiera liczbę wierszy w akapicie. |
-| [getEndParagraphPortionFormat()](#getEndParagraphPortionFormat--) | Określa właściwości części, które mają być użyte, jeśli po ostatniej zostanie wstawiona kolejna część. |
-| [setEndParagraphPortionFormat(IPortionFormat value)](#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-) | Określa właściwości części, które mają być użyte, jeśli po ostatniej zostanie wstawiona kolejna część. |
+| [getImage()](#getImage--) | Zwraca obraz akapitu. |
+| [getImage(float scaleX, float scaleY)](#getImage-float-float-) | Zwraca obraz akapitu w określonej skali. |
+| [getEndParagraphPortionFormat()](#getEndParagraphPortionFormat--) | Określa właściwości fragmentu, które mają być użyte, jeśli po ostatnim zostanie wstawiony kolejny fragment. |
+| [setEndParagraphPortionFormat(IPortionFormat value)](#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-) | Określa właściwości fragmentu, które mają być użyte, jeśli po ostatnim zostanie wstawiony kolejny fragment. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
 | [getSlide()](#getSlide--) | Zwraca slajd nadrzędny akapitu. |
 | [getPresentation()](#getPresentation--) | Zwraca prezentację nadrzędną akapitu. |
@@ -42,14 +44,12 @@ Reprezentuje akapit tekstu.
 public Paragraph()
 ```
 
-
 Inicjalizuje nową instancję klasy Paragraph z domyślnymi właściwościami.
 
 ### Paragraph(Paragraph para) {#Paragraph-com.aspose.slides.Paragraph-}
 ```
 public Paragraph(Paragraph para)
 ```
-
 
 Konstruktor kopiujący, który inicjalizuje nową instancję klasy Paragraph.
 
@@ -63,7 +63,6 @@ Konstruktor kopiujący, który inicjalizuje nową instancję klasy Paragraph.
 public final IPortionCollection getPortions()
 ```
 
-
 Zwraca kolekcję fragmentów tekstu. Tylko do odczytu [IPortionCollection](../../com.aspose.slides/iportioncollection).
 
 **Zwraca:**
@@ -73,14 +72,13 @@ Zwraca kolekcję fragmentów tekstu. Tylko do odczytu [IPortionCollection](../..
 public final IParagraphFormat getParagraphFormat()
 ```
 
-
 Zwraca obiekt formatowania dla tego akapitu. Tylko do odczytu [IParagraphFormat](../../com.aspose.slides/iparagraphformat).
 
 --------------------
 
-Obiekt formatowania zawiera parametry formatowania zdefiniowane wyłącznie dla bieżącego akapitu, dziedziczone dane nie są stosowane.
+Obiekt formatowania zawiera jedynie parametry formatowania zdefiniowane dla bieżącego akapitu; dziedziczone dane nie są stosowane.
 
-Aby uzyskać skuteczne wartości, w tym dziedziczone, użyj metody [ParagraphFormat.getEffective](../../com.aspose.slides/paragraphformat\#getEffective).
+Aby uzyskać efektywne wartości, w tym dziedziczone, użyj metody [ParagraphFormat.getEffective](../../com.aspose.slides/paragraphformat\#getEffective).
 
 **Zwraca:**
 [IParagraphFormat](../../com.aspose.slides/iparagraphformat)
@@ -89,14 +87,12 @@ Aby uzyskać skuteczne wartości, w tym dziedziczone, użyj metody [ParagraphFor
 public final void joinPortionsWithSameFormatting()
 ```
 
-
-Łączy ciągi o tym samym formatowaniu.
+Łączy segmenty o tym samym formatowaniu.
 
 ### getText() {#getText--}
 ```
 public final String getText()
 ```
-
 
 Pobiera lub ustawia zwykły tekst akapitu. Odczyt/zapis String.
 
@@ -108,7 +104,6 @@ java.lang.String
 ```
 public final void setText(String value)
 ```
-
 
 Pobiera lub ustawia zwykły tekst akapitu. Odczyt/zapis String.
 
@@ -124,8 +119,7 @@ Wartość: Tekst.
 public final RectF getRect()
 ```
 
-
-Pobiera współrzędne prostokąta otaczającego akapit. Prostokąt obejmuje wszystkie linie tekstu w akapicie, w tym puste.
+Pobiera współrzędne prostokąta obejmującego akapit. Prostokąt zawiera wszystkie linie tekstu w akapicie, w tym puste.
 
 **Zwraca:**
 android.graphics.RectF
@@ -133,7 +127,6 @@ android.graphics.RectF
 ```
 public final int getLinesCount()
 ```
-
 
 Pobiera liczbę wierszy w akapicie.
 
@@ -155,16 +148,94 @@ Pobiera liczbę wierszy w akapicie.
 >  }
 > ```
 
-
 **Zwraca:**
 int - Liczba wierszy w akapicie
+### getImage() {#getImage--}
+```
+public final IImage getImage()
+```
+
+Zwraca obraz akapitu.
+
+--------------------
+
+> ```
+> The following example shows how to render a paragraph as an image:
+>   
+>  Presentation pres = new Presentation();
+>  try {
+>      IAutoShape shape = pres.getSlides().get_Item(0).getShapes().addAutoShape(
+>          ShapeType.Rectangle, 50, 50, 150, 50);
+>      IParagraph paragraph = shape.getTextFrame().getParagraphs().get_Item(0);
+>      paragraph.setText("Aspose Paragraph GetImage() Example");
+>      IImage paragraphImage = paragraph.getImage();
+>      try {
+>          paragraphImage.save("paragraph.png");
+>      } finally {
+>          if (paragraphImage != null) paragraphImage.dispose();
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Zwraca:**
+[IImage](../../com.aspose.slides/iimage) - Obraz zawierający renderowany akapit, lub null jeśli akapit nie zostanie znaleziony w kolekcji nadrzędnej, nie ma prawidłowych granic renderowania lub wystąpi błąd podczas renderowania obrazu.
+### getImage(float scaleX, float scaleY) {#getImage-float-float-}
+```
+public final IImage getImage(float scaleX, float scaleY)
+```
+
+Zwraca obraz akapitu w określonej skali.
+
+--------------------
+
+> ```
+> The following example shows how to render each text box paragraph on a slide as an image with custom scaling:
+>   
+>  Presentation pres = new Presentation("sample.pptx");
+>  try {
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      int shapeIndex = 0;
+>      for (IShape shape : slide.getShapes())
+>      {
+>          shapeIndex++;
+>          if (shape instanceof IAutoShape) {
+>              IAutoShape autoShape = (IAutoShape)shape;
+>              int paragraphIndex = 0;
+>              for (IParagraph paragraph : autoShape.getTextFrame().getParagraphs())
+>              {
+>                  paragraphIndex++;
+>                  IImage paragraphImage = paragraph.getImage(2f, 2f);
+>                  try {
+>                      if (paragraphImage != null)
+>                          paragraphImage.save("shape"+shapeIndex+"_paragraph"+paragraphIndex+".png");
+> 
+>                  } finally {
+>                      if (paragraphImage != null) paragraphImage.dispose();
+>                  }
+>              }
+>          }
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parametry:**
+| Parametr | Typ | Opis |
+| --- | --- | --- |
+| scaleX | float | Czynnik skali poziomej zastosowany do obrazu akapitu. |
+| scaleY | float | Czynnik skali pionowej zastosowany do obrazu akapitu. |
+
+**Zwraca:**
+[IImage](../../com.aspose.slides/iimage) - Obraz zawierający renderowany akapit, lub null jeśli akapit nie zostanie znaleziony w kolekcji nadrzędnej, nie ma prawidłowych granic renderowania lub wystąpi błąd podczas renderowania obrazu.
 ### getEndParagraphPortionFormat() {#getEndParagraphPortionFormat--}
 ```
 public final IPortionFormat getEndParagraphPortionFormat()
 ```
 
-
-Określa właściwości części, które mają być użyte, jeśli po ostatniej zostanie wstawiona kolejna część.
+Określa właściwości fragmentu, które mają być użyte, jeśli po ostatnim zostanie wstawiony kolejny fragment.
 
 **Zwraca:**
 [IPortionFormat](../../com.aspose.slides/iportionformat)
@@ -173,8 +244,7 @@ Określa właściwości części, które mają być użyte, jeśli po ostatniej 
 public final void setEndParagraphPortionFormat(IPortionFormat value)
 ```
 
-
-Określa właściwości części, które mają być użyte, jeśli po ostatniej zostanie wstawiona kolejna część.
+Określa właściwości fragmentu, które mają być użyte, jeśli po ostatnim zostanie wstawiony kolejny fragment.
 
 **Parametry:**
 | Parametr | Typ | Opis |
@@ -186,7 +256,6 @@ Określa właściwości części, które mają być użyte, jeśli po ostatniej 
 public final IDOMObject getParent_Immediate()
 ```
 
-
 Zwraca obiekt Parent_Immediate. Tylko do odczytu IDOMObject.
 
 **Zwraca:**
@@ -196,8 +265,7 @@ com.aspose.slides.IDOMObject
 public final IBaseSlide getSlide()
 ```
 
-
-Zwraca slajd nadrzędny akapitu. Tylko do odczytu [BaseSlide](../../com.aspose.slides/baseslide).
+Zwraca nadrzędny slajd akapitu. Tylko do odczytu [BaseSlide](../../com.aspose.slides/baseslide).
 
 **Zwraca:**
 [IBaseSlide](../../com.aspose.slides/ibaseslide)
@@ -206,8 +274,7 @@ Zwraca slajd nadrzędny akapitu. Tylko do odczytu [BaseSlide](../../com.aspose.s
 public final IPresentation getPresentation()
 ```
 
-
-Zwraca prezentację nadrzędną akapitu. Tylko do odczytu [IPresentation](../../com.aspose.slides/ipresentation).
+Zwraca nadrzędną prezentację akapitu. Tylko do odczytu [IPresentation](../../com.aspose.slides/ipresentation).
 
 **Zwraca:**
 [IPresentation](../../com.aspose.slides/ipresentation)

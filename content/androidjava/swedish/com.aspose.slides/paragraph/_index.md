@@ -15,41 +15,41 @@ public final class Paragraph implements IParagraph, IDOMObject
 ```
 
 Representerar ett stycke text.
-## Konstruktorer
+## Konstruktörer
 
 | Konstruktor | Beskrivning |
 | --- | --- |
-| [Paragraph()](#Paragraph--) | Initierar en ny instans av Paragraph-klass med standardegenskaper. |
+| [Paragraph()](#Paragraph--) | Initierar en ny instans av Paragraph-klassen med standardegenskaper. |
 | [Paragraph(Paragraph para)](#Paragraph-com.aspose.slides.Paragraph-) | Kopieringskonstruktor som initierar en ny instans av en Paragraph-klass. |
 ## Metoder
 
 | Metod | Beskrivning |
 | --- | --- |
-| [getPortions()](#getPortions--) | Returnerar samlingen av en textdelar. |
+| [getPortions()](#getPortions--) | Returnerar samlingen av textdelar. |
 | [getParagraphFormat()](#getParagraphFormat--) | Returnerar formateringsobjektet för detta stycke. |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Slår ihop körningar med samma formatering. |
-| [getText()](#getText--) | Hämtar eller anger den vanliga texten i ett stycke. |
-| [setText(String value)](#setText-java.lang.String-) | Hämtar eller anger den vanliga texten i ett stycke. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Slår samman körningar med samma formatering. |
+| [getText()](#getText--) | Hämtar eller anger den enkla texten i ett stycke. |
+| [setText(String value)](#setText-java.lang.String-) | Hämtar eller anger den enkla texten i ett stycke. |
 | [getRect()](#getRect--) | Hämtar koordinaterna för rektangeln som omger stycket. |
 | [getLinesCount()](#getLinesCount--) | Hämtar antalet rader i ett stycke. |
-| [getEndParagraphPortionFormat()](#getEndParagraphPortionFormat--) | Anger delens egenskaper som ska användas om en annan del infogas efter den sista. |
-| [setEndParagraphPortionFormat(IPortionFormat value)](#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-) | Anger delens egenskaper som ska användas om en annan del infogas efter den sista. |
+| [getImage()](#getImage--) | Returnerar en bild av stycket. |
+| [getImage(float scaleX, float scaleY)](#getImage-float-float-) | Returnerar en bild av stycket med angiven skala. |
+| [getEndParagraphPortionFormat()](#getEndParagraphPortionFormat--) | Specificerar delens egenskaper som ska användas om en annan del infogas efter den sista. |
+| [setEndParagraphPortionFormat(IPortionFormat value)](#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-) | Specificerar delens egenskaper som ska användas om en annan del infogas efter den sista. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-| [getSlide()](#getSlide--) | Returnerar föräldrasliden för ett stycke. |
-| [getPresentation()](#getPresentation--) | Returnerar föräldrapresentationen för ett stycke. |
+| [getSlide()](#getSlide--) | Returnerar den föräldra-slide som ett stycke tillhör. |
+| [getPresentation()](#getPresentation--) | Returnerar den föräldrapresentation som ett stycke tillhör. |
 ### Paragraph() {#Paragraph--}
 ```
 public Paragraph()
 ```
 
-
-Initierar en ny instans av Paragraph-klass med standardegenskaper.
+Initierar en ny instans av Paragraph-klassen med standardegenskaper.
 
 ### Paragraph(Paragraph para) {#Paragraph-com.aspose.slides.Paragraph-}
 ```
 public Paragraph(Paragraph para)
 ```
-
 
 Kopieringskonstruktor som initierar en ny instans av en Paragraph-klass.
 
@@ -63,8 +63,7 @@ Kopieringskonstruktor som initierar en ny instans av en Paragraph-klass.
 public final IPortionCollection getPortions()
 ```
 
-
-Returnerar samlingen av en textdelar. Skrivskyddad [IPortionCollection](../../com.aspose.slides/iportioncollection).
+Returnerar samlingen av textdelar. Endast läsning [IPortionCollection](../../com.aspose.slides/iportioncollection).
 
 **Returnerar:**
 [IPortionCollection](../../com.aspose.slides/iportioncollection)
@@ -73,14 +72,13 @@ Returnerar samlingen av en textdelar. Skrivskyddad [IPortionCollection](../../co
 public final IParagraphFormat getParagraphFormat()
 ```
 
-
-Returnerar formateringsobjektet för detta stycke. Skrivskyddad [IParagraphFormat](../../com.aspose.slides/iparagraphformat).
+Returnerar formateringsobjektet för detta stycke. Endast läsning [IParagraphFormat](../../com.aspose.slides/iparagraphformat).
 
 --------------------
 
-Formateringsobjektet innehåller de formateringsparametrar som är definierade endast för det aktuella stycket; ärvda data tillämpas inte.
+Formateringsobjektet innehåller formateringsparametrarna som definierats endast för det aktuella stycket, ärvda data tillämpas inte.
 
-För att få de effektiva värdena inklusive ärvda använder du metoden [ParagraphFormat.getEffective](../../com.aspose.slides/paragraphformat\#getEffective).
+För att få de effektiva värdena inklusive ärvda, använd metoden [ParagraphFormat.getEffective](../../com.aspose.slides/paragraphformat\#getEffective).
 
 **Returnerar:**
 [IParagraphFormat](../../com.aspose.slides/iparagraphformat)
@@ -89,16 +87,14 @@ För att få de effektiva värdena inklusive ärvda använder du metoden [Paragr
 public final void joinPortionsWithSameFormatting()
 ```
 
-
-Slår ihop körningar med samma formatering.
+Slår samman körningar med samma formatering.
 
 ### getText() {#getText--}
 ```
 public final String getText()
 ```
 
-
-Hämtar eller anger den vanliga texten i ett stycke. Läs/skriv String.
+Hämtar eller anger den enkla texten i ett stycke. Läs/skriv String.
 
 Värde: Texten.
 
@@ -109,8 +105,7 @@ java.lang.String
 public final void setText(String value)
 ```
 
-
-Hämtar eller anger den vanliga texten i ett stycke. Läs/skriv String.
+Hämtar eller anger den enkla texten i ett stycke. Läs/skriv String.
 
 Värde: Texten.
 
@@ -124,7 +119,6 @@ Värde: Texten.
 public final RectF getRect()
 ```
 
-
 Hämtar koordinaterna för rektangeln som omger stycket. Rektangeln inkluderar alla textrader i stycket, inklusive tomma.
 
 **Returnerar:**
@@ -133,7 +127,6 @@ android.graphics.RectF
 ```
 public final int getLinesCount()
 ```
-
 
 Hämtar antalet rader i ett stycke.
 
@@ -157,13 +150,92 @@ Hämtar antalet rader i ett stycke.
 
 **Returnerar:**
 int - Antal rader i ett stycke
+### getImage() {#getImage--}
+```
+public final IImage getImage()
+```
+
+Returnerar en bild av stycket.
+
+--------------------
+
+> ```
+> The following example shows how to render a paragraph as an image:
+>   
+>  Presentation pres = new Presentation();
+>  try {
+>      IAutoShape shape = pres.getSlides().get_Item(0).getShapes().addAutoShape(
+>          ShapeType.Rectangle, 50, 50, 150, 50);
+>      IParagraph paragraph = shape.getTextFrame().getParagraphs().get_Item(0);
+>      paragraph.setText("Aspose Paragraph GetImage() Example");
+>      IImage paragraphImage = paragraph.getImage();
+>      try {
+>          paragraphImage.save("paragraph.png");
+>      } finally {
+>          if (paragraphImage != null) paragraphImage.dispose();
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returnerar:**
+[IImage](../../com.aspose.slides/iimage) - En bild som innehåller det renderade stycket, eller null om stycket inte kan hittas i dess föräldrasamling, saknar giltiga renderingsgränser, eller ett fel uppstår vid rendering av bilden.
+### getImage(float scaleX, float scaleY) {#getImage-float-float-}
+```
+public final IImage getImage(float scaleX, float scaleY)
+```
+
+Returnerar en bild av stycket med angiven skala.
+
+--------------------
+
+> ```
+> The following example shows how to render each text box paragraph on a slide as an image with custom scaling:
+>   
+>  Presentation pres = new Presentation("sample.pptx");
+>  try {
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      int shapeIndex = 0;
+>      for (IShape shape : slide.getShapes())
+>      {
+>          shapeIndex++;
+>          if (shape instanceof IAutoShape) {
+>              IAutoShape autoShape = (IAutoShape)shape;
+>              int paragraphIndex = 0;
+>              for (IParagraph paragraph : autoShape.getTextFrame().getParagraphs())
+>              {
+>                  paragraphIndex++;
+>                  IImage paragraphImage = paragraph.getImage(2f, 2f);
+>                  try {
+>                      if (paragraphImage != null)
+>                          paragraphImage.save("shape"+shapeIndex+"_paragraph"+paragraphIndex+".png");
+> 
+>                  } finally {
+>                      if (paragraphImage != null) paragraphImage.dispose();
+>                  }
+>              }
+>          }
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parametrar:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| scaleX | float | Den horisontella skalningsfaktorn som appliceras på styckebilden. |
+| scaleY | float | Den vertikala skalningsfaktorn som appliceras på styckebilden. |
+
+**Returnerar:**
+[IImage](../../com.aspose.slides/iimage) - En bild som innehåller det renderade stycket, eller null om stycket inte kan hittas i dess föräldrasamling, saknar giltiga renderingsgränser, eller ett fel uppstår vid rendering av bilden.
 ### getEndParagraphPortionFormat() {#getEndParagraphPortionFormat--}
 ```
 public final IPortionFormat getEndParagraphPortionFormat()
 ```
 
-
-Anger delens egenskaper som ska användas om en annan del infogas efter den sista.
+Specificerar delens egenskaper som ska användas om en annan del infogas efter den sista.
 
 **Returnerar:**
 [IPortionFormat](../../com.aspose.slides/iportionformat)
@@ -172,8 +244,7 @@ Anger delens egenskaper som ska användas om en annan del infogas efter den sist
 public final void setEndParagraphPortionFormat(IPortionFormat value)
 ```
 
-
-Anger delens egenskaper som ska användas om en annan del infogas efter den sista.
+Specificerar delens egenskaper som ska användas om en annan del infogas efter den sista.
 
 **Parametrar:**
 | Parameter | Typ | Beskrivning |
@@ -185,8 +256,7 @@ Anger delens egenskaper som ska användas om en annan del infogas efter den sist
 public final IDOMObject getParent_Immediate()
 ```
 
-
-Returnerar Parent_Immediate-objekt. Skrivskyddad IDOMObject.
+Returnerar Parent_Immediate-objektet. Endast läsning IDOMObject.
 
 **Returnerar:**
 com.aspose.slides.IDOMObject
@@ -195,8 +265,7 @@ com.aspose.slides.IDOMObject
 public final IBaseSlide getSlide()
 ```
 
-
-Returnerar föräldrasliden för ett stycke. Skrivskyddad [BaseSlide](../../com.aspose.slides/baseslide).
+Returnerar den föräldra-slide som ett stycke tillhör. Endast läsning [BaseSlide](../../com.aspose.slides/baseslide).
 
 **Returnerar:**
 [IBaseSlide](../../com.aspose.slides/ibaseslide)
@@ -205,8 +274,7 @@ Returnerar föräldrasliden för ett stycke. Skrivskyddad [BaseSlide](../../com.
 public final IPresentation getPresentation()
 ```
 
-
-Returnerar föräldrapresentationen för ett stycke. Skrivskyddad [IPresentation](../../com.aspose.slides/ipresentation).
+Returnerar föräldrapresentationen för ett stycke. Endast läsning [IPresentation](../../com.aspose.slides/ipresentation).
 
 **Returnerar:**
 [IPresentation](../../com.aspose.slides/ipresentation)

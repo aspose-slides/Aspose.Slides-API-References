@@ -14,32 +14,41 @@ public class SlidesAIAgent
 Tillhandahåller AI-drivna funktioner för att bearbeta presentationer.
 ## Konstruktörer
 
-| Konstruktör | Beskrivning |
+| Konstruktor | Beskrivning |
 | --- | --- |
-| [SlidesAIAgent(IAIWebClient aiClient)](#SlidesAIAgent-com.aspose.slides.IAIWebClient-) | SlidesAIAgent-konstruktor |
+| [SlidesAIAgent(IAIWebClient aiClient)](#SlidesAIAgent-com.aspose.slides.IAIWebClient-) | Initierar en ny instans av [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) med en anpassad AI-klient. |
+| [SlidesAIAgent()](#SlidesAIAgent--) | Initierar en ny instans av [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) med den inbyggda [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient) med dess standardkonfiguration. |
 ## Metoder
 
 | Metod | Beskrivning |
 | --- | --- |
 | [translate(IPresentation presentation, String language)](#translate-com.aspose.slides.IPresentation-java.lang.String-) | Översätter en presentation till det angivna språket med AI (synkron version). |
-| [generatePresentation(String description, int presentationContentAmount)](#generatePresentation-java.lang.String-int-) | Skapar en presentationsinstans från en textbeskrivning. |
-| [generatePresentation(String description, int presentationContentAmount, IPresentation presentationTemplate)](#generatePresentation-java.lang.String-int-com.aspose.slides.IPresentation-) | Skapar en presentationsinstans från en textbeskrivning. |
+| [generatePresentation(String description, int presentationContentAmount)](#generatePresentation-java.lang.String-int-) | Genererar en presentationsinstans från en textbeskrivning. |
+| [generatePresentation(String description, int presentationContentAmount, IPresentation presentationTemplate)](#generatePresentation-java.lang.String-int-com.aspose.slides.IPresentation-) | Genererar en presentationsinstans från en textbeskrivning. |
 ### SlidesAIAgent(IAIWebClient aiClient) {#SlidesAIAgent-com.aspose.slides.IAIWebClient-}
 ```
 public SlidesAIAgent(IAIWebClient aiClient)
 ```
 
 
-SlidesAIAgent-konstruktor
+Initierar en ny instans av [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) med en anpassad AI-klient. Använd den här overloaden för att ange AI-leverantören, tillhandahålla din egen LLM eller anpassa anslutningen (till exempel genom att tillhandahålla din egen java.net.HttpURLConnection). Alla implementationer av [IAIWebClient](../../com.aspose.slides/iaiwebclient) kan användas. För att använda den inbyggda [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient) med dess standardkonfiguration, använd overloaden SlidesAIAgent() istället.
 
 **Parametrar:**
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| aiClient | [IAIWebClient](../../com.aspose.slides/iaiwebclient) | AI-klientinstans |
+| aiClient | [IAIWebClient](../../com.aspose.slides/iaiwebclient) | AI-klientinstans. Alla implementationer av [IAIWebClient](../../com.aspose.slides/iaiwebclient) kan användas. |
+
+### SlidesAIAgent() {#SlidesAIAgent--}
+```
+public SlidesAIAgent()
+```
+
+
+Initierar en ny instans av [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) med den inbyggda [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient) med dess standardkonfiguration. Klienten ansluter till Asposes egen LLM och kräver ingen ytterligare konfiguration. För att använda en annan AI-klient, använd overloaden SlidesAIAgent(IAIWebClient) istället.
 
 ### translate(IPresentation presentation, String language) {#translate-com.aspose.slides.IPresentation-java.lang.String-}
 ```
-public void translate(IPresentation presentation, String language)
+public final void translate(IPresentation presentation, String language)
 ```
 
 
@@ -50,6 +59,10 @@ public void translate(IPresentation presentation, String language)
 | --- | --- | --- |
 | presentation | [IPresentation](../../com.aspose.slides/ipresentation) | Målpresentation |
 | language | java.lang.String | Målspråk
+
+--------------------
+
+Exemplet nedan använder standard-[AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient), som skapas av den parameterlösa SlidesAIAgent()-konstruktorn och ansluter till Asposes egen LLM. För att använda en annan AI-leverantör, tillhandahålla din egen LLM eller anpassa anslutningen (till exempel genom att tillhandahålla din egen java.net.HttpURLConnection), skicka en [IAIWebClient](../../com.aspose.slides/iaiwebclient)-implementation till SlidesAIAgent(IAIWebClient)-konstruktorn.
 
 ```
 Presentation presentation = new Presentation("Presentation.pptx");
@@ -69,7 +82,7 @@ public final IPresentation generatePresentation(String description, int presenta
 ```
 
 
-Skapar en presentationsinstans från en textbeskrivning. Ange ett ämne, idéer, citat eller textsnuttar på det önskade språket.
+Genererar en presentationsinstans från en textbeskrivning. Ange ett ämne, idéer, citat eller textsnuttar på det erforderliga språket.
 
 **Parametrar:**
 | Parameter | Typ | Beskrivning |
@@ -97,7 +110,7 @@ public final IPresentation generatePresentation(String description, int presenta
 ```
 
 
-Skapar en presentationsinstans från en textbeskrivning. Ange ett ämne, idéer, citat eller textsnuttar på det önskade språket.
+Genererar en presentationsinstans från en textbeskrivning. Ange ett ämne, idéer, citat eller textsnuttar på det erforderliga språket.
 
 **Parametrar:**
 | Parameter | Typ | Beskrivning |
@@ -105,6 +118,10 @@ Skapar en presentationsinstans från en textbeskrivning. Ange ett ämne, idéer,
 | description | java.lang.String | Ämnet, idéerna, citaten eller textsnuttarna. |
 | presentationContentAmount | int | Mängden innehåll i den resulterande presentationen. |
 | presentationTemplate | [IPresentation](../../com.aspose.slides/ipresentation) | En presentation att använda som mall för layout och design, som ersätter standardmallen.
+
+--------------------
+
+Exemplet nedan använder standard-[AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient), som skapas av den parameterlösa SlidesAIAgent()-konstruktorn och ansluter till Asposes egen LLM. För att använda en annan AI-leverantör, tillhandahålla din egen LLM eller anpassa anslutningen (till exempel genom att tillhandahålla din egen java.net.HttpURLConnection), skicka en [IAIWebClient](../../com.aspose.slides/iaiwebclient)-implementation till SlidesAIAgent(IAIWebClient)-konstruktorn.
 
 ```
 String prompt = "Generate a presentation about Aspose.Slides for Android via Java. Highlight its key features, use cases, and explain why it is better than its competitors.";

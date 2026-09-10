@@ -1,7 +1,7 @@
 ---
 title: OpenAIWebClient
 second_title: Aspose.Slides для Android через справочник Java API
-description: Встроенный легковесный веб-клиент OpenAI
+description: Встроенная реализация, подключающаяся к API OpenAI.
 type: docs
 url: /ru/com.aspose.slides/openaiwebclient/
 ---
@@ -14,72 +14,95 @@ java.lang.Object
 public class OpenAIWebClient implements IAIWebClient, Closeable
 ```
 
-Встроенный легковесный клиент OpenAI web
+Встроенная реализация [IAIWebClient](../../com.aspose.slides/iaiwebclient), которая подключается к API OpenAI.
 ## Конструкторы
 
 | Конструктор | Описание |
 | --- | --- |
-| [OpenAIWebClient(String model, String apiKey, String organizationId)](#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-) | Создает экземпляр веб-клиента OpenAI. |
-| [OpenAIWebClient(String model, String apiKey, String organizationId, HttpURLConnection httpClient)](#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | Создает экземпляр веб-клиента OpenAI. |
+| [OpenAIWebClient(String model, String apiKey, String organizationId)](#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-) | Создаёт экземпляр веб-клиента OpenAI. |
+| [OpenAIWebClient(String model, String apiKey, String organizationId, HttpURLConnection httpClient)](#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | Создаёт экземпляр веб-клиента OpenAI, использующего внешне управляемый HttpClient . |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [callChat(String instruction)](#callChat-java.lang.String-) | Отправляет инструкцию чата модели ИИ, используя внешне управляемый экземпляр, и возвращает ответное сообщение на данную инструкцию. |
-| [createConversation()](#createConversation--) | Создает экземпляр разговора. |
+| [callChat(String instruction)](#callChat-java.lang.String-) |  |
+| [createConversation()](#createConversation--) | Создаёт экземпляр разговора. |
 | [close()](#close--) | Освобождает ресурсы, используемые этим экземпляром. |
 ### OpenAIWebClient(String model, String apiKey, String organizationId) {#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-}
 ```
 public OpenAIWebClient(String model, String apiKey, String organizationId)
 ```
 
-Создает экземпляр веб-клиента OpenAI.
+Создаёт экземпляр веб-клиента OpenAI.
 
 **Параметры:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| model | java.lang.String | Модель языка OpenAI. Возможные значения: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
-| apiKey | java.lang.String | Ключ API OpenAI |
-| organizationId | java.lang.String | Идентификатор организации (необязательно) |
+| model | java.lang.String | Языковая модель OpenAI. Возможные значения: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
+| apiKey | java.lang.String | Ключ API OpenAI. |
+| organizationId | java.lang.String | Идентификатор организации (необязательно). |
 
+```
+using (OpenAIWebClient aiClient = new OpenAIWebClient("gpt-4o-mini", apiKey, null))
+ {
+     SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
+     using (Presentation presentation = new Presentation("Presentation.pptx"))
+     {
+         await aiAgent.TranslateAsync(presentation, "spanish");
+         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     }
+ }
+``` |
 ### OpenAIWebClient(String model, String apiKey, String organizationId, HttpURLConnection httpClient) {#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-}
 ```
 public OpenAIWebClient(String model, String apiKey, String organizationId, HttpURLConnection httpClient)
 ```
 
-Создает экземпляр веб-клиента OpenAI.
+Создаёт экземпляр веб-клиента OpenAI, использующего внешне управляемый HttpClient . Предоставленный HttpClient не освобождается этим экземпляром и остаётся принадлежать вызывающему.
 
 **Параметры:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| model | java.lang.String | Модель языка OpenAI. Возможные значения: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
+| model | java.lang.String | Языковая модель OpenAI. Возможные значения: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
 | apiKey | java.lang.String | Ключ API OpenAI |
 | organizationId | java.lang.String | Идентификатор организации (необязательно) |
-| httpClient | java.net.HttpURLConnection | Внешне управляемый экземпляр HttpURLConnection. |
+| httpClient | java.net.HttpURLConnection | Внешне управляемый экземпляр HttpClient |
 
+```
+using (HttpClient httpClient = new HttpClient())
+ {
+     OpenAIWebClient aiClient = new OpenAIWebClient("gpt-4o-mini", apiKey, null, httpClient);
+     SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
+     using (Presentation presentation = new Presentation("Presentation.pptx"))
+     {
+         await aiAgent.TranslateAsync(presentation, "spanish");
+         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     }
+ }
+``` |
 ### callChat(String instruction) {#callChat-java.lang.String-}
 ```
 public String callChat(String instruction)
 ```
 
-Отправляет инструкцию чата модели ИИ, используя внешне управляемый экземпляр, и возвращает ответное сообщение на данную инструкцию.
+Отправляет инструкцию чата модели ИИ, используя предоставленный экземпляр HttpConnection, и возвращает сообщение-ответ на данную инструкцию.
 
 **Параметры:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| instruction | java.lang.String | Инструкция или сообщение, которое будет обработано моделью ИИ |
+| instruction | java.lang.String |  |
 
-**Возвращаемое значение:**
-java.lang.String - Сообщение, сгенерированное моделью ИИ в ответ на данную инструкцию.
+**Возвращает:**
+java.lang.String
 ### createConversation() {#createConversation--}
 ```
 public final IAIConversation createConversation()
 ```
 
-Создает экземпляр разговора. В отличие от обычных вызовов ИИ, разговоры сохраняют весь контекст.
+Создаёт экземпляр разговора. В отличие от обычных вызовов ИИ, разговоры сохраняют весь контекст.
 
-**Возвращаемое значение:**
-[IAIConversation](../../com.aspose.slides/iaiconversation) - Экземпляр [IAIConversation](../../com.aspose.slides/iaiconversation).
+**Возвращает:**
+[IAIConversation](../../com.aspose.slides/iaiconversation) — экземпляр [IAIConversation](../../com.aspose.slides/iaiconversation).
 ### close() {#close--}
 ```
 public final void close()

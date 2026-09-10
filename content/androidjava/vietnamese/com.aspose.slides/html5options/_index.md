@@ -1,7 +1,7 @@
 ---
 title: Html5Options
-second_title: Aspose.Slides cho Android qua Tham chiếu API Java
-description: Đại diện cho các tùy chọn xuất HTML5.
+second_title: Aspose.Slides cho Android thông qua Tham chiếu API Java
+description: Biểu diễn các tùy chọn xuất HTML5.
 type: docs
 url: /vi/com.aspose.slides/html5options/
 ---
@@ -14,7 +14,7 @@ java.lang.Object, [com.aspose.slides.SaveOptions](../../com.aspose.slides/saveop
 public class Html5Options extends SaveOptions implements IHtml5Options
 ```
 
-Đại diện cho các tùy chọn xuất HTML5.
+Biểu diễn các tùy chọn xuất HTML5.
 
 --------------------
 
@@ -32,42 +32,42 @@ public class Html5Options extends SaveOptions implements IHtml5Options
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-## Hàm tạo
+## Các hàm khởi tạo
 
-| Hàm tạo | Mô tả |
+| Constructor | Description |
 | --- | --- |
-| [Html5Options()](#Html5Options--) | Hàm tạo mặc định. |
+| [Html5Options()](#Html5Options--) | Hàm khởi tạo mặc định. |
 ## Phương thức
 
-| Phương thức | Mô tả |
+| Method | Description |
 | --- | --- |
-| [getAnimateTransitions()](#getAnimateTransitions--) | Trả về hoặc đặt tùy chọn hoạt ảnh chuyển đổi. |
-| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | Trả về hoặc đặt tùy chọn hoạt ảnh chuyển đổi. |
-| [getAnimateShapes()](#getAnimateShapes--) | Trả về hoặc đặt tùy chọn hoạt ảnh hình dạng. |
-| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Trả về hoặc đặt tùy chọn hoạt ảnh hình dạng. |
-| [getEmbedImages()](#getEmbedImages--) | Trả về hoặc đặt tùy chọn nhúng hình ảnh. |
-| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Trả về hoặc đặt tùy chọn nhúng hình ảnh. |
-| [getOutputPath()](#getOutputPath--) | Xác định vị trí lưu trữ tài nguyên bên ngoài. |
-| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Xác định vị trí lưu trữ tài nguyên bên ngoài. |
+| [getAnimateTransitions()](#getAnimateTransitions--) | Trả về hoặc thiết lập tùy chọn hoạt ảnh chuyển tiếp. |
+| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | Trả về hoặc thiết lập tùy chọn hoạt ảnh chuyển tiếp. |
+| [getAnimateShapes()](#getAnimateShapes--) | Trả về hoặc thiết lập tùy chọn hoạt ảnh hình dạng. |
+| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Trả về hoặc thiết lập tùy chọn hoạt ảnh hình dạng. |
+| [getEmbedImages()](#getEmbedImages--) | Trả về hoặc thiết lập tùy chọn nhúng hình ảnh. |
+| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Trả về hoặc thiết lập tùy chọn nhúng hình ảnh. |
+| [getOutputPath()](#getOutputPath--) | Xác định nơi lưu trữ tài nguyên bên ngoài. |
+| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Xác định nơi lưu trữ tài nguyên bên ngoài. |
+| [getPicturesCompression()](#getPicturesCompression--) | Biểu diễn mức độ nén hình ảnh |
+| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Biểu diễn mức độ nén hình ảnh |
 | [getDisableFontLigatures()](#getDisableFontLigatures--) | Lấy hoặc đặt giá trị chỉ ra liệu văn bản có được hiển thị mà không sử dụng ligature hay không. |
 | [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Lấy hoặc đặt giá trị chỉ ra liệu văn bản có được hiển thị mà không sử dụng ligature hay không. |
-| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Lấy hoặc đặt chế độ mà các slide được đặt trên trang khi xuất bài thuyết trình [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
-| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Lấy hoặc đặt chế độ mà các slide được đặt trên trang khi xuất bài thuyết trình [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Lấy hoặc đặt chế độ sắp xếp các slide trên trang khi xuất bản trình chiếu [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Lấy hoặc đặt chế độ sắp xếp các slide trên trang khi xuất bản trình chiếu [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 ### Html5Options() {#Html5Options--}
 ```
 public Html5Options()
 ```
 
-
-Hàm tạo mặc định.
+Hàm khởi tạo mặc định.
 
 ### getAnimateTransitions() {#getAnimateTransitions--}
 ```
 public final boolean getAnimateTransitions()
 ```
 
-
-Trả về hoặc đặt tùy chọn hoạt ảnh chuyển đổi. Đọc/ghi boolean.
+Trả về hoặc thiết lập tùy chọn hoạt ảnh chuyển tiếp. Đọc/ghi boolean.
 
 --------------------
 
@@ -92,8 +92,7 @@ boolean
 public final void setAnimateTransitions(boolean value)
 ```
 
-
-Trả về hoặc đặt tùy chọn hoạt ảnh chuyển đổi. Đọc/ghi boolean.
+Trả về hoặc thiết lập tùy chọn hoạt ảnh chuyển tiếp. Đọc/ghi boolean.
 
 --------------------
 
@@ -112,7 +111,7 @@ Trả về hoặc đặt tùy chọn hoạt ảnh chuyển đổi. Đọc/ghi bo
 > ```
 
 **Tham số:**
-| Tham số | Kiểu | Mô tả |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -121,8 +120,7 @@ Trả về hoặc đặt tùy chọn hoạt ảnh chuyển đổi. Đọc/ghi bo
 public final boolean getAnimateShapes()
 ```
 
-
-Trả về hoặc đặt tùy chọn hoạt ảnh hình dạng. Đọc/ghi boolean.
+Trả về hoặc thiết lập tùy chọn hoạt ảnh hình dạng. Đọc/ghi boolean.
 
 --------------------
 
@@ -147,8 +145,7 @@ boolean
 public final void setAnimateShapes(boolean value)
 ```
 
-
-Trả về hoặc đặt tùy chọn hoạt ảnh hình dạng. Đọc/ghi boolean.
+Trả về hoặc thiết lập tùy chọn hoạt ảnh hình dạng. Đọc/ghi boolean.
 
 --------------------
 
@@ -167,7 +164,7 @@ Trả về hoặc đặt tùy chọn hoạt ảnh hình dạng. Đọc/ghi boole
 > ```
 
 **Tham số:**
-| Tham số | Kiểu | Mô tả |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -176,8 +173,7 @@ Trả về hoặc đặt tùy chọn hoạt ảnh hình dạng. Đọc/ghi boole
 public final boolean getEmbedImages()
 ```
 
-
-Trả về hoặc đặt tùy chọn nhúng hình ảnh. Đọc/ghi boolean.
+Trả về hoặc thiết lập tùy chọn nhúng hình ảnh. Đọc/ghi boolean.
 
 --------------------
 
@@ -201,8 +197,7 @@ boolean
 public final void setEmbedImages(boolean value)
 ```
 
-
-Trả về hoặc đặt tùy chọn nhúng hình ảnh. Đọc/ghi boolean.
+Trả về hoặc thiết lập tùy chọn nhúng hình ảnh. Đọc/ghi boolean.
 
 --------------------
 
@@ -220,7 +215,7 @@ Trả về hoặc đặt tùy chọn nhúng hình ảnh. Đọc/ghi boolean.
 > ```
 
 **Tham số:**
-| Tham số | Kiểu | Mô tả |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -229,8 +224,7 @@ Trả về hoặc đặt tùy chọn nhúng hình ảnh. Đọc/ghi boolean.
 public final String getOutputPath()
 ```
 
-
-Xác định vị trí lưu trữ tài nguyên bên ngoài. Đọc/ghi String.
+Xác định nơi lưu trữ tài nguyên bên ngoài. Đọc/ghi String.
 
 --------------------
 
@@ -255,8 +249,7 @@ java.lang.String
 public final void setOutputPath(String value)
 ```
 
-
-Xác định vị trí lưu trữ tài nguyên bên ngoài. Đọc/ghi String.
+Xác định nơi lưu trữ tài nguyên bên ngoài. Đọc/ghi String.
 
 --------------------
 
@@ -275,17 +268,37 @@ Xác định vị trí lưu trữ tài nguyên bên ngoài. Đọc/ghi String.
 > ```
 
 **Tham số:**
-| Tham số | Kiểu | Mô tả |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### getPicturesCompression() {#getPicturesCompression--}
+```
+public final int getPicturesCompression()
+```
+
+Biểu diễn mức độ nén hình ảnh
+
+**Trả về:**
+int
+### setPicturesCompression(int value) {#setPicturesCompression-int-}
+```
+public final void setPicturesCompression(int value)
+```
+
+Biểu diễn mức độ nén hình ảnh
+
+**Tham số:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### getDisableFontLigatures() {#getDisableFontLigatures--}
 ```
 public final boolean getDisableFontLigatures()
 ```
 
-
-Lấy hoặc đặt giá trị chỉ ra liệu văn bản có được hiển thị mà không sử dụng ligature hay không. Khi đặt thành true, các ligature sẽ bị tắt trong đầu ra được hiển thị. Mặc định, thuộc tính này được đặt là false.
+Lấy hoặc đặt giá trị chỉ ra liệu văn bản có được hiển thị mà không sử dụng ligature hay không. Khi được đặt thành true, ligature sẽ bị tắt trong đầu ra đã render. Mặc định, thuộc tính này được đặt là false.
 
 --------------------
 
@@ -310,8 +323,7 @@ boolean
 public final void setDisableFontLigatures(boolean value)
 ```
 
-
-Lấy hoặc đặt giá trị chỉ ra liệu văn bản có được hiển thị mà không sử dụng ligature hay không. Khi đặt thành true, các ligature sẽ bị tắt trong đầu ra được hiển thị. Mặc định, thuộc tính này được đặt là false.
+Lấy hoặc đặt giá trị chỉ ra liệu văn bản có được hiển thị mà không sử dụng ligature hay không. Khi được đặt thành true, ligature sẽ bị tắt trong đầu ra đã render. Mặc định, thuộc tính này được đặt là false.
 
 --------------------
 
@@ -330,7 +342,7 @@ Lấy hoặc đặt giá trị chỉ ra liệu văn bản có được hiển th
 > ```
 
 **Tham số:**
-| Tham số | Kiểu | Mô tả |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -339,8 +351,7 @@ Lấy hoặc đặt giá trị chỉ ra liệu văn bản có được hiển th
 public final ISlidesLayoutOptions getSlidesLayoutOptions()
 ```
 
-
-Lấy hoặc đặt chế độ mà các slide được đặt trên trang khi xuất bài thuyết trình [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+Lấy hoặc đặt chế độ sắp xếp các slide trên trang khi xuất bản trình chiếu [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
 
@@ -367,8 +378,7 @@ Lấy hoặc đặt chế độ mà các slide được đặt trên trang khi x
 public final void setSlidesLayoutOptions(ISlidesLayoutOptions value)
 ```
 
-
-Lấy hoặc đặt chế độ mà các slide được đặt trên trang khi xuất bài thuyết trình [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+Lấy hoặc đặt chế độ sắp xếp các slide trên trang khi xuất bản trình chiếu [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
 
@@ -389,6 +399,6 @@ Lấy hoặc đặt chế độ mà các slide được đặt trên trang khi x
 > ```
 
 **Tham số:**
-| Tham số | Kiểu | Mô tả |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) |  |

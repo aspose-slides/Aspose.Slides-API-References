@@ -1,11 +1,11 @@
 ---
 title: OpenAIWebClient
-second_title: Aspose.Slides untuk Android via Referensi API Java
-description: Klien web OpenAI ringan bawaan
+second_title: Referensi API Java Aspose.Slides untuk Android
+description: Implementasi bawaan yang terhubung ke API OpenAI.
 type: docs
 url: /id/com.aspose.slides/openaiwebclient/
 ---
-**Pewarisan:**
+**Keturunan:**
 java.lang.Object
 
 **Semua Antarmuka yang Diimplementasikan:**
@@ -14,73 +14,94 @@ java.lang.Object
 public class OpenAIWebClient implements IAIWebClient, Closeable
 ```
 
-Klien web OpenAI ringan bawaan
+Implementasi [IAIWebClient](../../com.aspose.slides/iaiwebclient) bawaan yang terhubung ke API OpenAI.
+
 ## Konstruktor
 
 | Konstruktor | Deskripsi |
 | --- | --- |
-| [OpenAIWebClient(String model, String apiKey, String organizationId)](#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-) | Membuat instance Klien Web OpenAI. |
-| [OpenAIWebClient(String model, String apiKey, String organizationId, HttpURLConnection httpClient)](#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | Membuat instance Klien Web OpenAI. |
+| [OpenAIWebClient(String model, String apiKey, String organizationId)](#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-) | Membuat sebuah instance dari klien web OpenAI. |
+| [OpenAIWebClient(String model, String apiKey, String organizationId, HttpURLConnection httpClient)](#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-) | Membuat sebuah instance dari klien web OpenAI yang menggunakan HttpClient yang dikelola secara eksternal. |
+
 ## Metode
 
 | Metode | Deskripsi |
 | --- | --- |
-| [callChat(String instruction)](#callChat-java.lang.String-) | Mengirim instruksi obrolan ke model AI menggunakan instance yang dikelola secara eksternal dan mengembalikan pesan respons ke instruksi yang diberikan. |
-| [createConversation()](#createConversation--) | Membuat instance percakapan. |
+| [callChat(String instruction)](#callChat-java.lang.String-) |  |
+| [createConversation()](#createConversation--) | Membuat sebuah instance percakapan. |
 | [close()](#close--) | Melepaskan sumber daya yang digunakan oleh instance ini. |
 ### OpenAIWebClient(String model, String apiKey, String organizationId) {#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-}
 ```
 public OpenAIWebClient(String model, String apiKey, String organizationId)
 ```
 
-
-Membuat instance Klien Web OpenAI.
+Membuat sebuah instance dari klien web OpenAI.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | model | java.lang.String | Model bahasa OpenAI. Nilai yang mungkin: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
-| apiKey | java.lang.String | Kunci API OpenAI |
-| organizationId | java.lang.String | ID Organisasi (opsional) |
+| apiKey | java.lang.String | Kunci API OpenAI. |
+| organizationId | java.lang.String | ID organisasi (opsional). |
 
+```
+using (OpenAIWebClient aiClient = new OpenAIWebClient("gpt-4o-mini", apiKey, null))
+ {
+     SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
+     using (Presentation presentation = new Presentation("Presentation.pptx"))
+     {
+         await aiAgent.TranslateAsync(presentation, "spanish");
+         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     }
+ }
+``` |
 ### OpenAIWebClient(String model, String apiKey, String organizationId, HttpURLConnection httpClient) {#OpenAIWebClient-java.lang.String-java.lang.String-java.lang.String-java.net.HttpURLConnection-}
 ```
 public OpenAIWebClient(String model, String apiKey, String organizationId, HttpURLConnection httpClient)
 ```
 
-
-Membuat instance Klien Web OpenAI.
+Membuat sebuah instance dari klien web OpenAI yang menggunakan HttpClient yang dikelola secara eksternal. HttpClient yang diberikan tidak dibuang oleh instance ini dan tetap dimiliki oleh pemanggil.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | model | java.lang.String | Model bahasa OpenAI. Nilai yang mungkin: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
 | apiKey | java.lang.String | Kunci API OpenAI |
-| organizationId | java.lang.String | ID Organisasi (opsional) |
-| httpClient | java.net.HttpURLConnection | Instance HttpURLConnection yang dikelola secara eksternal. |
+| organizationId | java.lang.String | ID organisasi (opsional) |
+| httpClient | java.net.HttpURLConnection | Sebuah instance HttpClient yang dikelola secara eksternal |
 
+```
+using (HttpClient httpClient = new HttpClient())
+ {
+     OpenAIWebClient aiClient = new OpenAIWebClient("gpt-4o-mini", apiKey, null, httpClient);
+     SlidesAIAgent aiAgent = new SlidesAIAgent(aiClient);
+     using (Presentation presentation = new Presentation("Presentation.pptx"))
+     {
+         await aiAgent.TranslateAsync(presentation, "spanish");
+         presentation.Save("translated.pptx", SaveFormat.Pptx);
+     }
+ }
+``` |
 ### callChat(String instruction) {#callChat-java.lang.String-}
 ```
 public String callChat(String instruction)
 ```
 
-
-Mengirim instruksi obrolan ke model AI menggunakan instance yang dikelola secara eksternal dan mengembalikan pesan respons ke instruksi yang diberikan.
+Mengirim instruksi obrolan ke model AI menggunakan instance HttpConnection yang disediakan dan mengembalikan pesan respons ke instruksi yang diberikan.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| instruction | java.lang.String | Instruksi atau pesan yang akan diproses oleh model AI |
+| instruction | java.lang.String |  |
 
 **Mengembalikan:**
-java.lang.String - Pesan yang dihasilkan oleh model AI sebagai respons terhadap instruksi yang diberikan.
+java.lang.String
 ### createConversation() {#createConversation--}
 ```
 public final IAIConversation createConversation()
 ```
 
-
-Membuat instance percakapan. Tidak seperti panggilan AI biasa, percakapan mempertahankan seluruh konteks.
+Membuat sebuah instance percakapan. Tidak seperti panggilan AI biasa, percakapan mempertahankan seluruh konteks.
 
 **Mengembalikan:**
 [IAIConversation](../../com.aspose.slides/iaiconversation) - Sebuah [IAIConversation](../../com.aspose.slides/iaiconversation) instance.
@@ -88,6 +109,5 @@ Membuat instance percakapan. Tidak seperti panggilan AI biasa, percakapan memper
 ```
 public final void close()
 ```
-
 
 Melepaskan sumber daya yang digunakan oleh instance ini.

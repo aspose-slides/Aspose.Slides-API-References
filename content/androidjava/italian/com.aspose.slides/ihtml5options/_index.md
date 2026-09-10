@@ -1,6 +1,6 @@
 ---
 title: IHtml5Options
-second_title: Riferimento API Java per Aspose.Slides per Android
+second_title: Aspose.Slides per Android tramite Java API Reference
 description: Rappresenta le opzioni di esportazione HTML5.
 type: docs
 url: /it/com.aspose.slides/ihtml5options/
@@ -29,7 +29,6 @@ Rappresenta le opzioni di esportazione HTML5.
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-
 ## Metodi
 
 | Metodo | Descrizione |
@@ -42,17 +41,18 @@ Rappresenta le opzioni di esportazione HTML5.
 | [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Restituisce o imposta l'opzione di incorporamento delle immagini. |
 | [getOutputPath()](#getOutputPath--) | Determina dove devono essere archiviati le risorse esterne. |
 | [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Determina dove devono essere archiviati le risorse esterne. |
-| [getDisableFontLigatures()](#getDisableFontLigatures--) | Ottiene o imposta un valore che indica se il testo è renderizzato senza utilizzare le legature. |
-| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Ottiene o imposta un valore che indica se il testo è renderizzato senza utilizzare le legature. |
-| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Ottiene o imposta la modalità in cui le diapositive sono collocate nella pagina durante l'esportazione di una presentazione [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
-| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Ottiene o imposta la modalità in cui le diapositive sono collocate nella pagina durante l'esportazione di una presentazione [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
-
+| [getPicturesCompression()](#getPicturesCompression--) | Rappresenta il livello di compressione delle immagini Lettura/scrittura PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
+| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Rappresenta il livello di compressione delle immagini Lettura/scrittura PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
+| [getDisableFontLigatures()](#getDisableFontLigatures--) | Ottiene o imposta un valore che indica se il testo viene renderizzato senza utilizzare le legature. |
+| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Ottiene o imposta un valore che indica se il testo viene renderizzato senza utilizzare le legature. |
+| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Ottiene o imposta la modalità in cui le diapositive vengono posizionate nella pagina durante l'esportazione di una presentazione [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Ottiene o imposta la modalità in cui le diapositive vengono posizionate nella pagina durante l'esportazione di una presentazione [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 ### getAnimateTransitions() {#getAnimateTransitions--}
 ```
 public abstract boolean getAnimateTransitions()
 ```
 
-Restituisce o imposta l'opzione di animazione delle transizioni. Lettura/scrittura boolean.
+Restituisce o imposta l'opzione di animazione delle transizioni. Lettura/scrittura booleano.
 
 --------------------
 
@@ -77,7 +77,7 @@ boolean
 public abstract void setAnimateTransitions(boolean value)
 ```
 
-Restituisce o imposta l'opzione di animazione delle transizioni. Lettura/scrittura boolean.
+Restituisce o imposta l'opzione di animazione delle transizioni. Lettura/scrittura booleano.
 
 --------------------
 
@@ -105,7 +105,7 @@ Restituisce o imposta l'opzione di animazione delle transizioni. Lettura/scrittu
 public abstract boolean getAnimateShapes()
 ```
 
-Restituisce o imposta l'opzione di animazione delle forme. Lettura/scrittura boolean.
+Restituisce o imposta l'opzione di animazione delle forme. Lettura/scrittura booleano.
 
 --------------------
 
@@ -130,7 +130,7 @@ boolean
 public abstract void setAnimateShapes(boolean value)
 ```
 
-Restituisce o imposta l'opzione di animazione delle forme. Lettura/scrittura boolean.
+Restituisce o imposta l'opzione di animazione delle forme. Lettura/scrittura booleano.
 
 --------------------
 
@@ -158,7 +158,7 @@ Restituisce o imposta l'opzione di animazione delle forme. Lettura/scrittura boo
 public abstract boolean getEmbedImages()
 ```
 
-Restituisce o imposta l'opzione di incorporamento delle immagini. Lettura/scrittura boolean.
+Restituisce o imposta l'opzione di incorporamento delle immagini. Lettura/scrittura booleano.
 
 --------------------
 
@@ -182,7 +182,7 @@ boolean
 public abstract void setEmbedImages(boolean value)
 ```
 
-Restituisce o imposta l'opzione di incorporamento delle immagini. Lettura/scrittura boolean.
+Restituisce o imposta l'opzione di incorporamento delle immagini. Lettura/scrittura booleano.
 
 --------------------
 
@@ -209,7 +209,7 @@ Restituisce o imposta l'opzione di incorporamento delle immagini. Lettura/scritt
 public abstract String getOutputPath()
 ```
 
-Determina dove devono essere archiviati le risorse esterne. Lettura/scrittura String.
+Determina dove devono essere archiviati le risorse esterne. Lettura/scrittura Stringa.
 
 --------------------
 
@@ -234,7 +234,7 @@ java.lang.String
 public abstract void setOutputPath(String value)
 ```
 
-Determina dove devono essere archiviati le risorse esterne. Lettura/scrittura String.
+Determina dove devono essere archiviati le risorse esterne. Lettura/scrittura Stringa.
 
 --------------------
 
@@ -257,12 +257,33 @@ Determina dove devono essere archiviati le risorse esterne. Lettura/scrittura St
 | --- | --- | --- |
 | value | java.lang.String |  |
 
+### getPicturesCompression() {#getPicturesCompression--}
+```
+public abstract int getPicturesCompression()
+```
+
+Rappresenta il livello di compressione delle immagini Lettura/scrittura PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
+
+**Restituisce:**
+int
+### setPicturesCompression(int value) {#setPicturesCompression-int-}
+```
+public abstract void setPicturesCompression(int value)
+```
+
+Rappresenta il livello di compressione delle immagini Lettura/scrittura PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
+
+**Parametri:**
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| value | int |  |
+
 ### getDisableFontLigatures() {#getDisableFontLigatures--}
 ```
 public abstract boolean getDisableFontLigatures()
 ```
 
-Ottiene o imposta un valore che indica se il testo è renderizzato senza utilizzare le legature. Quando impostato su true, le legature saranno disabilitate nell'output renderizzato. Per impostazione predefinita, questa proprietà è impostata su false.
+Ottiene o imposta un valore che indica se il testo viene renderizzato senza utilizzare le legature. Quando impostato a true, le legature verranno disabilitate nell'output renderizzato. Per impostazione predefinita, questa proprietà è impostata su false.
 
 --------------------
 
@@ -287,7 +308,7 @@ boolean
 public abstract void setDisableFontLigatures(boolean value)
 ```
 
-Ottiene o imposta un valore che indica se il testo è renderizzato senza utilizzare le legature. Quando impostato su true, le legature saranno disabilitate nell'output renderizzato. Per impostazione predefinita, questa proprietà è impostata su false.
+Ottiene o imposta un valore che indica se il testo viene renderizzato senza utilizzare le legature. Quando impostato a true, le legature verranno disabilitate nell'output renderizzato. Per impostazione predefinita, questa proprietà è impostata su false.
 
 --------------------
 
@@ -315,7 +336,7 @@ Ottiene o imposta un valore che indica se il testo è renderizzato senza utilizz
 public abstract ISlidesLayoutOptions getSlidesLayoutOptions()
 ```
 
-Ottiene o imposta la modalità in cui le diapositive sono collocate nella pagina durante l'esportazione di una presentazione [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+Ottiene o imposta la modalità in cui le diapositive vengono posizionate nella pagina durante l'esportazione di una presentazione [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
 
@@ -342,7 +363,7 @@ Ottiene o imposta la modalità in cui le diapositive sono collocate nella pagina
 public abstract void setSlidesLayoutOptions(ISlidesLayoutOptions value)
 ```
 
-Ottiene o imposta la modalità in cui le diapositive sono collocate nella pagina durante l'esportazione di una presentazione [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+Ottiene o imposta la modalità in cui le diapositive vengono posizionate nella pagina durante l'esportazione di una presentazione [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
 

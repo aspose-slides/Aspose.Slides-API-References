@@ -5,7 +5,7 @@ description: Representa opções de exportação HTML5.
 type: docs
 url: /pt/com.aspose.slides/ihtml5options/
 ---
-**Todas as interfaces implementadas:**
+**Todas as Interfaces Implementadas:**
 [com.aspose.slides.ISaveOptions](../../com.aspose.slides/isaveoptions)
 ```
 public interface IHtml5Options extends ISaveOptions
@@ -33,25 +33,28 @@ Representa opções de exportação HTML5.
 
 | Método | Descrição |
 | --- | --- |
-| [getAnimateTransitions()](#getAnimateTransitions--) | Retorna ou define a opção de animação de transição. |
-| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | Retorna ou define a opção de animação de transição. |
-| [getAnimateShapes()](#getAnimateShapes--) | Retorna ou define a opção de animação de formas. |
-| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Retorna ou define a opção de animação de formas. |
-| [getEmbedImages()](#getEmbedImages--) | Retorna ou define a opção de incorporação de imagens. |
-| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Retorna ou define a opção de incorporação de imagens. |
+| [getAnimateTransitions()](#getAnimateTransitions--) | Obtém ou define a opção de animação de transições. |
+| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | Obtém ou define a opção de animação de transições. |
+| [getAnimateShapes()](#getAnimateShapes--) | Obtém ou define a opção de animação de formas. |
+| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Obtém ou define a opção de animação de formas. |
+| [getEmbedImages()](#getEmbedImages--) | Obtém ou define a opção de incorporação de imagens. |
+| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Obtém ou define a opção de incorporação de imagens. |
 | [getOutputPath()](#getOutputPath--) | Determina onde os recursos externos devem ser armazenados. |
 | [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Determina onde os recursos externos devem ser armazenados. |
-| [getDisableFontLigatures()](#getDisableFontLigatures--) | Obtém ou define um valor que indica se o texto é renderizado sem usar ligaturas. |
-| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Obtém ou define um valor que indica se o texto é renderizado sem usar ligaturas. |
-| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Obtém ou define o modo em que os slides são colocados na página ao exportar uma apresentação [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
-| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Obtém ou define o modo em que os slides são colocados na página ao exportar uma apresentação [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [getPicturesCompression()](#getPicturesCompression--) | Representa o nível de compressão das imagens Leitura/Gravação PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
+| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Representa o nível de compressão das imagens Leitura/Gravação PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
+| [getDisableFontLigatures()](#getDisableFontLigatures--) | Obtém ou define um valor que indica se o texto é renderizado sem usar ligaduras. |
+| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Obtém ou define um valor que indica se o texto é renderizado sem usar ligaduras. |
+| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Obtém ou define o modo como os slides são posicionados na página ao exportar uma apresentação [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Obtém ou define o modo como os slides são posicionados na página ao exportar uma apresentação [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+
 ### getAnimateTransitions() {#getAnimateTransitions--}
 ```
 public abstract boolean getAnimateTransitions()
 ```
 
 
-Retorna ou define a opção de animação de transição. Leitura/gravação boolean.
+Obtém ou define a opção de animação de transições. Leitura/Gravação boolean.
 
 --------------------
 
@@ -77,7 +80,7 @@ public abstract void setAnimateTransitions(boolean value)
 ```
 
 
-Retorna ou define a opção de animação de transição. Leitura/gravação boolean.
+Obtém ou define a opção de animação de transições. Leitura/Gravação boolean.
 
 --------------------
 
@@ -96,7 +99,7 @@ Retorna ou define a opção de animação de transição. Leitura/gravação boo
 > ```
 
 **Parâmetros:**
-| Parâmetro | Tipo | Descrição |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -106,7 +109,7 @@ public abstract boolean getAnimateShapes()
 ```
 
 
-Retorna ou define a opção de animação de formas. Leitura/gravação boolean.
+Obtém ou define a opção de animação de formas. Leitura/Gravação boolean.
 
 --------------------
 
@@ -132,7 +135,7 @@ public abstract void setAnimateShapes(boolean value)
 ```
 
 
-Retorna ou define a opção de animação de formas. Leitura/gravação boolean.
+Obtém ou define a opção de animação de formas. Leitura/Gravação boolean.
 
 --------------------
 
@@ -151,7 +154,7 @@ Retorna ou define a opção de animação de formas. Leitura/gravação boolean.
 > ```
 
 **Parâmetros:**
-| Parâmetro | Tipo | Descrição |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -161,7 +164,7 @@ public abstract boolean getEmbedImages()
 ```
 
 
-Retorna ou define a opção de incorporação de imagens. Leitura/gravação boolean.
+Obtém ou define a opção de incorporação de imagens. Leitura/Gravação boolean.
 
 --------------------
 
@@ -180,13 +183,13 @@ Retorna ou define a opção de incorporação de imagens. Leitura/gravação boo
 
 **Retorna:**
 boolean
-### setEmbedImages(String value) {#setEmbedImages-boolean-}
+### setEmbedImages(boolean value) {#setEmbedImages-boolean-}
 ```
 public abstract void setEmbedImages(boolean value)
 ```
 
 
-Retorna ou define a opção de incorporação de imagens. Leitura/gravação String.
+Obtém ou define a opção de incorporação de imagens. Leitura/Gravação boolean.
 
 --------------------
 
@@ -204,7 +207,7 @@ Retorna ou define a opção de incorporação de imagens. Leitura/gravação Str
 > ```
 
 **Parâmetros:**
-| Parâmetro | Tipo | Descrição |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -214,7 +217,7 @@ public abstract String getOutputPath()
 ```
 
 
-Determina onde os recursos externos devem ser armazenados. Leitura/gravação String.
+Determina onde os recursos externos devem ser armazenados. Leitura/Gravação String.
 
 --------------------
 
@@ -240,7 +243,7 @@ public abstract void setOutputPath(String value)
 ```
 
 
-Determina onde os recursos externos devem ser armazenados. Leitura/gravação String.
+Determina onde os recursos externos devem ser armazenados. Leitura/Gravação String.
 
 --------------------
 
@@ -259,9 +262,32 @@ Determina onde os recursos externos devem ser armazenados. Leitura/gravação St
 > ```
 
 **Parâmetros:**
-| Parâmetro | Tipo | Descrição |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### getPicturesCompression() {#getPicturesCompression--}
+```
+public abstract int getPicturesCompression()
+```
+
+
+Representa o nível de compressão das imagens Leitura/Gravação PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
+
+**Retorna:**
+int
+### setPicturesCompression(int value) {#setPicturesCompression-int-}
+```
+public abstract void setPicturesCompression(int value)
+```
+
+
+Representa o nível de compressão das imagens Leitura/Gravação PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
+
+**Parâmetros:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### getDisableFontLigatures() {#getDisableFontLigatures--}
 ```
@@ -269,7 +295,7 @@ public abstract boolean getDisableFontLigatures()
 ```
 
 
-Obtém ou define um valor que indica se o texto é renderizado sem usar ligaturas. Quando definido como true, as ligaturas serão desativadas na saída renderizada. Por padrão, esta propriedade está definida como false.
+Obtém ou define um valor que indica se o texto é renderizado sem usar ligaduras. Quando definido como true, as ligaduras serão desativadas na saída renderizada. Por padrão, esta propriedade é definida como false.
 
 --------------------
 
@@ -295,7 +321,7 @@ public abstract void setDisableFontLigatures(boolean value)
 ```
 
 
-Obtém ou define um valor que indica se o texto é renderizado sem usar ligaturas. Quando definido como true, as ligaturas serão desativadas na saída renderizada. Por padrão, esta propriedade está definida como false.
+Obtém ou define um valor que indica se o texto é renderizado sem usar ligaduras. Quando definido como true, as ligaduras serão desativadas na saída renderizada. Por padrão, esta propriedade é definida como false.
 
 --------------------
 
@@ -314,7 +340,7 @@ Obtém ou define um valor que indica se o texto é renderizado sem usar ligatura
 > ```
 
 **Parâmetros:**
-| Parâmetro | Tipo | Descrição |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -324,7 +350,7 @@ public abstract ISlidesLayoutOptions getSlidesLayoutOptions()
 ```
 
 
-Obtém ou define o modo em que os slides são colocados na página ao exportar uma apresentação [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+Obtém ou define o modo como os slides são posicionados na página ao exportar uma apresentação [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
 
@@ -352,7 +378,7 @@ public abstract void setSlidesLayoutOptions(ISlidesLayoutOptions value)
 ```
 
 
-Obtém ou define o modo em que os slides são colocados na página ao exportar uma apresentação [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+Obtém ou define o modo como os slides são posicionados na página ao exportar uma apresentação [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
 
@@ -373,6 +399,6 @@ Obtém ou define o modo em que os slides são colocados na página ao exportar u
 > ```
 
 **Parâmetros:**
-| Parâmetro | Tipo | Descrição |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) |  |

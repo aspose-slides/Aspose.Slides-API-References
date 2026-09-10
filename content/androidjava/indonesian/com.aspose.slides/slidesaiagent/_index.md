@@ -1,6 +1,6 @@
 ---
 title: SlidesAIAgent
-second_title: Aspose.Slides untuk Android via Referensi API Java
+second_title: Referensi API Java Aspose.Slides untuk Android
 description: Menyediakan fitur berbasis AI untuk memproses presentasi.
 type: docs
 url: /id/com.aspose.slides/slidesaiagent/
@@ -16,38 +16,53 @@ Menyediakan fitur berbasis AI untuk memproses presentasi.
 
 | Konstruktor | Deskripsi |
 | --- | --- |
-| [SlidesAIAgent(IAIWebClient aiClient)](#SlidesAIAgent-com.aspose.slides.IAIWebClient-) | SlidesAIAgent constructor |
+| [SlidesAIAgent(IAIWebClient aiClient)](#SlidesAIAgent-com.aspose.slides.IAIWebClient-) | Menginisialisasi sebuah instance baru dari [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) dengan klien AI khusus. |
+| [SlidesAIAgent()](#SlidesAIAgent--) | Menginisialisasi sebuah instance baru dari [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) menggunakan [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient) bawaan dengan konfigurasi defaultnya. |
 ## Metode
 
 | Metode | Deskripsi |
 | --- | --- |
-| [translate(IPresentation presentation, String language)](#translate-com.aspose.slides.IPresentation-java.lang.String-) | Translates a presentation to the specified language using AI (synchronous version). |
-| [generatePresentation(String description, int presentationContentAmount)](#generatePresentation-java.lang.String-int-) | Generates a presentation instance from a text description. |
-| [generatePresentation(String description, int presentationContentAmount, IPresentation presentationTemplate)](#generatePresentation-java.lang.String-int-com.aspose.slides.IPresentation-) | Generates a presentation instance from a text description. |
+| [translate(IPresentation presentation, String language)](#translate-com.aspose.slides.IPresentation-java.lang.String-) | Menerjemahkan sebuah presentasi ke bahasa yang ditentukan menggunakan AI (versi sinkron). |
+| [generatePresentation(String description, int presentationContentAmount)](#generatePresentation-java.lang.String-int-) | Menghasilkan sebuah instance presentasi dari deskripsi teks. |
+| [generatePresentation(String description, int presentationContentAmount, IPresentation presentationTemplate)](#generatePresentation-java.lang.String-int-com.aspose.slides.IPresentation-) | Menghasilkan sebuah instance presentasi dari deskripsi teks. |
 ### SlidesAIAgent(IAIWebClient aiClient) {#SlidesAIAgent-com.aspose.slides.IAIWebClient-}
 ```
 public SlidesAIAgent(IAIWebClient aiClient)
 ```
 
-Konstruktor SlidesAIAgent
+
+Menginisialisasi sebuah instance baru dari [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) dengan klien AI khusus. Gunakan overload ini untuk menentukan penyedia AI, menyediakan LLM Anda sendiri, atau menyesuaikan koneksi (misalnya, dengan menyediakan java.net.HttpURLConnection Anda sendiri). Implementasi apa pun dari [IAIWebClient](../../com.aspose.slides/iaiwebclient) dapat digunakan. Untuk menggunakan [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient) bawaan dengan konfigurasi defaultnya, gunakan overload SlidesAIAgent() sebagai gantinya.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| aiClient | [IAIWebClient](../../com.aspose.slides/iaiwebclient) | AI client instance |
+| aiClient | [IAIWebClient](../../com.aspose.slides/iaiwebclient) | Instance klien AI. Implementasi apa pun dari [IAIWebClient](../../com.aspose.slides/iaiwebclient) dapat digunakan. |
+
+### SlidesAIAgent() {#SlidesAIAgent--}
+```
+public SlidesAIAgent()
+```
+
+
+Menginisialisasi sebuah instance baru dari [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) menggunakan [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient) bawaan dengan konfigurasi defaultnya. Klien terhubung ke LLM milik Aspose dan tidak memerlukan konfigurasi tambahan. Untuk menggunakan klien AI yang berbeda, gunakan overload SlidesAIAgent(IAIWebClient) sebagai gantinya.
 
 ### translate(IPresentation presentation, String language) {#translate-com.aspose.slides.IPresentation-java.lang.String-}
 ```
-public void translate(IPresentation presentation, String language)
+public final void translate(IPresentation presentation, String language)
 ```
 
-Menerjemahkan presentasi ke bahasa yang ditentukan menggunakan AI (versi sinkron).
+
+Menerjemahkan sebuah presentasi ke bahasa yang ditentukan menggunakan AI (versi sinkron).
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | presentation | [IPresentation](../../com.aspose.slides/ipresentation) | Presentasi target |
 | language | java.lang.String | Bahasa target
+
+--------------------
+
+Contoh di bawah menggunakan [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient) default, yang dibuat oleh konstruktor SlidesAIAgent() tanpa parameter dan terhubung ke LLM milik Aspose. Untuk menggunakan penyedia AI yang berbeda, sediakan LLM Anda sendiri, atau sesuaikan koneksi (misalnya, dengan menyediakan java.net.HttpURLConnection Anda sendiri), berikan sebuah implementasi [IAIWebClient](../../com.aspose.slides/iaiwebclient) ke konstruktor SlidesAIAgent(IAIWebClient).
 
 ```
 Presentation presentation = new Presentation("Presentation.pptx");
@@ -66,12 +81,13 @@ Presentation presentation = new Presentation("Presentation.pptx");
 public final IPresentation generatePresentation(String description, int presentationContentAmount)
 ```
 
-Menghasilkan instance presentasi dari deskripsi teks. Berikan topik, ide, kutipan, atau potongan teks dalam bahasa yang diperlukan.
+
+Menghasilkan sebuah instance presentasi dari deskripsi teks. Berikan topik, ide, kutipan, atau cuplikan teks dalam bahasa yang diperlukan.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| description | java.lang.String | Topik, ide, kutipan, atau potongan teks. |
+| description | java.lang.String | Topik, ide, kutipan, atau cuplikan teks. |
 | presentationContentAmount | int | Jumlah konten dalam presentasi yang dihasilkan.
 
 ```
@@ -93,14 +109,19 @@ String prompt = "Generate a presentation about Aspose.Slides for Android via Jav
 public final IPresentation generatePresentation(String description, int presentationContentAmount, IPresentation presentationTemplate)
 ```
 
-Menghasilkan instance presentasi dari deskripsi teks. Berikan topik, ide, kutipan, atau potongan teks dalam bahasa yang diperlukan.
+
+Menghasilkan sebuah instance presentasi dari deskripsi teks. Berikan topik, ide, kutipan, atau cuplikan teks dalam bahasa yang diperlukan.
 
 **Parameter:**
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| description | java.lang.String | Topik, ide, kutipan, atau potongan teks. |
+| description | java.lang.String | Topik, ide, kutipan, atau cuplikan teks. |
 | presentationContentAmount | int | Jumlah konten dalam presentasi yang dihasilkan. |
 | presentationTemplate | [IPresentation](../../com.aspose.slides/ipresentation) | Presentasi yang digunakan sebagai templat untuk tata letak dan desain, menggantikan templat default.
+
+--------------------
+
+Contoh di bawah menggunakan [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient) default, yang dibuat oleh konstruktor SlidesAIAgent() tanpa parameter dan terhubung ke LLM milik Aspose. Untuk menggunakan penyedia AI yang berbeda, sediakan LLM Anda sendiri, atau sesuaikan koneksi (misalnya, dengan menyediakan java.net.HttpURLConnection Anda sendiri), berikan sebuah implementasi [IAIWebClient](../../com.aspose.slides/iaiwebclient) ke konstruktor SlidesAIAgent(IAIWebClient).
 
 ```
 String prompt = "Generate a presentation about Aspose.Slides for Android via Java. Highlight its key features, use cases, and explain why it is better than its competitors.";

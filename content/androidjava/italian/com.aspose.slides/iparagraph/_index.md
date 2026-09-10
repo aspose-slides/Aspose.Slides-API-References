@@ -1,6 +1,6 @@
 ---
 title: IParagraph
-second_title: Aspose.Slides per Android tramite Riferimento API Java
+second_title: Aspose.Slides per Android tramite API di riferimento Java
 description: Rappresenta un paragrafo di testo.
 type: docs
 url: /it/com.aspose.slides/iparagraph/
@@ -16,13 +16,15 @@ Rappresenta un paragrafo di testo.
 
 | Metodo | Descrizione |
 | --- | --- |
-| [getPortions()](#getPortions--) | Restituisce la collezione di porzioni di testo. |
+| [getPortions()](#getPortions--) | Restituisce la raccolta di porzioni di testo. |
 | [getParagraphFormat()](#getParagraphFormat--) | Restituisce l'oggetto di formattazione per questo paragrafo. |
-| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Unisce i run con la stessa formattazione. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Unisce le sequenze con la stessa formattazione. |
 | [getText()](#getText--) | Ottiene o imposta il testo semplice di un paragrafo. |
 | [setText(String value)](#setText-java.lang.String-) | Ottiene o imposta il testo semplice di un paragrafo. |
 | [getRect()](#getRect--) | Ottiene le coordinate del rettangolo che delimita il paragrafo. |
-| [getLinesCount()](#getLinesCount--) | Ottiene il numero di linee in un paragrafo. |
+| [getLinesCount()](#getLinesCount--) | Ottiene il numero di righe in un paragrafo. |
+| [getImage()](#getImage--) | Restituisce un'immagine del paragrafo. |
+| [getImage(float scaleX, float scaleY)](#getImage-float-float-) | Restituisce un'immagine del paragrafo con la scala specificata. |
 | [getEndParagraphPortionFormat()](#getEndParagraphPortionFormat--) | Specifica le proprietà della porzione da utilizzare se un'altra porzione viene inserita dopo l'ultima. |
 | [setEndParagraphPortionFormat(IPortionFormat value)](#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-) | Specifica le proprietà della porzione da utilizzare se un'altra porzione viene inserita dopo l'ultima. |
 ### getPortions() {#getPortions--}
@@ -31,7 +33,7 @@ public abstract IPortionCollection getPortions()
 ```
 
 
-Restituisce la collezione di porzioni di testo. Sola lettura [IPortionCollection](../../com.aspose.slides/iportioncollection).
+Restituisce la raccolta di porzioni di testo. Solo lettura [IPortionCollection](../../com.aspose.slides/iportioncollection).
 
 **Restituisce:**
 [IPortionCollection](../../com.aspose.slides/iportioncollection)
@@ -41,7 +43,7 @@ public abstract IParagraphFormat getParagraphFormat()
 ```
 
 
-Restituisce l'oggetto di formattazione per questo paragrafo. Sola lettura [IParagraphFormat](../../com.aspose.slides/iparagraphformat).
+Restituisce l'oggetto di formattazione per questo paragrafo. Solo lettura [IParagraphFormat](../../com.aspose.slides/iparagraphformat).
 
 **Restituisce:**
 [IParagraphFormat](../../com.aspose.slides/iparagraphformat)
@@ -51,7 +53,7 @@ public abstract void joinPortionsWithSameFormatting()
 ```
 
 
-Unisce i run con la stessa formattazione.
+Unisce le sequenze con la stessa formattazione.
 
 ### getText() {#getText--}
 ```
@@ -59,7 +61,7 @@ public abstract String getText()
 ```
 
 
-Ottiene o imposta il testo semplice di un paragrafo. Lettura/scrittura String.
+Ottiene o imposta il testo semplice di un paragrafo. Lettura/Scrittura String.
 
 Valore: Il testo.
 
@@ -71,7 +73,7 @@ public abstract void setText(String value)
 ```
 
 
-Ottiene o imposta il testo semplice di un paragrafo. Lettura/scrittura String.
+Ottiene o imposta il testo semplice di un paragrafo. Lettura/Scrittura String.
 
 Valore: Il testo.
 
@@ -86,7 +88,7 @@ public abstract RectF getRect()
 ```
 
 
-Ottiene le coordinate del rettangolo che delimita il paragrafo. Il rettangolo include tutte le linee di testo nel paragrafo, incluse quelle vuote.
+Ottiene le coordinate del rettangolo che delimita il paragrafo. Il rettangolo include tutte le righe di testo nel paragrafo, comprese quelle vuote.
 
 **Restituisce:**
 android.graphics.RectF - Rettangolo che delimita il paragrafo android.graphics.RectF
@@ -96,7 +98,7 @@ public abstract int getLinesCount()
 ```
 
 
-Ottiene il numero di linee in un paragrafo.
+Ottiene il numero di righe in un paragrafo.
 
 --------------------
 
@@ -116,15 +118,100 @@ Ottiene il numero di linee in un paragrafo.
 >  }
 > ```
 
+
 **Restituisce:**
-int - Conteggio delle linee in un paragrafo
+int - Conteggio delle righe in un paragrafo
+### getImage() {#getImage--}
+```
+public abstract IImage getImage()
+```
+
+
+Restituisce un'immagine del paragrafo.
+
+--------------------
+
+> ```
+> The following example shows how to render a paragraph as an image:
+>   
+>  Presentation pres = new Presentation();
+>  try {
+>      IAutoShape shape = pres.getSlides().get_Item(0).getShapes().addAutoShape(
+>          ShapeType.Rectangle, 50, 50, 150, 50);
+>      IParagraph paragraph = shape.getTextFrame().getParagraphs().get_Item(0);
+>      paragraph.setText("Aspose Paragraph GetImage() Example");
+>      IImage paragraphImage = paragraph.getImage();
+>      try {
+>          paragraphImage.save("paragraph.png");
+>      } finally {
+>          if (paragraphImage != null) paragraphImage.dispose();
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Restituisce:**
+[IImage](../../com.aspose.slides/iimage) - Un'immagine contenente il paragrafo renderizzato, oppure null se il paragrafo non può essere trovato nella sua collezione padre, non ha limiti di rendering validi, o si verifica un errore durante il rendering dell'immagine.
+### getImage(float scaleX, float scaleY) {#getImage-float-float-}
+```
+public abstract IImage getImage(float scaleX, float scaleY)
+```
+
+
+Restituisce un'immagine del paragrafo con la scala specificata.
+
+--------------------
+
+> ```
+> The following example shows how to render each text box paragraph on a slide as an image with custom scaling:
+>   
+>  Presentation pres = new Presentation("sample.pptx");
+>  try {
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      int shapeIndex = 0;
+>      for (IShape shape : slide.getShapes())
+>      {
+>          shapeIndex++;
+>          if (shape instanceof IAutoShape) {
+>              IAutoShape autoShape = (IAutoShape)shape;
+>              int paragraphIndex = 0;
+>              for (IParagraph paragraph : autoShape.getTextFrame().getParagraphs())
+>              {
+>                  paragraphIndex++;
+>                  IImage paragraphImage = paragraph.getImage(2f, 2f);
+>                  try {
+>                      if (paragraphImage != null)
+>                          paragraphImage.save("shape"+shapeIndex+"_paragraph"+paragraphIndex+".png");
+> 
+>                  } finally {
+>                      if (paragraphImage != null) paragraphImage.dispose();
+>                  }
+>              }
+>          }
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+
+**Parametri:**
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| scaleX | float | Il fattore di scala orizzontale applicato all'immagine del paragrafo. |
+| scaleY | float | Il fattore di scala verticale applicato all'immagine del paragrafo. |
+
+**Restituisce:**
+[IImage](../../com.aspose.slides/iimage) - Un'immagine contenente il paragrafo renderizzato, oppure null se il paragrafo non può essere trovato nella sua collezione padre, non ha limiti di rendering validi, o si verifica un errore durante il rendering dell'immagine.
 ### getEndParagraphPortionFormat() {#getEndParagraphPortionFormat--}
 ```
 public abstract IPortionFormat getEndParagraphPortionFormat()
 ```
 
 
-Specifică le proprietà della porzione da utilizzare se un'altra porzione viene inserita dopo l'ultima.
+Specifica le proprietà della porzione da utilizzare se un'altra porzione viene inserita dopo l'ultima.
 
 **Restituisce:**
 [IPortionFormat](../../com.aspose.slides/iportionformat)
@@ -134,7 +221,7 @@ public abstract void setEndParagraphPortionFormat(IPortionFormat value)
 ```
 
 
-Specifică le proprietà della porzione da utilizzare se un'altra porzione viene inserita dopo l'ultima.
+Specifica le proprietà della porzione da utilizzare se un'altra porzione viene inserita dopo l'ultima.
 
 **Parametri:**
 | Parametro | Tipo | Descrizione |

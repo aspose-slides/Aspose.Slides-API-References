@@ -1,7 +1,7 @@
 ---
 title: IHtml5Options
 second_title: Aspose.Slides для Android через справочник Java API
-description: Представляет параметры экспорта в HTML5.
+description: Представляет параметры экспорта HTML5.
 type: docs
 url: /ru/com.aspose.slides/ihtml5options/
 ---
@@ -11,7 +11,7 @@ url: /ru/com.aspose.slides/ihtml5options/
 public interface IHtml5Options extends ISaveOptions
 ```
 
-Представляет параметры экспорта в HTML5.
+Представляет параметры экспорта HTML5.
 
 --------------------
 
@@ -33,24 +33,27 @@ public interface IHtml5Options extends ISaveOptions
 
 | Метод | Описание |
 | --- | --- |
-| [getAnimateTransitions()](#getAnimateTransitions--) | Возвращает или задаёт параметр анимации переходов. |
-| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | Возвращает или задаёт параметр анимации переходов. |
-| [getAnimateShapes()](#getAnimateShapes--) | Возвращает или задаёт параметр анимации фигур. |
-| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Возвращает или задаёт параметр анимации фигур. |
-| [getEmbedImages()](#getEmbedImages--) | Возвращает или задаёт параметр встраивания изображений. |
-| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Возвращает или задаёт параметр встраивания изображений. |
+| [getAnimateTransitions()](#getAnimateTransitions--) | Возвращает или задает параметр анимации переходов. |
+| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | Возвращает или задает параметр анимации переходов. |
+| [getAnimateShapes()](#getAnimateShapes--) | Возвращает или задает параметр анимации фигур. |
+| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Возвращает или задает параметр анимации фигур. |
+| [getEmbedImages()](#getEmbedImages--) | Возвращает или задает параметр встраивания изображений. |
+| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Возвращает или задает параметр встраивания изображений. |
 | [getOutputPath()](#getOutputPath--) | Определяет, где следует хранить внешние ресурсы. |
 | [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Определяет, где следует хранить внешние ресурсы. |
-| [getDisableFontLigatures()](#getDisableFontLigatures--) | Получает или задаёт значение, указывающее, отображается ли текст без использования лигатур. |
-| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Получает или задаёт значение, указывающее, отображается ли текст без использования лигатур. |
-| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Получает или задаёт режим размещения слайдов на странице при экспорте презентации [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
-| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Получает или задаёт режим размещения слайдов на странице при экспорте презентации [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [getPicturesCompression()](#getPicturesCompression--) | Представляет уровень сжатия изображений Чтение/запись PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
+| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Представляет уровень сжатия изображений Чтение/запись PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
+| [getDisableFontLigatures()](#getDisableFontLigatures--) | Получает или задает значение, указывающее, отображается ли текст без использования лигатур. |
+| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Получает или задает значение, указывающее, отображается ли текст без использования лигатур. |
+| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Получает или задает режим размещения слайдов на странице при экспорте презентации [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Получает или задает режим размещения слайдов на странице при экспорте презентации [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+
 ### getAnimateTransitions() {#getAnimateTransitions--}
 ```
 public abstract boolean getAnimateTransitions()
 ```
 
-Возвращает или задаёт параметр анимации переходов. Чтение/запись boolean.
+Возвращает или задает параметр анимации переходов. Чтение/запись boolean.
 
 --------------------
 
@@ -68,14 +71,14 @@ public abstract boolean getAnimateTransitions()
 >  }
 > ```
 
-**Возвращаемое значение:**
+**Возвращаемое значение:**  
 boolean
 ### setAnimateTransitions(boolean value) {#setAnimateTransitions-boolean-}
 ```
 public abstract void setAnimateTransitions(boolean value)
 ```
 
-Возвращает или задаёт параметр анимации переходов. Чтение/запись boolean.
+Возвращает или задает параметр анимации переходов. Чтение/запись boolean.
 
 --------------------
 
@@ -97,13 +100,12 @@ public abstract void setAnimateTransitions(boolean value)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | value | boolean |  |
-
 ### getAnimateShapes() {#getAnimateShapes--}
 ```
 public abstract boolean getAnimateShapes()
 ```
 
-Возвращает или задаёт параметр анимации фигур. Чтение/запись boolean.
+Возвращает или задает параметр анимации фигур. Чтение/запись boolean.
 
 --------------------
 
@@ -121,15 +123,14 @@ public abstract boolean getAnimateShapes()
 >  }
 > ```
 
-
-**Возвращаемое значение:**
+**Возвращаемое значение:**  
 boolean
 ### setAnimateShapes(boolean value) {#setAnimateShapes-boolean-}
 ```
 public abstract void setAnimateShapes(boolean value)
 ```
 
-Возвращает или задаёт параметр анимации фигур. Чтение/запись boolean.
+Возвращает или задает параметр анимации фигур. Чтение/запись boolean.
 
 --------------------
 
@@ -151,13 +152,12 @@ public abstract void setAnimateShapes(boolean value)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | value | boolean |  |
-
 ### getEmbedImages() {#getEmbedImages--}
 ```
 public abstract boolean getEmbedImages()
 ```
 
-Возвращает или задаёт параметр встраивания изображений. Чтение/запись boolean.
+Возвращает или задает параметр встраивания изображений. Чтение/запись boolean.
 
 --------------------
 
@@ -174,15 +174,14 @@ public abstract boolean getEmbedImages()
 >  }
 > ```
 
-
-**Возвращаемое значение:**
+**Возвращаемое значение:**  
 boolean
 ### setEmbedImages(boolean value) {#setEmbedImages-boolean-}
 ```
 public abstract void setEmbedImages(boolean value)
 ```
 
-Возвращает или задаёт параметр встраивания изображений. Чтение/запись boolean.
+Возвращает или задает параметр встраивания изображений. Чтение/запись boolean.
 
 --------------------
 
@@ -203,7 +202,6 @@ public abstract void setEmbedImages(boolean value)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | value | boolean |  |
-
 ### getOutputPath() {#getOutputPath--}
 ```
 public abstract String getOutputPath()
@@ -227,7 +225,7 @@ public abstract String getOutputPath()
 >  }
 > ```
 
-**Возвращаемое значение:**
+**Возвращаемое значение:**  
 java.lang.String
 ### setOutputPath(String value) {#setOutputPath-java.lang.String-}
 ```
@@ -256,13 +254,33 @@ public abstract void setOutputPath(String value)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | value | java.lang.String |  |
+### getPicturesCompression() {#getPicturesCompression--}
+```
+public abstract int getPicturesCompression()
+```
+
+Представляет уровень сжатия изображений Чтение/запись PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
+
+**Возвращаемое значение:**  
+int
+### setPicturesCompression(int value) {#setPicturesCompression-int-}
+```
+public abstract void setPicturesCompression(int value)
+```
+
+Представляет уровень сжатия изображений Чтение/запись PicturesCompression (\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
+
+**Параметры:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| value | int |  |
 
 ### getDisableFontLigatures() {#getDisableFontLigatures--}
 ```
 public abstract boolean getDisableFontLigatures()
 ```
 
-Получает или задаёт значение, указывающее, отображается ли текст без использования лигатур. При установке в true лигатуры будут отключены в выводе. По умолчанию свойство имеет значение false.
+Получает или задает значение, указывающее, отображается ли текст без использования лигатур. При установке в true лигатуры будут отключены в выводимом результате. По умолчанию это свойство имеет значение false.
 
 --------------------
 
@@ -280,14 +298,14 @@ public abstract boolean getDisableFontLigatures()
 >  }
 > ```
 
-**Возвращаемое значение:**
+**Возвращаемое значение:**  
 boolean
 ### setDisableFontLigatures(boolean value) {#setDisableFontLigatures-boolean-}
 ```
 public abstract void setDisableFontLigatures(boolean value)
 ```
 
-Получает или задаёт значение, указывающее, отображается ли текст без использования лигатур. При установке в true лигатуры будут отключены в выводе. По умолчанию свойство имеет значение false.
+Получает или задает значение, указывающее, отображается ли текст без использования лигатур. При установке в true лигатуры будут отключены в выводимом результате. По умолчанию это свойство имеет значение false.
 
 --------------------
 
@@ -305,18 +323,16 @@ public abstract void setDisableFontLigatures(boolean value)
 >  }
 > ```
 
-
 **Параметры:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | value | boolean |  |
-
 ### getSlidesLayoutOptions() {#getSlidesLayoutOptions--}
 ```
 public abstract ISlidesLayoutOptions getSlidesLayoutOptions()
 ```
 
-Получает или задаёт режим размещения слайдов на странице при экспорте презентации [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+Получает или задает режим размещения слайдов на странице при экспорте презентации [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
 
@@ -336,14 +352,14 @@ public abstract ISlidesLayoutOptions getSlidesLayoutOptions()
 >  }
 > ```
 
-**Возвращаемое значение:**
+**Возвращаемое значение:**  
 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)
 ### setSlidesLayoutOptions(ISlidesLayoutOptions value) {#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-}
 ```
 public abstract void setSlidesLayoutOptions(ISlidesLayoutOptions value)
 ```
 
-Получает или задаёт режим размещения слайдов на странице при экспорте презентации [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+Получает или задает режим размещения слайдов на странице при экспорте презентации [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
 --------------------
 

@@ -1,56 +1,65 @@
 ---
 title: SlidesAIAgent
-second_title: Aspose.Slides لنظام Android عبر مرجع API للغة جافا
-description: يوفر ميزات مدعومة بالذكاء الاصطناعي لمعالجة العروض التقديمية.
+second_title: Aspose.Slides لـ Android عبر مرجع API لجافا
+description: يقدم ميزات مدعومة بالذكاء الاصطناعي لمعالجة العروض التقديمية.
 type: docs
 url: /ar/com.aspose.slides/slidesaiagent/
 ---
-**Inheritance:**
-الوراثة:
+**الوراثة:**
 java.lang.Object
 ```
 public class SlidesAIAgent
 ```
 
 يوفر ميزات مدعومة بالذكاء الاصطناعي لمعالجة العروض التقديمية.
-## المنشئات
+## المنشئون
 
 | المنشئ | الوصف |
 | --- | --- |
-| [SlidesAIAgent(IAIWebClient aiClient)](#SlidesAIAgent-com.aspose.slides.IAIWebClient-) | SlidesAIAgent constructor |
-
+| [SlidesAIAgent(IAIWebClient aiClient)](#SlidesAIAgent-com.aspose.slides.IAIWebClient-) | يقوم بتهيئة مثيل جديد من [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) باستخدام عميل ذكاء اصطناعي مخصص. |
+| [SlidesAIAgent()](#SlidesAIAgent--) | يقوم بتهيئة مثيل جديد من [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) باستخدام [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient) المدمج مع تكوينه الافتراضي. |
 ## الطرق
 
 | الطريقة | الوصف |
 | --- | --- |
 | [translate(IPresentation presentation, String language)](#translate-com.aspose.slides.IPresentation-java.lang.String-) | يترجم عرضًا تقديميًا إلى اللغة المحددة باستخدام الذكاء الاصطناعي (الإصدار المتزامن). |
-| [generatePresentation(String description, int presentationContentAmount)](#generatePresentation-java.lang.String-int-) | ينشئ نسخة عرض تقديمي من وصف نصي. |
-| [generatePresentation(String description, int presentationContentAmount, IPresentation presentationTemplate)](#generatePresentation-java.lang.String-int-com.aspose.slides.IPresentation-) | ينشئ نسخة عرض تقديمي من وصف نصي. |
-
+| [generatePresentation(String description, int presentationContentAmount)](#generatePresentation-java.lang.String-int-) | ينشئ مثيلًا للعرض التقديمي من وصف نصي. |
+| [generatePresentation(String description, int presentationContentAmount, IPresentation presentationTemplate)](#generatePresentation-java.lang.String-int-com.aspose.slides.IPresentation-) | ينشئ مثيلًا للعرض التقديمي من وصف نصي. |
 ### SlidesAIAgent(IAIWebClient aiClient) {#SlidesAIAgent-com.aspose.slides.IAIWebClient-}
 ```
 public SlidesAIAgent(IAIWebClient aiClient)
 ```
 
-منشئ SlidesAIAgent
+يقوم بتهيئة مثيل جديد من [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) باستخدام عميل ذكاء اصطناعي مخصص. استخدم هذا التحميل الزائد لتحديد موفر الذكاء الاصطناعي، أو تقديم نموذج لغة كبير (LLM) الخاص بك، أو تخصيص الاتصال (على سبيل المثال، عن طريق توفير java.net.HttpURLConnection الخاص بك). يمكن استخدام أي تنفيذ لـ [IAIWebClient](../../com.aspose.slides/iaiwebclient). لاستخدام [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient) المدمج مع تكوينه الافتراضي، استخدم التحميل الزائد  SlidesAIAgent()  بدلاً من ذلك.
 
-**Parameters:**
+**المعاملات:**
 | المعامل | النوع | الوصف |
 | --- | --- | --- |
-| aiClient | [IAIWebClient](../../com.aspose.slides/iaiwebclient) | مثيل عميل الذكاء الاصطناعي |
+| aiClient | [IAIWebClient](../../com.aspose.slides/iaiwebclient) | مثيل عميل الذكاء الاصطناعي. يمكن استخدام أي تنفيذ لـ [IAIWebClient](../../com.aspose.slides/iaiwebclient). |
+
+### SlidesAIAgent() {#SlidesAIAgent--}
+```
+public SlidesAIAgent()
+```
+
+يقوم بتهيئة مثيل جديد من [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) باستخدام [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient) المدمج مع تكوينه الافتراضي. يتصل العميل بنموذج اللغة الخاص بـ Aspose ولا يتطلب أي تكوين إضافي. لاستخدام عميل ذكاء اصطناعي مختلف، استخدم التحميل الزائد SlidesAIAgent(IAIWebClient) بدلاً من ذلك.
 
 ### translate(IPresentation presentation, String language) {#translate-com.aspose.slides.IPresentation-java.lang.String-}
 ```
-public void translate(IPresentation presentation, String language)
+public final void translate(IPresentation presentation, String language)
 ```
 
 يترجم عرضًا تقديميًا إلى اللغة المحددة باستخدام الذكاء الاصطناعي (الإصدار المتزامن).
 
-**Parameters:**
+**المعاملات:**
 | المعامل | النوع | الوصف |
 | --- | --- | --- |
-| presentation | [IPresentation](../../com.aspose.slides/ipresentation) | العرض التقديمي الهدف |
-| language | java.lang.String | اللغة الهدف
+| presentation | [IPresentation](../../com.aspose.slides/ipresentation) | العرض التقديمي المستهدف |
+| language | java.lang.String | اللغة المستهدفة
+
+--------------------
+
+المثال أدناه يستخدم [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient) الافتراضي، الذي يتم إنشاؤه بواسطة مُنشئ SlidesAIAgent() بدون معلمات ويتصل بنموذج اللغة الخاص بـ Aspose. لاستخدام موفر ذكاء اصطناعي مختلف، أو تقديم نموذج لغة كبير (LLM) الخاص بك، أو تخصيص الاتصال (على سبيل المثال، عن طريق توفير java.net.HttpURLConnection الخاص بك)، مرّر تنفيذ [IAIWebClient](../../com.aspose.slides/iaiwebclient) إلى مُنشئ SlidesAIAgent(IAIWebClient).
 
 ```
 Presentation presentation = new Presentation("Presentation.pptx");
@@ -69,9 +78,9 @@ Presentation presentation = new Presentation("Presentation.pptx");
 public final IPresentation generatePresentation(String description, int presentationContentAmount)
 ```
 
-ينشئ نسخة عرض تقديمي من وصف نصي. قدِّم موضوعًا أو أفكارًا أو اقتباسات أو مقاطع نصية باللغة المطلوبة.
+ينشئ مثيلًا للعرض التقديمي من وصف نصي. قدّم موضوعًا أو أفكارًا أو اقتباسات أو مقاطع نصية باللغة المطلوبة.
 
-**Parameters:**
+**المعاملات:**
 | المعامل | النوع | الوصف |
 | --- | --- | --- |
 | description | java.lang.String | الموضوع أو الأفكار أو الاقتباسات أو المقاطع النصية. |
@@ -89,22 +98,25 @@ String prompt = "Generate a presentation about Aspose.Slides for Android via Jav
  }
 ``` |
 
-**Returns:**
-القيمة المرجعة:
+**القيمة المرجعة:**
 [IPresentation](../../com.aspose.slides/ipresentation)
 ### generatePresentation(String description, int presentationContentAmount, IPresentation presentationTemplate) {#generatePresentation-java.lang.String-int-com.aspose.slides.IPresentation-}
 ```
 public final IPresentation generatePresentation(String description, int presentationContentAmount, IPresentation presentationTemplate)
 ```
 
-ينشئ نسخة عرض تقديمي من وصف نصي. قدِّم موضوعًا أو أفكارًا أو اقتباسات أو مقاطع نصية باللغة المطلوبة.
+ينشئ مثيلًا للعرض التقديمي من وصف نصي. قدّم موضوعًا أو أفكارًا أو اقتباسات أو مقاطع نصية باللغة المطلوبة.
 
-**Parameters:**
+**المعاملات:**
 | المعامل | النوع | الوصف |
 | --- | --- | --- |
 | description | java.lang.String | الموضوع أو الأفكار أو الاقتباسات أو المقاطع النصية. |
 | presentationContentAmount | int | كمية المحتوى في العرض التقديمي الناتج. |
-| presentationTemplate | [IPresentation](../../com.aspose.slides/ipresentation) | عرض تقديمي لاستخدامه كقالب لتنسيق وتصميم الشرائح، بدلاً من القالب الافتراضي.
+| presentationTemplate | [IPresentation](../../com.aspose.slides/ipresentation) | عرض تقديمي لاستخدامه كقالب للتخطيط والتصميم، يُستبدل القالب الافتراضي.
+
+--------------------
+
+المثال أدناه يستخدم [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient) الافتراضي، الذي يتم إنشاؤه بواسطة مُنشئ SlidesAIAgent() بدون معلمات ويتصل بنموذج اللغة الخاص بـ Aspose. لاستخدام موفر ذكاء اصطناعي مختلف، أو تقديم نموذج لغة كبير (LLM) الخاص بك، أو تخصيص الاتصال (على سبيل المثال، عن طريق توفير java.net.HttpURLConnection الخاص بك)، مرّر تنفيذ [IAIWebClient](../../com.aspose.slides/iaiwebclient) إلى مُنشئ SlidesAIAgent(IAIWebClient).
 
 ```
 String prompt = "Generate a presentation about Aspose.Slides for Android via Java. Highlight its key features, use cases, and explain why it is better than its competitors.";
@@ -124,6 +136,5 @@ String prompt = "Generate a presentation about Aspose.Slides for Android via Jav
  }
 ``` |
 
-**Returns:**
-القيمة المرجعة:
+**القيمة المرجعة:**
 [IPresentation](../../com.aspose.slides/ipresentation)

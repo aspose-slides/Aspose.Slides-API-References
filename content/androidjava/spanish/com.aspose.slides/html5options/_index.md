@@ -1,14 +1,14 @@
 ---
 title: Html5Options
-second_title: Referencia de la API Java de Aspose.Slides para Android
+second_title: Referencia de API de Aspose.Slides para Android a través de Java
 description: Representa opciones de exportación HTML5.
 type: docs
 url: /es/com.aspose.slides/html5options/
 ---
-**Inheritance:**
+**Herencia:**
 java.lang.Object, [com.aspose.slides.SaveOptions](../../com.aspose.slides/saveoptions)
 
-**All Implemented Interfaces:**
+**Todas las interfaces implementadas:**
 [com.aspose.slides.IHtml5Options](../../com.aspose.slides/ihtml5options)
 ```
 public class Html5Options extends SaveOptions implements IHtml5Options
@@ -34,12 +34,12 @@ Representa una opción de exportación HTML5.
 > ```
 ## Constructores
 
-| Constructor | Description |
+| Constructor | Descripción |
 | --- | --- |
 | [Html5Options()](#Html5Options--) | Constructor predeterminado. |
 ## Métodos
 
-| Method | Description |
+| Método | Descripción |
 | --- | --- |
 | [getAnimateTransitions()](#getAnimateTransitions--) | Devuelve o establece la opción de animación de transiciones. |
 | [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | Devuelve o establece la opción de animación de transiciones. |
@@ -47,17 +47,18 @@ Representa una opción de exportación HTML5.
 | [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Devuelve o establece la opción de animación de formas. |
 | [getEmbedImages()](#getEmbedImages--) | Devuelve o establece la opción de incrustación de imágenes. |
 | [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Devuelve o establece la opción de incrustación de imágenes. |
-| [getOutputPath()](#getOutputPath--) | Determina dónde se deben almacenar los recursos externos. |
-| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Determina dónde se deben almacenar los recursos externos. |
-| [getDisableFontLigatures()](#getDisableFontLigatures--) | Obtiene o establece un valor que indica si el texto se renderiza sin usar ligaduras. |
-| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Obtiene o establece un valor que indica si el texto se renderiza sin usar ligaduras. |
+| [getOutputPath()](#getOutputPath--) | Determina dónde deben almacenarse los recursos externos. |
+| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Determina dónde deben almacenarse los recursos externos. |
+| [getPicturesCompression()](#getPicturesCompression--) | Representa el nivel de compresión de imágenes |
+| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Representa el nivel de compresión de imágenes |
+| [getDisableFontLigatures()](#getDisableFontLigatures--) | Obtiene o establece un valor que indica si el texto se renderiza sin utilizar ligaduras. |
+| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Obtiene o establece un valor que indica si el texto se renderiza sin utilizar ligaduras. |
 | [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Obtiene o establece el modo en que las diapositivas se colocan en la página al exportar una presentación [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 | [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Obtiene o establece el modo en que las diapositivas se colocan en la página al exportar una presentación [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 ### Html5Options() {#Html5Options--}
 ```
 public Html5Options()
 ```
-
 
 Constructor predeterminado.
 
@@ -66,8 +67,7 @@ Constructor predeterminado.
 public final boolean getAnimateTransitions()
 ```
 
-
-Devuelve o establece la opción de animación de transiciones. Lectura/escritura boolean.
+Devuelve o establece la opción de animación de transiciones. Boolean de lectura/escritura.
 
 --------------------
 
@@ -92,8 +92,7 @@ boolean
 public final void setAnimateTransitions(boolean value)
 ```
 
-
-Devuelve o establece la opción de animación de transiciones. Lectura/escritura boolean.
+Devuelve o establece la opción de animación de transiciones. Boolean de lectura/escritura.
 
 --------------------
 
@@ -121,8 +120,7 @@ Devuelve o establece la opción de animación de transiciones. Lectura/escritura
 public final boolean getAnimateShapes()
 ```
 
-
-Devuelve o establece la opción de animación de formas. Lectura/escritura boolean.
+Devuelve o establece la opción de animación de formas. Boolean de lectura/escritura.
 
 --------------------
 
@@ -147,8 +145,7 @@ boolean
 public final void setAnimateShapes(boolean value)
 ```
 
-
-Devuelve o establece la opción de animación de formas. Lectura/escritura boolean.
+Devuelve o establece la opción de animación de formas. Boolean de lectura/escritura.
 
 --------------------
 
@@ -176,8 +173,7 @@ Devuelve o establece la opción de animación de formas. Lectura/escritura boole
 public final boolean getEmbedImages()
 ```
 
-
-Devuelve o establece la opción de incrustación de imágenes. Lectura/escritura boolean.
+Devuelve o establece la opción de incrustación de imágenes. Boolean de lectura/escritura.
 
 --------------------
 
@@ -201,8 +197,7 @@ boolean
 public final void setEmbedImages(boolean value)
 ```
 
-
-Devuelve o establece la opción de incrustación de imágenes. Lectura/escritura boolean.
+Devuelve o establece la opción de incrustación de imágenes. Boolean de lectura/escritura.
 
 --------------------
 
@@ -229,8 +224,7 @@ Devuelve o establece la opción de incrustación de imágenes. Lectura/escritura
 public final String getOutputPath()
 ```
 
-
-Determina dónde se deben almacenar los recursos externos. Lectura/escritura String.
+Determina dónde deben almacenarse los recursos externos. String de lectura/escritura.
 
 --------------------
 
@@ -255,8 +249,7 @@ java.lang.String
 public final void setOutputPath(String value)
 ```
 
-
-Determina dónde se deben almacenar los recursos externos. Lectura/escritura String.
+Determina dónde deben almacenarse los recursos externos. String de lectura/escritura.
 
 --------------------
 
@@ -279,13 +272,33 @@ Determina dónde se deben almacenar los recursos externos. Lectura/escritura Str
 | --- | --- | --- |
 | value | java.lang.String |  |
 
+### getPicturesCompression() {#getPicturesCompression--}
+```
+public final int getPicturesCompression()
+```
+
+Representa el nivel de compresión de imágenes
+
+**Devuelve:**
+int
+### setPicturesCompression(int value) {#setPicturesCompression-int-}
+```
+public final void setPicturesCompression(int value)
+```
+
+Representa el nivel de compresión de imágenes
+
+**Parámetros:**
+| Parámetro | Tipo | Descripción |
+| --- | --- | --- |
+| value | int |  |
+
 ### getDisableFontLigatures() {#getDisableFontLigatures--}
 ```
 public final boolean getDisableFontLigatures()
 ```
 
-
-Obtiene o establece un valor que indica si el texto se renderiza sin usar ligaduras. Cuando se establece en true, las ligaduras se desactivarán en la salida renderizada. Por defecto, esta propiedad se establece en false.
+Obtiene o establece un valor que indica si el texto se renderiza sin utilizar ligaduras. Cuando se establece en true, las ligaduras se desactivarán en la salida renderizada. Por defecto, esta propiedad está establecida en false.
 
 --------------------
 
@@ -295,7 +308,7 @@ Obtiene o establece un valor que indica si el texto se renderiza sin usar ligadu
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      Html5Options options = new Html5Options();
->      options.setDisableFontLigatures(true); // Desactivar ligaduras en el renderizado de texto
+>      options.setDisableFontLigatures(true); // Deshabilitar ligaduras en el renderizado de texto
 > 
 >      pres.save("output.html", SaveFormat.Html5, options);
 >  } finally {
@@ -310,8 +323,7 @@ boolean
 public final void setDisableFontLigatures(boolean value)
 ```
 
-
-Obtiene o establece un valor que indica si el texto se renderiza sin usar ligaduras. Cuando se establece en true, las ligaduras se desactivarán en la salida renderizada. Por defecto, esta propiedad se establece en false.
+Obtiene o establece un valor que indica si el texto se renderiza sin utilizar ligaduras. Cuando se establece en true, las ligaduras se desactivarán en la salida renderizada. Por defecto, esta propiedad está establecida en false.
 
 --------------------
 
@@ -321,7 +333,7 @@ Obtiene o establece un valor que indica si el texto se renderiza sin usar ligadu
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      Html5Options options = new Html5Options();
->      options.setDisableFontLigatures(true); // Desactivar ligaduras en el renderizado del texto
+>      options.setDisableFontLigatures(true); // Deshabilitar ligaduras en el renderizado de texto
 > 
 >      pres.save("output.html", SaveFormat.Html5, options);
 >  } finally {
@@ -338,7 +350,6 @@ Obtiene o establece un valor que indica si el texto se renderiza sin usar ligadu
 ```
 public final ISlidesLayoutOptions getSlidesLayoutOptions()
 ```
-
 
 Obtiene o establece el modo en que las diapositivas se colocan en la página al exportar una presentación [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 
@@ -366,7 +377,6 @@ Obtiene o establece el modo en que las diapositivas se colocan en la página al 
 ```
 public final void setSlidesLayoutOptions(ISlidesLayoutOptions value)
 ```
-
 
 Obtiene o establece el modo en que las diapositivas se colocan en la página al exportar una presentación [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
 

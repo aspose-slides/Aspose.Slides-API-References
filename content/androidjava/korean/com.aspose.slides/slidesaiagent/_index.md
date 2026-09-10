@@ -1,53 +1,68 @@
 ---
 title: SlidesAIAgent
-second_title: Java API 레퍼런스를 통한 Android용 Aspose.Slides
+second_title: Java API 참조를 통한 Android용 Aspose.Slides
 description: 프레젠테이션 처리를 위한 AI 기반 기능을 제공합니다.
 type: docs
 url: /ko/com.aspose.slides/slidesaiagent/
 ---
-**상속:**
-java.lang.Object
+**상속:**  
+java.lang.Object  
 ```
 public class SlidesAIAgent
 ```
 
 프레젠테이션 처리를 위한 AI 기반 기능을 제공합니다.
+
 ## 생성자
 
 | 생성자 | 설명 |
 | --- | --- |
-| [SlidesAIAgent(IAIWebClient aiClient)](#SlidesAIAgent-com.aspose.slides.IAIWebClient-) | SlidesAIAgent 생성자 |
+| [SlidesAIAgent(IAIWebClient aiClient)](#SlidesAIAgent-com.aspose.slides.IAIWebClient-) | 사용자 지정 AI 클라이언트로 [SlidesAIAgent](../../com.aspose.slides/slidesaiagent)의 새 인스턴스를 초기화합니다. |
+| [SlidesAIAgent()](#SlidesAIAgent--) | 기본 구성으로 내장된 [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient)를 사용하여 [SlidesAIAgent](../../com.aspose.slides/slidesaiagent)의 새 인스턴스를 초기화합니다. |
+
 ## 메서드
 
 | 메서드 | 설명 |
 | --- | --- |
-| [translate(IPresentation presentation, String language)](#translate-com.aspose.slides.IPresentation-java.lang.String-) | AI를 사용하여 프레젠테이션을 지정된 언어로 변환합니다 (동기 버전). |
+| [translate(IPresentation presentation, String language)](#translate-com.aspose.slides.IPresentation-java.lang.String-) | AI(동기식 버전)를 사용하여 프레젠테이션을 지정된 언어로 번역합니다. |
 | [generatePresentation(String description, int presentationContentAmount)](#generatePresentation-java.lang.String-int-) | 텍스트 설명으로부터 프레젠테이션 인스턴스를 생성합니다. |
 | [generatePresentation(String description, int presentationContentAmount, IPresentation presentationTemplate)](#generatePresentation-java.lang.String-int-com.aspose.slides.IPresentation-) | 텍스트 설명으로부터 프레젠테이션 인스턴스를 생성합니다. |
+
 ### SlidesAIAgent(IAIWebClient aiClient) {#SlidesAIAgent-com.aspose.slides.IAIWebClient-}
 ```
 public SlidesAIAgent(IAIWebClient aiClient)
 ```
 
-SlidesAIAgent 생성자
+사용자 지정 AI 클라이언트로 [SlidesAIAgent](../../com.aspose.slides/slidesaiagent)의 새 인스턴스를 초기화합니다. 이 오버로드를 사용하여 AI 공급자를 지정하거나 자체 LLM을 제공하거나 연결을 사용자 지정할 수 있습니다(예: 자체 java.net.HttpURLConnection을 제공). [IAIWebClient](../../com.aspose.slides/iaiwebclient)의 모든 구현을 사용할 수 있습니다. 기본 구성으로 내장된 [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient)을 사용하려면  SlidesAIAgent()  오버로드를 대신 사용하십시오.
 
 **매개변수:**
-| 매개변수 | 유형 | 설명 |
+| 매개변수 | 타입 | 설명 |
 | --- | --- | --- |
-| aiClient | [IAIWebClient](../../com.aspose.slides/iaiwebclient) | AI 클라이언트 인스턴스 |
+| aiClient | [IAIWebClient](../../com.aspose.slides/iaiwebclient) | AI 클라이언트 인스턴스. [IAIWebClient](../../com.aspose.slides/iaiwebclient)의 모든 구현을 사용할 수 있습니다. |
+
+### SlidesAIAgent() {#SlidesAIAgent--}
+```
+public SlidesAIAgent()
+```
+
+[SlidesAIAgent](../../com.aspose.slides/slidesaiagent)를 기본 구성으로 내장된 [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient)를 사용하여 새 인스턴스를 초기화합니다. 클라이언트는 Aspose 자체 LLM에 연결되며 추가 구성이 필요하지 않습니다. 다른 AI 클라이언트를 사용하려면 SlidesAIAgent(IAIWebClient) 오버로드를 대신 사용하십시오.
 
 ### translate(IPresentation presentation, String language) {#translate-com.aspose.slides.IPresentation-java.lang.String-}
 ```
-public void translate(IPresentation presentation, String language)
+public final void translate(IPresentation presentation, String language)
 ```
 
-AI를 사용하여 프레젠테이션을 지정된 언어로 변환합니다 (동기 버전).
+AI(동기식 버전)를 사용하여 프레젠테이션을 지정된 언어로 번역합니다.
 
 **매개변수:**
-| 매개변수 | 유형 | 설명 |
+| 매개변수 | 타입 | 설명 |
 | --- | --- | --- |
 | presentation | [IPresentation](../../com.aspose.slides/ipresentation) | 대상 프레젠테이션 |
-| language | java.lang.String | 대상 언어
+| language | java.lang.String | 대상 언어 |
+
+--------------------
+
+아래 예제는 매개변수 없는 SlidesAIAgent() 생성자로 생성된 기본 [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient)를 사용하며 Aspose 자체 LLM에 연결합니다. 다른 AI 공급자를 사용하거나 자체 LLM을 제공하거나 연결을 사용자 지정하려면(예: 자체 java.net.HttpURLConnection을 제공) SlidesAIAgent(IAIWebClient) 생성자에 [IAIWebClient](../../com.aspose.slides/iaiwebclient) 구현을 전달하십시오.
 
 ```
 Presentation presentation = new Presentation("Presentation.pptx");
@@ -66,13 +81,13 @@ Presentation presentation = new Presentation("Presentation.pptx");
 public final IPresentation generatePresentation(String description, int presentationContentAmount)
 ```
 
-텍스트 설명으로부터 프레젠테이션 인스턴스를 생성합니다. 필요 언어로 주제, 아이디어, 인용문 또는 텍스트 스니펫을 제공하십시오.
+텍스트 설명으로부터 프레젠테이션 인스턴스를 생성합니다. 필요한 언어로 주제, 아이디어, 인용문 또는 텍스트 스니펫을 제공합니다.
 
 **매개변수:**
-| 매개변수 | 유형 | 설명 |
+| 매개변수 | 타입 | 설명 |
 | --- | --- | --- |
 | description | java.lang.String | 주제, 아이디어, 인용문 또는 텍스트 스니펫. |
-| presentationContentAmount | int | 결과 프레젠테이션의 콘텐츠 양.
+| presentationContentAmount | int | 결과 프레젠테이션의 콘텐츠 양. |
 
 ```
 String prompt = "Generate a presentation about Aspose.Slides for Android via Java. Highlight its key features, use cases, and explain why it is better than its competitors.";
@@ -93,14 +108,18 @@ String prompt = "Generate a presentation about Aspose.Slides for Android via Jav
 public final IPresentation generatePresentation(String description, int presentationContentAmount, IPresentation presentationTemplate)
 ```
 
-텍스트 설명으로부터 프레젠테이션 인스턴스를 생성합니다. 필요 언어로 주제, 아이디어, 인용문 또는 텍스트 스니펫을 제공하십시오.
+텍스트 설명으로부터 프레젠테이션 인스턴스를 생성합니다. 필요한 언어로 주제, 아이디어, 인용문 또는 텍스트 스니펫을 제공합니다.
 
 **매개변수:**
-| 매개변수 | 유형 | 설명 |
+| 매개변수 | 타입 | 설명 |
 | --- | --- | --- |
 | description | java.lang.String | 주제, 아이디어, 인용문 또는 텍스트 스니펫. |
 | presentationContentAmount | int | 결과 프레젠테이션의 콘텐츠 양. |
-| presentationTemplate | [IPresentation](../../com.aspose.slides/ipresentation) | 레이아웃 및 디자인을 위한 템플릿으로 사용할 프레젠테이션으로, 기본 템플릿을 대체합니다.
+| presentationTemplate | [IPresentation](../../com.aspose.slides/ipresentation) | 레이아웃 및 디자인 템플릿으로 사용할 프레젠테이션이며, 기본 템플릿을 교체합니다. |
+
+--------------------
+
+아래 예제는 매개변수 없는 SlidesAIAgent() 생성자로 생성된 기본 [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient)를 사용하며 Aspose 자체 LLM에 연결합니다. 다른 AI 공급자를 사용하거나 자체 LLM을 제공하거나 연결을 사용자 지정하려면(예: 자체 java.net.HttpURLConnection을 제공) SlidesAIAgent(IAIWebClient) 생성자에 [IAIWebClient](../../com.aspose.slides/iaiwebclient) 구현을 전달하십시오.
 
 ```
 String prompt = "Generate a presentation about Aspose.Slides for Android via Java. Highlight its key features, use cases, and explain why it is better than its competitors.";

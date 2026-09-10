@@ -1,11 +1,11 @@
 ---
 title: IParagraph
-second_title: Java API 레퍼런스를 통해 Android용 Aspose.Slides
+second_title: Java API 참조를 통한 Android용 Aspose.Slides
 description: 텍스트의 단락을 나타냅니다.
 type: docs
 url: /ko/com.aspose.slides/iparagraph/
 ---
-**전체 구현된 인터페이스:**
+**구현된 모든 인터페이스:**
 [com.aspose.slides.ISlideComponent](../../com.aspose.slides/islidecomponent)
 ```
 public interface IParagraph extends ISlideComponent
@@ -22,7 +22,9 @@ public interface IParagraph extends ISlideComponent
 | [getText()](#getText--) | 단락의 일반 텍스트를 가져오거나 설정합니다. |
 | [setText(String value)](#setText-java.lang.String-) | 단락의 일반 텍스트를 가져오거나 설정합니다. |
 | [getRect()](#getRect--) | 단락을 둘러싼 사각형의 좌표를 가져옵니다. |
-| [getLinesCount()](#getLinesCount--) | 단락의 줄 수를 가져옵니다. |
+| [getLinesCount()](#getLinesCount--) | 단락의 행 수를 가져옵니다. |
+| [getImage()](#getImage--) | 단락의 이미지를 반환합니다. |
+| [getImage(float scaleX, float scaleY)](#getImage-float-float-) | 지정된 배율로 단락의 이미지를 반환합니다. |
 | [getEndParagraphPortionFormat()](#getEndParagraphPortionFormat--) | 마지막 부분 뒤에 다른 부분이 삽입될 경우 사용할 부분 속성을 지정합니다. |
 | [setEndParagraphPortionFormat(IPortionFormat value)](#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-) | 마지막 부분 뒤에 다른 부분이 삽입될 경우 사용할 부분 속성을 지정합니다. |
 ### getPortions() {#getPortions--}
@@ -89,7 +91,7 @@ android.graphics.RectF - 단락을 둘러싼 사각형 android.graphics.RectF
 public abstract int getLinesCount()
 ```
 
-단락의 줄 수를 가져옵니다.
+단락의 행 수를 가져옵니다.
 
 --------------------
 
@@ -110,7 +112,87 @@ public abstract int getLinesCount()
 > ```
 
 **반환값:**
-int - 단락의 줄 수
+int - 단락의 행 개수
+### getImage() {#getImage--}
+```
+public abstract IImage getImage()
+```
+
+단락의 이미지를 반환합니다.
+
+--------------------
+
+> ```
+> The following example shows how to render a paragraph as an image:
+>   
+>  Presentation pres = new Presentation();
+>  try {
+>      IAutoShape shape = pres.getSlides().get_Item(0).getShapes().addAutoShape(
+>          ShapeType.Rectangle, 50, 50, 150, 50);
+>      IParagraph paragraph = shape.getTextFrame().getParagraphs().get_Item(0);
+>      paragraph.setText("Aspose Paragraph GetImage() Example");
+>      IImage paragraphImage = paragraph.getImage();
+>      try {
+>          paragraphImage.save("paragraph.png");
+>      } finally {
+>          if (paragraphImage != null) paragraphImage.dispose();
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**반환값:**
+[IImage](../../com.aspose.slides/iimage) - 렌더링된 단락을 포함한 이미지이며, 단락을 상위 컬렉션에서 찾을 수 없거나 유효한 렌더링 경계가 없거나 이미지를 렌더링하는 중 오류가 발생하면 null을 반환합니다.
+### getImage(float scaleX, float scaleY) {#getImage-float-float-}
+```
+public abstract IImage getImage(float scaleX, float scaleY)
+```
+
+지정된 배율로 단락의 이미지를 반환합니다.
+
+--------------------
+
+> ```
+> The following example shows how to render each text box paragraph on a slide as an image with custom scaling:
+>   
+>  Presentation pres = new Presentation("sample.pptx");
+>  try {
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      int shapeIndex = 0;
+>      for (IShape shape : slide.getShapes())
+>      {
+>          shapeIndex++;
+>          if (shape instanceof IAutoShape) {
+>              IAutoShape autoShape = (IAutoShape)shape;
+>              int paragraphIndex = 0;
+>              for (IParagraph paragraph : autoShape.getTextFrame().getParagraphs())
+>              {
+>                  paragraphIndex++;
+>                  IImage paragraphImage = paragraph.getImage(2f, 2f);
+>                  try {
+>                      if (paragraphImage != null)
+>                          paragraphImage.save("shape"+shapeIndex+"_paragraph"+paragraphIndex+".png");
+> 
+>                  } finally {
+>                      if (paragraphImage != null) paragraphImage.dispose();
+>                  }
+>              }
+>          }
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**매개변수:**
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| scaleX | float | 단락 이미지에 적용되는 가로 배율 요소. |
+| scaleY | float | 단락 이미지에 적용되는 세로 배율 요소. |
+
+**반환값:**
+[IImage](../../com.aspose.slides/iimage) - 렌더링된 단락을 포함한 이미지이며, 단락을 상위 컬렉션에서 찾을 수 없거나 유효한 렌더링 경계가 없거나 이미지를 렌더링하는 중 오류가 발생하면 null을 반환합니다.
 ### getEndParagraphPortionFormat() {#getEndParagraphPortionFormat--}
 ```
 public abstract IPortionFormat getEndParagraphPortionFormat()

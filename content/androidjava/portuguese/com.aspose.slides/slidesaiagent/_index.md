@@ -1,7 +1,7 @@
 ---
 title: SlidesAIAgent
 second_title: Aspose.Slides para Android via Referência da API Java
-description: Fornece recursos alimentados por IA para processar apresentações.
+description: Fornece recursos impulsionados por IA para o processamento de apresentações.
 type: docs
 url: /pt/com.aspose.slides/slidesaiagent/
 ---
@@ -11,12 +11,13 @@ java.lang.Object
 public class SlidesAIAgent
 ```
 
-Fornece recursos alimentados por IA para processar apresentações.
+Fornece recursos impulsionados por IA para o processamento de apresentações.
 ## Construtores
 
 | Construtor | Descrição |
 | --- | --- |
-| [SlidesAIAgent(IAIWebClient aiClient)](#SlidesAIAgent-com.aspose.slides.IAIWebClient-) | Construtor SlidesAIAgent |
+| [SlidesAIAgent(IAIWebClient aiClient)](#SlidesAIAgent-com.aspose.slides.IAIWebClient-) | Inicializa uma nova instância de [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) com um cliente de IA personalizado. |
+| [SlidesAIAgent()](#SlidesAIAgent--) | Inicializa uma nova instância de [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) usando o [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient) interno com sua configuração padrão. |
 ## Métodos
 
 | Método | Descrição |
@@ -29,19 +30,24 @@ Fornece recursos alimentados por IA para processar apresentações.
 public SlidesAIAgent(IAIWebClient aiClient)
 ```
 
-
-Construtor SlidesAIAgent
+Inicializa uma nova instância de [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) com um cliente de IA personalizado. Use esta sobrecarga para especificar o provedor de IA, fornecer seu próprio LLM ou personalizar a conexão (por exemplo, fornecendo seu próprio java.net.HttpURLConnection). Qualquer implementação de [IAIWebClient](../../com.aspose.slides/iaiwebclient) pode ser usada. Para usar o [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient) interno com sua configuração padrão, use a sobrecarga SlidesAIAgent() em vez disso.
 
 **Parâmetros:**
 | Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
-| aiClient | [IAIWebClient](../../com.aspose.slides/iaiwebclient) | Instância do cliente IA |
+| aiClient | [IAIWebClient](../../com.aspose.slides/iaiwebclient) | Instância do cliente de IA. Qualquer implementação de [IAIWebClient](../../com.aspose.slides/iaiwebclient) pode ser usada. |
+
+### SlidesAIAgent() {#SlidesAIAgent--}
+```
+public SlidesAIAgent()
+```
+
+Inicializa uma nova instância de [SlidesAIAgent](../../com.aspose.slides/slidesaiagent) usando o [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient) interno com sua configuração padrão. O cliente se conecta ao LLM próprio da Aspose e não requer configuração adicional. Para usar um cliente de IA diferente, utilize a sobrecarga SlidesAIAgent(IAIWebClient).
 
 ### translate(IPresentation presentation, String language) {#translate-com.aspose.slides.IPresentation-java.lang.String-}
 ```
-public void translate(IPresentation presentation, String language)
+public final void translate(IPresentation presentation, String language)
 ```
-
 
 Traduz uma apresentação para o idioma especificado usando IA (versão síncrona).
 
@@ -50,6 +56,10 @@ Traduz uma apresentação para o idioma especificado usando IA (versão síncron
 | --- | --- | --- |
 | presentation | [IPresentation](../../com.aspose.slides/ipresentation) | Apresentação de destino |
 | language | java.lang.String | Idioma de destino
+
+--------------------
+
+O exemplo abaixo usa o padrão [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient), que é criado pelo construtor sem parâmetros SlidesAIAgent() e se conecta ao LLM próprio da Aspose. Para usar um provedor de IA diferente, fornecer seu próprio LLM ou personalizar a conexão (por exemplo, fornecendo seu próprio java.net.HttpURLConnection), passe uma implementação de [IAIWebClient](../../com.aspose.slides/iaiwebclient) ao construtor SlidesAIAgent(IAIWebClient).
 
 ```
 Presentation presentation = new Presentation("Presentation.pptx");
@@ -68,8 +78,7 @@ Presentation presentation = new Presentation("Presentation.pptx");
 public final IPresentation generatePresentation(String description, int presentationContentAmount)
 ```
 
-
-Gera uma instância de apresentação a partir de uma descrição de texto. Forneça um tópico, ideias, citações ou trechos de texto no idioma necessário.
+Gera uma instância de apresentação a partir de uma descrição de texto. Forneça um tópico, ideias, citações ou trechos de texto no idioma requerido.
 
 **Parâmetros:**
 | Parâmetro | Tipo | Descrição |
@@ -89,15 +98,14 @@ String prompt = "Generate a presentation about Aspose.Slides for Android via Jav
  }
 ``` |
 
-**Retorno:**
+**Retorna:**
 [IPresentation](../../com.aspose.slides/ipresentation)
 ### generatePresentation(String description, int presentationContentAmount, IPresentation presentationTemplate) {#generatePresentation-java.lang.String-int-com.aspose.slides.IPresentation-}
 ```
 public final IPresentation generatePresentation(String description, int presentationContentAmount, IPresentation presentationTemplate)
 ```
 
-
-Gera uma instância de apresentação a partir de uma descrição de texto. Forneça um tópico, ideias, citações ou trechos de texto no idioma necessário.
+Gera uma instância de apresentação a partir de uma descrição de texto. Forneça um tópico, ideias, citações ou trechos de texto no idioma requerido.
 
 **Parâmetros:**
 | Parâmetro | Tipo | Descrição |
@@ -105,6 +113,10 @@ Gera uma instância de apresentação a partir de uma descrição de texto. Forn
 | description | java.lang.String | O tópico, ideias, citações ou trechos de texto. |
 | presentationContentAmount | int | A quantidade de conteúdo na apresentação resultante. |
 | presentationTemplate | [IPresentation](../../com.aspose.slides/ipresentation) | Uma apresentação a ser usada como modelo para layout e design, substituindo o modelo padrão.
+
+--------------------
+
+O exemplo abaixo usa o padrão [AsposeAIWebClient](../../com.aspose.slides/asposeaiwebclient), que é criado pelo construtor sem parâmetros SlidesAIAgent() e se conecta ao LLM próprio da Aspose. Para usar um provedor de IA diferente, fornecer seu próprio LLM ou personalizar a conexão (por exemplo, fornecendo seu próprio java.net.HttpURLConnection), passe uma implementação de [IAIWebClient](../../com.aspose.slides/iaiwebclient) ao construtor SlidesAIAgent(IAIWebClient).
 
 ```
 String prompt = "Generate a presentation about Aspose.Slides for Android via Java. Highlight its key features, use cases, and explain why it is better than its competitors.";
@@ -124,5 +136,5 @@ String prompt = "Generate a presentation about Aspose.Slides for Android via Jav
  }
 ``` |
 
-**Retorno:**
+**Retorna:**
 [IPresentation](../../com.aspose.slides/ipresentation)

@@ -8,7 +8,7 @@ url: /hi/com.aspose.slides/html5options/
 **विरासत:**
 java.lang.Object, [com.aspose.slides.SaveOptions](../../com.aspose.slides/saveoptions)
 
-**सभी लागू इंटरफ़ेस:**
+**सभी कार्यान्वित इंटरफेस:**
 [com.aspose.slides.IHtml5Options](../../com.aspose.slides/ihtml5options)
 ```
 public class Html5Options extends SaveOptions implements IHtml5Options
@@ -32,34 +32,36 @@ HTML5 निर्यात विकल्पों का प्रतिन�
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-## निर्माताएँ
+## निर्माता
 
-| निर्माता | विवरण |
+| कंस्ट्रक्टर | विवरण |
 | --- | --- |
-| [Html5Options()](#Html5Options--) | डिफ़ॉल्ट निर्माणकर्ता। |
+| [Html5Options()](#Html5Options--) | डिफ़ॉल्ट कंस्ट्रक्टर। |
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
-| [getAnimateTransitions()](#getAnimateTransitions--) | ट्रांज़िशन एनीमेशन विकल्प को लौटाता या सेट करता है। |
-| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | ट्रांज़िशन एनीमेशन विकल्प को लौटाता या सेट करता है। |
-| [getAnimateShapes()](#getAnimateShapes--) | आकार एनीमेशन विकल्प को लौटाता या सेट करता है। |
-| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | आकार एनीमेशन विकल्प को लौटाता या सेट करता है। |
-| [getEmbedImages()](#getEmbedImages--) | छवि एम्बेडिंग विकल्प को लौटाता या सेट करता है। |
-| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | छवि एम्बेडिंग विकल्प को लौटाता या सेट करता है। |
-| [getOutputPath()](#getOutputPath--) | बाहरी संसाधनों को कहाँ संग्रहीत किया जाना चाहिए, यह निर्धारित करता है। |
-| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | बाहरी संसाधनों को कहाँ संग्रहीत किया जाना चाहिए, यह निर्धारित करता है। |
-| [getDisableFontLigatures()](#getDisableFontLigatures--) | यह निर्धारित करने के लिए मान प्राप्त या सेट करता है कि टेक्स्ट को लिगैचर के बिना रेंडर किया जाए। |
-| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | यह निर्धारित करने के लिए मान प्राप्त या सेट करता है कि टेक्स्ट को लिगैचर के बिना रेंडर किया जाए। |
-| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | प्रस्तुति निर्यात करते समय स्लाइड्स को पृष्ठ पर रखने के मोड को प्राप्त या सेट करता है [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)। |
-| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | प्रस्तुति निर्यात करते समय स्लाइड्स को पृष्ठ पर रखने के मोड को प्राप्त या सेट करता है [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)। |
+| [getAnimateTransitions()](#getAnimateTransitions--) | ट्रांज़िशन एनीमेशन विकल्प को वापस देता है या सेट करता है। |
+| [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | ट्रांज़िशन एनीमेशन विकल्प को वापस देता है या सेट करता है। |
+| [getAnimateShapes()](#getAnimateShapes--) | शेप्स एनीमेशन विकल्प को वापस देता है या सेट करता है। |
+| [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | शेप्स एनीमेशन विकल्प को वापस देता है या सेट करता है। |
+| [getEmbedImages()](#getEmbedImages--) | इमेजेज एम्बेडिंग विकल्प को वापस देता है या सेट करता है। |
+| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | इमेजेज एम्बेडिंग विकल्प को वापस देता है या सेट करता है। |
+| [getOutputPath()](#getOutputPath--) | यह निर्धारित करता है कि बाहरी संसाधनों को कहाँ संग्रहीत किया जाना चाहिए। |
+| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | यह निर्धारित करता है कि बाहरी संसाधनों को कहाँ संग्रहीत किया जाना चाहिए। |
+| [getPicturesCompression()](#getPicturesCompression--) | चित्र संपीड़न स्तर का प्रतिनिधित्व करता है |
+| [setPicturesCompression(int value)](#setPicturesCompression-int-) | चित्र संपीड़न स्तर का प्रतिनिधित्व करता है |
+| [getDisableFontLigatures()](#getDisableFontLigatures--) | यह निर्धारित करने वाला मान प्राप्त या सेट करता है कि पाठ को लिगेचर के बिना रेंडर किया जाए या नहीं। |
+| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | यह निर्धारित करने वाला मान प्राप्त या सेट करता है कि पाठ को लिगेचर के बिना रेंडर किया जाए या नहीं। |
+| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | जब प्रस्तुति निर्यात की जाती है [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) तो स्लाइडों को पृष्ठ पर रखने के मोड को प्राप्त या सेट करता है। |
+| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | जब प्रस्तुति निर्यात की जाती है [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) तो स्लाइडों को पृष्ठ पर रखने के मोड को प्राप्त या सेट करता है। |
 ### Html5Options() {#Html5Options--}
 ```
 public Html5Options()
 ```
 
 
-डिफ़ॉल्ट निर्माणकर्ता।
+डिफ़ॉल्ट कंस्ट्रक्टर।
 
 ### getAnimateTransitions() {#getAnimateTransitions--}
 ```
@@ -67,7 +69,7 @@ public final boolean getAnimateTransitions()
 ```
 
 
-ट्रांज़िशन एनीमेशन विकल्प को लौटाता या सेट करता है। पढ़ें/लिखें बूलियन।
+ट्रांज़िशन एनीमेशन विकल्प को वापस देता है या सेट करता है। पढ़ने/लिखने योग्य बूलियन।
 
 --------------------
 
@@ -85,7 +87,7 @@ public final boolean getAnimateTransitions()
 >  }
 > ```
 
-**वापसी:**
+**रिटर्न:**
 boolean
 ### setAnimateTransitions(boolean value) {#setAnimateTransitions-boolean-}
 ```
@@ -93,7 +95,7 @@ public final void setAnimateTransitions(boolean value)
 ```
 
 
-ट्रांज़िशन एनीमेशन विकल्प को लौटाता या सेट करता है। पढ़ें/लिखें बूलियन।
+ट्रांज़िशन एनीमेशन विकल्प को वापस देता है या सेट करता है। पढ़ने/लिखने योग्य बूलियन।
 
 --------------------
 
@@ -122,7 +124,7 @@ public final boolean getAnimateShapes()
 ```
 
 
-आकार एनीमेशन विकल्प को लौटाता या सेट करता है। पढ़ें/लिखें बूलियन।
+शेप्स एनीमेशन विकल्प को वापस देता है या सेट करता है। पढ़ने/लिखने योग्य बूलियन।
 
 --------------------
 
@@ -140,7 +142,7 @@ public final boolean getAnimateShapes()
 >  }
 > ```
 
-**वापसी:**
+**रिटर्न:**
 boolean
 ### setAnimateShapes(boolean value) {#setAnimateShapes-boolean-}
 ```
@@ -148,7 +150,7 @@ public final void setAnimateShapes(boolean value)
 ```
 
 
-आकार एनीमेशन विकल्प को लौटाता या सेट करता है। पढ़ें/लिखें बूलियन।
+शेप्स एनीमेशन विकल्प को वापस देता है या सेट करता है। पढ़ने/लिखने योग्य बूलियन।
 
 --------------------
 
@@ -177,7 +179,7 @@ public final boolean getEmbedImages()
 ```
 
 
-छवि एम्बेडिंग विकल्प को लौटाता या सेट करता है। पढ़ें/लिखें बूलियन।
+इमेजेज एम्बेडिंग विकल्प को वापस देता है या सेट करता है। पढ़ने/लिखने योग्य बूलियन।
 
 --------------------
 
@@ -194,7 +196,7 @@ public final boolean getEmbedImages()
 >  }
 > ```
 
-**वापसी:**
+**रिटर्न:**
 boolean
 ### setEmbedImages(boolean value) {#setEmbedImages-boolean-}
 ```
@@ -202,7 +204,7 @@ public final void setEmbedImages(boolean value)
 ```
 
 
-छवि एम्बेडिंग विकल्प को लौटाता या सेट करता है। पढ़ें/लिखें बूलियन।
+इमेजेज एम्बेडिंग विकल्प को वापस देता है या सेट करता है। पढ़ने/लिखने योग्य बूलियन।
 
 --------------------
 
@@ -230,7 +232,7 @@ public final String getOutputPath()
 ```
 
 
-बाहरी संसाधनों को कहाँ संग्रहीत किया जाना चाहिए, यह निर्धारित करता है। पढ़ें/लिखें स्ट्रिंग।
+यह निर्धारित करता है कि बाहरी संसाधनों को कहाँ संग्रहीत किया जाना चाहिए। पढ़ने/लिखने योग्य स्ट्रिंग।
 
 --------------------
 
@@ -248,7 +250,7 @@ public final String getOutputPath()
 >  }
 > ```
 
-**वापसी:**
+**रिटर्न:**
 java.lang.String
 ### setOutputPath(String value) {#setOutputPath-java.lang.String-}
 ```
@@ -256,7 +258,7 @@ public final void setOutputPath(String value)
 ```
 
 
-बाहरी संसाधनों को कहाँ संग्रहीत किया जाना चाहिए, यह निर्धारित करता है। पढ़ें/लिखें स्ट्रिंग।
+यह निर्धारित करता है कि बाहरी संसाधनों को कहाँ संग्रहीत किया जाना चाहिए। पढ़ने/लिखने योग्य स्ट्रिंग।
 
 --------------------
 
@@ -279,13 +281,36 @@ public final void setOutputPath(String value)
 | --- | --- | --- |
 | value | java.lang.String |  |
 
+### getPicturesCompression() {#getPicturesCompression--}
+```
+public final int getPicturesCompression()
+```
+
+
+चित्र संपीड़न स्तर का प्रतिनिधित्व करता है
+
+**रिटर्न:**
+int
+### setPicturesCompression(int value) {#setPicturesCompression-int-}
+```
+public final void setPicturesCompression(int value)
+```
+
+
+चित्र संपीड़न स्तर का प्रतिनिधित्व करता है
+
+**पैरामीटर:**
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| value | int |  |
+
 ### getDisableFontLigatures() {#getDisableFontLigatures--}
 ```
 public final boolean getDisableFontLigatures()
 ```
 
 
-यह निर्धारित करने के लिए मान प्राप्त या सेट करता है कि टेक्स्ट को लिगैचर के बिना रेंडर किया जाए। जब true पर सेट किया जाता है, तो रेंडर किए गए आउटपुट में लिगैचर निष्क्रिय हो जाएंगे। डिफ़ॉल्ट रूप से यह गुण false पर सेट होता है।
+यह निर्धारित करने वाला मान प्राप्त या सेट करता है कि पाठ को लिगेचर के बिना रेंडर किया जाए या नहीं। जब true पर सेट किया जाता है, तो रेंडर आउटपुट में लिगेचर निष्क्रिय हो जाएंगे। डिफ़ॉल्ट रूप से, यह प्रॉपर्टी false पर सेट रहती है।
 
 --------------------
 
@@ -295,7 +320,7 @@ public final boolean getDisableFontLigatures()
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      Html5Options options = new Html5Options();
->      options.setDisableFontLigatures(true); // टेक्स्ट रेंडरिंग में लिगैचर को निष्क्रिय करें
+>      options.setDisableFontLigatures(true); // टेक्स्ट रेंडरिंग में लिगेचर को निष्क्रिय करें
 > 
 >      pres.save("output.html", SaveFormat.Html5, options);
 >  } finally {
@@ -303,7 +328,7 @@ public final boolean getDisableFontLigatures()
 >  }
 > ```
 
-**वापसी:**
+**रिटर्न:**
 boolean
 ### setDisableFontLigatures(boolean value) {#setDisableFontLigatures-boolean-}
 ```
@@ -311,7 +336,7 @@ public final void setDisableFontLigatures(boolean value)
 ```
 
 
-यह निर्धारित करने के लिए मान प्राप्त या सेट करता है कि टेक्स्ट को लिगैचर के बिना रेंडर किया जाए। जब true पर सेट किया जाता है, तो रेंडर किए गए आउटपुट में लिगैचर निष्क्रिय हो जाएंगे। डिफ़ॉल्ट रूप से यह गुण false पर सेट होता है।
+यह निर्धारित करने वाला मान प्राप्त या सेट करता है कि पाठ को लिगेचर के बिना रेंडर किया जाए या नहीं। जब true पर सेट किया जाता है, तो रेंडर आउटपुट में लिगेचर निष्क्रिय हो जाएंगे। डिफ़ॉल्ट रूप से, यह प्रॉपर्टी false पर सेट रहती है।
 
 --------------------
 
@@ -321,7 +346,7 @@ public final void setDisableFontLigatures(boolean value)
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      Html5Options options = new Html5Options();
->      options.setDisableFontLigatures(true); // टेक्स्ट रेंडरिंग में लिगैचर को निष्क्रिय करें
+>      options.setDisableFontLigatures(true); // टेक्स्ट रेंडरिंग में लिगेचर को निष्क्रिय करें
 > 
 >      pres.save("output.html", SaveFormat.Html5, options);
 >  } finally {
@@ -340,7 +365,7 @@ public final ISlidesLayoutOptions getSlidesLayoutOptions()
 ```
 
 
-प्रस्तुति निर्यात करते समय स्लाइड्स को पृष्ठ पर रखने के मोड को प्राप्त या सेट करता है [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)।
+जब प्रस्तुति निर्यात की जाती है [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) तो स्लाइडों को पृष्ठ पर रखने के मोड को प्राप्त या सेट करता है।
 
 --------------------
 
@@ -360,7 +385,7 @@ public final ISlidesLayoutOptions getSlidesLayoutOptions()
 >  }
 > ```
 
-**वापसी:**
+**रिटर्न:**
 [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)
 ### setSlidesLayoutOptions(ISlidesLayoutOptions value) {#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-}
 ```
@@ -368,7 +393,7 @@ public final void setSlidesLayoutOptions(ISlidesLayoutOptions value)
 ```
 
 
-प्रस्तुति निर्यात करते समय स्लाइड्स को पृष्ठ पर रखने के मोड को प्राप्त या सेट करता है [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)।
+जब प्रस्तुति निर्यात की जाती है [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) तो स्लाइडों को पृष्ठ पर रखने के मोड को प्राप्त या सेट करता है।
 
 --------------------
 
