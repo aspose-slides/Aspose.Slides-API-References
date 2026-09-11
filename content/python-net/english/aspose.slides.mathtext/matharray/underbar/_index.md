@@ -8,7 +8,7 @@ weight: 230
 ---
 
 
-## underbar {#}
+## underbar(self) {#}
 Sets a bar on the bottom of this element
 
 ### Returns

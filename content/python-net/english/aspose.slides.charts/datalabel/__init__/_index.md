@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#ichartdatapoint}
+## __init__(self, parent_immediate) {#ichartdatapoint}
 Creates a new instance of DataLabel class.
 
 

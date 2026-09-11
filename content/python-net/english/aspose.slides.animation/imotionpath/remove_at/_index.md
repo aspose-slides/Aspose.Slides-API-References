@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## remove_at {#int}
+## remove_at(self, index) {#int}
 Removes a command at the specified index.
 
 

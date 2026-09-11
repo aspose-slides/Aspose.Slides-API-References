@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## get_image {#}
+## get_image(self) {#}
 Returns an image of the paragraph.
 
 ### Returns
@@ -26,7 +26,7 @@ def get_image(self):
 
 
 
-## get_image {#float-float}
+## get_image(self, scale_x, scale_y) {#float-float}
 Returns an image of the paragraph with the specified scale.
 
 ### Returns

@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## join_portions_with_same_formatting {#}
+## join_portions_with_same_formatting(self) {#}
 
 
 

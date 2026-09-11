@@ -8,7 +8,7 @@ weight: 80
 ---
 
 
-## set_geometry_paths {#listigeometrypath}
+## set_geometry_paths(self, geometry_paths) {#listigeometrypath}
 
 
 

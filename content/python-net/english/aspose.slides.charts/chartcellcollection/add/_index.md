@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#ichartdatacell}
+## add(self, cell) {#ichartdatacell}
 Add new cell to the collection.
 
 
@@ -23,7 +23,7 @@ def add(self, cell):
 | cell | [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell) | New cell to add. |
 
 
-## add {#any}
+## add(self, value) {#any}
 Creates [`ChartDataCell`](/slides/python-net/aspose.slides.charts/chartdatacell) from specified value and adds it to the collection.
 
 

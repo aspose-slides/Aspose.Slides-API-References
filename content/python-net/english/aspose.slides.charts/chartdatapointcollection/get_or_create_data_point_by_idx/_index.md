@@ -8,7 +8,7 @@ weight: 190
 ---
 
 
-## get_or_create_data_point_by_idx {#int}
+## get_or_create_data_point_by_idx(self, index) {#int}
 If collection already contains data point with index `index` then returns this data point.
             If collection doesn't contains data point with index `index`==N
             (when number of data points in this collection is less or equal then N)

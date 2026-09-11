@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## remove_hyperlink_click {#}
+## remove_hyperlink_click(self) {#}
 Removes hyperlink on click.
 
 

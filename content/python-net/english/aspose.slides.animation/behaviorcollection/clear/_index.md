@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## clear {#}
+## clear(self) {#}
 Removes all behaviors from a collection.
 
 

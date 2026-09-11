@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_document_formatter {#str-bool}
+## create_document_formatter(css, show_slide_title) {#str-bool}
 Creates and returns HTML formatter for a simple document view which consists of sequences of slides one below another.
 
 ### Returns

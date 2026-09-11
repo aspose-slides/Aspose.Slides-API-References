@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## split_by_width {#float}
+## split_by_width(self, width) {#float}
 Splits the cell by width.
 
 

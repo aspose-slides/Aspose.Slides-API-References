@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## write_as_emf {#iorawiobase}
+## write_as_emf(self, stream) {#iorawiobase}
 Saves the SVG image as an EMF file.
 
 

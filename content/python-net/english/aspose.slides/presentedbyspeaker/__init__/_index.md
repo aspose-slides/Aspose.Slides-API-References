@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#}
+## __init__(self) {#}
 Initializes a new instance of the PresentedBySpeaker class.
 
 

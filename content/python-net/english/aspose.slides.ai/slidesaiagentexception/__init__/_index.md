@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#str}
+## __init__(self, message) {#str}
 Constructor allowing a message to be added to this exception.
 
 

@@ -8,7 +8,7 @@ weight: 160
 ---
 
 
-## add_hsl_effect {#float-float-float}
+## add_hsl_effect(self, hue, saturation, luminance) {#float-float-float}
 Adds the new Hue/Saturation/Luminance effect to the end of a collection.
 
 ### Returns

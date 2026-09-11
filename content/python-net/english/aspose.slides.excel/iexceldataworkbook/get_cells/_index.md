@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## get_cells {#str-bool}
+## get_cells(self, formula, skip_hidden_cells) {#str-bool}
 Retrieves a collection of cells from the workbook that match the specified formula.
 
 ### Returns

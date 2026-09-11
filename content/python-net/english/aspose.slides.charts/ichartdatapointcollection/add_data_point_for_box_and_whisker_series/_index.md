@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## add_data_point_for_box_and_whisker_series {#ichartdatacell}
+## add_data_point_for_box_and_whisker_series(self, value) {#ichartdatacell}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chart type is BoxAndWhisker.
 

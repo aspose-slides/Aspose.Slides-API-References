@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## resolve_uri {#str-str}
+## resolve_uri(self, base_uri, relative_uri) {#str-str}
 Resolves the absolute URI from the base and relative URIs.
 
 ### Returns

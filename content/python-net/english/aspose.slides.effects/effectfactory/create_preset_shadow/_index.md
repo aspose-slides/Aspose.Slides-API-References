@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## create_preset_shadow {#}
+## create_preset_shadow(self) {#}
 Creates Preset shadow effect.
 
 ### Returns

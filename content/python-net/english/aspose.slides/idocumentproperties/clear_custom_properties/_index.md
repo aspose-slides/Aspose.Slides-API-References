@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## clear_custom_properties {#}
+## clear_custom_properties(self) {#}
 Removes all custom properties.
 
 

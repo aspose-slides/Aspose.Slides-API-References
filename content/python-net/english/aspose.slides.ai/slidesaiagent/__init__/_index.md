@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#}
+## __init__(self) {#}
 Initializes a new instance of [`SlidesAIAgent`](/slides/python-net/aspose.slides.ai/slidesaiagent) using the built-in
             [`AsposeAIWebClient`](/slides/python-net/aspose.slides.ai/asposeaiwebclient) with its default configuration. The client connects to
             Aspose's own LLM and requires no additional configuration.
@@ -22,7 +22,7 @@ def __init__(self):
 
 
 
-## __init__ {#iaiwebclient}
+## __init__(self, ai_client) {#iaiwebclient}
 Initializes a new instance of [`SlidesAIAgent`](/slides/python-net/aspose.slides.ai/slidesaiagent) with a custom AI client.
             Use this overload to specify the AI provider, supply your own LLM, or customize the
             connection (for example, by providing your own `HttpClient`).

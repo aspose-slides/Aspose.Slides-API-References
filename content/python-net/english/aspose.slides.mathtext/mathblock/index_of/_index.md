@@ -8,7 +8,7 @@ weight: 140
 ---
 
 
-## index_of {#imathelement}
+## index_of(self, item) {#imathelement}
 Determines the index of a specific math element in collection.
 
 ### Returns

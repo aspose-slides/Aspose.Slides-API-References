@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## get_automatic_data_point_color {#}
+## get_automatic_data_point_color(self) {#}
 Returns an automatic color of data point based on series index, data point index, ParentSeriesGroup.IsColorVaried propery and chart style. 
             This color is used by default if FillType equals NotDefined.
 

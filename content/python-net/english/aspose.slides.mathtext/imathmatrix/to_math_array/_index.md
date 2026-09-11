@@ -8,7 +8,7 @@ weight: 300
 ---
 
 
-## to_math_array {#}
+## to_math_array(self) {#}
 
 
 

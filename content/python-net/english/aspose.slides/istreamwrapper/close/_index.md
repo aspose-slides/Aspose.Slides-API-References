@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## close {#}
+## close(self) {#}
 Closes the current stream and releases any resources.
 
 

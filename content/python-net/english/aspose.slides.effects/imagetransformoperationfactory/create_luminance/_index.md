@@ -8,7 +8,7 @@ weight: 170
 ---
 
 
-## create_luminance {#float-float}
+## create_luminance(self, brightness, contrast) {#float-float}
 Createtes Luminance effect.
 
 ### Returns

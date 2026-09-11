@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## write_document_end {#ihtmlgenerator-ipresentation}
+## write_document_end(self, generator, presentation) {#ihtmlgenerator-ipresentation}
 
 
 

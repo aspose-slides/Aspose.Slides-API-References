@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## get_text_boxes_contains_text {#ibaseslide-str-bool}
+## get_text_boxes_contains_text(slide, text, check_placeholder_text) {#ibaseslide-str-bool}
 Returns all text frames on the specified slide that contain the given text.
 
 ### Returns

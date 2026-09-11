@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## get_by_type {#slidelayouttype}
+## get_by_type(self, type) {#slidelayouttype}
 
 
 

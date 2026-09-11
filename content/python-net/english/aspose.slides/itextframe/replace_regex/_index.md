@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## replace_regex {#str-str}
+## replace_regex(self, regex, new_text) {#str-str}
 Replaces all matches of regular expression with specified string.
 
 

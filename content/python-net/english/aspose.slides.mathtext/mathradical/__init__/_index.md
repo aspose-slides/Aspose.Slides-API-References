@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#imathelement-imathelement}
+## __init__(self, base_argument, degree_argument) {#imathelement-imathelement}
 Initializes a new instance of the MathRadical class.
 
 

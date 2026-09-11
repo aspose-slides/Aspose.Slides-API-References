@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## merge_cells {#icell-icell-bool}
+## merge_cells(self, cell1, cell2, allow_splitting) {#icell-icell-bool}
 Merges neighbour cells.
 
 ### Returns

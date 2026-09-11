@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## set_internal_hyperlink_mouse_over {#islide}
+## set_internal_hyperlink_mouse_over(self, target_slide) {#islide}
 Sets internal hyperlink mouse over.
 
 ### Returns

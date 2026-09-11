@@ -8,7 +8,7 @@ weight: 90
 ---
 
 
-## enclose {#}
+## enclose(self) {#}
 
 
 
@@ -19,7 +19,7 @@ def enclose(self):
 
 
 
-## enclose {#char-char}
+## enclose(self, beginning_character, ending_character) {#char-char}
 
 
 
@@ -35,7 +35,7 @@ def enclose(self, beginning_character, ending_character):
 | ending_character | **char** |  |
 
 
-## enclose {#char-char-char}
+## enclose(self, beginning_character, ending_character, separator_character) {#char-char-char}
 Encloses child elements of this block in specified characters such as parenthesis or another as framing
             and delimit with a separator character
 

@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## set_all_footers_visibility {#bool}
+## set_all_footers_visibility(self, is_visible) {#bool}
 Changes all footer placeholders visibility, including master slides, layout slides and slides.
 
 

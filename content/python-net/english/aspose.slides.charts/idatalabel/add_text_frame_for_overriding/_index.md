@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add_text_frame_for_overriding {#str}
+## add_text_frame_for_overriding(self, text) {#str}
 
 
 

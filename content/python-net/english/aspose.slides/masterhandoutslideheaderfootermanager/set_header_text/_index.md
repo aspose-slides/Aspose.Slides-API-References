@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## set_header_text {#str}
+## set_header_text(self, text) {#str}
 Sets text to slide header placeholder.
 
 

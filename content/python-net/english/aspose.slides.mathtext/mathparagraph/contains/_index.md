@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## contains {#imathblock}
+## contains(self, math_block) {#imathblock}
 Determines whether the collection contains a specific value.
 
 ### Returns

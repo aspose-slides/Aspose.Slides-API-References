@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## set_date_time_and_child_date_times_text {#str}
+## set_date_time_and_child_date_times_text(self, text) {#str}
 Sets text to master notes slide date-time placeholder and all child date-time placeholders.
             Child placeholders mean placeholders are contained on depending notes slides.
             Depending notes slides use and depend on master notes slide.

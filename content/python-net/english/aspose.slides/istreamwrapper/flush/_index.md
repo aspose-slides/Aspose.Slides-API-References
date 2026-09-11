@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## flush {#}
+## flush(self) {#}
 Clears all buffers for this stream and causes any buffered data to be written to the underlying device.
 
 

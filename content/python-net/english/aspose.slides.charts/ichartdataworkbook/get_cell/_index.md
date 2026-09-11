@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## get_cell {#int-str}
+## get_cell(self, worksheet_index, cell_name) {#int-str}
 Gets the cell that can be used for chart series or categories
 
 ### Returns
@@ -29,7 +29,7 @@ def get_cell(self, worksheet_index, cell_name):
 | cell_name | **str** | Name of the cell. |
 
 
-## get_cell {#str-int-int}
+## get_cell(self, worksheet_name, row, column) {#str-int-int}
 Gets the cell that can be used for chart series or categories
 
 ### Returns
@@ -51,7 +51,7 @@ def get_cell(self, worksheet_name, row, column):
 | column | **int** | The column. |
 
 
-## get_cell {#int-int-int}
+## get_cell(self, worksheet_index, row, column) {#int-int-int}
 Gets the cell that can be used for chart series or categories
 
 ### Returns
@@ -73,7 +73,7 @@ def get_cell(self, worksheet_index, row, column):
 | column | **int** | The column. |
 
 
-## get_cell {#int-str-any}
+## get_cell(self, worksheet_index, cell_name, value) {#int-str-any}
 Gets the cell that can be used for chart series or categories
 
 ### Returns
@@ -95,7 +95,7 @@ def get_cell(self, worksheet_index, cell_name, value):
 | value | **any** | The value. |
 
 
-## get_cell {#int-int-int-any}
+## get_cell(self, worksheet_index, row, column, value) {#int-int-int-any}
 Gets the cell that can be used for chart series or categories
 
 ### Returns

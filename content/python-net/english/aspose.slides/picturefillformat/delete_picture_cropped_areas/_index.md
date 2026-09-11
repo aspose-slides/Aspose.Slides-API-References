@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## delete_picture_cropped_areas {#}
+## delete_picture_cropped_areas(self) {#}
 Delete cropped areas of the fill Picture.
 
 ### Returns

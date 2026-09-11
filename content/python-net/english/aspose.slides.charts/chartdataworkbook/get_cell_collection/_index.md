@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## get_cell_collection {#str-bool}
+## get_cell_collection(self, formula, skip_hidden_cells) {#str-bool}
 Gets the set of cells.
 
 

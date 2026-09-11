@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## cubic_bezier_to {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf}
+## cubic_bezier_to(self, point1, point2, point3) {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf}
 Adds cubic Bezier curve at the end the path
 
 
@@ -25,7 +25,7 @@ def cubic_bezier_to(self, point1, point2, point3):
 | point3 | **aspose.pydrawing.PointF** | End point |
 
 
-## cubic_bezier_to {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf-int}
+## cubic_bezier_to(self, point1, point2, point3, index) {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf-int}
 Adds cubic Bezier curve to the specified place of the path
 
 
@@ -49,7 +49,7 @@ def cubic_bezier_to(self, point1, point2, point3, index):
 | **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Segment index is out of PathData range |
 
 
-## cubic_bezier_to {#float-float-float-float-float-float}
+## cubic_bezier_to(self, x1, y1, x2, y2, x3, y3) {#float-float-float-float-float-float}
 Adds cubic Bezier curve at the end the path
 
 
@@ -69,7 +69,7 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3):
 | y3 | **float** | Y coordinate of end point |
 
 
-## cubic_bezier_to {#float-float-float-float-float-float-int}
+## cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index) {#float-float-float-float-float-float-int}
 Adds cubic Bezier curve to the specified place of the path
 
 

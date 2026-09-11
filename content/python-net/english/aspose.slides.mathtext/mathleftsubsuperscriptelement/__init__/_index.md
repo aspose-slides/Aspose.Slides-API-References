@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#imathelement-imathelement-imathelement}
+## __init__(self, base_arg, sub_script, super_script) {#imathelement-imathelement-imathelement}
 Initializes a new instance of the MathLeftSubSuperscriptElement class.
 
 

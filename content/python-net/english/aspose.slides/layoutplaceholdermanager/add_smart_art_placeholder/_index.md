@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## add_smart_art_placeholder {#float-float-float-float}
+## add_smart_art_placeholder(self, x, y, width, height) {#float-float-float-float}
 Adds a new placeholder shape to the layout slide to hold a SmartArt diagram.
 
 ### Returns

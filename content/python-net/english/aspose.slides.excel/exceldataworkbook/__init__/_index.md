@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#str}
+## __init__(self, file_path) {#str}
 Initializes a new instance using the specified file path.
 
 
@@ -29,7 +29,7 @@ def __init__(self, file_path):
 | **RuntimeError(Proxy error(FileNotFoundException))** | Thrown when the specified file does not exist. |
 
 
-## __init__ {#iorawiobase}
+## __init__(self, stream) {#iorawiobase}
 Initializes a new instance of the class using the provided stream.
 
 

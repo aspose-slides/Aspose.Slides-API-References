@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add_node {#}
+## add_node(self) {#}
 Add new node or sub node.
 
 ### Returns

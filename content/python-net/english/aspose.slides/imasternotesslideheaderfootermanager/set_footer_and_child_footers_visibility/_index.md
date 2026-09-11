@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## set_footer_and_child_footers_visibility {#bool}
+## set_footer_and_child_footers_visibility(self, is_visible) {#bool}
 Changes master notes slide footer placeholder and all child footer placeholders visibility.
             Child placeholders mean placeholders are contained on depending notes slides.
             Depending notes slides use and depend on master notes slide.

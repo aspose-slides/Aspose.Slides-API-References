@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#}
+## __init__(self) {#}
 Creates new default load options.
 
 
@@ -19,7 +19,7 @@ def __init__(self):
 
 
 
-## __init__ {#loadformat}
+## __init__(self, load_format) {#loadformat}
 Creates new load options.
 
 

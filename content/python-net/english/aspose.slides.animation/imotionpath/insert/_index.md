@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## insert {#int-motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool}
+## insert(self, index, type, pts, pts_type, b_relative_coord) {#int-motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool}
 Insert new command to path
 
 

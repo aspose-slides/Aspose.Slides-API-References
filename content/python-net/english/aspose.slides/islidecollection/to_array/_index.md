@@ -8,7 +8,7 @@ weight: 120
 ---
 
 
-## to_array {#}
+## to_array(self) {#}
 Creates and returns an array with all slides in it.
 
 ### Returns
@@ -24,7 +24,7 @@ def to_array(self):
 
 
 
-## to_array {#int-int}
+## to_array(self, start_index, count) {#int-int}
 Creates and returns an array with all slides from the specified range in it.
 
 ### Returns

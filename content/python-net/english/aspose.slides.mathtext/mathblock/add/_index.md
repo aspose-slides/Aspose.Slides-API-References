@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## add {#imathelement}
+## add(self, item) {#imathelement}
 Adds a math element to the end of the collection.
 
 

@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## get_presentation_text {#str-textextractionarrangingmode}
+## get_presentation_text(self, file, mode) {#str-textextractionarrangingmode}
 Retrieves the raw text from the slides
 
 ### Returns
@@ -29,7 +29,7 @@ def get_presentation_text(self, file, mode):
 | mode | [`TextExtractionArrangingMode`](/slides/python-net/aspose.slides/textextractionarrangingmode) | Extraction mode |
 
 
-## get_presentation_text {#iorawiobase-textextractionarrangingmode}
+## get_presentation_text(self, stream, mode) {#iorawiobase-textextractionarrangingmode}
 Retrieves the raw text from the slides
 
 ### Returns
@@ -50,7 +50,7 @@ def get_presentation_text(self, stream, mode):
 | mode | [`TextExtractionArrangingMode`](/slides/python-net/aspose.slides/textextractionarrangingmode) | Extraction mode |
 
 
-## get_presentation_text {#iorawiobase-textextractionarrangingmode-iloadoptions}
+## get_presentation_text(self, stream, mode, options) {#iorawiobase-textextractionarrangingmode-iloadoptions}
 Retrieves the raw text from the slides
 
 ### Returns

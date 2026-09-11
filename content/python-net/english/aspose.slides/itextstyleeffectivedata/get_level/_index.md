@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## get_level {#int}
+## get_level(self, index) {#int}
 Returns level of effective style.
 
 ### Returns

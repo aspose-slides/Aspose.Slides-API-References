@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## create_alpha_bi_level {#float}
+## create_alpha_bi_level(self, threshold) {#float}
 Creates Alpha BiLevel effect.
 
 ### Returns

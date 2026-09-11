@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## compare_to {#any}
+## compare_to(self, obj) {#any}
 Compares the current instance with another object of the same type.
 
 ### Returns

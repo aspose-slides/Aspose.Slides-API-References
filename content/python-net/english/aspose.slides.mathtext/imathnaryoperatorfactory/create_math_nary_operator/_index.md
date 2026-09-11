@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## create_math_nary_operator {#char-imathelement}
+## create_math_nary_operator(self, operator_symbol, base_argument) {#char-imathelement}
 Creates IMathNaryOperator
 
 ### Returns
@@ -29,7 +29,7 @@ def create_math_nary_operator(self, operator_symbol, base_argument):
 | base_argument | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Base argument to apply operator |
 
 
-## create_math_nary_operator {#char-imathelement-imathelement}
+## create_math_nary_operator(self, operator_symbol, base_argument, lower_limit) {#char-imathelement-imathelement}
 Creates IMathNaryOperator
 
 ### Returns
@@ -51,7 +51,7 @@ def create_math_nary_operator(self, operator_symbol, base_argument, lower_limit)
 | lower_limit | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Lower limit |
 
 
-## create_math_nary_operator {#char-imathelement-imathelement-imathelement}
+## create_math_nary_operator(self, operator_symbol, base_argument, lower_limit, upper_limit) {#char-imathelement-imathelement-imathelement}
 Creates IMathNaryOperator
 
 ### Returns

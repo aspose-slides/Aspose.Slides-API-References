@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## split_by_height {#float}
+## split_by_height(self, height) {#float}
 Splits the cell by height.
 
 

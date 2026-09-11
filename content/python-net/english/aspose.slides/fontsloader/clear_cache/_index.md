@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## clear_cache {#}
+## clear_cache() {#}
 Releases all custom fonts defined by user
 
 

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add_audio {#iaudio}
+## add_audio(self, audio) {#iaudio}
 Adds a copy of an audio file from an another presentation.
 
 ### Returns
@@ -28,7 +28,7 @@ def add_audio(self, audio):
 | audio | [`IAudio`](/slides/python-net/aspose.slides/iaudio) | Source audio. |
 
 
-## add_audio {#iorawiobase}
+## add_audio(self, stream) {#iorawiobase}
 Creates and adds a audio to a presentation from stream.
 
 ### Returns
@@ -48,7 +48,7 @@ def add_audio(self, stream):
 | stream | **io.RawIOBase** | Stream to add audio from. |
 
 
-## add_audio {#bytes}
+## add_audio(self, audio_data) {#bytes}
 Creates and adds a audio to a presentation from byte array.
 
 ### Returns
@@ -68,7 +68,7 @@ def add_audio(self, audio_data):
 | audio_data | **bytes** | Audio bytes. |
 
 
-## add_audio {#iorawiobase-loadingstreambehavior}
+## add_audio(self, stream, loading_stream_behavior) {#iorawiobase-loadingstreambehavior}
 Creates and adds a audio to a presentation from stream.
 
 ### Returns

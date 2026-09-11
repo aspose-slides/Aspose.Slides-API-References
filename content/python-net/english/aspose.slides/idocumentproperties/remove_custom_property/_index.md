@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## remove_custom_property {#str}
+## remove_custom_property(self, name) {#str}
 Remove a custom property associated with a specified name.
 
 ### Returns

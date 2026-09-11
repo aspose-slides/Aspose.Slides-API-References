@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## get_font_name {#asposeslidesthemeithemeeffectivedata}
+## get_font_name(self, theme) {#asposeslidesthemeithemeeffectivedata}
 Returns the font name, replacing theme referrence with an actual font used.
 
 ### Returns

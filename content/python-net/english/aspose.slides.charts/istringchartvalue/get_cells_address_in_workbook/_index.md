@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## get_cells_address_in_workbook {#}
+## get_cells_address_in_workbook(self) {#}
 If DataSourceType property is DataSourceType.Worksheet then this method returns address
             of the cells in workbook which represent the string data. Otherwise return
             empty string.

@@ -8,7 +8,7 @@ weight: 150
 ---
 
 
-## create_gray_scale {#}
+## create_gray_scale(self) {#}
 Creates Gray scale effect.
 
 ### Returns

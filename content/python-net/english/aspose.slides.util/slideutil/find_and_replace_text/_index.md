@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## find_and_replace_text {#ipresentation-bool-str-str-portionformat}
+## find_and_replace_text(presentation, with_masters, find, replace, format) {#ipresentation-bool-str-str-portionformat}
 Finds and replaces text in presentation with given format
 
 

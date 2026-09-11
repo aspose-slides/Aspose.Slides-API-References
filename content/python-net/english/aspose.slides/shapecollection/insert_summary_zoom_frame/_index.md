@@ -8,7 +8,7 @@ weight: 310
 ---
 
 
-## insert_summary_zoom_frame {#int-float-float-float-float}
+## insert_summary_zoom_frame(self, index, x, y, width, height) {#int-float-float-float-float}
 Creates a new Summary Zoom frame and inserts it into the shape collection at the specified index.
 
 ### Returns

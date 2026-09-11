@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_shape_elements {#}
+## create_shape_elements(self) {#}
 Creates and returns array of shape's elements.
 
 ### Returns

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## calculate {#bool}
+## calculate(self, update_values) {#bool}
 If the cell contains a formula, the value will be updated base on that formula.
 
 

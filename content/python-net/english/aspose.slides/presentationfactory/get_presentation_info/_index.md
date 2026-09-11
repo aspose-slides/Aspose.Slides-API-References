@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## get_presentation_info {#str}
+## get_presentation_info(self, file) {#str}
 Creates new PresentationInfo object from file and binds presentation to it.
 
 ### Returns
@@ -28,7 +28,7 @@ def get_presentation_info(self, file):
 | file | **str** | Presentation file. |
 
 
-## get_presentation_info {#iorawiobase}
+## get_presentation_info(self, stream) {#iorawiobase}
 Creates new PresentationInfo object from stream and binds presentation to it.
             Gets info about presentation in specified stream.
 

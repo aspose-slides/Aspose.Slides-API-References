@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## set_all_headers_visibility {#bool}
+## set_all_headers_visibility(self, is_visible) {#bool}
 Changes all header placeholders visibility, including notes master, notes slides and handout master.
 
 

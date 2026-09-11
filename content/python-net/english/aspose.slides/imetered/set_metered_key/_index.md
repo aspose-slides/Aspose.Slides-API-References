@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## set_metered_key {#str-str}
+## set_metered_key(self, public_key, private_key) {#str-str}
 Sets metered public and private key.
 
 

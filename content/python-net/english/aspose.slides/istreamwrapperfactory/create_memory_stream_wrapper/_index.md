@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_memory_stream_wrapper {#}
+## create_memory_stream_wrapper(self) {#}
 Creates MemoryStream wrapper.
 
 ### Returns
@@ -24,7 +24,7 @@ def create_memory_stream_wrapper(self):
 
 
 
-## create_memory_stream_wrapper {#bytes}
+## create_memory_stream_wrapper(self, buffer) {#bytes}
 Creates MemoryStream wrapper based on the specified byte array.
 
 ### Returns

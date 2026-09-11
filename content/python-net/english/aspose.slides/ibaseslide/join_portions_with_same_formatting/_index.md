@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## join_portions_with_same_formatting {#}
+## join_portions_with_same_formatting(self) {#}
 Joins runs with same formatting in all paragraphs in all acceptable shapes.
 
 

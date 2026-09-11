@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## get_script_font {#str}
+## get_script_font(self, script) {#str}
 Gets the font name associated with a specific script tag from the presentation theme.
 
 ### Returns

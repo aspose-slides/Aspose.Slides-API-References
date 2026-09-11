@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add_notes_slide {#}
+## add_notes_slide(self) {#}
 Returns the notes slide for the current slide, creating one if there isn't.
 
 ### Returns

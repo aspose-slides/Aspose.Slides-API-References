@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## copy_to {#itextframe}
+## copy_to(self, dest_text_frame) {#itextframe}
 Copies text format to specified text frame.
 
 

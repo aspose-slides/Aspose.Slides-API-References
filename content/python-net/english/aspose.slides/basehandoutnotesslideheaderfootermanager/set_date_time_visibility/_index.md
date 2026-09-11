@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## set_date_time_visibility {#bool}
+## set_date_time_visibility(self, is_visible) {#bool}
 Changes slide date-time placeholder visibility.
 
 

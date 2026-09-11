@@ -8,7 +8,7 @@ weight: 170
 ---
 
 
-## set_superscript {#imathelement}
+## set_superscript(self, superscript) {#imathelement}
 Creates superscript
 
 ### Returns
@@ -28,7 +28,7 @@ def set_superscript(self, superscript):
 | superscript | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Superscript (upper index on the right) |
 
 
-## set_superscript {#str}
+## set_superscript(self, superscript) {#str}
 Creates superscript
 
 ### Returns

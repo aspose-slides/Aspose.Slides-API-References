@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#imathelement}
+## __init__(self, element) {#imathelement}
 Creates a mathematical array and places the specified element in it
 
 
@@ -23,7 +23,7 @@ def __init__(self, element):
 | element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | The element to place in the array |
 
 
-## __init__ {#iterableimathelement}
+## __init__(self, elements) {#iterableimathelement}
 
 
 

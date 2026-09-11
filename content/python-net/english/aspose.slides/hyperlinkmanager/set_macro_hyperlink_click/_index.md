@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## set_macro_hyperlink_click {#str}
+## set_macro_hyperlink_click(self, macro_name) {#str}
 Set Macro hyperlink on a click.
 
 ### Returns

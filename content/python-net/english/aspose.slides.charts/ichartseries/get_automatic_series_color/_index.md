@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## get_automatic_series_color {#}
+## get_automatic_series_color(self) {#}
 Returns an automatic color of series based on series index and chart style. 
             This color is used by default if FillType equals NotDefined.
 

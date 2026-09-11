@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## get_product_name {#}
+## get_product_name(self) {#}
 
 
 

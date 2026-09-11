@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## copy_to {#listidrawingguide-int}
+## copy_to(self, array, index) {#listidrawingguide-int}
 Copies all elements from the collection to the specified array.
 
 

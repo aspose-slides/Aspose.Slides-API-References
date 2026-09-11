@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add_alpha_ceiling_effect {#}
+## add_alpha_ceiling_effect(self) {#}
 Adds the new Alpha Ceiling effect to the end of a collection.
 
 ### Returns

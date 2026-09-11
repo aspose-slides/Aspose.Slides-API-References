@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## create_custom_formatter {#ihtmlformattingcontroller}
+## create_custom_formatter(formatting_controller) {#ihtmlformattingcontroller}
 Creates and returns HTML formatter for custom callback-driven html generation.
 
 ### Returns

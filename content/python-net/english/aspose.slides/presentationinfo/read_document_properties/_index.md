@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## read_document_properties {#}
+## read_document_properties(self) {#}
 Gets document properties of binded presentation.
 
 

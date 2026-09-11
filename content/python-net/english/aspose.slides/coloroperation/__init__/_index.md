@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#colortransformoperation}
+## __init__(self, op) {#colortransformoperation}
 Creates new color transform operation.
 
 
@@ -23,7 +23,7 @@ def __init__(self, op):
 | op | [`ColorTransformOperation`](/slides/python-net/aspose.slides/colortransformoperation) | Operation type. |
 
 
-## __init__ {#colortransformoperation-float}
+## __init__(self, op, parameter) {#colortransformoperation-float}
 Creates new color transform operation.
 
 

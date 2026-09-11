@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## remove {#str}
+## remove(self, name) {#str}
 Removes a property with the specified name.
 
 

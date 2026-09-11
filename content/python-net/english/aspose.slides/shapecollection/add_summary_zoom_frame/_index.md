@@ -8,7 +8,7 @@ weight: 140
 ---
 
 
-## add_summary_zoom_frame {#float-float-float-float}
+## add_summary_zoom_frame(self, x, y, width, height) {#float-float-float-float}
 Creates a new Summary Zoom frame and adds it to the end of the shape collection.
 
 ### Returns

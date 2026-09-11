@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## remove {#}
+## remove(self) {#}
 Removes layout from presentation.
 
 

@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_mathematical_text {#}
+## create_mathematical_text(self) {#}
 Create empty mathematical text element
 
 ### Returns
@@ -24,7 +24,7 @@ def create_mathematical_text(self):
 
 
 
-## create_mathematical_text {#char}
+## create_mathematical_text(self, math_symbol) {#char}
 Create mathematical text element with the specified value
 
 ### Returns
@@ -44,7 +44,7 @@ def create_mathematical_text(self, math_symbol):
 | math_symbol | **char** | single symbol to use as text value |
 
 
-## create_mathematical_text {#str}
+## create_mathematical_text(self, math_text) {#str}
 Create empty mathematical text element with the specified value
 
 ### Returns
@@ -64,7 +64,7 @@ def create_mathematical_text(self, math_text):
 | math_text | **str** | text value |
 
 
-## create_mathematical_text {#str-iportionformat}
+## create_mathematical_text(self, math_text, portion_format) {#str-iportionformat}
 Create empty mathematical text element with the specified value and formatting properties
 
 ### Returns

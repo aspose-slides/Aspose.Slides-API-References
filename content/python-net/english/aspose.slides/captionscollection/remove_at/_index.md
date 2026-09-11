@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## remove_at {#int}
+## remove_at(self, index) {#int}
 Removes the closed captions at the specified index.
 
 

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#}
+## __init__(self) {#}
 Initializes a new instance of the Paragraph class with default properties.
 
 
@@ -19,7 +19,7 @@ def __init__(self):
 
 
 
-## __init__ {#paragraph}
+## __init__(self, para) {#paragraph}
 Copy constructor that initializes a new instance of a Paragraph class.
 
 

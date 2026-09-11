@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## find_by_name_and_initials {#str-str}
+## find_by_name_and_initials(self, name, initials) {#str-str}
 Find author in a collection by name and initials.
 
 ### Returns

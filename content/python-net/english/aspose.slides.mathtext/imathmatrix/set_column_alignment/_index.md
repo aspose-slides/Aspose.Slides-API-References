@@ -8,7 +8,7 @@ weight: 200
 ---
 
 
-## set_column_alignment {#int-mathhorizontalalignment}
+## set_column_alignment(self, column_index, val) {#int-mathhorizontalalignment}
 Set the horizontal alignment of the specified column
 
 

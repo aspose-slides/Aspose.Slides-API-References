@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add_section {#str-islide}
+## add_section(self, name, started_from_slide) {#str-islide}
 Add slides section started form specific slide.
 
 ### Returns

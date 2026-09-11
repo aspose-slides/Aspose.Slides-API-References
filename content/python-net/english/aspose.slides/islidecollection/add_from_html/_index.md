@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## add_from_html {#str}
+## add_from_html(self, html_text) {#str}
 Creates slides from HTML text and adds them to the end of the collection.
 
 ### Returns
@@ -28,7 +28,7 @@ def add_from_html(self, html_text):
 | html_text | **str** | Html to add. |
 
 
-## add_from_html {#iorawiobase}
+## add_from_html(self, html_stream) {#iorawiobase}
 Creates slides from HTML text and adds them to the end of the collection.
 
 ### Returns
@@ -48,7 +48,7 @@ def add_from_html(self, html_stream):
 | html_stream | **io.RawIOBase** | A Stream object which will be used as a source of a HTML file. |
 
 
-## add_from_html {#str-asposeslidesimportingiexternalresourceresolver-str}
+## add_from_html(self, html_text, resolver, uri) {#str-asposeslidesimportingiexternalresourceresolver-str}
 Creates slides from HTML text and adds them to the end of the collection.
 
 ### Returns
@@ -70,7 +70,7 @@ def add_from_html(self, html_text, resolver, uri):
 | uri | **str** | An URI of the specified HTML. Used to resolve relative links. |
 
 
-## add_from_html {#iorawiobase-asposeslidesimportingiexternalresourceresolver-str}
+## add_from_html(self, html_stream, resolver, uri) {#iorawiobase-asposeslidesimportingiexternalresourceresolver-str}
 Creates slides from HTML text and adds them to the end of the collection.
 
 ### Returns

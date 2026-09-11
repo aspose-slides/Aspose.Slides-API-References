@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## add_online_image_placeholder {#float-float-float-float}
+## add_online_image_placeholder(self, x, y, width, height) {#float-float-float-float}
 Adds a new placeholder shape to the layout slide to hold an online image.
 
 ### Returns

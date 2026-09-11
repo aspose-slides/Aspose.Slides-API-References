@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## create_math_right_sub_superscript_element {#imathelement-imathelement-imathelement}
+## create_math_right_sub_superscript_element(self, base_arg, sub_script, super_script) {#imathelement-imathelement-imathelement}
 Creates IMathRightSubSuperscriptElementFactory
 
 ### Returns

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## create_ole_type_lib_reference {#str-str}
+## create_ole_type_lib_reference(self, name, libid) {#str-str}
 Creates new OLE Automation type library reference.
 
 ### Returns

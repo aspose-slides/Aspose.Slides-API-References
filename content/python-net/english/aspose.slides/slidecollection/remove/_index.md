@@ -8,7 +8,7 @@ weight: 90
 ---
 
 
-## remove {#islide}
+## remove(self, value) {#islide}
 Removes the first occurrence of a specific object from the collection.
 
 

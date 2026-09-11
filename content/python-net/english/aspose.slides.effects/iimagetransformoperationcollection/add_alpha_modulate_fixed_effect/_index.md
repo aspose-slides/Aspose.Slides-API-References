@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## add_alpha_modulate_fixed_effect {#float}
+## add_alpha_modulate_fixed_effect(self, amount) {#float}
 Adds the new Alpha Modulate Fixed effect to the end of a collection.
 
 ### Returns

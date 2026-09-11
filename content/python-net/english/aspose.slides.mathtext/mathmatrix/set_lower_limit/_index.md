@@ -8,7 +8,7 @@ weight: 230
 ---
 
 
-## set_lower_limit {#imathelement}
+## set_lower_limit(self, limit) {#imathelement}
 Takes lower limit
 
 ### Returns
@@ -28,7 +28,7 @@ def set_lower_limit(self, limit):
 | limit | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | limit |
 
 
-## set_lower_limit {#str}
+## set_lower_limit(self, limit) {#str}
 Takes lower limit
 
 ### Returns

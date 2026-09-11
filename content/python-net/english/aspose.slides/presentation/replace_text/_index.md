@@ -8,7 +8,7 @@ weight: 80
 ---
 
 
-## replace_text {#str-str-itextsearchoptions-ifindresultcallback}
+## replace_text(self, old_text, new_text, options, callback) {#str-str-itextsearchoptions-ifindresultcallback}
 Replaces all occurrences of the specified text with another specified text.
 
 

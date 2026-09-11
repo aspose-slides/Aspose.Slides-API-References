@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## get_embedded_fonts {#}
+## get_embedded_fonts(self) {#}
 Returns the fonts embedded in the presentation
 
 

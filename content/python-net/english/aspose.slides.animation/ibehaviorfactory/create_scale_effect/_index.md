@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## create_scale_effect {#}
+## create_scale_effect(self) {#}
 Creates scale effect.
 
 ### Returns

@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## set_internal_hyperlink_click {#islide}
+## set_internal_hyperlink_click(self, target_slide) {#islide}
 Sets internal hyperlink on click.
 
 ### Returns

@@ -8,7 +8,7 @@ weight: 120
 ---
 
 
-## set_header_visibility {#bool}
+## set_header_visibility(self, is_visible) {#bool}
 Changes slide header placeholder visibility.
 
 

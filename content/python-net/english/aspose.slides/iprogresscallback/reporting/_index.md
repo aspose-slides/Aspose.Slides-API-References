@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## reporting {#float}
+## reporting(self, progress_value) {#float}
 Reports a progress update.
 
 

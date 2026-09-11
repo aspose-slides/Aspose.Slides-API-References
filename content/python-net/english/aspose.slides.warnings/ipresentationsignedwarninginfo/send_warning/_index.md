@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## send_warning {#iwarningcallback}
+## send_warning(self, receiver) {#iwarningcallback}
 
 
 

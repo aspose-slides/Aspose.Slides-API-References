@@ -8,7 +8,7 @@ weight: 80
 ---
 
 
-## to_array {#}
+## to_array(self) {#}
 Creates and returns an array with all comments.
 
 ### Returns
@@ -24,7 +24,7 @@ def to_array(self):
 
 
 
-## to_array {#int-int}
+## to_array(self, start_index, count) {#int-int}
 Creates and returns an array with all comments from the specified range.
 
 ### Returns

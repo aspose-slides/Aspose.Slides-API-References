@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## interrupt {#}
+## interrupt(self) {#}
 Intialize request for interruption.
 
 

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#trendlinetype}
+## add(self, trendline_type) {#trendlinetype}
 Adds the new Trendline at the end of a collection and return it.
 
 ### Returns

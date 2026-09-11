@@ -8,7 +8,7 @@ weight: 80
 ---
 
 
-## add_bi_level_effect {#float}
+## add_bi_level_effect(self, threshold) {#float}
 Adds the new Bi-Level (black/white) effect to the end of a collection.
 
 ### Returns

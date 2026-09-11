@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## get_images {#asposeslidesexportirenderingoptions}
+## get_images(self, options) {#asposeslidesexportirenderingoptions}
 Returns a Thumbnail Image objects for all slides of a presentation.
 
 ### Returns
@@ -28,7 +28,7 @@ def get_images(self, options):
 | options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) | Rendering options. |
 
 
-## get_images {#asposeslidesexportirenderingoptions-listint}
+## get_images(self, options, slides) {#asposeslidesexportirenderingoptions-listint}
 Returns a Thumbnail Bitmap objects for specified slides of a presentation.
 
 ### Returns
@@ -49,7 +49,7 @@ def get_images(self, options, slides):
 | slides | **List[int]** | Array with slide positions, starting from 1. |
 
 
-## get_images {#asposeslidesexportirenderingoptions-asposepydrawingsize}
+## get_images(self, options, image_size) {#asposeslidesexportirenderingoptions-asposepydrawingsize}
 Returns a Thumbnail Image objects for all slides of a presentation with specified size.
 
 ### Returns
@@ -70,7 +70,7 @@ def get_images(self, options, image_size):
 | image_size | **aspose.pydrawing.Size** | Size of the image to create. |
 
 
-## get_images {#asposeslidesexportirenderingoptions-float-float}
+## get_images(self, options, scale_x, scale_y) {#asposeslidesexportirenderingoptions-float-float}
 Returns a Thumbnail Image objects for all slides of a presentation with custom scaling.
 
 ### Returns
@@ -92,7 +92,7 @@ def get_images(self, options, scale_x, scale_y):
 | scale_y | **float** | The value by which to scale this Thumbnail in the y-axis direction. |
 
 
-## get_images {#asposeslidesexportirenderingoptions-listint-asposepydrawingsize}
+## get_images(self, options, slides, image_size) {#asposeslidesexportirenderingoptions-listint-asposepydrawingsize}
 Returns a Thumbnail Image objects for specified slides of a presentation with specified size.
 
 ### Returns
@@ -114,7 +114,7 @@ def get_images(self, options, slides, image_size):
 | image_size | **aspose.pydrawing.Size** | Size of the image to create. |
 
 
-## get_images {#asposeslidesexportirenderingoptions-listint-float-float}
+## get_images(self, options, slides, scale_x, scale_y) {#asposeslidesexportirenderingoptions-listint-float-float}
 Returns a Thumbnail Image objects for specified slides of a presentation with custom scaling.
 
 ### Returns

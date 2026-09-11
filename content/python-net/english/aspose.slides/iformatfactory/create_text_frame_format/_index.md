@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## create_text_frame_format {#}
+## create_text_frame_format(self) {#}
 Creates new [`ITextFrameFormat`](/slides/python-net/aspose.slides/itextframeformat).
 
 ### Returns

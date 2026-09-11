@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## find_shape_by_alt_text {#str}
+## find_shape_by_alt_text(self, alt_text) {#str}
 
 
 

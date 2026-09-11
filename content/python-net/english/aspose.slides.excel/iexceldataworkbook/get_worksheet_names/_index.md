@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## get_worksheet_names {#}
+## get_worksheet_names(self) {#}
 Retrieves the names of all worksheets contained in the Excel workbook.
 
 ### Returns

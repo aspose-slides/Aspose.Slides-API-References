@@ -8,7 +8,7 @@ weight: 110
 ---
 
 
-## set_header_text {#str}
+## set_header_text(self, text) {#str}
 
 
 

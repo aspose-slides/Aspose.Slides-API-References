@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#}
+## __init__(self) {#}
 Default constructor.
 
 
@@ -19,7 +19,7 @@ def __init__(self):
 
 
 
-## __init__ {#float-any-str}
+## __init__(self, time, value, formula) {#float-any-str}
 Create animation point with time, value and formula.
 
 

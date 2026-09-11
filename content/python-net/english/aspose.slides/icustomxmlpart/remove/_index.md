@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## remove {#}
+## remove(self) {#}
 Removes the custom xml part from the presentation.
 
 

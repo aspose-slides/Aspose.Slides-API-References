@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## get_value_by_index {#int}
+## get_value_by_index(self, index) {#int}
 Returns value of a tag at the specified index.
 
 ### Returns

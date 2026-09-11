@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## remove_at {#int}
+## remove_at(self, index) {#int}
 Removes the author at the specified index of the collection.
 
 

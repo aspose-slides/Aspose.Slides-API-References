@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add_clone {#islide}
+## add_clone(self, source_slide) {#islide}
 Adds a copy of a specified slide to the end of the collection.
 
 ### Returns
@@ -41,7 +41,7 @@ When cloning a slide between different presentations slide's master can be clone
             **Aspose.Slides.IMasterSlideCollection.AddClone(Aspose.Slide** for cloning masters.
 
 
-## add_clone {#islide-isection}
+## add_clone(self, source_slide, section) {#islide-isection}
 Adds a copy of a specified slide to the end of the specified section.
 
 ### Returns
@@ -69,7 +69,7 @@ def add_clone(self, source_slide, section):
 | [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception) |  |
 
 
-## add_clone {#islide-ilayoutslide}
+## add_clone(self, source_slide, dest_layout) {#islide-ilayoutslide}
 Adds a copy of a specified slide to the end of the collection.
 
 ### Returns
@@ -90,7 +90,7 @@ def add_clone(self, source_slide, dest_layout):
 | dest_layout | [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide) | Layout slide for a new slide. |
 
 
-## add_clone {#islide-imasterslide-bool}
+## add_clone(self, source_slide, dest_master, allow_clone_missing_layout) {#islide-imasterslide-bool}
 Adds a copy of a specified source slide to the end of the collection.
             Appropriate layout will be selected automatically from the specified 
             master (appropriate layout is the layout with the same Type or Name as 

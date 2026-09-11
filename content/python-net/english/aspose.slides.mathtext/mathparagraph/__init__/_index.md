@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#}
+## __init__(self) {#}
 Initializes a new instance of the MathParagraph class.
 
 
@@ -19,7 +19,7 @@ def __init__(self):
 
 
 
-## __init__ {#imathblock}
+## __init__(self, math_block) {#imathblock}
 Initializes a new instance of the MathParagraph class.
 
 

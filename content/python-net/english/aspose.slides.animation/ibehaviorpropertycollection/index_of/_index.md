@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## index_of {#str}
+## index_of(self, property_value) {#str}
 Determines the index of a specific item by property value in the **System.Collections.Generic.IList`1**.
 
 ### Returns

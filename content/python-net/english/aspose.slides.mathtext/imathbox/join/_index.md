@@ -8,7 +8,7 @@ weight: 90
 ---
 
 
-## join {#imathelement}
+## join(self, math_element) {#imathelement}
 
 
 
@@ -23,7 +23,7 @@ def join(self, math_element):
 | math_element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |  |
 
 
-## join {#str}
+## join(self, math_text) {#str}
 
 
 

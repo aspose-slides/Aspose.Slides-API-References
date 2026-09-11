@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## save_external {#int-bytes}
+## save_external(self, id, entity_data) {#int-bytes}
 Saves external object.
 
 

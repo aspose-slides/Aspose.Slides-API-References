@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## switch_row_column {#}
+## switch_row_column(self) {#}
 Swap the data over the axis.
             Data being charted on the X axis will move to the Y axis and vice versa.
 

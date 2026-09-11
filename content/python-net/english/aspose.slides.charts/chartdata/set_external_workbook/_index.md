@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## set_external_workbook {#str}
+## set_external_workbook(self, workbook_path) {#str}
 Sets external workbook as a data source for the chart. Chart data will be updated from the target workbook.
 
 
@@ -29,7 +29,7 @@ def set_external_workbook(self, workbook_path):
 | **RuntimeError(Proxy error(InvalidOperationException))** | External workbook is not available or can't be loaded. |
 
 
-## set_external_workbook {#str-bool}
+## set_external_workbook(self, workbook_path, update_chart_data) {#str-bool}
 Sets external workbook as a data source for the chart.
 
 

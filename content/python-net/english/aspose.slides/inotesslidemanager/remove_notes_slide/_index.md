@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## remove_notes_slide {#}
+## remove_notes_slide(self) {#}
 Removes notes slide of the current slide.
 
 

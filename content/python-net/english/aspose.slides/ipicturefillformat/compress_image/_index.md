@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## compress_image {#bool-asposeslidesexportpicturescompression}
+## compress_image(self, delete_cropped_areas_of_image, resolution) {#bool-asposeslidesexportpicturescompression}
 Compresses the image by reducing its size based on the shape size and specified resolution. Optionally, it also deletes cropped areas.
 
 ### Returns
@@ -39,7 +39,7 @@ This method changes the image's size and resolution similar to PowerPoint's "Pic
 | **RuntimeError(Proxy error(ArgumentException))** | Thrown when the resolution is not a valid value. |
 
 
-## compress_image {#bool-float}
+## compress_image(self, delete_cropped_areas_of_image, resolution) {#bool-float}
 Compresses the image by reducing its size based on the shape size and specified resolution. Optionally, it also deletes cropped areas.
 
 ### Returns

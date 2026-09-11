@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#imathelement}
+## __init__(self, element) {#imathelement}
 Initializes a new instance of the [`MathPhantom`](/slides/python-net/aspose.slides.mathtext/mathphantom) class 
             using the specified base math element.
 

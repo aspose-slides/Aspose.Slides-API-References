@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## move_to {#asposepydrawingpointf}
+## move_to(self, point) {#asposepydrawingpointf}
 Sets next point position.
 
 
@@ -23,7 +23,7 @@ def move_to(self, point):
 | point | **aspose.pydrawing.PointF** | Point position |
 
 
-## move_to {#float-float}
+## move_to(self, x, y) {#float-float}
 Sets next point position.
 
 

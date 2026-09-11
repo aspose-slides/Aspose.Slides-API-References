@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## get_count {#ishape}
+## get_count(self, shape) {#ishape}
 Returns count of effects for the specified shape.
 
 ### Returns

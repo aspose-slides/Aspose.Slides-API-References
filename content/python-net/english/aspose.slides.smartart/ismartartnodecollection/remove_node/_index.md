@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## remove_node {#int}
+## remove_node(self, index) {#int}
 Remove node or sub node by index.
 
 
@@ -29,7 +29,7 @@ def remove_node(self, index):
 | **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | index is less than 0.  -or- index is equal to or greater than siblings count. |
 
 
-## remove_node {#ismartartnode}
+## remove_node(self, node_obj) {#ismartartnode}
 Remove node or sub node.
 
 

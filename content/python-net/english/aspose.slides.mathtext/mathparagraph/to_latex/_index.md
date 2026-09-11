@@ -8,7 +8,7 @@ weight: 90
 ---
 
 
-## to_latex {#}
+## to_latex(self) {#}
 Gets mathematical equation in LaTeX format
 
 

@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## remove_all_hyperlinks {#}
+## remove_all_hyperlinks(self) {#}
 Removes all contained HyperlinkClick and HyperlinkMouseOver hyperlinks (in all IHyperlinkContainer subobjects).
 
 

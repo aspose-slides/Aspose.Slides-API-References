@@ -8,7 +8,7 @@ weight: 280
 ---
 
 
-## insert_ole_object_frame {#int-float-float-float-float-ioleembeddeddatainfo}
+## insert_ole_object_frame(self, index, x, y, width, height, data_info) {#int-float-float-float-float-ioleembeddeddatainfo}
 Creates a new OLE object frame and inserts it into the shape collection at the specified index.
 
 ### Returns
@@ -33,7 +33,7 @@ def insert_ole_object_frame(self, index, x, y, width, height, data_info):
 | data_info | [`IOleEmbeddedDataInfo`](/slides/python-net/aspose.slides/ioleembeddeddatainfo) | The embedded OLE data information ([`IOleEmbeddedDataInfo`](/slides/python-net/aspose.slides/ioleembeddeddatainfo)). |
 
 
-## insert_ole_object_frame {#int-float-float-float-float-str-str}
+## insert_ole_object_frame(self, index, x, y, width, height, class_name, path) {#int-float-float-float-float-str-str}
 Creates a new OLE object frame and inserts it into the shape collection at the specified index.
 
 ### Returns

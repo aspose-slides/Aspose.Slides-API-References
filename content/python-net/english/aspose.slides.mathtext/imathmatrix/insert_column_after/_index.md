@@ -8,7 +8,7 @@ weight: 110
 ---
 
 
-## insert_column_after {#int}
+## insert_column_after(self, column_index) {#int}
 Insert a new column after the specified one
             Initially all elements in the new column are None.
 

@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## set_date_time_text {#str}
+## set_date_time_text(self, text) {#str}
 
 
 

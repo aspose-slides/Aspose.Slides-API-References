@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#}
+## __init__(self) {#}
 Initializes a new instance of the [`CellUnsupportedDataException`](/slides/python-net/aspose.slides.spreadsheet/cellunsupporteddataexception) class.
 
 
@@ -19,7 +19,7 @@ def __init__(self):
 
 
 
-## __init__ {#str}
+## __init__(self, message) {#str}
 Initializes a new instance of the [`CellUnsupportedDataException`](/slides/python-net/aspose.slides.spreadsheet/cellunsupporteddataexception) class with a specified error
             message.
 

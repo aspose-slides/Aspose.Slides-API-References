@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## create_rotation_effect {#}
+## create_rotation_effect(self) {#}
 Creates rotation effect.
 
 ### Returns

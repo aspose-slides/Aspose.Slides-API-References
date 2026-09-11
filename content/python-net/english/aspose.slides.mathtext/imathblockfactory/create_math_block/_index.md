@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## create_math_block {#}
+## create_math_block(self) {#}
 Create a math block
 
 ### Returns
@@ -24,7 +24,7 @@ def create_math_block(self):
 
 
 
-## create_math_block {#imathelement}
+## create_math_block(self, math_element) {#imathelement}
 Create a math block and place the element in it
 
 ### Returns
@@ -44,7 +44,7 @@ def create_math_block(self, math_element):
 | math_element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | A math element |
 
 
-## create_math_block {#imathelementcollection}
+## create_math_block(self, math_elements) {#imathelementcollection}
 Create a math block and place elements in it
 
 ### Returns

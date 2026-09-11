@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add_empty_slide {#ilayoutslide}
+## add_empty_slide(self, layout) {#ilayoutslide}
 Adds a new empty slide to the end of the collection.
 
 ### Returns

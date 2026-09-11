@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## get_rect {#}
+## get_rect(self) {#}
 Get coordinates of rect that bounds paragraph. The rect includes all the lines of
             text in paragraph, including empty ones.
 

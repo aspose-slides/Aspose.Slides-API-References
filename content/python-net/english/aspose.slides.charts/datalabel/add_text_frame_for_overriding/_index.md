@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add_text_frame_for_overriding {#str}
+## add_text_frame_for_overriding(self, text) {#str}
 Initialize TextFrameForOverriding with the text in paramener "text".
             If TextFrameForOverriding is already initialized then simply changes its text.
 

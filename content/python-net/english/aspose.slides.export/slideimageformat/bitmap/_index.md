@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## bitmap {#float-imageformat}
+## bitmap(scale, image_format) {#float-imageformat}
 Slides should be converted to a raster image.
 
 ### Returns

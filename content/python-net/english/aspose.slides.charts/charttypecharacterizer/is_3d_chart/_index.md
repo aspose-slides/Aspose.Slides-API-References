@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## is_3d_chart {#charttype}
+## is_3d_chart(chart_type) {#charttype}
 Return true if `chart_type` is one of 3D chart types.
 
 

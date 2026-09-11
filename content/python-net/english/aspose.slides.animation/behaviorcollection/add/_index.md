@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#ibehavior}
+## add(self, item) {#ibehavior}
 Add new behavior to a collection.
 
 

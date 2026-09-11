@@ -8,7 +8,7 @@ weight: 80
 ---
 
 
-## save {#asposeslidesexportxamlixamloptions}
+## save(self, options) {#asposeslidesexportxamlixamloptions}
 Saves all slides of a presentation to a set of files representing XAML markup.
 
 
@@ -23,7 +23,7 @@ def save(self, options):
 | options | [`IXamlOptions`](/slides/python-net/aspose.slides.export.xaml/ixamloptions) | The XAML format options. |
 
 
-## save {#str-asposeslidesexportsaveformat}
+## save(self, fname, format) {#str-asposeslidesexportsaveformat}
 Saves all slides of a presentation to a file with the specified format.
 
 
@@ -39,7 +39,7 @@ def save(self, fname, format):
 | format | [`SaveFormat`](/slides/python-net/aspose.slides.export/saveformat) | Format of the exported data. |
 
 
-## save {#iorawiobase-asposeslidesexportsaveformat}
+## save(self, stream, format) {#iorawiobase-asposeslidesexportsaveformat}
 Saves all slides of a presentation to a stream in the specified format.
 
 
@@ -55,7 +55,7 @@ def save(self, stream, format):
 | format | [`SaveFormat`](/slides/python-net/aspose.slides.export/saveformat) | Format of the exported data. |
 
 
-## save {#str-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
+## save(self, fname, format, options) {#str-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
 Saves all slides of a presentation to a file with the specified format and with additional options.
 
 
@@ -72,7 +72,7 @@ def save(self, fname, format, options):
 | options | [`ISaveOptions`](/slides/python-net/aspose.slides.export/isaveoptions) | Additional format options. |
 
 
-## save {#iorawiobase-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
+## save(self, stream, format, options) {#iorawiobase-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
 Saves all slides of a presentation to a stream in the specified format and with additional options.
 
 
@@ -95,7 +95,7 @@ def save(self, stream, format, options):
 | **RuntimeError(Proxy error(NotSupportedException))** | If you try to save encrypted file in <br/>            none Office 2007-2010 format |
 
 
-## save {#str-listint-asposeslidesexportsaveformat}
+## save(self, fname, slides, format) {#str-listint-asposeslidesexportsaveformat}
 Saves specified slides of a presentation to a file with the specified format.
 
 
@@ -120,7 +120,7 @@ def save(self, fname, slides, format):
 | **RuntimeError(Proxy error(InvalidOperationException))** | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 
-## save {#iorawiobase-listint-asposeslidesexportsaveformat}
+## save(self, stream, slides, format) {#iorawiobase-listint-asposeslidesexportsaveformat}
 Saves specified slides of a presentation to a stream in the specified format.
 
 
@@ -145,7 +145,7 @@ def save(self, stream, slides, format):
 | **RuntimeError(Proxy error(InvalidOperationException))** | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 
-## save {#str-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
+## save(self, fname, slides, format, options) {#str-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
 Saves specified slides of a presentation to a file with the specified format.
 
 
@@ -171,7 +171,7 @@ def save(self, fname, slides, format, options):
 | **RuntimeError(Proxy error(InvalidOperationException))** | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 
-## save {#iorawiobase-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
+## save(self, stream, slides, format, options) {#iorawiobase-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
 Saves specified slides of a presentation to a stream in the specified format.
 
 

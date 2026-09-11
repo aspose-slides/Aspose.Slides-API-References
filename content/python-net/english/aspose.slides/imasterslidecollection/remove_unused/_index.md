@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## remove_unused {#bool}
+## remove_unused(self, ignore_preserve_field) {#bool}
 Removes unused master slides.
 
 

@@ -8,7 +8,7 @@ weight: 80
 ---
 
 
-## reset {#}
+## reset(self) {#}
 Resets position, size and formatting of every shape that has a prototype on LayoutSlide.
 
 

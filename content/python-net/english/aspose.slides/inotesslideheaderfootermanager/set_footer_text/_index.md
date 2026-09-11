@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## set_footer_text {#str}
+## set_footer_text(self, text) {#str}
 
 
 

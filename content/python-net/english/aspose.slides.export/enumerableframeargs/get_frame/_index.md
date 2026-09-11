@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## get_frame {#}
+## get_frame(self) {#}
 Get the current [`PresentationEnumerableFramesGenerator`](/slides/python-net/aspose.slides.export/presentationenumerableframesgenerator) frame.
 
 

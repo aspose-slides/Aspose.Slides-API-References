@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_paragraph {#}
+## create_paragraph(self) {#}
 Creates a new empty paragraph.
 
 ### Returns
@@ -24,7 +24,7 @@ def create_paragraph(self):
 
 
 
-## create_paragraph {#iparagraph}
+## create_paragraph(self, paragraph) {#iparagraph}
 Creates a new paragraph with specified paragraph data using.
 
 ### Returns

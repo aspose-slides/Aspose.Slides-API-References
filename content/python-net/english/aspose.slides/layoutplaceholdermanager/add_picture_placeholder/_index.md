@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## add_picture_placeholder {#float-float-float-float}
+## add_picture_placeholder(self, x, y, width, height) {#float-float-float-float}
 Adds a new placeholder shape to the layout slide to hold a picture.
 
 ### Returns

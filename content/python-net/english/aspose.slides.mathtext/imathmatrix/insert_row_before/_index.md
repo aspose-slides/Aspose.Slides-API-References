@@ -8,7 +8,7 @@ weight: 140
 ---
 
 
-## insert_row_before {#int}
+## insert_row_before(self, row_index) {#int}
 Insert a new row before the specified one
             Initially all elements in the new row are None.
 

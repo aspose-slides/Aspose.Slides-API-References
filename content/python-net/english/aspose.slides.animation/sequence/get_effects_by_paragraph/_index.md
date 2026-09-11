@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## get_effects_by_paragraph {#iparagraph}
+## get_effects_by_paragraph(self, paragraph) {#iparagraph}
 Returns array of effects for the specified paragraph.
 
 

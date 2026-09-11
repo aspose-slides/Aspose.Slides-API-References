@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add_empty_module {#str}
+## add_empty_module(self, name) {#str}
 Adds a new empty module to the VBA Project.
 
 ### Returns

@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## add_data_point_for_funnel_series {#ichartdatacell}
+## add_data_point_for_funnel_series(self, value) {#ichartdatacell}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chart type is Funnel.
 

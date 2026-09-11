@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#}
+## __init__(self) {#}
 Creates new instance
 
 
@@ -19,7 +19,7 @@ def __init__(self):
 
 
 
-## __init__ {#liststr}
+## __init__(self, font_name_exclude_list) {#liststr}
 Creates new instance
 
 

@@ -8,7 +8,7 @@ weight: 80
 ---
 
 
-## remove_at {#int}
+## remove_at(self, index) {#int}
 Removes behavior from a collection at the specified index.
 
 

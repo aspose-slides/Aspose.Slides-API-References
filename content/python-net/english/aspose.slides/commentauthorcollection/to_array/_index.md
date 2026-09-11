@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## to_array {#}
+## to_array(self) {#}
 Creates and returns an array with all authors.
 
 ### Returns

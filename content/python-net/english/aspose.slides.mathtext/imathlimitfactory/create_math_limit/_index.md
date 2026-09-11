@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## create_math_limit {#imathelement-imathelement}
+## create_math_limit(self, base_arg, limit) {#imathelement-imathelement}
 Creates IMathLimit with limit at the bottom
 
 ### Returns
@@ -29,7 +29,7 @@ def create_math_limit(self, base_arg, limit):
 | limit | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Limit element |
 
 
-## create_math_limit {#imathelement-imathelement-bool}
+## create_math_limit(self, base_arg, limit, upper_limit) {#imathelement-imathelement-bool}
 Creates IMathLimit
 
 ### Returns

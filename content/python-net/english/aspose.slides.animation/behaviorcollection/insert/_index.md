@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## insert {#int-ibehavior}
+## insert(self, index, item) {#int-ibehavior}
 Inserts new behavior to a collection at the specified index.
 
 

@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## resolve_uri {#str-str}
+## resolve_uri(self, base_uri, relative_uri) {#str-str}
 
 
 

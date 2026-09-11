@@ -8,7 +8,7 @@ weight: 330
 ---
 
 
-## insert_video_frame {#int-float-float-float-float-str}
+## insert_video_frame(self, index, x, y, width, height, fname) {#int-float-float-float-float-str}
 Creates a new video frame and inserts it into the shape collection at the specified index.
 
 ### Returns

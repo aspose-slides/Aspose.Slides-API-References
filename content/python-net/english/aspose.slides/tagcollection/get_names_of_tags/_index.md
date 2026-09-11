@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## get_names_of_tags {#}
+## get_names_of_tags(self) {#}
 Returns names of tags.
 
 ### Returns

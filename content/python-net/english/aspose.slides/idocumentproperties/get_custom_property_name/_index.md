@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## get_custom_property_name {#int}
+## get_custom_property_name(self, index) {#int}
 Return a custom property name at the specified index.
 
 ### Returns

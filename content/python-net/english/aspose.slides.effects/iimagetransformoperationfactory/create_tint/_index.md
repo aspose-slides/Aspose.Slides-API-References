@@ -8,7 +8,7 @@ weight: 170
 ---
 
 
-## create_tint {#float-float}
+## create_tint(self, hue, amount) {#float-float}
 Creates Tint effect.
 
 ### Returns

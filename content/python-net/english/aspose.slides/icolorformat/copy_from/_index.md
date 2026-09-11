@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## copy_from {#icolorformat}
+## copy_from(self, color) {#icolorformat}
 Copy color format from "color".
 
 

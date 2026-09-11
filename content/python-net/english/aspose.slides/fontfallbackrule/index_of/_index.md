@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## index_of {#str}
+## index_of(self, font_name) {#str}
 Returns an index of the specified rule in the collection.
 
 ### Returns

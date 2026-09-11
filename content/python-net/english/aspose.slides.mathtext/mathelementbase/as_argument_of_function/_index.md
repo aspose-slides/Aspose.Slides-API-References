@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## as_argument_of_function {#imathelement}
+## as_argument_of_function(self, function_name) {#imathelement}
 Takes specified function using this instance as the argument
 
 ### Returns
@@ -28,7 +28,7 @@ def as_argument_of_function(self, function_name):
 | function_name | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Function name |
 
 
-## as_argument_of_function {#str}
+## as_argument_of_function(self, function_name) {#str}
 Takes specified function using this instance as the argument
 
 ### Returns
@@ -48,7 +48,7 @@ def as_argument_of_function(self, function_name):
 | function_name | **str** | Function name |
 
 
-## as_argument_of_function {#mathfunctionsofoneargument}
+## as_argument_of_function(self, function_type) {#mathfunctionsofoneargument}
 Takes specified function using this instance as the argument
 
 ### Returns
@@ -68,7 +68,7 @@ def as_argument_of_function(self, function_type):
 | function_type | [`MathFunctionsOfOneArgument`](/slides/python-net/aspose.slides.mathtext/mathfunctionsofoneargument) | One of the common function type of one argument |
 
 
-## as_argument_of_function {#mathfunctionsoftwoarguments-imathelement}
+## as_argument_of_function(self, function_type, additional_argument) {#mathfunctionsoftwoarguments-imathelement}
 Takes specified function using this instance as the argument and specified additional argument
 
 ### Returns
@@ -89,7 +89,7 @@ def as_argument_of_function(self, function_type, additional_argument):
 | additional_argument | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Additional argument depending on the type of function |
 
 
-## as_argument_of_function {#mathfunctionsoftwoarguments-str}
+## as_argument_of_function(self, function_type, additional_argument) {#mathfunctionsoftwoarguments-str}
 Takes specified function using this instance as the argument and specified additional argument
 
 ### Returns

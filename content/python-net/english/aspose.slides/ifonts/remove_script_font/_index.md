@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## remove_script_font {#str}
+## remove_script_font(self, script) {#str}
 Removes the font setting associated with a specific script tag from the theme's font collection.
 
 

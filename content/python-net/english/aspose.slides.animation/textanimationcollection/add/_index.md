@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add {#}
+## add(self) {#}
 Adds new text animation to the collection.
 
 ### Returns

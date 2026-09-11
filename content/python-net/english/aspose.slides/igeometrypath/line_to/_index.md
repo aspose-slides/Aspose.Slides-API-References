@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## line_to {#asposepydrawingpointf}
+## line_to(self, point) {#asposepydrawingpointf}
 Adds line to the end of the path
 
 
@@ -23,7 +23,7 @@ def line_to(self, point):
 | point | **aspose.pydrawing.PointF** | End point of the line |
 
 
-## line_to {#float-float}
+## line_to(self, x, y) {#float-float}
 Adds line to the end of the path
 
 
@@ -39,7 +39,7 @@ def line_to(self, x, y):
 | y | **float** | Y coordinate of the end point of the line |
 
 
-## line_to {#asposepydrawingpointf-int}
+## line_to(self, point, index) {#asposepydrawingpointf-int}
 Adds line to the specified place of the path
 
 
@@ -61,7 +61,7 @@ def line_to(self, point, index):
 | **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Segment index is out of PathData range |
 
 
-## line_to {#float-float-int}
+## line_to(self, x, y, index) {#float-float-int}
 Adds line to the specified place of the path
 
 

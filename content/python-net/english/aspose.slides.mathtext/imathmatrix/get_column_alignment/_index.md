@@ -8,7 +8,7 @@ weight: 90
 ---
 
 
-## get_column_alignment {#int}
+## get_column_alignment(self, column_index) {#int}
 Get the horizontal alignment of the specified column
 
 ### Returns

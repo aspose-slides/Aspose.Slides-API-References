@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## remove {#}
+## remove(self) {#}
 Remove current node.
 
 ### Returns

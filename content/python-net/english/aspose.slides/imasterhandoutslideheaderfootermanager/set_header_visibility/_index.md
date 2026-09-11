@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## set_header_visibility {#bool}
+## set_header_visibility(self, is_visible) {#bool}
 
 
 

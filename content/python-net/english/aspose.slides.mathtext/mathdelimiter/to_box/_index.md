@@ -8,7 +8,7 @@ weight: 220
 ---
 
 
-## to_box {#}
+## to_box(self) {#}
 Places this element in a non-visual box (logical grouping) 
             which is used to group components of an equation or other instance of mathematical text.
             A boxed object can (for example) serve as an operator emulator with or without an alignment point, 

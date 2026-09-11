@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## clear {#}
+## clear(self) {#}
 Removes all comments from a collection.
 
 

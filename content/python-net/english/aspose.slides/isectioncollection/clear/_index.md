@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## clear {#}
+## clear(self) {#}
 Removes all sections from the collection.
 
 

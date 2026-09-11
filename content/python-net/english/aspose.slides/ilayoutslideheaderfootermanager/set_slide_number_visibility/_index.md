@@ -8,7 +8,7 @@ weight: 100
 ---
 
 
-## set_slide_number_visibility {#bool}
+## set_slide_number_visibility(self, is_visible) {#bool}
 
 
 

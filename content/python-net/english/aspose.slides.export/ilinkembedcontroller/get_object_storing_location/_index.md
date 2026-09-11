@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## get_object_storing_location {#int-bytes-str-str-str}
+## get_object_storing_location(self, id, entity_data, semantic_name, content_type, recomended_extension) {#int-bytes-str-str-str}
 Determines where object should be stored.
             This method is called once for each object id.
             It is not guaranteed that there won't be two objects with same data, semanticName and contentType but with different id.

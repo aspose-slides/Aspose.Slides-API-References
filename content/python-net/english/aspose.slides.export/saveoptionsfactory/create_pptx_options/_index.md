@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_pptx_options {#}
+## create_pptx_options(self) {#}
 Creates PPTX save options.
 
 ### Returns

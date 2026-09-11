@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## is_licensed {#}
+## is_licensed(self) {#}
 Check if licence is applied to component
 
 ### Returns

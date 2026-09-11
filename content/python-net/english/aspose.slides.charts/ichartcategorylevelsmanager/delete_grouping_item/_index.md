@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## delete_grouping_item {#int}
+## delete_grouping_item(self, level) {#int}
 Delete grouping item for defined level.
 
 

@@ -8,7 +8,7 @@ weight: 330
 ---
 
 
-## write_as_math_ml {#iorawiobase}
+## write_as_math_ml(self, stream) {#iorawiobase}
 Saves content of this [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock) as MathML
 
 

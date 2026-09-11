@@ -8,7 +8,7 @@ weight: 100
 ---
 
 
-## write_slide_start {#ihtmlgenerator-islide}
+## write_slide_start(self, generator, slide) {#ihtmlgenerator-islide}
 
 
 

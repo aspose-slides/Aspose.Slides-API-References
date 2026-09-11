@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## write_as_svg {#iorawiobase}
+## write_as_svg(self, stream) {#iorawiobase}
 
 
 
@@ -23,7 +23,7 @@ def write_as_svg(self, stream):
 | stream | **io.RawIOBase** |  |
 
 
-## write_as_svg {#iorawiobase-asposeslidesexportisvgoptions}
+## write_as_svg(self, stream, svg_options) {#iorawiobase-asposeslidesexportisvgoptions}
 
 
 

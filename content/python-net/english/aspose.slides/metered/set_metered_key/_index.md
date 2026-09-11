@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## set_metered_key {#str-str}
+## set_metered_key(self, public_key, private_key) {#str-str}
 Sets metered public and private key.
             If you purchase metered license, when start application, this API should be called, normally, this is enough. 
             However, if always fail to upload consumption data and exceed 24 hours, the license will be set to evaluation status, 

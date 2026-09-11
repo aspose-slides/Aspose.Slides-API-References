@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## remove {#ifontfallbackrule}
+## remove(self, target_rule) {#ifontfallbackrule}
 Removes the first occurrence of a specific FallBack rule from the collection.
 
 

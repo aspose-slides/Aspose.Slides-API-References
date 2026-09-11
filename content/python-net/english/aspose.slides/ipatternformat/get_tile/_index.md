@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## get_tile {#asposepydrawingcolor}
+## get_tile(self, style_color) {#asposepydrawingcolor}
 Creates a tile image for the pattern fill.
 
 ### Returns
@@ -28,7 +28,7 @@ def get_tile(self, style_color):
 | style_color | **aspose.pydrawing.Color** | The default **aspose.pydrawing.Color**, <br/><br/>            defined in ShapeEx's StyleEx object. Fill's colors can depend on this. |
 
 
-## get_tile {#asposepydrawingcolor-asposepydrawingcolor}
+## get_tile(self, background, foreground) {#asposepydrawingcolor-asposepydrawingcolor}
 Creates a tile image for the pattern fill with a specified colors.
 
 ### Returns

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#isensitivitylabel}
+## add(self, label) {#isensitivitylabel}
 Adds a SensitivityLabel to the collection.
 
 ### Returns
@@ -34,7 +34,7 @@ def add(self, label):
 | **RuntimeError(Proxy error(ArgumentException))** | Thrown when the sensitivity label with the same Id has already been added. |
 
 
-## add {#str-guid-bool-sensitivitylabelassignmenttype}
+## add(self, id, site_id, is_enabled, method_type) {#str-guid-bool-sensitivitylabelassignmenttype}
 
 
 

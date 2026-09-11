@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#}
+## __init__(self) {#}
 Default constructor.
 
 
@@ -19,7 +19,7 @@ def __init__(self):
 
 
 
-## __init__ {#str}
+## __init__(self, message) {#str}
 Constructor allowing a message to be added to this exception.
 
 

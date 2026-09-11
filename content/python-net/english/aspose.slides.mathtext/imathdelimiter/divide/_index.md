@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## divide {#imathelement}
+## divide(self, denominator) {#imathelement}
 
 
 
@@ -23,7 +23,7 @@ def divide(self, denominator):
 | denominator | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |  |
 
 
-## divide {#str}
+## divide(self, denominator) {#str}
 
 
 
@@ -38,7 +38,7 @@ def divide(self, denominator):
 | denominator | **str** |  |
 
 
-## divide {#imathelement-mathfractiontypes}
+## divide(self, denominator, fraction_type) {#imathelement-mathfractiontypes}
 
 
 
@@ -54,7 +54,7 @@ def divide(self, denominator, fraction_type):
 | fraction_type | [`MathFractionTypes`](/slides/python-net/aspose.slides.mathtext/mathfractiontypes) |  |
 
 
-## divide {#str-mathfractiontypes}
+## divide(self, denominator, fraction_type) {#str-mathfractiontypes}
 
 
 

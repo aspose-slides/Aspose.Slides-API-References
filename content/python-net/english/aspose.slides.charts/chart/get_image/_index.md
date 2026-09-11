@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## get_image {#}
+## get_image(self) {#}
 Returns shape thumbnail.
             ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default.
 
@@ -25,7 +25,7 @@ def get_image(self):
 
 
 
-## get_image {#shapethumbnailbounds-float-float}
+## get_image(self, bounds, scale_x, scale_y) {#shapethumbnailbounds-float-float}
 Returns shape thumbnail.
 
 ### Returns

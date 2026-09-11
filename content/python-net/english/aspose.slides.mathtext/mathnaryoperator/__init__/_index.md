@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#char-imathelement}
+## __init__(self, operator_symbol, base_argument) {#char-imathelement}
 Initializes a new instance of the MathNaryOperator class.
 
 
@@ -24,7 +24,7 @@ def __init__(self, operator_symbol, base_argument):
 | base_argument | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Base argument |
 
 
-## __init__ {#char-imathelement-imathelement}
+## __init__(self, operator_symbol, base_argument, lower_limit) {#char-imathelement-imathelement}
 Initializes a new instance of the MathNaryOperator class.
 
 
@@ -41,7 +41,7 @@ def __init__(self, operator_symbol, base_argument, lower_limit):
 | lower_limit | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Lower limit |
 
 
-## __init__ {#char-imathelement-imathelement-imathelement}
+## __init__(self, operator_symbol, base_argument, lower_limit, upper_limit) {#char-imathelement-imathelement-imathelement}
 Initializes a new instance of the MathNaryOperator class.
 
 

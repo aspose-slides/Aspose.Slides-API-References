@@ -8,7 +8,7 @@ weight: 110
 ---
 
 
-## get_children {#}
+## get_children(self) {#}
 
 
 

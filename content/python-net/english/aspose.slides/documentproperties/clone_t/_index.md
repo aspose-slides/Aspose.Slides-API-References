@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## clone_t {#}
+## clone_t(self) {#}
 Clones current object
 
 ### Returns

@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## to_array {#}
+## to_array(self) {#}
 Creates and returns an array with all FallBack fonts for this rule.
 
 ### Returns
@@ -24,7 +24,7 @@ def to_array(self):
 
 
 
-## to_array {#int-int}
+## to_array(self, start_index, count) {#int-int}
 Creates and returns an array with all FallBack fonts from the specified range in list.
 
 ### Returns

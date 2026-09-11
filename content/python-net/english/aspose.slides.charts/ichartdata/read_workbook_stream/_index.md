@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## read_workbook_stream {#}
+## read_workbook_stream(self) {#}
 Writes the internally contained Excel workbook it into an in-memory stream.
 
 ### Returns

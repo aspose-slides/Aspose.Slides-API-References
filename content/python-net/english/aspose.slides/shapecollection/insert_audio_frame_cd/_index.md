@@ -8,7 +8,7 @@ weight: 200
 ---
 
 
-## insert_audio_frame_cd {#int-float-float-float-float}
+## insert_audio_frame_cd(self, index, x, y, width, height) {#int-float-float-float-float}
 Creates a new audio frame linked to a CD track and inserts it into the shape collection
             at the specified index.
 

@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## disable_reflection_effect {#}
+## disable_reflection_effect(self) {#}
 Disables reflection effect.
 
 

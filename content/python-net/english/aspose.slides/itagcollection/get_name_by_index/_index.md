@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## get_name_by_index {#int}
+## get_name_by_index(self, index) {#int}
 Returns key of a tag at the specified index.
 
 ### Returns

@@ -8,7 +8,7 @@ weight: 90
 ---
 
 
-## add_blur_effect {#float-bool}
+## add_blur_effect(self, radius, grow) {#float-bool}
 Adds the new Blur effect to the end of a collection.
 
 ### Returns

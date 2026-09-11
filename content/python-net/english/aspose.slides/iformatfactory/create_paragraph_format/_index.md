@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## create_paragraph_format {#}
+## create_paragraph_format(self) {#}
 Creates new [`IParagraphFormat`](/slides/python-net/aspose.slides/iparagraphformat).
 
 ### Returns

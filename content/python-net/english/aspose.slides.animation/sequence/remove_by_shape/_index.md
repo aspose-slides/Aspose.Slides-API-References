@@ -8,7 +8,7 @@ weight: 80
 ---
 
 
-## remove_by_shape {#ishape}
+## remove_by_shape(self, shape) {#ishape}
 Remove effect for the specified shape.
 
 

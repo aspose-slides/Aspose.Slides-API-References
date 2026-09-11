@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## clone {#}
+## clone(self) {#}
 Clones
 
 ### Returns

@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## insert {#int-slidelayouttype-str}
+## insert(self, index, layout_type, layout_name) {#int-slidelayouttype-str}
 Inserts a new layout slide to specified position of the collection.
 
 ### Returns

@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## get_hyperlink_mouse_overs {#}
+## get_hyperlink_mouse_overs(self) {#}
 Get all IHyperlinkContainer subobjects that contain not None HyperlinkMouseOver.
             With given IHyperlinkContainer object you can manage its hyperlink (read, update or remove). See IHyperlinkContainer interface.
 

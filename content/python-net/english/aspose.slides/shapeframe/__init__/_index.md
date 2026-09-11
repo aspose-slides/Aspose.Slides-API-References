@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#float-float-float-float-nullablebool-nullablebool-float}
+## __init__(self, x, y, width, height, flip_h, flip_v, rotation_angle) {#float-float-float-float-nullablebool-nullablebool-float}
 Creates new shape frame's properties.
 
 

@@ -8,7 +8,7 @@ weight: 110
 ---
 
 
-## function {#imathelement}
+## function(self, function_argument) {#imathelement}
 Takes a function of an argument using this instance as the function name
 
 ### Returns
@@ -28,7 +28,7 @@ def function(self, function_argument):
 | function_argument | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | An argument of the function |
 
 
-## function {#str}
+## function(self, function_argument) {#str}
 Takes a function of an argument using this instance as the function name
 
 ### Returns

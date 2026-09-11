@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## get_effective {#}
+## get_effective(self) {#}
 Gets effective bullet formatting data with the inheritance applied.
 
 ### Returns

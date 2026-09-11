@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add_chart_from_workbook {#ishapecollection-float-float-asposeslidesexceliexceldataworkbook-str-int-bool}
+## add_chart_from_workbook(shapes, x, y, workbook, worksheet_name, chart_index, embed_all_workbook) {#ishapecollection-float-float-asposeslidesexceliexceldataworkbook-str-int-bool}
 Retrieves a chart from the specified Excel workbook and adds it to the end of the given shape collection at the specified coordinates.
 
 ### Returns
@@ -41,7 +41,7 @@ def add_chart_from_workbook(shapes, x, y, workbook, worksheet_name, chart_index,
 | **RuntimeError(Proxy error(ArgumentException))** | Thrown when any required parameter is None, empty, or if the chart cannot be found in the workbook. |
 
 
-## add_chart_from_workbook {#ishapecollection-float-float-asposeslidesexceliexceldataworkbook-str-str-bool}
+## add_chart_from_workbook(shapes, x, y, workbook, worksheet_name, chart_name, embed_all_workbook) {#ishapecollection-float-float-asposeslidesexceliexceldataworkbook-str-str-bool}
 Retrieves a chart from the specified Excel workbook and adds it to the end of the given shape collection at the specified coordinates.
 
 ### Returns
@@ -74,7 +74,7 @@ def add_chart_from_workbook(shapes, x, y, workbook, worksheet_name, chart_name, 
 | **RuntimeError(Proxy error(ArgumentException))** | Thrown when any required parameter is None, empty, or if the chart cannot be found in the workbook. |
 
 
-## add_chart_from_workbook {#ishapecollection-float-float-iorawiobase-str-str-bool}
+## add_chart_from_workbook(shapes, x, y, workbook_stream, worksheet_name, chart_name, embed_all_workbook) {#ishapecollection-float-float-iorawiobase-str-str-bool}
 Retrieves a chart from the specified Excel workbook and adds it to the end of the given shape collection at the specified coordinates.
 
 ### Returns
@@ -108,7 +108,7 @@ def add_chart_from_workbook(shapes, x, y, workbook_stream, worksheet_name, chart
 | **RuntimeError(Proxy error(InvalidOperationException))** | Thrown when the input data is in an unsupported format. |
 
 
-## add_chart_from_workbook {#ishapecollection-float-float-str-str-str-bool}
+## add_chart_from_workbook(shapes, x, y, workbook_path, worksheet_name, chart_name, embed_workbook) {#ishapecollection-float-float-str-str-str-bool}
 Retrieves a chart from the specified Excel workbook and adds it to the end of the given shape collection at the specified coordinates.
 
 ### Returns

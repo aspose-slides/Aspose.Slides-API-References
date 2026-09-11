@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_conversation {#}
+## create_conversation(self) {#}
 Creates a conversation instance. Unlike regular AI calls, conversations retain the entire context.
 
 ### Returns

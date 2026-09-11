@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## format_text {#isvgtspan-iportion-itextframe}
+## format_text(self, svg_t_span, portion, text_frame) {#isvgtspan-iportion-itextframe}
 This function is called before rendering of text portion to SVG to allow user to control resulting SVG.
 
 

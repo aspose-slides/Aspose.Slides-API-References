@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add_comment {#str-islide-asposepydrawingpointf-datetime}
+## add_comment(self, text, slide, position, creation_time) {#str-islide-asposepydrawingpointf-datetime}
 Add new comment at the end of a collection.
 
 ### Returns

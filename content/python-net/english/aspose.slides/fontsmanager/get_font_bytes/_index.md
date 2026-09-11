@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## get_font_bytes {#ifontdata-fontstyletype}
+## get_font_bytes(self, font_data, font_style) {#ifontdata-fontstyletype}
 Retrieves the byte array representing the font data for a specified font style and font data.
 
 ### Returns

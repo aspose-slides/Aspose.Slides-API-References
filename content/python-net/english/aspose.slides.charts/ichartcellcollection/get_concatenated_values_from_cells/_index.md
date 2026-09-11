@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## get_concatenated_values_from_cells {#}
+## get_concatenated_values_from_cells(self) {#}
 Concatenation string from all cells string values.
 
 ### Returns

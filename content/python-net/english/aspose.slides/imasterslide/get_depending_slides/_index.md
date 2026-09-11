@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## get_depending_slides {#}
+## get_depending_slides(self) {#}
 Returns an array with all slides, which depend on this master slide.
 
 ### Returns

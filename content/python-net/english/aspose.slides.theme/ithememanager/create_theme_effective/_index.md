@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_theme_effective {#}
+## create_theme_effective(self) {#}
 Returns the theme object.
 
 ### Returns

@@ -8,7 +8,7 @@ weight: 100
 ---
 
 
-## join {#imathelement}
+## join(self, math_element) {#imathelement}
 Joins a mathematical element and forms a mathematical block
 
 ### Returns
@@ -28,7 +28,7 @@ def join(self, math_element):
 | math_element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | The element to be joined |
 
 
-## join {#str}
+## join(self, math_text) {#str}
 Joins a mathematical text and forms a mathematical block
 
 ### Returns

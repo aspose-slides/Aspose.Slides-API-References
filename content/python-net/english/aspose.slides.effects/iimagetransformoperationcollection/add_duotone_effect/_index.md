@@ -8,7 +8,7 @@ weight: 130
 ---
 
 
-## add_duotone_effect {#}
+## add_duotone_effect(self) {#}
 Adds the new Duotone effect to the end of a collection.
 
 ### Returns

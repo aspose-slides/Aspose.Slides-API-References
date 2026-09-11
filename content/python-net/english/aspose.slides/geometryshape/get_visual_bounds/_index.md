@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## get_visual_bounds {#}
+## get_visual_bounds(self) {#}
 Gets the visual bounds of the shape calculated from its rendered content.
 
 ### Returns

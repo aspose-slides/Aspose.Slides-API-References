@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## process {#liststr-str}
+## process(input_file_names, output_file_name) {#liststr-str}
 Merges multiple PowerPoint presentations of the same format into a single presentation file.
 
 
@@ -31,7 +31,7 @@ def process(input_file_names, output_file_name):
 | **RuntimeError(Proxy error(ArgumentException))** | Thrown when input file names are invalid or formats do not match. |
 
 
-## process {#liststr-iorawiobase}
+## process(input_file_names, output_stream) {#liststr-iorawiobase}
 Merges multiple PowerPoint presentations of the same format into a single presentation file.
 
 
@@ -54,7 +54,7 @@ def process(input_file_names, output_stream):
 | **RuntimeError(Proxy error(ArgumentException))** | Thrown when input file names are invalid or formats do not match. |
 
 
-## process {#liststr-str-asposeslidesexportisaveoptions}
+## process(input_file_names, output_file_name, options) {#liststr-str-asposeslidesexportisaveoptions}
 Merges multiple PowerPoint presentations of the same format into a single presentation file.
 
 
@@ -78,7 +78,7 @@ def process(input_file_names, output_file_name, options):
 | **RuntimeError(Proxy error(ArgumentException))** | Thrown when input file names are invalid or formats do not match. |
 
 
-## process {#liststr-iorawiobase-asposeslidesexportisaveoptions}
+## process(input_file_names, output_stream, options) {#liststr-iorawiobase-asposeslidesexportisaveoptions}
 Merges multiple PowerPoint presentations of the same format into a single presentation file.
 
 

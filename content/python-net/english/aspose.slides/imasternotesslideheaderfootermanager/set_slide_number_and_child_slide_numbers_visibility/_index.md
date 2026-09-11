@@ -8,7 +8,7 @@ weight: 130
 ---
 
 
-## set_slide_number_and_child_slide_numbers_visibility {#bool}
+## set_slide_number_and_child_slide_numbers_visibility(self, is_visible) {#bool}
 Changes master notes slide page number placeholder and all child page number placeholders visibility.
             Child placeholders mean placeholders are contained on depending notes slides.
             Depending notes slides use and depend on master notes slide.

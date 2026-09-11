@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## add_audio_frame_linked {#float-float-float-float-str}
+## add_audio_frame_linked(self, x, y, width, height, fname) {#float-float-float-float-str}
 Creates a new audio frame linked to an external audio file and adds it to the end of
             the shape collection.
 

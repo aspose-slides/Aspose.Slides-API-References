@@ -8,7 +8,7 @@ weight: 210
 ---
 
 
-## insert_audio_frame_embedded {#int-float-float-float-float-iorawiobase}
+## insert_audio_frame_embedded(self, index, x, y, width, height, audio_stream) {#int-float-float-float-float-iorawiobase}
 Creates a new audio frame with an embedded WAV file and inserts it into the shape
             collection at the specified index. The embedded audio is added to the Presentation.Audios
             collection.
@@ -35,7 +35,7 @@ def insert_audio_frame_embedded(self, index, x, y, width, height, audio_stream):
 | audio_stream | **io.RawIOBase** | An input stream containing WAV audio data to embed. |
 
 
-## insert_audio_frame_embedded {#int-float-float-float-float-iaudio}
+## insert_audio_frame_embedded(self, index, x, y, width, height, audio) {#int-float-float-float-float-iaudio}
 Creates a new audio frame and inserts it into the shape collection at the specified index
             using an existing audio object from the Presentation.Audios list.
 

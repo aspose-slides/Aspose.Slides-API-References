@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_alph_ceiling {#}
+## create_alph_ceiling(self) {#}
 Creates Alpha Ceiling effect.
 
 ### Returns

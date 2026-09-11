@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## write_shape_start {#ihtmlgenerator-ishape}
+## write_shape_start(self, generator, shape) {#ihtmlgenerator-ishape}
 
 
 

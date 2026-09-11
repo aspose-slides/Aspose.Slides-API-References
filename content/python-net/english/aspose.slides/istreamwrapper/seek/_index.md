@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## seek {#int-systemioseekorigin}
+## seek(self, offset, origin) {#int-systemioseekorigin}
 Sets the position within the current stream
 
 ### Returns

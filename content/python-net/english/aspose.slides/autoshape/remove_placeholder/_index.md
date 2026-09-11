@@ -8,7 +8,7 @@ weight: 80
 ---
 
 
-## remove_placeholder {#}
+## remove_placeholder(self) {#}
 Defines that this shape isn't a placeholder.
 
 

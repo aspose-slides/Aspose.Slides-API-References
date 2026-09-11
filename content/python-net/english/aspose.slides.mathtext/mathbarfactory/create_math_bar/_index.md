@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_math_bar {#imathelement}
+## create_math_bar(self, element) {#imathelement}
 Create a math bar by applying to the element
 
 ### Returns
@@ -28,7 +28,7 @@ def create_math_bar(self, element):
 | element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | math element to apply bar |
 
 
-## create_math_bar {#imathelement-mathtopbotpositions}
+## create_math_bar(self, element, position) {#imathelement-mathtopbotpositions}
 Create a math bar by applying to the element
 
 ### Returns

@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## clear {#int}
+## clear(self, sheet_index) {#int}
 Clear all cells values on sheet
 
 

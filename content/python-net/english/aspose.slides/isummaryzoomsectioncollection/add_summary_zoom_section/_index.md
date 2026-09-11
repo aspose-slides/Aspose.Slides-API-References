@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add_summary_zoom_section {#isection}
+## add_summary_zoom_section(self, section) {#isection}
 Creates new Summary Zoom Section object and add it to the collection
 
 ### Returns

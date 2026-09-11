@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## accent {#char}
+## accent(self, accent_character) {#char}
 Sets an accent mark (a character on the top of this element)
 
 ### Returns

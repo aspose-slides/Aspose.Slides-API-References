@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## quadratic_bezier_to {#asposepydrawingpointf-asposepydrawingpointf}
+## quadratic_bezier_to(self, point1, point2) {#asposepydrawingpointf-asposepydrawingpointf}
 Adds quadratic Bezier curve at the end the path
 
 
@@ -24,7 +24,7 @@ def quadratic_bezier_to(self, point1, point2):
 | point2 | **aspose.pydrawing.PointF** | End point |
 
 
-## quadratic_bezier_to {#asposepydrawingpointf-asposepydrawingpointf-int}
+## quadratic_bezier_to(self, point1, point2, index) {#asposepydrawingpointf-asposepydrawingpointf-int}
 Adds quadratic Bezier curve to the specified place of the path
 
 
@@ -47,7 +47,7 @@ def quadratic_bezier_to(self, point1, point2, index):
 | **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Segment index is out of PathData range |
 
 
-## quadratic_bezier_to {#float-float-float-float}
+## quadratic_bezier_to(self, x1, y1, x2, y2) {#float-float-float-float}
 Adds quadratic Bezier curve at the end the path
 
 
@@ -65,7 +65,7 @@ def quadratic_bezier_to(self, x1, y1, x2, y2):
 | y2 | **float** | Y coordinate of end point |
 
 
-## quadratic_bezier_to {#float-float-float-float-int}
+## quadratic_bezier_to(self, x1, y1, x2, y2, index) {#float-float-float-float-int}
 Adds quadratic Bezier curve to the specified place of the path
 
 

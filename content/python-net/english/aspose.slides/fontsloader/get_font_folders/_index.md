@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## get_font_folders {#}
+## get_font_folders() {#}
 Gets font folders. Returns folders that have been added with LoadExternalFonts method as well as system font folders
 
 ### Returns

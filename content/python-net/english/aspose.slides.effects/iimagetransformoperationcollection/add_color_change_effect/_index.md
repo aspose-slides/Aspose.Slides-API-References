@@ -8,7 +8,7 @@ weight: 110
 ---
 
 
-## add_color_change_effect {#}
+## add_color_change_effect(self) {#}
 Adds the new Color Change effect to the end of a collection.
 
 ### Returns

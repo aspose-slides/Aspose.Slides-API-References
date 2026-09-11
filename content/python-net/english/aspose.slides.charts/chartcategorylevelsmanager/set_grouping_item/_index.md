@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## set_grouping_item {#int-any}
+## set_grouping_item(self, level, value) {#int-any}
 Sets grouping item for defined level.
 
 

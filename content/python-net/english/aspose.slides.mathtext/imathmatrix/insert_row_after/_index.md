@@ -8,7 +8,7 @@ weight: 130
 ---
 
 
-## insert_row_after {#int}
+## insert_row_after(self, row_index) {#int}
 Insert a new row after the specified one
             Initially all elements in the new row are None.
 

@@ -8,7 +8,7 @@ weight: 290
 ---
 
 
-## insert_picture_frame {#int-shapetype-float-float-float-float-ippimage}
+## insert_picture_frame(self, index, shape_type, x, y, width, height, image) {#int-shapetype-float-float-float-float-ippimage}
 Creates a new picture frame containing the specified image and inserts it into the shape
             collection at the specified index.
 

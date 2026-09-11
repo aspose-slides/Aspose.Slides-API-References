@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool}
+## add(self, type, pts, pts_type, b_relative_coord) {#motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool}
 Add new command to path
 
 ### Returns

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#systemsecuritycryptographyx509certificatesx509certificate2}
+## __init__(self, certificate) {#systemsecuritycryptographyx509certificatesx509certificate2}
 Creates a new DigitalSignature object with the specified certificate.
 
 
@@ -23,7 +23,7 @@ def __init__(self, certificate):
 | certificate | **System.Security.Cryptography.X509Certificates.X509Certificate2** | Certificate that will be used to sign the presentation. |
 
 
-## __init__ {#str-str}
+## __init__(self, file_path, password) {#str-str}
 Creates a new DigitalSignature object with the specified certificate file path and password.
 
 

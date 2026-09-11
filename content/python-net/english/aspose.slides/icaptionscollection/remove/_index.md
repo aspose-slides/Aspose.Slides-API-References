@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## remove {#icaptions}
+## remove(self, captions) {#icaptions}
 Removes the specified closed captions from the collection.
 
 

@@ -8,7 +8,7 @@ weight: 120
 ---
 
 
-## nary {#mathnaryoperatortypes-imathelement-imathelement}
+## nary(self, type, lower_limit, upper_limit) {#mathnaryoperatortypes-imathelement-imathelement}
 Creates a N-ary operator
 
 ### Returns
@@ -30,7 +30,7 @@ def nary(self, type, lower_limit, upper_limit):
 | upper_limit | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | The upper limit |
 
 
-## nary {#mathnaryoperatortypes-str-str}
+## nary(self, type, lower_limit, upper_limit) {#mathnaryoperatortypes-str-str}
 Creates a N-ary operator
 
 ### Returns

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#}
+## __init__(self) {#}
 Initializes new instance of class [`DocumentProperties`](/slides/python-net/aspose.slides/documentproperties).
 
 

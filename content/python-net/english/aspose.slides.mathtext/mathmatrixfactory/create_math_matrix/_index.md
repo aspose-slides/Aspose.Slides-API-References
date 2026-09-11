@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_math_matrix {#int-int}
+## create_math_matrix(self, row_count, column_count) {#int-int}
 Creates a math matrix
 
 ### Returns

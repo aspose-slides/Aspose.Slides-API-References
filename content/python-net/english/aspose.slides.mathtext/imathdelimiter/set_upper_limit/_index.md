@@ -8,7 +8,7 @@ weight: 190
 ---
 
 
-## set_upper_limit {#imathelement}
+## set_upper_limit(self, limit) {#imathelement}
 
 
 
@@ -23,7 +23,7 @@ def set_upper_limit(self, limit):
 | limit | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |  |
 
 
-## set_upper_limit {#str}
+## set_upper_limit(self, limit) {#str}
 
 
 

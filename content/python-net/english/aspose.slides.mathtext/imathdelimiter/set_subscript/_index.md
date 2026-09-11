@@ -8,7 +8,7 @@ weight: 170
 ---
 
 
-## set_subscript {#imathelement}
+## set_subscript(self, subscript) {#imathelement}
 
 
 
@@ -23,7 +23,7 @@ def set_subscript(self, subscript):
 | subscript | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |  |
 
 
-## set_subscript {#str}
+## set_subscript(self, subscript) {#str}
 
 
 

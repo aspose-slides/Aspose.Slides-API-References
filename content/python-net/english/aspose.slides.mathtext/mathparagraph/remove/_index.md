@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## remove {#imathblock}
+## remove(self, math_block) {#imathblock}
 Removes the first occurrence of a specific object from the collection/>.
 
 ### Returns

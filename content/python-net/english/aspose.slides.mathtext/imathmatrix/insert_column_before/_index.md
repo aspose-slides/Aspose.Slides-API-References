@@ -8,7 +8,7 @@ weight: 120
 ---
 
 
-## insert_column_before {#int}
+## insert_column_before(self, column_index) {#int}
 Insert a new column before the specified one
             Initially all elements in the new column are None.
 

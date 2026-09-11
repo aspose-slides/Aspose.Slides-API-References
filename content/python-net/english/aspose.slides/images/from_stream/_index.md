@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## from_stream {#iorawiobase}
+## from_stream(stream) {#iorawiobase}
 Create an image from the stream.
 
 
@@ -24,7 +24,7 @@ def from_stream(stream):
 | stream | **io.RawIOBase** |  |
 
 
-## from_stream {#iorawiobase-bool}
+## from_stream(stream, use_embedded_color_management) {#iorawiobase-bool}
 Create an image from the stream.
 
 
@@ -41,7 +41,7 @@ def from_stream(stream, use_embedded_color_management):
 | use_embedded_color_management | **bool** |  |
 
 
-## from_stream {#iorawiobase-bool-bool}
+## from_stream(stream, use_embedded_color_management, validate_image_data) {#iorawiobase-bool-bool}
 Create an image from the stream.
 
 

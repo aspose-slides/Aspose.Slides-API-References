@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## unregister_ink_effect_image {#inkeffecttype}
+## unregister_ink_effect_image(effect_type) {#inkeffecttype}
 Unregisters an image from collection of custom images used to simulate visual effects for ink brushes
             previously registered images via **Aspose.Slides.Ink.Ink.RegisterInkEffectImage(Aspose.Slides.Ink.InkEffectType,Aspose.Slide**.
 

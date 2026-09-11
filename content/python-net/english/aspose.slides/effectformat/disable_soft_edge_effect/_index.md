@@ -8,7 +8,7 @@ weight: 80
 ---
 
 
-## disable_soft_edge_effect {#}
+## disable_soft_edge_effect(self) {#}
 Disables soft edge effect.
 
 

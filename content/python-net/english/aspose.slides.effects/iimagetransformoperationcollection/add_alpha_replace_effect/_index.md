@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## add_alpha_replace_effect {#float}
+## add_alpha_replace_effect(self, alpha) {#float}
 Adds the new Alpha Replace effect to the end of a collection.
 
 ### Returns

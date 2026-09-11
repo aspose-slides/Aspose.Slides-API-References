@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## find_comment_by_idx {#int}
+## find_comment_by_idx(self, idx) {#int}
 Finds a comment in the collection by index.
 
 ### Returns

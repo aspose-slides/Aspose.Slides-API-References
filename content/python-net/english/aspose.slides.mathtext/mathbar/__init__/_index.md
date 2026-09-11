@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#imathelement}
+## __init__(self, element) {#imathelement}
 Initializes MathBar with overbar (Top position)
 
 
@@ -23,7 +23,7 @@ def __init__(self, element):
 | element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | The base element to which the bar is applied |
 
 
-## __init__ {#imathelement-mathtopbotpositions}
+## __init__(self, element, position) {#imathelement-mathtopbotpositions}
 Initializes MathBar with specified position
 
 

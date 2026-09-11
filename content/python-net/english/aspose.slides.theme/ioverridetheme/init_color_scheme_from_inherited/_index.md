@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## init_color_scheme_from_inherited {#}
+## init_color_scheme_from_inherited(self) {#}
 Init ColorScheme with new object for overriding ColorScheme of InheritedTheme. And initialize data of this new object with data of the ColorScheme of InheritedTheme.
 
 

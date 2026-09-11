@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## reroute {#}
+## reroute(self) {#}
 Reroutes connector so that it take the shortest possible path between the shapes it connect.
 
 

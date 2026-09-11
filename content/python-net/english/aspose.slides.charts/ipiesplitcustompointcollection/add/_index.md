@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#int}
+## add(self, data_point_index) {#int}
 Adds data point by its index in parent series points collection.
 
 

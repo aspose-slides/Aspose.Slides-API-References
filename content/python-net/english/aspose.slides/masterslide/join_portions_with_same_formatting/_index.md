@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## join_portions_with_same_formatting {#}
+## join_portions_with_same_formatting(self) {#}
 Joins runs with same formatting in all paragraphs all acceptable shapes.
 
 
@@ -19,7 +19,7 @@ def join_portions_with_same_formatting(self):
 
 
 
-## join_portions_with_same_formatting {#ishapecollection}
+## join_portions_with_same_formatting(self, collection) {#ishapecollection}
 Joins runs with same formatting in all paragraphs in all acceptable shapes.
 
 

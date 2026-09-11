@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#}
+## __init__(self) {#}
 Initializes a new instance of the [`CellInvalidReferenceException`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidreferenceexception) class.
 
 
@@ -19,7 +19,7 @@ def __init__(self):
 
 
 
-## __init__ {#str}
+## __init__(self, message) {#str}
 Initializes a new instance of the [`CellInvalidReferenceException`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidreferenceexception) class with a specified error message.
 
 
@@ -34,7 +34,7 @@ def __init__(self, message):
 | message | **str** | A string that describes the error. |
 
 
-## __init__ {#str-str}
+## __init__(self, message, reference) {#str-str}
 Initializes a new instance of the [`CellCircularReferenceException`](/slides/python-net/aspose.slides.spreadsheet/cellcircularreferenceexception) class with a specified error message
             and an invalid cell reference.
 

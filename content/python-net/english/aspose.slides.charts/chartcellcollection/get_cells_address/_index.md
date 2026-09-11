@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## get_cells_address {#}
+## get_cells_address(self) {#}
 Returns address of the set of cells in workbook.
 
 

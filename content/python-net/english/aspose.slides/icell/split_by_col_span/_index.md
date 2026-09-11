@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## split_by_col_span {#int}
+## split_by_col_span(self, index) {#int}
 Splits the cell to two cells by index of column.
 
 

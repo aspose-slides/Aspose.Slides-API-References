@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## insert_modern_comment {#int-str-islide-ishape-asposepydrawingpointf-datetime}
+## insert_modern_comment(self, index, text, slide, shape, position, creation_time) {#int-str-islide-ishape-asposepydrawingpointf-datetime}
 Insert new modern comment to a collection at the specified index.
 
 ### Returns

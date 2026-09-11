@@ -8,7 +8,7 @@ weight: 380
 ---
 
 
-## to_array {#}
+## to_array(self) {#}
 Creates and returns an array that contains all shapes.
 
 ### Returns
@@ -24,7 +24,7 @@ def to_array(self):
 
 
 
-## to_array {#int-int}
+## to_array(self, start_index, count) {#int-int}
 Creates and returns an array that contains all shapes in the specified range.
 
 ### Returns

@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## get_image {#}
+## get_image(self) {#}
 Returns a Thumbnail Image object (20% of real size).
 
 ### Returns
@@ -24,7 +24,7 @@ def get_image(self):
 
 
 
-## get_image {#asposepydrawingsize}
+## get_image(self, image_size) {#asposepydrawingsize}
 Returns an image object with specified size.
 
 ### Returns
@@ -44,7 +44,7 @@ def get_image(self, image_size):
 | image_size | **aspose.pydrawing.Size** | Size of the image to create. |
 
 
-## get_image {#asposeslidesexportitiffoptions}
+## get_image(self, options) {#asposeslidesexportitiffoptions}
 Returns a Thumbnail tiff bitmap object with specified parameters.
 
 ### Returns
@@ -64,7 +64,7 @@ def get_image(self, options):
 | options | [`ITiffOptions`](/slides/python-net/aspose.slides.export/itiffoptions) | Tiff options. |
 
 
-## get_image {#asposeslidesexportirenderingoptions}
+## get_image(self, options) {#asposeslidesexportirenderingoptions}
 Returns a Thumbnail Bitmap object.
 
 ### Returns
@@ -84,7 +84,7 @@ def get_image(self, options):
 | options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) | Rendering options. |
 
 
-## get_image {#float-float}
+## get_image(self, scale_x, scale_y) {#float-float}
 Returns an image object with custom scaling.
 
 ### Returns
@@ -105,7 +105,7 @@ def get_image(self, scale_x, scale_y):
 | scale_y | **float** | The value by which to scale this Thumbnail in the y-axis direction. |
 
 
-## get_image {#asposeslidesexportirenderingoptions-asposepydrawingsize}
+## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposepydrawingsize}
 Returns a Thumbnail Bitmap object with specified size.
 
 ### Returns
@@ -126,7 +126,7 @@ def get_image(self, options, image_size):
 | image_size | **aspose.pydrawing.Size** | Size of the image to create. |
 
 
-## get_image {#asposeslidesexportirenderingoptions-float-float}
+## get_image(self, options, scale_x, scale_y) {#asposeslidesexportirenderingoptions-float-float}
 Returns a Thumbnail Bitmap object with custom scaling.
 
 ### Returns

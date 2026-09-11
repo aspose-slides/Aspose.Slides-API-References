@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## to_jpeg {#presentation-str}
+## to_jpeg(pres, output_file_name) {#presentation-str}
 Converts the input presentation to a set of JPEG format images.  
             If the output file name is given as "myPath/myFilename.jpeg", 
             the result will be saved as a set of "myPath/myFilename_N.jpeg" files, where N is a slide number.
@@ -33,7 +33,7 @@ def to_jpeg(pres, output_file_name):
 | **RuntimeError(Proxy error(ArgumentException))** |  |
 
 
-## to_jpeg {#presentation-str-asposepydrawingsize}
+## to_jpeg(pres, output_file_name, image_size) {#presentation-str-asposepydrawingsize}
 Converts the input presentation to a set of JPEG format images.  
             If the output file name is given as "myPath/myFilename.jpeg", 
             the result will be saved as a set of "myPath/myFilename_N.jpeg" files, where N is a slide number.
@@ -59,7 +59,7 @@ def to_jpeg(pres, output_file_name, image_size):
 | **RuntimeError(Proxy error(ArgumentException))** |  |
 
 
-## to_jpeg {#presentation-str-float-asposeslidesexportirenderingoptions}
+## to_jpeg(pres, output_file_name, scale, options) {#presentation-str-float-asposeslidesexportirenderingoptions}
 Converts the input presentation to a set of JPEG format images.  
             If the output file name is given as "myPath/myFilename.jpeg", 
             the result will be saved as a set of "myPath/myFilename_N.jpeg" files, where N is a slide number.

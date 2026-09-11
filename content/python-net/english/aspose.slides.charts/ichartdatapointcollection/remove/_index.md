@@ -8,7 +8,7 @@ weight: 200
 ---
 
 
-## remove {#ichartdatapoint}
+## remove(self, value) {#ichartdatapoint}
 Removes the specified value.
 
 

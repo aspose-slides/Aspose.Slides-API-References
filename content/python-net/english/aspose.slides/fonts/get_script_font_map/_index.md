@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## get_script_font_map {#}
+## get_script_font_map(self) {#}
 Returns a list of all string-string pairs script font definitions in the presentation.
 
 ### Returns

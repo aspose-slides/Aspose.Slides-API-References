@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## write_workbook_stream {#iorawiobase}
+## write_workbook_stream(self, ms) {#iorawiobase}
 Initializes the internally contained Excel workbook with user-specified value.
 
 

@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## disable_glow_effect {#}
+## disable_glow_effect(self) {#}
 Disable glow effect.
 
 

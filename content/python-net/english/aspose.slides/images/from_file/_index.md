@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## from_file {#str}
+## from_file(filename) {#str}
 Create an image from the file .
 
 
@@ -24,7 +24,7 @@ def from_file(filename):
 | filename | **str** |  |
 
 
-## from_file {#str-bool}
+## from_file(filename, use_embedded_color_management) {#str-bool}
 Create an image from the file
 
 

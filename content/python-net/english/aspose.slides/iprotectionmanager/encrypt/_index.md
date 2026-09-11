@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## encrypt {#str}
+## encrypt(self, encryption_password) {#str}
 Encrypts Presentation with specified password.
 
 

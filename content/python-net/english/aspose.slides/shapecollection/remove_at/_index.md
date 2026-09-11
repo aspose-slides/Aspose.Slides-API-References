@@ -8,7 +8,7 @@ weight: 360
 ---
 
 
-## remove_at {#int}
+## remove_at(self, index) {#int}
 Removes the shape at the specified index from the shape collection.
 
 

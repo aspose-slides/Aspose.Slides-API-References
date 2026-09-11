@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add_video {#ivideo}
+## add_video(self, video) {#ivideo}
 Adds a copy of an video file from an another presentation.
 
 ### Returns
@@ -28,7 +28,7 @@ def add_video(self, video):
 | video | [`IVideo`](/slides/python-net/aspose.slides/ivideo) | Source video. |
 
 
-## add_video {#bytes}
+## add_video(self, video_data) {#bytes}
 Creates and adds a video to a presentation from byte array.
 
 ### Returns
@@ -48,7 +48,7 @@ def add_video(self, video_data):
 | video_data | **bytes** | Video bytes. |
 
 
-## add_video {#iorawiobase-loadingstreambehavior}
+## add_video(self, stream, loading_stream_behavior) {#iorawiobase-loadingstreambehavior}
 Creates and adds a video to a presentation from stream.
 
 ### Returns

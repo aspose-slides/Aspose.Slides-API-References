@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## get_rect {#}
+## get_rect(self) {#}
 Get coordinates of rect that bounds portion. The rect includes all the lines of
              text in portion, including empty ones.
 

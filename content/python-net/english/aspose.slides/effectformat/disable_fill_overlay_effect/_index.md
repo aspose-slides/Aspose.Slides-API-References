@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## disable_fill_overlay_effect {#}
+## disable_fill_overlay_effect(self) {#}
 Disables fill overlay effect.
 
 

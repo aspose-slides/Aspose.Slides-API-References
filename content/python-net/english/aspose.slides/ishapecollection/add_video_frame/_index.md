@@ -8,7 +8,7 @@ weight: 160
 ---
 
 
-## add_video_frame {#float-float-float-float-str}
+## add_video_frame(self, x, y, width, height, fname) {#float-float-float-float-str}
 Creates a new video frame and adds it to the end of the shape collection.
 
 ### Returns
@@ -32,7 +32,7 @@ def add_video_frame(self, x, y, width, height, fname):
 | fname | **str** | The path or name of the video file to embed. |
 
 
-## add_video_frame {#float-float-float-float-ivideo}
+## add_video_frame(self, x, y, width, height, video) {#float-float-float-float-ivideo}
 Creates a new video frame and adds it to the end of the shape collection.
 
 ### Returns

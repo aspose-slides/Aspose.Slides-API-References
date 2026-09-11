@@ -8,7 +8,7 @@ weight: 80
 ---
 
 
-## create_alpha_replace {#float}
+## create_alpha_replace(self, alpha) {#float}
 Creates Alpha replace effect.
 
 ### Returns

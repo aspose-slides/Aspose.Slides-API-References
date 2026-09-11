@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## index_of {#islide}
+## index_of(self, slide) {#islide}
 Returns an index of the specified slide in the collection.
 
 ### Returns

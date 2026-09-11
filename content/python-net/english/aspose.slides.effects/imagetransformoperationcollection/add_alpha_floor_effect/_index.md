@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## add_alpha_floor_effect {#}
+## add_alpha_floor_effect(self) {#}
 Adds the new Alpha Floor effect to the end of a collection.
 
 ### Returns
