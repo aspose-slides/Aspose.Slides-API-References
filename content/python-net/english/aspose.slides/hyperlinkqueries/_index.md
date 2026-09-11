@@ -17,10 +17,10 @@ The HyperlinkQueries type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`get_hyperlink_clicks`](/slides/python-net/aspose.slides/hyperlinkqueries/get_hyperlink_clicks/#) | Get all IHyperlinkContainer subobjects that contain not None HyperlinkClick.<br/>            With given IHyperlinkContainer object you can manage its hyperlink (read, update or remove). See IHyperlinkContainer interface. |
-| [`get_hyperlink_mouse_overs`](/slides/python-net/aspose.slides/hyperlinkqueries/get_hyperlink_mouse_overs/#) | Get all IHyperlinkContainer subobjects that contain not None HyperlinkMouseOver.<br/>            With given IHyperlinkContainer object you can manage its hyperlink (read, update or remove). See IHyperlinkContainer interface. |
-| [`get_any_hyperlinks`](/slides/python-net/aspose.slides/hyperlinkqueries/get_any_hyperlinks/#) | Get all IHyperlinkContainer subobjects that contain not None HyperlinkMouseOver.<br/>            With given IHyperlinkContainer object you can manage its hyperlink (read, update or remove). See IHyperlinkContainer interface. |
-| [`remove_all_hyperlinks`](/slides/python-net/aspose.slides/hyperlinkqueries/remove_all_hyperlinks/#) | Removes all contained HyperlinkClick and HyperlinkMouseOver hyperlinks (in all IHyperlinkContainer subobjects). |
+| [`get_hyperlink_clicks(self)`](/slides/python-net/aspose.slides/hyperlinkqueries/get_hyperlink_clicks/#) | Get all IHyperlinkContainer subobjects that contain not None HyperlinkClick.<br/>            With given IHyperlinkContainer object you can manage its hyperlink (read, update or remove). See IHyperlinkContainer interface. |
+| [`get_hyperlink_mouse_overs(self)`](/slides/python-net/aspose.slides/hyperlinkqueries/get_hyperlink_mouse_overs/#) | Get all IHyperlinkContainer subobjects that contain not None HyperlinkMouseOver.<br/>            With given IHyperlinkContainer object you can manage its hyperlink (read, update or remove). See IHyperlinkContainer interface. |
+| [`get_any_hyperlinks(self)`](/slides/python-net/aspose.slides/hyperlinkqueries/get_any_hyperlinks/#) | Get all IHyperlinkContainer subobjects that contain not None HyperlinkMouseOver.<br/>            With given IHyperlinkContainer object you can manage its hyperlink (read, update or remove). See IHyperlinkContainer interface. |
+| [`remove_all_hyperlinks(self)`](/slides/python-net/aspose.slides/hyperlinkqueries/remove_all_hyperlinks/#) | Removes all contained HyperlinkClick and HyperlinkMouseOver hyperlinks (in all IHyperlinkContainer subobjects). |
 
 
 ### See Also

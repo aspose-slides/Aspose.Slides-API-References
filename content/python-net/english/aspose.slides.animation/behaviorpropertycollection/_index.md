@@ -17,8 +17,8 @@ The BehaviorPropertyCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`add`](/slides/python-net/aspose.slides.animation/behaviorpropertycollection/add/#str) | Adds a new property to the collection. |
-| [`index_of`](/slides/python-net/aspose.slides.animation/behaviorpropertycollection/index_of/#str) | Determines the index of a specific item by property value in the **System.Collections.Generic.IList`1**. |
+| [`add(self, property_value)`](/slides/python-net/aspose.slides.animation/behaviorpropertycollection/add/#str) | Adds a new property to the collection. |
+| [`index_of(self, property_value)`](/slides/python-net/aspose.slides.animation/behaviorpropertycollection/index_of/#str) | Determines the index of a specific item by property value in the **System.Collections.Generic.IList`1**. |
 
 
 ### See Also

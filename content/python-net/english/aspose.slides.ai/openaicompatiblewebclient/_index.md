@@ -18,13 +18,13 @@ The OpenAICompatibleWebClient type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides.ai/openaicompatiblewebclient/__init__/#str-str-str) | Creates an instance of the OpenAI-compatible web client. |
+| [`__init__(self, model, api_key, base_url)`](/slides/python-net/aspose.slides.ai/openaicompatiblewebclient/__init__/#str-str-str) | Creates an instance of the OpenAI-compatible web client. |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [`create_conversation`](/slides/python-net/aspose.slides.ai/openaicompatiblewebclient/create_conversation/#) | Creates a conversation instance. Unlike regular AI calls, conversations retain the entire context. |
+| [`create_conversation(self)`](/slides/python-net/aspose.slides.ai/openaicompatiblewebclient/create_conversation/#) | Creates a conversation instance. Unlike regular AI calls, conversations retain the entire context. |
 
 
 ### See Also

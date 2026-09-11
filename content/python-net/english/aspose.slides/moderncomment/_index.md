@@ -34,7 +34,7 @@ The ModernComment type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`remove`](/slides/python-net/aspose.slides/moderncomment/remove/#) | Removes comment and all its replies from the parent collection. |
+| [`remove(self)`](/slides/python-net/aspose.slides/moderncomment/remove/#) | Removes comment and all its replies from the parent collection. |
 
 
 ### See Also

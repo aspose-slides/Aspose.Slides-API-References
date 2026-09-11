@@ -27,7 +27,7 @@ The BrightnessContrast type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`get_effective`](/slides/python-net/aspose.slides.effects/brightnesscontrast/get_effective/#) | Gets effective BrightnessContrast effect data with the inheritance applied. |
+| [`get_effective(self)`](/slides/python-net/aspose.slides.effects/brightnesscontrast/get_effective/#) | Gets effective BrightnessContrast effect data with the inheritance applied. |
 
 
 ### See Also

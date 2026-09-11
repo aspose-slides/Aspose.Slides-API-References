@@ -17,7 +17,7 @@ The TextSearchOptions type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides/textsearchoptions/__init__/#) | Creates new default text search options. |
+| [`__init__(self)`](/slides/python-net/aspose.slides/textsearchoptions/__init__/#) | Creates new default text search options. |
 
 ## Properties
 

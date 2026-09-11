@@ -32,10 +32,10 @@ Returns the sensitivity label by index.
 
 | Method | Description |
 | :- | :- |
-| [`add`](/slides/python-net/aspose.slides/isensitivitylabelcollection/add/#str-guid-bool-sensitivitylabelassignmenttype) |  |
-| [`add`](/slides/python-net/aspose.slides/isensitivitylabelcollection/add/#isensitivitylabel) | Adds a SensitivityLabel to the collection. |
-| [`remove_at`](/slides/python-net/aspose.slides/isensitivitylabelcollection/remove_at/#int) | Removes the sensitivity label at the specified index. |
-| [`clear`](/slides/python-net/aspose.slides/isensitivitylabelcollection/clear/#) | Removes all elements from the collection. |
+| [`add(self, id, site_id, is_enabled, method_type)`](/slides/python-net/aspose.slides/isensitivitylabelcollection/add/#str-guid-bool-sensitivitylabelassignmenttype) |  |
+| [`add(self, label)`](/slides/python-net/aspose.slides/isensitivitylabelcollection/add/#isensitivitylabel) | Adds a SensitivityLabel to the collection. |
+| [`remove_at(self, index)`](/slides/python-net/aspose.slides/isensitivitylabelcollection/remove_at/#int) | Removes the sensitivity label at the specified index. |
+| [`clear(self)`](/slides/python-net/aspose.slides/isensitivitylabelcollection/clear/#) | Removes all elements from the collection. |
 
 
 ### See Also

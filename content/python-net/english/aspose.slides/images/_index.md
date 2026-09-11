@@ -17,11 +17,11 @@ The Images type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`from_file`](/slides/python-net/aspose.slides/images/from_file/#str) | Create an image from the file . |
-| [`from_file`](/slides/python-net/aspose.slides/images/from_file/#str-bool) | Create an image from the file |
-| [`from_stream`](/slides/python-net/aspose.slides/images/from_stream/#iorawiobase) | Create an image from the stream. |
-| [`from_stream`](/slides/python-net/aspose.slides/images/from_stream/#iorawiobase-bool) | Create an image from the stream. |
-| [`from_stream`](/slides/python-net/aspose.slides/images/from_stream/#iorawiobase-bool-bool) | Create an image from the stream. |
+| [`from_file(filename)`](/slides/python-net/aspose.slides/images/from_file/#str) | Create an image from the file . |
+| [`from_file(filename, use_embedded_color_management)`](/slides/python-net/aspose.slides/images/from_file/#str-bool) | Create an image from the file |
+| [`from_stream(stream)`](/slides/python-net/aspose.slides/images/from_stream/#iorawiobase) | Create an image from the stream. |
+| [`from_stream(stream, use_embedded_color_management)`](/slides/python-net/aspose.slides/images/from_stream/#iorawiobase-bool) | Create an image from the stream. |
+| [`from_stream(stream, use_embedded_color_management, validate_image_data)`](/slides/python-net/aspose.slides/images/from_stream/#iorawiobase-bool-bool) | Create an image from the stream. |
 
 
 ### See Also

@@ -17,16 +17,16 @@ The License type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides/license/__init__/#) | Initializes a new instance of this class. |
+| [`__init__(self)`](/slides/python-net/aspose.slides/license/__init__/#) | Initializes a new instance of this class. |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [`set_license`](/slides/python-net/aspose.slides/license/set_license/#str) | Licenses the component. |
-| [`set_license`](/slides/python-net/aspose.slides/license/set_license/#iorawiobase) | Licenses the component. |
-| [`reset_license`](/slides/python-net/aspose.slides/license/reset_license/#) | Reset the license |
-| [`is_licensed`](/slides/python-net/aspose.slides/license/is_licensed/#) | Check if licence is applied to component |
+| [`set_license(self, license_name)`](/slides/python-net/aspose.slides/license/set_license/#str) | Licenses the component. |
+| [`set_license(self, stream)`](/slides/python-net/aspose.slides/license/set_license/#iorawiobase) | Licenses the component. |
+| [`reset_license(self)`](/slides/python-net/aspose.slides/license/reset_license/#) | Reset the license |
+| [`is_licensed(self)`](/slides/python-net/aspose.slides/license/is_licensed/#) | Check if licence is applied to component |
 
 
 ### See Also

@@ -40,9 +40,9 @@ The IDataLabel type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`hide`](/slides/python-net/aspose.slides.charts/idatalabel/hide/#) | Make data label hidden by setting all Show*-flags (ShowValue, ...) to false state.<br/>            IsVisible will be false after this. |
-| [`get_actual_label_text`](/slides/python-net/aspose.slides.charts/idatalabel/get_actual_label_text/#) | Returns actual label text based on DataLabelFormat settings or TextFrameForOverriding.Text value. |
-| [`add_text_frame_for_overriding`](/slides/python-net/aspose.slides.charts/idatalabel/add_text_frame_for_overriding/#str) |  |
+| [`hide(self)`](/slides/python-net/aspose.slides.charts/idatalabel/hide/#) | Make data label hidden by setting all Show*-flags (ShowValue, ...) to false state.<br/>            IsVisible will be false after this. |
+| [`get_actual_label_text(self)`](/slides/python-net/aspose.slides.charts/idatalabel/get_actual_label_text/#) | Returns actual label text based on DataLabelFormat settings or TextFrameForOverriding.Text value. |
+| [`add_text_frame_for_overriding(self, text)`](/slides/python-net/aspose.slides.charts/idatalabel/add_text_frame_for_overriding/#str) |  |
 
 
 ### See Also

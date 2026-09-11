@@ -17,16 +17,16 @@ The StreamWrapperFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides/streamwrapperfactory/__init__/#) |  |
+| [`__init__(self)`](/slides/python-net/aspose.slides/streamwrapperfactory/__init__/#) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [`create_memory_stream_wrapper`](/slides/python-net/aspose.slides/streamwrapperfactory/create_memory_stream_wrapper/#) | Creates MemoryStream wrapper. |
-| [`create_memory_stream_wrapper`](/slides/python-net/aspose.slides/streamwrapperfactory/create_memory_stream_wrapper/#bytes) | Creates MemoryStream wrapper based on the specified byte array. |
-| [`create_file_stream_wrapper`](/slides/python-net/aspose.slides/streamwrapperfactory/create_file_stream_wrapper/#str-systemiofilemode) | Creates FileStream with the specified path and creation mode. |
-| [`create_file_stream_wrapper`](/slides/python-net/aspose.slides/streamwrapperfactory/create_file_stream_wrapper/#str-systemiofilemode-systemiofileaccess) | Creates FileStream with the specified path, creation mode, and read/write permission. |
+| [`create_memory_stream_wrapper(self)`](/slides/python-net/aspose.slides/streamwrapperfactory/create_memory_stream_wrapper/#) | Creates MemoryStream wrapper. |
+| [`create_memory_stream_wrapper(self, buffer)`](/slides/python-net/aspose.slides/streamwrapperfactory/create_memory_stream_wrapper/#bytes) | Creates MemoryStream wrapper based on the specified byte array. |
+| [`create_file_stream_wrapper(self, file_name, file_mode)`](/slides/python-net/aspose.slides/streamwrapperfactory/create_file_stream_wrapper/#str-systemiofilemode) | Creates FileStream with the specified path and creation mode. |
+| [`create_file_stream_wrapper(self, file_name, file_mode, file_access)`](/slides/python-net/aspose.slides/streamwrapperfactory/create_file_stream_wrapper/#str-systemiofilemode-systemiofileaccess) | Creates FileStream with the specified path, creation mode, and read/write permission. |
 
 
 ### See Also

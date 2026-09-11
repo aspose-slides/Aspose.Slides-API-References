@@ -19,7 +19,7 @@ The Tab type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides/tab/__init__/#float-tabalignment) | Creates new Tab |
+| [`__init__(self, position, align)`](/slides/python-net/aspose.slides/tab/__init__/#float-tabalignment) | Creates new Tab |
 
 ## Properties
 
@@ -34,7 +34,7 @@ The Tab type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`compare_to`](/slides/python-net/aspose.slides/tab/compare_to/#any) | Compares the current instance with another object of the same type. |
+| [`compare_to(self, obj)`](/slides/python-net/aspose.slides/tab/compare_to/#any) | Compares the current instance with another object of the same type. |
 
 
 ### See Also

@@ -17,10 +17,10 @@ The Merger type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`process`](/slides/python-net/aspose.slides.lowcode/merger/process/#liststr-str) | Merges multiple PowerPoint presentations of the same format into a single presentation file. |
-| [`process`](/slides/python-net/aspose.slides.lowcode/merger/process/#liststr-str-asposeslidesexportisaveoptions) | Merges multiple PowerPoint presentations of the same format into a single presentation file. |
-| [`process`](/slides/python-net/aspose.slides.lowcode/merger/process/#liststr-iorawiobase) | Merges multiple PowerPoint presentations of the same format into a single presentation file. |
-| [`process`](/slides/python-net/aspose.slides.lowcode/merger/process/#liststr-iorawiobase-asposeslidesexportisaveoptions) | Merges multiple PowerPoint presentations of the same format into a single presentation file. |
+| [`process(input_file_names, output_file_name)`](/slides/python-net/aspose.slides.lowcode/merger/process/#liststr-str) | Merges multiple PowerPoint presentations of the same format into a single presentation file. |
+| [`process(input_file_names, output_file_name, options)`](/slides/python-net/aspose.slides.lowcode/merger/process/#liststr-str-asposeslidesexportisaveoptions) | Merges multiple PowerPoint presentations of the same format into a single presentation file. |
+| [`process(input_file_names, output_stream)`](/slides/python-net/aspose.slides.lowcode/merger/process/#liststr-iorawiobase) | Merges multiple PowerPoint presentations of the same format into a single presentation file. |
+| [`process(input_file_names, output_stream, options)`](/slides/python-net/aspose.slides.lowcode/merger/process/#liststr-iorawiobase-asposeslidesexportisaveoptions) | Merges multiple PowerPoint presentations of the same format into a single presentation file. |
 
 
 ### See Also

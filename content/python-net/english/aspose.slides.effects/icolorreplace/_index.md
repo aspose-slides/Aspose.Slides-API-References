@@ -23,7 +23,7 @@ The IColorReplace type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`get_effective`](/slides/python-net/aspose.slides.effects/icolorreplace/get_effective/#) |  |
+| [`get_effective(self)`](/slides/python-net/aspose.slides.effects/icolorreplace/get_effective/#) |  |
 
 
 ### See Also

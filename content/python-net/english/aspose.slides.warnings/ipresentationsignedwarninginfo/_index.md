@@ -25,7 +25,7 @@ The IPresentationSignedWarningInfo type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`send_warning`](/slides/python-net/aspose.slides.warnings/ipresentationsignedwarninginfo/send_warning/#iwarningcallback) |  |
+| [`send_warning(self, receiver)`](/slides/python-net/aspose.slides.warnings/ipresentationsignedwarninginfo/send_warning/#iwarningcallback) |  |
 
 
 ### See Also

@@ -28,7 +28,7 @@ The Luminance type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`get_effective`](/slides/python-net/aspose.slides.effects/luminance/get_effective/#) | Gets effective Luminance effect data with the inheritance applied. |
+| [`get_effective(self)`](/slides/python-net/aspose.slides.effects/luminance/get_effective/#) | Gets effective Luminance effect data with the inheritance applied. |
 
 
 ### See Also

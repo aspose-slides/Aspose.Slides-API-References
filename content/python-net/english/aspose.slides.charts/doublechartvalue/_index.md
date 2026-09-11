@@ -30,7 +30,7 @@ The DoubleChartValue type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`to_double`](/slides/python-net/aspose.slides.charts/doublechartvalue/to_double/#) | Converts to **float**. |
+| [`to_double(self)`](/slides/python-net/aspose.slides.charts/doublechartvalue/to_double/#) | Converts to **float**. |
 
 
 ### See Also

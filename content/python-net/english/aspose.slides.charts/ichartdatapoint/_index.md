@@ -43,8 +43,8 @@ The IChartDataPoint type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`remove`](/slides/python-net/aspose.slides.charts/ichartdatapoint/remove/#) | Removes DataPoint from chart series. |
-| [`get_automatic_data_point_color`](/slides/python-net/aspose.slides.charts/ichartdatapoint/get_automatic_data_point_color/#) | Returns an automatic color of data point based on series index, data point index, ParentSeriesGroup.IsColorVaried propery and chart style. <br/>            This color is used by default if FillType equals NotDefined. |
+| [`remove(self)`](/slides/python-net/aspose.slides.charts/ichartdatapoint/remove/#) | Removes DataPoint from chart series. |
+| [`get_automatic_data_point_color(self)`](/slides/python-net/aspose.slides.charts/ichartdatapoint/get_automatic_data_point_color/#) | Returns an automatic color of data point based on series index, data point index, ParentSeriesGroup.IsColorVaried propery and chart style. <br/>            This color is used by default if FillType equals NotDefined. |
 
 
 ### See Also

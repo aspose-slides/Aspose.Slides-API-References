@@ -27,7 +27,7 @@ The ChartCategory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`remove`](/slides/python-net/aspose.slides.charts/chartcategory/remove/#) | Removes category from chart. |
+| [`remove(self)`](/slides/python-net/aspose.slides.charts/chartcategory/remove/#) | Removes category from chart. |
 
 
 ### See Also

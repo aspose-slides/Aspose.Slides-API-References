@@ -19,8 +19,8 @@ The CellUnsupportedDataException type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides.spreadsheet/cellunsupporteddataexception/__init__/#) | Initializes a new instance of the [`CellUnsupportedDataException`](/slides/python-net/aspose.slides.spreadsheet/cellunsupporteddataexception) class. |
-| [`__init__`](/slides/python-net/aspose.slides.spreadsheet/cellunsupporteddataexception/__init__/#str) | Initializes a new instance of the [`CellUnsupportedDataException`](/slides/python-net/aspose.slides.spreadsheet/cellunsupporteddataexception) class with a specified error<br/>            message. |
+| [`__init__(self)`](/slides/python-net/aspose.slides.spreadsheet/cellunsupporteddataexception/__init__/#) | Initializes a new instance of the [`CellUnsupportedDataException`](/slides/python-net/aspose.slides.spreadsheet/cellunsupporteddataexception) class. |
+| [`__init__(self, message)`](/slides/python-net/aspose.slides.spreadsheet/cellunsupporteddataexception/__init__/#str) | Initializes a new instance of the [`CellUnsupportedDataException`](/slides/python-net/aspose.slides.spreadsheet/cellunsupporteddataexception) class with a specified error<br/>            message. |
 
 
 ### See Also

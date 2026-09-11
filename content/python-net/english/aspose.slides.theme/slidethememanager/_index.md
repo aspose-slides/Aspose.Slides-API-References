@@ -26,8 +26,8 @@ The SlideThemeManager type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`create_theme_effective`](/slides/python-net/aspose.slides.theme/slidethememanager/create_theme_effective/#) | Returns the theme object. |
-| [`apply_color_scheme`](/slides/python-net/aspose.slides.theme/slidethememanager/apply_color_scheme/#iextracolorscheme) | Applies extra color scheme to a slide. |
+| [`create_theme_effective(self)`](/slides/python-net/aspose.slides.theme/slidethememanager/create_theme_effective/#) | Returns the theme object. |
+| [`apply_color_scheme(self, scheme)`](/slides/python-net/aspose.slides.theme/slidethememanager/apply_color_scheme/#iextracolorscheme) | Applies extra color scheme to a slide. |
 
 
 ### See Also

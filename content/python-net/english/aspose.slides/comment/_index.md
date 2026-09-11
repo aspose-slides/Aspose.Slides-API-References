@@ -28,7 +28,7 @@ The Comment type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`remove`](/slides/python-net/aspose.slides/comment/remove/#) | Removes comment and all its replies from the parent collection. |
+| [`remove(self)`](/slides/python-net/aspose.slides/comment/remove/#) | Removes comment and all its replies from the parent collection. |
 
 
 ### See Also

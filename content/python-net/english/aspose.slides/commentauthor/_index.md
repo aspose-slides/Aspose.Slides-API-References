@@ -25,7 +25,7 @@ The CommentAuthor type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`remove`](/slides/python-net/aspose.slides/commentauthor/remove/#) | Removes the author from the parent collection. |
+| [`remove(self)`](/slides/python-net/aspose.slides/commentauthor/remove/#) | Removes the author from the parent collection. |
 
 
 ### See Also

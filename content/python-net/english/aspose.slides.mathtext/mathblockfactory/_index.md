@@ -17,15 +17,15 @@ The MathBlockFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides.mathtext/mathblockfactory/__init__/#) |  |
+| [`__init__(self)`](/slides/python-net/aspose.slides.mathtext/mathblockfactory/__init__/#) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [`create_math_block`](/slides/python-net/aspose.slides.mathtext/mathblockfactory/create_math_block/#) | Create a math block |
-| [`create_math_block`](/slides/python-net/aspose.slides.mathtext/mathblockfactory/create_math_block/#imathelement) | Create a math block and place the element in it |
-| [`create_math_block`](/slides/python-net/aspose.slides.mathtext/mathblockfactory/create_math_block/#imathelementcollection) | Create a math block and place elements in it |
+| [`create_math_block(self)`](/slides/python-net/aspose.slides.mathtext/mathblockfactory/create_math_block/#) | Create a math block |
+| [`create_math_block(self, math_element)`](/slides/python-net/aspose.slides.mathtext/mathblockfactory/create_math_block/#imathelement) | Create a math block and place the element in it |
+| [`create_math_block(self, math_elements)`](/slides/python-net/aspose.slides.mathtext/mathblockfactory/create_math_block/#imathelementcollection) | Create a math block and place elements in it |
 
 
 ### Remarks

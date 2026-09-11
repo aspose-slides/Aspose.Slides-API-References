@@ -31,10 +31,10 @@ Returns a sequense at the specified index.
 
 | Method | Description |
 | :- | :- |
-| [`add`](/slides/python-net/aspose.slides.animation/isequencecollection/add/#ishape) | Add new interactive sequence. |
-| [`remove`](/slides/python-net/aspose.slides.animation/isequencecollection/remove/#isequence) | Removes specified sequence from a collection. |
-| [`remove_at`](/slides/python-net/aspose.slides.animation/isequencecollection/remove_at/#int) | Removes sequence at the specified index. |
-| [`clear`](/slides/python-net/aspose.slides.animation/isequencecollection/clear/#) | Removes all sequences from a collection. |
+| [`add(self, shape_trigger)`](/slides/python-net/aspose.slides.animation/isequencecollection/add/#ishape) | Add new interactive sequence. |
+| [`remove(self, item)`](/slides/python-net/aspose.slides.animation/isequencecollection/remove/#isequence) | Removes specified sequence from a collection. |
+| [`remove_at(self, index)`](/slides/python-net/aspose.slides.animation/isequencecollection/remove_at/#int) | Removes sequence at the specified index. |
+| [`clear(self)`](/slides/python-net/aspose.slides.animation/isequencecollection/clear/#) | Removes all sequences from a collection. |
 
 
 ### See Also

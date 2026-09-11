@@ -30,9 +30,9 @@ The IPPImage type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`replace_image`](/slides/python-net/aspose.slides/ippimage/replace_image/#bytes) | Replaces image data. |
-| [`replace_image`](/slides/python-net/aspose.slides/ippimage/replace_image/#iimage) | Replaces image. |
-| [`replace_image`](/slides/python-net/aspose.slides/ippimage/replace_image/#ippimage) | Replaces image. |
+| [`replace_image(self, new_image_data)`](/slides/python-net/aspose.slides/ippimage/replace_image/#bytes) | Replaces image data. |
+| [`replace_image(self, new_image)`](/slides/python-net/aspose.slides/ippimage/replace_image/#iimage) | Replaces image. |
+| [`replace_image(self, new_image)`](/slides/python-net/aspose.slides/ippimage/replace_image/#ippimage) | Replaces image. |
 
 
 ### See Also

@@ -25,11 +25,11 @@ The IImage type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`save`](/slides/python-net/aspose.slides/iimage/save/#str) | Saves the image to a file. |
-| [`save`](/slides/python-net/aspose.slides/iimage/save/#str-imageformat) | Saves the image to a file in the specified format. |
-| [`save`](/slides/python-net/aspose.slides/iimage/save/#iorawiobase-imageformat) | Saves the image to a stream in the specified format. |
-| [`save`](/slides/python-net/aspose.slides/iimage/save/#str-imageformat-int) | Saves the image to a file in the specified format and quality. |
-| [`save`](/slides/python-net/aspose.slides/iimage/save/#iorawiobase-imageformat-int) | Saves the image to a stream in the specified format and quality. |
+| [`save(self, filename)`](/slides/python-net/aspose.slides/iimage/save/#str) | Saves the image to a file. |
+| [`save(self, filename, format)`](/slides/python-net/aspose.slides/iimage/save/#str-imageformat) | Saves the image to a file in the specified format. |
+| [`save(self, stream, format)`](/slides/python-net/aspose.slides/iimage/save/#iorawiobase-imageformat) | Saves the image to a stream in the specified format. |
+| [`save(self, filename, format, quality)`](/slides/python-net/aspose.slides/iimage/save/#str-imageformat-int) | Saves the image to a file in the specified format and quality. |
+| [`save(self, stream, format, quality)`](/slides/python-net/aspose.slides/iimage/save/#iorawiobase-imageformat-int) | Saves the image to a stream in the specified format and quality. |
 
 
 ### Remarks

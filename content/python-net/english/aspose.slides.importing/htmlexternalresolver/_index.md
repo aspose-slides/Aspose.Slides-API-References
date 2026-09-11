@@ -18,14 +18,14 @@ The HtmlExternalResolver type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides.importing/htmlexternalresolver/__init__/#) |  |
+| [`__init__(self)`](/slides/python-net/aspose.slides.importing/htmlexternalresolver/__init__/#) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [`resolve_uri`](/slides/python-net/aspose.slides.importing/htmlexternalresolver/resolve_uri/#str-str) | Resolves the absolute URI from the base and relative URIs. |
-| [`get_entity`](/slides/python-net/aspose.slides.importing/htmlexternalresolver/get_entity/#str) | Maps a URI to an object containing the actual resource. |
+| [`resolve_uri(self, base_uri, relative_uri)`](/slides/python-net/aspose.slides.importing/htmlexternalresolver/resolve_uri/#str-str) | Resolves the absolute URI from the base and relative URIs. |
+| [`get_entity(self, absolute_uri)`](/slides/python-net/aspose.slides.importing/htmlexternalresolver/get_entity/#str) | Maps a URI to an object containing the actual resource. |
 
 
 ### See Also

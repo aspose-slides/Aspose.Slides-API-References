@@ -19,9 +19,9 @@ The CellInvalidFormulaException type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidformulaexception/__init__/#) | Initializes a new instance of the [`CellInvalidFormulaException`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidformulaexception) class. |
-| [`__init__`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidformulaexception/__init__/#str) | Initializes a new instance of the [`CellInvalidFormulaException`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidformulaexception) class with a specified error message. |
-| [`__init__`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidformulaexception/__init__/#str-str) | Initializes a new instance of the [`CellInvalidFormulaException`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidformulaexception) class with a specified error message<br/>            and a cell reference that contains the invalid formula. |
+| [`__init__(self)`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidformulaexception/__init__/#) | Initializes a new instance of the [`CellInvalidFormulaException`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidformulaexception) class. |
+| [`__init__(self, message)`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidformulaexception/__init__/#str) | Initializes a new instance of the [`CellInvalidFormulaException`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidformulaexception) class with a specified error message. |
+| [`__init__(self, message, reference)`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidformulaexception/__init__/#str-str) | Initializes a new instance of the [`CellInvalidFormulaException`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidformulaexception) class with a specified error message<br/>            and a cell reference that contains the invalid formula. |
 
 ## Properties
 

@@ -17,7 +17,7 @@ The IVbaReferenceFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`create_ole_type_lib_reference`](/slides/python-net/aspose.slides.vba/ivbareferencefactory/create_ole_type_lib_reference/#str-str) | Creates new OLE Automation type library reference. |
+| [`create_ole_type_lib_reference(self, name, libid)`](/slides/python-net/aspose.slides.vba/ivbareferencefactory/create_ole_type_lib_reference/#str-str) | Creates new OLE Automation type library reference. |
 
 
 ### See Also

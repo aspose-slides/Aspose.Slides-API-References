@@ -19,7 +19,7 @@ The PortionFormat type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides/portionformat/__init__/#) | Initializes a new instance of [`PortionFormat`](/slides/python-net/aspose.slides/portionformat) class. |
+| [`__init__(self)`](/slides/python-net/aspose.slides/portionformat/__init__/#) | Initializes a new instance of [`PortionFormat`](/slides/python-net/aspose.slides/portionformat) class. |
 
 ## Properties
 
@@ -64,7 +64,7 @@ The PortionFormat type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`get_effective`](/slides/python-net/aspose.slides/portionformat/get_effective/#) | Gets effective portion formatting data with the inheritance applied. |
+| [`get_effective(self)`](/slides/python-net/aspose.slides/portionformat/get_effective/#) | Gets effective portion formatting data with the inheritance applied. |
 
 
 ### Remarks

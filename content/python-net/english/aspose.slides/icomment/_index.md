@@ -28,7 +28,7 @@ The IComment type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`remove`](/slides/python-net/aspose.slides/icomment/remove/#) | Removes comment and all its replies from the parent collection. |
+| [`remove(self)`](/slides/python-net/aspose.slides/icomment/remove/#) | Removes comment and all its replies from the parent collection. |
 
 
 ### See Also

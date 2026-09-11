@@ -26,7 +26,7 @@ The ITheme type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`get_effective`](/slides/python-net/aspose.slides.theme/itheme/get_effective/#) | Gets effective theme data with the inheritance applied. |
+| [`get_effective(self)`](/slides/python-net/aspose.slides.theme/itheme/get_effective/#) | Gets effective theme data with the inheritance applied. |
 
 
 ### See Also

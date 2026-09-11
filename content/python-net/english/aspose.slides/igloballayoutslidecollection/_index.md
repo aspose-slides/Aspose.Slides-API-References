@@ -25,12 +25,12 @@ The IGlobalLayoutSlideCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`add_clone`](/slides/python-net/aspose.slides/igloballayoutslidecollection/add_clone/#ilayoutslide) | Adds a copy of a specified layout slide to the presentation. |
-| [`add_clone`](/slides/python-net/aspose.slides/igloballayoutslidecollection/add_clone/#ilayoutslide-imasterslide) | Adds a copy of a specified layout slide to the presentation. |
-| [`add`](/slides/python-net/aspose.slides/igloballayoutslidecollection/add/#imasterslide-slidelayouttype-str) | Adds a new layout slide to the presentation. |
-| [`get_by_type`](/slides/python-net/aspose.slides/igloballayoutslidecollection/get_by_type/#slidelayouttype) |  |
-| [`remove`](/slides/python-net/aspose.slides/igloballayoutslidecollection/remove/#ilayoutslide) |  |
-| [`remove_unused`](/slides/python-net/aspose.slides/igloballayoutslidecollection/remove_unused/#) |  |
+| [`add_clone(self, source_layout)`](/slides/python-net/aspose.slides/igloballayoutslidecollection/add_clone/#ilayoutslide) | Adds a copy of a specified layout slide to the presentation. |
+| [`add_clone(self, source_layout, dest_master)`](/slides/python-net/aspose.slides/igloballayoutslidecollection/add_clone/#ilayoutslide-imasterslide) | Adds a copy of a specified layout slide to the presentation. |
+| [`add(self, master, layout_type, layout_name)`](/slides/python-net/aspose.slides/igloballayoutslidecollection/add/#imasterslide-slidelayouttype-str) | Adds a new layout slide to the presentation. |
+| [`get_by_type(self, type)`](/slides/python-net/aspose.slides/igloballayoutslidecollection/get_by_type/#slidelayouttype) |  |
+| [`remove(self, value)`](/slides/python-net/aspose.slides/igloballayoutslidecollection/remove/#ilayoutslide) |  |
+| [`remove_unused(self)`](/slides/python-net/aspose.slides/igloballayoutslidecollection/remove_unused/#) |  |
 
 
 ### See Also

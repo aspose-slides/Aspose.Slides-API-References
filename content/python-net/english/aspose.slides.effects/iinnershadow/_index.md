@@ -26,7 +26,7 @@ The IInnerShadow type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`get_effective`](/slides/python-net/aspose.slides.effects/iinnershadow/get_effective/#) |  |
+| [`get_effective(self)`](/slides/python-net/aspose.slides.effects/iinnershadow/get_effective/#) |  |
 
 
 ### See Also

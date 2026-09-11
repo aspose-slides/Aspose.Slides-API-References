@@ -56,24 +56,24 @@ The IDocumentProperties type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`get_custom_property_value`](/slides/python-net/aspose.slides/idocumentproperties/get_custom_property_value/#str-any) | Gets a named boolean value from the custom properties. |
-| [`get_custom_property_value`](/slides/python-net/aspose.slides/idocumentproperties/get_custom_property_value/#str-any) | Gets a named integer value from the custom properties. |
-| [`get_custom_property_value`](/slides/python-net/aspose.slides/idocumentproperties/get_custom_property_value/#str-any) | Gets a named DateTime value from the custom properties. |
-| [`get_custom_property_value`](/slides/python-net/aspose.slides/idocumentproperties/get_custom_property_value/#str-any) | Gets a named string value from the custom properties. |
-| [`get_custom_property_value`](/slides/python-net/aspose.slides/idocumentproperties/get_custom_property_value/#str-any) |  |
-| [`get_custom_property_value`](/slides/python-net/aspose.slides/idocumentproperties/get_custom_property_value/#str-any) |  |
-| [`set_custom_property_value`](/slides/python-net/aspose.slides/idocumentproperties/set_custom_property_value/#str-bool) | Sets a named boolean custom property. |
-| [`set_custom_property_value`](/slides/python-net/aspose.slides/idocumentproperties/set_custom_property_value/#str-int) | Sets a named integer custom property. |
-| [`set_custom_property_value`](/slides/python-net/aspose.slides/idocumentproperties/set_custom_property_value/#str-datetime) | Sets a named DateTime custom property. |
-| [`set_custom_property_value`](/slides/python-net/aspose.slides/idocumentproperties/set_custom_property_value/#str-str) | Sets a named string custom property. |
-| [`set_custom_property_value`](/slides/python-net/aspose.slides/idocumentproperties/set_custom_property_value/#str-float) | Sets a named float custom property. |
-| [`set_custom_property_value`](/slides/python-net/aspose.slides/idocumentproperties/set_custom_property_value/#str-float) | Sets a named double custom property. |
-| [`get_custom_property_name`](/slides/python-net/aspose.slides/idocumentproperties/get_custom_property_name/#int) | Return a custom property name at the specified index. |
-| [`remove_custom_property`](/slides/python-net/aspose.slides/idocumentproperties/remove_custom_property/#str) | Remove a custom property associated with a specified name. |
-| [`contains_custom_property`](/slides/python-net/aspose.slides/idocumentproperties/contains_custom_property/#str) | Check presents of a custom property with a specified name. |
-| [`clear_custom_properties`](/slides/python-net/aspose.slides/idocumentproperties/clear_custom_properties/#) | Removes all custom properties. |
-| [`clear_built_in_properties`](/slides/python-net/aspose.slides/idocumentproperties/clear_built_in_properties/#) | Clears and sets default values for all builtIn properties. |
-| [`get_sensitivity_labels`](/slides/python-net/aspose.slides/idocumentproperties/get_sensitivity_labels/#) | Gets an array of sensitivity labels from the custom document properties (Microsoft Information Protection SDK Metadata). |
+| [`get_custom_property_value(self, name, value)`](/slides/python-net/aspose.slides/idocumentproperties/get_custom_property_value/#str-any) | Gets a named boolean value from the custom properties. |
+| [`get_custom_property_value(self, name, value)`](/slides/python-net/aspose.slides/idocumentproperties/get_custom_property_value/#str-any) | Gets a named integer value from the custom properties. |
+| [`get_custom_property_value(self, name, value)`](/slides/python-net/aspose.slides/idocumentproperties/get_custom_property_value/#str-any) | Gets a named DateTime value from the custom properties. |
+| [`get_custom_property_value(self, name, value)`](/slides/python-net/aspose.slides/idocumentproperties/get_custom_property_value/#str-any) | Gets a named string value from the custom properties. |
+| [`get_custom_property_value(self, name, value)`](/slides/python-net/aspose.slides/idocumentproperties/get_custom_property_value/#str-any) |  |
+| [`get_custom_property_value(self, name, value)`](/slides/python-net/aspose.slides/idocumentproperties/get_custom_property_value/#str-any) |  |
+| [`set_custom_property_value(self, name, value)`](/slides/python-net/aspose.slides/idocumentproperties/set_custom_property_value/#str-bool) | Sets a named boolean custom property. |
+| [`set_custom_property_value(self, name, value)`](/slides/python-net/aspose.slides/idocumentproperties/set_custom_property_value/#str-int) | Sets a named integer custom property. |
+| [`set_custom_property_value(self, name, value)`](/slides/python-net/aspose.slides/idocumentproperties/set_custom_property_value/#str-datetime) | Sets a named DateTime custom property. |
+| [`set_custom_property_value(self, name, value)`](/slides/python-net/aspose.slides/idocumentproperties/set_custom_property_value/#str-str) | Sets a named string custom property. |
+| [`set_custom_property_value(self, name, value)`](/slides/python-net/aspose.slides/idocumentproperties/set_custom_property_value/#str-float) | Sets a named float custom property. |
+| [`set_custom_property_value(self, name, value)`](/slides/python-net/aspose.slides/idocumentproperties/set_custom_property_value/#str-float) | Sets a named double custom property. |
+| [`get_custom_property_name(self, index)`](/slides/python-net/aspose.slides/idocumentproperties/get_custom_property_name/#int) | Return a custom property name at the specified index. |
+| [`remove_custom_property(self, name)`](/slides/python-net/aspose.slides/idocumentproperties/remove_custom_property/#str) | Remove a custom property associated with a specified name. |
+| [`contains_custom_property(self, name)`](/slides/python-net/aspose.slides/idocumentproperties/contains_custom_property/#str) | Check presents of a custom property with a specified name. |
+| [`clear_custom_properties(self)`](/slides/python-net/aspose.slides/idocumentproperties/clear_custom_properties/#) | Removes all custom properties. |
+| [`clear_built_in_properties(self)`](/slides/python-net/aspose.slides/idocumentproperties/clear_built_in_properties/#) | Clears and sets default values for all builtIn properties. |
+| [`get_sensitivity_labels(self)`](/slides/python-net/aspose.slides/idocumentproperties/get_sensitivity_labels/#) | Gets an array of sensitivity labels from the custom document properties (Microsoft Information Protection SDK Metadata). |
 
 
 ### See Also

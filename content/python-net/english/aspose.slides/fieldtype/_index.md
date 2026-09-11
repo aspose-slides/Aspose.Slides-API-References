@@ -18,7 +18,7 @@ The FieldType type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides/fieldtype/__init__/#str) | Initializes a new instance of FieldType class. |
+| [`__init__(self, str)`](/slides/python-net/aspose.slides/fieldtype/__init__/#str) | Initializes a new instance of FieldType class. |
 
 ## Properties
 

@@ -24,7 +24,7 @@ The Video type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`get_stream`](/slides/python-net/aspose.slides/video/get_stream/#) | Returns Stream stream for reading.<br/>            Use 'using' or close stream after using. |
+| [`get_stream(self)`](/slides/python-net/aspose.slides/video/get_stream/#) | Returns Stream stream for reading.<br/>            Use 'using' or close stream after using. |
 
 
 ### See Also

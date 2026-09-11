@@ -45,13 +45,13 @@ The MasterSlide type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`join_portions_with_same_formatting`](/slides/python-net/aspose.slides/masterslide/join_portions_with_same_formatting/#) | Joins runs with same formatting in all paragraphs all acceptable shapes. |
-| [`join_portions_with_same_formatting`](/slides/python-net/aspose.slides/masterslide/join_portions_with_same_formatting/#ishapecollection) | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
-| [`equals`](/slides/python-net/aspose.slides/masterslide/equals/#ibaseslide) | Determines whether the two IBaseSlide instances are equal.<br/>            Returning value is calculated based on slide's structure and static content.<br/>            Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
-| [`create_theme_effective`](/slides/python-net/aspose.slides/masterslide/create_theme_effective/#) | Returns an effective theme for this slide. |
-| [`find_shape_by_alt_text`](/slides/python-net/aspose.slides/masterslide/find_shape_by_alt_text/#str) | Finds first occurrence of a shape with the specified alternative text. |
-| [`apply_external_theme_to_depending_slides`](/slides/python-net/aspose.slides/masterslide/apply_external_theme_to_depending_slides/#str) | Creates a new master slide based on the current one, applying an external theme to it <br/>            and applies the created master slide to all dependent slides. |
-| [`get_depending_slides`](/slides/python-net/aspose.slides/masterslide/get_depending_slides/#) | Returns an array with all slides, which depend on this master slide. |
+| [`join_portions_with_same_formatting(self)`](/slides/python-net/aspose.slides/masterslide/join_portions_with_same_formatting/#) | Joins runs with same formatting in all paragraphs all acceptable shapes. |
+| [`join_portions_with_same_formatting(self, collection)`](/slides/python-net/aspose.slides/masterslide/join_portions_with_same_formatting/#ishapecollection) | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
+| [`equals(self, slide)`](/slides/python-net/aspose.slides/masterslide/equals/#ibaseslide) | Determines whether the two IBaseSlide instances are equal.<br/>            Returning value is calculated based on slide's structure and static content.<br/>            Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
+| [`create_theme_effective(self)`](/slides/python-net/aspose.slides/masterslide/create_theme_effective/#) | Returns an effective theme for this slide. |
+| [`find_shape_by_alt_text(self, alt_text)`](/slides/python-net/aspose.slides/masterslide/find_shape_by_alt_text/#str) | Finds first occurrence of a shape with the specified alternative text. |
+| [`apply_external_theme_to_depending_slides(self, fname)`](/slides/python-net/aspose.slides/masterslide/apply_external_theme_to_depending_slides/#str) | Creates a new master slide based on the current one, applying an external theme to it <br/>            and applies the created master slide to all dependent slides. |
+| [`get_depending_slides(self)`](/slides/python-net/aspose.slides/masterslide/get_depending_slides/#) | Returns an array with all slides, which depend on this master slide. |
 
 
 ### See Also

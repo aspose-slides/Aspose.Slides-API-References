@@ -23,7 +23,7 @@ The EnumerableFrameArgs type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`get_frame`](/slides/python-net/aspose.slides.export/enumerableframeargs/get_frame/#) | Get the current [`PresentationEnumerableFramesGenerator`](/slides/python-net/aspose.slides.export/presentationenumerableframesgenerator) frame. |
+| [`get_frame(self)`](/slides/python-net/aspose.slides.export/enumerableframeargs/get_frame/#) | Get the current [`PresentationEnumerableFramesGenerator`](/slides/python-net/aspose.slides.export/presentationenumerableframesgenerator) frame. |
 
 
 ### See Also

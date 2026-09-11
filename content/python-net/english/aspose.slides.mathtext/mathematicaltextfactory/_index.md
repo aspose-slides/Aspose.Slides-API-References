@@ -17,16 +17,16 @@ The MathematicalTextFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides.mathtext/mathematicaltextfactory/__init__/#) |  |
+| [`__init__(self)`](/slides/python-net/aspose.slides.mathtext/mathematicaltextfactory/__init__/#) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [`create_mathematical_text`](/slides/python-net/aspose.slides.mathtext/mathematicaltextfactory/create_mathematical_text/#) | Create empty mathematical text element |
-| [`create_mathematical_text`](/slides/python-net/aspose.slides.mathtext/mathematicaltextfactory/create_mathematical_text/#char) | Create mathematical text element with the specified value |
-| [`create_mathematical_text`](/slides/python-net/aspose.slides.mathtext/mathematicaltextfactory/create_mathematical_text/#str) | Create empty mathematical text element with the specified value |
-| [`create_mathematical_text`](/slides/python-net/aspose.slides.mathtext/mathematicaltextfactory/create_mathematical_text/#str-iportionformat) | Create empty mathematical text element with the specified value and formatting properties |
+| [`create_mathematical_text(self)`](/slides/python-net/aspose.slides.mathtext/mathematicaltextfactory/create_mathematical_text/#) | Create empty mathematical text element |
+| [`create_mathematical_text(self, math_symbol)`](/slides/python-net/aspose.slides.mathtext/mathematicaltextfactory/create_mathematical_text/#char) | Create mathematical text element with the specified value |
+| [`create_mathematical_text(self, math_text)`](/slides/python-net/aspose.slides.mathtext/mathematicaltextfactory/create_mathematical_text/#str) | Create empty mathematical text element with the specified value |
+| [`create_mathematical_text(self, math_text, portion_format)`](/slides/python-net/aspose.slides.mathtext/mathematicaltextfactory/create_mathematical_text/#str-iportionformat) | Create empty mathematical text element with the specified value and formatting properties |
 
 
 ### Remarks

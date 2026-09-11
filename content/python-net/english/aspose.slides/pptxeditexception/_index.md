@@ -19,8 +19,8 @@ The PptxEditException type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides/pptxeditexception/__init__/#) | Default constructor. |
-| [`__init__`](/slides/python-net/aspose.slides/pptxeditexception/__init__/#str) | Constructor allowing a message to be added to this exception. |
+| [`__init__(self)`](/slides/python-net/aspose.slides/pptxeditexception/__init__/#) | Default constructor. |
+| [`__init__(self, message)`](/slides/python-net/aspose.slides/pptxeditexception/__init__/#str) | Constructor allowing a message to be added to this exception. |
 
 
 ### See Also

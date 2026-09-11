@@ -26,9 +26,9 @@ Returns the layout slide by index.
 
 | Method | Description |
 | :- | :- |
-| [`get_by_type`](/slides/python-net/aspose.slides/layoutslidecollection/get_by_type/#slidelayouttype) | Returns the first layout slide of specified type.<br/>            A type of layout slide to find.[`LayoutSlide`](/slides/python-net/aspose.slides/layoutslide) with specified type or None if no layouts found. |
-| [`remove`](/slides/python-net/aspose.slides/layoutslidecollection/remove/#ilayoutslide) | Removes a layout from the collection. |
-| [`remove_unused`](/slides/python-net/aspose.slides/layoutslidecollection/remove_unused/#) | Removes unused layout slides (layout slides whose HasDependingSlides is false). |
+| [`get_by_type(self, type)`](/slides/python-net/aspose.slides/layoutslidecollection/get_by_type/#slidelayouttype) | Returns the first layout slide of specified type.<br/>            A type of layout slide to find.[`LayoutSlide`](/slides/python-net/aspose.slides/layoutslide) with specified type or None if no layouts found. |
+| [`remove(self, value)`](/slides/python-net/aspose.slides/layoutslidecollection/remove/#ilayoutslide) | Removes a layout from the collection. |
+| [`remove_unused(self)`](/slides/python-net/aspose.slides/layoutslidecollection/remove_unused/#) | Removes unused layout slides (layout slides whose HasDependingSlides is false). |
 
 
 ### See Also

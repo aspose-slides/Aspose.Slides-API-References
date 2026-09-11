@@ -25,9 +25,9 @@ Returns the signature by index.
 
 | Method | Description |
 | :- | :- |
-| [`add`](/slides/python-net/aspose.slides/digitalsignaturecollection/add/#idigitalsignature) | Adds the signature at the end of collection. |
-| [`remove_at`](/slides/python-net/aspose.slides/digitalsignaturecollection/remove_at/#int) | Removes the signature at the specified index. |
-| [`clear`](/slides/python-net/aspose.slides/digitalsignaturecollection/clear/#) | Removes all signatures from collection. |
+| [`add(self, signature)`](/slides/python-net/aspose.slides/digitalsignaturecollection/add/#idigitalsignature) | Adds the signature at the end of collection. |
+| [`remove_at(self, index)`](/slides/python-net/aspose.slides/digitalsignaturecollection/remove_at/#int) | Removes the signature at the specified index. |
+| [`clear(self)`](/slides/python-net/aspose.slides/digitalsignaturecollection/clear/#) | Removes all signatures from collection. |
 
 
 ### See Also

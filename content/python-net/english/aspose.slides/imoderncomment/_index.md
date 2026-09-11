@@ -32,7 +32,7 @@ The IModernComment type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`remove`](/slides/python-net/aspose.slides/imoderncomment/remove/#) |  |
+| [`remove(self)`](/slides/python-net/aspose.slides/imoderncomment/remove/#) |  |
 
 
 ### See Also

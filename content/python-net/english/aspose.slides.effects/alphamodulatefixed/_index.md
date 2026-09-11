@@ -28,7 +28,7 @@ The AlphaModulateFixed type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`get_effective`](/slides/python-net/aspose.slides.effects/alphamodulatefixed/get_effective/#) | Gets effective Alpha Modulate Fixed effect data with the inheritance applied. |
+| [`get_effective(self)`](/slides/python-net/aspose.slides.effects/alphamodulatefixed/get_effective/#) | Gets effective Alpha Modulate Fixed effect data with the inheritance applied. |
 
 
 ### See Also

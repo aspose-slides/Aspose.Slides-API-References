@@ -23,14 +23,14 @@ The IChartDataWorkbook type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`get_cell`](/slides/python-net/aspose.slides.charts/ichartdataworkbook/get_cell/#str-int-int) | Gets the cell that can be used for chart series or categories |
-| [`get_cell`](/slides/python-net/aspose.slides.charts/ichartdataworkbook/get_cell/#int-int-int) | Gets the cell that can be used for chart series or categories |
-| [`get_cell`](/slides/python-net/aspose.slides.charts/ichartdataworkbook/get_cell/#int-str) | Gets the cell that can be used for chart series or categories |
-| [`get_cell`](/slides/python-net/aspose.slides.charts/ichartdataworkbook/get_cell/#int-str-any) | Gets the cell that can be used for chart series or categories |
-| [`get_cell`](/slides/python-net/aspose.slides.charts/ichartdataworkbook/get_cell/#int-int-int-any) | Gets the cell that can be used for chart series or categories |
-| [`calculate_formulas`](/slides/python-net/aspose.slides.charts/ichartdataworkbook/calculate_formulas/#) | Calculates all formulas in the workbook and updates corresponding cells values. |
-| [`get_cell_collection`](/slides/python-net/aspose.slides.charts/ichartdataworkbook/get_cell_collection/#str-bool) | Gets the set of cells. |
-| [`clear`](/slides/python-net/aspose.slides.charts/ichartdataworkbook/clear/#int) | Clear all cells values on sheet |
+| [`get_cell(self, worksheet_name, row, column)`](/slides/python-net/aspose.slides.charts/ichartdataworkbook/get_cell/#str-int-int) | Gets the cell that can be used for chart series or categories |
+| [`get_cell(self, worksheet_index, row, column)`](/slides/python-net/aspose.slides.charts/ichartdataworkbook/get_cell/#int-int-int) | Gets the cell that can be used for chart series or categories |
+| [`get_cell(self, worksheet_index, cell_name)`](/slides/python-net/aspose.slides.charts/ichartdataworkbook/get_cell/#int-str) | Gets the cell that can be used for chart series or categories |
+| [`get_cell(self, worksheet_index, cell_name, value)`](/slides/python-net/aspose.slides.charts/ichartdataworkbook/get_cell/#int-str-any) | Gets the cell that can be used for chart series or categories |
+| [`get_cell(self, worksheet_index, row, column, value)`](/slides/python-net/aspose.slides.charts/ichartdataworkbook/get_cell/#int-int-int-any) | Gets the cell that can be used for chart series or categories |
+| [`calculate_formulas(self)`](/slides/python-net/aspose.slides.charts/ichartdataworkbook/calculate_formulas/#) | Calculates all formulas in the workbook and updates corresponding cells values. |
+| [`get_cell_collection(self, formula, skip_hidden_cells)`](/slides/python-net/aspose.slides.charts/ichartdataworkbook/get_cell_collection/#str-bool) | Gets the set of cells. |
+| [`clear(self, sheet_index)`](/slides/python-net/aspose.slides.charts/ichartdataworkbook/clear/#int) | Clear all cells values on sheet |
 
 
 ### See Also

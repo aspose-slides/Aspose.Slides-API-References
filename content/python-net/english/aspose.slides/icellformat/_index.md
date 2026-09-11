@@ -30,7 +30,7 @@ The ICellFormat type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`get_effective`](/slides/python-net/aspose.slides/icellformat/get_effective/#) | Gets effective table cell formatting properties with inheritance and table styles applied. |
+| [`get_effective(self)`](/slides/python-net/aspose.slides/icellformat/get_effective/#) | Gets effective table cell formatting properties with inheritance and table styles applied. |
 
 
 ### See Also
