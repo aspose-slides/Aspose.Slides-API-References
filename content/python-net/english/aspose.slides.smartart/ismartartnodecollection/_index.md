@@ -26,10 +26,10 @@ Returns node by index.
 
 | Method | Description |
 | :- | :- |
-| [`remove_node`](/slides/python-net/aspose.slides.smartart/ismartartnodecollection/remove_node/#int) | Remove node or sub node by index. |
-| [`remove_node`](/slides/python-net/aspose.slides.smartart/ismartartnodecollection/remove_node/#ismartartnode) | Remove node or sub node. |
-| [`add_node`](/slides/python-net/aspose.slides.smartart/ismartartnodecollection/add_node/#) | Add new node or sub node. |
-| [`add_node_by_position`](/slides/python-net/aspose.slides.smartart/ismartartnodecollection/add_node_by_position/#int) | Add new node in the selected position of nodes collection. |
+| [`remove_node(self, index)`](/slides/python-net/aspose.slides.smartart/ismartartnodecollection/remove_node/#int) | Remove node or sub node by index. |
+| [`remove_node(self, node_obj)`](/slides/python-net/aspose.slides.smartart/ismartartnodecollection/remove_node/#ismartartnode) | Remove node or sub node. |
+| [`add_node(self)`](/slides/python-net/aspose.slides.smartart/ismartartnodecollection/add_node/#) | Add new node or sub node. |
+| [`add_node_by_position(self, position)`](/slides/python-net/aspose.slides.smartart/ismartartnodecollection/add_node_by_position/#int) | Add new node in the selected position of nodes collection. |
 
 
 ### See Also

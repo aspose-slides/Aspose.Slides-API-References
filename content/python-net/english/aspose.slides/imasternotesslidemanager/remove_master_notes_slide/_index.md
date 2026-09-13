@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## remove_master_notes_slide {#}
+## remove_master_notes_slide(self) {#}
 Removes master notes slide.
 
 

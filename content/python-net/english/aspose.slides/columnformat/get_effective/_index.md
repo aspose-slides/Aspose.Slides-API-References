@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## get_effective {#}
+## get_effective(self) {#}
 Gets effective table column formatting properties with inheritance and table styles applied.
 
 ### Returns

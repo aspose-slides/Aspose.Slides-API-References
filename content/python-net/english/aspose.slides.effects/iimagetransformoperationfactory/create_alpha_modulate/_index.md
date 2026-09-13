@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## create_alpha_modulate {#}
+## create_alpha_modulate(self) {#}
 Creates Alpha modulate effect.
 
 ### Returns

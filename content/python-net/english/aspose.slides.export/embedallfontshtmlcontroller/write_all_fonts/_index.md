@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## write_all_fonts {#ihtmlgenerator-ipresentation}
+## write_all_fonts(self, generator, presentation) {#ihtmlgenerator-ipresentation}
 Write all fonts contained in [`Presentation`](/slides/python-net/aspose.slides/presentation).
 
 

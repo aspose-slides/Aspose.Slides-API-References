@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#bytes}
+## __init__(self, data) {#bytes}
 Creates new SvgImage object.
 
 
@@ -23,7 +23,7 @@ def __init__(self, data):
 | data | **bytes** | Svg data. |
 
 
-## __init__ {#str}
+## __init__(self, svg_content) {#str}
 Creates new SvgImage object.
 
 
@@ -38,7 +38,7 @@ def __init__(self, svg_content):
 | svg_content | **str** | Svg content. |
 
 
-## __init__ {#iorawiobase}
+## __init__(self, stream) {#iorawiobase}
 Creates new SvgImage object.
 
 
@@ -53,7 +53,7 @@ def __init__(self, stream):
 | stream | **io.RawIOBase** | Svg stream. |
 
 
-## __init__ {#bytes-asposeslidesimportingiexternalresourceresolver-str}
+## __init__(self, data, external_res_resolver, base_uri) {#bytes-asposeslidesimportingiexternalresourceresolver-str}
 Creates new SvgImage object.
 
 
@@ -70,7 +70,7 @@ def __init__(self, data, external_res_resolver, base_uri):
 | base_uri | **str** | Base URI of the specified Svg. Used to resolve relative links. |
 
 
-## __init__ {#str-asposeslidesimportingiexternalresourceresolver-str}
+## __init__(self, svg_content, external_res_resolver, base_uri) {#str-asposeslidesimportingiexternalresourceresolver-str}
 Creates new SvgImage object.
 
 
@@ -87,7 +87,7 @@ def __init__(self, svg_content, external_res_resolver, base_uri):
 | base_uri | **str** | Base URI of the specified Svg. Used to resolve relative links. |
 
 
-## __init__ {#iorawiobase-asposeslidesimportingiexternalresourceresolver-str}
+## __init__(self, stream, external_res_resolver, base_uri) {#iorawiobase-asposeslidesimportingiexternalresourceresolver-str}
 Creates new SvgImage object.
 
 

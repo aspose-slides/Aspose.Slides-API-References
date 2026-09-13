@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## add_alpha_modulate_effect {#}
+## add_alpha_modulate_effect(self) {#}
 Adds the new Alpha Modulate effect to the end of a collection.
 
 ### Returns

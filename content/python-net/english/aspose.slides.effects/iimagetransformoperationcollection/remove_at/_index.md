@@ -8,7 +8,7 @@ weight: 190
 ---
 
 
-## remove_at {#int}
+## remove_at(self, index) {#int}
 Removes an image effect from a collection at the specified index.
 
 

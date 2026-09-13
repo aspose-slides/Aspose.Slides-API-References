@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## reset_license {#}
+## reset_license(self) {#}
 Reset the license
 
 

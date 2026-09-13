@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#str-str}
+## add(self, name, value) {#str-str}
 Adds a property to the collection.
 
 

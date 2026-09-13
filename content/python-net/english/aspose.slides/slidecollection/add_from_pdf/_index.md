@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## add_from_pdf {#str}
+## add_from_pdf(self, path) {#str}
 Creates slides from the PDF document and adds them to the end of the collection.
 
 ### Returns
@@ -28,7 +28,7 @@ def add_from_pdf(self, path):
 | path | **str** | A path to the PDF document |
 
 
-## add_from_pdf {#iorawiobase}
+## add_from_pdf(self, pdf_stream) {#iorawiobase}
 Creates slides from the PDF document and adds them to the end of the collection.
 
 ### Returns
@@ -48,7 +48,7 @@ def add_from_pdf(self, pdf_stream):
 | pdf_stream | **io.RawIOBase** | A stream which will be used as a source of the PDF document |
 
 
-## add_from_pdf {#str-asposeslidesimportingpdfimportoptions}
+## add_from_pdf(self, path, pdf_import_options) {#str-asposeslidesimportingpdfimportoptions}
 Creates slides from the PDF document and adds them to the end of the collection considering the pdf import options.
 
 ### Returns
@@ -69,7 +69,7 @@ def add_from_pdf(self, path, pdf_import_options):
 | pdf_import_options | [`PdfImportOptions`](/slides/python-net/aspose.slides.importing/pdfimportoptions) | Options for pdf import |
 
 
-## add_from_pdf {#iorawiobase-asposeslidesimportingpdfimportoptions}
+## add_from_pdf(self, pdf_stream, pdf_import_options) {#iorawiobase-asposeslidesimportingpdfimportoptions}
 Creates slides from the PDF document and adds them to the end of the collection.
 
 ### Returns

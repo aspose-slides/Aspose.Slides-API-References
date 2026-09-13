@@ -8,7 +8,7 @@ weight: 80
 ---
 
 
-## init_font_scheme_from_inherited {#}
+## init_font_scheme_from_inherited(self) {#}
 Init FontScheme with new object for overriding FontScheme of InheritedTheme. And initialize data of this new object with data of the FontScheme of InheritedTheme.
 
 

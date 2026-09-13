@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add_attribute_value {#str}
+## add_attribute_value(self, value) {#str}
 Quotes attribute value and adds it to the html file.
 
 
@@ -23,7 +23,7 @@ def add_attribute_value(self, value):
 | value | **str** | Attribute value string. |
 
 
-## add_attribute_value {#listchar}
+## add_attribute_value(self, value) {#listchar}
 Quotes attribute value and adds it to the html file.
 
 
@@ -38,7 +38,7 @@ def add_attribute_value(self, value):
 | value | **List[char]** | Attribute value string. |
 
 
-## add_attribute_value {#listchar-int-int}
+## add_attribute_value(self, value, start_index, length) {#listchar-int-int}
 Quotes attribute value and adds it to the html file.
 
 

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## throw_if_interruption_requested {#}
+## throw_if_interruption_requested(self) {#}
 Throws an OperationCanceledException if
             interruption was requested.
 

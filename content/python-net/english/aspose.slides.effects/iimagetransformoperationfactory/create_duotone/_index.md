@@ -8,7 +8,7 @@ weight: 120
 ---
 
 
-## create_duotone {#}
+## create_duotone(self) {#}
 Creates Duotone effect.
 
 ### Returns

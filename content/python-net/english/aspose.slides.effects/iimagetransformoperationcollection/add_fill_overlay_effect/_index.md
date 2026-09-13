@@ -8,7 +8,7 @@ weight: 140
 ---
 
 
-## add_fill_overlay_effect {#}
+## add_fill_overlay_effect(self) {#}
 Adds the new Fill Overlay effect to the end of a collection.
 
 ### Returns

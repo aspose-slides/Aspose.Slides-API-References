@@ -8,7 +8,7 @@ weight: 130
 ---
 
 
-## add_smart_art {#float-float-float-float-asposeslidessmartartsmartartlayouttype}
+## add_smart_art(self, x, y, width, height, layout_type) {#float-float-float-float-asposeslidessmartartsmartartlayouttype}
 Creates a SmartArt diagram and adds it to the end of the shape collection.
 
 ### Returns

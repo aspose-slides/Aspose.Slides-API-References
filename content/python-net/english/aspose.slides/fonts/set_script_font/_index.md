@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## set_script_font {#str-str}
+## set_script_font(self, script, font_name) {#str-str}
 Assigns a font name to a specific script tag, which defines how text of that script will be rendered in the presentation.
 
 

@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## set_external_hyperlink_mouse_over {#str}
+## set_external_hyperlink_mouse_over(self, url) {#str}
 Sets external hyperlink mouse over.
 
 ### Returns

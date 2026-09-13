@@ -17,20 +17,20 @@ The ExcelDataWorkbook type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides.excel/exceldataworkbook/__init__/#str) | Initializes a new instance using the specified file path. |
-| [`__init__`](/slides/python-net/aspose.slides.excel/exceldataworkbook/__init__/#iorawiobase) | Initializes a new instance of the class using the provided stream. |
+| [`__init__(self, file_path)`](/slides/python-net/aspose.slides.excel/exceldataworkbook/__init__/#str) | Initializes a new instance using the specified file path. |
+| [`__init__(self, stream)`](/slides/python-net/aspose.slides.excel/exceldataworkbook/__init__/#iorawiobase) | Initializes a new instance of the class using the provided stream. |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [`get_cell`](/slides/python-net/aspose.slides.excel/exceldataworkbook/get_cell/#int-int-int) | Retrieves a cell from the specified worksheet using its index and cell coordinates. |
-| [`get_cell`](/slides/python-net/aspose.slides.excel/exceldataworkbook/get_cell/#str-int-int) | Retrieves a cell from the specified worksheet using its name and cell coordinates. |
-| [`get_cell`](/slides/python-net/aspose.slides.excel/exceldataworkbook/get_cell/#int-str) | Retrieves a cell from the specified worksheet using its index and Excel-style cell name (e.g., "B2"). |
-| [`get_cell`](/slides/python-net/aspose.slides.excel/exceldataworkbook/get_cell/#str-str) | Retrieves a cell from the specified worksheet using Excel-style cell name (e.g., "B2"). |
-| [`get_cells`](/slides/python-net/aspose.slides.excel/exceldataworkbook/get_cells/#str-bool) | Retrieves a collection of cells from the workbook that match the specified formula. |
-| [`get_charts_from_worksheet`](/slides/python-net/aspose.slides.excel/exceldataworkbook/get_charts_from_worksheet/#str) | Retrieves a dictionary containing the indexes and names of all charts in the specified worksheet of an Excel workbook. |
-| [`get_worksheet_names`](/slides/python-net/aspose.slides.excel/exceldataworkbook/get_worksheet_names/#) | Retrieves the names of all worksheets contained in the Excel workbook. |
+| [`get_cell(self, worksheet_index, row, column)`](/slides/python-net/aspose.slides.excel/exceldataworkbook/get_cell/#int-int-int) | Retrieves a cell from the specified worksheet using its index and cell coordinates. |
+| [`get_cell(self, worksheet_name, row, column)`](/slides/python-net/aspose.slides.excel/exceldataworkbook/get_cell/#str-int-int) | Retrieves a cell from the specified worksheet using its name and cell coordinates. |
+| [`get_cell(self, worksheet_index, cell_name)`](/slides/python-net/aspose.slides.excel/exceldataworkbook/get_cell/#int-str) | Retrieves a cell from the specified worksheet using its index and Excel-style cell name (e.g., "B2"). |
+| [`get_cell(self, worksheet_name, cell_name)`](/slides/python-net/aspose.slides.excel/exceldataworkbook/get_cell/#str-str) | Retrieves a cell from the specified worksheet using Excel-style cell name (e.g., "B2"). |
+| [`get_cells(self, formula, skip_hidden_cells)`](/slides/python-net/aspose.slides.excel/exceldataworkbook/get_cells/#str-bool) | Retrieves a collection of cells from the workbook that match the specified formula. |
+| [`get_charts_from_worksheet(self, worksheet_name)`](/slides/python-net/aspose.slides.excel/exceldataworkbook/get_charts_from_worksheet/#str) | Retrieves a dictionary containing the indexes and names of all charts in the specified worksheet of an Excel workbook. |
+| [`get_worksheet_names(self)`](/slides/python-net/aspose.slides.excel/exceldataworkbook/get_worksheet_names/#) | Retrieves the names of all worksheets contained in the Excel workbook. |
 
 
 ### See Also

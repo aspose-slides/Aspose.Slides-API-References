@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#}
+## __init__(self) {#}
 Default constructor (create String.Empty Value)
 
 
@@ -19,7 +19,7 @@ def __init__(self):
 
 
 
-## __init__ {#char}
+## __init__(self, math_symbol) {#char}
 Create MathText with single symbol
 
 
@@ -34,7 +34,7 @@ def __init__(self, math_symbol):
 | math_symbol | **char** | single symbol |
 
 
-## __init__ {#str}
+## __init__(self, math_text) {#str}
 Create MathematicalText from text
 
 
@@ -49,7 +49,7 @@ def __init__(self, math_text):
 | math_text | **str** | text value |
 
 
-## __init__ {#str-iportionformat}
+## __init__(self, math_text, portion_format) {#str-iportionformat}
 Create MathematicalText from text and format settings
 
 

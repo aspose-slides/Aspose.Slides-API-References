@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## enclose {#}
+## enclose(self) {#}
 Encloses a math element in parenthesis
 
 ### Returns
@@ -24,7 +24,7 @@ def enclose(self):
 
 
 
-## enclose {#char-char}
+## enclose(self, beginning_character, ending_character) {#char-char}
 Encloses a math element in specified characters such as parenthesis or another characters as framing
 
 ### Returns

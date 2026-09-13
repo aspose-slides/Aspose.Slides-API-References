@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## remove_summary_zoom_section {#isection}
+## remove_summary_zoom_section(self, section) {#isection}
 Remove Summary Zoom Section object from the collection.
 
 

@@ -8,7 +8,7 @@ weight: 150
 ---
 
 
-## add_table {#float-float-listfloat-listfloat}
+## add_table(self, x, y, column_widths, row_heights) {#float-float-listfloat-listfloat}
 Creates a new table and adds it to the end of the shape collection.
 
 ### Returns

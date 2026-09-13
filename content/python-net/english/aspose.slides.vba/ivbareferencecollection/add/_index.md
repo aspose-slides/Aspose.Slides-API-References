@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#ivbareference}
+## add(self, value) {#ivbareference}
 Adds the new reference to references collection
 
 

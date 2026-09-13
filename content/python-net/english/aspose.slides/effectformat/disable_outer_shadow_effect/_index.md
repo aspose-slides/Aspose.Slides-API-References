@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## disable_outer_shadow_effect {#}
+## disable_outer_shadow_effect(self) {#}
 Disables outer shadow effect.
 
 

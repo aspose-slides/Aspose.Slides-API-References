@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## get_image {#}
+## get_image(self) {#}
 Returns a Thumbnail Image object (20% of real size).
 
 
@@ -19,7 +19,7 @@ def get_image(self):
 
 
 
-## get_image {#asposepydrawingsize}
+## get_image(self, image_size) {#asposepydrawingsize}
 Returns a Thumbnail Image object with specified size.
 
 ### Returns
@@ -39,7 +39,7 @@ def get_image(self, image_size):
 | image_size | **aspose.pydrawing.Size** | Size of the image to create. |
 
 
-## get_image {#asposeslidesexportitiffoptions}
+## get_image(self, options) {#asposeslidesexportitiffoptions}
 Returns a Thumbnail tiff image object with specified parameters.
 
 ### Returns
@@ -65,7 +65,7 @@ def get_image(self, options):
 | **RuntimeError(Proxy error(InvalidOperationException))** | Thrown when options.SlideLayoutOption is NotesCommentsLayoutingOptions and its property NotesPosition takes the value NotesPositions.BottomFull. |
 
 
-## get_image {#asposeslidesexportirenderingoptions}
+## get_image(self, options) {#asposeslidesexportirenderingoptions}
 Returns a Thumbnail Image object.
 
 ### Returns
@@ -91,7 +91,7 @@ def get_image(self, options):
 | **RuntimeError(Proxy error(InvalidOperationException))** | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
 
 
-## get_image {#float-float}
+## get_image(self, scale_x, scale_y) {#float-float}
 Returns a Thumbnail Image object with custom scaling.
 
 ### Returns
@@ -112,7 +112,7 @@ def get_image(self, scale_x, scale_y):
 | scale_y | **float** | The value by which to scale this Thumbnail in the y-axis direction. |
 
 
-## get_image {#asposeslidesexportirenderingoptions-asposepydrawingsize}
+## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposepydrawingsize}
 Returns a Thumbnail Image object with specified size.
 
 ### Returns
@@ -139,7 +139,7 @@ def get_image(self, options, image_size):
 | **RuntimeError(Proxy error(InvalidOperationException))** | Thrown when options.SlideLayoutOption is NotesCommentsLayoutingOptions and its property NotesPosition takes the value NotesPositions.BottomFull. |
 
 
-## get_image {#asposeslidesexportirenderingoptions-float-float}
+## get_image(self, options, scale_x, scale_y) {#asposeslidesexportirenderingoptions-float-float}
 Returns a Thumbnail Image object with custom scaling.
 
 ### Returns

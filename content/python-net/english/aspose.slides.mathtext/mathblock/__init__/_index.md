@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#}
+## __init__(self) {#}
 Initializes a new instance of the MathBlock class.
 
 
@@ -19,7 +19,7 @@ def __init__(self):
 
 
 
-## __init__ {#imathelement}
+## __init__(self, math_element) {#imathelement}
 Creates a new mathematical block and puts specified element in it
 
 
@@ -34,7 +34,7 @@ def __init__(self, math_element):
 | math_element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | The mathematical element to put in the block |
 
 
-## __init__ {#iterableimathelement}
+## __init__(self, math_elements) {#iterableimathelement}
 
 
 

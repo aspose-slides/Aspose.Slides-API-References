@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## append_empty_section {#str}
+## append_empty_section(self, name) {#str}
 Add empty section to the end of the collection.
 
 ### Returns

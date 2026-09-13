@@ -8,7 +8,7 @@ weight: 100
 ---
 
 
-## create_blur {#float-bool}
+## create_blur(self, radius, grow) {#float-bool}
 Creates Blur effect.
 
 ### Returns

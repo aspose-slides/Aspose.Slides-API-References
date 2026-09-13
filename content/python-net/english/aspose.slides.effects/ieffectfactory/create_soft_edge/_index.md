@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## create_soft_edge {#}
+## create_soft_edge(self) {#}
 Creates Soft Edge effect.
 
 ### Returns

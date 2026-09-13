@@ -31,13 +31,13 @@ The ChartData type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`set_external_workbook`](/slides/python-net/aspose.slides.charts/chartdata/set_external_workbook/#str) | Sets external workbook as a data source for the chart. Chart data will be updated from the target workbook. |
-| [`set_external_workbook`](/slides/python-net/aspose.slides.charts/chartdata/set_external_workbook/#str-bool) | Sets external workbook as a data source for the chart. |
-| [`read_workbook_stream`](/slides/python-net/aspose.slides.charts/chartdata/read_workbook_stream/#) | Writes the internally contained Excel workbook it into an stream. |
-| [`write_workbook_stream`](/slides/python-net/aspose.slides.charts/chartdata/write_workbook_stream/#iorawiobase) | Initializes the internally contained Excel workbook with user-specified value. |
-| [`get_range`](/slides/python-net/aspose.slides.charts/chartdata/get_range/#) | Gets chart data range. |
-| [`set_range`](/slides/python-net/aspose.slides.charts/chartdata/set_range/#str) | Set chart data range. Series and categories will be updated based on new data range.<br/>            If amount of series in data range greater than count of series in the chart data then additional series with the same type<br/>            as a last series in the current collection will be added to the end of the collection. |
-| [`switch_row_column`](/slides/python-net/aspose.slides.charts/chartdata/switch_row_column/#) | Swap the data over the axis.<br/>            Data being charted on the X axis will move to the Y axis and vice versa. |
+| [`set_external_workbook(self, workbook_path)`](/slides/python-net/aspose.slides.charts/chartdata/set_external_workbook/#str) | Sets external workbook as a data source for the chart. Chart data will be updated from the target workbook. |
+| [`set_external_workbook(self, workbook_path, update_chart_data)`](/slides/python-net/aspose.slides.charts/chartdata/set_external_workbook/#str-bool) | Sets external workbook as a data source for the chart. |
+| [`read_workbook_stream(self)`](/slides/python-net/aspose.slides.charts/chartdata/read_workbook_stream/#) | Writes the internally contained Excel workbook it into an stream. |
+| [`write_workbook_stream(self, ms)`](/slides/python-net/aspose.slides.charts/chartdata/write_workbook_stream/#iorawiobase) | Initializes the internally contained Excel workbook with user-specified value. |
+| [`get_range(self)`](/slides/python-net/aspose.slides.charts/chartdata/get_range/#) | Gets chart data range. |
+| [`set_range(self, formula)`](/slides/python-net/aspose.slides.charts/chartdata/set_range/#str) | Set chart data range. Series and categories will be updated based on new data range.<br/>            If amount of series in data range greater than count of series in the chart data then additional series with the same type<br/>            as a last series in the current collection will be added to the end of the collection. |
+| [`switch_row_column(self)`](/slides/python-net/aspose.slides.charts/chartdata/switch_row_column/#) | Swap the data over the axis.<br/>            Data being charted on the X axis will move to the Y axis and vice versa. |
 
 
 ### See Also

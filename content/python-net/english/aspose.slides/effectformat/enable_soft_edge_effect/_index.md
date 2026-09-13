@@ -8,7 +8,7 @@ weight: 150
 ---
 
 
-## enable_soft_edge_effect {#}
+## enable_soft_edge_effect(self) {#}
 Enables soft edge effect.
 
 

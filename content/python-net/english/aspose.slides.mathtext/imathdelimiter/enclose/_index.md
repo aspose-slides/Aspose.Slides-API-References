@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## enclose {#}
+## enclose(self) {#}
 
 
 
@@ -19,7 +19,7 @@ def enclose(self):
 
 
 
-## enclose {#char-char}
+## enclose(self, beginning_character, ending_character) {#char-char}
 
 
 

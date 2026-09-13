@@ -8,7 +8,7 @@ weight: 140
 ---
 
 
-## enable_reflection_effect {#}
+## enable_reflection_effect(self) {#}
 Enables reflection effect.
 
 

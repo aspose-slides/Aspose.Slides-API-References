@@ -8,7 +8,7 @@ weight: 90
 ---
 
 
-## write_as_math_ml {#iorawiobase}
+## write_as_math_ml(self, stream) {#iorawiobase}
 Saves content of this [`IMathParagraph`](/slides/python-net/aspose.slides.mathtext/imathparagraph) as MathML
 
 

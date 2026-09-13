@@ -17,8 +17,8 @@ The FontFallBackRule type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides/fontfallbackrule/__init__/#int-int-str) | Creates new instance. |
-| [`__init__`](/slides/python-net/aspose.slides/fontfallbackrule/__init__/#int-int-liststr) | Creates new instance. |
+| [`__init__(self, start_index, end_index, font_names)`](/slides/python-net/aspose.slides/fontfallbackrule/__init__/#int-int-str) | Creates new instance. |
+| [`__init__(self, start_index, end_index, font_names)`](/slides/python-net/aspose.slides/fontfallbackrule/__init__/#int-int-liststr) | Creates new instance. |
 
 ## Properties
 
@@ -41,14 +41,14 @@ Gets the font name at the specified index.
 
 | Method | Description |
 | :- | :- |
-| [`add_fall_back_fonts`](/slides/python-net/aspose.slides/fontfallbackrule/add_fall_back_fonts/#str) | Adds a new font(s) to the list of FallBack fonts. |
-| [`add_fall_back_fonts`](/slides/python-net/aspose.slides/fontfallbackrule/add_fall_back_fonts/#liststr) | Adds a new fonts to the list of FallBack fonts. |
-| [`to_array`](/slides/python-net/aspose.slides/fontfallbackrule/to_array/#) | Creates and returns an array with all FallBack fonts for this rule. |
-| [`to_array`](/slides/python-net/aspose.slides/fontfallbackrule/to_array/#int-int) | Creates and returns an array with all FallBack fonts from the specified range in list. |
-| [`clear`](/slides/python-net/aspose.slides/fontfallbackrule/clear/#) | Removes all fonts from the list. |
-| [`remove`](/slides/python-net/aspose.slides/fontfallbackrule/remove/#str) | Removes the first occurrence of a specific FallBack font from the list. |
-| [`remove_at`](/slides/python-net/aspose.slides/fontfallbackrule/remove_at/#int) | Removes the FallBack font at the specified index of the list. |
-| [`index_of`](/slides/python-net/aspose.slides/fontfallbackrule/index_of/#str) | Returns an index of the specified rule in the collection. |
+| [`add_fall_back_fonts(self, font_name)`](/slides/python-net/aspose.slides/fontfallbackrule/add_fall_back_fonts/#str) | Adds a new font(s) to the list of FallBack fonts. |
+| [`add_fall_back_fonts(self, font_names)`](/slides/python-net/aspose.slides/fontfallbackrule/add_fall_back_fonts/#liststr) | Adds a new fonts to the list of FallBack fonts. |
+| [`to_array(self)`](/slides/python-net/aspose.slides/fontfallbackrule/to_array/#) | Creates and returns an array with all FallBack fonts for this rule. |
+| [`to_array(self, start_index, count)`](/slides/python-net/aspose.slides/fontfallbackrule/to_array/#int-int) | Creates and returns an array with all FallBack fonts from the specified range in list. |
+| [`clear(self)`](/slides/python-net/aspose.slides/fontfallbackrule/clear/#) | Removes all fonts from the list. |
+| [`remove(self, font_name)`](/slides/python-net/aspose.slides/fontfallbackrule/remove/#str) | Removes the first occurrence of a specific FallBack font from the list. |
+| [`remove_at(self, index)`](/slides/python-net/aspose.slides/fontfallbackrule/remove_at/#int) | Removes the FallBack font at the specified index of the list. |
+| [`index_of(self, font_name)`](/slides/python-net/aspose.slides/fontfallbackrule/index_of/#str) | Returns an index of the specified rule in the collection. |
 
 
 ### See Also

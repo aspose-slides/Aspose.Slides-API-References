@@ -8,7 +8,7 @@ weight: 90
 ---
 
 
-## integral {#mathintegraltypes}
+## integral(self, integral_type) {#mathintegraltypes}
 Takes the integral without limits
 
 ### Returns
@@ -28,7 +28,7 @@ def integral(self, integral_type):
 | integral_type | [`MathIntegralTypes`](/slides/python-net/aspose.slides.mathtext/mathintegraltypes) | Integral type |
 
 
-## integral {#mathintegraltypes-imathelement-imathelement}
+## integral(self, integral_type, lower_limit, upper_limit) {#mathintegraltypes-imathelement-imathelement}
 Takes the integral
 
 ### Returns
@@ -50,7 +50,7 @@ def integral(self, integral_type, lower_limit, upper_limit):
 | upper_limit | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Upper limit of integral |
 
 
-## integral {#mathintegraltypes-str-str}
+## integral(self, integral_type, lower_limit, upper_limit) {#mathintegraltypes-str-str}
 Takes the integral
 
 ### Returns
@@ -72,7 +72,7 @@ def integral(self, integral_type, lower_limit, upper_limit):
 | upper_limit | **str** | Upper limit of integral |
 
 
-## integral {#mathintegraltypes-imathelement-imathelement-mathlimitlocations}
+## integral(self, integral_type, lower_limit, upper_limit, limit_locations) {#mathintegraltypes-imathelement-imathelement-mathlimitlocations}
 Takes the integral
 
 ### Returns
@@ -95,7 +95,7 @@ def integral(self, integral_type, lower_limit, upper_limit, limit_locations):
 | limit_locations | [`MathLimitLocations`](/slides/python-net/aspose.slides.mathtext/mathlimitlocations) | location of limits |
 
 
-## integral {#mathintegraltypes-str-str-mathlimitlocations}
+## integral(self, integral_type, lower_limit, upper_limit, limit_locations) {#mathintegraltypes-str-str-mathlimitlocations}
 Takes the integral
 
 ### Returns

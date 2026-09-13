@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#bytes}
+## add(self, xml_data) {#bytes}
 Adds new custom xml part.
 
 ### Returns
@@ -35,7 +35,7 @@ def add(self, xml_data):
 | **RuntimeError(Proxy error(ArgumentException))** | xmlData is empty or invalid. |
 
 
-## add {#str}
+## add(self, xml_string) {#str}
 Adds new custom xml part.
 
 ### Returns
@@ -62,7 +62,7 @@ def add(self, xml_string):
 | **RuntimeError(Proxy error(ArgumentException))** | xmlString is empty or xml-data is invalid. |
 
 
-## add {#iorawiobase}
+## add(self, input_stream) {#iorawiobase}
 Adds new custom xml part.
 
 ### Returns

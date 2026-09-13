@@ -8,7 +8,7 @@ weight: 100
 ---
 
 
-## enable_glow_effect {#}
+## enable_glow_effect(self) {#}
 Enables glow effect.
 
 

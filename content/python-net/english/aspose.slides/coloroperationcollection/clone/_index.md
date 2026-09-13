@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## clone {#}
+## clone(self) {#}
 Creates a copy of a ColorOperationCollection collection.
 
 ### Returns

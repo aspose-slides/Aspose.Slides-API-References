@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## create_file_stream_wrapper {#str-systemiofilemode}
+## create_file_stream_wrapper(self, file_name, file_mode) {#str-systemiofilemode}
 Creates FileStream with the specified path and creation mode.
 
 ### Returns
@@ -29,7 +29,7 @@ def create_file_stream_wrapper(self, file_name, file_mode):
 | file_mode | **System.IO.FileMode** | File mode **System.IO.FileMode** |
 
 
-## create_file_stream_wrapper {#str-systemiofilemode-systemiofileaccess}
+## create_file_stream_wrapper(self, file_name, file_mode, file_access) {#str-systemiofilemode-systemiofileaccess}
 Creates FileStream with the specified path, creation mode, and read/write permission.
 
 ### Returns

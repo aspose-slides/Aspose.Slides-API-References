@@ -17,12 +17,12 @@ The SvgImage type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides/svgimage/__init__/#bytes) | Creates new SvgImage object. |
-| [`__init__`](/slides/python-net/aspose.slides/svgimage/__init__/#str) | Creates new SvgImage object. |
-| [`__init__`](/slides/python-net/aspose.slides/svgimage/__init__/#iorawiobase) | Creates new SvgImage object. |
-| [`__init__`](/slides/python-net/aspose.slides/svgimage/__init__/#bytes-asposeslidesimportingiexternalresourceresolver-str) | Creates new SvgImage object. |
-| [`__init__`](/slides/python-net/aspose.slides/svgimage/__init__/#str-asposeslidesimportingiexternalresourceresolver-str) | Creates new SvgImage object. |
-| [`__init__`](/slides/python-net/aspose.slides/svgimage/__init__/#iorawiobase-asposeslidesimportingiexternalresourceresolver-str) | Creates new SvgImage object. |
+| [`__init__(self, data)`](/slides/python-net/aspose.slides/svgimage/__init__/#bytes) | Creates new SvgImage object. |
+| [`__init__(self, svg_content)`](/slides/python-net/aspose.slides/svgimage/__init__/#str) | Creates new SvgImage object. |
+| [`__init__(self, stream)`](/slides/python-net/aspose.slides/svgimage/__init__/#iorawiobase) | Creates new SvgImage object. |
+| [`__init__(self, data, external_res_resolver, base_uri)`](/slides/python-net/aspose.slides/svgimage/__init__/#bytes-asposeslidesimportingiexternalresourceresolver-str) | Creates new SvgImage object. |
+| [`__init__(self, svg_content, external_res_resolver, base_uri)`](/slides/python-net/aspose.slides/svgimage/__init__/#str-asposeslidesimportingiexternalresourceresolver-str) | Creates new SvgImage object. |
+| [`__init__(self, stream, external_res_resolver, base_uri)`](/slides/python-net/aspose.slides/svgimage/__init__/#iorawiobase-asposeslidesimportingiexternalresourceresolver-str) | Creates new SvgImage object. |
 
 ## Properties
 
@@ -37,7 +37,7 @@ The SvgImage type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`write_as_emf`](/slides/python-net/aspose.slides/svgimage/write_as_emf/#iorawiobase) | Saves the SVG image as an EMF file. |
+| [`write_as_emf(self, stream)`](/slides/python-net/aspose.slides/svgimage/write_as_emf/#iorawiobase) | Saves the SVG image as an EMF file. |
 
 
 ### See Also

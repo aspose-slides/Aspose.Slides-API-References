@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## set_category_axis_type_automatically {#}
+## set_category_axis_type_automatically(self) {#}
 Sets IAxis.CategoryAxisType property with a value that is automatically determined based on axis data.
 
 

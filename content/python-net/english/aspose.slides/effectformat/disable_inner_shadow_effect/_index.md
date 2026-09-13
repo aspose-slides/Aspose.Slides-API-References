@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## disable_inner_shadow_effect {#}
+## disable_inner_shadow_effect(self) {#}
 Disables inner shadow effect.
 
 

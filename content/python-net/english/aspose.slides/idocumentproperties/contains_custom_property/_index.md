@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## contains_custom_property {#str}
+## contains_custom_property(self, name) {#str}
 Check presents of a custom property with a specified name.
 
 ### Returns

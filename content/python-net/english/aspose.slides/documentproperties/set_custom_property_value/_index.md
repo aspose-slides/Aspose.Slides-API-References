@@ -8,7 +8,7 @@ weight: 110
 ---
 
 
-## set_custom_property_value {#str-bool}
+## set_custom_property_value(self, name, value) {#str-bool}
 Sets a named boolean custom property.
 
 
@@ -24,7 +24,7 @@ def set_custom_property_value(self, name, value):
 | value | **bool** | Custom property value |
 
 
-## set_custom_property_value {#str-int}
+## set_custom_property_value(self, name, value) {#str-int}
 Sets a named integer custom property.
 
 
@@ -40,7 +40,7 @@ def set_custom_property_value(self, name, value):
 | value | **int** | Custom property value |
 
 
-## set_custom_property_value {#str-datetime}
+## set_custom_property_value(self, name, value) {#str-datetime}
 Sets a named DateTime custom property.
 
 
@@ -56,7 +56,7 @@ def set_custom_property_value(self, name, value):
 | value | **DateTime** | Custom property value |
 
 
-## set_custom_property_value {#str-str}
+## set_custom_property_value(self, name, value) {#str-str}
 Sets a named string custom property.
 
 
@@ -72,7 +72,7 @@ def set_custom_property_value(self, name, value):
 | value | **str** | Custom property value |
 
 
-## set_custom_property_value {#str-float}
+## set_custom_property_value(self, name, value) {#str-float}
 Sets a named float custom property.
 
 
@@ -88,7 +88,7 @@ def set_custom_property_value(self, name, value):
 | value | **float** | Custom property value |
 
 
-## set_custom_property_value {#str-float}
+## set_custom_property_value(self, name, value) {#str-float}
 Sets a named double custom property.
 
 

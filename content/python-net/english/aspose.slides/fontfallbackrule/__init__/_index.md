@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#int-int-str}
+## __init__(self, start_index, end_index, font_names) {#int-int-str}
 Creates new instance.
 
 
@@ -25,7 +25,7 @@ def __init__(self, start_index, end_index, font_names):
 | font_names | **str** | Font's name or names (delimited by comma) for FallBack |
 
 
-## __init__ {#int-int-liststr}
+## __init__(self, start_index, end_index, font_names) {#int-int-liststr}
 Creates new instance.
 
 

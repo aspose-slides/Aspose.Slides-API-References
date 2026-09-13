@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## read_byte {#}
+## read_byte(self) {#}
 Reads a byte from the stream and advances the position within the stream by one byte, or returns -1 if at the end of the stream.
 
 ### Returns

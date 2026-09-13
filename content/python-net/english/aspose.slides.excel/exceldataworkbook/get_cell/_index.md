@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## get_cell {#int-str}
+## get_cell(self, worksheet_index, cell_name) {#int-str}
 Retrieves a cell from the specified worksheet using its index and Excel-style cell name (e.g., "B2").
 
 ### Returns
@@ -29,7 +29,7 @@ def get_cell(self, worksheet_index, cell_name):
 | cell_name | **str** | The Excel-style cell reference (e.g., "A1", "C5"). |
 
 
-## get_cell {#str-str}
+## get_cell(self, worksheet_name, cell_name) {#str-str}
 Retrieves a cell from the specified worksheet using Excel-style cell name (e.g., "B2").
 
 ### Returns
@@ -50,7 +50,7 @@ def get_cell(self, worksheet_name, cell_name):
 | cell_name | **str** | The Excel-style cell reference (e.g., "A1", "C5"). |
 
 
-## get_cell {#int-int-int}
+## get_cell(self, worksheet_index, row, column) {#int-int-int}
 Retrieves a cell from the specified worksheet using its index and cell coordinates.
 
 ### Returns
@@ -72,7 +72,7 @@ def get_cell(self, worksheet_index, row, column):
 | column | **int** | Zero-based column index of the cell. |
 
 
-## get_cell {#str-int-int}
+## get_cell(self, worksheet_name, row, column) {#str-int-int}
 Retrieves a cell from the specified worksheet using its name and cell coordinates.
 
 ### Returns

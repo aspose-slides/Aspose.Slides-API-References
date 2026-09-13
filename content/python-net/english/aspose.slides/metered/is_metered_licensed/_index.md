@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## is_metered_licensed {#}
+## is_metered_licensed() {#}
 Check whether metered is licensed
 
 ### Returns

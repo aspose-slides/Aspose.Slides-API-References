@@ -8,7 +8,7 @@ weight: 90
 ---
 
 
-## write_as_emf {#iorawiobase}
+## write_as_emf(self, stream) {#iorawiobase}
 Saves the slide content as an EMF file.
 
 

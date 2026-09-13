@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## create_portion {#}
+## create_portion(self) {#}
 Creates an empty text portion.
 
 ### Returns
@@ -24,7 +24,7 @@ def create_portion(self):
 
 
 
-## create_portion {#str}
+## create_portion(self, str) {#str}
 Creates a text portion from specified string.
 
 ### Returns
@@ -44,7 +44,7 @@ def create_portion(self, str):
 | str | **str** | String. |
 
 
-## create_portion {#iportion}
+## create_portion(self, portion) {#iportion}
 Creates a portion with the using of a specified portion data.
 
 ### Returns

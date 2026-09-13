@@ -54,7 +54,7 @@ The IPortionFormat type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`get_effective`](/slides/python-net/aspose.slides/iportionformat/get_effective/#) | Gets effective portion formatting data with the inheritance applied. |
+| [`get_effective(self)`](/slides/python-net/aspose.slides/iportionformat/get_effective/#) | Gets effective portion formatting data with the inheritance applied. |
 
 
 ### Remarks

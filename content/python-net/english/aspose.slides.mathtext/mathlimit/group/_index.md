@@ -8,7 +8,7 @@ weight: 80
 ---
 
 
-## group {#}
+## group(self) {#}
 Places this element in a group using a bottom curly bracket
 
 ### Returns
@@ -24,7 +24,7 @@ def group(self):
 
 
 
-## group {#char-mathtopbotpositions-mathtopbotpositions}
+## group(self, character, position, vertical_justification) {#char-mathtopbotpositions-mathtopbotpositions}
 Places this element in a group using a grouping character such as bottom curly bracket or another
 
 ### Returns

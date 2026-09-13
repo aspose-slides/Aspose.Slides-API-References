@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## write_slide_end {#ihtmlgenerator-islide}
+## write_slide_end(self, generator, slide) {#ihtmlgenerator-islide}
 Called to write html slide footer. Called once per each of slides.
 
 

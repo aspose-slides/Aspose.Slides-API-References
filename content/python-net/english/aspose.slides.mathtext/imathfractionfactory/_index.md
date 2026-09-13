@@ -17,8 +17,8 @@ The IMathFractionFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`create_math_fraction`](/slides/python-net/aspose.slides.mathtext/imathfractionfactory/create_math_fraction/#imathelement-imathelement-mathfractiontypes) | Creates a math fraction |
-| [`create_math_fraction`](/slides/python-net/aspose.slides.mathtext/imathfractionfactory/create_math_fraction/#imathelement-imathelement) | Creates a math fraction |
+| [`create_math_fraction(self, numerator, denominator, fraction_type)`](/slides/python-net/aspose.slides.mathtext/imathfractionfactory/create_math_fraction/#imathelement-imathelement-mathfractiontypes) | Creates a math fraction |
+| [`create_math_fraction(self, numerator, denominator)`](/slides/python-net/aspose.slides.mathtext/imathfractionfactory/create_math_fraction/#imathelement-imathelement) | Creates a math fraction |
 
 
 ### Remarks

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## check_password {#str}
+## check_password(self, password) {#str}
 Checks whether a password is correct for a presentation protected with open password.
 
 ### Returns

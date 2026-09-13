@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## set_write_protection {#str}
+## set_write_protection(self, password) {#str}
 Set write protection for this presentation with specified password.
 
 

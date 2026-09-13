@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#str-str-str}
+## __init__(self, model, api_key, base_url) {#str-str-str}
 Creates an instance of the OpenAI-compatible web client.
 
 

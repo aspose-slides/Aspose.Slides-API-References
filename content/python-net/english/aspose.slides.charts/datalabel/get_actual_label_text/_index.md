@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## get_actual_label_text {#}
+## get_actual_label_text(self) {#}
 Returns actual label text based on DataLabelFormat settings or TextFrameForOverriding.Text value.
 
 ### Returns

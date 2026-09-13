@@ -8,7 +8,7 @@ weight: 320
 ---
 
 
-## insert_table {#int-float-float-listfloat-listfloat}
+## insert_table(self, index, x, y, column_widths, row_heights) {#int-float-float-listfloat-listfloat}
 Creates a new table and inserts it into the shape collection at the specified index.
 
 ### Returns

@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## set_all_headers_text {#str}
+## set_all_headers_text(self, text) {#str}
 Sets text to all header placeholders, including notes master, notes slides and handout master.
 
 

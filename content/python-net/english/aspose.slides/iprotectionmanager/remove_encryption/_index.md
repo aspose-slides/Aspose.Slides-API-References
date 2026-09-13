@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## remove_encryption {#}
+## remove_encryption(self) {#}
 Removes the encryption.
 
 

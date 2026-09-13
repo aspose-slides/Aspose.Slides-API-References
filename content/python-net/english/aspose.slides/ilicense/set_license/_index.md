@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## set_license {#str}
+## set_license(self, license_name) {#str}
 Licenses the component.
 
 
@@ -51,7 +51,7 @@ Tries to find the license in the following locations:
 2. An embedded resource in the client's calling assembly.
 
 
-## set_license {#iorawiobase}
+## set_license(self, stream) {#iorawiobase}
 Licenses the component.
 
 

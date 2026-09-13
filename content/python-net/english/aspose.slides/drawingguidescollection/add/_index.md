@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#orientation-float}
+## add(self, orientation, position) {#orientation-float}
 Adds the drawing guide at the end of the collection.
 
 

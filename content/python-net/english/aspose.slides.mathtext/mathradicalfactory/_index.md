@@ -17,13 +17,13 @@ The MathRadicalFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides.mathtext/mathradicalfactory/__init__/#) |  |
+| [`__init__(self)`](/slides/python-net/aspose.slides.mathtext/mathradicalfactory/__init__/#) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [`create_math_radical`](/slides/python-net/aspose.slides.mathtext/mathradicalfactory/create_math_radical/#imathelement-imathelement) | Creates a math radical |
+| [`create_math_radical(self, base_argument, degree_argument)`](/slides/python-net/aspose.slides.mathtext/mathradicalfactory/create_math_radical/#imathelement-imathelement) | Creates a math radical |
 
 
 ### Remarks

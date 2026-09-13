@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## remove {#icomment}
+## remove(self, comment) {#icomment}
 Removes the first occurrence of the specified comment in a collection.
 
 

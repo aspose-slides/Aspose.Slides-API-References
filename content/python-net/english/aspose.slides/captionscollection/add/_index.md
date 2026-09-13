@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#str-str}
+## add(self, label, file_path) {#str-str}
 Adds WebVTT closed captions to the end of the collection.
 
 ### Returns
@@ -36,7 +36,7 @@ def add(self, label, file_path):
 | **RuntimeError(Proxy error(ArgumentException))** | Thrown if `file_path` is empty. |
 
 
-## add {#str-iorawiobase}
+## add(self, label, stream) {#str-iorawiobase}
 Adds WebVTT closed captions to the end of the collection from a stream.
 
 ### Returns

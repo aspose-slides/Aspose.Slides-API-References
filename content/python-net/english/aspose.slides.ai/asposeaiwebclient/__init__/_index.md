@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#}
+## __init__(self) {#}
 Creates an instance of the Aspose AI web client that connects to the default Aspose LLM endpoint.
             This is the client used by the parameterless **SlidesAIAgent.#ctor** constructor, so creating
             it explicitly is only required when passing the client to the **Aspose.Slides.AI.SlidesAIAgent.#ctor(Aspose.Slides.A**
@@ -22,7 +22,7 @@ def __init__(self):
 
 
 
-## __init__ {#str}
+## __init__(self, url) {#str}
 Creates an instance of the Aspose AI web client that connects to a custom endpoint URL. Use this
             overload when you have a URL provided by the Aspose.Slides team; otherwise, use the
             **AsposeAIWebClient.#ctor** overload with the default URL.

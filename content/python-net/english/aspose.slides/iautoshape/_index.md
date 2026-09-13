@@ -61,18 +61,18 @@ The IAutoShape type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`get_image`](/slides/python-net/aspose.slides/iautoshape/get_image/#) |  |
-| [`get_image`](/slides/python-net/aspose.slides/iautoshape/get_image/#shapethumbnailbounds-float-float) |  |
-| [`write_as_svg`](/slides/python-net/aspose.slides/iautoshape/write_as_svg/#iorawiobase) |  |
-| [`write_as_svg`](/slides/python-net/aspose.slides/iautoshape/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) |  |
-| [`add_text_frame`](/slides/python-net/aspose.slides/iautoshape/add_text_frame/#str) | Adds a new TextFrame to a shape.<br/>            If shape already has TextFrame then simply changes its text. |
-| [`get_geometry_paths`](/slides/python-net/aspose.slides/iautoshape/get_geometry_paths/#) |  |
-| [`set_geometry_path`](/slides/python-net/aspose.slides/iautoshape/set_geometry_path/#igeometrypath) |  |
-| [`set_geometry_paths`](/slides/python-net/aspose.slides/iautoshape/set_geometry_paths/#listigeometrypath) |  |
-| [`create_shape_elements`](/slides/python-net/aspose.slides/iautoshape/create_shape_elements/#) |  |
-| [`add_placeholder`](/slides/python-net/aspose.slides/iautoshape/add_placeholder/#iplaceholder) |  |
-| [`remove_placeholder`](/slides/python-net/aspose.slides/iautoshape/remove_placeholder/#) |  |
-| [`get_base_placeholder`](/slides/python-net/aspose.slides/iautoshape/get_base_placeholder/#) |  |
+| [`get_image(self)`](/slides/python-net/aspose.slides/iautoshape/get_image/#) |  |
+| [`get_image(self, bounds, scale_x, scale_y)`](/slides/python-net/aspose.slides/iautoshape/get_image/#shapethumbnailbounds-float-float) |  |
+| [`write_as_svg(self, stream)`](/slides/python-net/aspose.slides/iautoshape/write_as_svg/#iorawiobase) |  |
+| [`write_as_svg(self, stream, svg_options)`](/slides/python-net/aspose.slides/iautoshape/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) |  |
+| [`add_text_frame(self, text)`](/slides/python-net/aspose.slides/iautoshape/add_text_frame/#str) | Adds a new TextFrame to a shape.<br/>            If shape already has TextFrame then simply changes its text. |
+| [`get_geometry_paths(self)`](/slides/python-net/aspose.slides/iautoshape/get_geometry_paths/#) |  |
+| [`set_geometry_path(self, geometry_path)`](/slides/python-net/aspose.slides/iautoshape/set_geometry_path/#igeometrypath) |  |
+| [`set_geometry_paths(self, geometry_paths)`](/slides/python-net/aspose.slides/iautoshape/set_geometry_paths/#listigeometrypath) |  |
+| [`create_shape_elements(self)`](/slides/python-net/aspose.slides/iautoshape/create_shape_elements/#) |  |
+| [`add_placeholder(self, placeholder_to_copy_from)`](/slides/python-net/aspose.slides/iautoshape/add_placeholder/#iplaceholder) |  |
+| [`remove_placeholder(self)`](/slides/python-net/aspose.slides/iautoshape/remove_placeholder/#) |  |
+| [`get_base_placeholder(self)`](/slides/python-net/aspose.slides/iautoshape/get_base_placeholder/#) |  |
 
 
 ### See Also

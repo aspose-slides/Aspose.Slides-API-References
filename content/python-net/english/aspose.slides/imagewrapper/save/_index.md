@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## save {#str}
+## save(self, file_name) {#str}
 Saves Image to the specified file
 
 
@@ -23,7 +23,7 @@ def save(self, file_name):
 | file_name | **str** |  |
 
 
-## save {#iorawiobase-ppimageformat}
+## save(self, stream, image_format) {#iorawiobase-ppimageformat}
 Saves the Image to the specified stream in the specified format.
 
 
@@ -39,7 +39,7 @@ def save(self, stream, image_format):
 | image_format | [`PPImageFormat`](/slides/python-net/aspose.slides/ppimageformat) |  |
 
 
-## save {#str-ppimageformat}
+## save(self, file_name, image_format) {#str-ppimageformat}
 Saves the Image to the specified file in the specified format.
 
 

@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## is_bar_3d_chart {#charttype}
+## is_bar_3d_chart(chart_type) {#charttype}
 Return true if chartType is one of bar3DChart subtypes (3D columns or bars).
 
 

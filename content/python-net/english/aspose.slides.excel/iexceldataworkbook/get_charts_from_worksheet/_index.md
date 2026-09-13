@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## get_charts_from_worksheet {#str}
+## get_charts_from_worksheet(self, worksheet_name) {#str}
 Retrieves a dictionary containing the indexes and names of all charts in the specified worksheet of an Excel workbook.
 
 ### Returns

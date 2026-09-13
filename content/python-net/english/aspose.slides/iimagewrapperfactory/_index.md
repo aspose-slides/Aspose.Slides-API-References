@@ -17,9 +17,9 @@ The IImageWrapperFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`create_image_wrapper`](/slides/python-net/aspose.slides/iimagewrapperfactory/create_image_wrapper/#iimage) | Initializes a new instance of the ImageWrapper class from the specified existing image. |
-| [`create_image_wrapper`](/slides/python-net/aspose.slides/iimagewrapperfactory/create_image_wrapper/#iorawiobase) | Initializes a new instance of the ImageWrapper class from the specified data stream. |
-| [`create_image_wrapper`](/slides/python-net/aspose.slides/iimagewrapperfactory/create_image_wrapper/#str) | Initializes a new instance of the ImageWrapper class from the specified file. |
+| [`create_image_wrapper(self, image)`](/slides/python-net/aspose.slides/iimagewrapperfactory/create_image_wrapper/#iimage) | Initializes a new instance of the ImageWrapper class from the specified existing image. |
+| [`create_image_wrapper(self, stream)`](/slides/python-net/aspose.slides/iimagewrapperfactory/create_image_wrapper/#iorawiobase) | Initializes a new instance of the ImageWrapper class from the specified data stream. |
+| [`create_image_wrapper(self, file_name)`](/slides/python-net/aspose.slides/iimagewrapperfactory/create_image_wrapper/#str) | Initializes a new instance of the ImageWrapper class from the specified file. |
 
 
 ### See Also

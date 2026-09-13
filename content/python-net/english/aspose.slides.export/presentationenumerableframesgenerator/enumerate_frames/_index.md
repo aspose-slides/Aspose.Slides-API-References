@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## enumerate_frames {#iterableislide}
+## enumerate_frames(self, slides) {#iterableislide}
 
 
 

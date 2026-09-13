@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## set_default_master_notes_slide {#}
+## set_default_master_notes_slide(self) {#}
 Sets defalut master notes slide for related notes slide.
 
 ### Returns

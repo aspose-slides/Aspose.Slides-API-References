@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## get_object_storing_location {#int-bytes-str-str-str}
+## get_object_storing_location(self, id, entity_data, semantic_name, content_type, recomended_extension) {#int-bytes-str-str-str}
 
 
 

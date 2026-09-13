@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## get_fonts {#}
+## get_fonts(self) {#}
 Returns the fonts used in the presentation
 
 ### Returns

@@ -8,7 +8,7 @@ weight: 90
 ---
 
 
-## get_sensitivity_labels {#}
+## get_sensitivity_labels(self) {#}
 Gets an array of sensitivity labels from the custom document properties (Microsoft Information Protection SDK Metadata).
 
 

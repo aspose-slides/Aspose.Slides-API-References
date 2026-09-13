@@ -8,7 +8,7 @@ weight: 100
 ---
 
 
-## write_as_svg {#iorawiobase}
+## write_as_svg(self, stream) {#iorawiobase}
 Saves the slide content as an SVG file.
 
 
@@ -23,7 +23,7 @@ def write_as_svg(self, stream):
 | stream | **io.RawIOBase** | Target stream |
 
 
-## write_as_svg {#iorawiobase-asposeslidesexportisvgoptions}
+## write_as_svg(self, stream, svg_options) {#iorawiobase-asposeslidesexportisvgoptions}
 Saves the slide content as an SVG file.
 
 

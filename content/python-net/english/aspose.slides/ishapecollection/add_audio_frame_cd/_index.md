@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add_audio_frame_cd {#float-float-float-float}
+## add_audio_frame_cd(self, x, y, width, height) {#float-float-float-float}
 Creates a new audio frame linked to a CD track and adds it to the end of the shape collection.
 
 ### Returns

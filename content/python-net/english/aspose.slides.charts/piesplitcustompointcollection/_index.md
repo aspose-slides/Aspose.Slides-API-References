@@ -32,7 +32,7 @@ Returns chart data point for specified index.
 
 | Method | Description |
 | :- | :- |
-| [`add`](/slides/python-net/aspose.slides.charts/piesplitcustompointcollection/add/#int) | Adds data point by its index in parent series points collection. |
+| [`add(self, data_point_index)`](/slides/python-net/aspose.slides.charts/piesplitcustompointcollection/add/#int) | Adds data point by its index in parent series points collection. |
 
 
 ### See Also

@@ -17,8 +17,8 @@ The IParagraphFactory type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`create_paragraph`](/slides/python-net/aspose.slides/iparagraphfactory/create_paragraph/#) | Creates a new empty paragraph. |
-| [`create_paragraph`](/slides/python-net/aspose.slides/iparagraphfactory/create_paragraph/#iparagraph) | Creates a new paragraph with specified paragraph data using. |
+| [`create_paragraph(self)`](/slides/python-net/aspose.slides/iparagraphfactory/create_paragraph/#) | Creates a new empty paragraph. |
+| [`create_paragraph(self, paragraph)`](/slides/python-net/aspose.slides/iparagraphfactory/create_paragraph/#iparagraph) | Creates a new paragraph with specified paragraph data using. |
 
 
 ### Remarks

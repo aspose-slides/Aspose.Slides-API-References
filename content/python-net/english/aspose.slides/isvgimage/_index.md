@@ -26,7 +26,7 @@ The ISvgImage type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`write_as_emf`](/slides/python-net/aspose.slides/isvgimage/write_as_emf/#iorawiobase) | Saves the SVG image as an EMF file. |
+| [`write_as_emf(self, stream)`](/slides/python-net/aspose.slides/isvgimage/write_as_emf/#iorawiobase) | Saves the SVG image as an EMF file. |
 
 
 ### See Also

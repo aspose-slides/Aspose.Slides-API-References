@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_command_effect {#}
+## create_command_effect(self) {#}
 Creates command effect.
 
 ### Returns

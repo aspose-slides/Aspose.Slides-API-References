@@ -8,7 +8,7 @@ weight: 150
 ---
 
 
-## add_gray_scale_effect {#}
+## add_gray_scale_effect(self) {#}
 Adds the new Gray Scale effect to the end of a collection.
 
 ### Returns

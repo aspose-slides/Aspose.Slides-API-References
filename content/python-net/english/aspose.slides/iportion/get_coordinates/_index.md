@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## get_coordinates {#}
+## get_coordinates(self) {#}
 Get coordinates of the beginning of the portion. The X coordinate of point represents the 
             portion beginning from the first character including left side bearing. The Y coordinate 
             includes top side bearing.

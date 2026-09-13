@@ -28,7 +28,7 @@ The IDoubleChartValue type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`to_double`](/slides/python-net/aspose.slides.charts/idoublechartvalue/to_double/#) | Converst to double. |
+| [`to_double(self)`](/slides/python-net/aspose.slides.charts/idoublechartvalue/to_double/#) | Converst to double. |
 
 
 ### See Also

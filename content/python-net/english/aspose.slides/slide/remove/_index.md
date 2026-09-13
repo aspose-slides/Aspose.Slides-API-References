@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## remove {#}
+## remove(self) {#}
 Removes slide from presentation.
 
 

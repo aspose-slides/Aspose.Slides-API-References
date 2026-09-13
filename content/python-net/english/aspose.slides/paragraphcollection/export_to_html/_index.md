@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## export_to_html {#int-int-asposeslidesexportitexttohtmlconversionoptions}
+## export_to_html(self, first_paragraph_index, paragraphs_count, options) {#int-int-asposeslidesexportitexttohtmlconversionoptions}
 Converts specifying paragraphs to the HTML and returns it as String object.
 
 ### Returns

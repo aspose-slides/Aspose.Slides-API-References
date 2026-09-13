@@ -8,7 +8,7 @@ weight: 180
 ---
 
 
-## clear {#}
+## clear(self) {#}
 Removes all shapes from the shape collection.
 
 

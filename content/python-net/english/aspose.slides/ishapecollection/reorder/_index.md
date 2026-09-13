@@ -8,7 +8,7 @@ weight: 370
 ---
 
 
-## reorder {#int-ishape}
+## reorder(self, index, shape) {#int-ishape}
 Moves the specified shape to a new position within the shape collection.
 
 
@@ -24,7 +24,7 @@ def reorder(self, index, shape):
 | shape | [`IShape`](/slides/python-net/aspose.slides/ishape) | The [`IShape`](/slides/python-net/aspose.slides/ishape) to move within the collection. |
 
 
-## reorder {#int-listishape}
+## reorder(self, index, shapes) {#int-listishape}
 Moves the specified shapes within the shape collection, placing them starting at the given index.
 
 

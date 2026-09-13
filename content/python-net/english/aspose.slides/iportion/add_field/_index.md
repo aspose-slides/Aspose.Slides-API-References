@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add_field {#ifieldtype}
+## add_field(self, field_type) {#ifieldtype}
 Converts this portion to the automaticaly updated field.
 
 
@@ -23,7 +23,7 @@ def add_field(self, field_type):
 | field_type | [`IFieldType`](/slides/python-net/aspose.slides/ifieldtype) | Type of field [`IFieldType`](/slides/python-net/aspose.slides/ifieldtype) |
 
 
-## add_field {#str}
+## add_field(self, internal_string) {#str}
 Converts this portion to the automaticaly updated field.
 
 

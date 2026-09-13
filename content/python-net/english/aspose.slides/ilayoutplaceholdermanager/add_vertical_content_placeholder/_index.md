@@ -8,7 +8,7 @@ weight: 90
 ---
 
 
-## add_vertical_content_placeholder {#float-float-float-float}
+## add_vertical_content_placeholder(self, x, y, width, height) {#float-float-float-float}
 Adds a new placeholder shape to the layout slide to hold content, such as a picture, table, media 
             or text in a vertical direction.
 

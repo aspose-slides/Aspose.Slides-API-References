@@ -43,12 +43,12 @@ The IMasterSlide type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`apply_external_theme_to_depending_slides`](/slides/python-net/aspose.slides/imasterslide/apply_external_theme_to_depending_slides/#str) | Creates a new master slide based on the current one, applying an external theme to it <br/>            and applies the created master slide to all dependent slides. |
-| [`get_depending_slides`](/slides/python-net/aspose.slides/imasterslide/get_depending_slides/#) | Returns an array with all slides, which depend on this master slide. |
-| [`find_shape_by_alt_text`](/slides/python-net/aspose.slides/imasterslide/find_shape_by_alt_text/#str) |  |
-| [`join_portions_with_same_formatting`](/slides/python-net/aspose.slides/imasterslide/join_portions_with_same_formatting/#) |  |
-| [`equals`](/slides/python-net/aspose.slides/imasterslide/equals/#ibaseslide) |  |
-| [`create_theme_effective`](/slides/python-net/aspose.slides/imasterslide/create_theme_effective/#) |  |
+| [`apply_external_theme_to_depending_slides(self, fname)`](/slides/python-net/aspose.slides/imasterslide/apply_external_theme_to_depending_slides/#str) | Creates a new master slide based on the current one, applying an external theme to it <br/>            and applies the created master slide to all dependent slides. |
+| [`get_depending_slides(self)`](/slides/python-net/aspose.slides/imasterslide/get_depending_slides/#) | Returns an array with all slides, which depend on this master slide. |
+| [`find_shape_by_alt_text(self, alt_text)`](/slides/python-net/aspose.slides/imasterslide/find_shape_by_alt_text/#str) |  |
+| [`join_portions_with_same_formatting(self)`](/slides/python-net/aspose.slides/imasterslide/join_portions_with_same_formatting/#) |  |
+| [`equals(self, slide)`](/slides/python-net/aspose.slides/imasterslide/equals/#ibaseslide) |  |
+| [`create_theme_effective(self)`](/slides/python-net/aspose.slides/imasterslide/create_theme_effective/#) |  |
 
 
 ### See Also

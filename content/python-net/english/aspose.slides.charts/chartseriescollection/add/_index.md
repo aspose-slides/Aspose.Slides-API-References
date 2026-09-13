@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#charttype}
+## add(self, type) {#charttype}
 Creates new chart series and adds it to the collection.
 
 ### Returns
@@ -28,7 +28,7 @@ def add(self, type):
 | type | [`ChartType`](/slides/python-net/aspose.slides.charts/charttype) | Type of series |
 
 
-## add {#ichartdatacell-charttype}
+## add(self, cell_with_series_name, type) {#ichartdatacell-charttype}
 Creates new chart series from [`ChartDataCell`](/slides/python-net/aspose.slides.charts/chartdatacell) and adds it to the collection.
 
 ### Returns
@@ -54,7 +54,7 @@ If chart series careted from same cell already in collection
             then method adds nothing and returns it's index.
 
 
-## add {#ichartcellcollection-charttype}
+## add(self, cells_with_series_name, type) {#ichartcellcollection-charttype}
 Creates new chart series from [`ChartCellCollection`](/slides/python-net/aspose.slides.charts/chartcellcollection) and adds it to the collection.
 
 ### Returns
@@ -80,7 +80,7 @@ If chart series careted from same cell already in collection
             then method adds nothing and returns it's index.
 
 
-## add {#str-charttype}
+## add(self, name, type) {#str-charttype}
 Creates new chart series from value and adds it to the collection.
 
 ### Returns

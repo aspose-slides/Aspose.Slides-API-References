@@ -17,7 +17,7 @@ The VbaReferenceOleTypeLib type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides.vba/vbareferenceoletypelib/__init__/#str-str) | This constructor creates new OLE Automation type library reference. |
+| [`__init__(self, name, libid)`](/slides/python-net/aspose.slides.vba/vbareferenceoletypelib/__init__/#str-str) | This constructor creates new OLE Automation type library reference. |
 
 ## Properties
 

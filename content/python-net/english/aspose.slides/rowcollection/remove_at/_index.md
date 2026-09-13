@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## remove_at {#int-bool}
+## remove_at(self, first_row_index, with_attached_rows) {#int-bool}
 Removes a row at the specified position from a table.
 
 

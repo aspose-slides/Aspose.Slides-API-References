@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## index_of {#iportion}
+## index_of(self, item) {#iportion}
 Determines the index of a specific portion in collection.
 
 ### Returns

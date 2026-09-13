@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## disable_blur_effect {#}
+## disable_blur_effect(self) {#}
 Disables blur effect.
 
 

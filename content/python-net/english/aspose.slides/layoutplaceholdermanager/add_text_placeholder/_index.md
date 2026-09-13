@@ -8,7 +8,7 @@ weight: 80
 ---
 
 
-## add_text_placeholder {#float-float-float-float}
+## add_text_placeholder(self, x, y, width, height) {#float-float-float-float}
 Adds a new placeholder shape to the layout slide to hold text content.
 
 ### Returns

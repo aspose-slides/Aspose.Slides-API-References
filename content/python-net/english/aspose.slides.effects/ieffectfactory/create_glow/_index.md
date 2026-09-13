@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## create_glow {#}
+## create_glow(self) {#}
 Creates Glow effect.
 
 ### Returns

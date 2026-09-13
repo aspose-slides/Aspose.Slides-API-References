@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## remove {#str}
+## remove(self, name) {#str}
 Removes the tag with a specified name from the collection.
 
 

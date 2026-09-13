@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## format_shape {#isvgshape-ishape}
+## format_shape(self, svg_shape, shape) {#isvgshape-ishape}
 
 
 

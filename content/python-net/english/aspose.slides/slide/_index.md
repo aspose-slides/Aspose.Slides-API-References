@@ -42,24 +42,24 @@ The Slide type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`join_portions_with_same_formatting`](/slides/python-net/aspose.slides/slide/join_portions_with_same_formatting/#) | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
-| [`join_portions_with_same_formatting`](/slides/python-net/aspose.slides/slide/join_portions_with_same_formatting/#ishapecollection) | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
-| [`get_image`](/slides/python-net/aspose.slides/slide/get_image/#float-float) | Returns a Thumbnail Image object with custom scaling. |
-| [`get_image`](/slides/python-net/aspose.slides/slide/get_image/#) | Returns a Thumbnail Image object (20% of real size). |
-| [`get_image`](/slides/python-net/aspose.slides/slide/get_image/#asposepydrawingsize) | Returns a Thumbnail Image object with specified size. |
-| [`get_image`](/slides/python-net/aspose.slides/slide/get_image/#asposeslidesexportitiffoptions) | Returns a Thumbnail tiff image object with specified parameters. |
-| [`get_image`](/slides/python-net/aspose.slides/slide/get_image/#asposeslidesexportirenderingoptions) | Returns a Thumbnail Image object. |
-| [`get_image`](/slides/python-net/aspose.slides/slide/get_image/#asposeslidesexportirenderingoptions-float-float) | Returns a Thumbnail Image object with custom scaling. |
-| [`get_image`](/slides/python-net/aspose.slides/slide/get_image/#asposeslidesexportirenderingoptions-asposepydrawingsize) | Returns a Thumbnail Image object with specified size. |
-| [`write_as_svg`](/slides/python-net/aspose.slides/slide/write_as_svg/#iorawiobase) | Saves the slide content as an SVG file. |
-| [`write_as_svg`](/slides/python-net/aspose.slides/slide/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) | Saves the slide content as an SVG file. |
-| [`equals`](/slides/python-net/aspose.slides/slide/equals/#ibaseslide) | Determines whether the two IBaseSlide instances are equal.<br/>            Returning value is calculated based on slide's structure and static content.<br/>            Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
-| [`create_theme_effective`](/slides/python-net/aspose.slides/slide/create_theme_effective/#) | Returns an effective theme for this slide. |
-| [`find_shape_by_alt_text`](/slides/python-net/aspose.slides/slide/find_shape_by_alt_text/#str) | Finds first occurrence of a shape with the specified alternative text. |
-| [`write_as_emf`](/slides/python-net/aspose.slides/slide/write_as_emf/#iorawiobase) | Saves the slide content as an EMF file. |
-| [`remove`](/slides/python-net/aspose.slides/slide/remove/#) | Removes slide from presentation. |
-| [`reset`](/slides/python-net/aspose.slides/slide/reset/#) | Resets position, size and formatting of every shape that has a prototype on LayoutSlide. |
-| [`get_slide_comments`](/slides/python-net/aspose.slides/slide/get_slide_comments/#icommentauthor) | Returns all slide comments added by specific author. |
+| [`join_portions_with_same_formatting(self)`](/slides/python-net/aspose.slides/slide/join_portions_with_same_formatting/#) | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
+| [`join_portions_with_same_formatting(self, collection)`](/slides/python-net/aspose.slides/slide/join_portions_with_same_formatting/#ishapecollection) | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
+| [`get_image(self, scale_x, scale_y)`](/slides/python-net/aspose.slides/slide/get_image/#float-float) | Returns a Thumbnail Image object with custom scaling. |
+| [`get_image(self)`](/slides/python-net/aspose.slides/slide/get_image/#) | Returns a Thumbnail Image object (20% of real size). |
+| [`get_image(self, image_size)`](/slides/python-net/aspose.slides/slide/get_image/#asposepydrawingsize) | Returns a Thumbnail Image object with specified size. |
+| [`get_image(self, options)`](/slides/python-net/aspose.slides/slide/get_image/#asposeslidesexportitiffoptions) | Returns a Thumbnail tiff image object with specified parameters. |
+| [`get_image(self, options)`](/slides/python-net/aspose.slides/slide/get_image/#asposeslidesexportirenderingoptions) | Returns a Thumbnail Image object. |
+| [`get_image(self, options, scale_x, scale_y)`](/slides/python-net/aspose.slides/slide/get_image/#asposeslidesexportirenderingoptions-float-float) | Returns a Thumbnail Image object with custom scaling. |
+| [`get_image(self, options, image_size)`](/slides/python-net/aspose.slides/slide/get_image/#asposeslidesexportirenderingoptions-asposepydrawingsize) | Returns a Thumbnail Image object with specified size. |
+| [`write_as_svg(self, stream)`](/slides/python-net/aspose.slides/slide/write_as_svg/#iorawiobase) | Saves the slide content as an SVG file. |
+| [`write_as_svg(self, stream, svg_options)`](/slides/python-net/aspose.slides/slide/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) | Saves the slide content as an SVG file. |
+| [`equals(self, slide)`](/slides/python-net/aspose.slides/slide/equals/#ibaseslide) | Determines whether the two IBaseSlide instances are equal.<br/>            Returning value is calculated based on slide's structure and static content.<br/>            Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
+| [`create_theme_effective(self)`](/slides/python-net/aspose.slides/slide/create_theme_effective/#) | Returns an effective theme for this slide. |
+| [`find_shape_by_alt_text(self, alt_text)`](/slides/python-net/aspose.slides/slide/find_shape_by_alt_text/#str) | Finds first occurrence of a shape with the specified alternative text. |
+| [`write_as_emf(self, stream)`](/slides/python-net/aspose.slides/slide/write_as_emf/#iorawiobase) | Saves the slide content as an EMF file. |
+| [`remove(self)`](/slides/python-net/aspose.slides/slide/remove/#) | Removes slide from presentation. |
+| [`reset(self)`](/slides/python-net/aspose.slides/slide/reset/#) | Resets position, size and formatting of every shape that has a prototype on LayoutSlide. |
+| [`get_slide_comments(self, author)`](/slides/python-net/aspose.slides/slide/get_slide_comments/#icommentauthor) | Returns all slide comments added by specific author. |
 
 
 ### See Also

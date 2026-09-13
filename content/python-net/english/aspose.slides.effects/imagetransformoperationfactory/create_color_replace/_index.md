@@ -8,7 +8,7 @@ weight: 120
 ---
 
 
-## create_color_replace {#}
+## create_color_replace(self) {#}
 Creates Color replace effect.
 
 ### Returns

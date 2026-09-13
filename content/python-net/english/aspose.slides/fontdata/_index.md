@@ -17,7 +17,7 @@ The FontData type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides/fontdata/__init__/#str) | Creates a new FontData object with the specified font name. |
+| [`__init__(self, font_name)`](/slides/python-net/aspose.slides/fontdata/__init__/#str) | Creates a new FontData object with the specified font name. |
 
 ## Properties
 
@@ -29,7 +29,7 @@ The FontData type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`get_font_name`](/slides/python-net/aspose.slides/fontdata/get_font_name/#asposeslidesthemeithemeeffectivedata) | Returns the font name, replacing theme referrence with an actual font used. |
+| [`get_font_name(self, theme)`](/slides/python-net/aspose.slides/fontdata/get_font_name/#asposeslidesthemeithemeeffectivedata) | Returns the font name, replacing theme referrence with an actual font used. |
 
 
 ### See Also

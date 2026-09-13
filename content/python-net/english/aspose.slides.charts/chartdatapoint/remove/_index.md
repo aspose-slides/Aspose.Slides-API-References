@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## remove {#}
+## remove(self) {#}
 Removes DataPoint from chart series.
 
 

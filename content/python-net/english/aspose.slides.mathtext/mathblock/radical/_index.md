@@ -8,7 +8,7 @@ weight: 210
 ---
 
 
-## radical {#imathelement}
+## radical(self, degree) {#imathelement}
 Specifies the mathematical root of the given degree from the specified argument.
 
 ### Returns
@@ -28,7 +28,7 @@ def radical(self, degree):
 | degree | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Argument of Radical |
 
 
-## radical {#str}
+## radical(self, degree) {#str}
 Specifies the mathematical root of the given degree from the specified argument.
 
 ### Returns

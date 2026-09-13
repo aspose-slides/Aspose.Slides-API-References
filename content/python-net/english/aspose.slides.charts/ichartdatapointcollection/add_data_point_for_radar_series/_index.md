@@ -8,7 +8,7 @@ weight: 110
 ---
 
 
-## add_data_point_for_radar_series {#ichartdatacell}
+## add_data_point_for_radar_series(self, value) {#ichartdatacell}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chartType is one of Radar subtypes (see also ChartTypeCharacterizer.IsChartTypeRadar(ChartType) method).
 
@@ -29,7 +29,7 @@ def add_data_point_for_radar_series(self, value):
 | value | [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell) | Data point Value |
 
 
-## add_data_point_for_radar_series {#float}
+## add_data_point_for_radar_series(self, value) {#float}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chartType is one of Radar subtypes (see also ChartTypeCharacterizer.IsChartTypeRadar(ChartType) method).
 

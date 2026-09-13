@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_math_fraction {#imathelement-imathelement}
+## create_math_fraction(self, numerator, denominator) {#imathelement-imathelement}
 Creates a math fraction
 
 ### Returns
@@ -29,7 +29,7 @@ def create_math_fraction(self, numerator, denominator):
 | denominator | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Denominator |
 
 
-## create_math_fraction {#imathelement-imathelement-mathfractiontypes}
+## create_math_fraction(self, numerator, denominator, fraction_type) {#imathelement-imathelement-mathfractiontypes}
 Creates a math fraction
 
 ### Returns

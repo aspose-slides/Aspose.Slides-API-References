@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## set_date_time_and_child_date_times_visibility {#bool}
+## set_date_time_and_child_date_times_visibility(self, is_visible) {#bool}
 Changes master slide date-time placeholder and all child date-time placeholders visibility.
             Child placeholders mean placeholders are contained on depending layout slides and depending slides.
             Depending layout slides and slides use and depend on master slide.

@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add_text_frame {#str}
+## add_text_frame(self, text) {#str}
 Adds a new TextFrame to a shape.
             If shape already has TextFrame then simply changes its text.
 

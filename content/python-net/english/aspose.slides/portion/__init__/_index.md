@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#}
+## __init__(self) {#}
 Initializes a new instance of the Portion class.
 
 
@@ -19,7 +19,7 @@ def __init__(self):
 
 
 
-## __init__ {#str}
+## __init__(self, str) {#str}
 Initializes a new instance of the Portion class.
 
 
@@ -34,7 +34,7 @@ def __init__(self, str):
 | str | **str** |  |
 
 
-## __init__ {#portion}
+## __init__(self, portion) {#portion}
 Initializes a new instance of the Portion class.
 
 

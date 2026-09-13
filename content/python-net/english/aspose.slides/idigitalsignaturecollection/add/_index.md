@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#idigitalsignature}
+## add(self, digital_signature) {#idigitalsignature}
 Adds the signature at the end of collection.
 
 

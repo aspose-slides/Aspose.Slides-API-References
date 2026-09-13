@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#iportion}
+## add(self, value) {#iportion}
 Adds a Portion to the end of collection.
 
 

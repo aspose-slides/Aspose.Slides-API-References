@@ -8,7 +8,7 @@ weight: 160
 ---
 
 
-## get_effective {#}
+## get_effective(self) {#}
 Gets effective effect formatting data with the inheritance applied.
 
 ### Returns

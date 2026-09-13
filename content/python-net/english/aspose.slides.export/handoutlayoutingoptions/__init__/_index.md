@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#}
+## __init__(self) {#}
 Initializes the default values.
 
 

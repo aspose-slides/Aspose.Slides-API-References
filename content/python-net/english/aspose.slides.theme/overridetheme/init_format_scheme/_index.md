@@ -8,7 +8,7 @@ weight: 90
 ---
 
 
-## init_format_scheme {#}
+## init_format_scheme(self) {#}
 Init FormatScheme with new object for overriding FormatScheme of InheritedTheme.
 
 

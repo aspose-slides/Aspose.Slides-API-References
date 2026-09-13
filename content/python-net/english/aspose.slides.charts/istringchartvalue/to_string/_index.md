@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## to_string {#}
+## to_string(self) {#}
 Returns string representation.
 
 ### Returns

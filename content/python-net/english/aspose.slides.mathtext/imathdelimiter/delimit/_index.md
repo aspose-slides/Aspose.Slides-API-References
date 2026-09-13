@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## delimit {#char}
+## delimit(self, separator_character) {#char}
 Delimits arguments using the specified delimiter character
 
 ### Returns

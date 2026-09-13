@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## create_property_effect {#}
+## create_property_effect(self) {#}
 Creates property effect.
 
 ### Returns

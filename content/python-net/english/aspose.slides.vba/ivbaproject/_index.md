@@ -26,7 +26,7 @@ The IVbaProject type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`to_binary`](/slides/python-net/aspose.slides.vba/ivbaproject/to_binary/#) | Returns the binary representation of the VBA project as OLE container.<br/>            Read-only **int**[]. |
+| [`to_binary(self)`](/slides/python-net/aspose.slides.vba/ivbaproject/to_binary/#) | Returns the binary representation of the VBA project as OLE container.<br/>            Read-only **int**[]. |
 
 
 ### See Also

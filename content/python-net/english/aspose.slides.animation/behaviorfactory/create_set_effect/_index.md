@@ -8,7 +8,7 @@ weight: 90
 ---
 
 
-## create_set_effect {#}
+## create_set_effect(self) {#}
 Creates set effect.
 
 ### Returns

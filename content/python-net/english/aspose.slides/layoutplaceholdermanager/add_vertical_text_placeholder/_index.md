@@ -8,7 +8,7 @@ weight: 100
 ---
 
 
-## add_vertical_text_placeholder {#float-float-float-float}
+## add_vertical_text_placeholder(self, x, y, width, height) {#float-float-float-float}
 Adds a new placeholder shape to the layout slide to hold text content in a vertical direction.
 
 ### Returns

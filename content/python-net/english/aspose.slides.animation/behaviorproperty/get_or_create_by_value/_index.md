@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## get_or_create_by_value {#str}
+## get_or_create_by_value(property_value) {#str}
 Looks for existing behavior property by value or creates new custom one with the specified value
 
 ### Returns

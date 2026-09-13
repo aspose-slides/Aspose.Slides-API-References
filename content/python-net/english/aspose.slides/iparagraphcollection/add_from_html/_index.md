@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add_from_html {#str}
+## add_from_html(self, text) {#str}
 Adds text from specified html string to the collection.
 
 
@@ -23,7 +23,7 @@ def add_from_html(self, text):
 | text | **str** | HTML text. |
 
 
-## add_from_html {#str-asposeslidesimportingiexternalresourceresolver-str}
+## add_from_html(self, text, resolver, uri) {#str-asposeslidesimportingiexternalresourceresolver-str}
 Adds text from specified html string to the collection.
 
 

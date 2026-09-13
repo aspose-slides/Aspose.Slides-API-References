@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## get_stream {#}
+## get_stream(self) {#}
 Returns Stream stream for reading.
             Use 'using' or close stream after using.
 

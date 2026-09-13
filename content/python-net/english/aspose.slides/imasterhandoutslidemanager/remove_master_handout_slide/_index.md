@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## remove_master_handout_slide {#}
+## remove_master_handout_slide(self) {#}
 Removes master handout slide.
 
 

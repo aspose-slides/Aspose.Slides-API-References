@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## remove {#}
+## remove(self) {#}
 Removes comment and all its replies from the parent collection.
 
 

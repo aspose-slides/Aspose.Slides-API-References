@@ -17,13 +17,13 @@ The MathSuperscriptElementFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides.mathtext/mathsuperscriptelementfactory/__init__/#) |  |
+| [`__init__(self)`](/slides/python-net/aspose.slides.mathtext/mathsuperscriptelementfactory/__init__/#) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [`create_math_superscript_element`](/slides/python-net/aspose.slides.mathtext/mathsuperscriptelementfactory/create_math_superscript_element/#imathelement-imathelement) | Creates IMathSuperscriptElement |
+| [`create_math_superscript_element(self, base_arg, super_script)`](/slides/python-net/aspose.slides.mathtext/mathsuperscriptelementfactory/create_math_superscript_element/#imathelement-imathelement) | Creates IMathSuperscriptElement |
 
 
 ### Remarks

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#ifontfallbackrule}
+## add(self, source_rule) {#ifontfallbackrule}
 Add a new FallBack rule to the end of the collection.
 
 

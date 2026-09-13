@@ -8,7 +8,7 @@ weight: 90
 ---
 
 
-## add_math_shape {#float-float-float-float}
+## add_math_shape(self, x, y, width, height) {#float-float-float-float}
 Creates a new rectangle auto shape to host mathematical content and adds it to the
             end of the shape collection.
 

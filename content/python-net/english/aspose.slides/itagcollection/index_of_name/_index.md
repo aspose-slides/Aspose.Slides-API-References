@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## index_of_name {#str}
+## index_of_name(self, name) {#str}
 Returns the zero-based index of the specified key in the collection.
 
 ### Returns

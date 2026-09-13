@@ -17,14 +17,14 @@ The MathLimitFactory type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides.mathtext/mathlimitfactory/__init__/#) |  |
+| [`__init__(self)`](/slides/python-net/aspose.slides.mathtext/mathlimitfactory/__init__/#) |  |
 
 ## Methods
 
 | Method | Description |
 | :- | :- |
-| [`create_math_limit`](/slides/python-net/aspose.slides.mathtext/mathlimitfactory/create_math_limit/#imathelement-imathelement-bool) | Creates IMathLimit |
-| [`create_math_limit`](/slides/python-net/aspose.slides.mathtext/mathlimitfactory/create_math_limit/#imathelement-imathelement) | Creates IMathLimit with limit at the bottom |
+| [`create_math_limit(self, base_arg, limit, upper_limit)`](/slides/python-net/aspose.slides.mathtext/mathlimitfactory/create_math_limit/#imathelement-imathelement-bool) | Creates IMathLimit |
+| [`create_math_limit(self, base_arg, limit)`](/slides/python-net/aspose.slides.mathtext/mathlimitfactory/create_math_limit/#imathelement-imathelement) | Creates IMathLimit with limit at the bottom |
 
 
 ### Remarks

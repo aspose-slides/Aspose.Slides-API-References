@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## remove {#str}
+## remove(self, font_name) {#str}
 Removes the first occurrence of a specific FallBack font from the list.
 
 

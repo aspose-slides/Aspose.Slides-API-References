@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#imathelement}
+## __init__(self, element) {#imathelement}
 Initializes MathDelimiter with the specified element as single base argument
 
 

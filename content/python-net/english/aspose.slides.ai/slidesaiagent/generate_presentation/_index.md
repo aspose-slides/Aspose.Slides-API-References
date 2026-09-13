@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## generate_presentation {#str-presentationcontentamounttype}
+## generate_presentation(self, description, presentation_content_amount) {#str-presentationcontentamounttype}
 Generates a presentation instance from a text description. Provide a topic, ideas, quotes, or text snippets in the required language.
 
 
@@ -43,7 +43,7 @@ The example below uses the default [`AsposeAIWebClient`](/slides/python-net/aspo
 | **RuntimeError(Proxy error(ArgumentException))** | AI chat instruction can't be None or empty. |
 
 
-## generate_presentation {#str-presentationcontentamounttype-ipresentation}
+## generate_presentation(self, description, presentation_content_amount, presentation_template) {#str-presentationcontentamounttype-ipresentation}
 Generates a presentation instance from a text description. Provide a topic, ideas, quotes, or text snippets in the required language.
 
 

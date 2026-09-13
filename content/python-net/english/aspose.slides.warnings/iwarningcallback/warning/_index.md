@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## warning {#iwarninginfo}
+## warning(self, warning) {#iwarninginfo}
 Callback method which receives warning and decides whether operation should be aborted.
 
 ### Returns

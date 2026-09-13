@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## apply_color_scheme {#iextracolorscheme}
+## apply_color_scheme(self, scheme) {#iextracolorscheme}
 
 
 

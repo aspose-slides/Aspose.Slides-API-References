@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## split_text_by_columns {#}
+## split_text_by_columns(self) {#}
 Splits the text content of the [`ITextFrame`](/slides/python-net/aspose.slides/itextframe) into an array of strings,  
             where each element corresponds to a separate text column within the frame.
 

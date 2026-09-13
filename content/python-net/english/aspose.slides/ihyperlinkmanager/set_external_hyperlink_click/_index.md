@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## set_external_hyperlink_click {#str}
+## set_external_hyperlink_click(self, url) {#str}
 Set external hyperlink on click.
 
 ### Returns

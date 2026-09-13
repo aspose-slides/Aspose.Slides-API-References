@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## create_math_paragraph {#}
+## create_math_paragraph(self) {#}
 Create empty math paragraph
 
 ### Returns
@@ -24,7 +24,7 @@ def create_math_paragraph(self):
 
 
 
-## create_math_paragraph {#imathblock}
+## create_math_paragraph(self, math_block) {#imathblock}
 Creates a math paragraph and places the specified math block in it
 
 ### Returns

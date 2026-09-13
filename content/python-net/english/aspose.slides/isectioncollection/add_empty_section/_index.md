@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add_empty_section {#str-int}
+## add_empty_section(self, name, index) {#str-int}
 Add empty section to specified position of the collection.
 
 ### Returns

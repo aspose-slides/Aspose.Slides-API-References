@@ -78,15 +78,15 @@ The IChart type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`get_image`](/slides/python-net/aspose.slides.charts/ichart/get_image/#) |  |
-| [`get_image`](/slides/python-net/aspose.slides.charts/ichart/get_image/#shapethumbnailbounds-float-float) |  |
-| [`write_as_svg`](/slides/python-net/aspose.slides.charts/ichart/write_as_svg/#iorawiobase) |  |
-| [`write_as_svg`](/slides/python-net/aspose.slides.charts/ichart/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) |  |
-| [`validate_chart_layout`](/slides/python-net/aspose.slides.charts/ichart/validate_chart_layout/#) | Calculates actual values of chart elements. Actual values inlude position of elements that implement IActualLayout interface <br/>            (IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight)<br/>            and actual axes values (IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, <br/>            IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale) |
-| [`add_placeholder`](/slides/python-net/aspose.slides.charts/ichart/add_placeholder/#iplaceholder) |  |
-| [`remove_placeholder`](/slides/python-net/aspose.slides.charts/ichart/remove_placeholder/#) |  |
-| [`get_base_placeholder`](/slides/python-net/aspose.slides.charts/ichart/get_base_placeholder/#) |  |
-| [`create_theme_effective`](/slides/python-net/aspose.slides.charts/ichart/create_theme_effective/#) |  |
+| [`get_image(self)`](/slides/python-net/aspose.slides.charts/ichart/get_image/#) |  |
+| [`get_image(self, bounds, scale_x, scale_y)`](/slides/python-net/aspose.slides.charts/ichart/get_image/#shapethumbnailbounds-float-float) |  |
+| [`write_as_svg(self, stream)`](/slides/python-net/aspose.slides.charts/ichart/write_as_svg/#iorawiobase) |  |
+| [`write_as_svg(self, stream, svg_options)`](/slides/python-net/aspose.slides.charts/ichart/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) |  |
+| [`validate_chart_layout(self)`](/slides/python-net/aspose.slides.charts/ichart/validate_chart_layout/#) | Calculates actual values of chart elements. Actual values inlude position of elements that implement IActualLayout interface <br/>            (IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight)<br/>            and actual axes values (IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, <br/>            IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale) |
+| [`add_placeholder(self, placeholder_to_copy_from)`](/slides/python-net/aspose.slides.charts/ichart/add_placeholder/#iplaceholder) |  |
+| [`remove_placeholder(self)`](/slides/python-net/aspose.slides.charts/ichart/remove_placeholder/#) |  |
+| [`get_base_placeholder(self)`](/slides/python-net/aspose.slides.charts/ichart/get_base_placeholder/#) |  |
+| [`create_theme_effective(self)`](/slides/python-net/aspose.slides.charts/ichart/create_theme_effective/#) |  |
 
 
 ### See Also

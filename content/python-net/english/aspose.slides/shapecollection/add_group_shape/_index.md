@@ -8,7 +8,7 @@ weight: 80
 ---
 
 
-## add_group_shape {#}
+## add_group_shape(self) {#}
 Creates a new empty group shape and adds it to the end of the shape collection.
             The group’s frame will automatically adjust to fit any shapes added to it.
 
@@ -25,7 +25,7 @@ def add_group_shape(self):
 
 
 
-## add_group_shape {#isvgimage-float-float-float-float}
+## add_group_shape(self, svg_image, x, y, width, height) {#isvgimage-float-float-float-float}
 Creates a new group shape, converts the specified SVG image into individual shapes,
             and adds the resulting group to the end of the shape collection.
 

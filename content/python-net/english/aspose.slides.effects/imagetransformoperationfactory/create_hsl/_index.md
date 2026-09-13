@@ -8,7 +8,7 @@ weight: 160
 ---
 
 
-## create_hsl {#float-float-float}
+## create_hsl(self, hue, saturation, luminance) {#float-float-float}
 Creates Hue Saturation Luminance effect.
 
 ### Returns

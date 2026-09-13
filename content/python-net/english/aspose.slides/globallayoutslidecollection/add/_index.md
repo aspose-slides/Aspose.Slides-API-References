@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#imasterslide-slidelayouttype-str}
+## add(self, master, layout_type, layout_name) {#imasterslide-slidelayouttype-str}
 Adds a new layout slide to the presentation.
 
 ### Returns

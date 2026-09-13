@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#str}
+## __init__(self, str) {#str}
 Initializes a new instance of FieldType class.
 
 

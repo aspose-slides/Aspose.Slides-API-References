@@ -8,7 +8,7 @@ weight: 100
 ---
 
 
-## group {#}
+## group(self) {#}
 
 
 
@@ -19,7 +19,7 @@ def group(self):
 
 
 
-## group {#char-mathtopbotpositions-mathtopbotpositions}
+## group(self, character, position, vertical_justification) {#char-mathtopbotpositions-mathtopbotpositions}
 
 
 

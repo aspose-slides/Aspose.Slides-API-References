@@ -40,23 +40,23 @@ The ISlide type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`get_image`](/slides/python-net/aspose.slides/islide/get_image/#float-float) | Returns an image object with custom scaling. |
-| [`get_image`](/slides/python-net/aspose.slides/islide/get_image/#) | Returns a Thumbnail Image object (20% of real size). |
-| [`get_image`](/slides/python-net/aspose.slides/islide/get_image/#asposepydrawingsize) | Returns an image object with specified size. |
-| [`get_image`](/slides/python-net/aspose.slides/islide/get_image/#asposeslidesexportitiffoptions) | Returns a Thumbnail tiff bitmap object with specified parameters. |
-| [`get_image`](/slides/python-net/aspose.slides/islide/get_image/#asposeslidesexportirenderingoptions) | Returns a Thumbnail Bitmap object. |
-| [`get_image`](/slides/python-net/aspose.slides/islide/get_image/#asposeslidesexportirenderingoptions-float-float) | Returns a Thumbnail Bitmap object with custom scaling. |
-| [`get_image`](/slides/python-net/aspose.slides/islide/get_image/#asposeslidesexportirenderingoptions-asposepydrawingsize) | Returns a Thumbnail Bitmap object with specified size. |
-| [`write_as_svg`](/slides/python-net/aspose.slides/islide/write_as_svg/#iorawiobase) | Saves the slide content as an SVG file. |
-| [`write_as_svg`](/slides/python-net/aspose.slides/islide/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) | Saves the slide content as an SVG file. |
-| [`get_slide_comments`](/slides/python-net/aspose.slides/islide/get_slide_comments/#icommentauthor) | Returns all slide comments added by specific author. |
-| [`write_as_emf`](/slides/python-net/aspose.slides/islide/write_as_emf/#iorawiobase) | Saves the slide content as an EMF file. |
-| [`remove`](/slides/python-net/aspose.slides/islide/remove/#) | Removes slide from presentation. |
-| [`reset`](/slides/python-net/aspose.slides/islide/reset/#) | Resets position, size and formatting of every shape that has a prototype on LayoutSlide. |
-| [`find_shape_by_alt_text`](/slides/python-net/aspose.slides/islide/find_shape_by_alt_text/#str) |  |
-| [`join_portions_with_same_formatting`](/slides/python-net/aspose.slides/islide/join_portions_with_same_formatting/#) |  |
-| [`equals`](/slides/python-net/aspose.slides/islide/equals/#ibaseslide) |  |
-| [`create_theme_effective`](/slides/python-net/aspose.slides/islide/create_theme_effective/#) |  |
+| [`get_image(self, scale_x, scale_y)`](/slides/python-net/aspose.slides/islide/get_image/#float-float) | Returns an image object with custom scaling. |
+| [`get_image(self)`](/slides/python-net/aspose.slides/islide/get_image/#) | Returns a Thumbnail Image object (20% of real size). |
+| [`get_image(self, image_size)`](/slides/python-net/aspose.slides/islide/get_image/#asposepydrawingsize) | Returns an image object with specified size. |
+| [`get_image(self, options)`](/slides/python-net/aspose.slides/islide/get_image/#asposeslidesexportitiffoptions) | Returns a Thumbnail tiff bitmap object with specified parameters. |
+| [`get_image(self, options)`](/slides/python-net/aspose.slides/islide/get_image/#asposeslidesexportirenderingoptions) | Returns a Thumbnail Bitmap object. |
+| [`get_image(self, options, scale_x, scale_y)`](/slides/python-net/aspose.slides/islide/get_image/#asposeslidesexportirenderingoptions-float-float) | Returns a Thumbnail Bitmap object with custom scaling. |
+| [`get_image(self, options, image_size)`](/slides/python-net/aspose.slides/islide/get_image/#asposeslidesexportirenderingoptions-asposepydrawingsize) | Returns a Thumbnail Bitmap object with specified size. |
+| [`write_as_svg(self, stream)`](/slides/python-net/aspose.slides/islide/write_as_svg/#iorawiobase) | Saves the slide content as an SVG file. |
+| [`write_as_svg(self, stream, svg_options)`](/slides/python-net/aspose.slides/islide/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) | Saves the slide content as an SVG file. |
+| [`get_slide_comments(self, author)`](/slides/python-net/aspose.slides/islide/get_slide_comments/#icommentauthor) | Returns all slide comments added by specific author. |
+| [`write_as_emf(self, stream)`](/slides/python-net/aspose.slides/islide/write_as_emf/#iorawiobase) | Saves the slide content as an EMF file. |
+| [`remove(self)`](/slides/python-net/aspose.slides/islide/remove/#) | Removes slide from presentation. |
+| [`reset(self)`](/slides/python-net/aspose.slides/islide/reset/#) | Resets position, size and formatting of every shape that has a prototype on LayoutSlide. |
+| [`find_shape_by_alt_text(self, alt_text)`](/slides/python-net/aspose.slides/islide/find_shape_by_alt_text/#str) |  |
+| [`join_portions_with_same_formatting(self)`](/slides/python-net/aspose.slides/islide/join_portions_with_same_formatting/#) |  |
+| [`equals(self, slide)`](/slides/python-net/aspose.slides/islide/equals/#ibaseslide) |  |
+| [`create_theme_effective(self)`](/slides/python-net/aspose.slides/islide/create_theme_effective/#) |  |
 
 
 ### See Also

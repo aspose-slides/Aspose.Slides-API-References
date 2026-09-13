@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## get_all_text_boxes {#ibaseslide}
+## get_all_text_boxes(slide) {#ibaseslide}
 Returns all text frames on a slide in a PPTX presentation.
 
 ### Returns

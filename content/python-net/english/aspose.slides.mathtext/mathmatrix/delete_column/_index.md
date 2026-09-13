@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## delete_column {#int}
+## delete_column(self, column_index) {#int}
 Deletes the specified column
 
 

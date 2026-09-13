@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## remove {#ifontsubstrule}
+## remove(self, value) {#ifontsubstrule}
 Removes the first occurrence of a specific object from the collection.
 
 

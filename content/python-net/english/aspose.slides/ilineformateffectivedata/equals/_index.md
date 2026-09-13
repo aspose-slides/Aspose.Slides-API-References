@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## equals {#ilineformateffectivedata}
+## equals(self, lf) {#ilineformateffectivedata}
 Determines whether the two ILineFormatEffectiveData instances are equal.
 
 ### Returns

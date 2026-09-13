@@ -8,7 +8,7 @@ weight: 140
 ---
 
 
-## insert {#int-imathelement}
+## insert(self, index, item) {#int-imathelement}
 
 
 

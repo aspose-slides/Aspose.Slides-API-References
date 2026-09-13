@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## write_font {#ihtmlgenerator-ifontdata-ifontdata-str-str-bytes}
+## write_font(self, generator, original_font, substituted_font, font_style, font_weight, font_data) {#ihtmlgenerator-ifontdata-ifontdata-str-str-bytes}
 Writes data as base64 into HTML document itself
 
 

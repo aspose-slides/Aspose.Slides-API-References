@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## set_default_master_handout_slide {#}
+## set_default_master_handout_slide(self) {#}
 Sets default master handout slide to related handout slide.
 
 ### Returns

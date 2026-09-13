@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#}
+## __init__(self) {#}
 Creates a new HtmlOptions object for saving into single HTML file.
 
 
@@ -19,7 +19,7 @@ def __init__(self):
 
 
 
-## __init__ {#ilinkembedcontroller}
+## __init__(self, link_embed_controller) {#ilinkembedcontroller}
 Creates a new HtmlOptions object specifiing callback.
 
 

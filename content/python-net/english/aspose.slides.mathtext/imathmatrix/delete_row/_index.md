@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## delete_row {#int}
+## delete_row(self, row_index) {#int}
 Deletes the specified row
 
 

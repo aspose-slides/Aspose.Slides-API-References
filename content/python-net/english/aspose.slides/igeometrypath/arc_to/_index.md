@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## arc_to {#float-float-float-float}
+## arc_to(self, width, heigth, start_angle, sweep_angle) {#float-float-float-float}
 Appends the specified arc to the path.
 
 

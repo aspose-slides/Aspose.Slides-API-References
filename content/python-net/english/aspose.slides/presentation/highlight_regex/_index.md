@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## highlight_regex {#str-asposepydrawingcolor}
+## highlight_regex(self, regex, highlight_color) {#str-asposepydrawingcolor}
 Highlights all matches of the regular expression with the specified color.
 
 

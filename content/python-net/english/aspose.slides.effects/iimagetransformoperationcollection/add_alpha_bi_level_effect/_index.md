@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add_alpha_bi_level_effect {#float}
+## add_alpha_bi_level_effect(self, threshold) {#float}
 Adds the new Alpha Bi-Level effect to the end of a collection.
 
 ### Returns

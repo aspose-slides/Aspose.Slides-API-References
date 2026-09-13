@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## set_all_slide_numbers_visibility {#bool}
+## set_all_slide_numbers_visibility(self, is_visible) {#bool}
 Changes all page number placeholders visibility, including master slides, layout slides, slides, 
             notes master, notes slides and handout master.
 

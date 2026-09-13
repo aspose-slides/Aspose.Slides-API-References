@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## read {#bytes-int-int}
+## read(self, buffer, offset, count) {#bytes-int-int}
 Reads a sequence of bytes from the current stream and advances the position within the stream by the number of bytes read.
 
 

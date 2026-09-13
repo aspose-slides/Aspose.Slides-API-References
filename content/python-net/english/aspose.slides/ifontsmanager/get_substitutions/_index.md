@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## get_substitutions {#}
+## get_substitutions(self) {#}
 Gets the information about fonts that will be replaced on the presentation's rendering.
 
 ### Returns
@@ -24,7 +24,7 @@ def get_substitutions(self):
 
 
 
-## get_substitutions {#listint}
+## get_substitutions(self, slides) {#listint}
 Gets the information about fonts that will be replaced during rendering of the specified slides.
 
 ### Returns

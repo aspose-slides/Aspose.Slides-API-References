@@ -32,8 +32,8 @@ Gets the element at the specified index.
 
 | Method | Description |
 | :- | :- |
-| [`add`](/slides/python-net/aspose.slides.charts/itrendlinecollection/add/#trendlinetype) | Adds the new Trendline at the end of a collection and return it. |
-| [`remove`](/slides/python-net/aspose.slides.charts/itrendlinecollection/remove/#itrendline) | Removes the specified value. |
+| [`add(self, trendline_type)`](/slides/python-net/aspose.slides.charts/itrendlinecollection/add/#trendlinetype) | Adds the new Trendline at the end of a collection and return it. |
+| [`remove(self, value)`](/slides/python-net/aspose.slides.charts/itrendlinecollection/remove/#itrendline) | Removes the specified value. |
 
 
 ### See Also

@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## set_rotation {#float-float-float}
+## set_rotation(self, latitude, longitude, revolution) {#float-float-float}
 A rotation is defined through the use of a latitude
             coordinate, a longitude coordinate, and a revolution about the axis 
             as the latitude and longitude coordinates.

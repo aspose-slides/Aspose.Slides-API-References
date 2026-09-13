@@ -8,7 +8,7 @@ weight: 170
 ---
 
 
-## add_zoom_frame {#float-float-float-float-islide}
+## add_zoom_frame(self, x, y, width, height, slide) {#float-float-float-float-islide}
 Creates a new Zoom frame and adds it to the end of the shape collection.
 
 ### Returns
@@ -38,7 +38,7 @@ def add_zoom_frame(self, x, y, width, height, slide):
 | **RuntimeError(Proxy error(ArgumentException))** | Thrown if the referenced slide does not belong to the current presentation. |
 
 
-## add_zoom_frame {#float-float-float-float-islide-ippimage}
+## add_zoom_frame(self, x, y, width, height, slide, image) {#float-float-float-float-islide-ippimage}
 Creates a new Zoom frame and adds it to the end of the shape collection.
 
 ### Returns

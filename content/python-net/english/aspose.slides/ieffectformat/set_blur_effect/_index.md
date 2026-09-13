@@ -8,7 +8,7 @@ weight: 170
 ---
 
 
-## set_blur_effect {#float-bool}
+## set_blur_effect(self, radius, grow) {#float-bool}
 Sets blur effect.
 
 

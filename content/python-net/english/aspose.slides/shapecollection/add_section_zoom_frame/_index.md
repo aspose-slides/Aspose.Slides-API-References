@@ -8,7 +8,7 @@ weight: 120
 ---
 
 
-## add_section_zoom_frame {#float-float-float-float-isection}
+## add_section_zoom_frame(self, x, y, width, height, section) {#float-float-float-float-isection}
 Creates a new Section Zoom frame and adds it to the end of the shape collection.
 
 ### Returns
@@ -38,7 +38,7 @@ def add_section_zoom_frame(self, x, y, width, height, section):
 | **RuntimeError(Proxy error(ArgumentException))** | Thrown if the referenced section does not belong to the current presentation or contains no slides. |
 
 
-## add_section_zoom_frame {#float-float-float-float-isection-ippimage}
+## add_section_zoom_frame(self, x, y, width, height, section, image) {#float-float-float-float-isection-ippimage}
 Creates a new Section Zoom frame with a predefined image and adds it to the end of the shape collection.
 
 ### Returns

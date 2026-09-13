@@ -17,7 +17,7 @@ The PositionedString type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides/positionedstring/__init__/#) |  |
+| [`__init__(self)`](/slides/python-net/aspose.slides/positionedstring/__init__/#) |  |
 
 ## Properties
 

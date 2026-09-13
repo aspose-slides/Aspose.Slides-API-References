@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add_chart_placeholder {#float-float-float-float}
+## add_chart_placeholder(self, x, y, width, height) {#float-float-float-float}
 Adds a new placeholder shape to the layout slide to hold a chart.
 
 ### Returns

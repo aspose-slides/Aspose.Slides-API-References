@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## set_footer_text {#str}
+## set_footer_text(self, text) {#str}
 Sets text to slide footer placeholder.
 
 

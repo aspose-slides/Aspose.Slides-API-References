@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## add_alpha_inverse_effect {#}
+## add_alpha_inverse_effect(self) {#}
 Adds the new Alpha Inverse effect to the end of a collection.
 
 ### Returns

@@ -8,7 +8,7 @@ weight: 220
 ---
 
 
-## insert_audio_frame_linked {#int-float-float-float-float-str}
+## insert_audio_frame_linked(self, index, x, y, width, height, fname) {#int-float-float-float-float-str}
 Creates a new audio frame linked to an external audio file and inserts it into the shape
             collection at the specified index.
 

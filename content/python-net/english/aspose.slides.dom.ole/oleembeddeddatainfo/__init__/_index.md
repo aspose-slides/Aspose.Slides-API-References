@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#}
+## __init__(self) {#}
 Creates new embedded data info for OLE object.
 
 
@@ -19,7 +19,7 @@ def __init__(self):
 
 
 
-## __init__ {#bytes-str}
+## __init__(self, embedded_file_data, embedded_file_extension) {#bytes-str}
 Creates a new instance of an embedded data info for OLE object.
             File data of an embedded OLE object **int**[].File extension for the current embedded OLE object **str**.
 

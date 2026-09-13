@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## get_slides_list_of_section {#}
+## get_slides_list_of_section(self) {#}
 Returns list of slides in the section.
 
 ### Returns

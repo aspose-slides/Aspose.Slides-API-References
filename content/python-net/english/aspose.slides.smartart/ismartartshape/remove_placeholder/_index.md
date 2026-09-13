@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## remove_placeholder {#}
+## remove_placeholder(self) {#}
 
 
 

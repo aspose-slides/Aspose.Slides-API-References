@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add_html {#str}
+## add_html(self, html) {#str}
 Adds formatted HTML text.
 
 
@@ -23,7 +23,7 @@ def add_html(self, html):
 | html | **str** | Text to add. |
 
 
-## add_html {#listchar}
+## add_html(self, html) {#listchar}
 Adds formatted HTML text.
 
 
@@ -38,7 +38,7 @@ def add_html(self, html):
 | html | **List[char]** | Text to add. |
 
 
-## add_html {#listchar-int-int}
+## add_html(self, html, start_index, length) {#listchar-int-int}
 Adds formatted HTML text.
 
 

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## get_range {#}
+## get_range(self) {#}
 Gets chart data range.
 
 ### Returns

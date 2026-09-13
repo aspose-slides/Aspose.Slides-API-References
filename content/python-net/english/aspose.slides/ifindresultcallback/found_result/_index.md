@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## found_result {#itextframe-str-str-int}
+## found_result(self, text_frame, source_text, found_text, text_position) {#itextframe-str-str-int}
 Callback method that receives data about the found text.
 
 

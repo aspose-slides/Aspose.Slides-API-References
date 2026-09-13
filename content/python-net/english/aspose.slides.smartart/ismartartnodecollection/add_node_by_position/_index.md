@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add_node_by_position {#int}
+## add_node_by_position(self, position) {#int}
 Add new node in the selected position of nodes collection.
 
 ### Returns

@@ -8,7 +8,7 @@ weight: 80
 ---
 
 
-## delimit {#char}
+## delimit(self, separator_character) {#char}
 Delimits child elements with separator character (without the brackets)
 
 ### Returns

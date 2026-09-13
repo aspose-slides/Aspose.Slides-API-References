@@ -8,7 +8,7 @@ weight: 90
 ---
 
 
-## set_slide_number_and_child_slide_numbers_visibility {#bool}
+## set_slide_number_and_child_slide_numbers_visibility(self, is_visible) {#bool}
 Changes master slide page number placeholder and all child page number placeholders visibility.
             Child placeholders mean placeholders are contained on depending layout slides and depending slides.
             Depending layout slides and slides use and depend on master slide.

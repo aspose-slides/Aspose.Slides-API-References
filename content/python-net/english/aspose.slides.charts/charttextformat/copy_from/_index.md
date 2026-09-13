@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## copy_from {#itextframe}
+## copy_from(self, source_text_frame) {#itextframe}
 Copies text format from specified text frame.
 
 

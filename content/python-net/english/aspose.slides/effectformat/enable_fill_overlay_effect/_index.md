@@ -8,7 +8,7 @@ weight: 90
 ---
 
 
-## enable_fill_overlay_effect {#}
+## enable_fill_overlay_effect(self) {#}
 Enables fill overlay effect.
 
 

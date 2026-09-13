@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## find_shape {#ipresentation-str}
+## find_shape(pres, alt_text) {#ipresentation-str}
 Find shape by alternative text in a PPTX presentation.
 
 ### Returns
@@ -30,7 +30,7 @@ def find_shape(pres, alt_text):
 | alt_text | **str** | Alternative text of a shape. |
 
 
-## find_shape {#ibaseslide-str}
+## find_shape(slide, alt_text) {#ibaseslide-str}
 Find shape by alternative text on a slide in a PPTX presentation.
 
 ### Returns

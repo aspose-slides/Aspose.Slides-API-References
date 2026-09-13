@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## to_double {#}
+## to_double(self) {#}
 Converst to double.
 
 ### Returns

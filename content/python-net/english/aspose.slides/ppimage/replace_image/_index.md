@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## replace_image {#bytes}
+## replace_image(self, new_image_data) {#bytes}
 Replaces image data.
             The new image's data.When newImageData parameter is None.
 
@@ -24,7 +24,7 @@ def replace_image(self, new_image_data):
 | new_image_data | **bytes** |  |
 
 
-## replace_image {#iimage}
+## replace_image(self, new_image) {#iimage}
 Replaces image data. Attention: when Image is metafile - it will be rasterized. Use ReplaceImage(byte[]) instead
             The new image.When newImage parameter is None.
 
@@ -40,7 +40,7 @@ def replace_image(self, new_image):
 | new_image | [`IImage`](/slides/python-net/aspose.slides/iimage) |  |
 
 
-## replace_image {#ippimage}
+## replace_image(self, new_image) {#ippimage}
 Replaces image data.
             The new IPPImage.When newImage parameter is None.
 

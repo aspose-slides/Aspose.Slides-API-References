@@ -8,7 +8,7 @@ weight: 270
 ---
 
 
-## insert_group_shape {#int}
+## insert_group_shape(self, index) {#int}
 Creates a new empty group shape and inserts it to the shape collection at the specified index.
             The group’s frame will automatically adjust to fit any shapes added to it.
 

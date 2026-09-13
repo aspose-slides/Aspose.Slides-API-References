@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_presentation {#}
+## create_presentation(self) {#}
 Creates new presentation.
 
 ### Returns
@@ -24,7 +24,7 @@ def create_presentation(self):
 
 
 
-## create_presentation {#iloadoptions}
+## create_presentation(self, options) {#iloadoptions}
 Creates new presentation with additional load options
 
 ### Returns

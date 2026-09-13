@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## to_binary {#}
+## to_binary(self) {#}
 Returns the binary representation of the VBA project as OLE container
 
 ### Returns

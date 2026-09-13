@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## remove_at {#int}
+## remove_at(self, index) {#int}
 Removes segment at the specified index of the geometry path.
 
 

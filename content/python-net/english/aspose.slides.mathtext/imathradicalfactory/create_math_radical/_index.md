@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## create_math_radical {#imathelement-imathelement}
+## create_math_radical(self, base_argument, degree_argument) {#imathelement-imathelement}
 Creates a math radical
 
 ### Returns

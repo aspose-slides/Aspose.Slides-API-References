@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## equals {#ibaseslide}
+## equals(self, slide) {#ibaseslide}
 
 
 

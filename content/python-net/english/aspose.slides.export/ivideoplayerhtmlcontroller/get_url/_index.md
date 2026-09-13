@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## get_url {#int-int}
+## get_url(self, id, referrer) {#int-int}
 
 
 

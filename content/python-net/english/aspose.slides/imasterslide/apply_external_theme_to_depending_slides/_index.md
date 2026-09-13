@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## apply_external_theme_to_depending_slides {#str}
+## apply_external_theme_to_depending_slides(self, fname) {#str}
 Creates a new master slide based on the current one, applying an external theme to it 
             and applies the created master slide to all dependent slides.
 

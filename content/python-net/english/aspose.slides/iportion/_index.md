@@ -27,11 +27,11 @@ The IPortion type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`add_field`](/slides/python-net/aspose.slides/iportion/add_field/#ifieldtype) | Converts this portion to the automaticaly updated field. |
-| [`add_field`](/slides/python-net/aspose.slides/iportion/add_field/#str) | Converts this portion to the automaticaly updated field. |
-| [`remove_field`](/slides/python-net/aspose.slides/iportion/remove_field/#) | Converts this field portion to the simple portion. |
-| [`get_rect`](/slides/python-net/aspose.slides/iportion/get_rect/#) | Get coordinates of rect that bounds portion. The rect includes all the lines of<br/>             text in portion, including empty ones. |
-| [`get_coordinates`](/slides/python-net/aspose.slides/iportion/get_coordinates/#) | Get coordinates of the beginning of the portion. The X coordinate of point represents the <br/>            portion beginning from the first character including left side bearing. The Y coordinate <br/>            includes top side bearing. |
+| [`add_field(self, field_type)`](/slides/python-net/aspose.slides/iportion/add_field/#ifieldtype) | Converts this portion to the automaticaly updated field. |
+| [`add_field(self, internal_string)`](/slides/python-net/aspose.slides/iportion/add_field/#str) | Converts this portion to the automaticaly updated field. |
+| [`remove_field(self)`](/slides/python-net/aspose.slides/iportion/remove_field/#) | Converts this field portion to the simple portion. |
+| [`get_rect(self)`](/slides/python-net/aspose.slides/iportion/get_rect/#) | Get coordinates of rect that bounds portion. The rect includes all the lines of<br/>             text in portion, including empty ones. |
+| [`get_coordinates(self)`](/slides/python-net/aspose.slides/iportion/get_coordinates/#) | Get coordinates of the beginning of the portion. The X coordinate of point represents the <br/>            portion beginning from the first character including left side bearing. The Y coordinate <br/>            includes top side bearing. |
 
 
 ### See Also

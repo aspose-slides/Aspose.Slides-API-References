@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## set_all_date_times_text {#str}
+## set_all_date_times_text(self, text) {#str}
 Sets text to all date-time placeholders, including master slides, layout slides and slides.
 
 

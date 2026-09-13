@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add_author {#str-str}
+## add_author(self, name, initials) {#str-str}
 Add new author at the end of a collection.
 
 ### Returns

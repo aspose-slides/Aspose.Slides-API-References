@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## create_motion_effect {#}
+## create_motion_effect(self) {#}
 Creates motion effect.
 
 ### Returns

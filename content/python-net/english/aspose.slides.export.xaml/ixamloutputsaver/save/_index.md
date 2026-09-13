@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## save {#str-bytes}
+## save(self, path, data) {#str-bytes}
 Saves a bytes array to a destination location.
 
 

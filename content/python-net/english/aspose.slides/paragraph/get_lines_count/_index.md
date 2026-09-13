@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## get_lines_count {#}
+## get_lines_count(self) {#}
 Get number of lines in a paragraph.
 
 ### Returns

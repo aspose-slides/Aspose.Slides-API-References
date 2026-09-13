@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#}
+## __init__(self) {#}
 Creates new instance.
 
 
@@ -19,7 +19,7 @@ def __init__(self):
 
 
 
-## __init__ {#ihtmlformattingcontroller}
+## __init__(self, controller) {#ihtmlformattingcontroller}
 Creates new instance.
 
 

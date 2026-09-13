@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## close_figure {#}
+## close_figure(self) {#}
 Closes the current figure of this path
 
 

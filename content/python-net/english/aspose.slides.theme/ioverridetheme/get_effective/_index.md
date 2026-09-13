@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## get_effective {#}
+## get_effective(self) {#}
 
 
 

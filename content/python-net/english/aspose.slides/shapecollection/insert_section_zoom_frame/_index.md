@@ -8,7 +8,7 @@ weight: 300
 ---
 
 
-## insert_section_zoom_frame {#int-float-float-float-float-isection}
+## insert_section_zoom_frame(self, index, x, y, width, height, section) {#int-float-float-float-float-isection}
 Creates a new Section Zoom frame and inserts it into to the shape collection at the specified index.
 
 ### Returns
@@ -39,7 +39,7 @@ def insert_section_zoom_frame(self, index, x, y, width, height, section):
 | **RuntimeError(Proxy error(ArgumentException))** | Thrown if the referenced section does not belong to the current presentation or contains no slides. |
 
 
-## insert_section_zoom_frame {#int-float-float-float-float-isection-ippimage}
+## insert_section_zoom_frame(self, index, x, y, width, height, section, image) {#int-float-float-float-float-isection-ippimage}
 Creates a new Section Zoom frame with a predefined image and inserts it into to the shape
             collection at the specified index.
 

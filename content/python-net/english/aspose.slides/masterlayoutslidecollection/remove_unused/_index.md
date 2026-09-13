@@ -8,7 +8,7 @@ weight: 80
 ---
 
 
-## remove_unused {#}
+## remove_unused(self) {#}
 Removes unused layout slides (layout slides whose HasDependingSlides is false).
 
 

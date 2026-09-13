@@ -62,18 +62,18 @@ The IConnector type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`get_image`](/slides/python-net/aspose.slides/iconnector/get_image/#) |  |
-| [`get_image`](/slides/python-net/aspose.slides/iconnector/get_image/#shapethumbnailbounds-float-float) |  |
-| [`write_as_svg`](/slides/python-net/aspose.slides/iconnector/write_as_svg/#iorawiobase) |  |
-| [`write_as_svg`](/slides/python-net/aspose.slides/iconnector/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) |  |
-| [`reroute`](/slides/python-net/aspose.slides/iconnector/reroute/#) | Reroutes connector so that it take the shortest possible path between the shapes it connect. |
-| [`get_geometry_paths`](/slides/python-net/aspose.slides/iconnector/get_geometry_paths/#) |  |
-| [`set_geometry_path`](/slides/python-net/aspose.slides/iconnector/set_geometry_path/#igeometrypath) |  |
-| [`set_geometry_paths`](/slides/python-net/aspose.slides/iconnector/set_geometry_paths/#listigeometrypath) |  |
-| [`create_shape_elements`](/slides/python-net/aspose.slides/iconnector/create_shape_elements/#) |  |
-| [`add_placeholder`](/slides/python-net/aspose.slides/iconnector/add_placeholder/#iplaceholder) |  |
-| [`remove_placeholder`](/slides/python-net/aspose.slides/iconnector/remove_placeholder/#) |  |
-| [`get_base_placeholder`](/slides/python-net/aspose.slides/iconnector/get_base_placeholder/#) |  |
+| [`get_image(self)`](/slides/python-net/aspose.slides/iconnector/get_image/#) |  |
+| [`get_image(self, bounds, scale_x, scale_y)`](/slides/python-net/aspose.slides/iconnector/get_image/#shapethumbnailbounds-float-float) |  |
+| [`write_as_svg(self, stream)`](/slides/python-net/aspose.slides/iconnector/write_as_svg/#iorawiobase) |  |
+| [`write_as_svg(self, stream, svg_options)`](/slides/python-net/aspose.slides/iconnector/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) |  |
+| [`reroute(self)`](/slides/python-net/aspose.slides/iconnector/reroute/#) | Reroutes connector so that it take the shortest possible path between the shapes it connect. |
+| [`get_geometry_paths(self)`](/slides/python-net/aspose.slides/iconnector/get_geometry_paths/#) |  |
+| [`set_geometry_path(self, geometry_path)`](/slides/python-net/aspose.slides/iconnector/set_geometry_path/#igeometrypath) |  |
+| [`set_geometry_paths(self, geometry_paths)`](/slides/python-net/aspose.slides/iconnector/set_geometry_paths/#listigeometrypath) |  |
+| [`create_shape_elements(self)`](/slides/python-net/aspose.slides/iconnector/create_shape_elements/#) |  |
+| [`add_placeholder(self, placeholder_to_copy_from)`](/slides/python-net/aspose.slides/iconnector/add_placeholder/#iplaceholder) |  |
+| [`remove_placeholder(self)`](/slides/python-net/aspose.slides/iconnector/remove_placeholder/#) |  |
+| [`get_base_placeholder(self)`](/slides/python-net/aspose.slides/iconnector/get_base_placeholder/#) |  |
 
 
 ### See Also

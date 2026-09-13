@@ -8,7 +8,7 @@ weight: 180
 ---
 
 
-## add_tint_effect {#float-float}
+## add_tint_effect(self, hue, amount) {#float-float}
 Adds the new Tint effect to the end of a collection.
 
 ### Returns

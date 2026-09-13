@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## get_geometry_paths {#}
+## get_geometry_paths(self) {#}
 
 
 

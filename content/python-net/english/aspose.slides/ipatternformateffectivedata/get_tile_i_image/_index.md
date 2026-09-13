@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## get_tile_i_image {#asposepydrawingcolor-asposepydrawingcolor}
+## get_tile_i_image(self, background, foreground) {#asposepydrawingcolor-asposepydrawingcolor}
 Creates a tile image for the pattern fill with a specified colors.
 
 ### Returns

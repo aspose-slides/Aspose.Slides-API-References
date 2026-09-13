@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## to_png {#presentation-str}
+## to_png(pres, output_file_name) {#presentation-str}
 Converts the input presentation to a set of PNG format images.  
             If the output file name is given as "myPath/myFilename.png", 
             the result will be saved as a set of "myPath/myFilename_N.png" files, where N is a slide number.
@@ -33,7 +33,7 @@ def to_png(pres, output_file_name):
 | **RuntimeError(Proxy error(ArgumentException))** |  |
 
 
-## to_png {#presentation-str-asposepydrawingsize}
+## to_png(pres, output_file_name, image_size) {#presentation-str-asposepydrawingsize}
 Converts the input presentation to a set of PNG format images.  
             If the output file name is given as "myPath/myFilename.png", 
             the result will be saved as a set of "myPath/myFilename_N.png" files, where N is a slide number.
@@ -59,7 +59,7 @@ def to_png(pres, output_file_name, image_size):
 | **RuntimeError(Proxy error(ArgumentException))** |  |
 
 
-## to_png {#presentation-str-float-asposeslidesexportirenderingoptions}
+## to_png(pres, output_file_name, scale, options) {#presentation-str-float-asposeslidesexportirenderingoptions}
 Converts the input presentation to a set of PNG format images.  
             If the output file name is given as "myPath/myFilename.png", 
             the result will be saved as a set of "myPath/myFilename_N.png" files, where N is a slide number.

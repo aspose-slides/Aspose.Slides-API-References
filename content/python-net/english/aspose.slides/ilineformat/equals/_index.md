@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## equals {#ilineformat}
+## equals(self, line_format) {#ilineformat}
 Determines whether the two LineFormat instances are equal.
 
 ### Returns

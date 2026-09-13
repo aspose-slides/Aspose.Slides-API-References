@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add_placeholder {#iplaceholder}
+## add_placeholder(self, placeholder_to_copy_from) {#iplaceholder}
 
 
 

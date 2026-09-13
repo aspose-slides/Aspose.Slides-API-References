@@ -8,7 +8,7 @@ weight: 100
 ---
 
 
-## set_header_and_child_headers_visibility {#bool}
+## set_header_and_child_headers_visibility(self, is_visible) {#bool}
 Changes master notes slide header placeholder and all child header placeholders visibility.
             Child placeholders mean placeholders are contained on depending notes slides.
             Depending notes slides use and depend on master notes slide.

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## accent {#char}
+## accent(self, accent_character) {#char}
 
 
 

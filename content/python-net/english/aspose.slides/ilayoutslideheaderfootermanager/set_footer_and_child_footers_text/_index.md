@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## set_footer_and_child_footers_text {#str}
+## set_footer_and_child_footers_text(self, text) {#str}
 Sets text to layout slide footer placeholder and all child footer placeholders.
             Child placeholders mean placeholders are contained on depending slides.
             Depending slides use and depend on layout slide.

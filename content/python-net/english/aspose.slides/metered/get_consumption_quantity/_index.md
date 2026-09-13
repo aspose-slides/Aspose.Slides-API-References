@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## get_consumption_quantity {#}
+## get_consumption_quantity() {#}
 Gets consumption file size
 
 ### Returns

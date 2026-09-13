@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## get_custom_property_value {#str-any}
+## get_custom_property_value(self, name, value) {#str-any}
 Gets a named boolean value from the custom properties.
 
 
@@ -24,7 +24,7 @@ def get_custom_property_value(self, name, value):
 | value | **Any** | Custom property value |
 
 
-## get_custom_property_value {#str-any}
+## get_custom_property_value(self, name, value) {#str-any}
 Gets a named integer value from the custom properties.
 
 
@@ -40,7 +40,7 @@ def get_custom_property_value(self, name, value):
 | value | **Any** | Custom property value |
 
 
-## get_custom_property_value {#str-any}
+## get_custom_property_value(self, name, value) {#str-any}
 Gets a named DateTime value from the custom properties.
 
 
@@ -56,7 +56,7 @@ def get_custom_property_value(self, name, value):
 | value | **Any** | Custom property value |
 
 
-## get_custom_property_value {#str-any}
+## get_custom_property_value(self, name, value) {#str-any}
 Gets a named string value from the custom properties.
 
 
@@ -72,7 +72,7 @@ def get_custom_property_value(self, name, value):
 | value | **Any** | Custom property value |
 
 
-## get_custom_property_value {#str-any}
+## get_custom_property_value(self, name, value) {#str-any}
 
 
 
@@ -88,7 +88,7 @@ def get_custom_property_value(self, name, value):
 | value | **Any** |  |
 
 
-## get_custom_property_value {#str-any}
+## get_custom_property_value(self, name, value) {#str-any}
 
 
 

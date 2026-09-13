@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## add_table_placeholder {#float-float-float-float}
+## add_table_placeholder(self, x, y, width, height) {#float-float-float-float}
 Adds a new placeholder shape to the layout slide to hold a table.
 
 ### Returns

@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_math_grouping_character {#imathelement}
+## create_math_grouping_character(self, element) {#imathelement}
 Creates a math grouping character
 
 ### Returns
@@ -28,7 +28,7 @@ def create_math_grouping_character(self, element):
 | element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | math element to apply grouping character |
 
 
-## create_math_grouping_character {#imathelement-char-mathtopbotpositions-mathtopbotpositions}
+## create_math_grouping_character(self, element, character, position, vertical_justification) {#imathelement-char-mathtopbotpositions-mathtopbotpositions}
 Creates a math grouping character
 
 ### Returns

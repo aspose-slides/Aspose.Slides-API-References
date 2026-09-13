@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## remove_field {#}
+## remove_field(self) {#}
 Converts this field portion to the simple portion.
 
 

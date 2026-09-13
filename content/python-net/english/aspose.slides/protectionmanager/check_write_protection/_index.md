@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## check_write_protection {#str}
+## check_write_protection(self, password) {#str}
 Determines whether a presentation is a password protected to modify.
 
 ### Returns

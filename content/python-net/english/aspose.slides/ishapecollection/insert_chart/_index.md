@@ -8,7 +8,7 @@ weight: 240
 ---
 
 
-## insert_chart {#asposeslideschartscharttype-float-float-float-float-int}
+## insert_chart(self, type, x, y, width, height, index) {#asposeslideschartscharttype-float-float-float-float-int}
 Creates a new chart, initializes it with sample series data and settings,
             and inserts it into the shape collection at the specified index.
 
@@ -34,7 +34,7 @@ def insert_chart(self, type, x, y, width, height, index):
 | index | **int** | The zero-based index at which to insert the new chart in the shape collection. |
 
 
-## insert_chart {#asposeslideschartscharttype-float-float-float-float-int-bool}
+## insert_chart(self, type, x, y, width, height, index, init_with_sample) {#asposeslideschartscharttype-float-float-float-float-int-bool}
 Creates a new chart, initializes it with sample series data and settings,
             and inserts it into the shape collection at the specified index.
 

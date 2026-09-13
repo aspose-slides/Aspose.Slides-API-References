@@ -8,7 +8,7 @@ weight: 100
 ---
 
 
-## add_brightness_contrast_effect {#float-float}
+## add_brightness_contrast_effect(self, brightness, contrast) {#float-float}
 Adds the new BrightnessContrast effect to the end of a collection.
 
 ### Returns

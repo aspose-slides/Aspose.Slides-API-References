@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## load_external_fonts {#liststr}
+## load_external_fonts(directories) {#liststr}
 Adds additional folders to seek fonts.
 
 

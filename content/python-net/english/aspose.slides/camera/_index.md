@@ -29,8 +29,8 @@ The Camera type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`set_rotation`](/slides/python-net/aspose.slides/camera/set_rotation/#float-float-float) | A rotation is defined through the use of a latitude<br/>            coordinate, a longitude coordinate, and a revolution about the axis <br/>            as the latitude and longitude coordinates.<br/>            If any of coordinate value is float.NaN, all rotation is undefined. |
-| [`get_rotation`](/slides/python-net/aspose.slides/camera/get_rotation/#) | A rotation is defined through the use of a latitude<br/>            coordinate, a longitude coordinate, and a revolution about the axis <br/>            as the latitude and longitude coordinates.<br/>            first element in return array - latitude, second - longitude, third - revolution.<br/>            Returns None if no rotation defined. |
+| [`set_rotation(self, latitude, longitude, revolution)`](/slides/python-net/aspose.slides/camera/set_rotation/#float-float-float) | A rotation is defined through the use of a latitude<br/>            coordinate, a longitude coordinate, and a revolution about the axis <br/>            as the latitude and longitude coordinates.<br/>            If any of coordinate value is float.NaN, all rotation is undefined. |
+| [`get_rotation(self)`](/slides/python-net/aspose.slides/camera/get_rotation/#) | A rotation is defined through the use of a latitude<br/>            coordinate, a longitude coordinate, and a revolution about the axis <br/>            as the latitude and longitude coordinates.<br/>            first element in return array - latitude, second - longitude, third - revolution.<br/>            Returns None if no rotation defined. |
 
 
 ### See Also

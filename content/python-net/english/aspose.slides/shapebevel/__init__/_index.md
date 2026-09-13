@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#bool}
+## __init__(self, b_is_top_bevel) {#bool}
 Creates new instance.
 
 

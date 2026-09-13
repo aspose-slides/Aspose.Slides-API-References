@@ -8,7 +8,7 @@ weight: 130
 ---
 
 
-## overbar {#}
+## overbar(self) {#}
 Sets a bar on the top of this element
 
 ### Returns

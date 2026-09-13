@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## create_video_player_html_controller {#str-str-str}
+## create_video_player_html_controller(self, path, file_name, base_uri) {#str-str-str}
 Create video player HTML controller.
 
 ### Returns

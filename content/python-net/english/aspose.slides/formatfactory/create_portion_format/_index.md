@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## create_portion_format {#}
+## create_portion_format(self) {#}
 Creates new [`IPortionFormat`](/slides/python-net/aspose.slides/iportionformat).
 
 ### Returns

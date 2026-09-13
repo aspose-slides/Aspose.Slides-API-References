@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## index_of {#iportion}
+## index_of(self, item) {#iportion}
 Determines the index of a specific item in the **System.Collections.Generic.IList`1**.
 
 ### Returns

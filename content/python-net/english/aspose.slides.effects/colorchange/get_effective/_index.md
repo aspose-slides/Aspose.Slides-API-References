@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## get_effective {#}
+## get_effective(self) {#}
 Gets effective Color Change effect data with the inheritance applied.
 
 ### Returns

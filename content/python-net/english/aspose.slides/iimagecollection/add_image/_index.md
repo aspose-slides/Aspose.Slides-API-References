@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add_image {#iimage}
+## add_image(self, image) {#iimage}
 Add an image to a presentation.
 
 ### Returns
@@ -32,7 +32,7 @@ def add_image(self, image):
 This method converts WMF/EMF metafiles to raster PNG image before inserting to a presentation.
 
 
-## add_image {#iorawiobase}
+## add_image(self, stream) {#iorawiobase}
 Add an image to a presentation from stream.
 
 ### Returns
@@ -56,7 +56,7 @@ def add_image(self, stream):
 This method can add WMF/EMF metafiles to a presentation without converting them to raster PNG image.
 
 
-## add_image {#bytes}
+## add_image(self, buffer) {#bytes}
 Adds an image to a presentation from specified buffer.
 
 ### Returns
@@ -76,7 +76,7 @@ def add_image(self, buffer):
 | buffer | **bytes** | Buffer. |
 
 
-## add_image {#ippimage}
+## add_image(self, image_source) {#ippimage}
 Adds a copy of an image from an another presentation.
 
 ### Returns
@@ -96,7 +96,7 @@ def add_image(self, image_source):
 | image_source | [`IPPImage`](/slides/python-net/aspose.slides/ippimage) | Source image. |
 
 
-## add_image {#isvgimage}
+## add_image(self, svg_image) {#isvgimage}
 Add an image to a presentation from SVG object.
 
 ### Returns
@@ -122,7 +122,7 @@ def add_image(self, svg_image):
 | **RuntimeError(Proxy error(ArgumentNullException))** | Thrown when svgImage parameter is None. |
 
 
-## add_image {#iorawiobase-loadingstreambehavior}
+## add_image(self, stream, loading_stream_behavior) {#iorawiobase-loadingstreambehavior}
 Creates and adds an image to a presentation from stream.
 
 ### Returns

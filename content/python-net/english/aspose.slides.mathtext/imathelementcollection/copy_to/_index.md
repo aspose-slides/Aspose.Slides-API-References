@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## copy_to {#listimathelement-int}
+## copy_to(self, array, array_index) {#listimathelement-int}
 Copy to specified array.
 
 

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## get_color_scheme {#asposepydrawingcolor}
+## get_color_scheme(self, style_color) {#asposepydrawingcolor}
 Returns the color scheme.
 
 ### Returns

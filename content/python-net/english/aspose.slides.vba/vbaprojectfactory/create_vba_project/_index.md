@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_vba_project {#}
+## create_vba_project(self) {#}
 Creates new VBA project.
 
 ### Returns

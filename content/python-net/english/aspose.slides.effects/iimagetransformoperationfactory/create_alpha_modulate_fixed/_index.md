@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## create_alpha_modulate_fixed {#float}
+## create_alpha_modulate_fixed(self, amount) {#float}
 Creates Alpha modulate fixed effect.
 
 ### Returns

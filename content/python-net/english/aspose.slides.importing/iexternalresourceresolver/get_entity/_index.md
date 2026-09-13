@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## get_entity {#str}
+## get_entity(self, absolute_uri) {#str}
 Maps a URI to an object containing the actual resource.
 
 ### Returns

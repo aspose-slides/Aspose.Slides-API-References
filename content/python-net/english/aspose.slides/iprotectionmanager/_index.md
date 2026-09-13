@@ -28,11 +28,11 @@ The IProtectionManager type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`encrypt`](/slides/python-net/aspose.slides/iprotectionmanager/encrypt/#str) | Encrypts Presentation with specified password. |
-| [`remove_encryption`](/slides/python-net/aspose.slides/iprotectionmanager/remove_encryption/#) | Removes the encryption. |
-| [`set_write_protection`](/slides/python-net/aspose.slides/iprotectionmanager/set_write_protection/#str) | Set write protection for this presentation with specified password. |
-| [`remove_write_protection`](/slides/python-net/aspose.slides/iprotectionmanager/remove_write_protection/#) | Removes write protection for this presentation. |
-| [`check_write_protection`](/slides/python-net/aspose.slides/iprotectionmanager/check_write_protection/#str) | Determines whether a presentation is a password protected to modify. |
+| [`encrypt(self, encryption_password)`](/slides/python-net/aspose.slides/iprotectionmanager/encrypt/#str) | Encrypts Presentation with specified password. |
+| [`remove_encryption(self)`](/slides/python-net/aspose.slides/iprotectionmanager/remove_encryption/#) | Removes the encryption. |
+| [`set_write_protection(self, password)`](/slides/python-net/aspose.slides/iprotectionmanager/set_write_protection/#str) | Set write protection for this presentation with specified password. |
+| [`remove_write_protection(self)`](/slides/python-net/aspose.slides/iprotectionmanager/remove_write_protection/#) | Removes write protection for this presentation. |
+| [`check_write_protection(self, password)`](/slides/python-net/aspose.slides/iprotectionmanager/check_write_protection/#str) | Determines whether a presentation is a password protected to modify. |
 
 
 ### See Also

@@ -17,7 +17,7 @@ The ColumnFormat type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`get_effective`](/slides/python-net/aspose.slides/columnformat/get_effective/#) | Gets effective table column formatting properties with inheritance and table styles applied. |
+| [`get_effective(self)`](/slides/python-net/aspose.slides/columnformat/get_effective/#) | Gets effective table column formatting properties with inheritance and table styles applied. |
 
 
 ### See Also

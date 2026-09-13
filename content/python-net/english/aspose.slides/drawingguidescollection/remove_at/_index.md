@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## remove_at {#int}
+## remove_at(self, index) {#int}
 Removes the drawing guide at the specified index.
 
 

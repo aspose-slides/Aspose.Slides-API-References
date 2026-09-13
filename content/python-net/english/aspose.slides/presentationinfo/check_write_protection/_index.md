@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## check_write_protection {#str}
+## check_write_protection(self, password) {#str}
 Checks whether a password to modify is correct for a write protected presentation.
 
 ### Returns

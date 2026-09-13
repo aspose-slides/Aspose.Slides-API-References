@@ -31,7 +31,7 @@ The SmartArtNode type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`remove`](/slides/python-net/aspose.slides.smartart/smartartnode/remove/#) | Remove current node. |
+| [`remove(self)`](/slides/python-net/aspose.slides.smartart/smartartnode/remove/#) | Remove current node. |
 
 
 ### See Also

@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## remove_at {#int}
+## remove_at(self, index) {#int}
 Removes custom xml part at the specified index.
 
 

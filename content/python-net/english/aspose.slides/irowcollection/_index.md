@@ -25,9 +25,9 @@ Gets the element at the specified index.
 
 | Method | Description |
 | :- | :- |
-| [`add_clone`](/slides/python-net/aspose.slides/irowcollection/add_clone/#irow-bool) | Creates a copy of the specified template row and inserts it at the bottom of a table. |
-| [`insert_clone`](/slides/python-net/aspose.slides/irowcollection/insert_clone/#int-irow-bool) | Creates a copy of the specified template row and insert it at the specified position in a table. |
-| [`remove_at`](/slides/python-net/aspose.slides/irowcollection/remove_at/#int-bool) | Removes a row at the specified position from a table. |
+| [`add_clone(self, templ, with_attached_rows)`](/slides/python-net/aspose.slides/irowcollection/add_clone/#irow-bool) | Creates a copy of the specified template row and inserts it at the bottom of a table. |
+| [`insert_clone(self, index, templ, with_attached_rows)`](/slides/python-net/aspose.slides/irowcollection/insert_clone/#int-irow-bool) | Creates a copy of the specified template row and insert it at the specified position in a table. |
+| [`remove_at(self, first_row_index, with_attached_rows)`](/slides/python-net/aspose.slides/irowcollection/remove_at/#int-bool) | Removes a row at the specified position from a table. |
 
 
 ### See Also

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#str-str-str}
+## __init__(self, path, file_name, base_uri) {#str-str-str}
 Creates a new instance of controller
 
 

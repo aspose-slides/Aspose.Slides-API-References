@@ -31,11 +31,11 @@ Returns a cell (IChartDataCell) by index.
 
 | Method | Description |
 | :- | :- |
-| [`add`](/slides/python-net/aspose.slides.charts/chartcellcollection/add/#ichartdatacell) | Add new cell to the collection. |
-| [`add`](/slides/python-net/aspose.slides.charts/chartcellcollection/add/#any) | Creates [`ChartDataCell`](/slides/python-net/aspose.slides.charts/chartdatacell) from specified value and adds it to the collection. |
-| [`get_cells_address`](/slides/python-net/aspose.slides.charts/chartcellcollection/get_cells_address/#) | Returns address of the set of cells in workbook. |
-| [`get_concatenated_values_from_cells`](/slides/python-net/aspose.slides.charts/chartcellcollection/get_concatenated_values_from_cells/#) | Concatenation string from all cells string values. |
-| [`remove_at`](/slides/python-net/aspose.slides.charts/chartcellcollection/remove_at/#int) | Removes a cell from the collection by index. |
+| [`add(self, cell)`](/slides/python-net/aspose.slides.charts/chartcellcollection/add/#ichartdatacell) | Add new cell to the collection. |
+| [`add(self, value)`](/slides/python-net/aspose.slides.charts/chartcellcollection/add/#any) | Creates [`ChartDataCell`](/slides/python-net/aspose.slides.charts/chartdatacell) from specified value and adds it to the collection. |
+| [`get_cells_address(self)`](/slides/python-net/aspose.slides.charts/chartcellcollection/get_cells_address/#) | Returns address of the set of cells in workbook. |
+| [`get_concatenated_values_from_cells(self)`](/slides/python-net/aspose.slides.charts/chartcellcollection/get_concatenated_values_from_cells/#) | Concatenation string from all cells string values. |
+| [`remove_at(self, index)`](/slides/python-net/aspose.slides.charts/chartcellcollection/remove_at/#int) | Removes a cell from the collection by index. |
 
 
 ### See Also

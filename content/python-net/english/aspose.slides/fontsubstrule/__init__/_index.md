@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#ifontdata-ifontdata}
+## __init__(self, source_font, dest_font) {#ifontdata-ifontdata}
 Creates new instance.
 
 
@@ -24,7 +24,7 @@ def __init__(self, source_font, dest_font):
 | dest_font | [`IFontData`](/slides/python-net/aspose.slides/ifontdata) | Destination font. |
 
 
-## __init__ {#ifontdata-ifontdata-fontsubstcondition}
+## __init__(self, source_font, dest_font, font_subst_rule) {#ifontdata-ifontdata-fontsubstcondition}
 Creates new instance.
 
 

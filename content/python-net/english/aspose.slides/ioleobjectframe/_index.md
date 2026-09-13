@@ -68,14 +68,14 @@ The IOleObjectFrame type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`get_image`](/slides/python-net/aspose.slides/ioleobjectframe/get_image/#) |  |
-| [`get_image`](/slides/python-net/aspose.slides/ioleobjectframe/get_image/#shapethumbnailbounds-float-float) |  |
-| [`write_as_svg`](/slides/python-net/aspose.slides/ioleobjectframe/write_as_svg/#iorawiobase) |  |
-| [`write_as_svg`](/slides/python-net/aspose.slides/ioleobjectframe/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) |  |
-| [`set_embedded_data`](/slides/python-net/aspose.slides/ioleobjectframe/set_embedded_data/#ioleembeddeddatainfo) | Sets information about OLE embedded data. |
-| [`add_placeholder`](/slides/python-net/aspose.slides/ioleobjectframe/add_placeholder/#iplaceholder) |  |
-| [`remove_placeholder`](/slides/python-net/aspose.slides/ioleobjectframe/remove_placeholder/#) |  |
-| [`get_base_placeholder`](/slides/python-net/aspose.slides/ioleobjectframe/get_base_placeholder/#) |  |
+| [`get_image(self)`](/slides/python-net/aspose.slides/ioleobjectframe/get_image/#) |  |
+| [`get_image(self, bounds, scale_x, scale_y)`](/slides/python-net/aspose.slides/ioleobjectframe/get_image/#shapethumbnailbounds-float-float) |  |
+| [`write_as_svg(self, stream)`](/slides/python-net/aspose.slides/ioleobjectframe/write_as_svg/#iorawiobase) |  |
+| [`write_as_svg(self, stream, svg_options)`](/slides/python-net/aspose.slides/ioleobjectframe/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) |  |
+| [`set_embedded_data(self, embedded_data)`](/slides/python-net/aspose.slides/ioleobjectframe/set_embedded_data/#ioleembeddeddatainfo) | Sets information about OLE embedded data. |
+| [`add_placeholder(self, placeholder_to_copy_from)`](/slides/python-net/aspose.slides/ioleobjectframe/add_placeholder/#iplaceholder) |  |
+| [`remove_placeholder(self)`](/slides/python-net/aspose.slides/ioleobjectframe/remove_placeholder/#) |  |
+| [`get_base_placeholder(self)`](/slides/python-net/aspose.slides/ioleobjectframe/get_base_placeholder/#) |  |
 
 
 ### See Also

@@ -18,7 +18,7 @@ The IAIWebClient type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`create_conversation`](/slides/python-net/aspose.slides.ai/iaiwebclient/create_conversation/#) | Creates a conversation instance. Unlike regular AI calls, conversations retain the entire context. |
+| [`create_conversation(self)`](/slides/python-net/aspose.slides.ai/iaiwebclient/create_conversation/#) | Creates a conversation instance. Unlike regular AI calls, conversations retain the entire context. |
 
 
 ### See Also

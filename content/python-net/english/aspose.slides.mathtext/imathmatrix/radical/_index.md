@@ -8,7 +8,7 @@ weight: 190
 ---
 
 
-## radical {#imathelement}
+## radical(self, degree) {#imathelement}
 
 
 
@@ -23,7 +23,7 @@ def radical(self, degree):
 | degree | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |  |
 
 
-## radical {#str}
+## radical(self, degree) {#str}
 
 
 

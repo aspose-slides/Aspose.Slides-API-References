@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## get_level {#int}
+## get_level(self, index) {#int}
 If level of style exist returns it, otherwise returns None.
 
 ### Returns

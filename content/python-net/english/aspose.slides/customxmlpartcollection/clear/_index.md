@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## clear {#}
+## clear(self) {#}
 Removes all items from the collection.
 
 

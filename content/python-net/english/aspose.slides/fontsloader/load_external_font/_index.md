@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## load_external_font {#bytes}
+## load_external_font(data) {#bytes}
 Adds font from the binary data
 
 

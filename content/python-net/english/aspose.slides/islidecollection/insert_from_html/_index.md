@@ -8,7 +8,7 @@ weight: 80
 ---
 
 
-## insert_from_html {#int-str}
+## insert_from_html(self, index, html_text) {#int-str}
 Creates slides from HTML text and inserts them to the collection at the specified position.
 
 ### Returns
@@ -29,7 +29,7 @@ def insert_from_html(self, index, html_text):
 | html_text | **str** | Html to add. |
 
 
-## insert_from_html {#int-iorawiobase}
+## insert_from_html(self, index, html_stream) {#int-iorawiobase}
 Creates slides from HTML text and inserts them to the collection at the specified position.
 
 ### Returns
@@ -50,7 +50,7 @@ def insert_from_html(self, index, html_stream):
 | html_stream | **io.RawIOBase** | A Stream object which will be used as a source of a HTML file. |
 
 
-## insert_from_html {#int-str-bool}
+## insert_from_html(self, index, html_text, use_slide_with_index_as_start) {#int-str-bool}
 Creates slides from HTML text and inserts them to the collection at the specified position.
 
 ### Returns
@@ -72,7 +72,7 @@ def insert_from_html(self, index, html_text, use_slide_with_index_as_start):
 | use_slide_with_index_as_start | **bool** | This flag determines how to start insertion: from a new slide or from the slide with the specified index.<br/><br/>            If **true** , then data insertion will start from an empty space on the slide with the specified index.<br/><br/>            If **false** , then data will be added to the created slides. |
 
 
-## insert_from_html {#int-iorawiobase-bool}
+## insert_from_html(self, index, html_stream, use_slide_with_index_as_start) {#int-iorawiobase-bool}
 Creates slides from HTML text and inserts them to the collection at the specified position.
 
 ### Returns
@@ -94,7 +94,7 @@ def insert_from_html(self, index, html_stream, use_slide_with_index_as_start):
 | use_slide_with_index_as_start | **bool** | This flag determines how to start insertion: from a new slide or from the slide with the specified index.<br/><br/>            If **true** , then data insertion will start from an empty space on the slide with the specified index.<br/><br/>            If **false** , then data will be added to the created slides. |
 
 
-## insert_from_html {#int-str-asposeslidesimportingiexternalresourceresolver-str}
+## insert_from_html(self, index, html_text, resolver, uri) {#int-str-asposeslidesimportingiexternalresourceresolver-str}
 Creates slides from HTML text and inserts them to the collection at the specified position.
 
 ### Returns
@@ -117,7 +117,7 @@ def insert_from_html(self, index, html_text, resolver, uri):
 | uri | **str** | An URI of the specified HTML. Used to resolve relative links. |
 
 
-## insert_from_html {#int-iorawiobase-asposeslidesimportingiexternalresourceresolver-str}
+## insert_from_html(self, index, html_stream, resolver, uri) {#int-iorawiobase-asposeslidesimportingiexternalresourceresolver-str}
 Creates slides from HTML text and inserts them to the collection at the specified position.
 
 ### Returns
@@ -140,7 +140,7 @@ def insert_from_html(self, index, html_stream, resolver, uri):
 | uri | **str** | An URI of the specified HTML. Used to resolve relative links. |
 
 
-## insert_from_html {#int-str-asposeslidesimportingiexternalresourceresolver-str-bool}
+## insert_from_html(self, index, html_text, resolver, uri, use_slide_with_index_as_start) {#int-str-asposeslidesimportingiexternalresourceresolver-str-bool}
 Creates slides from HTML text and inserts them to the collection at the specified position.
 
 ### Returns
@@ -164,7 +164,7 @@ def insert_from_html(self, index, html_text, resolver, uri, use_slide_with_index
 | use_slide_with_index_as_start | **bool** | This flag determines how to start insertion: from a new slide or from the slide with the specified index.<br/><br/>            If **true** , then data insertion will start from an empty space on the slide with the specified index.<br/><br/>            If **false** , then data will be added to the created slides. |
 
 
-## insert_from_html {#int-iorawiobase-asposeslidesimportingiexternalresourceresolver-str-bool}
+## insert_from_html(self, index, html_stream, resolver, uri, use_slide_with_index_as_start) {#int-iorawiobase-asposeslidesimportingiexternalresourceresolver-str-bool}
 Creates slides from HTML text and inserts them to the collection at the specified position.
 
 ### Returns

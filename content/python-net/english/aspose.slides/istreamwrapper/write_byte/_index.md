@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## write_byte {#int}
+## write_byte(self, value) {#int}
 Writes a byte to the current position in the stream and advances the position within the stream by one byte.
 
 

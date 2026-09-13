@@ -17,7 +17,7 @@ The InterruptionTokenSource type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides/interruptiontokensource/__init__/#) | Creates a new [`InterruptionTokenSource`](/slides/python-net/aspose.slides/interruptiontokensource). |
+| [`__init__(self)`](/slides/python-net/aspose.slides/interruptiontokensource/__init__/#) | Creates a new [`InterruptionTokenSource`](/slides/python-net/aspose.slides/interruptiontokensource). |
 
 ## Properties
 
@@ -30,7 +30,7 @@ The InterruptionTokenSource type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`interrupt`](/slides/python-net/aspose.slides/interruptiontokensource/interrupt/#) | Intialize request for interruption. |
+| [`interrupt(self)`](/slides/python-net/aspose.slides/interruptiontokensource/interrupt/#) | Intialize request for interruption. |
 
 
 ### See Also

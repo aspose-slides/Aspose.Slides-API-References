@@ -17,7 +17,7 @@ The TextAnimation type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides.animation/textanimation/__init__/#) |  |
+| [`__init__(self)`](/slides/python-net/aspose.slides.animation/textanimation/__init__/#) |  |
 
 ## Properties
 
@@ -30,7 +30,7 @@ The TextAnimation type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`add_effect`](/slides/python-net/aspose.slides.animation/textanimation/add_effect/#effecttype-effectsubtype-effecttriggertype) | Add new effect to the end of current sequence to end of group text animations.<br/>            Only valid if count of text paragraphs equal or greater of counts effect of this group! |
+| [`add_effect(self, effect_type, subtype, trigger_type)`](/slides/python-net/aspose.slides.animation/textanimation/add_effect/#effecttype-effectsubtype-effecttriggertype) | Add new effect to the end of current sequence to end of group text animations.<br/>            Only valid if count of text paragraphs equal or greater of counts effect of this group! |
 
 
 ### See Also

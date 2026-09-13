@@ -29,7 +29,7 @@ The IStringOrDoubleChartValue type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`to_double`](/slides/python-net/aspose.slides.charts/istringordoublechartvalue/to_double/#) | Converts value to double. |
+| [`to_double(self)`](/slides/python-net/aspose.slides.charts/istringordoublechartvalue/to_double/#) | Converts value to double. |
 
 
 ### See Also

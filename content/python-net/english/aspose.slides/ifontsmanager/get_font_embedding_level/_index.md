@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## get_font_embedding_level {#bytes-str}
+## get_font_embedding_level(self, font_bytes, font_name) {#bytes-str}
 Determines the embedding level of a font from the given byte array and font name.
 
 ### Returns

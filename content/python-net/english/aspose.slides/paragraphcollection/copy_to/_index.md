@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## copy_to {#listiparagraph-int}
+## copy_to(self, array, array_index) {#listiparagraph-int}
 Copies the elements of the **System.Collections.Generic.ICollection`1** to an **System.Array**, starting at a particular **System.Array** index.
 
 

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## replace_image {#bytes}
+## replace_image(self, new_image_data) {#bytes}
 Replaces image data.
 
 
@@ -23,7 +23,7 @@ def replace_image(self, new_image_data):
 | new_image_data | **bytes** | The new image's data. |
 
 
-## replace_image {#iimage}
+## replace_image(self, new_image) {#iimage}
 Replaces image.
 
 
@@ -38,7 +38,7 @@ def replace_image(self, new_image):
 | new_image | [`IImage`](/slides/python-net/aspose.slides/iimage) | The new image. |
 
 
-## replace_image {#ippimage}
+## replace_image(self, new_image) {#ippimage}
 Replaces image.
 
 

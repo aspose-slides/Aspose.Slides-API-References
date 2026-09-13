@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## disable_preset_shadow_effect {#}
+## disable_preset_shadow_effect(self) {#}
 Disables preset shadow effect.
 
 

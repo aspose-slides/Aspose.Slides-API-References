@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#presentation-float}
+## __init__(self, presentation, fps) {#presentation-float}
 Creates new instance of the [`PresentationPlayer`](/slides/python-net/aspose.slides.export/presentationplayer).
 
 
@@ -24,7 +24,7 @@ def __init__(self, presentation, fps):
 | fps | **float** | Frames per second (FPS) |
 
 
-## __init__ {#asposepydrawingsize-float}
+## __init__(self, frame_size, fps) {#asposepydrawingsize-float}
 Creates new instance of the [`PresentationPlayer`](/slides/python-net/aspose.slides.export/presentationplayer).
 
 

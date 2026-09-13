@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## get_slide_by_id {#int}
+## get_slide_by_id(self, id) {#int}
 Returns a Slide, MasterSlide or LayoutSlide by Id.
 
 ### Returns

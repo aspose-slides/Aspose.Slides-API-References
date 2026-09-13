@@ -36,7 +36,7 @@ The IReflection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`get_effective`](/slides/python-net/aspose.slides.effects/ireflection/get_effective/#) |  |
+| [`get_effective(self)`](/slides/python-net/aspose.slides.effects/ireflection/get_effective/#) |  |
 
 
 ### See Also

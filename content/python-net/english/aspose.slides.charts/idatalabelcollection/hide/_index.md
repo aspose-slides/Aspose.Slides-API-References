@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## hide {#}
+## hide(self) {#}
 Make data label hidden by default by setting all Show*-flags (ShowValue, ...) of the 
             DefaultDataLabelFormat property to false state.
             IsVisible will be false after this.

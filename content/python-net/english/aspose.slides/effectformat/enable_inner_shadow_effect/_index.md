@@ -8,7 +8,7 @@ weight: 110
 ---
 
 
-## enable_inner_shadow_effect {#}
+## enable_inner_shadow_effect(self) {#}
 Enables inner shadow effect.
 
 

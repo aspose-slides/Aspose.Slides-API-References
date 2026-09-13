@@ -8,7 +8,7 @@ weight: 80
 ---
 
 
-## set_geometry_path {#igeometrypath}
+## set_geometry_path(self, geometry_path) {#igeometrypath}
 
 
 

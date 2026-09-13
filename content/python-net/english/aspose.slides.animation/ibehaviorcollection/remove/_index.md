@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## remove {#ibehavior}
+## remove(self, item) {#ibehavior}
 Removes specified behavior from a collection.
 
 ### Returns

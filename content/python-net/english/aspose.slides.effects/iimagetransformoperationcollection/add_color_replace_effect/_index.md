@@ -8,7 +8,7 @@ weight: 120
 ---
 
 
-## add_color_replace_effect {#}
+## add_color_replace_effect(self) {#}
 Adds the new Color Replacement effect to the end of a collection.
 
 ### Returns

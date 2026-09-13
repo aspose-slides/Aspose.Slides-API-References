@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## create_theme_effective {#}
+## create_theme_effective(self) {#}
 Returns an effective theme for this slide.
 
 

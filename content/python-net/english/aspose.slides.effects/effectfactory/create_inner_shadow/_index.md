@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## create_inner_shadow {#}
+## create_inner_shadow(self) {#}
 Creates Inner shafow effect.
 
 ### Returns

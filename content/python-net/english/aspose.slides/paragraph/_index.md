@@ -17,8 +17,8 @@ The Paragraph type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides/paragraph/__init__/#) | Initializes a new instance of the Paragraph class with default properties. |
-| [`__init__`](/slides/python-net/aspose.slides/paragraph/__init__/#paragraph) | Copy constructor that initializes a new instance of a Paragraph class. |
+| [`__init__(self)`](/slides/python-net/aspose.slides/paragraph/__init__/#) | Initializes a new instance of the Paragraph class with default properties. |
+| [`__init__(self, para)`](/slides/python-net/aspose.slides/paragraph/__init__/#paragraph) | Copy constructor that initializes a new instance of a Paragraph class. |
 
 ## Properties
 
@@ -35,11 +35,11 @@ The Paragraph type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`get_image`](/slides/python-net/aspose.slides/paragraph/get_image/#) | Returns an image of the paragraph. |
-| [`get_image`](/slides/python-net/aspose.slides/paragraph/get_image/#float-float) | Returns an image of the paragraph with the specified scale. |
-| [`join_portions_with_same_formatting`](/slides/python-net/aspose.slides/paragraph/join_portions_with_same_formatting/#) | Joins runs with same formatting. |
-| [`get_rect`](/slides/python-net/aspose.slides/paragraph/get_rect/#) | Get coordinates of rect that bounds paragraph. The rect includes all the lines of<br/>            text in paragraph, including empty ones. |
-| [`get_lines_count`](/slides/python-net/aspose.slides/paragraph/get_lines_count/#) | Get number of lines in a paragraph. |
+| [`get_image(self)`](/slides/python-net/aspose.slides/paragraph/get_image/#) | Returns an image of the paragraph. |
+| [`get_image(self, scale_x, scale_y)`](/slides/python-net/aspose.slides/paragraph/get_image/#float-float) | Returns an image of the paragraph with the specified scale. |
+| [`join_portions_with_same_formatting(self)`](/slides/python-net/aspose.slides/paragraph/join_portions_with_same_formatting/#) | Joins runs with same formatting. |
+| [`get_rect(self)`](/slides/python-net/aspose.slides/paragraph/get_rect/#) | Get coordinates of rect that bounds paragraph. The rect includes all the lines of<br/>            text in paragraph, including empty ones. |
+| [`get_lines_count(self)`](/slides/python-net/aspose.slides/paragraph/get_lines_count/#) | Get number of lines in a paragraph. |
 
 
 ### See Also

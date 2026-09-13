@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## equals {#ihyperlink}
+## equals(self, hlink) {#ihyperlink}
 Determines whether the two Hyperlink instances are equal.
 
 ### Returns

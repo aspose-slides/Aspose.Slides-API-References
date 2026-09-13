@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## to_tiff {#presentation-str}
+## to_tiff(pres, output_file_name) {#presentation-str}
 Converts the input presentation to a set of TIFF format images.  
             If the output file name is given as "myPath/myFilename.tiff", 
             the result will be saved as a set of "myPath/myFilename_N.tiff" files, where N is a slide number.
@@ -33,7 +33,7 @@ def to_tiff(pres, output_file_name):
 | **RuntimeError(Proxy error(ArgumentException))** |  |
 
 
-## to_tiff {#presentation-str-asposeslidesexportitiffoptions-bool}
+## to_tiff(pres, output_file_name, options, multipage) {#presentation-str-asposeslidesexportitiffoptions-bool}
 Converts the input presentation to TIFF format with custom options.
             If the output file name is given as "myPath/myFilename.tiff" and `multipage` is `false`, 
             the result will be saved as a set of "myPath/myFilename_N.tiff" files, where N is a slide number.

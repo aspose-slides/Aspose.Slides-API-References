@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## get_geometry_paths {#}
+## get_geometry_paths(self) {#}
 Returns the copy of path of the geometry shape. Coordinates are relative to the left top corner of the shape.
 
 ### Returns

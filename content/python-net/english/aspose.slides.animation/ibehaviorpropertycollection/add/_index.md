@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#str}
+## add(self, property_value) {#str}
 Adds a new property to the collection.
 
 

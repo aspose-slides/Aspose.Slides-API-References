@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## create_alpha_inverse {#}
+## create_alpha_inverse(self) {#}
 Creates Alpha inverse effect.
 
 ### Returns

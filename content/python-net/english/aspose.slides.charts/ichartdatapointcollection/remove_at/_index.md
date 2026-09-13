@@ -8,7 +8,7 @@ weight: 210
 ---
 
 
-## remove_at {#int}
+## remove_at(self, index) {#int}
 Removes the element at the given index.
 
 

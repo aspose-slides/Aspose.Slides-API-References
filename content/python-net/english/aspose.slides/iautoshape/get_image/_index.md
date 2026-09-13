@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## get_image {#}
+## get_image(self) {#}
 
 
 
@@ -19,7 +19,7 @@ def get_image(self):
 
 
 
-## get_image {#shapethumbnailbounds-float-float}
+## get_image(self, bounds, scale_x, scale_y) {#shapethumbnailbounds-float-float}
 
 
 

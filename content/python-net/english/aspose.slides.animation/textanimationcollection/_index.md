@@ -17,7 +17,7 @@ The TextAnimationCollection type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides.animation/textanimationcollection/__init__/#) |  |
+| [`__init__(self)`](/slides/python-net/aspose.slides.animation/textanimationcollection/__init__/#) |  |
 
 Returns element by index.
 
@@ -31,7 +31,7 @@ Returns element by index.
 
 | Method | Description |
 | :- | :- |
-| [`add`](/slides/python-net/aspose.slides.animation/textanimationcollection/add/#) | Adds new text animation to the collection. |
+| [`add(self)`](/slides/python-net/aspose.slides.animation/textanimationcollection/add/#) | Adds new text animation to the collection. |
 
 
 ### See Also

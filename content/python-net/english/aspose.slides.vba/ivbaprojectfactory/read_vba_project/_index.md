@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## read_vba_project {#bytes}
+## read_vba_project(self, data) {#bytes}
 Reads VBA project from OLE container.
 
 ### Returns

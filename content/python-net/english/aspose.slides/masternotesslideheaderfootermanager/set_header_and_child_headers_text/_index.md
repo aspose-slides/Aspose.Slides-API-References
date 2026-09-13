@@ -8,7 +8,7 @@ weight: 90
 ---
 
 
-## set_header_and_child_headers_text {#str}
+## set_header_and_child_headers_text(self, text) {#str}
 Sets text to master notes slide header placeholder and all child header placeholders.
             Child placeholders mean placeholders are contained on depending notes slides.
             Depending notes slides use and depend on master notes slide.

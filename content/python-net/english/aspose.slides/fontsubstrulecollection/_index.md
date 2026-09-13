@@ -17,7 +17,7 @@ The FontSubstRuleCollection type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides/fontsubstrulecollection/__init__/#) |  |
+| [`__init__(self)`](/slides/python-net/aspose.slides/fontsubstrulecollection/__init__/#) |  |
 
 Gets the element at the specified index.
 
@@ -31,8 +31,8 @@ Gets the element at the specified index.
 
 | Method | Description |
 | :- | :- |
-| [`add`](/slides/python-net/aspose.slides/fontsubstrulecollection/add/#ifontsubstrule) | Adds the new font substitution rule to the collection |
-| [`remove`](/slides/python-net/aspose.slides/fontsubstrulecollection/remove/#ifontsubstrule) | Removes the first occurrence of a specific object from the collection. |
+| [`add(self, value)`](/slides/python-net/aspose.slides/fontsubstrulecollection/add/#ifontsubstrule) | Adds the new font substitution rule to the collection |
+| [`remove(self, value)`](/slides/python-net/aspose.slides/fontsubstrulecollection/remove/#ifontsubstrule) | Removes the first occurrence of a specific object from the collection. |
 
 
 ### See Also

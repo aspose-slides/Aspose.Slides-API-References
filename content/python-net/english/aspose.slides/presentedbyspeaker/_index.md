@@ -19,7 +19,7 @@ The PresentedBySpeaker type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides/presentedbyspeaker/__init__/#) | Initializes a new instance of the PresentedBySpeaker class. |
+| [`__init__(self)`](/slides/python-net/aspose.slides/presentedbyspeaker/__init__/#) | Initializes a new instance of the PresentedBySpeaker class. |
 
 
 ### See Also

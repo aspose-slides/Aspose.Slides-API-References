@@ -26,10 +26,10 @@ Gets the element at the specified index.
 
 | Method | Description |
 | :- | :- |
-| [`add_audio`](/slides/python-net/aspose.slides/iaudiocollection/add_audio/#iaudio) | Adds a copy of an audio file from an another presentation. |
-| [`add_audio`](/slides/python-net/aspose.slides/iaudiocollection/add_audio/#iorawiobase) | Creates and adds a audio to a presentation from stream. |
-| [`add_audio`](/slides/python-net/aspose.slides/iaudiocollection/add_audio/#iorawiobase-loadingstreambehavior) | Creates and adds a audio to a presentation from stream. |
-| [`add_audio`](/slides/python-net/aspose.slides/iaudiocollection/add_audio/#bytes) | Creates and adds a audio to a presentation from byte array. |
+| [`add_audio(self, audio)`](/slides/python-net/aspose.slides/iaudiocollection/add_audio/#iaudio) | Adds a copy of an audio file from an another presentation. |
+| [`add_audio(self, stream)`](/slides/python-net/aspose.slides/iaudiocollection/add_audio/#iorawiobase) | Creates and adds a audio to a presentation from stream. |
+| [`add_audio(self, stream, loading_stream_behavior)`](/slides/python-net/aspose.slides/iaudiocollection/add_audio/#iorawiobase-loadingstreambehavior) | Creates and adds a audio to a presentation from stream. |
+| [`add_audio(self, audio_data)`](/slides/python-net/aspose.slides/iaudiocollection/add_audio/#bytes) | Creates and adds a audio to a presentation from byte array. |
 
 
 ### See Also

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#int-int}
+## __init__(self, row_count, column_count) {#int-int}
 Initializes a new instance of the MathMatrix class.
 
 

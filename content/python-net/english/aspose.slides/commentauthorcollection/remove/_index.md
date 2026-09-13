@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## remove {#icommentauthor}
+## remove(self, author) {#icommentauthor}
 Removes the first occurrence of the specified author in a collection.
 
 

@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## validate_chart_layout {#}
+## validate_chart_layout(self) {#}
 Calculates actual values of chart elements. The actual values include position of elements that implement IActualLayout interface 
             (IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight)
             and actual axes values (IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, 

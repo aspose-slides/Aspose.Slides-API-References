@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## remove {#iparagraph}
+## remove(self, item) {#iparagraph}
 Removes the first occurrence of a specific paragraph.
 
 ### Returns

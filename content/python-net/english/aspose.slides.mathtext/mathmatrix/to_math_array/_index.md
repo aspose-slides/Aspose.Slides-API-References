@@ -8,7 +8,7 @@ weight: 310
 ---
 
 
-## to_math_array {#}
+## to_math_array(self) {#}
 Puts in a vertical array
 
 ### Returns

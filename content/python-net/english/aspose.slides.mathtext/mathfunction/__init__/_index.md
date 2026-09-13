@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#imathelement-imathelement}
+## __init__(self, func_name, base_argument) {#imathelement-imathelement}
 Initializes a new instance of the MathFunction class.
 
 
@@ -24,7 +24,7 @@ def __init__(self, func_name, base_argument):
 | base_argument | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |  |
 
 
-## __init__ {#str-imathelement}
+## __init__(self, func_name, base_argument) {#str-imathelement}
 Initializes a new instance of the MathFunction class.
 
 

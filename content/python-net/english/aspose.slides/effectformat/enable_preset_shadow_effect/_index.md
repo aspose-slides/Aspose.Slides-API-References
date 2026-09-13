@@ -8,7 +8,7 @@ weight: 130
 ---
 
 
-## enable_preset_shadow_effect {#}
+## enable_preset_shadow_effect(self) {#}
 Enables preset shadows effect.
 
 

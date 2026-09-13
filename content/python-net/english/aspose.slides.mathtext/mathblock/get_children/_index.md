@@ -8,7 +8,7 @@ weight: 120
 ---
 
 
-## get_children {#}
+## get_children(self) {#}
 Get children elements
 
 

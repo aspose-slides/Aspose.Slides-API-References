@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## create_alpha_floor {#}
+## create_alpha_floor(self) {#}
 Creates Alpha floor effect.
 
 ### Returns

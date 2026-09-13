@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## to_pdf {#str-str}
+## to_pdf(pres_path, out_path) {#str-str}
 Converts [`Presentation`](/slides/python-net/aspose.slides/presentation) to PDF.
 
 
@@ -25,7 +25,7 @@ def to_pdf(pres_path, out_path):
 | out_path | **str** | Output path |
 
 
-## to_pdf {#presentation-str}
+## to_pdf(pres, out_path) {#presentation-str}
 Converts [`Presentation`](/slides/python-net/aspose.slides/presentation) to PDF.
 
 
@@ -42,7 +42,7 @@ def to_pdf(pres, out_path):
 | out_path | **str** | Output path |
 
 
-## to_pdf {#str-str-asposeslidesexportipdfoptions}
+## to_pdf(pres_path, out_path, options) {#str-str-asposeslidesexportipdfoptions}
 Converts [`Presentation`](/slides/python-net/aspose.slides/presentation) to PDF.
 
 
@@ -60,7 +60,7 @@ def to_pdf(pres_path, out_path, options):
 | options | [`IPdfOptions`](/slides/python-net/aspose.slides.export/ipdfoptions) | Output PDF options |
 
 
-## to_pdf {#presentation-str-asposeslidesexportipdfoptions}
+## to_pdf(pres, out_path, options) {#presentation-str-asposeslidesexportipdfoptions}
 Converts [`Presentation`](/slides/python-net/aspose.slides/presentation) to PDF.
 
 

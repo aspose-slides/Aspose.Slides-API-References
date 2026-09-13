@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## write {#bytes-int-int}
+## write(self, buffer, offset, count) {#bytes-int-int}
 writes a sequence of bytes to the current stream and advances the current position within this stream by the number of bytes written.
 
 

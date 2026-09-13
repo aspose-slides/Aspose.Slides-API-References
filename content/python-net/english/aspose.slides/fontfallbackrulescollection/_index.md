@@ -17,7 +17,7 @@ The FontFallBackRulesCollection type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides/fontfallbackrulescollection/__init__/#) |  |
+| [`__init__(self)`](/slides/python-net/aspose.slides/fontfallbackrulescollection/__init__/#) |  |
 
 Gets the rule at the specified index.
             Read-only [`IFontFallBackRule`](/slides/python-net/aspose.slides/ifontfallbackrule).
@@ -32,8 +32,8 @@ Gets the rule at the specified index.
 
 | Method | Description |
 | :- | :- |
-| [`add`](/slides/python-net/aspose.slides/fontfallbackrulescollection/add/#ifontfallbackrule) | Add a specified FallBack rule to the end of the collection. |
-| [`remove`](/slides/python-net/aspose.slides/fontfallbackrulescollection/remove/#ifontfallbackrule) | Removes the first occurrence of a specific FallBack rule from the collection. |
+| [`add(self, source_rule)`](/slides/python-net/aspose.slides/fontfallbackrulescollection/add/#ifontfallbackrule) | Add a specified FallBack rule to the end of the collection. |
+| [`remove(self, target_rule)`](/slides/python-net/aspose.slides/fontfallbackrulescollection/remove/#ifontfallbackrule) | Removes the first occurrence of a specific FallBack rule from the collection. |
 
 
 ### See Also

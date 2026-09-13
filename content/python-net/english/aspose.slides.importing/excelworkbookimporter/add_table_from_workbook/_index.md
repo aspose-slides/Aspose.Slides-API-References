@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add_table_from_workbook {#ishapecollection-float-float-asposeslidesexceliexceldataworkbook-str-str}
+## add_table_from_workbook(shapes, x, y, workbook, worksheet_name, cell_range) {#ishapecollection-float-float-asposeslidesexceliexceldataworkbook-str-str}
 Retrieves a table from the specified Excel workbook and adds it to the end of the given shape collection at the specified coordinates.
 
 ### Returns
@@ -41,7 +41,7 @@ def add_table_from_workbook(shapes, x, y, workbook, worksheet_name, cell_range):
 | **RuntimeError(Proxy error(InvalidOperationException))** | Thrown when the input data is in an unsupported format. |
 
 
-## add_table_from_workbook {#ishapecollection-float-float-str-str-str}
+## add_table_from_workbook(shapes, x, y, workbook_path, worksheet_name, cell_range) {#ishapecollection-float-float-str-str-str}
 Retrieves a table from the specified Excel workbook file and adds it to the end of the given shape collection at the specified coordinates.
 
 ### Returns
@@ -75,7 +75,7 @@ def add_table_from_workbook(shapes, x, y, workbook_path, worksheet_name, cell_ra
 | **RuntimeError(Proxy error(InvalidOperationException))** | Thrown when the input data is in an unsupported format. |
 
 
-## add_table_from_workbook {#ishapecollection-float-float-iorawiobase-str-str}
+## add_table_from_workbook(shapes, x, y, workbook_stream, worksheet_name, cell_range) {#ishapecollection-float-float-iorawiobase-str-str}
 Retrieves a table from the specified Excel workbook file and adds it to the end of the given shape collection at the specified coordinates.
 
 ### Returns

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## create_math_function {#imathelement-imathelement}
+## create_math_function(self, func_name, base_argument) {#imathelement-imathelement}
 Creates math function
 
 ### Returns
@@ -29,7 +29,7 @@ def create_math_function(self, func_name, base_argument):
 | base_argument | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Element used as a function argument |
 
 
-## create_math_function {#str-imathelement}
+## create_math_function(self, func_name, base_argument) {#str-imathelement}
 Creates math function
 
 ### Returns

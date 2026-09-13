@@ -8,7 +8,7 @@ weight: 90
 ---
 
 
-## remove {#iparagraph}
+## remove(self, item) {#iparagraph}
 Removes the first occurrence of a specific object from the **System.Collections.Generic.ICollection`1**.
 
 ### Returns

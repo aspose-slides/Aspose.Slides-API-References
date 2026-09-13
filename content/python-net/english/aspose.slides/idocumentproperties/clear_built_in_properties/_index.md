@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## clear_built_in_properties {#}
+## clear_built_in_properties(self) {#}
 Clears and sets default values for all builtIn properties.
 
 

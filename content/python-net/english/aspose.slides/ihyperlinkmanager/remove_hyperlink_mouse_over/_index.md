@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## remove_hyperlink_mouse_over {#}
+## remove_hyperlink_mouse_over(self) {#}
 Removes hyperlink mouse over.
 
 

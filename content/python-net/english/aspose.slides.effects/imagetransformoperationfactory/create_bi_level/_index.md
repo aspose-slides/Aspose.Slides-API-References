@@ -8,7 +8,7 @@ weight: 90
 ---
 
 
-## create_bi_level {#float}
+## create_bi_level(self, threshold) {#float}
 Creates BiLevel effect.
 
 ### Returns

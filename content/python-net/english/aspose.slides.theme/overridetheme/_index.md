@@ -29,17 +29,17 @@ The OverrideTheme type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`get_effective`](/slides/python-net/aspose.slides.theme/overridetheme/get_effective/#) | Gets effective theme data with the inheritance applied. |
-| [`init_color_scheme`](/slides/python-net/aspose.slides.theme/overridetheme/init_color_scheme/#) | Init ColorScheme with new object for overriding ColorScheme of InheritedTheme. |
-| [`init_color_scheme_from`](/slides/python-net/aspose.slides.theme/overridetheme/init_color_scheme_from/#icolorscheme) | Init ColorScheme with new object for overriding ColorScheme of InheritedTheme. |
-| [`init_color_scheme_from_inherited`](/slides/python-net/aspose.slides.theme/overridetheme/init_color_scheme_from_inherited/#) | Init ColorScheme with new object for overriding ColorScheme of InheritedTheme. And initialize data of this new object with data of the ColorScheme of InheritedTheme. |
-| [`init_font_scheme`](/slides/python-net/aspose.slides.theme/overridetheme/init_font_scheme/#) | Init FontScheme with new object for overriding FontScheme of InheritedTheme. |
-| [`init_font_scheme_from`](/slides/python-net/aspose.slides.theme/overridetheme/init_font_scheme_from/#ifontscheme) | Init FontScheme with new object for overriding FontScheme of InheritedTheme. |
-| [`init_font_scheme_from_inherited`](/slides/python-net/aspose.slides.theme/overridetheme/init_font_scheme_from_inherited/#) | Init FontScheme with new object for overriding FontScheme of InheritedTheme. And initialize data of this new object with data of the FontScheme of InheritedTheme. |
-| [`init_format_scheme`](/slides/python-net/aspose.slides.theme/overridetheme/init_format_scheme/#) | Init FormatScheme with new object for overriding FormatScheme of InheritedTheme. |
-| [`init_format_scheme_from`](/slides/python-net/aspose.slides.theme/overridetheme/init_format_scheme_from/#iformatscheme) | Init FormatScheme with new object for overriding FormatScheme of InheritedTheme. |
-| [`init_format_scheme_from_inherited`](/slides/python-net/aspose.slides.theme/overridetheme/init_format_scheme_from_inherited/#) | Init FormatScheme with new object for overriding FormatScheme of InheritedTheme. And initialize data of this new object with data of the FormatScheme of InheritedTheme. |
-| [`clear`](/slides/python-net/aspose.slides.theme/overridetheme/clear/#) | Set ColorScheme, FontScheme, FormatScheme to None to disable any overriding with this theme object. |
+| [`get_effective(self)`](/slides/python-net/aspose.slides.theme/overridetheme/get_effective/#) | Gets effective theme data with the inheritance applied. |
+| [`init_color_scheme(self)`](/slides/python-net/aspose.slides.theme/overridetheme/init_color_scheme/#) | Init ColorScheme with new object for overriding ColorScheme of InheritedTheme. |
+| [`init_color_scheme_from(self, color_scheme)`](/slides/python-net/aspose.slides.theme/overridetheme/init_color_scheme_from/#icolorscheme) | Init ColorScheme with new object for overriding ColorScheme of InheritedTheme. |
+| [`init_color_scheme_from_inherited(self)`](/slides/python-net/aspose.slides.theme/overridetheme/init_color_scheme_from_inherited/#) | Init ColorScheme with new object for overriding ColorScheme of InheritedTheme. And initialize data of this new object with data of the ColorScheme of InheritedTheme. |
+| [`init_font_scheme(self)`](/slides/python-net/aspose.slides.theme/overridetheme/init_font_scheme/#) | Init FontScheme with new object for overriding FontScheme of InheritedTheme. |
+| [`init_font_scheme_from(self, font_scheme)`](/slides/python-net/aspose.slides.theme/overridetheme/init_font_scheme_from/#ifontscheme) | Init FontScheme with new object for overriding FontScheme of InheritedTheme. |
+| [`init_font_scheme_from_inherited(self)`](/slides/python-net/aspose.slides.theme/overridetheme/init_font_scheme_from_inherited/#) | Init FontScheme with new object for overriding FontScheme of InheritedTheme. And initialize data of this new object with data of the FontScheme of InheritedTheme. |
+| [`init_format_scheme(self)`](/slides/python-net/aspose.slides.theme/overridetheme/init_format_scheme/#) | Init FormatScheme with new object for overriding FormatScheme of InheritedTheme. |
+| [`init_format_scheme_from(self, format_scheme)`](/slides/python-net/aspose.slides.theme/overridetheme/init_format_scheme_from/#iformatscheme) | Init FormatScheme with new object for overriding FormatScheme of InheritedTheme. |
+| [`init_format_scheme_from_inherited(self)`](/slides/python-net/aspose.slides.theme/overridetheme/init_format_scheme_from_inherited/#) | Init FormatScheme with new object for overriding FormatScheme of InheritedTheme. And initialize data of this new object with data of the FormatScheme of InheritedTheme. |
+| [`clear(self)`](/slides/python-net/aspose.slides.theme/overridetheme/clear/#) | Set ColorScheme, FontScheme, FormatScheme to None to disable any overriding with this theme object. |
 
 
 ### See Also

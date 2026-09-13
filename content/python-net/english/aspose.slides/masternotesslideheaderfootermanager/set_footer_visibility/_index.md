@@ -8,7 +8,7 @@ weight: 80
 ---
 
 
-## set_footer_visibility {#bool}
+## set_footer_visibility(self, is_visible) {#bool}
 Changes slide footer placeholder visibility.
 
 

@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## get_consumption_credit {#}
+## get_consumption_credit() {#}
 Gets consumption credit
 
 ### Returns

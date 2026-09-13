@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## create_color_effect {#}
+## create_color_effect(self) {#}
 Creates color effect.
 
 ### Returns

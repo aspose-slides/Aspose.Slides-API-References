@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## set_all_date_times_visibility {#bool}
+## set_all_date_times_visibility(self, is_visible) {#bool}
 Changes all date-time placeholders visibility, including master slides, layout slides, slides, 
             notes master, notes slides and handout master.
 

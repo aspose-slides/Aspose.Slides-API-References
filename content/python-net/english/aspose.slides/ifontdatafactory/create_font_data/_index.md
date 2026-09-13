@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## create_font_data {#str}
+## create_font_data(self, font_name) {#str}
 Creates FontData with specified font name.
 
 ### Returns

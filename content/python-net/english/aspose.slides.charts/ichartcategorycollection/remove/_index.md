@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## remove {#ichartcategory}
+## remove(self, value) {#ichartcategory}
 Removes the specified value.
 
 

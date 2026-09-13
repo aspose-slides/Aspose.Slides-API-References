@@ -8,7 +8,7 @@ weight: 170
 ---
 
 
-## add_luminance_effect {#float-float}
+## add_luminance_effect(self, brightness, contrast) {#float-float}
 Adds the new Luminance effect to the end of a collection.
 
 ### Returns

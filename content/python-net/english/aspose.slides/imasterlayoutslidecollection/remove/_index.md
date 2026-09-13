@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## remove {#ilayoutslide}
+## remove(self, value) {#ilayoutslide}
 
 
 

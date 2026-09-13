@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## remove_write_protection {#}
+## remove_write_protection(self) {#}
 Removes write protection for this presentation.
 
 

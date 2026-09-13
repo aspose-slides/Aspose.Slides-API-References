@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## function {#imathelement}
+## function(self, function_argument) {#imathelement}
 
 
 
@@ -23,7 +23,7 @@ def function(self, function_argument):
 | function_argument | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |  |
 
 
-## function {#str}
+## function(self, function_argument) {#str}
 
 
 

@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## calculate_formulas {#}
+## calculate_formulas(self) {#}
 Calculates all formulas in the workbook and updates corresponding cells values.
 
 

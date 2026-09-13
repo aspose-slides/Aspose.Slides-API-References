@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## create_outer_shadow {#}
+## create_outer_shadow(self) {#}
 Creates Outer shadow effect.
 
 ### Returns

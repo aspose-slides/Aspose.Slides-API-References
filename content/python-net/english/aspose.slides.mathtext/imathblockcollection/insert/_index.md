@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## insert {#int-imathblock}
+## insert(self, index, item) {#int-imathblock}
 Inserts IMathBlock into the collection at the specified index.
 
 

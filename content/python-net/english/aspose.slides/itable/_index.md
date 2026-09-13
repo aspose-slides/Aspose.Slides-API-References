@@ -66,17 +66,17 @@ The ITable type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`get_image`](/slides/python-net/aspose.slides/itable/get_image/#) |  |
-| [`get_image`](/slides/python-net/aspose.slides/itable/get_image/#shapethumbnailbounds-float-float) |  |
-| [`write_as_svg`](/slides/python-net/aspose.slides/itable/write_as_svg/#iorawiobase) |  |
-| [`write_as_svg`](/slides/python-net/aspose.slides/itable/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) |  |
-| [`set_text_format`](/slides/python-net/aspose.slides/itable/set_text_format/#iportionformat) |  |
-| [`set_text_format`](/slides/python-net/aspose.slides/itable/set_text_format/#iparagraphformat) |  |
-| [`set_text_format`](/slides/python-net/aspose.slides/itable/set_text_format/#itextframeformat) |  |
-| [`merge_cells`](/slides/python-net/aspose.slides/itable/merge_cells/#icell-icell-bool) | Merges neighbour cells. |
-| [`add_placeholder`](/slides/python-net/aspose.slides/itable/add_placeholder/#iplaceholder) |  |
-| [`remove_placeholder`](/slides/python-net/aspose.slides/itable/remove_placeholder/#) |  |
-| [`get_base_placeholder`](/slides/python-net/aspose.slides/itable/get_base_placeholder/#) |  |
+| [`get_image(self)`](/slides/python-net/aspose.slides/itable/get_image/#) |  |
+| [`get_image(self, bounds, scale_x, scale_y)`](/slides/python-net/aspose.slides/itable/get_image/#shapethumbnailbounds-float-float) |  |
+| [`write_as_svg(self, stream)`](/slides/python-net/aspose.slides/itable/write_as_svg/#iorawiobase) |  |
+| [`write_as_svg(self, stream, svg_options)`](/slides/python-net/aspose.slides/itable/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) |  |
+| [`set_text_format(self, source)`](/slides/python-net/aspose.slides/itable/set_text_format/#iportionformat) |  |
+| [`set_text_format(self, source)`](/slides/python-net/aspose.slides/itable/set_text_format/#iparagraphformat) |  |
+| [`set_text_format(self, source)`](/slides/python-net/aspose.slides/itable/set_text_format/#itextframeformat) |  |
+| [`merge_cells(self, cell1, cell2, allow_splitting)`](/slides/python-net/aspose.slides/itable/merge_cells/#icell-icell-bool) | Merges neighbour cells. |
+| [`add_placeholder(self, placeholder_to_copy_from)`](/slides/python-net/aspose.slides/itable/add_placeholder/#iplaceholder) |  |
+| [`remove_placeholder(self)`](/slides/python-net/aspose.slides/itable/remove_placeholder/#) |  |
+| [`get_base_placeholder(self)`](/slides/python-net/aspose.slides/itable/get_base_placeholder/#) |  |
 
 
 ### See Also

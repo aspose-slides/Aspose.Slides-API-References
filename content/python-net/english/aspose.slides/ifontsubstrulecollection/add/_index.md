@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#ifontsubstrule}
+## add(self, value) {#ifontsubstrule}
 Adds the new font substitution rule to the collection
 
 

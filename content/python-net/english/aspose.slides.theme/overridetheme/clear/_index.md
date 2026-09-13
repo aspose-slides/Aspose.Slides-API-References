@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## clear {#}
+## clear(self) {#}
 Set ColorScheme, FontScheme, FormatScheme to None to disable any overriding with this theme object.
 
 

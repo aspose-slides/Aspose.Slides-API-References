@@ -8,7 +8,7 @@ weight: 70
 ---
 
 
-## remove {#iportion}
+## remove(self, item) {#iportion}
 Removes the first occurrence of a specific object from the **System.Collections.Generic.ICollection`1**.
 
 ### Returns

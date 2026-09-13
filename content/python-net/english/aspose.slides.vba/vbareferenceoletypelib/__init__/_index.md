@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## __init__ {#str-str}
+## __init__(self, name, libid) {#str-str}
 This constructor creates new OLE Automation type library reference.
 
 

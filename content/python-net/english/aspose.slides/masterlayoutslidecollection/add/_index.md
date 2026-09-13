@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add {#slidelayouttype-str}
+## add(self, layout_type, layout_name) {#slidelayouttype-str}
 Adds a new layout slide to the end of the collection.
 
 ### Returns

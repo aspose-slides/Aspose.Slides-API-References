@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## copy_to {#listibehavior-int}
+## copy_to(self, array, array_index) {#listibehavior-int}
 Copies the elements of the **System.Collections.Generic.ICollection`1** to an **System.Array**, starting at a particular **System.Array** index.
 
 

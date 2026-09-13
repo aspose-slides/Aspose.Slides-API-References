@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## create_filter_effect {#}
+## create_filter_effect(self) {#}
 Creates filter effect.
 
 ### Returns
