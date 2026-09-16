@@ -26,7 +26,7 @@ def add(self, position, color):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | position | **float** | Position of the new gradient stop. |
-| color | **aspose.pydrawing.Color** | Color of the new radient stop. |
+| color | **aspose.slides.Color** | Color of the new radient stop. |
 
 
 ## add(self, position, preset_color) {#float-presetcolor}

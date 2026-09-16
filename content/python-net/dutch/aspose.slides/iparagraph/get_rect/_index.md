@@ -12,7 +12,7 @@ Haalt de coördinaten op van de rechthoek die de alinea omsluit. De rechthoek om
 
 ### Retourwaarden
 
-Rechthoek die de alinea omsluit **aspose.pydrawing.RectangleF**
+Rechthoek die de alinea omsluit **aspose.slides.RectangleF**
 
 
 

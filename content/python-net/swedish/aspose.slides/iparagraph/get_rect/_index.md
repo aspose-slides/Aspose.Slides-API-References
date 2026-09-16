@@ -12,7 +12,7 @@ Hämta koordinaterna för rektangeln som omger stycket. Rektangeln inkluderar al
 
 ### Returnerar
 
-Rektangel som omger stycket **aspose.pydrawing.RectangleF**
+Rektangel som omger stycket **aspose.slides.RectangleF**
 
 
 

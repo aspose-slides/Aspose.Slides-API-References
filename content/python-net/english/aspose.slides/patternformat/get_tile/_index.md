@@ -25,7 +25,7 @@ def get_tile(self, style_color):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| style_color | **aspose.pydrawing.Color** | The default **aspose.pydrawing.Color** |
+| style_color | **aspose.slides.Color** | The default **aspose.slides.Color** |
 
 
 ## get_tile(self, background, foreground) {#asposepydrawingcolor-asposepydrawingcolor}
@@ -45,8 +45,8 @@ def get_tile(self, background, foreground):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| background | **aspose.pydrawing.Color** | The background **aspose.pydrawing.Color** for the pattern. |
-| foreground | **aspose.pydrawing.Color** | The foreground **aspose.pydrawing.Color** for the pattern. |
+| background | **aspose.slides.Color** | The background **aspose.slides.Color** for the pattern. |
+| foreground | **aspose.slides.Color** | The foreground **aspose.slides.Color** for the pattern. |
 
 
 

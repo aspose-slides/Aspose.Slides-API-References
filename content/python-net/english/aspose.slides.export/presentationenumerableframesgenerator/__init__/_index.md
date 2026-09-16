@@ -36,7 +36,7 @@ def __init__(self, frame_size, fps):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| frame_size | **aspose.pydrawing.Size** | The frame size |
+| frame_size | **aspose.slides.Size** | The frame size |
 | fps | **float** | Frames per second (FPS) |
 
 

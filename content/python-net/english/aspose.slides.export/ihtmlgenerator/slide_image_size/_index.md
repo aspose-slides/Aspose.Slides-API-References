@@ -10,7 +10,7 @@ weight: 60
 
 ## slide_image_size property
 Returns slide image size.
-            Read-only **aspose.pydrawing.SizeF**.
+            Read-only **aspose.slides.SizeF**.
 
 ### Definition:
 ```python

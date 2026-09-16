@@ -11,7 +11,7 @@ Získá souřadnice obdélníku ohraničujícího odstavec. Obdélník zahrnuje 
 
 ### Návratová hodnota
 
-Obdélník, který ohraničuje odstavec **aspose.pydrawing.RectangleF**
+Obdélník, který ohraničuje odstavec **aspose.slides.RectangleF**
 
 
 

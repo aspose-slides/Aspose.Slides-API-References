@@ -20,8 +20,8 @@ def quadratic_bezier_to(self, point1, point2):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point1 | **aspose.pydrawing.PointF** | Direction point |
-| point2 | **aspose.pydrawing.PointF** | End point |
+| point1 | **aspose.slides.PointF** | Direction point |
+| point2 | **aspose.slides.PointF** | End point |
 
 
 ## quadratic_bezier_to(self, point1, point2, index) {#asposepydrawingpointf-asposepydrawingpointf-int}
@@ -36,8 +36,8 @@ def quadratic_bezier_to(self, point1, point2, index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point1 | **aspose.pydrawing.PointF** | Direction point |
-| point2 | **aspose.pydrawing.PointF** | End point |
+| point1 | **aspose.slides.PointF** | Direction point |
+| point2 | **aspose.slides.PointF** | End point |
 | index | **int** | Index of segment in PathData |
 
 ### Exceptions

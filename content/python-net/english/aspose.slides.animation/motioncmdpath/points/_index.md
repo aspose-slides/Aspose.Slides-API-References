@@ -10,7 +10,7 @@ weight: 30
 
 ## points property
 Specifies points of command.
-            Read/write **aspose.pydrawing.PointF**[].
+            Read/write **aspose.slides.PointF**[].
 
 ### Definition:
 ```python

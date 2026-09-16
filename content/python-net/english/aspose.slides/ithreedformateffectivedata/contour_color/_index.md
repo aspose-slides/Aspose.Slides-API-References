@@ -10,7 +10,7 @@ weight: 50
 
 ## contour_color property
 Returns the color of a contour.
-            Read-only **aspose.pydrawing.Color**.
+            Read-only **aspose.slides.Color**.
 
 ### Definition:
 ```python

@@ -14,7 +14,7 @@ Returns an automatic color of series based on series index and chart style.
 
 ### Returns
 
-Automatic color of series **aspose.pydrawing.Color**
+Automatic color of series **aspose.slides.Color**
 
 
 

@@ -10,7 +10,7 @@ weight: 20
 
 ## color property
 Color.
-            Read-only **aspose.pydrawing.Color**.
+            Read-only **aspose.slides.Color**.
 
 ### Definition:
 ```python

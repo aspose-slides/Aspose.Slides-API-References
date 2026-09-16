@@ -12,7 +12,7 @@ Obtenha as coordenadas do retângulo que delimita o parágrafo. O retângulo inc
 
 ### Retorno
 
-Retângulo que delimita o parágrafo **aspose.pydrawing.RectangleF**
+Retângulo que delimita o parágrafo **aspose.slides.RectangleF**
 
 
 

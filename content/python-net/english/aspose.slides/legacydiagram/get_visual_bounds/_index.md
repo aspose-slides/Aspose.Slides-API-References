@@ -13,7 +13,7 @@ Gets the visual bounds of the shape calculated from its rendered content.
 
 ### Returns
 
-A **aspose.pydrawing.RectangleF** that represents the visual bounds of the shape
+A **aspose.slides.RectangleF** that represents the visual bounds of the shape
              in slide coordinates.
 
 

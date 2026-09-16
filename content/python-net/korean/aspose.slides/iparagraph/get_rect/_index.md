@@ -10,7 +10,7 @@ weight: 30
 단락을 둘러싼 사각형의 좌표를 가져옵니다. 이 사각형은 단락의 모든 텍스트 줄을 포함하며, 빈 줄도 포함합니다.
 
 ### 반환
-단락을 둘러싼 사각형 **aspose.pydrawing.RectangleF**
+단락을 둘러싼 사각형 **aspose.slides.RectangleF**
 
 
 

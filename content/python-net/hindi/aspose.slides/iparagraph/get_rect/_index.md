@@ -12,7 +12,7 @@ weight: 30
 
 ### रिटर्न
 
-पैराग्राफ को सीमित करने वाला आयत **aspose.pydrawing.RectangleF**
+पैराग्राफ को सीमित करने वाला आयत **aspose.slides.RectangleF**
 
 
 

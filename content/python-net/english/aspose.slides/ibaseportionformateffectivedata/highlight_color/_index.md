@@ -10,7 +10,7 @@ weight: 110
 
 ## highlight_color property
 Returns the color used to highlight a text.
-            Read-only **aspose.pydrawing.Color**.
+            Read-only **aspose.slides.Color**.
 
 ### Definition:
 ```python

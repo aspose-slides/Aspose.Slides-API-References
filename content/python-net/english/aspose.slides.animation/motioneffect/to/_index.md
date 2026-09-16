@@ -10,7 +10,7 @@ weight: 140
 
 ## to property
 Specifies the target location for an animation motion effect (in percents).
-            Read/write **aspose.pydrawing.PointF**.
+            Read/write **aspose.slides.PointF**.
 
 ### Definition:
 ```python

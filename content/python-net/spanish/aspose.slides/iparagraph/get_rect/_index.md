@@ -11,7 +11,7 @@ Obtiene las coordenadas del rectángulo que delimita el párrafo. El rectángulo
 
 ### Devuelve
 
-Rectángulo que delimita el párrafo **aspose.pydrawing.RectangleF**
+Rectángulo que delimita el párrafo **aspose.slides.RectangleF**
 
 
 

@@ -12,7 +12,7 @@ weight: 30
 
 ### 傳回值
 
-限定段落的矩形 **aspose.pydrawing.RectangleF**
+限定段落的矩形 **aspose.slides.RectangleF**
 
 
 

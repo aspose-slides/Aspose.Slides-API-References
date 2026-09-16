@@ -25,7 +25,7 @@ def create_image_wrapper(self, image):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image | [`IImage`](/slides/python-net/aspose.slides/iimage) | Existing Image **aspose.pydrawing.Image** |
+| image | [`IImage`](/slides/python-net/aspose.slides/iimage) | Existing Image **aspose.slides.Image** |
 
 
 ## create_image_wrapper(self, stream) {#iorawiobase}

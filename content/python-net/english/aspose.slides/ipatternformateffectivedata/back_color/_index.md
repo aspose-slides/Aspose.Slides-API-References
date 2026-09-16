@@ -10,7 +10,7 @@ weight: 20
 
 ## back_color property
 Returns the background pattern color.
-            Read-only **aspose.pydrawing.Color**.
+            Read-only **aspose.slides.Color**.
 
 ### Definition:
 ```python

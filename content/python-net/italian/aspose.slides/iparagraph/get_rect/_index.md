@@ -12,7 +12,7 @@ Ottieni le coordinate del rettangolo che delimitano il paragrafo. Il rettangolo 
 
 ### Returns
 
-Rettangolo che delimita il paragrafo **aspose.pydrawing.RectangleF**
+Rettangolo che delimita il paragrafo **aspose.slides.RectangleF**
 
 
 

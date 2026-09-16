@@ -10,7 +10,7 @@ weight: 120
 
 ## light2 property
 Second light color in the scheme.
-            Read-only **aspose.pydrawing.Color**.
+            Read-only **aspose.slides.Color**.
 
 ### Definition:
 ```python

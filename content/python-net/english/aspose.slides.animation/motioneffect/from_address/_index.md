@@ -10,7 +10,7 @@ weight: 70
 
 ## from_address property
 Specifies an x/y co-ordinate to start the animation from (in percents). 
-            Read/write **aspose.pydrawing.PointF**.
+            Read/write **aspose.slides.PointF**.
 
 ### Definition:
 ```python

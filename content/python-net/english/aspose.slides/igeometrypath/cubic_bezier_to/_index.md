@@ -20,9 +20,9 @@ def cubic_bezier_to(self, point1, point2, point3):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point1 | **aspose.pydrawing.PointF** | First direction point |
-| point2 | **aspose.pydrawing.PointF** | Second direction point |
-| point3 | **aspose.pydrawing.PointF** | End point |
+| point1 | **aspose.slides.PointF** | First direction point |
+| point2 | **aspose.slides.PointF** | Second direction point |
+| point3 | **aspose.slides.PointF** | End point |
 
 
 ## cubic_bezier_to(self, point1, point2, point3, index) {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf-int}
@@ -37,9 +37,9 @@ def cubic_bezier_to(self, point1, point2, point3, index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point1 | **aspose.pydrawing.PointF** | First direction point |
-| point2 | **aspose.pydrawing.PointF** | Second direction point |
-| point3 | **aspose.pydrawing.PointF** | End point |
+| point1 | **aspose.slides.PointF** | First direction point |
+| point2 | **aspose.slides.PointF** | Second direction point |
+| point3 | **aspose.slides.PointF** | End point |
 | index | **int** | Index of segment in PathData |
 
 ### Exceptions

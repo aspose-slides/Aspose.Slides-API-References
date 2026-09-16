@@ -11,7 +11,7 @@ weight: 30
 
 ### Επιστρέφει
 
-Ορθογώνιο που περικλείει την παράγραφο **aspose.pydrawing.RectangleF**
+Ορθογώνιο που περικλείει την παράγραφο **aspose.slides.RectangleF**
 
 
 

@@ -19,7 +19,7 @@ The IGlowEffectiveData type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`radius`](/slides/python-net/aspose.slides.effects/igloweffectivedata/radius/) | Radius.<br/>            Read-only **float**. |
-| [`color`](/slides/python-net/aspose.slides.effects/igloweffectivedata/color/) | Color.<br/>            Read-only **aspose.pydrawing.Color**. |
+| [`color`](/slides/python-net/aspose.slides.effects/igloweffectivedata/color/) | Color.<br/>            Read-only **aspose.slides.Color**. |
 
 
 ### See Also

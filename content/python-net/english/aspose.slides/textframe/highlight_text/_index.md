@@ -21,7 +21,7 @@ def highlight_text(self, text, highlight_color):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | text | **str** | Text sample to highlight. |
-| highlight_color | **aspose.pydrawing.Color** | The color to highlight the text. |
+| highlight_color | **aspose.slides.Color** | The color to highlight the text. |
 
 
 ## highlight_text(self, text, highlight_color, options) {#str-asposepydrawingcolor-itexthighlightingoptions}
@@ -37,7 +37,7 @@ def highlight_text(self, text, highlight_color, options):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | text | **str** | The text to highlight. |
-| highlight_color | **aspose.pydrawing.Color** | The color to highlight the text. |
+| highlight_color | **aspose.slides.Color** | The color to highlight the text. |
 | options | [`ITextHighlightingOptions`](/slides/python-net/aspose.slides/itexthighlightingoptions) | Highlighting options. |
 
 
@@ -54,7 +54,7 @@ def highlight_text(self, text, highlight_color, options, callback):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | text | **str** | The text to highlight. |
-| highlight_color | **aspose.pydrawing.Color** | The color to highlight the text. |
+| highlight_color | **aspose.slides.Color** | The color to highlight the text. |
 | options | [`ITextSearchOptions`](/slides/python-net/aspose.slides/itextsearchoptions) | Text search options [`ITextSearchOptions`](/slides/python-net/aspose.slides/itextsearchoptions). |
 | callback | [`IFindResultCallback`](/slides/python-net/aspose.slides/ifindresultcallback) | The callback object for receiving search results [`IFindResultCallback`](/slides/python-net/aspose.slides/ifindresultcallback). |
 

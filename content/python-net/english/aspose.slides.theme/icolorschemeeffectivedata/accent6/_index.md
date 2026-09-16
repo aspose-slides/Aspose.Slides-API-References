@@ -10,7 +10,7 @@ weight: 60
 
 ## accent6 property
 Sixth accent color in the scheme.
-            Read-only **aspose.pydrawing.Color**.
+            Read-only **aspose.slides.Color**.
 
 ### Definition:
 ```python

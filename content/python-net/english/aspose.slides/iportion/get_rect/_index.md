@@ -14,7 +14,7 @@ Get coordinates of rect that bounds portion. The rect includes all the lines of
 
 ### Returns
 
-Rectangle that bounds portion **aspose.pydrawing.RectangleF**
+Rectangle that bounds portion **aspose.slides.RectangleF**
 
 
 

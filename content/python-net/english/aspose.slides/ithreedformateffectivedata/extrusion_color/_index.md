@@ -10,7 +10,7 @@ weight: 80
 
 ## extrusion_color property
 Returns the color of an extrusion.
-            Read-only **aspose.pydrawing.Color**.
+            Read-only **aspose.slides.Color**.
 
 ### Definition:
 ```python

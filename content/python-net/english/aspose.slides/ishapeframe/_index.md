@@ -26,7 +26,7 @@ The IShapeFrame type exposes the following members:
 | [`center_y`](/slides/python-net/aspose.slides/ishapeframe/center_y/) | Returns the Y coordinate of a frame's center.<br/>            Read-only **float**. |
 | [`flip_h`](/slides/python-net/aspose.slides/ishapeframe/flip_h/) | Determines whether a frame is flipped horizontally.<br/>            Read-only [`NullableBool`](/slides/python-net/aspose.slides/nullablebool). |
 | [`flip_v`](/slides/python-net/aspose.slides/ishapeframe/flip_v/) | Determines whether a frame is flipped vertically.<br/>            Read-only [`NullableBool`](/slides/python-net/aspose.slides/nullablebool). |
-| [`rectangle`](/slides/python-net/aspose.slides/ishapeframe/rectangle/) | Returns the coordinates of a frame.<br/>            Read-only **aspose.pydrawing.RectangleF**. |
+| [`rectangle`](/slides/python-net/aspose.slides/ishapeframe/rectangle/) | Returns the coordinates of a frame.<br/>            Read-only **aspose.slides.RectangleF**. |
 
 ## Methods
 

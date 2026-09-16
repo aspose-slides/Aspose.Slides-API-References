@@ -10,7 +10,7 @@ weight: 20
 
 ## color1 property
 Returns target color format for dark pixels.
-            Read-only **aspose.pydrawing.Color**.
+            Read-only **aspose.slides.Color**.
 
 ### Definition:
 ```python

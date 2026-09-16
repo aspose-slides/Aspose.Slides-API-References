@@ -11,7 +11,7 @@ A bekezdést határoló téglalap koordinátáit adja vissza. A téglalap tartal
 
 ### Visszatérési érték
 
-A bekezdést határoló téglalap **aspose.pydrawing.RectangleF**
+A bekezdést határoló téglalap **aspose.slides.RectangleF**
 
 
 

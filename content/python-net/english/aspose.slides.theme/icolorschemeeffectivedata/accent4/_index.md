@@ -10,7 +10,7 @@ weight: 40
 
 ## accent4 property
 Fourth accent color in the scheme.
-            Read-only **aspose.pydrawing.Color**.
+            Read-only **aspose.slides.Color**.
 
 ### Definition:
 ```python

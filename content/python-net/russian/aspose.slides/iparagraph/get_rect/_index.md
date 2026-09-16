@@ -12,7 +12,7 @@ weight: 30
 
 ### Возвращаемое значение
 
-Прямоугольник, ограничивающий абзац **aspose.pydrawing.RectangleF**
+Прямоугольник, ограничивающий абзац **aspose.slides.RectangleF**
 
 
 

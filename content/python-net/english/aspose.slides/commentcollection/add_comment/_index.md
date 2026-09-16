@@ -27,7 +27,7 @@ def add_comment(self, text, slide, position, creation_time):
 | :- | :- | :- |
 | text | **str** | Plain text of a new comment. |
 | slide | [`ISlide`](/slides/python-net/aspose.slides/islide) | Slide in a presentation where to add a new comment. |
-| position | **aspose.pydrawing.PointF** | Position on a slide where to add a new comment. |
+| position | **aspose.slides.PointF** | Position on a slide where to add a new comment. |
 | creation_time | **DateTime** | Time of a comment creation. |
 
 

@@ -11,7 +11,7 @@ Obtient les coordonnées du rectangle qui encadre le paragraphe. Le rectangle in
 
 ### Renvoie
 
-Rectangle qui encadre le paragraphe **aspose.pydrawing.RectangleF**
+Rectangle qui encadre le paragraphe **aspose.slides.RectangleF**
 
 
 

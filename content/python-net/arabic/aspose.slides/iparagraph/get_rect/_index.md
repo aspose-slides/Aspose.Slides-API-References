@@ -11,7 +11,7 @@ weight: 30
             النص في الفقرة، بما في ذلك الفارغة.
 
 ### الإرجاع
-المستطيل الذي يحد الفقرة **aspose.pydrawing.RectangleF**
+المستطيل الذي يحد الفقرة **aspose.slides.RectangleF**
 
 
 

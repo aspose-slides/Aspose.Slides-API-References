@@ -10,7 +10,7 @@ weight: 10
 
 ## color property
 Returns the color of a gradient stop.
-            Read-only **aspose.pydrawing.Color**.
+            Read-only **aspose.slides.Color**.
 
 ### Definition:
 ```python

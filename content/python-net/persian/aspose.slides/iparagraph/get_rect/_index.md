@@ -12,7 +12,7 @@ weight: 30
 
 ### بازگشت
 
-مستطیلی که پاراگراف را محدود می‌کند **aspose.pydrawing.RectangleF**
+مستطیلی که پاراگراف را محدود می‌کند **aspose.slides.RectangleF**
 
 
 

@@ -12,7 +12,7 @@ Paragrafı sınırlayan dikdörtgenin koordinatlarını alır. Dikdörtgen, para
 
 ### Döndürür
 
-Paragrafı sınırlayan dikdörtgen **aspose.pydrawing.RectangleF**
+Paragrafı sınırlayan dikdörtgen **aspose.slides.RectangleF**
 
 
 

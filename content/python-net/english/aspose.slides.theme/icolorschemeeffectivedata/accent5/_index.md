@@ -10,7 +10,7 @@ weight: 50
 
 ## accent5 property
 Fifth accent color in the scheme.
-            Read-only **aspose.pydrawing.Color**.
+            Read-only **aspose.slides.Color**.
 
 ### Definition:
 ```python

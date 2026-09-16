@@ -30,9 +30,9 @@ The ScaleEffect type exposes the following members:
 | [`properties`](/slides/python-net/aspose.slides.animation/scaleeffect/properties/) | Represents properties of behavior.<br/>            Read-only [`IBehaviorPropertyCollection`](/slides/python-net/aspose.slides.animation/ibehaviorpropertycollection). |
 | [`timing`](/slides/python-net/aspose.slides.animation/scaleeffect/timing/) | Represents timing properties for the effect behavior.<br/>            Read/write [`ITiming`](/slides/python-net/aspose.slides.animation/itiming). |
 | [`zoom_content`](/slides/python-net/aspose.slides.animation/scaleeffect/zoom_content/) | Determines whether a content should be zoomed.<br/>            Read/write [`NullableBool`](/slides/python-net/aspose.slides/nullablebool). |
-| [`from_address`](/slides/python-net/aspose.slides.animation/scaleeffect/from_address/) | Specifies an x/y co-ordinate to start the animation from (in percents).<br/>            Read/write **aspose.pydrawing.PointF**. |
-| [`to`](/slides/python-net/aspose.slides.animation/scaleeffect/to/) | Specifies the target location for an animation scale effect (in percents).<br/>            Read/write **aspose.pydrawing.PointF**. |
-| [`by`](/slides/python-net/aspose.slides.animation/scaleeffect/by/) | describes the relative offset value for the animation (in percents).<br/>            Read/write **aspose.pydrawing.PointF**. |
+| [`from_address`](/slides/python-net/aspose.slides.animation/scaleeffect/from_address/) | Specifies an x/y co-ordinate to start the animation from (in percents).<br/>            Read/write **aspose.slides.PointF**. |
+| [`to`](/slides/python-net/aspose.slides.animation/scaleeffect/to/) | Specifies the target location for an animation scale effect (in percents).<br/>            Read/write **aspose.slides.PointF**. |
+| [`by`](/slides/python-net/aspose.slides.animation/scaleeffect/by/) | describes the relative offset value for the animation (in percents).<br/>            Read/write **aspose.slides.PointF**. |
 
 
 ### See Also

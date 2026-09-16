@@ -10,7 +10,7 @@ weight: 40
 
 ## by property
 describes the relative offset value for the animation (in percents).
-            Read/write **aspose.pydrawing.PointF**.
+            Read/write **aspose.slides.PointF**.
 
 ### Definition:
 ```python

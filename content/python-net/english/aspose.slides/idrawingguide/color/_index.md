@@ -10,7 +10,7 @@ weight: 10
 
 ## color property
 Returns or sets color of the drawing guide.
-            Read/write **aspose.pydrawing.Color**.
+            Read/write **aspose.slides.Color**.
 
 ### Definition:
 ```python

@@ -12,7 +12,7 @@ Pobierz współrzędne prostokąta, który otacza akapit. Prostokąt obejmuje ws
 
 ### Zwraca
 
-Prostokąt, który otacza akapit **aspose.pydrawing.RectangleF**
+Prostokąt, który otacza akapit **aspose.slides.RectangleF**
 
 
 

@@ -11,7 +11,7 @@ weight: 90
 ## image_size property
 Specifies size of a generated TIFF image.
             Default value is 0x0, what means that generated image sizes will be calculated based on presentation slide size value.
-            Read/write **aspose.pydrawing.Size**.
+            Read/write **aspose.slides.Size**.
 
 ### Definition:
 ```python

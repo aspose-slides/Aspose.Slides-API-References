@@ -11,7 +11,7 @@ Dapatkan koordinat rect yang membatasi paragraf. Rect tersebut mencakup semua ba
 
 ### Mengembalikan
 
-Rectangle yang membatasi paragraf **aspose.pydrawing.RectangleF**
+Rectangle yang membatasi paragraf **aspose.slides.RectangleF**
 
 
 

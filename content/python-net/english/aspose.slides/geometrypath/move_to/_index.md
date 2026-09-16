@@ -20,7 +20,7 @@ def move_to(self, point):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | **aspose.pydrawing.PointF** | Point position |
+| point | **aspose.slides.PointF** | Point position |
 
 
 ## move_to(self, x, y) {#float-float}

@@ -22,7 +22,7 @@ def insert(self, index, position, color):
 | :- | :- | :- |
 | index | **int** | Index in the collection where new gradient stop will be inserted. |
 | position | **float** | Position of the new gradient stop. |
-| color | **aspose.pydrawing.Color** | Color of the new radient stop. |
+| color | **aspose.slides.Color** | Color of the new radient stop. |
 
 
 ## insert(self, index, position, preset_color) {#int-float-presetcolor}

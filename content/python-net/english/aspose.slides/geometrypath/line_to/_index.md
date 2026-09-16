@@ -20,7 +20,7 @@ def line_to(self, point):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | **aspose.pydrawing.PointF** | End point of the line |
+| point | **aspose.slides.PointF** | End point of the line |
 
 
 ## line_to(self, x, y) {#float-float}
@@ -51,7 +51,7 @@ def line_to(self, point, index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | **aspose.pydrawing.PointF** | End point |
+| point | **aspose.slides.PointF** | End point |
 | index | **int** | Index of segment in PathData |
 
 ### Exceptions

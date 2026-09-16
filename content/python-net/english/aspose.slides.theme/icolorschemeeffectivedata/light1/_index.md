@@ -10,7 +10,7 @@ weight: 110
 
 ## light1 property
 First light color in the scheme.
-            Read-only **aspose.pydrawing.Color**.
+            Read-only **aspose.slides.Color**.
 
 ### Definition:
 ```python

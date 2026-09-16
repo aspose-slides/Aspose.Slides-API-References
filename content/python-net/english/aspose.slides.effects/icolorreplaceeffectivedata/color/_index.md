@@ -10,7 +10,7 @@ weight: 20
 
 ## color property
 Returns color format which will replace color of every pixel.
-            Read-only **aspose.pydrawing.Color**.
+            Read-only **aspose.slides.Color**.
 
 ### Definition:
 ```python

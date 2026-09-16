@@ -21,7 +21,7 @@ def highlight_regex(self, regex, highlight_color):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | regex | **str** | The string contains regular expression to get strings to highlight. |
-| highlight_color | **aspose.pydrawing.Color** | The color to highlight the text. |
+| highlight_color | **aspose.slides.Color** | The color to highlight the text. |
 
 
 ## highlight_regex(self, regex, highlight_color, options) {#str-asposepydrawingcolor-itexthighlightingoptions}
@@ -37,7 +37,7 @@ def highlight_regex(self, regex, highlight_color, options):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | regex | **str** | Text of regular expression to get text to highlight. |
-| highlight_color | **aspose.pydrawing.Color** | The color to highlight the text. |
+| highlight_color | **aspose.slides.Color** | The color to highlight the text. |
 | options | [`ITextHighlightingOptions`](/slides/python-net/aspose.slides/itexthighlightingoptions) | Highlighting options. |
 
 

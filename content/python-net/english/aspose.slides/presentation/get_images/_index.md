@@ -67,7 +67,7 @@ def get_images(self, options, image_size):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) | Tiff options. |
-| image_size | **aspose.pydrawing.Size** | Size of the image to create. |
+| image_size | **aspose.slides.Size** | Size of the image to create. |
 
 
 ## get_images(self, options, scale_x, scale_y) {#asposeslidesexportirenderingoptions-float-float}
@@ -111,7 +111,7 @@ def get_images(self, options, slides, image_size):
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) | Tiff options. |
 | slides | **List[int]** | Array with slide positions, starting from 1. |
-| image_size | **aspose.pydrawing.Size** | Size of the image to create. |
+| image_size | **aspose.slides.Size** | Size of the image to create. |
 
 
 ## get_images(self, options, slides, scale_x, scale_y) {#asposeslidesexportirenderingoptions-listint-float-float}

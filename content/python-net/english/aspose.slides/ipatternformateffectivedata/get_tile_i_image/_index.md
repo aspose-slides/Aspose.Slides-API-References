@@ -25,8 +25,8 @@ def get_tile_i_image(self, background, foreground):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| background | **aspose.pydrawing.Color** | The background **aspose.pydrawing.Color** for the pattern. |
-| foreground | **aspose.pydrawing.Color** | The foreground **aspose.pydrawing.Color** for the pattern. |
+| background | **aspose.slides.Color** | The background **aspose.slides.Color** for the pattern. |
+| foreground | **aspose.slides.Color** | The foreground **aspose.slides.Color** for the pattern. |
 
 
 

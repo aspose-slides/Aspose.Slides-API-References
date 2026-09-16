@@ -11,7 +11,7 @@ weight: 30
 
 ### 戻り値
 
-段落を囲む矩形 **aspose.pydrawing.RectangleF**
+段落を囲む矩形 **aspose.slides.RectangleF**
 
 
 

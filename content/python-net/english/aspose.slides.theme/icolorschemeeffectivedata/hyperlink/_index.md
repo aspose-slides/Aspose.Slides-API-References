@@ -10,7 +10,7 @@ weight: 100
 
 ## hyperlink property
 Color for the hyperlinks.
-            Read-only **aspose.pydrawing.Color**.
+            Read-only **aspose.slides.Color**.
 
 ### Definition:
 ```python

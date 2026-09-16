@@ -22,7 +22,7 @@ def insert(self, index, type, pts, pts_type, b_relative_coord):
 | :- | :- | :- |
 | index | **int** |  |
 | type | [`MotionCommandPathType`](/slides/python-net/aspose.slides.animation/motioncommandpathtype) |  |
-| pts | **List[aspose.pydrawing.PointF]** |  |
+| pts | **List[aspose.slides.PointF]** |  |
 | pts_type | [`MotionPathPointsType`](/slides/python-net/aspose.slides.animation/motionpathpointstype) |  |
 | b_relative_coord | **bool** |  |
 

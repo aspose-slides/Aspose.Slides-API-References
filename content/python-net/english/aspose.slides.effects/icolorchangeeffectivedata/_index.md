@@ -18,8 +18,8 @@ The IColorChangeEffectiveData type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`from_color`](/slides/python-net/aspose.slides.effects/icolorchangeeffectivedata/from_color/) | Color which will be replaced.<br/>            Read-only **aspose.pydrawing.Color**. |
-| [`to_color`](/slides/python-net/aspose.slides.effects/icolorchangeeffectivedata/to_color/) | Color which will replace.<br/>            Read-only **aspose.pydrawing.Color**. |
+| [`from_color`](/slides/python-net/aspose.slides.effects/icolorchangeeffectivedata/from_color/) | Color which will be replaced.<br/>            Read-only **aspose.slides.Color**. |
+| [`to_color`](/slides/python-net/aspose.slides.effects/icolorchangeeffectivedata/to_color/) | Color which will replace.<br/>            Read-only **aspose.slides.Color**. |
 | [`use_alpha`](/slides/python-net/aspose.slides.effects/icolorchangeeffectivedata/use_alpha/) | Returns a boolean value which determines if alpha component should be used.<br/>            Read-only **bool**. |
 
 

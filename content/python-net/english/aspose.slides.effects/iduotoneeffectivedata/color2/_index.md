@@ -10,7 +10,7 @@ weight: 30
 
 ## color2 property
 Returns target color format for light pixels.
-            Read-only **aspose.pydrawing.Color**.
+            Read-only **aspose.slides.Color**.
 
 ### Definition:
 ```python

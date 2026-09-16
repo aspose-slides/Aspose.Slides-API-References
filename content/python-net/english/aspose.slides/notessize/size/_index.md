@@ -10,7 +10,7 @@ weight: 20
 
 ## size property
 Returns or sets the size in points.
-            Read/write **aspose.pydrawing.SizeF**.
+            Read/write **aspose.slides.SizeF**.
 
 ### Definition:
 ```python

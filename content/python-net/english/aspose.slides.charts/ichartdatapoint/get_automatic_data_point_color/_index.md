@@ -14,7 +14,7 @@ Returns an automatic color of data point based on series index, data point index
 
 ### Returns
 
-Automatic color of data point **aspose.pydrawing.Color**
+Automatic color of data point **aspose.slides.Color**
 
 
 

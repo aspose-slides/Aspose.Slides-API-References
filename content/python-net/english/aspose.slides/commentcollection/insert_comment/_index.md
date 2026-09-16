@@ -28,7 +28,7 @@ def insert_comment(self, index, text, slide, position, creation_time):
 | index | **int** | Index of the element in a collection at which comment should be inserted. |
 | text | **str** | Plain text of a new comment. |
 | slide | [`ISlide`](/slides/python-net/aspose.slides/islide) | Slide in a presentation where to add a new comment. |
-| position | **aspose.pydrawing.PointF** | Position on a slide where to add a new comment. |
+| position | **aspose.slides.PointF** | Position on a slide where to add a new comment. |
 | creation_time | **DateTime** | Time of a comment creation. |
 
 

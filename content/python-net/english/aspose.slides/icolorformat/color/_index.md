@@ -11,7 +11,7 @@ weight: 50
 ## color property
 Returns resulting color (with all color transformations applied).
             Sets RGB colors and clears all color transformations.
-            Read/write **aspose.pydrawing.Color**.
+            Read/write **aspose.slides.Color**.
 
 ### Definition:
 ```python

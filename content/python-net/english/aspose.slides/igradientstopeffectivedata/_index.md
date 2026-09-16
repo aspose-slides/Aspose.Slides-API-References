@@ -18,7 +18,7 @@ The IGradientStopEffectiveData type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`position`](/slides/python-net/aspose.slides/igradientstopeffectivedata/position/) | Returns the position (0..1) of a gradient stop.<br/>            Read-only **float**. |
-| [`color`](/slides/python-net/aspose.slides/igradientstopeffectivedata/color/) | Returns the color of a gradient stop.<br/>            Read-only **aspose.pydrawing.Color**. |
+| [`color`](/slides/python-net/aspose.slides/igradientstopeffectivedata/color/) | Returns the color of a gradient stop.<br/>            Read-only **aspose.slides.Color**. |
 
 
 ### See Also

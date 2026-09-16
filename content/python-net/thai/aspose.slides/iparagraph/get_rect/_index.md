@@ -11,7 +11,7 @@ weight: 30
 
 ### ผลลัพธ์
 
-Rectangle that bounds paragraph **aspose.pydrawing.RectangleF**
+Rectangle that bounds paragraph **aspose.slides.RectangleF**
 
 
 

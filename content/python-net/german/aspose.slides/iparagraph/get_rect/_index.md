@@ -12,7 +12,7 @@ Liefert die Koordinaten des Rechtecks, das den Absatz begrenzt. Das Rechteck umf
 
 ### Rückgabewert
 
-Rechteck, das den Absatz begrenzt **aspose.pydrawing.RectangleF**
+Rechteck, das den Absatz begrenzt **aspose.slides.RectangleF**
 
 
 ```python

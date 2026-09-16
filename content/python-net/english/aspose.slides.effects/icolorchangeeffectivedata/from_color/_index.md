@@ -10,7 +10,7 @@ weight: 20
 
 ## from_color property
 Color which will be replaced.
-            Read-only **aspose.pydrawing.Color**.
+            Read-only **aspose.slides.Color**.
 
 ### Definition:
 ```python

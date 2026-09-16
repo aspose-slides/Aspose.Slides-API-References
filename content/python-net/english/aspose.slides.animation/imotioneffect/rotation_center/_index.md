@@ -10,7 +10,7 @@ weight: 110
 
 ## rotation_center property
 Describes the center of the rotation used to rotate a motion path by X angle.
-            Read/write **aspose.pydrawing.PointF**.
+            Read/write **aspose.slides.PointF**.
 
 ### Definition:
 ```python

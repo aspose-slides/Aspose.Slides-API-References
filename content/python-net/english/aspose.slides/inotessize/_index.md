@@ -17,7 +17,7 @@ The INotesSize type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`size`](/slides/python-net/aspose.slides/inotessize/size/) | Returns or sets the size in points.<br/>            Read/write **aspose.pydrawing.SizeF**. |
+| [`size`](/slides/python-net/aspose.slides/inotessize/size/) | Returns or sets the size in points.<br/>            Read/write **aspose.slides.SizeF**. |
 
 
 ### See Also

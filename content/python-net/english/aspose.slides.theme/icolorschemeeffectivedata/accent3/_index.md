@@ -10,7 +10,7 @@ weight: 30
 
 ## accent3 property
 Third accent color in the scheme.
-            Read-only **aspose.pydrawing.Color**.
+            Read-only **aspose.slides.Color**.
 
 ### Definition:
 ```python

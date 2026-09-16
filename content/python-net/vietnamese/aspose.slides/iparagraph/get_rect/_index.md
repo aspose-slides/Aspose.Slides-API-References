@@ -12,7 +12,7 @@ Lấy tọa độ của hình chữ nhật bao quanh đoạn văn. Hình chữ n
 
 ### Giá trị trả về
 
-Hình chữ nhật bao quanh đoạn văn **aspose.pydrawing.RectangleF**
+Hình chữ nhật bao quanh đoạn văn **aspose.slides.RectangleF**
 
 
 

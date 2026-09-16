@@ -36,7 +36,7 @@ def get_image(self, image_size):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image_size | **aspose.pydrawing.Size** | Size of the image to create. |
+| image_size | **aspose.slides.Size** | Size of the image to create. |
 
 
 ## get_image(self, options) {#asposeslidesexportitiffoptions}
@@ -130,7 +130,7 @@ def get_image(self, options, image_size):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) | Rendering options. |
-| image_size | **aspose.pydrawing.Size** | Size of the image to create. |
+| image_size | **aspose.slides.Size** | Size of the image to create. |
 
 ### Exceptions
 

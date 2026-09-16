@@ -10,7 +10,7 @@ weight: 90
 
 ## followed_hyperlink property
 Color for the visited hyperlinks.
-            Read-only **aspose.pydrawing.Color**.
+            Read-only **aspose.slides.Color**.
 
 ### Definition:
 ```python

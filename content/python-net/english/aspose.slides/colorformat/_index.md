@@ -20,7 +20,7 @@ The ColorFormat type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`color_type`](/slides/python-net/aspose.slides/colorformat/color_type/) | Returns or sets the color definition method.<br/>            Read/write [`ColorType`](/slides/python-net/aspose.slides/colortype). |
-| [`color`](/slides/python-net/aspose.slides/colorformat/color/) | Returns resulting color (with all color transformations applied).<br/>            Sets RGB colors and clears all color transformations.<br/>            Read/write **aspose.pydrawing.Color**. |
+| [`color`](/slides/python-net/aspose.slides/colorformat/color/) | Returns resulting color (with all color transformations applied).<br/>            Sets RGB colors and clears all color transformations.<br/>            Read/write **aspose.slides.Color**. |
 | [`preset_color`](/slides/python-net/aspose.slides/colorformat/preset_color/) | Returns or sets the color preset.<br/>            Read/write [`PresetColor`](/slides/python-net/aspose.slides/presetcolor). |
 | [`system_color`](/slides/python-net/aspose.slides/colorformat/system_color/) | Returns or sets the color identified by the system color table.<br/>            Read/write [`SystemColor`](/slides/python-net/aspose.slides/systemcolor). |
 | [`scheme_color`](/slides/python-net/aspose.slides/colorformat/scheme_color/) | Returns or sets the color identified by a color scheme.<br/>            Read/write [`SchemeColor`](/slides/python-net/aspose.slides/schemecolor). |

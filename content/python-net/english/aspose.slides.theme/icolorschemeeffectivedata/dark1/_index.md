@@ -10,7 +10,7 @@ weight: 70
 
 ## dark1 property
 First dark color in the scheme.
-            Read-only **aspose.pydrawing.Color**.
+            Read-only **aspose.slides.Color**.
 
 ### Definition:
 ```python

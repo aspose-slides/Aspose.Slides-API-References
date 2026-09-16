@@ -50,7 +50,7 @@ def to_jpeg(pres, output_file_name, image_size):
 | :- | :- | :- |
 | pres | [`Presentation`](/slides/python-net/aspose.slides/presentation) | The input presentation |
 | output_file_name | **str** | The output file name. |
-| image_size | **aspose.pydrawing.Size** | The size of each generated image. |
+| image_size | **aspose.slides.Size** | The size of each generated image. |
 
 ### Exceptions
 

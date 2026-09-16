@@ -10,7 +10,7 @@ weight: 50
 
 ## position property
 Returns or sets the position of a comment on a slide.
-            Read/write **aspose.pydrawing.PointF**.
+            Read/write **aspose.slides.PointF**.
 
 ### Definition:
 ```python

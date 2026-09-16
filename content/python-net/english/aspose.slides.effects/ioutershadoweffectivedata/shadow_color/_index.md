@@ -10,7 +10,7 @@ weight: 90
 
 ## shadow_color property
 Color of shadow.
-            Read-only **aspose.pydrawing.Color**.
+            Read-only **aspose.slides.Color**.
 
 ### Definition:
 ```python
