@@ -7,7 +7,7 @@ url: /ja/aspose.slides/iparagraph/paragraph_format/
 weight: 80
 ---
 ## paragraph_format プロパティ
-Returns the formatting object for this paragraph.
+この段落の書式設定オブジェクトを返します。
             読み取り専用 [`IParagraphFormat`](/slides/python-net/ja/aspose.slides/iparagraphformat).
 
 ### 定義:
@@ -16,7 +16,6 @@ Returns the formatting object for this paragraph.
 def paragraph_format(self):
     ...
 ```
-
 
 ### 参照
 * クラス [`IParagraph`](/slides/python-net/ja/aspose.slides/iparagraph)

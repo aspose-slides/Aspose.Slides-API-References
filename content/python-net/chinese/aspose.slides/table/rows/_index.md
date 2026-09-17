@@ -1,0 +1,25 @@
+---
+title: rows property
+second_title: Aspose.Slides for Python via .NET API 参考
+description: 
+type: docs
+url: /zh/aspose.slides/table/rows/
+weight: 470
+---
+## rows 属性
+返回 rows 的集合。
+只读 [`IRowCollection`](/slides/python-net/zh/aspose.slides/irowcollection)。
+
+### 定义：
+```python
+@property
+def rows(self):
+    ...
+```
+
+
+### 参见
+* 类 [`IRowCollection`](/slides/python-net/zh/aspose.slides/irowcollection)
+* 类 [`Table`](/slides/python-net/zh/aspose.slides/table)
+* 模块 [`aspose.slides`](/slides/python-net/zh/aspose.slides)
+* 库 [`Aspose.Slides`](/slides/python-net)

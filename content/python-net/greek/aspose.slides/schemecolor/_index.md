@@ -1,0 +1,40 @@
+---
+title: SchemeColor enumeration
+second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
+description: 
+type: docs
+url: /el/aspose.slides/schemecolor/
+---
+## Απαρίθμηση SchemeColor
+
+Αναπαριστά χρώματα σε ένα σχήμα χρωμάτων.
+
+Ο τύπος SchemeColor εκθέτει τα ακόλουθα μέλη:
+
+## Πεδία
+
+| Field | Περιγραφή |
+| :- | :- |
+| NOT_DEFINED | Το σχήμα χρωμάτων δεν ορίζεται. |
+| BACKGROUND1 |  |
+| TEXT1 |  |
+| BACKGROUND2 |  |
+| TEXT2 |  |
+| ACCENT1 |  |
+| ACCENT2 |  |
+| ACCENT3 |  |
+| ACCENT4 |  |
+| ACCENT5 |  |
+| ACCENT6 |  |
+| HYPERLINK |  |
+| FOLLOWED_HYPERLINK |  |
+| STYLE_COLOR |  |
+| DARK1 |  |
+| LIGHT1 |  |
+| DARK2 |  |
+| LIGHT2 |  |
+
+
+### Δείτε επίσης
+* μονάδα [`aspose.slides`](/slides/python-net/el/aspose.slides)
+* βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

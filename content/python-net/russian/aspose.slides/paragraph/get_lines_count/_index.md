@@ -6,8 +6,8 @@ type: docs
 url: /ru/aspose.slides/paragraph/get_lines_count/
 weight: 30
 ---
-## get_lines_count {#}
-Получить количество строк в абзаце.
+## get_lines_count(self) {#}
+Получает количество строк в абзаце.
 
 ### Возвращаемое значение
 

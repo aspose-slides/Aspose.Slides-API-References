@@ -1,0 +1,28 @@
+---
+title: size property
+second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
+description: 
+type: docs
+url: /el/aspose.slides/inotessize/size/
+weight: 10
+---
+## size ιδιότητα
+Επιστρέφει ή ορίζει το size σε σημεία.
+            Ανάγνωση/εγγραφή **aspose.slides.SizeF**.
+
+### Ορισμός:
+```python
+@property
+def size(self):
+    ...
+
+@size.setter
+def size(self, value):
+    ...
+```
+
+
+### Δείτε επίσης
+* κλάση [`INotesSize`](/slides/python-net/el/aspose.slides/inotessize)
+* μονάδα [`aspose.slides`](/slides/python-net/el/aspose.slides)
+* βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

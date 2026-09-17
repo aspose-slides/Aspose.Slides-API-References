@@ -1,13 +1,13 @@
 ---
 title: portions property
-second_title: Aspose.Slides для Python через .NET, справочник API
+second_title: Aspose.Slides для Python через .NET справочник API
 description: 
 type: docs
 url: /ru/aspose.slides/iparagraph/portions/
 weight: 90
 ---
-## Свойство portions
-Возвращает коллекцию текстовых фрагментов.
+## portions свойство
+Возвращает коллекцию текстовых portions.
             Только для чтения [`IPortionCollection`](/slides/python-net/ru/aspose.slides/iportioncollection).
 
 ### Определение:

@@ -1,0 +1,33 @@
+---
+title: IHtml5Options class
+second_title: Aspose.Slides for Python via .NET API 参考
+description: 
+type: docs
+url: /zh/aspose.slides.export/ihtml5options/
+---
+## IHtml5Options 类
+
+表示 HTML5 导出选项。
+
+The IHtml5Options type exposes the following members:
+
+## 属性
+
+| Property | Description |
+| :- | :- |
+| [`animate_transitions`](/slides/python-net/zh/aspose.slides.export/ihtml5options/animate_transitions/) | Returns or sets transitions animation option.<br/>            Read/write **bool**. |
+| [`animate_shapes`](/slides/python-net/zh/aspose.slides.export/ihtml5options/animate_shapes/) | Returns or sets shapes animation option.<br/>            Read/write **bool**. |
+| [`embed_images`](/slides/python-net/zh/aspose.slides.export/ihtml5options/embed_images/) | Returns or sets images embedding option.<br/>            Read/write **bool**. |
+| [`output_path`](/slides/python-net/zh/aspose.slides.export/ihtml5options/output_path/) | Determines where external resources should be stored.<br/>            Read/write **str**. |
+| [`pictures_compression`](/slides/python-net/zh/aspose.slides.export/ihtml5options/pictures_compression/) | Represents the pictures compression level<br/>            Read/write [`IHtml5Options.pictures_compression`](/slides/python-net/zh/aspose.slides.export/ihtml5options/pictures_compression). |
+| [`disable_font_ligatures`](/slides/python-net/zh/aspose.slides.export/ihtml5options/disable_font_ligatures/) | Gets or sets a value indicating whether text is rendered without using ligatures.<br/>            When set to `true`, ligatures will be disabled in the rendered output. By default, this property is set to `false`. |
+| [`slides_layout_options`](/slides/python-net/zh/aspose.slides.export/ihtml5options/slides_layout_options/) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [`ISlidesLayoutOptions`](/slides/python-net/zh/aspose.slides.export/islideslayoutoptions). |
+| [`warning_callback`](/slides/python-net/zh/aspose.slides.export/ihtml5options/warning_callback/) |  |
+| [`progress_callback`](/slides/python-net/zh/aspose.slides.export/ihtml5options/progress_callback/) |  |
+| [`default_regular_font`](/slides/python-net/zh/aspose.slides.export/ihtml5options/default_regular_font/) |  |
+| [`gradient_style`](/slides/python-net/zh/aspose.slides.export/ihtml5options/gradient_style/) |  |
+| [`skip_java_script_links`](/slides/python-net/zh/aspose.slides.export/ihtml5options/skip_java_script_links/) |  |
+
+### 另见
+* 模块 [`aspose.slides.export`](/slides/python-net/zh/aspose.slides.export)
+* 库 [`Aspose.Slides`](/slides/python-net)

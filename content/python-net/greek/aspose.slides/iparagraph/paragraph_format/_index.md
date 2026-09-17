@@ -6,9 +6,9 @@ type: docs
 url: /el/aspose.slides/iparagraph/paragraph_format/
 weight: 80
 ---
-## ιδιότητα paragraph_format
+## paragraph_format ιδιότητα
 Επιστρέφει το αντικείμενο μορφοποίησης για αυτήν την παράγραφο.
-            Μόνο για ανάγνωση [`IParagraphFormat`](/slides/python-net/el/aspose.slides/iparagraphformat).
+Μόνο για ανάγνωση [`IParagraphFormat`](/slides/python-net/el/aspose.slides/iparagraphformat).
 
 ### Ορισμός:
 ```python

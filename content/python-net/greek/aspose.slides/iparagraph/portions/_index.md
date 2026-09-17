@@ -8,7 +8,7 @@ weight: 90
 ---
 ## portions ιδιότητα
 Επιστρέφει τη συλλογή των τμημάτων κειμένου.
-Μόνο για ανάγνωση [`IPortionCollection`](/slides/python-net/el/aspose.slides/iportioncollection).
+            Μόνο για ανάγνωση [`IPortionCollection`](/slides/python-net/el/aspose.slides/iportioncollection).
 
 ### Ορισμός:
 ```python

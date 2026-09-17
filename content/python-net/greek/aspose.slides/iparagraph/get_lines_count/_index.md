@@ -6,7 +6,7 @@ type: docs
 url: /el/aspose.slides/iparagraph/get_lines_count/
 weight: 20
 ---
-## get_lines_count {#}
+## get_lines_count(self) {#}
 Λαμβάνει τον αριθμό των γραμμών σε μια παράγραφο.
 
 ### Επιστρέφει

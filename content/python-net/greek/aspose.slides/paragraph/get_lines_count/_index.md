@@ -6,8 +6,8 @@ type: docs
 url: /el/aspose.slides/paragraph/get_lines_count/
 weight: 30
 ---
-## get_lines_count {#}
-Λάβετε τον αριθμό των γραμμών σε μια παράγραφο.
+## get_lines_count(self) {#}
+Αποκτά τον αριθμό των γραμμών σε μια παράγραφο.
 
 ### Επιστρέφει
 

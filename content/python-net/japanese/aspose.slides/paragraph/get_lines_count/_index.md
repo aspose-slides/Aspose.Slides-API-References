@@ -6,12 +6,13 @@ type: docs
 url: /ja/aspose.slides/paragraph/get_lines_count/
 weight: 30
 ---
-## get_lines_count {#}
+## get_lines_count(self) {#}
 段落内の行数を取得します。
 
 ### 戻り値
 
 段落内の行数
+
 
 
 ```python

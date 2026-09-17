@@ -1,13 +1,13 @@
 ---
 title: get_lines_count method
-second_title: Aspose.Slides для Python через .NET справочник API
+second_title: Справочник API Aspose.Slides для Python через .NET
 description: 
 type: docs
 url: /ru/aspose.slides/iparagraph/get_lines_count/
 weight: 20
 ---
-## get_lines_count {#}
-Возвращает количество строк в абзаце.
+## get_lines_count(self) {#}
+Получить количество строк в абзаце.
 
 ### Возвращаемое значение
 
@@ -23,7 +23,7 @@ def get_lines_count(self):
 
 
 
-### Смотрите также
+### См. также
 * класс [`IParagraph`](/slides/python-net/ru/aspose.slides/iparagraph)
 * модуль [`aspose.slides`](/slides/python-net/ru/aspose.slides)
 * библиотека [`Aspose.Slides`](/slides/python-net)

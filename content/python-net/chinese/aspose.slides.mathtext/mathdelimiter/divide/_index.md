@@ -1,0 +1,98 @@
+---
+title: divide method
+second_title: Aspose.Slides for Python via .NET API 参考文档
+description: 
+type: docs
+url: /zh/aspose.slides.mathtext/mathdelimiter/divide/
+weight: 50
+---
+## divide(self, denominator) {#imathelement}
+使用此分子和指定的分母创建分数
+
+### Returns
+
+新的分数
+
+
+
+```python
+def divide(self, denominator):
+    ...
+```
+
+
+| 参数 | 类型 | 描述 |
+| :- | :- | :- |
+| denominator | [`IMathElement`](/slides/python-net/zh/aspose.slides.mathtext/imathelement) | 分母 |
+
+
+## divide(self, denominator) {#str}
+使用此分子和指定的分母创建分数
+
+### Returns
+
+新的分数
+
+
+
+```python
+def divide(self, denominator):
+    ...
+```
+
+
+| 参数 | 类型 | 描述 |
+| :- | :- | :- |
+| denominator | **str** | 分母 |
+
+
+## divide(self, denominator, fraction_type) {#imathelement-mathfractiontypes}
+使用此分子和指定的分母以及指定类型创建分数
+
+### Returns
+
+新的分数
+
+
+
+```python
+def divide(self, denominator, fraction_type):
+    ...
+```
+
+
+| 参数 | 类型 | 描述 |
+| :- | :- | :- |
+| denominator | [`IMathElement`](/slides/python-net/zh/aspose.slides.mathtext/imathelement) | 分母 |
+| fraction_type | [`MathFractionTypes`](/slides/python-net/zh/aspose.slides.mathtext/mathfractiontypes) | 分数类型: Bar, NoBar, Skewed, Linear |
+
+
+## divide(self, denominator, fraction_type) {#str-mathfractiontypes}
+使用此分子和指定的分母以及指定类型创建分数
+
+### Returns
+
+新的分数
+
+
+
+```python
+def divide(self, denominator, fraction_type):
+    ...
+```
+
+
+| 参数 | 类型 | 描述 |
+| :- | :- | :- |
+| denominator | **str** | 分母 |
+| fraction_type | [`MathFractionTypes`](/slides/python-net/zh/aspose.slides.mathtext/mathfractiontypes) | 分数类型: Bar, NoBar, Skewed, Linear |
+
+
+
+### See Also
+* 类 [`IMathElement`](/slides/python-net/zh/aspose.slides.mathtext/imathelement)
+* 类 [`IMathFraction`](/slides/python-net/zh/aspose.slides.mathtext/imathfraction)
+* 类 [`MathDelimiter`](/slides/python-net/zh/aspose.slides.mathtext/mathdelimiter)
+* 枚举 [`MathFractionTypes`](/slides/python-net/zh/aspose.slides.mathtext/mathfractiontypes)
+* 模块 [`aspose.slides.mathtext`](/slides/python-net/zh/aspose.slides.mathtext)
+* 库 [`Aspose.Slides`](/slides/python-net)

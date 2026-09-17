@@ -1,0 +1,24 @@
+---
+title: clear method
+second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
+description: 
+type: docs
+url: /el/aspose.slides/commentcollection/clear/
+weight: 30
+---
+## clear(self) {#}
+Αφαιρεί όλα τα σχόλια από μια συλλογή.
+
+
+```python
+def clear(self):
+    ...
+```
+
+
+
+
+### Δείτε επίσης
+* κλάση [`CommentCollection`](/slides/python-net/el/aspose.slides/commentcollection)
+* μονάδα [`aspose.slides`](/slides/python-net/el/aspose.slides)
+* βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

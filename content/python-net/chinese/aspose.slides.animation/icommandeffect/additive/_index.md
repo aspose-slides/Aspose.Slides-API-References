@@ -1,0 +1,25 @@
+---
+title: additive property
+second_title: Aspose.Slides 用于 Python via .NET API 参考
+description: 
+type: docs
+url: /zh/aspose.slides.animation/icommandeffect/additive/
+weight: 20
+---
+## 加法属性
+### 定义：
+```python
+@property
+def additive(self):
+    ...
+
+@additive.setter
+def additive(self, value):
+    ...
+```
+
+
+### 另见
+* 类 [`ICommandEffect`](/slides/python-net/zh/aspose.slides.animation/icommandeffect)
+* 模块 [`aspose.slides.animation`](/slides/python-net/zh/aspose.slides.animation)
+* 库 [`Aspose.Slides`](/slides/python-net)

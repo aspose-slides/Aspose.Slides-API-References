@@ -1,0 +1,30 @@
+---
+title: add_alpha_inverse_effect method
+second_title: Aspose.Slides for Python via .NET API 参考
+description: 
+type: docs
+url: /zh/aspose.slides.effects/iimagetransformoperationcollection/add_alpha_inverse_effect/
+weight: 40
+---
+## add_alpha_inverse_effect(self) {#}
+将新的 Alpha Inverse 效果添加到集合的末尾。
+
+### 返回
+
+集合中新图像效果的索引.
+
+
+
+```python
+def add_alpha_inverse_effect(self):
+    ...
+```
+
+
+
+
+### 参见
+* 类 [`IAlphaInverse`](/slides/python-net/zh/aspose.slides.effects/ialphainverse)
+* 类 [`IImageTransformOperationCollection`](/slides/python-net/zh/aspose.slides.effects/iimagetransformoperationcollection)
+* 模块 [`aspose.slides.effects`](/slides/python-net/zh/aspose.slides.effects)
+* 库 [`Aspose.Slides`](/slides/python-net)

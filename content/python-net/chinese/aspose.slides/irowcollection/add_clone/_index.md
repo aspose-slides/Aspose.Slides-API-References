@@ -1,0 +1,30 @@
+---
+title: add_clone method
+second_title: Aspose.Slides for Python via .NET API 参考
+description: 
+type: docs
+url: /zh/aspose.slides/irowcollection/add_clone/
+weight: 10
+---
+## add_clone(self, templ, with_attached_rows) {#irow-bool}
+创建指定模板行的副本并将其插入表格底部。
+
+### 返回
+
+已添加的行。
+
+```python
+def add_clone(self, templ, with_attached_rows):
+    ...
+```
+
+| 参数 | 类型 | 描述 |
+| :- | :- | :- |
+| templ | [`IRow`](/slides/python-net/zh/aspose.slides/irow) | 用作模板的行。 |
+| with_attached_rows | **bool** | True 以复制模板行附加的所有行。 |
+
+### 另见
+* 类 [`IRow`](/slides/python-net/zh/aspose.slides/irow)
+* 类 [`IRowCollection`](/slides/python-net/zh/aspose.slides/irowcollection)
+* 模块 [`aspose.slides`](/slides/python-net/zh/aspose.slides)
+* 库 [`Aspose.Slides`](/slides/python-net)

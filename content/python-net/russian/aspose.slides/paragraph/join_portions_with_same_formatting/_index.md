@@ -6,9 +6,8 @@ type: docs
 url: /ru/aspose.slides/paragraph/join_portions_with_same_formatting/
 weight: 50
 ---
-## join_portions_with_same_formatting {#}
+## join_portions_with_same_formatting(self) {#}
 Объединяет фрагменты с одинаковым форматированием.
-
 
 ```python
 def join_portions_with_same_formatting(self):

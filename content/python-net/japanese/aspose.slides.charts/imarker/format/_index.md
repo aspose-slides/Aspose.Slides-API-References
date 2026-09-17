@@ -1,0 +1,25 @@
+---
+title: format property
+second_title: Aspose.Slides for Python via .NET API リファレンス
+description: 
+type: docs
+url: /ja/aspose.slides.charts/imarker/format/
+weight: 10
+---
+## format プロパティ
+マーカーの塗りつぶしを取得します。
+            読み取り専用 [`IFormat`](/slides/python-net/ja/aspose.slides.charts/iformat)。
+
+### 定義:
+```python
+@property
+def format(self):
+    ...
+```
+
+
+### 参照
+* クラス [`IFormat`](/slides/python-net/ja/aspose.slides.charts/iformat)
+* クラス [`IMarker`](/slides/python-net/ja/aspose.slides.charts/imarker)
+* モジュール [`aspose.slides.charts`](/slides/python-net/ja/aspose.slides.charts)
+* ライブラリ [`Aspose.Slides`](/slides/python-net)

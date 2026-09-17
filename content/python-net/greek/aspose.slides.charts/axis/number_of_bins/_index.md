@@ -1,0 +1,27 @@
+---
+title: number_of_bins property
+second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
+description: 
+type: docs
+url: /el/aspose.slides.charts/axis/number_of_bins/
+weight: 500
+---
+## number_of_bins ιδιότητα
+Καθορίζει τον αριθμό των κάδων όταν η τιμή της ιδιότητας AggregationType έχει οριστεί σε AxisAggregationType.ByNumberOfBins. 
+Εφαρμόζεται σε άξονες κατηγορίας. Χρησιμοποιείται μόνο με σειρές Histogram ή HistogramPareto.
+
+### Ορισμός:
+```python
+@property
+def number_of_bins(self):
+    ...
+
+@number_of_bins.setter
+def number_of_bins(self, value):
+    ...
+```
+
+### Δείτε επίσης
+* κλάση [`Axis`](/slides/python-net/el/aspose.slides.charts/axis)
+* μονάδα [`aspose.slides.charts`](/slides/python-net/el/aspose.slides.charts)
+* βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

@@ -1,0 +1,25 @@
+---
+title: width property
+second_title: Aspose.Slides for Python via .NET API リファレンス
+description: 
+type: docs
+url: /ja/aspose.slides.smartart/ismartart/width/
+weight: 460
+---
+## width プロパティ
+### 定義:
+```python
+@property
+def width(self):
+    ...
+
+@width.setter
+def width(self, value):
+    ...
+```
+
+
+### 参照
+* クラス [`ISmartArt`](/slides/python-net/ja/aspose.slides.smartart/ismartart)
+* モジュール [`aspose.slides.smartart`](/slides/python-net/ja/aspose.slides.smartart)
+* ライブラリ [`Aspose.Slides`](/slides/python-net)

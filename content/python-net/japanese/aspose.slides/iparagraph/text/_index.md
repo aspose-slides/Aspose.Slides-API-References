@@ -6,7 +6,7 @@ type: docs
 url: /ja/aspose.slides/iparagraph/text/
 weight: 120
 ---
-## text プロパティ
+## テキスト プロパティ
 段落のプレーンテキストを取得または設定します。
             読み取り/書き込み **str**.
 

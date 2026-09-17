@@ -6,8 +6,9 @@ type: docs
 url: /ja/aspose.slides/paragraph/get_rect/
 weight: 40
 ---
-## get_rect {#}
-段落を囲む矩形の座標を取得します。矩形には段落内のすべてのテキスト行（空行も含む）が含まれます。
+## get_rect(self) {#}
+段落を囲む矩形の座標を取得します。矩形には段落内のテキスト行すべてが含まれ、 
+            空行も含まれます。
 
 
 ```python

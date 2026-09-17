@@ -1,0 +1,24 @@
+---
+title: StreamWrapperFactory constructor
+second_title: Aspose.Slides for Python via .NET API リファレンス
+description: 
+type: docs
+url: /ja/aspose.slides/streamwrapperfactory/__init__/
+weight: 10
+---
+## __init__(self) {#}
+
+
+
+```python
+def __init__(self):
+    ...
+```
+
+
+
+
+### 参照
+* クラス [`StreamWrapperFactory`](/slides/python-net/ja/aspose.slides/streamwrapperfactory)
+* モジュール [`aspose.slides`](/slides/python-net/ja/aspose.slides)
+* ライブラリ [`Aspose.Slides`](/slides/python-net)

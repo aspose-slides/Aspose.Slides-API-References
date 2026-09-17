@@ -1,0 +1,29 @@
+---
+title: send_warning method
+second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
+description: 
+type: docs
+url: /el/aspose.slides.warnings/inotimplementedwarninginfo/send_warning/
+weight: 10
+---
+## send_warning(self, receiver) {#iwarningcallback}
+
+
+
+```python
+def send_warning(self, receiver):
+    ...
+```
+
+
+| Παράμετρος | Τύπος | Περιγραφή |
+| :- | :- | :- |
+| receiver | [`IWarningCallback`](/slides/python-net/el/aspose.slides.warnings/iwarningcallback) |  |
+
+
+
+### Δείτε επίσης
+* κλάση [`INotImplementedWarningInfo`](/slides/python-net/el/aspose.slides.warnings/inotimplementedwarninginfo)
+* κλάση [`IWarningCallback`](/slides/python-net/el/aspose.slides.warnings/iwarningcallback)
+* μονάδα [`aspose.slides.warnings`](/slides/python-net/el/aspose.slides.warnings)
+* βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

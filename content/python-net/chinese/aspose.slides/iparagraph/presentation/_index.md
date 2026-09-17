@@ -1,12 +1,12 @@
 ---
 title: presentation property
-second_title: Aspose.Slides for Python via .NET API 参考
+second_title: Aspose.Slides 用于 Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides/iparagraph/presentation/
 weight: 100
 ---
-## 演示属性
+## presentation 属性
 ### 定义:
 ```python
 @property
