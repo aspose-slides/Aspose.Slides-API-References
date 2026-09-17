@@ -1,0 +1,86 @@
+---
+title: quadratic_bezier_to method
+second_title: Aspose.Slides für Python über .NET API-Referenz
+description: 
+type: docs
+url: /de/aspose.slides/igeometrypath/quadratic_bezier_to/
+weight: 60
+---
+## quadratic_bezier_to(self, point1, point2) {#asposepydrawingpointf-asposepydrawingpointf}
+Fügt eine quadratische Bézierkurve am Ende des Pfads hinzu
+
+
+```python
+def quadratic_bezier_to(self, point1, point2):
+    ...
+```
+
+| Parameter | Typ | Beschreibung |
+| :- | :- | :- |
+| point1 | **aspose.slides.PointF** | Richtpunkt |
+| point2 | **aspose.slides.PointF** | Endpunkt |
+
+## quadratic_bezier_to(self, point1, point2, index) {#asposepydrawingpointf-asposepydrawingpointf-int}
+Fügt eine quadratische Bézierkurve an der angegebenen Stelle des Pfads hinzu
+
+
+```python
+def quadratic_bezier_to(self, point1, point2, index):
+    ...
+```
+
+| Parameter | Typ | Beschreibung |
+| :- | :- | :- |
+| point1 | **aspose.slides.PointF** | Richtpunkt |
+| point2 | **aspose.slides.PointF** | Endpunkt |
+| index | **int** | Index des Segments in PathData |
+
+### Ausnahmen
+
+| Ausnahme | Beschreibung |
+| :- | :- |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Segmentindex liegt außerhalb des PathData-Bereichs |
+
+## quadratic_bezier_to(self, x1, y1, x2, y2) {#float-float-float-float}
+Fügt eine quadratische Bézierkurve am Ende des Pfads hinzu
+
+
+```python
+def quadratic_bezier_to(self, x1, y1, x2, y2):
+    ...
+```
+
+| Parameter | Typ | Beschreibung |
+| :- | :- | :- |
+| x1 | **float** | X-Koordinate des Richtpunkts |
+| y1 | **float** | Y-Koordinate des Richtpunkts |
+| x2 | **float** | X-Koordinate des Endpunkts |
+| y2 | **float** | Y-Koordinate des Endpunkts |
+
+## quadratic_bezier_to(self, x1, y1, x2, y2, index) {#float-float-float-float-int}
+Fügt eine quadratische Bézierkurve an der angegebenen Stelle des Pfads hinzu
+
+
+```python
+def quadratic_bezier_to(self, x1, y1, x2, y2, index):
+    ...
+```
+
+| Parameter | Typ | Beschreibung |
+| :- | :- | :- |
+| x1 | **float** | X-Koordinate des Richtpunkts |
+| y1 | **float** | Y-Koordinate des Richtpunkts |
+| x2 | **float** | X-Koordinate des Endpunkts |
+| y2 | **float** | Y-Koordinate des Endpunkts |
+| index | **int** | Index des Segments in PathData |
+
+### Ausnahmen
+
+| Ausnahme | Beschreibung |
+| :- | :- |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Segmentindex liegt außerhalb des PathData-Bereichs |
+
+### Siehe auch
+* Klasse [`IGeometryPath`](/slides/python-net/de/aspose.slides/igeometrypath)
+* Modul [`aspose.slides`](/slides/python-net/de/aspose.slides)
+* Bibliothek [`Aspose.Slides`](/slides/python-net)

@@ -1,0 +1,25 @@
+---
+title: additive property
+second_title: Referencia de API de Aspose.Slides para Python vía .NET
+description: 
+type: docs
+url: /es/aspose.slides.animation/ifiltereffect/additive/
+weight: 20
+---
+## propiedad aditiva
+### Definición:
+```python
+@property
+def additive(self):
+    ...
+
+@additive.setter
+def additive(self, value):
+    ...
+```
+
+
+### Ver también
+* clase [`IFilterEffect`](/slides/python-net/es/aspose.slides.animation/ifiltereffect)
+* módulo [`aspose.slides.animation`](/slides/python-net/es/aspose.slides.animation)
+* biblioteca [`Aspose.Slides`](/slides/python-net)

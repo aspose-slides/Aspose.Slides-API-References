@@ -1,0 +1,46 @@
+---
+title: create_math_fraction method
+second_title: Aspose.Slides pour Python via .NET Référence API
+description: 
+type: docs
+url: /fr/aspose.slides.mathtext/mathfractionfactory/create_math_fraction/
+weight: 20
+---
+## create_math_fraction(self, numerator, denominator) {#imathelement-imathelement}
+Crée une fraction mathématique
+
+### Retour
+
+```python
+def create_math_fraction(self, numerator, denominator):
+    ...
+```
+
+| Paramètre | Type | Description |
+| :- | :- | :- |
+| numerator | [`IMathElement`](/slides/python-net/fr/aspose.slides.mathtext/imathelement) | Numérateur |
+| denominator | [`IMathElement`](/slides/python-net/fr/aspose.slides.mathtext/imathelement) | Dénominateur |
+
+## create_math_fraction(self, numerator, denominator, fraction_type) {#imathelement-imathelement-mathfractiontypes}
+Crée une fraction mathématique
+
+### Retour
+
+```python
+def create_math_fraction(self, numerator, denominator, fraction_type):
+    ...
+```
+
+| Paramètre | Type | Description |
+| :- | :- | :- |
+| numerator | [`IMathElement`](/slides/python-net/fr/aspose.slides.mathtext/imathelement) | Numérateur |
+| denominator | [`IMathElement`](/slides/python-net/fr/aspose.slides.mathtext/imathelement) | Dénominateur |
+| fraction_type | [`MathFractionTypes`](/slides/python-net/fr/aspose.slides.mathtext/mathfractiontypes) | Type de fraction |
+
+### Voir aussi
+* classe [`IMathElement`](/slides/python-net/fr/aspose.slides.mathtext/imathelement)
+* classe [`IMathFraction`](/slides/python-net/fr/aspose.slides.mathtext/imathfraction)
+* classe [`MathFractionFactory`](/slides/python-net/fr/aspose.slides.mathtext/mathfractionfactory)
+* énumération [`MathFractionTypes`](/slides/python-net/fr/aspose.slides.mathtext/mathfractiontypes)
+* module [`aspose.slides.mathtext`](/slides/python-net/fr/aspose.slides.mathtext)
+* bibliothèque [`Aspose.Slides`](/slides/python-net)

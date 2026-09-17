@@ -14,6 +14,7 @@ def presentation(self):
     ...
 ```
 
+
 ### Siehe auch
 * Klasse [`IParagraph`](/slides/python-net/de/aspose.slides/iparagraph)
 * Modul [`aspose.slides`](/slides/python-net/de/aspose.slides)

@@ -1,0 +1,23 @@
+---
+title: base property
+second_title: Aspose.Slides للـ Python عبر .NET مرجع API
+description: 
+type: docs
+url: /ar/aspose.slides.mathtext/mathnaryoperator/base/
+weight: 260
+---
+## خاصية أساسية
+المعامل الأساسي
+
+### التعريف:
+```python
+@property
+def base(self):
+    ...
+```
+
+
+### انظر أيضًا
+* الفئة [`MathNaryOperator`](/slides/python-net/ar/aspose.slides.mathtext/mathnaryoperator)
+* الوحدة [`aspose.slides.mathtext`](/slides/python-net/ar/aspose.slides.mathtext)
+* المكتبة [`Aspose.Slides`](/slides/python-net)

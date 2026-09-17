@@ -1,12 +1,12 @@
 ---
 title: slide property
-second_title: Referencia de API de Aspose.Slides para Python via .NET
+second_title: Referencia de API de Aspose.Slides para Python a través de .NET
 description: 
 type: docs
 url: /es/aspose.slides/iparagraph/slide/
 weight: 110
 ---
-## propiedad de diapositiva
+## slide propiedad
 ### Definición:
 ```python
 @property
@@ -15,7 +15,7 @@ def slide(self):
 ```
 
 
-### Véase también
+### Ver también
 * clase [`IParagraph`](/slides/python-net/es/aspose.slides/iparagraph)
 * módulo [`aspose.slides`](/slides/python-net/es/aspose.slides)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

@@ -1,0 +1,21 @@
+---
+title: timeline property
+second_title: Aspose.Slides für Python via .NET API-Referenz
+description: 
+type: docs
+url: /de/aspose.slides/imasternotesslide/timeline/
+weight: 240
+---
+## Timeline-Eigenschaft
+### Definition:
+```python
+@property
+def timeline(self):
+    ...
+```
+
+
+### Siehe auch
+* Klasse [`IMasterNotesSlide`](/slides/python-net/de/aspose.slides/imasternotesslide)
+* Modul [`aspose.slides`](/slides/python-net/de/aspose.slides)
+* Bibliothek [`Aspose.Slides`](/slides/python-net)

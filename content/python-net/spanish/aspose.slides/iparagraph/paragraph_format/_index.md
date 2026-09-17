@@ -1,6 +1,6 @@
 ---
 title: paragraph_format property
-second_title: Referencia de API de Aspose.Slides para Python vía .NET
+second_title: Referencia de API de Aspose.Slides para Python a través de .NET
 description: 
 type: docs
 url: /es/aspose.slides/iparagraph/paragraph_format/

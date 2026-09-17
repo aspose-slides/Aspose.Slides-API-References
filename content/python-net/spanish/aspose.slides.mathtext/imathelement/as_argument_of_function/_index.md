@@ -1,0 +1,118 @@
+---
+title: as_argument_of_function method
+second_title: Referencia de la API Aspose.Slides para Python mediante .NET
+description: 
+type: docs
+url: /es/aspose.slides.mathtext/imathelement/as_argument_of_function/
+weight: 20
+---
+## as_argument_of_function(self, function_name) {#imathelement}
+Utiliza la función especificada tomando esta instancia como argumento
+
+### Retorno
+
+Nuevo elemento matemático del tipo [`IMathFunction`](/slides/python-net/es/aspose.slides.mathtext/imathfunction)
+
+
+
+```python
+def as_argument_of_function(self, function_name):
+    ...
+```
+
+
+| Parámetro | Tipo | Descripción |
+| :- | :- | :- |
+| function_name | [`IMathElement`](/slides/python-net/es/aspose.slides.mathtext/imathelement) | Nombre de la función |
+
+
+## as_argument_of_function(self, function_name) {#str}
+Utiliza la función especificada tomando esta instancia como argumento
+
+### Retorno
+
+Nuevo elemento matemático del tipo [`IMathFunction`](/slides/python-net/es/aspose.slides.mathtext/imathfunction)
+
+
+
+```python
+def as_argument_of_function(self, function_name):
+    ...
+```
+
+
+| Parámetro | Tipo | Descripción |
+| :- | :- | :- |
+| function_name | **str** | Nombre de la función |
+
+
+## as_argument_of_function(self, function_type) {#mathfunctionsofoneargument}
+Utiliza la función especificada tomando esta instancia como argumento
+
+### Retorno
+
+Nuevo elemento matemático del tipo [`IMathFunction`](/slides/python-net/es/aspose.slides.mathtext/imathfunction)
+
+
+
+```python
+def as_argument_of_function(self, function_type):
+    ...
+```
+
+
+| Parámetro | Tipo | Descripción |
+| :- | :- | :- |
+| function_type | [`MathFunctionsOfOneArgument`](/slides/python-net/es/aspose.slides.mathtext/mathfunctionsofoneargument) | Uno de los tipos de función comunes de un argumento |
+
+
+## as_argument_of_function(self, function_type, additional_argument) {#mathfunctionsoftwoarguments-imathelement}
+Utiliza la función especificada tomando esta instancia como argumento y el argumento adicional especificado
+
+### Retorno
+
+Nuevo elemento matemático del tipo [`IMathFunction`](/slides/python-net/es/aspose.slides.mathtext/imathfunction)
+
+
+
+```python
+def as_argument_of_function(self, function_type, additional_argument):
+    ...
+```
+
+
+| Parámetro | Tipo | Descripción |
+| :- | :- | :- |
+| function_type | [`MathFunctionsOfTwoArguments`](/slides/python-net/es/aspose.slides.mathtext/mathfunctionsoftwoarguments) | Uno de los tipos de función comunes de dos argumentos: Log, Lim, Min, Max |
+| additional_argument | [`IMathElement`](/slides/python-net/es/aspose.slides.mathtext/imathelement) | Argumento adicional según el tipo de función |
+
+
+## as_argument_of_function(self, function_type, additional_argument) {#mathfunctionsoftwoarguments-str}
+Utiliza la función especificada tomando esta instancia como argumento y el argumento adicional especificado
+
+### Retorno
+
+Nuevo elemento matemático del tipo [`IMathFunction`](/slides/python-net/es/aspose.slides.mathtext/imathfunction)
+
+
+
+```python
+def as_argument_of_function(self, function_type, additional_argument):
+    ...
+```
+
+
+| Parámetro | Tipo | Descripción |
+| :- | :- | :- |
+| function_type | [`MathFunctionsOfTwoArguments`](/slides/python-net/es/aspose.slides.mathtext/mathfunctionsoftwoarguments) | Uno de los tipos de función comunes de dos argumentos: Log, Lim, Min, Max |
+| additional_argument | **str** | Argumento adicional según el tipo de función |
+
+
+
+### Véase también
+* clase [`IMathElement`](/slides/python-net/es/aspose.slides.mathtext/imathelement)
+* clase [`IMathFunction`](/slides/python-net/es/aspose.slides.mathtext/imathfunction)
+* enumeración [`MathFunctionsOfOneArgument`](/slides/python-net/es/aspose.slides.mathtext/mathfunctionsofoneargument)
+* enumeración [`MathFunctionsOfTwoArguments`](/slides/python-net/es/aspose.slides.mathtext/mathfunctionsoftwoarguments)
+* módulo [`aspose.slides.mathtext`](/slides/python-net/es/aspose.slides.mathtext)
+* biblioteca [`Aspose.Slides`](/slides/python-net)

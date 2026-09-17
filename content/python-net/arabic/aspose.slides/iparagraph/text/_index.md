@@ -1,13 +1,13 @@
 ---
 title: text property
-second_title: مرجع API Aspose.Slides لـ Python عبر .NET
+second_title: Aspose.Slides لـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/iparagraph/text/
 weight: 120
 ---
 ## خاصية النص
-تحصل أو تعيين النص العادي للفقرة.
+يحصل أو يضبط النص العادي للفقرة.
             قراءة/كتابة **str**.
 
 ### التعريف:

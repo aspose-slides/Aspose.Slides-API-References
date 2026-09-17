@@ -6,7 +6,7 @@ type: docs
 url: /de/aspose.slides/paragraph/slide/
 weight: 120
 ---
-## slide Eigenschaft
+## Folien-Eigenschaft
 ### Definition:
 ```python
 @property

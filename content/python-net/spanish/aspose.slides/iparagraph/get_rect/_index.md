@@ -1,12 +1,12 @@
 ---
 title: get_rect method
-second_title: Aspose.Slides para Python a través de .NET Referencia de API
+second_title: Referencia de API de Aspose.Slides para Python vía .NET
 description: 
 type: docs
 url: /es/aspose.slides/iparagraph/get_rect/
 weight: 30
 ---
-## get_rect {#}
+## get_rect(self) {#}
 Obtiene las coordenadas del rectángulo que delimita el párrafo. El rectángulo incluye todas las líneas de texto en el párrafo, incluidas las vacías.
 
 ### Devuelve

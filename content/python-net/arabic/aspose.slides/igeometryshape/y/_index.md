@@ -1,0 +1,25 @@
+---
+title: y property
+second_title: Aspose.Slides ل Python عبر .NET مرجع API
+description: 
+type: docs
+url: /ar/aspose.slides/igeometryshape/y/
+weight: 470
+---
+## y خاصية
+### التعريف:
+```python
+@property
+def y(self):
+    ...
+
+@y.setter
+def y(self, value):
+    ...
+```
+
+
+### انظر أيضًا
+* فئة [`IGeometryShape`](/slides/python-net/ar/aspose.slides/igeometryshape)
+* وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

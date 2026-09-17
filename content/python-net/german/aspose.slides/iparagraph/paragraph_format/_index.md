@@ -8,7 +8,7 @@ weight: 80
 ---
 ## paragraph_format Eigenschaft
 Gibt das Formatierungsobjekt für diesen Absatz zurück.
-            Nur lesbar [`IParagraphFormat`](/slides/python-net/de/aspose.slides/iparagraphformat).
+            Schreibgeschützt [`IParagraphFormat`](/slides/python-net/de/aspose.slides/iparagraphformat).
 
 ### Definition:
 ```python

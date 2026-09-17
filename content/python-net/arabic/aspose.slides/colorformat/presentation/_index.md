@@ -1,0 +1,20 @@
+---
+title: presentation property
+second_title: مرجع API لـ Aspose.Slides للبايثون عبر .NET
+description: 
+type: docs
+url: /ar/aspose.slides/colorformat/presentation/
+weight: 150
+---
+## خاصية العرض
+### التعريف:
+```python
+@property
+def presentation(self):
+    ...
+```
+
+### انظر أيضًا
+* فئة [`ColorFormat`](/slides/python-net/ar/aspose.slides/colorformat)
+* وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

@@ -1,0 +1,29 @@
+---
+title: gradient_style property
+second_title: Référence de l'API Aspose.Slides pour Python via .NET
+description: 
+type: docs
+url: /fr/aspose.slides.export/saveoptions/gradient_style/
+weight: 20
+---
+## gradient_style propriété
+Renvoie ou définit le style visuel du dégradé.
+            Lecture/écriture [`GradientStyle`](/slides/python-net/fr/aspose.slides/gradientstyle).
+
+### Définition:
+```python
+@property
+def gradient_style(self):
+    ...
+
+@gradient_style.setter
+def gradient_style(self, value):
+    ...
+```
+
+
+### Voir aussi
+* énumération [`GradientStyle`](/slides/python-net/fr/aspose.slides/gradientstyle)
+* classe [`SaveOptions`](/slides/python-net/fr/aspose.slides.export/saveoptions)
+* module [`aspose.slides.export`](/slides/python-net/fr/aspose.slides.export)
+* bibliothèque [`Aspose.Slides`](/slides/python-net)

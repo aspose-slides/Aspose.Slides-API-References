@@ -6,7 +6,7 @@ type: docs
 url: /es/aspose.slides/paragraph/portions/
 weight: 100
 ---
-## portions propiedad
+## porciones propiedad
 Devuelve la colección de porciones de texto.
             Solo lectura [`IPortionCollection`](/slides/python-net/es/aspose.slides/iportioncollection).
 

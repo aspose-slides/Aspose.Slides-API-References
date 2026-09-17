@@ -1,0 +1,21 @@
+---
+title: line_format property
+second_title: Aspose.Slides لبايثون عبر .NET مرجع API
+description: 
+type: docs
+url: /ar/aspose.slides/isummaryzoomframe/line_format/
+weight: 290
+---
+## line_format خاصية
+### التعريف:
+```python
+@property
+def line_format(self):
+    ...
+```
+
+
+### انظر أيضًا
+* فئة [`ISummaryZoomFrame`](/slides/python-net/ar/aspose.slides/isummaryzoomframe)
+* وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

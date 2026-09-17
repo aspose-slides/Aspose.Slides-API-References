@@ -7,7 +7,7 @@ url: /ar/aspose.slides/paragraph/text/
 weight: 130
 ---
 ## خاصية النص
-يحصل أو يضبط النص العادي لفقرة.
+يحصل أو يعيّن النص العادي للفقرة.
             قراءة/كتابة **str**.
 
 ### التعريف:
@@ -23,6 +23,6 @@ def text(self, value):
 
 
 ### انظر أيضًا
-* فئة [`Paragraph`](/slides/python-net/ar/aspose.slides/paragraph)
-* وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
-* مكتبة [`Aspose.Slides`](/slides/python-net)
+* الفئة [`Paragraph`](/slides/python-net/ar/aspose.slides/paragraph)
+* الوحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
+* المكتبة [`Aspose.Slides`](/slides/python-net)

@@ -1,0 +1,28 @@
+---
+title: font_height property
+second_title: Aspose.Slides für Python über .NET API-Referenz
+description: 
+type: docs
+url: /de/aspose.slides/portionformat/font_height/
+weight: 140
+---
+## font_height Eigenschaft
+Gibt die Schriftgröße eines Abschnitts zurück oder setzt sie.
+            **float.NaN** bedeutet, dass die Höhe undefiniert ist und vom Master geerbt werden sollte.
+            Lesen/Schreiben **float**.
+
+### Definition:
+```python
+@property
+def font_height(self):
+    ...
+
+@font_height.setter
+def font_height(self, value):
+    ...
+```
+
+### Siehe auch
+* Klasse [`PortionFormat`](/slides/python-net/de/aspose.slides/portionformat)
+* Modul [`aspose.slides`](/slides/python-net/de/aspose.slides)
+* Bibliothek [`Aspose.Slides`](/slides/python-net)

@@ -6,7 +6,7 @@ type: docs
 url: /fr/aspose.slides/paragraph/text/
 weight: 130
 ---
-## propriété texte
+## text propriété
 Obtient ou définit le texte brut d'un paragraphe.
             Lecture/écriture **str**.
 

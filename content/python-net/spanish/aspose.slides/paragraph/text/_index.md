@@ -1,13 +1,13 @@
 ---
 title: text property
-second_title: Referencia de la API de Aspose.Slides para Python vía .NET
+second_title: Referencia de API de Aspose.Slides para Python mediante .NET
 description: 
 type: docs
 url: /es/aspose.slides/paragraph/text/
 weight: 130
 ---
-## propiedad de texto
-Obtiene o establece el texto sin formato de un párrafo.
+## text propiedad
+Obtiene o establece el texto plano de un párrafo.
             Lectura/escritura **str**.
 
 ### Definición:

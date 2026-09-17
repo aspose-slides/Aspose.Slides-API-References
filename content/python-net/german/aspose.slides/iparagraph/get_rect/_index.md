@@ -6,19 +6,22 @@ type: docs
 url: /de/aspose.slides/iparagraph/get_rect/
 weight: 30
 ---
-## get_rect {#}
-Liefert die Koordinaten des Rechtecks, das den Absatz begrenzt. Das Rechteck umfasst alle Zeilen des
-            Textes im Absatz, einschließlich leerer Zeilen.
+## get_rect(self) {#}
+Ruft die Koordinaten des Rechtecks ab, das den Absatz begrenzt. Das Rechteck umfasst alle Zeilen des
+            Text im Absatz, einschließlich leerer Zeilen.
 
 ### Rückgabewert
 
 Rechteck, das den Absatz begrenzt **aspose.slides.RectangleF**
 
 
+
 ```python
 def get_rect(self):
     ...
 ```
+
+
 
 
 ### Siehe auch

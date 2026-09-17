@@ -1,0 +1,24 @@
+---
+title: add method
+second_title: مرجع API لـ Aspose.Slides for Python عبر .NET
+description: 
+type: docs
+url: /ar/aspose.slides.animation/behaviorpropertycollection/add/
+weight: 10
+---
+## add(self, property_value) {#str}
+يضيف خاصية جديدة إلى المجموعة.
+
+```python
+def add(self, property_value):
+    ...
+```
+
+| المعامل | النوع | الوصف |
+| :- | :- | :- |
+| property_value | **str** | قيمة الخاصية التي سيتم إضافتها. |
+
+### انظر أيضًا
+* الفئة [`BehaviorPropertyCollection`](/slides/python-net/ar/aspose.slides.animation/behaviorpropertycollection)
+* الوحدة [`aspose.slides.animation`](/slides/python-net/ar/aspose.slides.animation)
+* المكتبة [`Aspose.Slides`](/slides/python-net)

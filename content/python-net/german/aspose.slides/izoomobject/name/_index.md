@@ -1,0 +1,25 @@
+---
+title: name property
+second_title: Aspose.Slides für Python über .NET API-Referenz
+description: 
+type: docs
+url: /de/aspose.slides/izoomobject/name/
+weight: 300
+---
+## Name Eigenschaft
+### Definition:
+```python
+@property
+def name(self):
+    ...
+
+@name.setter
+def name(self, value):
+    ...
+```
+
+
+### Siehe auch
+* Klasse [`IZoomObject`](/slides/python-net/de/aspose.slides/izoomobject)
+* Modul [`aspose.slides`](/slides/python-net/de/aspose.slides)
+* Bibliothek [`Aspose.Slides`](/slides/python-net)

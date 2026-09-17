@@ -1,0 +1,31 @@
+---
+title: write_shape_end method
+second_title: Aspose.Slides للبايثون عبر .NET – مرجع API
+description: 
+type: docs
+url: /ar/aspose.slides.export/embeddedeotfontshtmlcontroller/write_shape_end/
+weight: 40
+---
+## write_shape_end(self, generator, shape) {#ihtmlgenerator-ishape}
+
+
+
+```python
+def write_shape_end(self, generator, shape):
+    ...
+```
+
+
+| معامل | نوع | وصف |
+| :- | :- | :- |
+| generator | [`IHtmlGenerator`](/slides/python-net/ar/aspose.slides.export/ihtmlgenerator) |  |
+| shape | [`IShape`](/slides/python-net/ar/aspose.slides/ishape) |  |
+
+
+
+### انظر أيضًا
+* فئة [`EmbeddedEotFontsHtmlController`](/slides/python-net/ar/aspose.slides.export/embeddedeotfontshtmlcontroller)
+* فئة [`IHtmlGenerator`](/slides/python-net/ar/aspose.slides.export/ihtmlgenerator)
+* فئة [`IShape`](/slides/python-net/ar/aspose.slides/ishape)
+* وحدة [`aspose.slides.export`](/slides/python-net/ar/aspose.slides.export)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

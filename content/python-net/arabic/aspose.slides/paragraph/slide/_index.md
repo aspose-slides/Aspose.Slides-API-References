@@ -1,6 +1,6 @@
 ---
 title: slide property
-second_title: Aspose.Slides للـ Python عبر مرجع .NET API
+second_title: مرجع Aspose.Slides لـ Python عبر .NET
 description: 
 type: docs
 url: /ar/aspose.slides/paragraph/slide/

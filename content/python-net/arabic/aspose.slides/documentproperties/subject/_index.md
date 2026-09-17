@@ -1,0 +1,28 @@
+---
+title: subject property
+second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+description: 
+type: docs
+url: /ar/aspose.slides/documentproperties/subject/
+weight: 410
+---
+## subject خاصية
+ترجع أو تعين subject للعرض التقديمي.
+            قراءة/كتابة **str**.
+
+### التعريف:
+```python
+@property
+def subject(self):
+    ...
+
+@subject.setter
+def subject(self, value):
+    ...
+```
+
+
+### انظر أيضًا
+* فئة [`DocumentProperties`](/slides/python-net/ar/aspose.slides/documentproperties)
+* وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
+* مكتبة [`Aspose.Slides`](/slides/python-net)
