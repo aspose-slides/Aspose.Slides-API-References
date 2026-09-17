@@ -1,0 +1,23 @@
+---
+title: actual_major_unit_scale property
+second_title: Aspose.Slides ل Python عبر .NET مرجع API
+description: 
+type: docs
+url: /ar/aspose.slides.charts/iaxis/actual_major_unit_scale/
+weight: 30
+---
+## actual_major_unit_scale خاصية
+يحدد مقياس الوحدة الرئيسية الفعلي للمحور. استدعِ الطريقة IChart.ValidateChartLayout() مسبقًا للحصول على القيمة الفعلية.
+
+### التعريف:
+```python
+@property
+def actual_major_unit_scale(self):
+    ...
+```
+
+
+### انظر أيضًا
+* الفئة [`IAxis`](/slides/python-net/ar/aspose.slides.charts/iaxis)
+* الوحدة [`aspose.slides.charts`](/slides/python-net/ar/aspose.slides.charts)
+* المكتبة [`Aspose.Slides`](/slides/python-net)

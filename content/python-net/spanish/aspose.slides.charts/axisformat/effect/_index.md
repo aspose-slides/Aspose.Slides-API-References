@@ -1,0 +1,24 @@
+---
+title: effect property
+second_title: Referencia de API de Aspose.Slides para Python a través de .NET
+description: 
+type: docs
+url: /es/aspose.slides.charts/axisformat/effect/
+weight: 10
+---
+## effect propiedad
+Devuelve los efectos usados para un eje.
+            Solo lectura [`IEffectFormat`](/slides/python-net/es/aspose.slides/ieffectformat).
+
+### Definición:
+```python
+@property
+def effect(self):
+    ...
+```
+
+### Ver también
+* clase [`AxisFormat`](/slides/python-net/es/aspose.slides.charts/axisformat)
+* clase [`IEffectFormat`](/slides/python-net/es/aspose.slides/ieffectformat)
+* módulo [`aspose.slides.charts`](/slides/python-net/es/aspose.slides.charts)
+* biblioteca [`Aspose.Slides`](/slides/python-net)

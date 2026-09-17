@@ -1,14 +1,14 @@
 ---
 title: portions property
-second_title: Aspose.Slides für Python über .NET API-Referenz
+second_title: Aspose.Slides für Python über .NET API Referenz
 description: 
 type: docs
 url: /de/aspose.slides/paragraph/portions/
 weight: 100
 ---
 ## portions Eigenschaft
-Gibt die Sammlung von Textabschnitten zurück.
-Nur-Lesen [`IPortionCollection`](/slides/python-net/de/aspose.slides/iportioncollection)
+Gibt die Sammlung eines text portions zurück.
+            Schreibgeschützt [`IPortionCollection`](/slides/python-net/de/aspose.slides/iportioncollection).
 
 ### Definition:
 ```python
@@ -16,6 +16,7 @@ Nur-Lesen [`IPortionCollection`](/slides/python-net/de/aspose.slides/iportioncol
 def portions(self):
     ...
 ```
+
 
 ### Siehe auch
 * Klasse [`IPortionCollection`](/slides/python-net/de/aspose.slides/iportioncollection)

@@ -1,22 +1,20 @@
 ---
 title: paragraph_format property
-second_title: مرجع API Aspose.Slides للغة Python عبر .NET
+second_title: Aspose.Slides لــ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/paragraph/paragraph_format/
 weight: 90
 ---
-## خاصية paragraph_format
-تُعيد كائن التنسيق لهذه الفقرة.
+## paragraph_format خاصية
+يعيد كائن التنسيق لهذه الفقرة.
             للقراءة فقط [`IParagraphFormat`](/slides/python-net/ar/aspose.slides/iparagraphformat).
-
 
 ### ملاحظات
 
-يحتوي كائن التنسيق على معلمات التنسيق المعرفة لهذه الفقرة فقط، ولا تُطبق البيانات الموروثة.
+يحتوي كائن التنسيق على معلمات التنسيق المحددة للفقرة الحالية فقط، ولا يتم تطبيق البيانات الموروثة.
 
-
-للحصول على القيم الفعلية بما في ذلك الموروثة، استخدم طريقة [`ParagraphFormat.get_effective`](/slides/python-net/ar/aspose.slides/paragraphformat/get_effective).
+للحصول على القيم الفعّالة بما في ذلك القيم الموروثة استخدم الطريقة [`ParagraphFormat.get_effective`](/slides/python-net/ar/aspose.slides/paragraphformat/get_effective).
 
 ### التعريف:
 ```python
@@ -24,7 +22,6 @@ weight: 90
 def paragraph_format(self):
     ...
 ```
-
 
 ### انظر أيضًا
 * فئة [`IParagraphFormat`](/slides/python-net/ar/aspose.slides/iparagraphformat)

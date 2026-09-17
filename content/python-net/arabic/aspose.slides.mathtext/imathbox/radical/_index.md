@@ -1,0 +1,36 @@
+---
+title: radical method
+second_title: Aspose.Slides للـ Python عبر .NET مرجع API
+description: 
+type: docs
+url: /ar/aspose.slides.mathtext/imathbox/radical/
+weight: 120
+---
+## radical(self, degree) {#imathelement}
+
+```python
+def radical(self, degree):
+    ...
+```
+
+| المعلمة | النوع | الوصف |
+| :- | :- | :- |
+| degree | [`IMathElement`](/slides/python-net/ar/aspose.slides.mathtext/imathelement) |  |
+
+## radical(self, degree) {#str}
+
+```python
+def radical(self, degree):
+    ...
+```
+
+| المعلمة | النوع | الوصف |
+| :- | :- | :- |
+| degree | **str** |  |
+
+### انظر أيضًا
+* فئة [`IMathBox`](/slides/python-net/ar/aspose.slides.mathtext/imathbox)
+* فئة [`IMathElement`](/slides/python-net/ar/aspose.slides.mathtext/imathelement)
+* فئة [`IMathRadical`](/slides/python-net/ar/aspose.slides.mathtext/imathradical)
+* وحدة [`aspose.slides.mathtext`](/slides/python-net/ar/aspose.slides.mathtext)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

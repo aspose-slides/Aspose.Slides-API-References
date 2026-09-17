@@ -1,0 +1,29 @@
+---
+title: accumulate property
+second_title: مرجع API Aspose.Slides للبايثون عبر .NET
+description: 
+type: docs
+url: /ar/aspose.slides.animation/scaleeffect/accumulate/
+weight: 20
+---
+## خاصية accumulate
+يمثل ما إذا كانت سلوكيات الرسوم المتحركة متراكمة.
+            قراءة/كتابة [`NullableBool`](/slides/python-net/ar/aspose.slides/nullablebool).
+
+### التعريف:
+```python
+@property
+def accumulate(self):
+    ...
+
+@accumulate.setter
+def accumulate(self, value):
+    ...
+```
+
+
+### انظر أيضًا
+* تعداد [`NullableBool`](/slides/python-net/ar/aspose.slides/nullablebool)
+* فئة [`ScaleEffect`](/slides/python-net/ar/aspose.slides.animation/scaleeffect)
+* وحدة [`aspose.slides.animation`](/slides/python-net/ar/aspose.slides.animation)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

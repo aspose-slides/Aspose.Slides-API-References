@@ -6,8 +6,8 @@ type: docs
 url: /de/aspose.slides/iparagraph/join_portions_with_same_formatting/
 weight: 40
 ---
-## join_portions_with_same_formatting {#}
-Verknüpft Laufabschnitte mit gleicher Formatierung.
+## join_portions_with_same_formatting(self) {#}
+Verbindet Laufabschnitte mit gleicher Formatierung.
 
 
 ```python

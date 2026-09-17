@@ -1,12 +1,12 @@
 ---
 title: end_paragraph_portion_format property
-second_title: Aspose.Slides لبايثون عبر .NET مرجع واجهة برمجة التطبيقات
+second_title: Aspose.Slides لـ Python عبر مرجع API لـ .NET
 description: 
 type: docs
 url: /ar/aspose.slides/iparagraph/end_paragraph_portion_format/
 weight: 70
 ---
-## end_paragraph_portion_format خاصية
+## خاصية end_paragraph_portion_format
 يحدد خصائص الجزء التي يجب استخدامها إذا تم إدراج جزء آخر بعد 
             الأخير.
 

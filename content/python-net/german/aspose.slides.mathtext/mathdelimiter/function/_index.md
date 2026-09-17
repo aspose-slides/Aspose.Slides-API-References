@@ -1,0 +1,55 @@
+---
+title: function method
+second_title: Aspose.Slides für Python via .NET API-Referenz
+description: 
+type: docs
+url: /de/aspose.slides.mathtext/mathdelimiter/function/
+weight: 70
+---
+## function(self, function_argument) {#imathelement}
+Nimmt eine function eines function_argument und verwendet diese Instanz als function-Name
+
+### Rückgabe
+
+Neues mathematisches Element vom Typ [`IMathFunction`](/slides/python-net/de/aspose.slides.mathtext/imathfunction)
+
+
+
+```python
+def function(self, function_argument):
+    ...
+```
+
+
+| Parameter | Typ | Beschreibung |
+| :- | :- | :- |
+| function_argument | [`IMathElement`](/slides/python-net/de/aspose.slides.mathtext/imathelement) | Ein Argument der function |
+
+
+## function(self, function_argument) {#str}
+Nimmt eine function eines function_argument und verwendet diese Instanz als function-Name
+
+### Rückgabe
+
+Neues mathematisches Element vom Typ [`IMathFunction`](/slides/python-net/de/aspose.slides.mathtext/imathfunction)
+
+
+
+```python
+def function(self, function_argument):
+    ...
+```
+
+
+| Parameter | Typ | Beschreibung |
+| :- | :- | :- |
+| function_argument | **str** | Ein Argument der function |
+
+
+
+### Siehe auch
+* Klasse [`IMathElement`](/slides/python-net/de/aspose.slides.mathtext/imathelement)
+* Klasse [`IMathFunction`](/slides/python-net/de/aspose.slides.mathtext/imathfunction)
+* Klasse [`MathDelimiter`](/slides/python-net/de/aspose.slides.mathtext/mathdelimiter)
+* Modul [`aspose.slides.mathtext`](/slides/python-net/de/aspose.slides.mathtext)
+* Bibliothek [`Aspose.Slides`](/slides/python-net)

@@ -1,18 +1,22 @@
 ---
 title: join_portions_with_same_formatting method
-second_title: Aspose.Slides للبايثون عبر .NET مرجع API
+second_title: Aspose.Slides لـ Python عبر مرجع API لـ .NET
 description: 
 type: docs
 url: /ar/aspose.slides/paragraph/join_portions_with_same_formatting/
 weight: 50
 ---
-## join_portions_with_same_formatting {#}
+## join_portions_with_same_formatting(self) {#}
 يجمع المقاطع ذات التنسيق نفسه.
+
 
 ```python
 def join_portions_with_same_formatting(self):
     ...
 ```
+
+
+
 
 ### انظر أيضًا
 * فئة [`Paragraph`](/slides/python-net/ar/aspose.slides/paragraph)

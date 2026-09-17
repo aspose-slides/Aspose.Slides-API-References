@@ -6,13 +6,12 @@ type: docs
 url: /de/aspose.slides/iparagraph/get_lines_count/
 weight: 20
 ---
-## get_lines_count {#}
-Ermittelt die Anzahl der Zeilen in einem Absatz.
+## get_lines_count(self) {#}
+Gibt die Anzahl der Zeilen in einem Absatz zurück.
 
-### Rückgabe
+### Rückgabewert
 
-Zeilenanzahl in einem Absatz
-
+Anzahl der Zeilen in einem Absatz
 
 
 ```python

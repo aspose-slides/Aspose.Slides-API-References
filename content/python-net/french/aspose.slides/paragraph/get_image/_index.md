@@ -1,13 +1,13 @@
 ---
 title: get_image method
-second_title: Aspose.Slides pour Python via .NET Référence de l'API
+second_title: Référence de l'API Aspose.Slides pour Python via .NET
 description: 
 type: docs
 url: /fr/aspose.slides/paragraph/get_image/
 weight: 20
 ---
-## get_image {#}
-Retourne une image du paragraphe.
+## get_image(self) {#}
+Renvoie une image du paragraphe.
 
 ### Retour
 
@@ -23,8 +23,8 @@ def get_image(self):
 
 
 
-## get_image {#float-float}
-Retourne une image du paragraphe avec l'échelle spécifiée.
+## get_image(self, scale_x, scale_y) {#float-float}
+Renvoie une image du paragraphe avec l'échelle spécifiée.
 
 ### Retour
 

@@ -1,0 +1,21 @@
+---
+title: slide property
+second_title: Aspose.Slides para Python vía .NET Referencia de API
+description: 
+type: docs
+url: /es/aspose.slides.charts/chartseries/slide/
+weight: 470
+---
+## Propiedad de diapositiva
+### Definición:
+```python
+@property
+def slide(self):
+    ...
+```
+
+
+### Ver también
+* clase [`ChartSeries`](/slides/python-net/es/aspose.slides.charts/chartseries)
+* módulo [`aspose.slides.charts`](/slides/python-net/es/aspose.slides.charts)
+* biblioteca [`Aspose.Slides`](/slides/python-net)

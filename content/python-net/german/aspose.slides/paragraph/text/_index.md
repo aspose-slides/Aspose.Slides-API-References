@@ -7,8 +7,8 @@ url: /de/aspose.slides/paragraph/text/
 weight: 130
 ---
 ## Text-Eigenschaft
-Liest oder setzt den reinen Text eines Absatzes.
-            Lese/Schreib **str**.
+Liest oder setzt den einfachen Text eines Absatzes.
+            Lesen/Schreiben **str**.
 
 ### Definition:
 ```python

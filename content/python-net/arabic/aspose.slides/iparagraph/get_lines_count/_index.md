@@ -1,12 +1,12 @@
 ---
 title: get_lines_count method
-second_title: Aspose.Slides للـ Python عبر .NET مرجع API
+second_title: Aspose.Slides لـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/iparagraph/get_lines_count/
 weight: 20
 ---
-## get_lines_count {#}
+## get_lines_count(self) {#}
 احصل على عدد الأسطر في الفقرة.
 
 ### الإرجاع

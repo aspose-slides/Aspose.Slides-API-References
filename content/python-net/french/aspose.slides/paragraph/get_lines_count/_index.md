@@ -1,15 +1,15 @@
 ---
 title: get_lines_count method
-second_title: Référence de l'API Aspose.Slides pour Python via .NET
+second_title: Aspose.Slides pour Python via .NET Référence de l'API
 description: 
 type: docs
 url: /fr/aspose.slides/paragraph/get_lines_count/
 weight: 30
 ---
-## get_lines_count {#}
-Obtient le nombre de lignes dans un paragraphe.
+## get_lines_count(self) {#}
+Obtenir le nombre de lignes dans un paragraphe.
 
-### Retour
+### Valeur de retour
 
 Nombre de lignes dans un paragraphe
 

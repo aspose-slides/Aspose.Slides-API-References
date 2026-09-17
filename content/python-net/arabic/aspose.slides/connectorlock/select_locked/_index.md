@@ -1,0 +1,28 @@
+---
+title: select_locked property
+second_title: Aspose.Slides لبايثون عبر .NET مرجع API
+description: 
+type: docs
+url: /ar/aspose.slides/connectorlock/select_locked/
+weight: 100
+---
+## select_locked خاصية
+يحدد ما إذا كان اختيار هذا الشكل ممنوعًا.
+            قراءة/كتابة **bool**.
+
+### التعريف:
+```python
+@property
+def select_locked(self):
+    ...
+
+@select_locked.setter
+def select_locked(self, value):
+    ...
+```
+
+
+### انظر أيضاً
+* فئة [`ConnectorLock`](/slides/python-net/ar/aspose.slides/connectorlock)
+* وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

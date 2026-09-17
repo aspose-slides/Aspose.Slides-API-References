@@ -1,0 +1,24 @@
+---
+title: TransitionInOutDirectionType enumeration
+second_title: Référence de l'API Aspose.Slides pour Python via .NET
+description: 
+type: docs
+url: /fr/aspose.slides.slideshow/transitioninoutdirectiontype/
+---
+## TransitionInOutDirectionType énumération
+
+Représente les types de transition d'entrée ou de sortie.
+
+Le type TransitionInOutDirectionType expose les membres suivants :
+
+## Champs
+
+| Champ | Description |
+| :- | :- |
+| IN |  |
+| OUT |  |
+
+
+### Voir aussi
+* module [`aspose.slides.slideshow`](/slides/python-net/fr/aspose.slides.slideshow)
+* bibliothèque [`Aspose.Slides`](/slides/python-net)

@@ -1,6 +1,6 @@
 ---
 title: presentation property
-second_title: Aspose.Slides para Python vía .NET Referencia de API
+second_title: Referencia de API de Aspose.Slides para Python vía .NET
 description: 
 type: docs
 url: /es/aspose.slides/paragraph/presentation/

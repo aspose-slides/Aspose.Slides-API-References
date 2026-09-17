@@ -1,0 +1,25 @@
+---
+title: hyperlink_mouse_over property
+second_title: Aspose.Slides للبايثون عبر .NET مرجع API
+description: 
+type: docs
+url: /ar/aspose.slides/igraphicalobject/hyperlink_mouse_over/
+weight: 230
+---
+## hyperlink_mouse_over خاصية
+### التعريف:
+```python
+@property
+def hyperlink_mouse_over(self):
+    ...
+
+@hyperlink_mouse_over.setter
+def hyperlink_mouse_over(self, value):
+    ...
+```
+
+
+### انظر أيضًا
+* فئة [`IGraphicalObject`](/slides/python-net/ar/aspose.slides/igraphicalobject)
+* وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

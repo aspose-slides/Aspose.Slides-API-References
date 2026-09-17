@@ -1,16 +1,14 @@
 ---
 title: get_rect method
-second_title: Référence API Aspose.Slides pour Python via .NET
+second_title: Référence de l'API Aspose.Slides pour Python via .NET
 description: 
 type: docs
 url: /fr/aspose.slides/paragraph/get_rect/
 weight: 40
 ---
-## get_rect {#}
-Obtient les coordonnées du rectangle qui encadre le paragraphe.
-Le rectangle inclut toutes les lignes de
+## get_rect(self) {#}
+Obtient les coordonnées du rectangle qui encadre le paragraphe. Le rectangle comprend toutes les lignes de
             texte du paragraphe, y compris les lignes vides.
-
 
 ```python
 def get_rect(self):

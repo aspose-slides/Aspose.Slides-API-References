@@ -7,7 +7,8 @@ url: /de/aspose.slides/iparagraph/end_paragraph_portion_format/
 weight: 70
 ---
 ## end_paragraph_portion_format Eigenschaft
-Gibt die Portionseigenschaften an, die verwendet werden sollen, wenn eine weitere Portion nach der letzten eingefügt wird.
+Gibt die Abschnittseigenschaften an, die verwendet werden sollen, wenn ein weiterer Abschnitt nach dem 
+            letzten eingefügt wird.
 
 ### Definition:
 ```python

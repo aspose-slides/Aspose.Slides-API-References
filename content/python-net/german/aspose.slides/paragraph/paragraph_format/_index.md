@@ -8,15 +8,13 @@ weight: 90
 ---
 ## paragraph_format Eigenschaft
 Gibt das Formatierungsobjekt für diesen Absatz zurück.
-            Nur-Lesen [`IParagraphFormat`](/slides/python-net/de/aspose.slides/iparagraphformat).
-
+            Nur lesbar [`IParagraphFormat`](/slides/python-net/de/aspose.slides/iparagraphformat).
 
 ### Bemerkungen
 
-Das Formatierungsobjekt enthält die für den aktuellen Absatz definierten Formatierungsparameter; vererbte Daten werden nicht angewendet.
+Das Formatierungsobjekt enthält nur die für den aktuellen Absatz definierten Formatierungsparameter; vererbte Daten werden nicht angewendet.
 
-
-Um die effektiven Werte inklusive der geerbten zu erhalten, verwenden Sie die [`ParagraphFormat.get_effective`](/slides/python-net/de/aspose.slides/paragraphformat/get_effective) Methode.
+Um die effektiven Werte einschließlich der geerbten zu erhalten, verwenden Sie die [`ParagraphFormat.get_effective`](/slides/python-net/de/aspose.slides/paragraphformat/get_effective)-Methode.
 
 ### Definition:
 ```python
@@ -25,9 +23,8 @@ def paragraph_format(self):
     ...
 ```
 
-
 ### Siehe auch
 * Klasse [`IParagraphFormat`](/slides/python-net/de/aspose.slides/iparagraphformat)
 * Klasse [`Paragraph`](/slides/python-net/de/aspose.slides/paragraph)
 * Modul [`aspose.slides`](/slides/python-net/de/aspose.slides)
-* Bibliothek [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -1,0 +1,30 @@
+---
+title: remove method
+second_title: Référence de l'API Aspose.Slides pour Python via .NET
+description: 
+type: docs
+url: /fr/aspose.slides/icustomxmlpart/remove/
+weight: 10
+---
+## remove(self) {#}
+Supprime la partie XML personnalisée de la présentation.
+
+
+```python
+def remove(self):
+    ...
+```
+
+
+### Exceptions
+
+| Exception | Description |
+| :- | :- |
+| [`PptxEditException`](/slides/python-net/fr/aspose.slides/pptxeditexception) | Levée si la partie XML est déjà supprimée. |
+
+
+### Voir aussi
+* classe [`ICustomXmlPart`](/slides/python-net/fr/aspose.slides/icustomxmlpart)
+* classe [`PptxEditException`](/slides/python-net/fr/aspose.slides/pptxeditexception)
+* module [`aspose.slides`](/slides/python-net/fr/aspose.slides)
+* bibliothèque [`Aspose.Slides`](/slides/python-net)

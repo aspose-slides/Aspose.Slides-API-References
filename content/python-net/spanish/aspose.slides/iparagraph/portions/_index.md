@@ -1,13 +1,13 @@
 ---
 title: portions property
-second_title: Referencia de API de Aspose.Slides para Python vía .NET
+second_title: Referencia de API de Aspose.Slides para Python a través de .NET
 description: 
 type: docs
 url: /es/aspose.slides/iparagraph/portions/
 weight: 90
 ---
 ## portions propiedad
-Devuelve la colección de portions de texto.
+Devuelve la colección de porciones de texto.
             Solo lectura [`IPortionCollection`](/slides/python-net/es/aspose.slides/iportioncollection).
 
 ### Definición:

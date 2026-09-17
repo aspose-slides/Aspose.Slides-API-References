@@ -1,0 +1,26 @@
+---
+title: effect_format property
+second_title: Aspose.Slides für Python über .NET API-Referenz
+description: 
+type: docs
+url: /de/aspose.slides/geometryshape/effect_format/
+weight: 210
+---
+## effect_format Eigenschaft
+Gibt das EffectFormat-Objekt zurück, das Pixeleffekte enthält, die auf eine Form angewendet werden.
+            Hinweis: kann None zurückgeben für bestimmte Formen, die keine Effekt-Eigenschaften haben.
+            Schreibgeschützt [`IEffectFormat`](/slides/python-net/de/aspose.slides/ieffectformat).
+
+### Definition:
+```python
+@property
+def effect_format(self):
+    ...
+```
+
+
+### Siehe auch
+* Klasse [`GeometryShape`](/slides/python-net/de/aspose.slides/geometryshape)
+* Klasse [`IEffectFormat`](/slides/python-net/de/aspose.slides/ieffectformat)
+* Modul [`aspose.slides`](/slides/python-net/de/aspose.slides)
+* Bibliothek [`Aspose.Slides`](/slides/python-net)

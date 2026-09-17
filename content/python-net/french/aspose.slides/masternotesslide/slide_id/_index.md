@@ -1,0 +1,24 @@
+---
+title: slide_id property
+second_title: Référence de l'API Aspose.Slides pour Python via .NET
+description: 
+type: docs
+url: /fr/aspose.slides/masternotesslide/slide_id/
+weight: 210
+---
+## slide_id propriété
+Renvoie l'ID d'une diapositive.
+            Lecture seule **int**.
+
+### Définition:
+```python
+@property
+def slide_id(self):
+    ...
+```
+
+
+### Voir aussi
+* classe [`MasterNotesSlide`](/slides/python-net/fr/aspose.slides/masternotesslide)
+* module [`aspose.slides`](/slides/python-net/fr/aspose.slides)
+* bibliothèque [`Aspose.Slides`](/slides/python-net)

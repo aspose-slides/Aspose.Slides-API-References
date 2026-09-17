@@ -1,12 +1,12 @@
 ---
 title: join_portions_with_same_formatting method
-second_title: Referencia de la API de Aspose.Slides para Python mediante .NET
+second_title: Aspose.Slides para Python a través de .NET Referencia de API
 description: 
 type: docs
 url: /es/aspose.slides/paragraph/join_portions_with_same_formatting/
 weight: 50
 ---
-## join_portions_with_same_formatting {#}
+## join_portions_with_same_formatting(self) {#}
 Une fragmentos con el mismo formato.
 
 
