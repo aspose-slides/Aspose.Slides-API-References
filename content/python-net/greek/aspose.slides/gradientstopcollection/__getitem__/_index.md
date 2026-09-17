@@ -1,0 +1,20 @@
+---
+title: GradientStopCollection indexer
+second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
+description: 
+type: docs
+url: /el/aspose.slides/gradientstopcollection/__getitem__/
+weight: 50
+---
+## GradientStopCollection δείκτης
+## Δείκτης
+
+| Όνομα | Περιγραφή |
+| :- | :- |
+| index |  |
+
+
+### Δείτε επίσης
+* κλάση [`GradientStopCollection`](/slides/python-net/el/aspose.slides/gradientstopcollection)
+* μονάδα [`aspose.slides`](/slides/python-net/el/aspose.slides)
+* βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

@@ -1,6 +1,6 @@
 ---
 title: text property
-second_title: Aspose.Slides для Python через справку API .NET
+second_title: Aspose.Slides для Python через .NET API Reference
 description: 
 type: docs
 url: /ru/aspose.slides/paragraph/text/

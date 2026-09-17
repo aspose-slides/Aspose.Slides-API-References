@@ -1,13 +1,13 @@
 ---
 title: text property
-second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
+second_title: Aspose.Slides για Python μέσω .NET API Reference
 description: 
 type: docs
 url: /el/aspose.slides/iparagraph/text/
 weight: 120
 ---
-## ιδιότητα text
-Αποκτά ή ορίζει το απλό κείμενο μιας παραγράφου.
+## ιδιότητα κειμένου
+Ανάκτηση ή ορισμός του απλού κειμένου μιας παραγράφου.
             Ανάγνωση/Εγγραφή **str**.
 
 ### Ορισμός:

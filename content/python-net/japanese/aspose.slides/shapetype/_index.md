@@ -1,0 +1,210 @@
+---
+title: ShapeType enumeration
+second_title: Aspose.Slides for Python via .NET API リファレンス
+description: 
+type: docs
+url: /ja/aspose.slides/shapetype/
+---
+## ShapeType 列挙型
+
+プリセットされたジオメトリシェイプを表します。
+
+ShapeType 型は次のメンバーを公開します。
+
+## フィールド
+
+| フィールド | 説明 |
+| :- | :- |
+| NOT_DEFINED | 未定義です。 |
+| CUSTOM | カスタムシェイプです。<br/>            これは読み取り専用の値です。 |
+| LINE | ラインシェイプです。 |
+| LINE_INVERSE | 逆ラインシェイプです。 |
+| TRIANGLE | 三角形シェイプです。 |
+| RIGHT_TRIANGLE | 直角三角形シェイプです。 |
+| RECTANGLE | 矩形シェイプです。 |
+| DIAMOND | ダイヤモンドシェイプです。 |
+| PARALLELOGRAM | 平行四辺形シェイプです。 |
+| TRAPEZOID | 台形シェイプです。 |
+| NON_ISOSCELES_TRAPEZOID | 不等辺台形シェイプです。 |
+| PENTAGON | 五角形シェイプです。 |
+| HEXAGON | 六角形シェイプです。 |
+| HEPTAGON | 七角形シェイプです。 |
+| OCTAGON | 八角形シェイプです。 |
+| DECAGON | 十角形シェイプです。 |
+| DODECAGON | 十二角形シェイプです。 |
+| FOUR_POINTED_STAR | 四角星シェイプです。 |
+| FIVE_POINTED_STAR | 五角星シェイプです。 |
+| SIX_POINTED_STAR | 六角星シェイプです。 |
+| SEVEN_POINTED_STAR | 七角星シェイプです。 |
+| EIGHT_POINTED_STAR | 八角星シェイプです。 |
+| TEN_POINTED_STAR | 十角星シェイプです。 |
+| TWELVE_POINTED_STAR | 十二角星シェイプです。 |
+| SIXTEEN_POINTED_STAR | 十六角星シェイプです。 |
+| TWENTY_FOUR_POINTED_STAR | 二十四角星シェイプです。 |
+| THIRTY_TWO_POINTED_STAR | 三十二角星シェイプです。 |
+| ROUND_CORNER_RECTANGLE | 角丸矩形シェイプです。 |
+| ONE_ROUND_CORNER_RECTANGLE | 片角丸矩形シェイプです。 |
+| TWO_SAMESIDE_ROUND_CORNER_RECTANGLE | 同側二角丸矩形シェイプです。 |
+| TWO_DIAGONAL_ROUND_CORNER_RECTANGLE | 対角二角丸矩形シェイプです。 |
+| ONE_SNIP_ONE_ROUND_CORNER_RECTANGLE | 片切り・片角丸矩形シェイプです。 |
+| ONE_SNIP_CORNER_RECTANGLE | 片切り角矩形シェイプです。 |
+| TWO_SAMESIDE_SNIP_CORNER_RECTANGLE | 同側二切り角矩形シェイプです。 |
+| TWO_DIAGONAL_SNIP_CORNER_RECTANGLE | 対角二切り角矩形シェイプです。 |
+| PLAQUE | プレートシェイプです。 |
+| ELLIPSE | 楕円シェイプです。 |
+| TEARDROP | 滴形シェイプです。 |
+| HOME_PLATE | ホームプレートシェイプです。 |
+| CHEVRON | シェブロンシェイプです。 |
+| PIE_WEDGE | パイウェッジシェイプです。 |
+| PIE | パイシェイプです。 |
+| BLOCK_ARC | ブロックアークシェイプです。 |
+| DONUT | ドーナツシェイプです。 |
+| NO_SMOKING | 禁煙シェイプです。 |
+| RIGHT_ARROW | 右矢印シェイプです。 |
+| LEFT_ARROW | 左矢印シェイプです。 |
+| UP_ARROW | 上矢印シェイプです。 |
+| DOWN_ARROW | 下矢印シェイプです。 |
+| STRIPED_RIGHT_ARROW | ストライプ右矢印シェイプです。 |
+| NOTCHED_RIGHT_ARROW | 刻み右矢印シェイプです。 |
+| BENT_UP_ARROW | 曲げ上矢印シェイプです。 |
+| LEFT_RIGHT_ARROW | 左右矢印シェイプです。 |
+| UP_DOWN_ARROW | 上下矢印シェイプです。 |
+| LEFT_UP_ARROW | 左上矢印シェイプです。 |
+| LEFT_RIGHT_UP_ARROW | 左右上矢印シェイプです。 |
+| QUAD_ARROW | 四方向矢印シェイプです。 |
+| CALLOUT_LEFT_ARROW | コールアウト左矢印シェイプです。 |
+| CALLOUT_RIGHT_ARROW | コールアウト右矢印シェイプです。 |
+| CALLOUT_UP_ARROW | コールアウト上矢印シェイプです。 |
+| CALLOUT_DOWN_ARROW | コールアウト下矢印シェイプです。 |
+| CALLOUT_LEFT_RIGHT_ARROW | コールアウト左右矢印シェイプです。 |
+| CALLOUT_UP_DOWN_ARROW | コールアウト上下矢印シェイプです。 |
+| CALLOUT_QUAD_ARROW | コールアウト四方向矢印シェイプです。 |
+| BENT_ARROW | 曲げ矢印シェイプです。 |
+| U_TURN_ARROW | Uターン矢印シェイプです。 |
+| CIRCULAR_ARROW | 円形矢印シェイプです。 |
+| LEFT_CIRCULAR_ARROW | 左円形矢印シェイプです。 |
+| LEFT_RIGHT_CIRCULAR_ARROW | 左右円形矢印シェイプです。 |
+| CURVED_RIGHT_ARROW | 曲線右矢印シェイプです。 |
+| CURVED_LEFT_ARROW | 曲線左矢印シェイプです。 |
+| CURVED_UP_ARROW | 曲線上矢印シェイプです。 |
+| CURVED_DOWN_ARROW | 曲線下矢印シェイプです。 |
+| SWOOSH_ARROW | スウッシュ矢印シェイプです。 |
+| CUBE | 立方体シェイプです。 |
+| CAN | 缶シェイプです。 |
+| LIGHTNING_BOLT | 稲妻シェイプです。 |
+| HEART | ハートシェイプです。 |
+| SUN | 太陽シェイプです。 |
+| MOON | 月シェイプです。 |
+| SMILEY_FACE | 笑顔シェイプです。 |
+| IRREGULAR_SEAL1 | 不規則シール1シェイプです。 |
+| IRREGULAR_SEAL2 | 不規則シール2シェイプです。 |
+| FOLDED_CORNER | 折りたたみ角シェイプです。 |
+| BEVEL | ベベルシェイプです。 |
+| FRAME | フレームシェイプです。 |
+| HALF_FRAME | 半フレームシェイプです。 |
+| CORNER | 角シェイプです。 |
+| DIAGONAL_STRIPE | 対角ストライプシェイプです。 |
+| CHORD | コードシェイプです。 |
+| CURVED_ARC | 曲線アークシェイプです。 |
+| LEFT_BRACKET | 左括弧シェイプです。 |
+| RIGHT_BRACKET | 右括弧シェイプです。 |
+| LEFT_BRACE | 左波かっこシェイプです。 |
+| RIGHT_BRACE | 右波かっこシェイプです。 |
+| BRACKET_PAIR | 括弧ペアシェイプです。 |
+| BRACE_PAIR | 波かっこペアシェイプです。 |
+| STRAIGHT_CONNECTOR1 | 直線コネクタ1シェイプです。 |
+| BENT_CONNECTOR2 | 曲線コネクタ2シェイプです。 |
+| BENT_CONNECTOR3 | 曲線コネクタ3シェイプです。 |
+| BENT_CONNECTOR4 | 曲線コネクタ4シェイプです。 |
+| BENT_CONNECTOR5 | 曲線コネクタ5シェイプです。 |
+| CURVED_CONNECTOR2 | 曲線コネクタ2シェイプです。 |
+| CURVED_CONNECTOR3 | 曲線コネクタ3シェイプです。 |
+| CURVED_CONNECTOR4 | 曲線コネクタ4シェイプです。 |
+| CURVED_CONNECTOR5 | 曲線コネクタ5シェイプです。 |
+| CALLOUT1 | コールアウト1シェイプです。 |
+| CALLOUT2 | コールアウト2シェイプです。 |
+| CALLOUT3 | コールアウト3シェイプです。 |
+| CALLOUT_1_WITH_ACCENT | アクセント付きコールアウト1シェイプです。 |
+| CALLOUT_2_WITH_ACCENT | アクセント付きコールアウト2シェイプです。 |
+| CALLOUT_3_WITH_ACCENT | アクセント付きコールアウト3シェイプです。 |
+| CALLOUT_1_WITH_BORDER | 枠付きコールアウト1シェイプです。 |
+| CALLOUT_2_WITH_BORDER | 枠付きコールアウト2シェイプです。 |
+| CALLOUT_3_WITH_BORDER | 枠付きコールアウト3シェイプです。 |
+| CALLOUT_1_WITH_BORDER_AND_ACCENT | 枠とアクセント付きコールアウト1シェイプです。 |
+| CALLOUT_2_WITH_BORDER_AND_ACCENT | 枠とアクセント付きコールアウト2シェイプです。 |
+| CALLOUT_3_WITH_BORDER_AND_ACCENT | 枠とアクセント付きコールアウト3シェイプです。 |
+| CALLOUT_WEDGE_RECTANGLE | コールアウトウェッジ矩形シェイプです。 |
+| CALLOUT_WEDGE_ROUND_RECTANGLE | コールアウトウェッジ角丸矩形シェイプです。 |
+| CALLOUT_WEDGE_ELLIPSE | コールアウトウェッジ楕円シェイプです。 |
+| CALLOUT_CLOUD | コールアウトクラウドシェイプです。 |
+| CLOUD | クラウドシェイプです。 |
+| RIBBON | リボンシェイプです。 |
+| RIBBON2 | リボン2シェイプです。 |
+| ELLIPSE_RIBBON | 楕円リボンシェイプです。 |
+| ELLIPSE_RIBBON2 | 楕円リボン2シェイプです。 |
+| LEFT_RIGHT_RIBBON | 左右リボンシェイプです。 |
+| VERTICAL_SCROLL | 垂直スクロールシェイプです。 |
+| HORIZONTAL_SCROLL | 水平スクロールシェイプです。 |
+| WAVE | 波形シェイプです。 |
+| DOUBLE_WAVE | 二重波形シェイプです。 |
+| PLUS | プラスシェイプです。 |
+| PROCESS_FLOW | プロセスフローシェイプです。 |
+| DECISION_FLOW | 決定フローシェイプです。 |
+| INPUT_OUTPUT_FLOW | 入出力フローシェイプです。 |
+| PREDEFINED_PROCESS_FLOW | 定義済みプロセスフローシェイプです。 |
+| INTERNAL_STORAGE_FLOW | 内部ストレージフローシェイプです。 |
+| DOCUMENT_FLOW | ドキュメントフローシェイプです。 |
+| MULTI_DOCUMENT_FLOW | マルチドキュメントフローシェイプです。 |
+| TERMINATOR_FLOW | ターミネーターフローシェイプです。 |
+| PREPARATION_FLOW | 準備フローシェイプです。 |
+| MANUAL_INPUT_FLOW | 手動入力フローシェイプです。 |
+| MANUAL_OPERATION_FLOW | 手動操作フローシェイプです。 |
+| CONNECTOR_FLOW | コネクターフローシェイプです。 |
+| PUNCHED_CARD_FLOW | パンチカードフローシェイプです。 |
+| PUNCHED_TAPE_FLOW | パンチテープフローシェイプです。 |
+| SUMMING_JUNCTION_FLOW | サミングジャンクションフローシェイプです。 |
+| OR_FLOW | ORフローシェイプです。 |
+| COLLATE_FLOW | コラテートフローシェイプです。 |
+| SORT_FLOW | ソートフローシェイプです。 |
+| EXTRACT_FLOW | 抽出フローシェイプです。 |
+| MERGE_FLOW | マージフローシェイプです。 |
+| OFFLINE_STORAGE_FLOW | オフラインストレージフローシェイプです。 |
+| ONLINE_STORAGE_FLOW | オンラインストレージフローシェイプです。 |
+| MAGNETIC_TAPE_FLOW | 磁気テープフローシェイプです。 |
+| MAGNETIC_DISK_FLOW | 磁気ディスクフローシェイプです。 |
+| MAGNETIC_DRUM_FLOW | 磁気ドラムフローシェイプです。 |
+| DISPLAY_FLOW | ディスプレイフローシェイプです。 |
+| DELAY_FLOW | 遅延フローシェイプです。 |
+| ALTERNATE_PROCESS_FLOW | 代替プロセスフローシェイプです。 |
+| OFF_PAGE_CONNECTOR_FLOW | ページ外コネクターフローシェイプです。 |
+| BLANK_BUTTON | ブランクボタンシェイプです。 |
+| HOME_BUTTON | ホームボタンシェイプです。 |
+| HELP_BUTTON | ヘルプボタンシェイプです。 |
+| INFORMATION_BUTTON | 情報ボタンシェイプです。 |
+| FORWARD_OR_NEXT_BUTTON | 前へまたは次へボタンシェイプです。 |
+| BACK_OR_PREVIOUS_BUTTON | 戻るまたは前のボタンシェイプです。 |
+| END_BUTTON | 終了ボタンシェイプです。 |
+| BEGINNING_BUTTON | 開始ボタンシェイプです。 |
+| RETURN_BUTTON | 戻るボタンシェイプです。 |
+| DOCUMENT_BUTTON | ドキュメントボタンシェイプです。 |
+| SOUND_BUTTON | サウンドボタンシェイプです。 |
+| MOVIE_BUTTON | ムービーボタンシェイプです。 |
+| GEAR6 | ギア6シェイプです。 |
+| GEAR9 | ギア9シェイプです。 |
+| FUNNEL | ファンネルシェイプです。 |
+| PLUS_MATH | 加算数学シェイプです。 |
+| MINUS_MATH | 減算数学シェイプです。 |
+| MULTIPLY_MATH | 乗算数学シェイプです。 |
+| DIVIDE_MATH | 除算数学シェイプです。 |
+| EQUAL_MATH | 等号数学シェイプです。 |
+| NOT_EQUAL_MATH | 不等号数学シェイプです。 |
+| CORNER_TABS | 角タブシェイプです。 |
+| SQUARE_TABS | 正方形タブシェイプです。 |
+| PLAQUE_TABS | プレートタブシェイプです。 |
+| CHART_X | チャートXシェイプです。 |
+| CHART_STAR | チャートスターシェイプです。 |
+| CHART_PLUS | チャートプラスシェイプです。 |
+
+### 参照
+* モジュール [`aspose.slides`](/slides/python-net/ja/aspose.slides)
+* ライブラリ [`Aspose.Slides`](/slides/python-net)

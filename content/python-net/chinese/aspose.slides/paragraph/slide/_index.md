@@ -7,7 +7,7 @@ url: /zh/aspose.slides/paragraph/slide/
 weight: 120
 ---
 ## 幻灯片属性
-### 定义：
+### 定义:
 ```python
 @property
 def slide(self):

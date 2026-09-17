@@ -1,14 +1,14 @@
 ---
 title: portions property
-second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
+second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides/paragraph/portions/
 weight: 100
 ---
-## portions ιδιότητα
+## Ιδιότητα τμημάτων
 Επιστρέφει τη συλλογή των τμημάτων κειμένου.
-            Μόνο για ανάγνωση [`IPortionCollection`](/slides/python-net/el/aspose.slides/iportioncollection).
+            Μόνο-ανάγνωση [`IPortionCollection`](/slides/python-net/el/aspose.slides/iportioncollection).
 
 ### Ορισμός:
 ```python

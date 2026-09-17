@@ -7,7 +7,7 @@ url: /ru/aspose.slides/iparagraph/paragraph_format/
 weight: 80
 ---
 ## paragraph_format свойство
-Возвращает объект форматирования для этого абзаца.
+Возвращает объект форматирования для данного абзаца.
             Только для чтения [`IParagraphFormat`](/slides/python-net/ru/aspose.slides/iparagraphformat).
 
 ### Определение:

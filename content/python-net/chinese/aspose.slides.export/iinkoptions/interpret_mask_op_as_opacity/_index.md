@@ -1,0 +1,30 @@
+---
+title: interpret_mask_op_as_opacity property
+second_title: Aspose.Slides for Python via .NET API 参考
+description: 
+type: docs
+url: /zh/aspose.slides.export/iinkoptions/interpret_mask_op_as_opacity/
+weight: 20
+---
+## interpret_mask_op_as_opacity 属性
+用于渲染画笔时使用 ROP 操作或 Opacity。
+
+### 备注
+
+默认值为 true。
+
+### 定义：
+```python
+@property
+def interpret_mask_op_as_opacity(self):
+    ...
+
+@interpret_mask_op_as_opacity.setter
+def interpret_mask_op_as_opacity(self, value):
+    ...
+```
+
+### 另请参见
+* 类 [`IInkOptions`](/slides/python-net/zh/aspose.slides.export/iinkoptions)
+* 模块 [`aspose.slides.export`](/slides/python-net/zh/aspose.slides.export)
+* 库 [`Aspose.Slides`](/slides/python-net)

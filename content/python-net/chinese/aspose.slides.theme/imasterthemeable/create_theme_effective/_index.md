@@ -1,0 +1,25 @@
+---
+title: create_theme_effective method
+second_title: Aspose.Slides for Python via .NET API 参考
+description: 
+type: docs
+url: /zh/aspose.slides.theme/imasterthemeable/create_theme_effective/
+weight: 10
+---
+## create_theme_effective(self) {#}
+
+
+
+```python
+def create_theme_effective(self):
+    ...
+```
+
+
+
+
+### 另见
+* 类 [`IMasterThemeable`](/slides/python-net/zh/aspose.slides.theme/imasterthemeable)
+* 类 [`IThemeEffectiveData`](/slides/python-net/zh/aspose.slides.theme/ithemeeffectivedata)
+* 模块 [`aspose.slides.theme`](/slides/python-net/zh/aspose.slides.theme)
+* 库 [`Aspose.Slides`](/slides/python-net)

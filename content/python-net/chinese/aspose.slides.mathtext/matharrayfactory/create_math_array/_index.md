@@ -1,0 +1,56 @@
+---
+title: create_math_array method
+second_title: Aspose.Slides for Python via .NET API 参考
+description: 
+type: docs
+url: /zh/aspose.slides.mathtext/matharrayfactory/create_math_array/
+weight: 20
+---
+## create_math_array(self, element) {#imathelement}
+创建一个数学数组并将指定元素放入其中
+
+### 返回
+
+新的数学数组
+
+
+
+```python
+def create_math_array(self, element):
+    ...
+```
+
+
+| 参数 | 类型 | 描述 |
+| :- | :- | :- |
+| element | [`IMathElement`](/slides/python-net/zh/aspose.slides.mathtext/imathelement) | 要放入数组的数学元素 |
+
+
+## create_math_array(self, elements) {#imathelementcollection}
+创建一个数学数组并将指定的元素放入其中
+
+### 返回
+
+新的数学数组
+
+
+
+```python
+def create_math_array(self, elements):
+    ...
+```
+
+
+| 参数 | 类型 | 描述 |
+| :- | :- | :- |
+| elements | [`IMathElementCollection`](/slides/python-net/zh/aspose.slides.mathtext/imathelementcollection) | 要放入数组的数学元素 |
+
+
+
+### 另见
+* 类 [`IMathArray`](/slides/python-net/zh/aspose.slides.mathtext/imatharray)
+* 类 [`IMathElement`](/slides/python-net/zh/aspose.slides.mathtext/imathelement)
+* 类 [`IMathElementCollection`](/slides/python-net/zh/aspose.slides.mathtext/imathelementcollection)
+* 类 [`MathArrayFactory`](/slides/python-net/zh/aspose.slides.mathtext/matharrayfactory)
+* 模块 [`aspose.slides.mathtext`](/slides/python-net/zh/aspose.slides.mathtext)
+* 库 [`Aspose.Slides`](/slides/python-net)

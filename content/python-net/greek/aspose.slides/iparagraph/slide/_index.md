@@ -6,7 +6,7 @@ type: docs
 url: /el/aspose.slides/iparagraph/slide/
 weight: 110
 ---
-## ιδιότητα διαφάνειας
+## slide ιδιότητα
 ### Ορισμός:
 ```python
 @property

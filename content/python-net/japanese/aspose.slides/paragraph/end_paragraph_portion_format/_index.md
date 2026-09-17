@@ -7,9 +7,9 @@ url: /ja/aspose.slides/paragraph/end_paragraph_portion_format/
 weight: 80
 ---
 ## end_paragraph_portion_format プロパティ
-別の部分が最後の部分の後に 
-            挿入された場合に使用される部分プロパティを指定します。
-
+別の部分が最後の部分の後に
+            最後の部分。
+ 
 ### 定義:
 ```python
 @property

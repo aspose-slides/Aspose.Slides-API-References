@@ -1,0 +1,27 @@
+---
+title: ISaveOptions class
+second_title: Αναφορά API Aspose.Slides για Python μέσω .NET
+description: 
+type: docs
+url: /el/aspose.slides.export/isaveoptions/
+---
+## ISaveOptions κλάση
+
+Επιλογές που ελέγχουν πώς αποθηκεύεται μια παρουσίαση.
+
+Ο τύπος ISaveOptions εμφανίζει τα παρακάτω μέλη:
+
+## Ιδιότητες
+
+| Ιδιότητα | Περιγραφή |
+| :- | :- |
+| [`warning_callback`](/slides/python-net/el/aspose.slides.export/isaveoptions/warning_callback/) | Επιστρέφει ή ορίζει ένα αντικείμενο που λαμβάνει προειδοποιήσεις και αποφασίζει αν η διαδικασία φόρτωσης θα συνεχιστεί ή θα ματαιωθεί.<br/>            Ανάγνωση/εγγραφή [`IWarningCallback`](/slides/python-net/el/aspose.slides.warnings/iwarningcallback). |
+| [`progress_callback`](/slides/python-net/el/aspose.slides.export/isaveoptions/progress_callback/) | Αναπαριστά ένα αντικείμενο callback για ενημερώσεις προόδου αποθήκευσης σε ποσοστό. <br/>            Δείτε [`IProgressCallback`](/slides/python-net/el/aspose.slides/iprogresscallback). |
+| [`default_regular_font`](/slides/python-net/el/aspose.slides.export/isaveoptions/default_regular_font/) | Επιστρέφει ή ορίζει τη γραμματοσειρά που χρησιμοποιείται σε περίπτωση που η πηγή γραμματοσειράς δεν βρεθεί.<br/>            Ανάγνωση-εγγραφή **str**. |
+| [`gradient_style`](/slides/python-net/el/aspose.slides.export/isaveoptions/gradient_style/) | Επιστρέφει ή ορίζει το οπτικό στυλ του gradient.<br/>            Ανάγνωση/εγγραφή [`GradientStyle`](/slides/python-net/el/aspose.slides/gradientstyle). |
+| [`skip_java_script_links`](/slides/python-net/el/aspose.slides.export/isaveoptions/skip_java_script_links/) | Καθορίζει αν θα παραλειφθούν υπερσυνδέσεις με κλήσεις JavaScript κατά την αποθήκευση της παρουσίασης.<br/>            Ανάγνωση/εγγραφή **bool**. Η προεπιλεγμένη τιμή είναι **false**. |
+
+
+### Δείτε επίσης
+* μονάδα [`aspose.slides.export`](/slides/python-net/el/aspose.slides.export)
+* βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

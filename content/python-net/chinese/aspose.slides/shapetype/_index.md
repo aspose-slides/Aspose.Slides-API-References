@@ -1,0 +1,210 @@
+---
+title: ShapeType enumeration
+second_title: Aspose.Slides for Python via .NET API 参考
+description: 
+type: docs
+url: /zh/aspose.slides/shapetype/
+---
+## ShapeType 枚举
+
+表示几何形状的预设几何形状。
+
+ShapeType 类型公开以下成员：
+
+## Fields
+
+| Field | Description |
+| :- | :- |
+| NOT_DEFINED | 未定义。 |
+| CUSTOM | 自定义形状。<br/>            这是只读值。 |
+| LINE | 线形状。 |
+| LINE_INVERSE | 反向线形状。 |
+| TRIANGLE | 三角形状。 |
+| RIGHT_TRIANGLE | 直角三角形状。 |
+| RECTANGLE | 矩形状。 |
+| DIAMOND | 菱形状。 |
+| PARALLELOGRAM | 平行四边形状。 |
+| TRAPEZOID | 梯形状。 |
+| NON_ISOSCELES_TRAPEZOID | 非等腰梯形状。 |
+| PENTAGON | 五边形状。 |
+| HEXAGON | 六边形状。 |
+| HEPTAGON | 七边形状。 |
+| OCTAGON | 八边形状。 |
+| DECAGON | 十边形状。 |
+| DODECAGON | 十二边形状。 |
+| FOUR_POINTED_STAR | 四点星形。 |
+| FIVE_POINTED_STAR | 五点星形。 |
+| SIX_POINTED_STAR | 六点星形。 |
+| SEVEN_POINTED_STAR | 七点星形。 |
+| EIGHT_POINTED_STAR | 八点星形。 |
+| TEN_POINTED_STAR | 十点星形。 |
+| TWELVE_POINTED_STAR | 十二点星形。 |
+| SIXTEEN_POINTED_STAR | 十六点星形。 |
+| TWENTY_FOUR_POINTED_STAR | 二十四点星形。 |
+| THIRTY_TWO_POINTED_STAR | 三十二点星形。 |
+| ROUND_CORNER_RECTANGLE | 圆角矩形状。 |
+| ONE_ROUND_CORNER_RECTANGLE | 单圆角矩形状。 |
+| TWO_SAMESIDE_ROUND_CORNER_RECTANGLE | 双同侧圆角矩形状。 |
+| TWO_DIAGONAL_ROUND_CORNER_RECTANGLE | 双对角圆角矩形状。 |
+| ONE_SNIP_ONE_ROUND_CORNER_RECTANGLE | 单缺口单圆角矩形状。 |
+| ONE_SNIP_CORNER_RECTANGLE | 单缺口角矩形状。 |
+| TWO_SAMESIDE_SNIP_CORNER_RECTANGLE | 双同侧缺口角矩形。 |
+| TWO_DIAGONAL_SNIP_CORNER_RECTANGLE | 双对角缺口角矩形。 |
+| PLAQUE | 徽章形状。 |
+| ELLIPSE | 椭圆形状。 |
+| TEARDROP | 水滴形状。 |
+| HOME_PLATE | 本垒形状。 |
+| CHEVRON | V字形状。 |
+| PIE_WEDGE | 扇形块形状。 |
+| PIE | 饼形状。 |
+| BLOCK_ARC | 块弧形状。 |
+| DONUT | 环形状。 |
+| NO_SMOKING | 禁烟形状。 |
+| RIGHT_ARROW | 右箭头形状。 |
+| LEFT_ARROW | 左箭头形状。 |
+| UP_ARROW | 上箭头形状。 |
+| DOWN_ARROW | 下箭头形状。 |
+| STRIPED_RIGHT_ARROW | 条纹右箭头形状。 |
+| NOTCHED_RIGHT_ARROW | 缺口右箭头形状。 |
+| BENT_UP_ARROW | 弯曲上箭头形状。 |
+| LEFT_RIGHT_ARROW | 左右箭头形状。 |
+| UP_DOWN_ARROW | 上下箭头形状。 |
+| LEFT_UP_ARROW | 左上箭头形状。 |
+| LEFT_RIGHT_UP_ARROW | 左右上箭头形状。 |
+| QUAD_ARROW | 四向箭头形状。 |
+| CALLOUT_LEFT_ARROW | 标注左箭头形状。 |
+| CALLOUT_RIGHT_ARROW | 标注右箭头形状。 |
+| CALLOUT_UP_ARROW | 标注上箭头形状。 |
+| CALLOUT_DOWN_ARROW | 标注下箭头形状。 |
+| CALLOUT_LEFT_RIGHT_ARROW | 标注左右箭头形状。 |
+| CALLOUT_UP_DOWN_ARROW | 标注上下箭头形状。 |
+| CALLOUT_QUAD_ARROW | 标注四向箭头形状。 |
+| BENT_ARROW | 弯曲箭头形状。 |
+| U_TURN_ARROW | U形转弯箭头形状。 |
+| CIRCULAR_ARROW | 圆形箭头形状。 |
+| LEFT_CIRCULAR_ARROW | 左圆形箭头形状。 |
+| LEFT_RIGHT_CIRCULAR_ARROW | 左右圆形箭头形状。 |
+| CURVED_RIGHT_ARROW | 曲线右箭头形状。 |
+| CURVED_LEFT_ARROW | 曲线左箭头形状。 |
+| CURVED_UP_ARROW | 曲线上箭头形状。 |
+| CURVED_DOWN_ARROW | 曲线下箭头形状。 |
+| SWOOSH_ARROW | 弧形箭头形状。 |
+| CUBE | 立方体形状。 |
+| CAN | 罐形状。 |
+| LIGHTNING_BOLT | 闪电形状。 |
+| HEART | 心形状。 |
+| SUN | 太阳形状。 |
+| MOON | 月亮形状。 |
+| SMILEY_FACE | 笑脸形状。 |
+| IRREGULAR_SEAL1 | 不规则印章1形状。 |
+| IRREGULAR_SEAL2 | 不规则印章2形状。 |
+| FOLDED_CORNER | 折叠角形状。 |
+| BEVEL | 斜角形状。 |
+| FRAME | 框架形状。 |
+| HALF_FRAME | 半框架形状。 |
+| CORNER | 角形状。 |
+| DIAGONAL_STRIPE | 对角条纹形状。 |
+| CHORD | 弦形状。 |
+| CURVED_ARC | 曲线弧形状。 |
+| LEFT_BRACKET | 左括号形状。 |
+| RIGHT_BRACKET | 右括号形状。 |
+| LEFT_BRACE | 左大括号形状。 |
+| RIGHT_BRACE | 右大括号形状。 |
+| BRACKET_PAIR | 括号对形状。 |
+| BRACE_PAIR | 大括号对形状。 |
+| STRAIGHT_CONNECTOR1 | 直线连接器1形状。 |
+| BENT_CONNECTOR2 | 弯曲连接器2形状。 |
+| BENT_CONNECTOR3 | 弯曲连接器3形状。 |
+| BENT_CONNECTOR4 | 弯曲连接器4形状。 |
+| BENT_CONNECTOR5 | 弯曲连接器5形状。 |
+| CURVED_CONNECTOR2 | 曲线连接器2形状。 |
+| CURVED_CONNECTOR3 | 曲线连接器3形状。 |
+| CURVED_CONNECTOR4 | 曲线连接器4形状。 |
+| CURVED_CONNECTOR5 | 曲线连接器5形状。 |
+| CALLOUT1 | 标注1形状。 |
+| CALLOUT2 | 标注2形状。 |
+| CALLOUT3 | 标注3形状。 |
+| CALLOUT_1_WITH_ACCENT | 带强调标注1形状。 |
+| CALLOUT_2_WITH_ACCENT | 带强调标注2形状。 |
+| CALLOUT_3_WITH_ACCENT | 带强调标注3形状。 |
+| CALLOUT_1_WITH_BORDER | 带边框标注1形状。 |
+| CALLOUT_2_WITH_BORDER | 带边框标注2形状。 |
+| CALLOUT_3_WITH_BORDER | 带边框标注3形状。 |
+| CALLOUT_1_WITH_BORDER_AND_ACCENT | 带边框和强调标注1形状。 |
+| CALLOUT_2_WITH_BORDER_AND_ACCENT | 带边框和强调标注2形状。 |
+| CALLOUT_3_WITH_BORDER_AND_ACCENT | 带边框和强调标注3形状。 |
+| CALLOUT_WEDGE_RECTANGLE | 标注楔形矩形。 |
+| CALLOUT_WEDGE_ROUND_RECTANGLE | 标注楔形圆角矩形。 |
+| CALLOUT_WEDGE_ELLIPSE | 标注楔形椭圆。 |
+| CALLOUT_CLOUD | 标注云形。 |
+| CLOUD | 云形。 |
+| RIBBON | 丝带形状。 |
+| RIBBON2 | 丝带2形状。 |
+| ELLIPSE_RIBBON | 椭圆丝带形状。 |
+| ELLIPSE_RIBBON2 | 椭圆丝带2形状。 |
+| LEFT_RIGHT_RIBBON | 左右丝带形状。 |
+| VERTICAL_SCROLL | 垂直滚动形状。 |
+| HORIZONTAL_SCROLL | 水平滚动形状。 |
+| WAVE | 波形状。 |
+| DOUBLE_WAVE | 双波形状。 |
+| PLUS | 加号形状。 |
+| PROCESS_FLOW | 流程图形状。 |
+| DECISION_FLOW | 决策流程形状。 |
+| INPUT_OUTPUT_FLOW | 输入输出流程形状。 |
+| PREDEFINED_PROCESS_FLOW | 预定义流程形状。 |
+| INTERNAL_STORAGE_FLOW | 内部存储流程形状。 |
+| DOCUMENT_FLOW | 文档流程形状。 |
+| MULTI_DOCUMENT_FLOW | 多文档流程形状。 |
+| TERMINATOR_FLOW | 终止器流程形状。 |
+| PREPARATION_FLOW | 准备流程形状。 |
+| MANUAL_INPUT_FLOW | 手动输入流程形状。 |
+| MANUAL_OPERATION_FLOW | 手动操作流程形状。 |
+| CONNECTOR_FLOW | 连接器流程形状。 |
+| PUNCHED_CARD_FLOW | 打孔卡片流程形状。 |
+| PUNCHED_TAPE_FLOW | 打孔磁带流程形状。 |
+| SUMMING_JUNCTION_FLOW | 求和节点流程形状。 |
+| OR_FLOW | 或流程形状。 |
+| COLLATE_FLOW | 校对流程形状。 |
+| SORT_FLOW | 排序流程形状。 |
+| EXTRACT_FLOW | 提取流程形状。 |
+| MERGE_FLOW | 合并流程形状。 |
+| OFFLINE_STORAGE_FLOW | 离线存储流程形状。 |
+| ONLINE_STORAGE_FLOW | 在线存储流程形状。 |
+| MAGNETIC_TAPE_FLOW | 磁带流程形状。 |
+| MAGNETIC_DISK_FLOW | 磁盘流程形状。 |
+| MAGNETIC_DRUM_FLOW | 磁鼓流程形状。 |
+| DISPLAY_FLOW | 显示流程形状。 |
+| DELAY_FLOW | 延迟流程形状。 |
+| ALTERNATE_PROCESS_FLOW | 交替流程形状。 |
+| OFF_PAGE_CONNECTOR_FLOW | 跨页连接器流程形状。 |
+| BLANK_BUTTON | 空白按钮形状。 |
+| HOME_BUTTON | 主页按钮形状。 |
+| HELP_BUTTON | 帮助按钮形状。 |
+| INFORMATION_BUTTON | 信息按钮形状。 |
+| FORWARD_OR_NEXT_BUTTON | 前进或下一步按钮形状。 |
+| BACK_OR_PREVIOUS_BUTTON | 后退或上一步按钮形状。 |
+| END_BUTTON | 结束按钮形状。 |
+| BEGINNING_BUTTON | 开始按钮形状。 |
+| RETURN_BUTTON | 返回按钮形状。 |
+| DOCUMENT_BUTTON | 文档按钮形状。 |
+| SOUND_BUTTON | 声音按钮形状。 |
+| MOVIE_BUTTON | 电影按钮形状。 |
+| GEAR6 | 齿轮6形状。 |
+| GEAR9 | 齿轮9形状。 |
+| FUNNEL | 漏斗形状。 |
+| PLUS_MATH | 加号数学形状。 |
+| MINUS_MATH | 减号数学形状。 |
+| MULTIPLY_MATH | 乘号数学形状。 |
+| DIVIDE_MATH | 除号数学形状。 |
+| EQUAL_MATH | 等号数学形状。 |
+| NOT_EQUAL_MATH | 不等号数学形状。 |
+| CORNER_TABS | 角标签形状。 |
+| SQUARE_TABS | 方形标签形状。 |
+| PLAQUE_TABS | 徽章标签形状。 |
+| CHART_X | 图表X形状。 |
+| CHART_STAR | 图表星形状。 |
+| CHART_PLUS | 图表加号形状。 |
+
+### See Also
+* 模块 [`aspose.slides`](/slides/python-net/zh/aspose.slides)
+* 库 [`Aspose.Slides`](/slides/python-net)

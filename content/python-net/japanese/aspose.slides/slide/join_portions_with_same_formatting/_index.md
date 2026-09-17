@@ -1,0 +1,40 @@
+---
+title: join_portions_with_same_formatting method
+second_title: Aspose.Slides for Python via .NET API リファレンス
+description: 
+type: docs
+url: /ja/aspose.slides/slide/join_portions_with_same_formatting/
+weight: 60
+---
+## join_portions_with_same_formatting(self) {#}
+すべての許容可能なシェイプ内のすべての段落において、同じ書式設定のランを結合します。
+
+
+```python
+def join_portions_with_same_formatting(self):
+    ...
+```
+
+
+
+## join_portions_with_same_formatting(self, collection) {#ishapecollection}
+すべての許容可能なシェイプ内のすべての段落において、同じ書式設定のランを結合します。
+
+
+```python
+def join_portions_with_same_formatting(self, collection):
+    ...
+```
+
+
+| パラメーター | 型 | 説明 |
+| :- | :- | :- |
+| collection | [`IShapeCollection`](/slides/python-net/ja/aspose.slides/ishapecollection) |  |
+
+
+
+### 参照
+* クラス [`IShapeCollection`](/slides/python-net/ja/aspose.slides/ishapecollection)
+* クラス [`Slide`](/slides/python-net/ja/aspose.slides/slide)
+* モジュール [`aspose.slides`](/slides/python-net/ja/aspose.slides)
+* ライブラリ [`Aspose.Slides`](/slides/python-net)

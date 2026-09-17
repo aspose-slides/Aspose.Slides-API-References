@@ -6,8 +6,8 @@ type: docs
 url: /ja/aspose.slides/iparagraph/join_portions_with_same_formatting/
 weight: 40
 ---
-## join_portions_with_same_formatting {#}
-同じ書式のランを結合します。
+## join_portions_with_same_formatting(self) {#}
+同じ書式設定のランを結合します。
 
 
 ```python

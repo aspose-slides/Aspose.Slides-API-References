@@ -1,0 +1,29 @@
+---
+title: font_collection_index property
+second_title: Aspose.Slides for Python via .NET API 参考
+description: 
+type: docs
+url: /zh/aspose.slides/ishapestyle/font_collection_index/
+weight: 50
+---
+## font_collection_index 属性
+返回或设置 shape 的字体索引在字体集合中。
+            读取/写入 [`FontCollectionIndex`](/slides/python-net/zh/aspose.slides/fontcollectionindex).
+
+### 定义:
+```python
+@property
+def font_collection_index(self):
+    ...
+
+@font_collection_index.setter
+def font_collection_index(self, value):
+    ...
+```
+
+
+### 另见
+* 枚举 [`FontCollectionIndex`](/slides/python-net/zh/aspose.slides/fontcollectionindex)
+* 类 [`IShapeStyle`](/slides/python-net/zh/aspose.slides/ishapestyle)
+* 模块 [`aspose.slides`](/slides/python-net/zh/aspose.slides)
+* 库 [`Aspose.Slides`](/slides/python-net)

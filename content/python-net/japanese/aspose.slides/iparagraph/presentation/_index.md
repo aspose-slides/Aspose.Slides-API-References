@@ -6,7 +6,7 @@ type: docs
 url: /ja/aspose.slides/iparagraph/presentation/
 weight: 100
 ---
-## プレゼンテーション プロパティ
+## presentation property
 ### 定義:
 ```python
 @property
@@ -18,4 +18,4 @@ def presentation(self):
 ### 参照
 * クラス [`IParagraph`](/slides/python-net/ja/aspose.slides/iparagraph)
 * モジュール [`aspose.slides`](/slides/python-net/ja/aspose.slides)
-* ライブラリ [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

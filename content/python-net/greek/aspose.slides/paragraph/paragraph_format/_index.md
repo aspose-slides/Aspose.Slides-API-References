@@ -1,18 +1,18 @@
 ---
 title: paragraph_format property
-second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
+second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides/paragraph/paragraph_format/
 weight: 90
 ---
 ## paragraph_format ιδιότητα
-Επιστρέφει το αντικείμενο μορφοποίησης για αυτήν την παράγραφο.
-            Μόνο για ανάγνωση [`IParagraphFormat`](/slides/python-net/el/aspose.slides/iparagraphformat).
+Returns the formatting object for this paragraph.
+            Μόνο ανάγνωση [`IParagraphFormat`](/slides/python-net/el/aspose.slides/iparagraphformat).
 
 ### Παρατηρήσεις
 
-Το αντικείμενο μορφοποίησης περιέχει τις παραμέτρους μορφοποίησης που ορίζονται μόνο για την τρέχουσα παράγραφο· τα κληρονομημένα δεδομένα δεν εφαρμόζονται.
+Το αντικείμενο μορφοποίησης περιέχει τις παραμέτρους μορφοποίησης που ορίζονται μόνο για την τρέχουσα παράγραφο· δεν εφαρμόζονται τα κληρονομημένα δεδομένα.
 
 Για να λάβετε τις αποτελεσματικές τιμές, συμπεριλαμβανομένων των κληρονομημένων, χρησιμοποιήστε τη μέθοδο [`ParagraphFormat.get_effective`](/slides/python-net/el/aspose.slides/paragraphformat/get_effective).
 

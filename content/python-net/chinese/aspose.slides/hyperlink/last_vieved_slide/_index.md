@@ -1,0 +1,24 @@
+---
+title: last_vieved_slide property
+second_title: Aspose.Slides for Python via .NET API 参考
+description: 
+type: docs
+url: /zh/aspose.slides/hyperlink/last_vieved_slide/
+weight: 130
+---
+## last_vieved_slide 属性
+返回指向最后查看的幻灯片的超链接。
+            只读 [`Hyperlink`](/slides/python-net/zh/aspose.slides/hyperlink).
+
+### 定义:
+```python
+@property
+def last_vieved_slide(self):
+    ...
+```
+
+
+### 另请参见
+* 类 [`Hyperlink`](/slides/python-net/zh/aspose.slides/hyperlink)
+* 模块 [`aspose.slides`](/slides/python-net/zh/aspose.slides)
+* 库 [`Aspose.Slides`](/slides/python-net)

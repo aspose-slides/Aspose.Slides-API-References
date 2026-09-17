@@ -1,0 +1,28 @@
+---
+title: number_format_of_x_values property
+second_title: Aspose.Slides για Python μέσω .NET API Reference
+description: 
+type: docs
+url: /el/aspose.slides.charts/chartseries/number_format_of_x_values/
+weight: 280
+---
+## number_format_of_x_values ιδιότητα
+NumberFormatOfXValues.
+            Ανάγνωση/Εγγραφή **str**.
+
+### Ορισμός:
+```python
+@property
+def number_format_of_x_values(self):
+    ...
+
+@number_format_of_x_values.setter
+def number_format_of_x_values(self, value):
+    ...
+```
+
+
+### Δείτε επίσης
+* κλάση [`ChartSeries`](/slides/python-net/el/aspose.slides.charts/chartseries)
+* μονάδα [`aspose.slides.charts`](/slides/python-net/el/aspose.slides.charts)
+* βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

@@ -1,0 +1,25 @@
+---
+title: black_white_mode property
+second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
+description: 
+type: docs
+url: /el/aspose.slides.smartart/ismartart/black_white_mode/
+weight: 140
+---
+## black_white_mode ιδιότητα
+### Ορισμός:
+```python
+@property
+def black_white_mode(self):
+    ...
+
+@black_white_mode.setter
+def black_white_mode(self, value):
+    ...
+```
+
+
+### Δείτε επίσης
+* κλάση [`ISmartArt`](/slides/python-net/el/aspose.slides.smartart/ismartart)
+* μονάδα [`aspose.slides.smartart`](/slides/python-net/el/aspose.slides.smartart)
+* βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

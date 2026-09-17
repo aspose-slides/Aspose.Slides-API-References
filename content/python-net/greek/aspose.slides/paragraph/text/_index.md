@@ -1,13 +1,13 @@
 ---
 title: text property
-second_title: Αναφορά API Aspose.Slides για Python μέσω .NET
+second_title: Aspose.Slides για Python μέσω .NET API Reference
 description: 
 type: docs
 url: /el/aspose.slides/paragraph/text/
 weight: 130
 ---
 ## ιδιότητα κειμένου
-Gets or sets the the plain text of a paragraph.
+Αποκτά ή ορίζει το απλό κείμενο μιας παραγράφου.
             Ανάγνωση/εγγραφή **str**.
 
 ### Ορισμός:

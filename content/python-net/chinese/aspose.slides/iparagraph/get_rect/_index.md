@@ -1,17 +1,16 @@
 ---
 title: get_rect method
-second_title: Aspose.Slides for Python via .NET API 参考
+second_title: Aspose.Slides Python .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides/iparagraph/get_rect/
 weight: 30
 ---
-## get_rect {#}
-获取围绕段落的矩形的坐标。该矩形包括段落中所有行的文本，包括空行。
+## get_rect(self) {#}
+获取限定段落的矩形的坐标。该矩形包括段落中所有文本行，包括空行。
 
-### 返回值
-
-Rectangle that bounds paragraph **aspose.slides.RectangleF**
+### 返回
+限定段落的矩形 **aspose.slides.RectangleF**
 
 
 

@@ -7,8 +7,8 @@ url: /ja/aspose.slides/iparagraph/portions/
 weight: 90
 ---
 ## portions プロパティ
-テキストの部分のコレクションを返します。
-            読み取り専用 [`IPortionCollection`](/slides/python-net/ja/aspose.slides/iportioncollection)。
+テキスト部分のコレクションを返します。
+            読み取り専用 [`IPortionCollection`](/slides/python-net/ja/aspose.slides/iportioncollection).
 
 ### 定義:
 ```python

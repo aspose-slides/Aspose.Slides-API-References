@@ -21,7 +21,7 @@ def end_paragraph_portion_format(self, value):
 ```
 
 
-### 関連項目
+### 参照
 * クラス [`IParagraph`](/slides/python-net/ja/aspose.slides/iparagraph)
 * モジュール [`aspose.slides`](/slides/python-net/ja/aspose.slides)
 * ライブラリ [`Aspose.Slides`](/slides/python-net)

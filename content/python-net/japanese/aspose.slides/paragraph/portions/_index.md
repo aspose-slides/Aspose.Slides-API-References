@@ -7,7 +7,7 @@ url: /ja/aspose.slides/paragraph/portions/
 weight: 100
 ---
 ## portions プロパティ
-テキスト portions のコレクションを返します。
+テキストポーションのコレクションを返します。
             読み取り専用 [`IPortionCollection`](/slides/python-net/ja/aspose.slides/iportioncollection).
 
 ### 定義:

@@ -1,13 +1,13 @@
 ---
 title: slide property
 second_title: Aspose.Slides for Python via .NET API 参考
-description:
+description: 
 type: docs
 url: /zh/aspose.slides/iparagraph/slide/
 weight: 110
 ---
 ## 幻灯片属性
-### 定义:
+### 定义：
 ```python
 @property
 def slide(self):

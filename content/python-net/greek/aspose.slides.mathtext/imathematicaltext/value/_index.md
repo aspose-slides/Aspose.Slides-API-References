@@ -1,0 +1,27 @@
+---
+title: value property
+second_title: Aspose.Slides για Python μέσω .NET αναφορά API
+description: 
+type: docs
+url: /el/aspose.slides.mathtext/imathematicaltext/value/
+weight: 250
+---
+## ιδιότητα τιμής
+Τιμή κειμένου
+
+### Ορισμός:
+```python
+@property
+def value(self):
+    ...
+
+@value.setter
+def value(self, value):
+    ...
+```
+
+
+### Δείτε επίσης
+* κλάση [`IMathematicalText`](/slides/python-net/el/aspose.slides.mathtext/imathematicaltext)
+* μονάδα [`aspose.slides.mathtext`](/slides/python-net/el/aspose.slides.mathtext)
+* βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

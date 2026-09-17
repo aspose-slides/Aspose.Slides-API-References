@@ -1,0 +1,39 @@
+---
+title: CannotCombine2DAnd3DChartsException constructor
+second_title: Aspose.Slides for Python via .NET API リファレンス
+description: 
+type: docs
+url: /ja/aspose.slides.charts/cannotcombine2dand3dchartsexception/__init__/
+weight: 10
+---
+## __init__(self) {#}
+デフォルトコンストラクタ。
+
+
+```python
+def __init__(self):
+    ...
+```
+
+
+
+## __init__(self, message) {#str}
+この例外にメッセージを追加できるコンストラクタ。
+
+
+```python
+def __init__(self, message):
+    ...
+```
+
+
+| パラメータ | 型 | 説明 |
+| :- | :- | :- |
+| message | **str** | message |
+
+
+
+### 参照
+* クラス [`CannotCombine2DAnd3DChartsException`](/slides/python-net/ja/aspose.slides.charts/cannotcombine2dand3dchartsexception)
+* モジュール [`aspose.slides.charts`](/slides/python-net/ja/aspose.slides.charts)
+* ライブラリ [`Aspose.Slides`](/slides/python-net)

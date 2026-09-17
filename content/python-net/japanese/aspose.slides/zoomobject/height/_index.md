@@ -1,0 +1,34 @@
+---
+title: height property
+second_title: Aspose.Slides for Python via .NET API リファレンス
+description:
+type: docs
+url: /ja/aspose.slides/zoomobject/height/
+weight: 210
+---
+## height プロパティ
+Gets or sets the height of the shape, measured in points.
+            読み取り/書き込み **float**.
+
+
+### 備考
+
+The value returned is always defined and never **float**.
+            The value assigned must also be defined; assign **float** only to properties of a `RawFrame` instance.
+
+### 定義:
+```python
+@property
+def height(self):
+    ...
+
+@height.setter
+def height(self, value):
+    ...
+```
+
+
+### 参照
+* クラス [`ZoomObject`](/slides/python-net/ja/aspose.slides/zoomobject)
+* モジュール [`aspose.slides`](/slides/python-net/ja/aspose.slides)
+* ライブラリ [`Aspose.Slides`](/slides/python-net)

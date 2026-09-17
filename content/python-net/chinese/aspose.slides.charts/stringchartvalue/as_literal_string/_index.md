@@ -1,0 +1,28 @@
+---
+title: as_literal_string property
+second_title: Aspose.Slides for Python via .NET API 参考
+description: 
+type: docs
+url: /zh/aspose.slides.charts/stringchartvalue/as_literal_string/
+weight: 60
+---
+## as_literal_string 属性
+返回或设置值为字面字符串。
+            读/写 **str**.
+
+### 定义：
+```python
+@property
+def as_literal_string(self):
+    ...
+
+@as_literal_string.setter
+def as_literal_string(self, value):
+    ...
+```
+
+
+### 另请参阅
+* 类 [`StringChartValue`](/slides/python-net/zh/aspose.slides.charts/stringchartvalue)
+* 模块 [`aspose.slides.charts`](/slides/python-net/zh/aspose.slides.charts)
+* 库 [`Aspose.Slides`](/slides/python-net)

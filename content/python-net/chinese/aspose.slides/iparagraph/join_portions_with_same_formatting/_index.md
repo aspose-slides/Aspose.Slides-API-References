@@ -6,7 +6,7 @@ type: docs
 url: /zh/aspose.slides/iparagraph/join_portions_with_same_formatting/
 weight: 40
 ---
-## join_portions_with_same_formatting {#}
+## join_portions_with_same_formatting(self) {#}
 将具有相同格式的运行合并。
 
 
@@ -18,7 +18,7 @@ def join_portions_with_same_formatting(self):
 
 
 
-### 另见
+### 另请参见
 * 类 [`IParagraph`](/slides/python-net/zh/aspose.slides/iparagraph)
 * 模块 [`aspose.slides`](/slides/python-net/zh/aspose.slides)
 * 库 [`Aspose.Slides`](/slides/python-net)
