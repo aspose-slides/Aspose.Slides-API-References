@@ -1,13 +1,13 @@
 ---
 title: end_paragraph_portion_format property
-second_title: Aspose.Slides dla Pythona przez .NET API Reference
+second_title: Aspose.Slides dla Pythona via .NET Dokumentacja API
 description: 
 type: docs
 url: /pl/aspose.slides/paragraph/end_paragraph_portion_format/
 weight: 80
 ---
 ## end_paragraph_portion_format właściwość
-Określa właściwości fragmentu, które mają być użyte, jeśli po ostatnim zostanie wstawiony kolejny fragment.
+Określa właściwości części, które mają być użyte, jeśli po ostatniej zostanie wstawiona kolejna część.
 
 ### Definicja:
 ```python
@@ -19,7 +19,6 @@ def end_paragraph_portion_format(self):
 def end_paragraph_portion_format(self, value):
     ...
 ```
-
 
 ### Zobacz także
 * klasa [`Paragraph`](/slides/python-net/pl/aspose.slides/paragraph)

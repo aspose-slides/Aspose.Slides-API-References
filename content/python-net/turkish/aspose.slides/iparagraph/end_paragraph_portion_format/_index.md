@@ -7,7 +7,7 @@ url: /tr/aspose.slides/iparagraph/end_paragraph_portion_format/
 weight: 70
 ---
 ## end_paragraph_portion_format özelliği
-Başka bir bölüm son bölüme eklendiğinde kullanılacak bölüm özelliklerini belirtir.
+Başka bir dilim sonuncusunun ardından eklendiğinde kullanılacak dilim özelliklerini belirtir.
 
 ### Tanım:
 ```python
@@ -21,7 +21,7 @@ def end_paragraph_portion_format(self, value):
 ```
 
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 * sınıf [`IParagraph`](/slides/python-net/tr/aspose.slides/iparagraph)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

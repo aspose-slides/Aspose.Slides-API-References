@@ -1,19 +1,19 @@
 ---
 title: get_image method
-second_title: Referência da API Aspose.Slides para Python via .NET
+second_title: Referência da API Aspose.Slides for Python via .NET
 description: 
 type: docs
 url: /pt/aspose.slides/iparagraph/get_image/
 weight: 10
 ---
-## get_image {#}
+## get_image(self) {#}
 Retorna uma imagem do parágrafo.
 
 ### Retorna
 
 Uma imagem contendo o parágrafo renderizado, ou **None**
-             se o parágrafo não puder ser encontrado na coleção pai, não possuir limites
-             de renderização válidos ou ocorrer um erro ao renderizar a imagem.
+             se o parágrafo não puder ser encontrado em sua coleção pai, não possuir limites de renderização válidos,
+             ou ocorrer um erro ao renderizar a imagem.
 
 
 
@@ -24,14 +24,14 @@ def get_image(self):
 
 
 
-## get_image {#float-float}
+## get_image(self, scale_x, scale_y) {#float-float}
 Retorna uma imagem do parágrafo com a escala especificada.
 
 ### Retorna
 
 Uma imagem contendo o parágrafo renderizado, ou **None**
-             se o parágrafo não puder ser encontrado na coleção pai, não possuir limites
-             de renderização válidos ou ocorrer um erro ao renderizar a imagem.
+             se o parágrafo não puder ser encontrado em sua coleção pai, não possuir limites de renderização válidos,
+             ou ocorrer um erro ao renderizar a imagem.
 
 
 
@@ -48,7 +48,7 @@ def get_image(self, scale_x, scale_y):
 
 
 
-### Veja Também
+### Ver Também
 * classe [`IImage`](/slides/python-net/pt/aspose.slides/iimage)
 * classe [`IParagraph`](/slides/python-net/pt/aspose.slides/iparagraph)
 * módulo [`aspose.slides`](/slides/python-net/pt/aspose.slides)

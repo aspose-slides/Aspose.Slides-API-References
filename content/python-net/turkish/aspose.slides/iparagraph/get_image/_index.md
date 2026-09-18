@@ -6,11 +6,12 @@ type: docs
 url: /tr/aspose.slides/iparagraph/get_image/
 weight: 10
 ---
-## get_image {#}
+## get_image(self) {#}
 Paragrafın bir görüntüsünü döndürür.
 
-### Returns
-Render edilmiş paragrafı içeren bir görüntü, ya da **None** eğer paragraf üst koleksiyonunda bulunamıyorsa, geçerli bir renderleme sınırı yoksa veya görüntüyü render ederken bir hata oluşursa.
+### Döndürür
+
+Render edilmiş paragrafı içeren bir görüntü, veya **None** eğer paragraf ebeveyn koleksiyonunda bulunamıyorsa, geçerli bir çizim sınırı yoksa veya görüntü render edilirken bir hata oluşursa.
 
 
 
@@ -21,11 +22,12 @@ def get_image(self):
 
 
 
-## get_image {#float-float}
+## get_image(self, scale_x, scale_y) {#float-float}
 Belirtilen ölçekle paragrafın bir görüntüsünü döndürür.
 
-### Returns
-Render edilmiş paragrafı içeren bir görüntü, ya da **None** eğer paragraf üst koleksiyonunda bulunamıyorsa, geçerli bir renderleme sınırı yoksa veya görüntüyü render ederken bir hata oluşursa.
+### Döndürür
+
+Render edilmiş paragrafı içeren bir görüntü, veya **None** eğer paragraf ebeveyn koleksiyonunda bulunamıyorsa, geçerli bir çizim sınırı yoksa veya görüntü render edilirken bir hata oluşursa.
 
 
 
@@ -42,7 +44,7 @@ def get_image(self, scale_x, scale_y):
 
 
 
-### See Also
+### Ayrıca Bakınız
 * sınıf [`IImage`](/slides/python-net/tr/aspose.slides/iimage)
 * sınıf [`IParagraph`](/slides/python-net/tr/aspose.slides/iparagraph)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)

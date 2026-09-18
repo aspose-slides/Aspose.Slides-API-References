@@ -7,8 +7,8 @@ url: /tr/aspose.slides/iparagraph/portions/
 weight: 90
 ---
 ## portions özelliği
-Metin bölümlerinin koleksiyonunu döndürür.
-            Salt-okunur [`IPortionCollection`](/slides/python-net/tr/aspose.slides/iportioncollection).
+Returns the collection of a text portions.
+            Yalnızca okuma [`IPortionCollection`](/slides/python-net/tr/aspose.slides/iportioncollection).
 
 ### Tanım:
 ```python
@@ -16,6 +16,7 @@ Metin bölümlerinin koleksiyonunu döndürür.
 def portions(self):
     ...
 ```
+
 
 ### Ayrıca Bakınız
 * sınıf [`IParagraph`](/slides/python-net/tr/aspose.slides/iparagraph)

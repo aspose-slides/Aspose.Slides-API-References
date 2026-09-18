@@ -6,7 +6,7 @@ type: docs
 url: /tr/aspose.slides/iparagraph/presentation/
 weight: 100
 ---
-## sunum özelliği
+## presentation özelliği
 ### Tanım:
 ```python
 @property
@@ -15,7 +15,7 @@ def presentation(self):
 ```
 
 
-### Ayrıca bkz
+### İlgili
 * sınıf [`IParagraph`](/slides/python-net/tr/aspose.slides/iparagraph)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

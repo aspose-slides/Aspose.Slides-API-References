@@ -8,7 +8,7 @@ weight: 80
 ---
 ## paragraph_format özelliği
 Bu paragraf için biçimlendirme nesnesini döndürür.
-            Salt okunur [`IParagraphFormat`](/slides/python-net/tr/aspose.slides/iparagraphformat).
+            Yalnızca okuma [`IParagraphFormat`](/slides/python-net/tr/aspose.slides/iparagraphformat).
 
 ### Tanım:
 ```python
@@ -18,7 +18,7 @@ def paragraph_format(self):
 ```
 
 
-### Ayrıca Bakınız
+### Diğer Bağlantılar
 * sınıf [`IParagraph`](/slides/python-net/tr/aspose.slides/iparagraph)
 * sınıf [`IParagraphFormat`](/slides/python-net/tr/aspose.slides/iparagraphformat)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)

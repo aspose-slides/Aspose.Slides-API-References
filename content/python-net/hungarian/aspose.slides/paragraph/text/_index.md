@@ -1,16 +1,16 @@
 ---
 title: text property
-second_title: Aspose.Slides Python számára .NET-en keresztül API-referencia
+second_title: Aspose.Slides a Python számára .NET API referencia
 description: 
 type: docs
 url: /hu/aspose.slides/paragraph/text/
 weight: 130
 ---
-## text tulajdonság
+## szövegtulajdonság
 Lekéri vagy beállítja a bekezdés egyszerű szövegét.
             Olvasás/írás **str**.
 
-### Meghatározás:
+### Definíció
 ```python
 @property
 def text(self):

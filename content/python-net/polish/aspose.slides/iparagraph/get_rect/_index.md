@@ -1,18 +1,17 @@
 ---
 title: get_rect method
-second_title: Aspose.Slides dla Pythona poprzez .NET – dokumentacja API
+second_title: Aspose.Slides dla Pythona przez .NET – odniesienie API
 description: 
 type: docs
 url: /pl/aspose.slides/iparagraph/get_rect/
 weight: 30
 ---
-## get_rect {#}
-Pobierz współrzędne prostokąta, który otacza akapit. Prostokąt obejmuje wszystkie linie
-            tekstu w akapicie, w tym puste.
+## get_rect(self) {#}
+Pobierz współrzędne prostokąta, który otacza akapit. Prostokąt obejmuje wszystkie wiersze tekstu w akapicie, w tym puste.
 
 ### Zwraca
 
-Prostokąt, który otacza akapit **aspose.slides.RectangleF**
+Rectangle that bounds paragraph **aspose.slides.RectangleF**
 
 
 

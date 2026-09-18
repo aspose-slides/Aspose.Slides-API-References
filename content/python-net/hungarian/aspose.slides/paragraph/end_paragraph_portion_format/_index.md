@@ -1,13 +1,14 @@
 ---
 title: end_paragraph_portion_format property
-second_title: Aspose.Slides a Pythonhoz .NET API referencia
+second_title: Aspose.Slides Pythonhoz .NET-en keresztül API referencia
 description: 
 type: docs
 url: /hu/aspose.slides/paragraph/end_paragraph_portion_format/
 weight: 80
 ---
 ## end_paragraph_portion_format tulajdonság
-Megadja azokat a rész tulajdonságokat, amelyeket akkor kell használni, ha egy másik rész kerül beillesztésre az utolsó után.
+Meghatározza a rész tulajdonságait, amelyeket akkor kell használni, ha egy másik rész kerül beillesztésre a 
+            utolsó után.
 
 ### Definíció:
 ```python

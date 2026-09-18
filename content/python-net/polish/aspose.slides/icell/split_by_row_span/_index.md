@@ -1,0 +1,28 @@
+---
+title: split_by_row_span method
+second_title: Aspose.Slides dla Pythona via .NET – dokumentacja API
+description: 
+type: docs
+url: /pl/aspose.slides/icell/split_by_row_span/
+weight: 30
+---
+## split_by_row_span(self, index) {#int}
+Dzieli komórkę na dwie komórki według indeksu wiersza.
+
+
+```python
+def split_by_row_span(self, index):
+    ...
+```
+
+
+| Parametr | Typ | Opis |
+| :- | :- | :- |
+| index | **int** | Indeks wiersza. |
+
+
+
+### Zobacz także
+* klasa [`ICell`](/slides/python-net/pl/aspose.slides/icell)
+* moduł [`aspose.slides`](/slides/python-net/pl/aspose.slides)
+* biblioteka [`Aspose.Slides`](/slides/python-net)

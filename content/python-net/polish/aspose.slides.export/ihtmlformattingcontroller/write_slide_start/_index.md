@@ -1,0 +1,27 @@
+---
+title: write_slide_start method
+second_title: Aspose.Slides dla Pythona za pośrednictwem .NET - Dokumentacja API
+description: 
+type: docs
+url: /pl/aspose.slides.export/ihtmlformattingcontroller/write_slide_start/
+weight: 60
+---
+## write_slide_start(self, generator, slide) {#ihtmlgenerator-islide}
+Wywoływana w celu zapisania nagłówka slajdu HTML. Wywoływana raz dla każdego slajdu.
+
+```python
+def write_slide_start(self, generator, slide):
+    ...
+```
+
+| Parametr | Typ | Opis |
+| :- | :- | :- |
+| generator | [`IHtmlGenerator`](/slides/python-net/pl/aspose.slides.export/ihtmlgenerator) | Obiekt wyjściowy. |
+| slide | [`ISlide`](/slides/python-net/pl/aspose.slides/islide) | Slajd aktualnie renderowany. |
+
+### Zobacz także
+* klasa [`IHtmlFormattingController`](/slides/python-net/pl/aspose.slides.export/ihtmlformattingcontroller)
+* klasa [`IHtmlGenerator`](/slides/python-net/pl/aspose.slides.export/ihtmlgenerator)
+* klasa [`ISlide`](/slides/python-net/pl/aspose.slides/islide)
+* moduł [`aspose.slides.export`](/slides/python-net/pl/aspose.slides.export)
+* biblioteka [`Aspose.Slides`](/slides/python-net)

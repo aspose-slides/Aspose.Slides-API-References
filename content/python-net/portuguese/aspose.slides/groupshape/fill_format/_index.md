@@ -1,0 +1,26 @@
+---
+title: fill_format property
+second_title: Referência da API Aspose.Slides para Python via .NET
+description: 
+type: docs
+url: /pt/aspose.slides/groupshape/fill_format/
+weight: 170
+---
+## fill_format propriedade
+Retorna o objeto FillFormat que contém as propriedades de formatação de preenchimento de uma forma.
+Observação: pode retornar None para certos tipos de formas que não possuem propriedades de preenchimento.
+Somente leitura [`IFillFormat`](/slides/python-net/pt/aspose.slides/ifillformat).
+
+### Definição:
+```python
+@property
+def fill_format(self):
+    ...
+```
+
+
+### Veja também
+* classe [`GroupShape`](/slides/python-net/pt/aspose.slides/groupshape)
+* classe [`IFillFormat`](/slides/python-net/pt/aspose.slides/ifillformat)
+* módulo [`aspose.slides`](/slides/python-net/pt/aspose.slides)
+* biblioteca [`Aspose.Slides`](/slides/python-net)

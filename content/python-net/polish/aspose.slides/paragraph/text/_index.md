@@ -1,13 +1,13 @@
 ---
 title: text property
-second_title: Aspose.Slides dla Pythona poprzez .NET - referencja API
+second_title: Odwołanie do API Aspose.Slides dla Pythona przez .NET
 description: 
 type: docs
 url: /pl/aspose.slides/paragraph/text/
 weight: 130
 ---
 ## text właściwość
-Pobiera lub ustawia zwykły text akapitu.
+Pobiera lub ustawia zwykły tekst akapitu.
             Odczyt/zapis **str**.
 
 ### Definicja:

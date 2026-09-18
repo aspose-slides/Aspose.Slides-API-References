@@ -1,18 +1,19 @@
 ---
 title: get_image method
-second_title: Aspose.Slides dla Pythona przez .NET – Referencja API
+second_title: Aspose.Slides dla Pythona poprzez interfejs .NET – odniesienie API
 description: 
 type: docs
 url: /pl/aspose.slides/paragraph/get_image/
 weight: 20
 ---
-## get_image {#}
+## get_image(self) {#}
 Zwraca obraz akapitu.
 
-### Zwraca
+### Returns
 
 Obraz zawierający wyrenderowany akapit, lub **None**
-             jeśli akapit nie może zostać odnaleziony w swojej kolekcji nadrzędnej, nie ma prawidłowych granic renderowania lub wystąpi błąd podczas renderowania obrazu.
+             jeśli akapit nie może zostać odnaleziony w jego nadrzędnej kolekcji, nie ma prawidłowych
+             granic renderowania lub wystąpi błąd podczas renderowania obrazu.
 
 
 
@@ -23,13 +24,14 @@ def get_image(self):
 
 
 
-## get_image {#float-float}
+## get_image(self, scale_x, scale_y) {#float-float}
 Zwraca obraz akapitu w określonej skali.
 
-### Zwraca
+### Returns
 
 Obraz zawierający wyrenderowany akapit, lub **None**
-             jeśli akapit nie może zostać odnaleziony w swojej kolekcji nadrzędnej, nie ma prawidłowych granic renderowania lub wystąpi błąd podczas renderowania obrazu.
+             jeśli akapit nie może zostać odnaleziony w jego nadrzędnej kolekcji, nie ma prawidłowych
+             granic renderowania lub wystąpi błąd podczas renderowania obrazu.
 
 
 
@@ -39,10 +41,10 @@ def get_image(self, scale_x, scale_y):
 ```
 
 
-| Parametr | Typ | Opis |
+| Parameter | Type | Description |
 | :- | :- | :- |
-| scale_x | **float** | Poziomy współczynnik skali zastosowany do obrazu akapitu. |
-| scale_y | **float** | Pionowy współczynnik skali zastosowany do obrazu akapitu. |
+| scale_x | **float** | Poziomy współczynnik skali stosowany do obrazu akapitu. |
+| scale_y | **float** | Pionowy współczynnik skali stosowany do obrazu akapitu. |
 
 
 

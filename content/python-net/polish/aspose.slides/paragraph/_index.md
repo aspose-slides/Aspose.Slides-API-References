@@ -1,22 +1,22 @@
 ---
 title: Paragraph class
-second_title: Aspose.Slides dla Pythona poprzez .NET – Referencja API
+second_title: Aspose.Slides dla Pythona przez .NET – dokumentacja API
 description: 
 type: docs
 url: /pl/aspose.slides/paragraph/
 ---
-## Paragraph klasa
+## Klasa Paragraph
 
-Represents a paragraph of text.
+Reprezentuje akapit tekstu.
 
-The Paragraph type exposes the following members:
+Typ Paragraph udostępnia następujące elementy:
 
 ## Konstruktory
 
 | Konstruktor | Opis |
 | :- | :- |
-| [`__init__`](/slides/python-net/pl/aspose.slides/paragraph/__init__/#) | Inicjalizuje nową instancję klasy Paragraph z domyślnymi właściwościami. |
-| [`__init__`](/slides/python-net/pl/aspose.slides/paragraph/__init__/#paragraph) | Konstruktor kopiujący, który inicjalizuje nową instancję klasy Paragraph. |
+| [`__init__(self)`](/slides/python-net/pl/aspose.slides/paragraph/__init__/#) | Initializes a new instance of the Paragraph class with default properties. |
+| [`__init__(self, para)`](/slides/python-net/pl/aspose.slides/paragraph/__init__/#paragraph) | Copy constructor that initializes a new instance of a Paragraph class. |
 
 ## Właściwości
 
@@ -24,8 +24,8 @@ The Paragraph type exposes the following members:
 | :- | :- |
 | [`portions`](/slides/python-net/pl/aspose.slides/paragraph/portions/) | Zwraca kolekcję fragmentów tekstu.<br/>            Tylko do odczytu [`IPortionCollection`](/slides/python-net/pl/aspose.slides/iportioncollection). |
 | [`paragraph_format`](/slides/python-net/pl/aspose.slides/paragraph/paragraph_format/) | Zwraca obiekt formatowania tego akapitu.<br/>            Tylko do odczytu [`IParagraphFormat`](/slides/python-net/pl/aspose.slides/iparagraphformat). |
-| [`text`](/slides/python-net/pl/aspose.slides/paragraph/text/) | Pobiera lub ustawia czysty tekst akapitu.<br/>            Odczyt/zapis **str**. |
-| [`end_paragraph_portion_format`](/slides/python-net/pl/aspose.slides/paragraph/end_paragraph_portion_format/) | Określa właściwości fragmentu, które mają być użyte, jeśli kolejny fragment zostanie wstawiony po <br/>            ostatnim. |
+| [`text`](/slides/python-net/pl/aspose.slides/paragraph/text/) | Pobiera lub ustawia zwykły tekst akapitu.<br/>            Odczyt/zapis **str**. |
+| [`end_paragraph_portion_format`](/slides/python-net/pl/aspose.slides/paragraph/end_paragraph_portion_format/) | Określa właściwości fragmentu, które mają być użyte, jeśli inny fragment zostanie wstawiony po <br/>            ostatnim. |
 | [`slide`](/slides/python-net/pl/aspose.slides/paragraph/slide/) |  |
 | [`presentation`](/slides/python-net/pl/aspose.slides/paragraph/presentation/) |  |
 
@@ -33,11 +33,11 @@ The Paragraph type exposes the following members:
 
 | Metoda | Opis |
 | :- | :- |
-| [`get_image`](/slides/python-net/pl/aspose.slides/paragraph/get_image/#) | Zwraca obraz akapitu. |
-| [`get_image`](/slides/python-net/pl/aspose.slides/paragraph/get_image/#float-float) | Zwraca obraz akapitu w określonej skali. |
-| [`join_portions_with_same_formatting`](/slides/python-net/pl/aspose.slides/paragraph/join_portions_with_same_formatting/#) | Łączy ciągi tekstowe o tym samym formatowaniu. |
-| [`get_rect`](/slides/python-net/pl/aspose.slides/paragraph/get_rect/#) | Pobiera współrzędne prostokąta otaczającego akapit. Prostokąt zawiera wszystkie linie<br/>            tekstu w akapicie, włącznie z pustymi. |
-| [`get_lines_count`](/slides/python-net/pl/aspose.slides/paragraph/get_lines_count/#) | Pobiera liczbę linii w akapicie. |
+| [`get_image(self)`](/slides/python-net/pl/aspose.slides/paragraph/get_image/#) | Zwraca obraz akapitu. |
+| [`get_image(self, scale_x, scale_y)`](/slides/python-net/pl/aspose.slides/paragraph/get_image/#float-float) | Zwraca obraz akapitu w określonej skali. |
+| [`join_portions_with_same_formatting(self)`](/slides/python-net/pl/aspose.slides/paragraph/join_portions_with_same_formatting/#) | Łączy segmenty o takim samym formatowaniu. |
+| [`get_rect(self)`](/slides/python-net/pl/aspose.slides/paragraph/get_rect/#) | Pobiera współrzędne prostokąta otaczającego akapit. Prostokąt obejmuje wszystkie linie<br/>            tekstu w akapicie, w tym puste. |
+| [`get_lines_count(self)`](/slides/python-net/pl/aspose.slides/paragraph/get_lines_count/#) | Pobiera liczbę wierszy w akapicie. |
 
 
 ### Zobacz także

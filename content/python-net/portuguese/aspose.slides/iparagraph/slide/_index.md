@@ -6,7 +6,7 @@ type: docs
 url: /pt/aspose.slides/iparagraph/slide/
 weight: 110
 ---
-## propriedade do slide
+## Propriedade do slide
 ### Definição:
 ```python
 @property
@@ -14,8 +14,7 @@ def slide(self):
     ...
 ```
 
-
-### Veja também
+### Veja Também
 * classe [`IParagraph`](/slides/python-net/pt/aspose.slides/iparagraph)
 * módulo [`aspose.slides`](/slides/python-net/pt/aspose.slides)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

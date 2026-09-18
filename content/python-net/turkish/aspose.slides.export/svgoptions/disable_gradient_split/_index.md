@@ -1,0 +1,28 @@
+---
+title: disable_gradient_split property
+second_title: Aspose.Slides for Python via .NET API Referansı
+description: 
+type: docs
+url: /tr/aspose.slides.export/svgoptions/disable_gradient_split/
+weight: 80
+---
+## disable_gradient_split özelliği
+FromCornerX ve FromCenter gradyanlarının bölünmesini devre dışı bırakır.
+            Okuma/Yazma **bool**.
+
+### Tanım:
+```python
+@property
+def disable_gradient_split(self):
+    ...
+
+@disable_gradient_split.setter
+def disable_gradient_split(self, value):
+    ...
+```
+
+
+### Ayrıca Bakınız
+* sınıf [`SVGOptions`](/slides/python-net/tr/aspose.slides.export/svgoptions)
+* modül [`aspose.slides.export`](/slides/python-net/tr/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

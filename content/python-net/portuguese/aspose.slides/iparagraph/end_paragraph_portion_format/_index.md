@@ -1,6 +1,6 @@
 ---
 title: end_paragraph_portion_format property
-second_title: Referência de API Aspose.Slides para Python via .NET
+second_title: Aspose.Slides para Python via .NET Referência da API
 description: 
 type: docs
 url: /pt/aspose.slides/iparagraph/end_paragraph_portion_format/
@@ -22,7 +22,7 @@ def end_paragraph_portion_format(self, value):
 ```
 
 
-### Ver também
+### Veja também
 * classe [`IParagraph`](/slides/python-net/pt/aspose.slides/iparagraph)
 * módulo [`aspose.slides`](/slides/python-net/pt/aspose.slides)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

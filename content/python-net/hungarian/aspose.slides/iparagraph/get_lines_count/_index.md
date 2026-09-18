@@ -1,23 +1,25 @@
 ---
 title: get_lines_count method
-second_title: Aspose.Slides a Python számára .NET API-referencia
+second_title: Aspose.Slides a Pythonhoz a .NET API hivatkozása
 description: 
 type: docs
 url: /hu/aspose.slides/iparagraph/get_lines_count/
 weight: 20
 ---
-## get_lines_count {#}
-Visszaadja a bekezdés sorainak számát.
+## get_lines_count(self) {#}
+A bekezdés sorainak számát adja vissza.
 
 ### Visszatérési érték
 
 A bekezdés sorainak száma
 
 
+
 ```python
 def get_lines_count(self):
     ...
 ```
+
 
 
 

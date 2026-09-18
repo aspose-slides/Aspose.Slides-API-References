@@ -22,7 +22,7 @@ def text(self, value):
 ```
 
 
-### Ayrıca Bakınız
+### İlgili
 * sınıf [`IParagraph`](/slides/python-net/tr/aspose.slides/iparagraph)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

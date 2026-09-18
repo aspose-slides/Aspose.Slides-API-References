@@ -6,12 +6,12 @@ type: docs
 url: /pt/aspose.slides/paragraph/get_image/
 weight: 20
 ---
-## get_image {#}
+## get_image(self) {#}
 Retorna uma imagem do parágrafo.
 
 ### Retorna
 
-Uma imagem contendo o parágrafo renderizado, ou **None** se o parágrafo não puder ser encontrado em sua coleção pai, não possuir limites de renderização válidos ou ocorrer um erro ao renderizar a imagem.
+Uma imagem contendo o parágrafo renderizado, ou **None** se o parágrafo não puder ser encontrado em sua coleção pai, não tiver limites de renderização válidos, ou ocorrer um erro ao renderizar a imagem.
 
 
 
@@ -22,12 +22,12 @@ def get_image(self):
 
 
 
-## get_image {#float-float}
+## get_image(self, scale_x, scale_y) {#float-float}
 Retorna uma imagem do parágrafo com a escala especificada.
 
 ### Retorna
 
-Uma imagem contendo o parágrafo renderizado, ou **None** se o parágrafo não puder ser encontrado em sua coleção pai, não possuir limites de renderização válidos ou ocorrer um erro ao renderizar a imagem.
+Uma imagem contendo o parágrafo renderizado, ou **None** se o parágrafo não puder ser encontrado em sua coleção pai, não tiver limites de renderização válidos, ou ocorrer um erro ao renderizar a imagem.
 
 
 

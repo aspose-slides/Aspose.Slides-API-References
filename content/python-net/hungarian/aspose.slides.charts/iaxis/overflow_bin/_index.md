@@ -1,0 +1,27 @@
+---
+title: overflow_bin property
+second_title: Aspose.Slides Pythonhoz .NET-en keresztül API hivatkozás
+description: 
+type: docs
+url: /hu/aspose.slides.charts/iaxis/overflow_bin/
+weight: 510
+---
+## overflow_bin tulajdonság
+Megadja az overflow bin egyéni értékét. Alkalmazva, amikor az IsAutomaticOverflowBin tulajdonság false értékre van állítva, és az IsOverflowBin tulajdonság true értékkel rendelkezik.
+
+### Definíció:
+```python
+@property
+def overflow_bin(self):
+    ...
+
+@overflow_bin.setter
+def overflow_bin(self, value):
+    ...
+```
+
+
+### Lásd még
+* osztály [`IAxis`](/slides/python-net/hu/aspose.slides.charts/iaxis)
+* modul [`aspose.slides.charts`](/slides/python-net/hu/aspose.slides.charts)
+* könyvtár [`Aspose.Slides`](/slides/python-net)

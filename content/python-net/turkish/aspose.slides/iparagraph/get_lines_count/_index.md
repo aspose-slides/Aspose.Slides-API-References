@@ -6,10 +6,10 @@ type: docs
 url: /tr/aspose.slides/iparagraph/get_lines_count/
 weight: 20
 ---
-## get_lines_count {#}
-Paragraftaki satır sayısını al.
+## get_lines_count(self) {#}
+Bir paragraftaki satır sayısını al.
 
-### Returns
+### Döndürür
 
 Paragraftaki satır sayısı
 
@@ -23,7 +23,7 @@ def get_lines_count(self):
 
 
 
-### İlgili
+### Ayrıca Bakınız
 * sınıf [`IParagraph`](/slides/python-net/tr/aspose.slides/iparagraph)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

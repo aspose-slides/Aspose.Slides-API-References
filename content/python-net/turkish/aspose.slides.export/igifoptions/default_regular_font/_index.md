@@ -1,0 +1,25 @@
+---
+title: default_regular_font property
+second_title: Aspose.Slides için Python üzerinden .NET API Referansı
+description: 
+type: docs
+url: /tr/aspose.slides.export/igifoptions/default_regular_font/
+weight: 30
+---
+## default_regular_font özelliği
+### Tanım:
+```python
+@property
+def default_regular_font(self):
+    ...
+
+@default_regular_font.setter
+def default_regular_font(self, value):
+    ...
+```
+
+
+### Ayrıca Bakınız
+* sınıf [`IGifOptions`](/slides/python-net/tr/aspose.slides.export/igifoptions)
+* modül [`aspose.slides.export`](/slides/python-net/tr/aspose.slides.export)
+* kütüphane [`Aspose.Slides`](/slides/python-net)

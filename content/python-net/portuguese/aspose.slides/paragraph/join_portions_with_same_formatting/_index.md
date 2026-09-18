@@ -6,7 +6,7 @@ type: docs
 url: /pt/aspose.slides/paragraph/join_portions_with_same_formatting/
 weight: 50
 ---
-## join_portions_with_same_formatting {#}
+## join_portions_with_same_formatting(self) {#}
 Une trechos com a mesma formatação.
 
 
@@ -18,7 +18,7 @@ def join_portions_with_same_formatting(self):
 
 
 
-### Veja também
+### Veja Também
 * classe [`Paragraph`](/slides/python-net/pt/aspose.slides/paragraph)
 * módulo [`aspose.slides`](/slides/python-net/pt/aspose.slides)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

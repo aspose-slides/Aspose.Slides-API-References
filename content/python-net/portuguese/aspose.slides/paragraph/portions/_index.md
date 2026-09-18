@@ -1,6 +1,6 @@
 ---
 title: portions property
-second_title: Aspose.Slides para Python via .NET Referência de API
+second_title: Referência da API do Aspose.Slides para Python via .NET
 description: 
 type: docs
 url: /pt/aspose.slides/paragraph/portions/
@@ -18,7 +18,7 @@ def portions(self):
 ```
 
 
-### Veja Também
+### Ver também
 * classe [`IPortionCollection`](/slides/python-net/pt/aspose.slides/iportioncollection)
 * classe [`Paragraph`](/slides/python-net/pt/aspose.slides/paragraph)
 * módulo [`aspose.slides`](/slides/python-net/pt/aspose.slides)

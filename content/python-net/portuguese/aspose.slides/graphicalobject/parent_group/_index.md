@@ -1,0 +1,30 @@
+---
+title: parent_group property
+second_title: Aspose.Slides para Python via .NET referência de API
+description: 
+type: docs
+url: /pt/aspose.slides/graphicalobject/parent_group/
+weight: 310
+---
+## parent_group propriedade
+Returns parent GroupShape object if shape is grouped. Otherwise returns None.
+            Somente leitura [`IGroupShape`](/slides/python-net/pt/aspose.slides/igroupshape).
+
+
+### Observações
+
+Propriedade [`Shape.is_grouped`](/slides/python-net/pt/aspose.slides/shape/is_grouped) determina se a forma está agrupada.
+
+### Definição:
+```python
+@property
+def parent_group(self):
+    ...
+```
+
+
+### Ver também
+* classe [`GraphicalObject`](/slides/python-net/pt/aspose.slides/graphicalobject)
+* classe [`IGroupShape`](/slides/python-net/pt/aspose.slides/igroupshape)
+* módulo [`aspose.slides`](/slides/python-net/pt/aspose.slides)
+* biblioteca [`Aspose.Slides`](/slides/python-net)

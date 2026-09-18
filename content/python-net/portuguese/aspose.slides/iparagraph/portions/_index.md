@@ -18,7 +18,7 @@ def portions(self):
 ```
 
 
-### Ver também
+### Veja Também
 * classe [`IParagraph`](/slides/python-net/pt/aspose.slides/iparagraph)
 * classe [`IPortionCollection`](/slides/python-net/pt/aspose.slides/iportioncollection)
 * módulo [`aspose.slides`](/slides/python-net/pt/aspose.slides)

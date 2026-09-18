@@ -1,13 +1,13 @@
 ---
 title: text property
-second_title: Aspose.Slides Pythonhoz a .NET-en keresztül API referencia
+second_title: Aspose.Slides Python számára .NET API hivatkozás
 description: 
 type: docs
 url: /hu/aspose.slides/iparagraph/text/
 weight: 120
 ---
 ## szöveg tulajdonság
-Lekéri vagy beállítja egy bekezdés egyszerű szövegét.
+Lekéri vagy beállítja a bekezdés egyszerű szövegét.
             Olvasás/írás **str**.
 
 ### Definíció:

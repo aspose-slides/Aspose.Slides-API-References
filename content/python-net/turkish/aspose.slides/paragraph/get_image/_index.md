@@ -1,19 +1,19 @@
 ---
 title: get_image method
-second_title: Aspose.Slides for Python via .NET API Referansı
+second_title: Aspose.Slides Python için .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/paragraph/get_image/
 weight: 20
 ---
-## get_image {#}
+## get_image(self) {#}
 Paragrafın bir görüntüsünü döndürür.
 
 ### Döndürür
 
-Paragrafın render edilmiş görüntüsünü içeren bir resim, veya **None**
-             eğer paragraf üst koleksiyonunda bulunamazsa, geçerli bir
-             renderleme sınırı yoksa veya görüntü render edilirken bir hata oluşursa.
+Paragrafın renderlanan görüntüsünü içeren bir resim, ya da **None**
+             paragraf üst koleksiyonunda bulunamazsa, geçerli bir renderleme sınırı yoksa,
+             veya görüntü renderlenirken bir hata oluşursa.
 
 
 
@@ -24,14 +24,14 @@ def get_image(self):
 
 
 
-## get_image {#float-float}
+## get_image(self, scale_x, scale_y) {#float-float}
 Belirtilen ölçekle paragrafın bir görüntüsünü döndürür.
 
 ### Döndürür
 
-Paragrafın render edilmiş görüntüsünü içeren bir resim, veya **None**
-             eğer paragraf üst koleksiyonunda bulunamazsa, geçerli bir
-             renderleme sınırı yoksa veya görüntü render edilirken bir hata oluşursa.
+Paragrafın renderlanan görüntüsünü içeren bir resim, ya da **None**
+             paragraf üst koleksiyonunda bulunamazsa, geçerli bir renderleme sınırı yoksa,
+             veya görüntü renderlenirken bir hata oluşursa.
 
 
 
@@ -48,7 +48,7 @@ def get_image(self, scale_x, scale_y):
 
 
 
-### Bakınız
+### Ayrıca Bakınız
 * sınıf [`IImage`](/slides/python-net/tr/aspose.slides/iimage)
 * sınıf [`Paragraph`](/slides/python-net/tr/aspose.slides/paragraph)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
