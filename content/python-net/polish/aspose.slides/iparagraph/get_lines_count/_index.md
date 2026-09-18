@@ -1,17 +1,17 @@
 ---
 title: get_lines_count method
-second_title: Aspose.Slides dla Pythona przez .NET – odniesienie API
+second_title: Aspose.Slides dla Pythona przez .NET API Referencja
 description: 
 type: docs
 url: /pl/aspose.slides/iparagraph/get_lines_count/
 weight: 20
 ---
-## get_lines_count {#}
-Zwraca liczbę wierszy w akapicie.
+## get_lines_count(self) {#}
+Zwraca liczbę linii w akapicie.
 
 ### Zwraca
 
-Liczba wierszy w akapicie
+Liczba linii w akapicie
 
 
 

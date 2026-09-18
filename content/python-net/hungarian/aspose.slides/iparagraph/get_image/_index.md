@@ -1,16 +1,19 @@
 ---
 title: get_image method
-second_title: Aspose.Slides Pythonhoz .NET API referencia
+second_title: Aspose.Slides Python számára .NET-en keresztül API referenciája
 description: 
 type: docs
 url: /hu/aspose.slides/iparagraph/get_image/
 weight: 10
 ---
-## get_image {#}
+## get_image(self) {#}
 Visszaad egy képet a bekezdésről.
 
-### Returns
-Egy kép, amely a renderelt bekezdést tartalmazza, vagy **None**, ha a bekezdést nem találja meg a szülőgyűjteményben, nincs érvényes megjelenítési határa, vagy hiba történik a kép renderelése közben.
+### Visszatérési érték
+
+Egy kép, amely a renderelt bekezdést tartalmazza, vagy **None**
+             ha a bekezdés nem található meg a szülő gyűjteményben, nincs érvényes
+             renderelési határa, vagy hiba történt a kép renderelése közben.
 
 
 
@@ -21,11 +24,14 @@ def get_image(self):
 
 
 
-## get_image {#float-float}
-Visszaad egy képet a bekezdésről a megadott mérettel.
+## get_image(self, scale_x, scale_y) {#float-float}
+Visszaad egy képet a bekezdésről a megadott skálával.
 
-### Returns
-Egy kép, amely a renderelt bekezdést tartalmazza, vagy **None**, ha a bekezdést nem találja meg a szülőgyűjteményben, nincs érvényes megjelenítési határa, vagy hiba történik a kép renderelése közben.
+### Visszatérési érték
+
+Egy kép, amely a renderelt bekezdést tartalmazza, vagy **None**
+             ha a bekezdés nem található meg a szülő gyűjteményben, nincs érvényes
+             renderelési határa, vagy hiba történt a kép renderelése közben.
 
 
 
@@ -37,8 +43,8 @@ def get_image(self, scale_x, scale_y):
 
 | Paraméter | Típus | Leírás |
 | :- | :- | :- |
-| scale_x | **float** | A bekezdés képre alkalmazott vízszintes méretezési tényező. |
-| scale_y | **float** | A bekezdés képre alkalmazott függőleges méretezési tényező. |
+| scale_x | **float** | A bekezdés képre alkalmazott vízszintes skálázási tényező. |
+| scale_y | **float** | A bekezdés képre alkalmazott függőleges skálázási tényező. |
 
 
 

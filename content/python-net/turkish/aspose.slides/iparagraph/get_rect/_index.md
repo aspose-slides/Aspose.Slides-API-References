@@ -6,9 +6,8 @@ type: docs
 url: /tr/aspose.slides/iparagraph/get_rect/
 weight: 30
 ---
-## get_rect {#}
-Paragrafı sınırlayan dikdörtgenin koordinatlarını alır. Dikdörtgen, paragraftaki tüm metin satırlarını,
-            boş satırlar dahil, içerir.
+## get_rect(self) {#}
+Paragrafı sınırlayan dikdörtgenin koordinatlarını alır. Dikdörtgen, paragraftaki tüm metin satırlarını, boş satırları da içerecek şekilde kapsar.
 
 ### Döndürür
 

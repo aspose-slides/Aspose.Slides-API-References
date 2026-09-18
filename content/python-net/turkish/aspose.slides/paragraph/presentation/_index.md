@@ -15,7 +15,7 @@ def presentation(self):
 ```
 
 
-### Diğer Bağlantılar
+### Bakınız
 * sınıf [`Paragraph`](/slides/python-net/tr/aspose.slides/paragraph)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

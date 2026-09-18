@@ -1,18 +1,23 @@
 ---
 title: get_rect method
-second_title: Aspose.Slides Pythonhoz .NET API Referencia
-description: 
+second_title: Aspose.Slides Pythonhoz .NET használatával API-referencia
+description:
 type: docs
 url: /hu/aspose.slides/paragraph/get_rect/
 weight: 40
 ---
-## get_rect {#}
-Lekérdezi a bekezdést körülvevő téglalap koordinátáit. A téglalap tartalmazza a bekezdésben lévő összes sort, beleértve az üres sorokat is.
+## get_rect(self) {#}
+A bekezdést körülvevő téglalap koordinátáit adja vissza. A téglalap magában foglalja a bekezdés
+            összes szövegsorát, beleértve az üres sorokat is.
+
 
 ```python
 def get_rect(self):
     ...
 ```
+
+
+
 
 ### Lásd még
 * osztály [`Paragraph`](/slides/python-net/hu/aspose.slides/paragraph)

@@ -1,16 +1,16 @@
 ---
 title: portions property
-second_title: Aspose.Slides Pythonhoz .NET-en keresztül API Referencia
+second_title: Aspose.Slides a Pythonhoz .NET-en keresztül API referenciája
 description: 
 type: docs
 url: /hu/aspose.slides/paragraph/portions/
 weight: 100
 ---
 ## portions tulajdonság
-Visszaadja a szövegrészek gyűjteményét.
+Visszaadja egy szöveg részleteinek gyűjteményét.
             Csak olvasható [`IPortionCollection`](/slides/python-net/hu/aspose.slides/iportioncollection).
 
-### Definíció:
+### Meghatározás:
 ```python
 @property
 def portions(self):
@@ -22,4 +22,4 @@ def portions(self):
 * osztály [`IPortionCollection`](/slides/python-net/hu/aspose.slides/iportioncollection)
 * osztály [`Paragraph`](/slides/python-net/hu/aspose.slides/paragraph)
 * modul [`aspose.slides`](/slides/python-net/hu/aspose.slides)
-* könyvtár [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

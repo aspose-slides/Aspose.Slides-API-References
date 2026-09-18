@@ -1,17 +1,18 @@
 ---
 title: get_rect method
-second_title: Aspose.Slides Pythonhoz a .NET API hivatkozás
+second_title: Aspose.Slides a Pythonhoz a .NET API hivatkozás
 description: 
 type: docs
 url: /hu/aspose.slides/iparagraph/get_rect/
 weight: 30
 ---
-## get_rect {#}
-A bekezdést határoló téglalap koordinátáit adja vissza. A téglalap tartalmazza a bekezdés összes szövegsorát, beleértve az üres sorokat is.
+## get_rect(self) {#}
+Kérje le a bekezdést körülvevő téglalap koordinátáit. A téglalap tartalmazza a bekezdésben lévő
+            szöveg összes sorát, beleértve az üres sorokat is.
 
 ### Visszatérési érték
 
-A bekezdést határoló téglalap **aspose.slides.RectangleF**
+A bekezdést körülvevő téglalap **aspose.slides.RectangleF**
 
 
 

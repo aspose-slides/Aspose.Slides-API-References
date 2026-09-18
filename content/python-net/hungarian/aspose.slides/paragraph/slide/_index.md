@@ -1,12 +1,12 @@
 ---
 title: slide property
-second_title: Aspose.Slides a Python számára .NET API referenciája
+second_title: Aspose.Slides for Python via .NET API Referenciája
 description: 
 type: docs
 url: /hu/aspose.slides/paragraph/slide/
 weight: 120
 ---
-## slide tulajdonság
+## dia tulajdonság
 ### Definíció:
 ```python
 @property

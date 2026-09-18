@@ -1,0 +1,29 @@
+---
+title: kumimoji property
+second_title: Aspose.Slides para Python via .NET Referência da API
+description: 
+type: docs
+url: /pt/aspose.slides/ibaseportionformat/kumimoji/
+weight: 150
+---
+## kumimoji propriedade
+Determina se os números devem ignorar o layout de texto vertical específico de linguagem oriental. Nenhuma herança aplicada.
+            Leitura/gravação [`NullableBool`](/slides/python-net/pt/aspose.slides/nullablebool).
+
+### Definição:
+```python
+@property
+def kumimoji(self):
+    ...
+
+@kumimoji.setter
+def kumimoji(self, value):
+    ...
+```
+
+
+### Veja Também
+* classe [`IBasePortionFormat`](/slides/python-net/pt/aspose.slides/ibaseportionformat)
+* enumeração [`NullableBool`](/slides/python-net/pt/aspose.slides/nullablebool)
+* módulo [`aspose.slides`](/slides/python-net/pt/aspose.slides)
+* biblioteca [`Aspose.Slides`](/slides/python-net)

@@ -1,0 +1,29 @@
+---
+title: layout property
+second_title: Aspose.Slides for Python via .NET API Referansı
+description: 
+type: docs
+url: /tr/aspose.slides.smartart/ismartart/layout/
+weight: 310
+---
+## layout özelliği
+SmartArt nesnesinin düzenini döndürür veya ayarlar.
+            Okuma/Yazma [`SmartArtLayoutType`](/slides/python-net/tr/aspose.slides.smartart/smartartlayouttype).
+
+### Tanım:
+```python
+@property
+def layout(self):
+    ...
+
+@layout.setter
+def layout(self, value):
+    ...
+```
+
+
+### Ayrıca Bakınız
+* sınıf [`ISmartArt`](/slides/python-net/tr/aspose.slides.smartart/ismartart)
+* enumerasyon [`SmartArtLayoutType`](/slides/python-net/tr/aspose.slides.smartart/smartartlayouttype)
+* modül [`aspose.slides.smartart`](/slides/python-net/tr/aspose.slides.smartart)
+* kütüphane [`Aspose.Slides`](/slides/python-net)

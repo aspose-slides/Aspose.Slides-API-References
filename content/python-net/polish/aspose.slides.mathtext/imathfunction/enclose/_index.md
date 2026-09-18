@@ -1,0 +1,41 @@
+---
+title: enclose method
+second_title: Aspose.Slides dla Pythona poprzez .NET referencję API
+description: 
+type: docs
+url: /pl/aspose.slides.mathtext/imathfunction/enclose/
+weight: 40
+---
+## enclose(self) {#}
+
+
+
+```python
+def enclose(self):
+    ...
+```
+
+
+
+## enclose(self, beginning_character, ending_character) {#char-char}
+
+
+
+```python
+def enclose(self, beginning_character, ending_character):
+    ...
+```
+
+
+| Parametr | Typ | Opis |
+| :- | :- | :- |
+| beginning_character | **char** |  |
+| ending_character | **char** |  |
+
+
+
+### Patrz też
+* klasa [`IMathDelimiter`](/slides/python-net/pl/aspose.slides.mathtext/imathdelimiter)
+* klasa [`IMathFunction`](/slides/python-net/pl/aspose.slides.mathtext/imathfunction)
+* moduł [`aspose.slides.mathtext`](/slides/python-net/pl/aspose.slides.mathtext)
+* biblioteka [`Aspose.Slides`](/slides/python-net)

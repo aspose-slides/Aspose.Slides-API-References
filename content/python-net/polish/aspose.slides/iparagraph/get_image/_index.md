@@ -1,19 +1,18 @@
 ---
 title: get_image method
-second_title: Aspose.Slides dla Pythona przez .NET Odwołanie API
+second_title: Aspose.Slides dla Pythona poprzez .NET – odniesienie API
 description: 
 type: docs
 url: /pl/aspose.slides/iparagraph/get_image/
 weight: 10
 ---
-## get_image {#}
+## get_image(self) {#}
 Zwraca obraz akapitu.
 
 ### Zwraca
 
-Obraz zawierający renderowany akapit, lub **None**
-             jeśli akapit nie może zostać odnaleziony w swojej kolekcji nadrzędnej, nie ma prawidłowych
-             granic renderowania lub wystąpił błąd podczas renderowania obrazu.
+Obraz zawierający wyrenderowany akapit, lub **None**
+             jeśli akapit nie może zostać znaleziony w swojej nadrzędnej kolekcji, nie ma prawidłowych granic renderowania lub wystąpi błąd podczas renderowania obrazu.
 
 
 
@@ -24,14 +23,13 @@ def get_image(self):
 
 
 
-## get_image {#float-float}
+## get_image(self, scale_x, scale_y) {#float-float}
 Zwraca obraz akapitu w określonej skali.
 
 ### Zwraca
 
-Obraz zawierający renderowany akapit, oraz **None**
-             jeśli akapit nie może zostać odnaleziony w swojej kolekcji nadrzędnej, nie ma prawidłowych
-             granic renderowania lub wystąpił błąd podczas renderowania obrazu.
+Obraz zawierający wyrenderowany akapit, lub **None**
+             jeśli akapit nie może zostać znaleziony w swojej nadrzędnej kolekcji, nie ma prawidłowych granic renderowania lub wystąpi błąd podczas renderowania obrazu.
 
 
 

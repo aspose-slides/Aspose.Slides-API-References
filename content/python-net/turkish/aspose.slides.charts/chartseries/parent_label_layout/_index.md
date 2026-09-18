@@ -1,0 +1,27 @@
+---
+title: parent_label_layout property
+second_title: Aspose.Slides for Python via .NET API Referansı
+description: 
+type: docs
+url: /tr/aspose.slides.charts/chartseries/parent_label_layout/
+weight: 320
+---
+## parent_label_layout özelliği
+Üst kategori etiketlerinin düzenini temsil eder.   Yalnızca Treemap grafiklerine uygulanır.
+
+### Tanım:
+```python
+@property
+def parent_label_layout(self):
+    ...
+
+@parent_label_layout.setter
+def parent_label_layout(self, value):
+    ...
+```
+
+
+### Ayrıca bakınız
+* sınıf [`ChartSeries`](/slides/python-net/tr/aspose.slides.charts/chartseries)
+* modül [`aspose.slides.charts`](/slides/python-net/tr/aspose.slides.charts)
+* kütüphane [`Aspose.Slides`](/slides/python-net)

@@ -1,12 +1,12 @@
 ---
 title: slide property
-second_title: Referência da API Aspose.Slides para Python via .NET
+second_title: Aspose.Slides para Python via .NET Referência da API
 description: 
 type: docs
 url: /pt/aspose.slides/paragraph/slide/
 weight: 120
 ---
-## propriedade de slide
+## propriedade do slide
 ### Definição:
 ```python
 @property

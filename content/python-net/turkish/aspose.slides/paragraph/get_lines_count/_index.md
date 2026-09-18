@@ -1,13 +1,13 @@
 ---
 title: get_lines_count method
-second_title: Aspose.Slides for Python via .NET API Referansı
+second_title: Aspose.Slides, .NET API Referansı üzerinden Python için
 description: 
 type: docs
 url: /tr/aspose.slides/paragraph/get_lines_count/
 weight: 30
 ---
-## get_lines_count {#}
-Bir paragraftaki satırların sayısını al.
+## get_lines_count(self) {#}
+Paragraftaki satır sayısını al.
 
 ### Döndürür
 

@@ -1,0 +1,29 @@
+---
+title: is_visible property
+second_title: Aspose.Slides for Python via .NET API referencia
+description: 
+type: docs
+url: /hu/aspose.slides.charts/datalabel/is_visible/
+weight: 190
+---
+## is_visible tulajdonság
+False means that data label is not visible (and so all Show*-flags (ShowValue, ...) are false).
+Csak olvasható **bool**.
+
+### Megjegyzések
+
+If data label is visible you can make it hidden with Hide() method.
+But if data label is not visible (IsVisible is false) you can make data label visible 
+with setting Show*-flags (ShowValue, ...) to true state.
+
+### Definíció:
+```python
+@property
+def is_visible(self):
+    ...
+```
+
+### Lásd még
+* osztály [`DataLabel`](/slides/python-net/hu/aspose.slides.charts/datalabel)
+* modul [`aspose.slides.charts`](/slides/python-net/hu/aspose.slides.charts)
+* könyvtár [`Aspose.Slides`](/slides/python-net)

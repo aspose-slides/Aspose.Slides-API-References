@@ -1,13 +1,14 @@
 ---
 title: end_paragraph_portion_format property
-second_title: Aspose.Slides Python için .NET API Referansı
+second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/paragraph/end_paragraph_portion_format/
 weight: 80
 ---
 ## end_paragraph_portion_format özelliği
-Başka bir bölüm sonuncusundan sonra eklenirse kullanılacak bölüm özelliklerini belirtir.
+Başka bir bölüm sonuncusundan sonra eklenirse 
+            kullanılacak bölüm özelliklerini belirtir.
 
 ### Tanım:
 ```python
@@ -20,7 +21,8 @@ def end_paragraph_portion_format(self, value):
     ...
 ```
 
-### Diğer
+
+### Ayrıca Bakınız
 * sınıf [`Paragraph`](/slides/python-net/tr/aspose.slides/paragraph)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

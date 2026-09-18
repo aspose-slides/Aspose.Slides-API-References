@@ -1,13 +1,13 @@
 ---
 title: join_portions_with_same_formatting method
-second_title: Aspose.Slides a Pythonhoz a .NET API hivatkozás
+second_title: Aspose.Slides a Pythonhoz .NET API-referencia
 description: 
 type: docs
 url: /hu/aspose.slides/iparagraph/join_portions_with_same_formatting/
 weight: 40
 ---
-## join_portions_with_same_formatting {#}
-Összefűzi az azonos formázású szakaszokat.
+## join_portions_with_same_formatting(self) {#}
+Összevonja az azonos formázású szakaszokat.
 
 
 ```python

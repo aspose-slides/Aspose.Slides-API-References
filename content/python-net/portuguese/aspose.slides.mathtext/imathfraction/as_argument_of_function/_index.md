@@ -1,0 +1,94 @@
+---
+title: as_argument_of_function method
+second_title: Aspose.Slides para Python via .NET Referência da API
+description: 
+type: docs
+url: /pt/aspose.slides.mathtext/imathfraction/as_argument_of_function/
+weight: 20
+---
+## as_argument_of_function(self, function_name) {#imathelement}
+
+
+
+```python
+def as_argument_of_function(self, function_name):
+    ...
+```
+
+
+| Parâmetro | Tipo | Descrição |
+| :- | :- | :- |
+| function_name | [`IMathElement`](/slides/python-net/pt/aspose.slides.mathtext/imathelement) |  |
+
+
+## as_argument_of_function(self, function_name) {#str}
+
+
+
+```python
+def as_argument_of_function(self, function_name):
+    ...
+```
+
+
+| Parâmetro | Tipo | Descrição |
+| :- | :- | :- |
+| function_name | **str** |  |
+
+
+## as_argument_of_function(self, function_type) {#mathfunctionsofoneargument}
+
+
+
+```python
+def as_argument_of_function(self, function_type):
+    ...
+```
+
+
+| Parâmetro | Tipo | Descrição |
+| :- | :- | :- |
+| function_type | [`MathFunctionsOfOneArgument`](/slides/python-net/pt/aspose.slides.mathtext/mathfunctionsofoneargument) |  |
+
+
+## as_argument_of_function(self, function_type, additional_argument) {#mathfunctionsoftwoarguments-imathelement}
+
+
+
+```python
+def as_argument_of_function(self, function_type, additional_argument):
+    ...
+```
+
+
+| Parâmetro | Tipo | Descrição |
+| :- | :- | :- |
+| function_type | [`MathFunctionsOfTwoArguments`](/slides/python-net/pt/aspose.slides.mathtext/mathfunctionsoftwoarguments) |  |
+| additional_argument | [`IMathElement`](/slides/python-net/pt/aspose.slides.mathtext/imathelement) |  |
+
+
+## as_argument_of_function(self, function_type, additional_argument) {#mathfunctionsoftwoarguments-str}
+
+
+
+```python
+def as_argument_of_function(self, function_type, additional_argument):
+    ...
+```
+
+
+| Parâmetro | Tipo | Descrição |
+| :- | :- | :- |
+| function_type | [`MathFunctionsOfTwoArguments`](/slides/python-net/pt/aspose.slides.mathtext/mathfunctionsoftwoarguments) |  |
+| additional_argument | **str** |  |
+
+
+
+### Veja Também
+* classe [`IMathElement`](/slides/python-net/pt/aspose.slides.mathtext/imathelement)
+* classe [`IMathFraction`](/slides/python-net/pt/aspose.slides.mathtext/imathfraction)
+* classe [`IMathFunction`](/slides/python-net/pt/aspose.slides.mathtext/imathfunction)
+* enumeração [`MathFunctionsOfOneArgument`](/slides/python-net/pt/aspose.slides.mathtext/mathfunctionsofoneargument)
+* enumeração [`MathFunctionsOfTwoArguments`](/slides/python-net/pt/aspose.slides.mathtext/mathfunctionsoftwoarguments)
+* módulo [`aspose.slides.mathtext`](/slides/python-net/pt/aspose.slides.mathtext)
+* biblioteca [`Aspose.Slides`](/slides/python-net)

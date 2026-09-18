@@ -1,0 +1,27 @@
+---
+title: show_bottom_pane property
+second_title: Aspose.Slides for Python via .NET API Referansı
+description: 
+type: docs
+url: /tr/aspose.slides.export/swfoptions/show_bottom_pane/
+weight: 110
+---
+## show_bottom_pane özelliği
+Alt bölmeyi göster/gizle. flashvars içinde geçersiz kılınabilir. Varsayılan true.
+
+### Tanım:
+```python
+@property
+def show_bottom_pane(self):
+    ...
+
+@show_bottom_pane.setter
+def show_bottom_pane(self, value):
+    ...
+```
+
+
+### İlgili
+* sınıf [`SwfOptions`](/slides/python-net/tr/aspose.slides.export/swfoptions)
+* modül [`aspose.slides.export`](/slides/python-net/tr/aspose.slides.export)
+* kütüphane [`Aspose.Slides`](/slides/python-net)

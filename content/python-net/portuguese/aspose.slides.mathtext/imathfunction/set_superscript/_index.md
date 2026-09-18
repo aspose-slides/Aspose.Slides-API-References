@@ -1,0 +1,45 @@
+---
+title: set_superscript method
+second_title: Referência da API Aspose.Slides para Python via .NET
+description: 
+type: docs
+url: /pt/aspose.slides.mathtext/imathfunction/set_superscript/
+weight: 170
+---
+## set_superscript(self, superscript) {#imathelement}
+
+
+
+```python
+def set_superscript(self, superscript):
+    ...
+```
+
+
+| Parâmetro | Tipo | Descrição |
+| :- | :- | :- |
+| superscript | [`IMathElement`](/slides/python-net/pt/aspose.slides.mathtext/imathelement) |  |
+
+
+## set_superscript(self, superscript) {#str}
+
+
+
+```python
+def set_superscript(self, superscript):
+    ...
+```
+
+
+| Parâmetro | Tipo | Descrição |
+| :- | :- | :- |
+| superscript | **str** |  |
+
+
+
+### Veja também
+* classe [`IMathElement`](/slides/python-net/pt/aspose.slides.mathtext/imathelement)
+* classe [`IMathFunction`](/slides/python-net/pt/aspose.slides.mathtext/imathfunction)
+* classe [`IMathSuperscriptElement`](/slides/python-net/pt/aspose.slides.mathtext/imathsuperscriptelement)
+* módulo [`aspose.slides.mathtext`](/slides/python-net/pt/aspose.slides.mathtext)
+* biblioteca [`Aspose.Slides`](/slides/python-net)

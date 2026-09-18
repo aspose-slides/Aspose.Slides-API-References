@@ -1,12 +1,12 @@
 ---
 title: text property
-second_title: Aspose.Slides dla Python przez .NET referencja API
+second_title: Aspose.Slides dla Pythona via .NET referencja API
 description: 
 type: docs
 url: /pl/aspose.slides/iparagraph/text/
 weight: 120
 ---
-## text właściwość
+## właściwość tekstu
 Pobiera lub ustawia zwykły tekst akapitu.
             Odczyt/zapis **str**.
 

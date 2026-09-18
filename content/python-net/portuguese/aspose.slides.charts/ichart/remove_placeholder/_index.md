@@ -1,0 +1,24 @@
+---
+title: remove_placeholder method
+second_title: Aspose.Slides para Python via .NET Referência da API
+description: 
+type: docs
+url: /pt/aspose.slides.charts/ichart/remove_placeholder/
+weight: 50
+---
+## remove_placeholder(self) {#}
+
+
+
+```python
+def remove_placeholder(self):
+    ...
+```
+
+
+
+
+### Veja Também
+* classe [`IChart`](/slides/python-net/pt/aspose.slides.charts/ichart)
+* módulo [`aspose.slides.charts`](/slides/python-net/pt/aspose.slides.charts)
+* biblioteca [`Aspose.Slides`](/slides/python-net)

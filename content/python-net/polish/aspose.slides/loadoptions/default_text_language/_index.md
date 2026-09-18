@@ -1,0 +1,28 @@
+---
+title: default_text_language property
+second_title: Aspose.Slides dla Pythona poprzez .NET Referencję API
+description: 
+type: docs
+url: /pl/aspose.slides/loadoptions/default_text_language/
+weight: 60
+---
+## default_text_language właściwość
+Zwraca lub ustawia domyślny język tekstu prezentacji.
+             Odczyt/zapis **str**.
+
+### Definicja:
+```python
+@property
+def default_text_language(self):
+    ...
+
+@default_text_language.setter
+def default_text_language(self, value):
+    ...
+```
+
+
+### Zobacz także
+* klasa [`LoadOptions`](/slides/python-net/pl/aspose.slides/loadoptions)
+* moduł [`aspose.slides`](/slides/python-net/pl/aspose.slides)
+* biblioteka [`Aspose.Slides`](/slides/python-net)

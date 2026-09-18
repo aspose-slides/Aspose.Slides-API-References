@@ -7,8 +7,8 @@ url: /tr/aspose.slides/paragraph/portions/
 weight: 100
 ---
 ## portions özelliği
-Metin parçalarının koleksiyonunu döndürür.
-            Yalnızca okunabilir [`IPortionCollection`](/slides/python-net/tr/aspose.slides/iportioncollection).
+Bir metin portions koleksiyonunu döndürür.
+            Yalnızca okunur [`IPortionCollection`](/slides/python-net/tr/aspose.slides/iportioncollection).
 
 ### Tanım:
 ```python

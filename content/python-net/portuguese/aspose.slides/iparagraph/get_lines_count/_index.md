@@ -6,10 +6,10 @@ type: docs
 url: /pt/aspose.slides/iparagraph/get_lines_count/
 weight: 20
 ---
-## get_lines_count {#}
+## get_lines_count(self) {#}
 Obtém o número de linhas em um parágrafo.
 
-### Retorno
+### Retorna
 
 Contagem de linhas em um parágrafo
 
@@ -23,7 +23,7 @@ def get_lines_count(self):
 
 
 
-### Veja Também
+### Veja também
 * classe [`IParagraph`](/slides/python-net/pt/aspose.slides/iparagraph)
 * módulo [`aspose.slides`](/slides/python-net/pt/aspose.slides)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

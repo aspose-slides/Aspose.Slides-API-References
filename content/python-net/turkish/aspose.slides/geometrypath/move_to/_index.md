@@ -1,0 +1,44 @@
+---
+title: move_to method
+second_title: Aspose.Slides for Python via .NET API Referansı
+description: 
+type: docs
+url: /tr/aspose.slides/geometrypath/move_to/
+weight: 60
+---
+## move_to(self, point) {#asposepydrawingpointf}
+Bir sonraki nokta konumunu ayarlar.
+
+
+```python
+def move_to(self, point):
+    ...
+```
+
+
+| Parametre | Tür | Açıklama |
+| :- | :- | :- |
+| point | **aspose.slides.PointF** | Nokta konumu |
+
+
+## move_to(self, x, y) {#float-float}
+Bir sonraki nokta konumunu ayarlar.
+
+
+```python
+def move_to(self, x, y):
+    ...
+```
+
+
+| Parametre | Tür | Açıklama |
+| :- | :- | :- |
+| x | **float** | Noktanın X koordinatı |
+| y | **float** | Noktanın Y koordinatı |
+
+
+
+### Ayrıca Bakınız
+* sınıf [`GeometryPath`](/slides/python-net/tr/aspose.slides/geometrypath)
+* modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
+* kütüphane [`Aspose.Slides`](/slides/python-net)

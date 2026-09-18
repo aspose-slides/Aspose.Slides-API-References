@@ -1,0 +1,28 @@
+---
+title: grow property
+second_title: Aspose.Slides para Python via .NET Referência da API
+description: 
+type: docs
+url: /pt/aspose.slides.effects/iblur/grow/
+weight: 30
+---
+## grow propriedade
+Determina se os limites do objeto devem ser ampliados como resultado do desfoque.
+True indica que os limites são ampliados, enquanto false indica que não são.
+Leitura/gravação **bool**.
+
+### Definição:
+```python
+@property
+def grow(self):
+    ...
+
+@grow.setter
+def grow(self, value):
+    ...
+```
+
+### Ver também
+* classe [`IBlur`](/slides/python-net/pt/aspose.slides.effects/iblur)
+* módulo [`aspose.slides.effects`](/slides/python-net/pt/aspose.slides.effects)
+* biblioteca [`Aspose.Slides`](/slides/python-net)

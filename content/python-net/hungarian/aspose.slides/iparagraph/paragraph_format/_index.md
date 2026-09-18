@@ -1,6 +1,6 @@
 ---
 title: paragraph_format property
-second_title: Aspose.Slides Python számára a .NET API hivatkozása
+second_title: Aspose.Slides a Pythonhoz a .NET API referencia
 description: 
 type: docs
 url: /hu/aspose.slides/iparagraph/paragraph_format/
@@ -8,7 +8,7 @@ weight: 80
 ---
 ## paragraph_format tulajdonság
 Visszaadja a formázási objektumot ehhez a bekezdéshez.
-            Csak olvasható [`IParagraphFormat`](/slides/python-net/hu/aspose.slides/iparagraphformat).
+Csak olvasható [`IParagraphFormat`](/slides/python-net/hu/aspose.slides/iparagraphformat).
 
 ### Definíció:
 ```python
@@ -16,7 +16,6 @@ Visszaadja a formázási objektumot ehhez a bekezdéshez.
 def paragraph_format(self):
     ...
 ```
-
 
 ### Lásd még
 * osztály [`IParagraph`](/slides/python-net/hu/aspose.slides/iparagraph)
