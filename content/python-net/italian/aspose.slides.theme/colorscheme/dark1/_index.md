@@ -1,0 +1,25 @@
+---
+title: dark1 property
+second_title: Riferimento API Aspose.Slides per Python via .NET
+description: 
+type: docs
+url: /it/aspose.slides.theme/colorscheme/dark1/
+weight: 90
+---
+## dark1 proprietà
+Primo colore scuro nello schema.
+            Sola lettura [`IColorFormat`](/slides/python-net/it/aspose.slides/icolorformat).
+
+### Definizione:
+```python
+@property
+def dark1(self):
+    ...
+```
+
+
+### Vedi anche
+* classe [`ColorScheme`](/slides/python-net/it/aspose.slides.theme/colorscheme)
+* classe [`IColorFormat`](/slides/python-net/it/aspose.slides/icolorformat)
+* modulo [`aspose.slides.theme`](/slides/python-net/it/aspose.slides.theme)
+* libreria [`Aspose.Slides`](/slides/python-net)

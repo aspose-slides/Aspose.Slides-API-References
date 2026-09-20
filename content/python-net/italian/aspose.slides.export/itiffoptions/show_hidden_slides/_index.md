@@ -1,0 +1,28 @@
+---
+title: show_hidden_slides property
+second_title: Riferimento API Aspose.Slides per Python via .NET
+description: 
+type: docs
+url: /it/aspose.slides.export/itiffoptions/show_hidden_slides/
+weight: 120
+---
+## show_hidden_slides proprietà
+Specifica se il documento generato deve includere o meno le diapositive nascoste.
+            Il valore predefinito è `false`.
+
+### Definizione:
+```python
+@property
+def show_hidden_slides(self):
+    ...
+
+@show_hidden_slides.setter
+def show_hidden_slides(self, value):
+    ...
+```
+
+
+### Vedi anche
+* classe [`ITiffOptions`](/slides/python-net/it/aspose.slides.export/itiffoptions)
+* modulo [`aspose.slides.export`](/slides/python-net/it/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

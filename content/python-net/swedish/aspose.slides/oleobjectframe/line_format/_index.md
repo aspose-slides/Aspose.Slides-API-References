@@ -1,0 +1,25 @@
+---
+title: line_format property
+second_title: Aspose.Slides för Python via .NET API-referens
+description: 
+type: docs
+url: /sv/aspose.slides/oleobjectframe/line_format/
+weight: 350
+---
+## line_format egenskap
+Returnerar LineFormat-objektet som innehåller linjeformaterings-egenskaper för en form.
+            Obs: kan returnera None för vissa typer av former som inte har linjeegenskaper.
+            Skrivskyddad [`ILineFormat`](/slides/python-net/sv/aspose.slides/ilineformat).
+
+### Definition:
+```python
+@property
+def line_format(self):
+    ...
+```
+
+### Se även
+* klass [`ILineFormat`](/slides/python-net/sv/aspose.slides/ilineformat)
+* klass [`OleObjectFrame`](/slides/python-net/sv/aspose.slides/oleobjectframe)
+* modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
+* bibliotek [`Aspose.Slides`](/slides/python-net)

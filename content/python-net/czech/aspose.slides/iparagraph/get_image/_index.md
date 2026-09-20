@@ -1,19 +1,19 @@
 ---
 title: get_image method
-second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
-description: 
+second_title: Aspose.Slides pro Python prostřednictvím .NET API referenční příručky
+description:
 type: docs
 url: /cs/aspose.slides/iparagraph/get_image/
 weight: 10
 ---
-## get_image {#}
+## get_image(self) {#}
 Vrací obrázek odstavce.
 
 ### Návratová hodnota
 
 Obrázek obsahující vykreslený odstavec, nebo **None**
-             pokud odstavec nelze najít v nadřazené kolekci, nemá platné
-             oblasti vykreslování nebo dojde k chybě při vykreslování obrázku.
+             pokud odstavce nelze najít v jeho nadřazené kolekci, nemá platné
+             ohraničení vykreslování, nebo dojde k chybě při vykreslování obrázku.
 
 
 
@@ -24,14 +24,14 @@ def get_image(self):
 
 
 
-## get_image {#float-float}
+## get_image(self, scale_x, scale_y) {#float-float}
 Vrací obrázek odstavce se zadaným měřítkem.
 
 ### Návratová hodnota
 
 Obrázek obsahující vykreslený odstavec, nebo **None**
-             pokud odstavec nelze najít v nadřazené kolekci, nemá platné
-             oblasti vykreslování nebo dojde k chybě při vykreslování obrázku.
+             pokud odstavce nelze najít v jeho nadřazené kolekci, nemá platné
+             ohraničení vykreslování, nebo dojde k chybě při vykreslování obrázku.
 
 
 

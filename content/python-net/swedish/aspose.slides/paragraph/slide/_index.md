@@ -6,7 +6,7 @@ type: docs
 url: /sv/aspose.slides/paragraph/slide/
 weight: 120
 ---
-## slide egenskap
+## slide-egenskap
 ### Definition:
 ```python
 @property
@@ -15,7 +15,7 @@ def slide(self):
 ```
 
 
-### Se också
+### Se även
 * klass [`Paragraph`](/slides/python-net/sv/aspose.slides/paragraph)
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

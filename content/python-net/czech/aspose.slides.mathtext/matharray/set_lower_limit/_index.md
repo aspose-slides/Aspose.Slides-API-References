@@ -1,0 +1,55 @@
+---
+title: set_lower_limit method
+second_title: Aspose.Slides pro Python pomocí .NET - referenční příručka API
+description: 
+type: docs
+url: /cs/aspose.slides.mathtext/matharray/set_lower_limit/
+weight: 140
+---
+## set_lower_limit(self, limit) {#imathelement}
+Přebírá dolní limit
+
+### Návratová hodnota
+
+New instance of type [`IMathLimit`](/slides/python-net/cs/aspose.slides.mathtext/imathlimit)
+
+
+
+```python
+def set_lower_limit(self, limit):
+    ...
+```
+
+
+| Parametr | Typ | Popis |
+| :- | :- | :- |
+| limit | [`IMathElement`](/slides/python-net/cs/aspose.slides.mathtext/imathelement) | limit |
+
+
+## set_lower_limit(self, limit) {#str}
+Přebírá dolní limit
+
+### Návratová hodnota
+
+New instance of type [`IMathLimit`](/slides/python-net/cs/aspose.slides.mathtext/imathlimit)
+
+
+
+```python
+def set_lower_limit(self, limit):
+    ...
+```
+
+
+| Parametr | Typ | Popis |
+| :- | :- | :- |
+| limit | **str** | limit |
+
+
+
+### Viz také
+* třída [`IMathElement`](/slides/python-net/cs/aspose.slides.mathtext/imathelement)
+* třída [`IMathLimit`](/slides/python-net/cs/aspose.slides.mathtext/imathlimit)
+* třída [`MathArray`](/slides/python-net/cs/aspose.slides.mathtext/matharray)
+* modul [`aspose.slides.mathtext`](/slides/python-net/cs/aspose.slides.mathtext)
+* knihovna [`Aspose.Slides`](/slides/python-net)

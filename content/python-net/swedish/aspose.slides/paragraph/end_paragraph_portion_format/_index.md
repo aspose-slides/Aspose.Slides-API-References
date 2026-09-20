@@ -7,7 +7,7 @@ url: /sv/aspose.slides/paragraph/end_paragraph_portion_format/
 weight: 80
 ---
 ## end_paragraph_portion_format egenskap
-Anger de egenskaper för delen som ska användas om en annan del infogas efter 
+Anger de portionsegenskaper som ska användas om en annan portion infogas efter 
             den sista.
 
 ### Definition:

@@ -6,9 +6,9 @@ type: docs
 url: /sv/aspose.slides/iparagraph/text/
 weight: 120
 ---
-## textegenskap
-Hämtar eller anger den enkla texten i ett stycke.
-            Läsa/skriva **str**.
+## text egenskap
+Hämtar eller anger den rena texten i ett stycke.
+            Läs/skriv **str**.
 
 ### Definition:
 ```python

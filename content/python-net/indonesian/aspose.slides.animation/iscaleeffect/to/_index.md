@@ -1,0 +1,28 @@
+---
+title: to property
+second_title: Referensi API Aspose.Slides untuk Python via .NET
+description: 
+type: docs
+url: /id/aspose.slides.animation/iscaleeffect/to/
+weight: 80
+---
+## ke properti
+Menentukan lokasi target untuk efek skala animasi (dalam persen).
+            Baca/tulis **aspose.slides.PointF**.
+
+### Definisi:
+```python
+@property
+def to(self):
+    ...
+
+@to.setter
+def to(self, value):
+    ...
+```
+
+
+### Lihat Juga
+* kelas [`IScaleEffect`](/slides/python-net/id/aspose.slides.animation/iscaleeffect)
+* modul [`aspose.slides.animation`](/slides/python-net/id/aspose.slides.animation)
+* pustaka [`Aspose.Slides`](/slides/python-net)

@@ -6,14 +6,13 @@ type: docs
 url: /sv/aspose.slides/iparagraph/get_image/
 weight: 10
 ---
-## get_image {#}
-Returnerar en bild av paragrafen.
+## get_image(self) {#}
+Returnerar en bild av stycket.
 
 ### Returnerar
 
-En bild som innehåller den renderade paragrafen, eller **None**
-             om paragrafen inte kan hittas i sin föräldrakollektion, saknar giltiga
-             renderingsgränser, eller ett fel uppstår vid renderingen av bilden.
+En bild som innehåller det renderade stycket, eller **None**
+             om stycket inte kan hittas i sin föräldrainsamling, saknar giltiga renderingsgränser, eller ett fel inträffar vid rendering av bilden.
 
 
 
@@ -24,14 +23,13 @@ def get_image(self):
 
 
 
-## get_image {#float-float}
-Returnerar en bild av paragrafen med den angivna skalan.
+## get_image(self, scale_x, scale_y) {#float-float}
+Returnerar en bild av stycket med den angivna skalan.
 
 ### Returnerar
 
-En bild som innehåller den renderade paragrafen, eller **None**
-             om paragrafen inte kan hittas i sin föräldrakollektion, saknar giltiga
-             renderingsgränser, eller ett fel uppstår vid renderingen av bilden.
+En bild som innehåller det renderade stycket, eller **None**
+             om stycket inte kan hittas i sin föräldrainsamling, saknar giltiga renderingsgränser, eller ett fel inträffar vid rendering av bilden.
 
 
 
@@ -43,12 +41,12 @@ def get_image(self, scale_x, scale_y):
 
 | Parameter | Typ | Beskrivning |
 | :- | :- | :- |
-| scale_x | **float** | Den horisontella skalningsfaktorn som tillämpas på paragrafens bild. |
-| scale_y | **float** | Den vertikala skalningsfaktorn som tillämpas på paragrafens bild. |
+| scale_x | **float** | Den horisontella skalningsfaktorn som tillämpas på styckebilden. |
+| scale_y | **float** | Den vertikala skalningsfaktorn som tillämpas på styckebilden. |
 
 
 
-### Se också
+### Se även
 * klass [`IImage`](/slides/python-net/sv/aspose.slides/iimage)
 * klass [`IParagraph`](/slides/python-net/sv/aspose.slides/iparagraph)
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)

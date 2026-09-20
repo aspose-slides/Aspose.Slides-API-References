@@ -6,7 +6,7 @@ type: docs
 url: /cs/aspose.slides/paragraph/presentation/
 weight: 110
 ---
-## presentation vlastnost
+## Prezentační vlastnost
 ### Definice:
 ```python
 @property

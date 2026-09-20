@@ -7,7 +7,7 @@ url: /sv/aspose.slides/paragraph/text/
 weight: 130
 ---
 ## textegenskap
-Hämtar eller anger den rena texten i ett stycke.
+Hämtar eller anger den vanliga texten i ett stycke.
             Läs/skriv **str**.
 
 ### Definition:
@@ -22,7 +22,7 @@ def text(self, value):
 ```
 
 
-### Se även
+### Se också
 * klass [`Paragraph`](/slides/python-net/sv/aspose.slides/paragraph)
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

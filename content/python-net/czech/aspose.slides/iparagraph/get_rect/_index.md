@@ -6,12 +6,13 @@ type: docs
 url: /cs/aspose.slides/iparagraph/get_rect/
 weight: 30
 ---
-## get_rect {#}
-Získá souřadnice obdélníku ohraničujícího odstavec. Obdélník zahrnuje všechny řádky textu v odstavci, včetně prázdných.
+## get_rect(self) {#}
+Získá souřadnice obdélníku, který ohraničuje odstavec. Obdélník zahrnuje všechny řádky
+            textu v odstavci, včetně prázdných.
 
 ### Návratová hodnota
 
-Obdélník, který ohraničuje odstavec **aspose.slides.RectangleF**
+Obdélník ohraničující odstavec **aspose.slides.RectangleF**
 
 
 
@@ -20,10 +21,7 @@ def get_rect(self):
     ...
 ```
 
-
-
-
 ### Viz také
 * třída [`IParagraph`](/slides/python-net/cs/aspose.slides/iparagraph)
 * modul [`aspose.slides`](/slides/python-net/cs/aspose.slides)
-* knihovna [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

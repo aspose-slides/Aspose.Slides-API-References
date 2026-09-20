@@ -1,0 +1,21 @@
+---
+title: underline_line_format property
+second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
+description: 
+type: docs
+url: /cs/aspose.slides.charts/ichartportionformat/underline_line_format/
+weight: 280
+---
+## underline_line_format vlastnost
+### Definice:
+```python
+@property
+def underline_line_format(self):
+    ...
+```
+
+
+### Viz také
+* třída [`IChartPortionFormat`](/slides/python-net/cs/aspose.slides.charts/ichartportionformat)
+* modul [`aspose.slides.charts`](/slides/python-net/cs/aspose.slides.charts)
+* knihovna [`Aspose.Slides`](/slides/python-net)

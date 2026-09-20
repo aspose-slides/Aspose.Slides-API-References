@@ -1,15 +1,15 @@
 ---
 title: get_lines_count method
-second_title: Aspose.Slides pro Python pomocí .NET API
+second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/iparagraph/get_lines_count/
 weight: 20
 ---
-## get_lines_count {#}
+## get_lines_count(self) {#}
 Získá počet řádků v odstavci.
 
-### Vrácená hodnota
+### Návratová hodnota
 
 Počet řádků v odstavci
 

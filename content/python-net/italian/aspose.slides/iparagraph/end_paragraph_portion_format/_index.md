@@ -1,13 +1,13 @@
 ---
 title: end_paragraph_portion_format property
-second_title: Aspose.Slides per Python via .NET Riferimento API
+second_title: Riferimento API Aspose.Slides per Python via .NET
 description: 
 type: docs
 url: /it/aspose.slides/iparagraph/end_paragraph_portion_format/
 weight: 70
 ---
 ## end_paragraph_portion_format proprietà
-Specifica le proprietà della porzione da utilizzare se un'altra porzione viene inserita dopo 
+Specifica le proprietà della porzione che devono essere utilizzate se un'altra porzione viene inserita dopo 
             l'ultima.
 
 ### Definizione:

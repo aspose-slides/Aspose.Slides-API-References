@@ -1,0 +1,27 @@
+---
+title: grow_to_match_operand_height property
+second_title: Riferimento API di Aspose.Slides per Python via .NET
+description: 
+type: docs
+url: /it/aspose.slides.mathtext/mathnaryoperator/grow_to_match_operand_height/
+weight: 270
+---
+## grow_to_match_operand_height proprietà
+Operator Character cresce verticalmente per corrispondere all'altezza del suo operando
+
+### Definizione:
+```python
+@property
+def grow_to_match_operand_height(self):
+    ...
+
+@grow_to_match_operand_height.setter
+def grow_to_match_operand_height(self, value):
+    ...
+```
+
+
+### Vedi anche
+* classe [`MathNaryOperator`](/slides/python-net/it/aspose.slides.mathtext/mathnaryoperator)
+* modulo [`aspose.slides.mathtext`](/slides/python-net/it/aspose.slides.mathtext)
+* libreria [`Aspose.Slides`](/slides/python-net)

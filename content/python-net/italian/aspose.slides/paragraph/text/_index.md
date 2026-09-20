@@ -1,12 +1,12 @@
 ---
 title: text property
-second_title: Aspose.Slides per Python via .NET API Reference
+second_title: Aspose.Slides for Python via .NET Riferimento API
 description: 
 type: docs
 url: /it/aspose.slides/paragraph/text/
 weight: 130
 ---
-## proprietà del testo
+## proprietà di testo
 Ottiene o imposta il testo semplice di un paragrafo.
             Lettura/scrittura **str**.
 

@@ -1,6 +1,6 @@
 ---
 title: presentation property
-second_title: Aspose.Slides per Python via .NET Riferimento API
+second_title: Aspose.Slides per Python tramite .NET Riferimento API
 description: 
 type: docs
 url: /it/aspose.slides/iparagraph/presentation/
@@ -13,7 +13,6 @@ weight: 100
 def presentation(self):
     ...
 ```
-
 
 ### Vedi anche
 * classe [`IParagraph`](/slides/python-net/it/aspose.slides/iparagraph)

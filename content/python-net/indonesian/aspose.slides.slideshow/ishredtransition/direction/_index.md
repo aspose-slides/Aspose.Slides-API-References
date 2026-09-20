@@ -1,0 +1,29 @@
+---
+title: direction property
+second_title: Referensi API Aspose.Slides untuk Python via .NET
+description: 
+type: docs
+url: /id/aspose.slides.slideshow/ishredtransition/direction/
+weight: 20
+---
+## direction properti
+Arah transisi.
+            Baca/tulis [`TransitionInOutDirectionType`](/slides/python-net/id/aspose.slides.slideshow/transitioninoutdirectiontype).
+
+### Definisi:
+```python
+@property
+def direction(self):
+    ...
+
+@direction.setter
+def direction(self, value):
+    ...
+```
+
+
+### Lihat Juga
+* kelas [`IShredTransition`](/slides/python-net/id/aspose.slides.slideshow/ishredtransition)
+* enumerasi [`TransitionInOutDirectionType`](/slides/python-net/id/aspose.slides.slideshow/transitioninoutdirectiontype)
+* modul [`aspose.slides.slideshow`](/slides/python-net/id/aspose.slides.slideshow)
+* perpustakaan [`Aspose.Slides`](/slides/python-net)

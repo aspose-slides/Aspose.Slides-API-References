@@ -6,12 +6,12 @@ type: docs
 url: /id/aspose.slides/iparagraph/get_lines_count/
 weight: 20
 ---
-## get_lines_count {#}
-Dapatkan jumlah baris dalam sebuah paragraf.
+## get_lines_count(self) {#}
+Dapatkan jumlah baris dalam paragraf.
 
 ### Mengembalikan
 
-Jumlah baris dalam sebuah paragraf
+Jumlah baris dalam paragraf
 
 
 
@@ -26,4 +26,4 @@ def get_lines_count(self):
 ### Lihat Juga
 * kelas [`IParagraph`](/slides/python-net/id/aspose.slides/iparagraph)
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
-* pustaka [`Aspose.Slides`](/slides/python-net)
+* perpustakaan [`Aspose.Slides`](/slides/python-net)

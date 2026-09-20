@@ -1,0 +1,35 @@
+---
+title: get_slide_comments method
+second_title: Aspose.Slides för Python via .NET API-referens
+description: 
+type: docs
+url: /sv/aspose.slides/slide/get_slide_comments/
+weight: 50
+---
+## get_slide_comments(self, author) {#icommentauthor}
+Returnerar alla bildkommentarer som lagts till av en specifik författare.
+
+### Returnerar
+
+Array of [`Comment`](/slides/python-net/sv/aspose.slides/comment).
+
+
+
+```python
+def get_slide_comments(self, author):
+    ...
+```
+
+
+| Parameter | Typ | Beskrivning |
+| :- | :- | :- |
+| author | [`ICommentAuthor`](/slides/python-net/sv/aspose.slides/icommentauthor) | Författare till kommentarer att hitta eller None för att returnera alla kommentarer. |
+
+
+
+### Se även
+* klass [`Comment`](/slides/python-net/sv/aspose.slides/comment)
+* klass [`ICommentAuthor`](/slides/python-net/sv/aspose.slides/icommentauthor)
+* klass [`Slide`](/slides/python-net/sv/aspose.slides/slide)
+* modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
+* bibliotek [`Aspose.Slides`](/slides/python-net)

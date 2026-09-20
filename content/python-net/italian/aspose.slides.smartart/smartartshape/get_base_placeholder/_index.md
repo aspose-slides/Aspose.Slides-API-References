@@ -1,0 +1,26 @@
+---
+title: get_base_placeholder method
+second_title: Riferimento API Aspose.Slides per Python via .NET
+description: 
+type: docs
+url: /it/aspose.slides.smartart/smartartshape/get_base_placeholder/
+weight: 30
+---
+## get_base_placeholder(self) {#}
+Restituisce una forma segnaposto di base (forma dal layout e/o dalla diapositiva master da cui la forma corrente è ereditata).
+            Viene restituito None se la forma corrente non è ereditata.
+
+
+```python
+def get_base_placeholder(self):
+    ...
+```
+
+
+
+
+### Vedi anche
+* classe [`IShape`](/slides/python-net/it/aspose.slides/ishape)
+* classe [`SmartArtShape`](/slides/python-net/it/aspose.slides.smartart/smartartshape)
+* modulo [`aspose.slides.smartart`](/slides/python-net/it/aspose.slides.smartart)
+* libreria [`Aspose.Slides`](/slides/python-net)

@@ -1,13 +1,14 @@
 ---
 title: end_paragraph_portion_format property
-second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
-description: 
+second_title: Aspose.Slides pro Python přes .NET API referenci
+description:
 type: docs
 url: /cs/aspose.slides/paragraph/end_paragraph_portion_format/
 weight: 80
 ---
 ## end_paragraph_portion_format vlastnost
-Určuje vlastnosti úseku, které mají být použity, pokud je po posledním úseku vložen další úsek.
+Určuje vlastnosti úseku, které mají být použity, pokud je po posledním
+            vložen další úsek.
 
 ### Definice:
 ```python
@@ -19,6 +20,7 @@ def end_paragraph_portion_format(self):
 def end_paragraph_portion_format(self, value):
     ...
 ```
+
 
 ### Viz také
 * třída [`Paragraph`](/slides/python-net/cs/aspose.slides/paragraph)

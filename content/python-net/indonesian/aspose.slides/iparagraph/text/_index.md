@@ -1,13 +1,13 @@
 ---
 title: text property
-second_title: Referensi API Aspose.Slides untuk Python via .NET
+second_title: Aspose.Slides untuk Python via Referensi API .NET
 description: 
 type: docs
 url: /id/aspose.slides/iparagraph/text/
 weight: 120
 ---
 ## properti teks
-Mendapatkan atau mengatur teks polos sebuah paragraf.
+Mendapatkan atau mengatur teks polos dari sebuah paragraf.
             Baca/tulis **str**.
 
 ### Definisi:
