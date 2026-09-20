@@ -17,7 +17,7 @@ The ITiffOptions type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`image_size`](/slides/python-net/aspose.slides.export/itiffoptions/image_size/) | Specifies size of a generated TIFF image.<br/>            Default value is 0x0, what means that generated image sizes will be calculated based on presentation slide size value.<br/>            Read/write **aspose.pydrawing.Size**. |
+| [`image_size`](/slides/python-net/aspose.slides.export/itiffoptions/image_size/) | Specifies size of a generated TIFF image.<br/>            Default value is 0x0, what means that generated image sizes will be calculated based on presentation slide size value.<br/>            Read/write [`Size`](/slides/python-net/aspose.slides/size). |
 | [`dpi_x`](/slides/python-net/aspose.slides.export/itiffoptions/dpi_x/) | Specifies the horizontal resolution in dots per inch.<br/>            Read/write **int**. |
 | [`dpi_y`](/slides/python-net/aspose.slides.export/itiffoptions/dpi_y/) | Specifies the vertical resolution in dots per inch.<br/>            Read/write **int**. |
 | [`show_hidden_slides`](/slides/python-net/aspose.slides.export/itiffoptions/show_hidden_slides/) | Specifies whether the generated document should include hidden slides or not.<br/>            Default is `false`. |

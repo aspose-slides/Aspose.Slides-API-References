@@ -15,7 +15,7 @@ Get coordinates of the beginning of the portion. The X coordinate of point repre
 
 ### Returns
 
-Coordinates of the beginning of the portion **aspose.pydrawing.PointF**
+Coordinates of the beginning of the portion [`PointF`](/slides/python-net/aspose.slides/pointf)
 
 
 
@@ -29,6 +29,7 @@ def get_coordinates(self):
 
 ### See Also
 * class [`IPortion`](/slides/python-net/aspose.slides/iportion)
+* class [`PointF`](/slides/python-net/aspose.slides/pointf)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

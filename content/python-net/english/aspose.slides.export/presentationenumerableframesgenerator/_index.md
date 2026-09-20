@@ -18,7 +18,7 @@ The PresentationEnumerableFramesGenerator type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [`__init__(self, presentation, fps)`](/slides/python-net/aspose.slides.export/presentationenumerableframesgenerator/__init__/#presentation-float) | Creates new instance of the [`PresentationPlayer`](/slides/python-net/aspose.slides.export/presentationplayer). |
-| [`__init__(self, frame_size, fps)`](/slides/python-net/aspose.slides.export/presentationenumerableframesgenerator/__init__/#asposepydrawingsize-float) | Creates new instance of the [`PresentationPlayer`](/slides/python-net/aspose.slides.export/presentationplayer). |
+| [`__init__(self, frame_size, fps)`](/slides/python-net/aspose.slides.export/presentationenumerableframesgenerator/__init__/#asposeslidessize-float) | Creates new instance of the [`PresentationPlayer`](/slides/python-net/aspose.slides.export/presentationplayer). |
 
 ## Properties
 

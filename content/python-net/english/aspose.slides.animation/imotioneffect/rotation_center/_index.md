@@ -10,7 +10,7 @@ weight: 110
 
 ## rotation_center property
 Describes the center of the rotation used to rotate a motion path by X angle.
-            Read/write **aspose.pydrawing.PointF**.
+            Read/write [`PointF`](/slides/python-net/aspose.slides/pointf).
 
 ### Definition:
 ```python
@@ -26,6 +26,7 @@ def rotation_center(self, value):
 
 ### See Also
 * class [`IMotionEffect`](/slides/python-net/aspose.slides.animation/imotioneffect)
+* class [`PointF`](/slides/python-net/aspose.slides/pointf)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
 

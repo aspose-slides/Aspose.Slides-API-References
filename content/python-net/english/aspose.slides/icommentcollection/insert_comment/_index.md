@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## insert_comment(self, index, text, slide, position, creation_time) {#int-str-islide-asposepydrawingpointf-datetime}
+## insert_comment(self, index, text, slide, position, creation_time) {#int-str-islide-asposeslidespointf-datetime}
 Insert new comment to a collection at the specified index.
 
 ### Returns
@@ -28,7 +28,7 @@ def insert_comment(self, index, text, slide, position, creation_time):
 | index | **int** | Index of the element in a collection at which comment should be inserted. |
 | text | **str** | Plain text of a new comment. |
 | slide | [`ISlide`](/slides/python-net/aspose.slides/islide) | Slide in a presentation where to add a new comment. |
-| position | **aspose.pydrawing.PointF** | Position on a slide where to add a new comment. |
+| position | [`PointF`](/slides/python-net/aspose.slides/pointf) | Position on a slide where to add a new comment. |
 | creation_time | **DateTime** | Time of a comment creation. |
 
 
@@ -37,6 +37,7 @@ def insert_comment(self, index, text, slide, position, creation_time):
 * class [`IComment`](/slides/python-net/aspose.slides/icomment)
 * class [`ICommentCollection`](/slides/python-net/aspose.slides/icommentcollection)
 * class [`ISlide`](/slides/python-net/aspose.slides/islide)
+* class [`PointF`](/slides/python-net/aspose.slides/pointf)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

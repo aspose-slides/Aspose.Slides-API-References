@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## insert(self, index, type, pts, pts_type, b_relative_coord) {#int-motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool}
+## insert(self, index, type, pts, pts_type, b_relative_coord) {#int-motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool}
 Insert new command to path
 
 
@@ -22,7 +22,7 @@ def insert(self, index, type, pts, pts_type, b_relative_coord):
 | :- | :- | :- |
 | index | **int** | Index for command insertion **int** |
 | type | [`MotionCommandPathType`](/slides/python-net/aspose.slides.animation/motioncommandpathtype) | Type of command for animation motion effect behavior [`MotionCommandPathType`](/slides/python-net/aspose.slides.animation/motioncommandpathtype) |
-| pts | **List[aspose.pydrawing.PointF]** | Points array **aspose.pydrawing.PointF**[] |
+| pts | **List[aspose.slides.PointF]** | Points array [`PointF`](/slides/python-net/aspose.slides/pointf)[] |
 | pts_type | [`MotionPathPointsType`](/slides/python-net/aspose.slides.animation/motionpathpointstype) | Type of points in animation motion path [`MotionPathPointsType`](/slides/python-net/aspose.slides.animation/motionpathpointstype) |
 | b_relative_coord | **bool** | Indicates whether to use relative coordinates or not **bool** |
 
@@ -32,6 +32,7 @@ def insert(self, index, type, pts, pts_type, b_relative_coord):
 * class [`IMotionPath`](/slides/python-net/aspose.slides.animation/imotionpath)
 * enumeration [`MotionCommandPathType`](/slides/python-net/aspose.slides.animation/motioncommandpathtype)
 * enumeration [`MotionPathPointsType`](/slides/python-net/aspose.slides.animation/motionpathpointstype)
+* class [`PointF`](/slides/python-net/aspose.slides/pointf)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
 

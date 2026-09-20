@@ -8,7 +8,7 @@ weight: 50
 ---
 
 
-## line_to(self, point) {#asposepydrawingpointf}
+## line_to(self, point) {#asposeslidespointf}
 Adds line to the end of the path
 
 
@@ -20,7 +20,7 @@ def line_to(self, point):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | **aspose.pydrawing.PointF** | End point of the line |
+| point | [`PointF`](/slides/python-net/aspose.slides/pointf) | End point of the line |
 
 
 ## line_to(self, x, y) {#float-float}
@@ -39,7 +39,7 @@ def line_to(self, x, y):
 | y | **float** | Y coordinate of the end point of the line |
 
 
-## line_to(self, point, index) {#asposepydrawingpointf-int}
+## line_to(self, point, index) {#asposeslidespointf-int}
 Adds line to the specified place of the path
 
 
@@ -51,7 +51,7 @@ def line_to(self, point, index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | **aspose.pydrawing.PointF** | End point |
+| point | [`PointF`](/slides/python-net/aspose.slides/pointf) | End point |
 | index | **int** | Index of segment in PathData |
 
 ### Exceptions
@@ -87,6 +87,7 @@ def line_to(self, x, y, index):
 
 ### See Also
 * class [`GeometryPath`](/slides/python-net/aspose.slides/geometrypath)
+* class [`PointF`](/slides/python-net/aspose.slides/pointf)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

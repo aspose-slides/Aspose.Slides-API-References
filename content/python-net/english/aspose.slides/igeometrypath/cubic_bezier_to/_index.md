@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## cubic_bezier_to(self, point1, point2, point3) {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf}
+## cubic_bezier_to(self, point1, point2, point3) {#asposeslidespointf-asposeslidespointf-asposeslidespointf}
 Adds cubic Bezier curve at the end the path
 
 
@@ -20,12 +20,12 @@ def cubic_bezier_to(self, point1, point2, point3):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point1 | **aspose.pydrawing.PointF** | First direction point |
-| point2 | **aspose.pydrawing.PointF** | Second direction point |
-| point3 | **aspose.pydrawing.PointF** | End point |
+| point1 | [`PointF`](/slides/python-net/aspose.slides/pointf) | First direction point |
+| point2 | [`PointF`](/slides/python-net/aspose.slides/pointf) | Second direction point |
+| point3 | [`PointF`](/slides/python-net/aspose.slides/pointf) | End point |
 
 
-## cubic_bezier_to(self, point1, point2, point3, index) {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf-int}
+## cubic_bezier_to(self, point1, point2, point3, index) {#asposeslidespointf-asposeslidespointf-asposeslidespointf-int}
 Adds cubic Bezier curve to the specified place of the path
 
 
@@ -37,9 +37,9 @@ def cubic_bezier_to(self, point1, point2, point3, index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point1 | **aspose.pydrawing.PointF** | First direction point |
-| point2 | **aspose.pydrawing.PointF** | Second direction point |
-| point3 | **aspose.pydrawing.PointF** | End point |
+| point1 | [`PointF`](/slides/python-net/aspose.slides/pointf) | First direction point |
+| point2 | [`PointF`](/slides/python-net/aspose.slides/pointf) | Second direction point |
+| point3 | [`PointF`](/slides/python-net/aspose.slides/pointf) | End point |
 | index | **int** | Index of segment in PathData |
 
 ### Exceptions
@@ -99,6 +99,7 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index):
 
 ### See Also
 * class [`IGeometryPath`](/slides/python-net/aspose.slides/igeometrypath)
+* class [`PointF`](/slides/python-net/aspose.slides/pointf)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

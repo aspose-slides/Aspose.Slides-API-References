@@ -19,7 +19,7 @@ The IColorReplaceEffectiveData type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`color`](/slides/python-net/aspose.slides.effects/icolorreplaceeffectivedata/color/) | Returns color format which will replace color of every pixel.<br/>            Read-only **aspose.pydrawing.Color**. |
+| [`color`](/slides/python-net/aspose.slides.effects/icolorreplaceeffectivedata/color/) | Returns color format which will replace color of every pixel.<br/>            Read-only [`Color`](/slides/python-net/aspose.slides/color). |
 
 
 ### See Also

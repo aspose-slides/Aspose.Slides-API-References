@@ -19,7 +19,7 @@ The IPresetShadowEffectiveData type exposes the following members:
 | :- | :- |
 | [`direction`](/slides/python-net/aspose.slides.effects/ipresetshadoweffectivedata/direction/) | Direction of shadow.<br/>            Read-only **float**. |
 | [`distance`](/slides/python-net/aspose.slides.effects/ipresetshadoweffectivedata/distance/) | Distance of shadow.<br/>            Read-only **float**. |
-| [`shadow_color`](/slides/python-net/aspose.slides.effects/ipresetshadoweffectivedata/shadow_color/) | Color of shadow.<br/>            Read-only **aspose.pydrawing.Color**. |
+| [`shadow_color`](/slides/python-net/aspose.slides.effects/ipresetshadoweffectivedata/shadow_color/) | Color of shadow.<br/>            Read-only [`Color`](/slides/python-net/aspose.slides/color). |
 | [`preset`](/slides/python-net/aspose.slides.effects/ipresetshadoweffectivedata/preset/) | Preset.<br/>            Read-only [`PresetShadowType`](/slides/python-net/aspose.slides/presetshadowtype). |
 
 

@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## quadratic_bezier_to(self, point1, point2) {#asposepydrawingpointf-asposepydrawingpointf}
+## quadratic_bezier_to(self, point1, point2) {#asposeslidespointf-asposeslidespointf}
 Adds quadratic Bezier curve at the end the path
 
 
@@ -20,11 +20,11 @@ def quadratic_bezier_to(self, point1, point2):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point1 | **aspose.pydrawing.PointF** | Direction point |
-| point2 | **aspose.pydrawing.PointF** | End point |
+| point1 | [`PointF`](/slides/python-net/aspose.slides/pointf) | Direction point |
+| point2 | [`PointF`](/slides/python-net/aspose.slides/pointf) | End point |
 
 
-## quadratic_bezier_to(self, point1, point2, index) {#asposepydrawingpointf-asposepydrawingpointf-int}
+## quadratic_bezier_to(self, point1, point2, index) {#asposeslidespointf-asposeslidespointf-int}
 Adds quadratic Bezier curve to the specified place of the path
 
 
@@ -36,8 +36,8 @@ def quadratic_bezier_to(self, point1, point2, index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point1 | **aspose.pydrawing.PointF** | Direction point |
-| point2 | **aspose.pydrawing.PointF** | End point |
+| point1 | [`PointF`](/slides/python-net/aspose.slides/pointf) | Direction point |
+| point2 | [`PointF`](/slides/python-net/aspose.slides/pointf) | End point |
 | index | **int** | Index of segment in PathData |
 
 ### Exceptions
@@ -93,6 +93,7 @@ def quadratic_bezier_to(self, x1, y1, x2, y2, index):
 
 ### See Also
 * class [`IGeometryPath`](/slides/python-net/aspose.slides/igeometrypath)
+* class [`PointF`](/slides/python-net/aspose.slides/pointf)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

@@ -18,7 +18,7 @@ The GradientStopEffectiveData type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`position`](/slides/python-net/aspose.slides/gradientstopeffectivedata/position/) | Returns the position (0..1) of a gradient stop.<br/>            Read-only **float**. |
-| [`color`](/slides/python-net/aspose.slides/gradientstopeffectivedata/color/) | Returns the color of a gradient stop.<br/>            Read-only **aspose.pydrawing.Color**. |
+| [`color`](/slides/python-net/aspose.slides/gradientstopeffectivedata/color/) | Returns the color of a gradient stop.<br/>            Read-only [`Color`](/slides/python-net/aspose.slides/color). |
 
 
 ### See Also

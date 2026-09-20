@@ -14,7 +14,7 @@ Returns an automatic color of series based on series index and chart style.
 
 ### Returns
 
-Automatic color of series **aspose.pydrawing.Color**
+Automatic color of series [`Color`](/slides/python-net/aspose.slides/color)
 
 
 
@@ -28,6 +28,7 @@ def get_automatic_series_color(self):
 
 ### See Also
 * class [`IChartSeries`](/slides/python-net/aspose.slides.charts/ichartseries)
+* class [`Color`](/slides/python-net/aspose.slides/color)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
 

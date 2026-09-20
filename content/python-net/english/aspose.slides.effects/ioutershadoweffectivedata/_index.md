@@ -20,7 +20,7 @@ The IOuterShadowEffectiveData type exposes the following members:
 | [`blur_radius`](/slides/python-net/aspose.slides.effects/ioutershadoweffectivedata/blur_radius/) | Blur radius.<br/>            Read-only **float**. |
 | [`direction`](/slides/python-net/aspose.slides.effects/ioutershadoweffectivedata/direction/) | Direction of shadow.<br/>            Read-only **float**. |
 | [`distance`](/slides/python-net/aspose.slides.effects/ioutershadoweffectivedata/distance/) | Distance of shadow.<br/>            Read-only **float**. |
-| [`shadow_color`](/slides/python-net/aspose.slides.effects/ioutershadoweffectivedata/shadow_color/) | Color of shadow.<br/>            Read-only **aspose.pydrawing.Color**. |
+| [`shadow_color`](/slides/python-net/aspose.slides.effects/ioutershadoweffectivedata/shadow_color/) | Color of shadow.<br/>            Read-only [`Color`](/slides/python-net/aspose.slides/color). |
 | [`rectangle_align`](/slides/python-net/aspose.slides.effects/ioutershadoweffectivedata/rectangle_align/) | Rectangle alignment.<br/>            Read-only [`RectangleAlignment`](/slides/python-net/aspose.slides/rectanglealignment). |
 | [`skew_horizontal`](/slides/python-net/aspose.slides.effects/ioutershadoweffectivedata/skew_horizontal/) | Specifies the horizontal skew angle (in degrees).<br/>            Read-only **float**. |
 | [`skew_vertical`](/slides/python-net/aspose.slides.effects/ioutershadoweffectivedata/skew_vertical/) | Specifies the vertical skew angle (in degrees).<br/>            Read-only **float**. |

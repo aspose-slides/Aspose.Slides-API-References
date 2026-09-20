@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## get_tile_i_image(self, background, foreground) {#asposepydrawingcolor-asposepydrawingcolor}
+## get_tile_i_image(self, background, foreground) {#asposeslidescolor-asposeslidescolor}
 Creates a tile image for the pattern fill with a specified colors.
 
 ### Returns
@@ -25,14 +25,15 @@ def get_tile_i_image(self, background, foreground):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| background | **aspose.pydrawing.Color** | The background **aspose.pydrawing.Color** for the pattern. |
-| foreground | **aspose.pydrawing.Color** | The foreground **aspose.pydrawing.Color** for the pattern. |
+| background | [`Color`](/slides/python-net/aspose.slides/color) | The background [`Color`](/slides/python-net/aspose.slides/color) for the pattern. |
+| foreground | [`Color`](/slides/python-net/aspose.slides/color) | The foreground [`Color`](/slides/python-net/aspose.slides/color) for the pattern. |
 
 
 
 ### See Also
 * class [`IImage`](/slides/python-net/aspose.slides/iimage)
 * class [`IPatternFormatEffectiveData`](/slides/python-net/aspose.slides/ipatternformateffectivedata)
+* class [`Color`](/slides/python-net/aspose.slides/color)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

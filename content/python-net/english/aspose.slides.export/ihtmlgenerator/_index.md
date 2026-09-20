@@ -17,7 +17,7 @@ The IHtmlGenerator type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`slide_image_size`](/slides/python-net/aspose.slides.export/ihtmlgenerator/slide_image_size/) | Returns slide image size.<br/>            Read-only **aspose.pydrawing.SizeF**. |
+| [`slide_image_size`](/slides/python-net/aspose.slides.export/ihtmlgenerator/slide_image_size/) | Returns slide image size.<br/>            Read-only [`SizeF`](/slides/python-net/aspose.slides/sizef). |
 | [`slide_image_size_unit`](/slides/python-net/aspose.slides.export/ihtmlgenerator/slide_image_size_unit/) | Returns a unit in which slide image size is specified.<br/>            Read-only [`SvgCoordinateUnit`](/slides/python-net/aspose.slides.export/svgcoordinateunit). |
 | [`slide_image_size_unit_code`](/slides/python-net/aspose.slides.export/ihtmlgenerator/slide_image_size_unit_code/) | Returns a css code of unit in which slide image size is specified.<br/>            Read-only **str**. |
 | [`previous_slide_index`](/slides/python-net/aspose.slides.export/ihtmlgenerator/previous_slide_index/) | Returns index of previously rendered slide or -1 if first slide is rendering.<br/>            Read-only **int**. |

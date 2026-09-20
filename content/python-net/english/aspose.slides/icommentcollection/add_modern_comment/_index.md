@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## add_modern_comment(self, text, slide, shape, position, creation_time) {#str-islide-ishape-asposepydrawingpointf-datetime}
+## add_modern_comment(self, text, slide, shape, position, creation_time) {#str-islide-ishape-asposeslidespointf-datetime}
 Add new modern comment at the end of a collection.
 
 ### Returns
@@ -28,7 +28,7 @@ def add_modern_comment(self, text, slide, shape, position, creation_time):
 | text | **str** | Plain text of a new modern comment. |
 | slide | [`ISlide`](/slides/python-net/aspose.slides/islide) | Slide in a presentation where to add a new modern comment. |
 | shape | [`IShape`](/slides/python-net/aspose.slides/ishape) | Shape on a slide to which a new modern comment is associated. |
-| position | **aspose.pydrawing.PointF** | Position on a slide where to add a new modern comment. |
+| position | [`PointF`](/slides/python-net/aspose.slides/pointf) | Position on a slide where to add a new modern comment. |
 | creation_time | **DateTime** | Time of a modern comment creation. |
 
 
@@ -38,6 +38,7 @@ def add_modern_comment(self, text, slide, shape, position, creation_time):
 * class [`IModernComment`](/slides/python-net/aspose.slides/imoderncomment)
 * class [`IShape`](/slides/python-net/aspose.slides/ishape)
 * class [`ISlide`](/slides/python-net/aspose.slides/islide)
+* class [`PointF`](/slides/python-net/aspose.slides/pointf)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

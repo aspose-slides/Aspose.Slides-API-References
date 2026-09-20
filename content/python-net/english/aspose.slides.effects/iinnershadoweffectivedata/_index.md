@@ -20,7 +20,7 @@ The IInnerShadowEffectiveData type exposes the following members:
 | [`blur_radius`](/slides/python-net/aspose.slides.effects/iinnershadoweffectivedata/blur_radius/) | Blur radius.<br/>            Read-only **float**. |
 | [`direction`](/slides/python-net/aspose.slides.effects/iinnershadoweffectivedata/direction/) | Direction of shadow.<br/>            Read-only **float**. |
 | [`distance`](/slides/python-net/aspose.slides.effects/iinnershadoweffectivedata/distance/) | Distance of shadow.<br/>            Read-only **float**. |
-| [`shadow_color`](/slides/python-net/aspose.slides.effects/iinnershadoweffectivedata/shadow_color/) | Color of shadow.<br/>            Read-only **aspose.pydrawing.Color**. |
+| [`shadow_color`](/slides/python-net/aspose.slides.effects/iinnershadoweffectivedata/shadow_color/) | Color of shadow.<br/>            Read-only [`Color`](/slides/python-net/aspose.slides/color). |
 
 
 ### See Also

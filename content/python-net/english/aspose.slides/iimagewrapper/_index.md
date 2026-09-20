@@ -17,7 +17,7 @@ The IImageWrapper type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`image_source`](/slides/python-net/aspose.slides/iimagewrapper/image_source/) | Gets the image<br/>            Read-only **aspose.pydrawing.Image**. |
+| [`image_source`](/slides/python-net/aspose.slides/iimagewrapper/image_source/) | Gets the image<br/>            Read-only **aspose.slides.IImage**. |
 | [`size`](/slides/python-net/aspose.slides/iimagewrapper/size/) | Gets the width and height, in pixels, of the Image<br/>            Read-only [`IImageWrapper.size`](/slides/python-net/aspose.slides/iimagewrapper/size). |
 
 ## Methods

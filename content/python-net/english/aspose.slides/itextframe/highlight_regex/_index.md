@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## highlight_regex(self, regex, highlight_color) {#str-asposepydrawingcolor}
+## highlight_regex(self, regex, highlight_color) {#str-asposeslidescolor}
 Highlights all matches of the regular expression with the specified color.
 
 
@@ -21,10 +21,10 @@ def highlight_regex(self, regex, highlight_color):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | regex | **str** | The string contains regular expression to get strings to highlight. |
-| highlight_color | **aspose.pydrawing.Color** | The color to highlight the text. |
+| highlight_color | [`Color`](/slides/python-net/aspose.slides/color) | The color to highlight the text. |
 
 
-## highlight_regex(self, regex, highlight_color, options) {#str-asposepydrawingcolor-itexthighlightingoptions}
+## highlight_regex(self, regex, highlight_color, options) {#str-asposeslidescolor-itexthighlightingoptions}
 Highlights all matches of the regular expression with the specified color.
 
 
@@ -37,7 +37,7 @@ def highlight_regex(self, regex, highlight_color, options):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | regex | **str** | Text of regular expression to get text to highlight. |
-| highlight_color | **aspose.pydrawing.Color** | The color to highlight the text. |
+| highlight_color | [`Color`](/slides/python-net/aspose.slides/color) | The color to highlight the text. |
 | options | [`ITextHighlightingOptions`](/slides/python-net/aspose.slides/itexthighlightingoptions) | Highlighting options. |
 
 
@@ -45,6 +45,7 @@ def highlight_regex(self, regex, highlight_color, options):
 ### See Also
 * class [`ITextFrame`](/slides/python-net/aspose.slides/itextframe)
 * class [`ITextHighlightingOptions`](/slides/python-net/aspose.slides/itexthighlightingoptions)
+* class [`Color`](/slides/python-net/aspose.slides/color)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

@@ -10,7 +10,7 @@ weight: 10
 
 ## color property
 Returns the color of a gradient stop.
-            Read-only **aspose.pydrawing.Color**.
+            Read-only [`Color`](/slides/python-net/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -22,6 +22,7 @@ def color(self):
 
 ### See Also
 * class [`GradientStopEffectiveData`](/slides/python-net/aspose.slides/gradientstopeffectivedata)
+* class [`Color`](/slides/python-net/aspose.slides/color)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

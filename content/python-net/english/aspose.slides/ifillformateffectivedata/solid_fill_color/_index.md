@@ -10,7 +10,7 @@ weight: 70
 
 ## solid_fill_color property
 Returns the fill color.
-            Read-only **aspose.pydrawing.Color**.
+            Read-only [`Color`](/slides/python-net/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -22,6 +22,7 @@ def solid_fill_color(self):
 
 ### See Also
 * class [`IFillFormatEffectiveData`](/slides/python-net/aspose.slides/ifillformateffectivedata)
+* class [`Color`](/slides/python-net/aspose.slides/color)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

@@ -19,7 +19,7 @@ def get_image(self):
 
 
 
-## get_image(self, image_size) {#asposepydrawingsize}
+## get_image(self, image_size) {#asposeslidessize}
 Returns a Thumbnail Image object with specified size.
 
 ### Returns
@@ -36,7 +36,7 @@ def get_image(self, image_size):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image_size | **aspose.pydrawing.Size** | Size of the image to create. |
+| image_size | [`Size`](/slides/python-net/aspose.slides/size) | Size of the image to create. |
 
 
 ## get_image(self, options) {#asposeslidesexportitiffoptions}
@@ -112,7 +112,7 @@ def get_image(self, scale_x, scale_y):
 | scale_y | **float** | The value by which to scale this Thumbnail in the y-axis direction. |
 
 
-## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposepydrawingsize}
+## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposeslidessize}
 Returns a Thumbnail Image object with specified size.
 
 ### Returns
@@ -130,7 +130,7 @@ def get_image(self, options, image_size):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) | Rendering options. |
-| image_size | **aspose.pydrawing.Size** | Size of the image to create. |
+| image_size | [`Size`](/slides/python-net/aspose.slides/size) | Size of the image to create. |
 
 ### Exceptions
 
@@ -173,6 +173,7 @@ def get_image(self, options, scale_x, scale_y):
 * class [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions)
 * class [`ITiffOptions`](/slides/python-net/aspose.slides.export/itiffoptions)
 * class [`Slide`](/slides/python-net/aspose.slides/slide)
+* class [`Size`](/slides/python-net/aspose.slides/size)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

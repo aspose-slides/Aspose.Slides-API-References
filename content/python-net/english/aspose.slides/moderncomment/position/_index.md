@@ -10,7 +10,7 @@ weight: 60
 
 ## position property
 Returns or sets the position of a comment on a slide.
-            Read/write **aspose.pydrawing.PointF**.
+            Read/write [`PointF`](/slides/python-net/aspose.slides/pointf).
 
 ### Definition:
 ```python
@@ -26,6 +26,7 @@ def position(self, value):
 
 ### See Also
 * class [`ModernComment`](/slides/python-net/aspose.slides/moderncomment)
+* class [`PointF`](/slides/python-net/aspose.slides/pointf)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

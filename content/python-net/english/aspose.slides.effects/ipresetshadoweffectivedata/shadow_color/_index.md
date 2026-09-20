@@ -10,7 +10,7 @@ weight: 50
 
 ## shadow_color property
 Color of shadow.
-            Read-only **aspose.pydrawing.Color**.
+            Read-only [`Color`](/slides/python-net/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -22,6 +22,7 @@ def shadow_color(self):
 
 ### See Also
 * class [`IPresetShadowEffectiveData`](/slides/python-net/aspose.slides.effects/ipresetshadoweffectivedata)
+* class [`Color`](/slides/python-net/aspose.slides/color)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
 

@@ -31,8 +31,8 @@ Returns a command at the specified index.
 
 | Method | Description |
 | :- | :- |
-| [`add(self, type, pts, pts_type, b_relative_coord)`](/slides/python-net/aspose.slides.animation/imotionpath/add/#motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool) | Add new command to path |
-| [`insert(self, index, type, pts, pts_type, b_relative_coord)`](/slides/python-net/aspose.slides.animation/imotionpath/insert/#int-motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool) | Insert new command to path |
+| [`add(self, type, pts, pts_type, b_relative_coord)`](/slides/python-net/aspose.slides.animation/imotionpath/add/#motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool) | Add new command to path |
+| [`insert(self, index, type, pts, pts_type, b_relative_coord)`](/slides/python-net/aspose.slides.animation/imotionpath/insert/#int-motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool) | Insert new command to path |
 | [`clear(self)`](/slides/python-net/aspose.slides.animation/imotionpath/clear/#) | Removes all commands from the collection. |
 | [`remove(self, item)`](/slides/python-net/aspose.slides.animation/imotionpath/remove/#imotioncmdpath) | Removes specified commans from the collection. |
 | [`remove_at(self, index)`](/slides/python-net/aspose.slides.animation/imotionpath/remove_at/#int) | Removes a command at the specified index. |

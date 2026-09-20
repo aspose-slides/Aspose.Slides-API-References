@@ -24,7 +24,7 @@ def __init__(self, presentation, fps):
 | fps | **float** | Frames per second (FPS) |
 
 
-## __init__(self, frame_size, fps) {#asposepydrawingsize-float}
+## __init__(self, frame_size, fps) {#asposeslidessize-float}
 Creates new instance of the [`PresentationPlayer`](/slides/python-net/aspose.slides.export/presentationplayer).
 
 
@@ -36,7 +36,7 @@ def __init__(self, frame_size, fps):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| frame_size | **aspose.pydrawing.Size** | The frame size |
+| frame_size | [`Size`](/slides/python-net/aspose.slides/size) | The frame size |
 | fps | **float** | Frames per second (FPS) |
 
 
@@ -45,6 +45,7 @@ def __init__(self, frame_size, fps):
 * class [`Presentation`](/slides/python-net/aspose.slides/presentation)
 * class [`PresentationEnumerableFramesGenerator`](/slides/python-net/aspose.slides.export/presentationenumerableframesgenerator)
 * class [`PresentationPlayer`](/slides/python-net/aspose.slides.export/presentationplayer)
+* class [`Size`](/slides/python-net/aspose.slides/size)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
 

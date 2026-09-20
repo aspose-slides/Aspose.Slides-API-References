@@ -10,7 +10,7 @@ weight: 50
 
 ## by property
 describes the relative offset value for the animation (in percents).
-            Read/write **aspose.pydrawing.PointF**.
+            Read/write [`PointF`](/slides/python-net/aspose.slides/pointf).
 
 ### Definition:
 ```python
@@ -26,6 +26,7 @@ def by(self, value):
 
 ### See Also
 * class [`ScaleEffect`](/slides/python-net/aspose.slides.animation/scaleeffect)
+* class [`PointF`](/slides/python-net/aspose.slides/pointf)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
 

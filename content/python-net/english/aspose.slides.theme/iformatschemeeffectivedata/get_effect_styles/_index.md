@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## get_effect_styles(self, style_color) {#asposepydrawingcolor}
+## get_effect_styles(self, style_color) {#asposeslidescolor}
 Returns a collection of theme defined effect styles.
 
 ### Returns
@@ -25,13 +25,14 @@ def get_effect_styles(self, style_color):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| style_color | **aspose.pydrawing.Color** | Color **aspose.pydrawing.Color** |
+| style_color | [`Color`](/slides/python-net/aspose.slides/color) | Color [`Color`](/slides/python-net/aspose.slides/color) |
 
 
 
 ### See Also
 * class [`IEffectStyleCollectionEffectiveData`](/slides/python-net/aspose.slides.theme/ieffectstylecollectioneffectivedata)
 * class [`IFormatSchemeEffectiveData`](/slides/python-net/aspose.slides.theme/iformatschemeeffectivedata)
+* class [`Color`](/slides/python-net/aspose.slides/color)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
 

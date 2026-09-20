@@ -10,7 +10,7 @@ weight: 20
 
 ## size property
 Returns or sets the size in points.
-            Read/write **aspose.pydrawing.SizeF**.
+            Read/write [`SizeF`](/slides/python-net/aspose.slides/sizef).
 
 ### Definition:
 ```python
@@ -26,6 +26,7 @@ def size(self, value):
 
 ### See Also
 * class [`NotesSize`](/slides/python-net/aspose.slides/notessize)
+* class [`SizeF`](/slides/python-net/aspose.slides/sizef)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

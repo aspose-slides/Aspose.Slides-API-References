@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## add_comment(self, text, slide, position, creation_time) {#str-islide-asposepydrawingpointf-datetime}
+## add_comment(self, text, slide, position, creation_time) {#str-islide-asposeslidespointf-datetime}
 Add new comment at the end of a collection.
 
 ### Returns
@@ -27,7 +27,7 @@ def add_comment(self, text, slide, position, creation_time):
 | :- | :- | :- |
 | text | **str** | Plain text of a new comment. |
 | slide | [`ISlide`](/slides/python-net/aspose.slides/islide) | Slide in a presentation where to add a new comment. |
-| position | **aspose.pydrawing.PointF** | Position on a slide where to add a new comment. |
+| position | [`PointF`](/slides/python-net/aspose.slides/pointf) | Position on a slide where to add a new comment. |
 | creation_time | **DateTime** | Time of a comment creation. |
 
 
@@ -36,6 +36,7 @@ def add_comment(self, text, slide, position, creation_time):
 * class [`CommentCollection`](/slides/python-net/aspose.slides/commentcollection)
 * class [`IComment`](/slides/python-net/aspose.slides/icomment)
 * class [`ISlide`](/slides/python-net/aspose.slides/islide)
+* class [`PointF`](/slides/python-net/aspose.slides/pointf)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

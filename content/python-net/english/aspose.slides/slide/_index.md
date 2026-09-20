@@ -46,11 +46,11 @@ The Slide type exposes the following members:
 | [`join_portions_with_same_formatting(self, collection)`](/slides/python-net/aspose.slides/slide/join_portions_with_same_formatting/#ishapecollection) | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
 | [`get_image(self, scale_x, scale_y)`](/slides/python-net/aspose.slides/slide/get_image/#float-float) | Returns a Thumbnail Image object with custom scaling. |
 | [`get_image(self)`](/slides/python-net/aspose.slides/slide/get_image/#) | Returns a Thumbnail Image object (20% of real size). |
-| [`get_image(self, image_size)`](/slides/python-net/aspose.slides/slide/get_image/#asposepydrawingsize) | Returns a Thumbnail Image object with specified size. |
+| [`get_image(self, image_size)`](/slides/python-net/aspose.slides/slide/get_image/#asposeslidessize) | Returns a Thumbnail Image object with specified size. |
 | [`get_image(self, options)`](/slides/python-net/aspose.slides/slide/get_image/#asposeslidesexportitiffoptions) | Returns a Thumbnail tiff image object with specified parameters. |
 | [`get_image(self, options)`](/slides/python-net/aspose.slides/slide/get_image/#asposeslidesexportirenderingoptions) | Returns a Thumbnail Image object. |
 | [`get_image(self, options, scale_x, scale_y)`](/slides/python-net/aspose.slides/slide/get_image/#asposeslidesexportirenderingoptions-float-float) | Returns a Thumbnail Image object with custom scaling. |
-| [`get_image(self, options, image_size)`](/slides/python-net/aspose.slides/slide/get_image/#asposeslidesexportirenderingoptions-asposepydrawingsize) | Returns a Thumbnail Image object with specified size. |
+| [`get_image(self, options, image_size)`](/slides/python-net/aspose.slides/slide/get_image/#asposeslidesexportirenderingoptions-asposeslidessize) | Returns a Thumbnail Image object with specified size. |
 | [`write_as_svg(self, stream)`](/slides/python-net/aspose.slides/slide/write_as_svg/#iorawiobase) | Saves the slide content as an SVG file. |
 | [`write_as_svg(self, stream, svg_options)`](/slides/python-net/aspose.slides/slide/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) | Saves the slide content as an SVG file. |
 | [`equals(self, slide)`](/slides/python-net/aspose.slides/slide/equals/#ibaseslide) | Determines whether the two IBaseSlide instances are equal.<br/>            Returning value is calculated based on slide's structure and static content.<br/>            Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |

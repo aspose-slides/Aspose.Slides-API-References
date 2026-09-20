@@ -38,6 +38,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`Cell`](/slides/python-net/aspose.slides/cell/) | Represents a cell of a table. |
 | [`CellCollection`](/slides/python-net/aspose.slides/cellcollection/) | Represents a collection of cells. |
 | [`CellFormat`](/slides/python-net/aspose.slides/cellformat/) | Represents format of a table cell. |
+| [`Color`](/slides/python-net/aspose.slides/color/) | Represents an ARGB (alpha, red, green, blue) color. |
 | [`ColorFormat`](/slides/python-net/aspose.slides/colorformat/) | Represents a color used in a presentation. |
 | [`ColorOperation`](/slides/python-net/aspose.slides/coloroperation/) | Represents different color operations used for color transformations.<br/>            Immutable object. |
 | [`ColorOperationCollection`](/slides/python-net/aspose.slides/coloroperationcollection/) | Represents a collection of color transform operations. |
@@ -368,6 +369,8 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`PictureFrame`](/slides/python-net/aspose.slides/pictureframe/) | Represents a frame with a picture inside. |
 | [`PictureFrameLock`](/slides/python-net/aspose.slides/pictureframelock/) | Determines which operations are disabled on the parent PictureFrame. |
 | [`Placeholder`](/slides/python-net/aspose.slides/placeholder/) | Represents a placeholder on a slide. |
+| [`Point`](/slides/python-net/aspose.slides/point/) | Represents an ordered pair of integer x- and y-coordinates that defines a point in a two-dimensional plane. |
+| [`PointF`](/slides/python-net/aspose.slides/pointf/) | Represents an ordered pair of floating-point x- and y-coordinates that defines a point in a two-dimensional plane. |
 | [`Portion`](/slides/python-net/aspose.slides/portion/) | Represents a portion of text inside a text paragraph. |
 | [`PortionCollection`](/slides/python-net/aspose.slides/portioncollection/) | Represents a collection of portions. |
 | [`PortionFactory`](/slides/python-net/aspose.slides/portionfactory/) | Allows to create test portions |
@@ -390,6 +393,8 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`PresentationText`](/slides/python-net/aspose.slides/presentationtext/) | Represents the text extracted from the presentation |
 | [`PresentedBySpeaker`](/slides/python-net/aspose.slides/presentedbyspeaker/) | Presented by a speaker (full screen) |
 | [`ProtectionManager`](/slides/python-net/aspose.slides/protectionmanager/) | Presentation password protection management. |
+| [`Rectangle`](/slides/python-net/aspose.slides/rectangle/) | Stores a set of four integers that represent the location and size of a rectangle. |
+| [`RectangleF`](/slides/python-net/aspose.slides/rectanglef/) | Stores a set of four floating-point numbers that represent the location and size of a rectangle. |
 | [`Row`](/slides/python-net/aspose.slides/row/) | Represents a row in a table. |
 | [`RowCollection`](/slides/python-net/aspose.slides/rowcollection/) | Represents table row collection. |
 | [`RowFormat`](/slides/python-net/aspose.slides/rowformat/) | Represents format of a table row. |
@@ -405,6 +410,8 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`ShapeElement`](/slides/python-net/aspose.slides/shapeelement/) | Represents a part of shape with same outline and fill properties. |
 | [`ShapeFrame`](/slides/python-net/aspose.slides/shapeframe/) | Represents shape frame's properties. |
 | [`ShapeStyle`](/slides/python-net/aspose.slides/shapestyle/) | Represent shape's style reference. |
+| [`Size`](/slides/python-net/aspose.slides/size/) | Stores an ordered pair of integers, which specify a width and a height. |
+| [`SizeF`](/slides/python-net/aspose.slides/sizef/) | Stores an ordered pair of floating-point numbers, typically the width and height of a rectangle. |
 | [`SketchFormat`](/slides/python-net/aspose.slides/sketchformat/) | Represents properties for lines sketch format. |
 | [`Slide`](/slides/python-net/aspose.slides/slide/) | Represents a slide in a presentation. |
 | [`SlideCollection`](/slides/python-net/aspose.slides/slidecollection/) | Represents a collection of a slides. |

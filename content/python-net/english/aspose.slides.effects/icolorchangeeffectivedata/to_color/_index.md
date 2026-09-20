@@ -10,7 +10,7 @@ weight: 30
 
 ## to_color property
 Color which will replace.
-            Read-only **aspose.pydrawing.Color**.
+            Read-only [`Color`](/slides/python-net/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -22,6 +22,7 @@ def to_color(self):
 
 ### See Also
 * class [`IColorChangeEffectiveData`](/slides/python-net/aspose.slides.effects/icolorchangeeffectivedata)
+* class [`Color`](/slides/python-net/aspose.slides/color)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
 
