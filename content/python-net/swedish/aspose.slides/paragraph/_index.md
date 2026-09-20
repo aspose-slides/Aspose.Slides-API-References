@@ -13,31 +13,31 @@ Paragraph-typen exponerar följande medlemmar:
 
 ## Konstruktörer
 
-| Constructor | Description |
+| Konstruktor | Beskrivning |
 | :- | :- |
-| [`__init__`](/slides/python-net/sv/aspose.slides/paragraph/__init__/#) | Initialiserar en ny instans av Paragraph-klassen med standardegenskaper. |
-| [`__init__`](/slides/python-net/sv/aspose.slides/paragraph/__init__/#paragraph) | Kopieringskonstruktor som initialiserar en ny instans av en Paragraph-klass. |
+| [`__init__(self)`](/slides/python-net/sv/aspose.slides/paragraph/__init__/#) | Initierar en ny instans av Paragraph klass med standardegenskaper. |
+| [`__init__(self, para)`](/slides/python-net/sv/aspose.slides/paragraph/__init__/#paragraph) | Kopieringskonstruktor som initierar en ny instans av en Paragraph klass. |
 
 ## Egenskaper
 
-| Property | Description |
+| Egenskap | Beskrivning |
 | :- | :- |
 | [`portions`](/slides/python-net/sv/aspose.slides/paragraph/portions/) | Returnerar samlingen av textdelar.<br/>            Skrivskyddad [`IPortionCollection`](/slides/python-net/sv/aspose.slides/iportioncollection). |
 | [`paragraph_format`](/slides/python-net/sv/aspose.slides/paragraph/paragraph_format/) | Returnerar formateringsobjektet för detta stycke.<br/>            Skrivskyddad [`IParagraphFormat`](/slides/python-net/sv/aspose.slides/iparagraphformat). |
-| [`text`](/slides/python-net/sv/aspose.slides/paragraph/text/) | Hämtar eller anger ren text för ett Paragraph.<br/>            Läs/skriv **str**. |
-| [`end_paragraph_portion_format`](/slides/python-net/sv/aspose.slides/paragraph/end_paragraph_portion_format/) | Anger de portions-egenskaper som ska användas om en annan portion infogas efter <br/>            den sista. |
+| [`text`](/slides/python-net/sv/aspose.slides/paragraph/text/) | Hämtar eller anger den enkla texten för ett stycke.<br/>            Läs/skriv **str**. |
+| [`end_paragraph_portion_format`](/slides/python-net/sv/aspose.slides/paragraph/end_paragraph_portion_format/) | Anger de delegenskaper som ska användas om en annan del infogas efter <br/>            den sista. |
 | [`slide`](/slides/python-net/sv/aspose.slides/paragraph/slide/) |  |
 | [`presentation`](/slides/python-net/sv/aspose.slides/paragraph/presentation/) |  |
 
 ## Metoder
 
-| Method | Description |
+| Metod | Beskrivning |
 | :- | :- |
-| [`get_image`](/slides/python-net/sv/aspose.slides/paragraph/get_image/#) | Returnerar en bild av Paragraph. |
-| [`get_image`](/slides/python-net/sv/aspose.slides/paragraph/get_image/#float-float) | Returnerar en bild av Paragraph med den angivna skalan. |
-| [`join_portions_with_same_formatting`](/slides/python-net/sv/aspose.slides/paragraph/join_portions_with_same_formatting/#) | Slår ihop körningar med samma formatering. |
-| [`get_rect`](/slides/python-net/sv/aspose.slides/paragraph/get_rect/#) | Hämtar koordinaterna för rektangeln som omger Paragraph. Rektangeln inkluderar alla rader av<br/> text i Paragraph, inklusive tomma. |
-| [`get_lines_count`](/slides/python-net/sv/aspose.slides/paragraph/get_lines_count/#) | Hämtar antalet rader i ett Paragraph. |
+| [`get_image(self)`](/slides/python-net/sv/aspose.slides/paragraph/get_image/#) | Returnerar en bild av stycket. |
+| [`get_image(self, scale_x, scale_y)`](/slides/python-net/sv/aspose.slides/paragraph/get_image/#float-float) | Returnerar en bild av stycket med den angivna skalan. |
+| [`join_portions_with_same_formatting(self)`](/slides/python-net/sv/aspose.slides/paragraph/join_portions_with_same_formatting/#) | Sammanfogar körningar med samma formatering. |
+| [`get_rect(self)`](/slides/python-net/sv/aspose.slides/paragraph/get_rect/#) | Hämtar koordinaterna för rektangeln som omger stycket. Rektangeln inkluderar alla rader av<br/>            text i stycket, inklusive tomma. |
+| [`get_lines_count(self)`](/slides/python-net/sv/aspose.slides/paragraph/get_lines_count/#) | Hämtar antalet rader i ett stycke. |
 
 
 ### Se även

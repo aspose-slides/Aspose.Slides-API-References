@@ -8,13 +8,15 @@ weight: 90
 ---
 ## paragraph_format vlastnost
 Vrací objekt formátování pro tento odstavec.
-Pouze pro čtení [`IParagraphFormat`](/slides/python-net/cs/aspose.slides/iparagraphformat).
+            Pouze pro čtení [`IParagraphFormat`](/slides/python-net/cs/aspose.slides/iparagraphformat).
+
 
 ### Poznámky
 
-Objekt formátování obsahuje parametry formátování definované pouze pro aktuální odstavec, zděděná data se nepoužívají.
+Objekt formátování obsahuje pouze formátovací parametry definované pro aktuální odstavec, zděděná data nejsou použita.
 
-Chcete-li získat účinné hodnoty včetně zděděných, použijte metodu [`ParagraphFormat.get_effective`](/slides/python-net/cs/aspose.slides/paragraphformat/get_effective).
+
+Pro získání efektivních hodnot včetně zděděných použijte metodu [`ParagraphFormat.get_effective`](/slides/python-net/cs/aspose.slides/paragraphformat/get_effective).
 
 ### Definice:
 ```python
@@ -22,6 +24,7 @@ Chcete-li získat účinné hodnoty včetně zděděných, použijte metodu [`Pa
 def paragraph_format(self):
     ...
 ```
+
 
 ### Viz také
 * třída [`IParagraphFormat`](/slides/python-net/cs/aspose.slides/iparagraphformat)

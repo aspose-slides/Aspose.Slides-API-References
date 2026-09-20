@@ -1,14 +1,14 @@
 ---
 title: paragraph_format property
-second_title: Aspose.Slides untuk Python via .NET Referensi API
+second_title: Aspose.Slides untuk Python melalui Referensi API .NET
 description: 
 type: docs
 url: /id/aspose.slides/iparagraph/paragraph_format/
 weight: 80
 ---
 ## paragraph_format properti
-Mengembalikan objek format untuk paragraf ini.
-            Hanya baca [`IParagraphFormat`](/slides/python-net/id/aspose.slides/iparagraphformat).
+Mengembalikan objek pemformatan untuk paragraf ini.
+            Baca-saja [`IParagraphFormat`](/slides/python-net/id/aspose.slides/iparagraphformat).
 
 ### Definisi:
 ```python
@@ -22,4 +22,4 @@ def paragraph_format(self):
 * kelas [`IParagraph`](/slides/python-net/id/aspose.slides/iparagraph)
 * kelas [`IParagraphFormat`](/slides/python-net/id/aspose.slides/iparagraphformat)
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
-* pustaka [`Aspose.Slides`](/slides/python-net)
+* perpustakaan [`Aspose.Slides`](/slides/python-net)

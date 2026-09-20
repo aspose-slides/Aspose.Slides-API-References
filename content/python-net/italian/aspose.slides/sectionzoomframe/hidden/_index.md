@@ -1,0 +1,27 @@
+---
+title: hidden property
+second_title: Riferimento API Aspose.Slides per Python via .NET
+description: 
+type: docs
+url: /it/aspose.slides/sectionzoomframe/hidden/
+weight: 230
+---
+## proprietà nascosta
+Determina se la forma è nascosta.
+            Lettura/Scrittura **bool**.
+
+### Definizione:
+```python
+@property
+def hidden(self):
+    ...
+
+@hidden.setter
+def hidden(self, value):
+    ...
+```
+
+### Vedi anche
+* classe [`SectionZoomFrame`](/slides/python-net/it/aspose.slides/sectionzoomframe)
+* modulo [`aspose.slides`](/slides/python-net/it/aspose.slides)
+* libreria [`Aspose.Slides`](/slides/python-net)

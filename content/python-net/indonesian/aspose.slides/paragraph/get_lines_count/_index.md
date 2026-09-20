@@ -1,12 +1,12 @@
 ---
 title: get_lines_count method
-second_title: Referensi API Aspose.Slides untuk Python via .NET
+second_title: Referensi API Aspose.Slides untuk Python melalui .NET
 description: 
 type: docs
 url: /id/aspose.slides/paragraph/get_lines_count/
 weight: 30
 ---
-## get_lines_count {#}
+## get_lines_count(self) {#}
 Dapatkan jumlah baris dalam paragraf.
 
 ### Mengembalikan

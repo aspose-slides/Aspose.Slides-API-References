@@ -7,7 +7,7 @@ url: /sv/aspose.slides/iparagraph/portions/
 weight: 90
 ---
 ## portions egenskap
-Returnerar samlingen av en text portions.
+Returns the collection of a text portions.
             Skrivskyddad [`IPortionCollection`](/slides/python-net/sv/aspose.slides/iportioncollection).
 
 ### Definition:

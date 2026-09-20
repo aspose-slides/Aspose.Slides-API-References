@@ -6,15 +6,14 @@ type: docs
 url: /sv/aspose.slides/iparagraph/join_portions_with_same_formatting/
 weight: 40
 ---
-## join_portions_with_same_formatting {#}
-Sammanfogar portioner med samma formatering.
+## join_portions_with_same_formatting(self) {#}
+Kombinerar körningar med samma formatering.
 
 
 ```python
 def join_portions_with_same_formatting(self):
     ...
 ```
-
 
 
 

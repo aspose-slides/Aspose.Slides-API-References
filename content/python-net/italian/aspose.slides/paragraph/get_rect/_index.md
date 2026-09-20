@@ -6,8 +6,8 @@ type: docs
 url: /it/aspose.slides/paragraph/get_rect/
 weight: 40
 ---
-## get_rect {#}
-Ottieni le coordinate del rect che delimitano il paragrafo. Il rect include tutte le righe di
+## get_rect(self) {#}
+Ottieni le coordinate del rettangolo che delimitano il paragrafo. Il rettangolo include tutte le linee di
             testo nel paragrafo, incluse quelle vuote.
 
 

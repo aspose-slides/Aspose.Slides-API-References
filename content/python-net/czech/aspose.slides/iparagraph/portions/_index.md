@@ -7,8 +7,8 @@ url: /cs/aspose.slides/iparagraph/portions/
 weight: 90
 ---
 ## portions vlastnost
-Vrací kolekci textových částí.
-            Pouze ke čtení [`IPortionCollection`](/slides/python-net/cs/aspose.slides/iportioncollection).
+Vrací kolekci textových úseků.
+            Pouze pro čtení [`IPortionCollection`](/slides/python-net/cs/aspose.slides/iportioncollection).
 
 ### Definice:
 ```python

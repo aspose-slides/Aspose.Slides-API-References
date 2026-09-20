@@ -6,14 +6,12 @@ type: docs
 url: /cs/aspose.slides/paragraph/get_image/
 weight: 20
 ---
-## get_image {#}
-Vrátí obrázek odstavce.
+## get_image(self) {#}
+Vrací obrázek odstavce.
 
 ### Návratová hodnota
 
-Obrázek obsahující vykreslený odstavec, nebo **None**
-             pokud odstavec nelze najít v jeho nadřazené kolekci, nemá platné
-             ohraničení vykreslení nebo dojde k chybě při vykreslování obrázku.
+Obrázek obsahující vykreslený odstavec, nebo **None**, pokud odstavec nelze najít v nadřazené kolekci, nemá platné vykreslovací hranice nebo při vykreslování obrázku dojde k chybě.
 
 
 
@@ -24,14 +22,12 @@ def get_image(self):
 
 
 
-## get_image {#float-float}
-Vrátí obrázek odstavce se zadaným měřítkem.
+## get_image(self, scale_x, scale_y) {#float-float}
+Vrací obrázek odstavce se zadaným měřítkem.
 
 ### Návratová hodnota
 
-Obrázek obsahující vykreslený odstavec, nebo **None**
-             pokud odstavec nelze najít v jeho nadřazené kolekci, nemá platné
-             ohraničení vykreslení nebo dojde k chybě při vykreslování obrázku.
+Obrázek obsahující vykreslený odstavec, nebo **None**, pokud odstavec nelze najít v nadřazené kolekci, nemá platné vykreslovací hranice nebo při vykreslování obrázku dojde k chybě.
 
 
 

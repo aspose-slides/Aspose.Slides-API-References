@@ -1,14 +1,13 @@
 ---
 title: join_portions_with_same_formatting method
-second_title: Riferimento API di Aspose.Slides per Python via .NET
+second_title: Aspose.Slides per Python via .NET Riferimento API
 description: 
 type: docs
 url: /it/aspose.slides/iparagraph/join_portions_with_same_formatting/
 weight: 40
 ---
-## join_portions_with_same_formatting {#}
+## join_portions_with_same_formatting(self) {#}
 Unisce le sequenze con la stessa formattazione.
-
 
 
 ```python

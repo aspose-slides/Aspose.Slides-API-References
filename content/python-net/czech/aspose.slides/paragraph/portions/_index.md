@@ -1,6 +1,6 @@
 ---
 title: portions property
-second_title: Aspose.Slides pro Python přes .NET API Reference
+second_title: Aspose.Slides pro Python přes .NET API referenci
 description: 
 type: docs
 url: /cs/aspose.slides/paragraph/portions/
@@ -8,7 +8,7 @@ weight: 100
 ---
 ## portions vlastnost
 Vrací kolekci textových úseků.
-            Jen pro čtení [`IPortionCollection`](/slides/python-net/cs/aspose.slides/iportioncollection).
+            Pouze pro čtení [`IPortionCollection`](/slides/python-net/cs/aspose.slides/iportioncollection).
 
 ### Definice:
 ```python

@@ -7,8 +7,7 @@ url: /id/aspose.slides/paragraph/end_paragraph_portion_format/
 weight: 80
 ---
 ## end_paragraph_portion_format properti
-Menentukan properti bagian yang akan digunakan jika bagian lain disisipkan setelah 
-            bagian terakhir.
+Menentukan properti bagian yang akan digunakan jika bagian lain disisipkan setelah yang terakhir.
 
 ### Definisi:
 ```python
@@ -21,8 +20,7 @@ def end_paragraph_portion_format(self, value):
     ...
 ```
 
-
 ### Lihat Juga
 * kelas [`Paragraph`](/slides/python-net/id/aspose.slides/paragraph)
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
-* perpustakaan [`Aspose.Slides`](/slides/python-net)
+* pustaka [`Aspose.Slides`](/slides/python-net)

@@ -6,14 +6,13 @@ type: docs
 url: /id/aspose.slides/iparagraph/get_image/
 weight: 10
 ---
-## get_image {#}
+## get_image(self) {#}
 Mengembalikan gambar dari paragraf.
 
 ### Mengembalikan
 
-Sebuah gambar yang berisi paragraf yang dirender, atau **None**
-             jika paragraf tidak dapat ditemukan dalam koleksi induknya, tidak memiliki
-             batas render yang valid, atau terjadi kesalahan saat merender gambar.
+Sebuah gambar yang berisi paragraf yang dirender, atau **None**             
+             jika paragraf tidak dapat ditemukan dalam koleksi induknya, tidak memiliki batas render yang valid, atau terjadi kesalahan saat merender gambar.
 
 
 
@@ -24,14 +23,13 @@ def get_image(self):
 
 
 
-## get_image {#float-float}
+## get_image(self, scale_x, scale_y) {#float-float}
 Mengembalikan gambar dari paragraf dengan skala yang ditentukan.
 
 ### Mengembalikan
 
-Sebuah gambar yang berisi paragraf yang dirender, atau **None**
-             jika paragraf tidak dapat ditemukan dalam koleksi induknya, tidak memiliki
-             batas render yang valid, atau terjadi kesalahan saat merender gambar.
+Sebuah gambar yang berisi paragraf yang dirender, atau **None**             
+             jika paragraf tidak dapat ditemukan dalam koleksi induknya, tidak memiliki batas render yang valid, atau terjadi kesalahan saat merender gambar.
 
 
 

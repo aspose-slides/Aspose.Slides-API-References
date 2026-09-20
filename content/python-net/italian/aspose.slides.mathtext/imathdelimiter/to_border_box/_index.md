@@ -1,0 +1,47 @@
+---
+title: to_border_box method
+second_title: Riferimento API Aspose.Slides per Python via .NET
+description: 
+type: docs
+url: /it/aspose.slides.mathtext/imathdelimiter/to_border_box/
+weight: 200
+---
+## to_border_box(self) {#}
+
+
+
+```python
+def to_border_box(self):
+    ...
+```
+
+
+
+## to_border_box(self, hide_top, hide_bottom, hide_left, hide_right, strikethrough_horizontal, strikethrough_vertical, strikethrough_bottom_left_to_top_right, strikethrough_top_left_to_bottom_right) {#bool-bool-bool-bool-bool-bool-bool-bool}
+
+
+
+```python
+def to_border_box(self, hide_top, hide_bottom, hide_left, hide_right, strikethrough_horizontal, strikethrough_vertical, strikethrough_bottom_left_to_top_right, strikethrough_top_left_to_bottom_right):
+    ...
+```
+
+
+| Parametro | Tipo | Descrizione |
+| :- | :- | :- |
+| hide_top | **bool** |  |
+| hide_bottom | **bool** |  |
+| hide_left | **bool** |  |
+| hide_right | **bool** |  |
+| strikethrough_horizontal | **bool** |  |
+| strikethrough_vertical | **bool** |  |
+| strikethrough_bottom_left_to_top_right | **bool** |  |
+| strikethrough_top_left_to_bottom_right | **bool** |  |
+
+
+
+### Vedi anche
+* classe [`IMathBorderBox`](/slides/python-net/it/aspose.slides.mathtext/imathborderbox)
+* classe [`IMathDelimiter`](/slides/python-net/it/aspose.slides.mathtext/imathdelimiter)
+* modulo [`aspose.slides.mathtext`](/slides/python-net/it/aspose.slides.mathtext)
+* libreria [`Aspose.Slides`](/slides/python-net)

@@ -1,0 +1,22 @@
+---
+title: actual_minor_unit property
+second_title: Aspose.Slides per Python via .NET Riferimento API
+description: 
+type: docs
+url: /it/aspose.slides.charts/iaxis/actual_minor_unit/
+weight: 60
+---
+## actual_minor_unit proprietà
+Specifica l'unità minore effettiva dell'asse. Chiamare il metodo IChart.ValidateChartLayout() in precedenza per ottenere il valore effettivo.
+
+### Definizione:
+```python
+@property
+def actual_minor_unit(self):
+    ...
+```
+
+### Vedi anche
+* classe [`IAxis`](/slides/python-net/it/aspose.slides.charts/iaxis)
+* modulo [`aspose.slides.charts`](/slides/python-net/it/aspose.slides.charts)
+* libreria [`Aspose.Slides`](/slides/python-net)

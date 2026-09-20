@@ -6,8 +6,8 @@ type: docs
 url: /sv/aspose.slides/paragraph/get_lines_count/
 weight: 30
 ---
-## get_lines_count {#}
-Hämta antalet rader i ett stycke.
+## get_lines_count(self) {#}
+Hämtar antalet rader i ett stycke.
 
 ### Returnerar
 

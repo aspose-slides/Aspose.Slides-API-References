@@ -1,7 +1,7 @@
 ---
 title: text property
-second_title: Aspose.Slides pro Python pomocí .NET API Reference
-description:
+second_title: Aspose.Slides pro Python pomocí .NET API Referenční příručka
+description: 
 type: docs
 url: /cs/aspose.slides/paragraph/text/
 weight: 130

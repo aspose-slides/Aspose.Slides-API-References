@@ -1,14 +1,14 @@
 ---
 title: portions property
-second_title: Referensi API Aspose.Slides untuk Python via .NET
+second_title: Aspose.Slides untuk Python via .NET Referensi API
 description: 
 type: docs
 url: /id/aspose.slides/paragraph/portions/
 weight: 100
 ---
-## properti portions
-Returns the collection of a text portions.
-            Hanya-baca [`IPortionCollection`](/slides/python-net/id/aspose.slides/iportioncollection).
+## portions properti
+Mengembalikan koleksi bagian teks.
+            Hanya baca [`IPortionCollection`](/slides/python-net/id/aspose.slides/iportioncollection).
 
 ### Definisi:
 ```python

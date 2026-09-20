@@ -7,7 +7,8 @@ url: /sv/aspose.slides/iparagraph/end_paragraph_portion_format/
 weight: 70
 ---
 ## end_paragraph_portion_format egenskap
-Anger delens egenskaper som ska användas om en annan del infogas efter den sista.
+Anger de portions-egenskaper som ska användas om en annan portion infogas efter 
+            den sista.
 
 ### Definition:
 ```python
@@ -21,7 +22,7 @@ def end_paragraph_portion_format(self, value):
 ```
 
 
-### Se också
+### Se även
 * klass [`IParagraph`](/slides/python-net/sv/aspose.slides/iparagraph)
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

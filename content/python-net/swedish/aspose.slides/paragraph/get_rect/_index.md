@@ -6,9 +6,8 @@ type: docs
 url: /sv/aspose.slides/paragraph/get_rect/
 weight: 40
 ---
-## get_rect {#}
-Hämta koordinaterna för rect som omger stycket. rect inkluderar alla rader av
-            text i stycket, inklusive tomma.
+## get_rect(self) {#}
+Hämta koordinater för den rektangel som begränsar stycket. Rektangeln inkluderar alla rader av text i stycket, inklusive tomma.
 
 
 ```python

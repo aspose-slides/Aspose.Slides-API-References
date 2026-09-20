@@ -1,6 +1,6 @@
 ---
 title: slide property
-second_title: Aspose.Slides pro Python přes .NET referenci API
+second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/iparagraph/slide/
@@ -13,6 +13,7 @@ weight: 110
 def slide(self):
     ...
 ```
+
 
 ### Viz také
 * třída [`IParagraph`](/slides/python-net/cs/aspose.slides/iparagraph)
