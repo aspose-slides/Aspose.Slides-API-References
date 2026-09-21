@@ -1,0 +1,34 @@
+---
+title: find_shape_by_alt_text method
+second_title: Aspose.Slides के लिए Python via .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides/slide/find_shape_by_alt_text/
+weight: 30
+---
+## find_shape_by_alt_text(self, alt_text) {#str}
+निर्दिष्ट वैकल्पिक पाठ के साथ आकार का पहला मिलान ढूँढ़ता है।
+
+### रिटर्न मान
+
+Shape ऑब्जेक्ट या None.
+
+
+
+```python
+def find_shape_by_alt_text(self, alt_text):
+    ...
+```
+
+
+| पैरामीटर | प्रकार | विवरण |
+| :- | :- | :- |
+| alt_text | **str** | वैकल्पिक पाठ। |
+
+
+
+### देखें
+* क्लास [`IShape`](/slides/python-net/hi/aspose.slides/ishape)
+* क्लास [`Slide`](/slides/python-net/hi/aspose.slides/slide)
+* मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

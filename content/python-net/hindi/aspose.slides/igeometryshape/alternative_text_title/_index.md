@@ -1,0 +1,25 @@
+---
+title: alternative_text_title property
+second_title: Aspose.Slides के लिए Python via .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides/igeometryshape/alternative_text_title/
+weight: 120
+---
+## alternative_text_title प्रॉपर्टी
+### परिभाषा:
+```python
+@property
+def alternative_text_title(self):
+    ...
+
+@alternative_text_title.setter
+def alternative_text_title(self, value):
+    ...
+```
+
+
+### देखें
+* क्लास [`IGeometryShape`](/slides/python-net/hi/aspose.slides/igeometryshape)
+* मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

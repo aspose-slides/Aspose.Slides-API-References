@@ -1,0 +1,25 @@
+---
+title: actual_x property
+second_title: Aspose.Slides for Python के माध्यम से .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.charts/datalabel/actual_x/
+weight: 70
+---
+## actual_x प्रॉपर्टी
+चार्ट तत्व का वास्तविक x स्थान (बाएं) चार्ट के बाएँ शीर्ष कोने के सापेक्ष निर्दिष्ट करता है।
+            वास्‍तविक मान प्राप्त करने के लिए पहले IChart.ValidateChartLayout() विधि को कॉल करें। 
+            पढ़ें **float**.
+
+### परिभाषा:
+```python
+@property
+def actual_x(self):
+    ...
+```
+
+
+### देखें
+* क्लास [`DataLabel`](/slides/python-net/hi/aspose.slides.charts/datalabel)
+* मॉड्यूल [`aspose.slides.charts`](/slides/python-net/hi/aspose.slides.charts)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

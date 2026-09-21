@@ -1,17 +1,18 @@
 ---
 title: get_lines_count method
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides/paragraph/get_lines_count/
 weight: 30
 ---
-## get_lines_count {#}
+## get_lines_count(self) {#}
 รับจำนวนบรรทัดในย่อหน้า.
 
-### ผลลัพธ์
+### คืนค่า
 
 จำนวนบรรทัดในย่อหน้า
+
 
 
 ```python

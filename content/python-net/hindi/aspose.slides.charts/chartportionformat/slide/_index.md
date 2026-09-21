@@ -1,0 +1,21 @@
+---
+title: slide property
+second_title: Aspose.Slides के लिए Python द्वारा .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.charts/chartportionformat/slide/
+weight: 240
+---
+## स्लाइड प्रॉपर्टी
+### परिभाषा:
+```python
+@property
+def slide(self):
+    ...
+```
+
+
+### देखें
+* क्लास [`ChartPortionFormat`](/slides/python-net/hi/aspose.slides.charts/chartportionformat)
+* मॉड्यूल [`aspose.slides.charts`](/slides/python-net/hi/aspose.slides.charts)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

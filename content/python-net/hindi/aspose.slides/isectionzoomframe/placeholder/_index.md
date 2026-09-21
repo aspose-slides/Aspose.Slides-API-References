@@ -1,0 +1,21 @@
+---
+title: placeholder property
+second_title: Aspose.Slides के लिए Python के माध्यम से .NET API रेफ़रेंस
+description: 
+type: docs
+url: /hi/aspose.slides/isectionzoomframe/placeholder/
+weight: 340
+---
+## स्थानधारक प्रॉपर्टी
+### परिभाषा:
+```python
+@property
+def placeholder(self):
+    ...
+```
+
+
+### संबंधित देखें
+* क्लास [`ISectionZoomFrame`](/slides/python-net/hi/aspose.slides/isectionzoomframe)
+* मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

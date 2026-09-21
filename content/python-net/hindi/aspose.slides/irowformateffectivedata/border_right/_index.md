@@ -1,0 +1,21 @@
+---
+title: border_right property
+second_title: Aspose.Slides Python के लिए .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides/irowformateffectivedata/border_right/
+weight: 60
+---
+## border_right प्रॉपर्टी
+### परिभाषा:
+```python
+@property
+def border_right(self):
+    ...
+```
+
+
+### संबंधित देखें
+* क्लास [`IRowFormatEffectiveData`](/slides/python-net/hi/aspose.slides/irowformateffectivedata)
+* मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

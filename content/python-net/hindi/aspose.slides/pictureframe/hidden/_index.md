@@ -1,0 +1,28 @@
+---
+title: hidden property
+second_title: Aspose.Slides for Python via .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides/pictureframe/hidden/
+weight: 260
+---
+## छिपी प्रॉपर्टी
+निर्धारित करता है कि आकार छिपा है या नहीं।
+            पढ़ें/लिखें **bool**.
+
+### परिभाषा:
+```python
+@property
+def hidden(self):
+    ...
+
+@hidden.setter
+def hidden(self, value):
+    ...
+```
+
+
+### संबंधित
+* क्लास [`PictureFrame`](/slides/python-net/hi/aspose.slides/pictureframe)
+* मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

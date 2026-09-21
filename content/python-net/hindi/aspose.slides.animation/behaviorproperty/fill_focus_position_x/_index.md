@@ -1,0 +1,22 @@
+---
+title: fill_focus_position_x property
+second_title: Aspose.Slides for Python के माध्यम से .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.animation/behaviorproperty/fill_focus_position_x/
+weight: 330
+---
+## fill_focus_position_x प्रॉपर्टी
+प्रतिनिधित्व करता है 'fill.focusposition.x' प्रॉपर्टी
+
+### परिभाषा:
+```python
+@property
+def fill_focus_position_x(self):
+    ...
+```
+
+### और देखें
+* क्लास [`BehaviorProperty`](/slides/python-net/hi/aspose.slides.animation/behaviorproperty)
+* मॉड्यूल [`aspose.slides.animation`](/slides/python-net/hi/aspose.slides.animation)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

@@ -6,7 +6,7 @@ type: docs
 url: /nl/aspose.slides/paragraph/portions/
 weight: 100
 ---
-## portions eigenschap
+## gedeelten eigenschap
 Retourneert de collectie van tekstgedeelten.
             Alleen-lezen [`IPortionCollection`](/slides/python-net/nl/aspose.slides/iportioncollection).
 

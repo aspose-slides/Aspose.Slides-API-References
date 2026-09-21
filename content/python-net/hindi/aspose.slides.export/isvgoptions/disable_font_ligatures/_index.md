@@ -1,0 +1,28 @@
+---
+title: disable_font_ligatures property
+second_title: Aspose.Slides for Python via .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.export/isvgoptions/disable_font_ligatures/
+weight: 50
+---
+## disable_font_ligatures प्रॉपर्टी
+टेक्स्ट को लिगेचर का उपयोग किए बिना रेंडर किया जाता है या नहीं, यह दर्शाने वाला मान प्राप्त करता है या सेट करता है।
+            जब इसे `true` पर सेट किया जाता है, तो रेंडर किए गए आउटपुट में लिगेचर निष्क्रिय हो जाएंगे। डिफ़ाल्ट रूप से, यह प्रॉपर्टी `false` पर सेट होती है।
+
+### परिभाषा:
+```python
+@property
+def disable_font_ligatures(self):
+    ...
+
+@disable_font_ligatures.setter
+def disable_font_ligatures(self, value):
+    ...
+```
+
+
+### संबंधित देखें
+* क्लास [`ISVGOptions`](/slides/python-net/hi/aspose.slides.export/isvgoptions)
+* मॉड्यूल [`aspose.slides.export`](/slides/python-net/hi/aspose.slides.export)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

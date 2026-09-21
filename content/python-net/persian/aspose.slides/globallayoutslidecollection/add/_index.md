@@ -1,0 +1,45 @@
+---
+title: add method
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
+description: 
+type: docs
+url: /fa/aspose.slides/globallayoutslidecollection/add/
+weight: 10
+---
+## add(self, master, layout_type, layout_name) {#imasterslide-slidelayouttype-str}
+یک اسلاید طرح جدید به ارائه اضافه می‌کند.
+
+### Returns
+اسلاید اضافه شده.
+
+```python
+def add(self, master, layout_type, layout_name):
+    ...
+```
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| master | [`IMasterSlide`](/slides/python-net/fa/aspose.slides/imasterslide) | اسلاید اصلی برای یک طرح جدید. |
+| layout_type | [`SlideLayoutType`](/slides/python-net/fa/aspose.slides/slidelayouttype) | نوع طرح برای یک طرح جدید.<br/><br/>Supported layout types: Title, TitleOnly, Blank, TitleAndObject, VerticalText, VerticalTitleAndText, TwoObjects, SectionHeader, TwoTextAndTwoObjects, TitleObjectAndCaption, PictureAndCaption, Custom.<br/><br/>Other layout types are not supported now: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
+| layout_name | **str** | نام برای یک طرح جدید. اگر نام داده شده قبلاً استفاده شده باشد ArgumentException پرتاب می‌شود.<br/><br/>اگر پارامتر None پاس شود نام به‌صورت خودکار براساس نوع طرح پاس شده تولید می‌شود (برای مثال "Title Slide" یا "1_Title Slide"، "2_.." و غیره). |
+
+### Remarks
+1) طرح اضافه شده برای مقدار SlideLayoutType.Custom از `layout_type` حاوی هیچ جای‌گیر یا شکلی نیست.  
+2) معادل این متد، متد **Aspose.Slides.IMasterLayoutSlideCollection.Add(Aspose.Slides.SlideLayoutType,Syste** است که از ویژگی [`IMasterSlide.layout_slides`](/slides/python-net/fa/aspose.slides/imasterslide/layout_slides) قابل دسترسی است.
+
+### Exceptions
+
+| Exception | Description |
+| :- | :- |
+| **RuntimeError(Proxy error(NotImplementedException))** | زمانی که مقدار پشتیبانی‌نشده‌ای از پارامتر `layout_type` پاس داده شود، پرتاب می‌شود. انواع طرحی که در حال حاضر پشتیبانی نمی‌شوند: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
+| **RuntimeError(Proxy error(ArgumentNullException))** | وقتی `master` برابر None باشد، پرتاب می‌شود. |
+| **RuntimeError(Proxy error(ArgumentException))** | وقتی `master` به ارائه دیگری تعلق داشته باشد، پرتاب می‌شود. |
+| **RuntimeError(Proxy error(ArgumentException))** | وقتی مقدار `layout_name` قبلاً در مجموعه طرح‌های `master` استفاده شده باشد، پرتاب می‌شود. |
+
+### See Also
+* کلاس [`GlobalLayoutSlideCollection`](/slides/python-net/fa/aspose.slides/globallayoutslidecollection)
+* کلاس [`ILayoutSlide`](/slides/python-net/fa/aspose.slides/ilayoutslide)
+* کلاس [`IMasterSlide`](/slides/python-net/fa/aspose.slides/imasterslide)
+* شمارش [`SlideLayoutType`](/slides/python-net/fa/aspose.slides/slidelayouttype)
+* ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)
+* کتابخانه [`Aspose.Slides`](/slides/python-net)

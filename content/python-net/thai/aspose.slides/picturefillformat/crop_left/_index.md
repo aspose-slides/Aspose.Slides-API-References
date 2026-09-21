@@ -1,0 +1,28 @@
+---
+title: crop_left property
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+description: 
+type: docs
+url: /th/aspose.slides/picturefillformat/crop_left/
+weight: 60
+---
+## crop_left คุณสมบัติ
+คืนค่า หรือ ตั้งค่าจำนวนเปอร์เซ็นต์ของความกว้างภาพจริงที่ถูกตัดออกทางด้านซ้ายของรูปภาพ.
+อ่าน/เขียน **float**.
+
+### การกำหนด:
+```python
+@property
+def crop_left(self):
+    ...
+
+@crop_left.setter
+def crop_left(self, value):
+    ...
+```
+
+
+### ดูเพิ่มเติม
+* คลาส [`PictureFillFormat`](/slides/python-net/th/aspose.slides/picturefillformat)
+* โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

@@ -1,0 +1,23 @@
+---
+title: distance property
+second_title: Aspose.Slides for Python via .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.effects/ioutershadoweffectivedata/distance/
+weight: 40
+---
+## distance गुण
+छाया की दूरी।
+केवल-पढ़ने योग्य **float**.
+
+### परिभाषा:
+```python
+@property
+def distance(self):
+    ...
+```
+
+### संबंधित देखें
+* क्लास [`IOuterShadowEffectiveData`](/slides/python-net/hi/aspose.slides.effects/ioutershadoweffectivedata)
+* मॉड्यूल [`aspose.slides.effects`](/slides/python-net/hi/aspose.slides.effects)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

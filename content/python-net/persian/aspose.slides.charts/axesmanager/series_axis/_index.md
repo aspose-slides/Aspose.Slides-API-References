@@ -1,0 +1,24 @@
+---
+title: series_axis property
+second_title: Aspose.Slides برای Python از طریق .NET API Reference
+description: 
+type: docs
+url: /fa/aspose.slides.charts/axesmanager/series_axis/
+weight: 40
+---
+## series_axis ویژگی
+محور سری‌های نمودار را دریافت می‌کند.
+فقط-خواندنی [`IAxis`](/slides/python-net/fa/aspose.slides.charts/iaxis)
+
+### تعریف:
+```python
+@property
+def series_axis(self):
+    ...
+```
+
+### موارد مرتبط
+* کلاس [`AxesManager`](/slides/python-net/fa/aspose.slides.charts/axesmanager)
+* کلاس [`IAxis`](/slides/python-net/fa/aspose.slides.charts/iaxis)
+* ماژول [`aspose.slides.charts`](/slides/python-net/fa/aspose.slides.charts)
+* کتابخانه [`Aspose.Slides`](/slides/python-net)

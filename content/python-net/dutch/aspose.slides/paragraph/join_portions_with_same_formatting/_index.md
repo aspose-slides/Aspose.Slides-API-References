@@ -6,13 +6,17 @@ type: docs
 url: /nl/aspose.slides/paragraph/join_portions_with_same_formatting/
 weight: 50
 ---
-## join_portions_with_same_formatting {#}
+## join_portions_with_same_formatting(self) {#}
 Voegt runs samen met dezelfde opmaak.
+
 
 ```python
 def join_portions_with_same_formatting(self):
     ...
 ```
+
+
+
 
 ### Zie ook
 * klasse [`Paragraph`](/slides/python-net/nl/aspose.slides/paragraph)

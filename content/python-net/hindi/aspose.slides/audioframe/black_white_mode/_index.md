@@ -1,0 +1,29 @@
+---
+title: black_white_mode property
+second_title: Aspose.Slides for Python के लिए .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides/audioframe/black_white_mode/
+weight: 240
+---
+## black_white_mode गुण
+गुण यह निर्धारित करता है कि एक आकार काले और सफेद डिस्प्ले मोड में कैसे प्रस्तुत होगा।
+            पढ़ें/लिखें [`BlackWhiteMode`](/slides/python-net/hi/aspose.slides/blackwhitemode).
+
+### परिभाषा:
+```python
+@property
+def black_white_mode(self):
+    ...
+
+@black_white_mode.setter
+def black_white_mode(self, value):
+    ...
+```
+
+
+### देखें
+* क्लास [`AudioFrame`](/slides/python-net/hi/aspose.slides/audioframe)
+* एन्यूमरेशन [`BlackWhiteMode`](/slides/python-net/hi/aspose.slides/blackwhitemode)
+* मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

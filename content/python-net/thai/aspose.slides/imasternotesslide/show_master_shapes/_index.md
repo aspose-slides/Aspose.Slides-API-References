@@ -1,0 +1,25 @@
+---
+title: show_master_shapes property
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET การอ้างอิง API
+description: 
+type: docs
+url: /th/aspose.slides/imasternotesslide/show_master_shapes/
+weight: 190
+---
+## show_master_shapes คุณสมบัติ
+### คำนิยาม:
+```python
+@property
+def show_master_shapes(self):
+    ...
+
+@show_master_shapes.setter
+def show_master_shapes(self, value):
+    ...
+```
+
+
+### ดูเพิ่มเติม
+* คลาส [`IMasterNotesSlide`](/slides/python-net/th/aspose.slides/imasternotesslide)
+* โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

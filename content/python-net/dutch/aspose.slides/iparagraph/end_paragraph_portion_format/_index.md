@@ -7,8 +7,7 @@ url: /nl/aspose.slides/iparagraph/end_paragraph_portion_format/
 weight: 70
 ---
 ## end_paragraph_portion_format eigenschap
-Specificeert de gedeelte-eigenschappen die moeten worden gebruikt als een ander gedeelte wordt ingevoegd na 
-            het laatste.
+Specificeert de eigenschappen van een gedeelte die moeten worden gebruikt als een ander gedeelte wordt ingevoegd na het laatste.
 
 ### Definitie:
 ```python
@@ -20,7 +19,6 @@ def end_paragraph_portion_format(self):
 def end_paragraph_portion_format(self, value):
     ...
 ```
-
 
 ### Zie ook
 * klasse [`IParagraph`](/slides/python-net/nl/aspose.slides/iparagraph)

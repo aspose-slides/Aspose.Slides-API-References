@@ -6,8 +6,8 @@ type: docs
 url: /hi/aspose.slides/iparagraph/end_paragraph_portion_format/
 weight: 70
 ---
-## end_paragraph_portion_format property
-निर्दिष्ट करता है कि यदि अंतिम हिस्से के बाद कोई अन्य हिस्सा सम्मिलित किया जाता है तो कौन सी भाग गुण उपयोग किए जाने चाहिए।
+## end_paragraph_portion_format प्रॉपर्टी
+यदि अंतिम भाग के बाद कोई अन्य भाग सम्मिलित किया जाता है तो उपयोग की जाने वाली भाग प्रॉपर्टी को निर्दिष्ट करता है।
 
 ### परिभाषा:
 ```python
@@ -21,6 +21,6 @@ def end_paragraph_portion_format(self, value):
 ```
 
 ### संबंधित देखें
-* वर्ग [`IParagraph`](/slides/python-net/hi/aspose.slides/iparagraph)
+* क्लास [`IParagraph`](/slides/python-net/hi/aspose.slides/iparagraph)
 * मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
 * लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

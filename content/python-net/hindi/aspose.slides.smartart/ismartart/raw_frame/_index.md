@@ -1,0 +1,24 @@
+---
+title: raw_frame property
+second_title: Aspose.Slides Python के लिए .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.smartart/ismartart/raw_frame/
+weight: 400
+---
+## raw_frame प्रॉपर्टी
+### परिभाषा:
+```python
+@property
+def raw_frame(self):
+    ...
+
+@raw_frame.setter
+def raw_frame(self, value):
+    ...
+```
+
+### देखें
+* क्लास [`ISmartArt`](/slides/python-net/hi/aspose.slides.smartart/ismartart)
+* मॉड्यूल [`aspose.slides.smartart`](/slides/python-net/hi/aspose.slides.smartart)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

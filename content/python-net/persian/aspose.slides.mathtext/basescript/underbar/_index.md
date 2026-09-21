@@ -1,0 +1,24 @@
+---
+title: underbar method
+second_title: Aspose.Slides برای Python از طریق .NET مستندات API
+description: 
+type: docs
+url: /fa/aspose.slides.mathtext/basescript/underbar/
+weight: 220
+---
+## underbar(self) {#}
+یک نوار در پایین این عنصر تنظیم می‌کند
+
+### بازمی‌گرداند
+نمونه جدید از نوع [`IMathBar`](/slides/python-net/fa/aspose.slides.mathtext/imathbar)
+
+```python
+def underbar(self):
+    ...
+```
+
+### موارد مرتبط
+* کلاس [`BaseScript`](/slides/python-net/fa/aspose.slides.mathtext/basescript)
+* کلاس [`IMathBar`](/slides/python-net/fa/aspose.slides.mathtext/imathbar)
+* ماژول [`aspose.slides.mathtext`](/slides/python-net/fa/aspose.slides.mathtext)
+* کتابخانه [`Aspose.Slides`](/slides/python-net)

@@ -1,0 +1,21 @@
+---
+title: join_portions_with_same_formatting method
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
+description: 
+type: docs
+url: /fa/aspose.slides/itextframe/join_portions_with_same_formatting/
+weight: 30
+---
+## join_portions_with_same_formatting(self) {#}
+بخش‌های با قالب‌بندی یکسان در تمام پاراگراف‌ها را ترکیب می‌کند.
+
+```python
+def join_portions_with_same_formatting(self):
+    ...
+```
+
+
+### موارد مرتبط
+* کلاس [`ITextFrame`](/slides/python-net/fa/aspose.slides/itextframe)
+* ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)
+* کتابخانه [`Aspose.Slides`](/slides/python-net)

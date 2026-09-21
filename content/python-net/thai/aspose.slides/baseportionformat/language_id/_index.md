@@ -1,0 +1,28 @@
+---
+title: language_id property
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+description: 
+type: docs
+url: /th/aspose.slides/baseportionformat/language_id/
+weight: 170
+---
+## language_id คุณสมบัติ
+ส่งคืนหรือกำหนด Id ของภาษาการตรวจสอบ. ใช้สำหรับการตรวจสอบการสะกดและไวยากรณ์.
+            อ่าน/เขียน **str**.
+
+### คำนิยาม:
+```python
+@property
+def language_id(self):
+    ...
+
+@language_id.setter
+def language_id(self, value):
+    ...
+```
+
+
+### ดูเพิ่มเติม
+* คลาส [`BasePortionFormat`](/slides/python-net/th/aspose.slides/baseportionformat)
+* โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

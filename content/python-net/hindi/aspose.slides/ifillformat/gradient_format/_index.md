@@ -1,0 +1,25 @@
+---
+title: gradient_format property
+second_title: Aspose.Slides के लिए Python के माध्यम से .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides/ifillformat/gradient_format/
+weight: 40
+---
+## gradient_format प्रॉपर्टी
+Returns the gradient fill format.
+            केवल-पढ़ने योग्य [`IGradientFormat`](/slides/python-net/hi/aspose.slides/igradientformat).
+
+### परिभाषा:
+```python
+@property
+def gradient_format(self):
+    ...
+```
+
+
+### संबंधित देखें
+* क्लास [`IFillFormat`](/slides/python-net/hi/aspose.slides/ifillformat)
+* क्लास [`IGradientFormat`](/slides/python-net/hi/aspose.slides/igradientformat)
+* मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

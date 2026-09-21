@@ -1,0 +1,21 @@
+---
+title: parent_group property
+second_title: Aspose.Slides Python के लिए .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.ink/iinkactions/parent_group/
+weight: 310
+---
+## parent_group गुण
+### परिभाषा:
+```python
+@property
+def parent_group(self):
+    ...
+```
+
+
+### संबंधित देखें
+* क्लास [`IInkActions`](/slides/python-net/hi/aspose.slides.ink/iinkactions)
+* मॉड्यूल [`aspose.slides.ink`](/slides/python-net/hi/aspose.slides.ink)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

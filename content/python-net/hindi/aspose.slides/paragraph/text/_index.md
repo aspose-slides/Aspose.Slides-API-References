@@ -1,13 +1,13 @@
 ---
 title: text property
-second_title: Aspose.Slides के लिए Python द्वारा .NET API Reference
+second_title: Aspose.Slides Python के लिए .NET API संदर्भ के द्वारा
 description: 
 type: docs
 url: /hi/aspose.slides/paragraph/text/
 weight: 130
 ---
-## टेक्स्ट प्रॉपर्टी
-किसी अनुच्छेद की साधारण टेक्स्ट को प्राप्त करता है या सेट करता है।
+## पाठ गुण
+एक अनुच्छेद का सादा पाठ प्राप्त करता है या सेट करता है।
             पढ़ें/लिखें **str**.
 
 ### परिभाषा:
@@ -22,7 +22,7 @@ def text(self, value):
 ```
 
 
-### देखें
+### संबंधित देखें
 * क्लास [`Paragraph`](/slides/python-net/hi/aspose.slides/paragraph)
 * मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
 * लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

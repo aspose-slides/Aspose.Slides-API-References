@@ -1,0 +1,45 @@
+---
+title: join method
+second_title: Aspose.Slides Python के लिए .NET API संदर्भ के माध्यम से
+description: 
+type: docs
+url: /hi/aspose.slides.mathtext/imathnaryoperator/join/
+weight: 90
+---
+## join(self, math_element) {#imathelement}
+
+
+
+```python
+def join(self, math_element):
+    ...
+```
+
+
+| पैरामीटर | टाइप | विवरण |
+| :- | :- | :- |
+| math_element | [`IMathElement`](/slides/python-net/hi/aspose.slides.mathtext/imathelement) |  |
+
+
+## join(self, math_text) {#str}
+
+
+
+```python
+def join(self, math_text):
+    ...
+```
+
+
+| पैरामीटर | टाइप | विवरण |
+| :- | :- | :- |
+| math_text | **str** |  |
+
+
+
+### देखें
+* क्लास [`IMathBlock`](/slides/python-net/hi/aspose.slides.mathtext/imathblock)
+* क्लास [`IMathElement`](/slides/python-net/hi/aspose.slides.mathtext/imathelement)
+* क्लास [`IMathNaryOperator`](/slides/python-net/hi/aspose.slides.mathtext/imathnaryoperator)
+* मॉड्यूल [`aspose.slides.mathtext`](/slides/python-net/hi/aspose.slides.mathtext)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

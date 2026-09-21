@@ -7,14 +7,14 @@ url: /fa/aspose.slides/paragraph/paragraph_format/
 weight: 90
 ---
 ## paragraph_format ویژگی
-شیء قالب‌بندی برای این پاراگراف را برمی‌گرداند.
-            فقط-خواندنی [`IParagraphFormat`](/slides/python-net/fa/aspose.slides/iparagraphformat).
+شی قالب‌بندی را برای این پاراگراف برمی‌گرداند.
+            فقط‌خواندنی [`IParagraphFormat`](/slides/python-net/fa/aspose.slides/iparagraphformat).
 
 ### توضیحات
 
-شیء قالب‌بندی فقط شامل پارامترهای قالب‌بندی تعریف‌شده برای پاراگراف جاری است و داده‌های به ارث‌برده شده اعمال نمی‌شوند.
+شی قالب‌بندی فقط شامل پارامترهای قالب‌بندی تعریف‌شده برای پاراگراف فعلی است؛ داده‌های ارث‌بری اعمال نمی‌شود.
 
-برای به‌دست‌آوردن مقادیر مؤثر شامل مقادیر به ارث‌برده‌شده، از متد [`ParagraphFormat.get_effective`](/slides/python-net/fa/aspose.slides/paragraphformat/get_effective) استفاده کنید.
+برای دریافت مقادیر مؤثر شامل مقادیر ارث‌بری، از روش [`ParagraphFormat.get_effective`](/slides/python-net/fa/aspose.slides/paragraphformat/get_effective) استفاده کنید.
 
 ### تعریف:
 ```python

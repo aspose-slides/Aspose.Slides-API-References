@@ -1,0 +1,21 @@
+---
+title: parent_group property
+second_title: Aspose.Slides के लिए Python के माध्यम से .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides/iautoshape/parent_group/
+weight: 380
+---
+## parent_group प्रॉपर्टी
+### परिभाषा:
+```python
+@property
+def parent_group(self):
+    ...
+```
+
+
+### और देखें
+* क्लास [`IAutoShape`](/slides/python-net/hi/aspose.slides/iautoshape)
+* मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

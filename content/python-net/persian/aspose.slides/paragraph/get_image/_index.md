@@ -6,13 +6,14 @@ type: docs
 url: /fa/aspose.slides/paragraph/get_image/
 weight: 20
 ---
-## get_image {#}
+## get_image(self) {#}
 یک تصویر از پاراگراف برمی‌گرداند.
 
 ### بازگشت
+
 یک تصویر شامل پاراگراف رندر شده، یا **None**
-             اگر پاراگراف در مجموعه والد خود یافت نشود، مرزهای رندر معتبری نداشته باشد،
-             یا خطایی در حین رندر تصویر رخ دهد.
+             if the paragraph cannot be found in its parent collection, has no valid
+             rendering bounds, or an error occurs while rendering the image.
 
 
 
@@ -23,13 +24,14 @@ def get_image(self):
 
 
 
-## get_image {#float-float}
-یک تصویر از پاراگراف با مقیاس مشخص شده برمی‌گرداند.
+## get_image(self, scale_x, scale_y) {#float-float}
+یک تصویر از پاراگراف با مقیاس مشخص برمی‌گرداند.
 
 ### بازگشت
+
 یک تصویر شامل پاراگراف رندر شده، یا **None**
-             اگر پاراگراف در مجموعه والد خود یافت نشود، مرزهای رندر معتبری نداشته باشد،
-             یا خطایی در حین رندر تصویر رخ دهد.
+             if the paragraph cannot be found in its parent collection, has no valid
+             rendering bounds, or an error occurs while rendering the image.
 
 
 
@@ -41,8 +43,8 @@ def get_image(self, scale_x, scale_y):
 
 | پارامتر | نوع | توضیح |
 | :- | :- | :- |
-| scale_x | **float** | عامل مقیاس افقی که بر تصویر پاراگراف اعمال می‌شود. |
-| scale_y | **float** | عامل مقیاس عمودی که بر تصویر پاراگراف اعمال می‌شود. |
+| scale_x | **float** | عامل مقیاس افقی که برای تصویر پاراگراف اعمال می‌شود. |
+| scale_y | **float** | عامل مقیاس عمودی که برای تصویر پاراگراف اعمال می‌شود. |
 
 
 

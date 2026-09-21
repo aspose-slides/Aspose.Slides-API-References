@@ -6,10 +6,10 @@ type: docs
 url: /nl/aspose.slides/paragraph/get_lines_count/
 weight: 30
 ---
-## get_lines_count {#}
-Haal het aantal regels in een alinea op.
+## get_lines_count(self) {#}
+Geeft het aantal regels in een alinea terug.
 
-### Retour
+### Retourwaarde
 
 Aantal regels in een alinea
 

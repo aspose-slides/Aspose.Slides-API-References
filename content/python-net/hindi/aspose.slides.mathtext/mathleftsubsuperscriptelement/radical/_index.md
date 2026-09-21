@@ -1,0 +1,55 @@
+---
+title: radical method
+second_title: Aspose.Slides for Python via .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.mathtext/mathleftsubsuperscriptelement/radical/
+weight: 130
+---
+## radical(self, degree) {#imathelement}
+निर्दिष्ट तर्क से दिए गए डिग्री की गणितीय मूल को निर्दिष्ट करता है।
+
+### रिटर्न
+
+नया उदाहरण प्रकार [`IMathRadical`](/slides/python-net/hi/aspose.slides.mathtext/imathradical)
+
+
+
+```python
+def radical(self, degree):
+    ...
+```
+
+
+| पैरामीटर | टाइप | विवरण |
+| :- | :- | :- |
+| degree | [`IMathElement`](/slides/python-net/hi/aspose.slides.mathtext/imathelement) | Radical का तर्क |
+
+
+## radical(self, degree) {#str}
+निर्दिष्ट तर्क से दिए हुए डिग्री की गणितीय मूल को निर्दिष्ट करता है।
+
+### रिटर्न
+
+नया उदाहरण प्रकार [`IMathRadical`](/slides/python-net/hi/aspose.slides.mathtext/imathradical)
+
+
+
+```python
+def radical(self, degree):
+    ...
+```
+
+
+| पैरामीटर | टाइप | विवरण |
+| :- | :- | :- |
+| degree | **str** | Radical का तर्क |
+
+
+
+### संबंधित
+* क्लास [`IMathElement`](/slides/python-net/hi/aspose.slides.mathtext/imathelement)
+* क्लास [`IMathRadical`](/slides/python-net/hi/aspose.slides.mathtext/imathradical)
+* क्लास [`MathLeftSubSuperscriptElement`](/slides/python-net/hi/aspose.slides.mathtext/mathleftsubsuperscriptelement)
+* मॉड्यूल [`aspose.slides.mathtext`](/slides/python-net/hi/aspose.slides.mathtext)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

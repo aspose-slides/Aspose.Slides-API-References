@@ -1,0 +1,29 @@
+---
+title: progress_callback property
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
+description: 
+type: docs
+url: /th/aspose.slides.export/xpsoptions/progress_callback/
+weight: 60
+---
+## progress_callback คุณสมบัติ
+แทนวัตถุ callback สำหรับบันทึกการอัปเดตความคืบหน้าเป็นเปอร์เซ็นต์.
+ดู [`IProgressCallback`](/slides/python-net/th/aspose.slides/iprogresscallback).
+
+### คำนิยาม:
+```python
+@property
+def progress_callback(self):
+    ...
+
+@progress_callback.setter
+def progress_callback(self, value):
+    ...
+```
+
+
+### ดูเพิ่มเติม
+* คลาส [`IProgressCallback`](/slides/python-net/th/aspose.slides/iprogresscallback)
+* คลาส [`XpsOptions`](/slides/python-net/th/aspose.slides.export/xpsoptions)
+* โมดูล [`aspose.slides.export`](/slides/python-net/th/aspose.slides.export)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

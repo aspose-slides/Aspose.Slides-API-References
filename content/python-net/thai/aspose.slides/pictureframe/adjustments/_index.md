@@ -1,0 +1,25 @@
+---
+title: adjustments property
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+description: 
+type: docs
+url: /th/aspose.slides/pictureframe/adjustments/
+weight: 110
+---
+## adjustments คุณสมบัติ
+คืนค่าชุดของค่าการปรับของ shape.
+            อ่านอย่างเดียว [`IAdjustValueCollection`](/slides/python-net/th/aspose.slides/iadjustvaluecollection).
+
+### คำนิยาม:
+```python
+@property
+def adjustments(self):
+    ...
+```
+
+
+### ดูเพิ่มเติม
+* คลาส [`IAdjustValueCollection`](/slides/python-net/th/aspose.slides/iadjustvaluecollection)
+* คลาส [`PictureFrame`](/slides/python-net/th/aspose.slides/pictureframe)
+* โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

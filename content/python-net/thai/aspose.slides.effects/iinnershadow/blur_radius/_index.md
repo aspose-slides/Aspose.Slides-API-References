@@ -1,0 +1,28 @@
+---
+title: blur_radius property
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
+description: 
+type: docs
+url: /th/aspose.slides.effects/iinnershadow/blur_radius/
+weight: 30
+---
+## blur_radius คุณสมบัติ
+รัศมีเบลอ.
+            อ่าน/เขียน **float**.
+
+### คำนิยาม:
+```python
+@property
+def blur_radius(self):
+    ...
+
+@blur_radius.setter
+def blur_radius(self, value):
+    ...
+```
+
+
+### ดูเพิ่มเติม
+* คลาส [`IInnerShadow`](/slides/python-net/th/aspose.slides.effects/iinnershadow)
+* โมดูล [`aspose.slides.effects`](/slides/python-net/th/aspose.slides.effects)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

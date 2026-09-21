@@ -1,0 +1,27 @@
+---
+title: is_automatic_max_value property
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+description: 
+type: docs
+url: /th/aspose.slides.charts/axis/is_automatic_max_value/
+weight: 240
+---
+## is_automatic_max_value คุณสมบัติ
+บ่งชี้ว่าค่าสูงสุดถูกกำหนดโดยอัตโนมัติหรือไม่
+อ่าน/เขียน **bool**.
+
+### คำนิยาม:
+```python
+@property
+def is_automatic_max_value(self):
+    ...
+
+@is_automatic_max_value.setter
+def is_automatic_max_value(self, value):
+    ...
+```
+
+### ดูเพิ่มเติม
+* คลาส [`Axis`](/slides/python-net/th/aspose.slides.charts/axis)
+* โมดูล [`aspose.slides.charts`](/slides/python-net/th/aspose.slides.charts)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

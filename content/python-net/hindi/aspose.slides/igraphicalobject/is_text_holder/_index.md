@@ -1,0 +1,21 @@
+---
+title: is_text_holder property
+second_title: Aspose.Slides Python के लिए .NET के माध्यम से API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides/igraphicalobject/is_text_holder/
+weight: 260
+---
+## is_text_holder गुण
+### परिभाषा:
+```python
+@property
+def is_text_holder(self):
+    ...
+```
+
+
+### और देखें
+* वर्ग [`IGraphicalObject`](/slides/python-net/hi/aspose.slides/igraphicalobject)
+* मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

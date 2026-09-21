@@ -1,0 +1,75 @@
+---
+title: create_image_wrapper method
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
+description: 
+type: docs
+url: /th/aspose.slides/iimagewrapperfactory/create_image_wrapper/
+weight: 10
+---
+## create_image_wrapper(self, image) {#iimage}
+เริ่มต้นอินสแตนซ์ใหม่ของคลาส ImageWrapper จากภาพที่มีอยู่ที่ระบุ
+
+### ผลลัพธ์
+
+อินสแตนซ์ใหม่ของ [`IImageWrapper`](/slides/python-net/th/aspose.slides/iimagewrapper)
+
+
+
+```python
+def create_image_wrapper(self, image):
+    ...
+```
+
+
+| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| :- | :- | :- |
+| image | [`IImage`](/slides/python-net/th/aspose.slides/iimage) | Existing Image **aspose.slides.Image** |
+
+
+## create_image_wrapper(self, stream) {#iorawiobase}
+เริ่มต้นอินสแตนซ์ใหม่ของคลาส ImageWrapper จากสตรีมข้อมูลที่ระบุ
+
+### ผลลัพธ์
+
+อินสแตนซ์ใหม่ของ [`IImageWrapper`](/slides/python-net/th/aspose.slides/iimagewrapper)
+
+
+
+```python
+def create_image_wrapper(self, stream):
+    ...
+```
+
+
+| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| :- | :- | :- |
+| stream | **io.RawIOBase** | Data stream **io.RawIOBase** |
+
+
+## create_image_wrapper(self, file_name) {#str}
+เริ่มต้นอินสแตนซ์ใหม่ของคลาส ImageWrapper จากไฟล์ที่ระบุ
+
+### ผลลัพธ์
+
+อินสแตนซ์ใหม่ของ [`IImageWrapper`](/slides/python-net/th/aspose.slides/iimagewrapper)
+
+
+
+```python
+def create_image_wrapper(self, file_name):
+    ...
+```
+
+
+| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| :- | :- | :- |
+| file_name | **str** | File name **str** |
+
+
+
+### ดูเพิ่มเติม
+* คลาส [`IImage`](/slides/python-net/th/aspose.slides/iimage)
+* คลาส [`IImageWrapper`](/slides/python-net/th/aspose.slides/iimagewrapper)
+* คลาส [`IImageWrapperFactory`](/slides/python-net/th/aspose.slides/iimagewrapperfactory)
+* โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

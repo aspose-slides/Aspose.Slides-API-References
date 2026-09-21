@@ -1,0 +1,21 @@
+---
+title: three_d_format property
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+description: 
+type: docs
+url: /th/aspose.slides/isummaryzoomframe/three_d_format/
+weight: 400
+---
+## three_d_format คุณสมบัติ
+### คำนิยาม:
+```python
+@property
+def three_d_format(self):
+    ...
+```
+
+
+### ดูเพิ่มเติม
+* คลาส [`ISummaryZoomFrame`](/slides/python-net/th/aspose.slides/isummaryzoomframe)
+* โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

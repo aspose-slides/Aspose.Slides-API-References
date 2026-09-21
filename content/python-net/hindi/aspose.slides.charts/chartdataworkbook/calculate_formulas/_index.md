@@ -1,0 +1,29 @@
+---
+title: calculate_formulas method
+second_title: Aspose.Slides for Python via .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.charts/chartdataworkbook/calculate_formulas/
+weight: 10
+---
+## calculate_formulas(self) {#}
+वर्कबुक में सभी सूत्रों की गणना करता है और संबंधित सेल मानों को अपडेट करता है।
+
+```python
+def calculate_formulas(self):
+    ...
+```
+
+### अपवाद
+
+| अपवाद | विवरण |
+| :- | :- |
+| [`CellCircularReferenceException`](/slides/python-net/hi/aspose.slides.spreadsheet/cellcircularreferenceexception) | वर्कबुक में गोलाकार संदर्भ वाले सूत्र होते हैं। |
+| [`CellUnsupportedDataException`](/slides/python-net/hi/aspose.slides.spreadsheet/cellunsupporteddataexception) | सेल डेटा समर्थित नहीं है। |
+
+### संबंधित देखें
+* क्लास [`CellCircularReferenceException`](/slides/python-net/hi/aspose.slides.spreadsheet/cellcircularreferenceexception)
+* क्लास [`CellUnsupportedDataException`](/slides/python-net/hi/aspose.slides.spreadsheet/cellunsupporteddataexception)
+* क्लास [`ChartDataWorkbook`](/slides/python-net/hi/aspose.slides.charts/chartdataworkbook)
+* मॉड्यूल [`aspose.slides.charts`](/slides/python-net/hi/aspose.slides.charts)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

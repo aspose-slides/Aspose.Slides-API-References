@@ -1,0 +1,49 @@
+---
+title: add method
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
+description: 
+type: docs
+url: /fa/aspose.slides/paragraphcollection/add/
+weight: 10
+---
+## add(self, value) {#iparagraph}
+یک Paragraph را به انتهای مجموعه اضافه می‌کند.
+
+
+```python
+def add(self, value):
+    ...
+```
+
+
+| پارامتر | نوع | توضیح |
+| :- | :- | :- |
+| value | [`IParagraph`](/slides/python-net/fa/aspose.slides/iparagraph) | Paragraphی که باید به انتهای مجموعه اضافه شود. |
+
+
+## add(self, value) {#iparagraphcollection}
+محتوای ParagraphCollection را به انتهای مجموعه اضافه می‌کند.
+
+### بازگرداندن
+اندیس (شماره) که Paragraph در آن اضافه شده است یا -1 اگر چیزی برای اضافه کردن وجود نداشته باشد.
+
+
+
+```python
+def add(self, value):
+    ...
+```
+
+
+| پارامتر | نوع | توضیح |
+| :- | :- | :- |
+| value | [`IParagraphCollection`](/slides/python-net/fa/aspose.slides/iparagraphcollection) | ParagraphCollection که باید به انتهای مجموعه اضافه شود. |
+
+
+
+### موارد مرتبط
+* کلاس [`IParagraph`](/slides/python-net/fa/aspose.slides/iparagraph)
+* کلاس [`IParagraphCollection`](/slides/python-net/fa/aspose.slides/iparagraphcollection)
+* کلاس [`ParagraphCollection`](/slides/python-net/fa/aspose.slides/paragraphcollection)
+* ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)
+* کتابخانه [`Aspose.Slides`](/slides/python-net)

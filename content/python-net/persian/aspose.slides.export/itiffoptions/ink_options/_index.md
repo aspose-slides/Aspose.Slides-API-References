@@ -1,0 +1,25 @@
+---
+title: ink_options property
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
+description: 
+type: docs
+url: /fa/aspose.slides.export/itiffoptions/ink_options/
+weight: 90
+---
+## ink_options ویژگی
+گزینه‌هایی را ارائه می‌دهد که ظاهر اشیاء Ink را در سند صادر شده کنترل می‌کند.
+            فقط خواندنی [`IInkOptions`](/slides/python-net/fa/aspose.slides.export/iinkoptions)
+
+### تعریف:
+```python
+@property
+def ink_options(self):
+    ...
+```
+
+
+### موارد مرتبط
+* کلاس [`IInkOptions`](/slides/python-net/fa/aspose.slides.export/iinkoptions)
+* کلاس [`ITiffOptions`](/slides/python-net/fa/aspose.slides.export/itiffoptions)
+* ماژول [`aspose.slides.export`](/slides/python-net/fa/aspose.slides.export)
+* کتابخانه [`Aspose.Slides`](/slides/python-net)

@@ -1,20 +1,20 @@
 ---
 title: paragraph_format property
-second_title: Aspose.Slides Python के लिए .NET के माध्यम से API संदर्भ
+second_title: Aspose.Slides for Python via .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides/paragraph/paragraph_format/
 weight: 90
 ---
-## paragraph_format गुण
-इस पैराग्राफ़ के लिए फॉर्मेटिंग ऑब्जेक्ट लौटाता है।
-केवल-पढ़ने योग्य [`IParagraphFormat`](/slides/python-net/hi/aspose.slides/iparagraphformat).
+## paragraph_format प्रॉपर्टी
+Returns the formatting object for this paragraph.
+            केवल-पढ़ने योग्य [`IParagraphFormat`](/slides/python-net/hi/aspose.slides/iparagraphformat).
 
 ### टिप्पणियाँ
 
-फ़ॉर्मेटिंग ऑब्जेक्ट केवल वर्तमान पैराग्राफ़ के लिए परिभाषित फ़ॉर्मेटिंग पैरामीटर शामिल करता है, विरासत में प्राप्त डेटा लागू नहीं होता।
+स्वरूपण वस्तु में केवल वर्तमान अनुच्छेद के लिए परिभाषित स्वरूपण पैरामीटर होते हैं, विरासत में मिला डेटा लागू नहीं किया जाता।
 
-इनहेरिटेड मानों सहित प्रभावी मान प्राप्त करने के लिए [`ParagraphFormat.get_effective`](/slides/python-net/hi/aspose.slides/paragraphformat/get_effective) मेथड का उपयोग करें।
+विरासत में मिले मानों सहित प्रभावी मान प्राप्त करने के लिए [`ParagraphFormat.get_effective`](/slides/python-net/hi/aspose.slides/paragraphformat/get_effective) विधि का उपयोग करें।
 
 ### परिभाषा:
 ```python
@@ -23,8 +23,8 @@ def paragraph_format(self):
     ...
 ```
 
-### देखें
+### संबंधित देखें
 * क्लास [`IParagraphFormat`](/slides/python-net/hi/aspose.slides/iparagraphformat)
 * क्लास [`Paragraph`](/slides/python-net/hi/aspose.slides/paragraph)
-* मोड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
+* मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
 * लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

@@ -1,0 +1,34 @@
+---
+title: is_chart_type_radar method
+second_title: Aspose.Slides voor Python via .NET API-referentie
+description: 
+type: docs
+url: /nl/aspose.slides.charts/charttypecharacterizer/is_chart_type_radar/
+weight: 120
+---
+## is_chart_type_radar(chart_type) {#charttype}
+Retourneert true als chartType een van de Radar-subtypen is.
+            De set subtypen komt overeen met de juiste set in PowerPoint (zie "Change Chart Type" dialoogvenster in PowerPoint):
+            [`ChartType.FILLED_RADAR`](/slides/python-net/nl/aspose.slides.charts/charttype/FILLED_RADAR),
+            [`ChartType.RADAR`](/slides/python-net/nl/aspose.slides.charts/charttype/RADAR),
+            [`ChartType.RADAR_WITH_MARKERS`](/slides/python-net/nl/aspose.slides.charts/charttype/RADAR_WITH_MARKERS).
+
+
+```python
+@staticmethod
+def is_chart_type_radar(chart_type):
+    ...
+```
+
+
+| Parameter | Type | Beschrijving |
+| :- | :- | :- |
+| chart_type | [`ChartType`](/slides/python-net/nl/aspose.slides.charts/charttype) |  |
+
+
+
+### Zie ook
+* enumeration [`ChartType`](/slides/python-net/nl/aspose.slides.charts/charttype)
+* class [`ChartTypeCharacterizer`](/slides/python-net/nl/aspose.slides.charts/charttypecharacterizer)
+* module [`aspose.slides.charts`](/slides/python-net/nl/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

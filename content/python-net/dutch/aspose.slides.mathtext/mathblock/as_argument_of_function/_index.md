@@ -1,0 +1,98 @@
+---
+title: as_argument_of_function method
+second_title: Aspose.Slides voor Python via .NET API-referentie
+description: 
+type: docs
+url: /nl/aspose.slides.mathtext/mathblock/as_argument_of_function/
+weight: 40
+---
+## as_argument_of_function(self, function_name) {#imathelement}
+Neemt de opgegeven functie waarbij deze instantie als argument wordt gebruikt
+
+### Retourwaarde
+
+Nieuw wiskundig element van het type [`IMathFunction`](/slides/python-net/nl/aspose.slides.mathtext/imathfunction)
+
+```python
+def as_argument_of_function(self, function_name):
+    ...
+```
+
+| Parameter | Type | Beschrijving |
+| :- | :- | :- |
+| function_name | [`IMathElement`](/slides/python-net/nl/aspose.slides.mathtext/imathelement) | Functienaam |
+
+## as_argument_of_function(self, function_name) {#str}
+Neemt de opgegeven functie waarbij deze instantie als argument wordt gebruikt
+
+### Retourwaarde
+
+Nieuw wiskundig element van het type [`IMathFunction`](/slides/python-net/nl/aspose.slides.mathtext/imathfunction)
+
+```python
+def as_argument_of_function(self, function_name):
+    ...
+```
+
+| Parameter | Type | Beschrijving |
+| :- | :- | :- |
+| function_name | **str** | Functienaam |
+
+## as_argument_of_function(self, function_type) {#mathfunctionsofoneargument}
+Neemt de opgegeven functie waarbij deze instantie als argument wordt gebruikt
+
+### Retourwaarde
+
+Nieuw wiskundig element van het type [`IMathFunction`](/slides/python-net/nl/aspose.slides.mathtext/imathfunction)
+
+```python
+def as_argument_of_function(self, function_type):
+    ...
+```
+
+| Parameter | Type | Beschrijving |
+| :- | :- | :- |
+| function_type | [`MathFunctionsOfOneArgument`](/slides/python-net/nl/aspose.slides.mathtext/mathfunctionsofoneargument) | Een van de veelvoorkomende functietypen met één argument |
+
+## as_argument_of_function(self, function_type, additional_argument) {#mathfunctionsoftwoarguments-imathelement}
+Neemt de opgegeven functie waarbij deze instantie als argument wordt gebruikt en een opgegeven extra argument
+
+### Retourwaarde
+
+Nieuw wiskundig element van het type [`IMathFunction`](/slides/python-net/nl/aspose.slides.mathtext/imathfunction)
+
+```python
+def as_argument_of_function(self, function_type, additional_argument):
+    ...
+```
+
+| Parameter | Type | Beschrijving |
+| :- | :- | :- |
+| function_type | [`MathFunctionsOfTwoArguments`](/slides/python-net/nl/aspose.slides.mathtext/mathfunctionsoftwoarguments) | Een van de veelvoorkomende functietypen met twee argumenten: Log, Lim, Min, Max |
+| additional_argument | [`IMathElement`](/slides/python-net/nl/aspose.slides.mathtext/imathelement) | Aanvullend argument afhankelijk van het type functie |
+
+## as_argument_of_function(self, function_type, additional_argument) {#mathfunctionsoftwoarguments-str}
+Neemt de opgegeven functie waarbij deze instantie als argument wordt gebruikt en een opgegeven extra argument
+
+### Retourwaarde
+
+Nieuw wiskundig element van het type [`IMathFunction`](/slides/python-net/nl/aspose.slides.mathtext/imathfunction)
+
+```python
+def as_argument_of_function(self, function_type, additional_argument):
+    ...
+```
+
+| Parameter | Type | Beschrijving |
+| :- | :- | :- |
+| function_type | [`MathFunctionsOfTwoArguments`](/slides/python-net/nl/aspose.slides.mathtext/mathfunctionsoftwoarguments) | Een van de veelvoorkomende functietypen met twee argumenten: Log, Lim, Min, Max |
+| additional_argument | **str** | Aanvullend argument afhankelijk van het type functie |
+
+### Zie ook
+* klasse [`IMathElement`](/slides/python-net/nl/aspose.slides.mathtext/imathelement)
+* klasse [`IMathFunction`](/slides/python-net/nl/aspose.slides.mathtext/imathfunction)
+* klasse [`MathBlock`](/slides/python-net/nl/aspose.slides.mathtext/mathblock)
+* enumeratie [`MathFunctionsOfOneArgument`](/slides/python-net/nl/aspose.slides.mathtext/mathfunctionsofoneargument)
+* enumeratie [`MathFunctionsOfTwoArguments`](/slides/python-net/nl/aspose.slides.mathtext/mathfunctionsoftwoarguments)
+* module [`aspose.slides.mathtext`](/slides/python-net/nl/aspose.slides.mathtext)
+* bibliotheek [`Aspose.Slides`](/slides/python-net)

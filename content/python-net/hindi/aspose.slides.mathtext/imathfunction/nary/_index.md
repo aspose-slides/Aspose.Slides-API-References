@@ -1,0 +1,41 @@
+---
+title: nary method
+second_title: Aspose.Slides for Python via .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.mathtext/imathfunction/nary/
+weight: 100
+---
+## nary(self, type, lower_limit, upper_limit) {#mathnaryoperatortypes-imathelement-imathelement}
+
+```python
+def nary(self, type, lower_limit, upper_limit):
+    ...
+```
+
+| पैरामीटर | टाइप | विवरण |
+| :- | :- | :- |
+| type | [`MathNaryOperatorTypes`](/slides/python-net/hi/aspose.slides.mathtext/mathnaryoperatortypes) |  |
+| lower_limit | [`IMathElement`](/slides/python-net/hi/aspose.slides.mathtext/imathelement) |  |
+| upper_limit | [`IMathElement`](/slides/python-net/hi/aspose.slides.mathtext/imathelement) |  |
+
+## nary(self, type, lower_limit, upper_limit) {#mathnaryoperatortypes-str-str}
+
+```python
+def nary(self, type, lower_limit, upper_limit):
+    ...
+```
+
+| पैरामीटर | टाइप | विवरण |
+| :- | :- | :- |
+| type | [`MathNaryOperatorTypes`](/slides/python-net/hi/aspose.slides.mathtext/mathnaryoperatortypes) |  |
+| lower_limit | **str** |  |
+| upper_limit | **str** |  |
+
+### संबंधित देखें
+* क्लास [`IMathElement`](/slides/python-net/hi/aspose.slides.mathtext/imathelement)
+* क्लास [`IMathFunction`](/slides/python-net/hi/aspose.slides.mathtext/imathfunction)
+* क्लास [`IMathNaryOperator`](/slides/python-net/hi/aspose.slides.mathtext/imathnaryoperator)
+* enumeration [`MathNaryOperatorTypes`](/slides/python-net/hi/aspose.slides.mathtext/mathnaryoperatortypes)
+* मॉड्यूल [`aspose.slides.mathtext`](/slides/python-net/hi/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

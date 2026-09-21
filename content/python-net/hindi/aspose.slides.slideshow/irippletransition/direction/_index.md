@@ -1,0 +1,29 @@
+---
+title: direction property
+second_title: Aspose.Slides for Python via .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.slideshow/irippletransition/direction/
+weight: 20
+---
+## दिशा प्रॉपर्टी
+परिवर्तन की दिशा।
+            पढ़ें/लिखें [`TransitionCornerAndCenterDirectionType`](/slides/python-net/hi/aspose.slides.slideshow/transitioncornerandcenterdirectiontype).
+
+### परिभाषा:
+```python
+@property
+def direction(self):
+    ...
+
+@direction.setter
+def direction(self, value):
+    ...
+```
+
+
+### संबंधित देखें
+* क्लास [`IRippleTransition`](/slides/python-net/hi/aspose.slides.slideshow/irippletransition)
+* एन्यूमरेशन [`TransitionCornerAndCenterDirectionType`](/slides/python-net/hi/aspose.slides.slideshow/transitioncornerandcenterdirectiontype)
+* मॉड्यूल [`aspose.slides.slideshow`](/slides/python-net/hi/aspose.slides.slideshow)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

@@ -7,8 +7,8 @@ url: /nl/aspose.slides/iparagraph/text/
 weight: 120
 ---
 ## tekst eigenschap
-Haalt of stelt de platte tekst van een paragraaf in.
-            Lezen/Schrijven **str**.
+Haalt of stelt de platte tekst van een alinea in.
+            Lezen/schrijven **str**.
 
 ### Definitie:
 ```python

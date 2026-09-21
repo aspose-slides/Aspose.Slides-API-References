@@ -1,0 +1,24 @@
+---
+title: child_nodes property
+second_title: Aspose.Slides for Python via .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.smartart/ismartartnode/child_nodes/
+weight: 30
+---
+## child_nodes प्रॉपर्टी
+वर्तमान नोड के सभी चाइल्ड नोड्स के संग्रह लौटाता है।
+            केवल-पढ़ने योग्य [`ISmartArtNodeCollection`](/slides/python-net/hi/aspose.slides.smartart/ismartartnodecollection).
+
+### परिभाषा:
+```python
+@property
+def child_nodes(self):
+    ...
+```
+
+### संबंधित देखें
+* क्लास [`ISmartArtNode`](/slides/python-net/hi/aspose.slides.smartart/ismartartnode)
+* क्लास [`ISmartArtNodeCollection`](/slides/python-net/hi/aspose.slides.smartart/ismartartnodecollection)
+* मॉड्यूल [`aspose.slides.smartart`](/slides/python-net/hi/aspose.slides.smartart)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

@@ -1,14 +1,14 @@
 ---
 title: portions property
-second_title: Aspose.Slides Python के लिए .NET API संदर्भ
+second_title: Aspose.Slides के लिए Python के माध्यम से .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides/paragraph/portions/
 weight: 100
 ---
-## portions प्रॉपर्टी
-एक टेक्स्ट भागों के संग्रह को लौटाता है।
-            केवल-पठन [`IPortionCollection`](/slides/python-net/hi/aspose.slides/iportioncollection).
+## भागों की प्रॉपर्टी
+एक टेक्स्ट भागों का संग्रह लौटाता है।
+केवल-पढ़ने-योग्य [`IPortionCollection`](/slides/python-net/hi/aspose.slides/iportioncollection).
 
 ### परिभाषा:
 ```python

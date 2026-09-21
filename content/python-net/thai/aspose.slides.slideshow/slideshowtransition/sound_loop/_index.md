@@ -1,0 +1,28 @@
+---
+title: sound_loop property
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
+description: 
+type: docs
+url: /th/aspose.slides.slideshow/slideshowtransition/sound_loop/
+weight: 70
+---
+## sound_loop คุณสมบัติ
+คุณลักษณะนี้ระบุว่าการเล่นเสียงจะวนซ้ำจนกว่าจะเกิดเหตุการณ์เสียงครั้งต่อไปใน
+สไลด์โชว์.
+อ่าน/เขียน **bool**.
+
+### คำนิยาม:
+```python
+@property
+def sound_loop(self):
+    ...
+
+@sound_loop.setter
+def sound_loop(self, value):
+    ...
+```
+
+### ดูเพิ่มเติม
+* คลาส [`SlideShowTransition`](/slides/python-net/th/aspose.slides.slideshow/slideshowtransition)
+* โมดูล [`aspose.slides.slideshow`](/slides/python-net/th/aspose.slides.slideshow)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

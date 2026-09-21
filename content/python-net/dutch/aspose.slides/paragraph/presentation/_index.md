@@ -6,7 +6,7 @@ type: docs
 url: /nl/aspose.slides/paragraph/presentation/
 weight: 110
 ---
-## presentation eigenschap
+## presentatie-eigenschap
 ### Definitie:
 ```python
 @property

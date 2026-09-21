@@ -1,0 +1,29 @@
+---
+title: IMathDelimiterFactory class
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้างอิง API
+description: 
+type: docs
+url: /th/aspose.slides.mathtext/imathdelimiterfactory/
+---
+## IMathDelimiterFactory คลาส
+
+อนุญาตให้สร้างตัวคั่นทางคณิตศาสตร์
+
+ประเภท IMathDelimiterFactory เปิดเผยสมาชิกต่อไปนี้:
+
+## เมธอด
+
+| เมธอด | คำอธิบาย |
+| :- | :- |
+| [`create_math_delimiter(self, element)`](/slides/python-net/th/aspose.slides.mathtext/imathdelimiterfactory/create_math_delimiter/#imathelement) | สร้างตัวคั่นคณิตศาสตร์โดยนำไปใช้กับอิลเมนต์ |
+| [`create_math_delimiter(self, math_elements)`](/slides/python-net/th/aspose.slides.mathtext/imathdelimiterfactory/create_math_delimiter/#imathelementcollection) | สร้างตัวคั่นคณิตศาสตร์โดยนำไปใช้กับอิลเมนต์ |
+
+
+### หมายเหตุ
+
+สำหรับความเข้ากันได้กับ COM
+
+
+### ดูเพิ่มเติม
+* โมดูล [`aspose.slides.mathtext`](/slides/python-net/th/aspose.slides.mathtext)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

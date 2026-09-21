@@ -1,0 +1,23 @@
+---
+title: skew_offset_x property
+second_title: Aspose.Slides Python के लिए .NET के माध्यम से API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.animation/behaviorproperty/skew_offset_x/
+weight: 850
+---
+## skew_offset_x गुण
+प्रतिनिधित्व करता है 'skew.offset.x' गुण
+
+### परिभाषा:
+```python
+@property
+def skew_offset_x(self):
+    ...
+```
+
+
+### देखें
+* क्लास [`BehaviorProperty`](/slides/python-net/hi/aspose.slides.animation/behaviorproperty)
+* मॉड्यूल [`aspose.slides.animation`](/slides/python-net/hi/aspose.slides.animation)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

@@ -1,0 +1,25 @@
+---
+title: effect_3d property
+second_title: Aspose.Slides Python के लिए .NET के माध्यम से API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.charts/iformat/effect_3d/
+weight: 20
+---
+## effect_3d गुण
+एक चार्ट का 3D स्वरूप लौटाता है।
+            केवल-पढ़ने योग्य [`IThreeDFormat`](/slides/python-net/hi/aspose.slides/ithreedformat).
+
+### परिभाषा:
+```python
+@property
+def effect_3d(self):
+    ...
+```
+
+
+### संबंधित देखें
+* क्लास [`IFormat`](/slides/python-net/hi/aspose.slides.charts/iformat)
+* क्लास [`IThreeDFormat`](/slides/python-net/hi/aspose.slides/ithreedformat)
+* मॉड्यूल [`aspose.slides.charts`](/slides/python-net/hi/aspose.slides.charts)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

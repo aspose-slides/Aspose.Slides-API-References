@@ -1,0 +1,76 @@
+---
+title: add method
+second_title: Aspose.Slides voor Python via .NET API-referentie
+description: 
+type: docs
+url: /nl/aspose.slides/gradientstopcollection/add/
+weight: 10
+---
+## add(self, position, color) {#float-asposepydrawingcolor}
+Maakt de nieuwe gradient stop aan en voegt deze toe aan het einde van de collectie.
+
+### Retour
+
+Index van de nieuwe gradient stop in de collectie.
+
+
+
+```python
+def add(self, position, color):
+    ...
+```
+
+| Parameter | Type | Beschrijving |
+| :- | :- | :- |
+| position | **float** | Positie van de nieuwe gradient stop. |
+| color | **aspose.slides.Color** | Kleur van de nieuwe gradient stop. |
+
+
+## add(self, position, preset_color) {#float-presetcolor}
+Maakt de nieuwe gradient stop aan en voegt deze toe aan het einde van de collectie.
+
+### Retour
+
+Index van de nieuwe gradient stop in de collectie.
+
+
+
+```python
+def add(self, position, preset_color):
+    ...
+```
+
+| Parameter | Type | Beschrijving |
+| :- | :- | :- |
+| position | **float** | Positie van de nieuwe gradient stop. |
+| preset_color | [`PresetColor`](/slides/python-net/nl/aspose.slides/presetcolor) | Kleur van de nieuwe gradient stop. |
+
+
+## add(self, position, scheme_color) {#float-schemecolor}
+Maakt de nieuwe gradient stop aan en voegt deze toe aan het einde van de collectie.
+
+### Retour
+
+Index van de nieuwe gradient stop in de collectie.
+
+
+
+```python
+def add(self, position, scheme_color):
+    ...
+```
+
+| Parameter | Type | Beschrijving |
+| :- | :- | :- |
+| position | **float** | Positie van de nieuwe gradient stop. |
+| scheme_color | [`SchemeColor`](/slides/python-net/nl/aspose.slides/schemecolor) | Kleur van de nieuwe gradient stop. |
+
+
+
+### Zie ook
+* klasse [`GradientStopCollection`](/slides/python-net/nl/aspose.slides/gradientstopcollection)
+* klasse [`IGradientStop`](/slides/python-net/nl/aspose.slides/igradientstop)
+* enumeratie [`PresetColor`](/slides/python-net/nl/aspose.slides/presetcolor)
+* enumeratie [`SchemeColor`](/slides/python-net/nl/aspose.slides/schemecolor)
+* module [`aspose.slides`](/slides/python-net/nl/aspose.slides)
+* bibliotheek [`Aspose.Slides`](/slides/python-net)

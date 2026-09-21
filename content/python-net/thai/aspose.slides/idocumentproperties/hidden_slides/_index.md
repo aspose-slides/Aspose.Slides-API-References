@@ -1,0 +1,24 @@
+---
+title: hidden_slides property
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+description: 
+type: docs
+url: /th/aspose.slides/idocumentproperties/hidden_slides/
+weight: 200
+---
+## hidden_slides คุณสมบัติ
+ระบุจำนวนสไลด์ที่ซ่อนอยู่ในเอกสารงานนำเสนอ.
+            อ่านอย่างเดียว **int**.
+
+### คำนิยาม:
+```python
+@property
+def hidden_slides(self):
+    ...
+```
+
+
+### ดูเพิ่มเติม
+* คลาส [`IDocumentProperties`](/slides/python-net/th/aspose.slides/idocumentproperties)
+* โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

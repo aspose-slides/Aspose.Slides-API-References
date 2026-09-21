@@ -1,14 +1,14 @@
 ---
 title: get_rect method
-second_title: Aspose.Slides Python के लिए .NET API रेफ़रेंस
+second_title: Aspose.Slides Python के लिये .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides/iparagraph/get_rect/
 weight: 30
 ---
-## get_rect {#}
-पैराग्राफ को सीमित करने वाले आयत के निर्देशांक प्राप्त करें। आयत में सभी पंक्तियों का
-            पाठ पैराग्राफ में, खाली पंक्तियों सहित।
+## get_rect(self) {#}
+पैराग्राफ को सीमित करने वाले आयत के निर्देशांक प्राप्त करें। आयत पैराग्राफ में सभी
+            पाठ पंक्तियों, जिसमें खाली पंक्तियाँ भी शामिल हैं, को सम्मिलित करती है।
 
 ### रिटर्न
 
@@ -24,8 +24,7 @@ def get_rect(self):
 
 
 
-### देखें भी
-
+### संबंधित देखें
 * क्लास [`IParagraph`](/slides/python-net/hi/aspose.slides/iparagraph)
 * मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
 * लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

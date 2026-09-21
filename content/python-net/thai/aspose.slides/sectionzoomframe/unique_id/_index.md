@@ -1,0 +1,26 @@
+---
+title: unique_id property
+second_title: อ้างอิง API ของ Aspose.Slides สำหรับ Python ผ่าน .NET
+description: 
+type: docs
+url: /th/aspose.slides/sectionzoomframe/unique_id/
+weight: 460
+---
+## unique_id คุณสมบัติ
+คืนค่าตัวระบุภายในที่มีขอบเขตของงานนำเสนอซึ่งตั้งใจให้ใช้โดยส่วนเสริมหรือโค้ดอื่น.
+            เนื่องจากค่านี้สามารถกำหนดใหม่โดยผู้ใช้หรือโดยโปรแกรม, จึงไม่ควรถือว่าเป็นคีย์ที่ไม่ซ้ำกันแบบถาวร.
+            อ่านอย่างเดียว **int**.
+            ดูเพิ่มเติม [`Shape.office_interop_shape_id`](/slides/python-net/th/aspose.slides/shape/office_interop_shape_id).
+
+### การกำหนด:
+```python
+@property
+def unique_id(self):
+    ...
+```
+
+
+### ดูเพิ่มเติม
+* คลาส [`SectionZoomFrame`](/slides/python-net/th/aspose.slides/sectionzoomframe)
+* โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

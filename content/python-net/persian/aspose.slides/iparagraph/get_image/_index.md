@@ -6,12 +6,12 @@ type: docs
 url: /fa/aspose.slides/iparagraph/get_image/
 weight: 10
 ---
-## get_image {#}
-یک تصویر از پاراگراف برمی‌گرداند.
+## get_image(self) {#}
+بازگرداندن تصویر پاراگراف.
 
 ### بازگشت
 
-یک تصویر شامل پاراگراف رندر شده، یا **None** اگر پاراگراف در مجموعه والد خود پیدا نشود، محدوده رندر معتبری نداشته باشد، یا هنگام رندر تصویر خطایی رخ دهد.
+تصویری شامل پاراگراف رندر شده، یا **None** اگر پاراگراف در مجموعه والد یافت نشود، مرزهای رندر معتبری نداشته باشد، یا هنگام رندر تصویر خطایی رخ دهد.
 
 
 
@@ -22,12 +22,12 @@ def get_image(self):
 
 
 
-## get_image {#float-float}
-یک تصویر از پاراگراف با مقیاس مشخص‌شده برمی‌گرداند.
+## get_image(self, scale_x, scale_y) {#float-float}
+بازگرداندن تصویر پاراگراف با مقیاس مشخص شده.
 
 ### بازگشت
 
-یک تصویر شامل پاراگراف رندر شده، یا **None** اگر پاراگراف در مجموعه والد خود پیدا نشود، محدوده رندر معتبری نداشته باشد، یا هنگام رندر تصویر خطایی رخ دهد.
+تصویری شامل پاراگراف رندر شده، یا **None** اگر پاراگراف در مجموعه والد یافت نشود، مرزهای رندر معتبری نداشته باشد، یا هنگام رندر تصویر خطایی رخ دهد.
 
 
 
@@ -39,13 +39,13 @@ def get_image(self, scale_x, scale_y):
 
 | پارامتر | نوع | توضیح |
 | :- | :- | :- |
-| scale_x | **float** | ضریب مقیاس افقی اعمال‌شده به تصویر پاراگراف. |
-| scale_y | **float** | ضریب مقیاس عمودی اعمال‌شده به تصویر پاراگراف. |
+| scale_x | **float** | مقدار مقیاس افقی که به تصویر پاراگراف اعمال می‌شود. |
+| scale_y | **float** | مقدار مقیاس عمودی که به تصویر پاراگراف اعمال می‌شود. |
 
 
 
-### مراجع
-* class [`IImage`](/slides/python-net/fa/aspose.slides/iimage)
-* class [`IParagraph`](/slides/python-net/fa/aspose.slides/iparagraph)
-* module [`aspose.slides`](/slides/python-net/fa/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+### موارد مرتبط
+* کلاس [`IImage`](/slides/python-net/fa/aspose.slides/iimage)
+* کلاس [`IParagraph`](/slides/python-net/fa/aspose.slides/iparagraph)
+* ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)
+* کتابخانه [`Aspose.Slides`](/slides/python-net)

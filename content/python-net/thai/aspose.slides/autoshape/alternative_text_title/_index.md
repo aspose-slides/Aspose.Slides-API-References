@@ -1,0 +1,28 @@
+---
+title: alternative_text_title property
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+description: 
+type: docs
+url: /th/aspose.slides/autoshape/alternative_text_title/
+weight: 140
+---
+## alternative_text_title คุณสมบัติ
+คืนค่า หรือกำหนดหัวข้อของข้อความแทนที่ที่เชื่อมกับรูปร่าง.
+            อ่าน/เขียน **str**.
+
+### คำนิยาม:
+```python
+@property
+def alternative_text_title(self):
+    ...
+
+@alternative_text_title.setter
+def alternative_text_title(self, value):
+    ...
+```
+
+
+### ดูเพิ่มเติม
+* คลาส [`AutoShape`](/slides/python-net/th/aspose.slides/autoshape)
+* โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

@@ -1,0 +1,21 @@
+---
+title: presentation property
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+description: 
+type: docs
+url: /th/aspose.slides.theme/icolorscheme/presentation/
+weight: 150
+---
+## คุณสมบัติการนำเสนอ
+### คำจำกัดความ:
+```python
+@property
+def presentation(self):
+    ...
+```
+
+
+### ดูเพิ่มเติม
+* คลาส [`IColorScheme`](/slides/python-net/th/aspose.slides.theme/icolorscheme)
+* โมดูล [`aspose.slides.theme`](/slides/python-net/th/aspose.slides.theme)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

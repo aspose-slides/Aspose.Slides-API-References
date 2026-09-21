@@ -1,0 +1,28 @@
+---
+title: alternative_text_title property
+second_title: Aspose.Slides for Python via .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides/oleobjectframe/alternative_text_title/
+weight: 90
+---
+## alternative_text_title गुण
+एक आकृति से संबंधित वैकल्पिक पाठ का शीर्षक लौटाता है या सेट करता है।
+            पढ़ें/लिखें **str**.
+
+### परिभाषा:
+```python
+@property
+def alternative_text_title(self):
+    ...
+
+@alternative_text_title.setter
+def alternative_text_title(self, value):
+    ...
+```
+
+
+### संबंधित देखें
+* क्लास [`OleObjectFrame`](/slides/python-net/hi/aspose.slides/oleobjectframe)
+* मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

@@ -1,14 +1,14 @@
 ---
 title: text property
-second_title: Aspose.Slides برای Python از طریق .NET مرجع API
+second_title: مرجع API Aspose.Slides برای Python از طریق .NET
 description: 
 type: docs
 url: /fa/aspose.slides/iparagraph/text/
 weight: 120
 ---
 ## ویژگی متن
-متن ساده یک پاراگراف را دریافت یا تنظیم می‌کند.
-            خواند/نوشت **str**.
+دریافت یا تنظیم متن ساده یک پاراگراف.
+            خواندنی/نوشتنی **str**.
 
 ### تعریف:
 ```python

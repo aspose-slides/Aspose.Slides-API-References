@@ -1,18 +1,18 @@
 ---
 title: get_rect method
-second_title: Aspose.Slides voor Python via .NET API Referentie
+second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/iparagraph/get_rect/
 weight: 30
 ---
-## get_rect {#}
-Haalt de coördinaten op van de rechthoek die de alinea omsluit. De rechthoek omvat alle regels
+## get_rect(self) {#}
+Haalt de coördinaten op van het rect dat de alinea begrenst. Het rect omvat alle regels van
             tekst in de alinea, inclusief lege regels.
 
-### Retourwaarden
+### Retourneert
 
-Rechthoek die de alinea omsluit **aspose.slides.RectangleF**
+Rechthoek die de alinea begrenst **aspose.slides.RectangleF**
 
 
 

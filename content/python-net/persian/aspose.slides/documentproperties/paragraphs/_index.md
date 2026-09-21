@@ -1,0 +1,24 @@
+---
+title: paragraphs property
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
+description: 
+type: docs
+url: /fa/aspose.slides/documentproperties/paragraphs/
+weight: 350
+---
+## خاصیت paragraphs
+تعداد کل paragraphs یافت شده در یک سند را در صورت امکان برمی‌گرداند.
+            فقط‌خواندنی **int**.
+
+### تعریف:
+```python
+@property
+def paragraphs(self):
+    ...
+```
+
+
+### موارد دیگر
+* کلاس [`DocumentProperties`](/slides/python-net/fa/aspose.slides/documentproperties)
+* ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)
+* کتابخانه [`Aspose.Slides`](/slides/python-net)

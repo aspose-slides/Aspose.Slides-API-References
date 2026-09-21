@@ -1,0 +1,30 @@
+---
+title: frame_size property
+second_title: Aspose.Slides for Python via .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.export/igifoptions/frame_size/
+weight: 50
+---
+## frame_size गुण
+फ़्रेम आकार को प्राप्त करता है या सेट करता है।
+
+### टिप्पणी
+
+यदि आकार खाली है तो मान [`IPresentation.slide_size`](/slides/python-net/hi/aspose.slides/ipresentation/slide_size) से लिया जाएगा
+
+### परिभाषा:
+```python
+@property
+def frame_size(self):
+    ...
+
+@frame_size.setter
+def frame_size(self, value):
+    ...
+```
+
+### संबंधित देखें
+* क्लास [`IGifOptions`](/slides/python-net/hi/aspose.slides.export/igifoptions)
+* मॉड्यूल [`aspose.slides.export`](/slides/python-net/hi/aspose.slides.export)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

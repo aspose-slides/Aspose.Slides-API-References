@@ -1,0 +1,24 @@
+---
+title: frame_index property
+second_title: Aspose.Slides Python के लिए .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.export/presentationenumerableframesgenerator/frame_index/
+weight: 50
+---
+## frame_index गुण
+फ़्रेम इंडेक्स प्राप्त करता है।
+
+### परिभाषा:
+```python
+@property
+def frame_index(self):
+    ...
+```
+
+
+
+### संबंधित देखें
+* क्लास [`PresentationEnumerableFramesGenerator`](/slides/python-net/hi/aspose.slides.export/presentationenumerableframesgenerator)
+* मॉड्यूल [`aspose.slides.export`](/slides/python-net/hi/aspose.slides.export)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

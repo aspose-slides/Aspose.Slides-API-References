@@ -1,0 +1,24 @@
+---
+title: clear method
+second_title: Aspose.Slides के लिए Python via .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.animation/behaviorcollection/clear/
+weight: 20
+---
+## clear(self) {#}
+किसी संग्रह से सभी व्यवहार हटाता है।
+
+
+```python
+def clear(self):
+    ...
+```
+
+
+
+
+### संबंधित देखें
+* क्लास [`BehaviorCollection`](/slides/python-net/hi/aspose.slides.animation/behaviorcollection)
+* मॉड्यूल [`aspose.slides.animation`](/slides/python-net/hi/aspose.slides.animation)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

@@ -1,0 +1,26 @@
+---
+title: PropertyValueType enumeration
+second_title: Aspose.Slides for Python के माध्यम से .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.animation/propertyvaluetype/
+---
+## PropertyValueType एन्यूमरेशन
+
+प्रॉपर्टी वैल्यू टाइप्स का प्रतिनिधित्व करता है।
+
+PropertyValueType प्रकार निम्नलिखित सदस्यों को उजागर करता है:
+
+## फ़ील्ड
+
+| फ़ील्ड | विवरण |
+| :- | :- |
+| NOT_DEFINED |  |
+| STRING |  |
+| NUMBER |  |
+| COLOR |  |
+
+
+### संबंधित देखें
+* मॉड्यूल [`aspose.slides.animation`](/slides/python-net/hi/aspose.slides.animation)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)
