@@ -1,14 +1,14 @@
 ---
 title: portions property
-second_title: Tham chiếu API Aspose.Slides cho Python thông qua .NET
+second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides/iparagraph/portions/
 weight: 90
 ---
 ## portions thuộc tính
-Trả về bộ sưu tập các đoạn văn bản.
-            Chỉ đọc [`IPortionCollection`](/slides/python-net/vi/aspose.slides/iportioncollection).
+Trả về tập hợp các đoạn văn bản.
+            Chỉ-đọc [`IPortionCollection`](/slides/python-net/vi/aspose.slides/iportioncollection).
 
 ### Định nghĩa:
 ```python
@@ -18,7 +18,7 @@ def portions(self):
 ```
 
 
-### Xem thêm
+### Xem Thêm
 * lớp [`IParagraph`](/slides/python-net/vi/aspose.slides/iparagraph)
 * lớp [`IPortionCollection`](/slides/python-net/vi/aspose.slides/iportioncollection)
 * mô-đun [`aspose.slides`](/slides/python-net/vi/aspose.slides)

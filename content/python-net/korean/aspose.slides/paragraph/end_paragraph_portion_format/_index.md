@@ -7,8 +7,8 @@ url: /ko/aspose.slides/paragraph/end_paragraph_portion_format/
 weight: 80
 ---
 ## end_paragraph_portion_format 속성
-다른 부분이 마지막 부분 뒤에 삽입될 경우 사용할 부분 속성을 지정합니다 
-            마지막 부분.
+다른 부분이 마지막 부분 뒤에
+            삽입될 경우 사용될 부분 속성을 지정합니다.
 
 ### 정의:
 ```python
@@ -20,6 +20,7 @@ def end_paragraph_portion_format(self):
 def end_paragraph_portion_format(self, value):
     ...
 ```
+
 
 ### 참조
 * 클래스 [`Paragraph`](/slides/python-net/ko/aspose.slides/paragraph)

@@ -1,0 +1,96 @@
+---
+title: aspose.slides.effects
+second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
+description: 
+type: docs
+url: /vi/aspose.slides.effects/
+---
+Chứa các lớp để làm việc với các hiệu ứng khác nhau trong bài thuyết trình Microsoft PowerPoint.
+
+## Các Lớp
+
+| Lớp | Mô tả |
+| :- | :- |
+| [`AlphaBiLevel`](/slides/python-net/vi/aspose.slides.effects/alphabilevel/) | Đại diện cho hiệu ứng Alpha Bi-Level.<br/>            Các giá trị Alpha (độ trong suốt) nhỏ hơn ngưỡng sẽ được đổi thành 0 (hoàn toàn trong suốt) và<br/>            các giá trị alpha lớn hơn hoặc bằng ngưỡng sẽ được đổi thành 100% (hoàn toàn đục). |
+| [`AlphaCeiling`](/slides/python-net/vi/aspose.slides.effects/alphaceiling/) | Đại diện cho hiệu ứng Alpha Ceiling.<br/>            Các giá trị Alpha (độ trong suốt) lớn hơn 0 sẽ được đổi thành 100%.<br/>            Nói cách khác, bất kỳ đối tượng nào có độ trong suốt một phần sẽ trở thành hoàn toàn đục. |
+| [`AlphaFloor`](/slides/python-net/vi/aspose.slides.effects/alphafloor/) | Đại diện cho hiệu ứng Alpha Floor.<br/>            Các giá trị Alpha (độ trong suốt) nhỏ hơn 100% sẽ được đổi thành 0.<br/>            Nói cách khác, bất kỳ đối tượng nào có độ trong suốt một phần sẽ trở thành hoàn toàn trong suốt. |
+| [`AlphaInverse`](/slides/python-net/vi/aspose.slides.effects/alphainverse/) | Đại diện cho hiệu ứng Alpha Inverse.<br/>            Các giá trị Alpha (độ trong suốt) được đảo ngược bằng cách trừ khỏi 100%. |
+| [`AlphaModulate`](/slides/python-net/vi/aspose.slides.effects/alphamodulate/) | Đại diện cho hiệu ứng Alpha Modulate.<br/>            Các giá trị alpha (độ trong suốt) của hiệu ứng được nhân với một tỷ lệ phần trăm cố định.<br/>            Bộ chứa hiệu ứng chỉ định một hiệu ứng chứa các giá trị alpha để điều chỉnh. |
+| [`AlphaModulateFixed`](/slides/python-net/vi/aspose.slides.effects/alphamodulatefixed/) | Đại diện cho hiệu ứng Alpha Modulate Fixed.<br/>            Các giá trị alpha (độ trong suốt) của hiệu ứng được nhân với một tỷ lệ phần trăm cố định. |
+| [`AlphaReplace`](/slides/python-net/vi/aspose.slides.effects/alphareplace/) | Đại diện cho hiệu ứng Alpha Replace.<br/>            Các giá trị alpha (độ trong suốt) của hiệu ứng được thay thế bằng một giá trị alpha cố định. |
+| [`BiLevel`](/slides/python-net/vi/aspose.slides.effects/bilevel/) | Đại diện cho hiệu ứng Bi-Level (đen/trắng).<br/>            Các màu đầu vào có độ sáng nhỏ hơn giá trị ngưỡng được đổi thành màu đen.<br/>            Các màu đầu vào có độ sáng lớn hơn hoặc bằng giá trị ngưỡng được đổi thành màu trắng.<br/>            Các giá trị alpha của hiệu ứng không bị ảnh hưởng bởi hiệu ứng này. |
+| [`Blur`](/slides/python-net/vi/aspose.slides.effects/blur/) | Đại diện cho hiệu ứng Blur được áp dụng cho toàn bộ hình dạng, bao gồm cả phần đổ màu.<br/>            Tất cả các kênh màu, bao gồm alpha, đều bị ảnh hưởng. |
+| [`BrightnessContrast`](/slides/python-net/vi/aspose.slides.effects/brightnesscontrast/) | Đại diện cho hiệu ứng BrightnessContrast.<br/>            Điều chỉnh độ sáng và độ tương phản. |
+| [`ColorChange`](/slides/python-net/vi/aspose.slides.effects/colorchange/) | Đại diện cho hiệu ứng Color Change.<br/>            Các đối tượng FromColor được thay thế bằng các đối tượng ToColor. |
+| [`ColorReplace`](/slides/python-net/vi/aspose.slides.effects/colorreplace/) | Đại diện cho hiệu ứng Color Replacement.<br/>            Tất cả các màu của hiệu ứng được đổi thành một màu cố định.<br/>            Các giá trị alpha không bị ảnh hưởng. |
+| [`Duotone`](/slides/python-net/vi/aspose.slides.effects/duotone/) | Đại diện cho hiệu ứng Duotone.<br/>            Đối với mỗi pixel, kết hợp Color1 và Color2 thông qua nội suy tuyến tính<br/>            để xác định màu mới cho pixel đó. |
+| [`EffectFactory`](/slides/python-net/vi/aspose.slides.effects/effectfactory/) | Cho phép tạo hiệu ứng |
+| [`FillOverlay`](/slides/python-net/vi/aspose.slides.effects/filloverlay/) | Đại diện cho hiệu ứng Fill Overlay. Fill Overlay có thể được sử dụng để chỉ định<br/>            một lớp đổ màu bổ sung cho một đối tượng và hòa trộn hai lớp đổ màu lại với nhau. |
+| [`Glow`](/slides/python-net/vi/aspose.slides.effects/glow/) | Đại diện cho hiệu ứng Glow, trong đó một viền mờ màu được thêm ở bên ngoài các cạnh của đối tượng. |
+| [`GrayScale`](/slides/python-net/vi/aspose.slides.effects/grayscale/) | Đại diện cho hiệu ứng Gray Scale. Chuyển tất cả các giá trị màu của hiệu ứng thành một sắc độ xám,<br/>            tương ứng với độ sáng của chúng. Các giá trị alpha (độ trong suốt) của hiệu ứng không bị ảnh hưởng. |
+| [`HSL`](/slides/python-net/vi/aspose.slides.effects/hsl/) | Đại diện cho hiệu ứng Hue/Saturation/Luminance.<br/>            Giá trị hue, saturation và luminance mỗi cái có thể được điều chỉnh tương đối so với giá trị hiện tại. |
+| [`IAlphaBiLevel`](/slides/python-net/vi/aspose.slides.effects/ialphabilevel/) | Đại diện cho hiệu ứng Alpha Bi-Level.<br/>            Các giá trị Alpha (độ trong suốt) nhỏ hơn ngưỡng sẽ được đổi thành 0 (hoàn toàn trong suốt) và<br/>            các giá trị alpha lớn hơn hoặc bằng ngưỡng sẽ được đổi thành 100% (hoàn toàn đục). |
+| [`IAlphaBiLevelEffectiveData`](/slides/python-net/vi/aspose.slides.effects/ialphabileveleffectivedata/) | Đối tượng bất biến đại diện cho hiệu ứng Alpha Bi-Level.<br/>            Các giá trị Alpha (độ trong suốt) nhỏ hơn ngưỡng sẽ được đổi thành 0 (hoàn toàn trong suốt) và<br/>            các giá trị alpha lớn hơn hoặc bằng ngưỡng sẽ được đổi thành 100% (hoàn toàn đục). |
+| [`IAlphaCeiling`](/slides/python-net/vi/aspose.slides.effects/ialphaceiling/) | Đại diện cho hiệu ứng Alpha Ceiling.<br/>            Các giá trị Alpha (độ trong suốt) lớn hơn 0 sẽ được đổi thành 100%.<br/>            Nói cách khác, bất kỳ đối tượng nào có độ trong suốt một phần sẽ trở thành hoàn toàn đục. |
+| [`IAlphaCeilingEffectiveData`](/slides/python-net/vi/aspose.slides.effects/ialphaceilingeffectivedata/) | Đối tượng bất biến đại diện cho hiệu ứng Alpha Ceiling.<br/>            Các giá trị Alpha (độ trong suốt) lớn hơn 0 sẽ được đổi thành 100%.<br/>            Nói cách khác, bất kỳ đối tượng nào có độ trong suốt một phần sẽ trở thành hoàn toàn đục. |
+| [`IAlphaFloor`](/slides/python-net/vi/aspose.slides.effects/ialphafloor/) | Đại diện cho hiệu ứng Alpha Floor.<br/>            Các giá trị Alpha (độ trong suốt) nhỏ hơn 100% sẽ được đổi thành 0.<br/>            Nói cách khác, bất kỳ đối tượng nào có độ trong suốt một phần sẽ trở thành hoàn toàn trong suốt. |
+| [`IAlphaFloorEffectiveData`](/slides/python-net/vi/aspose.slides.effects/ialphaflooreffectivedata/) | Đối tượng bất biến đại diện cho hiệu ứng Alpha Floor.<br/>            Các giá trị Alpha (độ trong suốt) nhỏ hơn 100% sẽ được đổi thành 0.<br/>            Nói cách khác, bất kỳ đối tượng nào có độ trong suốt một phần sẽ trở thành hoàn toàn trong suốt. |
+| [`IAlphaInverse`](/slides/python-net/vi/aspose.slides.effects/ialphainverse/) | Đại diện cho hiệu ứng Alpha Inverse.<br/>            Các giá trị Alpha (độ trong suốt) được đảo ngược bằng cách trừ khỏi 100%. |
+| [`IAlphaInverseEffectiveData`](/slides/python-net/vi/aspose.slides.effects/ialphainverseeffectivedata/) | Đối tượng bất biến đại diện cho hiệu ứng Alpha Inverse.<br/>            Các giá trị Alpha (độ trong suốt) được đảo ngược bằng cách trừ khỏi 100%. |
+| [`IAlphaModulate`](/slides/python-net/vi/aspose.slides.effects/ialphamodulate/) | Đại diện cho hiệu ứng Alpha Modulate.<br/>            Các giá trị alpha (độ trong suốt) của hiệu ứng được nhân với một tỷ lệ phần trăm cố định.<br/>            Bộ chứa hiệu ứng chỉ định một hiệu ứng chứa các giá trị alpha để điều chỉnh. |
+| [`IAlphaModulateEffectiveData`](/slides/python-net/vi/aspose.slides.effects/ialphamodulateeffectivedata/) | Đối tượng bất biến đại diện cho hiệu ứng Alpha Modulate.<br/>            Các giá trị alpha (độ trong suốt) của hiệu ứng được nhân với một tỷ lệ phần trăm cố định.<br/>            Bộ chứa hiệu ứng chỉ định một hiệu ứng chứa các giá trị alpha để điều chỉnh. |
+| [`IAlphaModulateFixed`](/slides/python-net/vi/aspose.slides.effects/ialphamodulatefixed/) | Đại diện cho hiệu ứng Alpha Modulate Fixed.<br/>            Các giá trị alpha (độ trong suốt) của hiệu ứng được nhân với một tỷ lệ phần trăm cố định. |
+| [`IAlphaModulateFixedEffectiveData`](/slides/python-net/vi/aspose.slides.effects/ialphamodulatefixedeffectivedata/) | Đối tượng bất biến đại diện cho hiệu ứng Alpha Modulate Fixed.<br/>            Các giá trị alpha (độ trong suốt) của hiệu ứng được nhân với một tỷ lệ phần trăm cố định. |
+| [`IAlphaReplace`](/slides/python-net/vi/aspose.slides.effects/ialphareplace/) | Đại diện cho giao diện cơ sở IImageTransformOperation. |
+| [`IAlphaReplaceEffectiveData`](/slides/python-net/vi/aspose.slides.effects/ialphareplaceeffectivedata/) | Đối tượng bất biến đại diện cho hiệu ứng Alpha Replace.<br/>            Các giá trị alpha (độ trong suốt) của hiệu ứng được thay thế bằng một giá trị alpha cố định. |
+| [`IBiLevel`](/slides/python-net/vi/aspose.slides.effects/ibilevel/) | Đại diện cho giao diện cơ sở IImageTransformOperation. |
+| [`IBiLevelEffectiveData`](/slides/python-net/vi/aspose.slides.effects/ibileveleffectivedata/) | Đối tượng bất biến đại diện cho hiệu ứng Bi-Level (đen/trắng).<br/>            Các màu đầu vào có độ sáng nhỏ hơn giá trị ngưỡng được đổi thành màu đen.<br/>            Các màu đầu vào có độ sáng lớn hơn hoặc bằng giá trị ngưỡng được đổi thành màu trắng.<br/>            Các giá trị alpha của hiệu ứng không bị ảnh hưởng bởi hiệu ứng này. |
+| [`IBlur`](/slides/python-net/vi/aspose.slides.effects/iblur/) | Đại diện cho hiệu ứng Blur được áp dụng cho toàn bộ hình dạng, bao gồm cả phần đổ màu.<br/>            Tất cả các kênh màu, bao gồm alpha, đều bị ảnh hưởng. |
+| [`IBlurEffectiveData`](/slides/python-net/vi/aspose.slides.effects/iblureffectivedata/) | Đối tượng bất biến đại diện cho hiệu ứng Blur được áp dụng cho toàn bộ hình dạng, bao gồm cả phần đổ màu.<br/>            Tất cả các kênh màu, bao gồm alpha, đều bị ảnh hưởng. |
+| [`IBrightnessContrast`](/slides/python-net/vi/aspose.slides.effects/ibrightnesscontrast/) | Đại diện cho hiệu ứng BrightnessContrast.<br/>            Điều chỉnh độ sáng và độ tương phản. |
+| [`IBrightnessContrastEffectiveData`](/slides/python-net/vi/aspose.slides.effects/ibrightnesscontrasteffectivedata/) | Đối tượng bất biến đại diện cho hiệu ứng BrightnessContrast.<br/>            Điều chỉnh độ sáng và độ tương phản. |
+| [`IColorChange`](/slides/python-net/vi/aspose.slides.effects/icolorchange/) | Đại diện cho hiệu ứng Color Change.<br/>            Các đối tượng FromColor được thay thế bằng các đối tượng ToColor. |
+| [`IColorChangeEffectiveData`](/slides/python-net/vi/aspose.slides.effects/icolorchangeeffectivedata/) | Đối tượng bất biến đại diện cho hiệu ứng Color Change.<br/>            Các đối tượng FromColor được thay thế bằng các đối tượng ToColor. |
+| [`IColorReplace`](/slides/python-net/vi/aspose.slides.effects/icolorreplace/) | Đại diện cho hiệu ứng Color Replacement. |
+| [`IColorReplaceEffectiveData`](/slides/python-net/vi/aspose.slides.effects/icolorreplaceeffectivedata/) | Đối tượng bất biến đại diện cho hiệu ứng Color Replacement.<br/>            Tất cả các màu của hiệu ứng được đổi thành một màu cố định.<br/>            Các giá trị alpha không bị ảnh hưởng. |
+| [`IDuotone`](/slides/python-net/vi/aspose.slides.effects/iduotone/) | Đại diện cho hiệu ứng Duotone. |
+| [`IDuotoneEffectiveData`](/slides/python-net/vi/aspose.slides.effects/iduotoneeffectivedata/) | Đối tượng bất biến đại diện cho hiệu ứng Duotone.<br/>            Đối với mỗi pixel, kết hợp clr1 và clr2 thông qua nội suy tuyến tính<br/>            để xác định màu mới cho pixel đó. |
+| [`IEffectEffectiveData`](/slides/python-net/vi/aspose.slides.effects/ieffecteffectivedata/) | Lớp cơ sở cho các đối tượng bất biến, đại diện cho hiệu ứng. |
+| [`IEffectFactory`](/slides/python-net/vi/aspose.slides.effects/ieffectfactory/) | Cho phép tạo các thể hiện của hiệu ứng |
+| [`IFillOverlay`](/slides/python-net/vi/aspose.slides.effects/ifilloverlay/) | Đại diện cho hiệu ứng Fill Overlay. Fill Overlay có thể được sử dụng để chỉ định<br/>            một lớp đổ màu bổ sung cho một đối tượng và hòa trộn hai lớp đổ màu lại với nhau. |
+| [`IFillOverlayEffectiveData`](/slides/python-net/vi/aspose.slides.effects/ifilloverlayeffectivedata/) | Đối tượng bất biến đại diện cho hiệu ứng Fill Overlay. Fill Overlay có thể được sử dụng để chỉ định<br/>            một lớp đổ màu bổ sung cho một đối tượng và hòa trộn hai lớp đổ màu lại với nhau. |
+| [`IGlow`](/slides/python-net/vi/aspose.slides.effects/iglow/) | Đại diện cho hiệu ứng Glow, trong đó một viền mờ màu được thêm ở bên ngoài các cạnh của đối tượng. |
+| [`IGlowEffectiveData`](/slides/python-net/vi/aspose.slides.effects/igloweffectivedata/) | Đối tượng bất biến đại diện cho hiệu ứng Glow, trong đó một viền mờ màu được thêm ở bên ngoài các cạnh của đối tượng. |
+| [`IGrayScale`](/slides/python-net/vi/aspose.slides.effects/igrayscale/) | Đại diện cho giao diện IImageTransformOperation. |
+| [`IGrayScaleEffectiveData`](/slides/python-net/vi/aspose.slides.effects/igrayscaleeffectivedata/) | Đối tượng bất biến đại diện cho hiệu ứng Gray Scale. Chuyển tất cả các giá trị màu của hiệu ứng thành một sắc độ xám,<br/>            tương ứng với độ sáng của chúng. Các giá trị alpha (độ trong suốt) không bị ảnh hưởng. |
+| [`IHSL`](/slides/python-net/vi/aspose.slides.effects/ihsl/) | Đại diện cho hiệu ứng Hue/Saturation/Luminance.<br/>            Giá trị hue, saturation và luminance mỗi cái có thể được điều chỉnh tương đối so với giá trị hiện tại. |
+| [`IHSLEffectiveData`](/slides/python-net/vi/aspose.slides.effects/ihsleffectivedata/) | Đại diện cho hiệu ứng Hue/Saturation/Luminance.<br/>            Giá trị hue, saturation và luminance mỗi cái có thể được điều chỉnh tương đối so với giá trị hiện tại. |
+| [`IImageTransformOCollectionEffectiveData`](/slides/python-net/vi/aspose.slides.effects/iimagetransformocollectioneffectivedata/) | Đối tượng bất biến đại diện cho một bộ sưu tập chỉ đọc các hiệu ứng biến đổi ảnh có hiệu lực. |
+| [`IImageTransformOperation`](/slides/python-net/vi/aspose.slides.effects/iimagetransformoperation/) | Đại diện cho hiệu ứng biến đổi ảnh trừu tượng. |
+| [`IImageTransformOperationCollection`](/slides/python-net/vi/aspose.slides.effects/iimagetransformoperationcollection/) | Đại diện cho một bộ sưu tập các hiệu ứng được áp dụng lên ảnh. |
+| [`IImageTransformOperationFactory`](/slides/python-net/vi/aspose.slides.effects/iimagetransformoperationfactory/) | Cho phép tạo các thể hiện của hiệu ứng ảnh |
+| [`IInnerShadow`](/slides/python-net/vi/aspose.slides.effects/iinnershadow/) | Đại diện cho hiệu ứng inner shadow. |
+| [`IInnerShadowEffectiveData`](/slides/python-net/vi/aspose.slides.effects/iinnershadoweffectivedata/) | Đối tượng bất biến đại diện cho hiệu ứng inner shadow. |
+| [`ILuminance`](/slides/python-net/vi/aspose.slides.effects/iluminance/) | Đại diện cho hiệu ứng Luminance.<br/>            Độ sáng làm dịch tuyến tính tất cả các màu gần hơn tới màu trắng hoặc đen.<br/>            Độ tương phản làm tăng hoặc giảm khoảng cách giữa các màu. |
+| [`ILuminanceEffectiveData`](/slides/python-net/vi/aspose.slides.effects/iluminanceeffectivedata/) | Đại diện cho hiệu ứng Luminance.<br/>            Độ sáng làm dịch tuyến tính tất cả các màu gần hơn tới màu trắng hoặc đen.<br/>            Độ tương phản làm tăng hoặc giảm khoảng cách giữa các màu. |
+| [`IOuterShadow`](/slides/python-net/vi/aspose.slides.effects/ioutershadow/) | Đại diện cho hiệu ứng Outer Shadow. |
+| [`IOuterShadowEffectiveData`](/slides/python-net/vi/aspose.slides.effects/ioutershadoweffectivedata/) | Đối tượng bất biến đại diện cho hiệu ứng Outer Shadow. |
+| [`IPresetShadow`](/slides/python-net/vi/aspose.slides.effects/ipresetshadow/) | Đại diện cho hiệu ứng Preset Shadow. |
+| [`IPresetShadowEffectiveData`](/slides/python-net/vi/aspose.slides.effects/ipresetshadoweffectivedata/) | Đối tượng bất biến đại diện cho hiệu ứng Preset Shadow. |
+| [`IReflection`](/slides/python-net/vi/aspose.slides.effects/ireflection/) | Đại diện cho hiệu ứng reflection. |
+| [`IReflectionEffectiveData`](/slides/python-net/vi/aspose.slides.effects/ireflectioneffectivedata/) | Đối tượng bất biến đại diện cho hiệu ứng Reflection. |
+| [`ISoftEdge`](/slides/python-net/vi/aspose.slides.effects/isoftedge/) | Đại diện cho hiệu ứng Soft Edge. <br/>            Các cạnh của hình dạng bị mờ, trong khi phần đổ màu không bị ảnh hưởng. |
+| [`ISoftEdgeEffectiveData`](/slides/python-net/vi/aspose.slides.effects/isoftedgeeffectivedata/) | Đối tượng bất biến đại diện cho hiệu ứng soft edge. <br/>            Các cạnh của hình dạng bị mờ, trong khi phần đổ màu không bị ảnh hưởng. |
+| [`ITint`](/slides/python-net/vi/aspose.slides.effects/itint/) | Đại diện cho hiệu ứng Tint.<br/>            Dịch chuyển các giá trị màu của hiệu ứng về phía/ra xa hue theo lượng đã chỉ định. |
+| [`ITintEffectiveData`](/slides/python-net/vi/aspose.slides.effects/itinteffectivedata/) | Đối tượng bất biến đại diện cho hiệu ứng Tint.<br/>            Dịch chuyển các giá trị màu của hiệu ứng về phía/ra xa hue theo lượng đã chỉ định. |
+| [`ImageTransformOCollectionEffectiveData`](/slides/python-net/vi/aspose.slides.effects/imagetransformocollectioneffectivedata/) | Đối tượng bất biến đại diện cho một bộ sưu tập chỉ đọc các hiệu ứng biến đổi ảnh có hiệu lực. |
+| [`ImageTransformOperation`](/slides/python-net/vi/aspose.slides.effects/imagetransformoperation/) | Đại diện cho hiệu ứng biến đổi ảnh trừu tượng. |
+| [`ImageTransformOperationCollection`](/slides/python-net/vi/aspose.slides.effects/imagetransformoperationcollection/) | Đại diện cho một bộ sưu tập các hiệu ứng được áp dụng lên ảnh. |
+| [`ImageTransformOperationFactory`](/slides/python-net/vi/aspose.slides.effects/imagetransformoperationfactory/) | Cho phép tạo các thao tác biến đổi ảnh |
+| [`InnerShadow`](/slides/python-net/vi/aspose.slides.effects/innershadow/) | Đại diện cho hiệu ứng Inner Shadow. |
+| [`Luminance`](/slides/python-net/vi/aspose.slides.effects/luminance/) | Đại diện cho hiệu ứng Luminance.<br/>            Độ sáng làm dịch tuyến tính tất cả các màu gần hơn tới màu trắng hoặc đen.<br/>            Độ tương phản làm tăng hoặc giảm khoảng cách giữa các màu. |
+| [`OuterShadow`](/slides/python-net/vi/aspose.slides.effects/outershadow/) | Đại diện cho hiệu ứng Outer Shadow. |
+| [`PresetShadow`](/slides/python-net/vi/aspose.slides.effects/presetshadow/) | Đại diện cho hiệu ứng Preset Shadow. |
+| [`Reflection`](/slides/python-net/vi/aspose.slides.effects/reflection/) | Đại diện cho hiệu ứng Reflection. |
+| [`SoftEdge`](/slides/python-net/vi/aspose.slides.effects/softedge/) | Đại diện cho hiệu ứng soft edge. <br/>            Các cạnh của hình dạng bị mờ, trong khi phần đổ màu không bị ảnh hưởng. |
+| [`Tint`](/slides/python-net/vi/aspose.slides.effects/tint/) | Đại diện cho hiệu ứng Tint.<br/>            Dịch chuyển các giá trị màu của hiệu ứng về phía/ra xa hue theo lượng đã chỉ định. |

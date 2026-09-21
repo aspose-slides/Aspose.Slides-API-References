@@ -1,20 +1,20 @@
 ---
 title: paragraph_format property
-second_title: Aspose.Slides cho Python qua Tham chiếu API .NET
+second_title: Aspose.Slides cho Python thông qua .NET Tham chiếu API
 description: 
 type: docs
 url: /vi/aspose.slides/paragraph/paragraph_format/
 weight: 90
 ---
 ## paragraph_format thuộc tính
-Returns the formatting object for this paragraph.
+Trả về đối tượng định dạng cho đoạn văn này.
             Chỉ đọc [`IParagraphFormat`](/slides/python-net/vi/aspose.slides/iparagraphformat).
 
 ### Ghi chú
 
-The formatting object contains the formatting parameters defined for the current paragraph only, inherited data is not applied.
+Đối tượng định dạng chứa các tham số định dạng được định nghĩa chỉ cho đoạn văn hiện tại, dữ liệu kế thừa không được áp dụng.
 
-In order to get the effective values including inherited ones use the [`ParagraphFormat.get_effective`](/slides/python-net/vi/aspose.slides/paragraphformat/get_effective) method.
+Để lấy các giá trị thực tế bao gồm cả các giá trị kế thừa, hãy sử dụng phương thức [`ParagraphFormat.get_effective`](/slides/python-net/vi/aspose.slides/paragraphformat/get_effective).
 
 ### Định nghĩa:
 ```python
@@ -23,7 +23,7 @@ def paragraph_format(self):
     ...
 ```
 
-### Xem thêm
+### Xem Thêm
 * lớp [`IParagraphFormat`](/slides/python-net/vi/aspose.slides/iparagraphformat)
 * lớp [`Paragraph`](/slides/python-net/vi/aspose.slides/paragraph)
 * module [`aspose.slides`](/slides/python-net/vi/aspose.slides)

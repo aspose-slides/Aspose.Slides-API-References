@@ -6,12 +6,14 @@ type: docs
 url: /vi/aspose.slides/paragraph/get_image/
 weight: 20
 ---
-## get_image {#}
+## get_image(self) {#}
 Trả về một hình ảnh của đoạn văn.
 
 ### Trả về
 
-Một hình ảnh chứa đoạn văn đã được render, hoặc **None** nếu đoạn văn không thể tìm thấy trong bộ sưu tập cha, không có giới hạn render hợp lệ, hoặc xảy ra lỗi khi render hình ảnh.
+Một hình ảnh chứa đoạn văn đã được render, hoặc **None**
+             nếu không thể tìm thấy đoạn văn trong bộ sưu tập cha, không có
+             giới hạn render hợp lệ, hoặc xảy ra lỗi khi render hình ảnh.
 
 
 
@@ -22,12 +24,14 @@ def get_image(self):
 
 
 
-## get_image {#float-float}
-Trả về một hình ảnh của đoạn văn với tỉ lệ đã chỉ định.
+## get_image(self, scale_x, scale_y) {#float-float}
+Trả về một hình ảnh của đoạn văn với tỷ lệ đã chỉ định.
 
 ### Trả về
 
-Một hình ảnh chứa đoạn văn đã được render, hoặc **None** nếu đoạn văn không thể tìm thấy trong bộ sưu tập cha, không có giới hạn render hợp lệ, hoặc xảy ra lỗi khi render hình ảnh.
+Một hình ảnh chứa đoạn văn đã được render, hoặc **None**
+             nếu không thể tìm thấy đoạn văn trong bộ sưu tập cha, không có
+             giới hạn render hợp lệ, hoặc xảy ra lỗi khi render hình ảnh.
 
 
 
@@ -37,14 +41,14 @@ def get_image(self, scale_x, scale_y):
 ```
 
 
-| Tham số | Kiểu | Mô tả |
+| Parameter | Type | Description |
 | :- | :- | :- |
-| scale_x | **float** | Hệ số tỷ lệ ngang được áp dụng cho hình ảnh đoạn văn. |
-| scale_y | **float** | Hệ số tỷ lệ dọc được áp dụng cho hình ảnh đoạn văn. |
+| scale_x | **float** | Hệ số tỷ lệ theo chiều ngang được áp dụng cho hình ảnh đoạn văn. |
+| scale_y | **float** | Hệ số tỷ lệ theo chiều dọc được áp dụng cho hình ảnh đoạn văn. |
 
 
 
-### Xem thêm
+### Xem Thêm
 * lớp [`IImage`](/slides/python-net/vi/aspose.slides/iimage)
 * lớp [`Paragraph`](/slides/python-net/vi/aspose.slides/paragraph)
 * module [`aspose.slides`](/slides/python-net/vi/aspose.slides)

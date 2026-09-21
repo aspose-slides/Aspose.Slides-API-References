@@ -7,7 +7,7 @@ url: /ko/aspose.slides/iparagraph/paragraph_format/
 weight: 80
 ---
 ## paragraph_format 속성
-이 문단에 대한 포맷팅 개체를 반환합니다.
+이 단락에 대한 서식 개체를 반환합니다.
             읽기 전용 [`IParagraphFormat`](/slides/python-net/ko/aspose.slides/iparagraphformat).
 
 ### 정의:

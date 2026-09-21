@@ -1,0 +1,24 @@
+---
+title: start_pos_alpha property
+second_title: Aspose.Slides for Python via .NET API 레퍼런스
+description: 
+type: docs
+url: /ko/aspose.slides.effects/ireflectioneffectivedata/start_pos_alpha/
+weight: 140
+---
+## start_pos_alpha 속성
+Specifies the start position (along the alpha gradient ramp) of the start alpha value (percents).
+            읽기 전용 **float**.
+
+### 정의:
+```python
+@property
+def start_pos_alpha(self):
+    ...
+```
+
+
+### 참조
+* 클래스 [`IReflectionEffectiveData`](/slides/python-net/ko/aspose.slides.effects/ireflectioneffectivedata)
+* 모듈 [`aspose.slides.effects`](/slides/python-net/ko/aspose.slides.effects)
+* 라이브러리 [`Aspose.Slides`](/slides/python-net)

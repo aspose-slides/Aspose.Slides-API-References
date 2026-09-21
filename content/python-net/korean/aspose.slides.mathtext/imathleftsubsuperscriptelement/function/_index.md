@@ -1,0 +1,45 @@
+---
+title: function method
+second_title: Aspose.Slides Python용 .NET API 레퍼런스
+description: 
+type: docs
+url: /ko/aspose.slides.mathtext/imathleftsubsuperscriptelement/function/
+weight: 50
+---
+## function(self, function_argument) {#imathelement}
+
+
+
+```python
+def function(self, function_argument):
+    ...
+```
+
+
+| 매개변수 | 형식 | 설명 |
+| :- | :- | :- |
+| function_argument | [`IMathElement`](/slides/python-net/ko/aspose.slides.mathtext/imathelement) |  |
+
+
+## function(self, function_argument) {#str}
+
+
+
+```python
+def function(self, function_argument):
+    ...
+```
+
+
+| 매개변수 | 형식 | 설명 |
+| :- | :- | :- |
+| function_argument | **str** |  |
+
+
+
+### 참고
+* 클래스 [`IMathElement`](/slides/python-net/ko/aspose.slides.mathtext/imathelement)
+* 클래스 [`IMathFunction`](/slides/python-net/ko/aspose.slides.mathtext/imathfunction)
+* 클래스 [`IMathLeftSubSuperscriptElement`](/slides/python-net/ko/aspose.slides.mathtext/imathleftsubsuperscriptelement)
+* 모듈 [`aspose.slides.mathtext`](/slides/python-net/ko/aspose.slides.mathtext)
+* 라이브러리 [`Aspose.Slides`](/slides/python-net)

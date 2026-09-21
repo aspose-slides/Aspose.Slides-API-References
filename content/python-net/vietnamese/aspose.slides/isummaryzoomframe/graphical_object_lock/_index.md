@@ -1,0 +1,21 @@
+---
+title: graphical_object_lock property
+second_title: Tham khảo API Aspose.Slides cho Python qua .NET
+description: 
+type: docs
+url: /vi/aspose.slides/isummaryzoomframe/graphical_object_lock/
+weight: 190
+---
+## graphical_object_lock thuộc tính
+### Định nghĩa:
+```python
+@property
+def graphical_object_lock(self):
+    ...
+```
+
+
+### Xem thêm
+* lớp [`ISummaryZoomFrame`](/slides/python-net/vi/aspose.slides/isummaryzoomframe)
+* module [`aspose.slides`](/slides/python-net/vi/aspose.slides)
+* thư viện [`Aspose.Slides`](/slides/python-net)

@@ -1,13 +1,13 @@
 ---
 title: text property
-second_title: Aspose.Slides cho Python qua .NET Tham chiếu API
+second_title: Tham chiếu API Aspose.Slides cho Python thông qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides/iparagraph/text/
 weight: 120
 ---
-## thuộc tính văn bản
-Lấy hoặc đặt văn bản thuần của một đoạn.
+## thuộc tính text
+Nhận hoặc đặt văn bản thuần của một đoạn.
             Đọc/ghi **str**.
 
 ### Định nghĩa:
@@ -20,7 +20,6 @@ def text(self):
 def text(self, value):
     ...
 ```
-
 
 ### Xem thêm
 * lớp [`IParagraph`](/slides/python-net/vi/aspose.slides/iparagraph)

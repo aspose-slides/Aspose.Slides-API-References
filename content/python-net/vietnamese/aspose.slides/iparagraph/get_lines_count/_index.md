@@ -6,12 +6,12 @@ type: docs
 url: /vi/aspose.slides/iparagraph/get_lines_count/
 weight: 20
 ---
-## get_lines_count {#}
-Lấy số dòng trong một đoạn văn.
+## get_lines_count(self) {#}
+Lấy số dòng trong một Paragraph.
 
 ### Trả về
 
-Số dòng trong một đoạn văn
+Số dòng trong một Paragraph
 
 
 
@@ -25,5 +25,5 @@ def get_lines_count(self):
 
 ### Xem thêm
 * lớp [`IParagraph`](/slides/python-net/vi/aspose.slides/iparagraph)
-* module [`aspose.slides`](/slides/python-net/vi/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* mô-đun [`aspose.slides`](/slides/python-net/vi/aspose.slides)
+* thư viện [`Aspose.Slides`](/slides/python-net)

@@ -1,0 +1,23 @@
+---
+title: segment_data property
+second_title: Aspose.Slides for Python via .NET API 레퍼런스
+description: 
+type: docs
+url: /ko/aspose.slides/ipathsegment/segment_data/
+weight: 20
+---
+## segment_data 속성
+세그먼트의 경로 데이터
+
+### 정의:
+```python
+@property
+def segment_data(self):
+    ...
+```
+
+
+### 참고
+* 클래스 [`IPathSegment`](/slides/python-net/ko/aspose.slides/ipathsegment)
+* 모듈 [`aspose.slides`](/slides/python-net/ko/aspose.slides)
+* 라이브러리 [`Aspose.Slides`](/slides/python-net)

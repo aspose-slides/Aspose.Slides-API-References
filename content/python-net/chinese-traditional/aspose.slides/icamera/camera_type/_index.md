@@ -1,0 +1,29 @@
+---
+title: camera_type property
+second_title: Aspose.Slides for Python via .NET API 參考文件
+description: 
+type: docs
+url: /zh-hant/aspose.slides/icamera/camera_type/
+weight: 30
+---
+## camera_type 屬性
+相機類型
+            讀/寫 [`CameraPresetType`](/slides/python-net/zh-hant/aspose.slides/camerapresettype).
+
+### 定義:
+```python
+@property
+def camera_type(self):
+    ...
+
+@camera_type.setter
+def camera_type(self, value):
+    ...
+```
+
+
+### 另請參閱
+* 列舉 [`CameraPresetType`](/slides/python-net/zh-hant/aspose.slides/camerapresettype)
+* 類別 [`ICamera`](/slides/python-net/zh-hant/aspose.slides/icamera)
+* 模組 [`aspose.slides`](/slides/python-net/zh-hant/aspose.slides)
+* 函式庫 [`Aspose.Slides`](/slides/python-net)

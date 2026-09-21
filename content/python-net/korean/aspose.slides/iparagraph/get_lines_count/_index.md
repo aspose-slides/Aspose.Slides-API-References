@@ -1,15 +1,15 @@
 ---
 title: get_lines_count method
-second_title: Aspose.Slides for Python via .NET API 레퍼런스
+second_title: Aspose.Slides Python용 .NET API 참조
 description: 
 type: docs
 url: /ko/aspose.slides/iparagraph/get_lines_count/
 weight: 20
 ---
-## get_lines_count {#}
-단락의 줄 수를 가져옵니다.
+## get_lines_count(self) {#}
+단락에 있는 줄 수를 반환합니다.
 
-### 반환값
+### 반환
 
 단락의 줄 수
 

@@ -6,12 +6,12 @@ type: docs
 url: /vi/aspose.slides/paragraph/get_lines_count/
 weight: 30
 ---
-## get_lines_count {#}
-Lấy số dòng trong một đoạn văn.
+## get_lines_count(self) {#}
+Lấy số lượng dòng trong một đoạn.
 
 ### Trả về
 
-Số dòng trong một đoạn văn
+Số dòng trong một đoạn
 
 
 

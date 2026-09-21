@@ -1,0 +1,25 @@
+---
+title: font_italic property
+second_title: Aspose.Slides for Python via .NET API 레퍼런스
+description: 
+type: docs
+url: /ko/aspose.slides.charts/ichartportionformat/font_italic/
+weight: 100
+---
+## font_italic 속성
+### 정의:
+```python
+@property
+def font_italic(self):
+    ...
+
+@font_italic.setter
+def font_italic(self, value):
+    ...
+```
+
+
+### 참조
+* 클래스 [`IChartPortionFormat`](/slides/python-net/ko/aspose.slides.charts/ichartportionformat)
+* 모듈 [`aspose.slides.charts`](/slides/python-net/ko/aspose.slides.charts)
+* 라이브러리 [`Aspose.Slides`](/slides/python-net)

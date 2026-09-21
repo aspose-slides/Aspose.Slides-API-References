@@ -1,0 +1,29 @@
+---
+title: remove method
+second_title: Aspose.Slides for Python via .NET API 레퍼런스
+description: 
+type: docs
+url: /ko/aspose.slides/imasterslidecollection/remove/
+weight: 30
+---
+## remove(self, value) {#imasterslide}
+컬렉션에서 특정 객체의 첫 번째 발생을 제거합니다.
+
+
+```python
+def remove(self, value):
+    ...
+```
+
+
+| 매개변수 | 유형 | 설명 |
+| :- | :- | :- |
+| value | [`IMasterSlide`](/slides/python-net/ko/aspose.slides/imasterslide) | 컬렉션에서 제거할 마스터 슬라이드입니다. |
+
+
+
+### 참고
+* 클래스 [`IMasterSlide`](/slides/python-net/ko/aspose.slides/imasterslide)
+* 클래스 [`IMasterSlideCollection`](/slides/python-net/ko/aspose.slides/imasterslidecollection)
+* 모듈 [`aspose.slides`](/slides/python-net/ko/aspose.slides)
+* 라이브러리 [`Aspose.Slides`](/slides/python-net)

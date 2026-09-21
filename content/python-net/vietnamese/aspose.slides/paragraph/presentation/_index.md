@@ -1,12 +1,12 @@
 ---
 title: presentation property
-second_title: Aspose.Slides cho Python thông qua Tham khảo API .NET
+second_title: Aspose.Slides cho Python via .NET Tham chiếu API
 description: 
 type: docs
 url: /vi/aspose.slides/paragraph/presentation/
 weight: 110
 ---
-## presentation property
+## presentation thuộc tính
 ### Định nghĩa:
 ```python
 @property
