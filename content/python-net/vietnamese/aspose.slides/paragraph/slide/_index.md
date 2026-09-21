@@ -1,12 +1,12 @@
 ---
 title: slide property
-second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
+second_title: Aspose.Slides cho Python qua .NET Tham chiếu API
 description: 
 type: docs
 url: /vi/aspose.slides/paragraph/slide/
 weight: 120
 ---
-## Thuộc tính slide
+## thuộc tính slide
 ### Định nghĩa:
 ```python
 @property
@@ -17,5 +17,5 @@ def slide(self):
 
 ### Xem thêm
 * lớp [`Paragraph`](/slides/python-net/vi/aspose.slides/paragraph)
-* module [`aspose.slides`](/slides/python-net/vi/aspose.slides)
+* mô-đun [`aspose.slides`](/slides/python-net/vi/aspose.slides)
 * thư viện [`Aspose.Slides`](/slides/python-net)

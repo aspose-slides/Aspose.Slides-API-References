@@ -1,0 +1,30 @@
+---
+title: is_visible property
+second_title: Aspose.Slides for Python via .NET API 參考
+description: 
+type: docs
+url: /zh-hant/aspose.slides.charts/idatalabel/is_visible/
+weight: 180
+---
+## is_visible 屬性
+False 表示資料標籤不可見（因此所有 Show*-flags（ShowValue，...）皆為 false）。
+            唯讀 **bool**。
+
+
+### 備註
+
+如果資料標籤可見，您可以使用 Hide() 方法將其隱藏。
+            但是如果資料標籤不可見（IsVisible 為 false），您可以透過將 Show*-flags（ShowValue，...）設定為 true 狀態，使資料標籤可見。
+
+### 定義:
+```python
+@property
+def is_visible(self):
+    ...
+```
+
+
+### 另請參閱
+* 類別 [`IDataLabel`](/slides/python-net/zh-hant/aspose.slides.charts/idatalabel)
+* 模組 [`aspose.slides.charts`](/slides/python-net/zh-hant/aspose.slides.charts)
+* 函式庫 [`Aspose.Slides`](/slides/python-net)

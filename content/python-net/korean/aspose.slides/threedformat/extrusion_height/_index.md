@@ -1,0 +1,28 @@
+---
+title: extrusion_height property
+second_title: Aspose.Slides for Python via .NET API 참조
+description: 
+type: docs
+url: /ko/aspose.slides/threedformat/extrusion_height/
+weight: 110
+---
+## extrusion_height 속성
+압출 효과의 높이를 반환하거나 설정합니다.
+            읽기/쓰기 **float**.
+
+### 정의:
+```python
+@property
+def extrusion_height(self):
+    ...
+
+@extrusion_height.setter
+def extrusion_height(self, value):
+    ...
+```
+
+
+### 참조
+* 클래스 [`ThreeDFormat`](/slides/python-net/ko/aspose.slides/threedformat)
+* 모듈 [`aspose.slides`](/slides/python-net/ko/aspose.slides)
+* 라이브러리 [`Aspose.Slides`](/slides/python-net)

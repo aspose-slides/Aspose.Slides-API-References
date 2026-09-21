@@ -1,6 +1,6 @@
 ---
 title: end_paragraph_portion_format property
-second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
+second_title: Aspose.Slides cho Python qua Tham chiếu API .NET
 description: 
 type: docs
 url: /vi/aspose.slides/paragraph/end_paragraph_portion_format/
@@ -22,7 +22,7 @@ def end_paragraph_portion_format(self, value):
 ```
 
 
-### Xem thêm
+### Xem Thêm
 * lớp [`Paragraph`](/slides/python-net/vi/aspose.slides/paragraph)
 * mô-đun [`aspose.slides`](/slides/python-net/vi/aspose.slides)
 * thư viện [`Aspose.Slides`](/slides/python-net)

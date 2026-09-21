@@ -1,0 +1,35 @@
+---
+title: skip_java_script_links property
+second_title: Aspose.Slides cho Python qua Tham khảo API .NET
+description: 
+type: docs
+url: /vi/aspose.slides.export/xpsoptions/skip_java_script_links/
+weight: 90
+---
+## skip_java_script_links thuộc tính
+Xác định xem có nên bỏ qua các siêu liên kết có lời gọi JavaScript khi lưu bản trình chiếu hay không. 
+Đọc/ghi **bool**. Giá trị mặc định là **false** .
+
+
+### Ghi chú
+
+Khi thuộc tính này được đặt thành **true**, các siêu liên kết có lời gọi JavaScript sẽ bị bỏ qua khi lưu.
+
+Khi thuộc tính này được đặt thành **false**, tất cả các siêu liên kết sẽ được lưu.
+
+### Định nghĩa:
+```python
+@property
+def skip_java_script_links(self):
+    ...
+
+@skip_java_script_links.setter
+def skip_java_script_links(self, value):
+    ...
+```
+
+
+### Xem thêm
+* lớp [`XpsOptions`](/slides/python-net/vi/aspose.slides.export/xpsoptions)
+* module [`aspose.slides.export`](/slides/python-net/vi/aspose.slides.export)
+* thư viện [`Aspose.Slides`](/slides/python-net)

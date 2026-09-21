@@ -1,0 +1,103 @@
+---
+title: MathMatrix class
+second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
+description: 
+type: docs
+url: /vi/aspose.slides.mathtext/mathmatrix/
+---
+## MathMatrix lớp
+
+Specifies the Matrix object, consisting of child elements laid out in one or more rows and columns. 
+            It is important to note that matrices do not have built in delimiters. 
+            To place the matrix in the brackets you should use the delimiter object (IMathDelimiter).
+            Null arguments can be used to create gaps in matrices.
+
+**Kế thừa:**[`MathMatrix`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix) → [`MathElementBase`](/slides/python-net/vi/aspose.slides.mathtext/mathelementbase)
+
+Kiểu MathMatrix cung cấp các thành viên sau:
+
+## Các hàm khởi tạo
+
+| Hām khởi tạo | Mô tả |
+| :- | :- |
+| [`__init__(self, row_count, column_count)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/__init__/#int-int) | Khởi tạo một thể hiện mới của lớp MathMatrix. |
+
+## Thuộc tính
+
+| Thuộc tính | Mô tả |
+| :- | :- |
+| [`row_count`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/row_count/) | Number of rows in the matrix |
+| [`column_count`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/column_count/) | Number of columns in the matrix |
+| [`hide_placeholders`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/hide_placeholders/) | Hide the placeholders for empty matrix elements<br/>            Default: false |
+| [`base_justification`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/base_justification/) | Specifies the vertical justification respect to surrounding text. <br/>            Possible values are top, bottom, and center.<br/>            Default: Center |
+| [`min_column_width`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/min_column_width/) | Minimum column width in twips (1/20th of a point)<br/>            The gap spacing (also referred to as “Column Gap” or “Gap Width”) is added to <br/>            the MinColumnWidth to determine the total Matrix Column Spacing<br/>            (distance between the same edges of different columns).<br/>            Default: 0. |
+| [`column_gap_rule`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/column_gap_rule/) | The type of horizontal spacing between columns of a matrix; <br/>            Horizontal spacing units can be ems or points (stored as twips).<br/>            Default: SingleSpacingGap (0) |
+| [`column_gap`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/column_gap/) | The value of horizontal spacing between columns of a matrix;<br/>            If the ColumnGapRule is set to 3 ("Exactly"), then the unit is interpreted as twips (1/20th of a point)<br/>            If the ColumnGapRule is set to 4 ("Multiple"), then the unit is interpreted as number of 0.5 em increments.<br/>            In other cases ignored.<br/>            Default: 0 |
+| [`row_gap_rule`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/row_gap_rule/) | The type of vertical spacing between rows of a matrix; <br/>            Vertical spacing units can be lines or points (stored as twips).<br/>            Default: SingleSpacingGap (0) |
+| [`row_gap`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/row_gap/) | The value of vertical spacing between rows of a matrix;<br/>            If the RowGapRule is set to 3 ("Exactly"), then the unit is interpreted as twips (1/20th of a point)<br/>            If the RowGapRule is set to 4 ("Multiple"), then the unit is interpreted as half-lines.<br/>            Default: 0 |
+
+## Phương thức
+
+| Phương thức | Mô tả |
+| :- | :- |
+| [`join(self, math_element)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/join/#imathelement) | Joins a mathematical element and forms a mathematical block |
+| [`join(self, math_text)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/join/#str) | Joins a mathematical text and forms a mathematical block |
+| [`divide(self, denominator)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/divide/#imathelement) | Creates a fraction with this numerator and specified denominator |
+| [`divide(self, denominator)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/divide/#str) | Creates a fraction with this numerator and specified denominator |
+| [`divide(self, denominator, fraction_type)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/divide/#imathelement-mathfractiontypes) | Creates a fraction of the specified type with this numerator and specified denominator |
+| [`divide(self, denominator, fraction_type)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/divide/#str-mathfractiontypes) | Creates a fraction of the specified type with this numerator and specified denominator |
+| [`enclose(self)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/enclose/#) | Encloses a math element in parenthesis |
+| [`enclose(self, beginning_character, ending_character)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/enclose/#char-char) | Encloses a math element in specified characters such as parenthesis or another characters as framing |
+| [`function(self, function_argument)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/function/#imathelement) | Takes a function of an argument using this instance as the function name |
+| [`function(self, function_argument)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/function/#str) | Takes a function of an argument using this instance as the function name |
+| [`as_argument_of_function(self, function_name)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/as_argument_of_function/#imathelement) | Takes specified function using this instance as the argument |
+| [`as_argument_of_function(self, function_name)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/as_argument_of_function/#str) | Takes specified function using this instance as the argument |
+| [`as_argument_of_function(self, function_type)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/as_argument_of_function/#mathfunctionsofoneargument) | Takes specified function using this instance as the argument |
+| [`as_argument_of_function(self, function_type, additional_argument)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/as_argument_of_function/#mathfunctionsoftwoarguments-imathelement) | Takes specified function using this instance as the argument and specified additional argument |
+| [`as_argument_of_function(self, function_type, additional_argument)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/as_argument_of_function/#mathfunctionsoftwoarguments-str) | Takes specified function using this instance as the argument and specified additional argument |
+| [`set_subscript(self, subscript)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/set_subscript/#imathelement) | Creates subscript |
+| [`set_subscript(self, subscript)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/set_subscript/#str) | Creates subscript |
+| [`set_superscript(self, superscript)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/set_superscript/#imathelement) | Creates superscript |
+| [`set_superscript(self, superscript)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/set_superscript/#str) | Creates superscript |
+| [`set_sub_superscript_on_the_right(self, subscript, superscript)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/set_sub_superscript_on_the_right/#imathelement-imathelement) | Creates subscript and superscript on the right |
+| [`set_sub_superscript_on_the_right(self, subscript, superscript)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/set_sub_superscript_on_the_right/#str-str) | Creates subscript and superscript on the right |
+| [`set_sub_superscript_on_the_left(self, subscript, superscript)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/set_sub_superscript_on_the_left/#imathelement-imathelement) | Creates subscript and superscript on the left |
+| [`set_sub_superscript_on_the_left(self, subscript, superscript)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/set_sub_superscript_on_the_left/#str-str) | Creates subscript and superscript on the left |
+| [`radical(self, degree)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/radical/#imathelement) | Specifies the mathematical root of the given degree from the specified argument. |
+| [`radical(self, degree)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/radical/#str) | Specifies the mathematical root of the given degree from the specified argument. |
+| [`set_upper_limit(self, limit)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/set_upper_limit/#imathelement) | Takes upper limit |
+| [`set_upper_limit(self, limit)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/set_upper_limit/#str) | Takes upper limit |
+| [`set_lower_limit(self, limit)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/set_lower_limit/#imathelement) | Takes lower limit |
+| [`set_lower_limit(self, limit)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/set_lower_limit/#str) | Takes lower limit |
+| [`nary(self, type, lower_limit, upper_limit)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/nary/#mathnaryoperatortypes-imathelement-imathelement) | Creates a N-ary operator |
+| [`nary(self, type, lower_limit, upper_limit)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/nary/#mathnaryoperatortypes-str-str) | Creates a N-ary operator |
+| [`integral(self, integral_type, lower_limit, upper_limit, limit_locations)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/integral/#mathintegraltypes-imathelement-imathelement-mathlimitlocations) | Takes the integral |
+| [`integral(self, integral_type, lower_limit, upper_limit)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/integral/#mathintegraltypes-imathelement-imathelement) | Takes the integral |
+| [`integral(self, integral_type)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/integral/#mathintegraltypes) | Takes the integral without limits |
+| [`integral(self, integral_type, lower_limit, upper_limit, limit_locations)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/integral/#mathintegraltypes-str-str-mathlimitlocations) | Takes the integral |
+| [`integral(self, integral_type, lower_limit, upper_limit)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/integral/#mathintegraltypes-str-str) | Takes the integral |
+| [`group(self)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/group/#) | Places this element in a group using a bottom curly bracket |
+| [`group(self, character, position, vertical_justification)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/group/#char-mathtopbotpositions-mathtopbotpositions) | Places this element in a group using a grouping character such as bottom curly bracket or another |
+| [`to_border_box(self)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/to_border_box/#) | Places this element in a border-box |
+| [`to_border_box(self, hide_top, hide_bottom, hide_left, hide_right, strikethrough_horizontal, strikethrough_vertical, strikethrough_bottom_left_to_top_right, strikethrough_top_left_to_bottom_right)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/to_border_box/#bool-bool-bool-bool-bool-bool-bool-bool) | Places this element in a border-box |
+| [`to_math_array(self)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/to_math_array/#) | Puts in a vertical array |
+| [`accent(self, accent_character)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/accent/#char) | Sets an accent mark (a character on the top of this element) |
+| [`overbar(self)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/overbar/#) | Sets a bar on the top of this element |
+| [`underbar(self)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/underbar/#) | Sets a bar on the bottom of this element |
+| [`to_box(self)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/to_box/#) | Places this element in a non-visual box (logical grouping) <br/>            which is used to group components of an equation or other instance of mathematical text.<br/>            A boxed object can (for example) serve as an operator emulator with or without an alignment point, <br/>            serve as a line break point, or be grouped such as not to allow line breaks within. |
+| [`get_column_alignment(self, column_index)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/get_column_alignment/#int) | Get the horizontal alignment of the specified column |
+| [`set_column_alignment(self, column_index, val)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/set_column_alignment/#int-mathhorizontalalignment) | Set the horizontal alignment of the specified column |
+| [`set_columns_alignment(self, column_index, columns_count, val)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/set_columns_alignment/#int-int-mathhorizontalalignment) | Set the horizontal alignment of the specified columns |
+| [`insert_row_before(self, row_index)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/insert_row_before/#int) | Insert a new row before the specified one<br/>            Initially all elements in the new row are None. |
+| [`insert_row_after(self, row_index)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/insert_row_after/#int) | Insert a new row after the specified one<br/>            Initially all elements in the new row are None. |
+| [`delete_row(self, row_index)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/delete_row/#int) | Deletes the specified row |
+| [`insert_column_before(self, column_index)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/insert_column_before/#int) | Insert a new column before the specified one<br/>            Initially all elements in the new column are None. |
+| [`insert_column_after(self, column_index)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/insert_column_after/#int) | Insert a new column after the specified one<br/>            Initially all elements in the new column are None. |
+| [`delete_column(self, column_index)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/delete_column/#int) | Deletes the specified column |
+| [`get_children(self)`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix/get_children/#) | Get children elements |
+
+### Xem thêm
+* lớp [`MathElementBase`](/slides/python-net/vi/aspose.slides.mathtext/mathelementbase)
+* lớp [`MathMatrix`](/slides/python-net/vi/aspose.slides.mathtext/mathmatrix)
+* mô-đun [`aspose.slides.mathtext`](/slides/python-net/vi/aspose.slides.mathtext)
+* thư viện [`Aspose.Slides`](/slides/python-net)

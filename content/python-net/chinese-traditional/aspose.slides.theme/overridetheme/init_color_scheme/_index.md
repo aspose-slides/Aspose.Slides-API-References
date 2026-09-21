@@ -1,0 +1,30 @@
+---
+title: init_color_scheme method
+second_title: Aspose.Slides for Python via .NET API 參考
+description: 
+type: docs
+url: /zh-hant/aspose.slides.theme/overridetheme/init_color_scheme/
+weight: 30
+---
+## init_color_scheme(self) {#}
+使用新物件初始化 ColorScheme，以覆寫 InheritedTheme 的 ColorScheme。
+
+
+```python
+def init_color_scheme(self):
+    ...
+```
+
+
+### 異常
+
+| Exception | Description |
+| :- | :- |
+| **RuntimeError(Proxy error(InvalidOperationException))** | 如果 ColorScheme 已經被初始化 (非 None)，則拋出此例外。 |
+
+
+
+### 參見
+* 類別 [`OverrideTheme`](/slides/python-net/zh-hant/aspose.slides.theme/overridetheme)
+* 模組 [`aspose.slides.theme`](/slides/python-net/zh-hant/aspose.slides.theme)
+* 函式庫 [`Aspose.Slides`](/slides/python-net)

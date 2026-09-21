@@ -7,7 +7,7 @@ url: /vi/aspose.slides/iparagraph/end_paragraph_portion_format/
 weight: 70
 ---
 ## end_paragraph_portion_format thuộc tính
-Xác định các thuộc tính phần sẽ được sử dụng nếu một phần khác được chèn sau 
+Xác định các thuộc tính phần sẽ được sử dụng nếu một phần khác được chèn vào sau 
             phần cuối cùng.
 
 ### Định nghĩa:
@@ -22,7 +22,7 @@ def end_paragraph_portion_format(self, value):
 ```
 
 
-### Xem Thêm
+### Xem thêm
 * lớp [`IParagraph`](/slides/python-net/vi/aspose.slides/iparagraph)
-* mô-đun [`aspose.slides`](/slides/python-net/vi/aspose.slides)
+* module [`aspose.slides`](/slides/python-net/vi/aspose.slides)
 * thư viện [`Aspose.Slides`](/slides/python-net)

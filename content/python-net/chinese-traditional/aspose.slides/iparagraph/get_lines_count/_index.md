@@ -1,15 +1,15 @@
 ---
 title: get_lines_count method
-second_title: Aspose.Slides for Python via .NET API 參考
+second_title: Aspose.Slides for Python via .NET API 參考文件
 description: 
 type: docs
 url: /zh-hant/aspose.slides/iparagraph/get_lines_count/
 weight: 20
 ---
-## get_lines_count {#}
+## get_lines_count(self) {#}
 取得段落中的行數。
 
-### 傳回
+### 返回
 
 段落中的行數
 
@@ -23,7 +23,7 @@ def get_lines_count(self):
 
 
 
-### 另請參閱
+### 另請參見
 * 類別 [`IParagraph`](/slides/python-net/zh-hant/aspose.slides/iparagraph)
 * 模組 [`aspose.slides`](/slides/python-net/zh-hant/aspose.slides)
 * 函式庫 [`Aspose.Slides`](/slides/python-net)

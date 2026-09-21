@@ -1,13 +1,13 @@
 ---
 title: portions property
-second_title: Aspose.Slides for Python via .NET API 參考文件
+second_title: Aspose.Slides for Python via .NET API 參考
 description: 
 type: docs
 url: /zh-hant/aspose.slides/iparagraph/portions/
 weight: 90
 ---
 ## portions 屬性
-返回文字片段的集合。
+傳回文字片段的集合。
             唯讀 [`IPortionCollection`](/slides/python-net/zh-hant/aspose.slides/iportioncollection).
 
 ### 定義:
@@ -18,7 +18,7 @@ def portions(self):
 ```
 
 
-### 參見
+### 另請參閱
 * 類別 [`IParagraph`](/slides/python-net/zh-hant/aspose.slides/iparagraph)
 * 類別 [`IPortionCollection`](/slides/python-net/zh-hant/aspose.slides/iportioncollection)
 * 模組 [`aspose.slides`](/slides/python-net/zh-hant/aspose.slides)

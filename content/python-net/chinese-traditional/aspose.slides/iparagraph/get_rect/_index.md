@@ -6,11 +6,10 @@ type: docs
 url: /zh-hant/aspose.slides/iparagraph/get_rect/
 weight: 30
 ---
-## get_rect {#}
-取得限定段落之矩形的座標。
-            該矩形包含段落中所有文字行，包括空行。
+## get_rect(self) {#}
+取得限定段落的矩形座標。此矩形包含段落中所有文字行，包括空白行。
 
-### 傳回值
+### 回傳值
 
 限定段落的矩形 **aspose.slides.RectangleF**
 
@@ -20,9 +19,6 @@ weight: 30
 def get_rect(self):
     ...
 ```
-
-
-
 
 ### 另請參閱
 * 類別 [`IParagraph`](/slides/python-net/zh-hant/aspose.slides/iparagraph)

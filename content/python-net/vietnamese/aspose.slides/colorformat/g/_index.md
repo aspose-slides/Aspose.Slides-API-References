@@ -1,0 +1,27 @@
+---
+title: g property
+second_title: Aspose.Slides cho Python qua .NET Tham chiếu API
+description: 
+type: docs
+url: /vi/aspose.slides/colorformat/g/
+weight: 120
+---
+## g thuộc tính
+Trả về hoặc thiết lập thành phần màu xanh lá của một màu. Tất cả các phép biến đổi màu đều bị bỏ qua.
+
+### Định nghĩa:
+```python
+@property
+def g(self):
+    ...
+
+@g.setter
+def g(self, value):
+    ...
+```
+
+
+### Xem thêm
+* lớp [`ColorFormat`](/slides/python-net/vi/aspose.slides/colorformat)
+* module [`aspose.slides`](/slides/python-net/vi/aspose.slides)
+* thư viện [`Aspose.Slides`](/slides/python-net)

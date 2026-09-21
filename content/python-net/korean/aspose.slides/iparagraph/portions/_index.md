@@ -1,6 +1,6 @@
 ---
 title: portions property
-second_title: Aspose.Slides for Python via .NET API 레퍼런스
+second_title: Aspose.Slides for Python via .NET API 참조
 description: 
 type: docs
 url: /ko/aspose.slides/iparagraph/portions/
@@ -18,7 +18,7 @@ def portions(self):
 ```
 
 
-### 참고
+### 관련 항목
 * 클래스 [`IParagraph`](/slides/python-net/ko/aspose.slides/iparagraph)
 * 클래스 [`IPortionCollection`](/slides/python-net/ko/aspose.slides/iportioncollection)
 * 모듈 [`aspose.slides`](/slides/python-net/ko/aspose.slides)

@@ -1,0 +1,25 @@
+---
+title: side_wall property
+second_title: Aspose.Slides for Python via .NET API 참조
+description: 
+type: docs
+url: /ko/aspose.slides.charts/chart/side_wall/
+weight: 600
+---
+## side_wall 속성
+3D 차트의 측면 벽 형식을 변경할 수 있는 개체를 반환합니다.
+            읽기 전용 [`IChartWall`](/slides/python-net/ko/aspose.slides.charts/ichartwall).
+
+### 정의:
+```python
+@property
+def side_wall(self):
+    ...
+```
+
+
+### 참조
+* 클래스 [`Chart`](/slides/python-net/ko/aspose.slides.charts/chart)
+* 클래스 [`IChartWall`](/slides/python-net/ko/aspose.slides.charts/ichartwall)
+* 모듈 [`aspose.slides.charts`](/slides/python-net/ko/aspose.slides.charts)
+* 라이브러리 [`Aspose.Slides`](/slides/python-net)

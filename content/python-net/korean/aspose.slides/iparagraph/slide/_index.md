@@ -15,7 +15,7 @@ def slide(self):
 ```
 
 
-### 참조
+### 참고
 * 클래스 [`IParagraph`](/slides/python-net/ko/aspose.slides/iparagraph)
 * 모듈 [`aspose.slides`](/slides/python-net/ko/aspose.slides)
 * 라이브러리 [`Aspose.Slides`](/slides/python-net)

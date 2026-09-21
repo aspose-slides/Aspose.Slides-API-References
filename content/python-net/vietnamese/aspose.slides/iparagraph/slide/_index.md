@@ -6,7 +6,7 @@ type: docs
 url: /vi/aspose.slides/iparagraph/slide/
 weight: 110
 ---
-## slide thuộc tính
+## Thuộc tính Slide
 ### Định nghĩa:
 ```python
 @property
@@ -14,8 +14,7 @@ def slide(self):
     ...
 ```
 
-
-### Xem Thêm
+### Xem thêm
 * lớp [`IParagraph`](/slides/python-net/vi/aspose.slides/iparagraph)
 * module [`aspose.slides`](/slides/python-net/vi/aspose.slides)
 * thư viện [`Aspose.Slides`](/slides/python-net)

@@ -1,0 +1,29 @@
+---
+title: IParagraphFactory class
+second_title: Aspose.Slides for Python via .NET API 參考
+description: 
+type: docs
+url: /zh-hant/aspose.slides/iparagraphfactory/
+---
+## IParagraphFactory 類別
+
+允許建立段落
+
+IParagraphFactory 類型公開以下成員：
+
+## 方法
+
+| 方法 | 描述 |
+| :- | :- |
+| [`create_paragraph(self)`](/slides/python-net/zh-hant/aspose.slides/iparagraphfactory/create_paragraph/#) | 建立一個新的空段落。 |
+| [`create_paragraph(self, paragraph)`](/slides/python-net/zh-hant/aspose.slides/iparagraphfactory/create_paragraph/#iparagraph) | 使用指定的段落資料建立新的段落。 |
+
+
+### 備註
+
+用於 COM 相容性。
+
+
+### 另請參閱
+* 模組 [`aspose.slides`](/slides/python-net/zh-hant/aspose.slides)
+* 函式庫 [`Aspose.Slides`](/slides/python-net)

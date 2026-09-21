@@ -1,0 +1,82 @@
+---
+title: IMathNaryOperator class
+second_title: Aspose.Slides for Python via .NET API 레퍼런스
+description: 
+type: docs
+url: /ko/aspose.slides.mathtext/imathnaryoperator/
+---
+## IMathNaryOperator 클래스
+
+합계와 적분과 같은 N진수 수학 객체를 지정합니다.  
+연산자, 기본값(또는 피연산자) 및 선택적인 상한과 하한으로 구성됩니다.  
+N진수 연산자의 예: 합계, 합집합, 교집합, 적분
+
+IMathNaryOperator 유형은 다음 멤버를 노출합니다:
+
+## 속성
+
+| 속성 | 설명 |
+| :- | :- |
+| [`base`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/base/) | 기본 인수 |
+| [`subscript`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/subscript/) | 예를 들어 적분의 경우 하한을 설정하는 아래 첨자 인수를 지정합니다 |
+| [`superscript`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/superscript/) | 예를 들어 적분의 경우 상한을 설정하는 위첨자 인수를 지정합니다 |
+| [`operator`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/operator/) |  |
+| [`limit_location`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/limit_location/) |  |
+| [`grow_to_match_operand_height`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/grow_to_match_operand_height/) |  |
+| [`hide_subscript`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/hide_subscript/) |  |
+| [`hide_superscript`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/hide_superscript/) |  |
+
+## 메서드
+
+| 메서드 | 설명 |
+| :- | :- |
+| [`join(self, math_element)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/join/#imathelement) |  |
+| [`join(self, math_text)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/join/#str) |  |
+| [`divide(self, denominator)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/divide/#imathelement) |  |
+| [`divide(self, denominator)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/divide/#str) |  |
+| [`divide(self, denominator, fraction_type)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/divide/#imathelement-mathfractiontypes) |  |
+| [`divide(self, denominator, fraction_type)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/divide/#str-mathfractiontypes) |  |
+| [`enclose(self)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/enclose/#) |  |
+| [`enclose(self, beginning_character, ending_character)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/enclose/#char-char) |  |
+| [`function(self, function_argument)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/function/#imathelement) |  |
+| [`function(self, function_argument)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/function/#str) |  |
+| [`as_argument_of_function(self, function_name)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/as_argument_of_function/#imathelement) |  |
+| [`as_argument_of_function(self, function_name)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/as_argument_of_function/#str) |  |
+| [`as_argument_of_function(self, function_type)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/as_argument_of_function/#mathfunctionsofoneargument) |  |
+| [`as_argument_of_function(self, function_type, additional_argument)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/as_argument_of_function/#mathfunctionsoftwoarguments-imathelement) |  |
+| [`as_argument_of_function(self, function_type, additional_argument)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/as_argument_of_function/#mathfunctionsoftwoarguments-str) |  |
+| [`set_subscript(self, subscript)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/set_subscript/#imathelement) |  |
+| [`set_subscript(self, subscript)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/set_subscript/#str) |  |
+| [`set_superscript(self, superscript)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/set_superscript/#imathelement) |  |
+| [`set_superscript(self, superscript)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/set_superscript/#str) |  |
+| [`set_sub_superscript_on_the_right(self, subscript, superscript)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/set_sub_superscript_on_the_right/#imathelement-imathelement) |  |
+| [`set_sub_superscript_on_the_right(self, subscript, superscript)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/set_sub_superscript_on_the_right/#str-str) |  |
+| [`set_sub_superscript_on_the_left(self, subscript, superscript)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/set_sub_superscript_on_the_left/#imathelement-imathelement) |  |
+| [`set_sub_superscript_on_the_left(self, subscript, superscript)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/set_sub_superscript_on_the_left/#str-str) |  |
+| [`radical(self, degree)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/radical/#imathelement) |  |
+| [`radical(self, degree)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/radical/#str) |  |
+| [`set_upper_limit(self, limit)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/set_upper_limit/#imathelement) |  |
+| [`set_upper_limit(self, limit)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/set_upper_limit/#str) |  |
+| [`set_lower_limit(self, limit)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/set_lower_limit/#imathelement) |  |
+| [`set_lower_limit(self, limit)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/set_lower_limit/#str) |  |
+| [`nary(self, type, lower_limit, upper_limit)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/nary/#mathnaryoperatortypes-imathelement-imathelement) |  |
+| [`nary(self, type, lower_limit, upper_limit)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/nary/#mathnaryoperatortypes-str-str) |  |
+| [`integral(self, integral_type, lower_limit, upper_limit, limit_locations)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/integral/#mathintegraltypes-imathelement-imathelement-mathlimitlocations) |  |
+| [`integral(self, integral_type, lower_limit, upper_limit)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/integral/#mathintegraltypes-imathelement-imathelement) |  |
+| [`integral(self, integral_type)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/integral/#mathintegraltypes) |  |
+| [`integral(self, integral_type, lower_limit, upper_limit, limit_locations)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/integral/#mathintegraltypes-str-str-mathlimitlocations) |  |
+| [`integral(self, integral_type, lower_limit, upper_limit)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/integral/#mathintegraltypes-str-str) |  |
+| [`group(self)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/group/#) |  |
+| [`group(self, character, position, vertical_justification)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/group/#char-mathtopbotpositions-mathtopbotpositions) |  |
+| [`to_border_box(self)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/to_border_box/#) |  |
+| [`to_border_box(self, hide_top, hide_bottom, hide_left, hide_right, strikethrough_horizontal, strikethrough_vertical, strikethrough_bottom_left_to_top_right, strikethrough_top_left_to_bottom_right)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/to_border_box/#bool-bool-bool-bool-bool-bool-bool-bool) |  |
+| [`get_children(self)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/get_children/#) |  |
+| [`to_math_array(self)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/to_math_array/#) |  |
+| [`accent(self, accent_character)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/accent/#char) |  |
+| [`overbar(self)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/overbar/#) |  |
+| [`underbar(self)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/underbar/#) |  |
+| [`to_box(self)`](/slides/python-net/ko/aspose.slides.mathtext/imathnaryoperator/to_box/#) |  |
+
+### 참조
+* 모듈 [`aspose.slides.mathtext`](/slides/python-net/ko/aspose.slides.mathtext)
+* 라이브러리 [`Aspose.Slides`](/slides/python-net)

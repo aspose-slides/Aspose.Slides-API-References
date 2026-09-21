@@ -1,0 +1,25 @@
+---
+title: to_color property
+second_title: Aspose.Slides for Python via .NET API 參考文件
+description: 
+type: docs
+url: /zh-hant/aspose.slides.effects/colorchange/to_color/
+weight: 70
+---
+## to_color 屬性
+將會被取代的顏色。
+            唯讀 [`IColorFormat`](/slides/python-net/zh-hant/aspose.slides/icolorformat).
+
+### 定義:
+```python
+@property
+def to_color(self):
+    ...
+```
+
+
+### 另請參閱
+* 類別 [`ColorChange`](/slides/python-net/zh-hant/aspose.slides.effects/colorchange)
+* 類別 [`IColorFormat`](/slides/python-net/zh-hant/aspose.slides/icolorformat)
+* 模組 [`aspose.slides.effects`](/slides/python-net/zh-hant/aspose.slides.effects)
+* 函式庫 [`Aspose.Slides`](/slides/python-net)

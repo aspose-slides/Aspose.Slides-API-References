@@ -1,0 +1,29 @@
+---
+title: minor_unit_scale property
+second_title: Aspose.Slides for Python 透過 .NET API 參考
+description: 
+type: docs
+url: /zh-hant/aspose.slides.charts/iaxis/minor_unit_scale/
+weight: 480
+---
+## minor_unit_scale 屬性
+表示日期軸的主要單位比例。
+讀寫 [`TimeUnitType`](/slides/python-net/zh-hant/aspose.slides.charts/timeunittype).
+
+### 定義:
+```python
+@property
+def minor_unit_scale(self):
+    ...
+
+@minor_unit_scale.setter
+def minor_unit_scale(self, value):
+    ...
+```
+
+
+### 另見
+* 類別 [`IAxis`](/slides/python-net/zh-hant/aspose.slides.charts/iaxis)
+* 列舉 [`TimeUnitType`](/slides/python-net/zh-hant/aspose.slides.charts/timeunittype)
+* 模組 [`aspose.slides.charts`](/slides/python-net/zh-hant/aspose.slides.charts)
+* 函式庫 [`Aspose.Slides`](/slides/python-net)

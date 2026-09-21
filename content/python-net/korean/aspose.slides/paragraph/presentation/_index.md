@@ -6,7 +6,7 @@ type: docs
 url: /ko/aspose.slides/paragraph/presentation/
 weight: 110
 ---
-## 프레젠테이션 속성
+## presentation 속성
 ### 정의:
 ```python
 @property
@@ -15,7 +15,7 @@ def presentation(self):
 ```
 
 
-### 관련 항목
+### 참고
 * 클래스 [`Paragraph`](/slides/python-net/ko/aspose.slides/paragraph)
 * 모듈 [`aspose.slides`](/slides/python-net/ko/aspose.slides)
 * 라이브러리 [`Aspose.Slides`](/slides/python-net)

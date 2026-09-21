@@ -7,14 +7,16 @@ url: /ko/aspose.slides/paragraph/paragraph_format/
 weight: 90
 ---
 ## paragraph_format 속성
-이 단락에 대한 서식 개체를 반환합니다.
+Returns the formatting object for this paragraph.
             읽기 전용 [`IParagraphFormat`](/slides/python-net/ko/aspose.slides/iparagraphformat).
+
 
 ### 비고
 
-서식 개체에는 현재 단락에 대해서만 정의된 서식 매개변수가 포함되어 있으며, 상속된 데이터는 적용되지 않습니다.
+The formatting object contains the formatting parameters defined for the current paragraph only, inherited data is not applied.
 
-상속된 값을 포함한 실제 값을 얻으려면 [`ParagraphFormat.get_effective`](/slides/python-net/ko/aspose.slides/paragraphformat/get_effective) 메서드를 사용하십시오.
+
+In order to get the effective values including inherited ones use the [`ParagraphFormat.get_effective`](/slides/python-net/ko/aspose.slides/paragraphformat/get_effective) 메서드.
 
 ### 정의:
 ```python
@@ -23,7 +25,8 @@ def paragraph_format(self):
     ...
 ```
 
-### 참고
+
+### 참조
 * 클래스 [`IParagraphFormat`](/slides/python-net/ko/aspose.slides/iparagraphformat)
 * 클래스 [`Paragraph`](/slides/python-net/ko/aspose.slides/paragraph)
 * 모듈 [`aspose.slides`](/slides/python-net/ko/aspose.slides)

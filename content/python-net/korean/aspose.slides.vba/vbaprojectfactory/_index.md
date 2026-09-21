@@ -1,0 +1,35 @@
+---
+title: VbaProjectFactory class
+second_title: Aspose.Slides for Python via .NET API 레퍼런스
+description: 
+type: docs
+url: /ko/aspose.slides.vba/vbaprojectfactory/
+---
+## VbaProjectFactory 클래스
+
+COM 인터페이스를 통해 VBA 프로젝트를 생성할 수 있습니다
+
+VbaProjectFactory 유형은 다음 멤버를 제공합니다:
+
+## 생성자
+
+| 생성자 | 설명 |
+| :- | :- |
+| [`__init__(self)`](/slides/python-net/ko/aspose.slides.vba/vbaprojectfactory/__init__/#) |  |
+
+## 속성
+
+| 속성 | 설명 |
+| :- | :- |
+| [`instance`](/slides/python-net/ko/aspose.slides.vba/vbaprojectfactory/instance/) | VBA 프로젝트 팩토리 정적 인스턴스.<br/>            읽기 전용 [`VbaProjectFactory`](/slides/python-net/ko/aspose.slides.vba/vbaprojectfactory). |
+
+## 메서드
+
+| 메서드 | 설명 |
+| :- | :- |
+| [`create_vba_project(self)`](/slides/python-net/ko/aspose.slides.vba/vbaprojectfactory/create_vba_project/#) | 새 VBA 프로젝트를 생성합니다. |
+| [`read_vba_project(self, data)`](/slides/python-net/ko/aspose.slides.vba/vbaprojectfactory/read_vba_project/#bytes) | OLE 컨테이너에서 VBA 프로젝트를 읽어옵니다. |
+
+### 참조
+* 모듈 [`aspose.slides.vba`](/slides/python-net/ko/aspose.slides.vba)
+* 라이브러리 [`Aspose.Slides`](/slides/python-net)
