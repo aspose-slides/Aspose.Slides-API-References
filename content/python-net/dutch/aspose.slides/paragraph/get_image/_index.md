@@ -6,12 +6,12 @@ type: docs
 url: /nl/aspose.slides/paragraph/get_image/
 weight: 20
 ---
-## get_image {#}
+## get_image(self) {#}
 Retourneert een afbeelding van de alinea.
 
-### Retour
+### Retourwaarde
 
-Een afbeelding die de gerenderde alinea bevat, of **None** als de alinea niet kan worden gevonden in de bovenliggende collectie, geen geldige renderingsgrenzen heeft, of er een fout optreedt tijdens het renderen van de afbeelding.
+Een afbeelding die de gerenderde alinea bevat, of **None** als de alinea niet kan worden gevonden in de bovenliggende collectie, geen geldige renderingsgrenzen heeft, of er een fout optreedt bij het renderen van de afbeelding.
 
 
 
@@ -22,12 +22,12 @@ def get_image(self):
 
 
 
-## get_image {#float-float}
+## get_image(self, scale_x, scale_y) {#float-float}
 Retourneert een afbeelding van de alinea met de opgegeven schaal.
 
-### Retour
+### Retourwaarde
 
-Een afbeelding die de gerenderde alinea bevat, of **None** als de alinea niet kan worden gevonden in de bovenliggende collectie, geen geldige renderingsgrenzen heeft, of er een fout optreedt tijdens het renderen van de afbeelding.
+Een afbeelding die de gerenderde alinea bevat, of **None** als de alinea niet kan worden gevonden in de bovenliggende collectie, geen geldige renderingsgrenzen heeft, of er een fout optreedt bij het renderen van de afbeelding.
 
 
 
@@ -37,10 +37,10 @@ def get_image(self, scale_x, scale_y):
 ```
 
 
-| Parameter | Type | Omschrijving |
+| Parameter | Type | Beschrijving |
 | :- | :- | :- |
-| scale_x | **float** | De horizontale schaalfactor die wordt toegepast op de afbeelding van de alinea. |
-| scale_y | **float** | De verticale schaalfactor die wordt toegepast op de afbeelding van de alinea. |
+| scale_x | **float** | De horizontale schaalfactor die wordt toegepast op de alinea-afbeelding. |
+| scale_y | **float** | De verticale schaalfactor die wordt toegepast op de alinea-afbeelding. |
 
 
 

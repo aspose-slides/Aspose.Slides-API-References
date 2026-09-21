@@ -1,0 +1,55 @@
+---
+title: join method
+second_title: مرجع API Aspose.Slides برای Python از طریق .NET
+description: 
+type: docs
+url: /fa/aspose.slides.mathtext/mathematicaltext/join/
+weight: 100
+---
+## join(self, math_element) {#imathelement}
+یک عنصر ریاضی را می‌پیوندد و یک بلوک ریاضی ایجاد می‌کند
+
+### بازگشت
+
+یک IMathBlock جدید که این نمونه و آرگومان مشخص‌شده را شامل می‌شود
+
+
+
+```python
+def join(self, math_element):
+    ...
+```
+
+
+| پارامتر | نوع | توضیح |
+| :- | :- | :- |
+| math_element | [`IMathElement`](/slides/python-net/fa/aspose.slides.mathtext/imathelement) | عنصر برای پیوست |
+
+
+## join(self, math_text) {#str}
+یک متن ریاضی را می‌پیوندد و یک بلوک ریاضی ایجاد می‌کند
+
+### بازگشت
+
+یک IMathBlock جدید که این نمونه و آرگومان مشخص‌شده را شامل می‌شود
+
+
+
+```python
+def join(self, math_text):
+    ...
+```
+
+
+| پارامتر | نوع | توضیح |
+| :- | :- | :- |
+| math_text | **str** | متن ریاضی برای پیوست |
+
+
+
+### موارد مرتبط
+* کلاس [`IMathBlock`](/slides/python-net/fa/aspose.slides.mathtext/imathblock)
+* کلاس [`IMathElement`](/slides/python-net/fa/aspose.slides.mathtext/imathelement)
+* کلاس [`MathematicalText`](/slides/python-net/fa/aspose.slides.mathtext/mathematicaltext)
+* ماژول [`aspose.slides.mathtext`](/slides/python-net/fa/aspose.slides.mathtext)
+* کتابخانه [`Aspose.Slides`](/slides/python-net)

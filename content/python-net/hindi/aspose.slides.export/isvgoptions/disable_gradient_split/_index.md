@@ -1,0 +1,27 @@
+---
+title: disable_gradient_split property
+second_title: Aspose.Slides for Python via .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.export/isvgoptions/disable_gradient_split/
+weight: 60
+---
+## disable_gradient_split प्रॉपर्टी
+FromCornerX और FromCenter ग्रेडिएंट्स के विभाजन को निष्क्रिय करता है.
+            पढ़ें/लिखें **bool**.
+
+### परिभाषा:
+```python
+@property
+def disable_gradient_split(self):
+    ...
+
+@disable_gradient_split.setter
+def disable_gradient_split(self, value):
+    ...
+```
+
+### संबंधित देखें
+* क्लास [`ISVGOptions`](/slides/python-net/hi/aspose.slides.export/isvgoptions)
+* मॉड्यूल [`aspose.slides.export`](/slides/python-net/hi/aspose.slides.export)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

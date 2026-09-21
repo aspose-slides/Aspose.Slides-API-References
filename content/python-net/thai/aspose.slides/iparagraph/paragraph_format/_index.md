@@ -1,13 +1,13 @@
 ---
 title: paragraph_format property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides/iparagraph/paragraph_format/
 weight: 80
 ---
 ## paragraph_format คุณสมบัติ
-Returns the formatting object for this paragraph.
+ส่งคืนวัตถุการจัดรูปแบบสำหรับย่อหน้านี้.
             อ่านอย่างเดียว [`IParagraphFormat`](/slides/python-net/th/aspose.slides/iparagraphformat).
 
 ### คำนิยาม:

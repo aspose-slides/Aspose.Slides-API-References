@@ -1,0 +1,24 @@
+---
+title: accent5 property
+second_title: Aspose.Slides voor Python via .NET API-referentie
+description: 
+type: docs
+url: /nl/aspose.slides.theme/icolorschemeeffectivedata/accent5/
+weight: 50
+---
+## accent5 eigenschap
+Vijfde accentkleur in het schema.
+            Alleen-lezen **aspose.slides.Color**.
+
+### Definitie:
+```python
+@property
+def accent5(self):
+    ...
+```
+
+
+### Zie ook
+* klasse [`IColorSchemeEffectiveData`](/slides/python-net/nl/aspose.slides.theme/icolorschemeeffectivedata)
+* module [`aspose.slides.theme`](/slides/python-net/nl/aspose.slides.theme)
+* bibliotheek [`Aspose.Slides`](/slides/python-net)

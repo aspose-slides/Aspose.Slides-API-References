@@ -6,8 +6,8 @@ type: docs
 url: /nl/aspose.slides/iparagraph/join_portions_with_same_formatting/
 weight: 40
 ---
-## join_portions_with_same_formatting {#}
-Voegt runs samen met dezelfde opmaak.
+## join_portions_with_same_formatting(self) {#}
+Voegt runs met dezelfde opmaak samen.
 
 
 ```python

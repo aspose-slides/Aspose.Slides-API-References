@@ -1,0 +1,27 @@
+---
+title: recover_workbook_from_chart_cache property
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+description: 
+type: docs
+url: /th/aspose.slides/ispreadsheetoptions/recover_workbook_from_chart_cache/
+weight: 10
+---
+## recover_workbook_from_chart_cache คุณสมบัติ
+หากแหล่งข้อมูลสำหรับแผนภูมิเป็น workbook ภายนอกและไม่พร้อมใช้งาน, จะกู้คืนจากแคชของแผนภูมิ
+
+### คำนิยาม:
+```python
+@property
+def recover_workbook_from_chart_cache(self):
+    ...
+
+@recover_workbook_from_chart_cache.setter
+def recover_workbook_from_chart_cache(self, value):
+    ...
+```
+
+
+### ดูเพิ่มเติม
+* คลาส [`ISpreadsheetOptions`](/slides/python-net/th/aspose.slides/ispreadsheetoptions)
+* โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

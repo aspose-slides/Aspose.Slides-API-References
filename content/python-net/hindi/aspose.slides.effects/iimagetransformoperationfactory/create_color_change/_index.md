@@ -1,0 +1,30 @@
+---
+title: create_color_change method
+second_title: Aspose.Slides Python के लिए .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.effects/iimagetransformoperationfactory/create_color_change/
+weight: 100
+---
+## create_color_change(self) {#}
+रंग परिवर्तन प्रभाव बनाता है।
+
+### वापसी
+
+रंग परिवर्तन प्रभाव।
+
+
+
+```python
+def create_color_change(self):
+    ...
+```
+
+
+
+
+### संबंधित देखें
+* क्लास [`IColorChange`](/slides/python-net/hi/aspose.slides.effects/icolorchange)
+* क्लास [`IImageTransformOperationFactory`](/slides/python-net/hi/aspose.slides.effects/iimagetransformoperationfactory)
+* मॉड्यूल [`aspose.slides.effects`](/slides/python-net/hi/aspose.slides.effects)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

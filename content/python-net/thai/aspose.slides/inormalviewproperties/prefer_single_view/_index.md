@@ -1,0 +1,30 @@
+---
+title: prefer_single_view property
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+description: 
+type: docs
+url: /th/aspose.slides/inormalviewproperties/prefer_single_view/
+weight: 20
+---
+## prefer_single_view คุณสมบัติ
+ระบุว่าผู้ใช้ต้องการดูพื้นที่เนื้อหาเดี่ยวเต็มหน้าต่างเหนือ
+            มุมมองมาตรฐานปกติที่มีพื้นที่เนื้อหา 3 ส่วน. หากเปิดใช้งาน แอปพลิเคชันอาจเลือก
+            แสดงหนึ่งในพื้นที่เนื้อหาในหน้าต่างทั้งหมด.
+            อ่าน/เขียน **bool**.
+
+### คำนิยาม:
+```python
+@property
+def prefer_single_view(self):
+    ...
+
+@prefer_single_view.setter
+def prefer_single_view(self, value):
+    ...
+```
+
+
+### ดูเพิ่มเติม
+* คลาส [`INormalViewProperties`](/slides/python-net/th/aspose.slides/inormalviewproperties)
+* โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

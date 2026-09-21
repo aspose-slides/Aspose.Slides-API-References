@@ -1,15 +1,15 @@
 ---
 title: get_image method
-second_title: Aspose.Slides voor Python via .NET API-referentie
+second_title: Aspose.Slides voor Python via .NET API Referentie
 description: 
 type: docs
 url: /nl/aspose.slides/iparagraph/get_image/
 weight: 10
 ---
-## get_image {#}
+## get_image(self) {#}
 Retourneert een afbeelding van de alinea.
 
-### Retourneert
+### Retour
 
 Een afbeelding die de gerenderde alinea bevat, of **None**
              als de alinea niet kan worden gevonden in de bovenliggende collectie, geen geldige
@@ -24,10 +24,10 @@ def get_image(self):
 
 
 
-## get_image {#float-float}
+## get_image(self, scale_x, scale_y) {#float-float}
 Retourneert een afbeelding van de alinea met de opgegeven schaal.
 
-### Retourneert
+### Retour
 
 Een afbeelding die de gerenderde alinea bevat, of **None**
              als de alinea niet kan worden gevonden in de bovenliggende collectie, geen geldige
@@ -43,8 +43,8 @@ def get_image(self, scale_x, scale_y):
 
 | Parameter | Type | Beschrijving |
 | :- | :- | :- |
-| scale_x | **float** | De horizontale schaalfactor die wordt toegepast op de alinea-afbeelding. |
-| scale_y | **float** | De verticale schaalfactor die wordt toegepast op de alinea-afbeelding. |
+| scale_x | **float** | De horizontale schaalfactor toegepast op de alinea-afbeelding. |
+| scale_y | **float** | De verticale schaalfactor toegepast op de alinea-afbeelding. |
 
 
 

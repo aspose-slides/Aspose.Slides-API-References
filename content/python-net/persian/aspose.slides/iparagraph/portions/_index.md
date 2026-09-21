@@ -1,14 +1,14 @@
 ---
 title: portions property
-second_title: مرجع API Aspose.Slides برای Python از طریق .NET
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides/iparagraph/portions/
 weight: 90
 ---
 ## portions ویژگی
-مجموعه‌ای از بخش‌های متن را بازمی‌گرداند.
-            فقط‌خواندنی [`IPortionCollection`](/slides/python-net/fa/aspose.slides/iportioncollection).
+مجموعه‌ای از بخش‌های متن را برمی‌گرداند.
+            فقط خواندنی [`IPortionCollection`](/slides/python-net/fa/aspose.slides/iportioncollection).
 
 ### تعریف:
 ```python
@@ -16,7 +16,6 @@ weight: 90
 def portions(self):
     ...
 ```
-
 
 ### موارد مرتبط
 * کلاس [`IParagraph`](/slides/python-net/fa/aspose.slides/iparagraph)

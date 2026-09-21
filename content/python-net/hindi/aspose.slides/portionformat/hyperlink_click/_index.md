@@ -1,0 +1,29 @@
+---
+title: hyperlink_click property
+second_title: Python के लिए .NET API रेफ़रेंस के माध्यम से Aspose.Slides
+description: 
+type: docs
+url: /hi/aspose.slides/portionformat/hyperlink_click/
+weight: 180
+---
+## hyperlink_click प्रॉपर्टी
+माउस क्लिक के लिए परिभाषित हाइपरलिंक को लौटाता है या सेट करता है।
+            पढ़ें/लिखें [`IHyperlink`](/slides/python-net/hi/aspose.slides/ihyperlink).
+
+### परिभाषा:
+```python
+@property
+def hyperlink_click(self):
+    ...
+
+@hyperlink_click.setter
+def hyperlink_click(self, value):
+    ...
+```
+
+
+### संबंधित देखें
+* क्लास [`IHyperlink`](/slides/python-net/hi/aspose.slides/ihyperlink)
+* क्लास [`PortionFormat`](/slides/python-net/hi/aspose.slides/portionformat)
+* मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

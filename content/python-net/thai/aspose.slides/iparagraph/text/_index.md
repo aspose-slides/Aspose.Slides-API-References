@@ -1,13 +1,13 @@
 ---
 title: text property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้างอิง API
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides/iparagraph/text/
 weight: 120
 ---
-## คุณสมบัติ text
-รับหรือกำหนดข้อความธรรมดาของย่อหน้า.
+## text คุณสมบัติ
+รับหรือกำหนดข้อความธรรมดาของย่อหน้า
             อ่าน/เขียน **str**.
 
 ### คำนิยาม:
@@ -20,7 +20,6 @@ def text(self):
 def text(self, value):
     ...
 ```
-
 
 ### ดูเพิ่มเติม
 * คลาส [`IParagraph`](/slides/python-net/th/aspose.slides/iparagraph)

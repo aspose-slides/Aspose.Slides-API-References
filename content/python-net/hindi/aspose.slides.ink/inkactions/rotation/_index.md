@@ -1,0 +1,34 @@
+---
+title: rotation property
+second_title: Aspose.Slides for Python के माध्यम से .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.ink/inkactions/rotation/
+weight: 360
+---
+## रोटेशन प्रॉपर्टी
+निर्धारित आकार को z-अक्ष के आसपास घुमाए जाने वाले डिग्री की संख्या को लौटाता है या सेट करता है
+            एक सकारात्मक मान घड़ी की दिशा में घूर्णन दर्शाता है; एक नकारात्मक मान
+            प्रतिक्लॉकवाइज घूर्णन दर्शाता है।
+            पढ़ने/लिखने योग्य **float**.
+
+### स्पष्टीकरण
+
+वापसी मान हमेशा परिभाषित होता है (float.NaN नहीं है)।
+            असाइन किया गया मान परिभाषित होना चाहिए (float.NaN नहीं)। आप RawFrame इंस्टेंस प्रॉपर्टीज़ के लिए अपरिभाषित मान सेट कर सकते हैं।
+
+### परिभाषा:
+```python
+@property
+def rotation(self):
+    ...
+
+@rotation.setter
+def rotation(self, value):
+    ...
+```
+
+### संबंधित देखें
+* कक्षा [`InkActions`](/slides/python-net/hi/aspose.slides.ink/inkactions)
+* मॉड्यूल [`aspose.slides.ink`](/slides/python-net/hi/aspose.slides.ink)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

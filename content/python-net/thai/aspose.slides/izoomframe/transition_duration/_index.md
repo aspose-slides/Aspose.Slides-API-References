@@ -1,0 +1,24 @@
+---
+title: transition_duration property
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+description: 
+type: docs
+url: /th/aspose.slides/izoomframe/transition_duration/
+weight: 440
+---
+## transition_duration คุณสมบัติ
+### คำนิยาม:
+```python
+@property
+def transition_duration(self):
+    ...
+
+@transition_duration.setter
+def transition_duration(self, value):
+    ...
+```
+
+### ดูเพิ่มเติม
+* คลาส [`IZoomFrame`](/slides/python-net/th/aspose.slides/izoomframe)
+* โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

@@ -1,0 +1,27 @@
+---
+title: remove_at method
+second_title: Aspose.Slides Python के लिए .NET के माध्यम से API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.effects/iimagetransformoperationcollection/remove_at/
+weight: 190
+---
+## remove_at(self, index) {#int}
+निर्दिष्ट इंडेक्स पर संग्रह से एक इमेज इफ़ेक्ट हटाता है।
+
+```python
+def remove_at(self, index):
+    ...
+```
+
+
+| पैरामीटर | प्रकार | विवरण |
+| :- | :- | :- |
+| index | **int** | इसे हटाए जाने वाले इमेज इफ़ेक्ट का इंडेक्स। |
+
+
+
+### संबंधित देखें
+* क्लास [`IImageTransformOperationCollection`](/slides/python-net/hi/aspose.slides.effects/iimagetransformoperationcollection)
+* मॉड्यूल [`aspose.slides.effects`](/slides/python-net/hi/aspose.slides.effects)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

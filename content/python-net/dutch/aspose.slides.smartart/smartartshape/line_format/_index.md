@@ -1,0 +1,26 @@
+---
+title: line_format property
+second_title: Aspose.Slides voor Python via .NET API-referentie
+description: 
+type: docs
+url: /nl/aspose.slides.smartart/smartartshape/line_format/
+weight: 330
+---
+## line_format eigenschap
+Retourneert het LineFormat-object dat de lijnopmaak-eigenschappen voor een vorm bevat.
+            Opmerking: kan None retourneren voor bepaalde types van vormen die geen lijn-eigenschappen hebben.
+            Alleen-lezen [`ILineFormat`](/slides/python-net/nl/aspose.slides/ilineformat).
+
+### Definitie:
+```python
+@property
+def line_format(self):
+    ...
+```
+
+
+### Zie ook
+* klasse [`ILineFormat`](/slides/python-net/nl/aspose.slides/ilineformat)
+* klasse [`SmartArtShape`](/slides/python-net/nl/aspose.slides.smartart/smartartshape)
+* module [`aspose.slides.smartart`](/slides/python-net/nl/aspose.slides.smartart)
+* bibliotheek [`Aspose.Slides`](/slides/python-net)

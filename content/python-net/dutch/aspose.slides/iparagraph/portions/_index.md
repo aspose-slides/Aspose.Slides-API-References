@@ -7,7 +7,7 @@ url: /nl/aspose.slides/iparagraph/portions/
 weight: 90
 ---
 ## portions eigenschap
-Retourneert de collectie van een tekstgedeelte.
+Retourneert de collectie van tekstgedeelten.
             Alleen-lezen [`IPortionCollection`](/slides/python-net/nl/aspose.slides/iportioncollection).
 
 ### Definitie:

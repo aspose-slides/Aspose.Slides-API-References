@@ -1,15 +1,15 @@
 ---
 title: get_lines_count method
-second_title: Aspose.Slides برای پایتون از طریق .NET API مرجع
+second_title: Aspose.Slides برای Python از طریق .NET API Reference
 description: 
 type: docs
 url: /fa/aspose.slides/paragraph/get_lines_count/
 weight: 30
 ---
-## get_lines_count {#}
+## get_lines_count(self) {#}
 تعداد خطوط در یک پاراگراف را دریافت می‌کند.
 
-### بازگرداندن
+### بازگشت‌ها
 
 تعداد خطوط در یک پاراگراف
 

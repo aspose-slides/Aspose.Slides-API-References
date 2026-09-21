@@ -1,0 +1,33 @@
+---
+title: IComment class
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+description: 
+type: docs
+url: /th/aspose.slides/icomment/
+---
+## IComment คลาส
+
+แสดงถึงความคิดเห็นบนสไลด์หนึ่ง.
+
+ประเภท IComment มีสมาชิกต่อไปนี้:
+
+## คุณสมบัติ
+
+| คุณสมบัติ | คำอธิบาย |
+| :- | :- |
+| [`text`](/slides/python-net/th/aspose.slides/icomment/text/) | คืนค่า หรือกำหนดข้อความธรรมดาของความคิดเห็นบนสไลด์.<br/>            อ่าน/เขียน **str**. |
+| [`created_time`](/slides/python-net/th/aspose.slides/icomment/created_time/) | คืนค่า หรือกำหนดเวลาการสร้างความคิดเห็น.<br/>            การตั้งค่าสมบัตินี้เป็น **System.DateTime** หมายความว่าไม่ได้กำหนดเวลาของความคิดเห็น.<br/>            อ่าน/เขียน **System.DateTime**. |
+| [`slide`](/slides/python-net/th/aspose.slides/icomment/slide/) | คืนค่า หรือกำหนดสไลด์แม่ของความคิดเห็น.<br/>            อ่านเท่านั้น [`ISlide`](/slides/python-net/th/aspose.slides/islide). |
+| [`author`](/slides/python-net/th/aspose.slides/icomment/author/) | คืนค่าผู้เขียนของความคิดเห็น.<br/>            อ่านเท่านั้น [`ICommentAuthor`](/slides/python-net/th/aspose.slides/icommentauthor). |
+| [`position`](/slides/python-net/th/aspose.slides/icomment/position/) | คืนค่า หรือกำหนดตำแหน่งของความคิดเห็นบนสไลด์.<br/>            อ่าน/เขียน **aspose.slides.PointF**. |
+| [`parent_comment`](/slides/python-net/th/aspose.slides/icomment/parent_comment/) | รับหรือกำหนดความคิดเห็นแม่.<br/>            อ่าน/เขียน [`IComment`](/slides/python-net/th/aspose.slides/icomment). |
+
+## เมธอด
+
+| เมธอด | คำอธิบาย |
+| :- | :- |
+| [`remove(self)`](/slides/python-net/th/aspose.slides/icomment/remove/#) | ลบความคิดเห็นและการตอบกลับทั้งหมดจากคอลเลกชันแม่. |
+
+### ดูเพิ่มเติม
+* โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

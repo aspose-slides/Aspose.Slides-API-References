@@ -1,0 +1,25 @@
+---
+title: line_format property
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API
+description: 
+type: docs
+url: /th/aspose.slides/ishape/line_format/
+weight: 250
+---
+## line_format คุณสมบัติ
+คืนค่าอ็อบเจ็กต์ LineFormat ที่มีคุณสมบัติการจัดรูปแบบเส้นสำหรับรูปร่าง.
+อ่านอย่างเดียว [`ILineFormat`](/slides/python-net/th/aspose.slides/ilineformat).
+
+### คำนิยาม:
+```python
+@property
+def line_format(self):
+    ...
+```
+
+
+### ดูเพิ่มเติม
+* คลาส [`ILineFormat`](/slides/python-net/th/aspose.slides/ilineformat)
+* คลาส [`IShape`](/slides/python-net/th/aspose.slides/ishape)
+* โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

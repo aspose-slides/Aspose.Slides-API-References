@@ -1,0 +1,22 @@
+---
+title: shadow_matrix_yto_y property
+second_title: Aspose.Slides for Python के लिए .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.animation/behaviorproperty/shadow_matrix_yto_y/
+weight: 690
+---
+## shadow_matrix_yto_y प्रॉपर्टी
+'shadow.matrix.ytoy' प्रॉपर्टी का प्रतिनिधित्व करता है
+
+### परिभाषा:
+```python
+@property
+def shadow_matrix_yto_y(self):
+    ...
+```
+
+### देखें भी
+* वर्ग [`BehaviorProperty`](/slides/python-net/hi/aspose.slides.animation/behaviorproperty)
+* मॉड्यूल [`aspose.slides.animation`](/slides/python-net/hi/aspose.slides.animation)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

@@ -1,0 +1,21 @@
+---
+title: connection_site_count property
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้างอิง API
+description: 
+type: docs
+url: /th/aspose.slides.ink/iinkactions/connection_site_count/
+weight: 140
+---
+## connection_site_count คุณสมบัติ
+### คำนิยาม:
+```python
+@property
+def connection_site_count(self):
+    ...
+```
+
+
+### ดูเพิ่มเติม
+* คลาส [`IInkActions`](/slides/python-net/th/aspose.slides.ink/iinkactions)
+* โมดูล [`aspose.slides.ink`](/slides/python-net/th/aspose.slides.ink)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

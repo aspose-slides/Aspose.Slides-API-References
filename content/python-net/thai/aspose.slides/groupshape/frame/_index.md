@@ -1,0 +1,36 @@
+---
+title: frame property
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+description: 
+type: docs
+url: /th/aspose.slides/groupshape/frame/
+weight: 180
+---
+## คุณสมบัติเฟรม
+คืนค่า หรือกำหนดคุณสมบัติของเฟรมรูปร่าง.
+            อ่าน/เขียน [`IShapeFrame`](/slides/python-net/th/aspose.slides/ishapeframe).
+
+### หมายเหตุ
+
+ค่าของแต่ละคุณสมบัติของอินสแตนซ์ IShapeFrame ที่ส่งคืนจะต้องไม่เป็น 
+            undefined (ไม่เป็น NaN หรือ NotDefined).
+ค่าของแต่ละคุณสมบัติของอินสแตนซ์ IShapeFrame ที่กำหนดต้องไม่เป็น 
+            undefined (ต้องไม่เป็น NaN หรือ NotDefined).
+คุณสามารถตั้งค่าที่เป็น undefined สำหรับคุณสมบัติของอินสแตนซ์ RawFrame ได้.
+
+### คำนิยาม:
+```python
+@property
+def frame(self):
+    ...
+
+@frame.setter
+def frame(self, value):
+    ...
+```
+
+### ดูเพิ่มเติม
+* คลาส [`GroupShape`](/slides/python-net/th/aspose.slides/groupshape)
+* คลาส [`IShapeFrame`](/slides/python-net/th/aspose.slides/ishapeframe)
+* โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

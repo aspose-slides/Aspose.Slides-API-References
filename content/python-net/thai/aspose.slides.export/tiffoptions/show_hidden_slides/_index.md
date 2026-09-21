@@ -1,0 +1,27 @@
+---
+title: show_hidden_slides property
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้างอิง API
+description: 
+type: docs
+url: /th/aspose.slides.export/tiffoptions/show_hidden_slides/
+weight: 130
+---
+## show_hidden_slides คุณสมบัติ
+ระบุว่าควรรวมสไลด์ที่ซ่อนอยู่ในเอกสารที่สร้างหรือไม่
+            ค่าเริ่มต้นคือ `false`.
+
+### คำนิยาม:
+```python
+@property
+def show_hidden_slides(self):
+    ...
+
+@show_hidden_slides.setter
+def show_hidden_slides(self, value):
+    ...
+```
+
+### ดูเพิ่มเติม
+* คลาส [`TiffOptions`](/slides/python-net/th/aspose.slides.export/tiffoptions)
+* โมดูล [`aspose.slides.export`](/slides/python-net/th/aspose.slides.export)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

@@ -1,0 +1,92 @@
+---
+title: create_mathematical_text method
+second_title: Aspose.Slides voor Python via .NET API-referentie
+description: 
+type: docs
+url: /nl/aspose.slides.mathtext/mathematicaltextfactory/create_mathematical_text/
+weight: 20
+---
+## create_mathematical_text(self) {#}
+Maak een leeg wiskundig textelement
+
+### Retourneert
+
+new Mathematical Text
+
+
+
+```python
+def create_mathematical_text(self):
+    ...
+```
+
+
+
+## create_mathematical_text(self, math_symbol) {#char}
+Maak een wiskundig textelement met de opgegeven waarde
+
+### Retourneert
+
+new Mathematical Text
+
+
+
+```python
+def create_mathematical_text(self, math_symbol):
+    ...
+```
+
+
+| Parameter | Type | Beschrijving |
+| :- | :- | :- |
+| math_symbol | **char** | enkel symbool om als tekstwaarde te gebruiken |
+
+
+## create_mathematical_text(self, math_text) {#str}
+Maak een leeg wiskundig textelement met de opgegeven waarde
+
+### Retourneert
+
+new Mathematical Text
+
+
+
+```python
+def create_mathematical_text(self, math_text):
+    ...
+```
+
+
+| Parameter | Type | Beschrijving |
+| :- | :- | :- |
+| math_text | **str** | tekstwaarde |
+
+
+## create_mathematical_text(self, math_text, portion_format) {#str-iportionformat}
+Maak een leeg wiskundig textelement met de opgegeven waarde en opmaak-eigenschappen
+
+### Retourneert
+
+new Mathematical Text
+
+
+
+```python
+def create_mathematical_text(self, math_text, portion_format):
+    ...
+```
+
+
+| Parameter | Type | Beschrijving |
+| :- | :- | :- |
+| math_text | **str** | tekstwaarde |
+| portion_format | [`IPortionFormat`](/slides/python-net/nl/aspose.slides/iportionformat) | tekstopmaak-instellingen |
+
+
+
+### Zie ook
+* klasse [`IMathematicalText`](/slides/python-net/nl/aspose.slides.mathtext/imathematicaltext)
+* klasse [`IPortionFormat`](/slides/python-net/nl/aspose.slides/iportionformat)
+* klasse [`MathematicalTextFactory`](/slides/python-net/nl/aspose.slides.mathtext/mathematicaltextfactory)
+* module [`aspose.slides.mathtext`](/slides/python-net/nl/aspose.slides.mathtext)
+* bibliotheek [`Aspose.Slides`](/slides/python-net)

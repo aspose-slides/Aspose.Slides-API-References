@@ -1,0 +1,29 @@
+---
+title: accent method
+second_title: Aspose.Slides के लिए Python .NET API रेफ़रेंस
+description: 
+type: docs
+url: /hi/aspose.slides.mathtext/mathsubscriptelement/accent/
+weight: 20
+---
+## accent(self, accent_character) {#char}
+Sets an accent mark (a character on the top of this element)
+
+### रिटर्न
+
+नया उदाहरण प्रकार [`IMathAccent`](/slides/python-net/hi/aspose.slides.mathtext/imathaccent)
+
+```python
+def accent(self, accent_character):
+    ...
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| :- | :- | :- |
+| accent_character | **char** | एक्सेंट अक्षर। मान (U+0300–U+036F) या (U+20D0–U+20EF) की सीमा के भीतर होना चाहिए। |
+
+### संबंधित देखें
+* क्लास [`IMathAccent`](/slides/python-net/hi/aspose.slides.mathtext/imathaccent)
+* क्लास [`MathSubscriptElement`](/slides/python-net/hi/aspose.slides.mathtext/mathsubscriptelement)
+* मॉड्यूल [`aspose.slides.mathtext`](/slides/python-net/hi/aspose.slides.mathtext)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

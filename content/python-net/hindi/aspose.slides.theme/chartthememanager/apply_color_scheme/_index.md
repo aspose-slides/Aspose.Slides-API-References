@@ -1,0 +1,25 @@
+---
+title: apply_color_scheme method
+second_title: Aspose.Slides Python के लिए .NET API के माध्यम से संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.theme/chartthememanager/apply_color_scheme/
+weight: 10
+---
+## apply_color_scheme(self, scheme) {#iextracolorscheme}
+स्लाइड पर अतिरिक्त रंग योजना लागू करता है।
+
+```python
+def apply_color_scheme(self, scheme):
+    ...
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| :- | :- | :- |
+| scheme | [`IExtraColorScheme`](/slides/python-net/hi/aspose.slides.theme/iextracolorscheme) |  |
+
+### संबंधित देखें
+* क्लास [`ChartThemeManager`](/slides/python-net/hi/aspose.slides.theme/chartthememanager)
+* क्लास [`IExtraColorScheme`](/slides/python-net/hi/aspose.slides.theme/iextracolorscheme)
+* मॉड्यूल [`aspose.slides.theme`](/slides/python-net/hi/aspose.slides.theme)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

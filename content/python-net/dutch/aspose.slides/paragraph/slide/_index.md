@@ -6,7 +6,7 @@ type: docs
 url: /nl/aspose.slides/paragraph/slide/
 weight: 120
 ---
-## slide eigenschap
+## dia eigenschap
 ### Definitie:
 ```python
 @property

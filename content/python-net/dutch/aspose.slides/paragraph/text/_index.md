@@ -6,7 +6,7 @@ type: docs
 url: /nl/aspose.slides/paragraph/text/
 weight: 130
 ---
-## tekst eigenschap
+## text eigenschap
 Haalt of stelt de platte tekst van een alinea in.
             Lezen/Schrijven **str**.
 

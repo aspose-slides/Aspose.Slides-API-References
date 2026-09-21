@@ -1,0 +1,38 @@
+---
+title: set_sub_superscript_on_the_left method
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+description: 
+type: docs
+url: /th/aspose.slides.mathtext/imathaccent/set_sub_superscript_on_the_left/
+weight: 140
+---
+## set_sub_superscript_on_the_left(self, subscript, superscript) {#imathelement-imathelement}}
+
+```python
+def set_sub_superscript_on_the_left(self, subscript, superscript):
+    ...
+```
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| subscript | [`IMathElement`](/slides/python-net/th/aspose.slides.mathtext/imathelement) |  |
+| superscript | [`IMathElement`](/slides/python-net/th/aspose.slides.mathtext/imathelement) |  |
+
+## set_sub_superscript_on_the_left(self, subscript, superscript) {#str-str}}
+
+```python
+def set_sub_superscript_on_the_left(self, subscript, superscript):
+    ...
+```
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| subscript | **str** |  |
+| superscript | **str** |  |
+
+### ดูเพิ่มเติม
+* คลาส [`IMathAccent`](/slides/python-net/th/aspose.slides.mathtext/imathaccent)
+* คลาส [`IMathElement`](/slides/python-net/th/aspose.slides.mathtext/imathelement)
+* คลาส [`IMathLeftSubSuperscriptElement`](/slides/python-net/th/aspose.slides.mathtext/imathleftsubsuperscriptelement)
+* โมดูล [`aspose.slides.mathtext`](/slides/python-net/th/aspose.slides.mathtext)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

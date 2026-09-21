@@ -1,0 +1,27 @@
+---
+title: is_color_varied property
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
+description: 
+type: docs
+url: /fa/aspose.slides.charts/ichartseriesgroup/is_color-varied/
+weight: 140
+---
+## is_color_varied خاصیت
+مشخص می‌کند که هر نشانگر داده در سری رنگ متفاوتی دارد.
+            خواندنی/نوشتنی **bool**.
+
+### تعریف:
+```python
+@property
+def is_color_varied(self):
+    ...
+
+@is_color_varied.setter
+def is_color_varied(self, value):
+    ...
+```
+
+### موارد مرتبط
+* کلاس [`IChartSeriesGroup`](/slides/python-net/fa/aspose.slides.charts/ichartseriesgroup)
+* ماژول [`aspose.slides.charts`](/slides/python-net/fa/aspose.slides.charts)
+* کتابخانه [`Aspose.Slides`](/slides/python-net)

@@ -1,19 +1,18 @@
 ---
 title: slide property
-second_title: Aspose.Slides Python के लिए .NET API रेफ़रेंस के माध्यम से
+second_title: Aspose.Slides Python के लिए .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides/paragraph/slide/
 weight: 120
 ---
-## स्लाइड प्रॉपर्टी
+## स्लाइड गुण
 ### परिभाषा:
 ```python
 @property
 def slide(self):
     ...
 ```
-
 
 ### देखें भी
 * क्लास [`Paragraph`](/slides/python-net/hi/aspose.slides/paragraph)

@@ -7,7 +7,7 @@ url: /nl/aspose.slides/iparagraph/paragraph_format/
 weight: 80
 ---
 ## paragraph_format eigenschap
-Retourneert het formatteringsobject voor deze alinea.
+Geeft het opmaakobject voor deze alinea terug.
             Alleen-lezen [`IParagraphFormat`](/slides/python-net/nl/aspose.slides/iparagraphformat).
 
 ### Definitie:

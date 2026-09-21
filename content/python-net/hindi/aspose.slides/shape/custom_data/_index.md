@@ -1,0 +1,25 @@
+---
+title: custom_data property
+second_title: Aspose.Slides for Python via .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides/shape/custom_data/
+weight: 140
+---
+## custom_data प्रॉपर्टी
+आकार की कस्टम डेटा लौटाता है.
+            केवल-पढ़ने योग्य [`ICustomData`](/slides/python-net/hi/aspose.slides/icustomdata).
+
+### परिभाषा:
+```python
+@property
+def custom_data(self):
+    ...
+```
+
+
+### देखें भी
+* क्लास [`ICustomData`](/slides/python-net/hi/aspose.slides/icustomdata)
+* क्लास [`Shape`](/slides/python-net/hi/aspose.slides/shape)
+* मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

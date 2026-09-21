@@ -1,0 +1,24 @@
+---
+title: set_all_date_times_text method
+second_title: Aspose.Slides for Python के माध्यम से .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides/ipresentationheaderfootermanager/set_all_date_times_text/
+weight: 10
+---
+## set_all_date_times_text(self, text) {#str}
+सभी दिनांक-समय प्लेसहोल्डर्स, जिसमें मास्टर स्लाइड, लेआउट स्लाइड और सामान्य स्लाइड शामिल हैं, में टेक्स्ट सेट करता है।
+
+```python
+def set_all_date_times_text(self, text):
+    ...
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| :- | :- | :- |
+| text | **str** | सेट करने के लिए टेक्स्ट। |
+
+### देखें भी
+* क्लास [`IPresentationHeaderFooterManager`](/slides/python-net/hi/aspose.slides/ipresentationheaderfootermanager)
+* मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

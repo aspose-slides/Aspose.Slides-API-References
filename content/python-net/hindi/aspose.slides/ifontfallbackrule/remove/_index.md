@@ -1,0 +1,24 @@
+---
+title: remove method
+second_title: Aspose.Slides के लिए Python द्वारा .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides/ifontfallbackrule/remove/
+weight: 40
+---
+## remove(self, font_name) {#str}
+सूची से एक विशिष्ट FallBack फ़ॉन्ट की पहली उपस्थिति को हटाता है।
+
+```python
+def remove(self, font_name):
+    ...
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| :- | :- | :- |
+| font_name | **str** | सूची से हटाने के लिए फ़ॉन्ट का नाम। |
+
+### देखें
+* क्लास [`IFontFallBackRule`](/slides/python-net/hi/aspose.slides/ifontfallbackrule)
+* मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

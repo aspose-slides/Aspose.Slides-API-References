@@ -1,0 +1,33 @@
+---
+title: ILineFillFormatEffectiveData class
+second_title: مرجع API Aspose.Slides برای Python از طریق .NET
+description: 
+type: docs
+url: /fa/aspose.slides/ilinefillformateffectivedata/
+---
+## ILineFillFormatEffectiveData کلاس
+
+شیء غیرقابل تغییر که شامل ویژگی‌های مؤثر پر کردن خطوط است.
+
+نوع ILineFillFormatEffectiveData اعضای زیر را در اختیار می‌گذارد:
+
+## ویژگی‌ها
+
+| Property | Description |
+| :- | :- |
+| [`fill_type`](/slides/python-net/fa/aspose.slides/ilinefillformateffectivedata/fill_type/) | نوع پر کردن را برمی‌گرداند.<br/>            فقط‌خواندنی [`FillType`](/slides/python-net/fa/aspose.slides/filltype). |
+| [`solid_fill_color`](/slides/python-net/fa/aspose.slides/ilinefillformateffectivedata/solid_fill_color/) | رنگ پر کردن ثابت را برمی‌گرداند.<br/>            فقط‌خواندنی **aspose.slides.Color**. |
+| [`gradient_format`](/slides/python-net/fa/aspose.slides/ilinefillformateffectivedata/gradient_format/) | قالب پر کردن گرادیان را برمی‌گرداند.<br/>            فقط‌خواندنی [`IGradientFormatEffectiveData`](/slides/python-net/fa/aspose.slides/igradientformateffectivedata). |
+| [`pattern_format`](/slides/python-net/fa/aspose.slides/ilinefillformateffectivedata/pattern_format/) | قالب پر کردن الگو را برمی‌گرداند.<br/>            فقط‌خواندنی [`IPatternFormatEffectiveData`](/slides/python-net/fa/aspose.slides/ipatternformateffectivedata). |
+| [`rotate_with_shape`](/slides/python-net/fa/aspose.slides/ilinefillformateffectivedata/rotate_with_shape/) | مشخص می‌کند که آیا پر کردن باید همراه با شکل چرخانده شود یا نه.<br/>            فقط‌خواندنی **bool**. |
+
+
+### توضیحات
+
+این رابط به عنوان بخشی از [`ILineFormatEffectiveData`](/slides/python-net/fa/aspose.slides/ilineformateffectivedata) استفاده می‌شود.
+
+
+### موارد مرتبط
+* کلاس [`ILineFormatEffectiveData`](/slides/python-net/fa/aspose.slides/ilineformateffectivedata)
+* ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)
+* کتابخانه [`Aspose.Slides`](/slides/python-net)

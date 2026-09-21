@@ -1,0 +1,25 @@
+---
+title: update_document_properties method
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+description: 
+type: docs
+url: /th/aspose.slides/ipresentationinfo/update_document_properties/
+weight: 40
+---
+## update_document_properties(self, document_properties) {#idocumentproperties}
+อัปเดตคุณสมบัติของการนำเสนอที่เชื่อมโยง.
+
+```python
+def update_document_properties(self, document_properties):
+    ...
+```
+
+| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| :- | :- | :- |
+| document_properties | [`IDocumentProperties`](/slides/python-net/th/aspose.slides/idocumentproperties) | คุณสมบัติของเอกสาร [`IDocumentProperties`](/slides/python-net/th/aspose.slides/idocumentproperties) |
+
+### ดูเพิ่มเติม
+* คลาส [`IDocumentProperties`](/slides/python-net/th/aspose.slides/idocumentproperties)
+* คลาส [`IPresentationInfo`](/slides/python-net/th/aspose.slides/ipresentationinfo)
+* โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

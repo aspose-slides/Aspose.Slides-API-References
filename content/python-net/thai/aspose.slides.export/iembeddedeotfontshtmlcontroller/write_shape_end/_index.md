@@ -1,0 +1,31 @@
+---
+title: write_shape_end method
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+description: 
+type: docs
+url: /th/aspose.slides.export/iembeddedeotfontshtmlcontroller/write_shape_end/
+weight: 30
+---
+## write_shape_end(self, generator, shape) {#ihtmlgenerator-ishape}
+
+
+
+```python
+def write_shape_end(self, generator, shape):
+    ...
+```
+
+
+| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| :- | :- | :- |
+| generator | [`IHtmlGenerator`](/slides/python-net/th/aspose.slides.export/ihtmlgenerator) |  |
+| shape | [`IShape`](/slides/python-net/th/aspose.slides/ishape) |  |
+
+
+
+### ดูเพิ่มเติม
+* คลาส [`IEmbeddedEotFontsHtmlController`](/slides/python-net/th/aspose.slides.export/iembeddedeotfontshtmlcontroller)
+* คลาส [`IHtmlGenerator`](/slides/python-net/th/aspose.slides.export/ihtmlgenerator)
+* คลาส [`IShape`](/slides/python-net/th/aspose.slides/ishape)
+* โมดูล [`aspose.slides.export`](/slides/python-net/th/aspose.slides.export)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

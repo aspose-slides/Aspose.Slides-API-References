@@ -6,8 +6,8 @@ type: docs
 url: /th/aspose.slides/iparagraph/portions/
 weight: 90
 ---
-## คุณสมบัติ portions
-คืนค่าคอลเลกชันของส่วนข้อความ.
+## portions คุณสมบัติ
+Returns the collection of a text portions.
             อ่านอย่างเดียว [`IPortionCollection`](/slides/python-net/th/aspose.slides/iportioncollection).
 
 ### คำนิยาม:
@@ -18,7 +18,7 @@ def portions(self):
 ```
 
 
-### ดูเพิ่ม
+### ดูเพิ่มเติม
 * คลาส [`IParagraph`](/slides/python-net/th/aspose.slides/iparagraph)
 * คลาส [`IPortionCollection`](/slides/python-net/th/aspose.slides/iportioncollection)
 * โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)

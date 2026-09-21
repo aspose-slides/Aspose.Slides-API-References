@@ -1,0 +1,29 @@
+---
+title: IScaleEffect class
+second_title: Aspose.Slides Python के लिए .NET API रेफ़रेंस के माध्यम से
+description: 
+type: docs
+url: /hi/aspose.slides.animation/iscaleeffect/
+---
+## IScaleEffect क्लास
+
+एनिमेशन स्केल इफ़ेक्ट का प्रतिनिधित्व करता है।
+
+IScaleEffect प्रकार निम्नलिखित सदस्यों को उजागर करता है:
+
+## गुण
+
+| प्रॉपर्टी | विवरण |
+| :- | :- |
+| [`zoom_content`](/slides/python-net/hi/aspose.slides.animation/iscaleeffect/zoom_content/) | यह निर्धारित करता है कि क्या सामग्री को ज़ूम किया जाना चाहिए।<br/>            Read/write [`NullableBool`](/slides/python-net/hi/aspose.slides/nullablebool). |
+| [`from_address`](/slides/python-net/hi/aspose.slides.animation/iscaleeffect/from_address/) | एनिमेशन को शुरू करने के लिए x/y निर्देशांक (प्रतिशत में) निर्दिष्ट करता है।<br/>            Read/write **aspose.slides.PointF**. |
+| [`to`](/slides/python-net/hi/aspose.slides.animation/iscaleeffect/to/) | एनिमेशन स्केल इफ़ेक्ट के लिए लक्ष्य स्थान (प्रतिशत में) निर्दिष्ट करता है।<br/>            Read/write **aspose.slides.PointF**. |
+| [`by`](/slides/python-net/hi/aspose.slides.animation/iscaleeffect/by/) | एनिमेशन के लिए सापेक्ष ऑफ़सेट मान (प्रतिशत में) वर्णन करता है।<br/>            Read/write **aspose.slides.PointF**. |
+| [`accumulate`](/slides/python-net/hi/aspose.slides.animation/iscaleeffect/accumulate/) |  |
+| [`additive`](/slides/python-net/hi/aspose.slides.animation/iscaleeffect/additive/) |  |
+| [`properties`](/slides/python-net/hi/aspose.slides.animation/iscaleeffect/properties/) |  |
+| [`timing`](/slides/python-net/hi/aspose.slides.animation/iscaleeffect/timing/) |  |
+
+### संबंधित देखें
+* मॉड्यूल [`aspose.slides.animation`](/slides/python-net/hi/aspose.slides.animation)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

@@ -1,0 +1,29 @@
+---
+title: raw_frame property
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API
+description: 
+type: docs
+url: /th/aspose.slides.ink/inkactions/raw_frame/
+weight: 350
+---
+## raw_frame คุณสมบัติ
+คืนค่า หรือกำหนดคุณสมบัติของกรอบรูปดิบ
+            อ่าน/เขียน [`IShapeFrame`](/slides/python-net/th/aspose.slides/ishapeframe).
+
+### คำนิยาม:
+```python
+@property
+def raw_frame(self):
+    ...
+
+@raw_frame.setter
+def raw_frame(self, value):
+    ...
+```
+
+
+### ดูเพิ่มเติม
+* คลาส [`InkActions`](/slides/python-net/th/aspose.slides.ink/inkactions)
+* คลาส [`IShapeFrame`](/slides/python-net/th/aspose.slides/ishapeframe)
+* โมดูล [`aspose.slides.ink`](/slides/python-net/th/aspose.slides.ink)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

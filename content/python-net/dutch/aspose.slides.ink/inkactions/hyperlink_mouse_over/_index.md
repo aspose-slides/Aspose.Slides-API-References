@@ -1,0 +1,29 @@
+---
+title: hyperlink_mouse_over property
+second_title: Aspose.Slides voor Python via .NET API-referentie
+description: 
+type: docs
+url: /nl/aspose.slides.ink/inkactions/hyperlink_mouse_over/
+weight: 250
+---
+## hyperlink_mouse_over eigenschap
+Retourneert of stelt de hyperlink in die voor muisover is gedefinieerd.
+Lezen/Schrijven [`IHyperlink`](/slides/python-net/nl/aspose.slides/ihyperlink).
+
+### Definitie:
+```python
+@property
+def hyperlink_mouse_over(self):
+    ...
+
+@hyperlink_mouse_over.setter
+def hyperlink_mouse_over(self, value):
+    ...
+```
+
+
+### Zie ook
+* klasse [`IHyperlink`](/slides/python-net/nl/aspose.slides/ihyperlink)
+* klasse [`InkActions`](/slides/python-net/nl/aspose.slides.ink/inkactions)
+* module [`aspose.slides.ink`](/slides/python-net/nl/aspose.slides.ink)
+* bibliotheek [`Aspose.Slides`](/slides/python-net)

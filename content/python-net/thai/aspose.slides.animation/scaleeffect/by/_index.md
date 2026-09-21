@@ -1,0 +1,28 @@
+---
+title: by property
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+description: 
+type: docs
+url: /th/aspose.slides.animation/scaleeffect/by/
+weight: 50
+---
+## โดยคุณสมบัติ
+อธิบายค่าการเลื่อนเชิงสัมพันธ์สำหรับการเคลื่อนไหว (เป็นเปอร์เซ็นต์).
+            อ่าน/เขียน **aspose.slides.PointF**.
+
+### คำนิยาม:
+```python
+@property
+def by(self):
+    ...
+
+@by.setter
+def by(self, value):
+    ...
+```
+
+
+### ดูเพิ่มเติม
+* คลาส [`ScaleEffect`](/slides/python-net/th/aspose.slides.animation/scaleeffect)
+* โมดูล [`aspose.slides.animation`](/slides/python-net/th/aspose.slides.animation)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

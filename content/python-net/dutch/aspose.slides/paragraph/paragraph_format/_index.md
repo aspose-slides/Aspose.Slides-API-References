@@ -10,11 +10,13 @@ weight: 90
 Retourneert het opmaakobject voor deze alinea.
             Alleen-lezen [`IParagraphFormat`](/slides/python-net/nl/aspose.slides/iparagraphformat).
 
+
 ### Opmerkingen
 
-Het opmaakobject bevat de opmaakparameters die uitsluitend voor de huidige alinea zijn gedefinieerd, geërfde gegevens worden niet toegepast.
+Het opmaakobject bevat de opmaakparameters die alleen voor de huidige alinea zijn gedefinieerd; geërfde gegevens worden niet toegepast.
 
-Om de effectieve waarden, inclusief geërfde waarden, te verkrijgen, gebruik de [`ParagraphFormat.get_effective`](/slides/python-net/nl/aspose.slides/paragraphformat/get_effective)-methode.
+
+Om de effectieve waarden, inclusief geërfde, te verkrijgen, gebruikt u de [`ParagraphFormat.get_effective`](/slides/python-net/nl/aspose.slides/paragraphformat/get_effective)-methode.
 
 ### Definitie:
 ```python
@@ -22,6 +24,7 @@ Om de effectieve waarden, inclusief geërfde waarden, te verkrijgen, gebruik de 
 def paragraph_format(self):
     ...
 ```
+
 
 ### Zie ook
 * klasse [`IParagraphFormat`](/slides/python-net/nl/aspose.slides/iparagraphformat)

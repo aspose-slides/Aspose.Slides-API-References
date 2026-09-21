@@ -1,0 +1,23 @@
+---
+title: to_math_array method
+second_title: Aspose.Slides Python के लिए .NET API संदर्भ के माध्यम से
+description: 
+type: docs
+url: /hi/aspose.slides.mathtext/imathgroupingcharacter/to_math_array/
+weight: 210
+---
+## to_math_array(self) {#}
+
+
+```python
+def to_math_array(self):
+    ...
+```
+
+
+
+### संबंधित देखें
+* क्लास [`IMathArray`](/slides/python-net/hi/aspose.slides.mathtext/imatharray)
+* क्लास [`IMathGroupingCharacter`](/slides/python-net/hi/aspose.slides.mathtext/imathgroupingcharacter)
+* मॉड्यूल [`aspose.slides.mathtext`](/slides/python-net/hi/aspose.slides.mathtext)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

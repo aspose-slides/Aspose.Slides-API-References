@@ -1,19 +1,18 @@
 ---
 title: presentation property
-second_title: Aspose.Slides برای Python از طریق مرجع API .NET
+second_title: مرجع API Aspose.Slides برای Python از طریق .NET
 description: 
 type: docs
 url: /fa/aspose.slides/paragraph/presentation/
 weight: 110
 ---
-## ویژگی ارائه
+## presentation ویژگی
 ### تعریف:
 ```python
 @property
 def presentation(self):
     ...
 ```
-
 
 ### موارد مرتبط
 * کلاس [`Paragraph`](/slides/python-net/fa/aspose.slides/paragraph)

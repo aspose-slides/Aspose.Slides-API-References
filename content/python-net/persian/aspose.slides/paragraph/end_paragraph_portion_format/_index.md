@@ -1,13 +1,14 @@
 ---
 title: end_paragraph_portion_format property
-second_title: Aspose.Slides برای Python از طریق .NET مرجع API
+second_title: Aspose.Slides برای پایتون از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides/paragraph/end_paragraph_portion_format/
 weight: 80
 ---
 ## end_paragraph_portion_format ویژگی
-ویژگی‌های بخش را مشخص می‌کند که در صورتی که بخش دیگری پس از آخرین بخش وارد شود، استفاده می‌شود.
+خصوصیات بخش را مشخص می‌کند که در صورتی که بخش دیگری پس از 
+            آخرین بخش درج شود، استفاده می‌شوند.
 
 ### تعریف:
 ```python
@@ -19,7 +20,6 @@ def end_paragraph_portion_format(self):
 def end_paragraph_portion_format(self, value):
     ...
 ```
-
 
 ### موارد مرتبط
 * کلاس [`Paragraph`](/slides/python-net/fa/aspose.slides/paragraph)

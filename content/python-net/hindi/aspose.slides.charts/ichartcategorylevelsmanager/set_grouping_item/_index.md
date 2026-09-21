@@ -1,0 +1,25 @@
+---
+title: set_grouping_item method
+second_title: Aspose.Slides के लिए Python द्वारा .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.charts/ichartcategorylevelsmanager/set_grouping_item/
+weight: 20
+---
+## set_grouping_item(self, level, value) {#int-any}
+परिभाषित स्तर के लिए समूह आइटम सेट करता है।
+
+```python
+def set_grouping_item(self, level, value):
+    ...
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| :- | :- | :- |
+| level | **int** | श्रेणी स्तर **int** |
+| value | **any** | समूह बनाने वाला आइटम **any** |
+
+### देखें
+* क्लास [`IChartCategoryLevelsManager`](/slides/python-net/hi/aspose.slides.charts/ichartcategorylevelsmanager)
+* मॉड्यूल [`aspose.slides.charts`](/slides/python-net/hi/aspose.slides.charts)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)
