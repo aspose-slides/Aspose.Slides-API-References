@@ -8,7 +8,7 @@ weight: 30
 ---
 
 
-## get_fill_styles(self, style_color) {#asposepydrawingcolor}
+## get_fill_styles(self, style_color) {#asposeslidescolor}
 Returns a collection of theme defined fill styles.
 
 ### Returns
@@ -25,13 +25,14 @@ def get_fill_styles(self, style_color):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | Color **aspose.slides.Color** |
+| style_color | [`Color`](/slides/python-net/aspose.slides/color) | Color [`Color`](/slides/python-net/aspose.slides/color) |
 
 
 
 ### See Also
 * class [`IFillFormatCollectionEffectiveData`](/slides/python-net/aspose.slides.theme/ifillformatcollectioneffectivedata)
 * class [`IFormatSchemeEffectiveData`](/slides/python-net/aspose.slides.theme/iformatschemeeffectivedata)
+* class [`Color`](/slides/python-net/aspose.slides/color)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
 

@@ -17,7 +17,7 @@ The IMotionCmdPath type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`points`](/slides/python-net/aspose.slides.animation/imotioncmdpath/points/) | Specifies points of command.<br/>            Read/write **aspose.slides.PointF**[]. |
+| [`points`](/slides/python-net/aspose.slides.animation/imotioncmdpath/points/) | Specifies points of command.<br/>            Read/write [`PointF`](/slides/python-net/aspose.slides/pointf)[]. |
 | [`command_type`](/slides/python-net/aspose.slides.animation/imotioncmdpath/command_type/) | Specifies command type.<br/>            Read/write [`MotionCommandPathType`](/slides/python-net/aspose.slides.animation/motioncommandpathtype). |
 | [`is_relative`](/slides/python-net/aspose.slides.animation/imotioncmdpath/is_relative/) | Determine command coordinates relative or not.<br/>            Read/write **bool**. |
 | [`points_type`](/slides/python-net/aspose.slides.animation/imotioncmdpath/points_type/) | Specifies command points type<br/>            Read/write [`MotionPathPointsType`](/slides/python-net/aspose.slides.animation/motionpathpointstype). |

@@ -32,7 +32,7 @@ The ShapeFrame type exposes the following members:
 | [`center_y`](/slides/python-net/aspose.slides/shapeframe/center_y/) | Returns the Y coordinate of a frame's center.<br/>            Read-only **float**. |
 | [`flip_h`](/slides/python-net/aspose.slides/shapeframe/flip_h/) | Determines whether a frame is flipped horizontally.<br/>            Read-only [`NullableBool`](/slides/python-net/aspose.slides/nullablebool). |
 | [`flip_v`](/slides/python-net/aspose.slides/shapeframe/flip_v/) | Determines whether a frame is flipped vertically.<br/>            Read-only [`NullableBool`](/slides/python-net/aspose.slides/nullablebool). |
-| [`rectangle`](/slides/python-net/aspose.slides/shapeframe/rectangle/) | Returns the coordinates of a frame.<br/>            Read-only **aspose.slides.RectangleF**. |
+| [`rectangle`](/slides/python-net/aspose.slides/shapeframe/rectangle/) | Returns the coordinates of a frame.<br/>            Read-only [`RectangleF`](/slides/python-net/aspose.slides/rectanglef). |
 
 ## Methods
 

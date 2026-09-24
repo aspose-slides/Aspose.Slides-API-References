@@ -10,7 +10,7 @@ weight: 140
 
 ## to property
 Specifies the target location for an animation motion effect (in percents).
-            Read/write **aspose.slides.PointF**.
+            Read/write [`PointF`](/slides/python-net/aspose.slides/pointf).
 
 ### Definition:
 ```python
@@ -26,6 +26,7 @@ def to(self, value):
 
 ### See Also
 * class [`MotionEffect`](/slides/python-net/aspose.slides.animation/motioneffect)
+* class [`PointF`](/slides/python-net/aspose.slides/pointf)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
 

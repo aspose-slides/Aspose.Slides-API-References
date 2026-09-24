@@ -10,7 +10,7 @@ weight: 20
 
 ## color property
 Returns color format which will replace color of every pixel.
-            Read-only **aspose.slides.Color**.
+            Read-only [`Color`](/slides/python-net/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -22,6 +22,7 @@ def color(self):
 
 ### See Also
 * class [`IColorReplaceEffectiveData`](/slides/python-net/aspose.slides.effects/icolorreplaceeffectivedata)
+* class [`Color`](/slides/python-net/aspose.slides/color)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
 

@@ -10,7 +10,7 @@ weight: 10
 
 ## color property
 Returns or sets color of the drawing guide.
-            Read/write **aspose.slides.Color**.
+            Read/write [`Color`](/slides/python-net/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -26,6 +26,7 @@ def color(self, value):
 
 ### See Also
 * class [`DrawingGuide`](/slides/python-net/aspose.slides/drawingguide)
+* class [`Color`](/slides/python-net/aspose.slides/color)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

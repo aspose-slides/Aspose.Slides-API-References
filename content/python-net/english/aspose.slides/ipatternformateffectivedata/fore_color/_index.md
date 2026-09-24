@@ -10,7 +10,7 @@ weight: 30
 
 ## fore_color property
 Returns the foreground pattern color.
-            Read-only **aspose.slides.Color**.
+            Read-only [`Color`](/slides/python-net/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -22,6 +22,7 @@ def fore_color(self):
 
 ### See Also
 * class [`IPatternFormatEffectiveData`](/slides/python-net/aspose.slides/ipatternformateffectivedata)
+* class [`Color`](/slides/python-net/aspose.slides/color)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

@@ -14,7 +14,7 @@ Get coordinates of rect that bounds paragraph. The rect includes all the lines o
 
 ### Returns
 
-Rectangle that bounds paragraph **aspose.slides.RectangleF**
+Rectangle that bounds paragraph [`RectangleF`](/slides/python-net/aspose.slides/rectanglef)
 
 
 
@@ -28,6 +28,7 @@ def get_rect(self):
 
 ### See Also
 * class [`IParagraph`](/slides/python-net/aspose.slides/iparagraph)
+* class [`RectangleF`](/slides/python-net/aspose.slides/rectanglef)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

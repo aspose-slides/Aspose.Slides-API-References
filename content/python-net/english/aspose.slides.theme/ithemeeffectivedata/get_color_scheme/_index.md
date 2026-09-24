@@ -8,7 +8,7 @@ weight: 10
 ---
 
 
-## get_color_scheme(self, style_color) {#asposepydrawingcolor}
+## get_color_scheme(self, style_color) {#asposeslidescolor}
 Returns the color scheme.
 
 ### Returns
@@ -25,13 +25,14 @@ def get_color_scheme(self, style_color):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | Color **aspose.slides.Color** |
+| style_color | [`Color`](/slides/python-net/aspose.slides/color) | Color [`Color`](/slides/python-net/aspose.slides/color) |
 
 
 
 ### See Also
 * class [`IColorSchemeEffectiveData`](/slides/python-net/aspose.slides.theme/icolorschemeeffectivedata)
 * class [`IThemeEffectiveData`](/slides/python-net/aspose.slides.theme/ithemeeffectivedata)
+* class [`Color`](/slides/python-net/aspose.slides/color)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
 

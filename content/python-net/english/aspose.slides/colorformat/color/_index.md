@@ -11,7 +11,7 @@ weight: 60
 ## color property
 Returns resulting color (with all color transformations applied).
             Sets RGB colors and clears all color transformations.
-            Read/write **aspose.slides.Color**.
+            Read/write [`Color`](/slides/python-net/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -27,6 +27,7 @@ def color(self, value):
 
 ### See Also
 * class [`ColorFormat`](/slides/python-net/aspose.slides/colorformat)
+* class [`Color`](/slides/python-net/aspose.slides/color)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

@@ -19,8 +19,8 @@ The IDuotoneEffectiveData type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`color1`](/slides/python-net/aspose.slides.effects/iduotoneeffectivedata/color1/) | Returns target color format for dark pixels.<br/>            Read-only **aspose.slides.Color**. |
-| [`color2`](/slides/python-net/aspose.slides.effects/iduotoneeffectivedata/color2/) | Returns target color format for light pixels.<br/>            Read-only **aspose.slides.Color**. |
+| [`color1`](/slides/python-net/aspose.slides.effects/iduotoneeffectivedata/color1/) | Returns target color format for dark pixels.<br/>            Read-only [`Color`](/slides/python-net/aspose.slides/color). |
+| [`color2`](/slides/python-net/aspose.slides.effects/iduotoneeffectivedata/color2/) | Returns target color format for light pixels.<br/>            Read-only [`Color`](/slides/python-net/aspose.slides/color). |
 
 
 ### See Also

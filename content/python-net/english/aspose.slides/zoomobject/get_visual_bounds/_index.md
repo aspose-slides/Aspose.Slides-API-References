@@ -13,7 +13,7 @@ Gets the visual bounds of the shape calculated from its rendered content.
 
 ### Returns
 
-A **aspose.slides.RectangleF** that represents the visual bounds of the shape
+A [`RectangleF`](/slides/python-net/aspose.slides/rectanglef) that represents the visual bounds of the shape
              in slide coordinates.
 
 
@@ -46,6 +46,7 @@ The returned rectangle represents the axis-aligned bounds of all content
 
 ### See Also
 * class [`ZoomObject`](/slides/python-net/aspose.slides/zoomobject)
+* class [`RectangleF`](/slides/python-net/aspose.slides/rectanglef)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

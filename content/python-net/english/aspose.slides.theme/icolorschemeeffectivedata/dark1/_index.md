@@ -10,7 +10,7 @@ weight: 70
 
 ## dark1 property
 First dark color in the scheme.
-            Read-only **aspose.slides.Color**.
+            Read-only [`Color`](/slides/python-net/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -22,6 +22,7 @@ def dark1(self):
 
 ### See Also
 * class [`IColorSchemeEffectiveData`](/slides/python-net/aspose.slides.theme/icolorschemeeffectivedata)
+* class [`Color`](/slides/python-net/aspose.slides/color)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
 

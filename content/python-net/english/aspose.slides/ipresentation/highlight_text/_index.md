@@ -8,7 +8,7 @@ weight: 40
 ---
 
 
-## highlight_text(self, text, highlight_color) {#str-asposepydrawingcolor}
+## highlight_text(self, text, highlight_color) {#str-asposeslidescolor}
 Highlights all matches of the sample text with the specified color.
 
 
@@ -21,10 +21,10 @@ def highlight_text(self, text, highlight_color):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | text | **str** | The text to highlight. |
-| highlight_color | **aspose.slides.Color** | The color to highlight the text. |
+| highlight_color | [`Color`](/slides/python-net/aspose.slides/color) | The color to highlight the text. |
 
 
-## highlight_text(self, text, highlight_color, options, callback) {#str-asposepydrawingcolor-itextsearchoptions-ifindresultcallback}
+## highlight_text(self, text, highlight_color, options, callback) {#str-asposeslidescolor-itextsearchoptions-ifindresultcallback}
 Highlights all matches of the sample text with the specified color.
 
 
@@ -37,7 +37,7 @@ def highlight_text(self, text, highlight_color, options, callback):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | text | **str** | The text to highlight. |
-| highlight_color | **aspose.slides.Color** | The color to highlight the text. |
+| highlight_color | [`Color`](/slides/python-net/aspose.slides/color) | The color to highlight the text. |
 | options | [`ITextSearchOptions`](/slides/python-net/aspose.slides/itextsearchoptions) | Text search options [`ITextSearchOptions`](/slides/python-net/aspose.slides/itextsearchoptions). |
 | callback | [`IFindResultCallback`](/slides/python-net/aspose.slides/ifindresultcallback) | The callback object for receiving search results [`IFindResultCallback`](/slides/python-net/aspose.slides/ifindresultcallback). |
 
@@ -47,6 +47,7 @@ def highlight_text(self, text, highlight_color, options, callback):
 * class [`IFindResultCallback`](/slides/python-net/aspose.slides/ifindresultcallback)
 * class [`IPresentation`](/slides/python-net/aspose.slides/ipresentation)
 * class [`ITextSearchOptions`](/slides/python-net/aspose.slides/itextsearchoptions)
+* class [`Color`](/slides/python-net/aspose.slides/color)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

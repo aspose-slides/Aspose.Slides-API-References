@@ -10,7 +10,7 @@ weight: 60
 
 ## slide_image_size property
 Returns slide image size.
-            Read-only **aspose.slides.SizeF**.
+            Read-only [`SizeF`](/slides/python-net/aspose.slides/sizef).
 
 ### Definition:
 ```python
@@ -22,6 +22,7 @@ def slide_image_size(self):
 
 ### See Also
 * class [`IHtmlGenerator`](/slides/python-net/aspose.slides.export/ihtmlgenerator)
+* class [`SizeF`](/slides/python-net/aspose.slides/sizef)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
 

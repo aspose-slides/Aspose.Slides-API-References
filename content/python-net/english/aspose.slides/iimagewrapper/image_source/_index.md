@@ -10,7 +10,7 @@ weight: 30
 
 ## image_source property
 Gets the image
-            Read-only **aspose.slides.Image**.
+            Read-only **aspose.slides.IImage**.
 
 ### Definition:
 ```python

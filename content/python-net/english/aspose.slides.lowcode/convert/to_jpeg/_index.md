@@ -33,7 +33,7 @@ def to_jpeg(pres, output_file_name):
 | **RuntimeError(Proxy error(ArgumentException))** |  |
 
 
-## to_jpeg(pres, output_file_name, image_size) {#presentation-str-asposepydrawingsize}
+## to_jpeg(pres, output_file_name, image_size) {#presentation-str-asposeslidessize}
 Converts the input presentation to a set of JPEG format images.  
             If the output file name is given as "myPath/myFilename.jpeg", 
             the result will be saved as a set of "myPath/myFilename_N.jpeg" files, where N is a slide number.
@@ -50,7 +50,7 @@ def to_jpeg(pres, output_file_name, image_size):
 | :- | :- | :- |
 | pres | [`Presentation`](/slides/python-net/aspose.slides/presentation) | The input presentation |
 | output_file_name | **str** | The output file name. |
-| image_size | **aspose.slides.Size** | The size of each generated image. |
+| image_size | [`Size`](/slides/python-net/aspose.slides/size) | The size of each generated image. |
 
 ### Exceptions
 
@@ -91,6 +91,7 @@ def to_jpeg(pres, output_file_name, scale, options):
 * class [`Convert`](/slides/python-net/aspose.slides.lowcode/convert)
 * class [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions)
 * class [`Presentation`](/slides/python-net/aspose.slides/presentation)
+* class [`Size`](/slides/python-net/aspose.slides/size)
 * module [`aspose.slides.lowcode`](/slides/python-net/aspose.slides.lowcode)
 * library [`Aspose.Slides`](/slides/python-net)
 

@@ -8,7 +8,7 @@ weight: 60
 ---
 
 
-## move_to(self, point) {#asposepydrawingpointf}
+## move_to(self, point) {#asposeslidespointf}
 Sets next point position.
 
 
@@ -20,7 +20,7 @@ def move_to(self, point):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | Point position |
+| point | [`PointF`](/slides/python-net/aspose.slides/pointf) | Point position |
 
 
 ## move_to(self, x, y) {#float-float}
@@ -42,6 +42,7 @@ def move_to(self, x, y):
 
 ### See Also
 * class [`GeometryPath`](/slides/python-net/aspose.slides/geometrypath)
+* class [`PointF`](/slides/python-net/aspose.slides/pointf)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

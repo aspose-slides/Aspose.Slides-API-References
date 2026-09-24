@@ -8,7 +8,7 @@ weight: 20
 ---
 
 
-## highlight_text(self, text, highlight_color) {#str-asposepydrawingcolor}
+## highlight_text(self, text, highlight_color) {#str-asposeslidescolor}
 Highlights all matches of the sample text with the specified color.
 
 
@@ -21,10 +21,10 @@ def highlight_text(self, text, highlight_color):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | text | **str** | Text sample to highlight. |
-| highlight_color | **aspose.slides.Color** | The color to highlight the text. |
+| highlight_color | [`Color`](/slides/python-net/aspose.slides/color) | The color to highlight the text. |
 
 
-## highlight_text(self, text, highlight_color, options) {#str-asposepydrawingcolor-itexthighlightingoptions}
+## highlight_text(self, text, highlight_color, options) {#str-asposeslidescolor-itexthighlightingoptions}
 Highlights all matches of the sample text with the specified color.
 
 
@@ -37,11 +37,11 @@ def highlight_text(self, text, highlight_color, options):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | text | **str** | The text to highlight. |
-| highlight_color | **aspose.slides.Color** | The color to highlight the text. |
+| highlight_color | [`Color`](/slides/python-net/aspose.slides/color) | The color to highlight the text. |
 | options | [`ITextHighlightingOptions`](/slides/python-net/aspose.slides/itexthighlightingoptions) | Highlighting options. |
 
 
-## highlight_text(self, text, highlight_color, options, callback) {#str-asposepydrawingcolor-itextsearchoptions-ifindresultcallback}
+## highlight_text(self, text, highlight_color, options, callback) {#str-asposeslidescolor-itextsearchoptions-ifindresultcallback}
 Highlights all matches of the sample text with the specified color.
 
 
@@ -54,7 +54,7 @@ def highlight_text(self, text, highlight_color, options, callback):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | text | **str** | The text to highlight. |
-| highlight_color | **aspose.slides.Color** | The color to highlight the text. |
+| highlight_color | [`Color`](/slides/python-net/aspose.slides/color) | The color to highlight the text. |
 | options | [`ITextSearchOptions`](/slides/python-net/aspose.slides/itextsearchoptions) | Text search options [`ITextSearchOptions`](/slides/python-net/aspose.slides/itextsearchoptions). |
 | callback | [`IFindResultCallback`](/slides/python-net/aspose.slides/ifindresultcallback) | The callback object for receiving search results [`IFindResultCallback`](/slides/python-net/aspose.slides/ifindresultcallback). |
 
@@ -65,6 +65,7 @@ def highlight_text(self, text, highlight_color, options, callback):
 * class [`ITextHighlightingOptions`](/slides/python-net/aspose.slides/itexthighlightingoptions)
 * class [`ITextSearchOptions`](/slides/python-net/aspose.slides/itextsearchoptions)
 * class [`TextFrame`](/slides/python-net/aspose.slides/textframe)
+* class [`Color`](/slides/python-net/aspose.slides/color)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

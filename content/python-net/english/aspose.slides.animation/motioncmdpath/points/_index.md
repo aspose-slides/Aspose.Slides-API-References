@@ -10,7 +10,7 @@ weight: 30
 
 ## points property
 Specifies points of command.
-            Read/write **aspose.slides.PointF**[].
+            Read/write [`PointF`](/slides/python-net/aspose.slides/pointf)[].
 
 ### Definition:
 ```python
@@ -26,6 +26,7 @@ def points(self, value):
 
 ### See Also
 * class [`MotionCmdPath`](/slides/python-net/aspose.slides.animation/motioncmdpath)
+* class [`PointF`](/slides/python-net/aspose.slides/pointf)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
 
