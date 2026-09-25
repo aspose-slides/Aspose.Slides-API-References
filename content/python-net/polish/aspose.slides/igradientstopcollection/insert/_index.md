@@ -1,13 +1,13 @@
 ---
 title: insert method
-second_title: Aspose.Slides dla Pythona przez .NET – dokumentacja API
+second_title: Aspose.Slides dla Python przez .NET odniesienie API
 description: 
 type: docs
 url: /pl/aspose.slides/igradientstopcollection/insert/
 weight: 30
 ---
-## insert(self, index, position, color) {#int-float-asposepydrawingcolor}
-Tworzy nowy punkt gradientu i wstawia go w określonym indeksie w kolekcji.
+## insert(self, index, position, color) {#int-float-asposeslidescolor}
+Tworzy nowy punkt gradientu i wstawia go w określonym indeksie do kolekcji.
 
 ```python
 def insert(self, index, position, color):
@@ -18,10 +18,10 @@ def insert(self, index, position, color):
 | :- | :- | :- |
 | index | **int** | Indeks w kolekcji, w którym nowy punkt gradientu zostanie wstawiony. |
 | position | **float** | Pozycja nowego punktu gradientu. |
-| color | **aspose.slides.Color** | Kolor nowego punktu gradientu. |
+| color | [`Color`](/slides/python-net/pl/aspose.slides/color) | Kolor nowego punktu gradientu. |
 
 ## insert(self, index, position, preset_color) {#int-float-presetcolor}
-Tworzy nowy punkt gradientu i wstawia go w określonym indeksie w kolekcji.
+Tworzy nowy punkt gradientu i wstawia go w określonym indeksie do kolekcji.
 
 ```python
 def insert(self, index, position, preset_color):
@@ -35,7 +35,7 @@ def insert(self, index, position, preset_color):
 | preset_color | [`PresetColor`](/slides/python-net/pl/aspose.slides/presetcolor) | Kolor nowego punktu gradientu. |
 
 ## insert(self, index, position, scheme_color) {#int-float-schemecolor}
-Tworzy nowy punkt gradientu i wstawia go w określonym indeksie w kolekcji.
+Tworzy nowy punkt gradientu i wstawia go w określonym indeksie do kolekcji.
 
 ```python
 def insert(self, index, position, scheme_color):
@@ -50,7 +50,8 @@ def insert(self, index, position, scheme_color):
 
 ### Zobacz także
 * klasa [`IGradientStopCollection`](/slides/python-net/pl/aspose.slides/igradientstopcollection)
-* enumeracja [`PresetColor`](/slides/python-net/pl/aspose.slides/presetcolor)
-* enumeracja [`SchemeColor`](/slides/python-net/pl/aspose.slides/schemecolor)
-* moduł [`aspose.slides`](/slides/python-net/pl/aspose.slides)
-* biblioteka [`Aspose.Slides`](/slides/python-net)
+* enumeration [`PresetColor`](/slides/python-net/pl/aspose.slides/presetcolor)
+* enumeration [`SchemeColor`](/slides/python-net/pl/aspose.slides/schemecolor)
+* klasa [`Color`](/slides/python-net/pl/aspose.slides/color)
+* module [`aspose.slides`](/slides/python-net/pl/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

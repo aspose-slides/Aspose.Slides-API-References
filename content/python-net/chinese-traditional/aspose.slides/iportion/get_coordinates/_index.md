@@ -1,17 +1,17 @@
 ---
 title: get_coordinates method
-second_title: Aspose.Slides for Python via .NET API 參考文件
+second_title: Aspose.Slides for Python via .NET API 參考
 description: 
 type: docs
 url: /zh-hant/aspose.slides/iportion/get_coordinates/
 weight: 20
 ---
 ## get_coordinates(self) {#}
-取得區段起始位置的座標。點的 X 座標代表從第一個字元開始，包括左側留白的區段起始。Y 座標包括上側留白。
+取得段落起始位置的座標。點的 X 座標表示從第一個字元（包括左側留白）開始的段落起始位置。Y 座標包括上側留白。
 
-### Returns
+### 返回值
 
-區段起始位置的座標 **aspose.slides.PointF**
+段落起始位置的座標 [`PointF`](/slides/python-net/zh-hant/aspose.slides/pointf)
 
 
 
@@ -23,7 +23,8 @@ def get_coordinates(self):
 
 
 
-### See Also
-* class [`IPortion`](/slides/python-net/zh-hant/aspose.slides/iportion)
-* module [`aspose.slides`](/slides/python-net/zh-hant/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+### 另請參閱
+* 類 [`IPortion`](/slides/python-net/zh-hant/aspose.slides/iportion)
+* 類 [`PointF`](/slides/python-net/zh-hant/aspose.slides/pointf)
+* 模組 [`aspose.slides`](/slides/python-net/zh-hant/aspose.slides)
+* 函式庫 [`Aspose.Slides`](/slides/python-net)

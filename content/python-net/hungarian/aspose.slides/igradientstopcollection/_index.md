@@ -1,6 +1,6 @@
 ---
 title: IGradientStopCollection class
-second_title: Aspose.Slides a Pythonhoz .NET-en keresztül API Referencia
+second_title: Aspose.Slides Python számára .NET-en keresztül API referenciája
 description: 
 type: docs
 url: /hu/aspose.slides/igradientstopcollection/
@@ -9,9 +9,9 @@ url: /hu/aspose.slides/igradientstopcollection/
 
 Egy színátmenet-állomás gyűjteményét képviseli.
 
-Az IGradientStopCollection típus a következő tagokat teszi közzé:
+Az IGradientStopCollection típus a következő tagokat tartalmazza:
 
-Az index alapján visszaadja a színátmenet-állomást.
+Visszaadja a színátmenet-állomást az index alapján.
 
 ## Indexelő
 
@@ -23,13 +23,13 @@ Az index alapján visszaadja a színátmenet-állomást.
 
 | Módszer | Leírás |
 | :- | :- |
-| [`add(self, position, color)`](/slides/python-net/hu/aspose.slides/igradientstopcollection/add/#float-asposepydrawingcolor) | Létrehozza az új színátmenet-állomást és a gyűjtemény végéhez adja hozzá. |
+| [`add(self, position, color)`](/slides/python-net/hu/aspose.slides/igradientstopcollection/add/#float-asposeslidescolor) | Létrehozza az új színátmenet-állomást és a gyűjtemény végéhez adja hozzá. |
 | [`add(self, position, preset_color)`](/slides/python-net/hu/aspose.slides/igradientstopcollection/add/#float-presetcolor) | Létrehozza az új színátmenet-állomást és a gyűjtemény végéhez adja hozzá. |
 | [`add(self, position, scheme_color)`](/slides/python-net/hu/aspose.slides/igradientstopcollection/add/#float-schemecolor) | Létrehozza az új színátmenet-állomást és a gyűjtemény végéhez adja hozzá. |
-| [`insert(self, index, position, color)`](/slides/python-net/hu/aspose.slides/igradientstopcollection/insert/#int-float-asposepydrawingcolor) | Létrehozza az új színátmenet-állomást és a megadott indexnél beszúrja a gyűjteménybe. |
-| [`insert(self, index, position, preset_color)`](/slides/python-net/hu/aspose.slides/igradientstopcollection/insert/#int-float-presetcolor) | Létrehozza az új színátmenet-állomást és a megadott indexnél beszúrja a gyűjteménybe. |
-| [`insert(self, index, position, scheme_color)`](/slides/python-net/hu/aspose.slides/igradientstopcollection/insert/#int-float-schemecolor) | Létrehozza az új színátmenet-állomást és a megadott indexnél beszúrja a gyűjteménybe. |
-| [`remove_at(self, index)`](/slides/python-net/hu/aspose.slides/igradientstopcollection/remove_at/#int) | Eltávolít egy színátmenet-állomást a megadott indexen. |
+| [`insert(self, index, position, color)`](/slides/python-net/hu/aspose.slides/igradientstopcollection/insert/#int-float-asposeslidescolor) | Létrehozza az új színátmenet-állomást és a megadott indexnél szúrja be a gyűjteménybe. |
+| [`insert(self, index, position, preset_color)`](/slides/python-net/hu/aspose.slides/igradientstopcollection/insert/#int-float-presetcolor) | Létrehozza az új színátmenet-állomást és a megadott indexnél szúrja be a gyűjteménybe. |
+| [`insert(self, index, position, scheme_color)`](/slides/python-net/hu/aspose.slides/igradientstopcollection/insert/#int-float-schemecolor) | Létrehozza az új színátmenet-állomást és a megadott indexnél szúrja be a gyűjteménybe. |
+| [`remove_at(self, index)`](/slides/python-net/hu/aspose.slides/igradientstopcollection/remove_at/#int) | Eltávolít egy színátmenet-állomást a megadott indexnél. |
 | [`clear(self)`](/slides/python-net/hu/aspose.slides/igradientstopcollection/clear/#) | Eltávolítja az összes színátmenet-állomást a gyűjteményből. |
 
 ### Lásd még

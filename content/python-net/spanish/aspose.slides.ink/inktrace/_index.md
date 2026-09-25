@@ -1,6 +1,6 @@
 ---
 title: InkTrace class
-second_title: Aspose.Slides para Python vía Referencia de API .NET
+second_title: Referencia de API de Aspose.Slides para Python vía .NET
 description: 
 type: docs
 url: /es/aspose.slides.ink/inktrace/
@@ -8,8 +8,8 @@ url: /es/aspose.slides.ink/inktrace/
 ## InkTrace clase
 
 Representa un objeto Trace.
-            Un elemento Trace se utiliza para registrar los datos capturados por el digitalizador. 
-            Contiene una secuencia de puntos codificados según la especificación proporcionada por el objeto InkTraceFormat.
+            Un elemento Trace se usa para registrar los datos capturados por el digitalizador. 
+            Contiene una secuencia de puntos codificados según la especificación dada por el objeto InkTraceFormat.
 
 El tipo InkTrace expone los siguientes miembros:
 
@@ -18,7 +18,7 @@ El tipo InkTrace expone los siguientes miembros:
 | Propiedad | Descripción |
 | :- | :- |
 | [`brush`](/slides/python-net/es/aspose.slides.ink/inktrace/brush/) | Obtiene Brush para el IInkLine [`IInkBrush`](/slides/python-net/es/aspose.slides.ink/iinkbrush)<br/>            Solo lectura. |
-| [`points`](/slides/python-net/es/aspose.slides.ink/inktrace/points/) | Obtiene puntos para el IInkLine **aspose.slides.PointF**<br/>            Solo lectura. |
+| [`points`](/slides/python-net/es/aspose.slides.ink/inktrace/points/) | Obtiene puntos para el IInkLine [`PointF`](/slides/python-net/es/aspose.slides/pointf)<br/>            Solo lectura. |
 
 
 ### Ver también

@@ -8,7 +8,7 @@ weight: 50
 ---
 ## positionsegenskap
 Returnerar eller anger positionen för en kommentar på en bild.
-            Läs/skriv **aspose.slides.PointF**.
+            Läs/skriv [`PointF`](/slides/python-net/sv/aspose.slides/pointf).
 
 ### Definition:
 ```python
@@ -24,5 +24,6 @@ def position(self, value):
 
 ### Se även
 * klass [`Comment`](/slides/python-net/sv/aspose.slides/comment)
+* klass [`PointF`](/slides/python-net/sv/aspose.slides/pointf)
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

@@ -6,7 +6,7 @@ type: docs
 url: /nl/aspose.slides/geometrypath/line_to/
 weight: 50
 ---
-## line_to(self, point) {#asposepydrawingpointf}
+## line_to(self, point) {#asposeslidespointf}
 Voegt een lijn toe aan het einde van het pad
 
 
@@ -18,7 +18,7 @@ def line_to(self, point):
 
 | Parameter | Type | Beschrijving |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | Eindpunt van de lijn |
+| point | [`PointF`](/slides/python-net/nl/aspose.slides/pointf) | Eindpunt van de lijn |
 
 
 ## line_to(self, x, y) {#float-float}
@@ -37,7 +37,7 @@ def line_to(self, x, y):
 | y | **float** | Y-coördinaat van het eindpunt van de lijn |
 
 
-## line_to(self, point, index) {#asposepydrawingpointf-int}
+## line_to(self, point, index) {#asposeslidespointf-int}
 Voegt een lijn toe op de opgegeven plaats van het pad
 
 
@@ -49,14 +49,14 @@ def line_to(self, point, index):
 
 | Parameter | Type | Beschrijving |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | Eindpunt |
+| point | [`PointF`](/slides/python-net/nl/aspose.slides/pointf) | Eindpunt |
 | index | **int** | Index van segment in PathData |
 
 ### Uitzonderingen
 
 | Uitzondering | Beschrijving |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Segmentindex is buiten het bereik van PathData |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Segmentindex valt buiten het bereik van PathData |
 
 
 ## line_to(self, x, y, index) {#float-float-int}
@@ -79,11 +79,12 @@ def line_to(self, x, y, index):
 
 | Uitzondering | Beschrijving |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Segmentindex is buiten het bereik van PathData |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Segmentindex valt buiten het bereik van PathData |
 
 
 
 ### Zie ook
 * klasse [`GeometryPath`](/slides/python-net/nl/aspose.slides/geometrypath)
+* klasse [`PointF`](/slides/python-net/nl/aspose.slides/pointf)
 * module [`aspose.slides`](/slides/python-net/nl/aspose.slides)
 * bibliotheek [`Aspose.Slides`](/slides/python-net)

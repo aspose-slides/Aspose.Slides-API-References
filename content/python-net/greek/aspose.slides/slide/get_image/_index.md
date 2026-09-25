@@ -7,7 +7,7 @@ url: /el/aspose.slides/slide/get_image/
 weight: 40
 ---
 ## get_image(self) {#}
-Επιστρέφει ένα αντικείμενο Thumbnail Image (20 % του πραγματικού μεγέθους).
+Επιστρέφει ένα αντικείμενο Thumbnail Image (20% του πραγματικού μεγέθους).
 
 
 ```python
@@ -17,12 +17,12 @@ def get_image(self):
 
 
 
-## get_image(self, image_size) {#asposepydrawingsize}
-Επιστρέφει ένα αντικείμενο Thumbnail Image με το καθορισμένο μέγεθος.
+## get_image(self, image_size) {#asposeslidessize}
+Επιστρέφει ένα αντικείμενο Thumbnail Image με καθορισμένο μέγεθος.
 
-### Επιστρέφει
+### Returns
 
-Αντικείμενο εικόνας.
+αντικείμενο Image.
 
 
 
@@ -32,17 +32,17 @@ def get_image(self, image_size):
 ```
 
 
-| Parameter | Type | Description |
+| Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
-| image_size | **aspose.slides.Size** | Μέγεθος της εικόνας προς δημιουργία. |
+| image_size | [`Size`](/slides/python-net/el/aspose.slides/size) | Μέγεθος της εικόνας που θα δημιουργηθεί. |
 
 
 ## get_image(self, options) {#asposeslidesexportitiffoptions}
-Επιστρέφει ένα αντικείμενο Thumbnail tiff εικόνας με τα καθορισμένα παραμέτρους.
+Επιστρέφει ένα αντικείμενο Thumbnail tiff image με καθορισμένες παραμέτρους.
 
-### Επιστρέφει
+### Returns
 
-Αντικείμενο εικόνας.
+αντικείμενο Image.
 
 
 
@@ -52,23 +52,23 @@ def get_image(self, options):
 ```
 
 
-| Parameter | Type | Description |
+| Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
-| options | [`ITiffOptions`](/slides/python-net/el/aspose.slides.export/itiffoptions) | Επιλογές tiff. |
+| options | [`ITiffOptions`](/slides/python-net/el/aspose.slides.export/itiffoptions) | Tiff options. |
 
 ### Εξαιρέσεις
 
-| Exception | Description |
+| Εξαίρεση | Περιγραφή |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Ρίχνεται όταν options.SlideLayoutOption είναι NotesCommentsLayoutingOptions και η ιδιότητά του NotesPosition λαμβάνει την τιμή NotesPositions.BottomFull. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Thrown when options.SlideLayoutOption is NotesCommentsLayoutingOptions and its property NotesPosition takes the value NotesPositions.BottomFull. |
 
 
 ## get_image(self, options) {#asposeslidesexportirenderingoptions}
 Επιστρέφει ένα αντικείμενο Thumbnail Image.
 
-### Επιστρέφει
+### Returns
 
-Αντικείμενο εικόνας.
+αντικείμενο Image.
 
 
 
@@ -78,23 +78,23 @@ def get_image(self, options):
 ```
 
 
-| Parameter | Type | Description |
+| Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/el/aspose.slides.export/irenderingoptions) | Επιλογές απόδοσης. |
+| options | [`IRenderingOptions`](/slides/python-net/el/aspose.slides.export/irenderingoptions) | Rendering options. |
 
 ### Εξαιρέσεις
 
-| Exception | Description |
+| Εξαίρεση | Περιγραφή |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Ρίχνεται όταν notesCommentsLayouting.NotesPosition λαμβάνει την τιμή NotesPositions.BottomFull. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
 
 
 ## get_image(self, scale_x, scale_y) {#float-float}
-Επιστρέφει ένα αντικείμενο Thumbnail Image με προσαρμοσμένη κλίμακα.
+Επιστρέφει ένα αντικείμενο Thumbnail Image με προσαρμοσμένη κλιμάκωση.
 
-### Επιστέφει
+### Returns
 
-Αντικείμενο IImage.
+αντικείμενο IImage.
 
 
 
@@ -104,18 +104,18 @@ def get_image(self, scale_x, scale_y):
 ```
 
 
-| Parameter | Type | Description |
+| Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
-| scale_x | **float** | Η τιμή με την οποία κλιμακώνεται αυτό το Thumbnail στην κατεύθυνση του άξονα x. |
-| scale_y | **float** | Η τιμή με την οποία κλιμακώνεται αυτό το Thumbnail στην κατεύθυνση του άξονα y. |
+| scale_x | **float** | Η τιμή με την οποία θα κλιμακώσετε αυτό το Thumbnail στην κατεύθυνση του άξονα x. |
+| scale_y | **float** | Η τιμή με την οποία θα κλιμακώσετε αυτό το Thumbnail στην κατεύθυνση του άξονα y. |
 
 
-## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposepydrawingsize}
-Επιστρέφει ένα αντικείμενο Thumbnail Image με το καθορισμένο μέγεθος.
+## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposeslidessize}
+Επιστρέφει ένα αντικείμενο Thumbnail Image με καθορισμένο μέγεθος.
 
-### Επιστέφει
+### Returns
 
-Αντικείμενο εικόνας.
+αντικείμενο Image.
 
 
 
@@ -125,24 +125,24 @@ def get_image(self, options, image_size):
 ```
 
 
-| Parameter | Type | Description |
+| Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/el/aspose.slides.export/irenderingoptions) | Επιλογές απόδοσης. |
-| image_size | **aspose.slides.Size** | Μέγεθος της εικόνας προς δημιουργία. |
+| options | [`IRenderingOptions`](/slides/python-net/el/aspose.slides.export/irenderingoptions) | Rendering options. |
+| image_size | [`Size`](/slides/python-net/el/aspose.slides/size) | Μέγεθος της εικόνας που θα δημιουργηθεί. |
 
 ### Εξαιρέσεις
 
-| Exception | Description |
+| Εξαίρεση | Περιγραφή |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Ρίχνεται όταν options.SlideLayoutOption είναι NotesCommentsLayoutingOptions και η ιδιότητά του NotesPosition λαμβάνει την τιμή NotesPositions.BottomFull. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Thrown when options.SlideLayoutOption is NotesCommentsLayoutingOptions and its property NotesPosition takes the value NotesPositions.BottomFull. |
 
 
 ## get_image(self, options, scale_x, scale_y) {#asposeslidesexportirenderingoptions-float-float}
-Επιστρέφει ένα αντικείμενο Thumbnail Image με προσαρμοσμένη κλίμακα.
+Επιστρέφει ένα αντικείμενο Thumbnail Image με προσαρμοσμένη κλιμάκωση.
 
-### Επιστέφει
+### Returns
 
-Αντικείμενα Bitmap.
+αντικείμενα Bitmap.
 
 
 
@@ -152,17 +152,17 @@ def get_image(self, options, scale_x, scale_y):
 ```
 
 
-| Parameter | Type | Description |
+| Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/el/aspose.slides.export/irenderingoptions) | Επιλογές απόδοσης. |
-| scale_x | **float** | Η τιμή με την οποία κλιμακώνεται αυτό το Thumbnail στην κατεύθυνση του άξονα x. |
-| scale_y | **float** | Η τιμή με την οποία κλιμακώνεται αυτό το Thumbnail στην κατεύθυνση του άξονα y. |
+| options | [`IRenderingOptions`](/slides/python-net/el/aspose.slides.export/irenderingoptions) | Rendering options. |
+| scale_x | **float** | Η τιμή με την οποία θα κλιμακώσετε αυτό το Thumbnail στην κατεύθυνση του άξονα x. |
+| scale_y | **float** | Η τιμή με την οποία θα κλιμακώσετε αυτό το Thumbnail στην κατεύθυνση του άξονα y. |
 
 ### Εξαιρέσεις
 
-| Exception | Description |
+| Εξαίρεση | Περιγραφή |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Ρίχνεται όταν notesCommentsLayouting.NotesPosition λαμβάνει την τιμή NotesPositions.BottomFull. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
 
 
 
@@ -171,5 +171,6 @@ def get_image(self, options, scale_x, scale_y):
 * κλάση [`IRenderingOptions`](/slides/python-net/el/aspose.slides.export/irenderingoptions)
 * κλάση [`ITiffOptions`](/slides/python-net/el/aspose.slides.export/itiffoptions)
 * κλάση [`Slide`](/slides/python-net/el/aspose.slides/slide)
+* κλάση [`Size`](/slides/python-net/el/aspose.slides/size)
 * μονάδα [`aspose.slides`](/slides/python-net/el/aspose.slides)
 * βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

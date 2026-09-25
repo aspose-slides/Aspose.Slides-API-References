@@ -7,8 +7,8 @@ url: /ko/aspose.slides.theme/icolorschemeeffectivedata/dark2/
 weight: 80
 ---
 ## dark2 속성
-스키마에서 두 번째 어두운 색상.
-            읽기 전용 **aspose.slides.Color**.
+스킴에서 두 번째 어두운 색상입니다.
+            읽기 전용 [`Color`](/slides/python-net/ko/aspose.slides/color).
 
 ### 정의:
 ```python
@@ -18,7 +18,8 @@ def dark2(self):
 ```
 
 
-### 참고
+### 참조
 * 클래스 [`IColorSchemeEffectiveData`](/slides/python-net/ko/aspose.slides.theme/icolorschemeeffectivedata)
+* 클래스 [`Color`](/slides/python-net/ko/aspose.slides/color)
 * 모듈 [`aspose.slides.theme`](/slides/python-net/ko/aspose.slides.theme)
 * 라이브러리 [`Aspose.Slides`](/slides/python-net)

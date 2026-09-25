@@ -1,14 +1,14 @@
 ---
 title: color property
-second_title: Aspose.Slides dla Pythona via .NET API Reference
+second_title: Aspose.Slides dla Pythona przez .NET - odniesienie API
 description: 
 type: docs
 url: /pl/aspose.slides.effects/igloweffectivedata/color/
 weight: 20
 ---
-## właściwość koloru
-Kolor.
-            Tylko do odczytu **aspose.slides.Color**.
+## color właściwość
+Color.
+            Tylko do odczytu [`Color`](/slides/python-net/pl/aspose.slides/color).
 
 ### Definicja:
 ```python
@@ -18,7 +18,8 @@ def color(self):
 ```
 
 
-### Zobacz także
+### Zobacz również
 * klasa [`IGlowEffectiveData`](/slides/python-net/pl/aspose.slides.effects/igloweffectivedata)
+* klasa [`Color`](/slides/python-net/pl/aspose.slides/color)
 * moduł [`aspose.slides.effects`](/slides/python-net/pl/aspose.slides.effects)
 * biblioteka [`Aspose.Slides`](/slides/python-net)

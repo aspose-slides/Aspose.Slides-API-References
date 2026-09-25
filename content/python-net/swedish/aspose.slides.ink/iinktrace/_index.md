@@ -16,7 +16,7 @@ IInkTrace-typen exponerar följande medlemmar:
 | Egenskap | Beskrivning |
 | :- | :- |
 | [`brush`](/slides/python-net/sv/aspose.slides.ink/iinktrace/brush/) | Hämtar Brush för IInkLine [`IInkBrush`](/slides/python-net/sv/aspose.slides.ink/iinkbrush)<br/>            Skrivskyddad. |
-| [`points`](/slides/python-net/sv/aspose.slides.ink/iinktrace/points/) | Hämtar punkter för IInkLine **aspose.slides.PointF**<br/>            Skrivskyddad. |
+| [`points`](/slides/python-net/sv/aspose.slides.ink/iinktrace/points/) | Hämtar punkter för IInkLine [`PointF`](/slides/python-net/sv/aspose.slides/pointf)<br/>            Skrivskyddad. |
 
 ### Se även
 * modul [`aspose.slides.ink`](/slides/python-net/sv/aspose.slides.ink)

@@ -1,6 +1,6 @@
 ---
 title: GradientStopEffectiveData class
-second_title: Referencia de API de Aspose.Slides para Python vía .NET
+second_title: Aspose.Slides para Python a través de .NET Referencia de API
 description: 
 type: docs
 url: /es/aspose.slides/gradientstopeffectivedata/
@@ -16,7 +16,8 @@ El tipo GradientStopEffectiveData expone los siguientes miembros:
 | Propiedad | Descripción |
 | :- | :- |
 | [`position`](/slides/python-net/es/aspose.slides/gradientstopeffectivedata/position/) | Devuelve la posición (0..1) de una parada de degradado.<br/>            Solo lectura **float**. |
-| [`color`](/slides/python-net/es/aspose.slides/gradientstopeffectivedata/color/) | Devuelve el color de una parada de degradado.<br/>            Solo lectura **aspose.slides.Color**. |
+| [`color`](/slides/python-net/es/aspose.slides/gradientstopeffectivedata/color/) | Devuelve el color de una parada de degradado.<br/>            Solo lectura [`Color`](/slides/python-net/es/aspose.slides/color). |
+
 
 ### Ver también
 * módulo [`aspose.slides`](/slides/python-net/es/aspose.slides)

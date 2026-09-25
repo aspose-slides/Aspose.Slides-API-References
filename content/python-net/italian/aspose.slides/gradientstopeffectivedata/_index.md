@@ -1,13 +1,13 @@
 ---
 title: GradientStopEffectiveData class
-second_title: Riferimento API Aspose.Slides per Python via .NET
+second_title: Aspose.Slides per Python via .NET Riferimento API
 description: 
 type: docs
 url: /it/aspose.slides/gradientstopeffectivedata/
 ---
 ## GradientStopEffectiveData classe
 
-Oggetto immutabile che rappresenta un punto di gradiente.
+Oggetto immutabile che rappresenta una fermata del gradiente.
 
 Il tipo GradientStopEffectiveData espone i seguenti membri:
 
@@ -15,8 +15,8 @@ Il tipo GradientStopEffectiveData espone i seguenti membri:
 
 | Proprietà | Descrizione |
 | :- | :- |
-| [`position`](/slides/python-net/it/aspose.slides/gradientstopeffectivedata/position/) | Restituisce la posizione (0..1) di un punto di gradiente.<br/>            Solo lettura **float**. |
-| [`color`](/slides/python-net/it/aspose.slides/gradientstopeffectivedata/color/) | Restituisce il colore di un punto di gradiente.<br/>            Solo lettura **aspose.slides.Color**. |
+| [`position`](/slides/python-net/it/aspose.slides/gradientstopeffectivedata/position/) | Restituisce la posizione (0..1) di una fermata del gradiente.<br/>            Solo lettura **float**. |
+| [`color`](/slides/python-net/it/aspose.slides/gradientstopeffectivedata/color/) | Restituisce il colore di una fermata del gradiente.<br/>            Solo lettura [`Color`](/slides/python-net/it/aspose.slides/color). |
 
 
 ### Vedi anche

@@ -6,9 +6,9 @@ type: docs
 url: /pt/aspose.slides.effects/icolorreplaceeffectivedata/color/
 weight: 20
 ---
-## color propriedade
-Returns color format which will replace color of every pixel.
-            Somente leitura **aspose.slides.Color**.
+## propriedade de cor
+Retorna o formato de cor que substituirá a cor de cada pixel.
+            Somente leitura [`Color`](/slides/python-net/pt/aspose.slides/color).
 
 ### Definição:
 ```python
@@ -18,7 +18,8 @@ def color(self):
 ```
 
 
-### Veja Também
+### Ver também
 * classe [`IColorReplaceEffectiveData`](/slides/python-net/pt/aspose.slides.effects/icolorreplaceeffectivedata)
+* classe [`Color`](/slides/python-net/pt/aspose.slides/color)
 * módulo [`aspose.slides.effects`](/slides/python-net/pt/aspose.slides.effects)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

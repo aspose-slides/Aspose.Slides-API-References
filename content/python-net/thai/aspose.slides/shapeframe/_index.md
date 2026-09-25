@@ -1,45 +1,45 @@
 ---
 title: ShapeFrame class
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET การอ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides/shapeframe/
 ---
 ## ShapeFrame คลาส
 
-แสดงคุณสมบัติของกรอบรูป
+แสดงคุณสมบัติของเฟรมรูปร่าง
 
-ประเภท ShapeFrame เปิดเผยสมาชิกต่อไปนี้:
+ประเภท ShapeFrame มีสมาชิกต่อไปนี้
 
-## ตัวสร้าง
+## คอนสตรัคเตอร์
 
-| Constructor | Description |
+| คอนสตรัคเตอร์ | คำอธิบาย |
 | :- | :- |
-| [`__init__(self, x, y, width, height, flip_h, flip_v, rotation_angle)`](/slides/python-net/th/aspose.slides/shapeframe/__init__/#float-float-float-float-nullablebool-nullablebool-float) | สร้างคุณสมบัติของกรอบรูปใหม่. |
+| [`__init__(self, x, y, width, height, flip_h, flip_v, rotation_angle)`](/slides/python-net/th/aspose.slides/shapeframe/__init__/#float-float-float-float-nullablebool-nullablebool-float) | สร้างคุณสมบัติของเฟรมรูปร่างใหม่. |
 
 ## คุณสมบัติ
 
-| Property | Description |
+| คุณสมบัติ | คำอธิบาย |
 | :- | :- |
-| [`x`](/slides/python-net/th/aspose.slides/shapeframe/x/) | ส่งคืนค่าพิกัด X ของมุมบนซ้ายของกรอบ.<br/>            อ่านอย่างเดียว **float**. |
-| [`y`](/slides/python-net/th/aspose.slides/shapeframe/y/) | ส่งคืนค่าพิกัด Y ของมุมบนซ้ายของกรอบ.<br/>            อ่านอย่างเดียว **float**. |
-| [`width`](/slides/python-net/th/aspose.slides/shapeframe/width/) | ส่งคืนความกว้างของกรอบ.<br/>            อ่านอย่างเดียว **float**. |
-| [`height`](/slides/python-net/th/aspose.slides/shapeframe/height/) | ส่งคืนความสูงของกรอบ.<br/>            อ่านอย่างเดียว **float**. |
-| [`rotation`](/slides/python-net/th/aspose.slides/shapeframe/rotation/) | ส่งคืนจำนวนองศาที่กรอบหมุนรอบแกน z.<br/>            ค่าบวกบ่งบอกการหมุนตามเข็มนาฬิกา; ค่าลบ<br/>            บ่งบอกการหมุนทวนเข็มนาฬิกา.<br/>            อ่านอย่างเดียว **float**. |
-| [`center_x`](/slides/python-net/th/aspose.slides/shapeframe/center_x/) | ส่งคืนค่าพิกัด X ของจุดศูนย์กลางของกรอบ.<br/>            อ่านอย่างเดียว **float**. |
-| [`center_y`](/slides/python-net/th/aspose.slides/shapeframe/center_y/) | ส่งคืนค่าพิกัด Y ของจุดศูนย์กลางของกรอบ.<br/>            อ่านอย่างเดียว **float**. |
-| [`flip_h`](/slides/python-net/th/aspose.slides/shapeframe/flip_h/) | กำหนดว่ากรอบถูกพลิกแนวนอนหรือไม่.<br/>            อ่านอย่างเดียว [`NullableBool`](/slides/python-net/th/aspose.slides/nullablebool). |
-| [`flip_v`](/slides/python-net/th/aspose.slides/shapeframe/flip_v/) | กำหนดว่ากรอบถูกพลิกแนวตั้งหรือไม่.<br/>            อ่านอย่างเดียว [`NullableBool`](/slides/python-net/th/aspose.slides/nullablebool). |
-| [`rectangle`](/slides/python-net/th/aspose.slides/shapeframe/rectangle/) | ส่งคืนพิกัดของกรอบ.<br/>            อ่านอย่างเดียว **aspose.slides.RectangleF**. |
+| [`x`](/slides/python-net/th/aspose.slides/shapeframe/x/) | ส่งคืนพิกัด X ของมุมซ้ายบนของเฟรม.<br/>            อ่านอย่างเดียว **float**. |
+| [`y`](/slides/python-net/th/aspose.slides/shapeframe/y/) | ส่งคืนพิกัด Y ของมุมซ้ายบนของเฟรม.<br/>            อ่านอย่างเดียว **float**. |
+| [`width`](/slides/python-net/th/aspose.slides/shapeframe/width/) | ส่งคืนความกว้างของเฟรม.<br/>            อ่านอย่างเดียว **float**. |
+| [`height`](/slides/python-net/th/aspose.slides/shapeframe/height/) | ส่งคืนความสูงของเฟรม.<br/>            อ่านอย่างเดียว **float**. |
+| [`rotation`](/slides/python-net/th/aspose.slides/shapeframe/rotation/) | ส่งคืนจำนวนองศาที่เฟรมหมุนรอบแกน z.<br/>            ค่าบวกบ่งบอกการหมุนตามเข็มนาฬิกา; ค่าเชิงลบบ่งบอกการหมุนทวนเข็มนาฬิกา.<br/>            อ่านอย่างเดียว **float**. |
+| [`center_x`](/slides/python-net/th/aspose.slides/shapeframe/center_x/) | ส่งคืนพิกัด X ของศูนย์กลางของเฟรม.<br/>            อ่านอย่างเดียว **float**. |
+| [`center_y`](/slides/python-net/th/aspose.slides/shapeframe/center_y/) | ส่งคืนพิกัด Y ของศูนย์กลางของเฟรม.<br/>            อ่านอย่างเดียว **float**. |
+| [`flip_h`](/slides/python-net/th/aspose.slides/shapeframe/flip_h/) | กำหนดว่าเฟรมถูกพลิกแนวนอนหรือไม่.<br/>            อ่านอย่างเดียว [`NullableBool`](/slides/python-net/th/aspose.slides/nullablebool). |
+| [`flip_v`](/slides/python-net/th/aspose.slides/shapeframe/flip_v/) | กำหนดว่าเฟรมถูกพลิกแนวตั้งหรือไม่.<br/>            อ่านอย่างเดียว [`NullableBool`](/slides/python-net/th/aspose.slides/nullablebool). |
+| [`rectangle`](/slides/python-net/th/aspose.slides/shapeframe/rectangle/) | ส่งคืนพิกัดของเฟรม.<br/>            อ่านอย่างเดียว [`RectangleF`](/slides/python-net/th/aspose.slides/rectanglef). |
 
 ## เมธอด
 
-| Method | Description |
+| เมธอด | คำอธิบาย |
 | :- | :- |
-| [`clone(self)`](/slides/python-net/th/aspose.slides/shapeframe/clone/#) | สร้างสำเนา |
-| [`clone_t(self)`](/slides/python-net/th/aspose.slides/shapeframe/clone_t/#) | สร้างสำเนา. |
-| [`equals(self, value)`](/slides/python-net/th/aspose.slides/shapeframe/equals/#shapeframe) | ส่งคืนค่าซึ่งบ่งบอกว่าตัวอย่างนี้เท่ากับอ็อบเจกต์ที่ระบุหรือไม่. |
+| [`clone(self)`](/slides/python-net/th/aspose.slides/shapeframe/clone/#) | โคลน |
+| [`clone_t(self)`](/slides/python-net/th/aspose.slides/shapeframe/clone_t/#) | โคลน. |
+| [`equals(self, value)`](/slides/python-net/th/aspose.slides/shapeframe/equals/#shapeframe) | ส่งคืนค่าที่บ่งชี้ว่าตัวอย่างนี้เท่ากับอ็อบเจกต์ที่ระบุหรือไม่. |
 
 ### ดูเพิ่มเติม
-* โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
-* ไลบรารี [`Aspose.Slides`](/slides/python-net)
+* module [`aspose.slides`](/slides/python-net/th/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

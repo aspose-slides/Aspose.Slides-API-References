@@ -9,31 +9,32 @@ url: /id/aspose.slides.animation/imotionpath/
 
 Mewakili jalur gerakan.
 
-Tipe IMotionPath memperlihatkan anggota-anggota berikut:
+Tipe IMotionPath mengekspos anggota-anggota berikut:
 
 ## Properti
 
-| Properti | Deskripsi |
+| Property | Description |
 | :- | :- |
-| [`count`](/slides/python-net/id/aspose.slides.animation/imotionpath/count/) | Mengembalikan jumlah jalur dalam koleksi.<br/>            Hanya-baca **int**. |
+| [`count`](/slides/python-net/id/aspose.slides.animation/imotionpath/count/) | Mengembalikan jumlah jalur dalam koleksi.<br/>            Baca-saja **int**. |
 
 Mengembalikan perintah pada indeks yang ditentukan.
 
-## Pengindeks
+## Indexer
 
-| Nama | Deskripsi |
+| Name | Description |
 | :- | :- |
 | [`[index]`](/slides/python-net/id/aspose.slides.animation/imotionpath/__getitem__/) |  |
 
 ## Metode
 
-| Metode | Deskripsi |
+| Method | Description |
 | :- | :- |
-| [`add(self, type, pts, pts_type, b_relative_coord)`](/slides/python-net/id/aspose.slides.animation/imotionpath/add/#motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool) | Menambahkan perintah baru ke jalur |
-| [`insert(self, index, type, pts, pts_type, b_relative_coord)`](/slides/python-net/id/aspose.slides.animation/imotionpath/insert/#int-motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool) | Menyisipkan perintah baru ke jalur |
+| [`add(self, type, pts, pts_type, b_relative_coord)`](/slides/python-net/id/aspose.slides.animation/imotionpath/add/#motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool) | Menambahkan perintah baru ke jalur |
+| [`insert(self, index, type, pts, pts_type, b_relative_coord)`](/slides/python-net/id/aspose.slides.animation/imotionpath/insert/#int-motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool) | Menyisipkan perintah baru ke jalur |
 | [`clear(self)`](/slides/python-net/id/aspose.slides.animation/imotionpath/clear/#) | Menghapus semua perintah dari koleksi. |
 | [`remove(self, item)`](/slides/python-net/id/aspose.slides.animation/imotionpath/remove/#imotioncmdpath) | Menghapus perintah yang ditentukan dari koleksi. |
 | [`remove_at(self, index)`](/slides/python-net/id/aspose.slides.animation/imotionpath/remove_at/#int) | Menghapus perintah pada indeks yang ditentukan. |
+
 
 ### Lihat Juga
 * modul [`aspose.slides.animation`](/slides/python-net/id/aspose.slides.animation)

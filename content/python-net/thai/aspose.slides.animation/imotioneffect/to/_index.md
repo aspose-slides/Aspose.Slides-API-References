@@ -7,10 +7,10 @@ url: /th/aspose.slides.animation/imotioneffect/to/
 weight: 130
 ---
 ## เป็นคุณสมบัติ
-กำหนดตำแหน่งเป้าหมายสำหรับเอฟเฟกต์การเคลื่อนไหวของแอนิเมชัน (เป็นเปอร์เซ็นต์).
-            อ่าน/เขียน **aspose.slides.PointF**.
+ระบุตำแหน่งเป้าหมายสำหรับเอฟเฟกต์การเคลื่อนไหวของแอนิเมชัน (เป็นเปอร์เซ็นต์).
+            อ่าน/เขียน [`PointF`](/slides/python-net/th/aspose.slides/pointf).
 
-### คำจำกัดความ:
+### คำนิยาม:
 ```python
 @property
 def to(self):
@@ -24,5 +24,6 @@ def to(self, value):
 
 ### ดูเพิ่มเติม
 * คลาส [`IMotionEffect`](/slides/python-net/th/aspose.slides.animation/imotioneffect)
+* คลาส [`PointF`](/slides/python-net/th/aspose.slides/pointf)
 * โมดูล [`aspose.slides.animation`](/slides/python-net/th/aspose.slides.animation)
 * ไลบรารี [`Aspose.Slides`](/slides/python-net)

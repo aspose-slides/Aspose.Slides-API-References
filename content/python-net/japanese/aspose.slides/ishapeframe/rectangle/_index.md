@@ -6,9 +6,9 @@ type: docs
 url: /ja/aspose.slides/ishapeframe/rectangle/
 weight: 70
 ---
-## 矩形 プロパティ
+## 矩形プロパティ
 フレームの座標を返します。
-            読み取り専用 **aspose.slides.RectangleF**.
+            読み取り専用 [`RectangleF`](/slides/python-net/ja/aspose.slides/rectanglef).
 
 ### 定義:
 ```python
@@ -19,6 +19,7 @@ def rectangle(self):
 
 
 ### 参照
-* クラス [`IShapeFrame`](/slides/python-net/ja/aspose.slides/ishapeframe)
-* モジュール [`aspose.slides`](/slides/python-net/ja/aspose.slides)
-* ライブラリ [`Aspose.Slides`](/slides/python-net)
+* class [`IShapeFrame`](/slides/python-net/ja/aspose.slides/ishapeframe)
+* class [`RectangleF`](/slides/python-net/ja/aspose.slides/rectanglef)
+* module [`aspose.slides`](/slides/python-net/ja/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

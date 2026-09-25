@@ -1,13 +1,13 @@
 ---
 title: IThemeEffectiveData class
-second_title: Aspose.Slides para Python vía referencia de API .NET
+second_title: Referencia de API de Aspose.Slides para Python a través de .NET
 description: 
 type: docs
 url: /es/aspose.slides.theme/ithemeeffectivedata/
 ---
 ## IThemeEffectiveData clase
 
-Objeto inmutable que contiene las propiedades efectivas del tema.
+Objeto inmutable que contiene propiedades de tema efectivas.
 
 El tipo IThemeEffectiveData expone los siguientes miembros:
 
@@ -22,11 +22,11 @@ El tipo IThemeEffectiveData expone los siguientes miembros:
 
 | Método | Descripción |
 | :- | :- |
-| [`get_color_scheme(self, style_color)`](/slides/python-net/es/aspose.slides.theme/ithemeeffectivedata/get_color_scheme/#asposepydrawingcolor) | Devuelve el esquema de colores. |
+| [`get_color_scheme(self, style_color)`](/slides/python-net/es/aspose.slides.theme/ithemeeffectivedata/get_color_scheme/#asposeslidescolor) | Devuelve el esquema de colores. |
 
 ### Observaciones
 
-Esta interfaz se usa junto con la interfaz [`ITheme`](/slides/python-net/es/aspose.slides.theme/itheme) para devolver valores de formato efectivos con herencia aplicada.
+Esta interfaz se usa junto con la [`ITheme`](/slides/python-net/es/aspose.slides.theme/itheme) interfaz para devolver valores de formato efectivos con herencia aplicada.
 
 ### Ver también
 * clase [`ITheme`](/slides/python-net/es/aspose.slides.theme/itheme)

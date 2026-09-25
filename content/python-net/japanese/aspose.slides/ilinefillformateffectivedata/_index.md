@@ -9,17 +9,17 @@ url: /ja/aspose.slides/ilinefillformateffectivedata/
 
 有効な線の塗りつぶしプロパティを含む不変オブジェクトです。
 
-ILineFillFormatEffectiveData 型は次のメンバーを公開します。
+ILineFillFormatEffectiveData 型は以下のメンバーを公開します。
 
 ## プロパティ
 
 | プロパティ | 説明 |
 | :- | :- |
-| [`fill_type`](/slides/python-net/ja/aspose.slides/ilinefillformateffectivedata/fill_type/) | 塗りつぶしのタイプを返します。<br/> 読み取り専用 [`FillType`](/slides/python-net/ja/aspose.slides/filltype). |
-| [`solid_fill_color`](/slides/python-net/ja/aspose.slides/ilinefillformateffectivedata/solid_fill_color/) | 単色塗りつぶしの色を返します。<br/> 読み取り専用 **aspose.slides.Color**. |
-| [`gradient_format`](/slides/python-net/ja/aspose.slides/ilinefillformateffectivedata/gradient_format/) | グラデーション塗りつぶしのフォーマットを返します。<br/> 読み取り専用 [`IGradientFormatEffectiveData`](/slides/python-net/ja/aspose.slides/igradientformateffectivedata). |
-| [`pattern_format`](/slides/python-net/ja/aspose.slides/ilinefillformateffectivedata/pattern_format/) | パターン塗りつぶしのフォーマットを返します。<br/> 読み取り専用 [`IPatternFormatEffectiveData`](/slides/python-net/ja/aspose.slides/ipatternformateffectivedata). |
-| [`rotate_with_shape`](/slides/python-net/ja/aspose.slides/ilinefillformateffectivedata/rotate_with_shape/) | 塗りつぶしがシェイプとともに回転すべきかどうかを判定します。<br/> 読み取り専用 **bool**. |
+| [`fill_type`](/slides/python-net/ja/aspose.slides/ilinefillformateffectivedata/fill_type/) | 塗りつぶしタイプを返します。<br/>            読み取り専用 [`FillType`](/slides/python-net/ja/aspose.slides/filltype). |
+| [`solid_fill_color`](/slides/python-net/ja/aspose.slides/ilinefillformateffectivedata/solid_fill_color/) | 単色塗りつぶしの色を返します。<br/>            読み取り専用 [`Color`](/slides/python-net/ja/aspose.slides/color). |
+| [`gradient_format`](/slides/python-net/ja/aspose.slides/ilinefillformateffectivedata/gradient_format/) | グラデーション塗りつぶしの形式を返します。<br/>            読み取り専用 [`IGradientFormatEffectiveData`](/slides/python-net/ja/aspose.slides/igradientformateffectivedata). |
+| [`pattern_format`](/slides/python-net/ja/aspose.slides/ilinefillformateffectivedata/pattern_format/) | パターン塗りつぶしの形式を返します。<br/>            読み取り専用 [`IPatternFormatEffectiveData`](/slides/python-net/ja/aspose.slides/ipatternformateffectivedata). |
+| [`rotate_with_shape`](/slides/python-net/ja/aspose.slides/ilinefillformateffectivedata/rotate_with_shape/) | 塗りつぶしがシェイプとともに回転すべきかどうかを決定します。<br/>            読み取り専用 **bool**. |
 
 ### 備考
 

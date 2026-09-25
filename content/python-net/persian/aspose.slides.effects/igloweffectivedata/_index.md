@@ -7,18 +7,17 @@ url: /fa/aspose.slides.effects/igloweffectivedata/
 ---
 ## IGlowEffectiveData کلاس
 
-شیء غیرقابل تغییر که نمایانگر یک اثر Glow است، که در آن خط محو شده‌ای با رنگ به بیرون لبه‌های شیء اضافه می‌شود.
+شیء ثابت که نمایانگر اثر درخشندگی است، که در آن یک حاشیه مبهم رنگی در اطراف لبه‌های شیء اضافه می‌شود.
 
-نوع IGlowEffectiveData اعضای زیر را عرضه می‌کند:
+نوع IGlowEffectiveData اعضای زیر را نشان می‌دهد:
 
-## خصوصیات
+## ویژگی‌ها
 
 | ویژگی | توضیح |
 | :- | :- |
-| [`radius`](/slides/python-net/fa/aspose.slides.effects/igloweffectivedata/radius/) | Radius.<br/>            فقط خواندنی **float**. |
-| [`color`](/slides/python-net/fa/aspose.slides.effects/igloweffectivedata/color/) | Color.<br/>            فقط خواندنی **aspose.slides.Color**. |
+| [`radius`](/slides/python-net/fa/aspose.slides.effects/igloweffectivedata/radius/) | شعاع.<br/>            فقط‌خواندنی **float**. |
+| [`color`](/slides/python-net/fa/aspose.slides.effects/igloweffectivedata/color/) | رنگ.<br/>            فقط‌خواندنی [`Color`](/slides/python-net/fa/aspose.slides/color). |
 
-
-### مراجع
+### موارد مرتبط
 * ماژول [`aspose.slides.effects`](/slides/python-net/fa/aspose.slides.effects)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

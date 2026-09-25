@@ -6,12 +6,12 @@ type: docs
 url: /de/aspose.slides/gradientstopcollection/add/
 weight: 10
 ---
-## add(self, position, color) {#float-asposepydrawingcolor}
-Erstellt den neuen Farbverlaufsstopp und fügt ihn am Ende der Sammlung hinzu.
+## add(self, position, color) {#float-asposeslidescolor}
+Erstellt den neuen Farbverlaufspunkt und fügt ihn am Ende der Sammlung hinzu.
 
 ### Rückgabewert
 
-Index des neuen Farbverlaufsstopps in der Sammlung.
+Index des neuen Farbverlaufspunkts in der Sammlung.
 
 
 
@@ -23,16 +23,16 @@ def add(self, position, color):
 
 | Parameter | Typ | Beschreibung |
 | :- | :- | :- |
-| position | **float** | Position des neuen Farbverlaufsstopps. |
-| color | **aspose.slides.Color** | Farbe des neuen Farbverlaufsstopps. |
+| position | **float** | Position des neuen Farbverlaufspunkts. |
+| color | [`Color`](/slides/python-net/de/aspose.slides/color) | Farbe des neuen Farbverlaufspunkts. |
 
 
 ## add(self, position, preset_color) {#float-presetcolor}
-Erstellt den neuen Farbverlaufsstopp und fügt ihn am Ende der Sammlung hinzu.
+Erstellt den neuen Farbverlaufspunkt und fügt ihn am Ende der Sammlung hinzu.
 
 ### Rückgabewert
 
-Index des neuen Farbverlaufsstopps in der Sammlung.
+Index des neuen Farbverlaufspunkts in der Sammlung.
 
 
 
@@ -44,16 +44,16 @@ def add(self, position, preset_color):
 
 | Parameter | Typ | Beschreibung |
 | :- | :- | :- |
-| position | **float** | Position des neuen Farbverlaufsstopps. |
-| preset_color | [`PresetColor`](/slides/python-net/de/aspose.slides/presetcolor) | Farbe des neuen Farbverlaufsstopps. |
+| position | **float** | Position des neuen Farbverlaufspunkts. |
+| preset_color | [`PresetColor`](/slides/python-net/de/aspose.slides/presetcolor) | Farbe des neuen Farbverlaufspunkts. |
 
 
 ## add(self, position, scheme_color) {#float-schemecolor}
-Erstellt den neuen Farbverlaufsstopp und fügt ihn am Ende der Sammlung hinzu.
+Erstellt den neuen Farbverlaufspunkt und fügt ihn am Ende der Sammlung hinzu.
 
 ### Rückgabewert
 
-Index des neuen Farbverlaufsstopps in der Sammlung.
+Index des neuen Farbverlaufspunkts in der Sammlung.
 
 
 
@@ -65,15 +65,16 @@ def add(self, position, scheme_color):
 
 | Parameter | Typ | Beschreibung |
 | :- | :- | :- |
-| position | **float** | Position des neuen Farbverlaufsstopps. |
-| scheme_color | [`SchemeColor`](/slides/python-net/de/aspose.slides/schemecolor) | Farbe des neuen Farbverlaufsstopps. |
+| position | **float** | Position des neuen Farbverlaufspunkts. |
+| scheme_color | [`SchemeColor`](/slides/python-net/de/aspose.slides/schemecolor) | Farbe des neuen Farbverlaufspunkts. |
 
 
 
 ### Siehe auch
-* Klasse [`GradientStopCollection`](/slides/python-net/de/aspose.slides/gradientstopcollection)
-* Klasse [`IGradientStop`](/slides/python-net/de/aspose.slides/igradientstop)
-* Aufzählung [`PresetColor`](/slides/python-net/de/aspose.slides/presetcolor)
-* Aufzählung [`SchemeColor`](/slides/python-net/de/aspose.slides/schemecolor)
-* Modul [`aspose.slides`](/slides/python-net/de/aspose.slides)
-* Bibliothek [`Aspose.Slides`](/slides/python-net)
+* class [`GradientStopCollection`](/slides/python-net/de/aspose.slides/gradientstopcollection)
+* class [`IGradientStop`](/slides/python-net/de/aspose.slides/igradientstop)
+* enumeration [`PresetColor`](/slides/python-net/de/aspose.slides/presetcolor)
+* enumeration [`SchemeColor`](/slides/python-net/de/aspose.slides/schemecolor)
+* class [`Color`](/slides/python-net/de/aspose.slides/color)
+* module [`aspose.slides`](/slides/python-net/de/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -7,12 +7,11 @@ url: /ja/aspose.slides.charts/ichartdatapoint/get_automatic_data_point_color/
 weight: 10
 ---
 ## get_automatic_data_point_color(self) {#}
-シリーズインデックス、データポイントインデックス、ParentSeriesGroup.IsColorVaried プロパティ、およびチャートスタイルに基づいてデータポイントの自動カラーを返します。            
-            FillType が NotDefined の場合、このカラーがデフォルトで使用されます。
+シリーズインデックス、データポイントインデックス、ParentSeriesGroup.IsColorVaried プロパティ、チャートスタイルに基づいてデータポイントの自動カラーを返します。FillType が NotDefined の場合、このカラーがデフォルトで使用されます。
 
 ### 戻り値
 
-データポイントの自動カラー **aspose.slides.Color**
+データポイントの自動カラー [`Color`](/slides/python-net/ja/aspose.slides/color)
 
 
 
@@ -24,7 +23,8 @@ def get_automatic_data_point_color(self):
 
 
 
-### 関連項目
+### 参照
 * クラス [`IChartDataPoint`](/slides/python-net/ja/aspose.slides.charts/ichartdatapoint)
+* クラス [`Color`](/slides/python-net/ja/aspose.slides/color)
 * モジュール [`aspose.slides.charts`](/slides/python-net/ja/aspose.slides.charts)
-* library [`Aspose.Slides`](/slides/python-net)
+* ライブラリ [`Aspose.Slides`](/slides/python-net)

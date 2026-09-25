@@ -8,9 +8,9 @@ weight: 20
 ---
 ## from_color 属性
 将被替换的颜色。
-            只读 **aspose.slides.Color**.
+            只读 [`Color`](/slides/python-net/zh/aspose.slides/color).
 
-### 定义：
+### 定义:
 ```python
 @property
 def from_color(self):
@@ -20,5 +20,6 @@ def from_color(self):
 
 ### 另见
 * 类 [`IColorChangeEffectiveData`](/slides/python-net/zh/aspose.slides.effects/icolorchangeeffectivedata)
+* 类 [`Color`](/slides/python-net/zh/aspose.slides/color)
 * 模块 [`aspose.slides.effects`](/slides/python-net/zh/aspose.slides.effects)
 * 库 [`Aspose.Slides`](/slides/python-net)

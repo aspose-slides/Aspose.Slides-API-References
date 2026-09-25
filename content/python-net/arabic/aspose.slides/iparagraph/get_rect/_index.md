@@ -1,16 +1,18 @@
 ---
 title: get_rect method
-second_title: Aspose.Slides للبايثون عبر .NET مرجع API
+second_title: Aspose.Slides لبايثون عبر .NET API Reference
 description: 
 type: docs
 url: /ar/aspose.slides/iparagraph/get_rect/
 weight: 30
 ---
 ## get_rect(self) {#}
-احصل على إحداثيات المستطيل الذي يحد الفقرة. يشمل المستطيل جميع سطور النص في الفقرة، بما في ذلك السطور الفارغة.
+احصل على إحداثيات المستطيل الذي يحد الفقرة. يتضمن المستطيل جميع أسطر النص
+            في الفقرة، بما في ذلك الأسطر الفارغة.
 
-### القيمة المرتجعة
-مستطيل يحد الفقرة **aspose.slides.RectangleF**
+### إرجاع
+
+المستطيل الذي يحد الفقرة [`RectangleF`](/slides/python-net/ar/aspose.slides/rectanglef)
 
 
 
@@ -19,7 +21,11 @@ def get_rect(self):
     ...
 ```
 
-### راجع أيضًا
+
+
+
+### أنظر أيضًا
 * فئة [`IParagraph`](/slides/python-net/ar/aspose.slides/iparagraph)
+* فئة [`RectangleF`](/slides/python-net/ar/aspose.slides/rectanglef)
 * وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
 * المكتبة [`Aspose.Slides`](/slides/python-net)

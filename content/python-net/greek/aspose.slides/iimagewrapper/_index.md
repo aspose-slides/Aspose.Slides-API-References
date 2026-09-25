@@ -1,30 +1,30 @@
 ---
 title: IImageWrapper class
-second_title: Aspose.Slides για Python μέσω .NET API Reference
+second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
 description: 
 type: docs
 url: /el/aspose.slides/iimagewrapper/
 ---
 ## IImageWrapper κλάση
 
-System.Drawing.Image περιτύλιγμα για διεπαφή COM.
+System.Drawing.Image wrapper για διεπαφή COM.
 
-Ο τύπος IImageWrapper εκθέτει τα παρακάτω μέλη:
+Ο τύπος IImageWrapper εκθέτει τα ακόλουθα μέλη:
 
 ## Ιδιότητες
 
-| Ιδιότητα | Περιγραφή |
+| Property | Description |
 | :- | :- |
-| [`image_source`](/slides/python-net/el/aspose.slides/iimagewrapper/image_source/) | Αποκτά την εικόνα<br/>            Μόνο για ανάγνωση **aspose.slides.Image**. |
-| [`size`](/slides/python-net/el/aspose.slides/iimagewrapper/size/) | Αποκτά το πλάτος και το ύψος, σε εικονοστοιχεία, της Image<br/>            Μόνο για ανάγνωση [`IImageWrapper.size`](/slides/python-net/el/aspose.slides/iimagewrapper/size). |
+| [`image_source`](/slides/python-net/el/aspose.slides/iimagewrapper/image_source/) | Gets the image<br/>            Μόνο-ανάγνωση **aspose.slides.IImage**. |
+| [`size`](/slides/python-net/el/aspose.slides/iimagewrapper/size/) | Gets the width and height, in pixels, of the Image<br/>            Μόνο-ανάγνωση [`IImageWrapper.size`](/slides/python-net/el/aspose.slides/iimagewrapper/size). |
 
 ## Μέθοδοι
 
-| Μέθοδος | Περιγραφή |
+| Method | Description |
 | :- | :- |
-| [`save(self, file_name)`](/slides/python-net/el/aspose.slides/iimagewrapper/save/#str) | Αποθηκεύει την Image σε καθορισμένο αρχείο |
-| [`save(self, stream, image_format)`](/slides/python-net/el/aspose.slides/iimagewrapper/save/#iorawiobase-ppimageformat) | Αποθηκεύει την Image στο καθορισμένο ρεύμα στην καθορισμένη μορφή. |
-| [`save(self, file_name, image_format)`](/slides/python-net/el/aspose.slides/iimagewrapper/save/#str-ppimageformat) | Αποθηκεύει την Image στο καθορισμένο αρχείο στην καθορισμένη μορφή. |
+| [`save(self, file_name)`](/slides/python-net/el/aspose.slides/iimagewrapper/save/#str) | Αποθηκεύει την Image στο καθορισμένο αρχείο |
+| [`save(self, stream, image_format)`](/slides/python-net/el/aspose.slides/iimagewrapper/save/#iorawiobase-ppimageformat) | Αποθηκεύει την Image στην καθορισμένη ροή με την καθορισμένη μορφή. |
+| [`save(self, file_name, image_format)`](/slides/python-net/el/aspose.slides/iimagewrapper/save/#str-ppimageformat) | Αποθηκεύει την Image στο καθορισμένο αρχείο με την καθορισμένη μορφή. |
 
 
 ### Δείτε επίσης

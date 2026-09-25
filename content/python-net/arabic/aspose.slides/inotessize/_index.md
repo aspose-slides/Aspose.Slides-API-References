@@ -1,22 +1,22 @@
 ---
 title: INotesSize class
-second_title: مرجع API Aspose.Slides للبايثون عبر .NET
+second_title: مرجع API لـ Aspose.Slides للبايثون عبر .NET
 description: 
 type: docs
 url: /ar/aspose.slides/inotessize/
 ---
-## INotesSize الفئة
+## INotesSize فئة
 
 يمثل حجم شريحة الملاحظات.
 
-نوع INotesSize يعرض الأعضاء التالية:
+يعرض نوع INotesSize الأعضاء التالية:
 
 ## الخصائص
 
 | الخاصية | الوصف |
 | :- | :- |
-| [`size`](/slides/python-net/ar/aspose.slides/inotessize/size/) | إرجاع أو تعيين الحجم بالنقاط.<br/>قراءة/كتابة **aspose.slides.SizeF**. |
+| [`size`](/slides/python-net/ar/aspose.slides/inotessize/size/) | يعيد أو يضبط الحجم بالنقاط.<br/>            قابل للقراءة/الكتابة [`SizeF`](/slides/python-net/ar/aspose.slides/sizef). |
 
-### انظر أيضاً
-* الوحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
-* المكتبة [`Aspose.Slides`](/slides/python-net)
+### انظر أيضًا
+* وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

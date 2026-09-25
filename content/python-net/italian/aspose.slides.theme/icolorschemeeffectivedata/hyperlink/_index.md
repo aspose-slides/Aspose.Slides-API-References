@@ -8,7 +8,7 @@ weight: 100
 ---
 ## proprietà hyperlink
 Colore per i collegamenti ipertestuali.
-            Solo lettura **aspose.slides.Color**.
+Sola lettura [`Color`](/slides/python-net/it/aspose.slides/color).
 
 ### Definizione:
 ```python
@@ -20,5 +20,6 @@ def hyperlink(self):
 
 ### Vedi anche
 * classe [`IColorSchemeEffectiveData`](/slides/python-net/it/aspose.slides.theme/icolorschemeeffectivedata)
+* classe [`Color`](/slides/python-net/it/aspose.slides/color)
 * modulo [`aspose.slides.theme`](/slides/python-net/it/aspose.slides.theme)
 * libreria [`Aspose.Slides`](/slides/python-net)

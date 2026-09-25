@@ -17,8 +17,8 @@ Le type InkTrace expose les membres suivants :
 
 | Propriété | Description |
 | :- | :- |
-| [`brush`](/slides/python-net/fr/aspose.slides.ink/inktrace/brush/) | Obtient le Brush pour le IInkLine [`IInkBrush`](/slides/python-net/fr/aspose.slides.ink/iinkbrush)<br/>            Lecture seule. |
-| [`points`](/slides/python-net/fr/aspose.slides.ink/inktrace/points/) | Obtient les points pour le IInkLine **aspose.slides.PointF**<br/>            Lecture seule. |
+| [`brush`](/slides/python-net/fr/aspose.slides.ink/inktrace/brush/) | Obtient Brush pour le IInkLine [`IInkBrush`](/slides/python-net/fr/aspose.slides.ink/iinkbrush)<br/>            Lecture seule. |
+| [`points`](/slides/python-net/fr/aspose.slides.ink/inktrace/points/) | Obtient points pour le IInkLine [`PointF`](/slides/python-net/fr/aspose.slides/pointf)<br/>            Lecture seule. |
 
 
 ### Voir aussi

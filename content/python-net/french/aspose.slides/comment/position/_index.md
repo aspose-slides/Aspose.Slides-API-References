@@ -1,6 +1,6 @@
 ---
 title: position property
-second_title: Aspose.Slides pour Python via .NET Référence de l'API
+second_title: Référence API Aspose.Slides pour Python via .NET
 description: 
 type: docs
 url: /fr/aspose.slides/comment/position/
@@ -8,7 +8,7 @@ weight: 50
 ---
 ## propriété position
 Renvoie ou définit la position d'un commentaire sur une diapositive.
-            Lecture/écriture **aspose.slides.PointF**.
+Lecture/écriture [`PointF`](/slides/python-net/fr/aspose.slides/pointf).
 
 ### Définition:
 ```python
@@ -24,5 +24,6 @@ def position(self, value):
 
 ### Voir aussi
 * classe [`Comment`](/slides/python-net/fr/aspose.slides/comment)
+* classe [`PointF`](/slides/python-net/fr/aspose.slides/pointf)
 * module [`aspose.slides`](/slides/python-net/fr/aspose.slides)
 * bibliothèque [`Aspose.Slides`](/slides/python-net)

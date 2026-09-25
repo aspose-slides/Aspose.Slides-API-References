@@ -8,7 +8,7 @@ weight: 20
 ---
 ## back_color egenskap
 Returnerar bakgrundsmönsterfärgen.
-            Skrivskyddad **aspose.slides.Color**.
+            Skrivskyddad [`Color`](/slides/python-net/sv/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def back_color(self):
 
 ### Se också
 * klass [`IPatternFormatEffectiveData`](/slides/python-net/sv/aspose.slides/ipatternformateffectivedata)
+* klass [`Color`](/slides/python-net/sv/aspose.slides/color)
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

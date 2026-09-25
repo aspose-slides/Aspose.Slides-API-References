@@ -1,13 +1,13 @@
 ---
 title: IMotionPath class
-second_title: Referência da API Aspose.Slides para Python via .NET
+second_title: Aspose.Slides para Python via .NET Referência da API
 description: 
 type: docs
 url: /pt/aspose.slides.animation/imotionpath/
 ---
 ## IMotionPath classe
 
-Representa caminho de movimento.
+Representa o caminho de movimento.
 
 O tipo IMotionPath expõe os seguintes membros:
 
@@ -29,10 +29,10 @@ Retorna um comando no índice especificado.
 
 | Método | Descrição |
 | :- | :- |
-| [`add(self, type, pts, pts_type, b_relative_coord)`](/slides/python-net/pt/aspose.slides.animation/imotionpath/add/#motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool) | Adiciona novo comando ao caminho |
-| [`insert(self, index, type, pts, pts_type, b_relative_coord)`](/slides/python-net/pt/aspose.slides.animation/imotionpath/insert/#int-motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool) | Insere novo comando ao caminho |
+| [`add(self, type, pts, pts_type, b_relative_coord)`](/slides/python-net/pt/aspose.slides.animation/imotionpath/add/#motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool) | Adiciona novo comando ao caminho |
+| [`insert(self, index, type, pts, pts_type, b_relative_coord)`](/slides/python-net/pt/aspose.slides.animation/imotionpath/insert/#int-motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool) | Insere novo comando ao caminho |
 | [`clear(self)`](/slides/python-net/pt/aspose.slides.animation/imotionpath/clear/#) | Remove todos os comandos da coleção. |
-| [`remove(self, item)`](/slides/python-net/pt/aspose.slides.animation/imotionpath/remove/#imotioncmdpath) | Remove os comandos especificados da coleção. |
+| [`remove(self, item)`](/slides/python-net/pt/aspose.slides.animation/imotionpath/remove/#imotioncmdpath) | Remove comandos especificados da coleção. |
 | [`remove_at(self, index)`](/slides/python-net/pt/aspose.slides.animation/imotionpath/remove_at/#int) | Remove um comando no índice especificado. |
 
 

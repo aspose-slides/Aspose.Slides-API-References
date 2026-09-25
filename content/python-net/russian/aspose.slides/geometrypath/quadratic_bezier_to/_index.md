@@ -1,12 +1,12 @@
 ---
 title: quadratic_bezier_to method
-second_title: Справочник API Aspose.Slides для Python через .NET
+second_title: Aspose.Slides для Python через .NET справочник API
 description: 
 type: docs
 url: /ru/aspose.slides/geometrypath/quadratic_bezier_to/
 weight: 70
 ---
-## quadratic_bezier_to(self, point1, point2) {#asposepydrawingpointf-asposepydrawingpointf}
+## quadratic_bezier_to(self, point1, point2) {#asposeslidespointf-asposeslidespointf}
 Добавляет квадратичную кривую Безье в конец пути
 
 
@@ -18,11 +18,11 @@ def quadratic_bezier_to(self, point1, point2):
 
 | Параметр | Тип | Описание |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | Точка направления |
-| point2 | **aspose.slides.PointF** | Конечная точка |
+| point1 | [`PointF`](/slides/python-net/ru/aspose.slides/pointf) | Точка направления |
+| point2 | [`PointF`](/slides/python-net/ru/aspose.slides/pointf) | Конечная точка |
 
 
-## quadratic_bezier_to(self, point1, point2, index) {#asposepydrawingpointf-asposepydrawingpointf-int}
+## quadratic_bezier_to(self, point1, point2, index) {#asposeslidespointf-asposeslidespointf-int}
 Добавляет квадратичную кривую Безье в указанное место пути
 
 
@@ -34,8 +34,8 @@ def quadratic_bezier_to(self, point1, point2, index):
 
 | Параметр | Тип | Описание |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | Точка направления |
-| point2 | **aspose.slides.PointF** | Конечная точка |
+| point1 | [`PointF`](/slides/python-net/ru/aspose.slides/pointf) | Точка направления |
+| point2 | [`PointF`](/slides/python-net/ru/aspose.slides/pointf) | Конечная точка |
 | index | **int** | Индекс сегмента в PathData |
 
 ### Исключения
@@ -91,5 +91,6 @@ def quadratic_bezier_to(self, x1, y1, x2, y2, index):
 
 ### См. также
 * класс [`GeometryPath`](/slides/python-net/ru/aspose.slides/geometrypath)
+* класс [`PointF`](/slides/python-net/ru/aspose.slides/pointf)
 * модуль [`aspose.slides`](/slides/python-net/ru/aspose.slides)
 * библиотека [`Aspose.Slides`](/slides/python-net)

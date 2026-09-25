@@ -1,6 +1,6 @@
 ---
 title: PatternFormat class
-second_title: Referência da API Aspose.Slides para Python via .NET
+second_title: Aspose.Slides para Python via .NET Referência da API
 description: 
 type: docs
 url: /pt/aspose.slides/patternformat/
@@ -17,9 +17,9 @@ O tipo PatternFormat expõe os seguintes membros:
 
 | Propriedade | Descrição |
 | :- | :- |
-| [`pattern_style`](/slides/python-net/pt/aspose.slides/patternformat/pattern_style/) | Retorna ou define o estilo do padrão.<br/>            Leitura/gravação [`PatternStyle`](/slides/python-net/pt/aspose.slides/patternstyle). |
-| [`fore_color`](/slides/python-net/pt/aspose.slides/patternformat/fore_color/) | Retorna a cor de primeiro plano do padrão.<br/>            Somente leitura [`IColorFormat`](/slides/python-net/pt/aspose.slides/icolorformat). |
-| [`back_color`](/slides/python-net/pt/aspose.slides/patternformat/back_color/) | Retorna a cor de fundo do padrão.<br/>            Somente leitura [`IColorFormat`](/slides/python-net/pt/aspose.slides/icolorformat). |
+| [`pattern_style`](/slides/python-net/pt/aspose.slides/patternformat/pattern_style/) | Retorna ou define o estilo do padrão.<br/>            Leitura/Gravação [`PatternStyle`](/slides/python-net/pt/aspose.slides/patternstyle). |
+| [`fore_color`](/slides/python-net/pt/aspose.slides/patternformat/fore_color/) | Retorna a cor do padrão de primeiro plano.<br/>            Somente leitura [`IColorFormat`](/slides/python-net/pt/aspose.slides/icolorformat). |
+| [`back_color`](/slides/python-net/pt/aspose.slides/patternformat/back_color/) | Retorna a cor do padrão de plano de fundo.<br/>            Somente leitura [`IColorFormat`](/slides/python-net/pt/aspose.slides/icolorformat). |
 | [`slide`](/slides/python-net/pt/aspose.slides/patternformat/slide/) |  |
 | [`presentation`](/slides/python-net/pt/aspose.slides/patternformat/presentation/) |  |
 
@@ -27,11 +27,11 @@ O tipo PatternFormat expõe os seguintes membros:
 
 | Método | Descrição |
 | :- | :- |
-| [`get_tile(self, background, foreground)`](/slides/python-net/pt/aspose.slides/patternformat/get_tile/#asposepydrawingcolor-asposepydrawingcolor) | Cria uma imagem em bloco para o preenchimento de padrão com cores especificadas. |
-| [`get_tile(self, style_color)`](/slides/python-net/pt/aspose.slides/patternformat/get_tile/#asposepydrawingcolor) | Cria uma imagem em bloco para o preenchimento de padrão. |
+| [`get_tile(self, background, foreground)`](/slides/python-net/pt/aspose.slides/patternformat/get_tile/#asposeslidescolor-asposeslidescolor) | Cria uma imagem em bloco para o preenchimento do padrão com cores especificadas. |
+| [`get_tile(self, style_color)`](/slides/python-net/pt/aspose.slides/patternformat/get_tile/#asposeslidescolor) | Cria uma imagem em bloco para o preenchimento do padrão. |
 
 
-### Veja Também
+### Veja também
 * classe [`PatternFormat`](/slides/python-net/pt/aspose.slides/patternformat)
 * classe [`PVIObject`](/slides/python-net/pt/aspose.slides/pviobject)
 * módulo [`aspose.slides`](/slides/python-net/pt/aspose.slides)

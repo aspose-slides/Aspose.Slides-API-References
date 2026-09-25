@@ -8,7 +8,7 @@ weight: 20
 ---
 ## back_color eigenschap
 Retourneert de achtergrondpatroonkleur.
-            Alleen-lezen **aspose.slides.Color**.
+            Alleen-lezen [`Color`](/slides/python-net/nl/aspose.slides/color).
 
 ### Definitie:
 ```python
@@ -20,5 +20,6 @@ def back_color(self):
 
 ### Zie ook
 * klasse [`IPatternFormatEffectiveData`](/slides/python-net/nl/aspose.slides/ipatternformateffectivedata)
+* klasse [`Color`](/slides/python-net/nl/aspose.slides/color)
 * module [`aspose.slides`](/slides/python-net/nl/aspose.slides)
 * bibliotheek [`Aspose.Slides`](/slides/python-net)

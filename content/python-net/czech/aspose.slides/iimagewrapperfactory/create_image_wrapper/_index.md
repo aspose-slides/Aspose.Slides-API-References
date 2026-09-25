@@ -7,65 +7,49 @@ url: /cs/aspose.slides/iimagewrapperfactory/create_image_wrapper/
 weight: 10
 ---
 ## create_image_wrapper(self, image) {#iimage}
-Inicializuje novou instanci třídy ImageWrapper ze zadaného existujícího obrazu.
+Inicializuje novou instanci třídy ImageWrapper ze specifikovaného existujícího obrázku.
 
-### Vrací
-
-New instance of a [`IImageWrapper`](/slides/python-net/cs/aspose.slides/iimagewrapper)
-
-
+### Návratová hodnota
+Nová instance [`IImageWrapper`](/slides/python-net/cs/aspose.slides/iimagewrapper)
 
 ```python
 def create_image_wrapper(self, image):
     ...
 ```
 
-
 | Parametr | Typ | Popis |
 | :- | :- | :- |
-| image | [`IImage`](/slides/python-net/cs/aspose.slides/iimage) | Existující obrázek **aspose.slides.Image** |
-
+| image | [`IImage`](/slides/python-net/cs/aspose.slides/iimage) | Existující obrázek **aspose.slides.IImage** |
 
 ## create_image_wrapper(self, stream) {#iorawiobase}
-Inicializuje novou instanci třídy ImageWrapper ze zadaného datového proudu.
+Inicializuje novou instanci třídy ImageWrapper ze specifikovaného datového proudu.
 
-### Vrací
-
-New instance of a [`IImageWrapper`](/slides/python-net/cs/aspose.slides/iimagewrapper)
-
-
+### Návratová hodnota
+Nová instance [`IImageWrapper`](/slides/python-net/cs/aspose.slides/iimagewrapper)
 
 ```python
 def create_image_wrapper(self, stream):
     ...
 ```
 
-
 | Parametr | Typ | Popis |
 | :- | :- | :- |
 | stream | **io.RawIOBase** | Datový proud **io.RawIOBase** |
 
-
 ## create_image_wrapper(self, file_name) {#str}
-Inicializuje novou instanci třídy ImageWrapper ze zadaného souboru.
+Inicializuje novou instanci třídy ImageWrapper ze specifikovaného souboru.
 
-### Vrací
-
-New instance of a [`IImageWrapper`](/slides/python-net/cs/aspose.slides/iimagewrapper)
-
-
+### Návratová hodnota
+Nová instance [`IImageWrapper`](/slides/python-net/cs/aspose.slides/iimagewrapper)
 
 ```python
 def create_image_wrapper(self, file_name):
     ...
 ```
 
-
 | Parametr | Typ | Popis |
 | :- | :- | :- |
 | file_name | **str** | Název souboru **str** |
-
-
 
 ### Viz také
 * třída [`IImage`](/slides/python-net/cs/aspose.slides/iimage)

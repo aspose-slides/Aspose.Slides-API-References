@@ -5,21 +5,20 @@ description:
 type: docs
 url: /tr/aspose.slides.effects/iinnershadoweffectivedata/
 ---
-## IInnerShadowEffectiveData sınıf
+## IInnerShadowEffectiveData sınıfı
 
-İç gölge etkisini temsil eden değişmez nesne.
+Değiştirilemez nesne, iç gölge etkisini temsil eder.
 
-IInnerShadowEffectiveData türü aşağıdaki üyeleri ortaya koyar:
+IInnerShadowEffectiveData türü aşağıdaki üyeleri sunar:
 
 ## Özellikler
 
 | Özellik | Açıklama |
 | :- | :- |
-| [`blur_radius`](/slides/python-net/tr/aspose.slides.effects/iinnershadoweffectivedata/blur_radius/) | Bulanıklaştırma yarıçapı.<br/>            Sadece Okunabilir **float**. |
-| [`direction`](/slides/python-net/tr/aspose.slides.effects/iinnershadoweffectivedata/direction/) | Gölgenin yönü.<br/>            Sadece Okunabilir **float**. |
-| [`distance`](/slides/python-net/tr/aspose.slides.effects/iinnershadoweffectivedata/distance/) | Gölgenin mesafesi.<br/>            Sadece Okunabilir **float**. |
-| [`shadow_color`](/slides/python-net/tr/aspose.slides.effects/iinnershadoweffectivedata/shadow_color/) | Gölgenin rengi.<br/>            Sadece Okunabilir **aspose.slides.Color**. |
-
+| [`blur_radius`](/slides/python-net/tr/aspose.slides.effects/iinnershadoweffectivedata/blur_radius/) | Bulanıklık yarıçapı.<br/>            Yalnızca okunabilir **float**. |
+| [`direction`](/slides/python-net/tr/aspose.slides.effects/iinnershadoweffectivedata/direction/) | Gölgenin yönü.<br/>            Yalnızca okunabilir **float**. |
+| [`distance`](/slides/python-net/tr/aspose.slides.effects/iinnershadoweffectivedata/distance/) | Gölgenin mesafesi.<br/>            Yalnızca okunabilir **float**. |
+| [`shadow_color`](/slides/python-net/tr/aspose.slides.effects/iinnershadoweffectivedata/shadow_color/) | Gölgenin rengi.<br/>            Yalnızca okunabilir [`Color`](/slides/python-net/tr/aspose.slides/color). |
 
 ### İlgili
 * modül [`aspose.slides.effects`](/slides/python-net/tr/aspose.slides.effects)

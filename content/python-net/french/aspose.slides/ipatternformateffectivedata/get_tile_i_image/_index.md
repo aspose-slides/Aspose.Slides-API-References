@@ -6,30 +6,26 @@ type: docs
 url: /fr/aspose.slides/ipatternformateffectivedata/get_tile_i_image/
 weight: 10
 ---
-## get_tile_i_image(self, background, foreground) {#asposepydrawingcolor-asposepydrawingcolor}
-Crée une image de tuile pour le remplissage du motif avec des couleurs spécifiées.
+## get_tile_i_image(self, background, foreground) {#asposeslidescolor-asposeslidescolor}
+Crée une image de carreau pour le remplissage de motif avec des couleurs spécifiées.
 
-### Returns
+### Renvoie
 
-Tile [`IImage`](/slides/python-net/fr/aspose.slides/iimage).
-
-
+Carreau [`IImage`](/slides/python-net/fr/aspose.slides/iimage).
 
 ```python
 def get_tile_i_image(self, background, foreground):
     ...
 ```
 
-
-| Parameter | Type | Description |
+| Paramètre | Type | Description |
 | :- | :- | :- |
-| background | **aspose.slides.Color** | The background **aspose.slides.Color** for the pattern. |
-| foreground | **aspose.slides.Color** | The foreground **aspose.slides.Color** for the pattern. |
+| background | [`Color`](/slides/python-net/fr/aspose.slides/color) | L'arrière-plan [`Color`](/slides/python-net/fr/aspose.slides/color) pour le motif. |
+| foreground | [`Color`](/slides/python-net/fr/aspose.slides/color) | Le premier-plan [`Color`](/slides/python-net/fr/aspose.slides/color) pour le motif. |
 
-
-
-### See Also
+### Voir aussi
 * classe [`IImage`](/slides/python-net/fr/aspose.slides/iimage)
 * classe [`IPatternFormatEffectiveData`](/slides/python-net/fr/aspose.slides/ipatternformateffectivedata)
+* classe [`Color`](/slides/python-net/fr/aspose.slides/color)
 * module [`aspose.slides`](/slides/python-net/fr/aspose.slides)
 * bibliothèque [`Aspose.Slides`](/slides/python-net)

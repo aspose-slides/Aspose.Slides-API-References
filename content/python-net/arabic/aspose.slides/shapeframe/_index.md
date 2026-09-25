@@ -1,6 +1,6 @@
 ---
 title: ShapeFrame class
-second_title: Aspose.Slides لبايثون عبر .NET مرجع API
+second_title: Aspose.Slides للـ Python عبر .NET API Reference
 description: 
 type: docs
 url: /ar/aspose.slides/shapeframe/
@@ -9,36 +9,37 @@ url: /ar/aspose.slides/shapeframe/
 
 يمثل خصائص إطار الشكل.
 
-نوع ShapeFrame يعرض الأعضاء التالية:
+نوع ShapeFrame يُظهر الأعضاء التالية:
 
-## المُنشئات
+## المُنشئون
 
-| المُنشئ | الوصف |
+| Constructor | Description |
 | :- | :- |
-| [`__init__(self, x, y, width, height, flip_h, flip_v, rotation_angle)`](/slides/python-net/ar/aspose.slides/shapeframe/__init__/#float-float-float-float-nullablebool-nullablebool-float) | ينشئ خصائص إطار الشكل الجديد. |
+| [`__init__(self, x, y, width, height, flip_h, flip_v, rotation_angle)`](/slides/python-net/ar/aspose.slides/shapeframe/__init__/#float-float-float-float-nullablebool-nullablebool-float) | ينشئ خصائص جديدة لإطار الشكل. |
 
 ## الخصائص
 
-| الخاصية | الوصف |
+| Property | Description |
 | :- | :- |
-| [`x`](/slides/python-net/ar/aspose.slides/shapeframe/x/) | يعيد إحداثي X للزاوية العلوية اليسرى للإطار.<br/>            للقراءة فقط **float**. |
-| [`y`](/slides/python-net/ar/aspose.slides/shapeframe/y/) | يعيد إحداثي Y للزاوية العلوية اليسرى للإطار.<br/>            للقراءة فقط **float**. |
-| [`width`](/slides/python-net/ar/aspose.slides/shapeframe/width/) | يعيد عرض الإطار.<br/>            للقراءة فقط **float**. |
-| [`height`](/slides/python-net/ar/aspose.slides/shapeframe/height/) | يعيد ارتفاع الإطار.<br/>            للقراءة فقط **float**. |
-| [`rotation`](/slides/python-net/ar/aspose.slides/shapeframe/rotation/) | يعيد عدد الدرجات التي يدور بها الإطار حول المحور z.<br/>            تشير القيمة الموجبة إلى دوران عقارب الساعة؛ والقيمة السلبية<br/>            تشير إلى دوران عكس عقارب الساعة.<br/>            للقراءة فقط **float**. |
-| [`center_x`](/slides/python-net/ar/aspose.slides/shapeframe/center_x/) | يعيد إحداثي X لمركز الإطار.<br/>            للقراءة فقط **float**. |
-| [`center_y`](/slides/python-net/ar/aspose.slides/shapeframe/center_y/) | يعيد إحداثي Y لمركز الإطار.<br/>            للقراءة فقط **float**. |
-| [`flip_h`](/slides/python-net/ar/aspose.slides/shapeframe/flip_h/) | يحدد ما إذا كان الإطار مقلوبًا أفقيًا.<br/>            للقراءة فقط [`NullableBool`](/slides/python-net/ar/aspose.slides/nullablebool). |
-| [`flip_v`](/slides/python-net/ar/aspose.slides/shapeframe/flip_v/) | يحدد ما إذا كان الإطار مقلوبًا عموديًا.<br/>            للقراءة فقط [`NullableBool`](/slides/python-net/ar/aspose.slides/nullablebool). |
-| [`rectangle`](/slides/python-net/ar/aspose.slides/shapeframe/rectangle/) | يعيد إحداثيات الإطار.<br/>            للقراءة فقط **aspose.slides.RectangleF**. |
+| [`x`](/slides/python-net/ar/aspose.slides/shapeframe/x/) | Returns the X coordinate of the upper-left corner of a frame.<br/>            Read-only **float**. |
+| [`y`](/slides/python-net/ar/aspose.slides/shapeframe/y/) | Returns the Y coordinate of the upper-left corner of a frame.<br/>            Read-only **float**. |
+| [`width`](/slides/python-net/ar/aspose.slides/shapeframe/width/) | Returns the width of a frame.<br/>            Read-only **float**. |
+| [`height`](/slides/python-net/ar/aspose.slides/shapeframe/height/) | Returns the height of a frame.<br/>            Read-only **float**. |
+| [`rotation`](/slides/python-net/ar/aspose.slides/shapeframe/rotation/) | Returns the number of degrees a frame is rotated around the z-axis.<br/>            A positive value indicates clockwise rotation; a negative value<br/>            indicates counterclockwise rotation.<br/>            Read-only **float**. |
+| [`center_x`](/slides/python-net/ar/aspose.slides/shapeframe/center_x/) | Returns the X coordinate of a frame's center.<br/>            Read-only **float**. |
+| [`center_y`](/slides/python-net/ar/aspose.slides/shapeframe/center_y/) | Returns the Y coordinate of a frame's center.<br/>            Read-only **float**. |
+| [`flip_h`](/slides/python-net/ar/aspose.slides/shapeframe/flip_h/) | Determines whether a frame is flipped horizontally.<br/>            Read-only [`NullableBool`](/slides/python-net/ar/aspose.slides/nullablebool). |
+| [`flip_v`](/slides/python-net/ar/aspose.slides/shapeframe/flip_v/) | Determines whether a frame is flipped vertically.<br/>            Read-only [`NullableBool`](/slides/python-net/ar/aspose.slides/nullablebool). |
+| [`rectangle`](/slides/python-net/ar/aspose.slides/shapeframe/rectangle/) | Returns the coordinates of a frame.<br/>            Read-only [`RectangleF`](/slides/python-net/ar/aspose.slides/rectanglef). |
 
 ## الطرق
 
-| الطريقة | الوصف |
+| Method | Description |
 | :- | :- |
-| [`clone(self)`](/slides/python-net/ar/aspose.slides/shapeframe/clone/#) | ينسخ |
-| [`clone_t(self)`](/slides/python-net/ar/aspose.slides/shapeframe/clone_t/#) | ينسخ. |
-| [`equals(self, value)`](/slides/python-net/ar/aspose.slides/shapeframe/equals/#shapeframe) | يعيد قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائنًا محددًا. |
+| [`clone(self)`](/slides/python-net/ar/aspose.slides/shapeframe/clone/#) | Clones |
+| [`clone_t(self)`](/slides/python-net/ar/aspose.slides/shapeframe/clone_t/#) | Clones. |
+| [`equals(self, value)`](/slides/python-net/ar/aspose.slides/shapeframe/equals/#shapeframe) | Returns a value indicating whether this instance is equal to a specified object. |
+
 
 ### انظر أيضًا
 * الوحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)

@@ -8,7 +8,7 @@ weight: 70
 ---
 ## solid_fill_color vlastnost
 Vrací barvu výplně.
-            Pouze pro čtení **aspose.slides.Color**.
+            Jen pro čtení [`Color`](/slides/python-net/cs/aspose.slides/color).
 
 ### Definice:
 ```python
@@ -20,5 +20,6 @@ def solid_fill_color(self):
 
 ### Viz také
 * třída [`IFillFormatEffectiveData`](/slides/python-net/cs/aspose.slides/ifillformateffectivedata)
+* třída [`Color`](/slides/python-net/cs/aspose.slides/color)
 * modul [`aspose.slides`](/slides/python-net/cs/aspose.slides)
 * knihovna [`Aspose.Slides`](/slides/python-net)

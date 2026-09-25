@@ -1,14 +1,14 @@
 ---
 title: size property
-second_title: Python için Aspose.Slides .NET API Referansı aracılığıyla
+second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/inotessize/size/
 weight: 10
 ---
-## size özelliği
-Nokta cinsinden size değerini döndürür veya ayarlar.
-**Okunur/yazılır** **aspose.slides.SizeF**.
+## boyut özelliği
+Boyutu puan cinsinden döndürür veya ayarlar.
+            Okunur/yazılır [`SizeF`](/slides/python-net/tr/aspose.slides/sizef).
 
 ### Tanım:
 ```python
@@ -21,7 +21,9 @@ def size(self, value):
     ...
 ```
 
+
 ### Ayrıca Bakınız
-* class [`INotesSize`](/slides/python-net/tr/aspose.slides/inotessize)
-* module [`aspose.slides`](/slides/python-net/tr/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* sınıf [`INotesSize`](/slides/python-net/tr/aspose.slides/inotessize)
+* sınıf [`SizeF`](/slides/python-net/tr/aspose.slides/sizef)
+* modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
+* kütüphane [`Aspose.Slides`](/slides/python-net)

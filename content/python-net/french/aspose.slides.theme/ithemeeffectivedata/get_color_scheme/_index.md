@@ -6,10 +6,10 @@ type: docs
 url: /fr/aspose.slides.theme/ithemeeffectivedata/get_color_scheme/
 weight: 10
 ---
-## get_color_scheme(self, style_color) {#asposepydrawingcolor}
+## get_color_scheme(self, style_color) {#asposeslidescolor}
 Renvoie le schéma de couleurs.
 
-### Retour
+### Valeur de retour
 
 Schéma de couleurs [`IColorSchemeEffectiveData`](/slides/python-net/fr/aspose.slides.theme/icolorschemeeffectivedata)
 
@@ -23,12 +23,13 @@ def get_color_scheme(self, style_color):
 
 | Paramètre | Type | Description |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | Couleur **aspose.slides.Color** |
+| style_color | [`Color`](/slides/python-net/fr/aspose.slides/color) | Couleur [`Color`](/slides/python-net/fr/aspose.slides/color) |
 
 
 
 ### Voir aussi
 * classe [`IColorSchemeEffectiveData`](/slides/python-net/fr/aspose.slides.theme/icolorschemeeffectivedata)
 * classe [`IThemeEffectiveData`](/slides/python-net/fr/aspose.slides.theme/ithemeeffectivedata)
+* classe [`Color`](/slides/python-net/fr/aspose.slides/color)
 * module [`aspose.slides.theme`](/slides/python-net/fr/aspose.slides.theme)
 * bibliothèque [`Aspose.Slides`](/slides/python-net)

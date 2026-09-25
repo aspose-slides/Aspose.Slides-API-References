@@ -6,9 +6,9 @@ type: docs
 url: /fa/aspose.slides.theme/icolorschemeeffectivedata/hyperlink/
 weight: 100
 ---
-## خاصیت ابرپیوند
-رنگ برای ابرپیوندها.
-            فقط‌خواندنی **aspose.slides.Color**.
+## ویژگی پیوند
+رنگ پیوندها.
+            فقط-خواندنی [`Color`](/slides/python-net/fa/aspose.slides/color).
 
 ### تعریف:
 ```python
@@ -18,7 +18,8 @@ def hyperlink(self):
 ```
 
 
-### موارد مرتبط
+### همچنین ببینید
 * کلاس [`IColorSchemeEffectiveData`](/slides/python-net/fa/aspose.slides.theme/icolorschemeeffectivedata)
+* کلاس [`Color`](/slides/python-net/fa/aspose.slides/color)
 * ماژول [`aspose.slides.theme`](/slides/python-net/fa/aspose.slides.theme)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

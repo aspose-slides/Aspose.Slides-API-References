@@ -1,12 +1,12 @@
 ---
 title: move_to method
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้างอิง API
+second_title: อ้างอิง API ของ Aspose.Slides สำหรับ Python ผ่าน .NET
 description: 
 type: docs
 url: /th/aspose.slides/geometrypath/move_to/
 weight: 60
 ---
-## move_to(self, point) {#asposepydrawingpointf}
+## move_to(self, point) {#asposeslidespointf}
 ตั้งตำแหน่งจุดถัดไป.
 
 
@@ -18,7 +18,7 @@ def move_to(self, point):
 
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | ตำแหน่งจุด |
+| point | [`PointF`](/slides/python-net/th/aspose.slides/pointf) | ตำแหน่งจุด |
 
 
 ## move_to(self, x, y) {#float-float}
@@ -40,5 +40,6 @@ def move_to(self, x, y):
 
 ### ดูเพิ่มเติม
 * คลาส [`GeometryPath`](/slides/python-net/th/aspose.slides/geometrypath)
+* คลาส [`PointF`](/slides/python-net/th/aspose.slides/pointf)
 * โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
 * ไลบรารี [`Aspose.Slides`](/slides/python-net)

@@ -6,7 +6,7 @@ type: docs
 url: /sv/aspose.slides/igeometrypath/line_to/
 weight: 40
 ---
-## line_to(self, point) {#asposepydrawingpointf}
+## line_to(self, point) {#asposeslidespointf}
 Lägger till en linje i slutet av sökvägen
 
 
@@ -18,7 +18,7 @@ def line_to(self, point):
 
 | Parameter | Typ | Beskrivning |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | Slutpunkt för linjen |
+| point | [`PointF`](/slides/python-net/sv/aspose.slides/pointf) | Slutpunkt för linjen |
 
 
 ## line_to(self, x, y) {#float-float}
@@ -37,7 +37,7 @@ def line_to(self, x, y):
 | y | **float** | Y-koordinat för linjens slutpunkt |
 
 
-## line_to(self, point, index) {#asposepydrawingpointf-int}
+## line_to(self, point, index) {#asposeslidespointf-int}
 Lägger till en linje på den angivna platsen i sökvägen
 
 
@@ -49,14 +49,14 @@ def line_to(self, point, index):
 
 | Parameter | Typ | Beskrivning |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | Slutpunkt |
+| point | [`PointF`](/slides/python-net/sv/aspose.slides/pointf) | Slutpunkt |
 | index | **int** | Index för segment i PathData |
 
 ### Undantag
 
 | Undantag | Beskrivning |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Segmentindex är utanför området för PathData |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Segmentindex är utanför intervall för PathData |
 
 
 ## line_to(self, x, y, index) {#float-float-int}
@@ -79,11 +79,12 @@ def line_to(self, x, y, index):
 
 | Undantag | Beskrivning |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Segmentindex är utanför området för PathData |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Segmentindex är utanför intervall för PathData |
 
 
 
-### Se också
+### Se även
 * klass [`IGeometryPath`](/slides/python-net/sv/aspose.slides/igeometrypath)
+* klass [`PointF`](/slides/python-net/sv/aspose.slides/pointf)
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

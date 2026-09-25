@@ -1,22 +1,22 @@
 ---
 title: IGlowEffectiveData class
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: Aspose.Slides للبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.effects/igloweffectivedata/
 ---
 ## IGlowEffectiveData فئة
 
-كائن غير قابل للتغيير يمثل تأثير توهج، حيث يُضاف حد غير واضح اللون خارج حواف الكائن.
+كائن غير قابل للتغيير يمثل تأثير توهج، يتم فيه إضافة حدود ضبابية ملونة خارج حواف الكائن.
 
-نوع IGlowEffectiveData يكشف عن الأعضاء التالية:
+The IGlowEffectiveData type exposes the following members:
 
 ## الخصائص
 
-| الخاصية | الوصف |
+| Property | الوصف |
 | :- | :- |
-| [`radius`](/slides/python-net/ar/aspose.slides.effects/igloweffectivedata/radius/) | Radius.<br/> للقراءة فقط **float**. |
-| [`color`](/slides/python-net/ar/aspose.slides.effects/igloweffectivedata/color/) | Color.<br/> للقراءة فقط **aspose.slides.Color**. |
+| [`radius`](/slides/python-net/ar/aspose.slides.effects/igloweffectivedata/radius/) | Radius.<br/>            للقراءة فقط **float**. |
+| [`color`](/slides/python-net/ar/aspose.slides.effects/igloweffectivedata/color/) | Color.<br/>            للقراءة فقط [`Color`](/slides/python-net/ar/aspose.slides/color). |
 
 
 ### انظر أيضًا

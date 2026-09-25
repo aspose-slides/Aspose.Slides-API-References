@@ -7,12 +7,12 @@ url: /fr/aspose.slides.charts/ichartseries/get_automatic_series_color/
 weight: 10
 ---
 ## get_automatic_series_color(self) {#}
-Renvoie une couleur automatique de série basée sur l'index de la série et le style du graphique. 
-            Cette couleur est utilisée par défaut si FillType equals NotDefined.
+Renvoie une couleur automatique de la série en fonction de l'index de la série et du style du graphique. 
+            Cette couleur est utilisée par défaut si FillType vaut NotDefined.
 
 ### Retour
 
-Couleur automatique de la série **aspose.slides.Color**
+Couleur automatique de la série [`Color`](/slides/python-net/fr/aspose.slides/color)
 
 
 
@@ -21,7 +21,11 @@ def get_automatic_series_color(self):
     ...
 ```
 
+
+
+
 ### Voir aussi
 * classe [`IChartSeries`](/slides/python-net/fr/aspose.slides.charts/ichartseries)
+* classe [`Color`](/slides/python-net/fr/aspose.slides/color)
 * module [`aspose.slides.charts`](/slides/python-net/fr/aspose.slides.charts)
 * bibliothèque [`Aspose.Slides`](/slides/python-net)

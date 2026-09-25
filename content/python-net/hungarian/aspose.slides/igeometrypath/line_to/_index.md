@@ -1,13 +1,13 @@
 ---
 title: line_to method
-second_title: Aspose.Slides Pythonhoz a .NET-en keresztül API referencia
+second_title: Aspose.Slides Pythonhoz a .NET API hivatkozás
 description: 
 type: docs
 url: /hu/aspose.slides/igeometrypath/line_to/
 weight: 40
 ---
-## line_to(self, point) {#asposepydrawingpointf}
-Vonal hozzáadása az útvonal végéhez
+## line_to(self, point) {#asposeslidespointf}
+Vonalat ad az útvonal végéhez
 
 
 ```python
@@ -16,13 +16,13 @@ def line_to(self, point):
 ```
 
 
-| Parameter | Type | Description |
+| Paraméter | Típus | Leírás |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | A vonal végpontja |
+| point | [`PointF`](/slides/python-net/hu/aspose.slides/pointf) | A vonal végpontja |
 
 
 ## line_to(self, x, y) {#float-float}
-Vonal hozzáadása az útvonal végéhez
+Vonalat ad az útvonal végéhez
 
 
 ```python
@@ -31,14 +31,14 @@ def line_to(self, x, y):
 ```
 
 
-| Parameter | Type | Description |
+| Paraméter | Típus | Leírás |
 | :- | :- | :- |
 | x | **float** | A vonal végpontjának X koordinátája |
 | y | **float** | A vonal végpontjának Y koordinátája |
 
 
-## line_to(self, point, index) {#asposepydrawingpointf-int}
-Vonal hozzáadása az útvonal megadott helyére
+## line_to(self, point, index) {#asposeslidespointf-int}
+Vonalat ad az útvonal megadott helyéhez
 
 
 ```python
@@ -47,20 +47,20 @@ def line_to(self, point, index):
 ```
 
 
-| Parameter | Type | Description |
+| Paraméter | Típus | Leírás |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | Végpont |
+| point | [`PointF`](/slides/python-net/hu/aspose.slides/pointf) | Végpont |
 | index | **int** | A szegmens indexe a PathData-ban |
 
 ### Kivételek
 
-| Exception | Description |
+| Kivétel | Leírás |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | A szegmens index a PathData tartományán kívül van |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | A szegmens indexe kívül esik a PathData tartományán |
 
 
 ## line_to(self, x, y, index) {#float-float-int}
-Vonal hozzáadása az útvonal megadott helyére
+Vonalat ad az útvonal megadott helyéhez
 
 
 ```python
@@ -69,7 +69,7 @@ def line_to(self, x, y, index):
 ```
 
 
-| Parameter | Type | Description |
+| Paraméter | Típus | Leírás |
 | :- | :- | :- |
 | x | **float** | A pont X koordinátája |
 | y | **float** | A pont Y koordinátája |
@@ -77,13 +77,14 @@ def line_to(self, x, y, index):
 
 ### Kivételek
 
-| Exception | Description |
+| Kivétel | Leírás |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | A szegmens index a PathData tartományán kívül van |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | A szegmens indexe kívül esik a PathData tartományán |
 
 
 
 ### Lásd még
-* class [`IGeometryPath`](/slides/python-net/hu/aspose.slides/igeometrypath)
-* module [`aspose.slides`](/slides/python-net/hu/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* osztály [`IGeometryPath`](/slides/python-net/hu/aspose.slides/igeometrypath)
+* osztály [`PointF`](/slides/python-net/hu/aspose.slides/pointf)
+* modul [`aspose.slides`](/slides/python-net/hu/aspose.slides)
+* könyvtár [`Aspose.Slides`](/slides/python-net)

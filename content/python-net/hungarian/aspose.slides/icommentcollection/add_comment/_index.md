@@ -1,13 +1,13 @@
 ---
 title: add_comment method
-second_title: Aspose.Slides for Python via .NET API Referenciája
+second_title: Aspose.Slides Pythonhoz a .NET API hivatkozása
 description: 
 type: docs
 url: /hu/aspose.slides/icommentcollection/add_comment/
 weight: 10
 ---
-## add_comment(self, text, slide, position, creation_time) {#str-islide-asposepydrawingpointf-datetime}
-Új megjegyzést ad a gyűjtemény végéhez.
+## add_comment(self, text, slide, position, creation_time) {#str-islide-asposeslidespointf-datetime}
+Új megjegyzést ad hozzá a gyűjtemény végén.
 
 ### Visszatér
 
@@ -24,8 +24,8 @@ def add_comment(self, text, slide, position, creation_time):
 | Paraméter | Típus | Leírás |
 | :- | :- | :- |
 | text | **str** | Az új megjegyzés egyszerű szövege. |
-| slide | [`ISlide`](/slides/python-net/hu/aspose.slides/islide) | Diát a bemutatóban, amelyhez új megjegyzést adunk. |
-| position | **aspose.slides.PointF** | Pozíció a dián, ahol új megjegyzést adunk. |
+| slide | [`ISlide`](/slides/python-net/hu/aspose.slides/islide) | Diavetítésben lévő dia, ahová az új megjegyzést hozzáadni kell. |
+| position | [`PointF`](/slides/python-net/hu/aspose.slides/pointf) | Pozíció a dián, ahol az új megjegyzést hozzáadni kell. |
 | creation_time | **DateTime** | A megjegyzés létrehozásának időpontja. |
 
 
@@ -34,5 +34,6 @@ def add_comment(self, text, slide, position, creation_time):
 * osztály [`IComment`](/slides/python-net/hu/aspose.slides/icomment)
 * osztály [`ICommentCollection`](/slides/python-net/hu/aspose.slides/icommentcollection)
 * osztály [`ISlide`](/slides/python-net/hu/aspose.slides/islide)
+* osztály [`PointF`](/slides/python-net/hu/aspose.slides/pointf)
 * modul [`aspose.slides`](/slides/python-net/hu/aspose.slides)
 * könyvtár [`Aspose.Slides`](/slides/python-net)

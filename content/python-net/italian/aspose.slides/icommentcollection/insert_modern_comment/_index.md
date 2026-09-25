@@ -1,16 +1,17 @@
 ---
 title: insert_modern_comment method
-second_title: Riferimento API Aspose.Slides per Python tramite .NET
+second_title: Riferimento API Aspose.Slides per Python via .NET
 description: 
 type: docs
 url: /it/aspose.slides/icommentcollection/insert_modern_comment/
 weight: 50
 ---
-## insert_modern_comment(self, index, text, slide, shape, position, creation_time) {#int-str-islide-ishape-asposepydrawingpointf-datetime}
+## insert_modern_comment(self, index, text, slide, shape, position, creation_time) {#int-str-islide-ishape-asposeslidespointf-datetime}
 Inserisce un nuovo commento moderno in una collezione all'indice specificato.
 
-### Restituisce
-Commento moderno inserito.
+### Returns
+
+Inserted modern comment.
 
 
 
@@ -20,21 +21,22 @@ def insert_modern_comment(self, index, text, slide, shape, position, creation_ti
 ```
 
 
-| Parametro | Tipo | Descrizione |
+| Parameter | Type | Description |
 | :- | :- | :- |
-| index | **int** | Indice dell'elemento in una collezione in cui il commento moderno deve essere inserito. |
-| text | **str** | Testo semplice di un nuovo commento moderno. |
-| slide | [`ISlide`](/slides/python-net/it/aspose.slides/islide) | Diapositiva in una presentazione dove aggiungere un nuovo commento moderno. |
-| shape | [`IShape`](/slides/python-net/it/aspose.slides/ishape) | Forma su una diapositiva a cui è associato un nuovo commento moderno. |
-| position | **aspose.slides.PointF** | Posizione su una diapositiva dove aggiungere un nuovo commento moderno. |
-| creation_time | **DateTime** | Ora di creazione di un commento moderno. |
+| index | **int** | Index of the element in a collection at which modern comment should be inserted. |
+| text | **str** | Plain text of a new modern comment. |
+| slide | [`ISlide`](/slides/python-net/it/aspose.slides/islide) | Slide in a presentation where to add a new modern comment. |
+| shape | [`IShape`](/slides/python-net/it/aspose.slides/ishape) | Shape on a slide to which a new modern comment is associated. |
+| position | [`PointF`](/slides/python-net/it/aspose.slides/pointf) | Position on a slide where to add a new modern comment. |
+| creation_time | **DateTime** | Time of a modern comment creation. |
 
 
 
-### Vedi anche
+### See Also
 * classe [`ICommentCollection`](/slides/python-net/it/aspose.slides/icommentcollection)
 * classe [`IModernComment`](/slides/python-net/it/aspose.slides/imoderncomment)
 * classe [`IShape`](/slides/python-net/it/aspose.slides/ishape)
 * classe [`ISlide`](/slides/python-net/it/aspose.slides/islide)
+* classe [`PointF`](/slides/python-net/it/aspose.slides/pointf)
 * modulo [`aspose.slides`](/slides/python-net/it/aspose.slides)
 * libreria [`Aspose.Slides`](/slides/python-net)

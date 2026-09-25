@@ -9,13 +9,13 @@ url: /el/aspose.slides/inotessize/
 
 Αναπαριστά το μέγεθος μιας διαφάνειας σημειώσεων.
 
-The INotesSize type exposes the following members:
+Ο τύπος INotesSize εκθέτει τα παρακάτω μέλη:
 
 ## Ιδιότητες
 
 | Ιδιότητα | Περιγραφή |
 | :- | :- |
-| [`size`](/slides/python-net/el/aspose.slides/inotessize/size/) | Επιστρέφει ή ορίζει το μέγεθος σε πόντους.<br/>            Ανάγνωση/εγγραφή **aspose.slides.SizeF**. |
+| [`size`](/slides/python-net/el/aspose.slides/inotessize/size/) | Επιστρέφει ή ορίζει το μέγεθος σε σημεία.<br/>            Ανάγνωση/εγγραφή [`SizeF`](/slides/python-net/el/aspose.slides/sizef). |
 
 
 ### Δείτε επίσης

@@ -9,14 +9,14 @@ url: /ja/aspose.slides.ink/iinktrace/
 
 Ink オブジェクト内の手書きラインを表します。
 
-IInkTrace タイプは以下のメンバーを公開します。
+IInkTrace 型は以下のメンバーを公開します：
 
 ## プロパティ
 
 | プロパティ | 説明 |
 | :- | :- |
-| [`brush`](/slides/python-net/ja/aspose.slides.ink/iinktrace/brush/) | IInkLine のブラシを取得します [`IInkBrush`](/slides/python-net/ja/aspose.slides.ink/iinkbrush)<br/>            読み取り専用。 |
-| [`points`](/slides/python-net/ja/aspose.slides.ink/iinktrace/points/) | IInkLine のポイントを取得します **aspose.slides.PointF**<br/>            読み取り専用。 |
+| [`brush`](/slides/python-net/ja/aspose.slides.ink/iinktrace/brush/) | IInkLine [`IInkBrush`](/slides/python-net/ja/aspose.slides.ink/iinkbrush) の Brush を取得します<br/>            読み取り専用。 |
+| [`points`](/slides/python-net/ja/aspose.slides.ink/iinktrace/points/) | IInkLine [`PointF`](/slides/python-net/ja/aspose.slides/pointf) のポイントを取得します<br/>            読み取り専用。 |
 
 ### 参照
 * モジュール [`aspose.slides.ink`](/slides/python-net/ja/aspose.slides.ink)

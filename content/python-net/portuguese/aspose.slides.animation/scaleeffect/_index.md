@@ -1,13 +1,13 @@
 ---
 title: ScaleEffect class
-second_title: Referência da API Aspose.Slides para Python via .NET
+second_title: Aspose.Slides para Python via .NET Referência da API
 description: 
 type: docs
 url: /pt/aspose.slides.animation/scaleeffect/
 ---
 ## ScaleEffect classe
 
-Representa o efeito de escala de animação.
+Representa o efeito de escala da animação.
 
 **Herança:**[`ScaleEffect`](/slides/python-net/pt/aspose.slides.animation/scaleeffect) → [`Behavior`](/slides/python-net/pt/aspose.slides.animation/behavior)
 
@@ -28,9 +28,10 @@ O tipo ScaleEffect expõe os seguintes membros:
 | [`properties`](/slides/python-net/pt/aspose.slides.animation/scaleeffect/properties/) | Representa propriedades do comportamento.<br/>            Somente leitura [`IBehaviorPropertyCollection`](/slides/python-net/pt/aspose.slides.animation/ibehaviorpropertycollection). |
 | [`timing`](/slides/python-net/pt/aspose.slides.animation/scaleeffect/timing/) | Representa propriedades de tempo para o comportamento do efeito.<br/>            Leitura/gravação [`ITiming`](/slides/python-net/pt/aspose.slides.animation/itiming). |
 | [`zoom_content`](/slides/python-net/pt/aspose.slides.animation/scaleeffect/zoom_content/) | Determina se um conteúdo deve ser ampliado.<br/>            Leitura/gravação [`NullableBool`](/slides/python-net/pt/aspose.slides/nullablebool). |
-| [`from_address`](/slides/python-net/pt/aspose.slides.animation/scaleeffect/from_address/) | Especifica uma coordenada x/y para iniciar a animação (em porcentagem).<br/>            Leitura/gravação **aspose.slides.PointF**. |
-| [`to`](/slides/python-net/pt/aspose.slides.animation/scaleeffect/to/) | Especifica a localização alvo para um efeito de escala de animação (em porcentagem).<br/>            Leitura/gravação **aspose.slides.PointF**. |
-| [`by`](/slides/python-net/pt/aspose.slides.animation/scaleeffect/by/) | descreve o valor de deslocamento relativo para a animação (em porcentagem).<br/>            Leitura/gravação **aspose.slides.PointF**. |
+| [`from_address`](/slides/python-net/pt/aspose.slides.animation/scaleeffect/from_address/) | Especifica uma coordenada x/y para iniciar a animação (em percentuais).<br/>            Leitura/gravação [`PointF`](/slides/python-net/pt/aspose.slides/pointf). |
+| [`to`](/slides/python-net/pt/aspose.slides.animation/scaleeffect/to/) | Especifica a localização alvo para um efeito de escala de animação (em percentuais).<br/>            Leitura/gravação [`PointF`](/slides/python-net/pt/aspose.slides/pointf). |
+| [`by`](/slides/python-net/pt/aspose.slides.animation/scaleeffect/by/) | Descreve o valor de deslocamento relativo para a animação (em percentuais).<br/>            Leitura/gravação [`PointF`](/slides/python-net/pt/aspose.slides/pointf). |
+
 
 ### Veja Também
 * classe [`Behavior`](/slides/python-net/pt/aspose.slides.animation/behavior)

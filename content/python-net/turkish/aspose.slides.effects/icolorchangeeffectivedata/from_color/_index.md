@@ -8,7 +8,7 @@ weight: 20
 ---
 ## from_color özelliği
 Değiştirilecek renk.
-            Salt okunur **aspose.slides.Color**.
+            Salt okunur [`Color`](/slides/python-net/tr/aspose.slides/color).
 
 ### Tanım:
 ```python
@@ -18,7 +18,8 @@ def from_color(self):
 ```
 
 
-### Ayrıca Bakınız
+### Bakınız
 * sınıf [`IColorChangeEffectiveData`](/slides/python-net/tr/aspose.slides.effects/icolorchangeeffectivedata)
+* sınıf [`Color`](/slides/python-net/tr/aspose.slides/color)
 * modül [`aspose.slides.effects`](/slides/python-net/tr/aspose.slides.effects)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

@@ -1,6 +1,6 @@
 ---
 title: slide_image_size property
-second_title: Aspose.Slides para Python via .NET Referência da API
+second_title: Referência da API Aspose.Slides para Python via .NET
 description: 
 type: docs
 url: /pt/aspose.slides.export/htmlgenerator/slide_image_size/
@@ -8,7 +8,7 @@ weight: 60
 ---
 ## slide_image_size propriedade
 Retorna o tamanho da imagem do slide.
-            Somente leitura **aspose.slides.SizeF**.
+            Somente leitura [`SizeF`](/slides/python-net/pt/aspose.slides/sizef).
 
 ### Definição:
 ```python
@@ -18,7 +18,8 @@ def slide_image_size(self):
 ```
 
 
-### Veja Também
+### Veja também
 * classe [`HtmlGenerator`](/slides/python-net/pt/aspose.slides.export/htmlgenerator)
+* classe [`SizeF`](/slides/python-net/pt/aspose.slides/sizef)
 * módulo [`aspose.slides.export`](/slides/python-net/pt/aspose.slides.export)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

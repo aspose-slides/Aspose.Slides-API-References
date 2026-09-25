@@ -1,6 +1,6 @@
 ---
 title: INotesSize class
-second_title: Aspose.Slides for Python via .NET API リファレンス
+second_title: Aspose.Slides の Python 用 .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/inotessize/
@@ -9,13 +9,13 @@ url: /ja/aspose.slides/inotessize/
 
 ノートスライドのサイズを表します。
 
-INotesSize 型は次のメンバーを公開します:
+INotesSize 型は次のメンバーを公開します。
 
 ## プロパティ
 
 | プロパティ | 説明 |
 | :- | :- |
-| [`size`](/slides/python-net/ja/aspose.slides/inotessize/size/) | ポイント単位でサイズを取得または設定します。<br/>            読み取り/書き込み **aspose.slides.SizeF**. |
+| [`size`](/slides/python-net/ja/aspose.slides/inotessize/size/) | ポイント単位のサイズを取得または設定します。<br/>            読み取り/書き込み [`SizeF`](/slides/python-net/ja/aspose.slides/sizef). |
 
 
 ### 参照

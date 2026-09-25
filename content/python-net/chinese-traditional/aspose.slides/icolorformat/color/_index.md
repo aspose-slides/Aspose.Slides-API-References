@@ -1,15 +1,15 @@
 ---
 title: color property
-second_title: Aspose.Slides for Python via .NET API 參考文件
+second_title: Aspose.Slides for Python 透過 .NET API 參考
 description: 
 type: docs
 url: /zh-hant/aspose.slides/icolorformat/color/
 weight: 50
 ---
 ## color 屬性
-傳回結果 color（已套用所有顏色轉換）。
-            設定 RGB 顏色並清除所有顏色轉換。
-            讀寫 **aspose.slides.Color**.
+Returns resulting color (with all color transformations applied).
+            Sets RGB colors and clears all color transformations.
+            讀寫 [`Color`](/slides/python-net/zh-hant/aspose.slides/color).
 
 ### 定義:
 ```python
@@ -23,7 +23,8 @@ def color(self, value):
 ```
 
 
-### 另請參閱
+### 另見
 * 類別 [`IColorFormat`](/slides/python-net/zh-hant/aspose.slides/icolorformat)
+* 類別 [`Color`](/slides/python-net/zh-hant/aspose.slides/color)
 * 模組 [`aspose.slides`](/slides/python-net/zh-hant/aspose.slides)
-* 程式庫 [`Aspose.Slides`](/slides/python-net)
+* 函式庫 [`Aspose.Slides`](/slides/python-net)

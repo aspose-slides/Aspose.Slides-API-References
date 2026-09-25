@@ -6,9 +6,9 @@ type: docs
 url: /tr/aspose.slides.theme/icolorschemeeffectivedata/accent4/
 weight: 40
 ---
-## accent4 özelliği
+## accent4 özellik
 Şemadaki dördüncü vurgu rengi.
-            Yalnızca okuma **aspose.slides.Color**.
+            Salt okunur [`Color`](/slides/python-net/tr/aspose.slides/color).
 
 ### Tanım:
 ```python
@@ -18,7 +18,8 @@ def accent4(self):
 ```
 
 
-### Bakınız
+### Ayrıca bakınız
 * sınıf [`IColorSchemeEffectiveData`](/slides/python-net/tr/aspose.slides.theme/icolorschemeeffectivedata)
+* sınıf [`Color`](/slides/python-net/tr/aspose.slides/color)
 * modül [`aspose.slides.theme`](/slides/python-net/tr/aspose.slides.theme)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

@@ -7,8 +7,8 @@ url: /zh/aspose.slides.theme/icolorschemeeffectivedata/dark1/
 weight: 70
 ---
 ## dark1 属性
-方案中的第一种深色。
-只读 **aspose.slides.Color**。
+配色方案中的第一种深色。
+            只读 [`Color`](/slides/python-net/zh/aspose.slides/color).
 
 ### 定义:
 ```python
@@ -19,6 +19,8 @@ def dark1(self):
 
 
 ### 另见
+
 * 类 [`IColorSchemeEffectiveData`](/slides/python-net/zh/aspose.slides.theme/icolorschemeeffectivedata)
+* 类 [`Color`](/slides/python-net/zh/aspose.slides/color)
 * 模块 [`aspose.slides.theme`](/slides/python-net/zh/aspose.slides.theme)
 * 库 [`Aspose.Slides`](/slides/python-net)

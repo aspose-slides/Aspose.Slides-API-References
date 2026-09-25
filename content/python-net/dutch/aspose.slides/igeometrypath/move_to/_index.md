@@ -6,26 +6,30 @@ type: docs
 url: /nl/aspose.slides/igeometrypath/move_to/
 weight: 50
 ---
-## move_to(self, point) {#asposepydrawingpointf}
+## move_to(self, point) {#asposeslidespointf}
 Stelt de volgende puntpositie in.
+
 
 ```python
 def move_to(self, point):
     ...
 ```
 
+
 | Parameter | Type | Beschrijving |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | Puntpositie |
+| point | [`PointF`](/slides/python-net/nl/aspose.slides/pointf) | Puntpositie |
 
 
 ## move_to(self, x, y) {#float-float}
 Stelt de volgende puntpositie in.
 
+
 ```python
 def move_to(self, x, y):
     ...
 ```
+
 
 | Parameter | Type | Beschrijving |
 | :- | :- | :- |
@@ -36,5 +40,6 @@ def move_to(self, x, y):
 
 ### Zie ook
 * klasse [`IGeometryPath`](/slides/python-net/nl/aspose.slides/igeometrypath)
+* klasse [`PointF`](/slides/python-net/nl/aspose.slides/pointf)
 * module [`aspose.slides`](/slides/python-net/nl/aspose.slides)
 * bibliotheek [`Aspose.Slides`](/slides/python-net)

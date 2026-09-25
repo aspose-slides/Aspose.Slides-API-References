@@ -7,15 +7,15 @@ url: /fa/aspose.slides/inotessize/
 ---
 ## INotesSize کلاس
 
-نمایش می‌دهد یک اندازه از اسلاید یادداشت‌ها.
+نمایانگر اندازهٔ اسلاید یادداشت‌ها است.
 
-نوع INotesSize اعضای زیر را افشا می‌کند:
+نوع INotesSize اعضای زیر را در دسترس قرار می‌دهد:
 
 ## ویژگی‌ها
 
 | ویژگی | توضیح |
 | :- | :- |
-| [`size`](/slides/python-net/fa/aspose.slides/inotessize/size/) | بازمی‌گرداند یا تنظیم می‌کند اندازه را بر حسب نقطه.<br/> خواندنی/نوشتنی **aspose.slides.SizeF**. |
+| [`size`](/slides/python-net/fa/aspose.slides/inotessize/size/) | اندازه را به نقطه بازمی‌گرداند یا تنظیم می‌کند.<br/>            خواندن/نوشتن [`SizeF`](/slides/python-net/fa/aspose.slides/sizef). |
 
 ### موارد مرتبط
 * ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)

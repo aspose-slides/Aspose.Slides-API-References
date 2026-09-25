@@ -7,7 +7,7 @@ url: /sv/aspose.slides/iimagewrapperfactory/create_image_wrapper/
 weight: 10
 ---
 ## create_image_wrapper(self, image) {#iimage}
-Initialiserar en ny instans av ImageWrapper-klassen från den angivna befintliga bilden.
+Initierar en ny instans av ImageWrapper-klassen från den angivna befintliga bilden.
 
 ### Returnerar
 
@@ -20,10 +20,11 @@ def create_image_wrapper(self, image):
 
 | Parameter | Typ | Beskrivning |
 | :- | :- | :- |
-| image | [`IImage`](/slides/python-net/sv/aspose.slides/iimage) | Befintlig bild **aspose.slides.Image** |
+| image | [`IImage`](/slides/python-net/sv/aspose.slides/iimage) | Existerande bild **aspose.slides.IImage** |
+
 
 ## create_image_wrapper(self, stream) {#iorawiobase}
-Initialiserar en ny instans av ImageWrapper-klassen från den angivna datastreamen.
+Initierar en ny instans av ImageWrapper-klassen från den angivna datastreamen.
 
 ### Returnerar
 
@@ -38,8 +39,9 @@ def create_image_wrapper(self, stream):
 | :- | :- | :- |
 | stream | **io.RawIOBase** | Datastream **io.RawIOBase** |
 
+
 ## create_image_wrapper(self, file_name) {#str}
-Initialiserar en ny instans av ImageWrapper-klassen från den angivna filen.
+Initierar en ny instans av ImageWrapper-klassen från den angivna filen.
 
 ### Returnerar
 
@@ -54,9 +56,11 @@ def create_image_wrapper(self, file_name):
 | :- | :- | :- |
 | file_name | **str** | Filnamn **str** |
 
-### Se även
-* class [`IImage`](/slides/python-net/sv/aspose.slides/iimage)
-* class [`IImageWrapper`](/slides/python-net/sv/aspose.slides/iimagewrapper)
-* class [`IImageWrapperFactory`](/slides/python-net/sv/aspose.slides/iimagewrapperfactory)
-* module [`aspose.slides`](/slides/python-net/sv/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+
+
+### Se också
+* klass [`IImage`](/slides/python-net/sv/aspose.slides/iimage)
+* klass [`IImageWrapper`](/slides/python-net/sv/aspose.slides/iimagewrapper)
+* klass [`IImageWrapperFactory`](/slides/python-net/sv/aspose.slides/iimagewrapperfactory)
+* modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
+* bibliotek [`Aspose.Slides`](/slides/python-net)

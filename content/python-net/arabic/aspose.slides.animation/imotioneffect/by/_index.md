@@ -1,6 +1,6 @@
 ---
 title: by property
-second_title: Aspose.Slides لبايثون عبر .NET مرجع API
+second_title: Aspose.Slides لـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.animation/imotioneffect/by/
@@ -8,7 +8,7 @@ weight: 50
 ---
 ## حسب الخاصية
 يصف قيمة الإزاحة النسبية للرسوم المتحركة (بالنسبة المئوية).
-            قراءة/كتابة **aspose.slides.PointF**.
+            قراءة/كتابة [`PointF`](/slides/python-net/ar/aspose.slides/pointf).
 
 ### التعريف:
 ```python
@@ -23,6 +23,7 @@ def by(self, value):
 
 
 ### انظر أيضًا
-* الفئة [`IMotionEffect`](/slides/python-net/ar/aspose.slides.animation/imotioneffect)
-* الوحدة [`aspose.slides.animation`](/slides/python-net/ar/aspose.slides.animation)
-* المكتبة [`Aspose.Slides`](/slides/python-net)
+* فئة [`IMotionEffect`](/slides/python-net/ar/aspose.slides.animation/imotioneffect)
+* فئة [`PointF`](/slides/python-net/ar/aspose.slides/pointf)
+* وحدة [`aspose.slides.animation`](/slides/python-net/ar/aspose.slides.animation)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

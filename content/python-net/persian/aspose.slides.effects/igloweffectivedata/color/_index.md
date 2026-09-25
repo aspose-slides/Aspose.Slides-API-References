@@ -6,9 +6,9 @@ type: docs
 url: /fa/aspose.slides.effects/igloweffectivedata/color/
 weight: 20
 ---
-## color خصوصیت
-Color.
-            فقط خواندنی **aspose.slides.Color**.
+## ویژگی رنگ
+رنگ.
+            فقط-خواندنی [`Color`](/slides/python-net/fa/aspose.slides/color).
 
 ### تعریف:
 ```python
@@ -18,7 +18,8 @@ def color(self):
 ```
 
 
-### موارد دیگر
+### موارد مرتبط
 * کلاس [`IGlowEffectiveData`](/slides/python-net/fa/aspose.slides.effects/igloweffectivedata)
+* کلاس [`Color`](/slides/python-net/fa/aspose.slides/color)
 * ماژول [`aspose.slides.effects`](/slides/python-net/fa/aspose.slides.effects)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

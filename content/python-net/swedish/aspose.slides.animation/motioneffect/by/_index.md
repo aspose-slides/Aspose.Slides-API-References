@@ -7,8 +7,8 @@ url: /sv/aspose.slides.animation/motioneffect/by/
 weight: 60
 ---
 ## efter egenskap
-Beskriver det relativa offsetvärdet för animationen (i procent).
-            Läs/skriv **aspose.slides.PointF**.
+Beskriver det relativa förskjutningsvärdet för animationen (i procent).
+            Läs/skriv [`PointF`](/slides/python-net/sv/aspose.slides/pointf).
 
 ### Definition:
 ```python
@@ -22,7 +22,8 @@ def by(self, value):
 ```
 
 
-### Se även
+### Se också
 * klass [`MotionEffect`](/slides/python-net/sv/aspose.slides.animation/motioneffect)
+* klass [`PointF`](/slides/python-net/sv/aspose.slides/pointf)
 * modul [`aspose.slides.animation`](/slides/python-net/sv/aspose.slides.animation)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

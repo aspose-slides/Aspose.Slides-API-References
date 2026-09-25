@@ -1,14 +1,14 @@
 ---
 title: by property
-second_title: Aspose.Slides برای پایتون از طریق مرجع API .NET
+second_title: Aspose.Slides برای پایتون از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides.animation/iscaleeffect/by/
 weight: 40
 ---
-## بر حسب خاصیت
-مقدار جابجایی نسبی برای انیمیشن (به درصد) را توصیف می‌کند.
-قابل خواندن/قابل نوشتن **aspose.slides.PointF**.
+## بر اساس ویژگی
+مقدار جابجایی نسبی برای انیمیشن را توصیف می‌کند (به درصد).
+            خواندنی/نوشتنی [`PointF`](/slides/python-net/fa/aspose.slides/pointf).
 
 ### تعریف:
 ```python
@@ -21,7 +21,9 @@ def by(self, value):
     ...
 ```
 
+
 ### موارد مرتبط
 * کلاس [`IScaleEffect`](/slides/python-net/fa/aspose.slides.animation/iscaleeffect)
+* کلاس [`PointF`](/slides/python-net/fa/aspose.slides/pointf)
 * ماژول [`aspose.slides.animation`](/slides/python-net/fa/aspose.slides.animation)
-* کتابخانه [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

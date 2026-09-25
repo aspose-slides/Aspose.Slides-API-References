@@ -7,11 +7,11 @@ url: /id/aspose.slides/islide/get_image/
 weight: 40
 ---
 ## get_image(self) {#}
-Mengembalikan objek Gambar Thumbnail (20% dari ukuran asli).
+Mengembalikan objek Gambar Miniatur (20% dari ukuran asli).
 
 ### Mengembalikan
 
-Objek gambar **aspose.slides.Bitmap**
+objek Gambar **aspose.slides.IImage**
 
 
 
@@ -22,12 +22,12 @@ def get_image(self):
 
 
 
-## get_image(self, image_size) {#asposepydrawingsize}
+## get_image(self, image_size) {#asposeslidessize}
 Mengembalikan objek gambar dengan ukuran yang ditentukan.
 
 ### Mengembalikan
 
-Objek Bitmap.
+objek Bitmap.
 
 
 
@@ -39,15 +39,15 @@ def get_image(self, image_size):
 
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
-| image_size | **aspose.slides.Size** | Ukuran gambar yang akan dibuat. |
+| image_size | [`Size`](/slides/python-net/id/aspose.slides/size) | Ukuran gambar yang akan dibuat. |
 
 
 ## get_image(self, options) {#asposeslidesexportitiffoptions}
-Mengembalikan objek bitmap tiff Thumbnail dengan parameter yang ditentukan.
+Mengembalikan objek bitmap tiff Miniatur dengan parameter yang ditentukan.
 
 ### Mengembalikan
 
-Objek gambar.
+objek Gambar.
 
 
 
@@ -59,15 +59,15 @@ def get_image(self, options):
 
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
-| options | [`ITiffOptions`](/slides/python-net/id/aspose.slides.export/itiffoptions) | Opsi tiff. |
+| options | [`ITiffOptions`](/slides/python-net/id/aspose.slides.export/itiffoptions) | Opsi Tiff. |
 
 
 ## get_image(self, options) {#asposeslidesexportirenderingoptions}
-Mengembalikan objek Bitmap Thumbnail.
+Mengembalikan objek Bitmap Miniatur.
 
 ### Mengembalikan
 
-Objek Bitmap.
+objek Bitmap.
 
 
 
@@ -87,7 +87,7 @@ Mengembalikan objek gambar dengan skala khusus.
 
 ### Mengembalikan
 
-Objek gambar **aspose.slides.Bitmap**
+objek Gambar **aspose.slides.IImage**
 
 
 
@@ -99,16 +99,16 @@ def get_image(self, scale_x, scale_y):
 
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
-| scale_x | **float** | Nilai yang digunakan untuk memperbesar Thumbnail ini pada arah sumbu x. |
-| scale_y | **float** | Nilai yang digunakan untuk memperbesar Thumbnail ini pada arah sumbu y. |
+| scale_x | **float** | Nilai yang digunakan untuk mengubah skala Miniatur ini pada arah sumbu x. |
+| scale_y | **float** | Nilai yang digunakan untuk mengubah skala Miniatur ini pada arah sumbu y. |
 
 
-## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposepydrawingsize}
-Mengembalikan objek Bitmap Thumbnail dengan ukuran yang ditentukan.
+## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposeslidessize}
+Mengembalikan objek Bitmap Miniatur dengan ukuran yang ditentukan.
 
 ### Mengembalikan
 
-Objek Bitmap.
+objek Bitmap.
 
 
 
@@ -121,15 +121,15 @@ def get_image(self, options, image_size):
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/id/aspose.slides.export/irenderingoptions) | Opsi rendering. |
-| image_size | **aspose.slides.Size** | Ukuran gambar yang akan dibuat. |
+| image_size | [`Size`](/slides/python-net/id/aspose.slides/size) | Ukuran gambar yang akan dibuat. |
 
 
 ## get_image(self, options, scale_x, scale_y) {#asposeslidesexportirenderingoptions-float-float}
-Mengembalikan objek Bitmap Thumbnail dengan skala khusus.
+Mengembalikan objek Bitmap Miniatur dengan skala khusus.
 
 ### Mengembalikan
 
-Objek Bitmap.
+objek Bitmap.
 
 
 
@@ -142,8 +142,8 @@ def get_image(self, options, scale_x, scale_y):
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/id/aspose.slides.export/irenderingoptions) | Opsi rendering. |
-| scale_x | **float** | Nilai yang digunakan untuk memperbesar Thumbnail ini pada arah sumbu x. |
-| scale_y | **float** | Nilai yang digunakan untuk memperbesar Thumbnail ini pada arah sumbu y. |
+| scale_x | **float** | Nilai yang digunakan untuk mengubah skala Miniatur ini pada arah sumbu x. |
+| scale_y | **float** | Nilai yang digunakan untuk mengubah skala Miniatur ini pada arah sumbu y. |
 
 
 
@@ -152,5 +152,6 @@ def get_image(self, options, scale_x, scale_y):
 * kelas [`IRenderingOptions`](/slides/python-net/id/aspose.slides.export/irenderingoptions)
 * kelas [`ISlide`](/slides/python-net/id/aspose.slides/islide)
 * kelas [`ITiffOptions`](/slides/python-net/id/aspose.slides.export/itiffoptions)
+* kelas [`Size`](/slides/python-net/id/aspose.slides/size)
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
 * pustaka [`Aspose.Slides`](/slides/python-net)

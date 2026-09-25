@@ -6,8 +6,8 @@ type: docs
 url: /sv/aspose.slides/patternformat/get_tile/
 weight: 10
 ---
-## get_tile(self, style_color) {#asposepydrawingcolor}
-Skapar en kakelbild för mönsterfyllning.
+## get_tile(self, style_color) {#asposeslidescolor}
+Skapar en tile-bild för mönsterfyllning.
 
 ### Returnerar
 
@@ -23,11 +23,11 @@ def get_tile(self, style_color):
 
 | Parameter | Typ | Beskrivning |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | Standard **aspose.slides.Color** |
+| style_color | [`Color`](/slides/python-net/sv/aspose.slides/color) | Standard [`Color`](/slides/python-net/sv/aspose.slides/color) |
 
 
-## get_tile(self, background, foreground) {#asposepydrawingcolor-asposepydrawingcolor}
-Skapar en kakelbild för mönsterfyllning med angivna färger.
+## get_tile(self, background, foreground) {#asposeslidescolor-asposeslidescolor}
+Skapar en tile-bild för mönsterfyllning med specificerade färger.
 
 ### Returnerar
 
@@ -43,13 +43,14 @@ def get_tile(self, background, foreground):
 
 | Parameter | Typ | Beskrivning |
 | :- | :- | :- |
-| background | **aspose.slides.Color** | Bakgrund **aspose.slides.Color** för mönstret. |
-| foreground | **aspose.slides.Color** | Förgrund **aspose.slides.Color** för mönstret. |
+| background | [`Color`](/slides/python-net/sv/aspose.slides/color) | Bakgrunden [`Color`](/slides/python-net/sv/aspose.slides/color) för mönstret. |
+| foreground | [`Color`](/slides/python-net/sv/aspose.slides/color) | Förgrundens [`Color`](/slides/python-net/sv/aspose.slides/color) för mönstret. |
 
 
 
 ### Se även
 * klass [`IImage`](/slides/python-net/sv/aspose.slides/iimage)
 * klass [`PatternFormat`](/slides/python-net/sv/aspose.slides/patternformat)
+* klass [`Color`](/slides/python-net/sv/aspose.slides/color)
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

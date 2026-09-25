@@ -6,31 +6,31 @@ type: docs
 url: /ja/aspose.slides/ipresentation/highlight_text/
 weight: 40
 ---
-## highlight_text(self, text, highlight_color) {#str-asposepydrawingcolor}
-サンプルテキストのすべての一致箇所を指定された色でハイライトします。
+## highlight_text(self, text, highlight_color) {#str-asposeslidescolor}
+指定された色でサンプルテキストのすべての一致箇所をハイライトします。
 
 ```python
 def highlight_text(self, text, highlight_color):
     ...
 ```
 
-| パラメータ | 型 | 説明 |
+| パラメーター | 型 | 説明 |
 | :- | :- | :- |
 | text | **str** | ハイライトするテキスト。 |
-| highlight_color | **aspose.slides.Color** | テキストをハイライトする色。 |
+| highlight_color | [`Color`](/slides/python-net/ja/aspose.slides/color) | テキストをハイライトする色。 |
 
-## highlight_text(self, text, highlight_color, options, callback) {#str-asposepydrawingcolor-itextsearchoptions-ifindresultcallback}
-サンプルテキストのすべての一致箇所を指定された色でハイライトします。
+## highlight_text(self, text, highlight_color, options, callback) {#str-asposeslidescolor-itextsearchoptions-ifindresultcallback}
+指定された色でサンプルテキストのすべての一致箇所をハイライトします。
 
 ```python
 def highlight_text(self, text, highlight_color, options, callback):
     ...
 ```
 
-| パラメータ | 型 | 説明 |
+| パラメーター | 型 | 説明 |
 | :- | :- | :- |
 | text | **str** | ハイライトするテキスト。 |
-| highlight_color | **aspose.slides.Color** | テキストをハイライトする色。 |
+| highlight_color | [`Color`](/slides/python-net/ja/aspose.slides/color) | テキストをハイライトする色。 |
 | options | [`ITextSearchOptions`](/slides/python-net/ja/aspose.slides/itextsearchoptions) | テキスト検索オプション [`ITextSearchOptions`](/slides/python-net/ja/aspose.slides/itextsearchoptions)。 |
 | callback | [`IFindResultCallback`](/slides/python-net/ja/aspose.slides/ifindresultcallback) | 検索結果を受け取るコールバックオブジェクト [`IFindResultCallback`](/slides/python-net/ja/aspose.slides/ifindresultcallback)。 |
 
@@ -38,5 +38,6 @@ def highlight_text(self, text, highlight_color, options, callback):
 * クラス [`IFindResultCallback`](/slides/python-net/ja/aspose.slides/ifindresultcallback)
 * クラス [`IPresentation`](/slides/python-net/ja/aspose.slides/ipresentation)
 * クラス [`ITextSearchOptions`](/slides/python-net/ja/aspose.slides/itextsearchoptions)
+* クラス [`Color`](/slides/python-net/ja/aspose.slides/color)
 * モジュール [`aspose.slides`](/slides/python-net/ja/aspose.slides)
 * ライブラリ [`Aspose.Slides`](/slides/python-net)

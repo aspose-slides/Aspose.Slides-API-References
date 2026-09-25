@@ -7,8 +7,8 @@ url: /th/aspose.slides/ipatternformateffectivedata/fore_color/
 weight: 30
 ---
 ## fore_color คุณสมบัติ
-Returns the foreground pattern color.
-            อ่านอย่างเดียว **aspose.slides.Color**.
+คืนค่าสีแบบพื้นหน้า.
+            อ่านอย่างเดียว [`Color`](/slides/python-net/th/aspose.slides/color).
 
 ### คำนิยาม:
 ```python
@@ -20,5 +20,6 @@ def fore_color(self):
 
 ### ดูเพิ่มเติม
 * คลาส [`IPatternFormatEffectiveData`](/slides/python-net/th/aspose.slides/ipatternformateffectivedata)
+* คลาส [`Color`](/slides/python-net/th/aspose.slides/color)
 * โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
 * ไลบรารี [`Aspose.Slides`](/slides/python-net)

@@ -7,12 +7,11 @@ url: /sv/aspose.slides/zoomframe/get_visual_bounds/
 weight: 40
 ---
 ## get_visual_bounds(self) {#}
-Hämtar de visuella gränserna för formen beräknade från dess renderade innehåll.
+Hämtar de visuella gränserna för formen som beräknas från dess renderade innehåll.
 
 ### Returnerar
 
-Ett **aspose.slides.RectangleF** som representerar de visuella gränserna för formen
-             i bildens koordinater.
+Ett [`RectangleF`](/slides/python-net/sv/aspose.slides/rectanglef) som representerar de visuella gränserna för formen i bildkoordinater.
 
 
 
@@ -24,17 +23,18 @@ def get_visual_bounds(self):
 
 ### Anmärkningar
 
-Den returnerade rektangeln representerar de axeljusterade gränserna för allt innehåll som formen producerar under rendering i bildens koordinatrum.
+Den returnerade rektangeln representerar de axeljusterade gränserna för allt innehåll som produceras av formen under rendering i bildkoordinatrymden.
+            
+            Dessa gränser kan skilja sig från formens modellgränser ([`Shape.x`](/slides/python-net/sv/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/sv/aspose.slides/shape/y), [`Shape.width`](/slides/python-net/sv/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/sv/aspose.slides/shape/height)) och kan innehålla negativa koordinater om det renderade innehållet sträcker sig bortom bildens ursprung.
+            
+            De visuella gränserna tar hänsyn till renderingsrelaterade aspekter såsom transformationer (till exempel rotation), linjebredd och fogar, textlayout och överspill, SmartArt-geometri och andra layout-effekter som påverkar formens slutgiltiga renderade utseende.
+            
+            De returnerade gränserna är inte beskurna till bildrektangeln.
 
-Dessa gränser kan skilja sig från formens modellgränser ([`Shape.x`](/slides/python-net/sv/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/sv/aspose.slides/shape/y), [`Shape.width`](/slides/python-net/sv/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/sv/aspose.slides/shape/height)) och kan innehålla negativa koordinater om det renderade innehållet sträcker sig bortom bildens ursprung.
-
-De visuella gränserna tar hänsyn till renderingsrelaterade aspekter såsom transformationer (till exempel rotation), linjebredd och sammankopplingar, textlayout och överspill, SmartArt-geometri och andra layout-effekter som påverkar formens slutgiltiga renderade utseende.
-
-De returnerade gränserna klipps inte till bildens rektangel.
 
 
-
-### Se även
+### Se också
 * klass [`ZoomFrame`](/slides/python-net/sv/aspose.slides/zoomframe)
+* klass [`RectangleF`](/slides/python-net/sv/aspose.slides/rectanglef)
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

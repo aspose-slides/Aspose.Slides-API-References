@@ -1,17 +1,17 @@
 ---
 title: get_coordinates method
-second_title: Aspose.Slides pro Python prostřednictvím .NET API
+second_title: Aspose.Slides pro Python přes .NET API
 description: 
 type: docs
 url: /cs/aspose.slides/iportion/get_coordinates/
 weight: 20
 ---
 ## get_coordinates(self) {#}
-Získá souřadnice začátku úseku. Souřadnice X bodu představuje úsek začínající od prvního znaku včetně levého postranního odsazení. Souřadnice Y zahrnuje horní postranní odsazení.
+Získá souřadnice začátku úseku. Souřadnice X bodu představuje úsek začínající od prvního znaku včetně levého okraje. Souřadnice Y zahrnuje horní okraj.
 
-### Returns
+### Návratová hodnota
 
-Souřadnice začátku úseku **aspose.slides.PointF**
+Souřadnice začátku úseku [`PointF`](/slides/python-net/cs/aspose.slides/pointf)
 
 
 
@@ -23,7 +23,8 @@ def get_coordinates(self):
 
 
 
-### See Also
+### Viz také
 * třída [`IPortion`](/slides/python-net/cs/aspose.slides/iportion)
+* třída [`PointF`](/slides/python-net/cs/aspose.slides/pointf)
 * modul [`aspose.slides`](/slides/python-net/cs/aspose.slides)
 * knihovna [`Aspose.Slides`](/slides/python-net)

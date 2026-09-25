@@ -7,7 +7,7 @@ url: /el/aspose.slides/idrawingguide/
 ---
 ## IDrawingGuide κλάση
 
-Αντιπροσωπεύει έναν ρυθμιζόμενο οδηγό σχεδίασης.
+Αναπαριστά έναν ρυθμιζόμενο οδηγό σχεδίασης.
 
 Ο τύπος IDrawingGuide εκθέτει τα ακόλουθα μέλη:
 
@@ -15,9 +15,9 @@ url: /el/aspose.slides/idrawingguide/
 
 | Ιδιότητα | Περιγραφή |
 | :- | :- |
-| [`orientation`](/slides/python-net/el/aspose.slides/idrawingguide/orientation/) | Επιστρέφει ή ορίζει τον προσανατολισμό του οδηγού σχεδίασης.<br/>            Read/write [`Orientation`](/slides/python-net/el/aspose.slides/orientation). |
-| [`position`](/slides/python-net/el/aspose.slides/idrawingguide/position/) | Επιστρέφει ή ορίζει τη θέση του οδηγού σχεδίασης σε σημεία από την άνω αριστερή γωνία της διαφάνειας.<br/>            Read/write **float**. |
-| [`color`](/slides/python-net/el/aspose.slides/idrawingguide/color/) | Επιστρέφει ή ορίζει το χρώμα του οδηγού σχεδίασης.<br/>            Read/write **aspose.slides.Color**. |
+| [`orientation`](/slides/python-net/el/aspose.slides/idrawingguide/orientation/) | Επιστρέφει ή ορίζει τον προσανατολισμό του οδηγού σχεδίασης.<br/>            Ανάγνωση/εγγραφή [`Orientation`](/slides/python-net/el/aspose.slides/orientation). |
+| [`position`](/slides/python-net/el/aspose.slides/idrawingguide/position/) | Επιστρέφει ή ορίζει τη θέση του οδηγού σχεδίασης σε σημεία από την επάνω, αριστερή γωνία της διαφάνειας.<br/>            Ανάγνωση/εγγραφή **float**. |
+| [`color`](/slides/python-net/el/aspose.slides/idrawingguide/color/) | Επιστρέφει ή ορίζει το χρώμα του οδηγού σχεδίασης.<br/>            Ανάγνωση/εγγραφή [`Color`](/slides/python-net/el/aspose.slides/color). |
 
 
 ### Δείτε επίσης

@@ -8,7 +8,7 @@ weight: 110
 ---
 ## highlight_color Eigenschaft
 Gibt die Farbe zurück, die zum Hervorheben eines Textes verwendet wird.
-            Nur-Lesen **aspose.slides.Color**.
+            Nur lesbar [`Color`](/slides/python-net/de/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def highlight_color(self):
 
 ### Siehe auch
 * Klasse [`IBasePortionFormatEffectiveData`](/slides/python-net/de/aspose.slides/ibaseportionformateffectivedata)
+* Klasse [`Color`](/slides/python-net/de/aspose.slides/color)
 * Modul [`aspose.slides`](/slides/python-net/de/aspose.slides)
 * Bibliothek [`Aspose.Slides`](/slides/python-net)

@@ -1,6 +1,6 @@
 ---
 title: color property
-second_title: Riferimento API Aspose.Slides per Python via .NET
+second_title: Aspose.Slides per Python via .NET Riferimento API
 description: 
 type: docs
 url: /it/aspose.slides/drawingguide/color/
@@ -8,7 +8,7 @@ weight: 10
 ---
 ## proprietà colore
 Restituisce o imposta il colore della guida di disegno.
-            Lettura/scrittura **aspose.slides.Color**.
+            Lettura/scrittura [`Color`](/slides/python-net/it/aspose.slides/color).
 
 ### Definizione:
 ```python
@@ -21,8 +21,9 @@ def color(self, value):
     ...
 ```
 
-### Vedi anche
 
+### Vedi anche
 * classe [`DrawingGuide`](/slides/python-net/it/aspose.slides/drawingguide)
+* classe [`Color`](/slides/python-net/it/aspose.slides/color)
 * modulo [`aspose.slides`](/slides/python-net/it/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* libreria [`Aspose.Slides`](/slides/python-net)

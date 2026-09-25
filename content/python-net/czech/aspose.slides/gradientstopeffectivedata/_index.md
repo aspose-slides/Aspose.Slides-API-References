@@ -1,22 +1,22 @@
 ---
 title: GradientStopEffectiveData class
-second_title: Aspose.Slides pro Python přes .NET API Reference
+second_title: Aspose.Slides pro Python přes .NET API referenci
 description: 
 type: docs
 url: /cs/aspose.slides/gradientstopeffectivedata/
 ---
 ## GradientStopEffectiveData třída
 
-Neměnný objekt, který představuje gradientový bod.
+Neměnný objekt, který představuje gradient stop.
 
-Typ GradientStopEffectiveData zveřejňuje následující členy:
+Typ GradientStopEffectiveData exponuje následující členy:
 
 ## Vlastnosti
 
 | Vlastnost | Popis |
 | :- | :- |
-| [`position`](/slides/python-net/cs/aspose.slides/gradientstopeffectivedata/position/) | Vrací pozici (0..1) gradientového bodu.<br/>            Pouze pro čtení **float**. |
-| [`color`](/slides/python-net/cs/aspose.slides/gradientstopeffectivedata/color/) | Vrací barvu gradientového bodu.<br/>            Pouze pro čtení **aspose.slides.Color**. |
+| [`position`](/slides/python-net/cs/aspose.slides/gradientstopeffectivedata/position/) | Vrací pozici (0..1) gradient stopu.<br/>            Pouze pro čtení **float**. |
+| [`color`](/slides/python-net/cs/aspose.slides/gradientstopeffectivedata/color/) | Vrací barvu gradient stopu.<br/>            Pouze pro čtení [`Color`](/slides/python-net/cs/aspose.slides/color). |
 
 
 ### Viz také

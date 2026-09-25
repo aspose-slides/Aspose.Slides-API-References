@@ -9,9 +9,9 @@ weight: 40
 ## get_image(self) {#}
 Επιστρέφει ένα αντικείμενο μικρογραφίας εικόνας (20% του πραγματικού μεγέθους).
 
-### Επιστροφή
+### Επιστρέφει
 
-Αντικείμενο εικόνας **aspose.slides.Bitmap**
+Αντικείμενο εικόνας **aspose.slides.IImage**
 
 
 
@@ -22,10 +22,10 @@ def get_image(self):
 
 
 
-## get_image(self, image_size) {#asposepydrawingsize}
-Επιστρέφει ένα αντικείμενο εικόνας με το καθορισμένο μέγεθος.
+## get_image(self, image_size) {#asposeslidessize}
+Επιστρέφει ένα αντικείμενο εικόνας με το συγκεκριμένο μέγεθος.
 
-### Επιστροφή
+### Επιστρέφει
 
 Αντικείμενο Bitmap.
 
@@ -39,13 +39,13 @@ def get_image(self, image_size):
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
-| image_size | **aspose.slides.Size** | Μέγεθος της εικόνας προς δημιουργία. |
+| image_size | [`Size`](/slides/python-net/el/aspose.slides/size) | Μέγεθος της εικόνας που θα δημιουργηθεί. |
 
 
 ## get_image(self, options) {#asposeslidesexportitiffoptions}
-Επιστρέφει ένα αντικείμενο μικρογραφίας tiff bitmap με τα καθορισμένα παραμέτρους.
+Επιστρέφει ένα αντικείμενο μικρογραφίας tiff bitmap με τα συγκεκριμένα παραμέτρους.
 
-### Επιστροφή
+### Επιστρέφει
 
 Αντικείμενο εικόνας.
 
@@ -65,7 +65,7 @@ def get_image(self, options):
 ## get_image(self, options) {#asposeslidesexportirenderingoptions}
 Επιστρέφει ένα αντικείμενο μικρογραφίας Bitmap.
 
-### Επιστροφή
+### Επιστρέφει
 
 Αντικείμενα Bitmap.
 
@@ -85,9 +85,9 @@ def get_image(self, options):
 ## get_image(self, scale_x, scale_y) {#float-float}
 Επιστρέφει ένα αντικείμενο εικόνας με προσαρμοσμένη κλιμάκωση.
 
-### Επιστροφή
+### Επιστρέφει
 
-Αντικείμενο εικόνας **aspose.slides.Bitmap**
+Αντικείμενο εικόνας **aspose.slides.IImage**
 
 
 
@@ -99,14 +99,14 @@ def get_image(self, scale_x, scale_y):
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
-| scale_x | **float** | Η τιμή με την οποία θα κλιμακωθεί αυτή η μικρογραφία στην κατεύθυνση του άξονα x. |
-| scale_y | **float** | Η τιμή με την οποία θα κλιμακωθεί αυτή η μικρογραφία στην κατεύθυνση του άξονα y. |
+| scale_x | **float** | Η τιμή με την οποία κλιμακώνεται αυτή η μικρογραφία στην κατεύθυνση του άξονα x. |
+| scale_y | **float** | Η τιμή με την οποία κλιμακώνεται αυτή η μικρογραφία στην κατεύθυνση του άξονα y. |
 
 
-## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposepydrawingsize}
-Επιστρέφει ένα αντικείμενο μικρογραφίας Bitmap με το καθορισμένο μέγεθος.
+## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposeslidessize}
+Επιστρέφει ένα αντικείμενο μικρογραφίας Bitmap με το συγκεκριμένο μέγεθος.
 
-### Επιστροφή
+### Επιστρέφει
 
 Αντικείμενα Bitmap.
 
@@ -121,13 +121,13 @@ def get_image(self, options, image_size):
 | Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/el/aspose.slides.export/irenderingoptions) | Παράμετροι απόδοσης. |
-| image_size | **aspose.slides.Size** | Μέγεθος της εικόνας προς δημιουργία. |
+| image_size | [`Size`](/slides/python-net/el/aspose.slides/size) | Μέγεθος της εικόνας που θα δημιουργηθεί. |
 
 
 ## get_image(self, options, scale_x, scale_y) {#asposeslidesexportirenderingoptions-float-float}
 Επιστρέφει ένα αντικείμενο μικρογραφίας Bitmap με προσαρμοσμένη κλιμάκωση.
 
-### Επιστροφή
+### Επιστρέφει
 
 Αντικείμενα Bitmap.
 
@@ -142,8 +142,8 @@ def get_image(self, options, scale_x, scale_y):
 | Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/el/aspose.slides.export/irenderingoptions) | Παράμετροι απόδοσης. |
-| scale_x | **float** | Η τιμή με την οποία θα κλιμακωθεί αυτή η μικρογραφία στην κατεύθυνση του άξονα x. |
-| scale_y | **float** | Η τιμή με την οποία θα κλιμακωθεί αυτή η μικρογραφία στην κατεύθυνση του άξονα y. |
+| scale_x | **float** | Η τιμή με την οποία κλιμακώνεται αυτή η μικρογραφία στον άξονα x. |
+| scale_y | **float** | Η τιμή με την οποία κλιμακώνεται αυτή η μικρογραφία στον άξονα y. |
 
 
 
@@ -152,5 +152,6 @@ def get_image(self, options, scale_x, scale_y):
 * κλάση [`IRenderingOptions`](/slides/python-net/el/aspose.slides.export/irenderingoptions)
 * κλάση [`ISlide`](/slides/python-net/el/aspose.slides/islide)
 * κλάση [`ITiffOptions`](/slides/python-net/el/aspose.slides.export/itiffoptions)
+* κλάση [`Size`](/slides/python-net/el/aspose.slides/size)
 * μονάδα [`aspose.slides`](/slides/python-net/el/aspose.slides)
 * βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

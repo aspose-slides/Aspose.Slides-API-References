@@ -1,14 +1,14 @@
 ---
 title: contour_color property
-second_title: Aspose.Slides للبايثون عبر .NET مرجع API
+second_title: Aspose.Slides للـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/ithreedformateffectivedata/contour_color/
 weight: 50
 ---
 ## خاصية contour_color
-يعيد لون الحد.
-            للقراءة فقط **aspose.slides.Color**.
+يعيد لون المحيط.
+للقراءة فقط [`Color`](/slides/python-net/ar/aspose.slides/color).
 
 ### التعريف:
 ```python
@@ -17,8 +17,8 @@ def contour_color(self):
     ...
 ```
 
-
 ### انظر أيضًا
-* الفئة [`IThreeDFormatEffectiveData`](/slides/python-net/ar/aspose.slides/ithreedformateffectivedata)
-* الوحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
-* المكتبة [`Aspose.Slides`](/slides/python-net)
+* فئة [`IThreeDFormatEffectiveData`](/slides/python-net/ar/aspose.slides/ithreedformateffectivedata)
+* فئة [`Color`](/slides/python-net/ar/aspose.slides/color)
+* وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

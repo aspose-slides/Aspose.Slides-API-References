@@ -7,9 +7,9 @@ url: /nl/aspose.slides.export/itiffoptions/image_size/
 weight: 80
 ---
 ## image_size eigenschap
-Specificeert de grootte van een gegenereerde TIFF-afbeelding.
-            Standaardwaarde is 0x0, wat betekent dat de gegenereerde afbeeldingsgroottes worden berekend op basis van de grootte van de presentatieslide.
-            Lezen/schrijven **aspose.slides.Size**.
+Geeft de grootte van een gegenereerde TIFF-afbeelding op.
+            Standaardwaarde is 0x0, wat betekent dat de afmetingen van de gegenereerde afbeelding worden berekend op basis van de grootte van de presentatiedia.
+            Lezen/schrijven [`Size`](/slides/python-net/nl/aspose.slides/size).
 
 ### Definitie:
 ```python
@@ -25,5 +25,6 @@ def image_size(self, value):
 
 ### Zie ook
 * klasse [`ITiffOptions`](/slides/python-net/nl/aspose.slides.export/itiffoptions)
+* klasse [`Size`](/slides/python-net/nl/aspose.slides/size)
 * module [`aspose.slides.export`](/slides/python-net/nl/aspose.slides.export)
 * bibliotheek [`Aspose.Slides`](/slides/python-net)

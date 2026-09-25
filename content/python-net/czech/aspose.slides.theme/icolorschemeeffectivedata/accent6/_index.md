@@ -7,8 +7,8 @@ url: /cs/aspose.slides.theme/icolorschemeeffectivedata/accent6/
 weight: 60
 ---
 ## accent6 vlastnost
-Šestá akcentní barva ve schématu.
-            Pouze pro čtení **aspose.slides.Color**.
+Šestá akcentová barva ve schématu.
+            Pouze pro čtení [`Color`](/slides/python-net/cs/aspose.slides/color).
 
 ### Definice:
 ```python
@@ -20,5 +20,6 @@ def accent6(self):
 
 ### Viz také
 * třída [`IColorSchemeEffectiveData`](/slides/python-net/cs/aspose.slides.theme/icolorschemeeffectivedata)
+* třída [`Color`](/slides/python-net/cs/aspose.slides/color)
 * modul [`aspose.slides.theme`](/slides/python-net/cs/aspose.slides.theme)
 * knihovna [`Aspose.Slides`](/slides/python-net)

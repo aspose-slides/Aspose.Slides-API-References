@@ -1,14 +1,14 @@
 ---
 title: position property
-second_title: Aspose.Slides cho Python qua .NET Tham chiếu API
+second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides/comment/position/
 weight: 50
 ---
-## position thuộc tính
-Trả về hoặc đặt position của một bình luận trên một slide.
-            Đọc/ghi **aspose.slides.PointF**.
+## thuộc tính position
+Trả về hoặc đặt position của một bình luận trên slide.
+            Đọc/ghi [`PointF`](/slides/python-net/vi/aspose.slides/pointf).
 
 ### Định nghĩa:
 ```python
@@ -24,5 +24,6 @@ def position(self, value):
 
 ### Xem thêm
 * lớp [`Comment`](/slides/python-net/vi/aspose.slides/comment)
+* lớp [`PointF`](/slides/python-net/vi/aspose.slides/pointf)
 * mô-đun [`aspose.slides`](/slides/python-net/vi/aspose.slides)
 * thư viện [`Aspose.Slides`](/slides/python-net)

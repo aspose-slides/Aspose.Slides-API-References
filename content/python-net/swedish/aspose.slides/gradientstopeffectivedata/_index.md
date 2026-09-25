@@ -9,14 +9,14 @@ url: /sv/aspose.slides/gradientstopeffectivedata/
 
 Oföränderligt objekt som representerar ett gradientstopp.
 
-Typen GradientStopEffectiveData exponerar följande medlemmar:
+GradientStopEffectiveData-typen exponerar följande medlemmar:
 
 ## Egenskaper
 
 | Egenskap | Beskrivning |
 | :- | :- |
 | [`position`](/slides/python-net/sv/aspose.slides/gradientstopeffectivedata/position/) | Returnerar positionen (0..1) för ett gradientstopp.<br/>            Skrivskyddad **float**. |
-| [`color`](/slides/python-net/sv/aspose.slides/gradientstopeffectivedata/color/) | Returnerar färgen för ett gradientstopp.<br/>            Skrivskyddad **aspose.slides.Color**. |
+| [`color`](/slides/python-net/sv/aspose.slides/gradientstopeffectivedata/color/) | Returnerar färgen för ett gradientstopp.<br/>            Skrivskyddad [`Color`](/slides/python-net/sv/aspose.slides/color). |
 
 
 ### Se även

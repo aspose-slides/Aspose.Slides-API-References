@@ -7,8 +7,8 @@ url: /th/aspose.slides/ifillformateffectivedata/solid_fill_color/
 weight: 70
 ---
 ## solid_fill_color คุณสมบัติ
-ส่งคืนสีเติม.
-            อ่านอย่างเดียว **aspose.slides.Color**.
+คืนค่าสีเติม.
+            อ่านอย่างเดียว [`Color`](/slides/python-net/th/aspose.slides/color).
 
 ### คำนิยาม:
 ```python
@@ -20,5 +20,6 @@ def solid_fill_color(self):
 
 ### ดูเพิ่มเติม
 * คลาส [`IFillFormatEffectiveData`](/slides/python-net/th/aspose.slides/ifillformateffectivedata)
+* คลาส [`Color`](/slides/python-net/th/aspose.slides/color)
 * โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
 * ไลบรารี [`Aspose.Slides`](/slides/python-net)

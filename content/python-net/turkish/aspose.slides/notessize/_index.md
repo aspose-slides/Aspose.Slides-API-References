@@ -5,11 +5,11 @@ description:
 type: docs
 url: /tr/aspose.slides/notessize/
 ---
-## NotesSize sınıfı
+## NotesSize sınıf
 
 Not slaytının boyutunu temsil eder.
 
-NotesSize tipi aşağıdaki üyeleri sunar:
+NotesSize türü aşağıdaki üyeleri sunar:
 
 ## Yapıcılar
 
@@ -21,8 +21,9 @@ NotesSize tipi aşağıdaki üyeleri sunar:
 
 | Özellik | Açıklama |
 | :- | :- |
-| [`size`](/slides/python-net/tr/aspose.slides/notessize/size/) | Boyutu puan cinsinden döndürür veya ayarlar.<br/> Okunur/yazılır **aspose.slides.SizeF**. |
+| [`size`](/slides/python-net/tr/aspose.slides/notessize/size/) | Boyutu puan cinsinden döndürür veya ayarlar.<br/>            Okuma/Yazma [`SizeF`](/slides/python-net/tr/aspose.slides/sizef). |
 
-### Ayrıca
+
+### Ayrıca Bakınız
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

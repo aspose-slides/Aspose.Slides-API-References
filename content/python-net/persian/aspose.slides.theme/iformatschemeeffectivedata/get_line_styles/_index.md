@@ -6,8 +6,8 @@ type: docs
 url: /fa/aspose.slides.theme/iformatschemeeffectivedata/get_line_styles/
 weight: 40
 ---
-## get_line_styles(self, style_color) {#asposepydrawingcolor}
-یک مجموعه از سبک‌های خط تعریف‌شده توسط قالب را بازمی‌گرداند.
+## get_line_styles(self, style_color) {#asposeslidescolor}
+یک مجموعه از سبک‌های خط تعریف‌شده توسط تم را برمی‌گرداند.
 
 ### بازگشت
 
@@ -18,12 +18,13 @@ def get_line_styles(self, style_color):
     ...
 ```
 
-| پارامتر | نوع | توضیح |
+| پارامتر | نوع | شرح |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | رنگ **aspose.slides.Color** |
+| style_color | [`Color`](/slides/python-net/fa/aspose.slides/color) | رنگ [`Color`](/slides/python-net/fa/aspose.slides/color) |
 
-### مراجع
+### همچنین ببینید
 * کلاس [`IFormatSchemeEffectiveData`](/slides/python-net/fa/aspose.slides.theme/iformatschemeeffectivedata)
 * کلاس [`ILineFormatCollectionEffectiveData`](/slides/python-net/fa/aspose.slides.theme/ilineformatcollectioneffectivedata)
+* کلاس [`Color`](/slides/python-net/fa/aspose.slides/color)
 * ماژول [`aspose.slides.theme`](/slides/python-net/fa/aspose.slides.theme)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

@@ -8,7 +8,7 @@ weight: 20
 ---
 ## properti warna
 Mengembalikan format warna yang akan menggantikan warna setiap piksel.
-            Hanya-baca **aspose.slides.Color**.
+            Hanya-baca [`Color`](/slides/python-net/id/aspose.slides/color).
 
 ### Definisi:
 ```python
@@ -20,5 +20,6 @@ def color(self):
 
 ### Lihat Juga
 * kelas [`IColorReplaceEffectiveData`](/slides/python-net/id/aspose.slides.effects/icolorreplaceeffectivedata)
+* kelas [`Color`](/slides/python-net/id/aspose.slides/color)
 * modul [`aspose.slides.effects`](/slides/python-net/id/aspose.slides.effects)
-* perpustakaan [`Aspose.Slides`](/slides/python-net)
+* pustaka [`Aspose.Slides`](/slides/python-net)

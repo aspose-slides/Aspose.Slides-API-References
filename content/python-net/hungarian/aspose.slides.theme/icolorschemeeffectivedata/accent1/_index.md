@@ -7,8 +7,8 @@ url: /hu/aspose.slides.theme/icolorschemeeffectivedata/accent1/
 weight: 10
 ---
 ## accent1 tulajdonság
-Az első hangsúlyszín a sémában.
-            Csak olvasható **aspose.slides.Color**.
+Az első akcentus szín a sémában.
+            Csak olvasható [`Color`](/slides/python-net/hu/aspose.slides/color).
 
 ### Definíció:
 ```python
@@ -20,5 +20,6 @@ def accent1(self):
 
 ### Lásd még
 * osztály [`IColorSchemeEffectiveData`](/slides/python-net/hu/aspose.slides.theme/icolorschemeeffectivedata)
+* osztály [`Color`](/slides/python-net/hu/aspose.slides/color)
 * modul [`aspose.slides.theme`](/slides/python-net/hu/aspose.slides.theme)
 * könyvtár [`Aspose.Slides`](/slides/python-net)

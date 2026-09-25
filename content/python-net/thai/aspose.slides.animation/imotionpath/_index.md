@@ -5,7 +5,7 @@ description:
 type: docs
 url: /th/aspose.slides.animation/imotionpath/
 ---
-## คลาส IMotionPath
+## IMotionPath คลาส
 
 แสดงเส้นทางการเคลื่อนที่
 
@@ -15,9 +15,9 @@ url: /th/aspose.slides.animation/imotionpath/
 
 | คุณสมบัติ | คำอธิบาย |
 | :- | :- |
-| [`count`](/slides/python-net/th/aspose.slides.animation/imotionpath/count/) | คืนค่าจำนวนเส้นทางในคอลเลกชัน.<br/>            Read-only **int**. |
+| [`count`](/slides/python-net/th/aspose.slides.animation/imotionpath/count/) | คืนค่าจำนวนพาธในคอลเลกชัน.<br/>            อ่านอย่างเดียว **int**. |
 
-คืนค่าคำสั่งที่ตำแหน่งที่ระบุ
+คืนคำสั่งที่ตำแหน่งที่ระบุ
 
 ## ดัชนี
 
@@ -29,11 +29,11 @@ url: /th/aspose.slides.animation/imotionpath/
 
 | เมธอด | คำอธิบาย |
 | :- | :- |
-| [`add(self, type, pts, pts_type, b_relative_coord)`](/slides/python-net/th/aspose.slides.animation/imotionpath/add/#motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool) | เพิ่มคำสั่งใหม่ไปยังเส้นทาง |
-| [`insert(self, index, type, pts, pts_type, b_relative_coord)`](/slides/python-net/th/aspose.slides.animation/imotionpath/insert/#int-motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool) | แทรกคำสั่งใหม่ไปยังเส้นทาง |
-| [`clear(self)`](/slides/python-net/th/aspose.slides.animation/imotionpath/clear/#) | ลบคำสั่งทั้งหมดจากคอลเลกชัน |
-| [`remove(self, item)`](/slides/python-net/th/aspose.slides.animation/imotionpath/remove/#imotioncmdpath) | ลบคำสั่งที่ระบุจากคอลเลกชัน |
-| [`remove_at(self, index)`](/slides/python-net/th/aspose.slides.animation/imotionpath/remove_at/#int) | ลบคำสั่งที่ตำแหน่งที่ระบุ |
+| [`add(self, type, pts, pts_type, b_relative_coord)`](/slides/python-net/th/aspose.slides.animation/imotionpath/add/#motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool) | เพิ่มคำสั่งใหม่ไปยังพาธ |
+| [`insert(self, index, type, pts, pts_type, b_relative_coord)`](/slides/python-net/th/aspose.slides.animation/imotionpath/insert/#int-motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool) | แทรกคำสั่งใหม่ไปยังพาธ |
+| [`clear(self)`](/slides/python-net/th/aspose.slides.animation/imotionpath/clear/#) | ลบคำสั่งทั้งหมดออกจากคอลเลกชัน. |
+| [`remove(self, item)`](/slides/python-net/th/aspose.slides.animation/imotionpath/remove/#imotioncmdpath) | ลบคำสั่งที่ระบุออกจากคอลเลกชัน. |
+| [`remove_at(self, index)`](/slides/python-net/th/aspose.slides.animation/imotionpath/remove_at/#int) | ลบคำสั่งที่ตำแหน่งที่ระบุ. |
 
 ### ดูเพิ่มเติม
 * โมดูล [`aspose.slides.animation`](/slides/python-net/th/aspose.slides.animation)

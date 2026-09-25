@@ -7,8 +7,8 @@ url: /zh-hant/aspose.slides/comment/position/
 weight: 50
 ---
 ## position 屬性
-返回或設定投影片上註解的 position。
-            讀/寫 **aspose.slides.PointF**.
+返回或設定投影片上註解的位置。
+            可讀寫 [`PointF`](/slides/python-net/zh-hant/aspose.slides/pointf).
 
 ### 定義:
 ```python
@@ -22,7 +22,8 @@ def position(self, value):
 ```
 
 
-### 另見
+### 另請參考
 * 類別 [`Comment`](/slides/python-net/zh-hant/aspose.slides/comment)
+* 類別 [`PointF`](/slides/python-net/zh-hant/aspose.slides/pointf)
 * 模組 [`aspose.slides`](/slides/python-net/zh-hant/aspose.slides)
 * 函式庫 [`Aspose.Slides`](/slides/python-net)

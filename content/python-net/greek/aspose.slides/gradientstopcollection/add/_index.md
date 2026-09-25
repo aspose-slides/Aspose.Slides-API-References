@@ -6,12 +6,11 @@ type: docs
 url: /el/aspose.slides/gradientstopcollection/add/
 weight: 10
 ---
-## add(self, position, color) {#float-asposepydrawingcolor}
+## add(self, position, color) {#float-asposeslidescolor}
 Δημιουργεί το νέο σημείο διαβάθμισης και το προσθέτει στο τέλος της συλλογής.
 
-### Επιστρέφει
-
-Δείκτη του νέου σημείου διαβάθμισης στη συλλογή.
+### Returns
+Δείκτης του νέου σημείου διαβάθμισης στη συλλογή.
 
 
 
@@ -21,18 +20,17 @@ def add(self, position, color):
 ```
 
 
-| Παράμετρος | Τύπος | Περιγραφή |
+| Parameter | Type | Description |
 | :- | :- | :- |
 | position | **float** | Θέση του νέου σημείου διαβάθμισης. |
-| color | **aspose.slides.Color** | Χρώμα του νέου σημείου διαβάθμισης. |
+| color | [`Color`](/slides/python-net/el/aspose.slides/color) | Χρώμα του νέου σημείου διαβάθμισης. |
 
 
 ## add(self, position, preset_color) {#float-presetcolor}
 Δημιουργεί το νέο σημείο διαβάθμισης και το προσθέτει στο τέλος της συλλογής.
 
-### Επιστρέφει
-
-Δείκτη του νέου σημείου διαβάθμισης στη συλλογή.
+### Returns
+Δείκτης του νέου σημείου διαβάθμισης στη συλλογή.
 
 
 
@@ -42,7 +40,7 @@ def add(self, position, preset_color):
 ```
 
 
-| Παράμετρος | Τύπος | Περιγραφή |
+| Parameter | Type | Description |
 | :- | :- | :- |
 | position | **float** | Θέση του νέου σημείου διαβάθμισης. |
 | preset_color | [`PresetColor`](/slides/python-net/el/aspose.slides/presetcolor) | Χρώμα του νέου σημείου διαβάθμισης. |
@@ -51,9 +49,8 @@ def add(self, position, preset_color):
 ## add(self, position, scheme_color) {#float-schemecolor}
 Δημιουργεί το νέο σημείο διαβάθμισης και το προσθέτει στο τέλος της συλλογής.
 
-### Επιστρέφει
-
-Δείκτη του νέου σημείου διαβάθμισης στη συλλογή.
+### Returns
+Δείκτης του νέου σημείου διαβάθμισης στη συλλογή.
 
 
 
@@ -63,17 +60,18 @@ def add(self, position, scheme_color):
 ```
 
 
-| Παράμετρος | Τύπος | Περιγραφή |
+| Parameter | Type | Description |
 | :- | :- | :- |
 | position | **float** | Θέση του νέου σημείου διαβάθμισης. |
 | scheme_color | [`SchemeColor`](/slides/python-net/el/aspose.slides/schemecolor) | Χρώμα του νέου σημείου διαβάθμισης. |
 
 
 
-### Δείτε επίσης
-* κλάση [`GradientStopCollection`](/slides/python-net/el/aspose.slides/gradientstopcollection)
-* κλάση [`IGradientStop`](/slides/python-net/el/aspose.slides/igradientstop)
-* απαρίθμηση [`PresetColor`](/slides/python-net/el/aspose.slides/presetcolor)
-* απαρίθμηση [`SchemeColor`](/slides/python-net/el/aspose.slides/schemecolor)
-* μονάδα [`aspose.slides`](/slides/python-net/el/aspose.slides)
-* βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)
+### See Also
+* class [`GradientStopCollection`](/slides/python-net/el/aspose.slides/gradientstopcollection)
+* class [`IGradientStop`](/slides/python-net/el/aspose.slides/igradientstop)
+* enumeration [`PresetColor`](/slides/python-net/el/aspose.slides/presetcolor)
+* enumeration [`SchemeColor`](/slides/python-net/el/aspose.slides/schemecolor)
+* class [`Color`](/slides/python-net/el/aspose.slides/color)
+* module [`aspose.slides`](/slides/python-net/el/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

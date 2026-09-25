@@ -7,8 +7,8 @@ url: /cs/aspose.slides.theme/icolorschemeeffectivedata/followed_hyperlink/
 weight: 90
 ---
 ## followed_hyperlink vlastnost
-Barva navštívených hypertextových odkazů.
-            Pouze pro čtení **aspose.slides.Color**.
+Barva pro navštívené hypertextové odkazy.
+            Pouze ke čtení [`Color`](/slides/python-net/cs/aspose.slides/color).
 
 ### Definice:
 ```python
@@ -17,7 +17,9 @@ def followed_hyperlink(self):
     ...
 ```
 
+
 ### Viz také
 * třída [`IColorSchemeEffectiveData`](/slides/python-net/cs/aspose.slides.theme/icolorschemeeffectivedata)
+* třída [`Color`](/slides/python-net/cs/aspose.slides/color)
 * modul [`aspose.slides.theme`](/slides/python-net/cs/aspose.slides.theme)
 * knihovna [`Aspose.Slides`](/slides/python-net)

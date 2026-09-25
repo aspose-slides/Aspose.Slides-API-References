@@ -7,17 +7,19 @@ url: /zh-hant/aspose.slides.export/htmlgenerator/slide_image_size/
 weight: 60
 ---
 ## slide_image_size 屬性
-傳回投影片影像大小。
-            唯讀 **aspose.slides.SizeF**.
+Returns slide image size.
+            唯讀 [`SizeF`](/slides/python-net/zh-hant/aspose.slides/sizef).
 
-### 定義:
+### 定義：
 ```python
 @property
 def slide_image_size(self):
     ...
 ```
 
+
 ### 另請參閱
 * 類別 [`HtmlGenerator`](/slides/python-net/zh-hant/aspose.slides.export/htmlgenerator)
+* 類別 [`SizeF`](/slides/python-net/zh-hant/aspose.slides/sizef)
 * 模組 [`aspose.slides.export`](/slides/python-net/zh-hant/aspose.slides.export)
-* 函式庫 [`Aspose.Slides`](/slides/python-net)
+* 程式庫 [`Aspose.Slides`](/slides/python-net)

@@ -7,12 +7,11 @@ url: /el/aspose.slides/audioframe/get_visual_bounds/
 weight: 60
 ---
 ## get_visual_bounds(self) {#}
-Λαμβάνει τα οπτικά όρια του σχήματος που υπολογίζονται από το αποτυπωμένο περιεχόμενό του.
+Λαμβάνει τα οπτικά όρια του σχήματος που υπολογίζονται από το αποδοθέν περιεχόμενό του.
 
-### Returns
+### Επιστρέφει
 
-A **aspose.slides.RectangleF** that represents the visual bounds of the shape
-             in slide coordinates.
+Ένα [`RectangleF`](/slides/python-net/el/aspose.slides/rectanglef) που αντιπροσωπεύει τα οπτικά όρια του σχήματος σε συντεταγμένες διαφάνειας.
 
 
 
@@ -22,27 +21,20 @@ def get_visual_bounds(self):
 ```
 
 
-### Remarks
+### Παρατηρήσεις
 
-The returned rectangle represents the axis-aligned bounds of all content
-             produced by the shape during rendering in slide coordinate space.
-            
-             These bounds may differ from the shape's model bounds
-             ([`Shape.x`](/slides/python-net/el/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/el/aspose.slides/shape/y),
-             [`Shape.width`](/slides/python-net/el/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/el/aspose.slides/shape/height))
-             and may contain negative coordinates if the rendered content extends
-             beyond the slide origin.
-            
-             The visual bounds take into account rendering-related aspects such as
-             transformations (for example, rotation), stroke width and joins,
-             text layout and overflow, SmartArt geometry, and other layout effects
-             that influence the final rendered appearance of the shape.
-            
-             The returned bounds are not clipped to the slide rectangle.
+Το επιστρεφόμενο ορθογώνιο αντιπροσωπεύει τα όρια ευθυγραμμισμένα με τους άξονες όλων των περιεχομένων που παράγονται από το σχήμα κατά τη διάρκεια της απόδοσης σε χώρο συντεταγμένων διαφάνειας.
+
+Αυτά τα όρια μπορεί να διαφέρουν από τα μοντέλα ορίων του σχήματος ([`Shape.x`](/slides/python-net/el/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/el/aspose.slides/shape/y), [`Shape.width`](/slides/python-net/el/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/el/aspose.slides/shape/height)) και μπορεί να περιέχουν αρνητικές συντεταγμένες εάν το αποδοθέν περιεχόμενο επεκτείνεται πέρα από την αρχή της διαφάνειας.
+
+Τα οπτικά όρια λαμβάνουν υπόψη πτυχές σχετικές με την απόδοση όπως οι μετασχηματισμοί (π.χ., περιστροφή), το πλάτος και οι ενώσεις του περιγράμματος, η διάταξη κειμένου και η υπερχείλιση, η γεωμετρία SmartArt και άλλες επιδράσεις διάταξης που επηρεάζουν την τελική εμφάνιση του σχήματος.
+
+Τα επιστρεφόμενα όρια δεν περικόπτονται στο ορθογώνιο της διαφάνειας.
 
 
 
-### See Also
+### Δείτε επίσης
 * κλάση [`AudioFrame`](/slides/python-net/el/aspose.slides/audioframe)
+* κλάση [`RectangleF`](/slides/python-net/el/aspose.slides/rectanglef)
 * μονάδα [`aspose.slides`](/slides/python-net/el/aspose.slides)
 * βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

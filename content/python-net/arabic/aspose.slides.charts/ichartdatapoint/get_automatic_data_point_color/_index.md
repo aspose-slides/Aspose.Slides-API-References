@@ -7,23 +7,18 @@ url: /ar/aspose.slides.charts/ichartdatapoint/get_automatic_data_point_color/
 weight: 10
 ---
 ## get_automatic_data_point_color(self) {#}
-يُرجع لونًا آليًا لنقطة البيانات بناءً على فهرس السلسلة، فهرس نقطة البيانات، الخاصية ParentSeriesGroup.IsColorVaried ونمط المخطط. يُستخدم هذا اللون بشكل افتراضي إذا كان FillType يساوي NotDefined.
+يرجع لونًا أوتوماتيكيًا لنقطة البيانات بناءً على فهرس السلسلة، فهرس نقطة البيانات، خاصية ParentSeriesGroup.IsColorVaried ونمط المخطط. يُستخدم هذا اللون افتراضيًا إذا كان FillType يساوي NotDefined.
 
-### الإرجاع
-
-لون آلي لنقطة البيانات **aspose.slides.Color**
-
-
+### القيمة المرجعة
+اللون الأوتوماتيكي لنقطة البيانات [`Color`](/slides/python-net/ar/aspose.slides/color)
 
 ```python
 def get_automatic_data_point_color(self):
     ...
 ```
 
-
-
-
 ### انظر أيضًا
-* فئة [`IChartDataPoint`](/slides/python-net/ar/aspose.slides.charts/ichartdatapoint)
-* وحدة [`aspose.slides.charts`](/slides/python-net/ar/aspose.slides.charts)
-* مكتبة [`Aspose.Slides`](/slides/python-net)
+* الفئة [`IChartDataPoint`](/slides/python-net/ar/aspose.slides.charts/ichartdatapoint)
+* الفئة [`Color`](/slides/python-net/ar/aspose.slides/color)
+* الوحدة [`aspose.slides.charts`](/slides/python-net/ar/aspose.slides.charts)
+* المكتبة [`Aspose.Slides`](/slides/python-net)

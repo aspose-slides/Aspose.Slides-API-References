@@ -1,15 +1,16 @@
 ---
 title: get_fill_styles method
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: Aspose.Slides لبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.theme/iformatschemeeffectivedata/get_fill_styles/
 weight: 30
 ---
-## get_fill_styles(self, style_color) {#asposepydrawingcolor}
-يعيد مجموعة من أنماط التعبئة المعرفة في السمة.
+## get_fill_styles(self, style_color) {#asposeslidescolor}
+إرجاع مجموعة من أنماط التعبئة المعرفة في السمة.
 
 ### الإرجاع
+
 مجموعة من تنسيقات التعبئة الفعّالة [`IFillFormatCollectionEffectiveData`](/slides/python-net/ar/aspose.slides.theme/ifillformatcollectioneffectivedata)
 
 ```python
@@ -17,12 +18,13 @@ def get_fill_styles(self, style_color):
     ...
 ```
 
-| معامل | النوع | الوصف |
+| المعامل | النوع | الوصف |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | لون **aspose.slides.Color** |
+| style_color | [`Color`](/slides/python-net/ar/aspose.slides/color) | لون [`Color`](/slides/python-net/ar/aspose.slides/color) |
 
 ### انظر أيضًا
-* الفئة [`IFillFormatCollectionEffectiveData`](/slides/python-net/ar/aspose.slides.theme/ifillformatcollectioneffectivedata)
-* الفئة [`IFormatSchemeEffectiveData`](/slides/python-net/ar/aspose.slides.theme/iformatschemeeffectivedata)
-* الوحدة [`aspose.slides.theme`](/slides/python-net/ar/aspose.slides.theme)
-* المكتبة [`Aspose.Slides`](/slides/python-net)
+* فئة [`IFillFormatCollectionEffectiveData`](/slides/python-net/ar/aspose.slides.theme/ifillformatcollectioneffectivedata)
+* فئة [`IFormatSchemeEffectiveData`](/slides/python-net/ar/aspose.slides.theme/iformatschemeeffectivedata)
+* فئة [`Color`](/slides/python-net/ar/aspose.slides/color)
+* وحدة [`aspose.slides.theme`](/slides/python-net/ar/aspose.slides.theme)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

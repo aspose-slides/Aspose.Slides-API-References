@@ -8,7 +8,7 @@ weight: 80
 ---
 ## dark2 Eigenschaft
 Zweite dunkle Farbe im Schema.
-            Nur lesbar **aspose.slides.Color**.
+            Nur-Lesen [`Color`](/slides/python-net/de/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -17,8 +17,8 @@ def dark2(self):
     ...
 ```
 
-
 ### Siehe auch
 * Klasse [`IColorSchemeEffectiveData`](/slides/python-net/de/aspose.slides.theme/icolorschemeeffectivedata)
+* Klasse [`Color`](/slides/python-net/de/aspose.slides/color)
 * Modul [`aspose.slides.theme`](/slides/python-net/de/aspose.slides.theme)
 * Bibliothek [`Aspose.Slides`](/slides/python-net)

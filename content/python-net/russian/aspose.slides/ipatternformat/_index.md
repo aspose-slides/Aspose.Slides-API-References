@@ -1,6 +1,6 @@
 ---
 title: IPatternFormat class
-second_title: Aspose.Slides для Python через .NET справочник API
+second_title: Aspose.Slides для Python через .NET справка API
 description: 
 type: docs
 url: /ru/aspose.slides/ipatternformat/
@@ -13,19 +13,18 @@ url: /ru/aspose.slides/ipatternformat/
 
 ## Свойства
 
-| Свойство | Описание |
+| Property | Description |
 | :- | :- |
 | [`pattern_style`](/slides/python-net/ru/aspose.slides/ipatternformat/pattern_style/) | Возвращает или задаёт стиль шаблона.<br/>            Чтение/запись [`PatternStyle`](/slides/python-net/ru/aspose.slides/patternstyle). |
-| [`fore_color`](/slides/python-net/ru/aspose.slides/ipatternformat/fore_color/) | Возвращает цвет переднего плана шаблона.<br/>            Только чтение [`IColorFormat`](/slides/python-net/ru/aspose.slides/icolorformat). |
-| [`back_color`](/slides/python-net/ru/aspose.slides/ipatternformat/back_color/) | Возвращает цвет заднего плана шаблона.<br/>            Только чтение [`IColorFormat`](/slides/python-net/ru/aspose.slides/icolorformat). |
+| [`fore_color`](/slides/python-net/ru/aspose.slides/ipatternformat/fore_color/) | Возвращает цвет переднего плана шаблона.<br/>            Только для чтения [`IColorFormat`](/slides/python-net/ru/aspose.slides/icolorformat). |
+| [`back_color`](/slides/python-net/ru/aspose.slides/ipatternformat/back_color/) | Возвращает цвет фона шаблона.<br/>            Только для чтения [`IColorFormat`](/slides/python-net/ru/aspose.slides/icolorformat). |
 
 ## Методы
 
-| Метод | Описание |
+| Method | Description |
 | :- | :- |
-| [`get_tile(self, background, foreground)`](/slides/python-net/ru/aspose.slides/ipatternformat/get_tile/#asposepydrawingcolor-asposepydrawingcolor) | Создаёт изображение плитки для заливки шаблоном с указанными цветами. |
-| [`get_tile(self, style_color)`](/slides/python-net/ru/aspose.slides/ipatternformat/get_tile/#asposepydrawingcolor) | Создаёт изображение плитки для заливки шаблоном. |
-
+| [`get_tile(self, background, foreground)`](/slides/python-net/ru/aspose.slides/ipatternformat/get_tile/#asposeslidescolor-asposeslidescolor) | Создаёт изображение плитки для заполнения шаблоном с указанными цветами. |
+| [`get_tile(self, style_color)`](/slides/python-net/ru/aspose.slides/ipatternformat/get_tile/#asposeslidescolor) | Создаёт изображение плитки для заполнения шаблоном. |
 
 ### См. также
 * модуль [`aspose.slides`](/slides/python-net/ru/aspose.slides)

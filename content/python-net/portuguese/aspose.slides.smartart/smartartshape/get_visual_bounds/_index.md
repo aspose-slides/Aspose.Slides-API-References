@@ -1,17 +1,17 @@
 ---
 title: get_visual_bounds method
-second_title: Referência da API Aspose.Slides for Python via .NET
+second_title: Aspose.Slides para Python via .NET Referência da API
 description: 
 type: docs
 url: /pt/aspose.slides.smartart/smartartshape/get_visual_bounds/
 weight: 60
 ---
 ## get_visual_bounds(self) {#}
-Obtém os limites visuais da forma calculados a partir de seu conteúdo renderizado.
+Obtém os limites visuais da forma calculados a partir do seu conteúdo renderizado.
 
-### Retorna
+### Retorno
 
-Um **aspose.slides.RectangleF** que representa os limites visuais da forma nas coordenadas do slide.
+Um [`RectangleF`](/slides/python-net/pt/aspose.slides/rectanglef) que representa os limites visuais da forma em coordenadas do slide.
 
 
 
@@ -33,8 +33,8 @@ O retângulo retornado representa os limites alinhados aos eixos de todo o conte
              além da origem do slide.
             
              Os limites visuais levam em conta aspectos relacionados à renderização, como
-             transformações (por exemplo, rotação), largura e junções de traço,
-             layout e estouro de texto, geometria do SmartArt e outros efeitos de layout
+             transformações (por exemplo, rotação), largura de traço e junções,
+             layout de texto e overflow, geometria do SmartArt e outros efeitos de layout
              que influenciam a aparência final renderizada da forma.
             
              Os limites retornados não são recortados ao retângulo do slide.
@@ -43,5 +43,6 @@ O retângulo retornado representa os limites alinhados aos eixos de todo o conte
 
 ### Veja Também
 * classe [`SmartArtShape`](/slides/python-net/pt/aspose.slides.smartart/smartartshape)
+* classe [`RectangleF`](/slides/python-net/pt/aspose.slides/rectanglef)
 * módulo [`aspose.slides.smartart`](/slides/python-net/pt/aspose.slides.smartart)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

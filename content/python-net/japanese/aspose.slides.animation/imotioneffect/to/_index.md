@@ -7,8 +7,8 @@ url: /ja/aspose.slides.animation/imotioneffect/to/
 weight: 130
 ---
 ## プロパティへ
-アニメーションモーション効果の対象位置を指定します（パーセント単位）。
-            読み書き可能 **aspose.slides.PointF**.
+アニメーションのモーション効果の対象位置をパーセンテージで指定します。
+            読み取り/書き込み [`PointF`](/slides/python-net/ja/aspose.slides/pointf).
 
 ### 定義:
 ```python
@@ -24,5 +24,6 @@ def to(self, value):
 
 ### 参照
 * クラス [`IMotionEffect`](/slides/python-net/ja/aspose.slides.animation/imotioneffect)
+* クラス [`PointF`](/slides/python-net/ja/aspose.slides/pointf)
 * モジュール [`aspose.slides.animation`](/slides/python-net/ja/aspose.slides.animation)
 * ライブラリ [`Aspose.Slides`](/slides/python-net)

@@ -7,8 +7,8 @@ url: /sv/aspose.slides.effects/iduotoneeffectivedata/color1/
 weight: 20
 ---
 ## color1 egenskap
-Returnerar målformatet för färg för mörka pixlar.
-            Skrivskyddad **aspose.slides.Color**.
+Returnerar målformatet för färgen för mörka pixlar.
+            Skrivskyddad [`Color`](/slides/python-net/sv/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def color1(self):
 
 ### Se även
 * klass [`IDuotoneEffectiveData`](/slides/python-net/sv/aspose.slides.effects/iduotoneeffectivedata)
+* klass [`Color`](/slides/python-net/sv/aspose.slides/color)
 * modul [`aspose.slides.effects`](/slides/python-net/sv/aspose.slides.effects)
-* library [`Aspose.Slides`](/slides/python-net)
+* bibliotek [`Aspose.Slides`](/slides/python-net)

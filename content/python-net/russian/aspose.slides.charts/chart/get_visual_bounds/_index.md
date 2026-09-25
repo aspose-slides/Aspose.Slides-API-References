@@ -7,12 +7,11 @@ url: /ru/aspose.slides.charts/chart/get_visual_bounds/
 weight: 50
 ---
 ## get_visual_bounds(self) {#}
-Получает визуальные границы фигуры, вычисленные из её отрисованного содержимого.
+Получает визуальные границы фигуры, рассчитанные из её отрисованного содержимого.
 
 ### Возвращаемое значение
 
-Объект **aspose.slides.RectangleF**, представляющий визуальные границы фигуры
-             в координатах слайда.
+Объект [`RectangleF`](/slides/python-net/ru/aspose.slides/rectanglef), представляющий визуальные границы фигуры в координатах слайда.
 
 
 
@@ -24,18 +23,26 @@ def get_visual_bounds(self):
 
 ### Примечания
 
-Возвращаемый прямоугольник представляет осно́вные (выравненные по осям) границы всего содержимого, генерируемого фигурой при рендеринге в координатном пространстве слайда.
-            
-Эти границы могут отличаться от модельных границ фигуры ([`Shape.x`](/slides/python-net/ru/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/ru/aspose.slides/shape/y),
-             [`Shape.width`](/slides/python-net/ru/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/ru/aspose.slides/shape/height)) и могут содержать отрицательные координаты, если отрисованное содержимое выходит за пределы начала слайда.
-            
-Визуальные границы учитывают связанные с рендерингом аспекты, такие как трансформации (например, поворот), ширина и соединения обводки, расположение текста и переполнение, геометрию SmartArt и другие эффекты компоновки, влияющие на окончательный внешний вид фигуры.
-            
+Возвращаемый прямоугольник представляет собой осно-ориентированные границы всего содержимого,
+создаваемого фигурой во время отрисовки, в системе координат слайда.
+
+Эти границы могут отличаться от модельных границ фигуры
+([`Shape.x`](/slides/python-net/ru/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/ru/aspose.slides/shape/y),
+[`Shape.width`](/slides/python-net/ru/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/ru/aspose.slides/shape/height))
+и могут содержать отрицательные координаты, если отрисованное содержимое выходит
+за пределы начала слайда.
+
+Визуальные границы учитывают связанные с отрисовкой аспекты, такие как
+трансформации (например, вращение), ширина и соединения линий,
+размещение текста и переполнение, геометрию SmartArt и другие эффекты компоновки,
+влияющие на окончательный внешний вид фигуры.
+
 Возвращаемые границы не обрезаются до прямоугольника слайда.
 
 
 
 ### См. также
 * класс [`Chart`](/slides/python-net/ru/aspose.slides.charts/chart)
+* класс [`RectangleF`](/slides/python-net/ru/aspose.slides/rectanglef)
 * модуль [`aspose.slides.charts`](/slides/python-net/ru/aspose.slides.charts)
-* библиотека [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

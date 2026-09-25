@@ -7,28 +7,28 @@ url: /th/aspose.slides.theme/ithemeeffectivedata/
 ---
 ## IThemeEffectiveData คลาส
 
-อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งประกอบด้วยคุณสมบัติธีมที่มีผล
+อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติของธีมที่มีผล  
 
 ประเภท IThemeEffectiveData เปิดเผยสมาชิกต่อไปนี้:
 
-## คุณสมบัติ
+## Properties
 
-| คุณสมบัติ | คำอธิบาย |
+| Property | Description |
 | :- | :- |
-| [`font_scheme`](/slides/python-net/th/aspose.slides.theme/ithemeeffectivedata/font_scheme/) | Returns the font scheme.<br/>            Read-only [`IFontSchemeEffectiveData`](/slides/python-net/th/aspose.slides.theme/ifontschemeeffectivedata). |
-| [`format_scheme`](/slides/python-net/th/aspose.slides.theme/ithemeeffectivedata/format_scheme/) | Returns the shape format scheme.<br/>            Read-only [`IFormatSchemeEffectiveData`](/slides/python-net/th/aspose.slides.theme/iformatschemeeffectivedata). |
+| [`font_scheme`](/slides/python-net/th/aspose.slides.theme/ithemeeffectivedata/font_scheme/) | ส่งคืนแบบอักษร<br/>            อ่านอย่างเดียว [`IFontSchemeEffectiveData`](/slides/python-net/th/aspose.slides.theme/ifontschemeeffectivedata). |
+| [`format_scheme`](/slides/python-net/th/aspose.slides.theme/ithemeeffectivedata/format_scheme/) | ส่งคืนรูปแบบของรูปร่าง<br/>            อ่านอย่างเดียว [`IFormatSchemeEffectiveData`](/slides/python-net/th/aspose.slides.theme/iformatschemeeffectivedata). |
 
-## เมธอด
+## Methods
 
-| เมธอด | คำอธิบาย |
+| Method | Description |
 | :- | :- |
-| [`get_color_scheme(self, style_color)`](/slides/python-net/th/aspose.slides.theme/ithemeeffectivedata/get_color_scheme/#asposepydrawingcolor) | Returns the color scheme. |
+| [`get_color_scheme(self, style_color)`](/slides/python-net/th/aspose.slides.theme/ithemeeffectivedata/get_color_scheme/#asposeslidescolor) | ส่งคืนชุดสี. |
 
-### หมายเหตุ
+### Remarks
 
-อินเทอร์เฟซนี้ใช้ร่วมกับอินเทอร์เฟซ [`ITheme`](/slides/python-net/th/aspose.slides.theme/itheme) เพื่อคืนค่าการจัดรูปแบบที่มีผลพร้อมการสืบทอดที่นำมาใช้
+อินเทอร์เฟซนี้ใช้ร่วมกับ [`ITheme`](/slides/python-net/th/aspose.slides.theme/itheme) อินเทอร์เฟซเพื่อส่งคืนค่าการจัดรูปแบบที่มีผลโดยใช้การสืบทอด
 
-### ดูเพิ่มเติม
+### See Also
 * คลาส [`ITheme`](/slides/python-net/th/aspose.slides.theme/itheme)
 * โมดูล [`aspose.slides.theme`](/slides/python-net/th/aspose.slides.theme)
 * ไลบรารี [`Aspose.Slides`](/slides/python-net)

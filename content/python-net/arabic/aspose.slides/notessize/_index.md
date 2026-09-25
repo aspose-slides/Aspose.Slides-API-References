@@ -1,29 +1,28 @@
 ---
 title: NotesSize class
-second_title: مرجع API لـ Aspose.Slides للبايثون عبر .NET
+second_title: Aspose.Slides لـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/notessize/
 ---
 ## NotesSize فئة
 
-يمثل حجم شريحة الملاحظات.
+يمثّل حجم شريحة الملاحظات.
 
-يعرض نوع NotesSize الأعضاء التالية:
+يعرض نوع NotesSize الأعضاء التاليين:
 
-## المنشآت
+## الإنشاءات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | :- | :- |
 | [`__init__(self)`](/slides/python-net/ar/aspose.slides/notessize/__init__/#) |  |
 
 ## الخصائص
 
-| خاصية | الوصف |
+| الخاصية | الوصف |
 | :- | :- |
-| [`size`](/slides/python-net/ar/aspose.slides/notessize/size/) | إرجاع أو تعيين الحجم بالنقاط.<br/>            قراءة/كتابة **aspose.slides.SizeF**. |
-
+| [`size`](/slides/python-net/ar/aspose.slides/notessize/size/) | إرجاع أو تعيين الحجم بالنقاط.<br/>            قراءة/كتابة [`SizeF`](/slides/python-net/ar/aspose.slides/sizef). |
 
 ### انظر أيضًا
-* وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
-* مكتبة [`Aspose.Slides`](/slides/python-net)
+* الوحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
+* المكتبة [`Aspose.Slides`](/slides/python-net)

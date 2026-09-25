@@ -8,7 +8,7 @@ weight: 60
 ---
 ## solid_fill_color egenskap
 Returnerar färgen på en solid fyllning.
-Skrivskyddad **aspose.slides.Color**.
+            Skrivskyddad [`Color`](/slides/python-net/sv/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def solid_fill_color(self):
 
 ### Se även
 * klass [`ILineFillFormatEffectiveData`](/slides/python-net/sv/aspose.slides/ilinefillformateffectivedata)
+* klass [`Color`](/slides/python-net/sv/aspose.slides/color)
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

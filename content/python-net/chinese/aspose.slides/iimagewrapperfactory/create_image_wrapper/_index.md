@@ -17,10 +17,9 @@ def create_image_wrapper(self, image):
     ...
 ```
 
-| 参数 | 类型 | 描述 |
+| 参数 | 类型 | 说明 |
 | :- | :- | :- |
-| image | [`IImage`](/slides/python-net/zh/aspose.slides/iimage) | 现有图像 **aspose.slides.Image** |
-
+| image | [`IImage`](/slides/python-net/zh/aspose.slides/iimage) | 现有图像 **aspose.slides.IImage** |
 
 ## create_image_wrapper(self, stream) {#iorawiobase}
 从指定的数据流初始化 ImageWrapper 类的新实例。
@@ -33,10 +32,9 @@ def create_image_wrapper(self, stream):
     ...
 ```
 
-| 参数 | 类型 | 描述 |
+| 参数 | 类型 | 说明 |
 | :- | :- | :- |
 | stream | **io.RawIOBase** | 数据流 **io.RawIOBase** |
-
 
 ## create_image_wrapper(self, file_name) {#str}
 从指定的文件初始化 ImageWrapper 类的新实例。
@@ -49,12 +47,11 @@ def create_image_wrapper(self, file_name):
     ...
 ```
 
-| 参数 | 类型 | 描述 |
+| 参数 | 类型 | 说明 |
 | :- | :- | :- |
 | file_name | **str** | 文件名 **str** |
 
-
-### 参见
+### 另见
 * 类 [`IImage`](/slides/python-net/zh/aspose.slides/iimage)
 * 类 [`IImageWrapper`](/slides/python-net/zh/aspose.slides/iimagewrapper)
 * 类 [`IImageWrapperFactory`](/slides/python-net/zh/aspose.slides/iimagewrapperfactory)

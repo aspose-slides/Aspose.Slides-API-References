@@ -1,14 +1,14 @@
 ---
 title: color property
-second_title: Справочник API Aspose.Slides для Python через .NET
+second_title: Aspose.Slides для Python через .NET справочник API
 description: 
 type: docs
 url: /ru/aspose.slides/igradientstopeffectivedata/color/
 weight: 10
 ---
-## color свойство
-Возвращает цвет градиентной остановки.
-            Только для чтения **aspose.slides.Color**.
+## свойство color
+Возвращает color градиентной остановки.
+            Только для чтения [`Color`](/slides/python-net/ru/aspose.slides/color).
 
 ### Определение:
 ```python
@@ -20,5 +20,6 @@ def color(self):
 
 ### См. также
 * класс [`IGradientStopEffectiveData`](/slides/python-net/ru/aspose.slides/igradientstopeffectivedata)
+* класс [`Color`](/slides/python-net/ru/aspose.slides/color)
 * модуль [`aspose.slides`](/slides/python-net/ru/aspose.slides)
 * библиотека [`Aspose.Slides`](/slides/python-net)

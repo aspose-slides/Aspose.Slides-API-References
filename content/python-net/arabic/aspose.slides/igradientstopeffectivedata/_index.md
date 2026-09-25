@@ -1,22 +1,22 @@
 ---
 title: IGradientStopEffectiveData class
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: مرجع API لـ Aspose.Slides للبايثون عبر .NET
 description: 
 type: docs
 url: /ar/aspose.slides/igradientstopeffectivedata/
 ---
 ## IGradientStopEffectiveData فئة
 
-كائن غير قابل للتغيير يمثل توقف تدرج.
+كائن غير قابل للتغيير يمثل توقف التدرج.
 
-نوع IGradientStopEffectiveData يعرض الأعضاء التالية:
+يعرض نوع IGradientStopEffectiveData الأعضاء التالية:
 
 ## الخصائص
 
 | الخاصية | الوصف |
 | :- | :- |
-| [`position`](/slides/python-net/ar/aspose.slides/igradientstopeffectivedata/position/) | إرجاع الموضع (0..1) لتوقف تدرج.<br/>            قراءة فقط **float**. |
-| [`color`](/slides/python-net/ar/aspose.slides/igradientstopeffectivedata/color/) | إرجاع لون توقف تدرج.<br/>            قراءة فقط **aspose.slides.Color**. |
+| [`position`](/slides/python-net/ar/aspose.slides/igradientstopeffectivedata/position/) | يعيد موضع (0..1) لتوقف التدرج.<br/>            للقراءة فقط **float**. |
+| [`color`](/slides/python-net/ar/aspose.slides/igradientstopeffectivedata/color/) | يعيد لون توقف التدرج.<br/>            للقراءة فقط [`Color`](/slides/python-net/ar/aspose.slides/color). |
 
 
 ### انظر أيضًا

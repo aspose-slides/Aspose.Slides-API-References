@@ -1,13 +1,13 @@
 ---
 title: get_line_styles method
-second_title: Referensi API Aspose.Slides untuk Python melalui .NET
+second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides.theme/iformatschemeeffectivedata/get_line_styles/
 weight: 40
 ---
-## get_line_styles(self, style_color) {#asposepydrawingcolor}
-Mengembalikan koleksi gaya garis yang ditetapkan tema.
+## get_line_styles(self, style_color) {#asposeslidescolor}
+Mengembalikan koleksi gaya garis yang didefinisikan oleh tema.
 
 ### Mengembalikan
 
@@ -20,10 +20,11 @@ def get_line_styles(self, style_color):
 
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | Warna **aspose.slides.Color** |
+| style_color | [`Color`](/slides/python-net/id/aspose.slides/color) | Warna [`Color`](/slides/python-net/id/aspose.slides/color) |
 
 ### Lihat Juga
 * kelas [`IFormatSchemeEffectiveData`](/slides/python-net/id/aspose.slides.theme/iformatschemeeffectivedata)
 * kelas [`ILineFormatCollectionEffectiveData`](/slides/python-net/id/aspose.slides.theme/ilineformatcollectioneffectivedata)
+* kelas [`Color`](/slides/python-net/id/aspose.slides/color)
 * modul [`aspose.slides.theme`](/slides/python-net/id/aspose.slides.theme)
-* library [`Aspose.Slides`](/slides/python-net)
+* perpustakaan [`Aspose.Slides`](/slides/python-net)

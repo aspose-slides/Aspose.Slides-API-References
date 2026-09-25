@@ -1,6 +1,6 @@
 ---
 title: NotesSize class
-second_title: Aspose.Slides для Python через .NET справочник API
+second_title: Aspose.Slides для Python через .NET справка API
 description: 
 type: docs
 url: /ru/aspose.slides/notessize/
@@ -21,7 +21,7 @@ url: /ru/aspose.slides/notessize/
 
 | Свойство | Описание |
 | :- | :- |
-| [`size`](/slides/python-net/ru/aspose.slides/notessize/size/) | Возвращает или задает размер в пунктах.<br/>            Чтение/запись **aspose.slides.SizeF**. |
+| [`size`](/slides/python-net/ru/aspose.slides/notessize/size/) | Возвращает или задает размер в пунктах.<br/>            Чтение/запись [`SizeF`](/slides/python-net/ru/aspose.slides/sizef). |
 
 
 ### См. также

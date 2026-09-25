@@ -1,6 +1,6 @@
 ---
 title: PresentationEnumerableFramesGenerator constructor
-second_title: Aspose.Slides برای Python از طریق .NET مرجع API
+second_title: Aspose.Slides برای Python از طریق .NET API مرجع
 description: 
 type: docs
 url: /fa/aspose.slides.export/presentationenumerableframesgenerator/__init__/
@@ -14,12 +14,12 @@ def __init__(self, presentation, fps):
     ...
 ```
 
-| Parameter | Type | Description |
+| پارامتر | نوع | توضیحات |
 | :- | :- | :- |
 | presentation | [`Presentation`](/slides/python-net/fa/aspose.slides/presentation) | ارائه |
 | fps | **float** | فریم بر ثانیه (FPS) |
 
-## __init__(self, frame_size, fps) {#asposepydrawingsize-float}
+## __init__(self, frame_size, fps) {#asposeslidessize-float}
 یک نمونه جدید از [`PresentationPlayer`](/slides/python-net/fa/aspose.slides.export/presentationplayer) ایجاد می‌کند.
 
 ```python
@@ -27,14 +27,15 @@ def __init__(self, frame_size, fps):
     ...
 ```
 
-| Parameter | Type | Description |
+| پارامتر | نوع | توضیحات |
 | :- | :- | :- |
-| frame_size | **aspose.slides.Size** | اندازه فریم |
+| frame_size | [`Size`](/slides/python-net/fa/aspose.slides/size) | اندازه قاب |
 | fps | **float** | فریم بر ثانیه (FPS) |
 
 ### موارد مرتبط
 * کلاس [`Presentation`](/slides/python-net/fa/aspose.slides/presentation)
 * کلاس [`PresentationEnumerableFramesGenerator`](/slides/python-net/fa/aspose.slides.export/presentationenumerableframesgenerator)
 * کلاس [`PresentationPlayer`](/slides/python-net/fa/aspose.slides.export/presentationplayer)
+* کلاس [`Size`](/slides/python-net/fa/aspose.slides/size)
 * ماژول [`aspose.slides.export`](/slides/python-net/fa/aspose.slides.export)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

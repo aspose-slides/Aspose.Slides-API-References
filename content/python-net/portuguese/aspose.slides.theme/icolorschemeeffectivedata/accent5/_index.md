@@ -8,7 +8,7 @@ weight: 50
 ---
 ## accent5 propriedade
 Quinta cor de destaque no esquema.
-            Somente leitura **aspose.slides.Color**.
+            Somente leitura [`Color`](/slides/python-net/pt/aspose.slides/color).
 
 ### Definição:
 ```python
@@ -18,7 +18,8 @@ def accent5(self):
 ```
 
 
-### Veja Também
+### Ver também
 * classe [`IColorSchemeEffectiveData`](/slides/python-net/pt/aspose.slides.theme/icolorschemeeffectivedata)
+* classe [`Color`](/slides/python-net/pt/aspose.slides/color)
 * módulo [`aspose.slides.theme`](/slides/python-net/pt/aspose.slides.theme)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

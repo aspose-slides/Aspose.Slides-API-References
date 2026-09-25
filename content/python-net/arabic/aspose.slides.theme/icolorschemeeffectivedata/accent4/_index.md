@@ -1,14 +1,14 @@
 ---
 title: accent4 property
-second_title: Aspose.Slides للبايثون عبر .NET مرجع API
+second_title: مرجع Aspose.Slides للبايثون عبر .NET API
 description: 
 type: docs
 url: /ar/aspose.slides.theme/icolorschemeeffectivedata/accent4/
 weight: 40
 ---
-## accent4 خاصية
-اللون الرابع للتمييز في المخطط.
-            للقراءة فقط **aspose.slides.Color**.
+## خاصية accent4
+اللون الرابع للتأكيد في المخطط.
+            للقراءة فقط [`Color`](/slides/python-net/ar/aspose.slides/color).
 
 ### التعريف:
 ```python
@@ -19,6 +19,7 @@ def accent4(self):
 
 
 ### انظر أيضًا
-* فئة [`IColorSchemeEffectiveData`](/slides/python-net/ar/aspose.slides.theme/icolorschemeeffectivedata)
-* وحدة [`aspose.slides.theme`](/slides/python-net/ar/aspose.slides.theme)
-* مكتبة [`Aspose.Slides`](/slides/python-net)
+* الفئة [`IColorSchemeEffectiveData`](/slides/python-net/ar/aspose.slides.theme/icolorschemeeffectivedata)
+* الفئة [`Color`](/slides/python-net/ar/aspose.slides/color)
+* الوحدة [`aspose.slides.theme`](/slides/python-net/ar/aspose.slides.theme)
+* المكتبة [`Aspose.Slides`](/slides/python-net)

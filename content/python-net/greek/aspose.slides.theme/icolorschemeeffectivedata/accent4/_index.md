@@ -8,7 +8,7 @@ weight: 40
 ---
 ## accent4 ιδιότητα
 Τέταρτο χρώμα έμφασης στο σχήμα.
-            Μόνο για ανάγνωση **aspose.slides.Color**.
+            Μόνο για ανάγνωση [`Color`](/slides/python-net/el/aspose.slides/color).
 
 ### Ορισμός:
 ```python
@@ -20,5 +20,6 @@ def accent4(self):
 
 ### Δείτε επίσης
 * κλάση [`IColorSchemeEffectiveData`](/slides/python-net/el/aspose.slides.theme/icolorschemeeffectivedata)
+* κλάση [`Color`](/slides/python-net/el/aspose.slides/color)
 * μονάδα [`aspose.slides.theme`](/slides/python-net/el/aspose.slides.theme)
 * βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

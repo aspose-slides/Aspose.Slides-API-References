@@ -7,11 +7,11 @@ url: /sv/aspose.slides/presentation/get_images/
 weight: 20
 ---
 ## get_images(self, options) {#asposeslidesexportirenderingoptions}
-Returnerar Image objects för alla bilder i en presentation.
+Returnerar Image-objekt för alla bildspel i en presentation.
 
 ### Returnerar
 
-Image objects.
+Image-objekt.
 
 
 
@@ -27,11 +27,11 @@ def get_images(self, options):
 
 
 ## get_images(self, options, slides) {#asposeslidesexportirenderingoptions-listint}
-Returnerar Thumbnail Image objects för angivna bilder i en presentation.
+Returnerar Thumbnail Image-objekt för angivna bildspel i en presentation.
 
 ### Returnerar
 
-Image objects.
+Image-objekt.
 
 
 
@@ -44,15 +44,15 @@ def get_images(self, options, slides):
 | Parameter | Typ | Beskrivning |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/sv/aspose.slides.export/irenderingoptions) | Tiff-alternativ. |
-| slides | **List[int]** | Array med bildpositioner, med start från 1. |
+| slides | **List[int]** | Array med bildpositioner, med början från 1. |
 
 
-## get_images(self, options, image_size) {#asposeslidesexportirenderingoptions-asposepydrawingsize}
-Returnerar Thumbnail Image objects för alla bilder i en presentation med angiven storlek.
+## get_images(self, options, image_size) {#asposeslidesexportirenderingoptions-asposeslidessize}
+Returnerar Thumbnail Image-objekt för alla bildspel i en presentation med angiven storlek.
 
 ### Returnerar
 
-Image objects.
+Image-objekt.
 
 
 
@@ -65,15 +65,15 @@ def get_images(self, options, image_size):
 | Parameter | Typ | Beskrivning |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/sv/aspose.slides.export/irenderingoptions) | Tiff-alternativ. |
-| image_size | **aspose.slides.Size** | Storlek på bilden som ska skapas. |
+| image_size | [`Size`](/slides/python-net/sv/aspose.slides/size) | Storlek på bilden som ska skapas. |
 
 
 ## get_images(self, options, scale_x, scale_y) {#asposeslidesexportirenderingoptions-float-float}
-Returnerar Thumbnail Image objects för alla bilder i en presentation med anpassad skalning.
+Returnerar Thumbnail Image-objekt för alla bildspel i en presentation med anpassad skalning.
 
 ### Returnerar
 
-Image objects.
+Image-objekt.
 
 
 
@@ -86,16 +86,16 @@ def get_images(self, options, scale_x, scale_y):
 | Parameter | Typ | Beskrivning |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/sv/aspose.slides.export/irenderingoptions) | Tiff-alternativ. |
-| scale_x | **float** | Värdet som används för att skala denna Thumbnail i x-axelns riktning. |
-| scale_y | **float** | Värdet som används för att skala denna Thumbnail i y-axelns riktning. |
+| scale_x | **float** | Värdet med vilket denna miniatyr ska skalas i x-axelns riktning. |
+| scale_y | **float** | Värdet med vilket denna miniatyr ska skalas i y-axelns riktning. |
 
 
-## get_images(self, options, slides, image_size) {#asposeslidesexportirenderingoptions-listint-asposepydrawingsize}
-Returnerar Thumbnail Image objects för angivna bilder i en presentation med angiven storlek.
+## get_images(self, options, slides, image_size) {#asposeslidesexportirenderingoptions-listint-asposeslidessize}
+Returnerar Thumbnail Image-objekt för angivna bildspel i en presentation med angiven storlek.
 
 ### Returnerar
 
-Image objects.
+Image-objekt.
 
 
 
@@ -108,16 +108,16 @@ def get_images(self, options, slides, image_size):
 | Parameter | Typ | Beskrivning |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/sv/aspose.slides.export/irenderingoptions) | Tiff-alternativ. |
-| slides | **List[int]** | Array med bildpositioner, med start från 1. |
-| image_size | **aspose.slides.Size** | Storlek på bilden som ska skapas. |
+| slides | **List[int]** | Array med bildpositioner, med början från 1. |
+| image_size | [`Size`](/slides/python-net/sv/aspose.slides/size) | Storlek på bilden som ska skapas. |
 
 
 ## get_images(self, options, slides, scale_x, scale_y) {#asposeslidesexportirenderingoptions-listint-float-float}
-Returnerar Thumbnail Image objects för angivna bilder i en presentation med anpassad skalning.
+Returnerar Thumbnail Image-objekt för angivna bildspel i en presentation med anpassad skalning.
 
 ### Returnerar
 
-Image objects.
+Image-objekt.
 
 
 
@@ -130,14 +130,15 @@ def get_images(self, options, slides, scale_x, scale_y):
 | Parameter | Typ | Beskrivning |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/sv/aspose.slides.export/irenderingoptions) | Tiff-alternativ. |
-| slides | **List[int]** | Array med bildpositioner, med start från 1. |
-| scale_x | **float** | Värdet som används för att skala denna Thumbnail i x-axelns riktning. |
-| scale_y | **float** | Värdet som används för att skala denna Thumbnail i y-axelns riktning. |
+| slides | **List[int]** | Array med bildpositioner, med början från 1. |
+| scale_x | **float** | Värdet med vilket denna miniatyr ska skalas i x-axelns riktning. |
+| scale_y | **float** | Värdet med vilket denna miniatyr ska skalas i y-axelns riktning. |
 
 
 
 ### Se även
 * klass [`IRenderingOptions`](/slides/python-net/sv/aspose.slides.export/irenderingoptions)
 * klass [`Presentation`](/slides/python-net/sv/aspose.slides/presentation)
+* klass [`Size`](/slides/python-net/sv/aspose.slides/size)
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

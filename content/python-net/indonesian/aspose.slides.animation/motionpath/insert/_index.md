@@ -6,8 +6,8 @@ type: docs
 url: /id/aspose.slides.animation/motionpath/insert/
 weight: 40
 ---
-## insert(self, index, type, pts, pts_type, b_relative_coord) {#int-motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool}
-Menyisipkan perintah baru ke jalur
+## insert(self, index, type, pts, pts_type, b_relative_coord) {#int-motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool}
+Masukkan perintah baru ke jalur
 
 
 ```python
@@ -31,4 +31,4 @@ def insert(self, index, type, pts, pts_type, b_relative_coord):
 * kelas [`MotionPath`](/slides/python-net/id/aspose.slides.animation/motionpath)
 * enumerasi [`MotionPathPointsType`](/slides/python-net/id/aspose.slides.animation/motionpathpointstype)
 * modul [`aspose.slides.animation`](/slides/python-net/id/aspose.slides.animation)
-* perpustakaan [`Aspose.Slides`](/slides/python-net)
+* pustaka [`Aspose.Slides`](/slides/python-net)

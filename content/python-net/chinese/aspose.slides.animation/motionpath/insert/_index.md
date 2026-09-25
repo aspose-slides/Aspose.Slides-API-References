@@ -6,7 +6,7 @@ type: docs
 url: /zh/aspose.slides.animation/motionpath/insert/
 weight: 40
 ---
-## insert(self, index, type, pts, pts_type, b_relative_coord) {#int-motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool}
+## insert(self, index, type, pts, pts_type, b_relative_coord) {#int-motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool}
 向路径插入新命令
 
 
@@ -26,7 +26,7 @@ def insert(self, index, type, pts, pts_type, b_relative_coord):
 
 
 
-### 参见
+### 另请参见
 * 枚举 [`MotionCommandPathType`](/slides/python-net/zh/aspose.slides.animation/motioncommandpathtype)
 * 类 [`MotionPath`](/slides/python-net/zh/aspose.slides.animation/motionpath)
 * 枚举 [`MotionPathPointsType`](/slides/python-net/zh/aspose.slides.animation/motionpathpointstype)

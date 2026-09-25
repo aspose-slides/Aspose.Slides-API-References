@@ -6,24 +6,21 @@ type: docs
 url: /ar/aspose.slides/presentation/highlight_regex/
 weight: 40
 ---
-## highlight_regex(self, regex, highlight_color) {#str-asposepydrawingcolor}
-يُبرز جميع التطابقات للتعبير النمطي باللون المحدد.
-
+## highlight_regex(self, regex, highlight_color) {#str-asposeslidescolor}
+يبرز جميع التطابقات للتعبير النمطي باستخدام اللون المحدد.
 
 ```python
 def highlight_regex(self, regex, highlight_color):
     ...
 ```
 
-
-| المعامل | النوع | الوصف |
+| المعلمة | النوع | الوصف |
 | :- | :- | :- |
-| regex | **str** | السلسلة التي تحتوي على التعبير النمطي للحصول على السلاسل التي سيتم تمييزها. |
-| highlight_color | **aspose.slides.Color** | اللون لتحديد النص. |
+| regex | **str** | السلسلة تحتوي على تعبير نمطي للحصول على السلاسل التي سيتم تمييزها. |
+| highlight_color | [`Color`](/slides/python-net/ar/aspose.slides/color) | اللون المستخدم لتمييز النص. |
 
-
-
-### انظر أيضاً
+### انظر أيضًا
 * الفئة [`Presentation`](/slides/python-net/ar/aspose.slides/presentation)
+* الفئة [`Color`](/slides/python-net/ar/aspose.slides/color)
 * الوحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
 * المكتبة [`Aspose.Slides`](/slides/python-net)

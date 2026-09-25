@@ -6,9 +6,9 @@ type: docs
 url: /fa/aspose.slides/inotessize/size/
 weight: 10
 ---
-## size ویژگی
-اندازه size را برحسب نقطه‌ها برمی‌گرداند یا تنظیم می‌کند.
-            خواندنی/نوشتنی **aspose.slides.SizeF**.
+## size خاصیت
+Returns or sets the size in points.
+            خواندنی/نوشتنی [`SizeF`](/slides/python-net/fa/aspose.slides/sizef).
 
 ### تعریف:
 ```python
@@ -21,7 +21,9 @@ def size(self, value):
     ...
 ```
 
+
 ### موارد مرتبط
 * کلاس [`INotesSize`](/slides/python-net/fa/aspose.slides/inotessize)
+* کلاس [`SizeF`](/slides/python-net/fa/aspose.slides/sizef)
 * ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

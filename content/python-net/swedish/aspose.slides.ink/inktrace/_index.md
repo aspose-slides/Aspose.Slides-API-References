@@ -7,9 +7,9 @@ url: /sv/aspose.slides.ink/inktrace/
 ---
 ## InkTrace klass
 
-Representerar ett Trace-objekt.
-            Ett Trace-element används för att spela in data som fångas av digitalisatorn. 
-            Den innehåller en sekvens av punkter kodade enligt specifikationen som ges av InkTraceFormat-objektet.
+Representerar ett Trace-objekt.  
+    Ett Trace-element används för att registrera data som fångas av digitalisatorn.  
+    Den innehåller en sekvens av punkter som kodas enligt specifikationen som ges av InkTraceFormat-objektet.
 
 InkTrace-typen exponerar följande medlemmar:
 
@@ -18,9 +18,9 @@ InkTrace-typen exponerar följande medlemmar:
 | Egenskap | Beskrivning |
 | :- | :- |
 | [`brush`](/slides/python-net/sv/aspose.slides.ink/inktrace/brush/) | Hämtar Brush för IInkLine [`IInkBrush`](/slides/python-net/sv/aspose.slides.ink/iinkbrush)<br/>            Skrivskyddad. |
-| [`points`](/slides/python-net/sv/aspose.slides.ink/inktrace/points/) | Hämtar punkter för IInkLine **aspose.slides.PointF**<br/>            Skrivskyddad. |
+| [`points`](/slides/python-net/sv/aspose.slides.ink/inktrace/points/) | Hämtar punkter för IInkLine [`PointF`](/slides/python-net/sv/aspose.slides/pointf)<br/>            Skrivskyddad. |
 
 
-### Se också
+### Se även
 * modul [`aspose.slides.ink`](/slides/python-net/sv/aspose.slides.ink)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

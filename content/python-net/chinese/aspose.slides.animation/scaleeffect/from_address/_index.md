@@ -7,10 +7,10 @@ url: /zh/aspose.slides.animation/scaleeffect/from_address/
 weight: 60
 ---
 ## from_address 属性
-指定动画开始的 x/y 坐标（以百分比计）。
-读/写 **aspose.slides.PointF**.
+指定动画开始的 x/y 坐标（单位为百分比）。
+            读/写 [`PointF`](/slides/python-net/zh/aspose.slides/pointf).
 
-### 定义:
+### 定义：
 ```python
 @property
 def from_address(self):
@@ -21,7 +21,9 @@ def from_address(self, value):
     ...
 ```
 
-### 另见
+
+### 另请参阅
 * 类 [`ScaleEffect`](/slides/python-net/zh/aspose.slides.animation/scaleeffect)
+* 类 [`PointF`](/slides/python-net/zh/aspose.slides/pointf)
 * 模块 [`aspose.slides.animation`](/slides/python-net/zh/aspose.slides.animation)
 * 库 [`Aspose.Slides`](/slides/python-net)

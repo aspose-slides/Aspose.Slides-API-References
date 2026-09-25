@@ -13,12 +13,12 @@ Il tipo ISlide espone i seguenti membri:
 
 ## Proprietà
 
-| Property | Description |
+| Property | Descrizione |
 | :- | :- |
-| [`header_footer_manager`](/slides/python-net/it/aspose.slides/islide/header_footer_manager/) | Returns HeaderFooter manager of the slide.<br/>            Solo lettura [`ISlideHeaderFooterManager`](/slides/python-net/it/aspose.slides/islideheaderfootermanager). |
-| [`slide_number`](/slides/python-net/it/aspose.slides/islide/slide_number/) | Restituisce il numero di diapositiva.<br/>            L'indice della diapositiva nella collezione [`IPresentation.slides`](/slides/python-net/it/aspose.slides/ipresentation/slides) è sempre uguale a SlideNumber - 1.<br/>            Lettura/scrittura **int**. |
+| [`header_footer_manager`](/slides/python-net/it/aspose.slides/islide/header_footer_manager/) | Restituisce il gestore HeaderFooter della diapositiva.<br/>            Solo lettura [`ISlideHeaderFooterManager`](/slides/python-net/it/aspose.slides/islideheaderfootermanager). |
+| [`slide_number`](/slides/python-net/it/aspose.slides/islide/slide_number/) | Restituisce un numero di diapositiva.<br/>            L'indice della diapositiva nella collezione [`IPresentation.slides`](/slides/python-net/it/aspose.slides/ipresentation/slides) è sempre uguale a SlideNumber - 1.<br/>            Lettura/scrittura **int**. |
 | [`hidden`](/slides/python-net/it/aspose.slides/islide/hidden/) | Determina se la diapositiva specificata è nascosta durante una presentazione.<br/>            Lettura/scrittura **bool**. |
-| [`layout_slide`](/slides/python-net/it/aspose.slides/islide/layout_slide/) | Restituisce o imposta la diapositiva layout per la diapositiva corrente.<br/>            Lettura/scrittura [`ILayoutSlide`](/slides/python-net/it/aspose.slides/ilayoutslide). |
+| [`layout_slide`](/slides/python-net/it/aspose.slides/islide/layout_slide/) | Restituisce o imposta la diapositiva di layout per la diapositiva corrente.<br/>            Lettura/scrittura [`ILayoutSlide`](/slides/python-net/it/aspose.slides/ilayoutslide). |
 | [`notes_slide_manager`](/slides/python-net/it/aspose.slides/islide/notes_slide_manager/) | Consente di accedere alla diapositiva delle note, aggiungerla e rimuoverla.<br/>            Solo lettura [`INotesSlideManager`](/slides/python-net/it/aspose.slides/inotesslidemanager). |
 | [`shapes`](/slides/python-net/it/aspose.slides/islide/shapes/) |  |
 | [`controls`](/slides/python-net/it/aspose.slides/islide/controls/) |  |
@@ -36,15 +36,15 @@ Il tipo ISlide espone i seguenti membri:
 
 ## Metodi
 
-| Method | Description |
+| Metodo | Descrizione |
 | :- | :- |
-| [`get_image(self, scale_x, scale_y)`](/slides/python-net/it/aspose.slides/islide/get_image/#float-float) | Restituisce un oggetto immagine con scala personalizzata. |
-| [`get_image(self)`](/slides/python-net/it/aspose.slides/islide/get_image/#) | Restituisce un oggetto Thumbnail Image (20% della dimensione reale). |
-| [`get_image(self, image_size)`](/slides/python-net/it/aspose.slides/islide/get_image/#asposepydrawingsize) | Restituisce un oggetto immagine con dimensione specificata. |
-| [`get_image(self, options)`](/slides/python-net/it/aspose.slides/islide/get_image/#asposeslidesexportitiffoptions) | Restituisce un oggetto Thumbnail tiff bitmap con parametri specificati. |
-| [`get_image(self, options)`](/slides/python-net/it/aspose.slides/islide/get_image/#asposeslidesexportirenderingoptions) | Restituisce un oggetto Thumbnail Bitmap. |
-| [`get_image(self, options, scale_x, scale_y)`](/slides/python-net/it/aspose.slides/islide/get_image/#asposeslidesexportirenderingoptions-float-float) | Restituisce un oggetto Thumbnail Bitmap con scala personalizzata. |
-| [`get_image(self, options, image_size)`](/slides/python-net/it/aspose.slides/islide/get_image/#asposeslidesexportirenderingoptions-asposepydrawingsize) | Restituisce un oggetto Thumbnail Bitmap con dimensione specificata. |
+| [`get_image(self, scale_x, scale_y)`](/slides/python-net/it/aspose.slides/islide/get_image/#float-float) | Restituisce un oggetto immagine con ridimensionamento personalizzato. |
+| [`get_image(self)`](/slides/python-net/it/aspose.slides/islide/get_image/#) | Restituisce un oggetto Immagine Thumbnail (20% delle dimensioni reali). |
+| [`get_image(self, image_size)`](/slides/python-net/it/aspose.slides/islide/get_image/#asposeslidessize) | Restituisce un oggetto immagine con dimensioni specificate. |
+| [`get_image(self, options)`](/slides/python-net/it/aspose.slides/islide/get_image/#asposeslidesexportitiffoptions) | Restituisce un oggetto bitmap tiff Thumbnail con parametri specificati. |
+| [`get_image(self, options)`](/slides/python-net/it/aspose.slides/islide/get_image/#asposeslidesexportirenderingoptions) | Restituisce un oggetto Bitmap Thumbnail. |
+| [`get_image(self, options, scale_x, scale_y)`](/slides/python-net/it/aspose.slides/islide/get_image/#asposeslidesexportirenderingoptions-float-float) | Restituisce un oggetto Bitmap Thumbnail con ridimensionamento personalizzato. |
+| [`get_image(self, options, image_size)`](/slides/python-net/it/aspose.slides/islide/get_image/#asposeslidesexportirenderingoptions-asposeslidessize) | Restituisce un oggetto Bitmap Thumbnail con dimensioni specificate. |
 | [`write_as_svg(self, stream)`](/slides/python-net/it/aspose.slides/islide/write_as_svg/#iorawiobase) | Salva il contenuto della diapositiva come file SVG. |
 | [`write_as_svg(self, stream, svg_options)`](/slides/python-net/it/aspose.slides/islide/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) | Salva il contenuto della diapositiva come file SVG. |
 | [`get_slide_comments(self, author)`](/slides/python-net/it/aspose.slides/islide/get_slide_comments/#icommentauthor) | Restituisce tutti i commenti della diapositiva aggiunti da uno specifico autore. |
@@ -55,6 +55,7 @@ Il tipo ISlide espone i seguenti membri:
 | [`join_portions_with_same_formatting(self)`](/slides/python-net/it/aspose.slides/islide/join_portions_with_same_formatting/#) |  |
 | [`equals(self, slide)`](/slides/python-net/it/aspose.slides/islide/equals/#ibaseslide) |  |
 | [`create_theme_effective(self)`](/slides/python-net/it/aspose.slides/islide/create_theme_effective/#) |  |
+
 
 ### Vedi anche
 * modulo [`aspose.slides`](/slides/python-net/it/aspose.slides)

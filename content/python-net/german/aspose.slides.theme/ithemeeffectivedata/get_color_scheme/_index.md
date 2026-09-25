@@ -1,15 +1,15 @@
 ---
 title: get_color_scheme method
-second_title: Aspose.Slides für Python über .NET API-Referenz
+second_title: Aspose.Slides für Python via .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides.theme/ithemeeffectivedata/get_color_scheme/
 weight: 10
 ---
-## get_color_scheme(self, style_color) {#asposepydrawingcolor}
+## get_color_scheme(self, style_color) {#asposeslidescolor}
 Gibt das Farbschema zurück.
 
-### Rückgabewert
+### Rückgabe
 
 Farbschema [`IColorSchemeEffectiveData`](/slides/python-net/de/aspose.slides.theme/icolorschemeeffectivedata)
 
@@ -23,12 +23,13 @@ def get_color_scheme(self, style_color):
 
 | Parameter | Typ | Beschreibung |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | Farbe **aspose.slides.Color** |
+| style_color | [`Color`](/slides/python-net/de/aspose.slides/color) | Farbe [`Color`](/slides/python-net/de/aspose.slides/color) |
 
 
 
 ### Siehe auch
 * Klasse [`IColorSchemeEffectiveData`](/slides/python-net/de/aspose.slides.theme/icolorschemeeffectivedata)
 * Klasse [`IThemeEffectiveData`](/slides/python-net/de/aspose.slides.theme/ithemeeffectivedata)
+* Klasse [`Color`](/slides/python-net/de/aspose.slides/color)
 * Modul [`aspose.slides.theme`](/slides/python-net/de/aspose.slides.theme)
-* Bibliothek [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

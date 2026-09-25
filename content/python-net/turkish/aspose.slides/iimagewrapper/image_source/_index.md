@@ -8,7 +8,7 @@ weight: 30
 ---
 ## image_source özelliği
 Görüntüyü alır
-            Yalnızca okunabilir **aspose.slides.Image**.
+            Sadece okuma **aspose.slides.IImage**.
 
 ### Tanım:
 ```python
@@ -18,7 +18,7 @@ def image_source(self):
 ```
 
 
-### İlgili
+### Ayrıca Bakınız
 * sınıf [`IImageWrapper`](/slides/python-net/tr/aspose.slides/iimagewrapper)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

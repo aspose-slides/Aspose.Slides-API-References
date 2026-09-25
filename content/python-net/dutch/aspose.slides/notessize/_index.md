@@ -7,11 +7,11 @@ url: /nl/aspose.slides/notessize/
 ---
 ## NotesSize klasse
 
-Stelt een grootte van een notitieslide voor.
+Stelt een grootte van notitieslide voor.
 
-Het NotesSize type bevat de volgende leden:
+Het type NotesSize biedt de volgende leden:
 
-## Constructors
+## Constructoren
 
 | Constructor | Beschrijving |
 | :- | :- |
@@ -21,7 +21,7 @@ Het NotesSize type bevat de volgende leden:
 
 | Eigenschap | Beschrijving |
 | :- | :- |
-| [`size`](/slides/python-net/nl/aspose.slides/notessize/size/) | Geeft de grootte in punten terug of stelt deze in.<br/>            Lezen/schrijven **aspose.slides.SizeF**. |
+| [`size`](/slides/python-net/nl/aspose.slides/notessize/size/) | Geeft de grootte in punten terug of stelt deze in.<br/>Lezen/schrijven [`SizeF`](/slides/python-net/nl/aspose.slides/sizef). |
 
 
 ### Zie ook

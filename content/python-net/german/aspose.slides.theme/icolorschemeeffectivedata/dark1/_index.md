@@ -8,7 +8,7 @@ weight: 70
 ---
 ## dark1 Eigenschaft
 Erste dunkle Farbe im Schema.
-            Nur lesbar **aspose.slides.Color**.
+            Nur-Lesen [`Color`](/slides/python-net/de/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def dark1(self):
 
 ### Siehe auch
 * Klasse [`IColorSchemeEffectiveData`](/slides/python-net/de/aspose.slides.theme/icolorschemeeffectivedata)
+* Klasse [`Color`](/slides/python-net/de/aspose.slides/color)
 * Modul [`aspose.slides.theme`](/slides/python-net/de/aspose.slides.theme)
 * Bibliothek [`Aspose.Slides`](/slides/python-net)

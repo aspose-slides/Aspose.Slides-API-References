@@ -7,8 +7,8 @@ url: /de/aspose.slides.animation/scaleeffect/from_address/
 weight: 60
 ---
 ## from_address Eigenschaft
-Gibt einen x/y-Koordinatenwert an, von dem die Animation gestartet wird (in Prozent).
-            Lesen/Schreiben **aspose.slides.PointF**.
+Gibt eine x/y-Koordinate an, von der die Animation gestartet wird (in Prozent).
+            Lesen/Schreiben [`PointF`](/slides/python-net/de/aspose.slides/pointf).
 
 ### Definition:
 ```python
@@ -24,5 +24,6 @@ def from_address(self, value):
 
 ### Siehe auch
 * Klasse [`ScaleEffect`](/slides/python-net/de/aspose.slides.animation/scaleeffect)
+* Klasse [`PointF`](/slides/python-net/de/aspose.slides/pointf)
 * Modul [`aspose.slides.animation`](/slides/python-net/de/aspose.slides.animation)
 * Bibliothek [`Aspose.Slides`](/slides/python-net)

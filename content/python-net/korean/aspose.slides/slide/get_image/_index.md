@@ -7,141 +7,170 @@ url: /ko/aspose.slides/slide/get_image/
 weight: 40
 ---
 ## get_image(self) {#}
-Thumbnail Image 객체를 반환합니다 (실제 크기의 20%).
+실제 크기의 20%인 섬네일 이미지 객체를 반환합니다.
+
 
 ```python
 def get_image(self):
     ...
 ```
 
-## get_image(self, image_size) {#asposepydrawingsize}
-지정된 크기의 Thumbnail Image 객체를 반환합니다.
 
-### 반환값
 
-Image 객체.
+## get_image(self, image_size) {#asposeslidessize}
+지정된 크기의 섬네일 이미지 객체를 반환합니다.
+
+### 반환
+
+이미지 객체.
+
+
 
 ```python
 def get_image(self, image_size):
     ...
 ```
 
-| Parameter | Type | Description |
+
+| 매개변수 | 유형 | 설명 |
 | :- | :- | :- |
-| image_size | **aspose.slides.Size** | 생성할 이미지의 크기. |
+| image_size | [`Size`](/slides/python-net/ko/aspose.slides/size) | 생성할 이미지의 크기. |
+
 
 ## get_image(self, options) {#asposeslidesexportitiffoptions}
-지정된 매개변수로 Thumbnail tiff 이미지 객체를 반환합니다.
+지정된 매개변수로 섬네일 TIFF 이미지 객체를 반환합니다.
 
-### 반환값
+### 반환
 
-Image 객체.
+이미지 객체.
+
+
 
 ```python
 def get_image(self, options):
     ...
 ```
 
-| Parameter | Type | Description |
+
+| 매개변수 | 유형 | 설명 |
 | :- | :- | :- |
-| options | [`ITiffOptions`](/slides/python-net/ko/aspose.slides.export/itiffoptions) | Tiff 옵션. |
+| options | [`ITiffOptions`](/slides/python-net/ko/aspose.slides.export/itiffoptions) | TIFF 옵션. |
 
 ### 예외
 
-| Exception | Description |
+| 예외 | 설명 |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | options.SlideLayoutOption이 NotesCommentsLayoutingOptions이고 해당 속성 NotesPosition이 NotesPositions.BottomFull 값을 가질 때 발생합니다. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | options.SlideLayoutOption이 NotesCommentsLayoutingOptions이고 그 속성 NotesPosition이 NotesPositions.BottomFull 값을 가질 때 발생합니다. |
+
 
 ## get_image(self, options) {#asposeslidesexportirenderingoptions}
-Thumbnail Image 객체를 반환합니다.
+섬네일 이미지 객체를 반환합니다.
 
-### 반환값
+### 반환
 
-Image 객체.
+이미지 객체.
+
+
 
 ```python
 def get_image(self, options):
     ...
 ```
 
-| Parameter | Type | Description |
+
+| 매개변수 | 유형 | 설명 |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/ko/aspose.slides.export/irenderingoptions) | 렌더링 옵션. |
 
 ### 예외
 
-| Exception | Description |
+| 예외 | 설명 |
 | :- | :- |
 | **RuntimeError(Proxy error(InvalidOperationException))** | notesCommentsLayouting.NotesPosition이 NotesPositions.BottomFull 값을 가질 때 발생합니다. |
 
-## get_image(self, scale_x, scale_y) {#float-float}
-사용자 정의 스케일링으로 Thumbnail Image 객체를 반환합니다.
 
-### 반환값
+## get_image(self, scale_x, scale_y) {#float-float}
+맞춤 스케일링으로 섬네일 이미지 객체를 반환합니다.
+
+### 반환
 
 IImage 객체.
+
+
 
 ```python
 def get_image(self, scale_x, scale_y):
     ...
 ```
 
-| Parameter | Type | Description |
+
+| 매개변수 | 유형 | 설명 |
 | :- | :- | :- |
-| scale_x | **float** | x축 방향으로 이 Thumbnail을 스케일링할 값. |
-| scale_y | **float** | y축 방향으로 이 Thumbnail을 스케일링할 값. |
+| scale_x | **float** | x축 방향으로 이 섬네일을 스케일링하는 값. |
+| scale_y | **float** | y축 방향으로 이 섬네일을 스케일링하는 값. |
 
-## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposepydrawingsize}
-지정된 크기의 Thumbnail Image 객체를 반환합니다.
 
-### 반환값
+## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposeslidessize}
+지정된 크기의 섬네일 이미지 객체를 반환합니다.
 
-Image 객체.
+### 반환
+
+이미지 객체.
+
+
 
 ```python
 def get_image(self, options, image_size):
     ...
 ```
 
-| Parameter | Type | Description |
+
+| 매개변수 | 유형 | 설명 |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/ko/aspose.slides.export/irenderingoptions) | 렌더링 옵션. |
-| image_size | **aspose.slides.Size** | 생성할 이미지의 크기. |
+| image_size | [`Size`](/slides/python-net/ko/aspose.slides/size) | 생성할 이미지의 크기. |
 
 ### 예외
 
-| Exception | Description |
+| 예외 | 설명 |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | options.SlideLayoutOption이 NotesCommentsLayoutingOptions이고 해당 속성 NotesPosition이 NotesPositions.BottomFull 값을 가질 때 발생합니다. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | options.SlideLayoutOption이 NotesCommentsLayoutingOptions이고 그 속성 NotesPosition이 NotesPositions.BottomFull 값을 가질 때 발생합니다. |
+
 
 ## get_image(self, options, scale_x, scale_y) {#asposeslidesexportirenderingoptions-float-float}
-사용자 정의 스케일링으로 Thumbnail Image 객체를 반환합니다.
+맞춤 스케일링으로 섬네일 이미지 객체를 반환합니다.
 
-### 반환값
+### 반환
 
-Bitmap 객체들.
+비트맵 객체.
+
+
 
 ```python
 def get_image(self, options, scale_x, scale_y):
     ...
 ```
 
-| Parameter | Type | Description |
+
+| 매개변수 | 유형 | 설명 |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/ko/aspose.slides.export/irenderingoptions) | 렌더링 옵션. |
-| scale_x | **float** | x축 방향으로 이 Thumbnail을 스케일링할 값. |
-| scale_y | **float** | y축 방향으로 이 Thumbnail을 스케일링할 값. |
+| scale_x | **float** | x축 방향으로 이 섬네일을 스케일링하는 값. |
+| scale_y | **float** | y축 방향으로 이 섬네일을 스케일링하는 값. |
 
 ### 예외
 
-| Exception | Description |
+| 예외 | 설명 |
 | :- | :- |
 | **RuntimeError(Proxy error(InvalidOperationException))** | notesCommentsLayouting.NotesPosition이 NotesPositions.BottomFull 값을 가질 때 발생합니다. |
 
-### 참조
+
+
+### 참고
 * 클래스 [`IImage`](/slides/python-net/ko/aspose.slides/iimage)
 * 클래스 [`IRenderingOptions`](/slides/python-net/ko/aspose.slides.export/irenderingoptions)
 * 클래스 [`ITiffOptions`](/slides/python-net/ko/aspose.slides.export/itiffoptions)
 * 클래스 [`Slide`](/slides/python-net/ko/aspose.slides/slide)
+* 클래스 [`Size`](/slides/python-net/ko/aspose.slides/size)
 * 모듈 [`aspose.slides`](/slides/python-net/ko/aspose.slides)
 * 라이브러리 [`Aspose.Slides`](/slides/python-net)

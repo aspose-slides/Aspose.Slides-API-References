@@ -1,43 +1,48 @@
 ---
 title: PresentationEnumerableFramesGenerator constructor
-second_title: Aspose.Slides for Python via .NET API संदर्भ
+second_title: Aspose.Slides for Python के लिए .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides.export/presentationenumerableframesgenerator/__init__/
 weight: 10
 ---
 ## __init__(self, presentation, fps) {#presentation-float}
-[`PresentationPlayer`](/slides/python-net/hi/aspose.slides.export/presentationplayer) का नया उदाहरण बनाता है।
+नया instance बनाता है [`PresentationPlayer`](/slides/python-net/hi/aspose.slides.export/presentationplayer) का।
+
 
 ```python
 def __init__(self, presentation, fps):
     ...
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+
+| Parameter | Type | Description |
 | :- | :- | :- |
-| presentation | [`Presentation`](/slides/python-net/hi/aspose.slides/presentation) | प्रेज़ेंटेशन |
-| fps | **float** | प्रति सेकंड फ़्रेम (FPS) |
+| presentation | [`Presentation`](/slides/python-net/hi/aspose.slides/presentation) | प्रस्तुति |
+| fps | **float** | प्रति सेकंड फ्रेम (FPS) |
 
 
-## __init__(self, frame_size, fps) {#asposepydrawingsize-float}
-[`PresentationPlayer`](/slides/python-net/hi/aspose.slides.export/presentationplayer) का नया उदाहरण बनाता है।
+## __init__(self, frame_size, fps) {#asposeslidessize-float}
+नया instance बनाता है [`PresentationPlayer`](/slides/python-net/hi/aspose.slides.export/presentationplayer) का।
+
 
 ```python
 def __init__(self, frame_size, fps):
     ...
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+
+| Parameter | Type | Description |
 | :- | :- | :- |
-| frame_size | **aspose.slides.Size** | फ़्रेम का आकार |
-| fps | **float** | प्रति सेकंड फ़्रेम (FPS) |
+| frame_size | [`Size`](/slides/python-net/hi/aspose.slides/size) | फ़्रेम आकार |
+| fps | **float** | प्रति सेकंड फ्रेम (FPS) |
 
 
 
-### देखें भी
+### संबंधित देखें
 * क्लास [`Presentation`](/slides/python-net/hi/aspose.slides/presentation)
 * क्लास [`PresentationEnumerableFramesGenerator`](/slides/python-net/hi/aspose.slides.export/presentationenumerableframesgenerator)
 * क्लास [`PresentationPlayer`](/slides/python-net/hi/aspose.slides.export/presentationplayer)
+* क्लास [`Size`](/slides/python-net/hi/aspose.slides/size)
 * मॉड्यूल [`aspose.slides.export`](/slides/python-net/hi/aspose.slides.export)
 * लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

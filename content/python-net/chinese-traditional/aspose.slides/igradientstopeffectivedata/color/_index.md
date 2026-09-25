@@ -6,9 +6,9 @@ type: docs
 url: /zh-hant/aspose.slides/igradientstopeffectivedata/color/
 weight: 10
 ---
-## 顏色屬性
-傳回漸層停止點的顏色。
-            唯讀 **aspose.slides.Color**.
+## color 屬性
+返回漸層停止點的color.
+唯讀 [`Color`](/slides/python-net/zh-hant/aspose.slides/color).
 
 ### 定義：
 ```python
@@ -17,8 +17,8 @@ def color(self):
     ...
 ```
 
-
-### 另請參閱
+### 另見
 * 類別 [`IGradientStopEffectiveData`](/slides/python-net/zh-hant/aspose.slides/igradientstopeffectivedata)
+* 類別 [`Color`](/slides/python-net/zh-hant/aspose.slides/color)
 * 模組 [`aspose.slides`](/slides/python-net/zh-hant/aspose.slides)
-* 程式庫 [`Aspose.Slides`](/slides/python-net)
+* 函式庫 [`Aspose.Slides`](/slides/python-net)

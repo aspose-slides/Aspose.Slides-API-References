@@ -1,6 +1,6 @@
 ---
 title: by property
-second_title: Aspose.Slides a Pythonhoz a .NET API hivatkozáson keresztül
+second_title: Aspose.Slides Pythonhoz a .NET API referencia
 description: 
 type: docs
 url: /hu/aspose.slides.animation/iscaleeffect/by/
@@ -8,7 +8,7 @@ weight: 40
 ---
 ## tulajdonság szerint
 Leírja az animáció relatív eltolási értékét (százalékban).
-            Olvasás/írás **aspose.slides.PointF**.
+            Olvasás/írás [`PointF`](/slides/python-net/hu/aspose.slides/pointf).
 
 ### Definíció:
 ```python
@@ -24,5 +24,6 @@ def by(self, value):
 
 ### Lásd még
 * osztály [`IScaleEffect`](/slides/python-net/hu/aspose.slides.animation/iscaleeffect)
+* osztály [`PointF`](/slides/python-net/hu/aspose.slides/pointf)
 * modul [`aspose.slides.animation`](/slides/python-net/hu/aspose.slides.animation)
 * könyvtár [`Aspose.Slides`](/slides/python-net)

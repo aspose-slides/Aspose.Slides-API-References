@@ -6,9 +6,9 @@ type: docs
 url: /th/aspose.slides.export/htmlgenerator/slide_image_size/
 weight: 60
 ---
-## slide_image_size คุณสมบัติ
-คืนขนาดของภาพสไลด์.
-            อ่านอย่างเดียว **aspose.slides.SizeF**.
+## slide_image_size คุณลักษณะ
+ส่งคืนขนาดภาพสไลด์.
+            อ่านอย่างเดียว [`SizeF`](/slides/python-net/th/aspose.slides/sizef).
 
 ### คำนิยาม:
 ```python
@@ -17,7 +17,9 @@ def slide_image_size(self):
     ...
 ```
 
+
 ### ดูเพิ่มเติม
 * คลาส [`HtmlGenerator`](/slides/python-net/th/aspose.slides.export/htmlgenerator)
+* คลาส [`SizeF`](/slides/python-net/th/aspose.slides/sizef)
 * โมดูล [`aspose.slides.export`](/slides/python-net/th/aspose.slides.export)
 * ไลบรารี [`Aspose.Slides`](/slides/python-net)

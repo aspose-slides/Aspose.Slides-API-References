@@ -7,7 +7,8 @@ url: /cs/aspose.slides.effects/igloweffectivedata/
 ---
 ## IGlowEffectiveData třída
 
-Neměnný objekt, který představuje efekt záře, při kterém je mimo okraje objektu přidán rozostřený obrys barvy.
+Neměnný objekt, který představuje efekt Glow, ve kterém je kolem okrajů objektu přidán rozostřený obrys barvy 
+            is added outside the edges of the object.
 
 Typ IGlowEffectiveData vystavuje následující členy:
 
@@ -15,8 +16,8 @@ Typ IGlowEffectiveData vystavuje následující členy:
 
 | Vlastnost | Popis |
 | :- | :- |
-| [`radius`](/slides/python-net/cs/aspose.slides.effects/igloweffectivedata/radius/) | Poloměr.<br/>            Pouze pro čtení **float**. |
-| [`color`](/slides/python-net/cs/aspose.slides.effects/igloweffectivedata/color/) | Barva.<br/>            Pouze pro čtení **aspose.slides.Color**. |
+| [`radius`](/slides/python-net/cs/aspose.slides.effects/igloweffectivedata/radius/) | Radius.<br/>            Pouze pro čtení **float**. |
+| [`color`](/slides/python-net/cs/aspose.slides.effects/igloweffectivedata/color/) | Color.<br/>            Pouze pro čtení [`Color`](/slides/python-net/cs/aspose.slides/color). |
 
 
 ### Viz také

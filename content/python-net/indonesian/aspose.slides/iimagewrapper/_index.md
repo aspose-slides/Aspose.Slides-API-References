@@ -1,21 +1,21 @@
 ---
 title: IImageWrapper class
-second_title: Aspose.Slides untuk Python melalui .NET Referensi API
+second_title: Referensi API Aspose.Slides untuk Python melalui .NET
 description: 
 type: docs
 url: /id/aspose.slides/iimagewrapper/
 ---
 ## IImageWrapper kelas
 
-Pembungkus System.Drawing.Image untuk antarmuka COM.
+System.Drawing.Image wrapper untuk antarmuka COM.
 
-Tipe IImageWrapper menampilkan anggota-anggota berikut:
+Tipe IImageWrapper menampilkan anggota berikut:
 
 ## Properti
 
 | Properti | Deskripsi |
 | :- | :- |
-| [`image_source`](/slides/python-net/id/aspose.slides/iimagewrapper/image_source/) | Mendapatkan gambar<br/>            Hanya-baca **aspose.slides.Image**. |
+| [`image_source`](/slides/python-net/id/aspose.slides/iimagewrapper/image_source/) | Mendapatkan gambar<br/>            Hanya-baca **aspose.slides.IImage**. |
 | [`size`](/slides/python-net/id/aspose.slides/iimagewrapper/size/) | Mendapatkan lebar dan tinggi, dalam piksel, dari Gambar<br/>            Hanya-baca [`IImageWrapper.size`](/slides/python-net/id/aspose.slides/iimagewrapper/size). |
 
 ## Metode
@@ -29,4 +29,4 @@ Tipe IImageWrapper menampilkan anggota-anggota berikut:
 
 ### Lihat Juga
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
-* pustaka [`Aspose.Slides`](/slides/python-net)
+* perpustakaan [`Aspose.Slides`](/slides/python-net)

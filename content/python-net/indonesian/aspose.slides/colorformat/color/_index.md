@@ -1,15 +1,15 @@
 ---
 title: color property
-second_title: Aspose.Slides untuk Python via .NET API Reference
+second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides/colorformat/color/
 weight: 60
 ---
 ## properti warna
-Mengembalikan warna hasil (dengan semua transformasi warna diterapkan).
-            Mengatur warna RGB dan menghapus semua transformasi warna.
-            Baca/tulis **aspose.slides.Color**.
+Returns resulting color (with all color transformations applied).
+            Sets RGB colors and clears all color transformations.
+            Baca/tulis [`Color`](/slides/python-net/id/aspose.slides/color).
 
 ### Definisi:
 ```python
@@ -25,5 +25,6 @@ def color(self, value):
 
 ### Lihat Juga
 * kelas [`ColorFormat`](/slides/python-net/id/aspose.slides/colorformat)
+* kelas [`Color`](/slides/python-net/id/aspose.slides/color)
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
-* perpustakaan [`Aspose.Slides`](/slides/python-net)
+* pustaka [`Aspose.Slides`](/slides/python-net)

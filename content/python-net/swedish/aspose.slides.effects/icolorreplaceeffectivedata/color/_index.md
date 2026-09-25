@@ -8,7 +8,7 @@ weight: 20
 ---
 ## färgegenskap
 Returnerar färgformat som kommer att ersätta färgen på varje pixel.
-            Skrivskyddad **aspose.slides.Color**.
+            Skrivskyddad [`Color`](/slides/python-net/sv/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def color(self):
 
 ### Se även
 * klass [`IColorReplaceEffectiveData`](/slides/python-net/sv/aspose.slides.effects/icolorreplaceeffectivedata)
+* klass [`Color`](/slides/python-net/sv/aspose.slides/color)
 * modul [`aspose.slides.effects`](/slides/python-net/sv/aspose.slides.effects)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

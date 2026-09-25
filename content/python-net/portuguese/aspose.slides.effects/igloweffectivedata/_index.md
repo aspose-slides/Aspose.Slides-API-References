@@ -7,8 +7,7 @@ url: /pt/aspose.slides.effects/igloweffectivedata/
 ---
 ## IGlowEffectiveData classe
 
-Objeto imutável que representa um efeito Glow, no qual um contorno borrado de cor
-            é adicionado fora das bordas do objeto.
+Objeto imutável que representa um efeito Glow, no qual um contorno borrado de cor é adicionado fora das bordas do objeto.
 
 O tipo IGlowEffectiveData expõe os seguintes membros:
 
@@ -17,8 +16,9 @@ O tipo IGlowEffectiveData expõe os seguintes membros:
 | Propriedade | Descrição |
 | :- | :- |
 | [`radius`](/slides/python-net/pt/aspose.slides.effects/igloweffectivedata/radius/) | Raio.<br/>            Somente leitura **float**. |
-| [`color`](/slides/python-net/pt/aspose.slides.effects/igloweffectivedata/color/) | Cor.<br/>            Somente leitura **aspose.slides.Color**. |
+| [`color`](/slides/python-net/pt/aspose.slides.effects/igloweffectivedata/color/) | Cor.<br/>            Somente leitura [`Color`](/slides/python-net/pt/aspose.slides/color). |
 
-### Ver também
+
+### Veja Também
 * módulo [`aspose.slides.effects`](/slides/python-net/pt/aspose.slides.effects)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

@@ -7,7 +7,7 @@ url: /cs/aspose.slides.ink/iinktrace/points/
 weight: 20
 ---
 ## points vlastnost
-Získá points pro IInkLine **aspose.slides.PointF**
+Získá points pro IInkLine [`PointF`](/slides/python-net/cs/aspose.slides/pointf)
             Pouze pro čtení.
 
 ### Definice:
@@ -20,5 +20,6 @@ def points(self):
 
 ### Viz také
 * třída [`IInkTrace`](/slides/python-net/cs/aspose.slides.ink/iinktrace)
+* třída [`PointF`](/slides/python-net/cs/aspose.slides/pointf)
 * modul [`aspose.slides.ink`](/slides/python-net/cs/aspose.slides.ink)
 * knihovna [`Aspose.Slides`](/slides/python-net)

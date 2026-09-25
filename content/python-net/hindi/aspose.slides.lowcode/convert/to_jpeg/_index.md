@@ -1,15 +1,14 @@
 ---
 title: to_jpeg method
-second_title: Aspose.Slides for Python द्वारा .NET API संदर्भ
+second_title: Aspose.Slides for Python via .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides.lowcode/convert/to_jpeg/
 weight: 20
 ---
 ## to_jpeg(pres, output_file_name) {#presentation-str}
-इनपुट प्रस्तुतिकरण को JPEG फ़ॉर्मेट की छवियों के सेट में परिवर्तित करता है।  
-यदि आउटपुट फ़ाइल नाम "myPath/myFilename.jpeg" के रूप में दिया जाता है, तो परिणाम "myPath/myFilename_N.jpeg" फ़ाइलों के सेट के रूप में सहेजा जाएगा, जहाँ N स्लाइड संख्या है।
-
+इनपुट प्रस्तुति को JPEG फ़ॉर्मेट की छवियों के सेट में परिवर्तित करता है।  
+यदि आउटपुट फ़ाइल नाम "myPath/myFilename.jpeg" के रूप में दिया जाता है, तो परिणाम "myPath/myFilename_N.jpeg" फ़ाइलों के सेट के रूप में सहेजा जाएगा, जहाँ N एक स्लाइड नंबर है।
 
 ```python
 @staticmethod
@@ -17,10 +16,9 @@ def to_jpeg(pres, output_file_name):
     ...
 ```
 
-
 | पैरामीटर | प्रकार | विवरण |
 | :- | :- | :- |
-| pres | [`Presentation`](/slides/python-net/hi/aspose.slides/presentation) | इनपुट प्रस्तुतिकरण। |
+| pres | [`Presentation`](/slides/python-net/hi/aspose.slides/presentation) | इनपुट प्रस्तुति। |
 | output_file_name | **str** | आउटपुट फ़ाइल नाम। |
 
 ### अपवाद
@@ -29,11 +27,9 @@ def to_jpeg(pres, output_file_name):
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentException))** |  |
 
-
-## to_jpeg(pres, output_file_name, image_size) {#presentation-str-asposepydrawingsize}
-इनपुट प्रस्तुतिकरण को JPEG फ़ॉर्मेट की छवियों के सेट में परिवर्तित करता है।  
-यदि आउटपुट फ़ाइल नाम "myPath/myFilename.jpeg" के रूप में दिया जाता है, तो परिणाम "myPath/myFilename_N.jpeg" फ़ाइलों के सेट के रूप में सहेजा जाएगा, जहाँ N स्लाइड संख्या है।
-
+## to_jpeg(pres, output_file_name, image_size) {#presentation-str-asposeslidessize}
+इनपुट प्रस्तुति को JPEG फ़ॉर्मेट की छवियों के सेट में परिवर्तित करता है।  
+यदि आउटपुट फ़ाइल नाम "myPath/myFilename.jpeg" के रूप में दिया जाता है, तो परिणाम "myPath/myFilename_N.jpeg" फ़ाइलों के सेट के रूप में सहेजा जाएगा, जहाँ N एक स्लाइड नंबर है।
 
 ```python
 @staticmethod
@@ -41,12 +37,11 @@ def to_jpeg(pres, output_file_name, image_size):
     ...
 ```
 
-
 | पैरामीटर | प्रकार | विवरण |
 | :- | :- | :- |
-| pres | [`Presentation`](/slides/python-net/hi/aspose.slides/presentation) | इनपुट प्रस्तुतिकरण |
+| pres | [`Presentation`](/slides/python-net/hi/aspose.slides/presentation) | इनपुट प्रस्तुति |
 | output_file_name | **str** | आउटपुट फ़ाइल नाम। |
-| image_size | **aspose.slides.Size** | प्रत्येक उत्पन्न छवि का आकार। |
+| image_size | [`Size`](/slides/python-net/hi/aspose.slides/size) | प्रत्येक उत्पन्न छवि का आकार। |
 
 ### अपवाद
 
@@ -54,11 +49,9 @@ def to_jpeg(pres, output_file_name, image_size):
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentException))** |  |
 
-
 ## to_jpeg(pres, output_file_name, scale, options) {#presentation-str-float-asposeslidesexportirenderingoptions}
-इनपुट प्रस्तुतिकरण को JPEG फ़ॉर्मेट की छवियों के सेट में परिवर्तित करता है।  
-यदि आउटपुट फ़ाइल नाम "myPath/myFilename.jpeg" के रूप में दिया जाता है, तो परिणाम "myPath/myFilename_N.jpeg" फ़ाइलों के सेट के रूप में सहेजा जाएगा, जहाँ N स्लाइड संख्या है।
-
+इनपुट प्रस्तुति को JPEG फ़ॉर्मेट की छवियों के सेट में परिवर्तित करता है।  
+यदि आउटपुट फ़ाइल नाम "myPath/myFilename.jpeg" के रूप में दिया जाता है, तो परिणाम "myPath/myFilename_N.jpeg" फ़ाइलों के सेट के रूप में सहेजा जाएगा, जहाँ N एक स्लाइड नंबर है।
 
 ```python
 @staticmethod
@@ -66,12 +59,11 @@ def to_jpeg(pres, output_file_name, scale, options):
     ...
 ```
 
-
 | पैरामीटर | प्रकार | विवरण |
 | :- | :- | :- |
-| pres | [`Presentation`](/slides/python-net/hi/aspose.slides/presentation) | इनपुट प्रस्तुतिकरण। |
+| pres | [`Presentation`](/slides/python-net/hi/aspose.slides/presentation) | इनपुट प्रस्तुति। |
 | output_file_name | **str** | आउटपुट फ़ाइल नाम। |
-| scale | **float** | मूल स्लाइड आकार की तुलना में आउटपुट छवियों पर लागू स्केलिंग फ़ैक्टर। |
+| scale | **float** | मूल स्लाइड आकार के सापेक्ष आउटपुट छवियों पर लागू स्केलिंग फ़ैक्टर। |
 | options | [`IRenderingOptions`](/slides/python-net/hi/aspose.slides.export/irenderingoptions) | रेंडरिंग विकल्प। |
 
 ### अपवाद
@@ -80,11 +72,10 @@ def to_jpeg(pres, output_file_name, scale, options):
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentException))** |  |
 
-
-
 ### संबंधित देखें
 * क्लास [`Convert`](/slides/python-net/hi/aspose.slides.lowcode/convert)
 * क्लास [`IRenderingOptions`](/slides/python-net/hi/aspose.slides.export/irenderingoptions)
 * क्लास [`Presentation`](/slides/python-net/hi/aspose.slides/presentation)
+* क्लास [`Size`](/slides/python-net/hi/aspose.slides/size)
 * मॉड्यूल [`aspose.slides.lowcode`](/slides/python-net/hi/aspose.slides.lowcode)
 * लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

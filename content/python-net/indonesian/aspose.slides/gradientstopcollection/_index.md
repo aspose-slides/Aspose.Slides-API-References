@@ -9,9 +9,9 @@ url: /id/aspose.slides/gradientstopcollection/
 
 Mewakili koleksi gradient stop.
 
-**Warisan:**[`GradientStopCollection`](/slides/python-net/id/aspose.slides/gradientstopcollection) → [`PVIObject`](/slides/python-net/id/aspose.slides/pviobject)
+**Inheritance:**[`GradientStopCollection`](/slides/python-net/id/aspose.slides/gradientstopcollection) → [`PVIObject`](/slides/python-net/id/aspose.slides/pviobject)
 
-Tipe GradientStopCollection memperlihatkan anggota berikut:
+The GradientStopCollection type exposes the following members:
 
 ## Properti
 
@@ -32,18 +32,18 @@ Mengembalikan gradient stop berdasarkan indeks.
 
 | Metode | Deskripsi |
 | :- | :- |
-| [`add(self, position, color)`](/slides/python-net/id/aspose.slides/gradientstopcollection/add/#float-asposepydrawingcolor) | Membuat gradient stop baru dan menambahkannya ke akhir koleksi. |
-| [`add(self, position, preset_color)`](/slides/python-net/id/aspose.slides/gradientstopcollection/add/#float-presetcolor) | Membuat gradient stop baru dan menambahkannya ke akhir koleksi. |
-| [`add(self, position, scheme_color)`](/slides/python-net/id/aspose.slides/gradientstopcollection/add/#float-schemecolor) | Membuat gradient stop baru dan menambahkannya ke akhir koleksi. |
-| [`insert(self, index, position, color)`](/slides/python-net/id/aspose.slides/gradientstopcollection/insert/#int-float-asposepydrawingcolor) | Membuat gradient stop baru dan menyisipkannya pada indeks yang ditentukan ke koleksi. |
-| [`insert(self, index, position, preset_color)`](/slides/python-net/id/aspose.slides/gradientstopcollection/insert/#int-float-presetcolor) | Membuat gradient stop baru dan menyisipkannya pada indeks yang ditentukan ke koleksi. |
-| [`insert(self, index, position, scheme_color)`](/slides/python-net/id/aspose.slides/gradientstopcollection/insert/#int-float-schemecolor) | Membuat gradient stop baru dan menyisipkannya pada indeks yang ditentukan ke koleksi. |
-| [`remove_at(self, index)`](/slides/python-net/id/aspose.slides/gradientstopcollection/remove_at/#int) | Menghapus gradient stop pada indeks yang ditentukan. |
-| [`clear(self)`](/slides/python-net/id/aspose.slides/gradientstopcollection/clear/#) | Menghapus semua gradient stop dari koleksi. |
+| [`add(self, position, color)`](/slides/python-net/id/aspose.slides/gradientstopcollection/add/#float-asposeslidescolor) | Creates the new gradient stop and adds it to the end of collection. |
+| [`add(self, position, preset_color)`](/slides/python-net/id/aspose.slides/gradientstopcollection/add/#float-presetcolor) | Creates the new gradient stop and adds it to the end of collection. |
+| [`add(self, position, scheme_color)`](/slides/python-net/id/aspose.slides/gradientstopcollection/add/#float-schemecolor) | Creates the new gradient stop and adds it to the end of collection. |
+| [`insert(self, index, position, color)`](/slides/python-net/id/aspose.slides/gradientstopcollection/insert/#int-float-asposeslidescolor) | Creates the new gradient stop and inserts it at the specified index to the collection. |
+| [`insert(self, index, position, preset_color)`](/slides/python-net/id/aspose.slides/gradientstopcollection/insert/#int-float-presetcolor) | Creates the new gradient stop and inserts it at the specified index to the collection. |
+| [`insert(self, index, position, scheme_color)`](/slides/python-net/id/aspose.slides/gradientstopcollection/insert/#int-float-schemecolor) | Creates the new gradient stop and inserts it at the specified index to the collection. |
+| [`remove_at(self, index)`](/slides/python-net/id/aspose.slides/gradientstopcollection/remove_at/#int) | Removes a gradient stop at the specified index. |
+| [`clear(self)`](/slides/python-net/id/aspose.slides/gradientstopcollection/clear/#) | Removes all gradient stops from a collection. |
 
 
 ### Lihat Juga
 * kelas [`GradientStopCollection`](/slides/python-net/id/aspose.slides/gradientstopcollection)
 * kelas [`PVIObject`](/slides/python-net/id/aspose.slides/pviobject)
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
-* pustaka [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

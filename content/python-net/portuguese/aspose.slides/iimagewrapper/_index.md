@@ -1,13 +1,13 @@
 ---
 title: IImageWrapper class
-second_title: Referência da API Aspose.Slides para Python via .NET
+second_title: Aspose.Slides para Python via .NET Referência de API
 description: 
 type: docs
 url: /pt/aspose.slides/iimagewrapper/
 ---
 ## IImageWrapper classe
 
-Wrapper de System.Drawing.Image para interface COM.
+Invólucro System.Drawing.Image para interface COM.
 
 O tipo IImageWrapper expõe os seguintes membros:
 
@@ -15,8 +15,8 @@ O tipo IImageWrapper expõe os seguintes membros:
 
 | Propriedade | Descrição |
 | :- | :- |
-| [`image_source`](/slides/python-net/pt/aspose.slides/iimagewrapper/image_source/) | Obtém a imagem<br/>            Somente leitura **aspose.slides.Image**. |
-| [`size`](/slides/python-net/pt/aspose.slides/iimagewrapper/size/) | Obtém a largura e altura, em pixels, da Image<br/>            Somente leitura [`IImageWrapper.size`](/slides/python-net/pt/aspose.slides/iimagewrapper/size). |
+| [`image_source`](/slides/python-net/pt/aspose.slides/iimagewrapper/image_source/) | Obtém a imagem<br/>            Somente leitura **aspose.slides.IImage**. |
+| [`size`](/slides/python-net/pt/aspose.slides/iimagewrapper/size/) | Obtém a largura e a altura, em pixels, da Image<br/>            Somente leitura [`IImageWrapper.size`](/slides/python-net/pt/aspose.slides/iimagewrapper/size). |
 
 ## Métodos
 
@@ -27,6 +27,6 @@ O tipo IImageWrapper expõe os seguintes membros:
 | [`save(self, file_name, image_format)`](/slides/python-net/pt/aspose.slides/iimagewrapper/save/#str-ppimageformat) | Salva a Image no arquivo especificado no formato especificado. |
 
 
-### Ver Também
+### Veja Também
 * módulo [`aspose.slides`](/slides/python-net/pt/aspose.slides)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

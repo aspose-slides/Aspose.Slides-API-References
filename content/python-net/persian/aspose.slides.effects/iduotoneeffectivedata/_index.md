@@ -7,18 +7,19 @@ url: /fa/aspose.slides.effects/iduotoneeffectivedata/
 ---
 ## IDuotoneEffectiveData کلاس
 
-شیء غیرقابل تغییر که نمایانگر اثر دو-رنگی است.
-            برای هر پیکسل، clr1 و clr2 را از طریق یک درون-یابی خطی ترکیب می‌کند تا رنگ جدید آن پیکسل را تعیین کند.
+شیء غیرقابل تغییر که نمایانگر یک اثر دو رنگی است.
+برای هر پیکسل، clr1 و clr2 را از طریق یک درون‌یابی خطی ترکیب می‌کند تا رنگ جدید برای آن پیکسل تعیین شود.
 
-نوع IDuotoneEffectiveData اعضای زیر را ارائه می‌دهد:
+نوع IDuotoneEffectiveData اعضای زیر را در اختیار می‌گذارد:
 
 ## ویژگی‌ها
 
 | ویژگی | توضیح |
 | :- | :- |
-| [`color1`](/slides/python-net/fa/aspose.slides.effects/iduotoneeffectivedata/color1/) | قالب رنگ هدف برای پیکسل‌های تاریک را برمی‌گرداند.<br/>            فقط-خواندنی **aspose.slides.Color**. |
-| [`color2`](/slides/python-net/fa/aspose.slides.effects/iduotoneeffectivedata/color2/) | قالب رنگ هدف برای پیکسل‌های روشن را برمی‌گرداند.<br/>            فقط-خواندنی **aspose.slides.Color**. |
+| [`color1`](/slides/python-net/fa/aspose.slides.effects/iduotoneeffectivedata/color1/) | فرمت رنگ هدف برای پیکسل‌های تاریک را برمی‌گرداند.<br/>            فقط-خواندنی [`Color`](/slides/python-net/fa/aspose.slides/color). |
+| [`color2`](/slides/python-net/fa/aspose.slides.effects/iduotoneeffectivedata/color2/) | فرمت رنگ هدف برای پیکسل‌های روشن را برمی‌گرداند.<br/>            فقط-خواندنی [`Color`](/slides/python-net/fa/aspose.slides/color). |
 
-### مراجع
+
+### موارد مرتبط
 * ماژول [`aspose.slides.effects`](/slides/python-net/fa/aspose.slides.effects)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

@@ -1,15 +1,15 @@
 ---
 title: InkTrace class
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides.ink/inktrace/
 ---
 ## InkTrace คลาส
 
-เป็นตัวแทนของวัตถุ Trace.
-            องค์ประกอบ Trace ถูกใช้เพื่อบันทึกข้อมูลที่จับได้โดยดิจิไทเซอร์. 
-            มันประกอบด้วยลำดับของจุดที่เข้ารหัสตามสเปคที่กำหนดโดยวัตถุ InkTraceFormat.
+แสดงถึงอ็อบเจ็กต์ Trace  
+A Trace element ใช้เพื่อบันทึกข้อมูลที่ดิจิไทเซอร์จับได้  
+มันประกอบด้วยลำดับของจุดที่เข้ารหัสตามสเปคที่กำหนดโดยอ็อบเจ็กต์ InkTraceFormat  
 
 ประเภท InkTrace เปิดเผยสมาชิกต่อไปนี้:
 
@@ -17,8 +17,9 @@ url: /th/aspose.slides.ink/inktrace/
 
 | คุณสมบัติ | คำอธิบาย |
 | :- | :- |
-| [`brush`](/slides/python-net/th/aspose.slides.ink/inktrace/brush/) | รับ Brush สำหรับ IInkLine [`IInkBrush`](/slides/python-net/th/aspose.slides.ink/iinkbrush)<br/>            อ่านอย่างเดียว. |
-| [`points`](/slides/python-net/th/aspose.slides.ink/inktrace/points/) | รับจุดสำหรับ IInkLine **aspose.slides.PointF**<br/>            อ่านอย่างเดียว. |
+| [`brush`](/slides/python-net/th/aspose.slides.ink/inktrace/brush/) | รับ Brush สำหรับ IInkLine [`IInkBrush`](/slides/python-net/th/aspose.slides.ink/iinkbrush)<br/> อ่านได้อย่างเดียว. |
+| [`points`](/slides/python-net/th/aspose.slides.ink/inktrace/points/) | รับจุดสำหรับ IInkLine [`PointF`](/slides/python-net/th/aspose.slides/pointf)<br/> อ่านได้อย่างเดียว. |
+
 
 ### ดูเพิ่มเติม
 * โมดูล [`aspose.slides.ink`](/slides/python-net/th/aspose.slides.ink)

@@ -7,19 +7,18 @@ url: /id/aspose.slides.effects/iinnershadoweffectivedata/
 ---
 ## IInnerShadowEffectiveData kelas
 
-Objek tak dapat diubah yang mewakili efek bayangan dalam.
+Objek tidak dapat diubah yang mewakili efek bayangan dalam.
 
-Tipe IInnerShadowEffectiveData menampilkan anggota berikut:
+Tipe IInnerShadowEffectiveData mengekspos anggota-anggota berikut:
 
 ## Properti
 
 | Properti | Deskripsi |
 | :- | :- |
-| [`blur_radius`](/slides/python-net/id/aspose.slides.effects/iinnershadoweffectivedata/blur_radius/) | Radius blur.<br/>            Baca-saja **float**. |
-| [`direction`](/slides/python-net/id/aspose.slides.effects/iinnershadoweffectivedata/direction/) | Arah bayangan.<br/>            Baca-saja **float**. |
-| [`distance`](/slides/python-net/id/aspose.slides.effects/iinnershadoweffectivedata/distance/) | Jarak bayangan.<br/>            Baca-saja **float**. |
-| [`shadow_color`](/slides/python-net/id/aspose.slides.effects/iinnershadoweffectivedata/shadow_color/) | Warna bayangan.<br/>            Baca-saja **aspose.slides.Color**. |
-
+| [`blur_radius`](/slides/python-net/id/aspose.slides.effects/iinnershadoweffectivedata/blur_radius/) | Blur radius.<br/>            Hanya baca **float**. |
+| [`direction`](/slides/python-net/id/aspose.slides.effects/iinnershadoweffectivedata/direction/) | Direction of shadow.<br/>            Hanya baca **float**. |
+| [`distance`](/slides/python-net/id/aspose.slides.effects/iinnershadoweffectivedata/distance/) | Distance of shadow.<br/>            Hanya baca **float**. |
+| [`shadow_color`](/slides/python-net/id/aspose.slides.effects/iinnershadoweffectivedata/shadow_color/) | Color of shadow.<br/>            Hanya baca [`Color`](/slides/python-net/id/aspose.slides/color). |
 
 ### Lihat Juga
 * modul [`aspose.slides.effects`](/slides/python-net/id/aspose.slides.effects)

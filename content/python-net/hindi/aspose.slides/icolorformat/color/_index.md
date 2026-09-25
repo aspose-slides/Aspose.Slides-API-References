@@ -1,15 +1,15 @@
 ---
 title: color property
-second_title: Aspose.Slides for Python via .NET API संदर्भ
+second_title: Aspose.Slides के लिए Python द्वारा .NET API रेफ़रेंस
 description: 
 type: docs
 url: /hi/aspose.slides/icolorformat/color/
 weight: 50
 ---
-## color गुण
-            परिणामी color लौटाता है (सभी color परिवर्तन लागू होने के साथ)।
-            सेट करता है RGB colors और सभी color परिवर्तन साफ़ करता है।
-            पढ़ें/लिखें **aspose.slides.Color**.
+## रंग गुणधर्म
+परिणामी रंग लौटाता है (सभी रंग रूपांतरण लागू किए गए)।
+            RGB रंग सेट करता है और सभी रंग रूपांतरण साफ़ करता है।
+            पढ़ें/लिखें [`Color`](/slides/python-net/hi/aspose.slides/color).
 
 ### परिभाषा:
 ```python
@@ -24,6 +24,7 @@ def color(self, value):
 
 
 ### संबंधित देखें
-* वर्ग [`IColorFormat`](/slides/python-net/hi/aspose.slides/icolorformat)
+* क्लास [`IColorFormat`](/slides/python-net/hi/aspose.slides/icolorformat)
+* क्लास [`Color`](/slides/python-net/hi/aspose.slides/color)
 * मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
-* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)
+* पुस्तकालय [`Aspose.Slides`](/slides/python-net)

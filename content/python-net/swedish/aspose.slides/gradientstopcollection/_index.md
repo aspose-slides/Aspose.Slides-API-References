@@ -11,7 +11,7 @@ Representerar en samling gradientstopp.
 
 **Arv:**[`GradientStopCollection`](/slides/python-net/sv/aspose.slides/gradientstopcollection) → [`PVIObject`](/slides/python-net/sv/aspose.slides/pviobject)
 
-Typen GradientStopCollection exponerar följande medlemmar:
+GradientStopCollection-typen exponerar följande medlemmar:
 
 ## Egenskaper
 
@@ -22,7 +22,7 @@ Typen GradientStopCollection exponerar följande medlemmar:
 
 Returnerar gradientstoppet efter index.
 
-## Indexer
+## Indexator
 
 | Namn | Beskrivning |
 | :- | :- |
@@ -32,15 +32,14 @@ Returnerar gradientstoppet efter index.
 
 | Metod | Beskrivning |
 | :- | :- |
-| [`add(self, position, color)`](/slides/python-net/sv/aspose.slides/gradientstopcollection/add/#float-asposepydrawingcolor) | Skapar den nya gradientstoppet och lägger till den i slutet av samlingen. |
-| [`add(self, position, preset_color)`](/slides/python-net/sv/aspose.slides/gradientstopcollection/add/#float-presetcolor) | Skapar den nya gradientstoppet och lägger till den i slutet av samlingen. |
-| [`add(self, position, scheme_color)`](/slides/python-net/sv/aspose.slides/gradientstopcollection/add/#float-schemecolor) | Skapar den nya gradientstoppet och lägger till den i slutet av samlingen. |
-| [`insert(self, index, position, color)`](/slides/python-net/sv/aspose.slides/gradientstopcollection/insert/#int-float-asposepydrawingcolor) | Skapar den nya gradientstoppet och infogar den på angivet index i samlingen. |
-| [`insert(self, index, position, preset_color)`](/slides/python-net/sv/aspose.slides/gradientstopcollection/insert/#int-float-presetcolor) | Skapar den nya gradientstoppet och infogar den på angivet index i samlingen. |
-| [`insert(self, index, position, scheme_color)`](/slides/python-net/sv/aspose.slides/gradientstopcollection/insert/#int-float-schemecolor) | Skapar den nya gradientstoppet och infogar den på angivet index i samlingen. |
-| [`remove_at(self, index)`](/slides/python-net/sv/aspose.slides/gradientstopcollection/remove_at/#int) | Tar bort en gradientstopp på angivet index. |
+| [`add(self, position, color)`](/slides/python-net/sv/aspose.slides/gradientstopcollection/add/#float-asposeslidescolor) | Skapar det nya gradientstoppet och lägger till det i slutet av samlingen. |
+| [`add(self, position, preset_color)`](/slides/python-net/sv/aspose.slides/gradientstopcollection/add/#float-presetcolor) | Skapar det nya gradientstoppet och lägger till det i slutet av samlingen. |
+| [`add(self, position, scheme_color)`](/slides/python-net/sv/aspose.slides/gradientstopcollection/add/#float-schemecolor) | Skapar det nya gradientstoppet och lägger till det i slutet av samlingen. |
+| [`insert(self, index, position, color)`](/slides/python-net/sv/aspose.slides/gradientstopcollection/insert/#int-float-asposeslidescolor) | Skapar det nya gradientstoppet och infogar det på det angivna indexet i samlingen. |
+| [`insert(self, index, position, preset_color)`](/slides/python-net/sv/aspose.slides/gradientstopcollection/insert/#int-float-presetcolor) | Skapar det nya gradientstoppet och infogar det på det angivna indexet i samlingen. |
+| [`insert(self, index, position, scheme_color)`](/slides/python-net/sv/aspose.slides/gradientstopcollection/insert/#int-float-schemecolor) | Skapar det nya gradientstoppet och infogar det på det angivna indexet i samlingen. |
+| [`remove_at(self, index)`](/slides/python-net/sv/aspose.slides/gradientstopcollection/remove_at/#int) | Tar bort ett gradientstopp på det angivna indexet. |
 | [`clear(self)`](/slides/python-net/sv/aspose.slides/gradientstopcollection/clear/#) | Tar bort alla gradientstopp från en samling. |
-
 
 ### Se även
 * klass [`GradientStopCollection`](/slides/python-net/sv/aspose.slides/gradientstopcollection)

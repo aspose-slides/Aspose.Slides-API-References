@@ -7,8 +7,8 @@ url: /cs/aspose.slides/ipatternformateffectivedata/back_color/
 weight: 20
 ---
 ## back_color vlastnost
-Vrací barvu pozadí vzoru.
-            Pouze pro čtení **aspose.slides.Color**.
+Vrací barvu vzoru pozadí.
+            Pouze pro čtení [`Color`](/slides/python-net/cs/aspose.slides/color).
 
 ### Definice:
 ```python
@@ -20,5 +20,6 @@ def back_color(self):
 
 ### Viz také
 * třída [`IPatternFormatEffectiveData`](/slides/python-net/cs/aspose.slides/ipatternformateffectivedata)
+* třída [`Color`](/slides/python-net/cs/aspose.slides/color)
 * modul [`aspose.slides`](/slides/python-net/cs/aspose.slides)
 * knihovna [`Aspose.Slides`](/slides/python-net)

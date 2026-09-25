@@ -6,9 +6,9 @@ type: docs
 url: /zh/aspose.slides.effects/icolorreplaceeffectivedata/color/
 weight: 20
 ---
-## color属性
-返回将替换每个像素颜色的颜色格式。
-            只读 **aspose.slides.Color**.
+## color 属性
+返回 color 格式，该格式将替换每个像素的 color.
+            只读 [`Color`](/slides/python-net/zh/aspose.slides/color).
 
 ### 定义:
 ```python
@@ -18,7 +18,8 @@ def color(self):
 ```
 
 
-### 另见
+### 另请参见
 * 类 [`IColorReplaceEffectiveData`](/slides/python-net/zh/aspose.slides.effects/icolorreplaceeffectivedata)
+* 类 [`Color`](/slides/python-net/zh/aspose.slides/color)
 * 模块 [`aspose.slides.effects`](/slides/python-net/zh/aspose.slides.effects)
 * 库 [`Aspose.Slides`](/slides/python-net)

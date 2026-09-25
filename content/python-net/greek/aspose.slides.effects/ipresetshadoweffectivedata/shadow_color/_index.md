@@ -1,14 +1,14 @@
 ---
 title: shadow_color property
-second_title: Aspose.Slides για Python μέσω .NET αναφορά API
+second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
 description: 
 type: docs
 url: /el/aspose.slides.effects/ipresetshadoweffectivedata/shadow_color/
 weight: 50
 ---
 ## shadow_color ιδιότητα
-Χρώμα σκιάς.
-            Μόνο ανάγνωση **aspose.slides.Color**.
+Χρώμα της σκιάς.
+            Μόνο-ανάγνωση [`Color`](/slides/python-net/el/aspose.slides/color).
 
 ### Ορισμός:
 ```python
@@ -20,5 +20,6 @@ def shadow_color(self):
 
 ### Δείτε επίσης
 * κλάση [`IPresetShadowEffectiveData`](/slides/python-net/el/aspose.slides.effects/ipresetshadoweffectivedata)
+* κλάση [`Color`](/slides/python-net/el/aspose.slides/color)
 * μονάδα [`aspose.slides.effects`](/slides/python-net/el/aspose.slides.effects)
 * βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

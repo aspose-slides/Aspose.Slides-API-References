@@ -6,9 +6,9 @@ type: docs
 url: /sv/aspose.slides/gradientstopeffectivedata/color/
 weight: 10
 ---
-## färgegenskap
-Returnerar färgen på ett gradientstopp.
-Skrivskyddad **aspose.slides.Color**.
+## color egenskap
+Returnerar color på ett gradientstopp.
+            Skrivskyddad [`Color`](/slides/python-net/sv/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -19,5 +19,6 @@ def color(self):
 
 ### Se även
 * klass [`GradientStopEffectiveData`](/slides/python-net/sv/aspose.slides/gradientstopeffectivedata)
+* klass [`Color`](/slides/python-net/sv/aspose.slides/color)
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

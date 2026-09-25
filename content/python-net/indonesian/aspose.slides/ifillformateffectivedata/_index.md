@@ -7,16 +7,16 @@ url: /id/aspose.slides/ifillformateffectivedata/
 ---
 ## IFillFormatEffectiveData kelas
 
-Objek tidak dapat diubah yang berisi properti pemformatan isian yang efektif.
+Objek tidak dapat diubah yang berisi properti pemformatan isian efektif.
 
 Tipe IFillFormatEffectiveData menampilkan anggota-anggota berikut:
 
 ## Properti
 
-| Properti | Deskripsi |
+| Property | Description |
 | :- | :- |
 | [`fill_type`](/slides/python-net/id/aspose.slides/ifillformateffectivedata/fill_type/) | Mengembalikan tipe pengisian.<br/>            Baca-saja [`FillType`](/slides/python-net/id/aspose.slides/filltype). |
-| [`solid_fill_color`](/slides/python-net/id/aspose.slides/ifillformateffectivedata/solid_fill_color/) | Mengembalikan warna isian.<br/>            Baca-saja **aspose.slides.Color**. |
+| [`solid_fill_color`](/slides/python-net/id/aspose.slides/ifillformateffectivedata/solid_fill_color/) | Mengembalikan warna isian.<br/>            Baca-saja [`Color`](/slides/python-net/id/aspose.slides/color). |
 | [`solid_fill_scheme_color`](/slides/python-net/id/aspose.slides/ifillformateffectivedata/solid_fill_scheme_color/) | Mendapatkan warna isian yang didefinisikan oleh skema warna.<br/>            Nilai [`SchemeColor.NOT_DEFINED`](/slides/python-net/id/aspose.slides/schemecolor/NOT_DEFINED) menunjukkan bahwa [`IFillFormatEffectiveData.solid_fill_color`](/slides/python-net/id/aspose.slides/ifillformateffectivedata/solid_fill_color) <br/>            bukan warna skema.<br/>            Baca-saja [`SchemeColor`](/slides/python-net/id/aspose.slides/schemecolor). |
 | [`gradient_format`](/slides/python-net/id/aspose.slides/ifillformateffectivedata/gradient_format/) | Mengembalikan format isian gradien.<br/>            Baca-saja [`IGradientFormatEffectiveData`](/slides/python-net/id/aspose.slides/igradientformateffectivedata). |
 | [`pattern_format`](/slides/python-net/id/aspose.slides/ifillformateffectivedata/pattern_format/) | Mengembalikan format isian pola.<br/>            Baca-saja [`IPatternFormatEffectiveData`](/slides/python-net/id/aspose.slides/ipatternformateffectivedata). |
@@ -30,4 +30,4 @@ Antarmuka ini digunakan bersama dengan antarmuka [`IFillFormat`](/slides/python-
 ### Lihat Juga
 * kelas [`IFillFormat`](/slides/python-net/id/aspose.slides/ifillformat)
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
-* perpustakaan [`Aspose.Slides`](/slides/python-net)
+* pustaka [`Aspose.Slides`](/slides/python-net)

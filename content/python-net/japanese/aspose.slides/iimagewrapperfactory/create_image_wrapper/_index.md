@@ -23,7 +23,7 @@ def create_image_wrapper(self, image):
 
 | パラメータ | 型 | 説明 |
 | :- | :- | :- |
-| image | [`IImage`](/slides/python-net/ja/aspose.slides/iimage) | 既存の画像 **aspose.slides.Image** |
+| image | [`IImage`](/slides/python-net/ja/aspose.slides/iimage) | 既存の Image **aspose.slides.IImage** |
 
 
 ## create_image_wrapper(self, stream) {#iorawiobase}

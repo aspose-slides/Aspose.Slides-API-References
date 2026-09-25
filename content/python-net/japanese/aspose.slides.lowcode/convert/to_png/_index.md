@@ -8,8 +8,7 @@ weight: 40
 ---
 ## to_png(pres, output_file_name) {#presentation-str}
 入力プレゼンテーションを PNG 形式の画像セットに変換します。  
-            出力ファイル名が "myPath/myFilename.png" の場合、結果は "myPath/myFilename_N.png" という名前のファイルセットとして保存されます（N はスライド番号）。
-
+出力ファイル名を "myPath/myFilename.png" と指定した場合、結果は "myPath/myFilename_N.png" という形式のファイルセットとして保存されます。N はスライド番号です。
 
 ```python
 @staticmethod
@@ -17,8 +16,7 @@ def to_png(pres, output_file_name):
     ...
 ```
 
-
-| パラメーター | 型 | 説明 |
+| パラメータ | 型 | 説明 |
 | :- | :- | :- |
 | pres | [`Presentation`](/slides/python-net/ja/aspose.slides/presentation) | 入力プレゼンテーション。 |
 | output_file_name | **str** | 出力ファイル名。 |
@@ -29,11 +27,9 @@ def to_png(pres, output_file_name):
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentException))** |  |
 
-
-## to_png(pres, output_file_name, image_size) {#presentation-str-asposepydrawingsize}
+## to_png(pres, output_file_name, image_size) {#presentation-str-asposeslidessize}
 入力プレゼンテーションを PNG 形式の画像セットに変換します。  
-            出力ファイル名が "myPath/myFilename.png" の場合、結果は "myPath/myFilename_N.png" という名前のファイルセットとして保存されます（N はスライド番号）。
-
+出力ファイル名を "myPath/myFilename.png" と指定した場合、結果は "myPath/myFilename_N.png" という形式のファイルセットとして保存されます。N はスライド番号です。
 
 ```python
 @staticmethod
@@ -41,12 +37,11 @@ def to_png(pres, output_file_name, image_size):
     ...
 ```
 
-
-| パラメーター | 型 | 説明 |
+| パラメータ | 型 | 説明 |
 | :- | :- | :- |
 | pres | [`Presentation`](/slides/python-net/ja/aspose.slides/presentation) | 入力プレゼンテーション |
 | output_file_name | **str** | 出力ファイル名。 |
-| image_size | **aspose.slides.Size** | 生成される各画像のサイズ。 |
+| image_size | [`Size`](/slides/python-net/ja/aspose.slides/size) | 生成される各画像のサイズ。 |
 
 ### 例外
 
@@ -54,11 +49,9 @@ def to_png(pres, output_file_name, image_size):
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentException))** |  |
 
-
 ## to_png(pres, output_file_name, scale, options) {#presentation-str-float-asposeslidesexportirenderingoptions}
 入力プレゼンテーションを PNG 形式の画像セットに変換します。  
-            出力ファイル名が "myPath/myFilename.png" の場合、結果は "myPath/myFilename_N.png" という名前のファイルセットとして保存されます（N はスライド番号）。
-
+出力ファイル名を "myPath/myFilename.png" と指定した場合、結果は "myPath/myFilename_N.png" という形式のファイルセットとして保存されます。N はスライド番号です。
 
 ```python
 @staticmethod
@@ -66,12 +59,11 @@ def to_png(pres, output_file_name, scale, options):
     ...
 ```
 
-
-| パラメーター | 型 | 説明 |
+| パラメータ | 型 | 説明 |
 | :- | :- | :- |
 | pres | [`Presentation`](/slides/python-net/ja/aspose.slides/presentation) | 入力プレゼンテーション。 |
 | output_file_name | **str** | 出力ファイル名。 |
-| scale | **float** | 元のスライドサイズに対する出力画像の拡大縮小率。 |
+| scale | **float** | 出力画像に適用される、元のスライドサイズに対するスケーリング係数です。 |
 | options | [`IRenderingOptions`](/slides/python-net/ja/aspose.slides.export/irenderingoptions) | レンダリングオプション。 |
 
 ### 例外
@@ -80,11 +72,10 @@ def to_png(pres, output_file_name, scale, options):
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentException))** |  |
 
-
-
 ### 参照
 * クラス [`Convert`](/slides/python-net/ja/aspose.slides.lowcode/convert)
 * クラス [`IRenderingOptions`](/slides/python-net/ja/aspose.slides.export/irenderingoptions)
 * クラス [`Presentation`](/slides/python-net/ja/aspose.slides/presentation)
+* クラス [`Size`](/slides/python-net/ja/aspose.slides/size)
 * モジュール [`aspose.slides.lowcode`](/slides/python-net/ja/aspose.slides.lowcode)
-* library [`Aspose.Slides`](/slides/python-net)
+* ライブラリ [`Aspose.Slides`](/slides/python-net)

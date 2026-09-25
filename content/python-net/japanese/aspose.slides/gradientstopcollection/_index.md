@@ -7,7 +7,7 @@ url: /ja/aspose.slides/gradientstopcollection/
 ---
 ## GradientStopCollection クラス
 
-グラデーション ストップのコレクションを表します。
+勾配ストップのコレクションを表します。
 
 **継承:**[`GradientStopCollection`](/slides/python-net/ja/aspose.slides/gradientstopcollection) → [`PVIObject`](/slides/python-net/ja/aspose.slides/pviobject)
 
@@ -20,7 +20,7 @@ GradientStopCollection 型は次のメンバーを公開します。
 | [`slide`](/slides/python-net/ja/aspose.slides/gradientstopcollection/slide/) |  |
 | [`presentation`](/slides/python-net/ja/aspose.slides/gradientstopcollection/presentation/) |  |
 
-インデックスでグラデーション ストップを返します。
+インデックスによって勾配ストップを返します。
 
 ## インデクサ
 
@@ -32,15 +32,14 @@ GradientStopCollection 型は次のメンバーを公開します。
 
 | メソッド | 説明 |
 | :- | :- |
-| [`add(self, position, color)`](/slides/python-net/ja/aspose.slides/gradientstopcollection/add/#float-asposepydrawingcolor) | 新しいグラデーション ストップを作成し、コレクションの末尾に追加します。 |
-| [`add(self, position, preset_color)`](/slides/python-net/ja/aspose.slides/gradientstopcollection/add/#float-presetcolor) | 新しいグラデーション ストップを作成し、コレクションの末尾に追加します。 |
-| [`add(self, position, scheme_color)`](/slides/python-net/ja/aspose.slides/gradientstopcollection/add/#float-schemecolor) | 新しいグラデーション ストップを作成し、コレクションの末尾に追加します。 |
-| [`insert(self, index, position, color)`](/slides/python-net/ja/aspose.slides/gradientstopcollection/insert/#int-float-asposepydrawingcolor) | 新しいグラデーション ストップを作成し、指定されたインデックスにコレクションへ挿入します。 |
-| [`insert(self, index, position, preset_color)`](/slides/python-net/ja/aspose.slides/gradientstopcollection/insert/#int-float-presetcolor) | 新しいグラデーション ストップを作成し、指定されたインデックスにコレクションへ挿入します。 |
-| [`insert(self, index, position, scheme_color)`](/slides/python-net/ja/aspose.slides/gradientstopcollection/insert/#int-float-schemecolor) | 新しいグラデーション ストップを作成し、指定されたインデックスにコレクションへ挿入します。 |
-| [`remove_at(self, index)`](/slides/python-net/ja/aspose.slides/gradientstopcollection/remove_at/#int) | 指定されたインデックスのグラデーション ストップを削除します。 |
-| [`clear(self)`](/slides/python-net/ja/aspose.slides/gradientstopcollection/clear/#) | コレクションからすべてのグラデーション ストップを削除します。 |
-
+| [`add(self, position, color)`](/slides/python-net/ja/aspose.slides/gradientstopcollection/add/#float-asposeslidescolor) | 新しい勾配ストップを作成し、コレクションの末尾に追加します。 |
+| [`add(self, position, preset_color)`](/slides/python-net/ja/aspose.slides/gradientstopcollection/add/#float-presetcolor) | 新しい勾配ストップを作成し、コレクションの末尾に追加します。 |
+| [`add(self, position, scheme_color)`](/slides/python-net/ja/aspose.slides/gradientstopcollection/add/#float-schemecolor) | 新しい勾配ストップを作成し、コレクションの末尾に追加します。 |
+| [`insert(self, index, position, color)`](/slides/python-net/ja/aspose.slides/gradientstopcollection/insert/#int-float-asposeslidescolor) | 新しい勾配ストップを作成し、指定されたインデックスにコレクションへ挿入します。 |
+| [`insert(self, index, position, preset_color)`](/slides/python-net/ja/aspose.slides/gradientstopcollection/insert/#int-float-presetcolor) | 新しい勾配ストップを作成し、指定されたインデックスにコレクションへ挿入します。 |
+| [`insert(self, index, position, scheme_color)`](/slides/python-net/ja/aspose.slides/gradientstopcollection/insert/#int-float-schemecolor) | 新しい勾配ストップを作成し、指定されたインデックスにコレクションへ挿入します。 |
+| [`remove_at(self, index)`](/slides/python-net/ja/aspose.slides/gradientstopcollection/remove_at/#int) | 指定されたインデックスの勾配ストップを削除します。 |
+| [`clear(self)`](/slides/python-net/ja/aspose.slides/gradientstopcollection/clear/#) | コレクションからすべての勾配ストップを削除します。 |
 
 ### 参照
 * クラス [`GradientStopCollection`](/slides/python-net/ja/aspose.slides/gradientstopcollection)

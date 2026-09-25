@@ -1,50 +1,43 @@
 ---
 title: get_visual_bounds method
-second_title: Referensi API Aspose.Slides untuk Python via .NET
+second_title: Referensi API Aspose.Slides untuk Python melalui .NET
 description: 
 type: docs
 url: /id/aspose.slides.charts/chart/get_visual_bounds/
 weight: 50
 ---
 ## get_visual_bounds(self) {#}
-Mendapatkan batas visual bentuk yang dihitung dari kontennya yang dirender.
+Mendapatkan batas visual dari bentuk yang dihitung dari konten yang dirender.
 
-### Returns
-Mengembalikan
+### Mengembalikan
 
-A **aspose.slides.RectangleF** yang mewakili batas visual bentuk
-             dalam koordinat slide.
-
-
+Sebuah [`RectangleF`](/slides/python-net/id/aspose.slides/rectanglef) yang mewakili batas visual dari bentuk dalam koordinat slide.
 
 ```python
 def get_visual_bounds(self):
     ...
 ```
 
+### Catatan
 
-### Remarks
-Catatan
+Segi empat yang dikembalikan mewakili batas yang sejajar sumbu dari semua konten
+             yang dihasilkan oleh bentuk selama proses rendering dalam ruang koordinat slide.
 
-Persegi panjang yang dikembalikan mewakili batas sejajar sumbu
-             dari semua konten yang dihasilkan oleh bentuk selama proses rendering dalam ruang koordinat slide.
-            
              Batas-batas ini mungkin berbeda dari batas model bentuk
              ([`Shape.x`](/slides/python-net/id/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/id/aspose.slides/shape/y),
              [`Shape.width`](/slides/python-net/id/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/id/aspose.slides/shape/height))
-             dan dapat berisi koordinat negatif jika konten yang dirender melampaui asal slide.
-            
-             Batas visual memperhitungkan aspek-aspek terkait rendering seperti
-             transformasi (misalnya, rotasi), lebar garis dan sambungan,
-             tata letak teks dan overflow, geometri SmartArt, serta efek tata letak lainnya
-             yang memengaruhi tampilan akhir bentuk yang dirender.
-            
-             Batas yang dikembalikan tidak dipotong ke persegi panjang slide.
+             dan mungkin berisi koordinat negatif jika konten yang dirender memperluas
+             melampaui asal slide.
 
+             Batas visual memperhitungkan aspek terkait rendering seperti
+             transformasi (misalnya, rotasi), lebar goresan dan sambungan,
+             tata letak teks dan overflow, geometri SmartArt, dan efek tata letak lainnya
+             yang memengaruhi tampilan akhir yang dirender dari bentuk.
 
+             Batas yang dikembalikan tidak dipotong ke segi empat slide.
 
-### See Also
-Lihat Juga
-* class [`Chart`](/slides/python-net/id/aspose.slides.charts/chart)
-* module [`aspose.slides.charts`](/slides/python-net/id/aspose.slides.charts)
+### Lihat Juga
+* kelas [`Chart`](/slides/python-net/id/aspose.slides.charts/chart)
+* kelas [`RectangleF`](/slides/python-net/id/aspose.slides/rectanglef)
+* modul [`aspose.slides.charts`](/slides/python-net/id/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

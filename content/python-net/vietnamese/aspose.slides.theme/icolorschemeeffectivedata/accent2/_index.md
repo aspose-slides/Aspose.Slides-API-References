@@ -7,8 +7,8 @@ url: /vi/aspose.slides.theme/icolorschemeeffectivedata/accent2/
 weight: 20
 ---
 ## accent2 thuộc tính
-Second accent color in the scheme.
-            Chỉ đọc **aspose.slides.Color**.
+Màu phụ thứ hai trong lược đồ.
+            Chỉ đọc [`Color`](/slides/python-net/vi/aspose.slides/color).
 
 ### Định nghĩa:
 ```python
@@ -20,5 +20,6 @@ def accent2(self):
 
 ### Xem thêm
 * lớp [`IColorSchemeEffectiveData`](/slides/python-net/vi/aspose.slides.theme/icolorschemeeffectivedata)
-* mô-đun [`aspose.slides.theme`](/slides/python-net/vi/aspose.slides.theme)
+* lớp [`Color`](/slides/python-net/vi/aspose.slides/color)
+* module [`aspose.slides.theme`](/slides/python-net/vi/aspose.slides.theme)
 * thư viện [`Aspose.Slides`](/slides/python-net)

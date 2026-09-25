@@ -7,8 +7,8 @@ url: /pt/aspose.slides.animation/scaleeffect/to/
 weight: 90
 ---
 ## para a propriedade
-Especifica a localização de destino para um efeito de escala de animação (em porcentagem).
-            Leitura/Gravação **aspose.slides.PointF**.
+Especifica a localização alvo para um efeito de escala de animação (em porcentagem).
+            Leitura/Gravação [`PointF`](/slides/python-net/pt/aspose.slides/pointf).
 
 ### Definição:
 ```python
@@ -22,7 +22,8 @@ def to(self, value):
 ```
 
 
-### Veja também
+### Ver também
 * classe [`ScaleEffect`](/slides/python-net/pt/aspose.slides.animation/scaleeffect)
+* classe [`PointF`](/slides/python-net/pt/aspose.slides/pointf)
 * módulo [`aspose.slides.animation`](/slides/python-net/pt/aspose.slides.animation)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

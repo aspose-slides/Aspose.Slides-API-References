@@ -5,10 +5,10 @@ description:
 type: docs
 url: /vi/aspose.slides.effects/icolorreplaceeffectivedata/
 ---
-## IColorReplaceEffectiveData class
+## IColorReplaceEffectiveData lớp
 
-Đối tượng bất biến đại diện cho hiệu ứng Thay thế Màu.
-            Tất cả các màu hiệu ứng đều được thay đổi thành một màu cố định.
+Đối tượng bất biến biểu thị hiệu ứng Thay thế Màu.
+            Tất cả các màu hiệu ứng được thay đổi thành màu cố định.
             Giá trị Alpha không bị ảnh hưởng.
 
 Kiểu IColorReplaceEffectiveData cung cấp các thành viên sau:
@@ -17,9 +17,9 @@ Kiểu IColorReplaceEffectiveData cung cấp các thành viên sau:
 
 | Thuộc tính | Mô tả |
 | :- | :- |
-| [`color`](/slides/python-net/vi/aspose.slides.effects/icolorreplaceeffectivedata/color/) | Trả về định dạng màu sẽ thay thế màu của mỗi pixel.<br/>            Chỉ đọc **aspose.slides.Color**. |
+| [`color`](/slides/python-net/vi/aspose.slides.effects/icolorreplaceeffectivedata/color/) | Trả về định dạng màu sẽ thay thế màu của mỗi pixel.<br/>            Chỉ đọc [`Color`](/slides/python-net/vi/aspose.slides/color). |
 
 
-### Xem Thêm
+### Xem thêm
 * mô-đun [`aspose.slides.effects`](/slides/python-net/vi/aspose.slides.effects)
 * thư viện [`Aspose.Slides`](/slides/python-net)

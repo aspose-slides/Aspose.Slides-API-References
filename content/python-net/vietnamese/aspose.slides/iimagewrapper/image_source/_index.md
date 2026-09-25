@@ -8,7 +8,7 @@ weight: 30
 ---
 ## image_source thuộc tính
 Lấy hình ảnh
-            Chỉ đọc **aspose.slides.Image**.
+            Chỉ đọc **aspose.slides.IImage**.
 
 ### Định nghĩa:
 ```python
@@ -18,7 +18,7 @@ def image_source(self):
 ```
 
 
-### Xem thêm
+### Xem Thêm
 * lớp [`IImageWrapper`](/slides/python-net/vi/aspose.slides/iimagewrapper)
 * mô-đun [`aspose.slides`](/slides/python-net/vi/aspose.slides)
 * thư viện [`Aspose.Slides`](/slides/python-net)

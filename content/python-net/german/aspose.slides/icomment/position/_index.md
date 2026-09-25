@@ -6,9 +6,9 @@ type: docs
 url: /de/aspose.slides/icomment/position/
 weight: 50
 ---
-## Positionseigenschaft
-Gibt die Position eines Kommentars auf einer Folie zurück oder setzt sie.
-            Lesen/Schreiben **aspose.slides.PointF**.
+## position Eigenschaft
+Gibt die Position eines Kommentars auf einer Folie zurück oder legt sie fest.
+            Lesen/Schreiben [`PointF`](/slides/python-net/de/aspose.slides/pointf).
 
 ### Definition:
 ```python
@@ -24,5 +24,6 @@ def position(self, value):
 
 ### Siehe auch
 * Klasse [`IComment`](/slides/python-net/de/aspose.slides/icomment)
+* Klasse [`PointF`](/slides/python-net/de/aspose.slides/pointf)
 * Modul [`aspose.slides`](/slides/python-net/de/aspose.slides)
 * Bibliothek [`Aspose.Slides`](/slides/python-net)

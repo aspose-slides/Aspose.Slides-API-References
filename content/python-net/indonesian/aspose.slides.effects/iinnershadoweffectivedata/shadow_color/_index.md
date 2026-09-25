@@ -8,7 +8,7 @@ weight: 50
 ---
 ## shadow_color properti
 Warna bayangan.
-            Hanya-baca **aspose.slides.Color**.
+            Hanya-baca [`Color`](/slides/python-net/id/aspose.slides/color).
 
 ### Definisi:
 ```python
@@ -20,5 +20,6 @@ def shadow_color(self):
 
 ### Lihat Juga
 * kelas [`IInnerShadowEffectiveData`](/slides/python-net/id/aspose.slides.effects/iinnershadoweffectivedata)
+* kelas [`Color`](/slides/python-net/id/aspose.slides/color)
 * modul [`aspose.slides.effects`](/slides/python-net/id/aspose.slides.effects)
-* pustaka [`Aspose.Slides`](/slides/python-net)
+* perpustakaan [`Aspose.Slides`](/slides/python-net)

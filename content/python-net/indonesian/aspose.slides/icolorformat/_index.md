@@ -5,18 +5,18 @@ description:
 type: docs
 url: /id/aspose.slides/icolorformat/
 ---
-## Kelas IColorFormat
+## IColorFormat kelas
 
 Mewakili warna yang digunakan dalam presentasi.
 
-Tipe IColorFormat mengekspos anggota-anggota berikut:
+Tipe IColorFormat menampilkan anggota berikut:
 
 ## Properti
 
 | Properti | Deskripsi |
 | :- | :- |
 | [`color_type`](/slides/python-net/id/aspose.slides/icolorformat/color_type/) | Mengembalikan atau mengatur metode definisi warna.<br/>            Baca/tulis [`ColorType`](/slides/python-net/id/aspose.slides/colortype). |
-| [`color`](/slides/python-net/id/aspose.slides/icolorformat/color/) | Mengembalikan warna hasil (dengan semua transformasi warna diterapkan).<br/>            Mengatur warna RGB dan menghapus semua transformasi warna.<br/>            Baca/tulis **aspose.slides.Color**. |
+| [`color`](/slides/python-net/id/aspose.slides/icolorformat/color/) | Mengembalikan warna hasil (dengan semua transformasi warna diterapkan).<br/>            Mengatur warna RGB dan menghapus semua transformasi warna.<br/>            Baca/tulis [`Color`](/slides/python-net/id/aspose.slides/color). |
 | [`preset_color`](/slides/python-net/id/aspose.slides/icolorformat/preset_color/) | Mengembalikan atau mengatur preset warna.<br/>            Baca/tulis [`PresetColor`](/slides/python-net/id/aspose.slides/presetcolor). |
 | [`system_color`](/slides/python-net/id/aspose.slides/icolorformat/system_color/) | Mengembalikan atau mengatur warna yang diidentifikasi oleh tabel warna sistem.<br/>            Baca/tulis [`SystemColor`](/slides/python-net/id/aspose.slides/systemcolor). |
 | [`scheme_color`](/slides/python-net/id/aspose.slides/icolorformat/scheme_color/) | Mengembalikan atau mengatur warna yang diidentifikasi oleh skema warna.<br/>            Baca/tulis [`SchemeColor`](/slides/python-net/id/aspose.slides/schemecolor). |
@@ -35,7 +35,7 @@ Tipe IColorFormat mengekspos anggota-anggota berikut:
 
 | Metode | Deskripsi |
 | :- | :- |
-| [`to_string(self, format)`](/slides/python-net/id/aspose.slides/icolorformat/to_string/#colorstringformat) | Mengembalikan sebuah **str** yang merepresentasikan format warna saat ini. |
+| [`to_string(self, format)`](/slides/python-net/id/aspose.slides/icolorformat/to_string/#colorstringformat) | Mengembalikan sebuah **str** yang mewakili format warna saat ini. |
 | [`copy_from(self, color)`](/slides/python-net/id/aspose.slides/icolorformat/copy_from/#icolorformat) | Menyalin format warna dari "color". |
 
 ### Lihat Juga

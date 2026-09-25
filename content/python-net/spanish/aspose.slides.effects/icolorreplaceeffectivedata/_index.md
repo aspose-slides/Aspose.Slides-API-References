@@ -1,6 +1,6 @@
 ---
 title: IColorReplaceEffectiveData class
-second_title: Aspose.Slides para Python vía .NET API Reference
+second_title: Aspose.Slides para Python vía .NET Referencia de API
 description: 
 type: docs
 url: /es/aspose.slides.effects/icolorreplaceeffectivedata/
@@ -17,8 +17,7 @@ El tipo IColorReplaceEffectiveData expone los siguientes miembros:
 
 | Propiedad | Descripción |
 | :- | :- |
-| [`color`](/slides/python-net/es/aspose.slides.effects/icolorreplaceeffectivedata/color/) | Devuelve el formato de color que reemplazará el color de cada píxel.<br/>            Solo lectura **aspose.slides.Color**. |
-
+| [`color`](/slides/python-net/es/aspose.slides.effects/icolorreplaceeffectivedata/color/) | Devuelve el formato de color que reemplazará el color de cada píxel.<br/>            Solo lectura [`Color`](/slides/python-net/es/aspose.slides/color). |
 
 ### Ver también
 * módulo [`aspose.slides.effects`](/slides/python-net/es/aspose.slides.effects)

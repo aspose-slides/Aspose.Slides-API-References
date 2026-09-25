@@ -1,6 +1,6 @@
 ---
 title: get_visual_bounds method
-second_title: Riferimento API Aspose.Slides per Python via .NET
+second_title: Aspose.Slides per Python via .NET Riferimento API
 description: 
 type: docs
 url: /it/aspose.slides/table/get_visual_bounds/
@@ -11,7 +11,7 @@ Ottiene i limiti visivi della forma calcolati dal suo contenuto renderizzato.
 
 ### Restituisce
 
-Una **aspose.slides.RectangleF** che rappresenta i limiti visivi della forma
+Un [`RectangleF`](/slides/python-net/it/aspose.slides/rectanglef) che rappresenta i limiti visivi della forma
              nelle coordinate della diapositiva.
 
 
@@ -33,9 +33,9 @@ Il rettangolo restituito rappresenta i limiti allineati agli assi di tutto il co
              e possono contenere coordinate negative se il contenuto renderizzato si estende
              oltre l'origine della diapositiva.
             
-             I limiti visivi tengono conto di aspetti relativi al rendering come
-             trasformazioni (ad esempio, rotazione), larghezza e giunzioni del tratto,
-             layout e overflow del testo, geometria di SmartArt e altri effetti di layout
+             I limiti visivi tengono conto degli aspetti legati al rendering come
+             le trasformazioni (ad esempio, rotazione), lo spessore e le giunzioni del tratto,
+             il layout del testo e l'overflow, la geometria di SmartArt e altri effetti di layout
              che influenzano l'aspetto finale renderizzato della forma.
             
              I limiti restituiti non sono ritagliati al rettangolo della diapositiva.
@@ -44,5 +44,6 @@ Il rettangolo restituito rappresenta i limiti allineati agli assi di tutto il co
 
 ### Vedi anche
 * classe [`Table`](/slides/python-net/it/aspose.slides/table)
+* classe [`RectangleF`](/slides/python-net/it/aspose.slides/rectanglef)
 * modulo [`aspose.slides`](/slides/python-net/it/aspose.slides)
 * libreria [`Aspose.Slides`](/slides/python-net)

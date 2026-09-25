@@ -1,19 +1,17 @@
 ---
 title: insert_modern_comment method
-second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
+second_title: Aspose.Slides για Python μέσω .NET αναφορά API
 description: 
 type: docs
 url: /el/aspose.slides/icommentcollection/insert_modern_comment/
 weight: 50
 ---
-## insert_modern_comment(self, index, text, slide, shape, position, creation_time) {#int-str-islide-ishape-asposepydrawingpointf-datetime}
-Εισαγωγή νέου μοντέρνου σχολίου σε μια συλλογή στον καθορισμένο δείκτη.
+## insert_modern_comment(self, index, text, slide, shape, position, creation_time) {#int-str-islide-ishape-asposeslidespointf-datetime}
+Εισάγετε νέο μοντέρνο σχόλιο σε μια συλλογή στον καθορισμένο δείκτη.
 
 ### Επιστρέφει
 
-Το εισαχθέν μοντέρνο σχόλιο.
-
-
+Το εισαγμένο μοντέρνο σχόλιο.
 
 ```python
 def insert_modern_comment(self, index, text, slide, shape, position, creation_time):
@@ -25,10 +23,10 @@ def insert_modern_comment(self, index, text, slide, shape, position, creation_ti
 | :- | :- | :- |
 | index | **int** | Δείκτης του στοιχείου σε μια συλλογή στην οποία πρέπει να εισαχθεί το μοντέρνο σχόλιο. |
 | text | **str** | Απλό κείμενο ενός νέου μοντέρνου σχολίου. |
-| slide | [`ISlide`](/slides/python-net/el/aspose.slides/islide) | Slide σε μια παρουσίαση όπου να προστεθεί ένα νέο μοντέρνο σχόλιο. |
-| shape | [`IShape`](/slides/python-net/el/aspose.slides/ishape) | Shape σε μια διαφάνεια στην οποία συσχετίζεται ένα νέο μοντέρνο σχόλιο. |
-| position | **aspose.slides.PointF** | Position σε μια διαφάνεια όπου να προστεθεί ένα νέο μοντέρνο σχόλιο. |
-| creation_time | **DateTime** | Ώρα δημιουργίας ενός μοντέρνου σχολίου. |
+| slide | [`ISlide`](/slides/python-net/el/aspose.slides/islide) | Διαφάνεια σε μια παρουσίαση όπου θα προστεθεί ένα νέο μοντέρνο σχόλιο. |
+| shape | [`IShape`](/slides/python-net/el/aspose.slides/ishape) | Σχήμα σε μια διαφάνεια στο οποίο συνδέεται ένα νέο μοντέρνο σχόλιο. |
+| position | [`PointF`](/slides/python-net/el/aspose.slides/pointf) | Θέση σε μια διαφάνεια όπου θα προστεθεί ένα νέο μοντέρνο σχόλιο. |
+| creation_time | **DateTime** | Χρόνος δημιουργίας ενός μοντέρνου σχολίου. |
 
 
 
@@ -37,5 +35,6 @@ def insert_modern_comment(self, index, text, slide, shape, position, creation_ti
 * κλάση [`IModernComment`](/slides/python-net/el/aspose.slides/imoderncomment)
 * κλάση [`IShape`](/slides/python-net/el/aspose.slides/ishape)
 * κλάση [`ISlide`](/slides/python-net/el/aspose.slides/islide)
+* κλάση [`PointF`](/slides/python-net/el/aspose.slides/pointf)
 * μονάδα [`aspose.slides`](/slides/python-net/el/aspose.slides)
 * βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

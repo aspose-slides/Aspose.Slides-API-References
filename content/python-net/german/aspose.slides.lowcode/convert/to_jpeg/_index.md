@@ -1,6 +1,6 @@
 ---
 title: to_jpeg method
-second_title: Aspose.Slides für Python über .NET API-Referenz
+second_title: Aspose.Slides für Python via .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides.lowcode/convert/to_jpeg/
@@ -8,13 +8,16 @@ weight: 20
 ---
 ## to_jpeg(pres, output_file_name) {#presentation-str}
 Konvertiert die Eingabepräsentation in eine Menge von JPEG-Format-Bildern.  
-Wenn der Ausgabedateiname als "myPath/myFilename.jpeg" angegeben wird, wird das Ergebnis als eine Menge von "myPath/myFilename_N.jpeg"-Dateien gespeichert, wobei N eine Foliennummer ist.
+            Wenn der Ausgabedateiname als "myPath/myFilename.jpeg" angegeben wird, 
+            wird das Ergebnis als Menge von "myPath/myFilename_N.jpeg"-Dateien gespeichert, wobei N eine Foliennummer ist.
+
 
 ```python
 @staticmethod
 def to_jpeg(pres, output_file_name):
     ...
 ```
+
 
 | Parameter | Typ | Beschreibung |
 | :- | :- | :- |
@@ -27,9 +30,12 @@ def to_jpeg(pres, output_file_name):
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentException))** |  |
 
-## to_jpeg(pres, output_file_name, image_size) {#presentation-str-asposepydrawingsize}
+
+## to_jpeg(pres, output_file_name, image_size) {#presentation-str-asposeslidessize}
 Konvertiert die Eingabepräsentation in eine Menge von JPEG-Format-Bildern.  
-Wenn der Ausgabedateiname als "myPath/myFilename.jpeg" angegeben wird, wird das Ergebnis als eine Menge von "myPath/myFilename_N.jpeg"-Dateien gespeichert, wobei N eine Foliennummer ist.
+            Wenn der Ausgabedateiname als "myPath/myFilename.jpeg" angegeben wird, 
+            wird das Ergebnis als Menge von "myPath/myFilename_N.jpeg"-Dateien gespeichert, wobei N eine Foliennummer ist.
+
 
 ```python
 @staticmethod
@@ -37,11 +43,12 @@ def to_jpeg(pres, output_file_name, image_size):
     ...
 ```
 
+
 | Parameter | Typ | Beschreibung |
 | :- | :- | :- |
 | pres | [`Presentation`](/slides/python-net/de/aspose.slides/presentation) | Die Eingabepräsentation |
 | output_file_name | **str** | Der Ausgabedateiname. |
-| image_size | **aspose.slides.Size** | Die Größe jedes erzeugten Bildes. |
+| image_size | [`Size`](/slides/python-net/de/aspose.slides/size) | Die Größe jedes erzeugten Bildes. |
 
 ### Ausnahmen
 
@@ -49,15 +56,19 @@ def to_jpeg(pres, output_file_name, image_size):
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentException))** |  |
 
+
 ## to_jpeg(pres, output_file_name, scale, options) {#presentation-str-float-asposeslidesexportirenderingoptions}
 Konvertiert die Eingabepräsentation in eine Menge von JPEG-Format-Bildern.  
-Wenn der Ausgabedateiname als "myPath/myFilename.jpeg" angegeben wird, wird das Ergebnis als eine Menge von "myPath/myFilename_N.jpeg"-Dateien gespeichert, wobei N eine Foliennummer ist.
+            Wenn der Ausgabedateiname als "myPath/myFilename.jpeg" angegeben wird, 
+            wird das Ergebnis als Menge von "myPath/myFilename_N.jpeg"-Dateien gespeichert, wobei N eine Foliennummer ist.
+
 
 ```python
 @staticmethod
 def to_jpeg(pres, output_file_name, scale, options):
     ...
 ```
+
 
 | Parameter | Typ | Beschreibung |
 | :- | :- | :- |
@@ -72,9 +83,12 @@ def to_jpeg(pres, output_file_name, scale, options):
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentException))** |  |
 
+
+
 ### Siehe auch
 * Klasse [`Convert`](/slides/python-net/de/aspose.slides.lowcode/convert)
 * Klasse [`IRenderingOptions`](/slides/python-net/de/aspose.slides.export/irenderingoptions)
 * Klasse [`Presentation`](/slides/python-net/de/aspose.slides/presentation)
+* Klasse [`Size`](/slides/python-net/de/aspose.slides/size)
 * Modul [`aspose.slides.lowcode`](/slides/python-net/de/aspose.slides.lowcode)
 * Bibliothek [`Aspose.Slides`](/slides/python-net)

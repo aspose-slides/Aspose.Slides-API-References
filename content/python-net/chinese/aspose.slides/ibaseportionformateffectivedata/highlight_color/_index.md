@@ -8,7 +8,7 @@ weight: 110
 ---
 ## highlight_color 属性
 返回用于突出显示文本的颜色。
-            只读 **aspose.slides.Color**.
+            只读 [`Color`](/slides/python-net/zh/aspose.slides/color).
 
 ### 定义:
 ```python
@@ -18,7 +18,8 @@ def highlight_color(self):
 ```
 
 
-### 另见
+### 另请参见
 * 类 [`IBasePortionFormatEffectiveData`](/slides/python-net/zh/aspose.slides/ibaseportionformateffectivedata)
+* 类 [`Color`](/slides/python-net/zh/aspose.slides/color)
 * 模块 [`aspose.slides`](/slides/python-net/zh/aspose.slides)
 * 库 [`Aspose.Slides`](/slides/python-net)

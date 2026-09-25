@@ -1,15 +1,15 @@
 ---
 title: add method
-second_title: Référence API Aspose.Slides pour Python via .NET
+second_title: Référence de l'API Aspose.Slides pour Python via .NET
 description: 
 type: docs
 url: /fr/aspose.slides/igradientstopcollection/add/
 weight: 10
 ---
-## add(self, position, color) {#float-asposepydrawingcolor}
+## add(self, position, color) {#float-asposeslidescolor}
 Crée le nouveau point d'arrêt de dégradé et l'ajoute à la fin de la collection.
 
-### Retour
+### Renvoie
 
 Indice du nouveau point d'arrêt de dégradé dans la collection.
 
@@ -24,13 +24,13 @@ def add(self, position, color):
 | Paramètre | Type | Description |
 | :- | :- | :- |
 | position | **float** | Position du nouveau point d'arrêt de dégradé. |
-| color | **aspose.slides.Color** | Couleur du nouveau point d'arrêt de dégradé. |
+| color | [`Color`](/slides/python-net/fr/aspose.slides/color) | Couleur du nouveau point d'arrêt de dégradé. |
 
 
 ## add(self, position, preset_color) {#float-presetcolor}
 Crée le nouveau point d'arrêt de dégradé et l'ajoute à la fin de la collection.
 
-### Retour
+### Renvoie
 
 Indice du nouveau point d'arrêt de dégradé dans la collection.
 
@@ -51,7 +51,7 @@ def add(self, position, preset_color):
 ## add(self, position, scheme_color) {#float-schemecolor}
 Crée le nouveau point d'arrêt de dégradé et l'ajoute à la fin de la collection.
 
-### Retour
+### Renvoie
 
 Indice du nouveau point d'arrêt de dégradé dans la collection.
 
@@ -75,5 +75,6 @@ def add(self, position, scheme_color):
 * classe [`IGradientStopCollection`](/slides/python-net/fr/aspose.slides/igradientstopcollection)
 * énumération [`PresetColor`](/slides/python-net/fr/aspose.slides/presetcolor)
 * énumération [`SchemeColor`](/slides/python-net/fr/aspose.slides/schemecolor)
+* classe [`Color`](/slides/python-net/fr/aspose.slides/color)
 * module [`aspose.slides`](/slides/python-net/fr/aspose.slides)
 * bibliothèque [`Aspose.Slides`](/slides/python-net)

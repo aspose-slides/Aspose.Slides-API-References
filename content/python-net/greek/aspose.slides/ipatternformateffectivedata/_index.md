@@ -7,28 +7,28 @@ url: /el/aspose.slides/ipatternformateffectivedata/
 ---
 ## IPatternFormatEffectiveData κλάση
 
-Αμετάβλητο αντικείμενο που περιέχει τις αποτελεσματικές ιδιότητες γεμίσματος προτύπου.
+Αμετάβλητο αντικείμενο που περιέχει αποτελεσματικές ιδιότητες γεμίσματος μοτίβου.
 
-Ο τύπος IPatternFormatEffectiveData εκθέτει τα παρακάτω μέλη:
+Ο τύπος IPatternFormatEffectiveData εκθέτει τα ακόλουθα μέλη:
 
 ## Ιδιότητες
 
-| Ιδιότητα | Περιγραφή |
+| Property | Description |
 | :- | :- |
-| [`pattern_style`](/slides/python-net/el/aspose.slides/ipatternformateffectivedata/pattern_style/) | Επιστρέφει το στυλ προτύπου.<br/>            Μόνο για ανάγνωση [`PatternStyle`](/slides/python-net/el/aspose.slides/patternstyle). |
-| [`fore_color`](/slides/python-net/el/aspose.slides/ipatternformateffectivedata/fore_color/) | Επιστρέφει το χρώμα προτύπου του προσθίου.<br/>            Μόνο για ανάγνωση **aspose.slides.Color**. |
-| [`back_color`](/slides/python-net/el/aspose.slides/ipatternformateffectivedata/back_color/) | Επιστρέφει το χρώμα προτύπου του φόντου.<br/>            Μόνο για ανάγνωση **aspose.slides.Color**. |
+| [`pattern_style`](/slides/python-net/el/aspose.slides/ipatternformateffectivedata/pattern_style/) | Επιστρέφει το στυλ του μοτίβου.<br/>            Μόνο για ανάγνωση [`PatternStyle`](/slides/python-net/el/aspose.slides/patternstyle). |
+| [`fore_color`](/slides/python-net/el/aspose.slides/ipatternformateffectivedata/fore_color/) | Επιστρέφει το χρώμα του προσκηνίου μοτίβου.<br/>            Μόνο για ανάγνωση [`Color`](/slides/python-net/el/aspose.slides/color). |
+| [`back_color`](/slides/python-net/el/aspose.slides/ipatternformateffectivedata/back_color/) | Επιστρέφει το χρώμα του παρασκηνίου μοτίβου.<br/>            Μόνο για ανάγνωση [`Color`](/slides/python-net/el/aspose.slides/color). |
 
 ## Μέθοδοι
 
-| Μέθοδος | Περιγραφή |
+| Method | Description |
 | :- | :- |
-| [`get_tile_i_image(self, background, foreground)`](/slides/python-net/el/aspose.slides/ipatternformateffectivedata/get_tile_i_image/#asposepydrawingcolor-asposepydrawingcolor) | Δημιουργεί μια εικόνα πλακιδίου για το γέμισμα προτύπου με καθορισμένα χρώματα. |
+| [`get_tile_i_image(self, background, foreground)`](/slides/python-net/el/aspose.slides/ipatternformateffectivedata/get_tile_i_image/#asposeslidescolor-asposeslidescolor) | Δημιουργεί μια εικόνα πλακιδίου για το γέμισμα μοτίβου με καθορισμένα χρώματα. |
 
 
 ### Παρατηρήσεις
 
-Αυτή η διεπαφή χρησιμοποιείται ως μέρος των [`IFillFormatEffectiveData`](/slides/python-net/el/aspose.slides/ifillformateffectivedata) και [`ILineFillFormatEffectiveData`](/slides/python-net/el/aspose.slides/ilinefillformateffectivedata).
+Αυτή η διεπαφή χρησιμοποιείται ως μέρος του [`IFillFormatEffectiveData`](/slides/python-net/el/aspose.slides/ifillformateffectivedata) και του [`ILineFillFormatEffectiveData`](/slides/python-net/el/aspose.slides/ilinefillformateffectivedata).
 
 
 ### Δείτε επίσης

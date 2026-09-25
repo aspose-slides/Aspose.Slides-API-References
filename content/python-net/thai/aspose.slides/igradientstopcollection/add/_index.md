@@ -6,12 +6,11 @@ type: docs
 url: /th/aspose.slides/igradientstopcollection/add/
 weight: 10
 ---
-## add(self, position, color) {#float-asposepydrawingcolor}
-สร้างจุดไล่สีใหม่และเพิ่มเข้าไปที่ท้ายของคอลเลกชัน
+## add(self, position, color) {#float-asposeslidescolor}
+สร้าง gradient stop ใหม่และเพิ่มลงในท้ายของคอลเลกชัน
 
 ### Returns
-
-ดัชนีของจุดไล่สีใหม่ในคอลเลกชัน
+ดัชนีของ gradient stop ใหม่ในคอลเลกชัน
 
 
 
@@ -20,19 +19,17 @@ def add(self, position, color):
     ...
 ```
 
-
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| Parameter | Type | Description |
 | :- | :- | :- |
-| position | **float** | ตำแหน่งของจุดไล่สีใหม่ |
-| color | **aspose.slides.Color** | สีของจุดไล่สีใหม่ |
+| position | **float** | ตำแหน่งของ gradient stop ใหม่ |
+| color | [`Color`](/slides/python-net/th/aspose.slides/color) | สีของ gradient stop ใหม่ |
 
 
 ## add(self, position, preset_color) {#float-presetcolor}
-สร้างจุดไล่สีใหม่และเพิ่มเข้าไปที่ท้ายของคอลเลกชัน
+สร้าง gradient stop ใหม่และเพิ่มลงในท้ายของคอลเลกชัน
 
 ### Returns
-
-ดัชนีของจุดไล่สีใหม่ในคอลเลกชัน
+ดัชนีของ gradient stop ใหม่ในคอลเลกชัน
 
 
 
@@ -41,19 +38,17 @@ def add(self, position, preset_color):
     ...
 ```
 
-
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| Parameter | Type | Description |
 | :- | :- | :- |
-| position | **float** | ตำแหน่งของจุดไล่สีใหม่ |
-| preset_color | [`PresetColor`](/slides/python-net/th/aspose.slides/presetcolor) | สีของจุดไล่สีใหม่ |
+| position | **float** | ตำแหน่งของ gradient stop ใหม่ |
+| preset_color | [`PresetColor`](/slides/python-net/th/aspose.slides/presetcolor) | สีของ gradient stop ใหม่ |
 
 
 ## add(self, position, scheme_color) {#float-schemecolor}
-สร้างจุดไล่สีใหม่และเพิ่มเข้าไปที่ท้ายของคอลเลกชัน
+สร้าง gradient stop ใหม่และเพิ่มลงในท้ายของคอลเลกชัน
 
 ### Returns
-
-ดัชนีของจุดไล่สีใหม่ในคอลเลกชัน
+ดัชนีของ gradient stop ใหม่ในคอลเลกชัน
 
 
 
@@ -62,18 +57,18 @@ def add(self, position, scheme_color):
     ...
 ```
 
-
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| Parameter | Type | Description |
 | :- | :- | :- |
-| position | **float** | ตำแหน่งของจุดไล่สีใหม่ |
-| scheme_color | [`SchemeColor`](/slides/python-net/th/aspose.slides/schemecolor) | สีของจุดไล่สีใหม่ |
+| position | **float** | ตำแหน่งของ gradient stop ใหม่ |
+| scheme_color | [`SchemeColor`](/slides/python-net/th/aspose.slides/schemecolor) | สีของ gradient stop ใหม่ |
 
 
 
 ### See Also
 * คลาส [`IGradientStop`](/slides/python-net/th/aspose.slides/igradientstop)
 * คลาส [`IGradientStopCollection`](/slides/python-net/th/aspose.slides/igradientstopcollection)
-* enumeration [`PresetColor`](/slides/python-net/th/aspose.slides/presetcolor)
-* enumeration [`SchemeColor`](/slides/python-net/th/aspose.slides/schemecolor)
+* การนับค่า [`PresetColor`](/slides/python-net/th/aspose.slides/presetcolor)
+* การนับค่า [`SchemeColor`](/slides/python-net/th/aspose.slides/schemecolor)
+* คลาส [`Color`](/slides/python-net/th/aspose.slides/color)
 * โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

@@ -7,29 +7,29 @@ url: /fa/aspose.slides/ifillformateffectivedata/
 ---
 ## IFillFormatEffectiveData کلاس
 
-شیء غیرقابل تغییر که شامل ویژگی‌های مؤثر قالب‌بندی پرش است.
+شیء غیرقابل تغییر که شامل ویژگی‌های مؤثر قالب‌بندی پر است.
 
-نوع IFillFormatEffectiveData اعضای زیر را در دسترس قرار می‌دهد:
+نوع IFillFormatEffectiveData اعضای زیر را ارائه می‌دهد:
 
 ## ویژگی‌ها
 
 | ویژگی | توضیح |
 | :- | :- |
 | [`fill_type`](/slides/python-net/fa/aspose.slides/ifillformateffectivedata/fill_type/) | نوع پر شدن را برمی‌گرداند.<br/>            فقط خواندنی [`FillType`](/slides/python-net/fa/aspose.slides/filltype). |
-| [`solid_fill_color`](/slides/python-net/fa/aspose.slides/ifillformateffectivedata/solid_fill_color/) | رنگ پرش را برمی‌گرداند.<br/>            فقط خواندنی **aspose.slides.Color**. |
-| [`solid_fill_scheme_color`](/slides/python-net/fa/aspose.slides/ifillformateffectivedata/solid_fill_scheme_color/) | رنگ پرش تعریف‌شده توسط طرح رنگ را به‌دست می‌آورد.<br/>            مقدار [`SchemeColor.NOT_DEFINED`](/slides/python-net/fa/aspose.slides/schemecolor/NOT_DEFINED) نشان می‌دهد که [`IFillFormatEffectiveData.solid_fill_color`](/slides/python-net/fa/aspose.slides/ifillformateffectivedata/solid_fill_color)<br/>            یک رنگ طرح نیست.<br/>            فقط خواندنی [`SchemeColor`](/slides/python-net/fa/aspose.slides/schemecolor). |
-| [`gradient_format`](/slides/python-net/fa/aspose.slides/ifillformateffectivedata/gradient_format/) | قالب پرش گرادیان را برمی‌گرداند.<br/>            فقط خواندنی [`IGradientFormatEffectiveData`](/slides/python-net/fa/aspose.slides/igradientformateffectivedata). |
-| [`pattern_format`](/slides/python-net/fa/aspose.slides/ifillformateffectivedata/pattern_format/) | قالب پرش الگو را برمی‌گرداند.<br/>            فقط خواندنی [`IPatternFormatEffectiveData`](/slides/python-net/fa/aspose.slides/ipatternformateffectivedata). |
-| [`picture_fill_format`](/slides/python-net/fa/aspose.slides/ifillformateffectivedata/picture_fill_format/) | قالب پرش تصویر را برمی‌گرداند.<br/>            فقط خواندنی [`IPictureFillFormatEffectiveData`](/slides/python-net/fa/aspose.slides/ipicturefillformateffectivedata). |
-| [`rotate_with_shape`](/slides/python-net/fa/aspose.slides/ifillformateffectivedata/rotate_with_shape/) | تعیین می‌کند که آیا پرش باید همراه با شکل چرخانده شود یا نه.<br/>            فقط خواندنی **bool**. |
+| [`solid_fill_color`](/slides/python-net/fa/aspose.slides/ifillformateffectivedata/solid_fill_color/) | رنگ پر را برمی‌گرداند.<br/>            فقط خواندنی [`Color`](/slides/python-net/fa/aspose.slides/color). |
+| [`solid_fill_scheme_color`](/slides/python-net/fa/aspose.slides/ifillformateffectivedata/solid_fill_scheme_color/) | رنگ پر تعریف‌شده توسط طرح رنگ را دریافت می‌کند.<br/>            مقدار [`SchemeColor.NOT_DEFINED`](/slides/python-net/fa/aspose.slides/schemecolor/NOT_DEFINED) نشان می‌دهد که [`IFillFormatEffectiveData.solid_fill_color`](/slides/python-net/fa/aspose.slides/ifillformateffectivedata/solid_fill_color) <br/>            یک رنگ طرح نیست.<br/>            فقط خواندنی [`SchemeColor`](/slides/python-net/fa/aspose.slides/schemecolor). |
+| [`gradient_format`](/slides/python-net/fa/aspose.slides/ifillformateffectivedata/gradient_format/) | قالب پر گرادیان را برمی‌گرداند.<br/>            فقط خواندنی [`IGradientFormatEffectiveData`](/slides/python-net/fa/aspose.slides/igradientformateffectivedata). |
+| [`pattern_format`](/slides/python-net/fa/aspose.slides/ifillformateffectivedata/pattern_format/) | قالب پر الگو را برمی‌گرداند.<br/>            فقط خواندنی [`IPatternFormatEffectiveData`](/slides/python-net/fa/aspose.slides/ipatternformateffectivedata). |
+| [`picture_fill_format`](/slides/python-net/fa/aspose.slides/ifillformateffectivedata/picture_fill_format/) | قالب پر تصویر را برمی‌گرداند.<br/>            فقط خواندنی [`IPictureFillFormatEffectiveData`](/slides/python-net/fa/aspose.slides/ipicturefillformateffectivedata). |
+| [`rotate_with_shape`](/slides/python-net/fa/aspose.slides/ifillformateffectivedata/rotate_with_shape/) | تعیین می‌کند که آیا پر باید با شکل چرخانده شود یا نه.<br/>            فقط خواندنی **bool**. |
 
 
-### ملاحظات
+### توضیحات
 
-این رابط همراه با رابط [`IFillFormat`](/slides/python-net/fa/aspose.slides/ifillformat) برای برگرداندن مقادیر قالب‌بندی مؤثر با به‌کارگیری وراثت استفاده می‌شود.
+این رابط همراه با رابط [`IFillFormat`](/slides/python-net/fa/aspose.slides/ifillformat) استفاده می‌شود تا مقادیر قالب‌بندی مؤثر با ارث‌بری اعمال‌شده را بازگرداند.
 
 
-### به‌هم‌پیوستگی
+### موارد مرتبط
 * کلاس [`IFillFormat`](/slides/python-net/fa/aspose.slides/ifillformat)
 * ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

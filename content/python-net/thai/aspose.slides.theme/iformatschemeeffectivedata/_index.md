@@ -7,18 +7,18 @@ url: /th/aspose.slides.theme/iformatschemeeffectivedata/
 ---
 ## IFormatSchemeEffectiveData คลาส
 
-อ็อบเจ็กต์ที่ไม่สามารถแก้ไขได้ซึ่งประกอบด้วยคุณสมบัติของรูปแบบสกีมที่ใช้ได้
+อ็อบเจ็กต์ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติของรูปแบบที่มีผล
 
 ประเภท IFormatSchemeEffectiveData เปิดเผยสมาชิกต่อไปนี้:
 
-## เมธอด
+## Methods
 
 | เมธอด | คำอธิบาย |
 | :- | :- |
-| [`get_fill_styles(self, style_color)`](/slides/python-net/th/aspose.slides.theme/iformatschemeeffectivedata/get_fill_styles/#asposepydrawingcolor) | คืนค่าชุดของสไตล์การเติมที่กำหนดโดยธีม |
-| [`get_line_styles(self, style_color)`](/slides/python-net/th/aspose.slides.theme/iformatschemeeffectivedata/get_line_styles/#asposepydrawingcolor) | คืนค่าชุดของสไตล์เส้นที่กำหนดโดยธีม |
-| [`get_effect_styles(self, style_color)`](/slides/python-net/th/aspose.slides.theme/iformatschemeeffectivedata/get_effect_styles/#asposepydrawingcolor) | คืนค่าชุดของสไตล์เอฟเฟกต์ที่กำหนดโดยธีม |
-| [`get_background_fill_styles(self, style_color)`](/slides/python-net/th/aspose.slides.theme/iformatschemeeffectivedata/get_background_fill_styles/#asposepydrawingcolor) | คืนค่าชุดของสไตล์การเติมพื้นหลังที่กำหนดโดยธีม |
+| [`get_fill_styles(self, style_color)`](/slides/python-net/th/aspose.slides.theme/iformatschemeeffectivedata/get_fill_styles/#asposeslidescolor) | คืนคอลเลกชันของสไตล์การเติมที่กำหนดโดยธีม |
+| [`get_line_styles(self, style_color)`](/slides/python-net/th/aspose.slides.theme/iformatschemeeffectivedata/get_line_styles/#asposeslidescolor) | คืนคอลเลกชันของสไตล์เส้นที่กำหนดโดยธีม |
+| [`get_effect_styles(self, style_color)`](/slides/python-net/th/aspose.slides.theme/iformatschemeeffectivedata/get_effect_styles/#asposeslidescolor) | คืนคอลเลกชันของสไตล์เอฟเฟ็กต์ที่กำหนดโดยธีม |
+| [`get_background_fill_styles(self, style_color)`](/slides/python-net/th/aspose.slides.theme/iformatschemeeffectivedata/get_background_fill_styles/#asposeslidescolor) | คืนคอลเลกชันของสไตล์การเติมพื้นหลังที่กำหนดโดยธีม |
 
 
 ### หมายเหตุ

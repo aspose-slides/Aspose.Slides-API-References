@@ -1,53 +1,45 @@
 ---
 title: get_tile method
-second_title: Aspose.Slides للغة بايثون عبر .NET – مرجع API
+second_title: Aspose.Slides للبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/ipatternformat/get_tile/
 weight: 10
 ---
-## get_tile(self, style_color) {#asposepydrawingcolor}
+## get_tile(self, style_color) {#asposeslidescolor}
 ينشئ صورة بلاطة لتعبئة النمط.
 
 ### القيمة المرجعة
-البلاطة **aspose.slides.Bitmap**.
-
-
+القطعة **aspose.slides.IImage**.
 
 ```python
 def get_tile(self, style_color):
     ...
 ```
 
-
-| المعلمة | النوع | الوصف |
+| المعامل | النوع | الوصف |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | اللون الافتراضي **aspose.slides.Color**، <br/><br/>            معرفة في كائن StyleEx التابع لـ ShapeEx. قد تعتمد ألوان التعبئة على هذا. |
+| style_color | [`Color`](/slides/python-net/ar/aspose.slides/color) | القيمة الافتراضية [`Color`](/slides/python-net/ar/aspose.slides/color) ، <br/><br/> المحددة في كائن StyleEx الخاص بـ ShapeEx. قد تعتمد ألوان التعبئة على ذلك. |
 
-
-## get_tile(self, background, foreground) {#asposepydrawingcolor-asposepydrawingcolor}
+## get_tile(self, background, foreground) {#asposeslidescolor-asposeslidescolor}
 ينشئ صورة بلاطة لتعبئة النمط بألوان محددة.
 
 ### القيمة المرجعة
-البلاطة **aspose.slides.Bitmap**.
-
-
+القطعة **aspose.slides.IImage**.
 
 ```python
 def get_tile(self, background, foreground):
     ...
 ```
 
-
-| المعلمة | النوع | الوصف |
+| المعامل | النوع | الوصف |
 | :- | :- | :- |
-| background | **aspose.slides.Color** | اللون الخلفي **aspose.slides.Color** للنمط. |
-| foreground | **aspose.slides.Color** | اللون الأمامي **aspose.slides.Color** للنمط. |
-
-
+| background | [`Color`](/slides/python-net/ar/aspose.slides/color) | الخلفية [`Color`](/slides/python-net/ar/aspose.slides/color) للنمط. |
+| foreground | [`Color`](/slides/python-net/ar/aspose.slides/color) | المقدمة [`Color`](/slides/python-net/ar/aspose.slides/color) للنمط. |
 
 ### انظر أيضًا
 * فئة [`IImage`](/slides/python-net/ar/aspose.slides/iimage)
 * فئة [`IPatternFormat`](/slides/python-net/ar/aspose.slides/ipatternformat)
+* فئة [`Color`](/slides/python-net/ar/aspose.slides/color)
 * وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
 * مكتبة [`Aspose.Slides`](/slides/python-net)

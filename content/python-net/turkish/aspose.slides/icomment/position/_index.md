@@ -8,7 +8,7 @@ weight: 50
 ---
 ## position özelliği
 Bir slayttaki yorumun position değerini döndürür veya ayarlar.
-            Okunur/Yazılır **aspose.slides.PointF**.
+            Okunur/Yazılır [`PointF`](/slides/python-net/tr/aspose.slides/pointf).
 
 ### Tanım:
 ```python
@@ -24,5 +24,6 @@ def position(self, value):
 
 ### Ayrıca Bakınız
 * sınıf [`IComment`](/slides/python-net/tr/aspose.slides/icomment)
+* sınıf [`PointF`](/slides/python-net/tr/aspose.slides/pointf)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

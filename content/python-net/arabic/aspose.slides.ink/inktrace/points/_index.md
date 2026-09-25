@@ -1,14 +1,14 @@
 ---
 title: points property
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: مرجع API لـ Aspose.Slides للبايثون عبر .NET
 description: 
 type: docs
 url: /ar/aspose.slides.ink/inktrace/points/
 weight: 20
 ---
 ## خاصية النقاط
-يسترجع النقاط لـ IInkLine **aspose.slides.PointF**
-            للقراءة فقط.
+يحصل على النقاط لـ IInkLine [`PointF`](/slides/python-net/ar/aspose.slides/pointf)
+            قراءة فقط.
 
 ### التعريف:
 ```python
@@ -19,6 +19,7 @@ def points(self):
 
 
 ### انظر أيضًا
-* الفئة [`InkTrace`](/slides/python-net/ar/aspose.slides.ink/inktrace)
-* الوحدة [`aspose.slides.ink`](/slides/python-net/ar/aspose.slides.ink)
-* المكتبة [`Aspose.Slides`](/slides/python-net)
+* فئة [`InkTrace`](/slides/python-net/ar/aspose.slides.ink/inktrace)
+* فئة [`PointF`](/slides/python-net/ar/aspose.slides/pointf)
+* وحدة [`aspose.slides.ink`](/slides/python-net/ar/aspose.slides.ink)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

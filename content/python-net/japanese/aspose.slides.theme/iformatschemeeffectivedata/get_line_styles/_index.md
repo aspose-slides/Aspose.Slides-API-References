@@ -6,24 +6,30 @@ type: docs
 url: /ja/aspose.slides.theme/iformatschemeeffectivedata/get_line_styles/
 weight: 40
 ---
-## get_line_styles(self, style_color) {#asposepydrawingcolor}
+## get_line_styles(self, style_color) {#asposeslidescolor}
 テーマで定義されたラインスタイルのコレクションを返します。
 
 ### 戻り値
 
-有効なライン形式のコレクション [`ILineFormatCollectionEffectiveData`](/slides/python-net/ja/aspose.slides.theme/ilineformatcollectioneffectivedata)
+有効なラインフォーマットのコレクション [`ILineFormatCollectionEffectiveData`](/slides/python-net/ja/aspose.slides.theme/ilineformatcollectioneffectivedata)
+
+
 
 ```python
 def get_line_styles(self, style_color):
     ...
 ```
 
+
 | パラメータ | 型 | 説明 |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | 色 **aspose.slides.Color** |
+| style_color | [`Color`](/slides/python-net/ja/aspose.slides/color) | 色 [`Color`](/slides/python-net/ja/aspose.slides/color) |
 
-### 参照
+
+
+### 関連項目
 * クラス [`IFormatSchemeEffectiveData`](/slides/python-net/ja/aspose.slides.theme/iformatschemeeffectivedata)
 * クラス [`ILineFormatCollectionEffectiveData`](/slides/python-net/ja/aspose.slides.theme/ilineformatcollectioneffectivedata)
+* クラス [`Color`](/slides/python-net/ja/aspose.slides/color)
 * モジュール [`aspose.slides.theme`](/slides/python-net/ja/aspose.slides.theme)
 * ライブラリ [`Aspose.Slides`](/slides/python-net)

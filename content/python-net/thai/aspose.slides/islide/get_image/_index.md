@@ -1,16 +1,17 @@
 ---
 title: get_image method
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET การอ้างอิง API
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides/islide/get_image/
 weight: 40
 ---
 ## get_image(self) {#}
-คืนค่าอ็อบเจ็กต์ Thumbnail Image (20% ของขนาดจริง).
+ส่งคืนอ็อบเจ็กต์ Thumbnail Image (20% ของขนาดจริง)
 
 ### คืนค่า
-อ็อบเจ็กต์ Image **aspose.slides.Bitmap**
+
+อ็อบเจ็กต์ Image **aspose.slides.IImage**
 
 
 
@@ -21,10 +22,11 @@ def get_image(self):
 
 
 
-## get_image(self, image_size) {#asposepydrawingsize}
-คืนค่าอ็อบเจ็กต์รูปภาพที่มีขนาดที่ระบุ.
+## get_image(self, image_size) {#asposeslidessize}
+ส่งคืนอ็อบเจ็กต์ image ที่มีขนาดที่ระบุ
 
 ### คืนค่า
+
 อ็อบเจ็กต์ Bitmap.
 
 
@@ -37,13 +39,14 @@ def get_image(self, image_size):
 
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
 | :- | :- | :- |
-| image_size | **aspose.slides.Size** | ขนาดของภาพที่จะสร้าง. |
+| image_size | [`Size`](/slides/python-net/th/aspose.slides/size) | ขนาดของ image ที่จะสร้าง. |
 
 
 ## get_image(self, options) {#asposeslidesexportitiffoptions}
-คืนค่าอ็อบเจ็กต์ Thumbnail tiff bitmap ที่มีพารามิเตอร์ที่ระบุ.
+ส่งคืนอ็อบเจ็กต์ Thumbnail tiff bitmap ที่มีพารามิเตอร์ที่ระบุ
 
 ### คืนค่า
+
 อ็อบเจ็กต์ Image.
 
 
@@ -60,10 +63,11 @@ def get_image(self, options):
 
 
 ## get_image(self, options) {#asposeslidesexportirenderingoptions}
-คืนค่าอ็อบเจ็กต์ Thumbnail Bitmap.
+ส่งคืนอ็อบเจ็กต์ Thumbnail Bitmap
 
 ### คืนค่า
-อ็อบเจ็กต์ Bitmap
+
+อ็อบเจ็กต์ Bitmap.
 
 
 
@@ -75,14 +79,15 @@ def get_image(self, options):
 
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/th/aspose.slides.export/irenderingoptions) | ตัวเลือกการเรนเดอร์. |
+| options | [`IRenderingOptions`](/slides/python-net/th/aspose.slides.export/irenderingoptions) | ตัวเลือก Rendering. |
 
 
 ## get_image(self, scale_x, scale_y) {#float-float}
-คืนค่าอ็อบเจ็กต์รูปภาพด้วยการปรับสเกลแบบกำหนดเอง.
+ส่งคืนอ็อบเจ็กต์ image ที่มีการสเกลแบบกำหนดเอง
 
 ### คืนค่า
-อ็อบเจ็กต์ Image **aspose.slides.Bitmap**
+
+อ็อบเจ็กต์ Image **aspose.slides.IImage**
 
 
 
@@ -94,15 +99,16 @@ def get_image(self, scale_x, scale_y):
 
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
 | :- | :- | :- |
-| scale_x | **float** | ค่าที่ใช้ปรับขนาด Thumbnail นี้ในทิศทางแกน x. |
-| scale_y | **float** | ค่าที่ใช้ปรับขนาด Thumbnail นี้ในทิศทางแกน y. |
+| scale_x | **float** | ค่าที่ใช้สเกล Thumbnail นี้ในทิศทางแกน x. |
+| scale_y | **float** | ค่าที่ใช้สเกล Thumbnail นี้ในทิศทางแกน y. |
 
 
-## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposepydrawingsize}
-คืนค่าอ็อบเจ็กต์ Thumbnail Bitmap ที่มีขนาดที่ระบุ.
+## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposeslidessize}
+ส่งคืนอ็อบเจ็กต์ Thumbnail Bitmap ที่มีขนาดที่ระบุ
 
 ### คืนค่า
-อ็อบเจ็กต์ Bitmap
+
+อ็อบเจ็กต์ Bitmap.
 
 
 
@@ -114,15 +120,16 @@ def get_image(self, options, image_size):
 
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/th/aspose.slides.export/irenderingoptions) | ตัวเลือกการเรนเดอร์. |
-| image_size | **aspose.slides.Size** | ขนาดของภาพที่จะสร้าง. |
+| options | [`IRenderingOptions`](/slides/python-net/th/aspose.slides.export/irenderingoptions) | ตัวเลือก Rendering. |
+| image_size | [`Size`](/slides/python-net/th/aspose.slides/size) | ขนาดของ image ที่จะสร้าง. |
 
 
 ## get_image(self, options, scale_x, scale_y) {#asposeslidesexportirenderingoptions-float-float}
-คืนค่าอ็อบเจ็กต์ Thumbnail Bitmap ด้วยการปรับสเกลแบบกำหนดเอง.
+ส่งคืนอ็อบเจ็กต์ Thumbnail Bitmap ที่มีการสเกลแบบกำหนดเอง
 
 ### คืนค่า
-อ็อบเจ็กต์ Bitmap
+
+อ็อบเจ็กต์ Bitmap.
 
 
 
@@ -134,9 +141,9 @@ def get_image(self, options, scale_x, scale_y):
 
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/th/aspose.slides.export/irenderingoptions) | ตัวเลือกการเรนเดอร์. |
-| scale_x | **float** | ค่าที่ใช้ปรับขนาด Thumbnail นี้ในทิศทางแกน x. |
-| scale_y | **float** | ค่าที่ใช้ปรับขนาด Thumbnail นี้ในทิศทางแกน y. |
+| options | [`IRenderingOptions`](/slides/python-net/th/aspose.slides.export/irenderingoptions) | ตัวเลือก Rendering. |
+| scale_x | **float** | ค่าที่ใช้สเกล Thumbnail นี้ในทิศทางแกน x. |
+| scale_y | **float** | ค่าที่ใช้สเกล Thumbnail นี้ในทิศทางแกน y. |
 
 
 
@@ -145,5 +152,6 @@ def get_image(self, options, scale_x, scale_y):
 * คลาส [`IRenderingOptions`](/slides/python-net/th/aspose.slides.export/irenderingoptions)
 * คลาส [`ISlide`](/slides/python-net/th/aspose.slides/islide)
 * คลาส [`ITiffOptions`](/slides/python-net/th/aspose.slides.export/itiffoptions)
+* คลาส [`Size`](/slides/python-net/th/aspose.slides/size)
 * โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
 * ไลบรารี [`Aspose.Slides`](/slides/python-net)

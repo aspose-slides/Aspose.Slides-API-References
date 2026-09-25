@@ -11,7 +11,7 @@ Obtiene los límites visuales de la forma calculados a partir de su contenido re
 
 ### Devuelve
 
-Un **aspose.slides.RectangleF** que representa los límites visuales de la forma
+Un [`RectangleF`](/slides/python-net/es/aspose.slides/rectanglef) que representa los límites visuales de la forma
              en coordenadas de diapositiva.
 
 
@@ -23,7 +23,8 @@ def get_visual_bounds(self):
 
 
 ### Observaciones
-El rectángulo devuelto representa los límites alineados al eje de todo el contenido
+
+El rectángulo devuelto representa los límites alineados con los ejes de todo el contenido
              producido por la forma durante el renderizado en el espacio de coordenadas de la diapositiva.
             
              Estos límites pueden diferir de los límites del modelo de la forma
@@ -37,11 +38,12 @@ El rectángulo devuelto representa los límites alineados al eje de todo el cont
              diseño de texto y desbordamiento, geometría de SmartArt, y otros efectos de diseño
              que influyen en la apariencia final renderizada de la forma.
             
-             Los límites devueltos no están recortados al rectángulo de la diapositiva.
+             Los límites devueltos no se recortan al rectángulo de la diapositiva.
 
 
 
 ### Ver también
 * clase [`PictureFrame`](/slides/python-net/es/aspose.slides/pictureframe)
+* clase [`RectangleF`](/slides/python-net/es/aspose.slides/rectanglef)
 * módulo [`aspose.slides`](/slides/python-net/es/aspose.slides)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

@@ -6,10 +6,10 @@ type: docs
 url: /nl/aspose.slides/icolorformat/color/
 weight: 50
 ---
-## color eigenschap
-Returns resulting color (with all color transformations applied).
-            Sets RGB colors and clears all kleurovergangen.
-            Lezen/schrijven **aspose.slides.Color**.
+## kleur eigenschap
+Retourneert de resulterende kleur (met alle kleuroverdrachten toegepast).
+            Stelt RGB-kleuren in en wist alle kleuroverdrachten.
+            Lezen/schrijven [`Color`](/slides/python-net/nl/aspose.slides/color).
 
 ### Definitie:
 ```python
@@ -25,5 +25,6 @@ def color(self, value):
 
 ### Zie ook
 * klasse [`IColorFormat`](/slides/python-net/nl/aspose.slides/icolorformat)
+* klasse [`Color`](/slides/python-net/nl/aspose.slides/color)
 * module [`aspose.slides`](/slides/python-net/nl/aspose.slides)
 * bibliotheek [`Aspose.Slides`](/slides/python-net)

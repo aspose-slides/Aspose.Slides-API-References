@@ -7,23 +7,18 @@ url: /sv/aspose.slides/iparagraph/get_rect/
 weight: 30
 ---
 ## get_rect(self) {#}
-Hämta koordinaterna för rektangeln som omger stycket. Rektangeln inkluderar alla rader av text i stycket, inklusive tomma.
+Hämta koordinaterna för rektangeln som avgränsar stycket. Rektangeln inkluderar alla rader av text i stycket, inklusive tomma.
 
 ### Returnerar
-
-Rektangel som omger stycket **aspose.slides.RectangleF**
-
-
+Rektangel som avgränsar stycket [`RectangleF`](/slides/python-net/sv/aspose.slides/rectanglef)
 
 ```python
 def get_rect(self):
     ...
 ```
 
-
-
-
 ### Se även
 * klass [`IParagraph`](/slides/python-net/sv/aspose.slides/iparagraph)
+* klass [`RectangleF`](/slides/python-net/sv/aspose.slides/rectanglef)
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

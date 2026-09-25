@@ -6,10 +6,10 @@ type: docs
 url: /tr/aspose.slides/icolorformat/color/
 weight: 50
 ---
-## color özelliği
-Uygulanan tüm renk dönüşümlerinden sonra elde edilen rengi döndürür.
+## renk özelliği
+Sonuçta ortaya çıkan rengi döndürür (tüm renk dönüşümleri uygulanmış olarak).
             RGB renklerini ayarlar ve tüm renk dönüşümlerini temizler.
-            Okunur/yazılır **aspose.slides.Color**.
+            Okunur/Yazılır [`Color`](/slides/python-net/tr/aspose.slides/color).
 
 ### Tanım:
 ```python
@@ -22,8 +22,8 @@ def color(self, value):
     ...
 ```
 
-
 ### Ayrıca Bakınız
 * sınıf [`IColorFormat`](/slides/python-net/tr/aspose.slides/icolorformat)
+* sınıf [`Color`](/slides/python-net/tr/aspose.slides/color)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

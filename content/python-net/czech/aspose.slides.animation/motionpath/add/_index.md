@@ -1,13 +1,13 @@
 ---
 title: add method
-second_title: Reference API Aspose.Slides pro Python prostřednictvím .NET
+second_title: Aspose.Slides pro Python pomocí .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides.animation/motionpath/add/
 weight: 20
 ---
-## add(self, type, pts, pts_type, b_relative_coord) {#motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool}
-Přidá nový příkaz do cesty
+## add(self, type, pts, pts_type, b_relative_coord) {#motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool}
+Přidejte nový příkaz do cesty
 
 
 ```python

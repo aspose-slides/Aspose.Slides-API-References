@@ -1,25 +1,25 @@
 ---
 title: IMotionPath class
-second_title: Aspose.Slides pro Python přes .NET API Reference
+second_title: Aspose.Slides pro Python přes .NET API
 description: 
 type: docs
 url: /cs/aspose.slides.animation/imotionpath/
 ---
 ## IMotionPath třída
 
-Reprezentuje dráhu pohybu.
+Reprezentuje trajektorii pohybu.
 
-Typ IMotionPath vystavuje následující členy:
+Typ IMotionPath poskytuje následující členy:
 
 ## Vlastnosti
 
 | Vlastnost | Popis |
 | :- | :- |
-| [`count`](/slides/python-net/cs/aspose.slides.animation/imotionpath/count/) | Vrátí počet cest ve sbírce.<br/>            Pouze pro čtení **int**. |
+| [`count`](/slides/python-net/cs/aspose.slides.animation/imotionpath/count/) | Vrací počet cest ve sbírce.<br/>            Pouze ke čtení **int**. |
 
-Vrátí příkaz na zadaném indexu.
+Vrací příkaz na určeném indexu.
 
-## Indexátor
+## Indexér
 
 | Název | Popis |
 | :- | :- |
@@ -29,11 +29,11 @@ Vrátí příkaz na zadaném indexu.
 
 | Metoda | Popis |
 | :- | :- |
-| [`add(self, type, pts, pts_type, b_relative_coord)`](/slides/python-net/cs/aspose.slides.animation/imotionpath/add/#motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool) | Přidá nový příkaz do cesty |
-| [`insert(self, index, type, pts, pts_type, b_relative_coord)`](/slides/python-net/cs/aspose.slides.animation/imotionpath/insert/#int-motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool) | Vloží nový příkaz do cesty |
+| [`add(self, type, pts, pts_type, b_relative_coord)`](/slides/python-net/cs/aspose.slides.animation/imotionpath/add/#motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool) | Přidá nový příkaz do cesty |
+| [`insert(self, index, type, pts, pts_type, b_relative_coord)`](/slides/python-net/cs/aspose.slides.animation/imotionpath/insert/#int-motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool) | Vloží nový příkaz do cesty |
 | [`clear(self)`](/slides/python-net/cs/aspose.slides.animation/imotionpath/clear/#) | Odstraní všechny příkazy ze sbírky. |
-| [`remove(self, item)`](/slides/python-net/cs/aspose.slides.animation/imotionpath/remove/#imotioncmdpath) | Odstraní zadané příkazy ze sbírky. |
-| [`remove_at(self, index)`](/slides/python-net/cs/aspose.slides.animation/imotionpath/remove_at/#int) | Odstraní příkaz na zadaném indexu. |
+| [`remove(self, item)`](/slides/python-net/cs/aspose.slides.animation/imotionpath/remove/#imotioncmdpath) | Odstraňuje specifikované příkazy ze sbírky. |
+| [`remove_at(self, index)`](/slides/python-net/cs/aspose.slides.animation/imotionpath/remove_at/#int) | Odstraňuje příkaz na určeném indexu. |
 
 
 ### Viz také

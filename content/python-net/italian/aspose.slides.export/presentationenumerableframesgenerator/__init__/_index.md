@@ -16,10 +16,10 @@ def __init__(self, presentation, fps):
 
 | Parametro | Tipo | Descrizione |
 | :- | :- | :- |
-| presentation | [`Presentation`](/slides/python-net/it/aspose.slides/presentation) | Presentation |
+| presentation | [`Presentation`](/slides/python-net/it/aspose.slides/presentation) | Presentazione |
 | fps | **float** | Fotogrammi al secondo (FPS) |
 
-## __init__(self, frame_size, fps) {#asposepydrawingsize-float}
+## __init__(self, frame_size, fps) {#asposeslidessize-float}
 Crea una nuova istanza di [`PresentationPlayer`](/slides/python-net/it/aspose.slides.export/presentationplayer).
 
 ```python
@@ -29,12 +29,13 @@ def __init__(self, frame_size, fps):
 
 | Parametro | Tipo | Descrizione |
 | :- | :- | :- |
-| frame_size | **aspose.slides.Size** | La dimensione del fotogramma |
+| frame_size | [`Size`](/slides/python-net/it/aspose.slides/size) | La dimensione del fotogramma |
 | fps | **float** | Fotogrammi al secondo (FPS) |
 
 ### Vedi anche
 * classe [`Presentation`](/slides/python-net/it/aspose.slides/presentation)
 * classe [`PresentationEnumerableFramesGenerator`](/slides/python-net/it/aspose.slides.export/presentationenumerableframesgenerator)
 * classe [`PresentationPlayer`](/slides/python-net/it/aspose.slides.export/presentationplayer)
+* classe [`Size`](/slides/python-net/it/aspose.slides/size)
 * modulo [`aspose.slides.export`](/slides/python-net/it/aspose.slides.export)
 * libreria [`Aspose.Slides`](/slides/python-net)

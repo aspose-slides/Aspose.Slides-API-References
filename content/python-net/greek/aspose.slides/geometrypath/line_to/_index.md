@@ -1,13 +1,13 @@
 ---
 title: line_to method
-second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
+second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
 description: 
 type: docs
 url: /el/aspose.slides/geometrypath/line_to/
 weight: 50
 ---
-## line_to(self, point) {#asposepydrawingpointf}
-Προσθέτει γραμμή στο τέλος του μονοπατιού
+## line_to(self, point) {#asposeslidespointf}
+Προσθέτει γραμμή στο τέλος της διαδρομής
 
 
 ```python
@@ -18,11 +18,11 @@ def line_to(self, point):
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | Τελικό σημείο της γραμμής |
+| point | [`PointF`](/slides/python-net/el/aspose.slides/pointf) | Τελικό σημείο της γραμμής |
 
 
 ## line_to(self, x, y) {#float-float}
-Προσθέτει γραμμή στο τέλος του μονοπατιού
+Προσθέτει γραμμή στο τέλος της διαδρομής
 
 
 ```python
@@ -37,8 +37,8 @@ def line_to(self, x, y):
 | y | **float** | Συντεταγμένη Y του τελικού σημείου της γραμμής |
 
 
-## line_to(self, point, index) {#asposepydrawingpointf-int}
-Προσθέτει γραμμή στην καθορισμένη θέση του μονοπατιού
+## line_to(self, point, index) {#asposeslidespointf-int}
+Προσθέτει γραμμή στο σημείο που καθορίζεται στη διαδρομή
 
 
 ```python
@@ -49,10 +49,10 @@ def line_to(self, point, index):
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | Τελικό σημείο |
+| point | [`PointF`](/slides/python-net/el/aspose.slides/pointf) | Τελικό σημείο |
 | index | **int** | Δείκτης του τμήματος στο PathData |
 
-### Exceptions
+### Εξαιρέσεις
 
 | Εξαίρεση | Περιγραφή |
 | :- | :- |
@@ -60,7 +60,7 @@ def line_to(self, point, index):
 
 
 ## line_to(self, x, y, index) {#float-float-int}
-Προσθέτει γραμμή στην καθορισμένη θέση του μονοπατιού
+Προσθέτει γραμμή στο σημείο που καθορίζεται στη διαδρομή
 
 
 ```python
@@ -75,7 +75,7 @@ def line_to(self, x, y, index):
 | y | **float** | Συντεταγμένη Y του σημείου |
 | index | **int** | Δείκτης του τμήματος στο PathData |
 
-### Exceptions
+### Εξαιρέσεις
 
 | Εξαίρεση | Περιγραφή |
 | :- | :- |
@@ -83,7 +83,8 @@ def line_to(self, x, y, index):
 
 
 
-### See Also
+### Δείτε επίσης
 * κλάση [`GeometryPath`](/slides/python-net/el/aspose.slides/geometrypath)
+* κλάση [`PointF`](/slides/python-net/el/aspose.slides/pointf)
 * μονάδα [`aspose.slides`](/slides/python-net/el/aspose.slides)
 * βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

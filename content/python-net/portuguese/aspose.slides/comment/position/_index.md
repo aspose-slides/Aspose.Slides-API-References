@@ -7,8 +7,8 @@ url: /pt/aspose.slides/comment/position/
 weight: 50
 ---
 ## position propriedade
-Retorna ou define a posição de um comentário em um slide.
-            Leitura/gravação **aspose.slides.PointF**.
+Retorna ou define a position de um comentário em um slide.
+            Leitura/gravação [`PointF`](/slides/python-net/pt/aspose.slides/pointf).
 
 ### Definição:
 ```python
@@ -22,7 +22,8 @@ def position(self, value):
 ```
 
 
-### Veja Também
+### Veja também
 * classe [`Comment`](/slides/python-net/pt/aspose.slides/comment)
+* classe [`PointF`](/slides/python-net/pt/aspose.slides/pointf)
 * módulo [`aspose.slides`](/slides/python-net/pt/aspose.slides)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

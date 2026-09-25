@@ -9,16 +9,16 @@ url: /el/aspose.slides.effects/iinnershadoweffectivedata/
 
 Αμετάβλητο αντικείμενο που αντιπροσωπεύει ένα εσωτερικό εφέ σκιάς.
 
-Ο τύπος IInnerShadowEffectiveData παρέχει τα ακόλουθα μέλη:
+Ο τύπος IInnerShadowEffectiveData εκθέτει τα παρακάτω μέλη:
 
 ## Ιδιότητες
 
 | Ιδιότητα | Περιγραφή |
 | :- | :- |
-| [`blur_radius`](/slides/python-net/el/aspose.slides.effects/iinnershadoweffectivedata/blur_radius/) | Ακτίνα θόλωσης.<br/>            Μόνο για ανάγνωση **float**. |
-| [`direction`](/slides/python-net/el/aspose.slides.effects/iinnershadoweffectivedata/direction/) | Κατεύθυνση σκιάς.<br/>            Μόνο για ανάγνωση **float**. |
-| [`distance`](/slides/python-net/el/aspose.slides.effects/iinnershadoweffectivedata/distance/) | Απόσταση σκιάς.<br/>            Μόνο για ανάγνωση **float**. |
-| [`shadow_color`](/slides/python-net/el/aspose.slides.effects/iinnershadoweffectivedata/shadow_color/) | Χρώμα σκιάς.<br/>            Μόνο για ανάγνωση **aspose.slides.Color**. |
+| [`blur_radius`](/slides/python-net/el/aspose.slides.effects/iinnershadoweffectivedata/blur_radius/) | Ακτίνα θολώματος.<br/>            Μόνο ανάγνωση **float**. |
+| [`direction`](/slides/python-net/el/aspose.slides.effects/iinnershadoweffectivedata/direction/) | Κατεύθυνση σκιάς.<br/>            Μόνο ανάγνωση **float**. |
+| [`distance`](/slides/python-net/el/aspose.slides.effects/iinnershadoweffectivedata/distance/) | Απόσταση σκιάς.<br/>            Μόνο ανάγνωση **float**. |
+| [`shadow_color`](/slides/python-net/el/aspose.slides.effects/iinnershadoweffectivedata/shadow_color/) | Χρώμα σκιάς.<br/>            Μόνο ανάγνωση [`Color`](/slides/python-net/el/aspose.slides/color). |
 
 
 ### Δείτε επίσης

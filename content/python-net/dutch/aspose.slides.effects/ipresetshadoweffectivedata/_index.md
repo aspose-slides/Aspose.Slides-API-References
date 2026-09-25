@@ -7,17 +7,17 @@ url: /nl/aspose.slides.effects/ippresetshadoweffectivedata/
 ---
 ## IPresetShadowEffectiveData klasse
 
-Immutable object dat een Preset Shadow-effect vertegenwoordigt.
+Onveranderlijk object dat een Preset Shadow-effect vertegenwoordigt.
 
-Het type IPresetShadowEffectiveData biedt de volgende leden:
+Het IPresetShadowEffectiveData-type geeft de volgende leden weer:
 
 ## Eigenschappen
 
 | Eigenschap | Beschrijving |
 | :- | :- |
-| [`direction`](/slides/python-net/nl/aspose.slides.effects/ipresetshadoweffectivedata/direction/) | Richting van de schaduw.<br/>            Alleen-lezen **float**. |
-| [`distance`](/slides/python-net/nl/aspose.slides.effects/ipresetshadoweffectivedata/distance/) | Afstand van de schaduw.<br/>            Alleen-lezen **float**. |
-| [`shadow_color`](/slides/python-net/nl/aspose.slides.effects/ipresetshadoweffectivedata/shadow_color/) | Kleur van de schaduw.<br/>            Alleen-lezen **aspose.slides.Color**. |
+| [`direction`](/slides/python-net/nl/aspose.slides.effects/ipresetshadoweffectivedata/direction/) | Richting van schaduw.<br/>            Alleen-lezen **float**. |
+| [`distance`](/slides/python-net/nl/aspose.slides.effects/ipresetshadoweffectivedata/distance/) | Afstand van schaduw.<br/>            Alleen-lezen **float**. |
+| [`shadow_color`](/slides/python-net/nl/aspose.slides.effects/ipresetshadoweffectivedata/shadow_color/) | Kleur van schaduw.<br/>            Alleen-lezen [`Color`](/slides/python-net/nl/aspose.slides/color). |
 | [`preset`](/slides/python-net/nl/aspose.slides.effects/ipresetshadoweffectivedata/preset/) | Voorinstelling.<br/>            Alleen-lezen [`PresetShadowType`](/slides/python-net/nl/aspose.slides/presetshadowtype). |
 
 

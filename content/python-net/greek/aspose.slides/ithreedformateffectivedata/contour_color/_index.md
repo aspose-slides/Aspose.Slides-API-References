@@ -8,7 +8,7 @@ weight: 50
 ---
 ## contour_color ιδιότητα
 Επιστρέφει το χρώμα ενός περιγράμματος.
-Μόνο ανάγνωση **aspose.slides.Color**.
+            Μόνο για ανάγνωση [`Color`](/slides/python-net/el/aspose.slides/color).
 
 ### Ορισμός:
 ```python
@@ -20,5 +20,6 @@ def contour_color(self):
 
 ### Δείτε επίσης
 * κλάση [`IThreeDFormatEffectiveData`](/slides/python-net/el/aspose.slides/ithreedformateffectivedata)
+* κλάση [`Color`](/slides/python-net/el/aspose.slides/color)
 * μονάδα [`aspose.slides`](/slides/python-net/el/aspose.slides)
 * βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

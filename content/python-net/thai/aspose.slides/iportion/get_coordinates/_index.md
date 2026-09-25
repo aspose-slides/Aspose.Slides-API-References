@@ -7,13 +7,12 @@ url: /th/aspose.slides/iportion/get_coordinates/
 weight: 20
 ---
 ## get_coordinates(self) {#}
-รับพิกัดของจุดเริ่มต้นของส่วนนี้. พิกัด X ของจุดแสดงถึง 
-            ส่วนที่เริ่มตั้งแต่ตัวอักษรตัวแรกรวมถึง left side bearing. 
-            พิกัด Y รวมถึง top side bearing.
+รับพิกัดของจุดเริ่มต้นของส่วน. พิกัด X ของจุดแสดงส่วนที่เริ่มจากอักขระแรกรวมถึงระยะห่างด้านซ้าย 
+            พิกัด Y รวมถึงระยะห่างด้านบน.
 
 ### ผลลัพธ์
 
-พิกัดของจุดเริ่มต้นของส่วนนี้ **aspose.slides.PointF**
+พิกัดของจุดเริ่มต้นของส่วน [`PointF`](/slides/python-net/th/aspose.slides/pointf)
 
 
 
@@ -26,6 +25,7 @@ def get_coordinates(self):
 
 
 ### ดูเพิ่มเติม
-* คลาส [`IPortion`](/slides/python-net/th/aspose.slides/iportion)
-* โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
-* ไลบรารี [`Aspose.Slides`](/slides/python-net)
+* class [`IPortion`](/slides/python-net/th/aspose.slides/iportion)
+* class [`PointF`](/slides/python-net/th/aspose.slides/pointf)
+* module [`aspose.slides`](/slides/python-net/th/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

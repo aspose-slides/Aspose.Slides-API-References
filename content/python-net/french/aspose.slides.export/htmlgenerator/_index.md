@@ -9,17 +9,17 @@ url: /fr/aspose.slides.export/htmlgenerator/
 
 Générateur Html.
 
-Le type HtmlGenerator expose les membres suivants:
+Le type HtmlGenerator expose les membres suivants :
 
 ## Propriétés
 
 | Propriété | Description |
 | :- | :- |
-| [`slide_image_size`](/slides/python-net/fr/aspose.slides.export/htmlgenerator/slide_image_size/) | Renvoie la taille de l'image de la diapositive.<br/>            Lecture seule **aspose.slides.SizeF**. |
+| [`slide_image_size`](/slides/python-net/fr/aspose.slides.export/htmlgenerator/slide_image_size/) | Renvoie la taille de l'image de la diapositive.<br/>            Lecture seule [`SizeF`](/slides/python-net/fr/aspose.slides/sizef). |
 | [`slide_image_size_unit`](/slides/python-net/fr/aspose.slides.export/htmlgenerator/slide_image_size_unit/) | Renvoie l'unité dans laquelle la taille de l'image de la diapositive est spécifiée.<br/>            Lecture seule [`SvgCoordinateUnit`](/slides/python-net/fr/aspose.slides.export/svgcoordinateunit). |
 | [`slide_image_size_unit_code`](/slides/python-net/fr/aspose.slides.export/htmlgenerator/slide_image_size_unit_code/) | Renvoie le code CSS de l'unité dans laquelle la taille de l'image de la diapositive est spécifiée.<br/>            Lecture seule **str**. |
 | [`previous_slide_index`](/slides/python-net/fr/aspose.slides.export/htmlgenerator/previous_slide_index/) | Renvoie l'index de la diapositive précédemment rendue ou -1 si la première diapositive est en cours de rendu.<br/>            Lecture seule **int**. |
-| [`slide_index`](/slides/python-net/fr/aspose.slides.export/htmlgenerator/slide_index/) | Renvoie l'index de la diapositive actuellement en cours de rendu.<br/>            Lecture seule **int**. |
+| [`slide_index`](/slides/python-net/fr/aspose.slides.export/htmlgenerator/slide_index/) | Renvoie l'index de la diapositive en cours de rendu.<br/>            Lecture seule **int**. |
 | [`next_slide_index`](/slides/python-net/fr/aspose.slides.export/htmlgenerator/next_slide_index/) | Renvoie l'index d'une diapositive qui sera rendue après la diapositive actuelle ou -1 si la dernière diapositive est en cours de rendu.<br/>            Lecture seule **int**. |
 
 ## Méthodes

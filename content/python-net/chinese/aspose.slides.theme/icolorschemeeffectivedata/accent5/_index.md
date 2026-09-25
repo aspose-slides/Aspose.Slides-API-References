@@ -7,8 +7,8 @@ url: /zh/aspose.slides.theme/icolorschemeeffectivedata/accent5/
 weight: 50
 ---
 ## accent5 属性
-方案中的第五个强调色。
-            只读 **aspose.slides.Color**.
+方案中的第五种强调颜色。
+            只读 [`Color`](/slides/python-net/zh/aspose.slides/color).
 
 ### 定义:
 ```python
@@ -18,7 +18,8 @@ def accent5(self):
 ```
 
 
-### 另请参见
+### 另请参阅
 * 类 [`IColorSchemeEffectiveData`](/slides/python-net/zh/aspose.slides.theme/icolorschemeeffectivedata)
+* 类 [`Color`](/slides/python-net/zh/aspose.slides/color)
 * 模块 [`aspose.slides.theme`](/slides/python-net/zh/aspose.slides.theme)
-* 库 [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

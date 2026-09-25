@@ -1,44 +1,56 @@
 ---
 title: get_tile method
-second_title: อ้างอิง API ของ Aspose.Slides สำหรับ Python ผ่าน .NET
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides/patternformat/get_tile/
 weight: 10
 ---
-## get_tile(self, style_color) {#asposepydrawingcolor}
-สร้างภาพไทล์สำหรับการเติมลวดลาย
+## get_tile(self, style_color) {#asposeslidescolor}
+สร้างภาพไทล์สำหรับการเติมแบบลาย.
 
 ### คืนค่า
+
 Tile [`IImage`](/slides/python-net/th/aspose.slides/iimage).
+
+
 
 ```python
 def get_tile(self, style_color):
     ...
 ```
 
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
-| :- | :- | :- |
-| style_color | **aspose.slides.Color** | The default **aspose.slides.Color** |
 
-## get_tile(self, background, foreground) {#asposepydrawingcolor-asposepydrawingcolor}
-สร้างภาพไทล์สำหรับการเติมลวดลายด้วยสีที่ระบุ
+| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| :- | :- | :- |
+| style_color | [`Color`](/slides/python-net/th/aspose.slides/color) | ค่าเริ่มต้น [`Color`](/slides/python-net/th/aspose.slides/color) |
+
+
+## get_tile(self, background, foreground) {#asposeslidescolor-asposeslidescolor}
+สร้างภาพไทล์สำหรับการเติมแบบลายด้วยสีที่ระบุ.
 
 ### คืนค่า
+
 Tile [`IImage`](/slides/python-net/th/aspose.slides/iimage).
+
+
 
 ```python
 def get_tile(self, background, foreground):
     ...
 ```
 
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+
+| พารามิเตอร์ | ประเภท | คำอธิบาย |
 | :- | :- | :- |
-| background | **aspose.slides.Color** | The background **aspose.slides.Color** for the pattern. |
-| foreground | **aspose.slides.Color** | The foreground **aspose.slides.Color** for the pattern. |
+| background | [`Color`](/slides/python-net/th/aspose.slides/color) | พื้นหลัง [`Color`](/slides/python-net/th/aspose.slides/color) ของแบบลาย. |
+| foreground | [`Color`](/slides/python-net/th/aspose.slides/color) | สีพื้นหน้า [`Color`](/slides/python-net/th/aspose.slides/color) ของแบบลาย. |
+
+
 
 ### ดูเพิ่มเติม
 * คลาส [`IImage`](/slides/python-net/th/aspose.slides/iimage)
 * คลาส [`PatternFormat`](/slides/python-net/th/aspose.slides/patternformat)
+* คลาส [`Color`](/slides/python-net/th/aspose.slides/color)
 * โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
 * ไลบรารี [`Aspose.Slides`](/slides/python-net)

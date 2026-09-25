@@ -6,11 +6,11 @@ type: docs
 url: /zh/aspose.slides.animation/imotioneffect/to/
 weight: 130
 ---
-## 到属性
+## 属性
 指定动画运动效果的目标位置（以百分比表示）。
-            读/写 **aspose.slides.PointF**。
+            读/写 [`PointF`](/slides/python-net/zh/aspose.slides/pointf).
 
-### 定义：
+### 定义:
 ```python
 @property
 def to(self):
@@ -22,7 +22,8 @@ def to(self, value):
 ```
 
 
-### 另请参阅
+### 另请参见
 * 类 [`IMotionEffect`](/slides/python-net/zh/aspose.slides.animation/imotioneffect)
+* 类 [`PointF`](/slides/python-net/zh/aspose.slides/pointf)
 * 模块 [`aspose.slides.animation`](/slides/python-net/zh/aspose.slides.animation)
 * 库 [`Aspose.Slides`](/slides/python-net)

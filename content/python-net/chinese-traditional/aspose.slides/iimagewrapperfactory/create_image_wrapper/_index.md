@@ -1,6 +1,6 @@
 ---
 title: create_image_wrapper method
-second_title: Aspose.Slides for Python 透過 .NET API 參考
+second_title: Aspose.Slides for Python via .NET API 參考文件
 description: 
 type: docs
 url: /zh-hant/aspose.slides/iimagewrapperfactory/create_image_wrapper/
@@ -9,29 +9,37 @@ weight: 10
 ## create_image_wrapper(self, image) {#iimage}
 從指定的現有圖像初始化 ImageWrapper 類別的新實例。
 
-### 返回值
+### 回傳
+
 [`IImageWrapper`](/slides/python-net/zh-hant/aspose.slides/iimagewrapper) 的新實例
+
+
 
 ```python
 def create_image_wrapper(self, image):
     ...
 ```
 
+
 | 參數 | 類型 | 說明 |
 | :- | :- | :- |
-| image | [`IImage`](/slides/python-net/zh-hant/aspose.slides/iimage) | 現有圖像 **aspose.slides.Image** |
+| image | [`IImage`](/slides/python-net/zh-hant/aspose.slides/iimage) | 現有圖像 **aspose.slides.IImage** |
 
 
 ## create_image_wrapper(self, stream) {#iorawiobase}
 從指定的資料流初始化 ImageWrapper 類別的新實例。
 
-### 返回值
+### 回傳
+
 [`IImageWrapper`](/slides/python-net/zh-hant/aspose.slides/iimagewrapper) 的新實例
+
+
 
 ```python
 def create_image_wrapper(self, stream):
     ...
 ```
+
 
 | 參數 | 類型 | 說明 |
 | :- | :- | :- |
@@ -41,13 +49,17 @@ def create_image_wrapper(self, stream):
 ## create_image_wrapper(self, file_name) {#str}
 從指定的檔案初始化 ImageWrapper 類別的新實例。
 
-### 返回值
+### 回傳
+
 [`IImageWrapper`](/slides/python-net/zh-hant/aspose.slides/iimagewrapper) 的新實例
+
+
 
 ```python
 def create_image_wrapper(self, file_name):
     ...
 ```
+
 
 | 參數 | 類型 | 說明 |
 | :- | :- | :- |

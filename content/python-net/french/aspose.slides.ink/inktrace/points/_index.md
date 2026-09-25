@@ -1,13 +1,13 @@
 ---
 title: points property
-second_title: Référence de l'API Aspose.Slides pour Python via .NET
+second_title: Référence API Aspose.Slides pour Python via .NET
 description: 
 type: docs
 url: /fr/aspose.slides.ink/inktrace/points/
 weight: 20
 ---
-## points propriété
-Récupère points pour le IInkLine **aspose.slides.PointF**
+## propriété points
+Obtient les points pour le IInkLine [`PointF`](/slides/python-net/fr/aspose.slides/pointf)
             Lecture seule.
 
 ### Définition:
@@ -20,5 +20,6 @@ def points(self):
 
 ### Voir aussi
 * classe [`InkTrace`](/slides/python-net/fr/aspose.slides.ink/inktrace)
+* classe [`PointF`](/slides/python-net/fr/aspose.slides/pointf)
 * module [`aspose.slides.ink`](/slides/python-net/fr/aspose.slides.ink)
 * bibliothèque [`Aspose.Slides`](/slides/python-net)

@@ -8,7 +8,7 @@ weight: 20
 ---
 ## color1 Eigenschaft
 Gibt das Zielfarbformat für dunkle Pixel zurück.
-            Nur lesbar **aspose.slides.Color**.
+            Nur lesbar [`Color`](/slides/python-net/de/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def color1(self):
 
 ### Siehe auch
 * Klasse [`IDuotoneEffectiveData`](/slides/python-net/de/aspose.slides.effects/iduotoneeffectivedata)
+* Klasse [`Color`](/slides/python-net/de/aspose.slides/color)
 * Modul [`aspose.slides.effects`](/slides/python-net/de/aspose.slides.effects)
 * Bibliothek [`Aspose.Slides`](/slides/python-net)

@@ -7,12 +7,14 @@ url: /tr/aspose.slides/oleobjectframe/get_visual_bounds/
 weight: 40
 ---
 ## get_visual_bounds(self) {#}
-Şeklin render edilen içeriğinden hesaplanan görsel sınırlarını alır.
+Şeklin render edilmiş içeriğinden hesaplanan görsel sınırlarını alır.
 
 ### Döndürür
 
-Bir **aspose.slides.RectangleF** ki bu, şeklin slayt koordinatlarında görsel sınırlarını temsil eder
-             .
+A [`RectangleF`](/slides/python-net/tr/aspose.slides/rectanglef) that represents the visual bounds of the shape
+             in slide coordinates.
+
+
 
 ```python
 def get_visual_bounds(self):
@@ -22,23 +24,26 @@ def get_visual_bounds(self):
 
 ### Açıklamalar
 
-Döndürülen dikdörtgen, şekil tarafından renderleme sırasında üretilen tüm içeriğin eksen hizalı sınırlarını
-             slayt koordinat uzayında temsil eder.
+The returned rectangle represents the axis-aligned bounds of all content
+             produced by the shape during rendering in slide coordinate space.
             
-             Bu sınırlar, şeklin model sınırlarından farklı olabilir
+             These bounds may differ from the shape's model bounds
              ([`Shape.x`](/slides/python-net/tr/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/tr/aspose.slides/shape/y),
              [`Shape.width`](/slides/python-net/tr/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/tr/aspose.slides/shape/height))
-             ve renderlenen içerik slayt orijininin ötesine uzanıyorsa negatif koordinatlar içerebilir.
+             and may contain negative coordinates if the rendered content extends
+             beyond the slide origin.
             
-             Görsel sınırlar, dönüşümler (örneğin döndürme), çizgi kalınlığı ve birleşimler,
-             metin yerleşimi ve taşma, SmartArt geometrisi ve şeklin son render görünümünü etkileyen diğer düzen
-             etkileri gibi renderlama ile ilgili yönleri dikkate alır.
+             The visual bounds take into account rendering-related aspects such as
+             transformations (for example, rotation), stroke width and joins,
+             text layout and overflow, SmartArt geometry, and other layout effects
+             that influence the final rendered appearance of the shape.
             
-             Döndürülen sınırlar slayt dikdörtgenine kırpılmaz.
+             The returned bounds are not clipped to the slide rectangle.
 
 
 
 ### Ayrıca Bakınız
 * sınıf [`OleObjectFrame`](/slides/python-net/tr/aspose.slides/oleobjectframe)
+* sınıf [`RectangleF`](/slides/python-net/tr/aspose.slides/rectanglef)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

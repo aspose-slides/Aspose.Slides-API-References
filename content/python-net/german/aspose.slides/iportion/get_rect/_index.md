@@ -7,12 +7,12 @@ url: /de/aspose.slides/iportion/get_rect/
 weight: 30
 ---
 ## get_rect(self) {#}
-Gibt die Koordinaten des Rechtecks zurück, das den Abschnitt begrenzt. Das Rechteck umfasst alle Zeilen des
-             Textes im Abschnitt, einschließlich leerer Zeilen.
+Ruft die Koordinaten des Rechtecks ab, das den Abschnitt umschließt. Das Rechteck enthält alle Zeilen des
+             Text im Abschnitt, einschließlich leerer Zeilen.
 
-### Rückgabewert
+### Rückgabe
 
-Rechteck, das den Abschnitt begrenzt **aspose.slides.RectangleF**
+Rechteck, das den Abschnitt umschließt [`RectangleF`](/slides/python-net/de/aspose.slides/rectanglef)
 
 
 
@@ -26,5 +26,6 @@ def get_rect(self):
 
 ### Siehe auch
 * Klasse [`IPortion`](/slides/python-net/de/aspose.slides/iportion)
+* Klasse [`RectangleF`](/slides/python-net/de/aspose.slides/rectanglef)
 * Modul [`aspose.slides`](/slides/python-net/de/aspose.slides)
 * Bibliothek [`Aspose.Slides`](/slides/python-net)

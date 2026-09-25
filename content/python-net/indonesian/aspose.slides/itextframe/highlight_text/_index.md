@@ -6,7 +6,7 @@ type: docs
 url: /id/aspose.slides/itextframe/highlight_text/
 weight: 20
 ---
-## highlight_text(self, text, highlight_color) {#str-asposepydrawingcolor}
+## highlight_text(self, text, highlight_color) {#str-asposeslidescolor}
 Menyorot semua kecocokan teks contoh dengan warna yang ditentukan.
 
 
@@ -19,10 +19,10 @@ def highlight_text(self, text, highlight_color):
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
 | text | **str** | Teks yang akan disorot. |
-| highlight_color | **aspose.slides.Color** | Warna untuk menyorot teks. |
+| highlight_color | [`Color`](/slides/python-net/id/aspose.slides/color) | Warna untuk menyorot teks. |
 
 
-## highlight_text(self, text, highlight_color, options) {#str-asposepydrawingcolor-itexthighlightingoptions}
+## highlight_text(self, text, highlight_color, options) {#str-asposeslidescolor-itexthighlightingoptions}
 Menyorot semua kecocokan teks contoh dengan warna yang ditentukan.
 
 
@@ -35,11 +35,11 @@ def highlight_text(self, text, highlight_color, options):
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
 | text | **str** | Teks yang akan disorot. |
-| highlight_color | **aspose.slides.Color** | Warna untuk menyorot teks. |
+| highlight_color | [`Color`](/slides/python-net/id/aspose.slides/color) | Warna untuk menyorot teks. |
 | options | [`ITextHighlightingOptions`](/slides/python-net/id/aspose.slides/itexthighlightingoptions) | Opsi penyorotan. |
 
 
-## highlight_text(self, text, highlight_color, options, callback) {#str-asposepydrawingcolor-itextsearchoptions-ifindresultcallback}
+## highlight_text(self, text, highlight_color, options, callback) {#str-asposeslidescolor-itextsearchoptions-ifindresultcallback}
 Menyorot semua kecocokan teks contoh dengan warna yang ditentukan.
 
 
@@ -52,7 +52,7 @@ def highlight_text(self, text, highlight_color, options, callback):
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
 | text | **str** | Teks yang akan disorot. |
-| highlight_color | **aspose.slides.Color** | Warna untuk menyorot teks. |
+| highlight_color | [`Color`](/slides/python-net/id/aspose.slides/color) | Warna untuk menyorot teks. |
 | options | [`ITextSearchOptions`](/slides/python-net/id/aspose.slides/itextsearchoptions) | Opsi pencarian teks [`ITextSearchOptions`](/slides/python-net/id/aspose.slides/itextsearchoptions). |
 | callback | [`IFindResultCallback`](/slides/python-net/id/aspose.slides/ifindresultcallback) | Objek callback untuk menerima hasil pencarian [`IFindResultCallback`](/slides/python-net/id/aspose.slides/ifindresultcallback). |
 
@@ -63,5 +63,6 @@ def highlight_text(self, text, highlight_color, options, callback):
 * kelas [`ITextFrame`](/slides/python-net/id/aspose.slides/itextframe)
 * kelas [`ITextHighlightingOptions`](/slides/python-net/id/aspose.slides/itexthighlightingoptions)
 * kelas [`ITextSearchOptions`](/slides/python-net/id/aspose.slides/itextsearchoptions)
+* kelas [`Color`](/slides/python-net/id/aspose.slides/color)
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
-* perpustakaan [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

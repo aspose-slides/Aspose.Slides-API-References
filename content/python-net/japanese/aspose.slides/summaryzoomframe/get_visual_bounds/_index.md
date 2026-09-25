@@ -7,12 +7,12 @@ url: /ja/aspose.slides/summaryzoomframe/get_visual_bounds/
 weight: 40
 ---
 ## get_visual_bounds(self) {#}
-描画されたコンテンツから計算されたシェイプの視覚的境界を取得します。
+レンダリングされたコンテンツから計算された、シェイプの視覚的境界を取得します。
 
 ### 戻り値
 
-A **aspose.slides.RectangleF** がシェイプの視覚的境界を表します
-             スライド座標系で。
+[`RectangleF`](/slides/python-net/ja/aspose.slides/rectanglef) は、スライド座標系でシェイプの視覚的境界を表すものです。
+
 
 
 ```python
@@ -23,17 +23,18 @@ def get_visual_bounds(self):
 
 ### 備考
 
-返却される矩形は、スライド座標空間でレンダリング中にシェイプが生成したすべてのコンテンツの軸に平行な境界を表します。
-             
-             これらの境界はシェイプのモデル境界 ([`Shape.x`](/slides/python-net/ja/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/ja/aspose.slides/shape/y),
-             [`Shape.width`](/slides/python-net/ja/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/ja/aspose.slides/shape/height))
-             と異なる場合があり、レンダリングされたコンテンツがスライドの原点を超えている場合、負の座標を含むことがあります。
-             
-             視覚的境界は、変換（例: 回転）、線幅と結合、テキストレイアウトとオーバーフロー、SmartArt のジオメトリ、その他シェイプの最終的なレンダリング外観に影響を与えるレイアウト効果など、レンダリングに関連する側面を考慮します。
-             
-             返却される境界はスライド矩形にクリップされません。
+返される矩形は、スライド座標空間でレンダリング中にシェイプによって生成されたすべてのコンテンツの軸に平行な境界を表します。
 
-### 関連項目
+これらの境界は、シェイプのモデル境界 ([`Shape.x`](/slides/python-net/ja/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/ja/aspose.slides/shape/y), [`Shape.width`](/slides/python-net/ja/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/ja/aspose.slides/shape/height)) と異なる場合があり、レンダリングされたコンテンツがスライドの原点を超えている場合、負の座標を含むことがあります。
+
+視覚的境界は、変換（例: 回転）、ストローク幅とジョイン、テキストレイアウトとオーバーフロー、SmartArt のジオメトリ、その他シェイプの最終的な描画外観に影響を与えるレイアウト効果など、レンダリングに関連する要素を考慮します。
+
+返された境界はスライド矩形にクリップされません。
+
+
+
+### 参照
 * クラス [`SummaryZoomFrame`](/slides/python-net/ja/aspose.slides/summaryzoomframe)
+* クラス [`RectangleF`](/slides/python-net/ja/aspose.slides/rectanglef)
 * モジュール [`aspose.slides`](/slides/python-net/ja/aspose.slides)
 * ライブラリ [`Aspose.Slides`](/slides/python-net)

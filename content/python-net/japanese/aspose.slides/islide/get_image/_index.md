@@ -7,11 +7,11 @@ url: /ja/aspose.slides/islide/get_image/
 weight: 40
 ---
 ## get_image(self) {#}
-サムネイル画像オブジェクト (実サイズの20%) を返します。
+指定サイズの20%のサムネイル画像オブジェクトを返します。
 
 ### 戻り値
 
-画像オブジェクト **aspose.slides.Bitmap**
+Image object **aspose.slides.IImage**
 
 
 
@@ -22,12 +22,12 @@ def get_image(self):
 
 
 
-## get_image(self, image_size) {#asposepydrawingsize}
+## get_image(self, image_size) {#asposeslidessize}
 指定されたサイズの画像オブジェクトを返します。
 
 ### 戻り値
 
-Bitmap オブジェクト。
+Bitmap object.
 
 
 
@@ -36,10 +36,9 @@ def get_image(self, image_size):
     ...
 ```
 
-
 | パラメータ | 型 | 説明 |
 | :- | :- | :- |
-| image_size | **aspose.slides.Size** | 作成する画像のサイズ。 |
+| image_size | [`Size`](/slides/python-net/ja/aspose.slides/size) | 作成する画像のサイズ。 |
 
 
 ## get_image(self, options) {#asposeslidesexportitiffoptions}
@@ -47,7 +46,7 @@ def get_image(self, image_size):
 
 ### 戻り値
 
-画像オブジェクト。
+Image object.
 
 
 
@@ -56,18 +55,17 @@ def get_image(self, options):
     ...
 ```
 
-
 | パラメータ | 型 | 説明 |
 | :- | :- | :- |
-| options | [`ITiffOptions`](/slides/python-net/ja/aspose.slides.export/itiffoptions) | Tiff オプション。 |
+| options | [`ITiffOptions`](/slides/python-net/ja/aspose.slides.export/itiffoptions) | TIFF オプション。 |
 
 
 ## get_image(self, options) {#asposeslidesexportirenderingoptions}
-サムネイル Bitmap オブジェクトを返します。
+サムネイルビットマップオブジェクトを返します。
 
 ### 戻り値
 
-Bitmap オブジェクト。
+Bitmap objects.
 
 
 
@@ -76,18 +74,17 @@ def get_image(self, options):
     ...
 ```
 
-
 | パラメータ | 型 | 説明 |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/ja/aspose.slides.export/irenderingoptions) | レンダリングオプション。 |
+| options | [`IRenderingOptions`](/slides/python-net/ja/aspose.slides.export/irenderingoptions) | レンダリング オプション。 |
 
 
 ## get_image(self, scale_x, scale_y) {#float-float}
-カスタムスケーリングで画像オブジェクトを返します。
+カスタムスケーリングされた画像オブジェクトを返します。
 
 ### 戻り値
 
-画像オブジェクト **aspose.slides.Bitmap**
+Image object **aspose.slides.IImage**
 
 
 
@@ -96,19 +93,18 @@ def get_image(self, scale_x, scale_y):
     ...
 ```
 
-
 | パラメータ | 型 | 説明 |
 | :- | :- | :- |
-| scale_x | **float** | このサムネイルを x 軸方向に拡大縮小する値。 |
-| scale_y | **float** | このサムネイルを y 軸方向に拡大縮小する値。 |
+| scale_x | **float** | X 軸方向にこのサムネイルを拡大縮小する値。 |
+| scale_y | **float** | Y 軸方向にこのサムネイルを拡大縮小する値。 |
 
 
-## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposepydrawingsize}
-指定されたサイズでサムネイル Bitmap オブジェクトを返します。
+## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposeslidessize}
+指定されたサイズのサムネイルビットマップオブジェクトを返します。
 
 ### 戻り値
 
-Bitmap オブジェクト。
+Bitmap objects.
 
 
 
@@ -117,19 +113,18 @@ def get_image(self, options, image_size):
     ...
 ```
 
-
 | パラメータ | 型 | 説明 |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/ja/aspose.slides.export/irenderingoptions) | レンダリングオプション。 |
-| image_size | **aspose.slides.Size** | 作成する画像のサイズ。 |
+| options | [`IRenderingOptions`](/slides/python-net/ja/aspose.slides.export/irenderingoptions) | レンダリング オプション。 |
+| image_size | [`Size`](/slides/python-net/ja/aspose.slides/size) | 作成する画像のサイズ。 |
 
 
 ## get_image(self, options, scale_x, scale_y) {#asposeslidesexportirenderingoptions-float-float}
-カスタムスケーリングでサムネイル Bitmap オブジェクトを返します。
+カスタムスケーリングされたサムネイルビットマップオブジェクトを返します。
 
 ### 戻り値
 
-Bitmap オブジェクト。
+Bitmap objects.
 
 
 
@@ -138,12 +133,11 @@ def get_image(self, options, scale_x, scale_y):
     ...
 ```
 
-
 | パラメータ | 型 | 説明 |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/ja/aspose.slides.export/irenderingoptions) | レンダリングオプション。 |
-| scale_x | **float** | このサムネイルを x 軸方向に拡大縮小する値。 |
-| scale_y | **float** | このサムネイルを y 軸方向に拡大縮小する値。 |
+| options | [`IRenderingOptions`](/slides/python-net/ja/aspose.slides.export/irenderingoptions) | レンダリング オプション。 |
+| scale_x | **float** | X 軸方向にこのサムネイルを拡大縮小する値。 |
+| scale_y | **float** | Y 軸方向にこのサムネイルを拡大縮小する値。 |
 
 
 
@@ -152,5 +146,6 @@ def get_image(self, options, scale_x, scale_y):
 * クラス [`IRenderingOptions`](/slides/python-net/ja/aspose.slides.export/irenderingoptions)
 * クラス [`ISlide`](/slides/python-net/ja/aspose.slides/islide)
 * クラス [`ITiffOptions`](/slides/python-net/ja/aspose.slides.export/itiffoptions)
+* クラス [`Size`](/slides/python-net/ja/aspose.slides/size)
 * モジュール [`aspose.slides`](/slides/python-net/ja/aspose.slides)
 * ライブラリ [`Aspose.Slides`](/slides/python-net)

@@ -1,33 +1,35 @@
 ---
 title: IPatternFormatEffectiveData class
-second_title: Aspose.Slides a Pythonhoz .NET-en keresztül API-referencia
+second_title: Aspose.Slides a Pythonhoz .NET-en keresztül API referencia
 description: 
 type: docs
 url: /hu/aspose.slides/ipatternformateffectivedata/
 ---
-## IPatternFormatEffectiveData class
+## IPatternFormatEffectiveData osztály
 
-Módosíthatatlan objektum, amely a hatékony minta kitöltési tulajdonságokat tartalmaz.
+Módosíthatatlan objektum, amely a hatékony mintatöltés tulajdonságait tartalmazza.
 
-Az IPatternFormatEffectiveData típus a következő tagokat biztosít:
+Az IPatternFormatEffectiveData típus a következő tagokat tartalmazza:
 
 ## Tulajdonságok
 
 | Tulajdonság | Leírás |
 | :- | :- |
 | [`pattern_style`](/slides/python-net/hu/aspose.slides/ipatternformateffectivedata/pattern_style/) | Visszaadja a minta stílusát.<br/>            Csak olvasható [`PatternStyle`](/slides/python-net/hu/aspose.slides/patternstyle). |
-| [`fore_color`](/slides/python-net/hu/aspose.slides/ipatternformateffectivedata/fore_color/) | Visszaadja az előtér minta színét.<br/>            Csak olvasható **aspose.slides.Color**. |
-| [`back_color`](/slides/python-net/hu/aspose.slides/ipatternformateffectivedata/back_color/) | Visszaadja a háttér minta színét.<br/>            Csak olvasható **aspose.slides.Color**. |
+| [`fore_color`](/slides/python-net/hu/aspose.slides/ipatternformateffectivedata/fore_color/) | Visszaadja az előtér minta színét.<br/>            Csak olvasható [`Color`](/slides/python-net/hu/aspose.slides/color). |
+| [`back_color`](/slides/python-net/hu/aspose.slides/ipatternformateffectivedata/back_color/) | Visszaadja a háttér minta színét.<br/>            Csak olvasható [`Color`](/slides/python-net/hu/aspose.slides/color). |
 
-## Módszerek
+## Metódusok
 
-| Módszer | Leírás |
+| Metódus | Leírás |
 | :- | :- |
-| [`get_tile_i_image(self, background, foreground)`](/slides/python-net/hu/aspose.slides/ipatternformateffectivedata/get_tile_i_image/#asposepydrawingcolor-asposepydrawingcolor) | Létrehoz egy csempe képet a minta kitöltéshez a megadott színekkel. |
+| [`get_tile_i_image(self, background, foreground)`](/slides/python-net/hu/aspose.slides/ipatternformateffectivedata/get_tile_i_image/#asposeslidescolor-asposeslidescolor) | Létrehoz egy csempeképet a mintatöltéshez megadott színekkel. |
 
-### Megjegyzés
 
-Ez a felület a [`IFillFormatEffectiveData`](/slides/python-net/hu/aspose.slides/ifillformateffectivedata) és a [`ILineFillFormatEffectiveData`](/slides/python-net/hu/aspose.slides/ilinefillformateffectivedata) részeként használatos.
+### Megjegyzések
+
+Ez az interfész a [`IFillFormatEffectiveData`](/slides/python-net/hu/aspose.slides/ifillformateffectivedata) és [`ILineFillFormatEffectiveData`](/slides/python-net/hu/aspose.slides/ilinefillformateffectivedata) részeként használatos.
+
 
 ### Lásd még
 * osztály [`IFillFormatEffectiveData`](/slides/python-net/hu/aspose.slides/ifillformateffectivedata)

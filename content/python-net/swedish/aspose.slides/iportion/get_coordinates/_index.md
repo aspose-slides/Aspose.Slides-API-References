@@ -7,13 +7,13 @@ url: /sv/aspose.slides/iportion/get_coordinates/
 weight: 20
 ---
 ## get_coordinates(self) {#}
-Hämtar koordinaterna för början av delen. X-koordinaten för punkten representerar 
-            delen som börjar från det första tecknet inklusive vänster sidobäring.
-            Y-koordinaten inkluderar övre sidobäring.
+Hämta koordinaterna för början av delen. X-koordinaten för punkten representerar
+            delen som börjar från det första tecknet inklusive vänster sidbärare. Y-koordinaten
+            inkluderar övre sidbärare.
 
-### Returnvärde
+### Returnerar
 
-Koordinaterna för början av delen **aspose.slides.PointF**
+Koordinaterna för början av delen [`PointF`](/slides/python-net/sv/aspose.slides/pointf)
 
 
 
@@ -25,7 +25,8 @@ def get_coordinates(self):
 
 
 
-### Se också
+### Se även
 * klass [`IPortion`](/slides/python-net/sv/aspose.slides/iportion)
+* klass [`PointF`](/slides/python-net/sv/aspose.slides/pointf)
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

@@ -7,8 +7,8 @@ url: /ja/aspose.slides.theme/icolorschemeeffectivedata/light2/
 weight: 120
 ---
 ## light2 プロパティ
-スキーム内の2番目の光の色です。
-読み取り専用 **aspose.slides.Color**.
+Second light color in the scheme.
+            読み取り専用 [`Color`](/slides/python-net/ja/aspose.slides/color).
 
 ### 定義:
 ```python
@@ -17,7 +17,9 @@ def light2(self):
     ...
 ```
 
+
 ### 参照
 * クラス [`IColorSchemeEffectiveData`](/slides/python-net/ja/aspose.slides.theme/icolorschemeeffectivedata)
+* クラス [`Color`](/slides/python-net/ja/aspose.slides/color)
 * モジュール [`aspose.slides.theme`](/slides/python-net/ja/aspose.slides.theme)
-* library [`Aspose.Slides`](/slides/python-net)
+* ライブラリ [`Aspose.Slides`](/slides/python-net)

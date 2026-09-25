@@ -1,6 +1,6 @@
 ---
 title: light1 property
-second_title: Aspose.Slides untuk Python melalui Referensi API .NET
+second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides.theme/icolorschemeeffectivedata/light1/
@@ -8,7 +8,7 @@ weight: 110
 ---
 ## light1 properti
 Warna cahaya pertama dalam skema.
-            Hanya-baca **aspose.slides.Color**.
+            Hanya baca [`Color`](/slides/python-net/id/aspose.slides/color).
 
 ### Definisi:
 ```python
@@ -20,5 +20,6 @@ def light1(self):
 
 ### Lihat Juga
 * kelas [`IColorSchemeEffectiveData`](/slides/python-net/id/aspose.slides.theme/icolorschemeeffectivedata)
+* kelas [`Color`](/slides/python-net/id/aspose.slides/color)
 * modul [`aspose.slides.theme`](/slides/python-net/id/aspose.slides.theme)
-* perpustakaan [`Aspose.Slides`](/slides/python-net)
+* pustaka [`Aspose.Slides`](/slides/python-net)

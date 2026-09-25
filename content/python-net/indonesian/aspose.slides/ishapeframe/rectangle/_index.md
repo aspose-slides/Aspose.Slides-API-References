@@ -1,14 +1,14 @@
 ---
 title: rectangle property
-second_title: Aspose.Slides untuk Python melalui .NET Referensi API
+second_title: Aspose.Slides untuk Python via .NET Referensi API
 description: 
 type: docs
 url: /id/aspose.slides/ishapeframe/rectangle/
 weight: 70
 ---
 ## properti persegi panjang
-Mengembalikan koordinat sebuah frame.
-            Baca-saja **aspose.slides.RectangleF**.
+Returns the coordinates of a frame.
+            Hanya baca [`RectangleF`](/slides/python-net/id/aspose.slides/rectanglef).
 
 ### Definisi:
 ```python
@@ -20,5 +20,6 @@ def rectangle(self):
 
 ### Lihat Juga
 * kelas [`IShapeFrame`](/slides/python-net/id/aspose.slides/ishapeframe)
+* kelas [`RectangleF`](/slides/python-net/id/aspose.slides/rectanglef)
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
-* perpustakaan [`Aspose.Slides`](/slides/python-net)
+* pustaka [`Aspose.Slides`](/slides/python-net)

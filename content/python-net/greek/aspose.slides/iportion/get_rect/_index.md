@@ -7,11 +7,11 @@ url: /el/aspose.slides/iportion/get_rect/
 weight: 30
 ---
 ## get_rect(self) {#}
-Λαμβάνει τις συντεταγμένες του ορθογωνίου που περιορίζει το τμήμα. Το ορθογώνιο περιλαμβάνει όλες τις γραμμές του κειμένου στο τμήμα, συμπεριλαμβανομένων και των κενών.
+Λάβετε τις συντεταγμένες του ορθογωνίου που περιβάλλει το τμήμα. Το ορθογώνιο περιλαμβάνει όλες τις γραμμές κειμένου στο τμήμα, συμπεριλαμβανομένων των κενών.
 
 ### Επιστρέφει
 
-Ορθογώνιο που περιβάλλει το τμήμα **aspose.slides.RectangleF**
+Ορθογώνιο που περιβάλλει το τμήμα [`RectangleF`](/slides/python-net/el/aspose.slides/rectanglef)
 
 
 
@@ -25,5 +25,6 @@ def get_rect(self):
 
 ### Δείτε επίσης
 * κλάση [`IPortion`](/slides/python-net/el/aspose.slides/iportion)
+* κλάση [`RectangleF`](/slides/python-net/el/aspose.slides/rectanglef)
 * μονάδα [`aspose.slides`](/slides/python-net/el/aspose.slides)
 * βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

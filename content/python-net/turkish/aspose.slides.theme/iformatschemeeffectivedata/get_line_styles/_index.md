@@ -6,7 +6,7 @@ type: docs
 url: /tr/aspose.slides.theme/iformatschemeeffectivedata/get_line_styles/
 weight: 40
 ---
-## get_line_styles(self, style_color) {#asposepydrawingcolor}
+## get_line_styles(self, style_color) {#asposeslidescolor}
 Tema tarafından tanımlanan çizgi stillerinin bir koleksiyonunu döndürür.
 
 ### Döndürür
@@ -23,12 +23,13 @@ def get_line_styles(self, style_color):
 
 | Parametre | Tür | Açıklama |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | Renk **aspose.slides.Color** |
+| style_color | [`Color`](/slides/python-net/tr/aspose.slides/color) | Renk [`Color`](/slides/python-net/tr/aspose.slides/color) |
 
 
 
 ### Ayrıca Bakınız
-* class [`IFormatSchemeEffectiveData`](/slides/python-net/tr/aspose.slides.theme/iformatschemeeffectivedata)
-* class [`ILineFormatCollectionEffectiveData`](/slides/python-net/tr/aspose.slides.theme/ilineformatcollectioneffectivedata)
-* module [`aspose.slides.theme`](/slides/python-net/tr/aspose.slides.theme)
-* library [`Aspose.Slides`](/slides/python-net)
+* sınıf [`IFormatSchemeEffectiveData`](/slides/python-net/tr/aspose.slides.theme/iformatschemeeffectivedata)
+* sınıf [`ILineFormatCollectionEffectiveData`](/slides/python-net/tr/aspose.slides.theme/ilineformatcollectioneffectivedata)
+* sınıf [`Color`](/slides/python-net/tr/aspose.slides/color)
+* modül [`aspose.slides.theme`](/slides/python-net/tr/aspose.slides.theme)
+* kütüphane [`Aspose.Slides`](/slides/python-net)

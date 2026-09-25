@@ -1,17 +1,17 @@
 ---
 title: get_tile method
-second_title: Aspose.Slides dla Pythona przez .NET – Dokumentacja API
+second_title: Aspose.Slides dla Pythona poprzez .NET Referencję API
 description: 
 type: docs
 url: /pl/aspose.slides/ipatternformat/get_tile/
 weight: 10
 ---
-## get_tile(self, style_color) {#asposepydrawingcolor}
-Tworzy obraz kafelka dla wypełnienia wzorem.
+## get_tile(self, style_color) {#asposeslidescolor}
+Tworzy obrazek kafelka dla wypełnienia wzorem.
 
 ### Zwraca
 
-Tile **aspose.slides.Bitmap**.
+Kafelka **aspose.slides.IImage**.
 
 
 
@@ -23,15 +23,15 @@ def get_tile(self, style_color):
 
 | Parametr | Typ | Opis |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | Domyślny **aspose.slides.Color**, <br/><br/>            zdefiniowany w obiekcie StyleEx klasy ShapeEx. Kolory wypełnienia mogą zależeć od tego. |
+| style_color | [`Color`](/slides/python-net/pl/aspose.slides/color) | Domyślny [`Color`](/slides/python-net/pl/aspose.slides/color), <br/><br/> zdefiniowany w obiekcie ShapeEx's StyleEx. Kolory Fill's mogą zależeć od tego. |
 
 
-## get_tile(self, background, foreground) {#asposepydrawingcolor-asposepydrawingcolor}
-Tworzy obraz kafelka dla wypełnienia wzorem przy użyciu określonych kolorów.
+## get_tile(self, background, foreground) {#asposeslidescolor-asposeslidescolor}
+Tworzy obrazek kafelka dla wypełnienia wzorem z określonymi kolorami.
 
 ### Zwraca
 
-Tile **aspose.slides.Bitmap**.
+Kafelka **aspose.slides.IImage**.
 
 
 
@@ -43,13 +43,14 @@ def get_tile(self, background, foreground):
 
 | Parametr | Typ | Opis |
 | :- | :- | :- |
-| background | **aspose.slides.Color** | Kolor tła **aspose.slides.Color** dla wzoru. |
-| foreground | **aspose.slides.Color** | Kolor pierwszego planu **aspose.slides.Color** dla wzoru. |
+| background | [`Color`](/slides/python-net/pl/aspose.slides/color) | Tło [`Color`](/slides/python-net/pl/aspose.slides/color) dla wzoru. |
+| foreground | [`Color`](/slides/python-net/pl/aspose.slides/color) | Pierwszy plan [`Color`](/slides/python-net/pl/aspose.slides/color) dla wzoru. |
 
 
 
 ### Zobacz także
 * klasa [`IImage`](/slides/python-net/pl/aspose.slides/iimage)
 * klasa [`IPatternFormat`](/slides/python-net/pl/aspose.slides/ipatternformat)
+* klasa [`Color`](/slides/python-net/pl/aspose.slides/color)
 * moduł [`aspose.slides`](/slides/python-net/pl/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* biblioteka [`Aspose.Slides`](/slides/python-net)

@@ -8,7 +8,7 @@ weight: 60
 ---
 ## position propiedad
 Devuelve o establece la position de un comentario en una diapositiva.
-            Lectura/escritura **aspose.slides.PointF**.
+            Lectura/escritura [`PointF`](/slides/python-net/es/aspose.slides/pointf).
 
 ### Definición:
 ```python
@@ -21,7 +21,9 @@ def position(self, value):
     ...
 ```
 
+
 ### Ver también
 * clase [`ModernComment`](/slides/python-net/es/aspose.slides/moderncomment)
+* clase [`PointF`](/slides/python-net/es/aspose.slides/pointf)
 * módulo [`aspose.slides`](/slides/python-net/es/aspose.slides)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

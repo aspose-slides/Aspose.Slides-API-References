@@ -1,13 +1,13 @@
 ---
 title: NotesSize class
-second_title: Aspose.Slides pro Python přes .NET API reference
+second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/notessize/
 ---
 ## NotesSize třída
 
-Reprezentuje velikost snímku poznámek.
+Představuje velikost poznámkového snímku.
 
 Typ NotesSize poskytuje následující členy:
 
@@ -21,7 +21,8 @@ Typ NotesSize poskytuje následující členy:
 
 | Vlastnost | Popis |
 | :- | :- |
-| [`size`](/slides/python-net/cs/aspose.slides/notessize/size/) | Vrací nebo nastavuje velikost v bodech.<br/>            Čtení/zápis **aspose.slides.SizeF**. |
+| [`size`](/slides/python-net/cs/aspose.slides/notessize/size/) | Vrací nebo nastavuje velikost v bodech.<br/>            Čtení/Zápis [`SizeF`](/slides/python-net/cs/aspose.slides/sizef). |
+
 
 ### Viz také
 * modul [`aspose.slides`](/slides/python-net/cs/aspose.slides)

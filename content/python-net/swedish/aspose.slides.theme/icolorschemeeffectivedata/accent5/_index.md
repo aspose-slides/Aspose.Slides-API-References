@@ -7,8 +7,8 @@ url: /sv/aspose.slides.theme/icolorschemeeffectivedata/accent5/
 weight: 50
 ---
 ## accent5 egenskap
-Femte accentfärgen i schemat.
-            Skrivskyddad **aspose.slides.Color**.
+Den femte accentfärgen i schemat.
+            Skrivskyddad [`Color`](/slides/python-net/sv/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def accent5(self):
 
 ### Se även
 * klass [`IColorSchemeEffectiveData`](/slides/python-net/sv/aspose.slides.theme/icolorschemeeffectivedata)
+* klass [`Color`](/slides/python-net/sv/aspose.slides/color)
 * modul [`aspose.slides.theme`](/slides/python-net/sv/aspose.slides.theme)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

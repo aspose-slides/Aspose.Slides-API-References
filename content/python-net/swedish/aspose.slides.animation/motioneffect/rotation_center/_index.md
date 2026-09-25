@@ -8,7 +8,7 @@ weight: 120
 ---
 ## rotation_center egenskap
 Beskriver centrum för rotationen som används för att rotera en rörelsebana med X vinkel.
-Läs/skriv **aspose.slides.PointF**.
+            Läs/skriv [`PointF`](/slides/python-net/sv/aspose.slides/pointf).
 
 ### Definition:
 ```python
@@ -24,5 +24,6 @@ def rotation_center(self, value):
 
 ### Se även
 * klass [`MotionEffect`](/slides/python-net/sv/aspose.slides.animation/motioneffect)
+* klass [`PointF`](/slides/python-net/sv/aspose.slides/pointf)
 * modul [`aspose.slides.animation`](/slides/python-net/sv/aspose.slides.animation)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

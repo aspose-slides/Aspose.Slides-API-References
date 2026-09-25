@@ -1,14 +1,14 @@
 ---
 title: size property
-second_title: Aspose.Slides Pythonhoz a .NET API referencia
+second_title: Aspose.Slides a Pythonhoz a .NET API-referenciához
 description: 
 type: docs
 url: /hu/aspose.slides/inotessize/size/
 weight: 10
 ---
-## size tulajdonság
-Visszaadja vagy beállítja a size-t pontokban.
-            Olvasás/írás **aspose.slides.SizeF**.
+## méret tulajdonság
+Visszaadja vagy beállítja a méretet pontokban.
+            Olvasás/írás [`SizeF`](/slides/python-net/hu/aspose.slides/sizef).
 
 ### Definíció:
 ```python
@@ -24,5 +24,6 @@ def size(self, value):
 
 ### Lásd még
 * osztály [`INotesSize`](/slides/python-net/hu/aspose.slides/inotessize)
+* osztály [`SizeF`](/slides/python-net/hu/aspose.slides/sizef)
 * modul [`aspose.slides`](/slides/python-net/hu/aspose.slides)
 * könyvtár [`Aspose.Slides`](/slides/python-net)

@@ -7,12 +7,11 @@ url: /de/aspose.slides/shape/get_visual_bounds/
 weight: 40
 ---
 ## get_visual_bounds(self) {#}
-Ermittelt die visuellen Grenzen der Form, die aus ihrem gerenderten Inhalt berechnet werden.
+Ermittelt die visuellen Begrenzungen der Form, die aus ihrem gerenderten Inhalt berechnet werden.
 
-### Rückgabewert
+### Rückgabe
 
-Ein **aspose.slides.RectangleF**, das die visuellen Grenzen der Form darstellt
-             in Folienkoordinaten.
+Ein [`RectangleF`](/slides/python-net/de/aspose.slides/rectanglef), der die visuellen Begrenzungen der Form in Folienkoordinaten darstellt.
 
 
 
@@ -22,27 +21,28 @@ def get_visual_bounds(self):
 ```
 
 
-### Hinweise
-Das zurückgegebene Rechteck stellt die achsenparallelen Grenzen aller Inhalte dar
-             die von der Form beim Rendern im Folienkoordinatenraum erzeugt werden.
+### Anmerkungen
 
-             
-             Diese Grenzen können von den Modellgrenzen der Form abweichen
+Das zurückgegebene Rechteck stellt die achsenausgerichteten Begrenzungen aller Inhalte dar,
+             die von der Form während des Renderns im Folienkoordinatenraum erzeugt werden.
+            
+             Diese Begrenzungen können von den Modellgrenzen der Form abweichen
              ([`Shape.x`](/slides/python-net/de/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/de/aspose.slides/shape/y),
              [`Shape.width`](/slides/python-net/de/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/de/aspose.slides/shape/height))
              und können negative Koordinaten enthalten, wenn der gerenderte Inhalt
-             über den Ursprung der Folie hinausgeht.
-
-             
-             Die visuellen Grenzen berücksichtigen renderbezogene Aspekte wie
-             Transformationen (zum Beispiel Drehung), Strichbreite und -verbindungen,
+             über den Folienursprung hinausgeht.
+            
+             Die visuellen Begrenzungen berücksichtigen renderbezogene Aspekte wie
+             Transformationen (zum Beispiel Rotation), Strichstärke und Verbindungen,
              Textlayout und Überlauf, SmartArt-Geometrie und andere Layout-Effekte,
              die das endgültige gerenderte Erscheinungsbild der Form beeinflussen.
+            
+             Die zurückgegebenen Begrenzungen werden nicht auf das Folienrechteck zugeschnitten.
 
-             
-             Die zurückgegebenen Grenzen werden nicht auf das Folienrechteck zugeschnitten.
+
 
 ### Siehe auch
 * Klasse [`Shape`](/slides/python-net/de/aspose.slides/shape)
+* Klasse [`RectangleF`](/slides/python-net/de/aspose.slides/rectanglef)
 * Modul [`aspose.slides`](/slides/python-net/de/aspose.slides)
 * Bibliothek [`Aspose.Slides`](/slides/python-net)

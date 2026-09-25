@@ -8,7 +8,7 @@ weight: 110
 ---
 ## rotation_center 属性
 描述用于将运动路径按 X 角度旋转的旋转中心。
-            读/写 **aspose.slides.PointF**.
+            读/写 [`PointF`](/slides/python-net/zh/aspose.slides/pointf).
 
 ### 定义:
 ```python
@@ -24,5 +24,6 @@ def rotation_center(self, value):
 
 ### 另见
 * 类 [`IMotionEffect`](/slides/python-net/zh/aspose.slides.animation/imotioneffect)
+* 类 [`PointF`](/slides/python-net/zh/aspose.slides/pointf)
 * 模块 [`aspose.slides.animation`](/slides/python-net/zh/aspose.slides.animation)
 * 库 [`Aspose.Slides`](/slides/python-net)

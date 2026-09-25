@@ -1,6 +1,6 @@
 ---
 title: size property
-second_title: Aspose.Slides para Python via .NET Referência da API
+second_title: Referência de API do Aspose.Slides para Python via .NET
 description: 
 type: docs
 url: /pt/aspose.slides/notessize/size/
@@ -8,7 +8,7 @@ weight: 20
 ---
 ## size propriedade
 Retorna ou define o size em pontos.
-            Leitura/gravação **aspose.slides.SizeF**.
+            Leitura/Gravação [`SizeF`](/slides/python-net/pt/aspose.slides/sizef).
 
 ### Definição:
 ```python
@@ -22,7 +22,8 @@ def size(self, value):
 ```
 
 
-### Veja Também
+### Veja também
 * classe [`NotesSize`](/slides/python-net/pt/aspose.slides/notessize)
+* classe [`SizeF`](/slides/python-net/pt/aspose.slides/sizef)
 * módulo [`aspose.slides`](/slides/python-net/pt/aspose.slides)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

@@ -1,18 +1,18 @@
 ---
 title: get_visual_bounds method
-second_title: Aspose.Slides a Pythonhoz .NET API referenciája
+second_title: Aspose.Slides Python számára a .NET-en keresztül API Referencia
 description: 
 type: docs
 url: /hu/aspose.slides/pictureframe/get_visual_bounds/
 weight: 60
 ---
 ## get_visual_bounds(self) {#}
-A forma megjelenített tartalma alapján kiszámított vizuális határokat adja vissza.
+A forma vizuális határait adja vissza, melyek a megjelenített tartalom alapján számítódnak.
 
 ### Visszatérési érték
 
-Egy **aspose.slides.RectangleF**, amely a forma vizuális határait
-             slide koordinátákban reprezentálja.
+Egy [`RectangleF`](/slides/python-net/hu/aspose.slides/rectanglef), amely a forma vizuális határait jelöli a diára vonatkozó koordinátákban.
+
 
 
 ```python
@@ -20,24 +20,21 @@ def get_visual_bounds(self):
     ...
 ```
 
-### Megjegyzés
 
-A visszaadott téglalap a forma által a renderelés során előállított összes tartalom
-             tengelyre igazított határait képviseli a slide koordináta térben.
+### Megjegyzések
 
-Ezek a határok eltérhetnek a forma modell határaitól
-             ([`Shape.x`](/slides/python-net/hu/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/hu/aspose.slides/shape/y),
-             [`Shape.width`](/slides/python-net/hu/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/hu/aspose.slides/shape/height))
-             és tartalmazhatnak negatív koordinátákat, ha a renderelt tartalom túllépi a slide kiindulópontját.
+A visszaadott téglalap a diára vonatkozó koordináta térben a forma által a renderelés során előállított összes tartalom tengely-igazított határait jelöli.
 
-A vizuális határok figyelembe veszik a rendereléshez kapcsolódó szempontokat, például
-             a transzformációkat (például forgatás), vonalvastagságot és illesztéseket,
-             szöveg elrendezést és túlcsordulást, a SmartArt geometriát, valamint egyéb
-             elrendezési hatásokat, amelyek befolyásolják a forma végső megjelenését.
+Ezek a határok eltérhetnek a forma modellhatáraitól ([`Shape.x`](/slides/python-net/hu/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/hu/aspose.slides/shape/y), [`Shape.width`](/slides/python-net/hu/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/hu/aspose.slides/shape/height)), és negatív koordinátákat is tartalmazhatnak, ha a megjelenített tartalom túlnyúlik a dia origóján.
 
-A visszaadott határokat nem vágják le a slide téglalapra.
+A vizuális határok figyelembe veszik a rendereléshez kapcsolódó tényezőket, mint például a transzformációk (például forgatás), a vonalszélesség és illesztések, a szöveg elrendezése és túlcsordulása, a SmartArt geometria, valamint más elrendezési hatások, amelyek a forma végső megjelenését befolyásolják.
+
+A visszaadott határokat nem vágják le a dia téglalapjára.
+
+
 
 ### Lásd még
 * osztály [`PictureFrame`](/slides/python-net/hu/aspose.slides/pictureframe)
+* osztály [`RectangleF`](/slides/python-net/hu/aspose.slides/rectanglef)
 * modul [`aspose.slides`](/slides/python-net/hu/aspose.slides)
 * könyvtár [`Aspose.Slides`](/slides/python-net)

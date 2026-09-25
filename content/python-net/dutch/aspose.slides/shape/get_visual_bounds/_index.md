@@ -7,12 +7,11 @@ url: /nl/aspose.slides/shape/get_visual_bounds/
 weight: 40
 ---
 ## get_visual_bounds(self) {#}
-Haalt de visuele grenzen van de vorm op, berekend aan de hand van de gerenderde inhoud.
+Haalt de visuele grenzen van de vorm op die zijn berekend vanuit de gerenderde inhoud.
 
-### Retour
+### Retourwaarde
 
-Een **aspose.slides.RectangleF** dat de visuele grenzen van de vorm
-             in slide-coördinaten weergeeft.
+Een [`RectangleF`](/slides/python-net/nl/aspose.slides/rectanglef) die de visuele grenzen van de vorm in slide-coördinaten vertegenwoordigt.
 
 
 
@@ -24,20 +23,18 @@ def get_visual_bounds(self):
 
 ### Opmerkingen
 
-De geretourneerde rechthoek vertegenwoordigt de as-uitgelijnde grenzen van alle inhoud die door de vorm wordt geproduceerd tijdens het renderen in de slide-coördinatenruimte.
-             
-             Deze grenzen kunnen afwijken van de modelgrenzen van de vorm
-             ([`Shape.x`](/slides/python-net/nl/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/nl/aspose.slides/shape/y),
-             [`Shape.width`](/slides/python-net/nl/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/nl/aspose.slides/shape/height))
-             en kunnen negatieve coördinaten bevatten als de gerenderde inhoud zich uitstrekt voorbij de slide-oorsprong.
-             
-             De visuele grenzen houden rekening met rendergerelateerde aspecten zoals transformaties (bijvoorbeeld rotatie), lijnbreedte en bochten, tekstlay-out en overflow, SmartArt-geometrie, en andere layouteffecten die de uiteindelijke gerenderde weergave van de vorm beïnvloeden.
-             
-             De geretourneerde grenzen worden niet bijgesneden tot de slide-rechthoek.
+De geretourneerde rechthoek vertegenwoordigt de as-georiënteerde grenzen van alle inhoud die door de vorm tijdens het renderen in slide-coördinatenruimte wordt geproduceerd.
+
+Deze grenzen kunnen afwijken van de modelgrenzen van de vorm ([`Shape.x`](/slides/python-net/nl/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/nl/aspose.slides/shape/y), [`Shape.width`](/slides/python-net/nl/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/nl/aspose.slides/shape/height)) en kunnen negatieve coördinaten bevatten als de gerenderde inhoud voorbij de slide-oorsprong uitstrekt.
+
+De visuele grenzen houden rekening met rendergerelateerde aspecten zoals transformaties (bijvoorbeeld rotatie), lijnbreedte en verbindingen, tekstlayout en overflow, SmartArt-geometrie, en andere layouteffecten die de uiteindelijke gerenderde weergave van de vorm beïnvloeden.
+
+De geretourneerde grenzen worden niet bijgesneden tot de slide-rechthoek.
 
 
 
 ### Zie ook
 * klasse [`Shape`](/slides/python-net/nl/aspose.slides/shape)
+* klasse [`RectangleF`](/slides/python-net/nl/aspose.slides/rectanglef)
 * module [`aspose.slides`](/slides/python-net/nl/aspose.slides)
 * bibliotheek [`Aspose.Slides`](/slides/python-net)

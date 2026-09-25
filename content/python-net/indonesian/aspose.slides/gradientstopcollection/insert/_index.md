@@ -6,51 +6,62 @@ type: docs
 url: /id/aspose.slides/gradientstopcollection/insert/
 weight: 30
 ---
-## insert(self, index, position, color) {#int-float-asposepydrawingcolor}
-Membuat hentian gradasi baru dan menyisipkannya pada indeks yang ditentukan ke dalam koleksi.
+## insert(self, index, position, color) {#int-float-asposeslidescolor}
+Membuat gradient stop baru dan menyisipkannya pada indeks yang ditentukan ke dalam koleksi.
+
 
 ```python
 def insert(self, index, position, color):
     ...
 ```
 
+
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
-| index | **int** | Indeks dalam koleksi tempat hentian gradasi baru akan disisipkan. |
-| position | **float** | Posisi hentian gradasi baru. |
-| color | **aspose.slides.Color** | Warna hentian radient baru. |
+| index | **int** | Indeks dalam koleksi tempat gradient stop baru akan disisipkan. |
+| position | **float** | Posisi gradient stop baru. |
+| color | [`Color`](/slides/python-net/id/aspose.slides/color) | Warna dari gradient stop baru. |
+
 
 ## insert(self, index, position, preset_color) {#int-float-presetcolor}
-Membuat hentian gradasi baru dan menyisipkannya pada indeks yang ditentukan ke dalam koleksi.
+Membuat gradient stop baru dan menyisipkannya pada indeks yang ditentukan ke dalam koleksi.
+
 
 ```python
 def insert(self, index, position, preset_color):
     ...
 ```
 
+
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
-| index | **int** | Indeks dalam koleksi tempat hentian gradasi baru akan disisipkan. |
-| position | **float** | Posisi hentian gradasi baru. |
-| preset_color | [`PresetColor`](/slides/python-net/id/aspose.slides/presetcolor) | Warna hentian radient baru. |
+| index | **int** | Indeks dalam koleksi tempat gradient stop baru akan disisipkan. |
+| position | **float** | Posisi gradient stop baru. |
+| preset_color | [`PresetColor`](/slides/python-net/id/aspose.slides/presetcolor) | Warna dari gradient stop baru. |
+
 
 ## insert(self, index, position, scheme_color) {#int-float-schemecolor}
-Membuat hentian gradasi baru dan menyisipkannya pada indeks yang ditentukan ke dalam koleksi.
+Membuat gradient stop baru dan menyisipkannya pada indeks yang ditentukan ke dalam koleksi.
+
 
 ```python
 def insert(self, index, position, scheme_color):
     ...
 ```
 
+
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
-| index | **int** | Indeks dalam koleksi tempat hentian gradasi baru akan disisipkan. |
-| position | **float** | Posisi hentian gradasi baru. |
-| scheme_color | [`SchemeColor`](/slides/python-net/id/aspose.slides/schemecolor) | Warna hentian radient baru. |
+| index | **int** | Indeks dalam koleksi tempat gradient stop baru akan disisipkan. |
+| position | **float** | Posisi gradient stop baru. |
+| scheme_color | [`SchemeColor`](/slides/python-net/id/aspose.slides/schemecolor) | Warna dari gradient stop baru. |
 
-### See Also
-* class [`GradientStopCollection`](/slides/python-net/id/aspose.slides/gradientstopcollection)
-* enumeration [`PresetColor`](/slides/python-net/id/aspose.slides/presetcolor)
-* enumeration [`SchemeColor`](/slides/python-net/id/aspose.slides/schemecolor)
-* module [`aspose.slides`](/slides/python-net/id/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+
+
+### Lihat Juga
+* kelas [`GradientStopCollection`](/slides/python-net/id/aspose.slides/gradientstopcollection)
+* enumerasi [`PresetColor`](/slides/python-net/id/aspose.slides/presetcolor)
+* enumerasi [`SchemeColor`](/slides/python-net/id/aspose.slides/schemecolor)
+* kelas [`Color`](/slides/python-net/id/aspose.slides/color)
+* modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
+* pustaka [`Aspose.Slides`](/slides/python-net)

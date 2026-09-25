@@ -6,9 +6,9 @@ type: docs
 url: /th/aspose.slides.animation/imotioneffect/by/
 weight: 50
 ---
-## โดยคุณสมบัติ
-อธิบายค่าการเลื่อนเชิงสัมพันธ์สำหรับการเคลื่อนไหว (เป็นเปอร์เซ็นต์)  
-Read/write **aspose.slides.PointF**.
+## ตามคุณสมบัติ
+อธิบายค่าออฟเซ็ตสัมพัทธ์สำหรับการทำแอนิเมชัน (เป็นเปอร์เซ็นต์).
+            อ่าน/เขียน [`PointF`](/slides/python-net/th/aspose.slides/pointf).
 
 ### คำนิยาม:
 ```python
@@ -21,7 +21,9 @@ def by(self, value):
     ...
 ```
 
+
 ### ดูเพิ่มเติม
 * คลาส [`IMotionEffect`](/slides/python-net/th/aspose.slides.animation/imotioneffect)
+* คลาส [`PointF`](/slides/python-net/th/aspose.slides/pointf)
 * โมดูล [`aspose.slides.animation`](/slides/python-net/th/aspose.slides.animation)
 * ไลบรารี [`Aspose.Slides`](/slides/python-net)

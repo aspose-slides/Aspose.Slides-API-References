@@ -6,7 +6,7 @@ type: docs
 url: /id/aspose.slides/igeometrypath/line_to/
 weight: 40
 ---
-## line_to(self, point) {#asposepydrawingpointf}
+## line_to(self, point) {#asposeslidespointf}
 Menambahkan garis ke akhir jalur
 
 
@@ -18,7 +18,7 @@ def line_to(self, point):
 
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | Titik akhir garis |
+| point | [`PointF`](/slides/python-net/id/aspose.slides/pointf) | Titik akhir garis |
 
 
 ## line_to(self, x, y) {#float-float}
@@ -37,8 +37,8 @@ def line_to(self, x, y):
 | y | **float** | Koordinat Y titik akhir garis |
 
 
-## line_to(self, point, index) {#asposepydrawingpointf-int}
-Menambahkan garis ke tempat yang ditentukan dalam jalur
+## line_to(self, point, index) {#asposeslidespointf-int}
+Menambahkan garis ke tempat yang ditentukan pada jalur
 
 
 ```python
@@ -49,7 +49,7 @@ def line_to(self, point, index):
 
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | Titik akhir |
+| point | [`PointF`](/slides/python-net/id/aspose.slides/pointf) | Titik akhir |
 | index | **int** | Indeks segmen dalam PathData |
 
 ### Pengecualian
@@ -60,7 +60,7 @@ def line_to(self, point, index):
 
 
 ## line_to(self, x, y, index) {#float-float-int}
-Menambahkan garis ke tempat yang ditentukan dalam jalur
+Menambahkan garis ke tempat yang ditentukan pada jalur
 
 
 ```python
@@ -85,5 +85,6 @@ def line_to(self, x, y, index):
 
 ### Lihat Juga
 * kelas [`IGeometryPath`](/slides/python-net/id/aspose.slides/igeometrypath)
+* kelas [`PointF`](/slides/python-net/id/aspose.slides/pointf)
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
-* pustaka [`Aspose.Slides`](/slides/python-net)
+* perpustakaan [`Aspose.Slides`](/slides/python-net)

@@ -8,7 +8,7 @@ weight: 20
 ---
 ## from_color egenskap
 Färg som kommer att ersättas.
-            Skrivskyddad **aspose.slides.Color**.
+            Endast läsning [`Color`](/slides/python-net/sv/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -18,7 +18,8 @@ def from_color(self):
 ```
 
 
-### Se också
+### Se även
 * klass [`IColorChangeEffectiveData`](/slides/python-net/sv/aspose.slides.effects/icolorchangeeffectivedata)
+* klass [`Color`](/slides/python-net/sv/aspose.slides/color)
 * modul [`aspose.slides.effects`](/slides/python-net/sv/aspose.slides.effects)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

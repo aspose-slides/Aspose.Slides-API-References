@@ -7,10 +7,11 @@ url: /th/aspose.slides/iparagraph/get_rect/
 weight: 30
 ---
 ## get_rect(self) {#}
-รับพิกัดของสี่เหลี่ยมที่ล้อมรอบย่อหน้า สี่เหลี่ยมนี้รวมทุกบรรทัดของข้อความในย่อหน้า รวมถึงบรรทัดที่ว่างเปล่าด้วย
+รับพิกัดของสี่เหลี่ยมที่ล้อมรอบย่อหน้า สี่เหลี่ยมนี้รวมบรรทัดทั้งหมดของข้อความในย่อหน้า รวมถึงบรรทัดว่างด้วย
 
 ### คืนค่า
-สี่เหลี่ยมที่ล้อมรอบย่อหน้า **aspose.slides.RectangleF**
+
+สี่เหลี่ยมที่ล้อมรอบย่อหน้า [`RectangleF`](/slides/python-net/th/aspose.slides/rectanglef)
 
 
 
@@ -24,5 +25,6 @@ def get_rect(self):
 
 ### ดูเพิ่มเติม
 * คลาส [`IParagraph`](/slides/python-net/th/aspose.slides/iparagraph)
+* คลาส [`RectangleF`](/slides/python-net/th/aspose.slides/rectanglef)
 * โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
 * ไลบรารี [`Aspose.Slides`](/slides/python-net)

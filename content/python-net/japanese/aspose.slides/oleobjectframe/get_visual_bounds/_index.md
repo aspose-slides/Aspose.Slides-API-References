@@ -7,37 +7,33 @@ url: /ja/aspose.slides/oleobjectframe/get_visual_bounds/
 weight: 40
 ---
 ## get_visual_bounds(self) {#}
-レンダリングされたコンテンツから計算されたシェイプのビジュアル境界を取得します。
+描画されたコンテンツから計算されたシェイプのビジュアル境界を取得します。
 
 ### 戻り値
 
-A **aspose.slides.RectangleF** that represents the visual bounds of the shape
-             in slide coordinates.
+スライド座標系でシェイプのビジュアル境界を表す[`RectangleF`](/slides/python-net/ja/aspose.slides/rectanglef)です.
+            
 
 ```python
 def get_visual_bounds(self):
     ...
 ```
 
+
 ### 備考
 
-The returned rectangle represents the axis-aligned bounds of all content
-             produced by the shape during rendering in slide coordinate space.
+返される矩形は、スライド座標空間でレンダリング中にシェイプが生成したすべてのコンテンツの軸に平行な境界を表します.
              
-These bounds may differ from the shape's model bounds
-             ([`Shape.x`](/slides/python-net/ja/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/ja/aspose.slides/shape/y),
-             [`Shape.width`](/slides/python-net/ja/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/ja/aspose.slides/shape/height))
-             and may contain negative coordinates if the rendered content extends
-             beyond the slide origin.
+これらの境界はシェイプのモデル境界 ([`Shape.x`](/slides/python-net/ja/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/ja/aspose.slides/shape/y), [`Shape.width`](/slides/python-net/ja/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/ja/aspose.slides/shape/height)) と異なる場合があり、レンダリングされたコンテンツがスライドの原点を超えている場合は負の座標を含むことがあります.
              
-The visual bounds take into account rendering-related aspects such as
-             transformations (for example, rotation), stroke width and joins,
-             text layout and overflow, SmartArt geometry, and other layout effects
-             that influence the final rendered appearance of the shape.
+ビジュアル境界は、変換（例: 回転）やストロークの幅と結合、テキストのレイアウトとオーバーフロー、SmartArt のジオメトリ、その他シェイプの最終的なレンダリング外観に影響を与えるレイアウト効果など、レンダリングに関連する側面を考慮します.
              
-The returned bounds are not clipped to the slide rectangle.
+返された境界はスライド矩形にクリップされません.
+
+
 
 ### 参照
 * クラス [`OleObjectFrame`](/slides/python-net/ja/aspose.slides/oleobjectframe)
+* クラス [`RectangleF`](/slides/python-net/ja/aspose.slides/rectanglef)
 * モジュール [`aspose.slides`](/slides/python-net/ja/aspose.slides)
-* ライブラリ [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

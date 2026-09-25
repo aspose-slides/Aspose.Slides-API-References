@@ -1,14 +1,14 @@
 ---
 title: dark1 property
-second_title: Aspose.Slides cho Python qua .NET Tham khảo API
+second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides.theme/icolorschemeeffectivedata/dark1/
 weight: 70
 ---
 ## dark1 thuộc tính
-First dark color in the scheme.
-            Chỉ đọc **aspose.slides.Color**.
+Màu tối đầu tiên trong bảng màu.
+            Chỉ đọc [`Color`](/slides/python-net/vi/aspose.slides/color).
 
 ### Định nghĩa:
 ```python
@@ -20,5 +20,6 @@ def dark1(self):
 
 ### Xem thêm
 * lớp [`IColorSchemeEffectiveData`](/slides/python-net/vi/aspose.slides.theme/icolorschemeeffectivedata)
+* lớp [`Color`](/slides/python-net/vi/aspose.slides/color)
 * mô-đun [`aspose.slides.theme`](/slides/python-net/vi/aspose.slides.theme)
 * thư viện [`Aspose.Slides`](/slides/python-net)

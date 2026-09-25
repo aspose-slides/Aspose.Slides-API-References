@@ -6,7 +6,7 @@ type: docs
 url: /zh/aspose.slides/geometrypath/line_to/
 weight: 50
 ---
-## line_to(self, point) {#asposepydrawingpointf}
+## line_to(self, point) {#asposeslidespointf}
 在路径末尾添加直线
 
 
@@ -18,7 +18,7 @@ def line_to(self, point):
 
 | 参数 | 类型 | 描述 |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | 线段的终点 |
+| point | [`PointF`](/slides/python-net/zh/aspose.slides/pointf) | 线段的结束点 |
 
 
 ## line_to(self, x, y) {#float-float}
@@ -33,11 +33,11 @@ def line_to(self, x, y):
 
 | 参数 | 类型 | 描述 |
 | :- | :- | :- |
-| x | **float** | 线段终点的 X 坐标 |
-| y | **float** | 线段终点的 Y 坐标 |
+| x | **float** | 线段结束点的 X 坐标 |
+| y | **float** | 线段结束点的 Y 坐标 |
 
 
-## line_to(self, point, index) {#asposepydrawingpointf-int}
+## line_to(self, point, index) {#asposeslidespointf-int}
 在路径的指定位置添加直线
 
 
@@ -49,7 +49,7 @@ def line_to(self, point, index):
 
 | 参数 | 类型 | 描述 |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | 终点 |
+| point | [`PointF`](/slides/python-net/zh/aspose.slides/pointf) | 结束点 |
 | index | **int** | PathData 中段的索引 |
 
 ### 异常
@@ -83,7 +83,8 @@ def line_to(self, x, y, index):
 
 
 
-### 另见
+### 另请参见
 * 类 [`GeometryPath`](/slides/python-net/zh/aspose.slides/geometrypath)
+* 类 [`PointF`](/slides/python-net/zh/aspose.slides/pointf)
 * 模块 [`aspose.slides`](/slides/python-net/zh/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* 库 [`Aspose.Slides`](/slides/python-net)

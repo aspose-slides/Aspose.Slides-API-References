@@ -1,14 +1,14 @@
 ---
 title: color property
-second_title: Tham khảo API Aspose.Slides cho Python thông qua .NET
+second_title: Aspose.Slides for Python via .NET Tham khảo API
 description: 
 type: docs
 url: /vi/aspose.slides.effects/igloweffectivedata/color/
 weight: 20
 ---
-## thuộc tính màu
+## color thuộc tính
 Màu.
-            Chỉ đọc **aspose.slides.Color**.
+Chỉ đọc [`Color`](/slides/python-net/vi/aspose.slides/color).
 
 ### Định nghĩa:
 ```python
@@ -17,8 +17,8 @@ def color(self):
     ...
 ```
 
-
 ### Xem thêm
 * lớp [`IGlowEffectiveData`](/slides/python-net/vi/aspose.slides.effects/igloweffectivedata)
-* module [`aspose.slides.effects`](/slides/python-net/vi/aspose.slides.effects)
+* lớp [`Color`](/slides/python-net/vi/aspose.slides/color)
+* mô-đun [`aspose.slides.effects`](/slides/python-net/vi/aspose.slides.effects)
 * thư viện [`Aspose.Slides`](/slides/python-net)

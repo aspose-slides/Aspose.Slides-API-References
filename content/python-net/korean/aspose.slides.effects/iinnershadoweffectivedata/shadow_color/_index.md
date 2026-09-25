@@ -8,7 +8,7 @@ weight: 50
 ---
 ## shadow_color 속성
 그림자 색상.
-            읽기 전용 **aspose.slides.Color**.
+            읽기 전용 [`Color`](/slides/python-net/ko/aspose.slides/color).
 
 ### 정의:
 ```python
@@ -18,7 +18,8 @@ def shadow_color(self):
 ```
 
 
-### 또 보기
+### 참조
 * 클래스 [`IInnerShadowEffectiveData`](/slides/python-net/ko/aspose.slides.effects/iinnershadoweffectivedata)
+* 클래스 [`Color`](/slides/python-net/ko/aspose.slides/color)
 * 모듈 [`aspose.slides.effects`](/slides/python-net/ko/aspose.slides.effects)
 * 라이브러리 [`Aspose.Slides`](/slides/python-net)

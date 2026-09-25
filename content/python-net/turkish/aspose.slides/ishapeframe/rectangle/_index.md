@@ -6,9 +6,9 @@ type: docs
 url: /tr/aspose.slides/ishapeframe/rectangle/
 weight: 70
 ---
-## dikdörtgen özelliği
+## rectangle özelliği
 Bir çerçevenin koordinatlarını döndürür.
-            Yalnızca okuma **aspose.slides.RectangleF**.
+            Yalnızca okunabilir [`RectangleF`](/slides/python-net/tr/aspose.slides/rectanglef).
 
 ### Tanım:
 ```python
@@ -18,7 +18,8 @@ def rectangle(self):
 ```
 
 
-### İlgili
+### Ayrıca Bakınız
 * sınıf [`IShapeFrame`](/slides/python-net/tr/aspose.slides/ishapeframe)
+* sınıf [`RectangleF`](/slides/python-net/tr/aspose.slides/rectanglef)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

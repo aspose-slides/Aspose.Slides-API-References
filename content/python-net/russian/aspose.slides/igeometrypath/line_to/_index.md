@@ -1,12 +1,12 @@
 ---
 title: line_to method
-second_title: Aspose.Slides для Python через .NET — справочник API
+second_title: Aspose.Slides для Python через .NET справочник API
 description: 
 type: docs
 url: /ru/aspose.slides/igeometrypath/line_to/
 weight: 40
 ---
-## line_to(self, point) {#asposepydrawingpointf}
+## line_to(self, point) {#asposeslidespointf}
 Добавляет линию в конец пути
 
 
@@ -18,7 +18,7 @@ def line_to(self, point):
 
 | Параметр | Тип | Описание |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | Конечная точка линии |
+| point | [`PointF`](/slides/python-net/ru/aspose.slides/pointf) | Конечная точка линии |
 
 
 ## line_to(self, x, y) {#float-float}
@@ -37,7 +37,7 @@ def line_to(self, x, y):
 | y | **float** | Координата Y конечной точки линии |
 
 
-## line_to(self, point, index) {#asposepydrawingpointf-int}
+## line_to(self, point, index) {#asposeslidespointf-int}
 Добавляет линию в указанное место пути
 
 
@@ -49,14 +49,14 @@ def line_to(self, point, index):
 
 | Параметр | Тип | Описание |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | Конечная точка |
+| point | [`PointF`](/slides/python-net/ru/aspose.slides/pointf) | Конечная точка |
 | index | **int** | Индекс сегмента в PathData |
 
 ### Исключения
 
 | Исключение | Описание |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Индекс сегмента находится вне диапазона PathData |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Индекс сегмента выходит за пределы диапазона PathData |
 
 
 ## line_to(self, x, y, index) {#float-float-int}
@@ -79,11 +79,12 @@ def line_to(self, x, y, index):
 
 | Исключение | Описание |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Индекс сегмента находится вне диапазона PathData |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Индекс сегмента выходит за пределы диапазона PathData |
 
 
 
 ### См. также
 * класс [`IGeometryPath`](/slides/python-net/ru/aspose.slides/igeometrypath)
+* класс [`PointF`](/slides/python-net/ru/aspose.slides/pointf)
 * модуль [`aspose.slides`](/slides/python-net/ru/aspose.slides)
 * библиотека [`Aspose.Slides`](/slides/python-net)

@@ -7,7 +7,7 @@ url: /th/aspose.slides.animation/scaleeffect/
 ---
 ## ScaleEffect คลาส
 
-แสดงถึงเอฟเฟกต์สเกลของการเคลื่อนไหว
+แทนผลกระทบการปรับสเกลของแอนิเมชัน
 
 **การสืบทอด:**[`ScaleEffect`](/slides/python-net/th/aspose.slides.animation/scaleeffect) → [`Behavior`](/slides/python-net/th/aspose.slides.animation/behavior)
 
@@ -23,14 +23,14 @@ url: /th/aspose.slides.animation/scaleeffect/
 
 | คุณสมบัติ | คำอธิบาย |
 | :- | :- |
-| [`accumulate`](/slides/python-net/th/aspose.slides.animation/scaleeffect/accumulate/) | แสดงว่าพฤติกรรมของการเคลื่อนไหวถูกสะสมหรือไม่.<br/>            อ่าน/เขียน [`NullableBool`](/slides/python-net/th/aspose.slides/nullablebool). |
-| [`additive`](/slides/python-net/th/aspose.slides.animation/scaleeffect/additive/) | แสดงว่าพฤติกรรมการเคลื่อนไหวปัจจุบันรวมกับการเคลื่อนไหวอื่นที่กำลังทำงานหรือไม่.<br/>            อ่าน/เขียน [`BehaviorAdditiveType`](/slides/python-net/th/aspose.slides.animation/behavioradditivetype). |
-| [`properties`](/slides/python-net/th/aspose.slides.animation/scaleeffect/properties/) | แสดงคุณสมบัติของพฤติกรรม.<br/>            อ่านอย่างเดียว [`IBehaviorPropertyCollection`](/slides/python-net/th/aspose.slides.animation/ibehaviorpropertycollection). |
-| [`timing`](/slides/python-net/th/aspose.slides.animation/scaleeffect/timing/) | แสดงคุณสมบัติการจัดเวลา สำหรับพฤติกรรมของเอฟเฟกต์.<br/>            อ่าน/เขียน [`ITiming`](/slides/python-net/th/aspose.slides.animation/itiming). |
-| [`zoom_content`](/slides/python-net/th/aspose.slides.animation/scaleeffect/zoom_content/) | กำหนดว่าคอนเทนต์ควรซูมหรือไม่.<br/>            อ่าน/เขียน [`NullableBool`](/slides/python-net/th/aspose.slides/nullablebool). |
-| [`from_address`](/slides/python-net/th/aspose.slides.animation/scaleeffect/from_address/) | ระบุตำแหน่ง x/y เพื่อเริ่มการเคลื่อนไหว (เป็นเปอร์เซ็นต์).<br/>            อ่าน/เขียน **aspose.slides.PointF**. |
-| [`to`](/slides/python-net/th/aspose.slides.animation/scaleeffect/to/) | ระบุตำแหน่งเป้าหมายสำหรับเอฟเฟกต์สเกลของการเคลื่อนไหว (เป็นเปอร์เซ็นต์).<br/>            อ่าน/เขียน **aspose.slides.PointF**. |
-| [`by`](/slides/python-net/th/aspose.slides.animation/scaleeffect/by/) | อธิบายค่าการออฟเซ็ตสัมพัทธ์สำหรับการเคลื่อนไหว (เป็นเปอร์เซ็นต์).<br/>            อ่าน/เขียน **aspose.slides.PointF**. |
+| [`accumulate`](/slides/python-net/th/aspose.slides.animation/scaleeffect/accumulate/) | แสดงว่าพฤติกรรมแอนิเมชันถูกรวมเข้าด้วยกันหรือไม่<br/>    อ่าน/เขียน [`NullableBool`](/slides/python-net/th/aspose.slides/nullablebool). |
+| [`additive`](/slides/python-net/th/aspose.slides.animation/scaleeffect/additive/) | แสดงว่าพฤติกรรมแอนิเมชันปัจจุบันถูกรวมกับแอนิเมชันอื่นที่กำลังทำงานหรือไม่<br/>    อ่าน/เขียน [`BehaviorAdditiveType`](/slides/python-net/th/aspose.slides.animation/behavioradditivetype). |
+| [`properties`](/slides/python-net/th/aspose.slides.animation/scaleeffect/properties/) | แสดงคุณสมบัติของพฤติกรรม<br/>    อ่านอย่างเดียว [`IBehaviorPropertyCollection`](/slides/python-net/th/aspose.slides.animation/ibehaviorpropertycollection). |
+| [`timing`](/slides/python-net/th/aspose.slides.animation/scaleeffect/timing/) | แสดงคุณสมบัติการกำหนดเวลาสำหรับพฤติกรรมผลกระทบ<br/>    อ่าน/เขียน [`ITiming`](/slides/python-net/th/aspose.slides.animation/itiming). |
+| [`zoom_content`](/slides/python-net/th/aspose.slides.animation/scaleeffect/zoom_content/) | กำหนดว่าคอนเทนท์ควรขยายหรือไม่<br/>    อ่าน/เขียน [`NullableBool`](/slides/python-net/th/aspose.slides/nullablebool). |
+| [`from_address`](/slides/python-net/th/aspose.slides.animation/scaleeffect/from_address/) | ระบุตำแหน่ง x/y เพื่อเริ่มแอนิเมชันจาก (เป็นเปอร์เซ็นต์)<br/>    อ่าน/เขียน [`PointF`](/slides/python-net/th/aspose.slides/pointf). |
+| [`to`](/slides/python-net/th/aspose.slides.animation/scaleeffect/to/) | ระบุตำแหน่งเป้าหมายสำหรับผลกระทบการปรับสเกลของแอนิเมชัน (เป็นเปอร์เซ็นต์)<br/>    อ่าน/เขียน [`PointF`](/slides/python-net/th/aspose.slides/pointf). |
+| [`by`](/slides/python-net/th/aspose.slides.animation/scaleeffect/by/) | อธิบายค่าการชดเชยเชิงสัมพันธ์สำหรับแอนิเมชัน (เป็นเปอร์เซ็นต์)<br/>    อ่าน/เขียน [`PointF`](/slides/python-net/th/aspose.slides/pointf). |
 
 ### ดูเพิ่มเติม
 * คลาส [`Behavior`](/slides/python-net/th/aspose.slides.animation/behavior)

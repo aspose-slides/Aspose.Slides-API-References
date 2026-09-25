@@ -6,8 +6,8 @@ type: docs
 url: /th/aspose.slides/geometrypath/quadratic_bezier_to/
 weight: 70
 ---
-## quadratic_bezier_to(self, point1, point2) {#asposepydrawingpointf-asposepydrawingpointf}
-เพิ่มเส้นโค้ง Bezier ระดับสองที่ส่วนท้ายของพาธ
+## quadratic_bezier_to(self, point1, point2) {#asposeslidespointf-asposeslidespointf}
+เพิ่มเส้นโค้งควอดรูติกเบเซียร์ที่ส่วนท้ายของเส้นทาง
 
 
 ```python
@@ -18,12 +18,12 @@ def quadratic_bezier_to(self, point1, point2):
 
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | จุดทิศทาง |
-| point2 | **aspose.slides.PointF** | จุดสิ้นสุด |
+| point1 | [`PointF`](/slides/python-net/th/aspose.slides/pointf) | จุดทิศทาง |
+| point2 | [`PointF`](/slides/python-net/th/aspose.slides/pointf) | จุดสิ้นสุด |
 
 
-## quadratic_bezier_to(self, point1, point2, index) {#asposepydrawingpointf-asposepydrawingpointf-int}
-เพิ่มเส้นโค้ง Bezier ระดับสองไปยังตำแหน่งที่ระบุของพาธ
+## quadratic_bezier_to(self, point1, point2, index) {#asposeslidespointf-asposeslidespointf-int}
+เพิ่มเส้นโค้งควอดรูติกเบเซียร์ไปยังตำแหน่งที่ระบุของเส้นทาง
 
 
 ```python
@@ -34,11 +34,11 @@ def quadratic_bezier_to(self, point1, point2, index):
 
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | จุดทิศทาง |
-| point2 | **aspose.slides.PointF** | จุดสิ้นสุด |
+| point1 | [`PointF`](/slides/python-net/th/aspose.slides/pointf) | จุดทิศทาง |
+| point2 | [`PointF`](/slides/python-net/th/aspose.slides/pointf) | จุดสิ้นสุด |
 | index | **int** | ดัชนีของส่วนใน PathData |
 
-### ข้อยกเว้น
+### Exceptions
 
 | ข้อยกเว้น | คำอธิบาย |
 | :- | :- |
@@ -46,7 +46,7 @@ def quadratic_bezier_to(self, point1, point2, index):
 
 
 ## quadratic_bezier_to(self, x1, y1, x2, y2) {#float-float-float-float}
-เพิ่มเส้นโค้ง Bezier ระดับสองที่ส่วนท้ายของพาธ
+เพิ่มเส้นโค้งควอดรูติกเบเซียร์ที่ส่วนท้ายของเส้นทาง
 
 
 ```python
@@ -64,7 +64,7 @@ def quadratic_bezier_to(self, x1, y1, x2, y2):
 
 
 ## quadratic_bezier_to(self, x1, y1, x2, y2, index) {#float-float-float-float-int}
-เพิ่มเส้นโค้ง Bezier ระดับสองไปยังตำแหน่งที่ระบุของพาธ
+เพิ่มเส้นโค้งควอดรูติกเบเซียร์ไปยังตำแหน่งที่ระบุของเส้นทาง
 
 
 ```python
@@ -81,7 +81,7 @@ def quadratic_bezier_to(self, x1, y1, x2, y2, index):
 | y2 | **float** | พิกัด Y ของจุดสิ้นสุด |
 | index | **int** | ดัชนีของส่วนใน PathData |
 
-### ข้อยกเว้น
+### Exceptions
 
 | ข้อยกเว้น | คำอธิบาย |
 | :- | :- |
@@ -89,7 +89,8 @@ def quadratic_bezier_to(self, x1, y1, x2, y2, index):
 
 
 
-### ดูเพิ่มเติม
-* class [`GeometryPath`](/slides/python-net/th/aspose.slides/geometrypath)
-* module [`aspose.slides`](/slides/python-net/th/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+### See Also
+* คลาส [`GeometryPath`](/slides/python-net/th/aspose.slides/geometrypath)
+* คลาส [`PointF`](/slides/python-net/th/aspose.slides/pointf)
+* โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

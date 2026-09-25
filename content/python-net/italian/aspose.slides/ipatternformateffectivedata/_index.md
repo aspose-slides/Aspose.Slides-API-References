@@ -1,13 +1,13 @@
 ---
 title: IPatternFormatEffectiveData class
-second_title: Riferimento API Aspose.Slides per Python tramite .NET
+second_title: Riferimento API Aspose.Slides per Python via .NET
 description: 
 type: docs
 url: /it/aspose.slides/ipatternformateffectivedata/
 ---
 ## IPatternFormatEffectiveData classe
 
-Oggetto immutabile che contiene le proprietà di riempimento pattern effettive.
+Oggetto immutabile che contiene le proprietà effettive di riempimento del pattern.
 
 Il tipo IPatternFormatEffectiveData espone i seguenti membri:
 
@@ -15,21 +15,19 @@ Il tipo IPatternFormatEffectiveData espone i seguenti membri:
 
 | Proprietà | Descrizione |
 | :- | :- |
-| [`pattern_style`](/slides/python-net/it/aspose.slides/ipatternformateffectivedata/pattern_style/) | Restituisce lo stile del pattern.<br/>            Solo lettura [`PatternStyle`](/slides/python-net/it/aspose.slides/patternstyle). |
-| [`fore_color`](/slides/python-net/it/aspose.slides/ipatternformateffectivedata/fore_color/) | Restituisce il colore del pattern in primo piano.<br/>            Solo lettura **aspose.slides.Color**. |
-| [`back_color`](/slides/python-net/it/aspose.slides/ipatternformateffectivedata/back_color/) | Restituisce il colore del pattern di sfondo.<br/>            Solo lettura **aspose.slides.Color**. |
+| [`pattern_style`](/slides/python-net/it/aspose.slides/ipatternformateffectivedata/pattern_style/) | Restituisce lo stile del pattern.<br/>            Sola lettura [`PatternStyle`](/slides/python-net/it/aspose.slides/patternstyle). |
+| [`fore_color`](/slides/python-net/it/aspose.slides/ipatternformateffectivedata/fore_color/) | Restituisce il colore di primo piano del pattern.<br/>            Sola lettura [`Color`](/slides/python-net/it/aspose.slides/color). |
+| [`back_color`](/slides/python-net/it/aspose.slides/ipatternformateffectivedata/back_color/) | Restituisce il colore di sfondo del pattern.<br/>            Sola lettura [`Color`](/slides/python-net/it/aspose.slides/color). |
 
 ## Metodi
 
 | Metodo | Descrizione |
 | :- | :- |
-| [`get_tile_i_image(self, background, foreground)`](/slides/python-net/it/aspose.slides/ipatternformateffectivedata/get_tile_i_image/#asposepydrawingcolor-asposepydrawingcolor) | Crea un'immagine a tasselli per il riempimento pattern con i colori specificati. |
-
+| [`get_tile_i_image(self, background, foreground)`](/slides/python-net/it/aspose.slides/ipatternformateffectivedata/get_tile_i_image/#asposeslidescolor-asposeslidescolor) | Crea un'immagine a tasselli per il riempimento a pattern con i colori specificati. |
 
 ### Osservazioni
 
-Questa interfaccia è usata come parte di [`IFillFormatEffectiveData`](/slides/python-net/it/aspose.slides/ifillformateffectivedata) e [`ILineFillFormatEffectiveData`](/slides/python-net/it/aspose.slides/ilinefillformateffectivedata).
-
+Questa interfaccia è utilizzata come parte di [`IFillFormatEffectiveData`](/slides/python-net/it/aspose.slides/ifillformateffectivedata) e [`ILineFillFormatEffectiveData`](/slides/python-net/it/aspose.slides/ilinefillformateffectivedata).
 
 ### Vedi anche
 * classe [`IFillFormatEffectiveData`](/slides/python-net/it/aspose.slides/ifillformateffectivedata)

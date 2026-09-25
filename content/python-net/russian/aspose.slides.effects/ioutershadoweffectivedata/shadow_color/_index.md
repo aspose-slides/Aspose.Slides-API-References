@@ -1,6 +1,6 @@
 ---
 title: shadow_color property
-second_title: Aspose.Slides для Python через .NET API справочник
+second_title: Aspose.Slides для Python через .NET API Reference
 description: 
 type: docs
 url: /ru/aspose.slides.effects/ioutershadoweffectivedata/shadow_color/
@@ -8,7 +8,7 @@ weight: 90
 ---
 ## shadow_color свойство
 Цвет тени.
-            Только для чтения **aspose.slides.Color**.
+            Только для чтения [`Color`](/slides/python-net/ru/aspose.slides/color).
 
 ### Определение:
 ```python
@@ -18,7 +18,8 @@ def shadow_color(self):
 ```
 
 
-### Смотрите также
+### См. также
 * класс [`IOuterShadowEffectiveData`](/slides/python-net/ru/aspose.slides.effects/ioutershadoweffectivedata)
+* класс [`Color`](/slides/python-net/ru/aspose.slides/color)
 * модуль [`aspose.slides.effects`](/slides/python-net/ru/aspose.slides.effects)
 * библиотека [`Aspose.Slides`](/slides/python-net)

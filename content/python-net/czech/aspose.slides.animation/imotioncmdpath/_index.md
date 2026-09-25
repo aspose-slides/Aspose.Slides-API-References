@@ -1,21 +1,21 @@
 ---
 title: IMotionCmdPath class
-second_title: Aspose.Slides pro Python přes .NET API Reference
+second_title: Aspose.Slides pro Python pomocí .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides.animation/imotioncmdpath/
 ---
-## IMotionCmdPath class
+## IMotionCmdPath třída
 
-Reprezentuje jeden příkaz cesty.
+Určuje jeden příkaz cesty.
 
-Typ IMotionCmdPath poskytuje následující členy:
+Typ IMotionCmdPath vystavuje následující členy:
 
 ## Vlastnosti
 
-| Property | Popis |
+| Vlastnost | Popis |
 | :- | :- |
-| [`points`](/slides/python-net/cs/aspose.slides.animation/imotioncmdpath/points/) | Určuje body příkazu.<br/>            Číst/zapisovat **aspose.slides.PointF**[]. |
+| [`points`](/slides/python-net/cs/aspose.slides.animation/imotioncmdpath/points/) | Určuje body příkazu.<br/>            Číst/zapisovat [`PointF`](/slides/python-net/cs/aspose.slides/pointf)[]. |
 | [`command_type`](/slides/python-net/cs/aspose.slides.animation/imotioncmdpath/command_type/) | Určuje typ příkazu.<br/>            Číst/zapisovat [`MotionCommandPathType`](/slides/python-net/cs/aspose.slides.animation/motioncommandpathtype). |
 | [`is_relative`](/slides/python-net/cs/aspose.slides.animation/imotioncmdpath/is_relative/) | Určuje, zda jsou souřadnice příkazu relativní nebo ne.<br/>            Číst/zapisovat **bool**. |
 | [`points_type`](/slides/python-net/cs/aspose.slides.animation/imotioncmdpath/points_type/) | Určuje typ bodů příkazu<br/>            Číst/zapisovat [`MotionPathPointsType`](/slides/python-net/cs/aspose.slides.animation/motionpathpointstype). |

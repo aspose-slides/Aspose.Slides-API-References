@@ -1,6 +1,6 @@
 ---
 title: to_jpeg method
-second_title: Aspose.Slides for Python via .NET API Referenciája
+second_title: Aspose.Slides a Pythonhoz a .NET API referencia
 description: 
 type: docs
 url: /hu/aspose.slides.lowcode/convert/to_jpeg/
@@ -8,8 +8,8 @@ weight: 20
 ---
 ## to_jpeg(pres, output_file_name) {#presentation-str}
 Átalakítja a bemeneti prezentációt JPEG formátumú képek halmazává.  
-            Ha a kimeneti fájlnév „myPath/myFilename.jpeg” formában van megadva, 
-            az eredmény „myPath/myFilename_N.jpeg” fájlok halmazaként kerül mentésre, ahol N a dia száma.
+            Ha a kimeneti fájlnév "myPath/myFilename.jpeg" formában van megadva, 
+            az eredmény "myPath/myFilename_N.jpeg" fájlok sorozataként lesz mentve, ahol N a dia száma.
 
 
 ```python
@@ -31,10 +31,10 @@ def to_jpeg(pres, output_file_name):
 | **RuntimeError(Proxy error(ArgumentException))** |  |
 
 
-## to_jpeg(pres, output_file_name, image_size) {#presentation-str-asposepydrawingsize}
+## to_jpeg(pres, output_file_name, image_size) {#presentation-str-asposeslidessize}
 Átalakítja a bemeneti prezentációt JPEG formátumú képek halmazává.  
-            Ha a kimeneti fájlnév „myPath/myFilename.jpeg” formában van megadva, 
-            az eredmény „myPath/myFilename_N.jpeg” fájlok halmazaként kerül mentésre, ahol N a dia száma.
+            Ha a kimeneti fájlnév "myPath/myFilename.jpeg" formában van megadva, 
+            az eredmény "myPath/myFilename_N.jpeg" fájlok sorozataként lesz mentve, ahol N a dia száma.
 
 
 ```python
@@ -48,7 +48,7 @@ def to_jpeg(pres, output_file_name, image_size):
 | :- | :- | :- |
 | pres | [`Presentation`](/slides/python-net/hu/aspose.slides/presentation) | A bemeneti prezentáció |
 | output_file_name | **str** | A kimeneti fájlnév. |
-| image_size | **aspose.slides.Size** | Az egyes generált képek mérete. |
+| image_size | [`Size`](/slides/python-net/hu/aspose.slides/size) | Az egyes generált képek mérete. |
 
 ### Kivételek
 
@@ -59,8 +59,8 @@ def to_jpeg(pres, output_file_name, image_size):
 
 ## to_jpeg(pres, output_file_name, scale, options) {#presentation-str-float-asposeslidesexportirenderingoptions}
 Átalakítja a bemeneti prezentációt JPEG formátumú képek halmazává.  
-            Ha a kimeneti fájlnév „myPath/myFilename.jpeg” formában van megadva, 
-            az eredmény „myPath/myFilename_N.jpeg” fájlok halmazaként kerül mentésre, ahol N a dia száma.
+            Ha a kimeneti fájlnév "myPath/myFilename.jpeg" formában van megadva, 
+            az eredmény "myPath/myFilename_N.jpeg" fájlok sorozataként lesz mentve, ahol N a dia száma.
 
 
 ```python
@@ -74,7 +74,7 @@ def to_jpeg(pres, output_file_name, scale, options):
 | :- | :- | :- |
 | pres | [`Presentation`](/slides/python-net/hu/aspose.slides/presentation) | A bemeneti prezentáció. |
 | output_file_name | **str** | A kimeneti fájlnév. |
-| scale | **float** | A kimeneti képekre vonatkozó skálázási tényező az eredeti dia méretéhez képest. |
+| scale | **float** | A kimeneti képekre alkalmazott méretezési tényező az eredeti dia méretéhez képest. |
 | options | [`IRenderingOptions`](/slides/python-net/hu/aspose.slides.export/irenderingoptions) | A renderelési beállítások. |
 
 ### Kivételek
@@ -89,5 +89,6 @@ def to_jpeg(pres, output_file_name, scale, options):
 * osztály [`Convert`](/slides/python-net/hu/aspose.slides.lowcode/convert)
 * osztály [`IRenderingOptions`](/slides/python-net/hu/aspose.slides.export/irenderingoptions)
 * osztály [`Presentation`](/slides/python-net/hu/aspose.slides/presentation)
+* osztály [`Size`](/slides/python-net/hu/aspose.slides/size)
 * modul [`aspose.slides.lowcode`](/slides/python-net/hu/aspose.slides.lowcode)
 * könyvtár [`Aspose.Slides`](/slides/python-net)

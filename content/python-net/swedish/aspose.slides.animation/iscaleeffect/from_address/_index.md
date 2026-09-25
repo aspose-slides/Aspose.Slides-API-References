@@ -7,8 +7,8 @@ url: /sv/aspose.slides.animation/iscaleeffect/from_address/
 weight: 50
 ---
 ## from_address egenskap
-Specifies an x/y co-ordinate to start the animation from (in percents).
-            Läs/skriv **aspose.slides.PointF**.
+Anger en x/y-koordinat för att starta animationen från (i procent).
+            Läs/skriv [`PointF`](/slides/python-net/sv/aspose.slides/pointf)
 
 ### Definition:
 ```python
@@ -21,8 +21,8 @@ def from_address(self, value):
     ...
 ```
 
-
 ### Se även
 * klass [`IScaleEffect`](/slides/python-net/sv/aspose.slides.animation/iscaleeffect)
+* klass [`PointF`](/slides/python-net/sv/aspose.slides/pointf)
 * modul [`aspose.slides.animation`](/slides/python-net/sv/aspose.slides.animation)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

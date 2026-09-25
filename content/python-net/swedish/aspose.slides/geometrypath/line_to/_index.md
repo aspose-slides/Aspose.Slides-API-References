@@ -6,7 +6,7 @@ type: docs
 url: /sv/aspose.slides/geometrypath/line_to/
 weight: 50
 ---
-## line_to(self, point) {#asposepydrawingpointf}
+## line_to(self, point) {#asposeslidespointf}
 Lägger till en linje i slutet av vägen
 
 
@@ -18,7 +18,7 @@ def line_to(self, point):
 
 | Parameter | Typ | Beskrivning |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | Slutpunkt för linjen |
+| point | [`PointF`](/slides/python-net/sv/aspose.slides/pointf) | Slutpunkt för linjen |
 
 
 ## line_to(self, x, y) {#float-float}
@@ -37,8 +37,8 @@ def line_to(self, x, y):
 | y | **float** | Y-koordinat för slutpunkten av linjen |
 
 
-## line_to(self, point, index) {#asposepydrawingpointf-int}
-Lägger till en linje på den angivna platsen i vägen
+## line_to(self, point, index) {#asposeslidespointf-int}
+Lägger till en linje på angiven plats i vägen
 
 
 ```python
@@ -49,7 +49,7 @@ def line_to(self, point, index):
 
 | Parameter | Typ | Beskrivning |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | Slutpunkt |
+| point | [`PointF`](/slides/python-net/sv/aspose.slides/pointf) | Slutpunkt |
 | index | **int** | Index för segment i PathData |
 
 ### Undantag
@@ -60,7 +60,7 @@ def line_to(self, point, index):
 
 
 ## line_to(self, x, y, index) {#float-float-int}
-Lägger till en linje på den angivna platsen i vägen
+Lägger till en linje på angiven plats i vägen
 
 
 ```python
@@ -83,7 +83,8 @@ def line_to(self, x, y, index):
 
 
 
-### Se även
-* klass [`GeometryPath`](/slides/python-net/sv/aspose.slides/geometrypath)
-* modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
-* bibliotek [`Aspose.Slides`](/slides/python-net)
+### Se också
+* class [`GeometryPath`](/slides/python-net/sv/aspose.slides/geometrypath)
+* class [`PointF`](/slides/python-net/sv/aspose.slides/pointf)
+* module [`aspose.slides`](/slides/python-net/sv/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

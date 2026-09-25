@@ -1,14 +1,14 @@
 ---
 title: color property
-second_title: Aspose.Slides للـ Python عبر .NET مرجع API
+second_title: Aspose.Slides للبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/igradientstopeffectivedata/color/
 weight: 10
 ---
 ## خاصية اللون
-يرجع لون نقطة التدرج.
-            للقراءة فقط **aspose.slides.Color**.
+يعيد لون نقطة التدرج.
+            قراءة فقط [`Color`](/slides/python-net/ar/aspose.slides/color).
 
 ### التعريف:
 ```python
@@ -18,6 +18,7 @@ def color(self):
 ```
 
 ### انظر أيضًا
-* الفئة [`IGradientStopEffectiveData`](/slides/python-net/ar/aspose.slides/igradientstopeffectivedata)
-* الوحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
-* المكتبة [`Aspose.Slides`](/slides/python-net)
+* فئة [`IGradientStopEffectiveData`](/slides/python-net/ar/aspose.slides/igradientstopeffectivedata)
+* فئة [`Color`](/slides/python-net/ar/aspose.slides/color)
+* وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

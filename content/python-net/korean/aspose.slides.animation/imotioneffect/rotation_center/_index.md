@@ -7,8 +7,8 @@ url: /ko/aspose.slides.animation/imotioneffect/rotation_center/
 weight: 110
 ---
 ## rotation_center 속성
-회전 중심을 설명합니다. 이 중심은 X 각도로 움직임 경로를 회전하는 데 사용됩니다.
-            읽기/쓰기 **aspose.slides.PointF**.
+Describes the center of the rotation used to rotate a motion path by X angle.
+            읽기/쓰기 [`PointF`](/slides/python-net/ko/aspose.slides/pointf).
 
 ### 정의:
 ```python
@@ -22,7 +22,8 @@ def rotation_center(self, value):
 ```
 
 
-### 참고
+### 참조
 * 클래스 [`IMotionEffect`](/slides/python-net/ko/aspose.slides.animation/imotioneffect)
+* 클래스 [`PointF`](/slides/python-net/ko/aspose.slides/pointf)
 * 모듈 [`aspose.slides.animation`](/slides/python-net/ko/aspose.slides.animation)
 * 라이브러리 [`Aspose.Slides`](/slides/python-net)

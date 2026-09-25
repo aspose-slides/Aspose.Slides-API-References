@@ -7,8 +7,8 @@ url: /nl/aspose.slides/ilinefillformateffectivedata/solid_fill_color/
 weight: 60
 ---
 ## solid_fill_color eigenschap
-Geeft de kleur van een effen vulling terug.
-            Alleen-lezen **aspose.slides.Color**.
+Retourneert de kleur van een effen vulling.
+            Alleen-lezen [`Color`](/slides/python-net/nl/aspose.slides/color).
 
 ### Definitie:
 ```python
@@ -20,5 +20,6 @@ def solid_fill_color(self):
 
 ### Zie ook
 * klasse [`ILineFillFormatEffectiveData`](/slides/python-net/nl/aspose.slides/ilinefillformateffectivedata)
+* klasse [`Color`](/slides/python-net/nl/aspose.slides/color)
 * module [`aspose.slides`](/slides/python-net/nl/aspose.slides)
 * bibliotheek [`Aspose.Slides`](/slides/python-net)

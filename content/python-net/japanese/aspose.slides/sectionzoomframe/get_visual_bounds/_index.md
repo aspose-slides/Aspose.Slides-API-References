@@ -7,34 +7,32 @@ url: /ja/aspose.slides/sectionzoomframe/get_visual_bounds/
 weight: 40
 ---
 ## get_visual_bounds(self) {#}
-シェイプの描画されたコンテンツから計算されたビジュアル境界を取得します。
+形状のレンダリング済みコンテンツから計算されたビジュアル境界を取得します。
 
+### Returns
 ### 戻り値
 
-A **aspose.slides.RectangleF** that represents the visual bounds of the shape
-             in slide coordinates.
-
-
+スライド座標系で形状のビジュアル境界を表す [`RectangleF`](/slides/python-net/ja/aspose.slides/rectanglef) です。
 
 ```python
 def get_visual_bounds(self):
     ...
 ```
 
-
+### Remarks
 ### 備考
 
-返される矩形は、スライド座標空間での描画時にシェイプが生成するすべてのコンテンツの軸に平行な境界を表します。
-            
-これらの境界はシェイプのモデル境界 ([`Shape.x`](/slides/python-net/ja/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/ja/aspose.slides/shape/y), [`Shape.width`](/slides/python-net/ja/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/ja/aspose.slides/shape/height)) と異なる場合があり、描画されたコンテンツがスライドの原点を超えていると負の座標を含むことがあります。
-            
-ビジュアル境界は、変換（例: 回転）、ストローク幅とジョイン、テキストレイアウトとオーバーフロー、SmartArt のジオメトリ、およびシェイプの最終的な描画外観に影響を与えるその他のレイアウト効果など、レンダリングに関連する側面を考慮します。
-            
-返される境界はスライド矩形にクリップされません。
+返された矩形は、スライド座標空間でレンダリング時に形状が生成したすべてのコンテンツの軸平行境界を表します。
 
+これらの境界は、形状のモデル境界 ([`Shape.x`](/slides/python-net/ja/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/ja/aspose.slides/shape/y), [`Shape.width`](/slides/python-net/ja/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/ja/aspose.slides/shape/height)) と異なる場合があり、レンダリングされたコンテンツがスライドの原点を超えている場合は負の座標を含むことがあります。
 
+ビジュアル境界は、変換（例: 回転）、ストロークの幅と結合、テキストのレイアウトとオーバーフロー、SmartArt のジオメトリ、その他最終的なレンダリング外観に影響を与えるレイアウト効果など、レンダリングに関連する側面を考慮します。
 
+返された境界はスライド矩形にクリップされません。
+
+### See Also
 ### 参照
-* class [`SectionZoomFrame`](/slides/python-net/ja/aspose.slides/sectionzoomframe)
-* module [`aspose.slides`](/slides/python-net/ja/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* クラス [`SectionZoomFrame`](/slides/python-net/ja/aspose.slides/sectionzoomframe)
+* クラス [`RectangleF`](/slides/python-net/ja/aspose.slides/rectanglef)
+* モジュール [`aspose.slides`](/slides/python-net/ja/aspose.slides)
+* ライブラリ [`Aspose.Slides`](/slides/python-net)

@@ -1,14 +1,14 @@
 ---
 title: by property
-second_title: Aspose.Slides dla Pythona przez .NET – dokumentacja API
+second_title: Aspose.Slides dla Pythona poprzez .NET API Reference
 description: 
 type: docs
 url: /pl/aspose.slides.animation/motioneffect/by/
 weight: 60
 ---
-## wg właściwości
-Opisuje względną wartość przesunięcia animacji (w procentach).
-            Odczyt/zapis **aspose.slides.PointF**.
+## przez właściwość
+Opisuje względną wartość offsetu dla animacji (w procentach).
+            Odczyt/zapis [`PointF`](/slides/python-net/pl/aspose.slides/pointf).
 
 ### Definicja:
 ```python
@@ -24,5 +24,6 @@ def by(self, value):
 
 ### Zobacz także
 * klasa [`MotionEffect`](/slides/python-net/pl/aspose.slides.animation/motioneffect)
+* klasa [`PointF`](/slides/python-net/pl/aspose.slides/pointf)
 * moduł [`aspose.slides.animation`](/slides/python-net/pl/aspose.slides.animation)
 * biblioteka [`Aspose.Slides`](/slides/python-net)

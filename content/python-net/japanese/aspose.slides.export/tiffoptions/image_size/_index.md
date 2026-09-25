@@ -7,9 +7,9 @@ url: /ja/aspose.slides.export/tiffoptions/image_size/
 weight: 90
 ---
 ## image_size プロパティ
-Specifies size of a generated TIFF image.
-            デフォルト値は 0x0 で、これは生成された画像サイズがプレゼンテーションのスライド サイズの値に基づいて計算されることを意味します。
-            読み取り/書き込み **aspose.slides.Size**.
+生成されたTIFF画像のサイズを指定します。
+            デフォルト値は0x0で、これは生成された画像サイズがプレゼンテーションのスライドサイズの値に基づいて計算されることを意味します。
+            読み取り/書き込み [`Size`](/slides/python-net/ja/aspose.slides/size).
 
 ### 定義:
 ```python
@@ -25,5 +25,6 @@ def image_size(self, value):
 
 ### 参照
 * クラス [`TiffOptions`](/slides/python-net/ja/aspose.slides.export/tiffoptions)
+* クラス [`Size`](/slides/python-net/ja/aspose.slides/size)
 * モジュール [`aspose.slides.export`](/slides/python-net/ja/aspose.slides.export)
 * ライブラリ [`Aspose.Slides`](/slides/python-net)

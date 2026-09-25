@@ -9,13 +9,13 @@ url: /tr/aspose.slides/inotessize/
 
 Not slaytının boyutunu temsil eder.
 
-INotesSize türü aşağıdaki üyeleri sunar:
+INotesSize türü aşağıdaki üyeleri ortaya koyar:
 
 ## Özellikler
 
 | Özellik | Açıklama |
 | :- | :- |
-| [`size`](/slides/python-net/tr/aspose.slides/inotessize/size/) | Boyutu punto cinsinden alır veya ayarlar.<br/> Okuma/yazma **aspose.slides.SizeF**. |
+| [`size`](/slides/python-net/tr/aspose.slides/inotessize/size/) | Boyutu nokta cinsinden döndürür veya ayarlar.<br/>            Okuma/yazma [`SizeF`](/slides/python-net/tr/aspose.slides/sizef). |
 
 ### Ayrıca Bakınız
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)

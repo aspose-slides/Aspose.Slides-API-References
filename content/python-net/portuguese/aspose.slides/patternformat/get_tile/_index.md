@@ -1,13 +1,13 @@
 ---
 title: get_tile method
-second_title: Aspose.Slides para Python via .NET Referência de API
+second_title: Referência da API Aspose.Slides para Python via .NET
 description: 
 type: docs
 url: /pt/aspose.slides/patternformat/get_tile/
 weight: 10
 ---
-## get_tile(self, style_color) {#asposepydrawingcolor}
-Cria uma imagem de ladrilho para o preenchimento de padrão.
+## get_tile(self, style_color) {#asposeslidescolor}
+Cria uma imagem de ladrilho para o preenchimento do padrão.
 
 ### Retorna
 
@@ -23,11 +23,11 @@ def get_tile(self, style_color):
 
 | Parâmetro | Tipo | Descrição |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | O **aspose.slides.Color** padrão |
+| style_color | [`Color`](/slides/python-net/pt/aspose.slides/color) | O padrão [`Color`](/slides/python-net/pt/aspose.slides/color) |
 
 
-## get_tile(self, background, foreground) {#asposepydrawingcolor-asposepydrawingcolor}
-Cria uma imagem de ladrilho para o preenchimento de padrão com cores especificadas.
+## get_tile(self, background, foreground) {#asposeslidescolor-asposeslidescolor}
+Cria uma imagem de ladrilho para o preenchimento do padrão com cores especificadas.
 
 ### Retorna
 
@@ -43,13 +43,14 @@ def get_tile(self, background, foreground):
 
 | Parâmetro | Tipo | Descrição |
 | :- | :- | :- |
-| background | **aspose.slides.Color** | A cor de fundo **aspose.slides.Color** para o padrão. |
-| foreground | **aspose.slides.Color** | A cor de primeiro plano **aspose.slides.Color** para o padrão. |
+| background | [`Color`](/slides/python-net/pt/aspose.slides/color) | O [`Color`](/slides/python-net/pt/aspose.slides/color) de fundo para o padrão. |
+| foreground | [`Color`](/slides/python-net/pt/aspose.slides/color) | O [`Color`](/slides/python-net/pt/aspose.slides/color) de primeiro plano para o padrão. |
 
 
 
-### Ver também
+### Veja Também
 * classe [`IImage`](/slides/python-net/pt/aspose.slides/iimage)
 * classe [`PatternFormat`](/slides/python-net/pt/aspose.slides/patternformat)
+* classe [`Color`](/slides/python-net/pt/aspose.slides/color)
 * módulo [`aspose.slides`](/slides/python-net/pt/aspose.slides)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

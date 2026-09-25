@@ -1,15 +1,15 @@
 ---
 title: add_modern_comment method
-second_title: Aspose.Slides pro Python přes .NET API Reference
+second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/icommentcollection/add_modern_comment/
 weight: 20
 ---
-## add_modern_comment(self, text, slide, shape, position, creation_time) {#str-islide-ishape-asposepydrawingpointf-datetime}
-Přidá nový moderní komentář na konec kolekce.
+## add_modern_comment(self, text, slide, shape, position, creation_time) {#str-islide-ishape-asposeslidespointf-datetime}
+Přidejte nový moderní komentář na konec kolekce.
 
-### Návratová hodnota
+### Vrací
 
 Přidán moderní komentář.
 
@@ -26,7 +26,7 @@ def add_modern_comment(self, text, slide, shape, position, creation_time):
 | text | **str** | Prostý text nového moderního komentáře. |
 | slide | [`ISlide`](/slides/python-net/cs/aspose.slides/islide) | Snímek v prezentaci, kde se má přidat nový moderní komentář. |
 | shape | [`IShape`](/slides/python-net/cs/aspose.slides/ishape) | Tvar na snímku, ke kterému je nový moderní komentář přiřazen. |
-| position | **aspose.slides.PointF** | Pozice na snímku, kam se má přidat nový moderní komentář. |
+| position | [`PointF`](/slides/python-net/cs/aspose.slides/pointf) | Pozice na snímku, kde se má přidat nový moderní komentář. |
 | creation_time | **DateTime** | Čas vytvoření moderního komentáře. |
 
 
@@ -36,5 +36,6 @@ def add_modern_comment(self, text, slide, shape, position, creation_time):
 * třída [`IModernComment`](/slides/python-net/cs/aspose.slides/imoderncomment)
 * třída [`IShape`](/slides/python-net/cs/aspose.slides/ishape)
 * třída [`ISlide`](/slides/python-net/cs/aspose.slides/islide)
+* třída [`PointF`](/slides/python-net/cs/aspose.slides/pointf)
 * modul [`aspose.slides`](/slides/python-net/cs/aspose.slides)
 * knihovna [`Aspose.Slides`](/slides/python-net)

@@ -1,14 +1,14 @@
 ---
 title: points property
-second_title: Aspose.Slides Pythonhoz .NET-en keresztül API referencia
+second_title: Aspose.Slides for Python .NET API referenciája
 description: 
 type: docs
 url: /hu/aspose.slides.animation/imotioncmdpath/points/
 weight: 30
 ---
-## points tulajdonság
+## pontok tulajdonság
 Meghatározza a parancs pontjait.
-            Olvasás/írás **aspose.slides.PointF**[].
+            Olvasás/írás [`PointF`](/slides/python-net/hu/aspose.slides/pointf)[].
 
 ### Definíció:
 ```python
@@ -24,5 +24,6 @@ def points(self, value):
 
 ### Lásd még
 * osztály [`IMotionCmdPath`](/slides/python-net/hu/aspose.slides.animation/imotioncmdpath)
+* osztály [`PointF`](/slides/python-net/hu/aspose.slides/pointf)
 * modul [`aspose.slides.animation`](/slides/python-net/hu/aspose.slides.animation)
 * könyvtár [`Aspose.Slides`](/slides/python-net)

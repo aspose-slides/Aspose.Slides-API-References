@@ -1,21 +1,21 @@
 ---
 title: ScaleEffect class
-second_title: Aspose.Slides cho Python qua .NET Tham chiếu API
-description:
+second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
+description: 
 type: docs
 url: /vi/aspose.slides.animation/scaleeffect/
 ---
-## ScaleEffect lớp
+## Lớp ScaleEffect
 
-Biểu diễn hiệu ứng thu phóng hoạt ảnh.
+Represents animation scale effect.
 
-**Kế thừa:**[`ScaleEffect`](/slides/python-net/vi/aspose.slides.animation/scaleeffect) → [`Behavior`](/slides/python-net/vi/aspose.slides.animation/behavior)
+**Inheritance:**[`ScaleEffect`](/slides/python-net/vi/aspose.slides.animation/scaleeffect) → [`Behavior`](/slides/python-net/vi/aspose.slides.animation/behavior)
 
-Kiểu ScaleEffect cung cấp các thành viên sau:
+The ScaleEffect type exposes the following members:
 
-## Hàm khởi tạo
+## Hàm tạo
 
-| Hàm khởi tạo | Mô tả |
+| Hàm tạo | Mô tả |
 | :- | :- |
 | [`__init__(self)`](/slides/python-net/vi/aspose.slides.animation/scaleeffect/__init__/#) | Tạo một thể hiện mới. |
 
@@ -23,14 +23,15 @@ Kiểu ScaleEffect cung cấp các thành viên sau:
 
 | Thuộc tính | Mô tả |
 | :- | :- |
-| [`accumulate`](/slides/python-net/vi/aspose.slides.animation/scaleeffect/accumulate/) | Biểu diễn xem các hành vi hoạt ảnh có được tích lũy hay không.<br/>            Đọc/ghi [`NullableBool`](/slides/python-net/vi/aspose.slides/nullablebool). |
-| [`additive`](/slides/python-net/vi/aspose.slides.animation/scaleeffect/additive/) | Biểu diễn xem hành vi hoạt ảnh hiện tại có được kết hợp với các hoạt ảnh đang chạy khác hay không.<br/>            Đọc/ghi [`BehaviorAdditiveType`](/slides/python-net/vi/aspose.slides.animation/behavioradditivetype). |
-| [`properties`](/slides/python-net/vi/aspose.slides.animation/scaleeffect/properties/) | Biểu diễn các thuộc tính của hành vi.<br/>            Chỉ đọc [`IBehaviorPropertyCollection`](/slides/python-net/vi/aspose.slides.animation/ibehaviorpropertycollection). |
-| [`timing`](/slides/python-net/vi/aspose.slides.animation/scaleeffect/timing/) | Biểu diễn các thuộc tính thời gian cho hành vi hiệu ứng.<br/>            Đọc/ghi [`ITiming`](/slides/python-net/vi/aspose.slides.animation/itiming). |
-| [`zoom_content`](/slides/python-net/vi/aspose.slides.animation/scaleeffect/zoom_content/) | Xác định xem nội dung có nên được phóng đại hay không.<br/>            Đọc/ghi [`NullableBool`](/slides/python-net/vi/aspose.slides/nullablebool). |
-| [`from_address`](/slides/python-net/vi/aspose.slides.animation/scaleeffect/from_address/) | Xác định tọa độ x/y để bắt đầu hoạt ảnh (theo phần trăm).<br/>            Đọc/ghi **aspose.slides.PointF**. |
-| [`to`](/slides/python-net/vi/aspose.slides.animation/scaleeffect/to/) | Xác định vị trí mục tiêu cho hiệu ứng thu phóng hoạt ảnh (theo phần trăm).<br/>            Đọc/ghi **aspose.slides.PointF**. |
-| [`by`](/slides/python-net/vi/aspose.slides.animation/scaleeffect/by/) | Mô tả giá trị offset tương đối cho hoạt ảnh (theo phần trăm).<br/>            Đọc/ghi **aspose.slides.PointF**. |
+| [`accumulate`](/slides/python-net/vi/aspose.slides.animation/scaleeffect/accumulate/) | Represents whether animation behaviors are accumulated.<br/>            Đọc/ghi [`NullableBool`](/slides/python-net/vi/aspose.slides/nullablebool). |
+| [`additive`](/slides/python-net/vi/aspose.slides.animation/scaleeffect/additive/) | Represents whether the current animation behavior is combined with other running animations.<br/>            Đọc/ghi [`BehaviorAdditiveType`](/slides/python-net/vi/aspose.slides.animation/behavioradditivetype). |
+| [`properties`](/slides/python-net/vi/aspose.slides.animation/scaleeffect/properties/) | Represents properties of behavior.<br/>            Chỉ đọc [`IBehaviorPropertyCollection`](/slides/python-net/vi/aspose.slides.animation/ibehaviorpropertycollection). |
+| [`timing`](/slides/python-net/vi/aspose.slides.animation/scaleeffect/timing/) | Represents timing properties for the effect behavior.<br/>            Đọc/ghi [`ITiming`](/slides/python-net/vi/aspose.slides.animation/itiming). |
+| [`zoom_content`](/slides/python-net/vi/aspose.slides.animation/scaleeffect/zoom_content/) | Determines whether a content should be zoomed.<br/>            Đọc/ghi [`NullableBool`](/slides/python-net/vi/aspose.slides/nullablebool). |
+| [`from_address`](/slides/python-net/vi/aspose.slides.animation/scaleeffect/from_address/) | Specifies an x/y co-ordinate to start the animation from (in percents).<br/>            Đọc/ghi [`PointF`](/slides/python-net/vi/aspose.slides/pointf). |
+| [`to`](/slides/python-net/vi/aspose.slides.animation/scaleeffect/to/) | Specifies the target location for an animation scale effect (in percents).<br/>            Đọc/ghi [`PointF`](/slides/python-net/vi/aspose.slides/pointf). |
+| [`by`](/slides/python-net/vi/aspose.slides.animation/scaleeffect/by/) | describes the relative offset value for the animation (in percents).<br/>            Đọc/ghi [`PointF`](/slides/python-net/vi/aspose.slides/pointf). |
+
 
 ### Xem thêm
 * lớp [`Behavior`](/slides/python-net/vi/aspose.slides.animation/behavior)

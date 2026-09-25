@@ -1,23 +1,23 @@
 ---
 title: IMotionPath class
-second_title: Aspose.Slides a Pythonhoz .NET API hivatkozás
+second_title: Aspose.Slides for Python a .NET API-re vonatkozó hivatkozás
 description: 
 type: docs
 url: /hu/aspose.slides.animation/imotionpath/
 ---
-## IMotionPath class
+## IMotionPath osztály
 
-Ábrázolja a mozgáspályát.
+A mozgási útvonalat ábrázolja.
 
-Az IMotionPath típus a következő tagokat tartalmazza:
+Az IMotionPath típus a következő tagokat biztosítja:
 
 ## Tulajdonságok
 
 | Tulajdonság | Leírás |
 | :- | :- |
-| [`count`](/slides/python-net/hu/aspose.slides.animation/imotionpath/count/) | Visszaadja az útvonalak számát a gyűjteményben.<br/>            Csak olvasható **int**. |
+| [`count`](/slides/python-net/hu/aspose.slides.animation/imotionpath/count/) | Visszaadja az útvonalak számát a gyűjteményben.<br/>Csak olvasható **int**. |
 
-Visszaad egy parancsot a megadott indexen.
+Visszaad egy parancsot a megadott indexnél.
 
 ## Indexelő
 
@@ -25,12 +25,12 @@ Visszaad egy parancsot a megadott indexen.
 | :- | :- |
 | [`[index]`](/slides/python-net/hu/aspose.slides.animation/imotionpath/__getitem__/) |  |
 
-## Módszerek
+## Metódusok
 
-| Módszer | Leírás |
+| Metódus | Leírás |
 | :- | :- |
-| [`add(self, type, pts, pts_type, b_relative_coord)`](/slides/python-net/hu/aspose.slides.animation/imotionpath/add/#motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool) | Új parancs hozzáadása az úthoz |
-| [`insert(self, index, type, pts, pts_type, b_relative_coord)`](/slides/python-net/hu/aspose.slides.animation/imotionpath/insert/#int-motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool) | Új parancs beszúrása az úthoz |
+| [`add(self, type, pts, pts_type, b_relative_coord)`](/slides/python-net/hu/aspose.slides.animation/imotionpath/add/#motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool) | Új parancs hozzáadása az úthoz |
+| [`insert(self, index, type, pts, pts_type, b_relative_coord)`](/slides/python-net/hu/aspose.slides.animation/imotionpath/insert/#int-motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool) | Új parancs beszúrása az úthoz |
 | [`clear(self)`](/slides/python-net/hu/aspose.slides.animation/imotionpath/clear/#) | Eltávolítja az összes parancsot a gyűjteményből. |
 | [`remove(self, item)`](/slides/python-net/hu/aspose.slides.animation/imotionpath/remove/#imotioncmdpath) | Eltávolítja a megadott parancsokat a gyűjteményből. |
 | [`remove_at(self, index)`](/slides/python-net/hu/aspose.slides.animation/imotionpath/remove_at/#int) | Eltávolít egy parancsot a megadott indexnél. |

@@ -6,9 +6,9 @@ type: docs
 url: /fa/aspose.slides.theme/icolorschemeeffectivedata/accent1/
 weight: 10
 ---
-## accent1 خاصیت
-اولین رنگ تاکید در طرح.
-فقط-خواندنی **aspose.slides.Color**.
+## accent1 ویژگی
+اولین رنگ تأکید در طرح.
+            فقط-خواندنی [`Color`](/slides/python-net/fa/aspose.slides/color).
 
 ### تعریف:
 ```python
@@ -17,7 +17,9 @@ def accent1(self):
     ...
 ```
 
-### موارد مرتبط
+
+### مراجع
 * کلاس [`IColorSchemeEffectiveData`](/slides/python-net/fa/aspose.slides.theme/icolorschemeeffectivedata)
+* کلاس [`Color`](/slides/python-net/fa/aspose.slides/color)
 * ماژول [`aspose.slides.theme`](/slides/python-net/fa/aspose.slides.theme)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

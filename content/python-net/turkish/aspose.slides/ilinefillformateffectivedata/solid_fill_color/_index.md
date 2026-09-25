@@ -1,14 +1,14 @@
 ---
 title: solid_fill_color property
-second_title: Aspose.Slides Python için .NET API Referansı
+second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/ilinefillformateffectivedata/solid_fill_color/
 weight: 60
 ---
 ## solid_fill_color özelliği
-Katı bir doldurmanın rengini döndürür.
-            Yalnızca okunabilir **aspose.slides.Color**.
+Katı dolgunun rengini döndürür.
+            Salt okunur [`Color`](/slides/python-net/tr/aspose.slides/color).
 
 ### Tanım:
 ```python
@@ -17,7 +17,9 @@ def solid_fill_color(self):
     ...
 ```
 
-### Ayrıca
+
+### Diğer Bağlantılar
 * sınıf [`ILineFillFormatEffectiveData`](/slides/python-net/tr/aspose.slides/ilinefillformateffectivedata)
+* sınıf [`Color`](/slides/python-net/tr/aspose.slides/color)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

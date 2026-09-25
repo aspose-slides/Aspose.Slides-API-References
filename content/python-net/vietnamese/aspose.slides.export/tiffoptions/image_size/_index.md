@@ -7,9 +7,9 @@ url: /vi/aspose.slides.export/tiffoptions/image_size/
 weight: 90
 ---
 ## image_size thuộc tính
-Xác định kích thước của ảnh TIFF được tạo.
-            Giá trị mặc định là 0x0, có nghĩa là kích thước ảnh được tạo sẽ được tính dựa trên giá trị kích thước slide của bản trình chiếu.
-            Đọc/ghi **aspose.slides.Size**.
+Specifies size of a generated TIFF image.
+            Default value is 0x0, what means that generated image sizes will be calculated based on presentation slide size value.
+            Đọc/ghi [`Size`](/slides/python-net/vi/aspose.slides/size).
 
 ### Định nghĩa:
 ```python
@@ -23,7 +23,8 @@ def image_size(self, value):
 ```
 
 
-### Xem Thêm
+### Xem thêm
 * lớp [`TiffOptions`](/slides/python-net/vi/aspose.slides.export/tiffoptions)
-* mô-đun [`aspose.slides.export`](/slides/python-net/vi/aspose.slides.export)
+* lớp [`Size`](/slides/python-net/vi/aspose.slides/size)
+* module [`aspose.slides.export`](/slides/python-net/vi/aspose.slides.export)
 * thư viện [`Aspose.Slides`](/slides/python-net)

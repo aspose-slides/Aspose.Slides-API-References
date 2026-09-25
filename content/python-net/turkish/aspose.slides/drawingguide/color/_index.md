@@ -1,14 +1,14 @@
 ---
 title: color property
-second_title: Aspose.Slides Python için .NET API Referansı
+second_title: Aspose.Slides için Python üzerinden .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/drawingguide/color/
 weight: 10
 ---
-## renk özelliği
-Çizim kılavuzunun rengini döndürür veya ayarlar.
-            Okuma/yazma **aspose.slides.Color**.
+## color özelliği
+Çizim kılavuzunun color değerini döndürür veya ayarlar.
+            Okuma/Yazma [`Color`](/slides/python-net/tr/aspose.slides/color).
 
 ### Tanım:
 ```python
@@ -22,7 +22,8 @@ def color(self, value):
 ```
 
 
-### Diğer Bağlantılar
+### Ayrıca bakınız
 * sınıf [`DrawingGuide`](/slides/python-net/tr/aspose.slides/drawingguide)
+* sınıf [`Color`](/slides/python-net/tr/aspose.slides/color)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

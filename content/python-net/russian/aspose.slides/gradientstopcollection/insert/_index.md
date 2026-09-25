@@ -6,8 +6,8 @@ type: docs
 url: /ru/aspose.slides/gradientstopcollection/insert/
 weight: 30
 ---
-## insert(self, index, position, color) {#int-float-asposepydrawingcolor}
-Создает новую точку градиента и вставляет её в указанном индексе в коллекцию.
+## insert(self, index, position, color) {#int-float-asposeslidescolor}
+Создаёт новую градиентную остановку и вставляет её в коллекцию по указанному индексу.
 
 ```python
 def insert(self, index, position, color):
@@ -16,12 +16,12 @@ def insert(self, index, position, color):
 
 | Параметр | Тип | Описание |
 | :- | :- | :- |
-| index | **int** | Индекс в коллекции, где будет вставлена новая точка градиента. |
-| position | **float** | Позиция новой точки градиента. |
-| color | **aspose.slides.Color** | Цвет новой точки градиента. |
+| index | **int** | Индекс в коллекции, куда будет вставлена новая градиентная остановка. |
+| position | **float** | Позиция новой градиентной остановки. |
+| color | [`Color`](/slides/python-net/ru/aspose.slides/color) | Цвет новой градиентной остановки. |
 
 ## insert(self, index, position, preset_color) {#int-float-presetcolor}
-Создает новую точку градиента и вставляет её в указанном индексе в коллекцию.
+Создаёт новую градиентную остановку и вставляет её в коллекцию по указанному индексу.
 
 ```python
 def insert(self, index, position, preset_color):
@@ -30,12 +30,12 @@ def insert(self, index, position, preset_color):
 
 | Параметр | Тип | Описание |
 | :- | :- | :- |
-| index | **int** | Индекс в коллекции, где будет вставлена новая точка градиента. |
-| position | **float** | Позиция новой точки градиента. |
-| preset_color | [`PresetColor`](/slides/python-net/ru/aspose.slides/presetcolor) | Цвет новой точки градиента. |
+| index | **int** | Индекс в коллекции, куда будет вставлена новая градиентная остановка. |
+| position | **float** | Позиция новой градиентной остановки. |
+| preset_color | [`PresetColor`](/slides/python-net/ru/aspose.slides/presetcolor) | Цвет новой градиентной остановки. |
 
 ## insert(self, index, position, scheme_color) {#int-float-schemecolor}
-Создает новую точку градиента и вставляет её в указанном индексе в коллекцию.
+Создаёт новую градиентную остановку и вставляет её в коллекцию по указанному индексу.
 
 ```python
 def insert(self, index, position, scheme_color):
@@ -44,13 +44,14 @@ def insert(self, index, position, scheme_color):
 
 | Параметр | Тип | Описание |
 | :- | :- | :- |
-| index | **int** | Индекс в коллекции, где будет вставлена новая точка градиента. |
-| position | **float** | Позиция новой точки градиента. |
-| scheme_color | [`SchemeColor`](/slides/python-net/ru/aspose.slides/schemecolor) | Цвет новой точки градиента. |
+| index | **int** | Индекс в коллекции, куда будет вставлена новая градиентная остановка. |
+| position | **float** | Позиция новой градиентной остановки. |
+| scheme_color | [`SchemeColor`](/slides/python-net/ru/aspose.slides/schemecolor) | Цвет новой градиентной остановки. |
 
-### Смотрите также
+### См. также
 * класс [`GradientStopCollection`](/slides/python-net/ru/aspose.slides/gradientstopcollection)
 * перечисление [`PresetColor`](/slides/python-net/ru/aspose.slides/presetcolor)
 * перечисление [`SchemeColor`](/slides/python-net/ru/aspose.slides/schemecolor)
+* класс [`Color`](/slides/python-net/ru/aspose.slides/color)
 * модуль [`aspose.slides`](/slides/python-net/ru/aspose.slides)
 * библиотека [`Aspose.Slides`](/slides/python-net)

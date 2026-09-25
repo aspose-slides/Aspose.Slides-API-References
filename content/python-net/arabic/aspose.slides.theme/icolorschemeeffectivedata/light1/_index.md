@@ -1,14 +1,14 @@
 ---
 title: light1 property
-second_title: Aspose.Slides لـ Python عبر .NET API Reference
+second_title: Aspose.Slides للبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.theme/icolorschemeeffectivedata/light1/
 weight: 110
 ---
-## light1 الخاصية
+## light1 خاصية
 أول لون إضاءة في المخطط.
-            قراءة فقط **aspose.slides.Color**.
+            للقراءة فقط [`Color`](/slides/python-net/ar/aspose.slides/color).
 
 ### التعريف:
 ```python
@@ -19,6 +19,7 @@ def light1(self):
 
 
 ### انظر أيضًا
-* الفئة [`IColorSchemeEffectiveData`](/slides/python-net/ar/aspose.slides.theme/icolorschemeeffectivedata)
-* الوحدة [`aspose.slides.theme`](/slides/python-net/ar/aspose.slides.theme)
-* المكتبة [`Aspose.Slides`](/slides/python-net)
+* فئة [`IColorSchemeEffectiveData`](/slides/python-net/ar/aspose.slides.theme/icolorschemeeffectivedata)
+* فئة [`Color`](/slides/python-net/ar/aspose.slides/color)
+* وحدة [`aspose.slides.theme`](/slides/python-net/ar/aspose.slides.theme)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

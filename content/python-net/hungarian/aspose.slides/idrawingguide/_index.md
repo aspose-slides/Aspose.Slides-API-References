@@ -1,23 +1,23 @@
 ---
 title: IDrawingGuide class
-second_title: Aspose.Slides a Pythonhoz .NET-en keresztül API-referencia
+second_title: Aspose.Slides Pythonhoz .NET API hivatkozás
 description: 
 type: docs
 url: /hu/aspose.slides/idrawingguide/
 ---
 ## IDrawingGuide osztály
 
-A rajzolási útmutató beállítható irányát jelöli.
+Egy állítható rajzsegédet képvisel.
 
-Az IDrawingGuide típus a következő tagokat teszi közzé:
+Az IDrawingGuide típus a következő tagokat tartalmazza:
 
 ## Tulajdonságok
 
 | Tulajdonság | Leírás |
 | :- | :- |
-| [`orientation`](/slides/python-net/hu/aspose.slides/idrawingguide/orientation/) | Visszaadja vagy beállítja a rajzolási útmutató tájolását.<br/>            Olvasás/írás [`Orientation`](/slides/python-net/hu/aspose.slides/orientation). |
-| [`position`](/slides/python-net/hu/aspose.slides/idrawingguide/position/) | Visszaadja vagy beállítja a rajzolási útmutató pozícióját pontban, a dia bal felső sarkától számítva.<br/>            Olvasás/írás **float**. |
-| [`color`](/slides/python-net/hu/aspose.slides/idrawingguide/color/) | Visszaadja vagy beállítja a rajzolási útmutató színét.<br/>            Olvasás/írás **aspose.slides.Color**. |
+| [`orientation`](/slides/python-net/hu/aspose.slides/idrawingguide/orientation/) | Visszaadja vagy beállítja a rajzsegéd orientációját.<br/>            Read/write [`Orientation`](/slides/python-net/hu/aspose.slides/orientation). |
+| [`position`](/slides/python-net/hu/aspose.slides/idrawingguide/position/) | Visszaadja vagy beállítja a rajzsegéd pozícióját pontokban a dia bal felső sarkától számítva.<br/>            Read/write **float**. |
+| [`color`](/slides/python-net/hu/aspose.slides/idrawingguide/color/) | Visszaadja vagy beállítja a rajzsegéd színét.<br/>            Read/write [`Color`](/slides/python-net/hu/aspose.slides/color). |
 
 
 ### Lásd még

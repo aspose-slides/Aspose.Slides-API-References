@@ -7,10 +7,10 @@ url: /tr/aspose.slides/summaryzoomsection/get_visual_bounds/
 weight: 40
 ---
 ## get_visual_bounds(self) {#}
-Şeklin render edilmiş içeriğinden hesaplanan görsel sınırlarını alır.
+Şeklin işlenen içeriğinden hesaplanan görsel sınırlamaları alır.
 
-### Returns
-Bir **aspose.slides.RectangleF** nesnesi, şeklin slayt koordinatlarında görsel sınırlarını temsil eder.
+### Döndürür
+Şeklin görsel sınırlamalarını slayt koordinatlarında temsil eden bir [`RectangleF`](/slides/python-net/tr/aspose.slides/rectanglef).
 
 
 
@@ -19,16 +19,20 @@ def get_visual_bounds(self):
     ...
 ```
 
-### Remarks
-Döndürülen dikdörtgen, şekil tarafından render sırasında üretilen tüm içeriğin eksenle hizalanmış sınırlarını slayt koordinat uzayında temsil eder.
 
-Bu sınırlar, şeklin model sınırlarından ([`Shape.x`](/slides/python-net/tr/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/tr/aspose.slides/shape/y), [`Shape.width`](/slides/python-net/tr/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/tr/aspose.slides/shape/height)) farklı olabilir ve render edilmiş içerik slayt orijininin ötesine uzanıyorsa negatif koordinatlar içerebilir.
+### Açıklamalar
+Geri döndürülen dikdörtgen, şekil tarafından render sırasında slayt koordinat uzayında üretilen tüm içeriğin eksen hizalı sınırlamalarını temsil eder.
 
-Görsel sınırlar, dönüşümler (örneğin, döndürme), kenar kalınlığı ve birleşimler, metin yerleşimi ve taşma, SmartArt geometrisi ve şeklin son render görünümünü etkileyen diğer yerleşim etkileri gibi render ile ilgili yönleri dikkate alır.
+Bu sınırlamalar, şeklin model sınırlamalarından ([`Shape.x`](/slides/python-net/tr/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/tr/aspose.slides/shape/y), [`Shape.width`](/slides/python-net/tr/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/tr/aspose.slides/shape/height)) farklı olabilir ve işlenen içerik slayt kökeninin ötesine uzanıyorsa negatif koordinatlar içerebilir.
 
-Döndürülen sınırlar slayt dikdörtgenine kırpılmaz.
+Görsel sınırlamalar, dönüştürmeler (örneğin, döndürme), çizgi kalınlığı ve birleşimler, metin yerleşimi ve taşma, SmartArt geometrisi ve şeklin son render görünümünü etkileyen diğer düzen etkileri gibi render ile ilgili yönleri dikkate alır.
 
-### See Also
+Geri döndürülen sınırlamalar slayt dikdörtgenine kırpılmaz.
+
+
+
+### Ayrıca Bakınız
 * sınıf [`SummaryZoomSection`](/slides/python-net/tr/aspose.slides/summaryzoomsection)
+* sınıf [`RectangleF`](/slides/python-net/tr/aspose.slides/rectanglef)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

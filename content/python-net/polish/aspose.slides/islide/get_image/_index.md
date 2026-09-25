@@ -1,17 +1,17 @@
 ---
 title: get_image method
-second_title: Aspose.Slides dla Pythona via .NET – dokumentacja API
+second_title: Aspose.Slides dla Pythona za pośrednictwem .NET - Referencja API
 description: 
 type: docs
 url: /pl/aspose.slides/islide/get_image/
 weight: 40
 ---
 ## get_image(self) {#}
-Zwraca obiekt Miniatury obrazu (20% rzeczywistego rozmiaru).
+Zwraca obiekt Miniatury obrazu (20 % rzeczywistego rozmiaru).
 
 ### Zwraca
 
-Image object **aspose.slides.Bitmap**
+Obiekt obrazu **aspose.slides.IImage**
 
 
 
@@ -22,12 +22,12 @@ def get_image(self):
 
 
 
-## get_image(self, image_size) {#asposepydrawingsize}
-Zwraca obiekt obrazu o określonym rozmiarze.
+## get_image(self, image_size) {#asposeslidessize}
+Zwraca obiekt obrazu o podanym rozmiarze.
 
 ### Zwraca
 
-Bitmap object.
+Obiekt bitmapy.
 
 
 
@@ -39,15 +39,15 @@ def get_image(self, image_size):
 
 | Parametr | Typ | Opis |
 | :- | :- | :- |
-| image_size | **aspose.slides.Size** | Rozmiar obrazu do utworzenia. |
+| image_size | [`Size`](/slides/python-net/pl/aspose.slides/size) | Rozmiar obrazu do utworzenia. |
 
 
 ## get_image(self, options) {#asposeslidesexportitiffoptions}
-Zwraca obiekt bitmapy tiff Miniatury z określonymi parametrami.
+Zwraca bitmapę tiff Miniatury o określonych parametrach.
 
 ### Zwraca
 
-Image object.
+Obiekt obrazu.
 
 
 
@@ -67,7 +67,7 @@ Zwraca obiekt bitmapy Miniatury.
 
 ### Zwraca
 
-Bitmap objects.
+Obiekty bitmapy.
 
 
 
@@ -87,7 +87,7 @@ Zwraca obiekt obrazu ze skalowaniem niestandardowym.
 
 ### Zwraca
 
-Image object **aspose.slides.Bitmap**
+Obiekt obrazu **aspose.slides.IImage**
 
 
 
@@ -103,12 +103,12 @@ def get_image(self, scale_x, scale_y):
 | scale_y | **float** | Wartość, o którą skalować tę Miniaturę w kierunku osi y. |
 
 
-## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposepydrawingsize}
-Zwraca obiekt bitmapy Miniatury o określonym rozmiarze.
+## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposeslidessize}
+Zwraca obiekt bitmapy Miniatury o podanym rozmiarze.
 
 ### Zwraca
 
-Bitmap objects.
+Obiekty bitmapy.
 
 
 
@@ -121,7 +121,7 @@ def get_image(self, options, image_size):
 | Parametr | Typ | Opis |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/pl/aspose.slides.export/irenderingoptions) | Opcje renderowania. |
-| image_size | **aspose.slides.Size** | Rozmiar obrazu do utworzenia. |
+| image_size | [`Size`](/slides/python-net/pl/aspose.slides/size) | Rozmiar obrazu do utworzenia. |
 
 
 ## get_image(self, options, scale_x, scale_y) {#asposeslidesexportirenderingoptions-float-float}
@@ -129,7 +129,7 @@ Zwraca obiekt bitmapy Miniatury ze skalowaniem niestandardowym.
 
 ### Zwraca
 
-Bitmap objects.
+Obiekty bitmapy.
 
 
 
@@ -152,5 +152,6 @@ def get_image(self, options, scale_x, scale_y):
 * klasa [`IRenderingOptions`](/slides/python-net/pl/aspose.slides.export/irenderingoptions)
 * klasa [`ISlide`](/slides/python-net/pl/aspose.slides/islide)
 * klasa [`ITiffOptions`](/slides/python-net/pl/aspose.slides.export/itiffoptions)
+* klasa [`Size`](/slides/python-net/pl/aspose.slides/size)
 * moduł [`aspose.slides`](/slides/python-net/pl/aspose.slides)
 * biblioteka [`Aspose.Slides`](/slides/python-net)

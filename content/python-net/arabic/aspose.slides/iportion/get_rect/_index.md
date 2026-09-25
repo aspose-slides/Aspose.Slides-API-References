@@ -1,16 +1,18 @@
 ---
 title: get_rect method
-second_title: Aspose.Slides للـ Python عبر .NET مرجع API
+second_title: Aspose.Slides لـ Python عبر .NET API مرجع
 description: 
 type: docs
 url: /ar/aspose.slides/iportion/get_rect/
 weight: 30
 ---
 ## get_rect(self) {#}
-احصل على إحداثيات المستطيل الذي يحد الجزء. يتضمن المستطيل جميع أسطر النص في الجزء، بما في ذلك الأسطر الفارغة.
+احصل على إحداثيات الـ rect الذي يحد الجزء. الـ rect يتضمن جميع أسطر
+             النص في الجزء، بما في ذلك الأسطر الفارغة.
 
-### القيم المرجعة
-المستطيل الذي يحد الجزء **aspose.slides.RectangleF**
+### الإرجاع
+
+مستطيل يحد الجزء [`RectangleF`](/slides/python-net/ar/aspose.slides/rectanglef)
 
 
 
@@ -22,7 +24,8 @@ def get_rect(self):
 
 
 
-### أنظر أيضًا
+### انظر أيضًا
 * فئة [`IPortion`](/slides/python-net/ar/aspose.slides/iportion)
+* فئة [`RectangleF`](/slides/python-net/ar/aspose.slides/rectanglef)
 * وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
 * مكتبة [`Aspose.Slides`](/slides/python-net)

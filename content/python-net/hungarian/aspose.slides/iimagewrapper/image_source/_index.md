@@ -1,14 +1,14 @@
 ---
 title: image_source property
-second_title: Aspose.Slides a Pythonhoz .NET API hivatkozása
+second_title: Aspose.Slides Pythonhoz .NET API hivatkozás
 description: 
 type: docs
 url: /hu/aspose.slides/iimagewrapper/image_source/
 weight: 30
 ---
-## image_source tulajdonság
-Visszaadja a képet
-            Csak olvasható **aspose.slides.Image**.
+## image_source property
+Lekéri a képet
+            Csak olvasható **aspose.slides.IImage**.
 
 ### Definíció:
 ```python

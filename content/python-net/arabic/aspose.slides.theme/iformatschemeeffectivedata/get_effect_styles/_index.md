@@ -1,34 +1,30 @@
 ---
 title: get_effect_styles method
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: Aspose.Slides لبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.theme/iformatschemeeffectivedata/get_effect_styles/
 weight: 20
 ---
-## get_effect_styles(self, style_color) {#asposepydrawingcolor}
-يعيد مجموعة من أنماط التأثير المحددة في السمة.
+## get_effect_styles(self, style_color) {#asposeslidescolor}
+تُرجع مجموعة من أنماط التأثير المعرفة في السمة.
 
-### القيمة المرجعة
+### القيم المرجعة
 
-مجموعة من أنماط التأثير الفعالة [`IEffectStyleCollectionEffectiveData`](/slides/python-net/ar/aspose.slides.theme/ieffectstylecollectioneffectivedata)
-
-
+مجموعة من أنماط التأثير الفعّالة [`IEffectStyleCollectionEffectiveData`](/slides/python-net/ar/aspose.slides.theme/ieffectstylecollectioneffectivedata)
 
 ```python
 def get_effect_styles(self, style_color):
     ...
 ```
 
-
-| المعامل | النوع | الوصف |
+| المعلمة | النوع | الوصف |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | اللون **aspose.slides.Color** |
-
-
+| style_color | [`Color`](/slides/python-net/ar/aspose.slides/color) | لون [`Color`](/slides/python-net/ar/aspose.slides/color) |
 
 ### انظر أيضًا
-* الفئة [`IEffectStyleCollectionEffectiveData`](/slides/python-net/ar/aspose.slides.theme/ieffectstylecollectioneffectivedata)
-* الفئة [`IFormatSchemeEffectiveData`](/slides/python-net/ar/aspose.slides.theme/iformatschemeeffectivedata)
-* الوحدة [`aspose.slides.theme`](/slides/python-net/ar/aspose.slides.theme)
-* المكتبة [`Aspose.Slides`](/slides/python-net)
+* فئة [`IEffectStyleCollectionEffectiveData`](/slides/python-net/ar/aspose.slides.theme/ieffectstylecollectioneffectivedata)
+* فئة [`IFormatSchemeEffectiveData`](/slides/python-net/ar/aspose.slides.theme/iformatschemeeffectivedata)
+* فئة [`Color`](/slides/python-net/ar/aspose.slides/color)
+* وحدة [`aspose.slides.theme`](/slides/python-net/ar/aspose.slides.theme)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

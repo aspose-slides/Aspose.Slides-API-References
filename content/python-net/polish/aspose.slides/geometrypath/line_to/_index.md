@@ -1,13 +1,13 @@
 ---
 title: line_to method
-second_title: Aspose.Slides dla Pythona poprzez .NET referencję API
+second_title: Aspose.Slides dla Pythona za pośrednictwem .NET – Referencja API
 description: 
 type: docs
 url: /pl/aspose.slides/geometrypath/line_to/
 weight: 50
 ---
-## line_to(self, point) {#asposepydrawingpointf}
-Dodaje linię do końca ścieżki
+## line_to(self, point) {#asposeslidespointf}
+Dodaje odcinek do końca ścieżki
 
 
 ```python
@@ -18,11 +18,11 @@ def line_to(self, point):
 
 | Parametr | Typ | Opis |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | Punkt końcowy linii |
+| point | [`PointF`](/slides/python-net/pl/aspose.slides/pointf) | Punkt końcowy odcinka |
 
 
 ## line_to(self, x, y) {#float-float}
-Dodaje linię do końca ścieżki
+Dodaje odcinek do końca ścieżki
 
 
 ```python
@@ -33,12 +33,12 @@ def line_to(self, x, y):
 
 | Parametr | Typ | Opis |
 | :- | :- | :- |
-| x | **float** | Współrzędna X punktu końcowego linii |
-| y | **float** | Współrzędna Y punktu końcowego linii |
+| x | **float** | Współrzędna X punktu końcowego odcinka |
+| y | **float** | Współrzędna Y punktu końcowego odcinka |
 
 
-## line_to(self, point, index) {#asposepydrawingpointf-int}
-Dodaje linię w określonym miejscu ścieżki
+## line_to(self, point, index) {#asposeslidespointf-int}
+Dodaje odcinek do określonego miejsca ścieżki
 
 
 ```python
@@ -49,7 +49,7 @@ def line_to(self, point, index):
 
 | Parametr | Typ | Opis |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | Punkt końcowy |
+| point | [`PointF`](/slides/python-net/pl/aspose.slides/pointf) | Punkt końcowy |
 | index | **int** | Indeks segmentu w PathData |
 
 ### Wyjątki
@@ -60,7 +60,7 @@ def line_to(self, point, index):
 
 
 ## line_to(self, x, y, index) {#float-float-int}
-Dodaje linię w określonym miejscu ścieżki
+Dodaje odcinek do określonego miejsca ścieżki
 
 
 ```python
@@ -83,7 +83,8 @@ def line_to(self, x, y, index):
 
 
 
-### Zobacz także
+### See Also
 * klasa [`GeometryPath`](/slides/python-net/pl/aspose.slides/geometrypath)
+* klasa [`PointF`](/slides/python-net/pl/aspose.slides/pointf)
 * moduł [`aspose.slides`](/slides/python-net/pl/aspose.slides)
 * biblioteka [`Aspose.Slides`](/slides/python-net)

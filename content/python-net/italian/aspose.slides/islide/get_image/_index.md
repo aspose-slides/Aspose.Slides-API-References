@@ -1,17 +1,17 @@
 ---
 title: get_image method
-second_title: Riferimento API Aspose.Slides per Python via .NET
+second_title: Aspose.Slides per Python via .NET Riferimento API
 description: 
 type: docs
 url: /it/aspose.slides/islide/get_image/
 weight: 40
 ---
 ## get_image(self) {#}
-Restituisce un oggetto Immagine Miniatura (20 % della dimensione reale).
+Restituisce un oggetto Thumbnail Image (20% della dimensione reale).
 
 ### Restituisce
 
-Oggetto immagine **aspose.slides.Bitmap**
+oggetto Image **aspose.slides.IImage**
 
 
 
@@ -22,12 +22,12 @@ def get_image(self):
 
 
 
-## get_image(self, image_size) {#asposepydrawingsize}
-Restituisce un oggetto immagine con dimensioni specificate.
+## get_image(self, image_size) {#asposeslidessize}
+Restituisce un oggetto immagine con la dimensione specificata.
 
 ### Restituisce
 
-Oggetto Bitmap.
+oggetto Bitmap.
 
 
 
@@ -39,15 +39,15 @@ def get_image(self, image_size):
 
 | Parametro | Tipo | Descrizione |
 | :- | :- | :- |
-| image_size | **aspose.slides.Size** | Dimensione dell'immagine da creare. |
+| image_size | [`Size`](/slides/python-net/it/aspose.slides/size) | Dimensione dell'immagine da creare. |
 
 
 ## get_image(self, options) {#asposeslidesexportitiffoptions}
-Restituisce un oggetto bitmap tiff Miniatura con parametri specificati.
+Restituisce un oggetto thumbnail tiff bitmap con i parametri specificati.
 
 ### Restituisce
 
-Oggetto immagine.
+oggetto Image.
 
 
 
@@ -63,11 +63,11 @@ def get_image(self, options):
 
 
 ## get_image(self, options) {#asposeslidesexportirenderingoptions}
-Restituisce un oggetto Bitmap Miniatura.
+Restituisce un oggetto Thumbnail Bitmap.
 
 ### Restituisce
 
-Oggetti Bitmap.
+oggetti Bitmap.
 
 
 
@@ -87,7 +87,7 @@ Restituisce un oggetto immagine con scala personalizzata.
 
 ### Restituisce
 
-Oggetto immagine **aspose.slides.Bitmap**
+oggetto Image **aspose.slides.IImage**
 
 
 
@@ -99,16 +99,16 @@ def get_image(self, scale_x, scale_y):
 
 | Parametro | Tipo | Descrizione |
 | :- | :- | :- |
-| scale_x | **float** | Il valore con cui scalare questa Miniatura lungo l'asse x. |
-| scale_y | **float** | Il valore con cui scalare questa Miniatura lungo l'asse y. |
+| scale_x | **float** | Il valore con cui scalare questa Thumbnail nella direzione dell'asse x. |
+| scale_y | **float** | Il valore con cui scalare questa Thumbnail nella direzione dell'asse y. |
 
 
-## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposepydrawingsize}
-Restituisce un oggetto Bitmap Miniatura con dimensioni specificate.
+## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposeslidessize}
+Restituisce un oggetto Thumbnail Bitmap con la dimensione specificata.
 
 ### Restituisce
 
-Oggetti Bitmap
+oggetti Bitmap.
 
 
 
@@ -121,15 +121,15 @@ def get_image(self, options, image_size):
 | Parametro | Tipo | Descrizione |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/it/aspose.slides.export/irenderingoptions) | Opzioni di rendering. |
-| image_size | **aspose.slides.Size** | Dimensione dell'immagine da creare. |
+| image_size | [`Size`](/slides/python-net/it/aspose.slides/size) | Dimensione dell'immagine da creare. |
 
 
 ## get_image(self, options, scale_x, scale_y) {#asposeslidesexportirenderingoptions-float-float}
-Restituisce un oggetto Bitmap Miniatura con scala personalizzata.
+Restituisce un oggetto Thumbnail Bitmap con scala personalizzata.
 
 ### Restituisce
 
-Oggetti Bitmap
+oggetti Bitmap.
 
 
 
@@ -142,8 +142,8 @@ def get_image(self, options, scale_x, scale_y):
 | Parametro | Tipo | Descrizione |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/it/aspose.slides.export/irenderingoptions) | Opzioni di rendering. |
-| scale_x | **float** | Il valore con cui scalare questa Miniatura lungo l'asse x. |
-| scale_y | **float** | Il valore con cui scalare questa Miniatura lungo l'asse y. |
+| scale_x | **float** | Il valore con cui scalare questa Thumbnail nella direzione dell'asse x. |
+| scale_y | **float** | Il valore con cui scalare questa Thumbnail nella direzione dell'asse y. |
 
 
 
@@ -152,5 +152,6 @@ def get_image(self, options, scale_x, scale_y):
 * classe [`IRenderingOptions`](/slides/python-net/it/aspose.slides.export/irenderingoptions)
 * classe [`ISlide`](/slides/python-net/it/aspose.slides/islide)
 * classe [`ITiffOptions`](/slides/python-net/it/aspose.slides.export/itiffoptions)
+* classe [`Size`](/slides/python-net/it/aspose.slides/size)
 * modulo [`aspose.slides`](/slides/python-net/it/aspose.slides)
 * libreria [`Aspose.Slides`](/slides/python-net)

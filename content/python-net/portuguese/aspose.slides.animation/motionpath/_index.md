@@ -1,6 +1,6 @@
 ---
 title: MotionPath class
-second_title: Referência da API Aspose.Slides para Python via .NET
+second_title: Aspose.Slides para Python via API de Referência .NET
 description: 
 type: docs
 url: /pt/aspose.slides.animation/motionpath/
@@ -35,8 +35,8 @@ Retorna um comando no índice especificado.
 
 | Método | Descrição |
 | :- | :- |
-| [`add(self, type, pts, pts_type, b_relative_coord)`](/slides/python-net/pt/aspose.slides.animation/motionpath/add/#motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool) | Adiciona um novo comando ao caminho |
-| [`insert(self, index, type, pts, pts_type, b_relative_coord)`](/slides/python-net/pt/aspose.slides.animation/motionpath/insert/#int-motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool) | Insere um novo comando ao caminho |
+| [`add(self, type, pts, pts_type, b_relative_coord)`](/slides/python-net/pt/aspose.slides.animation/motionpath/add/#motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool) | Adiciona novo comando ao caminho |
+| [`insert(self, index, type, pts, pts_type, b_relative_coord)`](/slides/python-net/pt/aspose.slides.animation/motionpath/insert/#int-motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool) | Insere novo comando ao caminho |
 | [`clear(self)`](/slides/python-net/pt/aspose.slides.animation/motionpath/clear/#) | Remove todos os comandos da coleção. |
 | [`remove(self, item)`](/slides/python-net/pt/aspose.slides.animation/motionpath/remove/#imotioncmdpath) | Remove os comandos especificados da coleção. |
 | [`remove_at(self, index)`](/slides/python-net/pt/aspose.slides.animation/motionpath/remove_at/#int) | Remove um comando no índice especificado. |

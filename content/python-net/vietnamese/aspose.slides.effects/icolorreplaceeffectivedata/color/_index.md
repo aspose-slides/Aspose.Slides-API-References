@@ -1,14 +1,14 @@
 ---
 title: color property
-second_title: Tham chiếu API Aspose.Slides cho Python thông qua .NET
+second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides.effects/icolorreplaceeffectivedata/color/
 weight: 20
 ---
 ## thuộc tính color
-Trả về định dạng màu sẽ thay thế màu của mỗi pixel.
-            Chỉ đọc **aspose.slides.Color**.
+Trả về định dạng color sẽ thay thế color của mỗi pixel.
+            chỉ đọc [`Color`](/slides/python-net/vi/aspose.slides/color).
 
 ### Định nghĩa:
 ```python
@@ -20,5 +20,6 @@ def color(self):
 
 ### Xem thêm
 * lớp [`IColorReplaceEffectiveData`](/slides/python-net/vi/aspose.slides.effects/icolorreplaceeffectivedata)
+* lớp [`Color`](/slides/python-net/vi/aspose.slides/color)
 * mô-đun [`aspose.slides.effects`](/slides/python-net/vi/aspose.slides.effects)
 * thư viện [`Aspose.Slides`](/slides/python-net)

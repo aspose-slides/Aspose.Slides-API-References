@@ -1,6 +1,6 @@
 ---
 title: get_visual_bounds method
-second_title: Referencia de API de Aspose.Slides para Python vía .NET
+second_title: Aspose.Slides para Python vía .NET Referencia de API
 description: 
 type: docs
 url: /es/aspose.slides/zoomobject/get_visual_bounds/
@@ -11,7 +11,8 @@ Obtiene los límites visuales de la forma calculados a partir de su contenido re
 
 ### Devuelve
 
-Un **aspose.slides.RectangleF** que representa los límites visuales de la forma en coordenadas de diapositiva.
+Un [`RectangleF`](/slides/python-net/es/aspose.slides/rectanglef) que representa los límites visuales de la forma
+             en coordenadas de diapositiva.
 
 
 
@@ -22,26 +23,26 @@ def get_visual_bounds(self):
 
 
 ### Observaciones
-
-El rectángulo devuelto representa los límites alineados a los ejes de todo el contenido
-             generado por la forma durante el renderizado en el espacio de coordenadas de la diapositiva.
-
-Estos límites pueden diferir de los límites del modelo de la forma
+The returned rectangle represents the axis-aligned bounds of all content
+             produced by the shape during rendering in slide coordinate space.
+            
+             These bounds may differ from the shape's model bounds
              ([`Shape.x`](/slides/python-net/es/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/es/aspose.slides/shape/y),
              [`Shape.width`](/slides/python-net/es/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/es/aspose.slides/shape/height))
-             y pueden contener coordenadas negativas si el contenido renderizado se extiende
-             más allá del origen de la diapositiva.
-
-Los límites visuales tienen en cuenta aspectos relacionados con el renderizado, como
-             transformaciones (por ejemplo, rotación), anchura y uniones del trazo,
-             diseño y desbordamiento del texto, geometría de SmartArt y otros efectos de diseño
-             que influyen en la apariencia final renderizada de la forma.
-
-Los límites devueltos no se recortan al rectángulo de la diapositiva.
+             and may contain negative coordinates if the rendered content extends
+             beyond the slide origin.
+            
+             The visual bounds take into account rendering-related aspects such as
+             transformations (for example, rotation), stroke width and joins,
+             text layout and overflow, SmartArt geometry, and other layout effects
+             that influence the final rendered appearance of the shape.
+            
+             The returned bounds are not clipped to the slide rectangle.
 
 
 
 ### Ver también
 * clase [`ZoomObject`](/slides/python-net/es/aspose.slides/zoomobject)
+* clase [`RectangleF`](/slides/python-net/es/aspose.slides/rectanglef)
 * módulo [`aspose.slides`](/slides/python-net/es/aspose.slides)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

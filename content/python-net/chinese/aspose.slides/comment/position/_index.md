@@ -8,7 +8,7 @@ weight: 50
 ---
 ## position 属性
 返回或设置注释在幻灯片上的 position。
-            读/写 **aspose.slides.PointF**.
+            读/写 [`PointF`](/slides/python-net/zh/aspose.slides/pointf).
 
 ### 定义：
 ```python
@@ -22,7 +22,8 @@ def position(self, value):
 ```
 
 
-### 另见
+### 另请参阅
 * 类 [`Comment`](/slides/python-net/zh/aspose.slides/comment)
+* 类 [`PointF`](/slides/python-net/zh/aspose.slides/pointf)
 * 模块 [`aspose.slides`](/slides/python-net/zh/aspose.slides)
 * 库 [`Aspose.Slides`](/slides/python-net)

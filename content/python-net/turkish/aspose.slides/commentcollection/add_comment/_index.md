@@ -6,12 +6,12 @@ type: docs
 url: /tr/aspose.slides/commentcollection/add_comment/
 weight: 10
 ---
-## add_comment(self, text, slide, position, creation_time) {#str-islide-asposepydrawingpointf-datetime}
-Koleksiyonun sonuna yeni bir yorum ekleyin.
+## add_comment(self, text, slide, position, creation_time) {#str-islide-asposeslidespointf-datetime}
+Bir koleksiyonun sonuna yeni yorum ekler.
 
-### Döndürür
+### Returns
 
-Eklenen yorum.
+Added comment.
 
 
 
@@ -21,18 +21,19 @@ def add_comment(self, text, slide, position, creation_time):
 ```
 
 
-| Parametre | Tip | Açıklama |
+| Parametre | Tür | Açıklama |
 | :- | :- | :- |
-| text | **str** | Yeni bir yorumun düz metni. |
-| slide | [`ISlide`](/slides/python-net/tr/aspose.slides/islide) | Yeni bir yorumun ekleneceği sunumdaki slayt. |
-| position | **aspose.slides.PointF** | Yeni bir yorumun ekleneceği slayttaki konum. |
-| creation_time | **DateTime** | Yoruma oluşturulma zamanı. |
+| text | **str** | Yeni yorumun düz metni. |
+| slide | [`ISlide`](/slides/python-net/tr/aspose.slides/islide) | Yorum eklemek için sunumdaki slayt. |
+| position | [`PointF`](/slides/python-net/tr/aspose.slides/pointf) | Yorum eklenecek slayt üzerindeki konum. |
+| creation_time | **DateTime** | Yorumun oluşturulma zamanı. |
 
 
 
-### İlgili
+### See Also
 * sınıf [`CommentCollection`](/slides/python-net/tr/aspose.slides/commentcollection)
 * sınıf [`IComment`](/slides/python-net/tr/aspose.slides/icomment)
 * sınıf [`ISlide`](/slides/python-net/tr/aspose.slides/islide)
+* sınıf [`PointF`](/slides/python-net/tr/aspose.slides/pointf)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

@@ -21,7 +21,8 @@ Der Typ NotesSize stellt die folgenden Mitglieder bereit:
 
 | Eigenschaft | Beschreibung |
 | :- | :- |
-| [`size`](/slides/python-net/de/aspose.slides/notessize/size/) | Gibt die Größe in Punkten zurück oder setzt sie.<br/>            Lesen/Schreiben **aspose.slides.SizeF**. |
+| [`size`](/slides/python-net/de/aspose.slides/notessize/size/) | Gibt die Größe in Punkten zurück oder legt sie fest.<br/>            Lesen/Schreiben [`SizeF`](/slides/python-net/de/aspose.slides/sizef). |
+
 
 ### Siehe auch
 * Modul [`aspose.slides`](/slides/python-net/de/aspose.slides)

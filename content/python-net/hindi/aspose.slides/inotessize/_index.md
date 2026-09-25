@@ -9,14 +9,14 @@ url: /hi/aspose.slides/inotessize/
 
 नोट्स स्लाइड का आकार दर्शाता है।
 
-INotesSize टाइप निम्नलिखित सदस्य प्रकट करता है:
+INotesSize प्रकार निम्न सदस्य प्रदर्शित करता है:
 
 ## गुण
 
-| प्रॉपर्टी | विवरण |
+| संपत्ति | विवरण |
 | :- | :- |
-| [`size`](/slides/python-net/hi/aspose.slides/inotessize/size/) | बिंदुओं में आकार को वापस करता है या सेट करता है।<br/> पढ़ें/लिखें **aspose.slides.SizeF**. |
+| [`size`](/slides/python-net/hi/aspose.slides/inotessize/size/) | पॉइंट्स में आकार लौटाता है या निर्धारित करता है।<br/>            पढ़ें/लिखें [`SizeF`](/slides/python-net/hi/aspose.slides/sizef). |
 
-### संबंधित देखें
+### संबंधित
 * मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
 * लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

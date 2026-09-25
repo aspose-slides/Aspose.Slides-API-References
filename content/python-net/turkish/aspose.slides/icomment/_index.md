@@ -9,18 +9,18 @@ url: /tr/aspose.slides/icomment/
 
 Bir slayt üzerindeki yorumu temsil eder.
 
-IComment türü aşağıdaki üyeleri ortaya çıkar:
+IComment türü aşağıdaki üyeleri sunar:
 
 ## Özellikler
 
 | Özellik | Açıklama |
 | :- | :- |
-| [`text`](/slides/python-net/tr/aspose.slides/icomment/text/) | Bir slayt yorumunun düz metnini alır veya ayarlar.<br/>            Okunur/yazılır **str**. |
-| [`created_time`](/slides/python-net/tr/aspose.slides/icomment/created_time/) | Bir yorumun oluşturulma zamanını alır veya ayarlar.<br/>            Bu özelliği **System.DateTime** olarak ayarlamak, yorum zamanının ayarlanmadığı anlamına gelir.<br/>            Okunur/yazılır **System.DateTime**. |
-| [`slide`](/slides/python-net/tr/aspose.slides/icomment/slide/) | Bir yorumun üst slaydını alır veya ayarlar.<br/>            Sadece-okunur [`ISlide`](/slides/python-net/tr/aspose.slides/islide). |
-| [`author`](/slides/python-net/tr/aspose.slides/icomment/author/) | Bir yorumun yazarını alır.<br/>            Sadece-okunur [`ICommentAuthor`](/slides/python-net/tr/aspose.slides/icommentauthor). |
-| [`position`](/slides/python-net/tr/aspose.slides/icomment/position/) | Bir slayt üzerindeki yorumun konumunu alır veya ayarlar.<br/>            Okunur/yazılır **aspose.slides.PointF**. |
-| [`parent_comment`](/slides/python-net/tr/aspose.slides/icomment/parent_comment/) | Üst yorumu alır veya ayarlar.<br/>            Okunur/yazılır [`IComment`](/slides/python-net/tr/aspose.slides/icomment). |
+| [`text`](/slides/python-net/tr/aspose.slides/icomment/text/) | Bir slayt yorumunun düz metnini döndürür veya ayarlar.<br/>            Okuma/yazma **str**. |
+| [`created_time`](/slides/python-net/tr/aspose.slides/icomment/created_time/) | Bir yorumun oluşturulma zamanını döndürür veya ayarlar.<br/>            Bu özelliği **System.DateTime** olarak ayarlamak yorum zamanının ayarlanmadığı anlamına gelir.<br/>            Okuma/yazma **System.DateTime**. |
+| [`slide`](/slides/python-net/tr/aspose.slides/icomment/slide/) | Bir yorumun üst slaytını döndürür veya ayarlar.<br/>            Salt-okunur [`ISlide`](/slides/python-net/tr/aspose.slides/islide). |
+| [`author`](/slides/python-net/tr/aspose.slides/icomment/author/) | Bir yorumun yazarını döndürür.<br/>            Salt-okunur [`ICommentAuthor`](/slides/python-net/tr/aspose.slides/icommentauthor). |
+| [`position`](/slides/python-net/tr/aspose.slides/icomment/position/) | Bir yorumun slayttaki konumunu döndürür veya ayarlar.<br/>            Okuma/yazma [`PointF`](/slides/python-net/tr/aspose.slides/pointf). |
+| [`parent_comment`](/slides/python-net/tr/aspose.slides/icomment/parent_comment/) | Üst yorumu alır veya ayarlar.<br/>            Okuma/yazma [`IComment`](/slides/python-net/tr/aspose.slides/icomment). |
 
 ## Yöntemler
 

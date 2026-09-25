@@ -6,39 +6,33 @@ type: docs
 url: /sv/aspose.slides/igeometrypath/move_to/
 weight: 50
 ---
-## move_to(self, point) {#asposepydrawingpointf}
-Anger nästa punktposition.
-
+## move_to(self, point) {#asposeslidespointf}
+Ställer in nästa punktposition.
 
 ```python
 def move_to(self, point):
     ...
 ```
 
-
 | Parameter | Typ | Beskrivning |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | Punktposition |
-
+| point | [`PointF`](/slides/python-net/sv/aspose.slides/pointf) | Punktposition |
 
 ## move_to(self, x, y) {#float-float}
-Anger nästa punktposition.
-
+Ställer in nästa punktposition.
 
 ```python
 def move_to(self, x, y):
     ...
 ```
 
-
 | Parameter | Typ | Beskrivning |
 | :- | :- | :- |
 | x | **float** | X-koordinat för punkten |
 | y | **float** | Y-koordinat för punkten |
 
-
-
-### Se också
+### Se även
 * klass [`IGeometryPath`](/slides/python-net/sv/aspose.slides/igeometrypath)
+* klass [`PointF`](/slides/python-net/sv/aspose.slides/pointf)
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

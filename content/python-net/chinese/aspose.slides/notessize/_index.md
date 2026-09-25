@@ -7,7 +7,7 @@ url: /zh/aspose.slides/notessize/
 ---
 ## NotesSize 类
 
-表示备注幻灯片的尺寸。
+表示注释幻灯片的尺寸。
 
 NotesSize 类型公开以下成员：
 
@@ -21,8 +21,7 @@ NotesSize 类型公开以下成员：
 
 | 属性 | 描述 |
 | :- | :- |
-| [`size`](/slides/python-net/zh/aspose.slides/notessize/size/) | 返回或设置以点为单位的大小。<br/>            读写 **aspose.slides.SizeF**. |
-
+| [`size`](/slides/python-net/zh/aspose.slides/notessize/size/) | 返回或设置以点为单位的大小。<br/>            读/写 [`SizeF`](/slides/python-net/zh/aspose.slides/sizef). |
 
 ### 另请参见
 * 模块 [`aspose.slides`](/slides/python-net/zh/aspose.slides)

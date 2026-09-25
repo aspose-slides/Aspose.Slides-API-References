@@ -7,8 +7,8 @@ url: /pl/aspose.slides.theme/icolorschemeeffectivedata/accent4/
 weight: 40
 ---
 ## accent4 właściwość
-Fourth accent color in the scheme.
-            tylko do odczytu **aspose.slides.Color**.
+Czwarty kolor akcentu w schemacie.
+            Tylko do odczytu [`Color`](/slides/python-net/pl/aspose.slides/color).
 
 ### Definicja:
 ```python
@@ -17,7 +17,9 @@ def accent4(self):
     ...
 ```
 
+
 ### Zobacz także
 * klasa [`IColorSchemeEffectiveData`](/slides/python-net/pl/aspose.slides.theme/icolorschemeeffectivedata)
+* klasa [`Color`](/slides/python-net/pl/aspose.slides/color)
 * moduł [`aspose.slides.theme`](/slides/python-net/pl/aspose.slides.theme)
 * biblioteka [`Aspose.Slides`](/slides/python-net)

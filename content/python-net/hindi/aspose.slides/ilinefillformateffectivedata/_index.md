@@ -7,27 +7,27 @@ url: /hi/aspose.slides/ilinefillformateffectivedata/
 ---
 ## ILineFillFormatEffectiveData क्लास
 
-एक अपरिवर्तनीय वस्तु जो प्रभावी रेखा भराव गुणों को शामिल करती है।
+एक अपरिवर्तनीय वस्तु जो प्रभावी रेखा भरने के गुणों को सम्मिलित करती है।
 
-ILineFillFormatEffectiveData प्रकार निम्नलिखित सदस्यों को प्रकट करता है।
+ILineFillFormatEffectiveData प्रकार निम्न सदस्य उजागर करता है:
 
-## Properties
+## गुण
 
-| Property | Description |
+| गुण | विवरण |
 | :- | :- |
-| [`fill_type`](/slides/python-net/hi/aspose.slides/ilinefillformateffectivedata/fill_type/) | फ़िल प्रकार को लौटाता है.<br/> केवल पढ़ने योग्य [`FillType`](/slides/python-net/hi/aspose.slides/filltype). |
-| [`solid_fill_color`](/slides/python-net/hi/aspose.slides/ilinefillformateffectivedata/solid_fill_color/) | ठोस भराव का रंग लौटाता है.<br/> केवल पढ़ने योग्य **aspose.slides.Color**. |
-| [`gradient_format`](/slides/python-net/hi/aspose.slides/ilinefillformateffectivedata/gradient_format/) | ग्रेडिएंट फ़िल प्रारूप को लौटाता है.<br/> केवल पढ़ने योग्य [`IGradientFormatEffectiveData`](/slides/python-net/hi/aspose.slides/igradientformateffectivedata). |
-| [`pattern_format`](/slides/python-net/hi/aspose.slides/ilinefillformateffectivedata/pattern_format/) | पैटर्न फ़िल प्रारूप को लौटाता है.<br/> केवल पढ़ने योग्य [`IPatternFormatEffectiveData`](/slides/python-net/hi/aspose.slides/ipatternformateffectivedata). |
-| [`rotate_with_shape`](/slides/python-net/hi/aspose.slides/ilinefillformateffectivedata/rotate_with_shape/) | निर्धारित करता है कि भराव को आकृति के साथ घुमाया जाना चाहिए या नहीं.<br/> केवल पढ़ने योग्य **bool**. |
+| [`fill_type`](/slides/python-net/hi/aspose.slides/ilinefillformateffectivedata/fill_type/) | फ़िल प्रकार को लौटाता है।<br/>            केवल-रिड [`FillType`](/slides/python-net/hi/aspose.slides/filltype)। |
+| [`solid_fill_color`](/slides/python-net/hi/aspose.slides/ilinefillformateffectivedata/solid_fill_color/) | सॉलिड फ़िल का रंग लौटाता है।<br/>            केवल-रिड [`Color`](/slides/python-net/hi/aspose.slides/color)। |
+| [`gradient_format`](/slides/python-net/hi/aspose.slides/ilinefillformateffectivedata/gradient_format/) | ग्रेडिएंट फ़िल फ़ॉर्मेट लौटाता है।<br/>            केवल-रिड [`IGradientFormatEffectiveData`](/slides/python-net/hi/aspose.slides/igradientformateffectivedata)। |
+| [`pattern_format`](/slides/python-net/hi/aspose.slides/ilinefillformateffectivedata/pattern_format/) | पैटर्न फ़िल फ़ॉर्मेट लौटाता है।<br/>            केवल-रिड [`IPatternFormatEffectiveData`](/slides/python-net/hi/aspose.slides/ipatternformateffectivedata)। |
+| [`rotate_with_shape`](/slides/python-net/hi/aspose.slides/ilinefillformateffectivedata/rotate_with_shape/) | निर्धारित करता है कि क्या फ़िल को आकार के साथ घुमाया जाना चाहिए।<br/>            केवल-रिड **bool**। |
 
 
-### Remarks
+### टिप्पणियाँ
 
-यह इंटरफ़ेस [`ILineFormatEffectiveData`](/slides/python-net/hi/aspose.slides/ilineformateffectivedata) के हिस्से के रूप में उपयोग किया जाता है।
+यह इंटरफ़ेस [`ILineFormatEffectiveData`](/slides/python-net/hi/aspose.slides/ilineformateffectivedata) का एक भाग के रूप में प्रयोग किया जाता है।
 
 
-### See Also
+### और देखें
 * क्लास [`ILineFormatEffectiveData`](/slides/python-net/hi/aspose.slides/ilineformateffectivedata)
 * मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
 * लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

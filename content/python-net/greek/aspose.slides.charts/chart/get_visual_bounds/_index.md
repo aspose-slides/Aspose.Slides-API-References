@@ -7,11 +7,12 @@ url: /el/aspose.slides.charts/chart/get_visual_bounds/
 weight: 50
 ---
 ## get_visual_bounds(self) {#}
-Λαμβάνει τα οπτικά όρια του σχήματος που υπολογίζονται από το αποδιδόμενο περιεχόμενού του.
+Gets the visual bounds of the shape calculated from its rendered content.
 
 ### Επιστρέφει
 
-Ένα **aspose.slides.RectangleF** που αντιπροσωπεύει τα οπτικά όρια του σχήματος σε συντεταγμένες διαφάνειας.
+A [`RectangleF`](/slides/python-net/el/aspose.slides/rectanglef) that represents the visual bounds of the shape
+             in slide coordinates.
 
 
 
@@ -21,27 +22,28 @@ def get_visual_bounds(self):
 ```
 
 
-### Σχόλια
+### Παρατηρήσεις
 
-Το επιστρεφόμενο ορθογώνιο αντιπροσωπεύει τα άξονα-ευθυγραμμισμένα όρια όλων του περιεχομένου
-που παράγεται από το σχήμα κατά τη διάρκεια της απόδοσης στο χώρο συντεταγμένων της διαφάνειας.
+The returned rectangle represents the axis-aligned bounds of all content
+produced by the shape during rendering in slide coordinate space.
 
-Αυτά τα όρια μπορεί να διαφέρουν από τα όρια μοντέλου του σχήματος
+These bounds may differ from the shape's model bounds
 ([`Shape.x`](/slides/python-net/el/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/el/aspose.slides/shape/y),
 [`Shape.width`](/slides/python-net/el/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/el/aspose.slides/shape/height))
-και μπορεί να περιέχουν αρνητικές συντεταγμένες εάν το αποδιδόμενο περιεχόμενο εκτείνεται
-πέρα από την αρχή της διαφάνειας.
+and may contain negative coordinates if the rendered content extends
+beyond the slide origin.
 
-Τα οπτικά όρια λαμβάνουν υπόψη πτυχές σχετικές με την απόδοση, όπως
-μετασχηματισμοί (για παράδειγμα, περιστροφή), πλάτος πινελιάς και σύνδεσμοι,
-διάταξη κειμένου και υπερχείλιση, γεωμετρία SmartArt, και άλλα εφέ διάταξης
-που επηρεάζουν την τελική αποδιδόμενη εμφάνιση του σχήματος.
+The visual bounds take into account rendering-related aspects such as
+transformations (for example, rotation), stroke width and joins,
+text layout and overflow, SmartArt geometry, and other layout effects
+that influence the final rendered appearance of the shape.
 
-Τα επιστρεφόμενα όρια δεν περικόπτονται στο ορθογώνιο της διαφάνειας.
+The returned bounds are not clipped to the slide rectangle.
 
 
 
 ### Δείτε επίσης
 * κλάση [`Chart`](/slides/python-net/el/aspose.slides.charts/chart)
+* κλάση [`RectangleF`](/slides/python-net/el/aspose.slides/rectanglef)
 * μονάδα [`aspose.slides.charts`](/slides/python-net/el/aspose.slides.charts)
 * βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

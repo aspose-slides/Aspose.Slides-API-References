@@ -6,8 +6,8 @@ type: docs
 url: /tr/aspose.slides.animation/motionpath/insert/
 weight: 40
 ---
-## insert(self, index, type, pts, pts_type, b_relative_coord) {#int-motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool}
-Yola yeni komut ekle
+## insert(self, index, type, pts, pts_type, b_relative_coord) {#int-motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool}
+Yola yeni bir komut ekle
 
 
 ```python
@@ -16,7 +16,7 @@ def insert(self, index, type, pts, pts_type, b_relative_coord):
 ```
 
 
-| Parametre | Tür | Açıklama |
+| Parametre | Tip | Açıklama |
 | :- | :- | :- |
 | index | **int** |  |
 | type | [`MotionCommandPathType`](/slides/python-net/tr/aspose.slides.animation/motioncommandpathtype) |  |

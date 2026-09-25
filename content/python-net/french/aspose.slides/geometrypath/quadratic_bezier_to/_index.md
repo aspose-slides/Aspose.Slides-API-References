@@ -6,7 +6,7 @@ type: docs
 url: /fr/aspose.slides/geometrypath/quadratic_bezier_to/
 weight: 70
 ---
-## quadratic_bezier_to(self, point1, point2) {#asposepydrawingpointf-asposepydrawingpointf}
+## quadratic_bezier_to(self, point1, point2) {#asposeslidespointf-asposeslidespointf}
 Ajoute une courbe de Bézier quadratique à la fin du chemin
 
 
@@ -18,12 +18,12 @@ def quadratic_bezier_to(self, point1, point2):
 
 | Paramètre | Type | Description |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | Point de direction |
-| point2 | **aspose.slides.PointF** | Point final |
+| point1 | [`PointF`](/slides/python-net/fr/aspose.slides/pointf) | Point de direction |
+| point2 | [`PointF`](/slides/python-net/fr/aspose.slides/pointf) | Point final |
 
 
-## quadratic_bezier_to(self, point1, point2, index) {#asposepydrawingpointf-asposepydrawingpointf-int}
-Ajoute une courbe de Bézier quadratique à l'endroit spécifié du chemin
+## quadratic_bezier_to(self, point1, point2, index) {#asposeslidespointf-asposeslidespointf-int}
+Ajoute une courbe de Bézier quadratique à l'emplacement spécifié du chemin
 
 
 ```python
@@ -34,8 +34,8 @@ def quadratic_bezier_to(self, point1, point2, index):
 
 | Paramètre | Type | Description |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | Point de direction |
-| point2 | **aspose.slides.PointF** | Point final |
+| point1 | [`PointF`](/slides/python-net/fr/aspose.slides/pointf) | Point de direction |
+| point2 | [`PointF`](/slides/python-net/fr/aspose.slides/pointf) | Point final |
 | index | **int** | Index du segment dans PathData |
 
 ### Exceptions
@@ -64,7 +64,7 @@ def quadratic_bezier_to(self, x1, y1, x2, y2):
 
 
 ## quadratic_bezier_to(self, x1, y1, x2, y2, index) {#float-float-float-float-int}
-Ajoute une courbe de Bézier quadratique à l'endroit spécifié du chemin
+Ajoute une courbe de Bézier quadratique à l'emplacement spécifié du chemin
 
 
 ```python
@@ -89,7 +89,8 @@ def quadratic_bezier_to(self, x1, y1, x2, y2, index):
 
 
 
-### Voir également
+### Voir aussi
 * classe [`GeometryPath`](/slides/python-net/fr/aspose.slides/geometrypath)
+* classe [`PointF`](/slides/python-net/fr/aspose.slides/pointf)
 * module [`aspose.slides`](/slides/python-net/fr/aspose.slides)
 * bibliothèque [`Aspose.Slides`](/slides/python-net)

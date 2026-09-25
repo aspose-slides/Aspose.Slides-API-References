@@ -6,12 +6,13 @@ type: docs
 url: /id/aspose.slides.animation/imotionpath/add/
 weight: 10
 ---
-## add(self, type, pts, pts_type, b_relative_coord) {#motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool}
+## add(self, type, pts, pts_type, b_relative_coord) {#motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool}
 Tambahkan perintah baru ke jalur
 
 ### Mengembalikan
 
-Command of a path [`IMotionCmdPath`](/slides/python-net/id/aspose.slides.animation/imotioncmdpath)
+Perintah jalur [`IMotionCmdPath`](/slides/python-net/id/aspose.slides.animation/imotioncmdpath)
+
 
 
 ```python
@@ -20,12 +21,13 @@ def add(self, type, pts, pts_type, b_relative_coord):
 ```
 
 
-| Parameter | Type | Description |
+| Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
-| type | [`MotionCommandPathType`](/slides/python-net/id/aspose.slides.animation/motioncommandpathtype) | Tipe perintah untuk perilaku efek gerakan animasi [`MotionCommandPathType`](/slides/python-net/id/aspose.slides.animation/motioncommandpathtype) |
-| pts | **List[aspose.slides.PointF]** | Array titik **aspose.slides.PointF**[] |
-| pts_type | [`MotionPathPointsType`](/slides/python-net/id/aspose.slides.animation/motionpathpointstype) | Tipe titik dalam jalur gerakan animasi [`MotionPathPointsType`](/slides/python-net/id/aspose.slides.animation/motionpathpointstype) |
-| b_relative_coord | **bool** | Menunjukkan apakah akan menggunakan koordinat relatif atau tidak **bool** |
+| type | [`MotionCommandPathType`](/slides/python-net/id/aspose.slides.animation/motioncommandpathtype) | Type of command for animation motion effect behavior [`MotionCommandPathType`](/slides/python-net/id/aspose.slides.animation/motioncommandpathtype) |
+| pts | **List[aspose.slides.PointF]** | Points array [`PointF`](/slides/python-net/id/aspose.slides/pointf)[] |
+| pts_type | [`MotionPathPointsType`](/slides/python-net/id/aspose.slides.animation/motionpathpointstype) | Type of points in animation motion path [`MotionPathPointsType`](/slides/python-net/id/aspose.slides.animation/motionpathpointstype) |
+| b_relative_coord | **bool** | Indicates whether to use relative coordinates or not **bool** |
+
 
 
 ### Lihat Juga
@@ -33,5 +35,6 @@ def add(self, type, pts, pts_type, b_relative_coord):
 * kelas [`IMotionPath`](/slides/python-net/id/aspose.slides.animation/imotionpath)
 * enumerasi [`MotionCommandPathType`](/slides/python-net/id/aspose.slides.animation/motioncommandpathtype)
 * enumerasi [`MotionPathPointsType`](/slides/python-net/id/aspose.slides.animation/motionpathpointstype)
+* kelas [`PointF`](/slides/python-net/id/aspose.slides/pointf)
 * modul [`aspose.slides.animation`](/slides/python-net/id/aspose.slides.animation)
 * perpustakaan [`Aspose.Slides`](/slides/python-net)

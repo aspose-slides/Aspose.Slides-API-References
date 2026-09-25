@@ -7,7 +7,7 @@ url: /fr/aspose.slides.theme/ithemeeffectivedata/
 ---
 ## IThemeEffectiveData classe
 
-Objet immuable qui contient les propriétés de thème effectives.
+Objet immuable qui contient les propriétés effectives du thème.
 
 Le type IThemeEffectiveData expose les membres suivants :
 
@@ -15,19 +15,19 @@ Le type IThemeEffectiveData expose les membres suivants :
 
 | Propriété | Description |
 | :- | :- |
-| [`font_scheme`](/slides/python-net/fr/aspose.slides.theme/ithemeeffectivedata/font_scheme/) | Renvoie le schéma de police.<br/>            Lecture seule [`IFontSchemeEffectiveData`](/slides/python-net/fr/aspose.slides.theme/ifontschemeeffectivedata). |
+| [`font_scheme`](/slides/python-net/fr/aspose.slides.theme/ithemeeffectivedata/font_scheme/) | Renvoie le schéma de polices.<br/>            Lecture seule [`IFontSchemeEffectiveData`](/slides/python-net/fr/aspose.slides.theme/ifontschemeeffectivedata). |
 | [`format_scheme`](/slides/python-net/fr/aspose.slides.theme/ithemeeffectivedata/format_scheme/) | Renvoie le schéma de format de forme.<br/>            Lecture seule [`IFormatSchemeEffectiveData`](/slides/python-net/fr/aspose.slides.theme/iformatschemeeffectivedata). |
 
 ## Méthodes
 
 | Méthode | Description |
 | :- | :- |
-| [`get_color_scheme(self, style_color)`](/slides/python-net/fr/aspose.slides.theme/ithemeeffectivedata/get_color_scheme/#asposepydrawingcolor) | Renvoie le schéma de couleur. |
+| [`get_color_scheme(self, style_color)`](/slides/python-net/fr/aspose.slides.theme/ithemeeffectivedata/get_color_scheme/#asposeslidescolor) | Renvoie le schéma de couleurs. |
 
 
 ### Remarques
 
-Cette interface est utilisée conjointement avec l'interface [`ITheme`](/slides/python-net/fr/aspose.slides.theme/itheme) pour renvoyer les valeurs de mise en forme effectives avec héritage appliqué.
+Cette interface est utilisée avec l'interface [`ITheme`](/slides/python-net/fr/aspose.slides.theme/itheme) pour renvoyer les valeurs de formatage effectives avec l'héritage appliqué.
 
 
 ### Voir aussi

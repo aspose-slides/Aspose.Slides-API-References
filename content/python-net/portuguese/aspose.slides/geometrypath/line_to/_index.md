@@ -6,50 +6,42 @@ type: docs
 url: /pt/aspose.slides/geometrypath/line_to/
 weight: 50
 ---
-## line_to(self, point) {#asposepydrawingpointf}
-Adiciona uma linha ao final do caminho
-
+## line_to(self, point) {#asposeslidespointf}
+Adiciona linha ao final do caminho
 
 ```python
 def line_to(self, point):
     ...
 ```
 
-
 | Parâmetro | Tipo | Descrição |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | Ponto final da linha |
-
+| point | [`PointF`](/slides/python-net/pt/aspose.slides/pointf) | Ponto final da linha |
 
 ## line_to(self, x, y) {#float-float}
-Adiciona uma linha ao final do caminho
-
+Adiciona linha ao final do caminho
 
 ```python
 def line_to(self, x, y):
     ...
 ```
 
-
 | Parâmetro | Tipo | Descrição |
 | :- | :- | :- |
 | x | **float** | Coordenada X do ponto final da linha |
 | y | **float** | Coordenada Y do ponto final da linha |
 
-
-## line_to(self, point, index) {#asposepydrawingpointf-int}
-Adiciona uma linha ao local especificado do caminho
-
+## line_to(self, point, index) {#asposeslidespointf-int}
+Adiciona linha ao local especificado do caminho
 
 ```python
 def line_to(self, point, index):
     ...
 ```
 
-
 | Parâmetro | Tipo | Descrição |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | Ponto final |
+| point | [`PointF`](/slides/python-net/pt/aspose.slides/pointf) | Ponto final |
 | index | **int** | Índice do segmento em PathData |
 
 ### Exceções
@@ -58,16 +50,13 @@ def line_to(self, point, index):
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | O índice do segmento está fora do intervalo de PathData |
 
-
 ## line_to(self, x, y, index) {#float-float-int}
-Adiciona uma linha ao local especificado do caminho
-
+Adiciona linha ao local especificado do caminho
 
 ```python
 def line_to(self, x, y, index):
     ...
 ```
-
 
 | Parâmetro | Tipo | Descrição |
 | :- | :- | :- |
@@ -81,9 +70,8 @@ def line_to(self, x, y, index):
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | O índice do segmento está fora do intervalo de PathData |
 
-
-
-### Veja Também
+### Ver também
 * classe [`GeometryPath`](/slides/python-net/pt/aspose.slides/geometrypath)
+* classe [`PointF`](/slides/python-net/pt/aspose.slides/pointf)
 * módulo [`aspose.slides`](/slides/python-net/pt/aspose.slides)
-* biblioteca [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

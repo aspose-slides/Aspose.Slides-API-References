@@ -8,7 +8,7 @@ weight: 100
 ---
 ## rectangle vlastnost
 Vrací souřadnice rámce.
-            Pouze ke čtení **aspose.slides.RectangleF**.
+            Pouze pro čtení [`RectangleF`](/slides/python-net/cs/aspose.slides/rectanglef).
 
 ### Definice:
 ```python
@@ -17,8 +17,8 @@ def rectangle(self):
     ...
 ```
 
-
 ### Viz také
 * třída [`ShapeFrame`](/slides/python-net/cs/aspose.slides/shapeframe)
+* třída [`RectangleF`](/slides/python-net/cs/aspose.slides/rectanglef)
 * modul [`aspose.slides`](/slides/python-net/cs/aspose.slides)
 * knihovna [`Aspose.Slides`](/slides/python-net)

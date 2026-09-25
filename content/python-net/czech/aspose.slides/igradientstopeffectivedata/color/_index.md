@@ -6,9 +6,9 @@ type: docs
 url: /cs/aspose.slides/igradientstopeffectivedata/color/
 weight: 10
 ---
-## color vlastnost
-Vrací barvu gradientového stopu.
-            Pouze ke čtení **aspose.slides.Color**.
+## vlastnost barvy
+Vrací barvu gradientového zastavení.
+Pouze ke čtení [`Color`](/slides/python-net/cs/aspose.slides/color).
 
 ### Definice:
 ```python
@@ -20,5 +20,6 @@ def color(self):
 
 ### Viz také
 * třída [`IGradientStopEffectiveData`](/slides/python-net/cs/aspose.slides/igradientstopeffectivedata)
+* třída [`Color`](/slides/python-net/cs/aspose.slides/color)
 * modul [`aspose.slides`](/slides/python-net/cs/aspose.slides)
 * knihovna [`Aspose.Slides`](/slides/python-net)

@@ -7,8 +7,8 @@ url: /vi/aspose.slides.animation/motioncmdpath/points/
 weight: 30
 ---
 ## points thuộc tính
-Chỉ định points của lệnh.
-            Đọc/ghi **aspose.slides.PointF**[].
+Xác định points của lệnh.
+            Đọc/ghi [`PointF`](/slides/python-net/vi/aspose.slides/pointf)[].
 
 ### Định nghĩa:
 ```python
@@ -22,7 +22,8 @@ def points(self, value):
 ```
 
 
-### Xem thêm
+### Xem Thêm
 * lớp [`MotionCmdPath`](/slides/python-net/vi/aspose.slides.animation/motioncmdpath)
-* mô-đun [`aspose.slides.animation`](/slides/python-net/vi/aspose.slides.animation)
+* lớp [`PointF`](/slides/python-net/vi/aspose.slides/pointf)
+* module [`aspose.slides.animation`](/slides/python-net/vi/aspose.slides.animation)
 * thư viện [`Aspose.Slides`](/slides/python-net)

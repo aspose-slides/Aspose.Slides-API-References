@@ -1,14 +1,14 @@
 ---
 title: to_color property
-second_title: Tham chiếu API Aspose.Slides cho Python thông qua .NET
+second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides.effects/icolorchangeeffectivedata/to_color/
 weight: 30
 ---
 ## to_color thuộc tính
-Màu sẽ được thay thế.
-            Chỉ đọc **aspose.slides.Color**.
+Màu sẽ thay thế.
+            Chỉ đọc [`Color`](/slides/python-net/vi/aspose.slides/color).
 
 ### Định nghĩa:
 ```python
@@ -18,7 +18,8 @@ def to_color(self):
 ```
 
 
-### Xem thêm
+### Xem Thêm
 * lớp [`IColorChangeEffectiveData`](/slides/python-net/vi/aspose.slides.effects/icolorchangeeffectivedata)
+* lớp [`Color`](/slides/python-net/vi/aspose.slides/color)
 * module [`aspose.slides.effects`](/slides/python-net/vi/aspose.slides.effects)
 * thư viện [`Aspose.Slides`](/slides/python-net)

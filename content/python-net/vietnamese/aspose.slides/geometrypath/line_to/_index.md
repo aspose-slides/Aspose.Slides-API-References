@@ -6,8 +6,8 @@ type: docs
 url: /vi/aspose.slides/geometrypath/line_to/
 weight: 50
 ---
-## line_to(self, point) {#asposepydrawingpointf}
-Thêm đường thẳng vào cuối đường dẫn
+## line_to(self, point) {#asposeslidespointf}
+Thêm đoạn thẳng vào cuối đường dẫn
 
 
 ```python
@@ -18,11 +18,11 @@ def line_to(self, point):
 
 | Tham số | Kiểu | Mô tả |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | Điểm cuối của đường thẳng |
+| point | [`PointF`](/slides/python-net/vi/aspose.slides/pointf) | Điểm cuối của đoạn thẳng |
 
 
 ## line_to(self, x, y) {#float-float}
-Thêm đường thẳng vào cuối đường dẫn
+Thêm đoạn thẳng vào cuối đường dẫn
 
 
 ```python
@@ -33,12 +33,12 @@ def line_to(self, x, y):
 
 | Tham số | Kiểu | Mô tả |
 | :- | :- | :- |
-| x | **float** | Tọa độ X của điểm cuối của đường thẳng |
-| y | **float** | Tọa độ Y của điểm cuối của đường thẳng |
+| x | **float** | Tọa độ X của điểm cuối của đoạn thẳng |
+| y | **float** | Tọa độ Y của điểm cuối của đoạn thẳng |
 
 
-## line_to(self, point, index) {#asposepydrawingpointf-int}
-Thêm đường thẳng vào vị trí chỉ định của đường dẫn
+## line_to(self, point, index) {#asposeslidespointf-int}
+Thêm đoạn thẳng vào vị trí được chỉ định trong đường dẫn
 
 
 ```python
@@ -49,18 +49,18 @@ def line_to(self, point, index):
 
 | Tham số | Kiểu | Mô tả |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | Điểm cuối |
+| point | [`PointF`](/slides/python-net/vi/aspose.slides/pointf) | Điểm cuối |
 | index | **int** | Chỉ mục của đoạn trong PathData |
 
 ### Ngoại lệ
 
 | Ngoại lệ | Mô tả |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Chỉ mục đoạn vượt quá phạm vi PathData |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Chỉ mục đoạn nằm ngoài phạm vi PathData |
 
 
 ## line_to(self, x, y, index) {#float-float-int}
-Thêm đường thẳng vào vị trí chỉ định của đường dẫn
+Thêm đoạn thẳng vào vị trí được chỉ định trong đường dẫn
 
 
 ```python
@@ -79,11 +79,12 @@ def line_to(self, x, y, index):
 
 | Ngoại lệ | Mô tả |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Chỉ mục đoạn vượt quá phạm vi PathData |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Chỉ mục đoạn nằm ngoài phạm vi PathData |
 
 
 
 ### Xem thêm
 * lớp [`GeometryPath`](/slides/python-net/vi/aspose.slides/geometrypath)
+* lớp [`PointF`](/slides/python-net/vi/aspose.slides/pointf)
 * mô-đun [`aspose.slides`](/slides/python-net/vi/aspose.slides)
 * thư viện [`Aspose.Slides`](/slides/python-net)

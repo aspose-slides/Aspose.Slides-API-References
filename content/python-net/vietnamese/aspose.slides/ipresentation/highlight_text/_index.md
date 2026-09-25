@@ -1,49 +1,43 @@
 ---
 title: highlight_text method
-second_title: Aspose.Slides cho Python qua .NET Tham chiếu API
+second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides/ipresentation/highlight_text/
 weight: 40
 ---
-## highlight_text(self, text, highlight_color) {#str-asposepydrawingcolor}
-Đánh dấu tất cả các phần khớp của văn bản mẫu bằng màu được chỉ định.
-
+## highlight_text(self, text, highlight_color) {#str-asposeslidescolor}
+Làm nổi bật tất cả các kết quả khớp với văn bản mẫu bằng màu đã chỉ định.
 
 ```python
 def highlight_text(self, text, highlight_color):
     ...
 ```
 
-
-| Tham số | Kiểu | Mô tả |
+| Parameter | Type | Description |
 | :- | :- | :- |
-| text | **str** | Văn bản cần đánh dấu. |
-| highlight_color | **aspose.slides.Color** | Màu dùng để đánh dấu văn bản. |
+| text | **str** | Văn bản cần làm nổi bật. |
+| highlight_color | [`Color`](/slides/python-net/vi/aspose.slides/color) | Màu để làm nổi bật văn bản. |
 
-
-## highlight_text(self, text, highlight_color, options, callback) {#str-asposepydrawingcolor-itextsearchoptions-ifindresultcallback}
-Đánh dấu tất cả các phần khớp của văn bản mẫu bằng màu được chỉ định.
-
+## highlight_text(self, text, highlight_color, options, callback) {#str-asposeslidescolor-itextsearchoptions-ifindresultcallback}
+Làm nổi bật tất cả các kết quả khớp với văn bản mẫu bằng màu đã chỉ định.
 
 ```python
 def highlight_text(self, text, highlight_color, options, callback):
     ...
 ```
 
-
-| Tham số | Kiểu | Mô tả |
+| Parameter | Type | Description |
 | :- | :- | :- |
-| text | **str** | Văn bản cần đánh dấu. |
-| highlight_color | **aspose.slides.Color** | Màu dùng để đánh dấu văn bản. |
+| text | **str** | Văn bản cần làm nổi bật. |
+| highlight_color | [`Color`](/slides/python-net/vi/aspose.slides/color) | Màu để làm nổi bật văn bản. |
 | options | [`ITextSearchOptions`](/slides/python-net/vi/aspose.slides/itextsearchoptions) | Các tùy chọn tìm kiếm văn bản [`ITextSearchOptions`](/slides/python-net/vi/aspose.slides/itextsearchoptions). |
 | callback | [`IFindResultCallback`](/slides/python-net/vi/aspose.slides/ifindresultcallback) | Đối tượng callback để nhận kết quả tìm kiếm [`IFindResultCallback`](/slides/python-net/vi/aspose.slides/ifindresultcallback). |
 
-
-
-### Xem thêm
+### Xem Thêm
 * lớp [`IFindResultCallback`](/slides/python-net/vi/aspose.slides/ifindresultcallback)
 * lớp [`IPresentation`](/slides/python-net/vi/aspose.slides/ipresentation)
 * lớp [`ITextSearchOptions`](/slides/python-net/vi/aspose.slides/itextsearchoptions)
-* mô-đun [`aspose.slides`](/slides/python-net/vi/aspose.slides)
+* lớp [`Color`](/slides/python-net/vi/aspose.slides/color)
+* module [`aspose.slides`](/slides/python-net/vi/aspose.slides)
 * thư viện [`Aspose.Slides`](/slides/python-net)

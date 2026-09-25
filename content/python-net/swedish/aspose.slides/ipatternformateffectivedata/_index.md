@@ -7,31 +7,29 @@ url: /sv/aspose.slides/ipatternformateffectivedata/
 ---
 ## IPatternFormatEffectiveData klass
 
-Oföränderligt objekt som innehåller effektiva mönsterutfyllningsegenskaper.
+Oföränderligt objekt som innehåller effektiva mönsterfyllningsegenskaper.
 
-IPatternFormatEffectiveData-typen visar följande medlemmar:
+IPatternFormatEffectiveData typ exponerar följande medlemmar:
 
 ## Egenskaper
 
 | Egenskap | Beskrivning |
 | :- | :- |
 | [`pattern_style`](/slides/python-net/sv/aspose.slides/ipatternformateffectivedata/pattern_style/) | Returnerar mönsterstilen.<br/>            Skrivskyddad [`PatternStyle`](/slides/python-net/sv/aspose.slides/patternstyle). |
-| [`fore_color`](/slides/python-net/sv/aspose.slides/ipatternformateffectivedata/fore_color/) | Returnerar förgrundens mönsterfärg.<br/>            Skrivskyddad **aspose.slides.Color**. |
-| [`back_color`](/slides/python-net/sv/aspose.slides/ipatternformateffectivedata/back_color/) | Returnerar bakgrundens mönsterfärg.<br/>            Skrivskyddad **aspose.slides.Color**. |
+| [`fore_color`](/slides/python-net/sv/aspose.slides/ipatternformateffectivedata/fore_color/) | Returnerar förgrundens mönsterfärg.<br/>            Skrivskyddad [`Color`](/slides/python-net/sv/aspose.slides/color). |
+| [`back_color`](/slides/python-net/sv/aspose.slides/ipatternformateffectivedata/back_color/) | Returnerar bakgrundens mönsterfärg.<br/>            Skrivskyddad [`Color`](/slides/python-net/sv/aspose.slides/color). |
 
 ## Metoder
 
 | Metod | Beskrivning |
 | :- | :- |
-| [`get_tile_i_image(self, background, foreground)`](/slides/python-net/sv/aspose.slides/ipatternformateffectivedata/get_tile_i_image/#asposepydrawingcolor-asposepydrawingcolor) | Skapar en kakelbild för mönsterfyllning med angivna färger. |
-
+| [`get_tile_i_image(self, background, foreground)`](/slides/python-net/sv/aspose.slides/ipatternformateffectivedata/get_tile_i_image/#asposeslidescolor-asposeslidescolor) | Skapar en kakelbild för mönsterfyllning med angivna färger. |
 
 ### Anmärkningar
 
 Detta gränssnitt används som en del av [`IFillFormatEffectiveData`](/slides/python-net/sv/aspose.slides/ifillformateffectivedata) och [`ILineFillFormatEffectiveData`](/slides/python-net/sv/aspose.slides/ilinefillformateffectivedata).
 
-
-### Se också
+### Se även
 * klass [`IFillFormatEffectiveData`](/slides/python-net/sv/aspose.slides/ifillformateffectivedata)
 * klass [`ILineFillFormatEffectiveData`](/slides/python-net/sv/aspose.slides/ilinefillformateffectivedata)
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)

@@ -7,8 +7,8 @@ url: /hi/aspose.slides.animation/motioneffect/from_address/
 weight: 70
 ---
 ## from_address प्रॉपर्टी
-Specifies an x/y co-ordinate to start the animation from (in percents). 
-            पढ़ें/लिखें **aspose.slides.PointF**.
+एनिमेशन को शुरू करने के लिए x/y निर्देशांक निर्दिष्ट करता है (प्रतिशत में)। 
+            पढ़ें/लिखें [`PointF`](/slides/python-net/hi/aspose.slides/pointf).
 
 ### परिभाषा:
 ```python
@@ -22,7 +22,8 @@ def from_address(self, value):
 ```
 
 
-### देखें
+### संबंधित देखें
 * क्लास [`MotionEffect`](/slides/python-net/hi/aspose.slides.animation/motioneffect)
+* क्लास [`PointF`](/slides/python-net/hi/aspose.slides/pointf)
 * मॉड्यूल [`aspose.slides.animation`](/slides/python-net/hi/aspose.slides.animation)
-* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)
+* पुस्तकालय [`Aspose.Slides`](/slides/python-net)

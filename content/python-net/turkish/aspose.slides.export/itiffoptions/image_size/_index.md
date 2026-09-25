@@ -8,8 +8,8 @@ weight: 80
 ---
 ## image_size özelliği
 Oluşturulan TIFF görüntüsünün boyutunu belirtir.
-            Varsayılan değer 0x0'dır, bu da oluşturulan görüntü boyutlarının sunum slaytının boyutuna göre hesaplanacağı anlamına gelir.
-            Okuma/Yazma **aspose.slides.Size**.
+            Varsayılan değer 0x0'dır, bu, oluşturulan görüntü boyutlarının sunum slaytı boyutu değerine göre hesaplanacağı anlamına gelir.
+            Okunur/yazılır [`Size`](/slides/python-net/tr/aspose.slides/size).
 
 ### Tanım:
 ```python
@@ -23,7 +23,8 @@ def image_size(self, value):
 ```
 
 
-### Ayrıca Bakınız
+### Bakınız
 * sınıf [`ITiffOptions`](/slides/python-net/tr/aspose.slides.export/itiffoptions)
+* sınıf [`Size`](/slides/python-net/tr/aspose.slides/size)
 * modül [`aspose.slides.export`](/slides/python-net/tr/aspose.slides.export)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

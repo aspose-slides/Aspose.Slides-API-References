@@ -8,7 +8,7 @@ weight: 20
 ---
 ## back_color 属性
 返回背景图案颜色。
-            只读 **aspose.slides.Color**。
+            只读 [`Color`](/slides/python-net/zh/aspose.slides/color).
 
 ### 定义:
 ```python
@@ -20,5 +20,6 @@ def back_color(self):
 
 ### 另见
 * 类 [`IPatternFormatEffectiveData`](/slides/python-net/zh/aspose.slides/ipatternformateffectivedata)
+* 类 [`Color`](/slides/python-net/zh/aspose.slides/color)
 * 模块 [`aspose.slides`](/slides/python-net/zh/aspose.slides)
 * 库 [`Aspose.Slides`](/slides/python-net)

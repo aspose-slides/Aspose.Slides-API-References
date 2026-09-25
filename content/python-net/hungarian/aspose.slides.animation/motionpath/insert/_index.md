@@ -1,13 +1,13 @@
 ---
 title: insert method
-second_title: Aspose.Slides a Pythonhoz .NET API hivatkozása
+second_title: Aspose.Slides Pythonhoz .NET API-referencia
 description: 
 type: docs
 url: /hu/aspose.slides.animation/motionpath/insert/
 weight: 40
 ---
-## insert(self, index, type, pts, pts_type, b_relative_coord) {#int-motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool}
-Új parancs beszúrása az útvonalba
+## insert(self, index, type, pts, pts_type, b_relative_coord) {#int-motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool}
+Új parancs beszúrása az úthoz
 
 
 ```python
@@ -27,8 +27,8 @@ def insert(self, index, type, pts, pts_type, b_relative_coord):
 
 
 ### Lásd még
-* felsorolás [`MotionCommandPathType`](/slides/python-net/hu/aspose.slides.animation/motioncommandpathtype)
+* enumeráció [`MotionCommandPathType`](/slides/python-net/hu/aspose.slides.animation/motioncommandpathtype)
 * osztály [`MotionPath`](/slides/python-net/hu/aspose.slides.animation/motionpath)
-* felsorolás [`MotionPathPointsType`](/slides/python-net/hu/aspose.slides.animation/motionpathpointstype)
+* enumeráció [`MotionPathPointsType`](/slides/python-net/hu/aspose.slides.animation/motionpathpointstype)
 * modul [`aspose.slides.animation`](/slides/python-net/hu/aspose.slides.animation)
 * könyvtár [`Aspose.Slides`](/slides/python-net)

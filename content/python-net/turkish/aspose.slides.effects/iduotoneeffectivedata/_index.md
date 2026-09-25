@@ -5,19 +5,19 @@ description:
 type: docs
 url: /tr/aspose.slides.effects/iduotoneeffectivedata/
 ---
-## IDuotoneEffectiveData sınıfı
+## IDuotoneEffectiveData sınıf
 
-İkili ton etkisini temsil eden değiştirilemez bir nesne.  
-Her piksel için, clr1 ve clr2'yi doğrusal bir interpolasyonla birleştirerek o pikselin yeni rengini belirler.
+Değiştirilemez nesne, Duotone etkisini temsil eder.  
+Her piksel için, clr1 ve clr2'yi doğrusal bir enterpolasyonla birleştirerek o pikselin yeni rengini belirler.
 
-IDuotoneEffectiveData türü aşağıdaki üyeleri sağlar:
+IDuotoneEffectiveData türü aşağıdaki üyeleri sunar:
 
 ## Özellikler
 
 | Özellik | Açıklama |
 | :- | :- |
-| [`color1`](/slides/python-net/tr/aspose.slides.effects/iduotoneeffectivedata/color1/) | Koyu pikseller için hedef renk formatını döndürür.<br/>            Salt okunur **aspose.slides.Color**. |
-| [`color2`](/slides/python-net/tr/aspose.slides.effects/iduotoneeffectivedata/color2/) | Açık pikseller için hedef renk formatını döndürür.<br/>            Salt okunur **aspose.slides.Color**. |
+| [`color1`](/slides/python-net/tr/aspose.slides.effects/iduotoneeffectivedata/color1/) | Koyu pikseller için hedef renk formatını döndürür.<br/>            Salt-okunur [`Color`](/slides/python-net/tr/aspose.slides/color). |
+| [`color2`](/slides/python-net/tr/aspose.slides.effects/iduotoneeffectivedata/color2/) | Açık pikseller için hedef renk formatını döndürür.<br/>            Salt-okunur [`Color`](/slides/python-net/tr/aspose.slides/color). |
 
 
 ### Ayrıca Bakınız

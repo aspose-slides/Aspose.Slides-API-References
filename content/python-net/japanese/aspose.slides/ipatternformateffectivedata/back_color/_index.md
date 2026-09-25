@@ -7,8 +7,8 @@ url: /ja/aspose.slides/ipatternformateffectivedata/back_color/
 weight: 20
 ---
 ## back_color プロパティ
-背景パターンの色を返します。
-            読み取り専用 **aspose.slides.Color**.
+Returns the background pattern color.
+            読み取り専用 [`Color`](/slides/python-net/ja/aspose.slides/color).
 
 ### 定義:
 ```python
@@ -20,5 +20,6 @@ def back_color(self):
 
 ### 参照
 * クラス [`IPatternFormatEffectiveData`](/slides/python-net/ja/aspose.slides/ipatternformateffectivedata)
+* クラス [`Color`](/slides/python-net/ja/aspose.slides/color)
 * モジュール [`aspose.slides`](/slides/python-net/ja/aspose.slides)
 * ライブラリ [`Aspose.Slides`](/slides/python-net)

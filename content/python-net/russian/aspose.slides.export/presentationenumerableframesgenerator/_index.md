@@ -1,6 +1,6 @@
 ---
 title: PresentationEnumerableFramesGenerator class
-second_title: Aspose.Slides для Python через .NET API
+second_title: Aspose.Slides для Python через .NET API Справочник
 description: 
 type: docs
 url: /ru/aspose.slides.export/presentationenumerableframesgenerator/
@@ -15,17 +15,17 @@ url: /ru/aspose.slides.export/presentationenumerableframesgenerator/
 
 | Конструктор | Описание |
 | :- | :- |
-| [`__init__(self, presentation, fps)`](/slides/python-net/ru/aspose.slides.export/presentationenumerableframesgenerator/__init__/#presentation-float) | Создает новый экземпляр [`PresentationPlayer`](/slides/python-net/ru/aspose.slides.export/presentationplayer). |
-| [`__init__(self, frame_size, fps)`](/slides/python-net/ru/aspose.slides.export/presentationenumerableframesgenerator/__init__/#asposepydrawingsize-float) | Создает новый экземпляр [`PresentationPlayer`](/slides/python-net/ru/aspose.slides.export/presentationplayer). |
+| [`__init__(self, presentation, fps)`](/slides/python-net/ru/aspose.slides.export/presentationenumerableframesgenerator/__init__/#presentation-float) | Создаёт новый экземпляр [`PresentationPlayer`](/slides/python-net/ru/aspose.slides.export/presentationplayer). |
+| [`__init__(self, frame_size, fps)`](/slides/python-net/ru/aspose.slides.export/presentationenumerableframesgenerator/__init__/#asposeslidessize-float) | Создаёт новый экземпляр [`PresentationPlayer`](/slides/python-net/ru/aspose.slides.export/presentationplayer). |
 
 ## Свойства
 
 | Свойство | Описание |
 | :- | :- |
-| [`frame_index`](/slides/python-net/ru/aspose.slides.export/presentationenumerableframesgenerator/frame_index/) | Получает индекс кадра. |
-| [`default_delay`](/slides/python-net/ru/aspose.slides.export/presentationenumerableframesgenerator/default_delay/) | Получает или задает время задержки по умолчанию [ms]. |
-| [`include_hidden_slides`](/slides/python-net/ru/aspose.slides.export/presentationenumerableframesgenerator/include_hidden_slides/) | Получает или задает, следует ли включать скрытые слайды. |
-| [`exported_slides`](/slides/python-net/ru/aspose.slides.export/presentationenumerableframesgenerator/exported_slides/) | Получает количество экспортированных слайдов. |
+| [`frame_index`](/slides/python-net/ru/aspose.slides.export/presentationenumerableframesgenerator/frame_index/) | Возвращает индекс кадра. |
+| [`default_delay`](/slides/python-net/ru/aspose.slides.export/presentationenumerableframesgenerator/default_delay/) | Получает или задаёт время задержки по умолчанию [мс]. |
+| [`include_hidden_slides`](/slides/python-net/ru/aspose.slides.export/presentationenumerableframesgenerator/include_hidden_slides/) | Получает или задаёт, следует ли включать скрытые слайды. |
+| [`exported_slides`](/slides/python-net/ru/aspose.slides.export/presentationenumerableframesgenerator/exported_slides/) | Возвращает количество экспортированных слайдов. |
 
 ## Методы
 

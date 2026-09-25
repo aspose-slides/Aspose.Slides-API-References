@@ -16,8 +16,9 @@ Il tipo DrawingGuide espone i seguenti membri:
 | Proprietà | Descrizione |
 | :- | :- |
 | [`orientation`](/slides/python-net/it/aspose.slides/drawingguide/orientation/) | Restituisce o imposta l'orientamento della guida di disegno.<br/>            Lettura/Scrittura [`Orientation`](/slides/python-net/it/aspose.slides/orientation). |
-| [`position`](/slides/python-net/it/aspose.slides/drawingguide/position/) | Restituisce o imposta la posizione della guida di disegno in punti dal canto in alto a sinistra della diapositiva.<br/>            Lettura/Scrittura **float**. |
-| [`color`](/slides/python-net/it/aspose.slides/drawingguide/color/) | Restituisce o imposta il colore della guida di disegno.<br/>            Lettura/Scrittura **aspose.slides.Color**. |
+| [`position`](/slides/python-net/it/aspose.slides/drawingguide/position/) | Restituisce o imposta la posizione della guida di disegno in punti dall'angolo superiore sinistro della diapositiva.<br/>            Lettura/Scrittura **float**. |
+| [`color`](/slides/python-net/it/aspose.slides/drawingguide/color/) | Restituisce o imposta il colore della guida di disegno.<br/>            Lettura/Scrittura [`Color`](/slides/python-net/it/aspose.slides/color). |
+
 
 ### Vedi anche
 * modulo [`aspose.slides`](/slides/python-net/it/aspose.slides)

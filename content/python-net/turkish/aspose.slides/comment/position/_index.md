@@ -7,8 +7,8 @@ url: /tr/aspose.slides/comment/position/
 weight: 50
 ---
 ## position özelliği
-Bir slayttaki yorumun position değerini döndürür veya ayarlar.
-            Okunur/yazılır **aspose.slides.PointF**.
+Returns or sets the position of a comment on a slide.
+            Okunur/yazılır [`PointF`](/slides/python-net/tr/aspose.slides/pointf).
 
 ### Tanım:
 ```python
@@ -24,5 +24,6 @@ def position(self, value):
 
 ### Ayrıca Bakınız
 * sınıf [`Comment`](/slides/python-net/tr/aspose.slides/comment)
+* sınıf [`PointF`](/slides/python-net/tr/aspose.slides/pointf)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

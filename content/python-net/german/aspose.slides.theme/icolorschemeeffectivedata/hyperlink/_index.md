@@ -8,7 +8,7 @@ weight: 100
 ---
 ## Hyperlink-Eigenschaft
 Farbe für die Hyperlinks.
-            Nur lesbar **aspose.slides.Color**.
+            Schreibgeschützt [`Color`](/slides/python-net/de/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def hyperlink(self):
 
 ### Siehe auch
 * Klasse [`IColorSchemeEffectiveData`](/slides/python-net/de/aspose.slides.theme/icolorschemeeffectivedata)
+* Klasse [`Color`](/slides/python-net/de/aspose.slides/color)
 * Modul [`aspose.slides.theme`](/slides/python-net/de/aspose.slides.theme)
 * Bibliothek [`Aspose.Slides`](/slides/python-net)

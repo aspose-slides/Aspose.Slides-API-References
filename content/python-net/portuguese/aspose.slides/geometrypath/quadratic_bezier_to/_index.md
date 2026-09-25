@@ -1,13 +1,13 @@
 ---
 title: quadratic_bezier_to method
-second_title: Referência da API Aspose.Slides para Python via .NET
+second_title: Aspose.Slides para Python via .NET - Referência da API
 description: 
 type: docs
 url: /pt/aspose.slides/geometrypath/quadratic_bezier_to/
 weight: 70
 ---
-## quadratic_bezier_to(self, point1, point2) {#asposepydrawingpointf-asposepydrawingpointf}
-Adiciona curva quadrática de Bézier ao final do caminho
+## quadratic_bezier_to(self, point1, point2) {#asposeslidespointf-asposeslidespointf}
+Adiciona curva quadrática de Bezier ao final do caminho
 
 
 ```python
@@ -18,12 +18,12 @@ def quadratic_bezier_to(self, point1, point2):
 
 | Parâmetro | Tipo | Descrição |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | Ponto de direção |
-| point2 | **aspose.slides.PointF** | Ponto final |
+| point1 | [`PointF`](/slides/python-net/pt/aspose.slides/pointf) | Ponto de direção |
+| point2 | [`PointF`](/slides/python-net/pt/aspose.slides/pointf) | Ponto final |
 
 
-## quadratic_bezier_to(self, point1, point2, index) {#asposepydrawingpointf-asposepydrawingpointf-int}
-Adiciona curva quadrática de Bézier ao local especificado do caminho
+## quadratic_bezier_to(self, point1, point2, index) {#asposeslidespointf-asposeslidespointf-int}
+Adiciona curva quadrática de Bezier ao local especificado do caminho
 
 
 ```python
@@ -34,8 +34,8 @@ def quadratic_bezier_to(self, point1, point2, index):
 
 | Parâmetro | Tipo | Descrição |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | Ponto de direção |
-| point2 | **aspose.slides.PointF** | Ponto final |
+| point1 | [`PointF`](/slides/python-net/pt/aspose.slides/pointf) | Ponto de direção |
+| point2 | [`PointF`](/slides/python-net/pt/aspose.slides/pointf) | Ponto final |
 | index | **int** | Índice do segmento em PathData |
 
 ### Exceções
@@ -46,7 +46,7 @@ def quadratic_bezier_to(self, point1, point2, index):
 
 
 ## quadratic_bezier_to(self, x1, y1, x2, y2) {#float-float-float-float}
-Adiciona curva quadrática de Bézier ao final do caminho
+Adiciona curva quadrática de Bezier ao final do caminho
 
 
 ```python
@@ -64,7 +64,7 @@ def quadratic_bezier_to(self, x1, y1, x2, y2):
 
 
 ## quadratic_bezier_to(self, x1, y1, x2, y2, index) {#float-float-float-float-int}
-Adiciona curva quadrática de Bézier ao local especificado do caminho
+Adiciona curva quadrática de Bezier ao local especificado do caminho
 
 
 ```python
@@ -91,5 +91,6 @@ def quadratic_bezier_to(self, x1, y1, x2, y2, index):
 
 ### Veja Também
 * classe [`GeometryPath`](/slides/python-net/pt/aspose.slides/geometrypath)
+* classe [`PointF`](/slides/python-net/pt/aspose.slides/pointf)
 * módulo [`aspose.slides`](/slides/python-net/pt/aspose.slides)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

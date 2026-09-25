@@ -7,8 +7,8 @@ url: /th/aspose.slides.animation/motioneffect/from_address/
 weight: 70
 ---
 ## from_address คุณสมบัติ
-Specifies an x/y co-ordinate to start the animation from (in percents). 
-            อ่าน/เขียน **aspose.slides.PointF**.
+ระบุพิกัด x/y เพื่อเริ่มแอนิเมชันจาก (เป็นเปอร์เซ็นต์). 
+            อ่าน/เขียน [`PointF`](/slides/python-net/th/aspose.slides/pointf).
 
 ### คำนิยาม:
 ```python
@@ -24,5 +24,6 @@ def from_address(self, value):
 
 ### ดูเพิ่มเติม
 * คลาส [`MotionEffect`](/slides/python-net/th/aspose.slides.animation/motioneffect)
+* คลาส [`PointF`](/slides/python-net/th/aspose.slides/pointf)
 * โมดูล [`aspose.slides.animation`](/slides/python-net/th/aspose.slides.animation)
 * ไลบรารี [`Aspose.Slides`](/slides/python-net)

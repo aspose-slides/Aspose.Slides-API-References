@@ -8,7 +8,7 @@ weight: 60
 ---
 ## solid_fill_color propriedade
 Retorna a cor de um preenchimento sólido.
-            Somente leitura **aspose.slides.Color**.
+            Somente leitura [`Color`](/slides/python-net/pt/aspose.slides/color).
 
 ### Definição:
 ```python
@@ -20,5 +20,6 @@ def solid_fill_color(self):
 
 ### Veja Também
 * classe [`ILineFillFormatEffectiveData`](/slides/python-net/pt/aspose.slides/ilinefillformateffectivedata)
+* classe [`Color`](/slides/python-net/pt/aspose.slides/color)
 * módulo [`aspose.slides`](/slides/python-net/pt/aspose.slides)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

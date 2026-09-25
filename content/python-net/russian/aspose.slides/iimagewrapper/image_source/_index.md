@@ -1,6 +1,6 @@
 ---
 title: image_source property
-second_title: Aspose.Slides для Python через .NET справочник API
+second_title: Aspose.Slides для Python через .NET API Reference
 description: 
 type: docs
 url: /ru/aspose.slides/iimagewrapper/image_source/
@@ -8,7 +8,7 @@ weight: 30
 ---
 ## image_source свойство
 Получает изображение
-            Только для чтения **aspose.slides.Image**.
+            Только для чтения **aspose.slides.IImage**.
 
 ### Определение:
 ```python
@@ -18,7 +18,7 @@ def image_source(self):
 ```
 
 
-### Смотрите также
+### См. также
 * класс [`IImageWrapper`](/slides/python-net/ru/aspose.slides/iimagewrapper)
 * модуль [`aspose.slides`](/slides/python-net/ru/aspose.slides)
 * библиотека [`Aspose.Slides`](/slides/python-net)

@@ -7,8 +7,8 @@ url: /fa/aspose.slides.animation/imotioneffect/to/
 weight: 130
 ---
 ## به خصوصیت
-موقعیت هدف برای اثر حرکتی انیمیشن (به درصد) را مشخص می‌کند.
-            خواندنی/نوشتنی **aspose.slides.PointF**.
+موقعیت هدف یک اثر حرکت انیمیشن را (به درصد) مشخص می‌کند.
+            خواندنی/قابل نوشتن [`PointF`](/slides/python-net/fa/aspose.slides/pointf).
 
 ### تعریف:
 ```python
@@ -21,7 +21,9 @@ def to(self, value):
     ...
 ```
 
+
 ### موارد مرتبط
 * کلاس [`IMotionEffect`](/slides/python-net/fa/aspose.slides.animation/imotioneffect)
+* کلاس [`PointF`](/slides/python-net/fa/aspose.slides/pointf)
 * ماژول [`aspose.slides.animation`](/slides/python-net/fa/aspose.slides.animation)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

@@ -6,7 +6,7 @@ type: docs
 url: /el/aspose.slides.theme/iformatschemeeffectivedata/get_effect_styles/
 weight: 20
 ---
-## get_effect_styles(self, style_color) {#asposepydrawingcolor}
+## get_effect_styles(self, style_color) {#asposeslidescolor}
 Επιστρέφει μια συλλογή από στυλ εφέ που ορίζονται από το θέμα.
 
 ### Επιστρέφει
@@ -20,10 +20,11 @@ def get_effect_styles(self, style_color):
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | Χρώμα **aspose.slides.Color** |
+| style_color | [`Color`](/slides/python-net/el/aspose.slides/color) | Χρώμα [`Color`](/slides/python-net/el/aspose.slides/color) |
 
 ### Δείτε επίσης
 * κλάση [`IEffectStyleCollectionEffectiveData`](/slides/python-net/el/aspose.slides.theme/ieffectstylecollectioneffectivedata)
 * κλάση [`IFormatSchemeEffectiveData`](/slides/python-net/el/aspose.slides.theme/iformatschemeeffectivedata)
+* κλάση [`Color`](/slides/python-net/el/aspose.slides/color)
 * μονάδα [`aspose.slides.theme`](/slides/python-net/el/aspose.slides.theme)
 * βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

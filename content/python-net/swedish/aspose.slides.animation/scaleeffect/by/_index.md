@@ -8,7 +8,7 @@ weight: 50
 ---
 ## efter egenskap
 beskriver det relativa förskjutningsvärdet för animationen (i procent).
-            Läs/skriv **aspose.slides.PointF**.
+            Läs/skriv [`PointF`](/slides/python-net/sv/aspose.slides/pointf).
 
 ### Definition:
 ```python
@@ -22,7 +22,8 @@ def by(self, value):
 ```
 
 
-### Se också
+### Se även
 * klass [`ScaleEffect`](/slides/python-net/sv/aspose.slides.animation/scaleeffect)
+* klass [`PointF`](/slides/python-net/sv/aspose.slides/pointf)
 * modul [`aspose.slides.animation`](/slides/python-net/sv/aspose.slides.animation)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

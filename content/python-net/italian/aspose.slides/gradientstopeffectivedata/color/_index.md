@@ -1,14 +1,14 @@
 ---
 title: color property
-second_title: Aspose.Slides per Python via .NET Riferimento API
+second_title: Riferimento API di Aspose.Slides per Python via .NET
 description: 
 type: docs
 url: /it/aspose.slides/gradientstopeffectivedata/color/
 weight: 10
 ---
-## proprietà colore
-Restituisce il colore di un punto di interruzione del gradiente.
-            Solo lettura **aspose.slides.Color**.
+## color proprietà
+Restituisce il color di un punto di gradiente.
+            Solo lettura [`Color`](/slides/python-net/it/aspose.slides/color).
 
 ### Definizione:
 ```python
@@ -20,5 +20,6 @@ def color(self):
 
 ### Vedi anche
 * classe [`GradientStopEffectiveData`](/slides/python-net/it/aspose.slides/gradientstopeffectivedata)
+* classe [`Color`](/slides/python-net/it/aspose.slides/color)
 * modulo [`aspose.slides`](/slides/python-net/it/aspose.slides)
 * libreria [`Aspose.Slides`](/slides/python-net)

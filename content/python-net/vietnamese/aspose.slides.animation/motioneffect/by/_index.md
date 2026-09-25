@@ -1,14 +1,14 @@
 ---
 title: by property
-second_title: Tham khảo API Aspose.Slides cho Python thông qua .NET
+second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides.animation/motioneffect/by/
 weight: 60
 ---
-## bằng thuộc tính
+## theo thuộc tính
 Mô tả giá trị độ dịch tương đối cho hoạt ảnh (theo phần trăm).
-            Đọc/ghi **aspose.slides.PointF**.
+            Đọc/ghi [`PointF`](/slides/python-net/vi/aspose.slides/pointf).
 
 ### Định nghĩa:
 ```python
@@ -22,7 +22,8 @@ def by(self, value):
 ```
 
 
-### Xem Thêm
+### Xem thêm
 * lớp [`MotionEffect`](/slides/python-net/vi/aspose.slides.animation/motioneffect)
+* lớp [`PointF`](/slides/python-net/vi/aspose.slides/pointf)
 * mô-đun [`aspose.slides.animation`](/slides/python-net/vi/aspose.slides.animation)
 * thư viện [`Aspose.Slides`](/slides/python-net)

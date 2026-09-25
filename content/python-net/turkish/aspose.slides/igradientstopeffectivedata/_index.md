@@ -5,20 +5,19 @@ description:
 type: docs
 url: /tr/aspose.slides/igradientstopeffectivedata/
 ---
-## IGradientStopEffectiveData sınıf
+## IGradientStopEffectiveData sınıfı
 
-değişmez nesne which represents a gradient stop.
+gradient durakını temsil eden değişmez nesne.
 
 IGradientStopEffectiveData türü aşağıdaki üyeleri sunar:
 
 ## Özellikler
 
-| Property | Açıklama |
+| Özellik | Açıklama |
 | :- | :- |
-| [`position`](/slides/python-net/tr/aspose.slides/igradientstopeffectivedata/position/) | Gradient durakının konumunu (0..1) döndürür.<br/>            Yalnızca okunabilir **float**. |
-| [`color`](/slides/python-net/tr/aspose.slides/igradientstopeffectivedata/color/) | Gradient durakının rengini döndürür.<br/>            Yalnızca okunabilir **aspose.slides.Color**. |
+| [`position`](/slides/python-net/tr/aspose.slides/igradientstopeffectivedata/position/) | Bir gradient durakının konumunu (0..1) döndürür.<br/>Salt-okunur **float**. |
+| [`color`](/slides/python-net/tr/aspose.slides/igradientstopeffectivedata/color/) | Bir gradient durakının rengini döndürür.<br/>Salt-okunur [`Color`](/slides/python-net/tr/aspose.slides/color). |
 
-
-### Ayrıca Bakınız
+### İlgili
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

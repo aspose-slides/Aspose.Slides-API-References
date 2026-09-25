@@ -8,7 +8,7 @@ weight: 110
 ---
 ## rotation_center propriété
 Décrit le centre de rotation utilisé pour faire pivoter un chemin de mouvement d'un angle X.
-            Lecture/écriture **aspose.slides.PointF**.
+            Lecture/écriture [`PointF`](/slides/python-net/fr/aspose.slides/pointf).
 
 ### Définition:
 ```python
@@ -24,5 +24,6 @@ def rotation_center(self, value):
 
 ### Voir aussi
 * classe [`IMotionEffect`](/slides/python-net/fr/aspose.slides.animation/imotioneffect)
+* classe [`PointF`](/slides/python-net/fr/aspose.slides/pointf)
 * module [`aspose.slides.animation`](/slides/python-net/fr/aspose.slides.animation)
 * bibliothèque [`Aspose.Slides`](/slides/python-net)

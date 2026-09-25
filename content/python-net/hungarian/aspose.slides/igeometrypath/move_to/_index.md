@@ -1,13 +1,13 @@
 ---
 title: move_to method
-second_title: Aspose.Slides a Pythonhoz a .NET API hivatkozása
+second_title: Aspose.Slides a Pythonhoz a .NET-en keresztül API Referencia
 description: 
 type: docs
 url: /hu/aspose.slides/igeometrypath/move_to/
 weight: 50
 ---
-## move_to(self, point) {#asposepydrawingpointf}
-Beállítja a következő pont pozícióját.
+## move_to(self, point) {#asposeslidespointf}
+A következő pont pozícióját állítja be.
 
 ```python
 def move_to(self, point):
@@ -16,10 +16,10 @@ def move_to(self, point):
 
 | Paraméter | Típus | Leírás |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | A pont pozíciója |
+| point | [`PointF`](/slides/python-net/hu/aspose.slides/pointf) | Pont pozíciója |
 
 ## move_to(self, x, y) {#float-float}
-Beállítja a következő pont pozícióját.
+A következő pont pozícióját állítja be.
 
 ```python
 def move_to(self, x, y):
@@ -33,5 +33,6 @@ def move_to(self, x, y):
 
 ### Lásd még
 * osztály [`IGeometryPath`](/slides/python-net/hu/aspose.slides/igeometrypath)
+* osztály [`PointF`](/slides/python-net/hu/aspose.slides/pointf)
 * modul [`aspose.slides`](/slides/python-net/hu/aspose.slides)
 * könyvtár [`Aspose.Slides`](/slides/python-net)

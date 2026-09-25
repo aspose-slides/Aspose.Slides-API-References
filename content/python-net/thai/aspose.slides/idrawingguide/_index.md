@@ -1,23 +1,23 @@
 ---
 title: IDrawingGuide class
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API อ้างอิง
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
 description: 
 type: docs
 url: /th/aspose.slides/idrawingguide/
 ---
 ## IDrawingGuide คลาส
 
-เป็นไกด์การวาดที่ปรับได้
+แสดงถึงเส้นแนววาดที่ปรับได้
 
-ประเภท IDrawingGuide มีสมาชิกต่อไปนี้:
+ประเภท IDDrawingGuide เปิดเผยสมาชิกต่อไปนี้:
 
 ## คุณสมบัติ
 
-| คุณสมบัติ | คำอธิบาย |
+| Property | Description |
 | :- | :- |
-| [`orientation`](/slides/python-net/th/aspose.slides/idrawingguide/orientation/) | ส่งคืนหรือกำหนดทิศทางของแนวทางการวาด.<br/>            อ่าน/เขียน [`Orientation`](/slides/python-net/th/aspose.slides/orientation). |
-| [`position`](/slides/python-net/th/aspose.slides/idrawingguide/position/) | ส่งคืนหรือกำหนดตำแหน่งของแนวทางการวาดเป็นจุดจากมุมบนซ้ายของสไลด์.<br/>            อ่าน/เขียน **float**. |
-| [`color`](/slides/python-net/th/aspose.slides/idrawingguide/color/) | ส่งคืนหรือกำหนดสีของแนวทางการวาด.<br/>            อ่าน/เขียน **aspose.slides.Color**. |
+| [`orientation`](/slides/python-net/th/aspose.slides/idrawingguide/orientation/) | คืนค่า หรือ ตั้งค่าทิศทางของเส้นแนววาด.<br/>            อ่าน/เขียน [`Orientation`](/slides/python-net/th/aspose.slides/orientation). |
+| [`position`](/slides/python-net/th/aspose.slides/idrawingguide/position/) | คืนค่า หรือ ตั้งค่าตำแหน่งของเส้นแนววาดเป็นจุดจากมุมบนซ้ายของสไลด์.<br/>            อ่าน/เขียน **float**. |
+| [`color`](/slides/python-net/th/aspose.slides/idrawingguide/color/) | คืนค่า หรือ ตั้งค่าสีของเส้นแนววาด.<br/>            อ่าน/เขียน [`Color`](/slides/python-net/th/aspose.slides/color). |
 
 
 ### ดูเพิ่มเติม

@@ -1,6 +1,6 @@
 ---
 title: INotesSize class
-second_title: Aspose.Slides pro Python přes .NET API referenci
+second_title: Aspose.Slides pro Python přes .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/inotessize/
@@ -9,14 +9,13 @@ url: /cs/aspose.slides/inotessize/
 
 Reprezentuje velikost snímku poznámek.
 
-Typ INotesSize vystavuje následující členy:
+Typ INotesSize exponuje následující členy:
 
 ## Vlastnosti
 
 | Vlastnost | Popis |
 | :- | :- |
-| [`size`](/slides/python-net/cs/aspose.slides/inotessize/size/) | Vrací nebo nastavuje velikost v bodech.<br/>            Číst/zapisovat **aspose.slides.SizeF**. |
-
+| [`size`](/slides/python-net/cs/aspose.slides/inotessize/size/) | Vrací nebo nastavuje velikost v bodech.<br/>            Číst/zapisovat [`SizeF`](/slides/python-net/cs/aspose.slides/sizef). |
 
 ### Viz také
 * modul [`aspose.slides`](/slides/python-net/cs/aspose.slides)

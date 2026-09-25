@@ -7,8 +7,8 @@ url: /sv/aspose.slides/drawingguide/color/
 weight: 10
 ---
 ## färgegenskap
-Returnerar eller sätter färg på ritningsguiden.
-            Läs/skriv **aspose.slides.Color**.
+Returnerar eller sätter färg för ritningsguiden.
+            Läs/skriv [`Color`](/slides/python-net/sv/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -22,7 +22,8 @@ def color(self, value):
 ```
 
 
-### Se också
+### Se även
 * klass [`DrawingGuide`](/slides/python-net/sv/aspose.slides/drawingguide)
+* klass [`Color`](/slides/python-net/sv/aspose.slides/color)
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

@@ -9,15 +9,15 @@ url: /el/aspose.slides/drawingguide/
 
 Αντιπροσωπεύει έναν ρυθμιζόμενο οδηγό σχεδίασης.
 
-Ο τύπος DrawingGuide εκθέτει τα παρακάτω μέλη:
+Ο τύπος DrawingGuide εκθέτει τα ακόλουθα μέλη:
 
 ## Ιδιότητες
 
 | Ιδιότητα | Περιγραφή |
 | :- | :- |
 | [`orientation`](/slides/python-net/el/aspose.slides/drawingguide/orientation/) | Επιστρέφει ή ορίζει τον προσανατολισμό του οδηγού σχεδίασης.<br/>            Ανάγνωση/εγγραφή [`Orientation`](/slides/python-net/el/aspose.slides/orientation). |
-| [`position`](/slides/python-net/el/aspose.slides/drawingguide/position/) | Επιστρέφει ή ορίζει τη θέση του οδηγού σχεδίασης σε σημεία από την πάνω, αριστερή γωνία της διαφάνειας.<br/>            Ανάγνωση/εγγραφή **float**. |
-| [`color`](/slides/python-net/el/aspose.slides/drawingguide/color/) | Επιστρέφει ή ορίζει το χρώμα του οδηγού σχεδίασης.<br/>            Ανάγνωση/εγγραφή **aspose.slides.Color**. |
+| [`position`](/slides/python-net/el/aspose.slides/drawingguide/position/) | Επιστρέφει ή ορίζει τη θέση του οδηγού σχεδίασης σε σημεία από την επάνω, αριστερή γωνία της διαφάνειας.<br/>            Ανάγνωση/εγγραφή **float**. |
+| [`color`](/slides/python-net/el/aspose.slides/drawingguide/color/) | Επιστρέφει ή ορίζει το χρώμα του οδηγού σχεδίασης.<br/>            Ανάγνωση/εγγραφή [`Color`](/slides/python-net/el/aspose.slides/color). |
 
 ### Δείτε επίσης
 * μονάδα [`aspose.slides`](/slides/python-net/el/aspose.slides)

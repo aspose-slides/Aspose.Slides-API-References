@@ -1,14 +1,14 @@
 ---
 title: color property
-second_title: Riferimento API Aspose.Slides per Python via .NET
+second_title: Aspose.Slides per Python tramite .NET Riferimento API
 description: 
 type: docs
 url: /it/aspose.slides.effects/icolorreplaceeffectivedata/color/
 weight: 20
 ---
-## proprietà color
-Restituisce il formato color che sostituirà il color di ogni pixel.
-            Solo lettura **aspose.slides.Color**.
+## proprietà colore
+Restituisce il formato colore che sostituirà il colore di ogni pixel.
+            Sola lettura [`Color`](/slides/python-net/it/aspose.slides/color).
 
 ### Definizione:
 ```python
@@ -17,8 +17,8 @@ def color(self):
     ...
 ```
 
-
 ### Vedi anche
 * classe [`IColorReplaceEffectiveData`](/slides/python-net/it/aspose.slides.effects/icolorreplaceeffectivedata)
+* classe [`Color`](/slides/python-net/it/aspose.slides/color)
 * modulo [`aspose.slides.effects`](/slides/python-net/it/aspose.slides.effects)
 * libreria [`Aspose.Slides`](/slides/python-net)

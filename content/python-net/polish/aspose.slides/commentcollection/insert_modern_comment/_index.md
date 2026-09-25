@@ -1,13 +1,13 @@
 ---
 title: insert_modern_comment method
-second_title: Aspose.Slides dla Pythona przez .NET - odniesienie API
+second_title: Aspose.Slides dla Pythona poprzez .NET API Reference
 description: 
 type: docs
 url: /pl/aspose.slides/commentcollection/insert_modern_comment/
 weight: 60
 ---
-## insert_modern_comment(self, index, text, slide, shape, position, creation_time) {#int-str-islide-ishape-asposepydrawingpointf-datetime}
-Wstaw nowy nowoczesny komentarz do kolekcji w określonym indeksie.
+## insert_modern_comment(self, index, text, slide, shape, position, creation_time) {#int-str-islide-ishape-asposeslidespointf-datetime}
+Wstaw nowy nowoczesny komentarz do kolekcji pod określonym indeksem.
 
 ### Returns
 
@@ -21,13 +21,13 @@ def insert_modern_comment(self, index, text, slide, shape, position, creation_ti
 ```
 
 
-| Parametr | Typ | Opis |
+| Parameter | Type | Description |
 | :- | :- | :- |
-| index | **int** | Indeks elementu w kolekcji, w którym ma zostać wstawiony nowoczesny komentarz. |
+| index | **int** | Indeks elementu w kolekcji, w którym ma być wstawiony nowoczesny komentarz. |
 | text | **str** | Zwykły tekst nowego nowoczesnego komentarza. |
 | slide | [`ISlide`](/slides/python-net/pl/aspose.slides/islide) | Slajd w prezentacji, do którego ma zostać dodany nowy nowoczesny komentarz. |
 | shape | [`IShape`](/slides/python-net/pl/aspose.slides/ishape) | Kształt na slajdzie, z którym powiązany jest nowy nowoczesny komentarz. |
-| position | **aspose.slides.PointF** | Pozycja na slajdzie, w której ma zostać dodany nowy nowoczesny komentarz. |
+| position | [`PointF`](/slides/python-net/pl/aspose.slides/pointf) | Pozycja na slajdzie, w której ma zostać dodany nowy nowoczesny komentarz. |
 | creation_time | **DateTime** | Czas utworzenia nowoczesnego komentarza. |
 
 
@@ -37,5 +37,6 @@ def insert_modern_comment(self, index, text, slide, shape, position, creation_ti
 * klasa [`IModernComment`](/slides/python-net/pl/aspose.slides/imoderncomment)
 * klasa [`IShape`](/slides/python-net/pl/aspose.slides/ishape)
 * klasa [`ISlide`](/slides/python-net/pl/aspose.slides/islide)
+* klasa [`PointF`](/slides/python-net/pl/aspose.slides/pointf)
 * moduł [`aspose.slides`](/slides/python-net/pl/aspose.slides)
 * biblioteka [`Aspose.Slides`](/slides/python-net)

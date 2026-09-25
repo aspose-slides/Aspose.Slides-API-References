@@ -7,29 +7,29 @@ url: /el/aspose.slides.export/presentationenumerableframesgenerator/
 ---
 ## PresentationEnumerableFramesGenerator κλάση
 
-Αντιπροσωπεύει έναν γεννήτορα των κινήσεων στο [`Presentation`](/slides/python-net/el/aspose.slides/presentation).
+Αναπαριστά μια γεννήτρια των κινήσεων στο [`Presentation`](/slides/python-net/el/aspose.slides/presentation).
 
 Ο τύπος PresentationEnumerableFramesGenerator εκθέτει τα παρακάτω μέλη:
 
 ## Κατασκευαστές
 
-| Κατασκευαστής | Περιγραφή |
+| Constructor | Description |
 | :- | :- |
-| [`__init__(self, presentation, fps)`](/slides/python-net/el/aspose.slides.export/presentationenumerableframesgenerator/__init__/#presentation-float) | Δημιουργεί νέα παρουσίαση του [`PresentationPlayer`](/slides/python-net/el/aspose.slides.export/presentationplayer). |
-| [`__init__(self, frame_size, fps)`](/slides/python-net/el/aspose.slides.export/presentationenumerableframesgenerator/__init__/#asposepydrawingsize-float) | Δημιουργεί νέα παρουσίαση του [`PresentationPlayer`](/slides/python-net/el/aspose.slides.export/presentationplayer). |
+| [`__init__(self, presentation, fps)`](/slides/python-net/el/aspose.slides.export/presentationenumerableframesgenerator/__init__/#presentation-float) | Δημιουργεί ένα νέο στιγμιότυπο του [`PresentationPlayer`](/slides/python-net/el/aspose.slides.export/presentationplayer). |
+| [`__init__(self, frame_size, fps)`](/slides/python-net/el/aspose.slides.export/presentationenumerableframesgenerator/__init__/#asposeslidessize-float) | Δημιουργεί ένα νέο στιγμιότυπο του [`PresentationPlayer`](/slides/python-net/el/aspose.slides.export/presentationplayer). |
 
 ## Ιδιότητες
 
-| Ιδιότητα | Περιγραφή |
+| Property | Description |
 | :- | :- |
-| [`frame_index`](/slides/python-net/el/aspose.slides.export/presentationenumerableframesgenerator/frame_index/) | Λαμβάνει το δείκτη καρέ. |
-| [`default_delay`](/slides/python-net/el/aspose.slides.export/presentationenumerableframesgenerator/default_delay/) | Λαμβάνει ή ορίζει το προεπιλεγμένο χρόνο καθυστέρησης [ms]. |
-| [`include_hidden_slides`](/slides/python-net/el/aspose.slides.export/presentationenumerableframesgenerator/include_hidden_slides/) | Λαμβάνει ή ορίζει αν θα συμπεριληφθούν κρυμμένες διαφάνειες. |
-| [`exported_slides`](/slides/python-net/el/aspose.slides.export/presentationenumerableframesgenerator/exported_slides/) | Λαμβάνει τον αριθμό των εξαγόμενων διαφανειών. |
+| [`frame_index`](/slides/python-net/el/aspose.slides.export/presentationenumerableframesgenerator/frame_index/) | Λαμβάνει τον δείκτη του πλαισίου. |
+| [`default_delay`](/slides/python-net/el/aspose.slides.export/presentationenumerableframesgenerator/default_delay/) | Λαμβάνει ή ορίζει τον προεπιλεγμένο χρόνο καθυστέρησης [ms]. |
+| [`include_hidden_slides`](/slides/python-net/el/aspose.slides.export/presentationenumerableframesgenerator/include_hidden_slides/) | Λαμβάνει ή ορίζει εάν οι κρυφές διαφάνειες πρέπει να συμπεριληφθούν. |
+| [`exported_slides`](/slides/python-net/el/aspose.slides.export/presentationenumerableframesgenerator/exported_slides/) | Λαμβάνει το πλήθος των εξαγόμενων διαφανειών. |
 
 ## Μέθοδοι
 
-| Μέθοδος | Περιγραφή |
+| Method | Description |
 | :- | :- |
 | [`enumerate_frames(self, slides)`](/slides/python-net/el/aspose.slides.export/presentationenumerableframesgenerator/enumerate_frames/#iterableislide) |  |
 

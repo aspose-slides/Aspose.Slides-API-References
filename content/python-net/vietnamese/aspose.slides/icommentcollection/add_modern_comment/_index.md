@@ -6,7 +6,7 @@ type: docs
 url: /vi/aspose.slides/icommentcollection/add_modern_comment/
 weight: 20
 ---
-## add_modern_comment(self, text, slide, shape, position, creation_time) {#str-islide-ishape-asposepydrawingpointf-datetime}
+## add_modern_comment(self, text, slide, shape, position, creation_time) {#str-islide-ishape-asposeslidespointf-datetime}
 Thêm bình luận hiện đại mới vào cuối một bộ sưu tập.
 
 ### Trả về
@@ -23,10 +23,10 @@ def add_modern_comment(self, text, slide, shape, position, creation_time):
 
 | Tham số | Kiểu | Mô tả |
 | :- | :- | :- |
-| text | **str** | Văn bản thuần của một bình luận hiện đại mới. |
-| slide | [`ISlide`](/slides/python-net/vi/aspose.slides/islide) | Slide trong bài thuyết trình nơi sẽ thêm một bình luận hiện đại mới. |
-| shape | [`IShape`](/slides/python-net/vi/aspose.slides/ishape) | Hình trên slide mà bình luận hiện đại mới được gắn với. |
-| position | **aspose.slides.PointF** | Vị trí trên slide nơi sẽ thêm một bình luận hiện đại mới. |
+| text | **str** | Văn bản thuần của bình luận hiện đại mới. |
+| slide | [`ISlide`](/slides/python-net/vi/aspose.slides/islide) | Slide trong bản trình chiếu nơi sẽ thêm bình luận hiện đại mới. |
+| shape | [`IShape`](/slides/python-net/vi/aspose.slides/ishape) | Hình trên slide mà bình luận hiện đại mới được gắn kết. |
+| position | [`PointF`](/slides/python-net/vi/aspose.slides/pointf) | Vị trí trên slide nơi sẽ thêm bình luận hiện đại mới. |
 | creation_time | **DateTime** | Thời gian tạo bình luận hiện đại. |
 
 
@@ -36,5 +36,6 @@ def add_modern_comment(self, text, slide, shape, position, creation_time):
 * lớp [`IModernComment`](/slides/python-net/vi/aspose.slides/imoderncomment)
 * lớp [`IShape`](/slides/python-net/vi/aspose.slides/ishape)
 * lớp [`ISlide`](/slides/python-net/vi/aspose.slides/islide)
-* module [`aspose.slides`](/slides/python-net/vi/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* lớp [`PointF`](/slides/python-net/vi/aspose.slides/pointf)
+* mô-đun [`aspose.slides`](/slides/python-net/vi/aspose.slides)
+* thư viện [`Aspose.Slides`](/slides/python-net)

@@ -6,9 +6,9 @@ type: docs
 url: /de/aspose.slides.animation/iscaleeffect/to/
 weight: 80
 ---
-## zur Eigenschaft
-Gibt den Zielort für einen Skalierungseffekt einer Animation an (in Prozent).
-            Lesen/Schreiben **aspose.slides.PointF**.
+## zu Eigenschaft
+Gibt den Zielort für einen Animationsskalierungseffekt an (in Prozent).
+            Lesen/Schreiben [`PointF`](/slides/python-net/de/aspose.slides/pointf).
 
 ### Definition:
 ```python
@@ -24,5 +24,6 @@ def to(self, value):
 
 ### Siehe auch
 * Klasse [`IScaleEffect`](/slides/python-net/de/aspose.slides.animation/iscaleeffect)
+* Klasse [`PointF`](/slides/python-net/de/aspose.slides/pointf)
 * Modul [`aspose.slides.animation`](/slides/python-net/de/aspose.slides.animation)
 * Bibliothek [`Aspose.Slides`](/slides/python-net)

@@ -1,14 +1,14 @@
 ---
 title: IColorChangeEffectiveData class
-second_title: Riferimento API di Aspose.Slides per Python via .NET
-description:
+second_title: Riferimento API Aspose.Slides per Python via .NET
+description: 
 type: docs
 url: /it/aspose.slides.effects/icolorchangeeffectivedata/
 ---
 ## IColorChangeEffectiveData classe
 
-Oggetto immutabile che rappresenta un effetto di cambio colore.  
-Le istanze di FromColor sono sostituite con istanze di ToColor.
+Oggetto immutabile che rappresenta un effetto di Cambio colore.
+            Le istanze di FromColor vengono sostituite con istanze di ToColor.
 
 Il tipo IColorChangeEffectiveData espone i seguenti membri:
 
@@ -16,9 +16,9 @@ Il tipo IColorChangeEffectiveData espone i seguenti membri:
 
 | Proprietà | Descrizione |
 | :- | :- |
-| [`from_color`](/slides/python-net/it/aspose.slides.effects/icolorchangeeffectivedata/from_color/) | Colore che sarà sostituito.<br/>            Solo lettura **aspose.slides.Color**. |
-| [`to_color`](/slides/python-net/it/aspose.slides.effects/icolorchangeeffectivedata/to_color/) | Colore che sostituirà.<br/>            Solo lettura **aspose.slides.Color**. |
-| [`use_alpha`](/slides/python-net/it/aspose.slides.effects/icolorchangeeffectivedata/use_alpha/) | Restituisce un valore booleano che determina se il componente alfa deve essere usato.<br/>            Solo lettura **bool**. |
+| [`from_color`](/slides/python-net/it/aspose.slides.effects/icolorchangeeffectivedata/from_color/) | Colore che sarà sostituito.<br/>            Sola lettura [`Color`](/slides/python-net/it/aspose.slides/color). |
+| [`to_color`](/slides/python-net/it/aspose.slides.effects/icolorchangeeffectivedata/to_color/) | Colore che sostituirà.<br/>            Sola lettura [`Color`](/slides/python-net/it/aspose.slides/color). |
+| [`use_alpha`](/slides/python-net/it/aspose.slides.effects/icolorchangeeffectivedata/use_alpha/) | Restituisce un valore booleano che determina se il componente alfa deve essere utilizzato.<br/>            Sola lettura **bool**. |
 
 
 ### Vedi anche

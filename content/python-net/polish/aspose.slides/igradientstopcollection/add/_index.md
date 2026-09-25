@@ -1,17 +1,16 @@
 ---
 title: add method
-second_title: Aspose.Slides dla Pythona poprzez .NET – Dokumentacja API
+second_title: Aspose.Slides dla Pythona poprzez .NET API Referencja
 description: 
 type: docs
 url: /pl/aspose.slides/igradientstopcollection/add/
 weight: 10
 ---
-## add(self, position, color) {#float-asposepydrawingcolor}
-Tworzy nowy stop gradientu i dodaje go na koniec kolekcji.
+## add(self, position, color) {#float-asposeslidescolor}
+Tworzy nowy punkt gradientu i dodaje go na koniec kolekcji.
 
 ### Zwraca
-
-Indeks nowego stopu gradientu w kolekcji.
+Indeks nowego punktu gradientu w kolekcji.
 
 
 
@@ -23,16 +22,15 @@ def add(self, position, color):
 
 | Parametr | Typ | Opis |
 | :- | :- | :- |
-| position | **float** | Pozycja nowego stopu gradientu. |
-| color | **aspose.slides.Color** | Kolor nowego stopu gradientu. |
+| position | **float** | Pozycja nowego punktu gradientu. |
+| color | [`Color`](/slides/python-net/pl/aspose.slides/color) | Kolor nowego punktu gradientu. |
 
 
 ## add(self, position, preset_color) {#float-presetcolor}
-Tworzy nowy stop gradientu i dodaje go na koniec kolekcji.
+Tworzy nowy punkt gradientu i dodaje go na koniec kolekcji.
 
 ### Zwraca
-
-Indeks nowego stopu gradientu w kolekcji.
+Indeks nowego punktu gradientu w kolekcji.
 
 
 
@@ -44,16 +42,15 @@ def add(self, position, preset_color):
 
 | Parametr | Typ | Opis |
 | :- | :- | :- |
-| position | **float** | Pozycja nowego stopu gradientu. |
-| preset_color | [`PresetColor`](/slides/python-net/pl/aspose.slides/presetcolor) | Kolor nowego stopu gradientu. |
+| position | **float** | Pozycja nowego punktu gradientu. |
+| preset_color | [`PresetColor`](/slides/python-net/pl/aspose.slides/presetcolor) | Kolor nowego punktu gradientu. |
 
 
 ## add(self, position, scheme_color) {#float-schemecolor}
-Tworzy nowy stop gradientu i dodaje go na koniec kolekcji.
+Tworzy nowy punkt gradientu i dodaje go na koniec kolekcji.
 
 ### Zwraca
-
-Indeks nowego stopu gradientu w kolekcji.
+Indeks nowego punktu gradientu w kolekcji.
 
 
 
@@ -65,8 +62,8 @@ def add(self, position, scheme_color):
 
 | Parametr | Typ | Opis |
 | :- | :- | :- |
-| position | **float** | Pozycja nowego stopu gradientu. |
-| scheme_color | [`SchemeColor`](/slides/python-net/pl/aspose.slides/schemecolor) | Kolor nowego stopu gradientu. |
+| position | **float** | Pozycja nowego punktu gradientu. |
+| scheme_color | [`SchemeColor`](/slides/python-net/pl/aspose.slides/schemecolor) | Kolor nowego punktu gradientu. |
 
 
 
@@ -75,5 +72,6 @@ def add(self, position, scheme_color):
 * klasa [`IGradientStopCollection`](/slides/python-net/pl/aspose.slides/igradientstopcollection)
 * enumeracja [`PresetColor`](/slides/python-net/pl/aspose.slides/presetcolor)
 * enumeracja [`SchemeColor`](/slides/python-net/pl/aspose.slides/schemecolor)
+* klasa [`Color`](/slides/python-net/pl/aspose.slides/color)
 * moduł [`aspose.slides`](/slides/python-net/pl/aspose.slides)
 * biblioteka [`Aspose.Slides`](/slides/python-net)

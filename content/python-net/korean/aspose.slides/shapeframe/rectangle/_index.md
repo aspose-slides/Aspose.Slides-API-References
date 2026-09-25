@@ -8,7 +8,7 @@ weight: 100
 ---
 ## 사각형 속성
 프레임의 좌표를 반환합니다.
-            읽기 전용 **aspose.slides.RectangleF**.
+            읽기 전용 [`RectangleF`](/slides/python-net/ko/aspose.slides/rectanglef).
 
 ### 정의:
 ```python
@@ -18,7 +18,8 @@ def rectangle(self):
 ```
 
 
-### 참고
+### 또 보기
 * 클래스 [`ShapeFrame`](/slides/python-net/ko/aspose.slides/shapeframe)
+* 클래스 [`RectangleF`](/slides/python-net/ko/aspose.slides/rectanglef)
 * 모듈 [`aspose.slides`](/slides/python-net/ko/aspose.slides)
 * 라이브러리 [`Aspose.Slides`](/slides/python-net)

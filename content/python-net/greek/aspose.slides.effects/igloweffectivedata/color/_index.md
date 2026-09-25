@@ -6,9 +6,9 @@ type: docs
 url: /el/aspose.slides.effects/igloweffectivedata/color/
 weight: 20
 ---
-## color ιδιότητα
+## ιδιότητα χρώματος
 Χρώμα.
-            Μόνο για ανάγνωση **aspose.slides.Color**.
+            Μόνο για ανάγνωση [`Color`](/slides/python-net/el/aspose.slides/color).
 
 ### Ορισμός:
 ```python
@@ -17,7 +17,9 @@ def color(self):
     ...
 ```
 
+
 ### Δείτε επίσης
 * κλάση [`IGlowEffectiveData`](/slides/python-net/el/aspose.slides.effects/igloweffectivedata)
+* κλάση [`Color`](/slides/python-net/el/aspose.slides/color)
 * μονάδα [`aspose.slides.effects`](/slides/python-net/el/aspose.slides.effects)
 * βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

@@ -1,14 +1,14 @@
 ---
 title: rectangle property
-second_title: Aspose.Slides per Python tramite .NET Riferimento API
+second_title: Riferimento API Aspose.Slides per Python via .NET
 description: 
 type: docs
 url: /it/aspose.slides/shapeframe/rectangle/
 weight: 100
 ---
-## proprietà rectangle
+## rectangle proprietà
 Restituisce le coordinate di un frame.
-            Sola lettura **aspose.slides.RectangleF**.
+            Solo lettura [`RectangleF`](/slides/python-net/it/aspose.slides/rectanglef).
 
 ### Definizione:
 ```python
@@ -20,5 +20,6 @@ def rectangle(self):
 
 ### Vedi anche
 * classe [`ShapeFrame`](/slides/python-net/it/aspose.slides/shapeframe)
+* classe [`RectangleF`](/slides/python-net/it/aspose.slides/rectanglef)
 * modulo [`aspose.slides`](/slides/python-net/it/aspose.slides)
 * libreria [`Aspose.Slides`](/slides/python-net)

@@ -1,18 +1,18 @@
 ---
 title: get_rect method
-second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
+second_title: Aspose.Slides pro Python pomocí .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/iparagraph/get_rect/
 weight: 30
 ---
 ## get_rect(self) {#}
-Získá souřadnice obdélníku, který ohraničuje odstavec. Obdélník zahrnuje všechny řádky
+Získá souřadnice obdélníku ohraničujícího odstavec. Obdélník zahrnuje všechny řádky
             textu v odstavci, včetně prázdných.
 
 ### Návratová hodnota
 
-Obdélník ohraničující odstavec **aspose.slides.RectangleF**
+Obdélník ohraničující odstavec [`RectangleF`](/slides/python-net/cs/aspose.slides/rectanglef)
 
 
 
@@ -21,7 +21,11 @@ def get_rect(self):
     ...
 ```
 
+
+
+
 ### Viz také
 * třída [`IParagraph`](/slides/python-net/cs/aspose.slides/iparagraph)
+* třída [`RectangleF`](/slides/python-net/cs/aspose.slides/rectanglef)
 * modul [`aspose.slides`](/slides/python-net/cs/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* knihovna [`Aspose.Slides`](/slides/python-net)

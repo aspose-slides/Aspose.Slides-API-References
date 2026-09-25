@@ -6,12 +6,12 @@ type: docs
 url: /th/aspose.slides/commentcollection/add_modern_comment/
 weight: 20
 ---
-## add_modern_comment(self, text, slide, shape, position, creation_time) {#str-islide-ishape-asposepydrawingpointf-datetime}
-เพิ่มความคิดเห็นสมัยใหม่ใหม่ที่ส่วนท้ายของคอลเลกชัน
+## add_modern_comment(self, text, slide, shape, position, creation_time) {#str-islide-ishape-asposeslidespointf-datetime}
+เพิ่มคอมเมนต์สมัยใหม่ใหม่ที่ส่วนท้ายของคอลเลกชัน
 
-### ค่าที่ส่งกลับ
+### คืนค่า
 
-เพิ่มความคิดเห็นสมัยใหม่แล้ว
+คอมเมนต์สมัยใหม่ที่เพิ่มแล้ว
 
 
 
@@ -21,20 +21,21 @@ def add_modern_comment(self, text, slide, shape, position, creation_time):
 ```
 
 
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| Parameter | Type | Description |
 | :- | :- | :- |
-| text | **str** | ข้อความธรรมดาของความคิดเห็นสมัยใหม่ใหม่ |
-| slide | [`ISlide`](/slides/python-net/th/aspose.slides/islide) | สไลด์ในงานนำเสนอที่ต้องการเพิ่มความคิดเห็นสมัยใหม่ใหม่ |
-| shape | [`IShape`](/slides/python-net/th/aspose.slides/ishape) | รูปร่างบนสไลด์ที่เชื่อมโยงกับความคิดเห็นสมัยใหม่ใหม่ |
-| position | **aspose.slides.PointF** | ตำแหน่งบนสไลด์ที่ต้องการเพิ่มความคิดเห็นสมัยใหม่ใหม่ |
-| creation_time | **DateTime** | เวลาที่สร้างความคิดเห็นสมัยใหม่ |
+| text | **str** | ข้อความธรรมดาของคอมเมนต์สมัยใหม่ใหม่ |
+| slide | [`ISlide`](/slides/python-net/th/aspose.slides/islide) | สไลด์ในงานนำเสนอที่ต้องการเพิ่มคอมเมนต์สมัยใหม่ใหม่ |
+| shape | [`IShape`](/slides/python-net/th/aspose.slides/ishape) | รูปร่างบนสไลด์ที่คอมเมนต์สมัยใหม่ใหม่เชื่อมโยง |
+| position | [`PointF`](/slides/python-net/th/aspose.slides/pointf) | ตำแหน่งบนสไลด์ที่ต้องการเพิ่มคอมเมนต์สมัยใหม่ใหม่ |
+| creation_time | **DateTime** | เวลาที่สร้างคอมเมนต์สมัยใหม่ |
 
 
 
 ### ดูเพิ่มเติม
-* คลาส [`CommentCollection`](/slides/python-net/th/aspose.slides/commentcollection)
-* คลาส [`IModernComment`](/slides/python-net/th/aspose.slides/imoderncomment)
-* คลาส [`IShape`](/slides/python-net/th/aspose.slides/ishape)
-* คลาส [`ISlide`](/slides/python-net/th/aspose.slides/islide)
-* โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
-* ไลบรารี [`Aspose.Slides`](/slides/python-net)
+* class [`CommentCollection`](/slides/python-net/th/aspose.slides/commentcollection)
+* class [`IModernComment`](/slides/python-net/th/aspose.slides/imoderncomment)
+* class [`IShape`](/slides/python-net/th/aspose.slides/ishape)
+* class [`ISlide`](/slides/python-net/th/aspose.slides/islide)
+* class [`PointF`](/slides/python-net/th/aspose.slides/pointf)
+* module [`aspose.slides`](/slides/python-net/th/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

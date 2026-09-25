@@ -1,14 +1,14 @@
 ---
 title: by property
-second_title: Aspose.Slides dla Pythona przez .NET – Referencja API
+second_title: Aspose.Slides dla Pythona poprzez .NET – odniesienie API
 description: 
 type: docs
 url: /pl/aspose.slides.animation/scaleeffect/by/
 weight: 50
 ---
-## po właściwości
+## przez właściwość
 opisuje względną wartość przesunięcia dla animacji (w procentach).
-            Odczyt/zapis **aspose.slides.PointF**.
+            Odczyt/zapis [`PointF`](/slides/python-net/pl/aspose.slides/pointf).
 
 ### Definicja:
 ```python
@@ -24,5 +24,6 @@ def by(self, value):
 
 ### Zobacz także
 * klasa [`ScaleEffect`](/slides/python-net/pl/aspose.slides.animation/scaleeffect)
+* klasa [`PointF`](/slides/python-net/pl/aspose.slides/pointf)
 * moduł [`aspose.slides.animation`](/slides/python-net/pl/aspose.slides.animation)
 * biblioteka [`Aspose.Slides`](/slides/python-net)

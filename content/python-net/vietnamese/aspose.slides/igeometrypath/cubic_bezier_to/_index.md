@@ -1,12 +1,12 @@
 ---
 title: cubic_bezier_to method
-second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
+second_title: Aspose.Slides cho Python qua .NET Tham chiếu API
 description: 
 type: docs
 url: /vi/aspose.slides/igeometrypath/cubic_bezier_to/
 weight: 30
 ---
-## cubic_bezier_to(self, point1, point2, point3) {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf}
+## cubic_bezier_to(self, point1, point2, point3) {#asposeslidespointf-asposeslidespointf-asposeslidespointf}
 Thêm đường cong Bezier bậc ba vào cuối đường dẫn
 
 
@@ -18,13 +18,13 @@ def cubic_bezier_to(self, point1, point2, point3):
 
 | Tham số | Kiểu | Mô tả |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | Điểm hướng đầu tiên |
-| point2 | **aspose.slides.PointF** | Điểm hướng thứ hai |
-| point3 | **aspose.slides.PointF** | Điểm cuối |
+| point1 | [`PointF`](/slides/python-net/vi/aspose.slides/pointf) | Điểm hướng đầu tiên |
+| point2 | [`PointF`](/slides/python-net/vi/aspose.slides/pointf) | Điểm hướng thứ hai |
+| point3 | [`PointF`](/slides/python-net/vi/aspose.slides/pointf) | Điểm cuối |
 
 
-## cubic_bezier_to(self, point1, point2, point3, index) {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf-int}
-Thêm đường cong Bezier bậc ba vào vị trí được chỉ định trên đường dẫn
+## cubic_bezier_to(self, point1, point2, point3, index) {#asposeslidespointf-asposeslidespointf-asposeslidespointf-int}
+Thêm đường cong Bezier bậc ba vào vị trí được chỉ định của đường dẫn
 
 
 ```python
@@ -35,9 +35,9 @@ def cubic_bezier_to(self, point1, point2, point3, index):
 
 | Tham số | Kiểu | Mô tả |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | Điểm hướng đầu tiên |
-| point2 | **aspose.slides.PointF** | Điểm hướng thứ hai |
-| point3 | **aspose.slides.PointF** | Điểm cuối |
+| point1 | [`PointF`](/slides/python-net/vi/aspose.slides/pointf) | Điểm hướng đầu tiên |
+| point2 | [`PointF`](/slides/python-net/vi/aspose.slides/pointf) | Điểm hướng thứ hai |
+| point3 | [`PointF`](/slides/python-net/vi/aspose.slides/pointf) | Điểm cuối |
 | index | **int** | Chỉ mục của đoạn trong PathData |
 
 ### Ngoại lệ
@@ -68,7 +68,7 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3):
 
 
 ## cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index) {#float-float-float-float-float-float-int}
-Thêm đường cong Bezier bậc ba vào vị trí được chỉ định trên đường dẫn
+Thêm đường cong Bezier bậc ba vào vị trí được chỉ định của đường dẫn
 
 
 ```python
@@ -97,5 +97,6 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index):
 
 ### Xem thêm
 * lớp [`IGeometryPath`](/slides/python-net/vi/aspose.slides/igeometrypath)
+* lớp [`PointF`](/slides/python-net/vi/aspose.slides/pointf)
 * mô-đun [`aspose.slides`](/slides/python-net/vi/aspose.slides)
 * thư viện [`Aspose.Slides`](/slides/python-net)

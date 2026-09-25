@@ -6,10 +6,10 @@ type: docs
 url: /id/aspose.slides/icolorformat/color/
 weight: 50
 ---
-## color properti
-Mengembalikan color hasil (dengan semua transformasi color diterapkan).
-            Mengatur warna RGB dan menghapus semua transformasi color.
-            Baca/tulis **aspose.slides.Color**.
+## properti warna
+Mengembalikan warna hasil (dengan semua transformasi warna diterapkan).
+            Mengatur warna RGB dan menghapus semua transformasi warna.
+            Baca/tulis [`Color`](/slides/python-net/id/aspose.slides/color).
 
 ### Definisi:
 ```python
@@ -25,5 +25,6 @@ def color(self, value):
 
 ### Lihat Juga
 * kelas [`IColorFormat`](/slides/python-net/id/aspose.slides/icolorformat)
+* kelas [`Color`](/slides/python-net/id/aspose.slides/color)
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
 * pustaka [`Aspose.Slides`](/slides/python-net)

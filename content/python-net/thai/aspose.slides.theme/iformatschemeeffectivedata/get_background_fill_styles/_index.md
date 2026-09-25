@@ -6,12 +6,12 @@ type: docs
 url: /th/aspose.slides.theme/iformatschemeeffectivedata/get_background_fill_styles/
 weight: 10
 ---
-## get_background_fill_styles(self, style_color) {#asposepydrawingcolor}
+## get_background_fill_styles(self, style_color) {#asposeslidescolor}
 ส่งคืนคอลเลกชันของสไตล์การเติมพื้นหลังที่กำหนดโดยธีม
 
-### ผลลัพธ์
+### ส่งคืน
 
-คอลเลกชันของรูปแบบการเติมพื้นหลังที่ทำงานได้จริง [`IFillFormatCollectionEffectiveData`](/slides/python-net/th/aspose.slides.theme/ifillformatcollectioneffectivedata)
+คอลเลกชันของรูปแบบการเติมพื้นหลังที่มีผล [`IFillFormatCollectionEffectiveData`](/slides/python-net/th/aspose.slides.theme/ifillformatcollectioneffectivedata)
 
 ```python
 def get_background_fill_styles(self, style_color):
@@ -20,10 +20,11 @@ def get_background_fill_styles(self, style_color):
 
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | Color **aspose.slides.Color** |
+| style_color | [`Color`](/slides/python-net/th/aspose.slides/color) | Color [`Color`](/slides/python-net/th/aspose.slides/color) |
 
 ### ดูเพิ่มเติม
 * คลาส [`IFillFormatCollectionEffectiveData`](/slides/python-net/th/aspose.slides.theme/ifillformatcollectioneffectivedata)
 * คลาส [`IFormatSchemeEffectiveData`](/slides/python-net/th/aspose.slides.theme/iformatschemeeffectivedata)
+* คลาส [`Color`](/slides/python-net/th/aspose.slides/color)
 * โมดูล [`aspose.slides.theme`](/slides/python-net/th/aspose.slides.theme)
 * ไลบรารี [`Aspose.Slides`](/slides/python-net)

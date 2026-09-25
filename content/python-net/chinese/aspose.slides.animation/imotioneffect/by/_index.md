@@ -8,7 +8,7 @@ weight: 50
 ---
 ## 按属性
 描述动画的相对偏移值（以百分比表示）。
-            读/写 **aspose.slides.PointF**。
+Read/write [`PointF`](/slides/python-net/zh/aspose.slides/pointf).
 
 ### 定义:
 ```python
@@ -21,8 +21,8 @@ def by(self, value):
     ...
 ```
 
-
-### 另见
+### 另请参阅
 * 类 [`IMotionEffect`](/slides/python-net/zh/aspose.slides.animation/imotioneffect)
+* 类 [`PointF`](/slides/python-net/zh/aspose.slides/pointf)
 * 模块 [`aspose.slides.animation`](/slides/python-net/zh/aspose.slides.animation)
 * 库 [`Aspose.Slides`](/slides/python-net)

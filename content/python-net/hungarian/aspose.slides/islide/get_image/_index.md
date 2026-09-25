@@ -1,17 +1,17 @@
 ---
 title: get_image method
-second_title: Aspose.Slides a Pythonhoz a .NET-en keresztül API-referencia
+second_title: Aspose.Slides a .NET-en keresztül Python API referenciája
 description: 
 type: docs
 url: /hu/aspose.slides/islide/get_image/
 weight: 40
 ---
 ## get_image(self) {#}
-Visszaad egy miniatűr kép objektumot (20% a valós méretből).
+Bélyegkép kép objektumot ad vissza (a valós méret 20 %-a).
 
-### Visszatér
+### Visszatérési érték
 
-Kép objektum **aspose.slides.Bitmap**
+Kép objektum **aspose.slides.IImage**
 
 
 
@@ -22,10 +22,10 @@ def get_image(self):
 
 
 
-## get_image(self, image_size) {#asposepydrawingsize}
-Visszaad egy képet a megadott mérettel.
+## get_image(self, image_size) {#asposeslidessize}
+Megadott méretű kép objektumot ad vissza.
 
-### Visszatér
+### Visszatérési érték
 
 Bitmap objektum.
 
@@ -39,13 +39,13 @@ def get_image(self, image_size):
 
 | Paraméter | Típus | Leírás |
 | :- | :- | :- |
-| image_size | **aspose.slides.Size** | A létrehozandó kép mérete. |
+| image_size | [`Size`](/slides/python-net/hu/aspose.slides/size) | A létrehozandó kép mérete. |
 
 
 ## get_image(self, options) {#asposeslidesexportitiffoptions}
-Visszaad egy miniatűr TIFF bitmap objektumot a megadott paraméterekkel.
+Megadott paraméterekkel rendelkező bélyegkép-tiff bitmap objektumot ad vissza.
 
-### Visszatér
+### Visszatérési érték
 
 Kép objektum.
 
@@ -59,13 +59,13 @@ def get_image(self, options):
 
 | Paraméter | Típus | Leírás |
 | :- | :- | :- |
-| options | [`ITiffOptions`](/slides/python-net/hu/aspose.slides.export/itiffoptions) | TIFF beállítások. |
+| options | [`ITiffOptions`](/slides/python-net/hu/aspose.slides.export/itiffoptions) | Tiff beállítások. |
 
 
 ## get_image(self, options) {#asposeslidesexportirenderingoptions}
-Visszaad egy miniatűr Bitmap objektumot.
+Bélyegkép Bitmap objektumot ad vissza.
 
-### Visszatér
+### Visszatérési érték
 
 Bitmap objektumok.
 
@@ -83,11 +83,11 @@ def get_image(self, options):
 
 
 ## get_image(self, scale_x, scale_y) {#float-float}
-Visszaad egy képet egyedi méretezéssel.
+Egyedi méretezéssel rendelkező kép objektumot ad vissza.
 
-### Visszatér
+### Visszatérési érték
 
-Kép objektum **aspose.slides.Bitmap**
+Kép objektum **aspose.slides.IImage**
 
 
 
@@ -99,14 +99,14 @@ def get_image(self, scale_x, scale_y):
 
 | Paraméter | Típus | Leírás |
 | :- | :- | :- |
-| scale_x | **float** | Az az érték, amellyel a miniatűr képet az X-tengelyen skálázzuk. |
-| scale_y | **float** | Az az érték, amellyel a miniatűr képet az Y-tengelyen skálázzuk. |
+| scale_x | **float** | Az érték, amely szerint a bélyegképet az x-tengely irányában méretezni kell. |
+| scale_y | **float** | Az érték, amely szerint a bélyegképet az y-tengely irányában méretezni kell. |
 
 
-## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposepydrawingsize}
-Visszaad egy miniatűr Bitmap objektumot a megadott mérettel.
+## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposeslidessize}
+Megadott mérettel rendelkező bélyegkép Bitmap objektumot ad vissza.
 
-### Visszatér
+### Visszatérési érték
 
 Bitmap objektumok.
 
@@ -121,13 +121,13 @@ def get_image(self, options, image_size):
 | Paraméter | Típus | Leírás |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/hu/aspose.slides.export/irenderingoptions) | Renderelési beállítások. |
-| image_size | **aspose.slides.Size** | A létrehozandó kép mérete. |
+| image_size | [`Size`](/slides/python-net/hu/aspose.slides/size) | A létrehozandó kép mérete. |
 
 
 ## get_image(self, options, scale_x, scale_y) {#asposeslidesexportirenderingoptions-float-float}
-Visszaad egy miniatűr Bitmap objektumot egyedi méretezéssel.
+Egyedi méretezéssel rendelkező bélyegkép Bitmap objektumot ad vissza.
 
-### Visszatér
+### Visszatérési érték
 
 Bitmap objektumok.
 
@@ -142,8 +142,8 @@ def get_image(self, options, scale_x, scale_y):
 | Paraméter | Típus | Leírás |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/hu/aspose.slides.export/irenderingoptions) | Renderelési beállítások. |
-| scale_x | **float** | Az az érték, amellyel a miniatűr képet az X-tengelyen skálázzuk. |
-| scale_y | **float** | Az az érték, amellyel a miniatűr képet az Y-tengelyen skálázzuk. |
+| scale_x | **float** | Az érték, amely szerint a bélyegképet az x-tengely irányában méretezni kell. |
+| scale_y | **float** | Az érték, amely szerint a bélyegképet az y-tengely irányában méretezni kell. |
 
 
 
@@ -152,5 +152,6 @@ def get_image(self, options, scale_x, scale_y):
 * osztály [`IRenderingOptions`](/slides/python-net/hu/aspose.slides.export/irenderingoptions)
 * osztály [`ISlide`](/slides/python-net/hu/aspose.slides/islide)
 * osztály [`ITiffOptions`](/slides/python-net/hu/aspose.slides.export/itiffoptions)
+* osztály [`Size`](/slides/python-net/hu/aspose.slides/size)
 * modul [`aspose.slides`](/slides/python-net/hu/aspose.slides)
 * könyvtár [`Aspose.Slides`](/slides/python-net)

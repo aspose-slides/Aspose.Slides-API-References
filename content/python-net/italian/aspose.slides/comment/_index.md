@@ -15,11 +15,11 @@ Il tipo Comment espone i seguenti membri:
 
 | Proprietà | Descrizione |
 | :- | :- |
-| [`text`](/slides/python-net/it/aspose.slides/comment/text/) | Restituisce o imposta il testo semplice di un commento su una diapositiva.<br/>            Lettura/scrittura **str**. |
-| [`created_time`](/slides/python-net/it/aspose.slides/comment/created_time/) | Restituisce o imposta l'ora di creazione di un commento.<br/>            Impostare questa proprietà a **System.DateTime** significa che non è impostata alcuna ora del commento.<br/>            Lettura/scrittura **System.DateTime**. |
-| [`slide`](/slides/python-net/it/aspose.slides/comment/slide/) | Restituisce o imposta la diapositiva principale di un commento.<br/>            Solo lettura [`ISlide`](/slides/python-net/it/aspose.slides/islide). |
-| [`author`](/slides/python-net/it/aspose.slides/comment/author/) | Restituisce l'autore di un commento.<br/>            Solo lettura [`ICommentAuthor`](/slides/python-net/it/aspose.slides/icommentauthor). |
-| [`position`](/slides/python-net/it/aspose.slides/comment/position/) | Restituisce o imposta la posizione di un commento su una diapositiva.<br/>            Lettura/scrittura **aspose.slides.PointF**. |
+| [`text`](/slides/python-net/it/aspose.slides/comment/text/) | Restituisce o imposta il testo semplice di un commento della diapositiva.<br/>            Lettura/scrittura **str**. |
+| [`created_time`](/slides/python-net/it/aspose.slides/comment/created_time/) | Restituisce o imposta l'ora di creazione di un commento.<br/>            Impostare questa proprietà a **System.DateTime** significa che non è impostata l'ora del commento.<br/>            Lettura/scrittura **System.DateTime**. |
+| [`slide`](/slides/python-net/it/aspose.slides/comment/slide/) | Restituisce o imposta la diapositiva principale di un commento.<br/>            Sola lettura [`ISlide`](/slides/python-net/it/aspose.slides/islide). |
+| [`author`](/slides/python-net/it/aspose.slides/comment/author/) | Restituisce l'autore di un commento.<br/>            Sola lettura [`ICommentAuthor`](/slides/python-net/it/aspose.slides/icommentauthor). |
+| [`position`](/slides/python-net/it/aspose.slides/comment/position/) | Restituisce o imposta la posizione di un commento su una diapositiva.<br/>            Lettura/scrittura [`PointF`](/slides/python-net/it/aspose.slides/pointf). |
 | [`parent_comment`](/slides/python-net/it/aspose.slides/comment/parent_comment/) | Restituisce o imposta il commento principale.<br/>            Lettura/scrittura [`IComment`](/slides/python-net/it/aspose.slides/icomment). |
 
 ## Metodi

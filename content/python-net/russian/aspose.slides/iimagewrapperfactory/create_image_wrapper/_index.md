@@ -1,6 +1,6 @@
 ---
 title: create_image_wrapper method
-second_title: Aspose.Slides для Python через .NET справочник API
+second_title: Aspose.Slides для Python через .NET API справочник
 description: 
 type: docs
 url: /ru/aspose.slides/iimagewrapperfactory/create_image_wrapper/
@@ -20,7 +20,8 @@ def create_image_wrapper(self, image):
 
 | Параметр | Тип | Описание |
 | :- | :- | :- |
-| image | [`IImage`](/slides/python-net/ru/aspose.slides/iimage) | Existing Image **aspose.slides.Image** |
+| image | [`IImage`](/slides/python-net/ru/aspose.slides/iimage) | Существующее изображение **aspose.slides.IImage** |
+
 
 ## create_image_wrapper(self, stream) {#iorawiobase}
 Инициализирует новый экземпляр класса ImageWrapper из указанного потока данных.
@@ -36,7 +37,8 @@ def create_image_wrapper(self, stream):
 
 | Параметр | Тип | Описание |
 | :- | :- | :- |
-| stream | **io.RawIOBase** | Data stream **io.RawIOBase** |
+| stream | **io.RawIOBase** | Поток данных **io.RawIOBase** |
+
 
 ## create_image_wrapper(self, file_name) {#str}
 Инициализирует новый экземпляр класса ImageWrapper из указанного файла.
@@ -52,7 +54,9 @@ def create_image_wrapper(self, file_name):
 
 | Параметр | Тип | Описание |
 | :- | :- | :- |
-| file_name | **str** | File name **str** |
+| file_name | **str** | Имя файла **str** |
+
+
 
 ### См. также
 * класс [`IImage`](/slides/python-net/ru/aspose.slides/iimage)

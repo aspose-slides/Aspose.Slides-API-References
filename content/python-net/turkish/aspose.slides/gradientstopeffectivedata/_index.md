@@ -7,16 +7,16 @@ url: /tr/aspose.slides/gradientstopeffectivedata/
 ---
 ## GradientStopEffectiveData sınıfı
 
-Değiştirilemez nesne, bir gradyan durağını temsil eder.
+Immutable nesne, bir gradient durakını temsil eder.
 
-GradientStopEffectiveData türü aşağıdaki üyeleri içerir:
+GradientStopEffectiveData türü aşağıdaki üyeleri ortaya çıkarır:
 
 ## Özellikler
 
 | Özellik | Açıklama |
 | :- | :- |
-| [`position`](/slides/python-net/tr/aspose.slides/gradientstopeffectivedata/position/) | Bir gradyan durağının konumunu (0..1) döndürür.<br/>            Yalnızca-okunur **float**. |
-| [`color`](/slides/python-net/tr/aspose.slides/gradientstopeffectivedata/color/) | Bir gradyan durağının rengini döndürür.<br/>            Yalnızca-okunur **aspose.slides.Color**. |
+| [`position`](/slides/python-net/tr/aspose.slides/gradientstopeffectivedata/position/) | Gradient durakının konumunu (0..1) döndürür.<br/>            Yalnızca okuma **float**. |
+| [`color`](/slides/python-net/tr/aspose.slides/gradientstopeffectivedata/color/) | Gradient durakının rengini döndürür.<br/>            Yalnızca okuma [`Color`](/slides/python-net/tr/aspose.slides/color). |
 
 
 ### Ayrıca Bakınız

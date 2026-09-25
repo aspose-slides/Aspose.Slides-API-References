@@ -15,8 +15,8 @@ Der IInkTrace-Typ stellt die folgenden Mitglieder bereit:
 
 | Eigenschaft | Beschreibung |
 | :- | :- |
-| [`brush`](/slides/python-net/de/aspose.slides.ink/iinktrace/brush/) | Ruft den Brush für die IInkLine [`IInkBrush`](/slides/python-net/de/aspose.slides.ink/iinkbrush) ab<br/>            Nur lesbar. |
-| [`points`](/slides/python-net/de/aspose.slides.ink/iinktrace/points/) | Ruft die Punkte für die IInkLine **aspose.slides.PointF** ab<br/>            Nur lesbar. |
+| [`brush`](/slides/python-net/de/aspose.slides.ink/iinktrace/brush/) | Liefert Brush für die IInkLine [`IInkBrush`](/slides/python-net/de/aspose.slides.ink/iinkbrush)<br/>            Nur lesbar. |
+| [`points`](/slides/python-net/de/aspose.slides.ink/iinktrace/points/) | Liefert Punkte für die IInkLine [`PointF`](/slides/python-net/de/aspose.slides/pointf)<br/>            Nur lesbar. |
 
 
 ### Siehe auch

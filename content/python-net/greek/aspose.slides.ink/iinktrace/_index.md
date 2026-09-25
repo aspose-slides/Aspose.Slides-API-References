@@ -7,16 +7,16 @@ url: /el/aspose.slides.ink/iinktrace/
 ---
 ## IInkTrace κλάση
 
-Αναπαριστά χειρόγραφη γραμμή σε ένα αντικείμενο Ink.
+Αντιπροσωπεύει μια χειρόγραφη γραμμή σε ένα αντικείμενο Ink.
 
-Ο τύπος IInkTrace εκθέτει τα παρακάτω μέλη:
+Ο τύπος IInkTrace εκθέτει τα ακόλουθα μέλη:
 
 ## Ιδιότητες
 
 | Ιδιότητα | Περιγραφή |
 | :- | :- |
-| [`brush`](/slides/python-net/el/aspose.slides.ink/iinktrace/brush/) | Επιστρέφει Brush για το IInkLine [`IInkBrush`](/slides/python-net/el/aspose.slides.ink/iinkbrush)<br/>Μόνο ανάγνωση. |
-| [`points`](/slides/python-net/el/aspose.slides.ink/iinktrace/points/) | Επιστρέφει σημεία για το IInkLine **aspose.slides.PointF**<br/>Μόνο ανάγνωση. |
+| [`brush`](/slides/python-net/el/aspose.slides.ink/iinktrace/brush/) | Παίρνει πινέλο για το IInkLine [`IInkBrush`](/slides/python-net/el/aspose.slides.ink/iinkbrush)<br/>            Μόνο για ανάγνωση. |
+| [`points`](/slides/python-net/el/aspose.slides.ink/iinktrace/points/) | Παίρνει σημεία για το IInkLine [`PointF`](/slides/python-net/el/aspose.slides/pointf)<br/>            Μόνο για ανάγνωση. |
 
 
 ### Δείτε επίσης

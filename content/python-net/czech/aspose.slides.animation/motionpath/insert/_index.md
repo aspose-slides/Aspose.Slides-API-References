@@ -1,12 +1,12 @@
 ---
 title: insert method
-second_title: Aspose.Slides pro Python přes .NET API Reference
+second_title: Aspose.Slides pro Python přes .NET API referenci
 description: 
 type: docs
 url: /cs/aspose.slides.animation/motionpath/insert/
 weight: 40
 ---
-## insert(self, index, type, pts, pts_type, b_relative_coord) {#int-motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool}
+## insert(self, index, type, pts, pts_type, b_relative_coord) {#int-motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool}
 Vložit nový příkaz do cesty
 
 
@@ -27,8 +27,8 @@ def insert(self, index, type, pts, pts_type, b_relative_coord):
 
 
 ### Viz také
-* výčet [`MotionCommandPathType`](/slides/python-net/cs/aspose.slides.animation/motioncommandpathtype)
+* enumerace [`MotionCommandPathType`](/slides/python-net/cs/aspose.slides.animation/motioncommandpathtype)
 * třída [`MotionPath`](/slides/python-net/cs/aspose.slides.animation/motionpath)
-* výčet [`MotionPathPointsType`](/slides/python-net/cs/aspose.slides.animation/motionpathpointstype)
+* enumerace [`MotionPathPointsType`](/slides/python-net/cs/aspose.slides.animation/motionpathpointstype)
 * modul [`aspose.slides.animation`](/slides/python-net/cs/aspose.slides.animation)
 * knihovna [`Aspose.Slides`](/slides/python-net)

@@ -7,11 +7,11 @@ url: /ar/aspose.slides/legacydiagram/get_visual_bounds/
 weight: 60
 ---
 ## get_visual_bounds(self) {#}
-يقوم بالحصول على الحدود البصرية للشكل محسوبة من محتواها المرسوم.
+يحصل على الحدود البصرية للشكل محسوبة من محتواه المعروض.
 
-### القيمة المرجعة
+### الإرجاع
 
-كائن **aspose.slides.RectangleF** يمثل الحدود البصرية للشكل في إحداثيات الشريحة.
+كائن [`RectangleF`](/slides/python-net/ar/aspose.slides/rectanglef) يمثل الحدود البصرية للشكل في إحداثيات الشريحة
 
 
 
@@ -22,17 +22,27 @@ def get_visual_bounds(self):
 
 
 ### ملاحظات
-المستطيل المرجع يمثل الحدود المحاذية للمحور لجميع المحتويات التي ينتجها الشكل أثناء العرض في مساحة إحداثيات الشريحة.
 
-قد تختلف هذه الحدود عن حدود نموذج الشكل ([`Shape.x`](/slides/python-net/ar/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/ar/aspose.slides/shape/y), [`Shape.width`](/slides/python-net/ar/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/ar/aspose.slides/shape/height)) وقد تحتوي على إحداثيات سالبة إذا كان المحتوى المرسوم يمتد خارج أصل الشريحة.
+المستطيل المرجع يمثل الحدود المحاذاة للمحور لجميع المحتوى
+             الذي ينتجه الشكل أثناء العرض في مساحة إحداثيات الشريحة.
 
-تأخذ الحدود البصرية في الاعتبار الجوانب المتعلقة بالعرض مثل التحويلات (مثلاً، الدوران)، عرض الحدود والالتقاطات، تخطيط النص وتدفقه، هندسة SmartArt، وغيرها من تأثيرات التخطيط التي تؤثر على المظهر النهائي المرسوم للشكل.
+قد تختلف هذه الحدود عن حدود نموذج الشكل
+             ([`Shape.x`](/slides/python-net/ar/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/ar/aspose.slides/shape/y),
+             [`Shape.width`](/slides/python-net/ar/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/ar/aspose.slides/shape/height))
+             وقد تحتوي على إحداثيات سالبة إذا امتد المحتوى المعروض
+             خارج أصل الشريحة.
 
-الحدود المرجعة لا تُقَصّ على مستطيل الشريحة.
+تأخذ الحدود البصرية في الاعتبار الجوانب المتعلقة بالعرض مثل
+             التحويلات (على سبيل المثال، الدوران)، عرض الخطوط والاتصالات،
+             تخطيط النص والتجاوز، هندسة SmartArt، وغيرها من تأثيرات التخطيط
+             التي تؤثر على المظهر النهائي المعروض للشكل.
+
+الحدود المرجعة ليست مقصوصة إلى مستطيل الشريحة.
 
 
 
 ### انظر أيضًا
 * الفئة [`LegacyDiagram`](/slides/python-net/ar/aspose.slides/legacydiagram)
+* الفئة [`RectangleF`](/slides/python-net/ar/aspose.slides/rectanglef)
 * الوحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
 * المكتبة [`Aspose.Slides`](/slides/python-net)

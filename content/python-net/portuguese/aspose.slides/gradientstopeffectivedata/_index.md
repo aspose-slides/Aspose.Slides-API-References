@@ -16,9 +16,9 @@ O tipo GradientStopEffectiveData expõe os seguintes membros:
 | Propriedade | Descrição |
 | :- | :- |
 | [`position`](/slides/python-net/pt/aspose.slides/gradientstopeffectivedata/position/) | Retorna a posição (0..1) de uma parada de gradiente.<br/>            Somente leitura **float**. |
-| [`color`](/slides/python-net/pt/aspose.slides/gradientstopeffectivedata/color/) | Retorna a cor de uma parada de gradiente.<br/>            Somente leitura **aspose.slides.Color**. |
+| [`color`](/slides/python-net/pt/aspose.slides/gradientstopeffectivedata/color/) | Retorna a cor de uma parada de gradiente.<br/>            Somente leitura [`Color`](/slides/python-net/pt/aspose.slides/color). |
 
 
 ### Veja Também
 * módulo [`aspose.slides`](/slides/python-net/pt/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* biblioteca [`Aspose.Slides`](/slides/python-net)

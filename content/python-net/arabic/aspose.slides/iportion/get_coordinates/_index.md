@@ -1,16 +1,19 @@
 ---
 title: get_coordinates method
-second_title: Aspose.Slides لـ Python عبر مرجع API .NET
+second_title: Aspose.Slides لبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/iportion/get_coordinates/
 weight: 20
 ---
 ## get_coordinates(self) {#}
-احصل على إحداثيات بداية الجزء. إحداثية X للنقطة تمثل بداية الجزء من الحرف الأول بما في ذلك مسافة الجانب الأيسر. إحداثية Y تشمل مسافة الجانب العلوي.
+احصل على إحداثيات بداية الجزء. إحداثي X للنقطة يمثل
+            بدء الجزء من الحرف الأول بما في ذلك المسافة الجانبية اليسرى. إحداثي Y
+            يشمل المسافة الجانبية العلوية.
 
-### القيمة المرجعة
-Coordinates of the beginning of the portion **aspose.slides.PointF**
+### القيم المرجعة
+
+إحداثيات بداية الجزء [`PointF`](/slides/python-net/ar/aspose.slides/pointf)
 
 
 
@@ -23,6 +26,7 @@ def get_coordinates(self):
 
 
 ### انظر أيضًا
-* الفئة [`IPortion`](/slides/python-net/ar/aspose.slides/iportion)
-* الوحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
-* المكتبة [`Aspose.Slides`](/slides/python-net)
+* فئة [`IPortion`](/slides/python-net/ar/aspose.slides/iportion)
+* فئة [`PointF`](/slides/python-net/ar/aspose.slides/pointf)
+* وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

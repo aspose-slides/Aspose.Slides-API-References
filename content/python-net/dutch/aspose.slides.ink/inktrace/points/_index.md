@@ -7,7 +7,7 @@ url: /nl/aspose.slides.ink/inktrace/points/
 weight: 20
 ---
 ## points eigenschap
-Retourneert punten voor de IInkLine **aspose.slides.PointF**
+Haalt punten op voor de IInkLine [`PointF`](/slides/python-net/nl/aspose.slides/pointf)
             Alleen-lezen.
 
 ### Definitie:
@@ -20,5 +20,6 @@ def points(self):
 
 ### Zie ook
 * klasse [`InkTrace`](/slides/python-net/nl/aspose.slides.ink/inktrace)
+* klasse [`PointF`](/slides/python-net/nl/aspose.slides/pointf)
 * module [`aspose.slides.ink`](/slides/python-net/nl/aspose.slides.ink)
 * bibliotheek [`Aspose.Slides`](/slides/python-net)

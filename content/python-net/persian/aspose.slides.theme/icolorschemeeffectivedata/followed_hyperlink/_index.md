@@ -6,9 +6,9 @@ type: docs
 url: /fa/aspose.slides.theme/icolorschemeeffectivedata/followed_hyperlink/
 weight: 90
 ---
-## followed_hyperlink ویژگی
+## followed_hyperlink خاصیت
 رنگ برای پیوندهای بازدید شده.
-            فقط‌خواندنی **aspose.slides.Color**.
+            فقط‌خواندنی [`Color`](/slides/python-net/fa/aspose.slides/color).
 
 ### تعریف:
 ```python
@@ -20,5 +20,6 @@ def followed_hyperlink(self):
 
 ### موارد مرتبط
 * کلاس [`IColorSchemeEffectiveData`](/slides/python-net/fa/aspose.slides.theme/icolorschemeeffectivedata)
+* کلاس [`Color`](/slides/python-net/fa/aspose.slides/color)
 * ماژول [`aspose.slides.theme`](/slides/python-net/fa/aspose.slides.theme)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

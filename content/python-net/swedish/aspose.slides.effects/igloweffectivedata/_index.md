@@ -7,7 +7,7 @@ url: /sv/aspose.slides.effects/igloweffectivedata/
 ---
 ## IGlowEffectiveData klass
 
-Oföränderligt objekt som representerar en Glow-effekt, i vilken en färgad oskarp kontur
+Oföränderligt objekt som representerar en Glow-effekt, där en färgad, suddad kontur
             läggs till utanför objektets kanter.
 
 Typen IGlowEffectiveData exponerar följande medlemmar:
@@ -16,8 +16,8 @@ Typen IGlowEffectiveData exponerar följande medlemmar:
 
 | Egenskap | Beskrivning |
 | :- | :- |
-| [`radius`](/slides/python-net/sv/aspose.slides.effects/igloweffectivedata/radius/) | Radius.<br/>            Skrivskyddad **float**. |
-| [`color`](/slides/python-net/sv/aspose.slides.effects/igloweffectivedata/color/) | Färg.<br/>            Skrivskyddad **aspose.slides.Color**. |
+| [`radius`](/slides/python-net/sv/aspose.slides.effects/igloweffectivedata/radius/) | Radie.<br/>            Skrivskyddad **float**. |
+| [`color`](/slides/python-net/sv/aspose.slides.effects/igloweffectivedata/color/) | Färg.<br/>            Skrivskyddad [`Color`](/slides/python-net/sv/aspose.slides/color). |
 
 
 ### Se även

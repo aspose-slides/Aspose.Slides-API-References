@@ -1,118 +1,144 @@
 ---
 title: get_images method
-second_title: Aspose.Slides for Python via .NET API 參考文件
+second_title: Aspose.Slides for Python 透過 .NET API 參考
 description: 
 type: docs
 url: /zh-hant/aspose.slides/ipresentation/get_images/
 weight: 10
 ---
 ## get_images(self, options) {#asposeslidesexportirenderingoptions}
-傳回所有投影片的縮圖 Image 物件。
+返回簡報所有投影片的 Thumbnail Image 物件。
 
-### 傳回
+### 返回
 
 Bitmap 物件。
+
+
 
 ```python
 def get_images(self, options):
     ...
 ```
 
-| 參數 | 類型 | 描述 |
+
+| Parameter | Type | Description |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/zh-hant/aspose.slides.export/irenderingoptions) | 渲染選項。 |
+| options | [`IRenderingOptions`](/slides/python-net/zh-hant/aspose.slides.export/irenderingoptions) | 呈現選項。 |
+
 
 ## get_images(self, options, slides) {#asposeslidesexportirenderingoptions-listint}
-傳回指定投影片的縮圖 Bitmap 物件。
+返回簡報指定投影片的 Thumbnail Bitmap 物件。
 
-### 傳回
+### 返回
 
 Bitmap 物件。
+
+
 
 ```python
 def get_images(self, options, slides):
     ...
 ```
 
-| 參數 | 類型 | 描述 |
+
+| Parameter | Type | Description |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/zh-hant/aspose.slides.export/irenderingoptions) | 渲染選項。 |
-| slides | **List[int]** | 陣列，包含投影片位置，起始值為 1。 |
+| options | [`IRenderingOptions`](/slides/python-net/zh-hant/aspose.slides.export/irenderingoptions) | 呈現選項。 |
+| slides | **List[int]** | 包含投影片位置的陣列，從 1 開始。 |
 
-## get_images(self, options, image_size) {#asposeslidesexportirenderingoptions-asposepydrawingsize}
-傳回所有投影片的縮圖 Image 物件，使用指定大小。
 
-### 傳回
+## get_images(self, options, image_size) {#asposeslidesexportirenderingoptions-asposeslidessize}
+返回簡報所有投影片的 Thumbnail Image 物件，使用指定的大小。
+
+### 返回
 
 Bitmap 物件。
+
+
 
 ```python
 def get_images(self, options, image_size):
     ...
 ```
 
-| 參數 | 類型 | 描述 |
+
+| Parameter | Type | Description |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/zh-hant/aspose.slides.export/irenderingoptions) | 渲染選項。 |
-| image_size | **aspose.slides.Size** | 要建立之影像的大小。 |
+| options | [`IRenderingOptions`](/slides/python-net/zh-hant/aspose.slides.export/irenderingoptions) | 呈現選項。 |
+| image_size | [`Size`](/slides/python-net/zh-hant/aspose.slides/size) | 要建立的影像大小。 |
+
 
 ## get_images(self, options, scale_x, scale_y) {#asposeslidesexportirenderingoptions-float-float}
-傳回所有投影片的縮圖 Image 物件，使用自訂縮放。
+返回簡報所有投影片的 Thumbnail Image 物件，使用自訂比例。
 
-### 傳回
+### 返回
 
 Bitmap 物件。
+
+
 
 ```python
 def get_images(self, options, scale_x, scale_y):
     ...
 ```
 
-| 參數 | 類型 | 描述 |
+
+| Parameter | Type | Description |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/zh-hant/aspose.slides.export/irenderingoptions) | 渲染選項。 |
-| scale_x | **float** | 在 x 軸方向縮放此縮圖的值。 |
-| scale_y | **float** | 在 y 軸方向縮放此縮圖的值。 |
+| options | [`IRenderingOptions`](/slides/python-net/zh-hant/aspose.slides.export/irenderingoptions) | 呈現選項。 |
+| scale_x | **float** | 在 x 軸方向上縮放此 Thumbnail 的比例值。 |
+| scale_y | **float** | 在 y 軸方向上縮放此 Thumbnail 的比例值。 |
 
-## get_images(self, options, slides, image_size) {#asposeslidesexportirenderingoptions-listint-asposepydrawingsize}
-傳回指定投影片的縮圖 Image 物件，使用指定大小。
 
-### 傳回
+## get_images(self, options, slides, image_size) {#asposeslidesexportirenderingoptions-listint-asposeslidessize}
+返回簡報指定投影片的 Thumbnail Image 物件，使用指定的大小。
+
+### 返回
 
 Bitmap 物件。
+
+
 
 ```python
 def get_images(self, options, slides, image_size):
     ...
 ```
 
-| 參數 | 類型 | 描述 |
+
+| Parameter | Type | Description |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/zh-hant/aspose.slides.export/irenderingoptions) | 渲染選項。 |
-| slides | **List[int]** | 陣列，包含投影片位置，起始值為 1。 |
-| image_size | **aspose.slides.Size** | 要建立之影像的大小。 |
+| options | [`IRenderingOptions`](/slides/python-net/zh-hant/aspose.slides.export/irenderingoptions) | 呈現選項。 |
+| slides | **List[int]** | 包含投影片位置的陣列，從 1 開始。 |
+| image_size | [`Size`](/slides/python-net/zh-hant/aspose.slides/size) | 要建立的影像大小。 |
+
 
 ## get_images(self, options, slides, scale_x, scale_y) {#asposeslidesexportirenderingoptions-listint-float-float}
-傳回指定投影片的縮圖 Image 物件，使用自訂縮放。
+返回簡報指定投影片的 Thumbnail Image 物件，使用自訂比例。
 
-### 傳回
+### 返回
 
 Bitmap 物件。
+
+
 
 ```python
 def get_images(self, options, slides, scale_x, scale_y):
     ...
 ```
 
-| 參數 | 類型 | 描述 |
-| :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/zh-hant/aspose.slides.export/irenderingoptions) | 渲染選項。 |
-| slides | **List[int]** | 陣列，包含投影片位置，起始值為 1。 |
-| scale_x | **float** | 在 x 軸方向縮放此縮圖的值。 |
-| scale_y | **float** | 在 y 軸方向縮放此縮圖的值。 |
 
-### 參見
+| Parameter | Type | Description |
+| :- | :- | :- |
+| options | [`IRenderingOptions`](/slides/python-net/zh-hant/aspose.slides.export/irenderingoptions) | 呈現選項。 |
+| slides | **List[int]** | 包含投影片位置的陣列，從 1 開始。 |
+| scale_x | **float** | 在 x 軸方向上縮放此 Thumbnail 的比例值。 |
+| scale_y | **float** | 在 y 軸方向上縮放此 Thumbnail 的比例值。 |
+
+
+
+### 另見
 * 類別 [`IPresentation`](/slides/python-net/zh-hant/aspose.slides/ipresentation)
 * 類別 [`IRenderingOptions`](/slides/python-net/zh-hant/aspose.slides.export/irenderingoptions)
+* 類別 [`Size`](/slides/python-net/zh-hant/aspose.slides/size)
 * 模組 [`aspose.slides`](/slides/python-net/zh-hant/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* 函式庫 [`Aspose.Slides`](/slides/python-net)

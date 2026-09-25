@@ -9,16 +9,17 @@ url: /nl/aspose.slides.animation/imotioncmdpath/
 
 Stelt één commando van een pad voor.
 
-Het type IMotionCmdPath biedt de volgende leden weer:
+Het IMotionCmdPath-type maakt de volgende leden beschikbaar:
 
 ## Eigenschappen
 
 | Eigenschap | Beschrijving |
 | :- | :- |
-| [`points`](/slides/python-net/nl/aspose.slides.animation/imotioncmdpath/points/) | Specificeert punten van het commando.<br/>            Lezen/Schrijven **aspose.slides.PointF**[]. |
-| [`command_type`](/slides/python-net/nl/aspose.slides.animation/imotioncmdpath/command_type/) | Specificeert commando-type.<br/>            Lezen/Schrijven [`MotionCommandPathType`](/slides/python-net/nl/aspose.slides.animation/motioncommandpathtype). |
-| [`is_relative`](/slides/python-net/nl/aspose.slides.animation/imotioncmdpath/is_relative/) | Bepaalt of de coördinaten van het commando relatief zijn of niet.<br/>            Lezen/Schrijven **bool**. |
-| [`points_type`](/slides/python-net/nl/aspose.slides.animation/imotioncmdpath/points_type/) | Specificeert het type van commandopunten<br/>            Lezen/Schrijven [`MotionPathPointsType`](/slides/python-net/nl/aspose.slides.animation/motionpathpointstype). |
+| [`points`](/slides/python-net/nl/aspose.slides.animation/imotioncmdpath/points/) | Specificeert punten van het commando.<br/>            Lezen/schrijven [`PointF`](/slides/python-net/nl/aspose.slides/pointf)[]. |
+| [`command_type`](/slides/python-net/nl/aspose.slides.animation/imotioncmdpath/command_type/) | Specificeert het type van het commando.<br/>            Lezen/schrijven [`MotionCommandPathType`](/slides/python-net/nl/aspose.slides.animation/motioncommandpathtype). |
+| [`is_relative`](/slides/python-net/nl/aspose.slides.animation/imotioncmdpath/is_relative/) | Bepaal of de coördinaten van het commando relatief zijn of niet.<br/>            Lezen/schrijven **bool**. |
+| [`points_type`](/slides/python-net/nl/aspose.slides.animation/imotioncmdpath/points_type/) | Specificeert type van opdrachtpunten<br/>            Lezen/schrijven [`MotionPathPointsType`](/slides/python-net/nl/aspose.slides.animation/motionpathpointstype). |
+
 
 ### Zie ook
 * module [`aspose.slides.animation`](/slides/python-net/nl/aspose.slides.animation)

@@ -1,6 +1,6 @@
 ---
 title: from_address property
-second_title: Aspose.Slides dla Pythona poprzez .NET API
+second_title: Aspose.Slides dla Pythona poprzez .NET – odniesienie API
 description: 
 type: docs
 url: /pl/aspose.slides.animation/motioneffect/from_address/
@@ -8,7 +8,7 @@ weight: 70
 ---
 ## from_address właściwość
 Określa współrzędną x/y, od której rozpocząć animację (w procentach). 
-            Odczyt/zapis **aspose.slides.PointF**.
+            Odczyt/zapis [`PointF`](/slides/python-net/pl/aspose.slides/pointf).
 
 ### Definicja:
 ```python
@@ -22,7 +22,8 @@ def from_address(self, value):
 ```
 
 
-### Zobacz również
+### Zobacz także
 * klasa [`MotionEffect`](/slides/python-net/pl/aspose.slides.animation/motioneffect)
+* klasa [`PointF`](/slides/python-net/pl/aspose.slides/pointf)
 * moduł [`aspose.slides.animation`](/slides/python-net/pl/aspose.slides.animation)
 * biblioteka [`Aspose.Slides`](/slides/python-net)

@@ -1,6 +1,6 @@
 ---
 title: IGradientStopEffectiveData class
-second_title: Aspose.Slides pour Python via .NET Référence d'API
+second_title: Référence API Aspose.Slides pour Python via .NET
 description: 
 type: docs
 url: /fr/aspose.slides/igradientstopeffectivedata/
@@ -16,7 +16,7 @@ Le type IGradientStopEffectiveData expose les membres suivants :
 | Propriété | Description |
 | :- | :- |
 | [`position`](/slides/python-net/fr/aspose.slides/igradientstopeffectivedata/position/) | Renvoie la position (0..1) d'un arrêt de dégradé.<br/>            Lecture seule **float**. |
-| [`color`](/slides/python-net/fr/aspose.slides/igradientstopeffectivedata/color/) | Renvoie la couleur d'un arrêt de dégradé.<br/>            Lecture seule **aspose.slides.Color**. |
+| [`color`](/slides/python-net/fr/aspose.slides/igradientstopeffectivedata/color/) | Renvoie la couleur d'un arrêt de dégradé.<br/>            Lecture seule [`Color`](/slides/python-net/fr/aspose.slides/color). |
 
 
 ### Voir aussi

@@ -1,24 +1,24 @@
 ---
 title: IInnerShadowEffectiveData class
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
 description: 
 type: docs
 url: /th/aspose.slides.effects/iinnershadoweffectivedata/
 ---
 ## IInnerShadowEffectiveData คลาส
 
-Immutable object which represents a inner shadow effect.
+อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของเอฟเฟกต์เงาภายใน
 
-The IInnerShadowEffectiveData type exposes the following members:
+ประเภท IInnerShadowEffectiveData เปิดเผยสมาชิกต่อไปนี้:
 
 ## คุณสมบัติ
 
-| Property | Description |
+| คุณสมบัติ | คำอธิบาย |
 | :- | :- |
-| [`blur_radius`](/slides/python-net/th/aspose.slides.effects/iinnershadoweffectivedata/blur_radius/) | รัศมีเบลอ.<br/>            อ่านอย่างเดียว **float**. |
+| [`blur_radius`](/slides/python-net/th/aspose.slides.effects/iinnershadoweffectivedata/blur_radius/) | รัศมีการเบลอ.<br/>            อ่านอย่างเดียว **float**. |
 | [`direction`](/slides/python-net/th/aspose.slides.effects/iinnershadoweffectivedata/direction/) | ทิศทางของเงา.<br/>            อ่านอย่างเดียว **float**. |
 | [`distance`](/slides/python-net/th/aspose.slides.effects/iinnershadoweffectivedata/distance/) | ระยะของเงา.<br/>            อ่านอย่างเดียว **float**. |
-| [`shadow_color`](/slides/python-net/th/aspose.slides.effects/iinnershadoweffectivedata/shadow_color/) | สีของเงา.<br/>            อ่านอย่างเดียว **aspose.slides.Color**. |
+| [`shadow_color`](/slides/python-net/th/aspose.slides.effects/iinnershadoweffectivedata/shadow_color/) | สีของเงา.<br/>            อ่านอย่างเดียว [`Color`](/slides/python-net/th/aspose.slides/color). |
 
 
 ### ดูเพิ่มเติม

@@ -7,8 +7,8 @@ url: /zh/aspose.slides.export/ihtmlgenerator/slide_image_size/
 weight: 60
 ---
 ## slide_image_size 属性
-返回幻灯片图像大小。
-            只读 **aspose.slides.SizeF**.
+返回幻灯片图像大小.
+            只读 [`SizeF`](/slides/python-net/zh/aspose.slides/sizef).
 
 ### 定义：
 ```python
@@ -18,7 +18,8 @@ def slide_image_size(self):
 ```
 
 
-### 另请参见
+### 另请参阅
 * 类 [`IHtmlGenerator`](/slides/python-net/zh/aspose.slides.export/ihtmlgenerator)
+* 类 [`SizeF`](/slides/python-net/zh/aspose.slides/sizef)
 * 模块 [`aspose.slides.export`](/slides/python-net/zh/aspose.slides.export)
 * 库 [`Aspose.Slides`](/slides/python-net)

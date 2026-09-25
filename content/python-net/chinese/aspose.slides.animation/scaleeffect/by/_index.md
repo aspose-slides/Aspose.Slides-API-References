@@ -7,10 +7,10 @@ url: /zh/aspose.slides.animation/scaleeffect/by/
 weight: 50
 ---
 ## 按属性
-描述动画的相对偏移值（以百分比）。
-            读/写 **aspose.slides.PointF**.
+描述动画的相对偏移值（以百分比计）。
+            读取/写入 [`PointF`](/slides/python-net/zh/aspose.slides/pointf).
 
-### 定义:
+### 定义：
 ```python
 @property
 def by(self):
@@ -22,7 +22,8 @@ def by(self, value):
 ```
 
 
-### 另请参阅
+### 另见
 * 类 [`ScaleEffect`](/slides/python-net/zh/aspose.slides.animation/scaleeffect)
+* 类 [`PointF`](/slides/python-net/zh/aspose.slides/pointf)
 * 模块 [`aspose.slides.animation`](/slides/python-net/zh/aspose.slides.animation)
 * 库 [`Aspose.Slides`](/slides/python-net)

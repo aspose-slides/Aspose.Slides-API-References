@@ -7,10 +7,12 @@ url: /sv/aspose.slides/iportion/get_rect/
 weight: 30
 ---
 ## get_rect(self) {#}
-Hämta koordinaterna för den rektangel som avgränsar delen. Rektangeln inkluderar alla rader av text i delen, inklusive tomma.
+Hämta koordinaterna för rektangeln som omger portionen. Rektangeln inkluderar alla rader av
+             text i portionen, inklusive tomma rader.
 
 ### Returnerar
-Rektangel som avgränsar delen **aspose.slides.RectangleF**
+
+Rektangel som omger portionen [`RectangleF`](/slides/python-net/sv/aspose.slides/rectanglef)
 
 
 
@@ -24,5 +26,6 @@ def get_rect(self):
 
 ### Se även
 * klass [`IPortion`](/slides/python-net/sv/aspose.slides/iportion)
+* klass [`RectangleF`](/slides/python-net/sv/aspose.slides/rectanglef)
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

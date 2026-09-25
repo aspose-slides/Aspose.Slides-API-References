@@ -6,12 +6,12 @@ type: docs
 url: /zh-hant/aspose.slides/patternformat/get_tile/
 weight: 10
 ---
-## get_tile(self, style_color) {#asposepydrawingcolor}
-建立圖案填充的磚塊圖像。
+## get_tile(self, style_color) {#asposeslidescolor}
+建立圖案填充的瓦片圖像。
 
 ### 傳回
 
-磚塊 [`IImage`](/slides/python-net/zh-hant/aspose.slides/iimage).
+Tile [`IImage`](/slides/python-net/zh-hant/aspose.slides/iimage).
 
 
 
@@ -23,15 +23,15 @@ def get_tile(self, style_color):
 
 | 參數 | 類型 | 說明 |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | 預設 **aspose.slides.Color** |
+| style_color | [`Color`](/slides/python-net/zh-hant/aspose.slides/color) | 預設的 [`Color`](/slides/python-net/zh-hant/aspose.slides/color) |
 
 
-## get_tile(self, background, foreground) {#asposepydrawingcolor-asposepydrawingcolor}
-建立具有指定顏色的圖案填充磚塊圖像。
+## get_tile(self, background, foreground) {#asposeslidescolor-asposeslidescolor}
+使用指定的顏色建立圖案填充的瓦片圖像。
 
 ### 傳回
 
-磚塊 [`IImage`](/slides/python-net/zh-hant/aspose.slides/iimage).
+Tile [`IImage`](/slides/python-net/zh-hant/aspose.slides/iimage).
 
 
 
@@ -43,13 +43,14 @@ def get_tile(self, background, foreground):
 
 | 參數 | 類型 | 說明 |
 | :- | :- | :- |
-| background | **aspose.slides.Color** | 圖案的背景 **aspose.slides.Color**。 |
-| foreground | **aspose.slides.Color** | 圖案的前景 **aspose.slides.Color**。 |
+| background | [`Color`](/slides/python-net/zh-hant/aspose.slides/color) | 圖案的背景 [`Color`](/slides/python-net/zh-hant/aspose.slides/color) |
+| foreground | [`Color`](/slides/python-net/zh-hant/aspose.slides/color) | 圖案的前景 [`Color`](/slides/python-net/zh-hant/aspose.slides/color) |
 
 
 
 ### 另請參閱
 * 類別 [`IImage`](/slides/python-net/zh-hant/aspose.slides/iimage)
 * 類別 [`PatternFormat`](/slides/python-net/zh-hant/aspose.slides/patternformat)
+* 類別 [`Color`](/slides/python-net/zh-hant/aspose.slides/color)
 * 模組 [`aspose.slides`](/slides/python-net/zh-hant/aspose.slides)
 * 函式庫 [`Aspose.Slides`](/slides/python-net)

@@ -1,12 +1,12 @@
 ---
 title: add method
-second_title: Aspose.Slides cho Python thông qua Tham khảo API .NET
+second_title: Tham khảo API Aspose.Slides cho Python thông qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides.animation/motionpath/add/
 weight: 20
 ---
-## add(self, type, pts, pts_type, b_relative_coord) {#motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool}
+## add(self, type, pts, pts_type, b_relative_coord) {#motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool}
 Thêm lệnh mới vào đường dẫn
 
 
@@ -25,10 +25,10 @@ def add(self, type, pts, pts_type, b_relative_coord):
 
 
 
-### Xem Thêm
+### Xem thêm
 * lớp [`IMotionCmdPath`](/slides/python-net/vi/aspose.slides.animation/imotioncmdpath)
 * liệt kê [`MotionCommandPathType`](/slides/python-net/vi/aspose.slides.animation/motioncommandpathtype)
 * lớp [`MotionPath`](/slides/python-net/vi/aspose.slides.animation/motionpath)
 * liệt kê [`MotionPathPointsType`](/slides/python-net/vi/aspose.slides.animation/motionpathpointstype)
-* mô-đun [`aspose.slides.animation`](/slides/python-net/vi/aspose.slides.animation)
+* module [`aspose.slides.animation`](/slides/python-net/vi/aspose.slides.animation)
 * thư viện [`Aspose.Slides`](/slides/python-net)

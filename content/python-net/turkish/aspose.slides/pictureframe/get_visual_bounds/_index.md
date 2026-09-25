@@ -1,43 +1,30 @@
 ---
 title: get_visual_bounds method
-second_title: Aspose.Slides için Python üzerinden .NET API Referansı
+second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/pictureframe/get_visual_bounds/
 weight: 60
 ---
 ## get_visual_bounds(self) {#}
-Şeklin, render edilen içeriğinden hesaplanan görsel sınırlarını alır.
+Şeklin render edilmiş içeriğinden hesaplanan görsel sınırlarını alır.
 
-### Returns
-
-Şeklin görsel sınırlarını temsil eden bir **aspose.slides.RectangleF**
-             slayt koordinatlarında.
+### Döndürür
+Bir [`RectangleF`](/slides/python-net/tr/aspose.slides/rectanglef) nesnesi, şeklin slayt koordinatlarındaki görsel sınırlarını temsil eder.
 
 ```python
 def get_visual_bounds(self):
     ...
 ```
 
-### Remarks
+### Açıklamalar
+Döndürülen dikdörtgen, şeklin render sürecinde slayt koordinat uzayında ürettiği tüm içeriğin eksen hizalı sınırlarını temsil eder.  
+Bu sınırlar, şeklin model sınırlarından ([`Shape.x`](/slides/python-net/tr/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/tr/aspose.slides/shape/y), [`Shape.width`](/slides/python-net/tr/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/tr/aspose.slides/shape/height)) farklı olabilir ve render edilmiş içerik slayt kökeninin ötesine uzanıyorsa negatif koordinatlar içerebilir.  
+Görsel sınırlar, dönüşümler (örneğin, dönme), kenar kalınlığı ve birleşimler, metin yerleşimi ve taşma, SmartArt geometrisi ve şeklin nihai render görünümünü etkileyen diğer yerleşim etkileri gibi render ile ilgili unsurları dikkate alır.  
+Döndürülen sınırlar slayt dikdörtgenine kesilmez.
 
-Dönen dikdörtgen, tüm içeriğin eksenle hizalanmış sınırlarını temsil eder
-             şekil tarafından slayt koordinat uzayında render sırasında üretilen.
-
-            
-             Bu sınırlar, şeklin model sınırlarından farklı olabilir
-             ([`Shape.x`](/slides/python-net/tr/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/tr/aspose.slides/shape/y),
-             [`Shape.width`](/slides/python-net/tr/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/tr/aspose.slides/shape/height))
-             ve render edilen içerik slayt orijini dışına uzanıyorsa negatif koordinatlar içerebilir.
-            
-             Görsel sınırlar, render ile ilgili unsurları dikkate alır, örneğin
-             dönüşümler (örneğin, döndürme), kenar genişliği ve birleşimler,
-             metin düzeni ve taşma, SmartArt geometrisi ve diğer yerleşim etkileri
-             şeklin son render görünümünü etkileyen.
-            
-             Dönüş sınırlar slayt dikdörtgenine kırpılmaz.
-
-### See Also
+### Ayrıca Bakınız
 * sınıf [`PictureFrame`](/slides/python-net/tr/aspose.slides/pictureframe)
+* sınıf [`RectangleF`](/slides/python-net/tr/aspose.slides/rectanglef)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

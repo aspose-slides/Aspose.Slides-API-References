@@ -7,8 +7,8 @@ url: /pt/aspose.slides/ipatternformateffectivedata/back_color/
 weight: 20
 ---
 ## back_color propriedade
-Retorna a cor de padrão de fundo.
-            Somente leitura **aspose.slides.Color**.
+Returns the background pattern color.
+            Somente leitura [`Color`](/slides/python-net/pt/aspose.slides/color).
 
 ### Definição:
 ```python
@@ -18,7 +18,8 @@ def back_color(self):
 ```
 
 
-### Veja também
+### Veja Também
 * classe [`IPatternFormatEffectiveData`](/slides/python-net/pt/aspose.slides/ipatternformateffectivedata)
+* classe [`Color`](/slides/python-net/pt/aspose.slides/color)
 * módulo [`aspose.slides`](/slides/python-net/pt/aspose.slides)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

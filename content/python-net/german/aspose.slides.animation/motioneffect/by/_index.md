@@ -8,7 +8,7 @@ weight: 60
 ---
 ## nach Eigenschaft
 Beschreibt den relativen Versatzwert für die Animation (in Prozent).
-            Lesen/Schreiben **aspose.slides.PointF**.
+            Lesen/Schreiben [`PointF`](/slides/python-net/de/aspose.slides/pointf).
 
 ### Definition:
 ```python
@@ -24,5 +24,6 @@ def by(self, value):
 
 ### Siehe auch
 * Klasse [`MotionEffect`](/slides/python-net/de/aspose.slides.animation/motioneffect)
+* Klasse [`PointF`](/slides/python-net/de/aspose.slides/pointf)
 * Modul [`aspose.slides.animation`](/slides/python-net/de/aspose.slides.animation)
 * Bibliothek [`Aspose.Slides`](/slides/python-net)

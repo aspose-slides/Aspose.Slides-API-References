@@ -1,6 +1,6 @@
 ---
 title: size property
-second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
+second_title: Aspose.Slides pro Python přes .NET API reference
 description: 
 type: docs
 url: /cs/aspose.slides/inotessize/size/
@@ -8,7 +8,7 @@ weight: 10
 ---
 ## size vlastnost
 Vrací nebo nastavuje size v bodech.
-            Čtení/zápis **aspose.slides.SizeF**.
+            Číst/zapisovat [`SizeF`](/slides/python-net/cs/aspose.slides/sizef).
 
 ### Definice:
 ```python
@@ -24,5 +24,6 @@ def size(self, value):
 
 ### Viz také
 * třída [`INotesSize`](/slides/python-net/cs/aspose.slides/inotessize)
+* třída [`SizeF`](/slides/python-net/cs/aspose.slides/sizef)
 * modul [`aspose.slides`](/slides/python-net/cs/aspose.slides)
 * knihovna [`Aspose.Slides`](/slides/python-net)

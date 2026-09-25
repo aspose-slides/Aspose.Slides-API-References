@@ -6,8 +6,8 @@ type: docs
 url: /ja/aspose.slides/geometrypath/quadratic_bezier_to/
 weight: 70
 ---
-## quadratic_bezier_to(self, point1, point2) {#asposepydrawingpointf-asposepydrawingpointf}
-パスの末尾に二次ベジェ曲線を追加します
+## quadratic_bezier_to(self, point1, point2) {#asposeslidespointf-asposeslidespointf}
+パスの終点に二次ベジエ曲線を追加します
 
 
 ```python
@@ -18,12 +18,12 @@ def quadratic_bezier_to(self, point1, point2):
 
 | パラメータ | 型 | 説明 |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | 方向点 |
-| point2 | **aspose.slides.PointF** | 終点 |
+| point1 | [`PointF`](/slides/python-net/ja/aspose.slides/pointf) | 方向点 |
+| point2 | [`PointF`](/slides/python-net/ja/aspose.slides/pointf) | 終点 |
 
 
-## quadratic_bezier_to(self, point1, point2, index) {#asposepydrawingpointf-asposepydrawingpointf-int}
-パスの指定された位置に二次ベジェ曲線を追加します
+## quadratic_bezier_to(self, point1, point2, index) {#asposeslidespointf-asposeslidespointf-int}
+パスの指定した位置に二次ベジエ曲線を追加します
 
 
 ```python
@@ -34,9 +34,9 @@ def quadratic_bezier_to(self, point1, point2, index):
 
 | パラメータ | 型 | 説明 |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | 方向点 |
-| point2 | **aspose.slides.PointF** | 終点 |
-| index | **int** | PathData 内のセグメントのインデックス |
+| point1 | [`PointF`](/slides/python-net/ja/aspose.slides/pointf) | 方向点 |
+| point2 | [`PointF`](/slides/python-net/ja/aspose.slides/pointf) | 終点 |
+| index | **int** | PathData のセグメントのインデックス |
 
 ### 例外
 
@@ -46,7 +46,7 @@ def quadratic_bezier_to(self, point1, point2, index):
 
 
 ## quadratic_bezier_to(self, x1, y1, x2, y2) {#float-float-float-float}
-パスの末尾に二次ベジェ曲線を追加します
+パスの終点に二次ベジエ曲線を追加します
 
 
 ```python
@@ -64,7 +64,7 @@ def quadratic_bezier_to(self, x1, y1, x2, y2):
 
 
 ## quadratic_bezier_to(self, x1, y1, x2, y2, index) {#float-float-float-float-int}
-パスの指定された位置に二次ベジェ曲線を追加します
+パスの指定した位置に二次ベジエ曲線を追加します
 
 
 ```python
@@ -79,7 +79,7 @@ def quadratic_bezier_to(self, x1, y1, x2, y2, index):
 | y1 | **float** | 方向点の Y 座標 |
 | x2 | **float** | 終点の X 座標 |
 | y2 | **float** | 終点の Y 座標 |
-| index | **int** | PathData 内のセグメントのインデックス |
+| index | **int** | PathData のセグメントのインデックス |
 
 ### 例外
 
@@ -89,7 +89,8 @@ def quadratic_bezier_to(self, x1, y1, x2, y2, index):
 
 
 
-### 参照
-* クラス [`GeometryPath`](/slides/python-net/ja/aspose.slides/geometrypath)
-* モジュール [`aspose.slides`](/slides/python-net/ja/aspose.slides)
-* ライブラリ [`Aspose.Slides`](/slides/python-net)
+### 関連項目
+* class [`GeometryPath`](/slides/python-net/ja/aspose.slides/geometrypath)
+* class [`PointF`](/slides/python-net/ja/aspose.slides/pointf)
+* module [`aspose.slides`](/slides/python-net/ja/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

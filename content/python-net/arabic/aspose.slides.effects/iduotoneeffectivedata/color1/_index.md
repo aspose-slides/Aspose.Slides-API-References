@@ -7,8 +7,8 @@ url: /ar/aspose.slides.effects/iduotoneeffectivedata/color1/
 weight: 20
 ---
 ## color1 خاصية
-يعيد تنسيق اللون المستهدف للبكسلات الداكنة.
-            للقراءة فقط **aspose.slides.Color**.
+يرجع تنسيق اللون المستهدف للبكسلات الداكنة.
+            للقراءة فقط [`Color`](/slides/python-net/ar/aspose.slides/color).
 
 ### التعريف:
 ```python
@@ -17,7 +17,9 @@ def color1(self):
     ...
 ```
 
+
 ### انظر أيضًا
 * فئة [`IDuotoneEffectiveData`](/slides/python-net/ar/aspose.slides.effects/iduotoneeffectivedata)
+* فئة [`Color`](/slides/python-net/ar/aspose.slides/color)
 * وحدة [`aspose.slides.effects`](/slides/python-net/ar/aspose.slides.effects)
 * مكتبة [`Aspose.Slides`](/slides/python-net)

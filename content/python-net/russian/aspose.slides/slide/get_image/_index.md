@@ -1,13 +1,13 @@
 ---
 title: get_image method
-second_title: Aspose.Slides для Python через .NET справочник API
+second_title: Aspose.Slides для Python через .NET API Reference
 description: 
 type: docs
 url: /ru/aspose.slides/slide/get_image/
 weight: 40
 ---
 ## get_image(self) {#}
-Возвращает объект Thumbnail Image (20 % реального размера).
+Возвращает объект Thumbnail Image (20% реального размера).
 
 
 ```python
@@ -17,7 +17,7 @@ def get_image(self):
 
 
 
-## get_image(self, image_size) {#asposepydrawingsize}
+## get_image(self, image_size) {#asposeslidessize}
 Возвращает объект Thumbnail Image с указанным размером.
 
 ### Возвращаемое значение
@@ -34,7 +34,7 @@ def get_image(self, image_size):
 
 | Параметр | Тип | Описание |
 | :- | :- | :- |
-| image_size | **aspose.slides.Size** | Размер изображения для создания. |
+| image_size | [`Size`](/slides/python-net/ru/aspose.slides/size) | Размер создаваемого изображения. |
 
 
 ## get_image(self, options) {#asposeslidesexportitiffoptions}
@@ -60,7 +60,7 @@ def get_image(self, options):
 
 | Исключение | Описание |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Выбрасается, когда options.SlideLayoutOption имеет значение NotesCommentsLayoutingOptions, а его свойство NotesPosition принимает значение NotesPositions.BottomFull. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Выбрасывается, когда options.SlideLayoutOption равно NotesCommentsLayoutingOptions и его свойство NotesPosition принимает значение NotesPositions.BottomFull. |
 
 
 ## get_image(self, options) {#asposeslidesexportirenderingoptions}
@@ -80,13 +80,13 @@ def get_image(self, options):
 
 | Параметр | Тип | Описание |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/ru/aspose.slides.export/irenderingoptions) | Параметры Rendering. |
+| options | [`IRenderingOptions`](/slides/python-net/ru/aspose.slides.export/irenderingoptions) | Параметры рендеринга. |
 
 ### Исключения
 
 | Исключение | Описание |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Выбрасается, когда notesCommentsLayouting.NotesPosition принимает значение NotesPositions.BottomFull. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Выбрасывается, когда notesCommentsLayouting.NotesPosition принимает значение NotesPositions.BottomFull. |
 
 
 ## get_image(self, scale_x, scale_y) {#float-float}
@@ -106,11 +106,11 @@ def get_image(self, scale_x, scale_y):
 
 | Параметр | Тип | Описание |
 | :- | :- | :- |
-| scale_x | **float** | Значение, на которое следует масштабировать этот Thumbnail по оси x. |
-| scale_y | **float** | Значение, на которое следует масштабировать этот Thumbnail по оси y. |
+| scale_x | **float** | Значение, на которое нужно масштабировать этот Thumbnail по оси X. |
+| scale_y | **float** | Значение, на которое нужно масштабировать этот Thumbnail по оси Y. |
 
 
-## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposepydrawingsize}
+## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposeslidessize}
 Возвращает объект Thumbnail Image с указанным размером.
 
 ### Возвращаемое значение
@@ -127,14 +127,14 @@ def get_image(self, options, image_size):
 
 | Параметр | Тип | Описание |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/ru/aspose.slides.export/irenderingoptions) | Параметры Rendering. |
-| image_size | **aspose.slides.Size** | Размер изображения для создания. |
+| options | [`IRenderingOptions`](/slides/python-net/ru/aspose.slides.export/irenderingoptions) | Параметры рендеринга. |
+| image_size | [`Size`](/slides/python-net/ru/aspose.slides/size) | Размер создаваемого изображения. |
 
 ### Исключения
 
 | Исключение | Описание |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Выбрасается, когда options.SlideLayoutOption имеет значение NotesCommentsLayoutingOptions, а его свойство NotesPosition принимает значение NotesPositions.BottomFull. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Выбрасывается, когда options.SlideLayoutOption равно NotesCommentsLayoutingOptions и его свойство NotesPosition принимает значение NotesPositions.BottomFull. |
 
 
 ## get_image(self, options, scale_x, scale_y) {#asposeslidesexportirenderingoptions-float-float}
@@ -154,22 +154,23 @@ def get_image(self, options, scale_x, scale_y):
 
 | Параметр | Тип | Описание |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/ru/aspose.slides.export/irenderingoptions) | Параметры Rendering. |
-| scale_x | **float** | Значение, на которое следует масштабировать этот Thumbnail по оси x. |
-| scale_y | **float** | Значение, на которое следует масштабировать этот Thumbnail по оси y. |
+| options | [`IRenderingOptions`](/slides/python-net/ru/aspose.slides.export/irenderingoptions) | Параметры рендеринга. |
+| scale_x | **float** | Значение, на которое нужно масштабировать этот Thumbnail по оси X. |
+| scale_y | **float** | Значение, на которое нужно масштабировать этот Thumbnail по оси Y. |
 
 ### Исключения
 
 | Исключение | Описание |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Выбрасается, когда notesCommentsLayouting.NotesPosition принимает значение NotesPositions.BottomFull. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Выбрасывается, когда notesCommentsLayouting.NotesPosition принимает значение NotesPositions.BottomFull. |
 
 
 
-### Смотрите также
+### См. также
 * класс [`IImage`](/slides/python-net/ru/aspose.slides/iimage)
 * класс [`IRenderingOptions`](/slides/python-net/ru/aspose.slides.export/irenderingoptions)
 * класс [`ITiffOptions`](/slides/python-net/ru/aspose.slides.export/itiffoptions)
 * класс [`Slide`](/slides/python-net/ru/aspose.slides/slide)
+* класс [`Size`](/slides/python-net/ru/aspose.slides/size)
 * модуль [`aspose.slides`](/slides/python-net/ru/aspose.slides)
 * библиотека [`Aspose.Slides`](/slides/python-net)

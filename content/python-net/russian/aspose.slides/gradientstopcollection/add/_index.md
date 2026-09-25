@@ -6,12 +6,12 @@ type: docs
 url: /ru/aspose.slides/gradientstopcollection/add/
 weight: 10
 ---
-## add(self, position, color) {#float-asposepydrawingcolor}
-Создает новую градиентную остановку и добавляет её в конец коллекции.
+## add(self, position, color) {#float-asposeslidescolor}
+Создает новую остановку градиента и добавляет её в конец коллекции.
 
 ### Возвращаемое значение
 
-Индекс новой градиентной остановки в коллекции.
+Индекс новой остановки градиента в коллекции.
 
 
 
@@ -23,16 +23,16 @@ def add(self, position, color):
 
 | Параметр | Тип | Описание |
 | :- | :- | :- |
-| position | **float** | Позиция новой градиентной остановки. |
-| color | **aspose.slides.Color** | Цвет новой градиентной остановки. |
+| position | **float** | Позиция новой остановки градиента. |
+| color | [`Color`](/slides/python-net/ru/aspose.slides/color) | Цвет новой остановки градиента. |
 
 
 ## add(self, position, preset_color) {#float-presetcolor}
-Создает новую градиентную остановку и добавляет её в конец коллекции.
+Создает новую остановку градиента и добавляет её в конец коллекции.
 
 ### Возвращаемое значение
 
-Индекс новой градиентной остановки в коллекции.
+Индекс новой остановки градиента в коллекции.
 
 
 
@@ -44,16 +44,16 @@ def add(self, position, preset_color):
 
 | Параметр | Тип | Описание |
 | :- | :- | :- |
-| position | **float** | Позиция новой градиентной остановки. |
-| preset_color | [`PresetColor`](/slides/python-net/ru/aspose.slides/presetcolor) | Цвет новой градиентной остановки. |
+| position | **float** | Позиция новой остановки градиента. |
+| preset_color | [`PresetColor`](/slides/python-net/ru/aspose.slides/presetcolor) | Цвет новой остановки градиента. |
 
 
 ## add(self, position, scheme_color) {#float-schemecolor}
-Создает новую градиентную остановку и добавляет её в конец коллекции.
+Создает новую остановку градиента и добавляет её в конец коллекции.
 
 ### Возвращаемое значение
 
-Индекс новой градиентной остановки в коллекции.
+Индекс новой остановки градиента в коллекции.
 
 
 
@@ -65,8 +65,8 @@ def add(self, position, scheme_color):
 
 | Параметр | Тип | Описание |
 | :- | :- | :- |
-| position | **float** | Позиция новой градиентной остановки. |
-| scheme_color | [`SchemeColor`](/slides/python-net/ru/aspose.slides/schemecolor) | Цвет новой градиентной остановки. |
+| position | **float** | Позиция новой остановки градиента. |
+| scheme_color | [`SchemeColor`](/slides/python-net/ru/aspose.slides/schemecolor) | Цвет новой остановки градиента. |
 
 
 
@@ -75,5 +75,6 @@ def add(self, position, scheme_color):
 * класс [`IGradientStop`](/slides/python-net/ru/aspose.slides/igradientstop)
 * перечисление [`PresetColor`](/slides/python-net/ru/aspose.slides/presetcolor)
 * перечисление [`SchemeColor`](/slides/python-net/ru/aspose.slides/schemecolor)
+* класс [`Color`](/slides/python-net/ru/aspose.slides/color)
 * модуль [`aspose.slides`](/slides/python-net/ru/aspose.slides)
 * библиотека [`Aspose.Slides`](/slides/python-net)

@@ -6,7 +6,7 @@ type: docs
 url: /it/aspose.slides/geometrypath/cubic_bezier_to/
 weight: 40
 ---
-## cubic_bezier_to(self, point1, point2, point3) {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf}
+## cubic_bezier_to(self, point1, point2, point3) {#asposeslidespointf-asposeslidespointf-asposeslidespointf}
 Aggiunge una curva Bézier cubica alla fine del percorso
 
 
@@ -18,12 +18,12 @@ def cubic_bezier_to(self, point1, point2, point3):
 
 | Parametro | Tipo | Descrizione |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | Primo punto di direzione |
-| point2 | **aspose.slides.PointF** | Secondo punto di direzione |
-| point3 | **aspose.slides.PointF** | Punto finale |
+| point1 | [`PointF`](/slides/python-net/it/aspose.slides/pointf) | Primo punto di direzione |
+| point2 | [`PointF`](/slides/python-net/it/aspose.slides/pointf) | Secondo punto di direzione |
+| point3 | [`PointF`](/slides/python-net/it/aspose.slides/pointf) | Punto finale |
 
 
-## cubic_bezier_to(self, point1, point2, point3, index) {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf-int}
+## cubic_bezier_to(self, point1, point2, point3, index) {#asposeslidespointf-asposeslidespointf-asposeslidespointf-int}
 Aggiunge una curva Bézier cubica al punto specificato del percorso
 
 
@@ -35,9 +35,9 @@ def cubic_bezier_to(self, point1, point2, point3, index):
 
 | Parametro | Tipo | Descrizione |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | Primo punto di direzione |
-| point2 | **aspose.slides.PointF** | Secondo punto di direzione |
-| point3 | **aspose.slides.PointF** | Punto finale |
+| point1 | [`PointF`](/slides/python-net/it/aspose.slides/pointf) | Primo punto di direzione |
+| point2 | [`PointF`](/slides/python-net/it/aspose.slides/pointf) | Secondo punto di direzione |
+| point3 | [`PointF`](/slides/python-net/it/aspose.slides/pointf) | Punto finale |
 | index | **int** | Indice del segmento in PathData |
 
 ### Eccezioni
@@ -97,5 +97,6 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index):
 
 ### Vedi anche
 * classe [`GeometryPath`](/slides/python-net/it/aspose.slides/geometrypath)
+* classe [`PointF`](/slides/python-net/it/aspose.slides/pointf)
 * modulo [`aspose.slides`](/slides/python-net/it/aspose.slides)
 * libreria [`Aspose.Slides`](/slides/python-net)

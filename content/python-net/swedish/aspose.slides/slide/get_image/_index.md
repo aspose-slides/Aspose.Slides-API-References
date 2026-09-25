@@ -17,7 +17,7 @@ def get_image(self):
 
 
 
-## get_image(self, image_size) {#asposepydrawingsize}
+## get_image(self, image_size) {#asposeslidessize}
 Returnerar ett Thumbnail Image-objekt med angiven storlek.
 
 ### Returnerar
@@ -34,11 +34,11 @@ def get_image(self, image_size):
 
 | Parameter | Typ | Beskrivning |
 | :- | :- | :- |
-| image_size | **aspose.slides.Size** | Storleken på bilden som ska skapas. |
+| image_size | [`Size`](/slides/python-net/sv/aspose.slides/size) | Storlek på bilden som ska skapas. |
 
 
 ## get_image(self, options) {#asposeslidesexportitiffoptions}
-Returnerar ett Thumbnail tiff-bildobjekt med angivna parametrar.
+Returnerar ett Thumbnail tiff Image-objekt med angivna parametrar.
 
 ### Returnerar
 
@@ -60,7 +60,7 @@ def get_image(self, options):
 
 | Undantag | Beskrivning |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Kastas när options.SlideLayoutOption är NotesCommentsLayoutingOptions och dess egenskap NotesPosition får värdet NotesPositions.BottomFull. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Kastas när options.SlideLayoutOption är NotesCommentsLayoutOptions och dess egenskap NotesPosition får värdet NotesPositions.BottomFull. |
 
 
 ## get_image(self, options) {#asposeslidesexportirenderingoptions}
@@ -106,11 +106,11 @@ def get_image(self, scale_x, scale_y):
 
 | Parameter | Typ | Beskrivning |
 | :- | :- | :- |
-| scale_x | **float** | Värdet som används för att skala detta Thumbnail i x-axelns riktning. |
-| scale_y | **float** | Värdet som används för att skala detta Thumbnail i y-axelns riktning. |
+| scale_x | **float** | Värdet som detta Thumbnail ska skalas med i x-axelns riktning. |
+| scale_y | **float** | Värdet som detta Thumbnail ska skalas med i y-axelns riktning. |
 
 
-## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposepydrawingsize}
+## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposeslidessize}
 Returnerar ett Thumbnail Image-objekt med angiven storlek.
 
 ### Returnerar
@@ -128,13 +128,13 @@ def get_image(self, options, image_size):
 | Parameter | Typ | Beskrivning |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/sv/aspose.slides.export/irenderingoptions) | Renderingsalternativ. |
-| image_size | **aspose.slides.Size** | Storleken på bilden som ska skapas. |
+| image_size | [`Size`](/slides/python-net/sv/aspose.slides/size) | Storlek på bilden som ska skapas. |
 
 ### Undantag
 
 | Undantag | Beskrivning |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Kastas när options.SlideLayoutOption är NotesCommentsLayoutingOptions och dess egenskap NotesPosition får värdet NotesPositions.BottomFull. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Kastas när options.SlideLayoutOption är NotesCommentsLayoutOptions och dess egenskap NotesPosition får värdet NotesPositions.BottomFull. |
 
 
 ## get_image(self, options, scale_x, scale_y) {#asposeslidesexportirenderingoptions-float-float}
@@ -155,8 +155,8 @@ def get_image(self, options, scale_x, scale_y):
 | Parameter | Typ | Beskrivning |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/sv/aspose.slides.export/irenderingoptions) | Renderingsalternativ. |
-| scale_x | **float** | Värdet som används för att skala detta Thumbnail i x-axelns riktning. |
-| scale_y | **float** | Värdet som används för att skala detta Thumbnail i y-axelns riktning. |
+| scale_x | **float** | Värdet som detta Thumbnail ska skalas med i x-axelns riktning. |
+| scale_y | **float** | Värdet som detta Thumbnail ska skalas med i y-axelns riktning. |
 
 ### Undantag
 
@@ -171,5 +171,6 @@ def get_image(self, options, scale_x, scale_y):
 * klass [`IRenderingOptions`](/slides/python-net/sv/aspose.slides.export/irenderingoptions)
 * klass [`ITiffOptions`](/slides/python-net/sv/aspose.slides.export/itiffoptions)
 * klass [`Slide`](/slides/python-net/sv/aspose.slides/slide)
+* klass [`Size`](/slides/python-net/sv/aspose.slides/size)
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

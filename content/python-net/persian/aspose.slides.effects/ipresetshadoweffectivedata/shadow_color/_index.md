@@ -8,7 +8,7 @@ weight: 50
 ---
 ## shadow_color ویژگی
 رنگ سایه.
-فقط خواندنی **aspose.slides.Color**.
+فقط-خواندنی [`Color`](/slides/python-net/fa/aspose.slides/color).
 
 ### تعریف:
 ```python
@@ -17,7 +17,9 @@ def shadow_color(self):
     ...
 ```
 
-### موارد مرتبط
+
+### مراجع
 * کلاس [`IPresetShadowEffectiveData`](/slides/python-net/fa/aspose.slides.effects/ipresetshadoweffectivedata)
+* کلاس [`Color`](/slides/python-net/fa/aspose.slides/color)
 * ماژول [`aspose.slides.effects`](/slides/python-net/fa/aspose.slides.effects)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

@@ -8,7 +8,7 @@ weight: 80
 ---
 ## extrusion_color propriedade
 Retorna a cor de uma extrusão.
-            Somente leitura **aspose.slides.Color**.
+Somente leitura [`Color`](/slides/python-net/pt/aspose.slides/color).
 
 ### Definição:
 ```python
@@ -20,5 +20,6 @@ def extrusion_color(self):
 
 ### Veja Também
 * classe [`IThreeDFormatEffectiveData`](/slides/python-net/pt/aspose.slides/ithreedformateffectivedata)
+* classe [`Color`](/slides/python-net/pt/aspose.slides/color)
 * módulo [`aspose.slides`](/slides/python-net/pt/aspose.slides)
-* biblioteca [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

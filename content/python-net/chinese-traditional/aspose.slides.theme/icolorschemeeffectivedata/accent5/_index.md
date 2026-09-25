@@ -8,16 +8,18 @@ weight: 50
 ---
 ## accent5 屬性
 方案中的第五種強調色。
-唯讀 **aspose.slides.Color**.
+            唯讀 [`Color`](/slides/python-net/zh-hant/aspose.slides/color).
 
-### 定義：
+### 定義:
 ```python
 @property
 def accent5(self):
     ...
 ```
 
+
 ### 另請參閱
 * 類別 [`IColorSchemeEffectiveData`](/slides/python-net/zh-hant/aspose.slides.theme/icolorschemeeffectivedata)
+* 類別 [`Color`](/slides/python-net/zh-hant/aspose.slides/color)
 * 模組 [`aspose.slides.theme`](/slides/python-net/zh-hant/aspose.slides.theme)
-* 程式庫 [`Aspose.Slides`](/slides/python-net)
+* 函式庫 [`Aspose.Slides`](/slides/python-net)

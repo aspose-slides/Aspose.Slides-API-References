@@ -5,11 +5,11 @@ description:
 type: docs
 url: /ja/aspose.slides.effects/ippresetshadoweffectivedata/
 ---
-## IPresetShadowEffectiveData クラス
+## IPresetShadowEffectiveData class
 
-プリセット シャドウ効果を表す不変オブジェクト。
+Preset Shadow 効果を表す不変オブジェクトです。
 
-IPresetShadowEffectiveData 型は以下のメンバーを公開します：
+IPresetShadowEffectiveData 型は次のメンバーを公開します：
 
 ## プロパティ
 
@@ -17,7 +17,7 @@ IPresetShadowEffectiveData 型は以下のメンバーを公開します：
 | :- | :- |
 | [`direction`](/slides/python-net/ja/aspose.slides.effects/ipresetshadoweffectivedata/direction/) | 影の方向。<br/>            読み取り専用 **float**. |
 | [`distance`](/slides/python-net/ja/aspose.slides.effects/ipresetshadoweffectivedata/distance/) | 影の距離。<br/>            読み取り専用 **float**. |
-| [`shadow_color`](/slides/python-net/ja/aspose.slides.effects/ipresetshadoweffectivedata/shadow_color/) | 影の色。<br/>            読み取り専用 **aspose.slides.Color**. |
+| [`shadow_color`](/slides/python-net/ja/aspose.slides.effects/ipresetshadoweffectivedata/shadow_color/) | 影の色。<br/>            読み取り専用 [`Color`](/slides/python-net/ja/aspose.slides/color). |
 | [`preset`](/slides/python-net/ja/aspose.slides.effects/ipresetshadoweffectivedata/preset/) | プリセット。<br/>            読み取り専用 [`PresetShadowType`](/slides/python-net/ja/aspose.slides/presetshadowtype). |
 
 ### 参照

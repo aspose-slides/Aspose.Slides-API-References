@@ -7,8 +7,8 @@ url: /sv/aspose.slides.animation/iscaleeffect/to/
 weight: 80
 ---
 ## till egenskap
-Anger målpositionen för en animationsskalningseffekt (i procent).
-            Läs/skriv **aspose.slides.PointF**.
+Anger målplatsen för en animationsskalningseffekt (i procent).
+            Läs/skriv [`PointF`](/slides/python-net/sv/aspose.slides/pointf).
 
 ### Definition:
 ```python
@@ -24,5 +24,6 @@ def to(self, value):
 
 ### Se även
 * klass [`IScaleEffect`](/slides/python-net/sv/aspose.slides.animation/iscaleeffect)
+* klass [`PointF`](/slides/python-net/sv/aspose.slides/pointf)
 * modul [`aspose.slides.animation`](/slides/python-net/sv/aspose.slides.animation)
-* library [`Aspose.Slides`](/slides/python-net)
+* bibliotek [`Aspose.Slides`](/slides/python-net)

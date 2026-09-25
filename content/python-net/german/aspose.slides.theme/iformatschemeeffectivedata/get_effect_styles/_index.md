@@ -1,17 +1,17 @@
 ---
 title: get_effect_styles method
-second_title: Aspose.Slides für Python via .NET API-Referenz
+second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides.theme/iformatschemeeffectivedata/get_effect_styles/
 weight: 20
 ---
-## get_effect_styles(self, style_color) {#asposepydrawingcolor}
-Gibt eine Sammlung von themendefinierten Effektstilen zurück.
+## get_effect_styles(self, style_color) {#asposeslidescolor}
+Gibt eine Sammlung von themen definierten Effektstilen zurück.
 
-### Rückgabewert
+### Rückgabe
 
-Sammlung von effektiven Effektstilen [`IEffectStyleCollectionEffectiveData`](/slides/python-net/de/aspose.slides.theme/ieffectstylecollectioneffectivedata)
+Sammlung effektiver Effektstile [`IEffectStyleCollectionEffectiveData`](/slides/python-net/de/aspose.slides.theme/ieffectstylecollectioneffectivedata)
 
 
 
@@ -23,12 +23,13 @@ def get_effect_styles(self, style_color):
 
 | Parameter | Typ | Beschreibung |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | Farbe **aspose.slides.Color** |
+| style_color | [`Color`](/slides/python-net/de/aspose.slides/color) | Farbe [`Color`](/slides/python-net/de/aspose.slides/color) |
 
 
 
 ### Siehe auch
-* Klasse [`IEffectStyleCollectionEffectiveData`](/slides/python-net/de/aspose.slides.theme/ieffectstylecollectioneffectivedata)
-* Klasse [`IFormatSchemeEffectiveData`](/slides/python-net/de/aspose.slides.theme/iformatschemeeffectivedata)
-* Modul [`aspose.slides.theme`](/slides/python-net/de/aspose.slides.theme)
-* Bibliothek [`Aspose.Slides`](/slides/python-net)
+* class [`IEffectStyleCollectionEffectiveData`](/slides/python-net/de/aspose.slides.theme/ieffectstylecollectioneffectivedata)
+* class [`IFormatSchemeEffectiveData`](/slides/python-net/de/aspose.slides.theme/iformatschemeeffectivedata)
+* class [`Color`](/slides/python-net/de/aspose.slides/color)
+* module [`aspose.slides.theme`](/slides/python-net/de/aspose.slides.theme)
+* library [`Aspose.Slides`](/slides/python-net)

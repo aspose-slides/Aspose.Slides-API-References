@@ -8,7 +8,7 @@ weight: 100
 ---
 ## hyperlänkeegenskap
 Färg för hyperlänkarna.
-            Skrivskyddad **aspose.slides.Color**.
+            Endast läsning [`Color`](/slides/python-net/sv/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def hyperlink(self):
 
 ### Se även
 * klass [`IColorSchemeEffectiveData`](/slides/python-net/sv/aspose.slides.theme/icolorschemeeffectivedata)
+* klass [`Color`](/slides/python-net/sv/aspose.slides/color)
 * modul [`aspose.slides.theme`](/slides/python-net/sv/aspose.slides.theme)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

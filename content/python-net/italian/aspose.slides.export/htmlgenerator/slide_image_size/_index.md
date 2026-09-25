@@ -8,7 +8,7 @@ weight: 60
 ---
 ## slide_image_size proprietà
 Restituisce la dimensione dell'immagine della diapositiva.
-            Solo lettura **aspose.slides.SizeF**.
+            Sola lettura [`SizeF`](/slides/python-net/it/aspose.slides/sizef).
 
 ### Definizione:
 ```python
@@ -20,5 +20,6 @@ def slide_image_size(self):
 
 ### Vedi anche
 * classe [`HtmlGenerator`](/slides/python-net/it/aspose.slides.export/htmlgenerator)
+* classe [`SizeF`](/slides/python-net/it/aspose.slides/sizef)
 * modulo [`aspose.slides.export`](/slides/python-net/it/aspose.slides.export)
 * libreria [`Aspose.Slides`](/slides/python-net)

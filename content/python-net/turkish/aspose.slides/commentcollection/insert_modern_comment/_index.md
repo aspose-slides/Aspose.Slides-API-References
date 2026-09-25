@@ -6,12 +6,12 @@ type: docs
 url: /tr/aspose.slides/commentcollection/insert_modern_comment/
 weight: 60
 ---
-## insert_modern_comment(self, index, text, slide, shape, position, creation_time) {#int-str-islide-ishape-asposepydrawingpointf-datetime}
-Belirtilen dizinde bir koleksiyona yeni modern yorum ekleyin.
+## insert_modern_comment(self, index, text, slide, shape, position, creation_time) {#int-str-islide-ishape-asposeslidespointf-datetime}
+Belirtilen indeksde bir koleksiyona yeni modern yorum ekler.
 
 ### Döndürür
 
-Eklenmiş modern yorum.
+Eklemiş modern yorum.
 
 
 
@@ -27,15 +27,16 @@ def insert_modern_comment(self, index, text, slide, shape, position, creation_ti
 | text | **str** | Yeni modern yorumun düz metni. |
 | slide | [`ISlide`](/slides/python-net/tr/aspose.slides/islide) | Yeni modern yorumun ekleneceği sunumdaki slayt. |
 | shape | [`IShape`](/slides/python-net/tr/aspose.slides/ishape) | Yeni modern yorumun ilişkilendirildiği slayttaki şekil. |
-| position | **aspose.slides.PointF** | Yeni modern yorumun ekleneceği slayttaki konum. |
+| position | [`PointF`](/slides/python-net/tr/aspose.slides/pointf) | Yeni modern yorumun ekleneceği slayttaki konum. |
 | creation_time | **DateTime** | Modern yorumun oluşturulma zamanı. |
 
 
 
-### İlgili
+### Ayrıca Bakınız
 * sınıf [`CommentCollection`](/slides/python-net/tr/aspose.slides/commentcollection)
 * sınıf [`IModernComment`](/slides/python-net/tr/aspose.slides/imoderncomment)
 * sınıf [`IShape`](/slides/python-net/tr/aspose.slides/ishape)
 * sınıf [`ISlide`](/slides/python-net/tr/aspose.slides/islide)
+* sınıf [`PointF`](/slides/python-net/tr/aspose.slides/pointf)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

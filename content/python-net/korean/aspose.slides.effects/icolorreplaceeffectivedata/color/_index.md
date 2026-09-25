@@ -1,14 +1,14 @@
 ---
 title: color property
-second_title: Aspose.Slides for Python via .NET API 레퍼런스
+second_title: .NET을 통해 Python용 Aspose.Slides API 레퍼런스
 description: 
 type: docs
 url: /ko/aspose.slides.effects/icolorreplaceeffectivedata/color/
 weight: 20
 ---
-## 색 속성
-각 픽셀의 색을 교체할 색상 형식을 반환합니다.
-            읽기 전용 **aspose.slides.Color**.
+## 색상 속성
+색상 형식을 반환합니다. 이 형식은 각 픽셀의 색상을 교체합니다.
+            읽기 전용 [`Color`](/slides/python-net/ko/aspose.slides/color).
 
 ### 정의:
 ```python
@@ -17,7 +17,9 @@ def color(self):
     ...
 ```
 
-### 참조
+
+### 관련 항목
 * 클래스 [`IColorReplaceEffectiveData`](/slides/python-net/ko/aspose.slides.effects/icolorreplaceeffectivedata)
+* 클래스 [`Color`](/slides/python-net/ko/aspose.slides/color)
 * 모듈 [`aspose.slides.effects`](/slides/python-net/ko/aspose.slides.effects)
 * 라이브러리 [`Aspose.Slides`](/slides/python-net)

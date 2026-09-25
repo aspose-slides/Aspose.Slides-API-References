@@ -7,18 +7,18 @@ url: /hu/aspose.slides.effects/icolorchangeeffectivedata/
 ---
 ## IColorChangeEffectiveData osztály
 
-Megváltoztathatatlan objektum, amely egy Color Change hatást reprezentál.  
-A FromColor példányai a ToColor példányaival lesznek helyettesítve.
+Megváltoztathatatlan objektum, amely egy színváltoztatási hatást képvisel.
+            A FromColor példányait a ToColor példányai helyettesítik.
 
-Az IColorChangeEffectiveData típus a következő tagokat teszi közzé:
+Az IColorChangeEffectiveData típus a következő tagokat tartalmazza:
 
 ## Tulajdonságok
 
 | Tulajdonság | Leírás |
 | :- | :- |
-| [`from_color`](/slides/python-net/hu/aspose.slides.effects/icolorchangeeffectivedata/from_color/) | Cserélendő szín.<br/>            Csak olvasható **aspose.slides.Color**. |
-| [`to_color`](/slides/python-net/hu/aspose.slides.effects/icolorchangeeffectivedata/to_color/) | Cserélni fogó szín.<br/>            Csak olvasható **aspose.slides.Color**. |
-| [`use_alpha`](/slides/python-net/hu/aspose.slides.effects/icolorchangeeffectivedata/use_alpha/) | Visszaad egy logikai értéket, amely meghatározza, hogy az alfa komponens használata szükséges-e.<br/>            Csak olvasható **bool**. |
+| [`from_color`](/slides/python-net/hu/aspose.slides.effects/icolorchangeeffectivedata/from_color/) | A színt, amely helyettesítésre kerül.<br/>            Csak olvasható [`Color`](/slides/python-net/hu/aspose.slides/color). |
+| [`to_color`](/slides/python-net/hu/aspose.slides.effects/icolorchangeeffectivedata/to_color/) | A szín, amely helyettesít.<br/>            Csak olvasható [`Color`](/slides/python-net/hu/aspose.slides/color). |
+| [`use_alpha`](/slides/python-net/hu/aspose.slides.effects/icolorchangeeffectivedata/use_alpha/) | Visszaad egy logikai értéket, amely meghatározza, hogy az alfa komponenst használni kell-e.<br/>            Csak olvasható **bool**. |
 
 
 ### Lásd még

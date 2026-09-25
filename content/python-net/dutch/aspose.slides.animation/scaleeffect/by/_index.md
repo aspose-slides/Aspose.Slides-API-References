@@ -8,7 +8,7 @@ weight: 50
 ---
 ## per eigenschap
 beschrijft de relatieve offsetwaarde voor de animatie (in procenten).
-            Lezen/schrijven **aspose.slides.PointF**.
+            Lezen/Schrijven [`PointF`](/slides/python-net/nl/aspose.slides/pointf).
 
 ### Definitie:
 ```python
@@ -24,5 +24,6 @@ def by(self, value):
 
 ### Zie ook
 * klasse [`ScaleEffect`](/slides/python-net/nl/aspose.slides.animation/scaleeffect)
+* klasse [`PointF`](/slides/python-net/nl/aspose.slides/pointf)
 * module [`aspose.slides.animation`](/slides/python-net/nl/aspose.slides.animation)
 * bibliotheek [`Aspose.Slides`](/slides/python-net)

@@ -6,30 +6,25 @@ type: docs
 url: /hi/aspose.slides/ipatternformateffectivedata/get_tile_i_image/
 weight: 10
 ---
-## get_tile_i_image(self, background, foreground) {#asposepydrawingcolor-asposepydrawingcolor}
+## get_tile_i_image(self, background, foreground) {#asposeslidescolor-asposeslidescolor}
 निर्दिष्ट रंगों के साथ पैटर्न फ़िल के लिए एक टाइल इमेज बनाता है।
 
-### रिटर्न वैल्यू
-
+### Returns
 टाइल [`IImage`](/slides/python-net/hi/aspose.slides/iimage).
-
-
 
 ```python
 def get_tile_i_image(self, background, foreground):
     ...
 ```
 
-
 | पैरामीटर | प्रकार | विवरण |
 | :- | :- | :- |
-| background | **aspose.slides.Color** | पैटर्न के लिए पृष्ठभूमि **aspose.slides.Color**। |
-| foreground | **aspose.slides.Color** | पैटर्न के लिए अग्रभूमि **aspose.slides.Color**। |
+| background | [`Color`](/slides/python-net/hi/aspose.slides/color) | पैटर्न के लिए बैकग्राउंड [`Color`](/slides/python-net/hi/aspose.slides/color)। |
+| foreground | [`Color`](/slides/python-net/hi/aspose.slides/color) | पैटर्न के लिए फ़ोरग्राउंड [`Color`](/slides/python-net/hi/aspose.slides/color)। |
 
-
-
-### संबंधित देखें
+### और देखें
 * क्लास [`IImage`](/slides/python-net/hi/aspose.slides/iimage)
 * क्लास [`IPatternFormatEffectiveData`](/slides/python-net/hi/aspose.slides/ipatternformateffectivedata)
+* क्लास [`Color`](/slides/python-net/hi/aspose.slides/color)
 * मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
 * लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

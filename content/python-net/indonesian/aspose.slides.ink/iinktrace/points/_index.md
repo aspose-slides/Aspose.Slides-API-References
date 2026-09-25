@@ -7,8 +7,8 @@ url: /id/aspose.slides.ink/iinktrace/points/
 weight: 20
 ---
 ## points properti
-Mendapatkan titik untuk IInkLine **aspose.slides.PointF**
-            Hanya baca.
+Mendapatkan points untuk IInkLine [`PointF`](/slides/python-net/id/aspose.slides/pointf)
+            Baca-saja.
 
 ### Definisi:
 ```python
@@ -20,5 +20,6 @@ def points(self):
 
 ### Lihat Juga
 * kelas [`IInkTrace`](/slides/python-net/id/aspose.slides.ink/iinktrace)
+* kelas [`PointF`](/slides/python-net/id/aspose.slides/pointf)
 * modul [`aspose.slides.ink`](/slides/python-net/id/aspose.slides.ink)
-* pustaka [`Aspose.Slides`](/slides/python-net)
+* perpustakaan [`Aspose.Slides`](/slides/python-net)

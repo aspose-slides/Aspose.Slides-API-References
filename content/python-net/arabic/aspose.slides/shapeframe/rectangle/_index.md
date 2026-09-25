@@ -6,9 +6,9 @@ type: docs
 url: /ar/aspose.slides/shapeframe/rectangle/
 weight: 100
 ---
-## خاصية المستطيل
-يرجع إحداثيات الإطار.
-            للقراءة فقط **aspose.slides.RectangleF**.
+## rectangle خاصية
+يعيد إحداثيات الإطار.
+            قراءة فقط [`RectangleF`](/slides/python-net/ar/aspose.slides/rectanglef).
 
 ### التعريف:
 ```python
@@ -20,5 +20,6 @@ def rectangle(self):
 
 ### انظر أيضًا
 * فئة [`ShapeFrame`](/slides/python-net/ar/aspose.slides/shapeframe)
+* فئة [`RectangleF`](/slides/python-net/ar/aspose.slides/rectanglef)
 * وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
 * مكتبة [`Aspose.Slides`](/slides/python-net)

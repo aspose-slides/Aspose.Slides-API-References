@@ -1,32 +1,32 @@
 ---
 title: Comment class
-second_title: Aspose.Slides برای Python از طریق .NET API Reference
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides/comment/
 ---
 ## کلاس Comment
 
-نمایش یک نظر بر روی اسلاید.
+نمایانگر یک نظر بر روی اسلاید است.
 
-نوع Comment اعضای زیر را ارائه می‌دهد:
+نوع Comment اعضای زیر را در اختیار می‌گذارد:
 
-## ویژگی‌ها
+## خواص
 
-| ویژگی | توضیح |
+| خاصیت | توضیح |
 | :- | :- |
-| [`text`](/slides/python-net/fa/aspose.slides/comment/text/) | متنی ساده یک نظر اسلاید را باز می‌گرداند یا تنظیم می‌کند.<br/>            خواندن/نوشتن **str**. |
-| [`created_time`](/slides/python-net/fa/aspose.slides/comment/created_time/) | زمان ایجاد یک نظر را باز می‌گرداند یا تنظیم می‌کند.<br/>            تنظیم این ویژگی به **System.DateTime** به این معنی است که زمان نظری تنظیم نشده است.<br/>            خواندن/نوشتن **System.DateTime**. |
-| [`slide`](/slides/python-net/fa/aspose.slides/comment/slide/) | اسلاید والد یک نظر را باز می‌گرداند یا تنظیم می‌کند.<br/>            فقط خواندنی [`ISlide`](/slides/python-net/fa/aspose.slides/islide). |
-| [`author`](/slides/python-net/fa/aspose.slides/comment/author/) | نویسنده یک نظر را باز می‌گرداند.<br/>            فقط خواندنی [`ICommentAuthor`](/slides/python-net/fa/aspose.slides/icommentauthor). |
-| [`position`](/slides/python-net/fa/aspose.slides/comment/position/) | موقعیت یک نظر بر روی اسلاید را باز می‌گرداند یا تنظیم می‌کند.<br/>            خواندن/نوشتن **aspose.slides.PointF**. |
-| [`parent_comment`](/slides/python-net/fa/aspose.slides/comment/parent_comment/) | نظر والد را دریافت یا تنظیم می‌کند.<br/>            خواندن/نوشتن [`IComment`](/slides/python-net/fa/aspose.slides/icomment). |
+| [`text`](/slides/python-net/fa/aspose.slides/comment/text/) | متن ساده یک نظر اسلاید را باز می‌گرداند یا تنظیم می‌کند.<br/>            قابل خواندن/نوشتن **str**. |
+| [`created_time`](/slides/python-net/fa/aspose.slides/comment/created_time/) | زمان ایجاد یک نظر را باز می‌گرداند یا تنظیم می‌کند.<br/>            تنظیم این خاصیت به **System.DateTime** به معنای عدم تنظیم زمان نظر است.<br/>            قابل خواندن/نوشتن **System.DateTime**. |
+| [`slide`](/slides/python-net/fa/aspose.slides/comment/slide/) | اسلاید والد یک نظر را باز می‌گرداند یا تنظیم می‌کند.<br/>            فقط‌خواندنی [`ISlide`](/slides/python-net/fa/aspose.slides/islide). |
+| [`author`](/slides/python-net/fa/aspose.slides/comment/author/) | نویسنده یک نظر را باز می‌گرداند.<br/>            فقط‌خواندنی [`ICommentAuthor`](/slides/python-net/fa/aspose.slides/icommentauthor). |
+| [`position`](/slides/python-net/fa/aspose.slides/comment/position/) | موقعیت یک نظر بر روی اسلاید را باز می‌گرداند یا تنظیم می‌کند.<br/>            قابل خواندن/نوشتن [`PointF`](/slides/python-net/fa/aspose.slides/pointf). |
+| [`parent_comment`](/slides/python-net/fa/aspose.slides/comment/parent_comment/) | نظر والد را باز می‌گرداند یا تنظیم می‌کند.<br/>            قابل خواندن/نوشتن [`IComment`](/slides/python-net/fa/aspose.slides/icomment). |
 
 ## متدها
 
 | متد | توضیح |
 | :- | :- |
-| [`remove(self)`](/slides/python-net/fa/aspose.slides/comment/remove/#) | نظر و همه پاسخ‌های آن را از مجموعه والد حذف می‌کند. |
+| [`remove(self)`](/slides/python-net/fa/aspose.slides/comment/remove/#) | نظر و تمام پاسخ‌های آن را از مجموعه والد حذف می‌کند. |
 
 
 ### موارد مرتبط

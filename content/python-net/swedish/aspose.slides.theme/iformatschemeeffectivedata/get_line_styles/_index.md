@@ -6,10 +6,11 @@ type: docs
 url: /sv/aspose.slides.theme/iformatschemeeffectivedata/get_line_styles/
 weight: 40
 ---
-## get_line_styles(self, style_color) {#asposepydrawingcolor}
+## get_line_styles(self, style_color) {#asposeslidescolor}
 Returnerar en samling av temadefinierade linjestilar.
 
-### Returns
+### Returnerar
+
 Samling av effektiva linjeformat [`ILineFormatCollectionEffectiveData`](/slides/python-net/sv/aspose.slides.theme/ilineformatcollectioneffectivedata)
 
 
@@ -22,12 +23,13 @@ def get_line_styles(self, style_color):
 
 | Parameter | Typ | Beskrivning |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | Färg **aspose.slides.Color** |
+| style_color | [`Color`](/slides/python-net/sv/aspose.slides/color) | Färg [`Color`](/slides/python-net/sv/aspose.slides/color) |
 
 
 
-### See Also
-* klass [`IFormatSchemeEffectiveData`](/slides/python-net/sv/aspose.slides.theme/iformatschemeeffectivedata)
-* klass [`ILineFormatCollectionEffectiveData`](/slides/python-net/sv/aspose.slides.theme/ilineformatcollectioneffectivedata)
-* modul [`aspose.slides.theme`](/slides/python-net/sv/aspose.slides.theme)
-* bibliotek [`Aspose.Slides`](/slides/python-net)
+### Se även
+* class [`IFormatSchemeEffectiveData`](/slides/python-net/sv/aspose.slides.theme/iformatschemeeffectivedata)
+* class [`ILineFormatCollectionEffectiveData`](/slides/python-net/sv/aspose.slides.theme/ilineformatcollectioneffectivedata)
+* class [`Color`](/slides/python-net/sv/aspose.slides/color)
+* module [`aspose.slides.theme`](/slides/python-net/sv/aspose.slides.theme)
+* library [`Aspose.Slides`](/slides/python-net)

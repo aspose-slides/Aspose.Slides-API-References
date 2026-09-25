@@ -19,7 +19,7 @@ def __init__(self, presentation, fps):
 | presentation | [`Presentation`](/slides/python-net/id/aspose.slides/presentation) | Presentasi |
 | fps | **float** | Bingkai per detik (FPS) |
 
-## __init__(self, frame_size, fps) {#asposepydrawingsize-float}
+## __init__(self, frame_size, fps) {#asposeslidessize-float}
 Membuat instance baru dari [`PresentationPlayer`](/slides/python-net/id/aspose.slides.export/presentationplayer).
 
 ```python
@@ -29,12 +29,13 @@ def __init__(self, frame_size, fps):
 
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
-| frame_size | **aspose.slides.Size** | Ukuran bingkai |
+| frame_size | [`Size`](/slides/python-net/id/aspose.slides/size) | Ukuran bingkai |
 | fps | **float** | Bingkai per detik (FPS) |
 
 ### Lihat Juga
 * kelas [`Presentation`](/slides/python-net/id/aspose.slides/presentation)
 * kelas [`PresentationEnumerableFramesGenerator`](/slides/python-net/id/aspose.slides.export/presentationenumerableframesgenerator)
 * kelas [`PresentationPlayer`](/slides/python-net/id/aspose.slides.export/presentationplayer)
+* kelas [`Size`](/slides/python-net/id/aspose.slides/size)
 * modul [`aspose.slides.export`](/slides/python-net/id/aspose.slides.export)
-* perpustakaan [`Aspose.Slides`](/slides/python-net)
+* pustaka [`Aspose.Slides`](/slides/python-net)

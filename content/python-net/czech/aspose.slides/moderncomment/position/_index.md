@@ -6,9 +6,9 @@ type: docs
 url: /cs/aspose.slides/moderncomment/position/
 weight: 60
 ---
-## vlastnost pozice
-Vrací nebo nastavuje pozici komentáře na snímku.
-Čtení/zápis **aspose.slides.PointF**.
+## position vlastnost
+Vrací nebo nastavuje position komentáře na snímku.
+            čtení/zápis [`PointF`](/slides/python-net/cs/aspose.slides/pointf).
 
 ### Definice:
 ```python
@@ -24,5 +24,6 @@ def position(self, value):
 
 ### Viz také
 * třída [`ModernComment`](/slides/python-net/cs/aspose.slides/moderncomment)
+* třída [`PointF`](/slides/python-net/cs/aspose.slides/pointf)
 * modul [`aspose.slides`](/slides/python-net/cs/aspose.slides)
 * knihovna [`Aspose.Slides`](/slides/python-net)

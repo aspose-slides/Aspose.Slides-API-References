@@ -6,10 +6,10 @@ type: docs
 url: /el/aspose.slides/colorformat/color/
 weight: 60
 ---
-## Ιδιότητα χρώματος
-Επιστρέφει το τελικό χρώμα (με όλες τις μετατροπές χρώματος που έχουν εφαρμοστεί).
-            Ορίζει χρώματα RGB και διαγράφει όλες τις μετατροπές χρώματος.
-            Ανάγνωση/εγγραφή **aspose.slides.Color**.
+## ιδιότητα χρώματος
+Επιστρέφει το τελικό χρώμα (με όλες τις μετασχηματισμούς χρώματος που έχουν εφαρμοστεί).
+            Ορίζει χρώματα RGB και αφαιρεί όλους τους μετασχηματισμούς χρώματος.
+            Ανάγνωση/εγγραφή [`Color`](/slides/python-net/el/aspose.slides/color).
 
 ### Ορισμός:
 ```python
@@ -22,8 +22,8 @@ def color(self, value):
     ...
 ```
 
-
 ### Δείτε επίσης
 * κλάση [`ColorFormat`](/slides/python-net/el/aspose.slides/colorformat)
+* κλάση [`Color`](/slides/python-net/el/aspose.slides/color)
 * μονάδα [`aspose.slides`](/slides/python-net/el/aspose.slides)
 * βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

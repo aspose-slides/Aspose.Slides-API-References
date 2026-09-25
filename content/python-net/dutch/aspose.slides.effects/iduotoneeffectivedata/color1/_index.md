@@ -8,7 +8,7 @@ weight: 20
 ---
 ## color1 eigenschap
 Retourneert het doelkleurformaat voor donkere pixels.
-            Alleen-lezen **aspose.slides.Color**.
+            Alleen-lezen [`Color`](/slides/python-net/nl/aspose.slides/color).
 
 ### Definitie:
 ```python
@@ -20,5 +20,6 @@ def color1(self):
 
 ### Zie ook
 * klasse [`IDuotoneEffectiveData`](/slides/python-net/nl/aspose.slides.effects/iduotoneeffectivedata)
+* klasse [`Color`](/slides/python-net/nl/aspose.slides/color)
 * module [`aspose.slides.effects`](/slides/python-net/nl/aspose.slides.effects)
 * bibliotheek [`Aspose.Slides`](/slides/python-net)

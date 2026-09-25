@@ -7,8 +7,8 @@ url: /de/aspose.slides.export/htmlgenerator/slide_image_size/
 weight: 60
 ---
 ## slide_image_size Eigenschaft
-Gibt die Größe des Folienbildes zurück.
-            Nur lesbar **aspose.slides.SizeF**.
+Returns slide image size.
+            Nur lesbar [`SizeF`](/slides/python-net/de/aspose.slides/sizef).
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def slide_image_size(self):
 
 ### Siehe auch
 * Klasse [`HtmlGenerator`](/slides/python-net/de/aspose.slides.export/htmlgenerator)
+* Klasse [`SizeF`](/slides/python-net/de/aspose.slides/sizef)
 * Modul [`aspose.slides.export`](/slides/python-net/de/aspose.slides.export)
 * Bibliothek [`Aspose.Slides`](/slides/python-net)

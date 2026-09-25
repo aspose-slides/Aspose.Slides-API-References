@@ -1,13 +1,13 @@
 ---
 title: NotesSize class
-second_title: Aspose.Slides a Pythonhoz .NET API-referencia
+second_title: Aspose.Slides a Pythonhoz a .NET-en keresztül API hivatkozás
 description: 
 type: docs
 url: /hu/aspose.slides/notessize/
 ---
 ## NotesSize osztály
 
-Egy jegyzetdia méretét reprezentálja.
+Egy jegyzetdiák méretét reprezentálja.
 
 A NotesSize típus a következő tagokat tartalmazza:
 
@@ -21,7 +21,7 @@ A NotesSize típus a következő tagokat tartalmazza:
 
 | Tulajdonság | Leírás |
 | :- | :- |
-| [`size`](/slides/python-net/hu/aspose.slides/notessize/size/) | Visszaadja vagy beállítja a méretet pontokban.<br/>            Olvasás/írás **aspose.slides.SizeF**. |
+| [`size`](/slides/python-net/hu/aspose.slides/notessize/size/) | Visszaadja vagy beállítja a méretet pontokban.<br/>            Olvasás/írás [`SizeF`](/slides/python-net/hu/aspose.slides/sizef). |
 
 
 ### Lásd még
