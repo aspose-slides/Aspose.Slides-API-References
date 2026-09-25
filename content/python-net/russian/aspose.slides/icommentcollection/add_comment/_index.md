@@ -1,32 +1,33 @@
 ---
 title: add_comment method
-second_title: Aspose.Slides для Python через .NET Справочник API
+second_title: Aspose.Slides для Python через .NET API Reference
 description: 
 type: docs
 url: /ru/aspose.slides/icommentcollection/add_comment/
 weight: 10
 ---
-## add_comment(self, text, slide, position, creation_time) {#str-islide-asposepydrawingpointf-datetime}
+## add_comment(self, text, slide, position, creation_time) {#str-islide-asposeslidespointf-datetime}
 Добавить новый комментарий в конец коллекции.
 
-### Returns
-Добавленный комментарий.
+### Возвращаемое значение
+Добавлен комментарий.
 
 ```python
 def add_comment(self, text, slide, position, creation_time):
     ...
 ```
 
-| Параметр | Тип | Описание |
+| Parameter | Type | Description |
 | :- | :- | :- |
 | text | **str** | Обычный текст нового комментария. |
-| slide | [`ISlide`](/slides/python-net/ru/aspose.slides/islide) | Слайд презентации, в который нужно добавить новый комментарий. |
-| position | **aspose.slides.PointF** | Позиция на слайде, где следует добавить новый комментарий. |
+| slide | [`ISlide`](/slides/python-net/ru/aspose.slides/islide) | Слайд в презентации, в котором добавить новый комментарий. |
+| position | [`PointF`](/slides/python-net/ru/aspose.slides/pointf) | Позиция на слайде, где добавить новый комментарий. |
 | creation_time | **DateTime** | Время создания комментария. |
 
-### See Also
-* класс [`IComment`](/slides/python-net/ru/aspose.slides/icomment)
-* класс [`ICommentCollection`](/slides/python-net/ru/aspose.slides/icommentcollection)
-* класс [`ISlide`](/slides/python-net/ru/aspose.slides/islide)
-* модуль [`aspose.slides`](/slides/python-net/ru/aspose.slides)
-* библиотека [`Aspose.Slides`](/slides/python-net)
+### Смотрите также
+* class [`IComment`](/slides/python-net/ru/aspose.slides/icomment)
+* class [`ICommentCollection`](/slides/python-net/ru/aspose.slides/icommentcollection)
+* class [`ISlide`](/slides/python-net/ru/aspose.slides/islide)
+* class [`PointF`](/slides/python-net/ru/aspose.slides/pointf)
+* module [`aspose.slides`](/slides/python-net/ru/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

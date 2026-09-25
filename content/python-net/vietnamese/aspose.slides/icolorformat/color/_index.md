@@ -1,15 +1,15 @@
 ---
 title: color property
-second_title: Tham khảo API Aspose.Slides cho Python qua .NET
+second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides/icolorformat/color/
 weight: 50
 ---
-## thuộc tính color
-Returns resulting color (with all color transformations applied).
-            Đặt màu RGB và xóa tất cả các chuyển đổi màu.
-            Đọc/ghi **aspose.slides.Color**.
+## thuộc tính màu
+Trả về màu kết quả (với tất cả các phép biến đổi màu được áp dụng).
+            Đặt màu RGB và xóa mọi phép biến đổi màu.
+            Đọc/ghi [`Color`](/slides/python-net/vi/aspose.slides/color).
 
 ### Định nghĩa:
 ```python
@@ -25,5 +25,6 @@ def color(self, value):
 
 ### Xem thêm
 * lớp [`IColorFormat`](/slides/python-net/vi/aspose.slides/icolorformat)
-* module [`aspose.slides`](/slides/python-net/vi/aspose.slides)
+* lớp [`Color`](/slides/python-net/vi/aspose.slides/color)
+* mô-đun [`aspose.slides`](/slides/python-net/vi/aspose.slides)
 * thư viện [`Aspose.Slides`](/slides/python-net)

@@ -7,8 +7,8 @@ url: /ko/aspose.slides.effects/iduotoneeffectivedata/color1/
 weight: 20
 ---
 ## color1 속성
-대상 색상 형식을 어두운 픽셀에 대해 반환합니다.
-            읽기 전용 **aspose.slides.Color**.
+어두운 픽셀에 대한 대상 색상 형식을 반환합니다.
+            읽기 전용 [`Color`](/slides/python-net/ko/aspose.slides/color).
 
 ### 정의:
 ```python
@@ -18,7 +18,8 @@ def color1(self):
 ```
 
 
-### 참고
+### 참조
 * 클래스 [`IDuotoneEffectiveData`](/slides/python-net/ko/aspose.slides.effects/iduotoneeffectivedata)
+* 클래스 [`Color`](/slides/python-net/ko/aspose.slides/color)
 * 모듈 [`aspose.slides.effects`](/slides/python-net/ko/aspose.slides.effects)
 * 라이브러리 [`Aspose.Slides`](/slides/python-net)

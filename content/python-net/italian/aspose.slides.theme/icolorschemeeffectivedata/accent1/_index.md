@@ -6,9 +6,9 @@ type: docs
 url: /it/aspose.slides.theme/icolorschemeeffectivedata/accent1/
 weight: 10
 ---
-## accent1 proprietà
+## proprietà accent1
 Primo colore di accento nello schema.
-            Sola lettura **aspose.slides.Color**.
+            Solo lettura [`Color`](/slides/python-net/it/aspose.slides/color).
 
 ### Definizione:
 ```python
@@ -20,5 +20,6 @@ def accent1(self):
 
 ### Vedi anche
 * classe [`IColorSchemeEffectiveData`](/slides/python-net/it/aspose.slides.theme/icolorschemeeffectivedata)
+* classe [`Color`](/slides/python-net/it/aspose.slides/color)
 * modulo [`aspose.slides.theme`](/slides/python-net/it/aspose.slides.theme)
 * libreria [`Aspose.Slides`](/slides/python-net)

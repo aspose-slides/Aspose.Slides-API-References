@@ -7,8 +7,8 @@ url: /zh-hant/aspose.slides/ipatternformateffectivedata/back_color/
 weight: 20
 ---
 ## back_color 屬性
-傳回背景圖案顏色.
-            唯讀 **aspose.slides.Color**.
+傳回背景圖案顏色。
+            唯讀 [`Color`](/slides/python-net/zh-hant/aspose.slides/color).
 
 ### 定義:
 ```python
@@ -18,7 +18,8 @@ def back_color(self):
 ```
 
 
-### 另請參閱
+### 另見
 * 類別 [`IPatternFormatEffectiveData`](/slides/python-net/zh-hant/aspose.slides/ipatternformateffectivedata)
+* 類別 [`Color`](/slides/python-net/zh-hant/aspose.slides/color)
 * 模組 [`aspose.slides`](/slides/python-net/zh-hant/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* 程式庫 [`Aspose.Slides`](/slides/python-net)

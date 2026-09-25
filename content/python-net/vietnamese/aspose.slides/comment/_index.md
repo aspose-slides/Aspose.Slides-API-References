@@ -1,6 +1,6 @@
 ---
 title: Comment class
-second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
+second_title: Aspose.Slides cho Python qua .NET Tham chiếu API
 description: 
 type: docs
 url: /vi/aspose.slides/comment/
@@ -16,11 +16,11 @@ Kiểu Comment cung cấp các thành viên sau:
 | Thuộc tính | Mô tả |
 | :- | :- |
 | [`text`](/slides/python-net/vi/aspose.slides/comment/text/) | Trả về hoặc đặt văn bản thuần của một bình luận trên slide.<br/>            Đọc/ghi **str**. |
-| [`created_time`](/slides/python-net/vi/aspose.slides/comment/created_time/) | Trả về hoặc đặt thời gian tạo bình luận.<br/>            Đặt thuộc tính này thành **System.DateTime** có nghĩa là không thiết lập thời gian cho bình luận.<br/>            Đọc/ghi **System.DateTime**. |
+| [`created_time`](/slides/python-net/vi/aspose.slides/comment/created_time/) | Trả về hoặc đặt thời gian tạo bình luận.<br/>            Đặt thuộc tính này thành **System.DateTime** có nghĩa là không có thời gian bình luận được đặt.<br/>            Đọc/ghi **System.DateTime**. |
 | [`slide`](/slides/python-net/vi/aspose.slides/comment/slide/) | Trả về hoặc đặt slide cha của một bình luận.<br/>            Chỉ đọc [`ISlide`](/slides/python-net/vi/aspose.slides/islide). |
 | [`author`](/slides/python-net/vi/aspose.slides/comment/author/) | Trả về tác giả của một bình luận.<br/>            Chỉ đọc [`ICommentAuthor`](/slides/python-net/vi/aspose.slides/icommentauthor). |
-| [`position`](/slides/python-net/vi/aspose.slides/comment/position/) | Trả về hoặc đặt vị trí của một bình luận trên slide.<br/>            Đọc/ghi **aspose.slides.PointF**. |
-| [`parent_comment`](/slides/python-net/vi/aspose.slides/comment/parent_comment/) | Trả về hoặc đặt bình luận cha.<br/>            Đọc/ghi [`IComment`](/slides/python-net/vi/aspose.slides/icomment). |
+| [`position`](/slides/python-net/vi/aspose.slides/comment/position/) | Trả về hoặc đặt vị trí của một bình luận trên slide.<br/>            Đọc/ghi [`PointF`](/slides/python-net/vi/aspose.slides/pointf). |
+| [`parent_comment`](/slides/python-net/vi/aspose.slides/comment/parent_comment/) | Lấy hoặc đặt bình luận cha.<br/>            Đọc/ghi [`IComment`](/slides/python-net/vi/aspose.slides/icomment). |
 
 ## Phương thức
 

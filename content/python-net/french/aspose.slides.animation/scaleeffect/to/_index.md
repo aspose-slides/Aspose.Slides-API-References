@@ -1,14 +1,14 @@
 ---
 title: to property
-second_title: Référence de l'API Aspose.Slides pour Python via .NET
+second_title: Aspose.Slides pour Python via .NET Référence de l'API
 description: 
 type: docs
 url: /fr/aspose.slides.animation/scaleeffect/to/
 weight: 90
 ---
 ## vers la propriété
-Spécifie l'emplacement cible d'un effet d'animation d'échelle (en pourcentage).
-            Lecture/écriture **aspose.slides.PointF**.
+Spécifie l'emplacement cible pour un effet d'échelle d'animation (en pourcentage).
+            Lecture/écriture [`PointF`](/slides/python-net/fr/aspose.slides/pointf).
 
 ### Définition:
 ```python
@@ -24,5 +24,6 @@ def to(self, value):
 
 ### Voir aussi
 * classe [`ScaleEffect`](/slides/python-net/fr/aspose.slides.animation/scaleeffect)
+* classe [`PointF`](/slides/python-net/fr/aspose.slides/pointf)
 * module [`aspose.slides.animation`](/slides/python-net/fr/aspose.slides.animation)
-* bibliothèque [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

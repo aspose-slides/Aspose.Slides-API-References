@@ -1,13 +1,13 @@
 ---
 title: highlight_regex method
-second_title: Aspose.Slides Python के लिए .NET API रेफ़रेंस
+second_title: Aspose.Slides Python के लिए .NET के माध्यम से API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides/ipresentation/highlight_regex/
 weight: 30
 ---
-## highlight_regex(self, regex, highlight_color) {#str-asposepydrawingcolor}
-निर्दिष्ट रंग के साथ नियमित अभिव्यक्ति के सभी मिलानों को उजागर करता है।
+## highlight_regex(self, regex, highlight_color) {#str-asposeslidescolor}
+नियमित अभिव्यक्ति के सभी मिलानों को निर्दिष्ट रंग से हाइलाइट करता है।
 
 ```python
 def highlight_regex(self, regex, highlight_color):
@@ -16,10 +16,11 @@ def highlight_regex(self, regex, highlight_color):
 
 | पैरामीटर | प्रकार | विवरण |
 | :- | :- | :- |
-| regex | **str** | स्ट्रिंग में नियमित अभिव्यक्ति होती है जिससे उजागर करने के लिए स्ट्रिंग प्राप्त की जाती है। |
-| highlight_color | **aspose.slides.Color** | पाठ को उजागर करने का रंग। |
+| regex | **str** | यह स्ट्रिंग उन नियमित अभिव्यक्तियों को रखती है जिनके मिलानों को हाइलाइट किया जाएगा। |
+| highlight_color | [`Color`](/slides/python-net/hi/aspose.slides/color) | पाठ को हाइलाइट करने के लिए रंग। |
 
 ### देखें
-* क्लास [`IPresentation`](/slides/python-net/hi/aspose.slides/ipresentation)
+* वर्ग [`IPresentation`](/slides/python-net/hi/aspose.slides/ipresentation)
+* वर्ग [`Color`](/slides/python-net/hi/aspose.slides/color)
 * मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
 * लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

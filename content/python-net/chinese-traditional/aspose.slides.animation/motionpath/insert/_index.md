@@ -6,8 +6,8 @@ type: docs
 url: /zh-hant/aspose.slides.animation/motionpath/insert/
 weight: 40
 ---
-## insert(self, index, type, pts, pts_type, b_relative_coord) {#int-motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool}
-將新指令插入路徑
+## insert(self, index, type, pts, pts_type, b_relative_coord) {#int-motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool}
+在路徑中插入新指令
 
 
 ```python
@@ -16,7 +16,7 @@ def insert(self, index, type, pts, pts_type, b_relative_coord):
 ```
 
 
-| 參數 | 類型 | 說明 |
+| 參數 | 型別 | 說明 |
 | :- | :- | :- |
 | index | **int** |  |
 | type | [`MotionCommandPathType`](/slides/python-net/zh-hant/aspose.slides.animation/motioncommandpathtype) |  |

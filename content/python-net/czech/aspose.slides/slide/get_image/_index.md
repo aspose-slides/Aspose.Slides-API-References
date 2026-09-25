@@ -1,6 +1,6 @@
 ---
 title: get_image method
-second_title: Aspose.Slides pro Python pomocí .NET API Reference
+second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/slide/get_image/
@@ -17,10 +17,10 @@ def get_image(self):
 
 
 
-## get_image(self, image_size) {#asposepydrawingsize}
+## get_image(self, image_size) {#asposeslidessize}
 Vrací objekt Thumbnail Image se zadanou velikostí.
 
-### Vrací
+### Návratová hodnota
 
 Objekt Image.
 
@@ -34,13 +34,13 @@ def get_image(self, image_size):
 
 | Parametr | Typ | Popis |
 | :- | :- | :- |
-| image_size | **aspose.slides.Size** | Velikost obrázku k vytvoření. |
+| image_size | [`Size`](/slides/python-net/cs/aspose.slides/size) | Velikost obrázku, který se vytvoří. |
 
 
 ## get_image(self, options) {#asposeslidesexportitiffoptions}
 Vrací objekt Thumbnail tiff image se zadanými parametry.
 
-### Vrací
+### Návratová hodnota
 
 Objekt Image.
 
@@ -60,13 +60,13 @@ def get_image(self, options):
 
 | Výjimka | Popis |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Vyvolána, když options.SlideLayoutOption je NotesCommentsLayoutingOptions a její vlastnost NotesPosition má hodnotu NotesPositions.BottomFull. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Vyvoláno, když options.SlideLayoutOption je NotesCommentsLayoutingOptions a jeho vlastnost NotesPosition má hodnotu NotesPositions.BottomFull. |
 
 
 ## get_image(self, options) {#asposeslidesexportirenderingoptions}
 Vrací objekt Thumbnail Image.
 
-### Vrací
+### Návratová hodnota
 
 Objekt Image.
 
@@ -80,19 +80,19 @@ def get_image(self, options):
 
 | Parametr | Typ | Popis |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/cs/aspose.slides.export/irenderingoptions) | Možnosti renderování. |
+| options | [`IRenderingOptions`](/slides/python-net/cs/aspose.slides.export/irenderingoptions) | Možnosti vykreslování. |
 
 ### Výjimky
 
 | Výjimka | Popis |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Vyvolána, když notesCommentsLayouting.NotesPosition má hodnotu NotesPositions.BottomFull. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Vyvoláno, když notesCommentsLayouting.NotesPosition má hodnotu NotesPositions.BottomFull. |
 
 
 ## get_image(self, scale_x, scale_y) {#float-float}
-Vrací objekt Thumbnail Image s vlastním měřítkem.
+Vrací objekt Thumbnail Image s vlastním škálováním.
 
-### Vrací
+### Návratová hodnota
 
 Objekt IImage.
 
@@ -106,14 +106,14 @@ def get_image(self, scale_x, scale_y):
 
 | Parametr | Typ | Popis |
 | :- | :- | :- |
-| scale_x | **float** | Hodnota, o kterou se má tento Thumbnail měřít v ose x. |
-| scale_y | **float** | Hodnota, o kterou se má tento Thumbnail měřít v ose y. |
+| scale_x | **float** | Hodnota, o kterou se má tento Thumbnail škálovat ve směru osy x. |
+| scale_y | **float** | Hodnota, o kterou se má tento Thumbnail škálovat ve směru osy y. |
 
 
-## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposepydrawingsize}
+## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposeslidessize}
 Vrací objekt Thumbnail Image se zadanou velikostí.
 
-### Vrací
+### Návratová hodnota
 
 Objekt Image.
 
@@ -127,20 +127,20 @@ def get_image(self, options, image_size):
 
 | Parametr | Typ | Popis |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/cs/aspose.slides.export/irenderingoptions) | Možnosti renderování. |
-| image_size | **aspose.slides.Size** | Velikost obrázku k vytvoření. |
+| options | [`IRenderingOptions`](/slides/python-net/cs/aspose.slides.export/irenderingoptions) | Možnosti vykreslování. |
+| image_size | [`Size`](/slides/python-net/cs/aspose.slides/size) | Velikost obrázku, který se vytvoří. |
 
 ### Výjimky
 
 | Výjimka | Popis |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Vyvolána, když options.SlideLayoutOption je NotesCommentsLayoutingOptions a její vlastnost NotesPosition má hodnotu NotesPositions.BottomFull. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Vyvoláno, když options.SlideLayoutOption je NotesCommentsLayoutingOptions a jeho vlastnost NotesPosition má hodnotu NotesPositions.BottomFull. |
 
 
 ## get_image(self, options, scale_x, scale_y) {#asposeslidesexportirenderingoptions-float-float}
-Vrací objekt Thumbnail Image s vlastním měřítkem.
+Vrací objekt Thumbnail Image s vlastním škálováním.
 
-### Vrací
+### Návratová hodnota
 
 Objekty Bitmap.
 
@@ -154,15 +154,15 @@ def get_image(self, options, scale_x, scale_y):
 
 | Parametr | Typ | Popis |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/cs/aspose.slides.export/irenderingoptions) | Možnosti renderování. |
-| scale_x | **float** | Hodnota, o kterou se má tento Thumbnail měřít v ose x. |
-| scale_y | **float** | Hodnota, o kterou se má tento Thumbnail měřít v ose y. |
+| options | [`IRenderingOptions`](/slides/python-net/cs/aspose.slides.export/irenderingoptions) | Možnosti vykreslování. |
+| scale_x | **float** | Hodnota, o kterou se má tento Thumbnail škálovat ve směru osy x. |
+| scale_y | **float** | Hodnota, o kterou se má tento Thumbnail škálovat ve směru osy y. |
 
 ### Výjimky
 
 | Výjimka | Popis |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Vyvolána, když notesCommentsLayouting.NotesPosition má hodnotu NotesPositions.BottomFull. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Vyvoláno, když notesCommentsLayouting.NotesPosition má hodnotu NotesPositions.BottomFull. |
 
 
 
@@ -171,5 +171,6 @@ def get_image(self, options, scale_x, scale_y):
 * třída [`IRenderingOptions`](/slides/python-net/cs/aspose.slides.export/irenderingoptions)
 * třída [`ITiffOptions`](/slides/python-net/cs/aspose.slides.export/itiffoptions)
 * třída [`Slide`](/slides/python-net/cs/aspose.slides/slide)
+* třída [`Size`](/slides/python-net/cs/aspose.slides/size)
 * modul [`aspose.slides`](/slides/python-net/cs/aspose.slides)
 * knihovna [`Aspose.Slides`](/slides/python-net)

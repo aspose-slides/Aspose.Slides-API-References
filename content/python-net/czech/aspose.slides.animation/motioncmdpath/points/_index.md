@@ -7,8 +7,8 @@ url: /cs/aspose.slides.animation/motioncmdpath/points/
 weight: 30
 ---
 ## points vlastnost
-Určuje body příkazu.
-            Číst/zapisovat **aspose.slides.PointF**[].
+Specifikuje points příkazu.
+            Číst/Zapisovat [`PointF`](/slides/python-net/cs/aspose.slides/pointf)[].
 
 ### Definice:
 ```python
@@ -24,5 +24,6 @@ def points(self, value):
 
 ### Viz také
 * třída [`MotionCmdPath`](/slides/python-net/cs/aspose.slides.animation/motioncmdpath)
+* třída [`PointF`](/slides/python-net/cs/aspose.slides/pointf)
 * modul [`aspose.slides.animation`](/slides/python-net/cs/aspose.slides.animation)
 * knihovna [`Aspose.Slides`](/slides/python-net)

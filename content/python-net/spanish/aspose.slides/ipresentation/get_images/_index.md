@@ -1,6 +1,6 @@
 ---
 title: get_images method
-second_title: Referencia de API de Aspose.Slides para Python vía .NET
+second_title: Aspose.Slides para Python vía .NET API Referencia
 description: 
 type: docs
 url: /es/aspose.slides/ipresentation/get_images/
@@ -27,7 +27,7 @@ def get_images(self, options):
 
 
 ## get_images(self, options, slides) {#asposeslidesexportirenderingoptions-listint}
-Devuelve objetos Bitmap en miniatura para diapositivas especificadas de una presentación.
+Devuelve objetos Bitmap en miniatura para las diapositivas especificadas de una presentación.
 
 ### Devuelve
 
@@ -44,10 +44,10 @@ def get_images(self, options, slides):
 | Parámetro | Tipo | Descripción |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/es/aspose.slides.export/irenderingoptions) | Opciones de renderizado. |
-| slides | **List[int]** | Arreglo con posiciones de diapositivas, comenzando desde 1. |
+| slides | **List[int]** | Matriz con posiciones de diapositivas, comenzando en 1. |
 
 
-## get_images(self, options, image_size) {#asposeslidesexportirenderingoptions-asposepydrawingsize}
+## get_images(self, options, image_size) {#asposeslidesexportirenderingoptions-asposeslidessize}
 Devuelve objetos de imagen en miniatura para todas las diapositivas de una presentación con el tamaño especificado.
 
 ### Devuelve
@@ -65,7 +65,7 @@ def get_images(self, options, image_size):
 | Parámetro | Tipo | Descripción |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/es/aspose.slides.export/irenderingoptions) | Opciones de renderizado. |
-| image_size | **aspose.slides.Size** | Tamaño de la imagen a crear. |
+| image_size | [`Size`](/slides/python-net/es/aspose.slides/size) | Tamaño de la imagen a crear. |
 
 
 ## get_images(self, options, scale_x, scale_y) {#asposeslidesexportirenderingoptions-float-float}
@@ -90,8 +90,8 @@ def get_images(self, options, scale_x, scale_y):
 | scale_y | **float** | El valor por el cual escalar esta miniatura en la dirección del eje y. |
 
 
-## get_images(self, options, slides, image_size) {#asposeslidesexportirenderingoptions-listint-asposepydrawingsize}
-Devuelve objetos de imagen en miniatura para diapositivas especificadas de una presentación con el tamaño especificado.
+## get_images(self, options, slides, image_size) {#asposeslidesexportirenderingoptions-listint-asposeslidessize}
+Devuelve objetos de imagen en miniatura para las diapositivas especificadas de una presentación con el tamaño especificado.
 
 ### Devuelve
 
@@ -108,12 +108,12 @@ def get_images(self, options, slides, image_size):
 | Parámetro | Tipo | Descripción |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/es/aspose.slides.export/irenderingoptions) | Opciones de renderizado. |
-| slides | **List[int]** | Arreglo con posiciones de diapositivas, comenzando desde 1. |
-| image_size | **aspose.slides.Size** | Tamaño de la imagen a crear. |
+| slides | **List[int]** | Matriz con posiciones de diapositivas, comenzando en 1. |
+| image_size | [`Size`](/slides/python-net/es/aspose.slides/size) | Tamaño de la imagen a crear. |
 
 
 ## get_images(self, options, slides, scale_x, scale_y) {#asposeslidesexportirenderingoptions-listint-float-float}
-Devuelve objetos de imagen en miniatura para diapositivas especificadas de una presentación con escalado personalizado.
+Devuelve objetos de imagen en miniatura para las diapositivas especificadas de una presentación con escalado personalizado.
 
 ### Devuelve
 
@@ -130,7 +130,7 @@ def get_images(self, options, slides, scale_x, scale_y):
 | Parámetro | Tipo | Descripción |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/es/aspose.slides.export/irenderingoptions) | Opciones de renderizado. |
-| slides | **List[int]** | Arreglo con posiciones de diapositivas, comenzando desde 1. |
+| slides | **List[int]** | Matriz con posiciones de diapositivas, comenzando en 1. |
 | scale_x | **float** | El valor por el cual escalar esta miniatura en la dirección del eje x. |
 | scale_y | **float** | El valor por el cual escalar esta miniatura en la dirección del eje y. |
 
@@ -139,5 +139,6 @@ def get_images(self, options, slides, scale_x, scale_y):
 ### Ver también
 * clase [`IPresentation`](/slides/python-net/es/aspose.slides/ipresentation)
 * clase [`IRenderingOptions`](/slides/python-net/es/aspose.slides.export/irenderingoptions)
+* clase [`Size`](/slides/python-net/es/aspose.slides/size)
 * módulo [`aspose.slides`](/slides/python-net/es/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* biblioteca [`Aspose.Slides`](/slides/python-net)

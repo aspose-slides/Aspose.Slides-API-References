@@ -1,6 +1,6 @@
 ---
 title: image_source property
-second_title: Aspose.Slides pour Python via .NET Référence de l'API
+second_title: Référence de l'API Aspose.Slides pour Python via .NET
 description: 
 type: docs
 url: /fr/aspose.slides/iimagewrapper/image_source/
@@ -8,7 +8,7 @@ weight: 30
 ---
 ## image_source propriété
 Obtient l'image
-            Lecture seule **aspose.slides.Image**.
+            Lecture seule **aspose.slides.IImage**.
 
 ### Définition:
 ```python
@@ -16,7 +16,6 @@ Obtient l'image
 def image_source(self):
     ...
 ```
-
 
 ### Voir aussi
 * classe [`IImageWrapper`](/slides/python-net/fr/aspose.slides/iimagewrapper)

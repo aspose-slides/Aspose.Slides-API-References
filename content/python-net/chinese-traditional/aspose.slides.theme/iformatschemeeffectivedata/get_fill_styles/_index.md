@@ -1,15 +1,15 @@
 ---
 title: get_fill_styles method
-second_title: Aspose.Slides for Python 透過 .NET API 參考
+second_title: Aspose.Slides for Python via .NET API 參考文件
 description: 
 type: docs
 url: /zh-hant/aspose.slides.theme/iformatschemeeffectivedata/get_fill_styles/
 weight: 30
 ---
-## get_fill_styles(self, style_color) {#asposepydrawingcolor}
-返回一個由主題定義的填充樣式集合。
+## get_fill_styles(self, style_color) {#asposeslidescolor}
+返回一個主題定義的填充樣式集合。
 
-### 返回
+### 回傳
 
 有效填充格式的集合 [`IFillFormatCollectionEffectiveData`](/slides/python-net/zh-hant/aspose.slides.theme/ifillformatcollectioneffectivedata)
 
@@ -23,12 +23,13 @@ def get_fill_styles(self, style_color):
 
 | 參數 | 類型 | 說明 |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | 顏色 **aspose.slides.Color** |
+| style_color | [`Color`](/slides/python-net/zh-hant/aspose.slides/color) | Color [`Color`](/slides/python-net/zh-hant/aspose.slides/color) |
 
 
 
-### 參見
+### 另請參閱
 * 類別 [`IFillFormatCollectionEffectiveData`](/slides/python-net/zh-hant/aspose.slides.theme/ifillformatcollectioneffectivedata)
 * 類別 [`IFormatSchemeEffectiveData`](/slides/python-net/zh-hant/aspose.slides.theme/iformatschemeeffectivedata)
+* 類別 [`Color`](/slides/python-net/zh-hant/aspose.slides/color)
 * 模組 [`aspose.slides.theme`](/slides/python-net/zh-hant/aspose.slides.theme)
 * 函式庫 [`Aspose.Slides`](/slides/python-net)

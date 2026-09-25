@@ -6,7 +6,7 @@ type: docs
 url: /id/aspose.slides/geometrypath/line_to/
 weight: 50
 ---
-## line_to(self, point) {#asposepydrawingpointf}
+## line_to(self, point) {#asposeslidespointf}
 Menambahkan garis ke akhir jalur
 
 
@@ -18,7 +18,7 @@ def line_to(self, point):
 
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | Titik akhir garis |
+| point | [`PointF`](/slides/python-net/id/aspose.slides/pointf) | Titik akhir dari garis |
 
 
 ## line_to(self, x, y) {#float-float}
@@ -37,8 +37,8 @@ def line_to(self, x, y):
 | y | **float** | Koordinat Y dari titik akhir garis |
 
 
-## line_to(self, point, index) {#asposepydrawingpointf-int}
-Menambahkan garis ke tempat tertentu pada jalur
+## line_to(self, point, index) {#asposeslidespointf-int}
+Menambahkan garis ke tempat yang ditentukan pada jalur
 
 
 ```python
@@ -49,18 +49,18 @@ def line_to(self, point, index):
 
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | Titik akhir |
+| point | [`PointF`](/slides/python-net/id/aspose.slides/pointf) | Titik akhir |
 | index | **int** | Indeks segmen dalam PathData |
 
 ### Pengecualian
 
 | Pengecualian | Deskripsi |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Indeks segmen berada di luar rentang PathData |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Indeks segmen berada di luar jangkauan PathData |
 
 
 ## line_to(self, x, y, index) {#float-float-int}
-Menambahkan garis ke tempat tertentu pada jalur
+Menambahkan garis ke tempat yang ditentukan pada jalur
 
 
 ```python
@@ -79,11 +79,12 @@ def line_to(self, x, y, index):
 
 | Pengecualian | Deskripsi |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Indeks segmen berada di luar rentang PathData |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Indeks segmen berada di luar jangkauan PathData |
 
 
 
 ### Lihat Juga
 * kelas [`GeometryPath`](/slides/python-net/id/aspose.slides/geometrypath)
+* kelas [`PointF`](/slides/python-net/id/aspose.slides/pointf)
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
-* perpustakaan [`Aspose.Slides`](/slides/python-net)
+* pustaka [`Aspose.Slides`](/slides/python-net)

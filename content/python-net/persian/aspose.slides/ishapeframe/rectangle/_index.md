@@ -6,9 +6,9 @@ type: docs
 url: /fa/aspose.slides/ishapeframe/rectangle/
 weight: 70
 ---
-## ویژگی rectangle
-مختصات یک فریم را بازمی‌گرداند.
-فقط خواندنی **aspose.slides.RectangleF**.
+## rectangle ویژگی
+Returns the coordinates of a frame.
+            فقط خواندنی [`RectangleF`](/slides/python-net/fa/aspose.slides/rectanglef).
 
 ### تعریف:
 ```python
@@ -17,7 +17,9 @@ def rectangle(self):
     ...
 ```
 
+
 ### موارد مرتبط
 * کلاس [`IShapeFrame`](/slides/python-net/fa/aspose.slides/ishapeframe)
+* کلاس [`RectangleF`](/slides/python-net/fa/aspose.slides/rectanglef)
 * ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

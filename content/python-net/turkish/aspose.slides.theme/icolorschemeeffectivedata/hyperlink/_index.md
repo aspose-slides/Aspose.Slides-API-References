@@ -7,8 +7,8 @@ url: /tr/aspose.slides.theme/icolorschemeeffectivedata/hyperlink/
 weight: 100
 ---
 ## hyperlink özelliği
-Bağlantılar için renk.
-            Yalnızca okuma **aspose.slides.Color**.
+Hyperlink'ler için renk.
+            Salt okunur [`Color`](/slides/python-net/tr/aspose.slides/color).
 
 ### Tanım:
 ```python
@@ -18,7 +18,8 @@ def hyperlink(self):
 ```
 
 
-### Diğer
+### Ayrıca bakınız
 * sınıf [`IColorSchemeEffectiveData`](/slides/python-net/tr/aspose.slides.theme/icolorschemeeffectivedata)
+* sınıf [`Color`](/slides/python-net/tr/aspose.slides/color)
 * modül [`aspose.slides.theme`](/slides/python-net/tr/aspose.slides.theme)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

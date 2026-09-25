@@ -7,8 +7,8 @@ url: /nl/aspose.slides.export/htmlgenerator/slide_image_size/
 weight: 60
 ---
 ## slide_image_size eigenschap
-Retourneert de grootte van de dia-afbeelding.
-            Alleen-lezen **aspose.slides.SizeF**.
+Retourneert de slide-afbeeldingsgrootte.
+            Alleen-lezen [`SizeF`](/slides/python-net/nl/aspose.slides/sizef).
 
 ### Definitie:
 ```python
@@ -20,5 +20,6 @@ def slide_image_size(self):
 
 ### Zie ook
 * klasse [`HtmlGenerator`](/slides/python-net/nl/aspose.slides.export/htmlgenerator)
+* klasse [`SizeF`](/slides/python-net/nl/aspose.slides/sizef)
 * module [`aspose.slides.export`](/slides/python-net/nl/aspose.slides.export)
 * bibliotheek [`Aspose.Slides`](/slides/python-net)

@@ -6,9 +6,9 @@ type: docs
 url: /el/aspose.slides/iimagewrapper/image_source/
 weight: 30
 ---
-## image_source ιδιότητα
+## ιδιότητα image_source
 Λαμβάνει την εικόνα
-            Μόνο ανάγνωση **aspose.slides.Image**.
+            Μόνο για ανάγνωση **aspose.slides.IImage**.
 
 ### Ορισμός:
 ```python

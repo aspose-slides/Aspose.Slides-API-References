@@ -7,34 +7,37 @@ url: /fa/aspose.slides/zoomobject/get_visual_bounds/
 weight: 40
 ---
 ## get_visual_bounds(self) {#}
-حدود بصری شکل را که از محتوای رندر شده آن محاسبه می‌شود، دریافت می‌کند.
+مرزهای بصری شکل را که از محتوای رندر شده‌ آن محاسبه می‌شود، دریافت می‌کند.
 
-### Returns
+### بازگشت
 
-A **aspose.slides.RectangleF** that represents the visual bounds of the shape
-    in slide coordinates.
-
-
+یک [`RectangleF`](/slides/python-net/fa/aspose.slides/rectanglef) که مرزهای بصری شکل را در
+             مختصات اسلاید نمایش می‌دهد.
 
 ```python
 def get_visual_bounds(self):
     ...
 ```
 
+### ملاحظات
+مستطیل بازگردانده شده، مرزهای هم‌محور تمام محتوا
+             که توسط شکل در زمان رندر در فضای مختصات اسلاید تولید می‌شود، نشان می‌دهد.
 
-### Remarks
+             این مرزها ممکن است با مرزهای مدل شکل متفاوت باشند
+             ([`Shape.x`](/slides/python-net/fa/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/fa/aspose.slides/shape/y),
+             [`Shape.width`](/slides/python-net/fa/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/fa/aspose.slides/shape/height))
+             و ممکن است شامل مختصات منفی شوند اگر محتوای رندر شده
+             فراتر از مبدأ اسلاید گسترش یابد.
 
-مستطیل بازگردانده شده نمایانگر مرزهای محور-محور تمام محتوایی است که توسط شکل در حین رندر در فضای مختصات اسلاید تولید می‌شود.
-    
-    این مرزها ممکن است با مرزهای مدل شکل ([`Shape.x`](/slides/python-net/fa/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/fa/aspose.slides/shape/y), [`Shape.width`](/slides/python-net/fa/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/fa/aspose.slides/shape/height)) متفاوت باشند و ممکن است مختصات منفی داشته باشند اگر محتوای رندر شده فراتر از مبدأ اسلاید گسترش یابد.
-    
-    حدود بصری جنبه‌های مرتبط با رندر مانند تبدیلات (به عنوان مثال، چرخش)، عرض و اتصالات خط، چیدمان متن و سرریز، هندسه SmartArt و سایر اثرات چیدمانی که بر ظاهر نهایی رندر شده شکل تأثیر می‌گذارند را در نظر می‌گیرد.
-    
-    مرزهای بازگردانده شده به مستطیل اسلاید کلیپ نمی‌شوند.
+             مرزهای بصری، جنبه‌های مرتبط با رندر مانند
+             تبدیلات (مثلاً چرخش)، عرض خط و اتصال‌ها،
+             چیدمان متن و سرریز، هندسه SmartArt، و سایر اثرات چیدمان
+             که بر ظاهر نهایی رندر شده شکل تأثیر می‌گذارند.
 
+             مرزهای بازگردانده شده به مستطیل اسلاید برش داده نمی‌شوند.
 
-
-### See Also
+### موارد مرتبط
 * کلاس [`ZoomObject`](/slides/python-net/fa/aspose.slides/zoomobject)
+* کلاس [`RectangleF`](/slides/python-net/fa/aspose.slides/rectanglef)
 * ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

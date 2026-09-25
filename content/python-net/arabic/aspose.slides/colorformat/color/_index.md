@@ -1,15 +1,15 @@
 ---
 title: color property
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: مرجع API Aspose.Slides للـ Python عبر .NET
 description: 
 type: docs
 url: /ar/aspose.slides/colorformat/color/
 weight: 60
 ---
 ## خاصية اللون
-يقوم بإرجاع اللون الناتج (مع تطبيق جميع تحويلات اللون).
-            يضبط ألوان RGB ويزيل جميع تحويلات اللون.
-            قراءة/كتابة **aspose.slides.Color**.
+يعيد اللون الناتج (مع تطبيق جميع التحولات اللونية).
+            يضبط ألوان RGB ويمسح جميع التحولات اللونية.
+            قراءة/كتابة [`Color`](/slides/python-net/ar/aspose.slides/color).
 
 ### التعريف:
 ```python
@@ -24,6 +24,7 @@ def color(self, value):
 
 
 ### انظر أيضًا
-* الفئة [`ColorFormat`](/slides/python-net/ar/aspose.slides/colorformat)
-* الوحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
-* المكتبة [`Aspose.Slides`](/slides/python-net)
+* فئة [`ColorFormat`](/slides/python-net/ar/aspose.slides/colorformat)
+* فئة [`Color`](/slides/python-net/ar/aspose.slides/color)
+* وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

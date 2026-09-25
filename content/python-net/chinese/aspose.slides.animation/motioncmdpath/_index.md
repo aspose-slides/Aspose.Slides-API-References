@@ -13,12 +13,13 @@ MotionCmdPath 类型公开以下成员：
 
 ## 属性
 
-| Property | Description |
+| 属性 | 描述 |
 | :- | :- |
-| [`points`](/slides/python-net/zh/aspose.slides.animation/motioncmdpath/points/) | 指定命令点。<br/>            读/写 **aspose.slides.PointF**[]. |
-| [`command_type`](/slides/python-net/zh/aspose.slides.animation/motioncmdpath/command_type/) | 指定命令类型。<br/>            读/写 [`MotionCommandPathType`](/slides/python-net/zh/aspose.slides.animation/motioncommandpathtype)。 |
-| [`is_relative`](/slides/python-net/zh/aspose.slides.animation/motioncmdpath/is_relative/) | 确定命令坐标是否相对。<br/>            读/写 **bool**。 |
-| [`points_type`](/slides/python-net/zh/aspose.slides.animation/motioncmdpath/points_type/) | 指定命令点的类型<br/>            读/写 [`MotionPathPointsType`](/slides/python-net/zh/aspose.slides.animation/motionpathpointstype)。 |
+| [`points`](/slides/python-net/zh/aspose.slides.animation/motioncmdpath/points/) | 指定命令的点。<br/>            读/写 [`PointF`](/slides/python-net/zh/aspose.slides/pointf)[]. |
+| [`command_type`](/slides/python-net/zh/aspose.slides.animation/motioncmdpath/command_type/) | 指定命令类型。<br/>            读/写 [`MotionCommandPathType`](/slides/python-net/zh/aspose.slides.animation/motioncommandpathtype). |
+| [`is_relative`](/slides/python-net/zh/aspose.slides.animation/motioncmdpath/is_relative/) | 确定命令坐标是否相对。<br/>            读/写 **bool**. |
+| [`points_type`](/slides/python-net/zh/aspose.slides.animation/motioncmdpath/points_type/) | 指定命令点类型<br/>            读/写 [`MotionPathPointsType`](/slides/python-net/zh/aspose.slides.animation/motionpathpointstype). |
+
 
 ### 另见
 * 模块 [`aspose.slides.animation`](/slides/python-net/zh/aspose.slides.animation)

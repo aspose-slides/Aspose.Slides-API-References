@@ -5,35 +5,35 @@ description:
 type: docs
 url: /fa/aspose.slides.export/presentationenumerableframesgenerator/
 ---
-## PresentationEnumerableFramesGenerator کلاس
+## کلاس PresentationEnumerableFramesGenerator
 
-نمایانگر یک ژنراتور از انیمیشن‌ها در [`Presentation`](/slides/python-net/fa/aspose.slides/presentation).
+نمایش‌دهنده‌ای از ژنراتور انیمیشن‌ها در [`Presentation`](/slides/python-net/fa/aspose.slides/presentation).
 
-نوع PresentationEnumerableFramesGenerator اعضای زیر را در دسترس می‌گذارد:
+نوع PresentationEnumerableFramesGenerator اعضای زیر را در بر دارد:
 
 ## سازنده‌ها
 
 | سازنده | توضیح |
 | :- | :- |
-| [`__init__(self, presentation, fps)`](/slides/python-net/fa/aspose.slides.export/presentationenumerableframesgenerator/__init__/#presentation-float) | یک نمونه جدید از [`PresentationPlayer`](/slides/python-net/fa/aspose.slides.export/presentationplayer) ایجاد می‌کند. |
-| [`__init__(self, frame_size, fps)`](/slides/python-net/fa/aspose.slides.export/presentationenumerableframesgenerator/__init__/#asposepydrawingsize-float) | یک نمونه جدید از [`PresentationPlayer`](/slides/python-net/fa/aspose.slides.export/presentationplayer) ایجاد می‌کند. |
+| [`__init__(self, presentation, fps)`](/slides/python-net/fa/aspose.slides.export/presentationenumerableframesgenerator/__init__/#presentation-float) | یک نمونه جدید از [`PresentationPlayer`](/slides/python-net/fa/aspose.slides.export/presentationplayer) را ایجاد می‌کند. |
+| [`__init__(self, frame_size, fps)`](/slides/python-net/fa/aspose.slides.export/presentationenumerableframesgenerator/__init__/#asposeslidessize-float) | یک نمونه جدید از [`PresentationPlayer`](/slides/python-net/fa/aspose.slides.export/presentationplayer) را ایجاد می‌کند. |
 
 ## ویژگی‌ها
 
 | ویژگی | توضیح |
 | :- | :- |
-| [`frame_index`](/slides/python-net/fa/aspose.slides.export/presentationenumerableframesgenerator/frame_index/) | شاخص فریم را دریافت می‌کند. |
-| [`default_delay`](/slides/python-net/fa/aspose.slides.export/presentationenumerableframesgenerator/default_delay/) | زمان تأخیر پیش‌فرض [ms] را دریافت یا تنظیم می‌کند. |
-| [`include_hidden_slides`](/slides/python-net/fa/aspose.slides.export/presentationenumerableframesgenerator/include_hidden_slides/) | دریافت یا تنظیم می‌کند که آیا اسلایدهای مخفی باید شامل شوند. |
-| [`exported_slides`](/slides/python-net/fa/aspose.slides.export/presentationenumerableframesgenerator/exported_slides/) | تعداد اسلایدهای صادر شده را دریافت می‌کند. |
+| [`frame_index`](/slides/python-net/fa/aspose.slides.export/presentationenumerableframesgenerator/frame_index/) | اندیس فریم را دریافت می‌کند. |
+| [`default_delay`](/slides/python-net/fa/aspose.slides.export/presentationenumerableframesgenerator/default_delay/) | زمان تاخیر پیش‌فرض [ms] را دریافت یا تنظیم می‌کند. |
+| [`include_hidden_slides`](/slides/python-net/fa/aspose.slides.export/presentationenumerableframesgenerator/include_hidden_slides/) | تعیین می‌کند که اسلایدهای مخفی شامل شوند یا نه. |
+| [`exported_slides`](/slides/python-net/fa/aspose.slides.export/presentationenumerableframesgenerator/exported_slides/) | تعداد اسلایدهای صادر شده را برمی‌گرداند. |
 
-## متدها
+## روش‌ها
 
-| متد | توضیح |
+| روش | توضیح |
 | :- | :- |
 | [`enumerate_frames(self, slides)`](/slides/python-net/fa/aspose.slides.export/presentationenumerableframesgenerator/enumerate_frames/#iterableislide) |  |
 
-### مراجع
+### موارد مرتبط
 * کلاس [`Presentation`](/slides/python-net/fa/aspose.slides/presentation)
 * کلاس [`PresentationPlayer`](/slides/python-net/fa/aspose.slides.export/presentationplayer)
 * ماژول [`aspose.slides.export`](/slides/python-net/fa/aspose.slides.export)

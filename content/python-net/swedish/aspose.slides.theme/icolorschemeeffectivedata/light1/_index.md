@@ -8,7 +8,7 @@ weight: 110
 ---
 ## light1 egenskap
 Första ljusfärgen i schemat.
-            Skrivskyddad **aspose.slides.Color**.
+            Skrivskyddad [`Color`](/slides/python-net/sv/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -17,7 +17,9 @@ def light1(self):
     ...
 ```
 
-### Se även
+
+### Se också
 * klass [`IColorSchemeEffectiveData`](/slides/python-net/sv/aspose.slides.theme/icolorschemeeffectivedata)
+* klass [`Color`](/slides/python-net/sv/aspose.slides/color)
 * modul [`aspose.slides.theme`](/slides/python-net/sv/aspose.slides.theme)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

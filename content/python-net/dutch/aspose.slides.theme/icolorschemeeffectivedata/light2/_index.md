@@ -7,8 +7,8 @@ url: /nl/aspose.slides.theme/icolorschemeeffectivedata/light2/
 weight: 120
 ---
 ## light2 eigenschap
-Tweede lichte kleur in het schema.
-            Alleen-lezen **aspose.slides.Color**.
+Tweede lichtkleur in het schema.
+            Alleen-lezen [`Color`](/slides/python-net/nl/aspose.slides/color).
 
 ### Definitie:
 ```python
@@ -20,5 +20,6 @@ def light2(self):
 
 ### Zie ook
 * klasse [`IColorSchemeEffectiveData`](/slides/python-net/nl/aspose.slides.theme/icolorschemeeffectivedata)
+* klasse [`Color`](/slides/python-net/nl/aspose.slides/color)
 * module [`aspose.slides.theme`](/slides/python-net/nl/aspose.slides.theme)
 * bibliotheek [`Aspose.Slides`](/slides/python-net)

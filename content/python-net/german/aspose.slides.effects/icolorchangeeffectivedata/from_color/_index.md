@@ -1,6 +1,6 @@
 ---
 title: from_color property
-second_title: Aspose.Slides für Python via .NET API-Referenz
+second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides.effects/icolorchangeeffectivedata/from_color/
@@ -8,7 +8,7 @@ weight: 20
 ---
 ## from_color Eigenschaft
 Farbe, die ersetzt wird.
-            Nur lesbar **aspose.slides.Color**.
+            Nur Lesen [`Color`](/slides/python-net/de/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -18,7 +18,8 @@ def from_color(self):
 ```
 
 
-### Siehe auch
+### Siehe Auch
 * Klasse [`IColorChangeEffectiveData`](/slides/python-net/de/aspose.slides.effects/icolorchangeeffectivedata)
+* Klasse [`Color`](/slides/python-net/de/aspose.slides/color)
 * Modul [`aspose.slides.effects`](/slides/python-net/de/aspose.slides.effects)
 * Bibliothek [`Aspose.Slides`](/slides/python-net)

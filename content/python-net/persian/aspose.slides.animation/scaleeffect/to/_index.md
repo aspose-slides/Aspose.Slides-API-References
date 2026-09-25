@@ -1,14 +1,14 @@
 ---
 title: to property
-second_title: Aspose.Slides برای Python از طریق .NET API Reference
+second_title: مرجع API Aspose.Slides برای Python از طریق .NET
 description: 
 type: docs
 url: /fa/aspose.slides.animation/scaleeffect/to/
 weight: 90
 ---
-## به ویژگی
-موقعیت هدف برای اثر مقیاس‌گذاری انیمیشن را مشخص می‌کند (به درصد).
-            خواندن/نوشتن **aspose.slides.PointF**.
+## به خصوصیت
+موقعیت هدف برای یک اثر مقیاس‌گذاری انیمیشن (به درصد) را مشخص می‌کند.
+            قابل خواندن/نوشتن [`PointF`](/slides/python-net/fa/aspose.slides/pointf).
 
 ### تعریف:
 ```python
@@ -22,7 +22,8 @@ def to(self, value):
 ```
 
 
-### سایر موارد
+### موارد مرتبط
 * کلاس [`ScaleEffect`](/slides/python-net/fa/aspose.slides.animation/scaleeffect)
+* کلاس [`PointF`](/slides/python-net/fa/aspose.slides/pointf)
 * ماژول [`aspose.slides.animation`](/slides/python-net/fa/aspose.slides.animation)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

@@ -7,11 +7,11 @@ url: /th/aspose.slides/colorformat/color/
 weight: 60
 ---
 ## คุณสมบัติสี
-Returns resulting color (with all color transformations applied).
-            Sets RGB colors and clears all color transformations.
-            Read/write **aspose.slides.Color**.
+คืนค่าสีที่ได้ (โดยมีการแปรรูปสีทั้งหมดที่นำมาใช้).
+            กำหนดค่าสี RGB และลบการแปรรูปสีทั้งหมด.
+            อ่าน/เขียน [`Color`](/slides/python-net/th/aspose.slides/color).
 
-### คำจำกัดความ:
+### คำนิยาม:
 ```python
 @property
 def color(self):
@@ -25,5 +25,6 @@ def color(self, value):
 
 ### ดูเพิ่มเติม
 * คลาส [`ColorFormat`](/slides/python-net/th/aspose.slides/colorformat)
+* คลาส [`Color`](/slides/python-net/th/aspose.slides/color)
 * โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
 * ไลบรารี [`Aspose.Slides`](/slides/python-net)

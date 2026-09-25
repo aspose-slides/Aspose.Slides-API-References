@@ -13,12 +13,13 @@ Il tipo IInnerShadowEffectiveData espone i seguenti membri:
 
 ## Proprietà
 
-| Proprietà | Descrizione |
+| Property | Description |
 | :- | :- |
-| [`blur_radius`](/slides/python-net/it/aspose.slides.effects/iinnershadoweffectivedata/blur_radius/) | Raggio di sfocatura.<br/>            Solo lettura **float**. |
+| [`blur_radius`](/slides/python-net/it/aspose.slides.effects/iinnershadoweffectivedata/blur_radius/) | Raggio sfocatura.<br/>            Solo lettura **float**. |
 | [`direction`](/slides/python-net/it/aspose.slides.effects/iinnershadoweffectivedata/direction/) | Direzione dell'ombra.<br/>            Solo lettura **float**. |
 | [`distance`](/slides/python-net/it/aspose.slides.effects/iinnershadoweffectivedata/distance/) | Distanza dell'ombra.<br/>            Solo lettura **float**. |
-| [`shadow_color`](/slides/python-net/it/aspose.slides.effects/iinnershadoweffectivedata/shadow_color/) | Colore dell'ombra.<br/>            Solo lettura **aspose.slides.Color**. |
+| [`shadow_color`](/slides/python-net/it/aspose.slides.effects/iinnershadoweffectivedata/shadow_color/) | Colore dell'ombra.<br/>            Solo lettura [`Color`](/slides/python-net/it/aspose.slides/color). |
+
 
 ### Vedi anche
 * modulo [`aspose.slides.effects`](/slides/python-net/it/aspose.slides.effects)

@@ -6,8 +6,8 @@ type: docs
 url: /ja/aspose.slides.animation/motionpath/add/
 weight: 20
 ---
-## add(self, type, pts, pts_type, b_relative_coord) {#motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool}
-パスに新しいコマンドを追加
+## add(self, type, pts, pts_type, b_relative_coord) {#motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool}
+パスに新しいコマンドを追加します
 
 
 ```python
@@ -26,9 +26,9 @@ def add(self, type, pts, pts_type, b_relative_coord):
 
 
 ### 参照
-* クラス [`IMotionCmdPath`](/slides/python-net/ja/aspose.slides.animation/imotioncmdpath)
-* 列挙型 [`MotionCommandPathType`](/slides/python-net/ja/aspose.slides.animation/motioncommandpathtype)
-* クラス [`MotionPath`](/slides/python-net/ja/aspose.slides.animation/motionpath)
-* 列挙型 [`MotionPathPointsType`](/slides/python-net/ja/aspose.slides.animation/motionpathpointstype)
-* モジュール [`aspose.slides.animation`](/slides/python-net/ja/aspose.slides.animation)
-* ライブラリ [`Aspose.Slides`](/slides/python-net)
+* class [`IMotionCmdPath`](/slides/python-net/ja/aspose.slides.animation/imotioncmdpath)
+* enumeration [`MotionCommandPathType`](/slides/python-net/ja/aspose.slides.animation/motioncommandpathtype)
+* class [`MotionPath`](/slides/python-net/ja/aspose.slides.animation/motionpath)
+* enumeration [`MotionPathPointsType`](/slides/python-net/ja/aspose.slides.animation/motionpathpointstype)
+* module [`aspose.slides.animation`](/slides/python-net/ja/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

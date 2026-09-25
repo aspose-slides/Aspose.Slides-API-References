@@ -6,7 +6,7 @@ type: docs
 url: /de/aspose.slides/patternformat/get_tile/
 weight: 10
 ---
-## get_tile(self, style_color) {#asposepydrawingcolor}
+## get_tile(self, style_color) {#asposeslidescolor}
 Erstellt ein Kachelbild für die Musterfüllung.
 
 ### Rückgabewert
@@ -23,10 +23,10 @@ def get_tile(self, style_color):
 
 | Parameter | Typ | Beschreibung |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | Der Standard **aspose.slides.Color** |
+| style_color | [`Color`](/slides/python-net/de/aspose.slides/color) | Der Standard [`Color`](/slides/python-net/de/aspose.slides/color) |
 
 
-## get_tile(self, background, foreground) {#asposepydrawingcolor-asposepydrawingcolor}
+## get_tile(self, background, foreground) {#asposeslidescolor-asposeslidescolor}
 Erstellt ein Kachelbild für die Musterfüllung mit angegebenen Farben.
 
 ### Rückgabewert
@@ -43,13 +43,14 @@ def get_tile(self, background, foreground):
 
 | Parameter | Typ | Beschreibung |
 | :- | :- | :- |
-| background | **aspose.slides.Color** | Der Hintergrund **aspose.slides.Color** für das Muster. |
-| foreground | **aspose.slides.Color** | Der Vordergrund **aspose.slides.Color** für das Muster. |
+| background | [`Color`](/slides/python-net/de/aspose.slides/color) | Der Hintergrund [`Color`](/slides/python-net/de/aspose.slides/color) für das Muster. |
+| foreground | [`Color`](/slides/python-net/de/aspose.slides/color) | Der Vordergrund [`Color`](/slides/python-net/de/aspose.slides/color) für das Muster. |
 
 
 
 ### Siehe auch
 * Klasse [`IImage`](/slides/python-net/de/aspose.slides/iimage)
 * Klasse [`PatternFormat`](/slides/python-net/de/aspose.slides/patternformat)
+* Klasse [`Color`](/slides/python-net/de/aspose.slides/color)
 * Modul [`aspose.slides`](/slides/python-net/de/aspose.slides)
 * Bibliothek [`Aspose.Slides`](/slides/python-net)

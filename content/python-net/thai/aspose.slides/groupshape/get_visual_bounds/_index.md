@@ -1,17 +1,17 @@
 ---
 title: get_visual_bounds method
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET การอ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides/groupshape/get_visual_bounds/
 weight: 40
 ---
 ## get_visual_bounds(self) {#}
-รับขอบเขตภาพของรูปทรงที่คำนวณจากเนื้อหาที่เรนเดอร์แล้ว
+รับขอบเขตเชิงภาพของรูปร่างที่คำนวณจากเนื้อหาที่เรนเดอร์แล้ว
 
-### คืนค่า
+### ผลลัพธ์
 
-วัตถุ **aspose.slides.RectangleF** ที่แสดงขอบเขตภาพของรูปทรงในพิกัดสไลด์
+[`RectangleF`](/slides/python-net/th/aspose.slides/rectanglef) ที่แสดงขอบเขตเชิงภาพของรูปร่างในพิกัดสไลด์
 
 
 
@@ -23,17 +23,18 @@ def get_visual_bounds(self):
 
 ### หมายเหตุ
 
-สี่เหลี่ยมที่ส่งกลับแสดงขอบเขตที่จัดแนวตามแกนของเนื้อหาทั้งหมดที่สร้างโดยรูปทรงระหว่างการเรนเดอร์ในพิกัดสไลด์  
+สี่เหลี่ยมที่ส่งคืนแสดงขอบเขตที่จัดแนวตามแกนของเนื้อหาทั้งหมดที่สร้างโดยรูปร่างระหว่างการเรนเดอร์ในพิกัดสไลด์
 
-ขอบเขตเหล่านี้อาจแตกต่างจากขอบเขตโมเดลของรูปทรง ([`Shape.x`](/slides/python-net/th/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/th/aspose.slides/shape/y), [`Shape.width`](/slides/python-net/th/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/th/aspose.slides/shape/height)) และอาจมีพิกัดเป็นค่าลบหากเนื้อหาที่เรนเดอร์ขยายออกไปเกินจุดกำเนิดของสไลด์  
+ขอบเขตเหล่านี้อาจแตกต่างจากขอบเขตโมเดลของรูปร่าง ([`Shape.x`](/slides/python-net/th/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/th/aspose.slides/shape/y), [`Shape.width`](/slides/python-net/th/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/th/aspose.slides/shape/height)) และอาจมีค่าพิกัดเป็นลบหากเนื้อหาที่เรนเดอร์ขยายเกินจุดเริ่มต้นของสไลด์
 
-ขอบเขตภาพคำนึงถึงแง่มุมที่เกี่ยวข้องกับการเรนเดอร์เช่น การแปลง (เช่น การหมุน), ความกว้างของเส้นขอบและการเชื่อมต่อ, การจัดวางข้อความและการล้น, SmartArt geometry, และผลกระทบการจัดวางอื่น ๆ ที่มีผลต่อรูปลักษณ์สุดท้ายที่เรนเดอร์ของรูปทรง  
+ขอบเขตเชิงภาพคำนึงถึงแง่มุมที่เกี่ยวกับการเรนเดอร์ เช่น การแปลงรูป (เช่น การหมุน), ความกว้างของเส้นขอบและการเชื่อมต่อ, การจัดวางข้อความและการล้น, รูปทรง SmartArt, และผลกระทบการจัดวางอื่น ๆ ที่ส่งผลต่อรูปลักษณ์สุดท้ายที่เรนเดอร์ของรูปร่าง
 
-ขอบเขตที่ส่งกลับจะไม่ถูกตัดให้เข้าสู่สี่เหลี่ยมสไลด์
+ขอบเขตที่ส่งคืนไม่ถูกตัดให้เข้ากับสี่เหลี่ยมสไลด์
 
 
 
-### ดูเพิ่มเติม
+### ดูเพิ่ม
 * คลาส [`GroupShape`](/slides/python-net/th/aspose.slides/groupshape)
+* คลาส [`RectangleF`](/slides/python-net/th/aspose.slides/rectanglef)
 * โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
 * ไลบรารี [`Aspose.Slides`](/slides/python-net)

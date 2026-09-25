@@ -1,17 +1,17 @@
 ---
 title: get_fill_styles method
-second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
+second_title: Aspose.Slides pro Python přes .NET - referenční příručka API
 description: 
 type: docs
 url: /cs/aspose.slides.theme/iformatschemeeffectivedata/get_fill_styles/
 weight: 30
 ---
-## get_fill_styles(self, style_color) {#asposepydrawingcolor}
-Vrací kolekci výplňových stylů definovaných v tématu.
+## get_fill_styles(self, style_color) {#asposeslidescolor}
+Vrací kolekci stylů výplně definovaných motivem.
 
-### Návrat
+### Návratová hodnota
 
-Kolekce účinných výplňových formátů [`IFillFormatCollectionEffectiveData`](/slides/python-net/cs/aspose.slides.theme/ifillformatcollectioneffectivedata)
+Kolekce efektivních formátů výplně [`IFillFormatCollectionEffectiveData`](/slides/python-net/cs/aspose.slides.theme/ifillformatcollectioneffectivedata)
 
 
 
@@ -23,12 +23,13 @@ def get_fill_styles(self, style_color):
 
 | Parametr | Typ | Popis |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | Barva **aspose.slides.Color** |
+| style_color | [`Color`](/slides/python-net/cs/aspose.slides/color) | Barva [`Color`](/slides/python-net/cs/aspose.slides/color) |
 
 
 
 ### Viz také
 * třída [`IFillFormatCollectionEffectiveData`](/slides/python-net/cs/aspose.slides.theme/ifillformatcollectioneffectivedata)
 * třída [`IFormatSchemeEffectiveData`](/slides/python-net/cs/aspose.slides.theme/iformatschemeeffectivedata)
+* třída [`Color`](/slides/python-net/cs/aspose.slides/color)
 * modul [`aspose.slides.theme`](/slides/python-net/cs/aspose.slides.theme)
 * knihovna [`Aspose.Slides`](/slides/python-net)

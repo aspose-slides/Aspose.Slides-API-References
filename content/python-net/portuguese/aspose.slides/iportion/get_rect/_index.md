@@ -1,30 +1,24 @@
 ---
 title: get_rect method
-second_title: Referência da API Aspose.Slides para Python via .NET
+second_title: Aspose.Slides para Python via .NET Referência da API
 description: 
 type: docs
 url: /pt/aspose.slides/iportion/get_rect/
 weight: 30
 ---
 ## get_rect(self) {#}
-Obtém as coordenadas do retângulo que delimita a parte. O retângulo inclui todas as linhas de
-             texto na parte, incluindo as vazias.
+Obtém as coordenadas do retângulo que delimita a porção. O retângulo inclui todas as linhas de texto na porção, incluindo as vazias.
 
-### Retorno
-
-Retângulo que delimita a parte **aspose.slides.RectangleF**
-
-
+### Retorna
+Retângulo que delimita a porção [`RectangleF`](/slides/python-net/pt/aspose.slides/rectanglef)
 
 ```python
 def get_rect(self):
     ...
 ```
 
-
-
-
-### Veja também
+### Veja Também
 * classe [`IPortion`](/slides/python-net/pt/aspose.slides/iportion)
+* classe [`RectangleF`](/slides/python-net/pt/aspose.slides/rectanglef)
 * módulo [`aspose.slides`](/slides/python-net/pt/aspose.slides)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

@@ -1,17 +1,17 @@
 ---
 title: get_tile method
-second_title: Référence de l'API Aspose.Slides pour Python via .NET
+second_title: Aspose.Slides pour Python via la référence d'API .NET
 description: 
 type: docs
 url: /fr/aspose.slides/ipatternformat/get_tile/
 weight: 10
 ---
-## get_tile(self, style_color) {#asposepydrawingcolor}
-Crée une image de tuile pour le remplissage de motif.
+## get_tile(self, style_color) {#asposeslidescolor}
+Crée une image de tuile pour le remplissage en motif.
 
-### Valeur de retour
+### Retour
 
-Tuile **aspose.slides.Bitmap**.
+Tile **aspose.slides.IImage**.
 
 
 
@@ -23,15 +23,15 @@ def get_tile(self, style_color):
 
 | Paramètre | Type | Description |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | La **aspose.slides.Color** par défaut, <br/><br/> définie dans l'objet StyleEx de ShapeEx. Les couleurs du remplissage peuvent dépendre de celle-ci. |
+| style_color | [`Color`](/slides/python-net/fr/aspose.slides/color) | La valeur par défaut [`Color`](/slides/python-net/fr/aspose.slides/color), <br/><br/> définie dans l'objet StyleEx de ShapeEx. Les couleurs de remplissage peuvent dépendre de cela. |
 
 
-## get_tile(self, background, foreground) {#asposepydrawingcolor-asposepydrawingcolor}
-Crée une image de tuile pour le remplissage de motif avec des couleurs spécifiées.
+## get_tile(self, background, foreground) {#asposeslidescolor-asposeslidescolor}
+Crée une image de tuile pour le remplissage en motif avec des couleurs spécifiées.
 
-### Valeur de retour
+### Retour
 
-Tuile **aspose.slides.Bitmap**.
+Tile **aspose.slides.IImage**.
 
 
 
@@ -43,13 +43,14 @@ def get_tile(self, background, foreground):
 
 | Paramètre | Type | Description |
 | :- | :- | :- |
-| background | **aspose.slides.Color** | La **aspose.slides.Color** d'arrière-plan pour le motif. |
-| foreground | **aspose.slides.Color** | La **aspose.slides.Color** de premier plan pour le motif. |
+| background | [`Color`](/slides/python-net/fr/aspose.slides/color) | L'arrière-plan [`Color`](/slides/python-net/fr/aspose.slides/color) du motif. |
+| foreground | [`Color`](/slides/python-net/fr/aspose.slides/color) | Le premier plan [`Color`](/slides/python-net/fr/aspose.slides/color) du motif. |
 
 
 
 ### Voir aussi
 * classe [`IImage`](/slides/python-net/fr/aspose.slides/iimage)
 * classe [`IPatternFormat`](/slides/python-net/fr/aspose.slides/ipatternformat)
+* classe [`Color`](/slides/python-net/fr/aspose.slides/color)
 * module [`aspose.slides`](/slides/python-net/fr/aspose.slides)
 * bibliothèque [`Aspose.Slides`](/slides/python-net)

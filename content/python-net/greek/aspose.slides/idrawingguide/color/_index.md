@@ -6,9 +6,9 @@ type: docs
 url: /el/aspose.slides/idrawingguide/color/
 weight: 10
 ---
-## ιδιότητα χρώματος
+## Ιδιότητα χρώματος
 Επιστρέφει ή ορίζει το χρώμα του οδηγού σχεδίασης.
-            Ανάγνωση/εγγραφή **aspose.slides.Color**.
+            Ανάγνωση/εγγραφή [`Color`](/slides/python-net/el/aspose.slides/color).
 
 ### Ορισμός:
 ```python
@@ -24,5 +24,6 @@ def color(self, value):
 
 ### Δείτε επίσης
 * κλάση [`IDrawingGuide`](/slides/python-net/el/aspose.slides/idrawingguide)
+* κλάση [`Color`](/slides/python-net/el/aspose.slides/color)
 * μονάδα [`aspose.slides`](/slides/python-net/el/aspose.slides)
 * βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

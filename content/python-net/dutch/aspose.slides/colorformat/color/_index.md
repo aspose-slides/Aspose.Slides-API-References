@@ -1,15 +1,15 @@
 ---
 title: color property
-second_title: Aspose.Slides voor Python via .NET API-referentie
+second_title: Aspose.Slides voor Python via .NET API Referentie
 description: 
 type: docs
 url: /nl/aspose.slides/colorformat/color/
 weight: 60
 ---
 ## kleur eigenschap
-Retourneert de resulterende kleur (met alle kleurovergangen toegepast).
+Geeft de resulterende kleur terug (met alle kleurovergangen toegepast).
             Stelt RGB-kleuren in en wist alle kleurovergangen.
-            Lezen/schrijven **aspose.slides.Color**.
+            Lezen/schrijven [`Color`](/slides/python-net/nl/aspose.slides/color).
 
 ### Definitie:
 ```python
@@ -25,5 +25,6 @@ def color(self, value):
 
 ### Zie ook
 * klasse [`ColorFormat`](/slides/python-net/nl/aspose.slides/colorformat)
+* klasse [`Color`](/slides/python-net/nl/aspose.slides/color)
 * module [`aspose.slides`](/slides/python-net/nl/aspose.slides)
 * bibliotheek [`Aspose.Slides`](/slides/python-net)

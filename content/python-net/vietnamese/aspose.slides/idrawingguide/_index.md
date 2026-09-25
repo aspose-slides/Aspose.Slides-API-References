@@ -1,13 +1,13 @@
 ---
 title: IDrawingGuide class
-second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
+second_title: Aspose.Slides cho Python thông qua Tham chiếu API .NET
 description: 
 type: docs
 url: /vi/aspose.slides/idrawingguide/
 ---
 ## IDrawingGuide lớp
 
-Biểu diễn một hướng dẫn vẽ có thể điều chỉnh.
+Biểu thị một hướng dẫn vẽ có thể điều chỉnh.
 
 Kiểu IDrawingGuide cung cấp các thành viên sau:
 
@@ -17,7 +17,7 @@ Kiểu IDrawingGuide cung cấp các thành viên sau:
 | :- | :- |
 | [`orientation`](/slides/python-net/vi/aspose.slides/idrawingguide/orientation/) | Trả về hoặc đặt hướng của hướng dẫn vẽ.<br/>            Đọc/ghi [`Orientation`](/slides/python-net/vi/aspose.slides/orientation). |
 | [`position`](/slides/python-net/vi/aspose.slides/idrawingguide/position/) | Trả về hoặc đặt vị trí của hướng dẫn vẽ tính bằng điểm từ góc trên, trái của slide.<br/>            Đọc/ghi **float**. |
-| [`color`](/slides/python-net/vi/aspose.slides/idrawingguide/color/) | Trả về hoặc đặt màu của hướng dẫn vẽ.<br/>            Đọc/ghi **aspose.slides.Color**. |
+| [`color`](/slides/python-net/vi/aspose.slides/idrawingguide/color/) | Trả về hoặc đặt màu của hướng dẫn vẽ.<br/>            Đọc/ghi [`Color`](/slides/python-net/vi/aspose.slides/color). |
 
 
 ### Xem Thêm

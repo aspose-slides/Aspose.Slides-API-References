@@ -6,7 +6,7 @@ type: docs
 url: /id/aspose.slides.theme/ithemeeffectivedata/get_color_scheme/
 weight: 10
 ---
-## get_color_scheme(self, style_color) {#asposepydrawingcolor}
+## get_color_scheme(self, style_color) {#asposeslidescolor}
 Mengembalikan skema warna.
 
 ### Mengembalikan
@@ -23,12 +23,13 @@ def get_color_scheme(self, style_color):
 
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | Warna **aspose.slides.Color** |
+| style_color | [`Color`](/slides/python-net/id/aspose.slides/color) | Warna [`Color`](/slides/python-net/id/aspose.slides/color) |
 
 
 
 ### Lihat Juga
 * kelas [`IColorSchemeEffectiveData`](/slides/python-net/id/aspose.slides.theme/icolorschemeeffectivedata)
 * kelas [`IThemeEffectiveData`](/slides/python-net/id/aspose.slides.theme/ithemeeffectivedata)
+* kelas [`Color`](/slides/python-net/id/aspose.slides/color)
 * modul [`aspose.slides.theme`](/slides/python-net/id/aspose.slides.theme)
 * pustaka [`Aspose.Slides`](/slides/python-net)

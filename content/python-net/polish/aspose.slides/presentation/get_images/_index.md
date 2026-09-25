@@ -1,6 +1,6 @@
 ---
 title: get_images method
-second_title: Referencja API Aspose.Slides dla Pythona via .NET
+second_title: Aspose.Slides dla Python via .NET odwołanie do API
 description: 
 type: docs
 url: /pl/aspose.slides/presentation/get_images/
@@ -23,11 +23,11 @@ def get_images(self, options):
 
 | Parametr | Typ | Opis |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/pl/aspose.slides.export/irenderingoptions) | Opcje Tiff. |
+| options | [`IRenderingOptions`](/slides/python-net/pl/aspose.slides.export/irenderingoptions) | Tiff options. |
 
 
 ## get_images(self, options, slides) {#asposeslidesexportirenderingoptions-listint}
-Zwraca miniatury Image dla określonych slajdów prezentacji.
+Zwraca obiekty Thumbnail Image dla określonych slajdów prezentacji.
 
 ### Zwraca
 
@@ -43,12 +43,12 @@ def get_images(self, options, slides):
 
 | Parametr | Typ | Opis |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/pl/aspose.slides.export/irenderingoptions) | Opcje Tiff. |
-| slides | **List[int]** | Tablica z pozycjami slajdów, zaczynając od 1. |
+| options | [`IRenderingOptions`](/slides/python-net/pl/aspose.slides.export/irenderingoptions) | Tiff options. |
+| slides | **List[int]** | Array with slide positions, starting from 1. |
 
 
-## get_images(self, options, image_size) {#asposeslidesexportirenderingoptions-asposepydrawingsize}
-Zwraca miniatury Image dla wszystkich slajdów prezentacji o podanym rozmiarze.
+## get_images(self, options, image_size) {#asposeslidesexportirenderingoptions-asposeslidessize}
+Zwraca obiekty Thumbnail Image dla wszystkich slajdów prezentacji o określonym rozmiarze.
 
 ### Zwraca
 
@@ -64,12 +64,12 @@ def get_images(self, options, image_size):
 
 | Parametr | Typ | Opis |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/pl/aspose.slides.export/irenderingoptions) | Opcje Tiff. |
-| image_size | **aspose.slides.Size** | Rozmiar obrazu do utworzenia. |
+| options | [`IRenderingOptions`](/slides/python-net/pl/aspose.slides.export/irenderingoptions) | Tiff options. |
+| image_size | [`Size`](/slides/python-net/pl/aspose.slides/size) | Size of the image to create. |
 
 
 ## get_images(self, options, scale_x, scale_y) {#asposeslidesexportirenderingoptions-float-float}
-Zwraca miniatury Image dla wszystkich slajdów prezentacji ze skalowaniem własnym.
+Zwraca obiekty Thumbnail Image dla wszystkich slajdów prezentacji z niestandardowym skalowaniem.
 
 ### Zwraca
 
@@ -85,13 +85,13 @@ def get_images(self, options, scale_x, scale_y):
 
 | Parametr | Typ | Opis |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/pl/aspose.slides.export/irenderingoptions) | Opcje Tiff. |
-| scale_x | **float** | Wartość, o jaką skalować tę miniaturę w kierunku osi x. |
-| scale_y | **float** | Wartość, o jaką skalować tę miniaturę w kierunku osi y. |
+| options | [`IRenderingOptions`](/slides/python-net/pl/aspose.slides.export/irenderingoptions) | Tiff options. |
+| scale_x | **float** | The value by which to scale this Thumbnail in the x-axis direction. |
+| scale_y | **float** | The value by which to scale this Thumbnail in the y-axis direction. |
 
 
-## get_images(self, options, slides, image_size) {#asposeslidesexportirenderingoptions-listint-asposepydrawingsize}
-Zwraca miniatury Image dla określonych slajdów prezentacji o podanym rozmiarze.
+## get_images(self, options, slides, image_size) {#asposeslidesexportirenderingoptions-listint-asposeslidessize}
+Zwraca obiekty Thumbnail Image dla określonych slajdów prezentacji o określonym rozmiarze.
 
 ### Zwraca
 
@@ -107,13 +107,13 @@ def get_images(self, options, slides, image_size):
 
 | Parametr | Typ | Opis |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/pl/aspose.slides.export/irenderingoptions) | Opcje Tiff. |
-| slides | **List[int]** | Tablica z pozycjami slajdów, zaczynając od 1. |
-| image_size | **aspose.slides.Size** | Rozmiar obrazu do utworzenia. |
+| options | [`IRenderingOptions`](/slides/python-net/pl/aspose.slides.export/irenderingoptions) | Tiff options. |
+| slides | **List[int]** | Array with slide positions, starting from 1. |
+| image_size | [`Size`](/slides/python-net/pl/aspose.slides/size) | Size of the image to create. |
 
 
 ## get_images(self, options, slides, scale_x, scale_y) {#asposeslidesexportirenderingoptions-listint-float-float}
-Zwraca miniatury Image dla określonych slajdów prezentacji ze skalowaniem własnym.
+Zwraca obiekty Thumbnail Image dla określonych slajdów prezentacji z niestandardowym skalowaniem.
 
 ### Zwraca
 
@@ -129,15 +129,16 @@ def get_images(self, options, slides, scale_x, scale_y):
 
 | Parametr | Typ | Opis |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/pl/aspose.slides.export/irenderingoptions) | Opcje Tiff. |
-| slides | **List[int]** | Tablica z pozycjami slajdów, zaczynając od 1. |
-| scale_x | **float** | Wartość, o jaką skalować tę miniaturę w kierunku osi x. |
-| scale_y | **float** | Wartość, o jaką skalować tę miniaturę w kierunku osi y. |
+| options | [`IRenderingOptions`](/slides/python-net/pl/aspose.slides.export/irenderingoptions) | Tiff options. |
+| slides | **List[int]** | Array with slide positions, starting from 1. |
+| scale_x | **float** | The value by which to scale this Thumbnail in the x-axis direction. |
+| scale_y | **float** | The value by which to scale this Thumbnail in the y-axis direction. |
 
 
 
 ### Zobacz także
 * klasa [`IRenderingOptions`](/slides/python-net/pl/aspose.slides.export/irenderingoptions)
 * klasa [`Presentation`](/slides/python-net/pl/aspose.slides/presentation)
+* klasa [`Size`](/slides/python-net/pl/aspose.slides/size)
 * moduł [`aspose.slides`](/slides/python-net/pl/aspose.slides)
 * biblioteka [`Aspose.Slides`](/slides/python-net)

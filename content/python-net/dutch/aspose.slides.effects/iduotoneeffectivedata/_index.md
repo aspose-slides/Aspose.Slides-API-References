@@ -7,17 +7,18 @@ url: /nl/aspose.slides.effects/iduotoneeffectivedata/
 ---
 ## IDuotoneEffectiveData klasse
 
-Onveranderlijk object dat een Duotone-effect vertegenwoordigt.  
-Voor elke pixel combineert het clr1 en clr2 via een lineaire interpolatie om de nieuwe kleur voor die pixel te bepalen.
+Onveranderlijk object dat een Duotone-effect vertegenwoordigt.
+            Voor elke pixel combineert het clr1 en clr2 door middel van lineaire interpolatie om de nieuwe kleur voor die pixel te bepalen.
 
-Het IDuotoneEffectiveData type exposeert de volgende leden:
+Het type IDuotoneEffectiveData bevat de volgende leden:
 
 ## Eigenschappen
 
 | Eigenschap | Beschrijving |
 | :- | :- |
-| [`color1`](/slides/python-net/nl/aspose.slides.effects/iduotoneeffectivedata/color1/) | Geeft het doelkleurformaat voor donkere pixels terug.<br/>            Alleen-lezen **aspose.slides.Color**. |
-| [`color2`](/slides/python-net/nl/aspose.slides.effects/iduotoneeffectivedata/color2/) | Geeft het doelkleurformaat voor lichte pixels terug.<br/>            Alleen-lezen **aspose.slides.Color**. |
+| [`color1`](/slides/python-net/nl/aspose.slides.effects/iduotoneeffectivedata/color1/) | Retourneert doelformaat voor donkere pixels.<br/>            Alleen-lezen [`Color`](/slides/python-net/nl/aspose.slides/color). |
+| [`color2`](/slides/python-net/nl/aspose.slides.effects/iduotoneeffectivedata/color2/) | Retourneert doelformaat voor lichte pixels.<br/>            Alleen-lezen [`Color`](/slides/python-net/nl/aspose.slides/color). |
+
 
 ### Zie ook
 * module [`aspose.slides.effects`](/slides/python-net/nl/aspose.slides.effects)

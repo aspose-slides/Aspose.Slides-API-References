@@ -7,17 +7,17 @@ url: /sv/aspose.slides/idrawingguide/
 ---
 ## IDrawingGuide klass
 
-Representerar en justerbar ritningsguide.
+Representerar en justerbar ritguide.
 
 IDrawingGuide-typen exponerar följande medlemmar:
 
 ## Egenskaper
 
-| Property | Description |
+| Egenskap | Beskrivning |
 | :- | :- |
-| [`orientation`](/slides/python-net/sv/aspose.slides/idrawingguide/orientation/) | Returnerar eller anger orienteringen för ritningsguiden.<br/>            Read/write [`Orientation`](/slides/python-net/sv/aspose.slides/orientation). |
-| [`position`](/slides/python-net/sv/aspose.slides/idrawingguide/position/) | Returnerar eller anger positionen för ritningsguiden i punkter från slideens övre vänstra hörn.<br/>            Read/write **float**. |
-| [`color`](/slides/python-net/sv/aspose.slides/idrawingguide/color/) | Returnerar eller anger färgen på ritningsguiden.<br/>            Read/write **aspose.slides.Color**. |
+| [`orientation`](/slides/python-net/sv/aspose.slides/idrawingguide/orientation/) | Returnerar eller anger orienteringen för ritguiden.<br/>            Läs/skriv [`Orientation`](/slides/python-net/sv/aspose.slides/orientation). |
+| [`position`](/slides/python-net/sv/aspose.slides/idrawingguide/position/) | Returnerar eller anger positionen för ritguiden i punkter från övre vänstra hörnet av bilden.<br/>            Läs/skriv **float**. |
+| [`color`](/slides/python-net/sv/aspose.slides/idrawingguide/color/) | Returnerar eller anger färgen på ritguiden.<br/>            Läs/skriv [`Color`](/slides/python-net/sv/aspose.slides/color). |
 
 
 ### Se även

@@ -15,9 +15,9 @@ url: /fa/aspose.slides.ink/iinktrace/
 
 | ویژگی | توضیح |
 | :- | :- |
-| [`brush`](/slides/python-net/fa/aspose.slides.ink/iinktrace/brush/) | دریافت Brush برای IInkLine [`IInkBrush`](/slides/python-net/fa/aspose.slides.ink/iinkbrush)<br/>            فقط خواندنی. |
-| [`points`](/slides/python-net/fa/aspose.slides.ink/iinktrace/points/) | دریافت نقاط برای IInkLine **aspose.slides.PointF**<br/>            فقط خواندنی. |
+| [`brush`](/slides/python-net/fa/aspose.slides.ink/iinktrace/brush/) | Brush مربوط به IInkLine را دریافت می‌کند [`IInkBrush`](/slides/python-net/fa/aspose.slides.ink/iinkbrush)<br/>            فقط-خواندنی. |
+| [`points`](/slides/python-net/fa/aspose.slides.ink/iinktrace/points/) | نقاط مربوط به IInkLine را دریافت می‌کند [`PointF`](/slides/python-net/fa/aspose.slides/pointf)<br/>            فقط-خواندنی. |
 
-### همچنین ببینید
+### موارد مرتبط
 * ماژول [`aspose.slides.ink`](/slides/python-net/fa/aspose.slides.ink)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

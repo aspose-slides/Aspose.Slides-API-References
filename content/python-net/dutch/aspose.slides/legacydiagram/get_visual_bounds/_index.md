@@ -9,10 +9,9 @@ weight: 60
 ## get_visual_bounds(self) {#}
 Haalt de visuele grenzen van de vorm op, berekend op basis van de gerenderde inhoud.
 
-### Returns
+### Retourneert
 
-Een **aspose.slides.RectangleF** dat de visuele grenzen van de vorm
-             in dia-coördinaten weergeeft.
+Een [`RectangleF`](/slides/python-net/nl/aspose.slides/rectanglef) die de visuele grenzen van de vorm in dia-coördinaten weergeeft.
 
 
 
@@ -22,26 +21,27 @@ def get_visual_bounds(self):
 ```
 
 
-### Remarks
+### Opmerkingen
 
-De geretourneerde rechthoek vertegenwoordigt de langs de assen uitgelijnde grenzen van alle inhoud
-             die door de vorm tijdens het renderen in de dia-coördinatenruimte wordt geproduceerd.
-            
-             Deze grenzen kunnen afwijken van de modelgrenzen van de vorm
-             ([`Shape.x`](/slides/python-net/nl/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/nl/aspose.slides/shape/y),
-             [`Shape.width`](/slides/python-net/nl/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/nl/aspose.slides/shape/height))
-             en kunnen negatieve coördinaten bevatten als de gerenderde inhoud de dia-oorsprong overschrijdt.
-            
-             De visuele grenzen houden rekening met render-gerelateerde aspecten zoals
-             transformaties (bijvoorbeeld rotatie), lijndikte en aansluitingen,
-             tekstindeling en overflow, SmartArt-geometrie, en andere lay-outeffecten
-             die de uiteindelijke gerenderde weergave van de vorm beïnvloeden.
-            
-             De geretourneerde grenzen worden niet bijgesneden tot de dia-rechthoek.
+De geretourneerde rechthoek vertegenwoordigt de as-uitgelijnde grenzen van alle inhoud
+            die door de vorm wordt geproduceerd tijdens het renderen in dia-coördinaten.
+
+            Deze grenzen kunnen afwijken van de modelgrenzen van de vorm
+            ([`Shape.x`](/slides/python-net/nl/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/nl/aspose.slides/shape/y),
+            [`Shape.width`](/slides/python-net/nl/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/nl/aspose.slides/shape/height))
+            en kunnen negatieve coördinaten bevatten als de gerenderde inhoud zich buiten de oorsprong van de dia uitstrekt.
+
+            De visuele grenzen houden rekening met render-gerelateerde aspecten, zoals
+            transformaties (bijvoorbeeld rotatie), lijndikte en verbindingen,
+            tekstopmaak en overflow, SmartArt-geometrie, en andere layouteffecten
+            die van invloed zijn op het uiteindelijke gerenderde uiterlijk van de vorm.
+
+            De geretourneerde grenzen worden niet bijgesneden tot de dia-rechthoek.
 
 
 
-### See Also
+### Zie ook
 * klasse [`LegacyDiagram`](/slides/python-net/nl/aspose.slides/legacydiagram)
+* klasse [`RectangleF`](/slides/python-net/nl/aspose.slides/rectanglef)
 * module [`aspose.slides`](/slides/python-net/nl/aspose.slides)
 * bibliotheek [`Aspose.Slides`](/slides/python-net)

@@ -1,16 +1,16 @@
 ---
 title: color2 property
-second_title: Aspose.Slides for Python via .NET API 參考文件
+second_title: Aspose.Slides for Python via .NET API 參考
 description: 
 type: docs
 url: /zh-hant/aspose.slides.effects/iduotoneeffectivedata/color2/
 weight: 30
 ---
 ## color2 屬性
-傳回亮像素的目標色彩格式。
-            唯讀 **aspose.slides.Color**.
+傳回光像素的目標顏色格式。
+            Read-only [`Color`](/slides/python-net/zh-hant/aspose.slides/color).
 
-### 定義：
+### Definition:
 ```python
 @property
 def color2(self):
@@ -18,7 +18,8 @@ def color2(self):
 ```
 
 
-### 另請參閱
+### 另見
 * 類別 [`IDuotoneEffectiveData`](/slides/python-net/zh-hant/aspose.slides.effects/iduotoneeffectivedata)
+* 類別 [`Color`](/slides/python-net/zh-hant/aspose.slides/color)
 * 模組 [`aspose.slides.effects`](/slides/python-net/zh-hant/aspose.slides.effects)
-* library [`Aspose.Slides`](/slides/python-net)
+* 函式庫 [`Aspose.Slides`](/slides/python-net)

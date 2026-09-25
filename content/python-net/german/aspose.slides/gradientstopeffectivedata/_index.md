@@ -7,16 +7,17 @@ url: /de/aspose.slides/gradientstopeffectivedata/
 ---
 ## GradientStopEffectiveData Klasse
 
-Unveränderliches Objekt, das einen Verlaufspunkt darstellt.
+Unveränderliches Objekt, das einen Farbverlauf-Haltpunkt darstellt.
 
 Der Typ GradientStopEffectiveData stellt die folgenden Mitglieder bereit:
 
 ## Eigenschaften
 
-| Eigenschaft | Beschreibung |
+| Property | Description |
 | :- | :- |
-| [`position`](/slides/python-net/de/aspose.slides/gradientstopeffectivedata/position/) | Gibt die Position (0..1) eines Verlaufspunkts zurück.<br/>            Nur lesbar **float**. |
-| [`color`](/slides/python-net/de/aspose.slides/gradientstopeffectivedata/color/) | Gibt die Farbe eines Verlaufspunkts zurück.<br/>            Nur lesbar **aspose.slides.Color**. |
+| [`position`](/slides/python-net/de/aspose.slides/gradientstopeffectivedata/position/) | Gibt die Position (0..1) eines Farbverlauf-Haltpunkts zurück.<br/>            Nur lesbar **float**. |
+| [`color`](/slides/python-net/de/aspose.slides/gradientstopeffectivedata/color/) | Gibt die Farbe eines Farbverlauf-Haltpunkts zurück.<br/>            Nur lesbar [`Color`](/slides/python-net/de/aspose.slides/color). |
+
 
 ### Siehe auch
 * Modul [`aspose.slides`](/slides/python-net/de/aspose.slides)

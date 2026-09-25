@@ -7,12 +7,11 @@ url: /nl/aspose.slides/iparagraph/get_rect/
 weight: 30
 ---
 ## get_rect(self) {#}
-Haalt de coördinaten op van het rect dat de alinea begrenst. Het rect omvat alle regels van
-            tekst in de alinea, inclusief lege regels.
+Haal de coördinaten op van de rechthoek die de alinea omsluit. De rechthoek omvat alle regels tekst in de alinea, inclusief lege regels.
 
 ### Retourneert
 
-Rechthoek die de alinea begrenst **aspose.slides.RectangleF**
+Rechthoek die de alinea omsluit [`RectangleF`](/slides/python-net/nl/aspose.slides/rectanglef)
 
 
 
@@ -25,6 +24,7 @@ def get_rect(self):
 
 
 ### Zie ook
-* klasse [`IParagraph`](/slides/python-net/nl/aspose.slides/iparagraph)
+* class [`IParagraph`](/slides/python-net/nl/aspose.slides/iparagraph)
+* class [`RectangleF`](/slides/python-net/nl/aspose.slides/rectanglef)
 * module [`aspose.slides`](/slides/python-net/nl/aspose.slides)
-* bibliotheek [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

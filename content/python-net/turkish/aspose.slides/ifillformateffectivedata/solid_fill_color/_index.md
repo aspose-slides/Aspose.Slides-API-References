@@ -8,7 +8,7 @@ weight: 70
 ---
 ## solid_fill_color özelliği
 Dolgu rengini döndürür.
-            Yalnızca okuma **aspose.slides.Color**.
+            Salt okunur [`Color`](/slides/python-net/tr/aspose.slides/color).
 
 ### Tanım:
 ```python
@@ -18,7 +18,8 @@ def solid_fill_color(self):
 ```
 
 
-### Ayrıca bakınız
+### Ayrıca Bak
 * sınıf [`IFillFormatEffectiveData`](/slides/python-net/tr/aspose.slides/ifillformateffectivedata)
+* sınıf [`Color`](/slides/python-net/tr/aspose.slides/color)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

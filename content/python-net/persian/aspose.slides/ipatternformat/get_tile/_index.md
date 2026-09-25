@@ -1,17 +1,17 @@
 ---
 title: get_tile method
-second_title: Aspose.Slides برای پایتون از طریق .NET مرجع API
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides/ipatternformat/get_tile/
 weight: 10
 ---
-## get_tile(self, style_color) {#asposepydrawingcolor}
-یک تصویر کاشی برای پرکننده الگو ایجاد می‌کند.
+## get_tile(self, style_color) {#asposeslidescolor}
+یک تصویر کاشی برای پر کردن الگو ایجاد می‌کند.
 
-### بازگشت
+### بازگرداندن
 
-کاشی **aspose.slides.Bitmap**.
+کاشی **aspose.slides.IImage**.
 
 
 
@@ -21,17 +21,17 @@ def get_tile(self, style_color):
 ```
 
 
-| پارامتر | نوع | توضیح |
+| Parameter | Type | Description |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | رنگ پیش‌فرض **aspose.slides.Color**، <br/><br/>            که در شیء StyleEx از ShapeEx تعریف شده است. رنگ‌های پرکننده می‌توانند به این وابسته باشند. |
+| style_color | [`Color`](/slides/python-net/fa/aspose.slides/color) | پیش‌فرض [`Color`](/slides/python-net/fa/aspose.slides/color), <br/><br/>            که در شیء StyleEx از ShapeEx تعریف شده است. رنگ‌های Fill می‌توانند به این وابسته باشند. |
 
 
-## get_tile(self, background, foreground) {#asposepydrawingcolor-asposepydrawingcolor}
-یک تصویر کاشی برای پرکننده الگو با رنگ‌های مشخص ایجاد می‌کند.
+## get_tile(self, background, foreground) {#asposeslidescolor-asposeslidescolor}
+یک تصویر کاشی برای پر کردن الگو با رنگ‌های مشخص ایجاد می‌کند.
 
-### بازگشت
+### بازگرداندن
 
-کاشی **aspose.slides.Bitmap**.
+کاشی **aspose.slides.IImage**.
 
 
 
@@ -41,15 +41,16 @@ def get_tile(self, background, foreground):
 ```
 
 
-| پارامتر | نوع | توضیح |
+| Parameter | Type | Description |
 | :- | :- | :- |
-| background | **aspose.slides.Color** | رنگ پس‌زمینه **aspose.slides.Color** برای الگو. |
-| foreground | **aspose.slides.Color** | رنگ پیش‌زمینه **aspose.slides.Color** برای الگو. |
+| background | [`Color`](/slides/python-net/fa/aspose.slides/color) | پس‌زمینه [`Color`](/slides/python-net/fa/aspose.slides/color) برای الگو. |
+| foreground | [`Color`](/slides/python-net/fa/aspose.slides/color) | پیش‌زمینه [`Color`](/slides/python-net/fa/aspose.slides/color) برای الگو. |
 
 
 
-### موارد مرتبط
+### مراجع دیگر
 * کلاس [`IImage`](/slides/python-net/fa/aspose.slides/iimage)
 * کلاس [`IPatternFormat`](/slides/python-net/fa/aspose.slides/ipatternformat)
+* کلاس [`Color`](/slides/python-net/fa/aspose.slides/color)
 * ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

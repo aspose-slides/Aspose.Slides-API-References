@@ -1,14 +1,14 @@
 ---
 title: by property
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: Aspose.Slides لبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.animation/iscaleeffect/by/
 weight: 40
 ---
 ## حسب الخاصية
-يصف القيمة النسبية للإزاحة للرسوم المتحركة (بالنسبة المئوية).
-            قراءة/كتابة **aspose.slides.PointF**.
+يوصف قيمة الإزاحة النسبية للرسوم المتحركة (بنسبة مئوية).
+            قراءة/كتابة [`PointF`](/slides/python-net/ar/aspose.slides/pointf).
 
 ### التعريف:
 ```python
@@ -23,6 +23,7 @@ def by(self, value):
 
 
 ### انظر أيضًا
-* فئة [`IScaleEffect`](/slides/python-net/ar/aspose.slides.animation/iscaleeffect)
-* وحدة [`aspose.slides.animation`](/slides/python-net/ar/aspose.slides.animation)
-* مكتبة [`Aspose.Slides`](/slides/python-net)
+* الفئة [`IScaleEffect`](/slides/python-net/ar/aspose.slides.animation/iscaleeffect)
+* الفئة [`PointF`](/slides/python-net/ar/aspose.slides/pointf)
+* الوحدة [`aspose.slides.animation`](/slides/python-net/ar/aspose.slides.animation)
+* المكتبة [`Aspose.Slides`](/slides/python-net)

@@ -1,12 +1,12 @@
 ---
 title: insert method
-second_title: Aspose.Slides لبايثون عبر .NET مرجع API
+second_title: Aspose.Slides للـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.animation/motionpath/insert/
 weight: 40
 ---
-## insert(self, index, type, pts, pts_type, b_relative_coord) {#int-motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool}
+## insert(self, index, type, pts, pts_type, b_relative_coord) {#int-motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool}
 إدراج أمر جديد إلى المسار
 
 

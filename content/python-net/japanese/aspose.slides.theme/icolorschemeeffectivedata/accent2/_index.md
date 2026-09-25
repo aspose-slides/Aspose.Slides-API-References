@@ -7,8 +7,8 @@ url: /ja/aspose.slides.theme/icolorschemeeffectivedata/accent2/
 weight: 20
 ---
 ## accent2 プロパティ
-スキーム内の2番目のアクセントカラーです。
-            読み取り専用 **aspose.slides.Color**.
+スキーム内の第2アクセントカラー。
+            読み取り専用 [`Color`](/slides/python-net/ja/aspose.slides/color).
 
 ### 定義:
 ```python
@@ -18,7 +18,8 @@ def accent2(self):
 ```
 
 
-### 参照
+### 関連項目
 * クラス [`IColorSchemeEffectiveData`](/slides/python-net/ja/aspose.slides.theme/icolorschemeeffectivedata)
+* クラス [`Color`](/slides/python-net/ja/aspose.slides/color)
 * モジュール [`aspose.slides.theme`](/slides/python-net/ja/aspose.slides.theme)
 * ライブラリ [`Aspose.Slides`](/slides/python-net)

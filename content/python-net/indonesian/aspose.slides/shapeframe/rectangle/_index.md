@@ -8,7 +8,7 @@ weight: 100
 ---
 ## properti persegi panjang
 Mengembalikan koordinat sebuah bingkai.
-            Baca-saja **aspose.slides.RectangleF**.
+            Hanya-baca [`RectangleF`](/slides/python-net/id/aspose.slides/rectanglef).
 
 ### Definisi:
 ```python
@@ -20,5 +20,6 @@ def rectangle(self):
 
 ### Lihat Juga
 * kelas [`ShapeFrame`](/slides/python-net/id/aspose.slides/shapeframe)
+* kelas [`RectangleF`](/slides/python-net/id/aspose.slides/rectanglef)
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
-* perpustakaan [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

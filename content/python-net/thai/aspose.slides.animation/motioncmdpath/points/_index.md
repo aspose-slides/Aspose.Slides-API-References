@@ -7,10 +7,10 @@ url: /th/aspose.slides.animation/motioncmdpath/points/
 weight: 30
 ---
 ## points คุณสมบัติ
-ระบุจุดของคำสั่ง.
-            อ่าน/เขียน **aspose.slides.PointF**[].
+ระบุ points ของคำสั่ง.
+            อ่าน/เขียน [`PointF`](/slides/python-net/th/aspose.slides/pointf)[].
 
-### คำนิยาม:
+### คำจำกัดความ:
 ```python
 @property
 def points(self):
@@ -24,5 +24,6 @@ def points(self, value):
 
 ### ดูเพิ่มเติม
 * คลาส [`MotionCmdPath`](/slides/python-net/th/aspose.slides.animation/motioncmdpath)
+* คลาส [`PointF`](/slides/python-net/th/aspose.slides/pointf)
 * โมดูล [`aspose.slides.animation`](/slides/python-net/th/aspose.slides.animation)
 * ไลบรารี [`Aspose.Slides`](/slides/python-net)

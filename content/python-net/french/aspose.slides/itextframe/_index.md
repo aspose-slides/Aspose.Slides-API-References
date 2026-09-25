@@ -7,9 +7,9 @@ url: /fr/aspose.slides/itextframe/
 ---
 ## ITextFrame classe
 
-Représente un TextFrame.
+Represents a TextFrame.
 
-Le type ITextFrame expose les membres suivants :
+The ITextFrame type exposes the following members:
 
 ## Propriétés
 
@@ -28,13 +28,13 @@ Le type ITextFrame expose les membres suivants :
 
 | Method | Description |
 | :- | :- |
-| [`highlight_text(self, text, highlight_color)`](/slides/python-net/fr/aspose.slides/itextframe/highlight_text/#str-asposepydrawingcolor) | Met en évidence toutes les correspondances du texte d'exemple avec la couleur spécifiée. |
-| [`highlight_text(self, text, highlight_color, options)`](/slides/python-net/fr/aspose.slides/itextframe/highlight_text/#str-asposepydrawingcolor-itexthighlightingoptions) | Met en évidence toutes les correspondances du texte d'exemple avec la couleur spécifiée. |
-| [`highlight_text(self, text, highlight_color, options, callback)`](/slides/python-net/fr/aspose.slides/itextframe/highlight_text/#str-asposepydrawingcolor-itextsearchoptions-ifindresultcallback) | Met en évidence toutes les correspondances du texte d'exemple avec la couleur spécifiée. |
-| [`highlight_regex(self, regex, highlight_color)`](/slides/python-net/fr/aspose.slides/itextframe/highlight_regex/#str-asposepydrawingcolor) | Met en évidence toutes les correspondances de l'expression régulière avec la couleur spécifiée. |
-| [`highlight_regex(self, regex, highlight_color, options)`](/slides/python-net/fr/aspose.slides/itextframe/highlight_regex/#str-asposepydrawingcolor-itexthighlightingoptions) | Met en évidence toutes les correspondances de l'expression régulière avec la couleur spécifiée. |
-| [`join_portions_with_same_formatting(self)`](/slides/python-net/fr/aspose.slides/itextframe/join_portions_with_same_formatting/#) | Joint les segments avec la même mise en forme dans tous les paragraphes. |
-| [`split_text_by_columns(self)`](/slides/python-net/fr/aspose.slides/itextframe/split_text_by_columns/#) | Divise le contenu texte du [`ITextFrame`](/slides/python-net/fr/aspose.slides/itextframe) en un tableau de chaînes, <br/>            où chaque élément correspond à une colonne de texte distincte dans le cadre. |
+| [`highlight_text(self, text, highlight_color)`](/slides/python-net/fr/aspose.slides/itextframe/highlight_text/#str-asposeslidescolor) | Met en surbrillance toutes les correspondances du texte d'exemple avec la couleur spécifiée. |
+| [`highlight_text(self, text, highlight_color, options)`](/slides/python-net/fr/aspose.slides/itextframe/highlight_text/#str-asposeslidescolor-itexthighlightingoptions) | Met en surbrillance toutes les correspondances du texte d'exemple avec la couleur spécifiée. |
+| [`highlight_text(self, text, highlight_color, options, callback)`](/slides/python-net/fr/aspose.slides/itextframe/highlight_text/#str-asposeslidescolor-itextsearchoptions-ifindresultcallback) | Met en surbrillance toutes les correspondances du texte d'exemple avec la couleur spécifiée. |
+| [`highlight_regex(self, regex, highlight_color)`](/slides/python-net/fr/aspose.slides/itextframe/highlight_regex/#str-asposeslidescolor) | Met en surbrillance toutes les correspondances de l'expression régulière avec la couleur spécifiée. |
+| [`highlight_regex(self, regex, highlight_color, options)`](/slides/python-net/fr/aspose.slides/itextframe/highlight_regex/#str-asposeslidescolor-itexthighlightingoptions) | Met en surbrillance toutes les correspondances de l'expression régulière avec la couleur spécifiée. |
+| [`join_portions_with_same_formatting(self)`](/slides/python-net/fr/aspose.slides/itextframe/join_portions_with_same_formatting/#) | Fusionne les segments avec la même mise en forme dans tous les paragraphes. |
+| [`split_text_by_columns(self)`](/slides/python-net/fr/aspose.slides/itextframe/split_text_by_columns/#) | Divise le contenu texte du [`ITextFrame`](/slides/python-net/fr/aspose.slides/itextframe) en un tableau de chaînes,  <br/>            où chaque élément correspond à une colonne de texte distincte dans le cadre. |
 | [`replace_text(self, old_text, new_text, options, callback)`](/slides/python-net/fr/aspose.slides/itextframe/replace_text/#str-str-itextsearchoptions-ifindresultcallback) | Remplace toutes les occurrences du texte spécifié par un autre texte spécifié. |
 | [`replace_regex(self, regex, new_text)`](/slides/python-net/fr/aspose.slides/itextframe/replace_regex/#str-str) | Remplace toutes les correspondances de l'expression régulière par la chaîne spécifiée. |
 

@@ -23,11 +23,11 @@ def get_images(self, options):
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/el/aspose.slides.export/irenderingoptions) | Rendering options. |
+| options | [`IRenderingOptions`](/slides/python-net/el/aspose.slides.export/irenderingoptions) | Επιλογές απόδοσης. |
 
 
 ## get_images(self, options, slides) {#asposeslidesexportirenderingoptions-listint}
-Επιστρέφει αντικείμενα Thumbnail Bitmap για συγκεκριμένες διαφάνειες μιας παρουσίασης.
+Επιστρέφει αντικείμενα Thumbnail Bitmap για τις καθορισμένες διαφάνειες μιας παρουσίασης.
 
 ### Επιστρέφει
 
@@ -43,12 +43,12 @@ def get_images(self, options, slides):
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/el/aspose.slides.export/irenderingoptions) | Rendering options. |
-| slides | **List[int]** | Πίνακας με θέσεις διαφανειών, ξεκινώντας από 1. |
+| options | [`IRenderingOptions`](/slides/python-net/el/aspose.slides.export/irenderingoptions) | Επιλογές απόδοσης. |
+| slides | **List[int]** | Πίνακας με θέσεις διαφανειών, αρχίζοντας από 1. |
 
 
-## get_images(self, options, image_size) {#asposeslidesexportirenderingoptions-asposepydrawingsize}
-Επιστρέφει αντικείμενα Thumbnail Image για όλες τις διαφάνειες μιας παρουσίασης με συγκεκριμένο μέγεθος.
+## get_images(self, options, image_size) {#asposeslidesexportirenderingoptions-asposeslidessize}
+Επιστρέφει αντικείμενα Thumbnail Image για όλες τις διαφάνειες μιας παρουσίασης με καθορισμένο μέγεθος.
 
 ### Επιστρέφει
 
@@ -64,8 +64,8 @@ def get_images(self, options, image_size):
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/el/aspose.slides.export/irenderingoptions) | Rendering options. |
-| image_size | **aspose.slides.Size** | Size of the image to create. |
+| options | [`IRenderingOptions`](/slides/python-net/el/aspose.slides.export/irenderingoptions) | Επιλογές απόδοσης. |
+| image_size | [`Size`](/slides/python-net/el/aspose.slides/size) | Μέγεθος της εικόνας που θα δημιουργηθεί. |
 
 
 ## get_images(self, options, scale_x, scale_y) {#asposeslidesexportirenderingoptions-float-float}
@@ -85,13 +85,13 @@ def get_images(self, options, scale_x, scale_y):
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/el/aspose.slides.export/irenderingoptions) | Rendering options. |
+| options | [`IRenderingOptions`](/slides/python-net/el/aspose.slides.export/irenderingoptions) | Επιλογές απόδοσης. |
 | scale_x | **float** | Η τιμή με την οποία κλιμακώνεται αυτό το Thumbnail στον άξονα x. |
 | scale_y | **float** | Η τιμή με την οποία κλιμακώνεται αυτό το Thumbnail στον άξονα y. |
 
 
-## get_images(self, options, slides, image_size) {#asposeslidesexportirenderingoptions-listint-asposepydrawingsize}
-Επιστρέφει αντικείμενα Thumbnail Image για συγκεκριμένες διαφάνειες μιας παρουσίασης με συγκεκριμένο μέγεθος.
+## get_images(self, options, slides, image_size) {#asposeslidesexportirenderingoptions-listint-asposeslidessize}
+Επιστρέφει αντικείμενα Thumbnail Image για τις καθορισμένες διαφάνειες μιας παρουσίασης με καθορισμένο μέγεθος.
 
 ### Επιστρέφει
 
@@ -107,13 +107,13 @@ def get_images(self, options, slides, image_size):
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/el/aspose.slides.export/irenderingoptions) | Rendering options. |
-| slides | **List[int]** | Πίνακας με θέσεις διαφανειών, ξεκινώντας από 1. |
-| image_size | **aspose.slides.Size** | Size of the image to create. |
+| options | [`IRenderingOptions`](/slides/python-net/el/aspose.slides.export/irenderingoptions) | Επιλογές απόδοσης. |
+| slides | **List[int]** | Πίνακας με θέσεις διαφανειών, αρχίζοντας από 1. |
+| image_size | [`Size`](/slides/python-net/el/aspose.slides/size) | Μέγεθος της εικόνας που θα δημιουργηθεί. |
 
 
 ## get_images(self, options, slides, scale_x, scale_y) {#asposeslidesexportirenderingoptions-listint-float-float}
-Επιστρέφει αντικείμενα Thumbnail Image για συγκεκριμένες διαφάνειες μιας παρουσίασης με προσαρμοσμένη κλιμάκωση.
+Επιστρέφει αντικείμενα Thumbnail Image για τις καθορισμένες διαφάνειες μιας παρουσίασης με προσαρμοσμένη κλιμάκωση.
 
 ### Επιστρέφει
 
@@ -129,8 +129,8 @@ def get_images(self, options, slides, scale_x, scale_y):
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/el/aspose.slides.export/irenderingoptions) | Rendering options. |
-| slides | **List[int]** | Πίνακας με θέσεις διαφανειών, ξεκινώντας από 1. |
+| options | [`IRenderingOptions`](/slides/python-net/el/aspose.slides.export/irenderingoptions) | Επιλογές απόδοσης. |
+| slides | **List[int]** | Πίνακας με θέσεις διαφανειών, αρχίζοντας από 1. |
 | scale_x | **float** | Η τιμή με την οποία κλιμακώνεται αυτό το Thumbnail στον άξονα x. |
 | scale_y | **float** | Η τιμή με την οποία κλιμακώνεται αυτό το Thumbnail στον άξονα y. |
 
@@ -139,5 +139,6 @@ def get_images(self, options, slides, scale_x, scale_y):
 ### Δείτε επίσης
 * κλάση [`IPresentation`](/slides/python-net/el/aspose.slides/ipresentation)
 * κλάση [`IRenderingOptions`](/slides/python-net/el/aspose.slides.export/irenderingoptions)
+* κλάση [`Size`](/slides/python-net/el/aspose.slides/size)
 * μονάδα [`aspose.slides`](/slides/python-net/el/aspose.slides)
 * βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

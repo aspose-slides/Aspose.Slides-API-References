@@ -7,11 +7,11 @@ url: /sv/aspose.slides/islide/get_image/
 weight: 40
 ---
 ## get_image(self) {#}
-Returnerar ett miniatyrbildsobjekt (20% av verklig storlek).
+Returnerar ett miniatyr-Image-objekt (20% av verklig storlek).
 
 ### Returnerar
 
-Bildobjekt **aspose.slides.Bitmap**
+Bildobjekt **aspose.slides.IImage**
 
 
 
@@ -22,7 +22,7 @@ def get_image(self):
 
 
 
-## get_image(self, image_size) {#asposepydrawingsize}
+## get_image(self, image_size) {#asposeslidessize}
 Returnerar ett bildobjekt med angiven storlek.
 
 ### Returnerar
@@ -39,7 +39,7 @@ def get_image(self, image_size):
 
 | Parameter | Typ | Beskrivning |
 | :- | :- | :- |
-| image_size | **aspose.slides.Size** | Storlek på bilden som ska skapas. |
+| image_size | [`Size`](/slides/python-net/sv/aspose.slides/size) | Storlek på bilden som ska skapas. |
 
 
 ## get_image(self, options) {#asposeslidesexportitiffoptions}
@@ -87,7 +87,7 @@ Returnerar ett bildobjekt med anpassad skalning.
 
 ### Returnerar
 
-Bildobjekt **aspose.slides.Bitmap**
+Bildobjekt **aspose.slides.IImage**
 
 
 
@@ -99,11 +99,11 @@ def get_image(self, scale_x, scale_y):
 
 | Parameter | Typ | Beskrivning |
 | :- | :- | :- |
-| scale_x | **float** | Värdet som används för att skala denna miniatyr i x-axelns riktning. |
-| scale_y | **float** | Värdet som används för att skala denna miniatyr i y-axelns riktning. |
+| scale_x | **float** | Värdet som används för att skala denna miniatyrbild i x-axelns riktning. |
+| scale_y | **float** | Värdet som används för att skala denna miniatyrbild i y-axelns riktning. |
 
 
-## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposepydrawingsize}
+## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposeslidessize}
 Returnerar ett miniatyr-Bitmap-objekt med angiven storlek.
 
 ### Returnerar
@@ -121,7 +121,7 @@ def get_image(self, options, image_size):
 | Parameter | Typ | Beskrivning |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/sv/aspose.slides.export/irenderingoptions) | Renderingsalternativ. |
-| image_size | **aspose.slides.Size** | Storlek på bilden som ska skapas. |
+| image_size | [`Size`](/slides/python-net/sv/aspose.slides/size) | Storlek på bilden som ska skapas. |
 
 
 ## get_image(self, options, scale_x, scale_y) {#asposeslidesexportirenderingoptions-float-float}
@@ -142,8 +142,8 @@ def get_image(self, options, scale_x, scale_y):
 | Parameter | Typ | Beskrivning |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/sv/aspose.slides.export/irenderingoptions) | Renderingsalternativ. |
-| scale_x | **float** | Värdet som används för att skala denna miniatyr i x-axelns riktning. |
-| scale_y | **float** | Värdet som används för att skala denna miniatyr i y-axelns riktning. |
+| scale_x | **float** | Värdet som används för att skala denna miniatyrbild i x-axelns riktning. |
+| scale_y | **float** | Värdet som används för att skala denna miniatyrbild i y-axelns riktning. |
 
 
 
@@ -152,5 +152,6 @@ def get_image(self, options, scale_x, scale_y):
 * klass [`IRenderingOptions`](/slides/python-net/sv/aspose.slides.export/irenderingoptions)
 * klass [`ISlide`](/slides/python-net/sv/aspose.slides/islide)
 * klass [`ITiffOptions`](/slides/python-net/sv/aspose.slides.export/itiffoptions)
+* klass [`Size`](/slides/python-net/sv/aspose.slides/size)
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

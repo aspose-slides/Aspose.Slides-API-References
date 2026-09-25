@@ -7,11 +7,11 @@ url: /nl/aspose.slides/islide/get_image/
 weight: 40
 ---
 ## get_image(self) {#}
-Retourneert een Thumbnail Image object (20 % van de werkelijke grootte).
+Retourneert een miniatuur-afbeeldingsobject (20 % van de werkelijke grootte).
 
-### Retourneert
+### Retour
 
-Image object **aspose.slides.Bitmap**
+Afbeeldingsobject **aspose.slides.IImage**
 
 
 
@@ -22,12 +22,12 @@ def get_image(self):
 
 
 
-## get_image(self, image_size) {#asposepydrawingsize}
-Retourneert een afbeeldingobject met opgegeven grootte.
+## get_image(self, image_size) {#asposeslidessize}
+Retourneert een afbeeldingsobject met de opgegeven grootte.
 
-### Retourneert
+### Retour
 
-Bitmap-object.
+Afbeeldingsobject **aspose.slides.IImage**
 
 
 
@@ -39,15 +39,15 @@ def get_image(self, image_size):
 
 | Parameter | Type | Beschrijving |
 | :- | :- | :- |
-| image_size | **aspose.slides.Size** | Grootte van de te creëren afbeelding. |
+| image_size | [`Size`](/slides/python-net/nl/aspose.slides/size) | Grootte van de te maken afbeelding. |
 
 
 ## get_image(self, options) {#asposeslidesexportitiffoptions}
-Retourneert een Thumbnail-tiff-bitmap-object met opgegeven parameters.
+Retourneert een miniatuur-tiff-bitmap-object met opgegeven parameters.
 
-### Retourneert
+### Retour
 
-Image object.
+Afbeeldingsobject.
 
 
 
@@ -63,9 +63,9 @@ def get_image(self, options):
 
 
 ## get_image(self, options) {#asposeslidesexportirenderingoptions}
-Retourneert een Thumbnail-Bitmap-object.
+Retourneert een miniatuur-Bitmap-object.
 
-### Retourneert
+### Retour
 
 Bitmap-objecten.
 
@@ -83,11 +83,11 @@ def get_image(self, options):
 
 
 ## get_image(self, scale_x, scale_y) {#float-float}
-Retourneert een afbeeldingobject met aangepaste schaal.
+Retourneert een afbeeldingsobject met aangepaste schaling.
 
-### Retourneert
+### Retour
 
-Image object **aspose.slides.Bitmap**
+Afbeeldingsobject **aspose.slides.IImage**
 
 
 
@@ -99,14 +99,14 @@ def get_image(self, scale_x, scale_y):
 
 | Parameter | Type | Beschrijving |
 | :- | :- | :- |
-| scale_x | **float** | De waarde waarmee deze Thumbnail wordt geschaald langs de x-as. |
-| scale_y | **float** | De waarde waarmee deze Thumbnail wordt geschaald langs de y-as. |
+| scale_x | **float** | De waarde waarmee deze miniatuur in de x-as wordt geschaald. |
+| scale_y | **float** | De waarde waarmee deze miniatuur in de y-as wordt geschaald. |
 
 
-## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposepydrawingsize}
-Retourneert een Thumbnail-Bitmap-object met opgegeven grootte.
+## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposeslidessize}
+Retourneert een miniatuur-Bitmap-object met opgegeven grootte.
 
-### Retourneert
+### Retour
 
 Bitmap-objecten.
 
@@ -121,13 +121,13 @@ def get_image(self, options, image_size):
 | Parameter | Type | Beschrijving |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/nl/aspose.slides.export/irenderingoptions) | Rendering-opties. |
-| image_size | **aspose.slides.Size** | Grootte van de te creëren afbeelding. |
+| image_size | [`Size`](/slides/python-net/nl/aspose.slides/size) | Grootte van de te maken afbeelding. |
 
 
 ## get_image(self, options, scale_x, scale_y) {#asposeslidesexportirenderingoptions-float-float}
-Retourneert een Thumbnail-Bitmap-object met aangepaste schaal.
+Retourneert een miniatuur-Bitmap-object met aangepaste schaling.
 
-### Retourneert
+### Retour
 
 Bitmap-objecten.
 
@@ -142,8 +142,8 @@ def get_image(self, options, scale_x, scale_y):
 | Parameter | Type | Beschrijving |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/nl/aspose.slides.export/irenderingoptions) | Rendering-opties. |
-| scale_x | **float** | De waarde waarmee deze Thumbnail wordt geschaald langs de x-as. |
-| scale_y | **float** | De waarde waarmee deze Thumbnail wordt geschaald langs de y-as. |
+| scale_x | **float** | De waarde waarmee deze miniatuur in de x-as wordt geschaald. |
+| scale_y | **float** | De waarde waarmee deze miniatuur in de y-as wordt geschaald. |
 
 
 
@@ -152,5 +152,6 @@ def get_image(self, options, scale_x, scale_y):
 * klasse [`IRenderingOptions`](/slides/python-net/nl/aspose.slides.export/irenderingoptions)
 * klasse [`ISlide`](/slides/python-net/nl/aspose.slides/islide)
 * klasse [`ITiffOptions`](/slides/python-net/nl/aspose.slides.export/itiffoptions)
+* klasse [`Size`](/slides/python-net/nl/aspose.slides/size)
 * module [`aspose.slides`](/slides/python-net/nl/aspose.slides)
 * bibliotheek [`Aspose.Slides`](/slides/python-net)

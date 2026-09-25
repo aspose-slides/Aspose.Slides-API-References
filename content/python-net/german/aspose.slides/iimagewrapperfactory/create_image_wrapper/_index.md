@@ -1,71 +1,58 @@
 ---
 title: create_image_wrapper method
-second_title: Aspose.Slides für Python via .NET API-Referenz
+second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides/iimagewrapperfactory/create_image_wrapper/
 weight: 10
 ---
 ## create_image_wrapper(self, image) {#iimage}
-Initialisiert eine neue Instanz der ImageWrapper-Klasse aus dem angegebenen vorhandenen Bild.
+Initialisiert eine neue Instanz der ImageWrapper class aus dem angegebenen vorhandenen Bild.
 
 ### Rückgabewert
 
 Neue Instanz von [`IImageWrapper`](/slides/python-net/de/aspose.slides/iimagewrapper)
-
-
 
 ```python
 def create_image_wrapper(self, image):
     ...
 ```
 
-
 | Parameter | Typ | Beschreibung |
 | :- | :- | :- |
-| image | [`IImage`](/slides/python-net/de/aspose.slides/iimage) | Existing Image **aspose.slides.Image** |
-
+| image | [`IImage`](/slides/python-net/de/aspose.slides/iimage) | Vorhandenes Bild **aspose.slides.IImage** |
 
 ## create_image_wrapper(self, stream) {#iorawiobase}
-Initialisiert eine neue Instanz der ImageWrapper-Klasse aus dem angegebenen Datenstrom.
+Initialisiert eine neue Instanz der ImageWrapper class aus dem angegebenen Datenstrom.
 
 ### Rückgabewert
 
 Neue Instanz von [`IImageWrapper`](/slides/python-net/de/aspose.slides/iimagewrapper)
-
-
 
 ```python
 def create_image_wrapper(self, stream):
     ...
 ```
 
-
 | Parameter | Typ | Beschreibung |
 | :- | :- | :- |
-| stream | **io.RawIOBase** | Data stream **io.RawIOBase** |
-
+| stream | **io.RawIOBase** | Datenstrom **io.RawIOBase** |
 
 ## create_image_wrapper(self, file_name) {#str}
-Initialisiert eine neue Instanz der ImageWrapper-Klasse aus der angegebenen Datei.
+Initialisiert eine neue Instanz der ImageWrapper class aus der angegebenen Datei.
 
 ### Rückgabewert
 
 Neue Instanz von [`IImageWrapper`](/slides/python-net/de/aspose.slides/iimagewrapper)
-
-
 
 ```python
 def create_image_wrapper(self, file_name):
     ...
 ```
 
-
 | Parameter | Typ | Beschreibung |
 | :- | :- | :- |
-| file_name | **str** | File name **str** |
-
-
+| file_name | **str** | Dateiname **str** |
 
 ### Siehe auch
 * Klasse [`IImage`](/slides/python-net/de/aspose.slides/iimage)

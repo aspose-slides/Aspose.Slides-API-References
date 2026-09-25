@@ -1,14 +1,14 @@
 ---
 title: rotation_center property
-second_title: Aspose.Slides لـ Python عبر مرجع API .NET
+second_title: Aspose.Slides لـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.animation/motioneffect/rotation_center/
 weight: 120
 ---
-## rotation_center خاصية
-يصف مركز الدوران المستخدم لتدوير مسار حركة بزاوية X.
-            قراءة/كتابة **aspose.slides.PointF**.
+## خاصية rotation_center
+يصف مركز الدوران المستخدم لتدوير مسار الحركة بزاوية X.
+            قراءة/كتابة [`PointF`](/slides/python-net/ar/aspose.slides/pointf).
 
 ### التعريف:
 ```python
@@ -23,6 +23,7 @@ def rotation_center(self, value):
 
 
 ### انظر أيضًا
-* الفئة [`MotionEffect`](/slides/python-net/ar/aspose.slides.animation/motioneffect)
-* الوحدة [`aspose.slides.animation`](/slides/python-net/ar/aspose.slides.animation)
-* المكتبة [`Aspose.Slides`](/slides/python-net)
+* فئة [`MotionEffect`](/slides/python-net/ar/aspose.slides.animation/motioneffect)
+* فئة [`PointF`](/slides/python-net/ar/aspose.slides/pointf)
+* وحدة [`aspose.slides.animation`](/slides/python-net/ar/aspose.slides.animation)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

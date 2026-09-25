@@ -6,7 +6,7 @@ type: docs
 url: /id/aspose.slides/gradientstopcollection/add/
 weight: 10
 ---
-## add(self, position, color) {#float-asposepydrawingcolor}
+## add(self, position, color) {#float-asposeslidescolor}
 Membuat gradient stop baru dan menambahkannya ke akhir koleksi.
 
 ### Mengembalikan
@@ -23,8 +23,8 @@ def add(self, position, color):
 
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
-| position | **float** | Position of the new gradient stop. |
-| color | **aspose.slides.Color** | Color of the new radient stop. |
+| position | **float** | Posisi gradient stop baru. |
+| color | [`Color`](/slides/python-net/id/aspose.slides/color) | Warna gradient stop baru. |
 
 
 ## add(self, position, preset_color) {#float-presetcolor}
@@ -44,8 +44,8 @@ def add(self, position, preset_color):
 
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
-| position | **float** | Position of the new gradient stop. |
-| preset_color | [`PresetColor`](/slides/python-net/id/aspose.slides/presetcolor) | Color of the new radient stop. |
+| position | **float** | Posisi gradient stop baru. |
+| preset_color | [`PresetColor`](/slides/python-net/id/aspose.slides/presetcolor) | Warna gradient stop baru. |
 
 
 ## add(self, position, scheme_color) {#float-schemecolor}
@@ -65,15 +65,16 @@ def add(self, position, scheme_color):
 
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
-| position | **float** | Position of the new gradient stop. |
-| scheme_color | [`SchemeColor`](/slides/python-net/id/aspose.slides/schemecolor) | Color of the new radient stop. |
+| position | **float** | Posisi gradient stop baru. |
+| scheme_color | [`SchemeColor`](/slides/python-net/id/aspose.slides/schemecolor) | Warna gradient stop baru. |
 
 
 
 ### Lihat Juga
 * kelas [`GradientStopCollection`](/slides/python-net/id/aspose.slides/gradientstopcollection)
 * kelas [`IGradientStop`](/slides/python-net/id/aspose.slides/igradientstop)
-* enumeration [`PresetColor`](/slides/python-net/id/aspose.slides/presetcolor)
-* enumeration [`SchemeColor`](/slides/python-net/id/aspose.slides/schemecolor)
+* enumerasi [`PresetColor`](/slides/python-net/id/aspose.slides/presetcolor)
+* enumerasi [`SchemeColor`](/slides/python-net/id/aspose.slides/schemecolor)
+* kelas [`Color`](/slides/python-net/id/aspose.slides/color)
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* pustaka [`Aspose.Slides`](/slides/python-net)

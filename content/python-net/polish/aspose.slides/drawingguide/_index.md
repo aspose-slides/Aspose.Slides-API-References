@@ -1,23 +1,24 @@
 ---
 title: DrawingGuide class
-second_title: Referencja API Aspose.Slides dla Pythona przez .NET
+second_title: Aspose.Slides dla Pythona poprzez .NET referencja API
 description: 
 type: docs
 url: /pl/aspose.slides/drawingguide/
 ---
 ## DrawingGuide klasa
 
-Reprezentuje regulowaną linię pomocniczą rysowania.
+Reprezentuje regulowaną prowadnicę rysunkową.
 
-Typ DrawingGuide udostępnia następujące członków:
+Typ DrawingGuide udostępnia następujące elementy:
 
 ## Właściwości
 
 | Właściwość | Opis |
 | :- | :- |
-| [`orientation`](/slides/python-net/pl/aspose.slides/drawingguide/orientation/) | Zwraca lub ustawia orientację linii pomocniczej rysowania.<br/>            Odczyt/zapis [`Orientation`](/slides/python-net/pl/aspose.slides/orientation). |
-| [`position`](/slides/python-net/pl/aspose.slides/drawingguide/position/) | Zwraca lub ustawia pozycję linii pomocniczej rysowania w punktach od górnego, lewego rogu slajdu.<br/>            Odczyt/zapis **float**. |
-| [`color`](/slides/python-net/pl/aspose.slides/drawingguide/color/) | Zwraca lub ustawia kolor linii pomocniczej rysowania.<br/>            Odczyt/zapis **aspose.slides.Color**. |
+| [`orientation`](/slides/python-net/pl/aspose.slides/drawingguide/orientation/) | Zwraca lub ustawia orientację prowadnicy rysunkowej.<br/>            Odczyt/zapis [`Orientation`](/slides/python-net/pl/aspose.slides/orientation). |
+| [`position`](/slides/python-net/pl/aspose.slides/drawingguide/position/) | Zwraca lub ustawia pozycję prowadnicy rysunkowej w punktach od górnego, lewego rogu slajdu.<br/>            Odczyt/zapis **float**. |
+| [`color`](/slides/python-net/pl/aspose.slides/drawingguide/color/) | Zwraca lub ustawia kolor prowadnicy rysunkowej.<br/>            Odczyt/zapis [`Color`](/slides/python-net/pl/aspose.slides/color). |
+
 
 ### Zobacz także
 * moduł [`aspose.slides`](/slides/python-net/pl/aspose.slides)

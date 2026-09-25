@@ -1,14 +1,14 @@
 ---
 title: color property
-second_title: Aspose.Slides for Python 透過 .NET API 參考
+second_title: Aspose.Slides 用於 Python via .NET API 參考
 description: 
 type: docs
 url: /zh-hant/aspose.slides/idrawingguide/color/
 weight: 10
 ---
-## 顏色屬性
-返回或設定繪圖指南的顏色。
-            讀寫 **aspose.slides.Color**.
+## color 屬性
+返回或設定 drawing guide 的 color.
+            讀寫 [`Color`](/slides/python-net/zh-hant/aspose.slides/color).
 
 ### 定義:
 ```python
@@ -22,7 +22,8 @@ def color(self, value):
 ```
 
 
-### 另見
+### 另請參閱
 * 類別 [`IDrawingGuide`](/slides/python-net/zh-hant/aspose.slides/idrawingguide)
+* 類別 [`Color`](/slides/python-net/zh-hant/aspose.slides/color)
 * 模組 [`aspose.slides`](/slides/python-net/zh-hant/aspose.slides)
-* 程式庫 [`Aspose.Slides`](/slides/python-net)
+* 函式庫 [`Aspose.Slides`](/slides/python-net)

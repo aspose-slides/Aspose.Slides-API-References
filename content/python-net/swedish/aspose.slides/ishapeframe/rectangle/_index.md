@@ -8,7 +8,7 @@ weight: 70
 ---
 ## rektangel egenskap
 Returnerar koordinaterna för en ram.
-            Skrivskyddad **aspose.slides.RectangleF**.
+            Skrivskyddad [`RectangleF`](/slides/python-net/sv/aspose.slides/rectanglef).
 
 ### Definition:
 ```python
@@ -18,7 +18,8 @@ def rectangle(self):
 ```
 
 
-### Se även
+### Se också
 * klass [`IShapeFrame`](/slides/python-net/sv/aspose.slides/ishapeframe)
+* klass [`RectangleF`](/slides/python-net/sv/aspose.slides/rectanglef)
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

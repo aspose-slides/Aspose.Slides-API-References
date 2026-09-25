@@ -7,19 +7,18 @@ url: /ja/aspose.slides.effects/icolorchangeeffectivedata/
 ---
 ## IColorChangeEffectiveData クラス
 
-Immutable object which represents a Color Change effect.
-            Instances of FromColor are replaced with instances of ToColor.
+Color Change エフェクトを表す不変オブジェクトです。  
+FromColor のインスタンスは ToColor のインスタンスに置き換えられます。
 
-The IColorChangeEffectiveData type exposes the following members:
+IColorChangeEffectiveData 型は以下のメンバーを公開します。
 
 ## プロパティ
 
 | プロパティ | 説明 |
 | :- | :- |
-| [`from_color`](/slides/python-net/ja/aspose.slides.effects/icolorchangeeffectivedata/from_color/) | Color which will be replaced.<br/>            読み取り専用 **aspose.slides.Color**. |
-| [`to_color`](/slides/python-net/ja/aspose.slides.effects/icolorchangeeffectivedata/to_color/) | Color which will replace.<br/>            読み取り専用 **aspose.slides.Color**. |
-| [`use_alpha`](/slides/python-net/ja/aspose.slides.effects/icolorchangeeffectivedata/use_alpha/) | Returns a boolean value which determines if alpha component should be used.<br/>            読み取り専用 **bool**. |
-
+| [`from_color`](/slides/python-net/ja/aspose.slides.effects/icolorchangeeffectivedata/from_color/) | 置き換えられる色。<br/>            読み取り専用 [`Color`](/slides/python-net/ja/aspose.slides/color)。 |
+| [`to_color`](/slides/python-net/ja/aspose.slides.effects/icolorchangeeffectivedata/to_color/) | 置き換える色。<br/>            読み取り専用 [`Color`](/slides/python-net/ja/aspose.slides/color)。 |
+| [`use_alpha`](/slides/python-net/ja/aspose.slides.effects/icolorchangeeffectivedata/use_alpha/) | アルファ成分を使用すべきかを決定するブール値を返します。<br/>            読み取り専用 **bool**。 |
 
 ### 参照
 * モジュール [`aspose.slides.effects`](/slides/python-net/ja/aspose.slides.effects)

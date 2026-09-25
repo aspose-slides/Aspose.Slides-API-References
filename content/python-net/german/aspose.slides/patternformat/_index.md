@@ -11,13 +11,13 @@ Stellt ein Muster zum Füllen einer Form dar.
 
 **Vererbung:**[`PatternFormat`](/slides/python-net/de/aspose.slides/patternformat) → [`PVIObject`](/slides/python-net/de/aspose.slides/pviobject)
 
-Der PatternFormat-Typ stellt die folgenden Member bereit:
+Der Typ PatternFormat stellt die folgenden Mitglieder bereit:
 
 ## Eigenschaften
 
-| Property | Description |
+| Eigenschaft | Beschreibung |
 | :- | :- |
-| [`pattern_style`](/slides/python-net/de/aspose.slides/patternformat/pattern_style/) | Liefert oder setzt den Musterstil.<br/>            Lesen/Schreiben [`PatternStyle`](/slides/python-net/de/aspose.slides/patternstyle). |
+| [`pattern_style`](/slides/python-net/de/aspose.slides/patternformat/pattern_style/) | Gibt den Musterstil zurück oder legt ihn fest.<br/>            Lese-/Schreib [`PatternStyle`](/slides/python-net/de/aspose.slides/patternstyle). |
 | [`fore_color`](/slides/python-net/de/aspose.slides/patternformat/fore_color/) | Gibt die Vordergrund-Musterfarbe zurück.<br/>            Nur-Lesen [`IColorFormat`](/slides/python-net/de/aspose.slides/icolorformat). |
 | [`back_color`](/slides/python-net/de/aspose.slides/patternformat/back_color/) | Gibt die Hintergrund-Musterfarbe zurück.<br/>            Nur-Lesen [`IColorFormat`](/slides/python-net/de/aspose.slides/icolorformat). |
 | [`slide`](/slides/python-net/de/aspose.slides/patternformat/slide/) |  |
@@ -25,10 +25,10 @@ Der PatternFormat-Typ stellt die folgenden Member bereit:
 
 ## Methoden
 
-| Method | Description |
+| Methode | Beschreibung |
 | :- | :- |
-| [`get_tile(self, background, foreground)`](/slides/python-net/de/aspose.slides/patternformat/get_tile/#asposepydrawingcolor-asposepydrawingcolor) | Erstellt ein Kachelbild für die Musterfüllung mit angegebenen Farben. |
-| [`get_tile(self, style_color)`](/slides/python-net/de/aspose.slides/patternformat/get_tile/#asposepydrawingcolor) | Erstellt ein Kachelbild für die Musterfüllung. |
+| [`get_tile(self, background, foreground)`](/slides/python-net/de/aspose.slides/patternformat/get_tile/#asposeslidescolor-asposeslidescolor) | Erstellt ein Kachelbild für die Musterfüllung mit angegebenen Farben. |
+| [`get_tile(self, style_color)`](/slides/python-net/de/aspose.slides/patternformat/get_tile/#asposeslidescolor) | Erstellt ein Kachelbild für die Musterfüllung. |
 
 
 ### Siehe auch

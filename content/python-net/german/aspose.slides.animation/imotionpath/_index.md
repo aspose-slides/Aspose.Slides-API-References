@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/imotionpath/
 
 Stellt den Bewegungspfad dar.
 
-Der Typ IMotionPath stellt die folgenden Mitglieder bereit:
+Der IMotionPath-Typ stellt die folgenden Mitglieder bereit:
 
 ## Eigenschaften
 
@@ -29,10 +29,10 @@ Gibt einen Befehl am angegebenen Index zurück.
 
 | Methode | Beschreibung |
 | :- | :- |
-| [`add(self, type, pts, pts_type, b_relative_coord)`](/slides/python-net/de/aspose.slides.animation/imotionpath/add/#motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool) | Fügt einen neuen Befehl zum Pfad hinzu |
-| [`insert(self, index, type, pts, pts_type, b_relative_coord)`](/slides/python-net/de/aspose.slides.animation/imotionpath/insert/#int-motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool) | Fügt einen neuen Befehl in den Pfad ein |
+| [`add(self, type, pts, pts_type, b_relative_coord)`](/slides/python-net/de/aspose.slides.animation/imotionpath/add/#motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool) | Fügt einen neuen Befehl zum Pfad hinzu |
+| [`insert(self, index, type, pts, pts_type, b_relative_coord)`](/slides/python-net/de/aspose.slides.animation/imotionpath/insert/#int-motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool) | Fügt einen neuen Befehl in den Pfad ein |
 | [`clear(self)`](/slides/python-net/de/aspose.slides.animation/imotionpath/clear/#) | Entfernt alle Befehle aus der Sammlung. |
-| [`remove(self, item)`](/slides/python-net/de/aspose.slides.animation/imotionpath/remove/#imotioncmdpath) | Entfernt angegebene Befehle aus der Sammlung. |
+| [`remove(self, item)`](/slides/python-net/de/aspose.slides.animation/imotionpath/remove/#imotioncmdpath) | Entfernt die angegebenen Befehle aus der Sammlung. |
 | [`remove_at(self, index)`](/slides/python-net/de/aspose.slides.animation/imotionpath/remove_at/#int) | Entfernt einen Befehl am angegebenen Index. |
 
 

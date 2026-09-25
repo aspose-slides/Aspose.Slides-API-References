@@ -1,30 +1,30 @@
 ---
 title: IThreeDFormatEffectiveData class
-second_title: Aspose.Slides untuk Python melalui Referensi API .NET
+second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides/ithreedformateffectivedata/
 ---
-## IThreeDFormatEffectiveData kelas
+## IThreeDFormatEffectiveData class
 
-Objek tidak dapat diubah yang mewakili properti pemformatan 3-D yang efektif.
+Objek tidak dapat diubah yang merepresentasikan properti pemformatan 3-D yang efektif.
 
-Tipe IThreeDFormatEffectiveData menampilkan anggota berikut:
+Tipe IThreeDFormatEffectiveData mengekspos anggota-anggota berikut:
 
 ## Properti
 
 | Properti | Deskripsi |
 | :- | :- |
-| [`contour_width`](/slides/python-net/id/aspose.slides/ithreedformateffectivedata/contour_width/) | Mengembalikan lebar kontur 3D.<br/>            Baca-saja **float**. |
-| [`extrusion_height`](/slides/python-net/id/aspose.slides/ithreedformateffectivedata/extrusion_height/) | Mengembalikan tinggi efek ekstrusi.<br/>            Baca-saja **float**. |
-| [`depth`](/slides/python-net/id/aspose.slides/ithreedformateffectivedata/depth/) | Mengembalikan kedalaman bentuk 3D.<br/>            Baca-saja **float**. |
-| [`bevel_top`](/slides/python-net/id/aspose.slides/ithreedformateffectivedata/bevel_top/) | Mengembalikan tipe bevel 3D atas.<br/>            Baca-saja [`IShapeBevelEffectiveData`](/slides/python-net/id/aspose.slides/ishapebeveleffectivedata). |
-| [`bevel_bottom`](/slides/python-net/id/aspose.slides/ithreedformateffectivedata/bevel_bottom/) | Mengembalikan tipe bevel 3D bawah.<br/>            Baca-saja [`IShapeBevelEffectiveData`](/slides/python-net/id/aspose.slides/ishapebeveleffectivedata). |
-| [`contour_color`](/slides/python-net/id/aspose.slides/ithreedformateffectivedata/contour_color/) | Mengembalikan warna kontur.<br/>            Baca-saja **aspose.slides.Color**. |
-| [`extrusion_color`](/slides/python-net/id/aspose.slides/ithreedformateffectivedata/extrusion_color/) | Mengembalikan warna ekstrusi.<br/>            Baca-saja **aspose.slides.Color**. |
-| [`camera`](/slides/python-net/id/aspose.slides/ithreedformateffectivedata/camera/) | Mengembalikan pengaturan kamera.<br/>            Baca-saja [`ICameraEffectiveData`](/slides/python-net/id/aspose.slides/icameraeffectivedata). |
-| [`light_rig`](/slides/python-net/id/aspose.slides/ithreedformateffectivedata/light_rig/) | Mengembalikan tipe cahaya.<br/>            Baca-saja [`ILightRigEffectiveData`](/slides/python-net/id/aspose.slides/ilightrigeffectivedata). |
-| [`material`](/slides/python-net/id/aspose.slides/ithreedformateffectivedata/material/) | Mengembalikan tipe material.<br/>            Baca-saja [`MaterialPresetType`](/slides/python-net/id/aspose.slides/materialpresettype). |
+| [`contour_width`](/slides/python-net/id/aspose.slides/ithreedformateffectivedata/contour_width/) | Mengembalikan lebar kontur 3D.<br/>            Hanya-baca **float**. |
+| [`extrusion_height`](/slides/python-net/id/aspose.slides/ithreedformateffectivedata/extrusion_height/) | Mengembalikan tinggi efek ekstrusi.<br/>            Hanya-baca **float**. |
+| [`depth`](/slides/python-net/id/aspose.slides/ithreedformateffectivedata/depth/) | Mengembalikan kedalaman bentuk 3D.<br/>            Hanya-baca **float**. |
+| [`bevel_top`](/slides/python-net/id/aspose.slides/ithreedformateffectivedata/bevel_top/) | Mengembalikan tipe bevel 3D atas.<br/>            Hanya-baca [`IShapeBevelEffectiveData`](/slides/python-net/id/aspose.slides/ishapebeveleffectivedata). |
+| [`bevel_bottom`](/slides/python-net/id/aspose.slides/ithreedformateffectivedata/bevel_bottom/) | Mengembalikan tipe bevel 3D bawah.<br/>            Hanya-baca [`IShapeBevelEffectiveData`](/slides/python-net/id/aspose.slides/ishapebeveleffectivedata). |
+| [`contour_color`](/slides/python-net/id/aspose.slides/ithreedformateffectivedata/contour_color/) | Mengembalikan warna kontur.<br/>            Hanya-baca [`Color`](/slides/python-net/id/aspose.slides/color). |
+| [`extrusion_color`](/slides/python-net/id/aspose.slides/ithreedformateffectivedata/extrusion_color/) | Mengembalikan warna ekstrusi.<br/>            Hanya-baca [`Color`](/slides/python-net/id/aspose.slides/color). |
+| [`camera`](/slides/python-net/id/aspose.slides/ithreedformateffectivedata/camera/) | Mengembalikan pengaturan kamera.<br/>            Hanya-baca [`ICameraEffectiveData`](/slides/python-net/id/aspose.slides/icameraeffectivedata). |
+| [`light_rig`](/slides/python-net/id/aspose.slides/ithreedformateffectivedata/light_rig/) | Mengembalikan tipe cahaya.<br/>            Hanya-baca [`ILightRigEffectiveData`](/slides/python-net/id/aspose.slides/ilightrigeffectivedata). |
+| [`material`](/slides/python-net/id/aspose.slides/ithreedformateffectivedata/material/) | Mengembalikan tipe material.<br/>            Hanya-baca [`MaterialPresetType`](/slides/python-net/id/aspose.slides/materialpresettype). |
 
 ### Catatan
 

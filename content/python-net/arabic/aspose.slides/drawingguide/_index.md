@@ -1,6 +1,6 @@
 ---
 title: DrawingGuide class
-second_title: Aspose.Slides لـ Python عبر مرجع API .NET
+second_title: Aspose.Slides لبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/drawingguide/
@@ -15,11 +15,11 @@ url: /ar/aspose.slides/drawingguide/
 
 | الخاصية | الوصف |
 | :- | :- |
-| [`orientation`](/slides/python-net/ar/aspose.slides/drawingguide/orientation/) | إرجاع أو تعيين اتجاه دليل الرسم.<br/>            قراءة/كتابة [`Orientation`](/slides/python-net/ar/aspose.slides/orientation). |
-| [`position`](/slides/python-net/ar/aspose.slides/drawingguide/position/) | إرجاع أو تعيين موضع دليل الرسم بالنقاط من الزاوية العليا اليسرى للشفافية.<br/>            قراءة/كتابة **float**. |
-| [`color`](/slides/python-net/ar/aspose.slides/drawingguide/color/) | إرجاع أو تعيين لون دليل الرسم.<br/>            قراءة/كتابة **aspose.slides.Color**. |
+| [`orientation`](/slides/python-net/ar/aspose.slides/drawingguide/orientation/) | يرجع أو يعيّن اتجاه دليل الرسم.<br/>            قراءة/كتابة [`Orientation`](/slides/python-net/ar/aspose.slides/orientation). |
+| [`position`](/slides/python-net/ar/aspose.slides/drawingguide/position/) | يرجع أو يعيّن موضع دليل الرسم بالنقاط من الزاوية العليا اليسرى للشريحة.<br/>            قراءة/كتابة **float**. |
+| [`color`](/slides/python-net/ar/aspose.slides/drawingguide/color/) | يرجع أو يعيّن لون دليل الرسم.<br/>            قراءة/كتابة [`Color`](/slides/python-net/ar/aspose.slides/color). |
 
 
 ### انظر أيضًا
-* الوحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
-* المكتبة [`Aspose.Slides`](/slides/python-net)
+* وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

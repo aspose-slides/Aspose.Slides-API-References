@@ -1,29 +1,24 @@
 ---
 title: get_coordinates method
-second_title: Aspose.Slides a Python számára a .NET API Referencián keresztül
+second_title: Aspose.Slides a Pythonhoz .NET-en keresztül API referenciája
 description: 
 type: docs
 url: /hu/aspose.slides/iportion/get_coordinates/
 weight: 20
 ---
 ## get_coordinates(self) {#}
-A szakasz kezdetének koordinátáit adja vissza. Az X koordináta a pontban a szakasz kezdetét jelöli, amely az első karaktertől a bal oldali távolságot is tartalmazza. A Y koordináta a felső oldali távolságot is tartalmazza.
+A rész elejének koordinátáit adja vissza. A pont X koordinátája a rész elejét jelöli, az első karaktertől kezdve, beleértve a bal oldali távolságot. Az Y koordináta tartalmazza a felső oldali távolságot.
 
-### Returns
-
-A szakasz kezdetének koordinátái **aspose.slides.PointF**
-
-
+### Visszatér
+A rész elejének koordinátái [`PointF`](/slides/python-net/hu/aspose.slides/pointf)
 
 ```python
 def get_coordinates(self):
     ...
 ```
 
-
-
-
-### Kapcsolódó elemek
+### Lásd még
 * osztály [`IPortion`](/slides/python-net/hu/aspose.slides/iportion)
+* osztály [`PointF`](/slides/python-net/hu/aspose.slides/pointf)
 * modul [`aspose.slides`](/slides/python-net/hu/aspose.slides)
 * könyvtár [`Aspose.Slides`](/slides/python-net)

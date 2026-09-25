@@ -1,6 +1,6 @@
 ---
 title: IOuterShadowEffectiveData class
-second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
+second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides.effects/ioutershadoweffectivedata/
@@ -15,16 +15,16 @@ url: /el/aspose.slides.effects/ioutershadoweffectivedata/
 
 | Ιδιότητα | Περιγραφή |
 | :- | :- |
-| [`blur_radius`](/slides/python-net/el/aspose.slides.effects/ioutershadoweffectivedata/blur_radius/) | Ακτίνα θόλωσης.<br/>            Μόνο ανάγνωση **float**. |
-| [`direction`](/slides/python-net/el/aspose.slides.effects/ioutershadoweffectivedata/direction/) | Κατεύθυνση σκιάς.<br/>            Μόνο ανάγνωση **float**. |
-| [`distance`](/slides/python-net/el/aspose.slides.effects/ioutershadoweffectivedata/distance/) | Απόσταση σκιάς.<br/>            Μόνο ανάγνωση **float**. |
-| [`shadow_color`](/slides/python-net/el/aspose.slides.effects/ioutershadoweffectivedata/shadow_color/) | Χρώμα σκιάς.<br/>            Μόνο ανάγνωση **aspose.slides.Color**. |
-| [`rectangle_align`](/slides/python-net/el/aspose.slides.effects/ioutershadoweffectivedata/rectangle_align/) | Στοίχιση ορθογωνίου.<br/>            Μόνο ανάγνωση [`RectangleAlignment`](/slides/python-net/el/aspose.slides/rectanglealignment). |
-| [`skew_horizontal`](/slides/python-net/el/aspose.slides.effects/ioutershadoweffectivedata/skew_horizontal/) | Καθορίζει τη γωνία οριζόντιας κλίσης (σε μοίρες).<br/>            Μόνο ανάγνωση **float**. |
-| [`skew_vertical`](/slides/python-net/el/aspose.slides.effects/ioutershadoweffectivedata/skew_vertical/) | Καθορίζει τη γωνία κατακόρυφης κλίσης (σε μοίρες).<br/>            Μόνο ανάγνωση **float**. |
-| [`rotate_shadow_with_shape`](/slides/python-net/el/aspose.slides.effects/ioutershadoweffectivedata/rotate_shadow_with_shape/) | Καθορίζει αν η σκιά θα πρέπει να περιστρέφεται μαζί με το σχήμα εάν το σχήμα περιστραφεί.<br/>            Μόνο ανάγνωση **bool**. |
-| [`scale_horizontal`](/slides/python-net/el/aspose.slides.effects/ioutershadoweffectivedata/scale_horizontal/) | Καθορίζει τον οριζόντιο συντελεστή κλίμακας, η αρνητική κλίμακα προκαλεί αναστροφή.<br/>            Μόνο ανάγνωση **float**. |
-| [`scale_vertical`](/slides/python-net/el/aspose.slides.effects/ioutershadoweffectivedata/scale_vertical/) | Καθορίζει τον κατακόρυφο συντελεστή κλίμακας, η αρνητική κλίμακα προκαλεί αναστροφή.<br/>            Μόνο ανάγνωση **float**. |
+| [`blur_radius`](/slides/python-net/el/aspose.slides.effects/ioutershadoweffectivedata/blur_radius/) | Ακτίνα θολώματος.<br/>            Μόνο προς ανάγνωση **float**. |
+| [`direction`](/slides/python-net/el/aspose.slides.effects/ioutershadoweffectivedata/direction/) | Κατεύθυνση σκιάς.<br/>            Μόνο προς ανάγνωση **float**. |
+| [`distance`](/slides/python-net/el/aspose.slides.effects/ioutershadoweffectivedata/distance/) | Απόσταση σκιάς.<br/>            Μόνο προς ανάγνωση **float**. |
+| [`shadow_color`](/slides/python-net/el/aspose.slides.effects/ioutershadoweffectivedata/shadow_color/) | Χρώμα σκιάς.<br/>            Μόνο προς ανάγνωση [`Color`](/slides/python-net/el/aspose.slides/color). |
+| [`rectangle_align`](/slides/python-net/el/aspose.slides.effects/ioutershadoweffectivedata/rectangle_align/) | Στοίχιση ορθογωνίου.<br/>            Μόνο προς ανάγνωση [`RectangleAlignment`](/slides/python-net/el/aspose.slides/rectanglealignment). |
+| [`skew_horizontal`](/slides/python-net/el/aspose.slides.effects/ioutershadoweffectivedata/skew_horizontal/) | Καθορίζει τη γωνία οριζόντιας παραμόρφωσης (σε μοίρες).<br/>            Μόνο προς ανάγνωση **float**. |
+| [`skew_vertical`](/slides/python-net/el/aspose.slides.effects/ioutershadoweffectivedata/skew_vertical/) | Καθορίζει τη γωνία κάθετης παραμόρφωσης (σε μοίρες).<br/>            Μόνο προς ανάγνωση **float**. |
+| [`rotate_shadow_with_shape`](/slides/python-net/el/aspose.slides.effects/ioutershadoweffectivedata/rotate_shadow_with_shape/) | Καθορίζει αν η σκιά πρέπει να περιστρέφεται μαζί με το σχήμα όταν το σχήμα περιστρέφεται.<br/>            Μόνο προς ανάγνωση **bool**. |
+| [`scale_horizontal`](/slides/python-net/el/aspose.slides.effects/ioutershadoweffectivedata/scale_horizontal/) | Καθορίζει τον οριζόντιο συντελεστή κλιμάκωσης, η αρνητική κλιμάκωση προκαλεί αντιστροφή.<br/>            Μόνο προς ανάγνωση **float**. |
+| [`scale_vertical`](/slides/python-net/el/aspose.slides.effects/ioutershadoweffectivedata/scale_vertical/) | Καθορίζει τον κάθετο συντελεστή κλιμάκωσης, η αρνητική κλιμάκωση προκαλεί αντιστροφή.<br/>            Μόνο προς ανάγνωση **float**. |
 
 
 ### Δείτε επίσης

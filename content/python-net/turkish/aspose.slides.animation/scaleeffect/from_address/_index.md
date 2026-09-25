@@ -7,8 +7,8 @@ url: /tr/aspose.slides.animation/scaleeffect/from_address/
 weight: 60
 ---
 ## from_address özelliği
-Animasyonu başlatmak için bir x/y koordinatı (yüzde olarak) belirtir.
-            Okunur/yazılır **aspose.slides.PointF**.
+Animasyonu başlatmak için bir x/y koordinatı belirtir (yüzde olarak).
+            Okuma/Yazma [`PointF`](/slides/python-net/tr/aspose.slides/pointf).
 
 ### Tanım:
 ```python
@@ -24,5 +24,6 @@ def from_address(self, value):
 
 ### Ayrıca Bakınız
 * sınıf [`ScaleEffect`](/slides/python-net/tr/aspose.slides.animation/scaleeffect)
+* sınıf [`PointF`](/slides/python-net/tr/aspose.slides/pointf)
 * modül [`aspose.slides.animation`](/slides/python-net/tr/aspose.slides.animation)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

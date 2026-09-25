@@ -6,9 +6,9 @@ type: docs
 url: /el/aspose.slides.effects/icolorchangeeffectivedata/to_color/
 weight: 30
 ---
-## ιδιότητα to_color
-Χρώμα που θα αντικατασταθεί.
-            Μόνο για ανάγνωση **aspose.slides.Color**.
+## to_color ιδιότητα
+Χρώμα που θα αντικαταστήσει.
+            Μόνο για ανάγνωση [`Color`](/slides/python-net/el/aspose.slides/color).
 
 ### Ορισμός:
 ```python
@@ -20,5 +20,6 @@ def to_color(self):
 
 ### Δείτε επίσης
 * κλάση [`IColorChangeEffectiveData`](/slides/python-net/el/aspose.slides.effects/icolorchangeeffectivedata)
+* κλάση [`Color`](/slides/python-net/el/aspose.slides/color)
 * μονάδα [`aspose.slides.effects`](/slides/python-net/el/aspose.slides.effects)
 * βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

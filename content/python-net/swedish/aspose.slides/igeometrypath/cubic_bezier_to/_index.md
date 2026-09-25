@@ -6,7 +6,7 @@ type: docs
 url: /sv/aspose.slides/igeometrypath/cubic_bezier_to/
 weight: 30
 ---
-## cubic_bezier_to(self, point1, point2, point3) {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf}
+## cubic_bezier_to(self, point1, point2, point3) {#asposeslidespointf-asposeslidespointf-asposeslidespointf}
 Lägger till en kubisk Bezier-kurva i slutet av vägen
 
 
@@ -16,15 +16,15 @@ def cubic_bezier_to(self, point1, point2, point3):
 ```
 
 
-| Parameter | Type | Beskrivning |
+| Parameter | Typ | Beskrivning |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | Första riktningspunkten |
-| point2 | **aspose.slides.PointF** | Andra riktningspunkten |
-| point3 | **aspose.slides.PointF** | Slutpunkt |
+| point1 | [`PointF`](/slides/python-net/sv/aspose.slides/pointf) | Första riktningspunkten |
+| point2 | [`PointF`](/slides/python-net/sv/aspose.slides/pointf) | Andra riktningspunkten |
+| point3 | [`PointF`](/slides/python-net/sv/aspose.slides/pointf) | Slutpunkt |
 
 
-## cubic_bezier_to(self, point1, point2, point3, index) {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf-int}
-Lägger till en kubisk Bezier-kurva på den specificerade platsen i vägen
+## cubic_bezier_to(self, point1, point2, point3, index) {#asposeslidespointf-asposeslidespointf-asposeslidespointf-int}
+Lägger till en kubisk Bezier-kurva på den angivna platsen i vägen
 
 
 ```python
@@ -33,11 +33,11 @@ def cubic_bezier_to(self, point1, point2, point3, index):
 ```
 
 
-| Parameter | Type | Beskrivning |
+| Parameter | Typ | Beskrivning |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | Första riktningspunkten |
-| point2 | **aspose.slides.PointF** | Andra riktningspunkten |
-| point3 | **aspose.slides.PointF** | Slutpunkt |
+| point1 | [`PointF`](/slides/python-net/sv/aspose.slides/pointf) | Första riktningspunkten |
+| point2 | [`PointF`](/slides/python-net/sv/aspose.slides/pointf) | Andra riktningspunkten |
+| point3 | [`PointF`](/slides/python-net/sv/aspose.slides/pointf) | Slutpunkt |
 | index | **int** | Index för segment i PathData |
 
 ### Undantag
@@ -57,7 +57,7 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3):
 ```
 
 
-| Parameter | Type | Beskrivning |
+| Parameter | Typ | Beskrivning |
 | :- | :- | :- |
 | x1 | **float** | X-koordinat för första riktningspunkten |
 | y1 | **float** | Y-koordinat för första riktningspunkten |
@@ -68,7 +68,7 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3):
 
 
 ## cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index) {#float-float-float-float-float-float-int}
-Lägger till en kubisk Bezier-kurva på den specificerade platsen i vägen
+Lägger till en kubisk Bezier-kurva på den angivna platsen i vägen
 
 
 ```python
@@ -77,7 +77,7 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index):
 ```
 
 
-| Parameter | Type | Beskrivning |
+| Parameter | Typ | Beskrivning |
 | :- | :- | :- |
 | x1 | **float** | X-koordinat för första riktningspunkten |
 | y1 | **float** | Y-koordinat för första riktningspunkten |
@@ -95,7 +95,8 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index):
 
 
 
-### Se även
+### Se också
 * klass [`IGeometryPath`](/slides/python-net/sv/aspose.slides/igeometrypath)
+* klass [`PointF`](/slides/python-net/sv/aspose.slides/pointf)
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
-* bibliotek [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

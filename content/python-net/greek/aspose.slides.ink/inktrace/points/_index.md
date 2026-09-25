@@ -7,7 +7,7 @@ url: /el/aspose.slides.ink/inktrace/points/
 weight: 20
 ---
 ## points ιδιότητα
-Λαμβάνει points για το IInkLine **aspose.slides.PointF**
+Λαμβάνει τα σημεία για το IInkLine [`PointF`](/slides/python-net/el/aspose.slides/pointf)
             Μόνο για ανάγνωση.
 
 ### Ορισμός:
@@ -17,8 +17,8 @@ def points(self):
     ...
 ```
 
-
 ### Δείτε επίσης
 * κλάση [`InkTrace`](/slides/python-net/el/aspose.slides.ink/inktrace)
+* κλάση [`PointF`](/slides/python-net/el/aspose.slides/pointf)
 * μονάδα [`aspose.slides.ink`](/slides/python-net/el/aspose.slides.ink)
 * βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

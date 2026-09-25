@@ -7,8 +7,8 @@ url: /ja/aspose.slides.effects/icolorchangeeffectivedata/from_color/
 weight: 20
 ---
 ## from_color プロパティ
-置き換えられる色。
-            読み取り専用 **aspose.slides.Color**。
+Color which will be replaced.
+            読み取り専用 [`Color`](/slides/python-net/ja/aspose.slides/color).
 
 ### 定義:
 ```python
@@ -20,5 +20,6 @@ def from_color(self):
 
 ### 参照
 * クラス [`IColorChangeEffectiveData`](/slides/python-net/ja/aspose.slides.effects/icolorchangeeffectivedata)
+* クラス [`Color`](/slides/python-net/ja/aspose.slides/color)
 * モジュール [`aspose.slides.effects`](/slides/python-net/ja/aspose.slides.effects)
 * ライブラリ [`Aspose.Slides`](/slides/python-net)

@@ -1,13 +1,13 @@
 ---
 title: insert method
-second_title: Aspose.Slides Python용 .NET API 레퍼런스
+second_title: Aspose.Slides for Python via .NET API 레퍼런스
 description: 
 type: docs
 url: /ko/aspose.slides.animation/motionpath/insert/
 weight: 40
 ---
-## insert(self, index, type, pts, pts_type, b_relative_coord) {#int-motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool}
-경로에 새 명령을 삽입합니다
+## insert(self, index, type, pts, pts_type, b_relative_coord) {#int-motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool}
+새 명령을 경로에 삽입합니다
 
 
 ```python

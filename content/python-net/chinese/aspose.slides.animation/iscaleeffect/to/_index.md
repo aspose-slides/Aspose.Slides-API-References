@@ -6,9 +6,9 @@ type: docs
 url: /zh/aspose.slides.animation/iscaleeffect/to/
 weight: 80
 ---
-## 到属性
-Specifies the target location for an animation scale effect (in percents).
-            读/写 **aspose.slides.PointF**.
+## 属性
+指定动画缩放效果的目标位置（以百分比表示）。
+            读/写 [`PointF`](/slides/python-net/zh/aspose.slides/pointf).
 
 ### 定义:
 ```python
@@ -22,7 +22,8 @@ def to(self, value):
 ```
 
 
-### 另见
+### 另请参阅
 * 类 [`IScaleEffect`](/slides/python-net/zh/aspose.slides.animation/iscaleeffect)
+* 类 [`PointF`](/slides/python-net/zh/aspose.slides/pointf)
 * 模块 [`aspose.slides.animation`](/slides/python-net/zh/aspose.slides.animation)
 * 库 [`Aspose.Slides`](/slides/python-net)

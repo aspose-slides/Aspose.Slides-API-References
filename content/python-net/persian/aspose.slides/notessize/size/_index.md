@@ -6,9 +6,9 @@ type: docs
 url: /fa/aspose.slides/notessize/size/
 weight: 20
 ---
-## size خاصیت
-size را به‌صورت نقطه باز می‌گرداند یا تنظیم می‌کند.
-            خواندنی/نوشتنی **aspose.slides.SizeF**.
+## size ویژگی
+size را به نقطه برمی‌گرداند یا تنظیم می‌کند.
+            خواندن/نوشتن [`SizeF`](/slides/python-net/fa/aspose.slides/sizef).
 
 ### تعریف:
 ```python
@@ -24,5 +24,6 @@ def size(self, value):
 
 ### موارد مرتبط
 * کلاس [`NotesSize`](/slides/python-net/fa/aspose.slides/notessize)
+* کلاس [`SizeF`](/slides/python-net/fa/aspose.slides/sizef)
 * ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

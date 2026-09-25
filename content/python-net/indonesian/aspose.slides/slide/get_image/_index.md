@@ -7,7 +7,7 @@ url: /id/aspose.slides/slide/get_image/
 weight: 40
 ---
 ## get_image(self) {#}
-Mengembalikan objek Thumbnail Image (20% dari ukuran asli).
+Mengembalikan objek Thumbnail Image (20% dari ukuran sebenarnya).
 
 
 ```python
@@ -17,12 +17,12 @@ def get_image(self):
 
 
 
-## get_image(self, image_size) {#asposepydrawingsize}
+## get_image(self, image_size) {#asposeslidessize}
 Mengembalikan objek Thumbnail Image dengan ukuran yang ditentukan.
 
 ### Mengembalikan
 
-objek Image.
+Image object.
 
 
 
@@ -34,7 +34,7 @@ def get_image(self, image_size):
 
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
-| image_size | **aspose.slides.Size** | Ukuran gambar yang akan dibuat. |
+| image_size | [`Size`](/slides/python-net/id/aspose.slides/size) | Ukuran gambar yang akan dibuat. |
 
 
 ## get_image(self, options) {#asposeslidesexportitiffoptions}
@@ -42,7 +42,7 @@ Mengembalikan objek Thumbnail tiff image dengan parameter yang ditentukan.
 
 ### Mengembalikan
 
-objek Image.
+Image object.
 
 
 
@@ -60,7 +60,7 @@ def get_image(self, options):
 
 | Pengecualian | Deskripsi |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Dilempar ketika options.SlideLayoutOption adalah NotesCommentsLayoutOptions dan properti NotesPosition-nya mengambil nilai NotesPositions.BottomFull. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Dilempar ketika options.SlideLayoutOption adalah NotesCommentsLayoutingOptions dan propertinya NotesPosition mengambil nilai NotesPositions.BottomFull. |
 
 
 ## get_image(self, options) {#asposeslidesexportirenderingoptions}
@@ -68,7 +68,7 @@ Mengembalikan objek Thumbnail Image.
 
 ### Mengembalikan
 
-objek Image.
+Image object.
 
 
 
@@ -94,7 +94,7 @@ Mengembalikan objek Thumbnail Image dengan skala khusus.
 
 ### Mengembalikan
 
-objek IImage.
+IImage object.
 
 
 
@@ -106,16 +106,16 @@ def get_image(self, scale_x, scale_y):
 
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
-| scale_x | **float** | Nilai yang digunakan untuk menskala Thumbnail pada arah sumbu x. |
-| scale_y | **float** | Nilai yang digunakan untuk menskala Thumbnail pada arah sumbu y. |
+| scale_x | **float** | Nilai yang digunakan untuk memperbesar Thumbnail ini pada arah sumbu x. |
+| scale_y | **float** | Nilai yang digunakan untuk memperbesar Thumbnail ini pada arah sumbu y. |
 
 
-## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposepydrawingsize}
+## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposeslidessize}
 Mengembalikan objek Thumbnail Image dengan ukuran yang ditentukan.
 
 ### Mengembalikan
 
-objek Image.
+Image object.
 
 
 
@@ -128,13 +128,13 @@ def get_image(self, options, image_size):
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/id/aspose.slides.export/irenderingoptions) | Opsi rendering. |
-| image_size | **aspose.slides.Size** | Ukuran gambar yang akan dibuat. |
+| image_size | [`Size`](/slides/python-net/id/aspose.slides/size) | Ukuran gambar yang akan dibuat. |
 
 ### Pengecualian
 
 | Pengecualian | Deskripsi |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Dilempar ketika options.SlideLayoutOption adalah NotesCommentsLayoutOptions dan properti NotesPosition-nya mengambil nilai NotesPositions.BottomFull. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Dilempar ketika options.SlideLayoutOption adalah NotesCommentsLayoutingOptions dan propertinya NotesPosition mengambil nilai NotesPositions.BottomFull. |
 
 
 ## get_image(self, options, scale_x, scale_y) {#asposeslidesexportirenderingoptions-float-float}
@@ -142,7 +142,7 @@ Mengembalikan objek Thumbnail Image dengan skala khusus.
 
 ### Mengembalikan
 
-objek Bitmap.
+Bitmap objects.
 
 
 
@@ -155,8 +155,8 @@ def get_image(self, options, scale_x, scale_y):
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/id/aspose.slides.export/irenderingoptions) | Opsi rendering. |
-| scale_x | **float** | Nilai yang digunakan untuk menskala Thumbnail pada arah sumbu x. |
-| scale_y | **float** | Nilai yang digunakan untuk menskala Thumbnail pada arah sumbu y. |
+| scale_x | **float** | Nilai yang digunakan untuk memperbesar Thumbnail ini pada arah sumbu x. |
+| scale_y | **float** | Nilai yang digunakan untuk memperbesar Thumbnail ini pada arah sumbu y. |
 
 ### Pengecualian
 
@@ -167,9 +167,10 @@ def get_image(self, options, scale_x, scale_y):
 
 
 ### Lihat Juga
-* class [`IImage`](/slides/python-net/id/aspose.slides/iimage)
-* class [`IRenderingOptions`](/slides/python-net/id/aspose.slides.export/irenderingoptions)
-* class [`ITiffOptions`](/slides/python-net/id/aspose.slides.export/itiffoptions)
-* class [`Slide`](/slides/python-net/id/aspose.slides/slide)
-* module [`aspose.slides`](/slides/python-net/id/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* kelas [`IImage`](/slides/python-net/id/aspose.slides/iimage)
+* kelas [`IRenderingOptions`](/slides/python-net/id/aspose.slides.export/irenderingoptions)
+* kelas [`ITiffOptions`](/slides/python-net/id/aspose.slides.export/itiffoptions)
+* kelas [`Slide`](/slides/python-net/id/aspose.slides/slide)
+* kelas [`Size`](/slides/python-net/id/aspose.slides/size)
+* modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
+* perpustakaan [`Aspose.Slides`](/slides/python-net)

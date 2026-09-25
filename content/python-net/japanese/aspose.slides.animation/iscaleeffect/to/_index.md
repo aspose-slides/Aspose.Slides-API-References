@@ -1,14 +1,14 @@
 ---
 title: to property
-second_title: Aspose.Slides for Python（.NET 経由）API リファレンス
+second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides.animation/iscaleeffect/to/
 weight: 80
 ---
-## プロパティ
-アニメーションのスケール効果の対象位置をパーセンテージで指定します。
-読み書き **aspose.slides.PointF**。
+## プロパティへ
+アニメーション スケール効果の対象位置を（パーセント）で指定します。
+            読み取り/書き込み [`PointF`](/slides/python-net/ja/aspose.slides/pointf).
 
 ### 定義:
 ```python
@@ -24,5 +24,6 @@ def to(self, value):
 
 ### 参照
 * クラス [`IScaleEffect`](/slides/python-net/ja/aspose.slides.animation/iscaleeffect)
+* クラス [`PointF`](/slides/python-net/ja/aspose.slides/pointf)
 * モジュール [`aspose.slides.animation`](/slides/python-net/ja/aspose.slides.animation)
 * ライブラリ [`Aspose.Slides`](/slides/python-net)

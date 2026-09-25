@@ -1,6 +1,6 @@
 ---
 title: hyperlink property
-second_title: Aspose.Slides の Python 用 .NET API リファレンス
+second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides.theme/icolorschemeeffectivedata/hyperlink/
@@ -8,7 +8,7 @@ weight: 100
 ---
 ## ハイパーリンク プロパティ
 ハイパーリンクの色。
-            読み取り専用 **aspose.slides.Color**.
+            読み取り専用 [`Color`](/slides/python-net/ja/aspose.slides/color).
 
 ### 定義:
 ```python
@@ -20,5 +20,6 @@ def hyperlink(self):
 
 ### 参照
 * クラス [`IColorSchemeEffectiveData`](/slides/python-net/ja/aspose.slides.theme/icolorschemeeffectivedata)
+* クラス [`Color`](/slides/python-net/ja/aspose.slides/color)
 * モジュール [`aspose.slides.theme`](/slides/python-net/ja/aspose.slides.theme)
 * ライブラリ [`Aspose.Slides`](/slides/python-net)

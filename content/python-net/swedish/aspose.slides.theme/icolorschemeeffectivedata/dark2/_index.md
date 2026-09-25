@@ -7,8 +7,8 @@ url: /sv/aspose.slides.theme/icolorschemeeffectivedata/dark2/
 weight: 80
 ---
 ## dark2 egenskap
-Den andra mörka färgen i schemat.
-            Skrivskyddad **aspose.slides.Color**.
+Andra mörka färgen i schemat.
+            Skrivskyddad [`Color`](/slides/python-net/sv/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -17,7 +17,9 @@ def dark2(self):
     ...
 ```
 
+
 ### Se även
 * klass [`IColorSchemeEffectiveData`](/slides/python-net/sv/aspose.slides.theme/icolorschemeeffectivedata)
+* klass [`Color`](/slides/python-net/sv/aspose.slides/color)
 * modul [`aspose.slides.theme`](/slides/python-net/sv/aspose.slides.theme)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

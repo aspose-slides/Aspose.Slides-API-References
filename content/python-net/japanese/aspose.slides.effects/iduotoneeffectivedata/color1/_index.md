@@ -7,8 +7,8 @@ url: /ja/aspose.slides.effects/iduotoneeffectivedata/color1/
 weight: 20
 ---
 ## color1 プロパティ
-暗いピクセル用のターゲットカラー形式を返します。
-            読み取り専用 **aspose.slides.Color**.
+暗いピクセルに対する対象カラー形式を返します。
+            読み取り専用 [`Color`](/slides/python-net/ja/aspose.slides/color)。
 
 ### 定義:
 ```python
@@ -17,7 +17,9 @@ def color1(self):
     ...
 ```
 
-### 関連項目
+
+### 参照
 * クラス [`IDuotoneEffectiveData`](/slides/python-net/ja/aspose.slides.effects/iduotoneeffectivedata)
+* クラス [`Color`](/slides/python-net/ja/aspose.slides/color)
 * モジュール [`aspose.slides.effects`](/slides/python-net/ja/aspose.slides.effects)
 * ライブラリ [`Aspose.Slides`](/slides/python-net)

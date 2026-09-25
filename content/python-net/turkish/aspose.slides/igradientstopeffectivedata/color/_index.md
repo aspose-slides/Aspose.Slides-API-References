@@ -6,9 +6,9 @@ type: docs
 url: /tr/aspose.slides/igradientstopeffectivedata/color/
 weight: 10
 ---
-## renk özelliği
-Bir gradyan durak noktasının rengini döndürür.
-            Yalnızca okuma **aspose.slides.Color**.
+## Renk Özelliği
+Bir degrade durağının rengini döndürür.
+            Salt okunur [`Color`](/slides/python-net/tr/aspose.slides/color).
 
 ### Tanım:
 ```python
@@ -18,7 +18,8 @@ def color(self):
 ```
 
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 * sınıf [`IGradientStopEffectiveData`](/slides/python-net/tr/aspose.slides/igradientstopeffectivedata)
+* sınıf [`Color`](/slides/python-net/tr/aspose.slides/color)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

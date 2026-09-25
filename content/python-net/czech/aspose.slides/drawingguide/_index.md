@@ -1,23 +1,23 @@
 ---
 title: DrawingGuide class
-second_title: Aspose.Slides pro Python pomocí .NET referenční příručka API
+second_title: Aspose.Slides pro Python pomocí .NET referenční příručky API
 description: 
 type: docs
 url: /cs/aspose.slides/drawingguide/
 ---
 ## DrawingGuide třída
 
-Represents an adjustable drawing guide.
+Reprezentuje nastavitelný kreslicí vodítko.
 
-The DrawingGuide type exposes the following members:
+Typ DrawingGuide poskytuje následující členy:
 
 ## Vlastnosti
 
 | Vlastnost | Popis |
 | :- | :- |
-| [`orientation`](/slides/python-net/cs/aspose.slides/drawingguide/orientation/) | Vrací nebo nastavuje orientaci kreslicího vodítka.<br/>            Číst/zapisovat [`Orientation`](/slides/python-net/cs/aspose.slides/orientation). |
-| [`position`](/slides/python-net/cs/aspose.slides/drawingguide/position/) | Vrací nebo nastavuje polohu kreslicího vodítka v bodech od horního, levého rohu snímku.<br/>            Číst/zapisovat **float**. |
-| [`color`](/slides/python-net/cs/aspose.slides/drawingguide/color/) | Vrací nebo nastavuje barvu kreslicího vodítka.<br/>            Číst/zapisovat **aspose.slides.Color**. |
+| [`orientation`](/slides/python-net/cs/aspose.slides/drawingguide/orientation/) | Vrací nebo nastavuje orientaci kreslicího vodítka.<br/>            Čtení/zápis [`Orientation`](/slides/python-net/cs/aspose.slides/orientation). |
+| [`position`](/slides/python-net/cs/aspose.slides/drawingguide/position/) | Vrací nebo nastavuje polohu kreslicího vodítka v bodech od horního, levého rohu snímku.<br/>            Čtení/zápis **float**. |
+| [`color`](/slides/python-net/cs/aspose.slides/drawingguide/color/) | Vrací nebo nastavuje barvu kreslicího vodítka.<br/>            Čtení/zápis [`Color`](/slides/python-net/cs/aspose.slides/color). |
 
 
 ### Viz také

@@ -1,45 +1,39 @@
 ---
 title: create_image_wrapper method
-second_title: Aspose.Slides برای Python از طریق .NET مرجع API
+second_title: Aspose.Slides برای Python از طریق مرجع API .NET
 description: 
 type: docs
 url: /fa/aspose.slides/iimagewrapperfactory/create_image_wrapper/
 weight: 10
 ---
 ## create_image_wrapper(self, image) {#iimage}
-یک نمونهٔ جدید از کلاس ImageWrapper را از تصویر موجود مشخص‌شده مقداردهی اولیه می‌کند.
+Initializes a new instance of the ImageWrapper class from the specified existing image.
 
 ### بازگشت
 
-نمونهٔ جدیدی از [`IImageWrapper`](/slides/python-net/fa/aspose.slides/iimagewrapper)
-
-
+نمونه جدیدی از [`IImageWrapper`](/slides/python-net/fa/aspose.slides/iimagewrapper)
 
 ```python
 def create_image_wrapper(self, image):
     ...
 ```
 
-
 | پارامتر | نوع | توضیح |
 | :- | :- | :- |
-| image | [`IImage`](/slides/python-net/fa/aspose.slides/iimage) | تصویر موجود **aspose.slides.Image** |
+| image | [`IImage`](/slides/python-net/fa/aspose.slides/iimage) | تصویر موجود **aspose.slides.IImage** |
 
 
 ## create_image_wrapper(self, stream) {#iorawiobase}
-یک نمونهٔ جدید از کلاس ImageWrapper را از جریان دادهٔ مشخص‌شده مقداردهی اولیه می‌کند.
+Initializes a new instance of the ImageWrapper class from the specified data stream.
 
 ### بازگشت
 
-نمونهٔ جدیدی از [`IImageWrapper`](/slides/python-net/fa/aspose.slides/iimagewrapper)
-
-
+نمونه جدیدی از [`IImageWrapper`](/slides/python-net/fa/aspose.slides/iimagewrapper)
 
 ```python
 def create_image_wrapper(self, stream):
     ...
 ```
-
 
 | پارامتر | نوع | توضیح |
 | :- | :- | :- |
@@ -47,19 +41,16 @@ def create_image_wrapper(self, stream):
 
 
 ## create_image_wrapper(self, file_name) {#str}
-یک نمونهٔ جدید از کلاس ImageWrapper را از فایل مشخص‌شده مقداردهی اولیه می‌کند.
+Initializes a new instance of the ImageWrapper class from the specified file.
 
 ### بازگشت
 
-نمونهٔ جدیدی از [`IImageWrapper`](/slides/python-net/fa/aspose.slides/iimagewrapper)
-
-
+نمونه جدیدی از [`IImageWrapper`](/slides/python-net/fa/aspose.slides/iimagewrapper)
 
 ```python
 def create_image_wrapper(self, file_name):
     ...
 ```
-
 
 | پارامتر | نوع | توضیح |
 | :- | :- | :- |

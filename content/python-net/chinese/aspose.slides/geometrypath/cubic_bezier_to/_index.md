@@ -6,7 +6,7 @@ type: docs
 url: /zh/aspose.slides/geometrypath/cubic_bezier_to/
 weight: 40
 ---
-## cubic_bezier_to(self, point1, point2, point3) {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf}
+## cubic_bezier_to(self, point1, point2, point3) {#asposeslidespointf-asposeslidespointf-asposeslidespointf}
 在路径末尾添加三次贝塞尔曲线
 
 
@@ -18,12 +18,12 @@ def cubic_bezier_to(self, point1, point2, point3):
 
 | 参数 | 类型 | 描述 |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | 第一个方向点 |
-| point2 | **aspose.slides.PointF** | 第二个方向点 |
-| point3 | **aspose.slides.PointF** | 结束点 |
+| point1 | [`PointF`](/slides/python-net/zh/aspose.slides/pointf) | 第一个方向点 |
+| point2 | [`PointF`](/slides/python-net/zh/aspose.slides/pointf) | 第二个方向点 |
+| point3 | [`PointF`](/slides/python-net/zh/aspose.slides/pointf) | 终点 |
 
 
-## cubic_bezier_to(self, point1, point2, point3, index) {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf-int}
+## cubic_bezier_to(self, point1, point2, point3, index) {#asposeslidespointf-asposeslidespointf-asposeslidespointf-int}
 在路径的指定位置添加三次贝塞尔曲线
 
 
@@ -35,9 +35,9 @@ def cubic_bezier_to(self, point1, point2, point3, index):
 
 | 参数 | 类型 | 描述 |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | 第一个方向点 |
-| point2 | **aspose.slides.PointF** | 第二个方向点 |
-| point3 | **aspose.slides.PointF** | 结束点 |
+| point1 | [`PointF`](/slides/python-net/zh/aspose.slides/pointf) | 第一个方向点 |
+| point2 | [`PointF`](/slides/python-net/zh/aspose.slides/pointf) | 第二个方向点 |
+| point3 | [`PointF`](/slides/python-net/zh/aspose.slides/pointf) | 终点 |
 | index | **int** | PathData 中段的索引 |
 
 ### 异常
@@ -63,8 +63,8 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3):
 | y1 | **float** | 第一个方向点的 Y 坐标 |
 | x2 | **float** | 第二个方向点的 X 坐标 |
 | y2 | **float** | 第二个方向点的 Y 坐标 |
-| x3 | **float** | 结束点的 X 坐标 |
-| y3 | **float** | 结束点的 Y 坐标 |
+| x3 | **float** | 终点的 X 坐标 |
+| y3 | **float** | 终点的 Y 坐标 |
 
 
 ## cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index) {#float-float-float-float-float-float-int}
@@ -83,8 +83,8 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index):
 | y1 | **float** | 第一个方向点的 Y 坐标 |
 | x2 | **float** | 第二个方向点的 X 坐标 |
 | y2 | **float** | 第二个方向点的 Y 坐标 |
-| x3 | **float** | 结束点的 X 坐标 |
-| y3 | **float** | 结束点的 Y 坐标 |
+| x3 | **float** | 终点的 X 坐标 |
+| y3 | **float** | 终点的 Y 坐标 |
 | index | **int** | PathData 中段的索引 |
 
 ### 异常
@@ -95,7 +95,8 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index):
 
 
 
-### 另请参见
+### 另见
 * 类 [`GeometryPath`](/slides/python-net/zh/aspose.slides/geometrypath)
+* 类 [`PointF`](/slides/python-net/zh/aspose.slides/pointf)
 * 模块 [`aspose.slides`](/slides/python-net/zh/aspose.slides)
 * 库 [`Aspose.Slides`](/slides/python-net)

@@ -1,14 +1,14 @@
 ---
 title: from_address property
-second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
+second_title: Aspose.Slides για Python μέσω .NET API Reference
 description: 
 type: docs
 url: /el/aspose.slides.animation/iscaleeffect/from_address/
 weight: 50
 ---
 ## from_address ιδιότητα
-Καθορίζει μια συντεταγμένη x/y για να ξεκινήσει η κίνηση (σε ποσοστά).
-Ανάγνωση/εγγραφή **aspose.slides.PointF**.
+Καθορίζει μια συντεταγμένη x/y για την έναρξη της κίνησης (σε ποσοστά).
+            Ανάγνωση/εγγραφή [`PointF`](/slides/python-net/el/aspose.slides/pointf).
 
 ### Ορισμός:
 ```python
@@ -21,7 +21,9 @@ def from_address(self, value):
     ...
 ```
 
+
 ### Δείτε επίσης
 * κλάση [`IScaleEffect`](/slides/python-net/el/aspose.slides.animation/iscaleeffect)
+* κλάση [`PointF`](/slides/python-net/el/aspose.slides/pointf)
 * μονάδα [`aspose.slides.animation`](/slides/python-net/el/aspose.slides.animation)
-* βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

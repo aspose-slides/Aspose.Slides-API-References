@@ -7,8 +7,8 @@ url: /sv/aspose.slides/icomment/position/
 weight: 50
 ---
 ## positionsegenskap
-Returnerar eller anger positionen för en kommentar på en bild.
-            Läs/skriv **aspose.slides.PointF**.
+Returns or sets the position of a comment on a slide.
+            Läs/skriv [`PointF`](/slides/python-net/sv/aspose.slides/pointf).
 
 ### Definition:
 ```python
@@ -22,7 +22,8 @@ def position(self, value):
 ```
 
 
-### Se även
+### Se också
 * klass [`IComment`](/slides/python-net/sv/aspose.slides/icomment)
+* klass [`PointF`](/slides/python-net/sv/aspose.slides/pointf)
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

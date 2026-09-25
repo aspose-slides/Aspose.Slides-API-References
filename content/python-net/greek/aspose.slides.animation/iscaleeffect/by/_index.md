@@ -6,9 +6,9 @@ type: docs
 url: /el/aspose.slides.animation/iscaleeffect/by/
 weight: 40
 ---
-## κατά ιδιότητα
-περιγράφει την σχετική τιμή μετατόπισης για την κίνηση (σε ποσοστά).
-            Ανάγνωση/εγγραφή **aspose.slides.PointF**.
+## βάσει ιδιότητας
+περιγράφει τη σχετική τιμή μετατόπισης για την κίνηση (σε ποσοστά).
+            Ανάγνωση/εγγραφή [`PointF`](/slides/python-net/el/aspose.slides/pointf).
 
 ### Ορισμός:
 ```python
@@ -24,5 +24,6 @@ def by(self, value):
 
 ### Δείτε επίσης
 * κλάση [`IScaleEffect`](/slides/python-net/el/aspose.slides.animation/iscaleeffect)
+* κλάση [`PointF`](/slides/python-net/el/aspose.slides/pointf)
 * μονάδα [`aspose.slides.animation`](/slides/python-net/el/aspose.slides.animation)
 * βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

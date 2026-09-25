@@ -1,6 +1,6 @@
 ---
 title: INotesSize class
-second_title: Aspose.Slides cho Python qua .NET Tham khảo API
+second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides/inotessize/
@@ -15,7 +15,8 @@ Kiểu INotesSize cung cấp các thành viên sau:
 
 | Thuộc tính | Mô tả |
 | :- | :- |
-| [`size`](/slides/python-net/vi/aspose.slides/inotessize/size/) | Trả về hoặc đặt kích thước bằng điểm.<br/>            Đọc/ghi **aspose.slides.SizeF**. |
+| [`size`](/slides/python-net/vi/aspose.slides/inotessize/size/) | Trả về hoặc đặt kích thước tính bằng điểm.<br/>            Đọc/ghi [`SizeF`](/slides/python-net/vi/aspose.slides/sizef). |
+
 
 ### Xem thêm
 * module [`aspose.slides`](/slides/python-net/vi/aspose.slides)

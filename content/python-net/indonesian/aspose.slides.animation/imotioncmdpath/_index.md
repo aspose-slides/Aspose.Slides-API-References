@@ -1,26 +1,26 @@
 ---
 title: IMotionCmdPath class
-second_title: Referensi API Aspose.Slides untuk Python via .NET
+second_title: Aspose.Slides untuk Python via .NET Referensi API
 description: 
 type: docs
 url: /id/aspose.slides.animation/imotioncmdpath/
 ---
 ## IMotionCmdPath kelas
 
-Mewakili satu perintah dari sebuah jalur.
+Mewakili satu perintah pada jalur.
 
-Tipe IMotionCmdPath mengekspos anggota-anggota berikut:
+Tipe IMotionCmdPath menampilkan anggota-anggota berikut:
 
 ## Properti
 
 | Properti | Deskripsi |
 | :- | :- |
-| [`points`](/slides/python-net/id/aspose.slides.animation/imotioncmdpath/points/) | Menentukan titik perintah.<br/>            Baca/tulis **aspose.slides.PointF**[]. |
+| [`points`](/slides/python-net/id/aspose.slides.animation/imotioncmdpath/points/) | Menentukan poin-poin perintah.<br/>            Baca/tulis [`PointF`](/slides/python-net/id/aspose.slides/pointf)[]. |
 | [`command_type`](/slides/python-net/id/aspose.slides.animation/imotioncmdpath/command_type/) | Menentukan jenis perintah.<br/>            Baca/tulis [`MotionCommandPathType`](/slides/python-net/id/aspose.slides.animation/motioncommandpathtype). |
 | [`is_relative`](/slides/python-net/id/aspose.slides.animation/imotioncmdpath/is_relative/) | Menentukan koordinat perintah relatif atau tidak.<br/>            Baca/tulis **bool**. |
-| [`points_type`](/slides/python-net/id/aspose.slides.animation/imotioncmdpath/points_type/) | Menentukan tipe titik perintah<br/>            Baca/tulis [`MotionPathPointsType`](/slides/python-net/id/aspose.slides.animation/motionpathpointstype). |
+| [`points_type`](/slides/python-net/id/aspose.slides.animation/imotioncmdpath/points_type/) | Menentukan jenis titik perintah<br/>            Baca/tulis [`MotionPathPointsType`](/slides/python-net/id/aspose.slides.animation/motionpathpointstype). |
 
 
 ### Lihat Juga
 * modul [`aspose.slides.animation`](/slides/python-net/id/aspose.slides.animation)
-* pustaka [`Aspose.Slides`](/slides/python-net)
+* perpustakaan [`Aspose.Slides`](/slides/python-net)

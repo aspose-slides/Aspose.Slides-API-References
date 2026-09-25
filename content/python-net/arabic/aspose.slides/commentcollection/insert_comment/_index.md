@@ -1,33 +1,39 @@
 ---
 title: insert_comment method
-second_title: Aspose.Slides للبايثون عبر .NET مرجع API
+second_title: Aspose.Slides لـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/commentcollection/insert_comment/
 weight: 50
 ---
-## insert_comment(self, index, text, slide, position, creation_time) {#int-str-islide-asposepydrawingpointf-datetime}
-إدراج تعليق جديد إلى مجموعة عند الفهرس المحدد.
+## insert_comment(self, index, text, slide, position, creation_time) {#int-str-islide-asposeslidespointf-datetime}
+إدراج تعليق جديد إلى مجموعة في الفهرس المحدد.
 
 ### الإرجاع
-التعليق المدرج.
+التعليق المُدرج.
+
+
 
 ```python
 def insert_comment(self, index, text, slide, position, creation_time):
     ...
 ```
 
+
 | المعامل | النوع | الوصف |
 | :- | :- | :- |
-| index | **int** | فهرس العنصر في مجموعة يجب إدراج التعليق عنده. |
+| index | **int** | فهرس العنصر في مجموعة يتم عنده إدراج التعليق. |
 | text | **str** | النص العادي لتعليق جديد. |
-| slide | [`ISlide`](/slides/python-net/ar/aspose.slides/islide) | الشريحة في عرض تقديمي حيث يتم إضافة تعليق جديد. |
-| position | **aspose.slides.PointF** | الموقع على الشريحة حيث يتم إضافة التعليق الجديد. |
+| slide | [`ISlide`](/slides/python-net/ar/aspose.slides/islide) | الشريحة في العرض التقديمي حيث يُضاف التعليق الجديد. |
+| position | [`PointF`](/slides/python-net/ar/aspose.slides/pointf) | الموضع على الشريحة حيث يُضاف التعليق الجديد. |
 | creation_time | **DateTime** | وقت إنشاء التعليق. |
 
+
+
 ### انظر أيضًا
-* الفئة [`CommentCollection`](/slides/python-net/ar/aspose.slides/commentcollection)
-* الفئة [`IComment`](/slides/python-net/ar/aspose.slides/icomment)
-* الفئة [`ISlide`](/slides/python-net/ar/aspose.slides/islide)
+* فئة [`CommentCollection`](/slides/python-net/ar/aspose.slides/commentcollection)
+* فئة [`IComment`](/slides/python-net/ar/aspose.slides/icomment)
+* فئة [`ISlide`](/slides/python-net/ar/aspose.slides/islide)
+* فئة [`PointF`](/slides/python-net/ar/aspose.slides/pointf)
 * الوحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* المكتبة [`Aspose.Slides`](/slides/python-net)

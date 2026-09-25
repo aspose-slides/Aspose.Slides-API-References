@@ -17,7 +17,8 @@ IColorReplaceEffectiveData 类型公开以下成员：
 
 | 属性 | 描述 |
 | :- | :- |
-| [`color`](/slides/python-net/zh/aspose.slides.effects/icolorreplaceeffectivedata/color/) | 返回将替换每个像素颜色的颜色格式。<br/>            只读 **aspose.slides.Color**。 |
+| [`color`](/slides/python-net/zh/aspose.slides.effects/icolorreplaceeffectivedata/color/) | 返回将替换每个像素颜色的颜色格式。<br/>            只读 [`Color`](/slides/python-net/zh/aspose.slides/color). |
+
 
 ### 另请参见
 * 模块 [`aspose.slides.effects`](/slides/python-net/zh/aspose.slides.effects)

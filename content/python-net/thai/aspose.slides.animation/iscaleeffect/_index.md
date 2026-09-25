@@ -1,13 +1,13 @@
 ---
 title: IScaleEffect class
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET การอ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides.animation/iscaleeffect/
 ---
 ## IScaleEffect คลาส
 
-แสดงถึงเอฟเฟกต์การขยายสเกลของแอนิเมชัน.
+แสดงเอฟเฟกต์การสเกลของแอนิเมชัน
 
 ประเภท IScaleEffect เปิดเผยสมาชิกต่อไปนี้:
 
@@ -15,10 +15,10 @@ url: /th/aspose.slides.animation/iscaleeffect/
 
 | คุณสมบัติ | คำอธิบาย |
 | :- | :- |
-| [`zoom_content`](/slides/python-net/th/aspose.slides.animation/iscaleeffect/zoom_content/) | กำหนดว่าคอนเทนต์ควรจะซูมหรือไม่.<br/>            อ่าน/เขียน [`NullableBool`](/slides/python-net/th/aspose.slides/nullablebool). |
-| [`from_address`](/slides/python-net/th/aspose.slides.animation/iscaleeffect/from_address/) | ระบุตำแหน่งพิกัด x/y ที่จะเริ่มแอนิเมชันจาก (เป็นเปอร์เซ็นต์).<br/>            อ่าน/เขียน **aspose.slides.PointF**. |
-| [`to`](/slides/python-net/th/aspose.slides.animation/iscaleeffect/to/) | ระบุตำแหน่งเป้าหมายสำหรับเอฟเฟกต์การขยายสเกลของแอนิเมชัน (เป็นเปอร์เซ็นต์).<br/>            อ่าน/เขียน **aspose.slides.PointF**. |
-| [`by`](/slides/python-net/th/aspose.slides.animation/iscaleeffect/by/) | อธิบายค่าการออฟเซ็ตสัมพันธ์สำหรับแอนิเมชัน (เป็นเปอร์เซ็นต์).<br/>            อ่าน/เขียน **aspose.slides.PointF**. |
+| [`zoom_content`](/slides/python-net/th/aspose.slides.animation/iscaleeffect/zoom_content/) | กำหนดว่าคอนเทนต์ควรซูมหรือไม่.<br/>อ่าน/เขียน [`NullableBool`](/slides/python-net/th/aspose.slides/nullablebool). |
+| [`from_address`](/slides/python-net/th/aspose.slides.animation/iscaleeffect/from_address/) | กำหนดพิกัด x/y เพื่อเริ่มแอนิเมชันจาก (เป็นเปอร์เซ็นต์).<br/>อ่าน/เขียน [`PointF`](/slides/python-net/th/aspose.slides/pointf). |
+| [`to`](/slides/python-net/th/aspose.slides.animation/iscaleeffect/to/) | กำหนดตำแหน่งเป้าหมายสำหรับเอฟเฟกต์การสเกลของแอนิเมชัน (เป็นเปอร์เซ็นต์).<br/>อ่าน/เขียน [`PointF`](/slides/python-net/th/aspose.slides/pointf). |
+| [`by`](/slides/python-net/th/aspose.slides.animation/iscaleeffect/by/) | อธิบายค่าการออฟเซตเชิงสัมพันธ์สำหรับแอนิเมชัน (เป็นเปอร์เซ็นต์).<br/>อ่าน/เขียน [`PointF`](/slides/python-net/th/aspose.slides/pointf). |
 | [`accumulate`](/slides/python-net/th/aspose.slides.animation/iscaleeffect/accumulate/) |  |
 | [`additive`](/slides/python-net/th/aspose.slides.animation/iscaleeffect/additive/) |  |
 | [`properties`](/slides/python-net/th/aspose.slides.animation/iscaleeffect/properties/) |  |

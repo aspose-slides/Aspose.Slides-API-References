@@ -7,8 +7,8 @@ url: /ja/aspose.slides.export/ihtmlgenerator/slide_image_size/
 weight: 60
 ---
 ## slide_image_size プロパティ
-スライド画像のサイズを返します。
-            読み取り専用 **aspose.slides.SizeF**.
+slide_image_size を返します。
+            読み取り専用 [`SizeF`](/slides/python-net/ja/aspose.slides/sizef).
 
 ### 定義:
 ```python
@@ -18,7 +18,8 @@ def slide_image_size(self):
 ```
 
 
-### 参照
+### 関連項目
 * クラス [`IHtmlGenerator`](/slides/python-net/ja/aspose.slides.export/ihtmlgenerator)
+* クラス [`SizeF`](/slides/python-net/ja/aspose.slides/sizef)
 * モジュール [`aspose.slides.export`](/slides/python-net/ja/aspose.slides.export)
 * ライブラリ [`Aspose.Slides`](/slides/python-net)

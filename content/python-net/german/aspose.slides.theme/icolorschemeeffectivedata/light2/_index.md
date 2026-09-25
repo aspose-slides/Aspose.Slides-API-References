@@ -8,7 +8,7 @@ weight: 120
 ---
 ## light2 Eigenschaft
 Zweite Lichtfarbe im Schema.
-            Nur lesbar **aspose.slides.Color**.
+            Nur lesbar [`Color`](/slides/python-net/de/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def light2(self):
 
 ### Siehe auch
 * Klasse [`IColorSchemeEffectiveData`](/slides/python-net/de/aspose.slides.theme/icolorschemeeffectivedata)
+* Klasse [`Color`](/slides/python-net/de/aspose.slides/color)
 * Modul [`aspose.slides.theme`](/slides/python-net/de/aspose.slides.theme)
 * Bibliothek [`Aspose.Slides`](/slides/python-net)

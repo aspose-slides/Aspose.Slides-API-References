@@ -7,8 +7,8 @@ url: /sv/aspose.slides.effects/ioutershadoweffectivedata/shadow_color/
 weight: 90
 ---
 ## shadow_color egenskap
-Färg på skuggan.
-            Skrivskyddad **aspose.slides.Color**.
+Skuggans färg.
+            Endast läsning [`Color`](/slides/python-net/sv/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def shadow_color(self):
 
 ### Se även
 * klass [`IOuterShadowEffectiveData`](/slides/python-net/sv/aspose.slides.effects/ioutershadoweffectivedata)
+* klass [`Color`](/slides/python-net/sv/aspose.slides/color)
 * modul [`aspose.slides.effects`](/slides/python-net/sv/aspose.slides.effects)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

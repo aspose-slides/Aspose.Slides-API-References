@@ -1,24 +1,24 @@
 ---
 title: IFormatSchemeEffectiveData class
-second_title: Aspose.Slides voor Python via .NET API Referentie
+second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides.theme/iformatschemeeffectivedata/
 ---
 ## IFormatSchemeEffectiveData klasse
 
-Onveranderlijk object dat effectieve opmaakschema-eigenschappen bevat.
+Onveranderlijk object dat effectieve indelingsschema-eigenschappen bevat.
 
-Het IFormatSchemeEffectiveData-type toont de volgende leden:
+Het IFormatSchemeEffectiveData-type exposeert de volgende leden:
 
 ## Methoden
 
-| Method | Description |
+| Methode | Beschrijving |
 | :- | :- |
-| [`get_fill_styles(self, style_color)`](/slides/python-net/nl/aspose.slides.theme/iformatschemeeffectivedata/get_fill_styles/#asposepydrawingcolor) | Retourneert een collectie van themadefinieerde vullingsstijlen. |
-| [`get_line_styles(self, style_color)`](/slides/python-net/nl/aspose.slides.theme/iformatschemeeffectivedata/get_line_styles/#asposepydrawingcolor) | Retourneert een collectie van themadefinieerde lijnstijlen. |
-| [`get_effect_styles(self, style_color)`](/slides/python-net/nl/aspose.slides.theme/iformatschemeeffectivedata/get_effect_styles/#asposepydrawingcolor) | Retourneert een collectie van themadefinieerde effectstijlen. |
-| [`get_background_fill_styles(self, style_color)`](/slides/python-net/nl/aspose.slides.theme/iformatschemeeffectivedata/get_background_fill_styles/#asposepydrawingcolor) | Retourneert een collectie van themadefinieerde achtergrondvullingsstijlen. |
+| [`get_fill_styles(self, style_color)`](/slides/python-net/nl/aspose.slides.theme/iformatschemeeffectivedata/get_fill_styles/#asposeslidescolor) | Retourneert een verzameling van themadefinieerde opvulstijlen. |
+| [`get_line_styles(self, style_color)`](/slides/python-net/nl/aspose.slides.theme/iformatschemeeffectivedata/get_line_styles/#asposeslidescolor) | Retourneert een verzameling van themadefinieerde lijnstijlen. |
+| [`get_effect_styles(self, style_color)`](/slides/python-net/nl/aspose.slides.theme/iformatschemeeffectivedata/get_effect_styles/#asposeslidescolor) | Retourneert een verzameling van themadefinieerde effectstijlen. |
+| [`get_background_fill_styles(self, style_color)`](/slides/python-net/nl/aspose.slides.theme/iformatschemeeffectivedata/get_background_fill_styles/#asposeslidescolor) | Retourneert een verzameling van themadefinieerde achtergrondopvulstijlen. |
 
 
 ### Opmerkingen

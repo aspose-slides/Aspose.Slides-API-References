@@ -15,7 +15,8 @@ Le type INotesSize expose les membres suivants :
 
 | Propriété | Description |
 | :- | :- |
-| [`size`](/slides/python-net/fr/aspose.slides/inotessize/size/) | Renvoie ou définit la taille en points.<br/>            Lecture/écriture **aspose.slides.SizeF**. |
+| [`size`](/slides/python-net/fr/aspose.slides/inotessize/size/) | Renvoie ou définit la taille en points.<br/>            Lecture/écriture [`SizeF`](/slides/python-net/fr/aspose.slides/sizef). |
+
 
 ### Voir aussi
 * module [`aspose.slides`](/slides/python-net/fr/aspose.slides)

@@ -1,14 +1,14 @@
 ---
 title: color property
-second_title: Aspose.Slides für Python via .NET API-Referenz
+second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides/igradientstopeffectivedata/color/
 weight: 10
 ---
-## Farbeigenschaft
+## Farbe-Eigenschaft
 Gibt die Farbe eines Farbverlaufsstopps zurück.
-            Nur lesend **aspose.slides.Color**.
+            Nur lesbar [`Color`](/slides/python-net/de/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def color(self):
 
 ### Siehe auch
 * Klasse [`IGradientStopEffectiveData`](/slides/python-net/de/aspose.slides/igradientstopeffectivedata)
+* Klasse [`Color`](/slides/python-net/de/aspose.slides/color)
 * Modul [`aspose.slides`](/slides/python-net/de/aspose.slides)
 * Bibliothek [`Aspose.Slides`](/slides/python-net)

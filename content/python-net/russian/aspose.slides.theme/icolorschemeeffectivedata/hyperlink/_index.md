@@ -6,9 +6,9 @@ type: docs
 url: /ru/aspose.slides.theme/icolorschemeeffectivedata/hyperlink/
 weight: 100
 ---
-## свойство гиперссылка
+## свойство hyperlink
 Цвет гиперссылок.
-Только для чтения **aspose.slides.Color**.
+            Только для чтения [`Color`](/slides/python-net/ru/aspose.slides/color).
 
 ### Определение:
 ```python
@@ -20,5 +20,6 @@ def hyperlink(self):
 
 ### См. также
 * класс [`IColorSchemeEffectiveData`](/slides/python-net/ru/aspose.slides.theme/icolorschemeeffectivedata)
+* класс [`Color`](/slides/python-net/ru/aspose.slides/color)
 * модуль [`aspose.slides.theme`](/slides/python-net/ru/aspose.slides.theme)
 * библиотека [`Aspose.Slides`](/slides/python-net)

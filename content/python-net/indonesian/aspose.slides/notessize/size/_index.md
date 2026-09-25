@@ -6,9 +6,9 @@ type: docs
 url: /id/aspose.slides/notessize/size/
 weight: 20
 ---
-## size properti
-Mengembalikan atau mengatur size dalam poin.
-            Baca/tulis **aspose.slides.SizeF**.
+## properti ukuran
+Mengembalikan atau mengatur ukuran dalam poin.
+            Baca/tulis [`SizeF`](/slides/python-net/id/aspose.slides/sizef).
 
 ### Definisi:
 ```python
@@ -24,5 +24,6 @@ def size(self, value):
 
 ### Lihat Juga
 * kelas [`NotesSize`](/slides/python-net/id/aspose.slides/notessize)
+* kelas [`SizeF`](/slides/python-net/id/aspose.slides/sizef)
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
-* pustaka [`Aspose.Slides`](/slides/python-net)
+* perpustakaan [`Aspose.Slides`](/slides/python-net)

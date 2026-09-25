@@ -6,9 +6,9 @@ type: docs
 url: /fa/aspose.slides/comment/position/
 weight: 50
 ---
-## position خاصیت
-مقدار یا موقعیت position یک نظر را در یک اسلاید برمی‌گرداند یا تنظیم می‌کند.
-            خواندنی/نوشتنی **aspose.slides.PointF**.
+## ویژگی موقعیت
+مقدار موقعیت یک نظر در یک اسلاید را برمی‌گرداند یا تنظیم می‌کند.
+قابل خواندن/نوشتن [`PointF`](/slides/python-net/fa/aspose.slides/pointf).
 
 ### تعریف:
 ```python
@@ -24,5 +24,6 @@ def position(self, value):
 
 ### موارد مرتبط
 * کلاس [`Comment`](/slides/python-net/fa/aspose.slides/comment)
+* کلاس [`PointF`](/slides/python-net/fa/aspose.slides/pointf)
 * ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

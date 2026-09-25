@@ -1,9 +1,9 @@
 ---
 title: IPresetShadowEffectiveData class
-second_title: Riferimento API di Aspose.Slides per Python via .NET
+second_title: Riferimento API Aspose.Slides per Python tramite .NET
 description: 
 type: docs
-url: /it/aspose.slides.effects/ippresetshadoweffectivedata/
+url: /it/aspose.slides.effects/ipresetshadoweffectivedata/
 ---
 ## IPresetShadowEffectiveData classe
 
@@ -17,9 +17,8 @@ Il tipo IPresetShadowEffectiveData espone i seguenti membri:
 | :- | :- |
 | [`direction`](/slides/python-net/it/aspose.slides.effects/ipresetshadoweffectivedata/direction/) | Direzione dell'ombra.<br/>            Solo lettura **float**. |
 | [`distance`](/slides/python-net/it/aspose.slides.effects/ipresetshadoweffectivedata/distance/) | Distanza dell'ombra.<br/>            Solo lettura **float**. |
-| [`shadow_color`](/slides/python-net/it/aspose.slides.effects/ipresetshadoweffectivedata/shadow_color/) | Colore dell'ombra.<br/>            Solo lettura **aspose.slides.Color**. |
-| [`preset`](/slides/python-net/it/aspose.slides.effects/ipresetshadoweffectivedata/preset/) | Preset.<br/>            Solo lettura [`PresetShadowType`](/slides/python-net/it/aspose.slides/presetshadowtype). |
-
+| [`shadow_color`](/slides/python-net/it/aspose.slides.effects/ipresetshadoweffectivedata/shadow_color/) | Colore dell'ombra.<br/>            Solo lettura [`Color`](/slides/python-net/it/aspose.slides/color). |
+| [`preset`](/slides/python-net/it/aspose.slides.effects/ipresetshadoweffectivedata/preset/) | Predefinito.<br/>            Solo lettura [`PresetShadowType`](/slides/python-net/it/aspose.slides/presetshadowtype). |
 
 ### Vedi anche
 * modulo [`aspose.slides.effects`](/slides/python-net/it/aspose.slides.effects)

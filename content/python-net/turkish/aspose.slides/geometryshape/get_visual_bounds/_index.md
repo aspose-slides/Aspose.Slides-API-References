@@ -10,23 +10,26 @@ weight: 60
 Şeklin render edilmiş içeriğinden hesaplanan görsel sınırlarını alır.
 
 ### Döndürür
-Şeklin slayt koordinatlarında görsel sınırlarını temsil eden bir **aspose.slides.RectangleF**.
 
+Bir [`RectangleF`](/slides/python-net/tr/aspose.slides/rectanglef) şeklin slayt koordinatlarında görsel sınırlarını temsil eder.
 ```python
 def get_visual_bounds(self):
     ...
 ```
 
 ### Açıklamalar
-İstenen dikdörtgen, şeklin render sırasında slayt koordinat uzayında ürettiği tüm içeriğin eksen hizalı sınırlarını temsil eder.
 
-Bu sınırlar, şeklin model sınırlarından ([`Shape.x`](/slides/python-net/tr/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/tr/aspose.slides/shape/y), [`Shape.width`](/slides/python-net/tr/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/tr/aspose.slides/shape/height)) farklı olabilir ve render edilmiş içerik slayt orijininin ötesine uzanıyorsa negatif koordinatlar içerebilir.
+ Döndürülen dikdörtgen, eksen hizalı sınırları temsil eder ve tüm içeriği
+             şekil tarafından render sırasında slayt koordinat uzayında üretir.
 
-Görsel sınırlar, dönüşümler (örneğin, döndürme), kenar kalınlığı ve birleşimler, metin yerleşimi ve taşma, SmartArt geometrisi ve şeklin son render görünümünü etkileyen diğer yerleşim etkileri gibi render ile ilgili unsurları dikkate alır.
+ Bu sınırlar, şeklin model sınırlarından ([`Shape.x`](/slides/python-net/tr/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/tr/aspose.slides/shape/y), [`Shape.width`](/slides/python-net/tr/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/tr/aspose.slides/shape/height)) farklı olabilir ve render edilen içerik slayt kökeninin ötesine uzanıyorsa negatif koordinatlar içerebilir.
 
-İstenen sınırlar slayt dikdörtgenine kırpılmaz.
+ Görsel sınırlar, dönüşümler (örneğin, döndürme), kenar genişliği ve birleşimleri, metin yerleşimi ve taşması, SmartArt geometrisi ve şeklin nihai render görünümünü etkileyen diğer düzen etkileri gibi render ile ilgili yönleri dikkate alır.
+
+ Döndürülen sınırlar slayt dikdörtgenine kırpılmaz.
 
 ### Ayrıca Bakınız
 * sınıf [`GeometryShape`](/slides/python-net/tr/aspose.slides/geometryshape)
+* sınıf [`RectangleF`](/slides/python-net/tr/aspose.slides/rectanglef)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

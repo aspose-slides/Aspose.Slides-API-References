@@ -8,7 +8,7 @@ weight: 40
 ---
 ## accent4 egenskap
 Fjärde accentfärgen i schemat.
-            Skrivskyddad **aspose.slides.Color**.
+            Skrivskyddad [`Color`](/slides/python-net/sv/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def accent4(self):
 
 ### Se även
 * klass [`IColorSchemeEffectiveData`](/slides/python-net/sv/aspose.slides.theme/icolorschemeeffectivedata)
+* klass [`Color`](/slides/python-net/sv/aspose.slides/color)
 * modul [`aspose.slides.theme`](/slides/python-net/sv/aspose.slides.theme)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

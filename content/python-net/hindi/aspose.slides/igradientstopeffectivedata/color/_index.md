@@ -1,14 +1,14 @@
 ---
 title: color property
-second_title: Aspose.Slides के लिए Python के माध्यम से .NET API संदर्भ
+second_title: Aspose.Slides Python के लिए .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides/igradientstopeffectivedata/color/
 weight: 10
 ---
-## रंग प्रॉपर्टी
+## color गुण
 एक ग्रेडिएंट स्टॉप का रंग लौटाता है।
-            केवल पढ़ने योग्य **aspose.slides.Color**.
+केवल पढ़ने योग्य [`Color`](/slides/python-net/hi/aspose.slides/color).
 
 ### परिभाषा:
 ```python
@@ -18,7 +18,8 @@ def color(self):
 ```
 
 
-### देखें
+### संबंधित देखें
 * क्लास [`IGradientStopEffectiveData`](/slides/python-net/hi/aspose.slides/igradientstopeffectivedata)
+* क्लास [`Color`](/slides/python-net/hi/aspose.slides/color)
 * मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
 * लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

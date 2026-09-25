@@ -7,8 +7,8 @@ url: /ru/aspose.slides.animation/motioneffect/rotation_center/
 weight: 120
 ---
 ## rotation_center свойство
-Описывает центр вращения, используемый для поворота траектории движения на угол X.
-            Чтение/запись **aspose.slides.PointF**.
+Описывает центр вращения, используемый для вращения траектории движения на угол X.
+            Чтение/запись [`PointF`](/slides/python-net/ru/aspose.slides/pointf).
 
 ### Определение:
 ```python
@@ -21,7 +21,9 @@ def rotation_center(self, value):
     ...
 ```
 
+
 ### См. также
 * класс [`MotionEffect`](/slides/python-net/ru/aspose.slides.animation/motioneffect)
+* класс [`PointF`](/slides/python-net/ru/aspose.slides/pointf)
 * модуль [`aspose.slides.animation`](/slides/python-net/ru/aspose.slides.animation)
-* library [`Aspose.Slides`](/slides/python-net)
+* библиотека [`Aspose.Slides`](/slides/python-net)

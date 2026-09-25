@@ -7,35 +7,35 @@ url: /nl/aspose.slides/icolorformat/
 ---
 ## IColorFormat klasse
 
-Stelt een kleur voor die in een presentatie wordt gebruikt.
+Stelt een kleur voor die wordt gebruikt in een presentatie.
 
-Het IColorFormat-type exposeert de volgende leden:
+Het IColorFormat-type biedt de volgende leden weer:
 
 ## Eigenschappen
 
-| Eigenschap | Beschrijving |
+| Property | Description |
 | :- | :- |
-| [`color_type`](/slides/python-net/nl/aspose.slides/icolorformat/color_type/) | Retourneert of stelt de kleurdefinitiemethode in.<br/>            Lezen/Schrijven [`ColorType`](/slides/python-net/nl/aspose.slides/colortype). |
-| [`color`](/slides/python-net/nl/aspose.slides/icolorformat/color/) | Retourneert de resulterende kleur (met alle kleurovereenkomsten toegepast).<br/>            Stelt RGB-kleuren in en wist alle kleurovereenkomsten.<br/>            Lezen/Schrijven **aspose.slides.Color**. |
-| [`preset_color`](/slides/python-net/nl/aspose.slides/icolorformat/preset_color/) | Retourneert of stelt de kleuropslag in.<br/>            Lezen/Schrijven [`PresetColor`](/slides/python-net/nl/aspose.slides/presetcolor). |
-| [`system_color`](/slides/python-net/nl/aspose.slides/icolorformat/system_color/) | Retourneert of stelt de kleur in die wordt geïdentificeerd door de systeemtabel voor kleuren.<br/>            Lezen/Schrijven [`SystemColor`](/slides/python-net/nl/aspose.slides/systemcolor). |
-| [`scheme_color`](/slides/python-net/nl/aspose.slides/icolorformat/scheme_color/) | Retourneert of stelt de kleur in die wordt geïdentificeerd door een kleurenschema.<br/>            Lezen/Schrijven [`SchemeColor`](/slides/python-net/nl/aspose.slides/schemecolor). |
-| [`r`](/slides/python-net/nl/aspose.slides/icolorformat/r/) | Retourneert of stelt het rode component van een kleur in. Alle kleurovereenkomsten worden genegeerd.<br/>            Lezen/Schrijven **int**. |
-| [`g`](/slides/python-net/nl/aspose.slides/icolorformat/g/) | Retourneert of stelt het groene component van een kleur in. Alle kleurovereenkomsten worden genegeerd.<br/>            Lezen/Schrijven **int**. |
-| [`b`](/slides/python-net/nl/aspose.slides/icolorformat/b/) | Retourneert of stelt het blauwe component van een kleur in. Alle kleurovereenkomsten worden genegeerd.<br/>            Lezen/Schrijven **int**. |
-| [`float_r`](/slides/python-net/nl/aspose.slides/icolorformat/float_r/) | Retourneert of stelt het rode component van een kleur in. Alle kleurovereenkomsten worden genegeerd.<br/>            Lezen/Schrijven **float**. |
-| [`float_g`](/slides/python-net/nl/aspose.slides/icolorformat/float_g/) | Retourneert of stelt het groene component van een kleur in. Alle kleurovereenkomsten worden genegeerd.<br/>            Lezen/Schrijven **float**. |
-| [`float_b`](/slides/python-net/nl/aspose.slides/icolorformat/float_b/) | Retourneert of stelt het blauwe component van een kleur in. Alle kleurovereenkomsten worden genegeerd.<br/>            Lezen/Schrijven **float**. |
-| [`hue`](/slides/python-net/nl/aspose.slides/icolorformat/hue/) | Retourneert of stelt het tintcomponent van een kleur in HSL-representatie in.<br/>            Alle kleurovereenkomsten worden genegeerd.<br/>            Lezen/Schrijven **float**. |
-| [`saturation`](/slides/python-net/nl/aspose.slides/icolorformat/saturation/) | Retourneert of stelt het verzadigingscomponent van een kleur in HSL-representatie in.<br/>            Alle kleurovereenkomsten worden genegeerd.<br/>            Lezen/Schrijven **float**. |
-| [`luminance`](/slides/python-net/nl/aspose.slides/icolorformat/luminance/) | Retourneert of stelt het luminantie-component van een kleur in HSL-representatie in.<br/>            Alle kleurovereenkomsten worden genegeerd.<br/>            Lezen/Schrijven **float**. |
-| [`color_transform`](/slides/python-net/nl/aspose.slides/icolorformat/color_transform/) | Retourneert de collectie van kleurovereenkomsten die op een kleur zijn toegepast.<br/>            Alleen-lezen [`IColorOperationCollection`](/slides/python-net/nl/aspose.slides/icoloroperationcollection). |
+| [`color_type`](/slides/python-net/nl/aspose.slides/icolorformat/color_type/) | Geeft de kleurdefinitiemethode terug of stelt deze in.<br/>            Lezen/schrijven [`ColorType`](/slides/python-net/nl/aspose.slides/colortype). |
+| [`color`](/slides/python-net/nl/aspose.slides/icolorformat/color/) | Geeft de resulterende kleur terug (met alle kleurtransformaties toegepast).<br/>            Stelt RGB-kleuren in en wist alle kleurtransformaties.<br/>            Lezen/schrijven [`Color`](/slides/python-net/nl/aspose.slides/color). |
+| [`preset_color`](/slides/python-net/nl/aspose.slides/icolorformat/preset_color/) | Geeft de kleurvoorinstelling terug of stelt deze in.<br/>            Lezen/schrijven [`PresetColor`](/slides/python-net/nl/aspose.slides/presetcolor). |
+| [`system_color`](/slides/python-net/nl/aspose.slides/icolorformat/system_color/) | Geeft de kleur terug die wordt geïdentificeerd door de systeemtabel voor kleuren of stelt deze in.<br/>            Lezen/schrijven [`SystemColor`](/slides/python-net/nl/aspose.slides/systemcolor). |
+| [`scheme_color`](/slides/python-net/nl/aspose.slides/icolorformat/scheme_color/) | Geeft de kleur terug die wordt geïdentificeerd door een kleurenschema of stelt deze in.<br/>            Lezen/schrijven [`SchemeColor`](/slides/python-net/nl/aspose.slides/schemecolor). |
+| [`r`](/slides/python-net/nl/aspose.slides/icolorformat/r/) | Geeft het rode component van een kleur terug of stelt dit in. Alle kleurtransformaties worden genegeerd.<br/>            Lezen/schrijven **int**. |
+| [`g`](/slides/python-net/nl/aspose.slides/icolorformat/g/) | Geeft het groene component van een kleur terug of stelt dit in. Alle kleurtransformaties worden genegeerd.<br/>            Lezen/schrijven **int**. |
+| [`b`](/slides/python-net/nl/aspose.slides/icolorformat/b/) | Geeft het blauwe component van een kleur terug of stelt dit in. Alle kleurtransformaties worden genegeerd.<br/>            Lezen/schrijven **int**. |
+| [`float_r`](/slides/python-net/nl/aspose.slides/icolorformat/float_r/) | Geeft het rode component van een kleur terug of stelt dit in. Alle kleurtransformaties worden genegeerd.<br/>            Lezen/schrijven **float**. |
+| [`float_g`](/slides/python-net/nl/aspose.slides/icolorformat/float_g/) | Geeft het groene component van een kleur terug of stelt dit in. Alle kleurtransformaties worden genegeerd.<br/>            Lezen/schrijven **float**. |
+| [`float_b`](/slides/python-net/nl/aspose.slides/icolorformat/float_b/) | Geeft het blauwe component van een kleur terug of stelt dit in. Alle kleurtransformaties worden genegeerd.<br/>            Lezen/schrijven **float**. |
+| [`hue`](/slides/python-net/nl/aspose.slides/icolorformat/hue/) | Geeft de tintcomponent van een kleur in HSL-representatie terug of stelt deze in.<br/>            Alle kleurtransformaties worden genegeerd.<br/>            Lezen/schrijven **float**. |
+| [`saturation`](/slides/python-net/nl/aspose.slides/icolorformat/saturation/) | Geeft de verzadigingscomponent van een kleur in HSL-representatie terug of stelt deze in.<br/>            Alle kleurtransformaties worden genegeerd.<br/>            Lezen/schrijven **float**. |
+| [`luminance`](/slides/python-net/nl/aspose.slides/icolorformat/luminance/) | Geeft de luminantiecomponent van een kleur in HSL-representatie terug of stelt deze in.<br/>            Alle kleurtransformaties worden genegeerd.<br/>            Lezen/schrijven **float**. |
+| [`color_transform`](/slides/python-net/nl/aspose.slides/icolorformat/color_transform/) | Geeft de collectie van op een kleur toegepaste kleurtransformaties terug.<br/>            Alleen-lezen [`IColorOperationCollection`](/slides/python-net/nl/aspose.slides/icoloroperationcollection). |
 
 ## Methoden
 
-| Methode | Beschrijving |
+| Method | Description |
 | :- | :- |
-| [`to_string(self, format)`](/slides/python-net/nl/aspose.slides/icolorformat/to_string/#colorstringformat) | Retourneert een **str** die het huidige kleurformaat vertegenwoordigt. |
+| [`to_string(self, format)`](/slides/python-net/nl/aspose.slides/icolorformat/to_string/#colorstringformat) | Geeft een **str** terug die het huidige kleurformaat weergeeft. |
 | [`copy_from(self, color)`](/slides/python-net/nl/aspose.slides/icolorformat/copy_from/#icolorformat) | Kopieer kleurformaat van "color". |
 
 ### Zie ook

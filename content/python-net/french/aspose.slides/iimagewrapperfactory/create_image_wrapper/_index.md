@@ -11,16 +11,19 @@ Initialise une nouvelle instance de la classe ImageWrapper à partir de l'image 
 
 ### Retour
 
-Nouvelle instance de [`IImageWrapper`](/slides/python-net/fr/aspose.slides/iimagewrapper)
+Nouvelle instance d'un [`IImageWrapper`](/slides/python-net/fr/aspose.slides/iimagewrapper)
+
+
 
 ```python
 def create_image_wrapper(self, image):
     ...
 ```
 
-| Parameter | Type | Description |
+
+| Paramètre | Type | Description |
 | :- | :- | :- |
-| image | [`IImage`](/slides/python-net/fr/aspose.slides/iimage) | Image existante **aspose.slides.Image** |
+| image | [`IImage`](/slides/python-net/fr/aspose.slides/iimage) | Image existante **aspose.slides.IImage** |
 
 
 ## create_image_wrapper(self, stream) {#iorawiobase}
@@ -28,14 +31,17 @@ Initialise une nouvelle instance de la classe ImageWrapper à partir du flux de 
 
 ### Retour
 
-Nouvelle instance de [`IImageWrapper`](/slides/python-net/fr/aspose.slides/iimagewrapper)
+Nouvelle instance d'un [`IImageWrapper`](/slides/python-net/fr/aspose.slides/iimagewrapper)
+
+
 
 ```python
 def create_image_wrapper(self, stream):
     ...
 ```
 
-| Parameter | Type | Description |
+
+| Paramètre | Type | Description |
 | :- | :- | :- |
 | stream | **io.RawIOBase** | Flux de données **io.RawIOBase** |
 
@@ -45,14 +51,17 @@ Initialise une nouvelle instance de la classe ImageWrapper à partir du fichier 
 
 ### Retour
 
-Nouvelle instance de [`IImageWrapper`](/slides/python-net/fr/aspose.slides/iimagewrapper)
+Nouvelle instance d'un [`IImageWrapper`](/slides/python-net/fr/aspose.slides/iimagewrapper)
+
+
 
 ```python
 def create_image_wrapper(self, file_name):
     ...
 ```
 
-| Parameter | Type | Description |
+
+| Paramètre | Type | Description |
 | :- | :- | :- |
 | file_name | **str** | Nom de fichier **str** |
 

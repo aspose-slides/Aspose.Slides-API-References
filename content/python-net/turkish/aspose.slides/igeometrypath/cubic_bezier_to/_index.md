@@ -6,7 +6,7 @@ type: docs
 url: /tr/aspose.slides/igeometrypath/cubic_bezier_to/
 weight: 30
 ---
-## cubic_bezier_to(self, point1, point2, point3) {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf}
+## cubic_bezier_to(self, point1, point2, point3) {#asposeslidespointf-asposeslidespointf-asposeslidespointf}
 Yolun sonuna kübik Bezier eğrisi ekler
 
 
@@ -18,13 +18,13 @@ def cubic_bezier_to(self, point1, point2, point3):
 
 | Parametre | Tür | Açıklama |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | İlk yön noktası |
-| point2 | **aspose.slides.PointF** | İkinci yön noktası |
-| point3 | **aspose.slides.PointF** | Bitiş noktası |
+| point1 | [`PointF`](/slides/python-net/tr/aspose.slides/pointf) | İlk yön noktası |
+| point2 | [`PointF`](/slides/python-net/tr/aspose.slides/pointf) | İkinci yön noktası |
+| point3 | [`PointF`](/slides/python-net/tr/aspose.slides/pointf) | Bitiş noktası |
 
 
-## cubic_bezier_to(self, point1, point2, point3, index) {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf-int}
-Yolun belirtilen konumuna kübik Bezier eğrisi ekler
+## cubic_bezier_to(self, point1, point2, point3, index) {#asposeslidespointf-asposeslidespointf-asposeslidespointf-int}
+Yolun belirtilen yerine kübik Bezier eğrisi ekler
 
 
 ```python
@@ -35,16 +35,16 @@ def cubic_bezier_to(self, point1, point2, point3, index):
 
 | Parametre | Tür | Açıklama |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | İlk yön noktası |
-| point2 | **aspose.slides.PointF** | İkinci yön noktası |
-| point3 | **aspose.slides.PointF** | Bitiş noktası |
-| index | **int** | PathData içindeki segmentin indeksi |
+| point1 | [`PointF`](/slides/python-net/tr/aspose.slides/pointf) | İlk yön noktası |
+| point2 | [`PointF`](/slides/python-net/tr/aspose.slides/pointf) | İkinci yön noktası |
+| point3 | [`PointF`](/slides/python-net/tr/aspose.slides/pointf) | Bitiş noktası |
+| index | **int** | PathData içindeki segmentin dizini |
 
 ### İstisnalar
 
 | İstisna | Açıklama |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Segment indeksi PathData aralığının dışındadır |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Segment dizini PathData aralığının dışındadır |
 
 
 ## cubic_bezier_to(self, x1, y1, x2, y2, x3, y3) {#float-float-float-float-float-float}
@@ -68,7 +68,7 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3):
 
 
 ## cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index) {#float-float-float-float-float-float-int}
-Yolun belirtilen konumuna kübik Bezier eğrisi ekler
+Yolun belirtilen yerine kübik Bezier eğrisi ekler
 
 
 ```python
@@ -85,17 +85,18 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index):
 | y2 | **float** | İkinci yön noktasının Y koordinatı |
 | x3 | **float** | Bitiş noktasının X koordinatı |
 | y3 | **float** | Bitiş noktasının Y koordinatı |
-| index | **int** | PathData içindeki segmentin indeksi |
+| index | **int** | PathData içindeki segmentin dizini |
 
 ### İstisnalar
 
 | İstisna | Açıklama |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Segment indeksi PathData aralığının dışındadır |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Segment dizini PathData aralığının dışındadır |
 
 
 
-### Ayrıca Bakınız
+### Bakınız
 * sınıf [`IGeometryPath`](/slides/python-net/tr/aspose.slides/igeometrypath)
+* sınıf [`PointF`](/slides/python-net/tr/aspose.slides/pointf)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

@@ -1,14 +1,14 @@
 ---
 title: from_address property
-second_title: مرجع API Aspose.Slides برای Python از طریق .NET
+second_title: Aspose.Slides برای Python از طریق .NET API Reference
 description: 
 type: docs
 url: /fa/aspose.slides.animation/scaleeffect/from_address/
 weight: 60
 ---
 ## from_address ویژگی
-مختصات x/y را برای شروع انیمیشن (به درصد) تعیین می‌کند.
-            خواندن/نوشتن **aspose.slides.PointF**.
+مختصات x/y را برای شروع انیمیشن مشخص می‌کند (به درصد).
+            خواندن/نوشتن [`PointF`](/slides/python-net/fa/aspose.slides/pointf).
 
 ### تعریف:
 ```python
@@ -22,7 +22,8 @@ def from_address(self, value):
 ```
 
 
-### همچنین ببینید
+### موارد مرتبط
 * کلاس [`ScaleEffect`](/slides/python-net/fa/aspose.slides.animation/scaleeffect)
+* کلاس [`PointF`](/slides/python-net/fa/aspose.slides/pointf)
 * ماژول [`aspose.slides.animation`](/slides/python-net/fa/aspose.slides.animation)
-* کتابخانه [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

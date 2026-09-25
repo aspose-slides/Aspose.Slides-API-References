@@ -8,7 +8,7 @@ weight: 60
 ---
 ## slide_image_size egenskap
 Returnerar bildens bildstorlek.
-            Skrivskyddad **aspose.slides.SizeF**.
+            Endast läsning [`SizeF`](/slides/python-net/sv/aspose.slides/sizef).
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def slide_image_size(self):
 
 ### Se även
 * klass [`HtmlGenerator`](/slides/python-net/sv/aspose.slides.export/htmlgenerator)
+* klass [`SizeF`](/slides/python-net/sv/aspose.slides/sizef)
 * modul [`aspose.slides.export`](/slides/python-net/sv/aspose.slides.export)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

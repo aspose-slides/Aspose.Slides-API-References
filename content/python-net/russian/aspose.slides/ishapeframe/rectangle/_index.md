@@ -1,14 +1,14 @@
 ---
 title: rectangle property
-second_title: Справочник API Aspose.Slides для Python через .NET
+second_title: Aspose.Slides для Python через .NET API
 description: 
 type: docs
 url: /ru/aspose.slides/ishapeframe/rectangle/
 weight: 70
 ---
-## Свойство rectangle
+## rectangle свойство
 Возвращает координаты кадра.
-Только для чтения **aspose.slides.RectangleF**.
+            Только для чтения [`RectangleF`](/slides/python-net/ru/aspose.slides/rectanglef).
 
 ### Определение:
 ```python
@@ -20,5 +20,6 @@ def rectangle(self):
 
 ### См. также
 * класс [`IShapeFrame`](/slides/python-net/ru/aspose.slides/ishapeframe)
+* класс [`RectangleF`](/slides/python-net/ru/aspose.slides/rectanglef)
 * модуль [`aspose.slides`](/slides/python-net/ru/aspose.slides)
 * библиотека [`Aspose.Slides`](/slides/python-net)

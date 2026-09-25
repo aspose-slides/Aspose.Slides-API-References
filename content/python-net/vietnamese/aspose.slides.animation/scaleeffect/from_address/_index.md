@@ -1,14 +1,14 @@
 ---
 title: from_address property
-second_title: Tham chiếu API Aspose.Slides cho Python thông qua .NET
+second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides.animation/scaleeffect/from_address/
 weight: 60
 ---
-## thuộc tính from_address
-Chỉ định tọa độ x/y để bắt đầu hoạt hình (theo phần trăm).
-            Đọc/ghi **aspose.slides.PointF**.
+## from_address thuộc tính
+Xác định tọa độ x/y để bắt đầu hoạt ảnh (theo phần trăm).
+            Đọc/ghi [`PointF`](/slides/python-net/vi/aspose.slides/pointf).
 
 ### Định nghĩa:
 ```python
@@ -24,5 +24,6 @@ def from_address(self, value):
 
 ### Xem thêm
 * lớp [`ScaleEffect`](/slides/python-net/vi/aspose.slides.animation/scaleeffect)
-* mô-đun [`aspose.slides.animation`](/slides/python-net/vi/aspose.slides.animation)
+* lớp [`PointF`](/slides/python-net/vi/aspose.slides/pointf)
+* module [`aspose.slides.animation`](/slides/python-net/vi/aspose.slides.animation)
 * thư viện [`Aspose.Slides`](/slides/python-net)

@@ -1,13 +1,13 @@
 ---
 title: IFormatSchemeEffectiveData class
-second_title: Aspose.Slides dla Pythona poprzez .NET – dokumentacja API
+second_title: Aspose.Slides dla Pythona via .NET Referencja API
 description: 
 type: docs
 url: /pl/aspose.slides.theme/iformatschemeeffectivedata/
 ---
 ## IFormatSchemeEffectiveData klasa
 
-Niezmienny obiekt zawierający właściwości efektywnego schematu formatowania.
+Niezmienny obiekt, który zawiera efektywne właściwości schematu formatu.
 
 Typ IFormatSchemeEffectiveData udostępnia następujące elementy:
 
@@ -15,16 +15,14 @@ Typ IFormatSchemeEffectiveData udostępnia następujące elementy:
 
 | Metoda | Opis |
 | :- | :- |
-| [`get_fill_styles(self, style_color)`](/slides/python-net/pl/aspose.slides.theme/iformatschemeeffectivedata/get_fill_styles/#asposepydrawingcolor) | Zwraca kolekcję stylów wypełnienia zdefiniowanych w motywie. |
-| [`get_line_styles(self, style_color)`](/slides/python-net/pl/aspose.slides.theme/iformatschemeeffectivedata/get_line_styles/#asposepydrawingcolor) | Zwraca kolekcję stylów linii zdefiniowanych w motywie. |
-| [`get_effect_styles(self, style_color)`](/slides/python-net/pl/aspose.slides.theme/iformatschemeeffectivedata/get_effect_styles/#asposepydrawingcolor) | Zwraca kolekcję stylów efektów zdefiniowanych w motywie. |
-| [`get_background_fill_styles(self, style_color)`](/slides/python-net/pl/aspose.slides.theme/iformatschemeeffectivedata/get_background_fill_styles/#asposepydrawingcolor) | Zwraca kolekcję stylów wypełnienia tła zdefiniowanych w motywie. |
-
+| [`get_fill_styles(self, style_color)`](/slides/python-net/pl/aspose.slides.theme/iformatschemeeffectivedata/get_fill_styles/#asposeslidescolor) | Zwraca kolekcję styli wypełnienia zdefiniowanych w motywie. |
+| [`get_line_styles(self, style_color)`](/slides/python-net/pl/aspose.slides.theme/iformatschemeeffectivedata/get_line_styles/#asposeslidescolor) | Zwraca kolekcję styli linii zdefiniowanych w motywie. |
+| [`get_effect_styles(self, style_color)`](/slides/python-net/pl/aspose.slides.theme/iformatschemeeffectivedata/get_effect_styles/#asposeslidescolor) | Zwraca kolekcję styli efektów zdefiniowanych w motywie. |
+| [`get_background_fill_styles(self, style_color)`](/slides/python-net/pl/aspose.slides.theme/iformatschemeeffectivedata/get_background_fill_styles/#asposeslidescolor) | Zwraca kolekcję styli wypełnienia tła zdefiniowanych w motywie. |
 
 ### Uwagi
 
 Ten interfejs jest używany jako część [`IThemeEffectiveData`](/slides/python-net/pl/aspose.slides.theme/ithemeeffectivedata).
-
 
 ### Zobacz także
 * klasa [`IThemeEffectiveData`](/slides/python-net/pl/aspose.slides.theme/ithemeeffectivedata)

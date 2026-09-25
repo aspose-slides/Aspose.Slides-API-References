@@ -15,13 +15,14 @@ def __init__(self, presentation, fps):
     ...
 ```
 
-| パラメータ | 型 | 説明 |
+
+| パラメータ | タイプ | 説明 |
 | :- | :- | :- |
 | presentation | [`Presentation`](/slides/python-net/ja/aspose.slides/presentation) | プレゼンテーション |
-| fps | **float** | 秒あたりフレーム数 (FPS) |
+| fps | **float** | 秒間フレーム数 (FPS) |
 
 
-## __init__(self, frame_size, fps) {#asposepydrawingsize-float}
+## __init__(self, frame_size, fps) {#asposeslidessize-float}
 [`PresentationPlayer`](/slides/python-net/ja/aspose.slides.export/presentationplayer) の新しいインスタンスを作成します。
 
 
@@ -30,10 +31,11 @@ def __init__(self, frame_size, fps):
     ...
 ```
 
-| パラメータ | 型 | 説明 |
+
+| パラメータ | タイプ | 説明 |
 | :- | :- | :- |
-| frame_size | **aspose.slides.Size** | フレームサイズ |
-| fps | **float** | 秒あたりフレーム数 (FPS) |
+| frame_size | [`Size`](/slides/python-net/ja/aspose.slides/size) | フレームサイズ |
+| fps | **float** | 秒間フレーム数 (FPS) |
 
 
 
@@ -41,5 +43,6 @@ def __init__(self, frame_size, fps):
 * クラス [`Presentation`](/slides/python-net/ja/aspose.slides/presentation)
 * クラス [`PresentationEnumerableFramesGenerator`](/slides/python-net/ja/aspose.slides.export/presentationenumerableframesgenerator)
 * クラス [`PresentationPlayer`](/slides/python-net/ja/aspose.slides.export/presentationplayer)
+* クラス [`Size`](/slides/python-net/ja/aspose.slides/size)
 * モジュール [`aspose.slides.export`](/slides/python-net/ja/aspose.slides.export)
 * ライブラリ [`Aspose.Slides`](/slides/python-net)

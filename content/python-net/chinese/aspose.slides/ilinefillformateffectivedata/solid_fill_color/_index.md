@@ -7,10 +7,10 @@ url: /zh/aspose.slides/ilinefillformateffectivedata/solid_fill_color/
 weight: 60
 ---
 ## solid_fill_color 属性
-返回纯色填充的颜色。
-            只读 **aspose.slides.Color**.
+Returns the color of a solid fill.
+            只读 [`Color`](/slides/python-net/zh/aspose.slides/color).
 
-### 定义:
+### 定义：
 ```python
 @property
 def solid_fill_color(self):
@@ -20,5 +20,6 @@ def solid_fill_color(self):
 
 ### 另见
 * 类 [`ILineFillFormatEffectiveData`](/slides/python-net/zh/aspose.slides/ilinefillformateffectivedata)
+* 类 [`Color`](/slides/python-net/zh/aspose.slides/color)
 * 模块 [`aspose.slides`](/slides/python-net/zh/aspose.slides)
 * 库 [`Aspose.Slides`](/slides/python-net)

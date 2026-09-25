@@ -15,11 +15,10 @@ DrawingGuide-typen exponerar följande medlemmar:
 
 | Egenskap | Beskrivning |
 | :- | :- |
-| [`orientation`](/slides/python-net/sv/aspose.slides/drawingguide/orientation/) | Returnerar eller anger orienteringen för ritningsguiden.<br/>            Läs/skriv [`Orientation`](/slides/python-net/sv/aspose.slides/orientation). |
-| [`position`](/slides/python-net/sv/aspose.slides/drawingguide/position/) | Returnerar eller anger positionen för ritningsguiden i punkter från bildens övre vänstra hörn.<br/>            Läs/skriv **float**. |
-| [`color`](/slides/python-net/sv/aspose.slides/drawingguide/color/) | Returnerar eller anger färgen på ritningsguiden.<br/>            Läs/skriv **aspose.slides.Color**. |
+| [`orientation`](/slides/python-net/sv/aspose.slides/drawingguide/orientation/) | Returnerar eller anger orientering av ritningsguiden.<br/>            Läs/skriv [`Orientation`](/slides/python-net/sv/aspose.slides/orientation). |
+| [`position`](/slides/python-net/sv/aspose.slides/drawingguide/position/) | Returnerar eller anger position av ritningsguiden i punkter från bildens övre vänstra hörn.<br/>            Läs/skriv **float**. |
+| [`color`](/slides/python-net/sv/aspose.slides/drawingguide/color/) | Returnerar eller anger färg på ritningsguiden.<br/>            Läs/skriv [`Color`](/slides/python-net/sv/aspose.slides/color). |
 
-
-### Se även
+### Se också
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

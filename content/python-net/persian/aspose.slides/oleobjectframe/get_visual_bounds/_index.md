@@ -1,18 +1,17 @@
 ---
 title: get_visual_bounds method
-second_title: مرجع API Aspose.Slides برای Python از طریق .NET
+second_title: Aspose.Slides برای پایتون از طریق .NET API Reference
 description: 
 type: docs
 url: /fa/aspose.slides/oleobjectframe/get_visual_bounds/
 weight: 40
 ---
 ## get_visual_bounds(self) {#}
-حدود بصری شکل را که از محتوای رندر شده آن محاسبه می‌شود، برمی‌گرداند.
+Gets the visual bounds of the shape calculated from its rendered content.
 
-### Returns
-بازگشت
+### بازگشت
 
-A **aspose.slides.RectangleF** that represents the visual bounds of the shape
+A [`RectangleF`](/slides/python-net/fa/aspose.slides/rectanglef) that represents the visual bounds of the shape
              in slide coordinates.
 
 
@@ -23,21 +22,28 @@ def get_visual_bounds(self):
 ```
 
 
-### Remarks
-توضیحات
+### نکات
 
-مستطیل بازگردانده شده، محدوده‌های محور-محور تمام محتوایی را که توسط شکل در طول رندر در فضای مختصات اسلاید تولید می‌شود، نشان می‌دهد.
+The returned rectangle represents the axis-aligned bounds of all content
+               produced by the shape during rendering in slide coordinate space.
 
-این محدوده‌ها ممکن است با محدوده‌های مدل شکل ([`Shape.x`](/slides/python-net/fa/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/fa/aspose.slides/shape/y), [`Shape.width`](/slides/python-net/fa/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/fa/aspose.slides/shape/height)) متفاوت باشند و در صورتی که محتوای رندر شده فراتر از مبدأ اسلاید گسترش یابد، ممکن است شامل مختصات منفی نیز باشند.
+               These bounds may differ from the shape's model bounds
+               ([`Shape.x`](/slides/python-net/fa/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/fa/aspose.slides/shape/y),
+               [`Shape.width`](/slides/python-net/fa/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/fa/aspose.slides/shape/height))
+               and may contain negative coordinates if the rendered content extends
+               beyond the slide origin.
 
-حدود بصری، جنبه‌های مرتبط با رندر مانند تبدیل‌ها (به عنوان مثال چرخش)، عرض خطوط و اتصال‌ها، چیدمان متن و سرریز، هندسهٔ SmartArt، و سایر اثرات چیدمان که بر ظاهر نهایی رندر شدهٔ شکل تأثیر می‌گذارند را در نظر می‌گیرند.
+               The visual bounds take into account rendering-related aspects such as
+               transformations (for example, rotation), stroke width and joins,
+               text layout and overflow, SmartArt geometry, and other layout effects
+               that influence the final rendered appearance of the shape.
 
-محدوده‌های بازگردانده شده به مستطیل اسلاید قطع نمی‌شوند.
+               The returned bounds are not clipped to the slide rectangle.
 
 
 
-### See Also
-موارد مرتبط
+### موارد مرتبط
 * کلاس [`OleObjectFrame`](/slides/python-net/fa/aspose.slides/oleobjectframe)
+* کلاس [`RectangleF`](/slides/python-net/fa/aspose.slides/rectanglef)
 * ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

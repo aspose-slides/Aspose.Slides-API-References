@@ -7,9 +7,9 @@ url: /id/aspose.slides.lowcode/convert/to_png/
 weight: 40
 ---
 ## to_png(pres, output_file_name) {#presentation-str}
-Mengonversi presentasi input menjadi serangkaian gambar format PNG.  
-Jika nama berkas output diberikan sebagai "myPath/myFilename.png", 
-hasilnya akan disimpan sebagai serangkaian berkas "myPath/myFilename_N.png", di mana N adalah nomor slide.
+Mengonversi presentasi masukan menjadi sekumpulan gambar berformat PNG.  
+            Jika nama file output diberikan sebagai "myPath/myFilename.png", 
+            hasilnya akan disimpan sebagai sekumpulan file "myPath/myFilename_N.png", di mana N adalah nomor slide.
 
 
 ```python
@@ -21,20 +21,20 @@ def to_png(pres, output_file_name):
 
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
-| pres | [`Presentation`](/slides/python-net/id/aspose.slides/presentation) | Presentasi input. |
-| output_file_name | **str** | Nama berkas output. |
+| pres | [`Presentation`](/slides/python-net/id/aspose.slides/presentation) | Presentasi masukan. |
+| output_file_name | **str** | Nama file output. |
 
 ### Pengecualian
 
-| Exception | Deskripsi |
+| Pengecualian | Deskripsi |
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentException))** |  |
 
 
-## to_png(pres, output_file_name, image_size) {#presentation-str-asposepydrawingsize}
-Mengonversi presentasi input menjadi serangkaian gambar format PNG.  
-Jika nama berkas output diberikan sebagai "myPath/myFilename.png", 
-hasilnya akan disimpan sebagai serangkaian berkas "myPath/myFilename_N.png", di mana N adalah nomor slide.
+## to_png(pres, output_file_name, image_size) {#presentation-str-asposeslidessize}
+Mengonversi presentasi masukan menjadi sekumpulan gambar berformat PNG.  
+            Jika nama file output diberikan sebagai "myPath/myFilename.png", 
+            hasilnya akan disimpan sebagai sekumpulan file "myPath/myFilename_N.png", di mana N adalah nomor slide.
 
 
 ```python
@@ -46,21 +46,21 @@ def to_png(pres, output_file_name, image_size):
 
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
-| pres | [`Presentation`](/slides/python-net/id/aspose.slides/presentation) | Presentasi input |
-| output_file_name | **str** | Nama berkas output. |
-| image_size | **aspose.slides.Size** | Ukuran setiap gambar yang dihasilkan. |
+| pres | [`Presentation`](/slides/python-net/id/aspose.slides/presentation) | Presentasi masukan |
+| output_file_name | **str** | Nama file output. |
+| image_size | [`Size`](/slides/python-net/id/aspose.slides/size) | Ukuran setiap gambar yang dihasilkan. |
 
 ### Pengecualian
 
-| Exception | Deskripsi |
+| Pengecualian | Deskripsi |
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentException))** |  |
 
 
 ## to_png(pres, output_file_name, scale, options) {#presentation-str-float-asposeslidesexportirenderingoptions}
-Mengonversi presentasi input menjadi serangkaian gambar format PNG.  
-Jika nama berkas output diberikan sebagai "myPath/myFilename.png", 
-hasilnya akan disimpan sebagai serangkaian berkas "myPath/myFilename_N.png", di mana N adalah nomor slide.
+Mengonversi presentasi masukan menjadi sekumpulan gambar berformat PNG.  
+            Jika nama file output diberikan sebagai "myPath/myFilename.png", 
+            hasilnya akan disimpan sebagai sekumpulan file "myPath/myFilename_N.png", di mana N adalah nomor slide.
 
 
 ```python
@@ -72,14 +72,14 @@ def to_png(pres, output_file_name, scale, options):
 
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
-| pres | [`Presentation`](/slides/python-net/id/aspose.slides/presentation) | Presentasi input. |
-| output_file_name | **str** | Nama berkas output. |
+| pres | [`Presentation`](/slides/python-net/id/aspose.slides/presentation) | Presentasi masukan. |
+| output_file_name | **str** | Nama file output. |
 | scale | **float** | Faktor skala yang diterapkan pada gambar output relatif terhadap ukuran slide asli. |
 | options | [`IRenderingOptions`](/slides/python-net/id/aspose.slides.export/irenderingoptions) | Opsi rendering. |
 
 ### Pengecualian
 
-| Exception | Deskripsi |
+| Pengecualian | Deskripsi |
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentException))** |  |
 
@@ -89,5 +89,6 @@ def to_png(pres, output_file_name, scale, options):
 * kelas [`Convert`](/slides/python-net/id/aspose.slides.lowcode/convert)
 * kelas [`IRenderingOptions`](/slides/python-net/id/aspose.slides.export/irenderingoptions)
 * kelas [`Presentation`](/slides/python-net/id/aspose.slides/presentation)
+* kelas [`Size`](/slides/python-net/id/aspose.slides/size)
 * modul [`aspose.slides.lowcode`](/slides/python-net/id/aspose.slides.lowcode)
-* perpustakaan [`Aspose.Slides`](/slides/python-net)
+* pustaka [`Aspose.Slides`](/slides/python-net)

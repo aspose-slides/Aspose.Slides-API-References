@@ -6,9 +6,9 @@ type: docs
 url: /fa/aspose.slides.animation/imotioncmdpath/points/
 weight: 30
 ---
-## points ویژگی
-points مربوط به فرمان را مشخص می‌کند.
-خواندن/نوشتن **aspose.slides.PointF**[].
+## points خاصیت
+points را مشخص می‌کند.
+            خواندنی/نوشتنی [`PointF`](/slides/python-net/fa/aspose.slides/pointf)[].
 
 ### تعریف:
 ```python
@@ -21,7 +21,9 @@ def points(self, value):
     ...
 ```
 
-### موارد مرتبط
+
+### مراجع مرتبط
 * کلاس [`IMotionCmdPath`](/slides/python-net/fa/aspose.slides.animation/imotioncmdpath)
+* کلاس [`PointF`](/slides/python-net/fa/aspose.slides/pointf)
 * ماژول [`aspose.slides.animation`](/slides/python-net/fa/aspose.slides.animation)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

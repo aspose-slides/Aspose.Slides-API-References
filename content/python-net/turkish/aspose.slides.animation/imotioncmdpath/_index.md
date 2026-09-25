@@ -9,18 +9,17 @@ url: /tr/aspose.slides.animation/imotioncmdpath/
 
 Bir yolun bir komutunu temsil eder.
 
-IMotionCmdPath türü aşağıdaki üyeleri sunar:
+IMotionCmdPath türü aşağıdaki üyeleri sağlar:
 
 ## Özellikler
 
-| Property | Description |
+| Özellik | Açıklama |
 | :- | :- |
-| [`points`](/slides/python-net/tr/aspose.slides.animation/imotioncmdpath/points/) | Komutun noktalarını belirtir.<br/>            Okunur/yazılır **aspose.slides.PointF**[]. |
-| [`command_type`](/slides/python-net/tr/aspose.slides.animation/imotioncmdpath/command_type/) | Komut tipini belirtir.<br/>            Okunur/yazılır [`MotionCommandPathType`](/slides/python-net/tr/aspose.slides.animation/motioncommandpathtype). |
-| [`is_relative`](/slides/python-net/tr/aspose.slides.animation/imotioncmdpath/is_relative/) | Komut koordinatlarının göreli olup olmadığını belirler.<br/>            Okunur/yazılır **bool**. |
-| [`points_type`](/slides/python-net/tr/aspose.slides.animation/imotioncmdpath/points_type/) | Komut noktaları tipini belirtir<br/>            Okunur/yazılır [`MotionPathPointsType`](/slides/python-net/tr/aspose.slides.animation/motionpathpointstype). |
+| [`points`](/slides/python-net/tr/aspose.slides.animation/imotioncmdpath/points/) | Komut noktalarını belirtir.<br/>            Okuma/yazma [`PointF`](/slides/python-net/tr/aspose.slides/pointf)[]. |
+| [`command_type`](/slides/python-net/tr/aspose.slides.animation/imotioncmdpath/command_type/) | Komut türünü belirtir.<br/>            Okuma/yazma [`MotionCommandPathType`](/slides/python-net/tr/aspose.slides.animation/motioncommandpathtype). |
+| [`is_relative`](/slides/python-net/tr/aspose.slides.animation/imotioncmdpath/is_relative/) | Komut koordinatlarının göreceli olup olmadığını belirler.<br/>            Okuma/yazma **bool**. |
+| [`points_type`](/slides/python-net/tr/aspose.slides.animation/imotioncmdpath/points_type/) | Komut noktaları türünü belirtir<br/>            Okuma/yazma [`MotionPathPointsType`](/slides/python-net/tr/aspose.slides.animation/motionpathpointstype). |
 
-
-### Ayrıca Bakınız
+### İlgili
 * modül [`aspose.slides.animation`](/slides/python-net/tr/aspose.slides.animation)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

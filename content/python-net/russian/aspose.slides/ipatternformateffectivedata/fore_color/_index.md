@@ -1,14 +1,14 @@
 ---
 title: fore_color property
-second_title: Aspose.Slides для Python через .NET API Reference
+second_title: Aspose.Slides для Python через .NET справочник API
 description: 
 type: docs
 url: /ru/aspose.slides/ipatternformateffectivedata/fore_color/
 weight: 30
 ---
 ## fore_color свойство
-Возвращает цвет узора переднего плана.
-            Только для чтения **aspose.slides.Color**.
+Возвращает цвет переднего шаблона.
+            Только для чтения [`Color`](/slides/python-net/ru/aspose.slides/color).
 
 ### Определение:
 ```python
@@ -20,5 +20,6 @@ def fore_color(self):
 
 ### См. также
 * класс [`IPatternFormatEffectiveData`](/slides/python-net/ru/aspose.slides/ipatternformateffectivedata)
+* класс [`Color`](/slides/python-net/ru/aspose.slides/color)
 * модуль [`aspose.slides`](/slides/python-net/ru/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* библиотека [`Aspose.Slides`](/slides/python-net)

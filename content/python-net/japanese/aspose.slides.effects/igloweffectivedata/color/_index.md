@@ -8,7 +8,7 @@ weight: 20
 ---
 ## color プロパティ
 Color.
-            読み取り専用 **aspose.slides.Color**.
+            読み取り専用 [`Color`](/slides/python-net/ja/aspose.slides/color).
 
 ### 定義:
 ```python
@@ -20,5 +20,6 @@ def color(self):
 
 ### 参照
 * クラス [`IGlowEffectiveData`](/slides/python-net/ja/aspose.slides.effects/igloweffectivedata)
+* クラス [`Color`](/slides/python-net/ja/aspose.slides/color)
 * モジュール [`aspose.slides.effects`](/slides/python-net/ja/aspose.slides.effects)
 * ライブラリ [`Aspose.Slides`](/slides/python-net)

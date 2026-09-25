@@ -8,7 +8,7 @@ weight: 20
 ---
 ## from_color proprietà
 Colore che verrà sostituito.
-            Solo lettura **aspose.slides.Color**.
+            Sola lettura [`Color`](/slides/python-net/it/aspose.slides/color).
 
 ### Definizione:
 ```python
@@ -20,5 +20,6 @@ def from_color(self):
 
 ### Vedi anche
 * classe [`IColorChangeEffectiveData`](/slides/python-net/it/aspose.slides.effects/icolorchangeeffectivedata)
+* classe [`Color`](/slides/python-net/it/aspose.slides/color)
 * modulo [`aspose.slides.effects`](/slides/python-net/it/aspose.slides.effects)
 * libreria [`Aspose.Slides`](/slides/python-net)

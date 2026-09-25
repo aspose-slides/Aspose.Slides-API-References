@@ -7,7 +7,7 @@ url: /th/aspose.slides.effects/ippresetshadoweffectivedata/
 ---
 ## IPresetShadowEffectiveData คลาส
 
-อ็อบเจกต์ไม่เปลี่ยนแปลงที่แสดงถึงเอฟเฟกต์ Preset Shadow
+อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของเอฟเฟกต์ Preset Shadow.
 
 ประเภท IPresetShadowEffectiveData เปิดเผยสมาชิกต่อไปนี้:
 
@@ -16,8 +16,8 @@ url: /th/aspose.slides.effects/ippresetshadoweffectivedata/
 | คุณสมบัติ | คำอธิบาย |
 | :- | :- |
 | [`direction`](/slides/python-net/th/aspose.slides.effects/ipresetshadoweffectivedata/direction/) | ทิศทางของเงา.<br/>            อ่านอย่างเดียว **float**. |
-| [`distance`](/slides/python-net/th/aspose.slides.effects/ipresetshadoweffectivedata/distance/) | ระยะของเงา.<br/>            อ่านอย่างเดียว **float**. |
-| [`shadow_color`](/slides/python-net/th/aspose.slides.effects/ipresetshadoweffectivedata/shadow_color/) | สีของเงา.<br/>            อ่านอย่างเดียว **aspose.slides.Color**. |
+| [`distance`](/slides/python-net/th/aspose.slides.effects/ipresetshadoweffectivedata/distance/) | ระยะห่างของเงา.<br/>            อ่านอย่างเดียว **float**. |
+| [`shadow_color`](/slides/python-net/th/aspose.slides.effects/ipresetshadoweffectivedata/shadow_color/) | สีของเงา.<br/>            อ่านอย่างเดียว [`Color`](/slides/python-net/th/aspose.slides/color). |
 | [`preset`](/slides/python-net/th/aspose.slides.effects/ipresetshadoweffectivedata/preset/) | พรีเซ็ต.<br/>            อ่านอย่างเดียว [`PresetShadowType`](/slides/python-net/th/aspose.slides/presetshadowtype). |
 
 

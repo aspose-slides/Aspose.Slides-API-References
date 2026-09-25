@@ -7,8 +7,8 @@ url: /tr/aspose.slides.animation/motioncmdpath/points/
 weight: 30
 ---
 ## points özelliği
-Komutun points değerini belirtir.
-            Okunabilir/Yazılabilir **aspose.slides.PointF**[].
+Komutun points özelliğini belirtir.
+            Okunur/Yazılır [`PointF`](/slides/python-net/tr/aspose.slides/pointf)[].
 
 ### Tanım:
 ```python
@@ -22,7 +22,8 @@ def points(self, value):
 ```
 
 
-### Ayrıca Bakınız
+### Ayrıca bakınız
 * sınıf [`MotionCmdPath`](/slides/python-net/tr/aspose.slides.animation/motioncmdpath)
+* sınıf [`PointF`](/slides/python-net/tr/aspose.slides/pointf)
 * modül [`aspose.slides.animation`](/slides/python-net/tr/aspose.slides.animation)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

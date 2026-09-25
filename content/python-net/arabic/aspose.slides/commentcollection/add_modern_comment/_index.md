@@ -1,15 +1,15 @@
 ---
 title: add_modern_comment method
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: Aspose.Slides لـ Python عبر .NET دليل API
 description: 
 type: docs
 url: /ar/aspose.slides/commentcollection/add_modern_comment/
 weight: 20
 ---
-## add_modern_comment(self, text, slide, shape, position, creation_time) {#str-islide-ishape-asposepydrawingpointf-datetime}
+## add_modern_comment(self, text, slide, shape, position, creation_time) {#str-islide-ishape-asposeslidespointf-datetime}
 أضف تعليقًا حديثًا جديدًا في نهاية مجموعة.
 
-### Returns
+### القيمة المرجعة
 تمت إضافة التعليق الحديث.
 
 
@@ -20,20 +20,21 @@ def add_modern_comment(self, text, slide, shape, position, creation_time):
 ```
 
 
-| Parameter | Type | Description |
+| المعامل | النوع | الوصف |
 | :- | :- | :- |
 | text | **str** | نص عادي لتعليق حديث جديد. |
-| slide | [`ISlide`](/slides/python-net/ar/aspose.slides/islide) | الشريحة في عرض تقديمي حيث يتم إضافة التعليق الحديث الجديد. |
-| shape | [`IShape`](/slides/python-net/ar/aspose.slides/ishape) | الشكل على الشريحة المرتبط بالتعليق الحديث الجديد. |
-| position | **aspose.slides.PointF** | الموقع على الشريحة حيث يتم إضافة التعليق الحديث الجديد. |
+| slide | [`ISlide`](/slides/python-net/ar/aspose.slides/islide) | الشريحة في عرض تقديمي حيث يتم إضافة تعليق حديث جديد. |
+| shape | [`IShape`](/slides/python-net/ar/aspose.slides/ishape) | الشكل على الشريحة المرتبط بتعليق حديث جديد. |
+| position | [`PointF`](/slides/python-net/ar/aspose.slides/pointf) | الموضع على الشريحة حيث يتم إضافة تعليق حديث جديد. |
 | creation_time | **DateTime** | وقت إنشاء التعليق الحديث. |
 
 
 
-### See Also
+### انظر أيضًا
 * فئة [`CommentCollection`](/slides/python-net/ar/aspose.slides/commentcollection)
 * فئة [`IModernComment`](/slides/python-net/ar/aspose.slides/imoderncomment)
 * فئة [`IShape`](/slides/python-net/ar/aspose.slides/ishape)
 * فئة [`ISlide`](/slides/python-net/ar/aspose.slides/islide)
+* فئة [`PointF`](/slides/python-net/ar/aspose.slides/pointf)
 * وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
 * مكتبة [`Aspose.Slides`](/slides/python-net)

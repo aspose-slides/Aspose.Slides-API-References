@@ -8,7 +8,7 @@ weight: 10
 ---
 ## Farbeigenschaft
 Gibt die Farbe eines Gradient-Stops zurück.
-            Nur lesbar **aspose.slides.Color**.
+            Schreibgeschützt [`Color`](/slides/python-net/de/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def color(self):
 
 ### Siehe auch
 * Klasse [`GradientStopEffectiveData`](/slides/python-net/de/aspose.slides/gradientstopeffectivedata)
+* Klasse [`Color`](/slides/python-net/de/aspose.slides/color)
 * Modul [`aspose.slides`](/slides/python-net/de/aspose.slides)
 * Bibliothek [`Aspose.Slides`](/slides/python-net)

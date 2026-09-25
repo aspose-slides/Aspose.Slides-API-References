@@ -7,18 +7,18 @@ url: /sv/aspose.slides.effects/icolorreplaceeffectivedata/
 ---
 ## IColorReplaceEffectiveData klass
 
-Oföränderligt objekt som representerar en färgbyteseffekt.  
-Alla effektfärger ändras till en fast färg.  
-Alfavärden påverkas inte.
+Oföränderligt objekt som representerar en färgbyteseffekt.
+            Alla effektens färger ändras till en fast färg.
+            Alfavärden påverkas inte.
 
-IColorReplaceEffectiveData-typen exponeras följande medlemmar:
+Typen IColorReplaceEffectiveData exponerar följande medlemmar:
 
 ## Egenskaper
 
 | Egenskap | Beskrivning |
 | :- | :- |
-| [`color`](/slides/python-net/sv/aspose.slides.effects/icolorreplaceeffectivedata/color/) | Returnerar färgformat som kommer att ersätta färgen på varje pixel.<br/>            Skrivskyddad **aspose.slides.Color**. |
+| [`color`](/slides/python-net/sv/aspose.slides.effects/icolorreplaceeffectivedata/color/) | Returnerar färgformat som kommer att ersätta färgen på varje pixel.<br/>            Skrivskyddad [`Color`](/slides/python-net/sv/aspose.slides/color). |
 
-### Se också
+### Se även
 * modul [`aspose.slides.effects`](/slides/python-net/sv/aspose.slides.effects)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

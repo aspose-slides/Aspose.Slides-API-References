@@ -7,8 +7,8 @@ url: /vi/aspose.slides.export/htmlgenerator/slide_image_size/
 weight: 60
 ---
 ## slide_image_size thuộc tính
-Trả về kích thước hình ảnh của slide.
-            Chỉ đọc **aspose.slides.SizeF**.
+Trả về kích thước ảnh slide.
+            Chỉ đọc [`SizeF`](/slides/python-net/vi/aspose.slides/sizef).
 
 ### Định nghĩa:
 ```python
@@ -18,7 +18,8 @@ def slide_image_size(self):
 ```
 
 
-### Xem Thêm
+### Xem thêm
 * lớp [`HtmlGenerator`](/slides/python-net/vi/aspose.slides.export/htmlgenerator)
-* module [`aspose.slides.export`](/slides/python-net/vi/aspose.slides.export)
+* lớp [`SizeF`](/slides/python-net/vi/aspose.slides/sizef)
+* mô-đun [`aspose.slides.export`](/slides/python-net/vi/aspose.slides.export)
 * thư viện [`Aspose.Slides`](/slides/python-net)

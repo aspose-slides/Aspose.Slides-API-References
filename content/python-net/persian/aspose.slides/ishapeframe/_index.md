@@ -7,32 +7,32 @@ url: /fa/aspose.slides/ishapeframe/
 ---
 ## IShapeFrame کلاس
 
-نمایش‌دهندهٔ ویژگی‌های فریم شکل است.
+نمایانگر ویژگی‌های چارچوب شکل است.
 
-نوع IShapeFrame اعضای زیر را در دسترس قرار می‌دهد:
+نوع IShapeFrame اعضای زیر را در اختیار قرار می‌دهد:
 
 ## خصوصیات
 
-| خاصیت | توضیح |
+| Property | Description |
 | :- | :- |
-| [`x`](/slides/python-net/fa/aspose.slides/ishapeframe/x/) | Returns the X coordinate of the upper-left corner of a frame.<br/>            فقط خواندنی **float**. |
-| [`y`](/slides/python-net/fa/aspose.slides/ishapeframe/y/) | Returns the Y coordinate of the upper-left corner of a frame.<br/>            فقط خواندنی **float**. |
-| [`width`](/slides/python-net/fa/aspose.slides/ishapeframe/width/) | Returns the width of a frame.<br/>            فقط خواندنی **float**. |
-| [`height`](/slides/python-net/fa/aspose.slides/ishapeframe/height/) | Returns the height of a frame.<br/>            فقط خواندنی **float**. |
-| [`rotation`](/slides/python-net/fa/aspose.slides/ishapeframe/rotation/) | Returns the number of degrees a frame is rotated around the z-axis.<br/>            A positive value indicates clockwise rotation; a negative value<br/>            indicates counterclockwise rotation.<br/>            فقط خواندنی **float**. |
-| [`center_x`](/slides/python-net/fa/aspose.slides/ishapeframe/center_x/) | Returns the X coordinate of a frame's center.<br/>            فقط خواندنی **float**. |
-| [`center_y`](/slides/python-net/fa/aspose.slides/ishapeframe/center_y/) | Returns the Y coordinate of a frame's center.<br/>            فقط خواندنی **float**. |
-| [`flip_h`](/slides/python-net/fa/aspose.slides/ishapeframe/flip_h/) | Determines whether a frame is flipped horizontally.<br/>            فقط خواندنی [`NullableBool`](/slides/python-net/fa/aspose.slides/nullablebool). |
-| [`flip_v`](/slides/python-net/fa/aspose.slides/ishapeframe/flip_v/) | Determines whether a frame is flipped vertically.<br/>            فقط خواندنی [`NullableBool`](/slides/python-net/fa/aspose.slides/nullablebool). |
-| [`rectangle`](/slides/python-net/fa/aspose.slides/ishapeframe/rectangle/) | Returns the coordinates of a frame.<br/>            فقط خواندنی **aspose.slides.RectangleF**. |
+| [`x`](/slides/python-net/fa/aspose.slides/ishapeframe/x/) | مقدار X گوشه‌ی بالا-چپ یک چارچوب را برمی‌گرداند.<br/>            فقط-خواندنی **float**. |
+| [`y`](/slides/python-net/fa/aspose.slides/ishapeframe/y/) | مقدار Y گوشه‌ی بالا-چپ یک چارچوب را برمی‌گرداند.<br/>            فقط-خواندنی **float**. |
+| [`width`](/slides/python-net/fa/aspose.slides/ishapeframe/width/) | عرض یک چارچوب را برمی‌گرداند.<br/>            فقط-خواندنی **float**. |
+| [`height`](/slides/python-net/fa/aspose.slides/ishapeframe/height/) | ارتفاع یک چارچوب را برمی‌گرداند.<br/>            فقط-خواندنی **float**. |
+| [`rotation`](/slides/python-net/fa/aspose.slides/ishapeframe/rotation/) | تعداد درجه‌های چرخش چارچوب حول محور z را برمی‌گرداند.<br/>            مقدار مثبت نشان‌دهنده چرخش ساعت‌گرد؛ مقدار منفی<br/>            نشان‌دهنده چرخش پاد ساعت‌گرد.<br/>            فقط-خواندنی **float**. |
+| [`center_x`](/slides/python-net/fa/aspose.slides/ishapeframe/center_x/) | مقدار X مرکز یک چارچوب را برمی‌گرداند.<br/>            فقط-خواندنی **float**. |
+| [`center_y`](/slides/python-net/fa/aspose.slides/ishapeframe/center_y/) | مقدار Y مرکز یک چارچوب را برمی‌گرداند.<br/>            فقط-خواندنی **float**. |
+| [`flip_h`](/slides/python-net/fa/aspose.slides/ishapeframe/flip_h/) | تعیین می‌کند آیا یک چارچوب به صورت افقی وارونه شده است.<br/>            فقط-خواندنی [`NullableBool`](/slides/python-net/fa/aspose.slides/nullablebool). |
+| [`flip_v`](/slides/python-net/fa/aspose.slides/ishapeframe/flip_v/) | تعیین می‌کند آیا یک چارچوب به صورت عمودی وارونه شده است.<br/>            فقط-خواندنی [`NullableBool`](/slides/python-net/fa/aspose.slides/nullablebool). |
+| [`rectangle`](/slides/python-net/fa/aspose.slides/ishapeframe/rectangle/) | مختصات یک چارچوب را برمی‌گرداند.<br/>            فقط-خواندنی [`RectangleF`](/slides/python-net/fa/aspose.slides/rectanglef). |
 
 ## متدها
 
-| متد | توضیح |
+| Method | Description |
 | :- | :- |
 | [`clone_t(self)`](/slides/python-net/fa/aspose.slides/ishapeframe/clone_t/#) |  |
 
 
-### موارد مرتبط
+### نگاه کنید به
 * ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

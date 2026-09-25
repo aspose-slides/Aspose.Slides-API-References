@@ -6,8 +6,8 @@ type: docs
 url: /fa/aspose.slides/igradientstopcollection/insert/
 weight: 30
 ---
-## insert(self, index, position, color) {#int-float-asposepydrawingcolor}
-یک نقطه توقف گرادیان جدید ایجاد می‌کند و آن را در شاخص مشخص به مجموعه اضافه می‌کند.
+## insert(self, index, position, color) {#int-float-asposeslidescolor}
+نقطه‌گرادیان جدید را می‌سازد و آن را در شاخص مشخص شده به مجموعه اضافه می‌کند.
 
 ```python
 def insert(self, index, position, color):
@@ -16,12 +16,12 @@ def insert(self, index, position, color):
 
 | پارامتر | نوع | توضیح |
 | :- | :- | :- |
-| index | **int** | اندیس در مجموعه‌ای که نقطه توقف گرادیان جدید در آن درج می‌شود. |
-| position | **float** | موقعیت نقطه توقف گرادیان جدید. |
-| color | **aspose.slides.Color** | رنگ نقطه توقف radient جدید. |
+| index | **int** | اندیس در مجموعه‌ای که نقطه‌گرادیان جدید در آن درج می‌شود. |
+| position | **float** | موقعیت نقطه‌گرادیان جدید. |
+| color | [`Color`](/slides/python-net/fa/aspose.slides/color) | رنگ نقطه‌گرادیان جدید. |
 
 ## insert(self, index, position, preset_color) {#int-float-presetcolor}
-یک نقطه توقف گرادیان جدید ایجاد می‌کند و آن را در شاخص مشخص به مجموعه اضافه می‌کند.
+نقطه‌گرادیان جدید را می‌سازد و آن را در شاخص مشخص شده به مجموعه اضافه می‌کند.
 
 ```python
 def insert(self, index, position, preset_color):
@@ -30,12 +30,12 @@ def insert(self, index, position, preset_color):
 
 | پارامتر | نوع | توضیح |
 | :- | :- | :- |
-| index | **int** | اندیس در مجموعه‌ای که نقطه توقف گرادیان جدید در آن درج می‌شود. |
-| position | **float** | موقعیت نقطه توقف گرادیان جدید. |
-| preset_color | [`PresetColor`](/slides/python-net/fa/aspose.slides/presetcolor) | رنگ نقطه توقف radient جدید. |
+| index | **int** | اندیس در مجموعه‌ای که نقطه‌گرادیان جدید در آن درج می‌شود. |
+| position | **float** | موقعیت نقطه‌گرادیان جدید. |
+| preset_color | [`PresetColor`](/slides/python-net/fa/aspose.slides/presetcolor) | رنگ نقطه‌گرادیان جدید. |
 
 ## insert(self, index, position, scheme_color) {#int-float-schemecolor}
-یک نقطه توقف گرادیان جدید ایجاد می‌کند و آن را در شاخص مشخص به مجموعه اضافه می‌کند.
+نقطه‌گرادیان جدید را می‌سازد و آن را در شاخص مشخص شده به مجموعه اضافه می‌کند.
 
 ```python
 def insert(self, index, position, scheme_color):
@@ -44,13 +44,14 @@ def insert(self, index, position, scheme_color):
 
 | پارامتر | نوع | توضیح |
 | :- | :- | :- |
-| index | **int** | اندیس در مجموعه‌ای که نقطه توقف گرادیان جدید در آن درج می‌شود. |
-| position | **float** | موقعیت نقطه توقف گرادیان جدید. |
-| scheme_color | [`SchemeColor`](/slides/python-net/fa/aspose.slides/schemecolor) | رنگ نقطه توقف radient جدید. |
+| index | **int** | اندیس در مجموعه‌ای که نقطه‌گرادیان جدید در آن درج می‌شود. |
+| position | **float** | موقعیت نقطه‌گرادیان جدید. |
+| scheme_color | [`SchemeColor`](/slides/python-net/fa/aspose.slides/schemecolor) | رنگ نقطه‌گرادیان جدید. |
 
 ### موارد مرتبط
 * کلاس [`IGradientStopCollection`](/slides/python-net/fa/aspose.slides/igradientstopcollection)
-* enumeration [`PresetColor`](/slides/python-net/fa/aspose.slides/presetcolor)
-* enumeration [`SchemeColor`](/slides/python-net/fa/aspose.slides/schemecolor)
+* شمارش [`PresetColor`](/slides/python-net/fa/aspose.slides/presetcolor)
+* شمارش [`SchemeColor`](/slides/python-net/fa/aspose.slides/schemecolor)
+* کلاس [`Color`](/slides/python-net/fa/aspose.slides/color)
 * ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* کتابخانه [`Aspose.Slides`](/slides/python-net)

@@ -1,6 +1,6 @@
 ---
 title: IInnerShadowEffectiveData class
-second_title: Referência da API Aspose.Slides para Python via .NET
+second_title: Aspose.Slides para Python via .NET Referência da API
 description: 
 type: docs
 url: /pt/aspose.slides.effects/iinnershadoweffectivedata/
@@ -18,9 +18,8 @@ O tipo IInnerShadowEffectiveData expõe os seguintes membros:
 | [`blur_radius`](/slides/python-net/pt/aspose.slides.effects/iinnershadoweffectivedata/blur_radius/) | Raio de desfoque.<br/>            Somente leitura **float**. |
 | [`direction`](/slides/python-net/pt/aspose.slides.effects/iinnershadoweffectivedata/direction/) | Direção da sombra.<br/>            Somente leitura **float**. |
 | [`distance`](/slides/python-net/pt/aspose.slides.effects/iinnershadoweffectivedata/distance/) | Distância da sombra.<br/>            Somente leitura **float**. |
-| [`shadow_color`](/slides/python-net/pt/aspose.slides.effects/iinnershadoweffectivedata/shadow_color/) | Cor da sombra.<br/>            Somente leitura **aspose.slides.Color**. |
+| [`shadow_color`](/slides/python-net/pt/aspose.slides.effects/iinnershadoweffectivedata/shadow_color/) | Cor da sombra.<br/>            Somente leitura [`Color`](/slides/python-net/pt/aspose.slides/color). |
 
-
-### Ver também
+### Veja também
 * módulo [`aspose.slides.effects`](/slides/python-net/pt/aspose.slides.effects)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

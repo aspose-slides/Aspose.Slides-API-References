@@ -1,6 +1,6 @@
 ---
 title: IComment class
-second_title: Aspose.Slides pour Python via .NET Référence API
+second_title: Référence API Aspose.Slides pour Python via .NET
 description: 
 type: docs
 url: /fr/aspose.slides/icomment/
@@ -19,7 +19,7 @@ Le type IComment expose les membres suivants :
 | [`created_time`](/slides/python-net/fr/aspose.slides/icomment/created_time/) | Renvoie ou définit l'heure de création d'un commentaire.<br/>            Définir cette propriété sur **System.DateTime** signifie qu'aucune heure de commentaire n'est définie.<br/>            Lecture/écriture **System.DateTime**. |
 | [`slide`](/slides/python-net/fr/aspose.slides/icomment/slide/) | Renvoie ou définit la diapositive parente d'un commentaire.<br/>            Lecture seule [`ISlide`](/slides/python-net/fr/aspose.slides/islide). |
 | [`author`](/slides/python-net/fr/aspose.slides/icomment/author/) | Renvoie l'auteur d'un commentaire.<br/>            Lecture seule [`ICommentAuthor`](/slides/python-net/fr/aspose.slides/icommentauthor). |
-| [`position`](/slides/python-net/fr/aspose.slides/icomment/position/) | Renvoie ou définit la position d'un commentaire sur une diapositive.<br/>            Lecture/écriture **aspose.slides.PointF**. |
+| [`position`](/slides/python-net/fr/aspose.slides/icomment/position/) | Renvoie ou définit la position d'un commentaire sur une diapositive.<br/>            Lecture/écriture [`PointF`](/slides/python-net/fr/aspose.slides/pointf). |
 | [`parent_comment`](/slides/python-net/fr/aspose.slides/icomment/parent_comment/) | Renvoie ou définit le commentaire parent.<br/>            Lecture/écriture [`IComment`](/slides/python-net/fr/aspose.slides/icomment). |
 
 ## Méthodes
@@ -31,4 +31,4 @@ Le type IComment expose les membres suivants :
 
 ### Voir aussi
 * module [`aspose.slides`](/slides/python-net/fr/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* bibliothèque [`Aspose.Slides`](/slides/python-net)

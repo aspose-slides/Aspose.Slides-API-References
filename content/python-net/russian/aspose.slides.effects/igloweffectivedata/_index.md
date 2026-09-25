@@ -1,22 +1,22 @@
 ---
 title: IGlowEffectiveData class
-second_title: Aspose.Slides для Python через .NET API Справочник
+second_title: Aspose.Slides для Python через .NET справочник API
 description: 
 type: docs
 url: /ru/aspose.slides.effects/igloweffectivedata/
 ---
 ## IGlowEffectiveData класс
 
-Неизменяемый объект, представляющий эффект свечения, в котором размытая цветная окантовка добавляется за пределами краёв объекта.
+Неизменяемый объект, представляющий эффект свечения, в котором размытый цветной контур добавляется за пределами краёв объекта.
 
 Тип IGlowEffectiveData раскрывает следующие члены:
 
 ## Свойства
 
-| Property | Description |
+| Свойство | Описание |
 | :- | :- |
-| [`radius`](/slides/python-net/ru/aspose.slides.effects/igloweffectivedata/radius/) | Радиус.<br/>            Только для чтения **float**. |
-| [`color`](/slides/python-net/ru/aspose.slides.effects/igloweffectivedata/color/) | Цвет.<br/>            Только для чтения **aspose.slides.Color**. |
+| [`radius`](/slides/python-net/ru/aspose.slides.effects/igloweffectivedata/radius/) | Radius.<br/> Точно для чтения **float**. |
+| [`color`](/slides/python-net/ru/aspose.slides.effects/igloweffectivedata/color/) | Color.<br/> Точно для чтения [`Color`](/slides/python-net/ru/aspose.slides/color). |
 
 
 ### См. также

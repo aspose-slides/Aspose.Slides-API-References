@@ -1,23 +1,23 @@
 ---
 title: IColorReplaceEffectiveData class
-second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
+second_title: Aspose.Slides pro Python přes .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides.effects/icolorreplaceeffectivedata/
 ---
 ## IColorReplaceEffectiveData třída
 
-Immutable object which represents a Color Replacement effect.
-            All effect colors are changed to a fixed color.
-            Alpha values are unaffected.
+Neměnný objekt, který představuje efekt nahrazení barvy.
+            Všechny barvy efektu jsou změněny na pevnou barvu.
+            Alfa hodnoty zůstávají nedotčeny.
 
-The IColorReplaceEffectiveData type exposes the following members:
+Typ IColorReplaceEffectiveData vystavuje následující členy:
 
 ## Vlastnosti
 
-| Vlastnost | Popis |
+| Property | Description |
 | :- | :- |
-| [`color`](/slides/python-net/cs/aspose.slides.effects/icolorreplaceeffectivedata/color/) | Returns color format which will replace color of every pixel.<br/>            Read-only **aspose.slides.Color**. |
+| [`color`](/slides/python-net/cs/aspose.slides.effects/icolorreplaceeffectivedata/color/) | Vrací formát barvy, který nahradí barvu každého pixelu.<br/>            Pouze pro čtení [`Color`](/slides/python-net/cs/aspose.slides/color). |
 
 
 ### Viz také

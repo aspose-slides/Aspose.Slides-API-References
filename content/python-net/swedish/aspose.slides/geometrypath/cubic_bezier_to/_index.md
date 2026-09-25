@@ -6,8 +6,8 @@ type: docs
 url: /sv/aspose.slides/geometrypath/cubic_bezier_to/
 weight: 40
 ---
-## cubic_bezier_to(self, point1, point2, point3) {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf}
-Lägger till en kubisk Bezier-kurva i slutet av vägen
+## cubic_bezier_to(self, point1, point2, point3) {#asposeslidespointf-asposeslidespointf-asposeslidespointf}
+Lägger till en kubisk Bézier-kurva i slutet av sökvägen
 
 
 ```python
@@ -18,13 +18,13 @@ def cubic_bezier_to(self, point1, point2, point3):
 
 | Parameter | Typ | Beskrivning |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | First direction point |
-| point2 | **aspose.slides.PointF** | Second direction point |
-| point3 | **aspose.slides.PointF** | End point |
+| point1 | [`PointF`](/slides/python-net/sv/aspose.slides/pointf) | Första riktningspunktet |
+| point2 | [`PointF`](/slides/python-net/sv/aspose.slides/pointf) | Andra riktningspunktet |
+| point3 | [`PointF`](/slides/python-net/sv/aspose.slides/pointf) | Slutpunkt |
 
 
-## cubic_bezier_to(self, point1, point2, point3, index) {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf-int}
-Lägger till en kubisk Bezier-kurva på den angivna platsen i vägen
+## cubic_bezier_to(self, point1, point2, point3, index) {#asposeslidespointf-asposeslidespointf-asposeslidespointf-int}
+Lägger till en kubisk Bézier-kurva på den angivna platsen i sökvägen
 
 
 ```python
@@ -35,20 +35,20 @@ def cubic_bezier_to(self, point1, point2, point3, index):
 
 | Parameter | Typ | Beskrivning |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | First direction point |
-| point2 | **aspose.slides.PointF** | Second direction point |
-| point3 | **aspose.slides.PointF** | End point |
-| index | **int** | Index of segment in PathData |
+| point1 | [`PointF`](/slides/python-net/sv/aspose.slides/pointf) | Första riktningspunktet |
+| point2 | [`PointF`](/slides/python-net/sv/aspose.slides/pointf) | Andra riktningspunktet |
+| point3 | [`PointF`](/slides/python-net/sv/aspose.slides/pointf) | Slutpunkt |
+| index | **int** | Index för segment i PathData |
 
 ### Undantag
 
 | Undantag | Beskrivning |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Segment index is out of PathData range |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Segmentindex är utanför PathData-intervallet |
 
 
 ## cubic_bezier_to(self, x1, y1, x2, y2, x3, y3) {#float-float-float-float-float-float}
-Lägger till en kubisk Bezier-kurva i slutet av vägen
+Lägger till en kubisk Bézier-kurva i slutet av sökvägen
 
 
 ```python
@@ -59,16 +59,16 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3):
 
 | Parameter | Typ | Beskrivning |
 | :- | :- | :- |
-| x1 | **float** | X coordinate of first direction point |
-| y1 | **float** | Y coordinate of first direction point |
-| x2 | **float** | X coordinate of second direction point |
-| y2 | **float** | Y coordinate of second direction point |
-| x3 | **float** | X coordinate of end point |
-| y3 | **float** | Y coordinate of end point |
+| x1 | **float** | X-koordinat för första riktningspunktet |
+| y1 | **float** | Y-koordinat för första riktningspunktet |
+| x2 | **float** | X-koordinat för andra riktningspunktet |
+| y2 | **float** | Y-koordinat för andra riktningspunktet |
+| x3 | **float** | X-koordinat för slutpunkten |
+| y3 | **float** | Y-koordinat för slutpunkten |
 
 
 ## cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index) {#float-float-float-float-float-float-int}
-Lägger till en kubisk Bezier-kurva på den angivna platsen i vägen
+Lägger till en kubisk Bézier-kurva på den angivna platsen i sökvägen
 
 
 ```python
@@ -79,23 +79,24 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index):
 
 | Parameter | Typ | Beskrivning |
 | :- | :- | :- |
-| x1 | **float** | X coordinate of first direction point |
-| y1 | **float** | Y coordinate of first direction point |
-| x2 | **float** | X coordinate of second direction point |
-| y2 | **float** | Y coordinate of second direction point |
-| x3 | **float** | X coordinate of end point |
-| y3 | **float** | Y coordinate of end point |
-| index | **int** | Index of segment in PathData |
+| x1 | **float** | X-koordinat för första riktningspunktet |
+| y1 | **float** | Y-koordinat för första riktningspunktet |
+| x2 | **float** | X-koordinat för andra riktningspunktet |
+| y2 | **float** | Y-koordinat för andra riktningspunktet |
+| x3 | **float** | X-koordinat för slutpunkten |
+| y3 | **float** | Y-koordinat för slutpunkten |
+| index | **int** | Index för segment i PathData |
 
 ### Undantag
 
 | Undantag | Beskrivning |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Segment index is out of PathData range |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Segmentindex är utanför PathData-intervallet |
 
 
 
 ### Se även
 * klass [`GeometryPath`](/slides/python-net/sv/aspose.slides/geometrypath)
+* klass [`PointF`](/slides/python-net/sv/aspose.slides/pointf)
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

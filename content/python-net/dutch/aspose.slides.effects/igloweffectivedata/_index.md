@@ -7,7 +7,8 @@ url: /nl/aspose.slides.effects/igloweffectivedata/
 ---
 ## IGlowEffectiveData klasse
 
-Onveranderlijk object dat een Glow-effect vertegenwoordigt, waarbij een gekleurde vervaagde omtrek wordt toegevoegd buiten de randen van het object.
+Onveranderlijk object dat een Glow effect vertegenwoordigt, waarbij een kleurvervaagde omtrek 
+            wordt toegevoegd buiten de randen van het object.
 
 Het IGlowEffectiveData type exposeert de volgende leden:
 
@@ -15,9 +16,8 @@ Het IGlowEffectiveData type exposeert de volgende leden:
 
 | Eigenschap | Beschrijving |
 | :- | :- |
-| [`radius`](/slides/python-net/nl/aspose.slides.effects/igloweffectivedata/radius/) | Straal.<br/>            Alleen-lezen **float**. |
-| [`color`](/slides/python-net/nl/aspose.slides.effects/igloweffectivedata/color/) | Kleur.<br/>            Alleen-lezen **aspose.slides.Color**. |
-
+| [`radius`](/slides/python-net/nl/aspose.slides.effects/igloweffectivedata/radius/) | Radius.<br/>            Alleen-lezen **float**. |
+| [`color`](/slides/python-net/nl/aspose.slides.effects/igloweffectivedata/color/) | Color.<br/>            Alleen-lezen [`Color`](/slides/python-net/nl/aspose.slides/color). |
 
 ### Zie ook
 * module [`aspose.slides.effects`](/slides/python-net/nl/aspose.slides.effects)

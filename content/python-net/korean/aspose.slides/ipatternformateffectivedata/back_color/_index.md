@@ -8,7 +8,7 @@ weight: 20
 ---
 ## back_color 속성
 배경 패턴 색상을 반환합니다.
-            읽기 전용 **aspose.slides.Color**.
+            읽기 전용 [`Color`](/slides/python-net/ko/aspose.slides/color).
 
 ### 정의:
 ```python
@@ -20,5 +20,6 @@ def back_color(self):
 
 ### 관련 항목
 * 클래스 [`IPatternFormatEffectiveData`](/slides/python-net/ko/aspose.slides/ipatternformateffectivedata)
+* 클래스 [`Color`](/slides/python-net/ko/aspose.slides/color)
 * 모듈 [`aspose.slides`](/slides/python-net/ko/aspose.slides)
 * 라이브러리 [`Aspose.Slides`](/slides/python-net)

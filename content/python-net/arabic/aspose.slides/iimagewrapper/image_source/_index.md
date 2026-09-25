@@ -1,14 +1,14 @@
 ---
 title: image_source property
-second_title: Aspose.Slides للغة بايثون عبر .NET مرجع API
+second_title: Aspose.Slides للبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/iimagewrapper/image_source/
 weight: 30
 ---
 ## image_source خاصية
-يحصل على الصورة
-            للقراءة فقط **aspose.slides.Image**.
+يجلب الصورة
+            للقراءة فقط **aspose.slides.IImage**.
 
 ### التعريف:
 ```python
@@ -19,6 +19,6 @@ def image_source(self):
 
 
 ### انظر أيضًا
-* الفئة [`IImageWrapper`](/slides/python-net/ar/aspose.slides/iimagewrapper)
-* الوحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
-* المكتبة [`Aspose.Slides`](/slides/python-net)
+* فئة [`IImageWrapper`](/slides/python-net/ar/aspose.slides/iimagewrapper)
+* وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

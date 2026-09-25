@@ -1,6 +1,6 @@
 ---
 title: IInkTrace class
-second_title: Aspose.Slides pour Python via .NET Référence d'API
+second_title: Référence API Aspose.Slides pour Python via .NET
 description: 
 type: docs
 url: /fr/aspose.slides.ink/iinktrace/
@@ -15,9 +15,10 @@ Le type IInkTrace expose les membres suivants :
 
 | Propriété | Description |
 | :- | :- |
-| [`brush`](/slides/python-net/fr/aspose.slides.ink/iinktrace/brush/) | Obtient Brush pour le IInkLine [`IInkBrush`](/slides/python-net/fr/aspose.slides.ink/iinkbrush)<br/>            Lecture seule. |
-| [`points`](/slides/python-net/fr/aspose.slides.ink/iinktrace/points/) | Obtient les points pour le IInkLine **aspose.slides.PointF**<br/>            Lecture seule. |
+| [`brush`](/slides/python-net/fr/aspose.slides.ink/iinktrace/brush/) | Obtient Brush pour IInkLine [`IInkBrush`](/slides/python-net/fr/aspose.slides.ink/iinkbrush)<br/>            Lecture seule. |
+| [`points`](/slides/python-net/fr/aspose.slides.ink/iinktrace/points/) | Obtient points pour IInkLine [`PointF`](/slides/python-net/fr/aspose.slides/pointf)<br/>            Lecture seule. |
 
-### Voir également
+
+### Voir aussi
 * module [`aspose.slides.ink`](/slides/python-net/fr/aspose.slides.ink)
 * bibliothèque [`Aspose.Slides`](/slides/python-net)

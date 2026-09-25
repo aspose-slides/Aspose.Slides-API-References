@@ -7,17 +7,16 @@ url: /hu/aspose.slides.effects/igloweffectivedata/
 ---
 ## IGlowEffectiveData osztály
 
-A nem módosítható objektum egy Glow hatást képvisel, amelyben egy színes elmosódott körvonal kerül hozzáadásra az objektum széleihez kívül.
+Nem módosítható objektum, amely egy Glow hatást képvisel, amelyben egy színű elmosódott körvonal kerül hozzáadásra az objektum széleihez.
 
-Az IGlowEffectiveData típus a következő tagokat tartalmazza:
+Az IGlowEffectiveData típus a következő tagokat teszi közzé:
 
 ## Tulajdonságok
 
 | Tulajdonság | Leírás |
 | :- | :- |
-| [`radius`](/slides/python-net/hu/aspose.slides.effects/igloweffectivedata/radius/) | Sugár.<br/>            Csak olvasható **float**. |
-| [`color`](/slides/python-net/hu/aspose.slides.effects/igloweffectivedata/color/) | Szín.<br/>            Csak olvasható **aspose.slides.Color**. |
-
+| [`radius`](/slides/python-net/hu/aspose.slides.effects/igloweffectivedata/radius/) | Sugár.<br/>            Csak-olvasás **float**. |
+| [`color`](/slides/python-net/hu/aspose.slides.effects/igloweffectivedata/color/) | Szín.<br/>            Csak-olvasás [`Color`](/slides/python-net/hu/aspose.slides/color). |
 
 ### Lásd még
 * modul [`aspose.slides.effects`](/slides/python-net/hu/aspose.slides.effects)

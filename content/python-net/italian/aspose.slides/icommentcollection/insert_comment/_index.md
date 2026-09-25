@@ -6,8 +6,8 @@ type: docs
 url: /it/aspose.slides/icommentcollection/insert_comment/
 weight: 40
 ---
-## insert_comment(self, index, text, slide, position, creation_time) {#int-str-islide-asposepydrawingpointf-datetime}
-Inserisci un nuovo commento in una collezione all'indice specificato.
+## insert_comment(self, index, text, slide, position, creation_time) {#int-str-islide-asposeslidespointf-datetime}
+Inserisce un nuovo commento in una raccolta all'indice specificato.
 
 ### Restituisce
 
@@ -23,11 +23,11 @@ def insert_comment(self, index, text, slide, position, creation_time):
 
 | Parametro | Tipo | Descrizione |
 | :- | :- | :- |
-| index | **int** | Indice dell'elemento in una collezione al quale il commento deve essere inserito. |
+| index | **int** | Indice dell'elemento in una raccolta in cui il commento deve essere inserito. |
 | text | **str** | Testo semplice di un nuovo commento. |
-| slide | [`ISlide`](/slides/python-net/it/aspose.slides/islide) | Diapositiva in una presentazione dove aggiungere un nuovo commento. |
-| position | **aspose.slides.PointF** | Posizione su una diapositiva dove aggiungere un nuovo commento. |
-| creation_time | **DateTime** | Momento della creazione del commento. |
+| slide | [`ISlide`](/slides/python-net/it/aspose.slides/islide) | Diapositiva in una presentazione in cui aggiungere un nuovo commento. |
+| position | [`PointF`](/slides/python-net/it/aspose.slides/pointf) | Posizione su una diapositiva in cui aggiungere un nuovo commento. |
+| creation_time | **DateTime** | Ora di creazione di un commento. |
 
 
 
@@ -35,5 +35,6 @@ def insert_comment(self, index, text, slide, position, creation_time):
 * classe [`IComment`](/slides/python-net/it/aspose.slides/icomment)
 * classe [`ICommentCollection`](/slides/python-net/it/aspose.slides/icommentcollection)
 * classe [`ISlide`](/slides/python-net/it/aspose.slides/islide)
+* classe [`PointF`](/slides/python-net/it/aspose.slides/pointf)
 * modulo [`aspose.slides`](/slides/python-net/it/aspose.slides)
 * libreria [`Aspose.Slides`](/slides/python-net)

@@ -7,8 +7,8 @@ url: /sv/aspose.slides.theme/icolorschemeeffectivedata/accent6/
 weight: 60
 ---
 ## accent6 egenskap
-Den sjätte accentfärgen i schemat.
-            Skrivskyddad **aspose.slides.Color**.
+Sjätte accentfärg i schemat.
+            Skrivskyddad [`Color`](/slides/python-net/sv/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def accent6(self):
 
 ### Se även
 * klass [`IColorSchemeEffectiveData`](/slides/python-net/sv/aspose.slides.theme/icolorschemeeffectivedata)
+* klass [`Color`](/slides/python-net/sv/aspose.slides/color)
 * modul [`aspose.slides.theme`](/slides/python-net/sv/aspose.slides.theme)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

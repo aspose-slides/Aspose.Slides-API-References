@@ -8,9 +8,9 @@ weight: 10
 ---
 ## 颜色属性
 返回或设置绘图指南的颜色。
-            读/写 **aspose.slides.Color**.
+            读/写 [`Color`](/slides/python-net/zh/aspose.slides/color).
 
-### 定义:
+### 定义：
 ```python
 @property
 def color(self):
@@ -21,7 +21,9 @@ def color(self, value):
     ...
 ```
 
-### 另请参阅
+
+### 另见
 * 类 [`DrawingGuide`](/slides/python-net/zh/aspose.slides/drawingguide)
+* 类 [`Color`](/slides/python-net/zh/aspose.slides/color)
 * 模块 [`aspose.slides`](/slides/python-net/zh/aspose.slides)
 * 库 [`Aspose.Slides`](/slides/python-net)

@@ -7,18 +7,18 @@ url: /de/aspose.slides.animation/motioncmdpath/
 ---
 ## MotionCmdPath Klasse
 
-Stellt einen Befehl eines Pfades dar.
+Stellt einen Befehl eines Pfads dar.
 
-Der Typ MotionCmdPath stellt die folgenden Mitglieder bereit:
+Der MotionCmdPath-Typ stellt die folgenden Mitglieder bereit:
 
 ## Eigenschaften
 
 | Eigenschaft | Beschreibung |
 | :- | :- |
-| [`points`](/slides/python-net/de/aspose.slides.animation/motioncmdpath/points/) | Gibt die Punkte des Befehls an.<br/>            Lesen/Schreiben **aspose.slides.PointF**[]. |
+| [`points`](/slides/python-net/de/aspose.slides.animation/motioncmdpath/points/) | Gibt die Punkte des Befehls an.<br/>            Lesen/Schreiben [`PointF`](/slides/python-net/de/aspose.slides/pointf)[]. |
 | [`command_type`](/slides/python-net/de/aspose.slides.animation/motioncmdpath/command_type/) | Gibt den Befehlstyp an.<br/>            Lesen/Schreiben [`MotionCommandPathType`](/slides/python-net/de/aspose.slides.animation/motioncommandpathtype). |
-| [`is_relative`](/slides/python-net/de/aspose.slides.animation/motioncmdpath/is_relative/) | Ermittelt, ob die Befehlskoordinaten relativ sind oder nicht.<br/>            Lesen/Schreiben **bool**. |
-| [`points_type`](/slides/python-net/de/aspose.slides.animation/motioncmdpath/points_type/) | Gibt den Typ der Befehlspunkte an<br/>            Lesen/Schreiben [`MotionPathPointsType`](/slides/python-net/de/aspose.slides.animation/motionpathpointstype). |
+| [`is_relative`](/slides/python-net/de/aspose.slides.animation/motioncmdpath/is_relative/) | Bestimmt, ob Befehlskoordinaten relativ sind oder nicht.<br/>            Lesen/Schreiben **bool**. |
+| [`points_type`](/slides/python-net/de/aspose.slides.animation/motioncmdpath/points_type/) | Gibt den Typ der Befehls-Punkte an<br/>            Lesen/Schreiben [`MotionPathPointsType`](/slides/python-net/de/aspose.slides.animation/motionpathpointstype). |
 
 
 ### Siehe auch

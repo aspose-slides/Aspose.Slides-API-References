@@ -9,29 +9,29 @@ url: /nl/aspose.slides.export/htmlgenerator/
 
 Html-generator.
 
-Het HtmlGenerator type exposeert de volgende leden:
+Het HtmlGenerator-type biedt de volgende leden:
 
 ## Eigenschappen
 
 | Eigenschap | Beschrijving |
 | :- | :- |
-| [`slide_image_size`](/slides/python-net/nl/aspose.slides.export/htmlgenerator/slide_image_size/) | Retourneert de slide-afbeeldingsgrootte.<br/>            Alleen-lezen **aspose.slides.SizeF**. |
-| [`slide_image_size_unit`](/slides/python-net/nl/aspose.slides.export/htmlgenerator/slide_image_size_unit/) | Retourneert de eenheid waarin de slide-afbeeldingsgrootte is opgegeven.<br/>            Alleen-lezen [`SvgCoordinateUnit`](/slides/python-net/nl/aspose.slides.export/svgcoordinateunit). |
-| [`slide_image_size_unit_code`](/slides/python-net/nl/aspose.slides.export/htmlgenerator/slide_image_size_unit_code/) | Retourneert een css-code van de eenheid waarin de slide-afbeeldingsgrootte is opgegeven.<br/>            Alleen-lezen **str**. |
-| [`previous_slide_index`](/slides/python-net/nl/aspose.slides.export/htmlgenerator/previous_slide_index/) | Retourneert de index van de eerder gerenderde slide of -1 als de eerste slide wordt gerenderd.<br/>            Alleen-lezen **int**. |
-| [`slide_index`](/slides/python-net/nl/aspose.slides.export/htmlgenerator/slide_index/) | Retourneert de index van de momenteel renderende slide.<br/>            Alleen-lezen **int**. |
-| [`next_slide_index`](/slides/python-net/nl/aspose.slides.export/htmlgenerator/next_slide_index/) | Retourneert de index van een slide die na de huidige slide wordt gerenderd of -1 als momenteel de laatste slide wordt gerenderd.<br/>            Alleen-lezen **int**. |
+| [`slide_image_size`](/slides/python-net/nl/aspose.slides.export/htmlgenerator/slide_image_size/) | Geeft de grootte van de dia-afbeelding terug.<br/>            Alleen-lezen [`SizeF`](/slides/python-net/nl/aspose.slides/sizef). |
+| [`slide_image_size_unit`](/slides/python-net/nl/aspose.slides.export/htmlgenerator/slide_image_size_unit/) | Geeft een eenheid waarin de grootte van de dia-afbeelding wordt gespecificeerd.<br/>            Alleen-lezen [`SvgCoordinateUnit`](/slides/python-net/nl/aspose.slides.export/svgcoordinateunit). |
+| [`slide_image_size_unit_code`](/slides/python-net/nl/aspose.slides.export/htmlgenerator/slide_image_size_unit_code/) | Geeft een css-code van de eenheid waarin de grootte van de dia-afbeelding wordt gespecificeerd.<br/>            Alleen-lezen **str**. |
+| [`previous_slide_index`](/slides/python-net/nl/aspose.slides.export/htmlgenerator/previous_slide_index/) | Geeft de index van de eerder gerenderde dia terug of -1 als de eerste dia wordt gerenderd.<br/>            Alleen-lezen **int**. |
+| [`slide_index`](/slides/python-net/nl/aspose.slides.export/htmlgenerator/slide_index/) | Geeft de index van de momenteel renderende dia terug.<br/>            Alleen-lezen **int**. |
+| [`next_slide_index`](/slides/python-net/nl/aspose.slides.export/htmlgenerator/next_slide_index/) | Geeft de index van een dia terug die na de huidige dia wordt gerenderd of -1 als de huidige dia de laatste is.<br/>            Alleen-lezen **int**. |
 
-## Methodes
+## Methoden
 
 | Methode | Beschrijving |
 | :- | :- |
-| [`add_html(self, html)`](/slides/python-net/nl/aspose.slides.export/htmlgenerator/add_html/#str) | Voegt geformatteerde HTML-tekst toe. |
-| [`add_html(self, html)`](/slides/python-net/nl/aspose.slides.export/htmlgenerator/add_html/#listchar) | Voegt geformatteerde HTML-tekst toe. |
-| [`add_html(self, html, start_index, length)`](/slides/python-net/nl/aspose.slides.export/htmlgenerator/add_html/#listchar-int-int) | Voegt geformatteerde HTML-tekst toe. |
-| [`add_text(self, text)`](/slides/python-net/nl/aspose.slides.export/htmlgenerator/add_text/#str) | Voegt platte tekst toe aan de html-bestanden, waarbij speciale tekens worden vervangen door html-entiteiten.<br/>            Regeleinden en witruimtes worden niet vervangen. |
-| [`add_text(self, text)`](/slides/python-net/nl/aspose.slides.export/htmlgenerator/add_text/#listchar) | Voegt platte tekst toe aan de html-bestanden, waarbij speciale tekens worden vervangen door html-entiteiten.<br/>            Regeleinden en witruimtes worden niet vervangen. |
-| [`add_text(self, text, start_index, length)`](/slides/python-net/nl/aspose.slides.export/htmlgenerator/add_text/#listchar-int-int) | Voegt platte tekst toe aan de html-bestanden, waarbij speciale tekens worden vervangen door html-entiteiten.<br/>            Regeleinden en witruimtes worden niet vervangen. |
+| [`add_html(self, html)`](/slides/python-net/nl/aspose.slides.export/htmlgenerator/add_html/#str) | Voegt opgemaakte HTML-tekst toe. |
+| [`add_html(self, html)`](/slides/python-net/nl/aspose.slides.export/htmlgenerator/add_html/#listchar) | Voegt opgemaakte HTML-tekst toe. |
+| [`add_html(self, html, start_index, length)`](/slides/python-net/nl/aspose.slides.export/htmlgenerator/add_html/#listchar-int-int) | Voegt opgemaakte HTML-tekst toe. |
+| [`add_text(self, text)`](/slides/python-net/nl/aspose.slides.export/htmlgenerator/add_text/#str) | Voegt platte tekst toe aan de html-bestanden, waarbij speciale tekens worden vervangen door html-entiteiten.<br/>            Regeleinden en spaties worden niet vervangen. |
+| [`add_text(self, text)`](/slides/python-net/nl/aspose.slides.export/htmlgenerator/add_text/#listchar) | Voegt platte tekst toe aan de html-bestanden, waarbij speciale tekens worden vervangen door html-entiteiten.<br/>            Regeleinden en spaties worden niet vervangen. |
+| [`add_text(self, text, start_index, length)`](/slides/python-net/nl/aspose.slides.export/htmlgenerator/add_text/#listchar-int-int) | Voegt platte tekst toe aan de html-bestanden, waarbij speciale tekens worden vervangen door html-entiteiten.<br/>            Regeleinden en spaties worden niet vervangen. |
 | [`add_attribute_value(self, value)`](/slides/python-net/nl/aspose.slides.export/htmlgenerator/add_attribute_value/#str) | Quoteert attribuutwaarde en voegt deze toe aan het html-bestand. |
 | [`add_attribute_value(self, value)`](/slides/python-net/nl/aspose.slides.export/htmlgenerator/add_attribute_value/#listchar) | Quoteert attribuutwaarde en voegt deze toe aan het html-bestand. |
 | [`add_attribute_value(self, value, start_index, length)`](/slides/python-net/nl/aspose.slides.export/htmlgenerator/add_attribute_value/#listchar-int-int) | Quoteert attribuutwaarde en voegt deze toe aan het html-bestand. |

@@ -1,14 +1,14 @@
 ---
 title: by property
-second_title: Référence de l'API Aspose.Slides pour Python via .NET
+second_title: Aspose.Slides pour Python via .NET Référence d'API
 description: 
 type: docs
 url: /fr/aspose.slides.animation/motioneffect/by/
 weight: 60
 ---
 ## par propriété
-Décrit la valeur de décalage relative de l'animation (en pourcentage).
-            Lecture/écriture **aspose.slides.PointF**.
+Décrit la valeur de décalage relatif pour l’animation (en pourcentage).  
+Lecture/écriture [`PointF`](/slides/python-net/fr/aspose.slides/pointf).
 
 ### Définition:
 ```python
@@ -21,8 +21,8 @@ def by(self, value):
     ...
 ```
 
-
 ### Voir aussi
-* classe [`MotionEffect`](/slides/python-net/fr/aspose.slides.animation/motioneffect)
+* class [`MotionEffect`](/slides/python-net/fr/aspose.slides.animation/motioneffect)
+* class [`PointF`](/slides/python-net/fr/aspose.slides/pointf)
 * module [`aspose.slides.animation`](/slides/python-net/fr/aspose.slides.animation)
-* bibliothèque [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -13,34 +13,33 @@ MotionPath türü aşağıdaki üyeleri sunar:
 
 ## Yapıcılar
 
-| Constructor | Description |
+| Yapıcı | Açıklama |
 | :- | :- |
 | [`__init__(self)`](/slides/python-net/tr/aspose.slides.animation/motionpath/__init__/#) |  |
 
 ## Özellikler
 
-| Property | Description |
+| Özellik | Açıklama |
 | :- | :- |
-| [`count`](/slides/python-net/tr/aspose.slides.animation/motionpath/count/) | Koleksiyondaki yolların sayısını döndürür.<br/>            Salt-okunur **int**. |
+| [`count`](/slides/python-net/tr/aspose.slides.animation/motionpath/count/) | Koleksiyondaki yol sayısını döndürür.<br/>            Salt-okunur **int**. |
 
 Belirtilen indeksteki komutu döndürür.
 
 ## İndeksleyici
 
-| Name | Description |
+| İsim | Açıklama |
 | :- | :- |
 | [`[index]`](/slides/python-net/tr/aspose.slides.animation/motionpath/__getitem__/) |  |
 
-## Yöntemler
+## Metotlar
 
-| Method | Description |
+| Metot | Açıklama |
 | :- | :- |
-| [`add(self, type, pts, pts_type, b_relative_coord)`](/slides/python-net/tr/aspose.slides.animation/motionpath/add/#motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool) | Yola yeni komut ekle |
-| [`insert(self, index, type, pts, pts_type, b_relative_coord)`](/slides/python-net/tr/aspose.slides.animation/motionpath/insert/#int-motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool) | Yola yeni komut ekle |
-| [`clear(self)`](/slides/python-net/tr/aspose.slides.animation/motionpath/clear/#) | Koleksiyondaki tüm komutları kaldırır. |
-| [`remove(self, item)`](/slides/python-net/tr/aspose.slides.animation/motionpath/remove/#imotioncmdpath) | Koleksiyondan belirtilen komutları kaldırır. |
+| [`add(self, type, pts, pts_type, b_relative_coord)`](/slides/python-net/tr/aspose.slides.animation/motionpath/add/#motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool) | Yola yeni bir komut ekle |
+| [`insert(self, index, type, pts, pts_type, b_relative_coord)`](/slides/python-net/tr/aspose.slides.animation/motionpath/insert/#int-motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool) | Yola yeni bir komut ekle |
+| [`clear(self)`](/slides/python-net/tr/aspose.slides.animation/motionpath/clear/#) | Koleksiyondan tüm komutları kaldırır. |
+| [`remove(self, item)`](/slides/python-net/tr/aspose.slides.animation/motionpath/remove/#imotioncmdpath) | Belirtilen komutları koleksiyondan kaldırır. |
 | [`remove_at(self, index)`](/slides/python-net/tr/aspose.slides.animation/motionpath/remove_at/#int) | Belirtilen indeksteki bir komutu kaldırır. |
-
 
 ### Ayrıca Bakınız
 * modül [`aspose.slides.animation`](/slides/python-net/tr/aspose.slides.animation)

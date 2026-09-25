@@ -7,8 +7,8 @@ url: /tr/aspose.slides.effects/iduotoneeffectivedata/color2/
 weight: 30
 ---
 ## color2 özelliği
-Açık pikseller için hedef renk biçimini döndürür.
-            Salt okunur **aspose.slides.Color**.
+Işık pikselleri için hedef renk formatını döndürür.
+            Yalnızca okuma [`Color`](/slides/python-net/tr/aspose.slides/color).
 
 ### Tanım:
 ```python
@@ -18,7 +18,8 @@ def color2(self):
 ```
 
 
-### Diğer
+### Başvurular
 * sınıf [`IDuotoneEffectiveData`](/slides/python-net/tr/aspose.slides.effects/iduotoneeffectivedata)
+* sınıf [`Color`](/slides/python-net/tr/aspose.slides/color)
 * modül [`aspose.slides.effects`](/slides/python-net/tr/aspose.slides.effects)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

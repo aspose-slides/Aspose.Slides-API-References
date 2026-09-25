@@ -1,16 +1,15 @@
 ---
 title: to_png method
-second_title: مرجع API Aspose.Slides برای Python از طریق .NET
+second_title: Aspose.Slides برای Python از طریق .NET API Reference
 description: 
 type: docs
 url: /fa/aspose.slides.lowcode/convert/to_png/
 weight: 40
 ---
 ## to_png(pres, output_file_name) {#presentation-str}
-ارائه ورودی را به مجموعه‌ای از تصاویر با فرمت PNG تبدیل می‌کند.  
-            اگر نام فایل خروجی به صورت "myPath/myFilename.png" مشخص شود،  
-            نتیجه به‌صورت مجموعه‌ای از فایل‌های "myPath/myFilename_N.png" ذخیره می‌شود که N شماره اسلاید است.
-
+Converts the input presentation to a set of PNG format images.  
+            If the output file name is given as "myPath/myFilename.png", 
+            the result will be saved as a set of "myPath/myFilename_N.png" files, where N is a slide number.
 
 ```python
 @staticmethod
@@ -18,10 +17,9 @@ def to_png(pres, output_file_name):
     ...
 ```
 
-
 | پارامتر | نوع | توضیح |
 | :- | :- | :- |
-| pres | [`Presentation`](/slides/python-net/fa/aspose.slides/presentation) | ارائه ورودی. |
+| pres | [`Presentation`](/slides/python-net/fa/aspose.slides/presentation) | ارائهٔ ورودی. |
 | output_file_name | **str** | نام فایل خروجی. |
 
 ### استثناها
@@ -30,12 +28,10 @@ def to_png(pres, output_file_name):
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentException))** |  |
 
-
-## to_png(pres, output_file_name, image_size) {#presentation-str-asposepydrawingsize}
-ارائه ورودی را به مجموعه‌ای از تصاویر با فرمت PNG تبدیل می‌کند.  
-            اگر نام فایل خروجی به صورت "myPath/myFilename.png" مشخص شود،  
-            نتیجه به‌صورت مجموعه‌ای از فایل‌های "myPath/myFilename_N.png" ذخیره می‌شود که N شماره اسلاید است.
-
+## to_png(pres, output_file_name, image_size) {#presentation-str-asposeslidessize}
+Converts the input presentation to a set of PNG format images.  
+            If the output file name is given as "myPath/myFilename.png", 
+            the result will be saved as a set of "myPath/myFilename_N.png" files, where N is a slide number.
 
 ```python
 @staticmethod
@@ -43,12 +39,11 @@ def to_png(pres, output_file_name, image_size):
     ...
 ```
 
-
 | پارامتر | نوع | توضیح |
 | :- | :- | :- |
-| pres | [`Presentation`](/slides/python-net/fa/aspose.slides/presentation) | ارائه ورودی. |
+| pres | [`Presentation`](/slides/python-net/fa/aspose.slides/presentation) | ارائهٔ ورودی |
 | output_file_name | **str** | نام فایل خروجی. |
-| image_size | **aspose.slides.Size** | اندازه هر تصویر تولید شده. |
+| image_size | [`Size`](/slides/python-net/fa/aspose.slides/size) | اندازهٔ هر تصویر تولید شده. |
 
 ### استثناها
 
@@ -56,12 +51,10 @@ def to_png(pres, output_file_name, image_size):
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentException))** |  |
 
-
 ## to_png(pres, output_file_name, scale, options) {#presentation-str-float-asposeslidesexportirenderingoptions}
-ارائه ورودی را به مجموعه‌ای از تصاویر با فرمت PNG تبدیل می‌کند.  
-            اگر نام فایل خروجی به صورت "myPath/myFilename.png" مشخص شود،  
-            نتیجه به‌صورت مجموعه‌ای از فایل‌های "myPath/myFilename_N.png" ذخیره می‌شود که N شماره اسلاید است.
-
+Converts the input presentation to a set of PNG format images.  
+            If the output file name is given as "myPath/myFilename.png", 
+            the result will be saved as a set of "myPath/myFilename_N.png" files, where N is a slide number.
 
 ```python
 @staticmethod
@@ -69,12 +62,11 @@ def to_png(pres, output_file_name, scale, options):
     ...
 ```
 
-
 | پارامتر | نوع | توضیح |
 | :- | :- | :- |
-| pres | [`Presentation`](/slides/python-net/fa/aspose.slides/presentation) | ارائه ورودی. |
+| pres | [`Presentation`](/slides/python-net/fa/aspose.slides/presentation) | ارائهٔ ورودی. |
 | output_file_name | **str** | نام فایل خروجی. |
-| scale | **float** | عامل مقیاس‌گذاری اعمال شده بر تصاویر خروجی نسبت به اندازه اسلاید اصلی. |
+| scale | **float** | ضریب مقیاس که روی تصاویر خروجی نسبت به اندازهٔ اسلاید اصلی اعمال می‌شود. |
 | options | [`IRenderingOptions`](/slides/python-net/fa/aspose.slides.export/irenderingoptions) | گزینه‌های رندرینگ. |
 
 ### استثناها
@@ -85,9 +77,10 @@ def to_png(pres, output_file_name, scale, options):
 
 
 
-### موارد مرتبط
+### مرتبط
 * کلاس [`Convert`](/slides/python-net/fa/aspose.slides.lowcode/convert)
 * کلاس [`IRenderingOptions`](/slides/python-net/fa/aspose.slides.export/irenderingoptions)
 * کلاس [`Presentation`](/slides/python-net/fa/aspose.slides/presentation)
+* کلاس [`Size`](/slides/python-net/fa/aspose.slides/size)
 * ماژول [`aspose.slides.lowcode`](/slides/python-net/fa/aspose.slides.lowcode)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

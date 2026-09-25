@@ -1,6 +1,6 @@
 ---
 title: get_automatic_data_point_color method
-second_title: Aspose.Slides pro Python přes .NET API Referenci
+second_title: Aspose.Slides pro Python pomocí .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides.charts/ichartdatapoint/get_automatic_data_point_color/
@@ -11,7 +11,7 @@ Vrací automatickou barvu datového bodu na základě indexu řady, indexu datov
 
 ### Návratová hodnota
 
-Automatická barva datového bodu **aspose.slides.Color**
+Automatická barva datového bodu [`Color`](/slides/python-net/cs/aspose.slides/color)
 
 
 
@@ -25,5 +25,6 @@ def get_automatic_data_point_color(self):
 
 ### Viz také
 * třída [`IChartDataPoint`](/slides/python-net/cs/aspose.slides.charts/ichartdatapoint)
+* třída [`Color`](/slides/python-net/cs/aspose.slides/color)
 * modul [`aspose.slides.charts`](/slides/python-net/cs/aspose.slides.charts)
 * knihovna [`Aspose.Slides`](/slides/python-net)

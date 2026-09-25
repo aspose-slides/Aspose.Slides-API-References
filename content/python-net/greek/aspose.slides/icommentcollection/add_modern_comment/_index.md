@@ -6,12 +6,12 @@ type: docs
 url: /el/aspose.slides/icommentcollection/add_modern_comment/
 weight: 20
 ---
-## add_modern_comment(self, text, slide, shape, position, creation_time) {#str-islide-ishape-asposepydrawingpointf-datetime}
-Προσθέστε νέο μοντέρνο σχόλιο στο τέλος μιας συλλογής.
+## add_modern_comment(self, text, slide, shape, position, creation_time) {#str-islide-ishape-asposeslidespointf-datetime}
+Προσθέτει νέο μοντέρνο σχόλιο στο τέλος μιας συλλογής.
 
 ### Επιστρέφει
 
-Προστέθηκε το μοντέρνο σχόλιο.
+Προστέθηκε μοντέρνο σχόλιο.
 
 
 
@@ -21,12 +21,12 @@ def add_modern_comment(self, text, slide, shape, position, creation_time):
 ```
 
 
-| Παράμετρος | Τύπος | Περιγραφή |
+| Parameter | Type | Description |
 | :- | :- | :- |
 | text | **str** | Απλό κείμενο ενός νέου μοντέρνου σχολίου. |
-| slide | [`ISlide`](/slides/python-net/el/aspose.slides/islide) | Διαφάνεια σε μια παρουσίαση όπου θα προστεθεί ένα νέο μοντέρνο σχόλιο. |
-| shape | [`IShape`](/slides/python-net/el/aspose.slides/ishape) | Σχήμα σε μια διαφάνεια στο οποίο συνδέεται ένα νέο μοντέρνο σχόλιο. |
-| position | **aspose.slides.PointF** | Θέση σε μια διαφάνεια όπου θα προστεθεί ένα νέο μοντέρνο σχόλιο. |
+| slide | [`ISlide`](/slides/python-net/el/aspose.slides/islide) | Διαφάνεια σε μία παρουσίαση στην οποία θα προστεθεί ένα νέο μοντέρνο σχόλιο. |
+| shape | [`IShape`](/slides/python-net/el/aspose.slides/ishape) | Σχήμα σε μια διαφάνεια στο οποίο σχετίζεται ένα νέο μοντέρνο σχόλιο. |
+| position | [`PointF`](/slides/python-net/el/aspose.slides/pointf) | Θέση σε μια διαφάνεια στην οποία θα προστεθεί ένα νέο μοντέρνο σχόλιο. |
 | creation_time | **DateTime** | Χρόνος δημιουργίας ενός μοντέρνου σχολίου. |
 
 
@@ -36,5 +36,6 @@ def add_modern_comment(self, text, slide, shape, position, creation_time):
 * κλάση [`IModernComment`](/slides/python-net/el/aspose.slides/imoderncomment)
 * κλάση [`IShape`](/slides/python-net/el/aspose.slides/ishape)
 * κλάση [`ISlide`](/slides/python-net/el/aspose.slides/islide)
+* κλάση [`PointF`](/slides/python-net/el/aspose.slides/pointf)
 * μονάδα [`aspose.slides`](/slides/python-net/el/aspose.slides)
 * βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

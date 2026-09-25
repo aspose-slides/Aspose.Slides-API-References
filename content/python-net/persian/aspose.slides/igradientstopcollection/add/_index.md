@@ -1,17 +1,17 @@
 ---
 title: add method
-second_title: مرجع API Aspose.Slides برای Python از طریق .NET
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides/igradientstopcollection/add/
 weight: 10
 ---
-## add(self, position, color) {#float-asposepydrawingcolor}
-یک متوقف گرادیان جدید ایجاد می‌کند و آن را به انتهای مجموعه اضافه می‌نماید.
+## add(self, position, color) {#float-asposeslidescolor}
+یک توقف‌گرادیان جدید ایجاد می‌کند و آن را به انتهای مجموعه اضافه می‌نماید.
 
-### بازگشت
+### بازگرداندن
 
-شاخص متوقف گرادیان جدید در مجموعه.
+اندیس توقف‌گرادیان جدید در مجموعه.
 
 
 
@@ -21,18 +21,18 @@ def add(self, position, color):
 ```
 
 
-| پارامتر | نوع | توضیح |
+| Parameter | Type | Description |
 | :- | :- | :- |
-| position | **float** | موقعیت متوقف گرادیان جدید. |
-| color | **aspose.slides.Color** | رنگ متوقف گرادیان جدید. |
+| position | **float** | موقعیت توقف‌گرادیان جدید. |
+| color | [`Color`](/slides/python-net/fa/aspose.slides/color) | رنگ توقف‌گرادیان جدید. |
 
 
 ## add(self, position, preset_color) {#float-presetcolor}
-یک متوقف گرادیان جدید ایجاد می‌کند و آن را به انتهای مجموعه اضافه می‌نماید.
+یک توقف‌گرادیان جدید ایجاد می‌کند و آن را به انتهای مجموعه اضافه می‌نماید.
 
-### بازگشت
+### بازگرداندن
 
-شاخص متوقف گرادیان جدید در مجموعه.
+اندیس توقف‌گرادیان جدید در مجموعه.
 
 
 
@@ -42,18 +42,18 @@ def add(self, position, preset_color):
 ```
 
 
-| پارامتر | نوع | توضیح |
+| Parameter | Type | Description |
 | :- | :- | :- |
-| position | **float** | موقعیت متوقف گرادیان جدید. |
-| preset_color | [`PresetColor`](/slides/python-net/fa/aspose.slides/presetcolor) | رنگ متوقف گرادیان جدید. |
+| position | **float** | موقعیت توقف‌گرادیان جدید. |
+| preset_color | [`PresetColor`](/slides/python-net/fa/aspose.slides/presetcolor) | رنگ توقف‌گرادیان جدید. |
 
 
 ## add(self, position, scheme_color) {#float-schemecolor}
-یک متوقف گرادیان جدید ایجاد می‌کند و آن را به انتهای مجموعه اضافه می‌نماید.
+یک توقف‌گرادیان جدید ایجاد می‌کند و آن را به انتهای مجموعه اضافه می‌نماید.
 
-### بازگشت
+### بازگرداندن
 
-شاخص متوقف گرادیان جدید در مجموعه.
+اندیس توقف‌گرادیان جدید در مجموعه.
 
 
 
@@ -63,17 +63,18 @@ def add(self, position, scheme_color):
 ```
 
 
-| پارامتر | نوع | توضیح |
+| Parameter | Type | Description |
 | :- | :- | :- |
-| position | **float** | موقعیت متوقف گرادیان جدید. |
-| scheme_color | [`SchemeColor`](/slides/python-net/fa/aspose.slides/schemecolor) | رنگ متوقف گرادیان جدید. |
+| position | **float** | موقعیت توقف‌گرادیان جدید. |
+| scheme_color | [`SchemeColor`](/slides/python-net/fa/aspose.slides/schemecolor) | رنگ توقف‌گرادیان جدید. |
 
 
 
-### مراجع
+### موارد مرتبط
 * کلاس [`IGradientStop`](/slides/python-net/fa/aspose.slides/igradientstop)
 * کلاس [`IGradientStopCollection`](/slides/python-net/fa/aspose.slides/igradientstopcollection)
 * شمارش [`PresetColor`](/slides/python-net/fa/aspose.slides/presetcolor)
 * شمارش [`SchemeColor`](/slides/python-net/fa/aspose.slides/schemecolor)
+* کلاس [`Color`](/slides/python-net/fa/aspose.slides/color)
 * ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

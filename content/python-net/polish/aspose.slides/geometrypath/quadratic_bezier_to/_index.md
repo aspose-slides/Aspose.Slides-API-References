@@ -1,12 +1,12 @@
 ---
 title: quadratic_bezier_to method
-second_title: Aspose.Slides dla Pythona poprzez .NET – Dokumentacja API
+second_title: Aspose.Slides dla Pythona – referencja API .NET
 description: 
 type: docs
 url: /pl/aspose.slides/geometrypath/quadratic_bezier_to/
 weight: 70
 ---
-## quadratic_bezier_to(self, point1, point2) {#asposepydrawingpointf-asposepydrawingpointf}
+## quadratic_bezier_to(self, point1, point2) {#asposeslidespointf-asposeslidespointf}
 Dodaje krzywą kwadratową Bézier na końcu ścieżki
 
 
@@ -18,11 +18,11 @@ def quadratic_bezier_to(self, point1, point2):
 
 | Parametr | Typ | Opis |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | Punkt kierunkowy |
-| point2 | **aspose.slides.PointF** | Punkt końcowy |
+| point1 | [`PointF`](/slides/python-net/pl/aspose.slides/pointf) | Punkt kierunkowy |
+| point2 | [`PointF`](/slides/python-net/pl/aspose.slides/pointf) | Punkt końcowy |
 
 
-## quadratic_bezier_to(self, point1, point2, index) {#asposepydrawingpointf-asposepydrawingpointf-int}
+## quadratic_bezier_to(self, point1, point2, index) {#asposeslidespointf-asposeslidespointf-int}
 Dodaje krzywą kwadratową Bézier w określonym miejscu ścieżki
 
 
@@ -34,8 +34,8 @@ def quadratic_bezier_to(self, point1, point2, index):
 
 | Parametr | Typ | Opis |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | Punkt kierunkowy |
-| point2 | **aspose.slides.PointF** | Punkt końcowy |
+| point1 | [`PointF`](/slides/python-net/pl/aspose.slides/pointf) | Punkt kierunkowy |
+| point2 | [`PointF`](/slides/python-net/pl/aspose.slides/pointf) | Punkt końcowy |
 | index | **int** | Indeks segmentu w PathData |
 
 ### Wyjątki
@@ -89,7 +89,8 @@ def quadratic_bezier_to(self, x1, y1, x2, y2, index):
 
 
 
-### Zobacz także
+### Zobacz też
 * klasa [`GeometryPath`](/slides/python-net/pl/aspose.slides/geometrypath)
+* klasa [`PointF`](/slides/python-net/pl/aspose.slides/pointf)
 * moduł [`aspose.slides`](/slides/python-net/pl/aspose.slides)
 * biblioteka [`Aspose.Slides`](/slides/python-net)

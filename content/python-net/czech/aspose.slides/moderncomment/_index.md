@@ -1,39 +1,38 @@
 ---
 title: ModernComment class
-second_title: Aspose.Slides pro Python přes .NET - API reference
+second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/moderncomment/
 ---
 ## ModernComment třída
 
-Represents a comment on a slide.
+Představuje komentář na snímku.
 
-**Inheritance:**[`ModernComment`](/slides/python-net/cs/aspose.slides/moderncomment) → [`Comment`](/slides/python-net/cs/aspose.slides/comment)
+**Dědičnost:**[`ModernComment`](/slides/python-net/cs/aspose.slides/moderncomment) → [`Comment`](/slides/python-net/cs/aspose.slides/comment)
 
-The ModernComment type exposes the following members:
+Typ ModernComment zveřejňuje následující členy:
 
 ## Vlastnosti
 
 | Vlastnost | Popis |
 | :- | :- |
-| [`text`](/slides/python-net/cs/aspose.slides/moderncomment/text/) | Returns or sets the plain text of a slide comment.<br/>            Read/write **str**. |
-| [`created_time`](/slides/python-net/cs/aspose.slides/moderncomment/created_time/) | Returns or sets the time of a comment creation.<br/>            Setting this property to **System.DateTime** means no comment time is set.<br/>            Read/write **System.DateTime**. |
-| [`slide`](/slides/python-net/cs/aspose.slides/moderncomment/slide/) | Returns or sets the parent slide of a comment.<br/>            Read-only [`ISlide`](/slides/python-net/cs/aspose.slides/islide). |
-| [`author`](/slides/python-net/cs/aspose.slides/moderncomment/author/) | Returns the author of a comment.<br/>            Read-only [`ICommentAuthor`](/slides/python-net/cs/aspose.slides/icommentauthor). |
-| [`position`](/slides/python-net/cs/aspose.slides/moderncomment/position/) | Returns or sets the position of a comment on a slide.<br/>            Read/write **aspose.slides.PointF**. |
-| [`parent_comment`](/slides/python-net/cs/aspose.slides/moderncomment/parent_comment/) | Gets or sets parent comment.<br/>            Read/write [`IComment`](/slides/python-net/cs/aspose.slides/icomment). |
-| [`shape`](/slides/python-net/cs/aspose.slides/moderncomment/shape/) | Returns a shape associated with the comment.<br/>            Read-only [`IShape`](/slides/python-net/cs/aspose.slides/ishape). |
-| [`text_selection_start`](/slides/python-net/cs/aspose.slides/moderncomment/text_selection_start/) | Gets or sets starting position of text selection in text frame if the comment associated with AutoShape.<br/>            Read/write **int**. |
-| [`text_selection_length`](/slides/python-net/cs/aspose.slides/moderncomment/text_selection_length/) | Gets or sets text selection length in text frame if the comment associated with AutoShape.<br/>            Read/write **int**. |
-| [`status`](/slides/python-net/cs/aspose.slides/moderncomment/status/) | Gets or sets the status of the comment.<br/>            Read/write [`ModernCommentStatus`](/slides/python-net/cs/aspose.slides/moderncommentstatus). |
+| [`text`](/slides/python-net/cs/aspose.slides/moderncomment/text/) | Vrací nebo nastavuje prostý text komentáře ke snímku.<br/>            Read/write **str**. |
+| [`created_time`](/slides/python-net/cs/aspose.slides/moderncomment/created_time/) | Vrací nebo nastavuje čas vytvoření komentáře.<br/>            Nastavení této vlastnosti na **System.DateTime** znamená, že čas komentáře není nastaven.<br/>            Read/write **System.DateTime**. |
+| [`slide`](/slides/python-net/cs/aspose.slides/moderncomment/slide/) | Vrací nebo nastavuje nadřazený snímek komentáře.<br/>            Read-only [`ISlide`](/slides/python-net/cs/aspose.slides/islide). |
+| [`author`](/slides/python-net/cs/aspose.slides/moderncomment/author/) | Vrací autora komentáře.<br/>            Read-only [`ICommentAuthor`](/slides/python-net/cs/aspose.slides/icommentauthor). |
+| [`position`](/slides/python-net/cs/aspose.slides/moderncomment/position/) | Vrací nebo nastavuje pozici komentáře na snímku.<br/>            Read/write [`PointF`](/slides/python-net/cs/aspose.slides/pointf). |
+| [`parent_comment`](/slides/python-net/cs/aspose.slides/moderncomment/parent_comment/) | Vrací nebo nastavuje nadřazený komentář.<br/>            Read/write [`IComment`](/slides/python-net/cs/aspose.slides/icomment). |
+| [`shape`](/slides/python-net/cs/aspose.slides/moderncomment/shape/) | Vrací tvar spojený s komentářem.<br/>            Read-only [`IShape`](/slides/python-net/cs/aspose.slides/ishape). |
+| [`text_selection_start`](/slides/python-net/cs/aspose.slides/moderncomment/text_selection_start/) | Vrací nebo nastavuje počáteční pozici výběru textu v textovém rámci, pokud je komentář spojen s AutoShape.<br/>            Read/write **int**. |
+| [`text_selection_length`](/slides/python-net/cs/aspose.slides/moderncomment/text_selection_length/) | Vrací nebo nastavuje délku výběru textu v textovém rámci, pokud je komentář spojen s AutoShape.<br/>            Read/write **int**. |
+| [`status`](/slides/python-net/cs/aspose.slides/moderncomment/status/) | Vrací nebo nastavuje stav komentáře.<br/>            Read/write [`ModernCommentStatus`](/slides/python-net/cs/aspose.slides/moderncommentstatus). |
 
 ## Metody
 
 | Metoda | Popis |
 | :- | :- |
-| [`remove(self)`](/slides/python-net/cs/aspose.slides/moderncomment/remove/#) | Removes comment and all its replies from the parent collection. |
-
+| [`remove(self)`](/slides/python-net/cs/aspose.slides/moderncomment/remove/#) | Odstraní komentář a všechny jeho odpovědi z nadřazené kolekce. |
 
 ### Viz také
 * třída [`Comment`](/slides/python-net/cs/aspose.slides/comment)

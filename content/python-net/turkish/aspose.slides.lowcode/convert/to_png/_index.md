@@ -7,9 +7,9 @@ url: /tr/aspose.slides.lowcode/convert/to_png/
 weight: 40
 ---
 ## to_png(pres, output_file_name) {#presentation-str}
-Girdi sunumunu PNG formatında bir dizi görüntüye dönüştürür.  
-            Çıktı dosya adı "myPath/myFilename.png" olarak verilirse, 
-            sonuç "myPath/myFilename_N.png" dosyaları şeklinde kaydedilir; N bir slayt numarasıdır.
+Giriş sunumunu PNG formatında bir dizi görüntüye dönüştürür.  
+            Çıktı dosya adı “myPath/myFilename.png” olarak verilirse,  
+            sonuç “myPath/myFilename_N.png” dosyaları şeklinde kaydedilir, burada N bir slayt numarasıdır.
 
 
 ```python
@@ -21,7 +21,7 @@ def to_png(pres, output_file_name):
 
 | Parametre | Tür | Açıklama |
 | :- | :- | :- |
-| pres | [`Presentation`](/slides/python-net/tr/aspose.slides/presentation) | Girdi sunumu. |
+| pres | [`Presentation`](/slides/python-net/tr/aspose.slides/presentation) | Giriş sunumu. |
 | output_file_name | **str** | Çıktı dosya adı. |
 
 ### İstisnalar
@@ -31,10 +31,10 @@ def to_png(pres, output_file_name):
 | **RuntimeError(Proxy error(ArgumentException))** |  |
 
 
-## to_png(pres, output_file_name, image_size) {#presentation-str-asposepydrawingsize}
-Girdi sunumunu PNG formatında bir dizi görüntüye dönüştürür.  
-            Çıktı dosya adı "myPath/myFilename.png" olarak verilirse, 
-            sonuç "myPath/myFilename_N.png" dosyaları şeklinde kaydedilir; N bir slayt numarasıdır.
+## to_png(pres, output_file_name, image_size) {#presentation-str-asposeslidessize}
+Giriş sunumunu PNG formatında bir dizi görüntüye dönüştürür.  
+            Çıktı dosya adı “myPath/myFilename.png” olarak verilirse,  
+            sonuç “myPath/myFilename_N.png” dosyaları şeklinde kaydedilir, burada N bir slayt numarasıdır.
 
 
 ```python
@@ -46,9 +46,9 @@ def to_png(pres, output_file_name, image_size):
 
 | Parametre | Tür | Açıklama |
 | :- | :- | :- |
-| pres | [`Presentation`](/slides/python-net/tr/aspose.slides/presentation) | Girdi sunumu |
+| pres | [`Presentation`](/slides/python-net/tr/aspose.slides/presentation) | Giriş sunumu |
 | output_file_name | **str** | Çıktı dosya adı. |
-| image_size | **aspose.slides.Size** | Oluşturulan her görüntünün boyutu. |
+| image_size | [`Size`](/slides/python-net/tr/aspose.slides/size) | Oluşturulan her görüntünün boyutu. |
 
 ### İstisnalar
 
@@ -58,9 +58,9 @@ def to_png(pres, output_file_name, image_size):
 
 
 ## to_png(pres, output_file_name, scale, options) {#presentation-str-float-asposeslidesexportirenderingoptions}
-Girdi sunumunu PNG formatında bir dizi görüntüye dönüştürür.  
-            Çıktı dosya adı "myPath/myFilename.png" olarak verilirse, 
-            sonuç "myPath/myFilename_N.png" dosyaları şeklinde kaydedilir; N bir slayt numarasıdır.
+Giriş sunumunu PNG formatında bir dizi görüntüye dönüştürür.  
+            Çıktı dosya adı “myPath/myFilename.png” olarak verilirse,  
+            sonuç “myPath/myFilename_N.png” dosyaları şeklinde kaydedilir, burada N bir slayt numarasıdır.
 
 
 ```python
@@ -72,10 +72,10 @@ def to_png(pres, output_file_name, scale, options):
 
 | Parametre | Tür | Açıklama |
 | :- | :- | :- |
-| pres | [`Presentation`](/slides/python-net/tr/aspose.slides/presentation) | Girdi sunumu. |
+| pres | [`Presentation`](/slides/python-net/tr/aspose.slides/presentation) | Giriş sunumu. |
 | output_file_name | **str** | Çıktı dosya adı. |
-| scale | **float** | Orijinal slayt boyutuna göre çıktı görüntülerine uygulanan ölçekleme faktörü. |
-| options | [`IRenderingOptions`](/slides/python-net/tr/aspose.slides.export/irenderingoptions) | Renderleme seçenekleri. |
+| scale | **float** | Çıktı görüntülerine orijinal slayt boyutuna göre uygulanan ölçekleme faktörü. |
+| options | [`IRenderingOptions`](/slides/python-net/tr/aspose.slides.export/irenderingoptions) | Render seçenekleri. |
 
 ### İstisnalar
 
@@ -85,9 +85,10 @@ def to_png(pres, output_file_name, scale, options):
 
 
 
-### İlgili
+### Ayrıca Bakınız
 * sınıf [`Convert`](/slides/python-net/tr/aspose.slides.lowcode/convert)
 * sınıf [`IRenderingOptions`](/slides/python-net/tr/aspose.slides.export/irenderingoptions)
 * sınıf [`Presentation`](/slides/python-net/tr/aspose.slides/presentation)
+* sınıf [`Size`](/slides/python-net/tr/aspose.slides/size)
 * modül [`aspose.slides.lowcode`](/slides/python-net/tr/aspose.slides.lowcode)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

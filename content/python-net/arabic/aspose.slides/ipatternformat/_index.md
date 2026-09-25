@@ -1,6 +1,6 @@
 ---
 title: IPatternFormat class
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: Aspose.Slides for Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/ipatternformat/
@@ -9,23 +9,22 @@ url: /ar/aspose.slides/ipatternformat/
 
 يمثل نمطًا لملء شكل.
 
-نوع IPatternFormat يعرض الأعضاء التالية:
+يعرض نوع IPatternFormat الأعضاء التالية:
 
 ## الخصائص
 
 | الخاصية | الوصف |
 | :- | :- |
 | [`pattern_style`](/slides/python-net/ar/aspose.slides/ipatternformat/pattern_style/) | إرجاع أو تعيين نمط النمط.<br/>            قراءة/كتابة [`PatternStyle`](/slides/python-net/ar/aspose.slides/patternstyle). |
-| [`fore_color`](/slides/python-net/ar/aspose.slides/ipatternformat/fore_color/) | إرجاع لون نمط المقدمة.<br/>            للقراءة فقط [`IColorFormat`](/slides/python-net/ar/aspose.slides/icolorformat). |
-| [`back_color`](/slides/python-net/ar/aspose.slides/ipatternformat/back_color/) | إرجاع لون نمط الخلفية.<br/>            للقراءة فقط [`IColorFormat`](/slides/python-net/ar/aspose.slides/icolorformat). |
+| [`fore_color`](/slides/python-net/ar/aspose.slides/ipatternformat/fore_color/) | إرجاع لون نمط المقدمة.<br/>            قراءة فقط [`IColorFormat`](/slides/python-net/ar/aspose.slides/icolorformat). |
+| [`back_color`](/slides/python-net/ar/aspose.slides/ipatternformat/back_color/) | إرجاع لون نمط الخلفية.<br/>            قراءة فقط [`IColorFormat`](/slides/python-net/ar/aspose.slides/icolorformat). |
 
 ## الطرق
 
 | الطريقة | الوصف |
 | :- | :- |
-| [`get_tile(self, background, foreground)`](/slides/python-net/ar/aspose.slides/ipatternformat/get_tile/#asposepydrawingcolor-asposepydrawingcolor) | إنشاء صورة بلاط لملء النمط باستخدام ألوان محددة. |
-| [`get_tile(self, style_color)`](/slides/python-net/ar/aspose.slides/ipatternformat/get_tile/#asposepydrawingcolor) | إنشاء صورة بلاط لملء النمط. |
-
+| [`get_tile(self, background, foreground)`](/slides/python-net/ar/aspose.slides/ipatternformat/get_tile/#asposeslidescolor-asposeslidescolor) | إنشاء صورة بلاطة لملء النمط بألوان محددة. |
+| [`get_tile(self, style_color)`](/slides/python-net/ar/aspose.slides/ipatternformat/get_tile/#asposeslidescolor) | إنشاء صورة بلاطة لملء النمط. |
 
 ### انظر أيضًا
 * الوحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)

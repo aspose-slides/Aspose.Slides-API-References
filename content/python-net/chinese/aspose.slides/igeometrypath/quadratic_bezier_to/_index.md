@@ -6,8 +6,8 @@ type: docs
 url: /zh/aspose.slides/igeometrypath/quadratic_bezier_to/
 weight: 60
 ---
-## quadratic_bezier_to(self, point1, point2) {#asposepydrawingpointf-asposepydrawingpointf}
-在路径末端添加二次贝塞尔曲线
+## quadratic_bezier_to(self, point1, point2) {#asposeslidespointf-asposeslidespointf}
+在路径末尾添加二次贝塞尔曲线
 
 
 ```python
@@ -18,11 +18,11 @@ def quadratic_bezier_to(self, point1, point2):
 
 | 参数 | 类型 | 描述 |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | 方向点 |
-| point2 | **aspose.slides.PointF** | 结束点 |
+| point1 | [`PointF`](/slides/python-net/zh/aspose.slides/pointf) | 方向点 |
+| point2 | [`PointF`](/slides/python-net/zh/aspose.slides/pointf) | 终点 |
 
 
-## quadratic_bezier_to(self, point1, point2, index) {#asposepydrawingpointf-asposepydrawingpointf-int}
+## quadratic_bezier_to(self, point1, point2, index) {#asposeslidespointf-asposeslidespointf-int}
 在路径的指定位置添加二次贝塞尔曲线
 
 
@@ -34,8 +34,8 @@ def quadratic_bezier_to(self, point1, point2, index):
 
 | 参数 | 类型 | 描述 |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | 方向点 |
-| point2 | **aspose.slides.PointF** | 结束点 |
+| point1 | [`PointF`](/slides/python-net/zh/aspose.slides/pointf) | 方向点 |
+| point2 | [`PointF`](/slides/python-net/zh/aspose.slides/pointf) | 终点 |
 | index | **int** | PathData 中段的索引 |
 
 ### 异常
@@ -46,7 +46,7 @@ def quadratic_bezier_to(self, point1, point2, index):
 
 
 ## quadratic_bezier_to(self, x1, y1, x2, y2) {#float-float-float-float}
-在路径末端添加二次贝塞尔曲线
+在路径末尾添加二次贝塞尔曲线
 
 
 ```python
@@ -59,8 +59,8 @@ def quadratic_bezier_to(self, x1, y1, x2, y2):
 | :- | :- | :- |
 | x1 | **float** | 方向点的 X 坐标 |
 | y1 | **float** | 方向点的 Y 坐标 |
-| x2 | **float** | 结束点的 X 坐标 |
-| y2 | **float** | 结束点的 Y 坐标 |
+| x2 | **float** | 终点的 X 坐标 |
+| y2 | **float** | 终点的 Y 坐标 |
 
 
 ## quadratic_bezier_to(self, x1, y1, x2, y2, index) {#float-float-float-float-int}
@@ -77,8 +77,8 @@ def quadratic_bezier_to(self, x1, y1, x2, y2, index):
 | :- | :- | :- |
 | x1 | **float** | 方向点的 X 坐标 |
 | y1 | **float** | 方向点的 Y 坐标 |
-| x2 | **float** | 结束点的 X 坐标 |
-| y2 | **float** | 结束点的 Y 坐标 |
+| x2 | **float** | 终点的 X 坐标 |
+| y2 | **float** | 终点的 Y 坐标 |
 | index | **int** | PathData 中段的索引 |
 
 ### 异常
@@ -91,5 +91,6 @@ def quadratic_bezier_to(self, x1, y1, x2, y2, index):
 
 ### 另见
 * 类 [`IGeometryPath`](/slides/python-net/zh/aspose.slides/igeometrypath)
+* 类 [`PointF`](/slides/python-net/zh/aspose.slides/pointf)
 * 模块 [`aspose.slides`](/slides/python-net/zh/aspose.slides)
 * 库 [`Aspose.Slides`](/slides/python-net)

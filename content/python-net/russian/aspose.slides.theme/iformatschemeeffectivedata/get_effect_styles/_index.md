@@ -6,24 +6,30 @@ type: docs
 url: /ru/aspose.slides.theme/iformatschemeeffectivedata/get_effect_styles/
 weight: 20
 ---
-## get_effect_styles(self, style_color) {#asposepydrawingcolor}
-Возвращает коллекцию стилей эффектов, определённых темой.
+## get_effect_styles(self, style_color) {#asposeslidescolor}
+Возвращает коллекцию определённых темой стилей эффектов.
 
 ### Возвращаемое значение
 
 Коллекция эффективных стилей эффектов [`IEffectStyleCollectionEffectiveData`](/slides/python-net/ru/aspose.slides.theme/ieffectstylecollectioneffectivedata)
+
+
 
 ```python
 def get_effect_styles(self, style_color):
     ...
 ```
 
+
 | Параметр | Тип | Описание |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | Цвет **aspose.slides.Color** |
+| style_color | [`Color`](/slides/python-net/ru/aspose.slides/color) | Цвет [`Color`](/slides/python-net/ru/aspose.slides/color) |
+
+
 
 ### См. также
 * класс [`IEffectStyleCollectionEffectiveData`](/slides/python-net/ru/aspose.slides.theme/ieffectstylecollectioneffectivedata)
 * класс [`IFormatSchemeEffectiveData`](/slides/python-net/ru/aspose.slides.theme/iformatschemeeffectivedata)
+* класс [`Color`](/slides/python-net/ru/aspose.slides/color)
 * модуль [`aspose.slides.theme`](/slides/python-net/ru/aspose.slides.theme)
 * библиотека [`Aspose.Slides`](/slides/python-net)

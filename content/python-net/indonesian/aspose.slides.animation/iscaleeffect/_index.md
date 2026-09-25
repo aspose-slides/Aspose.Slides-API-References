@@ -9,16 +9,16 @@ url: /id/aspose.slides.animation/iscaleeffect/
 
 Mewakili efek skala animasi.
 
-Tipe IScaleEffect menampilkan anggota berikut:
+Tipe IScaleEffect mengekspose anggota berikut:
 
 ## Properti
 
 | Properti | Deskripsi |
 | :- | :- |
 | [`zoom_content`](/slides/python-net/id/aspose.slides.animation/iscaleeffect/zoom_content/) | Menentukan apakah konten harus diperbesar.<br/>            Baca/tulis [`NullableBool`](/slides/python-net/id/aspose.slides/nullablebool). |
-| [`from_address`](/slides/python-net/id/aspose.slides.animation/iscaleeffect/from_address/) | Menentukan koordinat x/y untuk memulai animasi (dalam persen).<br/>            Baca/tulis **aspose.slides.PointF**. |
-| [`to`](/slides/python-net/id/aspose.slides.animation/iscaleeffect/to/) | Menentukan lokasi target untuk efek skala animasi (dalam persen).<br/>            Baca/tulis **aspose.slides.PointF**. |
-| [`by`](/slides/python-net/id/aspose.slides.animation/iscaleeffect/by/) | Mendeskripsikan nilai offset relatif untuk animasi (dalam persen).<br/>            Baca/tulis **aspose.slides.PointF**. |
+| [`from_address`](/slides/python-net/id/aspose.slides.animation/iscaleeffect/from_address/) | Menentukan koordinat x/y untuk memulai animasi (dalam persen).<br/>            Baca/tulis [`PointF`](/slides/python-net/id/aspose.slides/pointf). |
+| [`to`](/slides/python-net/id/aspose.slides.animation/iscaleeffect/to/) | Menentukan lokasi target untuk efek skala animasi (dalam persen).<br/>            Baca/tulis [`PointF`](/slides/python-net/id/aspose.slides/pointf). |
+| [`by`](/slides/python-net/id/aspose.slides.animation/iscaleeffect/by/) | menjelaskan nilai offset relatif untuk animasi (dalam persen).<br/>            Baca/tulis [`PointF`](/slides/python-net/id/aspose.slides/pointf). |
 | [`accumulate`](/slides/python-net/id/aspose.slides.animation/iscaleeffect/accumulate/) |  |
 | [`additive`](/slides/python-net/id/aspose.slides.animation/iscaleeffect/additive/) |  |
 | [`properties`](/slides/python-net/id/aspose.slides.animation/iscaleeffect/properties/) |  |
@@ -27,4 +27,4 @@ Tipe IScaleEffect menampilkan anggota berikut:
 
 ### Lihat Juga
 * modul [`aspose.slides.animation`](/slides/python-net/id/aspose.slides.animation)
-* perpustakaan [`Aspose.Slides`](/slides/python-net)
+* pustaka [`Aspose.Slides`](/slides/python-net)

@@ -6,9 +6,9 @@ type: docs
 url: /tr/aspose.slides/idrawingguide/color/
 weight: 10
 ---
-## renk özelliği
-Çizim kılavuzunun rengini döndürür veya ayarlar.
-            Okuma/Yazma **aspose.slides.Color**.
+## color özelliği
+Çizim kılavuzunun color'ını döndürür veya ayarlar.
+            Okunur/Yazılır [`Color`](/slides/python-net/tr/aspose.slides/color).
 
 ### Tanım:
 ```python
@@ -24,5 +24,6 @@ def color(self, value):
 
 ### Ayrıca Bakınız
 * sınıf [`IDrawingGuide`](/slides/python-net/tr/aspose.slides/idrawingguide)
+* sınıf [`Color`](/slides/python-net/tr/aspose.slides/color)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

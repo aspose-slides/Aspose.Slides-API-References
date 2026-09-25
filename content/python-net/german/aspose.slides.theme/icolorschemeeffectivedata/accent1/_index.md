@@ -7,8 +7,8 @@ url: /de/aspose.slides.theme/icolorschemeeffectivedata/accent1/
 weight: 10
 ---
 ## accent1 Eigenschaft
-Erste Akzentfarbe im Schema.
-            Nur lesbar **aspose.slides.Color**.
+First accent color in the scheme.
+            Nur lesbar [`Color`](/slides/python-net/de/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def accent1(self):
 
 ### Siehe auch
 * Klasse [`IColorSchemeEffectiveData`](/slides/python-net/de/aspose.slides.theme/icolorschemeeffectivedata)
+* Klasse [`Color`](/slides/python-net/de/aspose.slides/color)
 * Modul [`aspose.slides.theme`](/slides/python-net/de/aspose.slides.theme)
 * Bibliothek [`Aspose.Slides`](/slides/python-net)

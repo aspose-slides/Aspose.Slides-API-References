@@ -7,11 +7,12 @@ url: /ar/aspose.slides/summaryzoomsection/get_visual_bounds/
 weight: 40
 ---
 ## get_visual_bounds(self) {#}
-يقوم بالحصول على الحدود البصرية للشكل المحسوبة من محتواه المعروض.
+يعيد الحدود البصرية للشكل التي تم حسابها من المحتوى المرسوم.
 
 ### الإرجاع
 
-كائن **aspose.slides.RectangleF** يمثل الحدود البصرية للشكل في إحداثيات الشريحة.
+كائن [`RectangleF`](/slides/python-net/ar/aspose.slides/rectanglef) يمثل الحدود البصرية للشكل
+             في إحداثيات الشريحة.
 
 
 
@@ -22,21 +23,20 @@ def get_visual_bounds(self):
 
 
 ### ملاحظات
-
-المستطيل المعاد يمثل الحدود المحورية لجميع المحتويات التي ينتجها الشكل أثناء العرض في مساحة إحداثيات الشريحة.
-
-هذه الحدود قد تختلف عن حدود نموذج الشكل
-([`Shape.x`](/slides/python-net/ar/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/ar/aspose.slides/shape/y),
-[`Shape.width`](/slides/python-net/ar/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/ar/aspose.slides/shape/height))
-وقد تحتوي على إحداثيات سلبية إذا امتد المحتوى المعروض خارج أصل الشريحة.
-
-الحدود البصرية تأخذ في الاعتبار الجوانب المتعلقة بالعرض مثل التحولات (مثلاً، الدوران)، عرض الخطوط والاتصالات، تخطيط النص وتجاوزه، هندسة SmartArt، وغيرها من تأثيرات التخطيط التي تؤثر على المظهر النهائي المعروض للشكل.
-
-الحدود المعادة لا تُقَصّ إلى مستطيل الشريحة.
+ المستطيل المرتجع يمثل الحدود المحاذية للمحور لكافة المحتوى الذي ينتجه الشكل أثناء العرض في مساحة إحداثيات الشريحة.
+            
+            قد تختلف هذه الحدود عن حدود نموذج الشكل ([`Shape.x`](/slides/python-net/ar/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/ar/aspose.slides/shape/y),
+            [`Shape.width`](/slides/python-net/ar/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/ar/aspose.slides/shape/height))
+            وقد تحتوي على إحداثيات سالبة إذا كان المحتوى المرسوم يمتد خارج أصل الشريحة.
+            
+            تأخذ الحدود البصرية في الاعتبار الجوانب المتعلقة بالعرض مثل التحويلات (على سبيل المثال، الدوران)، عرض الحد وتقواها، تخطيط النص وتدفقه، هندسة SmartArt، وغيرها من تأثيرات التخطيط التي تؤثر على المظهر النهائي للشكل.
+            
+            الحدود المرتجعة غير مقصوصة إلى مستطيل الشريحة.
 
 
 
 ### انظر أيضًا
 * فئة [`SummaryZoomSection`](/slides/python-net/ar/aspose.slides/summaryzoomsection)
+* فئة [`RectangleF`](/slides/python-net/ar/aspose.slides/rectanglef)
 * وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
 * مكتبة [`Aspose.Slides`](/slides/python-net)

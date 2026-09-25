@@ -1,14 +1,14 @@
 ---
 title: by property
-second_title: Aspose.Slides for Python via .NET API 參考
+second_title: Aspose.Slides for Python via .NET API 參考文件
 description: 
 type: docs
 url: /zh-hant/aspose.slides.animation/scaleeffect/by/
 weight: 50
 ---
-## 依屬性
+## 以屬性方式
 描述動畫的相對偏移值（以百分比表示）。
-            讀/寫 **aspose.slides.PointF**.
+            讀/寫 [`PointF`](/slides/python-net/zh-hant/aspose.slides/pointf).
 
 ### 定義：
 ```python
@@ -22,7 +22,8 @@ def by(self, value):
 ```
 
 
-### 參見
+### 另請參閱
 * 類別 [`ScaleEffect`](/slides/python-net/zh-hant/aspose.slides.animation/scaleeffect)
+* 類別 [`PointF`](/slides/python-net/zh-hant/aspose.slides/pointf)
 * 模組 [`aspose.slides.animation`](/slides/python-net/zh-hant/aspose.slides.animation)
-* 程式庫 [`Aspose.Slides`](/slides/python-net)
+* 函式庫 [`Aspose.Slides`](/slides/python-net)

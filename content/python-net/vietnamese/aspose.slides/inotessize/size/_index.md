@@ -1,14 +1,14 @@
 ---
 title: size property
-second_title: Tham khảo API Aspose.Slides cho Python qua .NET
+second_title: Tham chiếu API Aspose.Slides cho Python thông qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides/inotessize/size/
 weight: 10
 ---
-## size thuộc tính
+## thuộc tính size
 Trả về hoặc đặt size tính bằng điểm.
-            Đọc/ghi **aspose.slides.SizeF**.
+            Đọc/ghi [`SizeF`](/slides/python-net/vi/aspose.slides/sizef).
 
 ### Định nghĩa:
 ```python
@@ -24,5 +24,6 @@ def size(self, value):
 
 ### Xem thêm
 * lớp [`INotesSize`](/slides/python-net/vi/aspose.slides/inotessize)
-* module [`aspose.slides`](/slides/python-net/vi/aspose.slides)
+* lớp [`SizeF`](/slides/python-net/vi/aspose.slides/sizef)
+* mô-đun [`aspose.slides`](/slides/python-net/vi/aspose.slides)
 * thư viện [`Aspose.Slides`](/slides/python-net)

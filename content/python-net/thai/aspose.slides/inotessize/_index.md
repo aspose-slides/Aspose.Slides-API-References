@@ -1,6 +1,6 @@
 ---
 title: INotesSize class
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
+second_title: อ้างอิง API ของ Aspose.Slides สำหรับ Python ผ่าน .NET
 description: 
 type: docs
 url: /th/aspose.slides/inotessize/
@@ -15,7 +15,7 @@ url: /th/aspose.slides/inotessize/
 
 | คุณสมบัติ | คำอธิบาย |
 | :- | :- |
-| [`size`](/slides/python-net/th/aspose.slides/inotessize/size/) | คืนค่า หรือกำหนดขนาดเป็นหน่วยจุด.<br/>            อ่าน/เขียน **aspose.slides.SizeF**. |
+| [`size`](/slides/python-net/th/aspose.slides/inotessize/size/) | คืนค่า หรือกำหนดขนาดเป็นหน่วยจุด.<br/>            อ่าน/เขียน [`SizeF`](/slides/python-net/th/aspose.slides/sizef). |
 
 ### ดูเพิ่มเติม
 * โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)

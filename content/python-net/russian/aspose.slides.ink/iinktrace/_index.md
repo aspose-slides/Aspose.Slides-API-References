@@ -16,9 +16,8 @@ url: /ru/aspose.slides.ink/iinktrace/
 | Свойство | Описание |
 | :- | :- |
 | [`brush`](/slides/python-net/ru/aspose.slides.ink/iinktrace/brush/) | Получает Brush для IInkLine [`IInkBrush`](/slides/python-net/ru/aspose.slides.ink/iinkbrush)<br/>            Только для чтения. |
-| [`points`](/slides/python-net/ru/aspose.slides.ink/iinktrace/points/) | Получает точки для IInkLine **aspose.slides.PointF**<br/>            Только для чтения. |
+| [`points`](/slides/python-net/ru/aspose.slides.ink/iinktrace/points/) | Получает точки для IInkLine [`PointF`](/slides/python-net/ru/aspose.slides/pointf)<br/>            Только для чтения. |
 
-
-### Смотрите также
+### См. также
 * модуль [`aspose.slides.ink`](/slides/python-net/ru/aspose.slides.ink)
 * библиотека [`Aspose.Slides`](/slides/python-net)

@@ -7,20 +7,20 @@ url: /de/aspose.slides.export/htmlgenerator/
 ---
 ## HtmlGenerator Klasse
 
-HTML-Generator.
+Html-Generator.
 
-Der HtmlGenerator-Typ stellt die folgenden Member bereit:
+Der HtmlGenerator-Typ stellt die folgenden Mitglieder bereit:
 
 ## Eigenschaften
 
 | Eigenschaft | Beschreibung |
 | :- | :- |
-| [`slide_image_size`](/slides/python-net/de/aspose.slides.export/htmlgenerator/slide_image_size/) | Gibt die Größe des Folienbildes zurück.<br/>            Nur lesbar **aspose.slides.SizeF**. |
-| [`slide_image_size_unit`](/slides/python-net/de/aspose.slides.export/htmlgenerator/slide_image_size_unit/) | Gibt die Einheit zurück, in der die Folienbildgröße angegeben ist.<br/>            Nur lesbar [`SvgCoordinateUnit`](/slides/python-net/de/aspose.slides.export/svgcoordinateunit). |
-| [`slide_image_size_unit_code`](/slides/python-net/de/aspose.slides.export/htmlgenerator/slide_image_size_unit_code/) | Gibt den CSS-Code der Einheit zurück, in der die Folienbildgröße angegeben ist.<br/>            Nur lesbar **str**. |
+| [`slide_image_size`](/slides/python-net/de/aspose.slides.export/htmlgenerator/slide_image_size/) | Gibt die Größe des Folienbildes zurück.<br/>            Nur lesbar [`SizeF`](/slides/python-net/de/aspose.slides/sizef). |
+| [`slide_image_size_unit`](/slides/python-net/de/aspose.slides.export/htmlgenerator/slide_image_size_unit/) | Gibt die Einheit zurück, in der die Größe des Folienbildes angegeben ist.<br/>            Nur lesbar [`SvgCoordinateUnit`](/slides/python-net/de/aspose.slides.export/svgcoordinateunit). |
+| [`slide_image_size_unit_code`](/slides/python-net/de/aspose.slides.export/htmlgenerator/slide_image_size_unit_code/) | Gibt den CSS-Code der Einheit zurück, in der die Größe des Folienbildes angegeben ist.<br/>            Nur lesbar **str**. |
 | [`previous_slide_index`](/slides/python-net/de/aspose.slides.export/htmlgenerator/previous_slide_index/) | Gibt den Index der zuvor gerenderten Folie zurück oder -1, wenn die erste Folie gerendert wird.<br/>            Nur lesbar **int**. |
-| [`slide_index`](/slides/python-net/de/aspose.slides.export/htmlgenerator/slide_index/) | Gibt den Index der gerade gerenderten Folie zurück.<br/>            Nur lesbar **int**. |
-| [`next_slide_index`](/slides/python-net/de/aspose.slides.export/htmlgenerator/next_slide_index/) | Gibt den Index einer Folie zurück, die nach der aktuellen Folie gerendert wird, oder -1, wenn die aktuelle Folie die letzte ist.<br/>            Nur lesbar **int**. |
+| [`slide_index`](/slides/python-net/de/aspose.slides.export/htmlgenerator/slide_index/) | Gibt den Index der aktuell rendernden Folie zurück.<br/>            Nur lesbar **int**. |
+| [`next_slide_index`](/slides/python-net/de/aspose.slides.export/htmlgenerator/next_slide_index/) | Gibt den Index einer Folie zurück, die nach der aktuellen Folie gerendert wird, oder -1, wenn gerade die letzte Folie gerendert wird.<br/>            Nur lesbar **int**. |
 
 ## Methoden
 

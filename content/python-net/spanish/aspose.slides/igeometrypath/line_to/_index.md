@@ -1,12 +1,12 @@
 ---
 title: line_to method
-second_title: Referencia de API de Aspose.Slides para Python vía .NET
+second_title: Aspose.Slides para Python mediante la referencia de la API .NET
 description: 
 type: docs
 url: /es/aspose.slides/igeometrypath/line_to/
 weight: 40
 ---
-## line_to(self, point) {#asposepydrawingpointf}
+## line_to(self, point) {#asposeslidespointf}
 Agrega una línea al final de la ruta
 
 
@@ -18,7 +18,7 @@ def line_to(self, point):
 
 | Parámetro | Tipo | Descripción |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | Punto final de la línea |
+| point | [`PointF`](/slides/python-net/es/aspose.slides/pointf) | Punto final de la línea |
 
 
 ## line_to(self, x, y) {#float-float}
@@ -37,7 +37,7 @@ def line_to(self, x, y):
 | y | **float** | Coordenada Y del punto final de la línea |
 
 
-## line_to(self, point, index) {#asposepydrawingpointf-int}
+## line_to(self, point, index) {#asposeslidespointf-int}
 Agrega una línea al lugar especificado de la ruta
 
 
@@ -49,7 +49,7 @@ def line_to(self, point, index):
 
 | Parámetro | Tipo | Descripción |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | Punto final |
+| point | [`PointF`](/slides/python-net/es/aspose.slides/pointf) | Punto final |
 | index | **int** | Índice del segmento en PathData |
 
 ### Excepciones
@@ -85,5 +85,6 @@ def line_to(self, x, y, index):
 
 ### Ver también
 * clase [`IGeometryPath`](/slides/python-net/es/aspose.slides/igeometrypath)
+* clase [`PointF`](/slides/python-net/es/aspose.slides/pointf)
 * módulo [`aspose.slides`](/slides/python-net/es/aspose.slides)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

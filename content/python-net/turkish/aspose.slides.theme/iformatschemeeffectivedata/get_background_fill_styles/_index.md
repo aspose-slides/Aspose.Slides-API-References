@@ -6,12 +6,12 @@ type: docs
 url: /tr/aspose.slides.theme/iformatschemeeffectivedata/get_background_fill_styles/
 weight: 10
 ---
-## get_background_fill_styles(self, style_color) {#asposepydrawingcolor}
-Tema tarafından tanımlanan arka plan dolgu stillerinin bir koleksiyonunu döndürür.
+## get_background_fill_styles(self, style_color) {#asposeslidescolor}
+Tema tanımlı arka plan doldurma stillerinin bir koleksiyonunu döndürür.
 
 ### Döndürür
 
-Etkili arka plan dolgu biçimlerinin koleksiyonu [`IFillFormatCollectionEffectiveData`](/slides/python-net/tr/aspose.slides.theme/ifillformatcollectioneffectivedata)
+Etkili arka plan doldurma formatlarının koleksiyonu [`IFillFormatCollectionEffectiveData`](/slides/python-net/tr/aspose.slides.theme/ifillformatcollectioneffectivedata)
 
 
 
@@ -23,12 +23,13 @@ def get_background_fill_styles(self, style_color):
 
 | Parametre | Tür | Açıklama |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | Renk **aspose.slides.Color** |
+| style_color | [`Color`](/slides/python-net/tr/aspose.slides/color) | Renk [`Color`](/slides/python-net/tr/aspose.slides/color) |
 
 
 
-### Ayrıca
+### See Also
 * sınıf [`IFillFormatCollectionEffectiveData`](/slides/python-net/tr/aspose.slides.theme/ifillformatcollectioneffectivedata)
 * sınıf [`IFormatSchemeEffectiveData`](/slides/python-net/tr/aspose.slides.theme/iformatschemeeffectivedata)
+* sınıf [`Color`](/slides/python-net/tr/aspose.slides/color)
 * modül [`aspose.slides.theme`](/slides/python-net/tr/aspose.slides.theme)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

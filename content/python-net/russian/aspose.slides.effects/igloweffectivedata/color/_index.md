@@ -6,9 +6,9 @@ type: docs
 url: /ru/aspose.slides.effects/igloweffectivedata/color/
 weight: 20
 ---
-## color свойство
-Цвет.
-            Только для чтения **aspose.slides.Color**.
+## Свойство color
+Color.
+            Только для чтения [`Color`](/slides/python-net/ru/aspose.slides/color).
 
 ### Определение:
 ```python
@@ -20,5 +20,6 @@ def color(self):
 
 ### См. также
 * класс [`IGlowEffectiveData`](/slides/python-net/ru/aspose.slides.effects/igloweffectivedata)
+* класс [`Color`](/slides/python-net/ru/aspose.slides/color)
 * модуль [`aspose.slides.effects`](/slides/python-net/ru/aspose.slides.effects)
 * библиотека [`Aspose.Slides`](/slides/python-net)

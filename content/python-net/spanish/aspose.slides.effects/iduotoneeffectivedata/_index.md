@@ -1,6 +1,6 @@
 ---
 title: IDuotoneEffectiveData class
-second_title: Aspose.Slides para Python vía API de .NET
+second_title: Referencia de la API de Aspose.Slides para Python vía .NET
 description: 
 type: docs
 url: /es/aspose.slides.effects/iduotoneeffectivedata/
@@ -17,8 +17,8 @@ El tipo IDuotoneEffectiveData expone los siguientes miembros:
 
 | Propiedad | Descripción |
 | :- | :- |
-| [`color1`](/slides/python-net/es/aspose.slides.effects/iduotoneeffectivedata/color1/) | Devuelve el formato de color de destino para píxeles oscuros.<br/>            Solo lectura **aspose.slides.Color**. |
-| [`color2`](/slides/python-net/es/aspose.slides.effects/iduotoneeffectivedata/color2/) | Devuelve el formato de color de destino para píxeles claros.<br/>            Solo lectura **aspose.slides.Color**. |
+| [`color1`](/slides/python-net/es/aspose.slides.effects/iduotoneeffectivedata/color1/) | Devuelve el formato de color objetivo para píxeles oscuros.<br/>            Solo lectura [`Color`](/slides/python-net/es/aspose.slides/color). |
+| [`color2`](/slides/python-net/es/aspose.slides.effects/iduotoneeffectivedata/color2/) | Devuelve el formato de color objetivo para píxeles claros.<br/>            Solo lectura [`Color`](/slides/python-net/es/aspose.slides/color). |
 
 
 ### Ver también

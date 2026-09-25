@@ -6,7 +6,7 @@ type: docs
 url: /ja/aspose.slides/icommentcollection/insert_modern_comment/
 weight: 50
 ---
-## insert_modern_comment(self, index, text, slide, shape, position, creation_time) {#int-str-islide-ishape-asposepydrawingpointf-datetime}
+## insert_modern_comment(self, index, text, slide, shape, position, creation_time) {#int-str-islide-ishape-asposeslidespointf-datetime}
 指定されたインデックスでコレクションに新しいモダンコメントを挿入します。
 
 ### 戻り値
@@ -20,17 +20,18 @@ def insert_modern_comment(self, index, text, slide, shape, position, creation_ti
 
 | パラメータ | 型 | 説明 |
 | :- | :- | :- |
-| index | **int** | Index of the element in a collection at which modern comment should be inserted. |
-| text | **str** | Plain text of a new modern comment. |
-| slide | [`ISlide`](/slides/python-net/ja/aspose.slides/islide) | Slide in a presentation where to add a new modern comment. |
-| shape | [`IShape`](/slides/python-net/ja/aspose.slides/ishape) | Shape on a slide to which a new modern comment is associated. |
-| position | **aspose.slides.PointF** | Position on a slide where to add a new modern comment. |
-| creation_time | **DateTime** | Time of a modern comment creation. |
+| index | **int** | コレクション内の要素のインデックスで、モダンコメントを挿入する位置です。 |
+| text | **str** | 新しいモダンコメントのプレーンテキスト。 |
+| slide | [`ISlide`](/slides/python-net/ja/aspose.slides/islide) | 新しいモダンコメントを追加するプレゼンテーション内のスライド。 |
+| shape | [`IShape`](/slides/python-net/ja/aspose.slides/ishape) | 新しいモダンコメントが関連付けられるスライド上のシェイプ。 |
+| position | [`PointF`](/slides/python-net/ja/aspose.slides/pointf) | 新しいモダンコメントを追加するスライド上の位置。 |
+| creation_time | **DateTime** | モダンコメント作成時刻。 |
 
 ### 参照
 * クラス [`ICommentCollection`](/slides/python-net/ja/aspose.slides/icommentcollection)
 * クラス [`IModernComment`](/slides/python-net/ja/aspose.slides/imoderncomment)
 * クラス [`IShape`](/slides/python-net/ja/aspose.slides/ishape)
 * クラス [`ISlide`](/slides/python-net/ja/aspose.slides/islide)
+* クラス [`PointF`](/slides/python-net/ja/aspose.slides/pointf)
 * モジュール [`aspose.slides`](/slides/python-net/ja/aspose.slides)
 * ライブラリ [`Aspose.Slides`](/slides/python-net)

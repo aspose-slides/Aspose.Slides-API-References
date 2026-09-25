@@ -7,7 +7,7 @@ url: /th/aspose.slides.ink/iinktrace/points/
 weight: 20
 ---
 ## points คุณสมบัติ
-ดึง points สำหรับ IInkLine **aspose.slides.PointF**
+รับ points สำหรับ IInkLine [`PointF`](/slides/python-net/th/aspose.slides/pointf)
             อ่านอย่างเดียว.
 
 ### คำนิยาม:
@@ -20,5 +20,6 @@ def points(self):
 
 ### ดูเพิ่มเติม
 * คลาส [`IInkTrace`](/slides/python-net/th/aspose.slides.ink/iinktrace)
+* คลาส [`PointF`](/slides/python-net/th/aspose.slides/pointf)
 * โมดูล [`aspose.slides.ink`](/slides/python-net/th/aspose.slides.ink)
 * ไลบรารี [`Aspose.Slides`](/slides/python-net)

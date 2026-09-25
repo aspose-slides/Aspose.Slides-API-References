@@ -1,18 +1,20 @@
 ---
 title: insert method
-second_title: Aspose.Slides para Python via .NET Referência da API
+second_title: Referência da API Aspose.Slides para Python via .NET
 description: 
 type: docs
 url: /pt/aspose.slides.animation/motionpath/insert/
 weight: 40
 ---
-## insert(self, index, type, pts, pts_type, b_relative_coord) {#int-motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool}
-Inserir novo comando ao caminho
+## insert(self, index, type, pts, pts_type, b_relative_coord) {#int-motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool}
+Insere um novo comando no caminho
+
 
 ```python
 def insert(self, index, type, pts, pts_type, b_relative_coord):
     ...
 ```
+
 
 | Parâmetro | Tipo | Descrição |
 | :- | :- | :- |
@@ -22,9 +24,11 @@ def insert(self, index, type, pts, pts_type, b_relative_coord):
 | pts_type | [`MotionPathPointsType`](/slides/python-net/pt/aspose.slides.animation/motionpathpointstype) |  |
 | b_relative_coord | **bool** |  |
 
-### Ver também
-* enumeration [`MotionCommandPathType`](/slides/python-net/pt/aspose.slides.animation/motioncommandpathtype)
-* class [`MotionPath`](/slides/python-net/pt/aspose.slides.animation/motionpath)
-* enumeration [`MotionPathPointsType`](/slides/python-net/pt/aspose.slides.animation/motionpathpointstype)
-* module [`aspose.slides.animation`](/slides/python-net/pt/aspose.slides.animation)
-* library [`Aspose.Slides`](/slides/python-net)
+
+
+### Veja Também
+* enumeração [`MotionCommandPathType`](/slides/python-net/pt/aspose.slides.animation/motioncommandpathtype)
+* classe [`MotionPath`](/slides/python-net/pt/aspose.slides.animation/motionpath)
+* enumeração [`MotionPathPointsType`](/slides/python-net/pt/aspose.slides.animation/motionpathpointstype)
+* módulo [`aspose.slides.animation`](/slides/python-net/pt/aspose.slides.animation)
+* biblioteca [`Aspose.Slides`](/slides/python-net)

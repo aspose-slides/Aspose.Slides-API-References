@@ -1,12 +1,12 @@
 ---
 title: quadratic_bezier_to method
-second_title: Aspose.Slides for Python via .NET API 參考文件
+second_title: Aspose.Slides for Python via .NET API 參考
 description: 
 type: docs
 url: /zh-hant/aspose.slides/igeometrypath/quadratic_bezier_to/
 weight: 60
 ---
-## quadratic_bezier_to(self, point1, point2) {#asposepydrawingpointf-asposepydrawingpointf}
+## quadratic_bezier_to(self, point1, point2) {#asposeslidespointf-asposeslidespointf}
 在路徑末端加入二次貝塞爾曲線
 
 
@@ -18,11 +18,11 @@ def quadratic_bezier_to(self, point1, point2):
 
 | 參數 | 類型 | 說明 |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | 方向點 |
-| point2 | **aspose.slides.PointF** | 終點 |
+| point1 | [`PointF`](/slides/python-net/zh-hant/aspose.slides/pointf) | 方向點 |
+| point2 | [`PointF`](/slides/python-net/zh-hant/aspose.slides/pointf) | 終點 |
 
 
-## quadratic_bezier_to(self, point1, point2, index) {#asposepydrawingpointf-asposepydrawingpointf-int}
+## quadratic_bezier_to(self, point1, point2, index) {#asposeslidespointf-asposeslidespointf-int}
 在路徑的指定位置加入二次貝塞爾曲線
 
 
@@ -34,11 +34,11 @@ def quadratic_bezier_to(self, point1, point2, index):
 
 | 參數 | 類型 | 說明 |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | 方向點 |
-| point2 | **aspose.slides.PointF** | 終點 |
+| point1 | [`PointF`](/slides/python-net/zh-hant/aspose.slides/pointf) | 方向點 |
+| point2 | [`PointF`](/slides/python-net/zh-hant/aspose.slides/pointf) | 終點 |
 | index | **int** | PathData 中段的索引 |
 
-### Exceptions
+### 例外狀況
 
 | 例外 | 說明 |
 | :- | :- |
@@ -81,7 +81,7 @@ def quadratic_bezier_to(self, x1, y1, x2, y2, index):
 | y2 | **float** | 終點的 Y 座標 |
 | index | **int** | PathData 中段的索引 |
 
-### Exceptions
+### 例外狀況
 
 | 例外 | 說明 |
 | :- | :- |
@@ -89,7 +89,8 @@ def quadratic_bezier_to(self, x1, y1, x2, y2, index):
 
 
 
-### See Also
+### 參見
 * 類別 [`IGeometryPath`](/slides/python-net/zh-hant/aspose.slides/igeometrypath)
+* 類別 [`PointF`](/slides/python-net/zh-hant/aspose.slides/pointf)
 * 模組 [`aspose.slides`](/slides/python-net/zh-hant/aspose.slides)
-* 函式庫 [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

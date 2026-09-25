@@ -6,7 +6,7 @@ type: docs
 url: /id/aspose.slides/igeometrypath/quadratic_bezier_to/
 weight: 60
 ---
-## quadratic_bezier_to(self, point1, point2) {#asposepydrawingpointf-asposepydrawingpointf}
+## quadratic_bezier_to(self, point1, point2) {#asposeslidespointf-asposeslidespointf}
 Menambahkan kurva Bezier kuadratik di akhir jalur
 
 
@@ -18,12 +18,12 @@ def quadratic_bezier_to(self, point1, point2):
 
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | Titik arah |
-| point2 | **aspose.slides.PointF** | Titik akhir |
+| point1 | [`PointF`](/slides/python-net/id/aspose.slides/pointf) | Titik arah |
+| point2 | [`PointF`](/slides/python-net/id/aspose.slides/pointf) | Titik akhir |
 
 
-## quadratic_bezier_to(self, point1, point2, index) {#asposepydrawingpointf-asposepydrawingpointf-int}
-Menambahkan kurva Bezier kuadratik ke tempat yang ditentukan pada jalur
+## quadratic_bezier_to(self, point1, point2, index) {#asposeslidespointf-asposeslidespointf-int}
+Menambahkan kurva Bezier kuadratik ke tempat yang ditentukan dalam jalur
 
 
 ```python
@@ -34,15 +34,15 @@ def quadratic_bezier_to(self, point1, point2, index):
 
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | Titik arah |
-| point2 | **aspose.slides.PointF** | Titik akhir |
+| point1 | [`PointF`](/slides/python-net/id/aspose.slides/pointf) | Titik arah |
+| point2 | [`PointF`](/slides/python-net/id/aspose.slides/pointf) | Titik akhir |
 | index | **int** | Indeks segmen dalam PathData |
 
 ### Pengecualian
 
 | Pengecualian | Deskripsi |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Indeks segmen berada di luar jangkauan PathData |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Indeks segmen berada di luar rentang PathData |
 
 
 ## quadratic_bezier_to(self, x1, y1, x2, y2) {#float-float-float-float}
@@ -64,7 +64,7 @@ def quadratic_bezier_to(self, x1, y1, x2, y2):
 
 
 ## quadratic_bezier_to(self, x1, y1, x2, y2, index) {#float-float-float-float-int}
-Menambahkan kurva Bezier kuadratik ke tempat yang ditentukan pada jalur
+Menambahkan kurva Bezier kuadratik ke tempat yang ditentukan dalam jalur
 
 
 ```python
@@ -85,11 +85,12 @@ def quadratic_bezier_to(self, x1, y1, x2, y2, index):
 
 | Pengecualian | Deskripsi |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Indeks segmen berada di luar jangkauan PathData |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Indeks segmen berada di luar rentang PathData |
 
 
 
 ### Lihat Juga
 * kelas [`IGeometryPath`](/slides/python-net/id/aspose.slides/igeometrypath)
+* kelas [`PointF`](/slides/python-net/id/aspose.slides/pointf)
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
 * perpustakaan [`Aspose.Slides`](/slides/python-net)

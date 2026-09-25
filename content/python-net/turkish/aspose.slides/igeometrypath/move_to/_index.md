@@ -6,7 +6,7 @@ type: docs
 url: /tr/aspose.slides/igeometrypath/move_to/
 weight: 50
 ---
-## move_to(self, point) {#asposepydrawingpointf}
+## move_to(self, point) {#asposeslidespointf}
 Sonraki nokta konumunu ayarlar.
 
 
@@ -18,7 +18,7 @@ def move_to(self, point):
 
 | Parametre | Tür | Açıklama |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | Nokta konumu |
+| point | [`PointF`](/slides/python-net/tr/aspose.slides/pointf) | Nokta konumu |
 
 
 ## move_to(self, x, y) {#float-float}
@@ -38,7 +38,8 @@ def move_to(self, x, y):
 
 
 
-### Bakınız
+### Ayrıca Bakınız
 * sınıf [`IGeometryPath`](/slides/python-net/tr/aspose.slides/igeometrypath)
+* sınıf [`PointF`](/slides/python-net/tr/aspose.slides/pointf)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

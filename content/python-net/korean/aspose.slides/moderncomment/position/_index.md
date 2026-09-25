@@ -7,8 +7,8 @@ url: /ko/aspose.slides/moderncomment/position/
 weight: 60
 ---
 ## position 속성
-슬라이드에 있는 주석의 position을 반환하거나 설정합니다.
-            읽기/쓰기 **aspose.slides.PointF**.
+주석이 포함된 슬라이드에서 position을 반환하거나 설정합니다.
+            읽기/쓰기 [`PointF`](/slides/python-net/ko/aspose.slides/pointf).
 
 ### 정의:
 ```python
@@ -22,7 +22,8 @@ def position(self, value):
 ```
 
 
-### 참고
+### 참조
 * 클래스 [`ModernComment`](/slides/python-net/ko/aspose.slides/moderncomment)
+* 클래스 [`PointF`](/slides/python-net/ko/aspose.slides/pointf)
 * 모듈 [`aspose.slides`](/slides/python-net/ko/aspose.slides)
 * 라이브러리 [`Aspose.Slides`](/slides/python-net)

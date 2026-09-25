@@ -7,8 +7,8 @@ url: /cs/aspose.slides/ipatternformateffectivedata/fore_color/
 weight: 30
 ---
 ## fore_color vlastnost
-Returns the foreground pattern color.
-            Pouze pro čtení **aspose.slides.Color**.
+Vrací barvu popředí vzoru.
+            Jen pro čtení [`Color`](/slides/python-net/cs/aspose.slides/color).
 
 ### Definice:
 ```python
@@ -20,5 +20,6 @@ def fore_color(self):
 
 ### Viz také
 * třída [`IPatternFormatEffectiveData`](/slides/python-net/cs/aspose.slides/ipatternformateffectivedata)
+* třída [`Color`](/slides/python-net/cs/aspose.slides/color)
 * modul [`aspose.slides`](/slides/python-net/cs/aspose.slides)
 * knihovna [`Aspose.Slides`](/slides/python-net)

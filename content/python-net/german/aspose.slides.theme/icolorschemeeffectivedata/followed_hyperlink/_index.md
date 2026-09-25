@@ -1,6 +1,6 @@
 ---
 title: followed_hyperlink property
-second_title: Aspose.Slides für Python via .NET API-Referenz
+second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides.theme/icolorschemeeffectivedata/followed_hyperlink/
@@ -8,7 +8,7 @@ weight: 90
 ---
 ## followed_hyperlink Eigenschaft
 Farbe für die besuchten Hyperlinks.
-            Nur lesbar **aspose.slides.Color**.
+            Nur lesbar [`Color`](/slides/python-net/de/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def followed_hyperlink(self):
 
 ### Siehe auch
 * Klasse [`IColorSchemeEffectiveData`](/slides/python-net/de/aspose.slides.theme/icolorschemeeffectivedata)
+* Klasse [`Color`](/slides/python-net/de/aspose.slides/color)
 * Modul [`aspose.slides.theme`](/slides/python-net/de/aspose.slides.theme)
 * Bibliothek [`Aspose.Slides`](/slides/python-net)

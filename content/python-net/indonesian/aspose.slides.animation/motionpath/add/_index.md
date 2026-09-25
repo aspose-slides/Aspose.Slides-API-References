@@ -6,15 +6,13 @@ type: docs
 url: /id/aspose.slides.animation/motionpath/add/
 weight: 20
 ---
-## add(self, type, pts, pts_type, b_relative_coord) {#motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool}
+## add(self, type, pts, pts_type, b_relative_coord) {#motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool}
 Tambahkan perintah baru ke jalur
-
 
 ```python
 def add(self, type, pts, pts_type, b_relative_coord):
     ...
 ```
-
 
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
@@ -22,8 +20,6 @@ def add(self, type, pts, pts_type, b_relative_coord):
 | pts | **List[aspose.slides.PointF]** |  |
 | pts_type | [`MotionPathPointsType`](/slides/python-net/id/aspose.slides.animation/motionpathpointstype) |  |
 | b_relative_coord | **bool** |  |
-
-
 
 ### Lihat Juga
 * kelas [`IMotionCmdPath`](/slides/python-net/id/aspose.slides.animation/imotioncmdpath)

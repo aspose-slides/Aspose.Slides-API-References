@@ -6,8 +6,8 @@ type: docs
 url: /zh/aspose.slides.theme/iformatschemeeffectivedata/get_background_fill_styles/
 weight: 10
 ---
-## get_background_fill_styles(self, style_color) {#asposepydrawingcolor}
-返回一个由主题定义的背景填充样式集合。
+## get_background_fill_styles(self, style_color) {#asposeslidescolor}
+返回一组主题定义的背景填充样式。
 
 ### 返回
 
@@ -23,12 +23,13 @@ def get_background_fill_styles(self, style_color):
 
 | 参数 | 类型 | 描述 |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | 颜色 **aspose.slides.Color** |
+| style_color | [`Color`](/slides/python-net/zh/aspose.slides/color) | 颜色 [`Color`](/slides/python-net/zh/aspose.slides/color) |
 
 
 
 ### 另请参见
 * 类 [`IFillFormatCollectionEffectiveData`](/slides/python-net/zh/aspose.slides.theme/ifillformatcollectioneffectivedata)
 * 类 [`IFormatSchemeEffectiveData`](/slides/python-net/zh/aspose.slides.theme/iformatschemeeffectivedata)
+* 类 [`Color`](/slides/python-net/zh/aspose.slides/color)
 * 模块 [`aspose.slides.theme`](/slides/python-net/zh/aspose.slides.theme)
 * 库 [`Aspose.Slides`](/slides/python-net)

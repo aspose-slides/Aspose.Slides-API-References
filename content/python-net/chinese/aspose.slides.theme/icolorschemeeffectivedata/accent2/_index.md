@@ -7,8 +7,8 @@ url: /zh/aspose.slides.theme/icolorschemeeffectivedata/accent2/
 weight: 20
 ---
 ## accent2 属性
-方案中的第二种强调颜色。
-            只读 **aspose.slides.Color**.
+方案中的第二个强调颜色。
+            只读 [`Color`](/slides/python-net/zh/aspose.slides/color).
 
 ### 定义:
 ```python
@@ -20,5 +20,6 @@ def accent2(self):
 
 ### 另见
 * 类 [`IColorSchemeEffectiveData`](/slides/python-net/zh/aspose.slides.theme/icolorschemeeffectivedata)
+* 类 [`Color`](/slides/python-net/zh/aspose.slides/color)
 * 模块 [`aspose.slides.theme`](/slides/python-net/zh/aspose.slides.theme)
 * 库 [`Aspose.Slides`](/slides/python-net)

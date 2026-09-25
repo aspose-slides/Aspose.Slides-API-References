@@ -1,13 +1,13 @@
 ---
 title: cubic_bezier_to method
-second_title: Aspose.Slides for Python via .NET API referenciája
+second_title: Aspose.Slides Pythonhoz a .NET API referencián keresztül
 description: 
 type: docs
 url: /hu/aspose.slides/geometrypath/cubic_bezier_to/
 weight: 40
 ---
-## cubic_bezier_to(self, point1, point2, point3) {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf}
-Kúbikus Bezier-görbét ad az útvonal végéhez
+## cubic_bezier_to(self, point1, point2, point3) {#asposeslidespointf-asposeslidespointf-asposeslidespointf}
+Kubikus Bézier-görbét ad az útvonal végére
 
 
 ```python
@@ -16,15 +16,15 @@ def cubic_bezier_to(self, point1, point2, point3):
 ```
 
 
-| Paraméter | Típus | Leírás |
+| Parameter | Type | Description |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | Az első iránypont |
-| point2 | **aspose.slides.PointF** | A második iránypont |
-| point3 | **aspose.slides.PointF** | A végpont |
+| point1 | [`PointF`](/slides/python-net/hu/aspose.slides/pointf) | Az első iránypont |
+| point2 | [`PointF`](/slides/python-net/hu/aspose.slides/pointf) | A második iránypont |
+| point3 | [`PointF`](/slides/python-net/hu/aspose.slides/pointf) | Végpont |
 
 
-## cubic_bezier_to(self, point1, point2, point3, index) {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf-int}
-Kúbikus Bezier-görbét ad a megadott helyre az útvonalban
+## cubic_bezier_to(self, point1, point2, point3, index) {#asposeslidespointf-asposeslidespointf-asposeslidespointf-int}
+Kubikus Bézier-görbét ad a megadott helyre az útvonalon
 
 
 ```python
@@ -33,22 +33,22 @@ def cubic_bezier_to(self, point1, point2, point3, index):
 ```
 
 
-| Paraméter | Típus | Leírás |
+| Parameter | Type | Description |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | Az első iránypont |
-| point2 | **aspose.slides.PointF** | A második iránypont |
-| point3 | **aspose.slides.PointF** | A végpont |
+| point1 | [`PointF`](/slides/python-net/hu/aspose.slides/pointf) | Az első iránypont |
+| point2 | [`PointF`](/slides/python-net/hu/aspose.slides/pointf) | A második iránypont |
+| point3 | [`PointF`](/slides/python-net/hu/aspose.slides/pointf) | Végpont |
 | index | **int** | A szegmens indexe a PathData-ban |
 
 ### Kivételek
 
-| Kivétel | Leírás |
+| Exception | Description |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | A szegmens indexe a PathData tartományán kívül van |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | A szegmens indexe kívül esik a PathData tartományán |
 
 
 ## cubic_bezier_to(self, x1, y1, x2, y2, x3, y3) {#float-float-float-float-float-float}
-Kúbikus Bezier-görbét ad az útvonal végéhez
+Kubikus Bézier-görbét ad az útvonal végére
 
 
 ```python
@@ -57,7 +57,7 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3):
 ```
 
 
-| Paraméter | Típus | Leírás |
+| Parameter | Type | Description |
 | :- | :- | :- |
 | x1 | **float** | Az első iránypont X koordinátája |
 | y1 | **float** | Az első iránypont Y koordinátája |
@@ -68,7 +68,7 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3):
 
 
 ## cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index) {#float-float-float-float-float-float-int}
-Kúbikus Bezier-görbét ad a megadott helyre az útvonalban
+Kubikus Bézier-görbét ad a megadott helyre az útvonalon
 
 
 ```python
@@ -77,7 +77,7 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index):
 ```
 
 
-| Paraméter | Típus | Leírás |
+| Parameter | Type | Description |
 | :- | :- | :- |
 | x1 | **float** | Az első iránypont X koordinátája |
 | y1 | **float** | Az első iránypont Y koordinátája |
@@ -89,13 +89,14 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index):
 
 ### Kivételek
 
-| Kivétel | Leírás |
+| Exception | Description |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | A szegmens indexe a PathData tartományán kívül van |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | A szegmens indexe kívül esik a PathData tartományán |
 
 
 
 ### Lásd még
 * osztály [`GeometryPath`](/slides/python-net/hu/aspose.slides/geometrypath)
+* osztály [`PointF`](/slides/python-net/hu/aspose.slides/pointf)
 * modul [`aspose.slides`](/slides/python-net/hu/aspose.slides)
 * könyvtár [`Aspose.Slides`](/slides/python-net)

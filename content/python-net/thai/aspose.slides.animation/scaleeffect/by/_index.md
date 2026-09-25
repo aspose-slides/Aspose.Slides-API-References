@@ -6,11 +6,11 @@ type: docs
 url: /th/aspose.slides.animation/scaleeffect/by/
 weight: 50
 ---
-## โดยคุณสมบัติ
-อธิบายค่าการเลื่อนเชิงสัมพันธ์สำหรับการเคลื่อนไหว (เป็นเปอร์เซ็นต์).
-            อ่าน/เขียน **aspose.slides.PointF**.
+##โดยคุณสมบัติ
+อธิบายค่าการเลื่อนตำแหน่งสัมพัทธ์ของการเคลื่อนไหว (เป็นเปอร์เซ็นต์).
+อ่าน/เขียน [`PointF`](/slides/python-net/th/aspose.slides/pointf).
 
-### คำนิยาม:
+###คำอธิบาย:
 ```python
 @property
 def by(self):
@@ -21,8 +21,8 @@ def by(self, value):
     ...
 ```
 
-
-### ดูเพิ่มเติม
+###ดูเพิ่มเติม
 * คลาส [`ScaleEffect`](/slides/python-net/th/aspose.slides.animation/scaleeffect)
+* คลาส [`PointF`](/slides/python-net/th/aspose.slides/pointf)
 * โมดูล [`aspose.slides.animation`](/slides/python-net/th/aspose.slides.animation)
 * ไลบรารี [`Aspose.Slides`](/slides/python-net)

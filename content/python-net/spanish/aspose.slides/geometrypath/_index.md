@@ -1,6 +1,6 @@
 ---
 title: GeometryPath class
-second_title: Aspose.Slides para Python via .NET Referencia de API
+second_title: Aspose.Slides para Python a través de la referencia de API .NET
 description: 
 type: docs
 url: /es/aspose.slides/geometrypath/
@@ -29,23 +29,24 @@ El tipo GeometryPath expone los siguientes miembros:
 
 | Método | Descripción |
 | :- | :- |
-| [`line_to(self, point)`](/slides/python-net/es/aspose.slides/geometrypath/line_to/#asposepydrawingpointf) | Agrega una línea al final de la ruta |
+| [`line_to(self, point)`](/slides/python-net/es/aspose.slides/geometrypath/line_to/#asposeslidespointf) | Agrega una línea al final de la ruta |
 | [`line_to(self, x, y)`](/slides/python-net/es/aspose.slides/geometrypath/line_to/#float-float) | Agrega una línea al final de la ruta |
-| [`line_to(self, point, index)`](/slides/python-net/es/aspose.slides/geometrypath/line_to/#asposepydrawingpointf-int) | Agrega una línea al lugar especificado de la ruta |
+| [`line_to(self, point, index)`](/slides/python-net/es/aspose.slides/geometrypath/line_to/#asposeslidespointf-int) | Agrega una línea al lugar especificado de la ruta |
 | [`line_to(self, x, y, index)`](/slides/python-net/es/aspose.slides/geometrypath/line_to/#float-float-int) | Agrega una línea al lugar especificado de la ruta |
-| [`cubic_bezier_to(self, point1, point2, point3)`](/slides/python-net/es/aspose.slides/geometrypath/cubic_bezier_to/#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf) | Agrega una curva Bezier cúbica al final de la ruta |
-| [`cubic_bezier_to(self, x1, y1, x2, y2, x3, y3)`](/slides/python-net/es/aspose.slides/geometrypath/cubic_bezier_to/#float-float-float-float-float-float) | Agrega una curva Bezier cúbica al final de la ruta |
-| [`cubic_bezier_to(self, point1, point2, point3, index)`](/slides/python-net/es/aspose.slides/geometrypath/cubic_bezier_to/#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf-int) | Agrega una curva Bezier cúbica al lugar especificado de la ruta |
-| [`cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index)`](/slides/python-net/es/aspose.slides/geometrypath/cubic_bezier_to/#float-float-float-float-float-float-int) | Agrega una curva Bezier cúbica al lugar especificado de la ruta |
-| [`quadratic_bezier_to(self, point1, point2)`](/slides/python-net/es/aspose.slides/geometrypath/quadratic_bezier_to/#asposepydrawingpointf-asposepydrawingpointf) | Agrega una curva Bezier cuadrática al final de la ruta |
-| [`quadratic_bezier_to(self, x1, y1, x2, y2)`](/slides/python-net/es/aspose.slides/geometrypath/quadratic_bezier_to/#float-float-float-float) | Agrega una curva Bezier cuadrática al final de la ruta |
-| [`quadratic_bezier_to(self, point1, point2, index)`](/slides/python-net/es/aspose.slides/geometrypath/quadratic_bezier_to/#asposepydrawingpointf-asposepydrawingpointf-int) | Agrega una curva Bezier cuadrática al lugar especificado de la ruta |
-| [`quadratic_bezier_to(self, x1, y1, x2, y2, index)`](/slides/python-net/es/aspose.slides/geometrypath/quadratic_bezier_to/#float-float-float-float-int) | Agrega una curva Bezier cuadrática al lugar especificado de la ruta |
-| [`move_to(self, point)`](/slides/python-net/es/aspose.slides/geometrypath/move_to/#asposepydrawingpointf) | Establece la posición del siguiente punto. |
+| [`cubic_bezier_to(self, point1, point2, point3)`](/slides/python-net/es/aspose.slides/geometrypath/cubic_bezier_to/#asposeslidespointf-asposeslidespointf-asposeslidespointf) | Agrega una curva cúbica de Bézier al final de la ruta |
+| [`cubic_bezier_to(self, x1, y1, x2, y2, x3, y3)`](/slides/python-net/es/aspose.slides/geometrypath/cubic_bezier_to/#float-float-float-float-float-float) | Agrega una curva cúbica de Bézier al final de la ruta |
+| [`cubic_bezier_to(self, point1, point2, point3, index)`](/slides/python-net/es/aspose.slides/geometrypath/cubic_bezier_to/#asposeslidespointf-asposeslidespointf-asposeslidespointf-int) | Agrega una curva cúbica de Bézier al lugar especificado de la ruta |
+| [`cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index)`](/slides/python-net/es/aspose.slides/geometrypath/cubic_bezier_to/#float-float-float-float-float-float-int) | Agrega una curva cúbica de Bézier al lugar especificado de la ruta |
+| [`quadratic_bezier_to(self, point1, point2)`](/slides/python-net/es/aspose.slides/geometrypath/quadratic_bezier_to/#asposeslidespointf-asposeslidespointf) | Agrega una curva cuadrática de Bézier al final de la ruta |
+| [`quadratic_bezier_to(self, x1, y1, x2, y2)`](/slides/python-net/es/aspose.slides/geometrypath/quadratic_bezier_to/#float-float-float-float) | Agrega una curva cuadrática de Bézier al final de la ruta |
+| [`quadratic_bezier_to(self, point1, point2, index)`](/slides/python-net/es/aspose.slides/geometrypath/quadratic_bezier_to/#asposeslidespointf-asposeslidespointf-int) | Agrega una curva cuadrática de Bézier al lugar especificado de la ruta |
+| [`quadratic_bezier_to(self, x1, y1, x2, y2, index)`](/slides/python-net/es/aspose.slides/geometrypath/quadratic_bezier_to/#float-float-float-float-int) | Agrega una curva cuadrática de Bézier al lugar especificado de la ruta |
+| [`move_to(self, point)`](/slides/python-net/es/aspose.slides/geometrypath/move_to/#asposeslidespointf) | Establece la posición del siguiente punto. |
 | [`move_to(self, x, y)`](/slides/python-net/es/aspose.slides/geometrypath/move_to/#float-float) | Establece la posición del siguiente punto. |
 | [`remove_at(self, index)`](/slides/python-net/es/aspose.slides/geometrypath/remove_at/#int) | Elimina el segmento en el índice especificado de la ruta geométrica. |
 | [`close_figure(self)`](/slides/python-net/es/aspose.slides/geometrypath/close_figure/#) | Cierra la figura actual de esta ruta |
 | [`arc_to(self, width, heigth, start_angle, sweep_angle)`](/slides/python-net/es/aspose.slides/geometrypath/arc_to/#float-float-float-float) | Añade el arco especificado a la ruta. |
+
 
 ### Ver también
 * módulo [`aspose.slides`](/slides/python-net/es/aspose.slides)

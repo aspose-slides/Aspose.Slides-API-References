@@ -7,8 +7,8 @@ url: /fa/aspose.slides.animation/imotioneffect/from_address/
 weight: 60
 ---
 ## from_address ویژگی
-مختصات x/y را برای شروع انیمیشن مشخص می‌کند (به درصد). 
-            خواندن/نوشتن **aspose.slides.PointF**.
+Specifies an x/y co-ordinate to start the animation from (in percents). 
+            قابل خواندن/نوشتن [`PointF`](/slides/python-net/fa/aspose.slides/pointf).
 
 ### تعریف:
 ```python
@@ -21,7 +21,9 @@ def from_address(self, value):
     ...
 ```
 
+
 ### موارد مرتبط
 * کلاس [`IMotionEffect`](/slides/python-net/fa/aspose.slides.animation/imotioneffect)
+* کلاس [`PointF`](/slides/python-net/fa/aspose.slides/pointf)
 * ماژول [`aspose.slides.animation`](/slides/python-net/fa/aspose.slides.animation)
-* library [`Aspose.Slides`](/slides/python-net)
+* کتابخانه [`Aspose.Slides`](/slides/python-net)

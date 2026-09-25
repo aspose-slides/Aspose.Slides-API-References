@@ -1,12 +1,12 @@
 ---
 title: insert method
-second_title: Aspose.Slides for Python عبر .NET مرجع API
+second_title: مرجع API Aspose.Slides للـ Python عبر .NET
 description: 
 type: docs
 url: /ar/aspose.slides.animation/imotionpath/insert/
 weight: 30
 ---
-## insert(self, index, type, pts, pts_type, b_relative_coord) {#int-motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool}
+## insert(self, index, type, pts, pts_type, b_relative_coord) {#int-motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool}
 إدراج أمر جديد إلى المسار
 
 
@@ -16,19 +16,20 @@ def insert(self, index, type, pts, pts_type, b_relative_coord):
 ```
 
 
-| Parameter | Type | Description |
+| معامل | نوع | وصف |
 | :- | :- | :- |
-| index | **int** | المؤشر لإدراج الأمر **int** |
-| type | [`MotionCommandPathType`](/slides/python-net/ar/aspose.slides.animation/motioncommandpathtype) | نوع الأمر لتأثير الحركة في الرسوم المتحركة [`MotionCommandPathType`](/slides/python-net/ar/aspose.slides.animation/motioncommandpathtype) |
-| pts | **List[aspose.slides.PointF]** | مصفوفة النقاط **aspose.slides.PointF**[] |
-| pts_type | [`MotionPathPointsType`](/slides/python-net/ar/aspose.slides.animation/motionpathpointstype) | نوع النقاط في مسار الحركة المتحركة [`MotionPathPointsType`](/slides/python-net/ar/aspose.slides.animation/motionpathpointstype) |
-| b_relative_coord | **bool** | يشير إلى ما إذا كان يجب استخدام إحداثيات نسبية أم لا **bool** |
+| index | **int** | الفهرس لإدراج الأمر **int** |
+| type | [`MotionCommandPathType`](/slides/python-net/ar/aspose.slides.animation/motioncommandpathtype) | نوع الأمر لسلوك تأثير الحركة في الرسوم المتحركة [`MotionCommandPathType`](/slides/python-net/ar/aspose.slides.animation/motioncommandpathtype) |
+| pts | **List[aspose.slides.PointF]** | مصفوفة النقاط [`PointF`](/slides/python-net/ar/aspose.slides/pointf)[] |
+| pts_type | [`MotionPathPointsType`](/slides/python-net/ar/aspose.slides.animation/motionpathpointstype) | نوع النقاط في مسار حركة الرسوم المتحركة [`MotionPathPointsType`](/slides/python-net/ar/aspose.slides.animation/motionpathpointstype) |
+| b_relative_coord | **bool** | يشير إلى ما إذا كان سيتم استخدام إحداثيات نسبية أم لا **bool** |
 
 
 
 ### انظر أيضًا
-* الفئة [`IMotionPath`](/slides/python-net/ar/aspose.slides.animation/imotionpath)
-* التعداد [`MotionCommandPathType`](/slides/python-net/ar/aspose.slides.animation/motioncommandpathtype)
-* التعداد [`MotionPathPointsType`](/slides/python-net/ar/aspose.slides.animation/motionpathpointstype)
-* الوحدة [`aspose.slides.animation`](/slides/python-net/ar/aspose.slides.animation)
-* المكتبة [`Aspose.Slides`](/slides/python-net)
+* صنف [`IMotionPath`](/slides/python-net/ar/aspose.slides.animation/imotionpath)
+* تعداد [`MotionCommandPathType`](/slides/python-net/ar/aspose.slides.animation/motioncommandpathtype)
+* تعداد [`MotionPathPointsType`](/slides/python-net/ar/aspose.slides.animation/motionpathpointstype)
+* صنف [`PointF`](/slides/python-net/ar/aspose.slides/pointf)
+* وحدة [`aspose.slides.animation`](/slides/python-net/ar/aspose.slides.animation)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

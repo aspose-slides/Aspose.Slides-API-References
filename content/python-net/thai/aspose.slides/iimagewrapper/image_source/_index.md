@@ -1,16 +1,16 @@
 ---
 title: image_source property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides/iimagewrapper/image_source/
 weight: 30
 ---
 ## image_source คุณสมบัติ
-รับภาพ
-            อ่านอย่างเดียว **aspose.slides.Image**.
+ดึงภาพ
+            อ่านอย่างเดียว **aspose.slides.IImage**.
 
-### คำนิยาม:
+### การกำหนด:
 ```python
 @property
 def image_source(self):

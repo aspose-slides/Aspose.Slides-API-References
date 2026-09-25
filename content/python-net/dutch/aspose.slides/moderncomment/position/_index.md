@@ -6,9 +6,9 @@ type: docs
 url: /nl/aspose.slides/moderncomment/position/
 weight: 60
 ---
-## positie-eigenschap
-Geeft de positie van een reactie op een dia terug of stelt deze in.
-            Lezen/Schrijven **aspose.slides.PointF**.
+## positie eigenschap
+Geeft de positie van een opmerking op een dia terug of stelt deze in.
+            Lezen/schrijven [`PointF`](/slides/python-net/nl/aspose.slides/pointf).
 
 ### Definitie:
 ```python
@@ -24,5 +24,6 @@ def position(self, value):
 
 ### Zie ook
 * klasse [`ModernComment`](/slides/python-net/nl/aspose.slides/moderncomment)
+* klasse [`PointF`](/slides/python-net/nl/aspose.slides/pointf)
 * module [`aspose.slides`](/slides/python-net/nl/aspose.slides)
 * bibliotheek [`Aspose.Slides`](/slides/python-net)

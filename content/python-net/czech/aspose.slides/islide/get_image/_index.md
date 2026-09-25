@@ -1,17 +1,17 @@
 ---
 title: get_image method
-second_title: Aspose.Slides pro Python prostřednictvím .NET referenční dokumentace
+second_title: Aspose.Slides pro Python přes .NET – referenční příručka API
 description: 
 type: docs
 url: /cs/aspose.slides/islide/get_image/
 weight: 40
 ---
 ## get_image(self) {#}
-Vrací objekt miniatury obrázku (20% skutečné velikosti).
+Vrací objekt náhledu obrázku (20 % skutečné velikosti).
 
-### Návrat
+### Vrací
 
-Objekt obrázku **aspose.slides.Bitmap**
+Objekt Image **aspose.slides.IImage**
 
 
 
@@ -22,10 +22,10 @@ def get_image(self):
 
 
 
-## get_image(self, image_size) {#asposepydrawingsize}
-Vrací objekt obrázku se zadanou velikostí.
+## get_image(self, image_size) {#asposeslidessize}
+Vrací objekt obrázku se specifikovanou velikostí.
 
-### Návrat
+### Vrací
 
 Objekt Bitmap.
 
@@ -39,15 +39,15 @@ def get_image(self, image_size):
 
 | Parametr | Typ | Popis |
 | :- | :- | :- |
-| image_size | **aspose.slides.Size** | Velikost obrázku, který se má vytvořit. |
+| image_size | [`Size`](/slides/python-net/cs/aspose.slides/size) | Velikost obrázku k vytvoření. |
 
 
 ## get_image(self, options) {#asposeslidesexportitiffoptions}
-Vrací objekt miniatury TIFF bitmapy se specifikovanými parametry.
+Vrací náhled TIFF bitmap objekt se specifikovanými parametry.
 
-### Návrat
+### Vrací
 
-Objekt obrázku.
+Objekt Image.
 
 
 
@@ -63,9 +63,9 @@ def get_image(self, options):
 
 
 ## get_image(self, options) {#asposeslidesexportirenderingoptions}
-Vrací objekt miniatury Bitmap.
+Vrací náhled Bitmap objekt.
 
-### Návrat
+### Vrací
 
 Objekty Bitmap.
 
@@ -79,15 +79,15 @@ def get_image(self, options):
 
 | Parametr | Typ | Popis |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/cs/aspose.slides.export/irenderingoptions) | Možnosti vykreslování. |
+| options | [`IRenderingOptions`](/slides/python-net/cs/aspose.slides.export/irenderingoptions) | Možnosti vykreslení. |
 
 
 ## get_image(self, scale_x, scale_y) {#float-float}
-Vrací objekt obrázku s vlastním měřítkem.
+Vrací objekt obrázku s vlastním škálováním.
 
-### Návrat
+### Vrací
 
-Objekt obrázku **aspose.slides.Bitmap**
+Objekt Image **aspose.slides.IImage**
 
 
 
@@ -99,14 +99,14 @@ def get_image(self, scale_x, scale_y):
 
 | Parametr | Typ | Popis |
 | :- | :- | :- |
-| scale_x | **float** | Hodnota, o kterou se má tato miniatura měřít v ose x. |
-| scale_y | **float** | Hodnota, o kterou se má tato miniatura měřít v ose y. |
+| scale_x | **float** | Hodnota, o kterou se má tento náhled zvětšit ve směru osy x. |
+| scale_y | **float** | Hodnota, o kterou se má tento náhled zvětšit ve směru osy y. |
 
 
-## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposepydrawingsize}
-Vrací objekt miniatury Bitmap se zadanou velikostí.
+## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposeslidessize}
+Vrací náhled Bitmap objekt se specifikovanou velikostí.
 
-### Návrat
+### Vrací
 
 Objekty Bitmap.
 
@@ -120,14 +120,14 @@ def get_image(self, options, image_size):
 
 | Parametr | Typ | Popis |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/cs/aspose.slides.export/irenderingoptions) | Možnosti vykreslování. |
-| image_size | **aspose.slides.Size** | Velikost obrázku, který se má vytvořit. |
+| options | [`IRenderingOptions`](/slides/python-net/cs/aspose.slides.export/irenderingoptions) | Možnosti vykreslení. |
+| image_size | [`Size`](/slides/python-net/cs/aspose.slides/size) | Velikost obrázku k vytvoření. |
 
 
 ## get_image(self, options, scale_x, scale_y) {#asposeslidesexportirenderingoptions-float-float}
-Vrací objekt miniatury Bitmap s vlastním měřítkem.
+Vrací náhled Bitmap objekt s vlastním škálováním.
 
-### Návrat
+### Vrací
 
 Objekty Bitmap.
 
@@ -141,9 +141,9 @@ def get_image(self, options, scale_x, scale_y):
 
 | Parametr | Typ | Popis |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/cs/aspose.slides.export/irenderingoptions) | Možnosti vykreslování. |
-| scale_x | **float** | Hodnota, o kterou se má tato miniatura měřít v ose x. |
-| scale_y | **float** | Hodnota, o kterou se má tato miniatura měřít v ose y. |
+| options | [`IRenderingOptions`](/slides/python-net/cs/aspose.slides.export/irenderingoptions) | Možnosti vykreslení. |
+| scale_x | **float** | Hodnota, o kterou se má tento náhled zvětšit ve směru osy x. |
+| scale_y | **float** | Hodnota, o kterou se má tento náhled zvětšit ve směru osy y. |
 
 
 
@@ -152,5 +152,6 @@ def get_image(self, options, scale_x, scale_y):
 * třída [`IRenderingOptions`](/slides/python-net/cs/aspose.slides.export/irenderingoptions)
 * třída [`ISlide`](/slides/python-net/cs/aspose.slides/islide)
 * třída [`ITiffOptions`](/slides/python-net/cs/aspose.slides.export/itiffoptions)
+* třída [`Size`](/slides/python-net/cs/aspose.slides/size)
 * modul [`aspose.slides`](/slides/python-net/cs/aspose.slides)
 * knihovna [`Aspose.Slides`](/slides/python-net)

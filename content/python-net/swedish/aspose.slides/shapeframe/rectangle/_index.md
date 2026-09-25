@@ -6,9 +6,9 @@ type: docs
 url: /sv/aspose.slides/shapeframe/rectangle/
 weight: 100
 ---
-## rectangle egenskap
-Returns the coordinates of a frame.
-            Skrivskyddad **aspose.slides.RectangleF**.
+## rektangel egenskap
+Returnerar koordinaterna för en ram.
+            Skrivskyddad [`RectangleF`](/slides/python-net/sv/aspose.slides/rectanglef).
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def rectangle(self):
 
 ### Se även
 * klass [`ShapeFrame`](/slides/python-net/sv/aspose.slides/shapeframe)
+* klass [`RectangleF`](/slides/python-net/sv/aspose.slides/rectanglef)
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

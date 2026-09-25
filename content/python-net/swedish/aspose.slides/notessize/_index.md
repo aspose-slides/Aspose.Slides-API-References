@@ -7,23 +7,22 @@ url: /sv/aspose.slides/notessize/
 ---
 ## NotesSize klass
 
-Representerar en storlek på noteringsbilden.
+Representerar en storlek på en notbild.
 
-Typen NotesSize exponerar följande medlemmar:
+NotesSize-typen exponerar följande medlemmar:
 
 ## Konstruktörer
 
-| Constructor | Description |
+| Konstruktor | Beskrivning |
 | :- | :- |
 | [`__init__(self)`](/slides/python-net/sv/aspose.slides/notessize/__init__/#) |  |
 
 ## Egenskaper
 
-| Property | Description |
+| Egenskap | Beskrivning |
 | :- | :- |
-| [`size`](/slides/python-net/sv/aspose.slides/notessize/size/) | Returnerar eller anger storleken i punkter.<br/>            Läs/skriva **aspose.slides.SizeF**. |
+| [`size`](/slides/python-net/sv/aspose.slides/notessize/size/) | Returnerar eller anger storleken i punkter.<br/>            Läs/skriv [`SizeF`](/slides/python-net/sv/aspose.slides/sizef). |
 
-
-### Se även
+### Se också
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

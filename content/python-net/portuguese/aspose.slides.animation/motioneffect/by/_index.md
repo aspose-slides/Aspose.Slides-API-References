@@ -7,8 +7,8 @@ url: /pt/aspose.slides.animation/motioneffect/by/
 weight: 60
 ---
 ## por propriedade
-Descreve o valor de deslocamento relativo para a animação (em porcentagens).
-            Leitura/gravação **aspose.slides.PointF**.
+Descreve o valor de deslocamento relativo para a animação (em porcentagem).
+            Leitura/gravação [`PointF`](/slides/python-net/pt/aspose.slides/pointf).
 
 ### Definição:
 ```python
@@ -22,7 +22,8 @@ def by(self, value):
 ```
 
 
-### Ver Também
+### Veja Também
 * classe [`MotionEffect`](/slides/python-net/pt/aspose.slides.animation/motioneffect)
+* classe [`PointF`](/slides/python-net/pt/aspose.slides/pointf)
 * módulo [`aspose.slides.animation`](/slides/python-net/pt/aspose.slides.animation)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

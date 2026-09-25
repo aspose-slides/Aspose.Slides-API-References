@@ -6,33 +6,38 @@ type: docs
 url: /zh/aspose.slides/igeometrypath/cubic_bezier_to/
 weight: 30
 ---
-## cubic_bezier_to(self, point1, point2, point3) {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf}
+## cubic_bezier_to(self, point1, point2, point3) {#asposeslidespointf-asposeslidespointf-asposeslidespointf}
 在路径的末尾添加三次贝塞尔曲线
+
 
 ```python
 def cubic_bezier_to(self, point1, point2, point3):
     ...
 ```
 
+
 | 参数 | 类型 | 描述 |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | 第一个方向点 |
-| point2 | **aspose.slides.PointF** | 第二个方向点 |
-| point3 | **aspose.slides.PointF** | 结束点 |
+| point1 | [`PointF`](/slides/python-net/zh/aspose.slides/pointf) | 第一个方向点 |
+| point2 | [`PointF`](/slides/python-net/zh/aspose.slides/pointf) | 第二个方向点 |
+| point3 | [`PointF`](/slides/python-net/zh/aspose.slides/pointf) | 结束点 |
 
-## cubic_bezier_to(self, point1, point2, point3, index) {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf-int}
+
+## cubic_bezier_to(self, point1, point2, point3, index) {#asposeslidespointf-asposeslidespointf-asposeslidespointf-int}
 在路径的指定位置添加三次贝塞尔曲线
+
 
 ```python
 def cubic_bezier_to(self, point1, point2, point3, index):
     ...
 ```
 
+
 | 参数 | 类型 | 描述 |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | 第一个方向点 |
-| point2 | **aspose.slides.PointF** | 第二个方向点 |
-| point3 | **aspose.slides.PointF** | 结束点 |
+| point1 | [`PointF`](/slides/python-net/zh/aspose.slides/pointf) | 第一个方向点 |
+| point2 | [`PointF`](/slides/python-net/zh/aspose.slides/pointf) | 第二个方向点 |
+| point3 | [`PointF`](/slides/python-net/zh/aspose.slides/pointf) | 结束点 |
 | index | **int** | PathData 中段的索引 |
 
 ### 异常
@@ -41,14 +46,17 @@ def cubic_bezier_to(self, point1, point2, point3, index):
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | 段索引超出 PathData 范围 |
 
+
 ## cubic_bezier_to(self, x1, y1, x2, y2, x3, y3) {#float-float-float-float-float-float}
 在路径的末尾添加三次贝塞尔曲线
+
 
 ```python
 def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3):
     ...
 ```
 
+
 | 参数 | 类型 | 描述 |
 | :- | :- | :- |
 | x1 | **float** | 第一个方向点的 X 坐标 |
@@ -58,13 +66,16 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3):
 | x3 | **float** | 结束点的 X 坐标 |
 | y3 | **float** | 结束点的 Y 坐标 |
 
+
 ## cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index) {#float-float-float-float-float-float-int}
 在路径的指定位置添加三次贝塞尔曲线
+
 
 ```python
 def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index):
     ...
 ```
+
 
 | 参数 | 类型 | 描述 |
 | :- | :- | :- |
@@ -82,7 +93,10 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index):
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | 段索引超出 PathData 范围 |
 
+
+
 ### 另见
 * 类 [`IGeometryPath`](/slides/python-net/zh/aspose.slides/igeometrypath)
+* 类 [`PointF`](/slides/python-net/zh/aspose.slides/pointf)
 * 模块 [`aspose.slides`](/slides/python-net/zh/aspose.slides)
 * 库 [`Aspose.Slides`](/slides/python-net)

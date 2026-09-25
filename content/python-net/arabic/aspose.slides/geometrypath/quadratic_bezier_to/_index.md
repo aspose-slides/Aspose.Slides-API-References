@@ -1,12 +1,12 @@
 ---
 title: quadratic_bezier_to method
-second_title: Aspose.Slides للغة Python عبر .NET مرجع API
+second_title: Aspose.Slides للـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/geometrypath/quadratic_bezier_to/
 weight: 70
 ---
-## quadratic_bezier_to(self, point1, point2) {#asposepydrawingpointf-asposepydrawingpointf}
+## quadratic_bezier_to(self, point1, point2) {#asposeslidespointf-asposeslidespointf}
 يضيف منحنى بيزيه تربيعي في نهاية المسار
 
 
@@ -16,13 +16,13 @@ def quadratic_bezier_to(self, point1, point2):
 ```
 
 
-| Parameter | Type | Description |
+| المعامل | النوع | الوصف |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | نقطة الاتجاه |
-| point2 | **aspose.slides.PointF** | نقطة النهاية |
+| point1 | [`PointF`](/slides/python-net/ar/aspose.slides/pointf) | نقطة الاتجاه |
+| point2 | [`PointF`](/slides/python-net/ar/aspose.slides/pointf) | نقطة النهاية |
 
 
-## quadratic_bezier_to(self, point1, point2, index) {#asposepydrawingpointf-asposepydrawingpointf-int}
+## quadratic_bezier_to(self, point1, point2, index) {#asposeslidespointf-asposeslidespointf-int}
 يضيف منحنى بيزيه تربيعي إلى الموضع المحدد في المسار
 
 
@@ -32,15 +32,15 @@ def quadratic_bezier_to(self, point1, point2, index):
 ```
 
 
-| Parameter | Type | Description |
+| المعامل | النوع | الوصف |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | نقطة الاتجاه |
-| point2 | **aspose.slides.PointF** | نقطة النهاية |
+| point1 | [`PointF`](/slides/python-net/ar/aspose.slides/pointf) | نقطة الاتجاه |
+| point2 | [`PointF`](/slides/python-net/ar/aspose.slides/pointf) | نقطة النهاية |
 | index | **int** | فهرس الجزء في PathData |
 
-### Exceptions
+### الاستثناءات
 
-| Exception | Description |
+| استثناء | الوصف |
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | فهرس الجزء خارج نطاق PathData |
 
@@ -55,7 +55,7 @@ def quadratic_bezier_to(self, x1, y1, x2, y2):
 ```
 
 
-| Parameter | Type | Description |
+| المعامل | النوع | الوصف |
 | :- | :- | :- |
 | x1 | **float** | إحداثي X لنقطة الاتجاه |
 | y1 | **float** | إحداثي Y لنقطة الاتجاه |
@@ -73,7 +73,7 @@ def quadratic_bezier_to(self, x1, y1, x2, y2, index):
 ```
 
 
-| Parameter | Type | Description |
+| المعامل | النوع | الوصف |
 | :- | :- | :- |
 | x1 | **float** | إحداثي X لنقطة الاتجاه |
 | y1 | **float** | إحداثي Y لنقطة الاتجاه |
@@ -81,15 +81,16 @@ def quadratic_bezier_to(self, x1, y1, x2, y2, index):
 | y2 | **float** | إحداثي Y لنقطة النهاية |
 | index | **int** | فهرس الجزء في PathData |
 
-### Exceptions
+### الاستثناءات
 
-| Exception | Description |
+| استثناء | الوصف |
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | فهرس الجزء خارج نطاق PathData |
 
 
 
-### See Also
-* class [`GeometryPath`](/slides/python-net/ar/aspose.slides/geometrypath)
-* module [`aspose.slides`](/slides/python-net/ar/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+### انظر أيضًا
+* الفئة [`GeometryPath`](/slides/python-net/ar/aspose.slides/geometrypath)
+* الفئة [`PointF`](/slides/python-net/ar/aspose.slides/pointf)
+* الوحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
+* المكتبة [`Aspose.Slides`](/slides/python-net)

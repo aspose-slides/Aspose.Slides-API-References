@@ -1,6 +1,6 @@
 ---
 title: CommentCollection class
-second_title: Referência da API Aspose.Slides para Python via .NET
+second_title: Aspose.Slides para Python via .NET Referência da API
 description: 
 type: docs
 url: /pt/aspose.slides/commentcollection/
@@ -25,10 +25,10 @@ Obtém o elemento no índice especificado. Somente leitura [`Comment`](/slides/p
 | :- | :- |
 | [`to_array(self)`](/slides/python-net/pt/aspose.slides/commentcollection/to_array/#) | Cria e retorna um array com todos os comentários. |
 | [`to_array(self, start_index, count)`](/slides/python-net/pt/aspose.slides/commentcollection/to_array/#int-int) | Cria e retorna um array com todos os comentários do intervalo especificado. |
-| [`add_comment(self, text, slide, position, creation_time)`](/slides/python-net/pt/aspose.slides/commentcollection/add_comment/#str-islide-asposepydrawingpointf-datetime) | Adiciona um novo comentário ao final de uma coleção. |
-| [`add_modern_comment(self, text, slide, shape, position, creation_time)`](/slides/python-net/pt/aspose.slides/commentcollection/add_modern_comment/#str-islide-ishape-asposepydrawingpointf-datetime) | Adiciona um novo comentário moderno ao final de uma coleção. |
-| [`insert_comment(self, index, text, slide, position, creation_time)`](/slides/python-net/pt/aspose.slides/commentcollection/insert_comment/#int-str-islide-asposepydrawingpointf-datetime) | Insere um novo comentário em uma coleção no índice especificado. |
-| [`insert_modern_comment(self, index, text, slide, shape, position, creation_time)`](/slides/python-net/pt/aspose.slides/commentcollection/insert_modern_comment/#int-str-islide-ishape-asposepydrawingpointf-datetime) | Insere um novo comentário moderno em uma coleção no índice especificado. |
+| [`add_comment(self, text, slide, position, creation_time)`](/slides/python-net/pt/aspose.slides/commentcollection/add_comment/#str-islide-asposeslidespointf-datetime) | Adiciona um novo comentário ao final de uma coleção. |
+| [`add_modern_comment(self, text, slide, shape, position, creation_time)`](/slides/python-net/pt/aspose.slides/commentcollection/add_modern_comment/#str-islide-ishape-asposeslidespointf-datetime) | Adiciona um novo comentário moderno ao final de uma coleção. |
+| [`insert_comment(self, index, text, slide, position, creation_time)`](/slides/python-net/pt/aspose.slides/commentcollection/insert_comment/#int-str-islide-asposeslidespointf-datetime) | Insere um novo comentário em uma coleção no índice especificado. |
+| [`insert_modern_comment(self, index, text, slide, shape, position, creation_time)`](/slides/python-net/pt/aspose.slides/commentcollection/insert_modern_comment/#int-str-islide-ishape-asposeslidespointf-datetime) | Insere um novo comentário moderno em uma coleção no índice especificado. |
 | [`remove_at(self, index)`](/slides/python-net/pt/aspose.slides/commentcollection/remove_at/#int) | Remove o elemento no índice especificado em uma coleção. |
 | [`remove(self, comment)`](/slides/python-net/pt/aspose.slides/commentcollection/remove/#icomment) | Remove a primeira ocorrência do comentário especificado em uma coleção. |
 | [`clear(self)`](/slides/python-net/pt/aspose.slides/commentcollection/clear/#) | Remove todos os comentários de uma coleção. |

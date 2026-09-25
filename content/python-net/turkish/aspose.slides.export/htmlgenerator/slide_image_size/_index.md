@@ -1,14 +1,14 @@
 ---
 title: slide_image_size property
-second_title: Aspose.Slides for Python via .NET API Referansı
+second_title: Aspose.Slides Python için .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.export/htmlgenerator/slide_image_size/
 weight: 60
 ---
 ## slide_image_size özelliği
-Slayt görüntü boyutunu döndürür.
-            Salt okunur **aspose.slides.SizeF**.
+Slayt görüntüsü boyutunu döndürür.
+            Yalnızca okuyabilir [`SizeF`](/slides/python-net/tr/aspose.slides/sizef).
 
 ### Tanım:
 ```python
@@ -17,7 +17,9 @@ def slide_image_size(self):
     ...
 ```
 
-### İlgili
+
+### Ayrıca
 * sınıf [`HtmlGenerator`](/slides/python-net/tr/aspose.slides.export/htmlgenerator)
+* sınıf [`SizeF`](/slides/python-net/tr/aspose.slides/sizef)
 * modül [`aspose.slides.export`](/slides/python-net/tr/aspose.slides.export)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

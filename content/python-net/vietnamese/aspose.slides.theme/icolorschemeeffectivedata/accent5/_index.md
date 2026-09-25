@@ -1,14 +1,14 @@
 ---
 title: accent5 property
-second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
+second_title: Tham khảo API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides.theme/icolorschemeeffectivedata/accent5/
 weight: 50
 ---
 ## accent5 thuộc tính
-Màu nhấn mạnh thứ năm trong bảng màu.
-            Chỉ đọc **aspose.slides.Color**.
+Fifth accent color in the scheme.
+            Chỉ đọc [`Color`](/slides/python-net/vi/aspose.slides/color).
 
 ### Định nghĩa:
 ```python
@@ -18,7 +18,8 @@ def accent5(self):
 ```
 
 
-### Xem Thêm
+### Xem thêm
 * lớp [`IColorSchemeEffectiveData`](/slides/python-net/vi/aspose.slides.theme/icolorschemeeffectivedata)
-* mô-đun [`aspose.slides.theme`](/slides/python-net/vi/aspose.slides.theme)
+* lớp [`Color`](/slides/python-net/vi/aspose.slides/color)
+* module [`aspose.slides.theme`](/slides/python-net/vi/aspose.slides.theme)
 * thư viện [`Aspose.Slides`](/slides/python-net)

@@ -7,8 +7,8 @@ url: /nl/aspose.slides.animation/motioneffect/to/
 weight: 140
 ---
 ## naar eigenschap
-Specificeert de doelpositie voor een animatie-bewegingseffect (in procenten).
-            Lezen/schrijven **aspose.slides.PointF**.
+Specificeert de doellocatie voor een animatiebeweging (in procenten).
+            Lezen/schrijven [`PointF`](/slides/python-net/nl/aspose.slides/pointf).
 
 ### Definitie:
 ```python
@@ -24,5 +24,6 @@ def to(self, value):
 
 ### Zie ook
 * klasse [`MotionEffect`](/slides/python-net/nl/aspose.slides.animation/motioneffect)
+* klasse [`PointF`](/slides/python-net/nl/aspose.slides/pointf)
 * module [`aspose.slides.animation`](/slides/python-net/nl/aspose.slides.animation)
 * bibliotheek [`Aspose.Slides`](/slides/python-net)

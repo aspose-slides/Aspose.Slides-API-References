@@ -9,7 +9,7 @@ weight: 80
 ## image_size egenskap
 Anger storleken på en genererad TIFF-bild.
             Standardvärdet är 0x0, vilket betyder att genererade bildstorlekar beräknas baserat på presentationsbildens storleksvärde.
-            Läs/skriv **aspose.slides.Size**.
+            Läs/skriv [`Size`](/slides/python-net/sv/aspose.slides/size).
 
 ### Definition:
 ```python
@@ -23,7 +23,8 @@ def image_size(self, value):
 ```
 
 
-### Se också
+### Se även
 * klass [`ITiffOptions`](/slides/python-net/sv/aspose.slides.export/itiffoptions)
+* klass [`Size`](/slides/python-net/sv/aspose.slides/size)
 * modul [`aspose.slides.export`](/slides/python-net/sv/aspose.slides.export)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

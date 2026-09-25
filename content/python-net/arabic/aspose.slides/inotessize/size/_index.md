@@ -1,14 +1,14 @@
 ---
 title: size property
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: مرجع API Aspose.Slides للـ Python عبر .NET
 description: 
 type: docs
 url: /ar/aspose.slides/inotessize/size/
 weight: 10
 ---
-## خاصية size
-تُرجع أو تُعيّن الحجم بالنقاط.
-قراءة/كتابة **aspose.slides.SizeF**.
+## خاصية الحجم
+يرجع أو يضبط الحجم بالنقاط.
+            قراءة/كتابة [`SizeF`](/slides/python-net/ar/aspose.slides/sizef).
 
 ### التعريف:
 ```python
@@ -21,7 +21,9 @@ def size(self, value):
     ...
 ```
 
+
 ### انظر أيضًا
 * فئة [`INotesSize`](/slides/python-net/ar/aspose.slides/inotessize)
+* فئة [`SizeF`](/slides/python-net/ar/aspose.slides/sizef)
 * وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
 * مكتبة [`Aspose.Slides`](/slides/python-net)

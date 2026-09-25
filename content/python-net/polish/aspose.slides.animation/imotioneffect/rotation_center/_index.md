@@ -1,14 +1,14 @@
 ---
 title: rotation_center property
-second_title: Aspose.Slides dla Pythona poprzez .NET – referencja API
+second_title: Aspose.Slides dla Pythona poprzez .NET – dokumentacja API
 description: 
 type: docs
 url: /pl/aspose.slides.animation/imotioneffect/rotation_center/
 weight: 110
 ---
 ## rotation_center właściwość
-Opisuje środek obrotu używanego do obrócenia ścieżki ruchu o kąt X.
-            Odczyt/zapis **aspose.slides.PointF**.
+Opisuje środek obrotu używany do obrotu ścieżki ruchu o kąt X.
+            Odczyt/zapis [`PointF`](/slides/python-net/pl/aspose.slides/pointf).
 
 ### Definicja:
 ```python
@@ -24,5 +24,6 @@ def rotation_center(self, value):
 
 ### Zobacz także
 * klasa [`IMotionEffect`](/slides/python-net/pl/aspose.slides.animation/imotioneffect)
+* klasa [`PointF`](/slides/python-net/pl/aspose.slides/pointf)
 * moduł [`aspose.slides.animation`](/slides/python-net/pl/aspose.slides.animation)
 * biblioteka [`Aspose.Slides`](/slides/python-net)

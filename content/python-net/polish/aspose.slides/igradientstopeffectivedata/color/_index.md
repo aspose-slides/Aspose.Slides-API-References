@@ -1,14 +1,14 @@
 ---
 title: color property
-second_title: Aspose.Slides dla Pythona poprzez .NET Dokumentacja API
+second_title: Aspose.Slides dla Pythona przez .NET – referencja API
 description: 
 type: docs
 url: /pl/aspose.slides/igradientstopeffectivedata/color/
 weight: 10
 ---
-## właściwość color
-Zwraca kolor stopu gradientu.
-            Tylko do odczytu **aspose.slides.Color**.
+## color właściwość
+Zwraca kolor przystanku gradientu.
+            Tylko do odczytu [`Color`](/slides/python-net/pl/aspose.slides/color).
 
 ### Definicja:
 ```python
@@ -20,5 +20,6 @@ def color(self):
 
 ### Zobacz także
 * klasa [`IGradientStopEffectiveData`](/slides/python-net/pl/aspose.slides/igradientstopeffectivedata)
+* klasa [`Color`](/slides/python-net/pl/aspose.slides/color)
 * moduł [`aspose.slides`](/slides/python-net/pl/aspose.slides)
 * biblioteka [`Aspose.Slides`](/slides/python-net)

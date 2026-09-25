@@ -7,8 +7,8 @@ url: /zh/aspose.slides.theme/icolorschemeeffectivedata/hyperlink/
 weight: 100
 ---
 ## 超链接属性
-Color for the hyperlinks.
-            只读 **aspose.slides.Color**.
+超链接的颜色。
+            只读 [`Color`](/slides/python-net/zh/aspose.slides/color).
 
 ### 定义:
 ```python
@@ -18,7 +18,8 @@ def hyperlink(self):
 ```
 
 
-### 另请参阅
+### 另请参见
 * 类 [`IColorSchemeEffectiveData`](/slides/python-net/zh/aspose.slides.theme/icolorschemeeffectivedata)
+* 类 [`Color`](/slides/python-net/zh/aspose.slides/color)
 * 模块 [`aspose.slides.theme`](/slides/python-net/zh/aspose.slides.theme)
 * 库 [`Aspose.Slides`](/slides/python-net)

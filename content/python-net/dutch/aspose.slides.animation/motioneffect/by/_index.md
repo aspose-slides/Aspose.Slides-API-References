@@ -1,6 +1,6 @@
 ---
 title: by property
-second_title: Aspose.Slides voor Python via .NET API-referentie
+second_title: Aspose.Slides voor Python via .NET API Referentie
 description: 
 type: docs
 url: /nl/aspose.slides.animation/motioneffect/by/
@@ -8,7 +8,7 @@ weight: 60
 ---
 ## per eigenschap
 Beschrijft de relatieve offsetwaarde voor de animatie (in procenten).
-            Lezen/Schrijven **aspose.slides.PointF**.
+            Lezen/Schrijven [`PointF`](/slides/python-net/nl/aspose.slides/pointf).
 
 ### Definitie:
 ```python
@@ -24,5 +24,6 @@ def by(self, value):
 
 ### Zie ook
 * klasse [`MotionEffect`](/slides/python-net/nl/aspose.slides.animation/motioneffect)
+* klasse [`PointF`](/slides/python-net/nl/aspose.slides/pointf)
 * module [`aspose.slides.animation`](/slides/python-net/nl/aspose.slides.animation)
 * bibliotheek [`Aspose.Slides`](/slides/python-net)

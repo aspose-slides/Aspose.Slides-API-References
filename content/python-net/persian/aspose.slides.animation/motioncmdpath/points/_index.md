@@ -6,9 +6,9 @@ type: docs
 url: /fa/aspose.slides.animation/motioncmdpath/points/
 weight: 30
 ---
-## points ویژگی
-نقاط فرمان را مشخص می‌کند.
-خواندنی/نوشتنی **aspose.slides.PointF**[].
+## points خاصیت
+نقاط command را مشخص می‌کند.
+            خواندن/نوشتن [`PointF`](/slides/python-net/fa/aspose.slides/pointf)[].
 
 ### تعریف:
 ```python
@@ -21,7 +21,9 @@ def points(self, value):
     ...
 ```
 
+
 ### موارد مرتبط
 * کلاس [`MotionCmdPath`](/slides/python-net/fa/aspose.slides.animation/motioncmdpath)
+* کلاس [`PointF`](/slides/python-net/fa/aspose.slides/pointf)
 * ماژول [`aspose.slides.animation`](/slides/python-net/fa/aspose.slides.animation)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

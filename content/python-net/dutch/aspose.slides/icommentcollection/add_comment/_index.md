@@ -6,10 +6,10 @@ type: docs
 url: /nl/aspose.slides/icommentcollection/add_comment/
 weight: 10
 ---
-## add_comment(self, text, slide, position, creation_time) {#str-islide-asposepydrawingpointf-datetime}
+## add_comment(self, text, slide, position, creation_time) {#str-islide-asposeslidespointf-datetime}
 Voeg een nieuwe opmerking toe aan het einde van een collectie.
 
-### Retour
+### Retourneert
 
 Toegevoegde opmerking.
 
@@ -25,14 +25,15 @@ def add_comment(self, text, slide, position, creation_time):
 | :- | :- | :- |
 | text | **str** | Platte tekst van een nieuwe opmerking. |
 | slide | [`ISlide`](/slides/python-net/nl/aspose.slides/islide) | Dia in een presentatie waarin een nieuwe opmerking moet worden toegevoegd. |
-| position | **aspose.slides.PointF** | Positie op een dia waarin een nieuwe opmerking moet worden toegevoegd. |
-| creation_time | **DateTime** | Tijd van het aanmaken van een opmerking. |
+| position | [`PointF`](/slides/python-net/nl/aspose.slides/pointf) | Positie op een dia waarin een nieuwe opmerking moet worden toegevoegd. |
+| creation_time | **DateTime** | Tijdstip van een opmerkingcreatie. |
 
 
 
 ### Zie ook
-* class [`IComment`](/slides/python-net/nl/aspose.slides/icomment)
-* class [`ICommentCollection`](/slides/python-net/nl/aspose.slides/icommentcollection)
-* class [`ISlide`](/slides/python-net/nl/aspose.slides/islide)
+* klasse [`IComment`](/slides/python-net/nl/aspose.slides/icomment)
+* klasse [`ICommentCollection`](/slides/python-net/nl/aspose.slides/icommentcollection)
+* klasse [`ISlide`](/slides/python-net/nl/aspose.slides/islide)
+* klasse [`PointF`](/slides/python-net/nl/aspose.slides/pointf)
 * module [`aspose.slides`](/slides/python-net/nl/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* bibliotheek [`Aspose.Slides`](/slides/python-net)

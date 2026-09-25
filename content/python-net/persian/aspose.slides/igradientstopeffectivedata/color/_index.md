@@ -1,14 +1,14 @@
 ---
 title: color property
-second_title: Aspose.Slides برای Python از طریق .NET مرجع API
+second_title: Aspose.Slides برای Python از طریق .NET API مرجع
 description: 
 type: docs
 url: /fa/aspose.slides/igradientstopeffectivedata/color/
 weight: 10
 ---
-## ویژگی رنگ
-رنگ یک توقف گرادیان را برمی‌گرداند.
-            فقط-خواندنی **aspose.slides.Color**.
+## ویژگی color
+رنگ یک نقطه گرادیان را برمی‌گرداند.
+فقط خواندنی [`Color`](/slides/python-net/fa/aspose.slides/color).
 
 ### تعریف:
 ```python
@@ -20,5 +20,6 @@ def color(self):
 
 ### موارد مرتبط
 * کلاس [`IGradientStopEffectiveData`](/slides/python-net/fa/aspose.slides/igradientstopeffectivedata)
+* کلاس [`Color`](/slides/python-net/fa/aspose.slides/color)
 * ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

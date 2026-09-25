@@ -6,12 +6,12 @@ type: docs
 url: /tr/aspose.slides/ipatternformat/get_tile/
 weight: 10
 ---
-## get_tile(self, style_color) {#asposepydrawingcolor}
-Desen doldurma için bir döşeme resmi oluşturur.
+## get_tile(self, style_color) {#asposeslidescolor}
+Desen dolgu için bir karo görüntüsü oluşturur.
 
-### Döndürür
+### Dönüş
 
-Döşeme **aspose.slides.Bitmap**.
+Tile **aspose.slides.IImage**.
 
 
 
@@ -23,15 +23,15 @@ def get_tile(self, style_color):
 
 | Parametre | Tür | Açıklama |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | Varsayılan **aspose.slides.Color**, <br/><br/>            ShapeEx'in StyleEx nesnesinde tanımlanmıştır. Doldurmanın renkleri buna bağlı olabilir. |
+| style_color | [`Color`](/slides/python-net/tr/aspose.slides/color) | Varsayılan [`Color`](/slides/python-net/tr/aspose.slides/color), <br/><br/> ShapeEx'in StyleEx nesnesinde tanımlanmıştır. Dolgunun renkleri buna bağlı olabilir. |
 
 
-## get_tile(self, background, foreground) {#asposepydrawingcolor-asposepydrawingcolor}
-Belirtilen renklerle desen doldurma için bir döşeme resmi oluşturur.
+## get_tile(self, background, foreground) {#asposeslidescolor-asposeslidescolor}
+Belirtilen renklerle desen dolgu için bir karo görüntüsü oluşturur.
 
-### Döndürür
+### Dönüş
 
-Döşeme **aspose.slides.Bitmap**.
+Tile **aspose.slides.IImage**.
 
 
 
@@ -43,13 +43,14 @@ def get_tile(self, background, foreground):
 
 | Parametre | Tür | Açıklama |
 | :- | :- | :- |
-| background | **aspose.slides.Color** | Desen için arka plan **aspose.slides.Color**. |
-| foreground | **aspose.slides.Color** | Desen için ön plan **aspose.slides.Color**. |
+| background | [`Color`](/slides/python-net/tr/aspose.slides/color) | Desen için arka plan [`Color`](/slides/python-net/tr/aspose.slides/color). |
+| foreground | [`Color`](/slides/python-net/tr/aspose.slides/color) | Desen için ön plan [`Color`](/slides/python-net/tr/aspose.slides/color). |
 
 
 
-### Ayrıca Bakınız
+### İlgili
 * sınıf [`IImage`](/slides/python-net/tr/aspose.slides/iimage)
 * sınıf [`IPatternFormat`](/slides/python-net/tr/aspose.slides/ipatternformat)
+* sınıf [`Color`](/slides/python-net/tr/aspose.slides/color)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

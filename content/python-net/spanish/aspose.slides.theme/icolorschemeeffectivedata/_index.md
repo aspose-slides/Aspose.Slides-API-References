@@ -1,32 +1,32 @@
 ---
 title: IColorSchemeEffectiveData class
-second_title: Referencia de API de Aspose.Slides para Python vía .NET
+second_title: Referencia de la API de Aspose.Slides para Python mediante .NET
 description: 
 type: docs
 url: /es/aspose.slides.theme/icolorschemeeffectivedata/
 ---
 ## IColorSchemeEffectiveData clase
 
-Objeto inmutable que contiene propiedades efectivas del esquema de color.
+Objeto inmutable que contiene propiedades efectivas del esquema de colores.
 
 El tipo IColorSchemeEffectiveData expone los siguientes miembros:
 
 ## Propiedades
 
-| Property | Description |
+| Propiedad | Descripción |
 | :- | :- |
-| [`dark1`](/slides/python-net/es/aspose.slides.theme/icolorschemeeffectivedata/dark1/) | Primer color oscuro en el esquema.<br/>            Solo lectura **aspose.slides.Color**. |
-| [`light1`](/slides/python-net/es/aspose.slides.theme/icolorschemeeffectivedata/light1/) | Primer color claro en el esquema.<br/>            Solo lectura **aspose.slides.Color**. |
-| [`dark2`](/slides/python-net/es/aspose.slides.theme/icolorschemeeffectivedata/dark2/) | Segundo color oscuro en el esquema.<br/>            Solo lectura **aspose.slides.Color**. |
-| [`light2`](/slides/python-net/es/aspose.slides.theme/icolorschemeeffectivedata/light2/) | Segundo color claro en el esquema.<br/>            Solo lectura **aspose.slides.Color**. |
-| [`accent1`](/slides/python-net/es/aspose.slides.theme/icolorschemeeffectivedata/accent1/) | Primer color de acento en el esquema.<br/>            Solo lectura **aspose.slides.Color**. |
-| [`accent2`](/slides/python-net/es/aspose.slides.theme/icolorschemeeffectivedata/accent2/) | Segundo color de acento en el esquema.<br/>            Solo lectura **aspose.slides.Color**. |
-| [`accent3`](/slides/python-net/es/aspose.slides.theme/icolorschemeeffectivedata/accent3/) | Tercer color de acento en el esquema.<br/>            Solo lectura **aspose.slides.Color**. |
-| [`accent4`](/slides/python-net/es/aspose.slides.theme/icolorschemeeffectivedata/accent4/) | Cuarto color de acento en el esquema.<br/>            Solo lectura **aspose.slides.Color**. |
-| [`accent5`](/slides/python-net/es/aspose.slides.theme/icolorschemeeffectivedata/accent5/) | Quinto color de acento en el esquema.<br/>            Solo lectura **aspose.slides.Color**. |
-| [`accent6`](/slides/python-net/es/aspose.slides.theme/icolorschemeeffectivedata/accent6/) | Sexto color de acento en el esquema.<br/>            Solo lectura **aspose.slides.Color**. |
-| [`hyperlink`](/slides/python-net/es/aspose.slides.theme/icolorschemeeffectivedata/hyperlink/) | Color para los hipervínculos.<br/>            Solo lectura **aspose.slides.Color**. |
-| [`followed_hyperlink`](/slides/python-net/es/aspose.slides.theme/icolorschemeeffectivedata/followed_hyperlink/) | Color para los hipervínculos visitados.<br/>            Solo lectura **aspose.slides.Color**. |
+| [`dark1`](/slides/python-net/es/aspose.slides.theme/icolorschemeeffectivedata/dark1/) | Primer color oscuro en el esquema.<br/>            Solo lectura [`Color`](/slides/python-net/es/aspose.slides/color). |
+| [`light1`](/slides/python-net/es/aspose.slides.theme/icolorschemeeffectivedata/light1/) | Primer color claro en el esquema.<br/>            Solo lectura [`Color`](/slides/python-net/es/aspose.slides/color). |
+| [`dark2`](/slides/python-net/es/aspose.slides.theme/icolorschemeeffectivedata/dark2/) | Segundo color oscuro en el esquema.<br/>            Solo lectura [`Color`](/slides/python-net/es/aspose.slides/color). |
+| [`light2`](/slides/python-net/es/aspose.slides.theme/icolorschemeeffectivedata/light2/) | Segundo color claro en el esquema.<br/>            Solo lectura [`Color`](/slides/python-net/es/aspose.slides/color). |
+| [`accent1`](/slides/python-net/es/aspose.slides.theme/icolorschemeeffectivedata/accent1/) | Primer color de acento en el esquema.<br/>            Solo lectura [`Color`](/slides/python-net/es/aspose.slides/color). |
+| [`accent2`](/slides/python-net/es/aspose.slides.theme/icolorschemeeffectivedata/accent2/) | Segundo color de acento en el esquema.<br/>            Solo lectura [`Color`](/slides/python-net/es/aspose.slides/color). |
+| [`accent3`](/slides/python-net/es/aspose.slides.theme/icolorschemeeffectivedata/accent3/) | Tercer color de acento en el esquema.<br/>            Solo lectura [`Color`](/slides/python-net/es/aspose.slides/color). |
+| [`accent4`](/slides/python-net/es/aspose.slides.theme/icolorschemeeffectivedata/accent4/) | Cuarto color de acento en el esquema.<br/>            Solo lectura [`Color`](/slides/python-net/es/aspose.slides/color). |
+| [`accent5`](/slides/python-net/es/aspose.slides.theme/icolorschemeeffectivedata/accent5/) | Quinto color de acento en el esquema.<br/>            Solo lectura [`Color`](/slides/python-net/es/aspose.slides/color). |
+| [`accent6`](/slides/python-net/es/aspose.slides.theme/icolorschemeeffectivedata/accent6/) | Sexto color de acento en el esquema.<br/>            Solo lectura [`Color`](/slides/python-net/es/aspose.slides/color). |
+| [`hyperlink`](/slides/python-net/es/aspose.slides.theme/icolorschemeeffectivedata/hyperlink/) | Color para los hipervínculos.<br/>            Solo lectura [`Color`](/slides/python-net/es/aspose.slides/color). |
+| [`followed_hyperlink`](/slides/python-net/es/aspose.slides.theme/icolorschemeeffectivedata/followed_hyperlink/) | Color para los hipervínculos visitados.<br/>            Solo lectura [`Color`](/slides/python-net/es/aspose.slides/color). |
 
 
 ### Observaciones

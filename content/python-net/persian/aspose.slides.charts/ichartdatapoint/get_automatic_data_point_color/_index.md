@@ -7,12 +7,12 @@ url: /fa/aspose.slides.charts/ichartdatapoint/get_automatic_data_point_color/
 weight: 10
 ---
 ## get_automatic_data_point_color(self) {#}
-رنگ خودکار نقطه داده بر اساس شاخص سری، شاخص نقطه داده، ویژگی ParentSeriesGroup.IsColorVaried و سبک نمودار بازگردانده می‌شود. 
-این رنگ به طور پیش‌فرض استفاده می‌شود اگر FillType برابر NotDefined باشد.
+یک رنگ خودکار برای نقطه داده بر اساس اندیس سری، اندیس نقطه داده، ویژگی ParentSeriesGroup.IsColorVaried و سبک نمودار برمی‌گرداند. 
+            این رنگ به‌صورت پیش‌فرض استفاده می‌شود اگر FillType برابر NotDefined باشد.
 
 ### بازگشت
 
-رنگ خودکار نقطه داده **aspose.slides.Color**
+رنگ خودکار نقطه داده [`Color`](/slides/python-net/fa/aspose.slides/color)
 
 
 
@@ -24,7 +24,8 @@ def get_automatic_data_point_color(self):
 
 
 
-### همچنین ببینید
+### مراجع
 * کلاس [`IChartDataPoint`](/slides/python-net/fa/aspose.slides.charts/ichartdatapoint)
+* کلاس [`Color`](/slides/python-net/fa/aspose.slides/color)
 * ماژول [`aspose.slides.charts`](/slides/python-net/fa/aspose.slides.charts)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

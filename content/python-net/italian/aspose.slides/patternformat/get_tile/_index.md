@@ -6,12 +6,12 @@ type: docs
 url: /it/aspose.slides/patternformat/get_tile/
 weight: 10
 ---
-## get_tile(self, style_color) {#asposepydrawingcolor}
+## get_tile(self, style_color) {#asposeslidescolor}
 Crea un'immagine tile per il riempimento a motivo.
 
 ### Restituisce
 
-Tile [`IImage`](/slides/python-net/it/aspose.slides/iimage).
+Riquadro [`IImage`](/slides/python-net/it/aspose.slides/iimage).
 
 
 
@@ -23,15 +23,15 @@ def get_tile(self, style_color):
 
 | Parametro | Tipo | Descrizione |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | Il valore predefinito **aspose.slides.Color** |
+| style_color | [`Color`](/slides/python-net/it/aspose.slides/color) | Il valore predefinito [`Color`](/slides/python-net/it/aspose.slides/color) |
 
 
-## get_tile(self, background, foreground) {#asposepydrawingcolor-asposepydrawingcolor}
-Crea un'immagine tile per il riempimento a motivo con colori specificati.
+## get_tile(self, background, foreground) {#asposeslidescolor-asposeslidescolor}
+Crea un'immagine tile per il riempimento a motivo con i colori specificati.
 
 ### Restituisce
 
-Tile [`IImage`](/slides/python-net/it/aspose.slides/iimage).
+Riquadro [`IImage`](/slides/python-net/it/aspose.slides/iimage).
 
 
 
@@ -43,13 +43,14 @@ def get_tile(self, background, foreground):
 
 | Parametro | Tipo | Descrizione |
 | :- | :- | :- |
-| background | **aspose.slides.Color** | Il colore di sfondo **aspose.slides.Color** per il motivo. |
-| foreground | **aspose.slides.Color** | Il colore di primo piano **aspose.slides.Color** per il motivo. |
+| background | [`Color`](/slides/python-net/it/aspose.slides/color) | Lo sfondo [`Color`](/slides/python-net/it/aspose.slides/color) per il modello. |
+| foreground | [`Color`](/slides/python-net/it/aspose.slides/color) | Il primo piano [`Color`](/slides/python-net/it/aspose.slides/color) per il modello. |
 
 
 
 ### Vedi anche
 * classe [`IImage`](/slides/python-net/it/aspose.slides/iimage)
 * classe [`PatternFormat`](/slides/python-net/it/aspose.slides/patternformat)
+* classe [`Color`](/slides/python-net/it/aspose.slides/color)
 * modulo [`aspose.slides`](/slides/python-net/it/aspose.slides)
 * libreria [`Aspose.Slides`](/slides/python-net)

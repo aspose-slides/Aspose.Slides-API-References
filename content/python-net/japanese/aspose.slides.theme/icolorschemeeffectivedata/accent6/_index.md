@@ -7,8 +7,8 @@ url: /ja/aspose.slides.theme/icolorschemeeffectivedata/accent6/
 weight: 60
 ---
 ## accent6 プロパティ
-スキーム内の6番目のアクセントカラー。
-            読み取り専用 **aspose.slides.Color**.
+スキームの6番目のアクセントカラーです。
+            読み取り専用 [`Color`](/slides/python-net/ja/aspose.slides/color).
 
 ### 定義:
 ```python
@@ -18,7 +18,8 @@ def accent6(self):
 ```
 
 
-### 関連項目
+### 参照
 * クラス [`IColorSchemeEffectiveData`](/slides/python-net/ja/aspose.slides.theme/icolorschemeeffectivedata)
+* クラス [`Color`](/slides/python-net/ja/aspose.slides/color)
 * モジュール [`aspose.slides.theme`](/slides/python-net/ja/aspose.slides.theme)
 * ライブラリ [`Aspose.Slides`](/slides/python-net)

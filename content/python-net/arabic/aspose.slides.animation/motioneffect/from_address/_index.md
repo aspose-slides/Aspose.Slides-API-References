@@ -1,14 +1,14 @@
 ---
 title: from_address property
-second_title: Aspose.Slides للغة Python عبر .NET مرجع واجهة برمجة التطبيقات
+second_title: Aspose.Slides لبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.animation/motioneffect/from_address/
 weight: 70
 ---
-## خاصية from_address
-يحدد إحداثي x/y لبدء الرسوم المتحركة من (بالنسبة المئوية). 
-            قراءة/كتابة **aspose.slides.PointF**.
+## from_address خاصية
+يحدد إحداثي x/y لبدء التحريك من (بالنسبة المئوية). 
+            قراءة/كتابة [`PointF`](/slides/python-net/ar/aspose.slides/pointf).
 
 ### التعريف:
 ```python
@@ -24,5 +24,6 @@ def from_address(self, value):
 
 ### انظر أيضًا
 * فئة [`MotionEffect`](/slides/python-net/ar/aspose.slides.animation/motioneffect)
+* فئة [`PointF`](/slides/python-net/ar/aspose.slides/pointf)
 * وحدة [`aspose.slides.animation`](/slides/python-net/ar/aspose.slides.animation)
 * مكتبة [`Aspose.Slides`](/slides/python-net)

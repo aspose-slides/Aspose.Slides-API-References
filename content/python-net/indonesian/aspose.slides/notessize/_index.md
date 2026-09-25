@@ -21,9 +21,9 @@ Tipe NotesSize menampilkan anggota berikut:
 
 | Properti | Deskripsi |
 | :- | :- |
-| [`size`](/slides/python-net/id/aspose.slides/notessize/size/) | Mengembalikan atau mengatur ukuran dalam poin.<br/>            Baca/tulis **aspose.slides.SizeF**. |
+| [`size`](/slides/python-net/id/aspose.slides/notessize/size/) | Mengembalikan atau mengatur ukuran dalam poin.<br/>            Baca/tulis [`SizeF`](/slides/python-net/id/aspose.slides/sizef). |
 
 
 ### Lihat Juga
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
-* pustaka [`Aspose.Slides`](/slides/python-net)
+* perpustakaan [`Aspose.Slides`](/slides/python-net)

@@ -10,9 +10,7 @@ weight: 40
 Hämtar de visuella gränserna för formen beräknade från dess renderade innehåll.
 
 ### Returnerar
-
-En **aspose.slides.RectangleF** som representerar de visuella gränserna för formen
-             i bildspelskoordinater.
+En [`RectangleF`](/slides/python-net/sv/aspose.slides/rectanglef) som representerar formens visuella gränser i bildspelskoordinater.
 
 
 
@@ -23,26 +21,18 @@ def get_visual_bounds(self):
 
 
 ### Anmärkningar
+Den returnerade rektangeln representerar de axel-inriktade gränserna för allt innehåll som produceras av formen under rendering i bildspelskoordinatsystemet.
 
-Den returnerade rektangeln representerar de axeljusterade gränserna för allt innehåll
-             som produceras av formen under rendering i bildspelskoordinatrymden.
-            
-             Dessa gränser kan skilja sig från formens modellgränser
-             ([`Shape.x`](/slides/python-net/sv/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/sv/aspose.slides/shape/y),
-             [`Shape.width`](/slides/python-net/sv/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/sv/aspose.slides/shape/height))
-             och kan innehålla negativa koordinater om det renderade innehållet sträcker sig
-             bortom bildspels ursprung.
-            
-             De visuella gränserna tar hänsyn till renderingsrelaterade aspekter såsom
-             transformationer (till exempel rotation), streckbredd och fogar,
-             textlayout och överspill, SmartArt-geometri, och andra layout-effekter
-             som påverkar formens slutgiltiga renderade utseende.
-            
-             De returnerade gränserna klipps inte till bildspelsrektangeln.
+Dessa gränser kan skilja sig från formens modellgränser ([`Shape.x`](/slides/python-net/sv/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/sv/aspose.slides/shape/y), [`Shape.width`](/slides/python-net/sv/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/sv/aspose.slides/shape/height)) och kan innehålla negativa koordinater om det renderade innehållet sträcker sig bortom bildspelsursprunget.
+
+De visuella gränserna tar hänsyn till renderingsrelaterade aspekter såsom transformationer (till exempel rotation), penseldjup och hörn, textlayout och överspill, SmartArt-geometri och andra layout-effekter som påverkar formens slutgiltiga renderade utseende.
+
+De returnerade gränserna klipps inte till bildspelsrektangeln.
 
 
 
-### Se också
+### Se även
 * klass [`InkActions`](/slides/python-net/sv/aspose.slides.ink/inkactions)
+* klass [`RectangleF`](/slides/python-net/sv/aspose.slides/rectanglef)
 * modul [`aspose.slides.ink`](/slides/python-net/sv/aspose.slides.ink)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

@@ -1,14 +1,14 @@
 ---
 title: hyperlink property
-second_title: Référence de l'API Aspose.Slides pour Python via .NET
+second_title: Aspose.Slides pour Python via .NET Référence d'API
 description: 
 type: docs
 url: /fr/aspose.slides.theme/icolorschemeeffectivedata/hyperlink/
 weight: 100
 ---
-## propriété hyperlien
+## hyperlink propriété
 Couleur des hyperliens.
-            Lecture seule **aspose.slides.Color**.
+            Lecture seule [`Color`](/slides/python-net/fr/aspose.slides/color).
 
 ### Définition:
 ```python
@@ -20,5 +20,6 @@ def hyperlink(self):
 
 ### Voir aussi
 * classe [`IColorSchemeEffectiveData`](/slides/python-net/fr/aspose.slides.theme/icolorschemeeffectivedata)
+* classe [`Color`](/slides/python-net/fr/aspose.slides/color)
 * module [`aspose.slides.theme`](/slides/python-net/fr/aspose.slides.theme)
 * bibliothèque [`Aspose.Slides`](/slides/python-net)

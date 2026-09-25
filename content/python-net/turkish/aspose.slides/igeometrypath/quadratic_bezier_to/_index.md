@@ -6,8 +6,8 @@ type: docs
 url: /tr/aspose.slides/igeometrypath/quadratic_bezier_to/
 weight: 60
 ---
-## quadratic_bezier_to(self, point1, point2) {#asposepydrawingpointf-asposepydrawingpointf}
-Yolun sonuna kuadratik Bezier eğrisi ekler
+## quadratic_bezier_to(self, point1, point2) {#asposeslidespointf-asposeslidespointf}
+Yolun sonuna ikinci dereceli Bezier eğrisi ekler
 
 
 ```python
@@ -16,14 +16,14 @@ def quadratic_bezier_to(self, point1, point2):
 ```
 
 
-| Parameter | Type | Description |
+| Parametre | Tür | Açıklama |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | Yön noktası |
-| point2 | **aspose.slides.PointF** | Bitiş noktası |
+| point1 | [`PointF`](/slides/python-net/tr/aspose.slides/pointf) | Yön noktası |
+| point2 | [`PointF`](/slides/python-net/tr/aspose.slides/pointf) | Bitiş noktası |
 
 
-## quadratic_bezier_to(self, point1, point2, index) {#asposepydrawingpointf-asposepydrawingpointf-int}
-Yolun belirtilen yerine kuadratik Bezier eğrisi ekler
+## quadratic_bezier_to(self, point1, point2, index) {#asposeslidespointf-asposeslidespointf-int}
+Yolun belirtilen konumuna ikinci dereceli Bezier eğrisi ekler
 
 
 ```python
@@ -32,21 +32,21 @@ def quadratic_bezier_to(self, point1, point2, index):
 ```
 
 
-| Parameter | Type | Description |
+| Parametre | Tür | Açıklama |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | Yön noktası |
-| point2 | **aspose.slides.PointF** | Bitiş noktası |
+| point1 | [`PointF`](/slides/python-net/tr/aspose.slides/pointf) | Yön noktası |
+| point2 | [`PointF`](/slides/python-net/tr/aspose.slides/pointf) | Bitiş noktası |
 | index | **int** | PathData içindeki segmentin indeksi |
 
 ### İstisnalar
 
-| Exception | Description |
+| İstisna | Açıklama |
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Segment indeksi PathData aralığının dışında |
 
 
 ## quadratic_bezier_to(self, x1, y1, x2, y2) {#float-float-float-float}
-Yolun sonuna kuadratik Bezier eğrisi ekler
+Yolun sonuna ikinci dereceli Bezier eğrisi ekler
 
 
 ```python
@@ -55,7 +55,7 @@ def quadratic_bezier_to(self, x1, y1, x2, y2):
 ```
 
 
-| Parameter | Type | Description |
+| Parametre | Tür | Açıklama |
 | :- | :- | :- |
 | x1 | **float** | Yön noktasının X koordinatı |
 | y1 | **float** | Yön noktasının Y koordinatı |
@@ -64,7 +64,7 @@ def quadratic_bezier_to(self, x1, y1, x2, y2):
 
 
 ## quadratic_bezier_to(self, x1, y1, x2, y2, index) {#float-float-float-float-int}
-Yolun belirtilen yerine kuadratik Bezier eğrisi ekler
+Yolun belirtilen konumuna ikinci dereceli Bezier eğrisi ekler
 
 
 ```python
@@ -73,7 +73,7 @@ def quadratic_bezier_to(self, x1, y1, x2, y2, index):
 ```
 
 
-| Parameter | Type | Description |
+| Parametre | Tür | Açıklama |
 | :- | :- | :- |
 | x1 | **float** | Yön noktasının X koordinatı |
 | y1 | **float** | Yön noktasının Y koordinatı |
@@ -83,13 +83,14 @@ def quadratic_bezier_to(self, x1, y1, x2, y2, index):
 
 ### İstisnalar
 
-| Exception | Description |
+| İstisna | Açıklama |
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Segment indeksi PathData aralığının dışında |
 
 
 
-### Ayrıca Bakınız
+### Bakınız
 * sınıf [`IGeometryPath`](/slides/python-net/tr/aspose.slides/igeometrypath)
+* sınıf [`PointF`](/slides/python-net/tr/aspose.slides/pointf)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

@@ -1,17 +1,17 @@
 ---
 title: get_image method
-second_title: Aspose.Slides لبايثون عبر .NET مرجع واجهة برمجة التطبيقات
+second_title: مرجع API Aspose.Slides للبايثون عبر .NET
 description: 
 type: docs
 url: /ar/aspose.slides/islide/get_image/
 weight: 40
 ---
 ## get_image(self) {#}
-إرجاع كائن Thumbnail Image (20٪ من الحجم الفعلي).
+إرجاع كائن صورة مصغرة (20% من الحجم الفعلي).
 
-### القيمة المرجعة
+### إرجاع
 
-كائن الصورة **aspose.slides.Bitmap**
+كائن صورة **aspose.slides.IImage**
 
 
 
@@ -22,10 +22,10 @@ def get_image(self):
 
 
 
-## get_image(self, image_size) {#asposepydrawingsize}
+## get_image(self, image_size) {#asposeslidessize}
 إرجاع كائن صورة بالحجم المحدد.
 
-### القيمة المرجعة
+### إرجاع
 
 كائن Bitmap.
 
@@ -37,17 +37,17 @@ def get_image(self, image_size):
 ```
 
 
-| المعامل | النوع | الوصف |
+| معاملة | نوع | وصف |
 | :- | :- | :- |
-| image_size | **aspose.slides.Size** | Size of the image to create. |
+| image_size | [`Size`](/slides/python-net/ar/aspose.slides/size) | حجم الصورة المطلوب إنشاؤها. |
 
 
 ## get_image(self, options) {#asposeslidesexportitiffoptions}
-إرجاع كائن Thumbnail tiff bitmap بالمعلمات المحددة.
+إرجاع كائن بت ماب tiff مصغرة مع المعاملات المحددة.
 
-### القيمة المرجعة
+### إرجاع
 
-كائن الصورة.
+كائن صورة.
 
 
 
@@ -57,15 +57,15 @@ def get_image(self, options):
 ```
 
 
-| المعامل | النوع | الوصف |
+| معاملة | نوع | وصف |
 | :- | :- | :- |
 | options | [`ITiffOptions`](/slides/python-net/ar/aspose.slides.export/itiffoptions) | خيارات Tiff. |
 
 
 ## get_image(self, options) {#asposeslidesexportirenderingoptions}
-إرجاع كائن Thumbnail Bitmap.
+إرجاع كائن Bitmap مصغرة.
 
-### القيمة المرجعة
+### إرجاع
 
 كائنات Bitmap.
 
@@ -77,17 +77,17 @@ def get_image(self, options):
 ```
 
 
-| المعامل | النوع | الوصف |
+| معاملة | نوع | وصف |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/ar/aspose.slides.export/irenderingoptions) | Rendering options. |
+| options | [`IRenderingOptions`](/slides/python-net/ar/aspose.slides.export/irenderingoptions) | خيارات العرض. |
 
 
 ## get_image(self, scale_x, scale_y) {#float-float}
-إرجاع كائن صورة بتحجيم مخصص.
+إرجاع كائن صورة مع تعديل مخصص.
 
-### القيمة المرجعة
+### إرجاع
 
-كائن الصورة **aspose.slides.Bitmap**
+كائن صورة **aspose.slides.IImage**
 
 
 
@@ -97,16 +97,16 @@ def get_image(self, scale_x, scale_y):
 ```
 
 
-| المعامل | النوع | الوصف |
+| معاملة | نوع | وصف |
 | :- | :- | :- |
-| scale_x | **float** | القيمة التي يتم بها تحجيم هذا Thumbnail في اتجاه محور x. |
-| scale_y | **float** | القيمة التي يتم بها تحجيم هذا Thumbnail في اتجاه محور y. |
+| scale_x | **float** | القيمة التي يتم بموجبها تحجيم هذه الصورة المصغرة في اتجاه المحور س. |
+| scale_y | **float** | القيمة التي يتم بموجبها تحجيم هذه الصورة المصغرة في اتجاه المحور ص. |
 
 
-## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposepydrawingsize}
-إرجاع كائن Thumbnail Bitmap بالحجم المحدد.
+## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposeslidessize}
+إرجاع كائن Bitmap مصغرة بالحجم المحدد.
 
-### القيمة المرجعة
+### إرجاع
 
 كائنات Bitmap.
 
@@ -118,16 +118,16 @@ def get_image(self, options, image_size):
 ```
 
 
-| المعامل | النوع | الوصف |
+| معاملة | نوع | وصف |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/ar/aspose.slides.export/irenderingoptions) | Rendering options. |
-| image_size | **aspose.slides.Size** | Size of the image to create. |
+| options | [`IRenderingOptions`](/slides/python-net/ar/aspose.slides.export/irenderingoptions) | خيارات العرض. |
+| image_size | [`Size`](/slides/python-net/ar/aspose.slides/size) | حجم الصورة المطلوب إنشاؤها. |
 
 
 ## get_image(self, options, scale_x, scale_y) {#asposeslidesexportirenderingoptions-float-float}
-إرجاع كائن Thumbnail Bitmap بتحجيم مخصص.
+إرجاع كائن Bitmap مصغرة مع تعديل مخصص.
 
-### القيمة المرجعة
+### إرجاع
 
 كائنات Bitmap.
 
@@ -139,18 +139,19 @@ def get_image(self, options, scale_x, scale_y):
 ```
 
 
-| المعامل | النوع | الوصف |
+| معاملة | نوع | وصف |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/ar/aspose.slides.export/irenderingoptions) | Rendering options. |
-| scale_x | **float** | القيمة التي يتم بها تحجيم هذا Thumbnail في اتجاه محور x. |
-| scale_y | **float** | القيمة التي يتم بها تحجيم هذا Thumbnail في اتجاه محور y. |
+| options | [`IRenderingOptions`](/slides/python-net/ar/aspose.slides.export/irenderingoptions) | خيارات العرض. |
+| scale_x | **float** | القيمة التي يتم بموجبها تحجيم هذه الصورة المصغرة في اتجاه المحور س. |
+| scale_y | **float** | القيمة التي يتم بموجبها تحجيم هذه الصورة المصغرة في اتجاه المحور ص. |
 
 
 
-### أنظر أيضًا
-* الفئة [`IImage`](/slides/python-net/ar/aspose.slides/iimage)
-* الفئة [`IRenderingOptions`](/slides/python-net/ar/aspose.slides.export/irenderingoptions)
-* الفئة [`ISlide`](/slides/python-net/ar/aspose.slides/islide)
-* الفئة [`ITiffOptions`](/slides/python-net/ar/aspose.slides.export/itiffoptions)
-* الوحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
-* المكتبة [`Aspose.Slides`](/slides/python-net)
+### انظر أيضًا
+* فئة [`IImage`](/slides/python-net/ar/aspose.slides/iimage)
+* فئة [`IRenderingOptions`](/slides/python-net/ar/aspose.slides.export/irenderingoptions)
+* فئة [`ISlide`](/slides/python-net/ar/aspose.slides/islide)
+* فئة [`ITiffOptions`](/slides/python-net/ar/aspose.slides.export/itiffoptions)
+* فئة [`Size`](/slides/python-net/ar/aspose.slides/size)
+* وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

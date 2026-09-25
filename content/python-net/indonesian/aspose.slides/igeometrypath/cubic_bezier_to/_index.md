@@ -1,12 +1,12 @@
 ---
 title: cubic_bezier_to method
-second_title: Referensi API Aspose.Slides untuk Python via .NET
+second_title: Aspose.Slides untuk Python melalui Referensi API .NET
 description: 
 type: docs
 url: /id/aspose.slides/igeometrypath/cubic_bezier_to/
 weight: 30
 ---
-## cubic_bezier_to(self, point1, point2, point3) {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf}
+## cubic_bezier_to(self, point1, point2, point3) {#asposeslidespointf-asposeslidespointf-asposeslidespointf}
 Menambahkan kurva Bezier kubik di akhir jalur
 
 
@@ -18,12 +18,12 @@ def cubic_bezier_to(self, point1, point2, point3):
 
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | Titik arah pertama |
-| point2 | **aspose.slides.PointF** | Titik arah kedua |
-| point3 | **aspose.slides.PointF** | Titik akhir |
+| point1 | [`PointF`](/slides/python-net/id/aspose.slides/pointf) | Titik arah pertama |
+| point2 | [`PointF`](/slides/python-net/id/aspose.slides/pointf) | Titik arah kedua |
+| point3 | [`PointF`](/slides/python-net/id/aspose.slides/pointf) | Titik akhir |
 
 
-## cubic_bezier_to(self, point1, point2, point3, index) {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf-int}
+## cubic_bezier_to(self, point1, point2, point3, index) {#asposeslidespointf-asposeslidespointf-asposeslidespointf-int}
 Menambahkan kurva Bezier kubik ke tempat yang ditentukan pada jalur
 
 
@@ -35,9 +35,9 @@ def cubic_bezier_to(self, point1, point2, point3, index):
 
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | Titik arah pertama |
-| point2 | **aspose.slides.PointF** | Titik arah kedua |
-| point3 | **aspose.slides.PointF** | Titik akhir |
+| point1 | [`PointF`](/slides/python-net/id/aspose.slides/pointf) | Titik arah pertama |
+| point2 | [`PointF`](/slides/python-net/id/aspose.slides/pointf) | Titik arah kedua |
+| point3 | [`PointF`](/slides/python-net/id/aspose.slides/pointf) | Titik akhir |
 | index | **int** | Indeks segmen dalam PathData |
 
 ### Pengecualian
@@ -97,5 +97,6 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index):
 
 ### Lihat Juga
 * kelas [`IGeometryPath`](/slides/python-net/id/aspose.slides/igeometrypath)
+* kelas [`PointF`](/slides/python-net/id/aspose.slides/pointf)
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
 * pustaka [`Aspose.Slides`](/slides/python-net)

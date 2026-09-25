@@ -1,6 +1,6 @@
 ---
 title: highlight_color property
-second_title: Referência da API Aspose.Slides para Python via .NET
+second_title: Aspose.Slides para Python via .NET Referência da API
 description: 
 type: docs
 url: /pt/aspose.slides/ibaseportionformateffectivedata/highlight_color/
@@ -8,7 +8,7 @@ weight: 110
 ---
 ## highlight_color propriedade
 Retorna a cor usada para destacar um texto.
-            Somente leitura **aspose.slides.Color**.
+            Somente leitura [`Color`](/slides/python-net/pt/aspose.slides/color).
 
 ### Definição:
 ```python
@@ -18,7 +18,8 @@ def highlight_color(self):
 ```
 
 
-### Ver também
+### Veja também
 * classe [`IBasePortionFormatEffectiveData`](/slides/python-net/pt/aspose.slides/ibaseportionformateffectivedata)
+* classe [`Color`](/slides/python-net/pt/aspose.slides/color)
 * módulo [`aspose.slides`](/slides/python-net/pt/aspose.slides)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

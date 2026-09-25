@@ -6,12 +6,11 @@ type: docs
 url: /hi/aspose.slides/gradientstopcollection/add/
 weight: 10
 ---
-## add(self, position, color) {#float-asposepydrawingcolor}
-नए ग्रेडिएंट स्टॉप को बनाता है और इसे संग्रह के अंत में जोड़ता है।
+## add(self, position, color) {#float-asposeslidescolor}
+नया ग्रेडिएंट स्टॉप बनाता है और इसे संग्रह के अंत में जोड़ता है।
 
-### रिटर्न वैल्यू
-
-संग्रह में नए ग्रेडिएंट स्टॉप का इंडेक्स।
+### रिटर्न
+नए ग्रेडिएंट स्टॉप का संग्रह में इंडेक्स।
 
 
 
@@ -24,15 +23,14 @@ def add(self, position, color):
 | पैरामीटर | प्रकार | विवरण |
 | :- | :- | :- |
 | position | **float** | नए ग्रेडिएंट स्टॉप की स्थिति। |
-| color | **aspose.slides.Color** | नए रेडिएंट स्टॉप का रंग। |
+| color | [`Color`](/slides/python-net/hi/aspose.slides/color) | नए ग्रेडिएंट स्टॉप का रंग। |
 
 
 ## add(self, position, preset_color) {#float-presetcolor}
-नए ग्रेडिएंट स्टॉप को बनाता है और इसे संग्रह के अंत में जोड़ता है।
+नया ग्रेडिएंट स्टॉप बनाता है और इसे संग्रह के अंत में जोड़ता है।
 
-### रिटर्न वैल्यू
-
-संग्रह में नए ग्रेडिएंट स्टॉप का इंडेक्स।
+### रिटर्न
+नए ग्रेडिएंट स्टॉप का संग्रह में इंडेक्स।
 
 
 
@@ -45,15 +43,14 @@ def add(self, position, preset_color):
 | पैरामीटर | प्रकार | विवरण |
 | :- | :- | :- |
 | position | **float** | नए ग्रेडिएंट स्टॉप की स्थिति। |
-| preset_color | [`PresetColor`](/slides/python-net/hi/aspose.slides/presetcolor) | नए रेडिएंट स्टॉप का रंग। |
+| preset_color | [`PresetColor`](/slides/python-net/hi/aspose.slides/presetcolor) | नए ग्रेडिएंट स्टॉप का रंग। |
 
 
 ## add(self, position, scheme_color) {#float-schemecolor}
-नए ग्रेडिएंट स्टॉप को बनाता है और इसे संग्रह के अंत में जोड़ता है।
+नया ग्रेडिएंट स्टॉप बनाता है और इसे संग्रह के अंत में जोड़ता है।
 
-### रिटर्न वैल्यू
-
-संग्रह में नए ग्रेडिएंट स्टॉप का इंडेक्स।
+### रिटर्न
+नए ग्रेडिएंट स्टॉप का संग्रह में इंडेक्स।
 
 
 
@@ -66,14 +63,15 @@ def add(self, position, scheme_color):
 | पैरामीटर | प्रकार | विवरण |
 | :- | :- | :- |
 | position | **float** | नए ग्रेडिएंट स्टॉप की स्थिति। |
-| scheme_color | [`SchemeColor`](/slides/python-net/hi/aspose.slides/schemecolor) | नए रेडिएंट स्टॉप का रंग। |
+| scheme_color | [`SchemeColor`](/slides/python-net/hi/aspose.slides/schemecolor) | नए ग्रेडिएंट स्टॉप का रंग। |
 
 
 
-### संबंधित देखें
+### देखें
 * क्लास [`GradientStopCollection`](/slides/python-net/hi/aspose.slides/gradientstopcollection)
 * क्लास [`IGradientStop`](/slides/python-net/hi/aspose.slides/igradientstop)
-* एन्यूमरेशन [`PresetColor`](/slides/python-net/hi/aspose.slides/presetcolor)
-* एन्यूमरेशन [`SchemeColor`](/slides/python-net/hi/aspose.slides/schemecolor)
+* एन्यूमेरेशन [`PresetColor`](/slides/python-net/hi/aspose.slides/presetcolor)
+* एन्यूमेरेशन [`SchemeColor`](/slides/python-net/hi/aspose.slides/schemecolor)
+* क्लास [`Color`](/slides/python-net/hi/aspose.slides/color)
 * मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
 * लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

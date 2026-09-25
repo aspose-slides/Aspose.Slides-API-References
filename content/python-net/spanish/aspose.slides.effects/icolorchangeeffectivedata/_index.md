@@ -1,6 +1,6 @@
 ---
 title: IColorChangeEffectiveData class
-second_title: Aspose.Slides para Python vía la Referencia de API .NET
+second_title: Referencia de API de Aspose.Slides para Python vía .NET
 description: 
 type: docs
 url: /es/aspose.slides.effects/icolorchangeeffectivedata/
@@ -8,7 +8,7 @@ url: /es/aspose.slides.effects/icolorchangeeffectivedata/
 ## IColorChangeEffectiveData clase
 
 Objeto inmutable que representa un efecto de cambio de color.
-            Instances of FromColor are replaced with instances of ToColor.
+            Las instancias de FromColor se reemplazan con instancias de ToColor.
 
 El tipo IColorChangeEffectiveData expone los siguientes miembros:
 
@@ -16,8 +16,8 @@ El tipo IColorChangeEffectiveData expone los siguientes miembros:
 
 | Propiedad | Descripción |
 | :- | :- |
-| [`from_color`](/slides/python-net/es/aspose.slides.effects/icolorchangeeffectivedata/from_color/) | Color que será reemplazado.<br/>            Solo lectura **aspose.slides.Color**. |
-| [`to_color`](/slides/python-net/es/aspose.slides.effects/icolorchangeeffectivedata/to_color/) | Color que reemplazará.<br/>            Solo lectura **aspose.slides.Color**. |
+| [`from_color`](/slides/python-net/es/aspose.slides.effects/icolorchangeeffectivedata/from_color/) | Color que será reemplazado.<br/>            Solo lectura [`Color`](/slides/python-net/es/aspose.slides/color). |
+| [`to_color`](/slides/python-net/es/aspose.slides.effects/icolorchangeeffectivedata/to_color/) | Color que reemplazará.<br/>            Solo lectura [`Color`](/slides/python-net/es/aspose.slides/color). |
 | [`use_alpha`](/slides/python-net/es/aspose.slides.effects/icolorchangeeffectivedata/use_alpha/) | Devuelve un valor booleano que determina si se debe usar el componente alfa.<br/>            Solo lectura **bool**. |
 
 

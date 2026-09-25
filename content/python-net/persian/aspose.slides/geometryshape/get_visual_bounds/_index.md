@@ -1,32 +1,33 @@
 ---
 title: get_visual_bounds method
-second_title: Aspose.Slides برای Python از طریق .NET API Reference
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides/geometryshape/get_visual_bounds/
 weight: 60
 ---
 ## get_visual_bounds(self) {#}
-حدود بصری شکل را که از محتوای رندر شده آن محاسبه می‌شود، دریافت می‌کند.
+حدود بصری شکل را که از محتوای رندر شده آن محاسبه شده است، دریافت می‌کند.
 
-### Returns
-یک **aspose.slides.RectangleF** که حدود بصری شکل را در مختصات اسلاید نشان می‌دهد.
+### بازگشت
+[`RectangleF`](/slides/python-net/fa/aspose.slides/rectanglef) که حدود بصری شکل را در مختصات اسلاید نشان می‌دهد.
 
 ```python
 def get_visual_bounds(self):
     ...
 ```
 
-### Remarks
-مستطیل برگردانده شده، حدود محوراً-هم‌راستا تمام محتوایی که شکل در طول رندر تولید می‌کند را در فضای مختصات اسلاید نشان می‌دهد.
+### توضیحات
+مستطیل بازگشت‌شده، مرزهای محور-محور تمام محتوایی که توسط شکل در طی رندر در فضای مختصات اسلاید تولید می‌شود را نشان می‌دهد.
 
-این حدود ممکن است با حدود مدل shape ([`Shape.x`](/slides/python-net/fa/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/fa/aspose.slides/shape/y), [`Shape.width`](/slides/python-net/fa/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/fa/aspose.slides/shape/height)) متفاوت باشند و ممکن است شامل مختصات منفی باشند اگر محتوای رندر شده فراتر از مبدأ اسلاید گسترش یابد.
+این مرزها ممکن است با مرزهای مدل شکل ([`Shape.x`](/slides/python-net/fa/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/fa/aspose.slides/shape/y), [`Shape.width`](/slides/python-net/fa/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/fa/aspose.slides/shape/height)) متفاوت باشند و در صورت گسترش محتوای رندر شده فراتر از مبدأ اسلاید، ممکن است شامل مختصات منفی باشند.
 
-حدود بصری جنبه‌های مرتبط با رندر مانند تبدیلات (به عنوان مثال، چرخش)، عرض خط و اتصال‌ها، چینش متن و سرریز، هندسه SmartArt، و سایر اثرات چیدمان که بر ظاهر نهایی رندر شده شکل تأثیر می‌گذارند را در نظر می‌گیرند.
+حدود بصری عوامل مربوط به رندرینگ مانند تبدیلات (به عنوان مثال، چرخش)، عرض خط و اتصال‌ها، طرح-بندی متن و سرریز، هندسه SmartArt، و سایر اثرات طرح-بندی که بر ظاهر نهایی رندر شده شکل تأثیر می‌گذارند را در نظر می‌گیرند.
 
-حدود برگردانده شده به مستطیل اسلاید قطع (کلیپ) نمی‌شوند.
+مرزهای بازگشت‌شده به مستطیل اسلاید قطع نمی‌شوند.
 
-### See Also
+### موارد مرتبط
 * کلاس [`GeometryShape`](/slides/python-net/fa/aspose.slides/geometryshape)
+* کلاس [`RectangleF`](/slides/python-net/fa/aspose.slides/rectanglef)
 * ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

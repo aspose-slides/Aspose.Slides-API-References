@@ -1,14 +1,14 @@
 ---
 title: to property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
 description: 
 type: docs
 url: /th/aspose.slides.animation/iscaleeffect/to/
 weight: 80
 ---
-## ไปยังคุณสมบัติ
-ระบุตำแหน่งเป้าหมายสำหรับผลการสเกลของการเคลื่อนไหว (เป็นเปอร์เซ็นต์).
-            อ่าน/เขียน **aspose.slides.PointF**.
+## to คุณสมบัติ
+ระบุตำแหน่งเป้าหมายสำหรับเอฟเฟกต์การสเกลของการเคลื่อนไหว (เป็นเปอร์เซ็นต์).
+            อ่าน/เขียน [`PointF`](/slides/python-net/th/aspose.slides/pointf).
 
 ### คำนิยาม:
 ```python
@@ -24,5 +24,6 @@ def to(self, value):
 
 ### ดูเพิ่มเติม
 * คลาส [`IScaleEffect`](/slides/python-net/th/aspose.slides.animation/iscaleeffect)
+* คลาส [`PointF`](/slides/python-net/th/aspose.slides/pointf)
 * โมดูล [`aspose.slides.animation`](/slides/python-net/th/aspose.slides.animation)
 * ไลบรารี [`Aspose.Slides`](/slides/python-net)

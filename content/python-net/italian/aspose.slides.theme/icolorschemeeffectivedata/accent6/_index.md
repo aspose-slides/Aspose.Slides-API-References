@@ -1,14 +1,14 @@
 ---
 title: accent6 property
-second_title: Riferimento API Aspose.Slides per Python tramite .NET
+second_title: Aspose.Slides per Python tramite .NET Riferimento API
 description: 
 type: docs
 url: /it/aspose.slides.theme/icolorschemeeffectivedata/accent6/
 weight: 60
 ---
 ## accent6 proprietà
-Sixth accent color in the scheme.
-            Solo lettura **aspose.slides.Color**.
+Sesto colore di accento nello schema.
+            Solo lettura [`Color`](/slides/python-net/it/aspose.slides/color).
 
 ### Definizione:
 ```python
@@ -20,5 +20,6 @@ def accent6(self):
 
 ### Vedi anche
 * classe [`IColorSchemeEffectiveData`](/slides/python-net/it/aspose.slides.theme/icolorschemeeffectivedata)
+* classe [`Color`](/slides/python-net/it/aspose.slides/color)
 * modulo [`aspose.slides.theme`](/slides/python-net/it/aspose.slides.theme)
 * libreria [`Aspose.Slides`](/slides/python-net)

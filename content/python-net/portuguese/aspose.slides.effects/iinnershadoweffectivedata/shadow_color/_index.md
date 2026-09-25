@@ -8,7 +8,7 @@ weight: 50
 ---
 ## shadow_color propriedade
 Cor da sombra.
-            Somente leitura **aspose.slides.Color**.
+            Somente leitura [`Color`](/slides/python-net/pt/aspose.slides/color).
 
 ### Definição:
 ```python
@@ -20,5 +20,6 @@ def shadow_color(self):
 
 ### Veja Também
 * classe [`IInnerShadowEffectiveData`](/slides/python-net/pt/aspose.slides.effects/iinnershadoweffectivedata)
+* classe [`Color`](/slides/python-net/pt/aspose.slides/color)
 * módulo [`aspose.slides.effects`](/slides/python-net/pt/aspose.slides.effects)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

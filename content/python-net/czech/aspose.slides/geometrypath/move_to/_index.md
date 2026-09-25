@@ -1,12 +1,12 @@
 ---
 title: move_to method
-second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
+second_title: Aspose.Slides pro Python přes .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/geometrypath/move_to/
 weight: 60
 ---
-## move_to(self, point) {#asposepydrawingpointf}
+## move_to(self, point) {#asposeslidespointf}
 Nastaví pozici dalšího bodu.
 
 
@@ -18,7 +18,7 @@ def move_to(self, point):
 
 | Parametr | Typ | Popis |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | Pozice bodu |
+| point | [`PointF`](/slides/python-net/cs/aspose.slides/pointf) | Pozice bodu |
 
 
 ## move_to(self, x, y) {#float-float}
@@ -40,5 +40,6 @@ def move_to(self, x, y):
 
 ### Viz také
 * třída [`GeometryPath`](/slides/python-net/cs/aspose.slides/geometrypath)
+* třída [`PointF`](/slides/python-net/cs/aspose.slides/pointf)
 * modul [`aspose.slides`](/slides/python-net/cs/aspose.slides)
 * knihovna [`Aspose.Slides`](/slides/python-net)

@@ -1,56 +1,47 @@
 ---
 title: get_tile method
-second_title: Справочник API Aspose.Slides для Python через .NET
+second_title: Aspose.Slides для Python через .NET справочник API
 description: 
 type: docs
 url: /ru/aspose.slides/ipatternformat/get_tile/
 weight: 10
 ---
-## get_tile(self, style_color) {#asposepydrawingcolor}
-Создаёт изображение плитки для заливки шаблоном.
+## get_tile(self, style_color) {#asposeslidescolor}
+Создаёт изображение плитки для шаблона заливки.
 
-### Возвращает
+### Возвращаемое значение
 
-Плитка **aspose.slides.Bitmap**.
-
-
+Плитка **aspose.slides.IImage**.
 
 ```python
 def get_tile(self, style_color):
     ...
 ```
 
-
-
-| Parameter | Type | Description |
+| Параметр | Тип | Описание |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | Объект **aspose.slides.Color** по умолчанию, <br/><br/> определённый в объекте StyleEx класса ShapeEx. Цвета заливки могут зависеть от него. |
+| style_color | [`Color`](/slides/python-net/ru/aspose.slides/color) | По умолчанию [`Color`](/slides/python-net/ru/aspose.slides/color), <br/><br/> определено в объекте StyleEx класса ShapeEx. Цвета заливки могут зависеть от этого. |
 
+## get_tile(self, background, foreground) {#asposeslidescolor-asposeslidescolor}
+Создаёт изображение плитки для шаблона заливки с указанными цветами.
 
-## get_tile(self, background, foreground) {#asposepydrawingcolor-asposepydrawingcolor}
-Создаёт изображение плитки для заливки шаблоном с указанными цветами.
+### Возвращаемое значение
 
-### Возвращает
-
-Плитка **aspose.slides.Bitmap**.
-
-
+Плитка **aspose.slides.IImage**.
 
 ```python
 def get_tile(self, background, foreground):
     ...
 ```
 
-
-| Parameter | Type | Description |
+| Параметр | Тип | Описание |
 | :- | :- | :- |
-| background | **aspose.slides.Color** | Фоновый **aspose.slides.Color** для шаблона. |
-| foreground | **aspose.slides.Color** | Цвет переднего плана **aspose.slides.Color** для шаблона. |
-
-
+| background | [`Color`](/slides/python-net/ru/aspose.slides/color) | Фоновый [`Color`](/slides/python-net/ru/aspose.slides/color) для шаблона. |
+| foreground | [`Color`](/slides/python-net/ru/aspose.slides/color) | Передний план [`Color`](/slides/python-net/ru/aspose.slides/color) для шаблона. |
 
 ### См. также
 * класс [`IImage`](/slides/python-net/ru/aspose.slides/iimage)
 * класс [`IPatternFormat`](/slides/python-net/ru/aspose.slides/ipatternformat)
+* класс [`Color`](/slides/python-net/ru/aspose.slides/color)
 * модуль [`aspose.slides`](/slides/python-net/ru/aspose.slides)
 * библиотека [`Aspose.Slides`](/slides/python-net)

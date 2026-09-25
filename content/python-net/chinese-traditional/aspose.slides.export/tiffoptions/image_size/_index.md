@@ -7,11 +7,11 @@ url: /zh-hant/aspose.slides.export/tiffoptions/image_size/
 weight: 90
 ---
 ## image_size 屬性
-指定產生的 TIFF 影像的大小。
-            預設值為 0x0，表示產生的影像大小將根據簡報投影片的尺寸值來計算。
-            讀寫 **aspose.slides.Size**。
+Specifies size of a generated TIFF image.
+            Default value is 0x0, what means that generated image sizes will be calculated based on presentation slide size value.
+            可讀寫 [`Size`](/slides/python-net/zh-hant/aspose.slides/size).
 
-### 定義：
+### 定義:
 ```python
 @property
 def image_size(self):
@@ -23,7 +23,8 @@ def image_size(self, value):
 ```
 
 
-### 另請參閱
+### 另見
 * 類別 [`TiffOptions`](/slides/python-net/zh-hant/aspose.slides.export/tiffoptions)
+* 類別 [`Size`](/slides/python-net/zh-hant/aspose.slides/size)
 * 模組 [`aspose.slides.export`](/slides/python-net/zh-hant/aspose.slides.export)
 * 函式庫 [`Aspose.Slides`](/slides/python-net)

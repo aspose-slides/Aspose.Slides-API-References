@@ -6,9 +6,9 @@ type: docs
 url: /fr/aspose.slides.animation/motioneffect/to/
 weight: 140
 ---
-## vers la propriété
-Spécifie l'emplacement cible pour un effet de mouvement d'animation (en pourcentages).
-            Lecture/écriture **aspose.slides.PointF**.
+## to propriété
+Spécifie l'emplacement cible d'un effet de mouvement d'animation (en pourcentages).
+            Lecture/écriture [`PointF`](/slides/python-net/fr/aspose.slides/pointf).
 
 ### Définition:
 ```python
@@ -24,5 +24,6 @@ def to(self, value):
 
 ### Voir aussi
 * classe [`MotionEffect`](/slides/python-net/fr/aspose.slides.animation/motioneffect)
+* classe [`PointF`](/slides/python-net/fr/aspose.slides/pointf)
 * module [`aspose.slides.animation`](/slides/python-net/fr/aspose.slides.animation)
 * bibliothèque [`Aspose.Slides`](/slides/python-net)

@@ -1,14 +1,14 @@
 ---
 title: color property
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: Aspose.Slides للـ Python عبر .NET API Reference
 description: 
 type: docs
 url: /ar/aspose.slides.effects/icolorreplaceeffectivedata/color/
 weight: 20
 ---
-## خاصية اللون
-يُرجع تنسيق اللون الذي سيستبدل لون كل بكسل.
-            للقراءة فقط **aspose.slides.Color**.
+## خاصية color
+يعيد تنسيق color الذي سيستبدل color لكل بكسل.
+            قراءة فقط [`Color`](/slides/python-net/ar/aspose.slides/color).
 
 ### التعريف:
 ```python
@@ -19,6 +19,7 @@ def color(self):
 
 
 ### انظر أيضًا
-* الفئة [`IColorReplaceEffectiveData`](/slides/python-net/ar/aspose.slides.effects/icolorreplaceeffectivedata)
-* الوحدة [`aspose.slides.effects`](/slides/python-net/ar/aspose.slides.effects)
-* المكتبة [`Aspose.Slides`](/slides/python-net)
+* فئة [`IColorReplaceEffectiveData`](/slides/python-net/ar/aspose.slides.effects/icolorreplaceeffectivedata)
+* فئة [`Color`](/slides/python-net/ar/aspose.slides/color)
+* وحدة [`aspose.slides.effects`](/slides/python-net/ar/aspose.slides.effects)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

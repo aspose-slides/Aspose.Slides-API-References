@@ -1,14 +1,14 @@
 ---
 title: dark2 property
-second_title: Aspose.Slides لبايثون عبر مرجع API .NET
+second_title: Aspose.Slides لبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.theme/icolorschemeeffectivedata/dark2/
 weight: 80
 ---
-## dark2 خاصية
+## خاصية dark2
 اللون الداكن الثاني في المخطط.
-            فقط للقراءة **aspose.slides.Color**.
+            قراءة فقط [`Color`](/slides/python-net/ar/aspose.slides/color).
 
 ### التعريف:
 ```python
@@ -19,6 +19,7 @@ def dark2(self):
 
 
 ### انظر أيضًا
-* الفئة [`IColorSchemeEffectiveData`](/slides/python-net/ar/aspose.slides.theme/icolorschemeeffectivedata)
-* الوحدة [`aspose.slides.theme`](/slides/python-net/ar/aspose.slides.theme)
-* المكتبة [`Aspose.Slides`](/slides/python-net)
+* فئة [`IColorSchemeEffectiveData`](/slides/python-net/ar/aspose.slides.theme/icolorschemeeffectivedata)
+* فئة [`Color`](/slides/python-net/ar/aspose.slides/color)
+* وحدة [`aspose.slides.theme`](/slides/python-net/ar/aspose.slides.theme)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

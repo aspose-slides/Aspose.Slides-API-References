@@ -7,8 +7,8 @@ url: /ru/aspose.slides.theme/icolorschemeeffectivedata/followed_hyperlink/
 weight: 90
 ---
 ## followed_hyperlink свойство
-Цвет посещённых гиперссылок.
-            Только для чтения **aspose.slides.Color**.
+Цвет для посещённых гиперссылок.
+Только для чтения [`Color`](/slides/python-net/ru/aspose.slides/color).
 
 ### Определение:
 ```python
@@ -20,5 +20,6 @@ def followed_hyperlink(self):
 
 ### См. также
 * класс [`IColorSchemeEffectiveData`](/slides/python-net/ru/aspose.slides.theme/icolorschemeeffectivedata)
+* класс [`Color`](/slides/python-net/ru/aspose.slides/color)
 * модуль [`aspose.slides.theme`](/slides/python-net/ru/aspose.slides.theme)
 * библиотека [`Aspose.Slides`](/slides/python-net)

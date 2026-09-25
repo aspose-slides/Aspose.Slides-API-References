@@ -1,29 +1,29 @@
 ---
 title: IPatternFormatEffectiveData class
-second_title: Aspose.Slides dla Pythona poprzez .NET – odniesienie API
+second_title: Aspose.Slides dla Pythona: referencja API .NET
 description: 
 type: docs
 url: /pl/aspose.slides/ipatternformateffectivedata/
 ---
 ## IPatternFormatEffectiveData klasa
 
-Obiekt niezmienny zawierający efektywne właściwości wypełniania wzorcem.
+Niezmienny obiekt, który zawiera efektywne właściwości wypełniania wzorem.
 
 Typ IPatternFormatEffectiveData udostępnia następujące elementy:
 
 ## Właściwości
 
-| Właściwość | Opis |
+| Property | Description |
 | :- | :- |
-| [`pattern_style`](/slides/python-net/pl/aspose.slides/ipatternformateffectivedata/pattern_style/) | Zwraca styl wzorca.<br/>            Tylko do odczytu [`PatternStyle`](/slides/python-net/pl/aspose.slides/patternstyle). |
-| [`fore_color`](/slides/python-net/pl/aspose.slides/ipatternformateffectivedata/fore_color/) | Zwraca kolor pierwszego planu wzorca.<br/>            Tylko do odczytu **aspose.slides.Color**. |
-| [`back_color`](/slides/python-net/pl/aspose.slides/ipatternformateffectivedata/back_color/) | Zwraca kolor tła wzorca.<br/>            Tylko do odczytu **aspose.slides.Color**. |
+| [`pattern_style`](/slides/python-net/pl/aspose.slides/ipatternformateffectivedata/pattern_style/) | Zwraca styl wzoru.<br/>            Tylko do odczytu [`PatternStyle`](/slides/python-net/pl/aspose.slides/patternstyle). |
+| [`fore_color`](/slides/python-net/pl/aspose.slides/ipatternformateffectivedata/fore_color/) | Zwraca kolor pierwszego planu wzoru.<br/>            Tylko do odczytu [`Color`](/slides/python-net/pl/aspose.slides/color). |
+| [`back_color`](/slides/python-net/pl/aspose.slides/ipatternformateffectivedata/back_color/) | Zwraca kolor tła wzoru.<br/>            Tylko do odczytu [`Color`](/slides/python-net/pl/aspose.slides/color). |
 
 ## Metody
 
-| Metoda | Opis |
+| Method | Description |
 | :- | :- |
-| [`get_tile_i_image(self, background, foreground)`](/slides/python-net/pl/aspose.slides/ipatternformateffectivedata/get_tile_i_image/#asposepydrawingcolor-asposepydrawingcolor) | Tworzy obraz kafelka do wypełnienia wzorcem przy użyciu określonych kolorów. |
+| [`get_tile_i_image(self, background, foreground)`](/slides/python-net/pl/aspose.slides/ipatternformateffectivedata/get_tile_i_image/#asposeslidescolor-asposeslidescolor) | Tworzy obraz kafelkowy dla wypełnienia wzorem przy określonych kolorach. |
 
 
 ### Uwagi

@@ -8,7 +8,7 @@ weight: 30
 ---
 ## image_source ویژگی
 تصویر را دریافت می‌کند
-            فقط خواندنی **aspose.slides.Image**.
+فقط-خواندنی **aspose.slides.IImage**.
 
 ### تعریف:
 ```python

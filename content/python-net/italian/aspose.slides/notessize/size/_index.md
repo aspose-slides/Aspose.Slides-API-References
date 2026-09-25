@@ -6,9 +6,9 @@ type: docs
 url: /it/aspose.slides/notessize/size/
 weight: 20
 ---
-## Proprietà size
-Restituisce o imposta la size in punti.
-            Lettura/scrittura **aspose.slides.SizeF**.
+## proprietà dimensione
+Restituisce o imposta la dimensione in punti.
+            Lettura/Scrittura [`SizeF`](/slides/python-net/it/aspose.slides/sizef).
 
 ### Definizione:
 ```python
@@ -24,5 +24,6 @@ def size(self, value):
 
 ### Vedi anche
 * classe [`NotesSize`](/slides/python-net/it/aspose.slides/notessize)
+* classe [`SizeF`](/slides/python-net/it/aspose.slides/sizef)
 * modulo [`aspose.slides`](/slides/python-net/it/aspose.slides)
 * libreria [`Aspose.Slides`](/slides/python-net)

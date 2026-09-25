@@ -1,6 +1,6 @@
 ---
 title: image_source property
-second_title: Aspose.Slides untuk Python via .NET Referensi API
+second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides/iimagewrapper/image_source/
@@ -8,7 +8,7 @@ weight: 30
 ---
 ## image_source properti
 Mendapatkan gambar
-            Baca-saja **aspose.slides.Image**.
+            Baca-saja **aspose.slides.IImage**.
 
 ### Definisi:
 ```python

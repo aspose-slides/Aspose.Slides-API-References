@@ -8,7 +8,7 @@ weight: 80
 ---
 ## extrusion_color egenskap
 Returns the color of an extrusion.
-            Skrivskyddad **aspose.slides.Color**.
+            Skrivskyddad [`Color`](/slides/python-net/sv/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -17,7 +17,9 @@ def extrusion_color(self):
     ...
 ```
 
-### Se också
+
+### Se även
 * klass [`IThreeDFormatEffectiveData`](/slides/python-net/sv/aspose.slides/ithreedformateffectivedata)
+* klass [`Color`](/slides/python-net/sv/aspose.slides/color)
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

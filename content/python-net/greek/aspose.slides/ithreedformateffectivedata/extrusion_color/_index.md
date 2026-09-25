@@ -1,14 +1,14 @@
 ---
 title: extrusion_color property
-second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
+second_title: Aspose.Slides για Python μέσω .NET API αναφορά
 description: 
 type: docs
 url: /el/aspose.slides/ithreedformateffectivedata/extrusion_color/
 weight: 80
 ---
 ## extrusion_color ιδιότητα
-Returns the color of an extrusion.
-            Μόνο ανάγνωση **aspose.slides.Color**.
+Επιστρέφει το χρώμα μιας εξώθησης.
+            Μόνο για ανάγνωση [`Color`](/slides/python-net/el/aspose.slides/color).
 
 ### Ορισμός:
 ```python
@@ -20,5 +20,6 @@ def extrusion_color(self):
 
 ### Δείτε επίσης
 * κλάση [`IThreeDFormatEffectiveData`](/slides/python-net/el/aspose.slides/ithreedformateffectivedata)
+* κλάση [`Color`](/slides/python-net/el/aspose.slides/color)
 * μονάδα [`aspose.slides`](/slides/python-net/el/aspose.slides)
 * βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

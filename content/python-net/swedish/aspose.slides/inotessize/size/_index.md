@@ -8,7 +8,7 @@ weight: 10
 ---
 ## size egenskap
 Returnerar eller anger size i punkter.
-            Läs/skriv **aspose.slides.SizeF**.
+            Läs/skriv [`SizeF`](/slides/python-net/sv/aspose.slides/sizef).
 
 ### Definition:
 ```python
@@ -22,7 +22,8 @@ def size(self, value):
 ```
 
 
-### Se även
+### Se också
 * klass [`INotesSize`](/slides/python-net/sv/aspose.slides/inotessize)
+* klass [`SizeF`](/slides/python-net/sv/aspose.slides/sizef)
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

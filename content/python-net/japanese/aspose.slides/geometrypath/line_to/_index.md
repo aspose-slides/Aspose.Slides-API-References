@@ -6,8 +6,8 @@ type: docs
 url: /ja/aspose.slides/geometrypath/line_to/
 weight: 50
 ---
-## line_to(self, point) {#asposepydrawingpointf}
-パスの末端に線を追加します
+## line_to(self, point) {#asposeslidespointf}
+パスの最後に線を追加します
 
 
 ```python
@@ -16,13 +16,13 @@ def line_to(self, point):
 ```
 
 
-| Parameter | Type | Description |
+| パラメータ | 型 | 説明 |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | 線の終点 |
+| point | [`PointF`](/slides/python-net/ja/aspose.slides/pointf) | 線の終点 |
 
 
 ## line_to(self, x, y) {#float-float}
-パスの末端に線を追加します
+パスの最後に線を追加します
 
 
 ```python
@@ -31,14 +31,14 @@ def line_to(self, x, y):
 ```
 
 
-| Parameter | Type | Description |
+| パラメータ | 型 | 説明 |
 | :- | :- | :- |
 | x | **float** | 線の終点の X 座標 |
 | y | **float** | 線の終点の Y 座標 |
 
 
-## line_to(self, point, index) {#asposepydrawingpointf-int}
-指定した場所に線を追加します
+## line_to(self, point, index) {#asposeslidespointf-int}
+パスの指定された場所に線を追加します
 
 
 ```python
@@ -47,20 +47,20 @@ def line_to(self, point, index):
 ```
 
 
-| Parameter | Type | Description |
+| パラメータ | 型 | 説明 |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | 終点 |
+| point | [`PointF`](/slides/python-net/ja/aspose.slides/pointf) | 終点 |
 | index | **int** | PathData のセグメントのインデックス |
 
-### Exceptions
+### 例外
 
-| Exception | Description |
+| 例外 | 説明 |
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | セグメントインデックスが PathData の範囲外です |
 
 
 ## line_to(self, x, y, index) {#float-float-int}
-指定した場所に線を追加します
+パスの指定された場所に線を追加します
 
 
 ```python
@@ -69,21 +69,22 @@ def line_to(self, x, y, index):
 ```
 
 
-| Parameter | Type | Description |
+| パラメータ | 型 | 説明 |
 | :- | :- | :- |
 | x | **float** | 点の X 座標 |
 | y | **float** | 点の Y 座標 |
 | index | **int** | PathData のセグメントのインデックス |
 
-### Exceptions
+### 例外
 
-| Exception | Description |
+| 例外 | 説明 |
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | セグメントインデックスが PathData の範囲外です |
 
 
 
-### See Also
+### 参照
 * クラス [`GeometryPath`](/slides/python-net/ja/aspose.slides/geometrypath)
+* クラス [`PointF`](/slides/python-net/ja/aspose.slides/pointf)
 * モジュール [`aspose.slides`](/slides/python-net/ja/aspose.slides)
 * ライブラリ [`Aspose.Slides`](/slides/python-net)

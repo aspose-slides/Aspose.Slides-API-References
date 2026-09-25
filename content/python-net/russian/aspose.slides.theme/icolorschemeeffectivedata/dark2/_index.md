@@ -1,14 +1,14 @@
 ---
 title: dark2 property
-second_title: Aspose.Slides для Python через .NET API
+second_title: Aspose.Slides для Python через .NET справочник API
 description: 
 type: docs
 url: /ru/aspose.slides.theme/icolorschemeeffectivedata/dark2/
 weight: 80
 ---
-## свойство dark2
-Второй тёмный цвет в схеме.
-            Только для чтения **aspose.slides.Color**.
+## dark2 свойство
+Второй темный цвет в схеме.
+            Только чтение [`Color`](/slides/python-net/ru/aspose.slides/color).
 
 ### Определение:
 ```python
@@ -18,7 +18,8 @@ def dark2(self):
 ```
 
 
-### Смотрите также
+### См. также
 * класс [`IColorSchemeEffectiveData`](/slides/python-net/ru/aspose.slides.theme/icolorschemeeffectivedata)
+* класс [`Color`](/slides/python-net/ru/aspose.slides/color)
 * модуль [`aspose.slides.theme`](/slides/python-net/ru/aspose.slides.theme)
 * библиотека [`Aspose.Slides`](/slides/python-net)

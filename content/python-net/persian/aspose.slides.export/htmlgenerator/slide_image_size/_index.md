@@ -1,14 +1,14 @@
 ---
 title: slide_image_size property
-second_title: Aspose.Slides برای پایتون از طریق .NET مرجع API
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides.export/htmlgenerator/slide_image_size/
 weight: 60
 ---
 ## slide_image_size ویژگی
-اندازه تصویر اسلاید را بر می‌گرداند.
-            فقط‌خواندنی **aspose.slides.SizeF**.
+اندازهٔ تصویر اسلاید را برمی‌گرداند.
+            فقط-خواندنی [`SizeF`](/slides/python-net/fa/aspose.slides/sizef).
 
 ### تعریف:
 ```python
@@ -20,5 +20,6 @@ def slide_image_size(self):
 
 ### موارد مرتبط
 * کلاس [`HtmlGenerator`](/slides/python-net/fa/aspose.slides.export/htmlgenerator)
+* کلاس [`SizeF`](/slides/python-net/fa/aspose.slides/sizef)
 * ماژول [`aspose.slides.export`](/slides/python-net/fa/aspose.slides.export)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

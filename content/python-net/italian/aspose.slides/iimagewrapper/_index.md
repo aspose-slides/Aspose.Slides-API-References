@@ -1,30 +1,31 @@
 ---
 title: IImageWrapper class
-second_title: Aspose.Slides per Python tramite .NET Riferimento API
+second_title: Riferimento API di Aspose.Slides per Python via .NET
 description: 
 type: docs
 url: /it/aspose.slides/iimagewrapper/
 ---
 ## IImageWrapper classe
 
-Wrapper di System.Drawing.Image per interfaccia COM.
+wrapper System.Drawing.Image per interfaccia COM.
 
 Il tipo IImageWrapper espone i seguenti membri:
 
 ## Proprietà
 
-| Property | Description |
+| Proprietà | Descrizione |
 | :- | :- |
-| [`image_source`](/slides/python-net/it/aspose.slides/iimagewrapper/image_source/) | Ottiene l'immagine<br/>            Solo lettura **aspose.slides.Image**. |
-| [`size`](/slides/python-net/it/aspose.slides/iimagewrapper/size/) | Ottiene la larghezza e l'altezza, in pixel, dell'Image<br/>            Solo lettura [`IImageWrapper.size`](/slides/python-net/it/aspose.slides/iimagewrapper/size). |
+| [`image_source`](/slides/python-net/it/aspose.slides/iimagewrapper/image_source/) | Restituisce l'immagine<br/>            Solo lettura **aspose.slides.IImage**. |
+| [`size`](/slides/python-net/it/aspose.slides/iimagewrapper/size/) | Restituisce la larghezza e l'altezza, in pixel, dell'Immagine<br/>            Solo lettura [`IImageWrapper.size`](/slides/python-net/it/aspose.slides/iimagewrapper/size). |
 
 ## Metodi
 
-| Method | Description |
+| Metodo | Descrizione |
 | :- | :- |
-| [`save(self, file_name)`](/slides/python-net/it/aspose.slides/iimagewrapper/save/#str) | Salva l'Image nel file specificato |
-| [`save(self, stream, image_format)`](/slides/python-net/it/aspose.slides/iimagewrapper/save/#iorawiobase-ppimageformat) | Salva l'Image nello stream specificato nel formato specificato. |
-| [`save(self, file_name, image_format)`](/slides/python-net/it/aspose.slides/iimagewrapper/save/#str-ppimageformat) | Salva l'Image nel file specificato nel formato specificato. |
+| [`save(self, file_name)`](/slides/python-net/it/aspose.slides/iimagewrapper/save/#str) | Salva l'Immagine nel file specificato |
+| [`save(self, stream, image_format)`](/slides/python-net/it/aspose.slides/iimagewrapper/save/#iorawiobase-ppimageformat) | Salva l'Immagine nello stream specificato nel formato specificato. |
+| [`save(self, file_name, image_format)`](/slides/python-net/it/aspose.slides/iimagewrapper/save/#str-ppimageformat) | Salva l'Immagine nel file specificato nel formato specificato. |
+
 
 ### Vedi anche
 * modulo [`aspose.slides`](/slides/python-net/it/aspose.slides)

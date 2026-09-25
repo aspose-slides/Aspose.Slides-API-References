@@ -6,12 +6,12 @@ type: docs
 url: /sv/aspose.slides/icommentcollection/add_modern_comment/
 weight: 20
 ---
-## add_modern_comment(self, text, slide, shape, position, creation_time) {#str-islide-ishape-asposepydrawingpointf-datetime}
+## add_modern_comment(self, text, slide, shape, position, creation_time) {#str-islide-ishape-asposeslidespointf-datetime}
 Lägg till en ny modern kommentar i slutet av en samling.
 
 ### Returnerar
 
-Tillagd modern kommentar.
+Modern kommentar har lagts till.
 
 
 
@@ -23,10 +23,10 @@ def add_modern_comment(self, text, slide, shape, position, creation_time):
 
 | Parameter | Typ | Beskrivning |
 | :- | :- | :- |
-| text | **str** | Vanlig text för en ny modern kommentar. |
+| text | **str** | Oformaterad text för en ny modern kommentar. |
 | slide | [`ISlide`](/slides/python-net/sv/aspose.slides/islide) | Bild i en presentation där en ny modern kommentar ska läggas till. |
-| shape | [`IShape`](/slides/python-net/sv/aspose.slides/ishape) | Form på en bild som en ny modern kommentar är associerad med. |
-| position | **aspose.slides.PointF** | Position på en bild där en ny modern kommentar ska läggas till. |
+| shape | [`IShape`](/slides/python-net/sv/aspose.slides/ishape) | Form på en bild som den nya moderna kommentaren är kopplad till. |
+| position | [`PointF`](/slides/python-net/sv/aspose.slides/pointf) | Position på en bild där en ny modern kommentar ska läggas till. |
 | creation_time | **DateTime** | Tid för skapandet av en modern kommentar. |
 
 
@@ -36,5 +36,6 @@ def add_modern_comment(self, text, slide, shape, position, creation_time):
 * klass [`IModernComment`](/slides/python-net/sv/aspose.slides/imoderncomment)
 * klass [`IShape`](/slides/python-net/sv/aspose.slides/ishape)
 * klass [`ISlide`](/slides/python-net/sv/aspose.slides/islide)
+* klass [`PointF`](/slides/python-net/sv/aspose.slides/pointf)
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
-* bibliotek [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

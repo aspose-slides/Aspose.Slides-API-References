@@ -7,7 +7,7 @@ url: /th/aspose.slides.effects/igloweffectivedata/
 ---
 ## IGlowEffectiveData คลาส
 
-อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งแสดงถึงเอฟเฟกต์ส่องแสง ที่ซึ่งขอบภาพเบลอสีถูกเพิ่มด้านนอกของวัตถุ
+อ็อบเจ็กต์ที่ไม่สามารถเปลี่ยนแปลงได้ซึ่งแสดงถึงเอฟเฟ็กต์ Glow โดยมีขอบสีเบลอถูกเพิ่มออกนอกขอบของอ็อบเจ็กต์
 
 ประเภท IGlowEffectiveData เปิดเผยสมาชิกต่อไปนี้:
 
@@ -16,7 +16,7 @@ url: /th/aspose.slides.effects/igloweffectivedata/
 | คุณสมบัติ | คำอธิบาย |
 | :- | :- |
 | [`radius`](/slides/python-net/th/aspose.slides.effects/igloweffectivedata/radius/) | รัศมี.<br/>            อ่านอย่างเดียว **float**. |
-| [`color`](/slides/python-net/th/aspose.slides.effects/igloweffectivedata/color/) | สี.<br/>            อ่านอย่างเดียว **aspose.slides.Color**. |
+| [`color`](/slides/python-net/th/aspose.slides.effects/igloweffectivedata/color/) | สี.<br/>            อ่านอย่างเดียว [`Color`](/slides/python-net/th/aspose.slides/color). |
 
 ### ดูเพิ่มเติม
 * โมดูล [`aspose.slides.effects`](/slides/python-net/th/aspose.slides.effects)

@@ -1,7 +1,7 @@
 ---
 title: get_visual_bounds method
-second_title: Aspose.Slides для Python через .NET справочник API
-description:
+second_title: Справочник API Aspose.Slides для Python через .NET
+description: 
 type: docs
 url: /ru/aspose.slides/audioframe/get_visual_bounds/
 weight: 60
@@ -11,8 +11,7 @@ weight: 60
 
 ### Возвращаемое значение
 
-Объект **aspose.slides.RectangleF**, представляющий визуальные границы фигуры
-             в координатах слайда.
+Объект [`RectangleF`](/slides/python-net/ru/aspose.slides/rectanglef), представляющий визуальные границы фигуры в координатах слайда.
 
 
 
@@ -22,27 +21,28 @@ def get_visual_bounds(self):
 ```
 
 
-### Примечание
+### Примечания
 
-Возвращаемый прямоугольник представляет собой осночно-выравненные границы всего содержимого,
-             созданного фигурой во время отрисовки в координатном пространстве слайда.
-            
-Эти границы могут отличаться от модельных границ фигуры
+The returned rectangle represents the axis-aligned bounds of all content
+             produced by the shape during rendering in slide coordinate space.
+
+             These bounds may differ from the shape's model bounds
              ([`Shape.x`](/slides/python-net/ru/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/ru/aspose.slides/shape/y),
              [`Shape.width`](/slides/python-net/ru/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/ru/aspose.slides/shape/height))
-             и могут содержать отрицательные координаты, если отрисованное содержимое выходит
-             за пределы начала координат слайда.
-            
-В визуальные границы учитываются связанные с отрисовкой аспекты, такие как
-             трансформации (например, вращение), ширина и соединения линий,
-             компоновка и переполнение текста, геометрия SmartArt и другие эффекты компоновки,
-             влияющие на окончательный отрисованный вид фигуры.
-            
-Возвращаемые границы не обрезаются до прямоугольника слайда.
+             and may contain negative coordinates if the rendered content extends
+             beyond the slide origin.
+
+             The visual bounds take into account rendering-related aspects such as
+             transformations (for example, rotation), stroke width and joins,
+             text layout and overflow, SmartArt geometry, and other layout effects
+             that influence the final rendered appearance of the shape.
+
+             The returned bounds are not clipped to the slide rectangle.
 
 
 
 ### См. также
 * класс [`AudioFrame`](/slides/python-net/ru/aspose.slides/audioframe)
+* класс [`RectangleF`](/slides/python-net/ru/aspose.slides/rectanglef)
 * модуль [`aspose.slides`](/slides/python-net/ru/aspose.slides)
 * библиотека [`Aspose.Slides`](/slides/python-net)

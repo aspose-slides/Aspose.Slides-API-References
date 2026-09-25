@@ -1,14 +1,14 @@
 ---
 title: rectangle property
-second_title: Aspose.Slides for Python via .NET API-referentie
+second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/ishapeframe/rectangle/
 weight: 70
 ---
-## rechthoek eigenschap
+## rectangle eigenschap
 Retourneert de coördinaten van een frame.
-            Alleen-lezen **aspose.slides.RectangleF**.
+            Alleen-lezen [`RectangleF`](/slides/python-net/nl/aspose.slides/rectanglef).
 
 ### Definitie:
 ```python
@@ -20,5 +20,6 @@ def rectangle(self):
 
 ### Zie ook
 * klasse [`IShapeFrame`](/slides/python-net/nl/aspose.slides/ishapeframe)
+* klasse [`RectangleF`](/slides/python-net/nl/aspose.slides/rectanglef)
 * module [`aspose.slides`](/slides/python-net/nl/aspose.slides)
 * bibliotheek [`Aspose.Slides`](/slides/python-net)

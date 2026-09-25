@@ -1,15 +1,15 @@
 ---
 title: color property
-second_title: Aspose.Slides için Python üzerinden .NET API Referansı
+second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/colorformat/color/
 weight: 60
 ---
-## renk özelliği
-Uygulanan tüm renk dönüşümleriyle ortaya çıkan rengi döndürür.
-            RGB renklerini ayarlar ve tüm renk dönüşümlerini temizler.
-            Okuma/yazma **aspose.slides.Color**.
+## color özelliği
+Uygulanan tüm renk dönüşümleriyle birlikte oluşan color değerini döndürür.
+RGB renklerini ayarlar ve tüm color dönüşümlerini temizler.
+Okuma/Yazma [`Color`](/slides/python-net/tr/aspose.slides/color).
 
 ### Tanım:
 ```python
@@ -23,7 +23,8 @@ def color(self, value):
 ```
 
 
-### Bakınız
+### Diğer Bilgiler
 * sınıf [`ColorFormat`](/slides/python-net/tr/aspose.slides/colorformat)
+* sınıf [`Color`](/slides/python-net/tr/aspose.slides/color)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

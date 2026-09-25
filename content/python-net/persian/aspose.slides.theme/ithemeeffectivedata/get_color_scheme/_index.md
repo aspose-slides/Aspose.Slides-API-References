@@ -1,12 +1,12 @@
 ---
 title: get_color_scheme method
-second_title: Aspose.Slides برای پایتون از طریق .NET مرجع API
+second_title: مرجع API Aspose.Slides برای Python از طریق .NET
 description: 
 type: docs
 url: /fa/aspose.slides.theme/ithemeeffectivedata/get_color_scheme/
 weight: 10
 ---
-## get_color_scheme(self, style_color) {#asposepydrawingcolor}
+## get_color_scheme(self, style_color) {#asposeslidescolor}
 طرح رنگ را برمی‌گرداند.
 
 ### بازگشت
@@ -23,12 +23,13 @@ def get_color_scheme(self, style_color):
 
 | پارامتر | نوع | توضیح |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | Color **aspose.slides.Color** |
+| style_color | [`Color`](/slides/python-net/fa/aspose.slides/color) | رنگ [`Color`](/slides/python-net/fa/aspose.slides/color) |
 
 
 
 ### موارد مرتبط
 * کلاس [`IColorSchemeEffectiveData`](/slides/python-net/fa/aspose.slides.theme/icolorschemeeffectivedata)
 * کلاس [`IThemeEffectiveData`](/slides/python-net/fa/aspose.slides.theme/ithemeeffectivedata)
+* کلاس [`Color`](/slides/python-net/fa/aspose.slides/color)
 * ماژول [`aspose.slides.theme`](/slides/python-net/fa/aspose.slides.theme)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

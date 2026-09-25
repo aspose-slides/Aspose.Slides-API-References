@@ -7,18 +7,18 @@ url: /zh-hant/aspose.slides.animation/imotioncmdpath/
 ---
 ## IMotionCmdPath 類別
 
-表示路徑中的一個命令。
+表示路徑中的一個指令。
 
 IMotionCmdPath 類型公開以下成員：
 
 ## 屬性
 
-| 屬性 | 說明 |
+| 屬性 | 描述 |
 | :- | :- |
-| [`points`](/slides/python-net/zh-hant/aspose.slides.animation/imotioncmdpath/points/) | 指定命令的點。<br/>            讀寫 **aspose.slides.PointF**[]. |
-| [`command_type`](/slides/python-net/zh-hant/aspose.slides.animation/imotioncmdpath/command_type/) | 指定命令類型。<br/>            讀寫 [`MotionCommandPathType`](/slides/python-net/zh-hant/aspose.slides.animation/motioncommandpathtype). |
-| [`is_relative`](/slides/python-net/zh-hant/aspose.slides.animation/imotioncmdpath/is_relative/) | 判斷命令座標是否相對。<br/>            讀寫 **bool**. |
-| [`points_type`](/slides/python-net/zh-hant/aspose.slides.animation/imotioncmdpath/points_type/) | 指定命令點的類型<br/>            讀寫 [`MotionPathPointsType`](/slides/python-net/zh-hant/aspose.slides.animation/motionpathpointstype). |
+| [`points`](/slides/python-net/zh-hant/aspose.slides.animation/imotioncmdpath/points/) | Specifies points of command.<br/>            Read/write [`PointF`](/slides/python-net/zh-hant/aspose.slides/pointf)[]. |
+| [`command_type`](/slides/python-net/zh-hant/aspose.slides.animation/imotioncmdpath/command_type/) | Specifies command type.<br/>            Read/write [`MotionCommandPathType`](/slides/python-net/zh-hant/aspose.slides.animation/motioncommandpathtype). |
+| [`is_relative`](/slides/python-net/zh-hant/aspose.slides.animation/imotioncmdpath/is_relative/) | Determine command coordinates relative or not.<br/>            Read/write **bool**. |
+| [`points_type`](/slides/python-net/zh-hant/aspose.slides.animation/imotioncmdpath/points_type/) | Specifies command points type<br/>            Read/write [`MotionPathPointsType`](/slides/python-net/zh-hant/aspose.slides.animation/motionpathpointstype). |
 
 ### 另請參閱
 * 模組 [`aspose.slides.animation`](/slides/python-net/zh-hant/aspose.slides.animation)

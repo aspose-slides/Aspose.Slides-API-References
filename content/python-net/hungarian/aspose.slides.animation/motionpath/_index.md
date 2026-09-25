@@ -1,15 +1,15 @@
 ---
 title: MotionPath class
-second_title: Aspose.Slides Pythonhoz .NET API referencia
+second_title: Aspose.Slides a Python számára a .NET API-referencia
 description: 
 type: docs
 url: /hu/aspose.slides.animation/motionpath/
 ---
 ## MotionPath osztály
 
-A mozgás útvonalát képviseli.
+Represent motion path.
 
-A MotionPath típus a következő tagokat teszi közzé:
+The MotionPath type exposes the following members:
 
 ## Konstruktorok
 
@@ -21,7 +21,7 @@ A MotionPath típus a következő tagokat teszi közzé:
 
 | Tulajdonság | Leírás |
 | :- | :- |
-| [`count`](/slides/python-net/hu/aspose.slides.animation/motionpath/count/) | Visszaadja az útvonalak számát a gyűjteményben.<br/>            Csak olvasható **int**. |
+| [`count`](/slides/python-net/hu/aspose.slides.animation/motionpath/count/) | Returns the number of paths in the collection.<br/>            Read-only **int**. |
 
 Visszaad egy parancsot a megadott indexen.
 
@@ -35,11 +35,11 @@ Visszaad egy parancsot a megadott indexen.
 
 | Metódus | Leírás |
 | :- | :- |
-| [`add(self, type, pts, pts_type, b_relative_coord)`](/slides/python-net/hu/aspose.slides.animation/motionpath/add/#motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool) | Új parancs hozzáadása az útvonalhoz |
-| [`insert(self, index, type, pts, pts_type, b_relative_coord)`](/slides/python-net/hu/aspose.slides.animation/motionpath/insert/#int-motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool) | Új parancs beszúrása az útvonalba |
-| [`clear(self)`](/slides/python-net/hu/aspose.slides.animation/motionpath/clear/#) | Eltávolítja az összes parancsot a gyűjteményből. |
-| [`remove(self, item)`](/slides/python-net/hu/aspose.slides.animation/motionpath/remove/#imotioncmdpath) | Eltávolítja a megadott parancsokat a gyűjteményből. |
-| [`remove_at(self, index)`](/slides/python-net/hu/aspose.slides.animation/motionpath/remove_at/#int) | Eltávolít egy parancsot a megadott indexen. |
+| [`add(self, type, pts, pts_type, b_relative_coord)`](/slides/python-net/hu/aspose.slides.animation/motionpath/add/#motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool) | Add new command to path |
+| [`insert(self, index, type, pts, pts_type, b_relative_coord)`](/slides/python-net/hu/aspose.slides.animation/motionpath/insert/#int-motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool) | Insert new command to path |
+| [`clear(self)`](/slides/python-net/hu/aspose.slides.animation/motionpath/clear/#) | Removes all commands from the collection. |
+| [`remove(self, item)`](/slides/python-net/hu/aspose.slides.animation/motionpath/remove/#imotioncmdpath) | Removes specified commans from the collection. |
+| [`remove_at(self, index)`](/slides/python-net/hu/aspose.slides.animation/motionpath/remove_at/#int) | Removes a command at the specified index. |
 
 
 ### Lásd még

@@ -1,17 +1,17 @@
 ---
 title: get_image method
-second_title: مرجع API Aspose.Slides برای Python از طریق .NET
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides/islide/get_image/
 weight: 40
 ---
 ## get_image(self) {#}
-یک شیء تصویر بندانگشتی (20٪ از اندازه واقعی) برمی‌گرداند.
+یک شیء تصویر بندانگشتی (20٪ اندازه واقعی) برمی‌گرداند.
 
 ### بازگشت
 
-شیء Image **aspose.slides.Bitmap**
+شیء تصویر **aspose.slides.IImage**
 
 
 
@@ -22,7 +22,7 @@ def get_image(self):
 
 
 
-## get_image(self, image_size) {#asposepydrawingsize}
+## get_image(self, image_size) {#asposeslidessize}
 یک شیء تصویر با اندازهٔ مشخص برمی‌گرداند.
 
 ### بازگشت
@@ -37,17 +37,17 @@ def get_image(self, image_size):
 ```
 
 
-| Parameter | Type | Description |
+| پارامتر | نوع | توضیح |
 | :- | :- | :- |
-| image_size | **aspose.slides.Size** | اندازهٔ تصویری که باید ایجاد شود. |
+| image_size | [`Size`](/slides/python-net/fa/aspose.slides/size) | اندازهٔ تصویر برای ایجاد. |
 
 
 ## get_image(self, options) {#asposeslidesexportitiffoptions}
-یک شیء تصویر tiff بندانگشتی با پارامترهای مشخص برمی‌گرداند.
+یک شیء bitmap فرمت tiff بندانگشتی با پارامترهای مشخص برمی‌گرداند.
 
 ### بازگشت
 
-شیء Image.
+شیء تصویر.
 
 
 
@@ -57,7 +57,7 @@ def get_image(self, options):
 ```
 
 
-| Parameter | Type | Description |
+| پارامتر | نوع | توضیح |
 | :- | :- | :- |
 | options | [`ITiffOptions`](/slides/python-net/fa/aspose.slides.export/itiffoptions) | گزینه‌های Tiff. |
 
@@ -67,7 +67,7 @@ def get_image(self, options):
 
 ### بازگشت
 
-شیء Bitmap.
+شیء‌های Bitmap.
 
 
 
@@ -77,7 +77,7 @@ def get_image(self, options):
 ```
 
 
-| Parameter | Type | Description |
+| پارامتر | نوع | توضیح |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/fa/aspose.slides.export/irenderingoptions) | گزینه‌های رندرینگ. |
 
@@ -87,7 +87,7 @@ def get_image(self, options):
 
 ### بازگشت
 
-شیء Image **aspose.slides.Bitmap**
+شیء تصویر **aspose.slides.IImage**
 
 
 
@@ -97,18 +97,18 @@ def get_image(self, scale_x, scale_y):
 ```
 
 
-| Parameter | Type | Description |
+| پارامتر | نوع | توضیح |
 | :- | :- | :- |
-| scale_x | **float** | مقدار مقیاس‌گذاری این تصویر بندانگشتی در جهت محور x. |
-| scale_y | **float** | مقدار مقیاس‌گذاری این تصویر بندانگشتی در جهت محور y. |
+| scale_x | **float** | مقداری که برای مقیاس‌گذاری این بندانگشتی در جهت محور x استفاده می‌شود. |
+| scale_y | **float** | مقداری که برای مقیاس‌گذاری این بندانگشتی در جهت محور y استفاده می‌شود. |
 
 
-## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposepydrawingsize}
+## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposeslidessize}
 یک شیء Bitmap بندانگشتی با اندازهٔ مشخص برمی‌گرداند.
 
 ### بازگشت
 
-شیء Bitmap.
+شیء‌های Bitmap.
 
 
 
@@ -118,10 +118,10 @@ def get_image(self, options, image_size):
 ```
 
 
-| Parameter | Type | Description |
+| پارامتر | نوع | توضیح |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/fa/aspose.slides.export/irenderingoptions) | گزینه‌های رندرینگ. |
-| image_size | **aspose.slides.Size** | اندازهٔ تصویری که باید ایجاد شود. |
+| image_size | [`Size`](/slides/python-net/fa/aspose.slides/size) | اندازهٔ تصویر برای ایجاد. |
 
 
 ## get_image(self, options, scale_x, scale_y) {#asposeslidesexportirenderingoptions-float-float}
@@ -129,7 +129,7 @@ def get_image(self, options, image_size):
 
 ### بازگشت
 
-شیء Bitmap.
+شیء‌های Bitmap.
 
 
 
@@ -139,18 +139,19 @@ def get_image(self, options, scale_x, scale_y):
 ```
 
 
-| Parameter | Type | Description |
+| پارامتر | نوع | توضیح |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/fa/aspose.slides.export/irenderingoptions) | گزینه‌های رندرینگ. |
-| scale_x | **float** | مقدار مقیاس‌گذاری این تصویر بندانگشتی در جهت محور x. |
-| scale_y | **float** | مقدار مقیاس‌گذاری این تصویر بندانگشتی در جهت محور y. |
+| scale_x | **float** | مقداری که برای مقیاس‌گذاری این بندانگشتی در جهت محور x استفاده می‌شود. |
+| scale_y | **float** | مقداری که برای مقیاس‌گذاری این بندانگشتی در جهت محور y استفاده می‌شود. |
 
 
 
-### موارد مرتبط
+### همچنین ببینید
 * کلاس [`IImage`](/slides/python-net/fa/aspose.slides/iimage)
 * کلاس [`IRenderingOptions`](/slides/python-net/fa/aspose.slides.export/irenderingoptions)
 * کلاس [`ISlide`](/slides/python-net/fa/aspose.slides/islide)
 * کلاس [`ITiffOptions`](/slides/python-net/fa/aspose.slides.export/itiffoptions)
+* کلاس [`Size`](/slides/python-net/fa/aspose.slides/size)
 * ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

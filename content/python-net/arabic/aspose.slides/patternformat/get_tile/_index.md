@@ -1,16 +1,16 @@
 ---
 title: get_tile method
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: Aspose.Slides للبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/patternformat/get_tile/
 weight: 10
 ---
-## get_tile(self, style_color) {#asposepydrawingcolor}
-ينشئ صورة بلاطة للتعبئة بالنمط.
+## get_tile(self, style_color) {#asposeslidescolor}
+ينشئ صورة بلاطة لتعبئة النمط.
 
-### القيمة المرجعة
-Tile [`IImage`](/slides/python-net/ar/aspose.slides/iimage).
+### Returns
+بلاطة [`IImage`](/slides/python-net/ar/aspose.slides/iimage).
 
 
 
@@ -20,16 +20,16 @@ def get_tile(self, style_color):
 ```
 
 
-| المعلمة | النوع | الوصف |
+| معامل | نوع | وصف |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | الافتراضي **aspose.slides.Color** |
+| style_color | [`Color`](/slides/python-net/ar/aspose.slides/color) | الافتراضي [`Color`](/slides/python-net/ar/aspose.slides/color) |
 
 
-## get_tile(self, background, foreground) {#asposepydrawingcolor-asposepydrawingcolor}
-ينشئ صورة بلاطة للتعبئة بالنمط بألوان محددة.
+## get_tile(self, background, foreground) {#asposeslidescolor-asposeslidescolor}
+ينشئ صورة بلاطة لتعبئة النمط بألوان محددة.
 
-### القيمة المرجعة
-Tile [`IImage`](/slides/python-net/ar/aspose.slides/iimage).
+### Returns
+بلاطة [`IImage`](/slides/python-net/ar/aspose.slides/iimage).
 
 
 
@@ -39,15 +39,16 @@ def get_tile(self, background, foreground):
 ```
 
 
-| المعلمة | النوع | الوصف |
+| معامل | نوع | وصف |
 | :- | :- | :- |
-| background | **aspose.slides.Color** | الـ **aspose.slides.Color** الخلفية للنمط. |
-| foreground | **aspose.slides.Color** | الـ **aspose.slides.Color** الأمامية للنمط. |
+| background | [`Color`](/slides/python-net/ar/aspose.slides/color) | الخلفية [`Color`](/slides/python-net/ar/aspose.slides/color) للنمط. |
+| foreground | [`Color`](/slides/python-net/ar/aspose.slides/color) | المقدمة [`Color`](/slides/python-net/ar/aspose.slides/color) للنمط. |
 
 
 
-### See Also
-* الفئة [`IImage`](/slides/python-net/ar/aspose.slides/iimage)
-* الفئة [`PatternFormat`](/slides/python-net/ar/aspose.slides/patternformat)
-* الوحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
-* المكتبة [`Aspose.Slides`](/slides/python-net)
+### انظر أيضًا
+* فئة [`IImage`](/slides/python-net/ar/aspose.slides/iimage)
+* فئة [`PatternFormat`](/slides/python-net/ar/aspose.slides/patternformat)
+* فئة [`Color`](/slides/python-net/ar/aspose.slides/color)
+* وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

@@ -7,8 +7,8 @@ url: /sv/aspose.slides.animation/motioncmdpath/points/
 weight: 30
 ---
 ## points egenskap
-Anger kommandopunkter.
-            Läs/skriv **aspose.slides.PointF**[].
+Anger points för kommando.
+            Läs/skriv [`PointF`](/slides/python-net/sv/aspose.slides/pointf)[].
 
 ### Definition:
 ```python
@@ -24,5 +24,6 @@ def points(self, value):
 
 ### Se även
 * klass [`MotionCmdPath`](/slides/python-net/sv/aspose.slides.animation/motioncmdpath)
+* klass [`PointF`](/slides/python-net/sv/aspose.slides/pointf)
 * modul [`aspose.slides.animation`](/slides/python-net/sv/aspose.slides.animation)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

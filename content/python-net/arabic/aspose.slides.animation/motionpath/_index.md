@@ -1,17 +1,17 @@
 ---
 title: MotionPath class
-second_title: Aspose.Slides للـ Python عبر .NET مرجع API
+second_title: Aspose.Slides لبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.animation/motionpath/
 ---
-## MotionPath فئة
+## فئة MotionPath
 
 يمثل مسار الحركة.
 
-يظهر نوع MotionPath الأعضاء التالية:
+يعرض نوع MotionPath الأعضاء التالية:
 
-## المُنشئات
+## المنشئات
 
 | المنشئ | الوصف |
 | :- | :- |
@@ -21,9 +21,9 @@ url: /ar/aspose.slides.animation/motionpath/
 
 | الخاصية | الوصف |
 | :- | :- |
-| [`count`](/slides/python-net/ar/aspose.slides.animation/motionpath/count/) | يعيد عدد المسارات في المجموعة.<br/>            للقراءة فقط **int**. |
+| [`count`](/slides/python-net/ar/aspose.slides.animation/motionpath/count/) | إرجاع عدد المسارات في المجموعة.<br/>            للقراءة فقط **int**. |
 
-يعيد أمرًا في الفهرس المحدد.
+إرجاع أمر عند الفهرس المحدد.
 
 ## المؤشر
 
@@ -35,11 +35,11 @@ url: /ar/aspose.slides.animation/motionpath/
 
 | الطريقة | الوصف |
 | :- | :- |
-| [`add(self, type, pts, pts_type, b_relative_coord)`](/slides/python-net/ar/aspose.slides.animation/motionpath/add/#motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool) | إضافة أمر جديد إلى المسار |
-| [`insert(self, index, type, pts, pts_type, b_relative_coord)`](/slides/python-net/ar/aspose.slides.animation/motionpath/insert/#int-motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool) | إدراج أمر جديد إلى المسار |
+| [`add(self, type, pts, pts_type, b_relative_coord)`](/slides/python-net/ar/aspose.slides.animation/motionpath/add/#motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool) | أضف أمرًا جديدًا إلى المسار |
+| [`insert(self, index, type, pts, pts_type, b_relative_coord)`](/slides/python-net/ar/aspose.slides.animation/motionpath/insert/#int-motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool) | أدرج أمرًا جديدًا إلى المسار |
 | [`clear(self)`](/slides/python-net/ar/aspose.slides.animation/motionpath/clear/#) | يزيل جميع الأوامر من المجموعة. |
 | [`remove(self, item)`](/slides/python-net/ar/aspose.slides.animation/motionpath/remove/#imotioncmdpath) | يزيل الأوامر المحددة من المجموعة. |
-| [`remove_at(self, index)`](/slides/python-net/ar/aspose.slides.animation/motionpath/remove_at/#int) | يزيل أمرًا في الفهرس المحدد. |
+| [`remove_at(self, index)`](/slides/python-net/ar/aspose.slides.animation/motionpath/remove_at/#int) | يزيل أمرًا عند الفهرس المحدد. |
 
 
 ### انظر أيضًا

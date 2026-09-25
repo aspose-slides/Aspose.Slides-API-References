@@ -1,6 +1,6 @@
 ---
 title: to_png method
-second_title: Référence API Aspose.Slides pour Python via .NET
+second_title: Aspose.Slides pour Python via .NET Référence de l'API
 description: 
 type: docs
 url: /fr/aspose.slides.lowcode/convert/to_png/
@@ -8,7 +8,7 @@ weight: 40
 ---
 ## to_png(pres, output_file_name) {#presentation-str}
 Convertit la présentation d'entrée en un ensemble d'images au format PNG.  
-            Si le nom du fichier de sortie est donné comme "myPath/myFilename.png", 
+            Si le nom du fichier de sortie est donné sous la forme "myPath/myFilename.png", 
             le résultat sera enregistré sous forme d'un ensemble de fichiers "myPath/myFilename_N.png", où N est le numéro d'une diapositive.
 
 
@@ -19,10 +19,10 @@ def to_png(pres, output_file_name):
 ```
 
 
-| Paramètre | Type | Description |
+| Parameter | Type | Description |
 | :- | :- | :- |
-| pres | [`Presentation`](/slides/python-net/fr/aspose.slides/presentation) | La présentation d'entrée. |
-| output_file_name | **str** | Le nom du fichier de sortie. |
+| pres | [`Presentation`](/slides/python-net/fr/aspose.slides/presentation) | The input presentation. |
+| output_file_name | **str** | The output file name. |
 
 ### Exceptions
 
@@ -31,9 +31,9 @@ def to_png(pres, output_file_name):
 | **RuntimeError(Proxy error(ArgumentException))** |  |
 
 
-## to_png(pres, output_file_name, image_size) {#presentation-str-asposepydrawingsize}
+## to_png(pres, output_file_name, image_size) {#presentation-str-asposeslidessize}
 Convertit la présentation d'entrée en un ensemble d'images au format PNG.  
-            Si le nom du fichier de sortie est donné comme "myPath/myFilename.png", 
+            Si le nom du fichier de sortie est donné sous la forme "myPath/myFilename.png", 
             le résultat sera enregistré sous forme d'un ensemble de fichiers "myPath/myFilename_N.png", où N est le numéro d'une diapositive.
 
 
@@ -44,11 +44,11 @@ def to_png(pres, output_file_name, image_size):
 ```
 
 
-| Paramètre | Type | Description |
+| Parameter | Type | Description |
 | :- | :- | :- |
-| pres | [`Presentation`](/slides/python-net/fr/aspose.slides/presentation) | La présentation d'entrée |
-| output_file_name | **str** | Le nom du fichier de sortie. |
-| image_size | **aspose.slides.Size** | La taille de chaque image générée. |
+| pres | [`Presentation`](/slides/python-net/fr/aspose.slides/presentation) | The input presentation |
+| output_file_name | **str** | The output file name. |
+| image_size | [`Size`](/slides/python-net/fr/aspose.slides/size) | The size of each generated image. |
 
 ### Exceptions
 
@@ -59,7 +59,7 @@ def to_png(pres, output_file_name, image_size):
 
 ## to_png(pres, output_file_name, scale, options) {#presentation-str-float-asposeslidesexportirenderingoptions}
 Convertit la présentation d'entrée en un ensemble d'images au format PNG.  
-            Si le nom du fichier de sortie est donné comme "myPath/myFilename.png", 
+            Si le nom du fichier de sortie est donné sous la forme "myPath/myFilename.png", 
             le résultat sera enregistré sous forme d'un ensemble de fichiers "myPath/myFilename_N.png", où N est le numéro d'une diapositive.
 
 
@@ -70,12 +70,12 @@ def to_png(pres, output_file_name, scale, options):
 ```
 
 
-| Paramètre | Type | Description |
+| Parameter | Type | Description |
 | :- | :- | :- |
-| pres | [`Presentation`](/slides/python-net/fr/aspose.slides/presentation) | La présentation d'entrée. |
-| output_file_name | **str** | Le nom du fichier de sortie. |
-| scale | **float** | Le facteur d'échelle appliqué aux images de sortie par rapport à la taille originale de la diapositive. |
-| options | [`IRenderingOptions`](/slides/python-net/fr/aspose.slides.export/irenderingoptions) | Les options de rendu. |
+| pres | [`Presentation`](/slides/python-net/fr/aspose.slides/presentation) | The input presentation. |
+| output_file_name | **str** | The output file name. |
+| scale | **float** | The scaling factor applied to the output images relative to the original slide size. |
+| options | [`IRenderingOptions`](/slides/python-net/fr/aspose.slides.export/irenderingoptions) | The rendering options. |
 
 ### Exceptions
 
@@ -89,5 +89,6 @@ def to_png(pres, output_file_name, scale, options):
 * classe [`Convert`](/slides/python-net/fr/aspose.slides.lowcode/convert)
 * classe [`IRenderingOptions`](/slides/python-net/fr/aspose.slides.export/irenderingoptions)
 * classe [`Presentation`](/slides/python-net/fr/aspose.slides/presentation)
+* classe [`Size`](/slides/python-net/fr/aspose.slides/size)
 * module [`aspose.slides.lowcode`](/slides/python-net/fr/aspose.slides.lowcode)
 * bibliothèque [`Aspose.Slides`](/slides/python-net)

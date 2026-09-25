@@ -7,8 +7,8 @@ url: /el/aspose.slides.theme/icolorschemeeffectivedata/light1/
 weight: 110
 ---
 ## light1 ιδιότητα
-Πρώτο χρώμα φωτός στο σχήμα.
-            Μόνο ανάγνωση **aspose.slides.Color**.
+Το πρώτο χρώμα φωτός στο σχήμα.
+            Μόνο για ανάγνωση [`Color`](/slides/python-net/el/aspose.slides/color).
 
 ### Ορισμός:
 ```python
@@ -20,5 +20,6 @@ def light1(self):
 
 ### Δείτε επίσης
 * κλάση [`IColorSchemeEffectiveData`](/slides/python-net/el/aspose.slides.theme/icolorschemeeffectivedata)
+* κλάση [`Color`](/slides/python-net/el/aspose.slides/color)
 * μονάδα [`aspose.slides.theme`](/slides/python-net/el/aspose.slides.theme)
 * βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

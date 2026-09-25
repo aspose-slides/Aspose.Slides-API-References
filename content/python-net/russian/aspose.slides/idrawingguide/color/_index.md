@@ -1,14 +1,14 @@
 ---
 title: color property
-second_title: Aspose.Slides для Python через .NET Справочник API
+second_title: Aspose.Slides для Python через .NET справочник API
 description: 
 type: docs
 url: /ru/aspose.slides/idrawingguide/color/
 weight: 10
 ---
-## свойство color
-Возвращает или задаёт цвет направляющей чертежа.
-            Чтение/запись **aspose.slides.Color**.
+## color свойство
+Возвращает или задает color рисовального ориентира.
+Чтение/запись [`Color`](/slides/python-net/ru/aspose.slides/color).
 
 ### Определение:
 ```python
@@ -21,8 +21,8 @@ def color(self, value):
     ...
 ```
 
-
-### См. также
+### Смотрите также
 * класс [`IDrawingGuide`](/slides/python-net/ru/aspose.slides/idrawingguide)
+* класс [`Color`](/slides/python-net/ru/aspose.slides/color)
 * модуль [`aspose.slides`](/slides/python-net/ru/aspose.slides)
 * библиотека [`Aspose.Slides`](/slides/python-net)

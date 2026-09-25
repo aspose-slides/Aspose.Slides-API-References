@@ -7,7 +7,7 @@ url: /el/aspose.slides/ishapeframe/
 ---
 ## IShapeFrame κλάση
 
-Αντιπροσωπεύει τις ιδιότητες του πλαισίου σχήματος.
+Αναπαριστά τις ιδιότητες του πλαισίου σχήματος.
 
 Ο τύπος IShapeFrame εκθέτει τα ακόλουθα μέλη:
 
@@ -19,12 +19,12 @@ url: /el/aspose.slides/ishapeframe/
 | [`y`](/slides/python-net/el/aspose.slides/ishapeframe/y/) | Επιστρέφει τη συντεταγμένη Y της επάνω αριστερής γωνίας ενός πλαισίου.<br/>            Μόνο για ανάγνωση **float**. |
 | [`width`](/slides/python-net/el/aspose.slides/ishapeframe/width/) | Επιστρέφει το πλάτος ενός πλαισίου.<br/>            Μόνο για ανάγνωση **float**. |
 | [`height`](/slides/python-net/el/aspose.slides/ishapeframe/height/) | Επιστρέφει το ύψος ενός πλαισίου.<br/>            Μόνο για ανάγνωση **float**. |
-| [`rotation`](/slides/python-net/el/aspose.slides/ishapeframe/rotation/) | Επιστρέφει τον αριθμό των μοιρών κατά τον οποίο ένα πλαίσιο περιστρέφεται γύρω από τον άξονα z.<br/>            Μια θετική τιμή υποδεικνύει δεξιάστροφη περιστροφή· μια αρνητική τιμή<br/>            υποδεικνύει αριστεροστροφη περιστροφή.<br/>            Μόνο για ανάγνωση **float**. |
+| [`rotation`](/slides/python-net/el/aspose.slides/ishapeframe/rotation/) | Επιστρέφει τον αριθμό των μοιρών κατά τις οποίες ένα πλαίσιο είναι περιστραμμένο γύρω από τον άξονα z.<br/>            Μία θετική τιμή υποδεικνύει δεξιόστροφη περιστροφή· μια αρνητική τιμή<br/>            υποδεικνύει αριστερόστροφη περιστροφή.<br/>            Μόνο για ανάγνωση **float**. |
 | [`center_x`](/slides/python-net/el/aspose.slides/ishapeframe/center_x/) | Επιστρέφει τη συντεταγμένη X του κέντρου ενός πλαισίου.<br/>            Μόνο για ανάγνωση **float**. |
 | [`center_y`](/slides/python-net/el/aspose.slides/ishapeframe/center_y/) | Επιστρέφει τη συντεταγμένη Y του κέντρου ενός πλαισίου.<br/>            Μόνο για ανάγνωση **float**. |
-| [`flip_h`](/slides/python-net/el/aspose.slides/ishapeframe/flip_h/) | Καθορίζει αν ένα πλαίσιο είναι οριζόντια αντιστραμμένο.<br/>            Μόνο για ανάγνωση [`NullableBool`](/slides/python-net/el/aspose.slides/nullablebool). |
-| [`flip_v`](/slides/python-net/el/aspose.slides/ishapeframe/flip_v/) | Καθορίζει αν ένα πλαίσιο είναι κατακόρυφα αντιστραμμένο.<br/>            Μόνο για ανάγνωση [`NullableBool`](/slides/python-net/el/aspose.slides/nullablebool). |
-| [`rectangle`](/slides/python-net/el/aspose.slides/ishapeframe/rectangle/) | Επιστρέφει τις συντεταγμένες ενός πλαισίου.<br/>            Μόνο για ανάγνωση **aspose.slides.RectangleF**. |
+| [`flip_h`](/slides/python-net/el/aspose.slides/ishapeframe/flip_h/) | Καθορίζει εάν ένα πλαίσιο είναι αντεστραμμένο οριζόντια.<br/>            Μόνο για ανάγνωση [`NullableBool`](/slides/python-net/el/aspose.slides/nullablebool). |
+| [`flip_v`](/slides/python-net/el/aspose.slides/ishapeframe/flip_v/) | Καθορίζει εάν ένα πλαίσιο είναι αντεστραμμένο κάθετα.<br/>            Μόνο για ανάγνωση [`NullableBool`](/slides/python-net/el/aspose.slides/nullablebool). |
+| [`rectangle`](/slides/python-net/el/aspose.slides/ishapeframe/rectangle/) | Επιστρέφει τις συντεταγμένες ενός πλαισίου.<br/>            Μόνο για ανάγνωση [`RectangleF`](/slides/python-net/el/aspose.slides/rectanglef). |
 
 ## Μέθοδοι
 

@@ -1,15 +1,15 @@
 ---
 title: NotesSize class
-second_title: مرجع API Aspose.Slides برای Python از طریق .NET
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides/notessize/
 ---
-## NotesSize کلاس
+## کلاس NotesSize
 
-نمایانگر اندازهٔ اسلاید یادداشت‌ها است.
+یک اندازه اسلاید یادداشت‌ها را نمایش می‌دهد.
 
-نوع NotesSize اعضای زیر را در دسترس می‌گذارد:
+نوع NotesSize اعضای زیر را ارائه می‌دهد:
 
 ## سازنده‌ها
 
@@ -17,12 +17,13 @@ url: /fa/aspose.slides/notessize/
 | :- | :- |
 | [`__init__(self)`](/slides/python-net/fa/aspose.slides/notessize/__init__/#) |  |
 
-## ویژگی‌ها
+## خصوصیات
 
 | ویژگی | توضیح |
 | :- | :- |
-| [`size`](/slides/python-net/fa/aspose.slides/notessize/size/) | اندازه را بر حسب نقاط برمی‌گرداند یا تنظیم می‌کند.<br/>            قابل خواندن/نوشتن **aspose.slides.SizeF**. |
+| [`size`](/slides/python-net/fa/aspose.slides/notessize/size/) | اندازه را بر حسب نقطه‌ها برمی‌گرداند یا تنظیم می‌کند.<br/>            خواندن/نوشتن [`SizeF`](/slides/python-net/fa/aspose.slides/sizef). |
 
-### همچنین ببینید
+
+### موارد مرتبط
 * ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

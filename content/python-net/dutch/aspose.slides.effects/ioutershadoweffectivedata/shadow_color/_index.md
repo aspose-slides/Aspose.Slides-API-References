@@ -7,8 +7,8 @@ url: /nl/aspose.slides.effects/ioutershadoweffectivedata/shadow_color/
 weight: 90
 ---
 ## shadow_color eigenschap
-Kleur van de schaduw.
-            Alleen-lezen **aspose.slides.Color**.
+Kleur van schaduw.
+            Alleen-lezen [`Color`](/slides/python-net/nl/aspose.slides/color).
 
 ### Definitie:
 ```python
@@ -20,5 +20,6 @@ def shadow_color(self):
 
 ### Zie ook
 * klasse [`IOuterShadowEffectiveData`](/slides/python-net/nl/aspose.slides.effects/ioutershadoweffectivedata)
+* klasse [`Color`](/slides/python-net/nl/aspose.slides/color)
 * module [`aspose.slides.effects`](/slides/python-net/nl/aspose.slides.effects)
 * bibliotheek [`Aspose.Slides`](/slides/python-net)

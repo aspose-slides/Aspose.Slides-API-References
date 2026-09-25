@@ -6,9 +6,9 @@ type: docs
 url: /sv/aspose.slides.animation/iscaleeffect/by/
 weight: 40
 ---
-## per egenskap
-beskriver det relativa offsetvärdet för animationen (i procent).
-            Läs/skriv **aspose.slides.PointF**.
+## efter egenskap
+beskriver det relativa förskjutningsvärdet för animationen (i procent).
+            Läs/skriv [`PointF`](/slides/python-net/sv/aspose.slides/pointf).
 
 ### Definition:
 ```python
@@ -22,7 +22,8 @@ def by(self, value):
 ```
 
 
-### Se också
+### Se även
 * klass [`IScaleEffect`](/slides/python-net/sv/aspose.slides.animation/iscaleeffect)
+* klass [`PointF`](/slides/python-net/sv/aspose.slides/pointf)
 * modul [`aspose.slides.animation`](/slides/python-net/sv/aspose.slides.animation)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

@@ -1,14 +1,14 @@
 ---
 title: color property
-second_title: Aspose.Slides untuk Python via .NET API Referensi
+second_title: Aspose.Slides untuk Python via .NET Referensi API
 description: 
 type: docs
 url: /id/aspose.slides/gradientstopeffectivedata/color/
 weight: 10
 ---
-## properti warna
-Mengembalikan warna dari titik henti gradasi.
-            Hanya-baca **aspose.slides.Color**.
+## color properti
+Mengembalikan warna dari sebuah henti gradasi.
+            Hanya-baca [`Color`](/slides/python-net/id/aspose.slides/color).
 
 ### Definisi:
 ```python
@@ -20,5 +20,6 @@ def color(self):
 
 ### Lihat Juga
 * kelas [`GradientStopEffectiveData`](/slides/python-net/id/aspose.slides/gradientstopeffectivedata)
+* kelas [`Color`](/slides/python-net/id/aspose.slides/color)
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
 * perpustakaan [`Aspose.Slides`](/slides/python-net)

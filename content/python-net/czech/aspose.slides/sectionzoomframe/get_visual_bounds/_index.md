@@ -1,43 +1,48 @@
 ---
 title: get_visual_bounds method
-second_title: Aspose.Slides pro Python přes .NET API Reference
+second_title: Aspose.Slides pro Python prostřednictvím .NET API Referenční příručka
 description: 
 type: docs
 url: /cs/aspose.slides/sectionzoomframe/get_visual_bounds/
 weight: 40
 ---
 ## get_visual_bounds(self) {#}
-Získá vizuální hranice objektu vypočítané z jeho vykresleného obsahu.
+Získá vizuální ohraničení tvaru vypočtené z jeho vykresleného obsahu.
 
-### Návratová hodnota
+### Vrací
 
-A **aspose.slides.RectangleF** that represents the visual bounds of the shape
-             in slide coordinates.
+Objekt [`RectangleF`](/slides/python-net/cs/aspose.slides/rectanglef) představuje vizuální ohraničení tvaru
+             v souřadnicích snímku.
+
+
 
 ```python
 def get_visual_bounds(self):
     ...
 ```
 
-### Poznámky
 
-The returned rectangle represents the axis-aligned bounds of all content
-             produced by the shape during rendering in slide coordinate space.
-            
-             These bounds may differ from the shape's model bounds
+### Poznámky
+Vrácený obdélník představuje osově zarovnané ohraničení veškerého obsahu
+             generovaného tvarem během vykreslování v souřadnicovém prostoru snímku.
+             
+             Tato ohraničení se mohou lišit od modelových ohraničení tvaru
              ([`Shape.x`](/slides/python-net/cs/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/cs/aspose.slides/shape/y),
              [`Shape.width`](/slides/python-net/cs/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/cs/aspose.slides/shape/height))
-             and may contain negative coordinates if the rendered content extends
-             beyond the slide origin.
-            
-             The visual bounds take into account rendering-related aspects such as
-             transformations (for example, rotation), stroke width and joins,
-             text layout and overflow, SmartArt geometry, and other layout effects
-             that influence the final rendered appearance of the shape.
-            
-             The returned bounds are not clipped to the slide rectangle.
+             a mohou obsahovat záporné souřadnice, pokud vykreslený obsah přesahuje
+             původ snímku.
+             
+             Vizuální ohraničení zohledňují aspekty související s vykreslováním, například
+             transformace (například rotaci), šířku tahu a spojení,
+             rozvržení textu a přetečení, geometrii SmartArt a další efekty rozvržení,
+             které ovlivňují konečný vzhled tvaru po vykreslení.
+             
+             Vrácená ohraničení nejsou oříznuta na obdélník snímku.
+
+
 
 ### Viz také
 * třída [`SectionZoomFrame`](/slides/python-net/cs/aspose.slides/sectionzoomframe)
+* třída [`RectangleF`](/slides/python-net/cs/aspose.slides/rectanglef)
 * modul [`aspose.slides`](/slides/python-net/cs/aspose.slides)
 * knihovna [`Aspose.Slides`](/slides/python-net)

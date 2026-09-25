@@ -8,7 +8,7 @@ weight: 40
 ---
 ## par propriété
 décrit la valeur de décalage relative pour l'animation (en pourcentage).
-            Lecture/écriture **aspose.slides.PointF**.
+            Lecture/écriture [`PointF`](/slides/python-net/fr/aspose.slides/pointf).
 
 ### Définition:
 ```python
@@ -24,5 +24,6 @@ def by(self, value):
 
 ### Voir aussi
 * classe [`IScaleEffect`](/slides/python-net/fr/aspose.slides.animation/iscaleeffect)
+* classe [`PointF`](/slides/python-net/fr/aspose.slides/pointf)
 * module [`aspose.slides.animation`](/slides/python-net/fr/aspose.slides.animation)
 * bibliothèque [`Aspose.Slides`](/slides/python-net)

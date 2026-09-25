@@ -6,9 +6,9 @@ type: docs
 url: /zh-hant/aspose.slides.animation/motioneffect/by/
 weight: 60
 ---
-## 依屬性
-描述動畫的相對偏移值（以百分比表示）。
-            讀/寫 **aspose.slides.PointF**.
+## 按屬性
+描述動畫的相對位移值（以百分比表示）。
+            讀/寫 [`PointF`](/slides/python-net/zh-hant/aspose.slides/pointf).
 
 ### 定義：
 ```python
@@ -22,7 +22,8 @@ def by(self, value):
 ```
 
 
-### 另請參閱
+### 參見
 * 類別 [`MotionEffect`](/slides/python-net/zh-hant/aspose.slides.animation/motioneffect)
+* 類別 [`PointF`](/slides/python-net/zh-hant/aspose.slides/pointf)
 * 模組 [`aspose.slides.animation`](/slides/python-net/zh-hant/aspose.slides.animation)
-* 程式庫 [`Aspose.Slides`](/slides/python-net)
+* 函式庫 [`Aspose.Slides`](/slides/python-net)

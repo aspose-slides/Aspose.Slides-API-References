@@ -1,45 +1,45 @@
 ---
 title: IGeometryPath class
-second_title: Aspose.Slides for Python के लिए .NET API संदर्भ
+second_title: Aspose.Slides के लिए Python के माध्यम से .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides/igeometrypath/
 ---
 ## IGeometryPath क्लास
 
-GeometryShape के geometry path का प्रतिनिधित्व करता है
+GeometryShape का ज्यामितीय पथ दर्शाता है
 
-IGeometryPath प्रकार निम्नलिखित सदस्यों को उजागर करता है:
+IGeometryPath प्रकार निम्न सदस्यों को उपलब्ध कराता है:
 
 ## गुण
 
 | गुण | विवरण |
 | :- | :- |
-| [`path_data`](/slides/python-net/hi/aspose.slides/igeometrypath/path_data/) | GeometryShape का geometry path को पथ खंडों की array के रूप में लौटाता है। |
-| [`fill_mode`](/slides/python-net/hi/aspose.slides/igeometrypath/fill_mode/) | fill mode निर्धारित करता है |
-| [`stroke`](/slides/python-net/hi/aspose.slides/igeometrypath/stroke/) | stroke appearance निर्धारित करता है |
+| [`path_data`](/slides/python-net/hi/aspose.slides/igeometrypath/path_data/) | GeometryShape का ज्यामितीय पथ को पथ खंडों की एक ऐरे के रूप में लौटाता है |
+| [`fill_mode`](/slides/python-net/hi/aspose.slides/igeometrypath/fill_mode/) | भरण मोड सेट करता है |
+| [`stroke`](/slides/python-net/hi/aspose.slides/igeometrypath/stroke/) | स्ट्रोक उपस्थिति सेट करता है |
 
 ## विधियाँ
 
 | विधि | विवरण |
 | :- | :- |
-| [`line_to(self, point)`](/slides/python-net/hi/aspose.slides/igeometrypath/line_to/#asposepydrawingpointf) | पथ के अंत में रेखा जोड़ता है |
+| [`line_to(self, point)`](/slides/python-net/hi/aspose.slides/igeometrypath/line_to/#asposeslidespointf) | पथ के अंत में रेखा जोड़ता है |
 | [`line_to(self, x, y)`](/slides/python-net/hi/aspose.slides/igeometrypath/line_to/#float-float) | पथ के अंत में रेखा जोड़ता है |
-| [`line_to(self, point, index)`](/slides/python-net/hi/aspose.slides/igeometrypath/line_to/#asposepydrawingpointf-int) | पथ में निर्दिष्ट स्थान पर रेखा जोड़ता है |
-| [`line_to(self, x, y, index)`](/slides/python-net/hi/aspose.slides/igeometrypath/line_to/#float-float-int) | पथ में निर्दिष्ट स्थान पर रेखा जोड़ता है |
-| [`cubic_bezier_to(self, point1, point2, point3)`](/slides/python-net/hi/aspose.slides/igeometrypath/cubic_bezier_to/#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf) | पथ के अंत में क्यूबिक Bezier curve जोड़ता है |
-| [`cubic_bezier_to(self, x1, y1, x2, y2, x3, y3)`](/slides/python-net/hi/aspose.slides/igeometrypath/cubic_bezier_to/#float-float-float-float-float-float) | पथ के अंत में क्यूबिक Bezier curve जोड़ता है |
-| [`cubic_bezier_to(self, point1, point2, point3, index)`](/slides/python-net/hi/aspose.slides/igeometrypath/cubic_bezier_to/#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf-int) | पथ में निर्दिष्ट स्थान पर क्यूबिक Bezier curve जोड़ता है |
-| [`cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index)`](/slides/python-net/hi/aspose.slides/igeometrypath/cubic_bezier_to/#float-float-float-float-float-float-int) | पथ में निर्दिष्ट स्थान पर क्यूबिक Bezier curve जोड़ता है |
-| [`quadratic_bezier_to(self, point1, point2)`](/slides/python-net/hi/aspose.slides/igeometrypath/quadratic_bezier_to/#asposepydrawingpointf-asposepydrawingpointf) | पथ के अंत में क्वाड्रेटिक Bezier curve जोड़ता है |
-| [`quadratic_bezier_to(self, x1, y1, x2, y2)`](/slides/python-net/hi/aspose.slides/igeometrypath/quadratic_bezier_to/#float-float-float-float) | पथ के अंत में क्वाड्रेटिक Bezier curve जोड़ता है |
-| [`quadratic_bezier_to(self, point1, point2, index)`](/slides/python-net/hi/aspose.slides/igeometrypath/quadratic_bezier_to/#asposepydrawingpointf-asposepydrawingpointf-int) | पथ में निर्दिष्ट स्थान पर क्वाड्रेटिक Bezier curve जोड़ता है |
-| [`quadratic_bezier_to(self, x1, y1, x2, y2, index)`](/slides/python-net/hi/aspose.slides/igeometrypath/quadratic_bezier_to/#float-float-float-float-int) | पथ में निर्दिष्ट स्थान पर क्वाड्रेटिक Bezier curve जोड़ता है |
-| [`move_to(self, point)`](/slides/python-net/hi/aspose.slides/igeometrypath/move_to/#asposepydrawingpointf) | अगले बिंदु की स्थिती निर्धारित करता है। |
-| [`move_to(self, x, y)`](/slides/python-net/hi/aspose.slides/igeometrypath/move_to/#float-float) | अगले बिंदु की स्थिती निर्धारित करता है। |
-| [`remove_at(self, index)`](/slides/python-net/hi/aspose.slides/igeometrypath/remove_at/#int) | geometry path के निर्दिष्ट इंडेक्स पर खंड हटाता है। |
+| [`line_to(self, point, index)`](/slides/python-net/hi/aspose.slides/igeometrypath/line_to/#asposeslidespointf-int) | पथ के निर्दिष्ट स्थान पर रेखा जोड़ता है |
+| [`line_to(self, x, y, index)`](/slides/python-net/hi/aspose.slides/igeometrypath/line_to/#float-float-int) | पथ के निर्दिष्ट स्थान पर रेखा जोड़ता है |
+| [`cubic_bezier_to(self, point1, point2, point3)`](/slides/python-net/hi/aspose.slides/igeometrypath/cubic_bezier_to/#asposeslidespointf-asposeslidespointf-asposeslidespointf) | पथ के अंत में क्यूबिक बीज़र वक्र जोड़ता है |
+| [`cubic_bezier_to(self, x1, y1, x2, y2, x3, y3)`](/slides/python-net/hi/aspose.slides/igeometrypath/cubic_bezier_to/#float-float-float-float-float-float) | पथ के अंत में क्यूबिक बीज़र वक्र जोड़ता है |
+| [`cubic_bezier_to(self, point1, point2, point3, index)`](/slides/python-net/hi/aspose.slides/igeometrypath/cubic_bezier_to/#asposeslidespointf-asposeslidespointf-asposeslidespointf-int) | पथ के निर्दिष्ट स्थान पर क्यूबिक बीज़र वक्र जोड़ता है |
+| [`cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index)`](/slides/python-net/hi/aspose.slides/igeometrypath/cubic_bezier_to/#float-float-float-float-float-float-int) | पथ के निर्दिष्ट स्थान पर क्यूबिक बीज़र वक्र जोड़ता है |
+| [`quadratic_bezier_to(self, point1, point2)`](/slides/python-net/hi/aspose.slides/igeometrypath/quadratic_bezier_to/#asposeslidespointf-asposeslidespointf) | पथ के अंत में क्वाड्रेटिक बीज़र वक्र जोड़ता है |
+| [`quadratic_bezier_to(self, x1, y1, x2, y2)`](/slides/python-net/hi/aspose.slides/igeometrypath/quadratic_bezier_to/#float-float-float-float) | पथ के अंत में क्वाड्रेटिक बीज़र वक्र जोड़ता है |
+| [`quadratic_bezier_to(self, point1, point2, index)`](/slides/python-net/hi/aspose.slides/igeometrypath/quadratic_bezier_to/#asposeslidespointf-asposeslidespointf-int) | पथ के निर्दिष्ट स्थान पर क्वाड्रेटिक बीज़र वक्र जोड़ता है |
+| [`quadratic_bezier_to(self, x1, y1, x2, y2, index)`](/slides/python-net/hi/aspose.slides/igeometrypath/quadratic_bezier_to/#float-float-float-float-int) | पथ के निर्दिष्ट स्थान पर क्वाड्रेटिक बीज़र वक्र जोड़ता है |
+| [`move_to(self, point)`](/slides/python-net/hi/aspose.slides/igeometrypath/move_to/#asposeslidespointf) | अगले बिंदु की स्थिति सेट करता है |
+| [`move_to(self, x, y)`](/slides/python-net/hi/aspose.slides/igeometrypath/move_to/#float-float) | अगले बिंदु की स्थिति सेट करता है |
+| [`remove_at(self, index)`](/slides/python-net/hi/aspose.slides/igeometrypath/remove_at/#int) | ज्यामितीय पथ के निर्दिष्ट अनुक्रमणिका पर खंड हटाता है |
 | [`close_figure(self)`](/slides/python-net/hi/aspose.slides/igeometrypath/close_figure/#) | इस पथ के वर्तमान आकृति को बंद करता है |
-| [`arc_to(self, width, heigth, start_angle, sweep_angle)`](/slides/python-net/hi/aspose.slides/igeometrypath/arc_to/#float-float-float-float) | निर्दिष्ट आर्क को पथ में जोड़ता है। |
+| [`arc_to(self, width, heigth, start_angle, sweep_angle)`](/slides/python-net/hi/aspose.slides/igeometrypath/arc_to/#float-float-float-float) | निर्दिष्ट आर्क को पथ में जोड़ता है |
 
 ### संबंधित देखें
 * मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)

@@ -15,18 +15,18 @@ IPatternFormat 类型公开以下成员：
 
 | 属性 | 描述 |
 | :- | :- |
-| [`pattern_style`](/slides/python-net/zh/aspose.slides/ipatternformat/pattern_style/) | 返回或设置图案样式。<br/>            可读写 [`PatternStyle`](/slides/python-net/zh/aspose.slides/patternstyle). |
-| [`fore_color`](/slides/python-net/zh/aspose.slides/ipatternformat/fore_color/) | 返回前景图案颜色。<br/>            只读 [`IColorFormat`](/slides/python-net/zh/aspose.slides/icolorformat). |
-| [`back_color`](/slides/python-net/zh/aspose.slides/ipatternformat/back_color/) | 返回背景图案颜色。<br/>            只读 [`IColorFormat`](/slides/python-net/zh/aspose.slides/icolorformat). |
+| [`pattern_style`](/slides/python-net/zh/aspose.slides/ipatternformat/pattern_style/) | Returns or sets the pattern style.<br/>            Read/write [`PatternStyle`](/slides/python-net/zh/aspose.slides/patternstyle). |
+| [`fore_color`](/slides/python-net/zh/aspose.slides/ipatternformat/fore_color/) | Returns the foreground pattern color.<br/>            Read-only [`IColorFormat`](/slides/python-net/zh/aspose.slides/icolorformat). |
+| [`back_color`](/slides/python-net/zh/aspose.slides/ipatternformat/back_color/) | Returns the background pattern color.<br/>            Read-only [`IColorFormat`](/slides/python-net/zh/aspose.slides/icolorformat). |
 
 ## 方法
 
 | 方法 | 描述 |
 | :- | :- |
-| [`get_tile(self, background, foreground)`](/slides/python-net/zh/aspose.slides/ipatternformat/get_tile/#asposepydrawingcolor-asposepydrawingcolor) | 使用指定颜色创建图案填充的平铺图像。 |
-| [`get_tile(self, style_color)`](/slides/python-net/zh/aspose.slides/ipatternformat/get_tile/#asposepydrawingcolor) | 创建图案填充的平铺图像。 |
+| [`get_tile(self, background, foreground)`](/slides/python-net/zh/aspose.slides/ipatternformat/get_tile/#asposeslidescolor-asposeslidescolor) | Creates a tile image for the pattern fill with a specified colors. |
+| [`get_tile(self, style_color)`](/slides/python-net/zh/aspose.slides/ipatternformat/get_tile/#asposeslidescolor) | Creates a tile image for the pattern fill. |
 
 
-### 另请参阅
+### 另见
 * 模块 [`aspose.slides`](/slides/python-net/zh/aspose.slides)
 * 库 [`Aspose.Slides`](/slides/python-net)

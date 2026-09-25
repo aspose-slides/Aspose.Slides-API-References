@@ -1,13 +1,13 @@
 ---
 title: add method
-second_title: Aspose.Slides dla Pythona za pośrednictwem .NET – Dokumentacja API
+second_title: Aspose.Slides dla Pythona przez .NET - dokumentacja API
 description: 
 type: docs
 url: /pl/aspose.slides.animation/motionpath/add/
 weight: 20
 ---
-## add(self, type, pts, pts_type, b_relative_coord) {#motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool}
-Dodaj nowe polecenie do ścieżki
+## add(self, type, pts, pts_type, b_relative_coord) {#motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool}
+Dodaje nową komendę do ścieżki
 
 
 ```python
@@ -27,8 +27,8 @@ def add(self, type, pts, pts_type, b_relative_coord):
 
 ### Zobacz także
 * klasa [`IMotionCmdPath`](/slides/python-net/pl/aspose.slides.animation/imotioncmdpath)
-* enumeracja [`MotionCommandPathType`](/slides/python-net/pl/aspose.slides.animation/motioncommandpathtype)
+* enumeration [`MotionCommandPathType`](/slides/python-net/pl/aspose.slides.animation/motioncommandpathtype)
 * klasa [`MotionPath`](/slides/python-net/pl/aspose.slides.animation/motionpath)
-* enumeracja [`MotionPathPointsType`](/slides/python-net/pl/aspose.slides.animation/motionpathpointstype)
+* enumeration [`MotionPathPointsType`](/slides/python-net/pl/aspose.slides.animation/motionpathpointstype)
 * moduł [`aspose.slides.animation`](/slides/python-net/pl/aspose.slides.animation)
-* biblioteka [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

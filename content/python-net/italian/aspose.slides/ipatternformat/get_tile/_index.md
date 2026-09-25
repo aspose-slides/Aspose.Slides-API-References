@@ -1,17 +1,17 @@
 ---
 title: get_tile method
-second_title: Riferimento API Aspose.Slides per Python via .NET
+second_title: Aspose.Slides per Python tramite .NET Riferimento API
 description: 
 type: docs
 url: /it/aspose.slides/ipatternformat/get_tile/
 weight: 10
 ---
-## get_tile(self, style_color) {#asposepydrawingcolor}
-Crea un'immagine tile per il riempimento a motivo.
+## get_tile(self, style_color) {#asposeslidescolor}
+Crea un'immagine tile per il riempimento a trama.
 
 ### Restituisce
 
-Tile **aspose.slides.Bitmap**.
+Tile **aspose.slides.IImage**.
 
 
 
@@ -23,15 +23,15 @@ def get_tile(self, style_color):
 
 | Parametro | Tipo | Descrizione |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | Il **aspose.slides.Color** predefinito, <br/><br/>            definito nell'oggetto StyleEx di ShapeEx. I colori del riempimento possono dipendere da questo. |
+| style_color | [`Color`](/slides/python-net/it/aspose.slides/color) | Il valore predefinito [`Color`](/slides/python-net/it/aspose.slides/color), <br/><br/>            definito nell'oggetto StyleEx di ShapeEx. I colori del riempimento possono dipendere da questo. |
 
 
-## get_tile(self, background, foreground) {#asposepydrawingcolor-asposepydrawingcolor}
-Crea un'immagine tile per il riempimento a motivo con colori specificati.
+## get_tile(self, background, foreground) {#asposeslidescolor-asposeslidescolor}
+Crea un'immagine tile per il riempimento a trama con colori specificati.
 
 ### Restituisce
 
-Tile **aspose.slides.Bitmap**.
+Tile **aspose.slides.IImage**.
 
 
 
@@ -43,13 +43,14 @@ def get_tile(self, background, foreground):
 
 | Parametro | Tipo | Descrizione |
 | :- | :- | :- |
-| background | **aspose.slides.Color** | Il **aspose.slides.Color** di sfondo per il motivo. |
-| foreground | **aspose.slides.Color** | Il **aspose.slides.Color** in primo piano per il motivo. |
+| background | [`Color`](/slides/python-net/it/aspose.slides/color) | Lo sfondo [`Color`](/slides/python-net/it/aspose.slides/color) per il pattern. |
+| foreground | [`Color`](/slides/python-net/it/aspose.slides/color) | Il [`Color`](/slides/python-net/it/aspose.slides/color) di primo piano per il pattern. |
 
 
 
 ### Vedi anche
 * classe [`IImage`](/slides/python-net/it/aspose.slides/iimage)
 * classe [`IPatternFormat`](/slides/python-net/it/aspose.slides/ipatternformat)
+* classe [`Color`](/slides/python-net/it/aspose.slides/color)
 * modulo [`aspose.slides`](/slides/python-net/it/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* libreria [`Aspose.Slides`](/slides/python-net)

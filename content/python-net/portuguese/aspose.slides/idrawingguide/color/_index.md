@@ -8,7 +8,7 @@ weight: 10
 ---
 ## color propriedade
 Retorna ou define color do guia de desenho.
-            Leitura/gravação **aspose.slides.Color**.
+            Leitura/Gravação [`Color`](/slides/python-net/pt/aspose.slides/color).
 
 ### Definição:
 ```python
@@ -21,7 +21,9 @@ def color(self, value):
     ...
 ```
 
+
 ### Veja Também
 * classe [`IDrawingGuide`](/slides/python-net/pt/aspose.slides/idrawingguide)
+* classe [`Color`](/slides/python-net/pt/aspose.slides/color)
 * módulo [`aspose.slides`](/slides/python-net/pt/aspose.slides)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

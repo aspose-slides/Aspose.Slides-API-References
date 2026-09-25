@@ -1,13 +1,13 @@
 ---
 title: line_to method
-second_title: Tham chiếu API Aspose.Slides cho Python thông qua .NET
+second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides/igeometrypath/line_to/
 weight: 40
 ---
-## line_to(self, point) {#asposepydrawingpointf}
-Thêm đường thẳng vào cuối đường dẫn
+## line_to(self, point) {#asposeslidespointf}
+Thêm đoạn vào cuối đường dẫn
 
 
 ```python
@@ -18,11 +18,11 @@ def line_to(self, point):
 
 | Tham số | Kiểu | Mô tả |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | Điểm cuối của đường thẳng |
+| point | [`PointF`](/slides/python-net/vi/aspose.slides/pointf) | Điểm cuối của đoạn |
 
 
 ## line_to(self, x, y) {#float-float}
-Thêm đường thẳng vào cuối đường dẫn
+Thêm đoạn vào cuối đường dẫn
 
 
 ```python
@@ -33,12 +33,12 @@ def line_to(self, x, y):
 
 | Tham số | Kiểu | Mô tả |
 | :- | :- | :- |
-| x | **float** | Tọa độ X của điểm cuối của đường thẳng |
-| y | **float** | Tọa độ Y của điểm cuối của đường thẳng |
+| x | **float** | Tọa độ X của điểm cuối của đoạn |
+| y | **float** | Tọa độ Y của điểm cuối của đoạn |
 
 
-## line_to(self, point, index) {#asposepydrawingpointf-int}
-Thêm đường thẳng vào vị trí được chỉ định của đường dẫn
+## line_to(self, point, index) {#asposeslidespointf-int}
+Thêm đoạn vào vị trí chỉ định của đường dẫn
 
 
 ```python
@@ -49,7 +49,7 @@ def line_to(self, point, index):
 
 | Tham số | Kiểu | Mô tả |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | Điểm cuối |
+| point | [`PointF`](/slides/python-net/vi/aspose.slides/pointf) | Điểm cuối |
 | index | **int** | Chỉ mục của đoạn trong PathData |
 
 ### Ngoại lệ
@@ -60,7 +60,7 @@ def line_to(self, point, index):
 
 
 ## line_to(self, x, y, index) {#float-float-int}
-Thêm đường thẳng vào vị trí được chỉ định của đường dẫn
+Thêm đoạn vào vị trí chỉ định của đường dẫn
 
 
 ```python
@@ -85,5 +85,6 @@ def line_to(self, x, y, index):
 
 ### Xem thêm
 * lớp [`IGeometryPath`](/slides/python-net/vi/aspose.slides/igeometrypath)
+* lớp [`PointF`](/slides/python-net/vi/aspose.slides/pointf)
 * module [`aspose.slides`](/slides/python-net/vi/aspose.slides)
 * thư viện [`Aspose.Slides`](/slides/python-net)

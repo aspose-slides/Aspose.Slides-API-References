@@ -1,12 +1,12 @@
 ---
 title: line_to method
-second_title: Aspose.Slides pro Python – referenční příručka API .NET
-description:
+second_title: Aspose.Slides pro Python prostřednictvím .NET API referenční příručky
+description: 
 type: docs
 url: /cs/aspose.slides/geometrypath/line_to/
 weight: 50
 ---
-## line_to(self, point) {#asposepydrawingpointf}
+## line_to(self, point) {#asposeslidespointf}
 Přidá čáru na konec cesty
 
 
@@ -18,7 +18,7 @@ def line_to(self, point):
 
 | Parametr | Typ | Popis |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | Koncový bod čáry |
+| point | [`PointF`](/slides/python-net/cs/aspose.slides/pointf) | Koncový bod čáry |
 
 
 ## line_to(self, x, y) {#float-float}
@@ -37,7 +37,7 @@ def line_to(self, x, y):
 | y | **float** | Y souřadnice koncového bodu čáry |
 
 
-## line_to(self, point, index) {#asposepydrawingpointf-int}
+## line_to(self, point, index) {#asposeslidespointf-int}
 Přidá čáru na určené místo cesty
 
 
@@ -49,7 +49,7 @@ def line_to(self, point, index):
 
 | Parametr | Typ | Popis |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | Koncový bod |
+| point | [`PointF`](/slides/python-net/cs/aspose.slides/pointf) | Koncový bod |
 | index | **int** | Index segmentu v PathData |
 
 ### Výjimky
@@ -85,5 +85,6 @@ def line_to(self, x, y, index):
 
 ### Viz také
 * třída [`GeometryPath`](/slides/python-net/cs/aspose.slides/geometrypath)
+* třída [`PointF`](/slides/python-net/cs/aspose.slides/pointf)
 * modul [`aspose.slides`](/slides/python-net/cs/aspose.slides)
 * knihovna [`Aspose.Slides`](/slides/python-net)

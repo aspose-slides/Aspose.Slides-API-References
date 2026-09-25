@@ -1,6 +1,6 @@
 ---
 title: GradientStopEffectiveData class
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: Aspose.Slides لبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/gradientstopeffectivedata/
@@ -15,8 +15,8 @@ url: /ar/aspose.slides/gradientstopeffectivedata/
 
 | خاصية | الوصف |
 | :- | :- |
-| [`position`](/slides/python-net/ar/aspose.slides/gradientstopeffectivedata/position/) | يرجع موضع (0..1) لنقطة تدرج.<br/>            للقراءة فقط **float**. |
-| [`color`](/slides/python-net/ar/aspose.slides/gradientstopeffectivedata/color/) | يرجع لون نقطة تدرج.<br/>            للقراءة فقط **aspose.slides.Color**. |
+| [`position`](/slides/python-net/ar/aspose.slides/gradientstopeffectivedata/position/) | يرجع الموضع (0..1) لنقطة التدرج.<br/>            للقراءة فقط **float**. |
+| [`color`](/slides/python-net/ar/aspose.slides/gradientstopeffectivedata/color/) | يرجع لون نقطة التدرج.<br/>            للقراءة فقط [`Color`](/slides/python-net/ar/aspose.slides/color). |
 
 
 ### انظر أيضًا

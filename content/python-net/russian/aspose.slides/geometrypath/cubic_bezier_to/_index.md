@@ -1,12 +1,12 @@
 ---
 title: cubic_bezier_to method
-second_title: Aspose.Slides для Python через .NET справочник API
+second_title: Aspose.Slides для Python через .NET: справочник API
 description: 
 type: docs
 url: /ru/aspose.slides/geometrypath/cubic_bezier_to/
 weight: 40
 ---
-## cubic_bezier_to(self, point1, point2, point3) {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf}
+## cubic_bezier_to(self, point1, point2, point3) {#asposeslidespointf-asposeslidespointf-asposeslidespointf}
 Добавляет кубическую кривую Безье в конец пути
 
 
@@ -18,12 +18,12 @@ def cubic_bezier_to(self, point1, point2, point3):
 
 | Параметр | Тип | Описание |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | Первая точка направления |
-| point2 | **aspose.slides.PointF** | Вторая точка направления |
-| point3 | **aspose.slides.PointF** | Конечная точка |
+| point1 | [`PointF`](/slides/python-net/ru/aspose.slides/pointf) | First direction point |
+| point2 | [`PointF`](/slides/python-net/ru/aspose.slides/pointf) | Second direction point |
+| point3 | [`PointF`](/slides/python-net/ru/aspose.slides/pointf) | End point |
 
 
-## cubic_bezier_to(self, point1, point2, point3, index) {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf-int}
+## cubic_bezier_to(self, point1, point2, point3, index) {#asposeslidespointf-asposeslidespointf-asposeslidespointf-int}
 Добавляет кубическую кривую Безье в указанное место пути
 
 
@@ -35,16 +35,16 @@ def cubic_bezier_to(self, point1, point2, point3, index):
 
 | Параметр | Тип | Описание |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | Первая точка направления |
-| point2 | **aspose.slides.PointF** | Вторая точка направления |
-| point3 | **aspose.slides.PointF** | Конечная точка |
-| index | **int** | Индекс сегмента в PathData |
+| point1 | [`PointF`](/slides/python-net/ru/aspose.slides/pointf) | First direction point |
+| point2 | [`PointF`](/slides/python-net/ru/aspose.slides/pointf) | Second direction point |
+| point3 | [`PointF`](/slides/python-net/ru/aspose.slides/pointf) | End point |
+| index | **int** | Index of segment in PathData |
 
 ### Исключения
 
 | Исключение | Описание |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Индекс сегмента выходит за диапазон PathData |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Segment index is out of PathData range |
 
 
 ## cubic_bezier_to(self, x1, y1, x2, y2, x3, y3) {#float-float-float-float-float-float}
@@ -59,12 +59,12 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3):
 
 | Параметр | Тип | Описание |
 | :- | :- | :- |
-| x1 | **float** | Координата X первой точки направления |
-| y1 | **float** | Координата Y первой точки направления |
-| x2 | **float** | Координата X второй точки направления |
-| y2 | **float** | Координата Y второй точки направления |
-| x3 | **float** | Координата X конечной точки |
-| y3 | **float** | Координата Y конечной точки |
+| x1 | **float** | X coordinate of first direction point |
+| y1 | **float** | Y coordinate of first direction point |
+| x2 | **float** | X coordinate of second direction point |
+| y2 | **float** | Y coordinate of second direction point |
+| x3 | **float** | X coordinate of end point |
+| y3 | **float** | Y coordinate of end point |
 
 
 ## cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index) {#float-float-float-float-float-float-int}
@@ -79,23 +79,24 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index):
 
 | Параметр | Тип | Описание |
 | :- | :- | :- |
-| x1 | **float** | Координата X первой точки направления |
-| y1 | **float** | Координата Y первой точки направления |
-| x2 | **float** | Координата X второй точки направления |
-| y2 | **float** | Координата Y второй точки направления |
-| x3 | **float** | Координата X конечной точки |
-| y3 | **float** | Координата Y конечной точки |
-| index | **int** | Индекс сегмента в PathData |
+| x1 | **float** | X coordinate of first direction point |
+| y1 | **float** | Y coordinate of first direction point |
+| x2 | **float** | X coordinate of second direction point |
+| y2 | **float** | Y coordinate of second direction point |
+| x3 | **float** | X coordinate of end point |
+| y3 | **float** | Y coordinate of end point |
+| index | **int** | Index of segment in PathData |
 
 ### Исключения
 
 | Исключение | Описание |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Индекс сегмента выходит за диапазон PathData |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Segment index is out of PathData range |
 
 
 
-### Смотрите также
+### См. также
 * класс [`GeometryPath`](/slides/python-net/ru/aspose.slides/geometrypath)
+* класс [`PointF`](/slides/python-net/ru/aspose.slides/pointf)
 * модуль [`aspose.slides`](/slides/python-net/ru/aspose.slides)
 * библиотека [`Aspose.Slides`](/slides/python-net)

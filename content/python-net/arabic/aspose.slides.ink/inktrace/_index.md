@@ -1,24 +1,24 @@
 ---
 title: InkTrace class
-second_title: Aspose.Slides لبايثون عبر .NET مرجع API
+second_title: Aspose.Slides للـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.ink/inktrace/
 ---
 ## InkTrace فئة
 
-يمثل كائن Trace.
-            يُستخدم عنصر Trace لتسجيل البيانات التي يلتقطها جهاز الرقمنة. 
-            يحتوي على تسلسل من النقاط المشفرة وفقًا للمواصفات التي يقدمها كائن InkTraceFormat.
+Represents an Trace object.
+            A Trace element is used to record the data captured by the digitizer. 
+            It contains a sequence of points encoded according to the specification given by the InkTraceFormat object.
 
-يُظهر نوع InkTrace الأعضاء التاليين:
+The InkTrace type exposes the following members:
 
-## خصائص
+## الخصائص
 
-| خاصية | الوصف |
+| خاصية | وصف |
 | :- | :- |
-| [`brush`](/slides/python-net/ar/aspose.slides.ink/inktrace/brush/) | يحصل على فرشاة لـ IInkLine [`IInkBrush`](/slides/python-net/ar/aspose.slides.ink/iinkbrush)<br/>            للقراءة فقط. |
-| [`points`](/slides/python-net/ar/aspose.slides.ink/inktrace/points/) | يحصل على نقاط لـ IInkLine **aspose.slides.PointF**<br/>            للقراءة فقط. |
+| [`brush`](/slides/python-net/ar/aspose.slides.ink/inktrace/brush/) | يحصل على Brush لـ IInkLine [`IInkBrush`](/slides/python-net/ar/aspose.slides.ink/iinkbrush)<br/>            قراءة فقط. |
+| [`points`](/slides/python-net/ar/aspose.slides.ink/inktrace/points/) | يحصل على نقاط لـ IInkLine [`PointF`](/slides/python-net/ar/aspose.slides/pointf)<br/>            قراءة فقط. |
 
 
 ### انظر أيضًا

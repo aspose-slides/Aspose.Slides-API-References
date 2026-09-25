@@ -1,13 +1,13 @@
 ---
 title: cubic_bezier_to method
-second_title: Aspose.Slides dla Pythona poprzez .NET – referencja API
+second_title: Aspose.Slides dla Pythona za pośrednictwem .NET – odniesienie API
 description: 
 type: docs
 url: /pl/aspose.slides/igeometrypath/cubic_bezier_to/
 weight: 30
 ---
-## cubic_bezier_to(self, point1, point2, point3) {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf}
-Dodaje krzywą Beziera trzeciego stopnia na końcu ścieżki
+## cubic_bezier_to(self, point1, point2, point3) {#asposeslidespointf-asposeslidespointf-asposeslidespointf}
+Dodaje krzywą Bézier trzeciego stopnia na końcu ścieżki
 
 
 ```python
@@ -18,13 +18,13 @@ def cubic_bezier_to(self, point1, point2, point3):
 
 | Parametr | Typ | Opis |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | Pierwszy punkt kierunkowy |
-| point2 | **aspose.slides.PointF** | Drugi punkt kierunkowy |
-| point3 | **aspose.slides.PointF** | Punkt końcowy |
+| point1 | [`PointF`](/slides/python-net/pl/aspose.slides/pointf) | Pierwszy punkt kierunkowy |
+| point2 | [`PointF`](/slides/python-net/pl/aspose.slides/pointf) | Drugi punkt kierunkowy |
+| point3 | [`PointF`](/slides/python-net/pl/aspose.slides/pointf) | Punkt końcowy |
 
 
-## cubic_bezier_to(self, point1, point2, point3, index) {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf-int}
-Dodaje krzywą Beziera trzeciego stopnia w określonym miejscu ścieżki
+## cubic_bezier_to(self, point1, point2, point3, index) {#asposeslidespointf-asposeslidespointf-asposeslidespointf-int}
+Dodaje krzywą Bézier trzeciego stopnia w określonym miejscu ścieżki
 
 
 ```python
@@ -35,9 +35,9 @@ def cubic_bezier_to(self, point1, point2, point3, index):
 
 | Parametr | Typ | Opis |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | Pierwszy punkt kierunkowy |
-| point2 | **aspose.slides.PointF** | Drugi punkt kierunkowy |
-| point3 | **aspose.slides.PointF** | Punkt końcowy |
+| point1 | [`PointF`](/slides/python-net/pl/aspose.slides/pointf) | Pierwszy punkt kierunkowy |
+| point2 | [`PointF`](/slides/python-net/pl/aspose.slides/pointf) | Drugi punkt kierunkowy |
+| point3 | [`PointF`](/slides/python-net/pl/aspose.slides/pointf) | Punkt końcowy |
 | index | **int** | Indeks segmentu w PathData |
 
 ### Wyjątki
@@ -48,7 +48,7 @@ def cubic_bezier_to(self, point1, point2, point3, index):
 
 
 ## cubic_bezier_to(self, x1, y1, x2, y2, x3, y3) {#float-float-float-float-float-float}
-Dodaje krzywą Beziera trzeciego stopnia na końcu ścieżki
+Dodaje krzywą Bézier trzeciego stopnia na końcu ścieżki
 
 
 ```python
@@ -68,7 +68,7 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3):
 
 
 ## cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index) {#float-float-float-float-float-float-int}
-Dodaje krzywą Beziera trzeciego stopnia w określonym miejscu ścieżki
+Dodaje krzywą Bézier trzeciego stopnia w określonym miejscu ścieżki
 
 
 ```python
@@ -97,5 +97,6 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index):
 
 ### Zobacz także
 * klasa [`IGeometryPath`](/slides/python-net/pl/aspose.slides/igeometrypath)
+* klasa [`PointF`](/slides/python-net/pl/aspose.slides/pointf)
 * moduł [`aspose.slides`](/slides/python-net/pl/aspose.slides)
 * biblioteka [`Aspose.Slides`](/slides/python-net)

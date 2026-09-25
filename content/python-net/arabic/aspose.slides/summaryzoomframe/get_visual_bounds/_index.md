@@ -1,17 +1,17 @@
 ---
 title: get_visual_bounds method
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: Aspose.Slides للبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/summaryzoomframe/get_visual_bounds/
 weight: 40
 ---
 ## get_visual_bounds(self) {#}
-يقوم بالحصول على الحدود البصرية للشكل المُحتسبة من المحتوى المُعرض.
+يحصل على الحدود البصرية للشكل المحسوبة من المحتوى المعروض.
 
-### القيمة المرجعة
+### الإرجاع
 
-كائن **aspose.slides.RectangleF** يمثل الحدود البصرية للشكل في إحداثيات الشريحة.
+[`RectangleF`](/slides/python-net/ar/aspose.slides/rectanglef) الذي يمثل الحدود البصرية للشكل في إحداثيات الشريحة.
 
 
 
@@ -22,21 +22,26 @@ def get_visual_bounds(self):
 
 
 ### ملاحظات
+المستطيل المرجع يمثل الحدود المتراصة على المحاور لجميع المحتوى
+             الذي ينتجه الشكل أثناء العرض في مساحة إحداثيات الشريحة.
 
-المستطيل المعاد يمثل الحدود المتراصة مع المحور لكل المحتوى الذي ينتجه الشكل أثناء العرض في مساحة إحداثيات الشريحة.
-             
 هذه الحدود قد تختلف عن حدود نموذج الشكل
-([`Shape.x`](/slides/python-net/ar/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/ar/aspose.slides/shape/y),
-[`Shape.width`](/slides/python-net/ar/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/ar/aspose.slides/shape/height))
-وقد تحتوي على إحداثيات سلبية إذا امتد المحتوى المعروض خارج أصل الشريحة.
-             
-الحدود البصرية تأخذ في الاعتبار الجوانب المتعلقة بالعرض مثل التحويلات (على سبيل المثال، الدوران)، عرض الخط والاتصالات، تخطيط النص وتدفقه، هندسة SmartArt، وغيرها من تأثيرات التخطيط التي تؤثر على المظهر النهائي المعروض للشكل.
-             
-الحدود المعادة غير مقصوصة إلى مستطيل الشريحة.
+             ([`Shape.x`](/slides/python-net/ar/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/ar/aspose.slides/shape/y),
+             [`Shape.width`](/slides/python-net/ar/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/ar/aspose.slides/shape/height))
+             وقد تحتوي على إحداثيات سلبية إذا كان المحتوى المعروض يمتد
+             خارج أصل الشريحة.
+
+تأخذ الحدود البصرية في الاعتبار الجوانب المتعلقة بالعرض مثل
+             التحولات (على سبيل المثال، الدوران)، عرض الخطوط والاتصالات،
+             تنسيق النص والتجاوز، هندسة SmartArt، وتأثيرات التخطيط الأخرى
+             التي تؤثر على المظهر النهائي المعروض للشكل.
+
+الحدود المرجعة ليست مقصوصة إلى مستطيل الشريحة.
 
 
 
 ### انظر أيضًا
 * فئة [`SummaryZoomFrame`](/slides/python-net/ar/aspose.slides/summaryzoomframe)
+* فئة [`RectangleF`](/slides/python-net/ar/aspose.slides/rectanglef)
 * وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
 * مكتبة [`Aspose.Slides`](/slides/python-net)

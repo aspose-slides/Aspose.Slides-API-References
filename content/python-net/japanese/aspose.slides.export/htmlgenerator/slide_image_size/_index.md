@@ -8,7 +8,7 @@ weight: 60
 ---
 ## slide_image_size プロパティ
 スライド画像のサイズを返します。
-            読み取り専用 **aspose.slides.SizeF**.
+            読み取り専用 [`SizeF`](/slides/python-net/ja/aspose.slides/sizef).
 
 ### 定義:
 ```python
@@ -18,7 +18,8 @@ def slide_image_size(self):
 ```
 
 
-### 関連項目
+### 参照
 * クラス [`HtmlGenerator`](/slides/python-net/ja/aspose.slides.export/htmlgenerator)
+* クラス [`SizeF`](/slides/python-net/ja/aspose.slides/sizef)
 * モジュール [`aspose.slides.export`](/slides/python-net/ja/aspose.slides.export)
 * ライブラリ [`Aspose.Slides`](/slides/python-net)

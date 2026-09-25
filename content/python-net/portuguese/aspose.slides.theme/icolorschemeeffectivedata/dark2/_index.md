@@ -8,7 +8,7 @@ weight: 80
 ---
 ## dark2 propriedade
 Segunda cor escura no esquema.
-            Somente leitura **aspose.slides.Color**.
+            Somente leitura [`Color`](/slides/python-net/pt/aspose.slides/color).
 
 ### Definição:
 ```python
@@ -18,7 +18,8 @@ def dark2(self):
 ```
 
 
-### Veja também
+### Veja Também
 * classe [`IColorSchemeEffectiveData`](/slides/python-net/pt/aspose.slides.theme/icolorschemeeffectivedata)
+* classe [`Color`](/slides/python-net/pt/aspose.slides/color)
 * módulo [`aspose.slides.theme`](/slides/python-net/pt/aspose.slides.theme)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

@@ -1,13 +1,13 @@
 ---
 title: to_jpeg method
-second_title: Aspose.Slides для Python через .NET API Справочник
+second_title: Aspose.Slides для Python через .NET справочник API
 description: 
 type: docs
 url: /ru/aspose.slides.lowcode/convert/to_jpeg/
 weight: 20
 ---
 ## to_jpeg(pres, output_file_name) {#presentation-str}
-Преобразует входную презентацию в набор изображений в формате JPEG.  
+Преобразует входную презентацию в набор изображений формата JPEG.  
 Если имя выходного файла указано как "myPath/myFilename.jpeg", результат будет сохранён как набор файлов "myPath/myFilename_N.jpeg", где N — номер слайда.
 
 
@@ -30,8 +30,8 @@ def to_jpeg(pres, output_file_name):
 | **RuntimeError(Proxy error(ArgumentException))** |  |
 
 
-## to_jpeg(pres, output_file_name, image_size) {#presentation-str-asposepydrawingsize}
-Преобразует входную презентацию в набор изображений в формате JPEG.  
+## to_jpeg(pres, output_file_name, image_size) {#presentation-str-asposeslidessize}
+Преобразует входную презентацию в набор изображений формата JPEG.  
 Если имя выходного файла указано как "myPath/myFilename.jpeg", результат будет сохранён как набор файлов "myPath/myFilename_N.jpeg", где N — номер слайда.
 
 
@@ -46,7 +46,7 @@ def to_jpeg(pres, output_file_name, image_size):
 | :- | :- | :- |
 | pres | [`Presentation`](/slides/python-net/ru/aspose.slides/presentation) | Входная презентация |
 | output_file_name | **str** | Имя выходного файла. |
-| image_size | **aspose.slides.Size** | Размер каждого сгенерированного изображения. |
+| image_size | [`Size`](/slides/python-net/ru/aspose.slides/size) | Размер каждого генерируемого изображения. |
 
 ### Исключения
 
@@ -56,7 +56,7 @@ def to_jpeg(pres, output_file_name, image_size):
 
 
 ## to_jpeg(pres, output_file_name, scale, options) {#presentation-str-float-asposeslidesexportirenderingoptions}
-Преобразует входную презентацию в набор изображений в формате JPEG.  
+Преобразует входную презентацию в набор изображений формата JPEG.  
 Если имя выходного файла указано как "myPath/myFilename.jpeg", результат будет сохранён как набор файлов "myPath/myFilename_N.jpeg", где N — номер слайда.
 
 
@@ -72,7 +72,7 @@ def to_jpeg(pres, output_file_name, scale, options):
 | pres | [`Presentation`](/slides/python-net/ru/aspose.slides/presentation) | Входная презентация. |
 | output_file_name | **str** | Имя выходного файла. |
 | scale | **float** | Коэффициент масштабирования, применяемый к выходным изображениям относительно оригинального размера слайда. |
-| options | [`IRenderingOptions`](/slides/python-net/ru/aspose.slides.export/irenderingoptions) | Опции рендеринга. |
+| options | [`IRenderingOptions`](/slides/python-net/ru/aspose.slides.export/irenderingoptions) | Параметры рендеринга. |
 
 ### Исключения
 
@@ -83,8 +83,9 @@ def to_jpeg(pres, output_file_name, scale, options):
 
 
 ### См. также
-* класс [`Convert`](/slides/python-net/ru/aspose.slides.lowcode/convert)
-* класс [`IRenderingOptions`](/slides/python-net/ru/aspose.slides.export/irenderingoptions)
-* класс [`Presentation`](/slides/python-net/ru/aspose.slides/presentation)
-* модуль [`aspose.slides.lowcode`](/slides/python-net/ru/aspose.slides.lowcode)
-* библиотека [`Aspose.Slides`](/slides/python-net)
+* class [`Convert`](/slides/python-net/ru/aspose.slides.lowcode/convert)
+* class [`IRenderingOptions`](/slides/python-net/ru/aspose.slides.export/irenderingoptions)
+* class [`Presentation`](/slides/python-net/ru/aspose.slides/presentation)
+* class [`Size`](/slides/python-net/ru/aspose.slides/size)
+* module [`aspose.slides.lowcode`](/slides/python-net/ru/aspose.slides.lowcode)
+* library [`Aspose.Slides`](/slides/python-net)

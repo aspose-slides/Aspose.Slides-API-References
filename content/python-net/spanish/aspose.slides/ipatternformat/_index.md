@@ -1,6 +1,6 @@
 ---
 title: IPatternFormat class
-second_title: Aspose.Slides para Python a través de la referencia de API .NET
+second_title: Aspose.Slides para Python mediante la API .NET
 description: 
 type: docs
 url: /es/aspose.slides/ipatternformat/
@@ -13,7 +13,7 @@ El tipo IPatternFormat expone los siguientes miembros:
 
 ## Propiedades
 
-| Property | Description |
+| Propiedad | Descripción |
 | :- | :- |
 | [`pattern_style`](/slides/python-net/es/aspose.slides/ipatternformat/pattern_style/) | Devuelve o establece el estilo del patrón.<br/>            Lectura/escritura [`PatternStyle`](/slides/python-net/es/aspose.slides/patternstyle). |
 | [`fore_color`](/slides/python-net/es/aspose.slides/ipatternformat/fore_color/) | Devuelve el color del patrón de primer plano.<br/>            Solo lectura [`IColorFormat`](/slides/python-net/es/aspose.slides/icolorformat). |
@@ -21,12 +21,12 @@ El tipo IPatternFormat expone los siguientes miembros:
 
 ## Métodos
 
-| Method | Description |
+| Método | Descripción |
 | :- | :- |
-| [`get_tile(self, background, foreground)`](/slides/python-net/es/aspose.slides/ipatternformat/get_tile/#asposepydrawingcolor-asposepydrawingcolor) | Crea una imagen de mosaico para el relleno del patrón con colores especificados. |
-| [`get_tile(self, style_color)`](/slides/python-net/es/aspose.slides/ipatternformat/get_tile/#asposepydrawingcolor) | Crea una imagen de mosaico para el relleno del patrón. |
+| [`get_tile(self, background, foreground)`](/slides/python-net/es/aspose.slides/ipatternformat/get_tile/#asposeslidescolor-asposeslidescolor) | Crea una imagen de mosaico para el relleno de patrón con colores especificados. |
+| [`get_tile(self, style_color)`](/slides/python-net/es/aspose.slides/ipatternformat/get_tile/#asposeslidescolor) | Crea una imagen de mosaico para el relleno de patrón. |
 
 
 ### Ver también
-* module [`aspose.slides`](/slides/python-net/es/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* módulo [`aspose.slides`](/slides/python-net/es/aspose.slides)
+* biblioteca [`Aspose.Slides`](/slides/python-net)

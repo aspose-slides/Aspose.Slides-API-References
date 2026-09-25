@@ -1,6 +1,6 @@
 ---
 title: to_png method
-second_title: Aspose.Slides для Python через .NET справочник API
+second_title: Справочник API Aspose.Slides для Python через .NET
 description: 
 type: docs
 url: /ru/aspose.slides.lowcode/convert/to_png/
@@ -8,7 +8,8 @@ weight: 40
 ---
 ## to_png(pres, output_file_name) {#presentation-str}
 Преобразует входную презентацию в набор изображений формата PNG.  
-Если имя выходного файла указано как "myPath/myFilename.png", результат будет сохранён как набор файлов "myPath/myFilename_N.png", где N — номер слайда.
+            Если имя выходного файла указано как "myPath/myFilename.png", 
+            результат будет сохранён как набор файлов "myPath/myFilename_N.png", где N – номер слайда.
 
 
 ```python
@@ -30,9 +31,10 @@ def to_png(pres, output_file_name):
 | **RuntimeError(Proxy error(ArgumentException))** |  |
 
 
-## to_png(pres, output_file_name, image_size) {#presentation-str-asposepydrawingsize}
+## to_png(pres, output_file_name, image_size) {#presentation-str-asposeslidessize}
 Преобразует входную презентацию в набор изображений формата PNG.  
-Если имя выходного файла указано как "myPath/myFilename.png", результат будет сохранён как набор файлов "myPath/myFilename_N.png", где N — номер слайда.
+            Если имя выходного файла указано как "myPath/myFilename.png", 
+            результат будет сохранён как набор файлов "myPath/myFilename_N.png", где N – номер слайда.
 
 
 ```python
@@ -46,7 +48,7 @@ def to_png(pres, output_file_name, image_size):
 | :- | :- | :- |
 | pres | [`Presentation`](/slides/python-net/ru/aspose.slides/presentation) | Входная презентация |
 | output_file_name | **str** | Имя выходного файла. |
-| image_size | **aspose.slides.Size** | Размер каждого создаваемого изображения. |
+| image_size | [`Size`](/slides/python-net/ru/aspose.slides/size) | Размер каждого создаваемого изображения. |
 
 ### Исключения
 
@@ -57,7 +59,8 @@ def to_png(pres, output_file_name, image_size):
 
 ## to_png(pres, output_file_name, scale, options) {#presentation-str-float-asposeslidesexportirenderingoptions}
 Преобразует входную презентацию в набор изображений формата PNG.  
-Если имя выходного файла указано как "myPath/myFilename.png", результат будет сохранён как набор файлов "myPath/myFilename_N.png", где N — номер слайда.
+            Если имя выходного файла указано как "myPath/myFilename.png", 
+            результат будет сохранён как набор файлов "myPath/myFilename_N.png", где N – номер слайда.
 
 
 ```python
@@ -86,5 +89,6 @@ def to_png(pres, output_file_name, scale, options):
 * класс [`Convert`](/slides/python-net/ru/aspose.slides.lowcode/convert)
 * класс [`IRenderingOptions`](/slides/python-net/ru/aspose.slides.export/irenderingoptions)
 * класс [`Presentation`](/slides/python-net/ru/aspose.slides/presentation)
+* класс [`Size`](/slides/python-net/ru/aspose.slides/size)
 * модуль [`aspose.slides.lowcode`](/slides/python-net/ru/aspose.slides.lowcode)
 * библиотека [`Aspose.Slides`](/slides/python-net)

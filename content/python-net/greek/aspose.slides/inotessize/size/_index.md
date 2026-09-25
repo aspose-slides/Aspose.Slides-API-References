@@ -6,9 +6,9 @@ type: docs
 url: /el/aspose.slides/inotessize/size/
 weight: 10
 ---
-## size ιδιότητα
-Επιστρέφει ή ορίζει το size σε σημεία.
-            Ανάγνωση/εγγραφή **aspose.slides.SizeF**.
+## ιδιότητα size
+Επιστρέφει ή ορίζει το μέγεθος σε σημεία.
+            Ανάγνωση/Εγγραφή [`SizeF`](/slides/python-net/el/aspose.slides/sizef).
 
 ### Ορισμός:
 ```python
@@ -24,5 +24,6 @@ def size(self, value):
 
 ### Δείτε επίσης
 * κλάση [`INotesSize`](/slides/python-net/el/aspose.slides/inotessize)
+* κλάση [`SizeF`](/slides/python-net/el/aspose.slides/sizef)
 * μονάδα [`aspose.slides`](/slides/python-net/el/aspose.slides)
 * βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

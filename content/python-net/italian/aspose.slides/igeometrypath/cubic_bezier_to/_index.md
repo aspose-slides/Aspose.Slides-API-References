@@ -1,12 +1,12 @@
 ---
 title: cubic_bezier_to method
-second_title: Riferimento API di Aspose.Slides per Python via .NET
+second_title: Riferimento API Aspose.Slides per Python via .NET
 description: 
 type: docs
 url: /it/aspose.slides/igeometrypath/cubic_bezier_to/
 weight: 30
 ---
-## cubic_bezier_to(self, point1, point2, point3) {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf}
+## cubic_bezier_to(self, point1, point2, point3) {#asposeslidespointf-asposeslidespointf-asposeslidespointf}
 Aggiunge una curva Bezier cubica alla fine del percorso
 
 
@@ -18,13 +18,13 @@ def cubic_bezier_to(self, point1, point2, point3):
 
 | Parametro | Tipo | Descrizione |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | Primo punto di direzione |
-| point2 | **aspose.slides.PointF** | Secondo punto di direzione |
-| point3 | **aspose.slides.PointF** | Punto finale |
+| point1 | [`PointF`](/slides/python-net/it/aspose.slides/pointf) | Primo punto di direzione |
+| point2 | [`PointF`](/slides/python-net/it/aspose.slides/pointf) | Secondo punto di direzione |
+| point3 | [`PointF`](/slides/python-net/it/aspose.slides/pointf) | Punto finale |
 
 
-## cubic_bezier_to(self, point1, point2, point3, index) {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf-int}
-Aggiunge una curva Bezier cubica al punto specificato del percorso
+## cubic_bezier_to(self, point1, point2, point3, index) {#asposeslidespointf-asposeslidespointf-asposeslidespointf-int}
+Aggiunge una curva Bezier cubica nel punto specificato del percorso
 
 
 ```python
@@ -35,9 +35,9 @@ def cubic_bezier_to(self, point1, point2, point3, index):
 
 | Parametro | Tipo | Descrizione |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | Primo punto di direzione |
-| point2 | **aspose.slides.PointF** | Secondo punto di direzione |
-| point3 | **aspose.slides.PointF** | Punto finale |
+| point1 | [`PointF`](/slides/python-net/it/aspose.slides/pointf) | Primo punto di direzione |
+| point2 | [`PointF`](/slides/python-net/it/aspose.slides/pointf) | Secondo punto di direzione |
+| point3 | [`PointF`](/slides/python-net/it/aspose.slides/pointf) | Punto finale |
 | index | **int** | Indice del segmento in PathData |
 
 ### Eccezioni
@@ -68,7 +68,7 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3):
 
 
 ## cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index) {#float-float-float-float-float-float-int}
-Aggiunge una curva Bezier cubica al punto specificato del percorso
+Aggiunge una curva Bezier cubica nel punto specificato del percorso
 
 
 ```python
@@ -97,5 +97,6 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index):
 
 ### Vedi anche
 * classe [`IGeometryPath`](/slides/python-net/it/aspose.slides/igeometrypath)
+* classe [`PointF`](/slides/python-net/it/aspose.slides/pointf)
 * modulo [`aspose.slides`](/slides/python-net/it/aspose.slides)
 * libreria [`Aspose.Slides`](/slides/python-net)

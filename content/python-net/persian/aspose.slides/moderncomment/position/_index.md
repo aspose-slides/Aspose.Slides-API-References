@@ -6,9 +6,9 @@ type: docs
 url: /fa/aspose.slides/moderncomment/position/
 weight: 60
 ---
-## ویژگی موقعیت
-موقعیت یک نظر در یک اسلاید را بر می‌گرداند یا تنظیم می‌کند.
-خواندن/نوشتن **aspose.slides.PointF**.
+## خاصیت موقعیت
+موقعیت یک نظر در یک اسلاید را برمی‌گرداند یا تنظیم می‌کند.
+            خواندن/نوشتن [`PointF`](/slides/python-net/fa/aspose.slides/pointf).
 
 ### تعریف:
 ```python
@@ -21,7 +21,9 @@ def position(self, value):
     ...
 ```
 
-### همچنین ببینید
+
+### مراجع
 * کلاس [`ModernComment`](/slides/python-net/fa/aspose.slides/moderncomment)
+* کلاس [`PointF`](/slides/python-net/fa/aspose.slides/pointf)
 * ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)
-* کتابخانه [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

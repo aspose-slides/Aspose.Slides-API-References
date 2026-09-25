@@ -7,9 +7,9 @@ url: /ja/aspose.slides/colorformat/color/
 weight: 60
 ---
 ## color プロパティ
-結果として得られる色を返します (すべての色変換が適用された状態)。
-            RGB の色を設定し、すべての色変換をクリアします。
-            読み書き **aspose.slides.Color**。
+結果の color を返します（すべての色変換が適用された状態）。
+RGB 色を設定し、すべての色変換をクリアします。
+読み書き [`Color`](/slides/python-net/ja/aspose.slides/color)。
 
 ### 定義:
 ```python
@@ -22,8 +22,8 @@ def color(self, value):
     ...
 ```
 
-
 ### 参照
 * クラス [`ColorFormat`](/slides/python-net/ja/aspose.slides/colorformat)
+* クラス [`Color`](/slides/python-net/ja/aspose.slides/color)
 * モジュール [`aspose.slides`](/slides/python-net/ja/aspose.slides)
 * ライブラリ [`Aspose.Slides`](/slides/python-net)

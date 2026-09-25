@@ -7,9 +7,9 @@ url: /sv/aspose.slides/icolorformat/color/
 weight: 50
 ---
 ## färgegenskap
-Returnerar den resulterande färgen (med alla färgtransformeringar tillämpade).
+Returnerar resulterande färg (med alla färgtransformeringar tillämpade).
             Ställer in RGB-färger och rensar alla färgtransformeringar.
-            Läs/skriv **aspose.slides.Color**.
+            Läs/skriv [`Color`](/slides/python-net/sv/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -25,5 +25,6 @@ def color(self, value):
 
 ### Se även
 * klass [`IColorFormat`](/slides/python-net/sv/aspose.slides/icolorformat)
+* klass [`Color`](/slides/python-net/sv/aspose.slides/color)
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

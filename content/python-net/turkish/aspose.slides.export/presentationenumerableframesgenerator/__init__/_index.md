@@ -22,7 +22,7 @@ def __init__(self, presentation, fps):
 | fps | **float** | Saniyedeki kare sayısı (FPS) |
 
 
-## __init__(self, frame_size, fps) {#asposepydrawingsize-float}
+## __init__(self, frame_size, fps) {#asposeslidessize-float}
 Yeni bir [`PresentationPlayer`](/slides/python-net/tr/aspose.slides.export/presentationplayer) örneği oluşturur.
 
 
@@ -34,14 +34,15 @@ def __init__(self, frame_size, fps):
 
 | Parametre | Tür | Açıklama |
 | :- | :- | :- |
-| frame_size | **aspose.slides.Size** | Çerçeve boyutu |
+| frame_size | [`Size`](/slides/python-net/tr/aspose.slides/size) | Çerçeve boyutu |
 | fps | **float** | Saniyedeki kare sayısı (FPS) |
 
 
 
-### Ayrıca Bakınız
+### İlgili
 * sınıf [`Presentation`](/slides/python-net/tr/aspose.slides/presentation)
 * sınıf [`PresentationEnumerableFramesGenerator`](/slides/python-net/tr/aspose.slides.export/presentationenumerableframesgenerator)
 * sınıf [`PresentationPlayer`](/slides/python-net/tr/aspose.slides.export/presentationplayer)
+* sınıf [`Size`](/slides/python-net/tr/aspose.slides/size)
 * modül [`aspose.slides.export`](/slides/python-net/tr/aspose.slides.export)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

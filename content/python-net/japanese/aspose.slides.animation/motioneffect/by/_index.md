@@ -6,9 +6,9 @@ type: docs
 url: /ja/aspose.slides.animation/motioneffect/by/
 weight: 60
 ---
-## プロパティ別
-アニメーションの相対オフセット値（パーセンテージ）を示します。
-            読み書き **aspose.slides.PointF**。
+## プロパティによる
+アニメーションの相対オフセット値（パーセント）を説明します。
+            読み取り/書き込み [`PointF`](/slides/python-net/ja/aspose.slides/pointf).
 
 ### 定義:
 ```python
@@ -24,5 +24,6 @@ def by(self, value):
 
 ### 参照
 * クラス [`MotionEffect`](/slides/python-net/ja/aspose.slides.animation/motioneffect)
+* クラス [`PointF`](/slides/python-net/ja/aspose.slides/pointf)
 * モジュール [`aspose.slides.animation`](/slides/python-net/ja/aspose.slides.animation)
 * ライブラリ [`Aspose.Slides`](/slides/python-net)

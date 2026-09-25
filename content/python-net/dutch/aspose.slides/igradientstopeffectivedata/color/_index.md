@@ -7,8 +7,8 @@ url: /nl/aspose.slides/igradientstopeffectivedata/color/
 weight: 10
 ---
 ## kleur eigenschap
-Retourneert de kleur van een gradientstop.
-            Alleen-lezen **aspose.slides.Color**.
+Retourneert de kleur van een kleurverloopstop.
+            Alleen-lezen [`Color`](/slides/python-net/nl/aspose.slides/color).
 
 ### Definitie:
 ```python
@@ -20,5 +20,6 @@ def color(self):
 
 ### Zie ook
 * klasse [`IGradientStopEffectiveData`](/slides/python-net/nl/aspose.slides/igradientstopeffectivedata)
+* klasse [`Color`](/slides/python-net/nl/aspose.slides/color)
 * module [`aspose.slides`](/slides/python-net/nl/aspose.slides)
 * bibliotheek [`Aspose.Slides`](/slides/python-net)

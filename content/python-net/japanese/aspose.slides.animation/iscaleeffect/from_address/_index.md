@@ -7,8 +7,8 @@ url: /ja/aspose.slides.animation/iscaleeffect/from_address/
 weight: 50
 ---
 ## from_address プロパティ
-アニメーションの開始位置となる x/y 座標を指定します（パーセント単位）。
-            読み取り/書き込み **aspose.slides.PointF**.
+アニメーションを開始する x/y 座標（パーセント）を指定します。
+読み取り/書き込み [`PointF`](/slides/python-net/ja/aspose.slides/pointf)。
 
 ### 定義:
 ```python
@@ -21,8 +21,8 @@ def from_address(self, value):
     ...
 ```
 
-
 ### 参照
 * クラス [`IScaleEffect`](/slides/python-net/ja/aspose.slides.animation/iscaleeffect)
+* クラス [`PointF`](/slides/python-net/ja/aspose.slides/pointf)
 * モジュール [`aspose.slides.animation`](/slides/python-net/ja/aspose.slides.animation)
 * ライブラリ [`Aspose.Slides`](/slides/python-net)

@@ -1,11 +1,11 @@
 ---
 title: PresentationEnumerableFramesGenerator class
-second_title: Aspose.Slides para Python via .NET Referência da API
+second_title: Referência da API Aspose.Slides para Python via .NET
 description: 
 type: docs
 url: /pt/aspose.slides.export/presentationenumerableframesgenerator/
 ---
-## classe PresentationEnumerableFramesGenerator
+## PresentationEnumerableFramesGenerator classe
 
 Representa um gerador das animações no [`Presentation`](/slides/python-net/pt/aspose.slides/presentation).
 
@@ -15,8 +15,8 @@ O tipo PresentationEnumerableFramesGenerator expõe os seguintes membros:
 
 | Construtor | Descrição |
 | :- | :- |
-| [`__init__(self, presentation, fps)`](/slides/python-net/pt/aspose.slides.export/presentationenumerableframesgenerator/__init__/#presentation-float) | Cria uma nova instância de [`PresentationPlayer`](/slides/python-net/pt/aspose.slides.export/presentationplayer). |
-| [`__init__(self, frame_size, fps)`](/slides/python-net/pt/aspose.slides.export/presentationenumerableframesgenerator/__init__/#asposepydrawingsize-float) | Cria uma nova instância de [`PresentationPlayer`](/slides/python-net/pt/aspose.slides.export/presentationplayer). |
+| [`__init__(self, presentation, fps)`](/slides/python-net/pt/aspose.slides.export/presentationenumerableframesgenerator/__init__/#presentation-float) | Cria uma nova instância do [`PresentationPlayer`](/slides/python-net/pt/aspose.slides.export/presentationplayer). |
+| [`__init__(self, frame_size, fps)`](/slides/python-net/pt/aspose.slides.export/presentationenumerableframesgenerator/__init__/#asposeslidessize-float) | Cria uma nova instância do [`PresentationPlayer`](/slides/python-net/pt/aspose.slides.export/presentationplayer). |
 
 ## Propriedades
 
@@ -33,7 +33,7 @@ O tipo PresentationEnumerableFramesGenerator expõe os seguintes membros:
 | :- | :- |
 | [`enumerate_frames(self, slides)`](/slides/python-net/pt/aspose.slides.export/presentationenumerableframesgenerator/enumerate_frames/#iterableislide) |  |
 
-### Veja Também
+### Ver também
 * classe [`Presentation`](/slides/python-net/pt/aspose.slides/presentation)
 * classe [`PresentationPlayer`](/slides/python-net/pt/aspose.slides.export/presentationplayer)
 * módulo [`aspose.slides.export`](/slides/python-net/pt/aspose.slides.export)

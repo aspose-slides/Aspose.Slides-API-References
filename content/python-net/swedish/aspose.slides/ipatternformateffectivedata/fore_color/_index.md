@@ -8,7 +8,7 @@ weight: 30
 ---
 ## fore_color egenskap
 Returnerar färgen för förgrundsmönstret.
-            Skrivskyddad **aspose.slides.Color**.
+            Skrivskyddad [`Color`](/slides/python-net/sv/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def fore_color(self):
 
 ### Se även
 * klass [`IPatternFormatEffectiveData`](/slides/python-net/sv/aspose.slides/ipatternformateffectivedata)
+* klass [`Color`](/slides/python-net/sv/aspose.slides/color)
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

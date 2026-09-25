@@ -8,7 +8,7 @@ weight: 50
 ---
 ## shadow_color özelliği
 Gölgenin rengi.
-            Salt-okunur **aspose.slides.Color**.
+            Salt okunur [`Color`](/slides/python-net/tr/aspose.slides/color).
 
 ### Tanım:
 ```python
@@ -18,7 +18,8 @@ def shadow_color(self):
 ```
 
 
-### Diğer Bağlantılar
+### Diğer Bakınız
 * sınıf [`IPresetShadowEffectiveData`](/slides/python-net/tr/aspose.slides.effects/ipresetshadoweffectivedata)
+* sınıf [`Color`](/slides/python-net/tr/aspose.slides/color)
 * modül [`aspose.slides.effects`](/slides/python-net/tr/aspose.slides.effects)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

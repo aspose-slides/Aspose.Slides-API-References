@@ -1,6 +1,6 @@
 ---
 title: IColorChangeEffectiveData class
-second_title: Aspose.Slides pro Python pomocí .NET API Reference
+second_title: Aspose.Slides pro Python prostřednictvím .NET API
 description: 
 type: docs
 url: /cs/aspose.slides.effects/icolorchangeeffectivedata/
@@ -10,15 +10,15 @@ url: /cs/aspose.slides.effects/icolorchangeeffectivedata/
 Neměnný objekt, který představuje efekt změny barvy.
             Instance FromColor jsou nahrazeny instancemi ToColor.
 
-Typ IColorChangeEffectiveData zveřejňuje následující členy:
+Typ IColorChangeEffectiveData nabízí následující členy:
 
 ## Vlastnosti
 
 | Vlastnost | Popis |
 | :- | :- |
-| [`from_color`](/slides/python-net/cs/aspose.slides.effects/icolorchangeeffectivedata/from_color/) | Barva, která bude nahrazena.<br/>            Pouze pro čtení **aspose.slides.Color**. |
-| [`to_color`](/slides/python-net/cs/aspose.slides.effects/icolorchangeeffectivedata/to_color/) | Barva, která nahradí.<br/>            Pouze pro čtení **aspose.slides.Color**. |
-| [`use_alpha`](/slides/python-net/cs/aspose.slides.effects/icolorchangeeffectivedata/use_alpha/) | Vrací logickou hodnotu určující, zda má být použit alfa komponent.<br/>            Pouze pro čtení **bool**. |
+| [`from_color`](/slides/python-net/cs/aspose.slides.effects/icolorchangeeffectivedata/from_color/) | Barva, která bude nahrazena.<br/>            Pouze ke čtení [`Color`](/slides/python-net/cs/aspose.slides/color). |
+| [`to_color`](/slides/python-net/cs/aspose.slides.effects/icolorchangeeffectivedata/to_color/) | Barva, která nahradí.<br/>            Pouze ke čtení [`Color`](/slides/python-net/cs/aspose.slides/color). |
+| [`use_alpha`](/slides/python-net/cs/aspose.slides.effects/icolorchangeeffectivedata/use_alpha/) | Vrací booleovskou hodnotu, která určuje, zda má být použita alfa komponenta.<br/>            Pouze ke čtení **bool**. |
 
 
 ### Viz také

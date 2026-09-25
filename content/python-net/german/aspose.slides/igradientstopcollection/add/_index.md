@@ -1,12 +1,12 @@
 ---
 title: add method
-second_title: Aspose.Slides für Python über .NET API Referenz
+second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides/igradientstopcollection/add/
 weight: 10
 ---
-## add(self, position, color) {#float-asposepydrawingcolor}
+## add(self, position, color) {#float-asposeslidescolor}
 Erstellt den neuen Farbverlaufspunkt und fügt ihn am Ende der Sammlung hinzu.
 
 ### Rückgabewert
@@ -24,7 +24,7 @@ def add(self, position, color):
 | Parameter | Typ | Beschreibung |
 | :- | :- | :- |
 | position | **float** | Position des neuen Farbverlaufspunkts. |
-| color | **aspose.slides.Color** | Farbe des neuen Farbverlaufspunkts. |
+| color | [`Color`](/slides/python-net/de/aspose.slides/color) | Farbe des neuen Farbverlaufspunkts. |
 
 
 ## add(self, position, preset_color) {#float-presetcolor}
@@ -71,9 +71,10 @@ def add(self, position, scheme_color):
 
 
 ### Siehe auch
-* Klasse [`IGradientStop`](/slides/python-net/de/aspose.slides/igradientstop)
-* Klasse [`IGradientStopCollection`](/slides/python-net/de/aspose.slides/igradientstopcollection)
-* Aufzählung [`PresetColor`](/slides/python-net/de/aspose.slides/presetcolor)
-* Aufzählung [`SchemeColor`](/slides/python-net/de/aspose.slides/schemecolor)
-* Modul [`aspose.slides`](/slides/python-net/de/aspose.slides)
-* Bibliothek [`Aspose.Slides`](/slides/python-net)
+* class [`IGradientStop`](/slides/python-net/de/aspose.slides/igradientstop)
+* class [`IGradientStopCollection`](/slides/python-net/de/aspose.slides/igradientstopcollection)
+* enumeration [`PresetColor`](/slides/python-net/de/aspose.slides/presetcolor)
+* enumeration [`SchemeColor`](/slides/python-net/de/aspose.slides/schemecolor)
+* class [`Color`](/slides/python-net/de/aspose.slides/color)
+* module [`aspose.slides`](/slides/python-net/de/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

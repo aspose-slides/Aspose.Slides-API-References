@@ -7,8 +7,8 @@ url: /es/aspose.slides.animation/motioncmdpath/points/
 weight: 30
 ---
 ## points propiedad
-Especifica los puntos de comando.
-            Lectura/escritura **aspose.slides.PointF**[].
+Especifica points de comando.
+            Lectura/escritura [`PointF`](/slides/python-net/es/aspose.slides/pointf)[].
 
 ### Definición:
 ```python
@@ -24,5 +24,6 @@ def points(self, value):
 
 ### Ver también
 * clase [`MotionCmdPath`](/slides/python-net/es/aspose.slides.animation/motioncmdpath)
+* clase [`PointF`](/slides/python-net/es/aspose.slides/pointf)
 * módulo [`aspose.slides.animation`](/slides/python-net/es/aspose.slides.animation)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

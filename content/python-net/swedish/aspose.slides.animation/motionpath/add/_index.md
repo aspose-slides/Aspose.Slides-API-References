@@ -6,8 +6,8 @@ type: docs
 url: /sv/aspose.slides.animation/motionpath/add/
 weight: 20
 ---
-## add(self, type, pts, pts_type, b_relative_coord) {#motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool}
-Lägg till ett nytt kommando till sökvägen
+## add(self, type, pts, pts_type, b_relative_coord) {#motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool}
+Lägg till nytt kommando till sökväg
 
 
 ```python
@@ -25,7 +25,7 @@ def add(self, type, pts, pts_type, b_relative_coord):
 
 
 
-### Se också
+### Se även
 * klass [`IMotionCmdPath`](/slides/python-net/sv/aspose.slides.animation/imotioncmdpath)
 * enumeration [`MotionCommandPathType`](/slides/python-net/sv/aspose.slides.animation/motioncommandpathtype)
 * klass [`MotionPath`](/slides/python-net/sv/aspose.slides.animation/motionpath)

@@ -7,8 +7,8 @@ url: /nl/aspose.slides.effects/iduotoneeffectivedata/color2/
 weight: 30
 ---
 ## color2 eigenschap
-Retourneert het doelkleurformaat voor lichte pixels.
-            Alleen-lezen **aspose.slides.Color**.
+Geeft het doelkleurformaat voor lichte pixels terug.
+            Alleen-lezen [`Color`](/slides/python-net/nl/aspose.slides/color).
 
 ### Definitie:
 ```python
@@ -20,5 +20,6 @@ def color2(self):
 
 ### Zie ook
 * klasse [`IDuotoneEffectiveData`](/slides/python-net/nl/aspose.slides.effects/iduotoneeffectivedata)
+* klasse [`Color`](/slides/python-net/nl/aspose.slides/color)
 * module [`aspose.slides.effects`](/slides/python-net/nl/aspose.slides.effects)
 * bibliotheek [`Aspose.Slides`](/slides/python-net)

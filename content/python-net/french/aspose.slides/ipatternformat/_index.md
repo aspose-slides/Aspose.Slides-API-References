@@ -23,9 +23,8 @@ Le type IPatternFormat expose les membres suivants :
 
 | Méthode | Description |
 | :- | :- |
-| [`get_tile(self, background, foreground)`](/slides/python-net/fr/aspose.slides/ipatternformat/get_tile/#asposepydrawingcolor-asposepydrawingcolor) | Crée une image en tuiles pour le remplissage du motif avec des couleurs spécifiées. |
-| [`get_tile(self, style_color)`](/slides/python-net/fr/aspose.slides/ipatternformat/get_tile/#asposepydrawingcolor) | Crée une image en tuiles pour le remplissage du motif. |
-
+| [`get_tile(self, background, foreground)`](/slides/python-net/fr/aspose.slides/ipatternformat/get_tile/#asposeslidescolor-asposeslidescolor) | Crée une image de tuiles pour le remplissage du motif avec des couleurs spécifiées. |
+| [`get_tile(self, style_color)`](/slides/python-net/fr/aspose.slides/ipatternformat/get_tile/#asposeslidescolor) | Crée une image de tuiles pour le remplissage du motif. |
 
 ### Voir aussi
 * module [`aspose.slides`](/slides/python-net/fr/aspose.slides)

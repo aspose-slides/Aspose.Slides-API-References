@@ -1,6 +1,6 @@
 ---
 title: IImageWrapper class
-second_title: Aspose.Slides for Python via .NET API 参考
+second_title: Aspose.Slides 的 Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides/iimagewrapper/
@@ -13,20 +13,19 @@ IImageWrapper 类型公开以下成员：
 
 ## 属性
 
-| Property | Description |
+| 属性 | 描述 |
 | :- | :- |
-| [`image_source`](/slides/python-net/zh/aspose.slides/iimagewrapper/image_source/) | 获取图像<br/>            只读 **aspose.slides.Image**. |
-| [`size`](/slides/python-net/zh/aspose.slides/iimagewrapper/size/) | 获取图像的宽度和高度（像素）<br/>            只读 [`IImageWrapper.size`](/slides/python-net/zh/aspose.slides/iimagewrapper/size). |
+| [`image_source`](/slides/python-net/zh/aspose.slides/iimagewrapper/image_source/) | 获取图像<br/>            只读 **aspose.slides.IImage**. |
+| [`size`](/slides/python-net/zh/aspose.slides/iimagewrapper/size/) | 获取图像的宽度和高度（以像素为单位）<br/>            只读 [`IImageWrapper.size`](/slides/python-net/zh/aspose.slides/iimagewrapper/size). |
 
 ## 方法
 
-| Method | Description |
+| 方法 | 描述 |
 | :- | :- |
 | [`save(self, file_name)`](/slides/python-net/zh/aspose.slides/iimagewrapper/save/#str) | 将图像保存到指定文件 |
-| [`save(self, stream, image_format)`](/slides/python-net/zh/aspose.slides/iimagewrapper/save/#iorawiobase-ppimageformat) | 将图像以指定格式保存到指定流 |
-| [`save(self, file_name, image_format)`](/slides/python-net/zh/aspose.slides/iimagewrapper/save/#str-ppimageformat) | 将图像以指定格式保存到指定文件 |
+| [`save(self, stream, image_format)`](/slides/python-net/zh/aspose.slides/iimagewrapper/save/#iorawiobase-ppimageformat) | 将图像保存到指定流中，使用指定的格式。 |
+| [`save(self, file_name, image_format)`](/slides/python-net/zh/aspose.slides/iimagewrapper/save/#str-ppimageformat) | 将图像保存到指定文件中，使用指定的格式。 |
 
-
-### 另见
+### 另请参见
 * 模块 [`aspose.slides`](/slides/python-net/zh/aspose.slides)
 * 库 [`Aspose.Slides`](/slides/python-net)

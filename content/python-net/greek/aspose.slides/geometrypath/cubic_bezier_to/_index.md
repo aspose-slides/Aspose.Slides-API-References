@@ -1,13 +1,13 @@
 ---
 title: cubic_bezier_to method
-second_title: Aspose.Slides για Python μέσω .NET αναφορά API
+second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides/geometrypath/cubic_bezier_to/
 weight: 40
 ---
-## cubic_bezier_to(self, point1, point2, point3) {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf}
-Προσθέτει καμπύλη Bezier κυβιστική στο τέλος του μονοπατιού
+## cubic_bezier_to(self, point1, point2, point3) {#asposeslidespointf-asposeslidespointf-asposeslidespointf}
+Προσθέτει καμπύλη Bezier τύπου cubic στο τέλος της διαδρομής
 
 
 ```python
@@ -18,13 +18,13 @@ def cubic_bezier_to(self, point1, point2, point3):
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | Πρώτο σημείο κατεύθυνσης |
-| point2 | **aspose.slides.PointF** | Δεύτερο σημείο κατεύθυνσης |
-| point3 | **aspose.slides.PointF** | Τελικό σημείο |
+| point1 | [`PointF`](/slides/python-net/el/aspose.slides/pointf) | Πρώτο σημείο κατεύθυνσης |
+| point2 | [`PointF`](/slides/python-net/el/aspose.slides/pointf) | Δεύτερο σημείο κατεύθυνσης |
+| point3 | [`PointF`](/slides/python-net/el/aspose.slides/pointf) | Τελικό σημείο |
 
 
-## cubic_bezier_to(self, point1, point2, point3, index) {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf-int}
-Προσθέτει καμπύλη Bezier κυβιστική στην καθορισμένη θέση του μονοπατιού
+## cubic_bezier_to(self, point1, point2, point3, index) {#asposeslidespointf-asposeslidespointf-asposeslidespointf-int}
+Προσθέτει καμπύλη Bezier τύπου cubic στη θέση που καθορίζεται της διαδρομής
 
 
 ```python
@@ -35,20 +35,20 @@ def cubic_bezier_to(self, point1, point2, point3, index):
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | Πρώτο σημείο κατεύθυνσης |
-| point2 | **aspose.slides.PointF** | Δεύτερο σημείο κατεύθυνσης |
-| point3 | **aspose.slides.PointF** | Τελικό σημείο |
-| index | **int** | Δείκτης τμήματος στο PathData |
+| point1 | [`PointF`](/slides/python-net/el/aspose.slides/pointf) | Πρώτο σημείο κατεύθυνσης |
+| point2 | [`PointF`](/slides/python-net/el/aspose.slides/pointf) | Δεύτερο σημείο κατεύθυνσης |
+| point3 | [`PointF`](/slides/python-net/el/aspose.slides/pointf) | Τελικό σημείο |
+| index | **int** | Δείκτης του τμήματος στο PathData |
 
-### Exceptions
+### Εξαιρέσεις
 
 | Εξαίρεση | Περιγραφή |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Ο δείκτης τμήματος είναι εκτός εύρους του PathData |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Ο δείκτης του τμήματος βρίσκεται εκτός του εύρους του PathData |
 
 
 ## cubic_bezier_to(self, x1, y1, x2, y2, x3, y3) {#float-float-float-float-float-float}
-Προσθέτει καμπύλη Bezier κυβιστική στο τέλος του μονοπατιού
+Προσθέτει καμπύλη Bezier τύπου cubic στο τέλος της διαδρομής
 
 
 ```python
@@ -68,7 +68,7 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3):
 
 
 ## cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index) {#float-float-float-float-float-float-int}
-Προσθέτει καμπύλη Bezier κυβιστική στην καθορισμένη θέση του μονοπατιού
+Προσθέτει καμπύλη Bezier τύπου cubic στη θέση που καθορίζεται της διαδρομής
 
 
 ```python
@@ -85,17 +85,18 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index):
 | y2 | **float** | Συντεταγμένη Y του δεύτερου σημείου κατεύθυνσης |
 | x3 | **float** | Συντεταγμένη X του τελικού σημείου |
 | y3 | **float** | Συντεταγμένη Y του τελικού σημείου |
-| index | **int** | Δείκτης τμήματος στο PathData |
+| index | **int** | Δείκτης του τμήματος στο PathData |
 
-### Exceptions
+### Εξαιρέσεις
 
 | Εξαίρεση | Περιγραφή |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Ο δείκτης τμήματος είναι εκτός εύρους του PathData |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Ο δείκτης του τμήματος βρίσκεται εκτός του εύρους του PathData |
 
 
 
-### See Also
+### Δείτε επίσης
 * κλάση [`GeometryPath`](/slides/python-net/el/aspose.slides/geometrypath)
+* κλάση [`PointF`](/slides/python-net/el/aspose.slides/pointf)
 * μονάδα [`aspose.slides`](/slides/python-net/el/aspose.slides)
 * βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

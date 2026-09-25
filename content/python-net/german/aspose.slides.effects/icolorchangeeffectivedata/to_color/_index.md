@@ -8,7 +8,7 @@ weight: 30
 ---
 ## to_color Eigenschaft
 Farbe, die ersetzt wird.
-            Schreibgeschützt **aspose.slides.Color**.
+            Nur lesbar [`Color`](/slides/python-net/de/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def to_color(self):
 
 ### Siehe auch
 * Klasse [`IColorChangeEffectiveData`](/slides/python-net/de/aspose.slides.effects/icolorchangeeffectivedata)
+* Klasse [`Color`](/slides/python-net/de/aspose.slides/color)
 * Modul [`aspose.slides.effects`](/slides/python-net/de/aspose.slides.effects)
 * Bibliothek [`Aspose.Slides`](/slides/python-net)

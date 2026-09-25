@@ -8,9 +8,9 @@ weight: 90
 ---
 ## shadow_color 属性
 阴影的颜色。
-            只读 **aspose.slides.Color**.
+只读 [`Color`](/slides/python-net/zh/aspose.slides/color).
 
-### 定义：
+### 定义:
 ```python
 @property
 def shadow_color(self):
@@ -18,7 +18,8 @@ def shadow_color(self):
 ```
 
 
-### 另请参见
+### 另见
 * 类 [`IOuterShadowEffectiveData`](/slides/python-net/zh/aspose.slides.effects/ioutershadoweffectivedata)
+* 类 [`Color`](/slides/python-net/zh/aspose.slides/color)
 * 模块 [`aspose.slides.effects`](/slides/python-net/zh/aspose.slides.effects)
 * 库 [`Aspose.Slides`](/slides/python-net)

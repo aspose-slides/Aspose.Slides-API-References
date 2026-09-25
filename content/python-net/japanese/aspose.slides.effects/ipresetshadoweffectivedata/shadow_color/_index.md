@@ -8,7 +8,7 @@ weight: 50
 ---
 ## shadow_color プロパティ
 影の色。
-            読み取り専用 **aspose.slides.Color**.
+            読み取り専用 [`Color`](/slides/python-net/ja/aspose.slides/color).
 
 ### 定義:
 ```python
@@ -18,7 +18,8 @@ def shadow_color(self):
 ```
 
 
-### 関連項目
+### 参照
 * クラス [`IPresetShadowEffectiveData`](/slides/python-net/ja/aspose.slides.effects/ipresetshadoweffectivedata)
+* クラス [`Color`](/slides/python-net/ja/aspose.slides/color)
 * モジュール [`aspose.slides.effects`](/slides/python-net/ja/aspose.slides.effects)
-* library [`Aspose.Slides`](/slides/python-net)
+* ライブラリ [`Aspose.Slides`](/slides/python-net)

@@ -1,6 +1,6 @@
 ---
 title: IThemeEffectiveData class
-second_title: Aspose.Slides pro Python přes .NET referenční příručka API
+second_title: Aspose.Slides pro Python přes .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides.theme/ithemeeffectivedata/
@@ -22,13 +22,11 @@ Typ IThemeEffectiveData poskytuje následující členy:
 
 | Metoda | Popis |
 | :- | :- |
-| [`get_color_scheme(self, style_color)`](/slides/python-net/cs/aspose.slides.theme/ithemeeffectivedata/get_color_scheme/#asposepydrawingcolor) | Vrací schéma barev. |
-
+| [`get_color_scheme(self, style_color)`](/slides/python-net/cs/aspose.slides.theme/ithemeeffectivedata/get_color_scheme/#asposeslidescolor) | Vrací schéma barev. |
 
 ### Poznámky
 
-Toto rozhraní je používáno spolu s rozhraním [`ITheme`](/slides/python-net/cs/aspose.slides.theme/itheme) k vrácení efektivních hodnot formátování s aplikovaným děděním.
-
+Toto rozhraní se používá společně s rozhraním [`ITheme`](/slides/python-net/cs/aspose.slides.theme/itheme) k vrácení efektivních hodnot formátování s použitím dědičnosti.
 
 ### Viz také
 * třída [`ITheme`](/slides/python-net/cs/aspose.slides.theme/itheme)

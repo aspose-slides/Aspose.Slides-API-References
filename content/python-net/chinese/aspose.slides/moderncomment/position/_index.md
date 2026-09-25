@@ -7,8 +7,8 @@ url: /zh/aspose.slides/moderncomment/position/
 weight: 60
 ---
 ## position 属性
-返回或设置幻灯片上批注的 position。
-            读/写 **aspose.slides.PointF**.
+返回或设置评论在幻灯片上的位置。
+            读/写 [`PointF`](/slides/python-net/zh/aspose.slides/pointf).
 
 ### 定义:
 ```python
@@ -24,5 +24,6 @@ def position(self, value):
 
 ### 另见
 * 类 [`ModernComment`](/slides/python-net/zh/aspose.slides/moderncomment)
+* 类 [`PointF`](/slides/python-net/zh/aspose.slides/pointf)
 * 模块 [`aspose.slides`](/slides/python-net/zh/aspose.slides)
 * 库 [`Aspose.Slides`](/slides/python-net)

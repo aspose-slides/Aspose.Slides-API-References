@@ -1,12 +1,12 @@
 ---
 title: add method
-second_title: Aspose.Slides 用於 Python 的 .NET API 參考
+second_title: Aspose.Slides for Python via .NET API 參考文件
 description: 
 type: docs
 url: /zh-hant/aspose.slides.animation/motionpath/add/
 weight: 20
 ---
-## add(self, type, pts, pts_type, b_relative_coord) {#motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool}
+## add(self, type, pts, pts_type, b_relative_coord) {#motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool}
 將新指令新增至路徑
 
 
@@ -25,7 +25,7 @@ def add(self, type, pts, pts_type, b_relative_coord):
 
 
 
-### 另見
+### 參見
 * 類別 [`IMotionCmdPath`](/slides/python-net/zh-hant/aspose.slides.animation/imotioncmdpath)
 * 列舉 [`MotionCommandPathType`](/slides/python-net/zh-hant/aspose.slides.animation/motioncommandpathtype)
 * 類別 [`MotionPath`](/slides/python-net/zh-hant/aspose.slides.animation/motionpath)

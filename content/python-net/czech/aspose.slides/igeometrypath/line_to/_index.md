@@ -1,12 +1,12 @@
 ---
 title: line_to method
-second_title: Aspose.Slides pro Python přes .NET API Reference
+second_title: Aspose.Slides pro Python přes .NET API reference
 description: 
 type: docs
 url: /cs/aspose.slides/igeometrypath/line_to/
 weight: 40
 ---
-## line_to(self, point) {#asposepydrawingpointf}
+## line_to(self, point) {#asposeslidespointf}
 Přidá čáru na konec cesty
 
 
@@ -16,9 +16,9 @@ def line_to(self, point):
 ```
 
 
-| Parametr | Typ | Popis |
+| Parameter | Type | Description |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | Koncový bod čáry |
+| point | [`PointF`](/slides/python-net/cs/aspose.slides/pointf) | Konec bod čáry |
 
 
 ## line_to(self, x, y) {#float-float}
@@ -31,13 +31,13 @@ def line_to(self, x, y):
 ```
 
 
-| Parametr | Typ | Popis |
+| Parameter | Type | Description |
 | :- | :- | :- |
-| x | **float** | X souřadnice koncového bodu čáry |
-| y | **float** | Y souřadnice koncového bodu čáry |
+| x | **float** | X-souřadnice koncového bodu čáry |
+| y | **float** | Y-souřadnice koncového bodu čáry |
 
 
-## line_to(self, point, index) {#asposepydrawingpointf-int}
+## line_to(self, point, index) {#asposeslidespointf-int}
 Přidá čáru na určené místo cesty
 
 
@@ -47,14 +47,14 @@ def line_to(self, point, index):
 ```
 
 
-| Parametr | Typ | Popis |
+| Parameter | Type | Description |
 | :- | :- | :- |
-| point | **aspose.slides.PointF** | Koncový bod |
+| point | [`PointF`](/slides/python-net/cs/aspose.slides/pointf) | Konec bod |
 | index | **int** | Index segmentu v PathData |
 
-### Výjimky
+### Exceptions
 
-| Výjimka | Popis |
+| Exception | Description |
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Index segmentu je mimo rozsah PathData |
 
@@ -69,21 +69,22 @@ def line_to(self, x, y, index):
 ```
 
 
-| Parametr | Typ | Popis |
+| Parameter | Type | Description |
 | :- | :- | :- |
-| x | **float** | X souřadnice bodu |
-| y | **float** | Y souřadnice bodu |
+| x | **float** | X-souřadnice bodu |
+| y | **float** | Y-souřadnice bodu |
 | index | **int** | Index segmentu v PathData |
 
-### Výjimky
+### Exceptions
 
-| Výjimka | Popis |
+| Exception | Description |
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Index segmentu je mimo rozsah PathData |
 
 
 
-### Viz také
+### See Also
 * třída [`IGeometryPath`](/slides/python-net/cs/aspose.slides/igeometrypath)
+* třída [`PointF`](/slides/python-net/cs/aspose.slides/pointf)
 * modul [`aspose.slides`](/slides/python-net/cs/aspose.slides)
-* knihovna [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

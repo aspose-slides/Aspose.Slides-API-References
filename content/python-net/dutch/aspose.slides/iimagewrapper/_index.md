@@ -9,14 +9,14 @@ url: /nl/aspose.slides/iimagewrapper/
 
 System.Drawing.Image wrapper voor COM-interface.
 
-Het IImageWrapper-type biedt de volgende leden:
+Het IImageWrapper-type exposeert de volgende leden:
 
 ## Eigenschappen
 
 | Eigenschap | Beschrijving |
 | :- | :- |
-| [`image_source`](/slides/python-net/nl/aspose.slides/iimagewrapper/image_source/) | Haalt de afbeelding op<br/>            Alleen-lezen **aspose.slides.Image**. |
-| [`size`](/slides/python-net/nl/aspose.slides/iimagewrapper/size/) | Haalt de breedte en hoogte, in pixels, van de Image op<br/>            Alleen-lezen [`IImageWrapper.size`](/slides/python-net/nl/aspose.slides/iimagewrapper/size). |
+| [`image_source`](/slides/python-net/nl/aspose.slides/iimagewrapper/image_source/) | Haalt de afbeelding op<br/>            Alleen-lezen **aspose.slides.IImage**. |
+| [`size`](/slides/python-net/nl/aspose.slides/iimagewrapper/size/) | Haalt de breedte en hoogte op, in pixels, van de Image<br/>            Alleen-lezen [`IImageWrapper.size`](/slides/python-net/nl/aspose.slides/iimagewrapper/size). |
 
 ## Methoden
 

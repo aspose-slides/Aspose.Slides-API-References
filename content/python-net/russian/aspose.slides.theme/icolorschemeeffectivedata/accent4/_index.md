@@ -1,14 +1,14 @@
 ---
 title: accent4 property
-second_title: Aspose.Slides для Python через .NET Справочник API
+second_title: Aspose.Slides для Python через .NET справка API
 description: 
 type: docs
 url: /ru/aspose.slides.theme/icolorschemeeffectivedata/accent4/
 weight: 40
 ---
 ## accent4 свойство
-Четвёртый цвет акцента в схеме.
-            Только для чтения **aspose.slides.Color**.
+Четвертый цвет акцента в схеме.
+            Только для чтения [`Color`](/slides/python-net/ru/aspose.slides/color).
 
 ### Определение:
 ```python
@@ -18,7 +18,8 @@ def accent4(self):
 ```
 
 
-### См. также
+### Смотрите также
 * класс [`IColorSchemeEffectiveData`](/slides/python-net/ru/aspose.slides.theme/icolorschemeeffectivedata)
+* класс [`Color`](/slides/python-net/ru/aspose.slides/color)
 * модуль [`aspose.slides.theme`](/slides/python-net/ru/aspose.slides.theme)
 * библиотека [`Aspose.Slides`](/slides/python-net)

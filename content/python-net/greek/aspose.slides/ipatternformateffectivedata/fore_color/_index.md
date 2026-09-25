@@ -7,8 +7,8 @@ url: /el/aspose.slides/ipatternformateffectivedata/fore_color/
 weight: 30
 ---
 ## fore_color ιδιότητα
-Επιστρέφει το χρώμα του προτύπου προσκηνίου.
-            Μόνο για ανάγνωση **aspose.slides.Color**.
+Επιστρέφει το χρώμα του προτύπου φόντου.
+            Μόνο για ανάγνωση [`Color`](/slides/python-net/el/aspose.slides/color).
 
 ### Ορισμός:
 ```python
@@ -19,6 +19,7 @@ def fore_color(self):
 
 
 ### Δείτε επίσης
-* κατηγορία [`IPatternFormatEffectiveData`](/slides/python-net/el/aspose.slides/ipatternformateffectivedata)
+* κλάση [`IPatternFormatEffectiveData`](/slides/python-net/el/aspose.slides/ipatternformateffectivedata)
+* κλάση [`Color`](/slides/python-net/el/aspose.slides/color)
 * μονάδα [`aspose.slides`](/slides/python-net/el/aspose.slides)
 * βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

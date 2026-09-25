@@ -1,22 +1,24 @@
 ---
 title: IGlowEffectiveData class
-second_title: Aspose.Slides for Python द्वारा .NET API संदर्भ
+second_title: Aspose.Slides Python के लिए .NET API संदर्भ के माध्यम से
 description: 
 type: docs
 url: /hi/aspose.slides.effects/igloweffectivedata/
 ---
-## IGlowEffectiveData कक्षा
+## IGlowEffectiveData वर्ग
 
-एक अपरिवर्तनीय वस्तु जो एक Glow प्रभाव को दर्शाती है, जिसमें वस्तु के किनारों के बाहर एक धुंधली रंग की रूपरेखा जोड़ी जाती है।
+अपरिवर्तनीय वस्तु जो एक Glow प्रभाव का प्रतिनिधित्व करती है, जिसमें एक रंगीन धुंधला रूपरेखा 
+            वस्तु के किनारों के बाहर जोड़ी जाती है।
 
-IGlowEffectiveData प्रकार निम्नलिखित सदस्य प्रदान करता है:
+The IGlowEffectiveData प्रकार निम्नलिखित सदस्यों को उजागर करता है:
 
 ## गुण
 
 | गुण | विवरण |
 | :- | :- |
-| [`radius`](/slides/python-net/hi/aspose.slides.effects/igloweffectivedata/radius/) | Radius.<br/> केवल-पढ़ने योग्य **float**. |
-| [`color`](/slides/python-net/hi/aspose.slides.effects/igloweffectivedata/color/) | Color.<br/> केवल-पढ़ने योग्य **aspose.slides.Color**. |
+| [`radius`](/slides/python-net/hi/aspose.slides.effects/igloweffectivedata/radius/) | Radius.<br/>            केवल पढ़ने योग्य **float**. |
+| [`color`](/slides/python-net/hi/aspose.slides.effects/igloweffectivedata/color/) | Color.<br/>            केवल पढ़ने योग्य [`Color`](/slides/python-net/hi/aspose.slides/color). |
+
 
 ### संबंधित देखें
 * मॉड्यूल [`aspose.slides.effects`](/slides/python-net/hi/aspose.slides.effects)

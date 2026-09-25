@@ -23,7 +23,7 @@ def create_image_wrapper(self, image):
 
 | Parametre | Tür | Açıklama |
 | :- | :- | :- |
-| image | [`IImage`](/slides/python-net/tr/aspose.slides/iimage) | Mevcut Görüntü **aspose.slides.Image** |
+| image | [`IImage`](/slides/python-net/tr/aspose.slides/iimage) | Mevcut Görüntü **aspose.slides.IImage** |
 
 
 ## create_image_wrapper(self, stream) {#iorawiobase}

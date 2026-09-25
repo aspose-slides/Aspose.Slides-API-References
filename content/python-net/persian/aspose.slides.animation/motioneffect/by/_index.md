@@ -1,14 +1,14 @@
 ---
 title: by property
-second_title: مرجع API Aspose.Slides برای Python از طریق .NET
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides.animation/motioneffect/by/
 weight: 60
 ---
-## توسط ویژگی
-مقدار افست نسبی برای انیمیشن را توصیف می‌کند (به درصد).
-قابل خواندن/نوشتن **aspose.slides.PointF**.
+## بر اساس ویژگی
+مقدار جابجایی نسبی برای انیمیشن را توصیف می‌کند (به درصد).
+            خواندنی/نوشتنی [`PointF`](/slides/python-net/fa/aspose.slides/pointf).
 
 ### تعریف:
 ```python
@@ -21,7 +21,9 @@ def by(self, value):
     ...
 ```
 
-### مراجع
+
+### موارد مرتبط
 * کلاس [`MotionEffect`](/slides/python-net/fa/aspose.slides.animation/motioneffect)
+* کلاس [`PointF`](/slides/python-net/fa/aspose.slides/pointf)
 * ماژول [`aspose.slides.animation`](/slides/python-net/fa/aspose.slides.animation)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

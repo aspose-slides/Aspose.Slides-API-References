@@ -7,11 +7,11 @@ url: /nl/aspose.slides/icommentcollection/
 ---
 ## ICommentCollection klasse
 
-Stelt een verzameling reacties van één auteur voor.
+Stelt een collectie van opmerkingen van één auteur voor.
 
-Het ICommentCollection-type biedt de volgende leden:
+Het type ICommentCollection bevat de volgende leden:
 
-Haalt het element op op de opgegeven index.
+Haalt het element op op de gespecificeerde index.
             Alleen-lezen [`IComment`](/slides/python-net/nl/aspose.slides/icomment).
 
 ## Indexer
@@ -22,17 +22,17 @@ Haalt het element op op de opgegeven index.
 
 ## Methoden
 
-| Method | Description |
+| Methode | Beschrijving |
 | :- | :- |
-| [`to_array(self)`](/slides/python-net/nl/aspose.slides/icommentcollection/to_array/#) | Maakt en retourneert een array met alle reacties. |
-| [`to_array(self, start_index, count)`](/slides/python-net/nl/aspose.slides/icommentcollection/to_array/#int-int) | Maakt en retourneert een array met alle reacties uit het opgegeven bereik. |
-| [`add_comment(self, text, slide, position, creation_time)`](/slides/python-net/nl/aspose.slides/icommentcollection/add_comment/#str-islide-asposepydrawingpointf-datetime) | Voegt een nieuwe reactie toe aan het einde van een verzameling. |
-| [`add_modern_comment(self, text, slide, shape, position, creation_time)`](/slides/python-net/nl/aspose.slides/icommentcollection/add_modern_comment/#str-islide-ishape-asposepydrawingpointf-datetime) | Voegt een nieuwe moderne reactie toe aan het einde van een verzameling. |
-| [`insert_comment(self, index, text, slide, position, creation_time)`](/slides/python-net/nl/aspose.slides/icommentcollection/insert_comment/#int-str-islide-asposepydrawingpointf-datetime) | Voegt een nieuwe reactie in een verzameling in op de opgegeven index. |
-| [`insert_modern_comment(self, index, text, slide, shape, position, creation_time)`](/slides/python-net/nl/aspose.slides/icommentcollection/insert_modern_comment/#int-str-islide-ishape-asposepydrawingpointf-datetime) | Voegt een nieuwe moderne reactie in een verzameling in op de opgegeven index. |
-| [`remove_at(self, index)`](/slides/python-net/nl/aspose.slides/icommentcollection/remove_at/#int) | Verwijdert het element op de opgegeven index in een verzameling. |
-| [`remove(self, comment)`](/slides/python-net/nl/aspose.slides/icommentcollection/remove/#icomment) | Verwijdert de eerste voorkoming van de opgegeven reactie in een verzameling. |
-| [`clear(self)`](/slides/python-net/nl/aspose.slides/icommentcollection/clear/#) | Verwijdert alle reacties uit een verzameling. |
+| [`to_array(self)`](/slides/python-net/nl/aspose.slides/icommentcollection/to_array/#) | Maakt een array met alle opmerkingen aan en retourneert deze. |
+| [`to_array(self, start_index, count)`](/slides/python-net/nl/aspose.slides/icommentcollection/to_array/#int-int) | Maakt een array met alle opmerkingen uit het opgegeven bereik aan en retourneert deze. |
+| [`add_comment(self, text, slide, position, creation_time)`](/slides/python-net/nl/aspose.slides/icommentcollection/add_comment/#str-islide-asposeslidespointf-datetime) | Voegt een nieuwe opmerking toe aan het einde van een collectie. |
+| [`add_modern_comment(self, text, slide, shape, position, creation_time)`](/slides/python-net/nl/aspose.slides/icommentcollection/add_modern_comment/#str-islide-ishape-asposeslidespointf-datetime) | Voegt een nieuwe moderne opmerking toe aan het einde van een collectie. |
+| [`insert_comment(self, index, text, slide, position, creation_time)`](/slides/python-net/nl/aspose.slides/icommentcollection/insert_comment/#int-str-islide-asposeslidespointf-datetime) | Voegt een nieuwe opmerking in een collectie in op de gespecificeerde index. |
+| [`insert_modern_comment(self, index, text, slide, shape, position, creation_time)`](/slides/python-net/nl/aspose.slides/icommentcollection/insert_modern_comment/#int-str-islide-ishape-asposeslidespointf-datetime) | Voegt een nieuwe moderne opmerking in een collectie in op de gespecificeerde index. |
+| [`remove_at(self, index)`](/slides/python-net/nl/aspose.slides/icommentcollection/remove_at/#int) | Verwijdert het element op de gespecificeerde index in een collectie. |
+| [`remove(self, comment)`](/slides/python-net/nl/aspose.slides/icommentcollection/remove/#icomment) | Verwijdert het eerste voorkomen van de gespecificeerde opmerking in een collectie. |
+| [`clear(self)`](/slides/python-net/nl/aspose.slides/icommentcollection/clear/#) | Verwijdert alle opmerkingen uit een collectie. |
 
 
 ### Zie ook

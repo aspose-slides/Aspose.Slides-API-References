@@ -1,13 +1,13 @@
 ---
 title: add method
-second_title: Aspose.Slides for Python via .NET API Referencia
+second_title: Aspose.Slides Python számára .NET-en keresztül API hivatkozás
 description: 
 type: docs
 url: /hu/aspose.slides.animation/motionpath/add/
 weight: 20
 ---
-## add(self, type, pts, pts_type, b_relative_coord) {#motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool}
-Új parancs hozzáadása az úthoz
+## add(self, type, pts, pts_type, b_relative_coord) {#motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool}
+Új parancs hozzáadása az útvonalhoz
 
 
 ```python

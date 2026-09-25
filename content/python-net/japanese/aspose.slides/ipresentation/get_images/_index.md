@@ -7,112 +7,138 @@ url: /ja/aspose.slides/ipresentation/get_images/
 weight: 10
 ---
 ## get_images(self, options) {#asposeslidesexportirenderingoptions}
-プレゼンテーションのすべてのスライドに対するサムネイル画像オブジェクトを返します。
+プレゼンテーションのすべてのスライドに対する Thumbnail Image オブジェクトを返します。
 
 ### 戻り値
 
 Bitmap オブジェクト。
+
+
 
 ```python
 def get_images(self, options):
     ...
 ```
 
-| パラメーター | タイプ | 説明 |
+
+| パラメータ | 型 | 説明 |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/ja/aspose.slides.export/irenderingoptions) | レンダリングオプション。 |
+| options | [`IRenderingOptions`](/slides/python-net/ja/aspose.slides.export/irenderingoptions) | レンダリング オプション。 |
+
 
 ## get_images(self, options, slides) {#asposeslidesexportirenderingoptions-listint}
-プレゼンテーションの指定されたスライドに対するサムネイル Bitmap オブジェクトを返します。
+プレゼンテーションの指定されたスライドに対する Thumbnail Bitmap オブジェクトを返します。
 
 ### 戻り値
 
 Bitmap オブジェクト。
+
+
 
 ```python
 def get_images(self, options, slides):
     ...
 ```
 
-| パラメーター | タイプ | 説明 |
-| :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/ja/aspose.slides.export/irenderingoptions) | レンダリングオプション。 |
-| slides | **List[int]** | スライド位置の配列（1 から始まります）。 |
 
-## get_images(self, options, image_size) {#asposeslidesexportirenderingoptions-asposepydrawingsize}
-プレゼンテーションのすべてのスライドに対し、指定されたサイズのサムネイル画像オブジェクトを返します。
+| パラメータ | 型 | 説明 |
+| :- | :- | :- |
+| options | [`IRenderingOptions`](/slides/python-net/ja/aspose.slides.export/irenderingoptions) | レンダリング オプション。 |
+| slides | **List[int]** | 1 から始まるスライド位置の配列。 |
+
+
+## get_images(self, options, image_size) {#asposeslidesexportirenderingoptions-asposeslidessize}
+指定されたサイズでプレゼンテーションのすべてのスライドに対する Thumbnail Image オブジェクトを返します。
 
 ### 戻り値
 
 Bitmap オブジェクト。
+
+
 
 ```python
 def get_images(self, options, image_size):
     ...
 ```
 
-| パラメーター | タイプ | 説明 |
+
+| パラメータ | 型 | 説明 |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/ja/aspose.slides.export/irenderingoptions) | レンダリングオプション。 |
-| image_size | **aspose.slides.Size** | 作成する画像のサイズ。 |
+| options | [`IRenderingOptions`](/slides/python-net/ja/aspose.slides.export/irenderingoptions) | レンダリング オプション。 |
+| image_size | [`Size`](/slides/python-net/ja/aspose.slides/size) | 作成する画像のサイズ。 |
+
 
 ## get_images(self, options, scale_x, scale_y) {#asposeslidesexportirenderingoptions-float-float}
-プレゼンテーションのすべてのスライドに対し、カスタムスケーリングを使用したサムネイル画像オブジェクトを返します。
+カスタムスケーリングでプレゼンテーションのすべてのスライドに対する Thumbnail Image オブジェクトを返します。
 
 ### 戻り値
 
 Bitmap オブジェクト。
+
+
 
 ```python
 def get_images(self, options, scale_x, scale_y):
     ...
 ```
 
-| パラメーター | タイプ | 説明 |
-| :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/ja/aspose.slides.export/irenderingoptions) | レンダリングオプション。 |
-| scale_x | **float** | x 軸方向にこのサムネイルをスケーリングする値。 |
-| scale_y | **float** | y 軸方向にこのサムネイルをスケーリングする値。 |
 
-## get_images(self, options, slides, image_size) {#asposeslidesexportirenderingoptions-listint-asposepydrawingsize}
-プレゼンテーションの指定されたスライドに対し、指定されたサイズのサムネイル画像オブジェクトを返します。
+| パラメータ | 型 | 説明 |
+| :- | :- | :- |
+| options | [`IRenderingOptions`](/slides/python-net/ja/aspose.slides.export/irenderingoptions) | レンダリング オプション。 |
+| scale_x | **float** | この Thumbnail を x 軸方向にスケールする値。 |
+| scale_y | **float** | この Thumbnail を y 軸方向にスケールする値。 |
+
+
+## get_images(self, options, slides, image_size) {#asposeslidesexportirenderingoptions-listint-asposeslidessize}
+指定されたサイズでプレゼンテーションの指定されたスライドに対する Thumbnail Image オブジェクトを返します。
 
 ### 戻り値
 
 Bitmap オブジェクト。
+
+
 
 ```python
 def get_images(self, options, slides, image_size):
     ...
 ```
 
-| パラメーター | タイプ | 説明 |
+
+| パラメータ | 型 | 説明 |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/ja/aspose.slides.export/irenderingoptions) | レンダリングオプション。 |
-| slides | **List[int]** | スライド位置の配列（1 から始まります）。 |
-| image_size | **aspose.slides.Size** | 作成する画像のサイズ。 |
+| options | [`IRenderingOptions`](/slides/python-net/ja/aspose.slides.export/irenderingoptions) | レンダリング オプション。 |
+| slides | **List[int]** | 1 から始まるスライド位置の配列。 |
+| image_size | [`Size`](/slides/python-net/ja/aspose.slides/size) | 作成する画像のサイズ。 |
+
 
 ## get_images(self, options, slides, scale_x, scale_y) {#asposeslidesexportirenderingoptions-listint-float-float}
-プレゼンテーションの指定されたスライドに対し、カスタムスケーリングを使用したサムネイル画像オブジェクトを返します。
+カスタムスケーリングでプレゼンテーションの指定されたスライドに対する Thumbnail Image オブジェクトを返します。
 
 ### 戻り値
 
 Bitmap オブジェクト。
+
+
 
 ```python
 def get_images(self, options, slides, scale_x, scale_y):
     ...
 ```
 
-| パラメーター | タイプ | 説明 |
+
+| パラメータ | 型 | 説明 |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/ja/aspose.slides.export/irenderingoptions) | レンダリングオプション。 |
-| slides | **List[int]** | スライド位置の配列（1 から始まります）。 |
-| scale_x | **float** | x 軸方向にこのサムネイルをスケーリングする値。 |
-| scale_y | **float** | y 軸方向にこのサムネイルをスケーリングする値。 |
+| options | [`IRenderingOptions`](/slides/python-net/ja/aspose.slides.export/irenderingoptions) | レンダリング オプション。 |
+| slides | **List[int]** | 1 から始まるスライド位置の配列。 |
+| scale_x | **float** | この Thumbnail を x 軸方向にスケールする値。 |
+| scale_y | **float** | この Thumbnail を y 軸方向にスケールする値。 |
+
+
 
 ### 参照
 * クラス [`IPresentation`](/slides/python-net/ja/aspose.slides/ipresentation)
 * クラス [`IRenderingOptions`](/slides/python-net/ja/aspose.slides.export/irenderingoptions)
+* クラス [`Size`](/slides/python-net/ja/aspose.slides/size)
 * モジュール [`aspose.slides`](/slides/python-net/ja/aspose.slides)
 * ライブラリ [`Aspose.Slides`](/slides/python-net)

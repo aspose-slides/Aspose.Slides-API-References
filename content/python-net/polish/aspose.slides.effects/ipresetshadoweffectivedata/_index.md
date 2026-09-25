@@ -1,26 +1,26 @@
 ---
 title: IPresetShadowEffectiveData class
-second_title: Aspose.Slides dla Pythona przez .NET – Referencja API
+second_title: Aspose.Slides dla Pythona poprzez .NET – Referencja API
 description: 
 type: docs
-url: /pl/aspose.slides.effects/ippresetshadoweffectivedata/
+url: /pl/aspose.slides.effects/ipresetshadoweffectivedata/
 ---
 ## IPresetShadowEffectiveData klasa
 
-Niezmienny obiekt, który reprezentuje efekt cienia Preset.
+Niezmienny obiekt, który reprezentuje efekt cienia predefiniowanego.
 
 Typ IPresetShadowEffectiveData udostępnia następujące elementy:
 
 ## Właściwości
 
-| Właściwość | Opis |
+| Property | Description |
 | :- | :- |
 | [`direction`](/slides/python-net/pl/aspose.slides.effects/ipresetshadoweffectivedata/direction/) | Kierunek cienia.<br/>            Tylko do odczytu **float**. |
 | [`distance`](/slides/python-net/pl/aspose.slides.effects/ipresetshadoweffectivedata/distance/) | Odległość cienia.<br/>            Tylko do odczytu **float**. |
-| [`shadow_color`](/slides/python-net/pl/aspose.slides.effects/ipresetshadoweffectivedata/shadow_color/) | Kolor cienia.<br/>            Tylko do odczytu **aspose.slides.Color**. |
+| [`shadow_color`](/slides/python-net/pl/aspose.slides.effects/ipresetshadoweffectivedata/shadow_color/) | Kolor cienia.<br/>            Tylko do odczytu [`Color`](/slides/python-net/pl/aspose.slides/color). |
 | [`preset`](/slides/python-net/pl/aspose.slides.effects/ipresetshadoweffectivedata/preset/) | Ustawienie wstępne.<br/>            Tylko do odczytu [`PresetShadowType`](/slides/python-net/pl/aspose.slides/presetshadowtype). |
 
 
-### Zobacz również
+### Zobacz także
 * moduł [`aspose.slides.effects`](/slides/python-net/pl/aspose.slides.effects)
 * biblioteka [`Aspose.Slides`](/slides/python-net)

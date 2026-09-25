@@ -8,7 +8,7 @@ weight: 50
 ---
 ## por propiedad
 Describe el valor de desplazamiento relativo para la animación (en porcentajes).
-            Lectura/escritura **aspose.slides.PointF**.
+            Lectura/escritura [`PointF`](/slides/python-net/es/aspose.slides/pointf).
 
 ### Definición:
 ```python
@@ -21,7 +21,9 @@ def by(self, value):
     ...
 ```
 
+
 ### Ver también
 * clase [`IMotionEffect`](/slides/python-net/es/aspose.slides.animation/imotioneffect)
+* clase [`PointF`](/slides/python-net/es/aspose.slides/pointf)
 * módulo [`aspose.slides.animation`](/slides/python-net/es/aspose.slides.animation)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

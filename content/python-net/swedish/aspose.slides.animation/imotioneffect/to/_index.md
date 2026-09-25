@@ -7,8 +7,8 @@ url: /sv/aspose.slides.animation/imotioneffect/to/
 weight: 130
 ---
 ## till egenskap
-Anger målplatsen för en animeringsrörelseeffekt (i procent).
-            Läs/skriv **aspose.slides.PointF**.
+Anger mållokationen för en animeringsrörelseeffekt (i procent).
+Läs/skriv [`PointF`](/slides/python-net/sv/aspose.slides/pointf).
 
 ### Definition:
 ```python
@@ -22,7 +22,8 @@ def to(self, value):
 ```
 
 
-### Se också
+### Se även
 * klass [`IMotionEffect`](/slides/python-net/sv/aspose.slides.animation/imotioneffect)
+* klass [`PointF`](/slides/python-net/sv/aspose.slides/pointf)
 * modul [`aspose.slides.animation`](/slides/python-net/sv/aspose.slides.animation)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

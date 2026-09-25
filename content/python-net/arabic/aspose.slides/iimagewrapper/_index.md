@@ -9,24 +9,23 @@ url: /ar/aspose.slides/iimagewrapper/
 
 غلاف System.Drawing.Image لواجهة COM.
 
-يعرض نوع IImageWrapper الأعضاء التالية:
+يُظهر نوع IImageWrapper الأعضاء التاليين:
 
 ## الخصائص
 
-| خاصية | الوصف |
+| الخاصية | الوصف |
 | :- | :- |
-| [`image_source`](/slides/python-net/ar/aspose.slides/iimagewrapper/image_source/) | يحصل على الصورة<br/>            للقراءة فقط **aspose.slides.Image**. |
+| [`image_source`](/slides/python-net/ar/aspose.slides/iimagewrapper/image_source/) | يحصل على الصورة<br/>            للقراءة فقط **aspose.slides.IImage**. |
 | [`size`](/slides/python-net/ar/aspose.slides/iimagewrapper/size/) | يحصل على العرض والارتفاع، بوحدات البكسل، للصورة<br/>            للقراءة فقط [`IImageWrapper.size`](/slides/python-net/ar/aspose.slides/iimagewrapper/size). |
 
 ## الطرق
 
-| طريقة | الوصف |
+| الطريقة | الوصف |
 | :- | :- |
 | [`save(self, file_name)`](/slides/python-net/ar/aspose.slides/iimagewrapper/save/#str) | يحفظ الصورة إلى الملف المحدد |
 | [`save(self, stream, image_format)`](/slides/python-net/ar/aspose.slides/iimagewrapper/save/#iorawiobase-ppimageformat) | يحفظ الصورة إلى الدفق المحدد بالتنسيق المحدد. |
 | [`save(self, file_name, image_format)`](/slides/python-net/ar/aspose.slides/iimagewrapper/save/#str-ppimageformat) | يحفظ الصورة إلى الملف المحدد بالتنسيق المحدد. |
 
-
 ### انظر أيضًا
 * وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
-* مكتبة [`Aspose.Slides`](/slides/python-net)
+* المكتبة [`Aspose.Slides`](/slides/python-net)

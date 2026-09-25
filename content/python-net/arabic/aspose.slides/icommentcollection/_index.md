@@ -1,39 +1,37 @@
 ---
 title: ICommentCollection class
-second_title: Aspose.Slides للبايثون عبر .NET دليل API
+second_title: Aspose.Slides لبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/icommentcollection/
 ---
-## الفئة ICommentCollection class
+## ICommentCollection فئة
 
 يمثل مجموعة من التعليقات لمؤلف واحد.
 
-نوع ICommentCollection يكشف عن الأعضاء التالية:
+يعرض نوع ICommentCollection الأعضاء التالية:
 
-يحصل على العنصر في الفهرس المحدد.
-            Read-only [`IComment`](/slides/python-net/ar/aspose.slides/icomment).
+يحصل على العنصر عند الفهرس المحدد. قراءة فقط [`IComment`](/slides/python-net/ar/aspose.slides/icomment).
 
-## الفهرس
+## المؤشر
 
-| الاسم | الوصف |
+| اسم | الوصف |
 | :- | :- |
 | [`[index]`](/slides/python-net/ar/aspose.slides/icommentcollection/__getitem__/) |  |
 
 ## الطرق
 
-| الطريقة | الوصف |
+| طريقة | الوصف |
 | :- | :- |
-| [`to_array(self)`](/slides/python-net/ar/aspose.slides/icommentcollection/to_array/#) | ينشئ ويعيد مصفوفة تحتوي على جميع التعليقات. |
-| [`to_array(self, start_index, count)`](/slides/python-net/ar/aspose.slides/icommentcollection/to_array/#int-int) | ينشئ ويعيد مصفوفة تحتوي على جميع التعليقات من النطاق المحدد. |
-| [`add_comment(self, text, slide, position, creation_time)`](/slides/python-net/ar/aspose.slides/icommentcollection/add_comment/#str-islide-asposepydrawingpointf-datetime) | يضيف تعليقًا جديدًا في نهاية المجموعة. |
-| [`add_modern_comment(self, text, slide, shape, position, creation_time)`](/slides/python-net/ar/aspose.slides/icommentcollection/add_modern_comment/#str-islide-ishape-asposepydrawingpointf-datetime) | يضيف تعليقًا حديثًا جديدًا في نهاية المجموعة. |
-| [`insert_comment(self, index, text, slide, position, creation_time)`](/slides/python-net/ar/aspose.slides/icommentcollection/insert_comment/#int-str-islide-asposepydrawingpointf-datetime) | يُدرج تعليقًا جديدًا في المجموعة عند الفهرس المحدد. |
-| [`insert_modern_comment(self, index, text, slide, shape, position, creation_time)`](/slides/python-net/ar/aspose.slides/icommentcollection/insert_modern_comment/#int-str-islide-ishape-asposepydrawingpointf-datetime) | يُدرج تعليقًا حديثًا جديدًا في المجموعة عند الفهرس المحدد. |
-| [`remove_at(self, index)`](/slides/python-net/ar/aspose.slides/icommentcollection/remove_at/#int) | يزيل العنصر في الفهرس المحدد في المجموعة. |
-| [`remove(self, comment)`](/slides/python-net/ar/aspose.slides/icommentcollection/remove/#icomment) | يزيل أول حدوث للتعليق المحدد في المجموعة. |
-| [`clear(self)`](/slides/python-net/ar/aspose.slides/icommentcollection/clear/#) | يزيل جميع التعليقات من المجموعة. |
-
+| [`to_array(self)`](/slides/python-net/ar/aspose.slides/icommentcollection/to_array/#) | ينشئ ويرجع مصفوفة تحتوي على جميع التعليقات. |
+| [`to_array(self, start_index, count)`](/slides/python-net/ar/aspose.slides/icommentcollection/to_array/#int-int) | ينشئ ويرجع مصفوفة تحتوي على جميع التعليقات من النطاق المحدد. |
+| [`add_comment(self, text, slide, position, creation_time)`](/slides/python-net/ar/aspose.slides/icommentcollection/add_comment/#str-islide-asposeslidespointf-datetime) | يضيف تعليقًا جديدًا في نهاية المجموعة. |
+| [`add_modern_comment(self, text, slide, shape, position, creation_time)`](/slides/python-net/ar/aspose.slides/icommentcollection/add_modern_comment/#str-islide-ishape-asposeslidespointf-datetime) | يضيف تعليقًا حديثًا جديدًا في نهاية المجموعة. |
+| [`insert_comment(self, index, text, slide, position, creation_time)`](/slides/python-net/ar/aspose.slides/icommentcollection/insert_comment/#int-str-islide-asposeslidespointf-datetime) | يدخل تعليقًا جديدًا إلى المجموعة عند الفهرس المحدد. |
+| [`insert_modern_comment(self, index, text, slide, shape, position, creation_time)`](/slides/python-net/ar/aspose.slides/icommentcollection/insert_modern_comment/#int-str-islide-ishape-asposeslidespointf-datetime) | يدخل تعليقًا حديثًا جديدًا إلى المجموعة عند الفهرس المحدد. |
+| [`remove_at(self, index)`](/slides/python-net/ar/aspose.slides/icommentcollection/remove_at/#int) | يزيل العنصر عند الفهرس المحدد في مجموعة. |
+| [`remove(self, comment)`](/slides/python-net/ar/aspose.slides/icommentcollection/remove/#icomment) | يزيل الظهور الأول للتعليق المحدد في مجموعة. |
+| [`clear(self)`](/slides/python-net/ar/aspose.slides/icommentcollection/clear/#) | يزيل جميع التعليقات من مجموعة. |
 
 ### انظر أيضًا
 * فئة [`IComment`](/slides/python-net/ar/aspose.slides/icomment)

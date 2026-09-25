@@ -7,12 +7,12 @@ url: /el/aspose.slides.charts/ichartseries/get_automatic_series_color/
 weight: 10
 ---
 ## get_automatic_series_color(self) {#}
-Επιστρέφει ένα αυτόματο χρώμα σειράς με βάση το δείκτη σειράς και το στυλ γραφήματος. 
-Αυτό το χρώμα χρησιμοποιείται από προεπιλογή εάν FillType ισούται με NotDefined.
+Επιστρέφει ένα αυτόματο χρώμα σειράς με βάση το δείκτη σειράς και το στυλ διαγράμματος. 
+            Αυτό το χρώμα χρησιμοποιείται από προεπιλογή εάν το FillType ισούται με NotDefined.
 
-### Επιστρέφει
+### Επιστροφή
 
-Αυτόματο χρώμα σειράς **aspose.slides.Color**
+Αυτόματο χρώμα σειράς [`Color`](/slides/python-net/el/aspose.slides/color)
 
 
 
@@ -26,5 +26,6 @@ def get_automatic_series_color(self):
 
 ### Δείτε επίσης
 * κλάση [`IChartSeries`](/slides/python-net/el/aspose.slides.charts/ichartseries)
+* κλάση [`Color`](/slides/python-net/el/aspose.slides/color)
 * μονάδα [`aspose.slides.charts`](/slides/python-net/el/aspose.slides.charts)
 * βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

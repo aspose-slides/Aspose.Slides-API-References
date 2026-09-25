@@ -6,10 +6,10 @@ type: docs
 url: /th/aspose.slides.animation/imotionpath/add/
 weight: 10
 ---
-## add(self, type, pts, pts_type, b_relative_coord) {#motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool}
+## add(self, type, pts, pts_type, b_relative_coord) {#motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool}
 เพิ่มคำสั่งใหม่ไปยังเส้นทาง
 
-### ผลลัพธ์
+### ส่งคืน
 
 คำสั่งของเส้นทาง [`IMotionCmdPath`](/slides/python-net/th/aspose.slides.animation/imotioncmdpath)
 
@@ -21,11 +21,11 @@ def add(self, type, pts, pts_type, b_relative_coord):
 ```
 
 
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| Parameter | Type | Description |
 | :- | :- | :- |
-| type | [`MotionCommandPathType`](/slides/python-net/th/aspose.slides.animation/motioncommandpathtype) | ประเภทของคำสั่งสำหรับพฤติกรรมเอฟเฟกต์การเคลื่อนที่ของแอนิเมชัน [`MotionCommandPathType`](/slides/python-net/th/aspose.slides.animation/motioncommandpathtype) |
-| pts | **List[aspose.slides.PointF]** | อาร์เรย์ของจุด **aspose.slides.PointF**[] |
-| pts_type | [`MotionPathPointsType`](/slides/python-net/th/aspose.slides.animation/motionpathpointstype) | ประเภทของจุดในเส้นทางการเคลื่อนที่ของแอนิเมชัน [`MotionPathPointsType`](/slides/python-net/th/aspose.slides.animation/motionpathpointstype) |
+| type | [`MotionCommandPathType`](/slides/python-net/th/aspose.slides.animation/motioncommandpathtype) | ประเภทของคำสั่งสำหรับพฤติกรรมการเคลื่อนไหวของแอนิเมชัน [`MotionCommandPathType`](/slides/python-net/th/aspose.slides.animation/motioncommandpathtype) |
+| pts | **List[aspose.slides.PointF]** | อาร์เรย์ของจุด [`PointF`](/slides/python-net/th/aspose.slides/pointf)[] |
+| pts_type | [`MotionPathPointsType`](/slides/python-net/th/aspose.slides.animation/motionpathpointstype) | ประเภทของจุดในเส้นทางการเคลื่อนไหวของแอนิเมชัน [`MotionPathPointsType`](/slides/python-net/th/aspose.slides.animation/motionpathpointstype) |
 | b_relative_coord | **bool** | ระบุว่าจะใช้พิกัดสัมพัทธ์หรือไม่ **bool** |
 
 
@@ -35,5 +35,6 @@ def add(self, type, pts, pts_type, b_relative_coord):
 * คลาส [`IMotionPath`](/slides/python-net/th/aspose.slides.animation/imotionpath)
 * enumeration [`MotionCommandPathType`](/slides/python-net/th/aspose.slides.animation/motioncommandpathtype)
 * enumeration [`MotionPathPointsType`](/slides/python-net/th/aspose.slides.animation/motionpathpointstype)
+* คลาส [`PointF`](/slides/python-net/th/aspose.slides/pointf)
 * โมดูล [`aspose.slides.animation`](/slides/python-net/th/aspose.slides.animation)
 * ไลบรารี [`Aspose.Slides`](/slides/python-net)

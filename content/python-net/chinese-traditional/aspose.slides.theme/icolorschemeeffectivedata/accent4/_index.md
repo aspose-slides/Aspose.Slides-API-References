@@ -1,16 +1,16 @@
 ---
 title: accent4 property
-second_title: Aspose.Slides for Python via .NET API 參考
+second_title: Aspose.Slides 用於 Python 透過 .NET API 參考
 description: 
 type: docs
 url: /zh-hant/aspose.slides.theme/icolorschemeeffectivedata/accent4/
 weight: 40
 ---
 ## accent4 屬性
-方案中的第四種重音顏色。
-唯讀 **aspose.slides.Color**.
+方案中的第四個強調色。
+            唯讀 [`Color`](/slides/python-net/zh-hant/aspose.slides/color).
 
-### 定義：
+### 定義:
 ```python
 @property
 def accent4(self):
@@ -18,7 +18,8 @@ def accent4(self):
 ```
 
 
-### 另請參閱
+### 另見
 * 類別 [`IColorSchemeEffectiveData`](/slides/python-net/zh-hant/aspose.slides.theme/icolorschemeeffectivedata)
+* 類別 [`Color`](/slides/python-net/zh-hant/aspose.slides/color)
 * 模組 [`aspose.slides.theme`](/slides/python-net/zh-hant/aspose.slides.theme)
-* 程式庫 [`Aspose.Slides`](/slides/python-net)
+* 函式庫 [`Aspose.Slides`](/slides/python-net)

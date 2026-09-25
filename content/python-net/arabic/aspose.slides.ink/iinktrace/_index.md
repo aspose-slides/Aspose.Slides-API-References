@@ -1,6 +1,6 @@
 ---
 title: IInkTrace class
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: Aspose.Slides لبايثون عبر مرجع API لـ .NET
 description: 
 type: docs
 url: /ar/aspose.slides.ink/iinktrace/
@@ -9,16 +9,16 @@ url: /ar/aspose.slides.ink/iinktrace/
 
 يمثل خطًا مكتوبًا يدويًا في كائن Ink.
 
-نوع IInkTrace يكشف عن الأعضاء التالية:
+نوع IInkTrace يعرض الأعضاء التالية:
 
-## الخصائص
+## خصائص
 
-| الخاصية | الوصف |
+| خاصية | الوصف |
 | :- | :- |
-| [`brush`](/slides/python-net/ar/aspose.slides.ink/iinktrace/brush/) | يحصل على Brush لـ IInkLine [`IInkBrush`](/slides/python-net/ar/aspose.slides.ink/iinkbrush)<br/>            للقراءة فقط. |
-| [`points`](/slides/python-net/ar/aspose.slides.ink/iinktrace/points/) | يحصل على نقاط لـ IInkLine **aspose.slides.PointF**<br/>            للقراءة فقط. |
+| [`brush`](/slides/python-net/ar/aspose.slides.ink/iinktrace/brush/) | يحصل على فرشاة لخط الحبر [`IInkBrush`](/slides/python-net/ar/aspose.slides.ink/iinkbrush)<br/>            للقراءة فقط. |
+| [`points`](/slides/python-net/ar/aspose.slides.ink/iinktrace/points/) | يحصل على نقاط لخط الحبر [`PointF`](/slides/python-net/ar/aspose.slides/pointf)<br/>            للقراءة فقط. |
 
 
-### انظر أيضًا
+### انظر أيضاً
 * الوحدة [`aspose.slides.ink`](/slides/python-net/ar/aspose.slides.ink)
 * المكتبة [`Aspose.Slides`](/slides/python-net)

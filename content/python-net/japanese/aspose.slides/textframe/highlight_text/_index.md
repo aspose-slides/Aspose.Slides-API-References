@@ -6,45 +6,45 @@ type: docs
 url: /ja/aspose.slides/textframe/highlight_text/
 weight: 20
 ---
-## highlight_text(self, text, highlight_color) {#str-asposepydrawingcolor}
-サンプルテキストと一致するすべての箇所を指定された色でハイライトします。
+## highlight_text(self, text, highlight_color) {#str-asposeslidescolor}
+指定された色でサンプルテキストのすべての一致箇所をハイライトします。
 
 ```python
 def highlight_text(self, text, highlight_color):
     ...
 ```
 
-| パラメーター | 型 | 説明 |
+| パラメータ | 型 | 説明 |
 | :- | :- | :- |
 | text | **str** | ハイライトするテキストサンプル。 |
-| highlight_color | **aspose.slides.Color** | テキストをハイライトする色。 |
+| highlight_color | [`Color`](/slides/python-net/ja/aspose.slides/color) | テキストをハイライトする色。 |
 
-## highlight_text(self, text, highlight_color, options) {#str-asposepydrawingcolor-itexthighlightingoptions}
-サンプルテキストと一致するすべての箇所を指定された色でハイライトします。
+## highlight_text(self, text, highlight_color, options) {#str-asposeslidescolor-itexthighlightingoptions}
+指定された色でサンプルテキストのすべての一致箇所をハイライトします。
 
 ```python
 def highlight_text(self, text, highlight_color, options):
     ...
 ```
 
-| パラメーター | 型 | 説明 |
+| パラメータ | 型 | 説明 |
 | :- | :- | :- |
 | text | **str** | ハイライトするテキスト。 |
-| highlight_color | **aspose.slides.Color** | テキストをハイライトする色。 |
+| highlight_color | [`Color`](/slides/python-net/ja/aspose.slides/color) | テキストをハイライトする色。 |
 | options | [`ITextHighlightingOptions`](/slides/python-net/ja/aspose.slides/itexthighlightingoptions) | ハイライトオプション。 |
 
-## highlight_text(self, text, highlight_color, options, callback) {#str-asposepydrawingcolor-itextsearchoptions-ifindresultcallback}
-サンプルテキストと一致するすべての箇所を指定された色でハイライトします。
+## highlight_text(self, text, highlight_color, options, callback) {#str-asposeslidescolor-itextsearchoptions-ifindresultcallback}
+指定された色でサンプルテキストのすべての一致箇所をハイライトします。
 
 ```python
 def highlight_text(self, text, highlight_color, options, callback):
     ...
 ```
 
-| パラメーター | 型 | 説明 |
+| パラメータ | 型 | 説明 |
 | :- | :- | :- |
 | text | **str** | ハイライトするテキスト。 |
-| highlight_color | **aspose.slides.Color** | テキストをハイライトする色。 |
+| highlight_color | [`Color`](/slides/python-net/ja/aspose.slides/color) | テキストをハイライトする色。 |
 | options | [`ITextSearchOptions`](/slides/python-net/ja/aspose.slides/itextsearchoptions) | テキスト検索オプション [`ITextSearchOptions`](/slides/python-net/ja/aspose.slides/itextsearchoptions)。 |
 | callback | [`IFindResultCallback`](/slides/python-net/ja/aspose.slides/ifindresultcallback) | 検索結果を受け取るためのコールバックオブジェクト [`IFindResultCallback`](/slides/python-net/ja/aspose.slides/ifindresultcallback)。 |
 
@@ -53,5 +53,6 @@ def highlight_text(self, text, highlight_color, options, callback):
 * クラス [`ITextHighlightingOptions`](/slides/python-net/ja/aspose.slides/itexthighlightingoptions)
 * クラス [`ITextSearchOptions`](/slides/python-net/ja/aspose.slides/itextsearchoptions)
 * クラス [`TextFrame`](/slides/python-net/ja/aspose.slides/textframe)
+* クラス [`Color`](/slides/python-net/ja/aspose.slides/color)
 * モジュール [`aspose.slides`](/slides/python-net/ja/aspose.slides)
 * ライブラリ [`Aspose.Slides`](/slides/python-net)

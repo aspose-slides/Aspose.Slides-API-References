@@ -1,15 +1,15 @@
 ---
 title: insert_comment method
-second_title: Aspose.Slides for Python via .NET API 參考文件
+second_title: Aspose.Slides for Python via .NET API 參考手冊
 description: 
 type: docs
 url: /zh-hant/aspose.slides/commentcollection/insert_comment/
 weight: 50
 ---
-## insert_comment(self, index, text, slide, position, creation_time) {#int-str-islide-asposepydrawingpointf-datetime}
-在集合的指定索引插入新評論。
+## insert_comment(self, index, text, slide, position, creation_time) {#int-str-islide-asposeslidespointf-datetime}
+在指定索引處將新評論插入集合。
 
-### 返回值
+### 返回
 已插入的評論。
 
 ```python
@@ -17,17 +17,18 @@ def insert_comment(self, index, text, slide, position, creation_time):
     ...
 ```
 
-| Parameter | Type | Description |
+| 參數 | 類型 | 說明 |
 | :- | :- | :- |
-| index | **int** | 集合中元素的索引，指示要在何處插入評論。 |
+| index | **int** | 集合中應插入評論的元素索引。 |
 | text | **str** | 新評論的純文字。 |
-| slide | [`ISlide`](/slides/python-net/zh-hant/aspose.slides/islide) | 要加入新評論的簡報投影片。 |
-| position | **aspose.slides.PointF** | 在投影片上添加新評論的位置。 |
+| slide | [`ISlide`](/slides/python-net/zh-hant/aspose.slides/islide) | 在簡報中加入新評論的投影片。 |
+| position | [`PointF`](/slides/python-net/zh-hant/aspose.slides/pointf) | 在投影片上新增評論的位置。 |
 | creation_time | **DateTime** | 評論建立的時間。 |
 
-### 另請參閱
+### 另見
 * 類別 [`CommentCollection`](/slides/python-net/zh-hant/aspose.slides/commentcollection)
 * 類別 [`IComment`](/slides/python-net/zh-hant/aspose.slides/icomment)
 * 類別 [`ISlide`](/slides/python-net/zh-hant/aspose.slides/islide)
+* 類別 [`PointF`](/slides/python-net/zh-hant/aspose.slides/pointf)
 * 模組 [`aspose.slides`](/slides/python-net/zh-hant/aspose.slides)
 * 函式庫 [`Aspose.Slides`](/slides/python-net)

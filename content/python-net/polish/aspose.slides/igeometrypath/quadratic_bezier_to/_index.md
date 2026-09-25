@@ -6,8 +6,8 @@ type: docs
 url: /pl/aspose.slides/igeometrypath/quadratic_bezier_to/
 weight: 60
 ---
-## quadratic_bezier_to(self, point1, point2) {#asposepydrawingpointf-asposepydrawingpointf}
-Dodaje krzywą kwadratową Bézier na końcu ścieżki
+## quadratic_bezier_to(self, point1, point2) {#asposeslidespointf-asposeslidespointf}
+Dodaje krzywą kwadratową Béziera na końcu ścieżki
 
 
 ```python
@@ -16,14 +16,14 @@ def quadratic_bezier_to(self, point1, point2):
 ```
 
 
-| Parameter | Type | Description |
+| Parametr | Typ | Opis |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | Punkt kierunkowy |
-| point2 | **aspose.slides.PointF** | Punkt końcowy |
+| point1 | [`PointF`](/slides/python-net/pl/aspose.slides/pointf) | Punkt kierunkowy |
+| point2 | [`PointF`](/slides/python-net/pl/aspose.slides/pointf) | Punkt końcowy |
 
 
-## quadratic_bezier_to(self, point1, point2, index) {#asposepydrawingpointf-asposepydrawingpointf-int}
-Dodaje krzywą kwadratową Bézier w określonym miejscu ścieżki
+## quadratic_bezier_to(self, point1, point2, index) {#asposeslidespointf-asposeslidespointf-int}
+Dodaje krzywą kwadratową Béziera w określonym miejscu ścieżki
 
 
 ```python
@@ -32,22 +32,21 @@ def quadratic_bezier_to(self, point1, point2, index):
 ```
 
 
-| Parameter | Type | Description |
+| Parametr | Typ | Opis |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | Punkt kierunkowy |
-| point2 | **aspose.slides.PointF** | Punkt końcowy |
+| point1 | [`PointF`](/slides/python-net/pl/aspose.slides/pointf) | Punkt kierunkowy |
+| point2 | [`PointF`](/slides/python-net/pl/aspose.slides/pointf) | Punkt końcowy |
 | index | **int** | Indeks segmentu w PathData |
-
 
 ### Wyjątki
 
-| Exception | Description |
+| Wyjątek | Opis |
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Indeks segmentu jest poza zakresem PathData |
 
 
 ## quadratic_bezier_to(self, x1, y1, x2, y2) {#float-float-float-float}
-Dodaje krzywą kwadratową Bézier na końcu ścieżki
+Dodaje krzywą kwadratową Béziera na końcu ścieżki
 
 
 ```python
@@ -56,7 +55,7 @@ def quadratic_bezier_to(self, x1, y1, x2, y2):
 ```
 
 
-| Parameter | Type | Description |
+| Parametr | Typ | Opis |
 | :- | :- | :- |
 | x1 | **float** | Współrzędna X punktu kierunkowego |
 | y1 | **float** | Współrzędna Y punktu kierunkowego |
@@ -65,7 +64,7 @@ def quadratic_bezier_to(self, x1, y1, x2, y2):
 
 
 ## quadratic_bezier_to(self, x1, y1, x2, y2, index) {#float-float-float-float-int}
-Dodaje krzywą kwadratową Bézier w określonym miejscu ścieżki
+Dodaje krzywą kwadratową Béziera w określonym miejscu ścieżki
 
 
 ```python
@@ -74,7 +73,7 @@ def quadratic_bezier_to(self, x1, y1, x2, y2, index):
 ```
 
 
-| Parameter | Type | Description |
+| Parametr | Typ | Opis |
 | :- | :- | :- |
 | x1 | **float** | Współrzędna X punktu kierunkowego |
 | y1 | **float** | Współrzędna Y punktu kierunkowego |
@@ -82,16 +81,16 @@ def quadratic_bezier_to(self, x1, y1, x2, y2, index):
 | y2 | **float** | Współrzędna Y punktu końcowego |
 | index | **int** | Indeks segmentu w PathData |
 
-
 ### Wyjątki
 
-| Exception | Description |
+| Wyjątek | Opis |
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Indeks segmentu jest poza zakresem PathData |
 
 
 
-### Zobacz także
-* klasa [`IGeometryPath`](/slides/python-net/pl/aspose.slides/igeometrypath)
-* moduł [`aspose.slides`](/slides/python-net/pl/aspose.slides)
-* biblioteka [`Aspose.Slides`](/slides/python-net)
+### Zobacz również
+* class [`IGeometryPath`](/slides/python-net/pl/aspose.slides/igeometrypath)
+* class [`PointF`](/slides/python-net/pl/aspose.slides/pointf)
+* module [`aspose.slides`](/slides/python-net/pl/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

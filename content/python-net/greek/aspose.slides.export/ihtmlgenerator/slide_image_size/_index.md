@@ -1,14 +1,14 @@
 ---
 title: slide_image_size property
-second_title: Αναφορά API Aspose.Slides για Python μέσω .NET
+second_title: Aspose.Slides για Python μέσω .NET API Reference
 description: 
 type: docs
 url: /el/aspose.slides.export/ihtmlgenerator/slide_image_size/
 weight: 60
 ---
 ## slide_image_size ιδιότητα
-Επιστρέφει το μέγεθος της εικόνας της διαφάνειας.
-            Μόνο ανάγνωση **aspose.slides.SizeF**.
+Returns slide image size.
+            Μόνο-ανάγνωση [`SizeF`](/slides/python-net/el/aspose.slides/sizef).
 
 ### Ορισμός:
 ```python
@@ -20,5 +20,6 @@ def slide_image_size(self):
 
 ### Δείτε επίσης
 * κλάση [`IHtmlGenerator`](/slides/python-net/el/aspose.slides.export/ihtmlgenerator)
+* κλάση [`SizeF`](/slides/python-net/el/aspose.slides/sizef)
 * μονάδα [`aspose.slides.export`](/slides/python-net/el/aspose.slides.export)
 * βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

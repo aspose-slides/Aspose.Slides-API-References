@@ -8,7 +8,7 @@ weight: 70
 ---
 ## dark1 özelliği
 Şemadaki ilk koyu renk.
-            Salt okunur **aspose.slides.Color**.
+            Yalnızca okunabilir [`Color`](/slides/python-net/tr/aspose.slides/color).
 
 ### Tanım:
 ```python
@@ -18,7 +18,8 @@ def dark1(self):
 ```
 
 
-### Ayrıca Bakınız
+### Diğerlerine Bak
 * sınıf [`IColorSchemeEffectiveData`](/slides/python-net/tr/aspose.slides.theme/icolorschemeeffectivedata)
+* sınıf [`Color`](/slides/python-net/tr/aspose.slides/color)
 * modül [`aspose.slides.theme`](/slides/python-net/tr/aspose.slides.theme)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

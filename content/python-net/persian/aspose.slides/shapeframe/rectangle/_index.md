@@ -1,16 +1,16 @@
 ---
 title: rectangle property
-second_title: مرجع API Aspose.Slides برای Python از طریق .NET
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides/shapeframe/rectangle/
 weight: 100
 ---
-## ویژگی rectangle
-مختصات یک قاب را باز می‌گرداند.
-            فقط-خواندنی **aspose.slides.RectangleF**.
+## rectangle ویژگی
+Returns the coordinates of a frame.
+            فقط-خواندنی [`RectangleF`](/slides/python-net/fa/aspose.slides/rectanglef).
 
-### تعریف:
+### Definition:
 ```python
 @property
 def rectangle(self):
@@ -18,7 +18,8 @@ def rectangle(self):
 ```
 
 
-### موارد مرتبط
+### See Also
 * کلاس [`ShapeFrame`](/slides/python-net/fa/aspose.slides/shapeframe)
+* کلاس [`RectangleF`](/slides/python-net/fa/aspose.slides/rectanglef)
 * ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

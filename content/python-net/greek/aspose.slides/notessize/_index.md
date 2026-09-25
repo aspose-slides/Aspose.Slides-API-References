@@ -7,7 +7,7 @@ url: /el/aspose.slides/notessize/
 ---
 ## NotesSize κλάση
 
-Αναπαριστά ένα μέγεθος διαφάνειας σημειώσεων.
+Αντιπροσωπεύει ένα μέγεθος διαφάνειας σημειώσεων.
 
 Ο τύπος NotesSize εκθέτει τα παρακάτω μέλη:
 
@@ -21,7 +21,7 @@ url: /el/aspose.slides/notessize/
 
 | Ιδιότητα | Περιγραφή |
 | :- | :- |
-| [`size`](/slides/python-net/el/aspose.slides/notessize/size/) | Επιστρέφει ή ορίζει το μέγεθος σε σημεία.<br/>            Ανάγνωση/εγγραφή **aspose.slides.SizeF**. |
+| [`size`](/slides/python-net/el/aspose.slides/notessize/size/) | Επιστρέφει ή ορίζει το μέγεθος σε σημεία.<br/>Ανάγνωση/εγγραφή [`SizeF`](/slides/python-net/el/aspose.slides/sizef). |
 
 
 ### Δείτε επίσης

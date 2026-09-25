@@ -1,14 +1,14 @@
 ---
 title: color property
-second_title: Aspose.Slides cho Python qua .NET Tham khảo API
+second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides/idrawingguide/color/
 weight: 10
 ---
-## thuộc tính màu
-Trả về hoặc đặt màu của hướng dẫn vẽ.
-            Đọc/ghi **aspose.slides.Color**.
+## color thuộc tính
+Trả về hoặc đặt color của hướng dẫn vẽ.
+            Đọc/ghi [`Color`](/slides/python-net/vi/aspose.slides/color).
 
 ### Định nghĩa:
 ```python
@@ -22,7 +22,8 @@ def color(self, value):
 ```
 
 
-### Xem thêm
+### Xem Thêm
 * lớp [`IDrawingGuide`](/slides/python-net/vi/aspose.slides/idrawingguide)
-* mô-đun [`aspose.slides`](/slides/python-net/vi/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* lớp [`Color`](/slides/python-net/vi/aspose.slides/color)
+* module [`aspose.slides`](/slides/python-net/vi/aspose.slides)
+* thư viện [`Aspose.Slides`](/slides/python-net)

@@ -6,9 +6,9 @@ type: docs
 url: /tr/aspose.slides.animation/iscaleeffect/by/
 weight: 40
 ---
-## özelliğe göre
-animasyon için göreceli ofset değerini (yüzde olarak) tanımlar.
-            Okunur/Yazılabilir **aspose.slides.PointF**.
+## özellik ile
+animasyon için göreceli offset değerini (yüzde olarak) tanımlar.
+            Okunur/Yazılabilir [`PointF`](/slides/python-net/tr/aspose.slides/pointf).
 
 ### Tanım:
 ```python
@@ -22,7 +22,8 @@ def by(self, value):
 ```
 
 
-### Başvurular
+### İlgili
 * sınıf [`IScaleEffect`](/slides/python-net/tr/aspose.slides.animation/iscaleeffect)
+* sınıf [`PointF`](/slides/python-net/tr/aspose.slides/pointf)
 * modül [`aspose.slides.animation`](/slides/python-net/tr/aspose.slides.animation)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

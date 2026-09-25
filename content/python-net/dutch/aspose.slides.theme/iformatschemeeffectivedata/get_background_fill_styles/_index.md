@@ -6,8 +6,8 @@ type: docs
 url: /nl/aspose.slides.theme/iformatschemeeffectivedata/get_background_fill_styles/
 weight: 10
 ---
-## get_background_fill_styles(self, style_color) {#asposepydrawingcolor}
-Retourneert een collectie van themadefinieerde achtergrondvullingsstijlen.
+## get_background_fill_styles(self, style_color) {#asposeslidescolor}
+Retourneert een collectie van door het thema gedefinieerde achtergrondvullingsstijlen.
 
 ### Retour
 
@@ -23,12 +23,13 @@ def get_background_fill_styles(self, style_color):
 
 | Parameter | Type | Beschrijving |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | Kleur **aspose.slides.Color** |
+| style_color | [`Color`](/slides/python-net/nl/aspose.slides/color) | Kleur [`Color`](/slides/python-net/nl/aspose.slides/color) |
 
 
 
 ### Zie ook
 * klasse [`IFillFormatCollectionEffectiveData`](/slides/python-net/nl/aspose.slides.theme/ifillformatcollectioneffectivedata)
 * klasse [`IFormatSchemeEffectiveData`](/slides/python-net/nl/aspose.slides.theme/iformatschemeeffectivedata)
+* klasse [`Color`](/slides/python-net/nl/aspose.slides/color)
 * module [`aspose.slides.theme`](/slides/python-net/nl/aspose.slides.theme)
 * bibliotheek [`Aspose.Slides`](/slides/python-net)

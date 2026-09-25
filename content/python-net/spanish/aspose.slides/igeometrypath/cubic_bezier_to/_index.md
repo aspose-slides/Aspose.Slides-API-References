@@ -1,13 +1,13 @@
 ---
 title: cubic_bezier_to method
-second_title: Aspose.Slides para Python vía .NET Referencia de API
+second_title: Referencia de API de Aspose.Slides para Python vía .NET
 description: 
 type: docs
 url: /es/aspose.slides/igeometrypath/cubic_bezier_to/
 weight: 30
 ---
-## cubic_bezier_to(self, point1, point2, point3) {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf}
-Agrega una curva cúbica de Bézier al final del trazado
+## cubic_bezier_to(self, point1, point2, point3) {#asposeslidespointf-asposeslidespointf-asposeslidespointf}
+Agrega una curva Bézier cúbica al final de la ruta
 
 
 ```python
@@ -18,13 +18,13 @@ def cubic_bezier_to(self, point1, point2, point3):
 
 | Parámetro | Tipo | Descripción |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | Primer punto de dirección |
-| point2 | **aspose.slides.PointF** | Segundo punto de dirección |
-| point3 | **aspose.slides.PointF** | Punto final |
+| point1 | [`PointF`](/slides/python-net/es/aspose.slides/pointf) | Primer punto de dirección |
+| point2 | [`PointF`](/slides/python-net/es/aspose.slides/pointf) | Segundo punto de dirección |
+| point3 | [`PointF`](/slides/python-net/es/aspose.slides/pointf) | Punto final |
 
 
-## cubic_bezier_to(self, point1, point2, point3, index) {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf-int}
-Agrega una curva cúbica de Bézier al lugar especificado del trazado
+## cubic_bezier_to(self, point1, point2, point3, index) {#asposeslidespointf-asposeslidespointf-asposeslidespointf-int}
+Agrega una curva Bézier cúbica al lugar especificado de la ruta
 
 
 ```python
@@ -35,20 +35,20 @@ def cubic_bezier_to(self, point1, point2, point3, index):
 
 | Parámetro | Tipo | Descripción |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | Primer punto de dirección |
-| point2 | **aspose.slides.PointF** | Segundo punto de dirección |
-| point3 | **aspose.slides.PointF** | Punto final |
+| point1 | [`PointF`](/slides/python-net/es/aspose.slides/pointf) | Primer punto de dirección |
+| point2 | [`PointF`](/slides/python-net/es/aspose.slides/pointf) | Segundo punto de dirección |
+| point3 | [`PointF`](/slides/python-net/es/aspose.slides/pointf) | Punto final |
 | index | **int** | Índice del segmento en PathData |
 
 ### Excepciones
 
 | Excepción | Descripción |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Segment index is out of PathData range |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | El índice del segmento está fuera del rango de PathData |
 
 
 ## cubic_bezier_to(self, x1, y1, x2, y2, x3, y3) {#float-float-float-float-float-float}
-Agrega una curva cúbica de Bézier al final del trazado
+Agrega una curva Bézier cúbica al final de la ruta
 
 
 ```python
@@ -68,7 +68,7 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3):
 
 
 ## cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index) {#float-float-float-float-float-float-int}
-Agrega una curva cúbica de Bézier al lugar especificado del trazado
+Agrega una curva Bézier cúbica al lugar especificado de la ruta
 
 
 ```python
@@ -91,11 +91,12 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index):
 
 | Excepción | Descripción |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Segment index is out of PathData range |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | El índice del segmento está fuera del rango de PathData |
 
 
 
 ### Ver también
 * clase [`IGeometryPath`](/slides/python-net/es/aspose.slides/igeometrypath)
+* clase [`PointF`](/slides/python-net/es/aspose.slides/pointf)
 * módulo [`aspose.slides`](/slides/python-net/es/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* biblioteca [`Aspose.Slides`](/slides/python-net)

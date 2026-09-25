@@ -8,7 +8,7 @@ weight: 110
 ---
 ## highlight_color egenskap
 Returnerar färgen som används för att markera en text.
-            Skrivskyddad **aspose.slides.Color**.
+            Skrivskyddad [`Color`](/slides/python-net/sv/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def highlight_color(self):
 
 ### Se även
 * klass [`IBasePortionFormatEffectiveData`](/slides/python-net/sv/aspose.slides/ibaseportionformateffectivedata)
+* klass [`Color`](/slides/python-net/sv/aspose.slides/color)
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

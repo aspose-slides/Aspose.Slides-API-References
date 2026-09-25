@@ -1,14 +1,14 @@
 ---
 title: size property
-second_title: Aspose.Slides Python के लिए .NET के माध्यम से API संदर्भ
+second_title: Aspose.Slides के लिए Python के माध्यम से .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides/inotessize/size/
 weight: 10
 ---
-## आकार गुण
-बिंदुओं में आकार को वापस देता है या सेट करता है।
-            पढ़ें/लिखें **aspose.slides.SizeF**.
+## size प्रॉपर्टी
+size को पॉइंट्स में लौटाता है या सेट करता है।
+            पढ़ें/लिखें [`SizeF`](/slides/python-net/hi/aspose.slides/sizef).
 
 ### परिभाषा:
 ```python
@@ -22,7 +22,8 @@ def size(self, value):
 ```
 
 
-### देखें भी
-* वर्ग [`INotesSize`](/slides/python-net/hi/aspose.slides/inotessize)
+### संबंधित देखें
+* क्लास [`INotesSize`](/slides/python-net/hi/aspose.slides/inotessize)
+* क्लास [`SizeF`](/slides/python-net/hi/aspose.slides/sizef)
 * मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
 * लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

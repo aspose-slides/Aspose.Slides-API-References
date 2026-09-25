@@ -7,7 +7,7 @@ url: /sv/aspose.slides.ink/iinktrace/points/
 weight: 20
 ---
 ## points egenskap
-Hämtar points för IInkLine **aspose.slides.PointF**
+Hämtar punkter för IInkLine [`PointF`](/slides/python-net/sv/aspose.slides/pointf)
             Skrivskyddad.
 
 ### Definition:
@@ -20,5 +20,6 @@ def points(self):
 
 ### Se även
 * klass [`IInkTrace`](/slides/python-net/sv/aspose.slides.ink/iinktrace)
+* klass [`PointF`](/slides/python-net/sv/aspose.slides/pointf)
 * modul [`aspose.slides.ink`](/slides/python-net/sv/aspose.slides.ink)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

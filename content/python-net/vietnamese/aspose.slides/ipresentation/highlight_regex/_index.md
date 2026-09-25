@@ -6,8 +6,8 @@ type: docs
 url: /vi/aspose.slides/ipresentation/highlight_regex/
 weight: 30
 ---
-## highlight_regex(self, regex, highlight_color) {#str-asposepydrawingcolor}
-Làm nổi bật tất cả các khớp của biểu thức chính quy bằng màu đã chỉ định.
+## highlight_regex(self, regex, highlight_color) {#str-asposeslidescolor}
+Tô sáng tất cả các khớp của biểu thức chính quy bằng màu đã chỉ định.
 
 ```python
 def highlight_regex(self, regex, highlight_color):
@@ -16,10 +16,11 @@ def highlight_regex(self, regex, highlight_color):
 
 | Tham số | Kiểu | Mô tả |
 | :- | :- | :- |
-| regex | **str** | Chuỗi chứa biểu thức chính quy để lấy các chuỗi cần làm nổi bật. |
-| highlight_color | **aspose.slides.Color** | Màu để làm nổi bật văn bản. |
+| regex | **str** | Chuỗi chứa biểu thức chính quy để lấy các chuỗi cần tô sáng. |
+| highlight_color | [`Color`](/slides/python-net/vi/aspose.slides/color) | Màu dùng để tô sáng văn bản. |
 
 ### Xem Thêm
 * lớp [`IPresentation`](/slides/python-net/vi/aspose.slides/ipresentation)
+* lớp [`Color`](/slides/python-net/vi/aspose.slides/color)
 * mô-đun [`aspose.slides`](/slides/python-net/vi/aspose.slides)
 * thư viện [`Aspose.Slides`](/slides/python-net)

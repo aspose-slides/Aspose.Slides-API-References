@@ -6,9 +6,9 @@ type: docs
 url: /ja/aspose.slides.effects/icolorreplaceeffectivedata/color/
 weight: 20
 ---
-## color プロパティ
+## 色 プロパティ
 すべてのピクセルの色を置き換えるカラー形式を返します。
-読み取り専用 **aspose.slides.Color**.
+            読み取り専用 [`Color`](/slides/python-net/ja/aspose.slides/color).
 
 ### 定義:
 ```python
@@ -17,8 +17,8 @@ def color(self):
     ...
 ```
 
-
 ### 参照
 * クラス [`IColorReplaceEffectiveData`](/slides/python-net/ja/aspose.slides.effects/icolorreplaceeffectivedata)
+* クラス [`Color`](/slides/python-net/ja/aspose.slides/color)
 * モジュール [`aspose.slides.effects`](/slides/python-net/ja/aspose.slides.effects)
 * ライブラリ [`Aspose.Slides`](/slides/python-net)

@@ -6,8 +6,8 @@ type: docs
 url: /zh/aspose.slides.theme/iformatschemeeffectivedata/get_line_styles/
 weight: 40
 ---
-## get_line_styles(self, style_color) {#asposepydrawingcolor}
-返回一个由主题定义的线条样式集合。
+## get_line_styles(self, style_color) {#asposeslidescolor}
+返回一组主题定义的线条样式。
 
 ### 返回
 
@@ -23,12 +23,13 @@ def get_line_styles(self, style_color):
 
 | 参数 | 类型 | 描述 |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | Color **aspose.slides.Color** |
+| style_color | [`Color`](/slides/python-net/zh/aspose.slides/color) | 颜色 [`Color`](/slides/python-net/zh/aspose.slides/color) |
 
 
 
-### 参见
+### 另见
 * 类 [`IFormatSchemeEffectiveData`](/slides/python-net/zh/aspose.slides.theme/iformatschemeeffectivedata)
 * 类 [`ILineFormatCollectionEffectiveData`](/slides/python-net/zh/aspose.slides.theme/ilineformatcollectioneffectivedata)
+* 类 [`Color`](/slides/python-net/zh/aspose.slides/color)
 * 模块 [`aspose.slides.theme`](/slides/python-net/zh/aspose.slides.theme)
 * 库 [`Aspose.Slides`](/slides/python-net)

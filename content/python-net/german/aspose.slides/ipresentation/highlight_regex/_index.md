@@ -6,24 +6,21 @@ type: docs
 url: /de/aspose.slides/ipresentation/highlight_regex/
 weight: 30
 ---
-## highlight_regex(self, regex, highlight_color) {#str-asposepydrawingcolor}
-Markiert alle Übereinstimmungen des regulären Ausdrucks mit der angegebenen Farbe.
-
+## highlight_regex(self, regex, highlight_color) {#str-asposeslidescolor}
+Hebt alle Übereinstimmungen des regulären Ausdrucks mit der angegebenen Farbe hervor.
 
 ```python
 def highlight_regex(self, regex, highlight_color):
     ...
 ```
 
-
 | Parameter | Typ | Beschreibung |
 | :- | :- | :- |
 | regex | **str** | Der String enthält den regulären Ausdruck, um die zu hervorhebenden Zeichenketten zu erhalten. |
-| highlight_color | **aspose.slides.Color** | Die Farbe, um den Text hervorzuheben. |
-
-
+| highlight_color | [`Color`](/slides/python-net/de/aspose.slides/color) | Die Farbe zum Hervorheben des Textes. |
 
 ### Siehe auch
 * Klasse [`IPresentation`](/slides/python-net/de/aspose.slides/ipresentation)
+* Klasse [`Color`](/slides/python-net/de/aspose.slides/color)
 * Modul [`aspose.slides`](/slides/python-net/de/aspose.slides)
 * Bibliothek [`Aspose.Slides`](/slides/python-net)

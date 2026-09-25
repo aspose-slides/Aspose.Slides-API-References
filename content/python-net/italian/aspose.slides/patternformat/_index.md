@@ -1,15 +1,15 @@
 ---
 title: PatternFormat class
-second_title: Riferimento API Aspose.Slides per Python via .NET
+second_title: Aspose.Slides per Python via .NET Riferimento API
 description: 
 type: docs
 url: /it/aspose.slides/patternformat/
 ---
 ## PatternFormat classe
 
-Rappresenta un modello per riempire una forma.
+Rappresenta un motivo per riempire una forma.
 
-**Eredità:**[`PatternFormat`](/slides/python-net/it/aspose.slides/patternformat) → [`PVIObject`](/slides/python-net/it/aspose.slides/pviobject)
+**Inheritance:**[`PatternFormat`](/slides/python-net/it/aspose.slides/patternformat) → [`PVIObject`](/slides/python-net/it/aspose.slides/pviobject)
 
 Il tipo PatternFormat espone i seguenti membri:
 
@@ -17,9 +17,9 @@ Il tipo PatternFormat espone i seguenti membri:
 
 | Proprietà | Descrizione |
 | :- | :- |
-| [`pattern_style`](/slides/python-net/it/aspose.slides/patternformat/pattern_style/) | Restituisce o imposta lo stile del modello.<br/>            Lettura/scrittura [`PatternStyle`](/slides/python-net/it/aspose.slides/patternstyle). |
-| [`fore_color`](/slides/python-net/it/aspose.slides/patternformat/fore_color/) | Restituisce il colore di primo piano del modello.<br/>            Solo lettura [`IColorFormat`](/slides/python-net/it/aspose.slides/icolorformat). |
-| [`back_color`](/slides/python-net/it/aspose.slides/patternformat/back_color/) | Restituisce il colore di sfondo del modello.<br/>            Solo lettura [`IColorFormat`](/slides/python-net/it/aspose.slides/icolorformat). |
+| [`pattern_style`](/slides/python-net/it/aspose.slides/patternformat/pattern_style/) | Restituisce o imposta lo stile del motivo.<br/>            Lettura/scrittura [`PatternStyle`](/slides/python-net/it/aspose.slides/patternstyle). |
+| [`fore_color`](/slides/python-net/it/aspose.slides/patternformat/fore_color/) | Restituisce il colore del motivo di primo piano.<br/>            Sola lettura [`IColorFormat`](/slides/python-net/it/aspose.slides/icolorformat). |
+| [`back_color`](/slides/python-net/it/aspose.slides/patternformat/back_color/) | Restituisce il colore del motivo di sfondo.<br/>            Sola lettura [`IColorFormat`](/slides/python-net/it/aspose.slides/icolorformat). |
 | [`slide`](/slides/python-net/it/aspose.slides/patternformat/slide/) |  |
 | [`presentation`](/slides/python-net/it/aspose.slides/patternformat/presentation/) |  |
 
@@ -27,8 +27,8 @@ Il tipo PatternFormat espone i seguenti membri:
 
 | Metodo | Descrizione |
 | :- | :- |
-| [`get_tile(self, background, foreground)`](/slides/python-net/it/aspose.slides/patternformat/get_tile/#asposepydrawingcolor-asposepydrawingcolor) | Crea un'immagine a tasselli per il riempimento a motivo con i colori specificati. |
-| [`get_tile(self, style_color)`](/slides/python-net/it/aspose.slides/patternformat/get_tile/#asposepydrawingcolor) | Crea un'immagine a tasselli per il riempimento a motivo. |
+| [`get_tile(self, background, foreground)`](/slides/python-net/it/aspose.slides/patternformat/get_tile/#asposeslidescolor-asposeslidescolor) | Crea un’immagine di tassello per il riempimento a motivo con colori specificati. |
+| [`get_tile(self, style_color)`](/slides/python-net/it/aspose.slides/patternformat/get_tile/#asposeslidescolor) | Crea un’immagine di tassello per il riempimento a motivo. |
 
 
 ### Vedi anche

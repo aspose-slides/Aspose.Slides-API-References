@@ -1,28 +1,28 @@
 ---
 title: PresentationEnumerableFramesGenerator class
-second_title: Tham khảo API .NET của Aspose.Slides cho Python
+second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides.export/presentationenumerableframesgenerator/
 ---
 ## PresentationEnumerableFramesGenerator lớp
 
-Biểu diễn một trình tạo các hoạt hình trong [`Presentation`](/slides/python-net/vi/aspose.slides/presentation).
+Đại diện cho một trình tạo các hoạt ảnh trong [`Presentation`](/slides/python-net/vi/aspose.slides/presentation).
 
-Kiểu PresentationEnumerableFramesGenerator giới thiệu các thành viên sau:
+Kiểu PresentationEnumerableFramesGenerator cung cấp các thành viên sau:
 
-## Phương thức khởi tạo
+## Hàm tạo
 
-| Phương thức khởi tạo | Mô tả |
+| Hàm tạo | Mô tả |
 | :- | :- |
 | [`__init__(self, presentation, fps)`](/slides/python-net/vi/aspose.slides.export/presentationenumerableframesgenerator/__init__/#presentation-float) | Tạo một thể hiện mới của [`PresentationPlayer`](/slides/python-net/vi/aspose.slides.export/presentationplayer). |
-| [`__init__(self, frame_size, fps)`](/slides/python-net/vi/aspose.slides.export/presentationenumerableframesgenerator/__init__/#asposepydrawingsize-float) | Tạo một thể hiện mới của [`PresentationPlayer`](/slides/python-net/vi/aspose.slides.export/presentationplayer). |
+| [`__init__(self, frame_size, fps)`](/slides/python-net/vi/aspose.slides.export/presentationenumerableframesgenerator/__init__/#asposeslidessize-float) | Tạo một thể hiện mới của [`PresentationPlayer`](/slides/python-net/vi/aspose.slides.export/presentationplayer). |
 
 ## Thuộc tính
 
 | Thuộc tính | Mô tả |
 | :- | :- |
-| [`frame_index`](/slides/python-net/vi/aspose.slides.export/presentationenumerableframesgenerator/frame_index/) | Lấy chỉ mục khung. |
+| [`frame_index`](/slides/python-net/vi/aspose.slides.export/presentationenumerableframesgenerator/frame_index/) | Lấy chỉ số khung. |
 | [`default_delay`](/slides/python-net/vi/aspose.slides.export/presentationenumerableframesgenerator/default_delay/) | Lấy hoặc đặt thời gian trễ mặc định [ms]. |
 | [`include_hidden_slides`](/slides/python-net/vi/aspose.slides.export/presentationenumerableframesgenerator/include_hidden_slides/) | Lấy hoặc đặt nếu các slide ẩn nên được bao gồm. |
 | [`exported_slides`](/slides/python-net/vi/aspose.slides.export/presentationenumerableframesgenerator/exported_slides/) | Lấy số lượng slide đã xuất. |
@@ -37,5 +37,5 @@ Kiểu PresentationEnumerableFramesGenerator giới thiệu các thành viên sa
 ### Xem thêm
 * lớp [`Presentation`](/slides/python-net/vi/aspose.slides/presentation)
 * lớp [`PresentationPlayer`](/slides/python-net/vi/aspose.slides.export/presentationplayer)
-* module [`aspose.slides.export`](/slides/python-net/vi/aspose.slides.export)
-* thư viện [`Aspose.Slides`](/slides/python-net)
+* mô-đun [`aspose.slides.export`](/slides/python-net/vi/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

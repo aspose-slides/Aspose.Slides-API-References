@@ -8,7 +8,7 @@ weight: 70
 ---
 ## solid_fill_color 속성
 채우기 색상을 반환합니다.
-            읽기 전용 **aspose.slides.Color**.
+            읽기 전용 [`Color`](/slides/python-net/ko/aspose.slides/color).
 
 ### 정의:
 ```python
@@ -20,5 +20,6 @@ def solid_fill_color(self):
 
 ### 참조
 * 클래스 [`IFillFormatEffectiveData`](/slides/python-net/ko/aspose.slides/ifillformateffectivedata)
+* 클래스 [`Color`](/slides/python-net/ko/aspose.slides/color)
 * 모듈 [`aspose.slides`](/slides/python-net/ko/aspose.slides)
 * 라이브러리 [`Aspose.Slides`](/slides/python-net)

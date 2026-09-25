@@ -1,15 +1,15 @@
 ---
 title: get_tile method
-second_title: Aspose.Slides voor Python via .NET API-referentie
+second_title: Aspose.Slides voor Python via .NET API Referentie
 description: 
 type: docs
 url: /nl/aspose.slides/patternformat/get_tile/
 weight: 10
 ---
-## get_tile(self, style_color) {#asposepydrawingcolor}
+## get_tile(self, style_color) {#asposeslidescolor}
 Maakt een tegelafbeelding voor de patroonvulling.
 
-### Retour
+### Retourneert
 
 Tegel [`IImage`](/slides/python-net/nl/aspose.slides/iimage).
 
@@ -23,13 +23,13 @@ def get_tile(self, style_color):
 
 | Parameter | Type | Beschrijving |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | De standaard **aspose.slides.Color** |
+| style_color | [`Color`](/slides/python-net/nl/aspose.slides/color) | De standaard [`Color`](/slides/python-net/nl/aspose.slides/color) |
 
 
-## get_tile(self, background, foreground) {#asposepydrawingcolor-asposepydrawingcolor}
+## get_tile(self, background, foreground) {#asposeslidescolor-asposeslidescolor}
 Maakt een tegelafbeelding voor de patroonvulling met opgegeven kleuren.
 
-### Retour
+### Retourneert
 
 Tegel [`IImage`](/slides/python-net/nl/aspose.slides/iimage).
 
@@ -43,13 +43,14 @@ def get_tile(self, background, foreground):
 
 | Parameter | Type | Beschrijving |
 | :- | :- | :- |
-| background | **aspose.slides.Color** | De achtergrond **aspose.slides.Color** voor het patroon. |
-| foreground | **aspose.slides.Color** | De voorgrond **aspose.slides.Color** voor het patroon. |
+| background | [`Color`](/slides/python-net/nl/aspose.slides/color) | De achtergrond [`Color`](/slides/python-net/nl/aspose.slides/color) voor het patroon. |
+| foreground | [`Color`](/slides/python-net/nl/aspose.slides/color) | De voorgrond [`Color`](/slides/python-net/nl/aspose.slides/color) voor het patroon. |
 
 
 
 ### Zie ook
-* class [`IImage`](/slides/python-net/nl/aspose.slides/iimage)
-* class [`PatternFormat`](/slides/python-net/nl/aspose.slides/patternformat)
+* klasse [`IImage`](/slides/python-net/nl/aspose.slides/iimage)
+* klasse [`PatternFormat`](/slides/python-net/nl/aspose.slides/patternformat)
+* klasse [`Color`](/slides/python-net/nl/aspose.slides/color)
 * module [`aspose.slides`](/slides/python-net/nl/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* bibliotheek [`Aspose.Slides`](/slides/python-net)

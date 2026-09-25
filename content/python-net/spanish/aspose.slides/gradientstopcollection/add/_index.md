@@ -1,17 +1,17 @@
 ---
 title: add method
-second_title: Referencia de la API Aspose.Slides para Python vía .NET
+second_title: Referencia de la API de Aspose.Slides para Python vía .NET
 description: 
 type: docs
 url: /es/aspose.slides/gradientstopcollection/add/
 weight: 10
 ---
-## add(self, position, color) {#float-asposepydrawingcolor}
-Crea el nuevo punto de gradiente y lo agrega al final de la colección.
+## add(self, position, color) {#float-asposeslidescolor}
+Crea la nueva parada de degradado y la agrega al final de la colección.
 
 ### Devuelve
 
-Índice del nuevo punto de gradiente en la colección.
+Índice de la nueva parada de degradado en la colección.
 
 
 
@@ -23,16 +23,16 @@ def add(self, position, color):
 
 | Parámetro | Tipo | Descripción |
 | :- | :- | :- |
-| position | **float** | Posición del nuevo punto de gradiente. |
-| color | **aspose.slides.Color** | Color del nuevo punto de gradiente. |
+| position | **float** | Posición de la nueva parada de degradado. |
+| color | [`Color`](/slides/python-net/es/aspose.slides/color) | Color de la nueva parada de degradado. |
 
 
 ## add(self, position, preset_color) {#float-presetcolor}
-Crea el nuevo punto de gradiente y lo agrega al final de la colección.
+Crea la nueva parada de degradado y la agrega al final de la colección.
 
 ### Devuelve
 
-Índice del nuevo punto de gradiente en la colección.
+Índice de la nueva parada de degradado en la colección.
 
 
 
@@ -44,16 +44,16 @@ def add(self, position, preset_color):
 
 | Parámetro | Tipo | Descripción |
 | :- | :- | :- |
-| position | **float** | Posición del nuevo punto de gradiente. |
-| preset_color | [`PresetColor`](/slides/python-net/es/aspose.slides/presetcolor) | Color del nuevo punto de gradiente. |
+| position | **float** | Posición de la nueva parada de degradado. |
+| preset_color | [`PresetColor`](/slides/python-net/es/aspose.slides/presetcolor) | Color de la nueva parada de degradado. |
 
 
 ## add(self, position, scheme_color) {#float-schemecolor}
-Crea el nuevo punto de gradiente y lo agrega al final de la colección.
+Crea la nueva parada de degradado y la agrega al final de la colección.
 
 ### Devuelve
 
-Índice del nuevo punto de gradiente en la colección.
+Índice de la nueva parada de degradado en la colección.
 
 
 
@@ -65,8 +65,8 @@ def add(self, position, scheme_color):
 
 | Parámetro | Tipo | Descripción |
 | :- | :- | :- |
-| position | **float** | Posición del nuevo punto de gradiente. |
-| scheme_color | [`SchemeColor`](/slides/python-net/es/aspose.slides/schemecolor) | Color del nuevo punto de gradiente. |
+| position | **float** | Posición de la nueva parada de degradado. |
+| scheme_color | [`SchemeColor`](/slides/python-net/es/aspose.slides/schemecolor) | Color de la nueva parada de degradado. |
 
 
 
@@ -75,5 +75,6 @@ def add(self, position, scheme_color):
 * clase [`IGradientStop`](/slides/python-net/es/aspose.slides/igradientstop)
 * enumeración [`PresetColor`](/slides/python-net/es/aspose.slides/presetcolor)
 * enumeración [`SchemeColor`](/slides/python-net/es/aspose.slides/schemecolor)
+* clase [`Color`](/slides/python-net/es/aspose.slides/color)
 * módulo [`aspose.slides`](/slides/python-net/es/aspose.slides)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

@@ -1,22 +1,22 @@
 ---
 title: PresentationEnumerableFramesGenerator class
-second_title: مرجع API ل Aspose.Slides للبايثون عبر .NET
+second_title: Aspose.Slides لبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.export/presentationenumerableframesgenerator/
 ---
-## PresentationEnumerableFramesGenerator الفئة
+## الفئة PresentationEnumerableFramesGenerator
 
-يمثل مولِّد الرسوم المتحركة في [`Presentation`](/slides/python-net/ar/aspose.slides/presentation).
+يمثل مولدًا للرسوم المتحركة في [`Presentation`](/slides/python-net/ar/aspose.slides/presentation).
 
-نوع PresentationEnumerableFramesGenerator يعرِّف الأعضاء التالية:
+يوفر نوع PresentationEnumerableFramesGenerator الأعضاء التالية:
 
-## المُنشئات
+## المنشئات
 
-| المُنشئ | الوصف |
+| المنشئ | الوصف |
 | :- | :- |
-| [`__init__(self, presentation, fps)`](/slides/python-net/ar/aspose.slides.export/presentationenumerableframesgenerator/__init__/#presentation-float) | إنشاء نسخة جديدة من [`PresentationPlayer`](/slides/python-net/ar/aspose.slides.export/presentationplayer). |
-| [`__init__(self, frame_size, fps)`](/slides/python-net/ar/aspose.slides.export/presentationenumerableframesgenerator/__init__/#asposepydrawingsize-float) | إنشاء نسخة جديدة من [`PresentationPlayer`](/slides/python-net/ar/aspose.slides.export/presentationplayer). |
+| [`__init__(self, presentation, fps)`](/slides/python-net/ar/aspose.slides.export/presentationenumerableframesgenerator/__init__/#presentation-float) | ينشئ مثيلاً جديدًا من [`PresentationPlayer`](/slides/python-net/ar/aspose.slides.export/presentationplayer). |
+| [`__init__(self, frame_size, fps)`](/slides/python-net/ar/aspose.slides.export/presentationenumerableframesgenerator/__init__/#asposeslidessize-float) | ينشئ مثيلاً جديدًا من [`PresentationPlayer`](/slides/python-net/ar/aspose.slides.export/presentationplayer). |
 
 ## الخصائص
 
@@ -33,8 +33,7 @@ url: /ar/aspose.slides.export/presentationenumerableframesgenerator/
 | :- | :- |
 | [`enumerate_frames(self, slides)`](/slides/python-net/ar/aspose.slides.export/presentationenumerableframesgenerator/enumerate_frames/#iterableislide) |  |
 
-
-### انظر أيضًا
+### أنظر أيضًا
 * الفئة [`Presentation`](/slides/python-net/ar/aspose.slides/presentation)
 * الفئة [`PresentationPlayer`](/slides/python-net/ar/aspose.slides.export/presentationplayer)
 * الوحدة [`aspose.slides.export`](/slides/python-net/ar/aspose.slides.export)

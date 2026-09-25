@@ -1,24 +1,23 @@
 ---
 title: GradientStopEffectiveData class
-second_title: Aspose.Slides dla Pythona via .NET Referencja API
+second_title: Aspose.Slides dla Pythona – Odniesienie API .NET
 description: 
 type: docs
 url: /pl/aspose.slides/gradientstopeffectivedata/
 ---
-## GradientStopEffectiveData klasa
+## GradientStopEffectiveData class
 
-Niezmienny obiekt, który reprezentuje punkt gradientu.
+Niezmienny obiekt reprezentujący stopień gradientu.
 
 Typ GradientStopEffectiveData udostępnia następujące elementy:
 
-## Właściwości
+## Properties
 
-| Właściwość | Opis |
+| Property | Description |
 | :- | :- |
-| [`position`](/slides/python-net/pl/aspose.slides/gradientstopeffectivedata/position/) | Zwraca pozycję (0..1) punktu gradientu.<br/>            Tylko do odczytu **float**. |
-| [`color`](/slides/python-net/pl/aspose.slides/gradientstopeffectivedata/color/) | Zwraca kolor punktu gradientu.<br/>            Tylko do odczytu **aspose.slides.Color**. |
+| [`position`](/slides/python-net/pl/aspose.slides/gradientstopeffectivedata/position/) | Zwraca pozycję (0..1) stopnia gradientu.<br/>            Read-only **float**. |
+| [`color`](/slides/python-net/pl/aspose.slides/gradientstopeffectivedata/color/) | Zwraca kolor stopnia gradientu.<br/>            Read-only [`Color`](/slides/python-net/pl/aspose.slides/color). |
 
-
-### Zobacz także
+### See Also
 * moduł [`aspose.slides`](/slides/python-net/pl/aspose.slides)
 * biblioteka [`Aspose.Slides`](/slides/python-net)

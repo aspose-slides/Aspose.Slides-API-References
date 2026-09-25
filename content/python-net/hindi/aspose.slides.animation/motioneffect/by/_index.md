@@ -1,14 +1,14 @@
 ---
 title: by property
-second_title: Aspose.Slides Python के लिए .NET API Reference के माध्यम से
+second_title: Aspose.Slides for Python via .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides.animation/motioneffect/by/
 weight: 60
 ---
-## प्रॉपर्टी द्वारा
-एनिमेशन के लिए सापेक्ष ऑफ़सेट मान का वर्णन करता है (प्रतिशत में)।
-            पढ़ें/लिखें **aspose.slides.PointF**.
+## संपत्ति द्वारा
+एनिमेशन के लिए सापेक्ष ऑफसेट मान का वर्णन करता है (प्रतिशत में).
+            पढ़ें/लिखें [`PointF`](/slides/python-net/hi/aspose.slides/pointf).
 
 ### परिभाषा:
 ```python
@@ -21,7 +21,9 @@ def by(self, value):
     ...
 ```
 
-### संबंधित देखें
+
+### देखें भी
 * क्लास [`MotionEffect`](/slides/python-net/hi/aspose.slides.animation/motioneffect)
+* क्लास [`PointF`](/slides/python-net/hi/aspose.slides/pointf)
 * मॉड्यूल [`aspose.slides.animation`](/slides/python-net/hi/aspose.slides.animation)
 * लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

@@ -9,11 +9,11 @@ url: /nl/aspose.slides.animation/imotionpath/
 
 Stelt een bewegingspad voor.
 
-Het type IMotionPath geeft de volgende leden weer:
+Het IMotionPath-type geeft de volgende leden weer:
 
 ## Eigenschappen
 
-| Eigenschap | Beschrijving |
+| Property | Description |
 | :- | :- |
 | [`count`](/slides/python-net/nl/aspose.slides.animation/imotionpath/count/) | Retourneert het aantal paden in de collectie.<br/>            Alleen-lezen **int**. |
 
@@ -21,18 +21,18 @@ Retourneert een opdracht op de opgegeven index.
 
 ## Indexer
 
-| Naam | Beschrijving |
+| Name | Description |
 | :- | :- |
 | [`[index]`](/slides/python-net/nl/aspose.slides.animation/imotionpath/__getitem__/) |  |
 
-## Methodes
+## Methoden
 
-| Methode | Beschrijving |
+| Method | Description |
 | :- | :- |
-| [`add(self, type, pts, pts_type, b_relative_coord)`](/slides/python-net/nl/aspose.slides.animation/imotionpath/add/#motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool) | Voegt een nieuwe opdracht toe aan het pad |
-| [`insert(self, index, type, pts, pts_type, b_relative_coord)`](/slides/python-net/nl/aspose.slides.animation/imotionpath/insert/#int-motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool) | Voegt een nieuwe opdracht in het pad in |
+| [`add(self, type, pts, pts_type, b_relative_coord)`](/slides/python-net/nl/aspose.slides.animation/imotionpath/add/#motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool) | Voeg een nieuwe opdracht toe aan het pad |
+| [`insert(self, index, type, pts, pts_type, b_relative_coord)`](/slides/python-net/nl/aspose.slides.animation/imotionpath/insert/#int-motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool) | Voeg een nieuwe opdracht in het pad in |
 | [`clear(self)`](/slides/python-net/nl/aspose.slides.animation/imotionpath/clear/#) | Verwijdert alle opdrachten uit de collectie. |
-| [`remove(self, item)`](/slides/python-net/nl/aspose.slides.animation/imotionpath/remove/#imotioncmdpath) | Verwijdert opgegeven commando's uit de collectie. |
+| [`remove(self, item)`](/slides/python-net/nl/aspose.slides.animation/imotionpath/remove/#imotioncmdpath) | Verwijdert opgegeven opdrachten uit de collectie. |
 | [`remove_at(self, index)`](/slides/python-net/nl/aspose.slides.animation/imotionpath/remove_at/#int) | Verwijdert een opdracht op de opgegeven index. |
 
 

@@ -7,7 +7,7 @@ url: /id/aspose.slides/ipresentation/get_images/
 weight: 10
 ---
 ## get_images(self, options) {#asposeslidesexportirenderingoptions}
-Mengembalikan objek Gambar Miniatur untuk semua slide presentasi.
+Mengembalikan objek Thumbnail Image untuk semua slide dalam presentasi.
 
 ### Mengembalikan
 
@@ -27,7 +27,7 @@ def get_images(self, options):
 
 
 ## get_images(self, options, slides) {#asposeslidesexportirenderingoptions-listint}
-Mengembalikan objek Bitmap Miniatur untuk slide tertentu dalam presentasi.
+Mengembalikan objek Thumbnail Bitmap untuk slide tertentu dalam presentasi.
 
 ### Mengembalikan
 
@@ -47,8 +47,8 @@ def get_images(self, options, slides):
 | slides | **List[int]** | Array dengan posisi slide, dimulai dari 1. |
 
 
-## get_images(self, options, image_size) {#asposeslidesexportirenderingoptions-asposepydrawingsize}
-Mengembalikan objek Gambar Miniatur untuk semua slide presentasi dengan ukuran tertentu.
+## get_images(self, options, image_size) {#asposeslidesexportirenderingoptions-asposeslidessize}
+Mengembalikan objek Thumbnail Image untuk semua slide dalam presentasi dengan ukuran tertentu.
 
 ### Mengembalikan
 
@@ -65,11 +65,11 @@ def get_images(self, options, image_size):
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/id/aspose.slides.export/irenderingoptions) | Opsi rendering. |
-| image_size | **aspose.slides.Size** | Ukuran gambar yang akan dibuat. |
+| image_size | [`Size`](/slides/python-net/id/aspose.slides/size) | Ukuran gambar yang akan dibuat. |
 
 
 ## get_images(self, options, scale_x, scale_y) {#asposeslidesexportirenderingoptions-float-float}
-Mengembalikan objek Gambar Miniatur untuk semua slide presentasi dengan skala khusus.
+Mengembalikan objek Thumbnail Image untuk semua slide dalam presentasi dengan skala khusus.
 
 ### Mengembalikan
 
@@ -86,12 +86,12 @@ def get_images(self, options, scale_x, scale_y):
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/id/aspose.slides.export/irenderingoptions) | Opsi rendering. |
-| scale_x | **float** | Nilai untuk menskalakan Miniatur ini pada arah sumbu x. |
-| scale_y | **float** | Nilai untuk menskalakan Miniatur ini pada arah sumbu y. |
+| scale_x | **float** | Nilai untuk menskalakan Thumbnail ini pada arah sumbu x. |
+| scale_y | **float** | Nilai untuk menskalakan Thumbnail ini pada arah sumbu y. |
 
 
-## get_images(self, options, slides, image_size) {#asposeslidesexportirenderingoptions-listint-asposepydrawingsize}
-Mengembalikan objek Gambar Miniatur untuk slide tertentu dalam presentasi dengan ukuran tertentu.
+## get_images(self, options, slides, image_size) {#asposeslidesexportirenderingoptions-listint-asposeslidessize}
+Mengembalikan objek Thumbnail Image untuk slide tertentu dalam presentasi dengan ukuran tertentu.
 
 ### Mengembalikan
 
@@ -109,11 +109,11 @@ def get_images(self, options, slides, image_size):
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/id/aspose.slides.export/irenderingoptions) | Opsi rendering. |
 | slides | **List[int]** | Array dengan posisi slide, dimulai dari 1. |
-| image_size | **aspose.slides.Size** | Ukuran gambar yang akan dibuat. |
+| image_size | [`Size`](/slides/python-net/id/aspose.slides/size) | Ukuran gambar yang akan dibuat. |
 
 
 ## get_images(self, options, slides, scale_x, scale_y) {#asposeslidesexportirenderingoptions-listint-float-float}
-Mengembalikan objek Gambar Miniatur untuk slide tertentu dalam presentasi dengan skala khusus.
+Mengembalikan objek Thumbnail Image untuk slide tertentu dalam presentasi dengan skala khusus.
 
 ### Mengembalikan
 
@@ -131,13 +131,14 @@ def get_images(self, options, slides, scale_x, scale_y):
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/id/aspose.slides.export/irenderingoptions) | Opsi rendering. |
 | slides | **List[int]** | Array dengan posisi slide, dimulai dari 1. |
-| scale_x | **float** | Nilai untuk menskalakan Miniatur ini pada arah sumbu x. |
-| scale_y | **float** | Nilai untuk menskalakan Miniatur ini pada arah sumbu y. |
+| scale_x | **float** | Nilai untuk menskalakan Thumbnail ini pada arah sumbu x. |
+| scale_y | **float** | Nilai untuk menskalakan Thumbnail ini pada arah sumbu y. |
 
 
 
 ### Lihat Juga
 * kelas [`IPresentation`](/slides/python-net/id/aspose.slides/ipresentation)
 * kelas [`IRenderingOptions`](/slides/python-net/id/aspose.slides.export/irenderingoptions)
+* kelas [`Size`](/slides/python-net/id/aspose.slides/size)
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
-* perpustakaan [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

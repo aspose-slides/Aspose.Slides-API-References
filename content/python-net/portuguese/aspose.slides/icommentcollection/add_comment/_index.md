@@ -6,10 +6,10 @@ type: docs
 url: /pt/aspose.slides/icommentcollection/add_comment/
 weight: 10
 ---
-## add_comment(self, text, slide, position, creation_time) {#str-islide-asposepydrawingpointf-datetime}
+## add_comment(self, text, slide, position, creation_time) {#str-islide-asposeslidespointf-datetime}
 Adiciona um novo comentário ao final de uma coleção.
 
-### Retorno
+### Retorna
 
 Comentário adicionado.
 
@@ -25,14 +25,15 @@ def add_comment(self, text, slide, position, creation_time):
 | :- | :- | :- |
 | text | **str** | Texto simples de um novo comentário. |
 | slide | [`ISlide`](/slides/python-net/pt/aspose.slides/islide) | Slide em uma apresentação onde adicionar um novo comentário. |
-| position | **aspose.slides.PointF** | Posição em um slide onde adicionar um novo comentário. |
-| creation_time | **DateTime** | Hora da criação de um comentário. |
+| position | [`PointF`](/slides/python-net/pt/aspose.slides/pointf) | Posição em um slide onde adicionar um novo comentário. |
+| creation_time | **DateTime** | Horário de criação do comentário. |
 
 
 
-### Veja também
+### Ver também
 * classe [`IComment`](/slides/python-net/pt/aspose.slides/icomment)
 * classe [`ICommentCollection`](/slides/python-net/pt/aspose.slides/icommentcollection)
 * classe [`ISlide`](/slides/python-net/pt/aspose.slides/islide)
+* classe [`PointF`](/slides/python-net/pt/aspose.slides/pointf)
 * módulo [`aspose.slides`](/slides/python-net/pt/aspose.slides)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

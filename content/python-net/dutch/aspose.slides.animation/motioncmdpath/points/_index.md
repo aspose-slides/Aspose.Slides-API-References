@@ -7,8 +7,8 @@ url: /nl/aspose.slides.animation/motioncmdpath/points/
 weight: 30
 ---
 ## points eigenschap
-Specificeert punten van opdracht.
-            Lezen/schrijven **aspose.slides.PointF**[].
+Specificeert points van opdracht.
+            Lezen/schrijven [`PointF`](/slides/python-net/nl/aspose.slides/pointf)[].
 
 ### Definitie:
 ```python
@@ -21,7 +21,9 @@ def points(self, value):
     ...
 ```
 
+
 ### Zie ook
 * klasse [`MotionCmdPath`](/slides/python-net/nl/aspose.slides.animation/motioncmdpath)
+* klasse [`PointF`](/slides/python-net/nl/aspose.slides/pointf)
 * module [`aspose.slides.animation`](/slides/python-net/nl/aspose.slides.animation)
 * bibliotheek [`Aspose.Slides`](/slides/python-net)

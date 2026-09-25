@@ -7,8 +7,8 @@ url: /el/aspose.slides.animation/imotioneffect/rotation_center/
 weight: 110
 ---
 ## rotation_center ιδιότητα
-Περιγράφει το κέντρο της περιστροφής που χρησιμοποιείται για την περιστροφή μιας διαδρομής κίνησης κατά γωνία X.
-            Ανάγνωση/Εγγραφή **aspose.slides.PointF**.
+Περιγράφει το κέντρο της περιστροφής που χρησιμοποιείται για να περιστρέψει μια διαδρομή κίνησης κατά γωνία X.
+            Ανάγνωση/εγγραφή [`PointF`](/slides/python-net/el/aspose.slides/pointf).
 
 ### Ορισμός:
 ```python
@@ -24,5 +24,6 @@ def rotation_center(self, value):
 
 ### Δείτε επίσης
 * κλάση [`IMotionEffect`](/slides/python-net/el/aspose.slides.animation/imotioneffect)
+* κλάση [`PointF`](/slides/python-net/el/aspose.slides/pointf)
 * μονάδα [`aspose.slides.animation`](/slides/python-net/el/aspose.slides.animation)
 * βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

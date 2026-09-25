@@ -7,25 +7,20 @@ url: /fa/aspose.slides/iportion/get_coordinates/
 weight: 20
 ---
 ## get_coordinates(self) {#}
-مختصات ابتدای بخش را دریافت کنید. مختصات X نقطه نشان‌دهنده 
-            بخشی که از اولین کاراکتر به همراه bearing سمت چپ آغاز می‌شود. مختصات Y 
-            شامل bearing بالای طرف است.
+مختصات شروع بخش را دریافت کنید. 
+            مختصات X نقطه نشان‌دهنده شروع بخش از اولین کاراکتر شامل سمت چپ است. 
+            مختصات Y شامل سمت بالای بخش است.
 
-### بازگشت
-
-مختصات ابتدای بخش **aspose.slides.PointF**
-
-
+### مقدار بازگشتی
+مختصات شروع بخش [`PointF`](/slides/python-net/fa/aspose.slides/pointf)
 
 ```python
 def get_coordinates(self):
     ...
 ```
 
-
-
-
 ### موارد مرتبط
 * کلاس [`IPortion`](/slides/python-net/fa/aspose.slides/iportion)
+* کلاس [`PointF`](/slides/python-net/fa/aspose.slides/pointf)
 * ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

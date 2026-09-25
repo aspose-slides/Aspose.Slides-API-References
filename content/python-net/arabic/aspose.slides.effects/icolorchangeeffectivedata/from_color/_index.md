@@ -1,14 +1,14 @@
 ---
 title: from_color property
-second_title: Aspose.Slides لPython عبر .NET مرجع API
+second_title: Aspose.Slides للبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.effects/icolorchangeeffectivedata/from_color/
 weight: 20
 ---
-## from_color الخاصية
+## خاصية from_color
 اللون الذي سيتم استبداله.
-            قراءة فقط **aspose.slides.Color**.
+قراءة فقط [`Color`](/slides/python-net/ar/aspose.slides/color).
 
 ### التعريف:
 ```python
@@ -17,8 +17,8 @@ def from_color(self):
     ...
 ```
 
-
 ### انظر أيضًا
 * فئة [`IColorChangeEffectiveData`](/slides/python-net/ar/aspose.slides.effects/icolorchangeeffectivedata)
+* فئة [`Color`](/slides/python-net/ar/aspose.slides/color)
 * وحدة [`aspose.slides.effects`](/slides/python-net/ar/aspose.slides.effects)
 * مكتبة [`Aspose.Slides`](/slides/python-net)

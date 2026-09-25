@@ -1,41 +1,41 @@
 ---
 title: IMotionPath class
-second_title: مرجع API لـ Aspose.Slides للبايثون عبر .NET
+second_title: Aspose.Slides لبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.animation/imotionpath/
 ---
-## IMotionPath فئة
+## فئة IMotionPath
 
 يمثل مسار الحركة.
 
-يعرض نوع IMotionPath الأعضاء التالية:
+The IMotionPath type exposes the following members:
 
 ## الخصائص
 
 | الخاصية | الوصف |
 | :- | :- |
-| [`count`](/slides/python-net/ar/aspose.slides.animation/imotionpath/count/) | يعيد عدد المسارات في المجموعة.<br/>            للقراءة فقط **int**. |
+| [`count`](/slides/python-net/ar/aspose.slides.animation/imotionpath/count/) | يعيد عدد المسارات في المجموعة.<br/>            قراءة فقط **int**. |
 
-يعيد أمرًا في الفهرس المحدد.
+يعيد أمرًا عند الفهرس المحدد.
 
-## الفهرس
+## المُؤشر
 
 | الاسم | الوصف |
 | :- | :- |
 | [`[index]`](/slides/python-net/ar/aspose.slides.animation/imotionpath/__getitem__/) |  |
 
-## الأساليب
+## الطرق
 
 | الطريقة | الوصف |
 | :- | :- |
-| [`add(self, type, pts, pts_type, b_relative_coord)`](/slides/python-net/ar/aspose.slides.animation/imotionpath/add/#motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool) | إضافة أمر جديد إلى المسار |
-| [`insert(self, index, type, pts, pts_type, b_relative_coord)`](/slides/python-net/ar/aspose.slides.animation/imotionpath/insert/#int-motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool) | إدراج أمر جديد إلى المسار |
-| [`clear(self)`](/slides/python-net/ar/aspose.slides.animation/imotionpath/clear/#) | يزيل جميع الأوامر من المجموعة. |
-| [`remove(self, item)`](/slides/python-net/ar/aspose.slides.animation/imotionpath/remove/#imotioncmdpath) | يزيل الأوامر المحددة من المجموعة. |
-| [`remove_at(self, index)`](/slides/python-net/ar/aspose.slides.animation/imotionpath/remove_at/#int) | يزيل أمرًا في الفهرس المحدد. |
+| [`add(self, type, pts, pts_type, b_relative_coord)`](/slides/python-net/ar/aspose.slides.animation/imotionpath/add/#motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool) | إضافة أمر جديد إلى المسار |
+| [`insert(self, index, type, pts, pts_type, b_relative_coord)`](/slides/python-net/ar/aspose.slides.animation/imotionpath/insert/#int-motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool) | إدراج أمر جديد إلى المسار |
+| [`clear(self)`](/slides/python-net/ar/aspose.slides.animation/imotionpath/clear/#) | إزالة جميع الأوامر من المجموعة. |
+| [`remove(self, item)`](/slides/python-net/ar/aspose.slides.animation/imotionpath/remove/#imotioncmdpath) | إزالة الأوامر المحددة من المجموعة. |
+| [`remove_at(self, index)`](/slides/python-net/ar/aspose.slides.animation/imotionpath/remove_at/#int) | إزالة أمر عند الفهرس المحدد. |
 
 
 ### انظر أيضًا
-* وحدة [`aspose.slides.animation`](/slides/python-net/ar/aspose.slides.animation)
-* مكتبة [`Aspose.Slides`](/slides/python-net)
+* الوحدة [`aspose.slides.animation`](/slides/python-net/ar/aspose.slides.animation)
+* المكتبة [`Aspose.Slides`](/slides/python-net)

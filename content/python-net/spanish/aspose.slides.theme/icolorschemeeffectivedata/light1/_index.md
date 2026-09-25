@@ -8,7 +8,7 @@ weight: 110
 ---
 ## light1 propiedad
 Primer color de luz en el esquema.
-            Solo lectura **aspose.slides.Color**.
+            Solo lectura [`Color`](/slides/python-net/es/aspose.slides/color).
 
 ### Definición:
 ```python
@@ -20,5 +20,6 @@ def light1(self):
 
 ### Ver también
 * clase [`IColorSchemeEffectiveData`](/slides/python-net/es/aspose.slides.theme/icolorschemeeffectivedata)
+* clase [`Color`](/slides/python-net/es/aspose.slides/color)
 * módulo [`aspose.slides.theme`](/slides/python-net/es/aspose.slides.theme)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

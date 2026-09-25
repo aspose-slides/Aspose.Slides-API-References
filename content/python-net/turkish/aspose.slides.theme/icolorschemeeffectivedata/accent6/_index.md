@@ -8,7 +8,7 @@ weight: 60
 ---
 ## accent6 özelliği
 Şemadaki altıncı vurgu rengi.
-            Salt okunur **aspose.slides.Color**.
+            Yalnızca okunur [`Color`](/slides/python-net/tr/aspose.slides/color).
 
 ### Tanım:
 ```python
@@ -20,5 +20,6 @@ def accent6(self):
 
 ### Ayrıca Bakınız
 * sınıf [`IColorSchemeEffectiveData`](/slides/python-net/tr/aspose.slides.theme/icolorschemeeffectivedata)
+* sınıf [`Color`](/slides/python-net/tr/aspose.slides/color)
 * modül [`aspose.slides.theme`](/slides/python-net/tr/aspose.slides.theme)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

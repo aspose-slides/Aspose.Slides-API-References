@@ -1,22 +1,21 @@
 ---
 title: INotesSize class
-second_title: Aspose.Slides voor Python via .NET API-referentie
+second_title: Aspose.Slides voor Python via .NET API Referentie
 description: 
 type: docs
 url: /nl/aspose.slides/inotessize/
 ---
 ## INotesSize klasse
 
-Representeert een grootte van notitieslide.
+Stelt een grootte van een notitie-dias voor.
 
-Het INotesSize-type bevat de volgende leden:
+Het INotesSize type geeft de volgende leden weer:
 
 ## Eigenschappen
 
 | Eigenschap | Beschrijving |
 | :- | :- |
-| [`size`](/slides/python-net/nl/aspose.slides/inotessize/size/) | Retourneert of stelt de grootte in punten in.<br/>Lezen/schrijven **aspose.slides.SizeF**. |
-
+| [`size`](/slides/python-net/nl/aspose.slides/inotessize/size/) | Geeft de grootte in punten terug of stelt deze in.<br/>            Lezen/schrijven [`SizeF`](/slides/python-net/nl/aspose.slides/sizef). |
 
 ### Zie ook
 * module [`aspose.slides`](/slides/python-net/nl/aspose.slides)

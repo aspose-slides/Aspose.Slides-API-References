@@ -6,9 +6,9 @@ type: docs
 url: /fa/aspose.slides.theme/icolorschemeeffectivedata/light1/
 weight: 110
 ---
-## light1 خصوصیت
+## light1 ویژگی
 اولین رنگ نور در طرح.
-            فقط خواندنی **aspose.slides.Color**.
+            فقط خواندنی [`Color`](/slides/python-net/fa/aspose.slides/color).
 
 ### تعریف:
 ```python
@@ -18,7 +18,8 @@ def light1(self):
 ```
 
 
-### موارد مرتبط
+### همچنین ببینید
 * کلاس [`IColorSchemeEffectiveData`](/slides/python-net/fa/aspose.slides.theme/icolorschemeeffectivedata)
+* کلاس [`Color`](/slides/python-net/fa/aspose.slides/color)
 * ماژول [`aspose.slides.theme`](/slides/python-net/fa/aspose.slides.theme)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

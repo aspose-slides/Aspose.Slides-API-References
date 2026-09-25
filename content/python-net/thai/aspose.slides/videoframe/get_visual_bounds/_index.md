@@ -7,12 +7,11 @@ url: /th/aspose.slides/videoframe/get_visual_bounds/
 weight: 60
 ---
 ## get_visual_bounds(self) {#}
-รับขอบเขตการแสดงผลของรูปร่างซึ่งคำนวณจากเนื้อหาที่เรนเดอร์แล้ว
+รับขอบเขตเชิงภาพของรูปร่างที่คำนวณจากเนื้อหาที่เรนเดอร์
 
-### ค่าที่ส่งคืน
+### คืนค่า
 
-อ็อบเจ็กต์ **aspose.slides.RectangleF** ที่แสดงขอบเขตการแสดงผลของรูปร่าง
-             ในพิกัดสไลด์
+อ็อบเจ็กต์ [`RectangleF`](/slides/python-net/th/aspose.slides/rectanglef) ที่เป็นตัวแทนของขอบเขตเชิงภาพของรูปร่างในพิกัดของสไลด์
 
 
 
@@ -24,20 +23,26 @@ def get_visual_bounds(self):
 
 ### หมายเหตุ
 
-สี่เหลี่ยมที่ส่งคืนแสดงถึงขอบเขตที่จัดแนวแกนของเนื้อหาทั้งหมดที่สร้างโดยรูปร่างระหว่างการเรนเดอร์ในพื้นที่พิกัดสไลด์
-             
-             ขอบเขตเหล่านี้อาจแตกต่างจากขอบเขตของโมเดลรูปร่าง ([`Shape.x`](/slides/python-net/th/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/th/aspose.slides/shape/y),
+The returned rectangle represents the axis-aligned bounds of all content
+             produced by the shape during rendering in slide coordinate space.
+            
+These bounds may differ from the shape's model bounds
+             ([`Shape.x`](/slides/python-net/th/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/th/aspose.slides/shape/y),
              [`Shape.width`](/slides/python-net/th/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/th/aspose.slides/shape/height))
-             และอาจมีโค้อร์ดิเนตเชิงลบหากเนื้อหาที่เรนเดอร์ขยายเกินต้นจุดของสไลด์
-             
-             ขอบเขตการแสดงผลคำนึงถึงด้านที่เกี่ยวข้องกับการเรนเดอร์ เช่น การแปลง (เช่น การหมุน), ความกว้างเส้นและการเชื่อมต่อ,
-             การจัดวางข้อความและการล้น, รูปร่าง SmartArt, และผลกระทบจากการจัดวางอื่น ๆ ที่มีผลต่อการแสดงผลสุดท้ายของรูปร่าง
-             
-             ขอบเขตที่ส่งคืนจะไม่ถูกคลิปให้เข้ากับสี่เหลี่ยมสไลด์
+             and may contain negative coordinates if the rendered content extends
+             beyond the slide origin.
+            
+The visual bounds take into account rendering-related aspects such as
+             transformations (for example, rotation), stroke width and joins,
+             text layout and overflow, SmartArt geometry, and other layout effects
+             that influence the final rendered appearance of the shape.
+            
+The returned bounds are not clipped to the slide rectangle.
 
 
 
 ### ดูเพิ่มเติม
 * คลาส [`VideoFrame`](/slides/python-net/th/aspose.slides/videoframe)
+* คลาส [`RectangleF`](/slides/python-net/th/aspose.slides/rectanglef)
 * โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
-* ไลบรารี [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

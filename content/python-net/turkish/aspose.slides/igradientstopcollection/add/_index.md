@@ -6,12 +6,12 @@ type: docs
 url: /tr/aspose.slides/igradientstopcollection/add/
 weight: 10
 ---
-## add(self, position, color) {#float-asposepydrawingcolor}
-Yeni gradyan durak noktasını oluşturur ve koleksiyonun sonuna ekler.
+## add(self, position, color) {#float-asposeslidescolor}
+Yeni degrade durağını oluşturur ve koleksiyonun sonuna ekler.
 
 ### Döndürür
 
-Koleksiyondaki yeni gradyan durak noktasının dizini.
+Koleksiyondaki yeni degrade durağının indeksi.
 
 
 
@@ -23,16 +23,16 @@ def add(self, position, color):
 
 | Parametre | Tür | Açıklama |
 | :- | :- | :- |
-| position | **float** | Yeni gradyan durak noktasının konumu. |
-| color | **aspose.slides.Color** | Yeni radient durak noktasının rengi. |
+| position | **float** | Yeni degrade durağının konumu. |
+| color | [`Color`](/slides/python-net/tr/aspose.slides/color) | Yeni degrade durağının rengi. |
 
 
 ## add(self, position, preset_color) {#float-presetcolor}
-Yeni gradyan durak noktasını oluşturur ve koleksiyonun sonuna ekler.
+Yeni degrade durağını oluşturur ve koleksiyonun sonuna ekler.
 
 ### Döndürür
 
-Koleksiyondaki yeni gradyan durak noktasının dizini.
+Koleksiyondaki yeni degrade durağının indeksi.
 
 
 
@@ -44,16 +44,16 @@ def add(self, position, preset_color):
 
 | Parametre | Tür | Açıklama |
 | :- | :- | :- |
-| position | **float** | Yeni gradyan durak noktasının konumu. |
-| preset_color | [`PresetColor`](/slides/python-net/tr/aspose.slides/presetcolor) | Yeni radient durak noktasının rengi. |
+| position | **float** | Yeni degrade durağının konumu. |
+| preset_color | [`PresetColor`](/slides/python-net/tr/aspose.slides/presetcolor) | Yeni degrade durağının rengi. |
 
 
 ## add(self, position, scheme_color) {#float-schemecolor}
-Yeni gradyan durak noktasını oluşturur ve koleksiyonun sonuna ekler.
+Yeni degrade durağını oluşturur ve koleksiyonun sonuna ekler.
 
 ### Döndürür
 
-Koleksiyondaki yeni gradyan durak noktasının dizini.
+Koleksiyondaki yeni degrade durağının indeksi.
 
 
 
@@ -65,15 +65,16 @@ def add(self, position, scheme_color):
 
 | Parametre | Tür | Açıklama |
 | :- | :- | :- |
-| position | **float** | Yeni gradyan durak noktasının konumu. |
-| scheme_color | [`SchemeColor`](/slides/python-net/tr/aspose.slides/schemecolor) | Yeni radient durak noktasının rengi. |
+| position | **float** | Yeni degrade durağının konumu. |
+| scheme_color | [`SchemeColor`](/slides/python-net/tr/aspose.slides/schemecolor) | Yeni degrade durağının rengi. |
 
 
 
-### Ayrıca Bakınız
+### İlgili
 * sınıf [`IGradientStop`](/slides/python-net/tr/aspose.slides/igradientstop)
 * sınıf [`IGradientStopCollection`](/slides/python-net/tr/aspose.slides/igradientstopcollection)
 * enum [`PresetColor`](/slides/python-net/tr/aspose.slides/presetcolor)
 * enum [`SchemeColor`](/slides/python-net/tr/aspose.slides/schemecolor)
+* sınıf [`Color`](/slides/python-net/tr/aspose.slides/color)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

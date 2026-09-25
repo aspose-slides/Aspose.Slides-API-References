@@ -1,41 +1,45 @@
 ---
 title: get_visual_bounds method
-second_title: Aspose.Slides Python-hoz .NET API Referencia
+second_title: Aspose.Slides a Pythonhoz .NET API referenciája
 description: 
 type: docs
 url: /hu/aspose.slides.ink/ink/get_visual_bounds/
 weight: 40
 ---
 ## get_visual_bounds(self) {#}
-A megjelenített tartalom alapján kiszámított alakzat vizuális korlátait adja vissza.
+A renderelt tartalom alapján számított alakzat vizuális határait adja vissza.
 
-### Visszatérési érték
+### Returns
 
-A **aspose.slides.RectangleF** amely a dia koordinátáiban az alakzat vizuális korlátait ábrázolja.
+A [`RectangleF`](/slides/python-net/hu/aspose.slides/rectanglef) amely az alakzat vizuális határait jelzi
+             dia koordinátákban.
 
 ```python
 def get_visual_bounds(self):
     ...
 ```
 
-### Megjegyzések
-A visszaadott téglalap reprezentálja az összes tartalom tengelyigazított korlátait
-             amelyet az alakzat generál a renderelés során a dia koordináta-térben.
+### Remarks
 
-             Ezek a korlátok eltérhetnek az alakzat modellkorlátjától
+A visszaadott téglalap az összes tartalom tengelyigazított határait jelöli
+             amelyet az alakzat a renderelés során a dia koordináta térben hoz létre.
+
+Ezek a határok eltérhetnek az alakzat modellhatáraitól
              ([`Shape.x`](/slides/python-net/hu/aspose.slides/shape/x), [`Shape.y`](/slides/python-net/hu/aspose.slides/shape/y),
              [`Shape.width`](/slides/python-net/hu/aspose.slides/shape/width), [`Shape.height`](/slides/python-net/hu/aspose.slides/shape/height))
-             és negatív koordinátákat is tartalmazhatnak, ha a renderelt tartalom kiterjed
-             a dia eredete utánra.
+             és negatív koordinátákat tartalmazhatnak, ha a renderelt tartalom kiterjed
+             a dia origója túlra.
 
-             A vizuális korlátok figyelembe veszik a rendereléshez kapcsolódó szempontokat, például
-             transzformációkat (például forgás), vonalszélességet és illesztéseket,
-             szövegelrendezést és túlcsordulást, SmartArt geometriát, és egyéb elrendezési hatásokat,
-             amelyek befolyásolják az alakzat végső renderelt megjelenését.
+A vizuális határok figyelembe veszik a rendereléshez kapcsolódó szempontokat, mint például
+             transzformációk (például forgatás), körvonalvastagság és illesztések,
+             szöveg elrendezés és túlcsordulás, SmartArt geometria, és egyéb elrendezési hatások,
+             amelyek befolyásolják az alakzat végső megjelenését.
 
-             A visszaadott korlátok nincsenek levágva a dia téglalapra.
+A visszaadott határok nincsenek levágva a dia téglalapra.
 
 ### Lásd még
+
 * osztály [`Ink`](/slides/python-net/hu/aspose.slides.ink/ink)
+* osztály [`RectangleF`](/slides/python-net/hu/aspose.slides/rectanglef)
 * modul [`aspose.slides.ink`](/slides/python-net/hu/aspose.slides.ink)
 * könyvtár [`Aspose.Slides`](/slides/python-net)

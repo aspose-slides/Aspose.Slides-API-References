@@ -1,17 +1,17 @@
 ---
 title: get_tile method
-second_title: Aspose.Slides पाइथन के लिए .NET API रेफ़रेंस
+second_title: Aspose.Slides for Python via .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides/ipatternformat/get_tile/
 weight: 10
 ---
-## get_tile(self, style_color) {#asposepydrawingcolor}
-पैटर्न फिल के लिए टाइल इमेज बनाता है।
+## get_tile(self, style_color) {#asposeslidescolor}
+पैटर्न फ़िल के लिए टाइल इमेज बनाता है।
 
-### रिटर्न
+### वापसी
 
-Tile **aspose.slides.Bitmap**.
+टाइल **aspose.slides.IImage**.
 
 
 
@@ -23,15 +23,15 @@ def get_tile(self, style_color):
 
 | पैरामीटर | प्रकार | विवरण |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | डिफ़ॉल्ट **aspose.slides.Color**, <br/><br/> ShapeEx की StyleEx ऑब्जेक्ट में परिभाषित। Fill के रंग इस पर निर्भर हो सकते हैं। |
+| style_color | [`Color`](/slides/python-net/hi/aspose.slides/color) | डिफॉल्ट [`Color`](/slides/python-net/hi/aspose.slides/color), <br/><br/> ShapeEx के StyleEx ऑब्जेक्ट में परिभाषित है। Fill के रंग इस पर निर्भर हो सकते हैं। |
 
 
-## get_tile(self, background, foreground) {#asposepydrawingcolor-asposepydrawingcolor}
-निर्दिष्ट रंगों के साथ पैटर्न फिल के लिए टाइल इमेज बनाता है।
+## get_tile(self, background, foreground) {#asposeslidescolor-asposeslidescolor}
+निर्दिष्ट रंगों के साथ पैटर्न फ़िल के लिए टाइल इमेज बनाता है।
 
-### रिटर्न
+### वापसी
 
-Tile **aspose.slides.Bitmap**.
+टाइल **aspose.slides.IImage**.
 
 
 
@@ -43,13 +43,14 @@ def get_tile(self, background, foreground):
 
 | पैरामीटर | प्रकार | विवरण |
 | :- | :- | :- |
-| background | **aspose.slides.Color** | पैटर्न के लिए बैकग्राउंड **aspose.slides.Color**। |
-| foreground | **aspose.slides.Color** | पैटर्न के लिए फ़ोरग्राउंड **aspose.slides.Color**। |
+| background | [`Color`](/slides/python-net/hi/aspose.slides/color) | पैटर्न के लिए बैकग्राउंड [`Color`](/slides/python-net/hi/aspose.slides/color)। |
+| foreground | [`Color`](/slides/python-net/hi/aspose.slides/color) | पैटर्न के लिए फ़ोरग्राउंड [`Color`](/slides/python-net/hi/aspose.slides/color)। |
 
 
 
-### संबंधित देखें
+### संदर्भ देखें
 * क्लास [`IImage`](/slides/python-net/hi/aspose.slides/iimage)
 * क्लास [`IPatternFormat`](/slides/python-net/hi/aspose.slides/ipatternformat)
+* क्लास [`Color`](/slides/python-net/hi/aspose.slides/color)
 * मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
 * लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

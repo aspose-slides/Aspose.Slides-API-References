@@ -6,17 +6,15 @@ type: docs
 url: /el/aspose.slides.animation/motionpath/insert/
 weight: 40
 ---
-## insert(self, index, type, pts, pts_type, b_relative_coord) {#int-motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool}
-Εισαγωγή νέας εντολής στο μονοπάτι
-
+## insert(self, index, type, pts, pts_type, b_relative_coord) {#int-motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool}
+Εισαγάγετε νέα εντολή στο μονοπάτι
 
 ```python
 def insert(self, index, type, pts, pts_type, b_relative_coord):
     ...
 ```
 
-
-| Parameter | Type | Description |
+| Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
 | index | **int** |  |
 | type | [`MotionCommandPathType`](/slides/python-net/el/aspose.slides.animation/motioncommandpathtype) |  |
@@ -24,11 +22,9 @@ def insert(self, index, type, pts, pts_type, b_relative_coord):
 | pts_type | [`MotionPathPointsType`](/slides/python-net/el/aspose.slides.animation/motionpathpointstype) |  |
 | b_relative_coord | **bool** |  |
 
-
-
 ### Δείτε επίσης
-* enumeration [`MotionCommandPathType`](/slides/python-net/el/aspose.slides.animation/motioncommandpathtype)
-* class [`MotionPath`](/slides/python-net/el/aspose.slides.animation/motionpath)
-* enumeration [`MotionPathPointsType`](/slides/python-net/el/aspose.slides.animation/motionpathpointstype)
-* module [`aspose.slides.animation`](/slides/python-net/el/aspose.slides.animation)
-* library [`Aspose.Slides`](/slides/python-net)
+* απαρίθμηση [`MotionCommandPathType`](/slides/python-net/el/aspose.slides.animation/motioncommandpathtype)
+* κλάση [`MotionPath`](/slides/python-net/el/aspose.slides.animation/motionpath)
+* απαρίθμηση [`MotionPathPointsType`](/slides/python-net/el/aspose.slides.animation/motionpathpointstype)
+* μονάδα [`aspose.slides.animation`](/slides/python-net/el/aspose.slides.animation)
+* βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

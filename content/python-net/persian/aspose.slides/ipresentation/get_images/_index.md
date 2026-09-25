@@ -7,11 +7,11 @@ url: /fa/aspose.slides/ipresentation/get_images/
 weight: 10
 ---
 ## get_images(self, options) {#asposeslidesexportirenderingoptions}
-بازگرداندن یک شیء Thumbnail Image برای تمام اسلایدهای یک ارائه.
+یک شیء Thumbnail Image objects برای تمام اسلایدهای یک ارائه باز می‌گرداند.
 
-### بازگرداندن
+### باز می‌گرداند
 
-آبجکت‌های Bitmap.
+Bitmap objects.
 
 
 
@@ -21,17 +21,17 @@ def get_images(self, options):
 ```
 
 
-| پارامتر | نوع | توضیح |
+| پارامتر | نوع | توضیحات |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/fa/aspose.slides.export/irenderingoptions) | گزینه‌های رندرینگ. |
+| options | [`IRenderingOptions`](/slides/python-net/fa/aspose.slides.export/irenderingoptions) | Rendering options. |
 
 
 ## get_images(self, options, slides) {#asposeslidesexportirenderingoptions-listint}
-بازگرداندن شیء Thumbnail Bitmap برای اسلایدهای مشخص شده از یک ارائه.
+یک شیء Thumbnail Bitmap objects برای اسلایدهای مشخص‌شدهٔ یک ارائه باز می‌گرداند.
 
-### بازگرداندن
+### باز می‌گرداند
 
-آبجکت‌های Bitmap.
+Bitmap objects.
 
 
 
@@ -41,18 +41,18 @@ def get_images(self, options, slides):
 ```
 
 
-| پارامتر | نوع | توضیح |
+| پارامتر | نوع | توضیحات |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/fa/aspose.slides.export/irenderingoptions) | گزینه‌های رندرینگ. |
-| slides | **List[int]** | آرایه‌ای با موقعیت‌های اسلاید، شروع از 1. |
+| options | [`IRenderingOptions`](/slides/python-net/fa/aspose.slides.export/irenderingoptions) | Rendering options. |
+| slides | **List[int]** | Array with slide positions, starting from 1. |
 
 
-## get_images(self, options, image_size) {#asposeslidesexportirenderingoptions-asposepydrawingsize}
-بازگرداندن شیء Thumbnail Image برای تمام اسلایدهای یک ارائه با اندازهٔ مشخص.
+## get_images(self, options, image_size) {#asposeslidesexportirenderingoptions-asposeslidessize}
+یک شیء Thumbnail Image objects برای تمام اسلایدهای یک ارائه با اندازهٔ مشخص باز می‌گرداند.
 
-### بازگرداندن
+### باز می‌گرداند
 
-آبجکت‌های Bitmap.
+Bitmap objects.
 
 
 
@@ -62,18 +62,18 @@ def get_images(self, options, image_size):
 ```
 
 
-| پارامتر | نوع | توضیح |
+| پارامتر | نوع | توضیحات |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/fa/aspose.slides.export/irenderingoptions) | گزینه‌های رندرینگ. |
-| image_size | **aspose.slides.Size** | اندازهٔ تصویری که باید ایجاد شود. |
+| options | [`IRenderingOptions`](/slides/python-net/fa/aspose.slides.export/irenderingoptions) | Rendering options. |
+| image_size | [`Size`](/slides/python-net/fa/aspose.slides/size) | Size of the image to create. |
 
 
 ## get_images(self, options, scale_x, scale_y) {#asposeslidesexportirenderingoptions-float-float}
-بازگرداندن شیء Thumbnail Image برای تمام اسلایدهای یک ارائه با مقیاس‌گذاری سفارشی.
+یک شیء Thumbnail Image objects برای تمام اسلایدهای یک ارائه با مقیاس‌گذاری سفارشی باز می‌گرداند.
 
-### بازگرداندن
+### باز می‌گرداند
 
-آبجکت‌های Bitmap.
+Bitmap objects.
 
 
 
@@ -83,19 +83,19 @@ def get_images(self, options, scale_x, scale_y):
 ```
 
 
-| پارامتر | نوع | توضیح |
+| پارامتر | نوع | توضیحات |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/fa/aspose.slides.export/irenderingoptions) | گزینه‌های رندرینگ. |
-| scale_x | **float** | مقداری که برای مقیاس‌گذاری این Thumbnail در جهت محور x استفاده می‌شود. |
-| scale_y | **float** | مقداری که برای مقیاس‌گذاری این Thumbnail در جهت محور y استفاده می‌شود. |
+| options | [`IRenderingOptions`](/slides/python-net/fa/aspose.slides.export/irenderingoptions) | Rendering options. |
+| scale_x | **float** | The value by which to scale this Thumbnail in the x-axis direction. |
+| scale_y | **float** | The value by which to scale this Thumbnail in the y-axis direction. |
 
 
-## get_images(self, options, slides, image_size) {#asposeslidesexportirenderingoptions-listint-asposepydrawingsize}
-بازگرداندن شیء Thumbnail Image برای اسلایدهای مشخص شده از یک ارائه با اندازهٔ مشخص.
+## get_images(self, options, slides, image_size) {#asposeslidesexportirenderingoptions-listint-asposeslidessize}
+یک شیء Thumbnail Image objects برای اسلایدهای مشخص‌شدهٔ یک ارائه با اندازهٔ مشخص باز می‌گرداند.
 
-### بازگرداندن
+### باز می‌گرداند
 
-آبجکت‌های Bitmap.
+Bitmap objects.
 
 
 
@@ -105,19 +105,19 @@ def get_images(self, options, slides, image_size):
 ```
 
 
-| پارامتر | نوع | توضیح |
+| پارامتر | نوع | توضیحات |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/fa/aspose.slides.export/irenderingoptions) | گزینه‌های رندرینگ. |
-| slides | **List[int]** | آرایه‌ای با موقعیت‌های اسلاید، شروع از 1. |
-| image_size | **aspose.slides.Size** | اندازهٔ تصویری که باید ایجاد شود. |
+| options | [`IRenderingOptions`](/slides/python-net/fa/aspose.slides.export/irenderingoptions) | Rendering options. |
+| slides | **List[int]** | Array with slide positions, starting from 1. |
+| image_size | [`Size`](/slides/python-net/fa/aspose.slides/size) | Size of the image to create. |
 
 
 ## get_images(self, options, slides, scale_x, scale_y) {#asposeslidesexportirenderingoptions-listint-float-float}
-بازگرداندن شیء Thumbnail Image برای اسلایدهای مشخص شده از یک ارائه با مقیاس‌گذاری سفارشی.
+یک شیء Thumbnail Image objects برای اسلایدهای مشخص‌شدهٔ یک ارائه با مقیاس‌گذاری سفارشی باز می‌گرداند.
 
-### بازگرداندن
+### باز می‌گرداند
 
-آبجکت‌های Bitmap.
+Bitmap objects.
 
 
 
@@ -127,17 +127,18 @@ def get_images(self, options, slides, scale_x, scale_y):
 ```
 
 
-| پارامتر | نوع | توضیح |
+| پارامتر | نوع | توضیحات |
 | :- | :- | :- |
-| options | [`IRenderingOptions`](/slides/python-net/fa/aspose.slides.export/irenderingoptions) | گزینه‌های رندرینگ. |
-| slides | **List[int]** | آرایه‌ای با موقعیت‌های اسلاید، شروع از 1. |
-| scale_x | **float** | مقداری که برای مقیاس‌گذاری این Thumbnail در جهت محور x استفاده می‌شود. |
-| scale_y | **float** | مقداری که برای مقیاس‌گذاری این Thumbnail در جهت محور y استفاده می‌شود. |
+| options | [`IRenderingOptions`](/slides/python-net/fa/aspose.slides.export/irenderingoptions) | Rendering options. |
+| slides | **List[int]** | Array with slide positions, starting from 1. |
+| scale_x | **float** | The value by which to scale this Thumbnail in the x-axis direction. |
+| scale_y | **float** | The value by which to scale this Thumbnail in the y-axis direction. |
 
 
 
 ### موارد مرتبط
-* class [`IPresentation`](/slides/python-net/fa/aspose.slides/ipresentation)
-* class [`IRenderingOptions`](/slides/python-net/fa/aspose.slides.export/irenderingoptions)
-* module [`aspose.slides`](/slides/python-net/fa/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* کلاس [`IPresentation`](/slides/python-net/fa/aspose.slides/ipresentation)
+* کلاس [`IRenderingOptions`](/slides/python-net/fa/aspose.slides.export/irenderingoptions)
+* کلاس [`Size`](/slides/python-net/fa/aspose.slides/size)
+* ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)
+* کتابخانه [`Aspose.Slides`](/slides/python-net)

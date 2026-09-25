@@ -8,7 +8,7 @@ weight: 10
 ---
 ## 顏色屬性
 返回或設定繪圖參考線的顏色。
-            可讀寫 **aspose.slides.Color**.
+            可讀寫 [`Color`](/slides/python-net/zh-hant/aspose.slides/color).
 
 ### 定義：
 ```python
@@ -22,7 +22,8 @@ def color(self, value):
 ```
 
 
-### 另請參閱
+### 另見
 * 類別 [`DrawingGuide`](/slides/python-net/zh-hant/aspose.slides/drawingguide)
+* 類別 [`Color`](/slides/python-net/zh-hant/aspose.slides/color)
 * 模組 [`aspose.slides`](/slides/python-net/zh-hant/aspose.slides)
 * 函式庫 [`Aspose.Slides`](/slides/python-net)

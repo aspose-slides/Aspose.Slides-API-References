@@ -1,15 +1,15 @@
 ---
 title: MotionPath class
-second_title: Aspose.Slides für Python via .NET API-Referenz
+second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides.animation/motionpath/
 ---
 ## MotionPath Klasse
 
-Stellt den Bewegungspfad dar.
+Stellt einen Bewegungspfad dar.
 
-Der MotionPath-Typ stellt die folgenden Mitglieder bereit:
+Der MotionPath-Typ stellt die folgenden Member bereit:
 
 ## Konstruktoren
 
@@ -21,7 +21,7 @@ Der MotionPath-Typ stellt die folgenden Mitglieder bereit:
 
 | Eigenschaft | Beschreibung |
 | :- | :- |
-| [`count`](/slides/python-net/de/aspose.slides.animation/motionpath/count/) | Gibt die Anzahl der Pfade in der Sammlung zurück.<br/>            Nur-Lesen **int**. |
+| [`count`](/slides/python-net/de/aspose.slides.animation/motionpath/count/) | Gibt die Anzahl der Pfade in der Sammlung zurück.<br/>            Read-only **int**. |
 
 Gibt einen Befehl am angegebenen Index zurück.
 
@@ -35,8 +35,8 @@ Gibt einen Befehl am angegebenen Index zurück.
 
 | Methode | Beschreibung |
 | :- | :- |
-| [`add(self, type, pts, pts_type, b_relative_coord)`](/slides/python-net/de/aspose.slides.animation/motionpath/add/#motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool) | Fügt einen neuen Befehl zum Pfad hinzu |
-| [`insert(self, index, type, pts, pts_type, b_relative_coord)`](/slides/python-net/de/aspose.slides.animation/motionpath/insert/#int-motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool) | Fügt einen neuen Befehl in den Pfad ein |
+| [`add(self, type, pts, pts_type, b_relative_coord)`](/slides/python-net/de/aspose.slides.animation/motionpath/add/#motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool) | Fügt einen neuen Befehl zum Pfad hinzu |
+| [`insert(self, index, type, pts, pts_type, b_relative_coord)`](/slides/python-net/de/aspose.slides.animation/motionpath/insert/#int-motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool) | Fügt einen neuen Befehl in den Pfad ein |
 | [`clear(self)`](/slides/python-net/de/aspose.slides.animation/motionpath/clear/#) | Entfernt alle Befehle aus der Sammlung. |
 | [`remove(self, item)`](/slides/python-net/de/aspose.slides.animation/motionpath/remove/#imotioncmdpath) | Entfernt angegebene Befehle aus der Sammlung. |
 | [`remove_at(self, index)`](/slides/python-net/de/aspose.slides.animation/motionpath/remove_at/#int) | Entfernt einen Befehl am angegebenen Index. |

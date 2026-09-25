@@ -1,14 +1,14 @@
 ---
 title: color property
-second_title: Aspose.Slides a Python számára .NET API hivatkozás
+second_title: Aspose.Slides for Python via .NET API referencia
 description: 
 type: docs
 url: /hu/aspose.slides/igradientstopeffectivedata/color/
 weight: 10
 ---
-## color tulajdonság
-Visszaadja a színátmenet állomás színét.
-            Csak olvasható **aspose.slides.Color**.
+## szín tulajdonság
+Visszaadja egy színátmenet állomás színét.
+            Csak olvasás [`Color`](/slides/python-net/hu/aspose.slides/color).
 
 ### Definíció:
 ```python
@@ -20,5 +20,6 @@ def color(self):
 
 ### Lásd még
 * osztály [`IGradientStopEffectiveData`](/slides/python-net/hu/aspose.slides/igradientstopeffectivedata)
+* osztály [`Color`](/slides/python-net/hu/aspose.slides/color)
 * modul [`aspose.slides`](/slides/python-net/hu/aspose.slides)
 * könyvtár [`Aspose.Slides`](/slides/python-net)

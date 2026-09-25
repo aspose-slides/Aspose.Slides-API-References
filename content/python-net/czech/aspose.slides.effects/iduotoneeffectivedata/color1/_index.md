@@ -8,7 +8,7 @@ weight: 20
 ---
 ## color1 vlastnost
 Vrací cílový formát barvy pro tmavé pixely.
-            Pouze ke čtení **aspose.slides.Color**.
+            Pouze ke čtení [`Color`](/slides/python-net/cs/aspose.slides/color).
 
 ### Definice:
 ```python
@@ -20,5 +20,6 @@ def color1(self):
 
 ### Viz také
 * třída [`IDuotoneEffectiveData`](/slides/python-net/cs/aspose.slides.effects/iduotoneeffectivedata)
+* třída [`Color`](/slides/python-net/cs/aspose.slides/color)
 * modul [`aspose.slides.effects`](/slides/python-net/cs/aspose.slides.effects)
 * knihovna [`Aspose.Slides`](/slides/python-net)

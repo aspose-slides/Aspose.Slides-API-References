@@ -5,19 +5,19 @@ description:
 type: docs
 url: /ja/aspose.slides.effects/icolorreplaceeffectivedata/
 ---
-## IColorReplaceEffectiveData class
+## IColorReplaceEffectiveData クラス
 
-カラー置換エフェクトを表す不変オブジェクトです。  
-            すべてのエフェクト色は固定色に変更されます。  
-            アルファ値は影響を受けません。
+不変オブジェクトで、カラー置換エフェクトを表します。  
+すべてのエフェクトカラーは固定カラーに変更されます。  
+アルファ値は影響を受けません。
 
-IColorReplaceEffectiveData型は次のメンバーを公開します:
+IColorReplaceEffectiveData 型は次のメンバーを公開します。
 
-## Properties
+## プロパティ
 
 | プロパティ | 説明 |
 | :- | :- |
-| [`color`](/slides/python-net/ja/aspose.slides.effects/icolorreplaceeffectivedata/color/) | すべてのピクセルの色を置き換える色形式を返します。<br/>            読み取り専用 **aspose.slides.Color**. |
+| [`color`](/slides/python-net/ja/aspose.slides.effects/icolorreplaceeffectivedata/color/) | すべてのピクセルの色を置き換えるカラー形式を返します。<br/>            読み取り専用 [`Color`](/slides/python-net/ja/aspose.slides/color)。 |
 
 ### 参照
 * モジュール [`aspose.slides.effects`](/slides/python-net/ja/aspose.slides.effects)

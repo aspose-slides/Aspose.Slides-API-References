@@ -1,6 +1,6 @@
 ---
 title: IGradientStopCollection class
-second_title: مرجع API لـ Aspose.Slides للبايثون عبر .NET
+second_title: Aspose.Slides لـ Python عبر .NET دليل API
 description: 
 type: docs
 url: /ar/aspose.slides/igradientstopcollection/
@@ -9,9 +9,9 @@ url: /ar/aspose.slides/igradientstopcollection/
 
 يمثل مجموعة من نقاط التدرج.
 
-نوع IGradientStopCollection يعرّف الأعضاء التالية:
+يعرض نوع IGradientStopCollection الأعضاء التالية:
 
-يُعيد نقطة التدرج بحسب الفهرس.
+يعيد نقطة التدرج حسب الفهرس.
 
 ## المؤشر
 
@@ -23,13 +23,13 @@ url: /ar/aspose.slides/igradientstopcollection/
 
 | الطريقة | الوصف |
 | :- | :- |
-| [`add(self, position, color)`](/slides/python-net/ar/aspose.slides/igradientstopcollection/add/#float-asposepydrawingcolor) | ينشئ نقطة التدرج الجديدة ويضيفها إلى نهاية المجموعة. |
+| [`add(self, position, color)`](/slides/python-net/ar/aspose.slides/igradientstopcollection/add/#float-asposeslidescolor) | ينشئ نقطة التدرج الجديدة ويضيفها إلى نهاية المجموعة. |
 | [`add(self, position, preset_color)`](/slides/python-net/ar/aspose.slides/igradientstopcollection/add/#float-presetcolor) | ينشئ نقطة التدرج الجديدة ويضيفها إلى نهاية المجموعة. |
 | [`add(self, position, scheme_color)`](/slides/python-net/ar/aspose.slides/igradientstopcollection/add/#float-schemecolor) | ينشئ نقطة التدرج الجديدة ويضيفها إلى نهاية المجموعة. |
-| [`insert(self, index, position, color)`](/slides/python-net/ar/aspose.slides/igradientstopcollection/insert/#int-float-asposepydrawingcolor) | ينشئ نقطة التدرج الجديدة ويُدرجها في الفهرس المحدد داخل المجموعة. |
-| [`insert(self, index, position, preset_color)`](/slides/python-net/ar/aspose.slides/igradientstopcollection/insert/#int-float-presetcolor) | ينشئ نقطة التدرج الجديدة ويُدرجها في الفهرس المحدد داخل المجموعة. |
-| [`insert(self, index, position, scheme_color)`](/slides/python-net/ar/aspose.slides/igradientstopcollection/insert/#int-float-schemecolor) | ينشئ نقطة التدرج الجديدة ويُدرجها في الفهرس المحدد داخل المجموعة. |
-| [`remove_at(self, index)`](/slides/python-net/ar/aspose.slides/igradientstopcollection/remove_at/#int) | يزيل نقطة التدرج المحددة بالفهرس. |
+| [`insert(self, index, position, color)`](/slides/python-net/ar/aspose.slides/igradientstopcollection/insert/#int-float-asposeslidescolor) | ينشئ نقطة التدرج الجديدة ويدرجها في الفهرس المحدد داخل المجموعة. |
+| [`insert(self, index, position, preset_color)`](/slides/python-net/ar/aspose.slides/igradientstopcollection/insert/#int-float-presetcolor) | ينشئ نقطة التدرج الجديدة ويدرجها في الفهرس المحدد داخل المجموعة. |
+| [`insert(self, index, position, scheme_color)`](/slides/python-net/ar/aspose.slides/igradientstopcollection/insert/#int-float-schemecolor) | ينشئ نقطة التدرج الجديدة ويدرجها في الفهرس المحدد داخل المجموعة. |
+| [`remove_at(self, index)`](/slides/python-net/ar/aspose.slides/igradientstopcollection/remove_at/#int) | يحذف نقطة التدرج في الفهرس المحدد. |
 | [`clear(self)`](/slides/python-net/ar/aspose.slides/igradientstopcollection/clear/#) | يزيل جميع نقاط التدرج من المجموعة. |
 
 ### انظر أيضًا

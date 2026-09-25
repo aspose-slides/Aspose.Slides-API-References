@@ -1,6 +1,6 @@
 ---
 title: IPatternFormatEffectiveData class
-second_title: Aspose.Slides para Python via .NET Referência da API
+second_title: Aspose.Slides para Python via Referência de API .NET
 description: 
 type: docs
 url: /pt/aspose.slides/ipatternformateffectivedata/
@@ -13,17 +13,17 @@ O tipo IPatternFormatEffectiveData expõe os seguintes membros:
 
 ## Propriedades
 
-| Property | Description |
+| Propriedade | Descrição |
 | :- | :- |
 | [`pattern_style`](/slides/python-net/pt/aspose.slides/ipatternformateffectivedata/pattern_style/) | Retorna o estilo do padrão.<br/>            Somente leitura [`PatternStyle`](/slides/python-net/pt/aspose.slides/patternstyle). |
-| [`fore_color`](/slides/python-net/pt/aspose.slides/ipatternformateffectivedata/fore_color/) | Retorna a cor do padrão de primeiro plano.<br/>            Somente leitura **aspose.slides.Color**. |
-| [`back_color`](/slides/python-net/pt/aspose.slides/ipatternformateffectivedata/back_color/) | Retorna a cor do padrão de plano de fundo.<br/>            Somente leitura **aspose.slides.Color**. |
+| [`fore_color`](/slides/python-net/pt/aspose.slides/ipatternformateffectivedata/fore_color/) | Retorna a cor do padrão de primeiro plano.<br/>            Somente leitura [`Color`](/slides/python-net/pt/aspose.slides/color). |
+| [`back_color`](/slides/python-net/pt/aspose.slides/ipatternformateffectivedata/back_color/) | Retorna a cor do padrão de fundo.<br/>            Somente leitura [`Color`](/slides/python-net/pt/aspose.slides/color). |
 
 ## Métodos
 
-| Method | Description |
+| Método | Descrição |
 | :- | :- |
-| [`get_tile_i_image(self, background, foreground)`](/slides/python-net/pt/aspose.slides/ipatternformateffectivedata/get_tile_i_image/#asposepydrawingcolor-asposepydrawingcolor) | Cria uma imagem em ladrilho para o preenchimento de padrão com cores especificadas. |
+| [`get_tile_i_image(self, background, foreground)`](/slides/python-net/pt/aspose.slides/ipatternformateffectivedata/get_tile_i_image/#asposeslidescolor-asposeslidescolor) | Cria uma imagem de ladrilho para o preenchimento de padrão com cores especificadas. |
 
 
 ### Observações

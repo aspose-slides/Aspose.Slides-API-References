@@ -7,20 +7,19 @@ url: /zh-hant/aspose.slides.effects/iinnershadoweffectivedata/
 ---
 ## IInnerShadowEffectiveData 類別
 
-表示內部陰影效果的不可變物件。
+不可變物件，表示內部陰影效果。
 
 IInnerShadowEffectiveData 類型公開以下成員：
 
 ## 屬性
 
-| 屬性 | 描述 |
+| Property | Description |
 | :- | :- |
-| [`blur_radius`](/slides/python-net/zh-hant/aspose.slides.effects/iinnershadoweffectivedata/blur_radius/) | 模糊半徑。<br/>            Read-only **float**. |
-| [`direction`](/slides/python-net/zh-hant/aspose.slides.effects/iinnershadoweffectivedata/direction/) | 陰影方向。<br/>            Read-only **float**. |
-| [`distance`](/slides/python-net/zh-hant/aspose.slides.effects/iinnershadoweffectivedata/distance/) | 陰影距離。<br/>            Read-only **float**. |
-| [`shadow_color`](/slides/python-net/zh-hant/aspose.slides.effects/iinnershadoweffectivedata/shadow_color/) | 陰影顏色。<br/>            Read-only **aspose.slides.Color**. |
+| [`blur_radius`](/slides/python-net/zh-hant/aspose.slides.effects/iinnershadoweffectivedata/blur_radius/) | 模糊半徑。<br/>            唯讀 **float**. |
+| [`direction`](/slides/python-net/zh-hant/aspose.slides.effects/iinnershadoweffectivedata/direction/) | 陰影方向。<br/>            唯讀 **float**. |
+| [`distance`](/slides/python-net/zh-hant/aspose.slides.effects/iinnershadoweffectivedata/distance/) | 陰影距離。<br/>            唯讀 **float**. |
+| [`shadow_color`](/slides/python-net/zh-hant/aspose.slides.effects/iinnershadoweffectivedata/shadow_color/) | 陰影顏色。<br/>            唯讀 [`Color`](/slides/python-net/zh-hant/aspose.slides/color). |
 
-
-### 另見
+### 另請參閱
 * 模組 [`aspose.slides.effects`](/slides/python-net/zh-hant/aspose.slides.effects)
 * 函式庫 [`Aspose.Slides`](/slides/python-net)

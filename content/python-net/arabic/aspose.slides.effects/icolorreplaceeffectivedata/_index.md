@@ -1,15 +1,15 @@
 ---
 title: IColorReplaceEffectiveData class
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: Aspose.Slides للـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.effects/icolorreplaceeffectivedata/
 ---
-## فئة IColorReplaceEffectiveData
+## IColorReplaceEffectiveData فئة
 
-كائن غير قابل للتعديل يمثل تأثير استبدال اللون.
-            يتم تغيير جميع ألوان التأثير إلى لون ثابت.
-            قيم ألفا لا تتأثر.
+كائن غير قابل للتغيير يمثل تأثير استبدال اللون.
+جميع ألوان التأثير يتم تغييرها إلى لون ثابت.
+قيمة ألفا لا تتأثر.
 
 نوع IColorReplaceEffectiveData يعرض الأعضاء التالية:
 
@@ -17,9 +17,9 @@ url: /ar/aspose.slides.effects/icolorreplaceeffectivedata/
 
 | الخاصية | الوصف |
 | :- | :- |
-| [`color`](/slides/python-net/ar/aspose.slides.effects/icolorreplaceeffectivedata/color/) | إرجاع تنسيق اللون الذي سيستبدل لون كل بكسل.<br/>            للقراءة فقط **aspose.slides.Color**. |
+| [`color`](/slides/python-net/ar/aspose.slides.effects/icolorreplaceeffectivedata/color/) | يُرجِع تنسيق اللون الذي سيستبدل لون كل بكسل.<br/>            للقراءة فقط [`Color`](/slides/python-net/ar/aspose.slides/color). |
 
 
 ### انظر أيضًا
-* الوحدة [`aspose.slides.effects`](/slides/python-net/ar/aspose.slides.effects)
+* وحدة [`aspose.slides.effects`](/slides/python-net/ar/aspose.slides.effects)
 * المكتبة [`Aspose.Slides`](/slides/python-net)

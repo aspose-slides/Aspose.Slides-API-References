@@ -1,16 +1,16 @@
 ---
 title: from_address property
-second_title: Aspose.Slides for Python via .NET API संदर्भ
+second_title: Aspose.Slides Python के लिए .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides.animation/imotioneffect/from_address/
 weight: 60
 ---
 ## from_address प्रॉपर्टी
-एनिमेशन को शुरू करने के लिए x/y कोऑर्डिनेट निर्दिष्ट करता है (प्रतिशत में)।
-पढ़ें/लिखें **aspose.slides.PointF**.
+एनीमेशन को शुरू करने के लिए एक x/y कोऑर्डिनेट निर्दिष्ट करता है (प्रतिशत में)।
+पढ़ें/लिखें [`PointF`](/slides/python-net/hi/aspose.slides/pointf).
 
-### परिभाषा:
+### Definition:
 ```python
 @property
 def from_address(self):
@@ -21,7 +21,8 @@ def from_address(self, value):
     ...
 ```
 
-### देखें
-* क्लास [`IMotionEffect`](/slides/python-net/hi/aspose.slides.animation/imotioneffect)
-* मॉड्यूल [`aspose.slides.animation`](/slides/python-net/hi/aspose.slides.animation)
-* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)
+### देखें भी
+* class [`IMotionEffect`](/slides/python-net/hi/aspose.slides.animation/imotioneffect)
+* class [`PointF`](/slides/python-net/hi/aspose.slides/pointf)
+* module [`aspose.slides.animation`](/slides/python-net/hi/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)

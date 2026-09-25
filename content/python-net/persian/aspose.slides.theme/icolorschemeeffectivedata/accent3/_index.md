@@ -6,9 +6,9 @@ type: docs
 url: /fa/aspose.slides.theme/icolorschemeeffectivedata/accent3/
 weight: 30
 ---
-## accent3 ویژگی
-رنگ سوم تأکید در طرح.
-            فقط‌خواندنی **aspose.slides.Color**.
+## ویژگی accent3
+سومین رنگ تاکید در طرح.
+            فقط-خواندنی [`Color`](/slides/python-net/fa/aspose.slides/color).
 
 ### تعریف:
 ```python
@@ -18,7 +18,8 @@ def accent3(self):
 ```
 
 
-### همچنین ببینید
+### موارد مرتبط
 * کلاس [`IColorSchemeEffectiveData`](/slides/python-net/fa/aspose.slides.theme/icolorschemeeffectivedata)
+* کلاس [`Color`](/slides/python-net/fa/aspose.slides/color)
 * ماژول [`aspose.slides.theme`](/slides/python-net/fa/aspose.slides.theme)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

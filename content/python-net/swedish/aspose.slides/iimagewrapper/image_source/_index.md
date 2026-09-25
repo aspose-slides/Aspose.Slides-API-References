@@ -8,7 +8,7 @@ weight: 30
 ---
 ## image_source egenskap
 Hämtar bilden
-            Skrivskyddad **aspose.slides.Image**.
+            Skrivskyddad **aspose.slides.IImage**.
 
 ### Definition:
 ```python

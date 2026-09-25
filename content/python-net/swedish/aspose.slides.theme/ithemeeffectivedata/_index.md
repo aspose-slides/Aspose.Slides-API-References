@@ -7,30 +7,30 @@ url: /sv/aspose.slides.theme/ithemeeffectivedata/
 ---
 ## IThemeEffectiveData klass
 
-Oföränderligt objekt som innehåller effektiva temaparametrar.
+Oföränderligt objekt som innehåller effektiva temaeigenskaper.
 
-IThemeEffectiveData-typen exponerar följande medlemmar:
+Typen IThemeEffectiveData exponerar följande medlemmar:
 
 ## Egenskaper
 
 | Egenskap | Beskrivning |
 | :- | :- |
-| [`font_scheme`](/slides/python-net/sv/aspose.slides.theme/ithemeeffectivedata/font_scheme/) | Returnerar teckensnittsschemat.<br/>            Skrivskyddad [`IFontSchemeEffectiveData`](/slides/python-net/sv/aspose.slides.theme/ifontschemeeffectivedata). |
-| [`format_scheme`](/slides/python-net/sv/aspose.slides.theme/ithemeeffectivedata/format_scheme/) | Returnerar formformatsschemat.<br/>            Skrivskyddad [`IFormatSchemeEffectiveData`](/slides/python-net/sv/aspose.slides.theme/iformatschemeeffectivedata). |
+| [`font_scheme`](/slides/python-net/sv/aspose.slides.theme/ithemeeffectivedata/font_scheme/) | Returnerar typsnittsschemat.<br/>            Skrivskyddad [`IFontSchemeEffectiveData`](/slides/python-net/sv/aspose.slides.theme/ifontschemeeffectivedata). |
+| [`format_scheme`](/slides/python-net/sv/aspose.slides.theme/ithemeeffectivedata/format_scheme/) | Returnerar format-schemat för former.<br/>            Skrivskyddad [`IFormatSchemeEffectiveData`](/slides/python-net/sv/aspose.slides.theme/iformatschemeeffectivedata). |
 
 ## Metoder
 
 | Metod | Beskrivning |
 | :- | :- |
-| [`get_color_scheme(self, style_color)`](/slides/python-net/sv/aspose.slides.theme/ithemeeffectivedata/get_color_scheme/#asposepydrawingcolor) | Returnerar färgschemat. |
+| [`get_color_scheme(self, style_color)`](/slides/python-net/sv/aspose.slides.theme/ithemeeffectivedata/get_color_scheme/#asposeslidescolor) | Returnerar färgschemat. |
 
 
 ### Anmärkningar
 
-Detta gränssnitt används tillsammans med [`ITheme`](/slides/python-net/sv/aspose.slides.theme/itheme)-gränssnittet för att returnera effektiva formateringsvärden med ärftlighet tillämpad.
+Detta gränssnitt används tillsammans med gränssnittet [`ITheme`](/slides/python-net/sv/aspose.slides.theme/itheme) för att returnera effektiva formateringsvärden med arv tillämpat.
 
 
-### Se också
+### Se även
 * klass [`ITheme`](/slides/python-net/sv/aspose.slides.theme/itheme)
 * modul [`aspose.slides.theme`](/slides/python-net/sv/aspose.slides.theme)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

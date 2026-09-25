@@ -1,6 +1,6 @@
 ---
 title: IGradientStopCollection class
-second_title: Aspose.Slides dla Pythona przez .NET – Odniesienie API
+second_title: Aspose.Slides dla Pythona poprzez .NET Referencję API
 description: 
 type: docs
 url: /pl/aspose.slides/igradientstopcollection/
@@ -13,24 +13,25 @@ Typ IGradientStopCollection udostępnia następujące elementy:
 
 Zwraca punkt gradientu według indeksu.
 
-## Indeksator
+## Indexer
 
-| Nazwa | Opis |
+| Name | Description |
 | :- | :- |
 | [`[index]`](/slides/python-net/pl/aspose.slides/igradientstopcollection/__getitem__/) |  |
 
 ## Metody
 
-| Metoda | Opis |
+| Method | Description |
 | :- | :- |
-| [`add(self, position, color)`](/slides/python-net/pl/aspose.slides/igradientstopcollection/add/#float-asposepydrawingcolor) | Tworzy nowy punkt gradientu i dodaje go na koniec kolekcji. |
+| [`add(self, position, color)`](/slides/python-net/pl/aspose.slides/igradientstopcollection/add/#float-asposeslidescolor) | Tworzy nowy punkt gradientu i dodaje go na koniec kolekcji. |
 | [`add(self, position, preset_color)`](/slides/python-net/pl/aspose.slides/igradientstopcollection/add/#float-presetcolor) | Tworzy nowy punkt gradientu i dodaje go na koniec kolekcji. |
 | [`add(self, position, scheme_color)`](/slides/python-net/pl/aspose.slides/igradientstopcollection/add/#float-schemecolor) | Tworzy nowy punkt gradientu i dodaje go na koniec kolekcji. |
-| [`insert(self, index, position, color)`](/slides/python-net/pl/aspose.slides/igradientstopcollection/insert/#int-float-asposepydrawingcolor) | Tworzy nowy punkt gradientu i wstawia go pod podanym indeksem do kolekcji. |
-| [`insert(self, index, position, preset_color)`](/slides/python-net/pl/aspose.slides/igradientstopcollection/insert/#int-float-presetcolor) | Tworzy nowy punkt gradientu i wstawia go pod podanym indeksem do kolekcji. |
-| [`insert(self, index, position, scheme_color)`](/slides/python-net/pl/aspose.slides/igradientstopcollection/insert/#int-float-schemecolor) | Tworzy nowy punkt gradientu i wstawia go pod podanym indeksem do kolekcji. |
-| [`remove_at(self, index)`](/slides/python-net/pl/aspose.slides/igradientstopcollection/remove_at/#int) | Usuwa punkt gradientu pod podanym indeksem. |
+| [`insert(self, index, position, color)`](/slides/python-net/pl/aspose.slides/igradientstopcollection/insert/#int-float-asposeslidescolor) | Tworzy nowy punkt gradientu i wstawia go w określonym indeksie do kolekcji. |
+| [`insert(self, index, position, preset_color)`](/slides/python-net/pl/aspose.slides/igradientstopcollection/insert/#int-float-presetcolor) | Tworzy nowy punkt gradientu i wstawia go w określonym indeksie do kolekcji. |
+| [`insert(self, index, position, scheme_color)`](/slides/python-net/pl/aspose.slides/igradientstopcollection/insert/#int-float-schemecolor) | Tworzy nowy punkt gradientu i wstawia go w określonym indeksie do kolekcji. |
+| [`remove_at(self, index)`](/slides/python-net/pl/aspose.slides/igradientstopcollection/remove_at/#int) | Usuwa punkt gradientu w określonym indeksie. |
 | [`clear(self)`](/slides/python-net/pl/aspose.slides/igradientstopcollection/clear/#) | Usuwa wszystkie punkty gradientu z kolekcji. |
+
 
 ### Zobacz także
 * moduł [`aspose.slides`](/slides/python-net/pl/aspose.slides)

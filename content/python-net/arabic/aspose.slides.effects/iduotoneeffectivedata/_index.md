@@ -1,25 +1,25 @@
 ---
 title: IDuotoneEffectiveData class
-second_title: مرجع API Aspose.Slides للبايثون عبر .NET
+second_title: Aspose.Slides للبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.effects/iduotoneeffectivedata/
 ---
-## IDuotoneEffectiveData فئة
+## الفئة IDuotoneEffectiveData
 
-كائن غير قابل للتغيير يمثل تأثير Duotone.  
-لكل بكسل، يجمع clr1 و clr2 من خلال استيفاء خطي لتحديد اللون الجديد لهذا البكسل.
+كائن غير قابل للتغيير يمثل تأثير Duotone.
+            لكل بكسل، يجمع clr1 و clr2 عبر استيفاء خطي لتحديد اللون الجديد لذلك البكسل.
 
-نوع IDuotoneEffectiveData يعرض الأعضاء التالية:
+يعرض نوع IDuotoneEffectiveData الأعضاء التالية:
 
 ## الخصائص
 
 | خاصية | الوصف |
 | :- | :- |
-| [`color1`](/slides/python-net/ar/aspose.slides.effects/iduotoneeffectivedata/color1/) | إرجاع تنسيق اللون المستهدف للبيكسلات الداكنة.<br/>للقراءة فقط **aspose.slides.Color**. |
-| [`color2`](/slides/python-net/ar/aspose.slides.effects/iduotoneeffectivedata/color2/) | إرجاع تنسيق اللون المستهدف للبيكسلات الفاتحة.<br/>للقراءة فقط **aspose.slides.Color**. |
+| [`color1`](/slides/python-net/ar/aspose.slides.effects/iduotoneeffectivedata/color1/) | يعيد تنسيق اللون المستهدف للبيكسلات الداكنة.<br/>            قراءة فقط [`Color`](/slides/python-net/ar/aspose.slides/color). |
+| [`color2`](/slides/python-net/ar/aspose.slides.effects/iduotoneeffectivedata/color2/) | يعيد تنسيق اللون المستهدف للبيكسلات الفاتحة.<br/>            قراءة فقط [`Color`](/slides/python-net/ar/aspose.slides/color). |
 
 
-### انظر أيضاً
+### انظر أيضًا
 * الوحدة [`aspose.slides.effects`](/slides/python-net/ar/aspose.slides.effects)
 * المكتبة [`Aspose.Slides`](/slides/python-net)

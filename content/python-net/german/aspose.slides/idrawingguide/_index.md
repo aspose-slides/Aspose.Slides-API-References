@@ -7,7 +7,7 @@ url: /de/aspose.slides/idrawingguide/
 ---
 ## IDrawingGuide Klasse
 
-Stellt einen anpassbaren Zeichenleitfaden dar.
+Stellt einen einstellbaren Zeichenführer dar.
 
 Der IDrawingGuide-Typ stellt die folgenden Mitglieder bereit:
 
@@ -15,9 +15,9 @@ Der IDrawingGuide-Typ stellt die folgenden Mitglieder bereit:
 
 | Eigenschaft | Beschreibung |
 | :- | :- |
-| [`orientation`](/slides/python-net/de/aspose.slides/idrawingguide/orientation/) | Gibt die Orientierung des Zeichenleitfadens zurück oder legt sie fest.<br/>            Lesen/Schreiben [`Orientation`](/slides/python-net/de/aspose.slides/orientation). |
-| [`position`](/slides/python-net/de/aspose.slides/idrawingguide/position/) | Gibt die Position des Zeichenleitfadens in Punkten vom oberen linken Eck der Folie zurück oder legt sie fest.<br/>            Lesen/Schreiben **float**. |
-| [`color`](/slides/python-net/de/aspose.slides/idrawingguide/color/) | Gibt die Farbe des Zeichenleitfadens zurück oder legt sie fest.<br/>            Lesen/Schreiben **aspose.slides.Color**. |
+| [`orientation`](/slides/python-net/de/aspose.slides/idrawingguide/orientation/) | Gibt die Orientierung des Zeichenführers zurück oder legt sie fest.<br/>            Lesen/Schreiben [`Orientation`](/slides/python-net/de/aspose.slides/orientation). |
+| [`position`](/slides/python-net/de/aspose.slides/idrawingguide/position/) | Gibt die Position des Zeichenführers in Punkten relativ zur oberen linken Ecke der Folie zurück oder legt sie fest.<br/>            Lesen/Schreiben **float**. |
+| [`color`](/slides/python-net/de/aspose.slides/idrawingguide/color/) | Gibt die Farbe des Zeichenführers zurück oder legt sie fest.<br/>            Lesen/Schreiben [`Color`](/slides/python-net/de/aspose.slides/color). |
 
 
 ### Siehe auch

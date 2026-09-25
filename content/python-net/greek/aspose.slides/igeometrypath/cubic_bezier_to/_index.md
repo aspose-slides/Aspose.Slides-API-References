@@ -6,7 +6,7 @@ type: docs
 url: /el/aspose.slides/igeometrypath/cubic_bezier_to/
 weight: 30
 ---
-## cubic_bezier_to(self, point1, point2, point3) {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf}
+## cubic_bezier_to(self, point1, point2, point3) {#asposeslidespointf-asposeslidespointf-asposeslidespointf}
 Προσθέτει κυβική καμπύλη Bezier στο τέλος του μονοπατιού
 
 
@@ -18,12 +18,12 @@ def cubic_bezier_to(self, point1, point2, point3):
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | Πρώτο σημείο κατεύθυνσης |
-| point2 | **aspose.slides.PointF** | Δεύτερο σημείο κατεύθυνσης |
-| point3 | **aspose.slides.PointF** | Τελικό σημείο |
+| point1 | [`PointF`](/slides/python-net/el/aspose.slides/pointf) | Πρώτο σημείο κατεύθυνσης |
+| point2 | [`PointF`](/slides/python-net/el/aspose.slides/pointf) | Δεύτερο σημείο κατεύθυνσης |
+| point3 | [`PointF`](/slides/python-net/el/aspose.slides/pointf) | Τελικό σημείο |
 
 
-## cubic_bezier_to(self, point1, point2, point3, index) {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf-int}
+## cubic_bezier_to(self, point1, point2, point3, index) {#asposeslidespointf-asposeslidespointf-asposeslidespointf-int}
 Προσθέτει κυβική καμπύλη Bezier στην καθορισμένη θέση του μονοπατιού
 
 
@@ -35,16 +35,16 @@ def cubic_bezier_to(self, point1, point2, point3, index):
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
-| point1 | **aspose.slides.PointF** | Πρώτο σημείο κατεύθυνσης |
-| point2 | **aspose.slides.PointF** | Δεύτερο σημείο κατεύθυνσης |
-| point3 | **aspose.slides.PointF** | Τελικό σημείο |
+| point1 | [`PointF`](/slides/python-net/el/aspose.slides/pointf) | Πρώτο σημείο κατεύθυνσης |
+| point2 | [`PointF`](/slides/python-net/el/aspose.slides/pointf) | Δεύτερο σημείο κατεύθυνσης |
+| point3 | [`PointF`](/slides/python-net/el/aspose.slides/pointf) | Τελικό σημείο |
 | index | **int** | Δείκτης του τμήματος στο PathData |
 
 ### Εξαιρέσεις
 
 | Εξαίρεση | Περιγραφή |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Ο δείκτης τμήματος είναι εκτός του εύρους του PathData |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Ο δείκτης του τμήματος είναι εκτός εύρους του PathData |
 
 
 ## cubic_bezier_to(self, x1, y1, x2, y2, x3, y3) {#float-float-float-float-float-float}
@@ -91,11 +91,12 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index):
 
 | Εξαίρεση | Περιγραφή |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Ο δείκτης τμήματος είναι εκτός του εύρους του PathData |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Ο δείκτης του τμήματος είναι εκτός εύρους του PathData |
 
 
 
 ### Δείτε επίσης
 * κλάση [`IGeometryPath`](/slides/python-net/el/aspose.slides/igeometrypath)
+* κλάση [`PointF`](/slides/python-net/el/aspose.slides/pointf)
 * μονάδα [`aspose.slides`](/slides/python-net/el/aspose.slides)
 * βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

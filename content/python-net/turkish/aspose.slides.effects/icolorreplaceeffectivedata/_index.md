@@ -5,11 +5,11 @@ description:
 type: docs
 url: /tr/aspose.slides.effects/icolorreplaceeffectivedata/
 ---
-## IColorReplaceEffectiveData sınıfı
+## IColorReplaceEffectiveData sınıf
 
-Renk Değiştirme etkisini temsil eden değişmez nesne.  
-Tüm etki renkleri sabit bir renge değiştirilir.  
-Alfa değerleri etkilenmez.
+Renk Değiştirme etkisini temsil eden değiştirilemez nesne.
+            Tüm etki renkleri sabit bir renge değiştirilir.
+            Alfa değerleri etkilenmez.
 
 IColorReplaceEffectiveData türü aşağıdaki üyeleri sunar:
 
@@ -17,8 +17,9 @@ IColorReplaceEffectiveData türü aşağıdaki üyeleri sunar:
 
 | Özellik | Açıklama |
 | :- | :- |
-| [`color`](/slides/python-net/tr/aspose.slides.effects/icolorreplaceeffectivedata/color/) | Her pikselin rengini değiştirecek renk biçimini döndürür.<br/>            Salt okunur **aspose.slides.Color**. |
+| [`color`](/slides/python-net/tr/aspose.slides.effects/icolorreplaceeffectivedata/color/) | Her pikselin rengini değiştirecek renk biçimini döndürür.<br/>            Yalnızca okuma [`Color`](/slides/python-net/tr/aspose.slides/color). |
 
-### Ayrıca Bakınız
+
+### Ayrıca bakınız
 * modül [`aspose.slides.effects`](/slides/python-net/tr/aspose.slides.effects)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

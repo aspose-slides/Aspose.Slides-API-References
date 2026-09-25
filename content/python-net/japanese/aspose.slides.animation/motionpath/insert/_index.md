@@ -6,7 +6,7 @@ type: docs
 url: /ja/aspose.slides.animation/motionpath/insert/
 weight: 40
 ---
-## insert(self, index, type, pts, pts_type, b_relative_coord) {#int-motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool}
+## insert(self, index, type, pts, pts_type, b_relative_coord) {#int-motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool}
 パスに新しいコマンドを挿入します
 
 
@@ -27,8 +27,8 @@ def insert(self, index, type, pts, pts_type, b_relative_coord):
 
 
 ### 参照
-* 列挙型 [`MotionCommandPathType`](/slides/python-net/ja/aspose.slides.animation/motioncommandpathtype)
+* 列挙体 [`MotionCommandPathType`](/slides/python-net/ja/aspose.slides.animation/motioncommandpathtype)
 * クラス [`MotionPath`](/slides/python-net/ja/aspose.slides.animation/motionpath)
-* 列挙型 [`MotionPathPointsType`](/slides/python-net/ja/aspose.slides.animation/motionpathpointstype)
+* 列挙体 [`MotionPathPointsType`](/slides/python-net/ja/aspose.slides.animation/motionpathpointstype)
 * モジュール [`aspose.slides.animation`](/slides/python-net/ja/aspose.slides.animation)
 * ライブラリ [`Aspose.Slides`](/slides/python-net)

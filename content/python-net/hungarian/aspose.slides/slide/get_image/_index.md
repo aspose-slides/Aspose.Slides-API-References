@@ -1,6 +1,6 @@
 ---
 title: get_image method
-second_title: Aspose.Slides Python számára .NET API referencia
+second_title: Aspose.Slides Pythonhoz .NET-en keresztül API Referencia
 description: 
 type: docs
 url: /hu/aspose.slides/slide/get_image/
@@ -17,10 +17,10 @@ def get_image(self):
 
 
 
-## get_image(self, image_size) {#asposepydrawingsize}
+## get_image(self, image_size) {#asposeslidessize}
 Visszaad egy Thumbnail Image objektumot a megadott mérettel.
 
-### Visszatérési érték
+### Visszatér
 
 Image objektum.
 
@@ -34,13 +34,13 @@ def get_image(self, image_size):
 
 | Paraméter | Típus | Leírás |
 | :- | :- | :- |
-| image_size | **aspose.slides.Size** | A létrehozandó kép mérete. |
+| image_size | [`Size`](/slides/python-net/hu/aspose.slides/size) | A létrehozandó image mérete. |
 
 
 ## get_image(self, options) {#asposeslidesexportitiffoptions}
 Visszaad egy Thumbnail tiff image objektumot a megadott paraméterekkel.
 
-### Visszatérési érték
+### Visszatér
 
 Image objektum.
 
@@ -56,17 +56,17 @@ def get_image(self, options):
 | :- | :- | :- |
 | options | [`ITiffOptions`](/slides/python-net/hu/aspose.slides.export/itiffoptions) | Tiff opciók. |
 
-### Kivétel
+### Kivételek
 
 | Kivétel | Leírás |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Kivétel keletkezik, ha az options.SlideLayoutOption értéke NotesCommentsLayoutingOptions, és a NotesPosition tulajdonsága a NotesPositions.BottomFull értéket veszi fel. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Kivétel, ha az options.SlideLayoutOption a NotesCommentsLayoutingOptions, és a NotesPosition tulajdonsága a NotesPositions.BottomFull értéket veszi fel. |
 
 
 ## get_image(self, options) {#asposeslidesexportirenderingoptions}
 Visszaad egy Thumbnail Image objektumot.
 
-### Visszatérési érték
+### Visszatér
 
 Image objektum.
 
@@ -82,17 +82,17 @@ def get_image(self, options):
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/hu/aspose.slides.export/irenderingoptions) | Renderelési opciók. |
 
-### Kivétel
+### Kivételek
 
 | Kivétel | Leírás |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Kivétel keletkezik, ha a notesCommentsLayouting.NotesPosition a NotesPositions.BottomFull értéket veszi fel. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Kivétel, ha a notesCommentsLayouting.NotesPosition a NotesPositions.BottomFull értéket veszi fel. |
 
 
 ## get_image(self, scale_x, scale_y) {#float-float}
-Visszaad egy Thumbnail Image objektumot egyedi méretezéssel.
+Visszaad egy Thumbnail Image objektumot egyéni méretezéssel.
 
-### Visszatérési érték
+### Visszatér
 
 IImage objektum.
 
@@ -106,14 +106,14 @@ def get_image(self, scale_x, scale_y):
 
 | Paraméter | Típus | Leírás |
 | :- | :- | :- |
-| scale_x | **float** | Az az érték, amellyel a Thumbnail-et az x-tengely irányában méretezni kell. |
-| scale_y | **float** | Az az érték, amellyel a Thumbnail-et az y-tengely irányában méretezni kell. |
+| scale_x | **float** | Az az érték, amellyel ezt a Thumbnail-et az x tengely irányában kell méretezni. |
+| scale_y | **float** | Az az érték, amellyel ezt a Thumbnail-et az y tengely irányában kell méretezni. |
 
 
-## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposepydrawingsize}
+## get_image(self, options, image_size) {#asposeslidesexportirenderingoptions-asposeslidessize}
 Visszaad egy Thumbnail Image objektumot a megadott mérettel.
 
-### Visszatérési érték
+### Visszatér
 
 Image objektum.
 
@@ -128,19 +128,19 @@ def get_image(self, options, image_size):
 | Paraméter | Típus | Leírás |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/hu/aspose.slides.export/irenderingoptions) | Renderelési opciók. |
-| image_size | **aspose.slides.Size** | A létrehozandó kép mérete. |
+| image_size | [`Size`](/slides/python-net/hu/aspose.slides/size) | A létrehozandó image mérete. |
 
-### Kivétel
+### Kivételek
 
 | Kivétel | Leírás |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Kivétel keletkezik, ha az options.SlideLayoutOption értéke NotesCommentsLayoutingOptions, és a NotesPosition tulajdonsága a NotesPositions.BottomFull értéket veszi fel. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Kivétel, ha az options.SlideLayoutOption a NotesCommentsLayoutingOptions, és a NotesPosition tulajdonsága a NotesPositions.BottomFull értéket veszi fel. |
 
 
 ## get_image(self, options, scale_x, scale_y) {#asposeslidesexportirenderingoptions-float-float}
-Visszaad egy Thumbnail Image objektumot egyedi méretezéssel.
+Visszaad egy Thumbnail Image objektumot egyéni méretezéssel.
 
-### Visszatérési érték
+### Visszatér
 
 Bitmap objektumok.
 
@@ -155,14 +155,14 @@ def get_image(self, options, scale_x, scale_y):
 | Paraméter | Típus | Leírás |
 | :- | :- | :- |
 | options | [`IRenderingOptions`](/slides/python-net/hu/aspose.slides.export/irenderingoptions) | Renderelési opciók. |
-| scale_x | **float** | Az az érték, amellyel a Thumbnail-et az x-tengely irányában méretezni kell. |
-| scale_y | **float** | Az az érték, amellyel a Thumbnail-et az y-tengely irányában méretezni kell. |
+| scale_x | **float** | Az az érték, amellyel ezt a Thumbnail-et az x tengely irányában kell méretezni. |
+| scale_y | **float** | Az az érték, amellyel ezt a Thumbnail-et az y tengely irányában kell méretezni. |
 
-### Kivétel
+### Kivételek
 
 | Kivétel | Leírás |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Kivétel keletkezik, ha a notesCommentsLayouting.NotesPosition a NotesPositions.BottomFull értéket veszi fel. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Kivétel, ha a notesCommentsLayouting.NotesPosition a NotesPositions.BottomFull értéket veszi fel. |
 
 
 
@@ -171,5 +171,6 @@ def get_image(self, options, scale_x, scale_y):
 * osztály [`IRenderingOptions`](/slides/python-net/hu/aspose.slides.export/irenderingoptions)
 * osztály [`ITiffOptions`](/slides/python-net/hu/aspose.slides.export/itiffoptions)
 * osztály [`Slide`](/slides/python-net/hu/aspose.slides/slide)
+* osztály [`Size`](/slides/python-net/hu/aspose.slides/size)
 * modul [`aspose.slides`](/slides/python-net/hu/aspose.slides)
 * könyvtár [`Aspose.Slides`](/slides/python-net)

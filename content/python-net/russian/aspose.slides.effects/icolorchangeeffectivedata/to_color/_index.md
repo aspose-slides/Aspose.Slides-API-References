@@ -1,14 +1,14 @@
 ---
 title: to_color property
-second_title: Aspose.Slides для Python через .NET: справочник API
+second_title: Aspose.Slides для Python через .NET справочник API
 description: 
 type: docs
 url: /ru/aspose.slides.effects/icolorchangeeffectivedata/to_color/
 weight: 30
 ---
-## свойство to_color
+## to_color свойство
 Цвет, который будет заменён.
-            Только для чтения **aspose.slides.Color**.
+            Только для чтения [`Color`](/slides/python-net/ru/aspose.slides/color).
 
 ### Определение:
 ```python
@@ -18,7 +18,8 @@ def to_color(self):
 ```
 
 
-### Смотрите также
+### См. также
 * класс [`IColorChangeEffectiveData`](/slides/python-net/ru/aspose.slides.effects/icolorchangeeffectivedata)
+* класс [`Color`](/slides/python-net/ru/aspose.slides/color)
 * модуль [`aspose.slides.effects`](/slides/python-net/ru/aspose.slides.effects)
 * библиотека [`Aspose.Slides`](/slides/python-net)

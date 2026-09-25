@@ -1,14 +1,14 @@
 ---
 title: slide_image_size property
-second_title: Aspose.Slides للبايثون عبر .NET مرجع API
+second_title: Aspose.Slides لـ Python عبر مرجع .NET API
 description: 
 type: docs
 url: /ar/aspose.slides.export/ihtmlgenerator/slide_image_size/
 weight: 60
 ---
-## slide_image_size خاصية
+## slide_image_size الخاصية
 يعيد حجم صورة الشريحة.
-            للقراءة فقط **aspose.slides.SizeF**.
+للقراءة فقط [`SizeF`](/slides/python-net/ar/aspose.slides/sizef).
 
 ### التعريف:
 ```python
@@ -19,6 +19,7 @@ def slide_image_size(self):
 
 
 ### انظر أيضًا
-* فئة [`IHtmlGenerator`](/slides/python-net/ar/aspose.slides.export/ihtmlgenerator)
-* وحدة [`aspose.slides.export`](/slides/python-net/ar/aspose.slides.export)
-* مكتبة [`Aspose.Slides`](/slides/python-net)
+* الفئة [`IHtmlGenerator`](/slides/python-net/ar/aspose.slides.export/ihtmlgenerator)
+* الفئة [`SizeF`](/slides/python-net/ar/aspose.slides/sizef)
+* الوحدة [`aspose.slides.export`](/slides/python-net/ar/aspose.slides.export)
+* المكتبة [`Aspose.Slides`](/slides/python-net)

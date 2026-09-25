@@ -6,9 +6,9 @@ type: docs
 url: /zh/aspose.slides/ishapeframe/rectangle/
 weight: 70
 ---
-## 矩形属性
+## rectangle 属性
 返回帧的坐标。
-            只读 **aspose.slides.RectangleF**。
+            只读 [`RectangleF`](/slides/python-net/zh/aspose.slides/rectanglef).
 
 ### 定义:
 ```python
@@ -20,5 +20,6 @@ def rectangle(self):
 
 ### 另请参见
 * 类 [`IShapeFrame`](/slides/python-net/zh/aspose.slides/ishapeframe)
+* 类 [`RectangleF`](/slides/python-net/zh/aspose.slides/rectanglef)
 * 模块 [`aspose.slides`](/slides/python-net/zh/aspose.slides)
 * 库 [`Aspose.Slides`](/slides/python-net)

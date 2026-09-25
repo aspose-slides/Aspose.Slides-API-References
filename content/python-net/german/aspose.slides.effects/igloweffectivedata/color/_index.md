@@ -8,7 +8,7 @@ weight: 20
 ---
 ## color Eigenschaft
 Farbe.
-Nur lesbar **aspose.slides.Color**.
+            Nur-Lesen [`Color`](/slides/python-net/de/aspose.slides/color).
 
 ### Definition:
 ```python
@@ -20,5 +20,6 @@ def color(self):
 
 ### Siehe auch
 * Klasse [`IGlowEffectiveData`](/slides/python-net/de/aspose.slides.effects/igloweffectivedata)
+* Klasse [`Color`](/slides/python-net/de/aspose.slides/color)
 * Modul [`aspose.slides.effects`](/slides/python-net/de/aspose.slides.effects)
 * Bibliothek [`Aspose.Slides`](/slides/python-net)

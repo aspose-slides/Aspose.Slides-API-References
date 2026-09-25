@@ -1,15 +1,15 @@
 ---
 title: get_tile method
-second_title: Aspose.Slides a .NET API hivatkozás segítségével Pythonhoz
+second_title: Aspose.Slides Pythonhoz a .NET API referenciája
 description: 
 type: docs
 url: /hu/aspose.slides/patternformat/get_tile/
 weight: 10
 ---
-## get_tile(self, style_color) {#asposepydrawingcolor}
-Létrehoz egy csempe képet a mintázott kitöltéshez.
+## get_tile(self, style_color) {#asposeslidescolor}
+Létrehozza a csempeképet a minta kitöltéshez.
 
-### Visszatér
+### Visszatérési érték
 
 Csempe [`IImage`](/slides/python-net/hu/aspose.slides/iimage).
 
@@ -23,13 +23,13 @@ def get_tile(self, style_color):
 
 | Paraméter | Típus | Leírás |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | Az alapértelmezett **aspose.slides.Color** |
+| style_color | [`Color`](/slides/python-net/hu/aspose.slides/color) | Az alapértelmezett [`Color`](/slides/python-net/hu/aspose.slides/color) |
 
 
-## get_tile(self, background, foreground) {#asposepydrawingcolor-asposepydrawingcolor}
-Létrehoz egy csempe képet a mintázott kitöltéshez a megadott színekkel.
+## get_tile(self, background, foreground) {#asposeslidescolor-asposeslidescolor}
+Létrehozza a csempeképet a minta kitöltéshez megadott színekkel.
 
-### Visszatér
+### Visszatérési érték
 
 Csempe [`IImage`](/slides/python-net/hu/aspose.slides/iimage).
 
@@ -43,13 +43,14 @@ def get_tile(self, background, foreground):
 
 | Paraméter | Típus | Leírás |
 | :- | :- | :- |
-| background | **aspose.slides.Color** | A háttér **aspose.slides.Color** a mintához. |
-| foreground | **aspose.slides.Color** | Az előtér **aspose.slides.Color** a mintához. |
+| background | [`Color`](/slides/python-net/hu/aspose.slides/color) | A háttér [`Color`](/slides/python-net/hu/aspose.slides/color) a mintához. |
+| foreground | [`Color`](/slides/python-net/hu/aspose.slides/color) | Az előtér [`Color`](/slides/python-net/hu/aspose.slides/color) a mintához. |
 
 
 
 ### Lásd még
 * osztály [`IImage`](/slides/python-net/hu/aspose.slides/iimage)
 * osztály [`PatternFormat`](/slides/python-net/hu/aspose.slides/patternformat)
+* osztály [`Color`](/slides/python-net/hu/aspose.slides/color)
 * modul [`aspose.slides`](/slides/python-net/hu/aspose.slides)
 * könyvtár [`Aspose.Slides`](/slides/python-net)

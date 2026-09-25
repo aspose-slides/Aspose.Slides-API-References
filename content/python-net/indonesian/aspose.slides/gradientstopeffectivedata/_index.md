@@ -1,24 +1,24 @@
 ---
 title: GradientStopEffectiveData class
-second_title: Aspose.Slides untuk Python via .NET Referensi API
+second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides/gradientstopeffectivedata/
 ---
 ## GradientStopEffectiveData kelas
 
-Objek tidak dapat diubah yang mewakili titik gradasi.
+Objek tidak dapat diubah yang mewakili gradient stop.
 
-Tipe GradientStopEffectiveData menyajikan anggota berikut:
+Tipe GradientStopEffectiveData menampilkan anggota berikut:
 
 ## Properti
 
 | Properti | Deskripsi |
 | :- | :- |
-| [`position`](/slides/python-net/id/aspose.slides/gradientstopeffectivedata/position/) | Mengembalikan posisi (0..1) dari titik gradasi.<br/>            Baca-saja **float**. |
-| [`color`](/slides/python-net/id/aspose.slides/gradientstopeffectivedata/color/) | Mengembalikan warna dari titik gradasi.<br/>            Baca-saja **aspose.slides.Color**. |
+| [`position`](/slides/python-net/id/aspose.slides/gradientstopeffectivedata/position/) | Mengembalikan posisi (0..1) dari gradient stop.<br/>            Hanya-baca **float**. |
+| [`color`](/slides/python-net/id/aspose.slides/gradientstopeffectivedata/color/) | Mengembalikan warna dari gradient stop.<br/>            Hanya-baca [`Color`](/slides/python-net/id/aspose.slides/color). |
 
 
 ### Lihat Juga
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
-* pustaka [`Aspose.Slides`](/slides/python-net)
+* perpustakaan [`Aspose.Slides`](/slides/python-net)

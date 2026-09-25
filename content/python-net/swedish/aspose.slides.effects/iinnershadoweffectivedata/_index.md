@@ -15,12 +15,12 @@ Typen IInnerShadowEffectiveData exponerar följande medlemmar:
 
 | Egenskap | Beskrivning |
 | :- | :- |
-| [`blur_radius`](/slides/python-net/sv/aspose.slides.effects/iinnershadoweffectivedata/blur_radius/) | Oskärpegrad.<br/>            Skrivskyddad **float**. |
+| [`blur_radius`](/slides/python-net/sv/aspose.slides.effects/iinnershadoweffectivedata/blur_radius/) | Oskärpradie.<br/>            Skrivskyddad **float**. |
 | [`direction`](/slides/python-net/sv/aspose.slides.effects/iinnershadoweffectivedata/direction/) | Skuggans riktning.<br/>            Skrivskyddad **float**. |
 | [`distance`](/slides/python-net/sv/aspose.slides.effects/iinnershadoweffectivedata/distance/) | Skuggans avstånd.<br/>            Skrivskyddad **float**. |
-| [`shadow_color`](/slides/python-net/sv/aspose.slides.effects/iinnershadoweffectivedata/shadow_color/) | Skuggans färg.<br/>            Skrivskyddad **aspose.slides.Color**. |
+| [`shadow_color`](/slides/python-net/sv/aspose.slides.effects/iinnershadoweffectivedata/shadow_color/) | Skuggans färg.<br/>            Skrivskyddad [`Color`](/slides/python-net/sv/aspose.slides/color). |
 
 
-### Se även
+### Se också
 * modul [`aspose.slides.effects`](/slides/python-net/sv/aspose.slides.effects)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

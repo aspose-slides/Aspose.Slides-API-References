@@ -5,19 +5,19 @@ description:
 type: docs
 url: /tr/aspose.slides.effects/igloweffectivedata/
 ---
-## IGlowEffectiveData sınıfı
+## IGlowEffectiveData sınıf
 
-Değiştirilemez nesne, bir Glow efekti temsil eder; bu efektte nesnenin kenarları dışında renkli bulanık bir kontur eklenir.
+Değiştirilemez nesne, bir Glow efekti temsil eder; bir rengin bulanık kenar çizgisi nesnenin kenarlarının dışına eklenir.
 
-IGlowEffectiveData türü aşağıdaki üyeleri ortaya koyar:
+IGlowEffectiveData türü aşağıdaki üyeleri ortaya çıkarır:
 
 ## Özellikler
 
 | Özellik | Açıklama |
 | :- | :- |
-| [`radius`](/slides/python-net/tr/aspose.slides.effects/igloweffectivedata/radius/) | Yarıçap.<br/>            Salt-okunur **float**. |
-| [`color`](/slides/python-net/tr/aspose.slides.effects/igloweffectivedata/color/) | Renk.<br/>            Salt-okunur **aspose.slides.Color**. |
+| [`radius`](/slides/python-net/tr/aspose.slides.effects/igloweffectivedata/radius/) | Radius.<br/>            Salt okunur **float**. |
+| [`color`](/slides/python-net/tr/aspose.slides.effects/igloweffectivedata/color/) | Color.<br/>            Salt okunur [`Color`](/slides/python-net/tr/aspose.slides/color). |
 
-### Ayrıca Bakınız
+### Bakınız
 * modül [`aspose.slides.effects`](/slides/python-net/tr/aspose.slides.effects)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

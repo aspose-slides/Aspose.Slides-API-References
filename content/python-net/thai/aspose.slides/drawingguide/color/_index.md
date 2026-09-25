@@ -1,14 +1,14 @@
 ---
 title: color property
-second_title: อ้างอิง API ของ Aspose.Slides สำหรับ Python ผ่าน .NET
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
 description: 
 type: docs
 url: /th/aspose.slides/drawingguide/color/
 weight: 10
 ---
 ## คุณสมบัติสี
-ส่งคืนหรือกำหนดสีของแนวทางการวาด.
-            อ่าน/เขียน **aspose.slides.Color**.
+ส่งคืนหรือกำหนดสีของไกด์การวาด.
+            อ่าน/เขียน [`Color`](/slides/python-net/th/aspose.slides/color).
 
 ### คำนิยาม:
 ```python
@@ -24,5 +24,6 @@ def color(self, value):
 
 ### ดูเพิ่มเติม
 * คลาส [`DrawingGuide`](/slides/python-net/th/aspose.slides/drawingguide)
+* คลาส [`Color`](/slides/python-net/th/aspose.slides/color)
 * โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
 * ไลบรารี [`Aspose.Slides`](/slides/python-net)

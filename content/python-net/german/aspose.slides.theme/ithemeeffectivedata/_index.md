@@ -7,7 +7,7 @@ url: /de/aspose.slides.theme/ithemeeffectivedata/
 ---
 ## IThemeEffectiveData Klasse
 
-Unveränderliches Objekt, das effektive Theme-Eigenschaften enthält.
+Unveränderliches Objekt, das effektive Design-Eigenschaften enthält.
 
 Der Typ IThemeEffectiveData stellt die folgenden Mitglieder bereit:
 
@@ -15,19 +15,19 @@ Der Typ IThemeEffectiveData stellt die folgenden Mitglieder bereit:
 
 | Eigenschaft | Beschreibung |
 | :- | :- |
-| [`font_scheme`](/slides/python-net/de/aspose.slides.theme/ithemeeffectivedata/font_scheme/) | Gibt das Font-Schema zurück.<br/>            Schreibgeschützt [`IFontSchemeEffectiveData`](/slides/python-net/de/aspose.slides.theme/ifontschemeeffectivedata). |
-| [`format_scheme`](/slides/python-net/de/aspose.slides.theme/ithemeeffectivedata/format_scheme/) | Gibt das Shape-Format-Schema zurück.<br/>            Schreibgeschützt [`IFormatSchemeEffectiveData`](/slides/python-net/de/aspose.slides.theme/iformatschemeeffectivedata). |
+| [`font_scheme`](/slides/python-net/de/aspose.slides.theme/ithemeeffectivedata/font_scheme/) | Gibt das Schriftartenschema zurück.<br/>            Nur lesbar [`IFontSchemeEffectiveData`](/slides/python-net/de/aspose.slides.theme/ifontschemeeffectivedata). |
+| [`format_scheme`](/slides/python-net/de/aspose.slides.theme/ithemeeffectivedata/format_scheme/) | Gibt das Formatschema für Formen zurück.<br/>            Nur lesbar [`IFormatSchemeEffectiveData`](/slides/python-net/de/aspose.slides.theme/iformatschemeeffectivedata). |
 
 ## Methoden
 
 | Methode | Beschreibung |
 | :- | :- |
-| [`get_color_scheme(self, style_color)`](/slides/python-net/de/aspose.slides.theme/ithemeeffectivedata/get_color_scheme/#asposepydrawingcolor) | Gibt das Farbschema zurück. |
+| [`get_color_scheme(self, style_color)`](/slides/python-net/de/aspose.slides.theme/ithemeeffectivedata/get_color_scheme/#asposeslidescolor) | Gibt das Farbschema zurück. |
 
 
-### Bemerkungen
+### Hinweise
 
-Dieses Interface wird zusammen mit der Schnittstelle [`ITheme`](/slides/python-net/de/aspose.slides.theme/itheme) verwendet, um wirksame Formatierungswerte mit angewandter Vererbung zurückzugeben.
+Dieses Interface wird zusammen mit dem Interface [`ITheme`](/slides/python-net/de/aspose.slides.theme/itheme) verwendet, um effektive Formatierungswerte mit angewandter Vererbung zurückzugeben.
 
 
 ### Siehe auch

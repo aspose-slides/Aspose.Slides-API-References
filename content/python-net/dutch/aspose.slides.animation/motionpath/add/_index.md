@@ -6,8 +6,8 @@ type: docs
 url: /nl/aspose.slides.animation/motionpath/add/
 weight: 20
 ---
-## add(self, type, pts, pts_type, b_relative_coord) {#motioncommandpathtype-listasposepydrawingpointf-motionpathpointstype-bool}
-Voeg een nieuw commando toe aan het pad
+## add(self, type, pts, pts_type, b_relative_coord) {#motioncommandpathtype-listasposeslidespointf-motionpathpointstype-bool}
+Voeg nieuw commando toe aan pad
 
 
 ```python

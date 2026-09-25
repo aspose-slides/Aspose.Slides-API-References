@@ -1,17 +1,17 @@
 ---
 title: get_tile method
-second_title: Aspose.Slides for Python via .NET API リファレンス
+second_title: Aspose.Slides の Python 用 .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/ipatternformat/get_tile/
 weight: 10
 ---
-## get_tile(self, style_color) {#asposepydrawingcolor}
+## get_tile(self, style_color) {#asposeslidescolor}
 パターン塗りつぶし用のタイル画像を作成します。
 
 ### 戻り値
 
-Tile **aspose.slides.Bitmap**.
+Tile **aspose.slides.IImage**.
 
 
 
@@ -21,17 +21,17 @@ def get_tile(self, style_color):
 ```
 
 
-| パラメーター | タイプ | 説明 |
+| Parameter | Type | Description |
 | :- | :- | :- |
-| style_color | **aspose.slides.Color** | デフォルトの **aspose.slides.Color**、<br/><br/>            ShapeEx の StyleEx オブジェクトで定義されています。塗りつぶしの色はこれに依存する可能性があります。 |
+| style_color | [`Color`](/slides/python-net/ja/aspose.slides/color) | ShapeEx の StyleEx オブジェクトで定義されたデフォルト [`Color`](/slides/python-net/ja/aspose.slides/color)です。<br/><br/> 塗りつぶしの色はこれに依存する可能性があります。 |
 
 
-## get_tile(self, background, foreground) {#asposepydrawingcolor-asposepydrawingcolor}
+## get_tile(self, background, foreground) {#asposeslidescolor-asposeslidescolor}
 指定された色でパターン塗りつぶし用のタイル画像を作成します。
 
 ### 戻り値
 
-Tile **aspose.slides.Bitmap**.
+Tile **aspose.slides.IImage**.
 
 
 
@@ -41,15 +41,16 @@ def get_tile(self, background, foreground):
 ```
 
 
-| パラメーター | タイプ | 説明 |
+| Parameter | Type | Description |
 | :- | :- | :- |
-| background | **aspose.slides.Color** | パターンの背景 **aspose.slides.Color**。 |
-| foreground | **aspose.slides.Color** | パターンの前景 **aspose.slides.Color**。 |
+| background | [`Color`](/slides/python-net/ja/aspose.slides/color) | パターンの背景 [`Color`](/slides/python-net/ja/aspose.slides/color)です。 |
+| foreground | [`Color`](/slides/python-net/ja/aspose.slides/color) | パターンの前景 [`Color`](/slides/python-net/ja/aspose.slides/color)です。 |
 
 
 
-### 参照
+### 関連項目
 * クラス [`IImage`](/slides/python-net/ja/aspose.slides/iimage)
 * クラス [`IPatternFormat`](/slides/python-net/ja/aspose.slides/ipatternformat)
+* クラス [`Color`](/slides/python-net/ja/aspose.slides/color)
 * モジュール [`aspose.slides`](/slides/python-net/ja/aspose.slides)
 * ライブラリ [`Aspose.Slides`](/slides/python-net)

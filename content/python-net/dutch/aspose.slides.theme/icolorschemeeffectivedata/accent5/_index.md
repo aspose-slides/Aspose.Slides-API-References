@@ -8,7 +8,7 @@ weight: 50
 ---
 ## accent5 eigenschap
 Vijfde accentkleur in het schema.
-            Alleen-lezen **aspose.slides.Color**.
+            Alleen-lezen [`Color`](/slides/python-net/nl/aspose.slides/color).
 
 ### Definitie:
 ```python
@@ -20,5 +20,6 @@ def accent5(self):
 
 ### Zie ook
 * klasse [`IColorSchemeEffectiveData`](/slides/python-net/nl/aspose.slides.theme/icolorschemeeffectivedata)
+* klasse [`Color`](/slides/python-net/nl/aspose.slides/color)
 * module [`aspose.slides.theme`](/slides/python-net/nl/aspose.slides.theme)
 * bibliotheek [`Aspose.Slides`](/slides/python-net)
