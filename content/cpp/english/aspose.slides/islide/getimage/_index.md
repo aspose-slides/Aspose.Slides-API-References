@@ -25,7 +25,7 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(float scaleX,
 
 ### Return Value
 
-Image object [System::Drawing::Bitmap](../../../system.drawing/bitmap/)
+Image object [IImage](../../iimage/)
 
 ## ISlide::GetImage() method
 
@@ -39,7 +39,7 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage()=0
 
 ### Return Value
 
-Image object [System::Drawing::Bitmap](../../../system.drawing/bitmap/)
+Image object [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::Drawing::Size) method
 
@@ -59,7 +59,7 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Drawi
 
 ### Return Value
 
-Bitmap object.
+Image object [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::ITiffOptions\>) method
 
@@ -79,7 +79,7 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 
 ### Return Value
 
-Image object.
+Image object [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>) method
 
@@ -99,7 +99,7 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 
 ### Return Value
 
-Bitmap objects.
+Image object [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, float, float) method
 
@@ -121,7 +121,7 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 
 ### Return Value
 
-Bitmap objects.
+Image object [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, System::Drawing::Size) method
 
@@ -142,7 +142,7 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 
 ### Return Value
 
-Bitmap objects.
+Image object [IImage](../../iimage/)
 
 ## See Also
 

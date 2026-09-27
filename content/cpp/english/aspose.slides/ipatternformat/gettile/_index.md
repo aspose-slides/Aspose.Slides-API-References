@@ -25,7 +25,7 @@ virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System
 
 ### Return Value
 
-Tile [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
+Tile [IImage](../../iimage/).
 
 ## IPatternFormat::GetTile(System::Drawing::Color) method
 
@@ -45,7 +45,7 @@ virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System
 
 ### Return Value
 
-Tile [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
+Tile [IImage](../../iimage/).
 
 ## See Also
 
